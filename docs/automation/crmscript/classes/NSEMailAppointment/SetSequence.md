@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAppointment_SetSequence_Integer_p_0
-description: NSEMailAppointment.SetSequence(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailAppointment_SetSequence
+description: NSEMailAppointment.SetSequence(Integer sequence)
 intellisense: NSEMailAppointment.SetSequence
-sortOrder: 2888
-keywords: SetSequence(Integer)
+keywords: NSEMailAppointment, GetSequence
 so.topic: reference
 ---
 
-
 Sequence number in ICS file.
 
-
-
-* **Sequence:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **sequence** Integer
 

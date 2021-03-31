@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEntity_GetUrls
-description: NSProjectEntity.GetUrls()
+description: EntityElementArray NSProjectEntity.GetUrls()
 intellisense: NSProjectEntity.GetUrls
-keywords: GetUrls()
+keywords: NSProjectEntity, GetUrls
 so.topic: reference
 ---
 
-
 The project's internet adresses
 
-
-
-* **Returns:** EntityElementArray
+**Returns:** EntityElementArray
 
 

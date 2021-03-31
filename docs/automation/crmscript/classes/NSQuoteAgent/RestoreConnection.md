@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_RestoreConnection_Integer_p_0
-description: NSQuoteAgent.RestoreConnection(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_RestoreConnection
+description: Void RestoreConnection(Integer quoteConnectionId)
 intellisense: NSQuoteAgent.RestoreConnection
-keywords: RestoreConnection(Integer)
+keywords: NSQuoteAgent,RestoreConnection
 so.topic: reference
 ---
 
-
 Restores a connection marked as deleted.
 
+**Parameters:**
+ - **quoteConnectionId** Primary key of the connection to restore
 
+**Returns:** A void return
 
-* **quoteConnectionId:** Primary key of the connection to restore
-* **Returns:** A void return
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteConnectionId;
+Void res = agent.RestoreConnection(quoteConnectionId);
+```
 

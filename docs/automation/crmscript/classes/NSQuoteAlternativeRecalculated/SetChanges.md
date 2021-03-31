@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteAlternativeRecalculated_SetChanges_NSChangedData_p_0
-description: NSQuoteAlternativeRecalculated.SetChanges(NSChangedData p_0)
+﻿---
+title: crmscript_ref_NSQuoteAlternativeRecalculated_SetChanges
+description: NSQuoteAlternativeRecalculated.SetChanges(ChangedData changes)
 intellisense: NSQuoteAlternativeRecalculated.SetChanges
-keywords: SetChanges(NSChangedData)
+keywords: NSQuoteAlternativeRecalculated, GetChanges
 so.topic: reference
 ---
 
-
 Tablename/recordid of data changed by this method
 
-
-
-* **Changes:** ChangedData
-* **Returns:** ChangedData
-
+**Parameter:** 
+ - **changes** ChangedData
 

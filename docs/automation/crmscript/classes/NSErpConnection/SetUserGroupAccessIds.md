@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnection_SetUserGroupAccessIds_Integer__p_0
-description: NSErpConnection.SetUserGroupAccessIds(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSErpConnection_SetUserGroupAccessIds
+description: NSErpConnection.SetUserGroupAccessIds(IntegerArray userGroupAccessIds)
 intellisense: NSErpConnection.SetUserGroupAccessIds
-sortOrder: 3103
-keywords: SetUserGroupAccessIds(Integer[])
+keywords: NSErpConnection, GetUserGroupAccessIds
 so.topic: reference
 ---
 
-
 Array of ids containing usergroups that will have access to this connection.
 
-
-
-* **UserGroupAccessIds:** IntegerArray
-* **Returns:** Void
-
+**Parameter:** 
+ - **userGroupAccessIds** IntegerArray
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTileOption_GetListName
-description: NSDashboardTileOption.GetListName()
+description: String NSDashboardTileOption.GetListName()
 intellisense: NSDashboardTileOption.GetListName
-sortOrder: 2322
-keywords: GetListName()
+keywords: NSDashboardTileOption, GetListName
 so.topic: reference
 ---
 
-
 An MDO list name, used if the type is list and no ListOptions are given
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

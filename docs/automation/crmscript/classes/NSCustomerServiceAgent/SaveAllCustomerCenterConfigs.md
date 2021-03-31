@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSCustomerServiceAgent_SaveAllCustomerCenterConfigs_NSCustomerCenterConfig__p_0
-description: NSCustomerServiceAgent.SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[] p_0)
+﻿---
+title: crmscript_ref_NSCustomerServiceAgent_SaveAllCustomerCenterConfigs
+description: Void SaveAllCustomerCenterConfigs(CustomerCenterConfigArray custConfigs)
 intellisense: NSCustomerServiceAgent.SaveAllCustomerCenterConfigs
-sortOrder: 2248
-keywords: SaveAllCustomerCenterConfigs(NSCustomerCenterConfig[])
+keywords: NSCustomerServiceAgent,SaveAllCustomerCenterConfigs
 so.topic: reference
 ---
 
-
 Save an array of CustomerCenterConfig entities to the database
 
+**Parameters:**
+ - **custConfigs** The CustomerCenterConfig entities to be saved. If the id does not exists, a new one will be created. Unknown ids will be skipped
 
+**Returns:** void
 
-* **custConfigs:** The CustomerCenterConfig entities to be saved. If the id does not exists, a new one will be created. Unknown ids will be skipped
-* **Returns:** void
-
+```crmscript
+NSCustomerServiceAgent agent;
+CustomerCenterConfigArray custConfigs;
+Void res = agent.SaveAllCustomerCenterConfigs(custConfigs);
+```
 

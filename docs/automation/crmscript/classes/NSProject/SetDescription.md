@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProject_SetDescription_String_p_0
-description: NSProject.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSProject_SetDescription
+description: NSProject.SetDescription(String description)
 intellisense: NSProject.SetDescription
-keywords: SetDescription(String)
+keywords: NSProject, GetDescription
 so.topic: reference
 ---
 
-
 The projects description
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocument_SetAssociateId_Integer_p_0
-description: NSDocument.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocument_SetAssociateId
+description: NSDocument.SetAssociateId(Integer associateId)
 intellisense: NSDocument.SetAssociateId
-sortOrder: 2447
-keywords: SetAssociateId(Integer)
+keywords: NSDocument, GetAssociateId
 so.topic: reference
 ---
 
-
 ID of associate whose diary the appointment is in, REQUIRED
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

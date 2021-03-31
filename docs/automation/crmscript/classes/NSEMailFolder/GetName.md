@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailFolder_GetName
-description: NSEMailFolder.GetName()
+description: String NSEMailFolder.GetName()
 intellisense: NSEMailFolder.GetName
-sortOrder: 3034
-keywords: GetName()
+keywords: NSEMailFolder, GetName
 so.topic: reference
 ---
 
-
 Name of folder
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

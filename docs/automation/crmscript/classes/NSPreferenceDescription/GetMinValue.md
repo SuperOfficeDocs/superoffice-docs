@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPreferenceDescription_GetMinValue
-description: NSPreferenceDescription.GetMinValue()
+description: Integer NSPreferenceDescription.GetMinValue()
 intellisense: NSPreferenceDescription.GetMinValue
-keywords: GetMinValue()
+keywords: NSPreferenceDescription, GetMinValue
 so.topic: reference
 ---
 
-
 Min value (if type 1); list extra id (if type 5)
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointmentEntity_SetProjectTypeStatusLink_NSProjectTypeStatusLink_p_0
-description: NSSuggestedAppointmentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointmentEntity_SetProjectTypeStatusLink
+description: NSSuggestedAppointmentEntity.SetProjectTypeStatusLink(ProjectTypeStatusLink projectTypeStatusLink)
 intellisense: NSSuggestedAppointmentEntity.SetProjectTypeStatusLink
-keywords: SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+keywords: NSSuggestedAppointmentEntity, GetProjectTypeStatusLink
 so.topic: reference
 ---
 
-
 Project type and project status link info
 
-
-
-* **ProjectTypeStatusLink:** ProjectTypeStatusLink
-* **Returns:** ProjectTypeStatusLink
-
+**Parameter:** 
+ - **projectTypeStatusLink** ProjectTypeStatusLink
 

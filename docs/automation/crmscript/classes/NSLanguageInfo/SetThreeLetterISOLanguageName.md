@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLanguageInfo_SetThreeLetterISOLanguageName_String_p_0
-description: NSLanguageInfo.SetThreeLetterISOLanguageName(String p_0)
+﻿---
+title: crmscript_ref_NSLanguageInfo_SetThreeLetterISOLanguageName
+description: NSLanguageInfo.SetThreeLetterISOLanguageName(String threeLetterISOLanguageName)
 intellisense: NSLanguageInfo.SetThreeLetterISOLanguageName
-keywords: SetThreeLetterISOLanguageName(String)
+keywords: NSLanguageInfo, GetThreeLetterISOLanguageName
 so.topic: reference
 ---
 
-
 ISO 3-letter abbreviation
 
-
-
-* **ThreeLetterISOLanguageName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **threeLetterISOLanguageName** String
 

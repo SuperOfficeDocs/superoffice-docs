@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCRMScriptResult_SetErrorMessage_String_p_0
-description: NSCRMScriptResult.SetErrorMessage(String p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptResult_SetErrorMessage
+description: NSCRMScriptResult.SetErrorMessage(String errorMessage)
 intellisense: NSCRMScriptResult.SetErrorMessage
-sortOrder: 2153
-keywords: SetErrorMessage(String)
+keywords: NSCRMScriptResult, GetErrorMessage
 so.topic: reference
 ---
 
-
 Contains the error message for a non-valide CRMScript
 
-
-
-* **ErrorMessage:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **errorMessage** String
 

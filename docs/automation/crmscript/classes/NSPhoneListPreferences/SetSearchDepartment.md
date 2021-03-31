@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListPreferences_SetSearchDepartment_Bool_p_0
-description: NSPhoneListPreferences.SetSearchDepartment(Bool p_0)
+﻿---
+title: crmscript_ref_NSPhoneListPreferences_SetSearchDepartment
+description: NSPhoneListPreferences.SetSearchDepartment(Bool searchDepartment)
 intellisense: NSPhoneListPreferences.SetSearchDepartment
-keywords: SetSearchDepartment(Bool)
+keywords: NSPhoneListPreferences, GetSearchDepartment
 so.topic: reference
 ---
 
-
 True if you want to search for Departments where your colleagues work.
 
-
-
-* **SearchDepartment:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **searchDepartment** Bool
 

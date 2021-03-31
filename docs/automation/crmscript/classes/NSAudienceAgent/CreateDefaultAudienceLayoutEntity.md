@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSAudienceAgent_CreateDefaultAudienceLayoutEntity
-description: NSAudienceAgent.CreateDefaultAudienceLayoutEntity()
+description: NSAudienceLayoutEntity CreateDefaultAudienceLayoutEntity()
 intellisense: NSAudienceAgent.CreateDefaultAudienceLayoutEntity
-sortOrder: 1297
-keywords: CreateDefaultAudienceLayoutEntity()
+keywords: NSAudienceAgent,CreateDefaultAudienceLayoutEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSAudienceLayoutEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSAudienceLayoutEntity with default values.
 
-
-Loading default values into a new AudienceLayoutEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New AudienceLayoutEntity with default values
-
+```crmscript
+NSAudienceAgent agent;
+NSAudienceLayoutEntity thing = agent.CreateDefaultAudienceLayoutEntity();
+thing = agent.SaveAudienceLayoutEntity(thing);
+```
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentInfo_GetUpdated
-description: NSConsentInfo.GetUpdated()
+description: DateTime NSConsentInfo.GetUpdated()
 intellisense: NSConsentInfo.GetUpdated
-sortOrder: 1629
-keywords: GetUpdated()
+keywords: NSConsentInfo, GetUpdated
 so.topic: reference
 ---
 
-
 When this consent record was last updated
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

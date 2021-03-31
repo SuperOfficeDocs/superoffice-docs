@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetSaleType_NSSaleType_p_0
-description: NSSaleEntity.SetSaleType(NSSaleType p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetSaleType
+description: NSSaleEntity.SetSaleType(SaleType saleType)
 intellisense: NSSaleEntity.SetSaleType
-keywords: SetSaleType(NSSaleType)
+keywords: NSSaleEntity, GetSaleType
 so.topic: reference
 ---
 
 
-* **SaleType:** SaleType
-* **Returns:** SaleType
 
+**Parameter:** 
+ - **saleType** SaleType
 

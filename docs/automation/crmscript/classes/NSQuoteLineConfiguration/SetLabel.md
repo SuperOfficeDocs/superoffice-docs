@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLineConfiguration_SetLabel_String_p_0
-description: NSQuoteLineConfiguration.SetLabel(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteLineConfiguration_SetLabel
+description: NSQuoteLineConfiguration.SetLabel(String label)
 intellisense: NSQuoteLineConfiguration.SetLabel
-keywords: SetLabel(String)
+keywords: NSQuoteLineConfiguration, GetLabel
 so.topic: reference
 ---
 
-
 Label resource string.
 
-
-
-* **Label:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **label** String
 

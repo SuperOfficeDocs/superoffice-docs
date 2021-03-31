@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleTypeEntity_SetAllowQuoteAlternatives_Bool_p_0
-description: NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool p_0)
+﻿---
+title: crmscript_ref_NSSaleTypeEntity_SetAllowQuoteAlternatives
+description: NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool allowQuoteAlternatives)
 intellisense: NSSaleTypeEntity.SetAllowQuoteAlternatives
-keywords: SetAllowQuoteAlternatives(Bool)
+keywords: NSSaleTypeEntity, GetAllowQuoteAlternatives
 so.topic: reference
 ---
 
-
 Can quotes linked to sales of this type, have multiple Alternatives
 
-
-
-* **AllowQuoteAlternatives:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **allowQuoteAlternatives** Bool
 

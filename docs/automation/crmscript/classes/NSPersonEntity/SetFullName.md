@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetFullName_String_p_0
-description: NSPersonEntity.SetFullName(String p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetFullName
+description: NSPersonEntity.SetFullName(String fullName)
 intellisense: NSPersonEntity.SetFullName
-keywords: SetFullName(String)
+keywords: NSPersonEntity, GetFullName
 so.topic: reference
 ---
 
-
 The person's full name localized to the current culture/country.  (internal name used in clients for employees)
 
-
-
-* **FullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fullName** String
 

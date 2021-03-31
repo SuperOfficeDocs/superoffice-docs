@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSEMailAgent_CreateDefaultEMailConnectionInfoExtended
-description: NSEMailAgent.CreateDefaultEMailConnectionInfoExtended()
+description: NSEMailConnectionInfoExtended CreateDefaultEMailConnectionInfoExtended()
 intellisense: NSEMailAgent.CreateDefaultEMailConnectionInfoExtended
-sortOrder: 2810
-keywords: CreateDefaultEMailConnectionInfoExtended()
+keywords: NSEMailAgent,CreateDefaultEMailConnectionInfoExtended
 so.topic: reference
 ---
+	  
+Set default values into a new NSEMailConnectionInfoExtended.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSEMailConnectionInfoExtended with default values.
 
-
-Loading default values into a new EMailConnectionInfoExtended.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New EMailConnectionInfoExtended with default values
-
+```crmscript
+NSEMailAgent agent;
+NSEMailConnectionInfoExtended thing = agent.CreateDefaultEMailConnectionInfoExtended();
+thing = agent.SaveEMailConnectionInfoExtended(thing);
+```
 

@@ -1,19 +1,23 @@
----
-title: crmscript_ref_NSCRMScriptAgent_SaveCRMScriptByUniqueIdentifier_String_p_0_NSScript_p_1
-description: NSCRMScriptAgent.SaveCRMScriptByUniqueIdentifier(String p_0, NSScript p_1)
+﻿---
+title: crmscript_ref_NSCRMScriptAgent_SaveCRMScriptByUniqueIdentifier
+description: Script SaveCRMScriptByUniqueIdentifier(String uniqueIdentifier, Script crmscript)
 intellisense: NSCRMScriptAgent.SaveCRMScriptByUniqueIdentifier
-sortOrder: 2120
-keywords: SaveCRMScriptByUniqueIdentifier(String,NSScript)
+keywords: NSCRMScriptAgent,SaveCRMScriptByUniqueIdentifier
 so.topic: reference
 ---
 
-
 Create or Update the CRMScript information
 
+**Parameters:**
+ - **uniqueIdentifier** Global unique reference to script (independent of installation)
+ - **crmscript** Information about the CRMScript
 
+**Returns:** Information about the CRMScript as saved in the database
 
-* **uniqueIdentifier:** Global unique reference to script (independent of installation)
-* **crmscript:** Information about the CRMScript
-* **Returns:** Information about the CRMScript as saved in the database
-
+```crmscript
+NSCRMScriptAgent agent;
+String uniqueIdentifier;
+Script crmscript;
+Script res = agent.SaveCRMScriptByUniqueIdentifier(uniqueIdentifier, crmscript);
+```
 

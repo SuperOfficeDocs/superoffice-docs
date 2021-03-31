@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSParticipantSyncData_GetPersonFirstName
-description: NSParticipantSyncData.GetPersonFirstName()
+description: String NSParticipantSyncData.GetPersonFirstName()
 intellisense: NSParticipantSyncData.GetPersonFirstName
-keywords: GetPersonFirstName()
+keywords: NSParticipantSyncData, GetPersonFirstName
 so.topic: reference
 ---
 
-
 First name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,18 +1,40 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo_Integer_p_0_Integer_p_1
-description: NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
+description: UserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer ownerType, Integer fieldType)
 intellisense: NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
-keywords: CreateUserDefinedFieldInfo(Integer,Integer)
+keywords: NSUserDefinedFieldInfoAgent,CreateUserDefinedFieldInfo
 so.topic: reference
 ---
 
-
 Create a UserDefinedFieldInfo based on a owner-entity id
 
+**Parameters:**
+ - **ownerType** The user-defined field owner-entity id.  
+     - Enum: 0 = Invalid 
+     - Enum: 7 = Contact 
+     - Enum: 8 = Person 
+     - Enum: 9 = Project 
+     - Enum: 10 = Sale 
+     - Enum: 11 = Temp 
+     - Enum: 12 = Appointment 
+     - Enum: 13 = Document 
+     - Enum: 14 = None 
+ - **fieldType** The field type of the new field
+     - Enum: 1 = Number 
+     - Enum: 2 = ShortText 
+     - Enum: 3 = LongText 
+     - Enum: 4 = Date 
+     - Enum: 5 = UnlimitedDate 
+     - Enum: 6 = Checkbox 
+     - Enum: 7 = List 
+     - Enum: 8 = Decimal 
 
+**Returns:** Returns the user-defined field info carrier
 
-* **ownerType:** The user-defined field owner-entity id.
-* **fieldType:** The field type of the new field
-* **Returns:** Returns the user-defined field info carrier
-
+```crmscript
+NSUserDefinedFieldInfoAgent agent;
+Integer ownerType;
+Integer fieldType;
+UserDefinedFieldInfo res = agent.CreateUserDefinedFieldInfo(ownerType, fieldType);
+```
 

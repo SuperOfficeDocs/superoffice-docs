@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetCustomerLanguage
-description: NSPersonEntity.GetCustomerLanguage()
+description: CustomerLanguage NSPersonEntity.GetCustomerLanguage()
 intellisense: NSPersonEntity.GetCustomerLanguage
-keywords: GetCustomerLanguage()
+keywords: NSPersonEntity, GetCustomerLanguage
 so.topic: reference
 ---
 
 
-* **Returns:** CustomerLanguage
+
+**Returns:** CustomerLanguage
 
 

@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDeliveryTerm_SetId_Integer_p_0
-description: NSDeliveryTerm.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDeliveryTerm_SetId
+description: NSDeliveryTerm.SetId(Integer id)
 intellisense: NSDeliveryTerm.SetId
-sortOrder: 2369
-keywords: SetId(Integer)
+keywords: NSDeliveryTerm, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

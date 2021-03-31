@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesFree_Integer_p_0
-description: NSExtendedModuleLicense.SetNumberOfLicensesFree(Integer p_0)
+﻿---
+title: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesFree
+description: NSExtendedModuleLicense.SetNumberOfLicensesFree(Integer numberOfLicensesFree)
 intellisense: NSExtendedModuleLicense.SetNumberOfLicensesFree
-sortOrder: 3428
-keywords: SetNumberOfLicensesFree(Integer)
+keywords: NSExtendedModuleLicense, GetNumberOfLicensesFree
 so.topic: reference
 ---
 
 
-* **NumberOfLicensesFree:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **numberOfLicensesFree** Integer
 

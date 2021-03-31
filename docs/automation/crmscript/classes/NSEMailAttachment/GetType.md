@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAttachment_GetType
-description: NSEMailAttachment.GetType()
+description: String NSEMailAttachment.GetType()
 intellisense: NSEMailAttachment.GetType
-sortOrder: 2899
-keywords: GetType()
+keywords: NSEMailAttachment, GetType
 so.topic: reference
 ---
 
-
 Attachment Content-Type
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleTypeEntity_GetStages
-description: NSSaleTypeEntity.GetStages()
+description: SelectableMDOListItemArray NSSaleTypeEntity.GetStages()
 intellisense: NSSaleTypeEntity.GetStages
-keywords: GetStages()
+keywords: NSSaleTypeEntity, GetStages
 so.topic: reference
 ---
 
-
 Stages, those associated with this SaleType are selected.
 
-
-
-* **Returns:** SelectableMDOListItemArray
+**Returns:** SelectableMDOListItemArray
 
 

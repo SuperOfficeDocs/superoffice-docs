@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentEntity_SetUpdatedDate_DateTime_p_0
-description: NSDocumentEntity.SetUpdatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetUpdatedDate
+description: NSDocumentEntity.SetUpdatedDate(DateTime updatedDate)
 intellisense: NSDocumentEntity.SetUpdatedDate
-sortOrder: 2614
-keywords: SetUpdatedDate(DateTime)
+keywords: NSDocumentEntity, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **UpdatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updatedDate** DateTime
 

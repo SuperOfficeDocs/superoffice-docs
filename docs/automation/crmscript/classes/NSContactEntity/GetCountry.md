@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetCountry
-description: NSContactEntity.GetCountry()
+description: Country NSContactEntity.GetCountry()
 intellisense: NSContactEntity.GetCountry
-sortOrder: 1856
-keywords: GetCountry()
+keywords: NSContactEntity, GetCountry
 so.topic: reference
 ---
 
-
 The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.
 
-
-
-* **Returns:** Country
+**Returns:** Country
 
 

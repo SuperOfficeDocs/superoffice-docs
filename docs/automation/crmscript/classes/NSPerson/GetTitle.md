@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPerson_GetTitle
-description: NSPerson.GetTitle()
+description: String NSPerson.GetTitle()
 intellisense: NSPerson.GetTitle
-keywords: GetTitle()
+keywords: NSPerson, GetTitle
 so.topic: reference
 ---
 
-
 Title
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

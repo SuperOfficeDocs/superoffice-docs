@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSArea_SetNumberOfLogins_Integer_p_0
-description: NSArea.SetNumberOfLogins(Integer p_0)
+﻿---
+title: crmscript_ref_NSArea_SetNumberOfLogins
+description: NSArea.SetNumberOfLogins(Integer numberOfLogins)
 intellisense: NSArea.SetNumberOfLogins
-sortOrder: 1250
-keywords: SetNumberOfLogins(Integer)
+keywords: NSArea, GetNumberOfLogins
 so.topic: reference
 ---
 
 
-* **NumberOfLogins:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **numberOfLogins** Integer
 

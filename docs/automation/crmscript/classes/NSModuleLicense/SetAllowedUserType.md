@@ -1,17 +1,19 @@
----
-title: crmscript_ref_NSModuleLicense_SetAllowedUserType_Integer_p_0
-description: NSModuleLicense.SetAllowedUserType(Integer p_0)
+﻿---
+title: crmscript_ref_NSModuleLicense_SetAllowedUserType
+description: NSModuleLicense.SetAllowedUserType(Integer allowedUserType)
 intellisense: NSModuleLicense.SetAllowedUserType
-keywords: SetAllowedUserType(Integer)
+keywords: NSModuleLicense, GetAllowedUserType
 so.topic: reference
 ---
 
+Allowed associate type for user licenses: internal(0), external(4). 
 
-Allowed associate type for user licenses: `internal(0)`, `external(4)`.
-
-
-
-* **AllowedUserType:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **allowedUserType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 

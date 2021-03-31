@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetShowInToolBar_Bool_p_0
-description: NSWebPanelEntity.SetShowInToolBar(Bool p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetShowInToolBar
+description: NSWebPanelEntity.SetShowInToolBar(Bool showInToolBar)
 intellisense: NSWebPanelEntity.SetShowInToolBar
-keywords: SetShowInToolBar(Bool)
+keywords: NSWebPanelEntity, GetShowInToolBar
 so.topic: reference
 ---
 
-
 Does the webpanel have a toolbar
 
-
-
-* **ShowInToolBar:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **showInToolBar** Bool
 

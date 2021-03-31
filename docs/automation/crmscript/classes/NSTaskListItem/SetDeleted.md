@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTaskListItem_SetDeleted_Bool_p_0
-description: NSTaskListItem.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSTaskListItem_SetDeleted
+description: NSTaskListItem.SetDeleted(Bool deleted)
 intellisense: NSTaskListItem.SetDeleted
-keywords: SetDeleted(Bool)
+keywords: NSTaskListItem, GetDeleted
 so.topic: reference
 ---
 
-
 If true, the Task list item is deleted
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

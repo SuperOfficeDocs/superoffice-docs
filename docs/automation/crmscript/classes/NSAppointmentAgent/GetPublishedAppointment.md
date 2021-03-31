@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAppointmentAgent_GetPublishedAppointment_Integer_p_0
-description: NSAppointmentAgent.GetPublishedAppointment(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_GetPublishedAppointment
+description: Appointment GetPublishedAppointment(Integer appointmentId)
 intellisense: NSAppointmentAgent.GetPublishedAppointment
-sortOrder: 835
-keywords: GetPublishedAppointment(Integer)
+keywords: NSAppointmentAgent,GetPublishedAppointment
 so.topic: reference
 ---
 
-
 Get published appointment by appointment id.
 
+**Parameters:**
+ - **appointmentId** The appointment id
 
+**Returns:** Appointment
 
-* **appointmentId:** The appointment id
-* **Returns:** Appointment
-
+```crmscript
+NSAppointmentAgent agent;
+Integer appointmentId;
+Appointment res = agent.GetPublishedAppointment(appointmentId);
+```
 

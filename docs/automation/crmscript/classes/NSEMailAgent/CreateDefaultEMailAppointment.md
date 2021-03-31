@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSEMailAgent_CreateDefaultEMailAppointment
-description: NSEMailAgent.CreateDefaultEMailAppointment()
+description: NSEMailAppointment CreateDefaultEMailAppointment()
 intellisense: NSEMailAgent.CreateDefaultEMailAppointment
-sortOrder: 2802
-keywords: CreateDefaultEMailAppointment()
+keywords: NSEMailAgent,CreateDefaultEMailAppointment
 so.topic: reference
 ---
+	  
+Set default values into a new NSEMailAppointment.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSEMailAppointment with default values.
 
-
-Loading default values into a new EMailAppointment.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New EMailAppointment with default values
-
+```crmscript
+NSEMailAgent agent;
+NSEMailAppointment thing = agent.CreateDefaultEMailAppointment();
+thing = agent.SaveEMailAppointment(thing);
+```
 

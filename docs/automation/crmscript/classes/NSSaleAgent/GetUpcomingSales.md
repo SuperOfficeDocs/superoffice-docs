@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSSaleAgent_GetUpcomingSales_Integer_p_0_Integer_p_1
-description: NSSaleAgent.GetUpcomingSales(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSSaleAgent_GetUpcomingSales
+description: SaleArray GetUpcomingSales(Integer weightedAmountLimit, Integer count)
 intellisense: NSSaleAgent.GetUpcomingSales
-keywords: GetUpcomingSales(Integer,Integer)
+keywords: NSSaleAgent,GetUpcomingSales
 so.topic: reference
 ---
 
-
 Returns all open sales, sorted descending with the latest first.  If the weigthed amount is -1, the amount restriction is omitted.
 
+**Parameters:**
+ - **weightedAmountLimit** The amount weighted by the probability that the sale is closed (amount * probability).
+ - **count** The maximum number of items to return. If -1 all are returned.
 
+**Returns:** Array of upcoming sales.
 
-* **weightedAmountLimit:** The amount weighted by the probability that the sale is closed (amount * probability).
-* **count:** The maximum number of items to return. If -1 all are returned.
-* **Returns:** Array of upcoming sales.
-
+```crmscript
+NSSaleAgent agent;
+Integer weightedAmountLimit;
+Integer count;
+SaleArray res = agent.GetUpcomingSales(weightedAmountLimit, count);
+```
 

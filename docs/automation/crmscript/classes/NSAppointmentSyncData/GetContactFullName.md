@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentSyncData_GetContactFullName
-description: NSAppointmentSyncData.GetContactFullName()
+description: String NSAppointmentSyncData.GetContactFullName()
 intellisense: NSAppointmentSyncData.GetContactFullName
-sortOrder: 1058
-keywords: GetContactFullName()
+keywords: NSAppointmentSyncData, GetContactFullName
 so.topic: reference
 ---
 
-
 The entire name of the contact, including department name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

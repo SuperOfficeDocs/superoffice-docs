@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCategory_GetValue
-description: NSCategory.GetValue()
+description: String NSCategory.GetValue()
 intellisense: NSCategory.GetValue
-sortOrder: 1494
-keywords: GetValue()
+keywords: NSCategory, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

@@ -1,19 +1,13 @@
----
-title: crmscript_ref_NSArchiveRestrictionInfo_SetValues_String__p_0
-description: NSArchiveRestrictionInfo.SetValues(String[] p_0)
+﻿---
+title: crmscript_ref_NSArchiveRestrictionInfo_SetValues
+description: NSArchiveRestrictionInfo.SetValues(StringArray values)
 intellisense: NSArchiveRestrictionInfo.SetValues
-sortOrder: 1237
-keywords: SetValues(String[])
+keywords: NSArchiveRestrictionInfo, GetValues
 so.topic: reference
 ---
 
+Value(s) to test against
 
-    Value(s) to test against
-    
-
-
-
-* **Values:** StringArray
-* **Returns:** StringArray
-
+**Parameter:** 
+ - **values** StringArray
 

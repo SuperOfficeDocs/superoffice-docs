@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAssociateAgent_GetNote_Integer_p_0
-description: NSAssociateAgent.GetNote(Integer p_0)
+﻿---
+title: crmscript_ref_NSAssociateAgent_GetNote
+description: StringArray GetNote(Integer associateId)
 intellisense: NSAssociateAgent.GetNote
-sortOrder: 1285
-keywords: GetNote(Integer)
+keywords: NSAssociateAgent,GetNote
 so.topic: reference
 ---
 
+Returns an array of strings(notepad pages).
 
-Returns an array of `strings(notepad pages)`.
+**Parameters:**
+ - **associateId** The associate id
 
+**Returns:** Returns an array of strings(notepad pages).
 
-
-* **associateId:** The associate id
-* **Returns:** Returns an array of `strings(notepad pages)`.
-
+```crmscript
+NSAssociateAgent agent;
+Integer associateId;
+StringArray res = agent.GetNote(associateId);
+```
 

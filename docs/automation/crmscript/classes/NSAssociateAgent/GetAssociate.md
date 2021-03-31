@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSAssociateAgent_GetAssociate_Integer_p_0
-description: NSAssociateAgent.GetAssociate(Integer p_0)
+﻿---
+title: crmscript_ref_NSAssociateAgent_GetAssociate
+description: NSAssociate GetAssociate(Integer associateId);
 intellisense: NSAssociateAgent.GetAssociate
-sortOrder: 1280
-keywords: GetAssociate(Integer)
+keywords: NSAssociateAgent,GetAssociate
 so.topic: reference
 ---
 
+Gets a NSAssociate object.
 
-Gets a Associate object.
+**Parameters:**
+ - **associateId** The identifier of the NSAssociate object
 
+**Returns:** NSAssociate
 
-
-* **associateId:** The identifier of the Associate object
-* **Returns:** Associate
-
+```crmscript
+NSAssociateAgent agent;
+NSAssociate thing = agent.GetAssociate(123);
+```
 

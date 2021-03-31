@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSReportEntity_GetDescription
-description: NSReportEntity.GetDescription()
+description: String NSReportEntity.GetDescription()
 intellisense: NSReportEntity.GetDescription
-keywords: GetDescription()
+keywords: NSReportEntity, GetDescription
 so.topic: reference
 ---
 
-
 The description of the report.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

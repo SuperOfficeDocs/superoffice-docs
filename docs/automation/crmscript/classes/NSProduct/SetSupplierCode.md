@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetSupplierCode_String_p_0
-description: NSProduct.SetSupplierCode(String p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetSupplierCode
+description: NSProduct.SetSupplierCode(String supplierCode)
 intellisense: NSProduct.SetSupplierCode
-keywords: SetSupplierCode(String)
+keywords: NSProduct, GetSupplierCode
 so.topic: reference
 ---
 
-
 Suppliers part code/number or other key-like field
 
-
-
-* **SupplierCode:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **supplierCode** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetPreviousOverdue_Integer_p_0
-description: NSSaleSummary.SetPreviousOverdue(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetPreviousOverdue
+description: NSSaleSummary.SetPreviousOverdue(Integer previousOverdue)
 intellisense: NSSaleSummary.SetPreviousOverdue
-keywords: SetPreviousOverdue(Integer)
+keywords: NSSaleSummary, GetPreviousOverdue
 so.topic: reference
 ---
 
-
 Number of all open sales with date before this period
 
-
-
-* **PreviousOverdue:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **previousOverdue** Integer
 

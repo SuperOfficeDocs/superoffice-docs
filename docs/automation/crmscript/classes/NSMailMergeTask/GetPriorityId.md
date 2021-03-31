@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMailMergeTask_GetPriorityId
-description: NSMailMergeTask.GetPriorityId()
+description: Integer NSMailMergeTask.GetPriorityId()
 intellisense: NSMailMergeTask.GetPriorityId
-keywords: GetPriorityId()
+keywords: NSMailMergeTask, GetPriorityId
 so.topic: reference
 ---
 
-
 Priority of task
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

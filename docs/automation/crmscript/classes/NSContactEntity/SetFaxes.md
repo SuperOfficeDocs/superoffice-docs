@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetFaxes_NSEntityElement__p_0
-description: NSContactEntity.SetFaxes(NSEntityElement[] p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetFaxes
+description: NSContactEntity.SetFaxes(EntityElementArray faxes)
 intellisense: NSContactEntity.SetFaxes
-sortOrder: 1898
-keywords: SetFaxes(NSEntityElement[])
+keywords: NSContactEntity, GetFaxes
 so.topic: reference
 ---
 
-
 The contact's fax numbers
 
-
-
-* **Faxes:** EntityElementArray
-* **Returns:** EntityElementArray
-
+**Parameter:** 
+ - **faxes** EntityElementArray
 

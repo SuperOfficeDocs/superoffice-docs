@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoBase_GetFieldName
-description: NSFieldInfoBase.GetFieldName()
+description: String NSFieldInfoBase.GetFieldName()
 intellisense: NSFieldInfoBase.GetFieldName
-sortOrder: 3471
-keywords: GetFieldName()
+keywords: NSFieldInfoBase, GetFieldName
 so.topic: reference
 ---
 
+Database name or prog-id: 'x_foobar' or 'SuperOffice:2'.
 
-Database name or prog-id: 'x\_foobar' or 'SuperOffice:2'.
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

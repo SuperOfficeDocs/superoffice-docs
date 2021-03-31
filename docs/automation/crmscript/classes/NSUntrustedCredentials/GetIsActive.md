@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUntrustedCredentials_GetIsActive
-description: NSUntrustedCredentials.GetIsActive()
+description: Bool NSUntrustedCredentials.GetIsActive()
 intellisense: NSUntrustedCredentials.GetIsActive
-keywords: GetIsActive()
+keywords: NSUntrustedCredentials, GetIsActive
 so.topic: reference
 ---
 
-
 Is this credentials currently active.
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

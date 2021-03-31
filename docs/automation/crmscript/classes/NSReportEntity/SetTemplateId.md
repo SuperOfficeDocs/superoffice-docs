@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReportEntity_SetTemplateId_Integer_p_0
-description: NSReportEntity.SetTemplateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportEntity_SetTemplateId
+description: NSReportEntity.SetTemplateId(Integer templateId)
 intellisense: NSReportEntity.SetTemplateId
-keywords: SetTemplateId(Integer)
+keywords: NSReportEntity, GetTemplateId
 so.topic: reference
 ---
 
-
 The id of report template.
 
-
-
-* **TemplateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **templateId** Integer
 

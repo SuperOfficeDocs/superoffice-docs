@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSOutgoingMessage_GetFormat
-description: NSOutgoingMessage.GetFormat()
+description: String NSOutgoingMessage.GetFormat()
 intellisense: NSOutgoingMessage.GetFormat
-keywords: GetFormat()
+keywords: NSOutgoingMessage, GetFormat
 so.topic: reference
 ---
 
-
 Format of content
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

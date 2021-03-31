@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSProjectAgent_GetPublishedProjects_Integer__p_0
-description: NSProjectAgent.GetPublishedProjects(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_GetPublishedProjects
+description: ProjectArray GetPublishedProjects(IntegerArray projectIds)
 intellisense: NSProjectAgent.GetPublishedProjects
-keywords: GetPublishedProjects(Integer[])
+keywords: NSProjectAgent,GetPublishedProjects
 so.topic: reference
 ---
 
-
 Get published projects by project ids.
 
+**Parameters:**
+ - **projectIds** The array of project ids
 
+**Returns:** Projects
 
-* **projectIds:** The array of project ids
-* **Returns:** Projects
-
+```crmscript
+NSProjectAgent agent;
+IntegerArray projectIds;
+ProjectArray res = agent.GetPublishedProjects(projectIds);
+```
 

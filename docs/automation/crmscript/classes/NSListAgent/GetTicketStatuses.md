@@ -1,11 +1,10 @@
----
+﻿---
 title: crmscript_ref_NSListAgent_GetTicketStatuses
-description: NSListAgent.GetTicketStatuses()
+description: TicketStatusEntityArray GetTicketStatuses()
 intellisense: NSListAgent.GetTicketStatuses
-keywords: GetTicketStatuses()
+keywords: NSListAgent,GetTicketStatuses
 so.topic: reference
 ---
-
 
 
 

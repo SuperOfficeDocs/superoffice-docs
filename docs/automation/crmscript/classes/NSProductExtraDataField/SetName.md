@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProductExtraDataField_SetName_String_p_0
-description: NSProductExtraDataField.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSProductExtraDataField_SetName
+description: NSProductExtraDataField.SetName(String name)
 intellisense: NSProductExtraDataField.SetName
-keywords: SetName(String)
+keywords: NSProductExtraDataField, GetName
 so.topic: reference
 ---
 
-
 Label for the field
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

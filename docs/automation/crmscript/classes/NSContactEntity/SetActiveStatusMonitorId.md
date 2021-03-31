@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetActiveStatusMonitorId_Integer_p_0
-description: NSContactEntity.SetActiveStatusMonitorId(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetActiveStatusMonitorId
+description: NSContactEntity.SetActiveStatusMonitorId(Integer activeStatusMonitorId)
 intellisense: NSContactEntity.SetActiveStatusMonitorId
-sortOrder: 1877
-keywords: SetActiveStatusMonitorId(Integer)
+keywords: NSContactEntity, GetActiveStatusMonitorId
 so.topic: reference
 ---
 
-
 Active status monitor identity with the lowest rank for contact
 
-
-
-* **ActiveStatusMonitorId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **activeStatusMonitorId** Integer
 

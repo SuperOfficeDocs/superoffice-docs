@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSScript_SetUpdated_DateTime_p_0
-description: NSScript.SetUpdated(DateTime p_0)
+﻿---
+title: crmscript_ref_NSScript_SetUpdated
+description: NSScript.SetUpdated(DateTime updated)
 intellisense: NSScript.SetUpdated
-keywords: SetUpdated(DateTime)
+keywords: NSScript, GetUpdated
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Updated:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updated** DateTime
 

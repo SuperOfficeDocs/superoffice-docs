@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetIsTentative_Bool_p_0
-description: NSAppointmentSyncData.SetIsTentative(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetIsTentative
+description: NSAppointmentSyncData.SetIsTentative(Bool isTentative)
 intellisense: NSAppointmentSyncData.SetIsTentative
-sortOrder: 1080
-keywords: SetIsTentative(Bool)
+keywords: NSAppointmentSyncData, GetIsTentative
 so.topic: reference
 ---
 
 
-* **IsTentative:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isTentative** Bool
 

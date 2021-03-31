@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetMrmrs_String_p_0
-description: NSSaleStakeholder.SetMrmrs(String p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetMrmrs
+description: NSSaleStakeholder.SetMrmrs(String mrmrs)
 intellisense: NSSaleStakeholder.SetMrmrs
-keywords: SetMrmrs(String)
+keywords: NSSaleStakeholder, GetMrmrs
 so.topic: reference
 ---
 
-
 e.g. Mrs, Mr, Ms, Dr.
 
-
-
-* **Mrmrs:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **mrmrs** String
 

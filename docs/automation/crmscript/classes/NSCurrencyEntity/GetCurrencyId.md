@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCurrencyEntity_GetCurrencyId
-description: NSCurrencyEntity.GetCurrencyId()
+description: Integer NSCurrencyEntity.GetCurrencyId()
 intellisense: NSCurrencyEntity.GetCurrencyId
-sortOrder: 2182
-keywords: GetCurrencyId()
+keywords: NSCurrencyEntity, GetCurrencyId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

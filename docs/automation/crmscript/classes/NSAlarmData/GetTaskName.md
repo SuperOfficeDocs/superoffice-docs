@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAlarmData_GetTaskName
-description: NSAlarmData.GetTaskName()
+description: String NSAlarmData.GetTaskName()
 intellisense: NSAlarmData.GetTaskName
-sortOrder: 667
-keywords: GetTaskName()
+keywords: NSAlarmData, GetTaskName
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAmountClassEntity_SetAmountClassId_Integer_p_0
-description: NSAmountClassEntity.SetAmountClassId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAmountClassEntity_SetAmountClassId
+description: NSAmountClassEntity.SetAmountClassId(Integer amountClassId)
 intellisense: NSAmountClassEntity.SetAmountClassId
-sortOrder: 703
-keywords: SetAmountClassId(Integer)
+keywords: NSAmountClassEntity, GetAmountClassId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **AmountClassId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **amountClassId** Integer
 

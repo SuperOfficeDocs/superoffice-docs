@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonSummary_GetDocuments
-description: NSPersonSummary.GetDocuments()
+description: ActivitySummaryItemArray NSPersonSummary.GetDocuments()
 intellisense: NSPersonSummary.GetDocuments
-keywords: GetDocuments()
+keywords: NSPersonSummary, GetDocuments
 so.topic: reference
 ---
 
-
 Recent documents on person
 
-
-
-* **Returns:** ActivitySummaryItemArray
+**Returns:** ActivitySummaryItemArray
 
 

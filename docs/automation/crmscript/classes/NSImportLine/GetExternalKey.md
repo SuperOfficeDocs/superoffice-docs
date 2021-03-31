@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSImportLine_GetExternalKey
-description: NSImportLine.GetExternalKey()
+description: String NSImportLine.GetExternalKey()
 intellisense: NSImportLine.GetExternalKey
-sortOrder: 3977
-keywords: GetExternalKey()
+keywords: NSImportLine, GetExternalKey
 so.topic: reference
 ---
 
-
 Optional external primary key for the row
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

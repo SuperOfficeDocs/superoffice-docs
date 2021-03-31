@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSyncUserAccount_SetAssociateName_String_p_0
-description: NSSyncUserAccount.SetAssociateName(String p_0)
+﻿---
+title: crmscript_ref_NSSyncUserAccount_SetAssociateName
+description: NSSyncUserAccount.SetAssociateName(String associateName)
 intellisense: NSSyncUserAccount.SetAssociateName
-keywords: SetAssociateName(String)
+keywords: NSSyncUserAccount, GetAssociateName
 so.topic: reference
 ---
 
-
 The username of the associate owning the account
 
-
-
-* **AssociateName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **associateName** String
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetLeadTime
-description: NSAppointmentEntity.GetLeadTime()
+description: TimeSpan NSAppointmentEntity.GetLeadTime()
 intellisense: NSAppointmentEntity.GetLeadTime
-sortOrder: 978
-keywords: GetLeadTime()
+keywords: NSAppointmentEntity, GetLeadTime
 so.topic: reference
 ---
 
-
 Time blocked (minutes) BEFORE starttime
 
-
-
-* **Returns:** TimeSpan
+**Returns:** TimeSpan
 
 

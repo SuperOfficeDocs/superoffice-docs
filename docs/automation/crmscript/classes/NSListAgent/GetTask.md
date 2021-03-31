@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetTask_Integer_p_0
-description: NSListAgent.GetTask(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetTask
+description: NSTask GetTask(Integer taskId);
 intellisense: NSListAgent.GetTask
-keywords: GetTask(Integer)
+keywords: NSListAgent,GetTask
 so.topic: reference
 ---
 
+Gets a NSTask object.
 
-Gets a Task object.
+**Parameters:**
+ - **taskId** The identifier of the NSTask object
 
+**Returns:** NSTask
 
-
-* **taskId:** The identifier of the Task object
-* **Returns:** Task
-
+```crmscript
+NSListAgent agent;
+NSTask thing = agent.GetTask(123);
+```
 

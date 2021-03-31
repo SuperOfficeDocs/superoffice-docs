@@ -1,17 +1,16 @@
----
-title: crmscript_ref_NSProductExtraDataField_SetType_Integer_p_0
-description: NSProductExtraDataField.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSProductExtraDataField_SetType
+description: NSProductExtraDataField.SetType(Integer type)
 intellisense: NSProductExtraDataField.SetType
-keywords: SetType(Integer)
+keywords: NSProductExtraDataField, GetType
 so.topic: reference
 ---
 
-
 String, url, image. How the value should be interpreted.
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = String 
+     - Enum: 1 = Url 
+     - Enum: 2 = Image 
 

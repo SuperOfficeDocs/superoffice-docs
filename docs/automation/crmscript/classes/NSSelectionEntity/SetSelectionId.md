@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetSelectionId_Integer_p_0
-description: NSSelectionEntity.SetSelectionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetSelectionId
+description: NSSelectionEntity.SetSelectionId(Integer selectionId)
 intellisense: NSSelectionEntity.SetSelectionId
-keywords: SetSelectionId(Integer)
+keywords: NSSelectionEntity, GetSelectionId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **SelectionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **selectionId** Integer
 

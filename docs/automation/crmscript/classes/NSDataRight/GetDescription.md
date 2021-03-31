@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDataRight_GetDescription
-description: NSDataRight.GetDescription()
+description: String NSDataRight.GetDescription()
 intellisense: NSDataRight.GetDescription
-sortOrder: 2344
-keywords: GetDescription()
+keywords: NSDataRight, GetDescription
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

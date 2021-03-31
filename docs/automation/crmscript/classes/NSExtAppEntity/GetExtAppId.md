@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSExtAppEntity_GetExtAppId
-description: NSExtAppEntity.GetExtAppId()
+description: Integer NSExtAppEntity.GetExtAppId()
 intellisense: NSExtAppEntity.GetExtAppId
-sortOrder: 3367
-keywords: GetExtAppId()
+keywords: NSExtAppEntity, GetExtAppId
 so.topic: reference
 ---
 
-
 The identity of the external app
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuote_GetPoNumber
-description: NSQuote.GetPoNumber()
+description: String NSQuote.GetPoNumber()
 intellisense: NSQuote.GetPoNumber
-keywords: GetPoNumber()
+keywords: NSQuote, GetPoNumber
 so.topic: reference
 ---
 
-
 Customer's Purchase order number
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

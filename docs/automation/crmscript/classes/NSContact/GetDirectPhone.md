@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContact_GetDirectPhone
-description: NSContact.GetDirectPhone()
+description: String NSContact.GetDirectPhone()
 intellisense: NSContact.GetDirectPhone
-sortOrder: 1731
-keywords: GetDirectPhone()
+keywords: NSContact, GetDirectPhone
 so.topic: reference
 ---
 
-
 The contacts phone
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

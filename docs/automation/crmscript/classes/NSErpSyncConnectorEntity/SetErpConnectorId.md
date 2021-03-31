@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncConnectorEntity_SetErpConnectorId_Integer_p_0
-description: NSErpSyncConnectorEntity.SetErpConnectorId(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncConnectorEntity_SetErpConnectorId
+description: NSErpSyncConnectorEntity.SetErpConnectorId(Integer erpConnectorId)
 intellisense: NSErpSyncConnectorEntity.SetErpConnectorId
-sortOrder: 3247
-keywords: SetErpConnectorId(Integer)
+keywords: NSErpSyncConnectorEntity, GetErpConnectorId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ErpConnectorId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **erpConnectorId** Integer
 

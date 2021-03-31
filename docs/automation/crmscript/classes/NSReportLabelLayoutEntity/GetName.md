@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSReportLabelLayoutEntity_GetName
-description: NSReportLabelLayoutEntity.GetName()
+description: String NSReportLabelLayoutEntity.GetName()
 intellisense: NSReportLabelLayoutEntity.GetName
-keywords: GetName()
+keywords: NSReportLabelLayoutEntity, GetName
 so.topic: reference
 ---
 
-
 Name of the label layout
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

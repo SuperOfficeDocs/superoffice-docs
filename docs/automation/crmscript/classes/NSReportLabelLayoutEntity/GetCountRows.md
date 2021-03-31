@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSReportLabelLayoutEntity_GetCountRows
-description: NSReportLabelLayoutEntity.GetCountRows()
+description: Integer NSReportLabelLayoutEntity.GetCountRows()
 intellisense: NSReportLabelLayoutEntity.GetCountRows
-keywords: GetCountRows()
+keywords: NSReportLabelLayoutEntity, GetCountRows
 so.topic: reference
 ---
 
-
 Number of rows
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

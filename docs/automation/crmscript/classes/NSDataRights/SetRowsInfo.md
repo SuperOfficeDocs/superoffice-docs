@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDataRights_SetRowsInfo_NSEntityName__p_0
-description: NSDataRights.SetRowsInfo(NSEntityName[] p_0)
+﻿---
+title: crmscript_ref_NSDataRights_SetRowsInfo
+description: NSDataRights.SetRowsInfo(EntityNameArray rowsInfo)
 intellisense: NSDataRights.SetRowsInfo
-sortOrder: 2355
-keywords: SetRowsInfo(NSEntityName[])
+keywords: NSDataRights, GetRowsInfo
 so.topic: reference
 ---
 
 
-* **RowsInfo:** EntityNameArray
-* **Returns:** EntityNameArray
 
+**Parameter:** 
+ - **rowsInfo** EntityNameArray
 

@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAddressSyncData_GetState
-description: NSAddressSyncData.GetState()
+description: String NSAddressSyncData.GetState()
 intellisense: NSAddressSyncData.GetState
-sortOrder: 627
-keywords: GetState()
+keywords: NSAddressSyncData, GetState
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

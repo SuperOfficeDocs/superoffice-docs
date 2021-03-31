@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserDefinedFieldInfo_GetLabelLeft
-description: NSUserDefinedFieldInfo.GetLabelLeft()
+description: Integer NSUserDefinedFieldInfo.GetLabelLeft()
 intellisense: NSUserDefinedFieldInfo.GetLabelLeft
-keywords: GetLabelLeft()
+keywords: NSUserDefinedFieldInfo, GetLabelLeft
 so.topic: reference
 ---
 
-
 X pixel coordinate of label
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

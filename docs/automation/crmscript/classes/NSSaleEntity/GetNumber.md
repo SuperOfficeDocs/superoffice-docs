@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetNumber
-description: NSSaleEntity.GetNumber()
+description: String NSSaleEntity.GetNumber()
 intellisense: NSSaleEntity.GetNumber
-keywords: GetNumber()
+keywords: NSSaleEntity, GetNumber
 so.topic: reference
 ---
 
-
 Alphanumeric user field
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

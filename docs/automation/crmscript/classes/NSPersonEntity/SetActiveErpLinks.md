@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetActiveErpLinks_Integer_p_0
-description: NSPersonEntity.SetActiveErpLinks(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetActiveErpLinks
+description: NSPersonEntity.SetActiveErpLinks(Integer activeErpLinks)
 intellisense: NSPersonEntity.SetActiveErpLinks
-keywords: SetActiveErpLinks(Integer)
+keywords: NSPersonEntity, GetActiveErpLinks
 so.topic: reference
 ---
 
-
 How many active ERP links are there for this person?
 
-
-
-* **ActiveErpLinks:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **activeErpLinks** Integer
 

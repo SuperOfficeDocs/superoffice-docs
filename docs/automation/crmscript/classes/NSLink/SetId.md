@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLink_SetId_Integer_p_0
-description: NSLink.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSLink_SetId
+description: NSLink.SetId(Integer id)
 intellisense: NSLink.SetId
-keywords: SetId(Integer)
+keywords: NSLink, GetId
 so.topic: reference
 ---
 
-
 Id of the entity the link points to (The destination/target entity primary key)
 
-
-
-* **Id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

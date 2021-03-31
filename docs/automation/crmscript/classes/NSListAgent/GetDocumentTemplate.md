@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetDocumentTemplate_Integer_p_0
-description: NSListAgent.GetDocumentTemplate(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetDocumentTemplate
+description: NSDocumentTemplate GetDocumentTemplate(Integer documentTemplateId);
 intellisense: NSListAgent.GetDocumentTemplate
-keywords: GetDocumentTemplate(Integer)
+keywords: NSListAgent,GetDocumentTemplate
 so.topic: reference
 ---
 
+Gets a NSDocumentTemplate object.
 
-Gets a DocumentTemplate object.
+**Parameters:**
+ - **documentTemplateId** The identifier of the NSDocumentTemplate object
 
+**Returns:** NSDocumentTemplate
 
-
-* **documentTemplateId:** The identifier of the DocumentTemplate object
-* **Returns:** DocumentTemplate
-
+```crmscript
+NSListAgent agent;
+NSDocumentTemplate thing = agent.GetDocumentTemplate(123);
+```
 

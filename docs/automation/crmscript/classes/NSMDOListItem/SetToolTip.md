@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMDOListItem_SetToolTip_String_p_0
-description: NSMDOListItem.SetToolTip(String p_0)
+﻿---
+title: crmscript_ref_NSMDOListItem_SetToolTip
+description: NSMDOListItem.SetToolTip(String toolTip)
 intellisense: NSMDOListItem.SetToolTip
-keywords: SetToolTip(String)
+keywords: NSMDOListItem, GetToolTip
 so.topic: reference
 ---
 
-
 The tooltip of the ListItem
 
-
-
-* **ToolTip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **toolTip** String
 

@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetPublishFrom
-description: NSAppointmentEntity.GetPublishFrom()
+description: DateTime NSAppointmentEntity.GetPublishFrom()
 intellisense: NSAppointmentEntity.GetPublishFrom
-sortOrder: 935
-keywords: GetPublishFrom()
+keywords: NSAppointmentEntity, GetPublishFrom
 so.topic: reference
 ---
 
+Publish from date.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime.
 

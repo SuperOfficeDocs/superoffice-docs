@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedDocumentEntity_SetDoctmplId_Integer_p_0
-description: NSSuggestedDocumentEntity.SetDoctmplId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSuggestedDocumentEntity_SetDoctmplId
+description: NSSuggestedDocumentEntity.SetDoctmplId(Integer doctmplId)
 intellisense: NSSuggestedDocumentEntity.SetDoctmplId
-keywords: SetDoctmplId(Integer)
+keywords: NSSuggestedDocumentEntity, GetDoctmplId
 so.topic: reference
 ---
 
-
 Type of the suggested document
 
-
-
-* **DoctmplId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **doctmplId** Integer
 

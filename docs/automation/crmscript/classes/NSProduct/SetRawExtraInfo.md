@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetRawExtraInfo_String_p_0
-description: NSProduct.SetRawExtraInfo(String p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetRawExtraInfo
+description: NSProduct.SetRawExtraInfo(String rawExtraInfo)
 intellisense: NSProduct.SetRawExtraInfo
-keywords: SetRawExtraInfo(String)
+keywords: NSProduct, GetRawExtraInfo
 so.topic: reference
 ---
 
-
 Read-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension
 
-
-
-* **RawExtraInfo:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **rawExtraInfo** String
 

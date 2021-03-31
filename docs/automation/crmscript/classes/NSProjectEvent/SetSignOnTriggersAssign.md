@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetSignOnTriggersAssign_Bool_p_0
-description: NSProjectEvent.SetSignOnTriggersAssign(Bool p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetSignOnTriggersAssign
+description: NSProjectEvent.SetSignOnTriggersAssign(Bool signOnTriggersAssign)
 intellisense: NSProjectEvent.SetSignOnTriggersAssign
-keywords: SetSignOnTriggersAssign(Bool)
+keywords: NSProjectEvent, GetSignOnTriggersAssign
 so.topic: reference
 ---
 
-
 If true, the sign on task should be created as an Assigned task, triggering the invitation dialog
 
-
-
-* **SignOnTriggersAssign:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **signOnTriggersAssign** Bool
 

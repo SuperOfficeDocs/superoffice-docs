@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSRelationDefinitionEntity_GetSource
-description: NSRelationDefinitionEntity.GetSource()
+description: Integer NSRelationDefinitionEntity.GetSource()
 intellisense: NSRelationDefinitionEntity.GetSource
-keywords: GetSource()
+keywords: NSRelationDefinitionEntity, GetSource
 so.topic: reference
 ---
 
-
 The source of the relation
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = None 
+     - Enum: 1 = Contact 
+     - Enum: 2 = Person 
+     - Enum: 3 = Both 
 

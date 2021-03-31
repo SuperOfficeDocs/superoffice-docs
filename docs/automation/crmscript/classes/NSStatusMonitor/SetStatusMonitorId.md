@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatusMonitor_SetStatusMonitorId_Integer_p_0
-description: NSStatusMonitor.SetStatusMonitorId(Integer p_0)
+﻿---
+title: crmscript_ref_NSStatusMonitor_SetStatusMonitorId
+description: NSStatusMonitor.SetStatusMonitorId(Integer statusMonitorId)
 intellisense: NSStatusMonitor.SetStatusMonitorId
-keywords: SetStatusMonitorId(Integer)
+keywords: NSStatusMonitor, GetStatusMonitorId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **StatusMonitorId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **statusMonitorId** Integer
 

@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSProjectAgent_DeleteProjectEventEntityFromProjectId_Integer_p_0
-description: NSProjectAgent.DeleteProjectEventEntityFromProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_DeleteProjectEventEntityFromProjectId
+description: Void DeleteProjectEventEntityFromProjectId(Integer projectId)
 intellisense: NSProjectAgent.DeleteProjectEventEntityFromProjectId
-keywords: DeleteProjectEventEntityFromProjectId(Integer)
+keywords: NSProjectAgent,DeleteProjectEventEntityFromProjectId
 so.topic: reference
 ---
 
-
 Delete a project event based on a project id. Does not delete the project, but does delete the published and ExternalEvent and AudienceVisibility records.
 
+**Parameters:**
+ - **projectId** The project id of the external event to delete.
 
+**Returns:** Nothing
 
-* **projectId:** The project id of the external event to delete.
-* **Returns:** Nothing
-
+```crmscript
+NSProjectAgent agent;
+Integer projectId;
+Void res = agent.DeleteProjectEventEntityFromProjectId(projectId);
+```
 

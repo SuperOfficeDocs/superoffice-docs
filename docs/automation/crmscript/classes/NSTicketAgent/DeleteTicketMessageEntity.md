@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSTicketAgent_DeleteTicketMessageEntity_Integer_p_0
-description: NSTicketAgent.DeleteTicketMessageEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketAgent_DeleteTicketMessageEntity
+description: Void DeleteTicketMessageEntity(Integer ticketMessageEntityId)
 intellisense: NSTicketAgent.DeleteTicketMessageEntity
-keywords: DeleteTicketMessageEntity(Integer)
+keywords: NSTicketAgent,DeleteTicketMessageEntity
 so.topic: reference
 ---
 
-
 Delete a ticket message
 
+**Parameters:**
+ - **ticketMessageEntityId** The ticket message to delete
 
+**Returns:** returns void
 
-* **ticketMessageEntityId:** The ticket message to delete
-* **Returns:** returns void
-
+```crmscript
+NSTicketAgent agent;
+Integer ticketMessageEntityId;
+Void res = agent.DeleteTicketMessageEntity(ticketMessageEntityId);
+```
 

@@ -1,0 +1,20 @@
+﻿---
+title: crmscript_ref_NSListAgent_GetTicketCategory
+description: NSTicketCategory GetTicketCategory(Integer ticketCategoryId);
+intellisense: NSListAgent.GetTicketCategory
+keywords: NSListAgent,GetTicketCategory
+so.topic: reference
+---
+
+Gets a NSTicketCategory object.
+
+**Parameters:**
+ - **ticketCategoryId** The identifier of the NSTicketCategory object
+
+**Returns:** NSTicketCategory
+
+```crmscript
+NSListAgent agent;
+NSTicketCategory thing = agent.GetTicketCategory(123);
+```
+

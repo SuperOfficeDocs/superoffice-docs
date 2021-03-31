@@ -1,17 +1,12 @@
----
-title: crmscript_ref_NSBatchAgent_DeleteBatchTasks_Integer__p_0
-description: NSBatchAgent.DeleteBatchTasks(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSBatchAgent_DeleteBatchTasks
+description: Void DeleteBatchTasks(IntegerArray batchTaskIds)
 intellisense: NSBatchAgent.DeleteBatchTasks
-sortOrder: 1361
-keywords: DeleteBatchTasks(Integer[])
+keywords: NSBatchAgent,DeleteBatchTasks
 so.topic: reference
 ---
 
-
 Delete batch tasks from the database.
 
-
-
-* **batchTaskIds:** Array of batchTask ids to delete.
-
-
+**Parameters:**
+ - **batchTaskIds** Array of batchTask ids to delete.

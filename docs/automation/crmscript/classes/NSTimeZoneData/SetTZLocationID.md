@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTimeZoneData_SetTZLocationID_Integer_p_0
-description: NSTimeZoneData.SetTZLocationID(Integer p_0)
+﻿---
+title: crmscript_ref_NSTimeZoneData_SetTZLocationID
+description: NSTimeZoneData.SetTZLocationID(Integer tZLocationID)
 intellisense: NSTimeZoneData.SetTZLocationID
-keywords: SetTZLocationID(Integer)
+keywords: NSTimeZoneData, GetTZLocationID
 so.topic: reference
 ---
 
-
 Timezone location ID
 
-
-
-* **TZLocationID:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **tZLocationID** Integer
 

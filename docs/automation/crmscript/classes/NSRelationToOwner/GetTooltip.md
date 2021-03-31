@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSRelationToOwner_GetTooltip
-description: NSRelationToOwner.GetTooltip()
+description: String NSRelationToOwner.GetTooltip()
 intellisense: NSRelationToOwner.GetTooltip
-keywords: GetTooltip()
+keywords: NSRelationToOwner, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

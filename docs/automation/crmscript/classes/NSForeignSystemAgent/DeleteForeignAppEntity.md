@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSForeignSystemAgent_DeleteForeignAppEntity_Integer_p_0
-description: NSForeignSystemAgent.DeleteForeignAppEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSForeignSystemAgent_DeleteForeignAppEntity
+description: DeleteForeignAppEntity(Integer foreignAppEntity);
 intellisense: NSForeignSystemAgent.DeleteForeignAppEntity
-sortOrder: 3777
-keywords: DeleteForeignAppEntity(Integer)
+keywords: NSForeignSystemAgent,DeleteForeignAppEntity
 so.topic: reference
 ---
 
+Deletes the NSForeignAppEntity
+  
+**Parameters:**
+ - **foreignAppEntityId** The identity of the ForeignAppEntity to delete.
 
-Deletes the ForeignAppEntity
-
-
-
-* **foreignAppEntityId:** The identity of the ForeignAppEntity
-
+```crmscript
+NSForeignSystemAgent agent;
+agent.DeleteForeignAppEntity(123);
+```
 

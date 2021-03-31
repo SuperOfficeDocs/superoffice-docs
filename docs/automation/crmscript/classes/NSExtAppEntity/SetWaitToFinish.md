@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetWaitToFinish_Bool_p_0
-description: NSExtAppEntity.SetWaitToFinish(Bool p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetWaitToFinish
+description: NSExtAppEntity.SetWaitToFinish(Bool waitToFinish)
 intellisense: NSExtAppEntity.SetWaitToFinish
-sortOrder: 3399
-keywords: SetWaitToFinish(Bool)
+keywords: NSExtAppEntity, GetWaitToFinish
 so.topic: reference
 ---
 
-
 True if the application shall wait for fininsh event
 
-
-
-* **WaitToFinish:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **waitToFinish** Bool
 

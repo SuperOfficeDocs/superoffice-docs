@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectMember_GetContactId
-description: NSProjectMember.GetContactId()
+description: Integer NSProjectMember.GetContactId()
 intellisense: NSProjectMember.GetContactId
-keywords: GetContactId()
+keywords: NSProjectMember, GetContactId
 so.topic: reference
 ---
 
-
 Contact ID of person who is the project member
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

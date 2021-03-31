@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersionValidated_GetUserExplanation
-description: NSQuoteVersionValidated.GetUserExplanation()
+description: String NSQuoteVersionValidated.GetUserExplanation()
 intellisense: NSQuoteVersionValidated.GetUserExplanation
-keywords: GetUserExplanation()
+keywords: NSQuoteVersionValidated, GetUserExplanation
 so.topic: reference
 ---
 
-
 A localized explanation to the answer.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

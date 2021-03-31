@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUser_SetIsOnTravel_Bool_p_0
-description: NSUser.SetIsOnTravel(Bool p_0)
+﻿---
+title: crmscript_ref_NSUser_SetIsOnTravel
+description: NSUser.SetIsOnTravel(Bool isOnTravel)
 intellisense: NSUser.SetIsOnTravel
-keywords: SetIsOnTravel(Bool)
+keywords: NSUser, GetIsOnTravel
 so.topic: reference
 ---
 
-
 True if the user is on travel.
 
-
-
-* **IsOnTravel:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isOnTravel** Bool
 

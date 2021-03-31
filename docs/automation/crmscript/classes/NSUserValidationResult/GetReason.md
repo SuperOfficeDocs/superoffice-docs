@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserValidationResult_GetReason
-description: NSUserValidationResult.GetReason()
+description: String NSUserValidationResult.GetReason()
 intellisense: NSUserValidationResult.GetReason
-keywords: GetReason()
+keywords: NSUserValidationResult, GetReason
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

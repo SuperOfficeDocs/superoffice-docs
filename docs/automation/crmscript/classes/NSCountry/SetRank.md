@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetRank_Integer_p_0
-description: NSCountry.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetRank
+description: NSCountry.SetRank(Integer rank)
 intellisense: NSCountry.SetRank
-sortOrder: 2043
-keywords: SetRank(Integer)
+keywords: NSCountry, GetRank
 so.topic: reference
 ---
 
-
 The rank of the country
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

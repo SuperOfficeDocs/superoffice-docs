@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceAgent_SavePreferenceEntities_NSPreference__p_0_Bool_p_1
-description: NSPreferenceAgent.SavePreferenceEntities(NSPreference[] p_0, Bool p_1)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_SavePreferenceEntities
+description: Void SavePreferenceEntities(PreferenceArray preferences, Bool removeLowerLevels)
 intellisense: NSPreferenceAgent.SavePreferenceEntities
-keywords: SavePreferenceEntities(NSPreference[],Bool)
+keywords: NSPreferenceAgent,SavePreferenceEntities
 so.topic: reference
 ---
 
-
 Save this set of preferences.
 
-
-
-* **preferences:** Preferences to be saved. Note that all fields must be filled in.
-* **removeLowerLevels:** If this is true, all user preferences on lower levels will be deleted
-
-
+**Parameters:**
+ - **preferences** Preferences to be saved. Note that all fields must be filled in.
+ - **removeLowerLevels** If this is true, all user preferences on lower levels will be deleted

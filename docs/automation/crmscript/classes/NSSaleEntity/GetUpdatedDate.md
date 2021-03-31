@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetUpdatedDate
-description: NSSaleEntity.GetUpdatedDate()
+description: DateTime NSSaleEntity.GetUpdatedDate()
 intellisense: NSSaleEntity.GetUpdatedDate
-keywords: GetUpdatedDate()
+keywords: NSSaleEntity, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Last updated
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

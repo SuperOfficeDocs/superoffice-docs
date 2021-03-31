@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSatellite_SetContact_NSContact_p_0
-description: NSSatellite.SetContact(NSContact p_0)
+﻿---
+title: crmscript_ref_NSSatellite_SetContact
+description: NSSatellite.SetContact(Contact contact)
 intellisense: NSSatellite.SetContact
-keywords: SetContact(NSContact)
+keywords: NSSatellite, GetContact
 so.topic: reference
 ---
 
 
-* **Contact:** Contact
-* **Returns:** Contact
 
+**Parameter:** 
+ - **contact** Contact
 

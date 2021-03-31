@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetRank_Integer_p_0
-description: NSQuoteLine.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetRank
+description: NSQuoteLine.SetRank(Integer rank)
 intellisense: NSQuoteLine.SetRank
-keywords: SetRank(Integer)
+keywords: NSQuoteLine, GetRank
 so.topic: reference
 ---
 
-
 QuoteLines can be re-ordered, so we must track the ordering.
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

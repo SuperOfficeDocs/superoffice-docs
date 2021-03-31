@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSContactAgent_GetDuplicates_String_p_0
-description: NSContactAgent.GetDuplicates(String p_0)
+﻿---
+title: crmscript_ref_NSContactAgent_GetDuplicates
+description: DuplicateEntryArray GetDuplicates(String name)
 intellisense: NSContactAgent.GetDuplicates
-sortOrder: 1817
-keywords: GetDuplicates(String)
+keywords: NSContactAgent,GetDuplicates
 so.topic: reference
 ---
 
-
 Get duplicates (exact or similar in the database) based on the name
 
+**Parameters:**
+ - **name** Name used for lookup
 
+**Returns:** Any records matching the specified name
 
-* **name:** Name used for lookup
-* **Returns:** Any records matching the specified name
-
+```crmscript
+NSContactAgent agent;
+String name;
+DuplicateEntryArray res = agent.GetDuplicates(name);
+```
 

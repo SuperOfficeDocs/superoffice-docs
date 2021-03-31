@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAssociate_SetRank_Integer_p_0
-description: NSAssociate.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSAssociate_SetRank
+description: NSAssociate.SetRank(Integer rank)
 intellisense: NSAssociate.SetRank
-sortOrder: 1274
-keywords: SetRank(Integer)
+keywords: NSAssociate, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

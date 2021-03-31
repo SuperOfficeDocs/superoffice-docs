@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetAssociateFullName_String_p_0
-description: NSSale.SetAssociateFullName(String p_0)
+﻿---
+title: crmscript_ref_NSSale_SetAssociateFullName
+description: NSSale.SetAssociateFullName(String associateFullName)
 intellisense: NSSale.SetAssociateFullName
-keywords: SetAssociateFullName(String)
+keywords: NSSale, GetAssociateFullName
 so.topic: reference
 ---
 
-
 The sale's owner
 
-
-
-* **AssociateFullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **associateFullName** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetShipmentTypes_NSSelectableMDOListItem__p_0
-description: NSPersonEntity.SetShipmentTypes(NSSelectableMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetShipmentTypes
+description: NSPersonEntity.SetShipmentTypes(SelectableMDOListItemArray shipmentTypes)
 intellisense: NSPersonEntity.SetShipmentTypes
-keywords: SetShipmentTypes(NSSelectableMDOListItem[])
+keywords: NSPersonEntity, GetShipmentTypes
 so.topic: reference
 ---
 
-
 The person's available and selected shipment types.
 
-
-
-* **ShipmentTypes:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
-
+**Parameter:** 
+ - **shipmentTypes** SelectableMDOListItemArray
 

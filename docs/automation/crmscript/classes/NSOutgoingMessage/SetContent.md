@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSOutgoingMessage_SetContent_String_p_0
-description: NSOutgoingMessage.SetContent(String p_0)
+﻿---
+title: crmscript_ref_NSOutgoingMessage_SetContent
+description: NSOutgoingMessage.SetContent(String content)
 intellisense: NSOutgoingMessage.SetContent
-keywords: SetContent(String)
+keywords: NSOutgoingMessage, GetContent
 so.topic: reference
 ---
 
-
 Content, or body, of the message.
 
-
-
-* **Content:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **content** String
 

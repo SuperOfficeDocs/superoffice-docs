@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketInfo_GetPriorityName
-description: NSTicketInfo.GetPriorityName()
+description: String NSTicketInfo.GetPriorityName()
 intellisense: NSTicketInfo.GetPriorityName
-keywords: GetPriorityName()
+keywords: NSTicketInfo, GetPriorityName
 so.topic: reference
 ---
 
-
 The name of the priority for the request
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

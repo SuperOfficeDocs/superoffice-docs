@@ -1,14 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_SetIsPublished
-description: NSAppointmentEntity.SetIsPublished()
-intellisense: NSAppointmentEntity.SetIsPublished
-sortOrder: 1009
-keywords: SetIsPublished()
+description: NSAppointmentEntity.SetIsPublished(Boolean isPublished)
+intellisense: NSAppointmentEntity.IsPublished
+keywords: NSAppointmentEntity, IsPublished
 so.topic: reference
 ---
 
+Should this be published and visible to strangers?
 
-* **fields:** Bool
-* **Returns:** Void
-
+**Parameter:** 
+ - **isPublished** Boolean.
 

@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArea_GetNumberOfUsers
-description: NSArea.GetNumberOfUsers()
+description: Integer NSArea.GetNumberOfUsers()
 intellisense: NSArea.GetNumberOfUsers
-sortOrder: 1244
-keywords: GetNumberOfUsers()
+keywords: NSArea, GetNumberOfUsers
 so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
 
 

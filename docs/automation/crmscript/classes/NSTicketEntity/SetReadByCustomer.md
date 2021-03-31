@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetReadByCustomer_DateTime_p_0
-description: NSTicketEntity.SetReadByCustomer(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetReadByCustomer
+description: NSTicketEntity.SetReadByCustomer(DateTime readByCustomer)
 intellisense: NSTicketEntity.SetReadByCustomer
-keywords: SetReadByCustomer(DateTime)
+keywords: NSTicketEntity, GetReadByCustomer
 so.topic: reference
 ---
 
-
 The datetime for when the ticket was read by the customer.
 
-
-
-* **ReadByCustomer:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **readByCustomer** DateTime
 

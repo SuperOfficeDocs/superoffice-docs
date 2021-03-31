@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSFreeTextAgent_SetEnabled_Bool_p_0
-description: NSFreeTextAgent.SetEnabled(Bool p_0)
+﻿---
+title: crmscript_ref_NSFreeTextAgent_SetEnabled
+description: Void SetEnabled(Bool enabled)
 intellisense: NSFreeTextAgent.SetEnabled
-sortOrder: 3875
-keywords: SetEnabled(Bool)
+keywords: NSFreeTextAgent,SetEnabled
 so.topic: reference
 ---
 
-
 Sets freetext search to enabled (true) or disabled (false)
 
+**Parameters:**
+ - **enabled** If enabled true, else false
 
+**Returns:** This method has no return value
 
-* **enabled:** If enabled true, else false
-* **Returns:** This method has no return value
-
+```crmscript
+NSFreeTextAgent agent;
+Bool enabled;
+Void res = agent.SetEnabled(enabled);
+```
 

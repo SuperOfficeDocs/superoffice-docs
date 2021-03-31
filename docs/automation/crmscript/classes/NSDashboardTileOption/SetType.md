@@ -1,18 +1,18 @@
----
-title: crmscript_ref_NSDashboardTileOption_SetType_Integer_p_0
-description: NSDashboardTileOption.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboardTileOption_SetType
+description: NSDashboardTileOption.SetType(Integer type)
 intellisense: NSDashboardTileOption.SetType
-sortOrder: 2330
-keywords: SetType(Integer)
+keywords: NSDashboardTileOption, GetType
 so.topic: reference
 ---
 
-
 The type of option - integer, list, boolean (checkbox) etc.
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = String 
+     - Enum: 2 = Integer 
+     - Enum: 3 = Boolean 
+     - Enum: 4 = List 
 

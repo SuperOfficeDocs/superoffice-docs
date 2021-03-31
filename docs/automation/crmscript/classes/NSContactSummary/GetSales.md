@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactSummary_GetSales
-description: NSContactSummary.GetSales()
+description: SaleSummaryItemArray NSContactSummary.GetSales()
 intellisense: NSContactSummary.GetSales
-sortOrder: 1986
-keywords: GetSales()
+keywords: NSContactSummary, GetSales
 so.topic: reference
 ---
 
-
 Recent sales on contact
 
-
-
-* **Returns:** SaleSummaryItemArray
+**Returns:** SaleSummaryItemArray
 
 

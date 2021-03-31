@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLink_GetLinkId
-description: NSLink.GetLinkId()
+description: Integer NSLink.GetLinkId()
 intellisense: NSLink.GetLinkId
-keywords: GetLinkId()
+keywords: NSLink, GetLinkId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

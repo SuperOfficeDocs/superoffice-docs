@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailSOInfo_GetProjectId
-description: NSEMailSOInfo.GetProjectId()
+description: Integer NSEMailSOInfo.GetProjectId()
 intellisense: NSEMailSOInfo.GetProjectId
-sortOrder: 3049
-keywords: GetProjectId()
+keywords: NSEMailSOInfo, GetProjectId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

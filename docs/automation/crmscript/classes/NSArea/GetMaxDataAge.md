@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArea_GetMaxDataAge
-description: NSArea.GetMaxDataAge()
+description: Integer NSArea.GetMaxDataAge()
 intellisense: NSArea.GetMaxDataAge
-sortOrder: 1242
-keywords: GetMaxDataAge()
+keywords: NSArea, GetMaxDataAge
 so.topic: reference
 ---
 
-
 Max age of data when generating db's based on this area
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

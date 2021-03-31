@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSPhoneListPreferences_SetSearchModeFirstname_Integer_p_0
-description: NSPhoneListPreferences.SetSearchModeFirstname(Integer p_0)
+﻿---
+title: crmscript_ref_NSPhoneListPreferences_SetSearchModeFirstname
+description: NSPhoneListPreferences.SetSearchModeFirstname(Integer searchModeFirstname)
 intellisense: NSPhoneListPreferences.SetSearchModeFirstname
-keywords: SetSearchModeFirstname(Integer)
+keywords: NSPhoneListPreferences, GetSearchModeFirstname
 so.topic: reference
 ---
 
-
 The firstname search type, e.g. BeginsWith, Contains, Endswith, Matches
 
-
-
-* **SearchModeFirstname:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **searchModeFirstname** Integer
+     - Enum: 0 = Exact 
+     - Enum: 1 = BeginsWith 
+     - Enum: 2 = EndsWith 
+     - Enum: 3 = Contains 
 

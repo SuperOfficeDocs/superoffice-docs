@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatusMonitor_SetOwnerTable_Integer_p_0
-description: NSStatusMonitor.SetOwnerTable(Integer p_0)
+﻿---
+title: crmscript_ref_NSStatusMonitor_SetOwnerTable
+description: NSStatusMonitor.SetOwnerTable(Integer ownerTable)
 intellisense: NSStatusMonitor.SetOwnerTable
-keywords: SetOwnerTable(Integer)
+keywords: NSStatusMonitor, GetOwnerTable
 so.topic: reference
 ---
 
-
 Id of table that owns the status monitor
 
-
-
-* **OwnerTable:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **ownerTable** Integer
 

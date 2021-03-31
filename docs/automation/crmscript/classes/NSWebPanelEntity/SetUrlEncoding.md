@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetUrlEncoding_Integer_p_0
-description: NSWebPanelEntity.SetUrlEncoding(Integer p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetUrlEncoding
+description: NSWebPanelEntity.SetUrlEncoding(Integer urlEncoding)
 intellisense: NSWebPanelEntity.SetUrlEncoding
-keywords: SetUrlEncoding(Integer)
+keywords: NSWebPanelEntity, GetUrlEncoding
 so.topic: reference
 ---
 
-
 The encoding of the URL
 
-
-
-* **UrlEncoding:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **urlEncoding** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = None 
+     - Enum: 2 = ANSI 
+     - Enum: 3 = Unicode 
 

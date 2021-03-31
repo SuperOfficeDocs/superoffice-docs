@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetPhones
-description: NSContactEntity.GetPhones()
+description: EntityElementArray NSContactEntity.GetPhones()
 intellisense: NSContactEntity.GetPhones
-sortOrder: 1860
-keywords: GetPhones()
+keywords: NSContactEntity, GetPhones
 so.topic: reference
 ---
 
-
 The contact's phone numbers
 
-
-
-* **Returns:** EntityElementArray
+**Returns:** EntityElementArray
 
 

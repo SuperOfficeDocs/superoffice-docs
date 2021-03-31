@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetIsIndexed_Bool_p_0
-description: NSUserDefinedFieldInfo.SetIsIndexed(Bool p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetIsIndexed
+description: NSUserDefinedFieldInfo.SetIsIndexed(Bool isIndexed)
 intellisense: NSUserDefinedFieldInfo.SetIsIndexed
-keywords: SetIsIndexed(Bool)
+keywords: NSUserDefinedFieldInfo, GetIsIndexed
 so.topic: reference
 ---
 
-
 Is this field indexed? 0 if no, index no. if yes
 
-
-
-* **IsIndexed:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isIndexed** Bool
 

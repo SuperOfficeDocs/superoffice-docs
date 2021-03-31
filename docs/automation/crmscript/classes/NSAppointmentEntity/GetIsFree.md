@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetIsFree
-description: NSAppointmentEntity.GetIsFree()
+description: Bool NSAppointmentEntity.GetIsFree()
 intellisense: NSAppointmentEntity.GetIsFree
-sortOrder: 928
-keywords: GetIsFree()
+keywords: NSAppointmentEntity, GetIsFree
 so.topic: reference
 ---
 
-
 True if free, false if busy
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

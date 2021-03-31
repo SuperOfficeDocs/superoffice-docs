@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetUpdated_DateTime_p_0
-description: NSFormEntity.SetUpdated(DateTime p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetUpdated
+description: NSFormEntity.SetUpdated(DateTime updated)
 intellisense: NSFormEntity.SetUpdated
-sortOrder: 3825
-keywords: SetUpdated(DateTime)
+keywords: NSFormEntity, GetUpdated
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Updated:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updated** DateTime
 

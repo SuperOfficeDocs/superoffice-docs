@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetTaskName_String_p_0
-description: NSAppointmentSyncData.SetTaskName(String p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetTaskName
+description: NSAppointmentSyncData.SetTaskName(String taskName)
 intellisense: NSAppointmentSyncData.SetTaskName
-sortOrder: 1091
-keywords: SetTaskName(String)
+keywords: NSAppointmentSyncData, GetTaskName
 so.topic: reference
 ---
 
 
-* **TaskName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **taskName** String
 

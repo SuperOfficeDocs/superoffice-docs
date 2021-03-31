@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersionValidated_GetChangedQuoteAlternatives
-description: NSQuoteVersionValidated.GetChangedQuoteAlternatives()
+description: QuoteAlternativeRecalculatedArray NSQuoteVersionValidated.GetChangedQuoteAlternatives()
 intellisense: NSQuoteVersionValidated.GetChangedQuoteAlternatives
-keywords: GetChangedQuoteAlternatives()
+keywords: NSQuoteVersionValidated, GetChangedQuoteAlternatives
 so.topic: reference
 ---
 
-
 The changed QuoteAlternatives
 
-
-
-* **Returns:** QuoteAlternativeRecalculatedArray
+**Returns:** QuoteAlternativeRecalculatedArray
 
 

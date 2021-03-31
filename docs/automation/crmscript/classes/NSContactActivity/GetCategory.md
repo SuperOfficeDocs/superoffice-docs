@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactActivity_GetCategory
-description: NSContactActivity.GetCategory()
+description: String NSContactActivity.GetCategory()
 intellisense: NSContactActivity.GetCategory
-sortOrder: 1775
-keywords: GetCategory()
+keywords: NSContactActivity, GetCategory
 so.topic: reference
 ---
 
-
 The contact category.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

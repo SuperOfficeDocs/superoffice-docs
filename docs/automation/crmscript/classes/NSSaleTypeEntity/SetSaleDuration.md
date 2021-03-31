@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleTypeEntity_SetSaleDuration_Integer_p_0
-description: NSSaleTypeEntity.SetSaleDuration(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleTypeEntity_SetSaleDuration
+description: NSSaleTypeEntity.SetSaleDuration(Integer saleDuration)
 intellisense: NSSaleTypeEntity.SetSaleDuration
-keywords: SetSaleDuration(Integer)
+keywords: NSSaleTypeEntity, GetSaleDuration
 so.topic: reference
 ---
 
-
 Expected number of dales from initiation to close of sale
 
-
-
-* **SaleDuration:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleDuration** Integer
 

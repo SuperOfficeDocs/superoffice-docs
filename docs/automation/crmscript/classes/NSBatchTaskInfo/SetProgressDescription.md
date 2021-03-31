@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetProgressDescription_String_p_0
-description: NSBatchTaskInfo.SetProgressDescription(String p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetProgressDescription
+description: NSBatchTaskInfo.SetProgressDescription(String progressDescription)
 intellisense: NSBatchTaskInfo.SetProgressDescription
-sortOrder: 1399
-keywords: SetProgressDescription(String)
+keywords: NSBatchTaskInfo, GetProgressDescription
 so.topic: reference
 ---
 
-
 Descriptive text for the current stage
 
-
-
-* **ProgressDescription:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **progressDescription** String
 

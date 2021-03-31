@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionValidated_SetTechExplanation_String_p_0
-description: NSQuoteVersionValidated.SetTechExplanation(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionValidated_SetTechExplanation
+description: NSQuoteVersionValidated.SetTechExplanation(String techExplanation)
 intellisense: NSQuoteVersionValidated.SetTechExplanation
-keywords: SetTechExplanation(String)
+keywords: NSQuoteVersionValidated, GetTechExplanation
 so.topic: reference
 ---
 
-
 Always in English
 
-
-
-* **TechExplanation:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **techExplanation** String
 

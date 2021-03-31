@@ -1,18 +1,16 @@
----
-title: crmscript_ref_NSErpSyncFieldMapping_SetAccess_Integer_p_0
-description: NSErpSyncFieldMapping.SetAccess(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldMapping_SetAccess
+description: NSErpSyncFieldMapping.SetAccess(FieldAccess access)
 intellisense: NSErpSyncFieldMapping.SetAccess
-sortOrder: 3304
-keywords: SetAccess(Integer)
+keywords: NSErpSyncFieldMapping, GetAccess
 so.topic: reference
 ---
 
 Access restrictions for the field
-* Normal=0
-* Mandatory=1
-* ReadOnly=2
 
-* **p0:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **access** FieldAccess
+     - Enum: 0 = Normal 
+     - Enum: 1 = Mandatory 
+     - Enum: 2 = ReadOnly 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailFolder_SetUnreadItems_Integer_p_0
-description: NSEMailFolder.SetUnreadItems(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailFolder_SetUnreadItems
+description: NSEMailFolder.SetUnreadItems(Integer unreadItems)
 intellisense: NSEMailFolder.SetUnreadItems
-sortOrder: 3041
-keywords: SetUnreadItems(Integer)
+keywords: NSEMailFolder, GetUnreadItems
 so.topic: reference
 ---
 
-
 Number of unread messages in the folder
 
-
-
-* **UnreadItems:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **unreadItems** Integer
 

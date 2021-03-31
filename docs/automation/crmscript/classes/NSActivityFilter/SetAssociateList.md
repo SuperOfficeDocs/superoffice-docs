@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSActivityFilter_SetAssociateList_NSSelectableMDOListItem__p_0
-description: NSActivityFilter.SetAssociateList(NSSelectableMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSActivityFilter_SetAssociateList
+description: NSActivityFilter.SetAssociateList(SelectableMDOListItemArray associateList)
 intellisense: NSActivityFilter.SetAssociateList
-sortOrder: 574
-keywords: SetAssociateList(NSSelectableMDOListItem[])
+keywords: NSActivityFilter, GetAssociateList
 so.topic: reference
 ---
 
-
 The list of associates to filter on
 
-
-
-* **AssociateList:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
-
+**Parameter:** 
+ - **associateList** SelectableMDOListItemArray
 

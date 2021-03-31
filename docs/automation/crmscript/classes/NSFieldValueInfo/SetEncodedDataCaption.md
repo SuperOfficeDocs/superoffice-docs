@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSFieldValueInfo_SetEncodedDataCaption_String_p_0
-description: NSFieldValueInfo.SetEncodedDataCaption(String p_0)
+﻿---
+title: crmscript_ref_NSFieldValueInfo_SetEncodedDataCaption
+description: NSFieldValueInfo.SetEncodedDataCaption(String encodedDataCaption)
 intellisense: NSFieldValueInfo.SetEncodedDataCaption
-sortOrder: 3640
-keywords: SetEncodedDataCaption(String)
+keywords: NSFieldValueInfo, GetEncodedDataCaption
 so.topic: reference
 ---
 
 
-* **EncodedDataCaption:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **encodedDataCaption** String
 

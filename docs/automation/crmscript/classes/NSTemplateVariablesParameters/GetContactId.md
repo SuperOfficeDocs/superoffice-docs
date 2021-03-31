@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTemplateVariablesParameters_GetContactId
-description: NSTemplateVariablesParameters.GetContactId()
+description: Integer NSTemplateVariablesParameters.GetContactId()
 intellisense: NSTemplateVariablesParameters.GetContactId
-keywords: GetContactId()
+keywords: NSTemplateVariablesParameters, GetContactId
 so.topic: reference
 ---
 
-
 Identifier for a contact
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

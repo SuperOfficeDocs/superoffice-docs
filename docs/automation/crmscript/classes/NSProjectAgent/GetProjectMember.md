@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSProjectAgent_GetProjectMember_Integer_p_0
-description: NSProjectAgent.GetProjectMember(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_GetProjectMember
+description: NSProjectMember GetProjectMember(Integer projectMemberId);
 intellisense: NSProjectAgent.GetProjectMember
-keywords: GetProjectMember(Integer)
+keywords: NSProjectAgent,GetProjectMember
 so.topic: reference
 ---
 
+Gets a NSProjectMember object.
 
-Gets a ProjectMember object.
+**Parameters:**
+ - **projectMemberId** The identifier of the NSProjectMember object
 
+**Returns:** NSProjectMember
 
-
-* **projectMemberId:** The identifier of the ProjectMember object
-* **Returns:** ProjectMember
-
+```crmscript
+NSProjectAgent agent;
+NSProjectMember thing = agent.GetProjectMember(123);
+```
 

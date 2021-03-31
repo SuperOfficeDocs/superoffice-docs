@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketPriorityEntity_GetTicketPriorityId
-description: NSTicketPriorityEntity.GetTicketPriorityId()
+description: Integer NSTicketPriorityEntity.GetTicketPriorityId()
 intellisense: NSTicketPriorityEntity.GetTicketPriorityId
-keywords: GetTicketPriorityId()
+keywords: NSTicketPriorityEntity, GetTicketPriorityId
 so.topic: reference
 ---
 
-
 The primary key (auto-incremented)
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

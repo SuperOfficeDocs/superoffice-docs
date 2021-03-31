@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSHeadingEntity_SetDeleted_Bool_p_0
-description: NSHeadingEntity.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSHeadingEntity_SetDeleted
+description: NSHeadingEntity.SetDeleted(Bool deleted)
 intellisense: NSHeadingEntity.SetDeleted
-sortOrder: 3918
-keywords: SetDeleted(Bool)
+keywords: NSHeadingEntity, GetDeleted
 so.topic: reference
 ---
 
-
 True if the heading is marked as deleted
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

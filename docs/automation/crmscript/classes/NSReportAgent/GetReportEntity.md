@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSReportAgent_GetReportEntity_Integer_p_0
-description: NSReportAgent.GetReportEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportAgent_GetReportEntity
+description: NSReportEntity GetReportEntity(Integer reportEntityId);
 intellisense: NSReportAgent.GetReportEntity
-keywords: GetReportEntity(Integer)
+keywords: NSReportAgent,GetReportEntity
 so.topic: reference
 ---
 
+Gets a NSReportEntity object.
 
-Gets a ReportEntity object.
+**Parameters:**
+ - **reportEntityId** The identifier of the NSReportEntity object
 
+**Returns:** NSReportEntity
 
-
-* **reportEntityId:** The identifier of the ReportEntity object
-* **Returns:** ReportEntity
-
+```crmscript
+NSReportAgent agent;
+NSReportEntity thing = agent.GetReportEntity(123);
+```
 

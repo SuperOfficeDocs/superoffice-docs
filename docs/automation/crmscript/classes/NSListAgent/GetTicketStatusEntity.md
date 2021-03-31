@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetTicketStatusEntity_Integer_p_0
-description: NSListAgent.GetTicketStatusEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetTicketStatusEntity
+description: NSTicketStatusEntity GetTicketStatusEntity(Integer ticketStatusEntityId);
 intellisense: NSListAgent.GetTicketStatusEntity
-keywords: GetTicketStatusEntity(Integer)
+keywords: NSListAgent,GetTicketStatusEntity
 so.topic: reference
 ---
 
+Gets a NSTicketStatusEntity object.
 
-Gets a TicketStatusEntity object.
+**Parameters:**
+ - **ticketStatusEntityId** The identifier of the NSTicketStatusEntity object
 
+**Returns:** NSTicketStatusEntity
 
-
-* **ticketStatusEntityId:** The identifier of the TicketStatusEntity object
-* **Returns:** TicketStatusEntity
-
+```crmscript
+NSListAgent agent;
+NSTicketStatusEntity thing = agent.GetTicketStatusEntity(123);
+```
 

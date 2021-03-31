@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSalesActivity_GetRequestedContacts
-description: NSSalesActivity.GetRequestedContacts()
+description: ContactArray NSSalesActivity.GetRequestedContacts()
 intellisense: NSSalesActivity.GetRequestedContacts
-keywords: GetRequestedContacts()
+keywords: NSSalesActivity, GetRequestedContacts
 so.topic: reference
 ---
 
-
 The companies that match the request
 
-
-
-* **Returns:** ContactArray
+**Returns:** ContactArray
 
 

@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPhoneListItem_SetTooltip_String_p_0
-description: NSPhoneListItem.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSPhoneListItem_SetTooltip
+description: NSPhoneListItem.SetTooltip(String tooltip)
 intellisense: NSPhoneListItem.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSPhoneListItem, GetTooltip
 so.topic: reference
 ---
 
 
-* **Tooltip:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **tooltip** String
 

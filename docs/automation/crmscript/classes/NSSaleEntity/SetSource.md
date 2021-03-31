@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetSource_NSSource_p_0
-description: NSSaleEntity.SetSource(NSSource p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetSource
+description: NSSaleEntity.SetSource(Source source)
 intellisense: NSSaleEntity.SetSource
-keywords: SetSource(NSSource)
+keywords: NSSaleEntity, GetSource
 so.topic: reference
 ---
 
-
 The sale source
 
-
-
-* **Source:** Source
-* **Returns:** Source
-
+**Parameter:** 
+ - **source** Source
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentEntity_SetHeader_String_p_0
-description: NSDocumentEntity.SetHeader(String p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetHeader
+description: NSDocumentEntity.SetHeader(String header)
 intellisense: NSDocumentEntity.SetHeader
-sortOrder: 2598
-keywords: SetHeader(String)
+keywords: NSDocumentEntity, GetHeader
 so.topic: reference
 ---
 
-
 Visible document name
 
-
-
-* **Header:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **header** String
 

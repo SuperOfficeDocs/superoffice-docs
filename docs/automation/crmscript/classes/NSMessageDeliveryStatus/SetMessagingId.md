@@ -1,21 +1,13 @@
----
-title: crmscript_ref_NSMessageDeliveryStatus_SetMessagingId_Integer_p_0
-description: NSMessageDeliveryStatus.SetMessagingId(Integer p_0)
+﻿---
+title: crmscript_ref_NSMessageDeliveryStatus_SetMessagingId
+description: NSMessageDeliveryStatus.SetMessagingId(Integer messagingId)
 intellisense: NSMessageDeliveryStatus.SetMessagingId
-keywords: SetMessagingId(Integer)
+keywords: NSMessageDeliveryStatus, GetMessagingId
 so.topic: reference
 ---
 
+Id to the outgoing message table 
 
-Id to the outgoing message table
-
-
-    	///
-    
-
-
-
-* **MessagingId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **messagingId** Integer
 

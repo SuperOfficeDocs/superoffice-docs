@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetListEntity_Integer_p_0
-description: NSListAgent.GetListEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetListEntity
+description: NSListEntity GetListEntity(Integer listEntityId);
 intellisense: NSListAgent.GetListEntity
-keywords: GetListEntity(Integer)
+keywords: NSListAgent,GetListEntity
 so.topic: reference
 ---
 
+Gets a NSListEntity object.
 
-Gets a ListEntity object.
+**Parameters:**
+ - **listEntityId** The identifier of the NSListEntity object
 
+**Returns:** NSListEntity
 
-
-* **listEntityId:** The identifier of the ListEntity object
-* **Returns:** ListEntity
-
+```crmscript
+NSListAgent agent;
+NSListEntity thing = agent.GetListEntity(123);
+```
 

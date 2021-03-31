@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveListEntity_NSListEntity_p_0
-description: NSListAgent.SaveListEntity(NSListEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveListEntity
+description: NSListEntity SaveListEntity(NSListEntity listEntity);
 intellisense: NSListAgent.SaveListEntity
-keywords: SaveListEntity(NSListEntity)
+keywords: NSListAgent,SaveListEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSListEntity or creates a new NSListEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **listEntity** The NSListEntity to save.
 
+**Returns:** New or updated NSListEntity
 
-Updates the existing ListEntity or creates a new ListEntity if the id parameter is empty
-
-
-
-* **listEntity:** The ListEntity that is saved
-* **Returns:** New or updated ListEntity
-
+```crmscript
+NSList  agent;
+NSListEntity thing = agent.CreateDefaultListEntity();
+thing = agent.SaveListEntity(thing);
+```
 

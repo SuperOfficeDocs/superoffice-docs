@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBlobEntity_GetCreatedDate
-description: NSBlobEntity.GetCreatedDate()
+description: DateTime NSBlobEntity.GetCreatedDate()
 intellisense: NSBlobEntity.GetCreatedDate
-sortOrder: 1442
-keywords: GetCreatedDate()
+keywords: NSBlobEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

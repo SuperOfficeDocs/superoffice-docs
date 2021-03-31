@@ -1,17 +1,16 @@
----
-title: crmscript_ref_NSTicketMessage_SetSlevel_NSTicketSecurityLevel_p_0
-description: NSTicketMessage.SetSlevel(NSTicketSecurityLevel p_0)
+﻿---
+title: crmscript_ref_NSTicketMessage_SetSlevel
+description: NSTicketMessage.SetSlevel(TicketSecurityLevel slevel)
 intellisense: NSTicketMessage.SetSlevel
-keywords: SetSlevel(NSTicketSecurityLevel)
+keywords: NSTicketMessage, GetSlevel
 so.topic: reference
 ---
 
-
 The securitylevel of the message.
 
-
-
-* **Slevel:** TicketSecurityLevel
-* **Returns:** TicketSecurityLevel
-
+**Parameter:** 
+ - **slevel** TicketSecurityLevel
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Internal 
+     - Enum: 2 = External 
 

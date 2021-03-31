@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboard_GetTiles
-description: NSDashboard.GetTiles()
+description: DashboardTileArray NSDashboard.GetTiles()
 intellisense: NSDashboard.GetTiles
-sortOrder: 2263
-keywords: GetTiles()
+keywords: NSDashboard, GetTiles
 so.topic: reference
 ---
 
-
 The tiles associated with this dashboard
 
-
-
-* **Returns:** DashboardTileArray
+**Returns:** DashboardTileArray
 
 

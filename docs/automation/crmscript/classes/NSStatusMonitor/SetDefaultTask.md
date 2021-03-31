@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatusMonitor_SetDefaultTask_Integer_p_0
-description: NSStatusMonitor.SetDefaultTask(Integer p_0)
+﻿---
+title: crmscript_ref_NSStatusMonitor_SetDefaultTask
+description: NSStatusMonitor.SetDefaultTask(Integer defaultTask)
 intellisense: NSStatusMonitor.SetDefaultTask
-keywords: SetDefaultTask(Integer)
+keywords: NSStatusMonitor, GetDefaultTask
 so.topic: reference
 ---
 
-
 "Default task type for this status; the default task text is in the text table (since it can be long), and may contain template variables"
 
-
-
-* **DefaultTask:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **defaultTask** Integer
 

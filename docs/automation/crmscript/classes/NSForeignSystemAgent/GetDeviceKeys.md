@@ -1,19 +1,23 @@
----
-title: crmscript_ref_NSForeignSystemAgent_GetDeviceKeys_String_p_0_String_p_1
-description: NSForeignSystemAgent.GetDeviceKeys(String p_0, String p_1)
+﻿---
+title: crmscript_ref_NSForeignSystemAgent_GetDeviceKeys
+description: ForeignKeyArray GetDeviceKeys(String applicationName, String deviceName)
 intellisense: NSForeignSystemAgent.GetDeviceKeys
-sortOrder: 3770
-keywords: GetDeviceKeys(String,String)
+keywords: NSForeignSystemAgent,GetDeviceKeys
 so.topic: reference
 ---
 
-
 Returns all ForeignKeys that belong to a device.
 
+**Parameters:**
+ - **applicationName** The name of the foreign application.
+ - **deviceName** The name of the foreign device.
 
+**Returns:** Array of all ForeignKeys in the ForeignDevice.
 
-* **applicationName:** The name of the foreign application.
-* **deviceName:** The name of the foreign device.
-* **Returns:** Array of all ForeignKeys in the ForeignDevice.
-
+```crmscript
+NSForeignSystemAgent agent;
+String applicationName;
+String deviceName;
+ForeignKeyArray res = agent.GetDeviceKeys(applicationName, deviceName);
+```
 

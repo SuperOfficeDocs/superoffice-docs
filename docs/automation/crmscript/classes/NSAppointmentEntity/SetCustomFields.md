@@ -1,14 +1,24 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetCustomFields_Map_p_0
-description: NSAppointmentEntity.SetCustomFields(Map p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetCustomFields
+description: NSAppointmentEntity.SetCustomFields(Map udefs)
 intellisense: NSAppointmentEntity.SetCustomFields
-sortOrder: 996
-keywords: SetCustomFields(Map)
+keywords: NSAppointmentEntity, SetCustomFields
 so.topic: reference
 ---
 
+Set the user-defined and extra fields as a map.
 
-* **fields:** Map
-* **Returns:** Void
+**Parameter:** 
+ - **udefs** Map user defined field and extra field values encoded as strings.
 
+```crmscript
+NSAppointmentEntity thing;
+Map udefs;
+udefs["SuperOffice:1"] = "[I:123]";
+udefs["SuperOffice:1"] = "123"; // this will also work, but beware of decimal point variations in different languages
+udefs["custom.progid"] = "foobar";
+udefs["x_foo"] = "foobar";
+udefs["x_bar"] = "456"; // List item id
+thing.SetCustomFields(udefs);
+```
 

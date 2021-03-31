@@ -1,17 +1,16 @@
----
-title: crmscript_ref_NSTicketMessageEntity_SetType_NSTicketMessageType_p_0
-description: NSTicketMessageEntity.SetType(NSTicketMessageType p_0)
+﻿---
+title: crmscript_ref_NSTicketMessageEntity_SetType
+description: NSTicketMessageEntity.SetType(TicketMessageType type)
 intellisense: NSTicketMessageEntity.SetType
-keywords: SetType(NSTicketMessageType)
+keywords: NSTicketMessageEntity, GetType
 so.topic: reference
 ---
 
-
 The type of the message (plaintext/html).
 
-
-
-* **Type:** TicketMessageType
-* **Returns:** TicketMessageType
-
+**Parameter:** 
+ - **type** TicketMessageType
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Plain 
+     - Enum: 2 = Html 
 

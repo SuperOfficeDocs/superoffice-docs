@@ -1,17 +1,19 @@
----
-title: crmscript_ref_NSReturnInfo_SetType_Integer_p_0
-description: NSReturnInfo.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSReturnInfo_SetType
+description: NSReturnInfo.SetType(Integer type)
 intellisense: NSReturnInfo.SetType
-keywords: SetType(Integer)
+keywords: NSReturnInfo, GetType
 so.topic: reference
 ---
 
-
 How is the return value to be understood by the caller
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Message 
+     - Enum: 2 = SoProtocol 
+     - Enum: 3 = CustomGui 
+     - Enum: 4 = Other 
+     - Enum: 5 = URL 
 

@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSSelectionCategory_GetTooltip
-description: NSSelectionCategory.GetTooltip()
+description: String NSSelectionCategory.GetTooltip()
 intellisense: NSSelectionCategory.GetTooltip
-keywords: GetTooltip()
+keywords: NSSelectionCategory, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

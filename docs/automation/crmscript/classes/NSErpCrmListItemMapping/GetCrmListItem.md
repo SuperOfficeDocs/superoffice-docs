@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpCrmListItemMapping_GetCrmListItem
-description: NSErpCrmListItemMapping.GetCrmListItem()
+description: MDOListItem NSErpCrmListItemMapping.GetCrmListItem()
 intellisense: NSErpCrmListItemMapping.GetCrmListItem
-sortOrder: 3144
-keywords: GetCrmListItem()
+keywords: NSErpCrmListItemMapping, GetCrmListItem
 so.topic: reference
 ---
 
-
 One mapped SuperOffice listItem
 
-
-
-* **Returns:** MDOListItem
+**Returns:** MDOListItem
 
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAccount_GetIncomingCredentials
-description: NSEMailAccount.GetIncomingCredentials()
+description: ServiceAuth NSEMailAccount.GetIncomingCredentials()
 intellisense: NSEMailAccount.GetIncomingCredentials
-sortOrder: 2748
-keywords: GetIncomingCredentials()
+keywords: NSEMailAccount, GetIncomingCredentials
 so.topic: reference
 ---
 
-
 Account credentials for imap
 
-
-
-* **Returns:** ServiceAuth
+**Returns:** ServiceAuth
 
 

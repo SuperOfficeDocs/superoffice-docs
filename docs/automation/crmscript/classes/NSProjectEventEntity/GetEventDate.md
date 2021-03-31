@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEventEntity_GetEventDate
-description: NSProjectEventEntity.GetEventDate()
+description: DateTime NSProjectEventEntity.GetEventDate()
 intellisense: NSProjectEventEntity.GetEventDate
-keywords: GetEventDate()
+keywords: NSProjectEventEntity, GetEventDate
 so.topic: reference
 ---
 
-
 Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

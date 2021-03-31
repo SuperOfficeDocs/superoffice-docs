@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetShowInMenuBar_Bool_p_0
-description: NSExtAppEntity.SetShowInMenuBar(Bool p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetShowInMenuBar
+description: NSExtAppEntity.SetShowInMenuBar(Bool showInMenuBar)
 intellisense: NSExtAppEntity.SetShowInMenuBar
-sortOrder: 3393
-keywords: SetShowInMenuBar(Bool)
+keywords: NSExtAppEntity, GetShowInMenuBar
 so.topic: reference
 ---
 
-
 Does the application have a menu bar
 
-
-
-* **ShowInMenuBar:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **showInMenuBar** Bool
 

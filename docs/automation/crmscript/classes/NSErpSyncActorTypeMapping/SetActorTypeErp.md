@@ -1,24 +1,21 @@
----
-title: crmscript_ref_NSErpSyncActorTypeMapping_SetActorTypeErp_Integer_p_0
-description: NSErpSyncActorTypeMapping.SetActorTypeErp(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncActorTypeMapping_SetActorTypeErp
+description: NSErpSyncActorTypeMapping.SetActorTypeErp(ErpActorType actorTypeErp)
 intellisense: NSErpSyncActorTypeMapping.SetActorTypeErp
-sortOrder: 3171
-keywords: SetActorTypeErp(Integer)
+keywords: NSErpSyncActorTypeMapping, GetActorTypeErp
 so.topic: reference
 ---
 
-
 The actor type (ERP side)
 
-* Unknown=0
-* Customer=1
-* Supplier=2
-* Partner=3
-* Person=4
-* Project=5
-* Employee=6
-* Sale=7
-
-* **p0:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **actorTypeErp** ErpActorType
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Customer 
+     - Enum: 2 = Supplier 
+     - Enum: 3 = Partner 
+     - Enum: 4 = Person 
+     - Enum: 5 = Project 
+     - Enum: 6 = Employee 
+     - Enum: 7 = Sale 
 

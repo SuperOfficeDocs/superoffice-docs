@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldMapping_SetSyncToCrm_Bool_p_0
-description: NSErpSyncFieldMapping.SetSyncToCrm(Bool p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldMapping_SetSyncToCrm
+description: NSErpSyncFieldMapping.SetSyncToCrm(Bool syncToCrm)
 intellisense: NSErpSyncFieldMapping.SetSyncToCrm
-sortOrder: 3321
-keywords: SetSyncToCrm(Bool)
+keywords: NSErpSyncFieldMapping, GetSyncToCrm
 so.topic: reference
 ---
 
-
 Should value changes in ERP be automatically transferred to CRM
 
-
-
-* **SyncToCrm:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **syncToCrm** Bool
 

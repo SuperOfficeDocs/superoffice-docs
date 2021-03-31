@@ -1,16 +1,16 @@
----
+﻿---
 title: crmscript_ref_NSTicketMessageEntity_GetSlevel
-description: NSTicketMessageEntity.GetSlevel()
+description: TicketSecurityLevel NSTicketMessageEntity.GetSlevel()
 intellisense: NSTicketMessageEntity.GetSlevel
-keywords: GetSlevel()
+keywords: NSTicketMessageEntity, GetSlevel
 so.topic: reference
 ---
 
-
 The securitylevel of the message.
 
+**Returns:** TicketSecurityLevel
 
-
-* **Returns:** TicketSecurityLevel
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Internal 
+     - Enum: 2 = External 
 

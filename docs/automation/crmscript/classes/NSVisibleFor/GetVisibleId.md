@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSVisibleFor_GetVisibleId
-description: NSVisibleFor.GetVisibleId()
+description: Integer NSVisibleFor.GetVisibleId()
 intellisense: NSVisibleFor.GetVisibleId
-keywords: GetVisibleId()
+keywords: NSVisibleFor, GetVisibleId
 so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
 
 

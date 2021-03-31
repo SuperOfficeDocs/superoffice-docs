@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboard_SetAssociateId_Integer_p_0
-description: NSDashboard.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboard_SetAssociateId
+description: NSDashboard.SetAssociateId(Integer associateId)
 intellisense: NSDashboard.SetAssociateId
-sortOrder: 2265
-keywords: SetAssociateId(Integer)
+keywords: NSDashboard, GetAssociateId
 so.topic: reference
 ---
 
-
 Id of the associate who owns this dashboard
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

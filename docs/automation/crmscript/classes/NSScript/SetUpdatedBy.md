@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSScript_SetUpdatedBy_String_p_0
-description: NSScript.SetUpdatedBy(String p_0)
+﻿---
+title: crmscript_ref_NSScript_SetUpdatedBy
+description: NSScript.SetUpdatedBy(String updatedBy)
 intellisense: NSScript.SetUpdatedBy
-keywords: SetUpdatedBy(String)
+keywords: NSScript, GetUpdatedBy
 so.topic: reference
 ---
 
-
 Who updated this script
 
-
-
-* **UpdatedBy:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **updatedBy** String
 

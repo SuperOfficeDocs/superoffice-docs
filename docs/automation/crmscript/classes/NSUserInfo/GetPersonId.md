@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserInfo_GetPersonId
-description: NSUserInfo.GetPersonId()
+description: Integer NSUserInfo.GetPersonId()
 intellisense: NSUserInfo.GetPersonId
-keywords: GetPersonId()
+keywords: NSUserInfo, GetPersonId
 so.topic: reference
 ---
 
-
 Owning person record
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,21 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetOpenWeightedBaseCurrency_Float_p_0
-description: NSSaleSummary.SetOpenWeightedBaseCurrency(Float p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetOpenWeightedBaseCurrency
+description: NSSaleSummary.SetOpenWeightedBaseCurrency(Float openWeightedBaseCurrency)
 intellisense: NSSaleSummary.SetOpenWeightedBaseCurrency
-keywords: SetOpenWeightedBaseCurrency(Float)
+keywords: NSSaleSummary, GetOpenWeightedBaseCurrency
 so.topic: reference
 ---
 
+Weighted sum for all open within the period in default currency for the installation 
 
-Weighted sum for all open within the period in default currency for the installation
-
-
-    	///
-    
-
-
-
-* **OpenWeightedBaseCurrency:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **openWeightedBaseCurrency** Float
 

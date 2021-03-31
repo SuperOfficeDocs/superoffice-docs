@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetTimeSpentQueue_Integer_p_0
-description: NSTicket.SetTimeSpentQueue(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetTimeSpentQueue
+description: NSTicket.SetTimeSpentQueue(Integer timeSpentQueue)
 intellisense: NSTicket.SetTimeSpentQueue
-keywords: SetTimeSpentQueue(Integer)
+keywords: NSTicket, GetTimeSpentQueue
 so.topic: reference
 ---
 
-
 The total time (seconds) within the priority's office hours the ticket has been in a queue status, not including current state
 
-
-
-* **TimeSpentQueue:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **timeSpentQueue** Integer
 

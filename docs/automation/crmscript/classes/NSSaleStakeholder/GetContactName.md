@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleStakeholder_GetContactName
-description: NSSaleStakeholder.GetContactName()
+description: String NSSaleStakeholder.GetContactName()
 intellisense: NSSaleStakeholder.GetContactName
-keywords: GetContactName()
+keywords: NSSaleStakeholder, GetContactName
 so.topic: reference
 ---
 
-
 Contact name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

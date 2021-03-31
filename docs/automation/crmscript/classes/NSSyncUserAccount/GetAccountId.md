@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSyncUserAccount_GetAccountId
-description: NSSyncUserAccount.GetAccountId()
+description: Integer NSSyncUserAccount.GetAccountId()
 intellisense: NSSyncUserAccount.GetAccountId
-keywords: GetAccountId()
+keywords: NSSyncUserAccount, GetAccountId
 so.topic: reference
 ---
 
-
 The account primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

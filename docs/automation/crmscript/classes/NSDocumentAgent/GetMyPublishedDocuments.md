@@ -1,15 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSDocumentAgent_GetMyPublishedDocuments
-description: NSDocumentAgent.GetMyPublishedDocuments()
+description: DocumentArray GetMyPublishedDocuments()
 intellisense: NSDocumentAgent.GetMyPublishedDocuments
-sortOrder: 2479
-keywords: GetMyPublishedDocuments()
+keywords: NSDocumentAgent,GetMyPublishedDocuments
 so.topic: reference
 ---
 
 
 
 
-* **Returns:** Array of documents
+**Returns:** Array of documents
 
+```crmscript
+NSDocumentAgent agent;
+DocumentArray res = agent.GetMyPublishedDocuments();
+```
 

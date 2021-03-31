@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAttachment_SetType_String_p_0
-description: NSEMailAttachment.SetType(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAttachment_SetType
+description: NSEMailAttachment.SetType(String type)
 intellisense: NSEMailAttachment.SetType
-sortOrder: 2907
-keywords: SetType(String)
+keywords: NSEMailAttachment, GetType
 so.topic: reference
 ---
 
-
 Attachment Content-Type
 
-
-
-* **Type:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **type** String
 

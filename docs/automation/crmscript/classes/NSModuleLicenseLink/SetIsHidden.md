@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetIsHidden_Bool_p_0
-description: NSModuleLicenseLink.SetIsHidden(Bool p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetIsHidden
+description: NSModuleLicenseLink.SetIsHidden(Bool isHidden)
 intellisense: NSModuleLicenseLink.SetIsHidden
-keywords: SetIsHidden(Bool)
+keywords: NSModuleLicenseLink, GetIsHidden
 so.topic: reference
 ---
 
-
 Is hidden from UI
 
-
-
-* **IsHidden:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isHidden** Bool
 

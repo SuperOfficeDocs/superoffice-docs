@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAttachment_SetFilename_String_p_0
-description: NSEMailAttachment.SetFilename(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAttachment_SetFilename
+description: NSEMailAttachment.SetFilename(String filename)
 intellisense: NSEMailAttachment.SetFilename
-sortOrder: 2903
-keywords: SetFilename(String)
+keywords: NSEMailAttachment, GetFilename
 so.topic: reference
 ---
 
-
 Filename
 
-
-
-* **Filename:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **filename** String
 

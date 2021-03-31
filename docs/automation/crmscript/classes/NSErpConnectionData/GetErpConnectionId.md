@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpConnectionData_GetErpConnectionId
-description: NSErpConnectionData.GetErpConnectionId()
+description: Integer NSErpConnectionData.GetErpConnectionId()
 intellisense: NSErpConnectionData.GetErpConnectionId
-sortOrder: 3110
-keywords: GetErpConnectionId()
+keywords: NSErpConnectionData, GetErpConnectionId
 so.topic: reference
 ---
 
-
 The id of the connection
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

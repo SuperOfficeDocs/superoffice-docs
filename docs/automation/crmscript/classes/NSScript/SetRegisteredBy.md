@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSScript_SetRegisteredBy_String_p_0
-description: NSScript.SetRegisteredBy(String p_0)
+﻿---
+title: crmscript_ref_NSScript_SetRegisteredBy
+description: NSScript.SetRegisteredBy(String registeredBy)
 intellisense: NSScript.SetRegisteredBy
-keywords: SetRegisteredBy(String)
+keywords: NSScript, GetRegisteredBy
 so.topic: reference
 ---
 
-
 Who created this script
 
-
-
-* **RegisteredBy:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **registeredBy** String
 

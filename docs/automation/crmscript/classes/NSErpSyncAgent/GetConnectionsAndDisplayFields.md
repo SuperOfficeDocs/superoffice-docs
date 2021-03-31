@@ -1,19 +1,28 @@
----
-title: crmscript_ref_NSErpSyncAgent_GetConnectionsAndDisplayFields_Integer_p_0_Integer_p_1
-description: NSErpSyncAgent.GetConnectionsAndDisplayFields(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_GetConnectionsAndDisplayFields
+description: ErpConnectionDataArray GetConnectionsAndDisplayFields(Integer crmActorType, Integer entityId)
 intellisense: NSErpSyncAgent.GetConnectionsAndDisplayFields
-sortOrder: 3194
-keywords: GetConnectionsAndDisplayFields(Integer,Integer)
+keywords: NSErpSyncAgent,GetConnectionsAndDisplayFields
 so.topic: reference
 ---
 
-
 Get all connection statuses and fields for a given entity
 
+**Parameters:**
+ - **crmActorType** The type of the CRM entity
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Contact 
+     - Enum: 2 = Person 
+     - Enum: 3 = Project 
+     - Enum: 4 = Sale 
+ - **entityId** The id of the entity
 
+**Returns:** An array of ErpConnectionData carriers
 
-* **crmActorType:** The type of the CRM entity
-* **entityId:** The id of the entity
-* **Returns:** An array of ErpConnectionData carriers
-
+```crmscript
+NSErpSyncAgent agent;
+Integer crmActorType;
+Integer entityId;
+ErpConnectionDataArray res = agent.GetConnectionsAndDisplayFields(crmActorType, entityId);
+```
 

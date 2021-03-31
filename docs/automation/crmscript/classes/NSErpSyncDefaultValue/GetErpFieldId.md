@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncDefaultValue_GetErpFieldId
-description: NSErpSyncDefaultValue.GetErpFieldId()
+description: Integer NSErpSyncDefaultValue.GetErpFieldId()
 intellisense: NSErpSyncDefaultValue.GetErpFieldId
-sortOrder: 3255
-keywords: GetErpFieldId()
+keywords: NSErpSyncDefaultValue, GetErpFieldId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

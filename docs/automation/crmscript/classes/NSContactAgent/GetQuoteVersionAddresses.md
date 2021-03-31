@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSContactAgent_GetQuoteVersionAddresses_Integer_p_0
-description: NSContactAgent.GetQuoteVersionAddresses(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactAgent_GetQuoteVersionAddresses
+description: AddressArray GetQuoteVersionAddresses(Integer quoteVersionId)
 intellisense: NSContactAgent.GetQuoteVersionAddresses
-sortOrder: 1802
-keywords: GetQuoteVersionAddresses(Integer)
+keywords: NSContactAgent,GetQuoteVersionAddresses
 so.topic: reference
 ---
 
-
 Get the associated billing and invoice quote version addresses. These addresses might be address on the contact, or a custom address.
 
+**Parameters:**
+ - **quoteVersionId** The version to get the addresses for.
 
+**Returns:** The quote version addresses. Invoice and billing address, in that order.
 
-* **quoteVersionId:** The version to get the addresses for.
-* **Returns:** The quote version addresses. Invoice and billing address, in that order.
-
+```crmscript
+NSContactAgent agent;
+Integer quoteVersionId;
+AddressArray res = agent.GetQuoteVersionAddresses(quoteVersionId);
+```
 

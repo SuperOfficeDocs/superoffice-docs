@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTemplateInfo_SetDescription_String_p_0
-description: NSTemplateInfo.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSTemplateInfo_SetDescription
+description: NSTemplateInfo.SetDescription(String description)
 intellisense: NSTemplateInfo.SetDescription
-keywords: SetDescription(String)
+keywords: NSTemplateInfo, GetDescription
 so.topic: reference
 ---
 
-
 Document description, shown as a tooltip or in some extended description area
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

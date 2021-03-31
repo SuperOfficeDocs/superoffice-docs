@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleTypeEntity_SetName_String_p_0
-description: NSSaleTypeEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSSaleTypeEntity_SetName
+description: NSSaleTypeEntity.SetName(String name)
 intellisense: NSSaleTypeEntity.SetName
-keywords: SetName(String)
+keywords: NSSaleTypeEntity, GetName
 so.topic: reference
 ---
 
-
 The list item
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

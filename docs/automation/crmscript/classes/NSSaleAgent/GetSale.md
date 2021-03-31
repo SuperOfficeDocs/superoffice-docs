@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSSaleAgent_GetSale_Integer_p_0
-description: NSSaleAgent.GetSale(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_GetSale
+description: NSSale GetSale(Integer saleId);
 intellisense: NSSaleAgent.GetSale
-keywords: GetSale(Integer)
+keywords: NSSaleAgent,GetSale
 so.topic: reference
 ---
 
+Gets a NSSale object.
 
-Gets a Sale object.
+**Parameters:**
+ - **saleId** The identifier of the NSSale object
 
+**Returns:** NSSale
 
-
-* **saleId:** The identifier of the Sale object
-* **Returns:** Sale
-
+```crmscript
+NSSaleAgent agent;
+NSSale thing = agent.GetSale(123);
+```
 

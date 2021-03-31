@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetDescription_String_p_0
-description: NSProjectEvent.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetDescription
+description: NSProjectEvent.SetDescription(String description)
 intellisense: NSProjectEvent.SetDescription
-keywords: SetDescription(String)
+keywords: NSProjectEvent, GetDescription
 so.topic: reference
 ---
 
-
 The event description (i.e. the project text)
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

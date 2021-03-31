@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactActivity_GetPersonId
-description: NSContactActivity.GetPersonId()
+description: Integer NSContactActivity.GetPersonId()
 intellisense: NSContactActivity.GetPersonId
-sortOrder: 1772
-keywords: GetPersonId()
+keywords: NSContactActivity, GetPersonId
 so.topic: reference
 ---
 
-
 The person id
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

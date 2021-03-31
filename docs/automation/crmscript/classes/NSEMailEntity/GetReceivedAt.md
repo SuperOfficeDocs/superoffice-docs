@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetReceivedAt
-description: NSEMailEntity.GetReceivedAt()
+description: DateTime NSEMailEntity.GetReceivedAt()
 intellisense: NSEMailEntity.GetReceivedAt
-sortOrder: 2946
-keywords: GetReceivedAt()
+keywords: NSEMailEntity, GetReceivedAt
 so.topic: reference
 ---
 
-
 Received date time
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

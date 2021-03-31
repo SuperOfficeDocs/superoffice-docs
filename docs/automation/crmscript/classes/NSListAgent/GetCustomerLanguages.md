@@ -1,11 +1,10 @@
----
+﻿---
 title: crmscript_ref_NSListAgent_GetCustomerLanguages
-description: NSListAgent.GetCustomerLanguages()
+description: CustomerLanguageArray GetCustomerLanguages()
 intellisense: NSListAgent.GetCustomerLanguages
-keywords: GetCustomerLanguages()
+keywords: NSListAgent,GetCustomerLanguages
 so.topic: reference
 ---
-
 
 
 

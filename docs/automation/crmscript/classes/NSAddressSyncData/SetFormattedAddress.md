@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAddressSyncData_SetFormattedAddress_String_p_0
-description: NSAddressSyncData.SetFormattedAddress(String p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetFormattedAddress
+description: NSAddressSyncData.SetFormattedAddress(String formattedAddress)
 intellisense: NSAddressSyncData.SetFormattedAddress
-sortOrder: 636
-keywords: SetFormattedAddress(String)
+keywords: NSAddressSyncData, GetFormattedAddress
 so.topic: reference
 ---
 
 
-* **FormattedAddress:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **formattedAddress** String
 

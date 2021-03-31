@@ -1,14 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetSourceList_Integer__p_0
-description: NSListAgent.GetSourceList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetSourceList
+description: NSSource[] GetSourceList(Integer[]  sourceIds);
 intellisense: NSListAgent.GetSourceList
-keywords: GetSourceList(Integer[])
+keywords: NSListAgent,GetSourceList
 so.topic: reference
 ---
 
-Gets an array of Source objects.
+Gets a vector of Source objects.
 
+**Parameters:**
+ - **sourceIds** The identifiers of the NSSource objects
 
-* **p0:** IntegerArray of identifiers for Source
-* **Returns:** Array of NSSource
+**Returns:** Vector of NSSource objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetSourceList(ids);
+```
 

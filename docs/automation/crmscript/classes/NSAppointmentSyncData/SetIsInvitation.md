@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetIsInvitation_Bool_p_0
-description: NSAppointmentSyncData.SetIsInvitation(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetIsInvitation
+description: NSAppointmentSyncData.SetIsInvitation(Bool isInvitation)
 intellisense: NSAppointmentSyncData.SetIsInvitation
-sortOrder: 1079
-keywords: SetIsInvitation(Bool)
+keywords: NSAppointmentSyncData, GetIsInvitation
 so.topic: reference
 ---
 
 
-* **IsInvitation:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isInvitation** Bool
 

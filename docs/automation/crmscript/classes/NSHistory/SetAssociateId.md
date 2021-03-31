@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSHistory_SetAssociateId_Integer_p_0
-description: NSHistory.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSHistory_SetAssociateId
+description: NSHistory.SetAssociateId(Integer associateId)
 intellisense: NSHistory.SetAssociateId
-sortOrder: 3933
-keywords: SetAssociateId(Integer)
+keywords: NSHistory, GetAssociateId
 so.topic: reference
 ---
 
-
 Owner of history list
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetTooltip_String_p_0
-description: NSExtAppEntity.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetTooltip
+description: NSExtAppEntity.SetTooltip(String tooltip)
 intellisense: NSExtAppEntity.SetTooltip
-sortOrder: 3397
-keywords: SetTooltip(String)
+keywords: NSExtAppEntity, GetTooltip
 so.topic: reference
 ---
 
-
 The tooltip of the web panel
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuote_SetERPOrderKey_String_p_0
-description: NSQuote.SetERPOrderKey(String p_0)
+﻿---
+title: crmscript_ref_NSQuote_SetERPOrderKey
+description: NSQuote.SetERPOrderKey(String eRPOrderKey)
 intellisense: NSQuote.SetERPOrderKey
-keywords: SetERPOrderKey(String)
+keywords: NSQuote, GetERPOrderKey
 so.topic: reference
 ---
 
-
 The key in the ERP system that identifies this sale's Order, as transferred and possibly later edited in the ERP system.  Only filled out if there exists a corresponding order representation of the quote in the ERP system.
 
-
-
-* **ERPOrderKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **eRPOrderKey** String
 

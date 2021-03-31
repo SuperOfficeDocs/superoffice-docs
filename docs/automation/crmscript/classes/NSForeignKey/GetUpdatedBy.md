@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSForeignKey_GetUpdatedBy
-description: NSForeignKey.GetUpdatedBy()
+description: String NSForeignKey.GetUpdatedBy()
 intellisense: NSForeignKey.GetUpdatedBy
-sortOrder: 3740
-keywords: GetUpdatedBy()
+keywords: NSForeignKey, GetUpdatedBy
 so.topic: reference
 ---
 
-
 Name of the person that last updated the foreign key
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSExtAppEntity_GetFilename
-description: NSExtAppEntity.GetFilename()
+description: String NSExtAppEntity.GetFilename()
 intellisense: NSExtAppEntity.GetFilename
-sortOrder: 3373
-keywords: GetFilename()
+keywords: NSExtAppEntity, GetFilename
 so.topic: reference
 ---
 
-
 Filename of the programfile
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

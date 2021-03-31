@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetMiddleName
-description: NSPersonEntity.GetMiddleName()
+description: String NSPersonEntity.GetMiddleName()
 intellisense: NSPersonEntity.GetMiddleName
-keywords: GetMiddleName()
+keywords: NSPersonEntity, GetMiddleName
 so.topic: reference
 ---
 
-
 Middle name or 'van' etc.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

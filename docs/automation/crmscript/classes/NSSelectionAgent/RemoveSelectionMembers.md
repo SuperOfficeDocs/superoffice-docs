@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionAgent_RemoveSelectionMembers_Integer_p_0_Integer__p_1
-description: NSSelectionAgent.RemoveSelectionMembers(Integer p_0, Integer[] p_1)
+﻿---
+title: crmscript_ref_NSSelectionAgent_RemoveSelectionMembers
+description: Void RemoveSelectionMembers(Integer selectionId, IntegerArray selectionMemberIds)
 intellisense: NSSelectionAgent.RemoveSelectionMembers
-keywords: RemoveSelectionMembers(Integer,Integer[])
+keywords: NSSelectionAgent,RemoveSelectionMembers
 so.topic: reference
 ---
 
-
 Removes members from the selection as  specified in the collection of entity ids. The ids are selection member ids (selection member primary key)
 
-
-
-* **selectionId:** The id of the selection where to members will be removed.
-* **selectionMemberIds:** Selection member primary keys
-
-
+**Parameters:**
+ - **selectionId** The id of the selection where to members will be removed.
+ - **selectionMemberIds** Selection member primary keys

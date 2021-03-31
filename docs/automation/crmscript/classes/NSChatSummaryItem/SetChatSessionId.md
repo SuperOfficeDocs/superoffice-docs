@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSChatSummaryItem_SetChatSessionId_Integer_p_0
-description: NSChatSummaryItem.SetChatSessionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSChatSummaryItem_SetChatSessionId
+description: NSChatSummaryItem.SetChatSessionId(Integer chatSessionId)
 intellisense: NSChatSummaryItem.SetChatSessionId
-sortOrder: 1542
-keywords: SetChatSessionId(Integer)
+keywords: NSChatSummaryItem, GetChatSessionId
 so.topic: reference
 ---
 
-
 The primary key (auto-incremented)
 
-
-
-* **ChatSessionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **chatSessionId** Integer
 

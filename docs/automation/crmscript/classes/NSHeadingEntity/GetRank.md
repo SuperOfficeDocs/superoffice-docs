@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSHeadingEntity_GetRank
-description: NSHeadingEntity.GetRank()
+description: Integer NSHeadingEntity.GetRank()
 intellisense: NSHeadingEntity.GetRank
-sortOrder: 3914
-keywords: GetRank()
+keywords: NSHeadingEntity, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

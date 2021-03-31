@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicket_GetHasAttachment
-description: NSTicket.GetHasAttachment()
+description: Bool NSTicket.GetHasAttachment()
 intellisense: NSTicket.GetHasAttachment
-keywords: GetHasAttachment()
+keywords: NSTicket, GetHasAttachment
 so.topic: reference
 ---
 
-
 Boolean indicating if this ticket has one or more attachments.
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

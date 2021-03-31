@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSPreferenceAgent_DeleteFromSectionAndKey_String_p_0_String_p_1
-description: NSPreferenceAgent.DeleteFromSectionAndKey(String p_0, String p_1)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_DeleteFromSectionAndKey
+description: Void DeleteFromSectionAndKey(String section, String key)
 intellisense: NSPreferenceAgent.DeleteFromSectionAndKey
-keywords: DeleteFromSectionAndKey(String,String)
+keywords: NSPreferenceAgent,DeleteFromSectionAndKey
 so.topic: reference
 ---
 
-
 Gets a PreferenceDescription based on the section and key
 
+**Parameters:**
+ - **section** The PreferenceDescription-section
+ - **key** The PreferenceDescription-key
 
+**Returns:** This method has no return value
 
-* **section:** The PreferenceDescription-section
-* **key:** The PreferenceDescription-key
-* **Returns:** This method has no return value
-
+```crmscript
+NSPreferenceAgent agent;
+String section;
+String key;
+Void res = agent.DeleteFromSectionAndKey(section, key);
+```
 

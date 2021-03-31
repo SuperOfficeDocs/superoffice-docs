@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveColumnInfo_SetDisplayTooltip_String_p_0
-description: NSArchiveColumnInfo.SetDisplayTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSArchiveColumnInfo_SetDisplayTooltip
+description: NSArchiveColumnInfo.SetDisplayTooltip(String displayTooltip)
 intellisense: NSArchiveColumnInfo.SetDisplayTooltip
-sortOrder: 1155
-keywords: SetDisplayTooltip(String)
+keywords: NSArchiveColumnInfo, GetDisplayTooltip
 so.topic: reference
 ---
 
-
 The column tooltip, used in the column list and in the column headings
 
-
-
-* **DisplayTooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayTooltip** String
 

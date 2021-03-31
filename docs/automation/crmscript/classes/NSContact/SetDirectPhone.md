@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContact_SetDirectPhone_String_p_0
-description: NSContact.SetDirectPhone(String p_0)
+﻿---
+title: crmscript_ref_NSContact_SetDirectPhone
+description: NSContact.SetDirectPhone(String directPhone)
 intellisense: NSContact.SetDirectPhone
-sortOrder: 1753
-keywords: SetDirectPhone(String)
+keywords: NSContact, GetDirectPhone
 so.topic: reference
 ---
 
-
 The contacts phone
 
-
-
-* **DirectPhone:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **directPhone** String
 

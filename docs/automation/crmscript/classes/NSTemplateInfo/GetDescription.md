@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTemplateInfo_GetDescription
-description: NSTemplateInfo.GetDescription()
+description: String NSTemplateInfo.GetDescription()
 intellisense: NSTemplateInfo.GetDescription
-keywords: GetDescription()
+keywords: NSTemplateInfo, GetDescription
 so.topic: reference
 ---
 
-
 Document description, shown as a tooltip or in some extended description area
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedAppointmentEntity_GetName
-description: NSSuggestedAppointmentEntity.GetName()
+description: String NSSuggestedAppointmentEntity.GetName()
 intellisense: NSSuggestedAppointmentEntity.GetName
-keywords: GetName()
+keywords: NSSuggestedAppointmentEntity, GetName
 so.topic: reference
 ---
 
-
 Item name, visible in Guide
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

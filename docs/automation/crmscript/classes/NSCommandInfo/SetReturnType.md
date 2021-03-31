@@ -1,18 +1,19 @@
----
-title: crmscript_ref_NSCommandInfo_SetReturnType_Integer_p_0
-description: NSCommandInfo.SetReturnType(Integer p_0)
+﻿---
+title: crmscript_ref_NSCommandInfo_SetReturnType
+description: NSCommandInfo.SetReturnType(Integer returnType)
 intellisense: NSCommandInfo.SetReturnType
-sortOrder: 1577
-keywords: SetReturnType(Integer)
+keywords: NSCommandInfo, GetReturnType
 so.topic: reference
 ---
 
-
 Declaration of what kind of return type the execution of this command will give.
 
-
-
-* **ReturnType:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **returnType** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Message 
+     - Enum: 2 = SoProtocol 
+     - Enum: 3 = CustomGui 
+     - Enum: 4 = Other 
+     - Enum: 5 = URL 
 

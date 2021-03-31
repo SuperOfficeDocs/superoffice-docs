@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedLicenseInfo_SetReason_String_p_0
-description: NSExtendedLicenseInfo.SetReason(String p_0)
+﻿---
+title: crmscript_ref_NSExtendedLicenseInfo_SetReason
+description: NSExtendedLicenseInfo.SetReason(String reason)
 intellisense: NSExtendedLicenseInfo.SetReason
-sortOrder: 3414
-keywords: SetReason(String)
+keywords: NSExtendedLicenseInfo, GetReason
 so.topic: reference
 ---
 
 
-* **Reason:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **reason** String
 

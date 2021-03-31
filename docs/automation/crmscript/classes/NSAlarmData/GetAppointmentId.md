@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAlarmData_GetAppointmentId
-description: NSAlarmData.GetAppointmentId()
+description: Integer NSAlarmData.GetAppointmentId()
 intellisense: NSAlarmData.GetAppointmentId
-sortOrder: 646
-keywords: GetAppointmentId()
+keywords: NSAlarmData, GetAppointmentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

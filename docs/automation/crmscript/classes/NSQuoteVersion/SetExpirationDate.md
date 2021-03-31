@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersion_SetExpirationDate_DateTime_p_0
-description: NSQuoteVersion.SetExpirationDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetExpirationDate
+description: NSQuoteVersion.SetExpirationDate(DateTime expirationDate)
 intellisense: NSQuoteVersion.SetExpirationDate
-keywords: SetExpirationDate(DateTime)
+keywords: NSQuoteVersion, GetExpirationDate
 so.topic: reference
 ---
 
-
 Last date the quote Version is valid, expiration is at midnight end of this day.
 
-
-
-* **ExpirationDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **expirationDate** DateTime
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectTypeEntity_SetProjTypeId_Integer_p_0
-description: NSProjectTypeEntity.SetProjTypeId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectTypeEntity_SetProjTypeId
+description: NSProjectTypeEntity.SetProjTypeId(Integer projTypeId)
 intellisense: NSProjectTypeEntity.SetProjTypeId
-keywords: SetProjTypeId(Integer)
+keywords: NSProjectTypeEntity, GetProjTypeId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ProjTypeId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projTypeId** Integer
 

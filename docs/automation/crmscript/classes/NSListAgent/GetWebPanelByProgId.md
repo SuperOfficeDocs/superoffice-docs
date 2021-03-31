@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetWebPanelByProgId_String_p_0
-description: NSListAgent.GetWebPanelByProgId(String p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetWebPanelByProgId
+description: WebPanelEntity GetWebPanelByProgId(String progId)
 intellisense: NSListAgent.GetWebPanelByProgId
-keywords: GetWebPanelByProgId(String)
+keywords: NSListAgent,GetWebPanelByProgId
 so.topic: reference
 ---
 
-
 Get a web panel using the ProgId key that was specified when it was created
 
+**Parameters:**
+ - **progId** String key that can be used to uniquely retrieve the panel, set in the WebPanelEntity when saving
 
+**Returns:** The Web panel information
 
-* **progId:** String key that can be used to uniquely retrieve the panel, set in the WebPanelEntity when saving
-* **Returns:** The Web panel information
-
+```crmscript
+NSListAgent agent;
+String progId;
+WebPanelEntity res = agent.GetWebPanelByProgId(progId);
+```
 

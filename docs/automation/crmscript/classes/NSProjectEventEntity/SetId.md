@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetId_Integer_p_0
-description: NSProjectEventEntity.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetId
+description: NSProjectEventEntity.SetId(Integer id)
 intellisense: NSProjectEventEntity.SetId
-keywords: SetId(Integer)
+keywords: NSProjectEventEntity, GetId
 so.topic: reference
 ---
 
-
 Id of the external event
 
-
-
-* **Id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

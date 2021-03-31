@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSSelectionAgent_GetSelectionEntity_Integer_p_0
-description: NSSelectionAgent.GetSelectionEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionAgent_GetSelectionEntity
+description: NSSelectionEntity GetSelectionEntity(Integer selectionEntityId);
 intellisense: NSSelectionAgent.GetSelectionEntity
-keywords: GetSelectionEntity(Integer)
+keywords: NSSelectionAgent,GetSelectionEntity
 so.topic: reference
 ---
 
+Gets a NSSelectionEntity object.
 
-Gets a SelectionEntity object.
+**Parameters:**
+ - **selectionEntityId** The identifier of the NSSelectionEntity object
 
+**Returns:** NSSelectionEntity
 
-
-* **selectionEntityId:** The identifier of the SelectionEntity object
-* **Returns:** SelectionEntity
-
+```crmscript
+NSSelectionAgent agent;
+NSSelectionEntity thing = agent.GetSelectionEntity(123);
+```
 

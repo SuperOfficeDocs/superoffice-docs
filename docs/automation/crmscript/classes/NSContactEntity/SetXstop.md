@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetXstop_Bool_p_0
-description: NSContactEntity.SetXstop(Bool p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetXstop
+description: NSContactEntity.SetXstop(Bool xstop)
 intellisense: NSContactEntity.SetXstop
-sortOrder: 1917
-keywords: SetXstop(Bool)
+keywords: NSContactEntity, GetXstop
 so.topic: reference
 ---
 
-
 STOP flag
 
-
-
-* **Xstop:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **xstop** Bool
 

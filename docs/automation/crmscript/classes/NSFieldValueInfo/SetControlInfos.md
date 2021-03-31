@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldValueInfo_SetControlInfos_NSControlInfo__p_0
-description: NSFieldValueInfo.SetControlInfos(NSControlInfo[] p_0)
+﻿---
+title: crmscript_ref_NSFieldValueInfo_SetControlInfos
+description: NSFieldValueInfo.SetControlInfos(ControlInfoArray controlInfos)
 intellisense: NSFieldValueInfo.SetControlInfos
-sortOrder: 3635
-keywords: SetControlInfos(NSControlInfo[])
+keywords: NSFieldValueInfo, GetControlInfos
 so.topic: reference
 ---
 
-
 Array of the controlinfos
 
-
-
-* **ControlInfos:** ControlInfoArray
-* **Returns:** ControlInfoArray
-
+**Parameter:** 
+ - **controlInfos** ControlInfoArray
 

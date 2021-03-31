@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCustomerCenterConfig_GetUpdatedAssociateId
-description: NSCustomerCenterConfig.GetUpdatedAssociateId()
+description: Integer NSCustomerCenterConfig.GetUpdatedAssociateId()
 intellisense: NSCustomerCenterConfig.GetUpdatedAssociateId
-sortOrder: 2201
-keywords: GetUpdatedAssociateId()
+keywords: NSCustomerCenterConfig, GetUpdatedAssociateId
 so.topic: reference
 ---
 
-
 Last updated by whom
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

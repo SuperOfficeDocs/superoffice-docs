@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSEMailAgent_GetEMailFromDocumentIdWithoutAttachmentStream_Integer_p_0
-description: NSEMailAgent.GetEMailFromDocumentIdWithoutAttachmentStream(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_GetEMailFromDocumentIdWithoutAttachmentStream
+description: EMailEntity GetEMailFromDocumentIdWithoutAttachmentStream(Integer documentId)
 intellisense: NSEMailAgent.GetEMailFromDocumentIdWithoutAttachmentStream
-sortOrder: 2820
-keywords: GetEMailFromDocumentIdWithoutAttachmentStream(Integer)
+keywords: NSEMailAgent,GetEMailFromDocumentIdWithoutAttachmentStream
 so.topic: reference
 ---
 
-
 Get an e-mail based on an archived document
 
+**Parameters:**
+ - **documentId** Unique id of the document
 
+**Returns:** The e-mail
 
-* **documentId:** Unique id of the document
-* **Returns:** The e-mail
-
+```crmscript
+NSEMailAgent agent;
+Integer documentId;
+EMailEntity res = agent.GetEMailFromDocumentIdWithoutAttachmentStream(documentId);
+```
 

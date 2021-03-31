@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetExtraInfo_NSProductExtraDataField__p_0
-description: NSQuoteLine.SetExtraInfo(NSProductExtraDataField[] p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetExtraInfo
+description: NSQuoteLine.SetExtraInfo(ProductExtraDataFieldArray extraInfo)
 intellisense: NSQuoteLine.SetExtraInfo
-keywords: SetExtraInfo(NSProductExtraDataField[])
+keywords: NSQuoteLine, GetExtraInfo
 so.topic: reference
 ---
 
-
 Extra information, supplied by QuoteConnector, used by a future dynamic GUI extension
 
-
-
-* **ExtraInfo:** ProductExtraDataFieldArray
-* **Returns:** ProductExtraDataFieldArray
-
+**Parameter:** 
+ - **extraInfo** ProductExtraDataFieldArray
 

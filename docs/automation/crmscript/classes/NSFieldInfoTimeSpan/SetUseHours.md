@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoTimeSpan_SetUseHours_Bool_p_0
-description: NSFieldInfoTimeSpan.SetUseHours(Bool p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoTimeSpan_SetUseHours
+description: NSFieldInfoTimeSpan.SetUseHours(Bool useHours)
 intellisense: NSFieldInfoTimeSpan.SetUseHours
-sortOrder: 3571
-keywords: SetUseHours(Bool)
+keywords: NSFieldInfoTimeSpan, GetUseHours
 so.topic: reference
 ---
 
-
 Should the time-span be counted in hours?
 
-
-
-* **UseHours:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **useHours** Bool
 

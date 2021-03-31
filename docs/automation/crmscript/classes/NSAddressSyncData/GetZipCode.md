@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAddressSyncData_GetZipCode
-description: NSAddressSyncData.GetZipCode()
+description: String NSAddressSyncData.GetZipCode()
 intellisense: NSAddressSyncData.GetZipCode
-sortOrder: 628
-keywords: GetZipCode()
+keywords: NSAddressSyncData, GetZipCode
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

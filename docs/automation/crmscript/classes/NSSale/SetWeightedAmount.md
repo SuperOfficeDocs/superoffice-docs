@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetWeightedAmount_Float_p_0
-description: NSSale.SetWeightedAmount(Float p_0)
+﻿---
+title: crmscript_ref_NSSale_SetWeightedAmount
+description: NSSale.SetWeightedAmount(Float weightedAmount)
 intellisense: NSSale.SetWeightedAmount
-keywords: SetWeightedAmount(Float)
+keywords: NSSale, GetWeightedAmount
 so.topic: reference
 ---
 
-
 The weighted amount ( amount *  probability / 100)
 
-
-
-* **WeightedAmount:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **weightedAmount** Float
 

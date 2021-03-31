@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetMrmrs_String_p_0
-description: NSProjectMember.SetMrmrs(String p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetMrmrs
+description: NSProjectMember.SetMrmrs(String mrmrs)
 intellisense: NSProjectMember.SetMrmrs
-keywords: SetMrmrs(String)
+keywords: NSProjectMember, GetMrmrs
 so.topic: reference
 ---
 
-
 e.g. Mrs, Dr, Ms.
 
-
-
-* **Mrmrs:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **mrmrs** String
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetName_String_p_0
-description: NSBatchTaskInfo.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetName
+description: NSBatchTaskInfo.SetName(String name)
 intellisense: NSBatchTaskInfo.SetName
-sortOrder: 1396
-keywords: SetName(String)
+keywords: NSBatchTaskInfo, GetName
 so.topic: reference
 ---
 
-
 Name of the task.
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

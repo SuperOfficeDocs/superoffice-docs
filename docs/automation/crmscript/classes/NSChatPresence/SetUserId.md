@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSChatPresence_SetUserId_Integer_p_0
-description: NSChatPresence.SetUserId(Integer p_0)
+﻿---
+title: crmscript_ref_NSChatPresence_SetUserId
+description: NSChatPresence.SetUserId(Integer userId)
 intellisense: NSChatPresence.SetUserId
-sortOrder: 1528
-keywords: SetUserId(Integer)
+keywords: NSChatPresence, GetUserId
 so.topic: reference
 ---
 
-
 The id for the chat user
 
-
-
-* **UserId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **userId** Integer
 

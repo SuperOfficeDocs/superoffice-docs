@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketStatusEntity_SetName_String_p_0
-description: NSTicketStatusEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSTicketStatusEntity_SetName
+description: NSTicketStatusEntity.SetName(String name)
 intellisense: NSTicketStatusEntity.SetName
-keywords: SetName(String)
+keywords: NSTicketStatusEntity, GetName
 so.topic: reference
 ---
 
-
 Name of user defined ticket status
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

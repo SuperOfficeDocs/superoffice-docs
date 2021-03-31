@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnectionListMapping_SetErpFieldId_Integer_p_0
-description: NSErpConnectionListMapping.SetErpFieldId(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionListMapping_SetErpFieldId
+description: NSErpConnectionListMapping.SetErpFieldId(Integer erpFieldId)
 intellisense: NSErpConnectionListMapping.SetErpFieldId
-sortOrder: 3132
-keywords: SetErpFieldId(Integer)
+keywords: NSErpConnectionListMapping, GetErpFieldId
 so.topic: reference
 ---
 
-
 The id of the field that is using the lists. Readonly
 
-
-
-* **ErpFieldId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **erpFieldId** Integer
 

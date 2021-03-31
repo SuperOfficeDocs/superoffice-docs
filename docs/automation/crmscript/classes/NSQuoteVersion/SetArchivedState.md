@@ -1,25 +1,23 @@
----
-title: crmscript_ref_NSQuoteVersion_SetArchivedState_Integer_p_0
-description: NSQuoteVersion.SetArchivedState(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetArchivedState
+description: NSQuoteVersion.SetArchivedState(QuoteVersionState archivedState)
 intellisense: NSQuoteVersion.SetArchivedState
-keywords: SetArchivedState(Integer)
+keywords: NSQuoteVersion, GetArchivedState
 so.topic: reference
 ---
 
 State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.
 
-* Unknown=0
-* Draft=1
-* DraftNotCalculated=2
-* DraftNeedsApproval=3
-* DraftApproved=4
-* DraftNotApproved=5
-* Sent=6
-* Archived=7
-* Lost=8
-* Sold=9
-
-* **p_0:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **archivedState** QuoteVersionState
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Draft 
+     - Enum: 2 = DraftNotCalculated 
+     - Enum: 3 = DraftNeedsApproval 
+     - Enum: 4 = DraftApproved 
+     - Enum: 5 = DraftNotApproved 
+     - Enum: 6 = Sent 
+     - Enum: 7 = Archived 
+     - Enum: 8 = Lost 
+     - Enum: 9 = Sold 
 

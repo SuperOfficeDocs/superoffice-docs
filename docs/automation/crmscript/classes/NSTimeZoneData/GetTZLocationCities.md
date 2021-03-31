@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTimeZoneData_GetTZLocationCities
-description: NSTimeZoneData.GetTZLocationCities()
+description: String NSTimeZoneData.GetTZLocationCities()
 intellisense: NSTimeZoneData.GetTZLocationCities
-keywords: GetTZLocationCities()
+keywords: NSTimeZoneData, GetTZLocationCities
 so.topic: reference
 ---
 
-
 Cities associated with location
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

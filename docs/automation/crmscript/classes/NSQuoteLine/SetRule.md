@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetRule_String_p_0
-description: NSQuoteLine.SetRule(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetRule
+description: NSQuoteLine.SetRule(String rule)
 intellisense: NSQuoteLine.SetRule
-keywords: SetRule(String)
+keywords: NSQuoteLine, GetRule
 so.topic: reference
 ---
 
-
 The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive
 
-
-
-* **Rule:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **rule** String
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetURL
-description: NSProject.GetURL()
+description: String NSProject.GetURL()
 intellisense: NSProject.GetURL
-keywords: GetURL()
+keywords: NSProject, GetURL
 so.topic: reference
 ---
 
-
 URL address
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLicenseInfo_GetModuleLicenses
-description: NSLicenseInfo.GetModuleLicenses()
+description: ModuleLicenseArray NSLicenseInfo.GetModuleLicenses()
 intellisense: NSLicenseInfo.GetModuleLicenses
-keywords: GetModuleLicenses()
+keywords: NSLicenseInfo, GetModuleLicenses
 so.topic: reference
 ---
 
-
 The module licenses.
 
-
-
-* **Returns:** ModuleLicenseArray
+**Returns:** ModuleLicenseArray
 
 

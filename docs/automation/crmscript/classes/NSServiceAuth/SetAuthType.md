@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSServiceAuth_SetAuthType_String_p_0
-description: NSServiceAuth.SetAuthType(String p_0)
+﻿---
+title: crmscript_ref_NSServiceAuth_SetAuthType
+description: NSServiceAuth.SetAuthType(String authType)
 intellisense: NSServiceAuth.SetAuthType
-keywords: SetAuthType(String)
+keywords: NSServiceAuth, GetAuthType
 so.topic: reference
 ---
 
-
 The type of authentication, plain-text, OAuth...
 
-
-
-* **AuthType:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **authType** String
 

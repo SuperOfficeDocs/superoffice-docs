@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetDeleted_Bool_p_0
-description: NSCountry.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetDeleted
+description: NSCountry.SetDeleted(Bool deleted)
 intellisense: NSCountry.SetDeleted
-sortOrder: 2033
-keywords: SetDeleted(Bool)
+keywords: NSCountry, GetDeleted
 so.topic: reference
 ---
 
-
 true if the country is deleted
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

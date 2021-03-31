@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFindResults_SetArchiveColumns_NSArchiveColumnInfo__p_0
-description: NSFindResults.SetArchiveColumns(NSArchiveColumnInfo[] p_0)
+﻿---
+title: crmscript_ref_NSFindResults_SetArchiveColumns
+description: NSFindResults.SetArchiveColumns(ArchiveColumnInfoArray archiveColumns)
 intellisense: NSFindResults.SetArchiveColumns
-sortOrder: 3693
-keywords: SetArchiveColumns(NSArchiveColumnInfo[])
+keywords: NSFindResults, GetArchiveColumns
 so.topic: reference
 ---
 
-
 Array of ColumnInfo column specifications
 
-
-
-* **ArchiveColumns:** ArchiveColumnInfoArray
-* **Returns:** ArchiveColumnInfoArray
-
+**Parameter:** 
+ - **archiveColumns** ArchiveColumnInfoArray
 

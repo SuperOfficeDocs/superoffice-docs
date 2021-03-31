@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetAddress
-description: NSContactEntity.GetAddress()
+description: Address NSContactEntity.GetAddress()
 intellisense: NSContactEntity.GetAddress
-sortOrder: 1849
-keywords: GetAddress()
+keywords: NSContactEntity, GetAddress
 so.topic: reference
 ---
 
 
-* **Returns:** Address
+
+**Returns:** Address
 
 

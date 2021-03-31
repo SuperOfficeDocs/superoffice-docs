@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboard_GetAssociateId
-description: NSDashboard.GetAssociateId()
+description: Integer NSDashboard.GetAssociateId()
 intellisense: NSDashboard.GetAssociateId
-sortOrder: 2260
-keywords: GetAssociateId()
+keywords: NSDashboard, GetAssociateId
 so.topic: reference
 ---
 
-
 Id of the associate who owns this dashboard
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

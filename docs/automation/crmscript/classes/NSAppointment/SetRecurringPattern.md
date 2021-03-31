@@ -1,20 +1,19 @@
----
-title: crmscript_ref_NSAppointment_SetRecurringPattern_Integer_p_0
-description: NSAppointment.SetRecurringPattern(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetRecurringPattern
+description: NSAppointment.SetRecurringPattern(Integer recurringPattern)
 intellisense: NSAppointment.SetRecurringPattern
-sortOrder: 811
-keywords: SetRecurringPattern(Integer)
+keywords: NSAppointment, GetRecurringPattern
 so.topic: reference
 ---
 
-* Unknown=0
-* Daily=1
-* Weekly=2
-* Monthly=3
-* Yearly=4
-* Custom=5
 
-* **RecurringPattern:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **recurringPattern** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Daily 
+     - Enum: 2 = Weekly 
+     - Enum: 3 = Monthly 
+     - Enum: 4 = Yearly 
+     - Enum: 5 = Custom 
 

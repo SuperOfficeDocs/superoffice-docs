@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedAppointment_GetTooltip
-description: NSSuggestedAppointment.GetTooltip()
+description: String NSSuggestedAppointment.GetTooltip()
 intellisense: NSSuggestedAppointment.GetTooltip
-keywords: GetTooltip()
+keywords: NSSuggestedAppointment, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip / description
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

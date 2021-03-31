@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetAlarmLeadTime_TimeSpan_p_0
-description: NSAppointment.SetAlarmLeadTime(TimeSpan p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetAlarmLeadTime
+description: NSAppointment.SetAlarmLeadTime(TimeSpan alarmLeadTime)
 intellisense: NSAppointment.SetAlarmLeadTime
-sortOrder: 768
-keywords: SetAlarmLeadTime(TimeSpan)
+keywords: NSAppointment, GetAlarmLeadTime
 so.topic: reference
 ---
 
-
 Alarm lead time.
 
-
-
-* **AlarmLeadTime:** TimeSpan
-* **Returns:** TimeSpan
-
+**Parameter:** 
+ - **alarmLeadTime** TimeSpan
 

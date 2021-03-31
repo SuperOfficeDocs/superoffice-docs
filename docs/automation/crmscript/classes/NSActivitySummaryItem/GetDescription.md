@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSActivitySummaryItem_GetDescription
-description: NSActivitySummaryItem.GetDescription()
+description: String NSActivitySummaryItem.GetDescription()
 intellisense: NSActivitySummaryItem.GetDescription
-sortOrder: 600
-keywords: GetDescription()
+keywords: NSActivitySummaryItem, GetDescription
 so.topic: reference
 ---
 
-
 The appointment's textbox; document title
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

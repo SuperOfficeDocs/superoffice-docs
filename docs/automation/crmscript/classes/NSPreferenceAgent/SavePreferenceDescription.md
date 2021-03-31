@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSPreferenceAgent_SavePreferenceDescription_NSPreferenceDescription_p_0
-description: NSPreferenceAgent.SavePreferenceDescription(NSPreferenceDescription p_0)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_SavePreferenceDescription
+description: NSPreferenceDescription SavePreferenceDescription(NSPreferenceDescription preferenceDescription);
 intellisense: NSPreferenceAgent.SavePreferenceDescription
-keywords: SavePreferenceDescription(NSPreferenceDescription)
+keywords: NSPreferenceAgent,SavePreferenceDescription
 so.topic: reference
 ---
+	  
+Updates the existing NSPreferenceDescription or creates a new NSPreferenceDescription if the id parameter is 0
+	  
+**Parameters**:
+ - **preferenceDescription** The NSPreferenceDescription to save.
 
+**Returns:** New or updated NSPreferenceDescription
 
-Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is empty
-
-
-
-* **preferenceDescription:** The PreferenceDescription that is saved
-* **Returns:** New or updated PreferenceDescription
-
+```crmscript
+NSPreference  agent;
+NSPreferenceDescription thing = agent.CreateDefaultPreferenceDescription();
+thing = agent.SavePreferenceDescription(thing);
+```
 

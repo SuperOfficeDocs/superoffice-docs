@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetEmailId_Integer_p_0
-description: NSProjectMember.SetEmailId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetEmailId
+description: NSProjectMember.SetEmailId(Integer emailId)
 intellisense: NSProjectMember.SetEmailId
-keywords: SetEmailId(Integer)
+keywords: NSProjectMember, GetEmailId
 so.topic: reference
 ---
 
-
 The person's email address id
 
-
-
-* **EmailId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **emailId** Integer
 

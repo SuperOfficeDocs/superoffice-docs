@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetVisibleFor_VisibleFor__p_0
-description: NSSelectionEntity.SetVisibleFor(VisibleFor[] p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetVisibleFor
+description: NSSelectionEntity.SetVisibleFor(VisibleForArray visibleFor)
 intellisense: NSSelectionEntity.SetVisibleFor
-keywords: SetVisibleFor(VisibleFor[])
+keywords: NSSelectionEntity, SetVisibleFor
 so.topic: reference
 ---
 
+Set the usergroups and/or users the item is visible for.
 
-* **fields:** VisibleForArray
-* **Returns:** Void
-
+**Parameter:** 
+ - **visibleFor** VisibleForArray of one or more users + usergroups.
 

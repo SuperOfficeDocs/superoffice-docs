@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetUpdatedBy_NSAssociate_p_0
-description: NSRoleEntity.SetUpdatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetUpdatedBy
+description: NSRoleEntity.SetUpdatedBy(Associate updatedBy)
 intellisense: NSRoleEntity.SetUpdatedBy
-keywords: SetUpdatedBy(NSAssociate)
+keywords: NSRoleEntity, GetUpdatedBy
 so.topic: reference
 ---
 
-
 Last updated by user
 
-
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **updatedBy** Associate
 

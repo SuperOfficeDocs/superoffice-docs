@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetPhone_String_p_0
-description: NSProjectMember.SetPhone(String p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetPhone
+description: NSProjectMember.SetPhone(String phone)
 intellisense: NSProjectMember.SetPhone
-keywords: SetPhone(String)
+keywords: NSProjectMember, GetPhone
 so.topic: reference
 ---
 
-
 Phone number
 
-
-
-* **Phone:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **phone** String
 

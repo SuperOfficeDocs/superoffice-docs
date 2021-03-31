@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSFreeTextAgent_GetStatus
-description: NSFreeTextAgent.GetStatus()
+description: FreeText GetStatus()
 intellisense: NSFreeTextAgent.GetStatus
-sortOrder: 3869
-keywords: GetStatus()
+keywords: NSFreeTextAgent,GetStatus
 so.topic: reference
 ---
-
 
 Returns status for the freetext search words
 
 
+**Returns:** The freetext status
 
-* **Returns:** The freetext status
-
+```crmscript
+NSFreeTextAgent agent;
+FreeText res = agent.GetStatus();
+```
 

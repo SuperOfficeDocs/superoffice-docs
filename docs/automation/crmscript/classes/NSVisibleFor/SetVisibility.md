@@ -1,14 +1,16 @@
----
-title: crmscript_ref_NSVisibleFor_SetVisibility_Integer_p_0
-description: NSVisibleFor.SetVisibility(Integer p_0)
+﻿---
+title: crmscript_ref_NSVisibleFor_SetVisibility
+description: NSVisibleFor.SetVisibility(Integer visibility)
 intellisense: NSVisibleFor.SetVisibility
-keywords: SetVisibility(Integer)
+keywords: NSVisibleFor, GetVisibility
 so.topic: reference
 ---
 
-The visibility of the record - 0=All, 1=Associate, 2=Group
 
-* **Visibility:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **visibility** Integer
+     - Enum: 0 = All 
+     - Enum: 1 = Associate 
+     - Enum: 2 = Group 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetPriority_NSTicketPriorityEntity_p_0
-description: NSTicketEntity.SetPriority(NSTicketPriorityEntity p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetPriority
+description: NSTicketEntity.SetPriority(TicketPriorityEntity priority)
 intellisense: NSTicketEntity.SetPriority
-keywords: SetPriority(NSTicketPriorityEntity)
+keywords: NSTicketEntity, GetPriority
 so.topic: reference
 ---
 
-
 The ticket priority entity which this ticket is connected to
 
-
-
-* **Priority:** TicketPriorityEntity
-* **Returns:** TicketPriorityEntity
-
+**Parameter:** 
+ - **priority** TicketPriorityEntity
 

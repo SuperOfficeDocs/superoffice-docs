@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuotePublishDocuments_SetToEmail_String_p_0
-description: NSQuotePublishDocuments.SetToEmail(String p_0)
+﻿---
+title: crmscript_ref_NSQuotePublishDocuments_SetToEmail
+description: NSQuotePublishDocuments.SetToEmail(String toEmail)
 intellisense: NSQuotePublishDocuments.SetToEmail
-keywords: SetToEmail(String)
+keywords: NSQuotePublishDocuments, GetToEmail
 so.topic: reference
 ---
 
-
 The email address of the recipient, taken from the sale's person
 
-
-
-* **ToEmail:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **toEmail** String
 

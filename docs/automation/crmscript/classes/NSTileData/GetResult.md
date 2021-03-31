@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTileData_GetResult
-description: NSTileData.GetResult()
+description: ArchiveListResult NSTileData.GetResult()
 intellisense: NSTileData.GetResult
-keywords: GetResult()
+keywords: NSTileData, GetResult
 so.topic: reference
 ---
 
-
 The result set
 
-
-
-* **Returns:** ArchiveListResult
+**Returns:** ArchiveListResult
 
 

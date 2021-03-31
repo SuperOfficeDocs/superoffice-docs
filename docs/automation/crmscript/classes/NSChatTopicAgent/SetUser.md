@@ -1,0 +1,13 @@
+﻿---
+title: crmscript_ref_NSChatTopicAgent_SetUser
+description: NSChatTopicAgent.SetUser(Associate user)
+intellisense: NSChatTopicAgent.SetUser
+keywords: NSChatTopicAgent, GetUser
+so.topic: reference
+---
+
+The associate that is the user agent.
+
+**Parameter:** 
+ - **user** Associate
+

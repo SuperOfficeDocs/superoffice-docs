@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetCreditedList_Integer__p_0
-description: NSListAgent.GetCreditedList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCreditedList
+description: NSCredited[] GetCreditedList(Integer[]  creditedIds);
 intellisense: NSListAgent.GetCreditedList
-keywords: GetCreditedList(Integer[])
+keywords: NSListAgent,GetCreditedList
 so.topic: reference
 ---
 
-Gets an array of Credited objects.
+Gets a vector of Credited objects.
 
+**Parameters:**
+ - **creditedIds** The identifiers of the NSCredited objects
 
+**Returns:** Vector of NSCredited objects
 
-* **p0:** IntegerArray of identifiers for Credited
-* **Returns:** Array of NSCredited
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetCreditedList(ids);
+```
 

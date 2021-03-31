@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSUserAgent_SetPasswordFromName_String_p_0_String_p_1
-description: NSUserAgent.SetPasswordFromName(String p_0, String p_1)
+﻿---
+title: crmscript_ref_NSUserAgent_SetPasswordFromName
+description: Bool SetPasswordFromName(String associateName, String password)
 intellisense: NSUserAgent.SetPasswordFromName
-keywords: SetPasswordFromName(String,String)
+keywords: NSUserAgent,SetPasswordFromName
 so.topic: reference
 ---
 
-
 Change password for a user.
 
+**Parameters:**
+ - **associateName** Username to set password for
+ - **password** New password
 
+**Returns:** Succeeded?
 
-* **associateName:** Username to set password for
-* **password:** New password
-* **Returns:** Succeeded?
-
+```crmscript
+NSUserAgent agent;
+String associateName;
+String password;
+Bool res = agent.SetPasswordFromName(associateName, password);
+```
 

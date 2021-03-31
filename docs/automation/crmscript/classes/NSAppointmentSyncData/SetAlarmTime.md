@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetAlarmTime_DateTime_p_0
-description: NSAppointmentSyncData.SetAlarmTime(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetAlarmTime
+description: NSAppointmentSyncData.SetAlarmTime(DateTime alarmTime)
 intellisense: NSAppointmentSyncData.SetAlarmTime
-sortOrder: 1066
-keywords: SetAlarmTime(DateTime)
+keywords: NSAppointmentSyncData, GetAlarmTime
 so.topic: reference
 ---
 
-
 Date and time at which to show alarm
 
-
-
-* **AlarmTime:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **alarmTime** DateTime
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUntrustedCredentials_SetValidFrom_DateTime_p_0
-description: NSUntrustedCredentials.SetValidFrom(DateTime p_0)
+﻿---
+title: crmscript_ref_NSUntrustedCredentials_SetValidFrom
+description: NSUntrustedCredentials.SetValidFrom(DateTime validFrom)
 intellisense: NSUntrustedCredentials.SetValidFrom
-keywords: SetValidFrom(DateTime)
+keywords: NSUntrustedCredentials, GetValidFrom
 so.topic: reference
 ---
 
-
 Credentials are valid from this date.
 
-
-
-* **ValidFrom:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **validFrom** DateTime
 

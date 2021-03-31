@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCustomerCenterConfig_GetRegistered
-description: NSCustomerCenterConfig.GetRegistered()
+description: DateTime NSCustomerCenterConfig.GetRegistered()
 intellisense: NSCustomerCenterConfig.GetRegistered
-sortOrder: 2195
-keywords: GetRegistered()
+keywords: NSCustomerCenterConfig, GetRegistered
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

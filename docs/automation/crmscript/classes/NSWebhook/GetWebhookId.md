@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebhook_GetWebhookId
-description: NSWebhook.GetWebhookId()
+description: Integer NSWebhook.GetWebhookId()
 intellisense: NSWebhook.GetWebhookId
-keywords: GetWebhookId()
+keywords: NSWebhook, GetWebhookId
 so.topic: reference
 ---
 
-
 Primary Key. Unique id for this webhook.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

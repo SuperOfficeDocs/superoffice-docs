@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetUnitCost_Float_p_0
-description: NSQuoteLine.SetUnitCost(Float p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetUnitCost
+description: NSQuoteLine.SetUnitCost(Float unitCost)
 intellisense: NSQuoteLine.SetUnitCost
-keywords: SetUnitCost(Float)
+keywords: NSQuoteLine, GetUnitCost
 so.topic: reference
 ---
 
-
 The cost price per unit for this product. May be filled in by connector if it has the Provide-Cost capability.
 
-
-
-* **UnitCost:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **unitCost** Float
 

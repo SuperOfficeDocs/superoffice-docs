@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSSaleType_GetValue
-description: NSSaleType.GetValue()
+description: String NSSaleType.GetValue()
 intellisense: NSSaleType.GetValue
-keywords: GetValue()
+keywords: NSSaleType, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCRMScriptEntity_SetUpdatedAssociateId_Integer_p_0
-description: NSCRMScriptEntity.SetUpdatedAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptEntity_SetUpdatedAssociateId
+description: NSCRMScriptEntity.SetUpdatedAssociateId(Integer updatedAssociateId)
 intellisense: NSCRMScriptEntity.SetUpdatedAssociateId
-sortOrder: 2148
-keywords: SetUpdatedAssociateId(Integer)
+keywords: NSCRMScriptEntity, GetUpdatedAssociateId
 so.topic: reference
 ---
 
-
 Last updated by whom
 
-
-
-* **UpdatedAssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **updatedAssociateId** Integer
 

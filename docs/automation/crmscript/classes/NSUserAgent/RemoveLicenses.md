@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSUserAgent_RemoveLicenses_Integer_p_0
-description: NSUserAgent.RemoveLicenses(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_RemoveLicenses
+description: Void RemoveLicenses(Integer associateId)
 intellisense: NSUserAgent.RemoveLicenses
-keywords: RemoveLicenses(Integer)
+keywords: NSUserAgent,RemoveLicenses
 so.topic: reference
 ---
 
-
 Remove all user licenses.
 
-
-
-* **associateId**
-
-
+**Parameters:**
+ - **associateId** 

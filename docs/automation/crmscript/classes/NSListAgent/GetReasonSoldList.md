@@ -1,16 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetReasonSoldList_Integer__p_0
-description: NSListAgent.GetReasonSoldList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetReasonSoldList
+description: NSReasonSold[] GetReasonSoldList(Integer[]  reasonSoldIds);
 intellisense: NSListAgent.GetReasonSoldList
-keywords: GetReasonSoldList(Integer[])
+keywords: NSListAgent,GetReasonSoldList
 so.topic: reference
 ---
 
-Gets an array of ReasonSold objects.
+Gets a vector of ReasonSold objects.
 
+**Parameters:**
+ - **reasonSoldIds** The identifiers of the NSReasonSold objects
 
+**Returns:** Vector of NSReasonSold objects
 
-* **p0:** IntegerArray of identifiers for ReasonSold
-* **Returns:** Array of NSReasonSold
-
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetReasonSoldList(ids);
+```
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncDefaultValue_SetErpFieldId_Integer_p_0
-description: NSErpSyncDefaultValue.SetErpFieldId(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncDefaultValue_SetErpFieldId
+description: NSErpSyncDefaultValue.SetErpFieldId(Integer erpFieldId)
 intellisense: NSErpSyncDefaultValue.SetErpFieldId
-sortOrder: 3266
-keywords: SetErpFieldId(Integer)
+keywords: NSErpSyncDefaultValue, GetErpFieldId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ErpFieldId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **erpFieldId** Integer
 

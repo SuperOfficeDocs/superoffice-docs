@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetRealTimeSpentQueue_Integer_p_0
-description: NSTicketEntity.SetRealTimeSpentQueue(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetRealTimeSpentQueue
+description: NSTicketEntity.SetRealTimeSpentQueue(Integer realTimeSpentQueue)
 intellisense: NSTicketEntity.SetRealTimeSpentQueue
-keywords: SetRealTimeSpentQueue(Integer)
+keywords: NSTicketEntity, GetRealTimeSpentQueue
 so.topic: reference
 ---
 
-
 The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state
 
-
-
-* **RealTimeSpentQueue:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **realTimeSpentQueue** Integer
 

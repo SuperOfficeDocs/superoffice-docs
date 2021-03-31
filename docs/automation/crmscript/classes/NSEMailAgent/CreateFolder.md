@@ -1,17 +1,12 @@
----
-title: crmscript_ref_NSEMailAgent_CreateFolder_NSEMailConnectionInfo_p_0
-description: NSEMailAgent.CreateFolder(NSEMailConnectionInfo p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_CreateFolder
+description: Void CreateFolder(EMailConnectionInfo connectionInfo)
 intellisense: NSEMailAgent.CreateFolder
-sortOrder: 2854
-keywords: CreateFolder(NSEMailConnectionInfo)
+keywords: NSEMailAgent,CreateFolder
 so.topic: reference
 ---
 
-
 Create a new folder on the server
 
-
-
-* **connectionInfo:** All information needed to connect to the mailserver
-
-
+**Parameters:**
+ - **connectionInfo** All information needed to connect to the mailserver

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetRank_Integer_p_0
-description: NSDocumentTemplateEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetRank
+description: NSDocumentTemplateEntity.SetRank(Integer rank)
 intellisense: NSDocumentTemplateEntity.SetRank
-sortOrder: 2696
-keywords: SetRank(Integer)
+keywords: NSDocumentTemplateEntity, GetRank
 so.topic: reference
 ---
 
-
 Rank order
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

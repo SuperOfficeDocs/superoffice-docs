@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPerson_GetSupportAssociateId
-description: NSPerson.GetSupportAssociateId()
+description: Integer NSPerson.GetSupportAssociateId()
 intellisense: NSPerson.GetSupportAssociateId
-keywords: GetSupportAssociateId()
+keywords: NSPerson, GetSupportAssociateId
 so.topic: reference
 ---
 
-
 Our support contact for this person
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteAlternativeRecalculated_GetChangedQuoteAlternative
-description: NSQuoteAlternativeRecalculated.GetChangedQuoteAlternative()
+description: QuoteAlternative NSQuoteAlternativeRecalculated.GetChangedQuoteAlternative()
 intellisense: NSQuoteAlternativeRecalculated.GetChangedQuoteAlternative
-keywords: GetChangedQuoteAlternative()
+keywords: NSQuoteAlternativeRecalculated, GetChangedQuoteAlternative
 so.topic: reference
 ---
 
-
 The recalculated QuoteAlternative
 
-
-
-* **Returns:** QuoteAlternative
+**Returns:** QuoteAlternative
 
 

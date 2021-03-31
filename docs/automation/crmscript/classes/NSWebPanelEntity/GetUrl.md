@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebPanelEntity_GetUrl
-description: NSWebPanelEntity.GetUrl()
+description: String NSWebPanelEntity.GetUrl()
 intellisense: NSWebPanelEntity.GetUrl
-keywords: GetUrl()
+keywords: NSWebPanelEntity, GetUrl
 so.topic: reference
 ---
 
-
 The url
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSTicketAgent_CreateDefaultTicketMessageEntity
-description: NSTicketAgent.CreateDefaultTicketMessageEntity()
+description: NSTicketMessageEntity CreateDefaultTicketMessageEntity()
 intellisense: NSTicketAgent.CreateDefaultTicketMessageEntity
-keywords: CreateDefaultTicketMessageEntity()
+keywords: NSTicketAgent,CreateDefaultTicketMessageEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSTicketMessageEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSTicketMessageEntity with default values.
 
-
-Loading default values into a new TicketMessageEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New TicketMessageEntity with default values
-
+```crmscript
+NSTicketAgent agent;
+NSTicketMessageEntity thing = agent.CreateDefaultTicketMessageEntity();
+thing = agent.SaveTicketMessageEntity(thing);
+```
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPluginUrlResponse_SetUserExplanation_String_p_0
-description: NSPluginUrlResponse.SetUserExplanation(String p_0)
+﻿---
+title: crmscript_ref_NSPluginUrlResponse_SetUserExplanation
+description: NSPluginUrlResponse.SetUserExplanation(String userExplanation)
 intellisense: NSPluginUrlResponse.SetUserExplanation
-keywords: SetUserExplanation(String)
+keywords: NSPluginUrlResponse, GetUserExplanation
 so.topic: reference
 ---
 
-
 A localized explanation to the answer.
 
-
-
-* **UserExplanation:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **userExplanation** String
 

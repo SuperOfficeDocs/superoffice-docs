@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSEMailConnectionInfoExtended_SetPort_Integer_p_0
-description: NSEMailConnectionInfoExtended.SetPort(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailConnectionInfoExtended_SetPort
+description: NSEMailConnectionInfoExtended.SetPort(Integer port)
 intellisense: NSEMailConnectionInfoExtended.SetPort
-sortOrder: 2931
-keywords: SetPort(Integer)
+keywords: NSEMailConnectionInfoExtended, GetPort
 so.topic: reference
 ---
 
 
-* **Port:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **port** Integer
 

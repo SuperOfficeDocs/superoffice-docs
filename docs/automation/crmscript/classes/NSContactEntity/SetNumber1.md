@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetNumber1_String_p_0
-description: NSContactEntity.SetNumber1(String p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetNumber1
+description: NSContactEntity.SetNumber1(String number1)
 intellisense: NSContactEntity.SetNumber1
-sortOrder: 1904
-keywords: SetNumber1(String)
+keywords: NSContactEntity, GetNumber1
 so.topic: reference
 ---
 
-
 Alphanumeric user field
 
-
-
-* **Number1:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **number1** String
 

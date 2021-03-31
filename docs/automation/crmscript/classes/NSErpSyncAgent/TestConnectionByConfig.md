@@ -1,12 +1,23 @@
----
-title: crmscript_ref_NSErpSyncAgent_TestConnectionByConfig_Integer_p_0_Map_p_1
-description: NSErpSyncAgent.TestConnectionByConfig(Integer p_0, Map p_1)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_TestConnectionByConfig
+description: Bool TestConnectionByConfig(Integer erpConnectionId, StringDictionary configFields)
 intellisense: NSErpSyncAgent.TestConnectionByConfig
-sortOrder: 3184
-keywords: TestConnectionByConfig(Integer,Map)
+keywords: NSErpSyncAgent,TestConnectionByConfig
 so.topic: reference
 ---
 
+Tests to see if the given connection has a valid connection to its connector
 
+**Parameters:**
+ - **erpConnectionId** The id of the connector we try to connect to
+ - **configFields** The config fields used to test connection
 
+**Returns:** Returns true if success
+
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+StringDictionary configFields;
+Bool res = agent.TestConnectionByConfig(erpConnectionId, configFields);
+```
 

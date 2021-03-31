@@ -1,22 +1,18 @@
----
-title: crmscript_ref_NSCredentialType_SetValueControl_Integer_p_0
-description: NSCredentialType.SetValueControl(Integer p_0)
+﻿---
+title: crmscript_ref_NSCredentialType_SetValueControl
+description: NSCredentialType.SetValueControl(Integer valueControl)
 intellisense: NSCredentialType.SetValueControl
-sortOrder: 2082
-keywords: SetValueControl(Integer)
+keywords: NSCredentialType, GetValueControl
 so.topic: reference
 ---
 
-
 Type of control used to display the value.
 
-* Static=0
-* Edit=1
-* Password=2
-* Link=3
-* Hidden=4
-
-* **ValueControl:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **valueControl** Integer
+     - Enum: 0 = Static 
+     - Enum: 1 = Edit 
+     - Enum: 2 = Password 
+     - Enum: 3 = Link 
+     - Enum: 4 = Hidden 
 

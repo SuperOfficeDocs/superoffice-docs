@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPocketNotificationMessage_GetDate
-description: NSPocketNotificationMessage.GetDate()
+description: DateTime NSPocketNotificationMessage.GetDate()
 intellisense: NSPocketNotificationMessage.GetDate
-keywords: GetDate()
+keywords: NSPocketNotificationMessage, GetDate
 so.topic: reference
 ---
 
-
 If the message is about some event happening at a specific date and time
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

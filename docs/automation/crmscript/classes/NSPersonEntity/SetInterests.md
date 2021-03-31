@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetInterests_NSSelectableMDOListItem__p_0
-description: NSPersonEntity.SetInterests(NSSelectableMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetInterests
+description: NSPersonEntity.SetInterests(SelectableMDOListItemArray interests)
 intellisense: NSPersonEntity.SetInterests
-keywords: SetInterests(NSSelectableMDOListItem[])
+keywords: NSPersonEntity, GetInterests
 so.topic: reference
 ---
 
-
 The person's available and selected interests.
 
-
-
-* **Interests:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
-
+**Parameter:** 
+ - **interests** SelectableMDOListItemArray
 

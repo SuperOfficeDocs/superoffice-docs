@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTimeZoneRule_SetStartDay_Integer_p_0
-description: NSTimeZoneRule.SetStartDay(Integer p_0)
+﻿---
+title: crmscript_ref_NSTimeZoneRule_SetStartDay
+description: NSTimeZoneRule.SetStartDay(Integer startDay)
 intellisense: NSTimeZoneRule.SetStartDay
-keywords: SetStartDay(Integer)
+keywords: NSTimeZoneRule, GetStartDay
 so.topic: reference
 ---
 
-
 Custom DST start day, if 0 then parse startRule
 
-
-
-* **StartDay:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **startDay** Integer
 

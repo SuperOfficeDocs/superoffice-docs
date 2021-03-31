@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSHeadingEntity_SetUdListDefinitionId_Integer_p_0
-description: NSHeadingEntity.SetUdListDefinitionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSHeadingEntity_SetUdListDefinitionId
+description: NSHeadingEntity.SetUdListDefinitionId(Integer udListDefinitionId)
 intellisense: NSHeadingEntity.SetUdListDefinitionId
-sortOrder: 3923
-keywords: SetUdListDefinitionId(Integer)
+keywords: NSHeadingEntity, GetUdListDefinitionId
 so.topic: reference
 ---
 
-
 The id of the list which this heading belongs to
 
-
-
-* **UdListDefinitionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **udListDefinitionId** Integer
 

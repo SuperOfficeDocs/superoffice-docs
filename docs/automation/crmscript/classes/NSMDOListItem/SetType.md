@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMDOListItem_SetType_String_p_0
-description: NSMDOListItem.SetType(String p_0)
+﻿---
+title: crmscript_ref_NSMDOListItem_SetType
+description: NSMDOListItem.SetType(String type)
 intellisense: NSMDOListItem.SetType
-keywords: SetType(String)
+keywords: NSMDOListItem, GetType
 so.topic: reference
 ---
 
-
 The type of the ListItem. Custom field.
 
-
-
-* **Type:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **type** String
 

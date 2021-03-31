@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSApproveRejectResponse_GetCreatedAppointmentId
-description: NSApproveRejectResponse.GetCreatedAppointmentId()
+description: Integer NSApproveRejectResponse.GetCreatedAppointmentId()
 intellisense: NSApproveRejectResponse.GetCreatedAppointmentId
-sortOrder: 1094
-keywords: GetCreatedAppointmentId()
+keywords: NSApproveRejectResponse, GetCreatedAppointmentId
 so.topic: reference
 ---
 
-
 Id of the created follow up.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

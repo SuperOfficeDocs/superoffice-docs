@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetPriority
-description: NSAppointmentEntity.GetPriority()
+description: Priority NSAppointmentEntity.GetPriority()
 intellisense: NSAppointmentEntity.GetPriority
-sortOrder: 968
-keywords: GetPriority()
+keywords: NSAppointmentEntity, GetPriority
 so.topic: reference
 ---
 
-
 It's possible to give appointments different priorities. All the different priority types are saved in the priority table, and edited from the Admin. Client. An appointment does not require a priority.
 
-
-
-* **Returns:** Priority
+**Returns:** Priority
 
 

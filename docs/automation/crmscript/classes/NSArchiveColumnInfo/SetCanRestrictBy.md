@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveColumnInfo_SetCanRestrictBy_Bool_p_0
-description: NSArchiveColumnInfo.SetCanRestrictBy(Bool p_0)
+﻿---
+title: crmscript_ref_NSArchiveColumnInfo_SetCanRestrictBy
+description: NSArchiveColumnInfo.SetCanRestrictBy(Bool canRestrictBy)
 intellisense: NSArchiveColumnInfo.SetCanRestrictBy
-sortOrder: 1152
-keywords: SetCanRestrictBy(Bool)
+keywords: NSArchiveColumnInfo, GetCanRestrictBy
 so.topic: reference
 ---
 
-
 Can this column be used as a restriction
 
-
-
-* **CanRestrictBy:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **canRestrictBy** Bool
 

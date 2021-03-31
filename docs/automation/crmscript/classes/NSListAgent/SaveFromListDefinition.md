@@ -1,19 +1,25 @@
----
-title: crmscript_ref_NSListAgent_SaveFromListDefinition_Integer_p_0_Integer_p_1_NSListItemEntity_p_2
-description: NSListAgent.SaveFromListDefinition(Integer p_0, Integer p_1, NSListItemEntity p_2)
+﻿---
+title: crmscript_ref_NSListAgent_SaveFromListDefinition
+description: ListItemEntity SaveFromListDefinition(Integer id, Integer udListDefinitionId, ListItemEntity item)
 intellisense: NSListAgent.SaveFromListDefinition
-keywords: SaveFromListDefinition(Integer,Integer,NSListItemEntity)
+keywords: NSListAgent,SaveFromListDefinition
 so.topic: reference
 ---
 
-
 Save a list item for the specified list defintion
 
+**Parameters:**
+ - **id** The identity of the list item to load
+ - **udListDefinitionId** The id of the list definition, indicating which list to save the item to. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
+ - **item** The item to save
 
+**Returns:** The saved list item
 
-* **id:** The identity of the list item to load
-* **udListDefinitionId:** The id of the list definition, indicating which list to save the item to. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **item:** The item to save
-* **Returns:** The saved list item
-
+```crmscript
+NSListAgent agent;
+Integer id;
+Integer udListDefinitionId;
+ListItemEntity item;
+ListItemEntity res = agent.SaveFromListDefinition(id, udListDefinitionId, item);
+```
 

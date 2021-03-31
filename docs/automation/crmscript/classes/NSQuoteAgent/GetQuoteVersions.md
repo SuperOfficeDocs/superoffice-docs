@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_GetQuoteVersions_Integer_p_0
-description: NSQuoteAgent.GetQuoteVersions(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_GetQuoteVersions
+description: QuoteVersionArray GetQuoteVersions(Integer quoteId)
 intellisense: NSQuoteAgent.GetQuoteVersions
-keywords: GetQuoteVersions(Integer)
+keywords: NSQuoteAgent,GetQuoteVersions
 so.topic: reference
 ---
 
-
 Get all quote versions for a sale
 
+**Parameters:**
+ - **quoteId** QuoteId of the quote to get versions from
 
+**Returns:** Array of Quote versions
 
-* **quoteId:** QuoteId of the quote to get versions from
-* **Returns:** Array of Quote versions
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteId;
+QuoteVersionArray res = agent.GetQuoteVersions(quoteId);
+```
 

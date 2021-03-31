@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedDocumentEntity_SetOurRef_String_p_0
-description: NSSuggestedDocumentEntity.SetOurRef(String p_0)
+﻿---
+title: crmscript_ref_NSSuggestedDocumentEntity_SetOurRef
+description: NSSuggestedDocumentEntity.SetOurRef(String ourRef)
 intellisense: NSSuggestedDocumentEntity.SetOurRef
-keywords: SetOurRef(String)
+keywords: NSSuggestedDocumentEntity, GetOurRef
 so.topic: reference
 ---
 
-
 Suggested 'our reference'
 
-
-
-* **OurRef:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **ourRef** String
 

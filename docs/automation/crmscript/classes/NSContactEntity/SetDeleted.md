@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetDeleted_Integer_p_0
-description: NSContactEntity.SetDeleted(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetDeleted
+description: NSContactEntity.SetDeleted(Integer deleted)
 intellisense: NSContactEntity.SetDeleted
-sortOrder: 1893
-keywords: SetDeleted(Integer)
+keywords: NSContactEntity, GetDeleted
 so.topic: reference
 ---
 
-
 If nonzero, then this contact is 'deleted' and should generally not be shown
 
-
-
-* **Deleted:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **deleted** Integer
 

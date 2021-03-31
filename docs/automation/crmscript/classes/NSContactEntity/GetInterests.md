@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetInterests
-description: NSContactEntity.GetInterests()
+description: SelectableMDOListItemArray NSContactEntity.GetInterests()
 intellisense: NSContactEntity.GetInterests
-sortOrder: 1865
-keywords: GetInterests()
+keywords: NSContactEntity, GetInterests
 so.topic: reference
 ---
 
-
 The contact's available and selected interests.
 
-
-
-* **Returns:** SelectableMDOListItemArray
+**Returns:** SelectableMDOListItemArray
 
 

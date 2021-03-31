@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCsFeatureToggle_SetName_String_p_0
-description: NSCsFeatureToggle.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSCsFeatureToggle_SetName
+description: NSCsFeatureToggle.SetName(String name)
 intellisense: NSCsFeatureToggle.SetName
-sortOrder: 2159
-keywords: SetName(String)
+keywords: NSCsFeatureToggle, GetName
 so.topic: reference
 ---
 
-
 Name of the feature toggle
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

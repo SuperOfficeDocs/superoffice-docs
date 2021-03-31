@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTile_GetOptions
-description: NSDashboardTile.GetOptions()
+description: DashboardTileOptionArray NSDashboardTile.GetOptions()
 intellisense: NSDashboardTile.GetOptions
-sortOrder: 2295
-keywords: GetOptions()
+keywords: NSDashboardTile, GetOptions
 so.topic: reference
 ---
 
-
 The tile options
 
-
-
-* **Returns:** DashboardTileOptionArray
+**Returns:** DashboardTileOptionArray
 
 

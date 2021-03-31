@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSImportColumnInfo_SetName_String_p_0
-description: NSImportColumnInfo.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSImportColumnInfo_SetName
+description: NSImportColumnInfo.SetName(String name)
 intellisense: NSImportColumnInfo.SetName
-sortOrder: 3965
-keywords: SetName(String)
+keywords: NSImportColumnInfo, GetName
 so.topic: reference
 ---
 
-
 Name of the column
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

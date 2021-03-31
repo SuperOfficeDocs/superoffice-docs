@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetVisibleForCategories_NSMDOListItem__p_0
-description: NSProjectEventEntity.SetVisibleForCategories(NSMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetVisibleForCategories
+description: NSProjectEventEntity.SetVisibleForCategories(MDOListItemArray visibleForCategories)
 intellisense: NSProjectEventEntity.SetVisibleForCategories
-keywords: SetVisibleForCategories(NSMDOListItem[])
+keywords: NSProjectEventEntity, GetVisibleForCategories
 so.topic: reference
 ---
 
-
 Array of categories that the event is visible for. MDO Table "category".
 
-
-
-* **VisibleForCategories:** MDOListItemArray
-* **Returns:** MDOListItemArray
-
+**Parameter:** 
+ - **visibleForCategories** MDOListItemArray
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebAppUsage_GetAggregateBin
-description: NSWebAppUsage.GetAggregateBin()
+description: Integer NSWebAppUsage.GetAggregateBin()
 intellisense: NSWebAppUsage.GetAggregateBin
-keywords: GetAggregateBin()
+keywords: NSWebAppUsage, GetAggregateBin
 so.topic: reference
 ---
 
-
 ??
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

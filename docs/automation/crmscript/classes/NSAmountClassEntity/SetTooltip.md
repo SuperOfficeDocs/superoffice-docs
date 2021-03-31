@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAmountClassEntity_SetTooltip_String_p_0
-description: NSAmountClassEntity.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSAmountClassEntity_SetTooltip
+description: NSAmountClassEntity.SetTooltip(String tooltip)
 intellisense: NSAmountClassEntity.SetTooltip
-sortOrder: 710
-keywords: SetTooltip(String)
+keywords: NSAmountClassEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip or other description
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

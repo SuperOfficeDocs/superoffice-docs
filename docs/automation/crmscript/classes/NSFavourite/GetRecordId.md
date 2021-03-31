@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFavourite_GetRecordId
-description: NSFavourite.GetRecordId()
+description: Integer NSFavourite.GetRecordId()
 intellisense: NSFavourite.GetRecordId
-sortOrder: 3437
-keywords: GetRecordId()
+keywords: NSFavourite, GetRecordId
 so.topic: reference
 ---
 
-
 Id of the record this favourite belongs to.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

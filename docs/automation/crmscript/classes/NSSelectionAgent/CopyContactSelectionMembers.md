@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionAgent_CopyContactSelectionMembers_Integer_p_0_Integer_p_1
-description: NSSelectionAgent.CopyContactSelectionMembers(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSSelectionAgent_CopyContactSelectionMembers
+description: Void CopyContactSelectionMembers(Integer fromSelectionId, Integer toSelectionId)
 intellisense: NSSelectionAgent.CopyContactSelectionMembers
-keywords: CopyContactSelectionMembers(Integer,Integer)
+keywords: NSSelectionAgent,CopyContactSelectionMembers
 so.topic: reference
 ---
 
-
 Copy contact selection members from selection into an existing selection.
 
-
-
-* **fromSelectionId:** The id of the selection to copy members from.
-* **toSelectionId:** The id of the selection to copy members to.
-
-
+**Parameters:**
+ - **fromSelectionId** The id of the selection to copy members from.
+ - **toSelectionId** The id of the selection to copy members to.

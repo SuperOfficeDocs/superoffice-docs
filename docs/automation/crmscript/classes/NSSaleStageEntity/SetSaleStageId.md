@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStageEntity_SetSaleStageId_Integer_p_0
-description: NSSaleStageEntity.SetSaleStageId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleStageEntity_SetSaleStageId
+description: NSSaleStageEntity.SetSaleStageId(Integer saleStageId)
 intellisense: NSSaleStageEntity.SetSaleStageId
-keywords: SetSaleStageId(Integer)
+keywords: NSSaleStageEntity, GetSaleStageId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **SaleStageId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleStageId** Integer
 

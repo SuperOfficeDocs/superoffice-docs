@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignDevice_SetDeviceIdentifier_String_p_0
-description: NSForeignDevice.SetDeviceIdentifier(String p_0)
+﻿---
+title: crmscript_ref_NSForeignDevice_SetDeviceIdentifier
+description: NSForeignDevice.SetDeviceIdentifier(String deviceIdentifier)
 intellisense: NSForeignDevice.SetDeviceIdentifier
-sortOrder: 3726
-keywords: SetDeviceIdentifier(String)
+keywords: NSForeignDevice, GetDeviceIdentifier
 so.topic: reference
 ---
 
-
 Optional unique id of device (Palm pilot device ID, etc)
 
-
-
-* **DeviceIdentifier:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **deviceIdentifier** String
 

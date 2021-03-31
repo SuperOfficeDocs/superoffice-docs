@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTimeZoneRule_SetEndMonth_Integer_p_0
-description: NSTimeZoneRule.SetEndMonth(Integer p_0)
+﻿---
+title: crmscript_ref_NSTimeZoneRule_SetEndMonth
+description: NSTimeZoneRule.SetEndMonth(Integer endMonth)
 intellisense: NSTimeZoneRule.SetEndMonth
-keywords: SetEndMonth(Integer)
+keywords: NSTimeZoneRule, GetEndMonth
 so.topic: reference
 ---
 
-
 Custom DST end month, if 0 then parse startRule
 
-
-
-* **EndMonth:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **endMonth** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContact_SetBusinessName_String_p_0
-description: NSContact.SetBusinessName(String p_0)
+﻿---
+title: crmscript_ref_NSContact_SetBusinessName
+description: NSContact.SetBusinessName(String businessName)
 intellisense: NSContact.SetBusinessName
-sortOrder: 1746
-keywords: SetBusinessName(String)
+keywords: NSContact, GetBusinessName
 so.topic: reference
 ---
 
-
 The business list item name
 
-
-
-* **BusinessName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **businessName** String
 

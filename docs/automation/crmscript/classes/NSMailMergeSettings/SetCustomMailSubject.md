@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetCustomMailSubject_String_p_0
-description: NSMailMergeSettings.SetCustomMailSubject(String p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetCustomMailSubject
+description: NSMailMergeSettings.SetCustomMailSubject(String customMailSubject)
 intellisense: NSMailMergeSettings.SetCustomMailSubject
-keywords: SetCustomMailSubject(String)
+keywords: NSMailMergeSettings, GetCustomMailSubject
 so.topic: reference
 ---
 
-
 If specified, use this value as default mail subject.
 
-
-
-* **CustomMailSubject:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **customMailSubject** String
 

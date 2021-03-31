@@ -1,16 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSTicket_GetBaseStatus
-description: NSTicket.GetBaseStatus()
+description: TicketBaseStatus NSTicket.GetBaseStatus()
 intellisense: NSTicket.GetBaseStatus
-keywords: GetBaseStatus()
+keywords: NSTicket, GetBaseStatus
 so.topic: reference
 ---
 
-
 The status of the ticket. I.e. active/closed/postponed/deleted
 
+**Returns:** TicketBaseStatus
 
-
-* **Returns:** TicketBaseStatus
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Active 
+     - Enum: 2 = Closed 
+     - Enum: 3 = Postponed 
+     - Enum: 4 = Deleted 
+     - Enum: 5 = Merged 
 

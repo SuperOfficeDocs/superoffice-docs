@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetSupportAssociate_NSAssociate_p_0
-description: NSContactEntity.SetSupportAssociate(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetSupportAssociate
+description: NSContactEntity.SetSupportAssociate(Associate supportAssociate)
 intellisense: NSContactEntity.SetSupportAssociate
-sortOrder: 1910
-keywords: SetSupportAssociate(NSAssociate)
+keywords: NSContactEntity, GetSupportAssociate
 so.topic: reference
 ---
 
 
-* **SupportAssociate:** Associate
-* **Returns:** Associate
 
+**Parameter:** 
+ - **supportAssociate** Associate
 

@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSEMailConnectionInfoExtended_SetProtocol_String_p_0
-description: NSEMailConnectionInfoExtended.SetProtocol(String p_0)
+﻿---
+title: crmscript_ref_NSEMailConnectionInfoExtended_SetProtocol
+description: NSEMailConnectionInfoExtended.SetProtocol(String protocol)
 intellisense: NSEMailConnectionInfoExtended.SetProtocol
-sortOrder: 2932
-keywords: SetProtocol(String)
+keywords: NSEMailConnectionInfoExtended, GetProtocol
 so.topic: reference
 ---
 
 
-* **Protocol:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **protocol** String
 

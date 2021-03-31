@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSPersonAgent_SavePersonEntity_NSPersonEntity_p_0
-description: NSPersonAgent.SavePersonEntity(NSPersonEntity p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_SavePersonEntity
+description: NSPersonEntity SavePersonEntity(NSPersonEntity personEntity);
 intellisense: NSPersonAgent.SavePersonEntity
-keywords: SavePersonEntity(NSPersonEntity)
+keywords: NSPersonAgent,SavePersonEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSPersonEntity or creates a new NSPersonEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **personEntity** The NSPersonEntity to save.
 
+**Returns:** New or updated NSPersonEntity
 
-Updates the existing PersonEntity or creates a new PersonEntity if the id parameter is empty
-
-
-
-* **personEntity:** The PersonEntity that is saved
-* **Returns:** New or updated PersonEntity
-
+```crmscript
+NSPerson  agent;
+NSPersonEntity thing = agent.CreateDefaultPersonEntity();
+thing = agent.SavePersonEntity(thing);
+```
 

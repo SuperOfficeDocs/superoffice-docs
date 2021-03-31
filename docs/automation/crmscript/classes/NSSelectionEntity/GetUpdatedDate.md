@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSelectionEntity_GetUpdatedDate
-description: NSSelectionEntity.GetUpdatedDate()
+description: DateTime NSSelectionEntity.GetUpdatedDate()
 intellisense: NSSelectionEntity.GetUpdatedDate
-keywords: GetUpdatedDate()
+keywords: NSSelectionEntity, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

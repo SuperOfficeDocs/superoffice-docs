@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProduct_Integer_p_0
-description: NSBLOBAgent.GetBlobEntityOnProduct(Integer p_0)
+﻿---
+title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProduct
+description: BlobEntity GetBlobEntityOnProduct(Integer productId)
 intellisense: NSBLOBAgent.GetBlobEntityOnProduct
-sortOrder: 1413
-keywords: GetBlobEntityOnProduct(Integer)
+keywords: NSBLOBAgent,GetBlobEntityOnProduct
 so.topic: reference
 ---
 
-
 Gets the blob entity that represents the product image binary object.
 
+**Parameters:**
+ - **productId** The product id
 
+**Returns:** BlobEntity object
 
-* **productId:** The product id
-* **Returns:** BlobEntity object
-
+```crmscript
+NSBLOBAgent agent;
+Integer productId;
+BlobEntity res = agent.GetBlobEntityOnProduct(productId);
+```
 

@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSArea_SetFreetextEnabeled_Bool_p_0
-description: NSArea.SetFreetextEnabeled(Bool p_0)
+﻿---
+title: crmscript_ref_NSArea_SetFreetextEnabeled
+description: NSArea.SetFreetextEnabeled(Bool freetextEnabeled)
 intellisense: NSArea.SetFreetextEnabeled
-sortOrder: 1247
-keywords: SetFreetextEnabeled(Bool)
+keywords: NSArea, GetFreetextEnabeled
 so.topic: reference
 ---
 
 
-* **FreetextEnabeled:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **freetextEnabeled** Bool
 

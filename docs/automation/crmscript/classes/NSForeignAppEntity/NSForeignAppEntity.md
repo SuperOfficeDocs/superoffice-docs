@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSForeignAppEntity
 description: NSForeignAppEntity
 intellisense: Void.NSForeignAppEntity
-sortOrder: 3696
+keywords: NSForeignAppEntity
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSHeadingEntity_GetTooltip
-description: NSHeadingEntity.GetTooltip()
+description: String NSHeadingEntity.GetTooltip()
 intellisense: NSHeadingEntity.GetTooltip
-sortOrder: 3917
-keywords: GetTooltip()
+keywords: NSHeadingEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip or other description
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

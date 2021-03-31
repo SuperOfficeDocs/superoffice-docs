@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSSaleAgent_GetOpenSalesForContact_Integer_p_0
-description: NSSaleAgent.GetOpenSalesForContact(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_GetOpenSalesForContact
+description: SaleArray GetOpenSalesForContact(Integer contactId)
 intellisense: NSSaleAgent.GetOpenSalesForContact
-keywords: GetOpenSalesForContact(Integer)
+keywords: NSSaleAgent,GetOpenSalesForContact
 so.topic: reference
 ---
 
-
 Returns all open sales for the contact provided.
 
+**Parameters:**
+ - **contactId** The ID of the contact whose sales we want.
 
+**Returns:** Aray of sales.
 
-* **contactId:** The ID of the contact whose sales we want.
-* **Returns:** Aray of sales.
-
+```crmscript
+NSSaleAgent agent;
+Integer contactId;
+SaleArray res = agent.GetOpenSalesForContact(contactId);
+```
 

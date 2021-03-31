@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSActivitySummaryItem_SetDocumentId_Integer_p_0
-description: NSActivitySummaryItem.SetDocumentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSActivitySummaryItem_SetDocumentId
+description: NSActivitySummaryItem.SetDocumentId(Integer documentId)
 intellisense: NSActivitySummaryItem.SetDocumentId
-sortOrder: 605
-keywords: SetDocumentId(Integer)
+keywords: NSActivitySummaryItem, GetDocumentId
 so.topic: reference
 ---
 
-
 Document id - 0 if not a document
 
-
-
-* **p_0:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **documentId** Integer
 

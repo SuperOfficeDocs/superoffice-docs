@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetIsAllDay_Bool_p_0
-description: NSAppointmentSyncData.SetIsAllDay(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetIsAllDay
+description: NSAppointmentSyncData.SetIsAllDay(Bool isAllDay)
 intellisense: NSAppointmentSyncData.SetIsAllDay
-sortOrder: 1075
-keywords: SetIsAllDay(Bool)
+keywords: NSAppointmentSyncData, GetIsAllDay
 so.topic: reference
 ---
 
 
-* **IsAllDay:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isAllDay** Bool
 

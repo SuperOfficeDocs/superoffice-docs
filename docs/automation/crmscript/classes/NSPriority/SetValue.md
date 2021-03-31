@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPriority_SetValue_String_p_0
-description: NSPriority.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSPriority_SetValue
+description: NSPriority.SetValue(String value)
 intellisense: NSPriority.SetValue
-keywords: SetValue(String)
+keywords: NSPriority, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

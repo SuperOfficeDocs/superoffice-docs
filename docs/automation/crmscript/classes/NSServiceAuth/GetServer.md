@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSServiceAuth_GetServer
-description: NSServiceAuth.GetServer()
+description: String NSServiceAuth.GetServer()
 intellisense: NSServiceAuth.GetServer
-keywords: GetServer()
+keywords: NSServiceAuth, GetServer
 so.topic: reference
 ---
 
-
 The mail server
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

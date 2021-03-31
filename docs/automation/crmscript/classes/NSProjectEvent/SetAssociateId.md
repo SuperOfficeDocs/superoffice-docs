@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetAssociateId_Integer_p_0
-description: NSProjectEvent.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetAssociateId
+description: NSProjectEvent.SetAssociateId(Integer associateId)
 intellisense: NSProjectEvent.SetAssociateId
-keywords: SetAssociateId(Integer)
+keywords: NSProjectEvent, GetAssociateId
 so.topic: reference
 ---
 
-
 Id of the person that ows the event (i.e. project)
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

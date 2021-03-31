@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketInfo_SetCategoryName_String_p_0
-description: NSTicketInfo.SetCategoryName(String p_0)
+﻿---
+title: crmscript_ref_NSTicketInfo_SetCategoryName
+description: NSTicketInfo.SetCategoryName(String categoryName)
 intellisense: NSTicketInfo.SetCategoryName
-keywords: SetCategoryName(String)
+keywords: NSTicketInfo, GetCategoryName
 so.topic: reference
 ---
 
-
 The name of the category for the request
 
-
-
-* **CategoryName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **categoryName** String
 

@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCategory
 description: NSCategory
 intellisense: Void.NSCategory
-sortOrder: 1490
+keywords: NSCategory
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

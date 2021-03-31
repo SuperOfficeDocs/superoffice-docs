@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSStatusMonitor_GetGenerationStart
-description: NSStatusMonitor.GetGenerationStart()
+description: DateTime NSStatusMonitor.GetGenerationStart()
 intellisense: NSStatusMonitor.GetGenerationStart
-keywords: GetGenerationStart()
+keywords: NSStatusMonitor, GetGenerationStart
 so.topic: reference
 ---
 
-
 When was the last regeneration started
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

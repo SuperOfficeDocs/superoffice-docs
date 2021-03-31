@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetName_String_p_0
-description: NSTicketPriorityEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetName
+description: NSTicketPriorityEntity.SetName(String name)
 intellisense: NSTicketPriorityEntity.SetName
-keywords: SetName(String)
+keywords: NSTicketPriorityEntity, GetName
 so.topic: reference
 ---
 
-
 The name of the priority.
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

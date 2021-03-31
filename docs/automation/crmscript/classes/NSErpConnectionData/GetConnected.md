@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpConnectionData_GetConnected
-description: NSErpConnectionData.GetConnected()
+description: Bool NSErpConnectionData.GetConnected()
 intellisense: NSErpConnectionData.GetConnected
-sortOrder: 3106
-keywords: GetConnected()
+keywords: NSErpConnectionData, GetConnected
 so.topic: reference
 ---
 
-
 True if this entity instance has syncronized connection
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

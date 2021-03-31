@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteLineConfiguration_GetMandatory
-description: NSQuoteLineConfiguration.GetMandatory()
+description: Bool NSQuoteLineConfiguration.GetMandatory()
 intellisense: NSQuoteLineConfiguration.GetMandatory
-keywords: GetMandatory()
+keywords: NSQuoteLineConfiguration, GetMandatory
 so.topic: reference
 ---
 
-
 Is this a mandatory field?
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

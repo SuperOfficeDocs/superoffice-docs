@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignKey_SetValue_String_p_0
-description: NSForeignKey.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSForeignKey_SetValue
+description: NSForeignKey.SetValue(String value)
 intellisense: NSForeignKey.SetValue
-sortOrder: 3749
-keywords: SetValue(String)
+keywords: NSForeignKey, GetValue
 so.topic: reference
 ---
 
-
 Key value
 
-
-
-* **Value:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **value** String
 

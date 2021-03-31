@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSLanguageInfo_SetLCID_Integer_p_0
-description: NSLanguageInfo.SetLCID(Integer p_0)
+﻿---
+title: crmscript_ref_NSLanguageInfo_SetLCID
+description: NSLanguageInfo.SetLCID(Integer lCID)
 intellisense: NSLanguageInfo.SetLCID
-sortOrder: 4010
-keywords: SetLCID(Integer)
+keywords: NSLanguageInfo, GetLCID
 so.topic: reference
 ---
 
-
 Language/culture id as a numeric .NET code
 
-
-
-* **LCID:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **lCID** Integer
 

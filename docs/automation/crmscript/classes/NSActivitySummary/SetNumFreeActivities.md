@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSActivitySummary_SetNumFreeActivities_Integer_p_0
-description: NSActivitySummary.SetNumFreeActivities(Integer p_0)
+﻿---
+title: crmscript_ref_NSActivitySummary_SetNumFreeActivities
+description: NSActivitySummary.SetNumFreeActivities(Integer numFreeActivities)
 intellisense: NSActivitySummary.SetNumFreeActivities
-sortOrder: 591
-keywords: SetNumFreeActivities(Integer)
+keywords: NSActivitySummary, GetNumFreeActivities
 so.topic: reference
 ---
 
-
 Number of activites of the type 'free'. Sales and documents are not activites in this case, only diary appointments and tasks.
 
-
-
-* **NumFreeActivities:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **numFreeActivities** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldValueInfo_SetEncodedDisplayName_String_p_0
-description: NSFieldValueInfo.SetEncodedDisplayName(String p_0)
+﻿---
+title: crmscript_ref_NSFieldValueInfo_SetEncodedDisplayName
+description: NSFieldValueInfo.SetEncodedDisplayName(String encodedDisplayName)
 intellisense: NSFieldValueInfo.SetEncodedDisplayName
-sortOrder: 3643
-keywords: SetEncodedDisplayName(String)
+keywords: NSFieldValueInfo, GetEncodedDisplayName
 so.topic: reference
 ---
 
-
 The displayname of the field
 
-
-
-* **EncodedDisplayName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **encodedDisplayName** String
 

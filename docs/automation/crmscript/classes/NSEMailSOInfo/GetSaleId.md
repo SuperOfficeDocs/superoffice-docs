@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailSOInfo_GetSaleId
-description: NSEMailSOInfo.GetSaleId()
+description: Integer NSEMailSOInfo.GetSaleId()
 intellisense: NSEMailSOInfo.GetSaleId
-sortOrder: 3050
-keywords: GetSaleId()
+keywords: NSEMailSOInfo, GetSaleId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

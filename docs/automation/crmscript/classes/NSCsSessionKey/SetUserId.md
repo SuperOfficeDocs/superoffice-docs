@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCsSessionKey_SetUserId_Integer_p_0
-description: NSCsSessionKey.SetUserId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCsSessionKey_SetUserId
+description: NSCsSessionKey.SetUserId(Integer userId)
 intellisense: NSCsSessionKey.SetUserId
-sortOrder: 2168
-keywords: SetUserId(Integer)
+keywords: NSCsSessionKey, GetUserId
 so.topic: reference
 ---
 
-
 The ejuser id owning this session key
 
-
-
-* **UserId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **userId** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetResult_String_p_0
-description: NSBatchTaskInfo.SetResult(String p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetResult
+description: NSBatchTaskInfo.SetResult(String result)
 intellisense: NSBatchTaskInfo.SetResult
-sortOrder: 1403
-keywords: SetResult(String)
+keywords: NSBatchTaskInfo, GetResult
 so.topic: reference
 ---
 
-
 Maps to the result field in the batchtask table.
 
-
-
-* **Result:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **result** String
 

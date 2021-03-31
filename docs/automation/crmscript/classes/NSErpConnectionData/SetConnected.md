@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnectionData_SetConnected_Bool_p_0
-description: NSErpConnectionData.SetConnected(Bool p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionData_SetConnected
+description: NSErpConnectionData.SetConnected(Bool connected)
 intellisense: NSErpConnectionData.SetConnected
-sortOrder: 3114
-keywords: SetConnected(Bool)
+keywords: NSErpConnectionData, GetConnected
 so.topic: reference
 ---
 
-
 True if this entity instance has syncronized connection
 
-
-
-* **Connected:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **connected** Bool
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSScript_SetRegistered_DateTime_p_0
-description: NSScript.SetRegistered(DateTime p_0)
+﻿---
+title: crmscript_ref_NSScript_SetRegistered
+description: NSScript.SetRegistered(DateTime registered)
 intellisense: NSScript.SetRegistered
-keywords: SetRegistered(DateTime)
+keywords: NSScript, GetRegistered
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Registered:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **registered** DateTime
 

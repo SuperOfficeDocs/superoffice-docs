@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetAppointment_NSAppointment_p_0
-description: NSSaleEntity.SetAppointment(NSAppointment p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetAppointment
+description: NSSaleEntity.SetAppointment(Appointment appointment)
 intellisense: NSSaleEntity.SetAppointment
-keywords: SetAppointment(NSAppointment)
+keywords: NSSaleEntity, GetAppointment
 so.topic: reference
 ---
 
 
-* **Appointment:** Appointment
-* **Returns:** Appointment
 
+**Parameter:** 
+ - **appointment** Appointment
 

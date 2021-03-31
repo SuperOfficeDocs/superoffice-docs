@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMailMergeTask_GetProjectId
-description: NSMailMergeTask.GetProjectId()
+description: Integer NSMailMergeTask.GetProjectId()
 intellisense: NSMailMergeTask.GetProjectId
-keywords: GetProjectId()
+keywords: NSMailMergeTask, GetProjectId
 so.topic: reference
 ---
 
-
 Project identity to set on task
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

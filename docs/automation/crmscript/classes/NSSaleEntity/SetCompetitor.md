@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetCompetitor_NSCompetitor_p_0
-description: NSSaleEntity.SetCompetitor(NSCompetitor p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetCompetitor
+description: NSSaleEntity.SetCompetitor(Competitor competitor)
 intellisense: NSSaleEntity.SetCompetitor
-keywords: SetCompetitor(NSCompetitor)
+keywords: NSSaleEntity, GetCompetitor
 so.topic: reference
 ---
 
+List of all possible competitors. 
 
-List of all possible competitors.
-
-
-
-* **Competitor:** Competitor
-* **Returns:** Competitor
-
+**Parameter:** 
+ - **competitor** Competitor
 

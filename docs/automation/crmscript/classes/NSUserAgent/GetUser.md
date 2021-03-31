@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSUserAgent_GetUser_Integer_p_0
-description: NSUserAgent.GetUser(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetUser
+description: NSUser GetUser(Integer userId);
 intellisense: NSUserAgent.GetUser
-keywords: GetUser(Integer)
+keywords: NSUserAgent,GetUser
 so.topic: reference
 ---
 
+Gets a NSUser object.
 
-Gets a User object.
+**Parameters:**
+ - **userId** The identifier of the NSUser object
 
+**Returns:** NSUser
 
-
-* **userId:** The identifier of the User object
-* **Returns:** User
-
+```crmscript
+NSUserAgent agent;
+NSUser thing = agent.GetUser(123);
+```
 

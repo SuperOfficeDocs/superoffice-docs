@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMailMergeSettings_GetSynchronous
-description: NSMailMergeSettings.GetSynchronous()
+description: Bool NSMailMergeSettings.GetSynchronous()
 intellisense: NSMailMergeSettings.GetSynchronous
-keywords: GetSynchronous()
+keywords: NSMailMergeSettings, GetSynchronous
 so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
 
 

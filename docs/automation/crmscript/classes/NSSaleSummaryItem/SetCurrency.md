@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummaryItem_SetCurrency_String_p_0
-description: NSSaleSummaryItem.SetCurrency(String p_0)
+﻿---
+title: crmscript_ref_NSSaleSummaryItem_SetCurrency
+description: NSSaleSummaryItem.SetCurrency(String currency)
 intellisense: NSSaleSummaryItem.SetCurrency
-keywords: SetCurrency(String)
+keywords: NSSaleSummaryItem, GetCurrency
 so.topic: reference
 ---
 
-
 Currency the sale amount is in.
 
-
-
-* **Currency:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **currency** String
 

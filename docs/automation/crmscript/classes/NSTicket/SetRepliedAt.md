@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetRepliedAt_DateTime_p_0
-description: NSTicket.SetRepliedAt(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetRepliedAt
+description: NSTicket.SetRepliedAt(DateTime repliedAt)
 intellisense: NSTicket.SetRepliedAt
-keywords: SetRepliedAt(DateTime)
+keywords: NSTicket, GetRepliedAt
 so.topic: reference
 ---
 
-
 The datetime for when the ticket was replied to. I.e. the first external message added to the ticket.
 
-
-
-* **RepliedAt:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **repliedAt** DateTime
 

@@ -1,17 +1,16 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetRecaptchaMode
-description: NSFormEntity.GetRecaptchaMode()
+description: Integer NSFormEntity.GetRecaptchaMode()
 intellisense: NSFormEntity.GetRecaptchaMode
-sortOrder: 3793
-keywords: GetRecaptchaMode()
+keywords: NSFormEntity, GetRecaptchaMode
 so.topic: reference
 ---
 
-
 What is the state of the recaptcha configuration? This is a read-only member
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = NotAvailable 
+     - Enum: 1 = GlobalKeysExist 
+     - Enum: 2 = KeysNeeded 
 

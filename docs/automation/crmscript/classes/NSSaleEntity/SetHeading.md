@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetHeading_String_p_0
-description: NSSaleEntity.SetHeading(String p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetHeading
+description: NSSaleEntity.SetHeading(String heading)
 intellisense: NSSaleEntity.SetHeading
-keywords: SetHeading(String)
+keywords: NSSaleEntity, GetHeading
 so.topic: reference
 ---
 
-
 Sale heading (short description?)
 
-
-
-* **Heading:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **heading** String
 

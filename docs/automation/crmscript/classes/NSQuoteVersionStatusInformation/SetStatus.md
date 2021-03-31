@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSQuoteVersionStatusInformation_SetStatus_Integer_p_0
-description: NSQuoteVersionStatusInformation.SetStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionStatusInformation_SetStatus
+description: NSQuoteVersionStatusInformation.SetStatus(Integer status)
 intellisense: NSQuoteVersionStatusInformation.SetStatus
-keywords: SetStatus(Integer)
+keywords: NSQuoteVersionStatusInformation, GetStatus
 so.topic: reference
 ---
 
-
 Status information for the quote version.
 
-
-
-* **Status:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **status** Integer
+     - Enum: 0 = Ok 
+     - Enum: 1 = OkWithInfo 
+     - Enum: 2 = Warning 
+     - Enum: 3 = Error 
 

@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSRelationAgent_DeleteContactRelation_Integer_p_0
-description: NSRelationAgent.DeleteContactRelation(Integer p_0)
+﻿---
+title: crmscript_ref_NSRelationAgent_DeleteContactRelation
+description: Void DeleteContactRelation(Integer contactRelationEntityId)
 intellisense: NSRelationAgent.DeleteContactRelation
-keywords: DeleteContactRelation(Integer)
+keywords: NSRelationAgent,DeleteContactRelation
 so.topic: reference
 ---
 
-
 Deletes the spesified contact relation.
 
-
-
-* **contactRelationEntityId:** Relation to delete
-
-
+**Parameters:**
+ - **contactRelationEntityId** Relation to delete

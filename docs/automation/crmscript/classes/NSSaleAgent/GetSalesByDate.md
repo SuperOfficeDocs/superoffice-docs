@@ -1,20 +1,33 @@
----
-title: crmscript_ref_NSSaleAgent_GetSalesByDate_DateTime_p_0_DateTime_p_1_Integer_p_2_Integer_p_3
-description: NSSaleAgent.GetSalesByDate(DateTime p_0, DateTime p_1, Integer p_2, Integer p_3)
+﻿---
+title: crmscript_ref_NSSaleAgent_GetSalesByDate
+description: SaleArray GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
 intellisense: NSSaleAgent.GetSalesByDate
-keywords: GetSalesByDate(DateTime,DateTime,Integer,Integer)
+keywords: NSSaleAgent,GetSalesByDate
 so.topic: reference
 ---
 
-
 Returns all sales within a time period. The sales array can be limited by amount and status.
 
+**Parameters:**
+ - **fromDate** The beginning of the time interval.
+ - **toDate** The end of the time interval.
+ - **amountLimit** The amount limit in the local currency.  -1 means no amount limit
+ - **status** The sale status (Lost, Open, Sold, Unknown). SaleStatus.Unknown means no status filtering.
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Open 
+     - Enum: 2 = Sold 
+     - Enum: 3 = Lost 
+     - Enum: 4 = Stalled 
+     - Enum: 1000 = SaintAll 
 
+**Returns:** Array of sales.
 
-* **fromDate:** The beginning of the time interval.
-* **toDate:** The end of the time interval.
-* **amountLimit:** The amount limit in the local currency.  -1 means no amount limit
-* **status:** The sale status (Lost, Open, Sold, Unknown). SaleStatus.Unknown means no status filtering.
-* **Returns:** Array of sales.
-
+```crmscript
+NSSaleAgent agent;
+DateTime fromDate;
+DateTime toDate;
+Integer amountLimit;
+Integer status;
+SaleArray res = agent.GetSalesByDate(fromDate, toDate, amountLimit, status);
+```
 

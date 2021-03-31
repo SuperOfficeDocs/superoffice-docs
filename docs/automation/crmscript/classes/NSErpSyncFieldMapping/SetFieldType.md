@@ -1,25 +1,21 @@
----
-title: crmscript_ref_NSErpSyncFieldMapping_SetFieldType_Integer_p_0
-description: NSErpSyncFieldMapping.SetFieldType(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldMapping_SetFieldType
+description: NSErpSyncFieldMapping.SetFieldType(FieldMetadataType fieldType)
 intellisense: NSErpSyncFieldMapping.SetFieldType
-sortOrder: 3314
-keywords: SetFieldType(Integer)
+keywords: NSErpSyncFieldMapping, GetFieldType
 so.topic: reference
 ---
 
 Field type
 
-* Checkbox=0
-* Text=1
-* Password=2
-* Integer=3
-* Double=4
-* List=5
-* Date=6
-* Label=99	
-
-* **p0:** Integer
-* **Returns:** Void
-
-
+**Parameter:** 
+ - **fieldType** FieldMetadataType
+     - Enum: 0 = Checkbox 
+     - Enum: 1 = Text 
+     - Enum: 2 = Password 
+     - Enum: 3 = Integer 
+     - Enum: 4 = Double 
+     - Enum: 5 = List 
+     - Enum: 6 = Date 
+     - Enum: 99 = Label 
 

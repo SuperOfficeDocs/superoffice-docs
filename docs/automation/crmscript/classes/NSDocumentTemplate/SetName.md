@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplate_SetName_String_p_0
-description: NSDocumentTemplate.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplate_SetName
+description: NSDocumentTemplate.SetName(String name)
 intellisense: NSDocumentTemplate.SetName
-sortOrder: 2641
-keywords: SetName(String)
+keywords: NSDocumentTemplate, GetName
 so.topic: reference
 ---
 
-
 The list item
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

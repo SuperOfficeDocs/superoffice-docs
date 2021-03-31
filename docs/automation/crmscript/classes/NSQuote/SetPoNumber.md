@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuote_SetPoNumber_String_p_0
-description: NSQuote.SetPoNumber(String p_0)
+﻿---
+title: crmscript_ref_NSQuote_SetPoNumber
+description: NSQuote.SetPoNumber(String poNumber)
 intellisense: NSQuote.SetPoNumber
-keywords: SetPoNumber(String)
+keywords: NSQuote, GetPoNumber
 so.topic: reference
 ---
 
-
 Customer's Purchase order number
 
-
-
-* **PoNumber:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **poNumber** String
 

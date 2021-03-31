@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoRelation_SetTargetTable_String_p_0
-description: NSFieldInfoRelation.SetTargetTable(String p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoRelation_SetTargetTable
+description: NSFieldInfoRelation.SetTargetTable(String targetTable)
 intellisense: NSFieldInfoRelation.SetTargetTable
-sortOrder: 3543
-keywords: SetTargetTable(String)
+keywords: NSFieldInfoRelation, GetTargetTable
 so.topic: reference
 ---
 
+Name of target table: 'contact', 'y_equipment'
 
-Name of target table: 'contact', 'y\_equipment'
-
-
-
-* **TargetTable:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **targetTable** String
 

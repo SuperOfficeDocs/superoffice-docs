@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSQuoteAgent_HasConnections
-description: NSQuoteAgent.HasConnections()
+description: PluginResponse HasConnections()
 intellisense: NSQuoteAgent.HasConnections
-keywords: HasConnections()
+keywords: NSQuoteAgent,HasConnections
 so.topic: reference
 ---
-
 
 Whether or not the system has any connections available for this user.
 
 
+**Returns:** The response
 
-* **Returns:** The response
-
+```crmscript
+NSQuoteAgent agent;
+PluginResponse res = agent.HasConnections();
+```
 

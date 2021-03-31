@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailSOInfo_SetAppointmentId_Integer_p_0
-description: NSEMailSOInfo.SetAppointmentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailSOInfo_SetAppointmentId
+description: NSEMailSOInfo.SetAppointmentId(Integer appointmentId)
 intellisense: NSEMailSOInfo.SetAppointmentId
-sortOrder: 3052
-keywords: SetAppointmentId(Integer)
+keywords: NSEMailSOInfo, GetAppointmentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **AppointmentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **appointmentId** Integer
 

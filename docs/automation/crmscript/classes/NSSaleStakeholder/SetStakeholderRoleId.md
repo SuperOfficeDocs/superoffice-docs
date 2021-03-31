@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetStakeholderRoleId_Integer_p_0
-description: NSSaleStakeholder.SetStakeholderRoleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetStakeholderRoleId
+description: NSSaleStakeholder.SetStakeholderRoleId(Integer stakeholderRoleId)
 intellisense: NSSaleStakeholder.SetStakeholderRoleId
-keywords: SetStakeholderRoleId(Integer)
+keywords: NSSaleStakeholder, GetStakeholderRoleId
 so.topic: reference
 ---
 
-
 Stakeholde role list id - Primary key
 
-
-
-* **StakeholderRoleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **stakeholderRoleId** Integer
 

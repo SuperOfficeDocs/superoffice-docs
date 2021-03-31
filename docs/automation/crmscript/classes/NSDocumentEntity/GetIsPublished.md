@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetIsPublished
-description: NSDocumentEntity.GetIsPublished()
+description: Boolean NSDocumentEntity.GetIsPublished()
 intellisense: NSDocumentEntity.GetIsPublished
-sortOrder: 2551
-keywords: GetIsPublished()
+keywords: NSDocumentEntity, GetIsPublished
 so.topic: reference
 ---
 
+Should this be published and visible to strangers?
 
-Get the Publication is published field
-
+**Returns:** Boolean
 

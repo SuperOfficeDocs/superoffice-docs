@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUser_SetLastlogout_DateTime_p_0
-description: NSUser.SetLastlogout(DateTime p_0)
+﻿---
+title: crmscript_ref_NSUser_SetLastlogout
+description: NSUser.SetLastlogout(DateTime lastlogout)
 intellisense: NSUser.SetLastlogout
-keywords: SetLastlogout(DateTime)
+keywords: NSUser, GetLastlogout
 so.topic: reference
 ---
 
-
 Last logout date
 
-
-
-* **Lastlogout:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **lastlogout** DateTime
 

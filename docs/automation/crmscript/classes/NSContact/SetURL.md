@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContact_SetURL_String_p_0
-description: NSContact.SetURL(String p_0)
+﻿---
+title: crmscript_ref_NSContact_SetURL
+description: NSContact.SetURL(String uRL)
 intellisense: NSContact.SetURL
-sortOrder: 1762
-keywords: SetURL(String)
+keywords: NSContact, GetURL
 so.topic: reference
 ---
 
-
 The internet address to this contact
 
-
-
-* **URL:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **uRL** String
 

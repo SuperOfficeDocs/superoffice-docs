@@ -1,18 +1,12 @@
----
-title: crmscript_ref_NSAppointmentAgent_CleanUpBookingDeleted_Integer__p_0
-description: NSAppointmentAgent.CleanUpBookingDeleted(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_CleanUpBookingDeleted
+description: Integer CleanUpBookingDeleted(IntegerArray appointmentIds)
 intellisense: NSAppointmentAgent.CleanUpBookingDeleted
-sortOrder: 828
-keywords: CleanUpBookingDeleted(Integer[])
+keywords: NSAppointmentAgent,CleanUpBookingDeleted
 so.topic: reference
 ---
 
+Deletes all appointments(within the appointmentIds array) with status BookingDeleted.
 
-Deletes all `appointments(within the appointmentIds array)` with status BookingDeleted.
-
-
-
-* **appointmentIds
-**
-
-
+**Parameters:**
+ - **appointmentIds** 

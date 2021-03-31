@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAssociate_GetFullName
-description: NSAssociate.GetFullName()
+description: String NSAssociate.GetFullName()
 intellisense: NSAssociate.GetFullName
-sortOrder: 1262
-keywords: GetFullName()
+keywords: NSAssociate, GetFullName
 so.topic: reference
 ---
 
-
 The associate's culture formatted fullname (firstname, middleName and lastname)
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

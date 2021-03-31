@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPersonMrmrs_String_p_0
-description: NSParticipantSyncData.SetPersonMrmrs(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPersonMrmrs
+description: NSParticipantSyncData.SetPersonMrmrs(String personMrmrs)
 intellisense: NSParticipantSyncData.SetPersonMrmrs
-keywords: SetPersonMrmrs(String)
+keywords: NSParticipantSyncData, GetPersonMrmrs
 so.topic: reference
 ---
 
+e.g. Mrs   sex_title
 
-e.g. Mrs   sex\_title
-
-
-
-* **PersonMrmrs:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personMrmrs** String
 

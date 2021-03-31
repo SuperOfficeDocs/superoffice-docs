@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetRecurrence_NSRecurrenceInfo_p_0
-description: NSAppointmentEntity.SetRecurrence(NSRecurrenceInfo p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetRecurrence
+description: NSAppointmentEntity.SetRecurrence(RecurrenceInfo recurrence)
 intellisense: NSAppointmentEntity.SetRecurrence
-sortOrder: 1026
-keywords: SetRecurrence(NSRecurrenceInfo)
+keywords: NSAppointmentEntity, GetRecurrence
 so.topic: reference
 ---
 
-
 The appointment recurrence.
 
-
-
-* **Recurrence:** RecurrenceInfo
-* **Returns:** RecurrenceInfo
-
+**Parameter:** 
+ - **recurrence** RecurrenceInfo
 

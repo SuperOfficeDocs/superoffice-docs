@@ -1,16 +1,21 @@
----
-title: crmscript_ref_NSNavigatorAgent_GetNavigatorCompanyList_Integer__p_0
-description: NSNavigatorAgent.GetNavigatorCompanyList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSNavigatorAgent_GetNavigatorCompanyList
+description: NSNavigatorCompany[] GetNavigatorCompanyList(Integer[]  navigatorCompanyIds);
 intellisense: NSNavigatorAgent.GetNavigatorCompanyList
-keywords: GetNavigatorCompanyList(Integer[])
+keywords: NSNavigatorAgent,GetNavigatorCompanyList
 so.topic: reference
 ---
 
-Gets an array of NavigatorCompany objects.
+Gets a vector of NavigatorCompany objects.
 
+**Parameters:**
+ - **navigatorCompanyIds** The identifiers of the NSNavigatorCompany objects
 
+**Returns:** Vector of NSNavigatorCompany objects
 
-* **p0:** IntegerArray of identifiers for NavigatorCompany
-* **Returns:** Array of NSNavigatorCompany
-
+```crmscript
+Integer[] ids;
+NSNavigatorAgent agent;
+agent.GetNavigatorCompanyList(ids);
+```
 

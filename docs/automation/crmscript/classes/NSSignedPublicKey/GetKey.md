@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSignedPublicKey_GetKey
-description: NSSignedPublicKey.GetKey()
+description: DSAParameters NSSignedPublicKey.GetKey()
 intellisense: NSSignedPublicKey.GetKey
-keywords: GetKey()
+keywords: NSSignedPublicKey, GetKey
 so.topic: reference
 ---
 
-
 Public key held by module owner.
 
-
-
-* **Returns:** DSAParameters
+**Returns:** DSAParameters
 
 

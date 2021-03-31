@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetProjectType_Integer_p_0
-description: NSListAgent.GetProjectType(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetProjectType
+description: NSProjectType GetProjectType(Integer projectTypeId);
 intellisense: NSListAgent.GetProjectType
-keywords: GetProjectType(Integer)
+keywords: NSListAgent,GetProjectType
 so.topic: reference
 ---
 
+Gets a NSProjectType object.
 
-Gets a ProjectType object.
+**Parameters:**
+ - **projectTypeId** The identifier of the NSProjectType object
 
+**Returns:** NSProjectType
 
-
-* **projectTypeId:** The identifier of the ProjectType object
-* **Returns:** ProjectType
-
+```crmscript
+NSListAgent agent;
+NSProjectType thing = agent.GetProjectType(123);
+```
 

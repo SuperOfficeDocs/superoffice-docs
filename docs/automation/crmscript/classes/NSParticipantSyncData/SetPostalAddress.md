@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPostalAddress_NSAddressSyncData_p_0
-description: NSParticipantSyncData.SetPostalAddress(NSAddressSyncData p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPostalAddress
+description: NSParticipantSyncData.SetPostalAddress(AddressSyncData postalAddress)
 intellisense: NSParticipantSyncData.SetPostalAddress
-keywords: SetPostalAddress(NSAddressSyncData)
+keywords: NSParticipantSyncData, GetPostalAddress
 so.topic: reference
 ---
 
 
-* **PostalAddress:** AddressSyncData
-* **Returns:** AddressSyncData
 
+**Parameter:** 
+ - **postalAddress** AddressSyncData
 

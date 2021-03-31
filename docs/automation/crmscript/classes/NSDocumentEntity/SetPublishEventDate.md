@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDocumentEntity_SetPublishEventDate_DateTime_p_0
-description: NSDocumentEntity.SetPublishEventDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetPublishEventDate
+description: NSDocumentEntity.SetPublishEventDate(DateTime publishDate)
 intellisense: NSDocumentEntity.SetPublishEventDate
-sortOrder: 2607
-keywords: SetPublishEventDate(DateTime)
+keywords: NSDocumentEntity, SetPublishEventDate
 so.topic: reference
 ---
 
+Publish event date.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishDate** DateTime.
 

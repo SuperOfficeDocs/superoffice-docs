@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSProjectAgent_GetProject_Integer_p_0
-description: NSProjectAgent.GetProject(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_GetProject
+description: NSProject GetProject(Integer projectId);
 intellisense: NSProjectAgent.GetProject
-keywords: GetProject(Integer)
+keywords: NSProjectAgent,GetProject
 so.topic: reference
 ---
 
+Gets a NSProject object.
 
-Gets a Project object.
+**Parameters:**
+ - **projectId** The identifier of the NSProject object
 
+**Returns:** NSProject
 
-
-* **projectId:** The identifier of the Project object
-* **Returns:** Project
-
+```crmscript
+NSProjectAgent agent;
+NSProject thing = agent.GetProject(123);
+```
 

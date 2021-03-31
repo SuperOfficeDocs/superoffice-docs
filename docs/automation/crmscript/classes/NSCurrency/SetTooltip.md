@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSCurrency_SetTooltip_String_p_0
-description: NSCurrency.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSCurrency_SetTooltip
+description: NSCurrency.SetTooltip(String tooltip)
 intellisense: NSCurrency.SetTooltip
-sortOrder: 2175
-keywords: SetTooltip(String)
+keywords: NSCurrency, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

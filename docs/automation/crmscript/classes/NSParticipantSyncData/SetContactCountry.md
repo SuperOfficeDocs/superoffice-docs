@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetContactCountry_String_p_0
-description: NSParticipantSyncData.SetContactCountry(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetContactCountry
+description: NSParticipantSyncData.SetContactCountry(String contactCountry)
 intellisense: NSParticipantSyncData.SetContactCountry
-keywords: SetContactCountry(String)
+keywords: NSParticipantSyncData, GetContactCountry
 so.topic: reference
 ---
 
 
-* **ContactCountry:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **contactCountry** String
 

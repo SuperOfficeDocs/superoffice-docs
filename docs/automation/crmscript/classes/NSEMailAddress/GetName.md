@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAddress_GetName
-description: NSEMailAddress.GetName()
+description: String NSEMailAddress.GetName()
 intellisense: NSEMailAddress.GetName
-sortOrder: 2769
-keywords: GetName()
+keywords: NSEMailAddress, GetName
 so.topic: reference
 ---
 
-
 The name on the email address
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

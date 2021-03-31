@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetSoldTotalBaseCurrency_Float_p_0
-description: NSSaleSummary.SetSoldTotalBaseCurrency(Float p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetSoldTotalBaseCurrency
+description: NSSaleSummary.SetSoldTotalBaseCurrency(Float soldTotalBaseCurrency)
 intellisense: NSSaleSummary.SetSoldTotalBaseCurrency
-keywords: SetSoldTotalBaseCurrency(Float)
+keywords: NSSaleSummary, GetSoldTotalBaseCurrency
 so.topic: reference
 ---
 
-
 Summed amount for all sold within the period in default currency for the installation
 
-
-
-* **SoldTotalBaseCurrency:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **soldTotalBaseCurrency** Float
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAudienceLayoutEntity_SetInstanceLayout_String_p_0
-description: NSAudienceLayoutEntity.SetInstanceLayout(String p_0)
+﻿---
+title: crmscript_ref_NSAudienceLayoutEntity_SetInstanceLayout
+description: NSAudienceLayoutEntity.SetInstanceLayout(String instanceLayout)
 intellisense: NSAudienceLayoutEntity.SetInstanceLayout
-sortOrder: 1345
-keywords: SetInstanceLayout(String)
+keywords: NSAudienceLayoutEntity, GetInstanceLayout
 so.topic: reference
 ---
 
-
 The web part layout as a serialized string
 
-
-
-* **InstanceLayout:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **instanceLayout** String
 

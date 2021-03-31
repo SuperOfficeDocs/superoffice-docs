@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProject_SetAssociateId_Integer_p_0
-description: NSProject.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProject_SetAssociateId
+description: NSProject.SetAssociateId(Integer associateId)
 intellisense: NSProject.SetAssociateId
-keywords: SetAssociateId(Integer)
+keywords: NSProject, GetAssociateId
 so.topic: reference
 ---
 
-
 The project owner id (associate id)
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

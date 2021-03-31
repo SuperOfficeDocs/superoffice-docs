@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebhook_SetRegistered_DateTime_p_0
-description: NSWebhook.SetRegistered(DateTime p_0)
+﻿---
+title: crmscript_ref_NSWebhook_SetRegistered
+description: NSWebhook.SetRegistered(DateTime registered)
 intellisense: NSWebhook.SetRegistered
-keywords: SetRegistered(DateTime)
+keywords: NSWebhook, GetRegistered
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Registered:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **registered** DateTime
 

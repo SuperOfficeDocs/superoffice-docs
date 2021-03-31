@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetProjectId_Integer_p_0
-description: NSSale.SetProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSale_SetProjectId
+description: NSSale.SetProjectId(Integer projectId)
 intellisense: NSSale.SetProjectId
-keywords: SetProjectId(Integer)
+keywords: NSSale, GetProjectId
 so.topic: reference
 ---
 
-
 Optional project reference
 
-
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectId** Integer
 

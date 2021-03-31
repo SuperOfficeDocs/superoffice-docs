@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentPurpose_GetDeleted
-description: NSConsentPurpose.GetDeleted()
+description: Bool NSConsentPurpose.GetDeleted()
 intellisense: NSConsentPurpose.GetDeleted
-sortOrder: 1674
-keywords: GetDeleted()
+keywords: NSConsentPurpose, GetDeleted
 so.topic: reference
 ---
 
-
 true if the ConsentPurpose is deleted
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

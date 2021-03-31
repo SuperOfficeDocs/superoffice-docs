@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldHeight_Integer_p_0
-description: NSUserDefinedFieldInfo.SetFieldHeight(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldHeight
+description: NSUserDefinedFieldInfo.SetFieldHeight(Integer fieldHeight)
 intellisense: NSUserDefinedFieldInfo.SetFieldHeight
-keywords: SetFieldHeight(Integer)
+keywords: NSUserDefinedFieldInfo, GetFieldHeight
 so.topic: reference
 ---
 
-
 field height in pixels, 0 = 'enough' (from font)
 
-
-
-* **FieldHeight:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **fieldHeight** Integer
 

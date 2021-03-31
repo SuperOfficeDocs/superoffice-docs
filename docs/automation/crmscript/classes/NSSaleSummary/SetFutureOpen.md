@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetFutureOpen_Integer_p_0
-description: NSSaleSummary.SetFutureOpen(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetFutureOpen
+description: NSSaleSummary.SetFutureOpen(Integer futureOpen)
 intellisense: NSSaleSummary.SetFutureOpen
-keywords: SetFutureOpen(Integer)
+keywords: NSSaleSummary, GetFutureOpen
 so.topic: reference
 ---
 
-
 Number of all Future Pipe/All open sales with date after the period
 
-
-
-* **FutureOpen:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **futureOpen** Integer
 

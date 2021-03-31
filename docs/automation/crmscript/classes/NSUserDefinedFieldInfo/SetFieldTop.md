@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldTop_Integer_p_0
-description: NSUserDefinedFieldInfo.SetFieldTop(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldTop
+description: NSUserDefinedFieldInfo.SetFieldTop(Integer fieldTop)
 intellisense: NSUserDefinedFieldInfo.SetFieldTop
-keywords: SetFieldTop(Integer)
+keywords: NSUserDefinedFieldInfo, GetFieldTop
 so.topic: reference
 ---
 
-
 Y pixel coordinate of field
 
-
-
-* **FieldTop:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **fieldTop** Integer
 

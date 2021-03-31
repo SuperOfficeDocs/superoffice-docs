@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSListEntity_SetListType_String_p_0
-description: NSListEntity.SetListType(String p_0)
+﻿---
+title: crmscript_ref_NSListEntity_SetListType
+description: NSListEntity.SetListType(String listType)
 intellisense: NSListEntity.SetListType
-keywords: SetListType(String)
+keywords: NSListEntity, GetListType
 so.topic: reference
 ---
 
-
 The type of this list, often indicated by the database name, but not necessarily
 
-
-
-* **ListType:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **listType** String
 

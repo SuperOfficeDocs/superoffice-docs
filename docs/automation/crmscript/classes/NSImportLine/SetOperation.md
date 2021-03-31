@@ -1,18 +1,25 @@
----
-title: crmscript_ref_NSImportLine_SetOperation_Integer_p_0
-description: NSImportLine.SetOperation(Integer p_0)
+﻿---
+title: crmscript_ref_NSImportLine_SetOperation
+description: NSImportLine.SetOperation(Integer operation)
 intellisense: NSImportLine.SetOperation
-sortOrder: 3980
-keywords: SetOperation(Integer)
+keywords: NSImportLine, GetOperation
 so.topic: reference
 ---
 
-
 Which operation will be used? This is a read-only property
 
-
-
-* **Operation:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **operation** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = PersonAdded 
+     - Enum: 2 = PersonUpdated 
+     - Enum: 4 = PersonNoChange 
+     - Enum: 8 = ContactAdded 
+     - Enum: 16 = ContactUpdated 
+     - Enum: 32 = ContactNoChange 
+     - Enum: 64 = ProductAdded 
+     - Enum: 128 = ProductUpdated 
+     - Enum: 256 = ProductNoChange 
+     - Enum: 512 = Obs 
+     - Enum: 1024 = ObsERPDuplicate 
 

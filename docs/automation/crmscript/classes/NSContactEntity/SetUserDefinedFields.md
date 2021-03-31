@@ -1,14 +1,22 @@
----
-title: crmscript_ref_NSContactEntity_SetUserDefinedFields_Map_p_0
-description: NSContactEntity.SetUserDefinedFields(Map p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetUserDefinedFields
+description: NSContactEntity.SetUserDefinedFields(Map udefs)
 intellisense: NSContactEntity.SetUserDefinedFields
-sortOrder: 1916
-keywords: SetUserDefinedFields(Map)
+keywords: NSContactEntity, SetUserDefinedFields
 so.topic: reference
 ---
 
+Set the user-defined fields as a map.
 
-* **fields:** Map
-* **Returns:** Void
+**Parameter:** 
+ - **udefs** Map user defined field values encoded as strings.
 
+```crmscript
+NSContactEntity thing;
+Map udefs;
+udefs["SuperOffice:1"] = "[I:123]";
+udefs["SuperOffice:1"] = "123"; // this will also work, but beware of decimal point variations in different languages
+udefs["custom.progid"] = "foobar";
+thing.SetUserDefinedFields(udefs);
+```
 

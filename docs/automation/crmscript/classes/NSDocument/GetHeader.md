@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocument_GetHeader
-description: NSDocument.GetHeader()
+description: String NSDocument.GetHeader()
 intellisense: NSDocument.GetHeader
-sortOrder: 2440
-keywords: GetHeader()
+keywords: NSDocument, GetHeader
 so.topic: reference
 ---
 
-
 Visible document name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

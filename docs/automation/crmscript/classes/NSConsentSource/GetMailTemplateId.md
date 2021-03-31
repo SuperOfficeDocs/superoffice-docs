@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentSource_GetMailTemplateId
-description: NSConsentSource.GetMailTemplateId()
+description: Integer NSConsentSource.GetMailTemplateId()
 intellisense: NSConsentSource.GetMailTemplateId
-sortOrder: 1704
-keywords: GetMailTemplateId()
+keywords: NSConsentSource, GetMailTemplateId
 so.topic: reference
 ---
 
-
 The mail template to use when automatically sending emails to new persons created with this consent source.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

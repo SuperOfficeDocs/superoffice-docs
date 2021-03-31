@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSViewStateAgent_GetHistory_Integer_p_0
-description: NSViewStateAgent.GetHistory(Integer p_0)
+﻿---
+title: crmscript_ref_NSViewStateAgent_GetHistory
+description: NSHistory GetHistory(Integer historyId);
 intellisense: NSViewStateAgent.GetHistory
-keywords: GetHistory(Integer)
+keywords: NSViewStateAgent,GetHistory
 so.topic: reference
 ---
 
+Gets a NSHistory object.
 
-Gets a History object.
+**Parameters:**
+ - **historyId** The identifier of the NSHistory object
 
+**Returns:** NSHistory
 
-
-* **historyId:** The identifier of the History object
-* **Returns:** History
-
+```crmscript
+NSViewStateAgent agent;
+NSHistory thing = agent.GetHistory(123);
+```
 

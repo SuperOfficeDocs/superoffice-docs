@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetPostitTextId_Integer_p_0
-description: NSSelectionEntity.SetPostitTextId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetPostitTextId
+description: NSSelectionEntity.SetPostitTextId(Integer postitTextId)
 intellisense: NSSelectionEntity.SetPostitTextId
-keywords: SetPostitTextId(Integer)
+keywords: NSSelectionEntity, GetPostitTextId
 so.topic: reference
 ---
 
-
 Postit text record id.
 
-
-
-* **PostitTextId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **postitTextId** Integer
 

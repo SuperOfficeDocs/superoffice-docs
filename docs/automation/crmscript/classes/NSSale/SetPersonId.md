@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetPersonId_Integer_p_0
-description: NSSale.SetPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSale_SetPersonId
+description: NSSale.SetPersonId(Integer personId)
 intellisense: NSSale.SetPersonId
-keywords: SetPersonId(Integer)
+keywords: NSSale, GetPersonId
 so.topic: reference
 ---
 
-
 The sale's contact persons id
 
-
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **personId** Integer
 

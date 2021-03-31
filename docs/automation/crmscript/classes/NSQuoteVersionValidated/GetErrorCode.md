@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersionValidated_GetErrorCode
-description: NSQuoteVersionValidated.GetErrorCode()
+description: String NSQuoteVersionValidated.GetErrorCode()
 intellisense: NSQuoteVersionValidated.GetErrorCode
-keywords: GetErrorCode()
+keywords: NSQuoteVersionValidated, GetErrorCode
 so.topic: reference
 ---
 
-
 An error code, if available.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPerson_GetActiveInterests
-description: NSPerson.GetActiveInterests()
+description: Integer NSPerson.GetActiveInterests()
 intellisense: NSPerson.GetActiveInterests
-keywords: GetActiveInterests()
+keywords: NSPerson, GetActiveInterests
 so.topic: reference
 ---
 
+Number of records in pintr table; select count(*) from pintr pi where pi.person_id = this.person_id == activeInterests is always true
 
-Number of records in pintr table; select count(*) from pintr pi where pi.person\_id = this.person\_id == activeInterests is always true
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

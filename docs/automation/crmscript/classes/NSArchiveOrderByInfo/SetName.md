@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveOrderByInfo_SetName_String_p_0
-description: NSArchiveOrderByInfo.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSArchiveOrderByInfo_SetName
+description: NSArchiveOrderByInfo.SetName(String name)
 intellisense: NSArchiveOrderByInfo.SetName
-sortOrder: 1199
-keywords: SetName(String)
+keywords: NSArchiveOrderByInfo, GetName
 so.topic: reference
 ---
 
-
 Programmatic name of the column to order by, semantically the same as the ArchiveColumnInfo.Name.
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

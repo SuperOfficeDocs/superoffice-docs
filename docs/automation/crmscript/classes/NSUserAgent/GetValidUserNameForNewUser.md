@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSUserAgent_GetValidUserNameForNewUser_NSUser_p_0
-description: NSUserAgent.GetValidUserNameForNewUser(NSUser p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetValidUserNameForNewUser
+description: String GetValidUserNameForNewUser(User user)
 intellisense: NSUserAgent.GetValidUserNameForNewUser
-keywords: GetValidUserNameForNewUser(NSUser)
+keywords: NSUserAgent,GetValidUserNameForNewUser
 so.topic: reference
 ---
 
-
 Generates a valid username for an unsaved user
 
-
-
-* **user**
-
-
+**Parameters:**
+ - **user** 

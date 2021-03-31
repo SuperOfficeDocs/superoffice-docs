@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContact_GetURL
-description: NSContact.GetURL()
+description: String NSContact.GetURL()
 intellisense: NSContact.GetURL
-sortOrder: 1739
-keywords: GetURL()
+keywords: NSContact, GetURL
 so.topic: reference
 ---
 
-
 The internet address to this contact
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

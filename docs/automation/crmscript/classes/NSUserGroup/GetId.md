@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserGroup_GetId
-description: NSUserGroup.GetId()
+description: Integer NSUserGroup.GetId()
 intellisense: NSUserGroup.GetId
-keywords: GetId()
+keywords: NSUserGroup, GetId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

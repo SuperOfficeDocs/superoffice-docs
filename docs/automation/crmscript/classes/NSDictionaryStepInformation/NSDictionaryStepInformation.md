@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDictionaryStepInformation
 description: NSDictionaryStepInformation
 intellisense: Void.NSDictionaryStepInformation
-sortOrder: 2421
+keywords: NSDictionaryStepInformation
 so.topic: reference
 ---
 
-
 Information about a dictionary step
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonSummary_SetSales_NSSaleSummaryItem__p_0
-description: NSPersonSummary.SetSales(NSSaleSummaryItem[] p_0)
+﻿---
+title: crmscript_ref_NSPersonSummary_SetSales
+description: NSPersonSummary.SetSales(SaleSummaryItemArray sales)
 intellisense: NSPersonSummary.SetSales
-keywords: SetSales(NSSaleSummaryItem[])
+keywords: NSPersonSummary, GetSales
 so.topic: reference
 ---
 
-
 Recent sales on person
 
-
-
-* **Sales:** SaleSummaryItemArray
-* **Returns:** SaleSummaryItemArray
-
+**Parameter:** 
+ - **sales** SaleSummaryItemArray
 

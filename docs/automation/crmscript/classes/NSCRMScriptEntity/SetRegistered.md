@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCRMScriptEntity_SetRegistered_DateTime_p_0
-description: NSCRMScriptEntity.SetRegistered(DateTime p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptEntity_SetRegistered
+description: NSCRMScriptEntity.SetRegistered(DateTime registered)
 intellisense: NSCRMScriptEntity.SetRegistered
-sortOrder: 2143
-keywords: SetRegistered(DateTime)
+keywords: NSCRMScriptEntity, GetRegistered
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Registered:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **registered** DateTime
 

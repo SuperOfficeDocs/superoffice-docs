@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointmentEntity_SetRank_Integer_p_0
-description: NSSuggestedAppointmentEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointmentEntity_SetRank
+description: NSSuggestedAppointmentEntity.SetRank(Integer rank)
 intellisense: NSSuggestedAppointmentEntity.SetRank
-keywords: SetRank(Integer)
+keywords: NSSuggestedAppointmentEntity, GetRank
 so.topic: reference
 ---
 
-
 Rank, controls rank of non-instantiated items in Guide
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetSubject
-description: NSEMailEntity.GetSubject()
+description: String NSEMailEntity.GetSubject()
 intellisense: NSEMailEntity.GetSubject
-sortOrder: 2971
-keywords: GetSubject()
+keywords: NSEMailEntity, GetSubject
 so.topic: reference
 ---
 
-
 Subject of the e-mail
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

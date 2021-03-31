@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStageEntity_SetProbability_Integer_p_0
-description: NSSaleStageEntity.SetProbability(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleStageEntity_SetProbability
+description: NSSaleStageEntity.SetProbability(Integer probability)
 intellisense: NSSaleStageEntity.SetProbability
-keywords: SetProbability(Integer)
+keywords: NSSaleStageEntity, GetProbability
 so.topic: reference
 ---
 
-
 The numeric probability of the sale
 
-
-
-* **Probability:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **probability** Integer
 

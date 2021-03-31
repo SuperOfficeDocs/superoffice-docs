@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMessageDeliveryStatus_SetStatusDescription_String_p_0
-description: NSMessageDeliveryStatus.SetStatusDescription(String p_0)
+﻿---
+title: crmscript_ref_NSMessageDeliveryStatus_SetStatusDescription
+description: NSMessageDeliveryStatus.SetStatusDescription(String statusDescription)
 intellisense: NSMessageDeliveryStatus.SetStatusDescription
-keywords: SetStatusDescription(String)
+keywords: NSMessageDeliveryStatus, GetStatusDescription
 so.topic: reference
 ---
 
-
 String describing the current message status.
 
-
-
-* **StatusDescription:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **statusDescription** String
 

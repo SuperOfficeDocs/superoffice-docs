@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEntity_SetImageDescription_String_p_0
-description: NSProjectEntity.SetImageDescription(String p_0)
+﻿---
+title: crmscript_ref_NSProjectEntity_SetImageDescription
+description: NSProjectEntity.SetImageDescription(String imageDescription)
 intellisense: NSProjectEntity.SetImageDescription
-keywords: SetImageDescription(String)
+keywords: NSProjectEntity, GetImageDescription
 so.topic: reference
 ---
 
-
 Description of the project image if it exists. (This is the image that is displayed in the CRM client)
 
-
-
-* **ImageDescription:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **imageDescription** String
 

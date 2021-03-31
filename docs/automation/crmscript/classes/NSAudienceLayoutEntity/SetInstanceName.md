@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAudienceLayoutEntity_SetInstanceName_String_p_0
-description: NSAudienceLayoutEntity.SetInstanceName(String p_0)
+﻿---
+title: crmscript_ref_NSAudienceLayoutEntity_SetInstanceName
+description: NSAudienceLayoutEntity.SetInstanceName(String instanceName)
 intellisense: NSAudienceLayoutEntity.SetInstanceName
-sortOrder: 1346
-keywords: SetInstanceName(String)
+keywords: NSAudienceLayoutEntity, GetInstanceName
 so.topic: reference
 ---
 
-
 Name of the layout instance
 
-
-
-* **InstanceName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **instanceName** String
 

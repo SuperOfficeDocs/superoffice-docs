@@ -1,24 +1,23 @@
----
-title: crmscript_ref_NSQuoteVersion_SetState_Integer_p_0
-description: NSQuoteVersion.SetState(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetState
+description: NSQuoteVersion.SetState(QuoteVersionState state)
 intellisense: NSQuoteVersion.SetState
-keywords: SetState(Integer)
+keywords: NSQuoteVersion, GetState
 so.topic: reference
 ---
 
 Current state of this quote version.
 
-* Unknown=0
-* Draft=1
-* DraftNotCalculated=2
-* DraftNeedsApproval=3
-* DraftApproved=4
-* DraftNotApproved=5
-* Sent=6
-* Archived=7
-* Lost=8
-* Sold=9
-
-* **p_0:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **state** QuoteVersionState
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Draft 
+     - Enum: 2 = DraftNotCalculated 
+     - Enum: 3 = DraftNeedsApproval 
+     - Enum: 4 = DraftApproved 
+     - Enum: 5 = DraftNotApproved 
+     - Enum: 6 = Sent 
+     - Enum: 7 = Archived 
+     - Enum: 8 = Lost 
+     - Enum: 9 = Sold 
 

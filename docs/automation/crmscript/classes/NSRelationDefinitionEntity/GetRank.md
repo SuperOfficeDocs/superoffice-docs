@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSRelationDefinitionEntity_GetRank
-description: NSRelationDefinitionEntity.GetRank()
+description: Integer NSRelationDefinitionEntity.GetRank()
 intellisense: NSRelationDefinitionEntity.GetRank
-keywords: GetRank()
+keywords: NSRelationDefinitionEntity, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

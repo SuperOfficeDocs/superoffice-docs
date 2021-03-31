@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentSource_GetConsentSourceId
-description: NSConsentSource.GetConsentSourceId()
+description: Integer NSConsentSource.GetConsentSourceId()
 intellisense: NSConsentSource.GetConsentSourceId
-sortOrder: 1703
-keywords: GetConsentSourceId()
+keywords: NSConsentSource, GetConsentSourceId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

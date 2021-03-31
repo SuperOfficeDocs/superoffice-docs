@@ -1,11 +1,10 @@
----
+﻿---
 title: crmscript_ref_NSMessagingAgent_GetPlugins
-description: NSMessagingAgent.GetPlugins()
+description: ProviderInfoArray GetPlugins()
 intellisense: NSMessagingAgent.GetPlugins
-keywords: GetPlugins()
+keywords: NSMessagingAgent,GetPlugins
 so.topic: reference
 ---
-
 
 
 

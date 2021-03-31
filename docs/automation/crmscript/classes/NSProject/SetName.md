@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProject_SetName_String_p_0
-description: NSProject.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSProject_SetName
+description: NSProject.SetName(String name)
 intellisense: NSProject.SetName
-keywords: SetName(String)
+keywords: NSProject, GetName
 so.topic: reference
 ---
 
-
 Project name
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

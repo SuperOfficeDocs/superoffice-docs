@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetLagTime_TimeSpan_p_0
-description: NSAppointmentEntity.SetLagTime(TimeSpan p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetLagTime
+description: NSAppointmentEntity.SetLagTime(TimeSpan lagTime)
 intellisense: NSAppointmentEntity.SetLagTime
-sortOrder: 1011
-keywords: SetLagTime(TimeSpan)
+keywords: NSAppointmentEntity, GetLagTime
 so.topic: reference
 ---
 
-
 as leadtime, but after the end - time blocked for travel etc.
 
-
-
-* **LagTime:** TimeSpan
-* **Returns:** TimeSpan
-
+**Parameter:** 
+ - **lagTime** TimeSpan
 

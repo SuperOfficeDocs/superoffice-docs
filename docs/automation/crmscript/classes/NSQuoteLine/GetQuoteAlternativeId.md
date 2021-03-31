@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteLine_GetQuoteAlternativeId
-description: NSQuoteLine.GetQuoteAlternativeId()
+description: Integer NSQuoteLine.GetQuoteAlternativeId()
 intellisense: NSQuoteLine.GetQuoteAlternativeId
-keywords: GetQuoteAlternativeId()
+keywords: NSQuoteLine, GetQuoteAlternativeId
 so.topic: reference
 ---
 
-
 The alternative this line is part of, the conceptual Parent in CRM database.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

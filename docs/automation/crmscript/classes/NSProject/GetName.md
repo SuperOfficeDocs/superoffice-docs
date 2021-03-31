@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetName
-description: NSProject.GetName()
+description: String NSProject.GetName()
 intellisense: NSProject.GetName
-keywords: GetName()
+keywords: NSProject, GetName
 so.topic: reference
 ---
 
-
 Project name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

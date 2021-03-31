@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetDepartment_Integer_p_0
-description: NSListAgent.GetDepartment(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetDepartment
+description: NSDepartment GetDepartment(Integer departmentId);
 intellisense: NSListAgent.GetDepartment
-keywords: GetDepartment(Integer)
+keywords: NSListAgent,GetDepartment
 so.topic: reference
 ---
 
+Gets a NSDepartment object.
 
-Gets a Department object.
+**Parameters:**
+ - **departmentId** The identifier of the NSDepartment object
 
+**Returns:** NSDepartment
 
-
-* **departmentId:** The identifier of the Department object
-* **Returns:** Department
-
+```crmscript
+NSListAgent agent;
+NSDepartment thing = agent.GetDepartment(123);
+```
 

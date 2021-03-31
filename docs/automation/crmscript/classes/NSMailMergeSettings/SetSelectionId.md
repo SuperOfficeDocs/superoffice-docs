@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetSelectionId_Integer_p_0
-description: NSMailMergeSettings.SetSelectionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetSelectionId
+description: NSMailMergeSettings.SetSelectionId(Integer selectionId)
 intellisense: NSMailMergeSettings.SetSelectionId
-keywords: SetSelectionId(Integer)
+keywords: NSMailMergeSettings, GetSelectionId
 so.topic: reference
 ---
 
-
 Identity of selection to use as source for recipients.
 
-
-
-* **SelectionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **selectionId** Integer
 

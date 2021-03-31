@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBlobEntity_SetUpdatedDate_DateTime_p_0
-description: NSBlobEntity.SetUpdatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSBlobEntity_SetUpdatedDate
+description: NSBlobEntity.SetUpdatedDate(DateTime updatedDate)
 intellisense: NSBlobEntity.SetUpdatedDate
-sortOrder: 1465
-keywords: SetUpdatedDate(DateTime)
+keywords: NSBlobEntity, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **UpdatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updatedDate** DateTime
 

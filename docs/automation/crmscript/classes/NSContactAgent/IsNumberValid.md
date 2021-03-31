@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactAgent_IsNumberValid_Integer_p_0_String_p_1
-description: NSContactAgent.IsNumberValid(Integer p_0, String p_1)
+﻿---
+title: crmscript_ref_NSContactAgent_IsNumberValid
+description: Bool IsNumberValid(Integer contactId, String number)
 intellisense: NSContactAgent.IsNumberValid
-sortOrder: 1796
-keywords: IsNumberValid(Integer,String)
+keywords: NSContactAgent,IsNumberValid
 so.topic: reference
 ---
 
-
 Checks if the number is unique or required.  The setting is configured from admin under system options.
 
-
-
-* **contactId
-\param** p1 number
-
-
+**Parameters:**
+ - **contactId** 
+ - **number** 

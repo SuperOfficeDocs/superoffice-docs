@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldValue_SetDisplayValue_String_p_0
-description: NSErpSyncFieldValue.SetDisplayValue(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldValue_SetDisplayValue
+description: NSErpSyncFieldValue.SetDisplayValue(String displayValue)
 intellisense: NSErpSyncFieldValue.SetDisplayValue
-sortOrder: 3333
-keywords: SetDisplayValue(String)
+keywords: NSErpSyncFieldValue, GetDisplayValue
 so.topic: reference
 ---
 
 
-* **DisplayValue:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **displayValue** String
 

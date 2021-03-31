@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetDialInPrefix_String_p_0
-description: NSCountry.SetDialInPrefix(String p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetDialInPrefix
+description: NSCountry.SetDialInPrefix(String dialInPrefix)
 intellisense: NSCountry.SetDialInPrefix
-sortOrder: 2034
-keywords: SetDialInPrefix(String)
+keywords: NSCountry, GetDialInPrefix
 so.topic: reference
 ---
 
-
 Dial in prefix
 
-
-
-* **DialInPrefix:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **dialInPrefix** String
 

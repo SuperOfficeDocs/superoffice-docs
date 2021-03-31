@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailFolder_SetName_String_p_0
-description: NSEMailFolder.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSEMailFolder_SetName
+description: NSEMailFolder.SetName(String name)
 intellisense: NSEMailFolder.SetName
-sortOrder: 3038
-keywords: SetName(String)
+keywords: NSEMailFolder, GetName
 so.topic: reference
 ---
 
-
 Name of folder
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

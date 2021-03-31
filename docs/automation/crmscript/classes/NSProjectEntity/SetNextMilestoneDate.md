@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEntity_SetNextMilestoneDate_DateTime_p_0
-description: NSProjectEntity.SetNextMilestoneDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSProjectEntity_SetNextMilestoneDate
+description: NSProjectEntity.SetNextMilestoneDate(DateTime nextMilestoneDate)
 intellisense: NSProjectEntity.SetNextMilestoneDate
-keywords: SetNextMilestoneDate(DateTime)
+keywords: NSProjectEntity, GetNextMilestoneDate
 so.topic: reference
 ---
 
-
 Calculated date, reflects date of closest non-complete future milestone activity
 
-
-
-* **NextMilestoneDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **nextMilestoneDate** DateTime
 

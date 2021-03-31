@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescription_SetIsBuiltin_Bool_p_0
-description: NSPreferenceDescription.SetIsBuiltin(Bool p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescription_SetIsBuiltin
+description: NSPreferenceDescription.SetIsBuiltin(Bool isBuiltin)
 intellisense: NSPreferenceDescription.SetIsBuiltin
-keywords: SetIsBuiltin(Bool)
+keywords: NSPreferenceDescription, GetIsBuiltin
 so.topic: reference
 ---
 
-
 1 = This row populated and maintained by SuperOffice
 
-
-
-* **IsBuiltin:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isBuiltin** Bool
 

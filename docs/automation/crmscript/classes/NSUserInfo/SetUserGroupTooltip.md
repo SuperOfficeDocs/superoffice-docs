@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSUserInfo_SetUserGroupTooltip_String_p_0
-description: NSUserInfo.SetUserGroupTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetUserGroupTooltip
+description: NSUserInfo.SetUserGroupTooltip(String userGroupTooltip)
 intellisense: NSUserInfo.SetUserGroupTooltip
-keywords: SetUserGroupTooltip(String)
+keywords: NSUserInfo, GetUserGroupTooltip
 so.topic: reference
 ---
 
 
-* **UserGroupTooltip:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **userGroupTooltip** String
 

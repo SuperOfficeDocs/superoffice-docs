@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetCompetitor
-description: NSSaleEntity.GetCompetitor()
+description: Competitor NSSaleEntity.GetCompetitor()
 intellisense: NSSaleEntity.GetCompetitor
-keywords: GetCompetitor()
+keywords: NSSaleEntity, GetCompetitor
 so.topic: reference
 ---
 
+List of all possible competitors. 
 
-List of all possible competitors.
-
-
-
-* **Returns:** Competitor
+**Returns:** Competitor
 
 

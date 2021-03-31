@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentPerson_GetPersonId
-description: NSConsentPerson.GetPersonId()
+description: Integer NSConsentPerson.GetPersonId()
 intellisense: NSConsentPerson.GetPersonId
-sortOrder: 1661
-keywords: GetPersonId()
+keywords: NSConsentPerson, GetPersonId
 so.topic: reference
 ---
 
-
 Person ID
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

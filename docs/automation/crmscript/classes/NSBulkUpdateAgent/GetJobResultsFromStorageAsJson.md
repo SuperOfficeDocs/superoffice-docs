@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSBulkUpdateAgent_GetJobResultsFromStorageAsJson
-description: NSBulkUpdateAgent.GetJobResultsFromStorageAsJson()
+description: StringArray GetJobResultsFromStorageAsJson()
 intellisense: NSBulkUpdateAgent.GetJobResultsFromStorageAsJson
-sortOrder: 1475
-keywords: GetJobResultsFromStorageAsJson()
+keywords: NSBulkUpdateAgent,GetJobResultsFromStorageAsJson
 so.topic: reference
 ---
-
 
 Get result of the batchupdate job
 
 
+**Returns:** Result of job as json
 
-* **Returns:** Result of job as json
-
+```crmscript
+NSBulkUpdateAgent agent;
+StringArray res = agent.GetJobResultsFromStorageAsJson();
+```
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignAppEntity_SetDevices_NSForeignDevice__p_0
-description: NSForeignAppEntity.SetDevices(NSForeignDevice[] p_0)
+﻿---
+title: crmscript_ref_NSForeignAppEntity_SetDevices
+description: NSForeignAppEntity.SetDevices(ForeignDeviceArray devices)
 intellisense: NSForeignAppEntity.SetDevices
-sortOrder: 3707
-keywords: SetDevices(NSForeignDevice[])
+keywords: NSForeignAppEntity, GetDevices
 so.topic: reference
 ---
 
-
 The devices that belong to this foreign app.
 
-
-
-* **Devices:** ForeignDeviceArray
-* **Returns:** ForeignDeviceArray
-
+**Parameter:** 
+ - **devices** ForeignDeviceArray
 

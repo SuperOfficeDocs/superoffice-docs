@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSHistory_GetHistoryId
-description: NSHistory.GetHistoryId()
+description: Integer NSHistory.GetHistoryId()
 intellisense: NSHistory.GetHistoryId
-sortOrder: 3927
-keywords: GetHistoryId()
+keywords: NSHistory, GetHistoryId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

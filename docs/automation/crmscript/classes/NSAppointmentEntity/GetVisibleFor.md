@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetVisibleFor
-description: NSAppointmentEntity.GetVisibleFor()
+description: VisibleForArray NSAppointmentEntity.GetVisibleFor()
 intellisense: NSAppointmentEntity.GetVisibleFor
-sortOrder: 979
-keywords: GetVisibleFor()
+keywords: NSAppointmentEntity, GetVisibleFor
 so.topic: reference
 ---
 
+Return the usergroups and/or users the item is visible for.
 
-* **Returns:** VisibleForArray
-
+**Returns:** Visible for array.
 

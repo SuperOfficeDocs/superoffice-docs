@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketStartupData_SetPocketPreferences_NSPreference__p_0
-description: NSPocketStartupData.SetPocketPreferences(NSPreference[] p_0)
+﻿---
+title: crmscript_ref_NSPocketStartupData_SetPocketPreferences
+description: NSPocketStartupData.SetPocketPreferences(PreferenceArray pocketPreferences)
 intellisense: NSPocketStartupData.SetPocketPreferences
-keywords: SetPocketPreferences(NSPreference[])
+keywords: NSPocketStartupData, GetPocketPreferences
 so.topic: reference
 ---
 
-
 All Pocket specific preferences, including WebPanels defined by the user in Pocket
 
-
-
-* **PocketPreferences:** PreferenceArray
-* **Returns:** PreferenceArray
-
+**Parameter:** 
+ - **pocketPreferences** PreferenceArray
 

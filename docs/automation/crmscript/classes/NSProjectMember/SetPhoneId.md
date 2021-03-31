@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetPhoneId_Integer_p_0
-description: NSProjectMember.SetPhoneId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetPhoneId
+description: NSProjectMember.SetPhoneId(Integer phoneId)
 intellisense: NSProjectMember.SetPhoneId
-keywords: SetPhoneId(Integer)
+keywords: NSProjectMember, GetPhoneId
 so.topic: reference
 ---
 
-
 The phone id
 
-
-
-* **PhoneId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **phoneId** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointment_SetTaskId_Integer_p_0
-description: NSSuggestedAppointment.SetTaskId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointment_SetTaskId
+description: NSSuggestedAppointment.SetTaskId(Integer taskId)
 intellisense: NSSuggestedAppointment.SetTaskId
-keywords: SetTaskId(Integer)
+keywords: NSSuggestedAppointment, GetTaskId
 so.topic: reference
 ---
 
-
 Type of the suggested appointment
 
-
-
-* **TaskId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **taskId** Integer
 

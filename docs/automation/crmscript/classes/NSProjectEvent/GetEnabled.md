@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEvent_GetEnabled
-description: NSProjectEvent.GetEnabled()
+description: Bool NSProjectEvent.GetEnabled()
 intellisense: NSProjectEvent.GetEnabled
-keywords: GetEnabled()
+keywords: NSProjectEvent, GetEnabled
 so.topic: reference
 ---
 
-
 If true the event is enabled (visible)
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

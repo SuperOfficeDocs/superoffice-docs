@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailSOInfo_SetProjectId_Integer_p_0
-description: NSEMailSOInfo.SetProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailSOInfo_SetProjectId
+description: NSEMailSOInfo.SetProjectId(Integer projectId)
 intellisense: NSEMailSOInfo.SetProjectId
-sortOrder: 3058
-keywords: SetProjectId(Integer)
+keywords: NSEMailSOInfo, GetProjectId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectId** Integer
 

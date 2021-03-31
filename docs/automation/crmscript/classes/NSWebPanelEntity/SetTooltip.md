@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetTooltip_String_p_0
-description: NSWebPanelEntity.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetTooltip
+description: NSWebPanelEntity.SetTooltip(String tooltip)
 intellisense: NSWebPanelEntity.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSWebPanelEntity, GetTooltip
 so.topic: reference
 ---
 
-
 The tooltip of the web panel
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

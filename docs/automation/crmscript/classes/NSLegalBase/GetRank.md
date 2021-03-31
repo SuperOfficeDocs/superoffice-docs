@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLegalBase_GetRank
-description: NSLegalBase.GetRank()
+description: Integer NSLegalBase.GetRank()
 intellisense: NSLegalBase.GetRank
-keywords: GetRank()
+keywords: NSLegalBase, GetRank
 so.topic: reference
 ---
 
-
 Rank of this consent source
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

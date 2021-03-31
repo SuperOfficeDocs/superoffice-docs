@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSResourceEntity_SetResourceId_Integer_p_0
-description: NSResourceEntity.SetResourceId(Integer p_0)
+﻿---
+title: crmscript_ref_NSResourceEntity_SetResourceId
+description: NSResourceEntity.SetResourceId(Integer resourceId)
 intellisense: NSResourceEntity.SetResourceId
-keywords: SetResourceId(Integer)
+keywords: NSResourceEntity, GetResourceId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ResourceId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **resourceId** Integer
 

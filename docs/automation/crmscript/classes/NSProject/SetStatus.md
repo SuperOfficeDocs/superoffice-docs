@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProject_SetStatus_String_p_0
-description: NSProject.SetStatus(String p_0)
+﻿---
+title: crmscript_ref_NSProject_SetStatus
+description: NSProject.SetStatus(String status)
 intellisense: NSProject.SetStatus
-keywords: SetStatus(String)
+keywords: NSProject, GetStatus
 so.topic: reference
 ---
 
-
 The projects status
 
-
-
-* **Status:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **status** String
 

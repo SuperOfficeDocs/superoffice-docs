@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSPersonAgent_GetPerson_Integer_p_0
-description: NSPersonAgent.GetPerson(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_GetPerson
+description: NSPerson GetPerson(Integer personId);
 intellisense: NSPersonAgent.GetPerson
-keywords: GetPerson(Integer)
+keywords: NSPersonAgent,GetPerson
 so.topic: reference
 ---
 
+Gets a NSPerson object.
 
-Gets a Person object.
+**Parameters:**
+ - **personId** The identifier of the NSPerson object
 
+**Returns:** NSPerson
 
-
-* **personId:** The identifier of the Person object
-* **Returns:** Person
-
+```crmscript
+NSPersonAgent agent;
+NSPerson thing = agent.GetPerson(123);
+```
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetCanAssign_Bool_p_0
-description: NSModuleLicenseLink.SetCanAssign(Bool p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetCanAssign
+description: NSModuleLicenseLink.SetCanAssign(Bool canAssign)
 intellisense: NSModuleLicenseLink.SetCanAssign
-keywords: SetCanAssign(Bool)
+keywords: NSModuleLicenseLink, GetCanAssign
 so.topic: reference
 ---
 
-
 Can a specific user assign this module license
 
-
-
-* **CanAssign:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **canAssign** Bool
 

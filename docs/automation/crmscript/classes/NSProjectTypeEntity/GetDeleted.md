@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectTypeEntity_GetDeleted
-description: NSProjectTypeEntity.GetDeleted()
+description: Bool NSProjectTypeEntity.GetDeleted()
 intellisense: NSProjectTypeEntity.GetDeleted
-keywords: GetDeleted()
+keywords: NSProjectTypeEntity, GetDeleted
 so.topic: reference
 ---
 
-
 0 -> record is active 1 -> record is 'deleted' and should not be shown in lists
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

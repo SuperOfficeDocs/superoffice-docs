@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketMessageEntity_GetTicket
-description: NSTicketMessageEntity.GetTicket()
+description: Ticket NSTicketMessageEntity.GetTicket()
 intellisense: NSTicketMessageEntity.GetTicket
-keywords: GetTicket()
+keywords: NSTicketMessageEntity, GetTicket
 so.topic: reference
 ---
 
-
 The connected ticket
 
-
-
-* **Returns:** Ticket
+**Returns:** Ticket
 
 

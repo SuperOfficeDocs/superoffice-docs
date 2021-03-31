@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSExtAppEntity_GetParameters
-description: NSExtAppEntity.GetParameters()
+description: String NSExtAppEntity.GetParameters()
 intellisense: NSExtAppEntity.GetParameters
-sortOrder: 3375
-keywords: GetParameters()
+keywords: NSExtAppEntity, GetParameters
 so.topic: reference
 ---
 
+<template variable> <other template variable>
 
-\<template variable> \<other template variable>
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

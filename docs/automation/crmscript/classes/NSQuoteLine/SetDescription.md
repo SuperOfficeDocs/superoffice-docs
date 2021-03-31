@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetDescription_String_p_0
-description: NSQuoteLine.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetDescription
+description: NSQuoteLine.SetDescription(String description)
 intellisense: NSQuoteLine.SetDescription
-keywords: SetDescription(String)
+keywords: NSQuoteLine, GetDescription
 so.topic: reference
 ---
 
-
 A longer description for the product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

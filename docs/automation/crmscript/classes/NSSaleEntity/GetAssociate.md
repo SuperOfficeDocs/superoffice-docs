@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetAssociate
-description: NSSaleEntity.GetAssociate()
+description: Associate NSSaleEntity.GetAssociate()
 intellisense: NSSaleEntity.GetAssociate
-keywords: GetAssociate()
+keywords: NSSaleEntity, GetAssociate
 so.topic: reference
 ---
 
-
 The sale owner
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

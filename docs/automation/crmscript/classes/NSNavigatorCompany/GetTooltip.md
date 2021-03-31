@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSNavigatorCompany_GetTooltip
-description: NSNavigatorCompany.GetTooltip()
+description: String NSNavigatorCompany.GetTooltip()
 intellisense: NSNavigatorCompany.GetTooltip
-keywords: GetTooltip()
+keywords: NSNavigatorCompany, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

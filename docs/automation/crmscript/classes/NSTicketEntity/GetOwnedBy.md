@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketEntity_GetOwnedBy
-description: NSTicketEntity.GetOwnedBy()
+description: Associate NSTicketEntity.GetOwnedBy()
 intellisense: NSTicketEntity.GetOwnedBy
-keywords: GetOwnedBy()
+keywords: NSTicketEntity, GetOwnedBy
 so.topic: reference
 ---
 
-
 The associate who owns this ticket
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

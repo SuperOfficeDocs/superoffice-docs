@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetShowInToolBar_Bool_p_0
-description: NSExtAppEntity.SetShowInToolBar(Bool p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetShowInToolBar
+description: NSExtAppEntity.SetShowInToolBar(Bool showInToolBar)
 intellisense: NSExtAppEntity.SetShowInToolBar
-sortOrder: 3395
-keywords: SetShowInToolBar(Bool)
+keywords: NSExtAppEntity, GetShowInToolBar
 so.topic: reference
 ---
 
-
 Does the webpanel have a toolbar
 
-
-
-* **ShowInToolBar:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **showInToolBar** Bool
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAccount_GetEMailAccountId
-description: NSEMailAccount.GetEMailAccountId()
+description: Integer NSEMailAccount.GetEMailAccountId()
 intellisense: NSEMailAccount.GetEMailAccountId
-sortOrder: 2746
-keywords: GetEMailAccountId()
+keywords: NSEMailAccount, GetEMailAccountId
 so.topic: reference
 ---
 
-
 The account primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

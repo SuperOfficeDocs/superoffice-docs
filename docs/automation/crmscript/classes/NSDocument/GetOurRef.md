@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocument_GetOurRef
-description: NSDocument.GetOurRef()
+description: String NSDocument.GetOurRef()
 intellisense: NSDocument.GetOurRef
-sortOrder: 2442
-keywords: GetOurRef()
+keywords: NSDocument, GetOurRef
 so.topic: reference
 ---
 
-
 Our reference, searchable field from freetext search
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

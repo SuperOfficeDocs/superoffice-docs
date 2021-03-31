@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSUserAgent_GetDefaultAssociateUserName_NSUser_p_0
-description: NSUserAgent.GetDefaultAssociateUserName(NSUser p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetDefaultAssociateUserName
+description: String GetDefaultAssociateUserName(User user)
 intellisense: NSUserAgent.GetDefaultAssociateUserName
-keywords: GetDefaultAssociateUserName(NSUser)
+keywords: NSUserAgent,GetDefaultAssociateUserName
 so.topic: reference
 ---
 
-
 Get the default username for a person
 
-
-
-* **user**
-
-
+**Parameters:**
+ - **user** 

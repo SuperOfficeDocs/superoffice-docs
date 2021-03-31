@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTimeZoneData_SetTimeZoneSTDRules_NSTimeZoneRuleDictionary_p_0
-description: NSTimeZoneData.SetTimeZoneSTDRules(NSTimeZoneRuleDictionary p_0)
+﻿---
+title: crmscript_ref_NSTimeZoneData_SetTimeZoneSTDRules
+description: NSTimeZoneData.SetTimeZoneSTDRules(TimeZoneRuleDictionary timeZoneSTDRules)
 intellisense: NSTimeZoneData.SetTimeZoneSTDRules
-keywords: SetTimeZoneSTDRules(NSTimeZoneRuleDictionary)
+keywords: NSTimeZoneData, GetTimeZoneSTDRules
 so.topic: reference
 ---
 
-
 Rules for standard time
 
-
-
-* **TimeZoneSTDRules:** TimeZoneRuleDictionary
-* **Returns:** TimeZoneRuleDictionary
-
+**Parameter:** 
+ - **timeZoneSTDRules** TimeZoneRuleDictionary
 

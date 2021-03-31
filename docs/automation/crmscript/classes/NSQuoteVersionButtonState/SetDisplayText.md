@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionButtonState_SetDisplayText_String_p_0
-description: NSQuoteVersionButtonState.SetDisplayText(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionButtonState_SetDisplayText
+description: NSQuoteVersionButtonState.SetDisplayText(String displayText)
 intellisense: NSQuoteVersionButtonState.SetDisplayText
-keywords: SetDisplayText(String)
+keywords: NSQuoteVersionButtonState, GetDisplayText
 so.topic: reference
 ---
 
-
 Text to be displayed on the button
 
-
-
-* **DisplayText:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayText** String
 

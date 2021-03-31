@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetVoip_String__p_0
-description: NSParticipantSyncData.SetVoip(String[] p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetVoip
+description: NSParticipantSyncData.SetVoip(StringArray voip)
 intellisense: NSParticipantSyncData.SetVoip
-keywords: SetVoip(String[])
+keywords: NSParticipantSyncData, GetVoip
 so.topic: reference
 ---
 
 
-* **Voip:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **voip** StringArray
 

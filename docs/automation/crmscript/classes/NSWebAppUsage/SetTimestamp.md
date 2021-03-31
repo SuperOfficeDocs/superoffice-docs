@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebAppUsage_SetTimestamp_DateTime_p_0
-description: NSWebAppUsage.SetTimestamp(DateTime p_0)
+﻿---
+title: crmscript_ref_NSWebAppUsage_SetTimestamp
+description: NSWebAppUsage.SetTimestamp(DateTime timestamp)
 intellisense: NSWebAppUsage.SetTimestamp
-keywords: SetTimestamp(DateTime)
+keywords: NSWebAppUsage, GetTimestamp
 so.topic: reference
 ---
 
-
 Which day the usage was logged
 
-
-
-* **Timestamp:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **timestamp** DateTime
 

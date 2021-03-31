@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplate_SetAutoeventId_Integer_p_0
-description: NSDocumentTemplate.SetAutoeventId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplate_SetAutoeventId
+description: NSDocumentTemplate.SetAutoeventId(Integer autoeventId)
 intellisense: NSDocumentTemplate.SetAutoeventId
-sortOrder: 2634
-keywords: SetAutoeventId(Integer)
+keywords: NSDocumentTemplate, GetAutoeventId
 so.topic: reference
 ---
 
-
 Which document plugin is responsible for the documents generated from this template
 
-
-
-* **AutoeventId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **autoeventId** Integer
 

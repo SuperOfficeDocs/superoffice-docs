@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteAlternative_SetExtraField2_String_p_0
-description: NSQuoteAlternative.SetExtraField2(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteAlternative_SetExtraField2
+description: NSQuoteAlternative.SetExtraField2(String extraField2)
 intellisense: NSQuoteAlternative.SetExtraField2
-keywords: SetExtraField2(String)
+keywords: NSQuoteAlternative, GetExtraField2
 so.topic: reference
 ---
 
-
 Optional information added by Quote Connector; usable in the quote document merge process
 
-
-
-* **ExtraField2:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **extraField2** String
 

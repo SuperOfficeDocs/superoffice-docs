@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketInfo_SetContactName_String_p_0
-description: NSTicketInfo.SetContactName(String p_0)
+﻿---
+title: crmscript_ref_NSTicketInfo_SetContactName
+description: NSTicketInfo.SetContactName(String contactName)
 intellisense: NSTicketInfo.SetContactName
-keywords: SetContactName(String)
+keywords: NSTicketInfo, GetContactName
 so.topic: reference
 ---
 
-
 The name of the contact/company connected to the ticket
 
-
-
-* **ContactName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactName** String
 

@@ -1,0 +1,13 @@
+﻿---
+title: crmscript_ref_NSTicket_SetPersonFullname
+description: NSTicket.SetPersonFullname(String personFullname)
+intellisense: NSTicket.SetPersonFullname
+keywords: NSTicket, GetPersonFullname
+so.topic: reference
+---
+
+Get the full name for the primary person (customer)
+
+**Parameter:** 
+ - **personFullname** String
+

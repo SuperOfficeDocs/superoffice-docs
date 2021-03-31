@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSConfigurationAgent_GetDiaryViewEntity_Integer_p_0
-description: NSConfigurationAgent.GetDiaryViewEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSConfigurationAgent_GetDiaryViewEntity
+description: NSDiaryViewEntity GetDiaryViewEntity(Integer diaryViewEntityId);
 intellisense: NSConfigurationAgent.GetDiaryViewEntity
-sortOrder: 1591
-keywords: GetDiaryViewEntity(Integer)
+keywords: NSConfigurationAgent,GetDiaryViewEntity
 so.topic: reference
 ---
 
+Gets a NSDiaryViewEntity object.
 
-Gets a DiaryViewEntity object.
+**Parameters:**
+ - **diaryViewEntityId** The identifier of the NSDiaryViewEntity object
 
+**Returns:** NSDiaryViewEntity
 
-
-* **diaryViewEntityId:** The identifier of the DiaryViewEntity object
-* **Returns:** DiaryViewEntity
-
+```crmscript
+NSConfigurationAgent agent;
+NSDiaryViewEntity thing = agent.GetDiaryViewEntity(123);
+```
 

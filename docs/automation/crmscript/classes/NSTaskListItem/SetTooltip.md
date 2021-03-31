@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTaskListItem_SetTooltip_String_p_0
-description: NSTaskListItem.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSTaskListItem_SetTooltip
+description: NSTaskListItem.SetTooltip(String tooltip)
 intellisense: NSTaskListItem.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSTaskListItem, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip or other description
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

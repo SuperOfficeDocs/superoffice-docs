@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSQuoteAgent_DeleteQuote_Integer_p_0
-description: NSQuoteAgent.DeleteQuote(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_DeleteQuote
+description: Void DeleteQuote(Integer quoteId)
 intellisense: NSQuoteAgent.DeleteQuote
-keywords: DeleteQuote(Integer)
+keywords: NSQuoteAgent,DeleteQuote
 so.topic: reference
 ---
 
-
 Delete a Quote
 
-
-
-* **quoteId:** QuoteId of the Quote to delete.
-
-
+**Parameters:**
+ - **quoteId** QuoteId of the Quote to delete.

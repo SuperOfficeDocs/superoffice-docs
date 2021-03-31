@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAppointment_GetDtStart
-description: NSEMailAppointment.GetDtStart()
+description: DateTime NSEMailAppointment.GetDtStart()
 intellisense: NSEMailAppointment.GetDtStart
-sortOrder: 2876
-keywords: GetDtStart()
+keywords: NSEMailAppointment, GetDtStart
 so.topic: reference
 ---
 
-
 Start date/time in ICS file.
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

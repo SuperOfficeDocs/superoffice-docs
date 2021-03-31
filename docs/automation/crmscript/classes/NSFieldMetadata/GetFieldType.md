@@ -1,17 +1,21 @@
----
+﻿---
 title: crmscript_ref_NSFieldMetadata_GetFieldType
-description: NSFieldMetadata.GetFieldType()
+description: Integer NSFieldMetadata.GetFieldType()
 intellisense: NSFieldMetadata.GetFieldType
-sortOrder: 3577
-keywords: GetFieldType()
+keywords: NSFieldMetadata, GetFieldType
 so.topic: reference
 ---
 
-
 String, int, decimal, etc.
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Checkbox 
+     - Enum: 1 = Text 
+     - Enum: 2 = Password 
+     - Enum: 3 = Integer 
+     - Enum: 4 = Double 
+     - Enum: 5 = List 
+     - Enum: 6 = Date 
+     - Enum: 99 = Label 
 

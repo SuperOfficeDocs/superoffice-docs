@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailConnectionInfo_SetServerName_String_p_0
-description: NSEMailConnectionInfo.SetServerName(String p_0)
+﻿---
+title: crmscript_ref_NSEMailConnectionInfo_SetServerName
+description: NSEMailConnectionInfo.SetServerName(String serverName)
 intellisense: NSEMailConnectionInfo.SetServerName
-sortOrder: 2917
-keywords: SetServerName(String)
+keywords: NSEMailConnectionInfo, GetServerName
 so.topic: reference
 ---
 
-
 Hostname or ip to server to connect to. Custom ports may be specified by adding ':' and the port number after the name/ip. Ex: '127.0.0.1:6543'
 
-
-
-* **ServerName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **serverName** String
 

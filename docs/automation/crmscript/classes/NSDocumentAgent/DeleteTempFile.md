@@ -1,17 +1,12 @@
----
-title: crmscript_ref_NSDocumentAgent_DeleteTempFile_String_p_0
-description: NSDocumentAgent.DeleteTempFile(String p_0)
+﻿---
+title: crmscript_ref_NSDocumentAgent_DeleteTempFile
+description: Void DeleteTempFile(String filename)
 intellisense: NSDocumentAgent.DeleteTempFile
-sortOrder: 2546
-keywords: DeleteTempFile(String)
+keywords: NSDocumentAgent,DeleteTempFile
 so.topic: reference
 ---
 
-
 Delete a temporary file created with CreateTempFile.
 
-
-
-* **filename:** Name of temporary file to delete.
-
-
+**Parameters:**
+ - **filename** Name of temporary file to delete.

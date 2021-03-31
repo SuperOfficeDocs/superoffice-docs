@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveRelationDefinitionEntity_NSRelationDefinitionEntity_p_0
-description: NSListAgent.SaveRelationDefinitionEntity(NSRelationDefinitionEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveRelationDefinitionEntity
+description: NSRelationDefinitionEntity SaveRelationDefinitionEntity(NSRelationDefinitionEntity relationDefinitionEntity);
 intellisense: NSListAgent.SaveRelationDefinitionEntity
-keywords: SaveRelationDefinitionEntity(NSRelationDefinitionEntity)
+keywords: NSListAgent,SaveRelationDefinitionEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSRelationDefinitionEntity or creates a new NSRelationDefinitionEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **relationDefinitionEntity** The NSRelationDefinitionEntity to save.
 
+**Returns:** New or updated NSRelationDefinitionEntity
 
-Updates the existing RelationDefinitionEntity or creates a new RelationDefinitionEntity if the id parameter is empty
-
-
-
-* **relationDefinitionEntity:** The RelationDefinitionEntity that is saved
-* **Returns:** New or updated RelationDefinitionEntity
-
+```crmscript
+NSList  agent;
+NSRelationDefinitionEntity thing = agent.CreateDefaultRelationDefinitionEntity();
+thing = agent.SaveRelationDefinitionEntity(thing);
+```
 

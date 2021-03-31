@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLanguageInfo_SetNativeName_String_p_0
-description: NSLanguageInfo.SetNativeName(String p_0)
+﻿---
+title: crmscript_ref_NSLanguageInfo_SetNativeName
+description: NSLanguageInfo.SetNativeName(String nativeName)
 intellisense: NSLanguageInfo.SetNativeName
-keywords: SetNativeName(String)
+keywords: NSLanguageInfo, GetNativeName
 so.topic: reference
 ---
 
-
 The native name of this language (Norsk Bokmål)
 
-
-
-* **NativeName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **nativeName** String
 

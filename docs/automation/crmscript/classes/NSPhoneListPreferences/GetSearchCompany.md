@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPhoneListPreferences_GetSearchCompany
-description: NSPhoneListPreferences.GetSearchCompany()
+description: Bool NSPhoneListPreferences.GetSearchCompany()
 intellisense: NSPhoneListPreferences.GetSearchCompany
-keywords: GetSearchCompany()
+keywords: NSPhoneListPreferences, GetSearchCompany
 so.topic: reference
 ---
 
-
 True if you want to search for Companies by their name.
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

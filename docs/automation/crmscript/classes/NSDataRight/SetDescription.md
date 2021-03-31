@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDataRight_SetDescription_String_p_0
-description: NSDataRight.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSDataRight_SetDescription
+description: NSDataRight.SetDescription(String description)
 intellisense: NSDataRight.SetDescription
-sortOrder: 2346
-keywords: SetDescription(String)
+keywords: NSDataRight, GetDescription
 so.topic: reference
 ---
 
 
-* **Description:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **description** String
 

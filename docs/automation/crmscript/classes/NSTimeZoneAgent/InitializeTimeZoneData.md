@@ -1,12 +1,10 @@
----
+﻿---
 title: crmscript_ref_NSTimeZoneAgent_InitializeTimeZoneData
-description: NSTimeZoneAgent.InitializeTimeZoneData()
+description: TimeZoneDataArray InitializeTimeZoneData()
 intellisense: NSTimeZoneAgent.InitializeTimeZoneData
-keywords: InitializeTimeZoneData()
+keywords: NSTimeZoneAgent,InitializeTimeZoneData
 so.topic: reference
 ---
 
-
 Initalizes the TimeZoneData
-
 

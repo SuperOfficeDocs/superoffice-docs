@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProject_SetType_String_p_0
-description: NSProject.SetType(String p_0)
+﻿---
+title: crmscript_ref_NSProject_SetType
+description: NSProject.SetType(String type)
 intellisense: NSProject.SetType
-keywords: SetType(String)
+keywords: NSProject, GetType
 so.topic: reference
 ---
 
-
 The project type.
 
-
-
-* **Type:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **type** String
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSCRMScriptAgent_DeleteCRMScriptByUniqueIdentifier_String_p_0
-description: NSCRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(String p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptAgent_DeleteCRMScriptByUniqueIdentifier
+description: Void DeleteCRMScriptByUniqueIdentifier(String uniqueIdentifier)
 intellisense: NSCRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
-sortOrder: 2123
-keywords: DeleteCRMScriptByUniqueIdentifier(String)
+keywords: NSCRMScriptAgent,DeleteCRMScriptByUniqueIdentifier
 so.topic: reference
 ---
 
-
 Delete the CRMScript
 
+**Parameters:**
+ - **uniqueIdentifier** Global unique reference to script (independent of installation)
 
+**Returns:** This method has no return value
 
-* **uniqueIdentifier:** Global unique reference to script (independent of installation)
-* **Returns:** This method has no return value
-
+```crmscript
+NSCRMScriptAgent agent;
+String uniqueIdentifier;
+Void res = agent.DeleteCRMScriptByUniqueIdentifier(uniqueIdentifier);
+```
 

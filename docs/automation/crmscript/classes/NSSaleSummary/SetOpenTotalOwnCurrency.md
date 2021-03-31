@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetOpenTotalOwnCurrency_Float_p_0
-description: NSSaleSummary.SetOpenTotalOwnCurrency(Float p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetOpenTotalOwnCurrency
+description: NSSaleSummary.SetOpenTotalOwnCurrency(Float openTotalOwnCurrency)
 intellisense: NSSaleSummary.SetOpenTotalOwnCurrency
-keywords: SetOpenTotalOwnCurrency(Float)
+keywords: NSSaleSummary, GetOpenTotalOwnCurrency
 so.topic: reference
 ---
 
-
 Summed amount for all open within the period in default currency for the current user
 
-
-
-* **OpenTotalOwnCurrency:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **openTotalOwnCurrency** Float
 

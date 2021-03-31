@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSListAgent_DeleteListEntity_Integer_p_0
-description: NSListAgent.DeleteListEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_DeleteListEntity
+description: DeleteListEntity(Integer listEntity);
 intellisense: NSListAgent.DeleteListEntity
-keywords: DeleteListEntity(Integer)
+keywords: NSListAgent,DeleteListEntity
 so.topic: reference
 ---
 
+Deletes the NSListEntity
+  
+**Parameters:**
+ - **listEntityId** The identity of the ListEntity to delete.
 
-Deletes the ListEntity
-
-
-
-* **listEntityId:** The identity of the ListEntity
-
+```crmscript
+NSListAgent agent;
+agent.DeleteListEntity(123);
+```
 

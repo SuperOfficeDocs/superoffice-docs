@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetSaleTypeName_String_p_0
-description: NSSale.SetSaleTypeName(String p_0)
+﻿---
+title: crmscript_ref_NSSale_SetSaleTypeName
+description: NSSale.SetSaleTypeName(String saleTypeName)
 intellisense: NSSale.SetSaleTypeName
-keywords: SetSaleTypeName(String)
+keywords: NSSale, GetSaleTypeName
 so.topic: reference
 ---
 
-
 The sale's type name
 
-
-
-* **SaleTypeName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **saleTypeName** String
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactOrPersonFromEmail_SetFullName_String_p_0
-description: NSContactOrPersonFromEmail.SetFullName(String p_0)
+﻿---
+title: crmscript_ref_NSContactOrPersonFromEmail_SetFullName
+description: NSContactOrPersonFromEmail.SetFullName(String fullName)
 intellisense: NSContactOrPersonFromEmail.SetFullName
-sortOrder: 1933
-keywords: SetFullName(String)
+keywords: NSContactOrPersonFromEmail, GetFullName
 so.topic: reference
 ---
 
-
 The person fullname
 
-
-
-* **FullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fullName** String
 

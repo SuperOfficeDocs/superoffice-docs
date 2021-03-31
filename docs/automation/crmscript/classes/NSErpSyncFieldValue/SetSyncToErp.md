@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldValue_SetSyncToErp_Bool_p_0
-description: NSErpSyncFieldValue.SetSyncToErp(Bool p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldValue_SetSyncToErp
+description: NSErpSyncFieldValue.SetSyncToErp(Bool syncToErp)
 intellisense: NSErpSyncFieldValue.SetSyncToErp
-sortOrder: 3335
-keywords: SetSyncToErp(Bool)
+keywords: NSErpSyncFieldValue, GetSyncToErp
 so.topic: reference
 ---
 
-
 Should value changes in CRM be automatically transferred to ERP
 
-
-
-* **SyncToErp:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **syncToErp** Bool
 

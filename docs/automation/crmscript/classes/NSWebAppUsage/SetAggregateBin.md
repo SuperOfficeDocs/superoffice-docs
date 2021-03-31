@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebAppUsage_SetAggregateBin_Integer_p_0
-description: NSWebAppUsage.SetAggregateBin(Integer p_0)
+﻿---
+title: crmscript_ref_NSWebAppUsage_SetAggregateBin
+description: NSWebAppUsage.SetAggregateBin(Integer aggregateBin)
 intellisense: NSWebAppUsage.SetAggregateBin
-keywords: SetAggregateBin(Integer)
+keywords: NSWebAppUsage, GetAggregateBin
 so.topic: reference
 ---
 
-
 ??
 
-
-
-* **AggregateBin:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **aggregateBin** Integer
 

@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetTicketPriorityEntity_Integer_p_0
-description: NSListAgent.GetTicketPriorityEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetTicketPriorityEntity
+description: NSTicketPriorityEntity GetTicketPriorityEntity(Integer ticketPriorityEntityId);
 intellisense: NSListAgent.GetTicketPriorityEntity
-keywords: GetTicketPriorityEntity(Integer)
+keywords: NSListAgent,GetTicketPriorityEntity
 so.topic: reference
 ---
 
+Gets a NSTicketPriorityEntity object.
 
-Gets a TicketPriorityEntity object.
+**Parameters:**
+ - **ticketPriorityEntityId** The identifier of the NSTicketPriorityEntity object
 
+**Returns:** NSTicketPriorityEntity
 
-
-* **ticketPriorityEntityId:** The identifier of the TicketPriorityEntity object
-* **Returns:** TicketPriorityEntity
-
+```crmscript
+NSListAgent agent;
+NSTicketPriorityEntity thing = agent.GetTicketPriorityEntity(123);
+```
 

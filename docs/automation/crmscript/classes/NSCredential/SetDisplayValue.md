@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCredential_SetDisplayValue_String_p_0
-description: NSCredential.SetDisplayValue(String p_0)
+﻿---
+title: crmscript_ref_NSCredential_SetDisplayValue
+description: NSCredential.SetDisplayValue(String displayValue)
 intellisense: NSCredential.SetDisplayValue
-sortOrder: 2053
-keywords: SetDisplayValue(String)
+keywords: NSCredential, GetDisplayValue
 so.topic: reference
 ---
 
-
 The value displayed to the user. this will typically be the users login name in active directory.
 
-
-
-* **DisplayValue:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayValue** String
 

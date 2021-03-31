@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSChatPresence_GetOngoingChats
-description: NSChatPresence.GetOngoingChats()
+description: Integer NSChatPresence.GetOngoingChats()
 intellisense: NSChatPresence.GetOngoingChats
-sortOrder: 1520
-keywords: GetOngoingChats()
+keywords: NSChatPresence, GetOngoingChats
 so.topic: reference
 ---
 
-
 The number of ongoing chats this users has now
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

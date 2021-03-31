@@ -1,12 +1,21 @@
----
-title: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields_Integer_p_0
-description: NSErpSyncAgent.GetErpConnectionConfigFields(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields
+description: StringDictionary GetErpConnectionConfigFields(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.GetErpConnectionConfigFields
-sortOrder: 3191
-keywords: GetErpConnectionConfigFields(Integer)
+keywords: NSErpSyncAgent,GetErpConnectionConfigFields
 so.topic: reference
 ---
 
+Returns the config fields for the connection.
 
+**Parameters:**
+ - **erpConnectionId** Primary key of the erp connection
 
+**Returns:** Config Fields
+
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+StringDictionary res = agent.GetErpConnectionConfigFields(erpConnectionId);
+```
 

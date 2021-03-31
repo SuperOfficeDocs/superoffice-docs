@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserGroup_SetId_Integer_p_0
-description: NSUserGroup.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserGroup_SetId
+description: NSUserGroup.SetId(Integer id)
 intellisense: NSUserGroup.SetId
-keywords: SetId(Integer)
+keywords: NSUserGroup, GetId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

@@ -1,14 +1,19 @@
----
-title: crmscript_ref_NSAddressSyncData_SetAddressType_Integer_p_0
-description: NSAddressSyncData.SetAddressType(Integer p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetAddressType
+description: NSAddressSyncData.SetAddressType(Integer addressType)
 intellisense: NSAddressSyncData.SetAddressType
-sortOrder: 633
-keywords: SetAddressType(Integer)
+keywords: NSAddressSyncData, GetAddressType
 so.topic: reference
 ---
 
 
-* **AddressType:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **addressType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = ContactPostalAddress 
+     - Enum: 2 = ContactStreetAddress 
+     - Enum: 16387 = PersonPrivateAddress 
+     - Enum: 8196 = QuoteBillingAddress 
+     - Enum: 8197 = QuoteShippingAddress 
 

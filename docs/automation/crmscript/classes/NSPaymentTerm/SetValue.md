@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPaymentTerm_SetValue_String_p_0
-description: NSPaymentTerm.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSPaymentTerm_SetValue
+description: NSPaymentTerm.SetValue(String value)
 intellisense: NSPaymentTerm.SetValue
-keywords: SetValue(String)
+keywords: NSPaymentTerm, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

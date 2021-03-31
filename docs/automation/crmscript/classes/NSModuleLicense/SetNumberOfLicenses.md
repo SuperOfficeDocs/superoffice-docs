@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicense_SetNumberOfLicenses_Integer_p_0
-description: NSModuleLicense.SetNumberOfLicenses(Integer p_0)
+﻿---
+title: crmscript_ref_NSModuleLicense_SetNumberOfLicenses
+description: NSModuleLicense.SetNumberOfLicenses(Integer numberOfLicenses)
 intellisense: NSModuleLicense.SetNumberOfLicenses
-keywords: SetNumberOfLicenses(Integer)
+keywords: NSModuleLicense, GetNumberOfLicenses
 so.topic: reference
 ---
 
-
 Number of licenses purchased.
 
-
-
-* **NumberOfLicenses:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **numberOfLicenses** Integer
 

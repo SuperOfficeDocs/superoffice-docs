@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTemplateInfo_GetExternalReference
-description: NSTemplateInfo.GetExternalReference()
+description: String NSTemplateInfo.GetExternalReference()
 intellisense: NSTemplateInfo.GetExternalReference
-keywords: GetExternalReference()
+keywords: NSTemplateInfo, GetExternalReference
 so.topic: reference
 ---
 
-
 Unique key that identifies the document so it can be retrieved
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

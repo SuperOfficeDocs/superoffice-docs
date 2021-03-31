@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTile_SetOptions_NSDashboardTileOption__p_0
-description: NSDashboardTile.SetOptions(NSDashboardTileOption[] p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetOptions
+description: NSDashboardTile.SetOptions(DashboardTileOptionArray options)
 intellisense: NSDashboardTile.SetOptions
-sortOrder: 2312
-keywords: SetOptions(NSDashboardTileOption[])
+keywords: NSDashboardTile, GetOptions
 so.topic: reference
 ---
 
-
 The tile options
 
-
-
-* **Options:** DashboardTileOptionArray
-* **Returns:** DashboardTileOptionArray
-
+**Parameter:** 
+ - **options** DashboardTileOptionArray
 

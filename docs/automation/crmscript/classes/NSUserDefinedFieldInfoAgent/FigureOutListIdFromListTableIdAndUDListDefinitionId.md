@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId_NSUserDefinedFieldInfo_p_0
-description: NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId
+description: Integer FigureOutListIdFromListTableIdAndUDListDefinitionId(UserDefinedFieldInfo info)
 intellisense: NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
-keywords: FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)
+keywords: NSUserDefinedFieldInfoAgent,FigureOutListIdFromListTableIdAndUDListDefinitionId
 so.topic: reference
 ---
 
-
 Kind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId
 
-
-
-* **info**
-
-
+**Parameters:**
+ - **info** 

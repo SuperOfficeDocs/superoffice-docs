@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetSignOffTaskId_Integer_p_0
-description: NSProjectEventEntity.SetSignOffTaskId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetSignOffTaskId
+description: NSProjectEventEntity.SetSignOffTaskId(Integer signOffTaskId)
 intellisense: NSProjectEventEntity.SetSignOffTaskId
-keywords: SetSignOffTaskId(Integer)
+keywords: NSProjectEventEntity, GetSignOffTaskId
 so.topic: reference
 ---
 
-
 If not 0, sign off should cause an Activity of this type to be registered
 
-
-
-* **SignOffTaskId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **signOffTaskId** Integer
 

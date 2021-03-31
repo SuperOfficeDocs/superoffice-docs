@@ -1,16 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetProjectTypeList_Integer__p_0
-description: NSListAgent.GetProjectTypeList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetProjectTypeList
+description: NSProjectType[] GetProjectTypeList(Integer[]  projectTypeIds);
 intellisense: NSListAgent.GetProjectTypeList
-keywords: GetProjectTypeList(Integer[])
+keywords: NSListAgent,GetProjectTypeList
 so.topic: reference
 ---
 
-Gets an array of ProjectType objects.
+Gets a vector of ProjectType objects.
 
+**Parameters:**
+ - **projectTypeIds** The identifiers of the NSProjectType objects
 
+**Returns:** Vector of NSProjectType objects
 
-* **p0:** IntegerArray of identifiers for ProjectType
-* **Returns:** Array of NSProjectType
-
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetProjectTypeList(ids);
+```
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetPersonNumber_String_p_0
-description: NSPersonEntity.SetPersonNumber(String p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetPersonNumber
+description: NSPersonEntity.SetPersonNumber(String personNumber)
 intellisense: NSPersonEntity.SetPersonNumber
-keywords: SetPersonNumber(String)
+keywords: NSPersonEntity, GetPersonNumber
 so.topic: reference
 ---
 
-
 Alphanumeric user field
 
-
-
-* **PersonNumber:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personNumber** String
 

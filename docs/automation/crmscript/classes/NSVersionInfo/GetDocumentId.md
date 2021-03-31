@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSVersionInfo_GetDocumentId
-description: NSVersionInfo.GetDocumentId()
+description: Integer NSVersionInfo.GetDocumentId()
 intellisense: NSVersionInfo.GetDocumentId
-keywords: GetDocumentId()
+keywords: NSVersionInfo, GetDocumentId
 so.topic: reference
 ---
 
-
 The document Id that uniquely identifies the document within the SuperOffice database
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

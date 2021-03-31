@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSVersionInfo_SetDocumentId_Integer_p_0
-description: NSVersionInfo.SetDocumentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSVersionInfo_SetDocumentId
+description: NSVersionInfo.SetDocumentId(Integer documentId)
 intellisense: NSVersionInfo.SetDocumentId
-keywords: SetDocumentId(Integer)
+keywords: NSVersionInfo, GetDocumentId
 so.topic: reference
 ---
 
-
 The document Id that uniquely identifies the document within the SuperOffice database
 
-
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **documentId** Integer
 

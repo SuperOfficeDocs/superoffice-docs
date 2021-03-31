@@ -1,0 +1,13 @@
+﻿---
+title: crmscript_ref_NSSelectionEntity_GetMailingsProviderName
+description: String NSSelectionEntity.GetMailingsProviderName()
+intellisense: NSSelectionEntity.GetMailingsProviderName
+keywords: NSSelectionEntity, GetMailingsProviderName
+so.topic: reference
+---
+
+The name of the provider for the Mailings tab, if relevant; this string will contain resource references
+
+**Returns:** String
+
+

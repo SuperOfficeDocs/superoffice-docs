@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentPurpose_SetUpdatedDate_DateTime_p_0
-description: NSConsentPurpose.SetUpdatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSConsentPurpose_SetUpdatedDate
+description: NSConsentPurpose.SetUpdatedDate(DateTime updatedDate)
 intellisense: NSConsentPurpose.SetUpdatedDate
-sortOrder: 1699
-keywords: SetUpdatedDate(DateTime)
+keywords: NSConsentPurpose, GetUpdatedDate
 so.topic: reference
 ---
 
-
 The date the consent purpose was last updated
 
-
-
-* **UpdatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updatedDate** DateTime
 

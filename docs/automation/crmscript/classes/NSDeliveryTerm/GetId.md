@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDeliveryTerm_GetId
-description: NSDeliveryTerm.GetId()
+description: Integer NSDeliveryTerm.GetId()
 intellisense: NSDeliveryTerm.GetId
-sortOrder: 2366
-keywords: GetId()
+keywords: NSDeliveryTerm, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

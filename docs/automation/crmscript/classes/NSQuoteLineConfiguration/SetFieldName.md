@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLineConfiguration_SetFieldName_String_p_0
-description: NSQuoteLineConfiguration.SetFieldName(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteLineConfiguration_SetFieldName
+description: NSQuoteLineConfiguration.SetFieldName(String fieldName)
 intellisense: NSQuoteLineConfiguration.SetFieldName
-keywords: SetFieldName(String)
+keywords: NSQuoteLineConfiguration, GetFieldName
 so.topic: reference
 ---
 
-
 The name of the field being configured, from data dictionary
 
-
-
-* **FieldName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fieldName** String
 

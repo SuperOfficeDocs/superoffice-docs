@@ -1,17 +1,12 @@
----
-title: crmscript_ref_NSCustomerServiceAgent_RemoveSession_Integer_p_0
-description: NSCustomerServiceAgent.RemoveSession(Integer p_0)
+﻿---
+title: crmscript_ref_NSCustomerServiceAgent_RemoveSession
+description: Void RemoveSession(Integer loginId)
 intellisense: NSCustomerServiceAgent.RemoveSession
-sortOrder: 2247
-keywords: RemoveSession(Integer)
+keywords: NSCustomerServiceAgent,RemoveSession
 so.topic: reference
 ---
 
-
 Remove a login session for a CS user
 
-
-
-* **loginId:** The login id to remove
-
-
+**Parameters:**
+ - **loginId** The login id to remove

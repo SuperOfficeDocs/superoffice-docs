@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetCountryId_Integer_p_0
-description: NSSaleStakeholder.SetCountryId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetCountryId
+description: NSSaleStakeholder.SetCountryId(Integer countryId)
 intellisense: NSSaleStakeholder.SetCountryId
-keywords: SetCountryId(Integer)
+keywords: NSSaleStakeholder, GetCountryId
 so.topic: reference
 ---
 
-
 Country id - primary key
 
-
-
-* **CountryId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **countryId** Integer
 

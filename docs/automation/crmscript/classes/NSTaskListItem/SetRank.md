@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTaskListItem_SetRank_Integer_p_0
-description: NSTaskListItem.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSTaskListItem_SetRank
+description: NSTaskListItem.SetRank(Integer rank)
 intellisense: NSTaskListItem.SetRank
-keywords: SetRank(Integer)
+keywords: NSTaskListItem, GetRank
 so.topic: reference
 ---
 
-
 Rank order
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

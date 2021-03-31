@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPhoneListItem_GetId
-description: NSPhoneListItem.GetId()
+description: Integer NSPhoneListItem.GetId()
 intellisense: NSPhoneListItem.GetId
-keywords: GetId()
+keywords: NSPhoneListItem, GetId
 so.topic: reference
 ---
 
-
 The contact or person's id
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

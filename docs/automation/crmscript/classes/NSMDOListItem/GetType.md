@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMDOListItem_GetType
-description: NSMDOListItem.GetType()
+description: String NSMDOListItem.GetType()
 intellisense: NSMDOListItem.GetType
-keywords: GetType()
+keywords: NSMDOListItem, GetType
 so.topic: reference
 ---
 
-
 The type of the ListItem. Custom field.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

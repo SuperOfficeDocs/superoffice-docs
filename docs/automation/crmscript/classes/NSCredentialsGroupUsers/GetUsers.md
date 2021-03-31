@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCredentialsGroupUsers_GetUsers
-description: NSCredentialsGroupUsers.GetUsers()
+description: CredentialUserArray NSCredentialsGroupUsers.GetUsers()
 intellisense: NSCredentialsGroupUsers.GetUsers
-sortOrder: 2064
-keywords: GetUsers()
+keywords: NSCredentialsGroupUsers, GetUsers
 so.topic: reference
 ---
 
-
 The list of actual users that can be selected
 
-
-
-* **Returns:** CredentialUserArray
+**Returns:** CredentialUserArray
 
 

@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSImportColumnInfo
 description: NSImportColumnInfo
 intellisense: Void.NSImportColumnInfo
-sortOrder: 3958
+keywords: NSImportColumnInfo
 so.topic: reference
 ---
 
-
 Column info for importlines.
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedDocumentEntity_SetDocTmpl_NSDocumentTemplate_p_0
-description: NSSuggestedDocumentEntity.SetDocTmpl(NSDocumentTemplate p_0)
+﻿---
+title: crmscript_ref_NSSuggestedDocumentEntity_SetDocTmpl
+description: NSSuggestedDocumentEntity.SetDocTmpl(DocumentTemplate docTmpl)
 intellisense: NSSuggestedDocumentEntity.SetDocTmpl
-keywords: SetDocTmpl(NSDocumentTemplate)
+keywords: NSSuggestedDocumentEntity, GetDocTmpl
 so.topic: reference
 ---
 
-
 Document template
 
-
-
-* **DocTmpl:** DocumentTemplate
-* **Returns:** DocumentTemplate
-
+**Parameter:** 
+ - **docTmpl** DocumentTemplate
 

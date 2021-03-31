@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetContactId_Integer_p_0
-description: NSContactEntity.SetContactId(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetContactId
+description: NSContactEntity.SetContactId(Integer contactId)
 intellisense: NSContactEntity.SetContactId
-sortOrder: 1883
-keywords: SetContactId(Integer)
+keywords: NSContactEntity, GetContactId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **contactId** Integer
 

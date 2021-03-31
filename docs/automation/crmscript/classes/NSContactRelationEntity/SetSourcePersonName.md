@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactRelationEntity_SetSourcePersonName_String_p_0
-description: NSContactRelationEntity.SetSourcePersonName(String p_0)
+﻿---
+title: crmscript_ref_NSContactRelationEntity_SetSourcePersonName
+description: NSContactRelationEntity.SetSourcePersonName(String sourcePersonName)
 intellisense: NSContactRelationEntity.SetSourcePersonName
-sortOrder: 1977
-keywords: SetSourcePersonName(String)
+keywords: NSContactRelationEntity, GetSourcePersonName
 so.topic: reference
 ---
 
-
 Name of the source person.
 
-
-
-* **SourcePersonName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **sourcePersonName** String
 

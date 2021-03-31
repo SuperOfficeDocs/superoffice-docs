@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetProjectName_String_p_0
-description: NSSale.SetProjectName(String p_0)
+﻿---
+title: crmscript_ref_NSSale_SetProjectName
+description: NSSale.SetProjectName(String projectName)
 intellisense: NSSale.SetProjectName
-keywords: SetProjectName(String)
+keywords: NSSale, GetProjectName
 so.topic: reference
 ---
 
-
 Project name
 
-
-
-* **ProjectName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **projectName** String
 

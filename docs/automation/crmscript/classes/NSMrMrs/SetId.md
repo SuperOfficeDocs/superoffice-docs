@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSMrMrs_SetId_Integer_p_0
-description: NSMrMrs.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSMrMrs_SetId
+description: NSMrMrs.SetId(Integer id)
 intellisense: NSMrMrs.SetId
-keywords: SetId(Integer)
+keywords: NSMrMrs, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

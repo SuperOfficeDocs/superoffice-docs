@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetAlarmLeadTime
-description: NSAppointment.GetAlarmLeadTime()
+description: TimeSpan NSAppointment.GetAlarmLeadTime()
 intellisense: NSAppointment.GetAlarmLeadTime
-sortOrder: 766
-keywords: GetAlarmLeadTime()
+keywords: NSAppointment, GetAlarmLeadTime
 so.topic: reference
 ---
 
-
 Alarm lead time.
 
-
-
-* **Returns:** TimeSpan
+**Returns:** TimeSpan
 
 

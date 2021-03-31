@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectMember_GetProjectMemberTypeId
-description: NSProjectMember.GetProjectMemberTypeId()
+description: Integer NSProjectMember.GetProjectMemberTypeId()
 intellisense: NSProjectMember.GetProjectMemberTypeId
-keywords: GetProjectMemberTypeId()
+keywords: NSProjectMember, GetProjectMemberTypeId
 so.topic: reference
 ---
 
-
 ProjectMember Type Id - from the ProjectMemberType list.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

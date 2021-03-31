@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAssociate_SetPersonId_Integer_p_0
-description: NSAssociate.SetPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAssociate_SetPersonId
+description: NSAssociate.SetPersonId(Integer personId)
 intellisense: NSAssociate.SetPersonId
-sortOrder: 1273
-keywords: SetPersonId(Integer)
+keywords: NSAssociate, GetPersonId
 so.topic: reference
 ---
 
-
 Owning person record
 
-
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **personId** Integer
 

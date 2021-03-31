@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMailMergeTask_GetDuration
-description: NSMailMergeTask.GetDuration()
+description: Integer NSMailMergeTask.GetDuration()
 intellisense: NSMailMergeTask.GetDuration
-keywords: GetDuration()
+keywords: NSMailMergeTask, GetDuration
 so.topic: reference
 ---
 
-
 Duration of task
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

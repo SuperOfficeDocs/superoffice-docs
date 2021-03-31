@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSProductCategory_SetValue_String_p_0
-description: NSProductCategory.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSProductCategory_SetValue
+description: NSProductCategory.SetValue(String value)
 intellisense: NSProductCategory.SetValue
-keywords: SetValue(String)
+keywords: NSProductCategory, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

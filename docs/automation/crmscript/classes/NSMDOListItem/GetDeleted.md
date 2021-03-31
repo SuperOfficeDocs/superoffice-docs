@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMDOListItem_GetDeleted
-description: NSMDOListItem.GetDeleted()
+description: Bool NSMDOListItem.GetDeleted()
 intellisense: NSMDOListItem.GetDeleted
-keywords: GetDeleted()
+keywords: NSMDOListItem, GetDeleted
 so.topic: reference
 ---
 
-
 The deleted status of the ListItem
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

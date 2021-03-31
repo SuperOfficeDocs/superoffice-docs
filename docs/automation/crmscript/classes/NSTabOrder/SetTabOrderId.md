@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTabOrder_SetTabOrderId_Integer_p_0
-description: NSTabOrder.SetTabOrderId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTabOrder_SetTabOrderId
+description: NSTabOrder.SetTabOrderId(Integer tabOrderId)
 intellisense: NSTabOrder.SetTabOrderId
-keywords: SetTabOrderId(Integer)
+keywords: NSTabOrder, GetTabOrderId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **TabOrderId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **tabOrderId** Integer
 

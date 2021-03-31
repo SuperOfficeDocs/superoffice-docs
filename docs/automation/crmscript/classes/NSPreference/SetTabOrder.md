@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPreference_SetTabOrder_NSTabOrder_p_0
-description: NSPreference.SetTabOrder(NSTabOrder p_0)
+﻿---
+title: crmscript_ref_NSPreference_SetTabOrder
+description: NSPreference.SetTabOrder(TabOrder tabOrder)
 intellisense: NSPreference.SetTabOrder
-keywords: SetTabOrder(NSTabOrder)
+keywords: NSPreference, GetTabOrder
 so.topic: reference
 ---
 
 
-* **TabOrder:** TabOrder
-* **Returns:** TabOrder
 
+**Parameter:** 
+ - **tabOrder** TabOrder
 

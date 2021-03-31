@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSPreferenceAgent_GetPreferenceDescription_Integer_p_0
-description: NSPreferenceAgent.GetPreferenceDescription(Integer p_0)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_GetPreferenceDescription
+description: NSPreferenceDescription GetPreferenceDescription(Integer preferenceDescriptionId);
 intellisense: NSPreferenceAgent.GetPreferenceDescription
-keywords: GetPreferenceDescription(Integer)
+keywords: NSPreferenceAgent,GetPreferenceDescription
 so.topic: reference
 ---
 
+Gets a NSPreferenceDescription object.
 
-Gets a PreferenceDescription object.
+**Parameters:**
+ - **preferenceDescriptionId** The identifier of the NSPreferenceDescription object
 
+**Returns:** NSPreferenceDescription
 
-
-* **preferenceDescriptionId:** The identifier of the PreferenceDescription object
-* **Returns:** PreferenceDescription
-
+```crmscript
+NSPreferenceAgent agent;
+NSPreferenceDescription thing = agent.GetPreferenceDescription(123);
+```
 

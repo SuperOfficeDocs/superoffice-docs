@@ -1,18 +1,14 @@
----
-title: crmscript_ref_NSProjectAgent_SaveProjectMembersFunctionAndComment_Integer__p_0_Integer_p_1_String_p_2
-description: NSProjectAgent.SaveProjectMembersFunctionAndComment(Integer[] p_0, Integer p_1, String p_2)
+﻿---
+title: crmscript_ref_NSProjectAgent_SaveProjectMembersFunctionAndComment
+description: Void SaveProjectMembersFunctionAndComment(IntegerArray projectMemberIds, Integer roleId, String comment)
 intellisense: NSProjectAgent.SaveProjectMembersFunctionAndComment
-keywords: SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
+keywords: NSProjectAgent,SaveProjectMembersFunctionAndComment
 so.topic: reference
 ---
 
-
 Saves role and comment on an array of projectmembers represented by ids
 
-
-
-* **projectMemberIds
-\param** p1 roleId
-* **comment**
-
-
+**Parameters:**
+ - **projectMemberIds** 
+ - **roleId** 
+ - **comment** 

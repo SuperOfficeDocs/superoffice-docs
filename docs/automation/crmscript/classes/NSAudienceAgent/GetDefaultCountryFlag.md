@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAudienceAgent_GetDefaultCountryFlag_String_p_0
-description: NSAudienceAgent.GetDefaultCountryFlag(String p_0)
+﻿---
+title: crmscript_ref_NSAudienceAgent_GetDefaultCountryFlag
+description: Image GetDefaultCountryFlag(String layoutName)
 intellisense: NSAudienceAgent.GetDefaultCountryFlag
-sortOrder: 1303
-keywords: GetDefaultCountryFlag(String)
+keywords: NSAudienceAgent,GetDefaultCountryFlag
 so.topic: reference
 ---
 
-
 Returns the default country flag image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.
 
+**Parameters:**
+ - **layoutName** Name of the Audience layout instance
 
+**Returns:** The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
 
-* **layoutName:** Name of the Audience layout instance
-* **Returns:** The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
-
+```crmscript
+NSAudienceAgent agent;
+String layoutName;
+Image res = agent.GetDefaultCountryFlag(layoutName);
+```
 

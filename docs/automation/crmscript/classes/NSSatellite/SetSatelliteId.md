@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSatellite_SetSatelliteId_Integer_p_0
-description: NSSatellite.SetSatelliteId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSatellite_SetSatelliteId
+description: NSSatellite.SetSatelliteId(Integer satelliteId)
 intellisense: NSSatellite.SetSatelliteId
-keywords: SetSatelliteId(Integer)
+keywords: NSSatellite, GetSatelliteId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **SatelliteId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **satelliteId** Integer
 

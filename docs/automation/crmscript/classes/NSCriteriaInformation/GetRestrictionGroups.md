@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCriteriaInformation_GetRestrictionGroups
-description: NSCriteriaInformation.GetRestrictionGroups()
+description: ArchiveRestrictionGroupArray NSCriteriaInformation.GetRestrictionGroups()
 intellisense: NSCriteriaInformation.GetRestrictionGroups
-sortOrder: 2106
-keywords: GetRestrictionGroups()
+keywords: NSCriteriaInformation, GetRestrictionGroups
 so.topic: reference
 ---
 
-
 Array of restrictiongroups, including the default first group of restrictions
 
-
-
-* **Returns:** ArchiveRestrictionGroupArray
+**Returns:** ArchiveRestrictionGroupArray
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetSource_Integer_p_0
-description: NSContactEntity.SetSource(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetSource
+description: NSContactEntity.SetSource(Integer source)
 intellisense: NSContactEntity.SetSource
-sortOrder: 1909
-keywords: SetSource(Integer)
+keywords: NSContactEntity, GetSource
 so.topic: reference
 ---
 
-
 How did we get this contact? For future integration needs
 
-
-
-* **Source:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **source** Integer
 

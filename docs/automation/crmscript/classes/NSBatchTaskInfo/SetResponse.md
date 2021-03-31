@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetResponse_String_p_0
-description: NSBatchTaskInfo.SetResponse(String p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetResponse
+description: NSBatchTaskInfo.SetResponse(String response)
 intellisense: NSBatchTaskInfo.SetResponse
-sortOrder: 1402
-keywords: SetResponse(String)
+keywords: NSBatchTaskInfo, GetResponse
 so.topic: reference
 ---
 
-
 Maps to the response field in the batchtask table.
 
-
-
-* **Response:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **response** String
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSEMailAgent_SaveEMailAccount_NSEMailAccount_p_0
-description: NSEMailAgent.SaveEMailAccount(NSEMailAccount p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_SaveEMailAccount
+description: NSEMailAccount SaveEMailAccount(NSEMailAccount eMailAccount);
 intellisense: NSEMailAgent.SaveEMailAccount
-sortOrder: 2798
-keywords: SaveEMailAccount(NSEMailAccount)
+keywords: NSEMailAgent,SaveEMailAccount
 so.topic: reference
 ---
+	  
+Updates the existing NSEMailAccount or creates a new NSEMailAccount if the id parameter is 0
+	  
+**Parameters**:
+ - **eMailAccount** The NSEMailAccount to save.
 
+**Returns:** New or updated NSEMailAccount
 
-Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty
-
-
-
-* **eMailAccount:** The EMailAccount that is saved
-* **Returns:** New or updated EMailAccount
-
+```crmscript
+NSEMail  agent;
+NSEMailAccount thing = agent.CreateDefaultEMailAccount();
+thing = agent.SaveEMailAccount(thing);
+```
 

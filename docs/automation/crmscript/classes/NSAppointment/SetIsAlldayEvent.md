@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetIsAlldayEvent_Bool_p_0
-description: NSAppointment.SetIsAlldayEvent(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetIsAlldayEvent
+description: NSAppointment.SetIsAlldayEvent(Bool isAlldayEvent)
 intellisense: NSAppointment.SetIsAlldayEvent
-sortOrder: 794
-keywords: SetIsAlldayEvent(Bool)
+keywords: NSAppointment, GetIsAlldayEvent
 so.topic: reference
 ---
 
-
 True if all day event
 
-
-
-* **IsAlldayEvent:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isAlldayEvent** Bool
 

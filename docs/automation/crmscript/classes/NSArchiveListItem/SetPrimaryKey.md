@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveListItem_SetPrimaryKey_Integer_p_0
-description: NSArchiveListItem.SetPrimaryKey(Integer p_0)
+﻿---
+title: crmscript_ref_NSArchiveListItem_SetPrimaryKey
+description: NSArchiveListItem.SetPrimaryKey(Integer primaryKey)
 intellisense: NSArchiveListItem.SetPrimaryKey
-sortOrder: 1186
-keywords: SetPrimaryKey(Integer)
+keywords: NSArchiveListItem, GetPrimaryKey
 so.topic: reference
 ---
 
-
 The  primary key for the row
 
-
-
-* **PrimaryKey:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **primaryKey** Integer
 

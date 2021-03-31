@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSBusiness_SetValue_String_p_0
-description: NSBusiness.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSBusiness_SetValue
+description: NSBusiness.SetValue(String value)
 intellisense: NSBusiness.SetValue
-sortOrder: 1483
-keywords: SetValue(String)
+keywords: NSBusiness, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

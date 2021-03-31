@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetContactUrl_String__p_0
-description: NSParticipantSyncData.SetContactUrl(String[] p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetContactUrl
+description: NSParticipantSyncData.SetContactUrl(StringArray contactUrl)
 intellisense: NSParticipantSyncData.SetContactUrl
-keywords: SetContactUrl(String[])
+keywords: NSParticipantSyncData, GetContactUrl
 so.topic: reference
 ---
 
-
 The contact's internet adresses
 
-
-
-* **ContactUrl:** StringArray
-* **Returns:** StringArray
-
+**Parameter:** 
+ - **contactUrl** StringArray
 

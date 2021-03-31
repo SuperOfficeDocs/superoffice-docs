@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLanguageInfo_SetTwoLetterISOLanguageName_String_p_0
-description: NSLanguageInfo.SetTwoLetterISOLanguageName(String p_0)
+﻿---
+title: crmscript_ref_NSLanguageInfo_SetTwoLetterISOLanguageName
+description: NSLanguageInfo.SetTwoLetterISOLanguageName(String twoLetterISOLanguageName)
 intellisense: NSLanguageInfo.SetTwoLetterISOLanguageName
-keywords: SetTwoLetterISOLanguageName(String)
+keywords: NSLanguageInfo, GetTwoLetterISOLanguageName
 so.topic: reference
 ---
 
-
 ISO 2-letter abbreviation
 
-
-
-* **TwoLetterISOLanguageName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **twoLetterISOLanguageName** String
 

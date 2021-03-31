@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoRelation_GetTargetTable
-description: NSFieldInfoRelation.GetTargetTable()
+description: String NSFieldInfoRelation.GetTargetTable()
 intellisense: NSFieldInfoRelation.GetTargetTable
-sortOrder: 3540
-keywords: GetTargetTable()
+keywords: NSFieldInfoRelation, GetTargetTable
 so.topic: reference
 ---
 
+Name of target table: 'contact', 'y_equipment'
 
-Name of target table: 'contact', 'y\_equipment'
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

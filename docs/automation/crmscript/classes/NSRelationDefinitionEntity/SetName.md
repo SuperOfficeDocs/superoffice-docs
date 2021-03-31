@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRelationDefinitionEntity_SetName_String_p_0
-description: NSRelationDefinitionEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSRelationDefinitionEntity_SetName
+description: NSRelationDefinitionEntity.SetName(String name)
 intellisense: NSRelationDefinitionEntity.SetName
-keywords: SetName(String)
+keywords: NSRelationDefinitionEntity, GetName
 so.topic: reference
 ---
 
-
 Active text
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

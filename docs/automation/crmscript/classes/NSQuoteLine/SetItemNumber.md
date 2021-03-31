@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetItemNumber_String_p_0
-description: NSQuoteLine.SetItemNumber(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetItemNumber
+description: NSQuoteLine.SetItemNumber(String itemNumber)
 intellisense: NSQuoteLine.SetItemNumber
-keywords: SetItemNumber(String)
+keywords: NSQuoteLine, GetItemNumber
 so.topic: reference
 ---
 
-
 Norwegian: «Postnummer». Specific numbers from some hierarchy, for instance '1.4.3.2'. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.
 
-
-
-* **ItemNumber:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **itemNumber** String
 

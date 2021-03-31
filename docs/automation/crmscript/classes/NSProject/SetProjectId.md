@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProject_SetProjectId_Integer_p_0
-description: NSProject.SetProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProject_SetProjectId
+description: NSProject.SetProjectId(Integer projectId)
 intellisense: NSProject.SetProjectId
-keywords: SetProjectId(Integer)
+keywords: NSProject, GetProjectId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectId** Integer
 

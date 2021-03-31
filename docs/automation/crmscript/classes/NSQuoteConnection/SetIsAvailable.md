@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteConnection_SetIsAvailable_Bool_p_0
-description: NSQuoteConnection.SetIsAvailable(Bool p_0)
+﻿---
+title: crmscript_ref_NSQuoteConnection_SetIsAvailable
+description: NSQuoteConnection.SetIsAvailable(Bool isAvailable)
 intellisense: NSQuoteConnection.SetIsAvailable
-keywords: SetIsAvailable(Bool)
+keywords: NSQuoteConnection, GetIsAvailable
 so.topic: reference
 ---
 
-
 Whether or not the specified connection is available. Typically, without network access the availability is false.
 
-
-
-* **IsAvailable:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isAvailable** Bool
 

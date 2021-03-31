@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactOrPersonFromEmail_GetPersonId
-description: NSContactOrPersonFromEmail.GetPersonId()
+description: Integer NSContactOrPersonFromEmail.GetPersonId()
 intellisense: NSContactOrPersonFromEmail.GetPersonId
-sortOrder: 1921
-keywords: GetPersonId()
+keywords: NSContactOrPersonFromEmail, GetPersonId
 so.topic: reference
 ---
 
-
 The id of the person
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

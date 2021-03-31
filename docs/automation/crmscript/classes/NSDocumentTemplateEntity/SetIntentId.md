@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetIntentId_Integer_p_0
-description: NSDocumentTemplateEntity.SetIntentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetIntentId
+description: NSDocumentTemplateEntity.SetIntentId(Integer intentId)
 intellisense: NSDocumentTemplateEntity.SetIntentId
-sortOrder: 2687
-keywords: SetIntentId(Integer)
+keywords: NSDocumentTemplateEntity, GetIntentId
 so.topic: reference
 ---
 
-
 What is the intention of this document (used by SAINT)
 
-
-
-* **IntentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **intentId** Integer
 

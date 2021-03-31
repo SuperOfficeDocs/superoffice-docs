@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetPriority_Integer_p_0
-description: NSTicket.SetPriority(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetPriority
+description: NSTicket.SetPriority(Integer priority)
 intellisense: NSTicket.SetPriority
-keywords: SetPriority(Integer)
+keywords: NSTicket, GetPriority
 so.topic: reference
 ---
 
+The reference to the ticket_priority table.
 
-The reference to the ticket\_priority table.
-
-
-
-* **Priority:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **priority** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSOutgoingMessage_SetParentMessagingId_Integer_p_0
-description: NSOutgoingMessage.SetParentMessagingId(Integer p_0)
+﻿---
+title: crmscript_ref_NSOutgoingMessage_SetParentMessagingId
+description: NSOutgoingMessage.SetParentMessagingId(Integer parentMessagingId)
 intellisense: NSOutgoingMessage.SetParentMessagingId
-keywords: SetParentMessagingId(Integer)
+keywords: NSOutgoingMessage, GetParentMessagingId
 so.topic: reference
 ---
 
-
 Id to the previous outgoing message related to this one. Used from message threading.
 
-
-
-* **ParentMessagingId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **parentMessagingId** Integer
 

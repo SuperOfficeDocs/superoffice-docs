@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetEmailName_String_p_0
-description: NSPerson.SetEmailName(String p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetEmailName
+description: NSPerson.SetEmailName(String emailName)
 intellisense: NSPerson.SetEmailName
-keywords: SetEmailName(String)
+keywords: NSPerson, GetEmailName
 so.topic: reference
 ---
 
-
 E-mail description
 
-
-
-* **EmailName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **emailName** String
 

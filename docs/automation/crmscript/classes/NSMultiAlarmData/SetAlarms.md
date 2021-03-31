@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSMultiAlarmData_SetAlarms_NSAlarmData__p_0
-description: NSMultiAlarmData.SetAlarms(NSAlarmData[] p_0)
+﻿---
+title: crmscript_ref_NSMultiAlarmData_SetAlarms
+description: NSMultiAlarmData.SetAlarms(AlarmDataArray alarms)
 intellisense: NSMultiAlarmData.SetAlarms
-keywords: SetAlarms(NSAlarmData[])
+keywords: NSMultiAlarmData, GetAlarms
 so.topic: reference
 ---
 
 
-* **Alarms:** AlarmDataArray
-* **Returns:** AlarmDataArray
 
+**Parameter:** 
+ - **alarms** AlarmDataArray
 

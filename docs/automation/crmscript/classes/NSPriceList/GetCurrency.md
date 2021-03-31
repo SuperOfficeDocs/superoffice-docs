@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPriceList_GetCurrency
-description: NSPriceList.GetCurrency()
+description: String NSPriceList.GetCurrency()
 intellisense: NSPriceList.GetCurrency
-keywords: GetCurrency()
+keywords: NSPriceList, GetCurrency
 so.topic: reference
 ---
 
-
 The iso currency code, like 'USD' or 'NOK'.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleSummaryItem_GetSaleId
-description: NSSaleSummaryItem.GetSaleId()
+description: Integer NSSaleSummaryItem.GetSaleId()
 intellisense: NSSaleSummaryItem.GetSaleId
-keywords: GetSaleId()
+keywords: NSSaleSummaryItem, GetSaleId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

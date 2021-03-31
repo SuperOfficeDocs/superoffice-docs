@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactRelationEntity_GetActiveText
-description: NSContactRelationEntity.GetActiveText()
+description: String NSContactRelationEntity.GetActiveText()
 intellisense: NSContactRelationEntity.GetActiveText
-sortOrder: 1955
-keywords: GetActiveText()
+keywords: NSContactRelationEntity, GetActiveText
 so.topic: reference
 ---
 
-
 Active text for the relation.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

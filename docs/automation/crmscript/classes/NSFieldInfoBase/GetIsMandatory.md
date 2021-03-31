@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoBase_GetIsMandatory
-description: NSFieldInfoBase.GetIsMandatory()
+description: Bool NSFieldInfoBase.GetIsMandatory()
 intellisense: NSFieldInfoBase.GetIsMandatory
-sortOrder: 3465
-keywords: GetIsMandatory()
+keywords: NSFieldInfoBase, GetIsMandatory
 so.topic: reference
 ---
 
-
 0 = no, 1 = yes (field must be filled out)
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

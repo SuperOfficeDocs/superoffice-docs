@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetSize
-description: NSEMailEntity.GetSize()
+description: Integer NSEMailEntity.GetSize()
 intellisense: NSEMailEntity.GetSize
-sortOrder: 2956
-keywords: GetSize()
+keywords: NSEMailEntity, GetSize
 so.topic: reference
 ---
 
-
 Total size of the e-mail
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

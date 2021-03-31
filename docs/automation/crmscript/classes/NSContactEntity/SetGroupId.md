@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetGroupId_Integer_p_0
-description: NSContactEntity.SetGroupId(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetGroupId
+description: NSContactEntity.SetGroupId(Integer groupId)
 intellisense: NSContactEntity.SetGroupId
-sortOrder: 1899
-keywords: SetGroupId(Integer)
+keywords: NSContactEntity, GetGroupId
 so.topic: reference
 ---
 
+Group id of original owning associate, semantics like appnt.grp_id
 
-Group id of original owning associate, semantics like appnt.grp\_id
-
-
-
-* **GroupId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **groupId** Integer
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPreferenceDescription_GetName
-description: NSPreferenceDescription.GetName()
+description: String NSPreferenceDescription.GetName()
 intellisense: NSPreferenceDescription.GetName
-keywords: GetName()
+keywords: NSPreferenceDescription, GetName
 so.topic: reference
 ---
 
-
 Multi-language name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

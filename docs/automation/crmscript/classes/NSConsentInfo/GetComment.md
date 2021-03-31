@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentInfo_GetComment
-description: NSConsentInfo.GetComment()
+description: String NSConsentInfo.GetComment()
 intellisense: NSConsentInfo.GetComment
-sortOrder: 1636
-keywords: GetComment()
+keywords: NSConsentInfo, GetComment
 so.topic: reference
 ---
 
-
 Comment regarding this specific consent
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

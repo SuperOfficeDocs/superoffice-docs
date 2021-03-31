@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_CreateAndSaveQuoteVersion_Integer_p_0
-description: NSQuoteAgent.CreateAndSaveQuoteVersion(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_CreateAndSaveQuoteVersion
+description: QuoteVersion CreateAndSaveQuoteVersion(Integer quoteVersionId)
 intellisense: NSQuoteAgent.CreateAndSaveQuoteVersion
-keywords: CreateAndSaveQuoteVersion(Integer)
+keywords: NSQuoteAgent,CreateAndSaveQuoteVersion
 so.topic: reference
 ---
 
-
 Created a new QuoteVersion based on another QuoteVersion on the same Quote.
 
+**Parameters:**
+ - **quoteVersionId** QuoteVersionId of the version to copy the contents from.
 
+**Returns:** The Quote version
 
-* **quoteVersionId:** QuoteVersionId of the version to copy the contents from.
-* **Returns:** The Quote version
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteVersionId;
+QuoteVersion res = agent.CreateAndSaveQuoteVersion(quoteVersionId);
+```
 

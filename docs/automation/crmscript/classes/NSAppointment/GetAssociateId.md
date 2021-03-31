@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetAssociateId
-description: NSAppointment.GetAssociateId()
+description: Integer NSAppointment.GetAssociateId()
 intellisense: NSAppointment.GetAssociateId
-sortOrder: 730
-keywords: GetAssociateId()
+keywords: NSAppointment, GetAssociateId
 so.topic: reference
 ---
 
-
 ID of associate whose diary the appointment is in, REQUIRED
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

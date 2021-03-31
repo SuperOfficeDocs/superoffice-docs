@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetDeleted_Integer_p_0
-description: NSRoleEntity.SetDeleted(Integer p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetDeleted
+description: NSRoleEntity.SetDeleted(Integer deleted)
 intellisense: NSRoleEntity.SetDeleted
-keywords: SetDeleted(Integer)
+keywords: NSRoleEntity, GetDeleted
 so.topic: reference
 ---
 
-
 1 if role has been deleted (we do not actually delete)
 
-
-
-* **Deleted:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **deleted** Integer
 

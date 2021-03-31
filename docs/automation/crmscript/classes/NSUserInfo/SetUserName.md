@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserInfo_SetUserName_String_p_0
-description: NSUserInfo.SetUserName(String p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetUserName
+description: NSUserInfo.SetUserName(String userName)
 intellisense: NSUserInfo.SetUserName
-keywords: SetUserName(String)
+keywords: NSUserInfo, GetUserName
 so.topic: reference
 ---
 
-
 Initials, also login name, possibly database user name
 
-
-
-* **UserName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **userName** String
 

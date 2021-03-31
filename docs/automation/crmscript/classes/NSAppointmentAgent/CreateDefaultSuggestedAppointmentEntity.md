@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentAgent_CreateDefaultSuggestedAppointmentEntity
-description: NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity()
+description: NSSuggestedAppointmentEntity CreateDefaultSuggestedAppointmentEntity()
 intellisense: NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity
-sortOrder: 899
-keywords: CreateDefaultSuggestedAppointmentEntity()
+keywords: NSAppointmentAgent,CreateDefaultSuggestedAppointmentEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSSuggestedAppointmentEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSSuggestedAppointmentEntity with default values.
 
-
-Loading default values into a new SuggestedAppointmentEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New SuggestedAppointmentEntity with default values
-
+```crmscript
+NSAppointmentAgent agent;
+NSSuggestedAppointmentEntity thing = agent.CreateDefaultSuggestedAppointmentEntity();
+thing = agent.SaveSuggestedAppointmentEntity(thing);
+```
 

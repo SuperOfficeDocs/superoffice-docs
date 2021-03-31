@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetDomainName_String_p_0
-description: NSCountry.SetDomainName(String p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetDomainName
+description: NSCountry.SetDomainName(String domainName)
 intellisense: NSCountry.SetDomainName
-sortOrder: 2035
-keywords: SetDomainName(String)
+keywords: NSCountry, GetDomainName
 so.topic: reference
 ---
 
-
 Domain name of the country
 
-
-
-* **DomainName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **domainName** String
 

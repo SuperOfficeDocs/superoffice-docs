@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListPreferences_SetSearchFirstname_Bool_p_0
-description: NSPhoneListPreferences.SetSearchFirstname(Bool p_0)
+﻿---
+title: crmscript_ref_NSPhoneListPreferences_SetSearchFirstname
+description: NSPhoneListPreferences.SetSearchFirstname(Bool searchFirstname)
 intellisense: NSPhoneListPreferences.SetSearchFirstname
-keywords: SetSearchFirstname(Bool)
+keywords: NSPhoneListPreferences, GetSearchFirstname
 so.topic: reference
 ---
 
-
 True if you want to search for Persons by their firstname.
 
-
-
-* **SearchFirstname:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **searchFirstname** Bool
 

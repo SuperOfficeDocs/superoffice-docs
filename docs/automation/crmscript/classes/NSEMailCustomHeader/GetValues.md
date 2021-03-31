@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailCustomHeader_GetValues
-description: NSEMailCustomHeader.GetValues()
+description: StringArray NSEMailCustomHeader.GetValues()
 intellisense: NSEMailCustomHeader.GetValues
-sortOrder: 2939
-keywords: GetValues()
+keywords: NSEMailCustomHeader, GetValues
 so.topic: reference
 ---
 
 
-* **Returns:** StringArray
+
+**Returns:** StringArray
 
 

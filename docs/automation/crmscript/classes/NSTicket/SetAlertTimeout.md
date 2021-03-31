@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetAlertTimeout_DateTime_p_0
-description: NSTicket.SetAlertTimeout(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetAlertTimeout
+description: NSTicket.SetAlertTimeout(DateTime alertTimeout)
 intellisense: NSTicket.SetAlertTimeout
-keywords: SetAlertTimeout(DateTime)
+keywords: NSTicket, GetAlertTimeout
 so.topic: reference
 ---
 
+The datetime for when the ticket should jump to the next alert_level.
 
-The datetime for when the ticket should jump to the next alert\_level.
-
-
-
-* **AlertTimeout:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **alertTimeout** DateTime
 

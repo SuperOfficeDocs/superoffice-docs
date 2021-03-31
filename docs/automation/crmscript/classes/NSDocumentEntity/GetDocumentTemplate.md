@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetDocumentTemplate
-description: NSDocumentEntity.GetDocumentTemplate()
+description: DocumentTemplate NSDocumentEntity.GetDocumentTemplate()
 intellisense: NSDocumentEntity.GetDocumentTemplate
-sortOrder: 2571
-keywords: GetDocumentTemplate()
+keywords: NSDocumentEntity, GetDocumentTemplate
 so.topic: reference
 ---
 
-
 The template type of the document.
 
-
-
-* **Returns:** DocumentTemplate
+**Returns:** DocumentTemplate
 
 

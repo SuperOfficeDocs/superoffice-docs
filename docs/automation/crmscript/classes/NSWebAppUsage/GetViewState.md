@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebAppUsage_GetViewState
-description: NSWebAppUsage.GetViewState()
+description: String NSWebAppUsage.GetViewState()
 intellisense: NSWebAppUsage.GetViewState
-keywords: GetViewState()
+keywords: NSWebAppUsage, GetViewState
 so.topic: reference
 ---
 
+The SoProtocol(ViewState)
 
-    The SoProtocol(ViewState)
-    
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

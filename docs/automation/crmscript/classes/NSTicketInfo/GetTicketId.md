@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketInfo_GetTicketId
-description: NSTicketInfo.GetTicketId()
+description: Integer NSTicketInfo.GetTicketId()
 intellisense: NSTicketInfo.GetTicketId
-keywords: GetTicketId()
+keywords: NSTicketInfo, GetTicketId
 so.topic: reference
 ---
 
-
 The id of the created ticket
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

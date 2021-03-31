@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetStatus_NSTicketStatusEntity_p_0
-description: NSTicketEntity.SetStatus(NSTicketStatusEntity p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetStatus
+description: NSTicketEntity.SetStatus(TicketStatusEntity status)
 intellisense: NSTicketEntity.SetStatus
-keywords: SetStatus(NSTicketStatusEntity)
+keywords: NSTicketEntity, GetStatus
 so.topic: reference
 ---
 
-
 The ticket status entity which this ticket is connected to
 
-
-
-* **Status:** TicketStatusEntity
-* **Returns:** TicketStatusEntity
-
+**Parameter:** 
+ - **status** TicketStatusEntity
 

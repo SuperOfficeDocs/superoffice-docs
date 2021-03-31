@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLicenseInfo_SetCompanyName_String_p_0
-description: NSLicenseInfo.SetCompanyName(String p_0)
+﻿---
+title: crmscript_ref_NSLicenseInfo_SetCompanyName
+description: NSLicenseInfo.SetCompanyName(String companyName)
 intellisense: NSLicenseInfo.SetCompanyName
-keywords: SetCompanyName(String)
+keywords: NSLicenseInfo, GetCompanyName
 so.topic: reference
 ---
 
-
 Name of the database owner company.
 
-
-
-* **CompanyName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **companyName** String
 

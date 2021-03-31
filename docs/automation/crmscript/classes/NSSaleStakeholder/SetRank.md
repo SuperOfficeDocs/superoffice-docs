@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetRank_Integer_p_0
-description: NSSaleStakeholder.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetRank
+description: NSSaleStakeholder.SetRank(Integer rank)
 intellisense: NSSaleStakeholder.SetRank
-keywords: SetRank(Integer)
+keywords: NSSaleStakeholder, GetRank
 so.topic: reference
 ---
 
-
 Rank in list of stakeholders
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

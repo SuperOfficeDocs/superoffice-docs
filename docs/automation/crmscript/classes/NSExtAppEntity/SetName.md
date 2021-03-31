@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetName_String_p_0
-description: NSExtAppEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetName
+description: NSExtAppEntity.SetName(String name)
 intellisense: NSExtAppEntity.SetName
-sortOrder: 3384
-keywords: SetName(String)
+keywords: NSExtAppEntity, GetName
 so.topic: reference
 ---
 
-
 The name of the web panel
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

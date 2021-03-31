@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketCategoryEntity_SetName_String_p_0
-description: NSTicketCategoryEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSTicketCategoryEntity_SetName
+description: NSTicketCategoryEntity.SetName(String name)
 intellisense: NSTicketCategoryEntity.SetName
-keywords: SetName(String)
+keywords: NSTicketCategoryEntity, GetName
 so.topic: reference
 ---
 
-
 The (short) name of this category. E.g. &apos;support&apos;.
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

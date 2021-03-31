@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSActivitySummaryItem_GetDocumentId
-description: NSActivitySummaryItem.GetDocumentId()
+description: Integer NSActivitySummaryItem.GetDocumentId()
 intellisense: NSActivitySummaryItem.GetDocumentId
-sortOrder: 599
-keywords: GetDocumentId()
+keywords: NSActivitySummaryItem, GetDocumentId
 so.topic: reference
 ---
 
-
 Document id - 0 if not a document
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetSaleText
-description: NSSaleEntity.GetSaleText()
+description: String NSSaleEntity.GetSaleText()
 intellisense: NSSaleEntity.GetSaleText
-keywords: GetSaleText()
+keywords: NSSaleEntity, GetSaleText
 so.topic: reference
 ---
 
-
 Text describing the sale
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

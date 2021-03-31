@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSalesActivity_SetRequestedPerson_NSPerson_p_0
-description: NSSalesActivity.SetRequestedPerson(NSPerson p_0)
+﻿---
+title: crmscript_ref_NSSalesActivity_SetRequestedPerson
+description: NSSalesActivity.SetRequestedPerson(Person requestedPerson)
 intellisense: NSSalesActivity.SetRequestedPerson
-keywords: SetRequestedPerson(NSPerson)
+keywords: NSSalesActivity, GetRequestedPerson
 so.topic: reference
 ---
 
-
 The person that matches the request.
 
-
-
-* **RequestedPerson:** Person
-* **Returns:** Person
-
+**Parameter:** 
+ - **requestedPerson** Person
 

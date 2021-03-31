@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetPriorityName_String_p_0
-description: NSAppointment.SetPriorityName(String p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetPriorityName
+description: NSAppointment.SetPriorityName(String priorityName)
 intellisense: NSAppointment.SetPriorityName
-sortOrder: 805
-keywords: SetPriorityName(String)
+keywords: NSAppointment, GetPriorityName
 so.topic: reference
 ---
 
-
 Name of the appointments priority
 
-
-
-* **PriorityName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **priorityName** String
 

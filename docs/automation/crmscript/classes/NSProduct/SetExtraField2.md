@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetExtraField2_String_p_0
-description: NSProduct.SetExtraField2(String p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetExtraField2
+description: NSProduct.SetExtraField2(String extraField2)
 intellisense: NSProduct.SetExtraField2
-keywords: SetExtraField2(String)
+keywords: NSProduct, GetExtraField2
 so.topic: reference
 ---
 
-
 This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
 
-
-
-* **ExtraField2:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **extraField2** String
 

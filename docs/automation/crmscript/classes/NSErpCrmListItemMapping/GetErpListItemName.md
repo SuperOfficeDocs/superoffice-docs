@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpCrmListItemMapping_GetErpListItemName
-description: NSErpCrmListItemMapping.GetErpListItemName()
+description: String NSErpCrmListItemMapping.GetErpListItemName()
 intellisense: NSErpCrmListItemMapping.GetErpListItemName
-sortOrder: 3146
-keywords: GetErpListItemName()
+keywords: NSErpCrmListItemMapping, GetErpListItemName
 so.topic: reference
 ---
 
-
 One Erp listItem id
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

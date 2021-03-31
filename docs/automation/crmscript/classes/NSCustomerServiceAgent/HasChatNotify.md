@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSCustomerServiceAgent_HasChatNotify
-description: NSCustomerServiceAgent.HasChatNotify()
+description: Bool HasChatNotify()
 intellisense: NSCustomerServiceAgent.HasChatNotify
-sortOrder: 2223
-keywords: HasChatNotify()
+keywords: NSCustomerServiceAgent,HasChatNotify
 so.topic: reference
 ---
-
 
 Check if user has any chat notification
 
 
+**Returns:** True if the user has at least one notification setting on
 
-* **Returns:** True if the user has at least one notification setting on
-
+```crmscript
+NSCustomerServiceAgent agent;
+Bool res = agent.HasChatNotify();
+```
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPhoneMobile_String__p_0
-description: NSParticipantSyncData.SetPhoneMobile(String[] p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPhoneMobile
+description: NSParticipantSyncData.SetPhoneMobile(StringArray phoneMobile)
 intellisense: NSParticipantSyncData.SetPhoneMobile
-keywords: SetPhoneMobile(String[])
+keywords: NSParticipantSyncData, GetPhoneMobile
 so.topic: reference
 ---
 
-
 Returns a collection of mobile phone numbers that belong to the contact person.
 
-
-
-* **PhoneMobile:** StringArray
-* **Returns:** StringArray
-
+**Parameter:** 
+ - **phoneMobile** StringArray
 

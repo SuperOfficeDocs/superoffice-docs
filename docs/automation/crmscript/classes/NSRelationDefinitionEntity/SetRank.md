@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRelationDefinitionEntity_SetRank_Integer_p_0
-description: NSRelationDefinitionEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSRelationDefinitionEntity_SetRank
+description: NSRelationDefinitionEntity.SetRank(Integer rank)
 intellisense: NSRelationDefinitionEntity.SetRank
-keywords: SetRank(Integer)
+keywords: NSRelationDefinitionEntity, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

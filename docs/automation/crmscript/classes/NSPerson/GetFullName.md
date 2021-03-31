@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPerson_GetFullName
-description: NSPerson.GetFullName()
+description: String NSPerson.GetFullName()
 intellisense: NSPerson.GetFullName
-keywords: GetFullName()
+keywords: NSPerson, GetFullName
 so.topic: reference
 ---
 
+Get the persons full name (internal name used in clients for employees). 
 
-Get the persons full name (internal name used in clients for employees).
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

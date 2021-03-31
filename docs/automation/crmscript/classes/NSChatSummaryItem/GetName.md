@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSChatSummaryItem_GetName
-description: NSChatSummaryItem.GetName()
+description: String NSChatSummaryItem.GetName()
 intellisense: NSChatSummaryItem.GetName
-sortOrder: 1541
-keywords: GetName()
+keywords: NSChatSummaryItem, GetName
 so.topic: reference
 ---
 
-
 The name of customer, if provided
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

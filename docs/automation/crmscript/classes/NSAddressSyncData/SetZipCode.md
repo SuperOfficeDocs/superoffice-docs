@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAddressSyncData_SetZipCode_String_p_0
-description: NSAddressSyncData.SetZipCode(String p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetZipCode
+description: NSAddressSyncData.SetZipCode(String zipCode)
 intellisense: NSAddressSyncData.SetZipCode
-sortOrder: 640
-keywords: SetZipCode(String)
+keywords: NSAddressSyncData, GetZipCode
 so.topic: reference
 ---
 
 
-* **ZipCode:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **zipCode** String
 

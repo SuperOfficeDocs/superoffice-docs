@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetId_Integer_p_0
-description: NSBatchTaskInfo.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetId
+description: NSBatchTaskInfo.SetId(Integer id)
 intellisense: NSBatchTaskInfo.SetId
-sortOrder: 1392
-keywords: SetId(Integer)
+keywords: NSBatchTaskInfo, GetId
 so.topic: reference
 ---
 
-
 Id of the task.
 
-
-
-* **Id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

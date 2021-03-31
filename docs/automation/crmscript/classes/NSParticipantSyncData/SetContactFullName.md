@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetContactFullName_String_p_0
-description: NSParticipantSyncData.SetContactFullName(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetContactFullName
+description: NSParticipantSyncData.SetContactFullName(String contactFullName)
 intellisense: NSParticipantSyncData.SetContactFullName
-keywords: SetContactFullName(String)
+keywords: NSParticipantSyncData, GetContactFullName
 so.topic: reference
 ---
 
 
-* **ContactFullName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **contactFullName** String
 

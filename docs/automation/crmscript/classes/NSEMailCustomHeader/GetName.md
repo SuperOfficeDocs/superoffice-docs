@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailCustomHeader_GetName
-description: NSEMailCustomHeader.GetName()
+description: String NSEMailCustomHeader.GetName()
 intellisense: NSEMailCustomHeader.GetName
-sortOrder: 2938
-keywords: GetName()
+keywords: NSEMailCustomHeader, GetName
 so.topic: reference
 ---
 
-
 Name of header
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

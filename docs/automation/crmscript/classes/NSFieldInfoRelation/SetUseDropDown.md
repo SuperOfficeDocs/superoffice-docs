@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoRelation_SetUseDropDown_Bool_p_0
-description: NSFieldInfoRelation.SetUseDropDown(Bool p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoRelation_SetUseDropDown
+description: NSFieldInfoRelation.SetUseDropDown(Bool useDropDown)
 intellisense: NSFieldInfoRelation.SetUseDropDown
-sortOrder: 3544
-keywords: SetUseDropDown(Bool)
+keywords: NSFieldInfoRelation, GetUseDropDown
 so.topic: reference
 ---
 
-
 Show as dropdown list on target?
 
-
-
-* **UseDropDown:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **useDropDown** Bool
 

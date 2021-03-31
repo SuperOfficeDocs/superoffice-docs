@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSConfigurationAgent
 description: NSConfigurationAgent
 intellisense: Void.NSConfigurationAgent
-sortOrder: 1586
+keywords: NSConfigurationAgent
 so.topic: reference
 ---
 
-
 User interface configuration - XMLs and other elements such as inter-client URLs
 
-
-
+```crmscript
+NSConfigurationAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

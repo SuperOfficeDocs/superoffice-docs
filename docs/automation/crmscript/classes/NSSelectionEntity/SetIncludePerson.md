@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetIncludePerson_Integer_p_0
-description: NSSelectionEntity.SetIncludePerson(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetIncludePerson
+description: NSSelectionEntity.SetIncludePerson(Integer includePerson)
 intellisense: NSSelectionEntity.SetIncludePerson
-keywords: SetIncludePerson(Integer)
+keywords: NSSelectionEntity, GetIncludePerson
 so.topic: reference
 ---
 
-
 0 = Include first person, 1 = Include all persons, 2 = Include no persons
 
-
-
-* **IncludePerson:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **includePerson** Integer
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCustomerCenterConfig_GetRegisteredAssociateId
-description: NSCustomerCenterConfig.GetRegisteredAssociateId()
+description: Integer NSCustomerCenterConfig.GetRegisteredAssociateId()
 intellisense: NSCustomerCenterConfig.GetRegisteredAssociateId
-sortOrder: 2199
-keywords: GetRegisteredAssociateId()
+keywords: NSCustomerCenterConfig, GetRegisteredAssociateId
 so.topic: reference
 ---
 
-
 Registered by whom
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

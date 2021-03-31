@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListPreferences_SetSearchCompany_Bool_p_0
-description: NSPhoneListPreferences.SetSearchCompany(Bool p_0)
+﻿---
+title: crmscript_ref_NSPhoneListPreferences_SetSearchCompany
+description: NSPhoneListPreferences.SetSearchCompany(Bool searchCompany)
 intellisense: NSPhoneListPreferences.SetSearchCompany
-keywords: SetSearchCompany(Bool)
+keywords: NSPhoneListPreferences, GetSearchCompany
 so.topic: reference
 ---
 
-
 True if you want to search for Companies by their name.
 
-
-
-* **SearchCompany:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **searchCompany** Bool
 

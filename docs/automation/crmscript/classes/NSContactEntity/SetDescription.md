@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetDescription_String_p_0
-description: NSContactEntity.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetDescription
+description: NSContactEntity.SetDescription(String description)
 intellisense: NSContactEntity.SetDescription
-sortOrder: 1895
-keywords: SetDescription(String)
+keywords: NSContactEntity, GetDescription
 so.topic: reference
 ---
 
+Description of the contact. Usually shown as a postit note.
 
-Description of the contact
-
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

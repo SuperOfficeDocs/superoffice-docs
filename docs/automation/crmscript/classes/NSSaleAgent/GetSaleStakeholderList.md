@@ -1,12 +1,21 @@
----
-title: crmscript_ref_NSSaleAgent_GetSaleStakeholderList_Integer__p_0
-description: NSSaleAgent.GetSaleStakeholderList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_GetSaleStakeholderList
+description: NSSaleStakeholder[] GetSaleStakeholderList(Integer[]  saleStakeholderIds);
 intellisense: NSSaleAgent.GetSaleStakeholderList
-keywords: GetSaleStakeholderList(Integer[])
+keywords: NSSaleAgent,GetSaleStakeholderList
 so.topic: reference
 ---
 
+Gets a vector of SaleStakeholder objects.
 
-* **p0:** IntegerArray of identifiers for SaleStakeholder
-* **Returns:** Array of NSSaleStakeholder
+**Parameters:**
+ - **saleStakeholderIds** The identifiers of the NSSaleStakeholder objects
+
+**Returns:** Vector of NSSaleStakeholder objects
+
+```crmscript
+Integer[] ids;
+NSSaleAgent agent;
+agent.GetSaleStakeholderList(ids);
+```
 

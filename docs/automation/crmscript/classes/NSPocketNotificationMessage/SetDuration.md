@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketNotificationMessage_SetDuration_TimeSpan_p_0
-description: NSPocketNotificationMessage.SetDuration(TimeSpan p_0)
+﻿---
+title: crmscript_ref_NSPocketNotificationMessage_SetDuration
+description: NSPocketNotificationMessage.SetDuration(TimeSpan duration)
 intellisense: NSPocketNotificationMessage.SetDuration
-keywords: SetDuration(TimeSpan)
+keywords: NSPocketNotificationMessage, GetDuration
 so.topic: reference
 ---
 
-
 Specify duration of the event
 
-
-
-* **Duration:** TimeSpan
-* **Returns:** TimeSpan
-
+**Parameter:** 
+ - **duration** TimeSpan
 

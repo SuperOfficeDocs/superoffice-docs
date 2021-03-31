@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSCustomerServiceAgent_GetCustomerServiceStartup
-description: NSCustomerServiceAgent.GetCustomerServiceStartup()
+description: CustomerServiceStartup GetCustomerServiceStartup()
 intellisense: NSCustomerServiceAgent.GetCustomerServiceStartup
-sortOrder: 2231
-keywords: GetCustomerServiceStartup()
+keywords: NSCustomerServiceAgent,GetCustomerServiceStartup
 so.topic: reference
 ---
-
 
 Get the carrier with data that Service needs when starting up
 
 
+**Returns:** The carrier containing the startup data
 
-* **Returns:** The carrier containing the startup data
-
+```crmscript
+NSCustomerServiceAgent agent;
+CustomerServiceStartup res = agent.GetCustomerServiceStartup();
+```
 

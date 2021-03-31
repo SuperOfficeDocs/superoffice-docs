@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetIsCompleted_Bool_p_0
-description: NSAppointmentSyncData.SetIsCompleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetIsCompleted
+description: NSAppointmentSyncData.SetIsCompleted(Bool isCompleted)
 intellisense: NSAppointmentSyncData.SetIsCompleted
-sortOrder: 1078
-keywords: SetIsCompleted(Bool)
+keywords: NSAppointmentSyncData, GetIsCompleted
 so.topic: reference
 ---
 
 
-* **IsCompleted:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isCompleted** Bool
 

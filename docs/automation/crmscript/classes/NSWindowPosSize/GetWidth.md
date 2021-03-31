@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWindowPosSize_GetWidth
-description: NSWindowPosSize.GetWidth()
+description: Integer NSWindowPosSize.GetWidth()
 intellisense: NSWindowPosSize.GetWidth
-keywords: GetWidth()
+keywords: NSWindowPosSize, GetWidth
 so.topic: reference
 ---
 
-
 The width of the widget
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

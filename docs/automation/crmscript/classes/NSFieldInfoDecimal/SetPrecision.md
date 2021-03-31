@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoDecimal_SetPrecision_Integer_p_0
-description: NSFieldInfoDecimal.SetPrecision(Integer p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoDecimal_SetPrecision
+description: NSFieldInfoDecimal.SetPrecision(Integer precision)
 intellisense: NSFieldInfoDecimal.SetPrecision
-sortOrder: 3508
-keywords: SetPrecision(Integer)
+keywords: NSFieldInfoDecimal, GetPrecision
 so.topic: reference
 ---
 
-
 How many decimals to display
 
-
-
-* **Precision:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **precision** Integer
 

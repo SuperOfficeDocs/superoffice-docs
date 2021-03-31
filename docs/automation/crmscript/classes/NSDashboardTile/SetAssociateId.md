@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTile_SetAssociateId_Integer_p_0
-description: NSDashboardTile.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetAssociateId
+description: NSDashboardTile.SetAssociateId(Integer associateId)
 intellisense: NSDashboardTile.SetAssociateId
-sortOrder: 2302
-keywords: SetAssociateId(Integer)
+keywords: NSDashboardTile, GetAssociateId
 so.topic: reference
 ---
 
-
 Id of the associate who owns this tile
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

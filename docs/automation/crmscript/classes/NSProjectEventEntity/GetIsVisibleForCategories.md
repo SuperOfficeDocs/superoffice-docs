@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEventEntity_GetIsVisibleForCategories
-description: NSProjectEventEntity.GetIsVisibleForCategories()
+description: Bool NSProjectEventEntity.GetIsVisibleForCategories()
 intellisense: NSProjectEventEntity.GetIsVisibleForCategories
-keywords: GetIsVisibleForCategories()
+keywords: NSProjectEventEntity, GetIsVisibleForCategories
 so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLegalBase_GetLegalBaseId
-description: NSLegalBase.GetLegalBaseId()
+description: Integer NSLegalBase.GetLegalBaseId()
 intellisense: NSLegalBase.GetLegalBaseId
-keywords: GetLegalBaseId()
+keywords: NSLegalBase, GetLegalBaseId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

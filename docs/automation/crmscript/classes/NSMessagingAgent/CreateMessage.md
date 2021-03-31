@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSMessagingAgent_CreateMessage_NSIncomingMessage_p_0
-description: NSMessagingAgent.CreateMessage(NSIncomingMessage p_0)
+﻿---
+title: crmscript_ref_NSMessagingAgent_CreateMessage
+description: Void CreateMessage(IncomingMessage incomingMessage)
 intellisense: NSMessagingAgent.CreateMessage
-keywords: CreateMessage(NSIncomingMessage)
+keywords: NSMessagingAgent,CreateMessage
 so.topic: reference
 ---
 
-
 Create a new message and insert it in the message queue. (inbox)
 
-
-
-* **incomingMessage**
-
-
+**Parameters:**
+ - **incomingMessage** 

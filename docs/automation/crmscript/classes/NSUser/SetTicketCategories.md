@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUser_SetTicketCategories_NSMDOListItem__p_0
-description: NSUser.SetTicketCategories(NSMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSUser_SetTicketCategories
+description: NSUser.SetTicketCategories(MDOListItemArray ticketCategories)
 intellisense: NSUser.SetTicketCategories
-keywords: SetTicketCategories(NSMDOListItem[])
+keywords: NSUser, GetTicketCategories
 so.topic: reference
 ---
 
+Request Ticket Categories assigned to the user. 
 
-Request Ticket Categories assigned to the user.
-
-
-
-* **TicketCategories:** MDOListItemArray
-* **Returns:** MDOListItemArray
-
+**Parameter:** 
+ - **ticketCategories** MDOListItemArray
 

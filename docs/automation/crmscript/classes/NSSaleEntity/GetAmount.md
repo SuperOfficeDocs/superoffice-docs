@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetAmount
-description: NSSaleEntity.GetAmount()
+description: Float NSSaleEntity.GetAmount()
 intellisense: NSSaleEntity.GetAmount
-keywords: GetAmount()
+keywords: NSSaleEntity, GetAmount
 so.topic: reference
 ---
 
-
 Total sale amount
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

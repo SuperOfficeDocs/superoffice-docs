@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetSupportPerson
-description: NSContactEntity.GetSupportPerson()
+description: Person NSContactEntity.GetSupportPerson()
 intellisense: NSContactEntity.GetSupportPerson
-sortOrder: 1863
-keywords: GetSupportPerson()
+keywords: NSContactEntity, GetSupportPerson
 so.topic: reference
 ---
 
 
-* **Returns:** Person
+
+**Returns:** Person
 
 

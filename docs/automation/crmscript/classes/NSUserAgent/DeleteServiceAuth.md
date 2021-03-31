@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSUserAgent_DeleteServiceAuth_Integer_p_0
-description: NSUserAgent.DeleteServiceAuth(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_DeleteServiceAuth
+description: DeleteServiceAuth(Integer serviceAuth);
 intellisense: NSUserAgent.DeleteServiceAuth
-keywords: DeleteServiceAuth(Integer)
+keywords: NSUserAgent,DeleteServiceAuth
 so.topic: reference
 ---
 
+Deletes the NSServiceAuth
+  
+**Parameters:**
+ - **serviceAuthId** The identity of the ServiceAuth to delete.
 
-Deletes the ServiceAuth
-
-
-
-* **serviceAuthId:** The identity of the ServiceAuth
-
+```crmscript
+NSUserAgent agent;
+agent.DeleteServiceAuth(123);
+```
 

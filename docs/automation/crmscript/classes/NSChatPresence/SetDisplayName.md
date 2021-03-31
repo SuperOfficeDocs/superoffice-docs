@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSChatPresence_SetDisplayName_String_p_0
-description: NSChatPresence.SetDisplayName(String p_0)
+﻿---
+title: crmscript_ref_NSChatPresence_SetDisplayName
+description: NSChatPresence.SetDisplayName(String displayName)
 intellisense: NSChatPresence.SetDisplayName
-sortOrder: 1525
-keywords: SetDisplayName(String)
+keywords: NSChatPresence, GetDisplayName
 so.topic: reference
 ---
 
-
 The display name of the chat user
 
-
-
-* **DisplayName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayName** String
 

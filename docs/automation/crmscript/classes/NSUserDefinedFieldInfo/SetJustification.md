@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetJustification_Integer_p_0
-description: NSUserDefinedFieldInfo.SetJustification(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetJustification
+description: NSUserDefinedFieldInfo.SetJustification(UdefJustification justification)
 intellisense: NSUserDefinedFieldInfo.SetJustification
-keywords: SetJustification(Integer)
+keywords: NSUserDefinedFieldInfo, GetJustification
 so.topic: reference
 ---
 
-Justification
-* Default=0
-* Left=1
-* Center=2
-* Right=3
+Justification - 0 = default, left, right, center
 
-* **p_0:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **justification** UdefJustification
+     - Enum: 0 = Default 
+     - Enum: 1 = Left 
+     - Enum: 2 = Center 
+     - Enum: 3 = Right 
 

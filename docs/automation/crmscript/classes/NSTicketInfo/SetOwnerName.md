@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketInfo_SetOwnerName_String_p_0
-description: NSTicketInfo.SetOwnerName(String p_0)
+﻿---
+title: crmscript_ref_NSTicketInfo_SetOwnerName
+description: NSTicketInfo.SetOwnerName(String ownerName)
 intellisense: NSTicketInfo.SetOwnerName
-keywords: SetOwnerName(String)
+keywords: NSTicketInfo, GetOwnerName
 so.topic: reference
 ---
 
-
 The name of the owner which the request was assigned to
 
-
-
-* **OwnerName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **ownerName** String
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEventData_SetNavigateTo_String_p_0
-description: NSEventData.SetNavigateTo(String p_0)
+﻿---
+title: crmscript_ref_NSEventData_SetNavigateTo
+description: NSEventData.SetNavigateTo(String navigateTo)
 intellisense: NSEventData.SetNavigateTo
-sortOrder: 3351
-keywords: SetNavigateTo(String)
+keywords: NSEventData, GetNavigateTo
 so.topic: reference
 ---
 
-
 Where the context should naviate afterwards
 
-
-
-* **NavigateTo:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **navigateTo** String
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignDevice_SetForeignAppId_Integer_p_0
-description: NSForeignDevice.SetForeignAppId(Integer p_0)
+﻿---
+title: crmscript_ref_NSForeignDevice_SetForeignAppId
+description: NSForeignDevice.SetForeignAppId(Integer foreignAppId)
 intellisense: NSForeignDevice.SetForeignAppId
-sortOrder: 3727
-keywords: SetForeignAppId(Integer)
+keywords: NSForeignDevice, GetForeignAppId
 so.topic: reference
 ---
 
-
 Reference to foregin application (device type)
 
-
-
-* **ForeignAppId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **foreignAppId** Integer
 

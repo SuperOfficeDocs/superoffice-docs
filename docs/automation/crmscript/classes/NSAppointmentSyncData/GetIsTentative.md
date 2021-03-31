@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentSyncData_GetIsTentative
-description: NSAppointmentSyncData.GetIsTentative()
+description: Bool NSAppointmentSyncData.GetIsTentative()
 intellisense: NSAppointmentSyncData.GetIsTentative
-sortOrder: 1046
-keywords: GetIsTentative()
+keywords: NSAppointmentSyncData, GetIsTentative
 so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
 
 

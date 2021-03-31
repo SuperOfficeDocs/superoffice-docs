@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignKey_SetUpdatedBy_String_p_0
-description: NSForeignKey.SetUpdatedBy(String p_0)
+﻿---
+title: crmscript_ref_NSForeignKey_SetUpdatedBy
+description: NSForeignKey.SetUpdatedBy(String updatedBy)
 intellisense: NSForeignKey.SetUpdatedBy
-sortOrder: 3747
-keywords: SetUpdatedBy(String)
+keywords: NSForeignKey, GetUpdatedBy
 so.topic: reference
 ---
 
-
 Name of the person that last updated the foreign key
 
-
-
-* **UpdatedBy:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **updatedBy** String
 

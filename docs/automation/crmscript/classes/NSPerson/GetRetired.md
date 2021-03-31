@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPerson_GetRetired
-description: NSPerson.GetRetired()
+description: Integer NSPerson.GetRetired()
 intellisense: NSPerson.GetRetired
-keywords: GetRetired()
+keywords: NSPerson, GetRetired
 so.topic: reference
 ---
 
-
 1 = the user is retired and should have no rights, not appear in lists, etc.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

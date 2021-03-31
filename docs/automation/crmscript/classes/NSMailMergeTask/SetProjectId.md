@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeTask_SetProjectId_Integer_p_0
-description: NSMailMergeTask.SetProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSMailMergeTask_SetProjectId
+description: NSMailMergeTask.SetProjectId(Integer projectId)
 intellisense: NSMailMergeTask.SetProjectId
-keywords: SetProjectId(Integer)
+keywords: NSMailMergeTask, GetProjectId
 so.topic: reference
 ---
 
-
 Project identity to set on task
 
-
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectId** Integer
 

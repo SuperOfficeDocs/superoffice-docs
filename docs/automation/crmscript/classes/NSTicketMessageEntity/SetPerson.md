@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketMessageEntity_SetPerson_NSPerson_p_0
-description: NSTicketMessageEntity.SetPerson(NSPerson p_0)
+﻿---
+title: crmscript_ref_NSTicketMessageEntity_SetPerson
+description: NSTicketMessageEntity.SetPerson(Person person)
 intellisense: NSTicketMessageEntity.SetPerson
-keywords: SetPerson(NSPerson)
+keywords: NSTicketMessageEntity, GetPerson
 so.topic: reference
 ---
 
-
 If this is an incoming message, this will contain the person
 
-
-
-* **Person:** Person
-* **Returns:** Person
-
+**Parameter:** 
+ - **person** Person
 

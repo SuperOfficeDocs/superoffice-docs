@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetEventDate_DateTime_p_0
-description: NSProjectEventEntity.SetEventDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetEventDate
+description: NSProjectEventEntity.SetEventDate(DateTime eventDate)
 intellisense: NSProjectEventEntity.SetEventDate
-keywords: SetEventDate(DateTime)
+keywords: NSProjectEventEntity, GetEventDate
 so.topic: reference
 ---
 
-
 Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility
 
-
-
-* **EventDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **eventDate** DateTime
 

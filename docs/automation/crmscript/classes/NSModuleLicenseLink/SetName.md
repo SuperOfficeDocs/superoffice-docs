@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetName_String_p_0
-description: NSModuleLicenseLink.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetName
+description: NSModuleLicenseLink.SetName(String name)
 intellisense: NSModuleLicenseLink.SetName
-keywords: SetName(String)
+keywords: NSModuleLicenseLink, GetName
 so.topic: reference
 ---
 
-
 The name of the module license
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

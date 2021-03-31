@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignDevice_SetCreatedBy_String_p_0
-description: NSForeignDevice.SetCreatedBy(String p_0)
+﻿---
+title: crmscript_ref_NSForeignDevice_SetCreatedBy
+description: NSForeignDevice.SetCreatedBy(String createdBy)
 intellisense: NSForeignDevice.SetCreatedBy
-sortOrder: 3724
-keywords: SetCreatedBy(String)
+keywords: NSForeignDevice, GetCreatedBy
 so.topic: reference
 ---
 
-
 The person that created the device.
 
-
-
-* **CreatedBy:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **createdBy** String
 

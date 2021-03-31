@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSQuoteEntity
 description: NSQuoteEntity
 intellisense: Void.NSQuoteEntity
+keywords: NSQuoteEntity
 so.topic: reference
 ---
 
-
 Quote methods
 
-
-
-
-1. autolist
+1. autolist 
 

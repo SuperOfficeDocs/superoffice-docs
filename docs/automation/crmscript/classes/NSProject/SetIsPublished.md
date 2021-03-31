@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSProject_SetIsPublished_Bool_p_0
-description: NSProject.SetIsPublished(Bool p_0)
+﻿---
+title: crmscript_ref_NSProject_SetIsPublished
+description: NSProject.SetIsPublished(Bool isPublished)
 intellisense: NSProject.SetIsPublished
-keywords: SetIsPublished(Bool)
+keywords: NSProject, GetIsPublished
 so.topic: reference
 ---
 
 
-* **IsPublished:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isPublished** Bool
 

@@ -1,18 +1,16 @@
----
-title: crmscript_ref_NSFieldMetadata_SetAccess_Integer_p_0
-description: NSFieldMetadata.SetAccess(Integer p_0)
+﻿---
+title: crmscript_ref_NSFieldMetadata_SetAccess
+description: NSFieldMetadata.SetAccess(Integer access)
 intellisense: NSFieldMetadata.SetAccess
-sortOrder: 3585
-keywords: SetAccess(Integer)
+keywords: NSFieldMetadata, GetAccess
 so.topic: reference
 ---
 
-
 Access restrictions on the field
 
-
-
-* **Access:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **access** Integer
+     - Enum: 0 = Normal 
+     - Enum: 1 = Mandatory 
+     - Enum: 2 = ReadOnly 
 

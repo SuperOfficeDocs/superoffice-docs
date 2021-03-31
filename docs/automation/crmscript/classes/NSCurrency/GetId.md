@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCurrency_GetId
-description: NSCurrency.GetId()
+description: Integer NSCurrency.GetId()
 intellisense: NSCurrency.GetId
-sortOrder: 2171
-keywords: GetId()
+keywords: NSCurrency, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

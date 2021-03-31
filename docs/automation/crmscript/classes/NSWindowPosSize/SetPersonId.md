@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWindowPosSize_SetPersonId_Integer_p_0
-description: NSWindowPosSize.SetPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSWindowPosSize_SetPersonId
+description: NSWindowPosSize.SetPersonId(Integer personId)
 intellisense: NSWindowPosSize.SetPersonId
-keywords: SetPersonId(Integer)
+keywords: NSWindowPosSize, GetPersonId
 so.topic: reference
 ---
 
-
 Person id of the associate owning this window setting
 
-
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **personId** Integer
 

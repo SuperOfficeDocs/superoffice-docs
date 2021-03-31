@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactActivity_SetActivityPersonId_Integer_p_0
-description: NSContactActivity.SetActivityPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactActivity_SetActivityPersonId
+description: NSContactActivity.SetActivityPersonId(Integer activityPersonId)
 intellisense: NSContactActivity.SetActivityPersonId
-sortOrder: 1783
-keywords: SetActivityPersonId(Integer)
+keywords: NSContactActivity, GetActivityPersonId
 so.topic: reference
 ---
 
-
 Id of the person causing the activity.
 
-
-
-* **ActivityPersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **activityPersonId** Integer
 

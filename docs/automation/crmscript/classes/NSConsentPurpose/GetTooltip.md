@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentPurpose_GetTooltip
-description: NSConsentPurpose.GetTooltip()
+description: String NSConsentPurpose.GetTooltip()
 intellisense: NSConsentPurpose.GetTooltip
-sortOrder: 1686
-keywords: GetTooltip()
+keywords: NSConsentPurpose, GetTooltip
 so.topic: reference
 ---
 
-
 List item tooltip
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

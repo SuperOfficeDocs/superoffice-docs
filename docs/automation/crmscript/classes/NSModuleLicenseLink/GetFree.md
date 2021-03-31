@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSModuleLicenseLink_GetFree
-description: NSModuleLicenseLink.GetFree()
+description: Integer NSModuleLicenseLink.GetFree()
 intellisense: NSModuleLicenseLink.GetFree
-keywords: GetFree()
+keywords: NSModuleLicenseLink, GetFree
 so.topic: reference
 ---
 
-
 The number of licenses that are free to be assigned
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

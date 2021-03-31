@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSTicketPriority_GetId
-description: NSTicketPriority.GetId()
+description: Integer NSTicketPriority.GetId()
 intellisense: NSTicketPriority.GetId
-keywords: GetId()
+keywords: NSTicketPriority, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

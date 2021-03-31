@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSViewStateAgent_DeleteHistory_String_p_0_Integer_p_1
-description: NSViewStateAgent.DeleteHistory(String p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSViewStateAgent_DeleteHistory
+description: Void DeleteHistory(String historyName, Integer id)
 intellisense: NSViewStateAgent.DeleteHistory
-keywords: DeleteHistory(String,Integer)
+keywords: NSViewStateAgent,DeleteHistory
 so.topic: reference
 ---
 
-
 Deletes the history element
 
-
-
-* **historyName:** Name of the history list, e.g. contact, project
-* **id:** Id of the history element, e.g. Contact id
-
-
+**Parameters:**
+ - **historyName** Name of the history list, e.g. contact, project
+ - **id** Id of the history element, e.g. Contact id

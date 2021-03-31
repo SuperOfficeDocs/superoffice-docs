@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetPreferredTZLocation_Integer_p_0
-description: NSAppointmentEntity.SetPreferredTZLocation(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetPreferredTZLocation
+description: NSAppointmentEntity.SetPreferredTZLocation(Integer preferredTZLocation)
 intellisense: NSAppointmentEntity.SetPreferredTZLocation
-sortOrder: 1019
-keywords: SetPreferredTZLocation(Integer)
+keywords: NSAppointmentEntity, GetPreferredTZLocation
 so.topic: reference
 ---
 
-
 Appoinmtments preferred timezone location.
 
-
-
-* **PreferredTZLocation:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **preferredTZLocation** Integer
 

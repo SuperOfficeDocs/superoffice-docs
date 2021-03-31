@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptEntity_GetEjscriptId
-description: NSCRMScriptEntity.GetEjscriptId()
+description: Integer NSCRMScriptEntity.GetEjscriptId()
 intellisense: NSCRMScriptEntity.GetEjscriptId
-sortOrder: 2129
-keywords: GetEjscriptId()
+keywords: NSCRMScriptEntity, GetEjscriptId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

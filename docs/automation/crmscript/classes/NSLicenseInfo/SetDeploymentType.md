@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLicenseInfo_SetDeploymentType_Integer_p_0
-description: NSLicenseInfo.SetDeploymentType(Integer p_0)
+﻿---
+title: crmscript_ref_NSLicenseInfo_SetDeploymentType
+description: NSLicenseInfo.SetDeploymentType(Integer deploymentType)
 intellisense: NSLicenseInfo.SetDeploymentType
-keywords: SetDeploymentType(Integer)
+keywords: NSLicenseInfo, GetDeploymentType
 so.topic: reference
 ---
 
-
 Type of deployment
 
-
-
-* **DeploymentType:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **deploymentType** Integer
 

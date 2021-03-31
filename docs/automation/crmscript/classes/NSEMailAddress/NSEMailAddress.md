@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSEMailAddress
 description: NSEMailAddress
 intellisense: Void.NSEMailAddress
-sortOrder: 2760
+keywords: NSEMailAddress
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

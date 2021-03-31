@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetCountryList_Integer__p_0
-description: NSListAgent.GetCountryList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCountryList
+description: NSCountry[] GetCountryList(Integer[]  countryIds);
 intellisense: NSListAgent.GetCountryList
-keywords: GetCountryList(Integer[])
+keywords: NSListAgent,GetCountryList
 so.topic: reference
 ---
 
-Gets an array of Country objects.
+Gets a vector of Country objects.
 
+**Parameters:**
+ - **countryIds** The identifiers of the NSCountry objects
 
-* **p0:** IntegerArray of identifiers for Country
-* **Returns:** Array of NSCountry
+**Returns:** Vector of NSCountry objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetCountryList(ids);
+```
 

@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSPhoneListAgent_SearchWithPreferences_String_p_0_NSPhoneListPreferences_p_1
-description: NSPhoneListAgent.SearchWithPreferences(String p_0, NSPhoneListPreferences p_1)
+﻿---
+title: crmscript_ref_NSPhoneListAgent_SearchWithPreferences
+description: PhoneListItemArray SearchWithPreferences(String searchString, PhoneListPreferences preferences)
 intellisense: NSPhoneListAgent.SearchWithPreferences
-keywords: SearchWithPreferences(String,NSPhoneListPreferences)
+keywords: NSPhoneListAgent,SearchWithPreferences
 so.topic: reference
 ---
 
-
 Searching the phone list. Search is based on the supplied preferences.
 
+**Parameters:**
+ - **searchString** The search string.
+ - **preferences** The search preferences
 
+**Returns:** The resulting phone list.
 
-* **searchString:** The search string.
-* **preferences:** The search preferences
-* **Returns:** The resulting phone list.
-
+```crmscript
+NSPhoneListAgent agent;
+String searchString;
+PhoneListPreferences preferences;
+PhoneListItemArray res = agent.SearchWithPreferences(searchString, preferences);
+```
 

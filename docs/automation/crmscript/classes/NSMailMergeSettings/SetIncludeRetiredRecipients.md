@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetIncludeRetiredRecipients_Bool_p_0
-description: NSMailMergeSettings.SetIncludeRetiredRecipients(Bool p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetIncludeRetiredRecipients
+description: NSMailMergeSettings.SetIncludeRetiredRecipients(Bool includeRetiredRecipients)
 intellisense: NSMailMergeSettings.SetIncludeRetiredRecipients
-keywords: SetIncludeRetiredRecipients(Bool)
+keywords: NSMailMergeSettings, GetIncludeRetiredRecipients
 so.topic: reference
 ---
 
-
 Include recipients that are marked as retired
 
-
-
-* **IncludeRetiredRecipients:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **includeRetiredRecipients** Bool
 

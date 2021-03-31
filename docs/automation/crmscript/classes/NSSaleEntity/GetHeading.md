@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetHeading
-description: NSSaleEntity.GetHeading()
+description: String NSSaleEntity.GetHeading()
 intellisense: NSSaleEntity.GetHeading
-keywords: GetHeading()
+keywords: NSSaleEntity, GetHeading
 so.topic: reference
 ---
 
-
 Sale heading (short description?)
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

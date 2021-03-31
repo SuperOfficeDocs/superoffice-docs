@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetVisibleFor
-description: NSDocumentEntity.GetVisibleFor()
+description: VisibleForArray NSDocumentEntity.GetVisibleFor()
 intellisense: NSDocumentEntity.GetVisibleFor
-sortOrder: 2583
-keywords: GetVisibleFor()
+keywords: NSDocumentEntity, GetVisibleFor
 so.topic: reference
 ---
 
+Return the usergroups and/or users the item is visible for.
 
-* **Returns:** VisibleForArray
-
+**Returns:** Visible for array.
 

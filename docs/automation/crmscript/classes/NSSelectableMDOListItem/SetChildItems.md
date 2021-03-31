@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetChildItems_NSSelectableMDOListItem__p_0
-description: NSSelectableMDOListItem.SetChildItems(NSSelectableMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetChildItems
+description: NSSelectableMDOListItem.SetChildItems(SelectableMDOListItemArray childItems)
 intellisense: NSSelectableMDOListItem.SetChildItems
-keywords: SetChildItems(NSSelectableMDOListItem[])
+keywords: NSSelectableMDOListItem, GetChildItems
 so.topic: reference
 ---
 
-
 The child items of the SelectableMDOListItem
 
-
-
-* **ChildItems:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
-
+**Parameter:** 
+ - **childItems** SelectableMDOListItemArray
 

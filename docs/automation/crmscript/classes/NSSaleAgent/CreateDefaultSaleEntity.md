@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSSaleAgent_CreateDefaultSaleEntity
-description: NSSaleAgent.CreateDefaultSaleEntity()
+description: NSSaleEntity CreateDefaultSaleEntity()
 intellisense: NSSaleAgent.CreateDefaultSaleEntity
-keywords: CreateDefaultSaleEntity()
+keywords: NSSaleAgent,CreateDefaultSaleEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSSaleEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSSaleEntity with default values.
 
-
-Loading default values into a new SaleEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New SaleEntity with default values
-
+```crmscript
+NSSaleAgent agent;
+NSSaleEntity thing = agent.CreateDefaultSaleEntity();
+thing = agent.SaveSaleEntity(thing);
+```
 

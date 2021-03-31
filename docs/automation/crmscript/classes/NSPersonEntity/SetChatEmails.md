@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetChatEmails_NSEntityElement__p_0
-description: NSPersonEntity.SetChatEmails(NSEntityElement[] p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetChatEmails
+description: NSPersonEntity.SetChatEmails(EntityElementArray chatEmails)
 intellisense: NSPersonEntity.SetChatEmails
-keywords: SetChatEmails(NSEntityElement[])
+keywords: NSPersonEntity, GetChatEmails
 so.topic: reference
 ---
 
 
-* **ChatEmails:** EntityElementArray
-* **Returns:** EntityElementArray
 
+**Parameter:** 
+ - **chatEmails** EntityElementArray
 

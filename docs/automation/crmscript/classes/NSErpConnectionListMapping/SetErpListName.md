@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnectionListMapping_SetErpListName_String_p_0
-description: NSErpConnectionListMapping.SetErpListName(String p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionListMapping_SetErpListName
+description: NSErpConnectionListMapping.SetErpListName(String erpListName)
 intellisense: NSErpConnectionListMapping.SetErpListName
-sortOrder: 3133
-keywords: SetErpListName(String)
+keywords: NSErpConnectionListMapping, GetErpListName
 so.topic: reference
 ---
 
-
 The ERP list name, if the field has a list of values supplied by the ERP Connector
 
-
-
-* **ErpListName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **erpListName** String
 

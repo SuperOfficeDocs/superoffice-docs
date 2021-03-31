@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetContactId_Integer_p_0
-description: NSProjectMember.SetContactId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetContactId
+description: NSProjectMember.SetContactId(Integer contactId)
 intellisense: NSProjectMember.SetContactId
-keywords: SetContactId(Integer)
+keywords: NSProjectMember, GetContactId
 so.topic: reference
 ---
 
-
 Contact ID of person who is the project member
 
-
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **contactId** Integer
 

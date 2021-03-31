@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketMessageEntity_SetDebugInfo_String_p_0
-description: NSTicketMessageEntity.SetDebugInfo(String p_0)
+﻿---
+title: crmscript_ref_NSTicketMessageEntity_SetDebugInfo
+description: NSTicketMessageEntity.SetDebugInfo(String debugInfo)
 intellisense: NSTicketMessageEntity.SetDebugInfo
-keywords: SetDebugInfo(String)
+keywords: NSTicketMessageEntity, GetDebugInfo
 so.topic: reference
 ---
 
-
 The debug info for the message.
 
-
-
-* **DebugInfo:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **debugInfo** String
 

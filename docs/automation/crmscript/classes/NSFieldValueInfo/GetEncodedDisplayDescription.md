@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldValueInfo_GetEncodedDisplayDescription
-description: NSFieldValueInfo.GetEncodedDisplayDescription()
+description: String NSFieldValueInfo.GetEncodedDisplayDescription()
 intellisense: NSFieldValueInfo.GetEncodedDisplayDescription
-sortOrder: 3627
-keywords: GetEncodedDisplayDescription()
+keywords: NSFieldValueInfo, GetEncodedDisplayDescription
 so.topic: reference
 ---
 
-
 The description of the field
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

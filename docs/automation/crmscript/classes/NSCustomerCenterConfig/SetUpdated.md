@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCustomerCenterConfig_SetUpdated_DateTime_p_0
-description: NSCustomerCenterConfig.SetUpdated(DateTime p_0)
+﻿---
+title: crmscript_ref_NSCustomerCenterConfig_SetUpdated
+description: NSCustomerCenterConfig.SetUpdated(DateTime updated)
 intellisense: NSCustomerCenterConfig.SetUpdated
-sortOrder: 2209
-keywords: SetUpdated(DateTime)
+keywords: NSCustomerCenterConfig, GetUpdated
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Updated:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updated** DateTime
 

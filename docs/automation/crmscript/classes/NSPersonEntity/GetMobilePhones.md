@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetMobilePhones
-description: NSPersonEntity.GetMobilePhones()
+description: EntityElementArray NSPersonEntity.GetMobilePhones()
 intellisense: NSPersonEntity.GetMobilePhones
-keywords: GetMobilePhones()
+keywords: NSPersonEntity, GetMobilePhones
 so.topic: reference
 ---
 
-
 Returns a collection of mobile phone numbers that belong to the contact person.
 
-
-
-* **Returns:** EntityElementArray
+**Returns:** EntityElementArray
 
 

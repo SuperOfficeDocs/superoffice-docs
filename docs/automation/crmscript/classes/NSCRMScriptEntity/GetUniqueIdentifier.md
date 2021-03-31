@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptEntity_GetUniqueIdentifier
-description: NSCRMScriptEntity.GetUniqueIdentifier()
+description: String NSCRMScriptEntity.GetUniqueIdentifier()
 intellisense: NSCRMScriptEntity.GetUniqueIdentifier
-sortOrder: 2137
-keywords: GetUniqueIdentifier()
+keywords: NSCRMScriptEntity, GetUniqueIdentifier
 so.topic: reference
 ---
 
-
 Global unique identifier, accross customers/tenants
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

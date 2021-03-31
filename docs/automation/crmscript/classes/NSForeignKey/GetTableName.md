@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSForeignKey_GetTableName
-description: NSForeignKey.GetTableName()
+description: String NSForeignKey.GetTableName()
 intellisense: NSForeignKey.GetTableName
-sortOrder: 3739
-keywords: GetTableName()
+keywords: NSForeignKey, GetTableName
 so.topic: reference
 ---
 
-
 Table name, transformed to and from numeric table id by the service layer
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

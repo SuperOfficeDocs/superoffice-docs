@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnection_SetDisplayDescription_String_p_0
-description: NSErpConnection.SetDisplayDescription(String p_0)
+﻿---
+title: crmscript_ref_NSErpConnection_SetDisplayDescription
+description: NSErpConnection.SetDisplayDescription(String displayDescription)
 intellisense: NSErpConnection.SetDisplayDescription
-sortOrder: 3098
-keywords: SetDisplayDescription(String)
+keywords: NSErpConnection, GetDisplayDescription
 so.topic: reference
 ---
 
-
 Tooltip/description shown to user; multi-language support
 
-
-
-* **DisplayDescription:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayDescription** String
 

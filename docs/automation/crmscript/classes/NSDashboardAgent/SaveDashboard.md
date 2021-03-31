@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSDashboardAgent_SaveDashboard_NSDashboard_p_0
-description: NSDashboardAgent.SaveDashboard(NSDashboard p_0)
+﻿---
+title: crmscript_ref_NSDashboardAgent_SaveDashboard
+description: NSDashboard SaveDashboard(NSDashboard dashboard);
 intellisense: NSDashboardAgent.SaveDashboard
-sortOrder: 2274
-keywords: SaveDashboard(NSDashboard)
+keywords: NSDashboardAgent,SaveDashboard
 so.topic: reference
 ---
+	  
+Updates the existing NSDashboard or creates a new NSDashboard if the id parameter is 0
+	  
+**Parameters**:
+ - **dashboard** The NSDashboard to save.
 
+**Returns:** New or updated NSDashboard
 
-Updates the existing Dashboard or creates a new Dashboard if the id parameter is empty
-
-
-
-* **dashboard:** The Dashboard that is saved
-* **Returns:** New or updated Dashboard
-
+```crmscript
+NSDashboard  agent;
+NSDashboard thing = agent.CreateDefaultDashboard();
+thing = agent.SaveDashboard(thing);
+```
 

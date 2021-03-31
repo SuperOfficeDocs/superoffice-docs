@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSRoleEntity_GetCreatedBy
-description: NSRoleEntity.GetCreatedBy()
+description: Associate NSRoleEntity.GetCreatedBy()
 intellisense: NSRoleEntity.GetCreatedBy
-keywords: GetCreatedBy()
+keywords: NSRoleEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 Created by user
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

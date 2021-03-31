@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetPersonFullName_String_p_0
-description: NSAppointmentSyncData.SetPersonFullName(String p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetPersonFullName
+description: NSAppointmentSyncData.SetPersonFullName(String personFullName)
 intellisense: NSAppointmentSyncData.SetPersonFullName
-sortOrder: 1084
-keywords: SetPersonFullName(String)
+keywords: NSAppointmentSyncData, GetPersonFullName
 so.topic: reference
 ---
 
-
 The full name of the person this appointment belongs to.
 
-
-
-* **PersonFullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personFullName** String
 

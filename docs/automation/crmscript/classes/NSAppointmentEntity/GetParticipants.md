@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetParticipants
-description: NSAppointmentEntity.GetParticipants()
+description: ParticipantInfoArray NSAppointmentEntity.GetParticipants()
 intellisense: NSAppointmentEntity.GetParticipants
-sortOrder: 965
-keywords: GetParticipants()
+keywords: NSAppointmentEntity, GetParticipants
 so.topic: reference
 ---
 
-
 List of id's of the participants to this appointment.
 
-
-
-* **Returns:** ParticipantInfoArray
+**Returns:** ParticipantInfoArray
 
 

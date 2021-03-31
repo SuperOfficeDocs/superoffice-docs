@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignKey_SetUpdatedDate_DateTime_p_0
-description: NSForeignKey.SetUpdatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSForeignKey_SetUpdatedDate
+description: NSForeignKey.SetUpdatedDate(DateTime updatedDate)
 intellisense: NSForeignKey.SetUpdatedDate
-sortOrder: 3748
-keywords: SetUpdatedDate(DateTime)
+keywords: NSForeignKey, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **UpdatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updatedDate** DateTime
 

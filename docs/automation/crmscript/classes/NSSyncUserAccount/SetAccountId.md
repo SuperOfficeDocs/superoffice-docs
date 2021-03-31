@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSyncUserAccount_SetAccountId_Integer_p_0
-description: NSSyncUserAccount.SetAccountId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSyncUserAccount_SetAccountId
+description: NSSyncUserAccount.SetAccountId(Integer accountId)
 intellisense: NSSyncUserAccount.SetAccountId
-keywords: SetAccountId(Integer)
+keywords: NSSyncUserAccount, GetAccountId
 so.topic: reference
 ---
 
-
 The account primary key
 
-
-
-* **AccountId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **accountId** Integer
 

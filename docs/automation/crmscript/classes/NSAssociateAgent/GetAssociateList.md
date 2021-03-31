@@ -1,14 +1,21 @@
----
-title: crmscript_ref_NSAssociateAgent_GetAssociateList_Integer__p_0
-description: NSAssociateAgent.GetAssociateList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSAssociateAgent_GetAssociateList
+description: NSAssociate[] GetAssociateList(Integer[]  associateIds);
 intellisense: NSAssociateAgent.GetAssociateList
-sortOrder: 1282
-keywords: GetAssociateList(Integer[])
+keywords: NSAssociateAgent,GetAssociateList
 so.topic: reference
 ---
 
+Gets a vector of Associate objects.
 
-* **p0:** IntegerArray of identifiers for Associate
-* **Returns:** Array of NSAssociate
+**Parameters:**
+ - **associateIds** The identifiers of the NSAssociate objects
 
+**Returns:** Vector of NSAssociate objects
+
+```crmscript
+Integer[] ids;
+NSAssociateAgent agent;
+agent.GetAssociateList(ids);
+```
 

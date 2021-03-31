@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSDashboardAgent_DeleteDashboard_Integer_p_0
-description: NSDashboardAgent.DeleteDashboard(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboardAgent_DeleteDashboard
+description: DeleteDashboard(Integer dashboard);
 intellisense: NSDashboardAgent.DeleteDashboard
-sortOrder: 2284
-keywords: DeleteDashboard(Integer)
+keywords: NSDashboardAgent,DeleteDashboard
 so.topic: reference
 ---
 
+Deletes the NSDashboard
+  
+**Parameters:**
+ - **dashboardId** The identity of the Dashboard to delete.
 
-Deletes the Dashboard
-
-
-
-* **dashboardId:** The identity of the Dashboard
-
+```crmscript
+NSDashboardAgent agent;
+agent.DeleteDashboard(123);
+```
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSResolvedUser_SetUser_NSUser_p_0
-description: NSResolvedUser.SetUser(NSUser p_0)
+﻿---
+title: crmscript_ref_NSResolvedUser_SetUser
+description: NSResolvedUser.SetUser(User user)
 intellisense: NSResolvedUser.SetUser
-keywords: SetUser(NSUser)
+keywords: NSResolvedUser, GetUser
 so.topic: reference
 ---
 
-
 The resolved User instance.
 
-
-
-* **User:** User
-* **Returns:** User
-
+**Parameter:** 
+ - **user** User
 

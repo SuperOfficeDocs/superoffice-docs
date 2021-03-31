@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSystemEventEntity_GetOwner
-description: NSSystemEventEntity.GetOwner()
+description: Integer NSSystemEventEntity.GetOwner()
 intellisense: NSSystemEventEntity.GetOwner
-keywords: GetOwner()
+keywords: NSSystemEventEntity, GetOwner
 so.topic: reference
 ---
 
+0, 0, group_id, assoc id (see over)
 
-0, 0, group\_id, assoc id (see over)
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocument_SetIsPublished_Bool_p_0
-description: NSDocument.SetIsPublished(Bool p_0)
+﻿---
+title: crmscript_ref_NSDocument_SetIsPublished
+description: NSDocument.SetIsPublished(Bool isPublished)
 intellisense: NSDocument.SetIsPublished
-sortOrder: 2455
-keywords: SetIsPublished(Bool)
+keywords: NSDocument, GetIsPublished
 so.topic: reference
 ---
 
-
 True if document have an entry in published table
 
-
-
-* **IsPublished:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isPublished** Bool
 

@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSSaleAgent_GetSaleEntity_Integer_p_0
-description: NSSaleAgent.GetSaleEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_GetSaleEntity
+description: NSSaleEntity GetSaleEntity(Integer saleEntityId);
 intellisense: NSSaleAgent.GetSaleEntity
-keywords: GetSaleEntity(Integer)
+keywords: NSSaleAgent,GetSaleEntity
 so.topic: reference
 ---
 
+Gets a NSSaleEntity object.
 
-Gets a SaleEntity object.
+**Parameters:**
+ - **saleEntityId** The identifier of the NSSaleEntity object
 
+**Returns:** NSSaleEntity
 
-
-* **saleEntityId:** The identifier of the SaleEntity object
-* **Returns:** SaleEntity
-
+```crmscript
+NSSaleAgent agent;
+NSSaleEntity thing = agent.GetSaleEntity(123);
+```
 

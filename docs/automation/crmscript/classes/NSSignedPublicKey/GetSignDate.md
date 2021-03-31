@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSignedPublicKey_GetSignDate
-description: NSSignedPublicKey.GetSignDate()
+description: DateTime NSSignedPublicKey.GetSignDate()
 intellisense: NSSignedPublicKey.GetSignDate
-keywords: GetSignDate()
+keywords: NSSignedPublicKey, GetSignDate
 so.topic: reference
 ---
 
-
 Date when the the public key was signed. No Timezone.
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

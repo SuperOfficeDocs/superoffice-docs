@@ -1,20 +1,29 @@
----
-title: crmscript_ref_NSAppointmentAgent_Reject_Integer_p_0_String_p_1_Integer_p_2
-description: NSAppointmentAgent.Reject(Integer p_0, String p_1, Integer p_2)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_Reject
+description: Void Reject(Integer appointmentId, String rejectReason, Integer updateMode)
 intellisense: NSAppointmentAgent.Reject
-sortOrder: 916
-keywords: Reject(Integer,String,Integer)
+keywords: NSAppointmentAgent,Reject
 so.topic: reference
 ---
 
-
 Rejecting an appointment invitation
 
+**Parameters:**
+ - **appointmentId** The appointmentId. Both master and child record ids are accepted.
+ - **rejectReason** The reason the invitation was rejected.
+ - **updateMode** Update mode for a recurring appointment.
+     - Enum: 0 = Unknown 
+     - Enum: 1 = OnlyThis 
+     - Enum: 2 = ThisAndForward 
+     - Enum: 9 = StopRecurrence 
 
+**Returns:** Updated AppointmentEntity
 
-* **appointmentId:** The appointmentId. Both master and child record ids are accepted.
-* **rejectReason:** The reason the invitation was rejected.
-* **updateMode:** Update mode for a recurring appointment.
-* **Returns:** Updated AppointmentEntity
-
+```crmscript
+NSAppointmentAgent agent;
+Integer appointmentId;
+String rejectReason;
+Integer updateMode;
+Void res = agent.Reject(appointmentId, rejectReason, updateMode);
+```
 

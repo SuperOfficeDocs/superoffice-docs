@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetStartTime_DateTime_p_0
-description: NSAlarmData.SetStartTime(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetStartTime
+description: NSAlarmData.SetStartTime(DateTime startTime)
 intellisense: NSAlarmData.SetStartTime
-sortOrder: 691
-keywords: SetStartTime(DateTime)
+keywords: NSAlarmData, GetStartTime
 so.topic: reference
 ---
 
-
 date + start time planned
 
-
-
-* **StartTime:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **startTime** DateTime
 

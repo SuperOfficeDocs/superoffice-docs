@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSEMailAddress_SetAddress_String_p_0
-description: NSEMailAddress.SetAddress(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAddress_SetAddress
+description: NSEMailAddress.SetAddress(String address)
 intellisense: NSEMailAddress.SetAddress
-sortOrder: 2771
-keywords: SetAddress(String)
+keywords: NSEMailAddress, GetAddress
 so.topic: reference
 ---
 
 
-* **Address:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **address** String
 

@@ -1,22 +1,29 @@
----
-title: crmscript_ref_NSDashboardAgent_CreateNewFromTemplate_Integer_p_0_String_p_1_String_p_2_Integer_p_3_VisibleFor__p_4
-description: NSDashboardAgent.CreateNewFromTemplate(Integer p_0, String p_1, String p_2, Integer p_3, VisibleFor[] p_4)
+﻿---
+title: crmscript_ref_NSDashboardAgent_CreateNewFromTemplate
+description: DashboardTile CreateNewFromTemplate(Integer dashboardTileId, String caption, String description, Integer selectionId, VisibleForArray visibleFor)
 intellisense: NSDashboardAgent.CreateNewFromTemplate
-sortOrder: 2278
-keywords: CreateNewFromTemplate(Integer,String,String,Integer,VisibleFor[])
+keywords: NSDashboardAgent,CreateNewFromTemplate
 so.topic: reference
 ---
 
-
 Create new tile from another tile used as template
 
+**Parameters:**
+ - **dashboardTileId** Tile template Id
+ - **caption** Caption of new tile
+ - **description** Description of new tile
+ - **selectionId** Selection id of new tile
+ - **visibleFor** Who the tile should be visible for
 
+**Returns:** The new tile
 
-* **dashboardTileId:** Tile template Id
-* **caption:** Caption of new tile
-* **description:** Description of new tile
-* **selectionId:** Selection id of new tile
-* **visibleFor:** Who the tile should be visible for
-* **Returns:** The new tile
-
+```crmscript
+NSDashboardAgent agent;
+Integer dashboardTileId;
+String caption;
+String description;
+Integer selectionId;
+VisibleForArray visibleFor;
+DashboardTile res = agent.CreateNewFromTemplate(dashboardTileId, caption, description, selectionId, visibleFor);
+```
 

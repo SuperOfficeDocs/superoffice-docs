@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactRelationEntity_GetDestinationContactName
-description: NSContactRelationEntity.GetDestinationContactName()
+description: String NSContactRelationEntity.GetDestinationContactName()
 intellisense: NSContactRelationEntity.GetDestinationContactName
-sortOrder: 1957
-keywords: GetDestinationContactName()
+keywords: NSContactRelationEntity, GetDestinationContactName
 so.topic: reference
 ---
 
-
 Name of the destination contact.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

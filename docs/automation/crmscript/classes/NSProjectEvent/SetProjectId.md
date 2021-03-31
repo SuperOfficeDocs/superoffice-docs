@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetProjectId_Integer_p_0
-description: NSProjectEvent.SetProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetProjectId
+description: NSProjectEvent.SetProjectId(Integer projectId)
 intellisense: NSProjectEvent.SetProjectId
-keywords: SetProjectId(Integer)
+keywords: NSProjectEvent, GetProjectId
 so.topic: reference
 ---
 
-
 Id of the project that represents the event
 
-
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectId** Integer
 

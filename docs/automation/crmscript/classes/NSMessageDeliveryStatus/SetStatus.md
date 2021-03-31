@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMessageDeliveryStatus_SetStatus_Integer_p_0
-description: NSMessageDeliveryStatus.SetStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSMessageDeliveryStatus_SetStatus
+description: NSMessageDeliveryStatus.SetStatus(Integer status)
 intellisense: NSMessageDeliveryStatus.SetStatus
-keywords: SetStatus(Integer)
+keywords: NSMessageDeliveryStatus, GetStatus
 so.topic: reference
 ---
 
-
 Current message status
 
-
-
-* **Status:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **status** Integer
 

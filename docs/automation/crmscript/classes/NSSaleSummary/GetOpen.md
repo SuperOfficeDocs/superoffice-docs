@@ -1,20 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleSummary_GetOpen
-description: NSSaleSummary.GetOpen()
+description: Integer NSSaleSummary.GetOpen()
 intellisense: NSSaleSummary.GetOpen
-keywords: GetOpen()
+keywords: NSSaleSummary, GetOpen
 so.topic: reference
 ---
 
+Number of all open within the period 
 
-Number of all open within the period
-
-
-    	///
-    
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

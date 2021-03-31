@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetColorBlock_Integer_p_0
-description: NSSelectableMDOListItem.SetColorBlock(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetColorBlock
+description: NSSelectableMDOListItem.SetColorBlock(Integer colorBlock)
 intellisense: NSSelectableMDOListItem.SetColorBlock
-keywords: SetColorBlock(Integer)
+keywords: NSSelectableMDOListItem, GetColorBlock
 so.topic: reference
 ---
 
-
 The color indicator of the ListItem color block
 
-
-
-* **ColorBlock:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **colorBlock** Integer
 

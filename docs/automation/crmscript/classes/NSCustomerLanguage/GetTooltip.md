@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCustomerLanguage_GetTooltip
-description: NSCustomerLanguage.GetTooltip()
+description: String NSCustomerLanguage.GetTooltip()
 intellisense: NSCustomerLanguage.GetTooltip
-sortOrder: 2214
-keywords: GetTooltip()
+keywords: NSCustomerLanguage, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

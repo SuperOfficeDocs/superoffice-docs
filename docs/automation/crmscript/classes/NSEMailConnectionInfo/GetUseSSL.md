@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailConnectionInfo_GetUseSSL
-description: NSEMailConnectionInfo.GetUseSSL()
+description: Bool NSEMailConnectionInfo.GetUseSSL()
 intellisense: NSEMailConnectionInfo.GetUseSSL
-sortOrder: 2910
-keywords: GetUseSSL()
+keywords: NSEMailConnectionInfo, GetUseSSL
 so.topic: reference
 ---
 
-
 Use a secure connection with the server
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

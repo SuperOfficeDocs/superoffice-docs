@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionWorkflowState_SetUpdatePricesButton_NSQuoteVersionButtonState_p_0
-description: NSQuoteVersionWorkflowState.SetUpdatePricesButton(NSQuoteVersionButtonState p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionWorkflowState_SetUpdatePricesButton
+description: NSQuoteVersionWorkflowState.SetUpdatePricesButton(QuoteVersionButtonState updatePricesButton)
 intellisense: NSQuoteVersionWorkflowState.SetUpdatePricesButton
-keywords: SetUpdatePricesButton(NSQuoteVersionButtonState)
+keywords: NSQuoteVersionWorkflowState, GetUpdatePricesButton
 so.topic: reference
 ---
 
-
 Information about the action for the update prices button.
 
-
-
-* **UpdatePricesButton:** QuoteVersionButtonState
-* **Returns:** QuoteVersionButtonState
-
+**Parameter:** 
+ - **updatePricesButton** QuoteVersionButtonState
 

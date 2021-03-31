@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldMetadata_GetDisplayName
-description: NSFieldMetadata.GetDisplayName()
+description: String NSFieldMetadata.GetDisplayName()
 intellisense: NSFieldMetadata.GetDisplayName
-sortOrder: 3582
-keywords: GetDisplayName()
+keywords: NSFieldMetadata, GetDisplayName
 so.topic: reference
 ---
 
-
 Localized field name – shown in the GUI
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

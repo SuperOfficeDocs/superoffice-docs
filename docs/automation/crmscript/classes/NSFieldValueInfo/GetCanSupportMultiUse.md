@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldValueInfo_GetCanSupportMultiUse
-description: NSFieldValueInfo.GetCanSupportMultiUse()
+description: Bool NSFieldValueInfo.GetCanSupportMultiUse()
 intellisense: NSFieldValueInfo.GetCanSupportMultiUse
-sortOrder: 3617
-keywords: GetCanSupportMultiUse()
+keywords: NSFieldValueInfo, GetCanSupportMultiUse
 so.topic: reference
 ---
 
-
 Can the field support multi use?
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

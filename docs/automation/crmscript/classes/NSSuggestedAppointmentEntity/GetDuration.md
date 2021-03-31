@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedAppointmentEntity_GetDuration
-description: NSSuggestedAppointmentEntity.GetDuration()
+description: TimeSpan NSSuggestedAppointmentEntity.GetDuration()
 intellisense: NSSuggestedAppointmentEntity.GetDuration
-keywords: GetDuration()
+keywords: NSSuggestedAppointmentEntity, GetDuration
 so.topic: reference
 ---
 
-
 Duration in minutes of suggested appointment
 
-
-
-* **Returns:** TimeSpan
+**Returns:** TimeSpan
 
 

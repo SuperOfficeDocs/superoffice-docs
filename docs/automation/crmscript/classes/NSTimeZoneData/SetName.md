@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTimeZoneData_SetName_String_p_0
-description: NSTimeZoneData.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSTimeZoneData_SetName
+description: NSTimeZoneData.SetName(String name)
 intellisense: NSTimeZoneData.SetName
-keywords: SetName(String)
+keywords: NSTimeZoneData, GetName
 so.topic: reference
 ---
 
-
 Name associated with the location
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

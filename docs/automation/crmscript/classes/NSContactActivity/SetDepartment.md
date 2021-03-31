@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactActivity_SetDepartment_String_p_0
-description: NSContactActivity.SetDepartment(String p_0)
+﻿---
+title: crmscript_ref_NSContactActivity_SetDepartment
+description: NSContactActivity.SetDepartment(String department)
 intellisense: NSContactActivity.SetDepartment
-sortOrder: 1789
-keywords: SetDepartment(String)
+keywords: NSContactActivity, GetDepartment
 so.topic: reference
 ---
 
-
 Department
 
-
-
-* **Department:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **department** String
 

@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetFlags_NSTicketPriorityFlags_p_0
-description: NSTicketPriorityEntity.SetFlags(NSTicketPriorityFlags p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetFlags
+description: NSTicketPriorityEntity.SetFlags(TicketPriorityFlags flags)
 intellisense: NSTicketPriorityEntity.SetFlags
-keywords: SetFlags(NSTicketPriorityFlags)
+keywords: NSTicketPriorityEntity, GetFlags
 so.topic: reference
 ---
 
-
 A bitmask of flags.
 
-
-
-* **Flags:** TicketPriorityFlags
-* **Returns:** TicketPriorityFlags
-
+**Parameter:** 
+ - **flags** TicketPriorityFlags
+     - Enum: 0 = Unknown 
+     - Enum: 1 = External 
+     - Enum: 2 = Default 
+     - Enum: 4 = AlertSchedule 
 

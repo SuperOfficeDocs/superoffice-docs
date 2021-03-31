@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSControlInfo_GetLabel
-description: NSControlInfo.GetLabel()
+description: String NSControlInfo.GetLabel()
 intellisense: NSControlInfo.GetLabel
-sortOrder: 1997
-keywords: GetLabel()
+keywords: NSControlInfo, GetLabel
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

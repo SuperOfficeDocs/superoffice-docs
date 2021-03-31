@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetAssociateId
-description: NSProject.GetAssociateId()
+description: Integer NSProject.GetAssociateId()
 intellisense: NSProject.GetAssociateId
-keywords: GetAssociateId()
+keywords: NSProject, GetAssociateId
 so.topic: reference
 ---
 
-
 The project owner id (associate id)
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

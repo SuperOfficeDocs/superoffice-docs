@@ -1,12 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSUserInfo_GetUserType
-description: NSUserInfo.GetUserType()
+description: Integer NSUserInfo.GetUserType()
 intellisense: NSUserInfo.GetUserType
-keywords: GetUserType()
+keywords: NSUserInfo, GetUserType
 so.topic: reference
 ---
 
 
-* **Returns:** Integer
 
+**Returns:** Integer
+
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 

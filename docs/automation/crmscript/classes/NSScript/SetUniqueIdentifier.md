@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSScript_SetUniqueIdentifier_String_p_0
-description: NSScript.SetUniqueIdentifier(String p_0)
+﻿---
+title: crmscript_ref_NSScript_SetUniqueIdentifier
+description: NSScript.SetUniqueIdentifier(String uniqueIdentifier)
 intellisense: NSScript.SetUniqueIdentifier
-keywords: SetUniqueIdentifier(String)
+keywords: NSScript, GetUniqueIdentifier
 so.topic: reference
 ---
 
-
 Global unique identifier, accross customers/tenants
 
-
-
-* **UniqueIdentifier:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **uniqueIdentifier** String
 

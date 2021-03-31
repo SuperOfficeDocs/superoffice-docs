@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSReplicationAgent_SetFreetextSearchEnabledOnArea_Integer_p_0_Bool_p_1
-description: NSReplicationAgent.SetFreetextSearchEnabledOnArea(Integer p_0, Bool p_1)
+﻿---
+title: crmscript_ref_NSReplicationAgent_SetFreetextSearchEnabledOnArea
+description: Void SetFreetextSearchEnabledOnArea(Integer areaId, Bool freetextEnabled)
 intellisense: NSReplicationAgent.SetFreetextSearchEnabledOnArea
-keywords: SetFreetextSearchEnabledOnArea(Integer,Bool)
+keywords: NSReplicationAgent,SetFreetextSearchEnabledOnArea
 so.topic: reference
 ---
 
-
 Enable freetext search on this area
 
+**Parameters:**
+ - **areaId** The id of the area
+ - **freetextEnabled** True if freetextSearch on this area shall be enabled
 
+**Returns:** No return value
 
-* **areaId:** The id of the area
-* **freetextEnabled:** True if freetextSearch on this area shall be enabled
-* **Returns:** No return value
-
+```crmscript
+NSReplicationAgent agent;
+Integer areaId;
+Bool freetextEnabled;
+Void res = agent.SetFreetextSearchEnabledOnArea(areaId, freetextEnabled);
+```
 

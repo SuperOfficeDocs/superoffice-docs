@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedModuleLicense_SetCurrent_NSModuleLicense_p_0
-description: NSExtendedModuleLicense.SetCurrent(NSModuleLicense p_0)
+﻿---
+title: crmscript_ref_NSExtendedModuleLicense_SetCurrent
+description: NSExtendedModuleLicense.SetCurrent(ModuleLicense current)
 intellisense: NSExtendedModuleLicense.SetCurrent
-sortOrder: 3425
-keywords: SetCurrent(NSModuleLicense)
+keywords: NSExtendedModuleLicense, GetCurrent
 so.topic: reference
 ---
 
 
-* **Current:** ModuleLicense
-* **Returns:** ModuleLicense
 
+**Parameter:** 
+ - **current** ModuleLicense
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetToolTip_String_p_0
-description: NSSelectableMDOListItem.SetToolTip(String p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetToolTip
+description: NSSelectableMDOListItem.SetToolTip(String toolTip)
 intellisense: NSSelectableMDOListItem.SetToolTip
-keywords: SetToolTip(String)
+keywords: NSSelectableMDOListItem, GetToolTip
 so.topic: reference
 ---
 
-
 The tooltip of the ListItem
 
-
-
-* **ToolTip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **toolTip** String
 

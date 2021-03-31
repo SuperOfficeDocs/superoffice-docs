@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetSunStart_DateTime_p_0
-description: NSTicketPriorityEntity.SetSunStart(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetSunStart
+description: NSTicketPriorityEntity.SetSunStart(DateTime sunStart)
 intellisense: NSTicketPriorityEntity.SetSunStart
-keywords: SetSunStart(DateTime)
+keywords: NSTicketPriorityEntity, GetSunStart
 so.topic: reference
 ---
 
-
 The work hour start for Sundays. Note that only the time part of the DateTime is used
 
-
-
-* **SunStart:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **sunStart** DateTime
 

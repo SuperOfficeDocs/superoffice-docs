@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSListAgent_DeleteTicketCategoryEntity_Integer_p_0
-description: NSListAgent.DeleteTicketCategoryEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_DeleteTicketCategoryEntity
+description: DeleteTicketCategoryEntity(Integer ticketCategoryEntity);
 intellisense: NSListAgent.DeleteTicketCategoryEntity
-keywords: DeleteTicketCategoryEntity(Integer)
+keywords: NSListAgent,DeleteTicketCategoryEntity
 so.topic: reference
 ---
 
+Deletes the NSTicketCategoryEntity
+  
+**Parameters:**
+ - **ticketCategoryEntityId** The identity of the TicketCategoryEntity to delete.
 
-Deletes the TicketCategoryEntity
-
-
-
-* **ticketCategoryEntityId:** The identity of the TicketCategoryEntity
-
+```crmscript
+NSListAgent agent;
+agent.DeleteTicketCategoryEntity(123);
+```
 

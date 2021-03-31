@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAppointmentAgent_ToggleAppointmentStatus_Integer_p_0
-description: NSAppointmentAgent.ToggleAppointmentStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_ToggleAppointmentStatus
+description: Integer ToggleAppointmentStatus(Integer appointmentId)
 intellisense: NSAppointmentAgent.ToggleAppointmentStatus
-sortOrder: 832
-keywords: ToggleAppointmentStatus(Integer)
+keywords: NSAppointmentAgent,ToggleAppointmentStatus
 so.topic: reference
 ---
 
-
 Sets an appointment's status to Completed if the appointment had a different status, or sets the status to started if already set to completed.
 
+**Parameters:**
+ - **appointmentId** The appointment id.
 
+**Returns:** The new AppointmentStatus
 
-* **appointmentId:** The appointment id.
-* **Returns:** The new AppointmentStatus
-
+```crmscript
+NSAppointmentAgent agent;
+Integer appointmentId;
+Integer res = agent.ToggleAppointmentStatus(appointmentId);
+```
 

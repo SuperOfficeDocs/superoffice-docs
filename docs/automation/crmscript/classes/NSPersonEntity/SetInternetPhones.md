@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetInternetPhones_NSEntityElement__p_0
-description: NSPersonEntity.SetInternetPhones(NSEntityElement[] p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetInternetPhones
+description: NSPersonEntity.SetInternetPhones(EntityElementArray internetPhones)
 intellisense: NSPersonEntity.SetInternetPhones
-keywords: SetInternetPhones(NSEntityElement[])
+keywords: NSPersonEntity, GetInternetPhones
 so.topic: reference
 ---
 
 
-* **InternetPhones:** EntityElementArray
-* **Returns:** EntityElementArray
 
+**Parameter:** 
+ - **internetPhones** EntityElementArray
 

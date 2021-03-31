@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketMessageEntity_GetCreatedAt
-description: NSTicketMessageEntity.GetCreatedAt()
+description: DateTime NSTicketMessageEntity.GetCreatedAt()
 intellisense: NSTicketMessageEntity.GetCreatedAt
-keywords: GetCreatedAt()
+keywords: NSTicketMessageEntity, GetCreatedAt
 so.topic: reference
 ---
 
-
 When the message was posted.
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

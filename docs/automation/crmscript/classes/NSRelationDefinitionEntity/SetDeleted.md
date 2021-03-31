@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRelationDefinitionEntity_SetDeleted_Bool_p_0
-description: NSRelationDefinitionEntity.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSRelationDefinitionEntity_SetDeleted
+description: NSRelationDefinitionEntity.SetDeleted(Bool deleted)
 intellisense: NSRelationDefinitionEntity.SetDeleted
-keywords: SetDeleted(Bool)
+keywords: NSRelationDefinitionEntity, GetDeleted
 so.topic: reference
 ---
 
-
 True if deleted
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

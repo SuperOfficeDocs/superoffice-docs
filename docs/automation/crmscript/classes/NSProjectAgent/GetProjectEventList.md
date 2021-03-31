@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSProjectAgent_GetProjectEventList_Integer__p_0
-description: NSProjectAgent.GetProjectEventList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_GetProjectEventList
+description: NSProjectEvent[] GetProjectEventList(Integer[]  projectEventIds);
 intellisense: NSProjectAgent.GetProjectEventList
-keywords: GetProjectEventList(Integer[])
+keywords: NSProjectAgent,GetProjectEventList
 so.topic: reference
 ---
 
-Gets an array of ProjectEvent objects.
+Gets a vector of ProjectEvent objects.
 
+**Parameters:**
+ - **projectEventIds** The identifiers of the NSProjectEvent objects
 
-* **p0:** IntegerArray of identifiers for ProjectEvent
-* **Returns:** Array of NSProjectEvent
+**Returns:** Vector of NSProjectEvent objects
 
+```crmscript
+Integer[] ids;
+NSProjectAgent agent;
+agent.GetProjectEventList(ids);
+```
 

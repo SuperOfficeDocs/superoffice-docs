@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetUpdatedDate
-description: NSContactEntity.GetUpdatedDate()
+description: DateTime NSContactEntity.GetUpdatedDate()
 intellisense: NSContactEntity.GetUpdatedDate
-sortOrder: 1837
-keywords: GetUpdatedDate()
+keywords: NSContactEntity, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Date last updated
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

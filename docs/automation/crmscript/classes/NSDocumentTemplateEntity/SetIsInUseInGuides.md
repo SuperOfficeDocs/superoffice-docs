@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetIsInUseInGuides_Bool_p_0
-description: NSDocumentTemplateEntity.SetIsInUseInGuides(Bool p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetIsInUseInGuides
+description: NSDocumentTemplateEntity.SetIsInUseInGuides(Bool isInUseInGuides)
 intellisense: NSDocumentTemplateEntity.SetIsInUseInGuides
-sortOrder: 2689
-keywords: SetIsInUseInGuides(Bool)
+keywords: NSDocumentTemplateEntity, GetIsInUseInGuides
 so.topic: reference
 ---
 
-
 True if the template is in use in a project or sales guide
 
-
-
-* **IsInUseInGuides:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isInUseInGuides** Bool
 

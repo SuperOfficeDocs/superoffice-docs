@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentInfo_GetConsentPurposeId
-description: NSConsentInfo.GetConsentPurposeId()
+description: Integer NSConsentInfo.GetConsentPurposeId()
 intellisense: NSConsentInfo.GetConsentPurposeId
-sortOrder: 1631
-keywords: GetConsentPurposeId()
+keywords: NSConsentInfo, GetConsentPurposeId
 so.topic: reference
 ---
 
-
 Primary key for the ConsentPurpose associated with this consent
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

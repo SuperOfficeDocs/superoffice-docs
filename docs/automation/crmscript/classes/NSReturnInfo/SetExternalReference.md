@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReturnInfo_SetExternalReference_String_p_0
-description: NSReturnInfo.SetExternalReference(String p_0)
+﻿---
+title: crmscript_ref_NSReturnInfo_SetExternalReference
+description: NSReturnInfo.SetExternalReference(String externalReference)
 intellisense: NSReturnInfo.SetExternalReference
-keywords: SetExternalReference(String)
+keywords: NSReturnInfo, GetExternalReference
 so.topic: reference
 ---
 
-
 The document plugin's key that uniquely identifies a document; stored in the externalReference field of the document table
 
-
-
-* **ExternalReference:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **externalReference** String
 

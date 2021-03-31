@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArea_GetAreaId
-description: NSArea.GetAreaId()
+description: Integer NSArea.GetAreaId()
 intellisense: NSArea.GetAreaId
-sortOrder: 1241
-keywords: GetAreaId()
+keywords: NSArea, GetAreaId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

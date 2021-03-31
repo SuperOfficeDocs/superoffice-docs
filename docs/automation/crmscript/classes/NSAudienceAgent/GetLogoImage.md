@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSAudienceAgent_GetLogoImage_String_p_0
-description: NSAudienceAgent.GetLogoImage(String p_0)
+﻿---
+title: crmscript_ref_NSAudienceAgent_GetLogoImage
+description: Image GetLogoImage(String layoutName)
 intellisense: NSAudienceAgent.GetLogoImage
-sortOrder: 1306
-keywords: GetLogoImage(String)
+keywords: NSAudienceAgent,GetLogoImage
 so.topic: reference
 ---
 
 
 
-
-* **layoutName
-**
-
-
+**Parameters:**
+ - **layoutName** 

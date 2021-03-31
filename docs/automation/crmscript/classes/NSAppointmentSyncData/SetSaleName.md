@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetSaleName_String_p_0
-description: NSAppointmentSyncData.SetSaleName(String p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetSaleName
+description: NSAppointmentSyncData.SetSaleName(String saleName)
 intellisense: NSAppointmentSyncData.SetSaleName
-sortOrder: 1089
-keywords: SetSaleName(String)
+keywords: NSAppointmentSyncData, GetSaleName
 so.topic: reference
 ---
 
-
 Sale heading (short description?)
 
-
-
-* **SaleName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **saleName** String
 

@@ -1,0 +1,13 @@
+﻿---
+title: crmscript_ref_NSPreviewMailing_SetMessageSubject
+description: NSPreviewMailing.SetMessageSubject(String messageSubject)
+intellisense: NSPreviewMailing.SetMessageSubject
+keywords: NSPreviewMailing, GetMessageSubject
+so.topic: reference
+---
+
+The mail subject field of the message
+
+**Parameter:** 
+ - **messageSubject** String
+

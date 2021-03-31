@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetTicketRead_NSTicketPriorityEscalateEvent_p_0
-description: NSTicketPriorityEntity.SetTicketRead(NSTicketPriorityEscalateEvent p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetTicketRead
+description: NSTicketPriorityEntity.SetTicketRead(TicketPriorityEscalateEvent ticketRead)
 intellisense: NSTicketPriorityEntity.SetTicketRead
-keywords: SetTicketRead(NSTicketPriorityEscalateEvent)
+keywords: NSTicketPriorityEntity, GetTicketRead
 so.topic: reference
 ---
 
-
 This field indicates what to do with the escalation chain when the request is read
 
-
-
-* **TicketRead:** TicketPriorityEscalateEvent
-* **Returns:** TicketPriorityEscalateEvent
-
+**Parameter:** 
+ - **ticketRead** TicketPriorityEscalateEvent
+     - Enum: -1 = None 
+     - Enum: 0 = Stop 
+     - Enum: 1 = Continue 
+     - Enum: 2 = Restart 
 

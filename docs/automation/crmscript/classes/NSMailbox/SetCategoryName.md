@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailbox_SetCategoryName_String_p_0
-description: NSMailbox.SetCategoryName(String p_0)
+﻿---
+title: crmscript_ref_NSMailbox_SetCategoryName
+description: NSMailbox.SetCategoryName(String categoryName)
 intellisense: NSMailbox.SetCategoryName
-keywords: SetCategoryName(String)
+keywords: NSMailbox, GetCategoryName
 so.topic: reference
 ---
 
-
 The name of the category that the mailbox is connected to
 
-
-
-* **CategoryName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **categoryName** String
 

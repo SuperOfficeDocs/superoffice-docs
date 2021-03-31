@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetDescription_String_p_0
-description: NSSale.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSSale_SetDescription
+description: NSSale.SetDescription(String description)
 intellisense: NSSale.SetDescription
-keywords: SetDescription(String)
+keywords: NSSale, GetDescription
 so.topic: reference
 ---
 
-
 The sales description
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

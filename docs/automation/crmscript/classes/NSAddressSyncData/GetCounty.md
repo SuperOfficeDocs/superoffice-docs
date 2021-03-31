@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAddressSyncData_GetCounty
-description: NSAddressSyncData.GetCounty()
+description: String NSAddressSyncData.GetCounty()
 intellisense: NSAddressSyncData.GetCounty
-sortOrder: 625
-keywords: GetCounty()
+keywords: NSAddressSyncData, GetCounty
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSSaleType_GetId
-description: NSSaleType.GetId()
+description: Integer NSSaleType.GetId()
 intellisense: NSSaleType.GetId
-keywords: GetId()
+keywords: NSSaleType, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

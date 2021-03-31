@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUser_SetRank_Integer_p_0
-description: NSUser.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSUser_SetRank
+description: NSUser.SetRank(Integer rank)
 intellisense: NSUser.SetRank
-keywords: SetRank(Integer)
+keywords: NSUser, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetOnCentral_Bool_p_0
-description: NSWebPanelEntity.SetOnCentral(Bool p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetOnCentral
+description: NSWebPanelEntity.SetOnCentral(Bool onCentral)
 intellisense: NSWebPanelEntity.SetOnCentral
-keywords: SetOnCentral(Bool)
+keywords: NSWebPanelEntity, GetOnCentral
 so.topic: reference
 ---
 
-
 Is the webpanel visible when user is on central database
 
-
-
-* **OnCentral:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **onCentral** Bool
 

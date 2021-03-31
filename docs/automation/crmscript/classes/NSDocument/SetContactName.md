@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocument_SetContactName_String_p_0
-description: NSDocument.SetContactName(String p_0)
+﻿---
+title: crmscript_ref_NSDocument_SetContactName
+description: NSDocument.SetContactName(String contactName)
 intellisense: NSDocument.SetContactName
-sortOrder: 2450
-keywords: SetContactName(String)
+keywords: NSDocument, GetContactName
 so.topic: reference
 ---
 
-
 Contact name
 
-
-
-* **ContactName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactName** String
 

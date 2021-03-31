@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersion_GetQuoteId
-description: NSQuoteVersion.GetQuoteId()
+description: Integer NSQuoteVersion.GetQuoteId()
 intellisense: NSQuoteVersion.GetQuoteId
-keywords: GetQuoteId()
+keywords: NSQuoteVersion, GetQuoteId
 so.topic: reference
 ---
 
-
 Foreign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

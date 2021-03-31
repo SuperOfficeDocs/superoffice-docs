@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEntity_SetEmailItemId_Integer_p_0
-description: NSEMailEntity.SetEmailItemId(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetEmailItemId
+description: NSEMailEntity.SetEmailItemId(Integer emailItemId)
 intellisense: NSEMailEntity.SetEmailItemId
-sortOrder: 2979
-keywords: SetEmailItemId(Integer)
+keywords: NSEMailEntity, GetEmailItemId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **EmailItemId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **emailItemId** Integer
 

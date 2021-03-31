@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetSaveInDb_Integer_p_0
-description: NSDocumentTemplateEntity.SetSaveInDb(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetSaveInDb
+description: NSDocumentTemplateEntity.SetSaveInDb(Integer saveInDb)
 intellisense: NSDocumentTemplateEntity.SetSaveInDb
-sortOrder: 2699
-keywords: SetSaveInDb(Integer)
+keywords: NSDocumentTemplateEntity, GetSaveInDb
 so.topic: reference
 ---
 
-
 1 = save document records in DB; otherwise not.
 
-
-
-* **SaveInDb:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saveInDb** Integer
 

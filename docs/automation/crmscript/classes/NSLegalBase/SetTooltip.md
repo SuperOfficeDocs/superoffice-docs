@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLegalBase_SetTooltip_String_p_0
-description: NSLegalBase.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSLegalBase_SetTooltip
+description: NSLegalBase.SetTooltip(String tooltip)
 intellisense: NSLegalBase.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSLegalBase, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip for this consent source
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

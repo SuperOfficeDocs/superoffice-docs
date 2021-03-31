@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionAttachment_SetDocumentId_Integer_p_0
-description: NSQuoteVersionAttachment.SetDocumentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionAttachment_SetDocumentId
+description: NSQuoteVersionAttachment.SetDocumentId(Integer documentId)
 intellisense: NSQuoteVersionAttachment.SetDocumentId
-keywords: SetDocumentId(Integer)
+keywords: NSQuoteVersionAttachment, GetDocumentId
 so.topic: reference
 ---
 
-
 Link to document
 
-
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **documentId** Integer
 

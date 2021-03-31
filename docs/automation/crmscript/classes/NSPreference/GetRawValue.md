@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPreference_GetRawValue
-description: NSPreference.GetRawValue()
+description: String NSPreference.GetRawValue()
 intellisense: NSPreference.GetRawValue
-keywords: GetRawValue()
+keywords: NSPreference, GetRawValue
 so.topic: reference
 ---
 
-
 Preference value
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

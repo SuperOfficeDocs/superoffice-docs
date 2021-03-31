@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetSaveDocument_Bool_p_0
-description: NSMailMergeSettings.SetSaveDocument(Bool p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetSaveDocument
+description: NSMailMergeSettings.SetSaveDocument(Bool saveDocument)
 intellisense: NSMailMergeSettings.SetSaveDocument
-keywords: SetSaveDocument(Bool)
+keywords: NSMailMergeSettings, GetSaveDocument
 so.topic: reference
 ---
 
-
 Should we save a reference to the merge document on each recipient.
 
-
-
-* **SaveDocument:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **saveDocument** Bool
 

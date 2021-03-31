@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetSynchronous_Bool_p_0
-description: NSMailMergeSettings.SetSynchronous(Bool p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetSynchronous
+description: NSMailMergeSettings.SetSynchronous(Bool synchronous)
 intellisense: NSMailMergeSettings.SetSynchronous
-keywords: SetSynchronous(Bool)
+keywords: NSMailMergeSettings, GetSynchronous
 so.topic: reference
 ---
 
 
-* **Synchronous:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **synchronous** Bool
 

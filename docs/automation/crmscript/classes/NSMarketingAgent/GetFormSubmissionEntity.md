@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSMarketingAgent_GetFormSubmissionEntity_Integer_p_0
-description: NSMarketingAgent.GetFormSubmissionEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSMarketingAgent_GetFormSubmissionEntity
+description: NSFormSubmissionEntity GetFormSubmissionEntity(Integer formSubmissionEntityId);
 intellisense: NSMarketingAgent.GetFormSubmissionEntity
-keywords: GetFormSubmissionEntity(Integer)
+keywords: NSMarketingAgent,GetFormSubmissionEntity
 so.topic: reference
 ---
 
+Gets a NSFormSubmissionEntity object.
 
-Gets a FormSubmissionEntity object.
+**Parameters:**
+ - **formSubmissionEntityId** The identifier of the NSFormSubmissionEntity object
 
+**Returns:** NSFormSubmissionEntity
 
-
-* **formSubmissionEntityId:** The identifier of the FormSubmissionEntity object
-* **Returns:** FormSubmissionEntity
-
+```crmscript
+NSMarketingAgent agent;
+NSFormSubmissionEntity thing = agent.GetFormSubmissionEntity(123);
+```
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSChatSummaryItem_GetChatSessionId
-description: NSChatSummaryItem.GetChatSessionId()
+description: Integer NSChatSummaryItem.GetChatSessionId()
 intellisense: NSChatSummaryItem.GetChatSessionId
-sortOrder: 1537
-keywords: GetChatSessionId()
+keywords: NSChatSummaryItem, GetChatSessionId
 so.topic: reference
 ---
 
-
 The primary key (auto-incremented)
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

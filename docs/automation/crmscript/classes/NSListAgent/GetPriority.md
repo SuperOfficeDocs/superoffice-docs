@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetPriority_Integer_p_0
-description: NSListAgent.GetPriority(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetPriority
+description: NSPriority GetPriority(Integer priorityId);
 intellisense: NSListAgent.GetPriority
-keywords: GetPriority(Integer)
+keywords: NSListAgent,GetPriority
 so.topic: reference
 ---
 
+Gets a NSPriority object.
 
-Gets a Priority object.
+**Parameters:**
+ - **priorityId** The identifier of the NSPriority object
 
+**Returns:** NSPriority
 
-
-* **priorityId:** The identifier of the Priority object
-* **Returns:** Priority
-
+```crmscript
+NSListAgent agent;
+NSPriority thing = agent.GetPriority(123);
+```
 

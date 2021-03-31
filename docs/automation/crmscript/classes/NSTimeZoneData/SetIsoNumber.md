@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSTimeZoneData_SetIsoNumber_Integer_p_0
-description: NSTimeZoneData.SetIsoNumber(Integer p_0)
+﻿---
+title: crmscript_ref_NSTimeZoneData_SetIsoNumber
+description: NSTimeZoneData.SetIsoNumber(Integer isoNumber)
 intellisense: NSTimeZoneData.SetIsoNumber
-keywords: SetIsoNumber(Integer)
+keywords: NSTimeZoneData, GetIsoNumber
 so.topic: reference
 ---
 
 
-* **IsoNumber:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **isoNumber** Integer
 

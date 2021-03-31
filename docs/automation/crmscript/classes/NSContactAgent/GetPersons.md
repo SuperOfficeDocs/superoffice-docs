@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSContactAgent_GetPersons_Integer_p_0
-description: NSContactAgent.GetPersons(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactAgent_GetPersons
+description: PersonArray GetPersons(Integer contactId)
 intellisense: NSContactAgent.GetPersons
-sortOrder: 1822
-keywords: GetPersons(Integer)
+keywords: NSContactAgent,GetPersons
 so.topic: reference
 ---
 
-
 Returns an array of all the contact persons for the company card.
 
+**Parameters:**
+ - **contactId** 
 
+**Returns:** Array of Persons
 
-* **contactId
-* **Returns:**** Array of Persons
-
+```crmscript
+NSContactAgent agent;
+Integer contactId;
+PersonArray res = agent.GetPersons(contactId);
+```
 

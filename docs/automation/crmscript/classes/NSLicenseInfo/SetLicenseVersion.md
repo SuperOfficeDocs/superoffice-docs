@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLicenseInfo_SetLicenseVersion_String_p_0
-description: NSLicenseInfo.SetLicenseVersion(String p_0)
+﻿---
+title: crmscript_ref_NSLicenseInfo_SetLicenseVersion
+description: NSLicenseInfo.SetLicenseVersion(String licenseVersion)
 intellisense: NSLicenseInfo.SetLicenseVersion
-keywords: SetLicenseVersion(String)
+keywords: NSLicenseInfo, GetLicenseVersion
 so.topic: reference
 ---
 
-
 The url that will provide keycodes for all modules owned by this owner
 
-
-
-* **LicenseVersion:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **licenseVersion** String
 

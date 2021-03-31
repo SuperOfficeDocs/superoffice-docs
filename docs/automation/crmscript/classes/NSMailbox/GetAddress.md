@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMailbox_GetAddress
-description: NSMailbox.GetAddress()
+description: String NSMailbox.GetAddress()
 intellisense: NSMailbox.GetAddress
-keywords: GetAddress()
+keywords: NSMailbox, GetAddress
 so.topic: reference
 ---
 
-
 The address associated with this mailbox (used as FROM: address when sending emails).
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCriteriaInformation_SetCriteriaArchiveColumns_NSArchiveColumnInfo__p_0
-description: NSCriteriaInformation.SetCriteriaArchiveColumns(NSArchiveColumnInfo[] p_0)
+﻿---
+title: crmscript_ref_NSCriteriaInformation_SetCriteriaArchiveColumns
+description: NSCriteriaInformation.SetCriteriaArchiveColumns(ArchiveColumnInfoArray criteriaArchiveColumns)
 intellisense: NSCriteriaInformation.SetCriteriaArchiveColumns
-sortOrder: 2108
-keywords: SetCriteriaArchiveColumns(NSArchiveColumnInfo[])
+keywords: NSCriteriaInformation, GetCriteriaArchiveColumns
 so.topic: reference
 ---
 
-
 Array of ColumnInfo column specifications
 
-
-
-* **CriteriaArchiveColumns:** ArchiveColumnInfoArray
-* **Returns:** ArchiveColumnInfoArray
-
+**Parameter:** 
+ - **criteriaArchiveColumns** ArchiveColumnInfoArray
 

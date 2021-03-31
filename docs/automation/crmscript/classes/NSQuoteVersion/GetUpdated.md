@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersion_GetUpdated
-description: NSQuoteVersion.GetUpdated()
+description: DateTime NSQuoteVersion.GetUpdated()
 intellisense: NSQuoteVersion.GetUpdated
-keywords: GetUpdated()
+keywords: NSQuoteVersion, GetUpdated
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

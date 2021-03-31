@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCustomerCenterConfig_SetCustConfigId_Integer_p_0
-description: NSCustomerCenterConfig.SetCustConfigId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCustomerCenterConfig_SetCustConfigId
+description: NSCustomerCenterConfig.SetCustConfigId(Integer custConfigId)
 intellisense: NSCustomerCenterConfig.SetCustConfigId
-sortOrder: 2204
-keywords: SetCustConfigId(Integer)
+keywords: NSCustomerCenterConfig, GetCustConfigId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **CustConfigId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **custConfigId** Integer
 

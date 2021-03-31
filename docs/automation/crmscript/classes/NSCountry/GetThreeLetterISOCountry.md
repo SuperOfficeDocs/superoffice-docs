@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCountry_GetThreeLetterISOCountry
-description: NSCountry.GetThreeLetterISOCountry()
+description: String NSCountry.GetThreeLetterISOCountry()
 intellisense: NSCountry.GetThreeLetterISOCountry
-sortOrder: 2026
-keywords: GetThreeLetterISOCountry()
+keywords: NSCountry, GetThreeLetterISOCountry
 so.topic: reference
 ---
 
+Three-letter country-code according to ISO3166 
 
-Three-letter country-code according to ISO3166
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

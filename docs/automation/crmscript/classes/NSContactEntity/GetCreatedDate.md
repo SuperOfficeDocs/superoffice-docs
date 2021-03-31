@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetCreatedDate
-description: NSContactEntity.GetCreatedDate()
+description: DateTime NSContactEntity.GetCreatedDate()
 intellisense: NSContactEntity.GetCreatedDate
-sortOrder: 1834
-keywords: GetCreatedDate()
+keywords: NSContactEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Date registered
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

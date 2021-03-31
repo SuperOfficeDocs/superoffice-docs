@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoBase_SetFieldName_String_p_0
-description: NSFieldInfoBase.SetFieldName(String p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoBase_SetFieldName
+description: NSFieldInfoBase.SetFieldName(String fieldName)
 intellisense: NSFieldInfoBase.SetFieldName
-sortOrder: 3476
-keywords: SetFieldName(String)
+keywords: NSFieldInfoBase, GetFieldName
 so.topic: reference
 ---
 
+Database name or prog-id: 'x_foobar' or 'SuperOffice:2'.
 
-Database name or prog-id: 'x\_foobar' or 'SuperOffice:2'.
-
-
-
-* **FieldName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fieldName** String
 

@@ -1,20 +1,25 @@
----
-title: crmscript_ref_NSEMailAgent_SaveEmailToTmpDocument_NSEMailEntity_p_0_Integer_p_1_Bool_p_2
-description: NSEMailAgent.SaveEmailToTmpDocument(NSEMailEntity p_0, Integer p_1, Bool p_2)
+﻿---
+title: crmscript_ref_NSEMailAgent_SaveEmailToTmpDocument
+description: String SaveEmailToTmpDocument(EMailEntity email, Integer folderId, Bool stripAttachments)
 intellisense: NSEMailAgent.SaveEmailToTmpDocument
-sortOrder: 2849
-keywords: SaveEmailToTmpDocument(NSEMailEntity,Integer,Bool)
+keywords: NSEMailAgent,SaveEmailToTmpDocument
 so.topic: reference
 ---
 
-
 Save the Email as a tmp document ready to archive
 
+**Parameters:**
+ - **email** The e-mail to save
+ - **folderId** The folder id where the email is
+ - **stripAttachments** If true, do not include attachments in tmp document
 
+**Returns:** Filename of the tmp document
 
-* **email:** The e-mail to save
-* **folderId:** The folder id where the email is
-* **stripAttachments:** If true, do not include attachments in tmp document
-* **Returns:** Filename of the tmp document
-
+```crmscript
+NSEMailAgent agent;
+EMailEntity email;
+Integer folderId;
+Bool stripAttachments;
+String res = agent.SaveEmailToTmpDocument(email, folderId, stripAttachments);
+```
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteConnection_GetQuoteConnectionId
-description: NSQuoteConnection.GetQuoteConnectionId()
+description: Integer NSQuoteConnection.GetQuoteConnectionId()
 intellisense: NSQuoteConnection.GetQuoteConnectionId
-keywords: GetQuoteConnectionId()
+keywords: NSQuoteConnection, GetQuoteConnectionId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

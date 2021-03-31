@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetActivate_DateTime_p_0
-description: NSTicket.SetActivate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetActivate
+description: NSTicket.SetActivate(DateTime activate)
 intellisense: NSTicket.SetActivate
-keywords: SetActivate(DateTime)
+keywords: NSTicket, GetActivate
 so.topic: reference
 ---
 
-
 When the ticket should be activated, if it is postponed.
 
-
-
-* **Activate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **activate** DateTime
 

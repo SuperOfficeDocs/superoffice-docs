@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSChangedDataItem_SetTablename_String_p_0
-description: NSChangedDataItem.SetTablename(String p_0)
+﻿---
+title: crmscript_ref_NSChangedDataItem_SetTablename
+description: NSChangedDataItem.SetTablename(String tablename)
 intellisense: NSChangedDataItem.SetTablename
-sortOrder: 1511
-keywords: SetTablename(String)
+keywords: NSChangedDataItem, GetTablename
 so.topic: reference
 ---
 
-
 Name of table, standardized to lowercase
 
-
-
-* **Tablename:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tablename** String
 

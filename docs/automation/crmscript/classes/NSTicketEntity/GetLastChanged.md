@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketEntity_GetLastChanged
-description: NSTicketEntity.GetLastChanged()
+description: DateTime NSTicketEntity.GetLastChanged()
 intellisense: NSTicketEntity.GetLastChanged
-keywords: GetLastChanged()
+keywords: NSTicketEntity, GetLastChanged
 so.topic: reference
 ---
 
-
 The last time the ticket was modified.
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

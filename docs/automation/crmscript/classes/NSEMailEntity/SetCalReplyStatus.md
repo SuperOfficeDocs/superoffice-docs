@@ -1,18 +1,17 @@
----
-title: crmscript_ref_NSEMailEntity_SetCalReplyStatus_Integer_p_0
-description: NSEMailEntity.SetCalReplyStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetCalReplyStatus
+description: NSEMailEntity.SetCalReplyStatus(Integer calReplyStatus)
 intellisense: NSEMailEntity.SetCalReplyStatus
-sortOrder: 2976
-keywords: SetCalReplyStatus(Integer)
+keywords: NSEMailEntity, GetCalReplyStatus
 so.topic: reference
 ---
 
-
 Reply status stored in calendar data for the ical method is REPLY
 
-
-
-* **CalReplyStatus:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **calReplyStatus** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Accepted 
+     - Enum: 2 = Declined 
+     - Enum: 3 = Tentative 
 

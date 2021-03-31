@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPreference_GetTabOrder
-description: NSPreference.GetTabOrder()
+description: TabOrder NSPreference.GetTabOrder()
 intellisense: NSPreference.GetTabOrder
-keywords: GetTabOrder()
+keywords: NSPreference, GetTabOrder
 so.topic: reference
 ---
 
 
-* **Returns:** TabOrder
+
+**Returns:** TabOrder
 
 

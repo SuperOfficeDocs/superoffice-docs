@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetContact_NSContact_p_0
-description: NSPersonEntity.SetContact(NSContact p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetContact
+description: NSPersonEntity.SetContact(Contact contact)
 intellisense: NSPersonEntity.SetContact
-keywords: SetContact(NSContact)
+keywords: NSPersonEntity, GetContact
 so.topic: reference
 ---
 
+The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set.
 
-The contact the contact person is registered on. This is required.
-
-
-
-* **Contact:** Contact
-* **Returns:** Contact
-
+**Parameter:** 
+ - **contact** Contact
 

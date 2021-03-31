@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUser_SetRequestSignature_String_p_0
-description: NSUser.SetRequestSignature(String p_0)
+﻿---
+title: crmscript_ref_NSUser_SetRequestSignature
+description: NSUser.SetRequestSignature(String requestSignature)
 intellisense: NSUser.SetRequestSignature
-keywords: SetRequestSignature(String)
+keywords: NSUser, GetRequestSignature
 so.topic: reference
 ---
 
-
 ej users request signature
 
-
-
-* **RequestSignature:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **requestSignature** String
 

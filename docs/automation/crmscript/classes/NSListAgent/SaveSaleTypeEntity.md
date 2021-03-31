@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveSaleTypeEntity_NSSaleTypeEntity_p_0
-description: NSListAgent.SaveSaleTypeEntity(NSSaleTypeEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveSaleTypeEntity
+description: NSSaleTypeEntity SaveSaleTypeEntity(NSSaleTypeEntity saleTypeEntity);
 intellisense: NSListAgent.SaveSaleTypeEntity
-keywords: SaveSaleTypeEntity(NSSaleTypeEntity)
+keywords: NSListAgent,SaveSaleTypeEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSSaleTypeEntity or creates a new NSSaleTypeEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **saleTypeEntity** The NSSaleTypeEntity to save.
 
+**Returns:** New or updated NSSaleTypeEntity
 
-Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is empty
-
-
-
-* **saleTypeEntity:** The SaleTypeEntity that is saved
-* **Returns:** New or updated SaleTypeEntity
-
+```crmscript
+NSList  agent;
+NSSaleTypeEntity thing = agent.CreateDefaultSaleTypeEntity();
+thing = agent.SaveSaleTypeEntity(thing);
+```
 

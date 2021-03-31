@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketDeviceInfo_SetDeviceIdentifier_String_p_0
-description: NSPocketDeviceInfo.SetDeviceIdentifier(String p_0)
+﻿---
+title: crmscript_ref_NSPocketDeviceInfo_SetDeviceIdentifier
+description: NSPocketDeviceInfo.SetDeviceIdentifier(String deviceIdentifier)
 intellisense: NSPocketDeviceInfo.SetDeviceIdentifier
-keywords: SetDeviceIdentifier(String)
+keywords: NSPocketDeviceInfo, GetDeviceIdentifier
 so.topic: reference
 ---
 
-
 A unique identifier of this device. This value should always be the same for the same device
 
-
-
-* **DeviceIdentifier:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **deviceIdentifier** String
 

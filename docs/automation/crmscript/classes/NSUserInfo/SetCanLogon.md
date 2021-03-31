@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSUserInfo_SetCanLogon_Bool_p_0
-description: NSUserInfo.SetCanLogon(Bool p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetCanLogon
+description: NSUserInfo.SetCanLogon(Bool canLogon)
 intellisense: NSUserInfo.SetCanLogon
-keywords: SetCanLogon(Bool)
+keywords: NSUserInfo, GetCanLogon
 so.topic: reference
 ---
 
 
-* **CanLogon:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **canLogon** Bool
 

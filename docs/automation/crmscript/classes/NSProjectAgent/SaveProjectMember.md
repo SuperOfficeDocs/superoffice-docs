@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSProjectAgent_SaveProjectMember_NSProjectMember_p_0
-description: NSProjectAgent.SaveProjectMember(NSProjectMember p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_SaveProjectMember
+description: NSProjectMember SaveProjectMember(NSProjectMember projectMember);
 intellisense: NSProjectAgent.SaveProjectMember
-keywords: SaveProjectMember(NSProjectMember)
+keywords: NSProjectAgent,SaveProjectMember
 so.topic: reference
 ---
+	  
+Updates the existing NSProjectMember or creates a new NSProjectMember if the id parameter is 0
+	  
+**Parameters**:
+ - **projectMember** The NSProjectMember to save.
 
+**Returns:** New or updated NSProjectMember
 
-Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is empty
-
-
-
-* **projectMember:** The ProjectMember that is saved
-* **Returns:** New or updated ProjectMember
-
+```crmscript
+NSProject  agent;
+NSProjectMember thing = agent.CreateDefaultProjectMember();
+thing = agent.SaveProjectMember(thing);
+```
 

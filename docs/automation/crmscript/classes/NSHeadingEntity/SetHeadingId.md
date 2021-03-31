@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSHeadingEntity_SetHeadingId_Integer_p_0
-description: NSHeadingEntity.SetHeadingId(Integer p_0)
+﻿---
+title: crmscript_ref_NSHeadingEntity_SetHeadingId
+description: NSHeadingEntity.SetHeadingId(Integer headingId)
 intellisense: NSHeadingEntity.SetHeadingId
-sortOrder: 3919
-keywords: SetHeadingId(Integer)
+keywords: NSHeadingEntity, GetHeadingId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **HeadingId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **headingId** Integer
 

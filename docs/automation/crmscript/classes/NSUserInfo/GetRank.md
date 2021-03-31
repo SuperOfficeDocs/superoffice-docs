@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserInfo_GetRank
-description: NSUserInfo.GetRank()
+description: Integer NSUserInfo.GetRank()
 intellisense: NSUserInfo.GetRank
-keywords: GetRank()
+keywords: NSUserInfo, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

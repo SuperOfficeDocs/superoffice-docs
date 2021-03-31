@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLineConfiguration_SetTooltip_String_p_0
-description: NSQuoteLineConfiguration.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteLineConfiguration_SetTooltip
+description: NSQuoteLineConfiguration.SetTooltip(String tooltip)
 intellisense: NSQuoteLineConfiguration.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSQuoteLineConfiguration, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip resource string.
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

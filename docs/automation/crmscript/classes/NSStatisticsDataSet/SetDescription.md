@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatisticsDataSet_SetDescription_String_p_0
-description: NSStatisticsDataSet.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSStatisticsDataSet_SetDescription
+description: NSStatisticsDataSet.SetDescription(String description)
 intellisense: NSStatisticsDataSet.SetDescription
-keywords: SetDescription(String)
+keywords: NSStatisticsDataSet, GetDescription
 so.topic: reference
 ---
 
-
 Tooltip for data value
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

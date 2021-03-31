@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSUserAgent_GetUserGroup_Integer_p_0
-description: NSUserAgent.GetUserGroup(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetUserGroup
+description: NSUserGroup GetUserGroup(Integer userGroupId);
 intellisense: NSUserAgent.GetUserGroup
-keywords: GetUserGroup(Integer)
+keywords: NSUserAgent,GetUserGroup
 so.topic: reference
 ---
 
+Gets a NSUserGroup object.
 
-Gets a UserGroup object.
+**Parameters:**
+ - **userGroupId** The identifier of the NSUserGroup object
 
+**Returns:** NSUserGroup
 
-
-* **userGroupId:** The identifier of the UserGroup object
-* **Returns:** UserGroup
-
+```crmscript
+NSUserAgent agent;
+NSUserGroup thing = agent.GetUserGroup(123);
+```
 

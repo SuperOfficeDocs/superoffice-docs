@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedDocumentEntity_SetName_String_p_0
-description: NSSuggestedDocumentEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSSuggestedDocumentEntity_SetName
+description: NSSuggestedDocumentEntity.SetName(String name)
 intellisense: NSSuggestedDocumentEntity.SetName
-keywords: SetName(String)
+keywords: NSSuggestedDocumentEntity, GetName
 so.topic: reference
 ---
 
-
 Item name, visible in Guide
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

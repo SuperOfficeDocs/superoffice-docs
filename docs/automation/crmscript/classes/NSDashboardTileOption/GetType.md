@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTileOption_GetType
-description: NSDashboardTileOption.GetType()
+description: Integer NSDashboardTileOption.GetType()
 intellisense: NSDashboardTileOption.GetType
-sortOrder: 2319
-keywords: GetType()
+keywords: NSDashboardTileOption, GetType
 so.topic: reference
 ---
 
-
 The type of option - integer, list, boolean (checkbox) etc.
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = None 
+     - Enum: 1 = String 
+     - Enum: 2 = Integer 
+     - Enum: 3 = Boolean 
+     - Enum: 4 = List 
 

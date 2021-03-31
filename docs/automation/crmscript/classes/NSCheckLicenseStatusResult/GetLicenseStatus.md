@@ -1,24 +1,21 @@
----
+﻿---
 title: crmscript_ref_NSCheckLicenseStatusResult_GetLicenseStatus
-description: NSCheckLicenseStatusResult.GetLicenseStatus()
+description: Integer NSCheckLicenseStatusResult.GetLicenseStatus()
 intellisense: NSCheckLicenseStatusResult.GetLicenseStatus
-sortOrder: 1551
-keywords: GetLicenseStatus()
+keywords: NSCheckLicenseStatusResult, GetLicenseStatus
 so.topic: reference
 ---
 
+Result of CheckLicenseStatus 
 
-Result of CheckLicenseStatus
-* Ok=0
-* NewLicenseAvailable=1
-* NewCompanyNameAvailable=2
-* NewSerialAvailable=3
-* UseCustomMessage=4
-* UseCustomMessageAndUrl=5
-* ProblemWithLicense=100
-* UnknownError=5000
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Ok 
+     - Enum: 1 = NewLicenseAvailable 
+     - Enum: 2 = NewCompanyNameAvailable 
+     - Enum: 3 = NewSerialAvailable 
+     - Enum: 4 = UseCustomMessage 
+     - Enum: 5 = UseCustomMessageAndUrl 
+     - Enum: 100 = ProblemWithLicense 
+     - Enum: 5000 = UnknownError 
 

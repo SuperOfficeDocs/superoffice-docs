@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatusMonitorPeriods_SetPeriod3_Integer_p_0
-description: NSStatusMonitorPeriods.SetPeriod3(Integer p_0)
+﻿---
+title: crmscript_ref_NSStatusMonitorPeriods_SetPeriod3
+description: NSStatusMonitorPeriods.SetPeriod3(Integer period3)
 intellisense: NSStatusMonitorPeriods.SetPeriod3
-keywords: SetPeriod3(Integer)
+keywords: NSStatusMonitorPeriods, GetPeriod3
 so.topic: reference
 ---
 
-
 Days in the third period
 
-
-
-* **Period3:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **period3** Integer
 

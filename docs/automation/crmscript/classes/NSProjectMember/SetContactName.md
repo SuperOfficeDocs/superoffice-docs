@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetContactName_String_p_0
-description: NSProjectMember.SetContactName(String p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetContactName
+description: NSProjectMember.SetContactName(String contactName)
 intellisense: NSProjectMember.SetContactName
-keywords: SetContactName(String)
+keywords: NSProjectMember, GetContactName
 so.topic: reference
 ---
 
-
 Contact name
 
-
-
-* **ContactName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactName** String
 

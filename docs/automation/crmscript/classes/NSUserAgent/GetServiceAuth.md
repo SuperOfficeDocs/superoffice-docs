@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSUserAgent_GetServiceAuth_Integer_p_0
-description: NSUserAgent.GetServiceAuth(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetServiceAuth
+description: NSServiceAuth GetServiceAuth(Integer serviceAuthId);
 intellisense: NSUserAgent.GetServiceAuth
-keywords: GetServiceAuth(Integer)
+keywords: NSUserAgent,GetServiceAuth
 so.topic: reference
 ---
 
+Gets a NSServiceAuth object.
 
-Gets a ServiceAuth object.
+**Parameters:**
+ - **serviceAuthId** The identifier of the NSServiceAuth object
 
+**Returns:** NSServiceAuth
 
-
-* **serviceAuthId:** The identifier of the ServiceAuth object
-* **Returns:** ServiceAuth
-
+```crmscript
+NSUserAgent agent;
+NSServiceAuth thing = agent.GetServiceAuth(123);
+```
 

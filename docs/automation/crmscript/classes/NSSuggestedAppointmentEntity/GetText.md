@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedAppointmentEntity_GetText
-description: NSSuggestedAppointmentEntity.GetText()
+description: String NSSuggestedAppointmentEntity.GetText()
 intellisense: NSSuggestedAppointmentEntity.GetText
-keywords: GetText()
+keywords: NSSuggestedAppointmentEntity, GetText
 so.topic: reference
 ---
 
-
 The suggested text of the new appointment
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

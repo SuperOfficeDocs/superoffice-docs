@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSCompetitor_SetTooltip_String_p_0
-description: NSCompetitor.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSCompetitor_SetTooltip
+description: NSCompetitor.SetTooltip(String tooltip)
 intellisense: NSCompetitor.SetTooltip
-sortOrder: 1584
-keywords: SetTooltip(String)
+keywords: NSCompetitor, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

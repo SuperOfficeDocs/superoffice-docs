@@ -1,14 +1,16 @@
----
-title: crmscript_ref_NSDocumentEntity_SetLockSemantics_Integer_p_0
-description: NSDocumentEntity.SetLockSemantics(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetLockSemantics
+description: NSDocumentEntity.SetLockSemantics(Integer lockSemantics)
 intellisense: NSDocumentEntity.SetLockSemantics
-sortOrder: 2602
-keywords: SetLockSemantics(Integer)
+keywords: NSDocumentEntity, GetLockSemantics
 so.topic: reference
 ---
 
 
-* **LockSemantics:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **lockSemantics** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Locking 
+     - Enum: 2 = Versioning 
 

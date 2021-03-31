@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPreferenceDescriptionLine_GetPrefValue
-description: NSPreferenceDescriptionLine.GetPrefValue()
+description: String NSPreferenceDescriptionLine.GetPrefValue()
 intellisense: NSPreferenceDescriptionLine.GetPrefValue
-keywords: GetPrefValue()
+keywords: NSPreferenceDescriptionLine, GetPrefValue
 so.topic: reference
 ---
 
-
 Possible value
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

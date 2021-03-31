@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListItem_SetName_String_p_0
-description: NSPhoneListItem.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSPhoneListItem_SetName
+description: NSPhoneListItem.SetName(String name)
 intellisense: NSPhoneListItem.SetName
-keywords: SetName(String)
+keywords: NSPhoneListItem, GetName
 so.topic: reference
 ---
 
-
 The contact or person's name
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

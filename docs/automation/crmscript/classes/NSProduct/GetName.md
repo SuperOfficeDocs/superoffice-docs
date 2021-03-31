@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProduct_GetName
-description: NSProduct.GetName()
+description: String NSProduct.GetName()
 intellisense: NSProduct.GetName
-keywords: GetName()
+keywords: NSProduct, GetName
 so.topic: reference
 ---
 
-
 The name to use in the user interface.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

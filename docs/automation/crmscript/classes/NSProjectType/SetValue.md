@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSProjectType_SetValue_String_p_0
-description: NSProjectType.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSProjectType_SetValue
+description: NSProjectType.SetValue(String value)
 intellisense: NSProjectType.SetValue
-keywords: SetValue(String)
+keywords: NSProjectType, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

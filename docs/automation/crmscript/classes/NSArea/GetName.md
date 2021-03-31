@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArea_GetName
-description: NSArea.GetName()
+description: String NSArea.GetName()
 intellisense: NSArea.GetName
-sortOrder: 1245
-keywords: GetName()
+keywords: NSArea, GetName
 so.topic: reference
 ---
 
-
 Area name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

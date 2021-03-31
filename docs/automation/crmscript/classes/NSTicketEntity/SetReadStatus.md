@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSTicketEntity_SetReadStatus_NSTicketReadStatus_p_0
-description: NSTicketEntity.SetReadStatus(NSTicketReadStatus p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetReadStatus
+description: NSTicketEntity.SetReadStatus(TicketReadStatus readStatus)
 intellisense: NSTicketEntity.SetReadStatus
-keywords: SetReadStatus(NSTicketReadStatus)
+keywords: NSTicketEntity, GetReadStatus
 so.topic: reference
 ---
 
-
 Whether the owner has read the ticket or not (red, yellow, green).
 
-
-
-* **ReadStatus:** TicketReadStatus
-* **Returns:** TicketReadStatus
-
+**Parameter:** 
+ - **readStatus** TicketReadStatus
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Green 
+     - Enum: 2 = Yellow 
+     - Enum: 3 = Red 
 

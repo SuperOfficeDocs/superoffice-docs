@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSErpSyncAgent_SaveConnectionListMappings_NSErpConnectionListMappingContainer_p_0
-description: NSErpSyncAgent.SaveConnectionListMappings(NSErpConnectionListMappingContainer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_SaveConnectionListMappings
+description: ErpConnectionListMappingContainer SaveConnectionListMappings(ErpConnectionListMappingContainer listMapping)
 intellisense: NSErpSyncAgent.SaveConnectionListMappings
-sortOrder: 3196
-keywords: SaveConnectionListMappings(NSErpConnectionListMappingContainer)
+keywords: NSErpSyncAgent,SaveConnectionListMappings
 so.topic: reference
 ---
 
-
 Saves a connection to the database.
 
+**Parameters:**
+ - **listMapping** The list item mappings to save.
 
+**Returns:** The saved list mappings.
 
-* **listMapping:** The list item mappings to save.
-* **Returns:** The saved list mappings.
-
+```crmscript
+NSErpSyncAgent agent;
+ErpConnectionListMappingContainer listMapping;
+ErpConnectionListMappingContainer res = agent.SaveConnectionListMappings(listMapping);
+```
 

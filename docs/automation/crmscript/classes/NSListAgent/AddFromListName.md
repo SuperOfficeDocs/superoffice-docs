@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSListAgent_AddFromListName_String_p_0_NSListItemEntity_p_1
-description: NSListAgent.AddFromListName(String p_0, NSListItemEntity p_1)
+﻿---
+title: crmscript_ref_NSListAgent_AddFromListName
+description: ListItemEntity AddFromListName(String udListDefinitionName, ListItemEntity item)
 intellisense: NSListAgent.AddFromListName
-keywords: AddFromListName(String,NSListItemEntity)
+keywords: NSListAgent,AddFromListName
 so.topic: reference
 ---
 
-
 Save a new list item for the specified list defintion
 
+**Parameters:**
+ - **udListDefinitionName** The name of the list definition, indicating which list to save the item to.
+ - **item** The item to save
 
+**Returns:** The saved list item
 
-* **udListDefinitionName:** The name of the list definition, indicating which list to save the item to.
-* **item:** The item to save
-* **Returns:** The saved list item
-
+```crmscript
+NSListAgent agent;
+String udListDefinitionName;
+ListItemEntity item;
+ListItemEntity res = agent.AddFromListName(udListDefinitionName, item);
+```
 

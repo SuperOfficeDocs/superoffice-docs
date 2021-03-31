@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCsFeatureToggle_SetState_Bool_p_0
-description: NSCsFeatureToggle.SetState(Bool p_0)
+﻿---
+title: crmscript_ref_NSCsFeatureToggle_SetState
+description: NSCsFeatureToggle.SetState(Bool state)
 intellisense: NSCsFeatureToggle.SetState
-sortOrder: 2160
-keywords: SetState(Bool)
+keywords: NSCsFeatureToggle, GetState
 so.topic: reference
 ---
 
-
 Describes if the feature toggle is turned on or off
 
-
-
-* **State:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **state** Bool
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetConsents_NSConsentInfo__p_0
-description: NSPersonEntity.SetConsents(NSConsentInfo[] p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetConsents
+description: NSPersonEntity.SetConsents(ConsentInfoArray consents)
 intellisense: NSPersonEntity.SetConsents
-keywords: SetConsents(NSConsentInfo[])
+keywords: NSPersonEntity, GetConsents
 so.topic: reference
 ---
 
-
 The person's available consent information. Missing consents are not deleted. To remove a consent, mark its legalbase as 'WITHDRAWN'
 
-
-
-* **Consents:** ConsentInfoArray
-* **Returns:** ConsentInfoArray
-
+**Parameter:** 
+ - **consents** ConsentInfoArray
 

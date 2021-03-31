@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetRepliedAt
-description: NSEMailEntity.GetRepliedAt()
+description: DateTime NSEMailEntity.GetRepliedAt()
 intellisense: NSEMailEntity.GetRepliedAt
-sortOrder: 2947
-keywords: GetRepliedAt()
+keywords: NSEMailEntity, GetRepliedAt
 so.topic: reference
 ---
 
-
 When this email was replied at
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

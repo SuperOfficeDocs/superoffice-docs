@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetProjectId
-description: NSAppointment.GetProjectId()
+description: Integer NSAppointment.GetProjectId()
 intellisense: NSAppointment.GetProjectId
-sortOrder: 742
-keywords: GetProjectId()
+keywords: NSAppointment, GetProjectId
 so.topic: reference
 ---
 
-
 ID of project referred to, may be 0
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

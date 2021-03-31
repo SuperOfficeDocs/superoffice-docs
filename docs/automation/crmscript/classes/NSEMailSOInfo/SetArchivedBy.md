@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailSOInfo_SetArchivedBy_Integer_p_0
-description: NSEMailSOInfo.SetArchivedBy(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailSOInfo_SetArchivedBy
+description: NSEMailSOInfo.SetArchivedBy(Integer archivedBy)
 intellisense: NSEMailSOInfo.SetArchivedBy
-sortOrder: 3055
-keywords: SetArchivedBy(Integer)
+keywords: NSEMailSOInfo, GetArchivedBy
 so.topic: reference
 ---
 
-
 The associate who archived this email
 
-
-
-* **ArchivedBy:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **archivedBy** Integer
 

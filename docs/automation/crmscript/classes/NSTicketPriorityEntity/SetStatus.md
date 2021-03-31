@@ -1,17 +1,16 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetStatus_NSTicketPriorityStatus_p_0
-description: NSTicketPriorityEntity.SetStatus(NSTicketPriorityStatus p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetStatus
+description: NSTicketPriorityEntity.SetStatus(TicketPriorityStatus status)
 intellisense: NSTicketPriorityEntity.SetStatus
-keywords: SetStatus(NSTicketPriorityStatus)
+keywords: NSTicketPriorityEntity, GetStatus
 so.topic: reference
 ---
 
-
 The status (normal/deleted) of the priority.
 
-
-
-* **Status:** TicketPriorityStatus
-* **Returns:** TicketPriorityStatus
-
+**Parameter:** 
+ - **status** TicketPriorityStatus
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Normal 
+     - Enum: 2 = Deleted 
 

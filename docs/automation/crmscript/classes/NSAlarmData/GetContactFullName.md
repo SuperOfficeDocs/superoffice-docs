@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAlarmData_GetContactFullName
-description: NSAlarmData.GetContactFullName()
+description: String NSAlarmData.GetContactFullName()
 intellisense: NSAlarmData.GetContactFullName
-sortOrder: 660
-keywords: GetContactFullName()
+keywords: NSAlarmData, GetContactFullName
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

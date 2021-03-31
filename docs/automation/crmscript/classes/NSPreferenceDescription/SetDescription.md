@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescription_SetDescription_String_p_0
-description: NSPreferenceDescription.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescription_SetDescription
+description: NSPreferenceDescription.SetDescription(String description)
 intellisense: NSPreferenceDescription.SetDescription
-keywords: SetDescription(String)
+keywords: NSPreferenceDescription, GetDescription
 so.topic: reference
 ---
 
-
 Description of preference, multi-language parsed
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

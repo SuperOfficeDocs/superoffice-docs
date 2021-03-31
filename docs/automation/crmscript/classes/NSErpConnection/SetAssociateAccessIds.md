@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnection_SetAssociateAccessIds_Integer__p_0
-description: NSErpConnection.SetAssociateAccessIds(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSErpConnection_SetAssociateAccessIds
+description: NSErpConnection.SetAssociateAccessIds(IntegerArray associateAccessIds)
 intellisense: NSErpConnection.SetAssociateAccessIds
-sortOrder: 3093
-keywords: SetAssociateAccessIds(Integer[])
+keywords: NSErpConnection, GetAssociateAccessIds
 so.topic: reference
 ---
 
-
 Array of ids containing associates that will have access to this connection.
 
-
-
-* **AssociateAccessIds:** IntegerArray
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateAccessIds** IntegerArray
 

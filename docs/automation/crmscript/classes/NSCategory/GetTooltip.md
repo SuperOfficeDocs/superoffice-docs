@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCategory_GetTooltip
-description: NSCategory.GetTooltip()
+description: String NSCategory.GetTooltip()
 intellisense: NSCategory.GetTooltip
-sortOrder: 1493
-keywords: GetTooltip()
+keywords: NSCategory, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

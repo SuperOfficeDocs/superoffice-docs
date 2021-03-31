@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetResponseShipmentId_Integer_p_0
-description: NSFormEntity.SetResponseShipmentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetResponseShipmentId
+description: NSFormEntity.SetResponseShipmentId(Integer responseShipmentId)
 intellisense: NSFormEntity.SetResponseShipmentId
-sortOrder: 3822
-keywords: SetResponseShipmentId(Integer)
+keywords: NSFormEntity, GetResponseShipmentId
 so.topic: reference
 ---
 
+The id of the s_shipment that is used to send the response mails
 
-The id of the s\_shipment that is used to send the response mails
-
-
-
-* **ResponseShipmentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **responseShipmentId** Integer
 

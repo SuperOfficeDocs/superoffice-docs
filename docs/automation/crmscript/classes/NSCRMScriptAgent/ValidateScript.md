@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSCRMScriptAgent_ValidateScript_Integer_p_0
-description: NSCRMScriptAgent.ValidateScript(Integer p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptAgent_ValidateScript
+description: CRMScriptResult ValidateScript(Integer cRMScriptId)
 intellisense: NSCRMScriptAgent.ValidateScript
-sortOrder: 2117
-keywords: ValidateScript(Integer)
+keywords: NSCRMScriptAgent,ValidateScript
 so.topic: reference
 ---
 
-
 Validate a CRMScript. This will check that the syntax is correct
 
+**Parameters:**
+ - **cRMScriptId** The id of the CRMScript to execute
 
+**Returns:** True of the syntax is correct
 
-* **cRMScriptId:** The id of the CRMScript to execute
-* **Returns:** True of the syntax is correct
-
+```crmscript
+NSCRMScriptAgent agent;
+Integer cRMScriptId;
+CRMScriptResult res = agent.ValidateScript(cRMScriptId);
+```
 

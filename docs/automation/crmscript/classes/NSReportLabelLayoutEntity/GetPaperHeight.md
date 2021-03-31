@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSReportLabelLayoutEntity_GetPaperHeight
-description: NSReportLabelLayoutEntity.GetPaperHeight()
+description: Integer NSReportLabelLayoutEntity.GetPaperHeight()
 intellisense: NSReportLabelLayoutEntity.GetPaperHeight
-keywords: GetPaperHeight()
+keywords: NSReportLabelLayoutEntity, GetPaperHeight
 so.topic: reference
 ---
 
-
 Paper height in twips
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

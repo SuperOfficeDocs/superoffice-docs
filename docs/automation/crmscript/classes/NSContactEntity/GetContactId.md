@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetContactId
-description: NSContactEntity.GetContactId()
+description: Integer NSContactEntity.GetContactId()
 intellisense: NSContactEntity.GetContactId
-sortOrder: 1841
-keywords: GetContactId()
+keywords: NSContactEntity, GetContactId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSRelationToOwner_GetValue
-description: NSRelationToOwner.GetValue()
+description: String NSRelationToOwner.GetValue()
 intellisense: NSRelationToOwner.GetValue
-keywords: GetValue()
+keywords: NSRelationToOwner, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

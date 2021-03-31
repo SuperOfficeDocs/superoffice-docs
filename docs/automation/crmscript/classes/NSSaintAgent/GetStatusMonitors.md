@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSSaintAgent_GetStatusMonitors_Integer_p_0_String_p_1
-description: NSSaintAgent.GetStatusMonitors(Integer p_0, String p_1)
+﻿---
+title: crmscript_ref_NSSaintAgent_GetStatusMonitors
+description: StatusMonitorArray GetStatusMonitors(Integer id, String type)
 intellisense: NSSaintAgent.GetStatusMonitors
-keywords: GetStatusMonitors(Integer,String)
+keywords: NSSaintAgent,GetStatusMonitors
 so.topic: reference
 ---
 
-
 Get all active status monitors for a specified target
 
+**Parameters:**
+ - **id** Identity of target type(contact identity, project identity etc.)
+ - **type** Type to get status monitors for("contact", "project", etc.)
 
+**Returns:** Active status monitors
 
-* **id:** Identity of target type(contact identity, project identity etc.)
-* **type:** Type to get status monitors for("contact", "project", etc.)
-* **Returns:** Active status monitors
-
+```crmscript
+NSSaintAgent agent;
+Integer id;
+String type;
+StatusMonitorArray res = agent.GetStatusMonitors(id, type);
+```
 

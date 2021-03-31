@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTaskListItem_SetValue_String_p_0
-description: NSTaskListItem.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSTaskListItem_SetValue
+description: NSTaskListItem.SetValue(String value)
 intellisense: NSTaskListItem.SetValue
-keywords: SetValue(String)
+keywords: NSTaskListItem, GetValue
 so.topic: reference
 ---
 
-
 The list item
 
-
-
-* **Value:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **value** String
 

@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSForeignKey
 description: NSForeignKey
 intellisense: Void.NSForeignKey
-sortOrder: 3732
+keywords: NSForeignKey
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

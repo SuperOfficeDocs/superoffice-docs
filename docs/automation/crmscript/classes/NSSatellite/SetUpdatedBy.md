@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSatellite_SetUpdatedBy_NSAssociate_p_0
-description: NSSatellite.SetUpdatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSSatellite_SetUpdatedBy
+description: NSSatellite.SetUpdatedBy(Associate updatedBy)
 intellisense: NSSatellite.SetUpdatedBy
-keywords: SetUpdatedBy(NSAssociate)
+keywords: NSSatellite, GetUpdatedBy
 so.topic: reference
 ---
 
 
-* **UpdatedBy:** Associate
-* **Returns:** Associate
 
+**Parameter:** 
+ - **updatedBy** Associate
 

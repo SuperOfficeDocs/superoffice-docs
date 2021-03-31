@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetRetired
-description: NSPersonEntity.GetRetired()
+description: Bool NSPersonEntity.GetRetired()
 intellisense: NSPersonEntity.GetRetired
-keywords: GetRetired()
+keywords: NSPersonEntity, GetRetired
 so.topic: reference
 ---
 
-
 True if the user is retired and should have no rights, not appear in lists, etc.
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

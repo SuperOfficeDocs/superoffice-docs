@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSListAgent_GetSources
-description: NSListAgent.GetSources()
+description: SourceArray GetSources()
 intellisense: NSListAgent.GetSources
-keywords: GetSources()
+keywords: NSListAgent,GetSources
 so.topic: reference
 ---
-
 
 Returns all sources
 
 
+**Returns:** Array of sources
 
-* **Returns:** Array of sources
-
+```crmscript
+NSListAgent agent;
+SourceArray res = agent.GetSources();
+```
 

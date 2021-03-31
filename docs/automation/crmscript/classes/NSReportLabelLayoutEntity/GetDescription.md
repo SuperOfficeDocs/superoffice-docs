@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSReportLabelLayoutEntity_GetDescription
-description: NSReportLabelLayoutEntity.GetDescription()
+description: String NSReportLabelLayoutEntity.GetDescription()
 intellisense: NSReportLabelLayoutEntity.GetDescription
-keywords: GetDescription()
+keywords: NSReportLabelLayoutEntity, GetDescription
 so.topic: reference
 ---
 
-
 Description
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTag_SetToolTip_String_p_0
-description: NSTag.SetToolTip(String p_0)
+﻿---
+title: crmscript_ref_NSTag_SetToolTip
+description: NSTag.SetToolTip(String toolTip)
 intellisense: NSTag.SetToolTip
-keywords: SetToolTip(String)
+keywords: NSTag, GetToolTip
 so.topic: reference
 ---
 
-
 The tooltip of the ListItem
 
-
-
-* **ToolTip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **toolTip** String
 

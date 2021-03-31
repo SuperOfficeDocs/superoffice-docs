@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoShortText_GetTextLength
-description: NSFieldInfoShortText.GetTextLength()
+description: Integer NSFieldInfoShortText.GetTextLength()
 intellisense: NSFieldInfoShortText.GetTextLength
-sortOrder: 3548
-keywords: GetTextLength()
+keywords: NSFieldInfoShortText, GetTextLength
 so.topic: reference
 ---
 
-
 Length (in characters) of a text field, 0 for other types
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

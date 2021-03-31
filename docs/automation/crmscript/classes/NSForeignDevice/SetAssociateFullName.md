@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignDevice_SetAssociateFullName_String_p_0
-description: NSForeignDevice.SetAssociateFullName(String p_0)
+﻿---
+title: crmscript_ref_NSForeignDevice_SetAssociateFullName
+description: NSForeignDevice.SetAssociateFullName(String associateFullName)
 intellisense: NSForeignDevice.SetAssociateFullName
-sortOrder: 3723
-keywords: SetAssociateFullName(String)
+keywords: NSForeignDevice, GetAssociateFullName
 so.topic: reference
 ---
 
-
 The person owning the Foreign Device
 
-
-
-* **AssociateFullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **associateFullName** String
 

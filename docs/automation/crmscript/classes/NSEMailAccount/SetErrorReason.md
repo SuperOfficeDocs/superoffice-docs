@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAccount_SetErrorReason_String_p_0
-description: NSEMailAccount.SetErrorReason(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAccount_SetErrorReason
+description: NSEMailAccount.SetErrorReason(String errorReason)
 intellisense: NSEMailAccount.SetErrorReason
-sortOrder: 2757
-keywords: SetErrorReason(String)
+keywords: NSEMailAccount, GetErrorReason
 so.topic: reference
 ---
 
-
 Reason/Error message. Readonly field
 
-
-
-* **ErrorReason:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **errorReason** String
 

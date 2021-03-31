@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetDbiAgentId_Integer_p_0
-description: NSPersonEntity.SetDbiAgentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetDbiAgentId
+description: NSPersonEntity.SetDbiAgentId(Integer dbiAgentId)
 intellisense: NSPersonEntity.SetDbiAgentId
-keywords: SetDbiAgentId(Integer)
+keywords: NSPersonEntity, GetDbiAgentId
 so.topic: reference
 ---
 
-
 Integration agent (eJournal)
 
-
-
-* **DbiAgentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **dbiAgentId** Integer
 

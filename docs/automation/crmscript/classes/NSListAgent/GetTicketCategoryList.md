@@ -1,12 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetTicketCategoryList_Integer__p_0
-description: NSListAgent.GetTicketCategoryList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetTicketCategoryList
+description: NSTicketCategoryEntity[] GetTicketCategoryList(Integer[]  ticketCategoryEntityIds);
 intellisense: NSListAgent.GetTicketCategoryList
-keywords: GetTicketCategoryList(Integer[])
+keywords: NSListAgent,GetTicketCategoryList
 so.topic: reference
 ---
 
+Gets a vector of TicketCategoryEntity objects.
 
-* **p0:** IntegerArray of identifiers for TicketCategory
-* **Returns:** Array of NSTicketCategoryEntity
+**Parameters:**
+ - **ticketCategoryEntityIds** The identifiers of the NSTicketCategoryEntity objects
+
+**Returns:** Vector of NSTicketCategoryEntity objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetTicketCategoryList(ids);
+```
 

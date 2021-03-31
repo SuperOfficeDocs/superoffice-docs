@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDataRights_GetRowsInfo
-description: NSDataRights.GetRowsInfo()
+description: EntityNameArray NSDataRights.GetRowsInfo()
 intellisense: NSDataRights.GetRowsInfo
-sortOrder: 2351
-keywords: GetRowsInfo()
+keywords: NSDataRights, GetRowsInfo
 so.topic: reference
 ---
 
 
-* **Returns:** EntityNameArray
+
+**Returns:** EntityNameArray
 
 

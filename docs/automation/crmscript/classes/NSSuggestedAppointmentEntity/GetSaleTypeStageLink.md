@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedAppointmentEntity_GetSaleTypeStageLink
-description: NSSuggestedAppointmentEntity.GetSaleTypeStageLink()
+description: SaleTypeStageLink NSSuggestedAppointmentEntity.GetSaleTypeStageLink()
 intellisense: NSSuggestedAppointmentEntity.GetSaleTypeStageLink
-keywords: GetSaleTypeStageLink()
+keywords: NSSuggestedAppointmentEntity, GetSaleTypeStageLink
 so.topic: reference
 ---
 
-
 Sale type and stage link info
 
-
-
-* **Returns:** SaleTypeStageLink
+**Returns:** SaleTypeStageLink
 
 

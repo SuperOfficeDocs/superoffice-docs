@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteConnection_SetQuoteConnectionId_Integer_p_0
-description: NSQuoteConnection.SetQuoteConnectionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteConnection_SetQuoteConnectionId
+description: NSQuoteConnection.SetQuoteConnectionId(Integer quoteConnectionId)
 intellisense: NSQuoteConnection.SetQuoteConnectionId
-keywords: SetQuoteConnectionId(Integer)
+keywords: NSQuoteConnection, GetQuoteConnectionId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **QuoteConnectionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **quoteConnectionId** Integer
 

@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDeliveryType_SetTooltip_String_p_0
-description: NSDeliveryType.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSDeliveryType_SetTooltip
+description: NSDeliveryType.SetTooltip(String tooltip)
 intellisense: NSDeliveryType.SetTooltip
-sortOrder: 2378
-keywords: SetTooltip(String)
+keywords: NSDeliveryType, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

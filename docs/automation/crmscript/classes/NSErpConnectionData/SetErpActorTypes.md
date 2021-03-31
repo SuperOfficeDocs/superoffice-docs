@@ -1,12 +1,21 @@
----
-title: crmscript_ref_NSErpConnectionData_SetErpActorTypes_Integer_p_0
-description: NSErpConnectionData.SetErpActorTypes(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionData_SetErpActorTypes
+description: NSErpConnectionData.SetErpActorTypes(ErpActorTypeArray erpActorTypes)
 intellisense: NSErpConnectionData.SetErpActorTypes
-sortOrder: 3118
-keywords: SetErpActorTypes(Integer)
+keywords: NSErpConnectionData, GetErpActorTypes
 so.topic: reference
 ---
 
+Contains all mapped ErpActorType for this CrmActorType
 
-
+**Parameter:** 
+ - **erpActorTypes** ErpActorTypeArray
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Customer 
+     - Enum: 2 = Supplier 
+     - Enum: 3 = Partner 
+     - Enum: 4 = Person 
+     - Enum: 5 = Project 
+     - Enum: 6 = Employee 
+     - Enum: 7 = Sale 
 

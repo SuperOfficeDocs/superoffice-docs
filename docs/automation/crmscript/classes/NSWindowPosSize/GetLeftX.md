@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWindowPosSize_GetLeftX
-description: NSWindowPosSize.GetLeftX()
+description: Integer NSWindowPosSize.GetLeftX()
 intellisense: NSWindowPosSize.GetLeftX
-keywords: GetLeftX()
+keywords: NSWindowPosSize, GetLeftX
 so.topic: reference
 ---
 
-
 X of origin, left edge of widget
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

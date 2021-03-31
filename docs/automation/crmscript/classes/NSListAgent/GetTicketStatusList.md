@@ -1,13 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetTicketStatusList_Integer__p_0
-description: NSListAgent.GetTicketStatusList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetTicketStatusList
+description: NSTicketStatusEntity[] GetTicketStatusList(Integer[]  ticketStatusEntityIds);
 intellisense: NSListAgent.GetTicketStatusList
-keywords: GetTicketStatusList(Integer[])
+keywords: NSListAgent,GetTicketStatusList
 so.topic: reference
 ---
 
+Gets a vector of TicketStatusEntity objects.
 
-* **p0:** IntegerArray of identifiers for TicketStatus
-* **Returns:** Array of NSTicketStatusEntity
+**Parameters:**
+ - **ticketStatusEntityIds** The identifiers of the NSTicketStatusEntity objects
 
+**Returns:** Vector of NSTicketStatusEntity objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetTicketStatusList(ids);
+```
 

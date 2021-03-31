@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSDashboardAgent_GetDashboard_Integer_p_0
-description: NSDashboardAgent.GetDashboard(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboardAgent_GetDashboard
+description: NSDashboard GetDashboard(Integer dashboardId);
 intellisense: NSDashboardAgent.GetDashboard
-sortOrder: 2273
-keywords: GetDashboard(Integer)
+keywords: NSDashboardAgent,GetDashboard
 so.topic: reference
 ---
 
+Gets a NSDashboard object.
 
-Gets a Dashboard object.
+**Parameters:**
+ - **dashboardId** The identifier of the NSDashboard object
 
+**Returns:** NSDashboard
 
-
-* **dashboardId:** The identifier of the Dashboard object
-* **Returns:** Dashboard
-
+```crmscript
+NSDashboardAgent agent;
+NSDashboard thing = agent.GetDashboard(123);
+```
 

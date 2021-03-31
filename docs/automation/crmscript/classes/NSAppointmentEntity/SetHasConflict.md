@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetHasConflict_Bool_p_0
-description: NSAppointmentEntity.SetHasConflict(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetHasConflict
+description: NSAppointmentEntity.SetHasConflict(Bool hasConflict)
 intellisense: NSAppointmentEntity.SetHasConflict
-sortOrder: 1002
-keywords: SetHasConflict(Bool)
+keywords: NSAppointmentEntity, GetHasConflict
 so.topic: reference
 ---
 
+Does the appointment overlap with another appointment in the user's diary?
 
-* **HasConflict:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **hasConflict** Bool
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointment_SetName_String_p_0
-description: NSSuggestedAppointment.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointment_SetName
+description: NSSuggestedAppointment.SetName(String name)
 intellisense: NSSuggestedAppointment.SetName
-keywords: SetName(String)
+keywords: NSSuggestedAppointment, GetName
 so.topic: reference
 ---
 
-
 Item name, visible in Guide
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

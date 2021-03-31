@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSPhoneListAgent_SetPreferences_NSPhoneListPreferences_p_0
-description: NSPhoneListAgent.SetPreferences(NSPhoneListPreferences p_0)
+﻿---
+title: crmscript_ref_NSPhoneListAgent_SetPreferences
+description: Void SetPreferences(PhoneListPreferences preferences)
 intellisense: NSPhoneListAgent.SetPreferences
-keywords: SetPreferences(NSPhoneListPreferences)
+keywords: NSPhoneListAgent,SetPreferences
 so.topic: reference
 ---
 
-
 Setting Phone List Preferences to the CRM 5 user preferences
 
-
-
-* **preferences:** The preference that is set as user preferences
-
-
+**Parameters:**
+ - **preferences** The preference that is set as user preferences

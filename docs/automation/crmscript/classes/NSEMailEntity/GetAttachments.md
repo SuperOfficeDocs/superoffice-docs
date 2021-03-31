@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetAttachments
-description: NSEMailEntity.GetAttachments()
+description: EMailAttachmentArray NSEMailEntity.GetAttachments()
 intellisense: NSEMailEntity.GetAttachments
-sortOrder: 2961
-keywords: GetAttachments()
+keywords: NSEMailEntity, GetAttachments
 so.topic: reference
 ---
 
 
-* **Returns:** EMailAttachmentArray
+
+**Returns:** EMailAttachmentArray
 
 

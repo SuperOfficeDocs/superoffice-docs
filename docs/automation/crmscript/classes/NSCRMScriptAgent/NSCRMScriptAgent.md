@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptAgent
 description: NSCRMScriptAgent
 intellisense: Void.NSCRMScriptAgent
-sortOrder: 2112
+keywords: NSCRMScriptAgent
 so.topic: reference
 ---
 
-
 Manage and execute CRMScript functions.
 
-
-
+```crmscript
+NSCRMScriptAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebhook_SetWebhookId_Integer_p_0
-description: NSWebhook.SetWebhookId(Integer p_0)
+﻿---
+title: crmscript_ref_NSWebhook_SetWebhookId
+description: NSWebhook.SetWebhookId(Integer webhookId)
 intellisense: NSWebhook.SetWebhookId
-keywords: SetWebhookId(Integer)
+keywords: NSWebhook, GetWebhookId
 so.topic: reference
 ---
 
-
 Primary Key. Unique id for this webhook.
 
-
-
-* **WebhookId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **webhookId** Integer
 

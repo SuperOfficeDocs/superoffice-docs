@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnectionListMappingContainer_SetErpConnectionId_Integer_p_0
-description: NSErpConnectionListMappingContainer.SetErpConnectionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionListMappingContainer_SetErpConnectionId
+description: NSErpConnectionListMappingContainer.SetErpConnectionId(Integer erpConnectionId)
 intellisense: NSErpConnectionListMappingContainer.SetErpConnectionId
-sortOrder: 3139
-keywords: SetErpConnectionId(Integer)
+keywords: NSErpConnectionListMappingContainer, GetErpConnectionId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ErpConnectionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **erpConnectionId** Integer
 

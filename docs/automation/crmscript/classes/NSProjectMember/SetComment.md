@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetComment_String_p_0
-description: NSProjectMember.SetComment(String p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetComment
+description: NSProjectMember.SetComment(String comment)
 intellisense: NSProjectMember.SetComment
-keywords: SetComment(String)
+keywords: NSProjectMember, GetComment
 so.topic: reference
 ---
 
-
 Comment text on the project membership
 
-
-
-* **Comment:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **comment** String
 

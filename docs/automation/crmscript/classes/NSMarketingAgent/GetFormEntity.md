@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSMarketingAgent_GetFormEntity_Integer_p_0
-description: NSMarketingAgent.GetFormEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSMarketingAgent_GetFormEntity
+description: NSFormEntity GetFormEntity(Integer formEntityId);
 intellisense: NSMarketingAgent.GetFormEntity
-keywords: GetFormEntity(Integer)
+keywords: NSMarketingAgent,GetFormEntity
 so.topic: reference
 ---
 
+Gets a NSFormEntity object.
 
-Gets a FormEntity object.
+**Parameters:**
+ - **formEntityId** The identifier of the NSFormEntity object
 
+**Returns:** NSFormEntity
 
-
-* **formEntityId:** The identifier of the FormEntity object
-* **Returns:** FormEntity
-
+```crmscript
+NSMarketingAgent agent;
+NSFormEntity thing = agent.GetFormEntity(123);
+```
 

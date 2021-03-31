@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLicenseInfo_SetModuleLicenses_NSModuleLicense__p_0
-description: NSLicenseInfo.SetModuleLicenses(NSModuleLicense[] p_0)
+﻿---
+title: crmscript_ref_NSLicenseInfo_SetModuleLicenses
+description: NSLicenseInfo.SetModuleLicenses(ModuleLicenseArray moduleLicenses)
 intellisense: NSLicenseInfo.SetModuleLicenses
-keywords: SetModuleLicenses(NSModuleLicense[])
+keywords: NSLicenseInfo, GetModuleLicenses
 so.topic: reference
 ---
 
-
 The module licenses.
 
-
-
-* **ModuleLicenses:** ModuleLicenseArray
-* **Returns:** ModuleLicenseArray
-
+**Parameter:** 
+ - **moduleLicenses** ModuleLicenseArray
 

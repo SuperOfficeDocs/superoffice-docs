@@ -1,18 +1,16 @@
----
-title: crmscript_ref_NSFreeText_SetSingleWordOperator_Integer_p_0
-description: NSFreeText.SetSingleWordOperator(Integer p_0)
+﻿---
+title: crmscript_ref_NSFreeText_SetSingleWordOperator
+description: NSFreeText.SetSingleWordOperator(Integer singleWordOperator)
 intellisense: NSFreeText.SetSingleWordOperator
-sortOrder: 3865
-keywords: SetSingleWordOperator(Integer)
+keywords: NSFreeText, GetSingleWordOperator
 so.topic: reference
 ---
 
-
 Starts with, contains or exact match
 
-
-
-* **SingleWordOperator:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **singleWordOperator** Integer
+     - Enum: 1 = Contains 
+     - Enum: 2 = StartsWith 
+     - Enum: 3 = ExactMatch 
 

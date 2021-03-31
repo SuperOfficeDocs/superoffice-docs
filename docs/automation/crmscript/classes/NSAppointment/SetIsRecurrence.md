@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetIsRecurrence_Bool_p_0
-description: NSAppointment.SetIsRecurrence(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetIsRecurrence
+description: NSAppointment.SetIsRecurrence(Bool isRecurrence)
 intellisense: NSAppointment.SetIsRecurrence
-sortOrder: 799
-keywords: SetIsRecurrence(Bool)
+keywords: NSAppointment, GetIsRecurrence
 so.topic: reference
 ---
 
-
 True if the appointment is part of a recurring pattern.
 
-
-
-* **IsRecurrence:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isRecurrence** Bool
 

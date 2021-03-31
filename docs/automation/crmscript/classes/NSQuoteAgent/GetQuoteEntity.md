@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_GetQuoteEntity_Integer_p_0
-description: NSQuoteAgent.GetQuoteEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_GetQuoteEntity
+description: QuoteEntity GetQuoteEntity(Integer quoteId)
 intellisense: NSQuoteAgent.GetQuoteEntity
-keywords: GetQuoteEntity(Integer)
+keywords: NSQuoteAgent,GetQuoteEntity
 so.topic: reference
 ---
 
-
 Get a Quote
 
+**Parameters:**
+ - **quoteId** QuoteId of the Quote to get.
 
+**Returns:** The Quote
 
-* **quoteId:** QuoteId of the Quote to get.
-* **Returns:** The Quote
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteId;
+QuoteEntity res = agent.GetQuoteEntity(quoteId);
+```
 

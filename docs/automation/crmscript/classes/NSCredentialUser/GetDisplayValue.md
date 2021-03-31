@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCredentialUser_GetDisplayValue
-description: NSCredentialUser.GetDisplayValue()
+description: String NSCredentialUser.GetDisplayValue()
 intellisense: NSCredentialUser.GetDisplayValue
-sortOrder: 2087
-keywords: GetDisplayValue()
+keywords: NSCredentialUser, GetDisplayValue
 so.topic: reference
 ---
 
-
 Display value of the user.  This value needs to be applied to the Credential.DisplayValue field.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

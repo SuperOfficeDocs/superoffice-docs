@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketStartupData_SetNotificationsCount_Integer_p_0
-description: NSPocketStartupData.SetNotificationsCount(Integer p_0)
+﻿---
+title: crmscript_ref_NSPocketStartupData_SetNotificationsCount
+description: NSPocketStartupData.SetNotificationsCount(Integer notificationsCount)
 intellisense: NSPocketStartupData.SetNotificationsCount
-keywords: SetNotificationsCount(Integer)
+keywords: NSPocketStartupData, GetNotificationsCount
 so.topic: reference
 ---
 
-
 Number of new invitations
 
-
-
-* **NotificationsCount:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **notificationsCount** Integer
 

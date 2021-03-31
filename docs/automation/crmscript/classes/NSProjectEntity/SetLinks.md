@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSProjectEntity_SetLinks_NSLink__p_0
-description: NSProjectEntity.SetLinks(NSLink[] p_0)
+﻿---
+title: crmscript_ref_NSProjectEntity_SetLinks
+description: NSProjectEntity.SetLinks(LinkArray links)
 intellisense: NSProjectEntity.SetLinks
-keywords: SetLinks(NSLink[])
+keywords: NSProjectEntity, GetLinks
 so.topic: reference
 ---
 
+List of all elements linked to the project
 
-* **Links:** LinkArray
-* **Returns:** LinkArray
-
+**Parameter:** 
+ - **links** LinkArray
 

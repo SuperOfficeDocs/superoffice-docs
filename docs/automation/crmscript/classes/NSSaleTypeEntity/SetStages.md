@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleTypeEntity_SetStages_NSSelectableMDOListItem__p_0
-description: NSSaleTypeEntity.SetStages(NSSelectableMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSSaleTypeEntity_SetStages
+description: NSSaleTypeEntity.SetStages(SelectableMDOListItemArray stages)
 intellisense: NSSaleTypeEntity.SetStages
-keywords: SetStages(NSSelectableMDOListItem[])
+keywords: NSSaleTypeEntity, GetStages
 so.topic: reference
 ---
 
-
 Stages, those associated with this SaleType are selected.
 
-
-
-* **Stages:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
-
+**Parameter:** 
+ - **stages** SelectableMDOListItemArray
 

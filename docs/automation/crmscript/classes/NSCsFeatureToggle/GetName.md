@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCsFeatureToggle_GetName
-description: NSCsFeatureToggle.GetName()
+description: String NSCsFeatureToggle.GetName()
 intellisense: NSCsFeatureToggle.GetName
-sortOrder: 2158
-keywords: GetName()
+keywords: NSCsFeatureToggle, GetName
 so.topic: reference
 ---
 
-
 Name of the feature toggle
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

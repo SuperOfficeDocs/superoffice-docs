@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBatchTaskInfo_GetCreated
-description: NSBatchTaskInfo.GetCreated()
+description: DateTime NSBatchTaskInfo.GetCreated()
 intellisense: NSBatchTaskInfo.GetCreated
-sortOrder: 1366
-keywords: GetCreated()
+keywords: NSBatchTaskInfo, GetCreated
 so.topic: reference
 ---
 
-
 Task creation time.
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

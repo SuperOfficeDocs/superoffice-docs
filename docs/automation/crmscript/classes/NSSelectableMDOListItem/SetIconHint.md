@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetIconHint_String_p_0
-description: NSSelectableMDOListItem.SetIconHint(String p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetIconHint
+description: NSSelectableMDOListItem.SetIconHint(String iconHint)
 intellisense: NSSelectableMDOListItem.SetIconHint
-keywords: SetIconHint(String)
+keywords: NSSelectableMDOListItem, GetIconHint
 so.topic: reference
 ---
 
-
 The Icon hint of the ListItem. Custom field.
 
-
-
-* **IconHint:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **iconHint** String
 

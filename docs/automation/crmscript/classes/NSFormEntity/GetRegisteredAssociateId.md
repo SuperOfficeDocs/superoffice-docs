@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetRegisteredAssociateId
-description: NSFormEntity.GetRegisteredAssociateId()
+description: Integer NSFormEntity.GetRegisteredAssociateId()
 intellisense: NSFormEntity.GetRegisteredAssociateId
-sortOrder: 3794
-keywords: GetRegisteredAssociateId()
+keywords: NSFormEntity, GetRegisteredAssociateId
 so.topic: reference
 ---
 
-
 Registered by whom
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

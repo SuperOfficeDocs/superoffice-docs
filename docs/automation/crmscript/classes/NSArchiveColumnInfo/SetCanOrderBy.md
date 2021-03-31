@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveColumnInfo_SetCanOrderBy_Bool_p_0
-description: NSArchiveColumnInfo.SetCanOrderBy(Bool p_0)
+﻿---
+title: crmscript_ref_NSArchiveColumnInfo_SetCanOrderBy
+description: NSArchiveColumnInfo.SetCanOrderBy(Bool canOrderBy)
 intellisense: NSArchiveColumnInfo.SetCanOrderBy
-sortOrder: 1150
-keywords: SetCanOrderBy(Bool)
+keywords: NSArchiveColumnInfo, GetCanOrderBy
 so.topic: reference
 ---
 
-
 Can this column be used for sorting?
 
-
-
-* **CanOrderBy:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **canOrderBy** Bool
 

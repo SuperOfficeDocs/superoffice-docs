@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSUserAgent_SaveUser_NSUser_p_0
-description: NSUserAgent.SaveUser(NSUser p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_SaveUser
+description: NSUser SaveUser(NSUser user);
 intellisense: NSUserAgent.SaveUser
-keywords: SaveUser(NSUser)
+keywords: NSUserAgent,SaveUser
 so.topic: reference
 ---
+	  
+Updates the existing NSUser or creates a new NSUser if the id parameter is 0
+	  
+**Parameters**:
+ - **user** The NSUser to save.
 
+**Returns:** New or updated NSUser
 
-Updates the existing User or creates a new User if the id parameter is empty
-
-
-
-* **user:** The User that is saved
-* **Returns:** New or updated User
-
+```crmscript
+NSUser  agent;
+NSUser thing = agent.CreateDefaultUser();
+thing = agent.SaveUser(thing);
+```
 

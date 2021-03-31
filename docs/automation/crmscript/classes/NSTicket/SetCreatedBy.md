@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetCreatedBy_Integer_p_0
-description: NSTicket.SetCreatedBy(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetCreatedBy
+description: NSTicket.SetCreatedBy(Integer createdBy)
 intellisense: NSTicket.SetCreatedBy
-keywords: SetCreatedBy(Integer)
+keywords: NSTicket, GetCreatedBy
 so.topic: reference
 ---
 
-
 The id of the user who created the ticket. 1 (system user) if the ticket was created externally
 
-
-
-* **CreatedBy:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **createdBy** Integer
 

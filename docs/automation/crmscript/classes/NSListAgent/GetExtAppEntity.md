@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetExtAppEntity_Integer_p_0
-description: NSListAgent.GetExtAppEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetExtAppEntity
+description: NSExtAppEntity GetExtAppEntity(Integer extAppEntityId);
 intellisense: NSListAgent.GetExtAppEntity
-keywords: GetExtAppEntity(Integer)
+keywords: NSListAgent,GetExtAppEntity
 so.topic: reference
 ---
 
+Gets a NSExtAppEntity object.
 
-Gets a ExtAppEntity object.
+**Parameters:**
+ - **extAppEntityId** The identifier of the NSExtAppEntity object
 
+**Returns:** NSExtAppEntity
 
-
-* **extAppEntityId:** The identifier of the ExtAppEntity object
-* **Returns:** ExtAppEntity
-
+```crmscript
+NSListAgent agent;
+NSExtAppEntity thing = agent.GetExtAppEntity(123);
+```
 

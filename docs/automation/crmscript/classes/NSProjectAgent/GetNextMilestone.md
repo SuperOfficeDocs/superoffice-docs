@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSProjectAgent_GetNextMilestone_Integer_p_0
-description: NSProjectAgent.GetNextMilestone(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_GetNextMilestone
+description: Appointment GetNextMilestone(Integer projectId)
 intellisense: NSProjectAgent.GetNextMilestone
-keywords: GetNextMilestone(Integer)
+keywords: NSProjectAgent,GetNextMilestone
 so.topic: reference
 ---
 
-
 Next upcoming milestone appointment
 
+**Parameters:**
+ - **projectId** Project id - primary key
 
+**Returns:** Upcoming milestone appointment
 
-* **projectId:** Project id - primary key
-* **Returns:** Upcoming milestone appointment
-
+```crmscript
+NSProjectAgent agent;
+Integer projectId;
+Appointment res = agent.GetNextMilestone(projectId);
+```
 

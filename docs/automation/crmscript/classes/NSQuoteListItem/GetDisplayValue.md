@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteListItem_GetDisplayValue
-description: NSQuoteListItem.GetDisplayValue()
+description: String NSQuoteListItem.GetDisplayValue()
 intellisense: NSQuoteListItem.GetDisplayValue
-keywords: GetDisplayValue()
+keywords: NSQuoteListItem, GetDisplayValue
 so.topic: reference
 ---
 
-
 List item text to display.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

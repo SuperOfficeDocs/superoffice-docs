@@ -1,15 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAccount_GetAccountStatus
-description: NSEMailAccount.GetAccountStatus()
+description: Integer NSEMailAccount.GetAccountStatus()
 intellisense: NSEMailAccount.GetAccountStatus
-sortOrder: 2744
-keywords: GetAccountStatus()
+keywords: NSEMailAccount, GetAccountStatus
 so.topic: reference
 ---
 
 The account status (Disabled or...) Readonly field
 
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

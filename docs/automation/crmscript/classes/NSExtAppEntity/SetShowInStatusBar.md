@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetShowInStatusBar_Bool_p_0
-description: NSExtAppEntity.SetShowInStatusBar(Bool p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetShowInStatusBar
+description: NSExtAppEntity.SetShowInStatusBar(Bool showInStatusBar)
 intellisense: NSExtAppEntity.SetShowInStatusBar
-sortOrder: 3394
-keywords: SetShowInStatusBar(Bool)
+keywords: NSExtAppEntity, GetShowInStatusBar
 so.topic: reference
 ---
 
-
 Does the webpanel have a status bar
 
-
-
-* **ShowInStatusBar:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **showInStatusBar** Bool
 

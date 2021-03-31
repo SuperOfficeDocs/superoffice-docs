@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetAddCompanyInterest_Integer_p_0
-description: NSMailMergeSettings.SetAddCompanyInterest(Integer p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetAddCompanyInterest
+description: NSMailMergeSettings.SetAddCompanyInterest(Integer addCompanyInterest)
 intellisense: NSMailMergeSettings.SetAddCompanyInterest
-keywords: SetAddCompanyInterest(Integer)
+keywords: NSMailMergeSettings, GetAddCompanyInterest
 so.topic: reference
 ---
 
-
 Add this company interest to each company recipient.
 
-
-
-* **AddCompanyInterest:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **addCompanyInterest** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetUnitListPrice_Float_p_0
-description: NSQuoteLine.SetUnitListPrice(Float p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetUnitListPrice
+description: NSQuoteLine.SetUnitListPrice(Float unitListPrice)
 intellisense: NSQuoteLine.SetUnitListPrice
-keywords: SetUnitListPrice(Float)
+keywords: NSQuoteLine, GetUnitListPrice
 so.topic: reference
 ---
 
-
 The standard list price; as given by ERP Connector, OR overridden by user
 
-
-
-* **UnitListPrice:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **unitListPrice** Float
 

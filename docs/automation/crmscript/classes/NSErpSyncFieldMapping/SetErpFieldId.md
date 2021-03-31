@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldMapping_SetErpFieldId_Integer_p_0
-description: NSErpSyncFieldMapping.SetErpFieldId(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldMapping_SetErpFieldId
+description: NSErpSyncFieldMapping.SetErpFieldId(Integer erpFieldId)
 intellisense: NSErpSyncFieldMapping.SetErpFieldId
-sortOrder: 3312
-keywords: SetErpFieldId(Integer)
+keywords: NSErpSyncFieldMapping, GetErpFieldId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ErpFieldId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **erpFieldId** Integer
 

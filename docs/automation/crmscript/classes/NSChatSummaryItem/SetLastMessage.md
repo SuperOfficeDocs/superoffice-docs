@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSChatSummaryItem_SetLastMessage_String_p_0
-description: NSChatSummaryItem.SetLastMessage(String p_0)
+﻿---
+title: crmscript_ref_NSChatSummaryItem_SetLastMessage
+description: NSChatSummaryItem.SetLastMessage(String lastMessage)
 intellisense: NSChatSummaryItem.SetLastMessage
-sortOrder: 1545
-keywords: SetLastMessage(String)
+keywords: NSChatSummaryItem, GetLastMessage
 so.topic: reference
 ---
 
-
 A copy of the last message in the chat session
 
-
-
-* **LastMessage:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **lastMessage** String
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPreferenceSpec_GetSection
-description: NSPreferenceSpec.GetSection()
+description: String NSPreferenceSpec.GetSection()
 intellisense: NSPreferenceSpec.GetSection
-keywords: GetSection()
+keywords: NSPreferenceSpec, GetSection
 so.topic: reference
 ---
 
-
 Preference section name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoShortText_GetDefaultValue
-description: NSFieldInfoShortText.GetDefaultValue()
+description: String NSFieldInfoShortText.GetDefaultValue()
 intellisense: NSFieldInfoShortText.GetDefaultValue
-sortOrder: 3549
-keywords: GetDefaultValue()
+keywords: NSFieldInfoShortText, GetDefaultValue
 so.topic: reference
 ---
 
-
 Default string value
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

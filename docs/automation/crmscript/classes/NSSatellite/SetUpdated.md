@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSatellite_SetUpdated_DateTime_p_0
-description: NSSatellite.SetUpdated(DateTime p_0)
+﻿---
+title: crmscript_ref_NSSatellite_SetUpdated
+description: NSSatellite.SetUpdated(DateTime updated)
 intellisense: NSSatellite.SetUpdated
-keywords: SetUpdated(DateTime)
+keywords: NSSatellite, GetUpdated
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Updated:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updated** DateTime
 

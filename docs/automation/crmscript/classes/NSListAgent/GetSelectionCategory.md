@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetSelectionCategory_Integer_p_0
-description: NSListAgent.GetSelectionCategory(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetSelectionCategory
+description: NSSelectionCategory GetSelectionCategory(Integer selectionCategoryId);
 intellisense: NSListAgent.GetSelectionCategory
-keywords: GetSelectionCategory(Integer)
+keywords: NSListAgent,GetSelectionCategory
 so.topic: reference
 ---
 
+Gets a NSSelectionCategory object.
 
-Gets a SelectionCategory object.
+**Parameters:**
+ - **selectionCategoryId** The identifier of the NSSelectionCategory object
 
+**Returns:** NSSelectionCategory
 
-
-* **selectionCategoryId:** The identifier of the SelectionCategory object
-* **Returns:** SelectionCategory
-
+```crmscript
+NSListAgent agent;
+NSSelectionCategory thing = agent.GetSelectionCategory(123);
+```
 

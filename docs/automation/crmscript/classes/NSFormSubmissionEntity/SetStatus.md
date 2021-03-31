@@ -1,18 +1,19 @@
----
-title: crmscript_ref_NSFormSubmissionEntity_SetStatus_NSFormSubmissionStatus_p_0
-description: NSFormSubmissionEntity.SetStatus(NSFormSubmissionStatus p_0)
+﻿---
+title: crmscript_ref_NSFormSubmissionEntity_SetStatus
+description: NSFormSubmissionEntity.SetStatus(FormSubmissionStatus status)
 intellisense: NSFormSubmissionEntity.SetStatus
-sortOrder: 3848
-keywords: SetStatus(NSFormSubmissionStatus)
+keywords: NSFormSubmissionEntity, GetStatus
 so.topic: reference
 ---
 
-
 What is the status of this submission
 
-
-
-* **Status:** FormSubmissionStatus
-* **Returns:** FormSubmissionStatus
-
+**Parameter:** 
+ - **status** FormSubmissionStatus
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InProgress 
+     - Enum: 2 = EmailVerification 
+     - Enum: 3 = Submitted 
+     - Enum: 4 = Processed 
+     - Enum: 5 = Failed 
 

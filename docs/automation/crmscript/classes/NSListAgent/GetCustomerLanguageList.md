@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetCustomerLanguageList_Integer__p_0
-description: NSListAgent.GetCustomerLanguageList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCustomerLanguageList
+description: NSCustomerLanguage[] GetCustomerLanguageList(Integer[]  customerLanguageIds);
 intellisense: NSListAgent.GetCustomerLanguageList
-keywords: GetCustomerLanguageList(Integer[])
+keywords: NSListAgent,GetCustomerLanguageList
 so.topic: reference
 ---
 
-Gets an array of CustomerLanguage objects.
+Gets a vector of CustomerLanguage objects.
 
+**Parameters:**
+ - **customerLanguageIds** The identifiers of the NSCustomerLanguage objects
 
-* **p0:** IntegerArray of identifiers for CustomerLanguage
-* **Returns:** Array of NSCustomerLanguage
+**Returns:** Vector of NSCustomerLanguage objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetCustomerLanguageList(ids);
+```
 

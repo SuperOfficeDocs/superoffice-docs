@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSWebhookAgent_GetWebhook_Integer_p_0
-description: NSWebhookAgent.GetWebhook(Integer p_0)
+﻿---
+title: crmscript_ref_NSWebhookAgent_GetWebhook
+description: NSWebhook GetWebhook(Integer webhookId);
 intellisense: NSWebhookAgent.GetWebhook
-keywords: GetWebhook(Integer)
+keywords: NSWebhookAgent,GetWebhook
 so.topic: reference
 ---
 
+Gets a NSWebhook object.
 
-Gets a Webhook object.
+**Parameters:**
+ - **webhookId** The identifier of the NSWebhook object
 
+**Returns:** NSWebhook
 
-
-* **webhookId:** The identifier of the Webhook object
-* **Returns:** Webhook
-
+```crmscript
+NSWebhookAgent agent;
+NSWebhook thing = agent.GetWebhook(123);
+```
 

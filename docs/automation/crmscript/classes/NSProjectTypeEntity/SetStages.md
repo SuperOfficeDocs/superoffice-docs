@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectTypeEntity_SetStages_NSSelectableMDOListItem__p_0
-description: NSProjectTypeEntity.SetStages(NSSelectableMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSProjectTypeEntity_SetStages
+description: NSProjectTypeEntity.SetStages(SelectableMDOListItemArray stages)
 intellisense: NSProjectTypeEntity.SetStages
-keywords: SetStages(NSSelectableMDOListItem[])
+keywords: NSProjectTypeEntity, GetStages
 so.topic: reference
 ---
 
-
 Stages (project statuses), those associated with this ProjType are selected.
 
-
-
-* **Stages:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
-
+**Parameter:** 
+ - **stages** SelectableMDOListItemArray
 

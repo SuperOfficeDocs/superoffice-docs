@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncDefaultValue_SetListName_String_p_0
-description: NSErpSyncDefaultValue.SetListName(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncDefaultValue_SetListName
+description: NSErpSyncDefaultValue.SetListName(String listName)
 intellisense: NSErpSyncDefaultValue.SetListName
-sortOrder: 3272
-keywords: SetListName(String)
+keywords: NSErpSyncDefaultValue, GetListName
 so.topic: reference
 ---
 
-
 The ERP list name, if the field has a list of values supplied by the ERP Connector
 
-
-
-* **ListName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **listName** String
 

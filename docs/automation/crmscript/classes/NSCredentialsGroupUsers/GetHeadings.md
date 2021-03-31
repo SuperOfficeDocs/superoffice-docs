@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCredentialsGroupUsers_GetHeadings
-description: NSCredentialsGroupUsers.GetHeadings()
+description: StringArray NSCredentialsGroupUsers.GetHeadings()
 intellisense: NSCredentialsGroupUsers.GetHeadings
-sortOrder: 2065
-keywords: GetHeadings()
+keywords: NSCredentialsGroupUsers, GetHeadings
 so.topic: reference
 ---
 
-
 Headings in which to list the different users.
 
-
-
-* **Returns:** StringArray
+**Returns:** StringArray
 
 

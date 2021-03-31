@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSControlInfo_SetType_String_p_0
-description: NSControlInfo.SetType(String p_0)
+﻿---
+title: crmscript_ref_NSControlInfo_SetType
+description: NSControlInfo.SetType(String type)
 intellisense: NSControlInfo.SetType
-sortOrder: 2009
-keywords: SetType(String)
+keywords: NSControlInfo, GetType
 so.topic: reference
 ---
 
 
-* **Type:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **type** String
 

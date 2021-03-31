@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentSource_SetName_String_p_0
-description: NSConsentSource.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSConsentSource_SetName
+description: NSConsentSource.SetName(String name)
 intellisense: NSConsentSource.SetName
-sortOrder: 1713
-keywords: SetName(String)
+keywords: NSConsentSource, GetName
 so.topic: reference
 ---
 
-
 Name of consent source
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

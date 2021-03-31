@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReportLabelLayoutEntity_SetReportLabelLayoutId_Integer_p_0
-description: NSReportLabelLayoutEntity.SetReportLabelLayoutId(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportLabelLayoutEntity_SetReportLabelLayoutId
+description: NSReportLabelLayoutEntity.SetReportLabelLayoutId(Integer reportLabelLayoutId)
 intellisense: NSReportLabelLayoutEntity.SetReportLabelLayoutId
-keywords: SetReportLabelLayoutId(Integer)
+keywords: NSReportLabelLayoutEntity, GetReportLabelLayoutId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ReportLabelLayoutId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **reportLabelLayoutId** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldMetadata_SetMaxLength_Integer_p_0
-description: NSFieldMetadata.SetMaxLength(Integer p_0)
+﻿---
+title: crmscript_ref_NSFieldMetadata_SetMaxLength
+description: NSFieldMetadata.SetMaxLength(Integer maxLength)
 intellisense: NSFieldMetadata.SetMaxLength
-sortOrder: 3592
-keywords: SetMaxLength(Integer)
+keywords: NSFieldMetadata, GetMaxLength
 so.topic: reference
 ---
 
-
 Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.)
 
-
-
-* **MaxLength:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **maxLength** Integer
 

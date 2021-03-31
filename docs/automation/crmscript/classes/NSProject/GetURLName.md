@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetURLName
-description: NSProject.GetURLName()
+description: String NSProject.GetURLName()
 intellisense: NSProject.GetURLName
-keywords: GetURLName()
+keywords: NSProject, GetURLName
 so.topic: reference
 ---
 
-
 Visible field
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

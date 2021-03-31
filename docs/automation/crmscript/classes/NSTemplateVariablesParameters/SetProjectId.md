@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTemplateVariablesParameters_SetProjectId_Integer_p_0
-description: NSTemplateVariablesParameters.SetProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTemplateVariablesParameters_SetProjectId
+description: NSTemplateVariablesParameters.SetProjectId(Integer projectId)
 intellisense: NSTemplateVariablesParameters.SetProjectId
-keywords: SetProjectId(Integer)
+keywords: NSTemplateVariablesParameters, GetProjectId
 so.topic: reference
 ---
 
-
 Identifier for a project
 
-
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectId** Integer
 

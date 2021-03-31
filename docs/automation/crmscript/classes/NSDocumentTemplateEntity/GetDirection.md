@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplateEntity_GetDirection
-description: NSDocumentTemplateEntity.GetDirection()
+description: DocTmplDirection NSDocumentTemplateEntity.GetDirection()
 intellisense: NSDocumentTemplateEntity.GetDirection
-sortOrder: 2656
-keywords: GetDirection()
+keywords: NSDocumentTemplateEntity, GetDirection
 so.topic: reference
 ---
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
+**Returns:** DocTmplDirection
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Incoming 
+     - Enum: 2 = Outgoing 
+     - Enum: 3 = SaintAll 
 

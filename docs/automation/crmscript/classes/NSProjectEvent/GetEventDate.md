@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEvent_GetEventDate
-description: NSProjectEvent.GetEventDate()
+description: DateTime NSProjectEvent.GetEventDate()
 intellisense: NSProjectEvent.GetEventDate
-keywords: GetEventDate()
+keywords: NSProjectEvent, GetEventDate
 so.topic: reference
 ---
 
-
 Date of the event. Event is not visible after this date.
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

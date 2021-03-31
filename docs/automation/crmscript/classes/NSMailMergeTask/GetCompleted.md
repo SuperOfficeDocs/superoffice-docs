@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSMailMergeTask_GetCompleted
-description: NSMailMergeTask.GetCompleted()
+description: Integer NSMailMergeTask.GetCompleted()
 intellisense: NSMailMergeTask.GetCompleted
-keywords: GetCompleted()
+keywords: NSMailMergeTask, GetCompleted
 so.topic: reference
 ---
 
-
 Completed status for task
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 

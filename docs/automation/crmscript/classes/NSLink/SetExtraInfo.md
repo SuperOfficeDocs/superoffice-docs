@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLink_SetExtraInfo_String_p_0
-description: NSLink.SetExtraInfo(String p_0)
+﻿---
+title: crmscript_ref_NSLink_SetExtraInfo
+description: NSLink.SetExtraInfo(String extraInfo)
 intellisense: NSLink.SetExtraInfo
-keywords: SetExtraInfo(String)
+keywords: NSLink, GetExtraInfo
 so.topic: reference
 ---
 
-
 Extrainfo for link. Use for information that does not have a primary key
 
-
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **extraInfo** String
 

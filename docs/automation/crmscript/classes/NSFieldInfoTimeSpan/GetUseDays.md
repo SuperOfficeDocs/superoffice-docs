@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoTimeSpan_GetUseDays
-description: NSFieldInfoTimeSpan.GetUseDays()
+description: Bool NSFieldInfoTimeSpan.GetUseDays()
 intellisense: NSFieldInfoTimeSpan.GetUseDays
-sortOrder: 3565
-keywords: GetUseDays()
+keywords: NSFieldInfoTimeSpan, GetUseDays
 so.topic: reference
 ---
 
-
 Should the time-span be counted in days?
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

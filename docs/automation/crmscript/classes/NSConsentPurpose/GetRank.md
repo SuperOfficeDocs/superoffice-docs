@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentPurpose_GetRank
-description: NSConsentPurpose.GetRank()
+description: Integer NSConsentPurpose.GetRank()
 intellisense: NSConsentPurpose.GetRank
-sortOrder: 1678
-keywords: GetRank()
+keywords: NSConsentPurpose, GetRank
 so.topic: reference
 ---
 
-
 Rank of this consent source
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

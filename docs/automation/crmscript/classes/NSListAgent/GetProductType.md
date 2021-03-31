@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetProductType_Integer_p_0
-description: NSListAgent.GetProductType(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetProductType
+description: NSProductType GetProductType(Integer productTypeId);
 intellisense: NSListAgent.GetProductType
-keywords: GetProductType(Integer)
+keywords: NSListAgent,GetProductType
 so.topic: reference
 ---
 
+Gets a NSProductType object.
 
-Gets a ProductType object.
+**Parameters:**
+ - **productTypeId** The identifier of the NSProductType object
 
+**Returns:** NSProductType
 
-
-* **productTypeId:** The identifier of the ProductType object
-* **Returns:** ProductType
-
+```crmscript
+NSListAgent agent;
+NSProductType thing = agent.GetProductType(123);
+```
 

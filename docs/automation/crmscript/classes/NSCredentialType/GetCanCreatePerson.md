@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCredentialType_GetCanCreatePerson
-description: NSCredentialType.GetCanCreatePerson()
+description: Bool NSCredentialType.GetCanCreatePerson()
 intellisense: NSCredentialType.GetCanCreatePerson
-sortOrder: 2070
-keywords: GetCanCreatePerson()
+keywords: NSCredentialType, GetCanCreatePerson
 so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
 
 

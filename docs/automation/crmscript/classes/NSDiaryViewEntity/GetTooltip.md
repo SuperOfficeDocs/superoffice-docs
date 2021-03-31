@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDiaryViewEntity_GetTooltip
-description: NSDiaryViewEntity.GetTooltip()
+description: String NSDiaryViewEntity.GetTooltip()
 intellisense: NSDiaryViewEntity.GetTooltip
-sortOrder: 2412
-keywords: GetTooltip()
+keywords: NSDiaryViewEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip/description of the DiaryView
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSEMailAgent_GetEMailSOInfo_Integer_p_0
-description: NSEMailAgent.GetEMailSOInfo(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_GetEMailSOInfo
+description: NSEMailSOInfo GetEMailSOInfo(Integer eMailSOInfoId);
 intellisense: NSEMailAgent.GetEMailSOInfo
-sortOrder: 2839
-keywords: GetEMailSOInfo(Integer)
+keywords: NSEMailAgent,GetEMailSOInfo
 so.topic: reference
 ---
 
+Gets a NSEMailSOInfo object.
 
-Gets a EMailSOInfo object.
+**Parameters:**
+ - **eMailSOInfoId** The identifier of the NSEMailSOInfo object
 
+**Returns:** NSEMailSOInfo
 
-
-* **eMailSOInfoId:** The identifier of the EMailSOInfo object
-* **Returns:** EMailSOInfo
-
+```crmscript
+NSEMailAgent agent;
+NSEMailSOInfo thing = agent.GetEMailSOInfo(123);
+```
 

@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSUserInfo_SetUserGroupName_String_p_0
-description: NSUserInfo.SetUserGroupName(String p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetUserGroupName
+description: NSUserInfo.SetUserGroupName(String userGroupName)
 intellisense: NSUserInfo.SetUserGroupName
-keywords: SetUserGroupName(String)
+keywords: NSUserInfo, GetUserGroupName
 so.topic: reference
 ---
 
 
-* **UserGroupName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **userGroupName** String
 

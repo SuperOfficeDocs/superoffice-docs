@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFavourite_SetRecordId_Integer_p_0
-description: NSFavourite.SetRecordId(Integer p_0)
+﻿---
+title: crmscript_ref_NSFavourite_SetRecordId
+description: NSFavourite.SetRecordId(Integer recordId)
 intellisense: NSFavourite.SetRecordId
-sortOrder: 3443
-keywords: SetRecordId(Integer)
+keywords: NSFavourite, GetRecordId
 so.topic: reference
 ---
 
-
 Id of the record this favourite belongs to.
 
-
-
-* **RecordId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **recordId** Integer
 

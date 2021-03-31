@@ -1,20 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetBookingType
-description: NSAppointmentEntity.GetBookingType()
+description: Integer NSAppointmentEntity.GetBookingType()
 intellisense: NSAppointmentEntity.GetBookingType
-sortOrder: 942
-keywords: GetBookingType()
+keywords: NSAppointmentEntity, GetBookingType
 so.topic: reference
 ---
 
-
 The type of booking the appointment represents
 
-* Unknown=0
-* None=1
-* Owner=2
-* Participant=3
+**Returns:** Integer
 
-* **Returns:** Integer
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = None 
+     - Enum: 2 = Owner 
+     - Enum: 3 = Participant 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactOrPersonFromEmail_SetContactCategory_String_p_0
-description: NSContactOrPersonFromEmail.SetContactCategory(String p_0)
+﻿---
+title: crmscript_ref_NSContactOrPersonFromEmail_SetContactCategory
+description: NSContactOrPersonFromEmail.SetContactCategory(String contactCategory)
 intellisense: NSContactOrPersonFromEmail.SetContactCategory
-sortOrder: 1928
-keywords: SetContactCategory(String)
+keywords: NSContactOrPersonFromEmail, GetContactCategory
 so.topic: reference
 ---
 
-
 Contact category
 
-
-
-* **ContactCategory:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactCategory** String
 

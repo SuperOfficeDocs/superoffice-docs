@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetEventName_String_p_0
-description: NSProjectEvent.SetEventName(String p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetEventName
+description: NSProjectEvent.SetEventName(String eventName)
 intellisense: NSProjectEvent.SetEventName
-keywords: SetEventName(String)
+keywords: NSProjectEvent, GetEventName
 so.topic: reference
 ---
 
-
 The name of the event (i.e. the project name)
 
-
-
-* **EventName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **eventName** String
 

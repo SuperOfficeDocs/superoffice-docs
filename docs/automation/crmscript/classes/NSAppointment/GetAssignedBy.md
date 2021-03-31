@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetAssignedBy
-description: NSAppointment.GetAssignedBy()
+description: Integer NSAppointment.GetAssignedBy()
 intellisense: NSAppointment.GetAssignedBy
-sortOrder: 728
-keywords: GetAssignedBy()
+keywords: NSAppointment, GetAssignedBy
 so.topic: reference
 ---
 
+Who (last) assigned this appointment to associate_id?
 
-Who (last) assigned this appointment to associate\_id?
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

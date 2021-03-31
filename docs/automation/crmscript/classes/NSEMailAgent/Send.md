@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSEMailAgent_Send_NSEMailEntity__p_0
-description: NSEMailAgent.Send(NSEMailEntity[] p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_Send
+description: EMailEntityArray Send(EMailEntityArray emails)
 intellisense: NSEMailAgent.Send
-sortOrder: 2830
-keywords: Send(NSEMailEntity[])
+keywords: NSEMailAgent,Send
 so.topic: reference
 ---
 
-
 Send the provided e-mails
 
+**Parameters:**
+ - **emails** The e-mails to send
 
+**Returns:** The sent e-mails (updated with message id etc.)
 
-* **emails:** The e-mails to send
-* **Returns:** The sent e-mails (updated with message id etc.)
-
+```crmscript
+NSEMailAgent agent;
+EMailEntityArray emails;
+EMailEntityArray res = agent.Send(emails);
+```
 

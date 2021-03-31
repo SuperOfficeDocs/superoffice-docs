@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketMessageEntity_SetTimeSpent_Integer_p_0
-description: NSTicketMessageEntity.SetTimeSpent(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketMessageEntity_SetTimeSpent
+description: NSTicketMessageEntity.SetTimeSpent(Integer timeSpent)
 intellisense: NSTicketMessageEntity.SetTimeSpent
-keywords: SetTimeSpent(Integer)
+keywords: NSTicketMessageEntity, GetTimeSpent
 so.topic: reference
 ---
 
-
 The time spent (minutes) for this message.
 
-
-
-* **TimeSpent:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **timeSpent** Integer
 

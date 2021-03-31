@@ -1,13 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSAssociate_GetType
-description: NSAssociate.GetType()
+description: Integer NSAssociate.GetType()
 intellisense: NSAssociate.GetType
-sortOrder: 1260
-keywords: GetType()
+keywords: NSAssociate, GetType
 so.topic: reference
 ---
 
+User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system
 
-* **Returns:** Integer
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 

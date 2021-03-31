@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedModuleLicense_SetNew_NSModuleLicense_p_0
-description: NSExtendedModuleLicense.SetNew(NSModuleLicense p_0)
+﻿---
+title: crmscript_ref_NSExtendedModuleLicense_SetNew
+description: NSExtendedModuleLicense.SetNew(ModuleLicense new)
 intellisense: NSExtendedModuleLicense.SetNew
-sortOrder: 3426
-keywords: SetNew(NSModuleLicense)
+keywords: NSExtendedModuleLicense, GetNew
 so.topic: reference
 ---
 
 
-* **New:** ModuleLicense
-* **Returns:** ModuleLicense
 
+**Parameter:** 
+ - **new** ModuleLicense
 

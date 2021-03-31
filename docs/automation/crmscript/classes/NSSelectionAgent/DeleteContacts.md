@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSSelectionAgent_DeleteContacts_Integer_p_0
-description: NSSelectionAgent.DeleteContacts(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionAgent_DeleteContacts
+description: Void DeleteContacts(Integer selectionId)
 intellisense: NSSelectionAgent.DeleteContacts
-keywords: DeleteContacts(Integer)
+keywords: NSSelectionAgent,DeleteContacts
 so.topic: reference
 ---
 
-
 Deletes all contacts from a selection. If a contact does not have delete rights, it will be skipped.
 
-
-
-* **selectionId:** Id of the selection the delete operation will be performed.
-
-
+**Parameters:**
+ - **selectionId** Id of the selection the delete operation will be performed.

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleTypeEntity_SetSaleTypeCatId_Integer_p_0
-description: NSSaleTypeEntity.SetSaleTypeCatId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleTypeEntity_SetSaleTypeCatId
+description: NSSaleTypeEntity.SetSaleTypeCatId(Integer saleTypeCatId)
 intellisense: NSSaleTypeEntity.SetSaleTypeCatId
-keywords: SetSaleTypeCatId(Integer)
+keywords: NSSaleTypeEntity, GetSaleTypeCatId
 so.topic: reference
 ---
 
-
 Category of sale type, copied to sale
 
-
-
-* **SaleTypeCatId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleTypeCatId** Integer
 

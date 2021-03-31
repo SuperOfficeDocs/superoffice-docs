@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveRestrictionGroup_SetDescription_String_p_0
-description: NSArchiveRestrictionGroup.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSArchiveRestrictionGroup_SetDescription
+description: NSArchiveRestrictionGroup.SetDescription(String description)
 intellisense: NSArchiveRestrictionGroup.SetDescription
-sortOrder: 1206
-keywords: SetDescription(String)
+keywords: NSArchiveRestrictionGroup, GetDescription
 so.topic: reference
 ---
 
-
 Description of group
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSConsentSource
 description: NSConsentSource
 intellisense: Void.NSConsentSource
-sortOrder: 1700
+keywords: NSConsentSource
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

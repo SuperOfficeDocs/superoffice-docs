@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveRestrictionGroup_GetRank
-description: NSArchiveRestrictionGroup.GetRank()
+description: Integer NSArchiveRestrictionGroup.GetRank()
 intellisense: NSArchiveRestrictionGroup.GetRank
-sortOrder: 1202
-keywords: GetRank()
+keywords: NSArchiveRestrictionGroup, GetRank
 so.topic: reference
 ---
 
-
 Rank order within this CriteriaModel
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

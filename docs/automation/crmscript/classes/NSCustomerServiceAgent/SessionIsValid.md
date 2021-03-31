@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSCustomerServiceAgent_SessionIsValid_String_p_0
-description: NSCustomerServiceAgent.SessionIsValid(String p_0)
+﻿---
+title: crmscript_ref_NSCustomerServiceAgent_SessionIsValid
+description: Bool SessionIsValid(String csSessionKey)
 intellisense: NSCustomerServiceAgent.SessionIsValid
-sortOrder: 2224
-keywords: SessionIsValid(String)
+keywords: NSCustomerServiceAgent,SessionIsValid
 so.topic: reference
 ---
 
-
 Check if a CS session is valid
 
+**Parameters:**
+ - **csSessionKey** The CS session key to check
 
+**Returns:** True if there is a valid CS session based on the session key
 
-* **csSessionKey:** The CS session key to check
-* **Returns:** True if there is a valid CS session based on the session key
-
+```crmscript
+NSCustomerServiceAgent agent;
+String csSessionKey;
+Bool res = agent.SessionIsValid(csSessionKey);
+```
 

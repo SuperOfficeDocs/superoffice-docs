@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectMember_GetComment
-description: NSProjectMember.GetComment()
+description: String NSProjectMember.GetComment()
 intellisense: NSProjectMember.GetComment
-keywords: GetComment()
+keywords: NSProjectMember, GetComment
 so.topic: reference
 ---
 
-
 Comment text on the project membership
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

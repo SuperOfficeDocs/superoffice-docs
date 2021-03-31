@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetPublishFrom
-description: NSSaleEntity.GetPublishFrom()
+description: DateTime NSSaleEntity.GetPublishFrom()
 intellisense: NSSaleEntity.GetPublishFrom
-keywords: GetPublishFrom()
+keywords: NSSaleEntity, GetPublishFrom
 so.topic: reference
 ---
 
+Publish from date.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime.
 

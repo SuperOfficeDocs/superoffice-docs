@@ -1,17 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetCompleted
-description: NSAppointmentEntity.GetCompleted()
+description: Integer NSAppointmentEntity.GetCompleted()
 intellisense: NSAppointmentEntity.GetCompleted
-sortOrder: 944
-keywords: GetCompleted()
+keywords: NSAppointmentEntity, GetCompleted
 so.topic: reference
 ---
 
-
 Appointment Completed state. This property is the part of the Status property that is the completed state. Could be three state if the three state user preference is set.
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 

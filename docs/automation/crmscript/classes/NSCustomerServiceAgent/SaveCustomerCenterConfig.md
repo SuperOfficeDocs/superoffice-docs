@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSCustomerServiceAgent_SaveCustomerCenterConfig_NSCustomerCenterConfig_p_0
-description: NSCustomerServiceAgent.SaveCustomerCenterConfig(NSCustomerCenterConfig p_0)
+﻿---
+title: crmscript_ref_NSCustomerServiceAgent_SaveCustomerCenterConfig
+description: NSCustomerCenterConfig SaveCustomerCenterConfig(NSCustomerCenterConfig customerCenterConfig);
 intellisense: NSCustomerServiceAgent.SaveCustomerCenterConfig
-sortOrder: 2229
-keywords: SaveCustomerCenterConfig(NSCustomerCenterConfig)
+keywords: NSCustomerServiceAgent,SaveCustomerCenterConfig
 so.topic: reference
 ---
+	  
+Updates the existing NSCustomerCenterConfig or creates a new NSCustomerCenterConfig if the id parameter is 0
+	  
+**Parameters**:
+ - **customerCenterConfig** The NSCustomerCenterConfig to save.
 
+**Returns:** New or updated NSCustomerCenterConfig
 
-Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty
-
-
-
-* **customerCenterConfig:** The CustomerCenterConfig that is saved
-* **Returns:** New or updated CustomerCenterConfig
-
+```crmscript
+NSCustomerService  agent;
+NSCustomerCenterConfig thing = agent.CreateDefaultCustomerCenterConfig();
+thing = agent.SaveCustomerCenterConfig(thing);
+```
 

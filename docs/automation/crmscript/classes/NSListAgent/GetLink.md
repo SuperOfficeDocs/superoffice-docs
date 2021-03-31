@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetLink_Integer_p_0
-description: NSListAgent.GetLink(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetLink
+description: NSLink GetLink(Integer linkId);
 intellisense: NSListAgent.GetLink
-keywords: GetLink(Integer)
+keywords: NSListAgent,GetLink
 so.topic: reference
 ---
 
+Gets a NSLink object.
 
-Gets a Link object.
+**Parameters:**
+ - **linkId** The identifier of the NSLink object
 
+**Returns:** NSLink
 
-
-* **linkId:** The identifier of the Link object
-* **Returns:** Link
-
+```crmscript
+NSListAgent agent;
+NSLink thing = agent.GetLink(123);
+```
 

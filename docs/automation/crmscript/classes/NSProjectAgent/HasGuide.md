@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSProjectAgent_HasGuide_Integer_p_0
-description: NSProjectAgent.HasGuide(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_HasGuide
+description: Bool HasGuide(Integer projectId)
 intellisense: NSProjectAgent.HasGuide
-keywords: HasGuide(Integer)
+keywords: NSProjectAgent,HasGuide
 so.topic: reference
 ---
 
-
 Does this project have a guide associated with its project type?
 
+**Parameters:**
+ - **projectId** Project id
 
+**Returns:** True if the project has a guide
 
-* **projectId:** Project id
-* **Returns:** True if the project has a guide
-
+```crmscript
+NSProjectAgent agent;
+Integer projectId;
+Bool res = agent.HasGuide(projectId);
+```
 

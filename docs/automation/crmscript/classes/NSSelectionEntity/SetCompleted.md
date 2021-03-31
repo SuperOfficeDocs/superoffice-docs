@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetCompleted_Bool_p_0
-description: NSSelectionEntity.SetCompleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetCompleted
+description: NSSelectionEntity.SetCompleted(Bool completed)
 intellisense: NSSelectionEntity.SetCompleted
-keywords: SetCompleted(Bool)
+keywords: NSSelectionEntity, GetCompleted
 so.topic: reference
 ---
 
+The Completed state. 
 
-The Completed state.
-
-
-
-* **Completed:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **completed** Bool
 

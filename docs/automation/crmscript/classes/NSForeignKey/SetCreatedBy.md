@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignKey_SetCreatedBy_String_p_0
-description: NSForeignKey.SetCreatedBy(String p_0)
+﻿---
+title: crmscript_ref_NSForeignKey_SetCreatedBy
+description: NSForeignKey.SetCreatedBy(String createdBy)
 intellisense: NSForeignKey.SetCreatedBy
-sortOrder: 3742
-keywords: SetCreatedBy(String)
+keywords: NSForeignKey, GetCreatedBy
 so.topic: reference
 ---
 
-
 Name of the person that created the foreign key
 
-
-
-* **CreatedBy:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **createdBy** String
 

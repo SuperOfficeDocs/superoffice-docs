@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDepartment_GetValue
-description: NSDepartment.GetValue()
+description: String NSDepartment.GetValue()
 intellisense: NSDepartment.GetValue
-sortOrder: 2384
-keywords: GetValue()
+keywords: NSDepartment, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

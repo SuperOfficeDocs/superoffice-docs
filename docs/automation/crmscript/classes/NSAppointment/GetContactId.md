@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetContactId
-description: NSAppointment.GetContactId()
+description: Integer NSAppointment.GetContactId()
 intellisense: NSAppointment.GetContactId
-sortOrder: 734
-keywords: GetContactId()
+keywords: NSAppointment, GetContactId
 so.topic: reference
 ---
 
-
 Contact ID of owning contact, may be 0
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

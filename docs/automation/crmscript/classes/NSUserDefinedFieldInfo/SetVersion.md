@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetVersion_Integer_p_0
-description: NSUserDefinedFieldInfo.SetVersion(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetVersion
+description: NSUserDefinedFieldInfo.SetVersion(Integer version)
 intellisense: NSUserDefinedFieldInfo.SetVersion
-keywords: SetVersion(Integer)
+keywords: NSUserDefinedFieldInfo, GetVersion
 so.topic: reference
 ---
 
-
 Definition version number; ALL fields get new version whenever layout is updated.
 
-
-
-* **Version:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **version** Integer
 

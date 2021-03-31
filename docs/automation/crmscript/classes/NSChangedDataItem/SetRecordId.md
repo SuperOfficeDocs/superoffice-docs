@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSChangedDataItem_SetRecordId_Integer_p_0
-description: NSChangedDataItem.SetRecordId(Integer p_0)
+﻿---
+title: crmscript_ref_NSChangedDataItem_SetRecordId
+description: NSChangedDataItem.SetRecordId(Integer recordId)
 intellisense: NSChangedDataItem.SetRecordId
-sortOrder: 1510
-keywords: SetRecordId(Integer)
+keywords: NSChangedDataItem, GetRecordId
 so.topic: reference
 ---
 
-
 Id of record, should never be 0
 
-
-
-* **RecordId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **recordId** Integer
 

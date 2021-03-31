@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetCreatedBy
-description: NSContactEntity.GetCreatedBy()
+description: Associate NSContactEntity.GetCreatedBy()
 intellisense: NSContactEntity.GetCreatedBy
-sortOrder: 1851
-keywords: GetCreatedBy()
+keywords: NSContactEntity, GetCreatedBy
 so.topic: reference
 ---
 
+The user that created the contact
 
-The person that created the contact
-
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

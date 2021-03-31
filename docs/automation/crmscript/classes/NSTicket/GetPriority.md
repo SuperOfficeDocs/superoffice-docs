@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicket_GetPriority
-description: NSTicket.GetPriority()
+description: Integer NSTicket.GetPriority()
 intellisense: NSTicket.GetPriority
-keywords: GetPriority()
+keywords: NSTicket, GetPriority
 so.topic: reference
 ---
 
+The reference to the ticket_priority table.
 
-The reference to the ticket\_priority table.
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

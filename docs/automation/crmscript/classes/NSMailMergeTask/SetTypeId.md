@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeTask_SetTypeId_Integer_p_0
-description: NSMailMergeTask.SetTypeId(Integer p_0)
+﻿---
+title: crmscript_ref_NSMailMergeTask_SetTypeId
+description: NSMailMergeTask.SetTypeId(Integer typeId)
 intellisense: NSMailMergeTask.SetTypeId
-keywords: SetTypeId(Integer)
+keywords: NSMailMergeTask, GetTypeId
 so.topic: reference
 ---
 
-
 Type identity to set on task
 
-
-
-* **TypeId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **typeId** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedDocumentEntity_SetHeader_String_p_0
-description: NSSuggestedDocumentEntity.SetHeader(String p_0)
+﻿---
+title: crmscript_ref_NSSuggestedDocumentEntity_SetHeader
+description: NSSuggestedDocumentEntity.SetHeader(String header)
 intellisense: NSSuggestedDocumentEntity.SetHeader
-keywords: SetHeader(String)
+keywords: NSSuggestedDocumentEntity, GetHeader
 so.topic: reference
 ---
 
-
 Suggested 'header'
 
-
-
-* **Header:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **header** String
 

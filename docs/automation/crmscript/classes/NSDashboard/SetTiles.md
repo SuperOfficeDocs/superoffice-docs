@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboard_SetTiles_NSDashboardTile__p_0
-description: NSDashboard.SetTiles(NSDashboardTile[] p_0)
+﻿---
+title: crmscript_ref_NSDashboard_SetTiles
+description: NSDashboard.SetTiles(DashboardTileArray tiles)
 intellisense: NSDashboard.SetTiles
-sortOrder: 2269
-keywords: SetTiles(NSDashboardTile[])
+keywords: NSDashboard, GetTiles
 so.topic: reference
 ---
 
-
 The tiles associated with this dashboard
 
-
-
-* **Tiles:** DashboardTileArray
-* **Returns:** DashboardTileArray
-
+**Parameter:** 
+ - **tiles** DashboardTileArray
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetParameters_String_p_0
-description: NSExtAppEntity.SetParameters(String p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetParameters
+description: NSExtAppEntity.SetParameters(String parameters)
 intellisense: NSExtAppEntity.SetParameters
-sortOrder: 3389
-keywords: SetParameters(String)
+keywords: NSExtAppEntity, GetParameters
 so.topic: reference
 ---
 
+<template variable> <other template variable>
 
-\<template variable> \<other template variable>
-
-
-
-* **Parameters:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **parameters** String
 

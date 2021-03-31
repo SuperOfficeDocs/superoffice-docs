@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailFolder_GetFlags
-description: NSEMailFolder.GetFlags()
+description: String NSEMailFolder.GetFlags()
 intellisense: NSEMailFolder.GetFlags
-sortOrder: 3033
-keywords: GetFlags()
+keywords: NSEMailFolder, GetFlags
 so.topic: reference
 ---
 
-
 Flags associated with the folder
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

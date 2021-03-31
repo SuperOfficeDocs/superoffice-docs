@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncFieldMapping_GetErpFieldId
-description: NSErpSyncFieldMapping.GetErpFieldId()
+description: Integer NSErpSyncFieldMapping.GetErpFieldId()
 intellisense: NSErpSyncFieldMapping.GetErpFieldId
-sortOrder: 3293
-keywords: GetErpFieldId()
+keywords: NSErpSyncFieldMapping, GetErpFieldId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSParticipantSyncData_GetPersonMrmrs
-description: NSParticipantSyncData.GetPersonMrmrs()
+description: String NSParticipantSyncData.GetPersonMrmrs()
 intellisense: NSParticipantSyncData.GetPersonMrmrs
-keywords: GetPersonMrmrs()
+keywords: NSParticipantSyncData, GetPersonMrmrs
 so.topic: reference
 ---
 
+e.g. Mrs   sex_title
 
-e.g. Mrs   sex\_title
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpConnectionData_GetConnectionName
-description: NSErpConnectionData.GetConnectionName()
+description: String NSErpConnectionData.GetConnectionName()
 intellisense: NSErpConnectionData.GetConnectionName
-sortOrder: 3113
-keywords: GetConnectionName()
+keywords: NSErpConnectionData, GetConnectionName
 so.topic: reference
 ---
 
-
 The name of the connection
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

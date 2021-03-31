@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCustomerCenterConfig_GetCustLangId
-description: NSCustomerCenterConfig.GetCustLangId()
+description: Integer NSCustomerCenterConfig.GetCustLangId()
 intellisense: NSCustomerCenterConfig.GetCustLangId
-sortOrder: 2198
-keywords: GetCustLangId()
+keywords: NSCustomerCenterConfig, GetCustLangId
 so.topic: reference
 ---
 
-
 The customer language which this config belongs to. 0 indicates that the config is global
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

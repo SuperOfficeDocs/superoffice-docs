@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetUpdatedCount_Integer_p_0
-description: NSFormEntity.SetUpdatedCount(Integer p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetUpdatedCount
+description: NSFormEntity.SetUpdatedCount(Integer updatedCount)
 intellisense: NSFormEntity.SetUpdatedCount
-sortOrder: 3827
-keywords: SetUpdatedCount(Integer)
+keywords: NSFormEntity, GetUpdatedCount
 so.topic: reference
 ---
 
-
 Number of updates made to this record
 
-
-
-* **UpdatedCount:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **updatedCount** Integer
 

@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetProjectStatusList_Integer__p_0
-description: NSListAgent.GetProjectStatusList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetProjectStatusList
+description: NSProjectStatus[] GetProjectStatusList(Integer[]  projectStatusIds);
 intellisense: NSListAgent.GetProjectStatusList
-keywords: GetProjectStatusList(Integer[])
+keywords: NSListAgent,GetProjectStatusList
 so.topic: reference
 ---
 
-Gets an array of ProjectStatus objects.
+Gets a vector of ProjectStatus objects.
 
+**Parameters:**
+ - **projectStatusIds** The identifiers of the NSProjectStatus objects
 
+**Returns:** Vector of NSProjectStatus objects
 
-* **p0:** IntegerArray of identifiers for ProjectStatus
-* **Returns:** Array of NSProjectStatus
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetProjectStatusList(ids);
+```
 

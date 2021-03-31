@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetRatingList_Integer__p_0
-description: NSListAgent.GetRatingList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetRatingList
+description: NSRating[] GetRatingList(Integer[]  ratingIds);
 intellisense: NSListAgent.GetRatingList
-keywords: GetRatingList(Integer[])
+keywords: NSListAgent,GetRatingList
 so.topic: reference
 ---
 
-Gets an array of Rating objects.
+Gets a vector of Rating objects.
 
+**Parameters:**
+ - **ratingIds** The identifiers of the NSRating objects
 
-* **p0:** IntegerArray of identifiers for Rating
-* **Returns:** Array of NSRating
+**Returns:** Vector of NSRating objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetRatingList(ids);
+```
 

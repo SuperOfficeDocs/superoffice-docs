@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactActivity_GetActivityPersonId
-description: NSContactActivity.GetActivityPersonId()
+description: Integer NSContactActivity.GetActivityPersonId()
 intellisense: NSContactActivity.GetActivityPersonId
-sortOrder: 1769
-keywords: GetActivityPersonId()
+keywords: NSContactActivity, GetActivityPersonId
 so.topic: reference
 ---
 
-
 Id of the person causing the activity.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

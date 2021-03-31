@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetDomesticAddressLayoutId_Integer_p_0
-description: NSCountry.SetDomesticAddressLayoutId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetDomesticAddressLayoutId
+description: NSCountry.SetDomesticAddressLayoutId(Integer domesticAddressLayoutId)
 intellisense: NSCountry.SetDomesticAddressLayoutId
-sortOrder: 2036
-keywords: SetDomesticAddressLayoutId(Integer)
+keywords: NSCountry, GetDomesticAddressLayoutId
 so.topic: reference
 ---
 
-
 Domestic address layout of the country
 
-
-
-* **DomesticAddressLayoutId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **domesticAddressLayoutId** Integer
 

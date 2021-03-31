@@ -1,12 +1,10 @@
----
+﻿---
 title: crmscript_ref_NSPocketAgent_RunAppointmentAlarmBroker
-description: NSPocketAgent.RunAppointmentAlarmBroker()
+description: Void RunAppointmentAlarmBroker()
 intellisense: NSPocketAgent.RunAppointmentAlarmBroker
-keywords: RunAppointmentAlarmBroker()
+keywords: NSPocketAgent,RunAppointmentAlarmBroker
 so.topic: reference
 ---
 
-
 Execute the AppointmentAlarmBroker once
-
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContact_GetName
-description: NSContact.GetName()
+description: String NSContact.GetName()
 intellisense: NSContact.GetName
-sortOrder: 1737
-keywords: GetName()
+keywords: NSContact, GetName
 so.topic: reference
 ---
 
-
 Contact name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetName_String_p_0
-description: NSCountry.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetName
+description: NSCountry.SetName(String name)
 intellisense: NSCountry.SetName
-sortOrder: 2041
-keywords: SetName(String)
+keywords: NSCountry, GetName
 so.topic: reference
 ---
 
-
 Name of country in installed language
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

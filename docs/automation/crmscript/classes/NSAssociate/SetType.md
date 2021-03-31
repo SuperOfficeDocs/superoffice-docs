@@ -1,14 +1,19 @@
----
-title: crmscript_ref_NSAssociate_SetType_Integer_p_0
-description: NSAssociate.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSAssociate_SetType
+description: NSAssociate.SetType(Integer type)
 intellisense: NSAssociate.SetType
-sortOrder: 1276
-keywords: SetType(Integer)
+keywords: NSAssociate, GetType
 so.topic: reference
 ---
 
+User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5 = system
 
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 

@@ -1,15 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSPreferenceAgent_CreateDefaultPreferenceDescription
-description: NSPreferenceAgent.CreateDefaultPreferenceDescription()
+description: NSPreferenceDescription CreateDefaultPreferenceDescription()
 intellisense: NSPreferenceAgent.CreateDefaultPreferenceDescription
-keywords: CreateDefaultPreferenceDescription()
+keywords: NSPreferenceAgent,CreateDefaultPreferenceDescription
 so.topic: reference
 ---
+	  
+Set default values into a new NSPreferenceDescription.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSPreferenceDescription with default values.
 
-Loading default values into a new PreferenceDescription.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-* **Returns:** New PreferenceDescription with default values
-
+```crmscript
+NSPreferenceAgent agent;
+NSPreferenceDescription thing = agent.CreateDefaultPreferenceDescription();
+thing = agent.SavePreferenceDescription(thing);
+```
 

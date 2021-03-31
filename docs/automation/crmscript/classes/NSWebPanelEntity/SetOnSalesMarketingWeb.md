@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingWeb_Bool_p_0
-description: NSWebPanelEntity.SetOnSalesMarketingWeb(Bool p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingWeb
+description: NSWebPanelEntity.SetOnSalesMarketingWeb(Bool onSalesMarketingWeb)
 intellisense: NSWebPanelEntity.SetOnSalesMarketingWeb
-keywords: SetOnSalesMarketingWeb(Bool)
+keywords: NSWebPanelEntity, GetOnSalesMarketingWeb
 so.topic: reference
 ---
 
-
 Is the webpanel visible when user is on web client
 
-
-
-* **OnSalesMarketingWeb:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **onSalesMarketingWeb** Bool
 

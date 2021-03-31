@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteAlternative_GetSubTotal
-description: NSQuoteAlternative.GetSubTotal()
+description: Float NSQuoteAlternative.GetSubTotal()
 intellisense: NSQuoteAlternative.GetSubTotal
-keywords: GetSubTotal()
+keywords: NSQuoteAlternative, GetSubTotal
 so.topic: reference
 ---
 
-
 Value to help the user interface, is computed by summing the totalprice of the quotelines, and NOT by summing their subtotals
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

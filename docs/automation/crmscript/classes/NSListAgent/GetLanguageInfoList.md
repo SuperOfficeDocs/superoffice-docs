@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetLanguageInfoList_Integer__p_0
-description: NSListAgent.GetLanguageInfoList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetLanguageInfoList
+description: NSLanguageInfo[] GetLanguageInfoList(Integer[]  languageInfoIds);
 intellisense: NSListAgent.GetLanguageInfoList
-keywords: GetLanguageInfoList(Integer[])
+keywords: NSListAgent,GetLanguageInfoList
 so.topic: reference
 ---
 
-Gets an array of LanguageInfo objects.
+Gets a vector of LanguageInfo objects.
 
+**Parameters:**
+ - **languageInfoIds** The identifiers of the NSLanguageInfo objects
 
-* **p0:** IntegerArray of identifiers for LanguageInfo
-* **Returns:** Array of NSLanguageInfo
+**Returns:** Vector of NSLanguageInfo objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetLanguageInfoList(ids);
+```
 

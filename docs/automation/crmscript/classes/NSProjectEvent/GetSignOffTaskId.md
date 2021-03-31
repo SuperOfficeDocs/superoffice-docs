@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEvent_GetSignOffTaskId
-description: NSProjectEvent.GetSignOffTaskId()
+description: Integer NSProjectEvent.GetSignOffTaskId()
 intellisense: NSProjectEvent.GetSignOffTaskId
-keywords: GetSignOffTaskId()
+keywords: NSProjectEvent, GetSignOffTaskId
 so.topic: reference
 ---
 
-
 If not 0, sign off should cause an Activity of this type to be registered
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

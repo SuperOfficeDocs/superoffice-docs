@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPersonPosition_String_p_0
-description: NSParticipantSyncData.SetPersonPosition(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPersonPosition
+description: NSParticipantSyncData.SetPersonPosition(String personPosition)
 intellisense: NSParticipantSyncData.SetPersonPosition
-keywords: SetPersonPosition(String)
+keywords: NSParticipantSyncData, GetPersonPosition
 so.topic: reference
 ---
 
-
 The position. This is a predefined SuperOffice value, different from Title
 
-
-
-* **PersonPosition:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personPosition** String
 

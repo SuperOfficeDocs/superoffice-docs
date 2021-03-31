@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetWedStart_DateTime_p_0
-description: NSTicketPriorityEntity.SetWedStart(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetWedStart
+description: NSTicketPriorityEntity.SetWedStart(DateTime wedStart)
 intellisense: NSTicketPriorityEntity.SetWedStart
-keywords: SetWedStart(DateTime)
+keywords: NSTicketPriorityEntity, GetWedStart
 so.topic: reference
 ---
 
-
 The work hour start for Wednesdays. Note that only the time part of the DateTime is used
 
-
-
-* **WedStart:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **wedStart** DateTime
 

@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSNumberAllocationAgent_GetNumberEachTemplate
-description: NSNumberAllocationAgent.GetNumberEachTemplate()
+description: Bool GetNumberEachTemplate()
 intellisense: NSNumberAllocationAgent.GetNumberEachTemplate
-keywords: GetNumberEachTemplate()
+keywords: NSNumberAllocationAgent,GetNumberEachTemplate
 so.topic: reference
 ---
-
 
 Returns true or false if Automatically create new counters for new document templates
 
 
+**Returns:** Is NumberEachTemplate?
 
-* **Returns:** Is NumberEachTemplate?
-
+```crmscript
+NSNumberAllocationAgent agent;
+Bool res = agent.GetNumberEachTemplate();
+```
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAddress_GetContactId
-description: NSEMailAddress.GetContactId()
+description: Integer NSEMailAddress.GetContactId()
 intellisense: NSEMailAddress.GetContactId
-sortOrder: 2763
-keywords: GetContactId()
+keywords: NSEMailAddress, GetContactId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

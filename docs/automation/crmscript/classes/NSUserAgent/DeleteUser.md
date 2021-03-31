@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSUserAgent_DeleteUser_Integer_p_0
-description: NSUserAgent.DeleteUser(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_DeleteUser
+description: DeleteUser(Integer user);
 intellisense: NSUserAgent.DeleteUser
-keywords: DeleteUser(Integer)
+keywords: NSUserAgent,DeleteUser
 so.topic: reference
 ---
 
+Deletes the NSUser
+  
+**Parameters:**
+ - **userId** The identity of the User to delete.
 
-Deletes the User
-
-
-
-* **userId:** The identity of the User
-
+```crmscript
+NSUserAgent agent;
+agent.DeleteUser(123);
+```
 

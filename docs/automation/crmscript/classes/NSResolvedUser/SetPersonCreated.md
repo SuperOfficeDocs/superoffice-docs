@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSResolvedUser_SetPersonCreated_Bool_p_0
-description: NSResolvedUser.SetPersonCreated(Bool p_0)
+﻿---
+title: crmscript_ref_NSResolvedUser_SetPersonCreated
+description: NSResolvedUser.SetPersonCreated(Bool personCreated)
 intellisense: NSResolvedUser.SetPersonCreated
-keywords: SetPersonCreated(Bool)
+keywords: NSResolvedUser, GetPersonCreated
 so.topic: reference
 ---
 
-
 Indicates if the resolved person was created or not.
 
-
-
-* **PersonCreated:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **personCreated** Bool
 

@@ -1,18 +1,12 @@
----
-title: crmscript_ref_NSAppointmentAgent_CalculateDays_NSAppointmentEntity_p_0
-description: NSAppointmentAgent.CalculateDays(NSAppointmentEntity p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_CalculateDays
+description: RecurrenceInfo CalculateDays(AppointmentEntity appointmentEntity)
 intellisense: NSAppointmentAgent.CalculateDays
-sortOrder: 891
-keywords: CalculateDays(NSAppointmentEntity)
+keywords: NSAppointmentAgent,CalculateDays
 so.topic: reference
 ---
 
-
 Calculates the set of dates that represents a recurrence pattern. Adds conflict information to each date.
 
-
-
-* **appointmentEntity
-**
-
-
+**Parameters:**
+ - **appointmentEntity** 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetERPProductKey_String_p_0
-description: NSProduct.SetERPProductKey(String p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetERPProductKey
+description: NSProduct.SetERPProductKey(String eRPProductKey)
 intellisense: NSProduct.SetERPProductKey
-keywords: SetERPProductKey(String)
+keywords: NSProduct, GetERPProductKey
 so.topic: reference
 ---
 
-
 Reference/foreign key to the product in the given pricelist in the product supplier system, if it exists there.
 
-
-
-* **ERPProductKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **eRPProductKey** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketNotificationMessage_SetTitle_String_p_0
-description: NSPocketNotificationMessage.SetTitle(String p_0)
+﻿---
+title: crmscript_ref_NSPocketNotificationMessage_SetTitle
+description: NSPocketNotificationMessage.SetTitle(String title)
 intellisense: NSPocketNotificationMessage.SetTitle
-keywords: SetTitle(String)
+keywords: NSPocketNotificationMessage, GetTitle
 so.topic: reference
 ---
 
-
 Title for the notification
 
-
-
-* **Title:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **title** String
 

@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetReasonSold
-description: NSSaleEntity.GetReasonSold()
+description: ReasonSold NSSaleEntity.GetReasonSold()
 intellisense: NSSaleEntity.GetReasonSold
-keywords: GetReasonSold()
+keywords: NSSaleEntity, GetReasonSold
 so.topic: reference
 ---
 
 
-* **Returns:** ReasonSold
+
+**Returns:** ReasonSold
 
 

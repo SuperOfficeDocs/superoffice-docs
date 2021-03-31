@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAlarmData_GetStartTime
-description: NSAlarmData.GetStartTime()
+description: DateTime NSAlarmData.GetStartTime()
 intellisense: NSAlarmData.GetStartTime
-sortOrder: 645
-keywords: GetStartTime()
+keywords: NSAlarmData, GetStartTime
 so.topic: reference
 ---
 
-
 date + start time planned
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

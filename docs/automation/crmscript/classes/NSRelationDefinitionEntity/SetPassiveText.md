@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRelationDefinitionEntity_SetPassiveText_String_p_0
-description: NSRelationDefinitionEntity.SetPassiveText(String p_0)
+﻿---
+title: crmscript_ref_NSRelationDefinitionEntity_SetPassiveText
+description: NSRelationDefinitionEntity.SetPassiveText(String passiveText)
 intellisense: NSRelationDefinitionEntity.SetPassiveText
-keywords: SetPassiveText(String)
+keywords: NSRelationDefinitionEntity, GetPassiveText
 so.topic: reference
 ---
 
-
 Text used in passive direction
 
-
-
-* **PassiveText:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **passiveText** String
 

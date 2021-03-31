@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSImportLine_SetValues_String__p_0
-description: NSImportLine.SetValues(String[] p_0)
+﻿---
+title: crmscript_ref_NSImportLine_SetValues
+description: NSImportLine.SetValues(StringArray values)
 intellisense: NSImportLine.SetValues
-sortOrder: 3983
-keywords: SetValues(String[])
+keywords: NSImportLine, GetValues
 so.topic: reference
 ---
 
-
 An array of the values that will be imported on the entity
 
-
-
-* **Values:** StringArray
-* **Returns:** StringArray
-
+**Parameter:** 
+ - **values** StringArray
 

@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetPositionList_Integer__p_0
-description: NSListAgent.GetPositionList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetPositionList
+description: NSPosition[] GetPositionList(Integer[]  positionIds);
 intellisense: NSListAgent.GetPositionList
-keywords: GetPositionList(Integer[])
+keywords: NSListAgent,GetPositionList
 so.topic: reference
 ---
 
-Gets an array of Position objects.
+Gets a vector of Position objects.
 
+**Parameters:**
+ - **positionIds** The identifiers of the NSPosition objects
 
-* **p0:** IntegerArray of identifiers for Position
-* **Returns:** Array of NSPosition
+**Returns:** Vector of NSPosition objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetPositionList(ids);
+```
 

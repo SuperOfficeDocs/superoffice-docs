@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSListAgent_SaveQuickReplies_NSQuickReply__p_0
-description: NSListAgent.SaveQuickReplies(NSQuickReply[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveQuickReplies
+description: Void SaveQuickReplies(QuickReplyArray quickReplies)
 intellisense: NSListAgent.SaveQuickReplies
-keywords: SaveQuickReplies(NSQuickReply[])
+keywords: NSListAgent,SaveQuickReplies
 so.topic: reference
 ---
 
-
 Method to save all quick replies for a given associate
 
-
-
-* **quickReplies:** Array of quick replies
-
-
+**Parameters:**
+ - **quickReplies** Array of quick replies

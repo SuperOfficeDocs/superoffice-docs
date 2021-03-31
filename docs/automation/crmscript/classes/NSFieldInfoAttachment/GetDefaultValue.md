@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoAttachment_GetDefaultValue
-description: NSFieldInfoAttachment.GetDefaultValue()
+description: Integer NSFieldInfoAttachment.GetDefaultValue()
 intellisense: NSFieldInfoAttachment.GetDefaultValue
-sortOrder: 3457
-keywords: GetDefaultValue()
+keywords: NSFieldInfoAttachment, GetDefaultValue
 so.topic: reference
 ---
 
-
 Default attachment id value
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

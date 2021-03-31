@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetAccountId
-description: NSEMailEntity.GetAccountId()
+description: Integer NSEMailEntity.GetAccountId()
 intellisense: NSEMailEntity.GetAccountId
-sortOrder: 2949
-keywords: GetAccountId()
+keywords: NSEMailEntity, GetAccountId
 so.topic: reference
 ---
 
-
 Account Id
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetUdefIdentity_Integer_p_0
-description: NSUserDefinedFieldInfo.SetUdefIdentity(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetUdefIdentity
+description: NSUserDefinedFieldInfo.SetUdefIdentity(Integer udefIdentity)
 intellisense: NSUserDefinedFieldInfo.SetUdefIdentity
-keywords: SetUdefIdentity(Integer)
+keywords: NSUserDefinedFieldInfo, GetUdefIdentity
 so.topic: reference
 ---
 
-
 Unique number used to track field identity across layout changes
 
-
-
-* **UdefIdentity:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **udefIdentity** Integer
 

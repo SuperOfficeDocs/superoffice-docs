@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormSubmissionEntity_SetResponse_String_p_0
-description: NSFormSubmissionEntity.SetResponse(String p_0)
+﻿---
+title: crmscript_ref_NSFormSubmissionEntity_SetResponse
+description: NSFormSubmissionEntity.SetResponse(String response)
 intellisense: NSFormSubmissionEntity.SetResponse
-sortOrder: 3846
-keywords: SetResponse(String)
+keywords: NSFormSubmissionEntity, GetResponse
 so.topic: reference
 ---
 
-
 The JSON-formatted response from this form
 
-
-
-* **Response:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **response** String
 

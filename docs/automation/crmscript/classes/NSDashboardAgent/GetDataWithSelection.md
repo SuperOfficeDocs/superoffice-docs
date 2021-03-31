@@ -1,20 +1,25 @@
----
-title: crmscript_ref_NSDashboardAgent_GetDataWithSelection_Integer_p_0_Integer_p_1_String_p_2
-description: NSDashboardAgent.GetDataWithSelection(Integer p_0, Integer p_1, String p_2)
+﻿---
+title: crmscript_ref_NSDashboardAgent_GetDataWithSelection
+description: TileDataArray GetDataWithSelection(Integer dashboardTileId, Integer selectionId, String restrictions)
 intellisense: NSDashboardAgent.GetDataWithSelection
-sortOrder: 2283
-keywords: GetDataWithSelection(Integer,Integer,String)
+keywords: NSDashboardAgent,GetDataWithSelection
 so.topic: reference
 ---
 
-
 Get data for this tile
 
+**Parameters:**
+ - **dashboardTileId** Tile Id
+ - **selectionId** Selection Id
+ - **restrictions** Replacement restrictions
 
+**Returns:** The data
 
-* **dashboardTileId:** Tile Id
-* **selectionId:** Selection Id
-* **restrictions:** Replacement restrictions
-* **Returns:** The data
-
+```crmscript
+NSDashboardAgent agent;
+Integer dashboardTileId;
+Integer selectionId;
+String restrictions;
+TileDataArray res = agent.GetDataWithSelection(dashboardTileId, selectionId, restrictions);
+```
 

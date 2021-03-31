@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDeliveryTerm_GetValue
-description: NSDeliveryTerm.GetValue()
+description: String NSDeliveryTerm.GetValue()
 intellisense: NSDeliveryTerm.GetValue
-sortOrder: 2368
-keywords: GetValue()
+keywords: NSDeliveryTerm, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

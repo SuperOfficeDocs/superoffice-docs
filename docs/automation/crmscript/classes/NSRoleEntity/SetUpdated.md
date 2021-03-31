@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetUpdated_DateTime_p_0
-description: NSRoleEntity.SetUpdated(DateTime p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetUpdated
+description: NSRoleEntity.SetUpdated(DateTime updated)
 intellisense: NSRoleEntity.SetUpdated
-keywords: SetUpdated(DateTime)
+keywords: NSRoleEntity, GetUpdated
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Updated:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updated** DateTime
 

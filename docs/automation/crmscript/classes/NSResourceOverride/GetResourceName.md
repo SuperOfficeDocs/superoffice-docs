@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSResourceOverride_GetResourceName
-description: NSResourceOverride.GetResourceName()
+description: String NSResourceOverride.GetResourceName()
 intellisense: NSResourceOverride.GetResourceName
-keywords: GetResourceName()
+keywords: NSResourceOverride, GetResourceName
 so.topic: reference
 ---
 
+The name of the resource, without any brackets or braces - example: SR_CONTACT
 
-The name of the resource, without any brackets or braces - example: SR\_CONTACT
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

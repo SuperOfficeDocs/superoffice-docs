@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSForeignSystemAgent_SaveForeignAppEntity_NSForeignAppEntity_p_0
-description: NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntity p_0)
+﻿---
+title: crmscript_ref_NSForeignSystemAgent_SaveForeignAppEntity
+description: NSForeignAppEntity SaveForeignAppEntity(NSForeignAppEntity foreignAppEntity);
 intellisense: NSForeignSystemAgent.SaveForeignAppEntity
-sortOrder: 3755
-keywords: SaveForeignAppEntity(NSForeignAppEntity)
+keywords: NSForeignSystemAgent,SaveForeignAppEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSForeignAppEntity or creates a new NSForeignAppEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **foreignAppEntity** The NSForeignAppEntity to save.
 
+**Returns:** New or updated NSForeignAppEntity
 
-Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is empty
-
-
-
-* **foreignAppEntity:** The ForeignAppEntity that is saved
-* **Returns:** New or updated ForeignAppEntity
-
+```crmscript
+NSForeignSystem  agent;
+NSForeignAppEntity thing = agent.CreateDefaultForeignAppEntity();
+thing = agent.SaveForeignAppEntity(thing);
+```
 

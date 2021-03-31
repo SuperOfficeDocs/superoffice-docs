@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetRegisteredAssociateId_Integer_p_0
-description: NSFormEntity.SetRegisteredAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetRegisteredAssociateId
+description: NSFormEntity.SetRegisteredAssociateId(Integer registeredAssociateId)
 intellisense: NSFormEntity.SetRegisteredAssociateId
-sortOrder: 3821
-keywords: SetRegisteredAssociateId(Integer)
+keywords: NSFormEntity, GetRegisteredAssociateId
 so.topic: reference
 ---
 
-
 Registered by whom
 
-
-
-* **RegisteredAssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **registeredAssociateId** Integer
 

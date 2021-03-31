@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplateEntity_GetDocumentTemplateId
-description: NSDocumentTemplateEntity.GetDocumentTemplateId()
+description: Integer NSDocumentTemplateEntity.GetDocumentTemplateId()
 intellisense: NSDocumentTemplateEntity.GetDocumentTemplateId
-sortOrder: 2657
-keywords: GetDocumentTemplateId()
+keywords: NSDocumentTemplateEntity, GetDocumentTemplateId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

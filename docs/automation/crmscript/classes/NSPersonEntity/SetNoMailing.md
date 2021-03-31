@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetNoMailing_Bool_p_0
-description: NSPersonEntity.SetNoMailing(Bool p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetNoMailing
+description: NSPersonEntity.SetNoMailing(Bool noMailing)
 intellisense: NSPersonEntity.SetNoMailing
-keywords: SetNoMailing(Bool)
+keywords: NSPersonEntity, GetNoMailing
 so.topic: reference
 ---
 
-
 Spam filter. Indicates if this person should retrieve advertising.
 
-
-
-* **NoMailing:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **noMailing** Bool
 

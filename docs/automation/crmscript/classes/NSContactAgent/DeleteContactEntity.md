@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSContactAgent_DeleteContactEntity_Integer_p_0
-description: NSContactAgent.DeleteContactEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactAgent_DeleteContactEntity
+description: DeleteContactEntity(Integer contactEntity);
 intellisense: NSContactAgent.DeleteContactEntity
-sortOrder: 1824
-keywords: DeleteContactEntity(Integer)
+keywords: NSContactAgent,DeleteContactEntity
 so.topic: reference
 ---
 
+Deletes the NSContactEntity
+  
+**Parameters:**
+ - **contactEntityId** The identity of the ContactEntity to delete.
 
-Deletes the ContactEntity
-
-
-
-* **contactEntityId:** The identity of the ContactEntity
-
+```crmscript
+NSContactAgent agent;
+agent.DeleteContactEntity(123);
+```
 

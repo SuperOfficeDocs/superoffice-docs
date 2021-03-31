@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetDescription_String_p_0
-description: NSAppointment.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetDescription
+description: NSAppointment.SetDescription(String description)
 intellisense: NSAppointment.SetDescription
-sortOrder: 788
-keywords: SetDescription(String)
+keywords: NSAppointment, GetDescription
 so.topic: reference
 ---
 
-
 The appointment's textbox; holds a descriptive text about the appointment. Filled out by the user.
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

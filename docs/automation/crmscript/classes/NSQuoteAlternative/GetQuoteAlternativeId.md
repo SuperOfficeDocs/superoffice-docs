@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteAlternative_GetQuoteAlternativeId
-description: NSQuoteAlternative.GetQuoteAlternativeId()
+description: Integer NSQuoteAlternative.GetQuoteAlternativeId()
 intellisense: NSQuoteAlternative.GetQuoteAlternativeId
-keywords: GetQuoteAlternativeId()
+keywords: NSQuoteAlternative, GetQuoteAlternativeId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

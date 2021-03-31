@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSOperationInfo_SetEncodedDisplayName_String_p_0
-description: NSOperationInfo.SetEncodedDisplayName(String p_0)
+﻿---
+title: crmscript_ref_NSOperationInfo_SetEncodedDisplayName
+description: NSOperationInfo.SetEncodedDisplayName(String encodedDisplayName)
 intellisense: NSOperationInfo.SetEncodedDisplayName
-keywords: SetEncodedDisplayName(String)
+keywords: NSOperationInfo, GetEncodedDisplayName
 so.topic: reference
 ---
 
 
-* **EncodedDisplayName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **encodedDisplayName** String
 

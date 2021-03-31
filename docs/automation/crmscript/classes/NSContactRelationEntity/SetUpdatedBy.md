@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSContactRelationEntity_SetUpdatedBy_NSAssociate_p_0
-description: NSContactRelationEntity.SetUpdatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSContactRelationEntity_SetUpdatedBy
+description: NSContactRelationEntity.SetUpdatedBy(Associate updatedBy)
 intellisense: NSContactRelationEntity.SetUpdatedBy
-sortOrder: 1978
-keywords: SetUpdatedBy(NSAssociate)
+keywords: NSContactRelationEntity, GetUpdatedBy
 so.topic: reference
 ---
 
 
-* **UpdatedBy:** Associate
-* **Returns:** Associate
 
+**Parameter:** 
+ - **updatedBy** Associate
 

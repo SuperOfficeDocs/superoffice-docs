@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDashboardTile_SetVisibleFor_VisibleFor__p_0
-description: NSDashboardTile.SetVisibleFor(VisibleFor[] p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetVisibleFor
+description: NSDashboardTile.SetVisibleFor(VisibleForArray visibleFor)
 intellisense: NSDashboardTile.SetVisibleFor
-sortOrder: 2315
-keywords: SetVisibleFor(VisibleFor[])
+keywords: NSDashboardTile, SetVisibleFor
 so.topic: reference
 ---
 
+Set the usergroups and/or users the item is visible for.
 
-* **fields:** VisibleForArray
-* **Returns:** Void
-
+**Parameter:** 
+ - **visibleFor** VisibleForArray of one or more users + usergroups.
 

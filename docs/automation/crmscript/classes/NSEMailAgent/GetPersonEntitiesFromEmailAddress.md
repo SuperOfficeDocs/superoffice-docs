@@ -1,17 +1,12 @@
----
-title: crmscript_ref_NSEMailAgent_GetPersonEntitiesFromEmailAddress_String_p_0
-description: NSEMailAgent.GetPersonEntitiesFromEmailAddress(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_GetPersonEntitiesFromEmailAddress
+description: PersonEntityArray GetPersonEntitiesFromEmailAddress(String emailAddress)
 intellisense: NSEMailAgent.GetPersonEntitiesFromEmailAddress
-sortOrder: 2842
-keywords: GetPersonEntitiesFromEmailAddress(String)
+keywords: NSEMailAgent,GetPersonEntitiesFromEmailAddress
 so.topic: reference
 ---
 
-
 Get all persons and contacts with the given email address
 
-
-
-* **emailAddress:** The emailAddress to find persons and contacts fors
-
-
+**Parameters:**
+ - **emailAddress** The emailAddress to find persons and contacts for

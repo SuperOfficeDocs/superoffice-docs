@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetFilename_String_p_0
-description: NSExtAppEntity.SetFilename(String p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetFilename
+description: NSExtAppEntity.SetFilename(String filename)
 intellisense: NSExtAppEntity.SetFilename
-sortOrder: 3382
-keywords: SetFilename(String)
+keywords: NSExtAppEntity, GetFilename
 so.topic: reference
 ---
 
-
 Filename of the programfile
 
-
-
-* **Filename:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **filename** String
 

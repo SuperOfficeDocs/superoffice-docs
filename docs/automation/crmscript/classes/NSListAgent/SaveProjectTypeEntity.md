@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveProjectTypeEntity_NSProjectTypeEntity_p_0
-description: NSListAgent.SaveProjectTypeEntity(NSProjectTypeEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveProjectTypeEntity
+description: NSProjectTypeEntity SaveProjectTypeEntity(NSProjectTypeEntity projectTypeEntity);
 intellisense: NSListAgent.SaveProjectTypeEntity
-keywords: SaveProjectTypeEntity(NSProjectTypeEntity)
+keywords: NSListAgent,SaveProjectTypeEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSProjectTypeEntity or creates a new NSProjectTypeEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **projectTypeEntity** The NSProjectTypeEntity to save.
 
+**Returns:** New or updated NSProjectTypeEntity
 
-Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is empty
-
-
-
-* **projectTypeEntity:** The ProjectTypeEntity that is saved
-* **Returns:** New or updated ProjectTypeEntity
-
+```crmscript
+NSList  agent;
+NSProjectTypeEntity thing = agent.CreateDefaultProjectTypeEntity();
+thing = agent.SaveProjectTypeEntity(thing);
+```
 

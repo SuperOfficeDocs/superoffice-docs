@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPerson_GetCategoryName
-description: NSPerson.GetCategoryName()
+description: String NSPerson.GetCategoryName()
 intellisense: NSPerson.GetCategoryName
-keywords: GetCategoryName()
+keywords: NSPerson, GetCategoryName
 so.topic: reference
 ---
 
-
 The category list item name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,12 +1,17 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetDirection_Integer_p_0
-description: NSDocumentTemplateEntity.SetDirection(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetDirection
+description: NSDocumentTemplateEntity.SetDirection(DocTmplDirection direction)
 intellisense: NSDocumentTemplateEntity.SetDirection
-sortOrder: 2680
-keywords: SetDirection(Integer)
+keywords: NSDocumentTemplateEntity, GetDirection
 so.topic: reference
 ---
 
+1 = incoming, 2 = outgoing, see EAppntDirection
 
-
+**Parameter:** 
+ - **direction** DocTmplDirection
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Incoming 
+     - Enum: 2 = Outgoing 
+     - Enum: 3 = SaintAll 
 

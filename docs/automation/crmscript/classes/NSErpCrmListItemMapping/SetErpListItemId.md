@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpCrmListItemMapping_SetErpListItemId_String_p_0
-description: NSErpCrmListItemMapping.SetErpListItemId(String p_0)
+﻿---
+title: crmscript_ref_NSErpCrmListItemMapping_SetErpListItemId
+description: NSErpCrmListItemMapping.SetErpListItemId(String erpListItemId)
 intellisense: NSErpCrmListItemMapping.SetErpListItemId
-sortOrder: 3148
-keywords: SetErpListItemId(String)
+keywords: NSErpCrmListItemMapping, GetErpListItemId
 so.topic: reference
 ---
 
-
 One Erp listItem id
 
-
-
-* **ErpListItemId:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **erpListItemId** String
 

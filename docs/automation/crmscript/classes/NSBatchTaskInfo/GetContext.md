@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBatchTaskInfo_GetContext
-description: NSBatchTaskInfo.GetContext()
+description: String NSBatchTaskInfo.GetContext()
 intellisense: NSBatchTaskInfo.GetContext
-sortOrder: 1376
-keywords: GetContext()
+keywords: NSBatchTaskInfo, GetContext
 so.topic: reference
 ---
 
-
 Context for the executing task.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

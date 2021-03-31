@@ -1,12 +1,12 @@
----
-title: crmscript_ref_NSUserAgent_AddOwnerContact_Integer_p_0
-description: NSUserAgent.AddOwnerContact(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_AddOwnerContact
+description: Void AddOwnerContact(Integer contactId)
 intellisense: NSUserAgent.AddOwnerContact
-keywords: AddOwnerContact(Integer)
+keywords: NSUserAgent,AddOwnerContact
 so.topic: reference
 ---
 
 
-* **contactId:** Id of the contact to add as a owner contact
 
-
+**Parameters:**
+ - **contactId** Id of the contact to add as a owner contact

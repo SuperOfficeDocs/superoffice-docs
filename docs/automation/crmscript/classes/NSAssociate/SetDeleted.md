@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAssociate_SetDeleted_Bool_p_0
-description: NSAssociate.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSAssociate_SetDeleted
+description: NSAssociate.SetDeleted(Bool deleted)
 intellisense: NSAssociate.SetDeleted
-sortOrder: 1267
-keywords: SetDeleted(Bool)
+keywords: NSAssociate, GetDeleted
 so.topic: reference
 ---
 
-
 If true, the user is retired and should have no rights, not appear in lists, etc.
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuotePublishDocuments_SetQuoteAttachmentIds_Integer__p_0
-description: NSQuotePublishDocuments.SetQuoteAttachmentIds(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSQuotePublishDocuments_SetQuoteAttachmentIds
+description: NSQuotePublishDocuments.SetQuoteAttachmentIds(IntegerArray quoteAttachmentIds)
 intellisense: NSQuotePublishDocuments.SetQuoteAttachmentIds
-keywords: SetQuoteAttachmentIds(Integer[])
+keywords: NSQuotePublishDocuments, GetQuoteAttachmentIds
 so.topic: reference
 ---
 
-
 Array of id's of any attachments (standard + custom for this version)
 
-
-
-* **QuoteAttachmentIds:** IntegerArray
-* **Returns:** Void
-
+**Parameter:** 
+ - **quoteAttachmentIds** IntegerArray
 

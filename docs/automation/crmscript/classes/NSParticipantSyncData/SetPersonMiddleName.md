@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPersonMiddleName_String_p_0
-description: NSParticipantSyncData.SetPersonMiddleName(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPersonMiddleName
+description: NSParticipantSyncData.SetPersonMiddleName(String personMiddleName)
 intellisense: NSParticipantSyncData.SetPersonMiddleName
-keywords: SetPersonMiddleName(String)
+keywords: NSParticipantSyncData, GetPersonMiddleName
 so.topic: reference
 ---
 
-
 Middle name or 'van' etc.
 
-
-
-* **PersonMiddleName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personMiddleName** String
 

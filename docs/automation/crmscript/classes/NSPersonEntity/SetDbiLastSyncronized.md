@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetDbiLastSyncronized_DateTime_p_0
-description: NSPersonEntity.SetDbiLastSyncronized(DateTime p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetDbiLastSyncronized
+description: NSPersonEntity.SetDbiLastSyncronized(DateTime dbiLastSyncronized)
 intellisense: NSPersonEntity.SetDbiLastSyncronized
-keywords: SetDbiLastSyncronized(DateTime)
+keywords: NSPersonEntity, GetDbiLastSyncronized
 so.topic: reference
 ---
 
-
 Last external syncronization.
 
-
-
-* **DbiLastSyncronized:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **dbiLastSyncronized** DateTime
 

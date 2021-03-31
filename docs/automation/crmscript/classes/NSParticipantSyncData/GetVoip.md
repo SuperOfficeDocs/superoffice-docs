@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSParticipantSyncData_GetVoip
-description: NSParticipantSyncData.GetVoip()
+description: StringArray NSParticipantSyncData.GetVoip()
 intellisense: NSParticipantSyncData.GetVoip
-keywords: GetVoip()
+keywords: NSParticipantSyncData, GetVoip
 so.topic: reference
 ---
 
 
-* **Returns:** StringArray
+
+**Returns:** StringArray
 
 

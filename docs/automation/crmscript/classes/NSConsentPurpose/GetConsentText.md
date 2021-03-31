@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentPurpose_GetConsentText
-description: NSConsentPurpose.GetConsentText()
+description: String NSConsentPurpose.GetConsentText()
 intellisense: NSConsentPurpose.GetConsentText
-sortOrder: 1680
-keywords: GetConsentText()
+keywords: NSConsentPurpose, GetConsentText
 so.topic: reference
 ---
 
-
 Form text used for the actual checkbox
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

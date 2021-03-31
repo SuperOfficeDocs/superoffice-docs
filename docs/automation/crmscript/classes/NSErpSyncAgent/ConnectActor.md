@@ -1,22 +1,30 @@
----
-title: crmscript_ref_NSErpSyncAgent_ConnectActor_Integer_p_0_Integer_p_1_Integer_p_2_String_p_3_Integer_p_4_NSErpSyncFieldValue__p_5
-description: NSErpSyncAgent.ConnectActor(Integer p_0, Integer p_1, Integer p_2, String p_3, Integer p_4, NSErpSyncFieldValue[] p_5)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_ConnectActor
+description: Void ConnectActor(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType, ErpSyncFieldValueArray fieldValues)
 intellisense: NSErpSyncAgent.ConnectActor
-sortOrder: 3219
-keywords: ConnectActor(Integer,Integer,Integer,String,Integer,NSErpSyncFieldValue[])
+keywords: NSErpSyncAgent,ConnectActor
 so.topic: reference
 ---
 
-
 Create a link between Erp and Crm and set default values
 
-
-
-* **erpConnectionId:** ErpConnectionId
-* **crmRecordId:** CrmRecordId
-* **crmActorType:** The Crm Actor type
-* **erpKey
-\param** p4 erpActorType: The Erp Actor type
-* **fieldValues:** The Crm Fields
-
-
+**Parameters:**
+ - **erpConnectionId** ErpConnectionId
+ - **crmRecordId** CrmRecordId
+ - **crmActorType** The Crm Actor type
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Contact 
+     - Enum: 2 = Person 
+     - Enum: 3 = Project 
+     - Enum: 4 = Sale 
+ - **erpKey** 
+ - **erpActorType** The Erp Actor type
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Customer 
+     - Enum: 2 = Supplier 
+     - Enum: 3 = Partner 
+     - Enum: 4 = Person 
+     - Enum: 5 = Project 
+     - Enum: 6 = Employee 
+     - Enum: 7 = Sale 
+ - **fieldValues** The Crm Fields

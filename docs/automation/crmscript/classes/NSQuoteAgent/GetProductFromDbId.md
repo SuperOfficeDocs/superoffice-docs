@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_GetProductFromDbId_Integer_p_0
-description: NSQuoteAgent.GetProductFromDbId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_GetProductFromDbId
+description: Product GetProductFromDbId(Integer productId)
 intellisense: NSQuoteAgent.GetProductFromDbId
-keywords: GetProductFromDbId(Integer)
+keywords: NSQuoteAgent,GetProductFromDbId
 so.topic: reference
 ---
 
-
 Get a product with the given database id
 
+**Parameters:**
+ - **productId** The database id of the product
 
+**Returns:** The product info
 
-* **productId:** The database id of the product
-* **Returns:** The product info
-
+```crmscript
+NSQuoteAgent agent;
+Integer productId;
+Product res = agent.GetProductFromDbId(productId);
+```
 

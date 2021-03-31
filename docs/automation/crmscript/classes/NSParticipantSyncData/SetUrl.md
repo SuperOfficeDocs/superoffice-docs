@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetUrl_String__p_0
-description: NSParticipantSyncData.SetUrl(String[] p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetUrl
+description: NSParticipantSyncData.SetUrl(StringArray url)
 intellisense: NSParticipantSyncData.SetUrl
-keywords: SetUrl(String[])
+keywords: NSParticipantSyncData, GetUrl
 so.topic: reference
 ---
 
-
 The urls related to this person.
 
-
-
-* **Url:** StringArray
-* **Returns:** StringArray
-
+**Parameter:** 
+ - **url** StringArray
 

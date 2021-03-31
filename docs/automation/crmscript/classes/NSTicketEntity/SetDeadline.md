@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetDeadline_DateTime_p_0
-description: NSTicketEntity.SetDeadline(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetDeadline
+description: NSTicketEntity.SetDeadline(DateTime deadline)
 intellisense: NSTicketEntity.SetDeadline
-keywords: SetDeadline(DateTime)
+keywords: NSTicketEntity, GetDeadline
 so.topic: reference
 ---
 
-
 Deadline for ticket.
 
-
-
-* **Deadline:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **deadline** DateTime
 

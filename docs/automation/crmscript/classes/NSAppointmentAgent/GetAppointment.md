@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSAppointmentAgent_GetAppointment_Integer_p_0
-description: NSAppointmentAgent.GetAppointment(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_GetAppointment
+description: NSAppointment GetAppointment(Integer appointmentId);
 intellisense: NSAppointmentAgent.GetAppointment
-sortOrder: 834
-keywords: GetAppointment(Integer)
+keywords: NSAppointmentAgent,GetAppointment
 so.topic: reference
 ---
 
+Gets a NSAppointment object.
 
-Gets a Appointment object.
+**Parameters:**
+ - **appointmentId** The identifier of the NSAppointment object
 
+**Returns:** NSAppointment
 
-
-* **appointmentId:** The identifier of the Appointment object
-* **Returns:** Appointment
-
+```crmscript
+NSAppointmentAgent agent;
+NSAppointment thing = agent.GetAppointment(123);
+```
 

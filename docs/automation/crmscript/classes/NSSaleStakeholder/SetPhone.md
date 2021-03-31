@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetPhone_String_p_0
-description: NSSaleStakeholder.SetPhone(String p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetPhone
+description: NSSaleStakeholder.SetPhone(String phone)
 intellisense: NSSaleStakeholder.SetPhone
-keywords: SetPhone(String)
+keywords: NSSaleStakeholder, GetPhone
 so.topic: reference
 ---
 
-
 Phone number
 
-
-
-* **Phone:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **phone** String
 

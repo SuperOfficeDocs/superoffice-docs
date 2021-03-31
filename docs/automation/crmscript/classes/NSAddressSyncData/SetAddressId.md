@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAddressSyncData_SetAddressId_Integer_p_0
-description: NSAddressSyncData.SetAddressId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetAddressId
+description: NSAddressSyncData.SetAddressId(Integer addressId)
 intellisense: NSAddressSyncData.SetAddressId
-sortOrder: 632
-keywords: SetAddressId(Integer)
+keywords: NSAddressSyncData, GetAddressId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **AddressId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **addressId** Integer
 

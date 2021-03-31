@@ -1,19 +1,23 @@
----
-title: crmscript_ref_NSErpSyncAgent_ForceResync_Integer_p_0_Integer__p_1
-description: NSErpSyncAgent.ForceResync(Integer p_0, Integer[] p_1)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_ForceResync
+description: PluginResponse ForceResync(Integer erpConnectionId, IntegerArray internalKeyIds)
 intellisense: NSErpSyncAgent.ForceResync
-sortOrder: 3211
-keywords: ForceResync(Integer,Integer[])
+keywords: NSErpSyncAgent,ForceResync
 so.topic: reference
 ---
 
-
 Force resync from CRM or given Erp connection to all other connections
 
+**Parameters:**
+ - **erpConnectionId** If positive, resync from the given erp connection
+ - **internalKeyIds** The internal keys of the entities to resync, or empty to resync all
 
+**Returns:** The response
 
-* **erpConnectionId:** If positive, resync from the given erp connection
-* **internalKeyIds:** The internal keys of the entities to resync, or empty to resync all
-* **Returns:** The response
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+IntegerArray internalKeyIds;
+PluginResponse res = agent.ForceResync(erpConnectionId, internalKeyIds);
+```
 

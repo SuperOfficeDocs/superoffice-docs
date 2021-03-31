@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBlobEntity_SetBlobId_Integer_p_0
-description: NSBlobEntity.SetBlobId(Integer p_0)
+﻿---
+title: crmscript_ref_NSBlobEntity_SetBlobId
+description: NSBlobEntity.SetBlobId(Integer blobId)
 intellisense: NSBlobEntity.SetBlobId
-sortOrder: 1453
-keywords: SetBlobId(Integer)
+keywords: NSBlobEntity, GetBlobId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **BlobId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **blobId** Integer
 

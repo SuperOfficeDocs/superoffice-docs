@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProject_SetPublishFrom_DateTime_p_0
-description: NSProject.SetPublishFrom(DateTime p_0)
+﻿---
+title: crmscript_ref_NSProject_SetPublishFrom
+description: NSProject.SetPublishFrom(DateTime publishFrom)
 intellisense: NSProject.SetPublishFrom
-keywords: SetPublishFrom(DateTime)
+keywords: NSProject, GetPublishFrom
 so.topic: reference
 ---
 
-
 Publication valid from (inclusive)
 
-
-
-* **PublishFrom:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **publishFrom** DateTime
 

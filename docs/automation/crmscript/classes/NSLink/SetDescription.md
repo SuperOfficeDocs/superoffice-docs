@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLink_SetDescription_String_p_0
-description: NSLink.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSLink_SetDescription
+description: NSLink.SetDescription(String description)
 intellisense: NSLink.SetDescription
-keywords: SetDescription(String)
+keywords: NSLink, GetDescription
 so.topic: reference
 ---
 
-
 Link description.
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

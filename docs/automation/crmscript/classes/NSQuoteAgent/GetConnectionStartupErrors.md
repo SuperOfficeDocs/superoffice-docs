@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSQuoteAgent_GetConnectionStartupErrors
-description: NSQuoteAgent.GetConnectionStartupErrors()
+description: PluginResponseArray GetConnectionStartupErrors()
 intellisense: NSQuoteAgent.GetConnectionStartupErrors
-keywords: GetConnectionStartupErrors()
+keywords: NSQuoteAgent,GetConnectionStartupErrors
 so.topic: reference
 ---
-
 
 Returns an array of PluginResponseInfos for all failed connection initializations.
 
 
+**Returns:** Array of PluginResponseInfos for each failed connection initialization.
 
-* **Returns:** Array of PluginResponseInfos for each failed connection initialization.
-
+```crmscript
+NSQuoteAgent agent;
+PluginResponseArray res = agent.GetConnectionStartupErrors();
+```
 

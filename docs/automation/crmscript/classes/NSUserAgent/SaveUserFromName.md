@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSUserAgent_SaveUserFromName_String_p_0_NSUser_p_1
-description: NSUserAgent.SaveUserFromName(String p_0, NSUser p_1)
+﻿---
+title: crmscript_ref_NSUserAgent_SaveUserFromName
+description: User SaveUserFromName(String userName, User user)
 intellisense: NSUserAgent.SaveUserFromName
-keywords: SaveUserFromName(String,NSUser)
+keywords: NSUserAgent,SaveUserFromName
 so.topic: reference
 ---
 
-
 Save a user, with lookup based on the user name.
 
+**Parameters:**
+ - **userName** User name of the user to get.
+ - **user** User object to save.
 
+**Returns:** User retrieved by name
 
-* **userName:** User name of the user to get.
-* **user:** User object to save.
-* **Returns:** User retrieved by name
-
+```crmscript
+NSUserAgent agent;
+String userName;
+User user;
+User res = agent.SaveUserFromName(userName, user);
+```
 

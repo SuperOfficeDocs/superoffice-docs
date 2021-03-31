@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetDescription
-description: NSAppointmentEntity.GetDescription()
+description: String NSAppointmentEntity.GetDescription()
 intellisense: NSAppointmentEntity.GetDescription
-sortOrder: 973
-keywords: GetDescription()
+keywords: NSAppointmentEntity, GetDescription
 so.topic: reference
 ---
 
-
 Description of the appointment.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

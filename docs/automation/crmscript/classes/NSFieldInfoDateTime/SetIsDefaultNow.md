@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoDateTime_SetIsDefaultNow_Bool_p_0
-description: NSFieldInfoDateTime.SetIsDefaultNow(Bool p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoDateTime_SetIsDefaultNow
+description: NSFieldInfoDateTime.SetIsDefaultNow(Bool isDefaultNow)
 intellisense: NSFieldInfoDateTime.SetIsDefaultNow
-sortOrder: 3502
-keywords: SetIsDefaultNow(Bool)
+keywords: NSFieldInfoDateTime, GetIsDefaultNow
 so.topic: reference
 ---
 
-
 Should the current date + time be the default?
 
-
-
-* **IsDefaultNow:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isDefaultNow** Bool
 

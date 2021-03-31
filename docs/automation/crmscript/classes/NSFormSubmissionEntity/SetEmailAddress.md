@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormSubmissionEntity_SetEmailAddress_String_p_0
-description: NSFormSubmissionEntity.SetEmailAddress(String p_0)
+﻿---
+title: crmscript_ref_NSFormSubmissionEntity_SetEmailAddress
+description: NSFormSubmissionEntity.SetEmailAddress(String emailAddress)
 intellisense: NSFormSubmissionEntity.SetEmailAddress
-sortOrder: 3841
-keywords: SetEmailAddress(String)
+keywords: NSFormSubmissionEntity, GetEmailAddress
 so.topic: reference
 ---
 
-
 The email address of the person who submitted
 
-
-
-* **EmailAddress:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **emailAddress** String
 

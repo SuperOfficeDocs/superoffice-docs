@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveCountry_NSCountry_p_0
-description: NSListAgent.SaveCountry(NSCountry p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveCountry
+description: Country SaveCountry(Country country)
 intellisense: NSListAgent.SaveCountry
-keywords: SaveCountry(NSCountry)
+keywords: NSListAgent,SaveCountry
 so.topic: reference
 ---
 
-
 Saves a country
 
+**Parameters:**
+ - **country** The country to save
 
+**Returns:** The country that is saved
 
-* **country:** The country to save
-* **Returns:** The country that is saved
-
+```crmscript
+NSListAgent agent;
+Country country;
+Country res = agent.SaveCountry(country);
+```
 

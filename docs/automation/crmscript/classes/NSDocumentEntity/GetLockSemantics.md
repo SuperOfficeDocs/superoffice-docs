@@ -1,13 +1,16 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetLockSemantics
-description: NSDocumentEntity.GetLockSemantics()
+description: Integer NSDocumentEntity.GetLockSemantics()
 intellisense: NSDocumentEntity.GetLockSemantics
-sortOrder: 2561
-keywords: GetLockSemantics()
+keywords: NSDocumentEntity, GetLockSemantics
 so.topic: reference
 ---
 
 
-* **Returns:** Integer
 
+**Returns:** Integer
+
+     - Enum: 0 = None 
+     - Enum: 1 = Locking 
+     - Enum: 2 = Versioning 
 

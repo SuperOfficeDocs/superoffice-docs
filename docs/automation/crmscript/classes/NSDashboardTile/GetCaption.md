@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTile_GetCaption
-description: NSDashboardTile.GetCaption()
+description: String NSDashboardTile.GetCaption()
 intellisense: NSDashboardTile.GetCaption
-sortOrder: 2296
-keywords: GetCaption()
+keywords: NSDashboardTile, GetCaption
 so.topic: reference
 ---
 
-
 The tile caption
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

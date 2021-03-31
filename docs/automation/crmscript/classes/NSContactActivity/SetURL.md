@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactActivity_SetURL_String_p_0
-description: NSContactActivity.SetURL(String p_0)
+﻿---
+title: crmscript_ref_NSContactActivity_SetURL
+description: NSContactActivity.SetURL(String uRL)
 intellisense: NSContactActivity.SetURL
-sortOrder: 1793
-keywords: SetURL(String)
+keywords: NSContactActivity, GetURL
 so.topic: reference
 ---
 
-
 URL address
 
-
-
-* **URL:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **uRL** String
 

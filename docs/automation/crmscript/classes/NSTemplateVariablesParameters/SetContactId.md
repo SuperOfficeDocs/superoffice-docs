@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTemplateVariablesParameters_SetContactId_Integer_p_0
-description: NSTemplateVariablesParameters.SetContactId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTemplateVariablesParameters_SetContactId
+description: NSTemplateVariablesParameters.SetContactId(Integer contactId)
 intellisense: NSTemplateVariablesParameters.SetContactId
-keywords: SetContactId(Integer)
+keywords: NSTemplateVariablesParameters, GetContactId
 so.topic: reference
 ---
 
-
 Identifier for a contact
 
-
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **contactId** Integer
 

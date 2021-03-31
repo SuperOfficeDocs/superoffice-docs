@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSQuoteAgent_GetInUseQuoteLineConfigurations
-description: NSQuoteAgent.GetInUseQuoteLineConfigurations()
+description: QuoteLineConfigurationArray GetInUseQuoteLineConfigurations()
 intellisense: NSQuoteAgent.GetInUseQuoteLineConfigurations
-keywords: GetInUseQuoteLineConfigurations()
+keywords: NSQuoteAgent,GetInUseQuoteLineConfigurations
 so.topic: reference
 ---
-
 
 Returns the configuration fields that should be visible in the GUI.
 
 
+**Returns:** Array of QuoteLineConfigurations
 
-* **Returns:** Array of QuoteLineConfigurations
-
+```crmscript
+NSQuoteAgent agent;
+QuoteLineConfigurationArray res = agent.GetInUseQuoteLineConfigurations();
+```
 

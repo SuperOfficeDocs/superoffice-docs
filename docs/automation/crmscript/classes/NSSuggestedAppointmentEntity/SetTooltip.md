@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointmentEntity_SetTooltip_String_p_0
-description: NSSuggestedAppointmentEntity.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointmentEntity_SetTooltip
+description: NSSuggestedAppointmentEntity.SetTooltip(String tooltip)
 intellisense: NSSuggestedAppointmentEntity.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSSuggestedAppointmentEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip / description
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

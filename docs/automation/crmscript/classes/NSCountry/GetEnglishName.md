@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCountry_GetEnglishName
-description: NSCountry.GetEnglishName()
+description: String NSCountry.GetEnglishName()
 intellisense: NSCountry.GetEnglishName
-sortOrder: 2021
-keywords: GetEnglishName()
+keywords: NSCountry, GetEnglishName
 so.topic: reference
 ---
 
-
 Name of country in english
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

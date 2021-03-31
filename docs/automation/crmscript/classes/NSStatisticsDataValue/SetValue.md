@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatisticsDataValue_SetValue_Float_p_0
-description: NSStatisticsDataValue.SetValue(Float p_0)
+﻿---
+title: crmscript_ref_NSStatisticsDataValue_SetValue
+description: NSStatisticsDataValue.SetValue(Float value)
 intellisense: NSStatisticsDataValue.SetValue
-keywords: SetValue(Float)
+keywords: NSStatisticsDataValue, GetValue
 so.topic: reference
 ---
 
-
 The value for the data value
 
-
-
-* **Value:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **value** Float
 

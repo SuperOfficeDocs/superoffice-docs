@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSHeadingEntity_SetName_String_p_0
-description: NSHeadingEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSHeadingEntity_SetName
+description: NSHeadingEntity.SetName(String name)
 intellisense: NSHeadingEntity.SetName
-sortOrder: 3920
-keywords: SetName(String)
+keywords: NSHeadingEntity, GetName
 so.topic: reference
 ---
 
-
 The visible heading
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSMDOAgent_GetSelectableSimpleList_String_p_0
-description: NSMDOAgent.GetSelectableSimpleList(String p_0)
+﻿---
+title: crmscript_ref_NSMDOAgent_GetSelectableSimpleList
+description: SelectableMDOListItemArray GetSelectableSimpleList(String name)
 intellisense: NSMDOAgent.GetSelectableSimpleList
-keywords: GetSelectableSimpleList(String)
+keywords: NSMDOAgent,GetSelectableSimpleList
 so.topic: reference
 ---
 
-
 Method returns a flat Selectable MDO List.
 
+**Parameters:**
+ - **name** Conceptual name of the MDO list
 
+**Returns:** Array of SelectableMDOListItem
 
-* **name:** Conceptual name of the MDO list
-* **Returns:** Array of SelectableMDOListItem
-
+```crmscript
+NSMDOAgent agent;
+String name;
+SelectableMDOListItemArray res = agent.GetSelectableSimpleList(name);
+```
 

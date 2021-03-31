@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProject_SetTextId_Integer_p_0
-description: NSProject.SetTextId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProject_SetTextId
+description: NSProject.SetTextId(Integer textId)
 intellisense: NSProject.SetTextId
-keywords: SetTextId(Integer)
+keywords: NSProject, GetTextId
 so.topic: reference
 ---
 
-
 The id of the description
 
-
-
-* **TextId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **textId** Integer
 

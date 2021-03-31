@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSUserAgent_CreateDefaultUser
-description: NSUserAgent.CreateDefaultUser()
+description: NSUser CreateDefaultUser()
 intellisense: NSUserAgent.CreateDefaultUser
-keywords: CreateDefaultUser()
+keywords: NSUserAgent,CreateDefaultUser
 so.topic: reference
 ---
+	  
+Set default values into a new NSUser.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSUser with default values.
 
-
-Loading default values into a new User.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New User with default values
-
+```crmscript
+NSUserAgent agent;
+NSUser thing = agent.CreateDefaultUser();
+thing = agent.SaveUser(thing);
+```
 

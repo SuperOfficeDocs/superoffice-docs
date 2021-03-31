@@ -1,0 +1,13 @@
+﻿---
+title: crmscript_ref_NSChatWidgetSettings_GetPostTranscriptEnabled
+description: Bool NSChatWidgetSettings.GetPostTranscriptEnabled()
+intellisense: NSChatWidgetSettings.GetPostTranscriptEnabled
+keywords: NSChatWidgetSettings, GetPostTranscriptEnabled
+so.topic: reference
+---
+
+Enable transcript of chat session
+
+**Returns:** Bool
+
+

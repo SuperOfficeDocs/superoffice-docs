@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptEntity_GetRegisteredAssociateId
-description: NSCRMScriptEntity.GetRegisteredAssociateId()
+description: Integer NSCRMScriptEntity.GetRegisteredAssociateId()
 intellisense: NSCRMScriptEntity.GetRegisteredAssociateId
-sortOrder: 2131
-keywords: GetRegisteredAssociateId()
+keywords: NSCRMScriptEntity, GetRegisteredAssociateId
 so.topic: reference
 ---
 
-
 Registered by whom
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

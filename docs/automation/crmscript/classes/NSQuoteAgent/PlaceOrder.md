@@ -1,21 +1,29 @@
----
-title: crmscript_ref_NSQuoteAgent_PlaceOrder_Integer_p_0_Bool_p_1_String_p_2_String_p_3_String_p_4
-description: NSQuoteAgent.PlaceOrder(Integer p_0, Bool p_1, String p_2, String p_3, String p_4)
+﻿---
+title: crmscript_ref_NSQuoteAgent_PlaceOrder
+description: PluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleAsSold, String poNumber, String orderComment, String culture)
 intellisense: NSQuoteAgent.PlaceOrder
-keywords: PlaceOrder(Integer,Bool,String,String,String)
+keywords: NSQuoteAgent,PlaceOrder
 so.topic: reference
 ---
 
-
 Place an order in the ERP system.
 
+**Parameters:**
+ - **quoteAlternativeId** Id of the alternative to place the order on.
+ - **markSaleAsSold** Should the state of the owning Sale be set to sold
+ - **poNumber** Purchase order number, saved to Quote record
+ - **orderComment** Order comment, saved to Quote record
+ - **culture** Desired culture for email body and other culture-sensitive templates/content
 
+**Returns:** Status for the placed order.
 
-* **quoteAlternativeId:** Id of the alternative to place the order on.
-* **markSaleAsSold:** Should the state of the owning Sale be set to sold
-* **poNumber:** Purchase order number, saved to Quote record
-* **orderComment:** Order comment, saved to Quote record
-* **culture:** Desired culture for email body and other culture-sensitive templates/content
-* **Returns:** Status for the placed order.
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteAlternativeId;
+Bool markSaleAsSold;
+String poNumber;
+String orderComment;
+String culture;
+PluginUrlResponse res = agent.PlaceOrder(quoteAlternativeId, markSaleAsSold, poNumber, orderComment, culture);
+```
 

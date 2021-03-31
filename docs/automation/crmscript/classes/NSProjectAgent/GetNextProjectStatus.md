@@ -1,12 +1,12 @@
----
-title: crmscript_ref_NSProjectAgent_GetNextProjectStatus_Integer_p_0
-description: NSProjectAgent.GetNextProjectStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_GetNextProjectStatus
+description: Integer GetNextProjectStatus(Integer projectId)
 intellisense: NSProjectAgent.GetNextProjectStatus
-keywords: GetNextProjectStatus(Integer)
+keywords: NSProjectAgent,GetNextProjectStatus
 so.topic: reference
 ---
 
 
-* **projectId**
 
-
+**Parameters:**
+ - **projectId** 

@@ -1,17 +1,12 @@
----
-title: crmscript_ref_NSEMailAgent_MoveEmailsToTrash_Integer__p_0
-description: NSEMailAgent.MoveEmailsToTrash(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_MoveEmailsToTrash
+description: Void MoveEmailsToTrash(IntegerArray ids)
 intellisense: NSEMailAgent.MoveEmailsToTrash
-sortOrder: 2864
-keywords: MoveEmailsToTrash(Integer[])
+keywords: NSEMailAgent,MoveEmailsToTrash
 so.topic: reference
 ---
 
-
 Delete specified mail items and move to the Trash folder
 
-
-
-* **ids:** The e-mails to handle
-
-
+**Parameters:**
+ - **ids** The e-mails to handle

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetEmailSubject_String_p_0
-description: NSDocumentTemplateEntity.SetEmailSubject(String p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetEmailSubject
+description: NSDocumentTemplateEntity.SetEmailSubject(String emailSubject)
 intellisense: NSDocumentTemplateEntity.SetEmailSubject
-sortOrder: 2684
-keywords: SetEmailSubject(String)
+keywords: NSDocumentTemplateEntity, GetEmailSubject
 so.topic: reference
 ---
 
-
 Subject to use if document template is an email.
 
-
-
-* **EmailSubject:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **emailSubject** String
 

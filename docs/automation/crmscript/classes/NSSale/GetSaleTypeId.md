@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSale_GetSaleTypeId
-description: NSSale.GetSaleTypeId()
+description: Integer NSSale.GetSaleTypeId()
 intellisense: NSSale.GetSaleTypeId
-keywords: GetSaleTypeId()
+keywords: NSSale, GetSaleTypeId
 so.topic: reference
 ---
 
-
 The sale's type id
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicense_SetSignature_String_p_0
-description: NSModuleLicense.SetSignature(String p_0)
+﻿---
+title: crmscript_ref_NSModuleLicense_SetSignature
+description: NSModuleLicense.SetSignature(String signature)
 intellisense: NSModuleLicense.SetSignature
-keywords: SetSignature(String)
+keywords: NSModuleLicense, GetSignature
 so.topic: reference
 ---
 
-
 Signature that verifies that this row is correctly transferred from SuperLicense
 
-
-
-* **Signature:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **signature** String
 

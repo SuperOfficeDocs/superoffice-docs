@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSProjectStatus_GetTooltip
-description: NSProjectStatus.GetTooltip()
+description: String NSProjectStatus.GetTooltip()
 intellisense: NSProjectStatus.GetTooltip
-keywords: GetTooltip()
+keywords: NSProjectStatus, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

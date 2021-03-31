@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteListItem_SetDisplayDescription_String_p_0
-description: NSQuoteListItem.SetDisplayDescription(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteListItem_SetDisplayDescription
+description: NSQuoteListItem.SetDisplayDescription(String displayDescription)
 intellisense: NSQuoteListItem.SetDisplayDescription
-keywords: SetDisplayDescription(String)
+keywords: NSQuoteListItem, GetDisplayDescription
 so.topic: reference
 ---
 
-
 Typically used in a tooltip.
 
-
-
-* **DisplayDescription:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayDescription** String
 

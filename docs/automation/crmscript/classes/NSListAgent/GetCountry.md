@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetCountry_Integer_p_0
-description: NSListAgent.GetCountry(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCountry
+description: NSCountry GetCountry(Integer countryId);
 intellisense: NSListAgent.GetCountry
-keywords: GetCountry(Integer)
+keywords: NSListAgent,GetCountry
 so.topic: reference
 ---
 
+Gets a NSCountry object.
 
-Gets a Country object.
+**Parameters:**
+ - **countryId** The identifier of the NSCountry object
 
+**Returns:** NSCountry
 
-
-* **countryId:** The identifier of the Country object
-* **Returns:** Country
-
+```crmscript
+NSListAgent agent;
+NSCountry thing = agent.GetCountry(123);
+```
 

@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentAgent_GetMyPublishedAppointments
-description: NSAppointmentAgent.GetMyPublishedAppointments()
+description: AppointmentArray GetMyPublishedAppointments()
 intellisense: NSAppointmentAgent.GetMyPublishedAppointments
-sortOrder: 850
-keywords: GetMyPublishedAppointments()
+keywords: NSAppointmentAgent,GetMyPublishedAppointments
 so.topic: reference
 ---
-
 
 Get published appointments from the logged in user.
 
 
+**Returns:** Appointments
 
-* **Returns:** Appointments
-
+```crmscript
+NSAppointmentAgent agent;
+AppointmentArray res = agent.GetMyPublishedAppointments();
+```
 

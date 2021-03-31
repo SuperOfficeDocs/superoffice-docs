@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormSubmissionEntity_SetFormId_Integer_p_0
-description: NSFormSubmissionEntity.SetFormId(Integer p_0)
+﻿---
+title: crmscript_ref_NSFormSubmissionEntity_SetFormId
+description: NSFormSubmissionEntity.SetFormId(Integer formId)
 intellisense: NSFormSubmissionEntity.SetFormId
-sortOrder: 3842
-keywords: SetFormId(Integer)
+keywords: NSFormSubmissionEntity, GetFormId
 so.topic: reference
 ---
 
-
 The id of the parent form.
 
-
-
-* **FormId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **formId** Integer
 

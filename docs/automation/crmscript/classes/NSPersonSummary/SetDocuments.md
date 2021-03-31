@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonSummary_SetDocuments_NSActivitySummaryItem__p_0
-description: NSPersonSummary.SetDocuments(NSActivitySummaryItem[] p_0)
+﻿---
+title: crmscript_ref_NSPersonSummary_SetDocuments
+description: NSPersonSummary.SetDocuments(ActivitySummaryItemArray documents)
 intellisense: NSPersonSummary.SetDocuments
-keywords: SetDocuments(NSActivitySummaryItem[])
+keywords: NSPersonSummary, GetDocuments
 so.topic: reference
 ---
 
-
 Recent documents on person
 
-
-
-* **Documents:** ActivitySummaryItemArray
-* **Returns:** ActivitySummaryItemArray
-
+**Parameter:** 
+ - **documents** ActivitySummaryItemArray
 

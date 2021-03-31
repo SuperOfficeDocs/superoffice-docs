@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveConfiguration_GetArchiveEntityInfo
-description: NSArchiveConfiguration.GetArchiveEntityInfo()
+description: SelectableMDOListItemArray NSArchiveConfiguration.GetArchiveEntityInfo()
 intellisense: NSArchiveConfiguration.GetArchiveEntityInfo
-sortOrder: 1170
-keywords: GetArchiveEntityInfo()
+keywords: NSArchiveConfiguration, GetArchiveEntityInfo
 so.topic: reference
 ---
 
 
-* **Returns:** SelectableMDOListItemArray
+
+**Returns:** SelectableMDOListItemArray
 
 

@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSelectionCategory_SetTooltip_String_p_0
-description: NSSelectionCategory.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSSelectionCategory_SetTooltip
+description: NSSelectionCategory.SetTooltip(String tooltip)
 intellisense: NSSelectionCategory.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSSelectionCategory, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

@@ -1,19 +1,25 @@
----
-title: crmscript_ref_NSSentryAgent_GetTableRightByOwnership_String_p_0_Integer_p_1_Integer_p_2
-description: NSSentryAgent.GetTableRightByOwnership(String p_0, Integer p_1, Integer p_2)
+﻿---
+title: crmscript_ref_NSSentryAgent_GetTableRightByOwnership
+description: TableRight GetTableRightByOwnership(String tableName, Integer contactGroupId, Integer contactAssociateId)
 intellisense: NSSentryAgent.GetTableRightByOwnership
-keywords: GetTableRightByOwnership(String,Integer,Integer)
+keywords: NSSentryAgent,GetTableRightByOwnership
 so.topic: reference
 ---
 
-
 Return the TableRight from the relationship between the current user and the given user and group.
 
+**Parameters:**
+ - **tableName** Name of the table to get the TableRights from.
+ - **contactGroupId** The user-group that the associate id is part of.
+ - **contactAssociateId** The associate id of the owner of the record
 
+**Returns:** The TableRight
 
-* **tableName:** Name of the table to get the TableRights from.
-* **contactGroupId:** The user-group that the associate id is part of.
-* **contactAssociateId:** The associate id of the owner of the record
-* **Returns:** The TableRight
-
+```crmscript
+NSSentryAgent agent;
+String tableName;
+Integer contactGroupId;
+Integer contactAssociateId;
+TableRight res = agent.GetTableRightByOwnership(tableName, contactGroupId, contactAssociateId);
+```
 

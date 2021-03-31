@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSVisibleFor_SetDisplayValue_String_p_0
-description: NSVisibleFor.SetDisplayValue(String p_0)
+﻿---
+title: crmscript_ref_NSVisibleFor_SetDisplayValue
+description: NSVisibleFor.SetDisplayValue(String displayValue)
 intellisense: NSVisibleFor.SetDisplayValue
-keywords: SetDisplayValue(String)
+keywords: NSVisibleFor, GetDisplayValue
 so.topic: reference
 ---
 
 
-* **DisplayValue:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **displayValue** String
 

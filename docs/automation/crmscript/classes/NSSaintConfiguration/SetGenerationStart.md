@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaintConfiguration_SetGenerationStart_DateTime_p_0
-description: NSSaintConfiguration.SetGenerationStart(DateTime p_0)
+﻿---
+title: crmscript_ref_NSSaintConfiguration_SetGenerationStart
+description: NSSaintConfiguration.SetGenerationStart(DateTime generationStart)
 intellisense: NSSaintConfiguration.SetGenerationStart
-keywords: SetGenerationStart(DateTime)
+keywords: NSSaintConfiguration, GetGenerationStart
 so.topic: reference
 ---
 
-
 When was the last regeneration started
 
-
-
-* **GenerationStart:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **generationStart** DateTime
 

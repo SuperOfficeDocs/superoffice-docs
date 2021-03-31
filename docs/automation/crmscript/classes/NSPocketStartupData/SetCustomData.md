@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketStartupData_SetCustomData_String_p_0
-description: NSPocketStartupData.SetCustomData(String p_0)
+﻿---
+title: crmscript_ref_NSPocketStartupData_SetCustomData
+description: NSPocketStartupData.SetCustomData(String customData)
 intellisense: NSPocketStartupData.SetCustomData
-keywords: SetCustomData(String)
+keywords: NSPocketStartupData, GetCustomData
 so.topic: reference
 ---
 
-
 Custom data for Pocket, in JSON format
 
-
-
-* **CustomData:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **customData** String
 

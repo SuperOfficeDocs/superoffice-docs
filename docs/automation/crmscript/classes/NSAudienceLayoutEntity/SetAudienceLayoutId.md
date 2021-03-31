@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAudienceLayoutEntity_SetAudienceLayoutId_Integer_p_0
-description: NSAudienceLayoutEntity.SetAudienceLayoutId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAudienceLayoutEntity_SetAudienceLayoutId
+description: NSAudienceLayoutEntity.SetAudienceLayoutId(Integer audienceLayoutId)
 intellisense: NSAudienceLayoutEntity.SetAudienceLayoutId
-sortOrder: 1342
-keywords: SetAudienceLayoutId(Integer)
+keywords: NSAudienceLayoutEntity, GetAudienceLayoutId
 so.topic: reference
 ---
 
-
 The Id of the Audience layout
 
-
-
-* **AudienceLayoutId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **audienceLayoutId** Integer
 

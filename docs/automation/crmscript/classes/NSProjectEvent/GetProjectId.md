@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEvent_GetProjectId
-description: NSProjectEvent.GetProjectId()
+description: Integer NSProjectEvent.GetProjectId()
 intellisense: NSProjectEvent.GetProjectId
-keywords: GetProjectId()
+keywords: NSProjectEvent, GetProjectId
 so.topic: reference
 ---
 
-
 Id of the project that represents the event
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

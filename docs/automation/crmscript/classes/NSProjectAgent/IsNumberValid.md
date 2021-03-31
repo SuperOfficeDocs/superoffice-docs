@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSProjectAgent_IsNumberValid_Integer_p_0_String_p_1
-description: NSProjectAgent.IsNumberValid(Integer p_0, String p_1)
+﻿---
+title: crmscript_ref_NSProjectAgent_IsNumberValid
+description: Bool IsNumberValid(Integer contactId, String number)
 intellisense: NSProjectAgent.IsNumberValid
-keywords: IsNumberValid(Integer,String)
+keywords: NSProjectAgent,IsNumberValid
 so.topic: reference
 ---
 
-
 Checks if the number is unique or required.  The setting is configured from admin under system options.
 
+**Parameters:**
+ - **contactId** The Project id
+ - **number** The number to check for uniqueness and validity
 
+**Returns:** True if the number is valid
 
-* **contactId:** The Project id
-* **number:** The number to check for uniqueness and validity
-* **Returns:** True if the number is valid
-
+```crmscript
+NSProjectAgent agent;
+Integer contactId;
+String number;
+Bool res = agent.IsNumberValid(contactId, number);
+```
 

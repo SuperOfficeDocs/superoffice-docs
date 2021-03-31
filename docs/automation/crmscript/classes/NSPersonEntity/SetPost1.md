@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetPost1_String_p_0
-description: NSPersonEntity.SetPost1(String p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetPost1
+description: NSPersonEntity.SetPost1(String post1)
 intellisense: NSPersonEntity.SetPost1
-keywords: SetPost1(String)
+keywords: NSPersonEntity, GetPost1
 so.topic: reference
 ---
 
-
 Postal address, used in Japanese versions only
 
-
-
-* **Post1:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **post1** String
 

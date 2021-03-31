@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAssociate_GetRank
-description: NSAssociate.GetRank()
+description: Integer NSAssociate.GetRank()
 intellisense: NSAssociate.GetRank
-sortOrder: 1259
-keywords: GetRank()
+keywords: NSAssociate, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

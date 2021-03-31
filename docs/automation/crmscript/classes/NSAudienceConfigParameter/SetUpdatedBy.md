@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAudienceConfigParameter_SetUpdatedBy_String_p_0
-description: NSAudienceConfigParameter.SetUpdatedBy(String p_0)
+﻿---
+title: crmscript_ref_NSAudienceConfigParameter_SetUpdatedBy
+description: NSAudienceConfigParameter.SetUpdatedBy(String updatedBy)
 intellisense: NSAudienceConfigParameter.SetUpdatedBy
-sortOrder: 1330
-keywords: SetUpdatedBy(String)
+keywords: NSAudienceConfigParameter, GetUpdatedBy
 so.topic: reference
 ---
 
-
 Name of the person that last updated the configuration parameter
 
-
-
-* **UpdatedBy:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **updatedBy** String
 

@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetSaleType
-description: NSSaleEntity.GetSaleType()
+description: SaleType NSSaleEntity.GetSaleType()
 intellisense: NSSaleEntity.GetSaleType
-keywords: GetSaleType()
+keywords: NSSaleEntity, GetSaleType
 so.topic: reference
 ---
 
 
-* **Returns:** SaleType
+
+**Returns:** SaleType
 
 

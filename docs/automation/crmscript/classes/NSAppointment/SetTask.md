@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetTask_String_p_0
-description: NSAppointment.SetTask(String p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetTask
+description: NSAppointment.SetTask(String task)
 intellisense: NSAppointment.SetTask
-sortOrder: 818
-keywords: SetTask(String)
+keywords: NSAppointment, GetTask
 so.topic: reference
 ---
 
-
 Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.
 
-
-
-* **Task:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **task** String
 

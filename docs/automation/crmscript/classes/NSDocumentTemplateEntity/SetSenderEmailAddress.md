@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetSenderEmailAddress_String_p_0
-description: NSDocumentTemplateEntity.SetSenderEmailAddress(String p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetSenderEmailAddress
+description: NSDocumentTemplateEntity.SetSenderEmailAddress(String senderEmailAddress)
 intellisense: NSDocumentTemplateEntity.SetSenderEmailAddress
-sortOrder: 2700
-keywords: SetSenderEmailAddress(String)
+keywords: NSDocumentTemplateEntity, GetSenderEmailAddress
 so.topic: reference
 ---
 
-
 If email template, default senderaddress when template is of type quote email or privacy email.
 
-
-
-* **SenderEmailAddress:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **senderEmailAddress** String
 

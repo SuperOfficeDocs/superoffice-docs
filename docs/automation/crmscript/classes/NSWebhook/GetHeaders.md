@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebhook_GetHeaders
-description: NSWebhook.GetHeaders()
+description: StringDictionary NSWebhook.GetHeaders()
 intellisense: NSWebhook.GetHeaders
-keywords: GetHeaders()
+keywords: NSWebhook, GetHeaders
 so.topic: reference
 ---
 
-
 Custom HTTP Headers to add to webhook requests.
 
-
-
-* **Returns:** StringDictionary
+**Returns:** StringDictionary
 
 

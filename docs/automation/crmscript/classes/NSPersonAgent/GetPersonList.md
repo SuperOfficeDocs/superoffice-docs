@@ -1,16 +1,21 @@
----
-title: crmscript_ref_NSPersonAgent_GetPersonList_Integer__p_0
-description: NSPersonAgent.GetPersonList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_GetPersonList
+description: NSPerson[] GetPersonList(Integer[]  personIds);
 intellisense: NSPersonAgent.GetPersonList
-keywords: GetPersonList(Integer[])
+keywords: NSPersonAgent,GetPersonList
 so.topic: reference
 ---
 
-Gets an array of Person objects.
+Gets a vector of Person objects.
 
+**Parameters:**
+ - **personIds** The identifiers of the NSPerson objects
 
+**Returns:** Vector of NSPerson objects
 
-* **p0:** IntegerArray of identifiers for Person
-* **Returns:** Array of NSPerson
-
+```crmscript
+Integer[] ids;
+NSPersonAgent agent;
+agent.GetPersonList(ids);
+```
 

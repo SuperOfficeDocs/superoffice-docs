@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSErpSyncAgent_SaveErpSyncConnectorEntity_NSErpSyncConnectorEntity_p_0
-description: NSErpSyncAgent.SaveErpSyncConnectorEntity(NSErpSyncConnectorEntity p_0)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_SaveErpSyncConnectorEntity
+description: NSErpSyncConnectorEntity SaveErpSyncConnectorEntity(NSErpSyncConnectorEntity erpSyncConnectorEntity);
 intellisense: NSErpSyncAgent.SaveErpSyncConnectorEntity
-sortOrder: 3202
-keywords: SaveErpSyncConnectorEntity(NSErpSyncConnectorEntity)
+keywords: NSErpSyncAgent,SaveErpSyncConnectorEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSErpSyncConnectorEntity or creates a new NSErpSyncConnectorEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **erpSyncConnectorEntity** The NSErpSyncConnectorEntity to save.
 
+**Returns:** New or updated NSErpSyncConnectorEntity
 
-Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is empty
-
-
-
-* **erpSyncConnectorEntity:** The ErpSyncConnectorEntity that is saved
-* **Returns:** New or updated ErpSyncConnectorEntity
-
+```crmscript
+NSErpSync  agent;
+NSErpSyncConnectorEntity thing = agent.CreateDefaultErpSyncConnectorEntity();
+thing = agent.SaveErpSyncConnectorEntity(thing);
+```
 

@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSSale_SetCompleted_Integer_p_0
-description: NSSale.SetCompleted(Integer p_0)
+﻿---
+title: crmscript_ref_NSSale_SetCompleted
+description: NSSale.SetCompleted(Integer completed)
 intellisense: NSSale.SetCompleted
-keywords: SetCompleted(Integer)
+keywords: NSSale, GetCompleted
 so.topic: reference
 ---
 
-
 The Sale completed state. The completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field.
 
-
-
-* **Completed:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **completed** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 

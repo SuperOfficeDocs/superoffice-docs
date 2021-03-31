@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignAppEntity_SetForeignAppId_Integer_p_0
-description: NSForeignAppEntity.SetForeignAppId(Integer p_0)
+﻿---
+title: crmscript_ref_NSForeignAppEntity_SetForeignAppId
+description: NSForeignAppEntity.SetForeignAppId(Integer foreignAppId)
 intellisense: NSForeignAppEntity.SetForeignAppId
-sortOrder: 3708
-keywords: SetForeignAppId(Integer)
+keywords: NSForeignAppEntity, GetForeignAppId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ForeignAppId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **foreignAppId** Integer
 

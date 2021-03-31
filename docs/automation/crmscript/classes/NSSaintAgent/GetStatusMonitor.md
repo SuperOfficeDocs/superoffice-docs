@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSSaintAgent_GetStatusMonitor_Integer_p_0
-description: NSSaintAgent.GetStatusMonitor(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaintAgent_GetStatusMonitor
+description: StatusMonitor GetStatusMonitor(Integer id)
 intellisense: NSSaintAgent.GetStatusMonitor
-keywords: GetStatusMonitor(Integer)
+keywords: NSSaintAgent,GetStatusMonitor
 so.topic: reference
 ---
 
-
 Get a single status monitor based on its identity
 
+**Parameters:**
+ - **id** Identity of status monitor
 
+**Returns:** The requested status monitor
 
-* **id:** Identity of status monitor
-* **Returns:** The requested status monitor
-
+```crmscript
+NSSaintAgent agent;
+Integer id;
+StatusMonitor res = agent.GetStatusMonitor(id);
+```
 

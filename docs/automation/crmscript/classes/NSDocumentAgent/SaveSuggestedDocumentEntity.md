@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSDocumentAgent_SaveSuggestedDocumentEntity_NSSuggestedDocumentEntity_p_0
-description: NSDocumentAgent.SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity p_0)
+﻿---
+title: crmscript_ref_NSDocumentAgent_SaveSuggestedDocumentEntity
+description: NSSuggestedDocumentEntity SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity suggestedDocumentEntity);
 intellisense: NSDocumentAgent.SaveSuggestedDocumentEntity
-sortOrder: 2529
-keywords: SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)
+keywords: NSDocumentAgent,SaveSuggestedDocumentEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSSuggestedDocumentEntity or creates a new NSSuggestedDocumentEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **suggestedDocumentEntity** The NSSuggestedDocumentEntity to save.
 
+**Returns:** New or updated NSSuggestedDocumentEntity
 
-Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is empty
-
-
-
-* **suggestedDocumentEntity:** The SuggestedDocumentEntity that is saved
-* **Returns:** New or updated SuggestedDocumentEntity
-
+```crmscript
+NSDocument  agent;
+NSSuggestedDocumentEntity thing = agent.CreateDefaultSuggestedDocumentEntity();
+thing = agent.SaveSuggestedDocumentEntity(thing);
+```
 

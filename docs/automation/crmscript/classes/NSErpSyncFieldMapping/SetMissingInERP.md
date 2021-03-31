@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldMapping_SetMissingInERP_Bool_p_0
-description: NSErpSyncFieldMapping.SetMissingInERP(Bool p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldMapping_SetMissingInERP
+description: NSErpSyncFieldMapping.SetMissingInERP(Bool missingInERP)
 intellisense: NSErpSyncFieldMapping.SetMissingInERP
-sortOrder: 3318
-keywords: SetMissingInERP(Bool)
+keywords: NSErpSyncFieldMapping, GetMissingInERP
 so.topic: reference
 ---
 
-
 This field existed previously, but now the connection no longer supports it. Probably not a good sign, unmap it...
 
-
-
-* **MissingInERP:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **missingInERP** Bool
 

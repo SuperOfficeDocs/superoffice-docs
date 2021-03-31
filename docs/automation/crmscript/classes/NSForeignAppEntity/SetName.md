@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignAppEntity_SetName_String_p_0
-description: NSForeignAppEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSForeignAppEntity_SetName
+description: NSForeignAppEntity.SetName(String name)
 intellisense: NSForeignAppEntity.SetName
-sortOrder: 3709
-keywords: SetName(String)
+keywords: NSForeignAppEntity, GetName
 so.topic: reference
 ---
 
-
 Name of foreign application
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

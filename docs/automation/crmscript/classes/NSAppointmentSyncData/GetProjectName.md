@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentSyncData_GetProjectName
-description: NSAppointmentSyncData.GetProjectName()
+description: String NSAppointmentSyncData.GetProjectName()
 intellisense: NSAppointmentSyncData.GetProjectName
-sortOrder: 1063
-keywords: GetProjectName()
+keywords: NSAppointmentSyncData, GetProjectName
 so.topic: reference
 ---
 
-
 Project name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

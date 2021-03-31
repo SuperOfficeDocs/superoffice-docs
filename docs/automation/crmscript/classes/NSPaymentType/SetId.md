@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPaymentType_SetId_Integer_p_0
-description: NSPaymentType.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPaymentType_SetId
+description: NSPaymentType.SetId(Integer id)
 intellisense: NSPaymentType.SetId
-keywords: SetId(Integer)
+keywords: NSPaymentType, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

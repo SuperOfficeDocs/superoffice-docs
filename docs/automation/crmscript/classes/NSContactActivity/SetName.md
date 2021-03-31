@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactActivity_SetName_String_p_0
-description: NSContactActivity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSContactActivity_SetName
+description: NSContactActivity.SetName(String name)
 intellisense: NSContactActivity.SetName
-sortOrder: 1790
-keywords: SetName(String)
+keywords: NSContactActivity, GetName
 so.topic: reference
 ---
 
-
 Contact name
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

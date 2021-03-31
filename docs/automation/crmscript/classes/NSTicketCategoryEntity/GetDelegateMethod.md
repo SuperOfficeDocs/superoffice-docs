@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSTicketCategoryEntity_GetDelegateMethod
-description: NSTicketCategoryEntity.GetDelegateMethod()
+description: TicketCategoryDelegateMethod NSTicketCategoryEntity.GetDelegateMethod()
 intellisense: NSTicketCategoryEntity.GetDelegateMethod
-keywords: GetDelegateMethod()
+keywords: NSTicketCategoryEntity, GetDelegateMethod
 so.topic: reference
 ---
 
-
 An integer indicating the delegation method for this category.
 
+**Returns:** TicketCategoryDelegateMethod
 
-
-* **Returns:** TicketCategoryDelegateMethod
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Even 
+     - Enum: 2 = Weighted 
+     - Enum: 3 = Unfair 
+     - Enum: 4 = Not 
 

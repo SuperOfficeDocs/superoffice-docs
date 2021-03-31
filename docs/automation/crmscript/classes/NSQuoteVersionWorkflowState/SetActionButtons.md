@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionWorkflowState_SetActionButtons_NSQuoteVersionButtonState__p_0
-description: NSQuoteVersionWorkflowState.SetActionButtons(NSQuoteVersionButtonState[] p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionWorkflowState_SetActionButtons
+description: NSQuoteVersionWorkflowState.SetActionButtons(QuoteVersionButtonStateArray actionButtons)
 intellisense: NSQuoteVersionWorkflowState.SetActionButtons
-keywords: SetActionButtons(NSQuoteVersionButtonState[])
+keywords: NSQuoteVersionWorkflowState, GetActionButtons
 so.topic: reference
 ---
 
-
 Array of visible buttons with defined actions in the quote verson dialog.
 
-
-
-* **ActionButtons:** QuoteVersionButtonStateArray
-* **Returns:** QuoteVersionButtonStateArray
-
+**Parameter:** 
+ - **actionButtons** QuoteVersionButtonStateArray
 

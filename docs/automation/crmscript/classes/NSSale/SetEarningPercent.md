@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetEarningPercent_Float_p_0
-description: NSSale.SetEarningPercent(Float p_0)
+﻿---
+title: crmscript_ref_NSSale_SetEarningPercent
+description: NSSale.SetEarningPercent(Float earningPercent)
 intellisense: NSSale.SetEarningPercent
-keywords: SetEarningPercent(Float)
+keywords: NSSale, GetEarningPercent
 so.topic: reference
 ---
 
-
 Earning as percent of total
 
-
-
-* **EarningPercent:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **earningPercent** Float
 

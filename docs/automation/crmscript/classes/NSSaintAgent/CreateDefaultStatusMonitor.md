@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSSaintAgent_CreateDefaultStatusMonitor
-description: NSSaintAgent.CreateDefaultStatusMonitor()
+description: NSStatusMonitor CreateDefaultStatusMonitor()
 intellisense: NSSaintAgent.CreateDefaultStatusMonitor
-keywords: CreateDefaultStatusMonitor()
+keywords: NSSaintAgent,CreateDefaultStatusMonitor
 so.topic: reference
 ---
+	  
+Set default values into a new NSStatusMonitor.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSStatusMonitor with default values.
 
-
-Loading default values into a new StatusMonitor.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New StatusMonitor with default values
-
+```crmscript
+NSSaintAgent agent;
+NSStatusMonitor thing = agent.CreateDefaultStatusMonitor();
+thing = agent.SaveStatusMonitor(thing);
+```
 

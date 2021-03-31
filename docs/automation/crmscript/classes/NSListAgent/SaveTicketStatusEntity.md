@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveTicketStatusEntity_NSTicketStatusEntity_p_0
-description: NSListAgent.SaveTicketStatusEntity(NSTicketStatusEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveTicketStatusEntity
+description: NSTicketStatusEntity SaveTicketStatusEntity(NSTicketStatusEntity ticketStatusEntity);
 intellisense: NSListAgent.SaveTicketStatusEntity
-keywords: SaveTicketStatusEntity(NSTicketStatusEntity)
+keywords: NSListAgent,SaveTicketStatusEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSTicketStatusEntity or creates a new NSTicketStatusEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **ticketStatusEntity** The NSTicketStatusEntity to save.
 
+**Returns:** New or updated NSTicketStatusEntity
 
-Updates the existing TicketStatusEntity or creates a new TicketStatusEntity if the id parameter is empty
-
-
-
-* **ticketStatusEntity:** The TicketStatusEntity that is saved
-* **Returns:** New or updated TicketStatusEntity
-
+```crmscript
+NSList  agent;
+NSTicketStatusEntity thing = agent.CreateDefaultTicketStatusEntity();
+thing = agent.SaveTicketStatusEntity(thing);
+```
 

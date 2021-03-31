@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSTask_SetId_Integer_p_0
-description: NSTask.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTask_SetId
+description: NSTask.SetId(Integer id)
 intellisense: NSTask.SetId
-keywords: SetId(Integer)
+keywords: NSTask, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

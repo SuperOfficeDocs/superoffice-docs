@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAudienceConfigParameter_SetCreatedDate_DateTime_p_0
-description: NSAudienceConfigParameter.SetCreatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAudienceConfigParameter_SetCreatedDate
+description: NSAudienceConfigParameter.SetCreatedDate(DateTime createdDate)
 intellisense: NSAudienceConfigParameter.SetCreatedDate
-sortOrder: 1328
-keywords: SetCreatedDate(DateTime)
+keywords: NSAudienceConfigParameter, GetCreatedDate
 so.topic: reference
 ---
 
-
 The date and time the configuration parameter was created
 
-
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdDate** DateTime
 

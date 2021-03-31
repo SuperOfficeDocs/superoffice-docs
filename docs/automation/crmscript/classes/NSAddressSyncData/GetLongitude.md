@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAddressSyncData_GetLongitude
-description: NSAddressSyncData.GetLongitude()
+description: Float NSAddressSyncData.GetLongitude()
 intellisense: NSAddressSyncData.GetLongitude
-sortOrder: 618
-keywords: GetLongitude()
+keywords: NSAddressSyncData, GetLongitude
 so.topic: reference
 ---
 
 
-* **Returns:** Float
+
+**Returns:** Float
 
 

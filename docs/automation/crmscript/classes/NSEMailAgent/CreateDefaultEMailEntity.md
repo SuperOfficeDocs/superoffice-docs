@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSEMailAgent_CreateDefaultEMailEntity
-description: NSEMailAgent.CreateDefaultEMailEntity()
+description: NSEMailEntity CreateDefaultEMailEntity()
 intellisense: NSEMailAgent.CreateDefaultEMailEntity
-sortOrder: 2812
-keywords: CreateDefaultEMailEntity()
+keywords: NSEMailAgent,CreateDefaultEMailEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSEMailEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSEMailEntity with default values.
 
-
-Loading default values into a new EMailEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New EMailEntity with default values
-
+```crmscript
+NSEMailAgent agent;
+NSEMailEntity thing = agent.CreateDefaultEMailEntity();
+thing = agent.SaveEMailEntity(thing);
+```
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebAppUsage_GetWebAppUsageId
-description: NSWebAppUsage.GetWebAppUsageId()
+description: Integer NSWebAppUsage.GetWebAppUsageId()
 intellisense: NSWebAppUsage.GetWebAppUsageId
-keywords: GetWebAppUsageId()
+keywords: NSWebAppUsage, GetWebAppUsageId
 so.topic: reference
 ---
 
-
 Primary Key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

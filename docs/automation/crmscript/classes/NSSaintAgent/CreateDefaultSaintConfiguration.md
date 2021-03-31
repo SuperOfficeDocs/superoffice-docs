@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSSaintAgent_CreateDefaultSaintConfiguration
-description: NSSaintAgent.CreateDefaultSaintConfiguration()
+description: NSSaintConfiguration CreateDefaultSaintConfiguration()
 intellisense: NSSaintAgent.CreateDefaultSaintConfiguration
-keywords: CreateDefaultSaintConfiguration()
+keywords: NSSaintAgent,CreateDefaultSaintConfiguration
 so.topic: reference
 ---
+	  
+Set default values into a new NSSaintConfiguration.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSSaintConfiguration with default values.
 
-
-Loading default values into a new SaintConfiguration.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New SaintConfiguration with default values
-
+```crmscript
+NSSaintAgent agent;
+NSSaintConfiguration thing = agent.CreateDefaultSaintConfiguration();
+thing = agent.SaveSaintConfiguration(thing);
+```
 

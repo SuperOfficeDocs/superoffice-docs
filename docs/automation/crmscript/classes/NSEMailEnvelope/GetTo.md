@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEnvelope_GetTo
-description: NSEMailEnvelope.GetTo()
+description: EMailAddressArray NSEMailEnvelope.GetTo()
 intellisense: NSEMailEnvelope.GetTo
-sortOrder: 3008
-keywords: GetTo()
+keywords: NSEMailEnvelope, GetTo
 so.topic: reference
 ---
 
-
 To recipients of e-mail
 
-
-
-* **Returns:** EMailAddressArray
+**Returns:** EMailAddressArray
 
 

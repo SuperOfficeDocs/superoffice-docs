@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescriptionLine_SetPrefValue_String_p_0
-description: NSPreferenceDescriptionLine.SetPrefValue(String p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescriptionLine_SetPrefValue
+description: NSPreferenceDescriptionLine.SetPrefValue(String prefValue)
 intellisense: NSPreferenceDescriptionLine.SetPrefValue
-keywords: SetPrefValue(String)
+keywords: NSPreferenceDescriptionLine, GetPrefValue
 so.topic: reference
 ---
 
-
 Possible value
 
-
-
-* **PrefValue:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **prefValue** String
 

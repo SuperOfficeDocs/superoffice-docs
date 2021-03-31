@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactSummary_SetContact_NSContact_p_0
-description: NSContactSummary.SetContact(NSContact p_0)
+﻿---
+title: crmscript_ref_NSContactSummary_SetContact
+description: NSContactSummary.SetContact(Contact contact)
 intellisense: NSContactSummary.SetContact
-sortOrder: 1989
-keywords: SetContact(NSContact)
+keywords: NSContactSummary, GetContact
 so.topic: reference
 ---
 
-
 Simple Contact data.
 
-
-
-* **Contact:** Contact
-* **Returns:** Contact
-
+**Parameter:** 
+ - **contact** Contact
 

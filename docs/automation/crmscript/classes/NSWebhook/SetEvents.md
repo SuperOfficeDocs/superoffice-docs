@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebhook_SetEvents_String__p_0
-description: NSWebhook.SetEvents(String[] p_0)
+﻿---
+title: crmscript_ref_NSWebhook_SetEvents
+description: NSWebhook.SetEvents(StringArray events)
 intellisense: NSWebhook.SetEvents
-keywords: SetEvents(String[])
+keywords: NSWebhook, GetEvents
 so.topic: reference
 ---
 
+Array of event names that trigger this webhook: ['contact.created', 'sale.changed'] 
 
-Array of event names that trigger this webhook: ['contact.created', 'sale.changed']
-
-
-
-* **Events:** StringArray
-* **Returns:** StringArray
-
+**Parameter:** 
+ - **events** StringArray
 

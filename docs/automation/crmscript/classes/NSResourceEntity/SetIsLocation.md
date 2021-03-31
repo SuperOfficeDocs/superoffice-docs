@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSResourceEntity_SetIsLocation_Bool_p_0
-description: NSResourceEntity.SetIsLocation(Bool p_0)
+﻿---
+title: crmscript_ref_NSResourceEntity_SetIsLocation
+description: NSResourceEntity.SetIsLocation(Bool isLocation)
 intellisense: NSResourceEntity.SetIsLocation
-keywords: SetIsLocation(Bool)
+keywords: NSResourceEntity, GetIsLocation
 so.topic: reference
 ---
 
-
 If true the resource is a location
 
-
-
-* **IsLocation:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isLocation** Bool
 

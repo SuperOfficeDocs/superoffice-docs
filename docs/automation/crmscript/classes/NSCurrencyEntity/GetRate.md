@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCurrencyEntity_GetRate
-description: NSCurrencyEntity.GetRate()
+description: Float NSCurrencyEntity.GetRate()
 intellisense: NSCurrencyEntity.GetRate
-sortOrder: 2180
-keywords: GetRate()
+keywords: NSCurrencyEntity, GetRate
 so.topic: reference
 ---
 
-
 Exchange rate
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

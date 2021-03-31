@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSystemEventEntity_SetSystemEventId_Integer_p_0
-description: NSSystemEventEntity.SetSystemEventId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSystemEventEntity_SetSystemEventId
+description: NSSystemEventEntity.SetSystemEventId(Integer systemEventId)
 intellisense: NSSystemEventEntity.SetSystemEventId
-keywords: SetSystemEventId(Integer)
+keywords: NSSystemEventEntity, GetSystemEventId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **SystemEventId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **systemEventId** Integer
 

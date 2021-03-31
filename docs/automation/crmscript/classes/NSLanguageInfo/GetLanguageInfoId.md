@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLanguageInfo_GetLanguageInfoId
-description: NSLanguageInfo.GetLanguageInfoId()
+description: Integer NSLanguageInfo.GetLanguageInfoId()
 intellisense: NSLanguageInfo.GetLanguageInfoId
-sortOrder: 4001
-keywords: GetLanguageInfoId()
+keywords: NSLanguageInfo, GetLanguageInfoId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

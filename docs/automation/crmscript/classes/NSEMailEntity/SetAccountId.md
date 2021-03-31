@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEntity_SetAccountId_Integer_p_0
-description: NSEMailEntity.SetAccountId(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetAccountId
+description: NSEMailEntity.SetAccountId(Integer accountId)
 intellisense: NSEMailEntity.SetAccountId
-sortOrder: 2972
-keywords: SetAccountId(Integer)
+keywords: NSEMailEntity, GetAccountId
 so.topic: reference
 ---
 
-
 Account Id
 
-
-
-* **AccountId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **accountId** Integer
 

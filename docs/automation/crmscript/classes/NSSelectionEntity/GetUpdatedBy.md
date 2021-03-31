@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSelectionEntity_GetUpdatedBy
-description: NSSelectionEntity.GetUpdatedBy()
+description: Associate NSSelectionEntity.GetUpdatedBy()
 intellisense: NSSelectionEntity.GetUpdatedBy
-keywords: GetUpdatedBy()
+keywords: NSSelectionEntity, GetUpdatedBy
 so.topic: reference
 ---
 
-
 Who last modified the selection
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

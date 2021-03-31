@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetPerson_NSPerson_p_0
-description: NSTicketEntity.SetPerson(NSPerson p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetPerson
+description: NSTicketEntity.SetPerson(Person person)
 intellisense: NSTicketEntity.SetPerson
-keywords: SetPerson(NSPerson)
+keywords: NSTicketEntity, GetPerson
 so.topic: reference
 ---
 
-
 The primary person that this ticket is connected to
 
-
-
-* **Person:** Person
-* **Returns:** Person
-
+**Parameter:** 
+ - **person** Person
 

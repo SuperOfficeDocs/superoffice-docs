@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListItem_SetPersonPagerNumber_String_p_0
-description: NSPhoneListItem.SetPersonPagerNumber(String p_0)
+﻿---
+title: crmscript_ref_NSPhoneListItem_SetPersonPagerNumber
+description: NSPhoneListItem.SetPersonPagerNumber(String personPagerNumber)
 intellisense: NSPhoneListItem.SetPersonPagerNumber
-keywords: SetPersonPagerNumber(String)
+keywords: NSPhoneListItem, GetPersonPagerNumber
 so.topic: reference
 ---
 
-
 Actual phone number as eneterd by the user
 
-
-
-* **PersonPagerNumber:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personPagerNumber** String
 

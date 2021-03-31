@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldValue_SetCrmFieldKey_String_p_0
-description: NSErpSyncFieldValue.SetCrmFieldKey(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldValue_SetCrmFieldKey
+description: NSErpSyncFieldValue.SetCrmFieldKey(String crmFieldKey)
 intellisense: NSErpSyncFieldValue.SetCrmFieldKey
-sortOrder: 3331
-keywords: SetCrmFieldKey(String)
+keywords: NSErpSyncFieldValue, GetCrmFieldKey
 so.topic: reference
 ---
 
-
 The CRM field name, as implemented by the Sync entities
 
-
-
-* **CrmFieldKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **crmFieldKey** String
 

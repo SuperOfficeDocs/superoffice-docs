@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDictionaryStepInformation_GetStepNumber
-description: NSDictionaryStepInformation.GetStepNumber()
+description: Integer NSDictionaryStepInformation.GetStepNumber()
 intellisense: NSDictionaryStepInformation.GetStepNumber
-sortOrder: 2423
-keywords: GetStepNumber()
+keywords: NSDictionaryStepInformation, GetStepNumber
 so.topic: reference
 ---
 
-
 Generation number of step
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

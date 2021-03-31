@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLanguageInfo_GetIsBuiltIn
-description: NSLanguageInfo.GetIsBuiltIn()
+description: Bool NSLanguageInfo.GetIsBuiltIn()
 intellisense: NSLanguageInfo.GetIsBuiltIn
-sortOrder: 4000
-keywords: GetIsBuiltIn()
+keywords: NSLanguageInfo, GetIsBuiltIn
 so.topic: reference
 ---
 
-
 Has this row been inserted by SuperOffice priming data
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

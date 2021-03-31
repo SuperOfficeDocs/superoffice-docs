@@ -1,22 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplateEntity_GetQuoteDocType
-description: NSDocumentTemplateEntity.GetQuoteDocType()
+description: DocTmplQuoteType NSDocumentTemplateEntity.GetQuoteDocType()
 intellisense: NSDocumentTemplateEntity.GetQuoteDocType
-sortOrder: 2661
-keywords: GetQuoteDocType()
+keywords: NSDocumentTemplateEntity, GetQuoteDocType
 so.topic: reference
 ---
 
 The role this document plays in the Quote system, if any
 
-* None=0
-* MailBody=1
-* MainDocument=2
-* QuoteLines=3
-* ConfirmationMailBody=4
-* ConfirmationLines=5
+**Returns:** DocTmplQuoteType
 
-* **Returns:** Integer
-
-
+     - Enum: 0 = None 
+     - Enum: 1 = MailBody 
+     - Enum: 2 = MainDocument 
+     - Enum: 3 = QuoteLines 
+     - Enum: 4 = ConfirmationMailBody 
+     - Enum: 5 = ConfirmationLines 
 

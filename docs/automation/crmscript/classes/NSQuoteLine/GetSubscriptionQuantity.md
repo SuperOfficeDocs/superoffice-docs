@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteLine_GetSubscriptionQuantity
-description: NSQuoteLine.GetSubscriptionQuantity()
+description: Float NSQuoteLine.GetSubscriptionQuantity()
 intellisense: NSQuoteLine.GetSubscriptionQuantity
-keywords: GetSubscriptionQuantity()
+keywords: NSQuoteLine, GetSubscriptionQuantity
 so.topic: reference
 ---
 
-
 The default number of SubscriptionUnits to suggest when creating quote lines from this product
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

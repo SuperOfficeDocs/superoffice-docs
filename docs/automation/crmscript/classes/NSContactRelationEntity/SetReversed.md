@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactRelationEntity_SetReversed_Integer_p_0
-description: NSContactRelationEntity.SetReversed(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactRelationEntity_SetReversed
+description: NSContactRelationEntity.SetReversed(Integer reversed)
 intellisense: NSContactRelationEntity.SetReversed
-sortOrder: 1973
-keywords: SetReversed(Integer)
+keywords: NSContactRelationEntity, GetReversed
 so.topic: reference
 ---
 
-
 Is direction reversed relative to definition
 
-
-
-* **Reversed:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **reversed** Integer
 

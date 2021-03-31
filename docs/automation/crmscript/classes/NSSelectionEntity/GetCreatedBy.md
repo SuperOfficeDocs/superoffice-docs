@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSelectionEntity_GetCreatedBy
-description: NSSelectionEntity.GetCreatedBy()
+description: Associate NSSelectionEntity.GetCreatedBy()
 intellisense: NSSelectionEntity.GetCreatedBy
-keywords: GetCreatedBy()
+keywords: NSSelectionEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 Who created the selection
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

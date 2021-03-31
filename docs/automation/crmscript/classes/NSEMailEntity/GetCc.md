@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetCc
-description: NSEMailEntity.GetCc()
+description: EMailAddressArray NSEMailEntity.GetCc()
 intellisense: NSEMailEntity.GetCc
-sortOrder: 2959
-keywords: GetCc()
+keywords: NSEMailEntity, GetCc
 so.topic: reference
 ---
 
-
 Cc recipients of e-mail
 
-
-
-* **Returns:** EMailAddressArray
+**Returns:** EMailAddressArray
 
 

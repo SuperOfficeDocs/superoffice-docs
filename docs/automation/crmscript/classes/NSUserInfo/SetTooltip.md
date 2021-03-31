@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserInfo_SetTooltip_String_p_0
-description: NSUserInfo.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetTooltip
+description: NSUserInfo.SetTooltip(String tooltip)
 intellisense: NSUserInfo.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSUserInfo, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip or other description
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

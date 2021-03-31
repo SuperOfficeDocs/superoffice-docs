@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetCreatedByFullName
-description: NSAppointment.GetCreatedByFullName()
+description: String NSAppointment.GetCreatedByFullName()
 intellisense: NSAppointment.GetCreatedByFullName
-sortOrder: 757
-keywords: GetCreatedByFullName()
+keywords: NSAppointment, GetCreatedByFullName
 so.topic: reference
 ---
 
-
 Who created the appointment. Full name.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

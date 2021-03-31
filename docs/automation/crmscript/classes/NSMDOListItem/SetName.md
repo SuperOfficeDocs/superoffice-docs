@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMDOListItem_SetName_String_p_0
-description: NSMDOListItem.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSMDOListItem_SetName
+description: NSMDOListItem.SetName(String name)
 intellisense: NSMDOListItem.SetName
-keywords: SetName(String)
+keywords: NSMDOListItem, GetName
 so.topic: reference
 ---
 
-
 The name of the ListItem
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetFree_Integer_p_0
-description: NSModuleLicenseLink.SetFree(Integer p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetFree
+description: NSModuleLicenseLink.SetFree(Integer free)
 intellisense: NSModuleLicenseLink.SetFree
-keywords: SetFree(Integer)
+keywords: NSModuleLicenseLink, GetFree
 so.topic: reference
 ---
 
-
 The number of licenses that are free to be assigned
 
-
-
-* **Free:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **free** Integer
 

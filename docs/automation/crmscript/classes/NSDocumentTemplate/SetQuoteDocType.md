@@ -1,19 +1,19 @@
----
-title: crmscript_ref_NSDocumentTemplate_SetQuoteDocType_Integer_p_0
-description: NSDocumentTemplate.SetQuoteDocType(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplate_SetQuoteDocType
+description: NSDocumentTemplate.SetQuoteDocType(DocTmplQuoteType quoteDocType)
 intellisense: NSDocumentTemplate.SetQuoteDocType
-sortOrder: 2642
-keywords: SetQuoteDocType(Integer)
+keywords: NSDocumentTemplate, GetQuoteDocType
 so.topic: reference
 ---
 
+What type of quote document is this.
 
-* None=0
-* MailBody=1
-* MainDocument=2
-* QuoteLines=3
-* ConfirmationMailBody=4
-* ConfirmationLines=5
+**Parameter:** 
+ - **quoteDocType** DocTmplQuoteType
+     - Enum: 0 = None 
+     - Enum: 1 = MailBody 
+     - Enum: 2 = MainDocument 
+     - Enum: 3 = QuoteLines 
+     - Enum: 4 = ConfirmationMailBody 
+     - Enum: 5 = ConfirmationLines 
 
-* **p0:** Integer
-* **Returns:** Void

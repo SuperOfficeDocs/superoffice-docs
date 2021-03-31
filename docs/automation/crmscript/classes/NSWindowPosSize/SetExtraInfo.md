@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWindowPosSize_SetExtraInfo_String_p_0
-description: NSWindowPosSize.SetExtraInfo(String p_0)
+﻿---
+title: crmscript_ref_NSWindowPosSize_SetExtraInfo
+description: NSWindowPosSize.SetExtraInfo(String extraInfo)
 intellisense: NSWindowPosSize.SetExtraInfo
-keywords: SetExtraInfo(String)
+keywords: NSWindowPosSize, GetExtraInfo
 so.topic: reference
 ---
 
-
 Extra information - show state, or whatever is required
 
-
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **extraInfo** String
 

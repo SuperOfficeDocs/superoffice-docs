@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetProjectStatus_Integer_p_0
-description: NSListAgent.GetProjectStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetProjectStatus
+description: NSProjectStatus GetProjectStatus(Integer projectStatusId);
 intellisense: NSListAgent.GetProjectStatus
-keywords: GetProjectStatus(Integer)
+keywords: NSListAgent,GetProjectStatus
 so.topic: reference
 ---
 
+Gets a NSProjectStatus object.
 
-Gets a ProjectStatus object.
+**Parameters:**
+ - **projectStatusId** The identifier of the NSProjectStatus object
 
+**Returns:** NSProjectStatus
 
-
-* **projectStatusId:** The identifier of the ProjectStatus object
-* **Returns:** ProjectStatus
-
+```crmscript
+NSListAgent agent;
+NSProjectStatus thing = agent.GetProjectStatus(123);
+```
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetRealTimeToReply_Integer_p_0
-description: NSTicketEntity.SetRealTimeToReply(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetRealTimeToReply
+description: NSTicketEntity.SetRealTimeToReply(Integer realTimeToReply)
 intellisense: NSTicketEntity.SetRealTimeToReply
-keywords: SetRealTimeToReply(Integer)
+keywords: NSTicketEntity, GetRealTimeToReply
 so.topic: reference
 ---
 
+Same as time_to_reply, but not calculated based on priority.
 
-Same as time\_to_reply, but not calculated based on priority.
-
-
-
-* **RealTimeToReply:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **realTimeToReply** Integer
 

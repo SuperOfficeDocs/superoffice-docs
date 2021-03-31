@@ -1,19 +1,23 @@
----
-title: crmscript_ref_NSEMailAgent_GetEMail_Integer_p_0_Bool_p_1
-description: NSEMailAgent.GetEMail(Integer p_0, Bool p_1)
+﻿---
+title: crmscript_ref_NSEMailAgent_GetEMail
+description: EMailEntity GetEMail(Integer id, Bool includeAttachments)
 intellisense: NSEMailAgent.GetEMail
-sortOrder: 2816
-keywords: GetEMail(Integer,Bool)
+keywords: NSEMailAgent,GetEMail
 so.topic: reference
 ---
 
-
 Get en e-mail based on its primary key in the DB
 
+**Parameters:**
+ - **id** The primary key of the email row in the DB
+ - **includeAttachments** Should we retrieve attachments embedded in the e-mail from the server
 
+**Returns:** The e-mail
 
-* **id:** The primary key of the email row in the DB
-* **includeAttachments:** Should we retrieve attachments embedded in the e-mail from the server
-* **Returns:** The e-mail
-
+```crmscript
+NSEMailAgent agent;
+Integer id;
+Bool includeAttachments;
+EMailEntity res = agent.GetEMail(id, includeAttachments);
+```
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEventData_GetStateValues
-description: NSEventData.GetStateValues()
+description: StringDictionary NSEventData.GetStateValues()
 intellisense: NSEventData.GetStateValues
-sortOrder: 3346
-keywords: GetStateValues()
+keywords: NSEventData, GetStateValues
 so.topic: reference
 ---
 
-
 Values kept between event handlers
 
-
-
-* **Returns:** StringDictionary
+**Returns:** StringDictionary
 
 

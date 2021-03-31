@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSystemEventEntity_SetActivatedBy_NSAssociate_p_0
-description: NSSystemEventEntity.SetActivatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSSystemEventEntity_SetActivatedBy
+description: NSSystemEventEntity.SetActivatedBy(Associate activatedBy)
 intellisense: NSSystemEventEntity.SetActivatedBy
-keywords: SetActivatedBy(NSAssociate)
+keywords: NSSystemEventEntity, GetActivatedBy
 so.topic: reference
 ---
 
-
 The associate that first created the SystemEvent.
 
-
-
-* **ActivatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **activatedBy** Associate
 

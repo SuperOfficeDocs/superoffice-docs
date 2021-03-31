@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEventData_GetBlockExecution
-description: NSEventData.GetBlockExecution()
+description: Bool NSEventData.GetBlockExecution()
 intellisense: NSEventData.GetBlockExecution
-sortOrder: 3339
-keywords: GetBlockExecution()
+keywords: NSEventData, GetBlockExecution
 so.topic: reference
 ---
 
-
 Whether the context should stop what it is doing, e.g. saving a sale
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

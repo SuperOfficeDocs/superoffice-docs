@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSProductType_GetValue
-description: NSProductType.GetValue()
+description: String NSProductType.GetValue()
 intellisense: NSProductType.GetValue
-keywords: GetValue()
+keywords: NSProductType, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

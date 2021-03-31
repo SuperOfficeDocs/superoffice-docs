@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetUpdatedBy_NSAssociate_p_0
-description: NSProjectEventEntity.SetUpdatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetUpdatedBy
+description: NSProjectEventEntity.SetUpdatedBy(Associate updatedBy)
 intellisense: NSProjectEventEntity.SetUpdatedBy
-keywords: SetUpdatedBy(NSAssociate)
+keywords: NSProjectEventEntity, GetUpdatedBy
 so.topic: reference
 ---
 
-
 The person that last updated the projectevent
 
-
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **updatedBy** Associate
 

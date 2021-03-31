@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSCustomerLanguage_SetTooltip_String_p_0
-description: NSCustomerLanguage.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSCustomerLanguage_SetTooltip
+description: NSCustomerLanguage.SetTooltip(String tooltip)
 intellisense: NSCustomerLanguage.SetTooltip
-sortOrder: 2217
-keywords: SetTooltip(String)
+keywords: NSCustomerLanguage, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

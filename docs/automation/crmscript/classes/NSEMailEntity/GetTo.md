@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetTo
-description: NSEMailEntity.GetTo()
+description: EMailAddressArray NSEMailEntity.GetTo()
 intellisense: NSEMailEntity.GetTo
-sortOrder: 2960
-keywords: GetTo()
+keywords: NSEMailEntity, GetTo
 so.topic: reference
 ---
 
-
 To recipients of e-mail
 
-
-
-* **Returns:** EMailAddressArray
+**Returns:** EMailAddressArray
 
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncFieldMapping_GetShowInSearch
-description: NSErpSyncFieldMapping.GetShowInSearch()
+description: Bool NSErpSyncFieldMapping.GetShowInSearch()
 intellisense: NSErpSyncFieldMapping.GetShowInSearch
-sortOrder: 3289
-keywords: GetShowInSearch()
+keywords: NSErpSyncFieldMapping, GetShowInSearch
 so.topic: reference
 ---
 
-
 Should this field be shown in searches
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSUserDefinedFieldInfo
 description: NSUserDefinedFieldInfo
 intellisense: Void.NSUserDefinedFieldInfo
+keywords: NSUserDefinedFieldInfo
 so.topic: reference
 ---
 
-
 Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
 
-
-
-
-1. autolist
+1. autolist 
 

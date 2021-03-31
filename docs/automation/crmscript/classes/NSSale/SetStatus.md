@@ -1,17 +1,19 @@
----
-title: crmscript_ref_NSSale_SetStatus_Integer_p_0
-description: NSSale.SetStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSSale_SetStatus
+description: NSSale.SetStatus(Integer status)
 intellisense: NSSale.SetStatus
-keywords: SetStatus(Integer)
+keywords: NSSale, GetStatus
 so.topic: reference
 ---
 
-
 The sale's status, indicating wether the sale is open, sold or lost.
 
-
-
-* **Status:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **status** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Open 
+     - Enum: 2 = Sold 
+     - Enum: 3 = Lost 
+     - Enum: 4 = Stalled 
+     - Enum: 1000 = SaintAll 
 

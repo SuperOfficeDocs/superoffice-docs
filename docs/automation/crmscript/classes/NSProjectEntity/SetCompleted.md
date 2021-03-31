@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEntity_SetCompleted_Bool_p_0
-description: NSProjectEntity.SetCompleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSProjectEntity_SetCompleted
+description: NSProjectEntity.SetCompleted(Bool completed)
 intellisense: NSProjectEntity.SetCompleted
-keywords: SetCompleted(Bool)
+keywords: NSProjectEntity, GetCompleted
 so.topic: reference
 ---
 
-
 Done (0=false, 1=true). Status implies changes in which fields are shown in GUI, as well as which fields can be updated
 
-
-
-* **Completed:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **completed** Bool
 

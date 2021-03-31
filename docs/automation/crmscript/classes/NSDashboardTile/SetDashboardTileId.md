@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTile_SetDashboardTileId_Integer_p_0
-description: NSDashboardTile.SetDashboardTileId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetDashboardTileId
+description: NSDashboardTile.SetDashboardTileId(Integer dashboardTileId)
 intellisense: NSDashboardTile.SetDashboardTileId
-sortOrder: 2307
-keywords: SetDashboardTileId(Integer)
+keywords: NSDashboardTile, GetDashboardTileId
 so.topic: reference
 ---
 
-
 The tile id
 
-
-
-* **DashboardTileId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **dashboardTileId** Integer
 

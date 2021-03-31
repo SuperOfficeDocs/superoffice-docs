@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetBaseCurrency_String_p_0
-description: NSSaleSummary.SetBaseCurrency(String p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetBaseCurrency
+description: NSSaleSummary.SetBaseCurrency(String baseCurrency)
 intellisense: NSSaleSummary.SetBaseCurrency
-keywords: SetBaseCurrency(String)
+keywords: NSSaleSummary, GetBaseCurrency
 so.topic: reference
 ---
 
-
 Default currency for the installation
 
-
-
-* **BaseCurrency:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **baseCurrency** String
 

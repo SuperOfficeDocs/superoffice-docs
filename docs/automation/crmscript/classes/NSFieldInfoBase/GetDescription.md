@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoBase_GetDescription
-description: NSFieldInfoBase.GetDescription()
+description: String NSFieldInfoBase.GetDescription()
 intellisense: NSFieldInfoBase.GetDescription
-sortOrder: 3469
-keywords: GetDescription()
+keywords: NSFieldInfoBase, GetDescription
 so.topic: reference
 ---
 
-
 Optional tooltip text for this field
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

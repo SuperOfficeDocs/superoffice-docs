@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetReasonSold_NSReasonSold_p_0
-description: NSSaleEntity.SetReasonSold(NSReasonSold p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetReasonSold
+description: NSSaleEntity.SetReasonSold(ReasonSold reasonSold)
 intellisense: NSSaleEntity.SetReasonSold
-keywords: SetReasonSold(NSReasonSold)
+keywords: NSSaleEntity, GetReasonSold
 so.topic: reference
 ---
 
 
-* **ReasonSold:** ReasonSold
-* **Returns:** ReasonSold
 
+**Parameter:** 
+ - **reasonSold** ReasonSold
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEntity_SetProjectMembers_NSProjectMember__p_0
-description: NSProjectEntity.SetProjectMembers(NSProjectMember[] p_0)
+﻿---
+title: crmscript_ref_NSProjectEntity_SetProjectMembers
+description: NSProjectEntity.SetProjectMembers(ProjectMemberArray projectMembers)
 intellisense: NSProjectEntity.SetProjectMembers
-keywords: SetProjectMembers(NSProjectMember[])
+keywords: NSProjectEntity, GetProjectMembers
 so.topic: reference
 ---
 
-
 The persons which are members of the project
 
-
-
-* **ProjectMembers:** ProjectMemberArray
-* **Returns:** ProjectMemberArray
-
+**Parameter:** 
+ - **projectMembers** ProjectMemberArray
 

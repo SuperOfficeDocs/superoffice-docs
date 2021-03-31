@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSAmountClassEntity
 description: NSAmountClassEntity
 intellisense: Void.NSAmountClassEntity
-sortOrder: 693
+keywords: NSAmountClassEntity
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSErpSyncAgent_GetConnection_Integer_p_0
-description: NSErpSyncAgent.GetConnection(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_GetConnection
+description: ErpConnection GetConnection(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.GetConnection
-sortOrder: 3192
-keywords: GetConnection(Integer)
+keywords: NSErpSyncAgent,GetConnection
 so.topic: reference
 ---
 
-
 Returns the specified connection.
 
+**Parameters:**
+ - **erpConnectionId** Primary key of the connection
 
+**Returns:** The connection
 
-* **erpConnectionId:** Primary key of the connection
-* **Returns:** The connection
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+ErpConnection res = agent.GetConnection(erpConnectionId);
+```
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetProjectEventId_Integer_p_0
-description: NSProjectEventEntity.SetProjectEventId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetProjectEventId
+description: NSProjectEventEntity.SetProjectEventId(Integer projectEventId)
 intellisense: NSProjectEventEntity.SetProjectEventId
-keywords: SetProjectEventId(Integer)
+keywords: NSProjectEventEntity, GetProjectEventId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ProjectEventId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectEventId** Integer
 

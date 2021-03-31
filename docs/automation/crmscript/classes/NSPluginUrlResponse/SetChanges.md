@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPluginUrlResponse_SetChanges_NSChangedData_p_0
-description: NSPluginUrlResponse.SetChanges(NSChangedData p_0)
+﻿---
+title: crmscript_ref_NSPluginUrlResponse_SetChanges
+description: NSPluginUrlResponse.SetChanges(ChangedData changes)
 intellisense: NSPluginUrlResponse.SetChanges
-keywords: SetChanges(NSChangedData)
+keywords: NSPluginUrlResponse, GetChanges
 so.topic: reference
 ---
 
-
 Tablename/recordid of data changed by this method, that the client may need to reload
 
-
-
-* **Changes:** ChangedData
-* **Returns:** ChangedData
-
+**Parameter:** 
+ - **changes** ChangedData
 

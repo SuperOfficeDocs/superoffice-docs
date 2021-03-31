@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDataRights_SetRights_NSDataRight___p_0
-description: NSDataRights.SetRights(NSDataRight[][] p_0)
+﻿---
+title: crmscript_ref_NSDataRights_SetRights
+description: NSDataRights.SetRights(DataRightArrayArray rights)
 intellisense: NSDataRights.SetRights
-sortOrder: 2354
-keywords: SetRights(NSDataRight[][])
+keywords: NSDataRights, GetRights
 so.topic: reference
 ---
 
 
-* **Rights:** DataRightArrayArray
-* **Returns:** DataRightArrayArray
 
+**Parameter:** 
+ - **rights** DataRightArrayArray
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSErpSyncAgent_SaveErpConnectionSyncPriorities_Integer__p_0
-description: NSErpSyncAgent.SaveErpConnectionSyncPriorities(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_SaveErpConnectionSyncPriorities
+description: Bool SaveErpConnectionSyncPriorities(IntegerArray erpConnectionIds)
 intellisense: NSErpSyncAgent.SaveErpConnectionSyncPriorities
-sortOrder: 3182
-keywords: SaveErpConnectionSyncPriorities(Integer[])
+keywords: NSErpSyncAgent,SaveErpConnectionSyncPriorities
 so.topic: reference
 ---
 
-
 Takes an array of the ErpConnection ids and saves these as ordered sync priorities
 
+**Parameters:**
+ - **erpConnectionIds** The id put in array in the same order as the priorities
 
+**Returns:** Returns true if new sync priorities is saved
 
-* **erpConnectionIds:** The id put in array in the same order as the priorities
-* **Returns:** Returns true if new sync priorities is saved
-
+```crmscript
+NSErpSyncAgent agent;
+IntegerArray erpConnectionIds;
+Bool res = agent.SaveErpConnectionSyncPriorities(erpConnectionIds);
+```
 

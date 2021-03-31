@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSErpSyncAgent_TestConnectionById_Integer_p_0
-description: NSErpSyncAgent.TestConnectionById(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_TestConnectionById
+description: Bool TestConnectionById(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.TestConnectionById
-sortOrder: 3186
-keywords: TestConnectionById(Integer)
+keywords: NSErpSyncAgent,TestConnectionById
 so.topic: reference
 ---
 
-
 Tests to see if we can establish a connection with the given config fields
 
+**Parameters:**
+ - **erpConnectionId** The id of the connection
 
+**Returns:** Returns true if success
 
-* **erpConnectionId:** The id of the connection
-* **Returns:** Returns true if success
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+Bool res = agent.TestConnectionById(erpConnectionId);
+```
 

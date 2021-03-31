@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMailMergeSettings_GetRemoveCompanyInterest
-description: NSMailMergeSettings.GetRemoveCompanyInterest()
+description: Integer NSMailMergeSettings.GetRemoveCompanyInterest()
 intellisense: NSMailMergeSettings.GetRemoveCompanyInterest
-keywords: GetRemoveCompanyInterest()
+keywords: NSMailMergeSettings, GetRemoveCompanyInterest
 so.topic: reference
 ---
 
-
 Remove this company interest on each company recipient.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

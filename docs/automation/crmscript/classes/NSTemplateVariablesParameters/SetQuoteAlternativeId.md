@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTemplateVariablesParameters_SetQuoteAlternativeId_Integer_p_0
-description: NSTemplateVariablesParameters.SetQuoteAlternativeId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTemplateVariablesParameters_SetQuoteAlternativeId
+description: NSTemplateVariablesParameters.SetQuoteAlternativeId(Integer quoteAlternativeId)
 intellisense: NSTemplateVariablesParameters.SetQuoteAlternativeId
-keywords: SetQuoteAlternativeId(Integer)
+keywords: NSTemplateVariablesParameters, GetQuoteAlternativeId
 so.topic: reference
 ---
 
-
 Quote alternative id
 
-
-
-* **QuoteAlternativeId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **quoteAlternativeId** Integer
 

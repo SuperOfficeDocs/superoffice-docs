@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatisticsDataSet_SetValues_NSStatisticsDataValue__p_0
-description: NSStatisticsDataSet.SetValues(NSStatisticsDataValue[] p_0)
+﻿---
+title: crmscript_ref_NSStatisticsDataSet_SetValues
+description: NSStatisticsDataSet.SetValues(StatisticsDataValueArray values)
 intellisense: NSStatisticsDataSet.SetValues
-keywords: SetValues(NSStatisticsDataValue[])
+keywords: NSStatisticsDataSet, GetValues
 so.topic: reference
 ---
 
-
 Values in this set
 
-
-
-* **Values:** StatisticsDataValueArray
-* **Returns:** StatisticsDataValueArray
-
+**Parameter:** 
+ - **values** StatisticsDataValueArray
 

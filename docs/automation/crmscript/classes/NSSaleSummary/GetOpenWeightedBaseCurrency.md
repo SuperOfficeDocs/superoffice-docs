@@ -1,20 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleSummary_GetOpenWeightedBaseCurrency
-description: NSSaleSummary.GetOpenWeightedBaseCurrency()
+description: Float NSSaleSummary.GetOpenWeightedBaseCurrency()
 intellisense: NSSaleSummary.GetOpenWeightedBaseCurrency
-keywords: GetOpenWeightedBaseCurrency()
+keywords: NSSaleSummary, GetOpenWeightedBaseCurrency
 so.topic: reference
 ---
 
+Weighted sum for all open within the period in default currency for the installation 
 
-Weighted sum for all open within the period in default currency for the installation
-
-
-    	///
-    
-
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

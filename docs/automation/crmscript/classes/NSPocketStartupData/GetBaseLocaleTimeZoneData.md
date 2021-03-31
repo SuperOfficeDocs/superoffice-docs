@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPocketStartupData_GetBaseLocaleTimeZoneData
-description: NSPocketStartupData.GetBaseLocaleTimeZoneData()
+description: TimeZoneData NSPocketStartupData.GetBaseLocaleTimeZoneData()
 intellisense: NSPocketStartupData.GetBaseLocaleTimeZoneData
-keywords: GetBaseLocaleTimeZoneData()
+keywords: NSPocketStartupData, GetBaseLocaleTimeZoneData
 so.topic: reference
 ---
 
 
-* **Returns:** TimeZoneData
+
+**Returns:** TimeZoneData
 
 

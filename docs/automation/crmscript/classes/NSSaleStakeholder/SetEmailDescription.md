@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetEmailDescription_String_p_0
-description: NSSaleStakeholder.SetEmailDescription(String p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetEmailDescription
+description: NSSaleStakeholder.SetEmailDescription(String emailDescription)
 intellisense: NSSaleStakeholder.SetEmailDescription
-keywords: SetEmailDescription(String)
+keywords: NSSaleStakeholder, GetEmailDescription
 so.topic: reference
 ---
 
-
 E-mail description
 
-
-
-* **EmailDescription:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **emailDescription** String
 

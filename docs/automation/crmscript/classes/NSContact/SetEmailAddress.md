@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContact_SetEmailAddress_String_p_0
-description: NSContact.SetEmailAddress(String p_0)
+﻿---
+title: crmscript_ref_NSContact_SetEmailAddress
+description: NSContact.SetEmailAddress(String emailAddress)
 intellisense: NSContact.SetEmailAddress
-sortOrder: 1754
-keywords: SetEmailAddress(String)
+keywords: NSContact, GetEmailAddress
 so.topic: reference
 ---
 
-
 The contact email address
 
-
-
-* **EmailAddress:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **emailAddress** String
 

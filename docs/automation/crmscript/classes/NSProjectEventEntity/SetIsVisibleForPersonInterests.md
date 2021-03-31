@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetIsVisibleForPersonInterests_Bool_p_0
-description: NSProjectEventEntity.SetIsVisibleForPersonInterests(Bool p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetIsVisibleForPersonInterests
+description: NSProjectEventEntity.SetIsVisibleForPersonInterests(Bool isVisibleForPersonInterests)
 intellisense: NSProjectEventEntity.SetIsVisibleForPersonInterests
-keywords: SetIsVisibleForPersonInterests(Bool)
+keywords: NSProjectEventEntity, GetIsVisibleForPersonInterests
 so.topic: reference
 ---
 
 
-* **IsVisibleForPersonInterests:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isVisibleForPersonInterests** Bool
 

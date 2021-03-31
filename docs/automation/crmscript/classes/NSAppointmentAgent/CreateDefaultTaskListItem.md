@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentAgent_CreateDefaultTaskListItem
-description: NSAppointmentAgent.CreateDefaultTaskListItem()
+description: NSTaskListItem CreateDefaultTaskListItem()
 intellisense: NSAppointmentAgent.CreateDefaultTaskListItem
-sortOrder: 902
-keywords: CreateDefaultTaskListItem()
+keywords: NSAppointmentAgent,CreateDefaultTaskListItem
 so.topic: reference
 ---
+	  
+Set default values into a new NSTaskListItem.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSTaskListItem with default values.
 
-
-Loading default values into a new TaskListItem.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New TaskListItem with default values
-
+```crmscript
+NSAppointmentAgent agent;
+NSTaskListItem thing = agent.CreateDefaultTaskListItem();
+thing = agent.SaveTaskListItem(thing);
+```
 

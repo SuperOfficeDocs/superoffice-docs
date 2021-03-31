@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPerson_GetLastname
-description: NSPerson.GetLastname()
+description: String NSPerson.GetLastname()
 intellisense: NSPerson.GetLastname
-keywords: GetLastname()
+keywords: NSPerson, GetLastname
 so.topic: reference
 ---
 
-
 Last name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

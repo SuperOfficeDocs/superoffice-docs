@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBatchTaskInfo_GetId
-description: NSBatchTaskInfo.GetId()
+description: Integer NSBatchTaskInfo.GetId()
 intellisense: NSBatchTaskInfo.GetId
-sortOrder: 1371
-keywords: GetId()
+keywords: NSBatchTaskInfo, GetId
 so.topic: reference
 ---
 
-
 Id of the task.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

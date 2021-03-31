@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLocalizedText_SetIsBuiltIn_Bool_p_0
-description: NSLocalizedText.SetIsBuiltIn(Bool p_0)
+﻿---
+title: crmscript_ref_NSLocalizedText_SetIsBuiltIn
+description: NSLocalizedText.SetIsBuiltIn(Bool isBuiltIn)
 intellisense: NSLocalizedText.SetIsBuiltIn
-keywords: SetIsBuiltIn(Bool)
+keywords: NSLocalizedText, GetIsBuiltIn
 so.topic: reference
 ---
 
-
 1 = this row is populated and maintained by SuperOffice
 
-
-
-* **IsBuiltIn:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isBuiltIn** Bool
 

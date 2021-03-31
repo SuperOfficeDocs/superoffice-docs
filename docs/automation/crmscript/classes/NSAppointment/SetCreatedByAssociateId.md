@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetCreatedByAssociateId_Integer_p_0
-description: NSAppointment.SetCreatedByAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetCreatedByAssociateId
+description: NSAppointment.SetCreatedByAssociateId(Integer createdByAssociateId)
 intellisense: NSAppointment.SetCreatedByAssociateId
-sortOrder: 785
-keywords: SetCreatedByAssociateId(Integer)
+keywords: NSAppointment, GetCreatedByAssociateId
 so.topic: reference
 ---
 
-
 Id of the associate that created the appointment
 
-
-
-* **CreatedByAssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **createdByAssociateId** Integer
 

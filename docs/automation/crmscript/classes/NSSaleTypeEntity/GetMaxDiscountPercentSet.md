@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleTypeEntity_GetMaxDiscountPercentSet
-description: NSSaleTypeEntity.GetMaxDiscountPercentSet()
+description: Bool NSSaleTypeEntity.GetMaxDiscountPercentSet()
 intellisense: NSSaleTypeEntity.GetMaxDiscountPercentSet
-keywords: GetMaxDiscountPercentSet()
+keywords: NSSaleTypeEntity, GetMaxDiscountPercentSet
 so.topic: reference
 ---
 
-
 Is there a limit, in percent, to the total discount on quotes linked to sales of this type
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

@@ -1,0 +1,13 @@
+﻿---
+title: crmscript_ref_NSChatOpeningHours_SetWedStart
+description: NSChatOpeningHours.SetWedStart(TimeSpan wedStart)
+intellisense: NSChatOpeningHours.SetWedStart
+keywords: NSChatOpeningHours, GetWedStart
+so.topic: reference
+---
+
+When opening hours start on Wednesdays. Only time-part is used.
+
+**Parameter:** 
+ - **wedStart** TimeSpan
+

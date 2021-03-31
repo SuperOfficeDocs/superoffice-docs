@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSHistoryRequest_GetEntityName
-description: NSHistoryRequest.GetEntityName()
+description: String NSHistoryRequest.GetEntityName()
 intellisense: NSHistoryRequest.GetEntityName
-sortOrder: 3944
-keywords: GetEntityName()
+keywords: NSHistoryRequest, GetEntityName
 so.topic: reference
 ---
 
-
 Name of entity to get history for
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

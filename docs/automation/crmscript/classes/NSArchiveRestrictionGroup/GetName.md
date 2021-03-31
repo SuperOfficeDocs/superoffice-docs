@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveRestrictionGroup_GetName
-description: NSArchiveRestrictionGroup.GetName()
+description: String NSArchiveRestrictionGroup.GetName()
 intellisense: NSArchiveRestrictionGroup.GetName
-sortOrder: 1205
-keywords: GetName()
+keywords: NSArchiveRestrictionGroup, GetName
 so.topic: reference
 ---
 
-
 The name of this criteria group
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

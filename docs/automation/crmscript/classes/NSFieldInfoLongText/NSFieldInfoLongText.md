@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoLongText
 description: NSFieldInfoLongText
 intellisense: Void.NSFieldInfoLongText
-sortOrder: 3517
+keywords: NSFieldInfoLongText
 so.topic: reference
 ---
 
-
 Long Text custom database field.
 
-
-
-
-1. autolist
+1. autolist 
 

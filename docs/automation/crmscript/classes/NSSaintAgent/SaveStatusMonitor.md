@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSSaintAgent_SaveStatusMonitor_NSStatusMonitor_p_0
-description: NSSaintAgent.SaveStatusMonitor(NSStatusMonitor p_0)
+﻿---
+title: crmscript_ref_NSSaintAgent_SaveStatusMonitor
+description: NSStatusMonitor SaveStatusMonitor(NSStatusMonitor statusMonitor);
 intellisense: NSSaintAgent.SaveStatusMonitor
-keywords: SaveStatusMonitor(NSStatusMonitor)
+keywords: NSSaintAgent,SaveStatusMonitor
 so.topic: reference
 ---
+	  
+Updates the existing NSStatusMonitor or creates a new NSStatusMonitor if the id parameter is 0
+	  
+**Parameters**:
+ - **statusMonitor** The NSStatusMonitor to save.
 
+**Returns:** New or updated NSStatusMonitor
 
-Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is empty
-
-
-
-* **statusMonitor:** The StatusMonitor that is saved
-* **Returns:** New or updated StatusMonitor
-
+```crmscript
+NSSaint  agent;
+NSStatusMonitor thing = agent.CreateDefaultStatusMonitor();
+thing = agent.SaveStatusMonitor(thing);
+```
 

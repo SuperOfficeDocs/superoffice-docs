@@ -1,21 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetOpen_Integer_p_0
-description: NSSaleSummary.SetOpen(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetOpen
+description: NSSaleSummary.SetOpen(Integer open)
 intellisense: NSSaleSummary.SetOpen
-keywords: SetOpen(Integer)
+keywords: NSSaleSummary, GetOpen
 so.topic: reference
 ---
 
+Number of all open within the period 
 
-Number of all open within the period
-
-
-    	///
-    
-
-
-
-* **Open:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **open** Integer
 

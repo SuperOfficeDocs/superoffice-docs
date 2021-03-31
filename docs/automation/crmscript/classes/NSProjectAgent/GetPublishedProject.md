@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSProjectAgent_GetPublishedProject_Integer_p_0
-description: NSProjectAgent.GetPublishedProject(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_GetPublishedProject
+description: Project GetPublishedProject(Integer projectId)
 intellisense: NSProjectAgent.GetPublishedProject
-keywords: GetPublishedProject(Integer)
+keywords: NSProjectAgent,GetPublishedProject
 so.topic: reference
 ---
 
-
 Get published project by project id.
 
+**Parameters:**
+ - **projectId** The project id.
 
+**Returns:** Project
 
-* **projectId:** The project id.
-* **Returns:** Project
-
+```crmscript
+NSProjectAgent agent;
+Integer projectId;
+Project res = agent.GetPublishedProject(projectId);
+```
 

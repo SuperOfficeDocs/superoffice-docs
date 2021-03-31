@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCRMScriptEntity_SetRegisteredAssociateId_Integer_p_0
-description: NSCRMScriptEntity.SetRegisteredAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptEntity_SetRegisteredAssociateId
+description: NSCRMScriptEntity.SetRegisteredAssociateId(Integer registeredAssociateId)
 intellisense: NSCRMScriptEntity.SetRegisteredAssociateId
-sortOrder: 2144
-keywords: SetRegisteredAssociateId(Integer)
+keywords: NSCRMScriptEntity, GetRegisteredAssociateId
 so.topic: reference
 ---
 
-
 Registered by whom
 
-
-
-* **RegisteredAssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **registeredAssociateId** Integer
 

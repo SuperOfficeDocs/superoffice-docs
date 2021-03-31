@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketDeviceInfo_SetLanguage_String_p_0
-description: NSPocketDeviceInfo.SetLanguage(String p_0)
+﻿---
+title: crmscript_ref_NSPocketDeviceInfo_SetLanguage
+description: NSPocketDeviceInfo.SetLanguage(String language)
 intellisense: NSPocketDeviceInfo.SetLanguage
-keywords: SetLanguage(String)
+keywords: NSPocketDeviceInfo, GetLanguage
 so.topic: reference
 ---
 
-
 The language which this device will receive notifications translated in
 
-
-
-* **Language:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **language** String
 

@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSPersonAgent_SaveConsentPerson_NSConsentPerson_p_0
-description: NSPersonAgent.SaveConsentPerson(NSConsentPerson p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_SaveConsentPerson
+description: NSConsentPerson SaveConsentPerson(NSConsentPerson consentPerson);
 intellisense: NSPersonAgent.SaveConsentPerson
-keywords: SaveConsentPerson(NSConsentPerson)
+keywords: NSPersonAgent,SaveConsentPerson
 so.topic: reference
 ---
+	  
+Updates the existing NSConsentPerson or creates a new NSConsentPerson if the id parameter is 0
+	  
+**Parameters**:
+ - **consentPerson** The NSConsentPerson to save.
 
+**Returns:** New or updated NSConsentPerson
 
-Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty
-
-
-
-* **consentPerson:** The ConsentPerson that is saved
-* **Returns:** New or updated ConsentPerson
-
+```crmscript
+NSPerson  agent;
+NSConsentPerson thing = agent.CreateDefaultConsentPerson();
+thing = agent.SaveConsentPerson(thing);
+```
 

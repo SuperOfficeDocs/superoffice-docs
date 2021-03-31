@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSChatSummaryItem_SetFirstMessage_String_p_0
-description: NSChatSummaryItem.SetFirstMessage(String p_0)
+﻿---
+title: crmscript_ref_NSChatSummaryItem_SetFirstMessage
+description: NSChatSummaryItem.SetFirstMessage(String firstMessage)
 intellisense: NSChatSummaryItem.SetFirstMessage
-sortOrder: 1544
-keywords: SetFirstMessage(String)
+keywords: NSChatSummaryItem, GetFirstMessage
 so.topic: reference
 ---
 
-
 A copy of the first message in the chat session
 
-
-
-* **FirstMessage:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **firstMessage** String
 

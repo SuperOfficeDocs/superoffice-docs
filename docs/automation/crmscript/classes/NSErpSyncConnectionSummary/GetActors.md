@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncConnectionSummary_GetActors
-description: NSErpSyncConnectionSummary.GetActors()
+description: ErpSyncActorSummaryArray NSErpSyncConnectionSummary.GetActors()
 intellisense: NSErpSyncConnectionSummary.GetActors
-sortOrder: 3230
-keywords: GetActors()
+keywords: NSErpSyncConnectionSummary, GetActors
 so.topic: reference
 ---
 
-
 Summaries of the configuration of the actors configured for this connection
 
-
-
-* **Returns:** ErpSyncActorSummaryArray
+**Returns:** ErpSyncActorSummaryArray
 
 

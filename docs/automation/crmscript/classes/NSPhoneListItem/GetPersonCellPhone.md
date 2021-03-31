@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPhoneListItem_GetPersonCellPhone
-description: NSPhoneListItem.GetPersonCellPhone()
+description: String NSPhoneListItem.GetPersonCellPhone()
 intellisense: NSPhoneListItem.GetPersonCellPhone
-keywords: GetPersonCellPhone()
+keywords: NSPhoneListItem, GetPersonCellPhone
 so.topic: reference
 ---
 
-
 Person Cell Phone
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

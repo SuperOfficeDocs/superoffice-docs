@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSErpSyncAgent_GetConnectionListMappings_Integer_p_0
-description: NSErpSyncAgent.GetConnectionListMappings(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_GetConnectionListMappings
+description: ErpConnectionListMappingContainer GetConnectionListMappings(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.GetConnectionListMappings
-sortOrder: 3195
-keywords: GetConnectionListMappings(Integer)
+keywords: NSErpSyncAgent,GetConnectionListMappings
 so.topic: reference
 ---
 
-
 Returns the listmappings for the specified connection.
 
+**Parameters:**
+ - **erpConnectionId** Primary key of the connection
 
+**Returns:** The listmappings
 
-* **erpConnectionId:** Primary key of the connection
-* **Returns:** The listmappings
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+ErpConnectionListMappingContainer res = agent.GetConnectionListMappings(erpConnectionId);
+```
 

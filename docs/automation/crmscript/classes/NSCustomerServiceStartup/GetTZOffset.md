@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCustomerServiceStartup_GetTZOffset
-description: NSCustomerServiceStartup.GetTZOffset()
+description: Integer NSCustomerServiceStartup.GetTZOffset()
 intellisense: NSCustomerServiceStartup.GetTZOffset
-sortOrder: 2253
-keywords: GetTZOffset()
+keywords: NSCustomerServiceStartup, GetTZOffset
 so.topic: reference
 ---
 
-
 The offset in minutes compared with UTC, calculated for DateTime.Now
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

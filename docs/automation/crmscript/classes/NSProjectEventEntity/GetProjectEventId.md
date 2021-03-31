@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEventEntity_GetProjectEventId
-description: NSProjectEventEntity.GetProjectEventId()
+description: Integer NSProjectEventEntity.GetProjectEventId()
 intellisense: NSProjectEventEntity.GetProjectEventId
-keywords: GetProjectEventId()
+keywords: NSProjectEventEntity, GetProjectEventId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

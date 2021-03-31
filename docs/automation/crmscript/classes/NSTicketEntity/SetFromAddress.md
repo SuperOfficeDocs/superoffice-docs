@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetFromAddress_String_p_0
-description: NSTicketEntity.SetFromAddress(String p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetFromAddress
+description: NSTicketEntity.SetFromAddress(String fromAddress)
 intellisense: NSTicketEntity.SetFromAddress
-keywords: SetFromAddress(String)
+keywords: NSTicketEntity, GetFromAddress
 so.topic: reference
 ---
 
-
 The from-address used when this ticket got created, e.g. by email
 
-
-
-* **FromAddress:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fromAddress** String
 

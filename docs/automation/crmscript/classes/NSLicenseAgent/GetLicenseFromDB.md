@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSLicenseAgent_GetLicenseFromDB_String_p_0
-description: NSLicenseAgent.GetLicenseFromDB(String p_0)
+﻿---
+title: crmscript_ref_NSLicenseAgent_GetLicenseFromDB
+description: ExtendedLicenseInfo GetLicenseFromDB(String ownerName)
 intellisense: NSLicenseAgent.GetLicenseFromDB
-keywords: GetLicenseFromDB(String)
+keywords: NSLicenseAgent,GetLicenseFromDB
 so.topic: reference
 ---
 
-
 Get license, with usage, as it is stored in the database for one particular module owner.
 
+**Parameters:**
+ - **ownerName** Name of the module owner.
 
+**Returns:** License, with usage, as it is stored in the database.
 
-* **ownerName:** Name of the module owner.
-* **Returns:** License, with usage, as it is stored in the database.
-
+```crmscript
+NSLicenseAgent agent;
+String ownerName;
+ExtendedLicenseInfo res = agent.GetLicenseFromDB(ownerName);
+```
 

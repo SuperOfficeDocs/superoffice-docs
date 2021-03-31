@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSContact
 description: NSContact
 intellisense: Void.NSContact
-sortOrder: 1716
+keywords: NSContact
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

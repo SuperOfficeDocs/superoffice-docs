@@ -1,18 +1,18 @@
----
-title: crmscript_ref_NSDashboardTile_SetType_Integer_p_0
-description: NSDashboardTile.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetType
+description: NSDashboardTile.SetType(Integer type)
 intellisense: NSDashboardTile.SetType
-sortOrder: 2314
-keywords: SetType(Integer)
+keywords: NSDashboardTile, GetType
 so.topic: reference
 ---
 
-
 The tile type, what kind of tile this is
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Chart 
+     - Enum: 2 = Web 
+     - Enum: 3 = List 
+     - Enum: 4 = Bignum 
 

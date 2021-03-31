@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSLicenseAgent_GetLicenseStatusFromLicenseServer_String_p_0
-description: NSLicenseAgent.GetLicenseStatusFromLicenseServer(String p_0)
+﻿---
+title: crmscript_ref_NSLicenseAgent_GetLicenseStatusFromLicenseServer
+description: CheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String ownerName)
 intellisense: NSLicenseAgent.GetLicenseStatusFromLicenseServer
-keywords: GetLicenseStatusFromLicenseServer(String)
+keywords: NSLicenseAgent,GetLicenseStatusFromLicenseServer
 so.topic: reference
 ---
 
-
 Get License from the license server for a particular module owner.
 
+**Parameters:**
+ - **ownerName** Name of the module owner to get license from.
 
+**Returns:** License from the database, from the license server and with usage.
 
-* **ownerName:** Name of the module owner to get license from.
-* **Returns:** License from the database, from the license server and with usage.
-
+```crmscript
+NSLicenseAgent agent;
+String ownerName;
+CheckLicenseStatusResult res = agent.GetLicenseStatusFromLicenseServer(ownerName);
+```
 

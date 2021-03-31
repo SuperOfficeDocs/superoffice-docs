@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetAssociateFullName_String_p_0
-description: NSProjectEvent.SetAssociateFullName(String p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetAssociateFullName
+description: NSProjectEvent.SetAssociateFullName(String associateFullName)
 intellisense: NSProjectEvent.SetAssociateFullName
-keywords: SetAssociateFullName(String)
+keywords: NSProjectEvent, GetAssociateFullName
 so.topic: reference
 ---
 
-
 Name of the person that ows the event (i.e. project)
 
-
-
-* **AssociateFullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **associateFullName** String
 

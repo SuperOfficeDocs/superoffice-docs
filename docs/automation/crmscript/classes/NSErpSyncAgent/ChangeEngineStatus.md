@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSErpSyncAgent_ChangeEngineStatus_Bool_p_0
-description: NSErpSyncAgent.ChangeEngineStatus(Bool p_0)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_ChangeEngineStatus
+description: ErpSyncEngineStatus ChangeEngineStatus(Bool run)
 intellisense: NSErpSyncAgent.ChangeEngineStatus
-sortOrder: 3205
-keywords: ChangeEngineStatus(Bool)
+keywords: NSErpSyncAgent,ChangeEngineStatus
 so.topic: reference
 ---
 
-
 Change the current running/stopped status of the Sync engine
 
+**Parameters:**
+ - **run** If true, then start the engine; otherwise stop it (requests to the Batch system, may not be immediately reflected)
 
+**Returns:** The current status of the engine
 
-* **run:** If true, then start the engine; otherwise stop it (requests to the Batch system, may not be immediately reflected)
-* **Returns:** The current status of the engine
-
+```crmscript
+NSErpSyncAgent agent;
+Bool run;
+ErpSyncEngineStatus res = agent.ChangeEngineStatus(run);
+```
 

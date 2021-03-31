@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentInfo_SetComment_String_p_0
-description: NSConsentInfo.SetComment(String p_0)
+﻿---
+title: crmscript_ref_NSConsentInfo_SetComment
+description: NSConsentInfo.SetComment(String comment)
 intellisense: NSConsentInfo.SetComment
-sortOrder: 1643
-keywords: SetComment(String)
+keywords: NSConsentInfo, GetComment
 so.topic: reference
 ---
 
-
 Comment regarding this specific consent
 
-
-
-* **Comment:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **comment** String
 

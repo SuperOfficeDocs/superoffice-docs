@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetMrmrs_String_p_0
-description: NSPerson.SetMrmrs(String p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetMrmrs
+description: NSPerson.SetMrmrs(String mrmrs)
 intellisense: NSPerson.SetMrmrs
-keywords: SetMrmrs(String)
+keywords: NSPerson, GetMrmrs
 so.topic: reference
 ---
 
+e.g. Mrs   sex_title
 
-e.g. Mrs   sex\_title
-
-
-
-* **Mrmrs:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **mrmrs** String
 

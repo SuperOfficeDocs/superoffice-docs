@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketMessage_SetTicketMessageId_Integer_p_0
-description: NSTicketMessage.SetTicketMessageId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketMessage_SetTicketMessageId
+description: NSTicketMessage.SetTicketMessageId(Integer ticketMessageId)
 intellisense: NSTicketMessage.SetTicketMessageId
-keywords: SetTicketMessageId(Integer)
+keywords: NSTicketMessage, GetTicketMessageId
 so.topic: reference
 ---
 
-
 The primary key (auto-incremented)
 
-
-
-* **TicketMessageId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **ticketMessageId** Integer
 

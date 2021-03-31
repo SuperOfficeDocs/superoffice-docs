@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldTop
-description: NSUserDefinedFieldInfo.GetFieldTop()
+description: Integer NSUserDefinedFieldInfo.GetFieldTop()
 intellisense: NSUserDefinedFieldInfo.GetFieldTop
-keywords: GetFieldTop()
+keywords: NSUserDefinedFieldInfo, GetFieldTop
 so.topic: reference
 ---
 
-
 Y pixel coordinate of field
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

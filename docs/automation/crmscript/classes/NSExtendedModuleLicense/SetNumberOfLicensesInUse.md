@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesInUse_Integer_p_0
-description: NSExtendedModuleLicense.SetNumberOfLicensesInUse(Integer p_0)
+﻿---
+title: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesInUse
+description: NSExtendedModuleLicense.SetNumberOfLicensesInUse(Integer numberOfLicensesInUse)
 intellisense: NSExtendedModuleLicense.SetNumberOfLicensesInUse
-sortOrder: 3429
-keywords: SetNumberOfLicensesInUse(Integer)
+keywords: NSExtendedModuleLicense, GetNumberOfLicensesInUse
 so.topic: reference
 ---
 
 
-* **NumberOfLicensesInUse:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **numberOfLicensesInUse** Integer
 

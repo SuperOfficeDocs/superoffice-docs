@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedAppointment_GetRegisteredAssociateId
-description: NSSuggestedAppointment.GetRegisteredAssociateId()
+description: Integer NSSuggestedAppointment.GetRegisteredAssociateId()
 intellisense: NSSuggestedAppointment.GetRegisteredAssociateId
-keywords: GetRegisteredAssociateId()
+keywords: NSSuggestedAppointment, GetRegisteredAssociateId
 so.topic: reference
 ---
 
-
 Registered by whom
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

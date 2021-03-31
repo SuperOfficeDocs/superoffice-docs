@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveRestrictionInfo_GetOperator
-description: NSArchiveRestrictionInfo.GetOperator()
+description: String NSArchiveRestrictionInfo.GetOperator()
 intellisense: NSArchiveRestrictionInfo.GetOperator
-sortOrder: 1222
-keywords: GetOperator()
+keywords: NSArchiveRestrictionInfo, GetOperator
 so.topic: reference
 ---
 
-
 The operator, such as =, etc
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

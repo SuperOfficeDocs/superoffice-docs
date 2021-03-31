@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactRelationEntity_SetCreatedDate_DateTime_p_0
-description: NSContactRelationEntity.SetCreatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSContactRelationEntity_SetCreatedDate
+description: NSContactRelationEntity.SetCreatedDate(DateTime createdDate)
 intellisense: NSContactRelationEntity.SetCreatedDate
-sortOrder: 1965
-keywords: SetCreatedDate(DateTime)
+keywords: NSContactRelationEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdDate** DateTime
 

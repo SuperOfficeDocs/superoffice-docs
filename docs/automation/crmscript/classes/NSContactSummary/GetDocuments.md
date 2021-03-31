@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactSummary_GetDocuments
-description: NSContactSummary.GetDocuments()
+description: ActivitySummaryItemArray NSContactSummary.GetDocuments()
 intellisense: NSContactSummary.GetDocuments
-sortOrder: 1982
-keywords: GetDocuments()
+keywords: NSContactSummary, GetDocuments
 so.topic: reference
 ---
 
-
 Recent documents on contact
 
-
-
-* **Returns:** ActivitySummaryItemArray
+**Returns:** ActivitySummaryItemArray
 
 

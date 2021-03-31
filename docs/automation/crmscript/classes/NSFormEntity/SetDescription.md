@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetDescription_String_p_0
-description: NSFormEntity.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetDescription
+description: NSFormEntity.SetDescription(String description)
 intellisense: NSFormEntity.SetDescription
-sortOrder: 3808
-keywords: SetDescription(String)
+keywords: NSFormEntity, GetDescription
 so.topic: reference
 ---
 
-
 Detailed description
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

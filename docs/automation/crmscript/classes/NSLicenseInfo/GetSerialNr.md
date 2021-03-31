@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLicenseInfo_GetSerialNr
-description: NSLicenseInfo.GetSerialNr()
+description: String NSLicenseInfo.GetSerialNr()
 intellisense: NSLicenseInfo.GetSerialNr
-keywords: GetSerialNr()
+keywords: NSLicenseInfo, GetSerialNr
 so.topic: reference
 ---
 
-
 Serial number. e.g.: 1010000014.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

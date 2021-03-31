@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleStakeholder_GetSaleStakeholderId
-description: NSSaleStakeholder.GetSaleStakeholderId()
+description: Integer NSSaleStakeholder.GetSaleStakeholderId()
 intellisense: NSSaleStakeholder.GetSaleStakeholderId
-keywords: GetSaleStakeholderId()
+keywords: NSSaleStakeholder, GetSaleStakeholderId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

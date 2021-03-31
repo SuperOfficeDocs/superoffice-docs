@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSNumberAllocationAgent_DeleteRefCountEntity_Integer_p_0
-description: NSNumberAllocationAgent.DeleteRefCountEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSNumberAllocationAgent_DeleteRefCountEntity
+description: DeleteRefCountEntity(Integer refCountEntity);
 intellisense: NSNumberAllocationAgent.DeleteRefCountEntity
-keywords: DeleteRefCountEntity(Integer)
+keywords: NSNumberAllocationAgent,DeleteRefCountEntity
 so.topic: reference
 ---
 
+Deletes the NSRefCountEntity
+  
+**Parameters:**
+ - **refCountEntityId** The identity of the RefCountEntity to delete.
 
-Deletes the RefCountEntity
-
-
-
-* **refCountEntityId:** The identity of the RefCountEntity
-
+```crmscript
+NSNumberAllocationAgent agent;
+agent.DeleteRefCountEntity(123);
+```
 

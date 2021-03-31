@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetCode_String_p_0
-description: NSQuoteLine.SetCode(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetCode
+description: NSQuoteLine.SetCode(String code)
 intellisense: NSQuoteLine.SetCode
-keywords: SetCode(String)
+keywords: NSQuoteLine, GetCode
 so.topic: reference
 ---
 
-
 A value the salesmen use to quickly find the correct product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.
 
-
-
-* **Code:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **code** String
 

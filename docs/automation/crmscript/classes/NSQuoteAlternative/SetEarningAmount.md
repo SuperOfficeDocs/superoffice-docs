@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteAlternative_SetEarningAmount_Float_p_0
-description: NSQuoteAlternative.SetEarningAmount(Float p_0)
+﻿---
+title: crmscript_ref_NSQuoteAlternative_SetEarningAmount
+description: NSQuoteAlternative.SetEarningAmount(Float earningAmount)
 intellisense: NSQuoteAlternative.SetEarningAmount
-keywords: SetEarningAmount(Float)
+keywords: NSQuoteAlternative, GetEarningAmount
 so.topic: reference
 ---
 
-
 Earning on this alternative, as an absolute amount
 
-
-
-* **EarningAmount:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **earningAmount** Float
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveColumnInfo_SetIsVisible_Bool_p_0
-description: NSArchiveColumnInfo.SetIsVisible(Bool p_0)
+﻿---
+title: crmscript_ref_NSArchiveColumnInfo_SetIsVisible
+description: NSArchiveColumnInfo.SetIsVisible(Bool isVisible)
 intellisense: NSArchiveColumnInfo.SetIsVisible
-sortOrder: 1159
-keywords: SetIsVisible(Bool)
+keywords: NSArchiveColumnInfo, GetIsVisible
 so.topic: reference
 ---
 
-
 Is this column visible to the user in configuration dialogs etc
 
-
-
-* **IsVisible:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isVisible** Bool
 

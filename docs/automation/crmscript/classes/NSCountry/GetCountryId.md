@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCountry_GetCountryId
-description: NSCountry.GetCountryId()
+description: Integer NSCountry.GetCountryId()
 intellisense: NSCountry.GetCountryId
-sortOrder: 2014
-keywords: GetCountryId()
+keywords: NSCountry, GetCountryId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

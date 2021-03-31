@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSResourceOverride_SetResourceValue_String_p_0
-description: NSResourceOverride.SetResourceValue(String p_0)
+﻿---
+title: crmscript_ref_NSResourceOverride_SetResourceValue
+description: NSResourceOverride.SetResourceValue(String resourceValue)
 intellisense: NSResourceOverride.SetResourceValue
-keywords: SetResourceValue(String)
+keywords: NSResourceOverride, GetResourceValue
 so.topic: reference
 ---
 
-
 The value of the resource in the given culture
 
-
-
-* **ResourceValue:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **resourceValue** String
 

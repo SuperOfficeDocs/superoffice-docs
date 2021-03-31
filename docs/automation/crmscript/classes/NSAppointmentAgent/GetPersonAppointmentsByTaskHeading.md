@@ -1,23 +1,31 @@
----
-title: crmscript_ref_NSAppointmentAgent_GetPersonAppointmentsByTaskHeading_Integer_p_0_Bool_p_1_DateTime_p_2_DateTime_p_3_Integer_p_4_Integer_p_5
-description: NSAppointmentAgent.GetPersonAppointmentsByTaskHeading(Integer p_0, Bool p_1, DateTime p_2, DateTime p_3, Integer p_4, Integer p_5)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_GetPersonAppointmentsByTaskHeading
+description: AppointmentArray GetPersonAppointmentsByTaskHeading(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
 intellisense: NSAppointmentAgent.GetPersonAppointmentsByTaskHeading
-sortOrder: 854
-keywords: GetPersonAppointmentsByTaskHeading(Integer,Bool,DateTime,DateTime,Integer,Integer)
+keywords: NSAppointmentAgent,GetPersonAppointmentsByTaskHeading
 so.topic: reference
 ---
 
-
 Method that returns a specified number of appointments of a specific appointment task heading within a time range. The appointments belong to the person specified.  Task represents the different types of activities, like “Phone call”, “Meeting” and so on. The heading represents a grouping or filtering of tasks.
 
+**Parameters:**
+ - **personId** The person id of the SuperOffice user (associate).
+ - **includeProjectAppointments** If true, all appointments that belong to projects where the user is a project member are included as well as the appointments belonging to the person.
+ - **startTime** The start of the time interval we want appointments from. This will usually be the current time.
+ - **endTime** The end of the time interval.
+ - **count** The maximum number of appointments that should be returned. -1 means no count restrictions.
+ - **taskHeadingId** The task heading id. The heading represents a grouping or filtering of tasks. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
 
+**Returns:** Array of Appointments.
 
-* **personId:** The person id of the SuperOffice user (associate).
-* **includeProjectAppointments:** If true, all appointments that belong to projects where the user is a project member are included as well as the appointments belonging to the person.
-* **startTime:** The start of the time interval we want appointments from. This will usually be the current time.
-* **endTime:** The end of the time interval.
-* **count:** The maximum number of appointments that should be returned. -1 means no count restrictions.
-* **taskHeadingId:** The task heading id. The heading represents a grouping or filtering of tasks. Task represents the different types of activities, like “Phone call”, “Meeting” and so on.
-* **Returns:** Array of Appointments.
-
+```crmscript
+NSAppointmentAgent agent;
+Integer personId;
+Bool includeProjectAppointments;
+DateTime startTime;
+DateTime endTime;
+Integer count;
+Integer taskHeadingId;
+AppointmentArray res = agent.GetPersonAppointmentsByTaskHeading(personId, includeProjectAppointments, startTime, endTime, count, taskHeadingId);
+```
 

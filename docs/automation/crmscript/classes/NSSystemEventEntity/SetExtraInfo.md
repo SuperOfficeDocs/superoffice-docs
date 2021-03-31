@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSystemEventEntity_SetExtraInfo_Integer_p_0
-description: NSSystemEventEntity.SetExtraInfo(Integer p_0)
+﻿---
+title: crmscript_ref_NSSystemEventEntity_SetExtraInfo
+description: NSSystemEventEntity.SetExtraInfo(Integer extraInfo)
 intellisense: NSSystemEventEntity.SetExtraInfo
-keywords: SetExtraInfo(Integer)
+keywords: NSSystemEventEntity, GetExtraInfo
 so.topic: reference
 ---
 
-
 Extra information (area id for prototype rebuild, etc)
 
-
-
-* **ExtraInfo:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **extraInfo** Integer
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAccount_GetAssociateId
-description: NSEMailAccount.GetAssociateId()
+description: Integer NSEMailAccount.GetAssociateId()
 intellisense: NSEMailAccount.GetAssociateId
-sortOrder: 2745
-keywords: GetAssociateId()
+keywords: NSEMailAccount, GetAssociateId
 so.topic: reference
 ---
 
-
 Id of the associate who owns this account
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

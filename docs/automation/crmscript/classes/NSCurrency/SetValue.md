@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSCurrency_SetValue_String_p_0
-description: NSCurrency.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSCurrency_SetValue
+description: NSCurrency.SetValue(String value)
 intellisense: NSCurrency.SetValue
-sortOrder: 2176
-keywords: SetValue(String)
+keywords: NSCurrency, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetContactName_String_p_0
-description: NSAppointmentSyncData.SetContactName(String p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetContactName
+description: NSAppointmentSyncData.SetContactName(String contactName)
 intellisense: NSAppointmentSyncData.SetContactName
-sortOrder: 1072
-keywords: SetContactName(String)
+keywords: NSAppointmentSyncData, GetContactName
 so.topic: reference
 ---
 
-
 The contact associated with the appointment.
 
-
-
-* **ContactName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactName** String
 

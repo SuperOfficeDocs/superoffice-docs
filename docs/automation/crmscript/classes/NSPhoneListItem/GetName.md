@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPhoneListItem_GetName
-description: NSPhoneListItem.GetName()
+description: String NSPhoneListItem.GetName()
 intellisense: NSPhoneListItem.GetName
-keywords: GetName()
+keywords: NSPhoneListItem, GetName
 so.topic: reference
 ---
 
-
 The contact or person's name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

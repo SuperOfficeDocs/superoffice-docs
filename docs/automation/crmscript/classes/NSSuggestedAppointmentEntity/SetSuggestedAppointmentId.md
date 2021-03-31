@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointmentEntity_SetSuggestedAppointmentId_Integer_p_0
-description: NSSuggestedAppointmentEntity.SetSuggestedAppointmentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointmentEntity_SetSuggestedAppointmentId
+description: NSSuggestedAppointmentEntity.SetSuggestedAppointmentId(Integer suggestedAppointmentId)
 intellisense: NSSuggestedAppointmentEntity.SetSuggestedAppointmentId
-keywords: SetSuggestedAppointmentId(Integer)
+keywords: NSSuggestedAppointmentEntity, GetSuggestedAppointmentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **SuggestedAppointmentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **suggestedAppointmentId** Integer
 

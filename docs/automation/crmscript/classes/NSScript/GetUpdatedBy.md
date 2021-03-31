@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSScript_GetUpdatedBy
-description: NSScript.GetUpdatedBy()
+description: String NSScript.GetUpdatedBy()
 intellisense: NSScript.GetUpdatedBy
-keywords: GetUpdatedBy()
+keywords: NSScript, GetUpdatedBy
 so.topic: reference
 ---
 
-
 Who updated this script
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

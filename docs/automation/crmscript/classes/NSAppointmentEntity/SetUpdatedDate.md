@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetUpdatedDate_DateTime_p_0
-description: NSAppointmentEntity.SetUpdatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetUpdatedDate
+description: NSAppointmentEntity.SetUpdatedDate(DateTime updatedDate)
 intellisense: NSAppointmentEntity.SetUpdatedDate
-sortOrder: 1035
-keywords: SetUpdatedDate(DateTime)
+keywords: NSAppointmentEntity, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Updated date
 
-
-
-* **UpdatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updatedDate** DateTime
 

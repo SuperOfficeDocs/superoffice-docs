@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSParticipantSyncData_GetStreetAddress
-description: NSParticipantSyncData.GetStreetAddress()
+description: AddressSyncData NSParticipantSyncData.GetStreetAddress()
 intellisense: NSParticipantSyncData.GetStreetAddress
-keywords: GetStreetAddress()
+keywords: NSParticipantSyncData, GetStreetAddress
 so.topic: reference
 ---
 
 
-* **Returns:** AddressSyncData
+
+**Returns:** AddressSyncData
 
 

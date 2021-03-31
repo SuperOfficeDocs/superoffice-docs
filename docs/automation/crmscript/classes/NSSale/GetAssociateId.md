@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSale_GetAssociateId
-description: NSSale.GetAssociateId()
+description: Integer NSSale.GetAssociateId()
 intellisense: NSSale.GetAssociateId
-keywords: GetAssociateId()
+keywords: NSSale, GetAssociateId
 so.topic: reference
 ---
 
-
 The sale's owner id
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

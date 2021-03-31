@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWindowPosSize_GetHeight
-description: NSWindowPosSize.GetHeight()
+description: Integer NSWindowPosSize.GetHeight()
 intellisense: NSWindowPosSize.GetHeight
-keywords: GetHeight()
+keywords: NSWindowPosSize, GetHeight
 so.topic: reference
 ---
 
-
 The height of the widget
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

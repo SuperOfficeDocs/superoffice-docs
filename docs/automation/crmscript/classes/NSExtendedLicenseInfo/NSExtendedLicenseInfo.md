@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSExtendedLicenseInfo
 description: NSExtendedLicenseInfo
 intellisense: Void.NSExtendedLicenseInfo
-sortOrder: 3401
+keywords: NSExtendedLicenseInfo
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

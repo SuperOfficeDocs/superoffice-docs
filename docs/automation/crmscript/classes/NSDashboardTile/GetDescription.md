@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTile_GetDescription
-description: NSDashboardTile.GetDescription()
+description: String NSDashboardTile.GetDescription()
 intellisense: NSDashboardTile.GetDescription
-sortOrder: 2300
-keywords: GetDescription()
+keywords: NSDashboardTile, GetDescription
 so.topic: reference
 ---
 
-
 The tile description
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

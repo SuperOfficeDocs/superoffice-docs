@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStageEntity_SetRank_Integer_p_0
-description: NSSaleStageEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleStageEntity_SetRank
+description: NSSaleStageEntity.SetRank(Integer rank)
 intellisense: NSSaleStageEntity.SetRank
-keywords: SetRank(Integer)
+keywords: NSSaleStageEntity, GetRank
 so.topic: reference
 ---
 
-
 Rank order
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetUnrestricted_Bool_p_0
-description: NSModuleLicenseLink.SetUnrestricted(Bool p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetUnrestricted
+description: NSModuleLicenseLink.SetUnrestricted(Bool unrestricted)
 intellisense: NSModuleLicenseLink.SetUnrestricted
-keywords: SetUnrestricted(Bool)
+keywords: NSModuleLicenseLink, GetUnrestricted
 so.topic: reference
 ---
 
-
 Is this module license restricted or unrestricted
 
-
-
-* **Unrestricted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **unrestricted** Bool
 

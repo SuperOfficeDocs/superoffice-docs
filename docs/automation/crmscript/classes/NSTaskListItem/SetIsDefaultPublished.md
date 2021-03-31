@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTaskListItem_SetIsDefaultPublished_Bool_p_0
-description: NSTaskListItem.SetIsDefaultPublished(Bool p_0)
+﻿---
+title: crmscript_ref_NSTaskListItem_SetIsDefaultPublished
+description: NSTaskListItem.SetIsDefaultPublished(Bool isDefaultPublished)
 intellisense: NSTaskListItem.SetIsDefaultPublished
-keywords: SetIsDefaultPublished(Bool)
+keywords: NSTaskListItem, GetIsDefaultPublished
 so.topic: reference
 ---
 
-
 Published to external persons
 
-
-
-* **IsDefaultPublished:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isDefaultPublished** Bool
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTemplateVariablesParameters_SetAppointmentId_Integer_p_0
-description: NSTemplateVariablesParameters.SetAppointmentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTemplateVariablesParameters_SetAppointmentId
+description: NSTemplateVariablesParameters.SetAppointmentId(Integer appointmentId)
 intellisense: NSTemplateVariablesParameters.SetAppointmentId
-keywords: SetAppointmentId(Integer)
+keywords: NSTemplateVariablesParameters, GetAppointmentId
 so.topic: reference
 ---
 
-
 Identifier for an appointment
 
-
-
-* **AppointmentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **appointmentId** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescription_SetTableName_String_p_0
-description: NSPreferenceDescription.SetTableName(String p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescription_SetTableName
+description: NSPreferenceDescription.SetTableName(String tableName)
 intellisense: NSPreferenceDescription.SetTableName
-keywords: SetTableName(String)
+keywords: NSPreferenceDescription, GetTableName
 so.topic: reference
 ---
 
-
 If valueType = 5, then TableName contains the table referenced by the preference
 
-
-
-* **TableName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tableName** String
 

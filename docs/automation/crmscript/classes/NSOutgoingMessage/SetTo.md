@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSOutgoingMessage_SetTo_String_p_0
-description: NSOutgoingMessage.SetTo(String p_0)
+﻿---
+title: crmscript_ref_NSOutgoingMessage_SetTo
+description: NSOutgoingMessage.SetTo(String to)
 intellisense: NSOutgoingMessage.SetTo
-keywords: SetTo(String)
+keywords: NSOutgoingMessage, GetTo
 so.topic: reference
 ---
 
-
 Address of the recipient. This can be in the form of phone number or email.
 
-
-
-* **To:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **to** String
 

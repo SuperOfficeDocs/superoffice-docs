@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSale_GetProjectName
-description: NSSale.GetProjectName()
+description: String NSSale.GetProjectName()
 intellisense: NSSale.GetProjectName
-keywords: GetProjectName()
+keywords: NSSale, GetProjectName
 so.topic: reference
 ---
 
-
 Project name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

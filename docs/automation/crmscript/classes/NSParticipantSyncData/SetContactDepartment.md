@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetContactDepartment_String_p_0
-description: NSParticipantSyncData.SetContactDepartment(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetContactDepartment
+description: NSParticipantSyncData.SetContactDepartment(String contactDepartment)
 intellisense: NSParticipantSyncData.SetContactDepartment
-keywords: SetContactDepartment(String)
+keywords: NSParticipantSyncData, GetContactDepartment
 so.topic: reference
 ---
 
-
 Department
 
-
-
-* **ContactDepartment:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactDepartment** String
 

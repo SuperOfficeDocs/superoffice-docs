@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSProjectStatus_GetValue
-description: NSProjectStatus.GetValue()
+description: String NSProjectStatus.GetValue()
 intellisense: NSProjectStatus.GetValue
-keywords: GetValue()
+keywords: NSProjectStatus, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

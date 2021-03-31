@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentPurpose_SetPrivacyStatementUrl_String_p_0
-description: NSConsentPurpose.SetPrivacyStatementUrl(String p_0)
+﻿---
+title: crmscript_ref_NSConsentPurpose_SetPrivacyStatementUrl
+description: NSConsentPurpose.SetPrivacyStatementUrl(String privacyStatementUrl)
 intellisense: NSConsentPurpose.SetPrivacyStatementUrl
-sortOrder: 1695
-keywords: SetPrivacyStatementUrl(String)
+keywords: NSConsentPurpose, GetPrivacyStatementUrl
 so.topic: reference
 ---
 
-
 Url referencing the actual privacy statement
 
-
-
-* **PrivacyStatementUrl:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **privacyStatementUrl** String
 

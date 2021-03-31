@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuote_GetSaleId
-description: NSQuote.GetSaleId()
+description: Integer NSQuote.GetSaleId()
 intellisense: NSQuote.GetSaleId
-keywords: GetSaleId()
+keywords: NSQuote, GetSaleId
 so.topic: reference
 ---
 
-
 The foreign key to the corresponding sale
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

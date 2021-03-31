@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoAttachment
 description: NSFieldInfoAttachment
 intellisense: Void.NSFieldInfoAttachment
-sortOrder: 3455
+keywords: NSFieldInfoAttachment
 so.topic: reference
 ---
 
-
 Attachment custom database field.
 
-
-
-
-1. autolist
+1. autolist 
 

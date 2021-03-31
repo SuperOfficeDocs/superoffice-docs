@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLineConfiguration_SetInUse_Bool_p_0
-description: NSQuoteLineConfiguration.SetInUse(Bool p_0)
+﻿---
+title: crmscript_ref_NSQuoteLineConfiguration_SetInUse
+description: NSQuoteLineConfiguration.SetInUse(Bool inUse)
 intellisense: NSQuoteLineConfiguration.SetInUse
-keywords: SetInUse(Bool)
+keywords: NSQuoteLineConfiguration, GetInUse
 so.topic: reference
 ---
 
-
 Should this field be displayed in the GUI?
 
-
-
-* **InUse:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **inUse** Bool
 

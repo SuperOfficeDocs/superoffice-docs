@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSErpConnectionData_SetErpActorType_Integer_p_0
-description: NSErpConnectionData.SetErpActorType(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionData_SetErpActorType
+description: NSErpConnectionData.SetErpActorType(Integer erpActorType)
 intellisense: NSErpConnectionData.SetErpActorType
-sortOrder: 3117
-keywords: SetErpActorType(Integer)
+keywords: NSErpConnectionData, GetErpActorType
 so.topic: reference
 ---
 
-
 The erp actor type which these fields belongs to
 
-
-
-* **ErpActorType:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **erpActorType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Customer 
+     - Enum: 2 = Supplier 
+     - Enum: 3 = Partner 
+     - Enum: 4 = Person 
+     - Enum: 5 = Project 
+     - Enum: 6 = Employee 
+     - Enum: 7 = Sale 
 

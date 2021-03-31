@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSCustomerServiceAgent_CreateDefaultCustomerCenterConfig
-description: NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig()
+description: NSCustomerCenterConfig CreateDefaultCustomerCenterConfig()
 intellisense: NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig
-sortOrder: 2227
-keywords: CreateDefaultCustomerCenterConfig()
+keywords: NSCustomerServiceAgent,CreateDefaultCustomerCenterConfig
 so.topic: reference
 ---
+	  
+Set default values into a new NSCustomerCenterConfig.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSCustomerCenterConfig with default values.
 
-
-Loading default values into a new CustomerCenterConfig.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New CustomerCenterConfig with default values
-
+```crmscript
+NSCustomerServiceAgent agent;
+NSCustomerCenterConfig thing = agent.CreateDefaultCustomerCenterConfig();
+thing = agent.SaveCustomerCenterConfig(thing);
+```
 

@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSUserAgent_GetUserInfoList_Integer__p_0
-description: NSUserAgent.GetUserInfoList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetUserInfoList
+description: NSUserInfo[] GetUserInfoList(Integer[]  userInfoIds);
 intellisense: NSUserAgent.GetUserInfoList
-keywords: GetUserInfoList(Integer[])
+keywords: NSUserAgent,GetUserInfoList
 so.topic: reference
 ---
 
-Gets an array of UserInfo objects.
+Gets a vector of UserInfo objects.
 
+**Parameters:**
+ - **userInfoIds** The identifiers of the NSUserInfo objects
 
-* **p0:** IntegerArray of identifiers for UserInfo
-* **Returns:** Array of NSUserInfo
+**Returns:** Vector of NSUserInfo objects
 
+```crmscript
+Integer[] ids;
+NSUserAgent agent;
+agent.GetUserInfoList(ids);
+```
 

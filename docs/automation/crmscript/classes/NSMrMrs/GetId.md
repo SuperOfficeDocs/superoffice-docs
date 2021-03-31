@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSMrMrs_GetId
-description: NSMrMrs.GetId()
+description: Integer NSMrMrs.GetId()
 intellisense: NSMrMrs.GetId
-keywords: GetId()
+keywords: NSMrMrs, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveWebPanelEntity_NSWebPanelEntity_p_0
-description: NSListAgent.SaveWebPanelEntity(NSWebPanelEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveWebPanelEntity
+description: NSWebPanelEntity SaveWebPanelEntity(NSWebPanelEntity webPanelEntity);
 intellisense: NSListAgent.SaveWebPanelEntity
-keywords: SaveWebPanelEntity(NSWebPanelEntity)
+keywords: NSListAgent,SaveWebPanelEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSWebPanelEntity or creates a new NSWebPanelEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **webPanelEntity** The NSWebPanelEntity to save.
 
+**Returns:** New or updated NSWebPanelEntity
 
-Updates the existing WebPanelEntity or creates a new WebPanelEntity if the id parameter is empty
-
-
-
-* **webPanelEntity:** The WebPanelEntity that is saved
-* **Returns:** New or updated WebPanelEntity
-
+```crmscript
+NSList  agent;
+NSWebPanelEntity thing = agent.CreateDefaultWebPanelEntity();
+thing = agent.SaveWebPanelEntity(thing);
+```
 

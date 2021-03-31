@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldMetadata_SetShowInSearch_Bool_p_0
-description: NSFieldMetadata.SetShowInSearch(Bool p_0)
+﻿---
+title: crmscript_ref_NSFieldMetadata_SetShowInSearch
+description: NSFieldMetadata.SetShowInSearch(Bool showInSearch)
 intellisense: NSFieldMetadata.SetShowInSearch
-sortOrder: 3594
-keywords: SetShowInSearch(Bool)
+keywords: NSFieldMetadata, GetShowInSearch
 so.topic: reference
 ---
 
-
 True if this field is displayed in search result
 
-
-
-* **ShowInSearch:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **showInSearch** Bool
 

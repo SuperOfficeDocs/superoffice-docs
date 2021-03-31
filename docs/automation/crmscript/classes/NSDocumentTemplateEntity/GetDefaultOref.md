@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplateEntity_GetDefaultOref
-description: NSDocumentTemplateEntity.GetDefaultOref()
+description: String NSDocumentTemplateEntity.GetDefaultOref()
 intellisense: NSDocumentTemplateEntity.GetDefaultOref
-sortOrder: 2670
-keywords: GetDefaultOref()
+keywords: NSDocumentTemplateEntity, GetDefaultOref
 so.topic: reference
 ---
 
-
 Processed via tag substitution to give document reference
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSChatAgent
 description: NSChatAgent
 intellisense: Void.NSChatAgent
-sortOrder: 1512
+keywords: NSChatAgent
 so.topic: reference
 ---
 
+Chat functions. Manage chat channels, sessions and messages.
 
-Chat functions.
-
-
-
+```crmscript
+NSChatAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

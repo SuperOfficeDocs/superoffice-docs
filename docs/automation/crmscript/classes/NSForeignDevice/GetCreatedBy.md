@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSForeignDevice_GetCreatedBy
-description: NSForeignDevice.GetCreatedBy()
+description: String NSForeignDevice.GetCreatedBy()
 intellisense: NSForeignDevice.GetCreatedBy
-sortOrder: 3719
-keywords: GetCreatedBy()
+keywords: NSForeignDevice, GetCreatedBy
 so.topic: reference
 ---
 
-
 The person that created the device.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

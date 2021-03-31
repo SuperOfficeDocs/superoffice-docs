@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSParticipantSyncData_GetContactName
-description: NSParticipantSyncData.GetContactName()
+description: String NSParticipantSyncData.GetContactName()
 intellisense: NSParticipantSyncData.GetContactName
-keywords: GetContactName()
+keywords: NSParticipantSyncData, GetContactName
 so.topic: reference
 ---
 
-
 Contact name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

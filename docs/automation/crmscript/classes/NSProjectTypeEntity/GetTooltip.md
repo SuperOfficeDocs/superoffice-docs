@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectTypeEntity_GetTooltip
-description: NSProjectTypeEntity.GetTooltip()
+description: String NSProjectTypeEntity.GetTooltip()
 intellisense: NSProjectTypeEntity.GetTooltip
-keywords: GetTooltip()
+keywords: NSProjectTypeEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip or other description
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

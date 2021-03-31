@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersion_SetUpdatedAssociateId_Integer_p_0
-description: NSQuoteVersion.SetUpdatedAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetUpdatedAssociateId
+description: NSQuoteVersion.SetUpdatedAssociateId(Integer updatedAssociateId)
 intellisense: NSQuoteVersion.SetUpdatedAssociateId
-keywords: SetUpdatedAssociateId(Integer)
+keywords: NSQuoteVersion, GetUpdatedAssociateId
 so.topic: reference
 ---
 
-
 Last updated by whom
 
-
-
-* **UpdatedAssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **updatedAssociateId** Integer
 

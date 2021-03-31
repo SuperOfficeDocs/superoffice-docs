@@ -1,16 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSUser_GetType
-description: NSUser.GetType()
+description: Integer NSUser.GetType()
 intellisense: NSUser.GetType
-keywords: GetType()
+keywords: NSUser, GetType
 so.topic: reference
 ---
 
+User type: 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate 
 
-User type: 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate
+**Returns:** Integer
 
-
-
-* **Returns:** Integer
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailFolder_SetFlags_String_p_0
-description: NSEMailFolder.SetFlags(String p_0)
+﻿---
+title: crmscript_ref_NSEMailFolder_SetFlags
+description: NSEMailFolder.SetFlags(String flags)
 intellisense: NSEMailFolder.SetFlags
-sortOrder: 3037
-keywords: SetFlags(String)
+keywords: NSEMailFolder, GetFlags
 so.topic: reference
 ---
 
-
 Flags associated with the folder
 
-
-
-* **Flags:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **flags** String
 

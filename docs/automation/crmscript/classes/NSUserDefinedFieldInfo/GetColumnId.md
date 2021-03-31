@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserDefinedFieldInfo_GetColumnId
-description: NSUserDefinedFieldInfo.GetColumnId()
+description: Integer NSUserDefinedFieldInfo.GetColumnId()
 intellisense: NSUserDefinedFieldInfo.GetColumnId
-keywords: GetColumnId()
+keywords: NSUserDefinedFieldInfo, GetColumnId
 so.topic: reference
 ---
 
-
 The ID of the database column this field corresponds to
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

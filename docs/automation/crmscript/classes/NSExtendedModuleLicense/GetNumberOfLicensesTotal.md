@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSExtendedModuleLicense_GetNumberOfLicensesTotal
-description: NSExtendedModuleLicense.GetNumberOfLicensesTotal()
+description: Integer NSExtendedModuleLicense.GetNumberOfLicensesTotal()
 intellisense: NSExtendedModuleLicense.GetNumberOfLicensesTotal
-sortOrder: 3422
-keywords: GetNumberOfLicensesTotal()
+keywords: NSExtendedModuleLicense, GetNumberOfLicensesTotal
 so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
 
 

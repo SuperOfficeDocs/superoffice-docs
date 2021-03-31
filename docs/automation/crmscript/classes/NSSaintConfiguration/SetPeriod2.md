@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaintConfiguration_SetPeriod2_Integer_p_0
-description: NSSaintConfiguration.SetPeriod2(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaintConfiguration_SetPeriod2
+description: NSSaintConfiguration.SetPeriod2(Integer period2)
 intellisense: NSSaintConfiguration.SetPeriod2
-keywords: SetPeriod2(Integer)
+keywords: NSSaintConfiguration, GetPeriod2
 so.topic: reference
 ---
 
-
 Length of the second counter period
 
-
-
-* **Period2:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **period2** Integer
 

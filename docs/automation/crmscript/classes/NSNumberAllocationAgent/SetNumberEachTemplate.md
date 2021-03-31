@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSNumberAllocationAgent_SetNumberEachTemplate_Bool_p_0
-description: NSNumberAllocationAgent.SetNumberEachTemplate(Bool p_0)
+﻿---
+title: crmscript_ref_NSNumberAllocationAgent_SetNumberEachTemplate
+description: Void SetNumberEachTemplate(Bool setValue)
 intellisense: NSNumberAllocationAgent.SetNumberEachTemplate
-keywords: SetNumberEachTemplate(Bool)
+keywords: NSNumberAllocationAgent,SetNumberEachTemplate
 so.topic: reference
 ---
 
-
 Saves true or false if Automatically create new counters for new document templates
 
+**Parameters:**
+ - **setValue** true or false if Automatically create new counters for new document templates
 
+**Returns:** void
 
-* **setValue:** true or false if Automatically create new counters for new document templates
-* **Returns:** void
-
+```crmscript
+NSNumberAllocationAgent agent;
+Bool setValue;
+Void res = agent.SetNumberEachTemplate(setValue);
+```
 

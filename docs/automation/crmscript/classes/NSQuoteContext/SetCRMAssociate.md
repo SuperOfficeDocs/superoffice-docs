@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteContext_SetCRMAssociate_NSAssociate_p_0
-description: NSQuoteContext.SetCRMAssociate(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSQuoteContext_SetCRMAssociate
+description: NSQuoteContext.SetCRMAssociate(Associate cRMAssociate)
 intellisense: NSQuoteContext.SetCRMAssociate
-keywords: SetCRMAssociate(NSAssociate)
+keywords: NSQuoteContext, GetCRMAssociate
 so.topic: reference
 ---
 
-
 The associate (salesman) that is logged into the CRM system.
 
-
-
-* **CRMAssociate:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **cRMAssociate** Associate
 

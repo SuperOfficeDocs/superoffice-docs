@@ -1,13 +1,22 @@
----
-title: crmscript_ref_NSSaleEntity_SetUserDefinedFields_Map_p_0
-description: NSSaleEntity.SetUserDefinedFields(Map p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetUserDefinedFields
+description: NSSaleEntity.SetUserDefinedFields(Map udefs)
 intellisense: NSSaleEntity.SetUserDefinedFields
-keywords: SetUserDefinedFields(Map)
+keywords: NSSaleEntity, SetUserDefinedFields
 so.topic: reference
 ---
 
+Set the user-defined fields as a map.
 
-* **fields:** Map
-* **Returns:** Void
+**Parameter:** 
+ - **udefs** Map user defined field values encoded as strings.
 
+```crmscript
+NSSaleEntity thing;
+Map udefs;
+udefs["SuperOffice:1"] = "[I:123]";
+udefs["SuperOffice:1"] = "123"; // this will also work, but beware of decimal point variations in different languages
+udefs["custom.progid"] = "foobar";
+thing.SetUserDefinedFields(udefs);
+```
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailConnectionInfo_SetUserName_String_p_0
-description: NSEMailConnectionInfo.SetUserName(String p_0)
+﻿---
+title: crmscript_ref_NSEMailConnectionInfo_SetUserName
+description: NSEMailConnectionInfo.SetUserName(String userName)
 intellisense: NSEMailConnectionInfo.SetUserName
-sortOrder: 2918
-keywords: SetUserName(String)
+keywords: NSEMailConnectionInfo, GetUserName
 so.topic: reference
 ---
 
-
 Name of user to log in with
 
-
-
-* **UserName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **userName** String
 

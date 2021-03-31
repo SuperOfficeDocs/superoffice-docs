@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSReplicationAgent_GetArea_Integer_p_0
-description: NSReplicationAgent.GetArea(Integer p_0)
+﻿---
+title: crmscript_ref_NSReplicationAgent_GetArea
+description: NSArea GetArea(Integer areaId);
 intellisense: NSReplicationAgent.GetArea
-keywords: GetArea(Integer)
+keywords: NSReplicationAgent,GetArea
 so.topic: reference
 ---
 
+Gets a NSArea object.
 
-Gets a Area object.
+**Parameters:**
+ - **areaId** The identifier of the NSArea object
 
+**Returns:** NSArea
 
-
-* **areaId:** The identifier of the Area object
-* **Returns:** Area
-
+```crmscript
+NSReplicationAgent agent;
+NSArea thing = agent.GetArea(123);
+```
 

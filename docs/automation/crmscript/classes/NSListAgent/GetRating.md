@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetRating_Integer_p_0
-description: NSListAgent.GetRating(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetRating
+description: NSRating GetRating(Integer ratingId);
 intellisense: NSListAgent.GetRating
-keywords: GetRating(Integer)
+keywords: NSListAgent,GetRating
 so.topic: reference
 ---
 
+Gets a NSRating object.
 
-Gets a Rating object.
+**Parameters:**
+ - **ratingId** The identifier of the NSRating object
 
+**Returns:** NSRating
 
-
-* **ratingId:** The identifier of the Rating object
-* **Returns:** Rating
-
+```crmscript
+NSListAgent agent;
+NSRating thing = agent.GetRating(123);
+```
 

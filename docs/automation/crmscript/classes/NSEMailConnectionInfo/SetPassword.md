@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailConnectionInfo_SetPassword_String_p_0
-description: NSEMailConnectionInfo.SetPassword(String p_0)
+﻿---
+title: crmscript_ref_NSEMailConnectionInfo_SetPassword
+description: NSEMailConnectionInfo.SetPassword(String password)
 intellisense: NSEMailConnectionInfo.SetPassword
-sortOrder: 2916
-keywords: SetPassword(String)
+keywords: NSEMailConnectionInfo, GetPassword
 so.topic: reference
 ---
 
-
 Password for the username
 
-
-
-* **Password:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **password** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetTemplateVariableName_String_p_0
-description: NSUserDefinedFieldInfo.SetTemplateVariableName(String p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetTemplateVariableName
+description: NSUserDefinedFieldInfo.SetTemplateVariableName(String templateVariableName)
 intellisense: NSUserDefinedFieldInfo.SetTemplateVariableName
-keywords: SetTemplateVariableName(String)
+keywords: NSUserDefinedFieldInfo, GetTemplateVariableName
 so.topic: reference
 ---
 
-
 Template variable name
 
-
-
-* **TemplateVariableName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **templateVariableName** String
 

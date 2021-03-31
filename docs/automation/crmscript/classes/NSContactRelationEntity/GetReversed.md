@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactRelationEntity_GetReversed
-description: NSContactRelationEntity.GetReversed()
+description: Integer NSContactRelationEntity.GetReversed()
 intellisense: NSContactRelationEntity.GetReversed
-sortOrder: 1950
-keywords: GetReversed()
+keywords: NSContactRelationEntity, GetReversed
 so.topic: reference
 ---
 
-
 Is direction reversed relative to definition
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

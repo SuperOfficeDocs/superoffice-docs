@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAppointment_GetAppointment
-description: NSEMailAppointment.GetAppointment()
+description: Appointment NSEMailAppointment.GetAppointment()
 intellisense: NSEMailAppointment.GetAppointment
-sortOrder: 2879
-keywords: GetAppointment()
+keywords: NSEMailAppointment, GetAppointment
 so.topic: reference
 ---
 
-
 Appointment information
 
-
-
-* **Returns:** Appointment
+**Returns:** Appointment
 
 

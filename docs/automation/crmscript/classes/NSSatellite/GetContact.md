@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSatellite_GetContact
-description: NSSatellite.GetContact()
+description: Contact NSSatellite.GetContact()
 intellisense: NSSatellite.GetContact
-keywords: GetContact()
+keywords: NSSatellite, GetContact
 so.topic: reference
 ---
 
 
-* **Returns:** Contact
+
+**Returns:** Contact
 
 

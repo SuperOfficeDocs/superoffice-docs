@@ -1,18 +1,16 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetPrivate_Integer_p_0
-description: NSAppointmentEntity.SetPrivate(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetPrivate
+description: NSAppointmentEntity.SetPrivate(Integer private)
 intellisense: NSAppointmentEntity.SetPrivate
-sortOrder: 1021
-keywords: SetPrivate(Integer)
+keywords: NSAppointmentEntity, GetPrivate
 so.topic: reference
 ---
 
-
 The confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual.
 
-
-
-* **Private:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **private** Integer
+     - Enum: 0 = Public 
+     - Enum: 1 = PrivateUser 
+     - Enum: 2 = PrivateGroup 
 

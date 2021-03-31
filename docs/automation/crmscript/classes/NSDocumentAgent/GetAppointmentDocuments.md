@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSDocumentAgent_GetAppointmentDocuments_Integer_p_0
-description: NSDocumentAgent.GetAppointmentDocuments(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentAgent_GetAppointmentDocuments
+description: DocumentArray GetAppointmentDocuments(Integer appointmentId)
 intellisense: NSDocumentAgent.GetAppointmentDocuments
-sortOrder: 2472
-keywords: GetAppointmentDocuments(Integer)
+keywords: NSDocumentAgent,GetAppointmentDocuments
 so.topic: reference
 ---
 
-
 Get all documents that are linked to the appointment. I.e. the documents that are listed in the appointment dialog.
 
+**Parameters:**
+ - **appointmentId** The appointment id.
 
+**Returns:** Array of documents
 
-* **appointmentId:** The appointment id.
-* **Returns:** Array of documents
-
+```crmscript
+NSDocumentAgent agent;
+Integer appointmentId;
+DocumentArray res = agent.GetAppointmentDocuments(appointmentId);
+```
 

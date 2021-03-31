@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetRank_Integer_p_0
-description: NSWebPanelEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetRank
+description: NSWebPanelEntity.SetRank(Integer rank)
 intellisense: NSWebPanelEntity.SetRank
-keywords: SetRank(Integer)
+keywords: NSWebPanelEntity, GetRank
 so.topic: reference
 ---
 
-
 The rank of the web panel
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

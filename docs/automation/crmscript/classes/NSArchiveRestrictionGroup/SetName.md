@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveRestrictionGroup_SetName_String_p_0
-description: NSArchiveRestrictionGroup.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSArchiveRestrictionGroup_SetName
+description: NSArchiveRestrictionGroup.SetName(String name)
 intellisense: NSArchiveRestrictionGroup.SetName
-sortOrder: 1207
-keywords: SetName(String)
+keywords: NSArchiveRestrictionGroup, GetName
 so.topic: reference
 ---
 
-
 The name of this criteria group
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

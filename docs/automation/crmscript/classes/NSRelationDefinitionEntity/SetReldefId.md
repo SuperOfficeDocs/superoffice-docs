@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRelationDefinitionEntity_SetReldefId_Integer_p_0
-description: NSRelationDefinitionEntity.SetReldefId(Integer p_0)
+﻿---
+title: crmscript_ref_NSRelationDefinitionEntity_SetReldefId
+description: NSRelationDefinitionEntity.SetReldefId(Integer reldefId)
 intellisense: NSRelationDefinitionEntity.SetReldefId
-keywords: SetReldefId(Integer)
+keywords: NSRelationDefinitionEntity, GetReldefId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ReldefId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **reldefId** Integer
 

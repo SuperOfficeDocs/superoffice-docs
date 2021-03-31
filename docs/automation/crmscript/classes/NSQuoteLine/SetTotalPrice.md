@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetTotalPrice_Float_p_0
-description: NSQuoteLine.SetTotalPrice(Float p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetTotalPrice
+description: NSQuoteLine.SetTotalPrice(Float totalPrice)
 intellisense: NSQuoteLine.SetTotalPrice
-keywords: SetTotalPrice(Float)
+keywords: NSQuoteLine, GetTotalPrice
 so.topic: reference
 ---
 
-
 TotalPrice  = SubTotal - DiscountAmount or TotalPrice = (UnitCost * Quantity) + EarningAmount, according to what the user changed last.
 
-
-
-* **TotalPrice:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **totalPrice** Float
 

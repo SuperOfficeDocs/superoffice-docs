@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteAlternativeRecalculated_SetQuoteLinesHasChanged_Bool_p_0
-description: NSQuoteAlternativeRecalculated.SetQuoteLinesHasChanged(Bool p_0)
+﻿---
+title: crmscript_ref_NSQuoteAlternativeRecalculated_SetQuoteLinesHasChanged
+description: NSQuoteAlternativeRecalculated.SetQuoteLinesHasChanged(Bool quoteLinesHasChanged)
 intellisense: NSQuoteAlternativeRecalculated.SetQuoteLinesHasChanged
-keywords: SetQuoteLinesHasChanged(Bool)
+keywords: NSQuoteAlternativeRecalculated, GetQuoteLinesHasChanged
 so.topic: reference
 ---
 
-
 If true any of the quotelines for the alternative has been changed.
 
-
-
-* **QuoteLinesHasChanged:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **quoteLinesHasChanged** Bool
 

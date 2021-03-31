@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetPublishTo
-description: NSProject.GetPublishTo()
+description: DateTime NSProject.GetPublishTo()
 intellisense: NSProject.GetPublishTo
-keywords: GetPublishTo()
+keywords: NSProject, GetPublishTo
 so.topic: reference
 ---
 
-
 Publication valid to (inclusive)
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

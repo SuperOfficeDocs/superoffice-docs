@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListItem_SetPersonDirectPhone_String_p_0
-description: NSPhoneListItem.SetPersonDirectPhone(String p_0)
+﻿---
+title: crmscript_ref_NSPhoneListItem_SetPersonDirectPhone
+description: NSPhoneListItem.SetPersonDirectPhone(String personDirectPhone)
 intellisense: NSPhoneListItem.SetPersonDirectPhone
-keywords: SetPersonDirectPhone(String)
+keywords: NSPhoneListItem, GetPersonDirectPhone
 so.topic: reference
 ---
 
-
 Person Direct Phone
 
-
-
-* **PersonDirectPhone:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personDirectPhone** String
 

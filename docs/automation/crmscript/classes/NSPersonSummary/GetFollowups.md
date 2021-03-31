@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonSummary_GetFollowups
-description: NSPersonSummary.GetFollowups()
+description: ActivitySummaryItemArray NSPersonSummary.GetFollowups()
 intellisense: NSPersonSummary.GetFollowups
-keywords: GetFollowups()
+keywords: NSPersonSummary, GetFollowups
 so.topic: reference
 ---
 
-
 Recent follow-ups on person
 
-
-
-* **Returns:** ActivitySummaryItemArray
+**Returns:** ActivitySummaryItemArray
 
 

@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSEMailAddress_SetPersonName_String_p_0
-description: NSEMailAddress.SetPersonName(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAddress_SetPersonName
+description: NSEMailAddress.SetPersonName(String personName)
 intellisense: NSEMailAddress.SetPersonName
-sortOrder: 2779
-keywords: SetPersonName(String)
+keywords: NSEMailAddress, GetPersonName
 so.topic: reference
 ---
 
 
-* **PersonName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **personName** String
 

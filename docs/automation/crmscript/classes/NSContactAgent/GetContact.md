@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSContactAgent_GetContact_Integer_p_0
-description: NSContactAgent.GetContact(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactAgent_GetContact
+description: NSContact GetContact(Integer contactId);
 intellisense: NSContactAgent.GetContact
-sortOrder: 1803
-keywords: GetContact(Integer)
+keywords: NSContactAgent,GetContact
 so.topic: reference
 ---
 
+Gets a NSContact object.
 
-Gets a Contact object.
+**Parameters:**
+ - **contactId** The identifier of the NSContact object
 
+**Returns:** NSContact
 
-
-* **contactId:** The identifier of the Contact object
-* **Returns:** Contact
-
+```crmscript
+NSContactAgent agent;
+NSContact thing = agent.GetContact(123);
+```
 

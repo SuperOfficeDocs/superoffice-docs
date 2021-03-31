@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo_NSUserDefinedFieldInfo_p_0
-description: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
+description: NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo userDefinedFieldInfo);
 intellisense: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
-keywords: SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
+keywords: NSUserDefinedFieldInfoAgent,SaveUserDefinedFieldInfo
 so.topic: reference
 ---
+	  
+Updates the existing NSUserDefinedFieldInfo or creates a new NSUserDefinedFieldInfo if the id parameter is 0
+	  
+**Parameters**:
+ - **userDefinedFieldInfo** The NSUserDefinedFieldInfo to save.
 
+**Returns:** New or updated NSUserDefinedFieldInfo
 
-Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is empty
-
-
-
-* **userDefinedFieldInfo:** The UserDefinedFieldInfo that is saved
-* **Returns:** New or updated UserDefinedFieldInfo
-
+```crmscript
+NSUserDefinedFieldInfo  agent;
+NSUserDefinedFieldInfo thing = agent.CreateDefaultUserDefinedFieldInfo();
+thing = agent.SaveUserDefinedFieldInfo(thing);
+```
 

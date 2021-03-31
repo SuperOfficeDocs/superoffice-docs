@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEntity_SetAssociate_NSAssociate_p_0
-description: NSProjectEntity.SetAssociate(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSProjectEntity_SetAssociate
+description: NSProjectEntity.SetAssociate(Associate associate)
 intellisense: NSProjectEntity.SetAssociate
-keywords: SetAssociate(NSAssociate)
+keywords: NSProjectEntity, GetAssociate
 so.topic: reference
 ---
 
-
 The person that created the project
 
-
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **associate** Associate
 

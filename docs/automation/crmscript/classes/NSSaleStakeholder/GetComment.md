@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleStakeholder_GetComment
-description: NSSaleStakeholder.GetComment()
+description: String NSSaleStakeholder.GetComment()
 intellisense: NSSaleStakeholder.GetComment
-keywords: GetComment()
+keywords: NSSaleStakeholder, GetComment
 so.topic: reference
 ---
 
-
 Optional comment text
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

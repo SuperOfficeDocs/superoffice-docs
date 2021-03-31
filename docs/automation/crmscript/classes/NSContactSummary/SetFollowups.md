@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactSummary_SetFollowups_NSActivitySummaryItem__p_0
-description: NSContactSummary.SetFollowups(NSActivitySummaryItem[] p_0)
+﻿---
+title: crmscript_ref_NSContactSummary_SetFollowups
+description: NSContactSummary.SetFollowups(ActivitySummaryItemArray followups)
 intellisense: NSContactSummary.SetFollowups
-sortOrder: 1991
-keywords: SetFollowups(NSActivitySummaryItem[])
+keywords: NSContactSummary, GetFollowups
 so.topic: reference
 ---
 
-
 Recent follow-ups on contact
 
-
-
-* **Followups:** ActivitySummaryItemArray
-* **Returns:** ActivitySummaryItemArray
-
+**Parameter:** 
+ - **followups** ActivitySummaryItemArray
 

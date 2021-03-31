@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentInfo_GetConsentSourceName
-description: NSConsentInfo.GetConsentSourceName()
+description: String NSConsentInfo.GetConsentSourceName()
 intellisense: NSConsentInfo.GetConsentSourceName
-sortOrder: 1640
-keywords: GetConsentSourceName()
+keywords: NSConsentInfo, GetConsentSourceName
 so.topic: reference
 ---
 
-
 Name of the ConsentSource associated with this consent
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

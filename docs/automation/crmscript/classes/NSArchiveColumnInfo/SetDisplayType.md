@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveColumnInfo_SetDisplayType_String_p_0
-description: NSArchiveColumnInfo.SetDisplayType(String p_0)
+﻿---
+title: crmscript_ref_NSArchiveColumnInfo_SetDisplayType
+description: NSArchiveColumnInfo.SetDisplayType(String displayType)
 intellisense: NSArchiveColumnInfo.SetDisplayType
-sortOrder: 1156
-keywords: SetDisplayType(String)
+keywords: NSArchiveColumnInfo, GetDisplayType
 so.topic: reference
 ---
 
-
 Type of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted). This name can contain resource tags.
 
-
-
-* **DisplayType:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayType** String
 

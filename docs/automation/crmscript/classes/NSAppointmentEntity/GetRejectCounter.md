@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetRejectCounter
-description: NSAppointmentEntity.GetRejectCounter()
+description: Integer NSAppointmentEntity.GetRejectCounter()
 intellisense: NSAppointmentEntity.GetRejectCounter
-sortOrder: 949
-keywords: GetRejectCounter()
+keywords: NSAppointmentEntity, GetRejectCounter
 so.topic: reference
 ---
 
-
 How many invitees have rejected this appointment
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

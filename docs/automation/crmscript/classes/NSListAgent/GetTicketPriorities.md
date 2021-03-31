@@ -1,11 +1,10 @@
----
+﻿---
 title: crmscript_ref_NSListAgent_GetTicketPriorities
-description: NSListAgent.GetTicketPriorities()
+description: TicketPriorityArray GetTicketPriorities()
 intellisense: NSListAgent.GetTicketPriorities
-keywords: GetTicketPriorities()
+keywords: NSListAgent,GetTicketPriorities
 so.topic: reference
 ---
-
 
 
 

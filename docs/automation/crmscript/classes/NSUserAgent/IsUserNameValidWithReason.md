@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSUserAgent_IsUserNameValidWithReason_Integer_p_0_Integer_p_1_Integer_p_2_String_p_3
-description: NSUserAgent.IsUserNameValidWithReason(Integer p_0, Integer p_1, Integer p_2, String p_3)
+﻿---
+title: crmscript_ref_NSUserAgent_IsUserNameValidWithReason
+description: UserValidationResult IsUserNameValidWithReason(Integer associateId, Integer type, Integer personId, String userName)
 intellisense: NSUserAgent.IsUserNameValidWithReason
-keywords: IsUserNameValidWithReason(Integer,Integer,Integer,String)
+keywords: NSUserAgent,IsUserNameValidWithReason
 so.topic: reference
 ---
 
 
 
-
-* **associateId
-\param** p1 type
-* **personId
-\param** p3 userName
-
-
+**Parameters:**
+ - **associateId** 
+ - **type** 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
+ - **personId** 
+ - **userName** 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptEntity_GetRegistered
-description: NSCRMScriptEntity.GetRegistered()
+description: DateTime NSCRMScriptEntity.GetRegistered()
 intellisense: NSCRMScriptEntity.GetRegistered
-sortOrder: 2127
-keywords: GetRegistered()
+keywords: NSCRMScriptEntity, GetRegistered
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

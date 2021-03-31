@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetEmail_String_p_0
-description: NSPerson.SetEmail(String p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetEmail
+description: NSPerson.SetEmail(String email)
 intellisense: NSPerson.SetEmail
-keywords: SetEmail(String)
+keywords: NSPerson, GetEmail
 so.topic: reference
 ---
 
-
 First email on contact person.
 
-
-
-* **Email:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **email** String
 

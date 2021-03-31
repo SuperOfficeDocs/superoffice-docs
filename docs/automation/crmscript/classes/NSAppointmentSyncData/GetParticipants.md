@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentSyncData_GetParticipants
-description: NSAppointmentSyncData.GetParticipants()
+description: ParticipantSyncDataArray NSAppointmentSyncData.GetParticipants()
 intellisense: NSAppointmentSyncData.GetParticipants
-sortOrder: 1055
-keywords: GetParticipants()
+keywords: NSAppointmentSyncData, GetParticipants
 so.topic: reference
 ---
 
 
-* **Returns:** ParticipantSyncDataArray
+
+**Returns:** ParticipantSyncDataArray
 
 

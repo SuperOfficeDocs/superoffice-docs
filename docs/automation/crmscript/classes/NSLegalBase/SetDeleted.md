@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLegalBase_SetDeleted_Bool_p_0
-description: NSLegalBase.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSLegalBase_SetDeleted
+description: NSLegalBase.SetDeleted(Bool deleted)
 intellisense: NSLegalBase.SetDeleted
-keywords: SetDeleted(Bool)
+keywords: NSLegalBase, GetDeleted
 so.topic: reference
 ---
 
-
 true if the LegalBase is deleted
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

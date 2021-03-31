@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRefCountEntity_SetUnique_Bool_p_0
-description: NSRefCountEntity.SetUnique(Bool p_0)
+﻿---
+title: crmscript_ref_NSRefCountEntity_SetUnique
+description: NSRefCountEntity.SetUnique(Bool unique)
 intellisense: NSRefCountEntity.SetUnique
-keywords: SetUnique(Bool)
+keywords: NSRefCountEntity, GetUnique
 so.topic: reference
 ---
 
-
 Check that entered value is unique
 
-
-
-* **Unique:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **unique** Bool
 

@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSContactAgent
 description: NSContactAgent
 intellisense: Void.NSContactAgent
-sortOrder: 1794
+keywords: NSContactAgent
 so.topic: reference
 ---
 
-
 Contact (company) data services.
 
-
-
+```crmscript
+NSContactAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

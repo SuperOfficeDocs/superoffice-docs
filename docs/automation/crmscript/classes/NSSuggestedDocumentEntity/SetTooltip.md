@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedDocumentEntity_SetTooltip_String_p_0
-description: NSSuggestedDocumentEntity.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSSuggestedDocumentEntity_SetTooltip
+description: NSSuggestedDocumentEntity.SetTooltip(String tooltip)
 intellisense: NSSuggestedDocumentEntity.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSSuggestedDocumentEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip / description
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

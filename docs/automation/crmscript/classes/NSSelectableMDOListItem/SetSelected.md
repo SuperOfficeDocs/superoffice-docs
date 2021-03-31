@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetSelected_Bool_p_0
-description: NSSelectableMDOListItem.SetSelected(Bool p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetSelected
+description: NSSelectableMDOListItem.SetSelected(Bool selected)
 intellisense: NSSelectableMDOListItem.SetSelected
-keywords: SetSelected(Bool)
+keywords: NSSelectableMDOListItem, GetSelected
 so.topic: reference
 ---
 
-
 True if the ListItem is selected
 
-
-
-* **Selected:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **selected** Bool
 

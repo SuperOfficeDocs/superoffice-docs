@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldValueInfo_SetCurrentOperationType_String_p_0
-description: NSFieldValueInfo.SetCurrentOperationType(String p_0)
+﻿---
+title: crmscript_ref_NSFieldValueInfo_SetCurrentOperationType
+description: NSFieldValueInfo.SetCurrentOperationType(String currentOperationType)
 intellisense: NSFieldValueInfo.SetCurrentOperationType
-sortOrder: 3636
-keywords: SetCurrentOperationType(String)
+keywords: NSFieldValueInfo, GetCurrentOperationType
 so.topic: reference
 ---
 
-
 The selected operation to execute on this field
 
-
-
-* **CurrentOperationType:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **currentOperationType** String
 

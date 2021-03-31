@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetAssociateId_Integer_p_0
-description: NSPerson.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetAssociateId
+description: NSPerson.SetAssociateId(Integer associateId)
 intellisense: NSPerson.SetAssociateId
-keywords: SetAssociateId(Integer)
+keywords: NSPerson, GetAssociateId
 so.topic: reference
 ---
 
-
 Id of the item's owner (Associate id)
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBatchTaskInfo_GetRequest
-description: NSBatchTaskInfo.GetRequest()
+description: String NSBatchTaskInfo.GetRequest()
 intellisense: NSBatchTaskInfo.GetRequest
-sortOrder: 1381
-keywords: GetRequest()
+keywords: NSBatchTaskInfo, GetRequest
 so.topic: reference
 ---
 
-
 Maps to the request field in the batchtask table.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

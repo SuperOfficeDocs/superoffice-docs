@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSDocumentAgent_DeleteDocumentEntity_Integer_p_0
-description: NSDocumentAgent.DeleteDocumentEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentAgent_DeleteDocumentEntity
+description: DeleteDocumentEntity(Integer documentEntity);
 intellisense: NSDocumentAgent.DeleteDocumentEntity
-sortOrder: 2545
-keywords: DeleteDocumentEntity(Integer)
+keywords: NSDocumentAgent,DeleteDocumentEntity
 so.topic: reference
 ---
 
+Deletes the NSDocumentEntity
+  
+**Parameters:**
+ - **documentEntityId** The identity of the DocumentEntity to delete.
 
-Deletes the DocumentEntity
-
-
-
-* **documentEntityId:** The identity of the DocumentEntity
-
+```crmscript
+NSDocumentAgent agent;
+agent.DeleteDocumentEntity(123);
+```
 

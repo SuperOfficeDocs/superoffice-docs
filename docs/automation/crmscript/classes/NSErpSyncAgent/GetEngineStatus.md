@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncAgent_GetEngineStatus
-description: NSErpSyncAgent.GetEngineStatus()
+description: ErpSyncEngineStatus GetEngineStatus()
 intellisense: NSErpSyncAgent.GetEngineStatus
-sortOrder: 3206
-keywords: GetEngineStatus()
+keywords: NSErpSyncAgent,GetEngineStatus
 so.topic: reference
 ---
-
 
 Get the current status of the Sync engine
 
 
+**Returns:** The current status of the engine
 
-* **Returns:** The current status of the engine
-
+```crmscript
+NSErpSyncAgent agent;
+ErpSyncEngineStatus res = agent.GetEngineStatus();
+```
 

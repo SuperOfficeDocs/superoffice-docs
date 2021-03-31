@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpConnectionListMappingContainer_GetErpConnectionId
-description: NSErpConnectionListMappingContainer.GetErpConnectionId()
+description: Integer NSErpConnectionListMappingContainer.GetErpConnectionId()
 intellisense: NSErpConnectionListMappingContainer.GetErpConnectionId
-sortOrder: 3136
-keywords: GetErpConnectionId()
+keywords: NSErpConnectionListMappingContainer, GetErpConnectionId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

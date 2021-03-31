@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLegalBase_SetKey_String_p_0
-description: NSLegalBase.SetKey(String p_0)
+﻿---
+title: crmscript_ref_NSLegalBase_SetKey
+description: NSLegalBase.SetKey(String key)
 intellisense: NSLegalBase.SetKey
-keywords: SetKey(String)
+keywords: NSLegalBase, GetKey
 so.topic: reference
 ---
 
-
 The key used to uniquely identify this legal base
 
-
-
-* **Key:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **key** String
 

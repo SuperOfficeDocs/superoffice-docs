@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSConfigurationAgent_SaveWindowPosSizes_NSWindowPosSize__p_0
-description: NSConfigurationAgent.SaveWindowPosSizes(NSWindowPosSize[] p_0)
+﻿---
+title: crmscript_ref_NSConfigurationAgent_SaveWindowPosSizes
+description: WindowPosSizeArray SaveWindowPosSizes(WindowPosSizeArray windowPosSizes)
 intellisense: NSConfigurationAgent.SaveWindowPosSizes
-sortOrder: 1602
-keywords: SaveWindowPosSizes(NSWindowPosSize[])
+keywords: NSConfigurationAgent,SaveWindowPosSizes
 so.topic: reference
 ---
 
-
 Saves a set of window and dialog position and size settings.
 
+**Parameters:**
+ - **windowPosSizes** The items that are saved
 
+**Returns:** The saved items
 
-* **windowPosSizes:** The items that are saved
-* **Returns:** The saved items
-
+```crmscript
+NSConfigurationAgent agent;
+WindowPosSizeArray windowPosSizes;
+WindowPosSizeArray res = agent.SaveWindowPosSizes(windowPosSizes);
+```
 

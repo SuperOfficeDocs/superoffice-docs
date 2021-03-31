@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTileOption_GetValue
-description: NSDashboardTileOption.GetValue()
+description: String NSDashboardTileOption.GetValue()
 intellisense: NSDashboardTileOption.GetValue
-sortOrder: 2324
-keywords: GetValue()
+keywords: NSDashboardTileOption, GetValue
 so.topic: reference
 ---
 
-
 The value, encoded as string, Id:Name of list item if type is list
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

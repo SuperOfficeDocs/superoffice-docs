@@ -1,17 +1,15 @@
----
+﻿---
 title: crmscript_ref_NSCustomerCenterConfig_GetType
-description: NSCustomerCenterConfig.GetType()
+description: Integer NSCustomerCenterConfig.GetType()
 intellisense: NSCustomerCenterConfig.GetType
-sortOrder: 2200
-keywords: GetType()
+keywords: NSCustomerCenterConfig, GetType
 so.topic: reference
 ---
 
-
 What kind of data is in this row
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Style 
+     - Enum: 1 = Options 
 

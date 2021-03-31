@@ -1,18 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersion_GetStatus
-description: NSQuoteVersion.GetStatus()
+description: QuoteStatus NSQuoteVersion.GetStatus()
 intellisense: NSQuoteVersion.GetStatus
-keywords: GetStatus()
+keywords: NSQuoteVersion, GetStatus
 so.topic: reference
 ---
 
-If there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: 
+If there was a problem with for instance calculation, this field is set to warning or error.
 
-* Ok=0
-* OkWithInfo=1
-* Warning=2
-* Error=3
+**Returns:** QuoteStatus
 
-* **Returns:** Integer
-
+     - Enum: 0 = Ok 
+     - Enum: 1 = OkWithInfo 
+     - Enum: 2 = Warning 
+     - Enum: 3 = Error 
 

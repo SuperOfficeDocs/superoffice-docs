@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersion_GetApprovedRegisteredDate
-description: NSQuoteVersion.GetApprovedRegisteredDate()
+description: DateTime NSQuoteVersion.GetApprovedRegisteredDate()
 intellisense: NSQuoteVersion.GetApprovedRegisteredDate
-keywords: GetApprovedRegisteredDate()
+keywords: NSQuoteVersion, GetApprovedRegisteredDate
 so.topic: reference
 ---
 
-
 When was approval granted or rejected
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

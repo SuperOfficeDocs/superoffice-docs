@@ -1,18 +1,15 @@
----
-title: crmscript_ref_NSArchiveOrderByInfo_SetDirection_Integer_p_0
-description: NSArchiveOrderByInfo.SetDirection(Integer p_0)
+﻿---
+title: crmscript_ref_NSArchiveOrderByInfo_SetDirection
+description: NSArchiveOrderByInfo.SetDirection(Integer direction)
 intellisense: NSArchiveOrderByInfo.SetDirection
-sortOrder: 1198
-keywords: SetDirection(Integer)
+keywords: NSArchiveOrderByInfo, GetDirection
 so.topic: reference
 ---
 
-
 Direction to order.
 
-
-
-* **Direction:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **direction** Integer
+     - Enum: 0 = ASC 
+     - Enum: 1 = DESC 
 

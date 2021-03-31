@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArea_SetMaxDataAge_Integer_p_0
-description: NSArea.SetMaxDataAge(Integer p_0)
+﻿---
+title: crmscript_ref_NSArea_SetMaxDataAge
+description: NSArea.SetMaxDataAge(Integer maxDataAge)
 intellisense: NSArea.SetMaxDataAge
-sortOrder: 1248
-keywords: SetMaxDataAge(Integer)
+keywords: NSArea, GetMaxDataAge
 so.topic: reference
 ---
 
-
 Max age of data when generating db's based on this area
 
-
-
-* **MaxDataAge:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **maxDataAge** Integer
 

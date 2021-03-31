@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetSortOrder_Integer_p_0
-description: NSModuleLicenseLink.SetSortOrder(Integer p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetSortOrder
+description: NSModuleLicenseLink.SetSortOrder(Integer sortOrder)
 intellisense: NSModuleLicenseLink.SetSortOrder
-keywords: SetSortOrder(Integer)
+keywords: NSModuleLicenseLink, GetSortOrder
 so.topic: reference
 ---
 
 
-* **SortOrder:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **sortOrder** Integer
 

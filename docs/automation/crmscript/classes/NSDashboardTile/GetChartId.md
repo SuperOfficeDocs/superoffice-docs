@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTile_GetChartId
-description: NSDashboardTile.GetChartId()
+description: String NSDashboardTile.GetChartId()
 intellisense: NSDashboardTile.GetChartId
-sortOrder: 2297
-keywords: GetChartId()
+keywords: NSDashboardTile, GetChartId
 so.topic: reference
 ---
 
-
 The original chart Id
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

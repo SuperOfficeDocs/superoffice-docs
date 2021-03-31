@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEventEntity_GetPublishTo
-description: NSProjectEventEntity.GetPublishTo()
+description: DateTime NSProjectEventEntity.GetPublishTo()
 intellisense: NSProjectEventEntity.GetPublishTo
-keywords: GetPublishTo()
+keywords: NSProjectEventEntity, GetPublishTo
 so.topic: reference
 ---
 
-
 Publication valid to (inclusive)
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

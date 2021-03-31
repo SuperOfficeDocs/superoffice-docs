@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProductExtraDataField_SetValue_String_p_0
-description: NSProductExtraDataField.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSProductExtraDataField_SetValue
+description: NSProductExtraDataField.SetValue(String value)
 intellisense: NSProductExtraDataField.SetValue
-keywords: SetValue(String)
+keywords: NSProductExtraDataField, GetValue
 so.topic: reference
 ---
 
-
 Value for the field. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user's computer is set up).
 
-
-
-* **Value:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **value** String
 

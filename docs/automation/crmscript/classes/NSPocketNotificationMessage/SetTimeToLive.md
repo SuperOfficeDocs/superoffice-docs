@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketNotificationMessage_SetTimeToLive_Integer_p_0
-description: NSPocketNotificationMessage.SetTimeToLive(Integer p_0)
+﻿---
+title: crmscript_ref_NSPocketNotificationMessage_SetTimeToLive
+description: NSPocketNotificationMessage.SetTimeToLive(Integer timeToLive)
 intellisense: NSPocketNotificationMessage.SetTimeToLive
-keywords: SetTimeToLive(Integer)
+keywords: NSPocketNotificationMessage, GetTimeToLive
 so.topic: reference
 ---
 
-
 Specifies how many minutes the message should be valid
 
-
-
-* **TimeToLive:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **timeToLive** Integer
 

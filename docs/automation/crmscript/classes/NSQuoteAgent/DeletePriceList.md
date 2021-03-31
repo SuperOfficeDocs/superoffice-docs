@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSQuoteAgent_DeletePriceList_Integer_p_0
-description: NSQuoteAgent.DeletePriceList(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_DeletePriceList
+description: DeletePriceList(Integer priceList);
 intellisense: NSQuoteAgent.DeletePriceList
-keywords: DeletePriceList(Integer)
+keywords: NSQuoteAgent,DeletePriceList
 so.topic: reference
 ---
 
+Deletes the NSPriceList
+  
+**Parameters:**
+ - **priceListId** The identity of the PriceList to delete.
 
-Deletes the PriceList
-
-
-
-* **priceListId:** The identity of the PriceList
-
+```crmscript
+NSQuoteAgent agent;
+agent.DeletePriceList(123);
+```
 

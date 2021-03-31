@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetUDListDefinitionId_Integer_p_0
-description: NSUserDefinedFieldInfo.SetUDListDefinitionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetUDListDefinitionId
+description: NSUserDefinedFieldInfo.SetUDListDefinitionId(Integer uDListDefinitionId)
 intellisense: NSUserDefinedFieldInfo.SetUDListDefinitionId
-keywords: SetUDListDefinitionId(Integer)
+keywords: NSUserDefinedFieldInfo, GetUDListDefinitionId
 so.topic: reference
 ---
 
-
 List to use for populating dropdown or listbox
 
-
-
-* **UDListDefinitionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **uDListDefinitionId** Integer
 

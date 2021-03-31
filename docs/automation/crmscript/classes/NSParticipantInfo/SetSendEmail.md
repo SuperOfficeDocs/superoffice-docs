@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantInfo_SetSendEmail_Bool_p_0
-description: NSParticipantInfo.SetSendEmail(Bool p_0)
+﻿---
+title: crmscript_ref_NSParticipantInfo_SetSendEmail
+description: NSParticipantInfo.SetSendEmail(Bool sendEmail)
 intellisense: NSParticipantInfo.SetSendEmail
-keywords: SetSendEmail(Bool)
+keywords: NSParticipantInfo, GetSendEmail
 so.topic: reference
 ---
 
-
 True if the participant has been sent an email or should be sent an email
 
-
-
-* **SendEmail:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **sendEmail** Bool
 

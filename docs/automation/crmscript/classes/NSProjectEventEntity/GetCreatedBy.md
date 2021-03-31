@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEventEntity_GetCreatedBy
-description: NSProjectEventEntity.GetCreatedBy()
+description: Associate NSProjectEventEntity.GetCreatedBy()
 intellisense: NSProjectEventEntity.GetCreatedBy
-keywords: GetCreatedBy()
+keywords: NSProjectEventEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 The person that created the projectevent
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

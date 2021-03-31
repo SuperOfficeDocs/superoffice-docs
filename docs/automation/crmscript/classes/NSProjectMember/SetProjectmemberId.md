@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetProjectmemberId_Integer_p_0
-description: NSProjectMember.SetProjectmemberId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetProjectmemberId
+description: NSProjectMember.SetProjectmemberId(Integer projectmemberId)
 intellisense: NSProjectMember.SetProjectmemberId
-keywords: SetProjectmemberId(Integer)
+keywords: NSProjectMember, GetProjectmemberId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ProjectmemberId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectmemberId** Integer
 

@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSPocketNotificationMessage_SetType_Integer_p_0
-description: NSPocketNotificationMessage.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSPocketNotificationMessage_SetType
+description: NSPocketNotificationMessage.SetType(Integer type)
 intellisense: NSPocketNotificationMessage.SetType
-keywords: SetType(Integer)
+keywords: NSPocketNotificationMessage, GetType
 so.topic: reference
 ---
 
-
 The type of notification this is
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Message 
+     - Enum: 1 = ImportantMessage 
+     - Enum: 2 = RemoteAction 
+     - Enum: 3 = YesNoQuestion 
+     - Enum: 4 = ShowWebPage 
 

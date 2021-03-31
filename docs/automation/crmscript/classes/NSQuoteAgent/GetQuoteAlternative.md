@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSQuoteAgent_GetQuoteAlternative_Integer_p_0
-description: NSQuoteAgent.GetQuoteAlternative(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_GetQuoteAlternative
+description: NSQuoteAlternative GetQuoteAlternative(Integer quoteAlternativeId);
 intellisense: NSQuoteAgent.GetQuoteAlternative
-keywords: GetQuoteAlternative(Integer)
+keywords: NSQuoteAgent,GetQuoteAlternative
 so.topic: reference
 ---
 
+Gets a NSQuoteAlternative object.
 
-Gets a QuoteAlternative object.
+**Parameters:**
+ - **quoteAlternativeId** The identifier of the NSQuoteAlternative object
 
+**Returns:** NSQuoteAlternative
 
-
-* **quoteAlternativeId:** The identifier of the QuoteAlternative object
-* **Returns:** QuoteAlternative
-
+```crmscript
+NSQuoteAgent agent;
+NSQuoteAlternative thing = agent.GetQuoteAlternative(123);
+```
 

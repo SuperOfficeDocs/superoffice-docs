@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldLeft_Integer_p_0
-description: NSUserDefinedFieldInfo.SetFieldLeft(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldLeft
+description: NSUserDefinedFieldInfo.SetFieldLeft(Integer fieldLeft)
 intellisense: NSUserDefinedFieldInfo.SetFieldLeft
-keywords: SetFieldLeft(Integer)
+keywords: NSUserDefinedFieldInfo, GetFieldLeft
 so.topic: reference
 ---
 
-
 X pixel coordinate of field
 
-
-
-* **FieldLeft:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **fieldLeft** Integer
 

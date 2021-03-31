@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEnvelope_GetServerId
-description: NSEMailEnvelope.GetServerId()
+description: Integer NSEMailEnvelope.GetServerId()
 intellisense: NSEMailEnvelope.GetServerId
-sortOrder: 3005
-keywords: GetServerId()
+keywords: NSEMailEnvelope, GetServerId
 so.topic: reference
 ---
 
-
 Unique id for the e-mail on the server
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAttachment_SetId_String_p_0
-description: NSEMailAttachment.SetId(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAttachment_SetId
+description: NSEMailAttachment.SetId(String id)
 intellisense: NSEMailAttachment.SetId
-sortOrder: 2904
-keywords: SetId(String)
+keywords: NSEMailAttachment, GetId
 so.topic: reference
 ---
 
-
 Content-ID
 
-
-
-* **Id:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **id** String
 

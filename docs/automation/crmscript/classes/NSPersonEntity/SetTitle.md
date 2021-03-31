@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetTitle_String_p_0
-description: NSPersonEntity.SetTitle(String p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetTitle
+description: NSPersonEntity.SetTitle(String title)
 intellisense: NSPersonEntity.SetTitle
-keywords: SetTitle(String)
+keywords: NSPersonEntity, GetTitle
 so.topic: reference
 ---
 
-
 Title
 
-
-
-* **Title:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **title** String
 

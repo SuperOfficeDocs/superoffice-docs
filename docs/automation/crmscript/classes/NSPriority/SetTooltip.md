@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPriority_SetTooltip_String_p_0
-description: NSPriority.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSPriority_SetTooltip
+description: NSPriority.SetTooltip(String tooltip)
 intellisense: NSPriority.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSPriority, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

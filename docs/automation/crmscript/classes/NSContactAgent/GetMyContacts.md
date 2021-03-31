@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSContactAgent_GetMyContacts
-description: NSContactAgent.GetMyContacts()
+description: ContactArray GetMyContacts()
 intellisense: NSContactAgent.GetMyContacts
-sortOrder: 1805
-keywords: GetMyContacts()
+keywords: NSContactAgent,GetMyContacts
 so.topic: reference
 ---
-
 
 Getting the contacts where the user currently logged in is set as contact owner.
 
 
+**Returns:** Array of contacts
 
-* **Returns:** Array of contacts
-
+```crmscript
+NSContactAgent agent;
+ContactArray res = agent.GetMyContacts();
+```
 

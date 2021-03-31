@@ -1,21 +1,18 @@
----
-title: crmscript_ref_NSAlarmData_SetAssignmentStatus_Integer_p_0
-description: NSAlarmData.SetAssignmentStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetAssignmentStatus
+description: NSAlarmData.SetAssignmentStatus(Integer assignmentStatus)
 intellisense: NSAlarmData.SetAssignmentStatus
-sortOrder: 672
-keywords: SetAssignmentStatus(Integer)
+keywords: NSAlarmData, GetAssignmentStatus
 so.topic: reference
 ---
 
-
 Status if this appointment is in the process of being assigned to someone else
 
-* Unknown= 0
-* None=1
-* Assigning=11
-* Seen=12
-* Declined=13
-
-* **AssignmentStatus:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **assignmentStatus** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = None 
+     - Enum: 11 = Assigning 
+     - Enum: 12 = Seen 
+     - Enum: 13 = Declined 
 

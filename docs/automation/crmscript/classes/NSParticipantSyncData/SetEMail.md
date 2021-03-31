@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetEMail_String__p_0
-description: NSParticipantSyncData.SetEMail(String[] p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetEMail
+description: NSParticipantSyncData.SetEMail(StringArray eMail)
 intellisense: NSParticipantSyncData.SetEMail
-keywords: SetEMail(String[])
+keywords: NSParticipantSyncData, GetEMail
 so.topic: reference
 ---
 
 
-* **EMail:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **eMail** StringArray
 

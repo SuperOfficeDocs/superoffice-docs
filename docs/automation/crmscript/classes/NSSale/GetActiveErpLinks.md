@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSale_GetActiveErpLinks
-description: NSSale.GetActiveErpLinks()
+description: Integer NSSale.GetActiveErpLinks()
 intellisense: NSSale.GetActiveErpLinks
-keywords: GetActiveErpLinks()
+keywords: NSSale, GetActiveErpLinks
 so.topic: reference
 ---
 
-
 The number of active erp links
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

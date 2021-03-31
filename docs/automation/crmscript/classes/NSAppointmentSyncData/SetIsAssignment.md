@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetIsAssignment_Bool_p_0
-description: NSAppointmentSyncData.SetIsAssignment(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetIsAssignment
+description: NSAppointmentSyncData.SetIsAssignment(Bool isAssignment)
 intellisense: NSAppointmentSyncData.SetIsAssignment
-sortOrder: 1076
-keywords: SetIsAssignment(Bool)
+keywords: NSAppointmentSyncData, GetIsAssignment
 so.topic: reference
 ---
 
 
-* **IsAssignment:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isAssignment** Bool
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSParticipantSyncData_GetContactDepartment
-description: NSParticipantSyncData.GetContactDepartment()
+description: String NSParticipantSyncData.GetContactDepartment()
 intellisense: NSParticipantSyncData.GetContactDepartment
-keywords: GetContactDepartment()
+keywords: NSParticipantSyncData, GetContactDepartment
 so.topic: reference
 ---
 
-
 Department
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

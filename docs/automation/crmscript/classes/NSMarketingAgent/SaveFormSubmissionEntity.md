@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSMarketingAgent_SaveFormSubmissionEntity_NSFormSubmissionEntity_p_0
-description: NSMarketingAgent.SaveFormSubmissionEntity(NSFormSubmissionEntity p_0)
+﻿---
+title: crmscript_ref_NSMarketingAgent_SaveFormSubmissionEntity
+description: NSFormSubmissionEntity SaveFormSubmissionEntity(NSFormSubmissionEntity formSubmissionEntity);
 intellisense: NSMarketingAgent.SaveFormSubmissionEntity
-keywords: SaveFormSubmissionEntity(NSFormSubmissionEntity)
+keywords: NSMarketingAgent,SaveFormSubmissionEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSFormSubmissionEntity or creates a new NSFormSubmissionEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **formSubmissionEntity** The NSFormSubmissionEntity to save.
 
+**Returns:** New or updated NSFormSubmissionEntity
 
-Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty
-
-
-
-* **formSubmissionEntity:** The FormSubmissionEntity that is saved
-* **Returns:** New or updated FormSubmissionEntity
-
+```crmscript
+NSMarketing  agent;
+NSFormSubmissionEntity thing = agent.CreateDefaultFormSubmissionEntity();
+thing = agent.SaveFormSubmissionEntity(thing);
+```
 

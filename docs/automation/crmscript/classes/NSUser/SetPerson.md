@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUser_SetPerson_NSPerson_p_0
-description: NSUser.SetPerson(NSPerson p_0)
+﻿---
+title: crmscript_ref_NSUser_SetPerson
+description: NSUser.SetPerson(Person person)
 intellisense: NSUser.SetPerson
-keywords: SetPerson(NSPerson)
+keywords: NSUser, GetPerson
 so.topic: reference
 ---
 
-
 The person associated with this user. Detailed information about the user
 
-
-
-* **Person:** Person
-* **Returns:** Person
-
+**Parameter:** 
+ - **person** Person
 

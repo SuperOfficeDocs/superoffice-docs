@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSTicketInfo
 description: NSTicketInfo
 intellisense: Void.NSTicketInfo
+keywords: NSTicketInfo
 so.topic: reference
 ---
 
-
 A small carrier that contains information about a ticket
 
-
-
-
-1. autolist
+1. autolist 
 

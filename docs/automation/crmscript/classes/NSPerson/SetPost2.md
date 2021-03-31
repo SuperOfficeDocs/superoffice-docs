@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetPost2_String_p_0
-description: NSPerson.SetPost2(String p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetPost2
+description: NSPerson.SetPost2(String post2)
 intellisense: NSPerson.SetPost2
-keywords: SetPost2(String)
+keywords: NSPerson, GetPost2
 so.topic: reference
 ---
 
-
 Postal address, used in Japanese versions only
 
-
-
-* **Post2:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **post2** String
 

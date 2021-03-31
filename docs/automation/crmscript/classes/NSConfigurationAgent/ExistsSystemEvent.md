@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSConfigurationAgent_ExistsSystemEvent_String_p_0
-description: NSConfigurationAgent.ExistsSystemEvent(String p_0)
+﻿---
+title: crmscript_ref_NSConfigurationAgent_ExistsSystemEvent
+description: Bool ExistsSystemEvent(String key)
 intellisense: NSConfigurationAgent.ExistsSystemEvent
-sortOrder: 1588
-keywords: ExistsSystemEvent(String)
+keywords: NSConfigurationAgent,ExistsSystemEvent
 so.topic: reference
 ---
 
-
 Is there a system event with the given key?
 
+**Parameters:**
+ - **key** The key to match on
 
+**Returns:** The system event
 
-* **key:** The key to match on
-* **Returns:** The system event
-
+```crmscript
+NSConfigurationAgent agent;
+String key;
+Bool res = agent.ExistsSystemEvent(key);
+```
 

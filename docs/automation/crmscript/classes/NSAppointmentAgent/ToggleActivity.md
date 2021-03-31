@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAppointmentAgent_ToggleActivity_String_p_0
-description: NSAppointmentAgent.ToggleActivity(String p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_ToggleActivity
+description: Integer ToggleActivity(String activityIdentifier)
 intellisense: NSAppointmentAgent.ToggleActivity
-sortOrder: 831
-keywords: ToggleActivity(String)
+keywords: NSAppointmentAgent,ToggleActivity
 so.topic: reference
 ---
 
+Toggle the completed status for an activity. Activity may be sale, document or appointment. The changes are saved immediately. 
 
-Toggle the completed status for an activity. Activity may be sale, document or appointment. The changes are saved immediately.
+**Parameters:**
+ - **activityIdentifier** May contain of a mix of appointment_id, sale_id, document_id and todo_id
 
+**Returns:** What the result after toggling was.
 
-
-* **activityIdentifier:** May contain of a mix of appointment\_id, sale\_id, document\_id and todo\_id
-* **Returns:** What the result after toggling was.
-
+```crmscript
+NSAppointmentAgent agent;
+String activityIdentifier;
+Integer res = agent.ToggleActivity(activityIdentifier);
+```
 

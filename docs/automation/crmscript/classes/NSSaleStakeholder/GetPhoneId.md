@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleStakeholder_GetPhoneId
-description: NSSaleStakeholder.GetPhoneId()
+description: Integer NSSaleStakeholder.GetPhoneId()
 intellisense: NSSaleStakeholder.GetPhoneId
-keywords: GetPhoneId()
+keywords: NSSaleStakeholder, GetPhoneId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

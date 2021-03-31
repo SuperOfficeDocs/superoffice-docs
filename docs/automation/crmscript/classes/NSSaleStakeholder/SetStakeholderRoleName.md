@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetStakeholderRoleName_String_p_0
-description: NSSaleStakeholder.SetStakeholderRoleName(String p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetStakeholderRoleName
+description: NSSaleStakeholder.SetStakeholderRoleName(String stakeholderRoleName)
 intellisense: NSSaleStakeholder.SetStakeholderRoleName
-keywords: SetStakeholderRoleName(String)
+keywords: NSSaleStakeholder, GetStakeholderRoleName
 so.topic: reference
 ---
 
-
 Stakeholder role name
 
-
-
-* **StakeholderRoleName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **stakeholderRoleName** String
 

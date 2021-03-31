@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSForeignKey_GetKey
-description: NSForeignKey.GetKey()
+description: String NSForeignKey.GetKey()
 intellisense: NSForeignKey.GetKey
-sortOrder: 3738
-keywords: GetKey()
+keywords: NSForeignKey, GetKey
 so.topic: reference
 ---
 
-
 Subkey (optional)
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

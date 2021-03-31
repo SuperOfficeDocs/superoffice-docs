@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketEntity_GetPerson
-description: NSTicketEntity.GetPerson()
+description: Person NSTicketEntity.GetPerson()
 intellisense: NSTicketEntity.GetPerson
-keywords: GetPerson()
+keywords: NSTicketEntity, GetPerson
 so.topic: reference
 ---
 
-
 The primary person that this ticket is connected to
 
-
-
-* **Returns:** Person
+**Returns:** Person
 
 

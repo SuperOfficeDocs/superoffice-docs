@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSale_GetPersonFullName
-description: NSSale.GetPersonFullName()
+description: String NSSale.GetPersonFullName()
 intellisense: NSSale.GetPersonFullName
-keywords: GetPersonFullName()
+keywords: NSSale, GetPersonFullName
 so.topic: reference
 ---
 
-
 The name of the person this sale belongs to.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

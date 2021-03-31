@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBlobEntity_GetBlobId
-description: NSBlobEntity.GetBlobId()
+description: Integer NSBlobEntity.GetBlobId()
 intellisense: NSBlobEntity.GetBlobId
-sortOrder: 1444
-keywords: GetBlobId()
+keywords: NSBlobEntity, GetBlobId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

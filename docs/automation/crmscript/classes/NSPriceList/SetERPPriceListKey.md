@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPriceList_SetERPPriceListKey_String_p_0
-description: NSPriceList.SetERPPriceListKey(String p_0)
+﻿---
+title: crmscript_ref_NSPriceList_SetERPPriceListKey
+description: NSPriceList.SetERPPriceListKey(String eRPPriceListKey)
 intellisense: NSPriceList.SetERPPriceListKey
-keywords: SetERPPriceListKey(String)
+keywords: NSPriceList, GetERPPriceListKey
 so.topic: reference
 ---
 
-
 The key that uniquely identifies this pricelist in the ERP system
 
-
-
-* **ERPPriceListKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **eRPPriceListKey** String
 

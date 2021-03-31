@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnection_SetErpConnectorId_Integer_p_0
-description: NSErpConnection.SetErpConnectorId(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpConnection_SetErpConnectorId
+description: NSErpConnection.SetErpConnectorId(Integer erpConnectorId)
 intellisense: NSErpConnection.SetErpConnectorId
-sortOrder: 3101
-keywords: SetErpConnectorId(Integer)
+keywords: NSErpConnection, GetErpConnectorId
 so.topic: reference
 ---
 
-
 The connector that this connection should call
 
-
-
-* **ErpConnectorId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **erpConnectorId** Integer
 

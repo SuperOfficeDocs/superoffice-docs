@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeTask_SetVisibleFor_NSVisibleFor_p_0
-description: NSMailMergeTask.SetVisibleFor(NSVisibleFor p_0)
+﻿---
+title: crmscript_ref_NSMailMergeTask_SetVisibleFor
+description: NSMailMergeTask.SetVisibleFor(VisibleFor visibleFor)
 intellisense: NSMailMergeTask.SetVisibleFor
-keywords: SetVisibleFor(NSVisibleFor)
+keywords: NSMailMergeTask, GetVisibleFor
 so.topic: reference
 ---
 
-
 Who the task should be visible for
 
-
-
-* **VisibleFor:** VisibleFor
-* **Returns:** VisibleFor
-
+**Parameter:** 
+ - **visibleFor** VisibleFor
 

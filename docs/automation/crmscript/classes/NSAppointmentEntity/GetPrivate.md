@@ -1,17 +1,16 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetPrivate
-description: NSAppointmentEntity.GetPrivate()
+description: Integer NSAppointmentEntity.GetPrivate()
 intellisense: NSAppointmentEntity.GetPrivate
-sortOrder: 948
-keywords: GetPrivate()
+keywords: NSAppointmentEntity, GetPrivate
 so.topic: reference
 ---
 
-
 The confidentiality of appointments is shown as different types of “private” on the appointment. For an updated list of “private” types, see the database manual.
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Public 
+     - Enum: 1 = PrivateUser 
+     - Enum: 2 = PrivateGroup 
 

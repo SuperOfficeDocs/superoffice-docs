@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStageEntity_SetDeleted_Bool_p_0
-description: NSSaleStageEntity.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSSaleStageEntity_SetDeleted
+description: NSSaleStageEntity.SetDeleted(Bool deleted)
 intellisense: NSSaleStageEntity.SetDeleted
-keywords: SetDeleted(Bool)
+keywords: NSSaleStageEntity, GetDeleted
 so.topic: reference
 ---
 
-
 If true, the Sale stage is deleted
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

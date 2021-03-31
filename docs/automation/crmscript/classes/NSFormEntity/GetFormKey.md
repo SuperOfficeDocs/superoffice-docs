@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetFormKey
-description: NSFormEntity.GetFormKey()
+description: String NSFormEntity.GetFormKey()
 intellisense: NSFormEntity.GetFormKey
-sortOrder: 3803
-keywords: GetFormKey()
+keywords: NSFormEntity, GetFormKey
 so.topic: reference
 ---
 
-
 A short string used as unique id to access this form
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

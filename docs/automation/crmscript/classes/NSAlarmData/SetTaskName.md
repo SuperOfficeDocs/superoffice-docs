@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetTaskName_String_p_0
-description: NSAlarmData.SetTaskName(String p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetTaskName
+description: NSAlarmData.SetTaskName(String taskName)
 intellisense: NSAlarmData.SetTaskName
-sortOrder: 692
-keywords: SetTaskName(String)
+keywords: NSAlarmData, GetTaskName
 so.topic: reference
 ---
 
 
-* **TaskName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **taskName** String
 

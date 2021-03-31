@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetPlainBody
-description: NSEMailEntity.GetPlainBody()
+description: String NSEMailEntity.GetPlainBody()
 intellisense: NSEMailEntity.GetPlainBody
-sortOrder: 2970
-keywords: GetPlainBody()
+keywords: NSEMailEntity, GetPlainBody
 so.topic: reference
 ---
 
-
 Body formatted in plain text
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

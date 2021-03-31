@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSDocumentAgent_GetDocument_Integer_p_0
-description: NSDocumentAgent.GetDocument(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentAgent_GetDocument
+description: NSDocument GetDocument(Integer documentId);
 intellisense: NSDocumentAgent.GetDocument
-sortOrder: 2470
-keywords: GetDocument(Integer)
+keywords: NSDocumentAgent,GetDocument
 so.topic: reference
 ---
 
+Gets a NSDocument object.
 
-Gets a Document object.
+**Parameters:**
+ - **documentId** The identifier of the NSDocument object
 
+**Returns:** NSDocument
 
-
-* **documentId:** The identifier of the Document object
-* **Returns:** Document
-
+```crmscript
+NSDocumentAgent agent;
+NSDocument thing = agent.GetDocument(123);
+```
 

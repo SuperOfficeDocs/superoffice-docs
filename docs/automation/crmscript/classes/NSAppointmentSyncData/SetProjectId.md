@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetProjectId_Integer_p_0
-description: NSAppointmentSyncData.SetProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetProjectId
+description: NSAppointmentSyncData.SetProjectId(Integer projectId)
 intellisense: NSAppointmentSyncData.SetProjectId
-sortOrder: 1086
-keywords: SetProjectId(Integer)
+keywords: NSAppointmentSyncData, GetProjectId
 so.topic: reference
 ---
 
-
 ID of project referred to, may be 0
 
-
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectId** Integer
 

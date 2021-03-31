@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetCountryId_Integer_p_0
-description: NSPerson.SetCountryId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetCountryId
+description: NSPerson.SetCountryId(Integer countryId)
 intellisense: NSPerson.SetCountryId
-keywords: SetCountryId(Integer)
+keywords: NSPerson, GetCountryId
 so.topic: reference
 ---
 
-
 Country
 
-
-
-* **CountryId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **countryId** Integer
 

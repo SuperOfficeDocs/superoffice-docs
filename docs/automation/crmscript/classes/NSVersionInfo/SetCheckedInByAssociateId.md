@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSVersionInfo_SetCheckedInByAssociateId_Integer_p_0
-description: NSVersionInfo.SetCheckedInByAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSVersionInfo_SetCheckedInByAssociateId
+description: NSVersionInfo.SetCheckedInByAssociateId(Integer checkedInByAssociateId)
 intellisense: NSVersionInfo.SetCheckedInByAssociateId
-keywords: SetCheckedInByAssociateId(Integer)
+keywords: NSVersionInfo, GetCheckedInByAssociateId
 so.topic: reference
 ---
 
-
 Associate id of the user who performed the checkin
 
-
-
-* **CheckedInByAssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **checkedInByAssociateId** Integer
 

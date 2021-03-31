@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContact_GetCity
-description: NSContact.GetCity()
+description: String NSContact.GetCity()
 intellisense: NSContact.GetCity
-sortOrder: 1728
-keywords: GetCity()
+keywords: NSContact, GetCity
 so.topic: reference
 ---
 
-
 City corresponding to zip code
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

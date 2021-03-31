@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetOnSatellite_Bool_p_0
-description: NSExtAppEntity.SetOnSatellite(Bool p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetOnSatellite
+description: NSExtAppEntity.SetOnSatellite(Bool onSatellite)
 intellisense: NSExtAppEntity.SetOnSatellite
-sortOrder: 3387
-keywords: SetOnSatellite(Bool)
+keywords: NSExtAppEntity, GetOnSatellite
 so.topic: reference
 ---
 
-
 Is the application visible when user is on a satellite
 
-
-
-* **OnSatellite:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **onSatellite** Bool
 

@@ -1,14 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSUserInfo
 description: NSUserInfo
 intellisense: Void.NSUserInfo
+keywords: NSUserInfo
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

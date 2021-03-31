@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPersonFirstName_String_p_0
-description: NSParticipantSyncData.SetPersonFirstName(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPersonFirstName
+description: NSParticipantSyncData.SetPersonFirstName(String personFirstName)
 intellisense: NSParticipantSyncData.SetPersonFirstName
-keywords: SetPersonFirstName(String)
+keywords: NSParticipantSyncData, GetPersonFirstName
 so.topic: reference
 ---
 
-
 First name
 
-
-
-* **PersonFirstName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personFirstName** String
 

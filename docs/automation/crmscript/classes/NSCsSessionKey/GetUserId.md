@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCsSessionKey_GetUserId
-description: NSCsSessionKey.GetUserId()
+description: Integer NSCsSessionKey.GetUserId()
 intellisense: NSCsSessionKey.GetUserId
-sortOrder: 2164
-keywords: GetUserId()
+keywords: NSCsSessionKey, GetUserId
 so.topic: reference
 ---
 
-
 The ejuser id owning this session key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

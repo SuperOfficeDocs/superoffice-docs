@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCredited_GetTooltip
-description: NSCredited.GetTooltip()
+description: String NSCredited.GetTooltip()
 intellisense: NSCredited.GetTooltip
-sortOrder: 2097
-keywords: GetTooltip()
+keywords: NSCredited, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

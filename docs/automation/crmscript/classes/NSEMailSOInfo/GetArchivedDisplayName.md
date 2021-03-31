@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailSOInfo_GetArchivedDisplayName
-description: NSEMailSOInfo.GetArchivedDisplayName()
+description: String NSEMailSOInfo.GetArchivedDisplayName()
 intellisense: NSEMailSOInfo.GetArchivedDisplayName
-sortOrder: 3051
-keywords: GetArchivedDisplayName()
+keywords: NSEMailSOInfo, GetArchivedDisplayName
 so.topic: reference
 ---
 
-
 The full name of the associate who archived this email
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

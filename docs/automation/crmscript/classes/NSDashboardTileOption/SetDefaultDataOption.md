@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTileOption_SetDefaultDataOption_Bool_p_0
-description: NSDashboardTileOption.SetDefaultDataOption(Bool p_0)
+﻿---
+title: crmscript_ref_NSDashboardTileOption_SetDefaultDataOption
+description: NSDashboardTileOption.SetDefaultDataOption(Bool defaultDataOption)
 intellisense: NSDashboardTileOption.SetDefaultDataOption
-sortOrder: 2325
-keywords: SetDefaultDataOption(Bool)
+keywords: NSDashboardTileOption, GetDefaultDataOption
 so.topic: reference
 ---
 
-
 True if this option only applies to the default data source, not selections
 
-
-
-* **DefaultDataOption:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **defaultDataOption** Bool
 

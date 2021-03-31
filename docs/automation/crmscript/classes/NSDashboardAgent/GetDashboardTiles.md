@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSDashboardAgent_GetDashboardTiles_Integer__p_0
-description: NSDashboardAgent.GetDashboardTiles(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSDashboardAgent_GetDashboardTiles
+description: DashboardTileArray GetDashboardTiles(IntegerArray dashboardTileIds)
 intellisense: NSDashboardAgent.GetDashboardTiles
-sortOrder: 2281
-keywords: GetDashboardTiles(Integer[])
+keywords: NSDashboardAgent,GetDashboardTiles
 so.topic: reference
 ---
 
-
 Gets an array of dashboard tiles for the provided ids
 
+**Parameters:**
+ - **dashboardTileIds** The ids of the tiles to get
 
+**Returns:** Dashboard tiles
 
-* **dashboardTileIds:** The ids of the tiles to get
-* **Returns:** Dashboards
-
+```crmscript
+NSDashboardAgent agent;
+IntegerArray dashboardTileIds;
+DashboardTileArray res = agent.GetDashboardTiles(dashboardTileIds);
+```
 

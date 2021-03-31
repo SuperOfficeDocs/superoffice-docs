@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUser_SetLastlogin_DateTime_p_0
-description: NSUser.SetLastlogin(DateTime p_0)
+﻿---
+title: crmscript_ref_NSUser_SetLastlogin
+description: NSUser.SetLastlogin(DateTime lastlogin)
 intellisense: NSUser.SetLastlogin
-keywords: SetLastlogin(DateTime)
+keywords: NSUser, GetLastlogin
 so.topic: reference
 ---
 
-
 Last login date
 
-
-
-* **Lastlogin:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **lastlogin** DateTime
 

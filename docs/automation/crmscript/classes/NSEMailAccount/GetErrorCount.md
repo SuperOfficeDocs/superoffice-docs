@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAccount_GetErrorCount
-description: NSEMailAccount.GetErrorCount()
+description: Integer NSEMailAccount.GetErrorCount()
 intellisense: NSEMailAccount.GetErrorCount
-sortOrder: 2747
-keywords: GetErrorCount()
+keywords: NSEMailAccount, GetErrorCount
 so.topic: reference
 ---
 
-
 Count of concurring errors of fetching email. Readonly field
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

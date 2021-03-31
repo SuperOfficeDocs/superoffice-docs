@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSReportAgent_DeleteReportLabelLayoutEntity_Integer_p_0
-description: NSReportAgent.DeleteReportLabelLayoutEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportAgent_DeleteReportLabelLayoutEntity
+description: DeleteReportLabelLayoutEntity(Integer reportLabelLayoutEntity);
 intellisense: NSReportAgent.DeleteReportLabelLayoutEntity
-keywords: DeleteReportLabelLayoutEntity(Integer)
+keywords: NSReportAgent,DeleteReportLabelLayoutEntity
 so.topic: reference
 ---
 
+Deletes the NSReportLabelLayoutEntity
+  
+**Parameters:**
+ - **reportLabelLayoutEntityId** The identity of the ReportLabelLayoutEntity to delete.
 
-Deletes the ReportLabelLayoutEntity
-
-
-
-* **reportLabelLayoutEntityId:** The identity of the ReportLabelLayoutEntity
-
+```crmscript
+NSReportAgent agent;
+agent.DeleteReportLabelLayoutEntity(123);
+```
 

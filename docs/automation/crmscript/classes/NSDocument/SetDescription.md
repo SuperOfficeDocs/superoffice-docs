@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocument_SetDescription_String_p_0
-description: NSDocument.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSDocument_SetDescription
+description: NSDocument.SetDescription(String description)
 intellisense: NSDocument.SetDescription
-sortOrder: 2451
-keywords: SetDescription(String)
+keywords: NSDocument, GetDescription
 so.topic: reference
 ---
 
-
 The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

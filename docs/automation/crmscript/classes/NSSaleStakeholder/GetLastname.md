@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleStakeholder_GetLastname
-description: NSSaleStakeholder.GetLastname()
+description: String NSSaleStakeholder.GetLastname()
 intellisense: NSSaleStakeholder.GetLastname
-keywords: GetLastname()
+keywords: NSSaleStakeholder, GetLastname
 so.topic: reference
 ---
 
-
 Last name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

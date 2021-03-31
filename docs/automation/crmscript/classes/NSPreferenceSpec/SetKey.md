@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceSpec_SetKey_String_p_0
-description: NSPreferenceSpec.SetKey(String p_0)
+﻿---
+title: crmscript_ref_NSPreferenceSpec_SetKey
+description: NSPreferenceSpec.SetKey(String key)
 intellisense: NSPreferenceSpec.SetKey
-keywords: SetKey(String)
+keywords: NSPreferenceSpec, GetKey
 so.topic: reference
 ---
 
-
 Preference key name
 
-
-
-* **Key:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **key** String
 

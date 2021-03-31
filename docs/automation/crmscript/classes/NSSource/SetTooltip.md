@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSource_SetTooltip_String_p_0
-description: NSSource.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSSource_SetTooltip
+description: NSSource.SetTooltip(String tooltip)
 intellisense: NSSource.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSSource, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

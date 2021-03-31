@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetCreatedBy_NSAssociate_p_0
-description: NSTicketEntity.SetCreatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetCreatedBy
+description: NSTicketEntity.SetCreatedBy(Associate createdBy)
 intellisense: NSTicketEntity.SetCreatedBy
-keywords: SetCreatedBy(NSAssociate)
+keywords: NSTicketEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 The associate who created this ticket
 
-
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **createdBy** Associate
 

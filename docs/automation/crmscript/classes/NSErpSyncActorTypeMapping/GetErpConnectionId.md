@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncActorTypeMapping_GetErpConnectionId
-description: NSErpSyncActorTypeMapping.GetErpConnectionId()
+description: Integer NSErpSyncActorTypeMapping.GetErpConnectionId()
 intellisense: NSErpSyncActorTypeMapping.GetErpConnectionId
-sortOrder: 3165
-keywords: GetErpConnectionId()
+keywords: NSErpSyncActorTypeMapping, GetErpConnectionId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

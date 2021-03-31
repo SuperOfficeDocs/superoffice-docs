@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCountry_GetDomesticAddressLayoutId
-description: NSCountry.GetDomesticAddressLayoutId()
+description: Integer NSCountry.GetDomesticAddressLayoutId()
 intellisense: NSCountry.GetDomesticAddressLayoutId
-sortOrder: 2016
-keywords: GetDomesticAddressLayoutId()
+keywords: NSCountry, GetDomesticAddressLayoutId
 so.topic: reference
 ---
 
-
 Domestic address layout of the country
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,21 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetFutureOpenWeightedOwnCurrency_Float_p_0
-description: NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetFutureOpenWeightedOwnCurrency
+description: NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float futureOpenWeightedOwnCurrency)
 intellisense: NSSaleSummary.SetFutureOpenWeightedOwnCurrency
-keywords: SetFutureOpenWeightedOwnCurrency(Float)
+keywords: NSSaleSummary, GetFutureOpenWeightedOwnCurrency
 so.topic: reference
 ---
 
+Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user 
 
-Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user
-
-
-    	///
-    
-
-
-
-* **FutureOpenWeightedOwnCurrency:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **futureOpenWeightedOwnCurrency** Float
 

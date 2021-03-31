@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSScript_GetDescription
-description: NSScript.GetDescription()
+description: String NSScript.GetDescription()
 intellisense: NSScript.GetDescription
-keywords: GetDescription()
+keywords: NSScript, GetDescription
 so.topic: reference
 ---
 
-
 Optional description of what this script is used for.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

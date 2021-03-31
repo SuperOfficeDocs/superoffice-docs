@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetUrl_String_p_0
-description: NSProduct.SetUrl(String p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetUrl
+description: NSProduct.SetUrl(String url)
 intellisense: NSProduct.SetUrl
-keywords: SetUrl(String)
+keywords: NSProduct, GetUrl
 so.topic: reference
 ---
 
-
 URL to product information web page.
 
-
-
-* **Url:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **url** String
 

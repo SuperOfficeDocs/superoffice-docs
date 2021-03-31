@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetMonStop_DateTime_p_0
-description: NSTicketPriorityEntity.SetMonStop(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetMonStop
+description: NSTicketPriorityEntity.SetMonStop(DateTime monStop)
 intellisense: NSTicketPriorityEntity.SetMonStop
-keywords: SetMonStop(DateTime)
+keywords: NSTicketPriorityEntity, GetMonStop
 so.topic: reference
 ---
 
-
 The work hour sstop for Mondays. Note that only the time part of the DateTime is used
 
-
-
-* **MonStop:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **monStop** DateTime
 

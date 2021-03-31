@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFindResults_SetArchiveRows_NSArchiveListItem__p_0
-description: NSFindResults.SetArchiveRows(NSArchiveListItem[] p_0)
+﻿---
+title: crmscript_ref_NSFindResults_SetArchiveRows
+description: NSFindResults.SetArchiveRows(ArchiveListItemArray archiveRows)
 intellisense: NSFindResults.SetArchiveRows
-sortOrder: 3694
-keywords: SetArchiveRows(NSArchiveListItem[])
+keywords: NSFindResults, GetArchiveRows
 so.topic: reference
 ---
 
-
 Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows
 
-
-
-* **ArchiveRows:** ArchiveListItemArray
-* **Returns:** ArchiveListItemArray
-
+**Parameter:** 
+ - **archiveRows** ArchiveListItemArray
 

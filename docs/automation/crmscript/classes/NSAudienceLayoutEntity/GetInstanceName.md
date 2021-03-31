@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAudienceLayoutEntity_GetInstanceName
-description: NSAudienceLayoutEntity.GetInstanceName()
+description: String NSAudienceLayoutEntity.GetInstanceName()
 intellisense: NSAudienceLayoutEntity.GetInstanceName
-sortOrder: 1341
-keywords: GetInstanceName()
+keywords: NSAudienceLayoutEntity, GetInstanceName
 so.topic: reference
 ---
 
-
 Name of the layout instance
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_DeleteConnection_Integer_p_0
-description: NSQuoteAgent.DeleteConnection(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_DeleteConnection
+description: Void DeleteConnection(Integer quoteConnectionId)
 intellisense: NSQuoteAgent.DeleteConnection
-keywords: DeleteConnection(Integer)
+keywords: NSQuoteAgent,DeleteConnection
 so.topic: reference
 ---
 
-
 Marks a connection as deleted.
 
+**Parameters:**
+ - **quoteConnectionId** Primary key of the connection to delete
 
+**Returns:** A void return
 
-* **quoteConnectionId:** Primary key of the connection to delete
-* **Returns:** A void return
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteConnectionId;
+Void res = agent.DeleteConnection(quoteConnectionId);
+```
 

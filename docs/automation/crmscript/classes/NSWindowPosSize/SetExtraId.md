@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWindowPosSize_SetExtraId_Integer_p_0
-description: NSWindowPosSize.SetExtraId(Integer p_0)
+﻿---
+title: crmscript_ref_NSWindowPosSize_SetExtraId
+description: NSWindowPosSize.SetExtraId(Integer extraId)
 intellisense: NSWindowPosSize.SetExtraId
-keywords: SetExtraId(Integer)
+keywords: NSWindowPosSize, GetExtraId
 so.topic: reference
 ---
 
-
 Spare ID, not yet in use
 
-
-
-* **ExtraId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **extraId** Integer
 

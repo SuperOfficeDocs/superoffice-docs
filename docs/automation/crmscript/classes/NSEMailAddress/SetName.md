@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAddress_SetName_String_p_0
-description: NSEMailAddress.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAddress_SetName
+description: NSEMailAddress.SetName(String name)
 intellisense: NSEMailAddress.SetName
-sortOrder: 2777
-keywords: SetName(String)
+keywords: NSEMailAddress, GetName
 so.topic: reference
 ---
 
-
 The name on the email address
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentSyncData
 description: NSAppointmentSyncData
 intellisense: Void.NSAppointmentSyncData
-sortOrder: 1038
+keywords: NSAppointmentSyncData
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSSelectionAgent_AddSelectionMembersFromSearch_Integer_p_0_String_p_1
-description: NSSelectionAgent.AddSelectionMembersFromSearch(Integer p_0, String p_1)
+﻿---
+title: crmscript_ref_NSSelectionAgent_AddSelectionMembersFromSearch
+description: Integer AddSelectionMembersFromSearch(Integer selectionId, String storageKey)
 intellisense: NSSelectionAgent.AddSelectionMembersFromSearch
-keywords: AddSelectionMembersFromSearch(Integer,String)
+keywords: NSSelectionAgent,AddSelectionMembersFromSearch
 so.topic: reference
 ---
 
-
 Adds members from the selection using the search result.
 
+**Parameters:**
+ - **selectionId** The id of the selection to add members
+ - **storageKey** Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search
 
+**Returns:** Number of members added.
 
-* **selectionId:** The id of the selection to add members
-* **storageKey:** Storage key to be interpreted by the restriction storage provider, when it fetches criteria for the search
-* **Returns:** Number of members added.
-
+```crmscript
+NSSelectionAgent agent;
+Integer selectionId;
+String storageKey;
+Integer res = agent.AddSelectionMembersFromSearch(selectionId, storageKey);
+```
 

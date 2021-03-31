@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetCreatedBy
-description: NSPersonEntity.GetCreatedBy()
+description: Associate NSPersonEntity.GetCreatedBy()
 intellisense: NSPersonEntity.GetCreatedBy
-keywords: GetCreatedBy()
+keywords: NSPersonEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 The user that created the person object
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

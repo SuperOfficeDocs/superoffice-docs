@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArea_SetAreaId_Integer_p_0
-description: NSArea.SetAreaId(Integer p_0)
+﻿---
+title: crmscript_ref_NSArea_SetAreaId
+description: NSArea.SetAreaId(Integer areaId)
 intellisense: NSArea.SetAreaId
-sortOrder: 1246
-keywords: SetAreaId(Integer)
+keywords: NSArea, GetAreaId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **AreaId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **areaId** Integer
 

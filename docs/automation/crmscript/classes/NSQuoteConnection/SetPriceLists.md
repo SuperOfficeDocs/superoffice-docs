@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteConnection_SetPriceLists_NSPriceList__p_0
-description: NSQuoteConnection.SetPriceLists(NSPriceList[] p_0)
+﻿---
+title: crmscript_ref_NSQuoteConnection_SetPriceLists
+description: NSQuoteConnection.SetPriceLists(PriceListArray priceLists)
 intellisense: NSQuoteConnection.SetPriceLists
-keywords: SetPriceLists(NSPriceList[])
+keywords: NSQuoteConnection, GetPriceLists
 so.topic: reference
 ---
 
-
 The PriceLists that this connection offers.
 
-
-
-* **PriceLists:** PriceListArray
-* **Returns:** PriceListArray
-
+**Parameter:** 
+ - **priceLists** PriceListArray
 

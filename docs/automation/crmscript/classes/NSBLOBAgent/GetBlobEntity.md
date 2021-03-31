@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSBLOBAgent_GetBlobEntity_Integer_p_0
-description: NSBLOBAgent.GetBlobEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSBLOBAgent_GetBlobEntity
+description: NSBlobEntity GetBlobEntity(Integer blobEntityId);
 intellisense: NSBLOBAgent.GetBlobEntity
-sortOrder: 1410
-keywords: GetBlobEntity(Integer)
+keywords: NSBLOBAgent,GetBlobEntity
 so.topic: reference
 ---
 
+Gets a NSBlobEntity object.
 
-Gets a BlobEntity object.
+**Parameters:**
+ - **blobEntityId** The identifier of the NSBlobEntity object
 
+**Returns:** NSBlobEntity
 
-
-* **blobEntityId:** The identifier of the BlobEntity object
-* **Returns:** BlobEntity
-
+```crmscript
+NSBLOBAgent agent;
+NSBlobEntity thing = agent.GetBlobEntity(123);
+```
 

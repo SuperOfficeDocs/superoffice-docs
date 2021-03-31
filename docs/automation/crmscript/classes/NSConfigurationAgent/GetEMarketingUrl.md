@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSConfigurationAgent_GetEMarketingUrl_String_p_0
-description: NSConfigurationAgent.GetEMarketingUrl(String p_0)
+﻿---
+title: crmscript_ref_NSConfigurationAgent_GetEMarketingUrl
+description: String GetEMarketingUrl(String language)
 intellisense: NSConfigurationAgent.GetEMarketingUrl
-sortOrder: 1613
-keywords: GetEMarketingUrl(String)
+keywords: NSConfigurationAgent,GetEMarketingUrl
 so.topic: reference
 ---
 
 
 
-
-* **language
-**
-
-
+**Parameters:**
+ - **language** 

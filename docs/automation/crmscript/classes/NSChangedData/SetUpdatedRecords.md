@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSChangedData_SetUpdatedRecords_NSChangedDataItem__p_0
-description: NSChangedData.SetUpdatedRecords(NSChangedDataItem[] p_0)
+﻿---
+title: crmscript_ref_NSChangedData_SetUpdatedRecords
+description: NSChangedData.SetUpdatedRecords(ChangedDataItemArray updatedRecords)
 intellisense: NSChangedData.SetUpdatedRecords
-sortOrder: 1505
-keywords: SetUpdatedRecords(NSChangedDataItem[])
+keywords: NSChangedData, GetUpdatedRecords
 so.topic: reference
 ---
 
-
 Ids of updated records.
 
-
-
-* **UpdatedRecords:** ChangedDataItemArray
-* **Returns:** ChangedDataItemArray
-
+**Parameter:** 
+ - **updatedRecords** ChangedDataItemArray
 

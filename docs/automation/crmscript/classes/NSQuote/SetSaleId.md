@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuote_SetSaleId_Integer_p_0
-description: NSQuote.SetSaleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuote_SetSaleId
+description: NSQuote.SetSaleId(Integer saleId)
 intellisense: NSQuote.SetSaleId
-keywords: SetSaleId(Integer)
+keywords: NSQuote, GetSaleId
 so.topic: reference
 ---
 
-
 The foreign key to the corresponding sale
 
-
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleId** Integer
 

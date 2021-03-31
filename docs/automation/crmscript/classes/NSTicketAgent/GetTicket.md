@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSTicketAgent_GetTicket_Integer_p_0
-description: NSTicketAgent.GetTicket(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketAgent_GetTicket
+description: NSTicket GetTicket(Integer ticketId);
 intellisense: NSTicketAgent.GetTicket
-keywords: GetTicket(Integer)
+keywords: NSTicketAgent,GetTicket
 so.topic: reference
 ---
 
+Gets a NSTicket object.
 
-Gets a Ticket object.
+**Parameters:**
+ - **ticketId** The identifier of the NSTicket object
 
+**Returns:** NSTicket
 
-
-* **ticketId:** The identifier of the Ticket object
-* **Returns:** Ticket
-
+```crmscript
+NSTicketAgent agent;
+NSTicket thing = agent.GetTicket(123);
+```
 

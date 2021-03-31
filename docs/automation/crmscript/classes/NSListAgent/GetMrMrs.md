@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetMrMrs_Integer_p_0
-description: NSListAgent.GetMrMrs(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetMrMrs
+description: NSMrMrs GetMrMrs(Integer mrMrsId);
 intellisense: NSListAgent.GetMrMrs
-keywords: GetMrMrs(Integer)
+keywords: NSListAgent,GetMrMrs
 so.topic: reference
 ---
 
+Gets a NSMrMrs object.
 
-Gets a MrMrs object.
+**Parameters:**
+ - **mrMrsId** The identifier of the NSMrMrs object
 
+**Returns:** NSMrMrs
 
-
-* **mrMrsId:** The identifier of the MrMrs object
-* **Returns:** MrMrs
-
+```crmscript
+NSListAgent agent;
+NSMrMrs thing = agent.GetMrMrs(123);
+```
 

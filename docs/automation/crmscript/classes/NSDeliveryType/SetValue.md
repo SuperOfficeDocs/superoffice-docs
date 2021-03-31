@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDeliveryType_SetValue_String_p_0
-description: NSDeliveryType.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSDeliveryType_SetValue
+description: NSDeliveryType.SetValue(String value)
 intellisense: NSDeliveryType.SetValue
-sortOrder: 2379
-keywords: SetValue(String)
+keywords: NSDeliveryType, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

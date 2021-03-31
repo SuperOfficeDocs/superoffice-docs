@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuotePublishDocuments_GetQuoteAttachmentIds
-description: NSQuotePublishDocuments.GetQuoteAttachmentIds()
+description: IntegerArray NSQuotePublishDocuments.GetQuoteAttachmentIds()
 intellisense: NSQuotePublishDocuments.GetQuoteAttachmentIds
-keywords: GetQuoteAttachmentIds()
+keywords: NSQuotePublishDocuments, GetQuoteAttachmentIds
 so.topic: reference
 ---
 
-
 Array of id's of any attachments (standard + custom for this version)
 
-
-
-* **Returns:** IntegerArray
+**Returns:** IntegerArray
 
 

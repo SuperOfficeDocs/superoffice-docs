@@ -1,18 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSUserDefinedFieldInfo_GetJustification
-description: NSUserDefinedFieldInfo.GetJustification()
+description: UdefJustification NSUserDefinedFieldInfo.GetJustification()
 intellisense: NSUserDefinedFieldInfo.GetJustification
-keywords: GetJustification()
+keywords: NSUserDefinedFieldInfo, GetJustification
 so.topic: reference
 ---
 
-Justification
-* Default=0
-* Left=1
-* Center=2
-* Right=3
+Justification - 0 = default, left, right, center
 
+**Returns:** UdefJustification
 
-* **Returns:** Integer
-
+     - Enum: 0 = Default 
+     - Enum: 1 = Left 
+     - Enum: 2 = Center 
+     - Enum: 3 = Right 
 

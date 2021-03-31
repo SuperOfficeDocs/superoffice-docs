@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSystemEventEntity_GetSystemEventId
-description: NSSystemEventEntity.GetSystemEventId()
+description: Integer NSSystemEventEntity.GetSystemEventId()
 intellisense: NSSystemEventEntity.GetSystemEventId
-keywords: GetSystemEventId()
+keywords: NSSystemEventEntity, GetSystemEventId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

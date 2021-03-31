@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReportLabelLayoutEntity_SetCountColumns_Integer_p_0
-description: NSReportLabelLayoutEntity.SetCountColumns(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportLabelLayoutEntity_SetCountColumns
+description: NSReportLabelLayoutEntity.SetCountColumns(Integer countColumns)
 intellisense: NSReportLabelLayoutEntity.SetCountColumns
-keywords: SetCountColumns(Integer)
+keywords: NSReportLabelLayoutEntity, GetCountColumns
 so.topic: reference
 ---
 
-
 Number og columns
 
-
-
-* **CountColumns:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **countColumns** Integer
 

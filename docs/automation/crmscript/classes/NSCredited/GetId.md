@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCredited_GetId
-description: NSCredited.GetId()
+description: Integer NSCredited.GetId()
 intellisense: NSCredited.GetId
-sortOrder: 2096
-keywords: GetId()
+keywords: NSCredited, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBlobEntity_GetIsZipped
-description: NSBlobEntity.GetIsZipped()
+description: Bool NSBlobEntity.GetIsZipped()
 intellisense: NSBlobEntity.GetIsZipped
-sortOrder: 1441
-keywords: GetIsZipped()
+keywords: NSBlobEntity, GetIsZipped
 so.topic: reference
 ---
 
-
 Has the data been zipped.
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

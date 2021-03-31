@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSDatabaseTableAgent
 description: NSDatabaseTableAgent
 intellisense: Void.NSDatabaseTableAgent
-sortOrder: 2336
+keywords: NSDatabaseTableAgent
 so.topic: reference
 ---
 
-
 Agent used for CRUD operations on database tables. Read, add, update, delete rows in tables.
 
-
-
+```crmscript
+NSDatabaseTableAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

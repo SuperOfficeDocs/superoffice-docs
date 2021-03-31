@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
-description: NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
+description: NSUserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
 intellisense: NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
-keywords: CreateDefaultUserDefinedFieldInfo()
+keywords: NSUserDefinedFieldInfoAgent,CreateDefaultUserDefinedFieldInfo
 so.topic: reference
 ---
+	  
+Set default values into a new NSUserDefinedFieldInfo.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSUserDefinedFieldInfo with default values.
 
-
-Loading default values into a new UserDefinedFieldInfo.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New UserDefinedFieldInfo with default values
-
+```crmscript
+NSUserDefinedFieldInfoAgent agent;
+NSUserDefinedFieldInfo thing = agent.CreateDefaultUserDefinedFieldInfo();
+thing = agent.SaveUserDefinedFieldInfo(thing);
+```
 

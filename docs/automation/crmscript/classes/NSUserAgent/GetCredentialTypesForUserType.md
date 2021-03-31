@@ -1,17 +1,27 @@
----
-title: crmscript_ref_NSUserAgent_GetCredentialTypesForUserType_Integer_p_0
-description: NSUserAgent.GetCredentialTypesForUserType(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetCredentialTypesForUserType
+description: CredentialTypeArray GetCredentialTypesForUserType(Integer userType)
 intellisense: NSUserAgent.GetCredentialTypesForUserType
-keywords: GetCredentialTypesForUserType(Integer)
+keywords: NSUserAgent,GetCredentialTypesForUserType
 so.topic: reference
 ---
 
-
 Get available credential types that can be used for the specified user type.
 
+**Parameters:**
+ - **userType** The user type to retrieve credential types for
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 
+**Returns:** Credential types that can be used for authentication
 
-* **userType:** The user type to retrieve credential types for
-* **Returns:** Credential types that can be used for authentication
-
+```crmscript
+NSUserAgent agent;
+Integer userType;
+CredentialTypeArray res = agent.GetCredentialTypesForUserType(userType);
+```
 

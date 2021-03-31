@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactRelationEntity_SetRelationDefinitionId_Integer_p_0
-description: NSContactRelationEntity.SetRelationDefinitionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactRelationEntity_SetRelationDefinitionId
+description: NSContactRelationEntity.SetRelationDefinitionId(Integer relationDefinitionId)
 intellisense: NSContactRelationEntity.SetRelationDefinitionId
-sortOrder: 1971
-keywords: SetRelationDefinitionId(Integer)
+keywords: NSContactRelationEntity, GetRelationDefinitionId
 so.topic: reference
 ---
 
-
 Reference to definition
 
-
-
-* **RelationDefinitionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **relationDefinitionId** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactActivity_SetActionId_Integer_p_0
-description: NSContactActivity.SetActionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactActivity_SetActionId
+description: NSContactActivity.SetActionId(Integer actionId)
 intellisense: NSContactActivity.SetActionId
-sortOrder: 1781
-keywords: SetActionId(Integer)
+keywords: NSContactActivity, GetActionId
 so.topic: reference
 ---
 
-
 Id of the last element an activity was found on. I.e. AppointmentId, ContactId, or PersonId
 
-
-
-* **ActionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **actionId** Integer
 

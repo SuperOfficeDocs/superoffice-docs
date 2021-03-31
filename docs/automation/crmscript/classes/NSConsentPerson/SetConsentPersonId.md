@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentPerson_SetConsentPersonId_Integer_p_0
-description: NSConsentPerson.SetConsentPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSConsentPerson_SetConsentPersonId
+description: NSConsentPerson.SetConsentPersonId(Integer consentPersonId)
 intellisense: NSConsentPerson.SetConsentPersonId
-sortOrder: 1667
-keywords: SetConsentPersonId(Integer)
+keywords: NSConsentPerson, GetConsentPersonId
 so.topic: reference
 ---
 
-
 ConsentPerson ID
 
-
-
-* **ConsentPersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **consentPersonId** Integer
 

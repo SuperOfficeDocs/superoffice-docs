@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedLicenseInfo_SetExtendedModuleLicenses_NSExtendedModuleLicense__p_0
-description: NSExtendedLicenseInfo.SetExtendedModuleLicenses(NSExtendedModuleLicense[] p_0)
+﻿---
+title: crmscript_ref_NSExtendedLicenseInfo_SetExtendedModuleLicenses
+description: NSExtendedLicenseInfo.SetExtendedModuleLicenses(ExtendedModuleLicenseArray extendedModuleLicenses)
 intellisense: NSExtendedLicenseInfo.SetExtendedModuleLicenses
-sortOrder: 3412
-keywords: SetExtendedModuleLicenses(NSExtendedModuleLicense[])
+keywords: NSExtendedLicenseInfo, GetExtendedModuleLicenses
 so.topic: reference
 ---
 
 
-* **ExtendedModuleLicenses:** ExtendedModuleLicenseArray
-* **Returns:** ExtendedModuleLicenseArray
 
+**Parameter:** 
+ - **extendedModuleLicenses** ExtendedModuleLicenseArray
 

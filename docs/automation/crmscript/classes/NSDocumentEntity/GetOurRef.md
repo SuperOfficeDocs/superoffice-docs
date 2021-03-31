@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetOurRef
-description: NSDocumentEntity.GetOurRef()
+description: String NSDocumentEntity.GetOurRef()
 intellisense: NSDocumentEntity.GetOurRef
-sortOrder: 2581
-keywords: GetOurRef()
+keywords: NSDocumentEntity, GetOurRef
 so.topic: reference
 ---
 
-
 Our reference, searchable field from freetext search
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

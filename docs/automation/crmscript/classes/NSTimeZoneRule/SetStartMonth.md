@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTimeZoneRule_SetStartMonth_Integer_p_0
-description: NSTimeZoneRule.SetStartMonth(Integer p_0)
+﻿---
+title: crmscript_ref_NSTimeZoneRule_SetStartMonth
+description: NSTimeZoneRule.SetStartMonth(Integer startMonth)
 intellisense: NSTimeZoneRule.SetStartMonth
-keywords: SetStartMonth(Integer)
+keywords: NSTimeZoneRule, GetStartMonth
 so.topic: reference
 ---
 
-
 Custom DST start month, if 0 then parse startRule
 
-
-
-* **StartMonth:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **startMonth** Integer
 

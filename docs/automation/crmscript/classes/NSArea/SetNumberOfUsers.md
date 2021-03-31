@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSArea_SetNumberOfUsers_Integer_p_0
-description: NSArea.SetNumberOfUsers(Integer p_0)
+﻿---
+title: crmscript_ref_NSArea_SetNumberOfUsers
+description: NSArea.SetNumberOfUsers(Integer numberOfUsers)
 intellisense: NSArea.SetNumberOfUsers
-sortOrder: 1251
-keywords: SetNumberOfUsers(Integer)
+keywords: NSArea, GetNumberOfUsers
 so.topic: reference
 ---
 
 
-* **NumberOfUsers:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **numberOfUsers** Integer
 

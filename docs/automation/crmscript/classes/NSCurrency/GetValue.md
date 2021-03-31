@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCurrency_GetValue
-description: NSCurrency.GetValue()
+description: String NSCurrency.GetValue()
 intellisense: NSCurrency.GetValue
-sortOrder: 2173
-keywords: GetValue()
+keywords: NSCurrency, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

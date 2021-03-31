@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSSaleAgent_GetSaleList_Integer__p_0
-description: NSSaleAgent.GetSaleList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_GetSaleList
+description: NSSale[] GetSaleList(Integer[]  saleIds);
 intellisense: NSSaleAgent.GetSaleList
-keywords: GetSaleList(Integer[])
+keywords: NSSaleAgent,GetSaleList
 so.topic: reference
 ---
 
-Gets an array of Sale objects.
+Gets a vector of Sale objects.
 
+**Parameters:**
+ - **saleIds** The identifiers of the NSSale objects
 
-* **p0:** IntegerArray of identifiers for Sale
-* **Returns:** Array of NSSale
+**Returns:** Vector of NSSale objects
 
+```crmscript
+Integer[] ids;
+NSSaleAgent agent;
+agent.GetSaleList(ids);
+```
 

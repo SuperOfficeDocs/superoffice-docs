@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSActivityFilter
 description: NSActivityFilter
 intellisense: Void.NSActivityFilter
-sortOrder: 567
+keywords: NSActivityFilter
 so.topic: reference
 ---
 
-
 Activity list filter information.
 
-
-
-
-1. autolist
+1. autolist 
 

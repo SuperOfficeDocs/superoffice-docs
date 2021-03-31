@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAppointment_SetSuperseded_Bool_p_0
-description: NSEMailAppointment.SetSuperseded(Bool p_0)
+﻿---
+title: crmscript_ref_NSEMailAppointment_SetSuperseded
+description: NSEMailAppointment.SetSuperseded(Bool superseded)
 intellisense: NSEMailAppointment.SetSuperseded
-sortOrder: 2889
-keywords: SetSuperseded(Bool)
+keywords: NSEMailAppointment, GetSuperseded
 so.topic: reference
 ---
 
-
 A newer invitation exists
 
-
-
-* **Superseded:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **superseded** Bool
 

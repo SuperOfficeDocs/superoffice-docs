@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetShowContactTickets_Integer_p_0
-description: NSPersonEntity.SetShowContactTickets(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetShowContactTickets
+description: NSPersonEntity.SetShowContactTickets(Integer showContactTickets)
 intellisense: NSPersonEntity.SetShowContactTickets
-keywords: SetShowContactTickets(Integer)
+keywords: NSPersonEntity, GetShowContactTickets
 so.topic: reference
 ---
 
-
 Should tickets related to the company be shown to this person
 
-
-
-* **ShowContactTickets:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **showContactTickets** Integer
 

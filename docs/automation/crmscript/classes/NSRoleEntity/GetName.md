@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSRoleEntity_GetName
-description: NSRoleEntity.GetName()
+description: String NSRoleEntity.GetName()
 intellisense: NSRoleEntity.GetName
-keywords: GetName()
+keywords: NSRoleEntity, GetName
 so.topic: reference
 ---
 
-
 Visible role name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

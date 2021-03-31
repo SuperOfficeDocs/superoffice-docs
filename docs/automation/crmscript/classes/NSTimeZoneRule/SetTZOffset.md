@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTimeZoneRule_SetTZOffset_Integer_p_0
-description: NSTimeZoneRule.SetTZOffset(Integer p_0)
+﻿---
+title: crmscript_ref_NSTimeZoneRule_SetTZOffset
+description: NSTimeZoneRule.SetTZOffset(Integer tZOffset)
 intellisense: NSTimeZoneRule.SetTZOffset
-keywords: SetTZOffset(Integer)
+keywords: NSTimeZoneRule, GetTZOffset
 so.topic: reference
 ---
 
-
 Number of minutes bias relative to UTC time
 
-
-
-* **TZOffset:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **tZOffset** Integer
 

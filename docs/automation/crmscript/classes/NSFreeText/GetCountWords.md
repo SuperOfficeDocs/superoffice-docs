@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFreeText_GetCountWords
-description: NSFreeText.GetCountWords()
+description: Integer NSFreeText.GetCountWords()
 intellisense: NSFreeText.GetCountWords
-sortOrder: 3855
-keywords: GetCountWords()
+keywords: NSFreeText, GetCountWords
 so.topic: reference
 ---
 
-
 Count of unique search words
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,15 +1,12 @@
----
-title: crmscript_ref_NSSaleAgent_HasGuideActivities_Integer_p_0
-description: NSSaleAgent.HasGuideActivities(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_HasGuideActivities
+description: Bool HasGuideActivities(Integer saleId)
 intellisense: NSSaleAgent.HasGuideActivities
-keywords: HasGuideActivities(Integer)
+keywords: NSSaleAgent,HasGuideActivities
 so.topic: reference
 ---
 
 
 
-
-* **saleId
-**
-
-
+**Parameters:**
+ - **saleId** 

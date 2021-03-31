@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSArchiveConfiguration_SetArchiveColumnInfo_NSArchiveColumnInfo__p_0
-description: NSArchiveConfiguration.SetArchiveColumnInfo(NSArchiveColumnInfo[] p_0)
+﻿---
+title: crmscript_ref_NSArchiveConfiguration_SetArchiveColumnInfo
+description: NSArchiveConfiguration.SetArchiveColumnInfo(ArchiveColumnInfoArray archiveColumnInfo)
 intellisense: NSArchiveConfiguration.SetArchiveColumnInfo
-sortOrder: 1171
-keywords: SetArchiveColumnInfo(NSArchiveColumnInfo[])
+keywords: NSArchiveConfiguration, GetArchiveColumnInfo
 so.topic: reference
 ---
 
 
-* **ArchiveColumnInfo:** ArchiveColumnInfoArray
-* **Returns:** ArchiveColumnInfoArray
 
+**Parameter:** 
+ - **archiveColumnInfo** ArchiveColumnInfoArray
 

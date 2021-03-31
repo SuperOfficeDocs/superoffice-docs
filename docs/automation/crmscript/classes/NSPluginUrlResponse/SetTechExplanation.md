@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPluginUrlResponse_SetTechExplanation_String_p_0
-description: NSPluginUrlResponse.SetTechExplanation(String p_0)
+﻿---
+title: crmscript_ref_NSPluginUrlResponse_SetTechExplanation
+description: NSPluginUrlResponse.SetTechExplanation(String techExplanation)
 intellisense: NSPluginUrlResponse.SetTechExplanation
-keywords: SetTechExplanation(String)
+keywords: NSPluginUrlResponse, GetTechExplanation
 so.topic: reference
 ---
 
-
 Always in English
 
-
-
-* **TechExplanation:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **techExplanation** String
 

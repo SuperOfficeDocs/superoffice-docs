@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesAdded_Integer_p_0
-description: NSExtendedModuleLicense.SetNumberOfLicensesAdded(Integer p_0)
+﻿---
+title: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesAdded
+description: NSExtendedModuleLicense.SetNumberOfLicensesAdded(Integer numberOfLicensesAdded)
 intellisense: NSExtendedModuleLicense.SetNumberOfLicensesAdded
-sortOrder: 3427
-keywords: SetNumberOfLicensesAdded(Integer)
+keywords: NSExtendedModuleLicense, GetNumberOfLicensesAdded
 so.topic: reference
 ---
 
 
-* **NumberOfLicensesAdded:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **numberOfLicensesAdded** Integer
 

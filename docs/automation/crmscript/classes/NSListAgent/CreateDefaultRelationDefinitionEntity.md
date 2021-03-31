@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSListAgent_CreateDefaultRelationDefinitionEntity
-description: NSListAgent.CreateDefaultRelationDefinitionEntity()
+description: NSRelationDefinitionEntity CreateDefaultRelationDefinitionEntity()
 intellisense: NSListAgent.CreateDefaultRelationDefinitionEntity
-keywords: CreateDefaultRelationDefinitionEntity()
+keywords: NSListAgent,CreateDefaultRelationDefinitionEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSRelationDefinitionEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSRelationDefinitionEntity with default values.
 
-
-Loading default values into a new RelationDefinitionEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New RelationDefinitionEntity with default values
-
+```crmscript
+NSListAgent agent;
+NSRelationDefinitionEntity thing = agent.CreateDefaultRelationDefinitionEntity();
+thing = agent.SaveRelationDefinitionEntity(thing);
+```
 

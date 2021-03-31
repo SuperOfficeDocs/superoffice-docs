@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactSummary_SetTickets_NSTicketSummaryItem__p_0
-description: NSContactSummary.SetTickets(NSTicketSummaryItem[] p_0)
+﻿---
+title: crmscript_ref_NSContactSummary_SetTickets
+description: NSContactSummary.SetTickets(TicketSummaryItemArray tickets)
 intellisense: NSContactSummary.SetTickets
-sortOrder: 1993
-keywords: SetTickets(NSTicketSummaryItem[])
+keywords: NSContactSummary, GetTickets
 so.topic: reference
 ---
 
-
 Recent tickets on contact
 
-
-
-* **Tickets:** TicketSummaryItemArray
-* **Returns:** TicketSummaryItemArray
-
+**Parameter:** 
+ - **tickets** TicketSummaryItemArray
 

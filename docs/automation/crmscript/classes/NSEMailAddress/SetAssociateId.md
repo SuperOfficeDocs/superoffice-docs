@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAddress_SetAssociateId_Integer_p_0
-description: NSEMailAddress.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailAddress_SetAssociateId
+description: NSEMailAddress.SetAssociateId(Integer associateId)
 intellisense: NSEMailAddress.SetAssociateId
-sortOrder: 2772
-keywords: SetAssociateId(Integer)
+keywords: NSEMailAddress, GetAssociateId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

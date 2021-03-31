@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSForeignAppEntity_GetName
-description: NSForeignAppEntity.GetName()
+description: String NSForeignAppEntity.GetName()
 intellisense: NSForeignAppEntity.GetName
-sortOrder: 3704
-keywords: GetName()
+keywords: NSForeignAppEntity, GetName
 so.topic: reference
 ---
 
-
 Name of foreign application
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

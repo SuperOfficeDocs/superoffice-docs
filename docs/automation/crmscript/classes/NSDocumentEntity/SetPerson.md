@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentEntity_SetPerson_NSPerson_p_0
-description: NSDocumentEntity.SetPerson(NSPerson p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetPerson
+description: NSDocumentEntity.SetPerson(Person person)
 intellisense: NSDocumentEntity.SetPerson
-sortOrder: 2605
-keywords: SetPerson(NSPerson)
+keywords: NSDocumentEntity, GetPerson
 so.topic: reference
 ---
 
-
 A document may also be connected to a person; this must be a contact person registered on the current company. This does not mean however that a person is required.
 
-
-
-* **Person:** Person
-* **Returns:** Person
-
+**Parameter:** 
+ - **person** Person
 

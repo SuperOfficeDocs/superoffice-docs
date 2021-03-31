@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReportLabelLayoutEntity_SetPaperHeight_Integer_p_0
-description: NSReportLabelLayoutEntity.SetPaperHeight(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportLabelLayoutEntity_SetPaperHeight
+description: NSReportLabelLayoutEntity.SetPaperHeight(Integer paperHeight)
 intellisense: NSReportLabelLayoutEntity.SetPaperHeight
-keywords: SetPaperHeight(Integer)
+keywords: NSReportLabelLayoutEntity, GetPaperHeight
 so.topic: reference
 ---
 
-
 Paper height in twips
 
-
-
-* **PaperHeight:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **paperHeight** Integer
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetAssociateFullName
-description: NSProject.GetAssociateFullName()
+description: String NSProject.GetAssociateFullName()
 intellisense: NSProject.GetAssociateFullName
-keywords: GetAssociateFullName()
+keywords: NSProject, GetAssociateFullName
 so.topic: reference
 ---
 
-
 The project owner
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

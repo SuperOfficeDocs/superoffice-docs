@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetPersonId_Integer_p_0
-description: NSPerson.SetPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetPersonId
+description: NSPerson.SetPersonId(Integer personId)
 intellisense: NSPerson.SetPersonId
-keywords: SetPersonId(Integer)
+keywords: NSPerson, GetPersonId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **personId** Integer
 

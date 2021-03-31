@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTileOption_SetListName_String_p_0
-description: NSDashboardTileOption.SetListName(String p_0)
+﻿---
+title: crmscript_ref_NSDashboardTileOption_SetListName
+description: NSDashboardTileOption.SetListName(String listName)
 intellisense: NSDashboardTileOption.SetListName
-sortOrder: 2328
-keywords: SetListName(String)
+keywords: NSDashboardTileOption, GetListName
 so.topic: reference
 ---
 
-
 An MDO list name, used if the type is list and no ListOptions are given
 
-
-
-* **ListName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **listName** String
 

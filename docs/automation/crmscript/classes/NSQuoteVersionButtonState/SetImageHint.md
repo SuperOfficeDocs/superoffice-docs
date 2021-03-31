@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionButtonState_SetImageHint_String_p_0
-description: NSQuoteVersionButtonState.SetImageHint(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionButtonState_SetImageHint
+description: NSQuoteVersionButtonState.SetImageHint(String imageHint)
 intellisense: NSQuoteVersionButtonState.SetImageHint
-keywords: SetImageHint(String)
+keywords: NSQuoteVersionButtonState, GetImageHint
 so.topic: reference
 ---
 
-
 Image to be shown
 
-
-
-* **ImageHint:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **imageHint** String
 

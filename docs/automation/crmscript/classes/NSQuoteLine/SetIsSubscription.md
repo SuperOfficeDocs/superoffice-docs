@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetIsSubscription_Bool_p_0
-description: NSQuoteLine.SetIsSubscription(Bool p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetIsSubscription
+description: NSQuoteLine.SetIsSubscription(Bool isSubscription)
 intellisense: NSQuoteLine.SetIsSubscription
-keywords: SetIsSubscription(Bool)
+keywords: NSQuoteLine, GetIsSubscription
 so.topic: reference
 ---
 
-
 Is this a subscription product, sold in repeating intervals/amounts?
 
-
-
-* **IsSubscription:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isSubscription** Bool
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayMessage_String_p_0
-description: NSQuoteVersionStatusInformation.SetDisplayMessage(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayMessage
+description: NSQuoteVersionStatusInformation.SetDisplayMessage(String displayMessage)
 intellisense: NSQuoteVersionStatusInformation.SetDisplayMessage
-keywords: SetDisplayMessage(String)
+keywords: NSQuoteVersionStatusInformation, GetDisplayMessage
 so.topic: reference
 ---
 
-
 Generated error message for the Quote Version. Will check for errors on quote lines, alternatives and the version itself.
 
-
-
-* **DisplayMessage:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayMessage** String
 

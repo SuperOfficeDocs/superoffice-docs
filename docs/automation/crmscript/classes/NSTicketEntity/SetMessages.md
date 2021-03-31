@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetMessages_NSTicketMessage__p_0
-description: NSTicketEntity.SetMessages(NSTicketMessage[] p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetMessages
+description: NSTicketEntity.SetMessages(TicketMessageArray messages)
 intellisense: NSTicketEntity.SetMessages
-keywords: SetMessages(NSTicketMessage[])
+keywords: NSTicketEntity, GetMessages
 so.topic: reference
 ---
 
-
 TicketMessageId,CreatedAt,SLevel and Important for all the messages connected to this ticket. For message body see the TicketMessageEntity or the TicketMessage archive.
 
-
-
-* **Messages:** TicketMessageArray
-* **Returns:** TicketMessageArray
-
+**Parameter:** 
+ - **messages** TicketMessageArray
 

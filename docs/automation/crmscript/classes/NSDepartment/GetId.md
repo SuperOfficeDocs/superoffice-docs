@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDepartment_GetId
-description: NSDepartment.GetId()
+description: Integer NSDepartment.GetId()
 intellisense: NSDepartment.GetId
-sortOrder: 2382
-keywords: GetId()
+keywords: NSDepartment, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

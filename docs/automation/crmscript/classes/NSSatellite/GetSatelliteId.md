@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSatellite_GetSatelliteId
-description: NSSatellite.GetSatelliteId()
+description: Integer NSSatellite.GetSatelliteId()
 intellisense: NSSatellite.GetSatelliteId
-keywords: GetSatelliteId()
+keywords: NSSatellite, GetSatelliteId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

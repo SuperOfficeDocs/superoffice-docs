@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSMultiAlarmData_SetPollingInterval_Integer_p_0
-description: NSMultiAlarmData.SetPollingInterval(Integer p_0)
+﻿---
+title: crmscript_ref_NSMultiAlarmData_SetPollingInterval
+description: NSMultiAlarmData.SetPollingInterval(Integer pollingInterval)
 intellisense: NSMultiAlarmData.SetPollingInterval
-keywords: SetPollingInterval(Integer)
+keywords: NSMultiAlarmData, GetPollingInterval
 so.topic: reference
 ---
 
 
-* **PollingInterval:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **pollingInterval** Integer
 

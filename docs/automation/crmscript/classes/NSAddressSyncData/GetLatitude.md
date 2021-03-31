@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAddressSyncData_GetLatitude
-description: NSAddressSyncData.GetLatitude()
+description: Float NSAddressSyncData.GetLatitude()
 intellisense: NSAddressSyncData.GetLatitude
-sortOrder: 617
-keywords: GetLatitude()
+keywords: NSAddressSyncData, GetLatitude
 so.topic: reference
 ---
 
 
-* **Returns:** Float
+
+**Returns:** Float
 
 

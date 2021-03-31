@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSale_GetDescription
-description: NSSale.GetDescription()
+description: String NSSale.GetDescription()
 intellisense: NSSale.GetDescription
-keywords: GetDescription()
+keywords: NSSale, GetDescription
 so.topic: reference
 ---
 
-
 The sales description
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

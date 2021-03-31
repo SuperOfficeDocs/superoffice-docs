@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSConfigurationAgent_GetWindowPosSize_Integer_p_0
-description: NSConfigurationAgent.GetWindowPosSize(Integer p_0)
+﻿---
+title: crmscript_ref_NSConfigurationAgent_GetWindowPosSize
+description: NSWindowPosSize GetWindowPosSize(Integer windowPosSizeId);
 intellisense: NSConfigurationAgent.GetWindowPosSize
-sortOrder: 1596
-keywords: GetWindowPosSize(Integer)
+keywords: NSConfigurationAgent,GetWindowPosSize
 so.topic: reference
 ---
 
+Gets a NSWindowPosSize object.
 
-Gets a WindowPosSize object.
+**Parameters:**
+ - **windowPosSizeId** The identifier of the NSWindowPosSize object
 
+**Returns:** NSWindowPosSize
 
-
-* **windowPosSizeId:** The identifier of the WindowPosSize object
-* **Returns:** WindowPosSize
-
+```crmscript
+NSConfigurationAgent agent;
+NSWindowPosSize thing = agent.GetWindowPosSize(123);
+```
 

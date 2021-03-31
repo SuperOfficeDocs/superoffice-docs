@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetIsVisibleForMembers_Bool_p_0
-description: NSProjectEventEntity.SetIsVisibleForMembers(Bool p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetIsVisibleForMembers
+description: NSProjectEventEntity.SetIsVisibleForMembers(Bool isVisibleForMembers)
 intellisense: NSProjectEventEntity.SetIsVisibleForMembers
-keywords: SetIsVisibleForMembers(Bool)
+keywords: NSProjectEventEntity, GetIsVisibleForMembers
 so.topic: reference
 ---
 
 
-* **IsVisibleForMembers:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isVisibleForMembers** Bool
 

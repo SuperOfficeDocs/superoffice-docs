@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetCreatedBy_NSAssociate_p_0
-description: NSPersonEntity.SetCreatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetCreatedBy
+description: NSPersonEntity.SetCreatedBy(Associate createdBy)
 intellisense: NSPersonEntity.SetCreatedBy
-keywords: SetCreatedBy(NSAssociate)
+keywords: NSPersonEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 The user that created the person object
 
-
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **createdBy** Associate
 

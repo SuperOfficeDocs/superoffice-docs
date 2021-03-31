@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactActivity_SetActivityPersonName_String_p_0
-description: NSContactActivity.SetActivityPersonName(String p_0)
+﻿---
+title: crmscript_ref_NSContactActivity_SetActivityPersonName
+description: NSContactActivity.SetActivityPersonName(String activityPersonName)
 intellisense: NSContactActivity.SetActivityPersonName
-sortOrder: 1784
-keywords: SetActivityPersonName(String)
+keywords: NSContactActivity, GetActivityPersonName
 so.topic: reference
 ---
 
-
 The person that carried out the activity on the contact.
 
-
-
-* **ActivityPersonName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **activityPersonName** String
 

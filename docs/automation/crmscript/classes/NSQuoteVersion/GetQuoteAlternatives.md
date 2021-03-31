@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersion_GetQuoteAlternatives
-description: NSQuoteVersion.GetQuoteAlternatives()
+description: QuoteAlternativeArray NSQuoteVersion.GetQuoteAlternatives()
 intellisense: NSQuoteVersion.GetQuoteAlternatives
-keywords: GetQuoteAlternatives()
+keywords: NSQuoteVersion, GetQuoteAlternatives
 so.topic: reference
 ---
 
-
 The QuoteAlternatives for the QuoteVersion
 
-
-
-* **Returns:** QuoteAlternativeArray
+**Returns:** QuoteAlternativeArray
 
 

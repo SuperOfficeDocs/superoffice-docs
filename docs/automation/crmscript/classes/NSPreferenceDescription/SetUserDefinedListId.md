@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescription_SetUserDefinedListId_Integer_p_0
-description: NSPreferenceDescription.SetUserDefinedListId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescription_SetUserDefinedListId
+description: NSPreferenceDescription.SetUserDefinedListId(Integer userDefinedListId)
 intellisense: NSPreferenceDescription.SetUserDefinedListId
-keywords: SetUserDefinedListId(Integer)
+keywords: NSPreferenceDescription, GetUserDefinedListId
 so.topic: reference
 ---
 
-
 Read-only field, If valueType = 5, and TableName is UDList, then UserdefinedLIstId contains the id of the list referenced by the preference
 
-
-
-* **UserDefinedListId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **userDefinedListId** Integer
 

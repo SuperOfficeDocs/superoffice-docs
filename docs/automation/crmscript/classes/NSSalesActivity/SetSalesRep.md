@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSalesActivity_SetSalesRep_NSPerson_p_0
-description: NSSalesActivity.SetSalesRep(NSPerson p_0)
+﻿---
+title: crmscript_ref_NSSalesActivity_SetSalesRep
+description: NSSalesActivity.SetSalesRep(Person salesRep)
 intellisense: NSSalesActivity.SetSalesRep
-keywords: SetSalesRep(NSPerson)
+keywords: NSSalesActivity, GetSalesRep
 so.topic: reference
 ---
 
-
 The sales representative for the person that matches the request.
 
-
-
-* **SalesRep:** Person
-* **Returns:** Person
-
+**Parameter:** 
+ - **salesRep** Person
 

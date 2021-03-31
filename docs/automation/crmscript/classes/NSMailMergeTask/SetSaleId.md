@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeTask_SetSaleId_Integer_p_0
-description: NSMailMergeTask.SetSaleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSMailMergeTask_SetSaleId
+description: NSMailMergeTask.SetSaleId(Integer saleId)
 intellisense: NSMailMergeTask.SetSaleId
-keywords: SetSaleId(Integer)
+keywords: NSMailMergeTask, GetSaleId
 so.topic: reference
 ---
 
-
 Sale identity to set on task
 
-
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleId** Integer
 

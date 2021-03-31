@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetSignOnConfirmationText_String_p_0
-description: NSProjectEvent.SetSignOnConfirmationText(String p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetSignOnConfirmationText
+description: NSProjectEvent.SetSignOnConfirmationText(String signOnConfirmationText)
 intellisense: NSProjectEvent.SetSignOnConfirmationText
-keywords: SetSignOnConfirmationText(String)
+keywords: NSProjectEvent, GetSignOnConfirmationText
 so.topic: reference
 ---
 
-
 Text shown as confirmation text before accepting sign on.
 
-
-
-* **SignOnConfirmationText:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **signOnConfirmationText** String
 

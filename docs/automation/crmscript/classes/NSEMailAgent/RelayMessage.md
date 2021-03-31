@@ -1,16 +1,15 @@
----
-title: crmscript_ref_NSEMailAgent_RelayMessage_NSEMailConnectionInfoExtended_p_0_String_p_1_String_p_2_String__p_3
-description: NSEMailAgent.RelayMessage(NSEMailConnectionInfoExtended p_0, String p_1, String p_2, String[] p_3)
+﻿---
+title: crmscript_ref_NSEMailAgent_RelayMessage
+description: Void RelayMessage(EMailConnectionInfoExtended connectionInfoExtended, String rfc822, String from, StringArray recipients)
 intellisense: NSEMailAgent.RelayMessage
-sortOrder: 2866
-keywords: RelayMessage(NSEMailConnectionInfoExtended,String,String,String[])
+keywords: NSEMailAgent,RelayMessage
 so.topic: reference
 ---
 
 
-* **connectionInfoExtended
-\param** p1 rfc822
-* **from
-\param** p3 recipients
 
-
+**Parameters:**
+ - **connectionInfoExtended** 
+ - **rfc822** 
+ - **from** 
+ - **recipients** 

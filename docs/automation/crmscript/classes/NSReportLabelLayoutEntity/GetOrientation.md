@@ -1,16 +1,16 @@
----
+﻿---
 title: crmscript_ref_NSReportLabelLayoutEntity_GetOrientation
-description: NSReportLabelLayoutEntity.GetOrientation()
+description: Integer NSReportLabelLayoutEntity.GetOrientation()
 intellisense: NSReportLabelLayoutEntity.GetOrientation
-keywords: GetOrientation()
+keywords: NSReportLabelLayoutEntity, GetOrientation
 so.topic: reference
 ---
 
-
 Paper orientation: 1=portrait, 2=landscape
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = None 
+     - Enum: 1 = Portrait 
+     - Enum: 2 = Landscape 
 

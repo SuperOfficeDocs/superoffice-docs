@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPriceList_GetQuoteConnectionId
-description: NSPriceList.GetQuoteConnectionId()
+description: Integer NSPriceList.GetQuoteConnectionId()
 intellisense: NSPriceList.GetQuoteConnectionId
-keywords: GetQuoteConnectionId()
+keywords: NSPriceList, GetQuoteConnectionId
 so.topic: reference
 ---
 
-
 (Reserved for future use) The connection to the ERP system used for this pricelist
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

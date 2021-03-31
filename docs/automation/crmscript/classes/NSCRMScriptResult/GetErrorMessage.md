@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptResult_GetErrorMessage
-description: NSCRMScriptResult.GetErrorMessage()
+description: String NSCRMScriptResult.GetErrorMessage()
 intellisense: NSCRMScriptResult.GetErrorMessage
-sortOrder: 2152
-keywords: GetErrorMessage()
+keywords: NSCRMScriptResult, GetErrorMessage
 so.topic: reference
 ---
 
-
 Contains the error message for a non-valide CRMScript
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

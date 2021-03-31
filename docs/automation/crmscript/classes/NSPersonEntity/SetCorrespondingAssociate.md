@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetCorrespondingAssociate_NSAssociate_p_0
-description: NSPersonEntity.SetCorrespondingAssociate(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetCorrespondingAssociate
+description: NSPersonEntity.SetCorrespondingAssociate(Associate correspondingAssociate)
 intellisense: NSPersonEntity.SetCorrespondingAssociate
-keywords: SetCorrespondingAssociate(NSAssociate)
+keywords: NSPersonEntity, GetCorrespondingAssociate
 so.topic: reference
 ---
 
-
 The associate corresponding to this person. Will be empty if the person is not a user (internal associate user, external user).
 
-
-
-* **CorrespondingAssociate:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **correspondingAssociate** Associate
 

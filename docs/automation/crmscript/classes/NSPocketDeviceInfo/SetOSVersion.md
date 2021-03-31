@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketDeviceInfo_SetOSVersion_String_p_0
-description: NSPocketDeviceInfo.SetOSVersion(String p_0)
+﻿---
+title: crmscript_ref_NSPocketDeviceInfo_SetOSVersion
+description: NSPocketDeviceInfo.SetOSVersion(String oSVersion)
 intellisense: NSPocketDeviceInfo.SetOSVersion
-keywords: SetOSVersion(String)
+keywords: NSPocketDeviceInfo, GetOSVersion
 so.topic: reference
 ---
 
-
 The operating system version. Ex: 'iOS v10.2'
 
-
-
-* **OSVersion:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **oSVersion** String
 

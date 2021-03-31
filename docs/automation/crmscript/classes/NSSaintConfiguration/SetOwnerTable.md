@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaintConfiguration_SetOwnerTable_Integer_p_0
-description: NSSaintConfiguration.SetOwnerTable(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaintConfiguration_SetOwnerTable
+description: NSSaintConfiguration.SetOwnerTable(Integer ownerTable)
 intellisense: NSSaintConfiguration.SetOwnerTable
-keywords: SetOwnerTable(Integer)
+keywords: NSSaintConfiguration, GetOwnerTable
 so.topic: reference
 ---
 
-
 The table that is the owning entity
 
-
-
-* **OwnerTable:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **ownerTable** Integer
 

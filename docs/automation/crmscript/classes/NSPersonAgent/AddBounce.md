@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSPersonAgent_AddBounce_String_p_0
-description: NSPersonAgent.AddBounce(String p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_AddBounce
+description: Void AddBounce(String emailAddress)
 intellisense: NSPersonAgent.AddBounce
-keywords: AddBounce(String)
+keywords: NSPersonAgent,AddBounce
 so.topic: reference
 ---
 
-
 Add a bounce count on the email address if it exists
 
-
-
-* **emailAddress:** The email address which we want to add a bounce count to
-
-
+**Parameters:**
+ - **emailAddress** The email address which we want to add a bounce count to

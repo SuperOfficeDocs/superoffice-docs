@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDictionaryStepInformation_SetStepNumber_Integer_p_0
-description: NSDictionaryStepInformation.SetStepNumber(Integer p_0)
+﻿---
+title: crmscript_ref_NSDictionaryStepInformation_SetStepNumber
+description: NSDictionaryStepInformation.SetStepNumber(Integer stepNumber)
 intellisense: NSDictionaryStepInformation.SetStepNumber
-sortOrder: 2426
-keywords: SetStepNumber(Integer)
+keywords: NSDictionaryStepInformation, GetStepNumber
 so.topic: reference
 ---
 
-
 Generation number of step
 
-
-
-* **StepNumber:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **stepNumber** Integer
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldValueInfo_GetDefaultShowInSelector
-description: NSFieldValueInfo.GetDefaultShowInSelector()
+description: Bool NSFieldValueInfo.GetDefaultShowInSelector()
 intellisense: NSFieldValueInfo.GetDefaultShowInSelector
-sortOrder: 3619
-keywords: GetDefaultShowInSelector()
+keywords: NSFieldValueInfo, GetDefaultShowInSelector
 so.topic: reference
 ---
 
-
 Default show in selector?
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

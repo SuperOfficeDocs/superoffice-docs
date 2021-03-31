@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSArchiveConfiguration_SetArchiveOrderByInfo_NSArchiveOrderByInfo__p_0
-description: NSArchiveConfiguration.SetArchiveOrderByInfo(NSArchiveOrderByInfo[] p_0)
+﻿---
+title: crmscript_ref_NSArchiveConfiguration_SetArchiveOrderByInfo
+description: NSArchiveConfiguration.SetArchiveOrderByInfo(ArchiveOrderByInfoArray archiveOrderByInfo)
 intellisense: NSArchiveConfiguration.SetArchiveOrderByInfo
-sortOrder: 1173
-keywords: SetArchiveOrderByInfo(NSArchiveOrderByInfo[])
+keywords: NSArchiveConfiguration, GetArchiveOrderByInfo
 so.topic: reference
 ---
 
 
-* **ArchiveOrderByInfo:** ArchiveOrderByInfoArray
-* **Returns:** ArchiveOrderByInfoArray
 
+**Parameter:** 
+ - **archiveOrderByInfo** ArchiveOrderByInfoArray
 

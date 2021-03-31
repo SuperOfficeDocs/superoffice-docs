@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetIsPublished_Bool_p_0
-description: NSAppointment.SetIsPublished(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetIsPublished
+description: NSAppointment.SetIsPublished(Bool isPublished)
 intellisense: NSAppointment.SetIsPublished
-sortOrder: 798
-keywords: SetIsPublished(Bool)
+keywords: NSAppointment, GetIsPublished
 so.topic: reference
 ---
 
-
 True if appointment have an entry in published table
 
-
-
-* **IsPublished:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isPublished** Bool
 

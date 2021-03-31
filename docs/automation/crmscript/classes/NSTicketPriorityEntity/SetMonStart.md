@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetMonStart_DateTime_p_0
-description: NSTicketPriorityEntity.SetMonStart(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetMonStart
+description: NSTicketPriorityEntity.SetMonStart(DateTime monStart)
 intellisense: NSTicketPriorityEntity.SetMonStart
-keywords: SetMonStart(DateTime)
+keywords: NSTicketPriorityEntity, GetMonStart
 so.topic: reference
 ---
 
-
 The work hour start for Mondays. Note that only the time part of the DateTime is used
 
-
-
-* **MonStart:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **monStart** DateTime
 

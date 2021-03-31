@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSServiceAuth_SetPassword_String_p_0
-description: NSServiceAuth.SetPassword(String p_0)
+﻿---
+title: crmscript_ref_NSServiceAuth_SetPassword
+description: NSServiceAuth.SetPassword(String password)
 intellisense: NSServiceAuth.SetPassword
-keywords: SetPassword(String)
+keywords: NSServiceAuth, GetPassword
 so.topic: reference
 ---
 
-
 The (decrypted) password or token
 
-
-
-* **Password:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **password** String
 

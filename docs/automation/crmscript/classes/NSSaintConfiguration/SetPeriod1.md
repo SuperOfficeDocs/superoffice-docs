@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaintConfiguration_SetPeriod1_Integer_p_0
-description: NSSaintConfiguration.SetPeriod1(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaintConfiguration_SetPeriod1
+description: NSSaintConfiguration.SetPeriod1(Integer period1)
 intellisense: NSSaintConfiguration.SetPeriod1
-keywords: SetPeriod1(Integer)
+keywords: NSSaintConfiguration, GetPeriod1
 so.topic: reference
 ---
 
-
 Length of the first counter period
 
-
-
-* **Period1:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **period1** Integer
 

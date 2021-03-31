@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersion_GetNumber
-description: NSQuoteVersion.GetNumber()
+description: String NSQuoteVersion.GetNumber()
 intellisense: NSQuoteVersion.GetNumber
-keywords: GetNumber()
+keywords: NSQuoteVersion, GetNumber
 so.topic: reference
 ---
 
-
 A quote number that the user (or ERP connector) can fill out.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

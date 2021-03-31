@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBlobEntity_GetUpdatedDate
-description: NSBlobEntity.GetUpdatedDate()
+description: DateTime NSBlobEntity.GetUpdatedDate()
 intellisense: NSBlobEntity.GetUpdatedDate
-sortOrder: 1443
-keywords: GetUpdatedDate()
+keywords: NSBlobEntity, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

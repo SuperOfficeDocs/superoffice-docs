@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetRegistered
-description: NSFormEntity.GetRegistered()
+description: DateTime NSFormEntity.GetRegistered()
 intellisense: NSFormEntity.GetRegistered
-sortOrder: 3787
-keywords: GetRegistered()
+keywords: NSFormEntity, GetRegistered
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSPriority_GetTooltip
-description: NSPriority.GetTooltip()
+description: String NSPriority.GetTooltip()
 intellisense: NSPriority.GetTooltip
-keywords: GetTooltip()
+keywords: NSPriority, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

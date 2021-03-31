@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedDocumentEntity_GetDocTmpl
-description: NSSuggestedDocumentEntity.GetDocTmpl()
+description: DocumentTemplate NSSuggestedDocumentEntity.GetDocTmpl()
 intellisense: NSSuggestedDocumentEntity.GetDocTmpl
-keywords: GetDocTmpl()
+keywords: NSSuggestedDocumentEntity, GetDocTmpl
 so.topic: reference
 ---
 
-
 Document template
 
-
-
-* **Returns:** DocumentTemplate
+**Returns:** DocumentTemplate
 
 

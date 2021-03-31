@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSRelationDefinitionEntity_GetPassiveText
-description: NSRelationDefinitionEntity.GetPassiveText()
+description: String NSRelationDefinitionEntity.GetPassiveText()
 intellisense: NSRelationDefinitionEntity.GetPassiveText
-keywords: GetPassiveText()
+keywords: NSRelationDefinitionEntity, GetPassiveText
 so.topic: reference
 ---
 
-
 Text used in passive direction
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

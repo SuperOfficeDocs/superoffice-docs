@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncDefaultValue_SetFirstSyncDefaultValue_String_p_0
-description: NSErpSyncDefaultValue.SetFirstSyncDefaultValue(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncDefaultValue_SetFirstSyncDefaultValue
+description: NSErpSyncDefaultValue.SetFirstSyncDefaultValue(String firstSyncDefaultValue)
 intellisense: NSErpSyncDefaultValue.SetFirstSyncDefaultValue
-sortOrder: 3270
-keywords: SetFirstSyncDefaultValue(String)
+keywords: NSErpSyncDefaultValue, GetFirstSyncDefaultValue
 so.topic: reference
 ---
 
-
 The default value to be set, can be blank
 
-
-
-* **FirstSyncDefaultValue:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **firstSyncDefaultValue** String
 

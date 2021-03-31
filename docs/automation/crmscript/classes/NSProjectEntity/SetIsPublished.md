@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEntity_SetIsPublished
-description: NSProjectEntity.SetIsPublished()
-intellisense: NSProjectEntity.SetIsPublished
-keywords: SetIsPublished()
+description: NSProjectEntity.SetIsPublished(Boolean isPublished)
+intellisense: NSProjectEntity.IsPublished
+keywords: NSProjectEntity, IsPublished
 so.topic: reference
 ---
 
+Should this be published and visible to strangers?
 
-* **fields:** Bool
-* **Returns:** Void
-
+**Parameter:** 
+ - **isPublished** Boolean.
 

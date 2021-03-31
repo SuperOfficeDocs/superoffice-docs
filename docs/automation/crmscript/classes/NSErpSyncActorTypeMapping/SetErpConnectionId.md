@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncActorTypeMapping_SetErpConnectionId_Integer_p_0
-description: NSErpSyncActorTypeMapping.SetErpConnectionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncActorTypeMapping_SetErpConnectionId
+description: NSErpSyncActorTypeMapping.SetErpConnectionId(Integer erpConnectionId)
 intellisense: NSErpSyncActorTypeMapping.SetErpConnectionId
-sortOrder: 3173
-keywords: SetErpConnectionId(Integer)
+keywords: NSErpSyncActorTypeMapping, GetErpConnectionId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ErpConnectionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **erpConnectionId** Integer
 

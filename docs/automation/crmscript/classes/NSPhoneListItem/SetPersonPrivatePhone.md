@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListItem_SetPersonPrivatePhone_String_p_0
-description: NSPhoneListItem.SetPersonPrivatePhone(String p_0)
+﻿---
+title: crmscript_ref_NSPhoneListItem_SetPersonPrivatePhone
+description: NSPhoneListItem.SetPersonPrivatePhone(String personPrivatePhone)
 intellisense: NSPhoneListItem.SetPersonPrivatePhone
-keywords: SetPersonPrivatePhone(String)
+keywords: NSPhoneListItem, GetPersonPrivatePhone
 so.topic: reference
 ---
 
-
 Person Private Phone
 
-
-
-* **PersonPrivatePhone:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personPrivatePhone** String
 

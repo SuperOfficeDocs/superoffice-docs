@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEntity_SetSize_Integer_p_0
-description: NSEMailEntity.SetSize(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetSize
+description: NSEMailEntity.SetSize(Integer size)
 intellisense: NSEMailEntity.SetSize
-sortOrder: 2997
-keywords: SetSize(Integer)
+keywords: NSEMailEntity, GetSize
 so.topic: reference
 ---
 
-
 Total size of the e-mail
 
-
-
-* **Size:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **size** Integer
 

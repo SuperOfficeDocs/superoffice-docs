@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldInfo_Integer_p_0
-description: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldInfo
+description: NSUserDefinedFieldInfo GetUserDefinedFieldInfo(Integer userDefinedFieldInfoId);
 intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
-keywords: GetUserDefinedFieldInfo(Integer)
+keywords: NSUserDefinedFieldInfoAgent,GetUserDefinedFieldInfo
 so.topic: reference
 ---
 
+Gets a NSUserDefinedFieldInfo object.
 
-Gets a UserDefinedFieldInfo object.
+**Parameters:**
+ - **userDefinedFieldInfoId** The identifier of the NSUserDefinedFieldInfo object
 
+**Returns:** NSUserDefinedFieldInfo
 
-
-* **userDefinedFieldInfoId:** The identifier of the UserDefinedFieldInfo object
-* **Returns:** UserDefinedFieldInfo
-
+```crmscript
+NSUserDefinedFieldInfoAgent agent;
+NSUserDefinedFieldInfo thing = agent.GetUserDefinedFieldInfo(123);
+```
 

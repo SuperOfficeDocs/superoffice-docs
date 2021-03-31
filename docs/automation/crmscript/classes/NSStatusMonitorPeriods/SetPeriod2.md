@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatusMonitorPeriods_SetPeriod2_Integer_p_0
-description: NSStatusMonitorPeriods.SetPeriod2(Integer p_0)
+﻿---
+title: crmscript_ref_NSStatusMonitorPeriods_SetPeriod2
+description: NSStatusMonitorPeriods.SetPeriod2(Integer period2)
 intellisense: NSStatusMonitorPeriods.SetPeriod2
-keywords: SetPeriod2(Integer)
+keywords: NSStatusMonitorPeriods, GetPeriod2
 so.topic: reference
 ---
 
-
 Days in the second period
 
-
-
-* **Period2:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **period2** Integer
 

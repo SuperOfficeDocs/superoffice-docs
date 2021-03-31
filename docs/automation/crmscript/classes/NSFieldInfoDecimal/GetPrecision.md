@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoDecimal_GetPrecision
-description: NSFieldInfoDecimal.GetPrecision()
+description: Integer NSFieldInfoDecimal.GetPrecision()
 intellisense: NSFieldInfoDecimal.GetPrecision
-sortOrder: 3506
-keywords: GetPrecision()
+keywords: NSFieldInfoDecimal, GetPrecision
 so.topic: reference
 ---
 
-
 How many decimals to display
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

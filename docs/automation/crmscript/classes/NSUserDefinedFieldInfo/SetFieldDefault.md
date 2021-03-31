@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldDefault_String_p_0
-description: NSUserDefinedFieldInfo.SetFieldDefault(String p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldDefault
+description: NSUserDefinedFieldInfo.SetFieldDefault(String fieldDefault)
 intellisense: NSUserDefinedFieldInfo.SetFieldDefault
-keywords: SetFieldDefault(String)
+keywords: NSUserDefinedFieldInfo, GetFieldDefault
 so.topic: reference
 ---
 
-
 Optional default value for String fields
 
-
-
-* **FieldDefault:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fieldDefault** String
 

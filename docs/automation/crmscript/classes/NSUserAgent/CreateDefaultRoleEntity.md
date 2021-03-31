@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSUserAgent_CreateDefaultRoleEntity
-description: NSUserAgent.CreateDefaultRoleEntity()
+description: NSRoleEntity CreateDefaultRoleEntity()
 intellisense: NSUserAgent.CreateDefaultRoleEntity
-keywords: CreateDefaultRoleEntity()
+keywords: NSUserAgent,CreateDefaultRoleEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSRoleEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSRoleEntity with default values.
 
-
-Loading default values into a new RoleEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New RoleEntity with default values
-
+```crmscript
+NSUserAgent agent;
+NSRoleEntity thing = agent.CreateDefaultRoleEntity();
+thing = agent.SaveRoleEntity(thing);
+```
 

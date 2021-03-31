@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSBatchAgent_StartBatchJob_NSBatchTaskInfo_p_0
-description: NSBatchAgent.StartBatchJob(NSBatchTaskInfo p_0)
+﻿---
+title: crmscript_ref_NSBatchAgent_StartBatchJob
+description: Integer StartBatchJob(BatchTaskInfo batchTaskInfo)
 intellisense: NSBatchAgent.StartBatchJob
-sortOrder: 1352
-keywords: StartBatchJob(NSBatchTaskInfo)
+keywords: NSBatchAgent,StartBatchJob
 so.topic: reference
 ---
 
-
 Start a batch job based on BatchTaskInfo.
 
+**Parameters:**
+ - **batchTaskInfo** Use BatchTaskInfo to describe the new batch job.
 
+**Returns:** Returns the id of the created batch job.
 
-* **batchTaskInfo:** Use BatchTaskInfo to describe the new batch job.
-* **Returns:** Returns the id of the created batch job.
-
+```crmscript
+NSBatchAgent agent;
+BatchTaskInfo batchTaskInfo;
+Integer res = agent.StartBatchJob(batchTaskInfo);
+```
 

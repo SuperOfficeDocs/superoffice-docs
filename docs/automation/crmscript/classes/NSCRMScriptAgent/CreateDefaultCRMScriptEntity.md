@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptAgent_CreateDefaultCRMScriptEntity
-description: NSCRMScriptAgent.CreateDefaultCRMScriptEntity()
+description: NSCRMScriptEntity CreateDefaultCRMScriptEntity()
 intellisense: NSCRMScriptAgent.CreateDefaultCRMScriptEntity
-sortOrder: 2114
-keywords: CreateDefaultCRMScriptEntity()
+keywords: NSCRMScriptAgent,CreateDefaultCRMScriptEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSCRMScriptEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSCRMScriptEntity with default values.
 
-
-Loading default values into a new CRMScriptEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New CRMScriptEntity with default values
-
+```crmscript
+NSCRMScriptAgent agent;
+NSCRMScriptEntity thing = agent.CreateDefaultCRMScriptEntity();
+thing = agent.SaveCRMScriptEntity(thing);
+```
 

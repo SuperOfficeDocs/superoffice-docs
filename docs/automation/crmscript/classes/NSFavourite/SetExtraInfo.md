@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFavourite_SetExtraInfo_String_p_0
-description: NSFavourite.SetExtraInfo(String p_0)
+﻿---
+title: crmscript_ref_NSFavourite_SetExtraInfo
+description: NSFavourite.SetExtraInfo(String extraInfo)
 intellisense: NSFavourite.SetExtraInfo
-sortOrder: 3441
-keywords: SetExtraInfo(String)
+keywords: NSFavourite, GetExtraInfo
 so.topic: reference
 ---
 
-
 Extra information for this favourite.
 
-
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **extraInfo** String
 

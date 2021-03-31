@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSControlInfo_SetLabel_String_p_0
-description: NSControlInfo.SetLabel(String p_0)
+﻿---
+title: crmscript_ref_NSControlInfo_SetLabel
+description: NSControlInfo.SetLabel(String label)
 intellisense: NSControlInfo.SetLabel
-sortOrder: 2004
-keywords: SetLabel(String)
+keywords: NSControlInfo, GetLabel
 so.topic: reference
 ---
 
 
-* **Label:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **label** String
 

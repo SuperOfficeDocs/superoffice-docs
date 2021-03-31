@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectMember_GetContactDepartment
-description: NSProjectMember.GetContactDepartment()
+description: String NSProjectMember.GetContactDepartment()
 intellisense: NSProjectMember.GetContactDepartment
-keywords: GetContactDepartment()
+keywords: NSProjectMember, GetContactDepartment
 so.topic: reference
 ---
 
-
 Contact department
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

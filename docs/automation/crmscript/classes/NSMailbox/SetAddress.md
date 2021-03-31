@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailbox_SetAddress_String_p_0
-description: NSMailbox.SetAddress(String p_0)
+﻿---
+title: crmscript_ref_NSMailbox_SetAddress
+description: NSMailbox.SetAddress(String address)
 intellisense: NSMailbox.SetAddress
-keywords: SetAddress(String)
+keywords: NSMailbox, GetAddress
 so.topic: reference
 ---
 
-
 The address associated with this mailbox (used as FROM: address when sending emails).
 
-
-
-* **Address:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **address** String
 

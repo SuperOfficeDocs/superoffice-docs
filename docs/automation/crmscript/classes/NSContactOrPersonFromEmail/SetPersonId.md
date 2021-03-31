@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactOrPersonFromEmail_SetPersonId_Integer_p_0
-description: NSContactOrPersonFromEmail.SetPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSContactOrPersonFromEmail_SetPersonId
+description: NSContactOrPersonFromEmail.SetPersonId(Integer personId)
 intellisense: NSContactOrPersonFromEmail.SetPersonId
-sortOrder: 1934
-keywords: SetPersonId(Integer)
+keywords: NSContactOrPersonFromEmail, GetPersonId
 so.topic: reference
 ---
 
-
 The id of the person
 
-
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **personId** Integer
 

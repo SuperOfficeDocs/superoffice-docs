@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSListAgent_GetOurCurrency
-description: NSListAgent.GetOurCurrency()
+description: Currency GetOurCurrency()
 intellisense: NSListAgent.GetOurCurrency
-keywords: GetOurCurrency()
+keywords: NSListAgent,GetOurCurrency
 so.topic: reference
 ---
-
 
 Gets the Our currency object if currency is enabled
 
 
+**Returns:** Our currency
 
-* **Returns:** Our currency
-
+```crmscript
+NSListAgent agent;
+Currency res = agent.GetOurCurrency();
+```
 

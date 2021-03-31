@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketSummaryItem_SetTicketStatus_Integer_p_0
-description: NSTicketSummaryItem.SetTicketStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketSummaryItem_SetTicketStatus
+description: NSTicketSummaryItem.SetTicketStatus(Integer ticketStatus)
 intellisense: NSTicketSummaryItem.SetTicketStatus
-keywords: SetTicketStatus(Integer)
+keywords: NSTicketSummaryItem, GetTicketStatus
 so.topic: reference
 ---
 
-
 User defined ticket status
 
-
-
-* **TicketStatus:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **ticketStatus** Integer
 

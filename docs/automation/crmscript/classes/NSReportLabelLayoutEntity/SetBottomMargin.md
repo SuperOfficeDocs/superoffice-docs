@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReportLabelLayoutEntity_SetBottomMargin_Integer_p_0
-description: NSReportLabelLayoutEntity.SetBottomMargin(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportLabelLayoutEntity_SetBottomMargin
+description: NSReportLabelLayoutEntity.SetBottomMargin(Integer bottomMargin)
 intellisense: NSReportLabelLayoutEntity.SetBottomMargin
-keywords: SetBottomMargin(Integer)
+keywords: NSReportLabelLayoutEntity, GetBottomMargin
 so.topic: reference
 ---
 
-
 Bottom margin in twips
 
-
-
-* **BottomMargin:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **bottomMargin** Integer
 

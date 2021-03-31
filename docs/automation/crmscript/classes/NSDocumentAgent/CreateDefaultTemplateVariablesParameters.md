@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSDocumentAgent_CreateDefaultTemplateVariablesParameters
-description: NSDocumentAgent.CreateDefaultTemplateVariablesParameters()
+description: NSTemplateVariablesParameters CreateDefaultTemplateVariablesParameters()
 intellisense: NSDocumentAgent.CreateDefaultTemplateVariablesParameters
-sortOrder: 2531
-keywords: CreateDefaultTemplateVariablesParameters()
+keywords: NSDocumentAgent,CreateDefaultTemplateVariablesParameters
 so.topic: reference
 ---
+	  
+Set default values into a new NSTemplateVariablesParameters.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSTemplateVariablesParameters with default values.
 
-
-Loading default values into a new TemplateVariablesParameters.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New TemplateVariablesParameters with default values
-
+```crmscript
+NSDocumentAgent agent;
+NSTemplateVariablesParameters thing = agent.CreateDefaultTemplateVariablesParameters();
+thing = agent.SaveTemplateVariablesParameters(thing);
+```
 

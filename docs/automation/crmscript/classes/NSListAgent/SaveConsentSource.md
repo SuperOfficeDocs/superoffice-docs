@@ -1,12 +1,12 @@
----
-title: crmscript_ref_NSListAgent_SaveConsentSource_NSConsentSource_p_0
-description: NSListAgent.SaveConsentSource(NSConsentSource p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveConsentSource
+description: ConsentSource SaveConsentSource(ConsentSource consentSource)
 intellisense: NSListAgent.SaveConsentSource
-keywords: SaveConsentSource(NSConsentSource)
+keywords: NSListAgent,SaveConsentSource
 so.topic: reference
 ---
 
 
-* **consentSource**
 
-
+**Parameters:**
+ - **consentSource** 

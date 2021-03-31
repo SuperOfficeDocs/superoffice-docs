@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserInfo_GetUserGroupName
-description: NSUserInfo.GetUserGroupName()
+description: String NSUserInfo.GetUserGroupName()
 intellisense: NSUserInfo.GetUserGroupName
-keywords: GetUserGroupName()
+keywords: NSUserInfo, GetUserGroupName
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

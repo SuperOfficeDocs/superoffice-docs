@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketMessage_SetCreatedAt_DateTime_p_0
-description: NSTicketMessage.SetCreatedAt(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicketMessage_SetCreatedAt
+description: NSTicketMessage.SetCreatedAt(DateTime createdAt)
 intellisense: NSTicketMessage.SetCreatedAt
-keywords: SetCreatedAt(DateTime)
+keywords: NSTicketMessage, GetCreatedAt
 so.topic: reference
 ---
 
-
 When the message was posted.
 
-
-
-* **CreatedAt:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdAt** DateTime
 

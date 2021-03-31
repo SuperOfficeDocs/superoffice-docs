@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetPreviousOverdueWeightedBaseCurrency_Float_p_0
-description: NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency(Float p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetPreviousOverdueWeightedBaseCurrency
+description: NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency(Float previousOverdueWeightedBaseCurrency)
 intellisense: NSSaleSummary.SetPreviousOverdueWeightedBaseCurrency
-keywords: SetPreviousOverdueWeightedBaseCurrency(Float)
+keywords: NSSaleSummary, GetPreviousOverdueWeightedBaseCurrency
 so.topic: reference
 ---
 
-
 Weighted sum for all open sales with date before this period in default currency for the installation
 
-
-
-* **PreviousOverdueWeightedBaseCurrency:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **previousOverdueWeightedBaseCurrency** Float
 

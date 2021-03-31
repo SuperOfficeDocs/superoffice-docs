@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveExtAppEntity_NSExtAppEntity_p_0
-description: NSListAgent.SaveExtAppEntity(NSExtAppEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveExtAppEntity
+description: NSExtAppEntity SaveExtAppEntity(NSExtAppEntity extAppEntity);
 intellisense: NSListAgent.SaveExtAppEntity
-keywords: SaveExtAppEntity(NSExtAppEntity)
+keywords: NSListAgent,SaveExtAppEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSExtAppEntity or creates a new NSExtAppEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **extAppEntity** The NSExtAppEntity to save.
 
+**Returns:** New or updated NSExtAppEntity
 
-Updates the existing ExtAppEntity or creates a new ExtAppEntity if the id parameter is empty
-
-
-
-* **extAppEntity:** The ExtAppEntity that is saved
-* **Returns:** New or updated ExtAppEntity
-
+```crmscript
+NSList  agent;
+NSExtAppEntity thing = agent.CreateDefaultExtAppEntity();
+thing = agent.SaveExtAppEntity(thing);
+```
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncConnectionSummary_SetDeleted_Bool_p_0
-description: NSErpSyncConnectionSummary.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSErpSyncConnectionSummary_SetDeleted
+description: NSErpSyncConnectionSummary.SetDeleted(Bool deleted)
 intellisense: NSErpSyncConnectionSummary.SetDeleted
-sortOrder: 3235
-keywords: SetDeleted(Bool)
+keywords: NSErpSyncConnectionSummary, GetDeleted
 so.topic: reference
 ---
 
-
 Is the connection deleted
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoBase_GetDisplayName
-description: NSFieldInfoBase.GetDisplayName()
+description: String NSFieldInfoBase.GetDisplayName()
 intellisense: NSFieldInfoBase.GetDisplayName
-sortOrder: 3470
-keywords: GetDisplayName()
+keywords: NSFieldInfoBase, GetDisplayName
 so.topic: reference
 ---
 
-
 Label for field. May be multi-lang string encoded.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

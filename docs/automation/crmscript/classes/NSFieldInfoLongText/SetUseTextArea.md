@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoLongText_SetUseTextArea_Bool_p_0
-description: NSFieldInfoLongText.SetUseTextArea(Bool p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoLongText_SetUseTextArea
+description: NSFieldInfoLongText.SetUseTextArea(Bool useTextArea)
 intellisense: NSFieldInfoLongText.SetUseTextArea
-sortOrder: 3528
-keywords: SetUseTextArea(Bool)
+keywords: NSFieldInfoLongText, GetUseTextArea
 so.topic: reference
 ---
 
-
 Use a multi-line text area?
 
-
-
-* **UseTextArea:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **useTextArea** Bool
 

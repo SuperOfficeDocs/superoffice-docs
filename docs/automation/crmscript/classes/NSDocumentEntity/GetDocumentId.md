@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetDocumentId
-description: NSDocumentEntity.GetDocumentId()
+description: Integer NSDocumentEntity.GetDocumentId()
 intellisense: NSDocumentEntity.GetDocumentId
-sortOrder: 2560
-keywords: GetDocumentId()
+keywords: NSDocumentEntity, GetDocumentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

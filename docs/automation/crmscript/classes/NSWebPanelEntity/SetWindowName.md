@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetWindowName_String_p_0
-description: NSWebPanelEntity.SetWindowName(String p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetWindowName
+description: NSWebPanelEntity.SetWindowName(String windowName)
 intellisense: NSWebPanelEntity.SetWindowName
-keywords: SetWindowName(String)
+keywords: NSWebPanelEntity, GetWindowName
 so.topic: reference
 ---
 
-
 The window which the URL address is to open in (webpanel only)
 
-
-
-* **WindowName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **windowName** String
 

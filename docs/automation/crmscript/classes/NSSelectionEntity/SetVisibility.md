@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetVisibility_Integer_p_0
-description: NSSelectionEntity.SetVisibility(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetVisibility
+description: NSSelectionEntity.SetVisibility(Integer visibility)
 intellisense: NSSelectionEntity.SetVisibility
-keywords: SetVisibility(Integer)
+keywords: NSSelectionEntity, GetVisibility
 so.topic: reference
 ---
 
-
 Obsolete, but still maintained denormalization of visiblefor
 
-
-
-* **Visibility:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **visibility** Integer
 

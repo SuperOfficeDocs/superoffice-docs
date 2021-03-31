@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAlarmData_GetContactDepartment
-description: NSAlarmData.GetContactDepartment()
+description: String NSAlarmData.GetContactDepartment()
 intellisense: NSAlarmData.GetContactDepartment
-sortOrder: 659
-keywords: GetContactDepartment()
+keywords: NSAlarmData, GetContactDepartment
 so.topic: reference
 ---
 
-
 Department
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

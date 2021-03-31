@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetDeliveredQuantity_Float_p_0
-description: NSQuoteLine.SetDeliveredQuantity(Float p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetDeliveredQuantity
+description: NSQuoteLine.SetDeliveredQuantity(Float deliveredQuantity)
 intellisense: NSQuoteLine.SetDeliveredQuantity
-keywords: SetDeliveredQuantity(Float)
+keywords: NSQuoteLine, GetDeliveredQuantity
 so.topic: reference
 ---
 
-
 How many units have been delivered - updated by ERP system.
 
-
-
-* **DeliveredQuantity:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **deliveredQuantity** Float
 

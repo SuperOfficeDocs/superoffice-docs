@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetEndDate_DateTime_p_0
-description: NSAppointmentEntity.SetEndDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetEndDate
+description: NSAppointmentEntity.SetEndDate(DateTime endDate)
 intellisense: NSAppointmentEntity.SetEndDate
-sortOrder: 998
-keywords: SetEndDate(DateTime)
+keywords: NSAppointmentEntity, GetEndDate
 so.topic: reference
 ---
 
-
 Date + end time planned
 
-
-
-* **EndDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **endDate** DateTime
 

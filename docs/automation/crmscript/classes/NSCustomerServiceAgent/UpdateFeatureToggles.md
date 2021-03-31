@@ -1,17 +1,12 @@
----
-title: crmscript_ref_NSCustomerServiceAgent_UpdateFeatureToggles_NSCsFeatureToggle__p_0
-description: NSCustomerServiceAgent.UpdateFeatureToggles(NSCsFeatureToggle[] p_0)
+﻿---
+title: crmscript_ref_NSCustomerServiceAgent_UpdateFeatureToggles
+description: Void UpdateFeatureToggles(CsFeatureToggleArray featureToggles)
 intellisense: NSCustomerServiceAgent.UpdateFeatureToggles
-sortOrder: 2249
-keywords: UpdateFeatureToggles(NSCsFeatureToggle[])
+keywords: NSCustomerServiceAgent,UpdateFeatureToggles
 so.topic: reference
 ---
 
-
 Update the cached FeatureToggles for CS
 
-
-
-* **featureToggles:** Feature toggle name / state
-
-
+**Parameters:**
+ - **featureToggles** Feature toggle name / state

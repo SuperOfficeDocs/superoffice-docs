@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetColumnId_Integer_p_0
-description: NSUserDefinedFieldInfo.SetColumnId(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetColumnId
+description: NSUserDefinedFieldInfo.SetColumnId(Integer columnId)
 intellisense: NSUserDefinedFieldInfo.SetColumnId
-keywords: SetColumnId(Integer)
+keywords: NSUserDefinedFieldInfo, GetColumnId
 so.topic: reference
 ---
 
-
 The ID of the database column this field corresponds to
 
-
-
-* **ColumnId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **columnId** Integer
 

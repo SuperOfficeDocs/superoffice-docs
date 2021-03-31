@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSChangedData_GetAddedRecords
-description: NSChangedData.GetAddedRecords()
+description: ChangedDataItemArray NSChangedData.GetAddedRecords()
 intellisense: NSChangedData.GetAddedRecords
-sortOrder: 1500
-keywords: GetAddedRecords()
+keywords: NSChangedData, GetAddedRecords
 so.topic: reference
 ---
 
-
 Ids of added records.
 
-
-
-* **Returns:** ChangedDataItemArray
+**Returns:** ChangedDataItemArray
 
 

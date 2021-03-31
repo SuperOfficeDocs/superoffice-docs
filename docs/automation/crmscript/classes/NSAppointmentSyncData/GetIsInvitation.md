@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentSyncData_GetIsInvitation
-description: NSAppointmentSyncData.GetIsInvitation()
+description: Bool NSAppointmentSyncData.GetIsInvitation()
 intellisense: NSAppointmentSyncData.GetIsInvitation
-sortOrder: 1045
-keywords: GetIsInvitation()
+keywords: NSAppointmentSyncData, GetIsInvitation
 so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldValueInfo_SetOperationInfos_NSOperationInfo__p_0
-description: NSFieldValueInfo.SetOperationInfos(NSOperationInfo[] p_0)
+﻿---
+title: crmscript_ref_NSFieldValueInfo_SetOperationInfos
+description: NSFieldValueInfo.SetOperationInfos(OperationInfoArray operationInfos)
 intellisense: NSFieldValueInfo.SetOperationInfos
-sortOrder: 3648
-keywords: SetOperationInfos(NSOperationInfo[])
+keywords: NSFieldValueInfo, GetOperationInfos
 so.topic: reference
 ---
 
-
 Array of the available operations for this field
 
-
-
-* **OperationInfos:** OperationInfoArray
-* **Returns:** OperationInfoArray
-
+**Parameter:** 
+ - **operationInfos** OperationInfoArray
 

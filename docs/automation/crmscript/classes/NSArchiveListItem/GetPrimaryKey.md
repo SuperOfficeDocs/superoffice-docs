@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveListItem_GetPrimaryKey
-description: NSArchiveListItem.GetPrimaryKey()
+description: Integer NSArchiveListItem.GetPrimaryKey()
 intellisense: NSArchiveListItem.GetPrimaryKey
-sortOrder: 1176
-keywords: GetPrimaryKey()
+keywords: NSArchiveListItem, GetPrimaryKey
 so.topic: reference
 ---
 
-
 The  primary key for the row
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

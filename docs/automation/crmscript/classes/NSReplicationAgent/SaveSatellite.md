@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSReplicationAgent_SaveSatellite_NSSatellite_p_0
-description: NSReplicationAgent.SaveSatellite(NSSatellite p_0)
+﻿---
+title: crmscript_ref_NSReplicationAgent_SaveSatellite
+description: NSSatellite SaveSatellite(NSSatellite satellite);
 intellisense: NSReplicationAgent.SaveSatellite
-keywords: SaveSatellite(NSSatellite)
+keywords: NSReplicationAgent,SaveSatellite
 so.topic: reference
 ---
+	  
+Updates the existing NSSatellite or creates a new NSSatellite if the id parameter is 0
+	  
+**Parameters**:
+ - **satellite** The NSSatellite to save.
 
+**Returns:** New or updated NSSatellite
 
-Updates the existing Satellite or creates a new Satellite if the id parameter is empty
-
-
-
-* **satellite:** The Satellite that is saved
-* **Returns:** New or updated Satellite
-
+```crmscript
+NSReplication  agent;
+NSSatellite thing = agent.CreateDefaultSatellite();
+thing = agent.SaveSatellite(thing);
+```
 

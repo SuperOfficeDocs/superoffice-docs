@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleSummary_GetCurrentOverdueTotalOwnCurrency
-description: NSSaleSummary.GetCurrentOverdueTotalOwnCurrency()
+description: Float NSSaleSummary.GetCurrentOverdueTotalOwnCurrency()
 intellisense: NSSaleSummary.GetCurrentOverdueTotalOwnCurrency
-keywords: GetCurrentOverdueTotalOwnCurrency()
+keywords: NSSaleSummary, GetCurrentOverdueTotalOwnCurrency
 so.topic: reference
 ---
 
-
 Summed amount for all overdue sales within the period in default currency for the current user
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

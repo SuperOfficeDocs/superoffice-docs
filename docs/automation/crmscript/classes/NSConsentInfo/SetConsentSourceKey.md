@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentInfo_SetConsentSourceKey_String_p_0
-description: NSConsentInfo.SetConsentSourceKey(String p_0)
+﻿---
+title: crmscript_ref_NSConsentInfo_SetConsentSourceKey
+description: NSConsentInfo.SetConsentSourceKey(String consentSourceKey)
 intellisense: NSConsentInfo.SetConsentSourceKey
-sortOrder: 1649
-keywords: SetConsentSourceKey(String)
+keywords: NSConsentInfo, GetConsentSourceKey
 so.topic: reference
 ---
 
-
 Key of the ConsentSource associated with this consent
 
-
-
-* **ConsentSourceKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **consentSourceKey** String
 

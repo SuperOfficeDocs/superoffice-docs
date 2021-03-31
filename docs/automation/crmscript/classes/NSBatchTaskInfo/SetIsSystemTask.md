@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetIsSystemTask_Bool_p_0
-description: NSBatchTaskInfo.SetIsSystemTask(Bool p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetIsSystemTask
+description: NSBatchTaskInfo.SetIsSystemTask(Bool isSystemTask)
 intellisense: NSBatchTaskInfo.SetIsSystemTask
-sortOrder: 1394
-keywords: SetIsSystemTask(Bool)
+keywords: NSBatchTaskInfo, GetIsSystemTask
 so.topic: reference
 ---
 
-
 If IsSystemTask is true, the task is not initiated by an associate.
 
-
-
-* **IsSystemTask:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isSystemTask** Bool
 

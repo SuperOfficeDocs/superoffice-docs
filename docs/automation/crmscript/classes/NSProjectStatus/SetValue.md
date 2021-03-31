@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSProjectStatus_SetValue_String_p_0
-description: NSProjectStatus.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSProjectStatus_SetValue
+description: NSProjectStatus.SetValue(String value)
 intellisense: NSProjectStatus.SetValue
-keywords: SetValue(String)
+keywords: NSProjectStatus, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

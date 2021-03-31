@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionValidated_SetErrorCode_String_p_0
-description: NSQuoteVersionValidated.SetErrorCode(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionValidated_SetErrorCode
+description: NSQuoteVersionValidated.SetErrorCode(String errorCode)
 intellisense: NSQuoteVersionValidated.SetErrorCode
-keywords: SetErrorCode(String)
+keywords: NSQuoteVersionValidated, GetErrorCode
 so.topic: reference
 ---
 
-
 An error code, if available.
 
-
-
-* **ErrorCode:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **errorCode** String
 

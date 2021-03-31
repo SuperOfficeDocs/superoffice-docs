@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectTypeEntity_GetStages
-description: NSProjectTypeEntity.GetStages()
+description: SelectableMDOListItemArray NSProjectTypeEntity.GetStages()
 intellisense: NSProjectTypeEntity.GetStages
-keywords: GetStages()
+keywords: NSProjectTypeEntity, GetStages
 so.topic: reference
 ---
 
-
 Stages (project statuses), those associated with this ProjType are selected.
 
-
-
-* **Returns:** SelectableMDOListItemArray
+**Returns:** SelectableMDOListItemArray
 
 

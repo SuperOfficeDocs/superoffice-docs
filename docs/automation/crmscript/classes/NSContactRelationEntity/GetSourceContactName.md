@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactRelationEntity_GetSourceContactName
-description: NSContactRelationEntity.GetSourceContactName()
+description: String NSContactRelationEntity.GetSourceContactName()
 intellisense: NSContactRelationEntity.GetSourceContactName
-sortOrder: 1960
-keywords: GetSourceContactName()
+keywords: NSContactRelationEntity, GetSourceContactName
 so.topic: reference
 ---
 
-
 Name of the source contact.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPreferenceDescriptionLine_GetPrefDescLineId
-description: NSPreferenceDescriptionLine.GetPrefDescLineId()
+description: Integer NSPreferenceDescriptionLine.GetPrefDescLineId()
 intellisense: NSPreferenceDescriptionLine.GetPrefDescLineId
-keywords: GetPrefDescLineId()
+keywords: NSPreferenceDescriptionLine, GetPrefDescLineId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

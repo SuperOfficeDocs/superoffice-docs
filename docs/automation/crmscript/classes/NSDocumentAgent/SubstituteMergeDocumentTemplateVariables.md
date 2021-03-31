@@ -1,21 +1,27 @@
----
-title: crmscript_ref_NSDocumentAgent_SubstituteMergeDocumentTemplateVariables_Integer_p_0_Integer_p_1_String__p_2_String__p_3
-description: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables(Integer p_0, Integer p_1, String[] p_2, String[] p_3)
+﻿---
+title: crmscript_ref_NSDocumentAgent_SubstituteMergeDocumentTemplateVariables
+description: Stream SubstituteMergeDocumentTemplateVariables(Integer documentId, Integer associateId, StringArray customTags, StringArray customValues)
 intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables
-sortOrder: 2523
-keywords: SubstituteMergeDocumentTemplateVariables(Integer,Integer,String[],String[])
+keywords: NSDocumentAgent,SubstituteMergeDocumentTemplateVariables
 so.topic: reference
 ---
 
+Parse the source document, and replace any template variable tags with their values, based on the associate Id.<p/> The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
 
-Parse the source document, and replace any template variable tags with their values, based on the associate Id.\<p/> The source document should be of type MergeDraft. This method also takes a pair of arrays specifying custom tags and their values; these tags will be available during substitution in addition to all the existing tags. Custom values will override values otherwise set.
+**Parameters:**
+ - **documentId** The document id that refers to the binary data (document)
+ - **associateId** The associateId used to subsitute tags in the document.
+ - **customTags** Array of custom tag names. Each name should have exactly four characters. There should be exactly one value for each tag, i.e., the lengths of the customTags and customValues arrays should be the same.
+ - **customValues** Array of values for custom tags. There should be exactly one value for each tag, i.e., the lengths of the customTags and customValues arrays should be the same.
 
+**Returns:** The document as a Stream
 
-
-* **documentId:** The document id that refers to the binary data (document)
-* **associateId:** The associateId used to subsitute tags in the document.
-* **customTags:** Array of custom tag names. Each name should have exactly four characters. There should be exactly one value for each tag, i.e., the lengths of the customTags and customValues arrays should be the same.
-* **customValues:** Array of values for custom tags. There should be exactly one value for each tag, i.e., the lengths of the customTags and customValues arrays should be the same.
-* **Returns:** The document as a Stream
-
+```crmscript
+NSDocumentAgent agent;
+Integer documentId;
+Integer associateId;
+StringArray customTags;
+StringArray customValues;
+Stream res = agent.SubstituteMergeDocumentTemplateVariables(documentId, associateId, customTags, customValues);
+```
 

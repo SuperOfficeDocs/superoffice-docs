@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTemplateVariablesParameters_SetQuoteLineId_Integer_p_0
-description: NSTemplateVariablesParameters.SetQuoteLineId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTemplateVariablesParameters_SetQuoteLineId
+description: NSTemplateVariablesParameters.SetQuoteLineId(Integer quoteLineId)
 intellisense: NSTemplateVariablesParameters.SetQuoteLineId
-keywords: SetQuoteLineId(Integer)
+keywords: NSTemplateVariablesParameters, GetQuoteLineId
 so.topic: reference
 ---
 
-
 Quote line id
 
-
-
-* **QuoteLineId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **quoteLineId** Integer
 

@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_GetQuoteLineConfiguration_Integer_p_0
-description: NSQuoteAgent.GetQuoteLineConfiguration(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_GetQuoteLineConfiguration
+description: QuoteLineConfiguration GetQuoteLineConfiguration(Integer quoteLineConfigurationId)
 intellisense: NSQuoteAgent.GetQuoteLineConfiguration
-keywords: GetQuoteLineConfiguration(Integer)
+keywords: NSQuoteAgent,GetQuoteLineConfiguration
 so.topic: reference
 ---
 
-
 Returns the configuration field with the given id
 
+**Parameters:**
+ - **quoteLineConfigurationId** Id of the QuoteLineConfiguration to get.
 
+**Returns:** QuoteLineConfiguration
 
-* **quoteLineConfigurationId:** Id of the QuoteLineConfiguration to get.
-* **Returns:** QuoteLineConfiguration
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteLineConfigurationId;
+QuoteLineConfiguration res = agent.GetQuoteLineConfiguration(quoteLineConfigurationId);
+```
 

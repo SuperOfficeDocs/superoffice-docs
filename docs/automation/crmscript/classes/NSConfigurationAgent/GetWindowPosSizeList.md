@@ -1,13 +1,21 @@
----
-title: crmscript_ref_NSConfigurationAgent_GetWindowPosSizeList_Integer__p_0
-description: NSConfigurationAgent.GetWindowPosSizeList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSConfigurationAgent_GetWindowPosSizeList
+description: NSWindowPosSize[] GetWindowPosSizeList(Integer[]  windowPosSizeIds);
 intellisense: NSConfigurationAgent.GetWindowPosSizeList
-sortOrder: 1599
-keywords: GetWindowPosSizeList(Integer[])
+keywords: NSConfigurationAgent,GetWindowPosSizeList
 so.topic: reference
 ---
 
+Gets a vector of WindowPosSize objects.
 
-* **p0:** IntegerArray of identifiers for WindowPosSize
-* **Returns:** Array of NSWindowPosSize
+**Parameters:**
+ - **windowPosSizeIds** The identifiers of the NSWindowPosSize objects
+
+**Returns:** Vector of NSWindowPosSize objects
+
+```crmscript
+Integer[] ids;
+NSConfigurationAgent agent;
+agent.GetWindowPosSizeList(ids);
+```
 

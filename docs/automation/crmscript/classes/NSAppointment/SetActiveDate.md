@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetActiveDate_DateTime_p_0
-description: NSAppointment.SetActiveDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetActiveDate
+description: NSAppointment.SetActiveDate(DateTime activeDate)
 intellisense: NSAppointment.SetActiveDate
-sortOrder: 767
-keywords: SetActiveDate(DateTime)
+keywords: NSAppointment, GetActiveDate
 so.topic: reference
 ---
 
-
 The date to be used for searching & showing
 
-
-
-* **ActiveDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **activeDate** DateTime
 

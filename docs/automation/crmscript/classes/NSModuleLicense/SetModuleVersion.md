@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicense_SetModuleVersion_String_p_0
-description: NSModuleLicense.SetModuleVersion(String p_0)
+﻿---
+title: crmscript_ref_NSModuleLicense_SetModuleVersion
+description: NSModuleLicense.SetModuleVersion(String moduleVersion)
 intellisense: NSModuleLicense.SetModuleVersion
-keywords: SetModuleVersion(String)
+keywords: NSModuleLicense, GetModuleVersion
 so.topic: reference
 ---
 
-
 Version string for this module
 
-
-
-* **ModuleVersion:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **moduleVersion** String
 

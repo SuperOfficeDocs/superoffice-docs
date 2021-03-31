@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetUpdatedBy_NSAssociate_p_0
-description: NSSaleEntity.SetUpdatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetUpdatedBy
+description: NSSaleEntity.SetUpdatedBy(Associate updatedBy)
 intellisense: NSSaleEntity.SetUpdatedBy
-keywords: SetUpdatedBy(NSAssociate)
+keywords: NSSaleEntity, GetUpdatedBy
 so.topic: reference
 ---
 
-
 Who updated the sale
 
-
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **updatedBy** Associate
 

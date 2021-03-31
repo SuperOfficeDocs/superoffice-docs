@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedAppointmentEntity_GetAutoSuggest
-description: NSSuggestedAppointmentEntity.GetAutoSuggest()
+description: Bool NSSuggestedAppointmentEntity.GetAutoSuggest()
 intellisense: NSSuggestedAppointmentEntity.GetAutoSuggest
-keywords: GetAutoSuggest()
+keywords: NSSuggestedAppointmentEntity, GetAutoSuggest
 so.topic: reference
 ---
 
-
 Should this appointment be auto-suggested
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

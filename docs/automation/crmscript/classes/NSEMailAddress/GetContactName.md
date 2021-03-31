@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAddress_GetContactName
-description: NSEMailAddress.GetContactName()
+description: String NSEMailAddress.GetContactName()
 intellisense: NSEMailAddress.GetContactName
-sortOrder: 2768
-keywords: GetContactName()
+keywords: NSEMailAddress, GetContactName
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

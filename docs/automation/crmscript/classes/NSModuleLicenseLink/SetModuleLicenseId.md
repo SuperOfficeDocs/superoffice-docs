@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetModuleLicenseId_Integer_p_0
-description: NSModuleLicenseLink.SetModuleLicenseId(Integer p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetModuleLicenseId
+description: NSModuleLicenseLink.SetModuleLicenseId(Integer moduleLicenseId)
 intellisense: NSModuleLicenseLink.SetModuleLicenseId
-keywords: SetModuleLicenseId(Integer)
+keywords: NSModuleLicenseLink, GetModuleLicenseId
 so.topic: reference
 ---
 
-
 The identifier of the module license
 
-
-
-* **ModuleLicenseId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **moduleLicenseId** Integer
 

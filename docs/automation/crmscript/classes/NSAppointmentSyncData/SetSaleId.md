@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetSaleId_Integer_p_0
-description: NSAppointmentSyncData.SetSaleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetSaleId
+description: NSAppointmentSyncData.SetSaleId(Integer saleId)
 intellisense: NSAppointmentSyncData.SetSaleId
-sortOrder: 1088
-keywords: SetSaleId(Integer)
+keywords: NSAppointmentSyncData, GetSaleId
 so.topic: reference
 ---
 
-
 Owning sale, if any (may be 0)
 
-
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleId** Integer
 

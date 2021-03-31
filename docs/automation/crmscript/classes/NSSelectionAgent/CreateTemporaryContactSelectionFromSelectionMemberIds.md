@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSSelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds_Integer_p_0_Integer__p_1
-description: NSSelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(Integer p_0, Integer[] p_1)
+﻿---
+title: crmscript_ref_NSSelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds
+description: SelectionEntity CreateTemporaryContactSelectionFromSelectionMemberIds(Integer selectionId, IntegerArray selectionMemberIds)
 intellisense: NSSelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds
-keywords: CreateTemporaryContactSelectionFromSelectionMemberIds(Integer,Integer[])
+keywords: NSSelectionAgent,CreateTemporaryContactSelectionFromSelectionMemberIds
 so.topic: reference
 ---
 
-
 Creates a temporary selection with members from a collection of selectionmember id's.
 
+**Parameters:**
+ - **selectionId** The selectionId the selectionmembers is a part of.
+ - **selectionMemberIds** A collection of int ids to copy into the temporary contact selection as members.
 
+**Returns:** Returns the newly created SelectionEntity.
 
-* **selectionId:** The selectionId the selectionmembers is a part of.
-* **selectionMemberIds:** A collection of int ids to copy into the temporary contact selection as members.
-* **Returns:** Returns the newly created SelectionEntity.
-
+```crmscript
+NSSelectionAgent agent;
+Integer selectionId;
+IntegerArray selectionMemberIds;
+SelectionEntity res = agent.CreateTemporaryContactSelectionFromSelectionMemberIds(selectionId, selectionMemberIds);
+```
 

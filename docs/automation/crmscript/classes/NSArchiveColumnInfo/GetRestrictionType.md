@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveColumnInfo_GetRestrictionType
-description: NSArchiveColumnInfo.GetRestrictionType()
+description: String NSArchiveColumnInfo.GetRestrictionType()
 intellisense: NSArchiveColumnInfo.GetRestrictionType
-sortOrder: 1147
-keywords: GetRestrictionType()
+keywords: NSArchiveColumnInfo, GetRestrictionType
 so.topic: reference
 ---
 
-
 The data type of the restriction; use this to retrieve the legal operators for the restriction.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

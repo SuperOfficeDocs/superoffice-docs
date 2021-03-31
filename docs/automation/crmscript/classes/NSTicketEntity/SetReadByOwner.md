@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetReadByOwner_DateTime_p_0
-description: NSTicketEntity.SetReadByOwner(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetReadByOwner
+description: NSTicketEntity.SetReadByOwner(DateTime readByOwner)
 intellisense: NSTicketEntity.SetReadByOwner
-keywords: SetReadByOwner(DateTime)
+keywords: NSTicketEntity, GetReadByOwner
 so.topic: reference
 ---
 
-
 The datetime for when the ticket last was read by the owner.
 
-
-
-* **ReadByOwner:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **readByOwner** DateTime
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebPanelEntity_GetIcon
-description: NSWebPanelEntity.GetIcon()
+description: Integer NSWebPanelEntity.GetIcon()
 intellisense: NSWebPanelEntity.GetIcon
-keywords: GetIcon()
+keywords: NSWebPanelEntity, GetIcon
 so.topic: reference
 ---
 
-
 The icon of the webpanel
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

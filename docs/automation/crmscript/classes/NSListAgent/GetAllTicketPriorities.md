@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetAllTicketPriorities_Bool_p_0
-description: NSListAgent.GetAllTicketPriorities(Bool p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetAllTicketPriorities
+description: TicketPriorityEntityArray GetAllTicketPriorities(Bool includeDeleted)
 intellisense: NSListAgent.GetAllTicketPriorities
-keywords: GetAllTicketPriorities(Bool)
+keywords: NSListAgent,GetAllTicketPriorities
 so.topic: reference
 ---
 
-
 Returns all available ticket priorities.
 
+**Parameters:**
+ - **includeDeleted** Include deleted items in result?
 
+**Returns:** An array of all available ticket priorities
 
-* **includeDeleted:** Include deleted items in result?
-* **Returns:** An array of all available ticket priorities
-
+```crmscript
+NSListAgent agent;
+Bool includeDeleted;
+TicketPriorityEntityArray res = agent.GetAllTicketPriorities(includeDeleted);
+```
 

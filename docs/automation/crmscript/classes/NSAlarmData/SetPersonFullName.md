@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetPersonFullName_String_p_0
-description: NSAlarmData.SetPersonFullName(String p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetPersonFullName
+description: NSAlarmData.SetPersonFullName(String personFullName)
 intellisense: NSAlarmData.SetPersonFullName
-sortOrder: 685
-keywords: SetPersonFullName(String)
+keywords: NSAlarmData, GetPersonFullName
 so.topic: reference
 ---
 
-
 The associate's culture formatted fullname (firstname, middleName and lastname)
 
-
-
-* **PersonFullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personFullName** String
 

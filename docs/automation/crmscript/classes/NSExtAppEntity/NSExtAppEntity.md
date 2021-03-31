@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSExtAppEntity
 description: NSExtAppEntity
 intellisense: Void.NSExtAppEntity
-sortOrder: 3355
+keywords: NSExtAppEntity
 so.topic: reference
 ---
 
-
 The ext app entity contains information on an external application
 
-
-
-
-1. autolist
+1. autolist 
 

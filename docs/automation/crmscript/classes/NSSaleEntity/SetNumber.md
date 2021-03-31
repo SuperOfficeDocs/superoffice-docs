@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetNumber_String_p_0
-description: NSSaleEntity.SetNumber(String p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetNumber
+description: NSSaleEntity.SetNumber(String number)
 intellisense: NSSaleEntity.SetNumber
-keywords: SetNumber(String)
+keywords: NSSaleEntity, GetNumber
 so.topic: reference
 ---
 
-
 Alphanumeric user field
 
-
-
-* **Number:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **number** String
 

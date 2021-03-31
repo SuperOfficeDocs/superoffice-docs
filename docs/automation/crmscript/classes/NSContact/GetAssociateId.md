@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContact_GetAssociateId
-description: NSContact.GetAssociateId()
+description: Integer NSContact.GetAssociateId()
 intellisense: NSContact.GetAssociateId
-sortOrder: 1720
-keywords: GetAssociateId()
+keywords: NSContact, GetAssociateId
 so.topic: reference
 ---
 
-
 Our contact
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

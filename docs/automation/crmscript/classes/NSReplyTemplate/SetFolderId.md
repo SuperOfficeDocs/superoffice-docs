@@ -1,0 +1,13 @@
+﻿---
+title: crmscript_ref_NSReplyTemplate_SetFolderId
+description: NSReplyTemplate.SetFolderId(Integer folderId)
+intellisense: NSReplyTemplate.SetFolderId
+keywords: NSReplyTemplate, GetFolderId
+so.topic: reference
+---
+
+The id of the folder in which this reply template is located. NULL or -1 if this is a toplevel reply template.
+
+**Parameter:** 
+ - **folderId** Integer
+

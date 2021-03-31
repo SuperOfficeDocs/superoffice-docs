@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSPersonAgent_DeleteConsentPerson_Integer_p_0
-description: NSPersonAgent.DeleteConsentPerson(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_DeleteConsentPerson
+description: DeleteConsentPerson(Integer consentPerson);
 intellisense: NSPersonAgent.DeleteConsentPerson
-keywords: DeleteConsentPerson(Integer)
+keywords: NSPersonAgent,DeleteConsentPerson
 so.topic: reference
 ---
 
+Deletes the NSConsentPerson
+  
+**Parameters:**
+ - **consentPersonId** The identity of the ConsentPerson to delete.
 
-Deletes the ConsentPerson
-
-
-
-* **consentPersonId:** The identity of the ConsentPerson
-
+```crmscript
+NSPersonAgent agent;
+agent.DeleteConsentPerson(123);
+```
 

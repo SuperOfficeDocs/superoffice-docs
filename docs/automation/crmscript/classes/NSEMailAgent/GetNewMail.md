@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSEMailAgent_GetNewMail_Integer__p_0
-description: NSEMailAgent.GetNewMail(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_GetNewMail
+description: EMailEnvelopeArray GetNewMail(IntegerArray folders)
 intellisense: NSEMailAgent.GetNewMail
-sortOrder: 2834
-keywords: GetNewMail(Integer[])
+keywords: NSEMailAgent,GetNewMail
 so.topic: reference
 ---
 
+Get new email in folder(s) for current associate
 
-Get new email in `folder(s)` for current associate
+**Parameters:**
+ - **folders** List of folder ids to check for new email
 
+**Returns:** The downloaded email envelopes
 
-
-* **folders:** List of folder ids to check for new email
-* **Returns:** The downloaded email envelopes
-
+```crmscript
+NSEMailAgent agent;
+IntegerArray folders;
+EMailEnvelopeArray res = agent.GetNewMail(folders);
+```
 

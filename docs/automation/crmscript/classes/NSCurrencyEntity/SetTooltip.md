@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCurrencyEntity_SetTooltip_String_p_0
-description: NSCurrencyEntity.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSCurrencyEntity_SetTooltip
+description: NSCurrencyEntity.SetTooltip(String tooltip)
 intellisense: NSCurrencyEntity.SetTooltip
-sortOrder: 2191
-keywords: SetTooltip(String)
+keywords: NSCurrencyEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip or other description
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

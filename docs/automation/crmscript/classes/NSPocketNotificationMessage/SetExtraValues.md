@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketNotificationMessage_SetExtraValues_StringDictionary_p_0
-description: NSPocketNotificationMessage.SetExtraValues(StringDictionary p_0)
+﻿---
+title: crmscript_ref_NSPocketNotificationMessage_SetExtraValues
+description: NSPocketNotificationMessage.SetExtraValues(StringDictionary extraValues)
 intellisense: NSPocketNotificationMessage.SetExtraValues
-keywords: SetExtraValues(StringDictionary)
+keywords: NSPocketNotificationMessage, GetExtraValues
 so.topic: reference
 ---
 
-
 Additional key/value properties to include in the message
 
-
-
-* **ExtraValues:** StringDictionary
-* **Returns:** StringDictionary
-
+**Parameter:** 
+ - **extraValues** StringDictionary
 

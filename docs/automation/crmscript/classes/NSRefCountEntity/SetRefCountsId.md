@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRefCountEntity_SetRefCountsId_Integer_p_0
-description: NSRefCountEntity.SetRefCountsId(Integer p_0)
+﻿---
+title: crmscript_ref_NSRefCountEntity_SetRefCountsId
+description: NSRefCountEntity.SetRefCountsId(Integer refCountsId)
 intellisense: NSRefCountEntity.SetRefCountsId
-keywords: SetRefCountsId(Integer)
+keywords: NSRefCountEntity, GetRefCountsId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **RefCountsId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **refCountsId** Integer
 

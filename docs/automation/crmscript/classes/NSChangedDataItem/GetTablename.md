@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSChangedDataItem_GetTablename
-description: NSChangedDataItem.GetTablename()
+description: String NSChangedDataItem.GetTablename()
 intellisense: NSChangedDataItem.GetTablename
-sortOrder: 1509
-keywords: GetTablename()
+keywords: NSChangedDataItem, GetTablename
 so.topic: reference
 ---
 
-
 Name of table, standardized to lowercase
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

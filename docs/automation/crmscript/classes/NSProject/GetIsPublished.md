@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetIsPublished
-description: NSProject.GetIsPublished()
+description: Bool NSProject.GetIsPublished()
 intellisense: NSProject.GetIsPublished
-keywords: GetIsPublished()
+keywords: NSProject, GetIsPublished
 so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
 
 

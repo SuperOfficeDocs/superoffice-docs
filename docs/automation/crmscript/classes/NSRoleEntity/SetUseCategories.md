@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetUseCategories_Integer_p_0
-description: NSRoleEntity.SetUseCategories(Integer p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetUseCategories
+description: NSRoleEntity.SetUseCategories(Integer useCategories)
 intellisense: NSRoleEntity.SetUseCategories
-keywords: SetUseCategories(Integer)
+keywords: NSRoleEntity, GetUseCategories
 so.topic: reference
 ---
 
-
 Apply role category membership to users
 
-
-
-* **UseCategories:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **useCategories** Integer
 

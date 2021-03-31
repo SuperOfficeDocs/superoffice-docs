@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetAssignedByFullName_String_p_0
-description: NSAppointment.SetAssignedByFullName(String p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetAssignedByFullName
+description: NSAppointment.SetAssignedByFullName(String assignedByFullName)
 intellisense: NSAppointment.SetAssignedByFullName
-sortOrder: 772
-keywords: SetAssignedByFullName(String)
+keywords: NSAppointment, GetAssignedByFullName
 so.topic: reference
 ---
 
-
 The associate's culture formatted fullname (firstname, middleName and lastname)
 
-
-
-* **AssignedByFullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **assignedByFullName** String
 

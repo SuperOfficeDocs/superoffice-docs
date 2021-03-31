@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetName_String_p_0
-description: NSProduct.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetName
+description: NSProduct.SetName(String name)
 intellisense: NSProduct.SetName
-keywords: SetName(String)
+keywords: NSProduct, GetName
 so.topic: reference
 ---
 
-
 The name to use in the user interface.
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

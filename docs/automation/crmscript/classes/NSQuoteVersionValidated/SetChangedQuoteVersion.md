@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionValidated_SetChangedQuoteVersion_NSQuoteVersion_p_0
-description: NSQuoteVersionValidated.SetChangedQuoteVersion(NSQuoteVersion p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionValidated_SetChangedQuoteVersion
+description: NSQuoteVersionValidated.SetChangedQuoteVersion(QuoteVersion changedQuoteVersion)
 intellisense: NSQuoteVersionValidated.SetChangedQuoteVersion
-keywords: SetChangedQuoteVersion(NSQuoteVersion)
+keywords: NSQuoteVersionValidated, GetChangedQuoteVersion
 so.topic: reference
 ---
 
-
 The validated QuoteVersion
 
-
-
-* **ChangedQuoteVersion:** QuoteVersion
-* **Returns:** QuoteVersion
-
+**Parameter:** 
+ - **changedQuoteVersion** QuoteVersion
 

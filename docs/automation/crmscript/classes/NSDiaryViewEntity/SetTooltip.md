@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDiaryViewEntity_SetTooltip_String_p_0
-description: NSDiaryViewEntity.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSDiaryViewEntity_SetTooltip
+description: NSDiaryViewEntity.SetTooltip(String tooltip)
 intellisense: NSDiaryViewEntity.SetTooltip
-sortOrder: 2418
-keywords: SetTooltip(String)
+keywords: NSDiaryViewEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip/description of the DiaryView
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

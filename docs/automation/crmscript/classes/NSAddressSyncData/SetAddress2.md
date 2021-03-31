@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAddressSyncData_SetAddress2_String_p_0
-description: NSAddressSyncData.SetAddress2(String p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetAddress2
+description: NSAddressSyncData.SetAddress2(String address2)
 intellisense: NSAddressSyncData.SetAddress2
-sortOrder: 630
-keywords: SetAddress2(String)
+keywords: NSAddressSyncData, GetAddress2
 so.topic: reference
 ---
 
 
-* **Address2:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **address2** String
 

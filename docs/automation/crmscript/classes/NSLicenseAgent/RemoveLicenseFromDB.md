@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSLicenseAgent_RemoveLicenseFromDB_String_p_0
-description: NSLicenseAgent.RemoveLicenseFromDB(String p_0)
+﻿---
+title: crmscript_ref_NSLicenseAgent_RemoveLicenseFromDB
+description: LicenseResult RemoveLicenseFromDB(String moduleOwner)
 intellisense: NSLicenseAgent.RemoveLicenseFromDB
-keywords: RemoveLicenseFromDB(String)
+keywords: NSLicenseAgent,RemoveLicenseFromDB
 so.topic: reference
 ---
 
-
 Remove the license from a particular module owner from the database.  It is not permitted to remove licenses from SuperOffice
 
-
-
-* **moduleOwner:** Name of the module owner to remove license from.
-
-
+**Parameters:**
+ - **moduleOwner** Name of the module owner to remove license from.

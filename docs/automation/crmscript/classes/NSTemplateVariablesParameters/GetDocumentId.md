@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTemplateVariablesParameters_GetDocumentId
-description: NSTemplateVariablesParameters.GetDocumentId()
+description: Integer NSTemplateVariablesParameters.GetDocumentId()
 intellisense: NSTemplateVariablesParameters.GetDocumentId
-keywords: GetDocumentId()
+keywords: NSTemplateVariablesParameters, GetDocumentId
 so.topic: reference
 ---
 
-
 Identifier for a document
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

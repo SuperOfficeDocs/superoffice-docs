@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetSource_Integer_p_0
-description: NSListAgent.GetSource(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetSource
+description: NSSource GetSource(Integer sourceId);
 intellisense: NSListAgent.GetSource
-keywords: GetSource(Integer)
+keywords: NSListAgent,GetSource
 so.topic: reference
 ---
 
+Gets a NSSource object.
 
-Gets a Source object.
+**Parameters:**
+ - **sourceId** The identifier of the NSSource object
 
+**Returns:** NSSource
 
-
-* **sourceId:** The identifier of the Source object
-* **Returns:** Source
-
+```crmscript
+NSListAgent agent;
+NSSource thing = agent.GetSource(123);
+```
 

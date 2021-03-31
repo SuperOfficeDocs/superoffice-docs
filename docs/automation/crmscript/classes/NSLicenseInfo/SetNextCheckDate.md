@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLicenseInfo_SetNextCheckDate_DateTime_p_0
-description: NSLicenseInfo.SetNextCheckDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSLicenseInfo_SetNextCheckDate
+description: NSLicenseInfo.SetNextCheckDate(DateTime nextCheckDate)
 intellisense: NSLicenseInfo.SetNextCheckDate
-keywords: SetNextCheckDate(DateTime)
+keywords: NSLicenseInfo, GetNextCheckDate
 so.topic: reference
 ---
 
-
 When should the system next check with the license issuer
 
-
-
-* **NextCheckDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **nextCheckDate** DateTime
 

@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailConnectionInfoExtended_GetPort
-description: NSEMailConnectionInfoExtended.GetPort()
+description: Integer NSEMailConnectionInfoExtended.GetPort()
 intellisense: NSEMailConnectionInfoExtended.GetPort
-sortOrder: 2923
-keywords: GetPort()
+keywords: NSEMailConnectionInfoExtended, GetPort
 so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
 
 

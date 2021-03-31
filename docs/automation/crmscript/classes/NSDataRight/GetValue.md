@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDataRight_GetValue
-description: NSDataRight.GetValue()
+description: String NSDataRight.GetValue()
 intellisense: NSDataRight.GetValue
-sortOrder: 2345
-keywords: GetValue()
+keywords: NSDataRight, GetValue
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

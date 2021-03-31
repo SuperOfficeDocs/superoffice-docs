@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSCRMScriptAgent_ValidateScriptByIncludeId_String_p_0
-description: NSCRMScriptAgent.ValidateScriptByIncludeId(String p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptAgent_ValidateScriptByIncludeId
+description: CRMScriptResult ValidateScriptByIncludeId(String cRMScriptIncludeId)
 intellisense: NSCRMScriptAgent.ValidateScriptByIncludeId
-sortOrder: 2118
-keywords: ValidateScriptByIncludeId(String)
+keywords: NSCRMScriptAgent,ValidateScriptByIncludeId
 so.topic: reference
 ---
 
-
 Validate a CRMScript. This will check that the syntax is correct
 
+**Parameters:**
+ - **cRMScriptIncludeId** The include id of the CRMScript to validate
 
+**Returns:** True of the syntax is correct
 
-* **cRMScriptIncludeId:** The include id of the CRMScript to validate
-* **Returns:** True of the syntax is correct
-
+```crmscript
+NSCRMScriptAgent agent;
+String cRMScriptIncludeId;
+CRMScriptResult res = agent.ValidateScriptByIncludeId(cRMScriptIncludeId);
+```
 

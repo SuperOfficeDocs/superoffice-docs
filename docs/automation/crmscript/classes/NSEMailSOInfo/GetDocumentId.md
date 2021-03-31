@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailSOInfo_GetDocumentId
-description: NSEMailSOInfo.GetDocumentId()
+description: Integer NSEMailSOInfo.GetDocumentId()
 intellisense: NSEMailSOInfo.GetDocumentId
-sortOrder: 3048
-keywords: GetDocumentId()
+keywords: NSEMailSOInfo, GetDocumentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

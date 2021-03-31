@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetSalutation
-description: NSPersonEntity.GetSalutation()
+description: String NSPersonEntity.GetSalutation()
 intellisense: NSPersonEntity.GetSalutation
-keywords: GetSalutation()
+keywords: NSPersonEntity, GetSalutation
 so.topic: reference
 ---
 
-
 Academic title, populated from Salutation list but can be overwritten with anything at all
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

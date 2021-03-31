@@ -1,19 +1,23 @@
----
-title: crmscript_ref_NSForeignSystemAgent_SaveForeignDevice_NSForeignDevice_p_0_String_p_1
-description: NSForeignSystemAgent.SaveForeignDevice(NSForeignDevice p_0, String p_1)
+﻿---
+title: crmscript_ref_NSForeignSystemAgent_SaveForeignDevice
+description: ForeignDevice SaveForeignDevice(ForeignDevice foreignDevice, String applicationName)
 intellisense: NSForeignSystemAgent.SaveForeignDevice
-sortOrder: 3761
-keywords: SaveForeignDevice(NSForeignDevice,String)
+keywords: NSForeignSystemAgent,SaveForeignDevice
 so.topic: reference
 ---
 
-
 Saves a foreign device for an foreign application
 
+**Parameters:**
+ - **foreignDevice** Foreign device to save
+ - **applicationName** The name of the foreign application.
 
+**Returns:** Returns the saved foreign device
 
-* **foreignDevice:** Foreign device to save
-* **applicationName:** The name of the foreign application.
-* **Returns:** Returns the saved foreign device
-
+```crmscript
+NSForeignSystemAgent agent;
+ForeignDevice foreignDevice;
+String applicationName;
+ForeignDevice res = agent.SaveForeignDevice(foreignDevice, applicationName);
+```
 

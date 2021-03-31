@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantInfo_SetContactId_Integer_p_0
-description: NSParticipantInfo.SetContactId(Integer p_0)
+﻿---
+title: crmscript_ref_NSParticipantInfo_SetContactId
+description: NSParticipantInfo.SetContactId(Integer contactId)
 intellisense: NSParticipantInfo.SetContactId
-keywords: SetContactId(Integer)
+keywords: NSParticipantInfo, GetContactId
 so.topic: reference
 ---
 
-
 Contact id of the participant if the participant is an associate or person
 
-
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **contactId** Integer
 

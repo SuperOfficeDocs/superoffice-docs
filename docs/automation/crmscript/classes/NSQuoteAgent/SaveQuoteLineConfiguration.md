@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_SaveQuoteLineConfiguration_NSQuoteLineConfiguration_p_0
-description: NSQuoteAgent.SaveQuoteLineConfiguration(NSQuoteLineConfiguration p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_SaveQuoteLineConfiguration
+description: QuoteLineConfiguration SaveQuoteLineConfiguration(QuoteLineConfiguration quoteLineConfiguration)
 intellisense: NSQuoteAgent.SaveQuoteLineConfiguration
-keywords: SaveQuoteLineConfiguration(NSQuoteLineConfiguration)
+keywords: NSQuoteAgent,SaveQuoteLineConfiguration
 so.topic: reference
 ---
 
-
 Save a QuoteLineConfiguration object. It is not possible to add a new configuration.
 
+**Parameters:**
+ - **quoteLineConfiguration** The QuoteLineConfiguration to save.
 
+**Returns:** The saved QuoteLineConfiguration.
 
-* **quoteLineConfiguration:** The QuoteLineConfiguration to save.
-* **Returns:** The saved QuoteLineConfiguration.
-
+```crmscript
+NSQuoteAgent agent;
+QuoteLineConfiguration quoteLineConfiguration;
+QuoteLineConfiguration res = agent.SaveQuoteLineConfiguration(quoteLineConfiguration);
+```
 

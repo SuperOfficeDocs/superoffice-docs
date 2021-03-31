@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetPublishEventDate
-description: NSDocumentEntity.GetPublishEventDate()
+description: DateTime NSDocumentEntity.GetPublishEventDate()
 intellisense: NSDocumentEntity.GetPublishEventDate
-sortOrder: 2554
-keywords: GetPublishEventDate()
+keywords: NSDocumentEntity, GetPublishEventDate
 so.topic: reference
 ---
 
+Publish event date.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime
 

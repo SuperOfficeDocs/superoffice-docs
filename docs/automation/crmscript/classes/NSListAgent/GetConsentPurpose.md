@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetConsentPurpose_Integer_p_0
-description: NSListAgent.GetConsentPurpose(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetConsentPurpose
+description: NSConsentPurpose GetConsentPurpose(Integer consentPurposeId);
 intellisense: NSListAgent.GetConsentPurpose
-keywords: GetConsentPurpose(Integer)
+keywords: NSListAgent,GetConsentPurpose
 so.topic: reference
 ---
 
+Gets a NSConsentPurpose object.
 
-Gets a ConsentPurpose object.
+**Parameters:**
+ - **consentPurposeId** The identifier of the NSConsentPurpose object
 
+**Returns:** NSConsentPurpose
 
-
-* **consentPurposeId:** The identifier of the ConsentPurpose object
-* **Returns:** ConsentPurpose
-
+```crmscript
+NSListAgent agent;
+NSConsentPurpose thing = agent.GetConsentPurpose(123);
+```
 

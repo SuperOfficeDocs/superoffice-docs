@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetProjectName_String_p_0
-description: NSAlarmData.SetProjectName(String p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetProjectName
+description: NSAlarmData.SetProjectName(String projectName)
 intellisense: NSAlarmData.SetProjectName
-sortOrder: 688
-keywords: SetProjectName(String)
+keywords: NSAlarmData, GetProjectName
 so.topic: reference
 ---
 
-
 Project name
 
-
-
-* **ProjectName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **projectName** String
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSCustomerServiceAgent_SaveSmsConfig_NSSmsConfig_p_0
-description: NSCustomerServiceAgent.SaveSmsConfig(NSSmsConfig p_0)
+﻿---
+title: crmscript_ref_NSCustomerServiceAgent_SaveSmsConfig
+description: NSSmsConfig SaveSmsConfig(NSSmsConfig smsConfig);
 intellisense: NSCustomerServiceAgent.SaveSmsConfig
-sortOrder: 2236
-keywords: SaveSmsConfig(NSSmsConfig)
+keywords: NSCustomerServiceAgent,SaveSmsConfig
 so.topic: reference
 ---
+	  
+Updates the existing NSSmsConfig or creates a new NSSmsConfig if the id parameter is 0
+	  
+**Parameters**:
+ - **smsConfig** The NSSmsConfig to save.
 
+**Returns:** New or updated NSSmsConfig
 
-Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is empty
-
-
-
-* **smsConfig:** The SmsConfig that is saved
-* **Returns:** New or updated SmsConfig
-
+```crmscript
+NSCustomerService  agent;
+NSSmsConfig thing = agent.CreateDefaultSmsConfig();
+thing = agent.SaveSmsConfig(thing);
+```
 

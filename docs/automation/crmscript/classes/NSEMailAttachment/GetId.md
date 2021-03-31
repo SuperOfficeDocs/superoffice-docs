@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAttachment_GetId
-description: NSEMailAttachment.GetId()
+description: String NSEMailAttachment.GetId()
 intellisense: NSEMailAttachment.GetId
-sortOrder: 2898
-keywords: GetId()
+keywords: NSEMailAttachment, GetId
 so.topic: reference
 ---
 
-
 Content-ID
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

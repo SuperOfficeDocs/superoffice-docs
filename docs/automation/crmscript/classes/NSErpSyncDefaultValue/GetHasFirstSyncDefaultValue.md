@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncDefaultValue_GetHasFirstSyncDefaultValue
-description: NSErpSyncDefaultValue.GetHasFirstSyncDefaultValue()
+description: Bool NSErpSyncDefaultValue.GetHasFirstSyncDefaultValue()
 intellisense: NSErpSyncDefaultValue.GetHasFirstSyncDefaultValue
-sortOrder: 3251
-keywords: GetHasFirstSyncDefaultValue()
+keywords: NSErpSyncDefaultValue, GetHasFirstSyncDefaultValue
 so.topic: reference
 ---
 
-
 Should a default value be set on first sync
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

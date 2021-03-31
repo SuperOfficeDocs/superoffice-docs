@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTileOption_SetDescription_String_p_0
-description: NSDashboardTileOption.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSDashboardTileOption_SetDescription
+description: NSDashboardTileOption.SetDescription(String description)
 intellisense: NSDashboardTileOption.SetDescription
-sortOrder: 2326
-keywords: SetDescription(String)
+keywords: NSDashboardTileOption, GetDescription
 so.topic: reference
 ---
 
-
 Option description, visible to users
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetName_String_p_0
-description: NSRoleEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetName
+description: NSRoleEntity.SetName(String name)
 intellisense: NSRoleEntity.SetName
-keywords: SetName(String)
+keywords: NSRoleEntity, GetName
 so.topic: reference
 ---
 
-
 Visible role name
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

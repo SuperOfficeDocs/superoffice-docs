@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSListItemEntity_SetRank_Integer_p_0
-description: NSListItemEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSListItemEntity_SetRank
+description: NSListItemEntity.SetRank(Integer rank)
 intellisense: NSListItemEntity.SetRank
-keywords: SetRank(Integer)
+keywords: NSListItemEntity, GetRank
 so.topic: reference
 ---
 
-
 The rank of the list item
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

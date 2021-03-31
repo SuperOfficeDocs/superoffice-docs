@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPreferenceDescription_GetPrefDescId
-description: NSPreferenceDescription.GetPrefDescId()
+description: Integer NSPreferenceDescription.GetPrefDescId()
 intellisense: NSPreferenceDescription.GetPrefDescId
-keywords: GetPrefDescId()
+keywords: NSPreferenceDescription, GetPrefDescId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

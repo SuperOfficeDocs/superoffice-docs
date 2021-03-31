@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProject_Integer_p_0
-description: NSBLOBAgent.GetBlobEntityOnProject(Integer p_0)
+﻿---
+title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProject
+description: BlobEntity GetBlobEntityOnProject(Integer projectId)
 intellisense: NSBLOBAgent.GetBlobEntityOnProject
-sortOrder: 1414
-keywords: GetBlobEntityOnProject(Integer)
+keywords: NSBLOBAgent,GetBlobEntityOnProject
 so.topic: reference
 ---
 
-
 Gets the blob entity that represents the project image binary object.
 
+**Parameters:**
+ - **projectId** The project id
 
+**Returns:** BlobEntity object
 
-* **projectId:** The project id
-* **Returns:** BlobEntity object
-
+```crmscript
+NSBLOBAgent agent;
+Integer projectId;
+BlobEntity res = agent.GetBlobEntityOnProject(projectId);
+```
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailConnectionInfoExtended_GetUserName
-description: NSEMailConnectionInfoExtended.GetUserName()
+description: String NSEMailConnectionInfoExtended.GetUserName()
 intellisense: NSEMailConnectionInfoExtended.GetUserName
-sortOrder: 2928
-keywords: GetUserName()
+keywords: NSEMailConnectionInfoExtended, GetUserName
 so.topic: reference
 ---
 
-
 Name of user to log in with
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonSummary_GetChats
-description: NSPersonSummary.GetChats()
+description: ChatSummaryItemArray NSPersonSummary.GetChats()
 intellisense: NSPersonSummary.GetChats
-keywords: GetChats()
+keywords: NSPersonSummary, GetChats
 so.topic: reference
 ---
 
-
 Recent chats with person
 
-
-
-* **Returns:** ChatSummaryItemArray
+**Returns:** ChatSummaryItemArray
 
 

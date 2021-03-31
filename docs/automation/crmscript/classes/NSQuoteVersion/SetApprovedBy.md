@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersion_SetApprovedBy_Integer_p_0
-description: NSQuoteVersion.SetApprovedBy(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetApprovedBy
+description: NSQuoteVersion.SetApprovedBy(Integer approvedBy)
 intellisense: NSQuoteVersion.SetApprovedBy
-keywords: SetApprovedBy(Integer)
+keywords: NSQuoteVersion, GetApprovedBy
 so.topic: reference
 ---
 
-
 Id of associate who approved (or rejected approval) for this version
 
-
-
-* **ApprovedBy:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **approvedBy** Integer
 

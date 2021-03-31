@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetSaleType_Integer_p_0
-description: NSListAgent.GetSaleType(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetSaleType
+description: NSSaleType GetSaleType(Integer saleTypeId);
 intellisense: NSListAgent.GetSaleType
-keywords: GetSaleType(Integer)
+keywords: NSListAgent,GetSaleType
 so.topic: reference
 ---
 
+Gets a NSSaleType object.
 
-Gets a SaleType object.
+**Parameters:**
+ - **saleTypeId** The identifier of the NSSaleType object
 
+**Returns:** NSSaleType
 
-
-* **saleTypeId:** The identifier of the SaleType object
-* **Returns:** SaleType
-
+```crmscript
+NSListAgent agent;
+NSSaleType thing = agent.GetSaleType(123);
+```
 

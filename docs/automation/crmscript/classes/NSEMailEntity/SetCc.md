@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEntity_SetCc_NSEMailAddress__p_0
-description: NSEMailEntity.SetCc(NSEMailAddress[] p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetCc
+description: NSEMailEntity.SetCc(EMailAddressArray cc)
 intellisense: NSEMailEntity.SetCc
-sortOrder: 2977
-keywords: SetCc(NSEMailAddress[])
+keywords: NSEMailEntity, GetCc
 so.topic: reference
 ---
 
-
 Cc recipients of e-mail
 
-
-
-* **Cc:** EMailAddressArray
-* **Returns:** EMailAddressArray
-
+**Parameter:** 
+ - **cc** EMailAddressArray
 

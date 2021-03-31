@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRedLetterInformationListItem_SetRedLetterDetails_NSRedLetterDetails_p_0
-description: NSRedLetterInformationListItem.SetRedLetterDetails(NSRedLetterDetails p_0)
+﻿---
+title: crmscript_ref_NSRedLetterInformationListItem_SetRedLetterDetails
+description: NSRedLetterInformationListItem.SetRedLetterDetails(RedLetterDetails redLetterDetails)
 intellisense: NSRedLetterInformationListItem.SetRedLetterDetails
-keywords: SetRedLetterDetails(NSRedLetterDetails)
+keywords: NSRedLetterInformationListItem, GetRedLetterDetails
 so.topic: reference
 ---
 
-
 Red letter day text details, all the texts related to the given day.
 
-
-
-* **RedLetterDetails:** RedLetterDetails
-* **Returns:** RedLetterDetails
-
+**Parameter:** 
+ - **redLetterDetails** RedLetterDetails
 

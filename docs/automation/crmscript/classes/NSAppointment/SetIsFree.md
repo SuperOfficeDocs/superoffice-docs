@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetIsFree_Bool_p_0
-description: NSAppointment.SetIsFree(Bool p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetIsFree
+description: NSAppointment.SetIsFree(Bool isFree)
 intellisense: NSAppointment.SetIsFree
-sortOrder: 797
-keywords: SetIsFree(Bool)
+keywords: NSAppointment, GetIsFree
 so.topic: reference
 ---
 
-
 True if free, false if busy
 
-
-
-* **IsFree:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isFree** Bool
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSForeignSystemAgent_GetAppByName_String_p_0
-description: NSForeignSystemAgent.GetAppByName(String p_0)
+﻿---
+title: crmscript_ref_NSForeignSystemAgent_GetAppByName
+description: ForeignAppEntity GetAppByName(String applicationName)
 intellisense: NSForeignSystemAgent.GetAppByName
-sortOrder: 3753
-keywords: GetAppByName(String)
+keywords: NSForeignSystemAgent,GetAppByName
 so.topic: reference
 ---
 
-
 Gets the ForeignApp with the given name.
 
+**Parameters:**
+ - **applicationName** The name of the foreign application.
 
+**Returns:** The ForeignApp that matches the name.
 
-* **applicationName:** The name of the foreign application.
-* **Returns:** The ForeignApp that matches the name.
-
+```crmscript
+NSForeignSystemAgent agent;
+String applicationName;
+ForeignAppEntity res = agent.GetAppByName(applicationName);
+```
 

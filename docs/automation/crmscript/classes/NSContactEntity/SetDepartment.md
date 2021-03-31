@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetDepartment_String_p_0
-description: NSContactEntity.SetDepartment(String p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetDepartment
+description: NSContactEntity.SetDepartment(String department)
 intellisense: NSContactEntity.SetDepartment
-sortOrder: 1894
-keywords: SetDepartment(String)
+keywords: NSContactEntity, GetDepartment
 so.topic: reference
 ---
 
-
 Department
 
-
-
-* **Department:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **department** String
 

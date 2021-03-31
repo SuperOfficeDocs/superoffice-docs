@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSControlInfo_GetListLeadText
-description: NSControlInfo.GetListLeadText()
+description: String NSControlInfo.GetListLeadText()
 intellisense: NSControlInfo.GetListLeadText
-sortOrder: 1998
-keywords: GetListLeadText()
+keywords: NSControlInfo, GetListLeadText
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

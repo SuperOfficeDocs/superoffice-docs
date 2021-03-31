@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSReportEntity_GetPublished
-description: NSReportEntity.GetPublished()
+description: Bool NSReportEntity.GetPublished()
 intellisense: NSReportEntity.GetPublished
-keywords: GetPublished()
+keywords: NSReportEntity, GetPublished
 so.topic: reference
 ---
 
-
 Is the report published?
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

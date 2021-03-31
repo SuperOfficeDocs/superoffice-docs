@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetRating_NSRating_p_0
-description: NSSaleEntity.SetRating(NSRating p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetRating
+description: NSSaleEntity.SetRating(Rating rating)
 intellisense: NSSaleEntity.SetRating
-keywords: SetRating(NSRating)
+keywords: NSSaleEntity, GetRating
 so.topic: reference
 ---
 
-
 The sale rating
 
-
-
-* **Rating:** Rating
-* **Returns:** Rating
-
+**Parameter:** 
+ - **rating** Rating
 

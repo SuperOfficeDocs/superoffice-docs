@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetNumMessages_Integer_p_0
-description: NSTicket.SetNumMessages(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetNumMessages
+description: NSTicket.SetNumMessages(Integer numMessages)
 intellisense: NSTicket.SetNumMessages
-keywords: SetNumMessages(Integer)
+keywords: NSTicket, GetNumMessages
 so.topic: reference
 ---
 
-
 The total number of messages for this request.
 
-
-
-* **NumMessages:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **numMessages** Integer
 

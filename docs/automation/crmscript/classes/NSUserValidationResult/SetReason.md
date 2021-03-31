@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSUserValidationResult_SetReason_String_p_0
-description: NSUserValidationResult.SetReason(String p_0)
+﻿---
+title: crmscript_ref_NSUserValidationResult_SetReason
+description: NSUserValidationResult.SetReason(String reason)
 intellisense: NSUserValidationResult.SetReason
-keywords: SetReason(String)
+keywords: NSUserValidationResult, GetReason
 so.topic: reference
 ---
 
 
-* **Reason:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **reason** String
 

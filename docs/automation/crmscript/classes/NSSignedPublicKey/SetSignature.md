@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSignedPublicKey_SetSignature_String_p_0
-description: NSSignedPublicKey.SetSignature(String p_0)
+﻿---
+title: crmscript_ref_NSSignedPublicKey_SetSignature
+description: NSSignedPublicKey.SetSignature(String signature)
 intellisense: NSSignedPublicKey.SetSignature
-keywords: SetSignature(String)
+keywords: NSSignedPublicKey, GetSignature
 so.topic: reference
 ---
 
-
 Signature - Base64 encoded value
 
-
-
-* **Signature:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **signature** String
 

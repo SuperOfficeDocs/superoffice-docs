@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSListEntity_SetIsCustomList_Bool_p_0
-description: NSListEntity.SetIsCustomList(Bool p_0)
+﻿---
+title: crmscript_ref_NSListEntity_SetIsCustomList
+description: NSListEntity.SetIsCustomList(Bool isCustomList)
 intellisense: NSListEntity.SetIsCustomList
-keywords: SetIsCustomList(Bool)
+keywords: NSListEntity, GetIsCustomList
 so.topic: reference
 ---
 
-
 Indicates if this is a custom list or a standard list
 
-
-
-* **IsCustomList:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isCustomList** Bool
 

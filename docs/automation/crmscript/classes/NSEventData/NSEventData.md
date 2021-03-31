@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSEventData
 description: NSEventData
 intellisense: Void.NSEventData
-sortOrder: 3337
+keywords: NSEventData
 so.topic: reference
 ---
 
-
 EventData containing data related to event handlers
 
-
-
-
-1. autolist
+1. autolist 
 

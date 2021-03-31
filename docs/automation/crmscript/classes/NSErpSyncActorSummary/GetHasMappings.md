@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncActorSummary_GetHasMappings
-description: NSErpSyncActorSummary.GetHasMappings()
+description: Bool NSErpSyncActorSummary.GetHasMappings()
 intellisense: NSErpSyncActorSummary.GetHasMappings
-sortOrder: 3152
-keywords: GetHasMappings()
+keywords: NSErpSyncActorSummary, GetHasMappings
 so.topic: reference
 ---
 
-
 Does this actor type have field mappings
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

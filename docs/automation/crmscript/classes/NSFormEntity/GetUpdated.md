@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetUpdated
-description: NSFormEntity.GetUpdated()
+description: DateTime NSFormEntity.GetUpdated()
 intellisense: NSFormEntity.GetUpdated
-sortOrder: 3788
-keywords: GetUpdated()
+keywords: NSFormEntity, GetUpdated
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

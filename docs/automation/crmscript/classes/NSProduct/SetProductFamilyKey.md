@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetProductFamilyKey_String_p_0
-description: NSProduct.SetProductFamilyKey(String p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetProductFamilyKey
+description: NSProduct.SetProductFamilyKey(String productFamilyKey)
 intellisense: NSProduct.SetProductFamilyKey
-keywords: SetProductFamilyKey(String)
+keywords: NSProduct, GetProductFamilyKey
 so.topic: reference
 ---
 
-
 Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family.
 
-
-
-* **ProductFamilyKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **productFamilyKey** String
 

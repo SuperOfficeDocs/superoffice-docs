@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetDbiAgentId
-description: NSPersonEntity.GetDbiAgentId()
+description: Integer NSPersonEntity.GetDbiAgentId()
 intellisense: NSPersonEntity.GetDbiAgentId
-keywords: GetDbiAgentId()
+keywords: NSPersonEntity, GetDbiAgentId
 so.topic: reference
 ---
 
-
 Integration agent (eJournal)
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

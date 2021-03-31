@@ -1,17 +1,12 @@
----
-title: crmscript_ref_NSAppointmentAgent_CreateDefaultRecurrenceByDate_DateTime_p_0
-description: NSAppointmentAgent.CreateDefaultRecurrenceByDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_CreateDefaultRecurrenceByDate
+description: RecurrenceInfo CreateDefaultRecurrenceByDate(DateTime startDate)
 intellisense: NSAppointmentAgent.CreateDefaultRecurrenceByDate
-sortOrder: 893
-keywords: CreateDefaultRecurrenceByDate(DateTime)
+keywords: NSAppointmentAgent,CreateDefaultRecurrenceByDate
 so.topic: reference
 ---
 
-
 Creates a RecurrenceInfo object populated with the default values for the specific type. Using startDate as start date for the recurreing pattern.
 
-
-
-* **startDate:** Date of which the recurring pattern should start.
-
-
+**Parameters:**
+ - **startDate** Date of which the recurring pattern should start.

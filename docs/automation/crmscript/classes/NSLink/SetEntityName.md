@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLink_SetEntityName_String_p_0
-description: NSLink.SetEntityName(String p_0)
+﻿---
+title: crmscript_ref_NSLink_SetEntityName
+description: NSLink.SetEntityName(String entityName)
 intellisense: NSLink.SetEntityName
-keywords: SetEntityName(String)
+keywords: NSLink, GetEntityName
 so.topic: reference
 ---
 
-
 Name of the entity the link points to (The destination/target entity)
 
-
-
-* **EntityName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **entityName** String
 

@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTile_GetVisibleFor
-description: NSDashboardTile.GetVisibleFor()
+description: VisibleForArray NSDashboardTile.GetVisibleFor()
 intellisense: NSDashboardTile.GetVisibleFor
-sortOrder: 2301
-keywords: GetVisibleFor()
+keywords: NSDashboardTile, GetVisibleFor
 so.topic: reference
 ---
 
+Return the usergroups and/or users the item is visible for.
 
-* **Returns:** VisibleForArray
-
+**Returns:** Visible for array.
 

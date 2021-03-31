@@ -1,17 +1,19 @@
----
-title: crmscript_ref_NSSelectionEntity_SetSelectionUnionType_Integer_p_0
-description: NSSelectionEntity.SetSelectionUnionType(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetSelectionUnionType
+description: NSSelectionEntity.SetSelectionUnionType(Integer selectionUnionType)
 intellisense: NSSelectionEntity.SetSelectionUnionType
-keywords: SetSelectionUnionType(Integer)
+keywords: NSSelectionEntity, GetSelectionUnionType
 so.topic: reference
 ---
 
-
 How to combine the two selections when SelectionType = Combined.
 
-
-
-* **SelectionUnionType:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **selectionUnionType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = SubtractRightFromLeft 
+     - Enum: 2 = SubtractLeftFromRight 
+     - Enum: 3 = Intersect 
+     - Enum: 4 = XOR 
+     - Enum: 5 = Union 
 

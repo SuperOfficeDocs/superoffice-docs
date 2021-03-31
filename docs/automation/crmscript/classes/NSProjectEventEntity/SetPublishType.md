@@ -1,13 +1,15 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetPublishType_Integer_p_0
-description: NSProjectEventEntity.SetPublishType(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetPublishType
+description: NSProjectEventEntity.SetPublishType(PublishType publishType)
 intellisense: NSProjectEventEntity.SetPublishType
-keywords: SetPublishType(Integer)
+keywords: NSProjectEventEntity, GetPublishType
 so.topic: reference
 ---
 
-
 Type of publishing action, 0 = Unknown, 1 = to external persons
 
-* **p_0:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **publishType** PublishType
+     - Enum: 0 = Undefined 
+     - Enum: 1 = External 
+

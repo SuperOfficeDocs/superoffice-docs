@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetCreatedDate_DateTime_p_0
-description: NSPersonEntity.SetCreatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetCreatedDate
+description: NSPersonEntity.SetCreatedDate(DateTime createdDate)
 intellisense: NSPersonEntity.SetCreatedDate
-keywords: SetCreatedDate(DateTime)
+keywords: NSPersonEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered date
 
-
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdDate** DateTime
 

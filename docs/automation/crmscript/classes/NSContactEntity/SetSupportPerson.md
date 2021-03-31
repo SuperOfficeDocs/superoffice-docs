@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetSupportPerson_NSPerson_p_0
-description: NSContactEntity.SetSupportPerson(NSPerson p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetSupportPerson
+description: NSContactEntity.SetSupportPerson(Person supportPerson)
 intellisense: NSContactEntity.SetSupportPerson
-sortOrder: 1911
-keywords: SetSupportPerson(NSPerson)
+keywords: NSContactEntity, GetSupportPerson
 so.topic: reference
 ---
 
 
-* **SupportPerson:** Person
-* **Returns:** Person
 
+**Parameter:** 
+ - **supportPerson** Person
 

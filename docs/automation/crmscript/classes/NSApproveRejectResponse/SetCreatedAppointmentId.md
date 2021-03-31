@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSApproveRejectResponse_SetCreatedAppointmentId_Integer_p_0
-description: NSApproveRejectResponse.SetCreatedAppointmentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSApproveRejectResponse_SetCreatedAppointmentId
+description: NSApproveRejectResponse.SetCreatedAppointmentId(Integer createdAppointmentId)
 intellisense: NSApproveRejectResponse.SetCreatedAppointmentId
-sortOrder: 1096
-keywords: SetCreatedAppointmentId(Integer)
+keywords: NSApproveRejectResponse, GetCreatedAppointmentId
 so.topic: reference
 ---
 
-
 Id of the created follow up.
 
-
-
-* **CreatedAppointmentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **createdAppointmentId** Integer
 

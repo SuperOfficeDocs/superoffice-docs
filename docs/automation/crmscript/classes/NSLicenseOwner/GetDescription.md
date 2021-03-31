@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLicenseOwner_GetDescription
-description: NSLicenseOwner.GetDescription()
+description: String NSLicenseOwner.GetDescription()
 intellisense: NSLicenseOwner.GetDescription
-keywords: GetDescription()
+keywords: NSLicenseOwner, GetDescription
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

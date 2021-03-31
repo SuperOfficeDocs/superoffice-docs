@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSProductFamily_SetId_Integer_p_0
-description: NSProductFamily.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProductFamily_SetId
+description: NSProductFamily.SetId(Integer id)
 intellisense: NSProductFamily.SetId
-keywords: SetId(Integer)
+keywords: NSProductFamily, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

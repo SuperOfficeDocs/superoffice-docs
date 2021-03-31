@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoDynamicLink
 description: NSFieldInfoDynamicLink
 intellisense: Void.NSFieldInfoDynamicLink
-sortOrder: 3509
+keywords: NSFieldInfoDynamicLink
 so.topic: reference
 ---
 
+Dynamic Link custom database field. Links are resolved indirectly via by CS.
 
-Dynamic Link custom database field.
-
-
-
-
-1. autolist
+1. autolist 
 

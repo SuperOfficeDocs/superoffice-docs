@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetLocation_String_p_0
-description: NSAppointment.SetLocation(String p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetLocation
+description: NSAppointment.SetLocation(String location)
 intellisense: NSAppointment.SetLocation
-sortOrder: 800
-keywords: SetLocation(String)
+keywords: NSAppointment, GetLocation
 so.topic: reference
 ---
 
-
 Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here
 
-
-
-* **Location:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **location** String
 

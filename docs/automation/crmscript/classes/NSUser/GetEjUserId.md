@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUser_GetEjUserId
-description: NSUser.GetEjUserId()
+description: Integer NSUser.GetEjUserId()
 intellisense: NSUser.GetEjUserId
-keywords: GetEjUserId()
+keywords: NSUser, GetEjUserId
 so.topic: reference
 ---
 
-
 ID of the ej user record corresponding to this associate; 0 for associates that are not ej users
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

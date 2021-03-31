@@ -1,13 +1,10 @@
----
+﻿---
 title: crmscript_ref_NSDiagnosticsAgent_FlushCaches
-description: NSDiagnosticsAgent.FlushCaches()
+description: Void FlushCaches()
 intellisense: NSDiagnosticsAgent.FlushCaches
-sortOrder: 2399
-keywords: FlushCaches()
+keywords: NSDiagnosticsAgent,FlushCaches
 so.topic: reference
 ---
 
-
 Flushes all NetServer caches
-
 

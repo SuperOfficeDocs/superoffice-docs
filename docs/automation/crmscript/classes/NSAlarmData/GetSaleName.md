@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAlarmData_GetSaleName
-description: NSAlarmData.GetSaleName()
+description: String NSAlarmData.GetSaleName()
 intellisense: NSAlarmData.GetSaleName
-sortOrder: 666
-keywords: GetSaleName()
+keywords: NSAlarmData, GetSaleName
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

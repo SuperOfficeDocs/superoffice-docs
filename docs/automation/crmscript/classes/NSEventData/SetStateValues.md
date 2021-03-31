@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEventData_SetStateValues_StringDictionary_p_0
-description: NSEventData.SetStateValues(StringDictionary p_0)
+﻿---
+title: crmscript_ref_NSEventData_SetStateValues
+description: NSEventData.SetStateValues(StringDictionary stateValues)
 intellisense: NSEventData.SetStateValues
-sortOrder: 3353
-keywords: SetStateValues(StringDictionary)
+keywords: NSEventData, GetStateValues
 so.topic: reference
 ---
 
-
 Values kept between event handlers
 
-
-
-* **StateValues:** StringDictionary
-* **Returns:** StringDictionary
-
+**Parameter:** 
+ - **stateValues** StringDictionary
 

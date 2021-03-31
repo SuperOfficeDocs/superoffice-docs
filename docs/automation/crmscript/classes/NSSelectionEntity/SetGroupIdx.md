@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetGroupIdx_Integer_p_0
-description: NSSelectionEntity.SetGroupIdx(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetGroupIdx
+description: NSSelectionEntity.SetGroupIdx(Integer groupIdx)
 intellisense: NSSelectionEntity.SetGroupIdx
-keywords: SetGroupIdx(Integer)
+keywords: NSSelectionEntity, GetGroupIdx
 so.topic: reference
 ---
 
-
 Original primary user group of associate
 
-
-
-* **GroupIdx:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **groupIdx** Integer
 

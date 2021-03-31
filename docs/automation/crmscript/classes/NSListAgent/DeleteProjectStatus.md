@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_DeleteProjectStatus_Integer_p_0
-description: NSListAgent.DeleteProjectStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_DeleteProjectStatus
+description: Void DeleteProjectStatus(Integer projectStatusId)
 intellisense: NSListAgent.DeleteProjectStatus
-keywords: DeleteProjectStatus(Integer)
+keywords: NSListAgent,DeleteProjectStatus
 so.topic: reference
 ---
 
-
 Deletes a project status
 
+**Parameters:**
+ - **projectStatusId** The project status id to delete
 
+**Returns:** No return
 
-* **projectStatusId:** The project status id to delete
-* **Returns:** No return
-
+```crmscript
+NSListAgent agent;
+Integer projectStatusId;
+Void res = agent.DeleteProjectStatus(projectStatusId);
+```
 

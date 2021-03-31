@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketMessageEntity_SetEmailHeader_String_p_0
-description: NSTicketMessageEntity.SetEmailHeader(String p_0)
+﻿---
+title: crmscript_ref_NSTicketMessageEntity_SetEmailHeader
+description: NSTicketMessageEntity.SetEmailHeader(String emailHeader)
 intellisense: NSTicketMessageEntity.SetEmailHeader
-keywords: SetEmailHeader(String)
+keywords: NSTicketMessageEntity, GetEmailHeader
 so.topic: reference
 ---
 
-
 The email header is saved in this field as raw text
 
-
-
-* **EmailHeader:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **emailHeader** String
 

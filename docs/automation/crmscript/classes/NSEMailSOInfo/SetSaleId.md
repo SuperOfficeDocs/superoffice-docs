@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailSOInfo_SetSaleId_Integer_p_0
-description: NSEMailSOInfo.SetSaleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailSOInfo_SetSaleId
+description: NSEMailSOInfo.SetSaleId(Integer saleId)
 intellisense: NSEMailSOInfo.SetSaleId
-sortOrder: 3059
-keywords: SetSaleId(Integer)
+keywords: NSEMailSOInfo, GetSaleId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleId** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSResourceEntity_SetDeleted_Bool_p_0
-description: NSResourceEntity.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSResourceEntity_SetDeleted
+description: NSResourceEntity.SetDeleted(Bool deleted)
 intellisense: NSResourceEntity.SetDeleted
-keywords: SetDeleted(Bool)
+keywords: NSResourceEntity, GetDeleted
 so.topic: reference
 ---
 
-
 If true, the resource is deleted.
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

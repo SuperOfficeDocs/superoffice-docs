@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncFieldValue_GetDisplayValue
-description: NSErpSyncFieldValue.GetDisplayValue()
+description: String NSErpSyncFieldValue.GetDisplayValue()
 intellisense: NSErpSyncFieldValue.GetDisplayValue
-sortOrder: 3329
-keywords: GetDisplayValue()
+keywords: NSErpSyncFieldValue, GetDisplayValue
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

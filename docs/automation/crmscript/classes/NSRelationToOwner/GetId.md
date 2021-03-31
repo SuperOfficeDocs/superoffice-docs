@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSRelationToOwner_GetId
-description: NSRelationToOwner.GetId()
+description: Integer NSRelationToOwner.GetId()
 intellisense: NSRelationToOwner.GetId
-keywords: GetId()
+keywords: NSRelationToOwner, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantInfo_SetPersonId_Integer_p_0
-description: NSParticipantInfo.SetPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSParticipantInfo_SetPersonId
+description: NSParticipantInfo.SetPersonId(Integer personId)
 intellisense: NSParticipantInfo.SetPersonId
-keywords: SetPersonId(Integer)
+keywords: NSParticipantInfo, GetPersonId
 so.topic: reference
 ---
 
-
 Person id of the participant if the participant is a person
 
-
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **personId** Integer
 

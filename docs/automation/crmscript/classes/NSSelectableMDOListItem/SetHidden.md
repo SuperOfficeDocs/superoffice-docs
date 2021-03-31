@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetHidden_Bool_p_0
-description: NSSelectableMDOListItem.SetHidden(Bool p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetHidden
+description: NSSelectableMDOListItem.SetHidden(Bool hidden)
 intellisense: NSSelectableMDOListItem.SetHidden
-keywords: SetHidden(Bool)
+keywords: NSSelectableMDOListItem, GetHidden
 so.topic: reference
 ---
 
-
 True if the ListItem is hidden
 
-
-
-* **Hidden:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **hidden** Bool
 

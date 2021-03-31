@@ -1,21 +1,13 @@
----
-title: crmscript_ref_NSReportEntity_SetReportId_Integer_p_0
-description: NSReportEntity.SetReportId(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportEntity_SetReportId
+description: NSReportEntity.SetReportId(Integer reportId)
 intellisense: NSReportEntity.SetReportId
-keywords: SetReportId(Integer)
+keywords: NSReportEntity, GetReportId
 so.topic: reference
 ---
 
+The id of the report. 
 
-The id of the report.
-
-
-    	///
-    
-
-
-
-* **ReportId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **reportId** Integer
 

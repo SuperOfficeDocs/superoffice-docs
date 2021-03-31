@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPriceList_SetCurrency_String_p_0
-description: NSPriceList.SetCurrency(String p_0)
+﻿---
+title: crmscript_ref_NSPriceList_SetCurrency
+description: NSPriceList.SetCurrency(String currency)
 intellisense: NSPriceList.SetCurrency
-keywords: SetCurrency(String)
+keywords: NSPriceList, GetCurrency
 so.topic: reference
 ---
 
-
 The iso currency code, like 'USD' or 'NOK'.
 
-
-
-* **Currency:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **currency** String
 

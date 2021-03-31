@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetDbiKey
-description: NSPersonEntity.GetDbiKey()
+description: String NSPersonEntity.GetDbiKey()
 intellisense: NSPersonEntity.GetDbiKey
-keywords: GetDbiKey()
+keywords: NSPersonEntity, GetDbiKey
 so.topic: reference
 ---
 
-
 The primary key for the integrated entry in the external datasource.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

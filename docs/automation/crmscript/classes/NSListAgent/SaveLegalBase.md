@@ -1,12 +1,12 @@
----
-title: crmscript_ref_NSListAgent_SaveLegalBase_NSLegalBase_p_0
-description: NSListAgent.SaveLegalBase(NSLegalBase p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveLegalBase
+description: LegalBase SaveLegalBase(LegalBase legalBase)
 intellisense: NSListAgent.SaveLegalBase
-keywords: SaveLegalBase(NSLegalBase)
+keywords: NSListAgent,SaveLegalBase
 so.topic: reference
 ---
 
 
-* **legalBase**
 
-
+**Parameters:**
+ - **legalBase** 

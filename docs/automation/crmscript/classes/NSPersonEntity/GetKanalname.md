@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetKanalname
-description: NSPersonEntity.GetKanalname()
+description: String NSPersonEntity.GetKanalname()
 intellisense: NSPersonEntity.GetKanalname
-keywords: GetKanalname()
+keywords: NSPersonEntity, GetKanalname
 so.topic: reference
 ---
 
-
 Kana last name, used in Japanese versions only
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSResourceEntity_SetName_String_p_0
-description: NSResourceEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSResourceEntity_SetName
+description: NSResourceEntity.SetName(String name)
 intellisense: NSResourceEntity.SetName
-keywords: SetName(String)
+keywords: NSResourceEntity, GetName
 so.topic: reference
 ---
 
-
 Initials, also login name, possibly database user name
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

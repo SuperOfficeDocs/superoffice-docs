@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDiaryViewEntity_GetVisibleColumns
-description: NSDiaryViewEntity.GetVisibleColumns()
+description: Integer NSDiaryViewEntity.GetVisibleColumns()
 intellisense: NSDiaryViewEntity.GetVisibleColumns
-sortOrder: 2409
-keywords: GetVisibleColumns()
+keywords: NSDiaryViewEntity, GetVisibleColumns
 so.topic: reference
 ---
 
-
 Number of columns that should be visible simultanously.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

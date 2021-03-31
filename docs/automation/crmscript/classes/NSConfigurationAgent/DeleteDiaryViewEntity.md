@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSConfigurationAgent_DeleteDiaryViewEntity_Integer_p_0
-description: NSConfigurationAgent.DeleteDiaryViewEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSConfigurationAgent_DeleteDiaryViewEntity
+description: DeleteDiaryViewEntity(Integer diaryViewEntity);
 intellisense: NSConfigurationAgent.DeleteDiaryViewEntity
-sortOrder: 1622
-keywords: DeleteDiaryViewEntity(Integer)
+keywords: NSConfigurationAgent,DeleteDiaryViewEntity
 so.topic: reference
 ---
 
+Deletes the NSDiaryViewEntity
+  
+**Parameters:**
+ - **diaryViewEntityId** The identity of the DiaryViewEntity to delete.
 
-Deletes the DiaryViewEntity
-
-
-
-* **diaryViewEntityId:** The identity of the DiaryViewEntity
-
+```crmscript
+NSConfigurationAgent agent;
+agent.DeleteDiaryViewEntity(123);
+```
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleStakeholder_GetSaleId
-description: NSSaleStakeholder.GetSaleId()
+description: Integer NSSaleStakeholder.GetSaleId()
 intellisense: NSSaleStakeholder.GetSaleId
-keywords: GetSaleId()
+keywords: NSSaleStakeholder, GetSaleId
 so.topic: reference
 ---
 
-
 Parent sale
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

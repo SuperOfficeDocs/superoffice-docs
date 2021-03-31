@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetBusiness_Integer_p_0
-description: NSListAgent.GetBusiness(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetBusiness
+description: NSBusiness GetBusiness(Integer businessId);
 intellisense: NSListAgent.GetBusiness
-keywords: GetBusiness(Integer)
+keywords: NSListAgent,GetBusiness
 so.topic: reference
 ---
 
+Gets a NSBusiness object.
 
-Gets a Business object.
+**Parameters:**
+ - **businessId** The identifier of the NSBusiness object
 
+**Returns:** NSBusiness
 
-
-* **businessId:** The identifier of the Business object
-* **Returns:** Business
-
+```crmscript
+NSListAgent agent;
+NSBusiness thing = agent.GetBusiness(123);
+```
 

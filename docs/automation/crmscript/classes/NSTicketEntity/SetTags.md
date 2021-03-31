@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetTags_NSTag__p_0
-description: NSTicketEntity.SetTags(NSTag[] p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetTags
+description: NSTicketEntity.SetTags(TagArray tags)
 intellisense: NSTicketEntity.SetTags
-keywords: SetTags(NSTag[])
+keywords: NSTicketEntity, GetTags
 so.topic: reference
 ---
 
-
 An array containing the tags assigned to this request
 
-
-
-* **Tags:** TagArray
-* **Returns:** TagArray
-
+**Parameter:** 
+ - **tags** TagArray
 

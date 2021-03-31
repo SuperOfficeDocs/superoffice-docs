@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldValueInfo_GetDisplayValues
-description: NSFieldValueInfo.GetDisplayValues()
+description: StringArray NSFieldValueInfo.GetDisplayValues()
 intellisense: NSFieldValueInfo.GetDisplayValues
-sortOrder: 3632
-keywords: GetDisplayValues()
+keywords: NSFieldValueInfo, GetDisplayValues
 so.topic: reference
 ---
 
-
 The displayvalues to be set on this field on this bulkupdate, used to resolve when values array contains ids
 
-
-
-* **Returns:** StringArray
+**Returns:** StringArray
 
 

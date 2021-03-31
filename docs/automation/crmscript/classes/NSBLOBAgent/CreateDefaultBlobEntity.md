@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSBLOBAgent_CreateDefaultBlobEntity
-description: NSBLOBAgent.CreateDefaultBlobEntity()
+description: NSBlobEntity CreateDefaultBlobEntity()
 intellisense: NSBLOBAgent.CreateDefaultBlobEntity
-sortOrder: 1409
-keywords: CreateDefaultBlobEntity()
+keywords: NSBLOBAgent,CreateDefaultBlobEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSBlobEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSBlobEntity with default values.
 
-
-Loading default values into a new BlobEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New BlobEntity with default values
-
+```crmscript
+NSBLOBAgent agent;
+NSBlobEntity thing = agent.CreateDefaultBlobEntity();
+thing = agent.SaveBlobEntity(thing);
+```
 

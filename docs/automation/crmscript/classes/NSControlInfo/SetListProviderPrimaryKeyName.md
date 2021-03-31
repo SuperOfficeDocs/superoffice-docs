@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSControlInfo_SetListProviderPrimaryKeyName_String_p_0
-description: NSControlInfo.SetListProviderPrimaryKeyName(String p_0)
+﻿---
+title: crmscript_ref_NSControlInfo_SetListProviderPrimaryKeyName
+description: NSControlInfo.SetListProviderPrimaryKeyName(String listProviderPrimaryKeyName)
 intellisense: NSControlInfo.SetListProviderPrimaryKeyName
-sortOrder: 2008
-keywords: SetListProviderPrimaryKeyName(String)
+keywords: NSControlInfo, GetListProviderPrimaryKeyName
 so.topic: reference
 ---
 
 
-* **ListProviderPrimaryKeyName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **listProviderPrimaryKeyName** String
 

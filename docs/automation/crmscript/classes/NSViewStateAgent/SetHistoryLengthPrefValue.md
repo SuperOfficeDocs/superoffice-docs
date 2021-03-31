@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSViewStateAgent_SetHistoryLengthPrefValue_Integer_p_0
-description: NSViewStateAgent.SetHistoryLengthPrefValue(Integer p_0)
+﻿---
+title: crmscript_ref_NSViewStateAgent_SetHistoryLengthPrefValue
+description: Void SetHistoryLengthPrefValue(Integer length)
 intellisense: NSViewStateAgent.SetHistoryLengthPrefValue
-keywords: SetHistoryLengthPrefValue(Integer)
+keywords: NSViewStateAgent,SetHistoryLengthPrefValue
 so.topic: reference
 ---
 
-
 Set the logged on user's preferred history list length.
 
-
-
-* **length:** The new history list lenght
-
-
+**Parameters:**
+ - **length** The new history list lenght

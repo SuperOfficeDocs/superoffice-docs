@@ -1,19 +1,23 @@
----
-title: crmscript_ref_NSCustomerServiceAgent_AddMessageFromMailData_Integer_p_0_String_p_1
-description: NSCustomerServiceAgent.AddMessageFromMailData(Integer p_0, String p_1)
+﻿---
+title: crmscript_ref_NSCustomerServiceAgent_AddMessageFromMailData
+description: TicketInfo AddMessageFromMailData(Integer ticketId, String data)
 intellisense: NSCustomerServiceAgent.AddMessageFromMailData
-sortOrder: 2240
-keywords: AddMessageFromMailData(Integer,String)
+keywords: NSCustomerServiceAgent,AddMessageFromMailData
 so.topic: reference
 ---
 
-
 This method will add a message to an existing request in the sam way as importMail would do it from an email. It accepts RFC822 formatted data
 
+**Parameters:**
+ - **ticketId** The id of the ticket to add a message
+ - **data** RFC822 formatted data to import as a message
 
+**Returns:** An object containing some meta data for the ticket
 
-* **ticketId:** The id of the ticket to add a message
-* **data:** RFC822 formatted data to import as a message
-* **Returns:** An object containing some meta data for the ticket
-
+```crmscript
+NSCustomerServiceAgent agent;
+Integer ticketId;
+String data;
+TicketInfo res = agent.AddMessageFromMailData(ticketId, data);
+```
 

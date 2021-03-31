@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCRMScriptEntity_SetHierarchyId_Integer_p_0
-description: NSCRMScriptEntity.SetHierarchyId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptEntity_SetHierarchyId
+description: NSCRMScriptEntity.SetHierarchyId(Integer hierarchyId)
 intellisense: NSCRMScriptEntity.SetHierarchyId
-sortOrder: 2140
-keywords: SetHierarchyId(Integer)
+keywords: NSCRMScriptEntity, GetHierarchyId
 so.topic: reference
 ---
 
-
 The script is inside this hierarchy folder
 
-
-
-* **HierarchyId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **hierarchyId** Integer
 

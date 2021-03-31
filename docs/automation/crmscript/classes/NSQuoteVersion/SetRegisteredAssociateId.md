@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersion_SetRegisteredAssociateId_Integer_p_0
-description: NSQuoteVersion.SetRegisteredAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetRegisteredAssociateId
+description: NSQuoteVersion.SetRegisteredAssociateId(Integer registeredAssociateId)
 intellisense: NSQuoteVersion.SetRegisteredAssociateId
-keywords: SetRegisteredAssociateId(Integer)
+keywords: NSQuoteVersion, GetRegisteredAssociateId
 so.topic: reference
 ---
 
-
 Registered by whom
 
-
-
-* **RegisteredAssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **registeredAssociateId** Integer
 

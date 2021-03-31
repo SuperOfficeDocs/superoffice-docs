@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetCreatedBy_NSAssociate_p_0
-description: NSRoleEntity.SetCreatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetCreatedBy
+description: NSRoleEntity.SetCreatedBy(Associate createdBy)
 intellisense: NSRoleEntity.SetCreatedBy
-keywords: SetCreatedBy(NSAssociate)
+keywords: NSRoleEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 Created by user
 
-
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **createdBy** Associate
 

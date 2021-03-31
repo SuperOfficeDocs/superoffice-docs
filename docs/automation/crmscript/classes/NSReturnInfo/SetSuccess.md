@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReturnInfo_SetSuccess_Bool_p_0
-description: NSReturnInfo.SetSuccess(Bool p_0)
+﻿---
+title: crmscript_ref_NSReturnInfo_SetSuccess
+description: NSReturnInfo.SetSuccess(Bool success)
 intellisense: NSReturnInfo.SetSuccess
-keywords: SetSuccess(Bool)
+keywords: NSReturnInfo, GetSuccess
 so.topic: reference
 ---
 
-
 id the call succeed. A successful call may still return a message or other return value.
 
-
-
-* **Success:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **success** Bool
 

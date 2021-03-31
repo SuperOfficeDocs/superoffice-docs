@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptEntity_GetDescription
-description: NSCRMScriptEntity.GetDescription()
+description: String NSCRMScriptEntity.GetDescription()
 intellisense: NSCRMScriptEntity.GetDescription
-sortOrder: 2133
-keywords: GetDescription()
+keywords: NSCRMScriptEntity, GetDescription
 so.topic: reference
 ---
 
-
 Optional description of what this script is used for.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

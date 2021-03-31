@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentAgent_CanAssignToProjectMember_Integer_p_0_Integer_p_1
-description: NSAppointmentAgent.CanAssignToProjectMember(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_CanAssignToProjectMember
+description: Bool CanAssignToProjectMember(Integer projectId, Integer suggestedAppointmentId)
 intellisense: NSAppointmentAgent.CanAssignToProjectMember
-sortOrder: 823
-keywords: CanAssignToProjectMember(Integer,Integer)
+keywords: NSAppointmentAgent,CanAssignToProjectMember
 so.topic: reference
 ---
 
 
-* **projectId
-\param** p1 suggestedAppointmentId
 
-
+**Parameters:**
+ - **projectId** 
+ - **suggestedAppointmentId** 

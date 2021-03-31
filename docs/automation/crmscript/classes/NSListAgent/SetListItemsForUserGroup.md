@@ -1,19 +1,15 @@
----
-title: crmscript_ref_NSListAgent_SetListItemsForUserGroup_Integer_p_0_Integer_p_1_Integer__p_2_Bool_p_3
-description: NSListAgent.SetListItemsForUserGroup(Integer p_0, Integer p_1, Integer[] p_2, Bool p_3)
+﻿---
+title: crmscript_ref_NSListAgent_SetListItemsForUserGroup
+description: Void SetListItemsForUserGroup(Integer udListDefinitionId, Integer usergroupId, IntegerArray listItemIds, Bool enable)
 intellisense: NSListAgent.SetListItemsForUserGroup
-keywords: SetListItemsForUserGroup(Integer,Integer,Integer[],Bool)
+keywords: NSListAgent,SetListItemsForUserGroup
 so.topic: reference
 ---
 
-
 Update listItems that will be visible for this usergroup
 
-
-
-* **udListDefinitionId:** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **usergroupId:** The id of the userGroup
-* **listItemIds:** The id of the list items.
-* **enable:** True to enable, false to disable
-
-
+**Parameters:**
+ - **udListDefinitionId** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
+ - **usergroupId** The id of the userGroup
+ - **listItemIds** The id of the list items.
+ - **enable** True to enable, false to disable

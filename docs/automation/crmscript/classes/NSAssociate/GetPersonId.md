@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAssociate_GetPersonId
-description: NSAssociate.GetPersonId()
+description: Integer NSAssociate.GetPersonId()
 intellisense: NSAssociate.GetPersonId
-sortOrder: 1258
-keywords: GetPersonId()
+keywords: NSAssociate, GetPersonId
 so.topic: reference
 ---
 
-
 Owning person record
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

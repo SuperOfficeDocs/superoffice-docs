@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAccount_GetOutgoingCredentials
-description: NSEMailAccount.GetOutgoingCredentials()
+description: ServiceAuth NSEMailAccount.GetOutgoingCredentials()
 intellisense: NSEMailAccount.GetOutgoingCredentials
-sortOrder: 2749
-keywords: GetOutgoingCredentials()
+keywords: NSEMailAccount, GetOutgoingCredentials
 so.topic: reference
 ---
 
-
 Account credentials for smtp
 
-
-
-* **Returns:** ServiceAuth
+**Returns:** ServiceAuth
 
 

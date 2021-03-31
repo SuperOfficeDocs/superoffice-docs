@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleTypeEntity_SetMinEarningPercentSet_Bool_p_0
-description: NSSaleTypeEntity.SetMinEarningPercentSet(Bool p_0)
+﻿---
+title: crmscript_ref_NSSaleTypeEntity_SetMinEarningPercentSet
+description: NSSaleTypeEntity.SetMinEarningPercentSet(Bool minEarningPercentSet)
 intellisense: NSSaleTypeEntity.SetMinEarningPercentSet
-keywords: SetMinEarningPercentSet(Bool)
+keywords: NSSaleTypeEntity, GetMinEarningPercentSet
 so.topic: reference
 ---
 
-
 Is there a limit, in earning as percent of total, on quotes linked to sales of this type
 
-
-
-* **MinEarningPercentSet:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **minEarningPercentSet** Bool
 

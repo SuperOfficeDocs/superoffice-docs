@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetLostTotalBaseCurrency_Float_p_0
-description: NSSaleSummary.SetLostTotalBaseCurrency(Float p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetLostTotalBaseCurrency
+description: NSSaleSummary.SetLostTotalBaseCurrency(Float lostTotalBaseCurrency)
 intellisense: NSSaleSummary.SetLostTotalBaseCurrency
-keywords: SetLostTotalBaseCurrency(Float)
+keywords: NSSaleSummary, GetLostTotalBaseCurrency
 so.topic: reference
 ---
 
-
 Summed amount for all lost within the period in default currency for the installation
 
-
-
-* **LostTotalBaseCurrency:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **lostTotalBaseCurrency** Float
 

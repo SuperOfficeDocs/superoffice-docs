@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetFolderName
-description: NSEMailEntity.GetFolderName()
+description: String NSEMailEntity.GetFolderName()
 intellisense: NSEMailEntity.GetFolderName
-sortOrder: 2967
-keywords: GetFolderName()
+keywords: NSEMailEntity, GetFolderName
 so.topic: reference
 ---
 
-
 Name of folder the e-mail belongs in
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

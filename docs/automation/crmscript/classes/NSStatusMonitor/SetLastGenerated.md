@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatusMonitor_SetLastGenerated_DateTime_p_0
-description: NSStatusMonitor.SetLastGenerated(DateTime p_0)
+﻿---
+title: crmscript_ref_NSStatusMonitor_SetLastGenerated
+description: NSStatusMonitor.SetLastGenerated(DateTime lastGenerated)
 intellisense: NSStatusMonitor.SetLastGenerated
-keywords: SetLastGenerated(DateTime)
+keywords: NSStatusMonitor, GetLastGenerated
 so.topic: reference
 ---
 
-
 When was this status last generated (i.e., statusValue rows created)
 
-
-
-* **LastGenerated:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **lastGenerated** DateTime
 

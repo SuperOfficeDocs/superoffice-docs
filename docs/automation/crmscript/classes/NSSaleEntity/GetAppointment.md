@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetAppointment
-description: NSSaleEntity.GetAppointment()
+description: Appointment NSSaleEntity.GetAppointment()
 intellisense: NSSaleEntity.GetAppointment
-keywords: GetAppointment()
+keywords: NSSaleEntity, GetAppointment
 so.topic: reference
 ---
 
 
-* **Returns:** Appointment
+
+**Returns:** Appointment
 
 

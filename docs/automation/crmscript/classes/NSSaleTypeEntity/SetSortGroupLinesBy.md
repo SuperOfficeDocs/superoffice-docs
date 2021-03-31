@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleTypeEntity_SetSortGroupLinesBy_Integer_p_0
-description: NSSaleTypeEntity.SetSortGroupLinesBy(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleTypeEntity_SetSortGroupLinesBy
+description: NSSaleTypeEntity.SetSortGroupLinesBy(Integer sortGroupLinesBy)
 intellisense: NSSaleTypeEntity.SetSortGroupLinesBy
-keywords: SetSortGroupLinesBy(Integer)
+keywords: NSSaleTypeEntity, GetSortGroupLinesBy
 so.topic: reference
 ---
 
-
 Sort group lines by this field
 
-
-
-* **SortGroupLinesBy:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **sortGroupLinesBy** Integer
 

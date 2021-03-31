@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSmsConfig_SetNsPluginSender_String_p_0
-description: NSSmsConfig.SetNsPluginSender(String p_0)
+﻿---
+title: crmscript_ref_NSSmsConfig_SetNsPluginSender
+description: NSSmsConfig.SetNsPluginSender(String nsPluginSender)
 intellisense: NSSmsConfig.SetNsPluginSender
-keywords: SetNsPluginSender(String)
+keywords: NSSmsConfig, GetNsPluginSender
 so.topic: reference
 ---
 
-
 The sender of the SMS messages. This text will appear on the recipient's mobile phone.
 
-
-
-* **NsPluginSender:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **nsPluginSender** String
 

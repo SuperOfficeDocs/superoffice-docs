@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_SavePriceList_NSPriceList_p_0
-description: NSQuoteAgent.SavePriceList(NSPriceList p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_SavePriceList
+description: NSPriceList SavePriceList(NSPriceList priceList);
 intellisense: NSQuoteAgent.SavePriceList
-keywords: SavePriceList(NSPriceList)
+keywords: NSQuoteAgent,SavePriceList
 so.topic: reference
 ---
+	  
+Updates the existing NSPriceList or creates a new NSPriceList if the id parameter is 0
+	  
+**Parameters**:
+ - **priceList** The NSPriceList to save.
 
+**Returns:** New or updated NSPriceList
 
-Updates the existing PriceList or creates a new PriceList if the id parameter is empty
-
-
-
-* **priceList:** The PriceList that is saved
-* **Returns:** New or updated PriceList
-
+```crmscript
+NSQuote  agent;
+NSPriceList thing = agent.CreateDefaultPriceList();
+thing = agent.SavePriceList(thing);
+```
 

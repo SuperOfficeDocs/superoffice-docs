@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetProgressPercent_Integer_p_0
-description: NSBatchTaskInfo.SetProgressPercent(Integer p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetProgressPercent
+description: NSBatchTaskInfo.SetProgressPercent(Integer progressPercent)
 intellisense: NSBatchTaskInfo.SetProgressPercent
-sortOrder: 1400
-keywords: SetProgressPercent(Integer)
+keywords: NSBatchTaskInfo, GetProgressPercent
 so.topic: reference
 ---
 
-
 Task progress, in percent of estimated total
 
-
-
-* **ProgressPercent:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **progressPercent** Integer
 

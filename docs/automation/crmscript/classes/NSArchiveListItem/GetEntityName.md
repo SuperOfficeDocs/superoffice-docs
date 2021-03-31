@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveListItem_GetEntityName
-description: NSArchiveListItem.GetEntityName()
+description: String NSArchiveListItem.GetEntityName()
 intellisense: NSArchiveListItem.GetEntityName
-sortOrder: 1179
-keywords: GetEntityName()
+keywords: NSArchiveListItem, GetEntityName
 so.topic: reference
 ---
 
-
 The entity name of the ArchiveListItem. An ArchiveList may contain rows from different entities.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

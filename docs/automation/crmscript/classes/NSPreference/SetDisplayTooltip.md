@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreference_SetDisplayTooltip_String_p_0
-description: NSPreference.SetDisplayTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSPreference_SetDisplayTooltip
+description: NSPreference.SetDisplayTooltip(String displayTooltip)
 intellisense: NSPreference.SetDisplayTooltip
-keywords: SetDisplayTooltip(String)
+keywords: NSPreference, GetDisplayTooltip
 so.topic: reference
 ---
 
-
 Display tooltip, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter.
 
-
-
-* **DisplayTooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayTooltip** String
 

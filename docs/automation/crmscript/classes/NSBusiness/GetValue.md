@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSBusiness_GetValue
-description: NSBusiness.GetValue()
+description: String NSBusiness.GetValue()
 intellisense: NSBusiness.GetValue
-sortOrder: 1480
-keywords: GetValue()
+keywords: NSBusiness, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

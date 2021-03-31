@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoTime
 description: NSFieldInfoTime
 intellisense: Void.NSFieldInfoTime
-sortOrder: 3557
+keywords: NSFieldInfoTime
 so.topic: reference
 ---
 
-
 Time custom database field. Date value is ignored.
 
-
-
-
-1. autolist
+1. autolist 
 

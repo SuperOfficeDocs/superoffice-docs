@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetPriorityId_Integer_p_0
-description: NSAppointment.SetPriorityId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetPriorityId
+description: NSAppointment.SetPriorityId(Integer priorityId)
 intellisense: NSAppointment.SetPriorityId
-sortOrder: 804
-keywords: SetPriorityId(Integer)
+keywords: NSAppointment, GetPriorityId
 so.topic: reference
 ---
 
-
 Link to priority list
 
-
-
-* **PriorityId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **priorityId** Integer
 

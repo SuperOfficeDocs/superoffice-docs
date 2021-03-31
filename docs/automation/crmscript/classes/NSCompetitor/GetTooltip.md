@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCompetitor_GetTooltip
-description: NSCompetitor.GetTooltip()
+description: String NSCompetitor.GetTooltip()
 intellisense: NSCompetitor.GetTooltip
-sortOrder: 1581
-keywords: GetTooltip()
+keywords: NSCompetitor, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

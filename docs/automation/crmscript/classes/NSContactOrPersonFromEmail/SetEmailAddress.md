@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactOrPersonFromEmail_SetEmailAddress_String_p_0
-description: NSContactOrPersonFromEmail.SetEmailAddress(String p_0)
+﻿---
+title: crmscript_ref_NSContactOrPersonFromEmail_SetEmailAddress
+description: NSContactOrPersonFromEmail.SetEmailAddress(String emailAddress)
 intellisense: NSContactOrPersonFromEmail.SetEmailAddress
-sortOrder: 1932
-keywords: SetEmailAddress(String)
+keywords: NSContactOrPersonFromEmail, GetEmailAddress
 so.topic: reference
 ---
 
-
 The emailAddress
 
-
-
-* **EmailAddress:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **emailAddress** String
 

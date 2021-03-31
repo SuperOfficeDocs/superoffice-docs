@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAppointmentAgent_SaveAppointmentEntity_NSAppointmentEntity_p_0
-description: NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_SaveAppointmentEntity
+description: NSAppointmentEntity SaveAppointmentEntity(NSAppointmentEntity appointmentEntity);
 intellisense: NSAppointmentAgent.SaveAppointmentEntity
-sortOrder: 884
-keywords: SaveAppointmentEntity(NSAppointmentEntity)
+keywords: NSAppointmentAgent,SaveAppointmentEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSAppointmentEntity or creates a new NSAppointmentEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **appointmentEntity** The NSAppointmentEntity to save.
 
+**Returns:** New or updated NSAppointmentEntity
 
-Updates the existing AppointmentEntity or creates a new AppointmentEntity if the id parameter is empty
-
-
-
-* **appointmentEntity:** The AppointmentEntity that is saved
-* **Returns:** New or updated AppointmentEntity
-
+```crmscript
+NSAppointment  agent;
+NSAppointmentEntity thing = agent.CreateDefaultAppointmentEntity();
+thing = agent.SaveAppointmentEntity(thing);
+```
 

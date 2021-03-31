@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPluginUrlResponse_SetErrorCode_String_p_0
-description: NSPluginUrlResponse.SetErrorCode(String p_0)
+﻿---
+title: crmscript_ref_NSPluginUrlResponse_SetErrorCode
+description: NSPluginUrlResponse.SetErrorCode(String errorCode)
 intellisense: NSPluginUrlResponse.SetErrorCode
-keywords: SetErrorCode(String)
+keywords: NSPluginUrlResponse, GetErrorCode
 so.topic: reference
 ---
 
-
 An error code, if available.
 
-
-
-* **ErrorCode:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **errorCode** String
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLegalBase_GetTooltip
-description: NSLegalBase.GetTooltip()
+description: String NSLegalBase.GetTooltip()
 intellisense: NSLegalBase.GetTooltip
-keywords: GetTooltip()
+keywords: NSLegalBase, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip for this consent source
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

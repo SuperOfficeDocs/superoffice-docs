@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignAppEntity_SetCreatedDate_DateTime_p_0
-description: NSForeignAppEntity.SetCreatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSForeignAppEntity_SetCreatedDate
+description: NSForeignAppEntity.SetCreatedDate(DateTime createdDate)
 intellisense: NSForeignAppEntity.SetCreatedDate
-sortOrder: 3706
-keywords: SetCreatedDate(DateTime)
+keywords: NSForeignAppEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdDate** DateTime
 

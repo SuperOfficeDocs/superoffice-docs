@@ -1,18 +1,29 @@
----
-title: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByState_Integer_p_0
-description: NSBatchAgent.GetBatchTaskInfosByState(Integer p_0)
+﻿---
+title: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByState
+description: BatchTaskInfoArray GetBatchTaskInfosByState(Integer state)
 intellisense: NSBatchAgent.GetBatchTaskInfosByState
-sortOrder: 1359
-keywords: GetBatchTaskInfosByState(Integer)
+keywords: NSBatchAgent,GetBatchTaskInfosByState
 so.topic: reference
 ---
 
-
 Gets an array of BatchTaskInfo with state defined by a BatchTaskState.
 
+**Parameters:**
+ - **state** The BatchTaskState to get batch tasks for.
+     - Enum: 0 = Unknown 
+     - Enum: 1 = New 
+     - Enum: 2 = Aquired 
+     - Enum: 3 = Started 
+     - Enum: 4 = Succeeded 
+     - Enum: 5 = Failed 
+     - Enum: 6 = SucceededManualCleanup 
+     - Enum: 99999 = All 
 
+**Returns:** Returns an array of BatchTaskInfo.
 
-* **state:** The BatchTaskState to get batch tasks for.
-* **Returns:** Returns an array of BatchTaskInfo.
-
+```crmscript
+NSBatchAgent agent;
+Integer state;
+BatchTaskInfoArray res = agent.GetBatchTaskInfosByState(state);
+```
 

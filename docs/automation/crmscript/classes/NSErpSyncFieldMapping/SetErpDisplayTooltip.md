@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldMapping_SetErpDisplayTooltip_String_p_0
-description: NSErpSyncFieldMapping.SetErpDisplayTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldMapping_SetErpDisplayTooltip
+description: NSErpSyncFieldMapping.SetErpDisplayTooltip(String erpDisplayTooltip)
 intellisense: NSErpSyncFieldMapping.SetErpDisplayTooltip
-sortOrder: 3311
-keywords: SetErpDisplayTooltip(String)
+keywords: NSErpSyncFieldMapping, GetErpDisplayTooltip
 so.topic: reference
 ---
 
-
 Tooltip text for ERP field; ignored on Save
 
-
-
-* **ErpDisplayTooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **erpDisplayTooltip** String
 

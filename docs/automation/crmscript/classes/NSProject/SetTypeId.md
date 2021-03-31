@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSProject_SetTypeId_Integer_p_0
-description: NSProject.SetTypeId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProject_SetTypeId
+description: NSProject.SetTypeId(Integer typeId)
 intellisense: NSProject.SetTypeId
-keywords: SetTypeId(Integer)
+keywords: NSProject, GetTypeId
 so.topic: reference
 ---
 
 
-* **TypeId:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **typeId** Integer
 

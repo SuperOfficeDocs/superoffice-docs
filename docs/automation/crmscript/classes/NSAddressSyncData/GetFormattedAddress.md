@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAddressSyncData_GetFormattedAddress
-description: NSAddressSyncData.GetFormattedAddress()
+description: String NSAddressSyncData.GetFormattedAddress()
 intellisense: NSAddressSyncData.GetFormattedAddress
-sortOrder: 626
-keywords: GetFormattedAddress()
+keywords: NSAddressSyncData, GetFormattedAddress
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

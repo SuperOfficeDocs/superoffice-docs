@@ -1,15 +1,12 @@
----
-title: crmscript_ref_NSNavigatorAgent_GetNavigatorCompanies_String_p_0
-description: NSNavigatorAgent.GetNavigatorCompanies(String p_0)
+﻿---
+title: crmscript_ref_NSNavigatorAgent_GetNavigatorCompanies
+description: NavigatorCompanyArray GetNavigatorCompanies(String name)
 intellisense: NSNavigatorAgent.GetNavigatorCompanies
-keywords: GetNavigatorCompanies(String)
+keywords: NSNavigatorAgent,GetNavigatorCompanies
 so.topic: reference
 ---
 
 
 
-
-* **name
-**
-
-
+**Parameters:**
+ - **name** 

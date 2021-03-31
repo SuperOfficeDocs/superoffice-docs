@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetTicketPriorityId_Integer_p_0
-description: NSPerson.SetTicketPriorityId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetTicketPriorityId
+description: NSPerson.SetTicketPriorityId(Integer ticketPriorityId)
 intellisense: NSPerson.SetTicketPriorityId
-keywords: SetTicketPriorityId(Integer)
+keywords: NSPerson, GetTicketPriorityId
 so.topic: reference
 ---
 
-
 Ticket priority ID
 
-
-
-* **TicketPriorityId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **ticketPriorityId** Integer
 

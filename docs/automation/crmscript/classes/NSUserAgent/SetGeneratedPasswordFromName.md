@@ -1,15 +1,12 @@
----
-title: crmscript_ref_NSUserAgent_SetGeneratedPasswordFromName_String_p_0
-description: NSUserAgent.SetGeneratedPasswordFromName(String p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_SetGeneratedPasswordFromName
+description: String SetGeneratedPasswordFromName(String associateName)
 intellisense: NSUserAgent.SetGeneratedPasswordFromName
-keywords: SetGeneratedPasswordFromName(String)
+keywords: NSUserAgent,SetGeneratedPasswordFromName
 so.topic: reference
 ---
 
 
 
-
-* **associateName
-**
-
-
+**Parameters:**
+ - **associateName** 

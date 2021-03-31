@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSIncomingMessage_SetPlugin_String_p_0
-description: NSIncomingMessage.SetPlugin(String p_0)
+﻿---
+title: crmscript_ref_NSIncomingMessage_SetPlugin
+description: NSIncomingMessage.SetPlugin(String plugin)
 intellisense: NSIncomingMessage.SetPlugin
-sortOrder: 3995
-keywords: SetPlugin(String)
+keywords: NSIncomingMessage, GetPlugin
 so.topic: reference
 ---
 
-
 Name of plugin
 
-
-
-* **Plugin:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **plugin** String
 

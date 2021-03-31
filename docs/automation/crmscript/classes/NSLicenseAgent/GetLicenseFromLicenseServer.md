@@ -1,15 +1,12 @@
----
-title: crmscript_ref_NSLicenseAgent_GetLicenseFromLicenseServer_String_p_0
-description: NSLicenseAgent.GetLicenseFromLicenseServer(String p_0)
+﻿---
+title: crmscript_ref_NSLicenseAgent_GetLicenseFromLicenseServer
+description: ExtendedLicenseInfo GetLicenseFromLicenseServer(String ownerName)
 intellisense: NSLicenseAgent.GetLicenseFromLicenseServer
-keywords: GetLicenseFromLicenseServer(String)
+keywords: NSLicenseAgent,GetLicenseFromLicenseServer
 so.topic: reference
 ---
 
 
 
-
-* **ownerName
-**
-
-
+**Parameters:**
+ - **ownerName** 

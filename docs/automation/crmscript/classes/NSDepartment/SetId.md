@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDepartment_SetId_Integer_p_0
-description: NSDepartment.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDepartment_SetId
+description: NSDepartment.SetId(Integer id)
 intellisense: NSDepartment.SetId
-sortOrder: 2385
-keywords: SetId(Integer)
+keywords: NSDepartment, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSMessagingAgent_GetDeliveryStatus_Integer__p_0
-description: NSMessagingAgent.GetDeliveryStatus(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSMessagingAgent_GetDeliveryStatus
+description: MessageDeliveryStatusArray GetDeliveryStatus(IntegerArray messagingIds)
 intellisense: NSMessagingAgent.GetDeliveryStatus
-keywords: GetDeliveryStatus(Integer[])
+keywords: NSMessagingAgent,GetDeliveryStatus
 so.topic: reference
 ---
 
-
 Get delivery status
 
-
-
-* **messagingIds:** Array of messaging ids.
-
-
+**Parameters:**
+ - **messagingIds** Array of messaging ids.

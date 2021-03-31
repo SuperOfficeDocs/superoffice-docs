@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetPublishEventDate_DateTime_p_0
-description: NSAppointmentEntity.SetPublishEventDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetPublishEventDate
+description: NSAppointmentEntity.SetPublishEventDate(DateTime publishDate)
 intellisense: NSAppointmentEntity.SetPublishEventDate
-sortOrder: 1023
-keywords: SetPublishEventDate(DateTime)
+keywords: NSAppointmentEntity, SetPublishEventDate
 so.topic: reference
 ---
 
+Publish event date.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishDate** DateTime.
 

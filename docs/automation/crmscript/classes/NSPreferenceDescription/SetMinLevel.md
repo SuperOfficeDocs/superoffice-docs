@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescription_SetMinLevel_Integer_p_0
-description: NSPreferenceDescription.SetMinLevel(Integer p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescription_SetMinLevel
+description: NSPreferenceDescription.SetMinLevel(Integer minLevel)
 intellisense: NSPreferenceDescription.SetMinLevel
-keywords: SetMinLevel(Integer)
+keywords: NSPreferenceDescription, GetMinLevel
 so.topic: reference
 ---
 
-
 The minimum (furthest away from User) level this preference can be set for
 
-
-
-* **MinLevel:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **minLevel** Integer
 

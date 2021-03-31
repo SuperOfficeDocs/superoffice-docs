@@ -1,14 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetBusinessList_Integer__p_0
-description: NSListAgent.GetBusinessList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetBusinessList
+description: NSBusiness[] GetBusinessList(Integer[]  businessIds);
 intellisense: NSListAgent.GetBusinessList
-keywords: GetBusinessList(Integer[])
+keywords: NSListAgent,GetBusinessList
 so.topic: reference
 ---
 
-Gets an array of Business objects.
+Gets a vector of Business objects.
 
-* **p0:** IntegerArray of identifiers for Business
-* **Returns:** Array of NSBusiness
+**Parameters:**
+ - **businessIds** The identifiers of the NSBusiness objects
 
+**Returns:** Vector of NSBusiness objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetBusinessList(ids);
+```
 

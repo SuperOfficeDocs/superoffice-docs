@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetCreatedAt_DateTime_p_0
-description: NSTicket.SetCreatedAt(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetCreatedAt
+description: NSTicket.SetCreatedAt(DateTime createdAt)
 intellisense: NSTicket.SetCreatedAt
-keywords: SetCreatedAt(DateTime)
+keywords: NSTicket, GetCreatedAt
 so.topic: reference
 ---
 
-
 When the ticket was created.
 
-
-
-* **CreatedAt:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdAt** DateTime
 

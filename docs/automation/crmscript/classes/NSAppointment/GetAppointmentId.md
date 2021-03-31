@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetAppointmentId
-description: NSAppointment.GetAppointmentId()
+description: Integer NSAppointment.GetAppointmentId()
 intellisense: NSAppointment.GetAppointmentId
-sortOrder: 727
-keywords: GetAppointmentId()
+keywords: NSAppointment, GetAppointmentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

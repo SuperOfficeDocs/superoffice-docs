@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSQuoteAgent_CreateQuoteLine_Integer_p_0_String_p_1
-description: NSQuoteAgent.CreateQuoteLine(Integer p_0, String p_1)
+﻿---
+title: crmscript_ref_NSQuoteAgent_CreateQuoteLine
+description: QuoteLine CreateQuoteLine(Integer quoteAlternativeId, String eRPProductKey)
 intellisense: NSQuoteAgent.CreateQuoteLine
-keywords: CreateQuoteLine(Integer,String)
+keywords: NSQuoteAgent,CreateQuoteLine
 so.topic: reference
 ---
 
-
 Create a quoteline based on a product key.
 
+**Parameters:**
+ - **quoteAlternativeId** Primary key of the alternative
+ - **eRPProductKey** Primary key of the product in the ProductProvider
 
+**Returns:** The updated quote line.
 
-* **quoteAlternativeId:** Primary key of the alternative
-* **eRPProductKey:** Primary key of the product in the ProductProvider
-* **Returns:** The updated quote line.
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteAlternativeId;
+String eRPProductKey;
+QuoteLine res = agent.CreateQuoteLine(quoteAlternativeId, eRPProductKey);
+```
 

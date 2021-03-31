@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAudienceConfigParameter_SetCreatedBy_String_p_0
-description: NSAudienceConfigParameter.SetCreatedBy(String p_0)
+﻿---
+title: crmscript_ref_NSAudienceConfigParameter_SetCreatedBy
+description: NSAudienceConfigParameter.SetCreatedBy(String createdBy)
 intellisense: NSAudienceConfigParameter.SetCreatedBy
-sortOrder: 1327
-keywords: SetCreatedBy(String)
+keywords: NSAudienceConfigParameter, GetCreatedBy
 so.topic: reference
 ---
 
-
 Name of the person that created the configuration parameter
 
-
-
-* **CreatedBy:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **createdBy** String
 

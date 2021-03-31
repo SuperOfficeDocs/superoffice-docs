@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEntity_GetProjectType
-description: NSProjectEntity.GetProjectType()
+description: ProjectType NSProjectEntity.GetProjectType()
 intellisense: NSProjectEntity.GetProjectType
-keywords: GetProjectType()
+keywords: NSProjectEntity, GetProjectType
 so.topic: reference
 ---
 
+Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...
 
-* **Returns:** ProjectType
+**Returns:** ProjectType
 
 

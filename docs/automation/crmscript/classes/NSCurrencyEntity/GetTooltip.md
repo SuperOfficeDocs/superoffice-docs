@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCurrencyEntity_GetTooltip
-description: NSCurrencyEntity.GetTooltip()
+description: String NSCurrencyEntity.GetTooltip()
 intellisense: NSCurrencyEntity.GetTooltip
-sortOrder: 2185
-keywords: GetTooltip()
+keywords: NSCurrencyEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip or other description
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,19 +1,17 @@
----
-title: crmscript_ref_NSQuoteLine_SetStatus_Integer_p_0
-description: NSQuoteLine.SetStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetStatus
+description: NSQuoteLine.SetStatus(QuoteStatus status)
 intellisense: NSQuoteLine.SetStatus
-keywords: SetStatus(Integer)
+keywords: NSQuoteLine, GetStatus
 so.topic: reference
 ---
 
-If there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: 
+If there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: OK, OKWithInfo, Warning, Error.
 
-* Ok=0
-* OkWithInfo=1
-* Warning=2
-* Error=3
-
-* **p_0:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **status** QuoteStatus
+     - Enum: 0 = Ok 
+     - Enum: 1 = OkWithInfo 
+     - Enum: 2 = Warning 
+     - Enum: 3 = Error 
 

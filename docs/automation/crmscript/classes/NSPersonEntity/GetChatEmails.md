@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetChatEmails
-description: NSPersonEntity.GetChatEmails()
+description: EntityElementArray NSPersonEntity.GetChatEmails()
 intellisense: NSPersonEntity.GetChatEmails
-keywords: GetChatEmails()
+keywords: NSPersonEntity, GetChatEmails
 so.topic: reference
 ---
 
 
-* **Returns:** EntityElementArray
+
+**Returns:** EntityElementArray
 
 

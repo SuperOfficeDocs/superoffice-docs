@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetAssociate_NSAssociate_p_0
-description: NSSaleEntity.SetAssociate(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetAssociate
+description: NSSaleEntity.SetAssociate(Associate associate)
 intellisense: NSSaleEntity.SetAssociate
-keywords: SetAssociate(NSAssociate)
+keywords: NSSaleEntity, GetAssociate
 so.topic: reference
 ---
 
-
 The sale owner
 
-
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **associate** Associate
 

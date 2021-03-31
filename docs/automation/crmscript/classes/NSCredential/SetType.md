@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCredential_SetType_NSCredentialType_p_0
-description: NSCredential.SetType(NSCredentialType p_0)
+﻿---
+title: crmscript_ref_NSCredential_SetType
+description: NSCredential.SetType(CredentialType type)
 intellisense: NSCredential.SetType
-sortOrder: 2054
-keywords: SetType(NSCredentialType)
+keywords: NSCredential, GetType
 so.topic: reference
 ---
 
-
 Description of credential type
 
-
-
-* **Type:** CredentialType
-* **Returns:** CredentialType
-
+**Parameter:** 
+ - **type** CredentialType
 

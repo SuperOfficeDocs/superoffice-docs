@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSHeadingEntity_GetName
-description: NSHeadingEntity.GetName()
+description: String NSHeadingEntity.GetName()
 intellisense: NSHeadingEntity.GetName
-sortOrder: 3916
-keywords: GetName()
+keywords: NSHeadingEntity, GetName
 so.topic: reference
 ---
 
-
 The visible heading
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

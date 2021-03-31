@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetTooltip_String_p_0
-description: NSUserDefinedFieldInfo.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetTooltip
+description: NSUserDefinedFieldInfo.SetTooltip(String tooltip)
 intellisense: NSUserDefinedFieldInfo.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSUserDefinedFieldInfo, GetTooltip
 so.topic: reference
 ---
 
-
 Optional tooltip text for this field
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

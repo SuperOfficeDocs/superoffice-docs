@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSControlInfo_SetListProviderExtraInfo_String_p_0
-description: NSControlInfo.SetListProviderExtraInfo(String p_0)
+﻿---
+title: crmscript_ref_NSControlInfo_SetListProviderExtraInfo
+description: NSControlInfo.SetListProviderExtraInfo(String listProviderExtraInfo)
 intellisense: NSControlInfo.SetListProviderExtraInfo
-sortOrder: 2006
-keywords: SetListProviderExtraInfo(String)
+keywords: NSControlInfo, GetListProviderExtraInfo
 so.topic: reference
 ---
 
 
-* **ListProviderExtraInfo:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **listProviderExtraInfo** String
 

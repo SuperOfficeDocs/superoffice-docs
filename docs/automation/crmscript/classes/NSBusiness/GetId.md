@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSBusiness_GetId
-description: NSBusiness.GetId()
+description: Integer NSBusiness.GetId()
 intellisense: NSBusiness.GetId
-sortOrder: 1478
-keywords: GetId()
+keywords: NSBusiness, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

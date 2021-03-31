@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetInterAreaPrefix_String_p_0
-description: NSCountry.SetInterAreaPrefix(String p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetInterAreaPrefix
+description: NSCountry.SetInterAreaPrefix(String interAreaPrefix)
 intellisense: NSCountry.SetInterAreaPrefix
-sortOrder: 2040
-keywords: SetInterAreaPrefix(String)
+keywords: NSCountry, GetInterAreaPrefix
 so.topic: reference
 ---
 
-
 International prefix
 
-
-
-* **InterAreaPrefix:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **interAreaPrefix** String
 

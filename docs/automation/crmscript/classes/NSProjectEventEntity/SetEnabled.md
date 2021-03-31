@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetEnabled_Bool_p_0
-description: NSProjectEventEntity.SetEnabled(Bool p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetEnabled
+description: NSProjectEventEntity.SetEnabled(Bool enabled)
 intellisense: NSProjectEventEntity.SetEnabled
-keywords: SetEnabled(Bool)
+keywords: NSProjectEventEntity, GetEnabled
 so.topic: reference
 ---
 
-
 Is the event enabled
 
-
-
-* **Enabled:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **enabled** Bool
 

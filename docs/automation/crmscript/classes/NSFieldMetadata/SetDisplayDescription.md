@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldMetadata_SetDisplayDescription_String_p_0
-description: NSFieldMetadata.SetDisplayDescription(String p_0)
+﻿---
+title: crmscript_ref_NSFieldMetadata_SetDisplayDescription
+description: NSFieldMetadata.SetDisplayDescription(String displayDescription)
 intellisense: NSFieldMetadata.SetDisplayDescription
-sortOrder: 3587
-keywords: SetDisplayDescription(String)
+keywords: NSFieldMetadata, GetDisplayDescription
 so.topic: reference
 ---
 
-
 Tooltip for the field name.
 
-
-
-* **DisplayDescription:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayDescription** String
 

@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSUserInfo_SetRoleName_String_p_0
-description: NSUserInfo.SetRoleName(String p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetRoleName
+description: NSUserInfo.SetRoleName(String roleName)
 intellisense: NSUserInfo.SetRoleName
-keywords: SetRoleName(String)
+keywords: NSUserInfo, GetRoleName
 so.topic: reference
 ---
 
 
-* **RoleName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **roleName** String
 

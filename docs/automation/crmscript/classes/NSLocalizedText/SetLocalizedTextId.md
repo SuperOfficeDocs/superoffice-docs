@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLocalizedText_SetLocalizedTextId_Integer_p_0
-description: NSLocalizedText.SetLocalizedTextId(Integer p_0)
+﻿---
+title: crmscript_ref_NSLocalizedText_SetLocalizedTextId
+description: NSLocalizedText.SetLocalizedTextId(Integer localizedTextId)
 intellisense: NSLocalizedText.SetLocalizedTextId
-keywords: SetLocalizedTextId(Integer)
+keywords: NSLocalizedText, GetLocalizedTextId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **LocalizedTextId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **localizedTextId** Integer
 

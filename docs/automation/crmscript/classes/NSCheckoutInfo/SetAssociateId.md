@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCheckoutInfo_SetAssociateId_Integer_p_0
-description: NSCheckoutInfo.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCheckoutInfo_SetAssociateId
+description: NSCheckoutInfo.SetAssociateId(Integer associateId)
 intellisense: NSCheckoutInfo.SetAssociateId
-sortOrder: 1563
-keywords: SetAssociateId(Integer)
+keywords: NSCheckoutInfo, GetAssociateId
 so.topic: reference
 ---
 
-
 Id of associate who has currently checked out the document; 0 if it is not checked out,  or is checked out by someone who is not a SuperOffice user
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

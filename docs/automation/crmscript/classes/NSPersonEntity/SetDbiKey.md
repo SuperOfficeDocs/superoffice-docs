@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetDbiKey_String_p_0
-description: NSPersonEntity.SetDbiKey(String p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetDbiKey
+description: NSPersonEntity.SetDbiKey(String dbiKey)
 intellisense: NSPersonEntity.SetDbiKey
-keywords: SetDbiKey(String)
+keywords: NSPersonEntity, GetDbiKey
 so.topic: reference
 ---
 
-
 The primary key for the integrated entry in the external datasource.
 
-
-
-* **DbiKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **dbiKey** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicense_SetExtraFlags_Integer_p_0
-description: NSModuleLicense.SetExtraFlags(Integer p_0)
+﻿---
+title: crmscript_ref_NSModuleLicense_SetExtraFlags
+description: NSModuleLicense.SetExtraFlags(Integer extraFlags)
 intellisense: NSModuleLicense.SetExtraFlags
-keywords: SetExtraFlags(Integer)
+keywords: NSModuleLicense, GetExtraFlags
 so.topic: reference
 ---
 
-
 Unspecified extra flags of license, part of checksum. Value=1 means this a 'user plan'; such licenses cause the admin gui to switch to radiobutton view
 
-
-
-* **ExtraFlags:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **extraFlags** Integer
 

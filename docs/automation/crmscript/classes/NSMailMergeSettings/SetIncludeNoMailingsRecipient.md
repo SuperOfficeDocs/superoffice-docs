@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetIncludeNoMailingsRecipient_Bool_p_0
-description: NSMailMergeSettings.SetIncludeNoMailingsRecipient(Bool p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetIncludeNoMailingsRecipient
+description: NSMailMergeSettings.SetIncludeNoMailingsRecipient(Bool includeNoMailingsRecipient)
 intellisense: NSMailMergeSettings.SetIncludeNoMailingsRecipient
-keywords: SetIncludeNoMailingsRecipient(Bool)
+keywords: NSMailMergeSettings, GetIncludeNoMailingsRecipient
 so.topic: reference
 ---
 
-
 Include recipients that are marked with NoMailings
 
-
-
-* **IncludeNoMailingsRecipient:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **includeNoMailingsRecipient** Bool
 

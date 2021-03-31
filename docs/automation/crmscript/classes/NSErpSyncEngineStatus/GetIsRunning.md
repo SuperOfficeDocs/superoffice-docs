@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncEngineStatus_GetIsRunning
-description: NSErpSyncEngineStatus.GetIsRunning()
+description: Bool NSErpSyncEngineStatus.GetIsRunning()
 intellisense: NSErpSyncEngineStatus.GetIsRunning
-sortOrder: 3277
-keywords: GetIsRunning()
+keywords: NSErpSyncEngineStatus, GetIsRunning
 so.topic: reference
 ---
 
-
 Is the engine currently running
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetIsBooking
-description: NSAppointment.GetIsBooking()
+description: Bool NSAppointment.GetIsBooking()
 intellisense: NSAppointment.GetIsBooking
-sortOrder: 715
-keywords: GetIsBooking()
+keywords: NSAppointment, GetIsBooking
 so.topic: reference
 ---
 
-
 True if this appointment is a booking.
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

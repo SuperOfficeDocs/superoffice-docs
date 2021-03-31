@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserAgent_DeleteUserGroup_Integer_p_0_Integer_p_1
-description: NSUserAgent.DeleteUserGroup(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSUserAgent_DeleteUserGroup
+description: Void DeleteUserGroup(Integer userGroupToDelete, Integer userGroupToMoveTo)
 intellisense: NSUserAgent.DeleteUserGroup
-keywords: DeleteUserGroup(Integer,Integer)
+keywords: NSUserAgent,DeleteUserGroup
 so.topic: reference
 ---
 
-
 Delete a usergroup and move its members to another usergroup
 
-
-
-* **userGroupToDelete:** The id of the userGroup to delete
-* **userGroupToMoveTo:** The id of the userGroup to move the members to
-
-
+**Parameters:**
+ - **userGroupToDelete** The id of the userGroup to delete
+ - **userGroupToMoveTo** The id of the userGroup to move the members to

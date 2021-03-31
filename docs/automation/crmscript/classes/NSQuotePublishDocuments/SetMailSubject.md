@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuotePublishDocuments_SetMailSubject_String_p_0
-description: NSQuotePublishDocuments.SetMailSubject(String p_0)
+﻿---
+title: crmscript_ref_NSQuotePublishDocuments_SetMailSubject
+description: NSQuotePublishDocuments.SetMailSubject(String mailSubject)
 intellisense: NSQuotePublishDocuments.SetMailSubject
-keywords: SetMailSubject(String)
+keywords: NSQuotePublishDocuments, GetMailSubject
 so.topic: reference
 ---
 
+The string that is the mail subject; done by merging the text resource SR_QUOTE_PUBLISH_MAILHEADING with the current template variable values
 
-The string that is the mail subject; done by merging the text resource SR\_QUOTE_PUBLISH\_MAILHEADING with the current template variable values
-
-
-
-* **MailSubject:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **mailSubject** String
 

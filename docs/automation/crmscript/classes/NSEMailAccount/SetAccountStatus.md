@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAccount_SetAccountStatus_Integer_p_0
-description: NSEMailAccount.SetAccountStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailAccount_SetAccountStatus
+description: NSEMailAccount.SetAccountStatus(Integer accountStatus)
 intellisense: NSEMailAccount.SetAccountStatus
-sortOrder: 2752
-keywords: SetAccountStatus(Integer)
+keywords: NSEMailAccount, GetAccountStatus
 so.topic: reference
 ---
 
-
 The account status (Disabled or...) Readonly field
 
-
-
-* **AccountStatus:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **accountStatus** Integer
 

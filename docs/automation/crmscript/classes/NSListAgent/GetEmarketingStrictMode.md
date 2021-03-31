@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSListAgent_GetEmarketingStrictMode
-description: NSListAgent.GetEmarketingStrictMode()
+description: Bool GetEmarketingStrictMode()
 intellisense: NSListAgent.GetEmarketingStrictMode
-keywords: GetEmarketingStrictMode()
+keywords: NSListAgent,GetEmarketingStrictMode
 so.topic: reference
 ---
-
 
 Get the value of the Emarketing strict mode setting
 
 
+**Returns:** Returns true if Emarkerint strict mode is set, false otherwise
 
-* **Returns:** Returns true if Emarkerint strict mode is set, false otherwise
-
+```crmscript
+NSListAgent agent;
+Bool res = agent.GetEmarketingStrictMode();
+```
 

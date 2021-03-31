@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatusMonitor_SetDefaultTaskText_String_p_0
-description: NSStatusMonitor.SetDefaultTaskText(String p_0)
+﻿---
+title: crmscript_ref_NSStatusMonitor_SetDefaultTaskText
+description: NSStatusMonitor.SetDefaultTaskText(String defaultTaskText)
 intellisense: NSStatusMonitor.SetDefaultTaskText
-keywords: SetDefaultTaskText(String)
+keywords: NSStatusMonitor, GetDefaultTaskText
 so.topic: reference
 ---
 
-
 Default task text for this status
 
-
-
-* **DefaultTaskText:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **defaultTaskText** String
 

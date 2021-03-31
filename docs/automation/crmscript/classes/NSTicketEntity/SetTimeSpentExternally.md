@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetTimeSpentExternally_Integer_p_0
-description: NSTicketEntity.SetTimeSpentExternally(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetTimeSpentExternally
+description: NSTicketEntity.SetTimeSpentExternally(Integer timeSpentExternally)
 intellisense: NSTicketEntity.SetTimeSpentExternally
-keywords: SetTimeSpentExternally(Integer)
+keywords: NSTicketEntity, GetTimeSpentExternally
 so.topic: reference
 ---
 
-
 The total time (seconds) within the priority's office hours the ticket has been in a external waiting status (configurable), not including current state
 
-
-
-* **TimeSpentExternally:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **timeSpentExternally** Integer
 

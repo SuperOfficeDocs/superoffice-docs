@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebAppUsage_SetAssocId_Integer_p_0
-description: NSWebAppUsage.SetAssocId(Integer p_0)
+﻿---
+title: crmscript_ref_NSWebAppUsage_SetAssocId
+description: NSWebAppUsage.SetAssocId(Integer assocId)
 intellisense: NSWebAppUsage.SetAssocId
-keywords: SetAssocId(Integer)
+keywords: NSWebAppUsage, GetAssocId
 so.topic: reference
 ---
 
-
 Associate Id
 
-
-
-* **AssocId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **assocId** Integer
 

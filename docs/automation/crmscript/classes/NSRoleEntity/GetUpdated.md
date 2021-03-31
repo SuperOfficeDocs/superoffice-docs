@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSRoleEntity_GetUpdated
-description: NSRoleEntity.GetUpdated()
+description: DateTime NSRoleEntity.GetUpdated()
 intellisense: NSRoleEntity.GetUpdated
-keywords: GetUpdated()
+keywords: NSRoleEntity, GetUpdated
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

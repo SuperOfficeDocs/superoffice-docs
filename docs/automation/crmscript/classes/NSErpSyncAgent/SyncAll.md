@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncAgent_SyncAll
-description: NSErpSyncAgent.SyncAll()
+description: PluginResponse SyncAll()
 intellisense: NSErpSyncAgent.SyncAll
-sortOrder: 3214
-keywords: SyncAll()
+keywords: NSErpSyncAgent,SyncAll
 so.topic: reference
 ---
-
 
 Sync all active connections
 
 
+**Returns:** The response
 
-* **Returns:** The response
-
+```crmscript
+NSErpSyncAgent agent;
+PluginResponse res = agent.SyncAll();
+```
 

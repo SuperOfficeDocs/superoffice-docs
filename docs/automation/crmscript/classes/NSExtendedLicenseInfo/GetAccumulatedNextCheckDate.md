@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSExtendedLicenseInfo_GetAccumulatedNextCheckDate
-description: NSExtendedLicenseInfo.GetAccumulatedNextCheckDate()
+description: DateTime NSExtendedLicenseInfo.GetAccumulatedNextCheckDate()
 intellisense: NSExtendedLicenseInfo.GetAccumulatedNextCheckDate
-sortOrder: 3404
-keywords: GetAccumulatedNextCheckDate()
+keywords: NSExtendedLicenseInfo, GetAccumulatedNextCheckDate
 so.topic: reference
 ---
 
 
-* **Returns:** DateTime
+
+**Returns:** DateTime
 
 

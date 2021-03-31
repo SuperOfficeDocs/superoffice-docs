@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetCurrency_Integer_p_0
-description: NSListAgent.GetCurrency(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCurrency
+description: NSCurrency GetCurrency(Integer currencyId);
 intellisense: NSListAgent.GetCurrency
-keywords: GetCurrency(Integer)
+keywords: NSListAgent,GetCurrency
 so.topic: reference
 ---
 
+Gets a NSCurrency object.
 
-Gets a Currency object.
+**Parameters:**
+ - **currencyId** The identifier of the NSCurrency object
 
+**Returns:** NSCurrency
 
-
-* **currencyId:** The identifier of the Currency object
-* **Returns:** Currency
-
+```crmscript
+NSListAgent agent;
+NSCurrency thing = agent.GetCurrency(123);
+```
 

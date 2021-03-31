@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDeliveryType_GetTooltip
-description: NSDeliveryType.GetTooltip()
+description: String NSDeliveryType.GetTooltip()
 intellisense: NSDeliveryType.GetTooltip
-sortOrder: 2375
-keywords: GetTooltip()
+keywords: NSDeliveryType, GetTooltip
 so.topic: reference
 ---
 
+Get the tooltip description for the list item.
 
-* **Returns:** String
-
+**Returns:** String tooltip description.
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncActorTypeMapping_SetIsActive_Bool_p_0
-description: NSErpSyncActorTypeMapping.SetIsActive(Bool p_0)
+﻿---
+title: crmscript_ref_NSErpSyncActorTypeMapping_SetIsActive
+description: NSErpSyncActorTypeMapping.SetIsActive(Bool isActive)
 intellisense: NSErpSyncActorTypeMapping.SetIsActive
-sortOrder: 3175
-keywords: SetIsActive(Bool)
+keywords: NSErpSyncActorTypeMapping, GetIsActive
 so.topic: reference
 ---
 
-
 Is this sync mapping active
 
-
-
-* **IsActive:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isActive** Bool
 

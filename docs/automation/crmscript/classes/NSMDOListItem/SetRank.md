@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMDOListItem_SetRank_Integer_p_0
-description: NSMDOListItem.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSMDOListItem_SetRank
+description: NSMDOListItem.SetRank(Integer rank)
 intellisense: NSMDOListItem.SetRank
-keywords: SetRank(Integer)
+keywords: NSMDOListItem, GetRank
 so.topic: reference
 ---
 
-
 The rank of the ListItem
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

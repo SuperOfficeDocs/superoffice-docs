@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreference_SetUserPreferenceId_Integer_p_0
-description: NSPreference.SetUserPreferenceId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPreference_SetUserPreferenceId
+description: NSPreference.SetUserPreferenceId(Integer userPreferenceId)
 intellisense: NSPreference.SetUserPreferenceId
-keywords: SetUserPreferenceId(Integer)
+keywords: NSPreference, GetUserPreferenceId
 so.topic: reference
 ---
 
-
 The id of the user preference
 
-
-
-* **UserPreferenceId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **userPreferenceId** Integer
 

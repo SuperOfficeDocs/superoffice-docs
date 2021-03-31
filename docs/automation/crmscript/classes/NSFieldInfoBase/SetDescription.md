@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoBase_SetDescription_String_p_0
-description: NSFieldInfoBase.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoBase_SetDescription
+description: NSFieldInfoBase.SetDescription(String description)
 intellisense: NSFieldInfoBase.SetDescription
-sortOrder: 3474
-keywords: SetDescription(String)
+keywords: NSFieldInfoBase, GetDescription
 so.topic: reference
 ---
 
-
 Optional tooltip text for this field
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

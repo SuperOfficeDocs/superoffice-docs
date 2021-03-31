@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTile_SetCaption_String_p_0
-description: NSDashboardTile.SetCaption(String p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetCaption
+description: NSDashboardTile.SetCaption(String caption)
 intellisense: NSDashboardTile.SetCaption
-sortOrder: 2303
-keywords: SetCaption(String)
+keywords: NSDashboardTile, GetCaption
 so.topic: reference
 ---
 
-
 The tile caption
 
-
-
-* **Caption:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **caption** String
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplateEntity_GetIntentId
-description: NSDocumentTemplateEntity.GetIntentId()
+description: Integer NSDocumentTemplateEntity.GetIntentId()
 intellisense: NSDocumentTemplateEntity.GetIntentId
-sortOrder: 2659
-keywords: GetIntentId()
+keywords: NSDocumentTemplateEntity, GetIntentId
 so.topic: reference
 ---
 
-
 What is the intention of this document (used by SAINT)
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

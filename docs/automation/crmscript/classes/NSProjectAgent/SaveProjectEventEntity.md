@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSProjectAgent_SaveProjectEventEntity_NSProjectEventEntity_p_0
-description: NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_SaveProjectEventEntity
+description: NSProjectEventEntity SaveProjectEventEntity(NSProjectEventEntity projectEventEntity);
 intellisense: NSProjectAgent.SaveProjectEventEntity
-keywords: SaveProjectEventEntity(NSProjectEventEntity)
+keywords: NSProjectAgent,SaveProjectEventEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSProjectEventEntity or creates a new NSProjectEventEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **projectEventEntity** The NSProjectEventEntity to save.
 
+**Returns:** New or updated NSProjectEventEntity
 
-Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is empty
-
-
-
-* **projectEventEntity:** The ProjectEventEntity that is saved
-* **Returns:** New or updated ProjectEventEntity
-
+```crmscript
+NSProject  agent;
+NSProjectEventEntity thing = agent.CreateDefaultProjectEventEntity();
+thing = agent.SaveProjectEventEntity(thing);
+```
 

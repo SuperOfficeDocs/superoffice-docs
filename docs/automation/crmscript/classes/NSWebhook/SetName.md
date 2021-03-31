@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebhook_SetName_String_p_0
-description: NSWebhook.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSWebhook_SetName
+description: NSWebhook.SetName(String name)
 intellisense: NSWebhook.SetName
-keywords: SetName(String)
+keywords: NSWebhook, GetName
 so.topic: reference
 ---
 
-
 Name to identify this webhook. Does not have to be unique.
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

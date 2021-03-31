@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSBusiness_SetId_Integer_p_0
-description: NSBusiness.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSBusiness_SetId
+description: NSBusiness.SetId(Integer id)
 intellisense: NSBusiness.SetId
-sortOrder: 1481
-keywords: SetId(Integer)
+keywords: NSBusiness, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

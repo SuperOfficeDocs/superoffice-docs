@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketSummaryItem_GetTicketStatus
-description: NSTicketSummaryItem.GetTicketStatus()
+description: Integer NSTicketSummaryItem.GetTicketStatus()
 intellisense: NSTicketSummaryItem.GetTicketStatus
-keywords: GetTicketStatus()
+keywords: NSTicketSummaryItem, GetTicketStatus
 so.topic: reference
 ---
 
-
 User defined ticket status
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,17 +1,16 @@
----
-title: crmscript_ref_NSTicketMessageEntity_SetMessageCategory_NSTicketMessageCategory_p_0
-description: NSTicketMessageEntity.SetMessageCategory(NSTicketMessageCategory p_0)
+﻿---
+title: crmscript_ref_NSTicketMessageEntity_SetMessageCategory
+description: NSTicketMessageEntity.SetMessageCategory(TicketMessageCategory messageCategory)
 intellisense: NSTicketMessageEntity.SetMessageCategory
-keywords: SetMessageCategory(NSTicketMessageCategory)
+keywords: NSTicketMessageEntity, GetMessageCategory
 so.topic: reference
 ---
 
-
 Defines what kind of message this is.
 
-
-
-* **MessageCategory:** TicketMessageCategory
-* **Returns:** TicketMessageCategory
-
+**Parameter:** 
+ - **messageCategory** TicketMessageCategory
+     - Enum: 0 = Message 
+     - Enum: 1 = Bounce 
+     - Enum: 2 = OutboxFailed 
 

@@ -1,16 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetLinkList_Integer__p_0
-description: NSListAgent.GetLinkList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetLinkList
+description: NSLink[] GetLinkList(Integer[]  linkIds);
 intellisense: NSListAgent.GetLinkList
-keywords: GetLinkList(Integer[])
+keywords: NSListAgent,GetLinkList
 so.topic: reference
 ---
 
-Gets an array of Link objects.
+Gets a vector of Link objects.
 
+**Parameters:**
+ - **linkIds** The identifiers of the NSLink objects
 
+**Returns:** Vector of NSLink objects
 
-* **p0:** IntegerArray of identifiers for Link
-* **Returns:** Array of NSLink
-
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetLinkList(ids);
+```
 

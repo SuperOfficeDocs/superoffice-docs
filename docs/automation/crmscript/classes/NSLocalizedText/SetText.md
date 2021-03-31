@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLocalizedText_SetText_String_p_0
-description: NSLocalizedText.SetText(String p_0)
+﻿---
+title: crmscript_ref_NSLocalizedText_SetText
+description: NSLocalizedText.SetText(String text)
 intellisense: NSLocalizedText.SetText
-keywords: SetText(String)
+keywords: NSLocalizedText, GetText
 so.topic: reference
 ---
 
-
 The text string itself
 
-
-
-* **Text:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **text** String
 

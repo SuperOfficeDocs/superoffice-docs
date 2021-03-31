@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserInfo_GetRoleTooltip
-description: NSUserInfo.GetRoleTooltip()
+description: String NSUserInfo.GetRoleTooltip()
 intellisense: NSUserInfo.GetRoleTooltip
-keywords: GetRoleTooltip()
+keywords: NSUserInfo, GetRoleTooltip
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

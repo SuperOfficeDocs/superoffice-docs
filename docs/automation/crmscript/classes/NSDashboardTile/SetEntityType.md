@@ -1,18 +1,22 @@
----
-title: crmscript_ref_NSDashboardTile_SetEntityType_Integer_p_0
-description: NSDashboardTile.SetEntityType(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetEntityType
+description: NSDashboardTile.SetEntityType(Integer entityType)
 intellisense: NSDashboardTile.SetEntityType
-sortOrder: 2309
-keywords: SetEntityType(Integer)
+keywords: NSDashboardTile, GetEntityType
 so.topic: reference
 ---
 
-
 The tile entity type
 
-
-
-* **EntityType:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **entityType** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Company 
+     - Enum: 2 = Project 
+     - Enum: 3 = Sale 
+     - Enum: 4 = Product 
+     - Enum: 5 = Activity 
+     - Enum: 6 = Document 
+     - Enum: 7 = WebPanel 
+     - Enum: 8 = Followup 
 

@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSListAgent_CreateDefaultProjectTypeEntity
-description: NSListAgent.CreateDefaultProjectTypeEntity()
+description: NSProjectTypeEntity CreateDefaultProjectTypeEntity()
 intellisense: NSListAgent.CreateDefaultProjectTypeEntity
-keywords: CreateDefaultProjectTypeEntity()
+keywords: NSListAgent,CreateDefaultProjectTypeEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSProjectTypeEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSProjectTypeEntity with default values.
 
-
-Loading default values into a new ProjectTypeEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New ProjectTypeEntity with default values
-
+```crmscript
+NSListAgent agent;
+NSProjectTypeEntity thing = agent.CreateDefaultProjectTypeEntity();
+thing = agent.SaveProjectTypeEntity(thing);
+```
 

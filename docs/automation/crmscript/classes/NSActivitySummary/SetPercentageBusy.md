@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSActivitySummary_SetPercentageBusy_Integer_p_0
-description: NSActivitySummary.SetPercentageBusy(Integer p_0)
+﻿---
+title: crmscript_ref_NSActivitySummary_SetPercentageBusy
+description: NSActivitySummary.SetPercentageBusy(Integer percentageBusy)
 intellisense: NSActivitySummary.SetPercentageBusy
-sortOrder: 592
-keywords: SetPercentageBusy(Integer)
+keywords: NSActivitySummary, GetPercentageBusy
 so.topic: reference
 ---
 
-
 How much of the active work-day which is booked in appointments.
 
-
-
-* **PercentageBusy:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **percentageBusy** Integer
 

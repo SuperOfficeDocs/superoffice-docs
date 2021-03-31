@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSServiceAuth_GetServiceAuthId
-description: NSServiceAuth.GetServiceAuthId()
+description: Integer NSServiceAuth.GetServiceAuthId()
 intellisense: NSServiceAuth.GetServiceAuthId
-keywords: GetServiceAuthId()
+keywords: NSServiceAuth, GetServiceAuthId
 so.topic: reference
 ---
 
-
 The primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

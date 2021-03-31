@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactActivity_GetOrgNr
-description: NSContactActivity.GetOrgNr()
+description: String NSContactActivity.GetOrgNr()
 intellisense: NSContactActivity.GetOrgNr
-sortOrder: 1778
-keywords: GetOrgNr()
+keywords: NSContactActivity, GetOrgNr
 so.topic: reference
 ---
 
-
 VAT number or similar
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

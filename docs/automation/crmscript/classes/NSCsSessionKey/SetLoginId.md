@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCsSessionKey_SetLoginId_Integer_p_0
-description: NSCsSessionKey.SetLoginId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCsSessionKey_SetLoginId
+description: NSCsSessionKey.SetLoginId(Integer loginId)
 intellisense: NSCsSessionKey.SetLoginId
-sortOrder: 2167
-keywords: SetLoginId(Integer)
+keywords: NSCsSessionKey, GetLoginId
 so.topic: reference
 ---
 
-
 The id of the login row
 
-
-
-* **LoginId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **loginId** Integer
 

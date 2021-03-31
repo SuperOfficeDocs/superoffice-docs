@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncDefaultValue_SetErpFieldKey_String_p_0
-description: NSErpSyncDefaultValue.SetErpFieldKey(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncDefaultValue_SetErpFieldKey
+description: NSErpSyncDefaultValue.SetErpFieldKey(String erpFieldKey)
 intellisense: NSErpSyncDefaultValue.SetErpFieldKey
-sortOrder: 3267
-keywords: SetErpFieldKey(String)
+keywords: NSErpSyncDefaultValue, GetErpFieldKey
 so.topic: reference
 ---
 
-
 The ERP field key
 
-
-
-* **ErpFieldKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **erpFieldKey** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuickReply_SetQuickReplyId_Integer_p_0
-description: NSQuickReply.SetQuickReplyId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuickReply_SetQuickReplyId
+description: NSQuickReply.SetQuickReplyId(Integer quickReplyId)
 intellisense: NSQuickReply.SetQuickReplyId
-keywords: SetQuickReplyId(Integer)
+keywords: NSQuickReply, GetQuickReplyId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **QuickReplyId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **quickReplyId** Integer
 

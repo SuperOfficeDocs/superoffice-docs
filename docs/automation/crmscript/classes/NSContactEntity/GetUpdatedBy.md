@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetUpdatedBy
-description: NSContactEntity.GetUpdatedBy()
+description: Associate NSContactEntity.GetUpdatedBy()
 intellisense: NSContactEntity.GetUpdatedBy
-sortOrder: 1853
-keywords: GetUpdatedBy()
+keywords: NSContactEntity, GetUpdatedBy
 so.topic: reference
 ---
 
+The user that last updated the contact
 
-The person that last updated the contact
-
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

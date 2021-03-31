@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetAlertLevel_Integer_p_0
-description: NSTicket.SetAlertLevel(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetAlertLevel
+description: NSTicket.SetAlertLevel(Integer alertLevel)
 intellisense: NSTicket.SetAlertLevel
-keywords: SetAlertLevel(Integer)
+keywords: NSTicket, GetAlertLevel
 so.topic: reference
 ---
 
+The alert level for the ticket. Matches the level value of the ticket_alert table.
 
-The alert level for the ticket. Matches the level value of the ticket\_alert table.
-
-
-
-* **AlertLevel:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **alertLevel** Integer
 

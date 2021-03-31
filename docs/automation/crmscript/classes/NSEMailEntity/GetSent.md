@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetSent
-description: NSEMailEntity.GetSent()
+description: DateTime NSEMailEntity.GetSent()
 intellisense: NSEMailEntity.GetSent
-sortOrder: 2948
-keywords: GetSent()
+keywords: NSEMailEntity, GetSent
 so.topic: reference
 ---
 
-
 When was the e-mail sent
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketNotificationMessage_SetMessage_String_p_0
-description: NSPocketNotificationMessage.SetMessage(String p_0)
+﻿---
+title: crmscript_ref_NSPocketNotificationMessage_SetMessage
+description: NSPocketNotificationMessage.SetMessage(String message)
 intellisense: NSPocketNotificationMessage.SetMessage
-keywords: SetMessage(String)
+keywords: NSPocketNotificationMessage, GetMessage
 so.topic: reference
 ---
 
-
 The notification message body
 
-
-
-* **Message:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **message** String
 

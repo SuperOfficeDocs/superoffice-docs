@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignDevice_SetForeignDeviceId_Integer_p_0
-description: NSForeignDevice.SetForeignDeviceId(Integer p_0)
+﻿---
+title: crmscript_ref_NSForeignDevice_SetForeignDeviceId
+description: NSForeignDevice.SetForeignDeviceId(Integer foreignDeviceId)
 intellisense: NSForeignDevice.SetForeignDeviceId
-sortOrder: 3728
-keywords: SetForeignDeviceId(Integer)
+keywords: NSForeignDevice, GetForeignDeviceId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ForeignDeviceId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **foreignDeviceId** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetContactName_String_p_0
-description: NSAlarmData.SetContactName(String p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetContactName
+description: NSAlarmData.SetContactName(String contactName)
 intellisense: NSAlarmData.SetContactName
-sortOrder: 679
-keywords: SetContactName(String)
+keywords: NSAlarmData, GetContactName
 so.topic: reference
 ---
 
-
 Contact name
 
-
-
-* **ContactName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactName** String
 

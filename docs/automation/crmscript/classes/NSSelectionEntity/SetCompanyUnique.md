@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetCompanyUnique_Bool_p_0
-description: NSSelectionEntity.SetCompanyUnique(Bool p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetCompanyUnique
+description: NSSelectionEntity.SetCompanyUnique(Bool companyUnique)
 intellisense: NSSelectionEntity.SetCompanyUnique
-keywords: SetCompanyUnique(Bool)
+keywords: NSSelectionEntity, GetCompanyUnique
 so.topic: reference
 ---
 
-
 Filter out duplicate members based on company?
 
-
-
-* **CompanyUnique:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **companyUnique** Bool
 

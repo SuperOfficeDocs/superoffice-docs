@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetCategory_NSTicketCategoryEntity_p_0
-description: NSTicketEntity.SetCategory(NSTicketCategoryEntity p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetCategory
+description: NSTicketEntity.SetCategory(TicketCategoryEntity category)
 intellisense: NSTicketEntity.SetCategory
-keywords: SetCategory(NSTicketCategoryEntity)
+keywords: NSTicketEntity, GetCategory
 so.topic: reference
 ---
 
-
 The ticket category entity which this ticket is connected to
 
-
-
-* **Category:** TicketCategoryEntity
-* **Returns:** TicketCategoryEntity
-
+**Parameter:** 
+ - **category** TicketCategoryEntity
 

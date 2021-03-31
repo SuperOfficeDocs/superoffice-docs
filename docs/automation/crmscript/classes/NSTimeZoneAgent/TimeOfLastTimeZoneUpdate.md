@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSTimeZoneAgent_TimeOfLastTimeZoneUpdate
-description: NSTimeZoneAgent.TimeOfLastTimeZoneUpdate()
+description: DateTime TimeOfLastTimeZoneUpdate()
 intellisense: NSTimeZoneAgent.TimeOfLastTimeZoneUpdate
-keywords: TimeOfLastTimeZoneUpdate()
+keywords: NSTimeZoneAgent,TimeOfLastTimeZoneUpdate
 so.topic: reference
 ---
-
 
 Get the time time zone data was last updated
 
 
+**Returns:** Time of last update
 
-* **Returns:** Time of last update
-
+```crmscript
+NSTimeZoneAgent agent;
+DateTime res = agent.TimeOfLastTimeZoneUpdate();
+```
 

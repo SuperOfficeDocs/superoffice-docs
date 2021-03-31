@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFreeText_SetFreeTextEnabled_Bool_p_0
-description: NSFreeText.SetFreeTextEnabled(Bool p_0)
+﻿---
+title: crmscript_ref_NSFreeText_SetFreeTextEnabled
+description: NSFreeText.SetFreeTextEnabled(Bool freeTextEnabled)
 intellisense: NSFreeText.SetFreeTextEnabled
-sortOrder: 3861
-keywords: SetFreeTextEnabled(Bool)
+keywords: NSFreeText, GetFreeTextEnabled
 so.topic: reference
 ---
 
-
 True if freetext search enabled
 
-
-
-* **FreeTextEnabled:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **freeTextEnabled** Bool
 

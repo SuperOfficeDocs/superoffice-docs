@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetUDefFieldId_Integer_p_0
-description: NSUserDefinedFieldInfo.SetUDefFieldId(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetUDefFieldId
+description: NSUserDefinedFieldInfo.SetUDefFieldId(Integer uDefFieldId)
 intellisense: NSUserDefinedFieldInfo.SetUDefFieldId
-keywords: SetUDefFieldId(Integer)
+keywords: NSUserDefinedFieldInfo, GetUDefFieldId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **UDefFieldId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **uDefFieldId** Integer
 

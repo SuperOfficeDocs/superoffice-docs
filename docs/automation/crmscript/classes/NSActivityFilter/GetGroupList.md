@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSActivityFilter_GetGroupList
-description: NSActivityFilter.GetGroupList()
+description: SelectableMDOListItemArray NSActivityFilter.GetGroupList()
 intellisense: NSActivityFilter.GetGroupList
-sortOrder: 573
-keywords: GetGroupList()
+keywords: NSActivityFilter, GetGroupList
 so.topic: reference
 ---
 
-
 The list of groups to filter on
 
-
-
-* **Returns:** SelectableMDOListItemArray
+**Returns:** SelectableMDOListItemArray
 
 

@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoMdoList
 description: NSFieldInfoMdoList
 intellisense: Void.NSFieldInfoMdoList
-sortOrder: 3529
+keywords: NSFieldInfoMdoList
 so.topic: reference
 ---
 
-
 MDO List custom database field.
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAddressSyncData_SetCounty_String_p_0
-description: NSAddressSyncData.SetCounty(String p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetCounty
+description: NSAddressSyncData.SetCounty(String county)
 intellisense: NSAddressSyncData.SetCounty
-sortOrder: 635
-keywords: SetCounty(String)
+keywords: NSAddressSyncData, GetCounty
 so.topic: reference
 ---
 
 
-* **County:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **county** String
 

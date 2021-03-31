@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAudienceAgent_GetAudienceLayoutOnPerson_Integer_p_0
-description: NSAudienceAgent.GetAudienceLayoutOnPerson(Integer p_0)
+﻿---
+title: crmscript_ref_NSAudienceAgent_GetAudienceLayoutOnPerson
+description: AudienceLayoutEntity GetAudienceLayoutOnPerson(Integer personId)
 intellisense: NSAudienceAgent.GetAudienceLayoutOnPerson
-sortOrder: 1300
-keywords: GetAudienceLayoutOnPerson(Integer)
+keywords: NSAudienceAgent,GetAudienceLayoutOnPerson
 so.topic: reference
 ---
 
-
 Gets the Audience layout belonging to the person specified.
 
+**Parameters:**
+ - **personId** The person id
 
+**Returns:** Audience layout entity
 
-* **personId:** The person id
-* **Returns:** Audience layout entity
-
+```crmscript
+NSAudienceAgent agent;
+Integer personId;
+AudienceLayoutEntity res = agent.GetAudienceLayoutOnPerson(personId);
+```
 

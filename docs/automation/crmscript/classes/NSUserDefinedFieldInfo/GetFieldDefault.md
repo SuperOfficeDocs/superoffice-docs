@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldDefault
-description: NSUserDefinedFieldInfo.GetFieldDefault()
+description: String NSUserDefinedFieldInfo.GetFieldDefault()
 intellisense: NSUserDefinedFieldInfo.GetFieldDefault
-keywords: GetFieldDefault()
+keywords: NSUserDefinedFieldInfo, GetFieldDefault
 so.topic: reference
 ---
 
-
 Optional default value for String fields
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

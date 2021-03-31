@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAmountClassEntity_SetRank_Integer_p_0
-description: NSAmountClassEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSAmountClassEntity_SetRank
+description: NSAmountClassEntity.SetRank(Integer rank)
 intellisense: NSAmountClassEntity.SetRank
-sortOrder: 709
-keywords: SetRank(Integer)
+keywords: NSAmountClassEntity, GetRank
 so.topic: reference
 ---
 
-
 Rank order
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

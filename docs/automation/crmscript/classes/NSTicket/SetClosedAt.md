@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetClosedAt_DateTime_p_0
-description: NSTicket.SetClosedAt(DateTime p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetClosedAt
+description: NSTicket.SetClosedAt(DateTime closedAt)
 intellisense: NSTicket.SetClosedAt
-keywords: SetClosedAt(DateTime)
+keywords: NSTicket, GetClosedAt
 so.topic: reference
 ---
 
-
 When the ticket was closed.
 
-
-
-* **ClosedAt:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **closedAt** DateTime
 

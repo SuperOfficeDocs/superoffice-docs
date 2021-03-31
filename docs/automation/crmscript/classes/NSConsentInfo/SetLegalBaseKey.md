@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentInfo_SetLegalBaseKey_String_p_0
-description: NSConsentInfo.SetLegalBaseKey(String p_0)
+﻿---
+title: crmscript_ref_NSConsentInfo_SetLegalBaseKey
+description: NSConsentInfo.SetLegalBaseKey(String legalBaseKey)
 intellisense: NSConsentInfo.SetLegalBaseKey
-sortOrder: 1652
-keywords: SetLegalBaseKey(String)
+keywords: NSConsentInfo, GetLegalBaseKey
 so.topic: reference
 ---
 
-
 Key for the LegalBase associated with this consent
 
-
-
-* **LegalBaseKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **legalBaseKey** String
 

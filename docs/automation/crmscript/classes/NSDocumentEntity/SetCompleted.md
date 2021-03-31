@@ -1,18 +1,17 @@
----
-title: crmscript_ref_NSDocumentEntity_SetCompleted_Integer_p_0
-description: NSDocumentEntity.SetCompleted(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetCompleted
+description: NSDocumentEntity.SetCompleted(Integer completed)
 intellisense: NSDocumentEntity.SetCompleted
-sortOrder: 2587
-keywords: SetCompleted(Integer)
+keywords: NSDocumentEntity, GetCompleted
 so.topic: reference
 ---
 
+Document Completed state. This is the part of the Status property. 
 
-Document Completed state. This is the part of the Status property.
-
-
-
-* **Completed:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **completed** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 

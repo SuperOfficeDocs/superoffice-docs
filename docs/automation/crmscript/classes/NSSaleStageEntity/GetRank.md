@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleStageEntity_GetRank
-description: NSSaleStageEntity.GetRank()
+description: Integer NSSaleStageEntity.GetRank()
 intellisense: NSSaleStageEntity.GetRank
-keywords: GetRank()
+keywords: NSSaleStageEntity, GetRank
 so.topic: reference
 ---
 
-
 Rank order
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

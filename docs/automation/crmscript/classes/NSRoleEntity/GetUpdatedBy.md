@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSRoleEntity_GetUpdatedBy
-description: NSRoleEntity.GetUpdatedBy()
+description: Associate NSRoleEntity.GetUpdatedBy()
 intellisense: NSRoleEntity.GetUpdatedBy
-keywords: GetUpdatedBy()
+keywords: NSRoleEntity, GetUpdatedBy
 so.topic: reference
 ---
 
-
 Last updated by user
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

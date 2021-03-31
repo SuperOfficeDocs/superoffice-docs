@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSCredited_SetId_Integer_p_0
-description: NSCredited.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCredited_SetId
+description: NSCredited.SetId(Integer id)
 intellisense: NSCredited.SetId
-sortOrder: 2099
-keywords: SetId(Integer)
+keywords: NSCredited, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

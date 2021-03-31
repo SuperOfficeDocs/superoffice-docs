@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetEmails_NSEntityElement__p_0
-description: NSPersonEntity.SetEmails(NSEntityElement[] p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetEmails
+description: NSPersonEntity.SetEmails(EntityElementArray emails)
 intellisense: NSPersonEntity.SetEmails
-keywords: SetEmails(NSEntityElement[])
+keywords: NSPersonEntity, GetEmails
 so.topic: reference
 ---
 
-
 A collection of the person's emails
 
-
-
-* **Emails:** EntityElementArray
-* **Returns:** EntityElementArray
-
+**Parameter:** 
+ - **emails** EntityElementArray
 

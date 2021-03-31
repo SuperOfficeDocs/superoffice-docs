@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSResourceOverride_SetResourceName_String_p_0
-description: NSResourceOverride.SetResourceName(String p_0)
+﻿---
+title: crmscript_ref_NSResourceOverride_SetResourceName
+description: NSResourceOverride.SetResourceName(String resourceName)
 intellisense: NSResourceOverride.SetResourceName
-keywords: SetResourceName(String)
+keywords: NSResourceOverride, GetResourceName
 so.topic: reference
 ---
 
+The name of the resource, without any brackets or braces - example: SR_CONTACT
 
-The name of the resource, without any brackets or braces - example: SR\_CONTACT
-
-
-
-* **ResourceName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **resourceName** String
 

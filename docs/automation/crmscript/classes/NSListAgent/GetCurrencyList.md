@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetCurrencyList_Integer__p_0
-description: NSListAgent.GetCurrencyList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCurrencyList
+description: NSCurrency[] GetCurrencyList(Integer[]  currencyIds);
 intellisense: NSListAgent.GetCurrencyList
-keywords: GetCurrencyList(Integer[])
+keywords: NSListAgent,GetCurrencyList
 so.topic: reference
 ---
 
-Gets an array of Currency objects.
+Gets a vector of Currency objects.
 
+**Parameters:**
+ - **currencyIds** The identifiers of the NSCurrency objects
 
-* **p0:** IntegerArray of identifiers for Currency
-* **Returns:** Array of NSCurrency
+**Returns:** Vector of NSCurrency objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetCurrencyList(ids);
+```
 

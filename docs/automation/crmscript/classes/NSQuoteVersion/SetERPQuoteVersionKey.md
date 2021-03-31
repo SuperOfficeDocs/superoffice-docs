@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersion_SetERPQuoteVersionKey_String_p_0
-description: NSQuoteVersion.SetERPQuoteVersionKey(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetERPQuoteVersionKey
+description: NSQuoteVersion.SetERPQuoteVersionKey(String eRPQuoteVersionKey)
 intellisense: NSQuoteVersion.SetERPQuoteVersionKey
-keywords: SetERPQuoteVersionKey(String)
+keywords: NSQuoteVersion, GetERPQuoteVersionKey
 so.topic: reference
 ---
 
-
 Key in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty).
 
-
-
-* **ERPQuoteVersionKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **eRPQuoteVersionKey** String
 

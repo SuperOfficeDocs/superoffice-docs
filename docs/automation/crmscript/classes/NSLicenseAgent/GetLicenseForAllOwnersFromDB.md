@@ -1,12 +1,10 @@
----
+﻿---
 title: crmscript_ref_NSLicenseAgent_GetLicenseForAllOwnersFromDB
-description: NSLicenseAgent.GetLicenseForAllOwnersFromDB()
+description: ExtendedLicenseInfoArray GetLicenseForAllOwnersFromDB()
 intellisense: NSLicenseAgent.GetLicenseForAllOwnersFromDB
-keywords: GetLicenseForAllOwnersFromDB()
+keywords: NSLicenseAgent,GetLicenseForAllOwnersFromDB
 so.topic: reference
 ---
 
-
 Get all licenses, with usage, from all module owners as they are stored in the database
-
 

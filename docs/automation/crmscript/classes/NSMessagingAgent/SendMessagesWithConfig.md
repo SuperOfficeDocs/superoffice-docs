@@ -1,19 +1,25 @@
----
-title: crmscript_ref_NSMessagingAgent_SendMessagesWithConfig_String_p_0_NSOutgoingMessage__p_1_StringDictionary_p_2
-description: NSMessagingAgent.SendMessagesWithConfig(String p_0, NSOutgoingMessage[] p_1, StringDictionary p_2)
+﻿---
+title: crmscript_ref_NSMessagingAgent_SendMessagesWithConfig
+description: MessageDeliveryStatusArray SendMessagesWithConfig(String plugin, OutgoingMessageArray outgoingMessages, StringDictionary config)
 intellisense: NSMessagingAgent.SendMessagesWithConfig
-keywords: SendMessagesWithConfig(String,NSOutgoingMessage[],StringDictionary)
+keywords: NSMessagingAgent,SendMessagesWithConfig
 so.topic: reference
 ---
 
-
 Send an array of messages using given config
 
+**Parameters:**
+ - **plugin** Name of plugin to use.
+ - **outgoingMessages** Array of outgoing messages you want to send.
+ - **config** Config values used by the plugin.
 
+**Returns:** Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
 
-* **plugin:** Name of plugin to use.
-* **outgoingMessages:** Array of outgoing messages you want to send.
-* **config:** Config values used by the plugin.
-* **Returns:** Array of MessageDeliveryStatus. Length of the array is equal to the number of outgoing messages.
-
+```crmscript
+NSMessagingAgent agent;
+String plugin;
+OutgoingMessageArray outgoingMessages;
+StringDictionary config;
+MessageDeliveryStatusArray res = agent.SendMessagesWithConfig(plugin, outgoingMessages, config);
+```
 

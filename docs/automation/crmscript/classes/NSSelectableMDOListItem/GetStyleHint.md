@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSelectableMDOListItem_GetStyleHint
-description: NSSelectableMDOListItem.GetStyleHint()
+description: String NSSelectableMDOListItem.GetStyleHint()
 intellisense: NSSelectableMDOListItem.GetStyleHint
-keywords: GetStyleHint()
+keywords: NSSelectableMDOListItem, GetStyleHint
 so.topic: reference
 ---
 
-
 Style hint indicating, information such as background color etc. Custom field.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

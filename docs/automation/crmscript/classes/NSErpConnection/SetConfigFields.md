@@ -1,12 +1,13 @@
----
-title: crmscript_ref_NSErpConnection_SetConfigFields_Map_p_0
-description: NSErpConnection.SetConfigFields(Map p_0)
+﻿---
+title: crmscript_ref_NSErpConnection_SetConfigFields
+description: NSErpConnection.SetConfigFields(StringDictionary configFields)
 intellisense: NSErpConnection.SetConfigFields
-sortOrder: 3094
-keywords: SetConfigFields(Map)
+keywords: NSErpConnection, GetConfigFields
 so.topic: reference
 ---
 
+The config fields needed to establish a connection to the connector
 
-
+**Parameter:** 
+ - **configFields** StringDictionary
 

@@ -1,14 +1,21 @@
----
-title: crmscript_ref_NSContactAgent_GetContactList_Integer__contactIds
-description: NSContactAgent.GetContactList(Integer[] contactIds)
+﻿---
+title: crmscript_ref_NSContactAgent_GetContactList
+description: NSContact[] GetContactList(Integer[]  contactIds);
 intellisense: NSContactAgent.GetContactList
-sortOrder: 1804
-keywords: GetContactList(Integer[])
+keywords: NSContactAgent,GetContactList
 so.topic: reference
 ---
 
-Gets an array of Contact objects.
+Gets a vector of Contact objects.
 
+**Parameters:**
+ - **contactIds** The identifiers of the NSContact objects
 
-* **contactIds:** IntegerArray of identifiers for Contact
-* **Returns:** Array of NSContact
+**Returns:** Vector of NSContact objects
+
+```crmscript
+Integer[] ids;
+NSContactAgent agent;
+agent.GetContactList(ids);
+```
+

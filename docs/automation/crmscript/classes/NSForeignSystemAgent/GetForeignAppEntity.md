@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSForeignSystemAgent_GetForeignAppEntity_Integer_p_0
-description: NSForeignSystemAgent.GetForeignAppEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSForeignSystemAgent_GetForeignAppEntity
+description: NSForeignAppEntity GetForeignAppEntity(Integer foreignAppEntityId);
 intellisense: NSForeignSystemAgent.GetForeignAppEntity
-sortOrder: 3754
-keywords: GetForeignAppEntity(Integer)
+keywords: NSForeignSystemAgent,GetForeignAppEntity
 so.topic: reference
 ---
 
+Gets a NSForeignAppEntity object.
 
-Gets a ForeignAppEntity object.
+**Parameters:**
+ - **foreignAppEntityId** The identifier of the NSForeignAppEntity object
 
+**Returns:** NSForeignAppEntity
 
-
-* **foreignAppEntityId:** The identifier of the ForeignAppEntity object
-* **Returns:** ForeignAppEntity
-
+```crmscript
+NSForeignSystemAgent agent;
+NSForeignAppEntity thing = agent.GetForeignAppEntity(123);
+```
 

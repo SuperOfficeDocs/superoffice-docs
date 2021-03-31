@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetUpdatedCount_Integer_p_0
-description: NSSelectionEntity.SetUpdatedCount(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetUpdatedCount
+description: NSSelectionEntity.SetUpdatedCount(Integer updatedCount)
 intellisense: NSSelectionEntity.SetUpdatedCount
-keywords: SetUpdatedCount(Integer)
+keywords: NSSelectionEntity, GetUpdatedCount
 so.topic: reference
 ---
 
-
 Number of updates made to this record
 
-
-
-* **UpdatedCount:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **updatedCount** Integer
 

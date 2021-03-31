@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSNavigatorAgent_GetNavigatorCompany_Integer_p_0
-description: NSNavigatorAgent.GetNavigatorCompany(Integer p_0)
+﻿---
+title: crmscript_ref_NSNavigatorAgent_GetNavigatorCompany
+description: NSNavigatorCompany GetNavigatorCompany(Integer navigatorCompanyId);
 intellisense: NSNavigatorAgent.GetNavigatorCompany
-keywords: GetNavigatorCompany(Integer)
+keywords: NSNavigatorAgent,GetNavigatorCompany
 so.topic: reference
 ---
 
+Gets a NSNavigatorCompany object.
 
-Gets a NavigatorCompany object.
+**Parameters:**
+ - **navigatorCompanyId** The identifier of the NSNavigatorCompany object
 
+**Returns:** NSNavigatorCompany
 
-
-* **navigatorCompanyId:** The identifier of the NavigatorCompany object
-* **Returns:** NavigatorCompany
-
+```crmscript
+NSNavigatorAgent agent;
+NSNavigatorCompany thing = agent.GetNavigatorCompany(123);
+```
 

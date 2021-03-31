@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDiaryViewEntity_SetDiaryViewId_Integer_p_0
-description: NSDiaryViewEntity.SetDiaryViewId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDiaryViewEntity_SetDiaryViewId
+description: NSDiaryViewEntity.SetDiaryViewId(Integer diaryViewId)
 intellisense: NSDiaryViewEntity.SetDiaryViewId
-sortOrder: 2415
-keywords: SetDiaryViewId(Integer)
+keywords: NSDiaryViewEntity, GetDiaryViewId
 so.topic: reference
 ---
 
-
 Id of the DiaryView
 
-
-
-* **DiaryViewId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **diaryViewId** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteListItem_SetDisplayValue_String_p_0
-description: NSQuoteListItem.SetDisplayValue(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteListItem_SetDisplayValue
+description: NSQuoteListItem.SetDisplayValue(String displayValue)
 intellisense: NSQuoteListItem.SetDisplayValue
-keywords: SetDisplayValue(String)
+keywords: NSQuoteListItem, GetDisplayValue
 so.topic: reference
 ---
 
-
 List item text to display.
 
-
-
-* **DisplayValue:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayValue** String
 

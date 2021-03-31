@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSLicenseOwner_SetRestrictedModuleLicenses_NSModuleLicenseLink__p_0
-description: NSLicenseOwner.SetRestrictedModuleLicenses(NSModuleLicenseLink[] p_0)
+﻿---
+title: crmscript_ref_NSLicenseOwner_SetRestrictedModuleLicenses
+description: NSLicenseOwner.SetRestrictedModuleLicenses(ModuleLicenseLinkArray restrictedModuleLicenses)
 intellisense: NSLicenseOwner.SetRestrictedModuleLicenses
-keywords: SetRestrictedModuleLicenses(NSModuleLicenseLink[])
+keywords: NSLicenseOwner, GetRestrictedModuleLicenses
 so.topic: reference
 ---
 
 
-* **RestrictedModuleLicenses:** ModuleLicenseLinkArray
-* **Returns:** ModuleLicenseLinkArray
 
+**Parameter:** 
+ - **restrictedModuleLicenses** ModuleLicenseLinkArray
 

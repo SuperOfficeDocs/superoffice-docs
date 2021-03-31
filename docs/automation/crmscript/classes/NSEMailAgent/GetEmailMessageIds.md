@@ -1,13 +1,12 @@
----
-title: crmscript_ref_NSEMailAgent_GetEmailMessageIds_NSEMailConnectionInfoExtended_p_0
-description: NSEMailAgent.GetEmailMessageIds(NSEMailConnectionInfoExtended p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_GetEmailMessageIds
+description: StringArray GetEmailMessageIds(EMailConnectionInfoExtended connectionInfoExtended)
 intellisense: NSEMailAgent.GetEmailMessageIds
-sortOrder: 2851
-keywords: GetEmailMessageIds(NSEMailConnectionInfoExtended)
+keywords: NSEMailAgent,GetEmailMessageIds
 so.topic: reference
 ---
 
 
-* **connectionInfoExtended**
 
-
+**Parameters:**
+ - **connectionInfoExtended** 

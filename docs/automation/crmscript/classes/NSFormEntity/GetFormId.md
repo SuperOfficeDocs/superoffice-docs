@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetFormId
-description: NSFormEntity.GetFormId()
+description: Integer NSFormEntity.GetFormId()
 intellisense: NSFormEntity.GetFormId
-sortOrder: 3790
-keywords: GetFormId()
+keywords: NSFormEntity, GetFormId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

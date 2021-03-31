@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetUpdated
-description: NSProject.GetUpdated()
+description: DateTime NSProject.GetUpdated()
 intellisense: NSProject.GetUpdated
-keywords: GetUpdated()
+keywords: NSProject, GetUpdated
 so.topic: reference
 ---
 
-
 Last updated date
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

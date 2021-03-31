@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveTicketCategoryEntity_NSTicketCategoryEntity_p_0
-description: NSListAgent.SaveTicketCategoryEntity(NSTicketCategoryEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveTicketCategoryEntity
+description: NSTicketCategoryEntity SaveTicketCategoryEntity(NSTicketCategoryEntity ticketCategoryEntity);
 intellisense: NSListAgent.SaveTicketCategoryEntity
-keywords: SaveTicketCategoryEntity(NSTicketCategoryEntity)
+keywords: NSListAgent,SaveTicketCategoryEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSTicketCategoryEntity or creates a new NSTicketCategoryEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **ticketCategoryEntity** The NSTicketCategoryEntity to save.
 
+**Returns:** New or updated NSTicketCategoryEntity
 
-Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is empty
-
-
-
-* **ticketCategoryEntity:** The TicketCategoryEntity that is saved
-* **Returns:** New or updated TicketCategoryEntity
-
+```crmscript
+NSList  agent;
+NSTicketCategoryEntity thing = agent.CreateDefaultTicketCategoryEntity();
+thing = agent.SaveTicketCategoryEntity(thing);
+```
 

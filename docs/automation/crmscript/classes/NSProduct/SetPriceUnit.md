@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetPriceUnit_String_p_0
-description: NSProduct.SetPriceUnit(String p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetPriceUnit
+description: NSProduct.SetPriceUnit(String priceUnit)
 intellisense: NSProduct.SetPriceUnit
-keywords: SetPriceUnit(String)
+keywords: NSProduct, GetPriceUnit
 so.topic: reference
 ---
 
-
 What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products
 
-
-
-* **PriceUnit:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **priceUnit** String
 

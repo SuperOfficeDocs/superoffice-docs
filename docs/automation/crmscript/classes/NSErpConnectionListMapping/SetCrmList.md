@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnectionListMapping_SetCrmList_NSMDOListItem_p_0
-description: NSErpConnectionListMapping.SetCrmList(NSMDOListItem p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionListMapping_SetCrmList
+description: NSErpConnectionListMapping.SetCrmList(MDOListItem crmList)
 intellisense: NSErpConnectionListMapping.SetCrmList
-sortOrder: 3129
-keywords: SetCrmList(NSMDOListItem)
+keywords: NSErpConnectionListMapping, GetCrmList
 so.topic: reference
 ---
 
-
 The SuperOffice listItem
 
-
-
-* **CrmList:** MDOListItem
-* **Returns:** MDOListItem
-
+**Parameter:** 
+ - **crmList** MDOListItem
 

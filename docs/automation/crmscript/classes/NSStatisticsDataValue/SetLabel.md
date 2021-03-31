@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatisticsDataValue_SetLabel_String_p_0
-description: NSStatisticsDataValue.SetLabel(String p_0)
+﻿---
+title: crmscript_ref_NSStatisticsDataValue_SetLabel
+description: NSStatisticsDataValue.SetLabel(String label)
 intellisense: NSStatisticsDataValue.SetLabel
-keywords: SetLabel(String)
+keywords: NSStatisticsDataValue, GetLabel
 so.topic: reference
 ---
 
-
 The label for the data value
 
-
-
-* **Label:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **label** String
 

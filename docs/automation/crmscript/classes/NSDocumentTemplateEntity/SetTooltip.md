@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetTooltip_String_p_0
-description: NSDocumentTemplateEntity.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetTooltip
+description: NSDocumentTemplateEntity.SetTooltip(String tooltip)
 intellisense: NSDocumentTemplateEntity.SetTooltip
-sortOrder: 2703
-keywords: SetTooltip(String)
+keywords: NSDocumentTemplateEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip or other description
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

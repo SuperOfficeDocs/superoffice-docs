@@ -1,18 +1,17 @@
----
-title: crmscript_ref_NSAppointment_SetCompleted_Integer_p_0
-description: NSAppointment.SetCompleted(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetCompleted
+description: NSAppointment.SetCompleted(Integer completed)
 intellisense: NSAppointment.SetCompleted
-sortOrder: 781
-keywords: SetCompleted(Integer)
+keywords: NSAppointment, GetCompleted
 so.topic: reference
 ---
 
+The Completed state. 
 
-The Completed state.
-
-
-
-* **Completed:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **completed** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 

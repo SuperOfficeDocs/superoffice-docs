@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveRestrictionInfo_SetName_String_p_0
-description: NSArchiveRestrictionInfo.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSArchiveRestrictionInfo_SetName
+description: NSArchiveRestrictionInfo.SetName(String name)
 intellisense: NSArchiveRestrictionInfo.SetName
-sortOrder: 1232
-keywords: SetName(String)
+keywords: NSArchiveRestrictionInfo, GetName
 so.topic: reference
 ---
 
-
 The programmatic column name, including any required prefixes
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

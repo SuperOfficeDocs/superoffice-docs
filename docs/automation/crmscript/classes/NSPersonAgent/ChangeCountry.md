@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSPersonAgent_ChangeCountry_NSPersonEntity_p_0_Integer_p_1
-description: NSPersonAgent.ChangeCountry(NSPersonEntity p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSPersonAgent_ChangeCountry
+description: PersonEntity ChangeCountry(PersonEntity personEntity, Integer toCountryId)
 intellisense: NSPersonAgent.ChangeCountry
-keywords: ChangeCountry(NSPersonEntity,Integer)
+keywords: NSPersonAgent,ChangeCountry
 so.topic: reference
 ---
 
-
 Change country regenerates the default values and localized information such as phone number and address format for this entity.
 
+**Parameters:**
+ - **personEntity** The PersonEntity to change country on
+ - **toCountryId** The country to switch to
 
+**Returns:** The PersonEntity
 
-* **personEntity:** The PersonEntity to change country on
-* **toCountryId:** The country to switch to
-* **Returns:** The PersonEntity
-
+```crmscript
+NSPersonAgent agent;
+PersonEntity personEntity;
+Integer toCountryId;
+PersonEntity res = agent.ChangeCountry(personEntity, toCountryId);
+```
 

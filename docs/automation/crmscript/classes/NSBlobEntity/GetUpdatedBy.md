@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBlobEntity_GetUpdatedBy
-description: NSBlobEntity.GetUpdatedBy()
+description: Associate NSBlobEntity.GetUpdatedBy()
 intellisense: NSBlobEntity.GetUpdatedBy
-sortOrder: 1448
-keywords: GetUpdatedBy()
+keywords: NSBlobEntity, GetUpdatedBy
 so.topic: reference
 ---
 
-
 The person that last updated the appointment.
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSStatusMonitor_GetDescription
-description: NSStatusMonitor.GetDescription()
+description: String NSStatusMonitor.GetDescription()
 intellisense: NSStatusMonitor.GetDescription
-keywords: GetDescription()
+keywords: NSStatusMonitor, GetDescription
 so.topic: reference
 ---
 
-
 Description of the status monitor
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

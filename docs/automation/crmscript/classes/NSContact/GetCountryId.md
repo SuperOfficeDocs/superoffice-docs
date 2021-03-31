@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContact_GetCountryId
-description: NSContact.GetCountryId()
+description: Integer NSContact.GetCountryId()
 intellisense: NSContact.GetCountryId
-sortOrder: 1722
-keywords: GetCountryId()
+keywords: NSContact, GetCountryId
 so.topic: reference
 ---
 
-
 Country
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetZipPrefix_String_p_0
-description: NSCountry.SetZipPrefix(String p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetZipPrefix
+description: NSCountry.SetZipPrefix(String zipPrefix)
 intellisense: NSCountry.SetZipPrefix
-sortOrder: 2047
-keywords: SetZipPrefix(String)
+keywords: NSCountry, GetZipPrefix
 so.topic: reference
 ---
 
-
 Post prefix
 
-
-
-* **ZipPrefix:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **zipPrefix** String
 

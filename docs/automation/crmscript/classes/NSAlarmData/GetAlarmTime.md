@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAlarmData_GetAlarmTime
-description: NSAlarmData.GetAlarmTime()
+description: DateTime NSAlarmData.GetAlarmTime()
 intellisense: NSAlarmData.GetAlarmTime
-sortOrder: 643
-keywords: GetAlarmTime()
+keywords: NSAlarmData, GetAlarmTime
 so.topic: reference
 ---
 
 
-* **Returns:** DateTime
+
+**Returns:** DateTime
 
 

@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetTicketCategoryEntity_Integer_p_0
-description: NSListAgent.GetTicketCategoryEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetTicketCategoryEntity
+description: NSTicketCategoryEntity GetTicketCategoryEntity(Integer ticketCategoryEntityId);
 intellisense: NSListAgent.GetTicketCategoryEntity
-keywords: GetTicketCategoryEntity(Integer)
+keywords: NSListAgent,GetTicketCategoryEntity
 so.topic: reference
 ---
 
+Gets a NSTicketCategoryEntity object.
 
-Gets a TicketCategoryEntity object.
+**Parameters:**
+ - **ticketCategoryEntityId** The identifier of the NSTicketCategoryEntity object
 
+**Returns:** NSTicketCategoryEntity
 
-
-* **ticketCategoryEntityId:** The identifier of the TicketCategoryEntity object
-* **Returns:** TicketCategoryEntity
-
+```crmscript
+NSListAgent agent;
+NSTicketCategoryEntity thing = agent.GetTicketCategoryEntity(123);
+```
 

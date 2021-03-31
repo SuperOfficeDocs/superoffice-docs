@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAmountClassEntity_GetAmountTo
-description: NSAmountClassEntity.GetAmountTo()
+description: Float NSAmountClassEntity.GetAmountTo()
 intellisense: NSAmountClassEntity.GetAmountTo
-sortOrder: 697
-keywords: GetAmountTo()
+keywords: NSAmountClassEntity, GetAmountTo
 so.topic: reference
 ---
 
-
 Upper limit of this amount class
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetCreatedBy_NSAssociate_p_0
-description: NSSaleEntity.SetCreatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetCreatedBy
+description: NSSaleEntity.SetCreatedBy(Associate createdBy)
 intellisense: NSSaleEntity.SetCreatedBy
-keywords: SetCreatedBy(NSAssociate)
+keywords: NSSaleEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 Who created to sale
 
-
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **createdBy** Associate
 

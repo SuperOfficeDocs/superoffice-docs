@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSSaleAgent_DeleteSaleStakeholder_Integer_p_0
-description: NSSaleAgent.DeleteSaleStakeholder(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_DeleteSaleStakeholder
+description: DeleteSaleStakeholder(Integer saleStakeholder);
 intellisense: NSSaleAgent.DeleteSaleStakeholder
-keywords: DeleteSaleStakeholder(Integer)
+keywords: NSSaleAgent,DeleteSaleStakeholder
 so.topic: reference
 ---
 
+Deletes the NSSaleStakeholder
+  
+**Parameters:**
+ - **saleStakeholderId** The identity of the SaleStakeholder to delete.
 
-Deletes the SaleStakeholder
-
-
-
-* **saleStakeholderId:** The identity of the SaleStakeholder
-
+```crmscript
+NSSaleAgent agent;
+agent.DeleteSaleStakeholder(123);
+```
 

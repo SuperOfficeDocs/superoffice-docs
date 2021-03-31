@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetUnitCost_Float_p_0
-description: NSProduct.SetUnitCost(Float p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetUnitCost
+description: NSProduct.SetUnitCost(Float unitCost)
 intellisense: NSProduct.SetUnitCost
-keywords: SetUnitCost(Float)
+keywords: NSProduct, GetUnitCost
 so.topic: reference
 ---
 
-
 The cost price. Might not be given, use Decimal.MinValue to signal this.
 
-
-
-* **UnitCost:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **unitCost** Float
 

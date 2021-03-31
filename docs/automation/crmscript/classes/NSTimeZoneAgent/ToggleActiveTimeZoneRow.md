@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSTimeZoneAgent_ToggleActiveTimeZoneRow_Integer_p_0
-description: NSTimeZoneAgent.ToggleActiveTimeZoneRow(Integer p_0)
+﻿---
+title: crmscript_ref_NSTimeZoneAgent_ToggleActiveTimeZoneRow
+description: Void ToggleActiveTimeZoneRow(Integer id)
 intellisense: NSTimeZoneAgent.ToggleActiveTimeZoneRow
-keywords: ToggleActiveTimeZoneRow(Integer)
+keywords: NSTimeZoneAgent,ToggleActiveTimeZoneRow
 so.topic: reference
 ---
 
-
 Toggles active state of a single row in the TZLocation table
 
-
-
-* **id:** Id of row to toggle active state on
-
-
+**Parameters:**
+ - **id** Id of row to toggle active state on

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuickReply_SetName_String_p_0
-description: NSQuickReply.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSQuickReply_SetName
+description: NSQuickReply.SetName(String name)
 intellisense: NSQuickReply.SetName
-keywords: SetName(String)
+keywords: NSQuickReply, GetName
 so.topic: reference
 ---
 
-
 The short name of the quick reply
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

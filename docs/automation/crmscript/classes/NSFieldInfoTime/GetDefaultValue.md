@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoTime_GetDefaultValue
-description: NSFieldInfoTime.GetDefaultValue()
+description: DateTime NSFieldInfoTime.GetDefaultValue()
 intellisense: NSFieldInfoTime.GetDefaultValue
-sortOrder: 3560
-keywords: GetDefaultValue()
+keywords: NSFieldInfoTime, GetDefaultValue
 so.topic: reference
 ---
 
-
 Default Time value
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

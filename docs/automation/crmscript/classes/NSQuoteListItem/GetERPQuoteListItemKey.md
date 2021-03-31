@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteListItem_GetERPQuoteListItemKey
-description: NSQuoteListItem.GetERPQuoteListItemKey()
+description: String NSQuoteListItem.GetERPQuoteListItemKey()
 intellisense: NSQuoteListItem.GetERPQuoteListItemKey
-keywords: GetERPQuoteListItemKey()
+keywords: NSQuoteListItem, GetERPQuoteListItemKey
 so.topic: reference
 ---
 
-
 Primary key for the item.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

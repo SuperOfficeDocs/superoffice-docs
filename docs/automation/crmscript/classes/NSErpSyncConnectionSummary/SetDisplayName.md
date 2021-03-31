@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncConnectionSummary_SetDisplayName_String_p_0
-description: NSErpSyncConnectionSummary.SetDisplayName(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncConnectionSummary_SetDisplayName
+description: NSErpSyncConnectionSummary.SetDisplayName(String displayName)
 intellisense: NSErpSyncConnectionSummary.SetDisplayName
-sortOrder: 3237
-keywords: SetDisplayName(String)
+keywords: NSErpSyncConnectionSummary, GetDisplayName
 so.topic: reference
 ---
 
-
 Connection name shown to user; multi-language support
 
-
-
-* **DisplayName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayName** String
 

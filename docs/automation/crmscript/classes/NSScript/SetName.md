@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSScript_SetName_String_p_0
-description: NSScript.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSScript_SetName
+description: NSScript.SetName(String name)
 intellisense: NSScript.SetName
-keywords: SetName(String)
+keywords: NSScript, GetName
 so.topic: reference
 ---
 
-
 A description of this script
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

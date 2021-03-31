@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCRMScriptEntity_SetEjscriptId_Integer_p_0
-description: NSCRMScriptEntity.SetEjscriptId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptEntity_SetEjscriptId
+description: NSCRMScriptEntity.SetEjscriptId(Integer ejscriptId)
 intellisense: NSCRMScriptEntity.SetEjscriptId
-sortOrder: 2139
-keywords: SetEjscriptId(Integer)
+keywords: NSCRMScriptEntity, GetEjscriptId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **EjscriptId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **ejscriptId** Integer
 

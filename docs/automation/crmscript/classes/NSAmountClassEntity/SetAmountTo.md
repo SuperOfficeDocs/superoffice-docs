@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAmountClassEntity_SetAmountTo_Float_p_0
-description: NSAmountClassEntity.SetAmountTo(Float p_0)
+﻿---
+title: crmscript_ref_NSAmountClassEntity_SetAmountTo
+description: NSAmountClassEntity.SetAmountTo(Float amountTo)
 intellisense: NSAmountClassEntity.SetAmountTo
-sortOrder: 705
-keywords: SetAmountTo(Float)
+keywords: NSAmountClassEntity, GetAmountTo
 so.topic: reference
 ---
 
-
 Upper limit of this amount class
 
-
-
-* **AmountTo:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **amountTo** Float
 

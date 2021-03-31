@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetDeadline_Integer_p_0
-description: NSTicketPriorityEntity.SetDeadline(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetDeadline
+description: NSTicketPriorityEntity.SetDeadline(Integer deadline)
 intellisense: NSTicketPriorityEntity.SetDeadline
-keywords: SetDeadline(Integer)
+keywords: NSTicketPriorityEntity, GetDeadline
 so.topic: reference
 ---
 
-
 Deadline to add if escalated (minutes)
 
-
-
-* **Deadline:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **deadline** Integer
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetEarning
-description: NSSaleEntity.GetEarning()
+description: Float NSSaleEntity.GetEarning()
 intellisense: NSSaleEntity.GetEarning
-keywords: GetEarning()
+keywords: NSSaleEntity, GetEarning
 so.topic: reference
 ---
 
-
 Earning on sale
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

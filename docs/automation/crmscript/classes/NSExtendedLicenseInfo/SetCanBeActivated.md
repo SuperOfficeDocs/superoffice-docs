@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedLicenseInfo_SetCanBeActivated_Bool_p_0
-description: NSExtendedLicenseInfo.SetCanBeActivated(Bool p_0)
+﻿---
+title: crmscript_ref_NSExtendedLicenseInfo_SetCanBeActivated
+description: NSExtendedLicenseInfo.SetCanBeActivated(Bool canBeActivated)
 intellisense: NSExtendedLicenseInfo.SetCanBeActivated
-sortOrder: 3410
-keywords: SetCanBeActivated(Bool)
+keywords: NSExtendedLicenseInfo, GetCanBeActivated
 so.topic: reference
 ---
 
 
-* **CanBeActivated:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **canBeActivated** Bool
 

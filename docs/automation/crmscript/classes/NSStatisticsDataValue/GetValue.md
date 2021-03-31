@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSStatisticsDataValue_GetValue
-description: NSStatisticsDataValue.GetValue()
+description: Float NSStatisticsDataValue.GetValue()
 intellisense: NSStatisticsDataValue.GetValue
-keywords: GetValue()
+keywords: NSStatisticsDataValue, GetValue
 so.topic: reference
 ---
 
-
 The value for the data value
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

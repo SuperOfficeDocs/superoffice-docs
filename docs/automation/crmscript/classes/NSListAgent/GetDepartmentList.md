@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetDepartmentList_Integer__p_0
-description: NSListAgent.GetDepartmentList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetDepartmentList
+description: NSDepartment[] GetDepartmentList(Integer[]  departmentIds);
 intellisense: NSListAgent.GetDepartmentList
-keywords: GetDepartmentList(Integer[])
+keywords: NSListAgent,GetDepartmentList
 so.topic: reference
 ---
 
-Gets an array of Department objects.
+Gets a vector of Department objects.
 
+**Parameters:**
+ - **departmentIds** The identifiers of the NSDepartment objects
 
-* **p0:** IntegerArray of identifiers for Department
-* **Returns:** Array of NSDepartment
+**Returns:** Vector of NSDepartment objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetDepartmentList(ids);
+```
 

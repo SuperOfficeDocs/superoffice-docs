@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAmountClassEntity_SetCurrencyId_Integer_p_0
-description: NSAmountClassEntity.SetCurrencyId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAmountClassEntity_SetCurrencyId
+description: NSAmountClassEntity.SetCurrencyId(Integer currencyId)
 intellisense: NSAmountClassEntity.SetCurrencyId
-sortOrder: 706
-keywords: SetCurrencyId(Integer)
+keywords: NSAmountClassEntity, GetCurrencyId
 so.topic: reference
 ---
 
-
 Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications.
 
-
-
-* **CurrencyId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **currencyId** Integer
 

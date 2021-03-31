@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpConnection_GetConnectionId
-description: NSErpConnection.GetConnectionId()
+description: String NSErpConnection.GetConnectionId()
 intellisense: NSErpConnection.GetConnectionId
-sortOrder: 3085
-keywords: GetConnectionId()
+keywords: NSErpConnection, GetConnectionId
 so.topic: reference
 ---
 
-
 The GUID that uniquely identifies this connection; passed to the Connector in every call
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

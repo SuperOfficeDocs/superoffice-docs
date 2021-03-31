@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactActivity_GetActivityPersonName
-description: NSContactActivity.GetActivityPersonName()
+description: String NSContactActivity.GetActivityPersonName()
 intellisense: NSContactActivity.GetActivityPersonName
-sortOrder: 1773
-keywords: GetActivityPersonName()
+keywords: NSContactActivity, GetActivityPersonName
 so.topic: reference
 ---
 
-
 The person that carried out the activity on the contact.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

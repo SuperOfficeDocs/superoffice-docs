@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetRank_Integer_p_0
-description: NSSelectableMDOListItem.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetRank
+description: NSSelectableMDOListItem.SetRank(Integer rank)
 intellisense: NSSelectableMDOListItem.SetRank
-keywords: SetRank(Integer)
+keywords: NSSelectableMDOListItem, GetRank
 so.topic: reference
 ---
 
-
 The rank of the ListItem
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

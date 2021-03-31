@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRefCountEntity_SetCurrentValue_Integer_p_0
-description: NSRefCountEntity.SetCurrentValue(Integer p_0)
+﻿---
+title: crmscript_ref_NSRefCountEntity_SetCurrentValue
+description: NSRefCountEntity.SetCurrentValue(Integer currentValue)
 intellisense: NSRefCountEntity.SetCurrentValue
-keywords: SetCurrentValue(Integer)
+keywords: NSRefCountEntity, GetCurrentValue
 so.topic: reference
 ---
 
-
 Current value of counter
 
-
-
-* **CurrentValue:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **currentValue** Integer
 

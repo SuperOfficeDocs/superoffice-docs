@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetDepartment
-description: NSContactEntity.GetDepartment()
+description: String NSContactEntity.GetDepartment()
 intellisense: NSContactEntity.GetDepartment
-sortOrder: 1868
-keywords: GetDepartment()
+keywords: NSContactEntity, GetDepartment
 so.topic: reference
 ---
 
-
 Department
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

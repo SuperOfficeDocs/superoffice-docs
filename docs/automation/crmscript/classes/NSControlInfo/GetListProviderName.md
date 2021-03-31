@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSControlInfo_GetListProviderName
-description: NSControlInfo.GetListProviderName()
+description: String NSControlInfo.GetListProviderName()
 intellisense: NSControlInfo.GetListProviderName
-sortOrder: 2000
-keywords: GetListProviderName()
+keywords: NSControlInfo, GetListProviderName
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

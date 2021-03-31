@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonSummary_SetTickets_NSTicketSummaryItem__p_0
-description: NSPersonSummary.SetTickets(NSTicketSummaryItem[] p_0)
+﻿---
+title: crmscript_ref_NSPersonSummary_SetTickets
+description: NSPersonSummary.SetTickets(TicketSummaryItemArray tickets)
 intellisense: NSPersonSummary.SetTickets
-keywords: SetTickets(NSTicketSummaryItem[])
+keywords: NSPersonSummary, GetTickets
 so.topic: reference
 ---
 
-
 Recent tickets on person
 
-
-
-* **Tickets:** TicketSummaryItemArray
-* **Returns:** TicketSummaryItemArray
-
+**Parameter:** 
+ - **tickets** TicketSummaryItemArray
 

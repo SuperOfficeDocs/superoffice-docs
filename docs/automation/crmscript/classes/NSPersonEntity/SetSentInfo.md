@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetSentInfo_Integer_p_0
-description: NSPersonEntity.SetSentInfo(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetSentInfo
+description: NSPersonEntity.SetSentInfo(Integer sentInfo)
 intellisense: NSPersonEntity.SetSentInfo
-keywords: SetSentInfo(Integer)
+keywords: NSPersonEntity, GetSentInfo
 so.topic: reference
 ---
 
-
 Has information on username/password been sent (ejournal)
 
-
-
-* **SentInfo:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **sentInfo** Integer
 

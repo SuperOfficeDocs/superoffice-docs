@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfos_NSUserDefinedFieldInfo__p_0
-description: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[] p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfos
+description: Void SaveUserDefinedFieldInfos(UserDefinedFieldInfoArray infos)
 intellisense: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
-keywords: SaveUserDefinedFieldInfos(NSUserDefinedFieldInfo[])
+keywords: NSUserDefinedFieldInfoAgent,SaveUserDefinedFieldInfos
 so.topic: reference
 ---
 
-
 Save an array of user defined fields. This will update the unpublished layout.
 
-
-
-* **infos:** An array of user defined fields
-
-
+**Parameters:**
+ - **infos** An array of user defined fields

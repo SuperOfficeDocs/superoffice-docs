@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTabOrder_GetTabOrderId
-description: NSTabOrder.GetTabOrderId()
+description: Integer NSTabOrder.GetTabOrderId()
 intellisense: NSTabOrder.GetTabOrderId
-keywords: GetTabOrderId()
+keywords: NSTabOrder, GetTabOrderId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

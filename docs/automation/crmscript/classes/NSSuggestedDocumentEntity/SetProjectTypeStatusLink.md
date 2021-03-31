@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedDocumentEntity_SetProjectTypeStatusLink_NSProjectTypeStatusLink_p_0
-description: NSSuggestedDocumentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink p_0)
+﻿---
+title: crmscript_ref_NSSuggestedDocumentEntity_SetProjectTypeStatusLink
+description: NSSuggestedDocumentEntity.SetProjectTypeStatusLink(ProjectTypeStatusLink projectTypeStatusLink)
 intellisense: NSSuggestedDocumentEntity.SetProjectTypeStatusLink
-keywords: SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+keywords: NSSuggestedDocumentEntity, GetProjectTypeStatusLink
 so.topic: reference
 ---
 
-
 Project type and project status link info
 
-
-
-* **ProjectTypeStatusLink:** ProjectTypeStatusLink
-* **Returns:** ProjectTypeStatusLink
-
+**Parameter:** 
+ - **projectTypeStatusLink** ProjectTypeStatusLink
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormSubmissionEntity_SetPersonId_Integer_p_0
-description: NSFormSubmissionEntity.SetPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSFormSubmissionEntity_SetPersonId
+description: NSFormSubmissionEntity.SetPersonId(Integer personId)
 intellisense: NSFormSubmissionEntity.SetPersonId
-sortOrder: 3844
-keywords: SetPersonId(Integer)
+keywords: NSFormSubmissionEntity, GetPersonId
 so.topic: reference
 ---
 
-
 The optional id of the person who submitted.
 
-
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **personId** Integer
 

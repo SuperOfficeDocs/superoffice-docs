@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCredentialUser_GetColumns
-description: NSCredentialUser.GetColumns()
+description: StringArray NSCredentialUser.GetColumns()
 intellisense: NSCredentialUser.GetColumns
-sortOrder: 2089
-keywords: GetColumns()
+keywords: NSCredentialUser, GetColumns
 so.topic: reference
 ---
 
-
 Columns, matching CredentialUsers.Headings
 
-
-
-* **Returns:** StringArray
+**Returns:** StringArray
 
 

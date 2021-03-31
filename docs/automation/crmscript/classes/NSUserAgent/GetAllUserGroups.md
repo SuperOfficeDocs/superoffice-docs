@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSUserAgent_GetAllUserGroups_Bool_p_0
-description: NSUserAgent.GetAllUserGroups(Bool p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetAllUserGroups
+description: UserGroupArray GetAllUserGroups(Bool includeDeleted)
 intellisense: NSUserAgent.GetAllUserGroups
-keywords: GetAllUserGroups(Bool)
+keywords: NSUserAgent,GetAllUserGroups
 so.topic: reference
 ---
 
-
 Get all user groups
 
+**Parameters:**
+ - **includeDeleted** Include user groups with Deleted set to true
 
+**Returns:** All user groups
 
-* **includeDeleted:** Include user groups with Deleted set to true
-* **Returns:** All user groups
-
+```crmscript
+NSUserAgent agent;
+Bool includeDeleted;
+UserGroupArray res = agent.GetAllUserGroups(includeDeleted);
+```
 

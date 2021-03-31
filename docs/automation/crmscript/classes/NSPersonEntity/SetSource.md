@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetSource_Integer_p_0
-description: NSPersonEntity.SetSource(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetSource
+description: NSPersonEntity.SetSource(Integer source)
 intellisense: NSPersonEntity.SetSource
-keywords: SetSource(Integer)
+keywords: NSPersonEntity, GetSource
 so.topic: reference
 ---
 
-
 How did we get this person? For future integration needs
 
-
-
-* **Source:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **source** Integer
 

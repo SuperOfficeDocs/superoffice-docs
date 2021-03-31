@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTile_SetDescription_String_p_0
-description: NSDashboardTile.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetDescription
+description: NSDashboardTile.SetDescription(String description)
 intellisense: NSDashboardTile.SetDescription
-sortOrder: 2308
-keywords: SetDescription(String)
+keywords: NSDashboardTile, GetDescription
 so.topic: reference
 ---
 
-
 The tile description
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocument_GetAttention
-description: NSDocument.GetAttention()
+description: String NSDocument.GetAttention()
 intellisense: NSDocument.GetAttention
-sortOrder: 2436
-keywords: GetAttention()
+keywords: NSDocument, GetAttention
 so.topic: reference
 ---
 
-
 Attention/salutation
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

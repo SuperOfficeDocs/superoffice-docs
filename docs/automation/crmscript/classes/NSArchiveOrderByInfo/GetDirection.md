@@ -1,17 +1,15 @@
----
+﻿---
 title: crmscript_ref_NSArchiveOrderByInfo_GetDirection
-description: NSArchiveOrderByInfo.GetDirection()
+description: Integer NSArchiveOrderByInfo.GetDirection()
 intellisense: NSArchiveOrderByInfo.GetDirection
-sortOrder: 1196
-keywords: GetDirection()
+keywords: NSArchiveOrderByInfo, GetDirection
 so.topic: reference
 ---
 
-
 Direction to order.
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = ASC 
+     - Enum: 1 = DESC 
 

@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSSaleAgent_GetSaleStakeholder_Integer_p_0
-description: NSSaleAgent.GetSaleStakeholder(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_GetSaleStakeholder
+description: NSSaleStakeholder GetSaleStakeholder(Integer saleStakeholderId);
 intellisense: NSSaleAgent.GetSaleStakeholder
-keywords: GetSaleStakeholder(Integer)
+keywords: NSSaleAgent,GetSaleStakeholder
 so.topic: reference
 ---
 
+Gets a NSSaleStakeholder object.
 
-Gets a SaleStakeholder object.
+**Parameters:**
+ - **saleStakeholderId** The identifier of the NSSaleStakeholder object
 
+**Returns:** NSSaleStakeholder
 
-
-* **saleStakeholderId:** The identifier of the SaleStakeholder object
-* **Returns:** SaleStakeholder
-
+```crmscript
+NSSaleAgent agent;
+NSSaleStakeholder thing = agent.GetSaleStakeholder(123);
+```
 

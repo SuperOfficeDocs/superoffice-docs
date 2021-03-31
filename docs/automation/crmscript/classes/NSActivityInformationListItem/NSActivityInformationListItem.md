@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSActivityInformationListItem
 description: NSActivityInformationListItem
 intellisense: Void.NSActivityInformationListItem
-sortOrder: 579
+keywords: NSActivityInformationListItem
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

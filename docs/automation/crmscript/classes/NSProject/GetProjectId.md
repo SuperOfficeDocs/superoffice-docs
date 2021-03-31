@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetProjectId
-description: NSProject.GetProjectId()
+description: Integer NSProject.GetProjectId()
 intellisense: NSProject.GetProjectId
-keywords: GetProjectId()
+keywords: NSProject, GetProjectId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

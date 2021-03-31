@@ -1,18 +1,15 @@
----
-title: crmscript_ref_NSFormEntity_SetType_NSFormType_p_0
-description: NSFormEntity.SetType(NSFormType p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetType
+description: NSFormEntity.SetType(FormType type)
 intellisense: NSFormEntity.SetType
-sortOrder: 3824
-keywords: SetType(NSFormType)
+keywords: NSFormEntity, GetType
 so.topic: reference
 ---
 
-
 What kind of form is this? Indicates if this is a normal form or a template
 
-
-
-* **Type:** FormType
-* **Returns:** FormType
-
+**Parameter:** 
+ - **type** FormType
+     - Enum: 0 = Normal 
+     - Enum: 1 = Template 
 

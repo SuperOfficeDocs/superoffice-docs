@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketCategoryEntity_SetTicketCategoryId_Integer_p_0
-description: NSTicketCategoryEntity.SetTicketCategoryId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketCategoryEntity_SetTicketCategoryId
+description: NSTicketCategoryEntity.SetTicketCategoryId(Integer ticketCategoryId)
 intellisense: NSTicketCategoryEntity.SetTicketCategoryId
-keywords: SetTicketCategoryId(Integer)
+keywords: NSTicketCategoryEntity, GetTicketCategoryId
 so.topic: reference
 ---
 
-
 The id of the ticket category. (primary key)
 
-
-
-* **TicketCategoryId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **ticketCategoryId** Integer
 

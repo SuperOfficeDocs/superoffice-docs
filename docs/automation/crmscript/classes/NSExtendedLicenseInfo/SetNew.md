@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedLicenseInfo_SetNew_NSLicenseInfo_p_0
-description: NSExtendedLicenseInfo.SetNew(NSLicenseInfo p_0)
+﻿---
+title: crmscript_ref_NSExtendedLicenseInfo_SetNew
+description: NSExtendedLicenseInfo.SetNew(LicenseInfo new)
 intellisense: NSExtendedLicenseInfo.SetNew
-sortOrder: 3413
-keywords: SetNew(NSLicenseInfo)
+keywords: NSExtendedLicenseInfo, GetNew
 so.topic: reference
 ---
 
 
-* **New:** LicenseInfo
-* **Returns:** LicenseInfo
 
+**Parameter:** 
+ - **new** LicenseInfo
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSBulkUpdateAgent_GetAvailableFields_String_p_0
-description: NSBulkUpdateAgent.GetAvailableFields(String p_0)
+﻿---
+title: crmscript_ref_NSBulkUpdateAgent_GetAvailableFields
+description: FieldValueInfoArray GetAvailableFields(String tablename)
 intellisense: NSBulkUpdateAgent.GetAvailableFields
-sortOrder: 1471
-keywords: GetAvailableFields(String)
+keywords: NSBulkUpdateAgent,GetAvailableFields
 so.topic: reference
 ---
 
-
 Get all available fields for a given tablename/entity
 
+**Parameters:**
+ - **tablename** The name of the wanted tablename
 
+**Returns:** Returns array of the available fields for the given entity
 
-* **tablename:** The name of the wanted tablename
-* **Returns:** Returns array of the available fields for the given entity
-
+```crmscript
+NSBulkUpdateAgent agent;
+String tablename;
+FieldValueInfoArray res = agent.GetAvailableFields(tablename);
+```
 

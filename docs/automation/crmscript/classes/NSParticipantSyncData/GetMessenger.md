@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSParticipantSyncData_GetMessenger
-description: NSParticipantSyncData.GetMessenger()
+description: StringArray NSParticipantSyncData.GetMessenger()
 intellisense: NSParticipantSyncData.GetMessenger
-keywords: GetMessenger()
+keywords: NSParticipantSyncData, GetMessenger
 so.topic: reference
 ---
 
 
-* **Returns:** StringArray
+
+**Returns:** StringArray
 
 

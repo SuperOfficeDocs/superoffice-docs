@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSPersonAgent_GetPersonSummary_Integer_p_0_Integer_p_1
-description: NSPersonAgent.GetPersonSummary(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSPersonAgent_GetPersonSummary
+description: PersonSummary GetPersonSummary(Integer personId, Integer limit)
 intellisense: NSPersonAgent.GetPersonSummary
-keywords: GetPersonSummary(Integer,Integer)
+keywords: NSPersonAgent,GetPersonSummary
 so.topic: reference
 ---
 
-
 Get summary of person and recent activity.
 
+**Parameters:**
+ - **personId** The person id to summarize.
+ - **limit** Max number of items to include in summary lists.
 
+**Returns:** Summary of person, with recent requests, sales, follow-ups, chats.
 
-* **personId:** The person id to summarize.
-* **limit:** Max number of items to include in summary lists.
-* **Returns:** Summary of person, with recent requests, sales, follow-ups, chats.
-
+```crmscript
+NSPersonAgent agent;
+Integer personId;
+Integer limit;
+PersonSummary res = agent.GetPersonSummary(personId, limit);
+```
 

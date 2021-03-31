@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetReasonStalledList_Integer__p_0
-description: NSListAgent.GetReasonStalledList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetReasonStalledList
+description: NSReasonStalled[] GetReasonStalledList(Integer[]  reasonStalledIds);
 intellisense: NSListAgent.GetReasonStalledList
-keywords: GetReasonStalledList(Integer[])
+keywords: NSListAgent,GetReasonStalledList
 so.topic: reference
 ---
 
-Gets an array of ReasonStalled objects.
+Gets a vector of ReasonStalled objects.
 
+**Parameters:**
+ - **reasonStalledIds** The identifiers of the NSReasonStalled objects
 
-* **p0:** IntegerArray of identifiers for ReasonStalled
-* **Returns:** Array of NSReasonStalled
+**Returns:** Vector of NSReasonStalled objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetReasonStalledList(ids);
+```
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoBase_GetHideField
-description: NSFieldInfoBase.GetHideField()
+description: Bool NSFieldInfoBase.GetHideField()
 intellisense: NSFieldInfoBase.GetHideField
-sortOrder: 3461
-keywords: GetHideField()
+keywords: NSFieldInfoBase, GetHideField
 so.topic: reference
 ---
 
-
 Hide the field from the UI. Only allow API access.
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

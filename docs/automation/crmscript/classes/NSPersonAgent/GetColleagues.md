@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSPersonAgent_GetColleagues
-description: NSPersonAgent.GetColleagues()
+description: PersonArray GetColleagues()
 intellisense: NSPersonAgent.GetColleagues
-keywords: GetColleagues()
+keywords: NSPersonAgent,GetColleagues
 so.topic: reference
 ---
-
 
 Gets the persons working in the same company as the logged on user.
 
 
+**Returns:** Colleagues.
 
-* **Returns:** Colleagues.
-
+```crmscript
+NSPersonAgent agent;
+PersonArray res = agent.GetColleagues();
+```
 

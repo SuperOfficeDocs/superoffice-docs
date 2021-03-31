@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTile_SetChartName_String_p_0
-description: NSDashboardTile.SetChartName(String p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetChartName
+description: NSDashboardTile.SetChartName(String chartName)
 intellisense: NSDashboardTile.SetChartName
-sortOrder: 2305
-keywords: SetChartName(String)
+keywords: NSDashboardTile, GetChartName
 so.topic: reference
 ---
 
-
 The original chart name
 
-
-
-* **ChartName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **chartName** String
 

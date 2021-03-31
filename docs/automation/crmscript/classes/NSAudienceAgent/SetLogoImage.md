@@ -1,16 +1,13 @@
----
-title: crmscript_ref_NSAudienceAgent_SetLogoImage_String_p_0_NSImage_p_1
-description: NSAudienceAgent.SetLogoImage(String p_0, NSImage p_1)
+﻿---
+title: crmscript_ref_NSAudienceAgent_SetLogoImage
+description: Void SetLogoImage(String layoutName, Image image)
 intellisense: NSAudienceAgent.SetLogoImage
-sortOrder: 1316
-keywords: SetLogoImage(String,NSImage)
+keywords: NSAudienceAgent,SetLogoImage
 so.topic: reference
 ---
 
 
 
-
-* **layoutName
-\param** p1 image
-
-
+**Parameters:**
+ - **layoutName** 
+ - **image** 

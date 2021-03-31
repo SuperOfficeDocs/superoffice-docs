@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetDocumentId_Integer_p_0
-description: NSMailMergeSettings.SetDocumentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetDocumentId
+description: NSMailMergeSettings.SetDocumentId(Integer documentId)
 intellisense: NSMailMergeSettings.SetDocumentId
-keywords: SetDocumentId(Integer)
+keywords: NSMailMergeSettings, GetDocumentId
 so.topic: reference
 ---
 
-
 Identity of document to be used as merge draft.
 
-
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **documentId** Integer
 

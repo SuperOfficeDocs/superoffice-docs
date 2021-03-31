@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSPersonAgent_GetConsentInfos_Integer_p_0
-description: NSPersonAgent.GetConsentInfos(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_GetConsentInfos
+description: ConsentInfoArray GetConsentInfos(Integer personId)
 intellisense: NSPersonAgent.GetConsentInfos
-keywords: GetConsentInfos(Integer)
+keywords: NSPersonAgent,GetConsentInfos
 so.topic: reference
 ---
 
+Get all consent information for a given person. May include withdrawn consents (check 
 
-Get all consent information for a given person. May include withdrawn consents (check
+**Parameters:**
+ - **personId** The person id to get consents for
 
+**Returns:** List of consents recorded on this person
 
-
-* **personId:** The person id to get consents for
-* **Returns:** List of consents recorded on this person
-
+```crmscript
+NSPersonAgent agent;
+Integer personId;
+ConsentInfoArray res = agent.GetConsentInfos(personId);
+```
 

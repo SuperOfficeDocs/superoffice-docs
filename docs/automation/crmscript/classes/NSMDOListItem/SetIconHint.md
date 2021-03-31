@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMDOListItem_SetIconHint_String_p_0
-description: NSMDOListItem.SetIconHint(String p_0)
+﻿---
+title: crmscript_ref_NSMDOListItem_SetIconHint
+description: NSMDOListItem.SetIconHint(String iconHint)
 intellisense: NSMDOListItem.SetIconHint
-keywords: SetIconHint(String)
+keywords: NSMDOListItem, GetIconHint
 so.topic: reference
 ---
 
-
 The Icon hint of the ListItem. Custom field.
 
-
-
-* **IconHint:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **iconHint** String
 

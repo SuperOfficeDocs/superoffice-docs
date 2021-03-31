@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetIsPublished
-description: NSSaleEntity.GetIsPublished()
+description: Boolean NSSaleEntity.GetIsPublished()
 intellisense: NSSaleEntity.GetIsPublished
-keywords: GetIsPublished()
+keywords: NSSaleEntity, GetIsPublished
 so.topic: reference
 ---
 
+Should this be published and visible to strangers?
 
-Get the Publication is published field
-
+**Returns:** Boolean
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentEntity_SetDocumentTemplate_NSDocumentTemplate_p_0
-description: NSDocumentEntity.SetDocumentTemplate(NSDocumentTemplate p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetDocumentTemplate
+description: NSDocumentEntity.SetDocumentTemplate(DocumentTemplate documentTemplate)
 intellisense: NSDocumentEntity.SetDocumentTemplate
-sortOrder: 2595
-keywords: SetDocumentTemplate(NSDocumentTemplate)
+keywords: NSDocumentEntity, GetDocumentTemplate
 so.topic: reference
 ---
 
-
 The template type of the document.
 
-
-
-* **DocumentTemplate:** DocumentTemplate
-* **Returns:** DocumentTemplate
-
+**Parameter:** 
+ - **documentTemplate** DocumentTemplate
 

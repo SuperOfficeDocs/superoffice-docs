@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDiaryViewEntity_SetRank_Integer_p_0
-description: NSDiaryViewEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSDiaryViewEntity_SetRank
+description: NSDiaryViewEntity.SetRank(Integer rank)
 intellisense: NSDiaryViewEntity.SetRank
-sortOrder: 2417
-keywords: SetRank(Integer)
+keywords: NSDiaryViewEntity, GetRank
 so.topic: reference
 ---
 
-
 DiaryView rank.
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

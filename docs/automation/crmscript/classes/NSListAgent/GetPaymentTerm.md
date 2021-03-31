@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetPaymentTerm_Integer_p_0
-description: NSListAgent.GetPaymentTerm(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetPaymentTerm
+description: NSPaymentTerm GetPaymentTerm(Integer paymentTermId);
 intellisense: NSListAgent.GetPaymentTerm
-keywords: GetPaymentTerm(Integer)
+keywords: NSListAgent,GetPaymentTerm
 so.topic: reference
 ---
 
+Gets a NSPaymentTerm object.
 
-Gets a PaymentTerm object.
+**Parameters:**
+ - **paymentTermId** The identifier of the NSPaymentTerm object
 
+**Returns:** NSPaymentTerm
 
-
-* **paymentTermId:** The identifier of the PaymentTerm object
-* **Returns:** PaymentTerm
-
+```crmscript
+NSListAgent agent;
+NSPaymentTerm thing = agent.GetPaymentTerm(123);
+```
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetLinks
-description: NSSaleEntity.GetLinks()
+description: LinkArray NSSaleEntity.GetLinks()
 intellisense: NSSaleEntity.GetLinks
-keywords: GetLinks()
+keywords: NSSaleEntity, GetLinks
 so.topic: reference
 ---
 
+List of all elements linked to the sale.
 
-List of all elements linked to the document.
-
-
-
-* **Returns:** LinkArray
+**Returns:** LinkArray
 
 

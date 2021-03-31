@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAddressSyncData_GetCity
-description: NSAddressSyncData.GetCity()
+description: String NSAddressSyncData.GetCity()
 intellisense: NSAddressSyncData.GetCity
-sortOrder: 624
-keywords: GetCity()
+keywords: NSAddressSyncData, GetCity
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSPocketNotificationMessage_GetType
-description: NSPocketNotificationMessage.GetType()
+description: Integer NSPocketNotificationMessage.GetType()
 intellisense: NSPocketNotificationMessage.GetType
-keywords: GetType()
+keywords: NSPocketNotificationMessage, GetType
 so.topic: reference
 ---
 
-
 The type of notification this is
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Message 
+     - Enum: 1 = ImportantMessage 
+     - Enum: 2 = RemoteAction 
+     - Enum: 3 = YesNoQuestion 
+     - Enum: 4 = ShowWebPage 
 

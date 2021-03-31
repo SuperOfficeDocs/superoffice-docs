@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpCrmListItemMapping_SetCrmListItem_NSMDOListItem_p_0
-description: NSErpCrmListItemMapping.SetCrmListItem(NSMDOListItem p_0)
+﻿---
+title: crmscript_ref_NSErpCrmListItemMapping_SetCrmListItem
+description: NSErpCrmListItemMapping.SetCrmListItem(MDOListItem crmListItem)
 intellisense: NSErpCrmListItemMapping.SetCrmListItem
-sortOrder: 3147
-keywords: SetCrmListItem(NSMDOListItem)
+keywords: NSErpCrmListItemMapping, GetCrmListItem
 so.topic: reference
 ---
 
-
 One mapped SuperOffice listItem
 
-
-
-* **CrmListItem:** MDOListItem
-* **Returns:** MDOListItem
-
+**Parameter:** 
+ - **crmListItem** MDOListItem
 

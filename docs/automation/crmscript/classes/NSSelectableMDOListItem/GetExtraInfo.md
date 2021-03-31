@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSelectableMDOListItem_GetExtraInfo
-description: NSSelectableMDOListItem.GetExtraInfo()
+description: String NSSelectableMDOListItem.GetExtraInfo()
 intellisense: NSSelectableMDOListItem.GetExtraInfo
-keywords: GetExtraInfo()
+keywords: NSSelectableMDOListItem, GetExtraInfo
 so.topic: reference
 ---
 
-
 Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

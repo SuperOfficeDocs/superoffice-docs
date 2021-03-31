@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentEntity_SetDocumentId_Integer_p_0
-description: NSDocumentEntity.SetDocumentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetDocumentId
+description: NSDocumentEntity.SetDocumentId(Integer documentId)
 intellisense: NSDocumentEntity.SetDocumentId
-sortOrder: 2594
-keywords: SetDocumentId(Integer)
+keywords: NSDocumentEntity, GetDocumentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **documentId** Integer
 

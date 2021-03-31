@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailFolder_SetSubscribed_Bool_p_0
-description: NSEMailFolder.SetSubscribed(Bool p_0)
+﻿---
+title: crmscript_ref_NSEMailFolder_SetSubscribed
+description: NSEMailFolder.SetSubscribed(Bool subscribed)
 intellisense: NSEMailFolder.SetSubscribed
-sortOrder: 3039
-keywords: SetSubscribed(Bool)
+keywords: NSEMailFolder, GetSubscribed
 so.topic: reference
 ---
 
-
 Indicates if the folder is subscribed to
 
-
-
-* **Subscribed:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **subscribed** Bool
 

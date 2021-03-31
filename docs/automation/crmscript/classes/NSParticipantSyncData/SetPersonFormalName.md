@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPersonFormalName_String_p_0
-description: NSParticipantSyncData.SetPersonFormalName(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPersonFormalName
+description: NSParticipantSyncData.SetPersonFormalName(String personFormalName)
 intellisense: NSParticipantSyncData.SetPersonFormalName
-keywords: SetPersonFormalName(String)
+keywords: NSParticipantSyncData, GetPersonFormalName
 so.topic: reference
 ---
 
-
 Get formal name for a person, as used in labels. (Full name + person title + academic title)
 
-
-
-* **PersonFormalName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personFormalName** String
 

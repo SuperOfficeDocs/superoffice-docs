@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketMessageEntity_GetEjMessageId
-description: NSTicketMessageEntity.GetEjMessageId()
+description: Integer NSTicketMessageEntity.GetEjMessageId()
 intellisense: NSTicketMessageEntity.GetEjMessageId
-keywords: GetEjMessageId()
+keywords: NSTicketMessageEntity, GetEjMessageId
 so.topic: reference
 ---
 
-
 The primary key (auto-incremented)
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

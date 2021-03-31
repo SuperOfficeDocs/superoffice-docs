@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaintConfiguration_SetRowsGenerated_Integer_p_0
-description: NSSaintConfiguration.SetRowsGenerated(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaintConfiguration_SetRowsGenerated
+description: NSSaintConfiguration.SetRowsGenerated(Integer rowsGenerated)
 intellisense: NSSaintConfiguration.SetRowsGenerated
-keywords: SetRowsGenerated(Integer)
+keywords: NSSaintConfiguration, GetRowsGenerated
 so.topic: reference
 ---
 
-
 Number of CounterValue rows generated for this entity
 
-
-
-* **RowsGenerated:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rowsGenerated** Integer
 

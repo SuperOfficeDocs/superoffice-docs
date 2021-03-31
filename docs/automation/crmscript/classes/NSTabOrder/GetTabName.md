@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTabOrder_GetTabName
-description: NSTabOrder.GetTabName()
+description: String NSTabOrder.GetTabName()
 intellisense: NSTabOrder.GetTabName
-keywords: GetTabName()
+keywords: NSTabOrder, GetTabName
 so.topic: reference
 ---
 
-
 Name of tab control
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

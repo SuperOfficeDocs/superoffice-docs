@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetActiveInterests_Integer_p_0
-description: NSPerson.SetActiveInterests(Integer p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetActiveInterests
+description: NSPerson.SetActiveInterests(Integer activeInterests)
 intellisense: NSPerson.SetActiveInterests
-keywords: SetActiveInterests(Integer)
+keywords: NSPerson, GetActiveInterests
 so.topic: reference
 ---
 
+Number of records in pintr table; select count(*) from pintr pi where pi.person_id = this.person_id == activeInterests is always true
 
-Number of records in pintr table; select count(*) from pintr pi where pi.person\_id = this.person\_id == activeInterests is always true
-
-
-
-* **ActiveInterests:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **activeInterests** Integer
 

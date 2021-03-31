@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContact_SetURLName_String_p_0
-description: NSContact.SetURLName(String p_0)
+﻿---
+title: crmscript_ref_NSContact_SetURLName
+description: NSContact.SetURLName(String uRLName)
 intellisense: NSContact.SetURLName
-sortOrder: 1763
-keywords: SetURLName(String)
+keywords: NSContact, GetURLName
 so.topic: reference
 ---
 
-
 Visible field
 
-
-
-* **URLName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **uRLName** String
 

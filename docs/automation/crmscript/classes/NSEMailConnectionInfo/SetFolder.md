@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailConnectionInfo_SetFolder_String_p_0
-description: NSEMailConnectionInfo.SetFolder(String p_0)
+﻿---
+title: crmscript_ref_NSEMailConnectionInfo_SetFolder
+description: NSEMailConnectionInfo.SetFolder(String folder)
 intellisense: NSEMailConnectionInfo.SetFolder
-sortOrder: 2915
-keywords: SetFolder(String)
+keywords: NSEMailConnectionInfo, GetFolder
 so.topic: reference
 ---
 
-
 Optional folder to set as current after logging in
 
-
-
-* **Folder:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **folder** String
 

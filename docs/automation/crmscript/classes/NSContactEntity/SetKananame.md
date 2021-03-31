@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetKananame_String_p_0
-description: NSContactEntity.SetKananame(String p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetKananame
+description: NSContactEntity.SetKananame(String kananame)
 intellisense: NSContactEntity.SetKananame
-sortOrder: 1901
-keywords: SetKananame(String)
+keywords: NSContactEntity, GetKananame
 so.topic: reference
 ---
 
-
 Contact kana name, used in Japanese versions only
 
-
-
-* **Kananame:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **kananame** String
 

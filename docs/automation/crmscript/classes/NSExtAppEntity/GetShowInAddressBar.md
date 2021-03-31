@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSExtAppEntity_GetShowInAddressBar
-description: NSExtAppEntity.GetShowInAddressBar()
+description: Bool NSExtAppEntity.GetShowInAddressBar()
 intellisense: NSExtAppEntity.GetShowInAddressBar
-sortOrder: 3362
-keywords: GetShowInAddressBar()
+keywords: NSExtAppEntity, GetShowInAddressBar
 so.topic: reference
 ---
 
-
 Does the webpanel have an address bar
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

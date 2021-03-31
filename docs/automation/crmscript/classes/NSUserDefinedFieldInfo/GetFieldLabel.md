@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldLabel
-description: NSUserDefinedFieldInfo.GetFieldLabel()
+description: String NSUserDefinedFieldInfo.GetFieldLabel()
 intellisense: NSUserDefinedFieldInfo.GetFieldLabel
-keywords: GetFieldLabel()
+keywords: NSUserDefinedFieldInfo, GetFieldLabel
 so.topic: reference
 ---
 
-
 The label (lead text)
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

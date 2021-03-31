@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSUserAgent_RemoveOwnerContact_Integer_p_0
-description: NSUserAgent.RemoveOwnerContact(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_RemoveOwnerContact
+description: Void RemoveOwnerContact(Integer contactId)
 intellisense: NSUserAgent.RemoveOwnerContact
-keywords: RemoveOwnerContact(Integer)
+keywords: NSUserAgent,RemoveOwnerContact
 so.topic: reference
 ---
 
-
 Remove a contact from the ownercontactlink table
 
-
-
-* **contactId:** The id of the contact to remove
-
-
+**Parameters:**
+ - **contactId** The id of the contact to remove

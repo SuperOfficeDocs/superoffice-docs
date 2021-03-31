@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetContactName
-description: NSAppointment.GetContactName()
+description: String NSAppointment.GetContactName()
 intellisense: NSAppointment.GetContactName
-sortOrder: 755
-keywords: GetContactName()
+keywords: NSAppointment, GetContactName
 so.topic: reference
 ---
 
-
 The contact associated with the appointment.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

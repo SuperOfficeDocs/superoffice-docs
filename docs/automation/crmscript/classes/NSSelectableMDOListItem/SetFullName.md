@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetFullName_String_p_0
-description: NSSelectableMDOListItem.SetFullName(String p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetFullName
+description: NSSelectableMDOListItem.SetFullName(String fullName)
 intellisense: NSSelectableMDOListItem.SetFullName
-keywords: SetFullName(String)
+keywords: NSSelectableMDOListItem, GetFullName
 so.topic: reference
 ---
 
-
 The name of the ListItem in its context
 
-
-
-* **FullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fullName** String
 

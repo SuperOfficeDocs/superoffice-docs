@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAddress_GetAssociateId
-description: NSEMailAddress.GetAssociateId()
+description: Integer NSEMailAddress.GetAssociateId()
 intellisense: NSEMailAddress.GetAssociateId
-sortOrder: 2762
-keywords: GetAssociateId()
+keywords: NSEMailAddress, GetAssociateId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

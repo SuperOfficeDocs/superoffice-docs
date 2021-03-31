@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoShortText_SetTextLength_Integer_p_0
-description: NSFieldInfoShortText.SetTextLength(Integer p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoShortText_SetTextLength
+description: NSFieldInfoShortText.SetTextLength(Integer textLength)
 intellisense: NSFieldInfoShortText.SetTextLength
-sortOrder: 3556
-keywords: SetTextLength(Integer)
+keywords: NSFieldInfoShortText, GetTextLength
 so.topic: reference
 ---
 
-
 Length (in characters) of a text field, 0 for other types
 
-
-
-* **TextLength:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **textLength** Integer
 

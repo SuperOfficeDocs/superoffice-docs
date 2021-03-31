@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSPhoneListPreferences_GetSearchModeLastname
-description: NSPhoneListPreferences.GetSearchModeLastname()
+description: Integer NSPhoneListPreferences.GetSearchModeLastname()
 intellisense: NSPhoneListPreferences.GetSearchModeLastname
-keywords: GetSearchModeLastname()
+keywords: NSPhoneListPreferences, GetSearchModeLastname
 so.topic: reference
 ---
 
-
 The lastname search type, e.g. BeginsWith, Contains, Endswith, Matches
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Exact 
+     - Enum: 1 = BeginsWith 
+     - Enum: 2 = EndsWith 
+     - Enum: 3 = Contains 
 

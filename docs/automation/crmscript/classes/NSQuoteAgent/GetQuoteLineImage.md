@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSQuoteAgent_GetQuoteLineImage_Integer_p_0_Integer_p_1
-description: NSQuoteAgent.GetQuoteLineImage(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSQuoteAgent_GetQuoteLineImage
+description: Image GetQuoteLineImage(Integer quoteLineId, Integer rank)
 intellisense: NSQuoteAgent.GetQuoteLineImage
-keywords: GetQuoteLineImage(Integer,Integer)
+keywords: NSQuoteAgent,GetQuoteLineImage
 so.topic: reference
 ---
 
-
 Gets an image connected to a quoteline, either from the ERPProvider or from the SuperOffice database
 
+**Parameters:**
+ - **quoteLineId** Primary key of the quoteline
+ - **rank** The rank of the image.
 
+**Returns:** The image. Returns null if no image available.
 
-* **quoteLineId:** Primary key of the quoteline
-* **rank:** The rank of the image.
-* **Returns:** The image. Returns null if no image available.
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteLineId;
+Integer rank;
+Image res = agent.GetQuoteLineImage(quoteLineId, rank);
+```
 

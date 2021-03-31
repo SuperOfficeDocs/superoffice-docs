@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPriceList_SetPriceListId_Integer_p_0
-description: NSPriceList.SetPriceListId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPriceList_SetPriceListId
+description: NSPriceList.SetPriceListId(Integer priceListId)
 intellisense: NSPriceList.SetPriceListId
-keywords: SetPriceListId(Integer)
+keywords: NSPriceList, GetPriceListId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **PriceListId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **priceListId** Integer
 

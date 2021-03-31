@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummaryItem_SetProbability_Integer_p_0
-description: NSSaleSummaryItem.SetProbability(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleSummaryItem_SetProbability
+description: NSSaleSummaryItem.SetProbability(Integer probability)
 intellisense: NSSaleSummaryItem.SetProbability
-keywords: SetProbability(Integer)
+keywords: NSSaleSummaryItem, GetProbability
 so.topic: reference
 ---
 
-
 Probability of sale succeess in percent (0-100)
 
-
-
-* **Probability:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **probability** Integer
 

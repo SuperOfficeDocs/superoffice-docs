@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetContactDepartment_String_p_0
-description: NSProjectMember.SetContactDepartment(String p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetContactDepartment
+description: NSProjectMember.SetContactDepartment(String contactDepartment)
 intellisense: NSProjectMember.SetContactDepartment
-keywords: SetContactDepartment(String)
+keywords: NSProjectMember, GetContactDepartment
 so.topic: reference
 ---
 
-
 Contact department
 
-
-
-* **ContactDepartment:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactDepartment** String
 

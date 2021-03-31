@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEnvelope_SetSize_Integer_p_0
-description: NSEMailEnvelope.SetSize(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailEnvelope_SetSize
+description: NSEMailEnvelope.SetSize(Integer size)
 intellisense: NSEMailEnvelope.SetSize
-sortOrder: 3023
-keywords: SetSize(Integer)
+keywords: NSEMailEnvelope, GetSize
 so.topic: reference
 ---
 
-
 Total size of the e-mail
 
-
-
-* **Size:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **size** Integer
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocument_GetProjectId
-description: NSDocument.GetProjectId()
+description: Integer NSDocument.GetProjectId()
 intellisense: NSDocument.GetProjectId
-sortOrder: 2434
-keywords: GetProjectId()
+keywords: NSDocument, GetProjectId
 so.topic: reference
 ---
 
-
 ID of project referred to, may be 0
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

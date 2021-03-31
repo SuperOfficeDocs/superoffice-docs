@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSRelationDefinitionEntity_GetDestination
-description: NSRelationDefinitionEntity.GetDestination()
+description: Integer NSRelationDefinitionEntity.GetDestination()
 intellisense: NSRelationDefinitionEntity.GetDestination
-keywords: GetDestination()
+keywords: NSRelationDefinitionEntity, GetDestination
 so.topic: reference
 ---
 
-
 The destination of the relation
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = None 
+     - Enum: 1 = Contact 
+     - Enum: 2 = Person 
+     - Enum: 3 = Both 
 

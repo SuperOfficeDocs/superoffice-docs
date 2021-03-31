@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetTitle_String_p_0
-description: NSTicketEntity.SetTitle(String p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetTitle
+description: NSTicketEntity.SetTitle(String title)
 intellisense: NSTicketEntity.SetTitle
-keywords: SetTitle(String)
+keywords: NSTicketEntity, GetTitle
 so.topic: reference
 ---
 
-
 The title of the ticket.
 
-
-
-* **Title:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **title** String
 

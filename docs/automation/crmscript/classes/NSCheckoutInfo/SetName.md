@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCheckoutInfo_SetName_String_p_0
-description: NSCheckoutInfo.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSCheckoutInfo_SetName
+description: NSCheckoutInfo.SetName(String name)
 intellisense: NSCheckoutInfo.SetName
-sortOrder: 1564
-keywords: SetName(String)
+keywords: NSCheckoutInfo, GetName
 so.topic: reference
 ---
 
-
 Name of person who has currently checked out the document; blank if it is not checked out. This property may also be blank if the AssociateId is nonzero; NetServer will retrieve the associates' name as needed.
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

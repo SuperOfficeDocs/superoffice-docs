@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaintConfiguration_SetEnabled_Bool_p_0
-description: NSSaintConfiguration.SetEnabled(Bool p_0)
+﻿---
+title: crmscript_ref_NSSaintConfiguration_SetEnabled
+description: NSSaintConfiguration.SetEnabled(Bool enabled)
 intellisense: NSSaintConfiguration.SetEnabled
-keywords: SetEnabled(Bool)
+keywords: NSSaintConfiguration, GetEnabled
 so.topic: reference
 ---
 
-
 On/off switch for Saint functionality for this entity
 
-
-
-* **Enabled:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **enabled** Bool
 

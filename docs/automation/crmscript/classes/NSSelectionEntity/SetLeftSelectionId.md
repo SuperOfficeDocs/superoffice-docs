@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetLeftSelectionId_Integer_p_0
-description: NSSelectionEntity.SetLeftSelectionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetLeftSelectionId
+description: NSSelectionEntity.SetLeftSelectionId(Integer leftSelectionId)
 intellisense: NSSelectionEntity.SetLeftSelectionId
-keywords: SetLeftSelectionId(Integer)
+keywords: NSSelectionEntity, GetLeftSelectionId
 so.topic: reference
 ---
 
-
 LeftSelectionId is used in combination with RightSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.
 
-
-
-* **LeftSelectionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **leftSelectionId** Integer
 

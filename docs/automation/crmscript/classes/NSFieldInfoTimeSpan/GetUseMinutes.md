@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoTimeSpan_GetUseMinutes
-description: NSFieldInfoTimeSpan.GetUseMinutes()
+description: Bool NSFieldInfoTimeSpan.GetUseMinutes()
 intellisense: NSFieldInfoTimeSpan.GetUseMinutes
-sortOrder: 3567
-keywords: GetUseMinutes()
+keywords: NSFieldInfoTimeSpan, GetUseMinutes
 so.topic: reference
 ---
 
-
 Should the time-span be counted in minutes?
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

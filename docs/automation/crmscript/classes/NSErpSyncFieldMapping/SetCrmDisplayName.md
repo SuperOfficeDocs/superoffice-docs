@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldMapping_SetCrmDisplayName_String_p_0
-description: NSErpSyncFieldMapping.SetCrmDisplayName(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldMapping_SetCrmDisplayName
+description: NSErpSyncFieldMapping.SetCrmDisplayName(String crmDisplayName)
 intellisense: NSErpSyncFieldMapping.SetCrmDisplayName
-sortOrder: 3307
-keywords: SetCrmDisplayName(String)
+keywords: NSErpSyncFieldMapping, GetCrmDisplayName
 so.topic: reference
 ---
 
-
 Display name of CRM field; ignored on Save
 
-
-
-* **CrmDisplayName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **crmDisplayName** String
 

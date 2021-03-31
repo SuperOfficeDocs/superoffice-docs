@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactRelationEntity_GetSourcePersonId
-description: NSContactRelationEntity.GetSourcePersonId()
+description: Integer NSContactRelationEntity.GetSourcePersonId()
 intellisense: NSContactRelationEntity.GetSourcePersonId
-sortOrder: 1952
-keywords: GetSourcePersonId()
+keywords: NSContactRelationEntity, GetSourcePersonId
 so.topic: reference
 ---
 
-
 Id of the source person. The value is not mandatory. The person must belong to the source contact.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

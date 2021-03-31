@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplateEntity_GetRank
-description: NSDocumentTemplateEntity.GetRank()
+description: Integer NSDocumentTemplateEntity.GetRank()
 intellisense: NSDocumentTemplateEntity.GetRank
-sortOrder: 2662
-keywords: GetRank()
+keywords: NSDocumentTemplateEntity, GetRank
 so.topic: reference
 ---
 
-
 Rank order
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

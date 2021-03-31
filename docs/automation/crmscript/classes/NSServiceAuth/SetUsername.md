@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSServiceAuth_SetUsername_String_p_0
-description: NSServiceAuth.SetUsername(String p_0)
+﻿---
+title: crmscript_ref_NSServiceAuth_SetUsername
+description: NSServiceAuth.SetUsername(String username)
 intellisense: NSServiceAuth.SetUsername
-keywords: SetUsername(String)
+keywords: NSServiceAuth, GetUsername
 so.topic: reference
 ---
 
-
 The username
 
-
-
-* **Username:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **username** String
 

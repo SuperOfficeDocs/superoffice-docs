@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentSyncData_SetPersonId_Integer_p_0
-description: NSAppointmentSyncData.SetPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentSyncData_SetPersonId
+description: NSAppointmentSyncData.SetPersonId(Integer personId)
 intellisense: NSAppointmentSyncData.SetPersonId
-sortOrder: 1085
-keywords: SetPersonId(Integer)
+keywords: NSAppointmentSyncData, GetPersonId
 so.topic: reference
 ---
 
-
 Person ID of person the appointment is with, may be 0
 
-
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **personId** Integer
 

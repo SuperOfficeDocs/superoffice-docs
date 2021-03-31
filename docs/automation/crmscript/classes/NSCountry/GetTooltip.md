@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCountry_GetTooltip
-description: NSCountry.GetTooltip()
+description: String NSCountry.GetTooltip()
 intellisense: NSCountry.GetTooltip
-sortOrder: 2027
-keywords: GetTooltip()
+keywords: NSCountry, GetTooltip
 so.topic: reference
 ---
 
-
 The tooltip of the country
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

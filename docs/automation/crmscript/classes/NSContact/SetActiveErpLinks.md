@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContact_SetActiveErpLinks_Integer_p_0
-description: NSContact.SetActiveErpLinks(Integer p_0)
+﻿---
+title: crmscript_ref_NSContact_SetActiveErpLinks
+description: NSContact.SetActiveErpLinks(Integer activeErpLinks)
 intellisense: NSContact.SetActiveErpLinks
-sortOrder: 1741
-keywords: SetActiveErpLinks(Integer)
+keywords: NSContact, GetActiveErpLinks
 so.topic: reference
 ---
 
-
 The number of active erp links
 
-
-
-* **ActiveErpLinks:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **activeErpLinks** Integer
 

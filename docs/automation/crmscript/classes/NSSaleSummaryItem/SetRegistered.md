@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummaryItem_SetRegistered_DateTime_p_0
-description: NSSaleSummaryItem.SetRegistered(DateTime p_0)
+﻿---
+title: crmscript_ref_NSSaleSummaryItem_SetRegistered
+description: NSSaleSummaryItem.SetRegistered(DateTime registered)
 intellisense: NSSaleSummaryItem.SetRegistered
-keywords: SetRegistered(DateTime)
+keywords: NSSaleSummaryItem, GetRegistered
 so.topic: reference
 ---
 
-
 Registered date
 
-
-
-* **Registered:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **registered** DateTime
 

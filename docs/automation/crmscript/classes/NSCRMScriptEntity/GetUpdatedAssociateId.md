@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptEntity_GetUpdatedAssociateId
-description: NSCRMScriptEntity.GetUpdatedAssociateId()
+description: Integer NSCRMScriptEntity.GetUpdatedAssociateId()
 intellisense: NSCRMScriptEntity.GetUpdatedAssociateId
-sortOrder: 2132
-keywords: GetUpdatedAssociateId()
+keywords: NSCRMScriptEntity, GetUpdatedAssociateId
 so.topic: reference
 ---
 
-
 Last updated by whom
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSOperationInfo_GetEncodedLeadTexts
-description: NSOperationInfo.GetEncodedLeadTexts()
+description: StringArray NSOperationInfo.GetEncodedLeadTexts()
 intellisense: NSOperationInfo.GetEncodedLeadTexts
-keywords: GetEncodedLeadTexts()
+keywords: NSOperationInfo, GetEncodedLeadTexts
 so.topic: reference
 ---
 
 
-* **Returns:** StringArray
+
+**Returns:** StringArray
 
 

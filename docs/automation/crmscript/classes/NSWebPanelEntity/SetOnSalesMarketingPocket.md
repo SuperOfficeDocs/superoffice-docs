@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingPocket_Bool_p_0
-description: NSWebPanelEntity.SetOnSalesMarketingPocket(Bool p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingPocket
+description: NSWebPanelEntity.SetOnSalesMarketingPocket(Bool onSalesMarketingPocket)
 intellisense: NSWebPanelEntity.SetOnSalesMarketingPocket
-keywords: SetOnSalesMarketingPocket(Bool)
+keywords: NSWebPanelEntity, GetOnSalesMarketingPocket
 so.topic: reference
 ---
 
-
 Is the webpanel visible when user is on pocket client
 
-
-
-* **OnSalesMarketingPocket:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **onSalesMarketingPocket** Bool
 

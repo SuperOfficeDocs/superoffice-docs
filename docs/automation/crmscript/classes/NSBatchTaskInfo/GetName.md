@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBatchTaskInfo_GetName
-description: NSBatchTaskInfo.GetName()
+description: String NSBatchTaskInfo.GetName()
 intellisense: NSBatchTaskInfo.GetName
-sortOrder: 1379
-keywords: GetName()
+keywords: NSBatchTaskInfo, GetName
 so.topic: reference
 ---
 
-
 Name of the task.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

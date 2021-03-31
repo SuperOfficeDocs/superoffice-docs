@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSUserAgent_GetUserInfo_Integer_p_0
-description: NSUserAgent.GetUserInfo(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetUserInfo
+description: NSUserInfo GetUserInfo(Integer userInfoId);
 intellisense: NSUserAgent.GetUserInfo
-keywords: GetUserInfo(Integer)
+keywords: NSUserAgent,GetUserInfo
 so.topic: reference
 ---
 
+Gets a NSUserInfo object.
 
-Gets a UserInfo object.
+**Parameters:**
+ - **userInfoId** The identifier of the NSUserInfo object
 
+**Returns:** NSUserInfo
 
-
-* **userInfoId:** The identifier of the UserInfo object
-* **Returns:** UserInfo
-
+```crmscript
+NSUserAgent agent;
+NSUserInfo thing = agent.GetUserInfo(123);
+```
 

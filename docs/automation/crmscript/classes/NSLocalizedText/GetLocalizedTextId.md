@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLocalizedText_GetLocalizedTextId
-description: NSLocalizedText.GetLocalizedTextId()
+description: Integer NSLocalizedText.GetLocalizedTextId()
 intellisense: NSLocalizedText.GetLocalizedTextId
-keywords: GetLocalizedTextId()
+keywords: NSLocalizedText, GetLocalizedTextId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

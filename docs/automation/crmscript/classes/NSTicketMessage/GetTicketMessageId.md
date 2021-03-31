@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketMessage_GetTicketMessageId
-description: NSTicketMessage.GetTicketMessageId()
+description: Integer NSTicketMessage.GetTicketMessageId()
 intellisense: NSTicketMessage.GetTicketMessageId
-keywords: GetTicketMessageId()
+keywords: NSTicketMessage, GetTicketMessageId
 so.topic: reference
 ---
 
-
 The primary key (auto-incremented)
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

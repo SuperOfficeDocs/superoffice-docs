@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetName_String_p_0
-description: NSSelectionEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetName
+description: NSSelectionEntity.SetName(String name)
 intellisense: NSSelectionEntity.SetName
-keywords: SetName(String)
+keywords: NSSelectionEntity, GetName
 so.topic: reference
 ---
 
-
 Name of selection, freetext indexed
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

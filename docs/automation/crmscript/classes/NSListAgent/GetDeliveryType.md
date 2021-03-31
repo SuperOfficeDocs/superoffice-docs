@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetDeliveryType_Integer_p_0
-description: NSListAgent.GetDeliveryType(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetDeliveryType
+description: NSDeliveryType GetDeliveryType(Integer deliveryTypeId);
 intellisense: NSListAgent.GetDeliveryType
-keywords: GetDeliveryType(Integer)
+keywords: NSListAgent,GetDeliveryType
 so.topic: reference
 ---
 
+Gets a NSDeliveryType object.
 
-Gets a DeliveryType object.
+**Parameters:**
+ - **deliveryTypeId** The identifier of the NSDeliveryType object
 
+**Returns:** NSDeliveryType
 
-
-* **deliveryTypeId:** The identifier of the DeliveryType object
-* **Returns:** DeliveryType
-
+```crmscript
+NSListAgent agent;
+NSDeliveryType thing = agent.GetDeliveryType(123);
+```
 

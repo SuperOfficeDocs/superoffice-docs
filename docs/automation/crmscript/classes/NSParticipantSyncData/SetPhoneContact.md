@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPhoneContact_String__p_0
-description: NSParticipantSyncData.SetPhoneContact(String[] p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPhoneContact
+description: NSParticipantSyncData.SetPhoneContact(StringArray phoneContact)
 intellisense: NSParticipantSyncData.SetPhoneContact
-keywords: SetPhoneContact(String[])
+keywords: NSParticipantSyncData, GetPhoneContact
 so.topic: reference
 ---
 
-
 Returns a collection of office phone numbers that belong to the contact person.
 
-
-
-* **PhoneContact:** StringArray
-* **Returns:** StringArray
-
+**Parameter:** 
+ - **phoneContact** StringArray
 

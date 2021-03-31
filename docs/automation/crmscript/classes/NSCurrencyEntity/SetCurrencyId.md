@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCurrencyEntity_SetCurrencyId_Integer_p_0
-description: NSCurrencyEntity.SetCurrencyId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCurrencyEntity_SetCurrencyId
+description: NSCurrencyEntity.SetCurrencyId(Integer currencyId)
 intellisense: NSCurrencyEntity.SetCurrencyId
-sortOrder: 2186
-keywords: SetCurrencyId(Integer)
+keywords: NSCurrencyEntity, GetCurrencyId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **CurrencyId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **currencyId** Integer
 

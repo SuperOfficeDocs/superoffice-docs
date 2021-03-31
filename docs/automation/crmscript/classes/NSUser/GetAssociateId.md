@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUser_GetAssociateId
-description: NSUser.GetAssociateId()
+description: Integer NSUser.GetAssociateId()
 intellisense: NSUser.GetAssociateId
-keywords: GetAssociateId()
+keywords: NSUser, GetAssociateId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

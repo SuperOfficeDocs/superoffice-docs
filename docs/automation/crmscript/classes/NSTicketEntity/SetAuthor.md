@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetAuthor_String_p_0
-description: NSTicketEntity.SetAuthor(String p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetAuthor
+description: NSTicketEntity.SetAuthor(String author)
 intellisense: NSTicketEntity.SetAuthor
-keywords: SetAuthor(String)
+keywords: NSTicketEntity, GetAuthor
 so.topic: reference
 ---
 
-
 A string representing the author of the ticket (same as author of first message).
 
-
-
-* **Author:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **author** String
 

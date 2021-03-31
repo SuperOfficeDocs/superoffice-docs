@@ -1,17 +1,12 @@
----
-title: crmscript_ref_NSEMailAgent_SetRepliedAt_String_p_0
-description: NSEMailAgent.SetRepliedAt(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_SetRepliedAt
+description: Void SetRepliedAt(String messageId)
 intellisense: NSEMailAgent.SetRepliedAt
-sortOrder: 2867
-keywords: SetRepliedAt(String)
+keywords: NSEMailAgent,SetRepliedAt
 so.topic: reference
 ---
 
+Set the replied_at field based on the MessageID
 
-Set the replied\_at field based on the MessageID
-
-
-
-* **messageId:** The MessageID
-
-
+**Parameters:**
+ - **messageId** The MessageID

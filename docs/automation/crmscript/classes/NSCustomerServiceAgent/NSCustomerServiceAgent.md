@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSCustomerServiceAgent
 description: NSCustomerServiceAgent
 intellisense: Void.NSCustomerServiceAgent
-sortOrder: 2219
+keywords: NSCustomerServiceAgent
 so.topic: reference
 ---
 
-
 Agent used for Customer Service methods
 
-
-
+```crmscript
+NSCustomerServiceAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

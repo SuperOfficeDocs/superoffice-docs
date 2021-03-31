@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetSignOn_Bool_p_0
-description: NSProjectEventEntity.SetSignOn(Bool p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetSignOn
+description: NSProjectEventEntity.SetSignOn(Bool signOn)
 intellisense: NSProjectEventEntity.SetSignOn
-keywords: SetSignOn(Bool)
+keywords: NSProjectEventEntity, GetSignOn
 so.topic: reference
 ---
 
-
 Is Sign On functionality enabled
 
-
-
-* **SignOn:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **signOn** Bool
 

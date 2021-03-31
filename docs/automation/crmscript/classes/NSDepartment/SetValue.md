@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDepartment_SetValue_String_p_0
-description: NSDepartment.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSDepartment_SetValue
+description: NSDepartment.SetValue(String value)
 intellisense: NSDepartment.SetValue
-sortOrder: 2387
-keywords: SetValue(String)
+keywords: NSDepartment, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

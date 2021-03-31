@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketInfo_SetTicketUrl_String_p_0
-description: NSTicketInfo.SetTicketUrl(String p_0)
+﻿---
+title: crmscript_ref_NSTicketInfo_SetTicketUrl
+description: NSTicketInfo.SetTicketUrl(String ticketUrl)
 intellisense: NSTicketInfo.SetTicketUrl
-keywords: SetTicketUrl(String)
+keywords: NSTicketInfo, GetTicketUrl
 so.topic: reference
 ---
 
-
 A URL leading directly to the created request. This is a URL ment to be used by a Service user
 
-
-
-* **TicketUrl:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **ticketUrl** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetKanafname_String_p_0
-description: NSPersonEntity.SetKanafname(String p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetKanafname
+description: NSPersonEntity.SetKanafname(String kanafname)
 intellisense: NSPersonEntity.SetKanafname
-keywords: SetKanafname(String)
+keywords: NSPersonEntity, GetKanafname
 so.topic: reference
 ---
 
-
 Kana first name, used in Japanese versions only
 
-
-
-* **Kanafname:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **kanafname** String
 

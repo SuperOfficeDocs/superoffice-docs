@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLegalBase_SetRank_Integer_p_0
-description: NSLegalBase.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSLegalBase_SetRank
+description: NSLegalBase.SetRank(Integer rank)
 intellisense: NSLegalBase.SetRank
-keywords: SetRank(Integer)
+keywords: NSLegalBase, GetRank
 so.topic: reference
 ---
 
-
 Rank of this consent source
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

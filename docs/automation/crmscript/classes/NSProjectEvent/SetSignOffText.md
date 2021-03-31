@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetSignOffText_String_p_0
-description: NSProjectEvent.SetSignOffText(String p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetSignOffText
+description: NSProjectEvent.SetSignOffText(String signOffText)
 intellisense: NSProjectEvent.SetSignOffText
-keywords: SetSignOffText(String)
+keywords: NSProjectEvent, GetSignOffText
 so.topic: reference
 ---
 
-
 Default text for the activity created when signing off.
 
-
-
-* **SignOffText:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **signOffText** String
 

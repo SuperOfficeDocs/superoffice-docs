@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetSaleId_Integer_p_0
-description: NSAlarmData.SetSaleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetSaleId
+description: NSAlarmData.SetSaleId(Integer saleId)
 intellisense: NSAlarmData.SetSaleId
-sortOrder: 689
-keywords: SetSaleId(Integer)
+keywords: NSAlarmData, GetSaleId
 so.topic: reference
 ---
 
-
 Owning sale, if any (may be 0)
 
-
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleId** Integer
 

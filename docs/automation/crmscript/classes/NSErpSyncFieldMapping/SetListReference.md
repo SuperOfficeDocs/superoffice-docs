@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldMapping_SetListReference_String_p_0
-description: NSErpSyncFieldMapping.SetListReference(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldMapping_SetListReference
+description: NSErpSyncFieldMapping.SetListReference(String listReference)
 intellisense: NSErpSyncFieldMapping.SetListReference
-sortOrder: 3316
-keywords: SetListReference(String)
+keywords: NSErpSyncFieldMapping, GetListReference
 so.topic: reference
 ---
 
-
 Field is read-only, for lookup in gui
 
-
-
-* **ListReference:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **listReference** String
 

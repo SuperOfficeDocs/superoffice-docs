@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSPersonAgent_GetAddress_Integer_p_0
-description: NSPersonAgent.GetAddress(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_GetAddress
+description: Address GetAddress(Integer personId)
 intellisense: NSPersonAgent.GetAddress
-keywords: GetAddress(Integer)
+keywords: NSPersonAgent,GetAddress
 so.topic: reference
 ---
 
-
 Gets the person's localized address.
 
+**Parameters:**
+ - **personId** The person id
 
+**Returns:** The address as LocalizedField[][].
 
-* **personId:** The person id
-* **Returns:** The address as LocalizedField[][].
-
+```crmscript
+NSPersonAgent agent;
+Integer personId;
+Address res = agent.GetAddress(personId);
+```
 

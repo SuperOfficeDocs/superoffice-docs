@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPocketStartupData_SetBaseLocaleTimeZoneData_NSTimeZoneData_p_0
-description: NSPocketStartupData.SetBaseLocaleTimeZoneData(NSTimeZoneData p_0)
+﻿---
+title: crmscript_ref_NSPocketStartupData_SetBaseLocaleTimeZoneData
+description: NSPocketStartupData.SetBaseLocaleTimeZoneData(TimeZoneData baseLocaleTimeZoneData)
 intellisense: NSPocketStartupData.SetBaseLocaleTimeZoneData
-keywords: SetBaseLocaleTimeZoneData(NSTimeZoneData)
+keywords: NSPocketStartupData, GetBaseLocaleTimeZoneData
 so.topic: reference
 ---
 
 
-* **BaseLocaleTimeZoneData:** TimeZoneData
-* **Returns:** TimeZoneData
 
+**Parameter:** 
+ - **baseLocaleTimeZoneData** TimeZoneData
 

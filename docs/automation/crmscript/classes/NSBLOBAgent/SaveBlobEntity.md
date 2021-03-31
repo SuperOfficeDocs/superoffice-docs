@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSBLOBAgent_SaveBlobEntity_NSBlobEntity_p_0
-description: NSBLOBAgent.SaveBlobEntity(NSBlobEntity p_0)
+﻿---
+title: crmscript_ref_NSBLOBAgent_SaveBlobEntity
+description: NSBlobEntity SaveBlobEntity(NSBlobEntity blobEntity);
 intellisense: NSBLOBAgent.SaveBlobEntity
-sortOrder: 1415
-keywords: SaveBlobEntity(NSBlobEntity)
+keywords: NSBLOBAgent,SaveBlobEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSBlobEntity or creates a new NSBlobEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **blobEntity** The NSBlobEntity to save.
 
+**Returns:** New or updated NSBlobEntity
 
-Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty
-
-
-
-* **blobEntity:** The BlobEntity that is saved
-* **Returns:** New or updated BlobEntity
-
+```crmscript
+NSBLOB  agent;
+NSBlobEntity thing = agent.CreateDefaultBlobEntity();
+thing = agent.SaveBlobEntity(thing);
+```
 

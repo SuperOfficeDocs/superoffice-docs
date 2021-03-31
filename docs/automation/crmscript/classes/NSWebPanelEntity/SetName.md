@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetName_String_p_0
-description: NSWebPanelEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetName
+description: NSWebPanelEntity.SetName(String name)
 intellisense: NSWebPanelEntity.SetName
-keywords: SetName(String)
+keywords: NSWebPanelEntity, GetName
 so.topic: reference
 ---
 
-
 The name of the web panel
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

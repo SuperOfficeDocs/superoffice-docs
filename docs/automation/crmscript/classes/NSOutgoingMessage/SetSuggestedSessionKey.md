@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSOutgoingMessage_SetSuggestedSessionKey_String_p_0
-description: NSOutgoingMessage.SetSuggestedSessionKey(String p_0)
+﻿---
+title: crmscript_ref_NSOutgoingMessage_SetSuggestedSessionKey
+description: NSOutgoingMessage.SetSuggestedSessionKey(String suggestedSessionKey)
 intellisense: NSOutgoingMessage.SetSuggestedSessionKey
-keywords: SetSuggestedSessionKey(String)
+keywords: NSOutgoingMessage, GetSuggestedSessionKey
 so.topic: reference
 ---
 
 
-* **SuggestedSessionKey:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **suggestedSessionKey** String
 

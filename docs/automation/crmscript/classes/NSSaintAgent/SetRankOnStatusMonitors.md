@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSSaintAgent_SetRankOnStatusMonitors_String_p_0_Integer__p_1
-description: NSSaintAgent.SetRankOnStatusMonitors(String p_0, Integer[] p_1)
+﻿---
+title: crmscript_ref_NSSaintAgent_SetRankOnStatusMonitors
+description: Void SetRankOnStatusMonitors(String type, IntegerArray itemsIds)
 intellisense: NSSaintAgent.SetRankOnStatusMonitors
-keywords: SetRankOnStatusMonitors(String,Integer[])
+keywords: NSSaintAgent,SetRankOnStatusMonitors
 so.topic: reference
 ---
 
-
 Set rank order on status monitors
 
+**Parameters:**
+ - **type** Type of status monitors to reorder ("contact", "project", etc.)
+ - **itemsIds** The ids of the items in the order you want
 
+**Returns:** This method has no return value
 
-* **type:** Type of status monitors to reorder ("contact", "project", etc.)
-* **itemsIds:** The ids of the items in the order you want
-* **Returns:** This method has no return value
-
+```crmscript
+NSSaintAgent agent;
+String type;
+IntegerArray itemsIds;
+Void res = agent.SetRankOnStatusMonitors(type, itemsIds);
+```
 

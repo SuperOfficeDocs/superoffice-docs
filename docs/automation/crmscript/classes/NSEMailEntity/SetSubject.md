@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEntity_SetSubject_String_p_0
-description: NSEMailEntity.SetSubject(String p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetSubject
+description: NSEMailEntity.SetSubject(String subject)
 intellisense: NSEMailEntity.SetSubject
-sortOrder: 2998
-keywords: SetSubject(String)
+keywords: NSEMailEntity, GetSubject
 so.topic: reference
 ---
 
-
 Subject of the e-mail
 
-
-
-* **Subject:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **subject** String
 

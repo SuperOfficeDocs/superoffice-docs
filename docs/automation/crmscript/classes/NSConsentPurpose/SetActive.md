@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentPurpose_SetActive_Integer_p_0
-description: NSConsentPurpose.SetActive(Integer p_0)
+﻿---
+title: crmscript_ref_NSConsentPurpose_SetActive
+description: NSConsentPurpose.SetActive(Integer active)
 intellisense: NSConsentPurpose.SetActive
-sortOrder: 1687
-keywords: SetActive(Integer)
+keywords: NSConsentPurpose, GetActive
 so.topic: reference
 ---
 
-
 Is the consent purpose active or not
 
-
-
-* **Active:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **active** Integer
 

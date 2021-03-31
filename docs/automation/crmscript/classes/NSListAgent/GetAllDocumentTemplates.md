@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetAllDocumentTemplates_Bool_p_0
-description: NSListAgent.GetAllDocumentTemplates(Bool p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetAllDocumentTemplates
+description: DocumentTemplateEntityArray GetAllDocumentTemplates(Bool includeDeleted)
 intellisense: NSListAgent.GetAllDocumentTemplates
-keywords: GetAllDocumentTemplates(Bool)
+keywords: NSListAgent,GetAllDocumentTemplates
 so.topic: reference
 ---
 
-
 Returns all templates
 
+**Parameters:**
+ - **includeDeleted** Include deleted items in result?
 
+**Returns:** Array of all template items
 
-* **includeDeleted:** Include deleted items in result?
-* **Returns:** Array of all template items
-
+```crmscript
+NSListAgent agent;
+Bool includeDeleted;
+DocumentTemplateEntityArray res = agent.GetAllDocumentTemplates(includeDeleted);
+```
 

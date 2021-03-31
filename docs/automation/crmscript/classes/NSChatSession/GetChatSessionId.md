@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSChatSession_GetChatSessionId
-description: NSChatSession.GetChatSessionId()
+description: Integer NSChatSession.GetChatSessionId()
 intellisense: NSChatSession.GetChatSessionId
-sortOrder: 1531
-keywords: GetChatSessionId()
+keywords: NSChatSession, GetChatSessionId
 so.topic: reference
 ---
 
+The primary key (auto-incremented)
 
-Id of the chat session. The value is mandatory.
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

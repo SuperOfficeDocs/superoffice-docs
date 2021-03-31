@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetLocalizedText_Integer_p_0
-description: NSListAgent.GetLocalizedText(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetLocalizedText
+description: NSLocalizedText GetLocalizedText(Integer localizedTextId);
 intellisense: NSListAgent.GetLocalizedText
-keywords: GetLocalizedText(Integer)
+keywords: NSListAgent,GetLocalizedText
 so.topic: reference
 ---
 
+Gets a NSLocalizedText object.
 
-Gets a LocalizedText object.
+**Parameters:**
+ - **localizedTextId** The identifier of the NSLocalizedText object
 
+**Returns:** NSLocalizedText
 
-
-* **localizedTextId:** The identifier of the LocalizedText object
-* **Returns:** LocalizedText
-
+```crmscript
+NSListAgent agent;
+NSLocalizedText thing = agent.GetLocalizedText(123);
+```
 

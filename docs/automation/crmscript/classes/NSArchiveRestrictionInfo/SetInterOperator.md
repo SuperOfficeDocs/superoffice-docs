@@ -1,18 +1,16 @@
----
-title: crmscript_ref_NSArchiveRestrictionInfo_SetInterOperator_Integer_p_0
-description: NSArchiveRestrictionInfo.SetInterOperator(Integer p_0)
+﻿---
+title: crmscript_ref_NSArchiveRestrictionInfo_SetInterOperator
+description: NSArchiveRestrictionInfo.SetInterOperator(Integer interOperator)
 intellisense: NSArchiveRestrictionInfo.SetInterOperator
-sortOrder: 1227
-keywords: SetInterOperator(Integer)
+keywords: NSArchiveRestrictionInfo, GetInterOperator
 so.topic: reference
 ---
 
-
 Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And
 
-
-
-* **InterOperator:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **interOperator** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = And 
+     - Enum: 2 = Or 
 

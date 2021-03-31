@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetWorkdir_String_p_0
-description: NSExtAppEntity.SetWorkdir(String p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetWorkdir
+description: NSExtAppEntity.SetWorkdir(String workdir)
 intellisense: NSExtAppEntity.SetWorkdir
-sortOrder: 3400
-keywords: SetWorkdir(String)
+keywords: NSExtAppEntity, GetWorkdir
 so.topic: reference
 ---
 
-
 Directory set to current when loading the application, if different from application's own
 
-
-
-* **Workdir:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **workdir** String
 

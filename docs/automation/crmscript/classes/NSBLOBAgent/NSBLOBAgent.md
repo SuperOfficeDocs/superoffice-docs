@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSBLOBAgent
 description: NSBLOBAgent
 intellisense: Void.NSBLOBAgent
-sortOrder: 1406
+keywords: NSBLOBAgent
 so.topic: reference
 ---
 
-
 Collection of all services that works with binary objects (BLOBS), e.g. Images and documents.
 
-
-
+```crmscript
+NSBLOBAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSAddressSyncData
 description: NSAddressSyncData
 intellisense: Void.NSAddressSyncData
-sortOrder: 615
+keywords: NSAddressSyncData
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointment_SetDaysFuture_Integer_p_0
-description: NSSuggestedAppointment.SetDaysFuture(Integer p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointment_SetDaysFuture
+description: NSSuggestedAppointment.SetDaysFuture(Integer daysFuture)
 intellisense: NSSuggestedAppointment.SetDaysFuture
-keywords: SetDaysFuture(Integer)
+keywords: NSSuggestedAppointment, GetDaysFuture
 so.topic: reference
 ---
 
-
 How many days into the future the appointment should be scheduled
 
-
-
-* **DaysFuture:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **daysFuture** Integer
 

@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSModuleLicenseLink_GetSortOrder
-description: NSModuleLicenseLink.GetSortOrder()
+description: Integer NSModuleLicenseLink.GetSortOrder()
 intellisense: NSModuleLicenseLink.GetSortOrder
-keywords: GetSortOrder()
+keywords: NSModuleLicenseLink, GetSortOrder
 so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
 
 

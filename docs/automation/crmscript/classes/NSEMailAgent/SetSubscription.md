@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAgent_SetSubscription_NSEMailConnectionInfo_p_0_NSEMailFolder__p_1
-description: NSEMailAgent.SetSubscription(NSEMailConnectionInfo p_0, NSEMailFolder[] p_1)
+﻿---
+title: crmscript_ref_NSEMailAgent_SetSubscription
+description: Void SetSubscription(EMailConnectionInfo connectionInfo, EMailFolderArray folders)
 intellisense: NSEMailAgent.SetSubscription
-sortOrder: 2868
-keywords: SetSubscription(NSEMailConnectionInfo,NSEMailFolder[])
+keywords: NSEMailAgent,SetSubscription
 so.topic: reference
 ---
 
-
 Set subscription on or off on a set of folders
 
-
-
-* **connectionInfo:** All information needed to connect to the mailserver
-* **folders:** Folders to set subscription value on
-
-
+**Parameters:**
+ - **connectionInfo** All information needed to connect to the mailserver
+ - **folders** Folders to set subscription value on

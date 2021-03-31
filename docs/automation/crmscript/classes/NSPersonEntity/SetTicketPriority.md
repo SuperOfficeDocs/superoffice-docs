@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetTicketPriority_NSTicketPriority_p_0
-description: NSPersonEntity.SetTicketPriority(NSTicketPriority p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetTicketPriority
+description: NSPersonEntity.SetTicketPriority(TicketPriority ticketPriority)
 intellisense: NSPersonEntity.SetTicketPriority
-keywords: SetTicketPriority(NSTicketPriority)
+keywords: NSPersonEntity, GetTicketPriority
 so.topic: reference
 ---
 
 
-* **TicketPriority:** TicketPriority
-* **Returns:** TicketPriority
 
+**Parameter:** 
+ - **ticketPriority** TicketPriority
 

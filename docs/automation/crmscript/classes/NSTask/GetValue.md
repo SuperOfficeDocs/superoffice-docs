@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSTask_GetValue
-description: NSTask.GetValue()
+description: String NSTask.GetValue()
 intellisense: NSTask.GetValue
-keywords: GetValue()
+keywords: NSTask, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

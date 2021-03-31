@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetAddressLayoutId_Integer_p_0
-description: NSCountry.SetAddressLayoutId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetAddressLayoutId
+description: NSCountry.SetAddressLayoutId(Integer addressLayoutId)
 intellisense: NSCountry.SetAddressLayoutId
-sortOrder: 2030
-keywords: SetAddressLayoutId(Integer)
+keywords: NSCountry, GetAddressLayoutId
 so.topic: reference
 ---
 
-
 Address layout of the country
 
-
-
-* **AddressLayoutId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **addressLayoutId** Integer
 

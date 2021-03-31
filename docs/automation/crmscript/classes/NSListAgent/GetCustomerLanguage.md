@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetCustomerLanguage_Integer_p_0
-description: NSListAgent.GetCustomerLanguage(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCustomerLanguage
+description: NSCustomerLanguage GetCustomerLanguage(Integer customerLanguageId);
 intellisense: NSListAgent.GetCustomerLanguage
-keywords: GetCustomerLanguage(Integer)
+keywords: NSListAgent,GetCustomerLanguage
 so.topic: reference
 ---
 
+Gets a NSCustomerLanguage object.
 
-Gets a CustomerLanguage object.
+**Parameters:**
+ - **customerLanguageId** The identifier of the NSCustomerLanguage object
 
+**Returns:** NSCustomerLanguage
 
-
-* **customerLanguageId:** The identifier of the CustomerLanguage object
-* **Returns:** CustomerLanguage
-
+```crmscript
+NSListAgent agent;
+NSCustomerLanguage thing = agent.GetCustomerLanguage(123);
+```
 

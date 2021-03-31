@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummary_SetCurrentOverdueTotalBaseCurrency_Float_p_0
-description: NSSaleSummary.SetCurrentOverdueTotalBaseCurrency(Float p_0)
+﻿---
+title: crmscript_ref_NSSaleSummary_SetCurrentOverdueTotalBaseCurrency
+description: NSSaleSummary.SetCurrentOverdueTotalBaseCurrency(Float currentOverdueTotalBaseCurrency)
 intellisense: NSSaleSummary.SetCurrentOverdueTotalBaseCurrency
-keywords: SetCurrentOverdueTotalBaseCurrency(Float)
+keywords: NSSaleSummary, GetCurrentOverdueTotalBaseCurrency
 so.topic: reference
 ---
 
-
 Summed amount for all overdue sales within the period in default currency for the installation
 
-
-
-* **CurrentOverdueTotalBaseCurrency:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **currentOverdueTotalBaseCurrency** Float
 

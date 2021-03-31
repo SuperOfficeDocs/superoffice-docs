@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicket_GetTitle
-description: NSTicket.GetTitle()
+description: String NSTicket.GetTitle()
 intellisense: NSTicket.GetTitle
-keywords: GetTitle()
+keywords: NSTicket, GetTitle
 so.topic: reference
 ---
 
-
 The title of the ticket.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserInfo_SetUserGroupId_Integer_p_0
-description: NSUserInfo.SetUserGroupId(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetUserGroupId
+description: NSUserInfo.SetUserGroupId(Integer userGroupId)
 intellisense: NSUserInfo.SetUserGroupId
-keywords: SetUserGroupId(Integer)
+keywords: NSUserInfo, GetUserGroupId
 so.topic: reference
 ---
 
-
 Primary group membership, see UserGroupLink for secondary memberships
 
-
-
-* **UserGroupId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **userGroupId** Integer
 

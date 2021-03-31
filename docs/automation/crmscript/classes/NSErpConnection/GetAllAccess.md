@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpConnection_GetAllAccess
-description: NSErpConnection.GetAllAccess()
+description: Bool NSErpConnection.GetAllAccess()
 intellisense: NSErpConnection.GetAllAccess
-sortOrder: 3077
-keywords: GetAllAccess()
+keywords: NSErpConnection, GetAllAccess
 so.topic: reference
 ---
 
-
 Is this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetFolderId_Integer_p_0
-description: NSFormEntity.SetFolderId(Integer p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetFolderId
+description: NSFormEntity.SetFolderId(Integer folderId)
 intellisense: NSFormEntity.SetFolderId
-sortOrder: 3810
-keywords: SetFolderId(Integer)
+keywords: NSFormEntity, GetFolderId
 so.topic: reference
 ---
 
-
 The folder which this form belongs to. -1 indicates that the shipment is on the root
 
-
-
-* **FolderId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **folderId** Integer
 

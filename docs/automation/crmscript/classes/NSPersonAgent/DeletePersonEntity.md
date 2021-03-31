@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSPersonAgent_DeletePersonEntity_Integer_p_0
-description: NSPersonAgent.DeletePersonEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_DeletePersonEntity
+description: DeletePersonEntity(Integer personEntity);
 intellisense: NSPersonAgent.DeletePersonEntity
-keywords: DeletePersonEntity(Integer)
+keywords: NSPersonAgent,DeletePersonEntity
 so.topic: reference
 ---
 
+Deletes the NSPersonEntity
+  
+**Parameters:**
+ - **personEntityId** The identity of the PersonEntity to delete.
 
-Deletes the PersonEntity
-
-
-
-* **personEntityId:** The identity of the PersonEntity
-
+```crmscript
+NSPersonAgent agent;
+agent.DeletePersonEntity(123);
+```
 

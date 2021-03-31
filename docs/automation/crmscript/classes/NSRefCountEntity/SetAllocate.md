@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRefCountEntity_SetAllocate_Bool_p_0
-description: NSRefCountEntity.SetAllocate(Bool p_0)
+﻿---
+title: crmscript_ref_NSRefCountEntity_SetAllocate
+description: NSRefCountEntity.SetAllocate(Bool allocate)
 intellisense: NSRefCountEntity.SetAllocate
-keywords: SetAllocate(Bool)
+keywords: NSRefCountEntity, GetAllocate
 so.topic: reference
 ---
 
-
 Allocate numbers automatically
 
-
-
-* **Allocate:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **allocate** Bool
 

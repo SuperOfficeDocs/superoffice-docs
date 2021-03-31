@@ -1,20 +1,25 @@
----
-title: crmscript_ref_NSForeignSystemAgent_GetDeviceByIdentifier_String_p_0_String_p_1_String_p_2
-description: NSForeignSystemAgent.GetDeviceByIdentifier(String p_0, String p_1, String p_2)
+﻿---
+title: crmscript_ref_NSForeignSystemAgent_GetDeviceByIdentifier
+description: ForeignDevice GetDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
 intellisense: NSForeignSystemAgent.GetDeviceByIdentifier
-sortOrder: 3757
-keywords: GetDeviceByIdentifier(String,String,String)
+keywords: NSForeignSystemAgent,GetDeviceByIdentifier
 so.topic: reference
 ---
 
-
 Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
 
+**Parameters:**
+ - **applicationName** The name of the foreign application.
+ - **deviceName** The name of the foreign device.
+ - **deviceIdentifier** Optional unique id of device (Palm pilot device ID, version number, etc)
 
+**Returns:** The ForeignDevice.
 
-* **applicationName:** The name of the foreign application.
-* **deviceName:** The name of the foreign device.
-* **deviceIdentifier:** Optional unique id of device (Palm pilot device ID, version number, etc)
-* **Returns:** The ForeignDevice.
-
+```crmscript
+NSForeignSystemAgent agent;
+String applicationName;
+String deviceName;
+String deviceIdentifier;
+ForeignDevice res = agent.GetDeviceByIdentifier(applicationName, deviceName, deviceIdentifier);
+```
 

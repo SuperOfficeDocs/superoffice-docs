@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetAlarmTime_DateTime_p_0
-description: NSAlarmData.SetAlarmTime(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetAlarmTime
+description: NSAlarmData.SetAlarmTime(DateTime alarmTime)
 intellisense: NSAlarmData.SetAlarmTime
-sortOrder: 668
-keywords: SetAlarmTime(DateTime)
+keywords: NSAlarmData, GetAlarmTime
 so.topic: reference
 ---
 
 
-* **AlarmTime:** DateTime
-* **Returns:** DateTime
 
+**Parameter:** 
+ - **alarmTime** DateTime
 

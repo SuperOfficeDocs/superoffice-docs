@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSActivitySummaryItem_SetDate_DateTime_p_0
-description: NSActivitySummaryItem.SetDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSActivitySummaryItem_SetDate
+description: NSActivitySummaryItem.SetDate(DateTime date)
 intellisense: NSActivitySummaryItem.SetDate
-sortOrder: 603
-keywords: SetDate(DateTime)
+keywords: NSActivitySummaryItem, GetDate
 so.topic: reference
 ---
 
-
 Start/Document date
 
-
-
-* **Date:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **date** DateTime
 

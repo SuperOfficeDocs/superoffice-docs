@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEnvelope_SetFrom_NSEMailAddress_p_0
-description: NSEMailEnvelope.SetFrom(NSEMailAddress p_0)
+﻿---
+title: crmscript_ref_NSEMailEnvelope_SetFrom
+description: NSEMailEnvelope.SetFrom(EMailAddress from)
 intellisense: NSEMailEnvelope.SetFrom
-sortOrder: 3017
-keywords: SetFrom(NSEMailAddress)
+keywords: NSEMailEnvelope, GetFrom
 so.topic: reference
 ---
 
-
 Who did the e-mail originate from
 
-
-
-* **From:** EMailAddress
-* **Returns:** EMailAddress
-
+**Parameter:** 
+ - **from** EMailAddress
 

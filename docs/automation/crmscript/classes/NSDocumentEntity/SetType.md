@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSDocumentEntity_SetType_Integer_p_0
-description: NSDocumentEntity.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetType
+description: NSDocumentEntity.SetType(Integer type)
 intellisense: NSDocumentEntity.SetType
-sortOrder: 2612
-keywords: SetType(Integer)
+keywords: NSDocumentEntity, GetType
 so.topic: reference
 ---
 
-
 Is this a normal document or a mail-merge or report?
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = inDiary 
+     - Enum: 2 = inChecklist 
+     - Enum: 3 = Note 
+     - Enum: 4 = Document 
+     - Enum: 5 = SavedReport 
+     - Enum: 6 = BookingForDiary 
+     - Enum: 7 = BookingForChecklist 
+     - Enum: 8 = MergeDraft 
+     - Enum: 9 = MergeFinal 
 

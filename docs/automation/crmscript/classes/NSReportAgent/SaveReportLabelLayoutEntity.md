@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSReportAgent_SaveReportLabelLayoutEntity_NSReportLabelLayoutEntity_p_0
-description: NSReportAgent.SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity p_0)
+﻿---
+title: crmscript_ref_NSReportAgent_SaveReportLabelLayoutEntity
+description: NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity reportLabelLayoutEntity);
 intellisense: NSReportAgent.SaveReportLabelLayoutEntity
-keywords: SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity)
+keywords: NSReportAgent,SaveReportLabelLayoutEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSReportLabelLayoutEntity or creates a new NSReportLabelLayoutEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **reportLabelLayoutEntity** The NSReportLabelLayoutEntity to save.
 
+**Returns:** New or updated NSReportLabelLayoutEntity
 
-Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty
-
-
-
-* **reportLabelLayoutEntity:** The ReportLabelLayoutEntity that is saved
-* **Returns:** New or updated ReportLabelLayoutEntity
-
+```crmscript
+NSReport  agent;
+NSReportLabelLayoutEntity thing = agent.CreateDefaultReportLabelLayoutEntity();
+thing = agent.SaveReportLabelLayoutEntity(thing);
+```
 

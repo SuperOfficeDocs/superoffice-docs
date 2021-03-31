@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionButtonState_SetTooltipText_String_p_0
-description: NSQuoteVersionButtonState.SetTooltipText(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionButtonState_SetTooltipText
+description: NSQuoteVersionButtonState.SetTooltipText(String tooltipText)
 intellisense: NSQuoteVersionButtonState.SetTooltipText
-keywords: SetTooltipText(String)
+keywords: NSQuoteVersionButtonState, GetTooltipText
 so.topic: reference
 ---
 
-
 The tooltip for the button
 
-
-
-* **TooltipText:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltipText** String
 

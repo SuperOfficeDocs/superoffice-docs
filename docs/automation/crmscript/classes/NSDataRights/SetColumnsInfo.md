@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSDataRights_SetColumnsInfo_NSRelationToOwner__p_0
-description: NSDataRights.SetColumnsInfo(NSRelationToOwner[] p_0)
+﻿---
+title: crmscript_ref_NSDataRights_SetColumnsInfo
+description: NSDataRights.SetColumnsInfo(RelationToOwnerArray columnsInfo)
 intellisense: NSDataRights.SetColumnsInfo
-sortOrder: 2353
-keywords: SetColumnsInfo(NSRelationToOwner[])
+keywords: NSDataRights, GetColumnsInfo
 so.topic: reference
 ---
 
 
-* **ColumnsInfo:** RelationToOwnerArray
-* **Returns:** RelationToOwnerArray
 
+**Parameter:** 
+ - **columnsInfo** RelationToOwnerArray
 

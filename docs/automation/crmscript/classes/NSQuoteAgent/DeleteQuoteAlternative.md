@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_DeleteQuoteAlternative_Integer_p_0
-description: NSQuoteAgent.DeleteQuoteAlternative(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_DeleteQuoteAlternative
+description: Void DeleteQuoteAlternative(Integer quoteAlternativeId)
 intellisense: NSQuoteAgent.DeleteQuoteAlternative
-keywords: DeleteQuoteAlternative(Integer)
+keywords: NSQuoteAgent,DeleteQuoteAlternative
 so.topic: reference
 ---
 
-
 Delete a quote alternative
 
+**Parameters:**
+ - **quoteAlternativeId** Id of the quote alternative to delete.
 
+**Returns:** A void return
 
-* **quoteAlternativeId:** Id of the quote alternative to delete.
-* **Returns:** A void return
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteAlternativeId;
+Void res = agent.DeleteQuoteAlternative(quoteAlternativeId);
+```
 

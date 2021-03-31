@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEntity_SetMessageID_String_p_0
-description: NSEMailEntity.SetMessageID(String p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetMessageID
+description: NSEMailEntity.SetMessageID(String messageID)
 intellisense: NSEMailEntity.SetMessageID
-sortOrder: 2989
-keywords: SetMessageID(String)
+keywords: NSEMailEntity, GetMessageID
 so.topic: reference
 ---
 
-
 Unique id of e-mails
 
-
-
-* **MessageID:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **messageID** String
 

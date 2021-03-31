@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetMrMrsList_Integer__p_0
-description: NSListAgent.GetMrMrsList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetMrMrsList
+description: NSMrMrs[] GetMrMrsList(Integer[]  mrMrsIds);
 intellisense: NSListAgent.GetMrMrsList
-keywords: GetMrMrsList(Integer[])
+keywords: NSListAgent,GetMrMrsList
 so.topic: reference
 ---
 
-Gets an array of MrMrs objects.
+Gets a vector of MrMrs objects.
 
+**Parameters:**
+ - **mrMrsIds** The identifiers of the NSMrMrs objects
 
-* **p0:** IntegerArray of identifiers for MrMrs
-* **Returns:** Array of NSMrMrs
+**Returns:** Vector of NSMrMrs objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetMrMrsList(ids);
+```
 

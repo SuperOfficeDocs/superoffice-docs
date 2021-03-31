@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetFullName_String_p_0
-description: NSProjectMember.SetFullName(String p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetFullName
+description: NSProjectMember.SetFullName(String fullName)
 intellisense: NSProjectMember.SetFullName
-keywords: SetFullName(String)
+keywords: NSProjectMember, GetFullName
 so.topic: reference
 ---
 
-
 The person's full name localized to the current culture/country.  (internal name used in clients for employees)
 
-
-
-* **FullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fullName** String
 

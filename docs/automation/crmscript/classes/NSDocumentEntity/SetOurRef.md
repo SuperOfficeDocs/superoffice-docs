@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentEntity_SetOurRef_String_p_0
-description: NSDocumentEntity.SetOurRef(String p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetOurRef
+description: NSDocumentEntity.SetOurRef(String ourRef)
 intellisense: NSDocumentEntity.SetOurRef
-sortOrder: 2604
-keywords: SetOurRef(String)
+keywords: NSDocumentEntity, GetOurRef
 so.topic: reference
 ---
 
-
 Our reference, searchable field from freetext search
 
-
-
-* **OurRef:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **ourRef** String
 

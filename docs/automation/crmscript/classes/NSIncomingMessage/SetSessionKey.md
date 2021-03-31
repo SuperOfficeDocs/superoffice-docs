@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSIncomingMessage_SetSessionKey_String_p_0
-description: NSIncomingMessage.SetSessionKey(String p_0)
+﻿---
+title: crmscript_ref_NSIncomingMessage_SetSessionKey
+description: NSIncomingMessage.SetSessionKey(String sessionKey)
 intellisense: NSIncomingMessage.SetSessionKey
-sortOrder: 3996
-keywords: SetSessionKey(String)
+keywords: NSIncomingMessage, GetSessionKey
 so.topic: reference
 ---
 
-
 Session key used for threading.
 
-
-
-* **SessionKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **sessionKey** String
 

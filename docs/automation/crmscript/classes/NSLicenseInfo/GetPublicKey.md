@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSLicenseInfo_GetPublicKey
-description: NSLicenseInfo.GetPublicKey()
+description: SignedPublicKey NSLicenseInfo.GetPublicKey()
 intellisense: NSLicenseInfo.GetPublicKey
-keywords: GetPublicKey()
+keywords: NSLicenseInfo, GetPublicKey
 so.topic: reference
 ---
 
-
 The public key used to verify licenses owned by this owner.
 
-
-
-* **Returns:** SignedPublicKey
+**Returns:** SignedPublicKey
 
 

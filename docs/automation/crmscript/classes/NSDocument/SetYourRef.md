@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocument_SetYourRef_String_p_0
-description: NSDocument.SetYourRef(String p_0)
+﻿---
+title: crmscript_ref_NSDocument_SetYourRef
+description: NSDocument.SetYourRef(String yourRef)
 intellisense: NSDocument.SetYourRef
-sortOrder: 2462
-keywords: SetYourRef(String)
+keywords: NSDocument, GetYourRef
 so.topic: reference
 ---
 
-
 Your reference
 
-
-
-* **YourRef:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **yourRef** String
 

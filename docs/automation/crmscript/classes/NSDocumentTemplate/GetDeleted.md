@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplate_GetDeleted
-description: NSDocumentTemplate.GetDeleted()
+description: Integer NSDocumentTemplate.GetDeleted()
 intellisense: NSDocumentTemplate.GetDeleted
-sortOrder: 2621
-keywords: GetDeleted()
+keywords: NSDocumentTemplate, GetDeleted
 so.topic: reference
 ---
 
-
 0 -> record is active 1 -> record is 'deleted' and should not be shown in lists
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

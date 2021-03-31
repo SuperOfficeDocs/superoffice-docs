@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSActivitySummaryItem_GetDate
-description: NSActivitySummaryItem.GetDate()
+description: DateTime NSActivitySummaryItem.GetDate()
 intellisense: NSActivitySummaryItem.GetDate
-sortOrder: 595
-keywords: GetDate()
+keywords: NSActivitySummaryItem, GetDate
 so.topic: reference
 ---
 
-
 Start/Document date
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketEntity_SetTicketId_Integer_p_0
-description: NSTicketEntity.SetTicketId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetTicketId
+description: NSTicketEntity.SetTicketId(Integer ticketId)
 intellisense: NSTicketEntity.SetTicketId
-keywords: SetTicketId(Integer)
+keywords: NSTicketEntity, GetTicketId
 so.topic: reference
 ---
 
-
 The primary key (auto-incremented)
 
-
-
-* **TicketId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **ticketId** Integer
 

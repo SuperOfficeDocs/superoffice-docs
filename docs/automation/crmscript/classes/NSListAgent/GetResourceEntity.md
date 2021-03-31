@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetResourceEntity_Integer_p_0
-description: NSListAgent.GetResourceEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetResourceEntity
+description: NSResourceEntity GetResourceEntity(Integer resourceEntityId);
 intellisense: NSListAgent.GetResourceEntity
-keywords: GetResourceEntity(Integer)
+keywords: NSListAgent,GetResourceEntity
 so.topic: reference
 ---
 
+Gets a NSResourceEntity object.
 
-Gets a ResourceEntity object.
+**Parameters:**
+ - **resourceEntityId** The identifier of the NSResourceEntity object
 
+**Returns:** NSResourceEntity
 
-
-* **resourceEntityId:** The identifier of the ResourceEntity object
-* **Returns:** ResourceEntity
-
+```crmscript
+NSListAgent agent;
+NSResourceEntity thing = agent.GetResourceEntity(123);
+```
 

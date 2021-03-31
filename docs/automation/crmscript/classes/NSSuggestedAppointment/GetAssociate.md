@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedAppointment_GetAssociate
-description: NSSuggestedAppointment.GetAssociate()
+description: Associate NSSuggestedAppointment.GetAssociate()
 intellisense: NSSuggestedAppointment.GetAssociate
-keywords: GetAssociate()
+keywords: NSSuggestedAppointment, GetAssociate
 so.topic: reference
 ---
 
-
 The owner of the suggested activity. Always the same as the sales owner.
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

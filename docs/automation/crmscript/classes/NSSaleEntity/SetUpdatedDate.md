@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetUpdatedDate_DateTime_p_0
-description: NSSaleEntity.SetUpdatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetUpdatedDate
+description: NSSaleEntity.SetUpdatedDate(DateTime updatedDate)
 intellisense: NSSaleEntity.SetUpdatedDate
-keywords: SetUpdatedDate(DateTime)
+keywords: NSSaleEntity, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Last updated
 
-
-
-* **UpdatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **updatedDate** DateTime
 

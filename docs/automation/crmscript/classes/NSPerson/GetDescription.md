@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPerson_GetDescription
-description: NSPerson.GetDescription()
+description: String NSPerson.GetDescription()
 intellisense: NSPerson.GetDescription
-keywords: GetDescription()
+keywords: NSPerson, GetDescription
 so.topic: reference
 ---
 
+Info text/description on person. 
 
-Info text/description on person.
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

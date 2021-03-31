@@ -1,13 +1,19 @@
----
-title: crmscript_ref_NSUserInfo_SetUserType_Integer_p_0
-description: NSUserInfo.SetUserType(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetUserType
+description: NSUserInfo.SetUserType(Integer userType)
 intellisense: NSUserInfo.SetUserType
-keywords: SetUserType(Integer)
+keywords: NSUserInfo, GetUserType
 so.topic: reference
 ---
 
 
-* **UserType:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **userType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSServiceAuth_SetPort_Integer_p_0
-description: NSServiceAuth.SetPort(Integer p_0)
+﻿---
+title: crmscript_ref_NSServiceAuth_SetPort
+description: NSServiceAuth.SetPort(Integer port)
 intellisense: NSServiceAuth.SetPort
-keywords: SetPort(Integer)
+keywords: NSServiceAuth, GetPort
 so.topic: reference
 ---
 
-
 The server port
 
-
-
-* **Port:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **port** Integer
 

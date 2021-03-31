@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAddressSyncData_SetState_String_p_0
-description: NSAddressSyncData.SetState(String p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetState
+description: NSAddressSyncData.SetState(String state)
 intellisense: NSAddressSyncData.SetState
-sortOrder: 639
-keywords: SetState(String)
+keywords: NSAddressSyncData, GetState
 so.topic: reference
 ---
 
 
-* **State:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **state** String
 

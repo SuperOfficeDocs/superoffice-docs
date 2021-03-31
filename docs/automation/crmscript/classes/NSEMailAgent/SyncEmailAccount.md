@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSEMailAgent_SyncEmailAccount_NSSyncUserAccount_p_0
-description: NSEMailAgent.SyncEmailAccount(NSSyncUserAccount p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_SyncEmailAccount
+description: Void SyncEmailAccount(SyncUserAccount syncUserAccount)
 intellisense: NSEMailAgent.SyncEmailAccount
-sortOrder: 2869
-keywords: SyncEmailAccount(NSSyncUserAccount)
+keywords: NSEMailAgent,SyncEmailAccount
 so.topic: reference
 ---
 
-
 Sync the given account
 
+**Parameters:**
+ - **syncUserAccount** Account to sync
 
+**Returns:** A void return
 
-* **syncUserAccount:** Account to sync
-* **Returns:** A void return
-
+```crmscript
+NSEMailAgent agent;
+SyncUserAccount syncUserAccount;
+Void res = agent.SyncEmailAccount(syncUserAccount);
+```
 

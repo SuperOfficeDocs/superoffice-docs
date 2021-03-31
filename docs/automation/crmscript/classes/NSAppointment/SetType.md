@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSAppointment_SetType_Integer_p_0
-description: NSAppointment.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetType
+description: NSAppointment.SetType(Integer type)
 intellisense: NSAppointment.SetType
-sortOrder: 820
-keywords: SetType(Integer)
+keywords: NSAppointment, GetType
 so.topic: reference
 ---
 
-
 The different types of appointment, if the appointment is supposed to be shown in the diary or checklist, or if it's a document. See the different types of appointments in the database manual.
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = inDiary 
+     - Enum: 2 = inChecklist 
+     - Enum: 3 = Note 
+     - Enum: 4 = Document 
+     - Enum: 5 = SavedReport 
+     - Enum: 6 = BookingForDiary 
+     - Enum: 7 = BookingForChecklist 
+     - Enum: 8 = MergeDraft 
+     - Enum: 9 = MergeFinal 
 

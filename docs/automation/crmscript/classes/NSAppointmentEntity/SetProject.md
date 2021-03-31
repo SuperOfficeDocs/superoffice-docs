@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetProject_NSProject_p_0
-description: NSAppointmentEntity.SetProject(NSProject p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetProject
+description: NSAppointmentEntity.SetProject(Project project)
 intellisense: NSAppointmentEntity.SetProject
-sortOrder: 1022
-keywords: SetProject(NSProject)
+keywords: NSAppointmentEntity, GetProject
 so.topic: reference
 ---
 
-
 An appointment may also be connected to a project, so you see the appointment both on the company card, and on the project card. This does not mean however that a project is required.
 
-
-
-* **Project:** Project
-* **Returns:** Project
-
+**Parameter:** 
+ - **project** Project
 

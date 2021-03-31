@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetCreatedDate
-description: NSAppointmentEntity.GetCreatedDate()
+description: DateTime NSAppointmentEntity.GetCreatedDate()
 intellisense: NSAppointmentEntity.GetCreatedDate
-sortOrder: 932
-keywords: GetCreatedDate()
+keywords: NSAppointmentEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered date
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

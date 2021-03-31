@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetUrls_NSEntityElement__p_0
-description: NSPersonEntity.SetUrls(NSEntityElement[] p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetUrls
+description: NSPersonEntity.SetUrls(EntityElementArray urls)
 intellisense: NSPersonEntity.SetUrls
-keywords: SetUrls(NSEntityElement[])
+keywords: NSPersonEntity, GetUrls
 so.topic: reference
 ---
 
-
 The urls related to this person.
 
-
-
-* **Urls:** EntityElementArray
-* **Returns:** EntityElementArray
-
+**Parameter:** 
+ - **urls** EntityElementArray
 

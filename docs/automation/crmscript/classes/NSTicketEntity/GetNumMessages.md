@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketEntity_GetNumMessages
-description: NSTicketEntity.GetNumMessages()
+description: Integer NSTicketEntity.GetNumMessages()
 intellisense: NSTicketEntity.GetNumMessages
-keywords: GetNumMessages()
+keywords: NSTicketEntity, GetNumMessages
 so.topic: reference
 ---
 
-
 The total number of messages for this request.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

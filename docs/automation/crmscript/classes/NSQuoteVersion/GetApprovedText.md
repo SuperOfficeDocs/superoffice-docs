@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersion_GetApprovedText
-description: NSQuoteVersion.GetApprovedText()
+description: String NSQuoteVersion.GetApprovedText()
 intellisense: NSQuoteVersion.GetApprovedText
-keywords: GetApprovedText()
+keywords: NSQuoteVersion, GetApprovedText
 so.topic: reference
 ---
 
-
 Text with comments on why approval was granted (or rejected)
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

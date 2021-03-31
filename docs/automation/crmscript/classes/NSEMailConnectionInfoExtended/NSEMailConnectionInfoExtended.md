@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSEMailConnectionInfoExtended
 description: NSEMailConnectionInfoExtended
 intellisense: Void.NSEMailConnectionInfoExtended
-sortOrder: 2920
+keywords: NSEMailConnectionInfoExtended
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

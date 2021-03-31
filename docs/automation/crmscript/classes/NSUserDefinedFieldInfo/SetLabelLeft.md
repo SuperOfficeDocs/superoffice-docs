@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelLeft_Integer_p_0
-description: NSUserDefinedFieldInfo.SetLabelLeft(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelLeft
+description: NSUserDefinedFieldInfo.SetLabelLeft(Integer labelLeft)
 intellisense: NSUserDefinedFieldInfo.SetLabelLeft
-keywords: SetLabelLeft(Integer)
+keywords: NSUserDefinedFieldInfo, GetLabelLeft
 so.topic: reference
 ---
 
-
 X pixel coordinate of label
 
-
-
-* **LabelLeft:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **labelLeft** Integer
 

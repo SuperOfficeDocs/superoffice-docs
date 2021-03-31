@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSChatSummaryItem_GetWhenEnded
-description: NSChatSummaryItem.GetWhenEnded()
+description: DateTime NSChatSummaryItem.GetWhenEnded()
 intellisense: NSChatSummaryItem.GetWhenEnded
-sortOrder: 1535
-keywords: GetWhenEnded()
+keywords: NSChatSummaryItem, GetWhenEnded
 so.topic: reference
 ---
 
-
 When the session was ended.
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBlobEntity_SetIsEncrypted_Bool_p_0
-description: NSBlobEntity.SetIsEncrypted(Bool p_0)
+﻿---
+title: crmscript_ref_NSBlobEntity_SetIsEncrypted
+description: NSBlobEntity.SetIsEncrypted(Bool isEncrypted)
 intellisense: NSBlobEntity.SetIsEncrypted
-sortOrder: 1460
-keywords: SetIsEncrypted(Bool)
+keywords: NSBlobEntity, GetIsEncrypted
 so.topic: reference
 ---
 
-
 Has the data been encrypted.
 
-
-
-* **IsEncrypted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isEncrypted** Bool
 

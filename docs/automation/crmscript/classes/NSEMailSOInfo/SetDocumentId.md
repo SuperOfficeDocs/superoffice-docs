@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailSOInfo_SetDocumentId_Integer_p_0
-description: NSEMailSOInfo.SetDocumentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailSOInfo_SetDocumentId
+description: NSEMailSOInfo.SetDocumentId(Integer documentId)
 intellisense: NSEMailSOInfo.SetDocumentId
-sortOrder: 3057
-keywords: SetDocumentId(Integer)
+keywords: NSEMailSOInfo, GetDocumentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **documentId** Integer
 

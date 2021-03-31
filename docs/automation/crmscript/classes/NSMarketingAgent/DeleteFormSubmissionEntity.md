@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSMarketingAgent_DeleteFormSubmissionEntity_Integer_p_0
-description: NSMarketingAgent.DeleteFormSubmissionEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSMarketingAgent_DeleteFormSubmissionEntity
+description: DeleteFormSubmissionEntity(Integer formSubmissionEntity);
 intellisense: NSMarketingAgent.DeleteFormSubmissionEntity
-keywords: DeleteFormSubmissionEntity(Integer)
+keywords: NSMarketingAgent,DeleteFormSubmissionEntity
 so.topic: reference
 ---
 
+Deletes the NSFormSubmissionEntity
+  
+**Parameters:**
+ - **formSubmissionEntityId** The identity of the FormSubmissionEntity to delete.
 
-Deletes the FormSubmissionEntity
-
-
-
-* **formSubmissionEntityId:** The identity of the FormSubmissionEntity
-
+```crmscript
+NSMarketingAgent agent;
+agent.DeleteFormSubmissionEntity(123);
+```
 

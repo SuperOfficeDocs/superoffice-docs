@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleTypeEntity_SetHasStakeholders_Bool_p_0
-description: NSSaleTypeEntity.SetHasStakeholders(Bool p_0)
+﻿---
+title: crmscript_ref_NSSaleTypeEntity_SetHasStakeholders
+description: NSSaleTypeEntity.SetHasStakeholders(Bool hasStakeholders)
 intellisense: NSSaleTypeEntity.SetHasStakeholders
-keywords: SetHasStakeholders(Bool)
+keywords: NSSaleTypeEntity, GetHasStakeholders
 so.topic: reference
 ---
 
-
 Does this sale type have stakeholders
 
-
-
-* **HasStakeholders:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **hasStakeholders** Bool
 

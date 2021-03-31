@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSProjectStatus_GetId
-description: NSProjectStatus.GetId()
+description: Integer NSProjectStatus.GetId()
 intellisense: NSProjectStatus.GetId
-keywords: GetId()
+keywords: NSProjectStatus, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

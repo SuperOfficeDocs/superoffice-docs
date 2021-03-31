@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteLineConfiguration_GetLabel
-description: NSQuoteLineConfiguration.GetLabel()
+description: String NSQuoteLineConfiguration.GetLabel()
 intellisense: NSQuoteLineConfiguration.GetLabel
-keywords: GetLabel()
+keywords: NSQuoteLineConfiguration, GetLabel
 so.topic: reference
 ---
 
-
 Label resource string.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

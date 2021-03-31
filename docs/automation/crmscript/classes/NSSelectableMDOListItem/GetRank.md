@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSelectableMDOListItem_GetRank
-description: NSSelectableMDOListItem.GetRank()
+description: Integer NSSelectableMDOListItem.GetRank()
 intellisense: NSSelectableMDOListItem.GetRank
-keywords: GetRank()
+keywords: NSSelectableMDOListItem, GetRank
 so.topic: reference
 ---
 
-
 The rank of the ListItem
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

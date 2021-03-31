@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSScript_SetDescription_String_p_0
-description: NSScript.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSScript_SetDescription
+description: NSScript.SetDescription(String description)
 intellisense: NSScript.SetDescription
-keywords: SetDescription(String)
+keywords: NSScript, GetDescription
 so.topic: reference
 ---
 
-
 Optional description of what this script is used for.
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

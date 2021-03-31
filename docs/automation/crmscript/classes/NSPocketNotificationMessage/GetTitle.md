@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPocketNotificationMessage_GetTitle
-description: NSPocketNotificationMessage.GetTitle()
+description: String NSPocketNotificationMessage.GetTitle()
 intellisense: NSPocketNotificationMessage.GetTitle
-keywords: GetTitle()
+keywords: NSPocketNotificationMessage, GetTitle
 so.topic: reference
 ---
 
-
 Title for the notification
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

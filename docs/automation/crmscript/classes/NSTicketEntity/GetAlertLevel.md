@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketEntity_GetAlertLevel
-description: NSTicketEntity.GetAlertLevel()
+description: Integer NSTicketEntity.GetAlertLevel()
 intellisense: NSTicketEntity.GetAlertLevel
-keywords: GetAlertLevel()
+keywords: NSTicketEntity, GetAlertLevel
 so.topic: reference
 ---
 
+The alert level for the ticket. Matches the level value of the ticket_alert table.
 
-The alert level for the ticket. Matches the level value of the ticket\_alert table.
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

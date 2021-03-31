@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetCompetitor_Integer_p_0
-description: NSListAgent.GetCompetitor(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCompetitor
+description: NSCompetitor GetCompetitor(Integer competitorId);
 intellisense: NSListAgent.GetCompetitor
-keywords: GetCompetitor(Integer)
+keywords: NSListAgent,GetCompetitor
 so.topic: reference
 ---
 
+Gets a NSCompetitor object.
 
-Gets a Competitor object.
+**Parameters:**
+ - **competitorId** The identifier of the NSCompetitor object
 
+**Returns:** NSCompetitor
 
-
-* **competitorId:** The identifier of the Competitor object
-* **Returns:** Competitor
-
+```crmscript
+NSListAgent agent;
+NSCompetitor thing = agent.GetCompetitor(123);
+```
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentPerson_SetLegalBase_NSLegalBase_p_0
-description: NSConsentPerson.SetLegalBase(NSLegalBase p_0)
+﻿---
+title: crmscript_ref_NSConsentPerson_SetLegalBase
+description: NSConsentPerson.SetLegalBase(LegalBase legalBase)
 intellisense: NSConsentPerson.SetLegalBase
-sortOrder: 1670
-keywords: SetLegalBase(NSLegalBase)
+keywords: NSConsentPerson, GetLegalBase
 so.topic: reference
 ---
 
-
 The legal base
 
-
-
-* **LegalBase:** LegalBase
-* **Returns:** LegalBase
-
+**Parameter:** 
+ - **legalBase** LegalBase
 

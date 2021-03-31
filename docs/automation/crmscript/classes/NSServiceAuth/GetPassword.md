@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSServiceAuth_GetPassword
-description: NSServiceAuth.GetPassword()
+description: String NSServiceAuth.GetPassword()
 intellisense: NSServiceAuth.GetPassword
-keywords: GetPassword()
+keywords: NSServiceAuth, GetPassword
 so.topic: reference
 ---
 
-
 The (decrypted) password or token
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

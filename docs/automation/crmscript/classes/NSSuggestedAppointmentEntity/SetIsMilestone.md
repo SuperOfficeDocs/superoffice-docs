@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointmentEntity_SetIsMilestone_Bool_p_0
-description: NSSuggestedAppointmentEntity.SetIsMilestone(Bool p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointmentEntity_SetIsMilestone
+description: NSSuggestedAppointmentEntity.SetIsMilestone(Bool isMilestone)
 intellisense: NSSuggestedAppointmentEntity.SetIsMilestone
-keywords: SetIsMilestone(Bool)
+keywords: NSSuggestedAppointmentEntity, GetIsMilestone
 so.topic: reference
 ---
 
-
 Is this a milestone activity
 
-
-
-* **IsMilestone:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isMilestone** Bool
 

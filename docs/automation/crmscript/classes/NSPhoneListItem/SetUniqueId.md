@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListItem_SetUniqueId_String_p_0
-description: NSPhoneListItem.SetUniqueId(String p_0)
+﻿---
+title: crmscript_ref_NSPhoneListItem_SetUniqueId
+description: NSPhoneListItem.SetUniqueId(String uniqueId)
 intellisense: NSPhoneListItem.SetUniqueId
-keywords: SetUniqueId(String)
+keywords: NSPhoneListItem, GetUniqueId
 so.topic: reference
 ---
 
-
 Property setting a unique id indicating if this is a person or contact
 
-
-
-* **UniqueId:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **uniqueId** String
 

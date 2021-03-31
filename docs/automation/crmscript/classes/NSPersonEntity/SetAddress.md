@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetAddress_NSAddress_p_0
-description: NSPersonEntity.SetAddress(NSAddress p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetAddress
+description: NSPersonEntity.SetAddress(Address address)
 intellisense: NSPersonEntity.SetAddress
-keywords: SetAddress(NSAddress)
+keywords: NSPersonEntity, GetAddress
 so.topic: reference
 ---
 
-
 Structure holding formatted address data. The layout of the array structure indicates the layout of the localized address.
 
-
-
-* **Address:** Address
-* **Returns:** Address
-
+**Parameter:** 
+ - **address** Address
 

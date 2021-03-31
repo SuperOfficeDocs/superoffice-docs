@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_SaveQuoteVersion_NSQuoteVersion_p_0
-description: NSQuoteAgent.SaveQuoteVersion(NSQuoteVersion p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_SaveQuoteVersion
+description: QuoteVersion SaveQuoteVersion(QuoteVersion quoteVersion)
 intellisense: NSQuoteAgent.SaveQuoteVersion
-keywords: SaveQuoteVersion(NSQuoteVersion)
+keywords: NSQuoteAgent,SaveQuoteVersion
 so.topic: reference
 ---
 
-
 Saves a quote version
 
+**Parameters:**
+ - **quoteVersion** The quote version to save
 
+**Returns:** The saved quote version
 
-* **quoteVersion:** The quote version to save
-* **Returns:** The saved quote version
-
+```crmscript
+NSQuoteAgent agent;
+QuoteVersion quoteVersion;
+QuoteVersion res = agent.SaveQuoteVersion(quoteVersion);
+```
 

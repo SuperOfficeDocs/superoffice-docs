@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSPreferenceAgent_GetFromSectionAndKey_String_p_0_String_p_1
-description: NSPreferenceAgent.GetFromSectionAndKey(String p_0, String p_1)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_GetFromSectionAndKey
+description: PreferenceDescription GetFromSectionAndKey(String section, String key)
 intellisense: NSPreferenceAgent.GetFromSectionAndKey
-keywords: GetFromSectionAndKey(String,String)
+keywords: NSPreferenceAgent,GetFromSectionAndKey
 so.topic: reference
 ---
 
-
 Gets a PreferenceDescription based on the section and key
 
+**Parameters:**
+ - **section** The PreferenceDescription-section
+ - **key** The PreferenceDescription-key
 
+**Returns:** A PreferenceDescription or null
 
-* **section:** The PreferenceDescription-section
-* **key:** The PreferenceDescription-key
-* **Returns:** A PreferenceDescription or null
-
+```crmscript
+NSPreferenceAgent agent;
+String section;
+String key;
+PreferenceDescription res = agent.GetFromSectionAndKey(section, key);
+```
 

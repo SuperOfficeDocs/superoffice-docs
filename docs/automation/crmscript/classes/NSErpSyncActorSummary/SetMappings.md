@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncActorSummary_SetMappings_String_p_0
-description: NSErpSyncActorSummary.SetMappings(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncActorSummary_SetMappings
+description: NSErpSyncActorSummary.SetMappings(String mappings)
 intellisense: NSErpSyncActorSummary.SetMappings
-sortOrder: 3159
-keywords: SetMappings(String)
+keywords: NSErpSyncActorSummary, GetMappings
 so.topic: reference
 ---
 
-
 A summary of fields that have mappings to or from the ERP system
 
-
-
-* **Mappings:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **mappings** String
 

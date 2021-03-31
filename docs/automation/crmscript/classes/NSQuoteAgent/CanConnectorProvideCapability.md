@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSQuoteAgent_CanConnectorProvideCapability_Integer_p_0_String_p_1
-description: NSQuoteAgent.CanConnectorProvideCapability(Integer p_0, String p_1)
+﻿---
+title: crmscript_ref_NSQuoteAgent_CanConnectorProvideCapability
+description: Bool CanConnectorProvideCapability(Integer quoteConnectionId, String capabilityName)
 intellisense: NSQuoteAgent.CanConnectorProvideCapability
-keywords: CanConnectorProvideCapability(Integer,String)
+keywords: NSQuoteAgent,CanConnectorProvideCapability
 so.topic: reference
 ---
 
-
 Can the connector provide the capability
 
+**Parameters:**
+ - **quoteConnectionId** Primary key of the connection
+ - **capabilityName** Capability name
 
+**Returns:** Capability name
 
-* **quoteConnectionId:** Primary key of the connection
-* **capabilityName:** Capability name
-* **Returns:** Capability name
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteConnectionId;
+String capabilityName;
+Bool res = agent.CanConnectorProvideCapability(quoteConnectionId, capabilityName);
+```
 

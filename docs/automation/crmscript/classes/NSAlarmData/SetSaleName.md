@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetSaleName_String_p_0
-description: NSAlarmData.SetSaleName(String p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetSaleName
+description: NSAlarmData.SetSaleName(String saleName)
 intellisense: NSAlarmData.SetSaleName
-sortOrder: 690
-keywords: SetSaleName(String)
+keywords: NSAlarmData, GetSaleName
 so.topic: reference
 ---
 
 
-* **SaleName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **saleName** String
 

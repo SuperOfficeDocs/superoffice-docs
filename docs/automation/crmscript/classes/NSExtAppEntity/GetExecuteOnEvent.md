@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSExtAppEntity_GetExecuteOnEvent
-description: NSExtAppEntity.GetExecuteOnEvent()
+description: ExecuteOnEvent NSExtAppEntity.GetExecuteOnEvent()
 intellisense: NSExtAppEntity.GetExecuteOnEvent
-sortOrder: 3372
-keywords: GetExecuteOnEvent()
+keywords: NSExtAppEntity, GetExecuteOnEvent
 so.topic: reference
 ---
 
-
 Events that cause automatic execution of this app
 
+**Returns:** ExecuteOnEvent
 
-
-* **Returns:** ExecuteOnEvent
-
+     - Enum: 0 = Never 
+     - Enum: 1 = Logon 
+     - Enum: 2 = Logoff 
+     - Enum: 3 = LocalUpdate 
+     - Enum: 16384 = Wait 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPocketNotificationMessage_SetSilent_Bool_p_0
-description: NSPocketNotificationMessage.SetSilent(Bool p_0)
+﻿---
+title: crmscript_ref_NSPocketNotificationMessage_SetSilent
+description: NSPocketNotificationMessage.SetSilent(Bool silent)
 intellisense: NSPocketNotificationMessage.SetSilent
-keywords: SetSilent(Bool)
+keywords: NSPocketNotificationMessage, GetSilent
 so.topic: reference
 ---
 
-
 Indicates wether or not the message will vibrate/play a sound when delivered
 
-
-
-* **Silent:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **silent** Bool
 

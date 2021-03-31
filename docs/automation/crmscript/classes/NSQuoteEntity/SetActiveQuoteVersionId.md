@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteEntity_SetActiveQuoteVersionId_Integer_p_0
-description: NSQuoteEntity.SetActiveQuoteVersionId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteEntity_SetActiveQuoteVersionId
+description: NSQuoteEntity.SetActiveQuoteVersionId(Integer activeQuoteVersionId)
 intellisense: NSQuoteEntity.SetActiveQuoteVersionId
-keywords: SetActiveQuoteVersionId(Integer)
+keywords: NSQuoteEntity, GetActiveQuoteVersionId
 so.topic: reference
 ---
 
-
 The primary key of the Quote Version that is currently active. (The active version will always be the latest version.)
 
-
-
-* **ActiveQuoteVersionId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **activeQuoteVersionId** Integer
 

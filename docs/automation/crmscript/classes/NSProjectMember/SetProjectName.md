@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetProjectName_String_p_0
-description: NSProjectMember.SetProjectName(String p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetProjectName
+description: NSProjectMember.SetProjectName(String projectName)
 intellisense: NSProjectMember.SetProjectName
-keywords: SetProjectName(String)
+keywords: NSProjectMember, GetProjectName
 so.topic: reference
 ---
 
-
 Name of the project this project member belongs to.
 
-
-
-* **ProjectName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **projectName** String
 

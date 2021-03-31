@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetCredited_Integer_p_0
-description: NSListAgent.GetCredited(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCredited
+description: NSCredited GetCredited(Integer creditedId);
 intellisense: NSListAgent.GetCredited
-keywords: GetCredited(Integer)
+keywords: NSListAgent,GetCredited
 so.topic: reference
 ---
 
+Gets a NSCredited object.
 
-Gets a Credited object.
+**Parameters:**
+ - **creditedId** The identifier of the NSCredited object
 
+**Returns:** NSCredited
 
-
-* **creditedId:** The identifier of the Credited object
-* **Returns:** Credited
-
+```crmscript
+NSListAgent agent;
+NSCredited thing = agent.GetCredited(123);
+```
 

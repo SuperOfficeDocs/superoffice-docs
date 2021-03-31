@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPhoneListItem_GetPersonFaxNumber
-description: NSPhoneListItem.GetPersonFaxNumber()
+description: String NSPhoneListItem.GetPersonFaxNumber()
 intellisense: NSPhoneListItem.GetPersonFaxNumber
-keywords: GetPersonFaxNumber()
+keywords: NSPhoneListItem, GetPersonFaxNumber
 so.topic: reference
 ---
 
-
 Actual phone number as eneterd by the user
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

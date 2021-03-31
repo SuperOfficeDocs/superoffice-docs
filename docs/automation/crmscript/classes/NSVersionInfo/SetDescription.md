@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSVersionInfo_SetDescription_String_p_0
-description: NSVersionInfo.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSVersionInfo_SetDescription
+description: NSVersionInfo.SetDescription(String description)
 intellisense: NSVersionInfo.SetDescription
-keywords: SetDescription(String)
+keywords: NSVersionInfo, GetDescription
 so.topic: reference
 ---
 
-
 Arbitrary description string
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAttachment_GetFilename
-description: NSEMailAttachment.GetFilename()
+description: String NSEMailAttachment.GetFilename()
 intellisense: NSEMailAttachment.GetFilename
-sortOrder: 2897
-keywords: GetFilename()
+keywords: NSEMailAttachment, GetFilename
 so.topic: reference
 ---
 
-
 Filename
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProviderInfo_SetName_String_p_0
-description: NSProviderInfo.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSProviderInfo_SetName
+description: NSProviderInfo.SetName(String name)
 intellisense: NSProviderInfo.SetName
-keywords: SetName(String)
+keywords: NSProviderInfo, GetName
 so.topic: reference
 ---
 
-
 Unique name of the provider plugin
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

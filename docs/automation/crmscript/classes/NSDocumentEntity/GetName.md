@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetName
-description: NSDocumentEntity.GetName()
+description: String NSDocumentEntity.GetName()
 intellisense: NSDocumentEntity.GetName
-sortOrder: 2580
-keywords: GetName()
+keywords: NSDocumentEntity, GetName
 so.topic: reference
 ---
 
-
 File name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

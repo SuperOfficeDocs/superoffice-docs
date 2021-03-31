@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetProjectMemberTypeId_Integer_p_0
-description: NSProjectMember.SetProjectMemberTypeId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetProjectMemberTypeId
+description: NSProjectMember.SetProjectMemberTypeId(Integer projectMemberTypeId)
 intellisense: NSProjectMember.SetProjectMemberTypeId
-keywords: SetProjectMemberTypeId(Integer)
+keywords: NSProjectMember, GetProjectMemberTypeId
 so.topic: reference
 ---
 
-
 ProjectMember Type Id - from the ProjectMemberType list.
 
-
-
-* **ProjectMemberTypeId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectMemberTypeId** Integer
 

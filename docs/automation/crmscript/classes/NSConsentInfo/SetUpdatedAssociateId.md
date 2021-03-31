@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentInfo_SetUpdatedAssociateId_Integer_p_0
-description: NSConsentInfo.SetUpdatedAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSConsentInfo_SetUpdatedAssociateId
+description: NSConsentInfo.SetUpdatedAssociateId(Integer updatedAssociateId)
 intellisense: NSConsentInfo.SetUpdatedAssociateId
-sortOrder: 1657
-keywords: SetUpdatedAssociateId(Integer)
+keywords: NSConsentInfo, GetUpdatedAssociateId
 so.topic: reference
 ---
 
-
 The ID of the associate who last updated this record
 
-
-
-* **UpdatedAssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **updatedAssociateId** Integer
 

@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSProjectAgent_GetProjectsFromContact_Integer_p_0
-description: NSProjectAgent.GetProjectsFromContact(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_GetProjectsFromContact
+description: ProjectArray GetProjectsFromContact(Integer contactId)
 intellisense: NSProjectAgent.GetProjectsFromContact
-keywords: GetProjectsFromContact(Integer)
+keywords: NSProjectAgent,GetProjectsFromContact
 so.topic: reference
 ---
 
-
 Returns all projects where the given contact has projectmembers.
 
+**Parameters:**
+ - **contactId** The contact id
 
+**Returns:** ProjectListEntity
 
-* **contactId:** The contact id
-* **Returns:** ProjectListEntity
-
+```crmscript
+NSProjectAgent agent;
+Integer contactId;
+ProjectArray res = agent.GetProjectsFromContact(contactId);
+```
 

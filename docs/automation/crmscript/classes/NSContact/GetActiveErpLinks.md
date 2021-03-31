@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContact_GetActiveErpLinks
-description: NSContact.GetActiveErpLinks()
+description: Integer NSContact.GetActiveErpLinks()
 intellisense: NSContact.GetActiveErpLinks
-sortOrder: 1719
-keywords: GetActiveErpLinks()
+keywords: NSContact, GetActiveErpLinks
 so.topic: reference
 ---
 
-
 The number of active erp links
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetInterests_NSSelectableMDOListItem__p_0
-description: NSContactEntity.SetInterests(NSSelectableMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetInterests
+description: NSContactEntity.SetInterests(SelectableMDOListItemArray interests)
 intellisense: NSContactEntity.SetInterests
-sortOrder: 1900
-keywords: SetInterests(NSSelectableMDOListItem[])
+keywords: NSContactEntity, GetInterests
 so.topic: reference
 ---
 
-
 The contact's available and selected interests.
 
-
-
-* **Interests:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
-
+**Parameter:** 
+ - **interests** SelectableMDOListItemArray
 

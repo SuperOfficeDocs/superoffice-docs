@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetIsDefaultPublished_Bool_p_0
-description: NSDocumentTemplateEntity.SetIsDefaultPublished(Bool p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetIsDefaultPublished
+description: NSDocumentTemplateEntity.SetIsDefaultPublished(Bool isDefaultPublished)
 intellisense: NSDocumentTemplateEntity.SetIsDefaultPublished
-sortOrder: 2688
-keywords: SetIsDefaultPublished(Bool)
+keywords: NSDocumentTemplateEntity, GetIsDefaultPublished
 so.topic: reference
 ---
 
-
 Published to external persons
 
-
-
-* **IsDefaultPublished:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isDefaultPublished** Bool
 

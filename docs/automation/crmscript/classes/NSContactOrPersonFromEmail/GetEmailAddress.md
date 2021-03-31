@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactOrPersonFromEmail_GetEmailAddress
-description: NSContactOrPersonFromEmail.GetEmailAddress()
+description: String NSContactOrPersonFromEmail.GetEmailAddress()
 intellisense: NSContactOrPersonFromEmail.GetEmailAddress
-sortOrder: 1925
-keywords: GetEmailAddress()
+keywords: NSContactOrPersonFromEmail, GetEmailAddress
 so.topic: reference
 ---
 
-
 The emailAddress
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

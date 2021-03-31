@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetAddPersonInterest_Integer_p_0
-description: NSMailMergeSettings.SetAddPersonInterest(Integer p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetAddPersonInterest
+description: NSMailMergeSettings.SetAddPersonInterest(Integer addPersonInterest)
 intellisense: NSMailMergeSettings.SetAddPersonInterest
-keywords: SetAddPersonInterest(Integer)
+keywords: NSMailMergeSettings, GetAddPersonInterest
 so.topic: reference
 ---
 
-
 Add this person interest to each person recipient.
 
-
-
-* **AddPersonInterest:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **addPersonInterest** Integer
 

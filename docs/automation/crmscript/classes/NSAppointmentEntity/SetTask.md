@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetTask_NSTaskListItem_p_0
-description: NSAppointmentEntity.SetTask(NSTaskListItem p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetTask
+description: NSAppointmentEntity.SetTask(TaskListItem task)
 intellisense: NSAppointmentEntity.SetTask
-sortOrder: 1032
-keywords: SetTask(NSTaskListItem)
+keywords: NSAppointmentEntity, GetTask
 so.topic: reference
 ---
 
-
 Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.
 
-
-
-* **Task:** TaskListItem
-* **Returns:** TaskListItem
-
+**Parameter:** 
+ - **task** TaskListItem
 

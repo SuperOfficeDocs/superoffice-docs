@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCredentialType_GetType
-description: NSCredentialType.GetType()
+description: String NSCredentialType.GetType()
 intellisense: NSCredentialType.GetType
-sortOrder: 2076
-keywords: GetType()
+keywords: NSCredentialType, GetType
 so.topic: reference
 ---
 
-
 Type of credentials, corresponding to name of plugin and type in the credentials table
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactRelationEntity_GetDestinationContactId
-description: NSContactRelationEntity.GetDestinationContactId()
+description: Integer NSContactRelationEntity.GetDestinationContactId()
 intellisense: NSContactRelationEntity.GetDestinationContactId
-sortOrder: 1946
-keywords: GetDestinationContactId()
+keywords: NSContactRelationEntity, GetDestinationContactId
 so.topic: reference
 ---
 
-
 Id of the destination contact. The value is mandatory.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

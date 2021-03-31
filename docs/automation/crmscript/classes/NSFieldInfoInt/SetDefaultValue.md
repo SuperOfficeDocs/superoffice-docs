@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoInt_SetDefaultValue_Integer_p_0
-description: NSFieldInfoInt.SetDefaultValue(Integer p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoInt_SetDefaultValue
+description: NSFieldInfoInt.SetDefaultValue(Integer defaultValue)
 intellisense: NSFieldInfoInt.SetDefaultValue
-sortOrder: 3516
-keywords: SetDefaultValue(Integer)
+keywords: NSFieldInfoInt, GetDefaultValue
 so.topic: reference
 ---
 
-
 Default integer value
 
-
-
-* **DefaultValue:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **defaultValue** Integer
 

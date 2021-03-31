@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoDate_GetIsDefaultNow
-description: NSFieldInfoDate.GetIsDefaultNow()
+description: Bool NSFieldInfoDate.GetIsDefaultNow()
 intellisense: NSFieldInfoDate.GetIsDefaultNow
-sortOrder: 3493
-keywords: GetIsDefaultNow()
+keywords: NSFieldInfoDate, GetIsDefaultNow
 so.topic: reference
 ---
 
-
 Should the current date be the default?
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

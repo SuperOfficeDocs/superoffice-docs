@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDayInformationListItem_GetActivityInformation
-description: NSDayInformationListItem.GetActivityInformation()
+description: ActivitySummary NSDayInformationListItem.GetActivityInformation()
 intellisense: NSDayInformationListItem.GetActivityInformation
-sortOrder: 2359
-keywords: GetActivityInformation()
+keywords: NSDayInformationListItem, GetActivityInformation
 so.topic: reference
 ---
 
-
 Activity information summary - number of free and busy activities.
 
-
-
-* **Returns:** ActivitySummary
+**Returns:** ActivitySummary
 
 

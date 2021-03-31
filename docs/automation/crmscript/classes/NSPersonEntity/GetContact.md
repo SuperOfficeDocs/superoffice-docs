@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetContact
-description: NSPersonEntity.GetContact()
+description: Contact NSPersonEntity.GetContact()
 intellisense: NSPersonEntity.GetContact
-keywords: GetContact()
+keywords: NSPersonEntity, GetContact
 so.topic: reference
 ---
 
+The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set.
 
-The contact the contact person is registered on. This is required.
-
-
-
-* **Returns:** Contact
+**Returns:** Contact
 
 

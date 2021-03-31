@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetYourRef
-description: NSDocumentEntity.GetYourRef()
+description: String NSDocumentEntity.GetYourRef()
 intellisense: NSDocumentEntity.GetYourRef
-sortOrder: 2582
-keywords: GetYourRef()
+keywords: NSDocumentEntity, GetYourRef
 so.topic: reference
 ---
 
-
 Your reference
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

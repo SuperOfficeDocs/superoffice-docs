@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetAppointmentId_Integer_p_0
-description: NSAppointment.SetAppointmentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetAppointmentId
+description: NSAppointment.SetAppointmentId(Integer appointmentId)
 intellisense: NSAppointment.SetAppointmentId
-sortOrder: 770
-keywords: SetAppointmentId(Integer)
+keywords: NSAppointment, GetAppointmentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **AppointmentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **appointmentId** Integer
 

@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCustomerLanguage_GetId
-description: NSCustomerLanguage.GetId()
+description: Integer NSCustomerLanguage.GetId()
 intellisense: NSCustomerLanguage.GetId
-sortOrder: 2213
-keywords: GetId()
+keywords: NSCustomerLanguage, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebhook_GetRegisteredAssociate
-description: NSWebhook.GetRegisteredAssociate()
+description: Associate NSWebhook.GetRegisteredAssociate()
 intellisense: NSWebhook.GetRegisteredAssociate
-keywords: GetRegisteredAssociate()
+keywords: NSWebhook, GetRegisteredAssociate
 so.topic: reference
 ---
 
-
 The user that created the webhook.
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

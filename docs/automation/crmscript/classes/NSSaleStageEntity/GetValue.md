@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleStageEntity_GetValue
-description: NSSaleStageEntity.GetValue()
+description: String NSSaleStageEntity.GetValue()
 intellisense: NSSaleStageEntity.GetValue
-keywords: GetValue()
+keywords: NSSaleStageEntity, GetValue
 so.topic: reference
 ---
 
-
 The sale stage
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

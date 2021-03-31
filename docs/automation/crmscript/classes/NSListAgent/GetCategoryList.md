@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetCategoryList_Integer__p_0
-description: NSListAgent.GetCategoryList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetCategoryList
+description: NSCategory[] GetCategoryList(Integer[]  categoryIds);
 intellisense: NSListAgent.GetCategoryList
-keywords: GetCategoryList(Integer[])
+keywords: NSListAgent,GetCategoryList
 so.topic: reference
 ---
 
-Gets an array of Category objects.
+Gets a vector of Category objects.
 
+**Parameters:**
+ - **categoryIds** The identifiers of the NSCategory objects
 
-* **p0:** IntegerArray of identifiers for Category
-* **Returns:** Array of NSCategory
+**Returns:** Vector of NSCategory objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetCategoryList(ids);
+```
 

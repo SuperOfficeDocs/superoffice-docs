@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPluginUrlResponse_GetIsOk
-description: NSPluginUrlResponse.GetIsOk()
+description: Bool NSPluginUrlResponse.GetIsOk()
 intellisense: NSPluginUrlResponse.GetIsOk
-keywords: GetIsOk()
+keywords: NSPluginUrlResponse, GetIsOk
 so.topic: reference
 ---
 
-
 Answer to the question / An indication if the operation went well.
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

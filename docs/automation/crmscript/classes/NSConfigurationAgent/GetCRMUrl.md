@@ -1,20 +1,25 @@
----
-title: crmscript_ref_NSConfigurationAgent_GetCRMUrl_String_p_0_String_p_1_Bool_p_2
-description: NSConfigurationAgent.GetCRMUrl(String p_0, String p_1, Bool p_2)
+﻿---
+title: crmscript_ref_NSConfigurationAgent_GetCRMUrl
+description: String GetCRMUrl(String soProtocol, String currents, Bool frameless)
 intellisense: NSConfigurationAgent.GetCRMUrl
-sortOrder: 1606
-keywords: GetCRMUrl(String,String,Bool)
+keywords: NSConfigurationAgent,GetCRMUrl
 so.topic: reference
 ---
 
-
 Returns a valid url based in the soprotocol provided
 
+**Parameters:**
+ - **soProtocol** SoProtocol to display. Eg. contact.activityarchive.minipreview
+ - **currents** currents to set. Eg. contact_id=100&person_id=299
+ - **frameless** If true frame is not rendered( Navigationbar, buttonbar and menu )
 
+**Returns:** Url with soprotocol
 
-* **soProtocol:** SoProtocol to display. Eg. contact.activityarchive.minipreview
-* **currents:** currents to set. Eg. contact\_id=100&person\_id=299
-* **frameless:** If true frame is not rendered( Navigationbar, buttonbar and menu )
-* **Returns:** Url with soprotocol
-
+```crmscript
+NSConfigurationAgent agent;
+String soProtocol;
+String currents;
+Bool frameless;
+String res = agent.GetCRMUrl(soProtocol, currents, frameless);
+```
 

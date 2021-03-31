@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetPhoneId_Integer_p_0
-description: NSSaleStakeholder.SetPhoneId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetPhoneId
+description: NSSaleStakeholder.SetPhoneId(Integer phoneId)
 intellisense: NSSaleStakeholder.SetPhoneId
-keywords: SetPhoneId(Integer)
+keywords: NSSaleStakeholder, GetPhoneId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **PhoneId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **phoneId** Integer
 

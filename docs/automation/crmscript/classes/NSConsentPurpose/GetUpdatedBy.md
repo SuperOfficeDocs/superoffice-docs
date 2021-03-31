@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentPurpose_GetUpdatedBy
-description: NSConsentPurpose.GetUpdatedBy()
+description: Associate NSConsentPurpose.GetUpdatedBy()
 intellisense: NSConsentPurpose.GetUpdatedBy
-sortOrder: 1679
-keywords: GetUpdatedBy()
+keywords: NSConsentPurpose, GetUpdatedBy
 so.topic: reference
 ---
 
-
 The associate that last updated the consent purpose
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

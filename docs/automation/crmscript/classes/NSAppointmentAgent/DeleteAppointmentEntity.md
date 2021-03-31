@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSAppointmentAgent_DeleteAppointmentEntity_Integer_p_0
-description: NSAppointmentAgent.DeleteAppointmentEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_DeleteAppointmentEntity
+description: DeleteAppointmentEntity(Integer appointmentEntity);
 intellisense: NSAppointmentAgent.DeleteAppointmentEntity
-sortOrder: 915
-keywords: DeleteAppointmentEntity(Integer)
+keywords: NSAppointmentAgent,DeleteAppointmentEntity
 so.topic: reference
 ---
 
+Deletes the NSAppointmentEntity
+  
+**Parameters:**
+ - **appointmentEntityId** The identity of the AppointmentEntity to delete.
 
-Deletes the AppointmentEntity
-
-
-
-* **appointmentEntityId:** The identity of the AppointmentEntity
-
+```crmscript
+NSAppointmentAgent agent;
+agent.DeleteAppointmentEntity(123);
+```
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoBase_SetRank_Integer_p_0
-description: NSFieldInfoBase.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoBase_SetRank
+description: NSFieldInfoBase.SetRank(Integer rank)
 intellisense: NSFieldInfoBase.SetRank
-sortOrder: 3484
-keywords: SetRank(Integer)
+keywords: NSFieldInfoBase, GetRank
 so.topic: reference
 ---
 
-
 Tab order, ranking within the custom fields.
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

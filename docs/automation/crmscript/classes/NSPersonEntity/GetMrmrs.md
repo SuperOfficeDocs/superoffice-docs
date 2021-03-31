@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetMrmrs
-description: NSPersonEntity.GetMrmrs()
+description: String NSPersonEntity.GetMrmrs()
 intellisense: NSPersonEntity.GetMrmrs
-keywords: GetMrmrs()
+keywords: NSPersonEntity, GetMrmrs
 so.topic: reference
 ---
 
+e.g. Mrs   sex_title
 
-e.g. Mrs   sex\_title
-
-
-
-* **Returns:** String
+**Returns:** String
 
 

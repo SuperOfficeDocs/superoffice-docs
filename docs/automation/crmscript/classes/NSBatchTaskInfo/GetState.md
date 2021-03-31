@@ -1,17 +1,21 @@
----
+﻿---
 title: crmscript_ref_NSBatchTaskInfo_GetState
-description: NSBatchTaskInfo.GetState()
+description: Integer NSBatchTaskInfo.GetState()
 intellisense: NSBatchTaskInfo.GetState
-sortOrder: 1374
-keywords: GetState()
+keywords: NSBatchTaskInfo, GetState
 so.topic: reference
 ---
 
-
 BatchTaskState of the task.
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = New 
+     - Enum: 2 = Aquired 
+     - Enum: 3 = Started 
+     - Enum: 4 = Succeeded 
+     - Enum: 5 = Failed 
+     - Enum: 6 = SucceededManualCleanup 
+     - Enum: 99999 = All 
 

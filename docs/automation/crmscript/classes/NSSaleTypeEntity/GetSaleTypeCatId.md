@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleTypeEntity_GetSaleTypeCatId
-description: NSSaleTypeEntity.GetSaleTypeCatId()
+description: Integer NSSaleTypeEntity.GetSaleTypeCatId()
 intellisense: NSSaleTypeEntity.GetSaleTypeCatId
-keywords: GetSaleTypeCatId()
+keywords: NSSaleTypeEntity, GetSaleTypeCatId
 so.topic: reference
 ---
 
-
 Category of sale type, copied to sale
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

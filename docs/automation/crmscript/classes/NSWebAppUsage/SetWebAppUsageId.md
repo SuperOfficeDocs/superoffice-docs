@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebAppUsage_SetWebAppUsageId_Integer_p_0
-description: NSWebAppUsage.SetWebAppUsageId(Integer p_0)
+﻿---
+title: crmscript_ref_NSWebAppUsage_SetWebAppUsageId
+description: NSWebAppUsage.SetWebAppUsageId(Integer webAppUsageId)
 intellisense: NSWebAppUsage.SetWebAppUsageId
-keywords: SetWebAppUsageId(Integer)
+keywords: NSWebAppUsage, GetWebAppUsageId
 so.topic: reference
 ---
 
-
 Primary Key
 
-
-
-* **WebAppUsageId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **webAppUsageId** Integer
 

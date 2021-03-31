@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetAssignedBy_NSAssociate_p_0
-description: NSAppointmentEntity.SetAssignedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetAssignedBy
+description: NSAppointmentEntity.SetAssignedBy(Associate assignedBy)
 intellisense: NSAppointmentEntity.SetAssignedBy
-sortOrder: 985
-keywords: SetAssignedBy(NSAssociate)
+keywords: NSAppointmentEntity, GetAssignedBy
 so.topic: reference
 ---
 
+Who assigned this appointment to this user? Whose diary did the appointment come from?
 
-* **AssignedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **assignedBy** Associate
 

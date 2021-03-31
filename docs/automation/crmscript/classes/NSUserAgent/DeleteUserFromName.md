@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSUserAgent_DeleteUserFromName_String_p_0
-description: NSUserAgent.DeleteUserFromName(String p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_DeleteUserFromName
+description: Void DeleteUserFromName(String userName)
 intellisense: NSUserAgent.DeleteUserFromName
-keywords: DeleteUserFromName(String)
+keywords: NSUserAgent,DeleteUserFromName
 so.topic: reference
 ---
 
-
 Delete a user, with lookup based on the user name.
 
+**Parameters:**
+ - **userName** User name of the user to delete.
 
+**Returns:** This method has no return value
 
-* **userName:** User name of the user to delete.
-* **Returns:** This method has no return value
-
+```crmscript
+NSUserAgent agent;
+String userName;
+Void res = agent.DeleteUserFromName(userName);
+```
 

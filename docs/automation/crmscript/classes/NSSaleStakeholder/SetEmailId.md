@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetEmailId_Integer_p_0
-description: NSSaleStakeholder.SetEmailId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetEmailId
+description: NSSaleStakeholder.SetEmailId(Integer emailId)
 intellisense: NSSaleStakeholder.SetEmailId
-keywords: SetEmailId(Integer)
+keywords: NSSaleStakeholder, GetEmailId
 so.topic: reference
 ---
 
-
 E-mail address id - Primary key
 
-
-
-* **EmailId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **emailId** Integer
 

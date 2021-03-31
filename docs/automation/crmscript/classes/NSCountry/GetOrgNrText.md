@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCountry_GetOrgNrText
-description: NSCountry.GetOrgNrText()
+description: String NSCountry.GetOrgNrText()
 intellisense: NSCountry.GetOrgNrText
-sortOrder: 2025
-keywords: GetOrgNrText()
+keywords: NSCountry, GetOrgNrText
 so.topic: reference
 ---
 
-
 Lead text for organisation field
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

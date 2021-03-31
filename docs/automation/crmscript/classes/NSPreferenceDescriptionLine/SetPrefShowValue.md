@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescriptionLine_SetPrefShowValue_String_p_0
-description: NSPreferenceDescriptionLine.SetPrefShowValue(String p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescriptionLine_SetPrefShowValue
+description: NSPreferenceDescriptionLine.SetPrefShowValue(String prefShowValue)
 intellisense: NSPreferenceDescriptionLine.SetPrefShowValue
-keywords: SetPrefShowValue(String)
+keywords: NSPreferenceDescriptionLine, GetPrefShowValue
 so.topic: reference
 ---
 
-
 Descriptive value, multilang-parsed, to put in list
 
-
-
-* **PrefShowValue:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **prefShowValue** String
 

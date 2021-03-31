@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSListItemEntity_SetDeleted_Bool_p_0
-description: NSListItemEntity.SetDeleted(Bool p_0)
+﻿---
+title: crmscript_ref_NSListItemEntity_SetDeleted
+description: NSListItemEntity.SetDeleted(Bool deleted)
 intellisense: NSListItemEntity.SetDeleted
-keywords: SetDeleted(Bool)
+keywords: NSListItemEntity, GetDeleted
 so.topic: reference
 ---
 
-
 True if the list item is marked as deleted
 
-
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **deleted** Bool
 

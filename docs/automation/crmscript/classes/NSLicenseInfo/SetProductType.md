@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLicenseInfo_SetProductType_String_p_0
-description: NSLicenseInfo.SetProductType(String p_0)
+﻿---
+title: crmscript_ref_NSLicenseInfo_SetProductType
+description: NSLicenseInfo.SetProductType(String productType)
 intellisense: NSLicenseInfo.SetProductType
-keywords: SetProductType(String)
+keywords: NSLicenseInfo, GetProductType
 so.topic: reference
 ---
 
-
 Type of product
 
-
-
-* **ProductType:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **productType** String
 

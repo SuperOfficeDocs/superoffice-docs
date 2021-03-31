@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTaskListItem_SetIsDefaultFree_Bool_p_0
-description: NSTaskListItem.SetIsDefaultFree(Bool p_0)
+﻿---
+title: crmscript_ref_NSTaskListItem_SetIsDefaultFree
+description: NSTaskListItem.SetIsDefaultFree(Bool isDefaultFree)
 intellisense: NSTaskListItem.SetIsDefaultFree
-keywords: SetIsDefaultFree(Bool)
+keywords: NSTaskListItem, GetIsDefaultFree
 so.topic: reference
 ---
 
-
 True if free, false if busy
 
-
-
-* **IsDefaultFree:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isDefaultFree** Bool
 

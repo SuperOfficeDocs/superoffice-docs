@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTile
 description: NSDashboardTile
 intellisense: Void.NSDashboardTile
-sortOrder: 2286
+keywords: NSDashboardTile
 so.topic: reference
 ---
 
-
 Dashboard Tile configuration
 
-
-
-
-1. autolist
+1. autolist 
 

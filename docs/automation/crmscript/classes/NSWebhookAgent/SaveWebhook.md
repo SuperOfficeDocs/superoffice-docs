@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSWebhookAgent_SaveWebhook_NSWebhook_p_0
-description: NSWebhookAgent.SaveWebhook(NSWebhook p_0)
+﻿---
+title: crmscript_ref_NSWebhookAgent_SaveWebhook
+description: NSWebhook SaveWebhook(NSWebhook webhook);
 intellisense: NSWebhookAgent.SaveWebhook
-keywords: SaveWebhook(NSWebhook)
+keywords: NSWebhookAgent,SaveWebhook
 so.topic: reference
 ---
+	  
+Updates the existing NSWebhook or creates a new NSWebhook if the id parameter is 0
+	  
+**Parameters**:
+ - **webhook** The NSWebhook to save.
 
+**Returns:** New or updated NSWebhook
 
-Updates the existing Webhook or creates a new Webhook if the id parameter is empty
-
-
-
-* **webhook:** The Webhook that is saved
-* **Returns:** New or updated Webhook
-
+```crmscript
+NSWebhook  agent;
+NSWebhook thing = agent.CreateDefaultWebhook();
+thing = agent.SaveWebhook(thing);
+```
 

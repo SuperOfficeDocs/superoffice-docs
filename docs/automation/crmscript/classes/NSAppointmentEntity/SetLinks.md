@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetLinks_NSLink__p_0
-description: NSAppointmentEntity.SetLinks(NSLink[] p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetLinks
+description: NSAppointmentEntity.SetLinks(LinkArray links)
 intellisense: NSAppointmentEntity.SetLinks
-sortOrder: 1013
-keywords: SetLinks(NSLink[])
+keywords: NSAppointmentEntity, GetLinks
 so.topic: reference
 ---
 
+List of all elements linked to the appointment.
 
-List of all elements linked to the document.
-
-
-
-* **Links:** LinkArray
-* **Returns:** LinkArray
-
+**Parameter:** 
+ - **links** LinkArray
 

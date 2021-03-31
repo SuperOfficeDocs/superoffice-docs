@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUntrustedCredentials_SetSecretValue_String_p_0
-description: NSUntrustedCredentials.SetSecretValue(String p_0)
+﻿---
+title: crmscript_ref_NSUntrustedCredentials_SetSecretValue
+description: NSUntrustedCredentials.SetSecretValue(String secretValue)
 intellisense: NSUntrustedCredentials.SetSecretValue
-keywords: SetSecretValue(String)
+keywords: NSUntrustedCredentials, GetSecretValue
 so.topic: reference
 ---
 
-
 Data stored encrypted in the db. Typically a password. Max 70 characters.
 
-
-
-* **SecretValue:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **secretValue** String
 

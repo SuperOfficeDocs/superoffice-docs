@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleStakeholder_SetSaleId_Integer_p_0
-description: NSSaleStakeholder.SetSaleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleStakeholder_SetSaleId
+description: NSSaleStakeholder.SetSaleId(Integer saleId)
 intellisense: NSSaleStakeholder.SetSaleId
-keywords: SetSaleId(Integer)
+keywords: NSSaleStakeholder, GetSaleId
 so.topic: reference
 ---
 
-
 Parent sale
 
-
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleId** Integer
 

@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSCredentialType_SetIsUserNameSupported_Bool_p_0
-description: NSCredentialType.SetIsUserNameSupported(Bool p_0)
+﻿---
+title: crmscript_ref_NSCredentialType_SetIsUserNameSupported
+description: NSCredentialType.SetIsUserNameSupported(Bool isUserNameSupported)
 intellisense: NSCredentialType.SetIsUserNameSupported
-sortOrder: 2080
-keywords: SetIsUserNameSupported(Bool)
+keywords: NSCredentialType, GetIsUserNameSupported
 so.topic: reference
 ---
 
 
-* **IsUserNameSupported:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isUserNameSupported** Bool
 

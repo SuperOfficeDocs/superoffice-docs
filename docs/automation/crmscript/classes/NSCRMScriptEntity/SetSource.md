@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCRMScriptEntity_SetSource_String_p_0
-description: NSCRMScriptEntity.SetSource(String p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptEntity_SetSource
+description: NSCRMScriptEntity.SetSource(String source)
 intellisense: NSCRMScriptEntity.SetSource
-sortOrder: 2145
-keywords: SetSource(String)
+keywords: NSCRMScriptEntity, GetSource
 so.topic: reference
 ---
 
-
 The script
 
-
-
-* **Source:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **source** String
 

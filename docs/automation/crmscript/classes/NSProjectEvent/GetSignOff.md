@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEvent_GetSignOff
-description: NSProjectEvent.GetSignOff()
+description: Bool NSProjectEvent.GetSignOff()
 intellisense: NSProjectEvent.GetSignOff
-keywords: GetSignOff()
+keywords: NSProjectEvent, GetSignOff
 so.topic: reference
 ---
 
-
 If true, it is possible to sign off the event.
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

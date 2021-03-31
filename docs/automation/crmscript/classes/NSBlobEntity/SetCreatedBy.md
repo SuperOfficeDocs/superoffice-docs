@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBlobEntity_SetCreatedBy_NSAssociate_p_0
-description: NSBlobEntity.SetCreatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSBlobEntity_SetCreatedBy
+description: NSBlobEntity.SetCreatedBy(Associate createdBy)
 intellisense: NSBlobEntity.SetCreatedBy
-sortOrder: 1456
-keywords: SetCreatedBy(NSAssociate)
+keywords: NSBlobEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 The person that first created the document. The property is read-only.
 
-
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **createdBy** Associate
 

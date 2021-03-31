@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionAttachment_SetIncluded_Bool_p_0
-description: NSQuoteVersionAttachment.SetIncluded(Bool p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionAttachment_SetIncluded
+description: NSQuoteVersionAttachment.SetIncluded(Bool included)
 intellisense: NSQuoteVersionAttachment.SetIncluded
-keywords: SetIncluded(Bool)
+keywords: NSQuoteVersionAttachment, GetIncluded
 so.topic: reference
 ---
 
-
 Will this attachment be included in the next 'Send Quote' operation
 
-
-
-* **Included:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **included** Bool
 

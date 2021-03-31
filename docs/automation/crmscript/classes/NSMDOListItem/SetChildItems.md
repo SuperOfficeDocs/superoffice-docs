@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMDOListItem_SetChildItems_NSMDOListItem__p_0
-description: NSMDOListItem.SetChildItems(NSMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSMDOListItem_SetChildItems
+description: NSMDOListItem.SetChildItems(MDOListItemArray childItems)
 intellisense: NSMDOListItem.SetChildItems
-keywords: SetChildItems(NSMDOListItem[])
+keywords: NSMDOListItem, GetChildItems
 so.topic: reference
 ---
 
-
 The child items of the MDOListItem
 
-
-
-* **ChildItems:** MDOListItemArray
-* **Returns:** MDOListItemArray
-
+**Parameter:** 
+ - **childItems** MDOListItemArray
 

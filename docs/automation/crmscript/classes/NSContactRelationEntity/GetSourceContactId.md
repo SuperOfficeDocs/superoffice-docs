@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactRelationEntity_GetSourceContactId
-description: NSContactRelationEntity.GetSourceContactId()
+description: Integer NSContactRelationEntity.GetSourceContactId()
 intellisense: NSContactRelationEntity.GetSourceContactId
-sortOrder: 1951
-keywords: GetSourceContactId()
+keywords: NSContactRelationEntity, GetSourceContactId
 so.topic: reference
 ---
 
-
 Id of the source contact. The value is mandatory.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSHistory_SetHistoryId_Integer_p_0
-description: NSHistory.SetHistoryId(Integer p_0)
+﻿---
+title: crmscript_ref_NSHistory_SetHistoryId
+description: NSHistory.SetHistoryId(Integer historyId)
 intellisense: NSHistory.SetHistoryId
-sortOrder: 3934
-keywords: SetHistoryId(Integer)
+keywords: NSHistory, GetHistoryId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **HistoryId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **historyId** Integer
 

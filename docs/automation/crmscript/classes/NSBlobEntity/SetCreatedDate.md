@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBlobEntity_SetCreatedDate_DateTime_p_0
-description: NSBlobEntity.SetCreatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSBlobEntity_SetCreatedDate
+description: NSBlobEntity.SetCreatedDate(DateTime createdDate)
 intellisense: NSBlobEntity.SetCreatedDate
-sortOrder: 1457
-keywords: SetCreatedDate(DateTime)
+keywords: NSBlobEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdDate** DateTime
 

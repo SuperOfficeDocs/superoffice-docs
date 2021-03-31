@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSRating_SetId_Integer_p_0
-description: NSRating.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSRating_SetId
+description: NSRating.SetId(Integer id)
 intellisense: NSRating.SetId
-keywords: SetId(Integer)
+keywords: NSRating, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

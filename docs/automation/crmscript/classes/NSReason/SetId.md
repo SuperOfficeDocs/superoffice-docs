@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSReason_SetId_Integer_p_0
-description: NSReason.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSReason_SetId
+description: NSReason.SetId(Integer id)
 intellisense: NSReason.SetId
-keywords: SetId(Integer)
+keywords: NSReason, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSCurrency_SetId_Integer_p_0
-description: NSCurrency.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCurrency_SetId
+description: NSCurrency.SetId(Integer id)
 intellisense: NSCurrency.SetId
-sortOrder: 2174
-keywords: SetId(Integer)
+keywords: NSCurrency, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

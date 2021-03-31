@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetTaskEntity_NSMailMergeTask_p_0
-description: NSMailMergeSettings.SetTaskEntity(NSMailMergeTask p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetTaskEntity
+description: NSMailMergeSettings.SetTaskEntity(MailMergeTask taskEntity)
 intellisense: NSMailMergeSettings.SetTaskEntity
-keywords: SetTaskEntity(NSMailMergeTask)
+keywords: NSMailMergeSettings, GetTaskEntity
 so.topic: reference
 ---
 
-
 If specified, register a task on recipients using properties from this object.
 
-
-
-* **TaskEntity:** MailMergeTask
-* **Returns:** MailMergeTask
-
+**Parameter:** 
+ - **taskEntity** MailMergeTask
 

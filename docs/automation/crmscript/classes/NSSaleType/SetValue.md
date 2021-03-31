@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSaleType_SetValue_String_p_0
-description: NSSaleType.SetValue(String p_0)
+﻿---
+title: crmscript_ref_NSSaleType_SetValue
+description: NSSaleType.SetValue(String value)
 intellisense: NSSaleType.SetValue
-keywords: SetValue(String)
+keywords: NSSaleType, SetValue
 so.topic: reference
 ---
 
+Set the name of the item.
 
-* **value:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **value** String name.
 

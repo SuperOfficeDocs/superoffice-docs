@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFreeText_GetLastGenerated
-description: NSFreeText.GetLastGenerated()
+description: DateTime NSFreeText.GetLastGenerated()
 intellisense: NSFreeText.GetLastGenerated
-sortOrder: 3854
-keywords: GetLastGenerated()
+keywords: NSFreeText, GetLastGenerated
 so.topic: reference
 ---
 
-
 Last time search has been generated
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

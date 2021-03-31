@@ -1,16 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetLocalizedTextList_Integer__p_0
-description: NSListAgent.GetLocalizedTextList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetLocalizedTextList
+description: NSLocalizedText[] GetLocalizedTextList(Integer[]  localizedTextIds);
 intellisense: NSListAgent.GetLocalizedTextList
-keywords: GetLocalizedTextList(Integer[])
+keywords: NSListAgent,GetLocalizedTextList
 so.topic: reference
 ---
 
-Gets an array of LocalizedText objects.
+Gets a vector of LocalizedText objects.
 
+**Parameters:**
+ - **localizedTextIds** The identifiers of the NSLocalizedText objects
 
+**Returns:** Vector of NSLocalizedText objects
 
-* **p0:** IntegerArray of identifiers for LocalizedText
-* **Returns:** Array of NSLocalizedText
-
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetLocalizedTextList(ids);
+```
 

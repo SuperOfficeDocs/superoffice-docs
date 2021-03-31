@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteConnection_SetRank_Integer_p_0
-description: NSQuoteConnection.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteConnection_SetRank
+description: NSQuoteConnection.SetRank(Integer rank)
 intellisense: NSQuoteConnection.SetRank
-keywords: SetRank(Integer)
+keywords: NSQuoteConnection, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

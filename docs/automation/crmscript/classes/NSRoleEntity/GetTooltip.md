@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSRoleEntity_GetTooltip
-description: NSRoleEntity.GetTooltip()
+description: String NSRoleEntity.GetTooltip()
 intellisense: NSRoleEntity.GetTooltip
-keywords: GetTooltip()
+keywords: NSRoleEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Description of the role.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

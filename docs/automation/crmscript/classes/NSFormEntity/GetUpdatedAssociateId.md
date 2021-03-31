@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetUpdatedAssociateId
-description: NSFormEntity.GetUpdatedAssociateId()
+description: Integer NSFormEntity.GetUpdatedAssociateId()
 intellisense: NSFormEntity.GetUpdatedAssociateId
-sortOrder: 3797
-keywords: GetUpdatedAssociateId()
+keywords: NSFormEntity, GetUpdatedAssociateId
 so.topic: reference
 ---
 
-
 Last updated by whom
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

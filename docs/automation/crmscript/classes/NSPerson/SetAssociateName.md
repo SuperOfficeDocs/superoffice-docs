@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetAssociateName_String_p_0
-description: NSPerson.SetAssociateName(String p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetAssociateName
+description: NSPerson.SetAssociateName(String associateName)
 intellisense: NSPerson.SetAssociateName
-keywords: SetAssociateName(String)
+keywords: NSPerson, GetAssociateName
 so.topic: reference
 ---
 
-
 Name of the person's owner
 
-
-
-* **AssociateName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **associateName** String
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSale_GetTitle
-description: NSSale.GetTitle()
+description: String NSSale.GetTitle()
 intellisense: NSSale.GetTitle
-keywords: GetTitle()
+keywords: NSSale, GetTitle
 so.topic: reference
 ---
 
-
 Sale heading (short description?)
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

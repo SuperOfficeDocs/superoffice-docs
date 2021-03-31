@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSMultiAlarmData_SetSilentAfter_Integer_p_0
-description: NSMultiAlarmData.SetSilentAfter(Integer p_0)
+﻿---
+title: crmscript_ref_NSMultiAlarmData_SetSilentAfter
+description: NSMultiAlarmData.SetSilentAfter(Integer silentAfter)
 intellisense: NSMultiAlarmData.SetSilentAfter
-keywords: SetSilentAfter(Integer)
+keywords: NSMultiAlarmData, GetSilentAfter
 so.topic: reference
 ---
 
 
-* **SilentAfter:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **silentAfter** Integer
 

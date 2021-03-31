@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserInfo_GetUserGroupTooltip
-description: NSUserInfo.GetUserGroupTooltip()
+description: String NSUserInfo.GetUserGroupTooltip()
 intellisense: NSUserInfo.GetUserGroupTooltip
-keywords: GetUserGroupTooltip()
+keywords: NSUserInfo, GetUserGroupTooltip
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

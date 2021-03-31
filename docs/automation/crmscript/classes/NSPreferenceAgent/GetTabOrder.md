@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSPreferenceAgent_GetTabOrder_String_p_0
-description: NSPreferenceAgent.GetTabOrder(String p_0)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_GetTabOrder
+description: TabOrder GetTabOrder(String tabName)
 intellisense: NSPreferenceAgent.GetTabOrder
-keywords: GetTabOrder(String)
+keywords: NSPreferenceAgent,GetTabOrder
 so.topic: reference
 ---
 
-
 Gets the tab order.
 
+**Parameters:**
+ - **tabName** Name of the tab control
 
+**Returns:** Tab order. Array of strings. Each string represent a named tab.
 
-* **tabName:** Name of the tab control
-* **Returns:** Tab order. Array of strings. Each string represent a named tab.
-
+```crmscript
+NSPreferenceAgent agent;
+String tabName;
+TabOrder res = agent.GetTabOrder(tabName);
+```
 

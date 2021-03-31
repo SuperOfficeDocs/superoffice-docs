@@ -1,13 +1,12 @@
----
-title: crmscript_ref_NSEMailAgent_Authenticate_NSEMailConnectionInfoExtended_p_0
-description: NSEMailAgent.Authenticate(NSEMailConnectionInfoExtended p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_Authenticate
+description: Bool Authenticate(EMailConnectionInfoExtended connectionInfoExtended)
 intellisense: NSEMailAgent.Authenticate
-sortOrder: 2782
-keywords: Authenticate(NSEMailConnectionInfoExtended)
+keywords: NSEMailAgent,Authenticate
 so.topic: reference
 ---
 
 
-* **connectionInfoExtended**
 
-
+**Parameters:**
+ - **connectionInfoExtended** 

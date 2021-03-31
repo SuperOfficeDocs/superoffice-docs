@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpSyncFieldMapping_SetErpFieldKey_String_p_0
-description: NSErpSyncFieldMapping.SetErpFieldKey(String p_0)
+﻿---
+title: crmscript_ref_NSErpSyncFieldMapping_SetErpFieldKey
+description: NSErpSyncFieldMapping.SetErpFieldKey(String erpFieldKey)
 intellisense: NSErpSyncFieldMapping.SetErpFieldKey
-sortOrder: 3313
-keywords: SetErpFieldKey(String)
+keywords: NSErpSyncFieldMapping, GetErpFieldKey
 so.topic: reference
 ---
 
-
 The ERP field key
 
-
-
-* **ErpFieldKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **erpFieldKey** String
 

@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSQuoteAgent_SaveQuoteVersionNumber_Integer_p_0_String_p_1
-description: NSQuoteAgent.SaveQuoteVersionNumber(Integer p_0, String p_1)
+﻿---
+title: crmscript_ref_NSQuoteAgent_SaveQuoteVersionNumber
+description: Bool SaveQuoteVersionNumber(Integer quoteVersionId, String number)
 intellisense: NSQuoteAgent.SaveQuoteVersionNumber
-keywords: SaveQuoteVersionNumber(Integer,String)
+keywords: NSQuoteAgent,SaveQuoteVersionNumber
 so.topic: reference
 ---
 
-
 Save the quote version number if it is valid
 
+**Parameters:**
+ - **quoteVersionId** VersionId of the quote version
+ - **number** The number to save
 
+**Returns:** True if the number was valid and then saved
 
-* **quoteVersionId:** VersionId of the quote version
-* **number:** The number to save
-* **Returns:** True if the number was valid and then saved
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteVersionId;
+String number;
+Bool res = agent.SaveQuoteVersionNumber(quoteVersionId, number);
+```
 

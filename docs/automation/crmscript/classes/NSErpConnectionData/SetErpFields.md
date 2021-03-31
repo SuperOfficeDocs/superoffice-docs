@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnectionData_SetErpFields_NSFieldMetadata__p_0
-description: NSErpConnectionData.SetErpFields(NSFieldMetadata[] p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionData_SetErpFields
+description: NSErpConnectionData.SetErpFields(FieldMetadataArray erpFields)
 intellisense: NSErpConnectionData.SetErpFields
-sortOrder: 3121
-keywords: SetErpFields(NSFieldMetadata[])
+keywords: NSErpConnectionData, GetErpFields
 so.topic: reference
 ---
 
-
 The ERP fields that should be displayed
 
-
-
-* **ErpFields:** FieldMetadataArray
-* **Returns:** FieldMetadataArray
-
+**Parameter:** 
+ - **erpFields** FieldMetadataArray
 

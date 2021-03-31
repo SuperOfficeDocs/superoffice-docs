@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetMemberCount_Integer_p_0
-description: NSSelectionEntity.SetMemberCount(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetMemberCount
+description: NSSelectionEntity.SetMemberCount(Integer memberCount)
 intellisense: NSSelectionEntity.SetMemberCount
-keywords: SetMemberCount(Integer)
+keywords: NSSelectionEntity, GetMemberCount
 so.topic: reference
 ---
 
+How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know
 
-How many selectionmembers (for progress bar calculations)
-
-
-
-* **MemberCount:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **memberCount** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteConnection_SetAssociateAccessIds_Integer__p_0
-description: NSQuoteConnection.SetAssociateAccessIds(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSQuoteConnection_SetAssociateAccessIds
+description: NSQuoteConnection.SetAssociateAccessIds(IntegerArray associateAccessIds)
 intellisense: NSQuoteConnection.SetAssociateAccessIds
-keywords: SetAssociateAccessIds(Integer[])
+keywords: NSQuoteConnection, GetAssociateAccessIds
 so.topic: reference
 ---
 
-
 Array of ids containing associates that will have access to this connection.
 
-
-
-* **AssociateAccessIds:** IntegerArray
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateAccessIds** IntegerArray
 

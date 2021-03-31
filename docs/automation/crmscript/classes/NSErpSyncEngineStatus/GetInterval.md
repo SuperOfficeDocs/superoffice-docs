@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncEngineStatus_GetInterval
-description: NSErpSyncEngineStatus.GetInterval()
+description: TimeSpan NSErpSyncEngineStatus.GetInterval()
 intellisense: NSErpSyncEngineStatus.GetInterval
-sortOrder: 3279
-keywords: GetInterval()
+keywords: NSErpSyncEngineStatus, GetInterval
 so.topic: reference
 ---
 
-
 The interval for each iteration of the sync engine
 
-
-
-* **Returns:** TimeSpan
+**Returns:** TimeSpan
 
 

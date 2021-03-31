@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProviderInfo_SetSupportsConfig_Bool_p_0
-description: NSProviderInfo.SetSupportsConfig(Bool p_0)
+﻿---
+title: crmscript_ref_NSProviderInfo_SetSupportsConfig
+description: NSProviderInfo.SetSupportsConfig(Bool supportsConfig)
 intellisense: NSProviderInfo.SetSupportsConfig
-keywords: SetSupportsConfig(Bool)
+keywords: NSProviderInfo, GetSupportsConfig
 so.topic: reference
 ---
 
-
 True if it supports the config parameters to the sending methods
 
-
-
-* **SupportsConfig:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **supportsConfig** Bool
 

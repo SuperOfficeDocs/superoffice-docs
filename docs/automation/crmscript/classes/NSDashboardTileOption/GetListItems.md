@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboardTileOption_GetListItems
-description: NSDashboardTileOption.GetListItems()
+description: MDOListItemArray NSDashboardTileOption.GetListItems()
 intellisense: NSDashboardTileOption.GetListItems
-sortOrder: 2320
-keywords: GetListItems()
+keywords: NSDashboardTileOption, GetListItems
 so.topic: reference
 ---
 
-
 List options given directly, not via MDO list name
 
-
-
-* **Returns:** MDOListItemArray
+**Returns:** MDOListItemArray
 
 

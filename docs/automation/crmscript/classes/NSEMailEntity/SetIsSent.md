@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEntity_SetIsSent_Bool_p_0
-description: NSEMailEntity.SetIsSent(Bool p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetIsSent
+description: NSEMailEntity.SetIsSent(Bool isSent)
 intellisense: NSEMailEntity.SetIsSent
-sortOrder: 2988
-keywords: SetIsSent(Bool)
+keywords: NSEMailEntity, GetIsSent
 so.topic: reference
 ---
 
-
 Is this a sent e-mail (not new)
 
-
-
-* **IsSent:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isSent** Bool
 

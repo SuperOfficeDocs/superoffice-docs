@@ -1,16 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetSaleTypeList_Integer__p_0
-description: NSListAgent.GetSaleTypeList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetSaleTypeList
+description: NSSaleType[] GetSaleTypeList(Integer[]  saleTypeIds);
 intellisense: NSListAgent.GetSaleTypeList
-keywords: GetSaleTypeList(Integer[])
+keywords: NSListAgent,GetSaleTypeList
 so.topic: reference
 ---
 
-Gets an array of SaleType objects.
+Gets a vector of SaleType objects.
 
+**Parameters:**
+ - **saleTypeIds** The identifiers of the NSSaleType objects
 
+**Returns:** Vector of NSSaleType objects
 
-* **p0:** IntegerArray of identifiers for SaleType
-* **Returns:** Array of NSSaleType
-
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetSaleTypeList(ids);
+```
 

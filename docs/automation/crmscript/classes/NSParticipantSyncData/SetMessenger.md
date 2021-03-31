@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetMessenger_String__p_0
-description: NSParticipantSyncData.SetMessenger(String[] p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetMessenger
+description: NSParticipantSyncData.SetMessenger(StringArray messenger)
 intellisense: NSParticipantSyncData.SetMessenger
-keywords: SetMessenger(String[])
+keywords: NSParticipantSyncData, GetMessenger
 so.topic: reference
 ---
 
 
-* **Messenger:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **messenger** StringArray
 

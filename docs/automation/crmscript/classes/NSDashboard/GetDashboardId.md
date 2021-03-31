@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDashboard_GetDashboardId
-description: NSDashboard.GetDashboardId()
+description: Integer NSDashboard.GetDashboardId()
 intellisense: NSDashboard.GetDashboardId
-sortOrder: 2261
-keywords: GetDashboardId()
+keywords: NSDashboard, GetDashboardId
 so.topic: reference
 ---
 
-
 The dashboard id
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

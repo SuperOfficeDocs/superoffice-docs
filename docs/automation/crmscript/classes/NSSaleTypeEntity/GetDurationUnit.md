@@ -1,25 +1,26 @@
----
+﻿---
 title: crmscript_ref_NSSaleTypeEntity_GetDurationUnit
-description: NSSaleTypeEntity.GetDurationUnit()
+description: DurationUnit NSSaleTypeEntity.GetDurationUnit()
 intellisense: NSSaleTypeEntity.GetDurationUnit
-keywords: GetDurationUnit()
+keywords: NSSaleTypeEntity, GetDurationUnit
 so.topic: reference
 ---
 
 Units for the duration (day, week, whatever)
 
-* Unknown=0
-* Second=1
-* Minute=2
-* Hour=3
-* Day=4
-* Week=5
-* Month=6
-* Quarter=7
-* HalfYear=8
-* Year=9
-* Decade=10
-* Century=11
-* Millenium=12
+**Returns:** DurationUnit
 
-* **Returns:** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Second 
+     - Enum: 2 = Minute 
+     - Enum: 3 = Hour 
+     - Enum: 4 = Day 
+     - Enum: 5 = Week 
+     - Enum: 6 = Month 
+     - Enum: 7 = Quarter 
+     - Enum: 8 = HalfYear 
+     - Enum: 9 = Year 
+     - Enum: 10 = Decade 
+     - Enum: 11 = Century 
+     - Enum: 12 = Millenium 
+

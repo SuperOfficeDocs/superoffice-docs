@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSScript_SetPath_String_p_0
-description: NSScript.SetPath(String p_0)
+﻿---
+title: crmscript_ref_NSScript_SetPath
+description: NSScript.SetPath(String path)
 intellisense: NSScript.SetPath
-keywords: SetPath(String)
+keywords: NSScript, GetPath
 so.topic: reference
 ---
 
-
 Path to script in the hierarchy.
 
-
-
-* **Path:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **path** String
 

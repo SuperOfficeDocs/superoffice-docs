@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetOnTravel_Bool_p_0
-description: NSWebPanelEntity.SetOnTravel(Bool p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetOnTravel
+description: NSWebPanelEntity.SetOnTravel(Bool onTravel)
 intellisense: NSWebPanelEntity.SetOnTravel
-keywords: SetOnTravel(Bool)
+keywords: NSWebPanelEntity, GetOnTravel
 so.topic: reference
 ---
 
-
 Is the webpanel visible when user is on travel
 
-
-
-* **OnTravel:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **onTravel** Bool
 

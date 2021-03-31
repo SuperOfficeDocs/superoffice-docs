@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSTicketStatusEntity_SetTimeCounter_NSTicketStatusTimeCounter_p_0
-description: NSTicketStatusEntity.SetTimeCounter(NSTicketStatusTimeCounter p_0)
+﻿---
+title: crmscript_ref_NSTicketStatusEntity_SetTimeCounter
+description: NSTicketStatusEntity.SetTimeCounter(TicketStatusTimeCounter timeCounter)
 intellisense: NSTicketStatusEntity.SetTimeCounter
-keywords: SetTimeCounter(NSTicketStatusTimeCounter)
+keywords: NSTicketStatusEntity, GetTimeCounter
 so.topic: reference
 ---
 
+Which field in ticket we count time spent on (queue, internal, external) 
 
-Which field in ticket we count time spent on (queue, internal, external)
-
-
-
-* **TimeCounter:** TicketStatusTimeCounter
-* **Returns:** TicketStatusTimeCounter
-
+**Parameter:** 
+ - **timeCounter** TicketStatusTimeCounter
+     - Enum: 0 = None 
+     - Enum: 1 = Internally 
+     - Enum: 2 = Externally 
+     - Enum: 3 = Queue 
 

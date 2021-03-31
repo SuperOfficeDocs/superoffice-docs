@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncDefaultValue
 description: NSErpSyncDefaultValue
 intellisense: Void.NSErpSyncDefaultValue
-sortOrder: 3249
+keywords: NSErpSyncDefaultValue
 so.topic: reference
 ---
 
-
 Contains default value information for one ERP field
 
-
-
-
-1. autolist
+1. autolist 
 

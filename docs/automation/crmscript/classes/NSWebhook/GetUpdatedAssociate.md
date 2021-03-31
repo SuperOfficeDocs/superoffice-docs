@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebhook_GetUpdatedAssociate
-description: NSWebhook.GetUpdatedAssociate()
+description: Associate NSWebhook.GetUpdatedAssociate()
 intellisense: NSWebhook.GetUpdatedAssociate
-keywords: GetUpdatedAssociate()
+keywords: NSWebhook, GetUpdatedAssociate
 so.topic: reference
 ---
 
-
 The user that last updated the webhook.
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

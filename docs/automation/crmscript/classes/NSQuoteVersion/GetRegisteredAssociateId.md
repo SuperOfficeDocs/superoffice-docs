@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteVersion_GetRegisteredAssociateId
-description: NSQuoteVersion.GetRegisteredAssociateId()
+description: Integer NSQuoteVersion.GetRegisteredAssociateId()
 intellisense: NSQuoteVersion.GetRegisteredAssociateId
-keywords: GetRegisteredAssociateId()
+keywords: NSQuoteVersion, GetRegisteredAssociateId
 so.topic: reference
 ---
 
-
 Registered by whom
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

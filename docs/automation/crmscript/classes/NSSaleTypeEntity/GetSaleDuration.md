@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleTypeEntity_GetSaleDuration
-description: NSSaleTypeEntity.GetSaleDuration()
+description: Integer NSSaleTypeEntity.GetSaleDuration()
 intellisense: NSSaleTypeEntity.GetSaleDuration
-keywords: GetSaleDuration()
+keywords: NSSaleTypeEntity, GetSaleDuration
 so.topic: reference
 ---
 
-
 Expected number of dales from initiation to close of sale
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

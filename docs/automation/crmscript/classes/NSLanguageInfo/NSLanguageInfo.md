@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSLanguageInfo
 description: NSLanguageInfo
 intellisense: Void.NSLanguageInfo
-sortOrder: 3998
+keywords: NSLanguageInfo
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

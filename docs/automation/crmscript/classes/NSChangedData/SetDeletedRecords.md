@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSChangedData_SetDeletedRecords_NSChangedDataItem__p_0
-description: NSChangedData.SetDeletedRecords(NSChangedDataItem[] p_0)
+﻿---
+title: crmscript_ref_NSChangedData_SetDeletedRecords
+description: NSChangedData.SetDeletedRecords(ChangedDataItemArray deletedRecords)
 intellisense: NSChangedData.SetDeletedRecords
-sortOrder: 1504
-keywords: SetDeletedRecords(NSChangedDataItem[])
+keywords: NSChangedData, GetDeletedRecords
 so.topic: reference
 ---
 
-
 Ids of deleted records.
 
-
-
-* **DeletedRecords:** ChangedDataItemArray
-* **Returns:** ChangedDataItemArray
-
+**Parameter:** 
+ - **deletedRecords** ChangedDataItemArray
 

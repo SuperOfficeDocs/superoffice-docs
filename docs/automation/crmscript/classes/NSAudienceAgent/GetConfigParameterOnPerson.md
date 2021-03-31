@@ -1,19 +1,23 @@
----
-title: crmscript_ref_NSAudienceAgent_GetConfigParameterOnPerson_String_p_0_Integer_p_1
-description: NSAudienceAgent.GetConfigParameterOnPerson(String p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSAudienceAgent_GetConfigParameterOnPerson
+description: AudienceConfigParameter GetConfigParameterOnPerson(String parameterName, Integer personId)
 intellisense: NSAudienceAgent.GetConfigParameterOnPerson
-sortOrder: 1291
-keywords: GetConfigParameterOnPerson(String,Integer)
+keywords: NSAudienceAgent,GetConfigParameterOnPerson
 so.topic: reference
 ---
 
-
 Gets an Audience configuration parameter with the specified configuration parameter name on the person specified
 
+**Parameters:**
+ - **parameterName** The name of the Audience configuration parameter
+ - **personId** Id of the person the parameter belongs to
 
+**Returns:** The Audience configuration parameter.
 
-* **parameterName:** The name of the Audience configuration parameter
-* **personId:** Id of the person the parameter belongs to
-* **Returns:** The Audience configuration parameter.
-
+```crmscript
+NSAudienceAgent agent;
+String parameterName;
+Integer personId;
+AudienceConfigParameter res = agent.GetConfigParameterOnPerson(parameterName, personId);
+```
 

@@ -1,15 +1,12 @@
----
-title: crmscript_ref_NSUserAgent_SetGeneratedPassword_Integer_p_0
-description: NSUserAgent.SetGeneratedPassword(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_SetGeneratedPassword
+description: String SetGeneratedPassword(Integer associateId)
 intellisense: NSUserAgent.SetGeneratedPassword
-keywords: SetGeneratedPassword(Integer)
+keywords: NSUserAgent,SetGeneratedPassword
 so.topic: reference
 ---
 
 
 
-
-* **associateId
-**
-
-
+**Parameters:**
+ - **associateId** 

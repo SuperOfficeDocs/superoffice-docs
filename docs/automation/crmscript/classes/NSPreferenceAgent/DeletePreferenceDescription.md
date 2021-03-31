@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSPreferenceAgent_DeletePreferenceDescription_Integer_p_0
-description: NSPreferenceAgent.DeletePreferenceDescription(Integer p_0)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_DeletePreferenceDescription
+description: DeletePreferenceDescription(Integer preferenceDescription);
 intellisense: NSPreferenceAgent.DeletePreferenceDescription
-keywords: DeletePreferenceDescription(Integer)
+keywords: NSPreferenceAgent,DeletePreferenceDescription
 so.topic: reference
 ---
 
+Deletes the NSPreferenceDescription
+  
+**Parameters:**
+ - **preferenceDescriptionId** The identity of the PreferenceDescription to delete.
 
-Deletes the PreferenceDescription
-
-
-
-* **preferenceDescriptionId:** The identity of the PreferenceDescription
-
+```crmscript
+NSPreferenceAgent agent;
+agent.DeletePreferenceDescription(123);
+```
 

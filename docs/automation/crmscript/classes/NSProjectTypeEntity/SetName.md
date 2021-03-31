@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectTypeEntity_SetName_String_p_0
-description: NSProjectTypeEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSProjectTypeEntity_SetName
+description: NSProjectTypeEntity.SetName(String name)
 intellisense: NSProjectTypeEntity.SetName
-keywords: SetName(String)
+keywords: NSProjectTypeEntity, GetName
 so.topic: reference
 ---
 
-
 The list item
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

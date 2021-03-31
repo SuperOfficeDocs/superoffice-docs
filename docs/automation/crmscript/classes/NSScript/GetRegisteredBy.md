@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSScript_GetRegisteredBy
-description: NSScript.GetRegisteredBy()
+description: String NSScript.GetRegisteredBy()
 intellisense: NSScript.GetRegisteredBy
-keywords: GetRegisteredBy()
+keywords: NSScript, GetRegisteredBy
 so.topic: reference
 ---
 
-
 Who created this script
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

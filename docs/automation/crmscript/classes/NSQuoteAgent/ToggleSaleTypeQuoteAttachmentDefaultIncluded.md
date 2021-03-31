@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSQuoteAgent_ToggleSaleTypeQuoteAttachmentDefaultIncluded_Integer_p_0
-description: NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_ToggleSaleTypeQuoteAttachmentDefaultIncluded
+description: Bool ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer saleTypeQuoteAttachmentId)
 intellisense: NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded
-keywords: ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)
+keywords: NSQuoteAgent,ToggleSaleTypeQuoteAttachmentDefaultIncluded
 so.topic: reference
 ---
 
-
 Toggle the 'default included' state of a sale type quote attachment
 
+**Parameters:**
+ - **saleTypeQuoteAttachmentId** The ID of the sale type quote attachment row
 
+**Returns:** The new state
 
-* **saleTypeQuoteAttachmentId:** The ID of the sale type quote attachment row
-* **Returns:** The new state
-
+```crmscript
+NSQuoteAgent agent;
+Integer saleTypeQuoteAttachmentId;
+Bool res = agent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(saleTypeQuoteAttachmentId);
+```
 

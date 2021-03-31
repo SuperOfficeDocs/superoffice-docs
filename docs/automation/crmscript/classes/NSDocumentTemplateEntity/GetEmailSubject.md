@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplateEntity_GetEmailSubject
-description: NSDocumentTemplateEntity.GetEmailSubject()
+description: String NSDocumentTemplateEntity.GetEmailSubject()
 intellisense: NSDocumentTemplateEntity.GetEmailSubject
-sortOrder: 2671
-keywords: GetEmailSubject()
+keywords: NSDocumentTemplateEntity, GetEmailSubject
 so.topic: reference
 ---
 
-
 Subject to use if document template is an email.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

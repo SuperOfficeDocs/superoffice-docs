@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetReasonStalled_NSReasonStalled_p_0
-description: NSSaleEntity.SetReasonStalled(NSReasonStalled p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetReasonStalled
+description: NSSaleEntity.SetReasonStalled(ReasonStalled reasonStalled)
 intellisense: NSSaleEntity.SetReasonStalled
-keywords: SetReasonStalled(NSReasonStalled)
+keywords: NSSaleEntity, GetReasonStalled
 so.topic: reference
 ---
 
 
-* **ReasonStalled:** ReasonStalled
-* **Returns:** ReasonStalled
 
+**Parameter:** 
+ - **reasonStalled** ReasonStalled
 

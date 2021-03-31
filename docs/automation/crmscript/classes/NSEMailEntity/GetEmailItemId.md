@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetEmailItemId
-description: NSEMailEntity.GetEmailItemId()
+description: Integer NSEMailEntity.GetEmailItemId()
 intellisense: NSEMailEntity.GetEmailItemId
-sortOrder: 2952
-keywords: GetEmailItemId()
+keywords: NSEMailEntity, GetEmailItemId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

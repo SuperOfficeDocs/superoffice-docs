@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAddress_SetDuplicatePersonIds_Integer__p_0
-description: NSEMailAddress.SetDuplicatePersonIds(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSEMailAddress_SetDuplicatePersonIds
+description: NSEMailAddress.SetDuplicatePersonIds(IntegerArray duplicatePersonIds)
 intellisense: NSEMailAddress.SetDuplicatePersonIds
-sortOrder: 2775
-keywords: SetDuplicatePersonIds(Integer[])
+keywords: NSEMailAddress, GetDuplicatePersonIds
 so.topic: reference
 ---
 
-
 All persons with this EmailAddress stored in db is listed here
 
-
-
-* **DuplicatePersonIds:** IntegerArray
-* **Returns:** Void
-
+**Parameter:** 
+ - **duplicatePersonIds** IntegerArray
 

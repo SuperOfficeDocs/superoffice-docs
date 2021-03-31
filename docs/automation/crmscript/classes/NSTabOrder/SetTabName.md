@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTabOrder_SetTabName_String_p_0
-description: NSTabOrder.SetTabName(String p_0)
+﻿---
+title: crmscript_ref_NSTabOrder_SetTabName
+description: NSTabOrder.SetTabName(String tabName)
 intellisense: NSTabOrder.SetTabName
-keywords: SetTabName(String)
+keywords: NSTabOrder, GetTabName
 so.topic: reference
 ---
 
-
 Name of tab control
 
-
-
-* **TabName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tabName** String
 

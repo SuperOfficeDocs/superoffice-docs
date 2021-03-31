@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReportLabelLayoutEntity_SetPaperWidth_Integer_p_0
-description: NSReportLabelLayoutEntity.SetPaperWidth(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportLabelLayoutEntity_SetPaperWidth
+description: NSReportLabelLayoutEntity.SetPaperWidth(Integer paperWidth)
 intellisense: NSReportLabelLayoutEntity.SetPaperWidth
-keywords: SetPaperWidth(Integer)
+keywords: NSReportLabelLayoutEntity, GetPaperWidth
 so.topic: reference
 ---
 
-
 Paper width in twips
 
-
-
-* **PaperWidth:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **paperWidth** Integer
 

@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSMrMrs_GetValue
-description: NSMrMrs.GetValue()
+description: String NSMrMrs.GetValue()
 intellisense: NSMrMrs.GetValue
-keywords: GetValue()
+keywords: NSMrMrs, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

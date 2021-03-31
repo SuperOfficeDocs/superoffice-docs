@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetId_Integer_p_0
-description: NSSelectableMDOListItem.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetId
+description: NSSelectableMDOListItem.SetId(Integer id)
 intellisense: NSSelectableMDOListItem.SetId
-keywords: SetId(Integer)
+keywords: NSSelectableMDOListItem, GetId
 so.topic: reference
 ---
 
-
 The Id of the ListItem
 
-
-
-* **Id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

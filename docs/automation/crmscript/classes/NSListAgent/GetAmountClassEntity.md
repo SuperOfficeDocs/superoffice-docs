@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetAmountClassEntity_Integer_p_0
-description: NSListAgent.GetAmountClassEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetAmountClassEntity
+description: NSAmountClassEntity GetAmountClassEntity(Integer amountClassEntityId);
 intellisense: NSListAgent.GetAmountClassEntity
-keywords: GetAmountClassEntity(Integer)
+keywords: NSListAgent,GetAmountClassEntity
 so.topic: reference
 ---
 
+Gets a NSAmountClassEntity object.
 
-Gets a AmountClassEntity object.
+**Parameters:**
+ - **amountClassEntityId** The identifier of the NSAmountClassEntity object
 
+**Returns:** NSAmountClassEntity
 
-
-* **amountClassEntityId:** The identifier of the AmountClassEntity object
-* **Returns:** AmountClassEntity
-
+```crmscript
+NSListAgent agent;
+NSAmountClassEntity thing = agent.GetAmountClassEntity(123);
+```
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignKey_SetKey_String_p_0
-description: NSForeignKey.SetKey(String p_0)
+﻿---
+title: crmscript_ref_NSForeignKey_SetKey
+description: NSForeignKey.SetKey(String key)
 intellisense: NSForeignKey.SetKey
-sortOrder: 3744
-keywords: SetKey(String)
+keywords: NSForeignKey, GetKey
 so.topic: reference
 ---
 
-
 Subkey (optional)
 
-
-
-* **Key:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **key** String
 

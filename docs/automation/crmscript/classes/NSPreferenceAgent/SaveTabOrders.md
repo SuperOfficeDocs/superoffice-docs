@@ -1,15 +1,12 @@
----
-title: crmscript_ref_NSPreferenceAgent_SaveTabOrders_NSTabOrder__p_0
-description: NSPreferenceAgent.SaveTabOrders(NSTabOrder[] p_0)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_SaveTabOrders
+description: Void SaveTabOrders(TabOrderArray tabOrders)
 intellisense: NSPreferenceAgent.SaveTabOrders
-keywords: SaveTabOrders(NSTabOrder[])
+keywords: NSPreferenceAgent,SaveTabOrders
 so.topic: reference
 ---
 
 
 
-
-* **tabOrders
-**
-
-
+**Parameters:**
+ - **tabOrders** 

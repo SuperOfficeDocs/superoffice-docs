@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEntityName_GetTableName
-description: NSEntityName.GetTableName()
+description: String NSEntityName.GetTableName()
 intellisense: NSEntityName.GetTableName
-sortOrder: 3071
-keywords: GetTableName()
+keywords: NSEntityName, GetTableName
 so.topic: reference
 ---
 
-
 The name of the table in the database
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

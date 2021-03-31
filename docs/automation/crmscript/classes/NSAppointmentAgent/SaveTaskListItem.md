@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAppointmentAgent_SaveTaskListItem_NSTaskListItem_p_0
-description: NSAppointmentAgent.SaveTaskListItem(NSTaskListItem p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_SaveTaskListItem
+description: NSTaskListItem SaveTaskListItem(NSTaskListItem taskListItem);
 intellisense: NSAppointmentAgent.SaveTaskListItem
-sortOrder: 904
-keywords: SaveTaskListItem(NSTaskListItem)
+keywords: NSAppointmentAgent,SaveTaskListItem
 so.topic: reference
 ---
+	  
+Updates the existing NSTaskListItem or creates a new NSTaskListItem if the id parameter is 0
+	  
+**Parameters**:
+ - **taskListItem** The NSTaskListItem to save.
 
+**Returns:** New or updated NSTaskListItem
 
-Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is empty
-
-
-
-* **taskListItem:** The TaskListItem that is saved
-* **Returns:** New or updated TaskListItem
-
+```crmscript
+NSAppointment  agent;
+NSTaskListItem thing = agent.CreateDefaultTaskListItem();
+thing = agent.SaveTaskListItem(thing);
+```
 

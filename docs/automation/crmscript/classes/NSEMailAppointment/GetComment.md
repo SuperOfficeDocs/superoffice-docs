@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAppointment_GetComment
-description: NSEMailAppointment.GetComment()
+description: String NSEMailAppointment.GetComment()
 intellisense: NSEMailAppointment.GetComment
-sortOrder: 2880
-keywords: GetComment()
+keywords: NSEMailAppointment, GetComment
 so.topic: reference
 ---
 
-
 Comment attached to the calendar event (accept / reject reason etc.)
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

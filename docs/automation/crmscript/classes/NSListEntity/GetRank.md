@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSListEntity_GetRank
-description: NSListEntity.GetRank()
+description: Integer NSListEntity.GetRank()
 intellisense: NSListEntity.GetRank
-keywords: GetRank()
+keywords: NSListEntity, GetRank
 so.topic: reference
 ---
 
-
 The rank of the list
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

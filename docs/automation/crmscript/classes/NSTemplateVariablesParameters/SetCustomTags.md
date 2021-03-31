@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTemplateVariablesParameters_SetCustomTags_String___p_0
-description: NSTemplateVariablesParameters.SetCustomTags(String[][] p_0)
+﻿---
+title: crmscript_ref_NSTemplateVariablesParameters_SetCustomTags
+description: NSTemplateVariablesParameters.SetCustomTags(StringArrayArray customTags)
 intellisense: NSTemplateVariablesParameters.SetCustomTags
-keywords: SetCustomTags(String[][])
+keywords: NSTemplateVariablesParameters, GetCustomTags
 so.topic: reference
 ---
 
-
 Array with custom tags and values. Array may be of unlimited height, but need to be exactly 2 in width.
 
-
-
-* **CustomTags:** StringArrayArray
-* **Returns:** StringArrayArray
-
+**Parameter:** 
+ - **customTags** StringArrayArray
 

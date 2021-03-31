@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteEntity_SetDocumentId_Integer_p_0
-description: NSQuoteEntity.SetDocumentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteEntity_SetDocumentId
+description: NSQuoteEntity.SetDocumentId(Integer documentId)
 intellisense: NSQuoteEntity.SetDocumentId
-keywords: SetDocumentId(Integer)
+keywords: NSQuoteEntity, GetDocumentId
 so.topic: reference
 ---
 
-
 The ID of the main Quote Document
 
-
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **documentId** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveRestrictionInfo_SetOperator_String_p_0
-description: NSArchiveRestrictionInfo.SetOperator(String p_0)
+﻿---
+title: crmscript_ref_NSArchiveRestrictionInfo_SetOperator
+description: NSArchiveRestrictionInfo.SetOperator(String operator)
 intellisense: NSArchiveRestrictionInfo.SetOperator
-sortOrder: 1233
-keywords: SetOperator(String)
+keywords: NSArchiveRestrictionInfo, GetOperator
 so.topic: reference
 ---
 
-
 The operator, such as =, etc
 
-
-
-* **Operator:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **operator** String
 

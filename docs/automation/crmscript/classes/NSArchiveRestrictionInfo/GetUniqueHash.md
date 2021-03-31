@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveRestrictionInfo_GetUniqueHash
-description: NSArchiveRestrictionInfo.GetUniqueHash()
+description: Integer NSArchiveRestrictionInfo.GetUniqueHash()
 intellisense: NSArchiveRestrictionInfo.GetUniqueHash
-sortOrder: 1217
-keywords: GetUniqueHash()
+keywords: NSArchiveRestrictionInfo, GetUniqueHash
 so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
 
 

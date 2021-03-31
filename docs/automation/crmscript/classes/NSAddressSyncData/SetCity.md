@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAddressSyncData_SetCity_String_p_0
-description: NSAddressSyncData.SetCity(String p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetCity
+description: NSAddressSyncData.SetCity(String city)
 intellisense: NSAddressSyncData.SetCity
-sortOrder: 634
-keywords: SetCity(String)
+keywords: NSAddressSyncData, GetCity
 so.topic: reference
 ---
 
 
-* **City:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **city** String
 

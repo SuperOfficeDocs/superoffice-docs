@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMailMergeTask_GetSaleId
-description: NSMailMergeTask.GetSaleId()
+description: Integer NSMailMergeTask.GetSaleId()
 intellisense: NSMailMergeTask.GetSaleId
-keywords: GetSaleId()
+keywords: NSMailMergeTask, GetSaleId
 so.topic: reference
 ---
 
-
 Sale identity to set on task
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointment_SetProjectTypeStatusLinkId_Integer_p_0
-description: NSSuggestedAppointment.SetProjectTypeStatusLinkId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointment_SetProjectTypeStatusLinkId
+description: NSSuggestedAppointment.SetProjectTypeStatusLinkId(Integer projectTypeStatusLinkId)
 intellisense: NSSuggestedAppointment.SetProjectTypeStatusLinkId
-keywords: SetProjectTypeStatusLinkId(Integer)
+keywords: NSSuggestedAppointment, GetProjectTypeStatusLinkId
 so.topic: reference
 ---
 
-
 Link to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time.
 
-
-
-* **ProjectTypeStatusLinkId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectTypeStatusLinkId** Integer
 

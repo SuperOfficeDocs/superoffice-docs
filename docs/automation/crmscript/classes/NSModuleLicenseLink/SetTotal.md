@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetTotal_Integer_p_0
-description: NSModuleLicenseLink.SetTotal(Integer p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetTotal
+description: NSModuleLicenseLink.SetTotal(Integer total)
 intellisense: NSModuleLicenseLink.SetTotal
-keywords: SetTotal(Integer)
+keywords: NSModuleLicenseLink, GetTotal
 so.topic: reference
 ---
 
-
 The total number of module licenses. In other words the number of free license added to the number of licenses in use equals the total number of licenses
 
-
-
-* **Total:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **total** Integer
 

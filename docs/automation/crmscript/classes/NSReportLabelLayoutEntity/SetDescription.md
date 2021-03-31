@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReportLabelLayoutEntity_SetDescription_String_p_0
-description: NSReportLabelLayoutEntity.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSReportLabelLayoutEntity_SetDescription
+description: NSReportLabelLayoutEntity.SetDescription(String description)
 intellisense: NSReportLabelLayoutEntity.SetDescription
-keywords: SetDescription(String)
+keywords: NSReportLabelLayoutEntity, GetDescription
 so.topic: reference
 ---
 
-
 Description
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

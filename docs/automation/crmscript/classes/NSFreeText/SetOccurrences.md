@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFreeText_SetOccurrences_Integer_p_0
-description: NSFreeText.SetOccurrences(Integer p_0)
+﻿---
+title: crmscript_ref_NSFreeText_SetOccurrences
+description: NSFreeText.SetOccurrences(Integer occurrences)
 intellisense: NSFreeText.SetOccurrences
-sortOrder: 3864
-keywords: SetOccurrences(Integer)
+keywords: NSFreeText, GetOccurrences
 so.topic: reference
 ---
 
-
 Total count of search words
 
-
-
-* **Occurrences:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **occurrences** Integer
 

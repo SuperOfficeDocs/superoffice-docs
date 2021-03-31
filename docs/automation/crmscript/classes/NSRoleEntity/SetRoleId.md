@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetRoleId_Integer_p_0
-description: NSRoleEntity.SetRoleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetRoleId
+description: NSRoleEntity.SetRoleId(Integer roleId)
 intellisense: NSRoleEntity.SetRoleId
-keywords: SetRoleId(Integer)
+keywords: NSRoleEntity, GetRoleId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **RoleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **roleId** Integer
 

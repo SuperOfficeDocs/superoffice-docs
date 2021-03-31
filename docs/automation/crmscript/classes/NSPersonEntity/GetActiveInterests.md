@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetActiveInterests
-description: NSPersonEntity.GetActiveInterests()
+description: Integer NSPersonEntity.GetActiveInterests()
 intellisense: NSPersonEntity.GetActiveInterests
-keywords: GetActiveInterests()
+keywords: NSPersonEntity, GetActiveInterests
 so.topic: reference
 ---
 
-
 The number of active interests.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

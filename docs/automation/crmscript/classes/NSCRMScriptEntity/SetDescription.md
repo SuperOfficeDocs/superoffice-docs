@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCRMScriptEntity_SetDescription_String_p_0
-description: NSCRMScriptEntity.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptEntity_SetDescription
+description: NSCRMScriptEntity.SetDescription(String description)
 intellisense: NSCRMScriptEntity.SetDescription
-sortOrder: 2138
-keywords: SetDescription(String)
+keywords: NSCRMScriptEntity, GetDescription
 so.topic: reference
 ---
 
-
 Optional description of what this script is used for.
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSLicenseAgent_ValidateLicenseInfo_NSExtendedLicenseInfo_p_0
-description: NSLicenseAgent.ValidateLicenseInfo(NSExtendedLicenseInfo p_0)
+﻿---
+title: crmscript_ref_NSLicenseAgent_ValidateLicenseInfo
+description: LicenseResult ValidateLicenseInfo(ExtendedLicenseInfo licenseInfo)
 intellisense: NSLicenseAgent.ValidateLicenseInfo
-keywords: ValidateLicenseInfo(NSExtendedLicenseInfo)
+keywords: NSLicenseAgent,ValidateLicenseInfo
 so.topic: reference
 ---
 
-
 Validate that a license is consistant.
 
-
-
-* **licenseInfo:** License to validate consistancy for
-
-
+**Parameters:**
+ - **licenseInfo** License to validate consistancy for

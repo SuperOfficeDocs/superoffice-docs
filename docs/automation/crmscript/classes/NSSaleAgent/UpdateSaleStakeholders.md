@@ -1,12 +1,12 @@
----
-title: crmscript_ref_NSSaleAgent_UpdateSaleStakeholders_NSSaleStakeholder__p_0
-description: NSSaleAgent.UpdateSaleStakeholders(NSSaleStakeholder[] p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_UpdateSaleStakeholders
+description: SaleStakeholderArray UpdateSaleStakeholders(SaleStakeholderArray stakeholders)
 intellisense: NSSaleAgent.UpdateSaleStakeholders
-keywords: UpdateSaleStakeholders(NSSaleStakeholder[])
+keywords: NSSaleAgent,UpdateSaleStakeholders
 so.topic: reference
 ---
 
 
-* **stakeholders**
 
-
+**Parameters:**
+ - **stakeholders** 

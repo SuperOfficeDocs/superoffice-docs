@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetSignOffTaskEnable_Bool_p_0
-description: NSProjectEvent.SetSignOffTaskEnable(Bool p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetSignOffTaskEnable
+description: NSProjectEvent.SetSignOffTaskEnable(Bool signOffTaskEnable)
 intellisense: NSProjectEvent.SetSignOffTaskEnable
-keywords: SetSignOffTaskEnable(Bool)
+keywords: NSProjectEvent, GetSignOffTaskEnable
 so.topic: reference
 ---
 
-
 If true, a task should be created when the external user signs off an event
 
-
-
-* **SignOffTaskEnable:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **signOffTaskEnable** Bool
 

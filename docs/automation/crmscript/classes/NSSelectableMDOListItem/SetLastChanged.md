@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectableMDOListItem_SetLastChanged_DateTime_p_0
-description: NSSelectableMDOListItem.SetLastChanged(DateTime p_0)
+﻿---
+title: crmscript_ref_NSSelectableMDOListItem_SetLastChanged
+description: NSSelectableMDOListItem.SetLastChanged(DateTime lastChanged)
 intellisense: NSSelectableMDOListItem.SetLastChanged
-keywords: SetLastChanged(DateTime)
+keywords: NSSelectableMDOListItem, GetLastChanged
 so.topic: reference
 ---
 
-
 Time of last change.
 
-
-
-* **LastChanged:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **lastChanged** DateTime
 

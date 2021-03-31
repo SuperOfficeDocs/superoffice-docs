@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetDocumentTemplateUsedInProjectStage_Integer_p_0
-description: NSListAgent.GetDocumentTemplateUsedInProjectStage(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetDocumentTemplateUsedInProjectStage
+description: StringArray GetDocumentTemplateUsedInProjectStage(Integer documentTemplateId)
 intellisense: NSListAgent.GetDocumentTemplateUsedInProjectStage
-keywords: GetDocumentTemplateUsedInProjectStage(Integer)
+keywords: NSListAgent,GetDocumentTemplateUsedInProjectStage
 so.topic: reference
 ---
 
-
 Get a String array of names in project guide that this template is used in
 
+**Parameters:**
+ - **documentTemplateId** The id of the template
 
+**Returns:** The name of the projectguides that use this template
 
-* **documentTemplateId:** The id of the template
-* **Returns:** The name of the projectguides that use this template
-
+```crmscript
+NSListAgent agent;
+Integer documentTemplateId;
+StringArray res = agent.GetDocumentTemplateUsedInProjectStage(documentTemplateId);
+```
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplateEntity_GetName
-description: NSDocumentTemplateEntity.GetName()
+description: String NSDocumentTemplateEntity.GetName()
 intellisense: NSDocumentTemplateEntity.GetName
-sortOrder: 2674
-keywords: GetName()
+keywords: NSDocumentTemplateEntity, GetName
 so.topic: reference
 ---
 
-
 The template list item
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

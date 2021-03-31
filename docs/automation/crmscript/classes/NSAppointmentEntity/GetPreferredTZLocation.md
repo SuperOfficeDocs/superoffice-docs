@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetPreferredTZLocation
-description: NSAppointmentEntity.GetPreferredTZLocation()
+description: Integer NSAppointmentEntity.GetPreferredTZLocation()
 intellisense: NSAppointmentEntity.GetPreferredTZLocation
-sortOrder: 947
-keywords: GetPreferredTZLocation()
+keywords: NSAppointmentEntity, GetPreferredTZLocation
 so.topic: reference
 ---
 
-
 Appoinmtments preferred timezone location.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

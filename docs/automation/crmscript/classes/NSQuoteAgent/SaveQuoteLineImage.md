@@ -1,19 +1,25 @@
----
-title: crmscript_ref_NSQuoteAgent_SaveQuoteLineImage_Integer_p_0_NSImage_p_1_Integer_p_2
-description: NSQuoteAgent.SaveQuoteLineImage(Integer p_0, NSImage p_1, Integer p_2)
+﻿---
+title: crmscript_ref_NSQuoteAgent_SaveQuoteLineImage
+description: Void SaveQuoteLineImage(Integer quoteLineId, Image image, Integer rank)
 intellisense: NSQuoteAgent.SaveQuoteLineImage
-keywords: SaveQuoteLineImage(Integer,NSImage,Integer)
+keywords: NSQuoteAgent,SaveQuoteLineImage
 so.topic: reference
 ---
 
-
 Saves the image connected to a quoteline in the SuperOffice database
 
+**Parameters:**
+ - **quoteLineId** Primary key of the quoteline
+ - **image** The image.
+ - **rank** The rank of the image.
 
+**Returns:** Nothing
 
-* **quoteLineId:** Primary key of the quoteline
-* **image:** The image.
-* **rank:** The rank of the image.
-* **Returns:** Nothing
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteLineId;
+Image image;
+Integer rank;
+Void res = agent.SaveQuoteLineImage(quoteLineId, image, rank);
+```
 

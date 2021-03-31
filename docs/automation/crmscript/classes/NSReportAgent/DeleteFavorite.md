@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSReportAgent_DeleteFavorite_Integer_p_0
-description: NSReportAgent.DeleteFavorite(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportAgent_DeleteFavorite
+description: Void DeleteFavorite(Integer reportEntityId)
 intellisense: NSReportAgent.DeleteFavorite
-keywords: DeleteFavorite(Integer)
+keywords: NSReportAgent,DeleteFavorite
 so.topic: reference
 ---
 
-
 Deletes the report favorite.
 
-
-
-* **reportEntityId:** The id of the report favorite to delete.
-
-
+**Parameters:**
+ - **reportEntityId** The id of the report favorite to delete.

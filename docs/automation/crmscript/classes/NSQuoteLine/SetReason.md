@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLine_SetReason_String_p_0
-description: NSQuoteLine.SetReason(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteLine_SetReason
+description: NSQuoteLine.SetReason(String reason)
 intellisense: NSQuoteLine.SetReason
-keywords: SetReason(String)
+keywords: NSQuoteLine, GetReason
 so.topic: reference
 ---
 
-
 If QuoteStatus is not OK, then this field contains a localized explanation that the user can be shown.
 
-
-
-* **Reason:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **reason** String
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFavourite_SetTableName_String_p_0
-description: NSFavourite.SetTableName(String p_0)
+﻿---
+title: crmscript_ref_NSFavourite_SetTableName
+description: NSFavourite.SetTableName(String tableName)
 intellisense: NSFavourite.SetTableName
-sortOrder: 3444
-keywords: SetTableName(String)
+keywords: NSFavourite, GetTableName
 so.topic: reference
 ---
 
-
 Name of the table this favourite belongs to.
 
-
-
-* **TableName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tableName** String
 

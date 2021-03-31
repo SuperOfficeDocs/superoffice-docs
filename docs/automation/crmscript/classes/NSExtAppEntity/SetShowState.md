@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSExtAppEntity_SetShowState_Integer_p_0
-description: NSExtAppEntity.SetShowState(Integer p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetShowState
+description: NSExtAppEntity.SetShowState(Integer showState)
 intellisense: NSExtAppEntity.SetShowState
-sortOrder: 3396
-keywords: SetShowState(Integer)
+keywords: NSExtAppEntity, GetShowState
 so.topic: reference
 ---
 
-
 The application is shown in which state Minimized, Maximized or Restored
 
-
-
-* **ShowState:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **showState** Integer
+     - Enum: 0 = Minimized 
+     - Enum: 1 = Maximized 
+     - Enum: 2 = Default 
+     - Enum: 256 = ToolBar 
+     - Enum: 512 = AddressBar 
+     - Enum: 1024 = StatusBar 
+     - Enum: 2048 = MenuBar 
 

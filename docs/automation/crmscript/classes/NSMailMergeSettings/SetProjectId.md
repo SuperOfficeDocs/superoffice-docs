@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetProjectId_Integer_p_0
-description: NSMailMergeSettings.SetProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetProjectId
+description: NSMailMergeSettings.SetProjectId(Integer projectId)
 intellisense: NSMailMergeSettings.SetProjectId
-keywords: SetProjectId(Integer)
+keywords: NSMailMergeSettings, GetProjectId
 so.topic: reference
 ---
 
-
 Identity of project to use as source for recipients.
 
-
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectId** Integer
 

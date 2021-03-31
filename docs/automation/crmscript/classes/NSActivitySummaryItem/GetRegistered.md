@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSActivitySummaryItem_GetRegistered
-description: NSActivitySummaryItem.GetRegistered()
+description: DateTime NSActivitySummaryItem.GetRegistered()
 intellisense: NSActivitySummaryItem.GetRegistered
-sortOrder: 596
-keywords: GetRegistered()
+keywords: NSActivitySummaryItem, GetRegistered
 so.topic: reference
 ---
 
-
 Registered date
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProject_GetStatus
-description: NSProject.GetStatus()
+description: String NSProject.GetStatus()
 intellisense: NSProject.GetStatus
-keywords: GetStatus()
+keywords: NSProject, GetStatus
 so.topic: reference
 ---
 
-
 The projects status
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReturnInfo_SetVersionId_String_p_0
-description: NSReturnInfo.SetVersionId(String p_0)
+﻿---
+title: crmscript_ref_NSReturnInfo_SetVersionId
+description: NSReturnInfo.SetVersionId(String versionId)
 intellisense: NSReturnInfo.SetVersionId
-keywords: SetVersionId(String)
+keywords: NSReturnInfo, GetVersionId
 so.topic: reference
 ---
 
-
 The document plugin's version id that uniquely identifies one version of a document. If versioning is not supported, this will be blank. When versioning is supported, blank values imply the latest checked-in version.
 
-
-
-* **VersionId:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **versionId** String
 

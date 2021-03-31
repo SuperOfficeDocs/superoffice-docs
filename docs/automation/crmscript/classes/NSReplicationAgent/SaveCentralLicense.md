@@ -1,15 +1,12 @@
----
-title: crmscript_ref_NSReplicationAgent_SaveCentralLicense_NSLicenseOwner__p_0
-description: NSReplicationAgent.SaveCentralLicense(NSLicenseOwner[] p_0)
+﻿---
+title: crmscript_ref_NSReplicationAgent_SaveCentralLicense
+description: LicenseOwnerArray SaveCentralLicense(LicenseOwnerArray license)
 intellisense: NSReplicationAgent.SaveCentralLicense
-keywords: SaveCentralLicense(NSLicenseOwner[])
+keywords: NSReplicationAgent,SaveCentralLicense
 so.topic: reference
 ---
 
 
 
-
-* **license
-**
-
-
+**Parameters:**
+ - **license** 

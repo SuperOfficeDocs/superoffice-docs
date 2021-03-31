@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSProjectAgent_SetDuplicateRulesStatus_NSDuplicateRule__p_0
-description: NSProjectAgent.SetDuplicateRulesStatus(NSDuplicateRule[] p_0)
+﻿---
+title: crmscript_ref_NSProjectAgent_SetDuplicateRulesStatus
+description: Void SetDuplicateRulesStatus(DuplicateRuleArray rules)
 intellisense: NSProjectAgent.SetDuplicateRulesStatus
-keywords: SetDuplicateRulesStatus(NSDuplicateRule[])
+keywords: NSProjectAgent,SetDuplicateRulesStatus
 so.topic: reference
 ---
 
-
 Set which duplicate rules should be active or not
 
-
-
-* **rules:** Duplicate rules to update active status for
-
-
+**Parameters:**
+ - **rules** Duplicate rules to update active status for

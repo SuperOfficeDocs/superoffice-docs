@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentInfo_GetLegalBaseName
-description: NSConsentInfo.GetLegalBaseName()
+description: String NSConsentInfo.GetLegalBaseName()
 intellisense: NSConsentInfo.GetLegalBaseName
-sortOrder: 1642
-keywords: GetLegalBaseName()
+keywords: NSConsentInfo, GetLegalBaseName
 so.topic: reference
 ---
 
-
 Name of the LegalBase associated with this consent
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

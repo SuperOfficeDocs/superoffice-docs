@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSChatSummaryItem
 description: NSChatSummaryItem
 intellisense: Void.NSChatSummaryItem
-sortOrder: 1533
+keywords: NSChatSummaryItem
 so.topic: reference
 ---
 
-
 Chat session summary: id, title, created date
 
-
-
-
-1. autolist
+1. autolist 
 

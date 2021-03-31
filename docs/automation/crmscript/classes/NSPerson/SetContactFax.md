@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetContactFax_String_p_0
-description: NSPerson.SetContactFax(String p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetContactFax
+description: NSPerson.SetContactFax(String contactFax)
 intellisense: NSPerson.SetContactFax
-keywords: SetContactFax(String)
+keywords: NSPerson, GetContactFax
 so.topic: reference
 ---
 
-
 Actual phone number as eneterd by the user
 
-
-
-* **ContactFax:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactFax** String
 

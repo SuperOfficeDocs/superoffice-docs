@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSuggestedAppointment_SetText_String_p_0
-description: NSSuggestedAppointment.SetText(String p_0)
+﻿---
+title: crmscript_ref_NSSuggestedAppointment_SetText
+description: NSSuggestedAppointment.SetText(String text)
 intellisense: NSSuggestedAppointment.SetText
-keywords: SetText(String)
+keywords: NSSuggestedAppointment, GetText
 so.topic: reference
 ---
 
-
 The suggested text of the new appointment
 
-
-
-* **Text:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **text** String
 

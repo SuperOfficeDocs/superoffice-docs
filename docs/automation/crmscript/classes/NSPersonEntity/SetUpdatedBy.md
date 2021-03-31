@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetUpdatedBy_NSAssociate_p_0
-description: NSPersonEntity.SetUpdatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetUpdatedBy
+description: NSPersonEntity.SetUpdatedBy(Associate updatedBy)
 intellisense: NSPersonEntity.SetUpdatedBy
-keywords: SetUpdatedBy(NSAssociate)
+keywords: NSPersonEntity, GetUpdatedBy
 so.topic: reference
 ---
 
-
 The person that last updated the person object
 
-
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **updatedBy** Associate
 

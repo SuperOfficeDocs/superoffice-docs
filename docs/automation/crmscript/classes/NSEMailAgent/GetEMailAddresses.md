@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSEMailAgent_GetEMailAddresses_Integer__p_0
-description: NSEMailAgent.GetEMailAddresses(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSEMailAgent_GetEMailAddresses
+description: EMailAddressArray GetEMailAddresses(IntegerArray emailIds)
 intellisense: NSEMailAgent.GetEMailAddresses
-sortOrder: 2801
-keywords: GetEMailAddresses(Integer[])
+keywords: NSEMailAgent,GetEMailAddresses
 so.topic: reference
 ---
 
-
 Get information about one or more email addresses, identified by IDs
 
+**Parameters:**
+ - **emailIds** Array of IDs from the email table, each identifying one email address
 
+**Returns:** Array of email information objects
 
-* **emailIds:** Array of IDs from the email table, each identifying one email address
-* **Returns:** Array of email information objects
-
+```crmscript
+NSEMailAgent agent;
+IntegerArray emailIds;
+EMailAddressArray res = agent.GetEMailAddresses(emailIds);
+```
 

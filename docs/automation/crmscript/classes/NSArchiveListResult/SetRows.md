@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveListResult_SetRows_NSArchiveListItem__p_0
-description: NSArchiveListResult.SetRows(NSArchiveListItem[] p_0)
+﻿---
+title: crmscript_ref_NSArchiveListResult_SetRows
+description: NSArchiveListResult.SetRows(ArchiveListItemArray rows)
 intellisense: NSArchiveListResult.SetRows
-sortOrder: 1193
-keywords: SetRows(NSArchiveListItem[])
+keywords: NSArchiveListResult, GetRows
 so.topic: reference
 ---
 
-
 The actual rows, according to the paging info, of the result. See RowCount for a paging-independent count estimate
 
-
-
-* **Rows:** ArchiveListItemArray
-* **Returns:** ArchiveListItemArray
-
+**Parameter:** 
+ - **rows** ArchiveListItemArray
 

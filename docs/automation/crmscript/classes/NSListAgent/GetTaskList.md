@@ -1,14 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetTaskList_Integer__p_0
-description: NSListAgent.GetTaskList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetTaskList
+description: NSTask[] GetTaskList(Integer[]  taskIds);
 intellisense: NSListAgent.GetTaskList
-keywords: GetTaskList(Integer[])
+keywords: NSListAgent,GetTaskList
 so.topic: reference
 ---
 
-Gets an array of Task objects.
+Gets a vector of Task objects.
 
+**Parameters:**
+ - **taskIds** The identifiers of the NSTask objects
 
-* **p0:** IntegerArray of identifiers for Task
-* **Returns:** Array of NSTask
+**Returns:** Vector of NSTask objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetTaskList(ids);
+```
 

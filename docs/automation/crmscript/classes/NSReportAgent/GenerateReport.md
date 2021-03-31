@@ -1,22 +1,31 @@
----
-title: crmscript_ref_NSReportAgent_GenerateReport_Integer_p_0_Integer_p_1_String_p_2_String_p_3_String_p_4_NSArchiveRestrictionInfo__p_5
-description: NSReportAgent.GenerateReport(Integer p_0, Integer p_1, String p_2, String p_3, String p_4, NSArchiveRestrictionInfo[] p_5)
+﻿---
+title: crmscript_ref_NSReportAgent_GenerateReport
+description: String GenerateReport(Integer reportId, Integer labelLayoutId, String filename, String language, String fileType, ArchiveRestrictionInfoArray restrictions)
 intellisense: NSReportAgent.GenerateReport
-keywords: GenerateReport(Integer,Integer,String,String,String,NSArchiveRestrictionInfo[])
+keywords: NSReportAgent,GenerateReport
 so.topic: reference
 ---
 
-
 Generates the report in PDF format
 
+**Parameters:**
+ - **reportId** The id of the report.
+ - **labelLayoutId** The id of the labellayout. Use 0 if the report isn't of type label.
+ - **filename** Filename of the report.
+ - **language** Language to use when generating the report.
+ - **fileType** 
+ - **restrictions** Use restrictions to provide additional restrictions when generating the report.
 
+**Returns:** Batch task id, as string. Used to be path to the generated report, but no more.
 
-* **reportId:** The id of the report.
-* **labelLayoutId:** The id of the labellayout. Use 0 if the report isn't of type label.
-* **filename:** Filename of the report.
-* **language:** Language to use when generating the report.
-* **fileType
-\param** p5 restrictions: Use restrictions to provide additional restrictions when generating the report.
-* **Returns:** Batch task id, as string. Used to be path to the generated report, but no more.
-
+```crmscript
+NSReportAgent agent;
+Integer reportId;
+Integer labelLayoutId;
+String filename;
+String language;
+String fileType;
+ArchiveRestrictionInfoArray restrictions;
+String res = agent.GenerateReport(reportId, labelLayoutId, filename, language, fileType, restrictions);
+```
 

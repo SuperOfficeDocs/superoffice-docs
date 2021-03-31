@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSCustomerServiceAgent_GetAllCustomerCenterConfigs
-description: NSCustomerServiceAgent.GetAllCustomerCenterConfigs()
+description: CustomerCenterConfigArray GetAllCustomerCenterConfigs()
 intellisense: NSCustomerServiceAgent.GetAllCustomerCenterConfigs
-sortOrder: 2230
-keywords: GetAllCustomerCenterConfigs()
+keywords: NSCustomerServiceAgent,GetAllCustomerCenterConfigs
 so.topic: reference
 ---
 
-
-Get all rows from cust\_config as an array of CustomerCenterConfig entities
-
+Get all rows from cust_config as an array of CustomerCenterConfig entities
 
 
-* **Returns:** An array of CustomerCenterConfig entities
+**Returns:** An array of CustomerCenterConfig entities
 
+```crmscript
+NSCustomerServiceAgent agent;
+CustomerCenterConfigArray res = agent.GetAllCustomerCenterConfigs();
+```
 

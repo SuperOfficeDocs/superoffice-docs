@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSyncUserAccount_SetAssociateId_Integer_p_0
-description: NSSyncUserAccount.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSyncUserAccount_SetAssociateId
+description: NSSyncUserAccount.SetAssociateId(Integer associateId)
 intellisense: NSSyncUserAccount.SetAssociateId
-keywords: SetAssociateId(Integer)
+keywords: NSSyncUserAccount, GetAssociateId
 so.topic: reference
 ---
 
-
 Id of the associate who owns this account
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

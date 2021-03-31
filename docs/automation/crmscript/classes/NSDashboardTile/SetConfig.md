@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDashboardTile_SetConfig_String_p_0
-description: NSDashboardTile.SetConfig(String p_0)
+﻿---
+title: crmscript_ref_NSDashboardTile_SetConfig
+description: NSDashboardTile.SetConfig(String config)
 intellisense: NSDashboardTile.SetConfig
-sortOrder: 2306
-keywords: SetConfig(String)
+keywords: NSDashboardTile, GetConfig
 so.topic: reference
 ---
 
-
 The tile config
 
-
-
-* **Config:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **config** String
 

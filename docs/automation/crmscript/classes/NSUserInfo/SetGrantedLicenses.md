@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSUserInfo_SetGrantedLicenses_String__p_0
-description: NSUserInfo.SetGrantedLicenses(String[] p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetGrantedLicenses
+description: NSUserInfo.SetGrantedLicenses(StringArray grantedLicenses)
 intellisense: NSUserInfo.SetGrantedLicenses
-keywords: SetGrantedLicenses(String[])
+keywords: NSUserInfo, GetGrantedLicenses
 so.topic: reference
 ---
 
 
-* **GrantedLicenses:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **grantedLicenses** StringArray
 

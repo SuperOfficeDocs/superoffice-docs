@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSCustomerServiceAgent_GetCustomerCenterConfig_Integer_p_0
-description: NSCustomerServiceAgent.GetCustomerCenterConfig(Integer p_0)
+﻿---
+title: crmscript_ref_NSCustomerServiceAgent_GetCustomerCenterConfig
+description: NSCustomerCenterConfig GetCustomerCenterConfig(Integer customerCenterConfigId);
 intellisense: NSCustomerServiceAgent.GetCustomerCenterConfig
-sortOrder: 2228
-keywords: GetCustomerCenterConfig(Integer)
+keywords: NSCustomerServiceAgent,GetCustomerCenterConfig
 so.topic: reference
 ---
 
+Gets a NSCustomerCenterConfig object.
 
-Gets a CustomerCenterConfig object.
+**Parameters:**
+ - **customerCenterConfigId** The identifier of the NSCustomerCenterConfig object
 
+**Returns:** NSCustomerCenterConfig
 
-
-* **customerCenterConfigId:** The identifier of the CustomerCenterConfig object
-* **Returns:** CustomerCenterConfig
-
+```crmscript
+NSCustomerServiceAgent agent;
+NSCustomerCenterConfig thing = agent.GetCustomerCenterConfig(123);
+```
 

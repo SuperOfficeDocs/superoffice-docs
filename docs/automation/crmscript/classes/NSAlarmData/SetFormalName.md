@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetFormalName_String_p_0
-description: NSAlarmData.SetFormalName(String p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetFormalName
+description: NSAlarmData.SetFormalName(String formalName)
 intellisense: NSAlarmData.SetFormalName
-sortOrder: 681
-keywords: SetFormalName(String)
+keywords: NSAlarmData, GetFormalName
 so.topic: reference
 ---
 
-
 The associate's culture formatted formalname (firstname, middleName and lastname, title, mrmrs)
 
-
-
-* **FormalName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **formalName** String
 

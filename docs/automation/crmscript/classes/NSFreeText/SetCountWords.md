@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFreeText_SetCountWords_Integer_p_0
-description: NSFreeText.SetCountWords(Integer p_0)
+﻿---
+title: crmscript_ref_NSFreeText_SetCountWords
+description: NSFreeText.SetCountWords(Integer countWords)
 intellisense: NSFreeText.SetCountWords
-sortOrder: 3860
-keywords: SetCountWords(Integer)
+keywords: NSFreeText, GetCountWords
 so.topic: reference
 ---
 
-
 Count of unique search words
 
-
-
-* **CountWords:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **countWords** Integer
 

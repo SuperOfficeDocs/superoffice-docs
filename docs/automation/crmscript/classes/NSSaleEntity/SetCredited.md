@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetCredited_NSCredited_p_0
-description: NSSaleEntity.SetCredited(NSCredited p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetCredited
+description: NSSaleEntity.SetCredited(Credited credited)
 intellisense: NSSaleEntity.SetCredited
-keywords: SetCredited(NSCredited)
+keywords: NSSaleEntity, GetCredited
 so.topic: reference
 ---
 
-
 List of who is to be credited for the sale.
 
-
-
-* **Credited:** Credited
-* **Returns:** Credited
-
+**Parameter:** 
+ - **credited** Credited
 

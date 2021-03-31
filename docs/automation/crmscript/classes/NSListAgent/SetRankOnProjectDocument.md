@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSListAgent_SetRankOnProjectDocument_Integer_p_0_Integer__p_1
-description: NSListAgent.SetRankOnProjectDocument(Integer p_0, Integer[] p_1)
+﻿---
+title: crmscript_ref_NSListAgent_SetRankOnProjectDocument
+description: Void SetRankOnProjectDocument(Integer projectTypeStatusLinkId, IntegerArray itemsIds)
 intellisense: NSListAgent.SetRankOnProjectDocument
-keywords: SetRankOnProjectDocument(Integer,Integer[])
+keywords: NSListAgent,SetRankOnProjectDocument
 so.topic: reference
 ---
 
-
 Set rank order on project document
 
-
-
-* **projectTypeStatusLinkId:** The id of the list
-* **itemsIds:** The ids of the items in the order you want
-
-
+**Parameters:**
+ - **projectTypeStatusLinkId** The id of the list
+ - **itemsIds** The ids of the items in the order you want

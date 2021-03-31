@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSReportLabelLayoutEntity_GetPaperWidth
-description: NSReportLabelLayoutEntity.GetPaperWidth()
+description: Integer NSReportLabelLayoutEntity.GetPaperWidth()
 intellisense: NSReportLabelLayoutEntity.GetPaperWidth
-keywords: GetPaperWidth()
+keywords: NSReportLabelLayoutEntity, GetPaperWidth
 so.topic: reference
 ---
 
-
 Paper width in twips
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

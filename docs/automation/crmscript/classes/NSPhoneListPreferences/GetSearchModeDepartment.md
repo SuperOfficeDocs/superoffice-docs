@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSPhoneListPreferences_GetSearchModeDepartment
-description: NSPhoneListPreferences.GetSearchModeDepartment()
+description: Integer NSPhoneListPreferences.GetSearchModeDepartment()
 intellisense: NSPhoneListPreferences.GetSearchModeDepartment
-keywords: GetSearchModeDepartment()
+keywords: NSPhoneListPreferences, GetSearchModeDepartment
 so.topic: reference
 ---
 
-
 The Department search type, e.g. BeginsWith, Contains, Endswith, Matches
 
+**Returns:** Integer
 
-
-* **Returns:** Integer
-
+     - Enum: 0 = Exact 
+     - Enum: 1 = BeginsWith 
+     - Enum: 2 = EndsWith 
+     - Enum: 3 = Contains 
 

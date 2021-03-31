@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetPath_String_p_0
-description: NSExtAppEntity.SetPath(String p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetPath
+description: NSExtAppEntity.SetPath(String path)
 intellisense: NSExtAppEntity.SetPath
-sortOrder: 3390
-keywords: SetPath(String)
+keywords: NSExtAppEntity, GetPath
 so.topic: reference
 ---
 
-
 Path where the programfile is located; if empty, PATH is used
 
-
-
-* **Path:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **path** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetPublishTo_DateTime_p_0
-description: NSProjectEventEntity.SetPublishTo(DateTime p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetPublishTo
+description: NSProjectEventEntity.SetPublishTo(DateTime publishTo)
 intellisense: NSProjectEventEntity.SetPublishTo
-keywords: SetPublishTo(DateTime)
+keywords: NSProjectEventEntity, GetPublishTo
 so.topic: reference
 ---
 
-
 Publication valid to (inclusive)
 
-
-
-* **PublishTo:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **publishTo** DateTime
 

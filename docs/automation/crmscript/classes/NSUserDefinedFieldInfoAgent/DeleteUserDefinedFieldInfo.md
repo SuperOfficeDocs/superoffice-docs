@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_DeleteUserDefinedFieldInfo_Integer_p_0
-description: NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_DeleteUserDefinedFieldInfo
+description: DeleteUserDefinedFieldInfo(Integer userDefinedFieldInfo);
 intellisense: NSUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo
-keywords: DeleteUserDefinedFieldInfo(Integer)
+keywords: NSUserDefinedFieldInfoAgent,DeleteUserDefinedFieldInfo
 so.topic: reference
 ---
 
+Deletes the NSUserDefinedFieldInfo
+  
+**Parameters:**
+ - **userDefinedFieldInfoId** The identity of the UserDefinedFieldInfo to delete.
 
-Deletes the UserDefinedFieldInfo
-
-
-
-* **userDefinedFieldInfoId:** The identity of the UserDefinedFieldInfo
-
+```crmscript
+NSUserDefinedFieldInfoAgent agent;
+agent.DeleteUserDefinedFieldInfo(123);
+```
 

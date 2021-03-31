@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetSupportLanguageId_Integer_p_0
-description: NSPerson.SetSupportLanguageId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetSupportLanguageId
+description: NSPerson.SetSupportLanguageId(Integer supportLanguageId)
 intellisense: NSPerson.SetSupportLanguageId
-keywords: SetSupportLanguageId(Integer)
+keywords: NSPerson, GetSupportLanguageId
 so.topic: reference
 ---
 
-
 Support priority ID
 
-
-
-* **SupportLanguageId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **supportLanguageId** Integer
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetHasAlarm
-description: NSAppointmentEntity.GetHasAlarm()
+description: Bool NSAppointmentEntity.GetHasAlarm()
 intellisense: NSAppointmentEntity.GetHasAlarm
-sortOrder: 925
-keywords: GetHasAlarm()
+keywords: NSAppointmentEntity, GetHasAlarm
 so.topic: reference
 ---
 
-
 Does this appointment have an alarm
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

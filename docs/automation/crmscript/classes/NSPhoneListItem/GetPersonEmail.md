@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPhoneListItem_GetPersonEmail
-description: NSPhoneListItem.GetPersonEmail()
+description: String NSPhoneListItem.GetPersonEmail()
 intellisense: NSPhoneListItem.GetPersonEmail
-keywords: GetPersonEmail()
+keywords: NSPhoneListItem, GetPersonEmail
 so.topic: reference
 ---
 
-
 The address itself
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

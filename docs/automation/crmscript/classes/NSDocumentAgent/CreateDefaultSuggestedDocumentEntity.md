@@ -1,18 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSDocumentAgent_CreateDefaultSuggestedDocumentEntity
-description: NSDocumentAgent.CreateDefaultSuggestedDocumentEntity()
+description: NSSuggestedDocumentEntity CreateDefaultSuggestedDocumentEntity()
 intellisense: NSDocumentAgent.CreateDefaultSuggestedDocumentEntity
-sortOrder: 2527
-keywords: CreateDefaultSuggestedDocumentEntity()
+keywords: NSDocumentAgent,CreateDefaultSuggestedDocumentEntity
 so.topic: reference
 ---
+	  
+Set default values into a new NSSuggestedDocumentEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSSuggestedDocumentEntity with default values.
 
-
-Loading default values into a new SuggestedDocumentEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New SuggestedDocumentEntity with default values
-
+```crmscript
+NSDocumentAgent agent;
+NSSuggestedDocumentEntity thing = agent.CreateDefaultSuggestedDocumentEntity();
+thing = agent.SaveSuggestedDocumentEntity(thing);
+```
 

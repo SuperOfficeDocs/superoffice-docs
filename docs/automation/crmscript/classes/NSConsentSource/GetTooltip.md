@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentSource_GetTooltip
-description: NSConsentSource.GetTooltip()
+description: String NSConsentSource.GetTooltip()
 intellisense: NSConsentSource.GetTooltip
-sortOrder: 1708
-keywords: GetTooltip()
+keywords: NSConsentSource, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip for this consent source
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

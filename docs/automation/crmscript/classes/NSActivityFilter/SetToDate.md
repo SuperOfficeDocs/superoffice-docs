@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSActivityFilter_SetToDate_DateTime_p_0
-description: NSActivityFilter.SetToDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSActivityFilter_SetToDate
+description: NSActivityFilter.SetToDate(DateTime toDate)
 intellisense: NSActivityFilter.SetToDate
-sortOrder: 578
-keywords: SetToDate(DateTime)
+keywords: NSActivityFilter, GetToDate
 so.topic: reference
 ---
 
-
 The filtering To date
 
-
-
-* **ToDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **toDate** DateTime
 

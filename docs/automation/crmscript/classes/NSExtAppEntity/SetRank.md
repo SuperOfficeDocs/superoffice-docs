@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetRank_Integer_p_0
-description: NSExtAppEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetRank
+description: NSExtAppEntity.SetRank(Integer rank)
 intellisense: NSExtAppEntity.SetRank
-sortOrder: 3391
-keywords: SetRank(Integer)
+keywords: NSExtAppEntity, GetRank
 so.topic: reference
 ---
 
-
 The rank of the application
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

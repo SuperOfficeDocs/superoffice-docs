@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSForeignAppEntity_GetDevices
-description: NSForeignAppEntity.GetDevices()
+description: ForeignDeviceArray NSForeignAppEntity.GetDevices()
 intellisense: NSForeignAppEntity.GetDevices
-sortOrder: 3703
-keywords: GetDevices()
+keywords: NSForeignAppEntity, GetDevices
 so.topic: reference
 ---
 
-
 The devices that belong to this foreign app.
 
-
-
-* **Returns:** ForeignDeviceArray
+**Returns:** ForeignDeviceArray
 
 

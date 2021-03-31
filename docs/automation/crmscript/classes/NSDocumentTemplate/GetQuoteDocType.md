@@ -1,20 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplate_GetQuoteDocType
-description: NSDocumentTemplate.GetQuoteDocType()
+description: DocTmplQuoteType NSDocumentTemplate.GetQuoteDocType()
 intellisense: NSDocumentTemplate.GetQuoteDocType
-sortOrder: 2624
-keywords: GetQuoteDocType()
+keywords: NSDocumentTemplate, GetQuoteDocType
 so.topic: reference
 ---
 
 What type of quote document is this.
 
-* None=0
-* MailBody=1
-* MainDocument=2
-* QuoteLines=3
-* ConfirmationMailBody=4
-* ConfirmationLines=5
+**Returns:** DocTmplQuoteType
 
-* **Returns:** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = MailBody 
+     - Enum: 2 = MainDocument 
+     - Enum: 3 = QuoteLines 
+     - Enum: 4 = ConfirmationMailBody 
+     - Enum: 5 = ConfirmationLines 
 

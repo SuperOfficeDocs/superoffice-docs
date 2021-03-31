@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPersonCountry_String_p_0
-description: NSParticipantSyncData.SetPersonCountry(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPersonCountry
+description: NSParticipantSyncData.SetPersonCountry(String personCountry)
 intellisense: NSParticipantSyncData.SetPersonCountry
-keywords: SetPersonCountry(String)
+keywords: NSParticipantSyncData, GetPersonCountry
 so.topic: reference
 ---
 
-
 The country this contact person is located in.
 
-
-
-* **PersonCountry:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personCountry** String
 

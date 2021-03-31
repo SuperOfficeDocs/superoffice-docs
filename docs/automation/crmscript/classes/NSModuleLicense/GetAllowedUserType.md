@@ -1,16 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSModuleLicense_GetAllowedUserType
-description: NSModuleLicense.GetAllowedUserType()
+description: Integer NSModuleLicense.GetAllowedUserType()
 intellisense: NSModuleLicense.GetAllowedUserType
-keywords: GetAllowedUserType()
+keywords: NSModuleLicense, GetAllowedUserType
 so.topic: reference
 ---
 
+Allowed associate type for user licenses: internal(0), external(4). 
 
-Allowed associate type for user licenses: `internal(0)`, `external(4)`.
+**Returns:** Integer
 
-
-
-* **Returns:** Integer
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 

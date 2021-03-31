@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSNumberAllocationAgent_GetRefCountEntity_Integer_p_0
-description: NSNumberAllocationAgent.GetRefCountEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSNumberAllocationAgent_GetRefCountEntity
+description: NSRefCountEntity GetRefCountEntity(Integer refCountEntityId);
 intellisense: NSNumberAllocationAgent.GetRefCountEntity
-keywords: GetRefCountEntity(Integer)
+keywords: NSNumberAllocationAgent,GetRefCountEntity
 so.topic: reference
 ---
 
+Gets a NSRefCountEntity object.
 
-Gets a RefCountEntity object.
+**Parameters:**
+ - **refCountEntityId** The identifier of the NSRefCountEntity object
 
+**Returns:** NSRefCountEntity
 
-
-* **refCountEntityId:** The identifier of the RefCountEntity object
-* **Returns:** RefCountEntity
-
+```crmscript
+NSNumberAllocationAgent agent;
+NSRefCountEntity thing = agent.GetRefCountEntity(123);
+```
 

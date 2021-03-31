@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPhoneDirect_String__p_0
-description: NSParticipantSyncData.SetPhoneDirect(String[] p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPhoneDirect
+description: NSParticipantSyncData.SetPhoneDirect(StringArray phoneDirect)
 intellisense: NSParticipantSyncData.SetPhoneDirect
-keywords: SetPhoneDirect(String[])
+keywords: NSParticipantSyncData, GetPhoneDirect
 so.topic: reference
 ---
 
 
-* **PhoneDirect:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **phoneDirect** StringArray
 

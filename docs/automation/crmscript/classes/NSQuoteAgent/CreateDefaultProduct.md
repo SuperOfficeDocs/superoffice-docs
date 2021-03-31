@@ -1,17 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSQuoteAgent_CreateDefaultProduct
-description: NSQuoteAgent.CreateDefaultProduct()
+description: NSProduct CreateDefaultProduct()
 intellisense: NSQuoteAgent.CreateDefaultProduct
-keywords: CreateDefaultProduct()
+keywords: NSQuoteAgent,CreateDefaultProduct
 so.topic: reference
 ---
+	  
+Set default values into a new NSProduct.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSProduct with default values.
 
-
-Loading default values into a new Product.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New Product with default values
-
+```crmscript
+NSQuoteAgent agent;
+NSProduct thing = agent.CreateDefaultProduct();
+thing = agent.SaveProduct(thing);
+```
 

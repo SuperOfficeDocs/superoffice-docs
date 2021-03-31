@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetCreatedDate_DateTime_p_0
-description: NSAppointmentEntity.SetCreatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetCreatedDate
+description: NSAppointmentEntity.SetCreatedDate(DateTime createdDate)
 intellisense: NSAppointmentEntity.SetCreatedDate
-sortOrder: 995
-keywords: SetCreatedDate(DateTime)
+keywords: NSAppointmentEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered date
 
-
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdDate** DateTime
 

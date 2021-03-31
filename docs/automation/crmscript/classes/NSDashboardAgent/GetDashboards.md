@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSDashboardAgent_GetDashboards_Integer_p_0
-description: NSDashboardAgent.GetDashboards(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboardAgent_GetDashboards
+description: DashboardArray GetDashboards(Integer associateId)
 intellisense: NSDashboardAgent.GetDashboards
-sortOrder: 2276
-keywords: GetDashboards(Integer)
+keywords: NSDashboardAgent,GetDashboards
 so.topic: reference
 ---
 
-
 Gets all dashboards for an associate
 
+**Parameters:**
+ - **associateId** Associate Id
 
+**Returns:** All the users dashboards
 
-* **associateId:** Associate Id
-* **Returns:** All the users dashboards
-
+```crmscript
+NSDashboardAgent agent;
+Integer associateId;
+DashboardArray res = agent.GetDashboards(associateId);
+```
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketMessageEntity_SetTicket_NSTicket_p_0
-description: NSTicketMessageEntity.SetTicket(NSTicket p_0)
+﻿---
+title: crmscript_ref_NSTicketMessageEntity_SetTicket
+description: NSTicketMessageEntity.SetTicket(Ticket ticket)
 intellisense: NSTicketMessageEntity.SetTicket
-keywords: SetTicket(NSTicket)
+keywords: NSTicketMessageEntity, GetTicket
 so.topic: reference
 ---
 
-
 The connected ticket
 
-
-
-* **Ticket:** Ticket
-* **Returns:** Ticket
-
+**Parameter:** 
+ - **ticket** Ticket
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAttachment_SetDescription_String_p_0
-description: NSEMailAttachment.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAttachment_SetDescription
+description: NSEMailAttachment.SetDescription(String description)
 intellisense: NSEMailAttachment.SetDescription
-sortOrder: 2900
-keywords: SetDescription(String)
+keywords: NSEMailAttachment, GetDescription
 so.topic: reference
 ---
 
-
 Name/description
 
-
-
-* **Description:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **description** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTemplateVariablesParameters_SetSaleId_Integer_p_0
-description: NSTemplateVariablesParameters.SetSaleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTemplateVariablesParameters_SetSaleId
+description: NSTemplateVariablesParameters.SetSaleId(Integer saleId)
 intellisense: NSTemplateVariablesParameters.SetSaleId
-keywords: SetSaleId(Integer)
+keywords: NSTemplateVariablesParameters, GetSaleId
 so.topic: reference
 ---
 
-
 Identifier for a sale
 
-
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleId** Integer
 

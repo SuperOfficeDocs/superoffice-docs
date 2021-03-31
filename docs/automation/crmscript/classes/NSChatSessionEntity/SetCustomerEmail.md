@@ -1,0 +1,13 @@
+﻿---
+title: crmscript_ref_NSChatSessionEntity_SetCustomerEmail
+description: NSChatSessionEntity.SetCustomerEmail(String customerEmail)
+intellisense: NSChatSessionEntity.SetCustomerEmail
+keywords: NSChatSessionEntity, GetCustomerEmail
+so.topic: reference
+---
+
+The email address of the customer, if provided
+
+**Parameter:** 
+ - **customerEmail** String
+

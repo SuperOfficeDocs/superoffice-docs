@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveColumnInfo_GetDisplayName
-description: NSArchiveColumnInfo.GetDisplayName()
+description: String NSArchiveColumnInfo.GetDisplayName()
 intellisense: NSArchiveColumnInfo.GetDisplayName
-sortOrder: 1140
-keywords: GetDisplayName()
+keywords: NSArchiveColumnInfo, GetDisplayName
 so.topic: reference
 ---
 
-
 The column name to show, can be a resource identifier string.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

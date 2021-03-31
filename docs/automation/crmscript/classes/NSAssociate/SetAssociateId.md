@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAssociate_SetAssociateId_Integer_p_0
-description: NSAssociate.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAssociate_SetAssociateId
+description: NSAssociate.SetAssociateId(Integer associateId)
 intellisense: NSAssociate.SetAssociateId
-sortOrder: 1266
-keywords: SetAssociateId(Integer)
+keywords: NSAssociate, GetAssociateId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

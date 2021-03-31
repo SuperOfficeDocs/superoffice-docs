@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAppointmentAgent_GetCanInsertForAssociates_Integer__p_0
-description: NSAppointmentAgent.GetCanInsertForAssociates(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_GetCanInsertForAssociates
+description: BooleanArray GetCanInsertForAssociates(IntegerArray associateIds)
 intellisense: NSAppointmentAgent.GetCanInsertForAssociates
-sortOrder: 826
-keywords: GetCanInsertForAssociates(Integer[])
+keywords: NSAppointmentAgent,GetCanInsertForAssociates
 so.topic: reference
 ---
 
-
 Check if current associate can create appointments in the diary of other associates.
 
+**Parameters:**
+ - **associateIds** Array of associate ids to check for.
 
+**Returns:** Returns an array of bool corresponding to the associate array input parameter.
 
-* **associateIds:** Array of associate ids to check for.
-* **Returns:** Returns an array of bool corresponding to the associate array input parameter.
-
+```crmscript
+NSAppointmentAgent agent;
+IntegerArray associateIds;
+BooleanArray res = agent.GetCanInsertForAssociates(associateIds);
+```
 

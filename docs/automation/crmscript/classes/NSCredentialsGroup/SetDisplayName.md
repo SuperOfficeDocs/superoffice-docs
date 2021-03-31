@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCredentialsGroup_SetDisplayName_String_p_0
-description: NSCredentialsGroup.SetDisplayName(String p_0)
+﻿---
+title: crmscript_ref_NSCredentialsGroup_SetDisplayName
+description: NSCredentialsGroup.SetDisplayName(String displayName)
 intellisense: NSCredentialsGroup.SetDisplayName
-sortOrder: 2060
-keywords: SetDisplayName(String)
+keywords: NSCredentialsGroup, GetDisplayName
 so.topic: reference
 ---
 
-
 The display name of the group to display to the user.
 
-
-
-* **DisplayName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayName** String
 

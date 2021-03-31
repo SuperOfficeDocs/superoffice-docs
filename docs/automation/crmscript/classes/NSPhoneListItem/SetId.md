@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListItem_SetId_Integer_p_0
-description: NSPhoneListItem.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPhoneListItem_SetId
+description: NSPhoneListItem.SetId(Integer id)
 intellisense: NSPhoneListItem.SetId
-keywords: SetId(Integer)
+keywords: NSPhoneListItem, GetId
 so.topic: reference
 ---
 
-
 The contact or person's id
 
-
-
-* **Id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

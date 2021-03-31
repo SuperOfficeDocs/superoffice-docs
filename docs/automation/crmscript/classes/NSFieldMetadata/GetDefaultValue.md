@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldMetadata_GetDefaultValue
-description: NSFieldMetadata.GetDefaultValue()
+description: String NSFieldMetadata.GetDefaultValue()
 intellisense: NSFieldMetadata.GetDefaultValue
-sortOrder: 3580
-keywords: GetDefaultValue()
+keywords: NSFieldMetadata, GetDefaultValue
 so.topic: reference
 ---
 
-
 A default value for the field.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

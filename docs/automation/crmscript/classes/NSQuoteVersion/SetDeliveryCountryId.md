@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersion_SetDeliveryCountryId_Integer_p_0
-description: NSQuoteVersion.SetDeliveryCountryId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetDeliveryCountryId
+description: NSQuoteVersion.SetDeliveryCountryId(Integer deliveryCountryId)
 intellisense: NSQuoteVersion.SetDeliveryCountryId
-keywords: SetDeliveryCountryId(Integer)
+keywords: NSQuoteVersion, GetDeliveryCountryId
 so.topic: reference
 ---
 
-
 Country of delivery address, typically copied from the contact record
 
-
-
-* **DeliveryCountryId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **deliveryCountryId** Integer
 

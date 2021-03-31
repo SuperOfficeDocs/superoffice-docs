@@ -1,18 +1,14 @@
----
-title: crmscript_ref_NSAppointmentAgent_GetAssociatesDiary_Integer__p_0_DateTime_p_1_DateTime_p_2
-description: NSAppointmentAgent.GetAssociatesDiary(Integer[] p_0, DateTime p_1, DateTime p_2)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_GetAssociatesDiary
+description: AppointmentArray GetAssociatesDiary(IntegerArray associateIds, DateTime startTime, DateTime endTime)
 intellisense: NSAppointmentAgent.GetAssociatesDiary
-sortOrder: 841
-keywords: GetAssociatesDiary(Integer[],DateTime,DateTime)
+keywords: NSAppointmentAgent,GetAssociatesDiary
 so.topic: reference
 ---
 
 
 
-
-* **associateIds
-\param** p1 startTime
-* **endTime
-**
-
-
+**Parameters:**
+ - **associateIds** 
+ - **startTime** 
+ - **endTime** 

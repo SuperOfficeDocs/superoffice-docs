@@ -1,18 +1,17 @@
----
-title: crmscript_ref_NSCheckoutInfo_SetState_Integer_p_0
-description: NSCheckoutInfo.SetState(Integer p_0)
+﻿---
+title: crmscript_ref_NSCheckoutInfo_SetState
+description: NSCheckoutInfo.SetState(Integer state)
 intellisense: NSCheckoutInfo.SetState
-sortOrder: 1565
-keywords: SetState(Integer)
+keywords: NSCheckoutInfo, GetState
 so.topic: reference
 ---
 
-
 Checkout state
 
-
-
-* **State:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **state** Integer
+     - Enum: 0 = NotCheckedOut 
+     - Enum: 1 = CheckedOutOwn 
+     - Enum: 2 = CheckedOutOther 
+     - Enum: 3 = LockingNotSupported 
 

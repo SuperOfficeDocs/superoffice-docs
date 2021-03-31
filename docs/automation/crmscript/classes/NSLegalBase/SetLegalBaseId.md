@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLegalBase_SetLegalBaseId_Integer_p_0
-description: NSLegalBase.SetLegalBaseId(Integer p_0)
+﻿---
+title: crmscript_ref_NSLegalBase_SetLegalBaseId
+description: NSLegalBase.SetLegalBaseId(Integer legalBaseId)
 intellisense: NSLegalBase.SetLegalBaseId
-keywords: SetLegalBaseId(Integer)
+keywords: NSLegalBase, GetLegalBaseId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **LegalBaseId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **legalBaseId** Integer
 

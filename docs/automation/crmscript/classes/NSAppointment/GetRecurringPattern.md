@@ -1,19 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetRecurringPattern
-description: NSAppointment.GetRecurringPattern()
+description: Integer NSAppointment.GetRecurringPattern()
 intellisense: NSAppointment.GetRecurringPattern
-sortOrder: 743
-keywords: GetRecurringPattern()
+keywords: NSAppointment, GetRecurringPattern
 so.topic: reference
 ---
 
-* Unknown=0
-* Daily=1
-* Weekly=2
-* Monthly=3
-* Yearly=4
-* Custom=5
 
-* **Returns:** Integer
 
+**Returns:** Integer
+
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Daily 
+     - Enum: 2 = Weekly 
+     - Enum: 3 = Monthly 
+     - Enum: 4 = Yearly 
+     - Enum: 5 = Custom 
 

@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveConfiguration_GetArchiveOrderByInfo
-description: NSArchiveConfiguration.GetArchiveOrderByInfo()
+description: ArchiveOrderByInfoArray NSArchiveConfiguration.GetArchiveOrderByInfo()
 intellisense: NSArchiveConfiguration.GetArchiveOrderByInfo
-sortOrder: 1169
-keywords: GetArchiveOrderByInfo()
+keywords: NSArchiveConfiguration, GetArchiveOrderByInfo
 so.topic: reference
 ---
 
 
-* **Returns:** ArchiveOrderByInfoArray
+
+**Returns:** ArchiveOrderByInfoArray
 
 

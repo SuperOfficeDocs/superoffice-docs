@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAmountClassEntity_GetAmountClassId
-description: NSAmountClassEntity.GetAmountClassId()
+description: Integer NSAmountClassEntity.GetAmountClassId()
 intellisense: NSAmountClassEntity.GetAmountClassId
-sortOrder: 698
-keywords: GetAmountClassId()
+keywords: NSAmountClassEntity, GetAmountClassId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

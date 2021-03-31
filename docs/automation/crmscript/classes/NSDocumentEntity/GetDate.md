@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentEntity_GetDate
-description: NSDocumentEntity.GetDate()
+description: DateTime NSDocumentEntity.GetDate()
 intellisense: NSDocumentEntity.GetDate
-sortOrder: 2553
-keywords: GetDate()
+keywords: NSDocumentEntity, GetDate
 so.topic: reference
 ---
 
-
 date + start time planned
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

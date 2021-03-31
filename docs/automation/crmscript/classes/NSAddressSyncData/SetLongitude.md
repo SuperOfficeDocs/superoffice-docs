@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAddressSyncData_SetLongitude_Float_p_0
-description: NSAddressSyncData.SetLongitude(Float p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetLongitude
+description: NSAddressSyncData.SetLongitude(Float longitude)
 intellisense: NSAddressSyncData.SetLongitude
-sortOrder: 638
-keywords: SetLongitude(Float)
+keywords: NSAddressSyncData, GetLongitude
 so.topic: reference
 ---
 
 
-* **Longitude:** Float
-* **Returns:** Float
 
+**Parameter:** 
+ - **longitude** Float
 

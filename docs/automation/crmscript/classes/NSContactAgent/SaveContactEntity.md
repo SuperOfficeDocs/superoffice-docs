@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSContactAgent_SaveContactEntity_NSContactEntity_p_0
-description: NSContactAgent.SaveContactEntity(NSContactEntity p_0)
+﻿---
+title: crmscript_ref_NSContactAgent_SaveContactEntity
+description: NSContactEntity SaveContactEntity(NSContactEntity contactEntity);
 intellisense: NSContactAgent.SaveContactEntity
-sortOrder: 1814
-keywords: SaveContactEntity(NSContactEntity)
+keywords: NSContactAgent,SaveContactEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSContactEntity or creates a new NSContactEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **contactEntity** The NSContactEntity to save.
 
+**Returns:** New or updated NSContactEntity
 
-Updates the existing ContactEntity or creates a new ContactEntity if the id parameter is empty
-
-
-
-* **contactEntity:** The ContactEntity that is saved
-* **Returns:** New or updated ContactEntity
-
+```crmscript
+NSContact  agent;
+NSContactEntity thing = agent.CreateDefaultContactEntity();
+thing = agent.SaveContactEntity(thing);
+```
 

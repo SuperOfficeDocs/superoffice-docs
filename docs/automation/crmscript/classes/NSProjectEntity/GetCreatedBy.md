@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEntity_GetCreatedBy
-description: NSProjectEntity.GetCreatedBy()
+description: Associate NSProjectEntity.GetCreatedBy()
 intellisense: NSProjectEntity.GetCreatedBy
-keywords: GetCreatedBy()
+keywords: NSProjectEntity, GetCreatedBy
 so.topic: reference
 ---
 
-
 The person that created the project
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

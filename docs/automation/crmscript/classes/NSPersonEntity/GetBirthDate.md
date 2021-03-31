@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetBirthDate
-description: NSPersonEntity.GetBirthDate()
+description: DateTime NSPersonEntity.GetBirthDate()
 intellisense: NSPersonEntity.GetBirthDate
-keywords: GetBirthDate()
+keywords: NSPersonEntity, GetBirthDate
 so.topic: reference
 ---
 
-
 The Person birth date as Date
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

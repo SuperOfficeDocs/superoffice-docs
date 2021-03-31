@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionAgent_RemoveContactSelectionMembers_Integer_p_0_NSContactPersonId__p_1
-description: NSSelectionAgent.RemoveContactSelectionMembers(Integer p_0, NSContactPersonId[] p_1)
+﻿---
+title: crmscript_ref_NSSelectionAgent_RemoveContactSelectionMembers
+description: Void RemoveContactSelectionMembers(Integer selectionId, ContactPersonIdArray contactPersonIds)
 intellisense: NSSelectionAgent.RemoveContactSelectionMembers
-keywords: RemoveContactSelectionMembers(Integer,NSContactPersonId[])
+keywords: NSSelectionAgent,RemoveContactSelectionMembers
 so.topic: reference
 ---
 
-
 Removes members from the selection as  specified in the collection of ContactPersonId.
 
-
-
-* **selectionId:** The id of the selection where to members will be removed.
-* **contactPersonIds:** A collection of ContactPersonId to remove from the static selection.
-
-
+**Parameters:**
+ - **selectionId** The id of the selection where to members will be removed.
+ - **contactPersonIds** A collection of ContactPersonId to remove from the static selection.

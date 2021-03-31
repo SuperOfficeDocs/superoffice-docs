@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSCRMScriptAgent_GetCRMScriptByUniqueIdentifier_String_p_0
-description: NSCRMScriptAgent.GetCRMScriptByUniqueIdentifier(String p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptAgent_GetCRMScriptByUniqueIdentifier
+description: Script GetCRMScriptByUniqueIdentifier(String uniqueIdentifier)
 intellisense: NSCRMScriptAgent.GetCRMScriptByUniqueIdentifier
-sortOrder: 2119
-keywords: GetCRMScriptByUniqueIdentifier(String)
+keywords: NSCRMScriptAgent,GetCRMScriptByUniqueIdentifier
 so.topic: reference
 ---
 
-
 Get information about a script from a unique identifier
 
+**Parameters:**
+ - **uniqueIdentifier** Global unique reference to script (independent of installation)
 
+**Returns:** Information about CRMScript
 
-* **uniqueIdentifier:** Global unique reference to script (independent of installation)
-* **Returns:** Information about CRMScript
-
+```crmscript
+NSCRMScriptAgent agent;
+String uniqueIdentifier;
+Script res = agent.GetCRMScriptByUniqueIdentifier(uniqueIdentifier);
+```
 

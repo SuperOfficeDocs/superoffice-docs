@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetSelectionCategory_NSSelectionCategory_p_0
-description: NSSelectionEntity.SetSelectionCategory(NSSelectionCategory p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetSelectionCategory
+description: NSSelectionEntity.SetSelectionCategory(SelectionCategory selectionCategory)
 intellisense: NSSelectionEntity.SetSelectionCategory
-keywords: SetSelectionCategory(NSSelectionCategory)
+keywords: NSSelectionEntity, GetSelectionCategory
 so.topic: reference
 ---
 
-
 Selection category type (list item)
 
-
-
-* **SelectionCategory:** SelectionCategory
-* **Returns:** SelectionCategory
-
+**Parameter:** 
+ - **selectionCategory** SelectionCategory
 

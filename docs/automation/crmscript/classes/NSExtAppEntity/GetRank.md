@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSExtAppEntity_GetRank
-description: NSExtAppEntity.GetRank()
+description: Integer NSExtAppEntity.GetRank()
 intellisense: NSExtAppEntity.GetRank
-sortOrder: 3369
-keywords: GetRank()
+keywords: NSExtAppEntity, GetRank
 so.topic: reference
 ---
 
-
 The rank of the application
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,21 +1,27 @@
----
-title: crmscript_ref_NSBulkUpdateAgent_ExecuteByEntityIds_NSFieldValueInfo__p_0_String_p_1_String_p_2_String_p_3
-description: NSBulkUpdateAgent.ExecuteByEntityIds(NSFieldValueInfo[] p_0, String p_1, String p_2, String p_3)
+﻿---
+title: crmscript_ref_NSBulkUpdateAgent_ExecuteByEntityIds
+description: Integer ExecuteByEntityIds(FieldValueInfoArray fieldValueInfos, String tableName, String context, String ids)
 intellisense: NSBulkUpdateAgent.ExecuteByEntityIds
-sortOrder: 1469
-keywords: ExecuteByEntityIds(NSFieldValueInfo[],String,String,String)
+keywords: NSBulkUpdateAgent,ExecuteByEntityIds
 so.topic: reference
 ---
 
-
 Do the batchupdate on selected
 
+**Parameters:**
+ - **fieldValueInfos** The name of the wanted tablename
+ - **tableName** The name of the table to bulk update
+ - **context** Where is the function called from
+ - **ids** Comma separated string of the ids of the entities to update
 
+**Returns:** Return batchtaskinfoid
 
-* **fieldValueInfos:** The name of the wanted tablename
-* **tableName:** The name of the table to bulk update
-* **context:** Where is the function called from
-* **ids:** Comma separated string of the ids of the entities to update
-* **Returns:** Return batchtaskinfoid
-
+```crmscript
+NSBulkUpdateAgent agent;
+FieldValueInfoArray fieldValueInfos;
+String tableName;
+String context;
+String ids;
+Integer res = agent.ExecuteByEntityIds(fieldValueInfos, tableName, context, ids);
+```
 

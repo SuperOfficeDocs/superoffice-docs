@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSMDOListItem_GetChildItems
-description: NSMDOListItem.GetChildItems()
+description: MDOListItemArray NSMDOListItem.GetChildItems()
 intellisense: NSMDOListItem.GetChildItems
-keywords: GetChildItems()
+keywords: NSMDOListItem, GetChildItems
 so.topic: reference
 ---
 
-
 The child items of the MDOListItem
 
-
-
-* **Returns:** MDOListItemArray
+**Returns:** MDOListItemArray
 
 

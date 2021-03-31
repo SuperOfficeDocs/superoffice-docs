@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSPosition_GetValue
-description: NSPosition.GetValue()
+description: String NSPosition.GetValue()
 intellisense: NSPosition.GetValue
-keywords: GetValue()
+keywords: NSPosition, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

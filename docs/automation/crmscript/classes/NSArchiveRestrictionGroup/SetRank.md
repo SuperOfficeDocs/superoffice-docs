@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveRestrictionGroup_SetRank_Integer_p_0
-description: NSArchiveRestrictionGroup.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSArchiveRestrictionGroup_SetRank
+description: NSArchiveRestrictionGroup.SetRank(Integer rank)
 intellisense: NSArchiveRestrictionGroup.SetRank
-sortOrder: 1208
-keywords: SetRank(Integer)
+keywords: NSArchiveRestrictionGroup, GetRank
 so.topic: reference
 ---
 
-
 Rank order within this CriteriaModel
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

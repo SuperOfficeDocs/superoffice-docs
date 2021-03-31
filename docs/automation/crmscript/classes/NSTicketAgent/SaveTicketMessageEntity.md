@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSTicketAgent_SaveTicketMessageEntity_NSTicketMessageEntity_p_0
-description: NSTicketAgent.SaveTicketMessageEntity(NSTicketMessageEntity p_0)
+﻿---
+title: crmscript_ref_NSTicketAgent_SaveTicketMessageEntity
+description: NSTicketMessageEntity SaveTicketMessageEntity(NSTicketMessageEntity ticketMessageEntity);
 intellisense: NSTicketAgent.SaveTicketMessageEntity
-keywords: SaveTicketMessageEntity(NSTicketMessageEntity)
+keywords: NSTicketAgent,SaveTicketMessageEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSTicketMessageEntity or creates a new NSTicketMessageEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **ticketMessageEntity** The NSTicketMessageEntity to save.
 
+**Returns:** New or updated NSTicketMessageEntity
 
-Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is empty
-
-
-
-* **ticketMessageEntity:** The TicketMessageEntity that is saved
-* **Returns:** New or updated TicketMessageEntity
-
+```crmscript
+NSTicket  agent;
+NSTicketMessageEntity thing = agent.CreateDefaultTicketMessageEntity();
+thing = agent.SaveTicketMessageEntity(thing);
+```
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteLineConfiguration_GetRank
-description: NSQuoteLineConfiguration.GetRank()
+description: Integer NSQuoteLineConfiguration.GetRank()
 intellisense: NSQuoteLineConfiguration.GetRank
-keywords: GetRank()
+keywords: NSQuoteLineConfiguration, GetRank
 so.topic: reference
 ---
 
-
 Rank of the field
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

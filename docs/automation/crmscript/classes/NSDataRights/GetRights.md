@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDataRights_GetRights
-description: NSDataRights.GetRights()
+description: DataRightArrayArray NSDataRights.GetRights()
 intellisense: NSDataRights.GetRights
-sortOrder: 2350
-keywords: GetRights()
+keywords: NSDataRights, GetRights
 so.topic: reference
 ---
 
 
-* **Returns:** DataRightArrayArray
+
+**Returns:** DataRightArrayArray
 
 

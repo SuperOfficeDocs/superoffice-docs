@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAddressSyncData_SetLatitude_Float_p_0
-description: NSAddressSyncData.SetLatitude(Float p_0)
+﻿---
+title: crmscript_ref_NSAddressSyncData_SetLatitude
+description: NSAddressSyncData.SetLatitude(Float latitude)
 intellisense: NSAddressSyncData.SetLatitude
-sortOrder: 637
-keywords: SetLatitude(Float)
+keywords: NSAddressSyncData, GetLatitude
 so.topic: reference
 ---
 
 
-* **Latitude:** Float
-* **Returns:** Float
 
+**Parameter:** 
+ - **latitude** Float
 

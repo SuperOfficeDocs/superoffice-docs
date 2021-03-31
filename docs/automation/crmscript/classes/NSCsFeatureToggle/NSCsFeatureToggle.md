@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCsFeatureToggle
 description: NSCsFeatureToggle
 intellisense: Void.NSCsFeatureToggle
-sortOrder: 2155
+keywords: NSCsFeatureToggle
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

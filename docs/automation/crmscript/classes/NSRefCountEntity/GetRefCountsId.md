@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSRefCountEntity_GetRefCountsId
-description: NSRefCountEntity.GetRefCountsId()
+description: Integer NSRefCountEntity.GetRefCountsId()
 intellisense: NSRefCountEntity.GetRefCountsId
-keywords: GetRefCountsId()
+keywords: NSRefCountEntity, GetRefCountsId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

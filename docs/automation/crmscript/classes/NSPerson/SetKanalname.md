@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetKanalname_String_p_0
-description: NSPerson.SetKanalname(String p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetKanalname
+description: NSPerson.SetKanalname(String kanalname)
 intellisense: NSPerson.SetKanalname
-keywords: SetKanalname(String)
+keywords: NSPerson, GetKanalname
 so.topic: reference
 ---
 
-
 Kana last name, used in Japanese versions only
 
-
-
-* **Kanalname:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **kanalname** String
 

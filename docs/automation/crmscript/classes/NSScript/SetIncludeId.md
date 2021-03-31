@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSScript_SetIncludeId_String_p_0
-description: NSScript.SetIncludeId(String p_0)
+﻿---
+title: crmscript_ref_NSScript_SetIncludeId
+description: NSScript.SetIncludeId(String includeId)
 intellisense: NSScript.SetIncludeId
-keywords: SetIncludeId(String)
+keywords: NSScript, GetIncludeId
 so.topic: reference
 ---
 
-
 A unique name used for including this script in another
 
-
-
-* **IncludeId:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **includeId** String
 

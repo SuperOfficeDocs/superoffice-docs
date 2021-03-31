@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoTimeSpan_SetDefaultValue_Integer_p_0
-description: NSFieldInfoTimeSpan.SetDefaultValue(Integer p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoTimeSpan_SetDefaultValue
+description: NSFieldInfoTimeSpan.SetDefaultValue(Integer defaultValue)
 intellisense: NSFieldInfoTimeSpan.SetDefaultValue
-sortOrder: 3569
-keywords: SetDefaultValue(Integer)
+keywords: NSFieldInfoTimeSpan, GetDefaultValue
 so.topic: reference
 ---
 
-
 Default Timespan value - number of minutes.
 
-
-
-* **DefaultValue:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **defaultValue** Integer
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTimeZoneRule_GetEndDay
-description: NSTimeZoneRule.GetEndDay()
+description: Integer NSTimeZoneRule.GetEndDay()
 intellisense: NSTimeZoneRule.GetEndDay
-keywords: GetEndDay()
+keywords: NSTimeZoneRule, GetEndDay
 so.topic: reference
 ---
 
-
 Custom DST end day, if 0 then parse startRule
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSatellite_SetCreatedBy_NSAssociate_p_0
-description: NSSatellite.SetCreatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSSatellite_SetCreatedBy
+description: NSSatellite.SetCreatedBy(Associate createdBy)
 intellisense: NSSatellite.SetCreatedBy
-keywords: SetCreatedBy(NSAssociate)
+keywords: NSSatellite, GetCreatedBy
 so.topic: reference
 ---
 
 
-* **CreatedBy:** Associate
-* **Returns:** Associate
 
+**Parameter:** 
+ - **createdBy** Associate
 

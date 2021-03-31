@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAlarmData_SetAppointmentId_Integer_p_0
-description: NSAlarmData.SetAppointmentId(Integer p_0)
+﻿---
+title: crmscript_ref_NSAlarmData_SetAppointmentId
+description: NSAlarmData.SetAppointmentId(Integer appointmentId)
 intellisense: NSAlarmData.SetAppointmentId
-sortOrder: 669
-keywords: SetAppointmentId(Integer)
+keywords: NSAlarmData, GetAppointmentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **AppointmentId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **appointmentId** Integer
 

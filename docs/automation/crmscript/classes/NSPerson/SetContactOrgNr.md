@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetContactOrgNr_String_p_0
-description: NSPerson.SetContactOrgNr(String p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetContactOrgNr
+description: NSPerson.SetContactOrgNr(String contactOrgNr)
 intellisense: NSPerson.SetContactOrgNr
-keywords: SetContactOrgNr(String)
+keywords: NSPerson, GetContactOrgNr
 so.topic: reference
 ---
 
-
 The persons contact organization number
 
-
-
-* **ContactOrgNr:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactOrgNr** String
 

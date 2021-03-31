@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelWidth_Integer_p_0
-description: NSUserDefinedFieldInfo.SetLabelWidth(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelWidth
+description: NSUserDefinedFieldInfo.SetLabelWidth(Integer labelWidth)
 intellisense: NSUserDefinedFieldInfo.SetLabelWidth
-keywords: SetLabelWidth(Integer)
+keywords: NSUserDefinedFieldInfo, GetLabelWidth
 so.topic: reference
 ---
 
-
 label width in pixels, 0 = 'enough' (from font)
 
-
-
-* **LabelWidth:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **labelWidth** Integer
 

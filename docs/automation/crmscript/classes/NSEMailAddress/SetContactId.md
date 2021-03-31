@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAddress_SetContactId_Integer_p_0
-description: NSEMailAddress.SetContactId(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailAddress_SetContactId
+description: NSEMailAddress.SetContactId(Integer contactId)
 intellisense: NSEMailAddress.SetContactId
-sortOrder: 2773
-keywords: SetContactId(Integer)
+keywords: NSEMailAddress, GetContactId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **contactId** Integer
 

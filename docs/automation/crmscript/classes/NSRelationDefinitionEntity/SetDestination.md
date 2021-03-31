@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSRelationDefinitionEntity_SetDestination_Integer_p_0
-description: NSRelationDefinitionEntity.SetDestination(Integer p_0)
+﻿---
+title: crmscript_ref_NSRelationDefinitionEntity_SetDestination
+description: NSRelationDefinitionEntity.SetDestination(Integer destination)
 intellisense: NSRelationDefinitionEntity.SetDestination
-keywords: SetDestination(Integer)
+keywords: NSRelationDefinitionEntity, GetDestination
 so.topic: reference
 ---
 
-
 The destination of the relation
 
-
-
-* **Destination:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **destination** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Contact 
+     - Enum: 2 = Person 
+     - Enum: 3 = Both 
 

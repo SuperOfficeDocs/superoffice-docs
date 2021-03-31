@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSAudienceAgent_DeleteAudienceLayoutEntity_Integer_p_0
-description: NSAudienceAgent.DeleteAudienceLayoutEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSAudienceAgent_DeleteAudienceLayoutEntity
+description: DeleteAudienceLayoutEntity(Integer audienceLayoutEntity);
 intellisense: NSAudienceAgent.DeleteAudienceLayoutEntity
-sortOrder: 1310
-keywords: DeleteAudienceLayoutEntity(Integer)
+keywords: NSAudienceAgent,DeleteAudienceLayoutEntity
 so.topic: reference
 ---
 
+Deletes the NSAudienceLayoutEntity
+  
+**Parameters:**
+ - **audienceLayoutEntityId** The identity of the AudienceLayoutEntity to delete.
 
-Deletes the AudienceLayoutEntity
-
-
-
-* **audienceLayoutEntityId:** The identity of the AudienceLayoutEntity
-
+```crmscript
+NSAudienceAgent agent;
+agent.DeleteAudienceLayoutEntity(123);
+```
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAttachment_SetStream_NSStream_p_0
-description: NSEMailAttachment.SetStream(NSStream p_0)
+﻿---
+title: crmscript_ref_NSEMailAttachment_SetStream
+description: NSEMailAttachment.SetStream(Stream stream)
 intellisense: NSEMailAttachment.SetStream
-sortOrder: 2906
-keywords: SetStream(NSStream)
+keywords: NSEMailAttachment, GetStream
 so.topic: reference
 ---
 
-
 Binary stream for outgoing attachments. This property will not be populated for existing e-mail items.
 
-
-
-* **Stream:** Stream
-* **Returns:** Stream
-
+**Parameter:** 
+ - **stream** Stream
 

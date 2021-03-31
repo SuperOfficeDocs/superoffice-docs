@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetFromAddress_String_p_0
-description: NSTicket.SetFromAddress(String p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetFromAddress
+description: NSTicket.SetFromAddress(String fromAddress)
 intellisense: NSTicket.SetFromAddress
-keywords: SetFromAddress(String)
+keywords: NSTicket, GetFromAddress
 so.topic: reference
 ---
 
-
 The from-address used when this ticket got created, e.g. by email
 
-
-
-* **FromAddress:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fromAddress** String
 

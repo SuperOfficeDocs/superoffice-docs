@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetContactId_Integer_p_0
-description: NSSale.SetContactId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSale_SetContactId
+description: NSSale.SetContactId(Integer contactId)
 intellisense: NSSale.SetContactId
-keywords: SetContactId(Integer)
+keywords: NSSale, GetContactId
 so.topic: reference
 ---
 
-
 Optional contact reference
 
-
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **contactId** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetCountryId_Integer_p_0
-description: NSProjectMember.SetCountryId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetCountryId
+description: NSProjectMember.SetCountryId(Integer countryId)
 intellisense: NSProjectMember.SetCountryId
-keywords: SetCountryId(Integer)
+keywords: NSProjectMember, GetCountryId
 so.topic: reference
 ---
 
-
 Country
 
-
-
-* **CountryId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **countryId** Integer
 

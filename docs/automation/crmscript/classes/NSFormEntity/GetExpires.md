@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetExpires
-description: NSFormEntity.GetExpires()
+description: DateTime NSFormEntity.GetExpires()
 intellisense: NSFormEntity.GetExpires
-sortOrder: 3786
-keywords: GetExpires()
+keywords: NSFormEntity, GetExpires
 so.topic: reference
 ---
 
-
 After this datetime, the form will become inactive
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

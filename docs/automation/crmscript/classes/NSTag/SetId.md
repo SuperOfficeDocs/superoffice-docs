@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTag_SetId_Integer_p_0
-description: NSTag.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTag_SetId
+description: NSTag.SetId(Integer id)
 intellisense: NSTag.SetId
-keywords: SetId(Integer)
+keywords: NSTag, GetId
 so.topic: reference
 ---
 
-
 The Id of the ListItem
 
-
-
-* **Id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetPhones_NSEntityElement__p_0
-description: NSContactEntity.SetPhones(NSEntityElement[] p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetPhones
+description: NSContactEntity.SetPhones(EntityElementArray phones)
 intellisense: NSContactEntity.SetPhones
-sortOrder: 1908
-keywords: SetPhones(NSEntityElement[])
+keywords: NSContactEntity, GetPhones
 so.topic: reference
 ---
 
-
 The contact's phone numbers
 
-
-
-* **Phones:** EntityElementArray
-* **Returns:** EntityElementArray
-
+**Parameter:** 
+ - **phones** EntityElementArray
 

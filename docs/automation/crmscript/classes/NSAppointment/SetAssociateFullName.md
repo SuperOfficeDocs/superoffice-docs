@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetAssociateFullName_String_p_0
-description: NSAppointment.SetAssociateFullName(String p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetAssociateFullName
+description: NSAppointment.SetAssociateFullName(String associateFullName)
 intellisense: NSAppointment.SetAssociateFullName
-sortOrder: 775
-keywords: SetAssociateFullName(String)
+keywords: NSAppointment, GetAssociateFullName
 so.topic: reference
 ---
 
-
 The owner of the appointment - the associate whose diary/checklist the appointment is in.
 
-
-
-* **AssociateFullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **associateFullName** String
 

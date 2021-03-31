@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSControlInfo_SetListLeadText_String_p_0
-description: NSControlInfo.SetListLeadText(String p_0)
+﻿---
+title: crmscript_ref_NSControlInfo_SetListLeadText
+description: NSControlInfo.SetListLeadText(String listLeadText)
 intellisense: NSControlInfo.SetListLeadText
-sortOrder: 2005
-keywords: SetListLeadText(String)
+keywords: NSControlInfo, GetListLeadText
 so.topic: reference
 ---
 
 
-* **ListLeadText:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **listLeadText** String
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectTypeEntity_GetHasGuide
-description: NSProjectTypeEntity.GetHasGuide()
+description: Bool NSProjectTypeEntity.GetHasGuide()
 intellisense: NSProjectTypeEntity.GetHasGuide
-keywords: GetHasGuide()
+keywords: NSProjectTypeEntity, GetHasGuide
 so.topic: reference
 ---
 
-
 Does this project type have a guide attached
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

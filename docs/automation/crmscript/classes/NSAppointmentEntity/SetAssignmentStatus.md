@@ -1,22 +1,18 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetAssignmentStatus_Integer_p_0
-description: NSAppointmentEntity.SetAssignmentStatus(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetAssignmentStatus
+description: NSAppointmentEntity.SetAssignmentStatus(Integer assignmentStatus)
 intellisense: NSAppointmentEntity.SetAssignmentStatus
-sortOrder: 986
-keywords: SetAssignmentStatus(Integer)
+keywords: NSAppointmentEntity, GetAssignmentStatus
 so.topic: reference
 ---
 
-
 Status if this appointment is in the process of being assigned to someone else
 
-* Unknown= 0
-* None=1
-* Assigning=11
-* Seen=12
-* Declined=13
-
-* **AssignmentStatus:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **assignmentStatus** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = None 
+     - Enum: 11 = Assigning 
+     - Enum: 12 = Seen 
+     - Enum: 13 = Declined 
 

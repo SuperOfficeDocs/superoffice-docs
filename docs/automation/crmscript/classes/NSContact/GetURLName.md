@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContact_GetURLName
-description: NSContact.GetURLName()
+description: String NSContact.GetURLName()
 intellisense: NSContact.GetURLName
-sortOrder: 1740
-keywords: GetURLName()
+keywords: NSContact, GetURLName
 so.topic: reference
 ---
 
-
 Visible field
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

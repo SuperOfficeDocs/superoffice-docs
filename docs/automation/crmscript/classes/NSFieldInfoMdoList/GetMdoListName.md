@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoMdoList_GetMdoListName
-description: NSFieldInfoMdoList.GetMdoListName()
+description: String NSFieldInfoMdoList.GetMdoListName()
 intellisense: NSFieldInfoMdoList.GetMdoListName
-sortOrder: 3532
-keywords: GetMdoListName()
+keywords: NSFieldInfoMdoList, GetMdoListName
 so.topic: reference
 ---
 
-
 MDO list name used to populate this list. (Read-only)
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

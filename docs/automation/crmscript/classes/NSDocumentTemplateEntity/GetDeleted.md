@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocumentTemplateEntity_GetDeleted
-description: NSDocumentTemplateEntity.GetDeleted()
+description: Bool NSDocumentTemplateEntity.GetDeleted()
 intellisense: NSDocumentTemplateEntity.GetDeleted
-sortOrder: 2650
-keywords: GetDeleted()
+keywords: NSDocumentTemplateEntity, GetDeleted
 so.topic: reference
 ---
 
-
 True if deleted
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

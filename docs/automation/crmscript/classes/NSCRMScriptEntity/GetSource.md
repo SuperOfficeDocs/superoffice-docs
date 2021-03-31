@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCRMScriptEntity_GetSource
-description: NSCRMScriptEntity.GetSource()
+description: String NSCRMScriptEntity.GetSource()
 intellisense: NSCRMScriptEntity.GetSource
-sortOrder: 2136
-keywords: GetSource()
+keywords: NSCRMScriptEntity, GetSource
 so.topic: reference
 ---
 
-
 The script
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

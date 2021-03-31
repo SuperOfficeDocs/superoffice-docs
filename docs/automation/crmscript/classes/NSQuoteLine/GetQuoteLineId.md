@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteLine_GetQuoteLineId
-description: NSQuoteLine.GetQuoteLineId()
+description: Integer NSQuoteLine.GetQuoteLineId()
 intellisense: NSQuoteLine.GetQuoteLineId
-keywords: GetQuoteLineId()
+keywords: NSQuoteLine, GetQuoteLineId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionWorkflowState_SetStatus_NSQuoteVersionStatusInformation_p_0
-description: NSQuoteVersionWorkflowState.SetStatus(NSQuoteVersionStatusInformation p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionWorkflowState_SetStatus
+description: NSQuoteVersionWorkflowState.SetStatus(QuoteVersionStatusInformation status)
 intellisense: NSQuoteVersionWorkflowState.SetStatus
-keywords: SetStatus(NSQuoteVersionStatusInformation)
+keywords: NSQuoteVersionWorkflowState, GetStatus
 so.topic: reference
 ---
 
-
 Status information for the Quote Version.
 
-
-
-* **Status:** QuoteVersionStatusInformation
-* **Returns:** QuoteVersionStatusInformation
-
+**Parameter:** 
+ - **status** QuoteVersionStatusInformation
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescription_SetSection_String_p_0
-description: NSPreferenceDescription.SetSection(String p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescription_SetSection
+description: NSPreferenceDescription.SetSection(String section)
 intellisense: NSPreferenceDescription.SetSection
-keywords: SetSection(String)
+keywords: NSPreferenceDescription, GetSection
 so.topic: reference
 ---
 
-
 Preference section name
 
-
-
-* **Section:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **section** String
 

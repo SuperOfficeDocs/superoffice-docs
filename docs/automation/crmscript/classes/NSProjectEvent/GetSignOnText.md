@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectEvent_GetSignOnText
-description: NSProjectEvent.GetSignOnText()
+description: String NSProjectEvent.GetSignOnText()
 intellisense: NSProjectEvent.GetSignOnText
-keywords: GetSignOnText()
+keywords: NSProjectEvent, GetSignOnText
 so.topic: reference
 ---
 
-
 Default text for the activity created when signing on.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

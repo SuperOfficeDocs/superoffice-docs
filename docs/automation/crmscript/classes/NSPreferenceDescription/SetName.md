@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescription_SetName_String_p_0
-description: NSPreferenceDescription.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescription_SetName
+description: NSPreferenceDescription.SetName(String name)
 intellisense: NSPreferenceDescription.SetName
-keywords: SetName(String)
+keywords: NSPreferenceDescription, GetName
 so.topic: reference
 ---
 
-
 Multi-language name
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

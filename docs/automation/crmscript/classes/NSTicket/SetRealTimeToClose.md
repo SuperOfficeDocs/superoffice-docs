@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetRealTimeToClose_Integer_p_0
-description: NSTicket.SetRealTimeToClose(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetRealTimeToClose
+description: NSTicket.SetRealTimeToClose(Integer realTimeToClose)
 intellisense: NSTicket.SetRealTimeToClose
-keywords: SetRealTimeToClose(Integer)
+keywords: NSTicket, GetRealTimeToClose
 so.topic: reference
 ---
 
+Same as time_to_close, but not calculated based on priority.
 
-Same as time\_to_close, but not calculated based on priority.
-
-
-
-* **RealTimeToClose:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **realTimeToClose** Integer
 

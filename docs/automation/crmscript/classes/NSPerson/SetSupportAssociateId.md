@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPerson_SetSupportAssociateId_Integer_p_0
-description: NSPerson.SetSupportAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPerson_SetSupportAssociateId
+description: NSPerson.SetSupportAssociateId(Integer supportAssociateId)
 intellisense: NSPerson.SetSupportAssociateId
-keywords: SetSupportAssociateId(Integer)
+keywords: NSPerson, GetSupportAssociateId
 so.topic: reference
 ---
 
-
 Our support contact for this person
 
-
-
-* **SupportAssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **supportAssociateId** Integer
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetAssociateId_Integer_p_0
-description: NSBatchTaskInfo.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetAssociateId
+description: NSBatchTaskInfo.SetAssociateId(Integer associateId)
 intellisense: NSBatchTaskInfo.SetAssociateId
-sortOrder: 1385
-keywords: SetAssociateId(Integer)
+keywords: NSBatchTaskInfo, GetAssociateId
 so.topic: reference
 ---
 
+ Task owner. If it is a System task, AssociateId = 0.
 
-Task owner. If it is a System task, AssociateId = 0.
-
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuote_SetQuoteId_Integer_p_0
-description: NSQuote.SetQuoteId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuote_SetQuoteId
+description: NSQuote.SetQuoteId(Integer quoteId)
 intellisense: NSQuote.SetQuoteId
-keywords: SetQuoteId(Integer)
+keywords: NSQuote, GetQuoteId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **QuoteId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **quoteId** Integer
 

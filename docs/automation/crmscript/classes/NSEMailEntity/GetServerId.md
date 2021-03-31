@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetServerId
-description: NSEMailEntity.GetServerId()
+description: Integer NSEMailEntity.GetServerId()
 intellisense: NSEMailEntity.GetServerId
-sortOrder: 2955
-keywords: GetServerId()
+keywords: NSEMailEntity, GetServerId
 so.topic: reference
 ---
 
-
 Unique id for the e-mail on the server
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

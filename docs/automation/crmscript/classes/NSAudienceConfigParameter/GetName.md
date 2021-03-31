@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAudienceConfigParameter_GetName
-description: NSAudienceConfigParameter.GetName()
+description: String NSAudienceConfigParameter.GetName()
 intellisense: NSAudienceConfigParameter.GetName
-sortOrder: 1323
-keywords: GetName()
+keywords: NSAudienceConfigParameter, GetName
 so.topic: reference
 ---
 
-
 The name of the configuration parameter
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetTicketPriorityList_Integer__p_0
-description: NSListAgent.GetTicketPriorityList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetTicketPriorityList
+description: NSTicketPriority[] GetTicketPriorityList(Integer[]  ticketPriorityIds);
 intellisense: NSListAgent.GetTicketPriorityList
-keywords: GetTicketPriorityList(Integer[])
+keywords: NSListAgent,GetTicketPriorityList
 so.topic: reference
 ---
 
-Gets an array of TicketPriority objects.
+Gets a vector of TicketPriority objects.
 
+**Parameters:**
+ - **ticketPriorityIds** The identifiers of the NSTicketPriority objects
 
-* **p0:** IntegerArray of identifiers for TicketPriority
-* **Returns:** Array of NSTicketPriority
+**Returns:** Vector of NSTicketPriority objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetTicketPriorityList(ids);
+```
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebPanelEntity_GetWebPanelId
-description: NSWebPanelEntity.GetWebPanelId()
+description: Integer NSWebPanelEntity.GetWebPanelId()
 intellisense: NSWebPanelEntity.GetWebPanelId
-keywords: GetWebPanelId()
+keywords: NSWebPanelEntity, GetWebPanelId
 so.topic: reference
 ---
 
-
 The identity of the web panel
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSConfigurationAgent_DeleteSystemEventEntity_Integer_p_0
-description: NSConfigurationAgent.DeleteSystemEventEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSConfigurationAgent_DeleteSystemEventEntity
+description: DeleteSystemEventEntity(Integer systemEventEntity);
 intellisense: NSConfigurationAgent.DeleteSystemEventEntity
-sortOrder: 1623
-keywords: DeleteSystemEventEntity(Integer)
+keywords: NSConfigurationAgent,DeleteSystemEventEntity
 so.topic: reference
 ---
 
+Deletes the NSSystemEventEntity
+  
+**Parameters:**
+ - **systemEventEntityId** The identity of the SystemEventEntity to delete.
 
-Deletes the SystemEventEntity
-
-
-
-* **systemEventEntityId:** The identity of the SystemEventEntity
-
+```crmscript
+NSConfigurationAgent agent;
+agent.DeleteSystemEventEntity(123);
+```
 

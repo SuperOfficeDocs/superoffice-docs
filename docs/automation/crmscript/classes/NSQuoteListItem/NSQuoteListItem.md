@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSQuoteListItem
 description: NSQuoteListItem
 intellisense: Void.NSQuoteListItem
+keywords: NSQuoteListItem
 so.topic: reference
 ---
 
-
 One line in a list
 
-
-
-
-1. autolist
+1. autolist 
 

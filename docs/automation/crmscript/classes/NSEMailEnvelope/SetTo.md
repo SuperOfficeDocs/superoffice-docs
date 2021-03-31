@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEnvelope_SetTo_NSEMailAddress__p_0
-description: NSEMailEnvelope.SetTo(NSEMailAddress[] p_0)
+﻿---
+title: crmscript_ref_NSEMailEnvelope_SetTo
+description: NSEMailEnvelope.SetTo(EMailAddressArray to)
 intellisense: NSEMailEnvelope.SetTo
-sortOrder: 3025
-keywords: SetTo(NSEMailAddress[])
+keywords: NSEMailEnvelope, GetTo
 so.topic: reference
 ---
 
-
 To recipients of e-mail
 
-
-
-* **To:** EMailAddressArray
-* **Returns:** EMailAddressArray
-
+**Parameter:** 
+ - **to** EMailAddressArray
 

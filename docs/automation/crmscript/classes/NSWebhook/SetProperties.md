@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebhook_SetProperties_NSStringObjectDictionary_p_0
-description: NSWebhook.SetProperties(NSStringObjectDictionary p_0)
+﻿---
+title: crmscript_ref_NSWebhook_SetProperties
+description: NSWebhook.SetProperties(StringObjectDictionary properties)
 intellisense: NSWebhook.SetProperties
-keywords: SetProperties(NSStringObjectDictionary)
+keywords: NSWebhook, GetProperties
 so.topic: reference
 ---
 
-
 Custom values to inject into JSON body of webhook call.
 
-
-
-* **Properties:** StringObjectDictionary
-* **Returns:** StringObjectDictionary
-
+**Parameter:** 
+ - **properties** StringObjectDictionary
 

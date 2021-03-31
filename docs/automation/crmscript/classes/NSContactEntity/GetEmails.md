@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetEmails
-description: NSContactEntity.GetEmails()
+description: EntityElementArray NSContactEntity.GetEmails()
 intellisense: NSContactEntity.GetEmails
-sortOrder: 1858
-keywords: GetEmails()
+keywords: NSContactEntity, GetEmails
 so.topic: reference
 ---
 
-
 The contact's email
 
-
-
-* **Returns:** EntityElementArray
+**Returns:** EntityElementArray
 
 

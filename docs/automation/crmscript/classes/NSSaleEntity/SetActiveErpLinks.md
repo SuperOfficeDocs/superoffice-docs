@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetActiveErpLinks_Integer_p_0
-description: NSSaleEntity.SetActiveErpLinks(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetActiveErpLinks
+description: NSSaleEntity.SetActiveErpLinks(Integer activeErpLinks)
 intellisense: NSSaleEntity.SetActiveErpLinks
-keywords: SetActiveErpLinks(Integer)
+keywords: NSSaleEntity, GetActiveErpLinks
 so.topic: reference
 ---
 
-
 The number of active erp links
 
-
-
-* **ActiveErpLinks:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **activeErpLinks** Integer
 

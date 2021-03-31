@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveTicketPriorityEntity_NSTicketPriorityEntity_p_0
-description: NSListAgent.SaveTicketPriorityEntity(NSTicketPriorityEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveTicketPriorityEntity
+description: NSTicketPriorityEntity SaveTicketPriorityEntity(NSTicketPriorityEntity ticketPriorityEntity);
 intellisense: NSListAgent.SaveTicketPriorityEntity
-keywords: SaveTicketPriorityEntity(NSTicketPriorityEntity)
+keywords: NSListAgent,SaveTicketPriorityEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSTicketPriorityEntity or creates a new NSTicketPriorityEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **ticketPriorityEntity** The NSTicketPriorityEntity to save.
 
+**Returns:** New or updated NSTicketPriorityEntity
 
-Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity if the id parameter is empty
-
-
-
-* **ticketPriorityEntity:** The TicketPriorityEntity that is saved
-* **Returns:** New or updated TicketPriorityEntity
-
+```crmscript
+NSList  agent;
+NSTicketPriorityEntity thing = agent.CreateDefaultTicketPriorityEntity();
+thing = agent.SaveTicketPriorityEntity(thing);
+```
 

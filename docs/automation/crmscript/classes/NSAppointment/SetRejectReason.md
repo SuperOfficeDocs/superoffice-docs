@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetRejectReason_String_p_0
-description: NSAppointment.SetRejectReason(String p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetRejectReason
+description: NSAppointment.SetRejectReason(String rejectReason)
 intellisense: NSAppointment.SetRejectReason
-sortOrder: 814
-keywords: SetRejectReason(String)
+keywords: NSAppointment, GetRejectReason
 so.topic: reference
 ---
 
-
 Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here
 
-
-
-* **RejectReason:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **rejectReason** String
 

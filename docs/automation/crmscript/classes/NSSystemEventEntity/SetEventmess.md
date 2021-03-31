@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSystemEventEntity_SetEventmess_String_p_0
-description: NSSystemEventEntity.SetEventmess(String p_0)
+﻿---
+title: crmscript_ref_NSSystemEventEntity_SetEventmess
+description: NSSystemEventEntity.SetEventmess(String eventmess)
 intellisense: NSSystemEventEntity.SetEventmess
-keywords: SetEventmess(String)
+keywords: NSSystemEventEntity, GetEventmess
 so.topic: reference
 ---
 
-
 Message to be shown, entered by administrator
 
-
-
-* **Eventmess:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **eventmess** String
 

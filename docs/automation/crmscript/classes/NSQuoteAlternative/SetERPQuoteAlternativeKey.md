@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteAlternative_SetERPQuoteAlternativeKey_String_p_0
-description: NSQuoteAlternative.SetERPQuoteAlternativeKey(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteAlternative_SetERPQuoteAlternativeKey
+description: NSQuoteAlternative.SetERPQuoteAlternativeKey(String eRPQuoteAlternativeKey)
 intellisense: NSQuoteAlternative.SetERPQuoteAlternativeKey
-keywords: SetERPQuoteAlternativeKey(String)
+keywords: NSQuoteAlternative, GetERPQuoteAlternativeKey
 so.topic: reference
 ---
 
-
 Key that identifies this alternative in the ERP system, if it exists there.
 
-
-
-* **ERPQuoteAlternativeKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **eRPQuoteAlternativeKey** String
 

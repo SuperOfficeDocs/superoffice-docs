@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignKey_SetRecordId_Integer_p_0
-description: NSForeignKey.SetRecordId(Integer p_0)
+﻿---
+title: crmscript_ref_NSForeignKey_SetRecordId
+description: NSForeignKey.SetRecordId(Integer recordId)
 intellisense: NSForeignKey.SetRecordId
-sortOrder: 3745
-keywords: SetRecordId(Integer)
+keywords: NSForeignKey, GetRecordId
 so.topic: reference
 ---
 
-
 Record in the referenced table
 
-
-
-* **RecordId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **recordId** Integer
 

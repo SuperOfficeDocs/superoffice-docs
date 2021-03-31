@@ -1,0 +1,20 @@
+﻿---
+title: crmscript_ref_NSMarketingAgent_GetShipmentMessageBlockEntity
+description: NSShipmentMessageBlockEntity GetShipmentMessageBlockEntity(Integer shipmentMessageBlockEntityId);
+intellisense: NSMarketingAgent.GetShipmentMessageBlockEntity
+keywords: NSMarketingAgent,GetShipmentMessageBlockEntity
+so.topic: reference
+---
+
+Gets a NSShipmentMessageBlockEntity object.
+
+**Parameters:**
+ - **shipmentMessageBlockEntityId** The identifier of the NSShipmentMessageBlockEntity object
+
+**Returns:** NSShipmentMessageBlockEntity
+
+```crmscript
+NSMarketingAgent agent;
+NSShipmentMessageBlockEntity thing = agent.GetShipmentMessageBlockEntity(123);
+```
+

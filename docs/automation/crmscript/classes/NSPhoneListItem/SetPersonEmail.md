@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPhoneListItem_SetPersonEmail_String_p_0
-description: NSPhoneListItem.SetPersonEmail(String p_0)
+﻿---
+title: crmscript_ref_NSPhoneListItem_SetPersonEmail
+description: NSPhoneListItem.SetPersonEmail(String personEmail)
 intellisense: NSPhoneListItem.SetPersonEmail
-keywords: SetPersonEmail(String)
+keywords: NSPhoneListItem, GetPersonEmail
 so.topic: reference
 ---
 
-
 The address itself
 
-
-
-* **PersonEmail:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personEmail** String
 

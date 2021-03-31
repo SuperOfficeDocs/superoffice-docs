@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSBlobEntity
 description: NSBlobEntity
 intellisense: Void.NSBlobEntity
-sortOrder: 1438
+keywords: NSBlobEntity
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSSaintAgent_GetStatusMonitorPeriods
-description: NSSaintAgent.GetStatusMonitorPeriods()
+description: StatusMonitorPeriods GetStatusMonitorPeriods()
 intellisense: NSSaintAgent.GetStatusMonitorPeriods
-keywords: GetStatusMonitorPeriods()
+keywords: NSSaintAgent,GetStatusMonitorPeriods
 so.topic: reference
 ---
-
 
 Returns the StatusMonitorPeriods entity.
 
 
+**Returns:** The StatusMonitorEntity
 
-* **Returns:** The StatusMonitorEntity
-
+```crmscript
+NSSaintAgent agent;
+StatusMonitorPeriods res = agent.GetStatusMonitorPeriods();
+```
 

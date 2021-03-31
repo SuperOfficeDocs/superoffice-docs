@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentEntity_SetDate_DateTime_p_0
-description: NSDocumentEntity.SetDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetDate
+description: NSDocumentEntity.SetDate(DateTime date)
 intellisense: NSDocumentEntity.SetDate
-sortOrder: 2592
-keywords: SetDate(DateTime)
+keywords: NSDocumentEntity, GetDate
 so.topic: reference
 ---
 
-
 date + start time planned
 
-
-
-* **Date:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **date** DateTime
 

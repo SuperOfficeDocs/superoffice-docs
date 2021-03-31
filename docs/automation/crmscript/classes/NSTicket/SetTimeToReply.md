@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetTimeToReply_Integer_p_0
-description: NSTicket.SetTimeToReply(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetTimeToReply
+description: NSTicket.SetTimeToReply(Integer timeToReply)
 intellisense: NSTicket.SetTimeToReply
-keywords: SetTimeToReply(Integer)
+keywords: NSTicket, GetTimeToReply
 so.topic: reference
 ---
 
-
 The time (minutes) between when the ticket was created and when it was replied to. Calculated based on priority&apos;s timeframe.
 
-
-
-* **TimeToReply:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **timeToReply** Integer
 

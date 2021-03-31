@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummaryItem_SetAmount_Float_p_0
-description: NSSaleSummaryItem.SetAmount(Float p_0)
+﻿---
+title: crmscript_ref_NSSaleSummaryItem_SetAmount
+description: NSSaleSummaryItem.SetAmount(Float amount)
 intellisense: NSSaleSummaryItem.SetAmount
-keywords: SetAmount(Float)
+keywords: NSSaleSummaryItem, GetAmount
 so.topic: reference
 ---
 
-
 Total sale amount
 
-
-
-* **Amount:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **amount** Float
 

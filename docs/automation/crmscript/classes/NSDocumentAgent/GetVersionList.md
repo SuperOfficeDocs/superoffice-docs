@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSDocumentAgent_GetVersionList_Integer_p_0
-description: NSDocumentAgent.GetVersionList(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentAgent_GetVersionList
+description: VersionInfoArray GetVersionList(Integer documentId)
 intellisense: NSDocumentAgent.GetVersionList
-sortOrder: 2532
-keywords: GetVersionList(Integer)
+keywords: NSDocumentAgent,GetVersionList
 so.topic: reference
 ---
 
-
 Get a list of existing, committed  versions for a given document
 
+**Parameters:**
+ - **documentId** SuperOffice document Id
 
+**Returns:** Array of objects describing the existing, committed versions for this document
 
-* **documentId:** SuperOffice document Id
-* **Returns:** Array of objects describing the existing, committed versions for this document
-
+```crmscript
+NSDocumentAgent agent;
+Integer documentId;
+VersionInfoArray res = agent.GetVersionList(documentId);
+```
 

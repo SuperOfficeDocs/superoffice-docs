@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetPersons_NSPerson__p_0
-description: NSContactEntity.SetPersons(NSPerson[] p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetPersons
+description: NSContactEntity.SetPersons(PersonArray persons)
 intellisense: NSContactEntity.SetPersons
-sortOrder: 1907
-keywords: SetPersons(NSPerson[])
+keywords: NSContactEntity, GetPersons
 so.topic: reference
 ---
 
-
 The persons belonging to the contact.
 
-
-
-* **Persons:** PersonArray
-* **Returns:** PersonArray
-
+**Parameter:** 
+ - **persons** PersonArray
 

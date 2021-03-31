@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRefCountEntity_SetSatPrefix_Integer_p_0
-description: NSRefCountEntity.SetSatPrefix(Integer p_0)
+﻿---
+title: crmscript_ref_NSRefCountEntity_SetSatPrefix
+description: NSRefCountEntity.SetSatPrefix(Integer satPrefix)
 intellisense: NSRefCountEntity.SetSatPrefix
-keywords: SetSatPrefix(Integer)
+keywords: NSRefCountEntity, GetSatPrefix
 so.topic: reference
 ---
 
-
 size of prefix for Satellite use of this counter
 
-
-
-* **SatPrefix:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **satPrefix** Integer
 

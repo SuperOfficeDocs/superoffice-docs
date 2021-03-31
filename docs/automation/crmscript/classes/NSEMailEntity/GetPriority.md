@@ -1,22 +1,19 @@
----
+﻿---
 title: crmscript_ref_NSEMailEntity_GetPriority
-description: NSEMailEntity.GetPriority()
+description: Integer NSEMailEntity.GetPriority()
 intellisense: NSEMailEntity.GetPriority
-sortOrder: 2954
-keywords: GetPriority()
+keywords: NSEMailEntity, GetPriority
 so.topic: reference
 ---
 
-
 Importance of the e-mail
 
-* NoPriority=0
-* Highest=1
-* High=2
-* Normal=3
-* Low=4
-* Lowest=5
+**Returns:** Integer
 
-* **Returns:** Integer
-
+     - Enum: 0 = NoPriority 
+     - Enum: 1 = Highest 
+     - Enum: 2 = High 
+     - Enum: 3 = Normal 
+     - Enum: 4 = Low 
+     - Enum: 5 = Lowest 
 

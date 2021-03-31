@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteLineConfiguration_SetRank_Integer_p_0
-description: NSQuoteLineConfiguration.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteLineConfiguration_SetRank
+description: NSQuoteLineConfiguration.SetRank(Integer rank)
 intellisense: NSQuoteLineConfiguration.SetRank
-keywords: SetRank(Integer)
+keywords: NSQuoteLineConfiguration, GetRank
 so.topic: reference
 ---
 
-
 Rank of the field
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

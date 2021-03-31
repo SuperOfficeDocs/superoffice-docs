@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPreferenceDescriptionLine_GetDescription
-description: NSPreferenceDescriptionLine.GetDescription()
+description: String NSPreferenceDescriptionLine.GetDescription()
 intellisense: NSPreferenceDescriptionLine.GetDescription
-keywords: GetDescription()
+keywords: NSPreferenceDescriptionLine, GetDescription
 so.topic: reference
 ---
 
-
 Description of preference value, multi-language parsed
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

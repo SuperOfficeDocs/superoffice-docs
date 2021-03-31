@@ -1,19 +1,23 @@
----
-title: crmscript_ref_NSContactAgent_GetNameDepartmentDuplicates_String_p_0_String_p_1
-description: NSContactAgent.GetNameDepartmentDuplicates(String p_0, String p_1)
+﻿---
+title: crmscript_ref_NSContactAgent_GetNameDepartmentDuplicates
+description: DuplicateEntryArray GetNameDepartmentDuplicates(String name, String department)
 intellisense: NSContactAgent.GetNameDepartmentDuplicates
-sortOrder: 1818
-keywords: GetNameDepartmentDuplicates(String,String)
+keywords: NSContactAgent,GetNameDepartmentDuplicates
 so.topic: reference
 ---
 
-
 Get duplicates based on the contact name and department
 
+**Parameters:**
+ - **name** Name used for lookup
+ - **department** Department used for lookup (if any)
 
+**Returns:** Any records matching the specified name and department
 
-* **name:** Name used for lookup
-* **department:** Department used for lookup (if any)
-* **Returns:** Any records matching the specified name and department
-
+```crmscript
+NSContactAgent agent;
+String name;
+String department;
+DuplicateEntryArray res = agent.GetNameDepartmentDuplicates(name, department);
+```
 

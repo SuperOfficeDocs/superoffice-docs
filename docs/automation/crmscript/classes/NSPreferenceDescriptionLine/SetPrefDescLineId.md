@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPreferenceDescriptionLine_SetPrefDescLineId_Integer_p_0
-description: NSPreferenceDescriptionLine.SetPrefDescLineId(Integer p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescriptionLine_SetPrefDescLineId
+description: NSPreferenceDescriptionLine.SetPrefDescLineId(Integer prefDescLineId)
 intellisense: NSPreferenceDescriptionLine.SetPrefDescLineId
-keywords: SetPrefDescLineId(Integer)
+keywords: NSPreferenceDescriptionLine, GetPrefDescLineId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **PrefDescLineId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **prefDescLineId** Integer
 

@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetPublishTo
-description: NSSaleEntity.GetPublishTo()
+description: DateTime NSSaleEntity.GetPublishTo()
 intellisense: NSSaleEntity.GetPublishTo
-keywords: GetPublishTo()
+keywords: NSSaleEntity, GetPublishTo
 so.topic: reference
 ---
 
+Publish to date. After this date the event is no longer visible.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime.
 

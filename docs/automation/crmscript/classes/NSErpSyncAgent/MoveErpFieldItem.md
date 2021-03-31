@@ -1,20 +1,23 @@
----
-title: crmscript_ref_NSErpSyncAgent_MoveErpFieldItem_Integer_p_0_Integer_p_1_Integer_p_2_Integer_p_3
-description: NSErpSyncAgent.MoveErpFieldItem(Integer p_0, Integer p_1, Integer p_2, Integer p_3)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_MoveErpFieldItem
+description: Void MoveErpFieldItem(Integer erpFieldId, Integer direction, Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.MoveErpFieldItem
-sortOrder: 3223
-keywords: MoveErpFieldItem(Integer,Integer,Integer,Integer)
+keywords: NSErpSyncAgent,MoveErpFieldItem
 so.topic: reference
 ---
 
-
 Moves the rank of the erp field up or down
 
-
-
-* **erpFieldId:** The id of the erp field to move
-* **direction:** Positive value to increase rank, negative to decrease.
-* **erpConnectionId:** The id of the connection
-* **erpActorType:** The actor type for which we want to rank fields
-
-
+**Parameters:**
+ - **erpFieldId** The id of the erp field to move
+ - **direction** Positive value to increase rank, negative to decrease.
+ - **erpConnectionId** The id of the connection
+ - **erpActorType** The actor type for which we want to rank fields
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Customer 
+     - Enum: 2 = Supplier 
+     - Enum: 3 = Partner 
+     - Enum: 4 = Person 
+     - Enum: 5 = Project 
+     - Enum: 6 = Employee 
+     - Enum: 7 = Sale 

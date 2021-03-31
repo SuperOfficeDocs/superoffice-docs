@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleSummary_GetBaseCurrency
-description: NSSaleSummary.GetBaseCurrency()
+description: String NSSaleSummary.GetBaseCurrency()
 intellisense: NSSaleSummary.GetBaseCurrency
-keywords: GetBaseCurrency()
+keywords: NSSaleSummary, GetBaseCurrency
 so.topic: reference
 ---
 
-
 Default currency for the installation
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveCurrencyEntity_NSCurrencyEntity_p_0
-description: NSListAgent.SaveCurrencyEntity(NSCurrencyEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveCurrencyEntity
+description: NSCurrencyEntity SaveCurrencyEntity(NSCurrencyEntity currencyEntity);
 intellisense: NSListAgent.SaveCurrencyEntity
-keywords: SaveCurrencyEntity(NSCurrencyEntity)
+keywords: NSListAgent,SaveCurrencyEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSCurrencyEntity or creates a new NSCurrencyEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **currencyEntity** The NSCurrencyEntity to save.
 
+**Returns:** New or updated NSCurrencyEntity
 
-Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is empty
-
-
-
-* **currencyEntity:** The CurrencyEntity that is saved
-* **Returns:** New or updated CurrencyEntity
-
+```crmscript
+NSList  agent;
+NSCurrencyEntity thing = agent.CreateDefaultCurrencyEntity();
+thing = agent.SaveCurrencyEntity(thing);
+```
 

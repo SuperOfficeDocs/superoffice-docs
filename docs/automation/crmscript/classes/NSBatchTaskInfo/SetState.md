@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetState_Integer_p_0
-description: NSBatchTaskInfo.SetState(Integer p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetState
+description: NSBatchTaskInfo.SetState(Integer state)
 intellisense: NSBatchTaskInfo.SetState
-sortOrder: 1405
-keywords: SetState(Integer)
+keywords: NSBatchTaskInfo, GetState
 so.topic: reference
 ---
 
-
 BatchTaskState of the task.
 
-
-
-* **State:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **state** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = New 
+     - Enum: 2 = Aquired 
+     - Enum: 3 = Started 
+     - Enum: 4 = Succeeded 
+     - Enum: 5 = Failed 
+     - Enum: 6 = SucceededManualCleanup 
+     - Enum: 99999 = All 
 

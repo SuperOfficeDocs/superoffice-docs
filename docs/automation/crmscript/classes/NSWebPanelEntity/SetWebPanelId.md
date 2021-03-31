@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetWebPanelId_Integer_p_0
-description: NSWebPanelEntity.SetWebPanelId(Integer p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetWebPanelId
+description: NSWebPanelEntity.SetWebPanelId(Integer webPanelId)
 intellisense: NSWebPanelEntity.SetWebPanelId
-keywords: SetWebPanelId(Integer)
+keywords: NSWebPanelEntity, GetWebPanelId
 so.topic: reference
 ---
 
-
 The identity of the web panel
 
-
-
-* **WebPanelId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **webPanelId** Integer
 

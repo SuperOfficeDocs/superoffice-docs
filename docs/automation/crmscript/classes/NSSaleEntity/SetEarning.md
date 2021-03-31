@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetEarning_Float_p_0
-description: NSSaleEntity.SetEarning(Float p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetEarning
+description: NSSaleEntity.SetEarning(Float earning)
 intellisense: NSSaleEntity.SetEarning
-keywords: SetEarning(Float)
+keywords: NSSaleEntity, GetEarning
 so.topic: reference
 ---
 
-
 Earning on sale
 
-
-
-* **Earning:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **earning** Float
 

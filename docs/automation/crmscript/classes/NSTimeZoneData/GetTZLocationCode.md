@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTimeZoneData_GetTZLocationCode
-description: NSTimeZoneData.GetTZLocationCode()
+description: String NSTimeZoneData.GetTZLocationCode()
 intellisense: NSTimeZoneData.GetTZLocationCode
-keywords: GetTZLocationCode()
+keywords: NSTimeZoneData, GetTZLocationCode
 so.topic: reference
 ---
 
-
 Code associated with location
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

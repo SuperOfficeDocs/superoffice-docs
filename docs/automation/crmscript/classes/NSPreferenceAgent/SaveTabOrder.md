@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSPreferenceAgent_SaveTabOrder_NSTabOrder_p_0
-description: NSPreferenceAgent.SaveTabOrder(NSTabOrder p_0)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_SaveTabOrder
+description: Void SaveTabOrder(TabOrder tabOrder)
 intellisense: NSPreferenceAgent.SaveTabOrder
-keywords: SaveTabOrder(NSTabOrder)
+keywords: NSPreferenceAgent,SaveTabOrder
 so.topic: reference
 ---
 
-
 Saves the tab order. The order is saved pr. user.
 
+**Parameters:**
+ - **tabOrder** Name of the tab control
 
+**Returns:** This method has no return value
 
-* **tabOrder:** Name of the tab control
-* **Returns:** This method has no return value
-
+```crmscript
+NSPreferenceAgent agent;
+TabOrder tabOrder;
+Void res = agent.SaveTabOrder(tabOrder);
+```
 

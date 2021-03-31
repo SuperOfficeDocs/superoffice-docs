@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_SaveAmountClassEntity_NSAmountClassEntity_p_0
-description: NSListAgent.SaveAmountClassEntity(NSAmountClassEntity p_0)
+﻿---
+title: crmscript_ref_NSListAgent_SaveAmountClassEntity
+description: NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity amountClassEntity);
 intellisense: NSListAgent.SaveAmountClassEntity
-keywords: SaveAmountClassEntity(NSAmountClassEntity)
+keywords: NSListAgent,SaveAmountClassEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSAmountClassEntity or creates a new NSAmountClassEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **amountClassEntity** The NSAmountClassEntity to save.
 
+**Returns:** New or updated NSAmountClassEntity
 
-Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is empty
-
-
-
-* **amountClassEntity:** The AmountClassEntity that is saved
-* **Returns:** New or updated AmountClassEntity
-
+```crmscript
+NSList  agent;
+NSAmountClassEntity thing = agent.CreateDefaultAmountClassEntity();
+thing = agent.SaveAmountClassEntity(thing);
+```
 

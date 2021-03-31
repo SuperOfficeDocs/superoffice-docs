@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSArchiveRestrictionInfo_SetIsActive_Bool_p_0
-description: NSArchiveRestrictionInfo.SetIsActive(Bool p_0)
+﻿---
+title: crmscript_ref_NSArchiveRestrictionInfo_SetIsActive
+description: NSArchiveRestrictionInfo.SetIsActive(Bool isActive)
 intellisense: NSArchiveRestrictionInfo.SetIsActive
-sortOrder: 1230
-keywords: SetIsActive(Bool)
+keywords: NSArchiveRestrictionInfo, GetIsActive
 so.topic: reference
 ---
 
-
 Is this restriction active?  Inactive restrictions will not influence the generated query
 
-
-
-* **IsActive:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isActive** Bool
 

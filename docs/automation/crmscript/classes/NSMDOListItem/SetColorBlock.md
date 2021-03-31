@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMDOListItem_SetColorBlock_Integer_p_0
-description: NSMDOListItem.SetColorBlock(Integer p_0)
+﻿---
+title: crmscript_ref_NSMDOListItem_SetColorBlock
+description: NSMDOListItem.SetColorBlock(Integer colorBlock)
 intellisense: NSMDOListItem.SetColorBlock
-keywords: SetColorBlock(Integer)
+keywords: NSMDOListItem, GetColorBlock
 so.topic: reference
 ---
 
-
 The color indicator of the ListItem color block
 
-
-
-* **ColorBlock:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **colorBlock** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetUserInfo_NSUserInfo_p_0
-description: NSPersonEntity.SetUserInfo(NSUserInfo p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetUserInfo
+description: NSPersonEntity.SetUserInfo(UserInfo userInfo)
 intellisense: NSPersonEntity.SetUserInfo
-keywords: SetUserInfo(NSUserInfo)
+keywords: NSPersonEntity, GetUserInfo
 so.topic: reference
 ---
 
-
 Information about the user if this person is a user.  If IsAssociate (e.g. is user is true) the UserInfo will be provided.
 
-
-
-* **UserInfo:** UserInfo
-* **Returns:** UserInfo
-
+**Parameter:** 
+ - **userInfo** UserInfo
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetContext_String_p_0
-description: NSBatchTaskInfo.SetContext(String p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetContext
+description: NSBatchTaskInfo.SetContext(String context)
 intellisense: NSBatchTaskInfo.SetContext
-sortOrder: 1386
-keywords: SetContext(String)
+keywords: NSBatchTaskInfo, GetContext
 so.topic: reference
 ---
 
-
 Context for the executing task.
 
-
-
-* **Context:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **context** String
 

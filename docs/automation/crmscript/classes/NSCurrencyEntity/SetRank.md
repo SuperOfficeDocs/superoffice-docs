@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCurrencyEntity_SetRank_Integer_p_0
-description: NSCurrencyEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSCurrencyEntity_SetRank
+description: NSCurrencyEntity.SetRank(Integer rank)
 intellisense: NSCurrencyEntity.SetRank
-sortOrder: 2189
-keywords: SetRank(Integer)
+keywords: NSCurrencyEntity, GetRank
 so.topic: reference
 ---
 
-
 Rank order
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

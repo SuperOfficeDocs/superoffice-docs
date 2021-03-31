@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRefCountEntity_SetReadOnly_Bool_p_0
-description: NSRefCountEntity.SetReadOnly(Bool p_0)
+﻿---
+title: crmscript_ref_NSRefCountEntity_SetReadOnly
+description: NSRefCountEntity.SetReadOnly(Bool readOnly)
 intellisense: NSRefCountEntity.SetReadOnly
-keywords: SetReadOnly(Bool)
+keywords: NSRefCountEntity, GetReadOnly
 so.topic: reference
 ---
 
-
 Target field is read only in GUI
 
-
-
-* **ReadOnly:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **readOnly** Bool
 

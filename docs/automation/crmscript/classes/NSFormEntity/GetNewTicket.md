@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetNewTicket
-description: NSFormEntity.GetNewTicket()
+description: Bool NSFormEntity.GetNewTicket()
 intellisense: NSFormEntity.GetNewTicket
-sortOrder: 3785
-keywords: GetNewTicket()
+keywords: NSFormEntity, GetNewTicket
 so.topic: reference
 ---
 
-
 Indicates if this form creates a ticket or not
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

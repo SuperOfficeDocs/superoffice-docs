@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSListAgent_SaveListEntityByName_String_p_0_NSListEntity_p_1
-description: NSListAgent.SaveListEntityByName(String p_0, NSListEntity p_1)
+﻿---
+title: crmscript_ref_NSListAgent_SaveListEntityByName
+description: ListEntity SaveListEntityByName(String name, ListEntity listEntity)
 intellisense: NSListAgent.SaveListEntityByName
-keywords: SaveListEntityByName(String,NSListEntity)
+keywords: NSListAgent,SaveListEntityByName
 so.topic: reference
 ---
 
-
 Save a ListEntity resolved by the provided name.
 
+**Parameters:**
+ - **name** The name of the list to save.
+ - **listEntity** The ListEntity to save.
 
+**Returns:** A ListEntity or null.
 
-* **name:** The name of the list to save.
-* **listEntity:** The ListEntity to save.
-* **Returns:** A ListEntity or null.
-
+```crmscript
+NSListAgent agent;
+String name;
+ListEntity listEntity;
+ListEntity res = agent.SaveListEntityByName(name, listEntity);
+```
 

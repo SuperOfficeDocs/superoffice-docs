@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetRank_Integer_p_0
-description: NSRoleEntity.SetRank(Integer p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetRank
+description: NSRoleEntity.SetRank(Integer rank)
 intellisense: NSRoleEntity.SetRank
-keywords: SetRank(Integer)
+keywords: NSRoleEntity, GetRank
 so.topic: reference
 ---
 
-
 Sorting rank of this role in lists
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **rank** Integer
 

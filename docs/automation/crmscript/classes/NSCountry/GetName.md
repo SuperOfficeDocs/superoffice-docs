@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCountry_GetName
-description: NSCountry.GetName()
+description: String NSCountry.GetName()
 intellisense: NSCountry.GetName
-sortOrder: 2024
-keywords: GetName()
+keywords: NSCountry, GetName
 so.topic: reference
 ---
 
-
 Name of country in installed language
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

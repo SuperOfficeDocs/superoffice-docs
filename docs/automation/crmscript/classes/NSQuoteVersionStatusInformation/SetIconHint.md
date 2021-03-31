@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionStatusInformation_SetIconHint_String_p_0
-description: NSQuoteVersionStatusInformation.SetIconHint(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionStatusInformation_SetIconHint
+description: NSQuoteVersionStatusInformation.SetIconHint(String iconHint)
 intellisense: NSQuoteVersionStatusInformation.SetIconHint
-keywords: SetIconHint(String)
+keywords: NSQuoteVersionStatusInformation, GetIconHint
 so.topic: reference
 ---
 
-
 Icon hint for the associated message.
 
-
-
-* **IconHint:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **iconHint** String
 

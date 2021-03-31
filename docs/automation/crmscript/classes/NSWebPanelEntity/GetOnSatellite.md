@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSWebPanelEntity_GetOnSatellite
-description: NSWebPanelEntity.GetOnSatellite()
+description: Bool NSWebPanelEntity.GetOnSatellite()
 intellisense: NSWebPanelEntity.GetOnSatellite
-keywords: GetOnSatellite()
+keywords: NSWebPanelEntity, GetOnSatellite
 so.topic: reference
 ---
 
-
 Is the webpanel visible when user is on a satellite
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

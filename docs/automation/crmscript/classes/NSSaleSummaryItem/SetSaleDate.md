@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSaleSummaryItem_SetSaleDate_DateTime_p_0
-description: NSSaleSummaryItem.SetSaleDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSSaleSummaryItem_SetSaleDate
+description: NSSaleSummaryItem.SetSaleDate(DateTime saleDate)
 intellisense: NSSaleSummaryItem.SetSaleDate
-keywords: SetSaleDate(DateTime)
+keywords: NSSaleSummaryItem, GetSaleDate
 so.topic: reference
 ---
 
-
 Expected sales date
 
-
-
-* **SaleDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **saleDate** DateTime
 

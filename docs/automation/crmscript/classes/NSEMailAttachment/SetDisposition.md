@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAttachment_SetDisposition_String_p_0
-description: NSEMailAttachment.SetDisposition(String p_0)
+﻿---
+title: crmscript_ref_NSEMailAttachment_SetDisposition
+description: NSEMailAttachment.SetDisposition(String disposition)
 intellisense: NSEMailAttachment.SetDisposition
-sortOrder: 2901
-keywords: SetDisposition(String)
+keywords: NSEMailAttachment, GetDisposition
 so.topic: reference
 ---
 
-
 Content-Disposition
 
-
-
-* **Disposition:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **disposition** String
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoShortText_SetDefaultValue_String_p_0
-description: NSFieldInfoShortText.SetDefaultValue(String p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoShortText_SetDefaultValue
+description: NSFieldInfoShortText.SetDefaultValue(String defaultValue)
 intellisense: NSFieldInfoShortText.SetDefaultValue
-sortOrder: 3553
-keywords: SetDefaultValue(String)
+keywords: NSFieldInfoShortText, GetDefaultValue
 so.topic: reference
 ---
 
-
 Default string value
 
-
-
-* **DefaultValue:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **defaultValue** String
 

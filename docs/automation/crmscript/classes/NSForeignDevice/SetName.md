@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignDevice_SetName_String_p_0
-description: NSForeignDevice.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSForeignDevice_SetName
+description: NSForeignDevice.SetName(String name)
 intellisense: NSForeignDevice.SetName
-sortOrder: 3729
-keywords: SetName(String)
+keywords: NSForeignDevice, GetName
 so.topic: reference
 ---
 
-
 Name of device
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPaymentType_SetTooltip_String_p_0
-description: NSPaymentType.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSPaymentType_SetTooltip
+description: NSPaymentType.SetTooltip(String tooltip)
 intellisense: NSPaymentType.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSPaymentType, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

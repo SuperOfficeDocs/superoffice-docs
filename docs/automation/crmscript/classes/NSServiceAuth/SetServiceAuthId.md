@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSServiceAuth_SetServiceAuthId_Integer_p_0
-description: NSServiceAuth.SetServiceAuthId(Integer p_0)
+﻿---
+title: crmscript_ref_NSServiceAuth_SetServiceAuthId
+description: NSServiceAuth.SetServiceAuthId(Integer serviceAuthId)
 intellisense: NSServiceAuth.SetServiceAuthId
-keywords: SetServiceAuthId(Integer)
+keywords: NSServiceAuth, GetServiceAuthId
 so.topic: reference
 ---
 
-
 The primary key
 
-
-
-* **ServiceAuthId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **serviceAuthId** Integer
 

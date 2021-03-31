@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketPriorityEntity_GetThuStart
-description: NSTicketPriorityEntity.GetThuStart()
+description: DateTime NSTicketPriorityEntity.GetThuStart()
 intellisense: NSTicketPriorityEntity.GetThuStart
-keywords: GetThuStart()
+keywords: NSTicketPriorityEntity, GetThuStart
 so.topic: reference
 ---
 
-
 The work hour start for Thursdays. Note that only the time part of the DateTime is used
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

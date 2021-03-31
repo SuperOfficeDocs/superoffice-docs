@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReportLabelLayoutEntity_SetTopMargin_Integer_p_0
-description: NSReportLabelLayoutEntity.SetTopMargin(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportLabelLayoutEntity_SetTopMargin
+description: NSReportLabelLayoutEntity.SetTopMargin(Integer topMargin)
 intellisense: NSReportLabelLayoutEntity.SetTopMargin
-keywords: SetTopMargin(Integer)
+keywords: NSReportLabelLayoutEntity, GetTopMargin
 so.topic: reference
 ---
 
-
 Top margin in twips
 
-
-
-* **TopMargin:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **topMargin** Integer
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleStakeholder_GetPhone
-description: NSSaleStakeholder.GetPhone()
+description: String NSSaleStakeholder.GetPhone()
 intellisense: NSSaleStakeholder.GetPhone
-keywords: GetPhone()
+keywords: NSSaleStakeholder, GetPhone
 so.topic: reference
 ---
 
-
 Phone number
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

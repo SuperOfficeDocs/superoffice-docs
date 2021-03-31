@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSParticipantSyncData_SetPersonAcademicTitle_String_p_0
-description: NSParticipantSyncData.SetPersonAcademicTitle(String p_0)
+﻿---
+title: crmscript_ref_NSParticipantSyncData_SetPersonAcademicTitle
+description: NSParticipantSyncData.SetPersonAcademicTitle(String personAcademicTitle)
 intellisense: NSParticipantSyncData.SetPersonAcademicTitle
-keywords: SetPersonAcademicTitle(String)
+keywords: NSParticipantSyncData, GetPersonAcademicTitle
 so.topic: reference
 ---
 
-
 Academic title, populated from Salutation list but can be overwritten with anything at all
 
-
-
-* **PersonAcademicTitle:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **personAcademicTitle** String
 

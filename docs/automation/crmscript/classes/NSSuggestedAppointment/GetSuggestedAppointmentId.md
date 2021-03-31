@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSuggestedAppointment_GetSuggestedAppointmentId
-description: NSSuggestedAppointment.GetSuggestedAppointmentId()
+description: Integer NSSuggestedAppointment.GetSuggestedAppointmentId()
 intellisense: NSSuggestedAppointment.GetSuggestedAppointmentId
-keywords: GetSuggestedAppointmentId()
+keywords: NSSuggestedAppointment, GetSuggestedAppointmentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

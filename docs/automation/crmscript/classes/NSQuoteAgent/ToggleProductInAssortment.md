@@ -1,16 +1,12 @@
----
-title: crmscript_ref_NSQuoteAgent_ToggleProductInAssortment_Integer_p_0
-description: NSQuoteAgent.ToggleProductInAssortment(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteAgent_ToggleProductInAssortment
+description: Void ToggleProductInAssortment(Integer productId)
 intellisense: NSQuoteAgent.ToggleProductInAssortment
-keywords: ToggleProductInAssortment(Integer)
+keywords: NSQuoteAgent,ToggleProductInAssortment
 so.topic: reference
 ---
 
-
 Toggles if the prdouct is in assortment or not
 
-
-
-* **productId:** The database id of the product to toggle is assortment value of
-
-
+**Parameters:**
+ - **productId** The database id of the product to toggle is assortment value of

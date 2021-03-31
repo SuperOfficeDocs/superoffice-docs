@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSPersonAgent_GetConsentPerson_Integer_p_0
-description: NSPersonAgent.GetConsentPerson(Integer p_0)
+﻿---
+title: crmscript_ref_NSPersonAgent_GetConsentPerson
+description: NSConsentPerson GetConsentPerson(Integer consentPersonId);
 intellisense: NSPersonAgent.GetConsentPerson
-keywords: GetConsentPerson(Integer)
+keywords: NSPersonAgent,GetConsentPerson
 so.topic: reference
 ---
 
+Gets a NSConsentPerson object.
 
-Gets a ConsentPerson object.
+**Parameters:**
+ - **consentPersonId** The identifier of the NSConsentPerson object
 
+**Returns:** NSConsentPerson
 
-
-* **consentPersonId:** The identifier of the ConsentPerson object
-* **Returns:** ConsentPerson
-
+```crmscript
+NSPersonAgent agent;
+NSConsentPerson thing = agent.GetConsentPerson(123);
+```
 

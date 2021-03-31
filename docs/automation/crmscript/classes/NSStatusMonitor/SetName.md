@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSStatusMonitor_SetName_String_p_0
-description: NSStatusMonitor.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSStatusMonitor_SetName
+description: NSStatusMonitor.SetName(String name)
 intellisense: NSStatusMonitor.SetName
-keywords: SetName(String)
+keywords: NSStatusMonitor, GetName
 so.topic: reference
 ---
 
-
 Name of status monitor
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

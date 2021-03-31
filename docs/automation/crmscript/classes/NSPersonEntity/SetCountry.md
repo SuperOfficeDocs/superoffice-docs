@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetCountry_NSCountry_p_0
-description: NSPersonEntity.SetCountry(NSCountry p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetCountry
+description: NSPersonEntity.SetCountry(Country country)
 intellisense: NSPersonEntity.SetCountry
-keywords: SetCountry(NSCountry)
+keywords: NSPersonEntity, GetCountry
 so.topic: reference
 ---
 
-
 The country this contact person is located in.
 
-
-
-* **Country:** Country
-* **Returns:** Country
-
+**Parameter:** 
+ - **country** Country
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSelectionEntity_SetTextId_Integer_p_0
-description: NSSelectionEntity.SetTextId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSelectionEntity_SetTextId
+description: NSSelectionEntity.SetTextId(Integer textId)
 intellisense: NSSelectionEntity.SetTextId
-keywords: SetTextId(Integer)
+keywords: NSSelectionEntity, GetTextId
 so.topic: reference
 ---
 
-
 Description text record id
 
-
-
-* **TextId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **textId** Integer
 

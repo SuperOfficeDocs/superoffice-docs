@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProduct_GetIsSubscription
-description: NSProduct.GetIsSubscription()
+description: Bool NSProduct.GetIsSubscription()
 intellisense: NSProduct.GetIsSubscription
-keywords: GetIsSubscription()
+keywords: NSProduct, GetIsSubscription
 so.topic: reference
 ---
 
-
 Is this a subscription product, sold in repeating intervals/amounts?
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentEntity_GetIsPublished
-description: NSAppointmentEntity.GetIsPublished()
+description: Boolean NSAppointmentEntity.GetIsPublished()
 intellisense: NSAppointmentEntity.GetIsPublished
-sortOrder: 930
-keywords: GetIsPublished()
+keywords: NSAppointmentEntity, GetIsPublished
 so.topic: reference
 ---
 
+Should this be published and visible to strangers?
 
-Get the Publication is published field
-
+**Returns:** Boolean
 

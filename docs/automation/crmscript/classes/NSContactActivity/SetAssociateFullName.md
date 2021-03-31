@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactActivity_SetAssociateFullName_String_p_0
-description: NSContactActivity.SetAssociateFullName(String p_0)
+﻿---
+title: crmscript_ref_NSContactActivity_SetAssociateFullName
+description: NSContactActivity.SetAssociateFullName(String associateFullName)
 intellisense: NSContactActivity.SetAssociateFullName
-sortOrder: 1785
-keywords: SetAssociateFullName(String)
+keywords: NSContactActivity, GetAssociateFullName
 so.topic: reference
 ---
 
-
 The contact's owner
 
-
-
-* **AssociateFullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **associateFullName** String
 

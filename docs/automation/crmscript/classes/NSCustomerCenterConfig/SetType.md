@@ -1,18 +1,15 @@
----
-title: crmscript_ref_NSCustomerCenterConfig_SetType_Integer_p_0
-description: NSCustomerCenterConfig.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSCustomerCenterConfig_SetType
+description: NSCustomerCenterConfig.SetType(Integer type)
 intellisense: NSCustomerCenterConfig.SetType
-sortOrder: 2208
-keywords: SetType(Integer)
+keywords: NSCustomerCenterConfig, GetType
 so.topic: reference
 ---
 
-
 What kind of data is in this row
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Style 
+     - Enum: 1 = Options 
 

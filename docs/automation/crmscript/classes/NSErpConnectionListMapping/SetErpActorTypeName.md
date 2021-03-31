@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnectionListMapping_SetErpActorTypeName_String_p_0
-description: NSErpConnectionListMapping.SetErpActorTypeName(String p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionListMapping_SetErpActorTypeName
+description: NSErpConnectionListMapping.SetErpActorTypeName(String erpActorTypeName)
 intellisense: NSErpConnectionListMapping.SetErpActorTypeName
-sortOrder: 3130
-keywords: SetErpActorTypeName(String)
+keywords: NSErpConnectionListMapping, GetErpActorTypeName
 so.topic: reference
 ---
 
-
 The actorType belonging to the ListMapping
 
-
-
-* **ErpActorTypeName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **erpActorTypeName** String
 

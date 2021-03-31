@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSActivityFilter_GetFutureDateList
-description: NSActivityFilter.GetFutureDateList()
+description: MDOListItemArray NSActivityFilter.GetFutureDateList()
 intellisense: NSActivityFilter.GetFutureDateList
-sortOrder: 571
-keywords: GetFutureDateList()
+keywords: NSActivityFilter, GetFutureDateList
 so.topic: reference
 ---
 
-
 The list of future date selections. This is a static MDO list with standard values.
 
-
-
-* **Returns:** MDOListItemArray
+**Returns:** MDOListItemArray
 
 

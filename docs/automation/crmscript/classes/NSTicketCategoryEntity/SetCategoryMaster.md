@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketCategoryEntity_SetCategoryMaster_Integer_p_0
-description: NSTicketCategoryEntity.SetCategoryMaster(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketCategoryEntity_SetCategoryMaster
+description: NSTicketCategoryEntity.SetCategoryMaster(Integer categoryMaster)
 intellisense: NSTicketCategoryEntity.SetCategoryMaster
-keywords: SetCategoryMaster(Integer)
+keywords: NSTicketCategoryEntity, GetCategoryMaster
 so.topic: reference
 ---
 
-
 The user associated with this category.
 
-
-
-* **CategoryMaster:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **categoryMaster** Integer
 

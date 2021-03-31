@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSUserInfo_GetRoleName
-description: NSUserInfo.GetRoleName()
+description: String NSUserInfo.GetRoleName()
 intellisense: NSUserInfo.GetRoleName
-keywords: GetRoleName()
+keywords: NSUserInfo, GetRoleName
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

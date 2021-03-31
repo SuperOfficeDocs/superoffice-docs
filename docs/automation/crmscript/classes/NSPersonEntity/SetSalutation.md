@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetSalutation_String_p_0
-description: NSPersonEntity.SetSalutation(String p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetSalutation
+description: NSPersonEntity.SetSalutation(String salutation)
 intellisense: NSPersonEntity.SetSalutation
-keywords: SetSalutation(String)
+keywords: NSPersonEntity, GetSalutation
 so.topic: reference
 ---
 
-
 Academic title, populated from Salutation list but can be overwritten with anything at all
 
-
-
-* **Salutation:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **salutation** String
 

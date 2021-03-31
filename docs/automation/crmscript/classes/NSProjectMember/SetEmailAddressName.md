@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetEmailAddressName_String_p_0
-description: NSProjectMember.SetEmailAddressName(String p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetEmailAddressName
+description: NSProjectMember.SetEmailAddressName(String emailAddressName)
 intellisense: NSProjectMember.SetEmailAddressName
-keywords: SetEmailAddressName(String)
+keywords: NSProjectMember, GetEmailAddressName
 so.topic: reference
 ---
 
-
 The e-mail address description
 
-
-
-* **EmailAddressName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **emailAddressName** String
 

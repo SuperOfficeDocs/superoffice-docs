@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteConnection_GetERPName
-description: NSQuoteConnection.GetERPName()
+description: String NSQuoteConnection.GetERPName()
 intellisense: NSQuoteConnection.GetERPName
-keywords: GetERPName()
+keywords: NSQuoteConnection, GetERPName
 so.topic: reference
 ---
 
-
 Name of the ERP system (programmatic).
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

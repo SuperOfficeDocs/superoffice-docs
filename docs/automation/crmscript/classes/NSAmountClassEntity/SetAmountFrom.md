@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAmountClassEntity_SetAmountFrom_Float_p_0
-description: NSAmountClassEntity.SetAmountFrom(Float p_0)
+﻿---
+title: crmscript_ref_NSAmountClassEntity_SetAmountFrom
+description: NSAmountClassEntity.SetAmountFrom(Float amountFrom)
 intellisense: NSAmountClassEntity.SetAmountFrom
-sortOrder: 704
-keywords: SetAmountFrom(Float)
+keywords: NSAmountClassEntity, GetAmountFrom
 so.topic: reference
 ---
 
-
 Lower limit of this amount class
 
-
-
-* **AmountFrom:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **amountFrom** Float
 

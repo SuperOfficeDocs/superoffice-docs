@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentEntity_SetActiveLinks_Integer_p_0
-description: NSDocumentEntity.SetActiveLinks(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentEntity_SetActiveLinks
+description: NSDocumentEntity.SetActiveLinks(Integer activeLinks)
 intellisense: NSDocumentEntity.SetActiveLinks
-sortOrder: 2584
-keywords: SetActiveLinks(Integer)
+keywords: NSDocumentEntity, GetActiveLinks
 so.topic: reference
 ---
 
-
 Number of active links to sale, document, appointment.
 
-
-
-* **ActiveLinks:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **activeLinks** Integer
 

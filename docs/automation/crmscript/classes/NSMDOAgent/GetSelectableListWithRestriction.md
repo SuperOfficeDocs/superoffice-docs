@@ -1,19 +1,25 @@
----
-title: crmscript_ref_NSMDOAgent_GetSelectableListWithRestriction_String_p_0_String_p_1_String_p_2
-description: NSMDOAgent.GetSelectableListWithRestriction(String p_0, String p_1, String p_2)
+﻿---
+title: crmscript_ref_NSMDOAgent_GetSelectableListWithRestriction
+description: SelectableMDOListItemArray GetSelectableListWithRestriction(String name, String additionalInfo, String searchValue)
 intellisense: NSMDOAgent.GetSelectableListWithRestriction
-keywords: GetSelectableListWithRestriction(String,String,String)
+keywords: NSMDOAgent,GetSelectableListWithRestriction
 so.topic: reference
 ---
 
-
 Method to get a Selectable MDO list with restrictions.
 
+**Parameters:**
+ - **name** Conceptual name of the MDO list
+ - **additionalInfo** Additional info to the MDO provider
+ - **searchValue** the value used to restrict the list
 
+**Returns:** Array of SelectableMDOListItem
 
-* **name:** Conceptual name of the MDO list
-* **additionalInfo:** Additional info to the MDO provider
-* **searchValue:** the value used to restrict the list
-* **Returns:** Array of SelectableMDOListItem
-
+```crmscript
+NSMDOAgent agent;
+String name;
+String additionalInfo;
+String searchValue;
+SelectableMDOListItemArray res = agent.GetSelectableListWithRestriction(name, additionalInfo, searchValue);
+```
 

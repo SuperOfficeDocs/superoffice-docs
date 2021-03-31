@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSForeignDevice_SetCreatedDate_DateTime_p_0
-description: NSForeignDevice.SetCreatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSForeignDevice_SetCreatedDate
+description: NSForeignDevice.SetCreatedDate(DateTime createdDate)
 intellisense: NSForeignDevice.SetCreatedDate
-sortOrder: 3725
-keywords: SetCreatedDate(DateTime)
+keywords: NSForeignDevice, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdDate** DateTime
 

@@ -1,15 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCurrency
 description: NSCurrency
 intellisense: Void.NSCurrency
-sortOrder: 2169
+keywords: NSCurrency
 so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

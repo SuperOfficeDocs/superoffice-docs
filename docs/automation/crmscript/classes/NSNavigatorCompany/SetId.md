@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSNavigatorCompany_SetId_Integer_p_0
-description: NSNavigatorCompany.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSNavigatorCompany_SetId
+description: NSNavigatorCompany.SetId(Integer id)
 intellisense: NSNavigatorCompany.SetId
-keywords: SetId(Integer)
+keywords: NSNavigatorCompany, SetId
 so.topic: reference
 ---
 
+Set the primary key (id)
 
-* **id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

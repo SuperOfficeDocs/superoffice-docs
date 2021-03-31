@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetName_String_p_0
-description: NSFormEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetName
+description: NSFormEntity.SetName(String name)
 intellisense: NSFormEntity.SetName
-sortOrder: 3816
-keywords: SetName(String)
+keywords: NSFormEntity, GetName
 so.topic: reference
 ---
 
-
 The name of this form
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

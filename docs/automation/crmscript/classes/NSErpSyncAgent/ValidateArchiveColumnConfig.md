@@ -1,19 +1,23 @@
----
-title: crmscript_ref_NSErpSyncAgent_ValidateArchiveColumnConfig_String_p_0_Integer_p_1
-description: NSErpSyncAgent.ValidateArchiveColumnConfig(String p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_ValidateArchiveColumnConfig
+description: Void ValidateArchiveColumnConfig(String listOwner, Integer erpConnectionId)
 intellisense: NSErpSyncAgent.ValidateArchiveColumnConfig
-sortOrder: 3224
-keywords: ValidateArchiveColumnConfig(String,Integer)
+keywords: NSErpSyncAgent,ValidateArchiveColumnConfig
 so.topic: reference
 ---
 
-
 Clear field info from table SUPERLISTCOLUMNSIZE if field mapping changed on given connection
 
+**Parameters:**
+ - **listOwner** GUI name used in archive control config
+ - **erpConnectionId** The ERP connection ID
 
+**Returns:** Validated ArchiveColumnConfig
 
-* **listOwner:** GUI name used in archive control config
-* **erpConnectionId:** The ERP connection ID
-* **Returns:** Validated ArchiveColumnConfig
-
+```crmscript
+NSErpSyncAgent agent;
+String listOwner;
+Integer erpConnectionId;
+Void res = agent.ValidateArchiveColumnConfig(listOwner, erpConnectionId);
+```
 

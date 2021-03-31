@@ -1,19 +1,25 @@
----
-title: crmscript_ref_NSQuoteAgent_GetProductImage_Integer_p_0_String_p_1_Integer_p_2
-description: NSQuoteAgent.GetProductImage(Integer p_0, String p_1, Integer p_2)
+﻿---
+title: crmscript_ref_NSQuoteAgent_GetProductImage
+description: String GetProductImage(Integer quoteConnectionId, String eRPProductKey, Integer rank)
 intellisense: NSQuoteAgent.GetProductImage
-keywords: GetProductImage(Integer,String,Integer)
+keywords: NSQuoteAgent,GetProductImage
 so.topic: reference
 ---
 
-
 Gets an image connected to a product, from the ProductProvider
 
+**Parameters:**
+ - **quoteConnectionId** The connection this product comes from.
+ - **eRPProductKey** Primary key of the Product in the ProductProvider 
+ - **rank** The rank of the image.
 
+**Returns:** The base64 encoded image as a string.
 
-* **quoteConnectionId:** The connection this product comes from.
-* **eRPProductKey:** Primary key of the Product in the ProductProvider
-* **rank:** The rank of the image.
-* **Returns:** The base64 encoded image as a string.
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteConnectionId;
+String eRPProductKey;
+Integer rank;
+String res = agent.GetProductImage(quoteConnectionId, eRPProductKey, rank);
+```
 

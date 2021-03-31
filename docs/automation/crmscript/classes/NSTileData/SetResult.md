@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTileData_SetResult_NSArchiveListResult_p_0
-description: NSTileData.SetResult(NSArchiveListResult p_0)
+﻿---
+title: crmscript_ref_NSTileData_SetResult
+description: NSTileData.SetResult(ArchiveListResult result)
 intellisense: NSTileData.SetResult
-keywords: SetResult(NSArchiveListResult)
+keywords: NSTileData, GetResult
 so.topic: reference
 ---
 
-
 The result set
 
-
-
-* **Result:** ArchiveListResult
-* **Returns:** ArchiveListResult
-
+**Parameter:** 
+ - **result** ArchiveListResult
 

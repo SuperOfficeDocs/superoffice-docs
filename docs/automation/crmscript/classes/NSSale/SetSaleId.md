@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSale_SetSaleId_Integer_p_0
-description: NSSale.SetSaleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSSale_SetSaleId
+description: NSSale.SetSaleId(Integer saleId)
 intellisense: NSSale.SetSaleId
-keywords: SetSaleId(Integer)
+keywords: NSSale, GetSaleId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **saleId** Integer
 

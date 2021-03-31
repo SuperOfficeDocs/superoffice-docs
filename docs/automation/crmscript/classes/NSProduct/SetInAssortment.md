@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProduct_SetInAssortment_Bool_p_0
-description: NSProduct.SetInAssortment(Bool p_0)
+﻿---
+title: crmscript_ref_NSProduct_SetInAssortment
+description: NSProduct.SetInAssortment(Bool inAssortment)
 intellisense: NSProduct.SetInAssortment
-keywords: SetInAssortment(Bool)
+keywords: NSProduct, GetInAssortment
 so.topic: reference
 ---
 
-
 True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results.
 
-
-
-* **InAssortment:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **inAssortment** Bool
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoBase_SetHideLabel_Bool_p_0
-description: NSFieldInfoBase.SetHideLabel(Bool p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoBase_SetHideLabel
+description: NSFieldInfoBase.SetHideLabel(Bool hideLabel)
 intellisense: NSFieldInfoBase.SetHideLabel
-sortOrder: 3479
-keywords: SetHideLabel(Bool)
+keywords: NSFieldInfoBase, GetHideLabel
 so.topic: reference
 ---
 
-
 Hide the label if 1
 
-
-
-* **HideLabel:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **hideLabel** Bool
 

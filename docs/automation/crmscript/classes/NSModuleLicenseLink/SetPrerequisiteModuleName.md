@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetPrerequisiteModuleName_String_p_0
-description: NSModuleLicenseLink.SetPrerequisiteModuleName(String p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetPrerequisiteModuleName
+description: NSModuleLicenseLink.SetPrerequisiteModuleName(String prerequisiteModuleName)
 intellisense: NSModuleLicenseLink.SetPrerequisiteModuleName
-keywords: SetPrerequisiteModuleName(String)
+keywords: NSModuleLicenseLink, GetPrerequisiteModuleName
 so.topic: reference
 ---
 
 
-* **PrerequisiteModuleName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **prerequisiteModuleName** String
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAssociate_SetGroupIdx_Integer_p_0
-description: NSAssociate.SetGroupIdx(Integer p_0)
+﻿---
+title: crmscript_ref_NSAssociate_SetGroupIdx
+description: NSAssociate.SetGroupIdx(Integer groupIdx)
 intellisense: NSAssociate.SetGroupIdx
-sortOrder: 1271
-keywords: SetGroupIdx(Integer)
+keywords: NSAssociate, GetGroupIdx
 so.topic: reference
 ---
 
-
 Primary group membership, see UserGroupLink for secondary memberships
 
-
-
-* **GroupIdx:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **groupIdx** Integer
 

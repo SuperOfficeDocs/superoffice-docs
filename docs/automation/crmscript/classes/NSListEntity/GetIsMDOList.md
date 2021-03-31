@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSListEntity_GetIsMDOList
-description: NSListEntity.GetIsMDOList()
+description: Bool NSListEntity.GetIsMDOList()
 intellisense: NSListEntity.GetIsMDOList
-keywords: GetIsMDOList()
+keywords: NSListEntity, GetIsMDOList
 so.topic: reference
 ---
 
-
 Indicates if this is a MDO list
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

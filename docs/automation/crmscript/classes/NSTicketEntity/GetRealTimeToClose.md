@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTicketEntity_GetRealTimeToClose
-description: NSTicketEntity.GetRealTimeToClose()
+description: Integer NSTicketEntity.GetRealTimeToClose()
 intellisense: NSTicketEntity.GetRealTimeToClose
-keywords: GetRealTimeToClose()
+keywords: NSTicketEntity, GetRealTimeToClose
 so.topic: reference
 ---
 
+Same as time_to_close, but not calculated based on priority.
 
-Same as time\_to_close, but not calculated based on priority.
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

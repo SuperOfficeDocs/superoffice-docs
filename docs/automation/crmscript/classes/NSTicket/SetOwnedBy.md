@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicket_SetOwnedBy_Integer_p_0
-description: NSTicket.SetOwnedBy(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicket_SetOwnedBy
+description: NSTicket.SetOwnedBy(Integer ownedBy)
 intellisense: NSTicket.SetOwnedBy
-keywords: SetOwnedBy(Integer)
+keywords: NSTicket, GetOwnedBy
 so.topic: reference
 ---
 
-
 The id of the user who owns the ticket. 1 (system user) if the ticket is unassigned.
 
-
-
-* **OwnedBy:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **ownedBy** Integer
 

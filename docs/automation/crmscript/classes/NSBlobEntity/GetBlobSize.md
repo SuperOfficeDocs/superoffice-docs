@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSBlobEntity_GetBlobSize
-description: NSBlobEntity.GetBlobSize()
+description: Integer NSBlobEntity.GetBlobSize()
 intellisense: NSBlobEntity.GetBlobSize
-sortOrder: 1445
-keywords: GetBlobSize()
+keywords: NSBlobEntity, GetBlobSize
 so.topic: reference
 ---
 
-
 The length, in bytes, of the binary data AS STORED after any encryption and/or zipping. Important to get right, since some databases will not tell us just based on the blob itself!
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

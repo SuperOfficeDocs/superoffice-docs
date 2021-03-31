@@ -1,18 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSArchiveRestrictionInfo_GetValues
-description: NSArchiveRestrictionInfo.GetValues()
+description: StringArray NSArchiveRestrictionInfo.GetValues()
 intellisense: NSArchiveRestrictionInfo.GetValues
-sortOrder: 1224
-keywords: GetValues()
+keywords: NSArchiveRestrictionInfo, GetValues
 so.topic: reference
 ---
 
+Value(s) to test against
 
-    Value(s) to test against
-    
-
-
-
-* **Returns:** StringArray
+**Returns:** StringArray
 
 

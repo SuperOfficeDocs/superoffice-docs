@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailEnvelope_GetEMailSOInfo
-description: NSEMailEnvelope.GetEMailSOInfo()
+description: EMailSOInfo NSEMailEnvelope.GetEMailSOInfo()
 intellisense: NSEMailEnvelope.GetEMailSOInfo
-sortOrder: 3011
-keywords: GetEMailSOInfo()
+keywords: NSEMailEnvelope, GetEMailSOInfo
 so.topic: reference
 ---
 
-
 Glue between SuperOffice data and an e-mail.
 
-
-
-* **Returns:** EMailSOInfo
+**Returns:** EMailSOInfo
 
 

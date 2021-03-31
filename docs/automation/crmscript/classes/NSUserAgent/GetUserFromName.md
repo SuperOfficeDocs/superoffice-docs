@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSUserAgent_GetUserFromName_String_p_0
-description: NSUserAgent.GetUserFromName(String p_0)
+﻿---
+title: crmscript_ref_NSUserAgent_GetUserFromName
+description: User GetUserFromName(String userName)
 intellisense: NSUserAgent.GetUserFromName
-keywords: GetUserFromName(String)
+keywords: NSUserAgent,GetUserFromName
 so.topic: reference
 ---
 
-
 Get a user, with lookup based on user name.
 
+**Parameters:**
+ - **userName** User name of the user to get.
 
+**Returns:** User retrieved by name
 
-* **userName:** User name of the user to get.
-* **Returns:** User retrieved by name
-
+```crmscript
+NSUserAgent agent;
+String userName;
+User res = agent.GetUserFromName(userName);
+```
 

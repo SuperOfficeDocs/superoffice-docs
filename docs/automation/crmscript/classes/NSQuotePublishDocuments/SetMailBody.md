@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuotePublishDocuments_SetMailBody_String_p_0
-description: NSQuotePublishDocuments.SetMailBody(String p_0)
+﻿---
+title: crmscript_ref_NSQuotePublishDocuments_SetMailBody
+description: NSQuotePublishDocuments.SetMailBody(String mailBody)
 intellisense: NSQuotePublishDocuments.SetMailBody
-keywords: SetMailBody(String)
+keywords: NSQuotePublishDocuments, GetMailBody
 so.topic: reference
 ---
 
-
 The string that is the content of the mail body; this is the result of merging the mail body template with the current template variable values
 
-
-
-* **MailBody:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **mailBody** String
 

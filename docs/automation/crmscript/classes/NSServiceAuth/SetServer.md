@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSServiceAuth_SetServer_String_p_0
-description: NSServiceAuth.SetServer(String p_0)
+﻿---
+title: crmscript_ref_NSServiceAuth_SetServer
+description: NSServiceAuth.SetServer(String server)
 intellisense: NSServiceAuth.SetServer
-keywords: SetServer(String)
+keywords: NSServiceAuth, GetServer
 so.topic: reference
 ---
 
-
 The mail server
 
-
-
-* **Server:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **server** String
 

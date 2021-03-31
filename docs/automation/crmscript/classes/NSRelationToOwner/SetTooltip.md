@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSRelationToOwner_SetTooltip_String_p_0
-description: NSRelationToOwner.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSRelationToOwner_SetTooltip
+description: NSRelationToOwner.SetTooltip(String tooltip)
 intellisense: NSRelationToOwner.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSRelationToOwner, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

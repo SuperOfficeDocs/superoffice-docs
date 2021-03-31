@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserInfo_SetPersonId_Integer_p_0
-description: NSUserInfo.SetPersonId(Integer p_0)
+﻿---
+title: crmscript_ref_NSUserInfo_SetPersonId
+description: NSUserInfo.SetPersonId(Integer personId)
 intellisense: NSUserInfo.SetPersonId
-keywords: SetPersonId(Integer)
+keywords: NSUserInfo, GetPersonId
 so.topic: reference
 ---
 
-
 Owning person record
 
-
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **personId** Integer
 

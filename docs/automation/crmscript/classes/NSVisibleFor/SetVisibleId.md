@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSVisibleFor_SetVisibleId_Integer_p_0
-description: NSVisibleFor.SetVisibleId(Integer p_0)
+﻿---
+title: crmscript_ref_NSVisibleFor_SetVisibleId
+description: NSVisibleFor.SetVisibleId(Integer visibleId)
 intellisense: NSVisibleFor.SetVisibleId
-keywords: SetVisibleId(Integer)
+keywords: NSVisibleFor, GetVisibleId
 so.topic: reference
 ---
 
 
-* **VisibleId:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **visibleId** Integer
 

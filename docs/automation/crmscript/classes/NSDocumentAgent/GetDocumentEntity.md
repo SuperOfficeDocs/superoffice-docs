@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSDocumentAgent_GetDocumentEntity_Integer_p_0
-description: NSDocumentAgent.GetDocumentEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentAgent_GetDocumentEntity
+description: NSDocumentEntity GetDocumentEntity(Integer documentEntityId);
 intellisense: NSDocumentAgent.GetDocumentEntity
-sortOrder: 2504
-keywords: GetDocumentEntity(Integer)
+keywords: NSDocumentAgent,GetDocumentEntity
 so.topic: reference
 ---
 
+Gets a NSDocumentEntity object.
 
-Gets a DocumentEntity object.
+**Parameters:**
+ - **documentEntityId** The identifier of the NSDocumentEntity object
 
+**Returns:** NSDocumentEntity
 
-
-* **documentEntityId:** The identifier of the DocumentEntity object
-* **Returns:** DocumentEntity
-
+```crmscript
+NSDocumentAgent agent;
+NSDocumentEntity thing = agent.GetDocumentEntity(123);
+```
 

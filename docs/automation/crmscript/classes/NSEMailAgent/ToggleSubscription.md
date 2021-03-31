@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailAgent_ToggleSubscription_Integer_p_0_Bool_p_1
-description: NSEMailAgent.ToggleSubscription(Integer p_0, Bool p_1)
+﻿---
+title: crmscript_ref_NSEMailAgent_ToggleSubscription
+description: Void ToggleSubscription(Integer folderId, Bool subscriptionStatus)
 intellisense: NSEMailAgent.ToggleSubscription
-sortOrder: 2871
-keywords: ToggleSubscription(Integer,Bool)
+keywords: NSEMailAgent,ToggleSubscription
 so.topic: reference
 ---
 
-
 Set subscription on or off on a set of folders
 
-
-
-* **folderId:** The folder id to set subscription value on
-* **subscriptionStatus:** The subscription status to set
-
-
+**Parameters:**
+ - **folderId** The folder id to set subscription value on
+ - **subscriptionStatus** The subscription status to set

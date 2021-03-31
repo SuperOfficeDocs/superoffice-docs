@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSTicketAgent_GetTicketMessageEntity_Integer_p_0
-description: NSTicketAgent.GetTicketMessageEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSTicketAgent_GetTicketMessageEntity
+description: NSTicketMessageEntity GetTicketMessageEntity(Integer ticketMessageEntityId);
 intellisense: NSTicketAgent.GetTicketMessageEntity
-keywords: GetTicketMessageEntity(Integer)
+keywords: NSTicketAgent,GetTicketMessageEntity
 so.topic: reference
 ---
 
+Gets a NSTicketMessageEntity object.
 
-Gets a TicketMessageEntity object.
+**Parameters:**
+ - **ticketMessageEntityId** The identifier of the NSTicketMessageEntity object
 
+**Returns:** NSTicketMessageEntity
 
-
-* **ticketMessageEntityId:** The identifier of the TicketMessageEntity object
-* **Returns:** TicketMessageEntity
-
+```crmscript
+NSTicketAgent agent;
+NSTicketMessageEntity thing = agent.GetTicketMessageEntity(123);
+```
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSAppointmentAgent_GetOrganizerName_Integer_p_0
-description: NSAppointmentAgent.GetOrganizerName(Integer p_0)
+﻿---
+title: crmscript_ref_NSAppointmentAgent_GetOrganizerName
+description: String GetOrganizerName(Integer motherAppointmentId)
 intellisense: NSAppointmentAgent.GetOrganizerName
-sortOrder: 906
-keywords: GetOrganizerName(Integer)
+keywords: NSAppointmentAgent,GetOrganizerName
 so.topic: reference
 ---
 
-
 Lookup the name / email of an event-organizer
 
+**Parameters:**
+ - **motherAppointmentId** The id of the mother-appointment.
 
+**Returns:** The displayed name of the organizer: name or email
 
-* **motherAppointmentId:** The id of the mother-appointment.
-* **Returns:** The displayed name of the organizer: name or email
-
+```crmscript
+NSAppointmentAgent agent;
+Integer motherAppointmentId;
+String res = agent.GetOrganizerName(motherAppointmentId);
+```
 

@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSatellite_SetArea_NSArea_p_0
-description: NSSatellite.SetArea(NSArea p_0)
+﻿---
+title: crmscript_ref_NSSatellite_SetArea
+description: NSSatellite.SetArea(Area area)
 intellisense: NSSatellite.SetArea
-keywords: SetArea(NSArea)
+keywords: NSSatellite, GetArea
 so.topic: reference
 ---
 
 
-* **Area:** Area
-* **Returns:** Area
 
+**Parameter:** 
+ - **area** Area
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFormEntity_GetDescription
-description: NSFormEntity.GetDescription()
+description: String NSFormEntity.GetDescription()
 intellisense: NSFormEntity.GetDescription
-sortOrder: 3801
-keywords: GetDescription()
+keywords: NSFormEntity, GetDescription
 so.topic: reference
 ---
 
-
 Detailed description
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

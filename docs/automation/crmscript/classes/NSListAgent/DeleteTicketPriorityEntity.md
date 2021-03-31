@@ -1,16 +1,18 @@
----
-title: crmscript_ref_NSListAgent_DeleteTicketPriorityEntity_Integer_p_0
-description: NSListAgent.DeleteTicketPriorityEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_DeleteTicketPriorityEntity
+description: DeleteTicketPriorityEntity(Integer ticketPriorityEntity);
 intellisense: NSListAgent.DeleteTicketPriorityEntity
-keywords: DeleteTicketPriorityEntity(Integer)
+keywords: NSListAgent,DeleteTicketPriorityEntity
 so.topic: reference
 ---
 
+Deletes the NSTicketPriorityEntity
+  
+**Parameters:**
+ - **ticketPriorityEntityId** The identity of the TicketPriorityEntity to delete.
 
-Deletes the TicketPriorityEntity
-
-
-
-* **ticketPriorityEntityId:** The identity of the TicketPriorityEntity
-
+```crmscript
+NSListAgent agent;
+agent.DeleteTicketPriorityEntity(123);
+```
 

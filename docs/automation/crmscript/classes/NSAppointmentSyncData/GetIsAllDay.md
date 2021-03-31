@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentSyncData_GetIsAllDay
-description: NSAppointmentSyncData.GetIsAllDay()
+description: Bool NSAppointmentSyncData.GetIsAllDay()
 intellisense: NSAppointmentSyncData.GetIsAllDay
-sortOrder: 1041
-keywords: GetIsAllDay()
+keywords: NSAppointmentSyncData, GetIsAllDay
 so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
 
 

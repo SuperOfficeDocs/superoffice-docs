@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSUserAgent_IsPasswordValidWithReason_Integer_p_0_Integer_p_1_Integer_p_2_String_p_3
-description: NSUserAgent.IsPasswordValidWithReason(Integer p_0, Integer p_1, Integer p_2, String p_3)
+﻿---
+title: crmscript_ref_NSUserAgent_IsPasswordValidWithReason
+description: UserValidationResult IsPasswordValidWithReason(Integer associateId, Integer type, Integer personId, String password)
 intellisense: NSUserAgent.IsPasswordValidWithReason
-keywords: IsPasswordValidWithReason(Integer,Integer,Integer,String)
+keywords: NSUserAgent,IsPasswordValidWithReason
 so.topic: reference
 ---
 
 
 
-
-* **associateId
-\param** p1 type
-* **personId
-\param** p3 password
-
-
+**Parameters:**
+ - **associateId** 
+ - **type** 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
+ - **personId** 
+ - **password** 

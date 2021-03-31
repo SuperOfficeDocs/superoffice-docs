@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSReportEntity_SetName_String_p_0
-description: NSReportEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSReportEntity_SetName
+description: NSReportEntity.SetName(String name)
 intellisense: NSReportEntity.SetName
-keywords: SetName(String)
+keywords: NSReportEntity, GetName
 so.topic: reference
 ---
 
-
 The name of the report
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

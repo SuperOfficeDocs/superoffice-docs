@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactRelationEntity_GetComment
-description: NSContactRelationEntity.GetComment()
+description: String NSContactRelationEntity.GetComment()
 intellisense: NSContactRelationEntity.GetComment
-sortOrder: 1956
-keywords: GetComment()
+keywords: NSContactRelationEntity, GetComment
 so.topic: reference
 ---
 
-
 Comment for relation
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

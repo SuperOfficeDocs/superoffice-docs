@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactEntity_SetAssociate_NSAssociate_p_0
-description: NSContactEntity.SetAssociate(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSContactEntity_SetAssociate
+description: NSContactEntity.SetAssociate(Associate associate)
 intellisense: NSContactEntity.SetAssociate
-sortOrder: 1880
-keywords: SetAssociate(NSAssociate)
+keywords: NSContactEntity, GetAssociate
 so.topic: reference
 ---
 
+The user that owns this contact.
 
-The person that owns this contact.
-
-
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **associate** Associate
 

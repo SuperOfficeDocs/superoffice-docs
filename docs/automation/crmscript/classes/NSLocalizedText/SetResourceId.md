@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLocalizedText_SetResourceId_Integer_p_0
-description: NSLocalizedText.SetResourceId(Integer p_0)
+﻿---
+title: crmscript_ref_NSLocalizedText_SetResourceId
+description: NSLocalizedText.SetResourceId(Integer resourceId)
 intellisense: NSLocalizedText.SetResourceId
-keywords: SetResourceId(Integer)
+keywords: NSLocalizedText, GetResourceId
 so.topic: reference
 ---
 
-
 Resource ID
 
-
-
-* **ResourceId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **resourceId** Integer
 

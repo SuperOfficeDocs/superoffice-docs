@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebAppUsage_SetVersion_Integer_p_0
-description: NSWebAppUsage.SetVersion(Integer p_0)
+﻿---
+title: crmscript_ref_NSWebAppUsage_SetVersion
+description: NSWebAppUsage.SetVersion(Integer version)
 intellisense: NSWebAppUsage.SetVersion
-keywords: SetVersion(Integer)
+keywords: NSWebAppUsage, GetVersion
 so.topic: reference
 ---
 
-
 ??
 
-
-
-* **Version:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **version** Integer
 

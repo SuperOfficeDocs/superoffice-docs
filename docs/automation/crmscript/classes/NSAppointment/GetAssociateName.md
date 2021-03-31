@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetAssociateName
-description: NSAppointment.GetAssociateName()
+description: String NSAppointment.GetAssociateName()
 intellisense: NSAppointment.GetAssociateName
-sortOrder: 754
-keywords: GetAssociateName()
+keywords: NSAppointment, GetAssociateName
 so.topic: reference
 ---
 
-
 The associate's name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

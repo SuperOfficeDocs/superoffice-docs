@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetUpdatedBy_NSAssociate_p_0
-description: NSAppointmentEntity.SetUpdatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetUpdatedBy
+description: NSAppointmentEntity.SetUpdatedBy(Associate updatedBy)
 intellisense: NSAppointmentEntity.SetUpdatedBy
-sortOrder: 1034
-keywords: SetUpdatedBy(NSAssociate)
+keywords: NSAppointmentEntity, GetUpdatedBy
 so.topic: reference
 ---
 
-
 The person that last updated the appointment.
 
-
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+**Parameter:** 
+ - **updatedBy** Associate
 

@@ -1,17 +1,17 @@
----
-title: crmscript_ref_NSTicketPriorityEntity_SetTicketNew_NSTicketPriorityEscalateEvent_p_0
-description: NSTicketPriorityEntity.SetTicketNew(NSTicketPriorityEscalateEvent p_0)
+﻿---
+title: crmscript_ref_NSTicketPriorityEntity_SetTicketNew
+description: NSTicketPriorityEntity.SetTicketNew(TicketPriorityEscalateEvent ticketNew)
 intellisense: NSTicketPriorityEntity.SetTicketNew
-keywords: SetTicketNew(NSTicketPriorityEscalateEvent)
+keywords: NSTicketPriorityEntity, GetTicketNew
 so.topic: reference
 ---
 
-
 This field indicates what to do with the escalation chain when a new request is registered
 
-
-
-* **TicketNew:** TicketPriorityEscalateEvent
-* **Returns:** TicketPriorityEscalateEvent
-
+**Parameter:** 
+ - **ticketNew** TicketPriorityEscalateEvent
+     - Enum: -1 = None 
+     - Enum: 0 = Stop 
+     - Enum: 1 = Continue 
+     - Enum: 2 = Restart 
 

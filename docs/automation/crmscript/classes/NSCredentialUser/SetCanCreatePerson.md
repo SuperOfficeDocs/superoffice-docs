@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSCredentialUser_SetCanCreatePerson_Bool_p_0
-description: NSCredentialUser.SetCanCreatePerson(Bool p_0)
+﻿---
+title: crmscript_ref_NSCredentialUser_SetCanCreatePerson
+description: NSCredentialUser.SetCanCreatePerson(Bool canCreatePerson)
 intellisense: NSCredentialUser.SetCanCreatePerson
-sortOrder: 2090
-keywords: SetCanCreatePerson(Bool)
+keywords: NSCredentialUser, GetCanCreatePerson
 so.topic: reference
 ---
 
 
-* **CanCreatePerson:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **canCreatePerson** Bool
 

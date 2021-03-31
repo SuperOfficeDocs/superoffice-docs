@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTemporaryKeyInfo_SetTargetId_Integer_p_0
-description: NSTemporaryKeyInfo.SetTargetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTemporaryKeyInfo_SetTargetId
+description: NSTemporaryKeyInfo.SetTargetId(Integer targetId)
 intellisense: NSTemporaryKeyInfo.SetTargetId
-keywords: SetTargetId(Integer)
+keywords: NSTemporaryKeyInfo, GetTargetId
 so.topic: reference
 ---
 
-
 The primary key of the entity this temporary key is for, dependent of dmain
 
-
-
-* **TargetId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **targetId** Integer
 

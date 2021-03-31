@@ -1,18 +1,23 @@
----
-title: crmscript_ref_NSQuoteAgent_MoveQuoteLine_Integer_p_0_Bool_p_1
-description: NSQuoteAgent.MoveQuoteLine(Integer p_0, Bool p_1)
+﻿---
+title: crmscript_ref_NSQuoteAgent_MoveQuoteLine
+description: Void MoveQuoteLine(Integer quoteLineId, Bool direction)
 intellisense: NSQuoteAgent.MoveQuoteLine
-keywords: MoveQuoteLine(Integer,Bool)
+keywords: NSQuoteAgent,MoveQuoteLine
 so.topic: reference
 ---
 
-
 Move quote line rank up/down
 
+**Parameters:**
+ - **quoteLineId** Id of quote line to move up/down
+ - **direction** True is up, false is down
 
+**Returns:** Void return
 
-* **quoteLineId:** Id of quote line to move up/down
-* **direction:** True is up, false is down
-* **Returns:** Void return
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteLineId;
+Bool direction;
+Void res = agent.MoveQuoteLine(quoteLineId, direction);
+```
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetDbiLastModified_DateTime_p_0
-description: NSPersonEntity.SetDbiLastModified(DateTime p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetDbiLastModified
+description: NSPersonEntity.SetDbiLastModified(DateTime dbiLastModified)
 intellisense: NSPersonEntity.SetDbiLastModified
-keywords: SetDbiLastModified(DateTime)
+keywords: NSPersonEntity, GetDbiLastModified
 so.topic: reference
 ---
 
-
 When the entry was last modified.
 
-
-
-* **DbiLastModified:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **dbiLastModified** DateTime
 

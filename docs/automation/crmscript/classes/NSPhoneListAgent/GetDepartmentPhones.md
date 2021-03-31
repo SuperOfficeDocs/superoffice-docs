@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSPhoneListAgent_GetDepartmentPhones_Integer_p_0
-description: NSPhoneListAgent.GetDepartmentPhones(Integer p_0)
+﻿---
+title: crmscript_ref_NSPhoneListAgent_GetDepartmentPhones
+description: PhoneListItemArray GetDepartmentPhones(Integer departmentId)
 intellisense: NSPhoneListAgent.GetDepartmentPhones
-keywords: GetDepartmentPhones(Integer)
+keywords: NSPhoneListAgent,GetDepartmentPhones
 so.topic: reference
 ---
 
-
 Returns an array of phone list items with the in-parameter as restriction. The in-parameter must be a valid department id (UserGroupId).
 
+**Parameters:**
+ - **departmentId** The department to get the phone list for
 
+**Returns:** The department phone list
 
-* **departmentId:** The department to get the phone list for
-* **Returns:** The department phone list
-
+```crmscript
+NSPhoneListAgent agent;
+Integer departmentId;
+PhoneListItemArray res = agent.GetDepartmentPhones(departmentId);
+```
 

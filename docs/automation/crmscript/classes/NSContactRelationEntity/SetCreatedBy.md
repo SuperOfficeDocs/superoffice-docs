@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSContactRelationEntity_SetCreatedBy_NSAssociate_p_0
-description: NSContactRelationEntity.SetCreatedBy(NSAssociate p_0)
+﻿---
+title: crmscript_ref_NSContactRelationEntity_SetCreatedBy
+description: NSContactRelationEntity.SetCreatedBy(Associate createdBy)
 intellisense: NSContactRelationEntity.SetCreatedBy
-sortOrder: 1964
-keywords: SetCreatedBy(NSAssociate)
+keywords: NSContactRelationEntity, GetCreatedBy
 so.topic: reference
 ---
 
 
-* **CreatedBy:** Associate
-* **Returns:** Associate
 
+**Parameter:** 
+ - **createdBy** Associate
 

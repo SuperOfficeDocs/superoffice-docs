@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSDocumentAgent_GetTempFile_String_p_0
-description: NSDocumentAgent.GetTempFile(String p_0)
+﻿---
+title: crmscript_ref_NSDocumentAgent_GetTempFile
+description: Stream GetTempFile(String filename)
 intellisense: NSDocumentAgent.GetTempFile
-sortOrder: 2520
-keywords: GetTempFile(String)
+keywords: NSDocumentAgent,GetTempFile
 so.topic: reference
 ---
 
-
 Get data stream for temporary file created with CreateTempFile.
 
+**Parameters:**
+ - **filename** Name of temporary file to retrieve.
 
+**Returns:** The document as a Stream
 
-* **filename:** Name of temporary file to retrieve.
-* **Returns:** The document as a Stream
-
+```crmscript
+NSDocumentAgent agent;
+String filename;
+Stream res = agent.GetTempFile(filename);
+```
 

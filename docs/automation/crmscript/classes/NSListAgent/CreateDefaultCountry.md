@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSListAgent_CreateDefaultCountry
-description: NSListAgent.CreateDefaultCountry()
+description: Country CreateDefaultCountry()
 intellisense: NSListAgent.CreateDefaultCountry
-keywords: CreateDefaultCountry()
+keywords: NSListAgent,CreateDefaultCountry
 so.topic: reference
 ---
-
 
 Gets a new country
 
 
+**Returns:** A new country with default values
 
-* **Returns:** A new country with default values
-
+```crmscript
+NSListAgent agent;
+Country res = agent.CreateDefaultCountry();
+```
 

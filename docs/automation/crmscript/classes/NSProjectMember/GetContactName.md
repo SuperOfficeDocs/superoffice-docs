@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSProjectMember_GetContactName
-description: NSProjectMember.GetContactName()
+description: String NSProjectMember.GetContactName()
 intellisense: NSProjectMember.GetContactName
-keywords: GetContactName()
+keywords: NSProjectMember, GetContactName
 so.topic: reference
 ---
 
-
 Contact name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

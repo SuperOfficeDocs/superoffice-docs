@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSTaskListItem_GetRank
-description: NSTaskListItem.GetRank()
+description: Integer NSTaskListItem.GetRank()
 intellisense: NSTaskListItem.GetRank
-keywords: GetRank()
+keywords: NSTaskListItem, GetRank
 so.topic: reference
 ---
 
-
 Rank order
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

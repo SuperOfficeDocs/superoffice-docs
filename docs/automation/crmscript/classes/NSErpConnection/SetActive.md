@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSErpConnection_SetActive_Bool_p_0
-description: NSErpConnection.SetActive(Bool p_0)
+﻿---
+title: crmscript_ref_NSErpConnection_SetActive
+description: NSErpConnection.SetActive(Bool active)
 intellisense: NSErpConnection.SetActive
-sortOrder: 3090
-keywords: SetActive(Bool)
+keywords: NSErpConnection, GetActive
 so.topic: reference
 ---
 
-
 Is this connection currently active
 
-
-
-* **Active:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **active** Bool
 

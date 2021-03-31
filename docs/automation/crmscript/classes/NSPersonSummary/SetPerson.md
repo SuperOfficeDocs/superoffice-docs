@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSPersonSummary_SetPerson_NSPerson_p_0
-description: NSPersonSummary.SetPerson(NSPerson p_0)
+﻿---
+title: crmscript_ref_NSPersonSummary_SetPerson
+description: NSPersonSummary.SetPerson(Person person)
 intellisense: NSPersonSummary.SetPerson
-keywords: SetPerson(NSPerson)
+keywords: NSPersonSummary, GetPerson
 so.topic: reference
 ---
 
-
 Simple Person data.
 
-
-
-* **Person:** Person
-* **Returns:** Person
-
+**Parameter:** 
+ - **person** Person
 

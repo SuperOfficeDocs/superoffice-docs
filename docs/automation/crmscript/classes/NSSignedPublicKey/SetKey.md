@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSignedPublicKey_SetKey_NSDSAParameters_p_0
-description: NSSignedPublicKey.SetKey(NSDSAParameters p_0)
+﻿---
+title: crmscript_ref_NSSignedPublicKey_SetKey
+description: NSSignedPublicKey.SetKey(DSAParameters key)
 intellisense: NSSignedPublicKey.SetKey
-keywords: SetKey(NSDSAParameters)
+keywords: NSSignedPublicKey, GetKey
 so.topic: reference
 ---
 
-
 Public key held by module owner.
 
-
-
-* **Key:** DSAParameters
-* **Returns:** DSAParameters
-
+**Parameter:** 
+ - **key** DSAParameters
 

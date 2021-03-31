@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersion_SetRegistered_DateTime_p_0
-description: NSQuoteVersion.SetRegistered(DateTime p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetRegistered
+description: NSQuoteVersion.SetRegistered(DateTime registered)
 intellisense: NSQuoteVersion.SetRegistered
-keywords: SetRegistered(DateTime)
+keywords: NSQuoteVersion, GetRegistered
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Registered:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **registered** DateTime
 

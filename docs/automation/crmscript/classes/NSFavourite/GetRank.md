@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFavourite_GetRank
-description: NSFavourite.GetRank()
+description: Integer NSFavourite.GetRank()
 intellisense: NSFavourite.GetRank
-sortOrder: 3436
-keywords: GetRank()
+keywords: NSFavourite, GetRank
 so.topic: reference
 ---
 
-
 Rank order
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

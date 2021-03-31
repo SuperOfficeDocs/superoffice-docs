@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWebPanelEntity_SetUrl_String_p_0
-description: NSWebPanelEntity.SetUrl(String p_0)
+﻿---
+title: crmscript_ref_NSWebPanelEntity_SetUrl
+description: NSWebPanelEntity.SetUrl(String url)
 intellisense: NSWebPanelEntity.SetUrl
-keywords: SetUrl(String)
+keywords: NSWebPanelEntity, GetUrl
 so.topic: reference
 ---
 
-
 The url
 
-
-
-* **Url:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **url** String
 

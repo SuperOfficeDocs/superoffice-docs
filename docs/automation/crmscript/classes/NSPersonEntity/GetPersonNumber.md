@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPersonEntity_GetPersonNumber
-description: NSPersonEntity.GetPersonNumber()
+description: String NSPersonEntity.GetPersonNumber()
 intellisense: NSPersonEntity.GetPersonNumber
-keywords: GetPersonNumber()
+keywords: NSPersonEntity, GetPersonNumber
 so.topic: reference
 ---
 
-
 Alphanumeric user field
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,21 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetIsPublished_Bool_p_0
-description: NSProjectEventEntity.SetIsPublished(Bool p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetIsPublished
+description: NSProjectEventEntity.SetIsPublished(Bool isPublished)
 intellisense: NSProjectEventEntity.SetIsPublished
-keywords: SetIsPublished(Bool)
+keywords: NSProjectEventEntity, GetIsPublished
 so.topic: reference
 ---
 
+Publish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties.
 
-Publish to external users? When true, the event/project information is visible to external users through the Audience portal.
-
-
-    	/// You can control the publish duration using the PublishFrom/PublishTo properties.
-    
-
-
-
-* **IsPublished:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isPublished** Bool
 

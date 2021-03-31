@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpConnection_GetUserGroupAccessIds
-description: NSErpConnection.GetUserGroupAccessIds()
+description: IntegerArray NSErpConnection.GetUserGroupAccessIds()
 intellisense: NSErpConnection.GetUserGroupAccessIds
-sortOrder: 3083
-keywords: GetUserGroupAccessIds()
+keywords: NSErpConnection, GetUserGroupAccessIds
 so.topic: reference
 ---
 
-
 Array of ids containing usergroups that will have access to this connection.
 
-
-
-* **Returns:** IntegerArray
+**Returns:** IntegerArray
 
 

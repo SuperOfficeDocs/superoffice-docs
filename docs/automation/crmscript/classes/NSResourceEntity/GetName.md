@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSResourceEntity_GetName
-description: NSResourceEntity.GetName()
+description: String NSResourceEntity.GetName()
 intellisense: NSResourceEntity.GetName
-keywords: GetName()
+keywords: NSResourceEntity, GetName
 so.topic: reference
 ---
 
-
 Initials, also login name, possibly database user name
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

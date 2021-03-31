@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSLicenseOwner_SetDescription_String_p_0
-description: NSLicenseOwner.SetDescription(String p_0)
+﻿---
+title: crmscript_ref_NSLicenseOwner_SetDescription
+description: NSLicenseOwner.SetDescription(String description)
 intellisense: NSLicenseOwner.SetDescription
-keywords: SetDescription(String)
+keywords: NSLicenseOwner, GetDescription
 so.topic: reference
 ---
 
 
-* **Description:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **description** String
 

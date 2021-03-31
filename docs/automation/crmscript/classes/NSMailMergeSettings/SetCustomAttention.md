@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMailMergeSettings_SetCustomAttention_String_p_0
-description: NSMailMergeSettings.SetCustomAttention(String p_0)
+﻿---
+title: crmscript_ref_NSMailMergeSettings_SetCustomAttention
+description: NSMailMergeSettings.SetCustomAttention(String customAttention)
 intellisense: NSMailMergeSettings.SetCustomAttention
-keywords: SetCustomAttention(String)
+keywords: NSMailMergeSettings, GetCustomAttention
 so.topic: reference
 ---
 
-
 Custom value for attention.
 
-
-
-* **CustomAttention:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **customAttention** String
 

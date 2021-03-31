@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetName_String_p_0
-description: NSDocumentTemplateEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetName
+description: NSDocumentTemplateEntity.SetName(String name)
 intellisense: NSDocumentTemplateEntity.SetName
-sortOrder: 2692
-keywords: SetName(String)
+keywords: NSDocumentTemplateEntity, GetName
 so.topic: reference
 ---
 
-
 The template list item
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

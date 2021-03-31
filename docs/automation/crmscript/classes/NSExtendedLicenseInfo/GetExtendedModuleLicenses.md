@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSExtendedLicenseInfo_GetExtendedModuleLicenses
-description: NSExtendedLicenseInfo.GetExtendedModuleLicenses()
+description: ExtendedModuleLicenseArray NSExtendedLicenseInfo.GetExtendedModuleLicenses()
 intellisense: NSExtendedLicenseInfo.GetExtendedModuleLicenses
-sortOrder: 3405
-keywords: GetExtendedModuleLicenses()
+keywords: NSExtendedLicenseInfo, GetExtendedModuleLicenses
 so.topic: reference
 ---
 
 
-* **Returns:** ExtendedModuleLicenseArray
+
+**Returns:** ExtendedModuleLicenseArray
 
 

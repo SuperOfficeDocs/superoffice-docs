@@ -1,23 +1,19 @@
----
-title: crmscript_ref_NSEMailEnvelope_SetPriority_Integer_p_0
-description: NSEMailEnvelope.SetPriority(Integer p_0)
+﻿---
+title: crmscript_ref_NSEMailEnvelope_SetPriority
+description: NSEMailEnvelope.SetPriority(Integer priority)
 intellisense: NSEMailEnvelope.SetPriority
-sortOrder: 3019
-keywords: SetPriority(Integer)
+keywords: NSEMailEnvelope, GetPriority
 so.topic: reference
 ---
 
-
 Importance of the e-mail
 
-* NoPriority=0
-* Highest=1
-* High=2
-* Normal=3
-* Low=4
-* Lowest=5
-
-* **Priority:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **priority** Integer
+     - Enum: 0 = NoPriority 
+     - Enum: 1 = Highest 
+     - Enum: 2 = High 
+     - Enum: 3 = Normal 
+     - Enum: 4 = Low 
+     - Enum: 5 = Lowest 
 

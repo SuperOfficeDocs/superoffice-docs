@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSStatisticsDataValue_GetDescription
-description: NSStatisticsDataValue.GetDescription()
+description: String NSStatisticsDataValue.GetDescription()
 intellisense: NSStatisticsDataValue.GetDescription
-keywords: GetDescription()
+keywords: NSStatisticsDataValue, GetDescription
 so.topic: reference
 ---
 
-
 Tooltip for data value
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

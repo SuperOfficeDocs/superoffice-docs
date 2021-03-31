@@ -1,17 +1,18 @@
----
-title: crmscript_ref_NSBLOBAgent_DeleteBlobEntity_Integer_p_0
-description: NSBLOBAgent.DeleteBlobEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSBLOBAgent_DeleteBlobEntity
+description: DeleteBlobEntity(Integer blobEntity);
 intellisense: NSBLOBAgent.DeleteBlobEntity
-sortOrder: 1429
-keywords: DeleteBlobEntity(Integer)
+keywords: NSBLOBAgent,DeleteBlobEntity
 so.topic: reference
 ---
 
+Deletes the NSBlobEntity
+  
+**Parameters:**
+ - **blobEntityId** The identity of the BlobEntity to delete.
 
-Deletes the BlobEntity
-
-
-
-* **blobEntityId:** The identity of the BlobEntity
-
+```crmscript
+NSBLOBAgent agent;
+agent.DeleteBlobEntity(123);
+```
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCurrencyEntity_SetRate_Float_p_0
-description: NSCurrencyEntity.SetRate(Float p_0)
+﻿---
+title: crmscript_ref_NSCurrencyEntity_SetRate
+description: NSCurrencyEntity.SetRate(Float rate)
 intellisense: NSCurrencyEntity.SetRate
-sortOrder: 2190
-keywords: SetRate(Float)
+keywords: NSCurrencyEntity, GetRate
 so.topic: reference
 ---
 
-
 Exchange rate
 
-
-
-* **Rate:** Float
-* **Returns:** Float
-
+**Parameter:** 
+ - **rate** Float
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentSyncData_GetContactId
-description: NSAppointmentSyncData.GetContactId()
+description: Integer NSAppointmentSyncData.GetContactId()
 intellisense: NSAppointmentSyncData.GetContactId
-sortOrder: 1051
-keywords: GetContactId()
+keywords: NSAppointmentSyncData, GetContactId
 so.topic: reference
 ---
 
-
 The contacts identifier
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

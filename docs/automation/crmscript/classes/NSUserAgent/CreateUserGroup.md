@@ -1,12 +1,10 @@
----
+﻿---
 title: crmscript_ref_NSUserAgent_CreateUserGroup
-description: NSUserAgent.CreateUserGroup()
+description: UserGroup CreateUserGroup()
 intellisense: NSUserAgent.CreateUserGroup
-keywords: CreateUserGroup()
+keywords: NSUserAgent,CreateUserGroup
 so.topic: reference
 ---
 
-
 Create UserGroup (Rank is assigned to the highest rank)
-
 

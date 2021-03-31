@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSSaleEntity_SetSaleStakeholders_NSSaleStakeholder__p_0
-description: NSSaleEntity.SetSaleStakeholders(NSSaleStakeholder[] p_0)
+﻿---
+title: crmscript_ref_NSSaleEntity_SetSaleStakeholders
+description: NSSaleEntity.SetSaleStakeholders(SaleStakeholderArray saleStakeholders)
 intellisense: NSSaleEntity.SetSaleStakeholders
-keywords: SetSaleStakeholders(NSSaleStakeholder[])
+keywords: NSSaleEntity, GetSaleStakeholders
 so.topic: reference
 ---
 
 
-* **SaleStakeholders:** SaleStakeholderArray
-* **Returns:** SaleStakeholderArray
 
+**Parameter:** 
+ - **saleStakeholders** SaleStakeholderArray
 

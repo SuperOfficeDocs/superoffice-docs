@@ -1,16 +1,20 @@
----
-title: crmscript_ref_NSPreferenceDescription_SetSysMaxLevel_Integer_p_0
-description: NSPreferenceDescription.SetSysMaxLevel(Integer p_0)
+﻿---
+title: crmscript_ref_NSPreferenceDescription_SetSysMaxLevel
+description: NSPreferenceDescription.SetSysMaxLevel(PreferenceLevel sysMaxLevel)
 intellisense: NSPreferenceDescription.SetSysMaxLevel
-keywords: SetSysMaxLevel(Integer)
+keywords: NSPreferenceDescription, GetSysMaxLevel
 so.topic: reference
 ---
 
 Lowest allowed setting level, set by SuperOffice
 
-
-
-* **p_0:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **sysMaxLevel** PreferenceLevel
+     - Enum: 0 = Undefined 
+     - Enum: 1 = HardDefault 
+     - Enum: 2 = SystemWide 
+     - Enum: 3 = Database 
+     - Enum: 4 = Group 
+     - Enum: 5 = Individual 
+     - Enum: 6 = PC 
 

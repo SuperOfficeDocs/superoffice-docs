@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSelectionEntity_GetAssociate
-description: NSSelectionEntity.GetAssociate()
+description: Associate NSSelectionEntity.GetAssociate()
 intellisense: NSSelectionEntity.GetAssociate
-keywords: GetAssociate()
+keywords: NSSelectionEntity, GetAssociate
 so.topic: reference
 ---
 
-
 Owner of the selection
 
-
-
-* **Returns:** Associate
+**Returns:** Associate
 
 

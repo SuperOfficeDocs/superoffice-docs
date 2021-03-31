@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetWebPanelEntity_Integer_p_0
-description: NSListAgent.GetWebPanelEntity(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetWebPanelEntity
+description: NSWebPanelEntity GetWebPanelEntity(Integer webPanelEntityId);
 intellisense: NSListAgent.GetWebPanelEntity
-keywords: GetWebPanelEntity(Integer)
+keywords: NSListAgent,GetWebPanelEntity
 so.topic: reference
 ---
 
+Gets a NSWebPanelEntity object.
 
-Gets a WebPanelEntity object.
+**Parameters:**
+ - **webPanelEntityId** The identifier of the NSWebPanelEntity object
 
+**Returns:** NSWebPanelEntity
 
-
-* **webPanelEntityId:** The identifier of the WebPanelEntity object
-* **Returns:** WebPanelEntity
-
+```crmscript
+NSListAgent agent;
+NSWebPanelEntity thing = agent.GetWebPanelEntity(123);
+```
 

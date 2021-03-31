@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTicketMessageEntity_SetHtmlBody_String_p_0
-description: NSTicketMessageEntity.SetHtmlBody(String p_0)
+﻿---
+title: crmscript_ref_NSTicketMessageEntity_SetHtmlBody
+description: NSTicketMessageEntity.SetHtmlBody(String htmlBody)
 intellisense: NSTicketMessageEntity.SetHtmlBody
-keywords: SetHtmlBody(String)
+keywords: NSTicketMessageEntity, GetHtmlBody
 so.topic: reference
 ---
 
-
 The html body for the message (if any).
 
-
-
-* **HtmlBody:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **htmlBody** String
 

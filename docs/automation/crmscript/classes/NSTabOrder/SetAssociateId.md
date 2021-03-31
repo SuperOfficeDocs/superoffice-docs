@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSTabOrder_SetAssociateId_Integer_p_0
-description: NSTabOrder.SetAssociateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSTabOrder_SetAssociateId
+description: NSTabOrder.SetAssociateId(Integer associateId)
 intellisense: NSTabOrder.SetAssociateId
-keywords: SetAssociateId(Integer)
+keywords: NSTabOrder, GetAssociateId
 so.topic: reference
 ---
 
-
 Associate who owns this tab order
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **associateId** Integer
 

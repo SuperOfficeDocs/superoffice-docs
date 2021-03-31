@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSale_GetEarningPercent
-description: NSSale.GetEarningPercent()
+description: Float NSSale.GetEarningPercent()
 intellisense: NSSale.GetEarningPercent
-keywords: GetEarningPercent()
+keywords: NSSale, GetEarningPercent
 so.topic: reference
 ---
 
-
 Earning as percent of total
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

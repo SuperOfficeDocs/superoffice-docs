@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSCheckLicenseStatusResult_GetMessage
-description: NSCheckLicenseStatusResult.GetMessage()
+description: String NSCheckLicenseStatusResult.GetMessage()
 intellisense: NSCheckLicenseStatusResult.GetMessage
-sortOrder: 1552
-keywords: GetMessage()
+keywords: NSCheckLicenseStatusResult, GetMessage
 so.topic: reference
 ---
 
-
 Message to display in SOADMIN if LinkType=90.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

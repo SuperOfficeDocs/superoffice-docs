@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSEMailCustomHeader_SetValues_String__p_0
-description: NSEMailCustomHeader.SetValues(String[] p_0)
+﻿---
+title: crmscript_ref_NSEMailCustomHeader_SetValues
+description: NSEMailCustomHeader.SetValues(StringArray values)
 intellisense: NSEMailCustomHeader.SetValues
-sortOrder: 2941
-keywords: SetValues(String[])
+keywords: NSEMailCustomHeader, GetValues
 so.topic: reference
 ---
 
 
-* **Values:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **values** StringArray
 

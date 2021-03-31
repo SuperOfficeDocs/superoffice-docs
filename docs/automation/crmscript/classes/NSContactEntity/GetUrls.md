@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetUrls
-description: NSContactEntity.GetUrls()
+description: EntityElementArray NSContactEntity.GetUrls()
 intellisense: NSContactEntity.GetUrls
-sortOrder: 1861
-keywords: GetUrls()
+keywords: NSContactEntity, GetUrls
 so.topic: reference
 ---
 
-
 The contact's internet adresses
 
-
-
-* **Returns:** EntityElementArray
+**Returns:** EntityElementArray
 
 

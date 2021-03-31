@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSMDOListItem_SetFullName_String_p_0
-description: NSMDOListItem.SetFullName(String p_0)
+﻿---
+title: crmscript_ref_NSMDOListItem_SetFullName
+description: NSMDOListItem.SetFullName(String fullName)
 intellisense: NSMDOListItem.SetFullName
-keywords: SetFullName(String)
+keywords: NSMDOListItem, GetFullName
 so.topic: reference
 ---
 
-
 The name of the ListItem in its context
 
-
-
-* **FullName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **fullName** String
 

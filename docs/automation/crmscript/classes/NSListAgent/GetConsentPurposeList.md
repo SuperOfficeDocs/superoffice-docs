@@ -1,13 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetConsentPurposeList_Integer__p_0
-description: NSListAgent.GetConsentPurposeList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetConsentPurposeList
+description: NSConsentPurpose[] GetConsentPurposeList(Integer[]  consentPurposeIds);
 intellisense: NSListAgent.GetConsentPurposeList
-keywords: GetConsentPurposeList(Integer[])
+keywords: NSListAgent,GetConsentPurposeList
 so.topic: reference
 ---
 
+Gets a vector of ConsentPurpose objects.
 
-* **p0:** IntegerArray of identifiers for ConsentPurpose
-* **Returns:** Array of NSConsentPurpose
+**Parameters:**
+ - **consentPurposeIds** The identifiers of the NSConsentPurpose objects
 
+**Returns:** Vector of NSConsentPurpose objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetConsentPurposeList(ids);
+```
 

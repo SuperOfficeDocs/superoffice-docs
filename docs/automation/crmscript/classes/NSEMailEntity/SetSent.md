@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEntity_SetSent_DateTime_p_0
-description: NSEMailEntity.SetSent(DateTime p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetSent
+description: NSEMailEntity.SetSent(DateTime sent)
 intellisense: NSEMailEntity.SetSent
-sortOrder: 2995
-keywords: SetSent(DateTime)
+keywords: NSEMailEntity, GetSent
 so.topic: reference
 ---
 
-
 When was the e-mail sent
 
-
-
-* **Sent:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **sent** DateTime
 

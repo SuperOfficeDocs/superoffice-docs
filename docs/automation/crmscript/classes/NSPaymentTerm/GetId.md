@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSPaymentTerm_GetId
-description: NSPaymentTerm.GetId()
+description: Integer NSPaymentTerm.GetId()
 intellisense: NSPaymentTerm.GetId
-keywords: GetId()
+keywords: NSPaymentTerm, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

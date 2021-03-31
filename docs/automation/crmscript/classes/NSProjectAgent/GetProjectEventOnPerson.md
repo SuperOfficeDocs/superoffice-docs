@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectAgent_GetProjectEventOnPerson_Integer_p_0_Integer_p_1
-description: NSProjectAgent.GetProjectEventOnPerson(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSProjectAgent_GetProjectEventOnPerson
+description: ProjectEvent GetProjectEventOnPerson(Integer projectId, Integer personId)
 intellisense: NSProjectAgent.GetProjectEventOnPerson
-keywords: GetProjectEventOnPerson(Integer,Integer)
+keywords: NSProjectAgent,GetProjectEventOnPerson
 so.topic: reference
 ---
 
-
 Gets a ProjectEvent object from a project and a person.
 
-
-
-* **projectId:** The project Id
-* **personId:** Id of the person the project events belong to.
-
-
+**Parameters:**
+ - **projectId** The project Id
+ - **personId** Id of the person the project events belong to.

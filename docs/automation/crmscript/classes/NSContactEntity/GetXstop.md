@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactEntity_GetXstop
-description: NSContactEntity.GetXstop()
+description: Bool NSContactEntity.GetXstop()
 intellisense: NSContactEntity.GetXstop
-sortOrder: 1833
-keywords: GetXstop()
+keywords: NSContactEntity, GetXstop
 so.topic: reference
 ---
 
-
 STOP flag
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

@@ -1,19 +1,31 @@
----
-title: crmscript_ref_NSErpSyncAgent_GetCrmActorType_Integer_p_0_Integer_p_1
-description: NSErpSyncAgent.GetCrmActorType(Integer p_0, Integer p_1)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_GetCrmActorType
+description: Integer GetCrmActorType(Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.GetCrmActorType
-sortOrder: 3189
-keywords: GetCrmActorType(Integer,Integer)
+keywords: NSErpSyncAgent,GetCrmActorType
 so.topic: reference
 ---
 
-
 Retrieves the CrmActorType that are mapped to a specific ErpActorType for this connection
 
+**Parameters:**
+ - **erpConnectionId** The ERP connection ID
+ - **erpActorType** The ERP actor type
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Customer 
+     - Enum: 2 = Supplier 
+     - Enum: 3 = Partner 
+     - Enum: 4 = Person 
+     - Enum: 5 = Project 
+     - Enum: 6 = Employee 
+     - Enum: 7 = Sale 
 
+**Returns:** The CrmActorType
 
-* **erpConnectionId:** The ERP connection ID
-* **erpActorType:** The ERP actor type
-* **Returns:** The CrmActorType
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+Integer erpActorType;
+Integer res = agent.GetCrmActorType(erpConnectionId, erpActorType);
+```
 

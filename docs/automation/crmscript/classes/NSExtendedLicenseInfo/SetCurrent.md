@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSExtendedLicenseInfo_SetCurrent_NSLicenseInfo_p_0
-description: NSExtendedLicenseInfo.SetCurrent(NSLicenseInfo p_0)
+﻿---
+title: crmscript_ref_NSExtendedLicenseInfo_SetCurrent
+description: NSExtendedLicenseInfo.SetCurrent(LicenseInfo current)
 intellisense: NSExtendedLicenseInfo.SetCurrent
-sortOrder: 3411
-keywords: SetCurrent(NSLicenseInfo)
+keywords: NSExtendedLicenseInfo, GetCurrent
 so.topic: reference
 ---
 
 
-* **Current:** LicenseInfo
-* **Returns:** LicenseInfo
 
+**Parameter:** 
+ - **current** LicenseInfo
 

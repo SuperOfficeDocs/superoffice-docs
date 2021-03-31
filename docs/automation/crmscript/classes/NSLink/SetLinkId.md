@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLink_SetLinkId_Integer_p_0
-description: NSLink.SetLinkId(Integer p_0)
+﻿---
+title: crmscript_ref_NSLink_SetLinkId
+description: NSLink.SetLinkId(Integer linkId)
 intellisense: NSLink.SetLinkId
-keywords: SetLinkId(Integer)
+keywords: NSLink, GetLinkId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **LinkId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **linkId** Integer
 

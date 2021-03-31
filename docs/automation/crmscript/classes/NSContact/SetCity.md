@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContact_SetCity_String_p_0
-description: NSContact.SetCity(String p_0)
+﻿---
+title: crmscript_ref_NSContact_SetCity
+description: NSContact.SetCity(String city)
 intellisense: NSContact.SetCity
-sortOrder: 1748
-keywords: SetCity(String)
+keywords: NSContact, GetCity
 so.topic: reference
 ---
 
-
 City corresponding to zip code
 
-
-
-* **City:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **city** String
 

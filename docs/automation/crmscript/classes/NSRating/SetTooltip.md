@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSRating_SetTooltip_String_p_0
-description: NSRating.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSRating_SetTooltip
+description: NSRating.SetTooltip(String tooltip)
 intellisense: NSRating.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSRating, SetTooltip
 so.topic: reference
 ---
 
+Set the tooltip description for the list item.
 
-* **tooltip:** String
-* **Returns:** Void
-
+**Parameter:** 
+ - **tooltip** String tooltip description.
 

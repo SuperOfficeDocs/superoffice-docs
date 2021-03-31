@@ -1,18 +1,17 @@
----
-title: crmscript_ref_NSImportLine_SetType_Integer_p_0
-description: NSImportLine.SetType(Integer p_0)
+﻿---
+title: crmscript_ref_NSImportLine_SetType
+description: NSImportLine.SetType(Integer type)
 intellisense: NSImportLine.SetType
-sortOrder: 3982
-keywords: SetType(Integer)
+keywords: NSImportLine, GetType
 so.topic: reference
 ---
 
-
 Which entity type will be created? This is a read-only property
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Person 
+     - Enum: 2 = Contact 
+     - Enum: 4 = Product 
 

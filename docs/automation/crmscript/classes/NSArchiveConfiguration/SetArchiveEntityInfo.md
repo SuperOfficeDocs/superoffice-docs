@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSArchiveConfiguration_SetArchiveEntityInfo_NSSelectableMDOListItem__p_0
-description: NSArchiveConfiguration.SetArchiveEntityInfo(NSSelectableMDOListItem[] p_0)
+﻿---
+title: crmscript_ref_NSArchiveConfiguration_SetArchiveEntityInfo
+description: NSArchiveConfiguration.SetArchiveEntityInfo(SelectableMDOListItemArray archiveEntityInfo)
 intellisense: NSArchiveConfiguration.SetArchiveEntityInfo
-sortOrder: 1172
-keywords: SetArchiveEntityInfo(NSSelectableMDOListItem[])
+keywords: NSArchiveConfiguration, GetArchiveEntityInfo
 so.topic: reference
 ---
 
 
-* **ArchiveEntityInfo:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
 
+**Parameter:** 
+ - **archiveEntityInfo** SelectableMDOListItemArray
 

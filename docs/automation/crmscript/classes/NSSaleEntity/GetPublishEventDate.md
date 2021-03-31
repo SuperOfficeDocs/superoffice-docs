@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetPublishEventDate
-description: NSSaleEntity.GetPublishEventDate()
+description: DateTime NSSaleEntity.GetPublishEventDate()
 intellisense: NSSaleEntity.GetPublishEventDate
-keywords: GetPublishEventDate()
+keywords: NSSaleEntity, GetPublishEventDate
 so.topic: reference
 ---
 
+Publish event date.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime
 

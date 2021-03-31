@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSExtAppEntity_SetExtAppId_Integer_p_0
-description: NSExtAppEntity.SetExtAppId(Integer p_0)
+﻿---
+title: crmscript_ref_NSExtAppEntity_SetExtAppId
+description: NSExtAppEntity.SetExtAppId(Integer extAppId)
 intellisense: NSExtAppEntity.SetExtAppId
-sortOrder: 3381
-keywords: SetExtAppId(Integer)
+keywords: NSExtAppEntity, GetExtAppId
 so.topic: reference
 ---
 
-
 The identity of the external app
 
-
-
-* **ExtAppId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **extAppId** Integer
 

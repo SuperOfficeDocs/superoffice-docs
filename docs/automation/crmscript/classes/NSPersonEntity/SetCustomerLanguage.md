@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSPersonEntity_SetCustomerLanguage_NSCustomerLanguage_p_0
-description: NSPersonEntity.SetCustomerLanguage(NSCustomerLanguage p_0)
+﻿---
+title: crmscript_ref_NSPersonEntity_SetCustomerLanguage
+description: NSPersonEntity.SetCustomerLanguage(CustomerLanguage customerLanguage)
 intellisense: NSPersonEntity.SetCustomerLanguage
-keywords: SetCustomerLanguage(NSCustomerLanguage)
+keywords: NSPersonEntity, GetCustomerLanguage
 so.topic: reference
 ---
 
 
-* **CustomerLanguage:** CustomerLanguage
-* **Returns:** CustomerLanguage
 
+**Parameter:** 
+ - **customerLanguage** CustomerLanguage
 

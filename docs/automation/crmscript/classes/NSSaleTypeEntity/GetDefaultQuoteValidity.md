@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleTypeEntity_GetDefaultQuoteValidity
-description: NSSaleTypeEntity.GetDefaultQuoteValidity()
+description: Integer NSSaleTypeEntity.GetDefaultQuoteValidity()
 intellisense: NSSaleTypeEntity.GetDefaultQuoteValidity
-keywords: GetDefaultQuoteValidity()
+keywords: NSSaleTypeEntity, GetDefaultQuoteValidity
 so.topic: reference
 ---
 
-
 Default valid days for quotes linked to sales of this type (valid from quote transmission)
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSystemEventEntity_SetEventkey_String_p_0
-description: NSSystemEventEntity.SetEventkey(String p_0)
+﻿---
+title: crmscript_ref_NSSystemEventEntity_SetEventkey
+description: NSSystemEventEntity.SetEventkey(String eventkey)
 intellisense: NSSystemEventEntity.SetEventkey
-keywords: SetEventkey(String)
+keywords: NSSystemEventEntity, GetEventkey
 so.topic: reference
 ---
 
-
 Event key, predefined in code
 
-
-
-* **Eventkey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **eventkey** String
 

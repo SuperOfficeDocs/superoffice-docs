@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuotePublishDocuments_SetErrorMessage_String_p_0
-description: NSQuotePublishDocuments.SetErrorMessage(String p_0)
+﻿---
+title: crmscript_ref_NSQuotePublishDocuments_SetErrorMessage
+description: NSQuotePublishDocuments.SetErrorMessage(String errorMessage)
 intellisense: NSQuotePublishDocuments.SetErrorMessage
-keywords: SetErrorMessage(String)
+keywords: NSQuotePublishDocuments, GetErrorMessage
 so.topic: reference
 ---
 
-
 If something went wrong, show this message and do not continue
 
-
-
-* **ErrorMessage:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **errorMessage** String
 

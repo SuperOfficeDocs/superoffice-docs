@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplateEntity_SetLoadTemplateFromPlugin_Integer_p_0
-description: NSDocumentTemplateEntity.SetLoadTemplateFromPlugin(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplateEntity_SetLoadTemplateFromPlugin
+description: NSDocumentTemplateEntity.SetLoadTemplateFromPlugin(Integer loadTemplateFromPlugin)
 intellisense: NSDocumentTemplateEntity.SetLoadTemplateFromPlugin
-sortOrder: 2690
-keywords: SetLoadTemplateFromPlugin(Integer)
+keywords: NSDocumentTemplateEntity, GetLoadTemplateFromPlugin
 so.topic: reference
 ---
 
-
 Which document plugin is responsible for this template's contents
 
-
-
-* **LoadTemplateFromPlugin:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **loadTemplateFromPlugin** Integer
 

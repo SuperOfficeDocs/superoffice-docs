@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSelectableMDOListItem_GetType
-description: NSSelectableMDOListItem.GetType()
+description: String NSSelectableMDOListItem.GetType()
 intellisense: NSSelectableMDOListItem.GetType
-keywords: GetType()
+keywords: NSSelectableMDOListItem, GetType
 so.topic: reference
 ---
 
-
 The type of the ListItem. Custom field.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

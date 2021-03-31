@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactRelationEntity_SetActiveText_String_p_0
-description: NSContactRelationEntity.SetActiveText(String p_0)
+﻿---
+title: crmscript_ref_NSContactRelationEntity_SetActiveText
+description: NSContactRelationEntity.SetActiveText(String activeText)
 intellisense: NSContactRelationEntity.SetActiveText
-sortOrder: 1962
-keywords: SetActiveText(String)
+keywords: NSContactRelationEntity, GetActiveText
 so.topic: reference
 ---
 
-
 Active text for the relation.
 
-
-
-* **ActiveText:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **activeText** String
 

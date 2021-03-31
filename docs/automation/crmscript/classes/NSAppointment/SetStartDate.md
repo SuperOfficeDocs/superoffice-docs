@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSAppointment_SetStartDate_DateTime_p_0
-description: NSAppointment.SetStartDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAppointment_SetStartDate
+description: NSAppointment.SetStartDate(DateTime startDate)
 intellisense: NSAppointment.SetStartDate
-sortOrder: 817
-keywords: SetStartDate(DateTime)
+keywords: NSAppointment, GetStartDate
 so.topic: reference
 ---
 
-
 date + start time planned
 
-
-
-* **StartDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **startDate** DateTime
 

@@ -1,12 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSProductType_GetId
-description: NSProductType.GetId()
+description: Integer NSProductType.GetId()
 intellisense: NSProductType.GetId
-keywords: GetId()
+keywords: NSProductType, GetId
 so.topic: reference
 ---
 
+Get the primary key (id)
 
-* **Returns:** Integer
-
+**Returns:** Integer Id
 

@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactRelationEntity_GetUpdatedBy
-description: NSContactRelationEntity.GetUpdatedBy()
+description: Associate NSContactRelationEntity.GetUpdatedBy()
 intellisense: NSContactRelationEntity.GetUpdatedBy
-sortOrder: 1954
-keywords: GetUpdatedBy()
+keywords: NSContactRelationEntity, GetUpdatedBy
 so.topic: reference
 ---
 
 
-* **Returns:** Associate
+
+**Returns:** Associate
 
 

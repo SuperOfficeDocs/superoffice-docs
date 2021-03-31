@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncFieldMapping_GetCrmDisplayName
-description: NSErpSyncFieldMapping.GetCrmDisplayName()
+description: String NSErpSyncFieldMapping.GetCrmDisplayName()
 intellisense: NSErpSyncFieldMapping.GetCrmDisplayName
-sortOrder: 3297
-keywords: GetCrmDisplayName()
+keywords: NSErpSyncFieldMapping, GetCrmDisplayName
 so.topic: reference
 ---
 
-
 Display name of CRM field; ignored on Save
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

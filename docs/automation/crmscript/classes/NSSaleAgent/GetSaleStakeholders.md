@@ -1,12 +1,12 @@
----
-title: crmscript_ref_NSSaleAgent_GetSaleStakeholders_Integer_p_0
-description: NSSaleAgent.GetSaleStakeholders(Integer p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_GetSaleStakeholders
+description: SaleStakeholderArray GetSaleStakeholders(Integer saleId)
 intellisense: NSSaleAgent.GetSaleStakeholders
-keywords: GetSaleStakeholders(Integer)
+keywords: NSSaleAgent,GetSaleStakeholders
 so.topic: reference
 ---
 
 
-* **saleId**
 
-
+**Parameters:**
+ - **saleId** 

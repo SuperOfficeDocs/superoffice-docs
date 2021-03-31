@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersion_SetLikelyQuoteAlternativeId_Integer_p_0
-description: NSQuoteVersion.SetLikelyQuoteAlternativeId(Integer p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersion_SetLikelyQuoteAlternativeId
+description: NSQuoteVersion.SetLikelyQuoteAlternativeId(Integer likelyQuoteAlternativeId)
 intellisense: NSQuoteVersion.SetLikelyQuoteAlternativeId
-keywords: SetLikelyQuoteAlternativeId(Integer)
+keywords: NSQuoteVersion, GetLikelyQuoteAlternativeId
 so.topic: reference
 ---
 
-
 The alternative that is considered most likely to be accepted. Used to calculate probable income.
 
-
-
-* **LikelyQuoteAlternativeId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **likelyQuoteAlternativeId** Integer
 

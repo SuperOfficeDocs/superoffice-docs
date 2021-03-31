@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRefCountEntity_SetTravelPrefix_Integer_p_0
-description: NSRefCountEntity.SetTravelPrefix(Integer p_0)
+﻿---
+title: crmscript_ref_NSRefCountEntity_SetTravelPrefix
+description: NSRefCountEntity.SetTravelPrefix(Integer travelPrefix)
 intellisense: NSRefCountEntity.SetTravelPrefix
-keywords: SetTravelPrefix(Integer)
+keywords: NSRefCountEntity, GetTravelPrefix
 so.topic: reference
 ---
 
-
 size of prefix for Travel use of ths counter
 
-
-
-* **TravelPrefix:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **travelPrefix** Integer
 

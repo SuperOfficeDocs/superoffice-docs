@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSalesActivity_SetRequestedContacts_NSContact__p_0
-description: NSSalesActivity.SetRequestedContacts(NSContact[] p_0)
+﻿---
+title: crmscript_ref_NSSalesActivity_SetRequestedContacts
+description: NSSalesActivity.SetRequestedContacts(ContactArray requestedContacts)
 intellisense: NSSalesActivity.SetRequestedContacts
-keywords: SetRequestedContacts(NSContact[])
+keywords: NSSalesActivity, GetRequestedContacts
 so.topic: reference
 ---
 
-
 The companies that match the request
 
-
-
-* **RequestedContacts:** ContactArray
-* **Returns:** ContactArray
-
+**Parameter:** 
+ - **requestedContacts** ContactArray
 

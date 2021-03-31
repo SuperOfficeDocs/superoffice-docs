@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuickReply_SetHtmlBody_String_p_0
-description: NSQuickReply.SetHtmlBody(String p_0)
+﻿---
+title: crmscript_ref_NSQuickReply_SetHtmlBody
+description: NSQuickReply.SetHtmlBody(String htmlBody)
 intellisense: NSQuickReply.SetHtmlBody
-keywords: SetHtmlBody(String)
+keywords: NSQuickReply, GetHtmlBody
 so.topic: reference
 ---
 
-
 The html body of the quick reply
 
-
-
-* **HtmlBody:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **htmlBody** String
 

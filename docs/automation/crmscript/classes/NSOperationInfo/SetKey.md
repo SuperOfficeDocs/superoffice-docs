@@ -1,13 +1,13 @@
----
-title: crmscript_ref_NSOperationInfo_SetKey_String_p_0
-description: NSOperationInfo.SetKey(String p_0)
+﻿---
+title: crmscript_ref_NSOperationInfo_SetKey
+description: NSOperationInfo.SetKey(String key)
 intellisense: NSOperationInfo.SetKey
-keywords: SetKey(String)
+keywords: NSOperationInfo, GetKey
 so.topic: reference
 ---
 
 
-* **Key:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **key** String
 

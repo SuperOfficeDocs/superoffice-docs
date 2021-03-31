@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSBatchTaskInfo_SetDetailsTable_Integer_p_0
-description: NSBatchTaskInfo.SetDetailsTable(Integer p_0)
+﻿---
+title: crmscript_ref_NSBatchTaskInfo_SetDetailsTable
+description: NSBatchTaskInfo.SetDetailsTable(Integer detailsTable)
 intellisense: NSBatchTaskInfo.SetDetailsTable
-sortOrder: 1391
-keywords: SetDetailsTable(Integer)
+keywords: NSBatchTaskInfo, GetDetailsTable
 so.topic: reference
 ---
 
-
 Id of table with more information about the task.
 
-
-
-* **DetailsTable:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **detailsTable** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEvent_SetSignOffConfirmationText_String_p_0
-description: NSProjectEvent.SetSignOffConfirmationText(String p_0)
+﻿---
+title: crmscript_ref_NSProjectEvent_SetSignOffConfirmationText
+description: NSProjectEvent.SetSignOffConfirmationText(String signOffConfirmationText)
 intellisense: NSProjectEvent.SetSignOffConfirmationText
-keywords: SetSignOffConfirmationText(String)
+keywords: NSProjectEvent, GetSignOffConfirmationText
 so.topic: reference
 ---
 
-
 Text shown as confirmation text before accepting sign off.
 
-
-
-* **SignOffConfirmationText:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **signOffConfirmationText** String
 

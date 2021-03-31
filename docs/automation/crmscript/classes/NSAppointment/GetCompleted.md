@@ -1,17 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSAppointment_GetCompleted
-description: NSAppointment.GetCompleted()
+description: Integer NSAppointment.GetCompleted()
 intellisense: NSAppointment.GetCompleted
-sortOrder: 733
-keywords: GetCompleted()
+keywords: NSAppointment, GetCompleted
 so.topic: reference
 ---
 
+The Completed state. 
 
-The Completed state.
+**Returns:** Integer
 
-
-
-* **Returns:** Integer
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 

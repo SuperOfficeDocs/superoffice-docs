@@ -1,17 +1,23 @@
----
-title: crmscript_ref_NSReportEntity_SetReportCategory_Integer_p_0
-description: NSReportEntity.SetReportCategory(Integer p_0)
+﻿---
+title: crmscript_ref_NSReportEntity_SetReportCategory
+description: NSReportEntity.SetReportCategory(Integer reportCategory)
 intellisense: NSReportEntity.SetReportCategory
-keywords: SetReportCategory(Integer)
+keywords: NSReportEntity, GetReportCategory
 so.topic: reference
 ---
 
-
 The category of the report.
 
-
-
-* **ReportCategory:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **reportCategory** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = All 
+     - Enum: 2 = Contact 
+     - Enum: 3 = Project 
+     - Enum: 4 = Sale 
+     - Enum: 5 = Appointment 
+     - Enum: 6 = Selection 
+     - Enum: 7 = Person 
+     - Enum: 8 = Diary 
+     - Enum: 9 = Favorites 
 

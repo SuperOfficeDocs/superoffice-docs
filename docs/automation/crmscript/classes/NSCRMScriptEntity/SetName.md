@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCRMScriptEntity_SetName_String_p_0
-description: NSCRMScriptEntity.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSCRMScriptEntity_SetName
+description: NSCRMScriptEntity.SetName(String name)
 intellisense: NSCRMScriptEntity.SetName
-sortOrder: 2142
-keywords: SetName(String)
+keywords: NSCRMScriptEntity, GetName
 so.topic: reference
 ---
 
-
 A description of this script
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

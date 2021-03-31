@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoDecimal_GetDefaultValue
-description: NSFieldInfoDecimal.GetDefaultValue()
+description: Float NSFieldInfoDecimal.GetDefaultValue()
 intellisense: NSFieldInfoDecimal.GetDefaultValue
-sortOrder: 3505
-keywords: GetDefaultValue()
+keywords: NSFieldInfoDecimal, GetDefaultValue
 so.topic: reference
 ---
 
-
 Default decimal (double precision) value
 
-
-
-* **Returns:** Float
+**Returns:** Float
 
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailFolder_GetEmailFolderId
-description: NSEMailFolder.GetEmailFolderId()
+description: Integer NSEMailFolder.GetEmailFolderId()
 intellisense: NSEMailFolder.GetEmailFolderId
-sortOrder: 3029
-keywords: GetEmailFolderId()
+keywords: NSEMailFolder, GetEmailFolderId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

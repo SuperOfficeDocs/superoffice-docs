@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSContactActivity_GetDepartment
-description: NSContactActivity.GetDepartment()
+description: String NSContactActivity.GetDepartment()
 intellisense: NSContactActivity.GetDepartment
-sortOrder: 1776
-keywords: GetDepartment()
+keywords: NSContactActivity, GetDepartment
 so.topic: reference
 ---
 
-
 Department
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

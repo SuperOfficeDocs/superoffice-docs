@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayTooltip_String_p_0
-description: NSQuoteVersionStatusInformation.SetDisplayTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayTooltip
+description: NSQuoteVersionStatusInformation.SetDisplayTooltip(String displayTooltip)
 intellisense: NSQuoteVersionStatusInformation.SetDisplayTooltip
-keywords: SetDisplayTooltip(String)
+keywords: NSQuoteVersionStatusInformation, GetDisplayTooltip
 so.topic: reference
 ---
 
-
 Generated full tooltip for the Quote Version. Will check for errors on quote lines, alternatives and the version itself.
 
-
-
-* **DisplayTooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **displayTooltip** String
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSDocumentAgent_SaveDocumentEntity_NSDocumentEntity_p_0
-description: NSDocumentAgent.SaveDocumentEntity(NSDocumentEntity p_0)
+﻿---
+title: crmscript_ref_NSDocumentAgent_SaveDocumentEntity
+description: NSDocumentEntity SaveDocumentEntity(NSDocumentEntity documentEntity);
 intellisense: NSDocumentAgent.SaveDocumentEntity
-sortOrder: 2505
-keywords: SaveDocumentEntity(NSDocumentEntity)
+keywords: NSDocumentAgent,SaveDocumentEntity
 so.topic: reference
 ---
+	  
+Updates the existing NSDocumentEntity or creates a new NSDocumentEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **documentEntity** The NSDocumentEntity to save.
 
+**Returns:** New or updated NSDocumentEntity
 
-Updates the existing DocumentEntity or creates a new DocumentEntity if the id parameter is empty
-
-
-
-* **documentEntity:** The DocumentEntity that is saved
-* **Returns:** New or updated DocumentEntity
-
+```crmscript
+NSDocument  agent;
+NSDocumentEntity thing = agent.CreateDefaultDocumentEntity();
+thing = agent.SaveDocumentEntity(thing);
+```
 

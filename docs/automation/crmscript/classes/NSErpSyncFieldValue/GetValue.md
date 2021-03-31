@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncFieldValue_GetValue
-description: NSErpSyncFieldValue.GetValue()
+description: String NSErpSyncFieldValue.GetValue()
 intellisense: NSErpSyncFieldValue.GetValue
-sortOrder: 3330
-keywords: GetValue()
+keywords: NSErpSyncFieldValue, GetValue
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

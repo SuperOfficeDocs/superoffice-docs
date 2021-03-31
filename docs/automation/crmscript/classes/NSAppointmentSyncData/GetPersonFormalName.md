@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAppointmentSyncData_GetPersonFormalName
-description: NSAppointmentSyncData.GetPersonFormalName()
+description: String NSAppointmentSyncData.GetPersonFormalName()
 intellisense: NSAppointmentSyncData.GetPersonFormalName
-sortOrder: 1061
-keywords: GetPersonFormalName()
+keywords: NSAppointmentSyncData, GetPersonFormalName
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

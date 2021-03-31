@@ -1,12 +1,12 @@
----
-title: crmscript_ref_NSSaleAgent_DeleteSaleStakeholders_Integer__p_0
-description: NSSaleAgent.DeleteSaleStakeholders(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSSaleAgent_DeleteSaleStakeholders
+description: Void DeleteSaleStakeholders(IntegerArray saleStakeholderIds)
 intellisense: NSSaleAgent.DeleteSaleStakeholders
-keywords: DeleteSaleStakeholders(Integer[])
+keywords: NSSaleAgent,DeleteSaleStakeholders
 so.topic: reference
 ---
 
 
-* **saleStakeholderIds**
 
-
+**Parameters:**
+ - **saleStakeholderIds** 

@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSArchiveRestrictionInfo_SetUniqueHash_Integer_p_0
-description: NSArchiveRestrictionInfo.SetUniqueHash(Integer p_0)
+﻿---
+title: crmscript_ref_NSArchiveRestrictionInfo_SetUniqueHash
+description: NSArchiveRestrictionInfo.SetUniqueHash(Integer uniqueHash)
 intellisense: NSArchiveRestrictionInfo.SetUniqueHash
-sortOrder: 1236
-keywords: SetUniqueHash(Integer)
+keywords: NSArchiveRestrictionInfo, GetUniqueHash
 so.topic: reference
 ---
 
 
-* **UniqueHash:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **uniqueHash** Integer
 

@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetCreatedDate
-description: NSSaleEntity.GetCreatedDate()
+description: DateTime NSSaleEntity.GetCreatedDate()
 intellisense: NSSaleEntity.GetCreatedDate
-keywords: GetCreatedDate()
+keywords: NSSaleEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered date
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

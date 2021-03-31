@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSConsentInfo_GetRegisteredAssociateId
-description: NSConsentInfo.GetRegisteredAssociateId()
+description: Integer NSConsentInfo.GetRegisteredAssociateId()
 intellisense: NSConsentInfo.GetRegisteredAssociateId
-sortOrder: 1634
-keywords: GetRegisteredAssociateId()
+keywords: NSConsentInfo, GetRegisteredAssociateId
 so.topic: reference
 ---
 
-
 The ID of the associate who created this record
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

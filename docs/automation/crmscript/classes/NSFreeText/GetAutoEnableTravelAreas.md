@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFreeText_GetAutoEnableTravelAreas
-description: NSFreeText.GetAutoEnableTravelAreas()
+description: Bool NSFreeText.GetAutoEnableTravelAreas()
 intellisense: NSFreeText.GetAutoEnableTravelAreas
-sortOrder: 3852
-keywords: GetAutoEnableTravelAreas()
+keywords: NSFreeText, GetAutoEnableTravelAreas
 so.topic: reference
 ---
 
-
 Automatically enable freetext search for new travel areas
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

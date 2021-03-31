@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailSOInfo_GetAppointmentId
-description: NSEMailSOInfo.GetAppointmentId()
+description: Integer NSEMailSOInfo.GetAppointmentId()
 intellisense: NSEMailSOInfo.GetAppointmentId
-sortOrder: 3046
-keywords: GetAppointmentId()
+keywords: NSEMailSOInfo, GetAppointmentId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

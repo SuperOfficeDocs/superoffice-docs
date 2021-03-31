@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSEMailAttachment
 description: NSEMailAttachment
 intellisense: Void.NSEMailAttachment
-sortOrder: 2890
+keywords: NSEMailAttachment
 so.topic: reference
 ---
 
-
 Information about an attachment
 
-
-
-
-1. autolist
+1. autolist 
 

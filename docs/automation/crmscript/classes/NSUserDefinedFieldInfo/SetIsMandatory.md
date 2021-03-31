@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetIsMandatory_Bool_p_0
-description: NSUserDefinedFieldInfo.SetIsMandatory(Bool p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetIsMandatory
+description: NSUserDefinedFieldInfo.SetIsMandatory(Bool isMandatory)
 intellisense: NSUserDefinedFieldInfo.SetIsMandatory
-keywords: SetIsMandatory(Bool)
+keywords: NSUserDefinedFieldInfo, GetIsMandatory
 so.topic: reference
 ---
 
-
 0 = no, 1 = yes (field must be filled out)
 
-
-
-* **IsMandatory:** Bool
-* **Returns:** Bool
-
+**Parameter:** 
+ - **isMandatory** Bool
 

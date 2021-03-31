@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocumentTemplate_SetDocumentTemplateId_Integer_p_0
-description: NSDocumentTemplate.SetDocumentTemplateId(Integer p_0)
+﻿---
+title: crmscript_ref_NSDocumentTemplate_SetDocumentTemplateId
+description: NSDocumentTemplate.SetDocumentTemplateId(Integer documentTemplateId)
 intellisense: NSDocumentTemplate.SetDocumentTemplateId
-sortOrder: 2639
-keywords: SetDocumentTemplateId(Integer)
+keywords: NSDocumentTemplate, GetDocumentTemplateId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **DocumentTemplateId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **documentTemplateId** Integer
 

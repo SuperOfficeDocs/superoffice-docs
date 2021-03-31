@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPerson_GetContactPhone
-description: NSPerson.GetContactPhone()
+description: String NSPerson.GetContactPhone()
 intellisense: NSPerson.GetContactPhone
-keywords: GetContactPhone()
+keywords: NSPerson, GetContactPhone
 so.topic: reference
 ---
 
-
 Returns the direct phone that belong to the persons contact.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

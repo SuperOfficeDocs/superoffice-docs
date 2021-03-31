@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEntity_SetUrls_NSEntityElement__p_0
-description: NSProjectEntity.SetUrls(NSEntityElement[] p_0)
+﻿---
+title: crmscript_ref_NSProjectEntity_SetUrls
+description: NSProjectEntity.SetUrls(EntityElementArray urls)
 intellisense: NSProjectEntity.SetUrls
-keywords: SetUrls(NSEntityElement[])
+keywords: NSProjectEntity, GetUrls
 so.topic: reference
 ---
 
-
 The project's internet adresses
 
-
-
-* **Urls:** EntityElementArray
-* **Returns:** EntityElementArray
-
+**Parameter:** 
+ - **urls** EntityElementArray
 

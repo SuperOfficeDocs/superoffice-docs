@@ -1,13 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocument_GetDocumentTemplate
-description: NSDocument.GetDocumentTemplate()
+description: String NSDocument.GetDocumentTemplate()
 intellisense: NSDocument.GetDocumentTemplate
-sortOrder: 2439
-keywords: GetDocumentTemplate()
+keywords: NSDocument, GetDocumentTemplate
 so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
 
 

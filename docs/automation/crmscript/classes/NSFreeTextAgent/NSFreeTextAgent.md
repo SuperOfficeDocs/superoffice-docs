@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSFreeTextAgent
 description: NSFreeTextAgent
 intellisense: Void.NSFreeTextAgent
-sortOrder: 3866
+keywords: NSFreeTextAgent
 so.topic: reference
 ---
 
-
 This agent can be used to manage the free text system
 
-
-
+```crmscript
+NSFreeTextAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

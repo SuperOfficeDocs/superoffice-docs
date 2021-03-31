@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSHistory_SetItemInfo_String_p_0
-description: NSHistory.SetItemInfo(String p_0)
+﻿---
+title: crmscript_ref_NSHistory_SetItemInfo
+description: NSHistory.SetItemInfo(String itemInfo)
 intellisense: NSHistory.SetItemInfo
-sortOrder: 3937
-keywords: SetItemInfo(String)
+keywords: NSHistory, GetItemInfo
 so.topic: reference
 ---
 
-
 Extra information on the history item, e.g. The Associate Type for an associate or other relevant info.
 
-
-
-* **ItemInfo:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **itemInfo** String
 

@@ -1,0 +1,13 @@
+﻿---
+title: crmscript_ref_NSTypicalSearch_SetIncludePerson
+description: NSTypicalSearch.SetIncludePerson(Integer includePerson)
+intellisense: NSTypicalSearch.SetIncludePerson
+keywords: NSTypicalSearch, GetIncludePerson
+so.topic: reference
+---
+
+For selection-of-company: state of the Include Main Contact checkbox
+
+**Parameter:** 
+ - **includePerson** Integer
+

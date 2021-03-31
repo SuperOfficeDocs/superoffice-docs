@@ -1,18 +1,18 @@
----
-title: crmscript_ref_NSErpConnectionData_SetCrmActorType_Integer_p_0
-description: NSErpConnectionData.SetCrmActorType(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpConnectionData_SetCrmActorType
+description: NSErpConnectionData.SetCrmActorType(Integer crmActorType)
 intellisense: NSErpConnectionData.SetCrmActorType
-sortOrder: 3116
-keywords: SetCrmActorType(Integer)
+keywords: NSErpConnectionData, GetCrmActorType
 so.topic: reference
 ---
 
-
 The crm actor type which these fields belongs to
 
-
-
-* **CrmActorType:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **crmActorType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Contact 
+     - Enum: 2 = Person 
+     - Enum: 3 = Project 
+     - Enum: 4 = Sale 
 

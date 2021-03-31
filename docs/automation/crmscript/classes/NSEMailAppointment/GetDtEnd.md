@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAppointment_GetDtEnd
-description: NSEMailAppointment.GetDtEnd()
+description: DateTime NSEMailAppointment.GetDtEnd()
 intellisense: NSEMailAppointment.GetDtEnd
-sortOrder: 2875
-keywords: GetDtEnd()
+keywords: NSEMailAppointment, GetDtEnd
 so.topic: reference
 ---
 
-
 End date/time in ICS file.
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

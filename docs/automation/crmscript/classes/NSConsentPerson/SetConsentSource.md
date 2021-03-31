@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentPerson_SetConsentSource_NSConsentSource_p_0
-description: NSConsentPerson.SetConsentSource(NSConsentSource p_0)
+﻿---
+title: crmscript_ref_NSConsentPerson_SetConsentSource
+description: NSConsentPerson.SetConsentSource(ConsentSource consentSource)
 intellisense: NSConsentPerson.SetConsentSource
-sortOrder: 1669
-keywords: SetConsentSource(NSConsentSource)
+keywords: NSConsentPerson, GetConsentSource
 so.topic: reference
 ---
 
-
 The consent source
 
-
-
-* **ConsentSource:** ConsentSource
-* **Returns:** ConsentSource
-
+**Parameter:** 
+ - **consentSource** ConsentSource
 

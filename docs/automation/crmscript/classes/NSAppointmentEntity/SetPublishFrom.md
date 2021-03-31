@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetPublishFrom_DateTime_p_0
-description: NSAppointmentEntity.SetPublishFrom(DateTime p_0)
-intellisense: NSAppointmentEntity.SetPublishFrom
-sortOrder: 1024
-keywords: SetPublishFrom(DateTime)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetVisibleFor
+description: NSAppointmentEntity.SetVisibleFor(DateTime publishFrom)
+intellisense: NSAppointmentEntity.VisibleForArray
+keywords: NSAppointmentEntity, VisibleForArray
 so.topic: reference
 ---
 
+Set the publish from date.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishFrom** DateTime.
 

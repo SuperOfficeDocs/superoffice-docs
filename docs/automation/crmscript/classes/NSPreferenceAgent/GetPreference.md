@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSPreferenceAgent_GetPreference_Integer_p_0
-description: NSPreferenceAgent.GetPreference(Integer p_0)
+﻿---
+title: crmscript_ref_NSPreferenceAgent_GetPreference
+description: Preference GetPreference(Integer id)
 intellisense: NSPreferenceAgent.GetPreference
-keywords: GetPreference(Integer)
+keywords: NSPreferenceAgent,GetPreference
 so.topic: reference
 ---
 
-
 Get a preference by id
 
+**Parameters:**
+ - **id** The id of the preference to load
 
+**Returns:** The preference loaded
 
-* **id:** The id of the preference to load
-* **Returns:** The preference loaded
-
+```crmscript
+NSPreferenceAgent agent;
+Integer id;
+Preference res = agent.GetPreference(id);
+```
 

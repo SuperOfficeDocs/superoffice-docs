@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUser_SetLicenseOwners_NSLicenseOwner__p_0
-description: NSUser.SetLicenseOwners(NSLicenseOwner[] p_0)
+﻿---
+title: crmscript_ref_NSUser_SetLicenseOwners
+description: NSUser.SetLicenseOwners(LicenseOwnerArray licenseOwners)
 intellisense: NSUser.SetLicenseOwners
-keywords: SetLicenseOwners(NSLicenseOwner[])
+keywords: NSUser, GetLicenseOwners
 so.topic: reference
 ---
 
-
 The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user
 
-
-
-* **LicenseOwners:** LicenseOwnerArray
-* **Returns:** LicenseOwnerArray
-
+**Parameter:** 
+ - **licenseOwners** LicenseOwnerArray
 

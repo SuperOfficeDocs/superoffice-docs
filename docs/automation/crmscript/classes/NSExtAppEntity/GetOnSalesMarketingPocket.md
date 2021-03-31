@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSExtAppEntity_GetOnSalesMarketingPocket
-description: NSExtAppEntity.GetOnSalesMarketingPocket()
+description: Bool NSExtAppEntity.GetOnSalesMarketingPocket()
 intellisense: NSExtAppEntity.GetOnSalesMarketingPocket
-sortOrder: 3359
-keywords: GetOnSalesMarketingPocket()
+keywords: NSExtAppEntity, GetOnSalesMarketingPocket
 so.topic: reference
 ---
 
-
 Is the webpanel visible when user is on pocket client
 
-
-
-* **Returns:** Bool
+**Returns:** Bool
 
 

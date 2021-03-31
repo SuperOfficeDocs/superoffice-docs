@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectMember_SetProjectId_Integer_p_0
-description: NSProjectMember.SetProjectId(Integer p_0)
+﻿---
+title: crmscript_ref_NSProjectMember_SetProjectId
+description: NSProjectMember.SetProjectId(Integer projectId)
 intellisense: NSProjectMember.SetProjectId
-keywords: SetProjectId(Integer)
+keywords: NSProjectMember, GetProjectId
 so.topic: reference
 ---
 
-
 Parent project - the project this project member belongs to.
 
-
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **projectId** Integer
 

@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAppointment_GetSequence
-description: NSEMailAppointment.GetSequence()
+description: Integer NSEMailAppointment.GetSequence()
 intellisense: NSEMailAppointment.GetSequence
-sortOrder: 2878
-keywords: GetSequence()
+keywords: NSEMailAppointment, GetSequence
 so.topic: reference
 ---
 
-
 Sequence number in ICS file.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,21 +1,27 @@
----
-title: crmscript_ref_NSFindAgent_CreateRestrictionGroup_String_p_0_String_p_1_String_p_2_String_p_3
-description: NSFindAgent.CreateRestrictionGroup(String p_0, String p_1, String p_2, String p_3)
+﻿---
+title: crmscript_ref_NSFindAgent_CreateRestrictionGroup
+description: ArchiveRestrictionGroup CreateRestrictionGroup(String storageType, String providerName, String storageKey, String context)
 intellisense: NSFindAgent.CreateRestrictionGroup
-sortOrder: 3658
-keywords: CreateRestrictionGroup(String,String,String,String)
+keywords: NSFindAgent,CreateRestrictionGroup
 so.topic: reference
 ---
 
-
 Create a restriction group, initialized with next rank etc.
 
+**Parameters:**
+ - **storageType** Restriction storage type specification, either 'Criteria' or 'Reporter' (or possible extensions)
+ - **providerName** Name of archive provider that is the intended consumer of the restrictions
+ - **storageKey** Storage key to be interpreted by the restriction storage provider, when it saves the restrictions as criteria
+ - **context** Optional context that can be used by FindProvider
 
+**Returns:** The new restriction group.
 
-* **storageType:** Restriction storage type specification, either 'Criteria' or 'Reporter' (or possible extensions)
-* **providerName:** Name of archive provider that is the intended consumer of the restrictions
-* **storageKey:** Storage key to be interpreted by the restriction storage provider, when it saves the restrictions as criteria
-* **context:** Optional context that can be used by FindProvider
-* **Returns:** The new restriction group.
-
+```crmscript
+NSFindAgent agent;
+String storageType;
+String providerName;
+String storageKey;
+String context;
+ArchiveRestrictionGroup res = agent.CreateRestrictionGroup(storageType, providerName, storageKey, context);
+```
 

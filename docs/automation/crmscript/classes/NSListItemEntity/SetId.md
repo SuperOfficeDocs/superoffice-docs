@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSListItemEntity_SetId_Integer_p_0
-description: NSListItemEntity.SetId(Integer p_0)
+﻿---
+title: crmscript_ref_NSListItemEntity_SetId
+description: NSListItemEntity.SetId(Integer id)
 intellisense: NSListItemEntity.SetId
-keywords: SetId(Integer)
+keywords: NSListItemEntity, GetId
 so.topic: reference
 ---
 
-
 The identity of the list item
 
-
-
-* **Id:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **id** Integer
 

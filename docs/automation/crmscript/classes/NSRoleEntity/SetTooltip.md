@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetTooltip_String_p_0
-description: NSRoleEntity.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetTooltip
+description: NSRoleEntity.SetTooltip(String tooltip)
 intellisense: NSRoleEntity.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSRoleEntity, GetTooltip
 so.topic: reference
 ---
 
-
 Description of the role.
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

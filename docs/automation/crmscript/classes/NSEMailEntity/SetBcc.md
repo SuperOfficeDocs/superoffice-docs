@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEMailEntity_SetBcc_NSEMailAddress__p_0
-description: NSEMailEntity.SetBcc(NSEMailAddress[] p_0)
+﻿---
+title: crmscript_ref_NSEMailEntity_SetBcc
+description: NSEMailEntity.SetBcc(EMailAddressArray bcc)
 intellisense: NSEMailEntity.SetBcc
-sortOrder: 2974
-keywords: SetBcc(NSEMailAddress[])
+keywords: NSEMailEntity, GetBcc
 so.topic: reference
 ---
 
-
 Bcc recipient of e-mail
 
-
-
-* **Bcc:** EMailAddressArray
-* **Returns:** EMailAddressArray
-
+**Parameter:** 
+ - **bcc** EMailAddressArray
 

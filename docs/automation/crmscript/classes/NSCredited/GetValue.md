@@ -1,13 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCredited_GetValue
-description: NSCredited.GetValue()
+description: String NSCredited.GetValue()
 intellisense: NSCredited.GetValue
-sortOrder: 2098
-keywords: GetValue()
+keywords: NSCredited, GetValue
 so.topic: reference
 ---
 
+Get the name of the item.
 
-* **Returns:** String
-
+**Returns:** String name
 

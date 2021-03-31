@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSImportErpData_SetImportLines_NSImportLine__p_0
-description: NSImportErpData.SetImportLines(NSImportLine[] p_0)
+﻿---
+title: crmscript_ref_NSImportErpData_SetImportLines
+description: NSImportErpData.SetImportLines(ImportLineArray importLines)
 intellisense: NSImportErpData.SetImportLines
-sortOrder: 3971
-keywords: SetImportLines(NSImportLine[])
+keywords: NSImportErpData, GetImportLines
 so.topic: reference
 ---
 
-
 An array of Import lines
 
-
-
-* **ImportLines:** ImportLineArray
-* **Returns:** ImportLineArray
-
+**Parameter:** 
+ - **importLines** ImportLineArray
 

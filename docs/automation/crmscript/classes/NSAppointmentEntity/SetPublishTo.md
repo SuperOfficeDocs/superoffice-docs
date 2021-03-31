@@ -1,14 +1,13 @@
----
-title: crmscript_ref_NSAppointmentEntity_SetPublishTo_DateTime_p_0
-description: NSAppointmentEntity.SetPublishTo(DateTime p_0)
+﻿---
+title: crmscript_ref_NSAppointmentEntity_SetPublishTo
+description: NSAppointmentEntity.SetPublishTo(DateTime publishTo)
 intellisense: NSAppointmentEntity.SetPublishTo
-sortOrder: 1025
-keywords: SetPublishTo(DateTime)
+keywords: NSAppointmentEntity, SetPublishTo
 so.topic: reference
 ---
 
+Set the publish to date. After this date the event is no longer visible.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishTo** DateTime
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEntity_SetEndDate_DateTime_p_0
-description: NSProjectEntity.SetEndDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSProjectEntity_SetEndDate
+description: NSProjectEntity.SetEndDate(DateTime endDate)
 intellisense: NSProjectEntity.SetEndDate
-keywords: SetEndDate(DateTime)
+keywords: NSProjectEntity, GetEndDate
 so.topic: reference
 ---
 
-
 Planned end date for project, inhertied from type and later editable
 
-
-
-* **EndDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **endDate** DateTime
 

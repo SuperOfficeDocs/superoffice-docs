@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSSatellite_SetCreated_DateTime_p_0
-description: NSSatellite.SetCreated(DateTime p_0)
+﻿---
+title: crmscript_ref_NSSatellite_SetCreated
+description: NSSatellite.SetCreated(DateTime created)
 intellisense: NSSatellite.SetCreated
-keywords: SetCreated(DateTime)
+keywords: NSSatellite, GetCreated
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Created:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **created** DateTime
 

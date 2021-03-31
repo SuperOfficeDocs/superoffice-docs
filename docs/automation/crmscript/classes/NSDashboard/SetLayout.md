@@ -1,18 +1,20 @@
----
-title: crmscript_ref_NSDashboard_SetLayout_Integer_p_0
-description: NSDashboard.SetLayout(Integer p_0)
+﻿---
+title: crmscript_ref_NSDashboard_SetLayout
+description: NSDashboard.SetLayout(Integer layout)
 intellisense: NSDashboard.SetLayout
-sortOrder: 2268
-keywords: SetLayout(Integer)
+keywords: NSDashboard, GetLayout
 so.topic: reference
 ---
 
-
 The dashboard layout, how the tiles are organized on the screen
 
-
-
-* **Layout:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **layout** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = One 
+     - Enum: 2 = TwoVerticalSplit 
+     - Enum: 3 = ThreeESplit 
+     - Enum: 4 = TwoHorizontalSplit 
+     - Enum: 5 = ThreeTSplit 
+     - Enum: 7 = Four 
 

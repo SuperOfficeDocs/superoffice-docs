@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSModuleLicenseLink_SetTooltip_String_p_0
-description: NSModuleLicenseLink.SetTooltip(String p_0)
+﻿---
+title: crmscript_ref_NSModuleLicenseLink_SetTooltip
+description: NSModuleLicenseLink.SetTooltip(String tooltip)
 intellisense: NSModuleLicenseLink.SetTooltip
-keywords: SetTooltip(String)
+keywords: NSModuleLicenseLink, GetTooltip
 so.topic: reference
 ---
 
-
 The tooltip to be shown in some gui with details on the module license
 
-
-
-* **Tooltip:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tooltip** String
 

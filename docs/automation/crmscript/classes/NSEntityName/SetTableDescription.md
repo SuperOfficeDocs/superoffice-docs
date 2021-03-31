@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSEntityName_SetTableDescription_String_p_0
-description: NSEntityName.SetTableDescription(String p_0)
+﻿---
+title: crmscript_ref_NSEntityName_SetTableDescription
+description: NSEntityName.SetTableDescription(String tableDescription)
 intellisense: NSEntityName.SetTableDescription
-sortOrder: 3072
-keywords: SetTableDescription(String)
+keywords: NSEntityName, GetTableDescription
 so.topic: reference
 ---
 
-
 Name to be used in GUI, preferable a resource string
 
-
-
-* **TableDescription:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **tableDescription** String
 

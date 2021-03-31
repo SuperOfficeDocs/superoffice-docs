@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSFieldInfoBase_GetRank
-description: NSFieldInfoBase.GetRank()
+description: Integer NSFieldInfoBase.GetRank()
 intellisense: NSFieldInfoBase.GetRank
-sortOrder: 3468
-keywords: GetRank()
+keywords: NSFieldInfoBase, GetRank
 so.topic: reference
 ---
 
-
 Tab order, ranking within the custom fields.
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

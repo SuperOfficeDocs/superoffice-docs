@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetFormKey_String_p_0
-description: NSFormEntity.SetFormKey(String p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetFormKey
+description: NSFormEntity.SetFormKey(String formKey)
 intellisense: NSFormEntity.SetFormKey
-sortOrder: 3813
-keywords: SetFormKey(String)
+keywords: NSFormEntity, GetFormKey
 so.topic: reference
 ---
 
-
 A short string used as unique id to access this form
 
-
-
-* **FormKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **formKey** String
 

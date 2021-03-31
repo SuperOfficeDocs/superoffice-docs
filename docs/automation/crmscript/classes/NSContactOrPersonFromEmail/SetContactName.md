@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSContactOrPersonFromEmail_SetContactName_String_p_0
-description: NSContactOrPersonFromEmail.SetContactName(String p_0)
+﻿---
+title: crmscript_ref_NSContactOrPersonFromEmail_SetContactName
+description: NSContactOrPersonFromEmail.SetContactName(String contactName)
 intellisense: NSContactOrPersonFromEmail.SetContactName
-sortOrder: 1931
-keywords: SetContactName(String)
+keywords: NSContactOrPersonFromEmail, GetContactName
 so.topic: reference
 ---
 
-
 The contact name
 
-
-
-* **ContactName:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **contactName** String
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSUserDefinedFieldInfo_SetShortLabel_String_p_0
-description: NSUserDefinedFieldInfo.SetShortLabel(String p_0)
+﻿---
+title: crmscript_ref_NSUserDefinedFieldInfo_SetShortLabel
+description: NSUserDefinedFieldInfo.SetShortLabel(String shortLabel)
 intellisense: NSUserDefinedFieldInfo.SetShortLabel
-keywords: SetShortLabel(String)
+keywords: NSUserDefinedFieldInfo, GetShortLabel
 so.topic: reference
 ---
 
-
 Short name to be used in Archive headings and on page 1. If blank, the fieldLabel will be used everywhere.
 
-
-
-* **ShortLabel:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **shortLabel** String
 

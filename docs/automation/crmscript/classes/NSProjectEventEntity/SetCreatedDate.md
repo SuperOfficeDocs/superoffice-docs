@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSProjectEventEntity_SetCreatedDate_DateTime_p_0
-description: NSProjectEventEntity.SetCreatedDate(DateTime p_0)
+﻿---
+title: crmscript_ref_NSProjectEventEntity_SetCreatedDate
+description: NSProjectEventEntity.SetCreatedDate(DateTime createdDate)
 intellisense: NSProjectEventEntity.SetCreatedDate
-keywords: SetCreatedDate(DateTime)
+keywords: NSProjectEventEntity, GetCreatedDate
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **createdDate** DateTime
 

@@ -1,18 +1,21 @@
----
-title: crmscript_ref_NSErpSyncAgent_DeleteConnection_Integer_p_0
-description: NSErpSyncAgent.DeleteConnection(Integer p_0)
+﻿---
+title: crmscript_ref_NSErpSyncAgent_DeleteConnection
+description: Void DeleteConnection(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.DeleteConnection
-sortOrder: 3220
-keywords: DeleteConnection(Integer)
+keywords: NSErpSyncAgent,DeleteConnection
 so.topic: reference
 ---
 
-
 Deletes a connection from the database.
 
+**Parameters:**
+ - **erpConnectionId** Primary key of the connection
 
+**Returns:** A void return
 
-* **erpConnectionId:** Primary key of the connection
-* **Returns:** A void return
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+Void res = agent.DeleteConnection(erpConnectionId);
+```
 

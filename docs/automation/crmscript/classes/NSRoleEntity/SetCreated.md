@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSRoleEntity_SetCreated_DateTime_p_0
-description: NSRoleEntity.SetCreated(DateTime p_0)
+﻿---
+title: crmscript_ref_NSRoleEntity_SetCreated
+description: NSRoleEntity.SetCreated(DateTime created)
 intellisense: NSRoleEntity.SetCreated
-keywords: SetCreated(DateTime)
+keywords: NSRoleEntity, GetCreated
 so.topic: reference
 ---
 
-
 Registered when
 
-
-
-* **Created:** DateTime
-* **Returns:** DateTime
-
+**Parameter:** 
+ - **created** DateTime
 

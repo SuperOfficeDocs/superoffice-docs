@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSDocument_GetPersonId
-description: NSDocument.GetPersonId()
+description: Integer NSDocument.GetPersonId()
 intellisense: NSDocument.GetPersonId
-sortOrder: 2433
-keywords: GetPersonId()
+keywords: NSDocument, GetPersonId
 so.topic: reference
 ---
 
-
 Person ID of person the appointment is with, may be 0
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

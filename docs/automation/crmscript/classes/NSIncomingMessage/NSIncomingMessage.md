@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSIncomingMessage
 description: NSIncomingMessage
 intellisense: Void.NSIncomingMessage
-sortOrder: 3984
+keywords: NSIncomingMessage
 so.topic: reference
 ---
 
-
 Details about a message to be sent
 
-
-
-
-1. autolist
+1. autolist 
 

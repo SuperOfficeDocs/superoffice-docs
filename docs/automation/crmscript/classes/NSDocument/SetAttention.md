@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocument_SetAttention_String_p_0
-description: NSDocument.SetAttention(String p_0)
+﻿---
+title: crmscript_ref_NSDocument_SetAttention
+description: NSDocument.SetAttention(String attention)
 intellisense: NSDocument.SetAttention
-sortOrder: 2448
-keywords: SetAttention(String)
+keywords: NSDocument, GetAttention
 so.topic: reference
 ---
 
-
 Attention/salutation
 
-
-
-* **Attention:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **attention** String
 

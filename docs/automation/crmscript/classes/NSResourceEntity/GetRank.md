@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSResourceEntity_GetRank
-description: NSResourceEntity.GetRank()
+description: Integer NSResourceEntity.GetRank()
 intellisense: NSResourceEntity.GetRank
-keywords: GetRank()
+keywords: NSResourceEntity, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteContext_SetCRMSale_NSSale_p_0
-description: NSQuoteContext.SetCRMSale(NSSale p_0)
+﻿---
+title: crmscript_ref_NSQuoteContext_SetCRMSale
+description: NSQuoteContext.SetCRMSale(Sale cRMSale)
 intellisense: NSQuoteContext.SetCRMSale
-keywords: SetCRMSale(NSSale)
+keywords: NSQuoteContext, GetCRMSale
 so.topic: reference
 ---
 
-
 The sale the quote is registered in the CRM system.
 
-
-
-* **CRMSale:** Sale
-* **Returns:** Sale
-
+**Parameter:** 
+ - **cRMSale** Sale
 

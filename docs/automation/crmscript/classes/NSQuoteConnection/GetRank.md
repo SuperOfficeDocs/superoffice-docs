@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSQuoteConnection_GetRank
-description: NSQuoteConnection.GetRank()
+description: Integer NSQuoteConnection.GetRank()
 intellisense: NSQuoteConnection.GetRank
-keywords: GetRank()
+keywords: NSQuoteConnection, GetRank
 so.topic: reference
 ---
 
+Rank order 
 
-Rank order
-
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

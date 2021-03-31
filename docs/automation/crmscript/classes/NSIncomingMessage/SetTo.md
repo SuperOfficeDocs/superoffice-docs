@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSIncomingMessage_SetTo_String_p_0
-description: NSIncomingMessage.SetTo(String p_0)
+﻿---
+title: crmscript_ref_NSIncomingMessage_SetTo
+description: NSIncomingMessage.SetTo(String to)
 intellisense: NSIncomingMessage.SetTo
-sortOrder: 3997
-keywords: SetTo(String)
+keywords: NSIncomingMessage, GetTo
 so.topic: reference
 ---
 
-
 Address of the recipient. This can be in the form of phone number or email.
 
-
-
-* **To:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **to** String
 

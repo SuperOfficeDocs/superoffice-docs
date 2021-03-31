@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSEMailAttachment_GetSize
-description: NSEMailAttachment.GetSize()
+description: Integer NSEMailAttachment.GetSize()
 intellisense: NSEMailAttachment.GetSize
-sortOrder: 2892
-keywords: GetSize()
+keywords: NSEMailAttachment, GetSize
 so.topic: reference
 ---
 
-
 Size of attachment
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

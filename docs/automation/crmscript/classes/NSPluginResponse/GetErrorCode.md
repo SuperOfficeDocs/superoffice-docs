@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSPluginResponse_GetErrorCode
-description: NSPluginResponse.GetErrorCode()
+description: String NSPluginResponse.GetErrorCode()
 intellisense: NSPluginResponse.GetErrorCode
-keywords: GetErrorCode()
+keywords: NSPluginResponse, GetErrorCode
 so.topic: reference
 ---
 
-
 An error code, if available.
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

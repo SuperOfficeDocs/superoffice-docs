@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSErpSyncActorSummary
 description: NSErpSyncActorSummary
 intellisense: Void.NSErpSyncActorSummary
-sortOrder: 3150
+keywords: NSErpSyncActorSummary
 so.topic: reference
 ---
 
-
 Summary of the current setup of the ERP Integration, for one ERP actor
 
-
-
-
-1. autolist
+1. autolist 
 

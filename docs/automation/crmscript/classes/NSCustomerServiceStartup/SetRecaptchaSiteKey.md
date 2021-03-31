@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCustomerServiceStartup_SetRecaptchaSiteKey_String_p_0
-description: NSCustomerServiceStartup.SetRecaptchaSiteKey(String p_0)
+﻿---
+title: crmscript_ref_NSCustomerServiceStartup_SetRecaptchaSiteKey
+description: NSCustomerServiceStartup.SetRecaptchaSiteKey(String recaptchaSiteKey)
 intellisense: NSCustomerServiceStartup.SetRecaptchaSiteKey
-sortOrder: 2255
-keywords: SetRecaptchaSiteKey(String)
+keywords: NSCustomerServiceStartup, GetRecaptchaSiteKey
 so.topic: reference
 ---
 
-
 A global recaptcha site key, used with the google recaptcha component. This value is taken from the web.config file
 
-
-
-* **RecaptchaSiteKey:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **recaptchaSiteKey** String
 

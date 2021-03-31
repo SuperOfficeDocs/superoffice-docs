@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSForeignAppEntity_GetUpdatedDate
-description: NSForeignAppEntity.GetUpdatedDate()
+description: DateTime NSForeignAppEntity.GetUpdatedDate()
 intellisense: NSForeignAppEntity.GetUpdatedDate
-sortOrder: 3699
-keywords: GetUpdatedDate()
+keywords: NSForeignAppEntity, GetUpdatedDate
 so.topic: reference
 ---
 
-
 Last updated when
 
-
-
-* **Returns:** DateTime
+**Returns:** DateTime
 
 

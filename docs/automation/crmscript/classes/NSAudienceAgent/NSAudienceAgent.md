@@ -1,16 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSAudienceAgent
 description: NSAudienceAgent
 intellisense: Void.NSAudienceAgent
-sortOrder: 1288
+keywords: NSAudienceAgent
 so.topic: reference
 ---
 
-
 Services specific to the Audience client
 
-
-
+```crmscript
+NSAudienceAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

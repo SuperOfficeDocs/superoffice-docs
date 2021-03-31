@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFieldInfoRelation_SetDefaultValue_Integer_p_0
-description: NSFieldInfoRelation.SetDefaultValue(Integer p_0)
+﻿---
+title: crmscript_ref_NSFieldInfoRelation_SetDefaultValue
+description: NSFieldInfoRelation.SetDefaultValue(Integer defaultValue)
 intellisense: NSFieldInfoRelation.SetDefaultValue
-sortOrder: 3541
-keywords: SetDefaultValue(Integer)
+keywords: NSFieldInfoRelation, GetDefaultValue
 so.topic: reference
 ---
 
-
 Default record id.
 
-
-
-* **DefaultValue:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **defaultValue** Integer
 

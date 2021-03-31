@@ -1,16 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSSelectionAgent_GetDuplicateRules
-description: NSSelectionAgent.GetDuplicateRules()
+description: DuplicateRuleArray GetDuplicateRules()
 intellisense: NSSelectionAgent.GetDuplicateRules
-keywords: GetDuplicateRules()
+keywords: NSSelectionAgent,GetDuplicateRules
 so.topic: reference
 ---
-
 
 Retrieve all available duplicate rules for selection
 
 
+**Returns:** All available duplicate rules
 
-* **Returns:** All available duplicate rules
-
+```crmscript
+NSSelectionAgent agent;
+DuplicateRuleArray res = agent.GetDuplicateRules();
+```
 

@@ -1,13 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetLegalBaseList_Integer__p_0
-description: NSListAgent.GetLegalBaseList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetLegalBaseList
+description: NSLegalBase[] GetLegalBaseList(Integer[]  legalBaseIds);
 intellisense: NSListAgent.GetLegalBaseList
-keywords: GetLegalBaseList(Integer[])
+keywords: NSListAgent,GetLegalBaseList
 so.topic: reference
 ---
 
+Gets a vector of LegalBase objects.
 
-* **p0:** IntegerArray of identifiers for LegalBase
-* **Returns:** Array of NSLegalBase
+**Parameters:**
+ - **legalBaseIds** The identifiers of the NSLegalBase objects
 
+**Returns:** Vector of NSLegalBase objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetLegalBaseList(ids);
+```
 

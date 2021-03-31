@@ -1,17 +1,17 @@
----
+﻿---
 title: crmscript_ref_NSSaleSummaryItem_GetCompleted
-description: NSSaleSummaryItem.GetCompleted()
+description: Integer NSSaleSummaryItem.GetCompleted()
 intellisense: NSSaleSummaryItem.GetCompleted
-keywords: GetCompleted()
+keywords: NSSaleSummaryItem, GetCompleted
 so.topic: reference
 ---
 
+The Completed state. NotStarted(1) or Completed(3)
 
-    The Completed state. NotStarted(1) or Completed(3)
-    
+**Returns:** Integer
 
-
-
-* **Returns:** Integer
-
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 

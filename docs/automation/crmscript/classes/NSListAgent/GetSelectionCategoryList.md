@@ -1,15 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetSelectionCategoryList_Integer__p_0
-description: NSListAgent.GetSelectionCategoryList(Integer[] p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetSelectionCategoryList
+description: NSSelectionCategory[] GetSelectionCategoryList(Integer[]  selectionCategoryIds);
 intellisense: NSListAgent.GetSelectionCategoryList
-keywords: GetSelectionCategoryList(Integer[])
+keywords: NSListAgent,GetSelectionCategoryList
 so.topic: reference
 ---
 
-Gets an array of SelectionCategory objects.
+Gets a vector of SelectionCategory objects.
 
+**Parameters:**
+ - **selectionCategoryIds** The identifiers of the NSSelectionCategory objects
 
+**Returns:** Vector of NSSelectionCategory objects
 
-* **p0:** IntegerArray of identifiers for SelectionCategory
-* **Returns:** Array of NSSelectionCategory
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetSelectionCategoryList(ids);
+```
 

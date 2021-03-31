@@ -1,13 +1,22 @@
----
-title: crmscript_ref_NSTicketEntity_SetExtraFields_Map_p_0
-description: NSTicketEntity.SetExtraFields(Map p_0)
+﻿---
+title: crmscript_ref_NSTicketEntity_SetExtraFields
+description: NSTicketEntity.SetExtraFields(Map extras)
 intellisense: NSTicketEntity.SetExtraFields
-keywords: SetExtraFields(Map)
+keywords: NSTicketEntity, SetExtraFields
 so.topic: reference
 ---
 
+Set the extra field values with a map.
 
-* **fields:** Map
-* **Returns:** Void
+**Parameter:** 
+ - **extras** Map containing extra field values encoded as strings.
 
+```crmscript
+NSTicketEntity thing;
+Map extras;
+extras["SuperOffice:1"] = "[I:123]";
+extras["SuperOffice:1"] = "123"; // this will also work, but beware of decimal point variations in different languages
+extras["custom.progid"] = "foobar";
+thing.SetExtraFields(extras);
+```
 

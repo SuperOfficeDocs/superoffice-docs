@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSQuoteAlternative_SetName_String_p_0
-description: NSQuoteAlternative.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSQuoteAlternative_SetName
+description: NSQuoteAlternative.SetName(String name)
 intellisense: NSQuoteAlternative.SetName
-keywords: SetName(String)
+keywords: NSQuoteAlternative, GetName
 so.topic: reference
 ---
 
-
 Name of Alternative. Shown in tab in user interface, intentionally kept short
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

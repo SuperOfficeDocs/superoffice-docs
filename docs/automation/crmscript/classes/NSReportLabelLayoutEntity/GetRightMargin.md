@@ -1,16 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSReportLabelLayoutEntity_GetRightMargin
-description: NSReportLabelLayoutEntity.GetRightMargin()
+description: Integer NSReportLabelLayoutEntity.GetRightMargin()
 intellisense: NSReportLabelLayoutEntity.GetRightMargin
-keywords: GetRightMargin()
+keywords: NSReportLabelLayoutEntity, GetRightMargin
 so.topic: reference
 ---
 
-
 Right margin in twips
 
-
-
-* **Returns:** Integer
+**Returns:** Integer
 
 

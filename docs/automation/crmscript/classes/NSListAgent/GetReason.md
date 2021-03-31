@@ -1,17 +1,20 @@
----
-title: crmscript_ref_NSListAgent_GetReason_Integer_p_0
-description: NSListAgent.GetReason(Integer p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetReason
+description: NSReason GetReason(Integer reasonId);
 intellisense: NSListAgent.GetReason
-keywords: GetReason(Integer)
+keywords: NSListAgent,GetReason
 so.topic: reference
 ---
 
+Gets a NSReason object.
 
-Gets a Reason object.
+**Parameters:**
+ - **reasonId** The identifier of the NSReason object
 
+**Returns:** NSReason
 
-
-* **reasonId:** The identifier of the Reason object
-* **Returns:** Reason
-
+```crmscript
+NSListAgent agent;
+NSReason thing = agent.GetReason(123);
+```
 

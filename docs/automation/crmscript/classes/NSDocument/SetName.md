@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSDocument_SetName_String_p_0
-description: NSDocument.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSDocument_SetName
+description: NSDocument.SetName(String name)
 intellisense: NSDocument.SetName
-sortOrder: 2456
-keywords: SetName(String)
+keywords: NSDocument, GetName
 so.topic: reference
 ---
 
-
 File name
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

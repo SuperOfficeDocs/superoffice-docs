@@ -1,17 +1,21 @@
----
-title: crmscript_ref_NSListAgent_GetAllSaleStages_Bool_p_0
-description: NSListAgent.GetAllSaleStages(Bool p_0)
+﻿---
+title: crmscript_ref_NSListAgent_GetAllSaleStages
+description: SaleStageEntityArray GetAllSaleStages(Bool includeDeleted)
 intellisense: NSListAgent.GetAllSaleStages
-keywords: GetAllSaleStages(Bool)
+keywords: NSListAgent,GetAllSaleStages
 so.topic: reference
 ---
 
-
 Returns all ratings
 
+**Parameters:**
+ - **includeDeleted** Include deleted items in result?
 
+**Returns:** Array of sale stage ratings
 
-* **includeDeleted:** Include deleted items in result?
-* **Returns:** Array of sale stage ratings
-
+```crmscript
+NSListAgent agent;
+Bool includeDeleted;
+SaleStageEntityArray res = agent.GetAllSaleStages(includeDeleted);
+```
 

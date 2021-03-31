@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSConsentPerson_SetConsentPurpose_NSConsentPurpose_p_0
-description: NSConsentPerson.SetConsentPurpose(NSConsentPurpose p_0)
+﻿---
+title: crmscript_ref_NSConsentPerson_SetConsentPurpose
+description: NSConsentPerson.SetConsentPurpose(ConsentPurpose consentPurpose)
 intellisense: NSConsentPerson.SetConsentPurpose
-sortOrder: 1668
-keywords: SetConsentPurpose(NSConsentPurpose)
+keywords: NSConsentPerson, GetConsentPurpose
 so.topic: reference
 ---
 
-
 The consent purpose
 
-
-
-* **ConsentPurpose:** ConsentPurpose
-* **Returns:** ConsentPurpose
-
+**Parameter:** 
+ - **consentPurpose** ConsentPurpose
 

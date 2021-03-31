@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLicenseInfo_SetSignature_String_p_0
-description: NSLicenseInfo.SetSignature(String p_0)
+﻿---
+title: crmscript_ref_NSLicenseInfo_SetSignature
+description: NSLicenseInfo.SetSignature(String signature)
 intellisense: NSLicenseInfo.SetSignature
-keywords: SetSignature(String)
+keywords: NSLicenseInfo, GetSignature
 so.topic: reference
 ---
 
-
 Signature of all non-zero-amount moduleLicense rows referring to this owner
 
-
-
-* **Signature:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **signature** String
 

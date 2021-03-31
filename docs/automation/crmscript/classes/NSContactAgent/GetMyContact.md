@@ -1,17 +1,18 @@
----
+﻿---
 title: crmscript_ref_NSContactAgent_GetMyContact
-description: NSContactAgent.GetMyContact()
+description: ContactEntity GetMyContact()
 intellisense: NSContactAgent.GetMyContact
-sortOrder: 1813
-keywords: GetMyContact()
+keywords: NSContactAgent,GetMyContact
 so.topic: reference
 ---
-
 
 Gets the contact belonging to the currently logged on user.
 
 
+**Returns:** The Contact
 
-* **Returns:** The Contact
-
+```crmscript
+NSContactAgent agent;
+ContactEntity res = agent.GetMyContact();
+```
 

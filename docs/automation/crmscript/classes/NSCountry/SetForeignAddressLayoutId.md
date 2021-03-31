@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSCountry_SetForeignAddressLayoutId_Integer_p_0
-description: NSCountry.SetForeignAddressLayoutId(Integer p_0)
+﻿---
+title: crmscript_ref_NSCountry_SetForeignAddressLayoutId
+description: NSCountry.SetForeignAddressLayoutId(Integer foreignAddressLayoutId)
 intellisense: NSCountry.SetForeignAddressLayoutId
-sortOrder: 2038
-keywords: SetForeignAddressLayoutId(Integer)
+keywords: NSCountry, GetForeignAddressLayoutId
 so.topic: reference
 ---
 
-
 Foreign address layout of the country
 
-
-
-* **ForeignAddressLayoutId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **foreignAddressLayoutId** Integer
 

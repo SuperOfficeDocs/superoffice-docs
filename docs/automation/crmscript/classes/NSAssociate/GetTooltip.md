@@ -1,17 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSAssociate_GetTooltip
-description: NSAssociate.GetTooltip()
+description: String NSAssociate.GetTooltip()
 intellisense: NSAssociate.GetTooltip
-sortOrder: 1264
-keywords: GetTooltip()
+keywords: NSAssociate, GetTooltip
 so.topic: reference
 ---
 
-
 Tooltip or other description
 
-
-
-* **Returns:** String
+**Returns:** String
 
 

@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetRecipe_String_p_0
-description: NSFormEntity.SetRecipe(String p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetRecipe
+description: NSFormEntity.SetRecipe(String recipe)
 intellisense: NSFormEntity.SetRecipe
-sortOrder: 3819
-keywords: SetRecipe(String)
+keywords: NSFormEntity, GetRecipe
 so.topic: reference
 ---
 
-
 The JSON-formatted recipe of this form
 
-
-
-* **Recipe:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **recipe** String
 

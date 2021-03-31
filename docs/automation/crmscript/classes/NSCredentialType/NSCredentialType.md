@@ -1,16 +1,12 @@
----
+﻿---
 title: crmscript_ref_NSCredentialType
 description: NSCredentialType
 intellisense: Void.NSCredentialType
-sortOrder: 2068
+keywords: NSCredentialType
 so.topic: reference
 ---
 
-
 Description of credential type
 
-
-
-
-1. autolist
+1. autolist 
 

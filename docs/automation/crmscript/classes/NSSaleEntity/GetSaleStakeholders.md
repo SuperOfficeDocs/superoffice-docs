@@ -1,12 +1,13 @@
----
+﻿---
 title: crmscript_ref_NSSaleEntity_GetSaleStakeholders
-description: NSSaleEntity.GetSaleStakeholders()
+description: SaleStakeholderArray NSSaleEntity.GetSaleStakeholders()
 intellisense: NSSaleEntity.GetSaleStakeholders
-keywords: GetSaleStakeholders()
+keywords: NSSaleEntity, GetSaleStakeholders
 so.topic: reference
 ---
 
 
-* **Returns:** SaleStakeholderArray
+
+**Returns:** SaleStakeholderArray
 
 

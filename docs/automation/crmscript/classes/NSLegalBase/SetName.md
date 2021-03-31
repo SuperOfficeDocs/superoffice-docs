@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSLegalBase_SetName_String_p_0
-description: NSLegalBase.SetName(String p_0)
+﻿---
+title: crmscript_ref_NSLegalBase_SetName
+description: NSLegalBase.SetName(String name)
 intellisense: NSLegalBase.SetName
-keywords: SetName(String)
+keywords: NSLegalBase, GetName
 so.topic: reference
 ---
 
-
 Name of legal base
 
-
-
-* **Name:** String
-* **Returns:** String
-
+**Parameter:** 
+ - **name** String
 

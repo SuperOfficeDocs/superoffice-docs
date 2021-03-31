@@ -1,18 +1,13 @@
----
-title: crmscript_ref_NSFormEntity_SetGroupId_Integer_p_0
-description: NSFormEntity.SetGroupId(Integer p_0)
+﻿---
+title: crmscript_ref_NSFormEntity_SetGroupId
+description: NSFormEntity.SetGroupId(Integer groupId)
 intellisense: NSFormEntity.SetGroupId
-sortOrder: 3814
-keywords: SetGroupId(Integer)
+keywords: NSFormEntity, GetGroupId
 so.topic: reference
 ---
 
-
 The group which this form belongs to.
 
-
-
-* **GroupId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **groupId** Integer
 

@@ -1,17 +1,13 @@
----
-title: crmscript_ref_NSWindowPosSize_SetWindowPosSizeId_Integer_p_0
-description: NSWindowPosSize.SetWindowPosSizeId(Integer p_0)
+﻿---
+title: crmscript_ref_NSWindowPosSize_SetWindowPosSizeId
+description: NSWindowPosSize.SetWindowPosSizeId(Integer windowPosSizeId)
 intellisense: NSWindowPosSize.SetWindowPosSizeId
-keywords: SetWindowPosSizeId(Integer)
+keywords: NSWindowPosSize, GetWindowPosSizeId
 so.topic: reference
 ---
 
-
 Primary key
 
-
-
-* **WindowPosSizeId:** Integer
-* **Returns:** Void
-
+**Parameter:** 
+ - **windowPosSizeId** Integer
 
