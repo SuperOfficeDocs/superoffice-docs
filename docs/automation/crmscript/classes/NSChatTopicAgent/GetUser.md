@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicAgent_GetUser
-description: Associate NSChatTopicAgent.GetUser()
+uid: crmscript_ref_NSChatTopicAgent_GetUser
+title: Associate GetUser()
 intellisense: NSChatTopicAgent.GetUser
 keywords: NSChatTopicAgent, GetUser
 so.topic: reference

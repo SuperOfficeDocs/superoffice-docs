@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_GetMessageSubject
-description: String NSPreviewMailingHeader.GetMessageSubject()
+uid: crmscript_ref_NSPreviewMailingHeader_GetMessageSubject
+title: String GetMessageSubject()
 intellisense: NSPreviewMailingHeader.GetMessageSubject
 keywords: NSPreviewMailingHeader, GetMessageSubject
 so.topic: reference

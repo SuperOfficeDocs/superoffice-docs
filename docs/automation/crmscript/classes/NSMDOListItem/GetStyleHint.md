@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_GetStyleHint
-description: String NSMDOListItem.GetStyleHint()
+uid: crmscript_ref_NSMDOListItem_GetStyleHint
+title: String GetStyleHint()
 intellisense: NSMDOListItem.GetStyleHint
 keywords: NSMDOListItem, GetStyleHint
 so.topic: reference

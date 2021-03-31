@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAccount_GetAccountStatus
-description: Integer NSEMailAccount.GetAccountStatus()
+uid: crmscript_ref_NSEMailAccount_GetAccountStatus
+title: Integer GetAccountStatus()
 intellisense: NSEMailAccount.GetAccountStatus
 keywords: NSEMailAccount, GetAccountStatus
 so.topic: reference

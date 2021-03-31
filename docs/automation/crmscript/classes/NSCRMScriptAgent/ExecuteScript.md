@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_ExecuteScript
-description: String ExecuteScript(Integer cRMScriptId, StringDictionary parameters)
+uid: crmscript_ref_NSCRMScriptAgent_ExecuteScript
+title: String ExecuteScript(Integer cRMScriptId, StringDictionary parameters)
 intellisense: NSCRMScriptAgent.ExecuteScript
-keywords: NSCRMScriptAgent,ExecuteScript
+keywords: NSCRMScriptAgent, ExecuteScript
 so.topic: reference
 ---
 

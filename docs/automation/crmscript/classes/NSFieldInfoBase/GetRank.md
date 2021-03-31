@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_GetRank
-description: Integer NSFieldInfoBase.GetRank()
+uid: crmscript_ref_NSFieldInfoBase_GetRank
+title: Integer GetRank()
 intellisense: NSFieldInfoBase.GetRank
 keywords: NSFieldInfoBase, GetRank
 so.topic: reference

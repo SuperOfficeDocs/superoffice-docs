@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetRegistered
-description: DateTime NSWebhook.GetRegistered()
+uid: crmscript_ref_NSWebhook_GetRegistered
+title: DateTime GetRegistered()
 intellisense: NSWebhook.GetRegistered
 keywords: NSWebhook, GetRegistered
 so.topic: reference

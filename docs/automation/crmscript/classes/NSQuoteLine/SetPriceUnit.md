@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetPriceUnit
-description: NSQuoteLine.SetPriceUnit(String priceUnit)
+uid: crmscript_ref_NSQuoteLine_SetPriceUnit
+title: SetPriceUnit(String priceUnit)
 intellisense: NSQuoteLine.SetPriceUnit
 keywords: NSQuoteLine, GetPriceUnit
 so.topic: reference

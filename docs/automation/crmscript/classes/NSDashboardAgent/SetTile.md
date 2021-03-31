@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_SetTile
-description: Dashboard SetTile(Integer dashboardId, Integer tileId, Integer position)
+uid: crmscript_ref_NSDashboardAgent_SetTile
+title: Dashboard SetTile(Integer dashboardId, Integer tileId, Integer position)
 intellisense: NSDashboardAgent.SetTile
-keywords: NSDashboardAgent,SetTile
+keywords: NSDashboardAgent, SetTile
 so.topic: reference
 ---
 

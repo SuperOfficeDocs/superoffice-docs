@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetCalReplyStatus
-description: NSEMailEntity.SetCalReplyStatus(Integer calReplyStatus)
+uid: crmscript_ref_NSEMailEntity_SetCalReplyStatus
+title: SetCalReplyStatus(Integer calReplyStatus)
 intellisense: NSEMailEntity.SetCalReplyStatus
 keywords: NSEMailEntity, GetCalReplyStatus
 so.topic: reference

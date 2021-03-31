@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtendedModuleLicense_SetCurrent
-description: NSExtendedModuleLicense.SetCurrent(ModuleLicense current)
+uid: crmscript_ref_NSExtendedModuleLicense_SetCurrent
+title: SetCurrent(ModuleLicense current)
 intellisense: NSExtendedModuleLicense.SetCurrent
 keywords: NSExtendedModuleLicense, GetCurrent
 so.topic: reference

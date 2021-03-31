@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_SetParticipants
-description: NSAppointmentSyncData.SetParticipants(ParticipantSyncDataArray participants)
+uid: crmscript_ref_NSAppointmentSyncData_SetParticipants
+title: SetParticipants(ParticipantSyncDataArray participants)
 intellisense: NSAppointmentSyncData.SetParticipants
 keywords: NSAppointmentSyncData, GetParticipants
 so.topic: reference

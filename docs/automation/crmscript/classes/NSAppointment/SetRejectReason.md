@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetRejectReason
-description: NSAppointment.SetRejectReason(String rejectReason)
+uid: crmscript_ref_NSAppointment_SetRejectReason
+title: SetRejectReason(String rejectReason)
 intellisense: NSAppointment.SetRejectReason
 keywords: NSAppointment, GetRejectReason
 so.topic: reference

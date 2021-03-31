@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRedLetterInformationListItem
-description: NSRedLetterInformationListItem
+uid: crmscript_ref_NSRedLetterInformationListItem
+title: NSRedLetterInformationListItem
 intellisense: Void.NSRedLetterInformationListItem
 keywords: NSRedLetterInformationListItem
 so.topic: reference

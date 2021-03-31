@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetTaskType
-description: NSAppointment.SetTaskType(Integer taskType)
+uid: crmscript_ref_NSAppointment_SetTaskType
+title: SetTaskType(Integer taskType)
 intellisense: NSAppointment.SetTaskType
 keywords: NSAppointment, GetTaskType
 so.topic: reference

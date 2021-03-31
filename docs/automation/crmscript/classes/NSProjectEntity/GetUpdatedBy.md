@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetUpdatedBy
-description: Associate NSProjectEntity.GetUpdatedBy()
+uid: crmscript_ref_NSProjectEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
 intellisense: NSProjectEntity.GetUpdatedBy
 keywords: NSProjectEntity, GetUpdatedBy
 so.topic: reference

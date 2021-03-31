@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_GetIsPublished
-description: Bool NSDocument.GetIsPublished()
+uid: crmscript_ref_NSDocument_GetIsPublished
+title: Bool GetIsPublished()
 intellisense: NSDocument.GetIsPublished
 keywords: NSDocument, GetIsPublished
 so.topic: reference

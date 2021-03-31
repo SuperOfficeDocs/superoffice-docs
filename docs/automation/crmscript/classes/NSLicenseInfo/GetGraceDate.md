@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_GetGraceDate
-description: DateTime NSLicenseInfo.GetGraceDate()
+uid: crmscript_ref_NSLicenseInfo_GetGraceDate
+title: DateTime GetGraceDate()
 intellisense: NSLicenseInfo.GetGraceDate
 keywords: NSLicenseInfo, GetGraceDate
 so.topic: reference

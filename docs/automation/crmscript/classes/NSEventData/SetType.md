@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_SetType
-description: NSEventData.SetType(Integer type)
+uid: crmscript_ref_NSEventData_SetType
+title: SetType(Integer type)
 intellisense: NSEventData.SetType
 keywords: NSEventData, GetType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetOpenTotalOwnCurrency
-description: NSSaleSummary.SetOpenTotalOwnCurrency(Float openTotalOwnCurrency)
+uid: crmscript_ref_NSSaleSummary_SetOpenTotalOwnCurrency
+title: SetOpenTotalOwnCurrency(Float openTotalOwnCurrency)
 intellisense: NSSaleSummary.SetOpenTotalOwnCurrency
 keywords: NSSaleSummary, GetOpenTotalOwnCurrency
 so.topic: reference

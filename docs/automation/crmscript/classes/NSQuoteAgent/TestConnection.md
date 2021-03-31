@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_TestConnection
-description: PluginResponse TestConnection(String connectorName, StringDictionary connectionData)
+uid: crmscript_ref_NSQuoteAgent_TestConnection
+title: PluginResponse TestConnection(String connectorName, StringDictionary connectionData)
 intellisense: NSQuoteAgent.TestConnection
-keywords: NSQuoteAgent,TestConnection
+keywords: NSQuoteAgent, TestConnection
 so.topic: reference
 ---
 

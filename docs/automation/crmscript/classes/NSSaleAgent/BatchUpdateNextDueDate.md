@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_BatchUpdateNextDueDate
-description: Void BatchUpdateNextDueDate()
+uid: crmscript_ref_NSSaleAgent_BatchUpdateNextDueDate
+title: Void BatchUpdateNextDueDate()
 intellisense: NSSaleAgent.BatchUpdateNextDueDate
-keywords: NSSaleAgent,BatchUpdateNextDueDate
+keywords: NSSaleAgent, BatchUpdateNextDueDate
 so.topic: reference
 ---
 

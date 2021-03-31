@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_GetHeader
-description: String NSDocument.GetHeader()
+uid: crmscript_ref_NSDocument_GetHeader
+title: String GetHeader()
 intellisense: NSDocument.GetHeader
 keywords: NSDocument, GetHeader
 so.topic: reference

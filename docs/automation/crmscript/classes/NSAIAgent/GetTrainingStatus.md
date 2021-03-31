@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAIAgent_GetTrainingStatus
-description: CategorizationStatusResponse GetTrainingStatus()
+uid: crmscript_ref_NSAIAgent_GetTrainingStatus
+title: CategorizationStatusResponse GetTrainingStatus()
 intellisense: NSAIAgent.GetTrainingStatus
-keywords: NSAIAgent,GetTrainingStatus
+keywords: NSAIAgent, GetTrainingStatus
 so.topic: reference
 ---
 

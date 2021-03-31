@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetAssociateId
-description: Integer NSAppointment.GetAssociateId()
+uid: crmscript_ref_NSAppointment_GetAssociateId
+title: Integer GetAssociateId()
 intellisense: NSAppointment.GetAssociateId
 keywords: NSAppointment, GetAssociateId
 so.topic: reference

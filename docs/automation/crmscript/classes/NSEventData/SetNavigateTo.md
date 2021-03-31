@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_SetNavigateTo
-description: NSEventData.SetNavigateTo(String navigateTo)
+uid: crmscript_ref_NSEventData_SetNavigateTo
+title: SetNavigateTo(String navigateTo)
 intellisense: NSEventData.SetNavigateTo
 keywords: NSEventData, GetNavigateTo
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_DeleteTicketEntity
-description: Void DeleteTicketEntity(Integer ticketEntityId)
+uid: crmscript_ref_NSTicketAgent_DeleteTicketEntity
+title: Void DeleteTicketEntity(Integer ticketEntityId)
 intellisense: NSTicketAgent.DeleteTicketEntity
-keywords: NSTicketAgent,DeleteTicketEntity
+keywords: NSTicketAgent, DeleteTicketEntity
 so.topic: reference
 ---
 

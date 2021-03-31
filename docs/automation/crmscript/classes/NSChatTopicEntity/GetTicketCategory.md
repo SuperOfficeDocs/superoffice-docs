@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetTicketCategory
-description: TicketCategory NSChatTopicEntity.GetTicketCategory()
+uid: crmscript_ref_NSChatTopicEntity_GetTicketCategory
+title: TicketCategory GetTicketCategory()
 intellisense: NSChatTopicEntity.GetTicketCategory
 keywords: NSChatTopicEntity, GetTicketCategory
 so.topic: reference

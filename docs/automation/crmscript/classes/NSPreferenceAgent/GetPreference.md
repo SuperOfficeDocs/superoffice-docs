@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_GetPreference
-description: Preference GetPreference(Integer id)
+uid: crmscript_ref_NSPreferenceAgent_GetPreference
+title: Preference GetPreference(Integer id)
 intellisense: NSPreferenceAgent.GetPreference
-keywords: NSPreferenceAgent,GetPreference
+keywords: NSPreferenceAgent, GetPreference
 so.topic: reference
 ---
 

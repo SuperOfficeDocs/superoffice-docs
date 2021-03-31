@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAIAgent
-description: NSAIAgent
+uid: crmscript_ref_NSAIAgent
+title: NSAIAgent
 intellisense: Void.NSAIAgent
 keywords: NSAIAgent
 so.topic: reference

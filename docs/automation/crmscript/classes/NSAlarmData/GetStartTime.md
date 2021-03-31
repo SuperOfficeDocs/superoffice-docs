@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetStartTime
-description: DateTime NSAlarmData.GetStartTime()
+uid: crmscript_ref_NSAlarmData_GetStartTime
+title: DateTime GetStartTime()
 intellisense: NSAlarmData.GetStartTime
 keywords: NSAlarmData, GetStartTime
 so.topic: reference

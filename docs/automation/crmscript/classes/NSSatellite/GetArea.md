@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSatellite_GetArea
-description: Area NSSatellite.GetArea()
+uid: crmscript_ref_NSSatellite_GetArea
+title: Area GetArea()
 intellisense: NSSatellite.GetArea
 keywords: NSSatellite, GetArea
 so.topic: reference

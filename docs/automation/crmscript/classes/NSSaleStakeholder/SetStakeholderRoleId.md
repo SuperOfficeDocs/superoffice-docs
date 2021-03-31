@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_SetStakeholderRoleId
-description: NSSaleStakeholder.SetStakeholderRoleId(Integer stakeholderRoleId)
+uid: crmscript_ref_NSSaleStakeholder_SetStakeholderRoleId
+title: SetStakeholderRoleId(Integer stakeholderRoleId)
 intellisense: NSSaleStakeholder.SetStakeholderRoleId
 keywords: NSSaleStakeholder, GetStakeholderRoleId
 so.topic: reference

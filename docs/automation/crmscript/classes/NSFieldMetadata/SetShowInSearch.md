@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_SetShowInSearch
-description: NSFieldMetadata.SetShowInSearch(Bool showInSearch)
+uid: crmscript_ref_NSFieldMetadata_SetShowInSearch
+title: SetShowInSearch(Bool showInSearch)
 intellisense: NSFieldMetadata.SetShowInSearch
 keywords: NSFieldMetadata, GetShowInSearch
 so.topic: reference

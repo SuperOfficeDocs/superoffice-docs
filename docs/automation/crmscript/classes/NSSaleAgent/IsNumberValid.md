@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_IsNumberValid
-description: Bool IsNumberValid(Integer contactId, String number)
+uid: crmscript_ref_NSSaleAgent_IsNumberValid
+title: Bool IsNumberValid(Integer contactId, String number)
 intellisense: NSSaleAgent.IsNumberValid
-keywords: NSSaleAgent,IsNumberValid
+keywords: NSSaleAgent, IsNumberValid
 so.topic: reference
 ---
 

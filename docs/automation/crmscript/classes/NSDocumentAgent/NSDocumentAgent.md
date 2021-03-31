@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent
-description: NSDocumentAgent
+uid: crmscript_ref_NSDocumentAgent
+title: NSDocumentAgent
 intellisense: Void.NSDocumentAgent
 keywords: NSDocumentAgent
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CreateTemporaryContactSelectionFromProjectMembers
-description: SelectionEntity CreateTemporaryContactSelectionFromProjectMembers(Integer projectId)
+uid: crmscript_ref_NSSelectionAgent_CreateTemporaryContactSelectionFromProjectMembers
+title: SelectionEntity CreateTemporaryContactSelectionFromProjectMembers(Integer projectId)
 intellisense: NSSelectionAgent.CreateTemporaryContactSelectionFromProjectMembers
-keywords: NSSelectionAgent,CreateTemporaryContactSelectionFromProjectMembers
+keywords: NSSelectionAgent, CreateTemporaryContactSelectionFromProjectMembers
 so.topic: reference
 ---
 

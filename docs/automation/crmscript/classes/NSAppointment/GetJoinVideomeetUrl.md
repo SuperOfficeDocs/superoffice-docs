@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetJoinVideomeetUrl
-description: String NSAppointment.GetJoinVideomeetUrl()
+uid: crmscript_ref_NSAppointment_GetJoinVideomeetUrl
+title: String GetJoinVideomeetUrl()
 intellisense: NSAppointment.GetJoinVideomeetUrl
 keywords: NSAppointment, GetJoinVideomeetUrl
 so.topic: reference

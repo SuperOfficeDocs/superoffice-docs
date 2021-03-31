@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_SetToFullName
-description: NSQuotePublishDocuments.SetToFullName(String toFullName)
+uid: crmscript_ref_NSQuotePublishDocuments_SetToFullName
+title: SetToFullName(String toFullName)
 intellisense: NSQuotePublishDocuments.SetToFullName
 keywords: NSQuotePublishDocuments, GetToFullName
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSViewStateAgent_SaveCurrent
-description: History SaveCurrent(History current)
+uid: crmscript_ref_NSViewStateAgent_SaveCurrent
+title: History SaveCurrent(History current)
 intellisense: NSViewStateAgent.SaveCurrent
-keywords: NSViewStateAgent,SaveCurrent
+keywords: NSViewStateAgent, SaveCurrent
 so.topic: reference
 ---
 

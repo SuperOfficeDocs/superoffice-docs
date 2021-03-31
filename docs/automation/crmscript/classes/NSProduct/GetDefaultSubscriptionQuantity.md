@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetDefaultSubscriptionQuantity
-description: Float NSProduct.GetDefaultSubscriptionQuantity()
+uid: crmscript_ref_NSProduct_GetDefaultSubscriptionQuantity
+title: Float GetDefaultSubscriptionQuantity()
 intellisense: NSProduct.GetDefaultSubscriptionQuantity
 keywords: NSProduct, GetDefaultSubscriptionQuantity
 so.topic: reference

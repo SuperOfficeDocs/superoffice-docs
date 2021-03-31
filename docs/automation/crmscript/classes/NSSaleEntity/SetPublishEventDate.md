@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetPublishEventDate
-description: NSSaleEntity.SetPublishEventDate(DateTime publishDate)
+uid: crmscript_ref_NSSaleEntity_SetPublishEventDate
+title: SetPublishEventDate(DateTime publishDate)
 intellisense: NSSaleEntity.SetPublishEventDate
 keywords: NSSaleEntity, SetPublishEventDate
 so.topic: reference
 ---
 
-Publish event date.
+Publish event date on SaleEntity.
 
 **Parameter:** 
  - **publishDate** DateTime.

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_SaveServiceAuth
-description: NSServiceAuth SaveServiceAuth(NSServiceAuth serviceAuth);
+uid: crmscript_ref_NSUserAgent_SaveServiceAuth
+title: NSServiceAuth SaveServiceAuth(NSServiceAuth serviceAuth);
 intellisense: NSUserAgent.SaveServiceAuth
-keywords: NSUserAgent,SaveServiceAuth
+keywords: NSUserAgent, SaveServiceAuth
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCurrencyEntity_SetName
-description: NSCurrencyEntity.SetName(String name)
+uid: crmscript_ref_NSCurrencyEntity_SetName
+title: SetName(String name)
 intellisense: NSCurrencyEntity.SetName
 keywords: NSCurrencyEntity, GetName
 so.topic: reference

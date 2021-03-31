@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSServiceAuth_GetServer
-description: String NSServiceAuth.GetServer()
+uid: crmscript_ref_NSServiceAuth_GetServer
+title: String GetServer()
 intellisense: NSServiceAuth.GetServer
 keywords: NSServiceAuth, GetServer
 so.topic: reference

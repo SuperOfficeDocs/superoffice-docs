@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetCreatedBy
-description: Associate NSSelectionEntity.GetCreatedBy()
+uid: crmscript_ref_NSSelectionEntity_GetCreatedBy
+title: Associate GetCreatedBy()
 intellisense: NSSelectionEntity.GetCreatedBy
 keywords: NSSelectionEntity, GetCreatedBy
 so.topic: reference

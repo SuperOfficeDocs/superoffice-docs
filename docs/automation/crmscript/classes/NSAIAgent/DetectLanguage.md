@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAIAgent_DetectLanguage
-description: String DetectLanguage(String text)
+uid: crmscript_ref_NSAIAgent_DetectLanguage
+title: String DetectLanguage(String text)
 intellisense: NSAIAgent.DetectLanguage
-keywords: NSAIAgent,DetectLanguage
+keywords: NSAIAgent, DetectLanguage
 so.topic: reference
 ---
 

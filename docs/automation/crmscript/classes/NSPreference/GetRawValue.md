@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_GetRawValue
-description: String NSPreference.GetRawValue()
+uid: crmscript_ref_NSPreference_GetRawValue
+title: String GetRawValue()
 intellisense: NSPreference.GetRawValue
 keywords: NSPreference, GetRawValue
 so.topic: reference

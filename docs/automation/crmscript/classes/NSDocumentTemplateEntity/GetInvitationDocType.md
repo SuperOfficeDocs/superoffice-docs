@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetInvitationDocType
-description: DocTmplInvitationType NSDocumentTemplateEntity.GetInvitationDocType()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetInvitationDocType
+title: DocTmplInvitationType GetInvitationDocType()
 intellisense: NSDocumentTemplateEntity.GetInvitationDocType
 keywords: NSDocumentTemplateEntity, GetInvitationDocType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportEntity_GetReportId
-description: Integer NSReportEntity.GetReportId()
+uid: crmscript_ref_NSReportEntity_GetReportId
+title: Integer GetReportId()
 intellisense: NSReportEntity.GetReportId
 keywords: NSReportEntity, GetReportId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetConfigParametersOnPerson
-description: AudienceConfigParameterArray GetConfigParametersOnPerson(Integer personId)
+uid: crmscript_ref_NSAudienceAgent_GetConfigParametersOnPerson
+title: AudienceConfigParameterArray GetConfigParametersOnPerson(Integer personId)
 intellisense: NSAudienceAgent.GetConfigParametersOnPerson
-keywords: NSAudienceAgent,GetConfigParametersOnPerson
+keywords: NSAudienceAgent, GetConfigParametersOnPerson
 so.topic: reference
 ---
 

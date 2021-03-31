@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent_GetStatus
-description: FreeText GetStatus()
+uid: crmscript_ref_NSFreeTextAgent_GetStatus
+title: FreeText GetStatus()
 intellisense: NSFreeTextAgent.GetStatus
-keywords: NSFreeTextAgent,GetStatus
+keywords: NSFreeTextAgent, GetStatus
 so.topic: reference
 ---
 

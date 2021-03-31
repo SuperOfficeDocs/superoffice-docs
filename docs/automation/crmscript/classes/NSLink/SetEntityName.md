@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLink_SetEntityName
-description: NSLink.SetEntityName(String entityName)
+uid: crmscript_ref_NSLink_SetEntityName
+title: SetEntityName(String entityName)
 intellisense: NSLink.SetEntityName
 keywords: NSLink, GetEntityName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_SetDescription
-description: NSStatusMonitor.SetDescription(String description)
+uid: crmscript_ref_NSStatusMonitor_SetDescription
+title: SetDescription(String description)
 intellisense: NSStatusMonitor.SetDescription
 keywords: NSStatusMonitor, GetDescription
 so.topic: reference

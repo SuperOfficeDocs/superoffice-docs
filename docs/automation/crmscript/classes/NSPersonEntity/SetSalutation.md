@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetSalutation
-description: NSPersonEntity.SetSalutation(String salutation)
+uid: crmscript_ref_NSPersonEntity_SetSalutation
+title: SetSalutation(String salutation)
 intellisense: NSPersonEntity.SetSalutation
 keywords: NSPersonEntity, GetSalutation
 so.topic: reference

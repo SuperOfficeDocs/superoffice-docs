@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearches
-description: NSTypicalSearches
+uid: crmscript_ref_NSTypicalSearches
+title: NSTypicalSearches
 intellisense: Void.NSTypicalSearches
 keywords: NSTypicalSearches
 so.topic: reference

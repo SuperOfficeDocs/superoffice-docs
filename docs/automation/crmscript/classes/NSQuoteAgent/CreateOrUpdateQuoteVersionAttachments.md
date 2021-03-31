@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CreateOrUpdateQuoteVersionAttachments
-description: QuoteVersionAttachmentArray CreateOrUpdateQuoteVersionAttachments(Integer quoteVersionId)
+uid: crmscript_ref_NSQuoteAgent_CreateOrUpdateQuoteVersionAttachments
+title: QuoteVersionAttachmentArray CreateOrUpdateQuoteVersionAttachments(Integer quoteVersionId)
 intellisense: NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments
-keywords: NSQuoteAgent,CreateOrUpdateQuoteVersionAttachments
+keywords: NSQuoteAgent, CreateOrUpdateQuoteVersionAttachments
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_GetCreatedBy
-description: Associate NSBlobEntity.GetCreatedBy()
+uid: crmscript_ref_NSBlobEntity_GetCreatedBy
+title: Associate GetCreatedBy()
 intellisense: NSBlobEntity.GetCreatedBy
 keywords: NSBlobEntity, GetCreatedBy
 so.topic: reference

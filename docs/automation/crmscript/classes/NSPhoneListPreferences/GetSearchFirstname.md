@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences_GetSearchFirstname
-description: Bool NSPhoneListPreferences.GetSearchFirstname()
+uid: crmscript_ref_NSPhoneListPreferences_GetSearchFirstname
+title: Bool GetSearchFirstname()
 intellisense: NSPhoneListPreferences.GetSearchFirstname
 keywords: NSPhoneListPreferences, GetSearchFirstname
 so.topic: reference

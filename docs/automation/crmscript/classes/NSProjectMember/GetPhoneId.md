@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_GetPhoneId
-description: Integer NSProjectMember.GetPhoneId()
+uid: crmscript_ref_NSProjectMember_GetPhoneId
+title: Integer GetPhoneId()
 intellisense: NSProjectMember.GetPhoneId
 keywords: NSProjectMember, GetPhoneId
 so.topic: reference

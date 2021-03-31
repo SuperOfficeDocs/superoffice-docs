@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTileData
-description: NSTileData
+uid: crmscript_ref_NSTileData
+title: NSTileData
 intellisense: Void.NSTileData
 keywords: NSTileData
 so.topic: reference

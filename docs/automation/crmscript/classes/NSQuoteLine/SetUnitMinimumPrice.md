@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetUnitMinimumPrice
-description: NSQuoteLine.SetUnitMinimumPrice(Float unitMinimumPrice)
+uid: crmscript_ref_NSQuoteLine_SetUnitMinimumPrice
+title: SetUnitMinimumPrice(Float unitMinimumPrice)
 intellisense: NSQuoteLine.SetUnitMinimumPrice
 keywords: NSQuoteLine, GetUnitMinimumPrice
 so.topic: reference

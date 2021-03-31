@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_DeleteChatTopicEntity
-description: DeleteChatTopicEntity(Integer chatTopicEntity);
+uid: crmscript_ref_NSChatAgent_DeleteChatTopicEntity
+title: DeleteChatTopicEntity(Integer chatTopicEntity);
 intellisense: NSChatAgent.DeleteChatTopicEntity
-keywords: NSChatAgent,DeleteChatTopicEntity
+keywords: NSChatAgent, DeleteChatTopicEntity
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetSignOnTaskId
-description: Integer NSProjectEventEntity.GetSignOnTaskId()
+uid: crmscript_ref_NSProjectEventEntity_GetSignOnTaskId
+title: Integer GetSignOnTaskId()
 intellisense: NSProjectEventEntity.GetSignOnTaskId
 keywords: NSProjectEventEntity, GetSignOnTaskId
 so.topic: reference

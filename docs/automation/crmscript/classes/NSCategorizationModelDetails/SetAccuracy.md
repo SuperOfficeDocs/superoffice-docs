@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategorizationModelDetails_SetAccuracy
-description: NSCategorizationModelDetails.SetAccuracy(Float accuracy)
+uid: crmscript_ref_NSCategorizationModelDetails_SetAccuracy
+title: SetAccuracy(Float accuracy)
 intellisense: NSCategorizationModelDetails.SetAccuracy
 keywords: NSCategorizationModelDetails, GetAccuracy
 so.topic: reference

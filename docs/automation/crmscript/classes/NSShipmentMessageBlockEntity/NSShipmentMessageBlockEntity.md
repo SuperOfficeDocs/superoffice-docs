@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageBlockEntity
-description: NSShipmentMessageBlockEntity
+uid: crmscript_ref_NSShipmentMessageBlockEntity
+title: NSShipmentMessageBlockEntity
 intellisense: Void.NSShipmentMessageBlockEntity
 keywords: NSShipmentMessageBlockEntity
 so.topic: reference

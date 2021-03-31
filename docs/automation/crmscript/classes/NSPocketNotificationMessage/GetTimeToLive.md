@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_GetTimeToLive
-description: Integer NSPocketNotificationMessage.GetTimeToLive()
+uid: crmscript_ref_NSPocketNotificationMessage_GetTimeToLive
+title: Integer GetTimeToLive()
 intellisense: NSPocketNotificationMessage.GetTimeToLive
 keywords: NSPocketNotificationMessage, GetTimeToLive
 so.topic: reference

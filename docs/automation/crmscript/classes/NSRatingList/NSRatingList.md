@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRatingList
-description: NSRatingList
+uid: crmscript_ref_NSRatingList
+title: NSRatingList
 intellisense: Void.NSRatingList
 keywords: NSRatingList
 so.topic: reference

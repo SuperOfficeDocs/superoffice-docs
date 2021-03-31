@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginUrlResponse_GetUrl
-description: String NSPluginUrlResponse.GetUrl()
+uid: crmscript_ref_NSPluginUrlResponse_GetUrl
+title: String GetUrl()
 intellisense: NSPluginUrlResponse.GetUrl
 keywords: NSPluginUrlResponse, GetUrl
 so.topic: reference

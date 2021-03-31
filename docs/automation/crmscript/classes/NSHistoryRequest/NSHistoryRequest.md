@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistoryRequest
-description: NSHistoryRequest
+uid: crmscript_ref_NSHistoryRequest
+title: NSHistoryRequest
 intellisense: Void.NSHistoryRequest
 keywords: NSHistoryRequest
 so.topic: reference

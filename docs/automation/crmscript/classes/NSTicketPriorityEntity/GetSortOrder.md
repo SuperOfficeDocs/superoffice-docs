@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetSortOrder
-description: Integer NSTicketPriorityEntity.GetSortOrder()
+uid: crmscript_ref_NSTicketPriorityEntity_GetSortOrder
+title: Integer GetSortOrder()
 intellisense: NSTicketPriorityEntity.GetSortOrder
 keywords: NSTicketPriorityEntity, GetSortOrder
 so.topic: reference

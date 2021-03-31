@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetRequest
-description: NSBatchTaskInfo.SetRequest(String request)
+uid: crmscript_ref_NSBatchTaskInfo_SetRequest
+title: SetRequest(String request)
 intellisense: NSBatchTaskInfo.SetRequest
 keywords: NSBatchTaskInfo, GetRequest
 so.topic: reference

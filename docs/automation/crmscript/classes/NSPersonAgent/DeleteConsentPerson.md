@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_DeleteConsentPerson
-description: DeleteConsentPerson(Integer consentPerson);
+uid: crmscript_ref_NSPersonAgent_DeleteConsentPerson
+title: DeleteConsentPerson(Integer consentPerson);
 intellisense: NSPersonAgent.DeleteConsentPerson
-keywords: NSPersonAgent,DeleteConsentPerson
+keywords: NSPersonAgent, DeleteConsentPerson
 so.topic: reference
 ---
 

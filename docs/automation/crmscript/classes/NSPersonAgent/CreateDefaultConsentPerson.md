@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_CreateDefaultConsentPerson
-description: NSConsentPerson CreateDefaultConsentPerson()
+uid: crmscript_ref_NSPersonAgent_CreateDefaultConsentPerson
+title: NSConsentPerson CreateDefaultConsentPerson()
 intellisense: NSPersonAgent.CreateDefaultConsentPerson
-keywords: NSPersonAgent,CreateDefaultConsentPerson
+keywords: NSPersonAgent, CreateDefaultConsentPerson
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetOrigin
-description: NSTicket.SetOrigin(TicketOrigin origin)
+uid: crmscript_ref_NSTicket_SetOrigin
+title: SetOrigin(TicketOrigin origin)
 intellisense: NSTicket.SetOrigin
 keywords: NSTicket, GetOrigin
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetContact
-description: NSAppointmentEntity.SetContact(Contact contact)
+uid: crmscript_ref_NSAppointmentEntity_SetContact
+title: SetContact(Contact contact)
 intellisense: NSAppointmentEntity.SetContact
 keywords: NSAppointmentEntity, GetContact
 so.topic: reference

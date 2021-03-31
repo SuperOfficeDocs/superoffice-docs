@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebAppUsage_GetViewState
-description: String NSWebAppUsage.GetViewState()
+uid: crmscript_ref_NSWebAppUsage_GetViewState
+title: String GetViewState()
 intellisense: NSWebAppUsage.GetViewState
 keywords: NSWebAppUsage, GetViewState
 so.topic: reference

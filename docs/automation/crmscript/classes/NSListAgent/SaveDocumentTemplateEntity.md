@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveDocumentTemplateEntity
-description: NSDocumentTemplateEntity SaveDocumentTemplateEntity(NSDocumentTemplateEntity documentTemplateEntity);
+uid: crmscript_ref_NSListAgent_SaveDocumentTemplateEntity
+title: NSDocumentTemplateEntity SaveDocumentTemplateEntity(NSDocumentTemplateEntity documentTemplateEntity);
 intellisense: NSListAgent.SaveDocumentTemplateEntity
-keywords: NSListAgent,SaveDocumentTemplateEntity
+keywords: NSListAgent, SaveDocumentTemplateEntity
 so.topic: reference
 ---
 	  

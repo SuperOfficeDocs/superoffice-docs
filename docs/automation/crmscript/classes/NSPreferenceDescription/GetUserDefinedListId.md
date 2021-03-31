@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_GetUserDefinedListId
-description: Integer NSPreferenceDescription.GetUserDefinedListId()
+uid: crmscript_ref_NSPreferenceDescription_GetUserDefinedListId
+title: Integer GetUserDefinedListId()
 intellisense: NSPreferenceDescription.GetUserDefinedListId
 keywords: NSPreferenceDescription, GetUserDefinedListId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerCenterConfig_SetType
-description: NSCustomerCenterConfig.SetType(Integer type)
+uid: crmscript_ref_NSCustomerCenterConfig_SetType
+title: SetType(Integer type)
 intellisense: NSCustomerCenterConfig.SetType
 keywords: NSCustomerCenterConfig, GetType
 so.topic: reference

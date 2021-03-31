@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAddressSyncData_GetState
-description: String NSAddressSyncData.GetState()
+uid: crmscript_ref_NSAddressSyncData_GetState
+title: String GetState()
 intellisense: NSAddressSyncData.GetState
 keywords: NSAddressSyncData, GetState
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_SetAsSold
-description: Void SetAsSold(IntegerArray saleIds)
+uid: crmscript_ref_NSSaleAgent_SetAsSold
+title: Void SetAsSold(IntegerArray saleIds)
 intellisense: NSSaleAgent.SetAsSold
-keywords: NSSaleAgent,SetAsSold
+keywords: NSSaleAgent, SetAsSold
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketSummaryItem_GetRegistered
-description: DateTime NSTicketSummaryItem.GetRegistered()
+uid: crmscript_ref_NSTicketSummaryItem_GetRegistered
+title: DateTime GetRegistered()
 intellisense: NSTicketSummaryItem.GetRegistered
 keywords: NSTicketSummaryItem, GetRegistered
 so.topic: reference

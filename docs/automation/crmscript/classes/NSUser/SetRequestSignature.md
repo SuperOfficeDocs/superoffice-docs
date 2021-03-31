@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetRequestSignature
-description: NSUser.SetRequestSignature(String requestSignature)
+uid: crmscript_ref_NSUser_SetRequestSignature
+title: SetRequestSignature(String requestSignature)
 intellisense: NSUser.SetRequestSignature
 keywords: NSUser, GetRequestSignature
 so.topic: reference

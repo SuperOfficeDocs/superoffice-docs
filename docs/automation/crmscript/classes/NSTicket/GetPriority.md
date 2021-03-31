@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetPriority
-description: Integer NSTicket.GetPriority()
+uid: crmscript_ref_NSTicket_GetPriority
+title: Integer GetPriority()
 intellisense: NSTicket.GetPriority
 keywords: NSTicket, GetPriority
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetDeliveryCountryId
-description: NSQuoteVersion.SetDeliveryCountryId(Integer deliveryCountryId)
+uid: crmscript_ref_NSQuoteVersion_SetDeliveryCountryId
+title: SetDeliveryCountryId(Integer deliveryCountryId)
 intellisense: NSQuoteVersion.SetDeliveryCountryId
 keywords: NSQuoteVersion, GetDeliveryCountryId
 so.topic: reference

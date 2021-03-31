@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketInfo_GetTicketUrl
-description: String NSTicketInfo.GetTicketUrl()
+uid: crmscript_ref_NSTicketInfo_GetTicketUrl
+title: String GetTicketUrl()
 intellisense: NSTicketInfo.GetTicketUrl
 keywords: NSTicketInfo, GetTicketUrl
 so.topic: reference

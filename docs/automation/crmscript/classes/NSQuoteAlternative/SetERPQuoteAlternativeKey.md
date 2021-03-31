@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_SetERPQuoteAlternativeKey
-description: NSQuoteAlternative.SetERPQuoteAlternativeKey(String eRPQuoteAlternativeKey)
+uid: crmscript_ref_NSQuoteAlternative_SetERPQuoteAlternativeKey
+title: SetERPQuoteAlternativeKey(String eRPQuoteAlternativeKey)
 intellisense: NSQuoteAlternative.SetERPQuoteAlternativeKey
 keywords: NSQuoteAlternative, GetERPQuoteAlternativeKey
 so.topic: reference

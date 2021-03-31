@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetIncludePerson
-description: NSSelectionEntity.SetIncludePerson(Integer includePerson)
+uid: crmscript_ref_NSSelectionEntity_SetIncludePerson
+title: SetIncludePerson(Integer includePerson)
 intellisense: NSSelectionEntity.SetIncludePerson
 keywords: NSSelectionEntity, GetIncludePerson
 so.topic: reference

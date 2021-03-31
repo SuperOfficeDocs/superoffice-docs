@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_SetFriStop
-description: NSChatOpeningHours.SetFriStop(TimeSpan friStop)
+uid: crmscript_ref_NSChatOpeningHours_SetFriStop
+title: SetFriStop(TimeSpan friStop)
 intellisense: NSChatOpeningHours.SetFriStop
 keywords: NSChatOpeningHours, GetFriStop
 so.topic: reference

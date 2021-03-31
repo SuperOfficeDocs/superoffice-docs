@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetRawExtraInfo
-description: String NSProduct.GetRawExtraInfo()
+uid: crmscript_ref_NSProduct_GetRawExtraInfo
+title: String GetRawExtraInfo()
 intellisense: NSProduct.GetRawExtraInfo
 keywords: NSProduct, GetRawExtraInfo
 so.topic: reference

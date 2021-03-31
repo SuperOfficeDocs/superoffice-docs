@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetWhenRequested
-description: DateTime NSChatSessionEntity.GetWhenRequested()
+uid: crmscript_ref_NSChatSessionEntity_GetWhenRequested
+title: DateTime GetWhenRequested()
 intellisense: NSChatSessionEntity.GetWhenRequested
 keywords: NSChatSessionEntity, GetWhenRequested
 so.topic: reference

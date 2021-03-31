@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMassOperationResult_SetUpdates
-description: NSMassOperationResult.SetUpdates(Integer updates)
+uid: crmscript_ref_NSMassOperationResult_SetUpdates
+title: SetUpdates(Integer updates)
 intellisense: NSMassOperationResult.SetUpdates
 keywords: NSMassOperationResult, GetUpdates
 so.topic: reference

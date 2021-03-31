@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_GetMaintenanceDate
-description: DateTime NSLicenseInfo.GetMaintenanceDate()
+uid: crmscript_ref_NSLicenseInfo_GetMaintenanceDate
+title: DateTime GetMaintenanceDate()
 intellisense: NSLicenseInfo.GetMaintenanceDate
 keywords: NSLicenseInfo, GetMaintenanceDate
 so.topic: reference

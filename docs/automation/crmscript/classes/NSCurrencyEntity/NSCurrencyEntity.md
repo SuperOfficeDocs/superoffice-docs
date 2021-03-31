@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCurrencyEntity
-description: NSCurrencyEntity
+uid: crmscript_ref_NSCurrencyEntity
+title: NSCurrencyEntity
 intellisense: Void.NSCurrencyEntity
 keywords: NSCurrencyEntity
 so.topic: reference

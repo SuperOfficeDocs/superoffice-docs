@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments
-description: NSQuotePublishDocuments
+uid: crmscript_ref_NSQuotePublishDocuments
+title: NSQuotePublishDocuments
 intellisense: Void.NSQuotePublishDocuments
 keywords: NSQuotePublishDocuments
 so.topic: reference

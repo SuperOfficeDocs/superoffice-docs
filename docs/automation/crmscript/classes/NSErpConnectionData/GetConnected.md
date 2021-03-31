@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionData_GetConnected
-description: Bool NSErpConnectionData.GetConnected()
+uid: crmscript_ref_NSErpConnectionData_GetConnected
+title: Bool GetConnected()
 intellisense: NSErpConnectionData.GetConnected
 keywords: NSErpConnectionData, GetConnected
 so.topic: reference

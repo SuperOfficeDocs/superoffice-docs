@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent
-description: NSEMailAgent
+uid: crmscript_ref_NSEMailAgent
+title: NSEMailAgent
 intellisense: Void.NSEMailAgent
 keywords: NSEMailAgent
 so.topic: reference

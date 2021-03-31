@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactOrPersonFromEmail_GetContactId
-description: Integer NSContactOrPersonFromEmail.GetContactId()
+uid: crmscript_ref_NSContactOrPersonFromEmail_GetContactId
+title: Integer GetContactId()
 intellisense: NSContactOrPersonFromEmail.GetContactId
 keywords: NSContactOrPersonFromEmail, GetContactId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetObjectMapping
-description: String GetObjectMapping(String application, String instance)
+uid: crmscript_ref_NSConfigurationAgent_GetObjectMapping
+title: String GetObjectMapping(String application, String instance)
 intellisense: NSConfigurationAgent.GetObjectMapping
-keywords: NSConfigurationAgent,GetObjectMapping
+keywords: NSConfigurationAgent, GetObjectMapping
 so.topic: reference
 ---
 

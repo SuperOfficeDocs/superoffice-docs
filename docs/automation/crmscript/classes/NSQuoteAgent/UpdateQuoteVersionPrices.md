@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_UpdateQuoteVersionPrices
-description: QuoteVersionValidated UpdateQuoteVersionPrices(Integer quoteVersionId)
+uid: crmscript_ref_NSQuoteAgent_UpdateQuoteVersionPrices
+title: QuoteVersionValidated UpdateQuoteVersionPrices(Integer quoteVersionId)
 intellisense: NSQuoteAgent.UpdateQuoteVersionPrices
-keywords: NSQuoteAgent,UpdateQuoteVersionPrices
+keywords: NSQuoteAgent, UpdateQuoteVersionPrices
 so.topic: reference
 ---
 

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSPaymentType_GetId
-description: Integer NSPaymentType.GetId()
+uid: crmscript_ref_NSPaymentType_GetId
+title: Integer GetId()
 intellisense: NSPaymentType.GetId
 keywords: NSPaymentType, GetId
 so.topic: reference
 ---
 
-Get the primary key (id)
+Get the primary key (id) for the PaymentType
 
-**Returns:** Integer Id
+**Returns:** Integer PaymentType id.
 

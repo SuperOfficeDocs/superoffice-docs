@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_CreateDefaultStatusMonitorPeriods
-description: NSStatusMonitorPeriods CreateDefaultStatusMonitorPeriods()
+uid: crmscript_ref_NSSaintAgent_CreateDefaultStatusMonitorPeriods
+title: NSStatusMonitorPeriods CreateDefaultStatusMonitorPeriods()
 intellisense: NSSaintAgent.CreateDefaultStatusMonitorPeriods
-keywords: NSSaintAgent,CreateDefaultStatusMonitorPeriods
+keywords: NSSaintAgent, CreateDefaultStatusMonitorPeriods
 so.topic: reference
 ---
 	  

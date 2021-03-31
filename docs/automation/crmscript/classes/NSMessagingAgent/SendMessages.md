@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMessagingAgent_SendMessages
-description: MessageDeliveryStatusArray SendMessages(String plugin, OutgoingMessageArray outgoingMessages)
+uid: crmscript_ref_NSMessagingAgent_SendMessages
+title: MessageDeliveryStatusArray SendMessages(String plugin, OutgoingMessageArray outgoingMessages)
 intellisense: NSMessagingAgent.SendMessages
-keywords: NSMessagingAgent,SendMessages
+keywords: NSMessagingAgent, SendMessages
 so.topic: reference
 ---
 

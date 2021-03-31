@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSIncomingMessage_GetPlugin
-description: String NSIncomingMessage.GetPlugin()
+uid: crmscript_ref_NSIncomingMessage_GetPlugin
+title: String GetPlugin()
 intellisense: NSIncomingMessage.GetPlugin
 keywords: NSIncomingMessage, GetPlugin
 so.topic: reference

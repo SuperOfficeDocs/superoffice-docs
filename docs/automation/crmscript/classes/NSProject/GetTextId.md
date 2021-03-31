@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_GetTextId
-description: Integer NSProject.GetTextId()
+uid: crmscript_ref_NSProject_GetTextId
+title: Integer GetTextId()
 intellisense: NSProject.GetTextId
 keywords: NSProject, GetTextId
 so.topic: reference

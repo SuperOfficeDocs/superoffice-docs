@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceLayoutEntity_GetInstanceName
-description: String NSAudienceLayoutEntity.GetInstanceName()
+uid: crmscript_ref_NSAudienceLayoutEntity_GetInstanceName
+title: String GetInstanceName()
 intellisense: NSAudienceLayoutEntity.GetInstanceName
 keywords: NSAudienceLayoutEntity, GetInstanceName
 so.topic: reference

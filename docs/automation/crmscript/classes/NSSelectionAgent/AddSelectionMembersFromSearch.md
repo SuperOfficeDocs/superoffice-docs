@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_AddSelectionMembersFromSearch
-description: Integer AddSelectionMembersFromSearch(Integer selectionId, String storageKey)
+uid: crmscript_ref_NSSelectionAgent_AddSelectionMembersFromSearch
+title: Integer AddSelectionMembersFromSearch(Integer selectionId, String storageKey)
 intellisense: NSSelectionAgent.AddSelectionMembersFromSearch
-keywords: NSSelectionAgent,AddSelectionMembersFromSearch
+keywords: NSSelectionAgent, AddSelectionMembersFromSearch
 so.topic: reference
 ---
 

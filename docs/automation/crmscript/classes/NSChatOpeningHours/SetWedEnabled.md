@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_SetWedEnabled
-description: NSChatOpeningHours.SetWedEnabled(Bool wedEnabled)
+uid: crmscript_ref_NSChatOpeningHours_SetWedEnabled
+title: SetWedEnabled(Bool wedEnabled)
 intellisense: NSChatOpeningHours.SetWedEnabled
 keywords: NSChatOpeningHours, GetWedEnabled
 so.topic: reference

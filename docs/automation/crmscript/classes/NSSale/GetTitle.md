@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_GetTitle
-description: String NSSale.GetTitle()
+uid: crmscript_ref_NSSale_GetTitle
+title: String GetTitle()
 intellisense: NSSale.GetTitle
 keywords: NSSale, GetTitle
 so.topic: reference

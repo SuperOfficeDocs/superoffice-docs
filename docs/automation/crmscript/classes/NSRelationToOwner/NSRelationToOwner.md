@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRelationToOwner
-description: NSRelationToOwner
+uid: crmscript_ref_NSRelationToOwner
+title: NSRelationToOwner
 intellisense: Void.NSRelationToOwner
 keywords: NSRelationToOwner
 so.topic: reference

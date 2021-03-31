@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity_SetSourcePersonId
-description: NSContactRelationEntity.SetSourcePersonId(Integer sourcePersonId)
+uid: crmscript_ref_NSContactRelationEntity_SetSourcePersonId
+title: SetSourcePersonId(Integer sourcePersonId)
 intellisense: NSContactRelationEntity.SetSourcePersonId
 keywords: NSContactRelationEntity, GetSourcePersonId
 so.topic: reference

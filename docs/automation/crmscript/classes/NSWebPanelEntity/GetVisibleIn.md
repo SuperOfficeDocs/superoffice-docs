@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetVisibleIn
-description: Integer NSWebPanelEntity.GetVisibleIn()
+uid: crmscript_ref_NSWebPanelEntity_GetVisibleIn
+title: Integer GetVisibleIn()
 intellisense: NSWebPanelEntity.GetVisibleIn
 keywords: NSWebPanelEntity, GetVisibleIn
 so.topic: reference

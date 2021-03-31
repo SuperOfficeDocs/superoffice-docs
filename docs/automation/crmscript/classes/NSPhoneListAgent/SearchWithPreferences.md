@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPhoneListAgent_SearchWithPreferences
-description: PhoneListItemArray SearchWithPreferences(String searchString, PhoneListPreferences preferences)
+uid: crmscript_ref_NSPhoneListAgent_SearchWithPreferences
+title: PhoneListItemArray SearchWithPreferences(String searchString, PhoneListPreferences preferences)
 intellisense: NSPhoneListAgent.SearchWithPreferences
-keywords: NSPhoneListAgent,SearchWithPreferences
+keywords: NSPhoneListAgent, SearchWithPreferences
 so.topic: reference
 ---
 

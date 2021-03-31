@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSyncUserAccount_GetAssociateName
-description: String NSSyncUserAccount.GetAssociateName()
+uid: crmscript_ref_NSSyncUserAccount_GetAssociateName
+title: String GetAssociateName()
 intellisense: NSSyncUserAccount.GetAssociateName
 keywords: NSSyncUserAccount, GetAssociateName
 so.topic: reference

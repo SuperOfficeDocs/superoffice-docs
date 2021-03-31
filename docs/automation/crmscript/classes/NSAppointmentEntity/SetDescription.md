@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetDescription
-description: NSAppointmentEntity.SetDescription(String description)
+uid: crmscript_ref_NSAppointmentEntity_SetDescription
+title: SetDescription(String description)
 intellisense: NSAppointmentEntity.SetDescription
 keywords: NSAppointmentEntity, GetDescription
 so.topic: reference

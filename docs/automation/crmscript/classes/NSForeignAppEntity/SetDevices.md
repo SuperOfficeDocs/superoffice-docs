@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignAppEntity_SetDevices
-description: NSForeignAppEntity.SetDevices(ForeignDeviceArray devices)
+uid: crmscript_ref_NSForeignAppEntity_SetDevices
+title: SetDevices(ForeignDeviceArray devices)
 intellisense: NSForeignAppEntity.SetDevices
 keywords: NSForeignAppEntity, GetDevices
 so.topic: reference

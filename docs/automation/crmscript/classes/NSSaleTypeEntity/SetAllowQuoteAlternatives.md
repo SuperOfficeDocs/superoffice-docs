@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetAllowQuoteAlternatives
-description: NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool allowQuoteAlternatives)
+uid: crmscript_ref_NSSaleTypeEntity_SetAllowQuoteAlternatives
+title: SetAllowQuoteAlternatives(Bool allowQuoteAlternatives)
 intellisense: NSSaleTypeEntity.SetAllowQuoteAlternatives
 keywords: NSSaleTypeEntity, GetAllowQuoteAlternatives
 so.topic: reference

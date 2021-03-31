@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_DeleteSaleTypeQuoteAttachment
-description: Void DeleteSaleTypeQuoteAttachment(Integer saleTypeQuoteAttachmentId)
+uid: crmscript_ref_NSQuoteAgent_DeleteSaleTypeQuoteAttachment
+title: Void DeleteSaleTypeQuoteAttachment(Integer saleTypeQuoteAttachmentId)
 intellisense: NSQuoteAgent.DeleteSaleTypeQuoteAttachment
-keywords: NSQuoteAgent,DeleteSaleTypeQuoteAttachment
+keywords: NSQuoteAgent, DeleteSaleTypeQuoteAttachment
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_DeletePreferenceDescriptionLines
-description: Void DeletePreferenceDescriptionLines(IntegerArray prefDescLineIds)
+uid: crmscript_ref_NSPreferenceAgent_DeletePreferenceDescriptionLines
+title: Void DeletePreferenceDescriptionLines(IntegerArray prefDescLineIds)
 intellisense: NSPreferenceAgent.DeletePreferenceDescriptionLines
-keywords: NSPreferenceAgent,DeletePreferenceDescriptionLines
+keywords: NSPreferenceAgent, DeletePreferenceDescriptionLines
 so.topic: reference
 ---
 

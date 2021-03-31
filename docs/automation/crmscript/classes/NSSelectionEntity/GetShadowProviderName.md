@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetShadowProviderName
-description: String NSSelectionEntity.GetShadowProviderName()
+uid: crmscript_ref_NSSelectionEntity_GetShadowProviderName
+title: String GetShadowProviderName()
 intellisense: NSSelectionEntity.GetShadowProviderName
 keywords: NSSelectionEntity, GetShadowProviderName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFavourite_SetRecordId
-description: NSFavourite.SetRecordId(Integer recordId)
+uid: crmscript_ref_NSFavourite_SetRecordId
+title: SetRecordId(Integer recordId)
 intellisense: NSFavourite.SetRecordId
 keywords: NSFavourite, GetRecordId
 so.topic: reference

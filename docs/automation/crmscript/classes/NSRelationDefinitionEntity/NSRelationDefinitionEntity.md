@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRelationDefinitionEntity
-description: NSRelationDefinitionEntity
+uid: crmscript_ref_NSRelationDefinitionEntity
+title: NSRelationDefinitionEntity
 intellisense: Void.NSRelationDefinitionEntity
 keywords: NSRelationDefinitionEntity
 so.topic: reference

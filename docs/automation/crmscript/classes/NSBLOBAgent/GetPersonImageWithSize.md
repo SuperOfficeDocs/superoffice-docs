@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetPersonImageWithSize
-description: Image GetPersonImageWithSize(Integer personId, Integer width, Integer height)
+uid: crmscript_ref_NSBLOBAgent_GetPersonImageWithSize
+title: Image GetPersonImageWithSize(Integer personId, Integer width, Integer height)
 intellisense: NSBLOBAgent.GetPersonImageWithSize
-keywords: NSBLOBAgent,GetPersonImageWithSize
+keywords: NSBLOBAgent, GetPersonImageWithSize
 so.topic: reference
 ---
 

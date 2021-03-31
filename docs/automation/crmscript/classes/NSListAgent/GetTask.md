@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetTask
-description: NSTask GetTask(Integer taskId);
+uid: crmscript_ref_NSListAgent_GetTask
+title: NSTask GetTask(Integer taskId);
 intellisense: NSListAgent.GetTask
-keywords: NSListAgent,GetTask
+keywords: NSListAgent, GetTask
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_SaveCustomerCenterConfig
-description: NSCustomerCenterConfig SaveCustomerCenterConfig(NSCustomerCenterConfig customerCenterConfig);
+uid: crmscript_ref_NSCustomerServiceAgent_SaveCustomerCenterConfig
+title: NSCustomerCenterConfig SaveCustomerCenterConfig(NSCustomerCenterConfig customerCenterConfig);
 intellisense: NSCustomerServiceAgent.SaveCustomerCenterConfig
-keywords: NSCustomerServiceAgent,SaveCustomerCenterConfig
+keywords: NSCustomerServiceAgent, SaveCustomerCenterConfig
 so.topic: reference
 ---
 	  

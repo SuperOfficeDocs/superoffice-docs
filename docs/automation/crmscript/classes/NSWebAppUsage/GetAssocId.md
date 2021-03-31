@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebAppUsage_GetAssocId
-description: Integer NSWebAppUsage.GetAssocId()
+uid: crmscript_ref_NSWebAppUsage_GetAssocId
+title: Integer GetAssocId()
 intellisense: NSWebAppUsage.GetAssocId
 keywords: NSWebAppUsage, GetAssocId
 so.topic: reference

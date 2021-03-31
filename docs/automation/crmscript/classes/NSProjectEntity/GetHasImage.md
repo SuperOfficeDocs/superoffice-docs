@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetHasImage
-description: Bool NSProjectEntity.GetHasImage()
+uid: crmscript_ref_NSProjectEntity_GetHasImage
+title: Bool GetHasImage()
 intellisense: NSProjectEntity.GetHasImage
 keywords: NSProjectEntity, GetHasImage
 so.topic: reference

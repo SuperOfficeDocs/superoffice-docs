@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_GetFrom
-description: EMailAddress NSEMailEntity.GetFrom()
+uid: crmscript_ref_NSEMailEntity_GetFrom
+title: EMailAddress GetFrom()
 intellisense: NSEMailEntity.GetFrom
 keywords: NSEMailEntity, GetFrom
 so.topic: reference

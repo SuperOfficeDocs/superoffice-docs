@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRedLetterDetails
-description: NSRedLetterDetails
+uid: crmscript_ref_NSRedLetterDetails
+title: NSRedLetterDetails
 intellisense: Void.NSRedLetterDetails
 keywords: NSRedLetterDetails
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetProductFamilyKey
-description: String NSQuoteLine.GetProductFamilyKey()
+uid: crmscript_ref_NSQuoteLine_GetProductFamilyKey
+title: String GetProductFamilyKey()
 intellisense: NSQuoteLine.GetProductFamilyKey
 keywords: NSQuoteLine, GetProductFamilyKey
 so.topic: reference

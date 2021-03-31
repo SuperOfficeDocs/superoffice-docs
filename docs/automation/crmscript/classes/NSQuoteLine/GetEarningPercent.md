@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetEarningPercent
-description: Float NSQuoteLine.GetEarningPercent()
+uid: crmscript_ref_NSQuoteLine_GetEarningPercent
+title: Float GetEarningPercent()
 intellisense: NSQuoteLine.GetEarningPercent
 keywords: NSQuoteLine, GetEarningPercent
 so.topic: reference

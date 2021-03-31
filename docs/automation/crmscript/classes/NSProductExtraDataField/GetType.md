@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProductExtraDataField_GetType
-description: Integer NSProductExtraDataField.GetType()
+uid: crmscript_ref_NSProductExtraDataField_GetType
+title: Integer GetType()
 intellisense: NSProductExtraDataField.GetType
 keywords: NSProductExtraDataField, GetType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetDeleted
-description: Bool NSExtAppEntity.GetDeleted()
+uid: crmscript_ref_NSExtAppEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSExtAppEntity.GetDeleted
 keywords: NSExtAppEntity, GetDeleted
 so.topic: reference

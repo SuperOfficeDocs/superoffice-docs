@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_SetMessageCategory
-description: NSTicketMessageEntity.SetMessageCategory(TicketMessageCategory messageCategory)
+uid: crmscript_ref_NSTicketMessageEntity_SetMessageCategory
+title: SetMessageCategory(TicketMessageCategory messageCategory)
 intellisense: NSTicketMessageEntity.SetMessageCategory
 keywords: NSTicketMessageEntity, GetMessageCategory
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnCountry
-description: BlobEntity GetBlobEntityOnCountry(Integer countryId)
+uid: crmscript_ref_NSBLOBAgent_GetBlobEntityOnCountry
+title: BlobEntity GetBlobEntityOnCountry(Integer countryId)
 intellisense: NSBLOBAgent.GetBlobEntityOnCountry
-keywords: NSBLOBAgent,GetBlobEntityOnCountry
+keywords: NSBLOBAgent, GetBlobEntityOnCountry
 so.topic: reference
 ---
 

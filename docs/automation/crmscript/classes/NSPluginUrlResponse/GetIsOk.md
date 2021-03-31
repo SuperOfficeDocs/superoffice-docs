@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginUrlResponse_GetIsOk
-description: Bool NSPluginUrlResponse.GetIsOk()
+uid: crmscript_ref_NSPluginUrlResponse_GetIsOk
+title: Bool GetIsOk()
 intellisense: NSPluginUrlResponse.GetIsOk
 keywords: NSPluginUrlResponse, GetIsOk
 so.topic: reference

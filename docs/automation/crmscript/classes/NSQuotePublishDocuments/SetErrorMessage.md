@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_SetErrorMessage
-description: NSQuotePublishDocuments.SetErrorMessage(String errorMessage)
+uid: crmscript_ref_NSQuotePublishDocuments_SetErrorMessage
+title: SetErrorMessage(String errorMessage)
 intellisense: NSQuotePublishDocuments.SetErrorMessage
 keywords: NSQuotePublishDocuments, GetErrorMessage
 so.topic: reference

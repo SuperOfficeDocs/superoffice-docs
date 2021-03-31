@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBatchAgent_GetBatchTaskInfo
-description: BatchTaskInfo GetBatchTaskInfo(Integer id)
+uid: crmscript_ref_NSBatchAgent_GetBatchTaskInfo
+title: BatchTaskInfo GetBatchTaskInfo(Integer id)
 intellisense: NSBatchAgent.GetBatchTaskInfo
-keywords: NSBatchAgent,GetBatchTaskInfo
+keywords: NSBatchAgent, GetBatchTaskInfo
 so.topic: reference
 ---
 

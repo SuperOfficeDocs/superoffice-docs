@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportLabelLayoutEntity_GetTopMargin
-description: Integer NSReportLabelLayoutEntity.GetTopMargin()
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetTopMargin
+title: Integer GetTopMargin()
 intellisense: NSReportLabelLayoutEntity.GetTopMargin
 keywords: NSReportLabelLayoutEntity, GetTopMargin
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnContact
-description: BlobEntity GetBlobEntityOnContact(Integer contactId)
+uid: crmscript_ref_NSBLOBAgent_GetBlobEntityOnContact
+title: BlobEntity GetBlobEntityOnContact(Integer contactId)
 intellisense: NSBLOBAgent.GetBlobEntityOnContact
-keywords: NSBLOBAgent,GetBlobEntityOnContact
+keywords: NSBLOBAgent, GetBlobEntityOnContact
 so.topic: reference
 ---
 

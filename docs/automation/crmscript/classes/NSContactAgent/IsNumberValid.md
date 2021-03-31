@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_IsNumberValid
-description: Bool IsNumberValid(Integer contactId, String number)
+uid: crmscript_ref_NSContactAgent_IsNumberValid
+title: Bool IsNumberValid(Integer contactId, String number)
 intellisense: NSContactAgent.IsNumberValid
-keywords: NSContactAgent,IsNumberValid
+keywords: NSContactAgent, IsNumberValid
 so.topic: reference
 ---
 

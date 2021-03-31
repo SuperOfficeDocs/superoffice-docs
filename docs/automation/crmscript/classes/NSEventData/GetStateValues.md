@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_GetStateValues
-description: StringDictionary NSEventData.GetStateValues()
+uid: crmscript_ref_NSEventData_GetStateValues
+title: StringDictionary GetStateValues()
 intellisense: NSEventData.GetStateValues
 keywords: NSEventData, GetStateValues
 so.topic: reference

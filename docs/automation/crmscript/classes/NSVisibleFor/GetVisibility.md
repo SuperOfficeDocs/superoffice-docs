@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVisibleFor_GetVisibility
-description: Integer NSVisibleFor.GetVisibility()
+uid: crmscript_ref_NSVisibleFor_GetVisibility
+title: Integer GetVisibility()
 intellisense: NSVisibleFor.GetVisibility
 keywords: NSVisibleFor, GetVisibility
 so.topic: reference

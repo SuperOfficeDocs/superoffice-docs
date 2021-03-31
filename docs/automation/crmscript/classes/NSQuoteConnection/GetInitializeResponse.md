@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_GetInitializeResponse
-description: PluginResponse NSQuoteConnection.GetInitializeResponse()
+uid: crmscript_ref_NSQuoteConnection_GetInitializeResponse
+title: PluginResponse GetInitializeResponse()
 intellisense: NSQuoteConnection.GetInitializeResponse
 keywords: NSQuoteConnection, GetInitializeResponse
 so.topic: reference

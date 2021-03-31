@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_GetChatMessages
-description: ChatMessageArray GetChatMessages(Integer chatSessionId, Integer after)
+uid: crmscript_ref_NSChatAgent_GetChatMessages
+title: ChatMessageArray GetChatMessages(Integer chatSessionId, Integer after)
 intellisense: NSChatAgent.GetChatMessages
-keywords: NSChatAgent,GetChatMessages
+keywords: NSChatAgent, GetChatMessages
 so.topic: reference
 ---
 

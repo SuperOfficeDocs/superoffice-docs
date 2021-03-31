@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetProjectImage
-description: Image GetProjectImage(Integer projectId)
+uid: crmscript_ref_NSBLOBAgent_GetProjectImage
+title: Image GetProjectImage(Integer projectId)
 intellisense: NSBLOBAgent.GetProjectImage
-keywords: NSBLOBAgent,GetProjectImage
+keywords: NSBLOBAgent, GetProjectImage
 so.topic: reference
 ---
 

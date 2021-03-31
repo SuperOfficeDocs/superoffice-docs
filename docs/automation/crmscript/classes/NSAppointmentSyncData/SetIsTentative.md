@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_SetIsTentative
-description: NSAppointmentSyncData.SetIsTentative(Bool isTentative)
+uid: crmscript_ref_NSAppointmentSyncData_SetIsTentative
+title: SetIsTentative(Bool isTentative)
 intellisense: NSAppointmentSyncData.SetIsTentative
 keywords: NSAppointmentSyncData, GetIsTentative
 so.topic: reference

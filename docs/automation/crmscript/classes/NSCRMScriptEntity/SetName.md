@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptEntity_SetName
-description: NSCRMScriptEntity.SetName(String name)
+uid: crmscript_ref_NSCRMScriptEntity_SetName
+title: SetName(String name)
 intellisense: NSCRMScriptEntity.SetName
 keywords: NSCRMScriptEntity, GetName
 so.topic: reference

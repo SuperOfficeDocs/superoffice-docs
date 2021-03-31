@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetReadByOwner
-description: NSTicketEntity.SetReadByOwner(DateTime readByOwner)
+uid: crmscript_ref_NSTicketEntity_SetReadByOwner
+title: SetReadByOwner(DateTime readByOwner)
 intellisense: NSTicketEntity.SetReadByOwner
 keywords: NSTicketEntity, GetReadByOwner
 so.topic: reference

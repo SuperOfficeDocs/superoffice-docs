@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialsGroup_GetName
-description: String NSCredentialsGroup.GetName()
+uid: crmscript_ref_NSCredentialsGroup_GetName
+title: String GetName()
 intellisense: NSCredentialsGroup.GetName
 keywords: NSCredentialsGroup, GetName
 so.topic: reference

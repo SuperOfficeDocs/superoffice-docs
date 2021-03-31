@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetOpenTotalBaseCurrency
-description: NSSaleSummary.SetOpenTotalBaseCurrency(Float openTotalBaseCurrency)
+uid: crmscript_ref_NSSaleSummary_SetOpenTotalBaseCurrency
+title: SetOpenTotalBaseCurrency(Float openTotalBaseCurrency)
 intellisense: NSSaleSummary.SetOpenTotalBaseCurrency
 keywords: NSSaleSummary, GetOpenTotalBaseCurrency
 so.topic: reference

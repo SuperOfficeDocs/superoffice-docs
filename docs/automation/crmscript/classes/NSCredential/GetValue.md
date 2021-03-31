@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredential_GetValue
-description: String NSCredential.GetValue()
+uid: crmscript_ref_NSCredential_GetValue
+title: String GetValue()
 intellisense: NSCredential.GetValue
 keywords: NSCredential, GetValue
 so.topic: reference

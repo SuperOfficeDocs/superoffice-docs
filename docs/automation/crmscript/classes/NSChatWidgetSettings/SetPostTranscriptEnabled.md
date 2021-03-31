@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetPostTranscriptEnabled
-description: NSChatWidgetSettings.SetPostTranscriptEnabled(Bool postTranscriptEnabled)
+uid: crmscript_ref_NSChatWidgetSettings_SetPostTranscriptEnabled
+title: SetPostTranscriptEnabled(Bool postTranscriptEnabled)
 intellisense: NSChatWidgetSettings.SetPostTranscriptEnabled
 keywords: NSChatWidgetSettings, GetPostTranscriptEnabled
 so.topic: reference

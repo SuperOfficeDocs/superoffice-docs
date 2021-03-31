@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_GetFriEnabled
-description: Bool NSChatOpeningHours.GetFriEnabled()
+uid: crmscript_ref_NSChatOpeningHours_GetFriEnabled
+title: Bool GetFriEnabled()
 intellisense: NSChatOpeningHours.GetFriEnabled
 keywords: NSChatOpeningHours, GetFriEnabled
 so.topic: reference

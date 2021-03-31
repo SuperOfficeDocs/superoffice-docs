@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDictionaryStepInformation
-description: NSDictionaryStepInformation
+uid: crmscript_ref_NSDictionaryStepInformation
+title: NSDictionaryStepInformation
 intellisense: Void.NSDictionaryStepInformation
 keywords: NSDictionaryStepInformation
 so.topic: reference

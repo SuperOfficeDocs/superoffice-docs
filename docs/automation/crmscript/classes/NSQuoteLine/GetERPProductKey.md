@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetERPProductKey
-description: String NSQuoteLine.GetERPProductKey()
+uid: crmscript_ref_NSQuoteLine_GetERPProductKey
+title: String GetERPProductKey()
 intellisense: NSQuoteLine.GetERPProductKey
 keywords: NSQuoteLine, GetERPProductKey
 so.topic: reference

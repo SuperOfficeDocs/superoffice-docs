@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_GetPhonePrivate
-description: StringArray NSParticipantSyncData.GetPhonePrivate()
+uid: crmscript_ref_NSParticipantSyncData_GetPhonePrivate
+title: StringArray GetPhonePrivate()
 intellisense: NSParticipantSyncData.GetPhonePrivate
 keywords: NSParticipantSyncData, GetPhonePrivate
 so.topic: reference

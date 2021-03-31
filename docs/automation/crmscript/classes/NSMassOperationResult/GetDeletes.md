@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMassOperationResult_GetDeletes
-description: Integer NSMassOperationResult.GetDeletes()
+uid: crmscript_ref_NSMassOperationResult_GetDeletes
+title: Integer GetDeletes()
 intellisense: NSMassOperationResult.GetDeletes
 keywords: NSMassOperationResult, GetDeletes
 so.topic: reference

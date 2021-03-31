@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectTypeEntity_SetRank
-description: NSProjectTypeEntity.SetRank(Integer rank)
+uid: crmscript_ref_NSProjectTypeEntity_SetRank
+title: SetRank(Integer rank)
 intellisense: NSProjectTypeEntity.SetRank
 keywords: NSProjectTypeEntity, GetRank
 so.topic: reference

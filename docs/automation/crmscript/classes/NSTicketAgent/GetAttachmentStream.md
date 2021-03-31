@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_GetAttachmentStream
-description: Stream GetAttachmentStream(Integer attachmentId)
+uid: crmscript_ref_NSTicketAgent_GetAttachmentStream
+title: Stream GetAttachmentStream(Integer attachmentId)
 intellisense: NSTicketAgent.GetAttachmentStream
-keywords: NSTicketAgent,GetAttachmentStream
+keywords: NSTicketAgent, GetAttachmentStream
 so.topic: reference
 ---
 

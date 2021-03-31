@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetQuantityUnit
-description: String NSProduct.GetQuantityUnit()
+uid: crmscript_ref_NSProduct_GetQuantityUnit
+title: String GetQuantityUnit()
 intellisense: NSProduct.GetQuantityUnit
 keywords: NSProduct, GetQuantityUnit
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSystemEventEntity_GetScope
-description: Integer NSSystemEventEntity.GetScope()
+uid: crmscript_ref_NSSystemEventEntity_GetScope
+title: Integer GetScope()
 intellisense: NSSystemEventEntity.GetScope
 keywords: NSSystemEventEntity, GetScope
 so.topic: reference

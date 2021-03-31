@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_GetSignOnConfirmationText
-description: String NSProjectEvent.GetSignOnConfirmationText()
+uid: crmscript_ref_NSProjectEvent_GetSignOnConfirmationText
+title: String GetSignOnConfirmationText()
 intellisense: NSProjectEvent.GetSignOnConfirmationText
 keywords: NSProjectEvent, GetSignOnConfirmationText
 so.topic: reference

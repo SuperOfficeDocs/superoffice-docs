@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_GetWebAppUsagesForPeriod
-description: WebAppUsageArray GetWebAppUsagesForPeriod(DateTime fromDate, DateTime toDate, String searchTerm)
+uid: crmscript_ref_NSDiagnosticsAgent_GetWebAppUsagesForPeriod
+title: WebAppUsageArray GetWebAppUsagesForPeriod(DateTime fromDate, DateTime toDate, String searchTerm)
 intellisense: NSDiagnosticsAgent.GetWebAppUsagesForPeriod
-keywords: NSDiagnosticsAgent,GetWebAppUsagesForPeriod
+keywords: NSDiagnosticsAgent, GetWebAppUsagesForPeriod
 so.topic: reference
 ---
 

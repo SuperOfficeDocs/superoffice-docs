@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialType_SetValueControl
-description: NSCredentialType.SetValueControl(Integer valueControl)
+uid: crmscript_ref_NSCredentialType_SetValueControl
+title: SetValueControl(Integer valueControl)
 intellisense: NSCredentialType.SetValueControl
 keywords: NSCredentialType, GetValueControl
 so.topic: reference

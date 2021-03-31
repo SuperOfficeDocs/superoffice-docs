@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetFirstReadByUser
-description: DateTime NSTicket.GetFirstReadByUser()
+uid: crmscript_ref_NSTicket_GetFirstReadByUser
+title: DateTime GetFirstReadByUser()
 intellisense: NSTicket.GetFirstReadByUser
 keywords: NSTicket, GetFirstReadByUser
 so.topic: reference

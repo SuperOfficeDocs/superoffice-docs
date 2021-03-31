@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_TestConnectionById
-description: Bool TestConnectionById(Integer erpConnectionId)
+uid: crmscript_ref_NSErpSyncAgent_TestConnectionById
+title: Bool TestConnectionById(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.TestConnectionById
-keywords: NSErpSyncAgent,TestConnectionById
+keywords: NSErpSyncAgent, TestConnectionById
 so.topic: reference
 ---
 

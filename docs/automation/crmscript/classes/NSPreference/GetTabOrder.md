@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_GetTabOrder
-description: TabOrder NSPreference.GetTabOrder()
+uid: crmscript_ref_NSPreference_GetTabOrder
+title: TabOrder GetTabOrder()
 intellisense: NSPreference.GetTabOrder
 keywords: NSPreference, GetTabOrder
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_AcceptChatSessionTransfer
-description: ChatSessionEntity AcceptChatSessionTransfer(Integer chatSessionId)
+uid: crmscript_ref_NSChatAgent_AcceptChatSessionTransfer
+title: ChatSessionEntity AcceptChatSessionTransfer(Integer chatSessionId)
 intellisense: NSChatAgent.AcceptChatSessionTransfer
-keywords: NSChatAgent,AcceptChatSessionTransfer
+keywords: NSChatAgent, AcceptChatSessionTransfer
 so.topic: reference
 ---
 

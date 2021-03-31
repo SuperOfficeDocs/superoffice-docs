@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_SaveReportLabelLayoutEntity
-description: NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity reportLabelLayoutEntity);
+uid: crmscript_ref_NSReportAgent_SaveReportLabelLayoutEntity
+title: NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity reportLabelLayoutEntity);
 intellisense: NSReportAgent.SaveReportLabelLayoutEntity
-keywords: NSReportAgent,SaveReportLabelLayoutEntity
+keywords: NSReportAgent, SaveReportLabelLayoutEntity
 so.topic: reference
 ---
 	  

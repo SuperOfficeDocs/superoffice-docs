@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetIsOnTravel
-description: NSUser.SetIsOnTravel(Bool isOnTravel)
+uid: crmscript_ref_NSUser_SetIsOnTravel
+title: SetIsOnTravel(Bool isOnTravel)
 intellisense: NSUser.SetIsOnTravel
 keywords: NSUser, GetIsOnTravel
 so.topic: reference

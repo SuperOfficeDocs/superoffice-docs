@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask_GetDescription
-description: String NSMailMergeTask.GetDescription()
+uid: crmscript_ref_NSMailMergeTask_GetDescription
+title: String GetDescription()
 intellisense: NSMailMergeTask.GetDescription
 keywords: NSMailMergeTask, GetDescription
 so.topic: reference

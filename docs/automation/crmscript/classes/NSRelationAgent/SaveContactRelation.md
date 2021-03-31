@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSRelationAgent_SaveContactRelation
-description: ContactRelationEntity SaveContactRelation(ContactRelationEntity contactRelationEntity)
+uid: crmscript_ref_NSRelationAgent_SaveContactRelation
+title: ContactRelationEntity SaveContactRelation(ContactRelationEntity contactRelationEntity)
 intellisense: NSRelationAgent.SaveContactRelation
-keywords: NSRelationAgent,SaveContactRelation
+keywords: NSRelationAgent, SaveContactRelation
 so.topic: reference
 ---
 

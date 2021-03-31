@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetPerson
-description: Person NSChatSessionEntity.GetPerson()
+uid: crmscript_ref_NSChatSessionEntity_GetPerson
+title: Person GetPerson()
 intellisense: NSChatSessionEntity.GetPerson
 keywords: NSChatSessionEntity, GetPerson
 so.topic: reference

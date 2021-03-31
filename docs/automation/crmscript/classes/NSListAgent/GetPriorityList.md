@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetPriorityList
-description: NSPriority[] GetPriorityList(Integer[]  priorityIds);
+uid: crmscript_ref_NSListAgent_GetPriorityList
+title: NSPriority[] GetPriorityList(Integer[]  priorityIds);
 intellisense: NSListAgent.GetPriorityList
-keywords: NSListAgent,GetPriorityList
+keywords: NSListAgent, GetPriorityList
 so.topic: reference
 ---
 

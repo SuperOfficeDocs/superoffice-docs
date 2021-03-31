@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetProductFromDbId
-description: Product GetProductFromDbId(Integer productId)
+uid: crmscript_ref_NSQuoteAgent_GetProductFromDbId
+title: Product GetProductFromDbId(Integer productId)
 intellisense: NSQuoteAgent.GetProductFromDbId
-keywords: NSQuoteAgent,GetProductFromDbId
+keywords: NSQuoteAgent, GetProductFromDbId
 so.topic: reference
 ---
 

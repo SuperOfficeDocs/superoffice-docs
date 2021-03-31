@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultHierarchyEntity
-description: NSHierarchyEntity CreateDefaultHierarchyEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultHierarchyEntity
+title: NSHierarchyEntity CreateDefaultHierarchyEntity()
 intellisense: NSListAgent.CreateDefaultHierarchyEntity
-keywords: NSListAgent,CreateDefaultHierarchyEntity
+keywords: NSListAgent, CreateDefaultHierarchyEntity
 so.topic: reference
 ---
 	  

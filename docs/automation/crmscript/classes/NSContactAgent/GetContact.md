@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetContact
-description: NSContact GetContact(Integer contactId);
+uid: crmscript_ref_NSContactAgent_GetContact
+title: NSContact GetContact(Integer contactId);
 intellisense: NSContactAgent.GetContact
-keywords: NSContactAgent,GetContact
+keywords: NSContactAgent, GetContact
 so.topic: reference
 ---
 

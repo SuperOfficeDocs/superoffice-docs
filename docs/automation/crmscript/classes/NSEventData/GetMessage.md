@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_GetMessage
-description: String NSEventData.GetMessage()
+uid: crmscript_ref_NSEventData_GetMessage
+title: String GetMessage()
 intellisense: NSEventData.GetMessage
 keywords: NSEventData, GetMessage
 so.topic: reference

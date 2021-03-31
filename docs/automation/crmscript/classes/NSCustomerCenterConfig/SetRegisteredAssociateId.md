@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerCenterConfig_SetRegisteredAssociateId
-description: NSCustomerCenterConfig.SetRegisteredAssociateId(Integer registeredAssociateId)
+uid: crmscript_ref_NSCustomerCenterConfig_SetRegisteredAssociateId
+title: SetRegisteredAssociateId(Integer registeredAssociateId)
 intellisense: NSCustomerCenterConfig.SetRegisteredAssociateId
 keywords: NSCustomerCenterConfig, GetRegisteredAssociateId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_GetLegalBaseId
-description: Integer NSConsentInfo.GetLegalBaseId()
+uid: crmscript_ref_NSConsentInfo_GetLegalBaseId
+title: Integer GetLegalBaseId()
 intellisense: NSConsentInfo.GetLegalBaseId
 keywords: NSConsentInfo, GetLegalBaseId
 so.topic: reference

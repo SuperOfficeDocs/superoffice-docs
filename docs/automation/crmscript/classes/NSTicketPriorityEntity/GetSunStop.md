@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetSunStop
-description: DateTime NSTicketPriorityEntity.GetSunStop()
+uid: crmscript_ref_NSTicketPriorityEntity_GetSunStop
+title: DateTime GetSunStop()
 intellisense: NSTicketPriorityEntity.GetSunStop
 keywords: NSTicketPriorityEntity, GetSunStop
 so.topic: reference

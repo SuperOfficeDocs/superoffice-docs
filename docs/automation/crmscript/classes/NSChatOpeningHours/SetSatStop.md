@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_SetSatStop
-description: NSChatOpeningHours.SetSatStop(TimeSpan satStop)
+uid: crmscript_ref_NSChatOpeningHours_SetSatStop
+title: SetSatStop(TimeSpan satStop)
 intellisense: NSChatOpeningHours.SetSatStop
 keywords: NSChatOpeningHours, GetSatStop
 so.topic: reference

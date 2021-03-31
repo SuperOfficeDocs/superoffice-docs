@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetKeyByValueAndIdentifier
-description: ForeignKey GetKeyByValueAndIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String keyValue, String tableName)
+uid: crmscript_ref_NSForeignSystemAgent_GetKeyByValueAndIdentifier
+title: ForeignKey GetKeyByValueAndIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String keyValue, String tableName)
 intellisense: NSForeignSystemAgent.GetKeyByValueAndIdentifier
-keywords: NSForeignSystemAgent,GetKeyByValueAndIdentifier
+keywords: NSForeignSystemAgent, GetKeyByValueAndIdentifier
 so.topic: reference
 ---
 

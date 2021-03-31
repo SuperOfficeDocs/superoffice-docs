@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue_GetListName
-description: String NSErpSyncDefaultValue.GetListName()
+uid: crmscript_ref_NSErpSyncDefaultValue_GetListName
+title: String GetListName()
 intellisense: NSErpSyncDefaultValue.GetListName
 keywords: NSErpSyncDefaultValue, GetListName
 so.topic: reference

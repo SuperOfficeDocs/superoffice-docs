@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetActiveInterests
-description: Integer NSPersonEntity.GetActiveInterests()
+uid: crmscript_ref_NSPersonEntity_GetActiveInterests
+title: Integer GetActiveInterests()
 intellisense: NSPersonEntity.GetActiveInterests
 keywords: NSPersonEntity, GetActiveInterests
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBatchAgent_UpdateBatchTask
-description: BatchTaskInfo UpdateBatchTask(BatchTaskInfo batchTaskInfo)
+uid: crmscript_ref_NSBatchAgent_UpdateBatchTask
+title: BatchTaskInfo UpdateBatchTask(BatchTaskInfo batchTaskInfo)
 intellisense: NSBatchAgent.UpdateBatchTask
-keywords: NSBatchAgent,UpdateBatchTask
+keywords: NSBatchAgent, UpdateBatchTask
 so.topic: reference
 ---
 

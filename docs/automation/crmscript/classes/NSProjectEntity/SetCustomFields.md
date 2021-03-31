@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_SetCustomFields
-description: NSProjectEntity.SetCustomFields(Map udefs)
+uid: crmscript_ref_NSProjectEntity_SetCustomFields
+title: SetCustomFields(Map udefs)
 intellisense: NSProjectEntity.SetCustomFields
 keywords: NSProjectEntity, SetCustomFields
 so.topic: reference
 ---
 
-Set the user-defined and extra fields as a map.
+Set the user-defined and extra fields on a ProjectEntity with a map.
 
 **Parameter:** 
  - **udefs** Map user defined field and extra field values encoded as strings.

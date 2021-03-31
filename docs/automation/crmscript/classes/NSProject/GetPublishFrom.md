@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_GetPublishFrom
-description: DateTime NSProject.GetPublishFrom()
+uid: crmscript_ref_NSProject_GetPublishFrom
+title: DateTime GetPublishFrom()
 intellisense: NSProject.GetPublishFrom
 keywords: NSProject, GetPublishFrom
 so.topic: reference

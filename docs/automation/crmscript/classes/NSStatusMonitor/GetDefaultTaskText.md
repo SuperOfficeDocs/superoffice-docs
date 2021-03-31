@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetDefaultTaskText
-description: String NSStatusMonitor.GetDefaultTaskText()
+uid: crmscript_ref_NSStatusMonitor_GetDefaultTaskText
+title: String GetDefaultTaskText()
 intellisense: NSStatusMonitor.GetDefaultTaskText
 keywords: NSStatusMonitor, GetDefaultTaskText
 so.topic: reference

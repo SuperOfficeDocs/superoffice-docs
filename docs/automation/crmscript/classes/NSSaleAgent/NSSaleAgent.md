@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent
-description: NSSaleAgent
+uid: crmscript_ref_NSSaleAgent
+title: NSSaleAgent
 intellisense: Void.NSSaleAgent
 keywords: NSSaleAgent
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionData_SetConnectionName
-description: NSErpConnectionData.SetConnectionName(String connectionName)
+uid: crmscript_ref_NSErpConnectionData_SetConnectionName
+title: SetConnectionName(String connectionName)
 intellisense: NSErpConnectionData.SetConnectionName
 keywords: NSErpConnectionData, GetConnectionName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_SetSize
-description: NSEMailAttachment.SetSize(Integer size)
+uid: crmscript_ref_NSEMailAttachment_SetSize
+title: SetSize(Integer size)
 intellisense: NSEMailAttachment.SetSize
 keywords: NSEMailAttachment, GetSize
 so.topic: reference

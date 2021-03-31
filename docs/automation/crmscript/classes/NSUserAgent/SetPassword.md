@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_SetPassword
-description: Bool SetPassword(Integer associateId, String password)
+uid: crmscript_ref_NSUserAgent_SetPassword
+title: Bool SetPassword(Integer associateId, String password)
 intellisense: NSUserAgent.SetPassword
-keywords: NSUserAgent,SetPassword
+keywords: NSUserAgent, SetPassword
 so.topic: reference
 ---
 

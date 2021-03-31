@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTableRecord_GetValues
-description: StringDictionary NSTableRecord.GetValues()
+uid: crmscript_ref_NSTableRecord_GetValues
+title: StringDictionary GetValues()
 intellisense: NSTableRecord.GetValues
 keywords: NSTableRecord, GetValues
 so.topic: reference

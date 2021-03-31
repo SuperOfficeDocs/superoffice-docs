@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetCurrentOverdue
-description: NSSaleSummary.SetCurrentOverdue(Integer currentOverdue)
+uid: crmscript_ref_NSSaleSummary_SetCurrentOverdue
+title: SetCurrentOverdue(Integer currentOverdue)
 intellisense: NSSaleSummary.SetCurrentOverdue
 keywords: NSSaleSummary, GetCurrentOverdue
 so.topic: reference

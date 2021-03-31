@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportLine_GetType
-description: Integer NSImportLine.GetType()
+uid: crmscript_ref_NSImportLine_GetType
+title: Integer GetType()
 intellisense: NSImportLine.GetType
 keywords: NSImportLine, GetType
 so.topic: reference

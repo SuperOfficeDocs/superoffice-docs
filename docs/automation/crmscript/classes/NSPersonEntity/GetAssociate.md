@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetAssociate
-description: Associate NSPersonEntity.GetAssociate()
+uid: crmscript_ref_NSPersonEntity_GetAssociate
+title: Associate GetAssociate()
 intellisense: NSPersonEntity.GetAssociate
 keywords: NSPersonEntity, GetAssociate
 so.topic: reference

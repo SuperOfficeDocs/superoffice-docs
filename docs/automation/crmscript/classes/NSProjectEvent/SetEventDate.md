@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_SetEventDate
-description: NSProjectEvent.SetEventDate(DateTime eventDate)
+uid: crmscript_ref_NSProjectEvent_SetEventDate
+title: SetEventDate(DateTime eventDate)
 intellisense: NSProjectEvent.SetEventDate
 keywords: NSProjectEvent, GetEventDate
 so.topic: reference

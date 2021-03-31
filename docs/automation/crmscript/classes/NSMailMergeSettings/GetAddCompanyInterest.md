@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetAddCompanyInterest
-description: Integer NSMailMergeSettings.GetAddCompanyInterest()
+uid: crmscript_ref_NSMailMergeSettings_GetAddCompanyInterest
+title: Integer GetAddCompanyInterest()
 intellisense: NSMailMergeSettings.GetAddCompanyInterest
 keywords: NSMailMergeSettings, GetAddCompanyInterest
 so.topic: reference

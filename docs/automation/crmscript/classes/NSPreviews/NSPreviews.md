@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviews
-description: NSPreviews
+uid: crmscript_ref_NSPreviews
+title: NSPreviews
 intellisense: Void.NSPreviews
 keywords: NSPreviews
 so.topic: reference

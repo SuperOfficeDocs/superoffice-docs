@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetUserFromName
-description: User GetUserFromName(String userName)
+uid: crmscript_ref_NSUserAgent_GetUserFromName
+title: User GetUserFromName(String userName)
 intellisense: NSUserAgent.GetUserFromName
-keywords: NSUserAgent,GetUserFromName
+keywords: NSUserAgent, GetUserFromName
 so.topic: reference
 ---
 

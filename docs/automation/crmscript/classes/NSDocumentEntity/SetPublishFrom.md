@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetVisibleFor
-description: NSDocumentEntity.SetVisibleFor(DateTime publishFrom)
-intellisense: NSDocumentEntity.VisibleForArray
-keywords: NSDocumentEntity, VisibleForArray
+uid: crmscript_ref_NSDocumentEntity_SetPublishFrom
+title: SetPublishFrom(DateTime publishFrom)
+intellisense: NSDocumentEntity.SetPublishFrom
+keywords: NSDocumentEntity, SetPublishFrom
 so.topic: reference
 ---
 
-Set the publish from date.
+Set the publish from date on a DocumentEntity.
 
 **Parameter:** 
  - **publishFrom** DateTime.

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_SetCategoryMaster
-description: NSTicketCategoryEntity.SetCategoryMaster(Integer categoryMaster)
+uid: crmscript_ref_NSTicketCategoryEntity_SetCategoryMaster
+title: SetCategoryMaster(Integer categoryMaster)
 intellisense: NSTicketCategoryEntity.SetCategoryMaster
 keywords: NSTicketCategoryEntity, GetCategoryMaster
 so.topic: reference

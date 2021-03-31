@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectTypeEntity_SetHasGuide
-description: NSProjectTypeEntity.SetHasGuide(Bool hasGuide)
+uid: crmscript_ref_NSProjectTypeEntity_SetHasGuide
+title: SetHasGuide(Bool hasGuide)
 intellisense: NSProjectTypeEntity.SetHasGuide
 keywords: NSProjectTypeEntity, GetHasGuide
 so.topic: reference

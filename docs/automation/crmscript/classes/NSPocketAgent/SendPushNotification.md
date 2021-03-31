@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPocketAgent_SendPushNotification
-description: Void SendPushNotification(IntegerArray associateIds, PocketNotificationMessage message)
+uid: crmscript_ref_NSPocketAgent_SendPushNotification
+title: Void SendPushNotification(IntegerArray associateIds, PocketNotificationMessage message)
 intellisense: NSPocketAgent.SendPushNotification
-keywords: NSPocketAgent,SendPushNotification
+keywords: NSPocketAgent, SendPushNotification
 so.topic: reference
 ---
 

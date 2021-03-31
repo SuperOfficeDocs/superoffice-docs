@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_FindRolesWithFunctionalRight
-description: MDOListItemArray FindRolesWithFunctionalRight(String functionalRightName)
+uid: crmscript_ref_NSUserAgent_FindRolesWithFunctionalRight
+title: MDOListItemArray FindRolesWithFunctionalRight(String functionalRightName)
 intellisense: NSUserAgent.FindRolesWithFunctionalRight
-keywords: NSUserAgent,FindRolesWithFunctionalRight
+keywords: NSUserAgent, FindRolesWithFunctionalRight
 so.topic: reference
 ---
 

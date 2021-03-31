@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetHasBeenPublished
-description: Bool NSUserDefinedFieldInfo.GetHasBeenPublished()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetHasBeenPublished
+title: Bool GetHasBeenPublished()
 intellisense: NSUserDefinedFieldInfo.GetHasBeenPublished
 keywords: NSUserDefinedFieldInfo, GetHasBeenPublished
 so.topic: reference

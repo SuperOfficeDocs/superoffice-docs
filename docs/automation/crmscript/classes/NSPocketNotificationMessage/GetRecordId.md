@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_GetRecordId
-description: Integer NSPocketNotificationMessage.GetRecordId()
+uid: crmscript_ref_NSPocketNotificationMessage_GetRecordId
+title: Integer GetRecordId()
 intellisense: NSPocketNotificationMessage.GetRecordId
 keywords: NSPocketNotificationMessage, GetRecordId
 so.topic: reference

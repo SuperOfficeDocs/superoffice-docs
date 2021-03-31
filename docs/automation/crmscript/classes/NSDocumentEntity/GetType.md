@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetType
-description: Integer NSDocumentEntity.GetType()
+uid: crmscript_ref_NSDocumentEntity_GetType
+title: Integer GetType()
 intellisense: NSDocumentEntity.GetType
 keywords: NSDocumentEntity, GetType
 so.topic: reference

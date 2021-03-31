@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_TimeOfLastTimeZoneUpdate
-description: DateTime TimeOfLastTimeZoneUpdate()
+uid: crmscript_ref_NSTimeZoneAgent_TimeOfLastTimeZoneUpdate
+title: DateTime TimeOfLastTimeZoneUpdate()
 intellisense: NSTimeZoneAgent.TimeOfLastTimeZoneUpdate
-keywords: NSTimeZoneAgent,TimeOfLastTimeZoneUpdate
+keywords: NSTimeZoneAgent, TimeOfLastTimeZoneUpdate
 so.topic: reference
 ---
 

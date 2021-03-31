@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetIsSystemTask
-description: Bool NSBatchTaskInfo.GetIsSystemTask()
+uid: crmscript_ref_NSBatchTaskInfo_GetIsSystemTask
+title: Bool GetIsSystemTask()
 intellisense: NSBatchTaskInfo.GetIsSystemTask
 keywords: NSBatchTaskInfo, GetIsSystemTask
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_SaveTicketEntity
-description: NSTicketEntity SaveTicketEntity(NSTicketEntity ticketEntity);
+uid: crmscript_ref_NSTicketAgent_SaveTicketEntity
+title: NSTicketEntity SaveTicketEntity(NSTicketEntity ticketEntity);
 intellisense: NSTicketAgent.SaveTicketEntity
-keywords: NSTicketAgent,SaveTicketEntity
+keywords: NSTicketAgent, SaveTicketEntity
 so.topic: reference
 ---
 	  

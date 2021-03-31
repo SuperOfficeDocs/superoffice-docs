@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetReadStatus
-description: NSTicket.SetReadStatus(TicketReadStatus readStatus)
+uid: crmscript_ref_NSTicket_SetReadStatus
+title: SetReadStatus(TicketReadStatus readStatus)
 intellisense: NSTicket.SetReadStatus
 keywords: NSTicket, GetReadStatus
 so.topic: reference

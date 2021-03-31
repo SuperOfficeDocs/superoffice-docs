@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_ValidateDocumentEntity
-description: StringDictionary ValidateDocumentEntity(DocumentEntity documentEntity)
+uid: crmscript_ref_NSDocumentAgent_ValidateDocumentEntity
+title: StringDictionary ValidateDocumentEntity(DocumentEntity documentEntity)
 intellisense: NSDocumentAgent.ValidateDocumentEntity
-keywords: NSDocumentAgent,ValidateDocumentEntity
+keywords: NSDocumentAgent, ValidateDocumentEntity
 so.topic: reference
 ---
 

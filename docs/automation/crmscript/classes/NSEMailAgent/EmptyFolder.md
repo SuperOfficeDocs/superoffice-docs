@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_EmptyFolder
-description: Void EmptyFolder(EMailConnectionInfo connectionInfo, String moveToFolder)
+uid: crmscript_ref_NSEMailAgent_EmptyFolder
+title: Void EmptyFolder(EMailConnectionInfo connectionInfo, String moveToFolder)
 intellisense: NSEMailAgent.EmptyFolder
-keywords: NSEMailAgent,EmptyFolder
+keywords: NSEMailAgent, EmptyFolder
 so.topic: reference
 ---
 

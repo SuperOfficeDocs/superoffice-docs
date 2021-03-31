@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_SetErpDisplayName
-description: NSErpSyncFieldMapping.SetErpDisplayName(String erpDisplayName)
+uid: crmscript_ref_NSErpSyncFieldMapping_SetErpDisplayName
+title: SetErpDisplayName(String erpDisplayName)
 intellisense: NSErpSyncFieldMapping.SetErpDisplayName
 keywords: NSErpSyncFieldMapping, GetErpDisplayName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummary_GetNumFreeActivities
-description: Integer NSActivitySummary.GetNumFreeActivities()
+uid: crmscript_ref_NSActivitySummary_GetNumFreeActivities
+title: Integer GetNumFreeActivities()
 intellisense: NSActivitySummary.GetNumFreeActivities
 keywords: NSActivitySummary, GetNumFreeActivities
 so.topic: reference

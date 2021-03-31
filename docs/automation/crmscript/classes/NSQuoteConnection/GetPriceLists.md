@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_GetPriceLists
-description: PriceListArray NSQuoteConnection.GetPriceLists()
+uid: crmscript_ref_NSQuoteConnection_GetPriceLists
+title: PriceListArray GetPriceLists()
 intellisense: NSQuoteConnection.GetPriceLists
 keywords: NSQuoteConnection, GetPriceLists
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetSources
-description: SourceArray GetSources()
+uid: crmscript_ref_NSListAgent_GetSources
+title: SourceArray GetSources()
 intellisense: NSListAgent.GetSources
-keywords: NSListAgent,GetSources
+keywords: NSListAgent, GetSources
 so.topic: reference
 ---
 

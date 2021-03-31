@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionButtonState_GetDisplayText
-description: String NSQuoteVersionButtonState.GetDisplayText()
+uid: crmscript_ref_NSQuoteVersionButtonState_GetDisplayText
+title: String GetDisplayText()
 intellisense: NSQuoteVersionButtonState.GetDisplayText
 keywords: NSQuoteVersionButtonState, GetDisplayText
 so.topic: reference

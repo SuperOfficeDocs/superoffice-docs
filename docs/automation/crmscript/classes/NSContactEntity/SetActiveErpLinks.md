@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetActiveErpLinks
-description: NSContactEntity.SetActiveErpLinks(Integer activeErpLinks)
+uid: crmscript_ref_NSContactEntity_SetActiveErpLinks
+title: SetActiveErpLinks(Integer activeErpLinks)
 intellisense: NSContactEntity.SetActiveErpLinks
 keywords: NSContactEntity, GetActiveErpLinks
 so.topic: reference

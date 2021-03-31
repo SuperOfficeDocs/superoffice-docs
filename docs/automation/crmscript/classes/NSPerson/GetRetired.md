@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetRetired
-description: Integer NSPerson.GetRetired()
+uid: crmscript_ref_NSPerson_GetRetired
+title: Integer GetRetired()
 intellisense: NSPerson.GetRetired
 keywords: NSPerson, GetRetired
 so.topic: reference

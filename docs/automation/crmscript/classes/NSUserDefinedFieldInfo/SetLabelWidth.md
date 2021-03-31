@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelWidth
-description: NSUserDefinedFieldInfo.SetLabelWidth(Integer labelWidth)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetLabelWidth
+title: SetLabelWidth(Integer labelWidth)
 intellisense: NSUserDefinedFieldInfo.SetLabelWidth
 keywords: NSUserDefinedFieldInfo, GetLabelWidth
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetWwwUrlForSMWeb
-description: String GetWwwUrlForSMWeb()
+uid: crmscript_ref_NSConfigurationAgent_GetWwwUrlForSMWeb
+title: String GetWwwUrlForSMWeb()
 intellisense: NSConfigurationAgent.GetWwwUrlForSMWeb
-keywords: NSConfigurationAgent,GetWwwUrlForSMWeb
+keywords: NSConfigurationAgent, GetWwwUrlForSMWeb
 so.topic: reference
 ---
 

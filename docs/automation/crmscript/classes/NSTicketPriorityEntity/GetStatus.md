@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetStatus
-description: TicketPriorityStatus NSTicketPriorityEntity.GetStatus()
+uid: crmscript_ref_NSTicketPriorityEntity_GetStatus
+title: TicketPriorityStatus GetStatus()
 intellisense: NSTicketPriorityEntity.GetStatus
 keywords: NSTicketPriorityEntity, GetStatus
 so.topic: reference

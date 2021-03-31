@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_SetNumClicks
-description: NSPreviewMailingHeader.SetNumClicks(Integer numClicks)
+uid: crmscript_ref_NSPreviewMailingHeader_SetNumClicks
+title: SetNumClicks(Integer numClicks)
 intellisense: NSPreviewMailingHeader.SetNumClicks
 keywords: NSPreviewMailingHeader, GetNumClicks
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetPersonAcademicTitle
-description: NSParticipantSyncData.SetPersonAcademicTitle(String personAcademicTitle)
+uid: crmscript_ref_NSParticipantSyncData_SetPersonAcademicTitle
+title: SetPersonAcademicTitle(String personAcademicTitle)
 intellisense: NSParticipantSyncData.SetPersonAcademicTitle
 keywords: NSParticipantSyncData, GetPersonAcademicTitle
 so.topic: reference

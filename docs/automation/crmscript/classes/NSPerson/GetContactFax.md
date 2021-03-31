@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetContactFax
-description: String NSPerson.GetContactFax()
+uid: crmscript_ref_NSPerson_GetContactFax
+title: String GetContactFax()
 intellisense: NSPerson.GetContactFax
 keywords: NSPerson, GetContactFax
 so.topic: reference

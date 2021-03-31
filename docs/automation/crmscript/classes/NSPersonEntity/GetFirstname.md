@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetFirstname
-description: String NSPersonEntity.GetFirstname()
+uid: crmscript_ref_NSPersonEntity_GetFirstname
+title: String GetFirstname()
 intellisense: NSPersonEntity.GetFirstname
 keywords: NSPersonEntity, GetFirstname
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_GetType
-description: Integer NSDashboardTile.GetType()
+uid: crmscript_ref_NSDashboardTile_GetType
+title: Integer GetType()
 intellisense: NSDashboardTile.GetType
 keywords: NSDashboardTile, GetType
 so.topic: reference

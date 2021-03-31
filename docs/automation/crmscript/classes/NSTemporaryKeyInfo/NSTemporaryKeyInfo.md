@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemporaryKeyInfo
-description: NSTemporaryKeyInfo
+uid: crmscript_ref_NSTemporaryKeyInfo
+title: NSTemporaryKeyInfo
 intellisense: Void.NSTemporaryKeyInfo
 keywords: NSTemporaryKeyInfo
 so.topic: reference

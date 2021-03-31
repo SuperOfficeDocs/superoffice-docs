@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetTitle
-description: String NSTicketEntity.GetTitle()
+uid: crmscript_ref_NSTicketEntity_GetTitle
+title: String GetTitle()
 intellisense: NSTicketEntity.GetTitle
 keywords: NSTicketEntity, GetTitle
 so.topic: reference

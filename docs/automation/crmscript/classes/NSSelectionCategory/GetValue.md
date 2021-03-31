@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSSelectionCategory_GetValue
-description: String NSSelectionCategory.GetValue()
+uid: crmscript_ref_NSSelectionCategory_GetValue
+title: String GetValue()
 intellisense: NSSelectionCategory.GetValue
 keywords: NSSelectionCategory, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the SelectionCategory.
 
-**Returns:** String name
+**Returns:** String SelectionCategory name.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_SetMiddleName
-description: NSProjectMember.SetMiddleName(String middleName)
+uid: crmscript_ref_NSProjectMember_SetMiddleName
+title: SetMiddleName(String middleName)
 intellisense: NSProjectMember.SetMiddleName
 keywords: NSProjectMember, GetMiddleName
 so.topic: reference

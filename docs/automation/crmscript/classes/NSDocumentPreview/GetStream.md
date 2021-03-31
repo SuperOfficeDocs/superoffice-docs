@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentPreview_GetStream
-description: Stream NSDocumentPreview.GetStream()
+uid: crmscript_ref_NSDocumentPreview_GetStream
+title: Stream GetStream()
 intellisense: NSDocumentPreview.GetStream
 keywords: NSDocumentPreview, GetStream
 so.topic: reference

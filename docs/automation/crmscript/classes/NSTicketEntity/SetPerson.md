@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetPerson
-description: NSTicketEntity.SetPerson(Person person)
+uid: crmscript_ref_NSTicketEntity_SetPerson
+title: SetPerson(Person person)
 intellisense: NSTicketEntity.SetPerson
 keywords: NSTicketEntity, GetPerson
 so.topic: reference

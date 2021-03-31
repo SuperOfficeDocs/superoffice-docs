@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceEntity_SetResourceId
-description: NSResourceEntity.SetResourceId(Integer resourceId)
+uid: crmscript_ref_NSResourceEntity_SetResourceId
+title: SetResourceId(Integer resourceId)
 intellisense: NSResourceEntity.SetResourceId
 keywords: NSResourceEntity, GetResourceId
 so.topic: reference

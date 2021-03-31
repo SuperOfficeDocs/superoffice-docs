@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_GetType
-description: String NSEMailAttachment.GetType()
+uid: crmscript_ref_NSEMailAttachment_GetType
+title: String GetType()
 intellisense: NSEMailAttachment.GetType
 keywords: NSEMailAttachment, GetType
 so.topic: reference

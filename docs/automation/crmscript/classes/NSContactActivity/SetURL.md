@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactActivity_SetURL
-description: NSContactActivity.SetURL(String uRL)
+uid: crmscript_ref_NSContactActivity_SetURL
+title: SetURL(String uRL)
 intellisense: NSContactActivity.SetURL
 keywords: NSContactActivity, GetURL
 so.topic: reference

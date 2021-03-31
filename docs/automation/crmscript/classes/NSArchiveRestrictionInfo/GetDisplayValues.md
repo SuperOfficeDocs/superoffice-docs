@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo_GetDisplayValues
-description: StringArray NSArchiveRestrictionInfo.GetDisplayValues()
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetDisplayValues
+title: StringArray GetDisplayValues()
 intellisense: NSArchiveRestrictionInfo.GetDisplayValues
 keywords: NSArchiveRestrictionInfo, GetDisplayValues
 so.topic: reference

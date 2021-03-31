@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProviderInfo_GetSupportsConfig
-description: Bool NSProviderInfo.GetSupportsConfig()
+uid: crmscript_ref_NSProviderInfo_GetSupportsConfig
+title: Bool GetSupportsConfig()
 intellisense: NSProviderInfo.GetSupportsConfig
 keywords: NSProviderInfo, GetSupportsConfig
 so.topic: reference

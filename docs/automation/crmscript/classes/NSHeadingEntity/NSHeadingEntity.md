@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHeadingEntity
-description: NSHeadingEntity
+uid: crmscript_ref_NSHeadingEntity
+title: NSHeadingEntity
 intellisense: Void.NSHeadingEntity
 keywords: NSHeadingEntity
 so.topic: reference

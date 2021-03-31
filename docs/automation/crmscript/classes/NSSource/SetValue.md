@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSSource_SetValue
-description: NSSource.SetValue(String value)
+uid: crmscript_ref_NSSource_SetValue
+title: SetValue(String value)
 intellisense: NSSource.SetValue
 keywords: NSSource, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the Source item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String Source name.
 

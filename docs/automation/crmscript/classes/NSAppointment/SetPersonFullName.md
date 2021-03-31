@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetPersonFullName
-description: NSAppointment.SetPersonFullName(String personFullName)
+uid: crmscript_ref_NSAppointment_SetPersonFullName
+title: SetPersonFullName(String personFullName)
 intellisense: NSAppointment.SetPersonFullName
 keywords: NSAppointment, GetPersonFullName
 so.topic: reference

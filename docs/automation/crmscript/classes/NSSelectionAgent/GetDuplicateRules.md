@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_GetDuplicateRules
-description: DuplicateRuleArray GetDuplicateRules()
+uid: crmscript_ref_NSSelectionAgent_GetDuplicateRules
+title: DuplicateRuleArray GetDuplicateRules()
 intellisense: NSSelectionAgent.GetDuplicateRules
-keywords: NSSelectionAgent,GetDuplicateRules
+keywords: NSSelectionAgent, GetDuplicateRules
 so.topic: reference
 ---
 

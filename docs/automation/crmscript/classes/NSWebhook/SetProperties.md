@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_SetProperties
-description: NSWebhook.SetProperties(StringObjectDictionary properties)
+uid: crmscript_ref_NSWebhook_SetProperties
+title: SetProperties(StringObjectDictionary properties)
 intellisense: NSWebhook.SetProperties
 keywords: NSWebhook, GetProperties
 so.topic: reference

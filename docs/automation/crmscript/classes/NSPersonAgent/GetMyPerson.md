@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetMyPerson
-description: PersonEntity GetMyPerson()
+uid: crmscript_ref_NSPersonAgent_GetMyPerson
+title: PersonEntity GetMyPerson()
 intellisense: NSPersonAgent.GetMyPerson
-keywords: NSPersonAgent,GetMyPerson
+keywords: NSPersonAgent, GetMyPerson
 so.topic: reference
 ---
 

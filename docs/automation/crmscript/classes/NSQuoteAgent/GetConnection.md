@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetConnection
-description: QuoteConnection GetConnection(Integer quoteConnectionId)
+uid: crmscript_ref_NSQuoteAgent_GetConnection
+title: QuoteConnection GetConnection(Integer quoteConnectionId)
 intellisense: NSQuoteAgent.GetConnection
-keywords: NSQuoteAgent,GetConnection
+keywords: NSQuoteAgent, GetConnection
 so.topic: reference
 ---
 

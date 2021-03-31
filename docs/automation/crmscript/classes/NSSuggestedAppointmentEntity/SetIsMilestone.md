@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointmentEntity_SetIsMilestone
-description: NSSuggestedAppointmentEntity.SetIsMilestone(Bool isMilestone)
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetIsMilestone
+title: SetIsMilestone(Bool isMilestone)
 intellisense: NSSuggestedAppointmentEntity.SetIsMilestone
 keywords: NSSuggestedAppointmentEntity, GetIsMilestone
 so.topic: reference

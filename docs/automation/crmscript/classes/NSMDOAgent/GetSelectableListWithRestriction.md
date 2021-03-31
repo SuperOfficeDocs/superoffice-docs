@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent_GetSelectableListWithRestriction
-description: SelectableMDOListItemArray GetSelectableListWithRestriction(String name, String additionalInfo, String searchValue)
+uid: crmscript_ref_NSMDOAgent_GetSelectableListWithRestriction
+title: SelectableMDOListItemArray GetSelectableListWithRestriction(String name, String additionalInfo, String searchValue)
 intellisense: NSMDOAgent.GetSelectableListWithRestriction
-keywords: NSMDOAgent,GetSelectableListWithRestriction
+keywords: NSMDOAgent, GetSelectableListWithRestriction
 so.topic: reference
 ---
 

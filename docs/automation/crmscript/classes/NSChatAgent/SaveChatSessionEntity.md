@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_SaveChatSessionEntity
-description: NSChatSessionEntity SaveChatSessionEntity(NSChatSessionEntity chatSessionEntity);
+uid: crmscript_ref_NSChatAgent_SaveChatSessionEntity
+title: NSChatSessionEntity SaveChatSessionEntity(NSChatSessionEntity chatSessionEntity);
 intellisense: NSChatAgent.SaveChatSessionEntity
-keywords: NSChatAgent,SaveChatSessionEntity
+keywords: NSChatAgent, SaveChatSessionEntity
 so.topic: reference
 ---
 	  

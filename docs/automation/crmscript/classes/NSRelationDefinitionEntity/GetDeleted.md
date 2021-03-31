@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRelationDefinitionEntity_GetDeleted
-description: Bool NSRelationDefinitionEntity.GetDeleted()
+uid: crmscript_ref_NSRelationDefinitionEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSRelationDefinitionEntity.GetDeleted
 keywords: NSRelationDefinitionEntity, GetDeleted
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserInfo_GetUserInfoId
-description: Integer NSUserInfo.GetUserInfoId()
+uid: crmscript_ref_NSUserInfo_GetUserInfoId
+title: Integer GetUserInfoId()
 intellisense: NSUserInfo.GetUserInfoId
 keywords: NSUserInfo, GetUserInfoId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_SetResponseShipmentId
-description: NSFormEntity.SetResponseShipmentId(Integer responseShipmentId)
+uid: crmscript_ref_NSFormEntity_SetResponseShipmentId
+title: SetResponseShipmentId(Integer responseShipmentId)
 intellisense: NSFormEntity.SetResponseShipmentId
 keywords: NSFormEntity, GetResponseShipmentId
 so.topic: reference

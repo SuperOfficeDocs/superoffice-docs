@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceConfigParameter
-description: NSAudienceConfigParameter
+uid: crmscript_ref_NSAudienceConfigParameter
+title: NSAudienceConfigParameter
 intellisense: Void.NSAudienceConfigParameter
 keywords: NSAudienceConfigParameter
 so.topic: reference

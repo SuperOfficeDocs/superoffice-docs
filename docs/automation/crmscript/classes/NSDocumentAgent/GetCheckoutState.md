@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetCheckoutState
-description: CheckoutInfo GetCheckoutState(Integer documentId)
+uid: crmscript_ref_NSDocumentAgent_GetCheckoutState
+title: CheckoutInfo GetCheckoutState(Integer documentId)
 intellisense: NSDocumentAgent.GetCheckoutState
-keywords: NSDocumentAgent,GetCheckoutState
+keywords: NSDocumentAgent, GetCheckoutState
 so.topic: reference
 ---
 

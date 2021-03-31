@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetPluginList
-description: StringDictionary GetPluginList()
+uid: crmscript_ref_NSDocumentAgent_GetPluginList
+title: StringDictionary GetPluginList()
 intellisense: NSDocumentAgent.GetPluginList
-keywords: NSDocumentAgent,GetPluginList
+keywords: NSDocumentAgent, GetPluginList
 so.topic: reference
 ---
 

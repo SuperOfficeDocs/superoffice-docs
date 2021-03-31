@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetDeliveredQuantity
-description: NSQuoteLine.SetDeliveredQuantity(Float deliveredQuantity)
+uid: crmscript_ref_NSQuoteLine_SetDeliveredQuantity
+title: SetDeliveredQuantity(Float deliveredQuantity)
 intellisense: NSQuoteLine.SetDeliveredQuantity
 keywords: NSQuoteLine, GetDeliveredQuantity
 so.topic: reference

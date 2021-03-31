@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetPriority
-description: Priority NSAppointmentEntity.GetPriority()
+uid: crmscript_ref_NSAppointmentEntity_GetPriority
+title: Priority GetPriority()
 intellisense: NSAppointmentEntity.GetPriority
 keywords: NSAppointmentEntity, GetPriority
 so.topic: reference

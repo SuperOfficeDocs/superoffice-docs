@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CreateDefaultUserFromUserTypeAndCredential
-description: User CreateDefaultUserFromUserTypeAndCredential(Integer userType, Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
+uid: crmscript_ref_NSUserAgent_CreateDefaultUserFromUserTypeAndCredential
+title: User CreateDefaultUserFromUserTypeAndCredential(Integer userType, Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
 intellisense: NSUserAgent.CreateDefaultUserFromUserTypeAndCredential
-keywords: NSUserAgent,CreateDefaultUserFromUserTypeAndCredential
+keywords: NSUserAgent, CreateDefaultUserFromUserTypeAndCredential
 so.topic: reference
 ---
 

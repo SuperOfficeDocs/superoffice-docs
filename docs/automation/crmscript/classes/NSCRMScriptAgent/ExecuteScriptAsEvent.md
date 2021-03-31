@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_ExecuteScriptAsEvent
-description: EventData ExecuteScriptAsEvent(Integer cRMScriptId, EventData eventData)
+uid: crmscript_ref_NSCRMScriptAgent_ExecuteScriptAsEvent
+title: EventData ExecuteScriptAsEvent(Integer cRMScriptId, EventData eventData)
 intellisense: NSCRMScriptAgent.ExecuteScriptAsEvent
-keywords: NSCRMScriptAgent,ExecuteScriptAsEvent
+keywords: NSCRMScriptAgent, ExecuteScriptAsEvent
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatMessage_GetWhenPosted
-description: DateTime NSChatMessage.GetWhenPosted()
+uid: crmscript_ref_NSChatMessage_GetWhenPosted
+title: DateTime GetWhenPosted()
 intellisense: NSChatMessage.GetWhenPosted
 keywords: NSChatMessage, GetWhenPosted
 so.topic: reference

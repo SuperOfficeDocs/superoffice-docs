@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFavouriteAgent_RemoveFavourite
-description: Void RemoveFavourite(String tableName, Integer recordId, Integer associateId)
+uid: crmscript_ref_NSFavouriteAgent_RemoveFavourite
+title: Void RemoveFavourite(String tableName, Integer recordId, Integer associateId)
 intellisense: NSFavouriteAgent.RemoveFavourite
-keywords: NSFavouriteAgent,RemoveFavourite
+keywords: NSFavouriteAgent, RemoveFavourite
 so.topic: reference
 ---
 

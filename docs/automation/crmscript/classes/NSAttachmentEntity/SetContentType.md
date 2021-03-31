@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAttachmentEntity_SetContentType
-description: NSAttachmentEntity.SetContentType(String contentType)
+uid: crmscript_ref_NSAttachmentEntity_SetContentType
+title: SetContentType(String contentType)
 intellisense: NSAttachmentEntity.SetContentType
 keywords: NSAttachmentEntity, GetContentType
 so.topic: reference

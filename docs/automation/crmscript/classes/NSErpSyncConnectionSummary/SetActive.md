@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncConnectionSummary_SetActive
-description: NSErpSyncConnectionSummary.SetActive(Bool active)
+uid: crmscript_ref_NSErpSyncConnectionSummary_SetActive
+title: SetActive(Bool active)
 intellisense: NSErpSyncConnectionSummary.SetActive
 keywords: NSErpSyncConnectionSummary, GetActive
 so.topic: reference

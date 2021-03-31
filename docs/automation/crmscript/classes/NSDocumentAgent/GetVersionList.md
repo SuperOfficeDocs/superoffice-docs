@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetVersionList
-description: VersionInfoArray GetVersionList(Integer documentId)
+uid: crmscript_ref_NSDocumentAgent_GetVersionList
+title: VersionInfoArray GetVersionList(Integer documentId)
 intellisense: NSDocumentAgent.GetVersionList
-keywords: NSDocumentAgent,GetVersionList
+keywords: NSDocumentAgent, GetVersionList
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetFormalName
-description: String NSAlarmData.GetFormalName()
+uid: crmscript_ref_NSAlarmData_GetFormalName
+title: String GetFormalName()
 intellisense: NSAlarmData.GetFormalName
 keywords: NSAlarmData, GetFormalName
 so.topic: reference

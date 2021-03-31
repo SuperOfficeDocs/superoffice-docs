@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_SaveSaleStakeholder
-description: NSSaleStakeholder SaveSaleStakeholder(NSSaleStakeholder saleStakeholder);
+uid: crmscript_ref_NSSaleAgent_SaveSaleStakeholder
+title: NSSaleStakeholder SaveSaleStakeholder(NSSaleStakeholder saleStakeholder);
 intellisense: NSSaleAgent.SaveSaleStakeholder
-keywords: NSSaleAgent,SaveSaleStakeholder
+keywords: NSSaleAgent, SaveSaleStakeholder
 so.topic: reference
 ---
 	  

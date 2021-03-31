@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_SetDocumentMessageId
-description: NSPreviewMailingHeader.SetDocumentMessageId(Integer documentMessageId)
+uid: crmscript_ref_NSPreviewMailingHeader_SetDocumentMessageId
+title: SetDocumentMessageId(Integer documentMessageId)
 intellisense: NSPreviewMailingHeader.SetDocumentMessageId
 keywords: NSPreviewMailingHeader, GetDocumentMessageId
 so.topic: reference

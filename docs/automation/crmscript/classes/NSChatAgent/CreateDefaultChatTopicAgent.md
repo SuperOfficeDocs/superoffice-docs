@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_CreateDefaultChatTopicAgent
-description: NSChatTopicAgent CreateDefaultChatTopicAgent()
+uid: crmscript_ref_NSChatAgent_CreateDefaultChatTopicAgent
+title: NSChatTopicAgent CreateDefaultChatTopicAgent()
 intellisense: NSChatAgent.CreateDefaultChatTopicAgent
-keywords: NSChatAgent,CreateDefaultChatTopicAgent
+keywords: NSChatAgent, CreateDefaultChatTopicAgent
 so.topic: reference
 ---
 	  

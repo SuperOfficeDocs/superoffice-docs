@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SetEmarketingStrictMode
-description: Void SetEmarketingStrictMode(Bool enable)
+uid: crmscript_ref_NSListAgent_SetEmarketingStrictMode
+title: Void SetEmarketingStrictMode(Bool enable)
 intellisense: NSListAgent.SetEmarketingStrictMode
-keywords: NSListAgent,SetEmarketingStrictMode
+keywords: NSListAgent, SetEmarketingStrictMode
 so.topic: reference
 ---
 

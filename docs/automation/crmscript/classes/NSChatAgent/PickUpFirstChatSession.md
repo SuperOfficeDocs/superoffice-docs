@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_PickUpFirstChatSession
-description: ChatSessionEntity PickUpFirstChatSession()
+uid: crmscript_ref_NSChatAgent_PickUpFirstChatSession
+title: ChatSessionEntity PickUpFirstChatSession()
 intellisense: NSChatAgent.PickUpFirstChatSession
-keywords: NSChatAgent,PickUpFirstChatSession
+keywords: NSChatAgent, PickUpFirstChatSession
 so.topic: reference
 ---
 

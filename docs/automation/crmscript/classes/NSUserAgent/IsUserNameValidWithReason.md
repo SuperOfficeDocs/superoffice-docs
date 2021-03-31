@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_IsUserNameValidWithReason
-description: UserValidationResult IsUserNameValidWithReason(Integer associateId, Integer type, Integer personId, String userName)
+uid: crmscript_ref_NSUserAgent_IsUserNameValidWithReason
+title: UserValidationResult IsUserNameValidWithReason(Integer associateId, Integer type, Integer personId, String userName)
 intellisense: NSUserAgent.IsUserNameValidWithReason
-keywords: NSUserAgent,IsUserNameValidWithReason
+keywords: NSUserAgent, IsUserNameValidWithReason
 so.topic: reference
 ---
 

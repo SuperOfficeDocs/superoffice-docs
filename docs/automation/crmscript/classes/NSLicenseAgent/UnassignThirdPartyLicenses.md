@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_UnassignThirdPartyLicenses
-description: ModuleLicenseLinkArray UnassignThirdPartyLicenses(Integer associateId, String moduleOwner, StringArray moduleLicenseNames)
+uid: crmscript_ref_NSLicenseAgent_UnassignThirdPartyLicenses
+title: ModuleLicenseLinkArray UnassignThirdPartyLicenses(Integer associateId, String moduleOwner, StringArray moduleLicenseNames)
 intellisense: NSLicenseAgent.UnassignThirdPartyLicenses
-keywords: NSLicenseAgent,UnassignThirdPartyLicenses
+keywords: NSLicenseAgent, UnassignThirdPartyLicenses
 so.topic: reference
 ---
 

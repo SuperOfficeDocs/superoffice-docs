@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetId
-description: Integer NSBatchTaskInfo.GetId()
+uid: crmscript_ref_NSBatchTaskInfo_GetId
+title: Integer GetId()
 intellisense: NSBatchTaskInfo.GetId
 keywords: NSBatchTaskInfo, GetId
 so.topic: reference

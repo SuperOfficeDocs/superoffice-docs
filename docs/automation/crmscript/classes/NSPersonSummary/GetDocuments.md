@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonSummary_GetDocuments
-description: ActivitySummaryItemArray NSPersonSummary.GetDocuments()
+uid: crmscript_ref_NSPersonSummary_GetDocuments
+title: ActivitySummaryItemArray GetDocuments()
 intellisense: NSPersonSummary.GetDocuments
 keywords: NSPersonSummary, GetDocuments
 so.topic: reference

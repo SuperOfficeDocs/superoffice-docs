@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatPresence_SetOngoingChats
-description: NSChatPresence.SetOngoingChats(Integer ongoingChats)
+uid: crmscript_ref_NSChatPresence_SetOngoingChats
+title: SetOngoingChats(Integer ongoingChats)
 intellisense: NSChatPresence.SetOngoingChats
 keywords: NSChatPresence, GetOngoingChats
 so.topic: reference

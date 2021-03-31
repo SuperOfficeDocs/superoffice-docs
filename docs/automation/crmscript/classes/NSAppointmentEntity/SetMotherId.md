@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetMotherId
-description: NSAppointmentEntity.SetMotherId(Integer motherId)
+uid: crmscript_ref_NSAppointmentEntity_SetMotherId
+title: SetMotherId(Integer motherId)
 intellisense: NSAppointmentEntity.SetMotherId
 keywords: NSAppointmentEntity, GetMotherId
 so.topic: reference

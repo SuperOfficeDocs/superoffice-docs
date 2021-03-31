@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetContactName
-description: String NSAlarmData.GetContactName()
+uid: crmscript_ref_NSAlarmData_GetContactName
+title: String GetContactName()
 intellisense: NSAlarmData.GetContactName
 keywords: NSAlarmData, GetContactName
 so.topic: reference

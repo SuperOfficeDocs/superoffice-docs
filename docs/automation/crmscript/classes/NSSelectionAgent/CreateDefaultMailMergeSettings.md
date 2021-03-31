@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CreateDefaultMailMergeSettings
-description: NSMailMergeSettings CreateDefaultMailMergeSettings()
+uid: crmscript_ref_NSSelectionAgent_CreateDefaultMailMergeSettings
+title: NSMailMergeSettings CreateDefaultMailMergeSettings()
 intellisense: NSSelectionAgent.CreateDefaultMailMergeSettings
-keywords: NSSelectionAgent,CreateDefaultMailMergeSettings
+keywords: NSSelectionAgent, CreateDefaultMailMergeSettings
 so.topic: reference
 ---
 	  

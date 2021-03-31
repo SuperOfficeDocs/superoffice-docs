@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetUpdated
-description: DateTime NSShipmentMessageEntity.GetUpdated()
+uid: crmscript_ref_NSShipmentMessageEntity_GetUpdated
+title: DateTime GetUpdated()
 intellisense: NSShipmentMessageEntity.GetUpdated
 keywords: NSShipmentMessageEntity, GetUpdated
 so.topic: reference

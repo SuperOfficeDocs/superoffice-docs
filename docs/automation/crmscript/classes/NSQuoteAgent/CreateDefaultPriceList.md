@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CreateDefaultPriceList
-description: NSPriceList CreateDefaultPriceList()
+uid: crmscript_ref_NSQuoteAgent_CreateDefaultPriceList
+title: NSPriceList CreateDefaultPriceList()
 intellisense: NSQuoteAgent.CreateDefaultPriceList
-keywords: NSQuoteAgent,CreateDefaultPriceList
+keywords: NSQuoteAgent, CreateDefaultPriceList
 so.topic: reference
 ---
 	  

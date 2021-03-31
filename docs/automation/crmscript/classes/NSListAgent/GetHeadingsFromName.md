@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetHeadingsFromName
-description: HeadingEntityArray GetHeadingsFromName(String name)
+uid: crmscript_ref_NSListAgent_GetHeadingsFromName
+title: HeadingEntityArray GetHeadingsFromName(String name)
 intellisense: NSListAgent.GetHeadingsFromName
-keywords: NSListAgent,GetHeadingsFromName
+keywords: NSListAgent, GetHeadingsFromName
 so.topic: reference
 ---
 

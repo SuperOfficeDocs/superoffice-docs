@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultDocumentTemplateLanguage
-description: Void CreateDefaultDocumentTemplateLanguage(Integer documentTemplateId, String languageCode)
+uid: crmscript_ref_NSListAgent_CreateDefaultDocumentTemplateLanguage
+title: Void CreateDefaultDocumentTemplateLanguage(Integer documentTemplateId, String languageCode)
 intellisense: NSListAgent.CreateDefaultDocumentTemplateLanguage
-keywords: NSListAgent,CreateDefaultDocumentTemplateLanguage
+keywords: NSListAgent, CreateDefaultDocumentTemplateLanguage
 so.topic: reference
 ---
 

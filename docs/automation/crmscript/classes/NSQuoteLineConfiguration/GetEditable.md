@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLineConfiguration_GetEditable
-description: Bool NSQuoteLineConfiguration.GetEditable()
+uid: crmscript_ref_NSQuoteLineConfiguration_GetEditable
+title: Bool GetEditable()
 intellisense: NSQuoteLineConfiguration.GetEditable
 keywords: NSQuoteLineConfiguration, GetEditable
 so.topic: reference

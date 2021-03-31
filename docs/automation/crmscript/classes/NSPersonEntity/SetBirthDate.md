@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetBirthDate
-description: NSPersonEntity.SetBirthDate(DateTime birthDate)
+uid: crmscript_ref_NSPersonEntity_SetBirthDate
+title: SetBirthDate(DateTime birthDate)
 intellisense: NSPersonEntity.SetBirthDate
 keywords: NSPersonEntity, GetBirthDate
 so.topic: reference

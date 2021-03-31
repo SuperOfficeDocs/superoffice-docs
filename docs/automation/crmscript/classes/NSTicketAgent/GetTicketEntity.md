@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_GetTicketEntity
-description: NSTicketEntity GetTicketEntity(Integer ticketEntityId);
+uid: crmscript_ref_NSTicketAgent_GetTicketEntity
+title: NSTicketEntity GetTicketEntity(Integer ticketEntityId);
 intellisense: NSTicketAgent.GetTicketEntity
-keywords: NSTicketAgent,GetTicketEntity
+keywords: NSTicketAgent, GetTicketEntity
 so.topic: reference
 ---
 

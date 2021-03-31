@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_SetOrgNrText
-description: NSCountry.SetOrgNrText(String orgNrText)
+uid: crmscript_ref_NSCountry_SetOrgNrText
+title: SetOrgNrText(String orgNrText)
 intellisense: NSCountry.SetOrgNrText
 keywords: NSCountry, GetOrgNrText
 so.topic: reference

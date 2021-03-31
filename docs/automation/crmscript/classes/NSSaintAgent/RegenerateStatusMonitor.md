@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_RegenerateStatusMonitor
-description: Void RegenerateStatusMonitor(Integer statusMonitorId)
+uid: crmscript_ref_NSSaintAgent_RegenerateStatusMonitor
+title: Void RegenerateStatusMonitor(Integer statusMonitorId)
 intellisense: NSSaintAgent.RegenerateStatusMonitor
-keywords: NSSaintAgent,RegenerateStatusMonitor
+keywords: NSSaintAgent, RegenerateStatusMonitor
 so.topic: reference
 ---
 

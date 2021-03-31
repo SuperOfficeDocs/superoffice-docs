@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketInfo_GetPriorityName
-description: String NSTicketInfo.GetPriorityName()
+uid: crmscript_ref_NSTicketInfo_GetPriorityName
+title: String GetPriorityName()
 intellisense: NSTicketInfo.GetPriorityName
 keywords: NSTicketInfo, GetPriorityName
 so.topic: reference

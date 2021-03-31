@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatisticsDataSet_GetValues
-description: StatisticsDataValueArray NSStatisticsDataSet.GetValues()
+uid: crmscript_ref_NSStatisticsDataSet_GetValues
+title: StatisticsDataValueArray GetValues()
 intellisense: NSStatisticsDataSet.GetValues
 keywords: NSStatisticsDataSet, GetValues
 so.topic: reference

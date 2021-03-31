@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUpsertRowStatus_SetPrimaryKey
-description: NSUpsertRowStatus.SetPrimaryKey(Integer primaryKey)
+uid: crmscript_ref_NSUpsertRowStatus_SetPrimaryKey
+title: SetPrimaryKey(Integer primaryKey)
 intellisense: NSUpsertRowStatus.SetPrimaryKey
 keywords: NSUpsertRowStatus, GetPrimaryKey
 so.topic: reference

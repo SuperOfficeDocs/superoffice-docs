@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_SetExtAppId
-description: NSExtAppEntity.SetExtAppId(Integer extAppId)
+uid: crmscript_ref_NSExtAppEntity_SetExtAppId
+title: SetExtAppId(Integer extAppId)
 intellisense: NSExtAppEntity.SetExtAppId
 keywords: NSExtAppEntity, GetExtAppId
 so.topic: reference

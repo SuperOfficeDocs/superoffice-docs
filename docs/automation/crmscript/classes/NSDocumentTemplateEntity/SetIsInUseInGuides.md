@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetIsInUseInGuides
-description: NSDocumentTemplateEntity.SetIsInUseInGuides(Bool isInUseInGuides)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetIsInUseInGuides
+title: SetIsInUseInGuides(Bool isInUseInGuides)
 intellisense: NSDocumentTemplateEntity.SetIsInUseInGuides
 keywords: NSDocumentTemplateEntity, GetIsInUseInGuides
 so.topic: reference

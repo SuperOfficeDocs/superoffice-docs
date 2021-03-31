@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSNumberAllocationAgent_SetNumberEachTemplate
-description: Void SetNumberEachTemplate(Bool setValue)
+uid: crmscript_ref_NSNumberAllocationAgent_SetNumberEachTemplate
+title: Void SetNumberEachTemplate(Bool setValue)
 intellisense: NSNumberAllocationAgent.SetNumberEachTemplate
-keywords: NSNumberAllocationAgent,SetNumberEachTemplate
+keywords: NSNumberAllocationAgent, SetNumberEachTemplate
 so.topic: reference
 ---
 

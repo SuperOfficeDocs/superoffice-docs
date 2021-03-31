@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_SetEncodedDataCaption
-description: NSFieldValueInfo.SetEncodedDataCaption(String encodedDataCaption)
+uid: crmscript_ref_NSFieldValueInfo_SetEncodedDataCaption
+title: SetEncodedDataCaption(String encodedDataCaption)
 intellisense: NSFieldValueInfo.SetEncodedDataCaption
 keywords: NSFieldValueInfo, GetEncodedDataCaption
 so.topic: reference

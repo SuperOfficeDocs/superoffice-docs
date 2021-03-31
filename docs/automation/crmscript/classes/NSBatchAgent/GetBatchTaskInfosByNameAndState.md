@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByNameAndState
-description: BatchTaskInfoArray GetBatchTaskInfosByNameAndState(String name, Integer state)
+uid: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByNameAndState
+title: BatchTaskInfoArray GetBatchTaskInfosByNameAndState(String name, Integer state)
 intellisense: NSBatchAgent.GetBatchTaskInfosByNameAndState
-keywords: NSBatchAgent,GetBatchTaskInfosByNameAndState
+keywords: NSBatchAgent, GetBatchTaskInfosByNameAndState
 so.topic: reference
 ---
 

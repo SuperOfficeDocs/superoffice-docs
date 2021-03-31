@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_CreateDefaultPreferenceDescriptionLine
-description: NSPreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
+uid: crmscript_ref_NSPreferenceAgent_CreateDefaultPreferenceDescriptionLine
+title: NSPreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
 intellisense: NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine
-keywords: NSPreferenceAgent,CreateDefaultPreferenceDescriptionLine
+keywords: NSPreferenceAgent, CreateDefaultPreferenceDescriptionLine
 so.topic: reference
 ---
 	  

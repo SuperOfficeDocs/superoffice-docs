@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatPresence_SetUserId
-description: NSChatPresence.SetUserId(Integer userId)
+uid: crmscript_ref_NSChatPresence_SetUserId
+title: SetUserId(Integer userId)
 intellisense: NSChatPresence.SetUserId
 keywords: NSChatPresence, GetUserId
 so.topic: reference

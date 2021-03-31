@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_GetDate
-description: DateTime NSPocketNotificationMessage.GetDate()
+uid: crmscript_ref_NSPocketNotificationMessage_GetDate
+title: DateTime GetDate()
 intellisense: NSPocketNotificationMessage.GetDate
 keywords: NSPocketNotificationMessage, GetDate
 so.topic: reference

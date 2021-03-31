@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListItem_GetUniqueId
-description: String NSPhoneListItem.GetUniqueId()
+uid: crmscript_ref_NSPhoneListItem_GetUniqueId
+title: String GetUniqueId()
 intellisense: NSPhoneListItem.GetUniqueId
 keywords: NSPhoneListItem, GetUniqueId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListItem_GetColumnData
-description: ColumnDataDictionary NSArchiveListItem.GetColumnData()
+uid: crmscript_ref_NSArchiveListItem_GetColumnData
+title: ColumnDataDictionary GetColumnData()
 intellisense: NSArchiveListItem.GetColumnData
 keywords: NSArchiveListItem, GetColumnData
 so.topic: reference

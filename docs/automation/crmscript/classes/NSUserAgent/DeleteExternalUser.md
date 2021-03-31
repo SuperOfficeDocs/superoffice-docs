@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_DeleteExternalUser
-description: Void DeleteExternalUser(Integer associateId)
+uid: crmscript_ref_NSUserAgent_DeleteExternalUser
+title: Void DeleteExternalUser(Integer associateId)
 intellisense: NSUserAgent.DeleteExternalUser
-keywords: NSUserAgent,DeleteExternalUser
+keywords: NSUserAgent, DeleteExternalUser
 so.topic: reference
 ---
 

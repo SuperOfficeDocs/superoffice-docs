@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetApprovedBy
-description: NSQuoteVersion.SetApprovedBy(Integer approvedBy)
+uid: crmscript_ref_NSQuoteVersion_SetApprovedBy
+title: SetApprovedBy(Integer approvedBy)
 intellisense: NSQuoteVersion.SetApprovedBy
 keywords: NSQuoteVersion, GetApprovedBy
 so.topic: reference

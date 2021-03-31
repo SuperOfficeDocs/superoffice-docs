@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetFirstname
-description: NSPerson.SetFirstname(String firstname)
+uid: crmscript_ref_NSPerson_SetFirstname
+title: SetFirstname(String firstname)
 intellisense: NSPerson.SetFirstname
 keywords: NSPerson, GetFirstname
 so.topic: reference

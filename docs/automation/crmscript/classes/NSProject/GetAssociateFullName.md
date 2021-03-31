@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_GetAssociateFullName
-description: String NSProject.GetAssociateFullName()
+uid: crmscript_ref_NSProject_GetAssociateFullName
+title: String GetAssociateFullName()
 intellisense: NSProject.GetAssociateFullName
 keywords: NSProject, GetAssociateFullName
 so.topic: reference

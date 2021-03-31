@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_TestAuthenticate
-description: Bool TestAuthenticate()
+uid: crmscript_ref_NSEMailAgent_TestAuthenticate
+title: Bool TestAuthenticate()
 intellisense: NSEMailAgent.TestAuthenticate
-keywords: NSEMailAgent,TestAuthenticate
+keywords: NSEMailAgent, TestAuthenticate
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_SetTaskName
-description: NSAlarmData.SetTaskName(String taskName)
+uid: crmscript_ref_NSAlarmData_SetTaskName
+title: SetTaskName(String taskName)
 intellisense: NSAlarmData.SetTaskName
 keywords: NSAlarmData, GetTaskName
 so.topic: reference

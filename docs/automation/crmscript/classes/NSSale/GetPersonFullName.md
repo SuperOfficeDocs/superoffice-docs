@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_GetPersonFullName
-description: String NSSale.GetPersonFullName()
+uid: crmscript_ref_NSSale_GetPersonFullName
+title: String GetPersonFullName()
 intellisense: NSSale.GetPersonFullName
 keywords: NSSale, GetPersonFullName
 so.topic: reference

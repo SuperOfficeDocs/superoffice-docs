@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SubstituteMergeDocumentTemplateVariables
-description: Stream SubstituteMergeDocumentTemplateVariables(Integer documentId, Integer associateId, StringArray customTags, StringArray customValues)
+uid: crmscript_ref_NSDocumentAgent_SubstituteMergeDocumentTemplateVariables
+title: Stream SubstituteMergeDocumentTemplateVariables(Integer documentId, Integer associateId, StringArray customTags, StringArray customValues)
 intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariables
-keywords: NSDocumentAgent,SubstituteMergeDocumentTemplateVariables
+keywords: NSDocumentAgent, SubstituteMergeDocumentTemplateVariables
 so.topic: reference
 ---
 

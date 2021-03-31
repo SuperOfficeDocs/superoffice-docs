@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAssociateAgent_LogOffWindowsUsers
-description: Void LogOffWindowsUsers(IntegerArray associateIds)
+uid: crmscript_ref_NSAssociateAgent_LogOffWindowsUsers
+title: Void LogOffWindowsUsers(IntegerArray associateIds)
 intellisense: NSAssociateAgent.LogOffWindowsUsers
-keywords: NSAssociateAgent,LogOffWindowsUsers
+keywords: NSAssociateAgent, LogOffWindowsUsers
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetLastChanged
-description: NSTicketEntity.SetLastChanged(DateTime lastChanged)
+uid: crmscript_ref_NSTicketEntity_SetLastChanged
+title: SetLastChanged(DateTime lastChanged)
 intellisense: NSTicketEntity.SetLastChanged
 keywords: NSTicketEntity, GetLastChanged
 so.topic: reference

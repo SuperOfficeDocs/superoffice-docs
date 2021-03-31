@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBlob
-description: NSFieldInfoBlob
+uid: crmscript_ref_NSFieldInfoBlob
+title: NSFieldInfoBlob
 intellisense: Void.NSFieldInfoBlob
 keywords: NSFieldInfoBlob
 so.topic: reference

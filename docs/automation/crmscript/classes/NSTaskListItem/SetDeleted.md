@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_SetDeleted
-description: NSTaskListItem.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSTaskListItem_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSTaskListItem.SetDeleted
 keywords: NSTaskListItem, GetDeleted
 so.topic: reference

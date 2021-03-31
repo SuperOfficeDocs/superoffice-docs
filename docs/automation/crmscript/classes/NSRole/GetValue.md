@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSRole_GetValue
-description: String NSRole.GetValue()
+uid: crmscript_ref_NSRole_GetValue
+title: String GetValue()
 intellisense: NSRole.GetValue
 keywords: NSRole, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the Role.
 
-**Returns:** String name
+**Returns:** String Role name.
 

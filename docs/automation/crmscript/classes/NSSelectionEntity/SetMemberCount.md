@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetMemberCount
-description: NSSelectionEntity.SetMemberCount(Integer memberCount)
+uid: crmscript_ref_NSSelectionEntity_SetMemberCount
+title: SetMemberCount(Integer memberCount)
 intellisense: NSSelectionEntity.SetMemberCount
 keywords: NSSelectionEntity, GetMemberCount
 so.topic: reference

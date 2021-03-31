@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_CreateChatSessionForTopic
-description: ChatSessionEntity CreateChatSessionForTopic(Integer chatTopicId)
+uid: crmscript_ref_NSChatAgent_CreateChatSessionForTopic
+title: ChatSessionEntity CreateChatSessionForTopic(Integer chatTopicId)
 intellisense: NSChatAgent.CreateChatSessionForTopic
-keywords: NSChatAgent,CreateChatSessionForTopic
+keywords: NSChatAgent, CreateChatSessionForTopic
 so.topic: reference
 ---
 

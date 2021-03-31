@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetProject
-description: Project NSDocumentEntity.GetProject()
+uid: crmscript_ref_NSDocumentEntity_GetProject
+title: Project GetProject()
 intellisense: NSDocumentEntity.GetProject
 keywords: NSDocumentEntity, GetProject
 so.topic: reference

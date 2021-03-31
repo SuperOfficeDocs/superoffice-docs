@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTokenManagementInfo_GetRefreshToken
-description: String NSTokenManagementInfo.GetRefreshToken()
+uid: crmscript_ref_NSTokenManagementInfo_GetRefreshToken
+title: String GetRefreshToken()
 intellisense: NSTokenManagementInfo.GetRefreshToken
 keywords: NSTokenManagementInfo, GetRefreshToken
 so.topic: reference

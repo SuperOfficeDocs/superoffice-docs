@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSTask_SetValue
-description: NSTask.SetValue(String value)
+uid: crmscript_ref_NSTask_SetValue
+title: SetValue(String value)
 intellisense: NSTask.SetValue
 keywords: NSTask, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the Task item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String Task name.
 

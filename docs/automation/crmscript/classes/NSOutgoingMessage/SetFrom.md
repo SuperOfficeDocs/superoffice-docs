@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOutgoingMessage_SetFrom
-description: NSOutgoingMessage.SetFrom(String from)
+uid: crmscript_ref_NSOutgoingMessage_SetFrom
+title: SetFrom(String from)
 intellisense: NSOutgoingMessage.SetFrom
 keywords: NSOutgoingMessage, GetFrom
 so.topic: reference

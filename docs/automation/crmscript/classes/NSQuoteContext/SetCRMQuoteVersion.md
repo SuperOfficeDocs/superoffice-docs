@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteContext_SetCRMQuoteVersion
-description: NSQuoteContext.SetCRMQuoteVersion(QuoteVersion cRMQuoteVersion)
+uid: crmscript_ref_NSQuoteContext_SetCRMQuoteVersion
+title: SetCRMQuoteVersion(QuoteVersion cRMQuoteVersion)
 intellisense: NSQuoteContext.SetCRMQuoteVersion
 keywords: NSQuoteContext, GetCRMQuoteVersion
 so.topic: reference

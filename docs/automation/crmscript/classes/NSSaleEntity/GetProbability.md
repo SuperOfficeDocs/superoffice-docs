@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetProbability
-description: Integer NSSaleEntity.GetProbability()
+uid: crmscript_ref_NSSaleEntity_GetProbability
+title: Integer GetProbability()
 intellisense: NSSaleEntity.GetProbability
 keywords: NSSaleEntity, GetProbability
 so.topic: reference

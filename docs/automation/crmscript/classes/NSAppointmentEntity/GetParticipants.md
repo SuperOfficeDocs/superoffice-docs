@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetParticipants
-description: ParticipantInfoArray NSAppointmentEntity.GetParticipants()
+uid: crmscript_ref_NSAppointmentEntity_GetParticipants
+title: ParticipantInfoArray GetParticipants()
 intellisense: NSAppointmentEntity.GetParticipants
 keywords: NSAppointmentEntity, GetParticipants
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionListMapping_SetErpListName
-description: NSErpConnectionListMapping.SetErpListName(String erpListName)
+uid: crmscript_ref_NSErpConnectionListMapping_SetErpListName
+title: SetErpListName(String erpListName)
 intellisense: NSErpConnectionListMapping.SetErpListName
 keywords: NSErpConnectionListMapping, GetErpListName
 so.topic: reference

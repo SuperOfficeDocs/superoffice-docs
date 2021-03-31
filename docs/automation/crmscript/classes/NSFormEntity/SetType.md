@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_SetType
-description: NSFormEntity.SetType(FormType type)
+uid: crmscript_ref_NSFormEntity_SetType
+title: SetType(FormType type)
 intellisense: NSFormEntity.SetType
 keywords: NSFormEntity, GetType
 so.topic: reference

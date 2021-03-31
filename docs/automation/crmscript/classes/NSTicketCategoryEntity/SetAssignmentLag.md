@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_SetAssignmentLag
-description: NSTicketCategoryEntity.SetAssignmentLag(Integer assignmentLag)
+uid: crmscript_ref_NSTicketCategoryEntity_SetAssignmentLag
+title: SetAssignmentLag(Integer assignmentLag)
 intellisense: NSTicketCategoryEntity.SetAssignmentLag
 keywords: NSTicketCategoryEntity, GetAssignmentLag
 so.topic: reference

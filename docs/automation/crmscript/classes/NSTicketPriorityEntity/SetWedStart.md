@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetWedStart
-description: NSTicketPriorityEntity.SetWedStart(DateTime wedStart)
+uid: crmscript_ref_NSTicketPriorityEntity_SetWedStart
+title: SetWedStart(DateTime wedStart)
 intellisense: NSTicketPriorityEntity.SetWedStart
 keywords: NSTicketPriorityEntity, GetWedStart
 so.topic: reference

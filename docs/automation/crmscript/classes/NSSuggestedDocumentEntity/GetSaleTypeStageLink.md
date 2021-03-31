@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedDocumentEntity_GetSaleTypeStageLink
-description: SaleTypeStageLink NSSuggestedDocumentEntity.GetSaleTypeStageLink()
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetSaleTypeStageLink
+title: SaleTypeStageLink GetSaleTypeStageLink()
 intellisense: NSSuggestedDocumentEntity.GetSaleTypeStageLink
 keywords: NSSuggestedDocumentEntity, GetSaleTypeStageLink
 so.topic: reference

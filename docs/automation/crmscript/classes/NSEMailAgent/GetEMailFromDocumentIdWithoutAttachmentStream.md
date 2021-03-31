@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEMailFromDocumentIdWithoutAttachmentStream
-description: EMailEntity GetEMailFromDocumentIdWithoutAttachmentStream(Integer documentId)
+uid: crmscript_ref_NSEMailAgent_GetEMailFromDocumentIdWithoutAttachmentStream
+title: EMailEntity GetEMailFromDocumentIdWithoutAttachmentStream(Integer documentId)
 intellisense: NSEMailAgent.GetEMailFromDocumentIdWithoutAttachmentStream
-keywords: NSEMailAgent,GetEMailFromDocumentIdWithoutAttachmentStream
+keywords: NSEMailAgent, GetEMailFromDocumentIdWithoutAttachmentStream
 so.topic: reference
 ---
 

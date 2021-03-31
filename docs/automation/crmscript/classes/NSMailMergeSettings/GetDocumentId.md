@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetDocumentId
-description: Integer NSMailMergeSettings.GetDocumentId()
+uid: crmscript_ref_NSMailMergeSettings_GetDocumentId
+title: Integer GetDocumentId()
 intellisense: NSMailMergeSettings.GetDocumentId
 keywords: NSMailMergeSettings, GetDocumentId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetFolderHasNewEMail
-description: Bool GetFolderHasNewEMail(EMailConnectionInfo connectionInfo)
+uid: crmscript_ref_NSEMailAgent_GetFolderHasNewEMail
+title: Bool GetFolderHasNewEMail(EMailConnectionInfo connectionInfo)
 intellisense: NSEMailAgent.GetFolderHasNewEMail
-keywords: NSEMailAgent,GetFolderHasNewEMail
+keywords: NSEMailAgent, GetFolderHasNewEMail
 so.topic: reference
 ---
 

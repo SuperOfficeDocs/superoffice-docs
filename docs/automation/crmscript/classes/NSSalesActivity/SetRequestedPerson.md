@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSalesActivity_SetRequestedPerson
-description: NSSalesActivity.SetRequestedPerson(Person requestedPerson)
+uid: crmscript_ref_NSSalesActivity_SetRequestedPerson
+title: SetRequestedPerson(Person requestedPerson)
 intellisense: NSSalesActivity.SetRequestedPerson
 keywords: NSSalesActivity, GetRequestedPerson
 so.topic: reference

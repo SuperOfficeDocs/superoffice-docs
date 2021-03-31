@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetPluginCapabilities
-description: StringDictionary GetPluginCapabilities(Integer pluginId)
+uid: crmscript_ref_NSDocumentAgent_GetPluginCapabilities
+title: StringDictionary GetPluginCapabilities(Integer pluginId)
 intellisense: NSDocumentAgent.GetPluginCapabilities
-keywords: NSDocumentAgent,GetPluginCapabilities
+keywords: NSDocumentAgent, GetPluginCapabilities
 so.topic: reference
 ---
 

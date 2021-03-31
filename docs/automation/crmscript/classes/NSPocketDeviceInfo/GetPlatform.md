@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketDeviceInfo_GetPlatform
-description: Integer NSPocketDeviceInfo.GetPlatform()
+uid: crmscript_ref_NSPocketDeviceInfo_GetPlatform
+title: Integer GetPlatform()
 intellisense: NSPocketDeviceInfo.GetPlatform
 keywords: NSPocketDeviceInfo, GetPlatform
 so.topic: reference

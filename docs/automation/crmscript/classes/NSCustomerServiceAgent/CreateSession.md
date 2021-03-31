@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_CreateSession
-description: CsSessionKey CreateSession(String remoteIp)
+uid: crmscript_ref_NSCustomerServiceAgent_CreateSession
+title: CsSessionKey CreateSession(String remoteIp)
 intellisense: NSCustomerServiceAgent.CreateSession
-keywords: NSCustomerServiceAgent,CreateSession
+keywords: NSCustomerServiceAgent, CreateSession
 so.topic: reference
 ---
 

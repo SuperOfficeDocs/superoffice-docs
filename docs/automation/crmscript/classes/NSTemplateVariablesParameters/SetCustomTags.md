@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_SetCustomTags
-description: NSTemplateVariablesParameters.SetCustomTags(StringArrayArray customTags)
+uid: crmscript_ref_NSTemplateVariablesParameters_SetCustomTags
+title: SetCustomTags(StringArrayArray customTags)
 intellisense: NSTemplateVariablesParameters.SetCustomTags
 keywords: NSTemplateVariablesParameters, GetCustomTags
 so.topic: reference

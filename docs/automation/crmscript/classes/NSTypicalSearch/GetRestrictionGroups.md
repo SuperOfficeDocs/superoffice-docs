@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_GetRestrictionGroups
-description: ArchiveRestrictionGroupArray NSTypicalSearch.GetRestrictionGroups()
+uid: crmscript_ref_NSTypicalSearch_GetRestrictionGroups
+title: ArchiveRestrictionGroupArray GetRestrictionGroups()
 intellisense: NSTypicalSearch.GetRestrictionGroups
 keywords: NSTypicalSearch, GetRestrictionGroups
 so.topic: reference

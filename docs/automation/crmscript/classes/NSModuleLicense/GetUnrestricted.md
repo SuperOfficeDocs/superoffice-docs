@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_GetUnrestricted
-description: Bool NSModuleLicense.GetUnrestricted()
+uid: crmscript_ref_NSModuleLicense_GetUnrestricted
+title: Bool GetUnrestricted()
 intellisense: NSModuleLicense.GetUnrestricted
 keywords: NSModuleLicense, GetUnrestricted
 so.topic: reference

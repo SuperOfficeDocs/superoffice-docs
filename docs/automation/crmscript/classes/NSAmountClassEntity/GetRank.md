@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity_GetRank
-description: Integer NSAmountClassEntity.GetRank()
+uid: crmscript_ref_NSAmountClassEntity_GetRank
+title: Integer GetRank()
 intellisense: NSAmountClassEntity.GetRank
 keywords: NSAmountClassEntity, GetRank
 so.topic: reference

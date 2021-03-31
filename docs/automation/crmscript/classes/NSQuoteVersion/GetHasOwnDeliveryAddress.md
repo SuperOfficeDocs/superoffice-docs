@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetHasOwnDeliveryAddress
-description: Bool NSQuoteVersion.GetHasOwnDeliveryAddress()
+uid: crmscript_ref_NSQuoteVersion_GetHasOwnDeliveryAddress
+title: Bool GetHasOwnDeliveryAddress()
 intellisense: NSQuoteVersion.GetHasOwnDeliveryAddress
 keywords: NSQuoteVersion, GetHasOwnDeliveryAddress
 so.topic: reference

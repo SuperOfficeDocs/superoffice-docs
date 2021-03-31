@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_GetParentId
-description: Integer NSTicketCategoryEntity.GetParentId()
+uid: crmscript_ref_NSTicketCategoryEntity_GetParentId
+title: Integer GetParentId()
 intellisense: NSTicketCategoryEntity.GetParentId
 keywords: NSTicketCategoryEntity, GetParentId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetCurrency
-description: Currency NSSaleEntity.GetCurrency()
+uid: crmscript_ref_NSSaleEntity_GetCurrency
+title: Currency GetCurrency()
 intellisense: NSSaleEntity.GetCurrency
 keywords: NSSaleEntity, GetCurrency
 so.topic: reference

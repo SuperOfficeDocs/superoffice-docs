@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetName
-description: String NSChatTopicEntity.GetName()
+uid: crmscript_ref_NSChatTopicEntity_GetName
+title: String GetName()
 intellisense: NSChatTopicEntity.GetName
 keywords: NSChatTopicEntity, GetName
 so.topic: reference

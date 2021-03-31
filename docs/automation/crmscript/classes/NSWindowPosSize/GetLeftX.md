@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_GetLeftX
-description: Integer NSWindowPosSize.GetLeftX()
+uid: crmscript_ref_NSWindowPosSize_GetLeftX
+title: Integer GetLeftX()
 intellisense: NSWindowPosSize.GetLeftX
 keywords: NSWindowPosSize, GetLeftX
 so.topic: reference

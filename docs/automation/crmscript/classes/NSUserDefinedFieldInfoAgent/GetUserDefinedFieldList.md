@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldList
-description: UserDefinedFieldInfoArray GetUserDefinedFieldList(Integer ownerType)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldList
+title: UserDefinedFieldInfoArray GetUserDefinedFieldList(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList
-keywords: NSUserDefinedFieldInfoAgent,GetUserDefinedFieldList
+keywords: NSUserDefinedFieldInfoAgent, GetUserDefinedFieldList
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetActiveLinks
-description: Integer NSSaleEntity.GetActiveLinks()
+uid: crmscript_ref_NSSaleEntity_GetActiveLinks
+title: Integer GetActiveLinks()
 intellisense: NSSaleEntity.GetActiveLinks
 keywords: NSSaleEntity, GetActiveLinks
 so.topic: reference

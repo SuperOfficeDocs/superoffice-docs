@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity_SetAmountTo
-description: NSAmountClassEntity.SetAmountTo(Float amountTo)
+uid: crmscript_ref_NSAmountClassEntity_SetAmountTo
+title: SetAmountTo(Float amountTo)
 intellisense: NSAmountClassEntity.SetAmountTo
 keywords: NSAmountClassEntity, GetAmountTo
 so.topic: reference

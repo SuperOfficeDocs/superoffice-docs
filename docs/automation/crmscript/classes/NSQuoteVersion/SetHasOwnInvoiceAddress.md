@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetHasOwnInvoiceAddress
-description: NSQuoteVersion.SetHasOwnInvoiceAddress(Bool hasOwnInvoiceAddress)
+uid: crmscript_ref_NSQuoteVersion_SetHasOwnInvoiceAddress
+title: SetHasOwnInvoiceAddress(Bool hasOwnInvoiceAddress)
 intellisense: NSQuoteVersion.SetHasOwnInvoiceAddress
 keywords: NSQuoteVersion, GetHasOwnInvoiceAddress
 so.topic: reference

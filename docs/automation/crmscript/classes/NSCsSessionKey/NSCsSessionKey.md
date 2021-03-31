@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCsSessionKey
-description: NSCsSessionKey
+uid: crmscript_ref_NSCsSessionKey
+title: NSCsSessionKey
 intellisense: Void.NSCsSessionKey
 keywords: NSCsSessionKey
 so.topic: reference

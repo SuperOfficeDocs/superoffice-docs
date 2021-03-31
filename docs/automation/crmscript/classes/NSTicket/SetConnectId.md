@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetConnectId
-description: NSTicket.SetConnectId(Integer connectId)
+uid: crmscript_ref_NSTicket_SetConnectId
+title: SetConnectId(Integer connectId)
 intellisense: NSTicket.SetConnectId
 keywords: NSTicket, GetConnectId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialUser
-description: NSCredentialUser
+uid: crmscript_ref_NSCredentialUser
+title: NSCredentialUser
 intellisense: Void.NSCredentialUser
 keywords: NSCredentialUser
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProductCategory
-description: NSProductCategory
+uid: crmscript_ref_NSProductCategory
+title: NSProductCategory
 intellisense: Void.NSProductCategory
 keywords: NSProductCategory
 so.topic: reference

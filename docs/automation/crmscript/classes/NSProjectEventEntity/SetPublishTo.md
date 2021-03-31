@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetPublishTo
-description: NSProjectEventEntity.SetPublishTo(DateTime publishTo)
+uid: crmscript_ref_NSProjectEventEntity_SetPublishTo
+title: SetPublishTo(DateTime publishTo)
 intellisense: NSProjectEventEntity.SetPublishTo
 keywords: NSProjectEventEntity, GetPublishTo
 so.topic: reference

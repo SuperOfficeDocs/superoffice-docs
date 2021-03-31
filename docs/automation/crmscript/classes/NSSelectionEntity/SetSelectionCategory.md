@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetSelectionCategory
-description: NSSelectionEntity.SetSelectionCategory(SelectionCategory selectionCategory)
+uid: crmscript_ref_NSSelectionEntity_SetSelectionCategory
+title: SetSelectionCategory(SelectionCategory selectionCategory)
 intellisense: NSSelectionEntity.SetSelectionCategory
 keywords: NSSelectionEntity, GetSelectionCategory
 so.topic: reference

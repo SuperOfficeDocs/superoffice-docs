@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetIncludeNoMailingsRecipient
-description: Bool NSMailMergeSettings.GetIncludeNoMailingsRecipient()
+uid: crmscript_ref_NSMailMergeSettings_GetIncludeNoMailingsRecipient
+title: Bool GetIncludeNoMailingsRecipient()
 intellisense: NSMailMergeSettings.GetIncludeNoMailingsRecipient
 keywords: NSMailMergeSettings, GetIncludeNoMailingsRecipient
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetPrivatePhones
-description: NSPersonEntity.SetPrivatePhones(EntityElementArray privatePhones)
+uid: crmscript_ref_NSPersonEntity_SetPrivatePhones
+title: SetPrivatePhones(EntityElementArray privatePhones)
 intellisense: NSPersonEntity.SetPrivatePhones
 keywords: NSPersonEntity, GetPrivatePhones
 so.topic: reference

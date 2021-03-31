@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_GetIsCompleted
-description: Bool NSAppointmentSyncData.GetIsCompleted()
+uid: crmscript_ref_NSAppointmentSyncData_GetIsCompleted
+title: Bool GetIsCompleted()
 intellisense: NSAppointmentSyncData.GetIsCompleted
 keywords: NSAppointmentSyncData, GetIsCompleted
 so.topic: reference

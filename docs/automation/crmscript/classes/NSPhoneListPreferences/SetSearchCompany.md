@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences_SetSearchCompany
-description: NSPhoneListPreferences.SetSearchCompany(Bool searchCompany)
+uid: crmscript_ref_NSPhoneListPreferences_SetSearchCompany
+title: SetSearchCompany(Bool searchCompany)
 intellisense: NSPhoneListPreferences.SetSearchCompany
 keywords: NSPhoneListPreferences, GetSearchCompany
 so.topic: reference

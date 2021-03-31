@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_SetPersonFormalName
-description: NSAppointmentSyncData.SetPersonFormalName(String personFormalName)
+uid: crmscript_ref_NSAppointmentSyncData_SetPersonFormalName
+title: SetPersonFormalName(String personFormalName)
 intellisense: NSAppointmentSyncData.SetPersonFormalName
 keywords: NSAppointmentSyncData, GetPersonFormalName
 so.topic: reference

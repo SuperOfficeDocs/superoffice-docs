@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_GetUserBlocks
-description: ShipmentMessageBlockEntityArray GetUserBlocks(Integer associateId)
+uid: crmscript_ref_NSMarketingAgent_GetUserBlocks
+title: ShipmentMessageBlockEntityArray GetUserBlocks(Integer associateId)
 intellisense: NSMarketingAgent.GetUserBlocks
-keywords: NSMarketingAgent,GetUserBlocks
+keywords: NSMarketingAgent, GetUserBlocks
 so.topic: reference
 ---
 

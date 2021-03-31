@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetERPDiscountAmount
-description: Float NSQuoteLine.GetERPDiscountAmount()
+uid: crmscript_ref_NSQuoteLine_GetERPDiscountAmount
+title: Float GetERPDiscountAmount()
 intellisense: NSQuoteLine.GetERPDiscountAmount
 keywords: NSQuoteLine, GetERPDiscountAmount
 so.topic: reference

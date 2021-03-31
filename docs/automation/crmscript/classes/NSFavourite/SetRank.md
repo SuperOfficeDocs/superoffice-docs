@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFavourite_SetRank
-description: NSFavourite.SetRank(Integer rank)
+uid: crmscript_ref_NSFavourite_SetRank
+title: SetRank(Integer rank)
 intellisense: NSFavourite.SetRank
 keywords: NSFavourite, GetRank
 so.topic: reference

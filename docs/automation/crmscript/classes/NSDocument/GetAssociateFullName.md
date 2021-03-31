@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_GetAssociateFullName
-description: String NSDocument.GetAssociateFullName()
+uid: crmscript_ref_NSDocument_GetAssociateFullName
+title: String GetAssociateFullName()
 intellisense: NSDocument.GetAssociateFullName
 keywords: NSDocument, GetAssociateFullName
 so.topic: reference

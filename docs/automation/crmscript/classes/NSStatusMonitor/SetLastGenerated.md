@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_SetLastGenerated
-description: NSStatusMonitor.SetLastGenerated(DateTime lastGenerated)
+uid: crmscript_ref_NSStatusMonitor_SetLastGenerated
+title: SetLastGenerated(DateTime lastGenerated)
 intellisense: NSStatusMonitor.SetLastGenerated
 keywords: NSStatusMonitor, GetLastGenerated
 so.topic: reference

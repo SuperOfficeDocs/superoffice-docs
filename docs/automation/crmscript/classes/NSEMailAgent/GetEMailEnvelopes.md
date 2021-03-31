@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEMailEnvelopes
-description: EMailEnvelopeArray GetEMailEnvelopes(EMailConnectionInfo connectionInfo, IntegerArray messageServerIds)
+uid: crmscript_ref_NSEMailAgent_GetEMailEnvelopes
+title: EMailEnvelopeArray GetEMailEnvelopes(EMailConnectionInfo connectionInfo, IntegerArray messageServerIds)
 intellisense: NSEMailAgent.GetEMailEnvelopes
-keywords: NSEMailAgent,GetEMailEnvelopes
+keywords: NSEMailAgent, GetEMailEnvelopes
 so.topic: reference
 ---
 

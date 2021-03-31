@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetHidden
-description: NSSelectableMDOListItem.SetHidden(Bool hidden)
+uid: crmscript_ref_NSSelectableMDOListItem_SetHidden
+title: SetHidden(Bool hidden)
 intellisense: NSSelectableMDOListItem.SetHidden
 keywords: NSSelectableMDOListItem, GetHidden
 so.topic: reference

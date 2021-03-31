@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetInvitationStatus
-description: Integer NSAlarmData.GetInvitationStatus()
+uid: crmscript_ref_NSAlarmData_GetInvitationStatus
+title: Integer GetInvitationStatus()
 intellisense: NSAlarmData.GetInvitationStatus
 keywords: NSAlarmData, GetInvitationStatus
 so.topic: reference

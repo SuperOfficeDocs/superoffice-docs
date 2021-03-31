@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoRelation_SetMdoListName
-description: NSFieldInfoRelation.SetMdoListName(String mdoListName)
+uid: crmscript_ref_NSFieldInfoRelation_SetMdoListName
+title: SetMdoListName(String mdoListName)
 intellisense: NSFieldInfoRelation.SetMdoListName
 keywords: NSFieldInfoRelation, GetMdoListName
 so.topic: reference

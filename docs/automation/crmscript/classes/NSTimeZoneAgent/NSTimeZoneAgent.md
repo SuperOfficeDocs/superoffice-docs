@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent
-description: NSTimeZoneAgent
+uid: crmscript_ref_NSTimeZoneAgent
+title: NSTimeZoneAgent
 intellisense: Void.NSTimeZoneAgent
 keywords: NSTimeZoneAgent
 so.topic: reference

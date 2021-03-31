@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReplyTemplate_GetReplyTemplateId
-description: Integer NSReplyTemplate.GetReplyTemplateId()
+uid: crmscript_ref_NSReplyTemplate_GetReplyTemplateId
+title: Integer GetReplyTemplateId()
 intellisense: NSReplyTemplate.GetReplyTemplateId
 keywords: NSReplyTemplate, GetReplyTemplateId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetSoldTotalOwnCurrency
-description: NSSaleSummary.SetSoldTotalOwnCurrency(Float soldTotalOwnCurrency)
+uid: crmscript_ref_NSSaleSummary_SetSoldTotalOwnCurrency
+title: SetSoldTotalOwnCurrency(Float soldTotalOwnCurrency)
 intellisense: NSSaleSummary.SetSoldTotalOwnCurrency
 keywords: NSSaleSummary, GetSoldTotalOwnCurrency
 so.topic: reference

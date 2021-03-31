@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetTask
-description: String NSAppointment.GetTask()
+uid: crmscript_ref_NSAppointment_GetTask
+title: String GetTask()
 intellisense: NSAppointment.GetTask
 keywords: NSAppointment, GetTask
 so.topic: reference

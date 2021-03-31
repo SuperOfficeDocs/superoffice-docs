@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionGroup_SetRank
-description: NSArchiveRestrictionGroup.SetRank(Integer rank)
+uid: crmscript_ref_NSArchiveRestrictionGroup_SetRank
+title: SetRank(Integer rank)
 intellisense: NSArchiveRestrictionGroup.SetRank
 keywords: NSArchiveRestrictionGroup, GetRank
 so.topic: reference

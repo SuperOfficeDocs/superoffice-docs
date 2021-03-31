@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_SaveProjectMember
-description: NSProjectMember SaveProjectMember(NSProjectMember projectMember);
+uid: crmscript_ref_NSProjectAgent_SaveProjectMember
+title: NSProjectMember SaveProjectMember(NSProjectMember projectMember);
 intellisense: NSProjectAgent.SaveProjectMember
-keywords: NSProjectAgent,SaveProjectMember
+keywords: NSProjectAgent, SaveProjectMember
 so.topic: reference
 ---
 	  

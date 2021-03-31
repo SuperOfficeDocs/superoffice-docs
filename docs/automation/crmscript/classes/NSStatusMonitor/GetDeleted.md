@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetDeleted
-description: Bool NSStatusMonitor.GetDeleted()
+uid: crmscript_ref_NSStatusMonitor_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSStatusMonitor.GetDeleted
 keywords: NSStatusMonitor, GetDeleted
 so.topic: reference

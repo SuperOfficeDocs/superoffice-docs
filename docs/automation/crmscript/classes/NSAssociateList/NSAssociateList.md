@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAssociateList
-description: NSAssociateList
+uid: crmscript_ref_NSAssociateList
+title: NSAssociateList
 intellisense: Void.NSAssociateList
 keywords: NSAssociateList
 so.topic: reference

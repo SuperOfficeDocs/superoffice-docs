@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_SetEncoding
-description: NSTemplateVariablesParameters.SetEncoding(Integer encoding)
+uid: crmscript_ref_NSTemplateVariablesParameters_SetEncoding
+title: SetEncoding(Integer encoding)
 intellisense: NSTemplateVariablesParameters.SetEncoding
 keywords: NSTemplateVariablesParameters, GetEncoding
 so.topic: reference

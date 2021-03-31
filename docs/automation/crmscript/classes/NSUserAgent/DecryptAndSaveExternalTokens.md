@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_DecryptAndSaveExternalTokens
-description: String DecryptAndSaveExternalTokens(TokenManagementInfo tokenManagementInfo)
+uid: crmscript_ref_NSUserAgent_DecryptAndSaveExternalTokens
+title: String DecryptAndSaveExternalTokens(TokenManagementInfo tokenManagementInfo)
 intellisense: NSUserAgent.DecryptAndSaveExternalTokens
-keywords: NSUserAgent,DecryptAndSaveExternalTokens
+keywords: NSUserAgent, DecryptAndSaveExternalTokens
 so.topic: reference
 ---
 

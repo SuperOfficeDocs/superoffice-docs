@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetWhenEnded
-description: DateTime NSChatSessionEntity.GetWhenEnded()
+uid: crmscript_ref_NSChatSessionEntity_GetWhenEnded
+title: DateTime GetWhenEnded()
 intellisense: NSChatSessionEntity.GetWhenEnded
 keywords: NSChatSessionEntity, GetWhenEnded
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_SetSubGroup
-description: NSPreferenceDescription.SetSubGroup(String subGroup)
+uid: crmscript_ref_NSPreferenceDescription_SetSubGroup
+title: SetSubGroup(String subGroup)
 intellisense: NSPreferenceDescription.SetSubGroup
 keywords: NSPreferenceDescription, GetSubGroup
 so.topic: reference

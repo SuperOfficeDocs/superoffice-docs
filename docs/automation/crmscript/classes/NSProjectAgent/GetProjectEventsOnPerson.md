@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetProjectEventsOnPerson
-description: ProjectEventArray GetProjectEventsOnPerson(Integer personId)
+uid: crmscript_ref_NSProjectAgent_GetProjectEventsOnPerson
+title: ProjectEventArray GetProjectEventsOnPerson(Integer personId)
 intellisense: NSProjectAgent.GetProjectEventsOnPerson
-keywords: NSProjectAgent,GetProjectEventsOnPerson
+keywords: NSProjectAgent, GetProjectEventsOnPerson
 so.topic: reference
 ---
 

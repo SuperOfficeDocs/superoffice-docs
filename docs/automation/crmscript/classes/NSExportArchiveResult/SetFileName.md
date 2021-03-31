@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExportArchiveResult_SetFileName
-description: NSExportArchiveResult.SetFileName(String fileName)
+uid: crmscript_ref_NSExportArchiveResult_SetFileName
+title: SetFileName(String fileName)
 intellisense: NSExportArchiveResult.SetFileName
 keywords: NSExportArchiveResult, GetFileName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment_GetCalMethod
-description: Integer NSEMailAppointment.GetCalMethod()
+uid: crmscript_ref_NSEMailAppointment_GetCalMethod
+title: Integer GetCalMethod()
 intellisense: NSEMailAppointment.GetCalMethod
 keywords: NSEMailAppointment, GetCalMethod
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetOrderState
-description: PluginUrlResponse GetOrderState(Integer quoteVersionId)
+uid: crmscript_ref_NSQuoteAgent_GetOrderState
+title: PluginUrlResponse GetOrderState(Integer quoteVersionId)
 intellisense: NSQuoteAgent.GetOrderState
-keywords: NSQuoteAgent,GetOrderState
+keywords: NSQuoteAgent, GetOrderState
 so.topic: reference
 ---
 

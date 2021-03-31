@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_SetIsAllDay
-description: NSAppointmentSyncData.SetIsAllDay(Bool isAllDay)
+uid: crmscript_ref_NSAppointmentSyncData_SetIsAllDay
+title: SetIsAllDay(Bool isAllDay)
 intellisense: NSAppointmentSyncData.SetIsAllDay
 keywords: NSAppointmentSyncData, GetIsAllDay
 so.topic: reference

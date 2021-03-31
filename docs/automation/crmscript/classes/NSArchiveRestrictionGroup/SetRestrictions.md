@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionGroup_SetRestrictions
-description: NSArchiveRestrictionGroup.SetRestrictions(ArchiveRestrictionInfoArray restrictions)
+uid: crmscript_ref_NSArchiveRestrictionGroup_SetRestrictions
+title: SetRestrictions(ArchiveRestrictionInfoArray restrictions)
 intellisense: NSArchiveRestrictionGroup.SetRestrictions
 keywords: NSArchiveRestrictionGroup, GetRestrictions
 so.topic: reference

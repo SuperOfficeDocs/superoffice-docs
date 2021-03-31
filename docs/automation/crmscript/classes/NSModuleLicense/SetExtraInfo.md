@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_SetExtraInfo
-description: NSModuleLicense.SetExtraInfo(String extraInfo)
+uid: crmscript_ref_NSModuleLicense_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
 intellisense: NSModuleLicense.SetExtraInfo
 keywords: NSModuleLicense, GetExtraInfo
 so.topic: reference

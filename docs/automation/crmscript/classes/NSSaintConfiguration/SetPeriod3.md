@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaintConfiguration_SetPeriod3
-description: NSSaintConfiguration.SetPeriod3(Integer period3)
+uid: crmscript_ref_NSSaintConfiguration_SetPeriod3
+title: SetPeriod3(Integer period3)
 intellisense: NSSaintConfiguration.SetPeriod3
 keywords: NSSaintConfiguration, GetPeriod3
 so.topic: reference

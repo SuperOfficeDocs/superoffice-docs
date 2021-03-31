@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetDefaultProjectImage
-description: Image GetDefaultProjectImage(String layoutName)
+uid: crmscript_ref_NSAudienceAgent_GetDefaultProjectImage
+title: Image GetDefaultProjectImage(String layoutName)
 intellisense: NSAudienceAgent.GetDefaultProjectImage
-keywords: NSAudienceAgent,GetDefaultProjectImage
+keywords: NSAudienceAgent, GetDefaultProjectImage
 so.topic: reference
 ---
 

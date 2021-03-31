@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_GetMsgClosingStatus
-description: TicketCategoryClosingStatus NSTicketCategoryEntity.GetMsgClosingStatus()
+uid: crmscript_ref_NSTicketCategoryEntity_GetMsgClosingStatus
+title: TicketCategoryClosingStatus GetMsgClosingStatus()
 intellisense: NSTicketCategoryEntity.GetMsgClosingStatus
 keywords: NSTicketCategoryEntity, GetMsgClosingStatus
 so.topic: reference

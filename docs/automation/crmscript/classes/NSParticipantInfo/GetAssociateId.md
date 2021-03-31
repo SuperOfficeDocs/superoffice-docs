@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantInfo_GetAssociateId
-description: Integer NSParticipantInfo.GetAssociateId()
+uid: crmscript_ref_NSParticipantInfo_GetAssociateId
+title: Integer GetAssociateId()
 intellisense: NSParticipantInfo.GetAssociateId
 keywords: NSParticipantInfo, GetAssociateId
 so.topic: reference

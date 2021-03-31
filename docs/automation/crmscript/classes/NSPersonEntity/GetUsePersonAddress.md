@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetUsePersonAddress
-description: Bool NSPersonEntity.GetUsePersonAddress()
+uid: crmscript_ref_NSPersonEntity_GetUsePersonAddress
+title: Bool GetUsePersonAddress()
 intellisense: NSPersonEntity.GetUsePersonAddress
 keywords: NSPersonEntity, GetUsePersonAddress
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicenseLink_GetFree
-description: Integer NSModuleLicenseLink.GetFree()
+uid: crmscript_ref_NSModuleLicenseLink_GetFree
+title: Integer GetFree()
 intellisense: NSModuleLicenseLink.GetFree
 keywords: NSModuleLicenseLink, GetFree
 so.topic: reference

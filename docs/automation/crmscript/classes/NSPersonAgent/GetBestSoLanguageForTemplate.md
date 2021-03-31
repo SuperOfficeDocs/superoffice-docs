@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetBestSoLanguageForTemplate
-description: String GetBestSoLanguageForTemplate(Integer personId, Integer templateId)
+uid: crmscript_ref_NSPersonAgent_GetBestSoLanguageForTemplate
+title: String GetBestSoLanguageForTemplate(Integer personId, Integer templateId)
 intellisense: NSPersonAgent.GetBestSoLanguageForTemplate
-keywords: NSPersonAgent,GetBestSoLanguageForTemplate
+keywords: NSPersonAgent, GetBestSoLanguageForTemplate
 so.topic: reference
 ---
 

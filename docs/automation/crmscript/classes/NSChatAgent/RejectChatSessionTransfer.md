@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_RejectChatSessionTransfer
-description: ChatSessionEntity RejectChatSessionTransfer(Integer chatSessionId)
+uid: crmscript_ref_NSChatAgent_RejectChatSessionTransfer
+title: ChatSessionEntity RejectChatSessionTransfer(Integer chatSessionId)
 intellisense: NSChatAgent.RejectChatSessionTransfer
-keywords: NSChatAgent,RejectChatSessionTransfer
+keywords: NSChatAgent, RejectChatSessionTransfer
 so.topic: reference
 ---
 

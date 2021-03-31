@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_SyncAll
-description: PluginResponse SyncAll()
+uid: crmscript_ref_NSErpSyncAgent_SyncAll
+title: PluginResponse SyncAll()
 intellisense: NSErpSyncAgent.SyncAll
-keywords: NSErpSyncAgent,SyncAll
+keywords: NSErpSyncAgent, SyncAll
 so.topic: reference
 ---
 

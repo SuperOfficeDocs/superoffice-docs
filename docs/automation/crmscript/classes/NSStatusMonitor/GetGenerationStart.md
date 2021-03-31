@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetGenerationStart
-description: DateTime NSStatusMonitor.GetGenerationStart()
+uid: crmscript_ref_NSStatusMonitor_GetGenerationStart
+title: DateTime GetGenerationStart()
 intellisense: NSStatusMonitor.GetGenerationStart
 keywords: NSStatusMonitor, GetGenerationStart
 so.topic: reference

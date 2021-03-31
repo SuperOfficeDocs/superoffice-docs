@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetFaxes
-description: NSPersonEntity.SetFaxes(EntityElementArray faxes)
+uid: crmscript_ref_NSPersonEntity_SetFaxes
+title: SetFaxes(EntityElementArray faxes)
 intellisense: NSPersonEntity.SetFaxes
 keywords: NSPersonEntity, GetFaxes
 so.topic: reference

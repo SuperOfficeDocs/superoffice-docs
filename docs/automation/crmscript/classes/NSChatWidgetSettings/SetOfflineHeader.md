@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetOfflineHeader
-description: NSChatWidgetSettings.SetOfflineHeader(String offlineHeader)
+uid: crmscript_ref_NSChatWidgetSettings_SetOfflineHeader
+title: SetOfflineHeader(String offlineHeader)
 intellisense: NSChatWidgetSettings.SetOfflineHeader
 keywords: NSChatWidgetSettings, GetOfflineHeader
 so.topic: reference

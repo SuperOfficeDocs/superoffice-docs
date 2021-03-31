@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption_SetListName
-description: NSDashboardTileOption.SetListName(String listName)
+uid: crmscript_ref_NSDashboardTileOption_SetListName
+title: SetListName(String listName)
 intellisense: NSDashboardTileOption.SetListName
 keywords: NSDashboardTileOption, GetListName
 so.topic: reference

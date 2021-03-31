@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_GetMostRecentTimestamp
-description: String NSErpConnection.GetMostRecentTimestamp()
+uid: crmscript_ref_NSErpConnection_GetMostRecentTimestamp
+title: String GetMostRecentTimestamp()
 intellisense: NSErpConnection.GetMostRecentTimestamp
 keywords: NSErpConnection, GetMostRecentTimestamp
 so.topic: reference

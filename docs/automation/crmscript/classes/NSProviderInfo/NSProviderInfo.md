@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProviderInfo
-description: NSProviderInfo
+uid: crmscript_ref_NSProviderInfo
+title: NSProviderInfo
 intellisense: Void.NSProviderInfo
 keywords: NSProviderInfo
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateDefaultEMailCustomHeader
-description: NSEMailCustomHeader CreateDefaultEMailCustomHeader()
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailCustomHeader
+title: NSEMailCustomHeader CreateDefaultEMailCustomHeader()
 intellisense: NSEMailAgent.CreateDefaultEMailCustomHeader
-keywords: NSEMailAgent,CreateDefaultEMailCustomHeader
+keywords: NSEMailAgent, CreateDefaultEMailCustomHeader
 so.topic: reference
 ---
 	  

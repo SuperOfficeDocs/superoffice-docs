@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_RegisterWithAccessGateway
-description: AccessGatewayInfo RegisterWithAccessGateway(String redirectUri)
+uid: crmscript_ref_NSUserAgent_RegisterWithAccessGateway
+title: AccessGatewayInfo RegisterWithAccessGateway(String redirectUri)
 intellisense: NSUserAgent.RegisterWithAccessGateway
-keywords: NSUserAgent,RegisterWithAccessGateway
+keywords: NSUserAgent, RegisterWithAccessGateway
 so.topic: reference
 ---
 

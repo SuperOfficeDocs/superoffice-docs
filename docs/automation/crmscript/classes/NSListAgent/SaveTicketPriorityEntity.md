@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveTicketPriorityEntity
-description: NSTicketPriorityEntity SaveTicketPriorityEntity(NSTicketPriorityEntity ticketPriorityEntity);
+uid: crmscript_ref_NSListAgent_SaveTicketPriorityEntity
+title: NSTicketPriorityEntity SaveTicketPriorityEntity(NSTicketPriorityEntity ticketPriorityEntity);
 intellisense: NSListAgent.SaveTicketPriorityEntity
-keywords: NSListAgent,SaveTicketPriorityEntity
+keywords: NSListAgent, SaveTicketPriorityEntity
 so.topic: reference
 ---
 	  

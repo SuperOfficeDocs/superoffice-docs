@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionGroup_GetName
-description: String NSArchiveRestrictionGroup.GetName()
+uid: crmscript_ref_NSArchiveRestrictionGroup_GetName
+title: String GetName()
 intellisense: NSArchiveRestrictionGroup.GetName
 keywords: NSArchiveRestrictionGroup, GetName
 so.topic: reference

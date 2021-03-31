@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetUpcomingSales
-description: SaleArray GetUpcomingSales(Integer weightedAmountLimit, Integer count)
+uid: crmscript_ref_NSSaleAgent_GetUpcomingSales
+title: SaleArray GetUpcomingSales(Integer weightedAmountLimit, Integer count)
 intellisense: NSSaleAgent.GetUpcomingSales
-keywords: NSSaleAgent,GetUpcomingSales
+keywords: NSSaleAgent, GetUpcomingSales
 so.topic: reference
 ---
 

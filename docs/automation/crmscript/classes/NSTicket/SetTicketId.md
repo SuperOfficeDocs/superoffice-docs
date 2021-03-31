@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetTicketId
-description: NSTicket.SetTicketId(Integer ticketId)
+uid: crmscript_ref_NSTicket_SetTicketId
+title: SetTicketId(Integer ticketId)
 intellisense: NSTicket.SetTicketId
 keywords: NSTicket, GetTicketId
 so.topic: reference

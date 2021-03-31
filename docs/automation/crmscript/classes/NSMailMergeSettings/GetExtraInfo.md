@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetExtraInfo
-description: String NSMailMergeSettings.GetExtraInfo()
+uid: crmscript_ref_NSMailMergeSettings_GetExtraInfo
+title: String GetExtraInfo()
 intellisense: NSMailMergeSettings.GetExtraInfo
 keywords: NSMailMergeSettings, GetExtraInfo
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetTicketEnabled
-description: Bool NSChatTopicEntity.GetTicketEnabled()
+uid: crmscript_ref_NSChatTopicEntity_GetTicketEnabled
+title: Bool GetTicketEnabled()
 intellisense: NSChatTopicEntity.GetTicketEnabled
 keywords: NSChatTopicEntity, GetTicketEnabled
 so.topic: reference

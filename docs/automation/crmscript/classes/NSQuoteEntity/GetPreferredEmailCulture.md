@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_GetPreferredEmailCulture
-description: String NSQuoteEntity.GetPreferredEmailCulture()
+uid: crmscript_ref_NSQuoteEntity_GetPreferredEmailCulture
+title: String GetPreferredEmailCulture()
 intellisense: NSQuoteEntity.GetPreferredEmailCulture
 keywords: NSQuoteEntity, GetPreferredEmailCulture
 so.topic: reference

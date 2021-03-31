@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetPostFormHeader
-description: String NSChatWidgetSettings.GetPostFormHeader()
+uid: crmscript_ref_NSChatWidgetSettings_GetPostFormHeader
+title: String GetPostFormHeader()
 intellisense: NSChatWidgetSettings.GetPostFormHeader
 keywords: NSChatWidgetSettings, GetPostFormHeader
 so.topic: reference

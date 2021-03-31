@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivityFilter_GetFromDate
-description: DateTime NSActivityFilter.GetFromDate()
+uid: crmscript_ref_NSActivityFilter_GetFromDate
+title: DateTime GetFromDate()
 intellisense: NSActivityFilter.GetFromDate
 keywords: NSActivityFilter, GetFromDate
 so.topic: reference

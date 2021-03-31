@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences_SetSearchDepartment
-description: NSPhoneListPreferences.SetSearchDepartment(Bool searchDepartment)
+uid: crmscript_ref_NSPhoneListPreferences_SetSearchDepartment
+title: SetSearchDepartment(Bool searchDepartment)
 intellisense: NSPhoneListPreferences.SetSearchDepartment
 keywords: NSPhoneListPreferences, GetSearchDepartment
 so.topic: reference

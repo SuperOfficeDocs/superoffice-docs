@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_GetChildItems
-description: MDOListItemArray NSMDOListItem.GetChildItems()
+uid: crmscript_ref_NSMDOListItem_GetChildItems
+title: MDOListItemArray GetChildItems()
 intellisense: NSMDOListItem.GetChildItems
 keywords: NSMDOListItem, GetChildItems
 so.topic: reference

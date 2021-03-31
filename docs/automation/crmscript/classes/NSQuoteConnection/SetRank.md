@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_SetRank
-description: NSQuoteConnection.SetRank(Integer rank)
+uid: crmscript_ref_NSQuoteConnection_SetRank
+title: SetRank(Integer rank)
 intellisense: NSQuoteConnection.SetRank
 keywords: NSQuoteConnection, GetRank
 so.topic: reference

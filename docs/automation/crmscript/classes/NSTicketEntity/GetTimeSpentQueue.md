@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetTimeSpentQueue
-description: Integer NSTicketEntity.GetTimeSpentQueue()
+uid: crmscript_ref_NSTicketEntity_GetTimeSpentQueue
+title: Integer GetTimeSpentQueue()
 intellisense: NSTicketEntity.GetTimeSpentQueue
 keywords: NSTicketEntity, GetTimeSpentQueue
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUpsertRowStatus_SetRowKeys
-description: NSUpsertRowStatus.SetRowKeys(StringArray rowKeys)
+uid: crmscript_ref_NSUpsertRowStatus_SetRowKeys
+title: SetRowKeys(StringArray rowKeys)
 intellisense: NSUpsertRowStatus.SetRowKeys
 keywords: NSUpsertRowStatus, GetRowKeys
 so.topic: reference

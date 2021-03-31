@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveExtAppEntity
-description: NSExtAppEntity SaveExtAppEntity(NSExtAppEntity extAppEntity);
+uid: crmscript_ref_NSListAgent_SaveExtAppEntity
+title: NSExtAppEntity SaveExtAppEntity(NSExtAppEntity extAppEntity);
 intellisense: NSListAgent.SaveExtAppEntity
-keywords: NSListAgent,SaveExtAppEntity
+keywords: NSListAgent, SaveExtAppEntity
 so.topic: reference
 ---
 	  

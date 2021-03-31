@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetDescription
-description: String NSAppointment.GetDescription()
+uid: crmscript_ref_NSAppointment_GetDescription
+title: String GetDescription()
 intellisense: NSAppointment.GetDescription
 keywords: NSAppointment, GetDescription
 so.topic: reference

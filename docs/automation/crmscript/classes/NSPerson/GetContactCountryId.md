@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetContactCountryId
-description: Integer NSPerson.GetContactCountryId()
+uid: crmscript_ref_NSPerson_GetContactCountryId
+title: Integer GetContactCountryId()
 intellisense: NSPerson.GetContactCountryId
 keywords: NSPerson, GetContactCountryId
 so.topic: reference

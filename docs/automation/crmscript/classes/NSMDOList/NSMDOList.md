@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOList
-description: NSMDOList
+uid: crmscript_ref_NSMDOList
+title: NSMDOList
 intellisense: Void.NSMDOList
 keywords: NSMDOList
 so.topic: reference

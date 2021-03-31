@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactActivity_SetPersonId
-description: NSContactActivity.SetPersonId(Integer personId)
+uid: crmscript_ref_NSContactActivity_SetPersonId
+title: SetPersonId(Integer personId)
 intellisense: NSContactActivity.SetPersonId
 keywords: NSContactActivity, GetPersonId
 so.topic: reference

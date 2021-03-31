@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetConfirmationLinesTemplate
-description: Integer NSSaleTypeEntity.GetConfirmationLinesTemplate()
+uid: crmscript_ref_NSSaleTypeEntity_GetConfirmationLinesTemplate
+title: Integer GetConfirmationLinesTemplate()
 intellisense: NSSaleTypeEntity.GetConfirmationLinesTemplate
 keywords: NSSaleTypeEntity, GetConfirmationLinesTemplate
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetSignOffTaskId
-description: Integer NSProjectEventEntity.GetSignOffTaskId()
+uid: crmscript_ref_NSProjectEventEntity_GetSignOffTaskId
+title: Integer GetSignOffTaskId()
 intellisense: NSProjectEventEntity.GetSignOffTaskId
 keywords: NSProjectEventEntity, GetSignOffTaskId
 so.topic: reference

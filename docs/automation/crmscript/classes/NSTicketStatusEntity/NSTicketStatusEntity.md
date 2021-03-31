@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketStatusEntity
-description: NSTicketStatusEntity
+uid: crmscript_ref_NSTicketStatusEntity
+title: NSTicketStatusEntity
 intellisense: Void.NSTicketStatusEntity
 keywords: NSTicketStatusEntity
 so.topic: reference

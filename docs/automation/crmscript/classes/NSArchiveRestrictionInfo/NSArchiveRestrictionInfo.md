@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo
-description: NSArchiveRestrictionInfo
+uid: crmscript_ref_NSArchiveRestrictionInfo
+title: NSArchiveRestrictionInfo
 intellisense: Void.NSArchiveRestrictionInfo
 keywords: NSArchiveRestrictionInfo
 so.topic: reference

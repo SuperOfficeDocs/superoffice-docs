@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetTicket
-description: NSChatSessionEntity.SetTicket(Ticket ticket)
+uid: crmscript_ref_NSChatSessionEntity_SetTicket
+title: SetTicket(Ticket ticket)
 intellisense: NSChatSessionEntity.SetTicket
 keywords: NSChatSessionEntity, GetTicket
 so.topic: reference

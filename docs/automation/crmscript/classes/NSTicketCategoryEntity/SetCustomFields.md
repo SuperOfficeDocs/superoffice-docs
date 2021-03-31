@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_SetCustomFields
-description: NSTicketCategoryEntity.SetCustomFields(Map udefs)
+uid: crmscript_ref_NSTicketCategoryEntity_SetCustomFields
+title: SetCustomFields(Map udefs)
 intellisense: NSTicketCategoryEntity.SetCustomFields
 keywords: NSTicketCategoryEntity, SetCustomFields
 so.topic: reference
 ---
 
-Set the user-defined and extra fields as a map.
+Set the user-defined and extra fields on a TicketCategoryEntity with a map.
 
 **Parameter:** 
  - **udefs** Map user defined field and extra field values encoded as strings.

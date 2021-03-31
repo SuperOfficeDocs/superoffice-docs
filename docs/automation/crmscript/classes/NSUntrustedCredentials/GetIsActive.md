@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUntrustedCredentials_GetIsActive
-description: Bool NSUntrustedCredentials.GetIsActive()
+uid: crmscript_ref_NSUntrustedCredentials_GetIsActive
+title: Bool GetIsActive()
 intellisense: NSUntrustedCredentials.GetIsActive
 keywords: NSUntrustedCredentials, GetIsActive
 so.topic: reference

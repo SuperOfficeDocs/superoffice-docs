@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetCurrentOverdueTotalOwnCurrency
-description: NSSaleSummary.SetCurrentOverdueTotalOwnCurrency(Float currentOverdueTotalOwnCurrency)
+uid: crmscript_ref_NSSaleSummary_SetCurrentOverdueTotalOwnCurrency
+title: SetCurrentOverdueTotalOwnCurrency(Float currentOverdueTotalOwnCurrency)
 intellisense: NSSaleSummary.SetCurrentOverdueTotalOwnCurrency
 keywords: NSSaleSummary, GetCurrentOverdueTotalOwnCurrency
 so.topic: reference

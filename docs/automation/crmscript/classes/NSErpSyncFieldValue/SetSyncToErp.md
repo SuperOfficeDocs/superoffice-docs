@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldValue_SetSyncToErp
-description: NSErpSyncFieldValue.SetSyncToErp(Bool syncToErp)
+uid: crmscript_ref_NSErpSyncFieldValue_SetSyncToErp
+title: SetSyncToErp(Bool syncToErp)
 intellisense: NSErpSyncFieldValue.SetSyncToErp
 keywords: NSErpSyncFieldValue, GetSyncToErp
 so.topic: reference

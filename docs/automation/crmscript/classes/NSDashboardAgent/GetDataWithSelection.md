@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_GetDataWithSelection
-description: TileDataArray GetDataWithSelection(Integer dashboardTileId, Integer selectionId, String restrictions)
+uid: crmscript_ref_NSDashboardAgent_GetDataWithSelection
+title: TileDataArray GetDataWithSelection(Integer dashboardTileId, Integer selectionId, String restrictions)
 intellisense: NSDashboardAgent.GetDataWithSelection
-keywords: NSDashboardAgent,GetDataWithSelection
+keywords: NSDashboardAgent, GetDataWithSelection
 so.topic: reference
 ---
 

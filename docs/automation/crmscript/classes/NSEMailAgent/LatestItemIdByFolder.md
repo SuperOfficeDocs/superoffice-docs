@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_LatestItemIdByFolder
-description: Integer LatestItemIdByFolder(Integer folderId)
+uid: crmscript_ref_NSEMailAgent_LatestItemIdByFolder
+title: Integer LatestItemIdByFolder(Integer folderId)
 intellisense: NSEMailAgent.LatestItemIdByFolder
-keywords: NSEMailAgent,LatestItemIdByFolder
+keywords: NSEMailAgent, LatestItemIdByFolder
 so.topic: reference
 ---
 

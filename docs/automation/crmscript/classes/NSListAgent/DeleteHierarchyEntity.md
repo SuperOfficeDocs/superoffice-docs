@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_DeleteHierarchyEntity
-description: DeleteHierarchyEntity(Integer hierarchyEntity);
+uid: crmscript_ref_NSListAgent_DeleteHierarchyEntity
+title: DeleteHierarchyEntity(Integer hierarchyEntity);
 intellisense: NSListAgent.DeleteHierarchyEntity
-keywords: NSListAgent,DeleteHierarchyEntity
+keywords: NSListAgent, DeleteHierarchyEntity
 so.topic: reference
 ---
 

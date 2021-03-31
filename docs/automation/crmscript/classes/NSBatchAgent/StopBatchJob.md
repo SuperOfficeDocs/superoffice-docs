@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBatchAgent_StopBatchJob
-description: Bool StopBatchJob(Integer id)
+uid: crmscript_ref_NSBatchAgent_StopBatchJob
+title: Bool StopBatchJob(Integer id)
 intellisense: NSBatchAgent.StopBatchJob
-keywords: NSBatchAgent,StopBatchJob
+keywords: NSBatchAgent, StopBatchJob
 so.topic: reference
 ---
 

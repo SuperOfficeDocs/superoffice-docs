@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSystemEventEntity_GetEventmess
-description: String NSSystemEventEntity.GetEventmess()
+uid: crmscript_ref_NSSystemEventEntity_GetEventmess
+title: String GetEventmess()
 intellisense: NSSystemEventEntity.GetEventmess
 keywords: NSSystemEventEntity, GetEventmess
 so.topic: reference

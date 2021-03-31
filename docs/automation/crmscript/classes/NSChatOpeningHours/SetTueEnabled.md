@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_SetTueEnabled
-description: NSChatOpeningHours.SetTueEnabled(Bool tueEnabled)
+uid: crmscript_ref_NSChatOpeningHours_SetTueEnabled
+title: SetTueEnabled(Bool tueEnabled)
 intellisense: NSChatOpeningHours.SetTueEnabled
 keywords: NSChatOpeningHours, GetTueEnabled
 so.topic: reference

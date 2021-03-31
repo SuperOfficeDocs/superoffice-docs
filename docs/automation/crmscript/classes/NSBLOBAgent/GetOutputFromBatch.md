@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetOutputFromBatch
-description: Stream GetOutputFromBatch(Integer batchTaskId)
+uid: crmscript_ref_NSBLOBAgent_GetOutputFromBatch
+title: Stream GetOutputFromBatch(Integer batchTaskId)
 intellisense: NSBLOBAgent.GetOutputFromBatch
-keywords: NSBLOBAgent,GetOutputFromBatch
+keywords: NSBLOBAgent, GetOutputFromBatch
 so.topic: reference
 ---
 

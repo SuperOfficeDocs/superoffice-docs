@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOutgoingMessage_SetSuggestedSessionKey
-description: NSOutgoingMessage.SetSuggestedSessionKey(String suggestedSessionKey)
+uid: crmscript_ref_NSOutgoingMessage_SetSuggestedSessionKey
+title: SetSuggestedSessionKey(String suggestedSessionKey)
 intellisense: NSOutgoingMessage.SetSuggestedSessionKey
 keywords: NSOutgoingMessage, GetSuggestedSessionKey
 so.topic: reference

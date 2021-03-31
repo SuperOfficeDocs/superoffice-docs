@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_DeclineInvitationFromEmailItem
-description: Void DeclineInvitationFromEmailItem(Integer emailItemId, String rejectReason)
+uid: crmscript_ref_NSAppointmentAgent_DeclineInvitationFromEmailItem
+title: Void DeclineInvitationFromEmailItem(Integer emailItemId, String rejectReason)
 intellisense: NSAppointmentAgent.DeclineInvitationFromEmailItem
-keywords: NSAppointmentAgent,DeclineInvitationFromEmailItem
+keywords: NSAppointmentAgent, DeclineInvitationFromEmailItem
 so.topic: reference
 ---
 

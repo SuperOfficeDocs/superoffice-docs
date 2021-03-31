@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetEmailName
-description: String NSPerson.GetEmailName()
+uid: crmscript_ref_NSPerson_GetEmailName
+title: String GetEmailName()
 intellisense: NSPerson.GetEmailName
 keywords: NSPerson, GetEmailName
 so.topic: reference

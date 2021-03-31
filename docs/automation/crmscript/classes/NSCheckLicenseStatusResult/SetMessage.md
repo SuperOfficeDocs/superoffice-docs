@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCheckLicenseStatusResult_SetMessage
-description: NSCheckLicenseStatusResult.SetMessage(String message)
+uid: crmscript_ref_NSCheckLicenseStatusResult_SetMessage
+title: SetMessage(String message)
 intellisense: NSCheckLicenseStatusResult.SetMessage
 keywords: NSCheckLicenseStatusResult, GetMessage
 so.topic: reference

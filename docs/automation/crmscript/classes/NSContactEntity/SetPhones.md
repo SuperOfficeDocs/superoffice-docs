@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetPhones
-description: NSContactEntity.SetPhones(EntityElementArray phones)
+uid: crmscript_ref_NSContactEntity_SetPhones
+title: SetPhones(EntityElementArray phones)
 intellisense: NSContactEntity.SetPhones
 keywords: NSContactEntity, GetPhones
 so.topic: reference

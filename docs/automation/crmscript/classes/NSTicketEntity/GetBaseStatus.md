@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetBaseStatus
-description: TicketBaseStatus NSTicketEntity.GetBaseStatus()
+uid: crmscript_ref_NSTicketEntity_GetBaseStatus
+title: TicketBaseStatus GetBaseStatus()
 intellisense: NSTicketEntity.GetBaseStatus
 keywords: NSTicketEntity, GetBaseStatus
 so.topic: reference

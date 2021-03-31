@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_SetProjectNumber
-description: NSProjectEntity.SetProjectNumber(String projectNumber)
+uid: crmscript_ref_NSProjectEntity_SetProjectNumber
+title: SetProjectNumber(String projectNumber)
 intellisense: NSProjectEntity.SetProjectNumber
 keywords: NSProjectEntity, GetProjectNumber
 so.topic: reference

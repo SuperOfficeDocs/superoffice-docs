@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetKeyValue
-description: String GetKeyValue(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
+uid: crmscript_ref_NSForeignSystemAgent_GetKeyValue
+title: String GetKeyValue(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
 intellisense: NSForeignSystemAgent.GetKeyValue
-keywords: NSForeignSystemAgent,GetKeyValue
+keywords: NSForeignSystemAgent, GetKeyValue
 so.topic: reference
 ---
 

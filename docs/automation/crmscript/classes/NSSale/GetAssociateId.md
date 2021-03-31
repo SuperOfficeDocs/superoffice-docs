@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_GetAssociateId
-description: Integer NSSale.GetAssociateId()
+uid: crmscript_ref_NSSale_GetAssociateId
+title: Integer GetAssociateId()
 intellisense: NSSale.GetAssociateId
 keywords: NSSale, GetAssociateId
 so.topic: reference

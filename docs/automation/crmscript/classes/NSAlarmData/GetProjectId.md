@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetProjectId
-description: Integer NSAlarmData.GetProjectId()
+uid: crmscript_ref_NSAlarmData_GetProjectId
+title: Integer GetProjectId()
 intellisense: NSAlarmData.GetProjectId
 keywords: NSAlarmData, GetProjectId
 so.topic: reference

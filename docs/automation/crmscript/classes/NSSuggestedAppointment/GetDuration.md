@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_GetDuration
-description: Integer NSSuggestedAppointment.GetDuration()
+uid: crmscript_ref_NSSuggestedAppointment_GetDuration
+title: Integer GetDuration()
 intellisense: NSSuggestedAppointment.GetDuration
 keywords: NSSuggestedAppointment, GetDuration
 so.topic: reference

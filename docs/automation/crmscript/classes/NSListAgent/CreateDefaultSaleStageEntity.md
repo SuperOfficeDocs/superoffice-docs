@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultSaleStageEntity
-description: NSSaleStageEntity CreateDefaultSaleStageEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultSaleStageEntity
+title: NSSaleStageEntity CreateDefaultSaleStageEntity()
 intellisense: NSListAgent.CreateDefaultSaleStageEntity
-keywords: NSListAgent,CreateDefaultSaleStageEntity
+keywords: NSListAgent, CreateDefaultSaleStageEntity
 so.topic: reference
 ---
 	  

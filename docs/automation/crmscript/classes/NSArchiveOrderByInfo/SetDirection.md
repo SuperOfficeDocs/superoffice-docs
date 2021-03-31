@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveOrderByInfo_SetDirection
-description: NSArchiveOrderByInfo.SetDirection(Integer direction)
+uid: crmscript_ref_NSArchiveOrderByInfo_SetDirection
+title: SetDirection(Integer direction)
 intellisense: NSArchiveOrderByInfo.SetDirection
 keywords: NSArchiveOrderByInfo, GetDirection
 so.topic: reference

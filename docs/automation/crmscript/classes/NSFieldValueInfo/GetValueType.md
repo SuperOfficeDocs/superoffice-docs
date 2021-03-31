@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_GetValueType
-description: String NSFieldValueInfo.GetValueType()
+uid: crmscript_ref_NSFieldValueInfo_GetValueType
+title: String GetValueType()
 intellisense: NSFieldValueInfo.GetValueType
 keywords: NSFieldValueInfo, GetValueType
 so.topic: reference

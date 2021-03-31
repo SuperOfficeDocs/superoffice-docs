@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_GetShopUrl
-description: String GetShopUrl(String ownerName)
+uid: crmscript_ref_NSLicenseAgent_GetShopUrl
+title: String GetShopUrl(String ownerName)
 intellisense: NSLicenseAgent.GetShopUrl
-keywords: NSLicenseAgent,GetShopUrl
+keywords: NSLicenseAgent, GetShopUrl
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_CreateDefaultErpSyncConnectorEntity
-description: NSErpSyncConnectorEntity CreateDefaultErpSyncConnectorEntity()
+uid: crmscript_ref_NSErpSyncAgent_CreateDefaultErpSyncConnectorEntity
+title: NSErpSyncConnectorEntity CreateDefaultErpSyncConnectorEntity()
 intellisense: NSErpSyncAgent.CreateDefaultErpSyncConnectorEntity
-keywords: NSErpSyncAgent,CreateDefaultErpSyncConnectorEntity
+keywords: NSErpSyncAgent, CreateDefaultErpSyncConnectorEntity
 so.topic: reference
 ---
 	  

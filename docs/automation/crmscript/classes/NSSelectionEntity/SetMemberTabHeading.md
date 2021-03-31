@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetMemberTabHeading
-description: NSSelectionEntity.SetMemberTabHeading(String memberTabHeading)
+uid: crmscript_ref_NSSelectionEntity_SetMemberTabHeading
+title: SetMemberTabHeading(String memberTabHeading)
 intellisense: NSSelectionEntity.SetMemberTabHeading
 keywords: NSSelectionEntity, GetMemberTabHeading
 so.topic: reference

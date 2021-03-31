@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginUrlResponse_SetIsOk
-description: NSPluginUrlResponse.SetIsOk(Bool isOk)
+uid: crmscript_ref_NSPluginUrlResponse_SetIsOk
+title: SetIsOk(Bool isOk)
 intellisense: NSPluginUrlResponse.SetIsOk
 keywords: NSPluginUrlResponse, GetIsOk
 so.topic: reference

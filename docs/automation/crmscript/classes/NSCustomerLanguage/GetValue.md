@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSCustomerLanguage_GetValue
-description: String NSCustomerLanguage.GetValue()
+uid: crmscript_ref_NSCustomerLanguage_GetValue
+title: String GetValue()
 intellisense: NSCustomerLanguage.GetValue
 keywords: NSCustomerLanguage, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the CustomerLanguage.
 
-**Returns:** String name
+**Returns:** String CustomerLanguage name.
 

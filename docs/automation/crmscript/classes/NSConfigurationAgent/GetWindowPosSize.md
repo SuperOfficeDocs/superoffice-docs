@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetWindowPosSize
-description: NSWindowPosSize GetWindowPosSize(Integer windowPosSizeId);
+uid: crmscript_ref_NSConfigurationAgent_GetWindowPosSize
+title: NSWindowPosSize GetWindowPosSize(Integer windowPosSizeId);
 intellisense: NSConfigurationAgent.GetWindowPosSize
-keywords: NSConfigurationAgent,GetWindowPosSize
+keywords: NSConfigurationAgent, GetWindowPosSize
 so.topic: reference
 ---
 

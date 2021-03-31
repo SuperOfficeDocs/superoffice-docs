@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_SetSaleId
-description: NSAppointmentSyncData.SetSaleId(Integer saleId)
+uid: crmscript_ref_NSAppointmentSyncData_SetSaleId
+title: SetSaleId(Integer saleId)
 intellisense: NSAppointmentSyncData.SetSaleId
 keywords: NSAppointmentSyncData, GetSaleId
 so.topic: reference

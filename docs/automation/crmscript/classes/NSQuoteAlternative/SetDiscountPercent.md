@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_SetDiscountPercent
-description: NSQuoteAlternative.SetDiscountPercent(Float discountPercent)
+uid: crmscript_ref_NSQuoteAlternative_SetDiscountPercent
+title: SetDiscountPercent(Float discountPercent)
 intellisense: NSQuoteAlternative.SetDiscountPercent
 keywords: NSQuoteAlternative, GetDiscountPercent
 so.topic: reference

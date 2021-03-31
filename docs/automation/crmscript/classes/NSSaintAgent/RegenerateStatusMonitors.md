@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_RegenerateStatusMonitors
-description: BatchTaskInfo RegenerateStatusMonitors(Bool runAsBatch)
+uid: crmscript_ref_NSSaintAgent_RegenerateStatusMonitors
+title: BatchTaskInfo RegenerateStatusMonitors(Bool runAsBatch)
 intellisense: NSSaintAgent.RegenerateStatusMonitors
-keywords: NSSaintAgent,RegenerateStatusMonitors
+keywords: NSSaintAgent, RegenerateStatusMonitors
 so.topic: reference
 ---
 

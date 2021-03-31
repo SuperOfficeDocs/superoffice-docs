@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_SetAccessKey
-description: NSShipmentMessageEntity.SetAccessKey(String accessKey)
+uid: crmscript_ref_NSShipmentMessageEntity_SetAccessKey
+title: SetAccessKey(String accessKey)
 intellisense: NSShipmentMessageEntity.SetAccessKey
 keywords: NSShipmentMessageEntity, GetAccessKey
 so.topic: reference

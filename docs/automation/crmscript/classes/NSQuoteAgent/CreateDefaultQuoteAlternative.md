@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CreateDefaultQuoteAlternative
-description: NSQuoteAlternative CreateDefaultQuoteAlternative()
+uid: crmscript_ref_NSQuoteAgent_CreateDefaultQuoteAlternative
+title: NSQuoteAlternative CreateDefaultQuoteAlternative()
 intellisense: NSQuoteAgent.CreateDefaultQuoteAlternative
-keywords: NSQuoteAgent,CreateDefaultQuoteAlternative
+keywords: NSQuoteAgent, CreateDefaultQuoteAlternative
 so.topic: reference
 ---
 	  

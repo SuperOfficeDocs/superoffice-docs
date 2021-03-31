@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetShipmentMessageId
-description: Integer NSShipmentMessageEntity.GetShipmentMessageId()
+uid: crmscript_ref_NSShipmentMessageEntity_GetShipmentMessageId
+title: Integer GetShipmentMessageId()
 intellisense: NSShipmentMessageEntity.GetShipmentMessageId
 keywords: NSShipmentMessageEntity, GetShipmentMessageId
 so.topic: reference

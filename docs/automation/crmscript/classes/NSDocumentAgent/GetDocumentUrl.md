@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetDocumentUrl
-description: String GetDocumentUrl(Integer documentId, String versionId, Bool writeableUrl)
+uid: crmscript_ref_NSDocumentAgent_GetDocumentUrl
+title: String GetDocumentUrl(Integer documentId, String versionId, Bool writeableUrl)
 intellisense: NSDocumentAgent.GetDocumentUrl
-keywords: NSDocumentAgent,GetDocumentUrl
+keywords: NSDocumentAgent, GetDocumentUrl
 so.topic: reference
 ---
 

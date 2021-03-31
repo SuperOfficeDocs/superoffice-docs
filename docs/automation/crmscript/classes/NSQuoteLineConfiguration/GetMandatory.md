@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLineConfiguration_GetMandatory
-description: Bool NSQuoteLineConfiguration.GetMandatory()
+uid: crmscript_ref_NSQuoteLineConfiguration_GetMandatory
+title: Bool GetMandatory()
 intellisense: NSQuoteLineConfiguration.GetMandatory
 keywords: NSQuoteLineConfiguration, GetMandatory
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialsGroupUsers_SetHeadings
-description: NSCredentialsGroupUsers.SetHeadings(StringArray headings)
+uid: crmscript_ref_NSCredentialsGroupUsers_SetHeadings
+title: SetHeadings(StringArray headings)
 intellisense: NSCredentialsGroupUsers.SetHeadings
 keywords: NSCredentialsGroupUsers, GetHeadings
 so.topic: reference

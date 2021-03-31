@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetDeadline
-description: NSTicketPriorityEntity.SetDeadline(Integer deadline)
+uid: crmscript_ref_NSTicketPriorityEntity_SetDeadline
+title: SetDeadline(Integer deadline)
 intellisense: NSTicketPriorityEntity.SetDeadline
 keywords: NSTicketPriorityEntity, GetDeadline
 so.topic: reference

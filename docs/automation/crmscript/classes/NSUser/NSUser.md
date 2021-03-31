@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser
-description: NSUser
+uid: crmscript_ref_NSUser
+title: NSUser
 intellisense: Void.NSUser
 keywords: NSUser
 so.topic: reference

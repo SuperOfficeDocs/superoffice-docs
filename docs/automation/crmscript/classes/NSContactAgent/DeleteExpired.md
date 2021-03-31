@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_DeleteExpired
-description: Void DeleteExpired()
+uid: crmscript_ref_NSContactAgent_DeleteExpired
+title: Void DeleteExpired()
 intellisense: NSContactAgent.DeleteExpired
-keywords: NSContactAgent,DeleteExpired
+keywords: NSContactAgent, DeleteExpired
 so.topic: reference
 ---
 

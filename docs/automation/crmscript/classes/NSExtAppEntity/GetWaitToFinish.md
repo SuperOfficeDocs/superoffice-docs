@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetWaitToFinish
-description: Bool NSExtAppEntity.GetWaitToFinish()
+uid: crmscript_ref_NSExtAppEntity_GetWaitToFinish
+title: Bool GetWaitToFinish()
 intellisense: NSExtAppEntity.GetWaitToFinish
 keywords: NSExtAppEntity, GetWaitToFinish
 so.topic: reference

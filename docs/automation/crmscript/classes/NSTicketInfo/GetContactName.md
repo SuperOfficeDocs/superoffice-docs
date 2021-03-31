@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketInfo_GetContactName
-description: String NSTicketInfo.GetContactName()
+uid: crmscript_ref_NSTicketInfo_GetContactName
+title: String GetContactName()
 intellisense: NSTicketInfo.GetContactName
 keywords: NSTicketInfo, GetContactName
 so.topic: reference

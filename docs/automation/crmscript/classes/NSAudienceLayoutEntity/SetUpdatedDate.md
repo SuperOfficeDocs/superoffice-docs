@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceLayoutEntity_SetUpdatedDate
-description: NSAudienceLayoutEntity.SetUpdatedDate(DateTime updatedDate)
+uid: crmscript_ref_NSAudienceLayoutEntity_SetUpdatedDate
+title: SetUpdatedDate(DateTime updatedDate)
 intellisense: NSAudienceLayoutEntity.SetUpdatedDate
 keywords: NSAudienceLayoutEntity, GetUpdatedDate
 so.topic: reference

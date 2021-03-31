@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_GetSignOffTriggersAssign
-description: Bool NSProjectEvent.GetSignOffTriggersAssign()
+uid: crmscript_ref_NSProjectEvent_GetSignOffTriggersAssign
+title: Bool GetSignOffTriggersAssign()
 intellisense: NSProjectEvent.GetSignOffTriggersAssign
 keywords: NSProjectEvent, GetSignOffTriggersAssign
 so.topic: reference

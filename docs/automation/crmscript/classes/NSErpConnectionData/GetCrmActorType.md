@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionData_GetCrmActorType
-description: Integer NSErpConnectionData.GetCrmActorType()
+uid: crmscript_ref_NSErpConnectionData_GetCrmActorType
+title: Integer GetCrmActorType()
 intellisense: NSErpConnectionData.GetCrmActorType
 keywords: NSErpConnectionData, GetCrmActorType
 so.topic: reference

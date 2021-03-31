@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_SetSelectionId
-description: NSMailMergeSettings.SetSelectionId(Integer selectionId)
+uid: crmscript_ref_NSMailMergeSettings_SetSelectionId
+title: SetSelectionId(Integer selectionId)
 intellisense: NSMailMergeSettings.SetSelectionId
 keywords: NSMailMergeSettings, GetSelectionId
 so.topic: reference

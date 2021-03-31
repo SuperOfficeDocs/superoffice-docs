@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetUnsanitizedEMailFromDocumentAttachmentId
-description: EMailEntity GetUnsanitizedEMailFromDocumentAttachmentId(Integer docId, StringArray attachmentIds, Bool includeAttachments)
+uid: crmscript_ref_NSEMailAgent_GetUnsanitizedEMailFromDocumentAttachmentId
+title: EMailEntity GetUnsanitizedEMailFromDocumentAttachmentId(Integer docId, StringArray attachmentIds, Bool includeAttachments)
 intellisense: NSEMailAgent.GetUnsanitizedEMailFromDocumentAttachmentId
-keywords: NSEMailAgent,GetUnsanitizedEMailFromDocumentAttachmentId
+keywords: NSEMailAgent, GetUnsanitizedEMailFromDocumentAttachmentId
 so.topic: reference
 ---
 

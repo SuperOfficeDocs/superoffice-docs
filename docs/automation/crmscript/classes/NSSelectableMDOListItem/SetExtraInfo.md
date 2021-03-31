@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetExtraInfo
-description: NSSelectableMDOListItem.SetExtraInfo(String extraInfo)
+uid: crmscript_ref_NSSelectableMDOListItem_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
 intellisense: NSSelectableMDOListItem.SetExtraInfo
 keywords: NSSelectableMDOListItem, GetExtraInfo
 so.topic: reference

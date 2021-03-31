@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_GetInputValues
-description: StringDictionary NSEventData.GetInputValues()
+uid: crmscript_ref_NSEventData_GetInputValues
+title: StringDictionary GetInputValues()
 intellisense: NSEventData.GetInputValues
 keywords: NSEventData, GetInputValues
 so.topic: reference

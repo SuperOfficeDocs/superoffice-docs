@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_ResyncUsers
-description: Void ResyncUsers()
+uid: crmscript_ref_NSDiagnosticsAgent_ResyncUsers
+title: Void ResyncUsers()
 intellisense: NSDiagnosticsAgent.ResyncUsers
-keywords: NSDiagnosticsAgent,ResyncUsers
+keywords: NSDiagnosticsAgent, ResyncUsers
 so.topic: reference
 ---
 

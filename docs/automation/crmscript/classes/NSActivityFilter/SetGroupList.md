@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivityFilter_SetGroupList
-description: NSActivityFilter.SetGroupList(SelectableMDOListItemArray groupList)
+uid: crmscript_ref_NSActivityFilter_SetGroupList
+title: SetGroupList(SelectableMDOListItemArray groupList)
 intellisense: NSActivityFilter.SetGroupList
 keywords: NSActivityFilter, GetGroupList
 so.topic: reference

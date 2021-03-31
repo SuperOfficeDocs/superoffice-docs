@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_SetRecaptchaMode
-description: NSFormEntity.SetRecaptchaMode(Integer recaptchaMode)
+uid: crmscript_ref_NSFormEntity_SetRecaptchaMode
+title: SetRecaptchaMode(Integer recaptchaMode)
 intellisense: NSFormEntity.SetRecaptchaMode
 keywords: NSFormEntity, GetRecaptchaMode
 so.topic: reference

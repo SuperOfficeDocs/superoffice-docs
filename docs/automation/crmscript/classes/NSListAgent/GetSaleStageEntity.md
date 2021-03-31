@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetSaleStageEntity
-description: NSSaleStageEntity GetSaleStageEntity(Integer saleStageEntityId);
+uid: crmscript_ref_NSListAgent_GetSaleStageEntity
+title: NSSaleStageEntity GetSaleStageEntity(Integer saleStageEntityId);
 intellisense: NSListAgent.GetSaleStageEntity
-keywords: NSListAgent,GetSaleStageEntity
+keywords: NSListAgent, GetSaleStageEntity
 so.topic: reference
 ---
 

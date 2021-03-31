@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistory_SetId
-description: NSHistory.SetId(Integer id)
+uid: crmscript_ref_NSHistory_SetId
+title: SetId(Integer id)
 intellisense: NSHistory.SetId
 keywords: NSHistory, GetId
 so.topic: reference

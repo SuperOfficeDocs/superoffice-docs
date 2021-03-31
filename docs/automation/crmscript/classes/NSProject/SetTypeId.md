@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_SetTypeId
-description: NSProject.SetTypeId(Integer typeId)
+uid: crmscript_ref_NSProject_SetTypeId
+title: SetTypeId(Integer typeId)
 intellisense: NSProject.SetTypeId
 keywords: NSProject, GetTypeId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetExpires
-description: DateTime NSFormEntity.GetExpires()
+uid: crmscript_ref_NSFormEntity_GetExpires
+title: DateTime GetExpires()
 intellisense: NSFormEntity.GetExpires
 keywords: NSFormEntity, GetExpires
 so.topic: reference

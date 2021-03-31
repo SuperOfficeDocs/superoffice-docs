@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_SetRank
-description: NSFieldMetadata.SetRank(Integer rank)
+uid: crmscript_ref_NSFieldMetadata_SetRank
+title: SetRank(Integer rank)
 intellisense: NSFieldMetadata.SetRank
 keywords: NSFieldMetadata, GetRank
 so.topic: reference

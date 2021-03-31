@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncConnectionSummary
-description: NSErpSyncConnectionSummary
+uid: crmscript_ref_NSErpSyncConnectionSummary
+title: NSErpSyncConnectionSummary
 intellisense: Void.NSErpSyncConnectionSummary
 keywords: NSErpSyncConnectionSummary
 so.topic: reference

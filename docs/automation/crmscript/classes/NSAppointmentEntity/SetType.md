@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetType
-description: NSAppointmentEntity.SetType(Integer type)
+uid: crmscript_ref_NSAppointmentEntity_SetType
+title: SetType(Integer type)
 intellisense: NSAppointmentEntity.SetType
 keywords: NSAppointmentEntity, GetType
 so.topic: reference

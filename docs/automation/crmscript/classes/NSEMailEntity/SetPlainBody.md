@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetPlainBody
-description: NSEMailEntity.SetPlainBody(String plainBody)
+uid: crmscript_ref_NSEMailEntity_SetPlainBody
+title: SetPlainBody(String plainBody)
 intellisense: NSEMailEntity.SetPlainBody
 keywords: NSEMailEntity, GetPlainBody
 so.topic: reference

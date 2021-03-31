@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_ChangeEngineStatus
-description: ErpSyncEngineStatus ChangeEngineStatus(Bool run)
+uid: crmscript_ref_NSErpSyncAgent_ChangeEngineStatus
+title: ErpSyncEngineStatus ChangeEngineStatus(Bool run)
 intellisense: NSErpSyncAgent.ChangeEngineStatus
-keywords: NSErpSyncAgent,ChangeEngineStatus
+keywords: NSErpSyncAgent, ChangeEngineStatus
 so.topic: reference
 ---
 

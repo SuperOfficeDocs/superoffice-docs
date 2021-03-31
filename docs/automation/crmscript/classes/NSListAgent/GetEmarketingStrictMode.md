@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetEmarketingStrictMode
-description: Bool GetEmarketingStrictMode()
+uid: crmscript_ref_NSListAgent_GetEmarketingStrictMode
+title: Bool GetEmarketingStrictMode()
 intellisense: NSListAgent.GetEmarketingStrictMode
-keywords: NSListAgent,GetEmarketingStrictMode
+keywords: NSListAgent, GetEmarketingStrictMode
 so.topic: reference
 ---
 

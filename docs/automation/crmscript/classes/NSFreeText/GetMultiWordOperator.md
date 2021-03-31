@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFreeText_GetMultiWordOperator
-description: Integer NSFreeText.GetMultiWordOperator()
+uid: crmscript_ref_NSFreeText_GetMultiWordOperator
+title: Integer GetMultiWordOperator()
 intellisense: NSFreeText.GetMultiWordOperator
 keywords: NSFreeText, GetMultiWordOperator
 so.topic: reference

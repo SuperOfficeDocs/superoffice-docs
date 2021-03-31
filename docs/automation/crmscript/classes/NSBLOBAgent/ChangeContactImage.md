@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_ChangeContactImage
-description: Void ChangeContactImage(Integer contactId, Integer blobId)
+uid: crmscript_ref_NSBLOBAgent_ChangeContactImage
+title: Void ChangeContactImage(Integer contactId, Integer blobId)
 intellisense: NSBLOBAgent.ChangeContactImage
-keywords: NSBLOBAgent,ChangeContactImage
+keywords: NSBLOBAgent, ChangeContactImage
 so.topic: reference
 ---
 

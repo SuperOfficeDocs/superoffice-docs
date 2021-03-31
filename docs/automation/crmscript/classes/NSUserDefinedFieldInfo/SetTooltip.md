@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetTooltip
-description: NSUserDefinedFieldInfo.SetTooltip(String tooltip)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSUserDefinedFieldInfo.SetTooltip
 keywords: NSUserDefinedFieldInfo, GetTooltip
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetItemNumber
-description: NSProduct.SetItemNumber(String itemNumber)
+uid: crmscript_ref_NSProduct_SetItemNumber
+title: SetItemNumber(String itemNumber)
 intellisense: NSProduct.SetItemNumber
 keywords: NSProduct, GetItemNumber
 so.topic: reference

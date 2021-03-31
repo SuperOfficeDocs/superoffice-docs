@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent
-description: NSMDOAgent
+uid: crmscript_ref_NSMDOAgent
+title: NSMDOAgent
 intellisense: Void.NSMDOAgent
 keywords: NSMDOAgent
 so.topic: reference

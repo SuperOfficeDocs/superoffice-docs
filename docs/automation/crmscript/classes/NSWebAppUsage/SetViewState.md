@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebAppUsage_SetViewState
-description: NSWebAppUsage.SetViewState(String viewState)
+uid: crmscript_ref_NSWebAppUsage_SetViewState
+title: SetViewState(String viewState)
 intellisense: NSWebAppUsage.SetViewState
 keywords: NSWebAppUsage, GetViewState
 so.topic: reference

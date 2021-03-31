@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerCenterConfig_GetType
-description: Integer NSCustomerCenterConfig.GetType()
+uid: crmscript_ref_NSCustomerCenterConfig_GetType
+title: Integer GetType()
 intellisense: NSCustomerCenterConfig.GetType
 keywords: NSCustomerCenterConfig, GetType
 so.topic: reference

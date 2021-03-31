@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetQuantity
-description: NSQuoteLine.SetQuantity(Float quantity)
+uid: crmscript_ref_NSQuoteLine_SetQuantity
+title: SetQuantity(Float quantity)
 intellisense: NSQuoteLine.SetQuantity
 keywords: NSQuoteLine, GetQuantity
 so.topic: reference

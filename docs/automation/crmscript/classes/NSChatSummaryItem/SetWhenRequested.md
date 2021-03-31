@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSummaryItem_SetWhenRequested
-description: NSChatSummaryItem.SetWhenRequested(DateTime whenRequested)
+uid: crmscript_ref_NSChatSummaryItem_SetWhenRequested
+title: SetWhenRequested(DateTime whenRequested)
 intellisense: NSChatSummaryItem.SetWhenRequested
 keywords: NSChatSummaryItem, GetWhenRequested
 so.topic: reference

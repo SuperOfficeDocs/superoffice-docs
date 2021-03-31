@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent
-description: NSQuoteAgent
+uid: crmscript_ref_NSQuoteAgent
+title: NSQuoteAgent
 intellisense: Void.NSQuoteAgent
 keywords: NSQuoteAgent
 so.topic: reference

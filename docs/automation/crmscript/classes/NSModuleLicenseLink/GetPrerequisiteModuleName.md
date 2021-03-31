@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicenseLink_GetPrerequisiteModuleName
-description: String NSModuleLicenseLink.GetPrerequisiteModuleName()
+uid: crmscript_ref_NSModuleLicenseLink_GetPrerequisiteModuleName
+title: String GetPrerequisiteModuleName()
 intellisense: NSModuleLicenseLink.GetPrerequisiteModuleName
 keywords: NSModuleLicenseLink, GetPrerequisiteModuleName
 so.topic: reference

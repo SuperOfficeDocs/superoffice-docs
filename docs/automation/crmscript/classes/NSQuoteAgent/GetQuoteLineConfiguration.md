@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetQuoteLineConfiguration
-description: QuoteLineConfiguration GetQuoteLineConfiguration(Integer quoteLineConfigurationId)
+uid: crmscript_ref_NSQuoteAgent_GetQuoteLineConfiguration
+title: QuoteLineConfiguration GetQuoteLineConfiguration(Integer quoteLineConfigurationId)
 intellisense: NSQuoteAgent.GetQuoteLineConfiguration
-keywords: NSQuoteAgent,GetQuoteLineConfiguration
+keywords: NSQuoteAgent, GetQuoteLineConfiguration
 so.topic: reference
 ---
 

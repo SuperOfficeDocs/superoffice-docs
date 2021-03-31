@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_CreateDefaultRecurrenceByDate
-description: RecurrenceInfo CreateDefaultRecurrenceByDate(DateTime startDate)
+uid: crmscript_ref_NSAppointmentAgent_CreateDefaultRecurrenceByDate
+title: RecurrenceInfo CreateDefaultRecurrenceByDate(DateTime startDate)
 intellisense: NSAppointmentAgent.CreateDefaultRecurrenceByDate
-keywords: NSAppointmentAgent,CreateDefaultRecurrenceByDate
+keywords: NSAppointmentAgent, CreateDefaultRecurrenceByDate
 so.topic: reference
 ---
 

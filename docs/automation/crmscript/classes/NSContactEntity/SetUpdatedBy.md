@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetUpdatedBy
-description: NSContactEntity.SetUpdatedBy(Associate updatedBy)
+uid: crmscript_ref_NSContactEntity_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
 intellisense: NSContactEntity.SetUpdatedBy
 keywords: NSContactEntity, GetUpdatedBy
 so.topic: reference

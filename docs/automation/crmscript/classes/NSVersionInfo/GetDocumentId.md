@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVersionInfo_GetDocumentId
-description: Integer NSVersionInfo.GetDocumentId()
+uid: crmscript_ref_NSVersionInfo_GetDocumentId
+title: Integer GetDocumentId()
 intellisense: NSVersionInfo.GetDocumentId
 keywords: NSVersionInfo, GetDocumentId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCommandInfo_GetIconHint
-description: String NSCommandInfo.GetIconHint()
+uid: crmscript_ref_NSCommandInfo_GetIconHint
+title: String GetIconHint()
 intellisense: NSCommandInfo.GetIconHint
 keywords: NSCommandInfo, GetIconHint
 so.topic: reference

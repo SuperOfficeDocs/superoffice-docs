@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBool_SetDefaultValue
-description: NSFieldInfoBool.SetDefaultValue(Bool defaultValue)
+uid: crmscript_ref_NSFieldInfoBool_SetDefaultValue
+title: SetDefaultValue(Bool defaultValue)
 intellisense: NSFieldInfoBool.SetDefaultValue
 keywords: NSFieldInfoBool, GetDefaultValue
 so.topic: reference

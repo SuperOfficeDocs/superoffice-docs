@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactSummary_GetChats
-description: ChatSummaryItemArray NSContactSummary.GetChats()
+uid: crmscript_ref_NSContactSummary_GetChats
+title: ChatSummaryItemArray GetChats()
 intellisense: NSContactSummary.GetChats
 keywords: NSContactSummary, GetChats
 so.topic: reference

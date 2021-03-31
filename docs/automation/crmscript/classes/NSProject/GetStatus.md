@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_GetStatus
-description: String NSProject.GetStatus()
+uid: crmscript_ref_NSProject_GetStatus
+title: String GetStatus()
 intellisense: NSProject.GetStatus
 keywords: NSProject, GetStatus
 so.topic: reference

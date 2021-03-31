@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFavourite_SetAssociateId
-description: NSFavourite.SetAssociateId(Integer associateId)
+uid: crmscript_ref_NSFavourite_SetAssociateId
+title: SetAssociateId(Integer associateId)
 intellisense: NSFavourite.SetAssociateId
 keywords: NSFavourite, GetAssociateId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetActive
-description: Bool NSFormEntity.GetActive()
+uid: crmscript_ref_NSFormEntity_GetActive
+title: Bool GetActive()
 intellisense: NSFormEntity.GetActive
 keywords: NSFormEntity, GetActive
 so.topic: reference

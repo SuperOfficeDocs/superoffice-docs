@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetMyOwner
-description: Person GetMyOwner()
+uid: crmscript_ref_NSPersonAgent_GetMyOwner
+title: Person GetMyOwner()
 intellisense: NSPersonAgent.GetMyOwner
-keywords: NSPersonAgent,GetMyOwner
+keywords: NSPersonAgent, GetMyOwner
 so.topic: reference
 ---
 

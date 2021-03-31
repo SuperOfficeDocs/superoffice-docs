@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetPrivate
-description: Integer NSAppointmentEntity.GetPrivate()
+uid: crmscript_ref_NSAppointmentEntity_GetPrivate
+title: Integer GetPrivate()
 intellisense: NSAppointmentEntity.GetPrivate
 keywords: NSAppointmentEntity, GetPrivate
 so.topic: reference

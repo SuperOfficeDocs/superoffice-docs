@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactOrPersonFromEmail_GetEmailAddress
-description: String NSContactOrPersonFromEmail.GetEmailAddress()
+uid: crmscript_ref_NSContactOrPersonFromEmail_GetEmailAddress
+title: String GetEmailAddress()
 intellisense: NSContactOrPersonFromEmail.GetEmailAddress
 keywords: NSContactOrPersonFromEmail, GetEmailAddress
 so.topic: reference

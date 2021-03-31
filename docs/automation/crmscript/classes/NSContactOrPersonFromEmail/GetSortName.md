@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactOrPersonFromEmail_GetSortName
-description: String NSContactOrPersonFromEmail.GetSortName()
+uid: crmscript_ref_NSContactOrPersonFromEmail_GetSortName
+title: String GetSortName()
 intellisense: NSContactOrPersonFromEmail.GetSortName
 keywords: NSContactOrPersonFromEmail, GetSortName
 so.topic: reference

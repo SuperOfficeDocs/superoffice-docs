@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignAppEntity
-description: NSForeignAppEntity
+uid: crmscript_ref_NSForeignAppEntity
+title: NSForeignAppEntity
 intellisense: Void.NSForeignAppEntity
 keywords: NSForeignAppEntity
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetSupportAssociateId
-description: Integer NSPerson.GetSupportAssociateId()
+uid: crmscript_ref_NSPerson_GetSupportAssociateId
+title: Integer GetSupportAssociateId()
 intellisense: NSPerson.GetSupportAssociateId
 keywords: NSPerson, GetSupportAssociateId
 so.topic: reference

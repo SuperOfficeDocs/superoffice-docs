@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEntityName_SetTableDescription
-description: NSEntityName.SetTableDescription(String tableDescription)
+uid: crmscript_ref_NSEntityName_SetTableDescription
+title: SetTableDescription(String tableDescription)
 intellisense: NSEntityName.SetTableDescription
 keywords: NSEntityName, GetTableDescription
 so.topic: reference

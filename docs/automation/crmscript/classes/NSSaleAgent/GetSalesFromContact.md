@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetSalesFromContact
-description: SaleArray GetSalesFromContact(Integer contactId, Bool onlyOpenSales)
+uid: crmscript_ref_NSSaleAgent_GetSalesFromContact
+title: SaleArray GetSalesFromContact(Integer contactId, Bool onlyOpenSales)
 intellisense: NSSaleAgent.GetSalesFromContact
-keywords: NSSaleAgent,GetSalesFromContact
+keywords: NSSaleAgent, GetSalesFromContact
 so.topic: reference
 ---
 

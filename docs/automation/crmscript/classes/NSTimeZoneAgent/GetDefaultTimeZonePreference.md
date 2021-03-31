@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_GetDefaultTimeZonePreference
-description: Integer GetDefaultTimeZonePreference()
+uid: crmscript_ref_NSTimeZoneAgent_GetDefaultTimeZonePreference
+title: Integer GetDefaultTimeZonePreference()
 intellisense: NSTimeZoneAgent.GetDefaultTimeZonePreference
-keywords: NSTimeZoneAgent,GetDefaultTimeZonePreference
+keywords: NSTimeZoneAgent, GetDefaultTimeZonePreference
 so.topic: reference
 ---
 

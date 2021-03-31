@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetMyBizCard
-description: ContactEntity GetMyBizCard()
+uid: crmscript_ref_NSContactAgent_GetMyBizCard
+title: ContactEntity GetMyBizCard()
 intellisense: NSContactAgent.GetMyBizCard
-keywords: NSContactAgent,GetMyBizCard
+keywords: NSContactAgent, GetMyBizCard
 so.topic: reference
 ---
 

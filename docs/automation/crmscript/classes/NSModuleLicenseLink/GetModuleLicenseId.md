@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicenseLink_GetModuleLicenseId
-description: Integer NSModuleLicenseLink.GetModuleLicenseId()
+uid: crmscript_ref_NSModuleLicenseLink_GetModuleLicenseId
+title: Integer GetModuleLicenseId()
 intellisense: NSModuleLicenseLink.GetModuleLicenseId
 keywords: NSModuleLicenseLink, GetModuleLicenseId
 so.topic: reference

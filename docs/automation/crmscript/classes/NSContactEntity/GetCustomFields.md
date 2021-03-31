@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetCustomFields
-description: Map NSContactEntity.GetCustomFields()
+uid: crmscript_ref_NSContactEntity_GetCustomFields
+title: Map GetCustomFields()
 intellisense: NSContactEntity.GetCustomFields
 keywords: NSContactEntity, GetCustomFields
 so.topic: reference
 ---
 
-Get the user-defined + extra fields as a map.
+Get the user-defined + extra fields on a ContactEntity as a map.
 
 **Returns:** Map containing user defined and extra field values by field name.
 

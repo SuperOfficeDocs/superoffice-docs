@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetDefaultPersonImage
-description: Image GetDefaultPersonImage(String layoutName)
+uid: crmscript_ref_NSAudienceAgent_GetDefaultPersonImage
+title: Image GetDefaultPersonImage(String layoutName)
 intellisense: NSAudienceAgent.GetDefaultPersonImage
-keywords: NSAudienceAgent,GetDefaultPersonImage
+keywords: NSAudienceAgent, GetDefaultPersonImage
 so.topic: reference
 ---
 

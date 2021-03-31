@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetDescription
-description: NSContactEntity.SetDescription(String description)
+uid: crmscript_ref_NSContactEntity_SetDescription
+title: SetDescription(String description)
 intellisense: NSContactEntity.SetDescription
 keywords: NSContactEntity, GetDescription
 so.topic: reference

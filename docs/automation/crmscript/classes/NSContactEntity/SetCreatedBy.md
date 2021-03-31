@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetCreatedBy
-description: NSContactEntity.SetCreatedBy(Associate createdBy)
+uid: crmscript_ref_NSContactEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
 intellisense: NSContactEntity.SetCreatedBy
 keywords: NSContactEntity, GetCreatedBy
 so.topic: reference

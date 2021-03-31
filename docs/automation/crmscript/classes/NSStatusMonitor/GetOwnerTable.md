@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetOwnerTable
-description: Integer NSStatusMonitor.GetOwnerTable()
+uid: crmscript_ref_NSStatusMonitor_GetOwnerTable
+title: Integer GetOwnerTable()
 intellisense: NSStatusMonitor.GetOwnerTable
 keywords: NSStatusMonitor, GetOwnerTable
 so.topic: reference

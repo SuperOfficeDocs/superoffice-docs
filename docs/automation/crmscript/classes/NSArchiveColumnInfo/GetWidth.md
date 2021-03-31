@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_GetWidth
-description: String NSArchiveColumnInfo.GetWidth()
+uid: crmscript_ref_NSArchiveColumnInfo_GetWidth
+title: String GetWidth()
 intellisense: NSArchiveColumnInfo.GetWidth
 keywords: NSArchiveColumnInfo, GetWidth
 so.topic: reference

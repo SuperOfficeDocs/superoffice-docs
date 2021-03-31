@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_SetProjectImage
-description: Void SetProjectImage(Integer projectId, Image image)
+uid: crmscript_ref_NSProjectAgent_SetProjectImage
+title: Void SetProjectImage(Integer projectId, Image image)
 intellisense: NSProjectAgent.SetProjectImage
-keywords: NSProjectAgent,SetProjectImage
+keywords: NSProjectAgent, SetProjectImage
 so.topic: reference
 ---
 

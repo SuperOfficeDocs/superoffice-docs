@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatBotSettings_SetBotRegisterScriptId
-description: NSChatBotSettings.SetBotRegisterScriptId(Integer botRegisterScriptId)
+uid: crmscript_ref_NSChatBotSettings_SetBotRegisterScriptId
+title: SetBotRegisterScriptId(Integer botRegisterScriptId)
 intellisense: NSChatBotSettings.SetBotRegisterScriptId
 keywords: NSChatBotSettings, GetBotRegisterScriptId
 so.topic: reference

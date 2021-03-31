@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity_SetUpdatedAssociateId
-description: NSTriggerScriptEntity.SetUpdatedAssociateId(Integer updatedAssociateId)
+uid: crmscript_ref_NSTriggerScriptEntity_SetUpdatedAssociateId
+title: SetUpdatedAssociateId(Integer updatedAssociateId)
 intellisense: NSTriggerScriptEntity.SetUpdatedAssociateId
 keywords: NSTriggerScriptEntity, GetUpdatedAssociateId
 so.topic: reference

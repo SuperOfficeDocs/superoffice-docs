@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailConnectionInfo_SetPassword
-description: NSEMailConnectionInfo.SetPassword(String password)
+uid: crmscript_ref_NSEMailConnectionInfo_SetPassword
+title: SetPassword(String password)
 intellisense: NSEMailConnectionInfo.SetPassword
 keywords: NSEMailConnectionInfo, GetPassword
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_SetSignOff
-description: NSProjectEvent.SetSignOff(Bool signOff)
+uid: crmscript_ref_NSProjectEvent_SetSignOff
+title: SetSignOff(Bool signOff)
 intellisense: NSProjectEvent.SetSignOff
 keywords: NSProjectEvent, GetSignOff
 so.topic: reference

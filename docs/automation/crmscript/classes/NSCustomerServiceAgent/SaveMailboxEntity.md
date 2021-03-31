@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_SaveMailboxEntity
-description: NSMailboxEntity SaveMailboxEntity(NSMailboxEntity mailboxEntity);
+uid: crmscript_ref_NSCustomerServiceAgent_SaveMailboxEntity
+title: NSMailboxEntity SaveMailboxEntity(NSMailboxEntity mailboxEntity);
 intellisense: NSCustomerServiceAgent.SaveMailboxEntity
-keywords: NSCustomerServiceAgent,SaveMailboxEntity
+keywords: NSCustomerServiceAgent, SaveMailboxEntity
 so.topic: reference
 ---
 	  

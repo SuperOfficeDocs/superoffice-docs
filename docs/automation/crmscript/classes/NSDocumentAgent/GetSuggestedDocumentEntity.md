@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetSuggestedDocumentEntity
-description: NSSuggestedDocumentEntity GetSuggestedDocumentEntity(Integer suggestedDocumentEntityId);
+uid: crmscript_ref_NSDocumentAgent_GetSuggestedDocumentEntity
+title: NSSuggestedDocumentEntity GetSuggestedDocumentEntity(Integer suggestedDocumentEntityId);
 intellisense: NSDocumentAgent.GetSuggestedDocumentEntity
-keywords: NSDocumentAgent,GetSuggestedDocumentEntity
+keywords: NSDocumentAgent, GetSuggestedDocumentEntity
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionData_SetErpActorTypes
-description: NSErpConnectionData.SetErpActorTypes(ErpActorTypeArray erpActorTypes)
+uid: crmscript_ref_NSErpConnectionData_SetErpActorTypes
+title: SetErpActorTypes(ErpActorTypeArray erpActorTypes)
 intellisense: NSErpConnectionData.SetErpActorTypes
 keywords: NSErpConnectionData, GetErpActorTypes
 so.topic: reference

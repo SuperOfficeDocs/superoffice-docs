@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_RefreshFolder
-description: Integer RefreshFolder(EMailConnectionInfo connectionInfo, StringArray folders)
+uid: crmscript_ref_NSEMailAgent_RefreshFolder
+title: Integer RefreshFolder(EMailConnectionInfo connectionInfo, StringArray folders)
 intellisense: NSEMailAgent.RefreshFolder
-keywords: NSEMailAgent,RefreshFolder
+keywords: NSEMailAgent, RefreshFolder
 so.topic: reference
 ---
 

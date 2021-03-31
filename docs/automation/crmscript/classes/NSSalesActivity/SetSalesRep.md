@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSalesActivity_SetSalesRep
-description: NSSalesActivity.SetSalesRep(Person salesRep)
+uid: crmscript_ref_NSSalesActivity_SetSalesRep
+title: SetSalesRep(Person salesRep)
 intellisense: NSSalesActivity.SetSalesRep
 keywords: NSSalesActivity, GetSalesRep
 so.topic: reference

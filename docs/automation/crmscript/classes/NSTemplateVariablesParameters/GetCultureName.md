@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_GetCultureName
-description: String NSTemplateVariablesParameters.GetCultureName()
+uid: crmscript_ref_NSTemplateVariablesParameters_GetCultureName
+title: String GetCultureName()
 intellisense: NSTemplateVariablesParameters.GetCultureName
 keywords: NSTemplateVariablesParameters, GetCultureName
 so.topic: reference

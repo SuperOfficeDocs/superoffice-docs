@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_ResolveUserFromInfo
-description: ResolvedUser ResolveUserFromInfo(Integer contactId, String personName, StringArray phoneNumbers, StringArray emails, Integer userType, Credential credential)
+uid: crmscript_ref_NSUserAgent_ResolveUserFromInfo
+title: ResolvedUser ResolveUserFromInfo(Integer contactId, String personName, StringArray phoneNumbers, StringArray emails, Integer userType, Credential credential)
 intellisense: NSUserAgent.ResolveUserFromInfo
-keywords: NSUserAgent,ResolveUserFromInfo
+keywords: NSUserAgent, ResolveUserFromInfo
 so.topic: reference
 ---
 

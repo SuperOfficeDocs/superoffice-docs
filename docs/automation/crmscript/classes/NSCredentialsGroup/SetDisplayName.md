@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialsGroup_SetDisplayName
-description: NSCredentialsGroup.SetDisplayName(String displayName)
+uid: crmscript_ref_NSCredentialsGroup_SetDisplayName
+title: SetDisplayName(String displayName)
 intellisense: NSCredentialsGroup.SetDisplayName
 keywords: NSCredentialsGroup, GetDisplayName
 so.topic: reference

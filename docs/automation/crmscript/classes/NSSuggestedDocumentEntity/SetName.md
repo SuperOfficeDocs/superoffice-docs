@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedDocumentEntity_SetName
-description: NSSuggestedDocumentEntity.SetName(String name)
+uid: crmscript_ref_NSSuggestedDocumentEntity_SetName
+title: SetName(String name)
 intellisense: NSSuggestedDocumentEntity.SetName
 keywords: NSSuggestedDocumentEntity, GetName
 so.topic: reference

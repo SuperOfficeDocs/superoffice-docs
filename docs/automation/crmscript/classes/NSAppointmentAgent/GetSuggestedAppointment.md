@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetSuggestedAppointment
-description: NSSuggestedAppointment GetSuggestedAppointment(Integer suggestedAppointmentId);
+uid: crmscript_ref_NSAppointmentAgent_GetSuggestedAppointment
+title: NSSuggestedAppointment GetSuggestedAppointment(Integer suggestedAppointmentId);
 intellisense: NSAppointmentAgent.GetSuggestedAppointment
-keywords: NSAppointmentAgent,GetSuggestedAppointment
+keywords: NSAppointmentAgent, GetSuggestedAppointment
 so.topic: reference
 ---
 

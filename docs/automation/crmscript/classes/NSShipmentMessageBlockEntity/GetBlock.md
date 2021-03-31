@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageBlockEntity_GetBlock
-description: String NSShipmentMessageBlockEntity.GetBlock()
+uid: crmscript_ref_NSShipmentMessageBlockEntity_GetBlock
+title: String GetBlock()
 intellisense: NSShipmentMessageBlockEntity.GetBlock
 keywords: NSShipmentMessageBlockEntity, GetBlock
 so.topic: reference

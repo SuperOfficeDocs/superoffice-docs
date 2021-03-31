@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity
-description: NSDocumentTemplateEntity
+uid: crmscript_ref_NSDocumentTemplateEntity
+title: NSDocumentTemplateEntity
 intellisense: Void.NSDocumentTemplateEntity
 keywords: NSDocumentTemplateEntity
 so.topic: reference

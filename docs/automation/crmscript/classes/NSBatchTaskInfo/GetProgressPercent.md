@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetProgressPercent
-description: Integer NSBatchTaskInfo.GetProgressPercent()
+uid: crmscript_ref_NSBatchTaskInfo_GetProgressPercent
+title: Integer GetProgressPercent()
 intellisense: NSBatchTaskInfo.GetProgressPercent
 keywords: NSBatchTaskInfo, GetProgressPercent
 so.topic: reference

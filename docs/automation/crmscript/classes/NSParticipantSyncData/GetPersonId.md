@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_GetPersonId
-description: Integer NSParticipantSyncData.GetPersonId()
+uid: crmscript_ref_NSParticipantSyncData_GetPersonId
+title: Integer GetPersonId()
 intellisense: NSParticipantSyncData.GetPersonId
 keywords: NSParticipantSyncData, GetPersonId
 so.topic: reference

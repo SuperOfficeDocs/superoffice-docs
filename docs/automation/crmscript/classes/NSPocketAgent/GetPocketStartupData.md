@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPocketAgent_GetPocketStartupData
-description: PocketStartupData GetPocketStartupData(StringArray tables, DateTime currentClientTime)
+uid: crmscript_ref_NSPocketAgent_GetPocketStartupData
+title: PocketStartupData GetPocketStartupData(StringArray tables, DateTime currentClientTime)
 intellisense: NSPocketAgent.GetPocketStartupData
-keywords: NSPocketAgent,GetPocketStartupData
+keywords: NSPocketAgent, GetPocketStartupData
 so.topic: reference
 ---
 

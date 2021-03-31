@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitorPeriods
-description: NSStatusMonitorPeriods
+uid: crmscript_ref_NSStatusMonitorPeriods
+title: NSStatusMonitorPeriods
 intellisense: Void.NSStatusMonitorPeriods
 keywords: NSStatusMonitorPeriods
 so.topic: reference

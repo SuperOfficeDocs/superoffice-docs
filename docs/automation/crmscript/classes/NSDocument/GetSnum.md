@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_GetSnum
-description: Integer NSDocument.GetSnum()
+uid: crmscript_ref_NSDocument_GetSnum
+title: Integer GetSnum()
 intellisense: NSDocument.GetSnum
 keywords: NSDocument, GetSnum
 so.topic: reference

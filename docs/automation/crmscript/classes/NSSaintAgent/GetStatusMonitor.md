@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_GetStatusMonitor
-description: StatusMonitor GetStatusMonitor(Integer id)
+uid: crmscript_ref_NSSaintAgent_GetStatusMonitor
+title: StatusMonitor GetStatusMonitor(Integer id)
 intellisense: NSSaintAgent.GetStatusMonitor
-keywords: NSSaintAgent,GetStatusMonitor
+keywords: NSSaintAgent, GetStatusMonitor
 so.topic: reference
 ---
 

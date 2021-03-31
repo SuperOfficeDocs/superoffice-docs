@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetTicketPriority
-description: TicketPriority NSChatTopicEntity.GetTicketPriority()
+uid: crmscript_ref_NSChatTopicEntity_GetTicketPriority
+title: TicketPriority GetTicketPriority()
 intellisense: NSChatTopicEntity.GetTicketPriority
 keywords: NSChatTopicEntity, GetTicketPriority
 so.topic: reference

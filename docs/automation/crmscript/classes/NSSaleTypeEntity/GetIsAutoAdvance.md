@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetIsAutoAdvance
-description: Bool NSSaleTypeEntity.GetIsAutoAdvance()
+uid: crmscript_ref_NSSaleTypeEntity_GetIsAutoAdvance
+title: Bool GetIsAutoAdvance()
 intellisense: NSSaleTypeEntity.GetIsAutoAdvance
 keywords: NSSaleTypeEntity, GetIsAutoAdvance
 so.topic: reference

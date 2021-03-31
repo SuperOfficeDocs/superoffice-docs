@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetCustomerName
-description: NSChatSessionEntity.SetCustomerName(String customerName)
+uid: crmscript_ref_NSChatSessionEntity_SetCustomerName
+title: SetCustomerName(String customerName)
 intellisense: NSChatSessionEntity.SetCustomerName
 keywords: NSChatSessionEntity, GetCustomerName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetTooltip
-description: String NSDocumentTemplateEntity.GetTooltip()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetTooltip
+title: String GetTooltip()
 intellisense: NSDocumentTemplateEntity.GetTooltip
 keywords: NSDocumentTemplateEntity, GetTooltip
 so.topic: reference

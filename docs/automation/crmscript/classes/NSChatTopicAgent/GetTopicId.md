@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicAgent_GetTopicId
-description: Integer NSChatTopicAgent.GetTopicId()
+uid: crmscript_ref_NSChatTopicAgent_GetTopicId
+title: Integer GetTopicId()
 intellisense: NSChatTopicAgent.GetTopicId
 keywords: NSChatTopicAgent, GetTopicId
 so.topic: reference

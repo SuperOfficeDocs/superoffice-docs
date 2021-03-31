@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds
-description: UserDefinedFieldInfoArray GetUserDefinedFieldFromProgIds(StringArray progIds, Integer ownerType)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds
+title: UserDefinedFieldInfoArray GetUserDefinedFieldFromProgIds(StringArray progIds, Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
-keywords: NSUserDefinedFieldInfoAgent,GetUserDefinedFieldFromProgIds
+keywords: NSUserDefinedFieldInfoAgent, GetUserDefinedFieldFromProgIds
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListItemEntity_GetDeleted
-description: Bool NSListItemEntity.GetDeleted()
+uid: crmscript_ref_NSListItemEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSListItemEntity.GetDeleted
 keywords: NSListItemEntity, GetDeleted
 so.topic: reference

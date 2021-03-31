@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSPosition_SetId
-description: NSPosition.SetId(Integer id)
+uid: crmscript_ref_NSPosition_SetId
+title: SetId(Integer id)
 intellisense: NSPosition.SetId
 keywords: NSPosition, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the Position
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer Position id.
 

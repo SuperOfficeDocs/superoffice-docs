@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMessagingAgent_CreateMessage
-description: Void CreateMessage(IncomingMessage incomingMessage)
+uid: crmscript_ref_NSMessagingAgent_CreateMessage
+title: Void CreateMessage(IncomingMessage incomingMessage)
 intellisense: NSMessagingAgent.CreateMessage
-keywords: NSMessagingAgent,CreateMessage
+keywords: NSMessagingAgent, CreateMessage
 so.topic: reference
 ---
 

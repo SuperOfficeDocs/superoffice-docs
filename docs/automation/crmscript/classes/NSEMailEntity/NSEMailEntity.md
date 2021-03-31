@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity
-description: NSEMailEntity
+uid: crmscript_ref_NSEMailEntity
+title: NSEMailEntity
 intellisense: Void.NSEMailEntity
 keywords: NSEMailEntity
 so.topic: reference

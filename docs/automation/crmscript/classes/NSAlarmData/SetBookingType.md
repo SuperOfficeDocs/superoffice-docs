@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_SetBookingType
-description: NSAlarmData.SetBookingType(Integer bookingType)
+uid: crmscript_ref_NSAlarmData_SetBookingType
+title: SetBookingType(Integer bookingType)
 intellisense: NSAlarmData.SetBookingType
 keywords: NSAlarmData, GetBookingType
 so.topic: reference

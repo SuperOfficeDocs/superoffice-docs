@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetHasStakeholders
-description: NSSaleTypeEntity.SetHasStakeholders(Bool hasStakeholders)
+uid: crmscript_ref_NSSaleTypeEntity_SetHasStakeholders
+title: SetHasStakeholders(Bool hasStakeholders)
 intellisense: NSSaleTypeEntity.SetHasStakeholders
 keywords: NSSaleTypeEntity, GetHasStakeholders
 so.topic: reference

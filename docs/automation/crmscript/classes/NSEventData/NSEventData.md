@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData
-description: NSEventData
+uid: crmscript_ref_NSEventData
+title: NSEventData
 intellisense: Void.NSEventData
 keywords: NSEventData
 so.topic: reference

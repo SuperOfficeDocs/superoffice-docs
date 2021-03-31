@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetDbiLastSyncronized
-description: NSPersonEntity.SetDbiLastSyncronized(DateTime dbiLastSyncronized)
+uid: crmscript_ref_NSPersonEntity_SetDbiLastSyncronized
+title: SetDbiLastSyncronized(DateTime dbiLastSyncronized)
 intellisense: NSPersonEntity.SetDbiLastSyncronized
 keywords: NSPersonEntity, GetDbiLastSyncronized
 so.topic: reference

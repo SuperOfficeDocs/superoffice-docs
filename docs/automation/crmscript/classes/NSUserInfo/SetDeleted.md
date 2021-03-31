@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserInfo_SetDeleted
-description: NSUserInfo.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSUserInfo_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSUserInfo.SetDeleted
 keywords: NSUserInfo, GetDeleted
 so.topic: reference

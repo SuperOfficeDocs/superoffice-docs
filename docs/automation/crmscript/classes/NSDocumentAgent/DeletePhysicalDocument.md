@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_DeletePhysicalDocument
-description: ReturnInfo DeletePhysicalDocument(Integer documentId, StringArray allowedReturnType)
+uid: crmscript_ref_NSDocumentAgent_DeletePhysicalDocument
+title: ReturnInfo DeletePhysicalDocument(Integer documentId, StringArray allowedReturnType)
 intellisense: NSDocumentAgent.DeletePhysicalDocument
-keywords: NSDocumentAgent,DeletePhysicalDocument
+keywords: NSDocumentAgent, DeletePhysicalDocument
 so.topic: reference
 ---
 

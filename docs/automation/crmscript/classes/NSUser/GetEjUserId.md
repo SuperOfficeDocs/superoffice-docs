@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetEjUserId
-description: Integer NSUser.GetEjUserId()
+uid: crmscript_ref_NSUser_GetEjUserId
+title: Integer GetEjUserId()
 intellisense: NSUser.GetEjUserId
 keywords: NSUser, GetEjUserId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_SaveChatPresence
-description: Void SaveChatPresence(ChatPresenceArray chatPresence)
+uid: crmscript_ref_NSChatAgent_SaveChatPresence
+title: Void SaveChatPresence(ChatPresenceArray chatPresence)
 intellisense: NSChatAgent.SaveChatPresence
-keywords: NSChatAgent,SaveChatPresence
+keywords: NSChatAgent, SaveChatPresence
 so.topic: reference
 ---
 

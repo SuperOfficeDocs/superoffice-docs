@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_GetType
-description: String NSMDOListItem.GetType()
+uid: crmscript_ref_NSMDOListItem_GetType
+title: String GetType()
 intellisense: NSMDOListItem.GetType
 keywords: NSMDOListItem, GetType
 so.topic: reference

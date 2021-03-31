@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CanConnectorProvideCapability
-description: Bool CanConnectorProvideCapability(Integer quoteConnectionId, String capabilityName)
+uid: crmscript_ref_NSQuoteAgent_CanConnectorProvideCapability
+title: Bool CanConnectorProvideCapability(Integer quoteConnectionId, String capabilityName)
 intellisense: NSQuoteAgent.CanConnectorProvideCapability
-keywords: NSQuoteAgent,CanConnectorProvideCapability
+keywords: NSQuoteAgent, CanConnectorProvideCapability
 so.topic: reference
 ---
 

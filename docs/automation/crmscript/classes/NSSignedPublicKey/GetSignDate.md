@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSignedPublicKey_GetSignDate
-description: DateTime NSSignedPublicKey.GetSignDate()
+uid: crmscript_ref_NSSignedPublicKey_GetSignDate
+title: DateTime GetSignDate()
 intellisense: NSSignedPublicKey.GetSignDate
 keywords: NSSignedPublicKey, GetSignDate
 so.topic: reference

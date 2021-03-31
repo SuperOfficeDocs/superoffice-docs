@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetDocumentStream
-description: Stream GetDocumentStream(Integer documentId)
+uid: crmscript_ref_NSDocumentAgent_GetDocumentStream
+title: Stream GetDocumentStream(Integer documentId)
 intellisense: NSDocumentAgent.GetDocumentStream
-keywords: NSDocumentAgent,GetDocumentStream
+keywords: NSDocumentAgent, GetDocumentStream
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetCreatedBy
-description: Associate NSAppointmentEntity.GetCreatedBy()
+uid: crmscript_ref_NSAppointmentEntity_GetCreatedBy
+title: Associate GetCreatedBy()
 intellisense: NSAppointmentEntity.GetCreatedBy
 keywords: NSAppointmentEntity, GetCreatedBy
 so.topic: reference

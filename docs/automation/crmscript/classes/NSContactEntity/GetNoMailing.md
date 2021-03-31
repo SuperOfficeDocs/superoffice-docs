@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetNoMailing
-description: Bool NSContactEntity.GetNoMailing()
+uid: crmscript_ref_NSContactEntity_GetNoMailing
+title: Bool GetNoMailing()
 intellisense: NSContactEntity.GetNoMailing
 keywords: NSContactEntity, GetNoMailing
 so.topic: reference

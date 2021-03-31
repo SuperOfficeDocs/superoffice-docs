@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListEntity_GetListType
-description: String NSListEntity.GetListType()
+uid: crmscript_ref_NSListEntity_GetListType
+title: String GetListType()
 intellisense: NSListEntity.GetListType
 keywords: NSListEntity, GetListType
 so.topic: reference

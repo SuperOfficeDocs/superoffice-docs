@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuickReply
-description: NSQuickReply
+uid: crmscript_ref_NSQuickReply
+title: NSQuickReply
 intellisense: Void.NSQuickReply
 keywords: NSQuickReply
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_SaveTriggerScriptByUniqueId
-description: TriggerScriptEntity SaveTriggerScriptByUniqueId(String triggerScriptUniqueId, TriggerScriptEntity entity)
+uid: crmscript_ref_NSCRMScriptAgent_SaveTriggerScriptByUniqueId
+title: TriggerScriptEntity SaveTriggerScriptByUniqueId(String triggerScriptUniqueId, TriggerScriptEntity entity)
 intellisense: NSCRMScriptAgent.SaveTriggerScriptByUniqueId
-keywords: NSCRMScriptAgent,SaveTriggerScriptByUniqueId
+keywords: NSCRMScriptAgent, SaveTriggerScriptByUniqueId
 so.topic: reference
 ---
 

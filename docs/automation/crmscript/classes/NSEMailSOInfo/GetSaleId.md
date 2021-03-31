@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailSOInfo_GetSaleId
-description: Integer NSEMailSOInfo.GetSaleId()
+uid: crmscript_ref_NSEMailSOInfo_GetSaleId
+title: Integer GetSaleId()
 intellisense: NSEMailSOInfo.GetSaleId
 keywords: NSEMailSOInfo, GetSaleId
 so.topic: reference

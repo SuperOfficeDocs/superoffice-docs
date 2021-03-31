@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateDefaultEMailConnectionInfoExtended
-description: NSEMailConnectionInfoExtended CreateDefaultEMailConnectionInfoExtended()
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailConnectionInfoExtended
+title: NSEMailConnectionInfoExtended CreateDefaultEMailConnectionInfoExtended()
 intellisense: NSEMailAgent.CreateDefaultEMailConnectionInfoExtended
-keywords: NSEMailAgent,CreateDefaultEMailConnectionInfoExtended
+keywords: NSEMailAgent, CreateDefaultEMailConnectionInfoExtended
 so.topic: reference
 ---
 	  

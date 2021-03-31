@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem
-description: NSSelectableMDOListItem
+uid: crmscript_ref_NSSelectableMDOListItem
+title: NSSelectableMDOListItem
 intellisense: Void.NSSelectableMDOListItem
 keywords: NSSelectableMDOListItem
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebAppUsage
-description: NSWebAppUsage
+uid: crmscript_ref_NSWebAppUsage
+title: NSWebAppUsage
 intellisense: Void.NSWebAppUsage
 keywords: NSWebAppUsage
 so.topic: reference

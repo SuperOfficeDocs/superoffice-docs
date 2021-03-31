@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListItemEntity_GetId
-description: Integer NSListItemEntity.GetId()
+uid: crmscript_ref_NSListItemEntity_GetId
+title: Integer GetId()
 intellisense: NSListItemEntity.GetId
 keywords: NSListItemEntity, GetId
 so.topic: reference

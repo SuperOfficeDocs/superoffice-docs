@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuickReply_GetName
-description: String NSQuickReply.GetName()
+uid: crmscript_ref_NSQuickReply_GetName
+title: String GetName()
 intellisense: NSQuickReply.GetName
 keywords: NSQuickReply, GetName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportLine_SetOperation
-description: NSImportLine.SetOperation(Integer operation)
+uid: crmscript_ref_NSImportLine_SetOperation
+title: SetOperation(Integer operation)
 intellisense: NSImportLine.SetOperation
 keywords: NSImportLine, GetOperation
 so.topic: reference

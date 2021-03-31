@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialType_GetType
-description: String NSCredentialType.GetType()
+uid: crmscript_ref_NSCredentialType_GetType
+title: String GetType()
 intellisense: NSCredentialType.GetType
 keywords: NSCredentialType, GetType
 so.topic: reference

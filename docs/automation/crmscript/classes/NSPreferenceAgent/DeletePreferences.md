@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_DeletePreferences
-description: Void DeletePreferences(IntegerArray ids)
+uid: crmscript_ref_NSPreferenceAgent_DeletePreferences
+title: Void DeletePreferences(IntegerArray ids)
 intellisense: NSPreferenceAgent.DeletePreferences
-keywords: NSPreferenceAgent,DeletePreferences
+keywords: NSPreferenceAgent, DeletePreferences
 so.topic: reference
 ---
 

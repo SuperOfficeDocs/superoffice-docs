@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHeadingEntity_GetHeadingId
-description: Integer NSHeadingEntity.GetHeadingId()
+uid: crmscript_ref_NSHeadingEntity_GetHeadingId
+title: Integer GetHeadingId()
 intellisense: NSHeadingEntity.GetHeadingId
 keywords: NSHeadingEntity, GetHeadingId
 so.topic: reference

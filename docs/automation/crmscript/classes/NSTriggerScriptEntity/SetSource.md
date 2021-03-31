@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity_SetSource
-description: NSTriggerScriptEntity.SetSource(String source)
+uid: crmscript_ref_NSTriggerScriptEntity_SetSource
+title: SetSource(String source)
 intellisense: NSTriggerScriptEntity.SetSource
 keywords: NSTriggerScriptEntity, GetSource
 so.topic: reference

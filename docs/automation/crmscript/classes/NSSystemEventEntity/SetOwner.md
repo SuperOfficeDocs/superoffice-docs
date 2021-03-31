@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSystemEventEntity_SetOwner
-description: NSSystemEventEntity.SetOwner(Integer owner)
+uid: crmscript_ref_NSSystemEventEntity_SetOwner
+title: SetOwner(Integer owner)
 intellisense: NSSystemEventEntity.SetOwner
 keywords: NSSystemEventEntity, GetOwner
 so.topic: reference

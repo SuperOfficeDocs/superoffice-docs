@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetSatStop
-description: NSTicketPriorityEntity.SetSatStop(DateTime satStop)
+uid: crmscript_ref_NSTicketPriorityEntity_SetSatStop
+title: SetSatStop(DateTime satStop)
 intellisense: NSTicketPriorityEntity.SetSatStop
 keywords: NSTicketPriorityEntity, GetSatStop
 so.topic: reference

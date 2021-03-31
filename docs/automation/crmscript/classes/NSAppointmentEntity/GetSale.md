@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetSale
-description: Sale NSAppointmentEntity.GetSale()
+uid: crmscript_ref_NSAppointmentEntity_GetSale
+title: Sale GetSale()
 intellisense: NSAppointmentEntity.GetSale
 keywords: NSAppointmentEntity, GetSale
 so.topic: reference

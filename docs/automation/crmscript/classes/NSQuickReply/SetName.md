@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuickReply_SetName
-description: NSQuickReply.SetName(String name)
+uid: crmscript_ref_NSQuickReply_SetName
+title: SetName(String name)
 intellisense: NSQuickReply.SetName
 keywords: NSQuickReply, GetName
 so.topic: reference

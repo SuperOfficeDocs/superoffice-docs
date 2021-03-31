@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity_GetCurrencyId
-description: Integer NSAmountClassEntity.GetCurrencyId()
+uid: crmscript_ref_NSAmountClassEntity_GetCurrencyId
+title: Integer GetCurrencyId()
 intellisense: NSAmountClassEntity.GetCurrencyId
 keywords: NSAmountClassEntity, GetCurrencyId
 so.topic: reference

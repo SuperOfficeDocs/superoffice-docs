@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetStartDate
-description: DateTime NSAppointmentEntity.GetStartDate()
+uid: crmscript_ref_NSAppointmentEntity_GetStartDate
+title: DateTime GetStartDate()
 intellisense: NSAppointmentEntity.GetStartDate
 keywords: NSAppointmentEntity, GetStartDate
 so.topic: reference

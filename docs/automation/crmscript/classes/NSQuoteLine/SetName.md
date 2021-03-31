@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetName
-description: NSQuoteLine.SetName(String name)
+uid: crmscript_ref_NSQuoteLine_SetName
+title: SetName(String name)
 intellisense: NSQuoteLine.SetName
 keywords: NSQuoteLine, GetName
 so.topic: reference

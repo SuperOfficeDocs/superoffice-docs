@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProductExtraDataField_SetType
-description: NSProductExtraDataField.SetType(Integer type)
+uid: crmscript_ref_NSProductExtraDataField_SetType
+title: SetType(Integer type)
 intellisense: NSProductExtraDataField.SetType
 keywords: NSProductExtraDataField, GetType
 so.topic: reference

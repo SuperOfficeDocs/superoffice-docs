@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity_GetPassiveText
-description: String NSContactRelationEntity.GetPassiveText()
+uid: crmscript_ref_NSContactRelationEntity_GetPassiveText
+title: String GetPassiveText()
 intellisense: NSContactRelationEntity.GetPassiveText
 keywords: NSContactRelationEntity, GetPassiveText
 so.topic: reference

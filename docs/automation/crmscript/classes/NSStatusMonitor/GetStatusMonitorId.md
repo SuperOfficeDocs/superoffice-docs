@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetStatusMonitorId
-description: Integer NSStatusMonitor.GetStatusMonitorId()
+uid: crmscript_ref_NSStatusMonitor_GetStatusMonitorId
+title: Integer GetStatusMonitorId()
 intellisense: NSStatusMonitor.GetStatusMonitorId
 keywords: NSStatusMonitor, GetStatusMonitorId
 so.topic: reference

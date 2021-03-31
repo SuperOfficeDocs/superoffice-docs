@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSignedPublicKey_SetSignature
-description: NSSignedPublicKey.SetSignature(String signature)
+uid: crmscript_ref_NSSignedPublicKey_SetSignature
+title: SetSignature(String signature)
 intellisense: NSSignedPublicKey.SetSignature
 keywords: NSSignedPublicKey, GetSignature
 so.topic: reference

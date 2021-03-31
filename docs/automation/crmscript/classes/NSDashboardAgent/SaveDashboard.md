@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_SaveDashboard
-description: NSDashboard SaveDashboard(NSDashboard dashboard);
+uid: crmscript_ref_NSDashboardAgent_SaveDashboard
+title: NSDashboard SaveDashboard(NSDashboard dashboard);
 intellisense: NSDashboardAgent.SaveDashboard
-keywords: NSDashboardAgent,SaveDashboard
+keywords: NSDashboardAgent, SaveDashboard
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetBaseStatus
-description: NSTicketEntity.SetBaseStatus(TicketBaseStatus baseStatus)
+uid: crmscript_ref_NSTicketEntity_SetBaseStatus
+title: SetBaseStatus(TicketBaseStatus baseStatus)
 intellisense: NSTicketEntity.SetBaseStatus
 keywords: NSTicketEntity, GetBaseStatus
 so.topic: reference

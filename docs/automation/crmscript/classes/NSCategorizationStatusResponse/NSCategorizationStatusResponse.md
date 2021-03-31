@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategorizationStatusResponse
-description: NSCategorizationStatusResponse
+uid: crmscript_ref_NSCategorizationStatusResponse
+title: NSCategorizationStatusResponse
 intellisense: Void.NSCategorizationStatusResponse
 keywords: NSCategorizationStatusResponse
 so.topic: reference

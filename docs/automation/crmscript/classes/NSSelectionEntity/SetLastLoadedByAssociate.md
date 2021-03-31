@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetLastLoadedByAssociate
-description: NSSelectionEntity.SetLastLoadedByAssociate(Associate lastLoadedByAssociate)
+uid: crmscript_ref_NSSelectionEntity_SetLastLoadedByAssociate
+title: SetLastLoadedByAssociate(Associate lastLoadedByAssociate)
 intellisense: NSSelectionEntity.SetLastLoadedByAssociate
 keywords: NSSelectionEntity, GetLastLoadedByAssociate
 so.topic: reference

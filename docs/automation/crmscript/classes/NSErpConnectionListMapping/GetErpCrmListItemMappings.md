@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionListMapping_GetErpCrmListItemMappings
-description: ErpCrmListItemMappingArray NSErpConnectionListMapping.GetErpCrmListItemMappings()
+uid: crmscript_ref_NSErpConnectionListMapping_GetErpCrmListItemMappings
+title: ErpCrmListItemMappingArray GetErpCrmListItemMappings()
 intellisense: NSErpConnectionListMapping.GetErpCrmListItemMappings
 keywords: NSErpConnectionListMapping, GetErpCrmListItemMappings
 so.topic: reference

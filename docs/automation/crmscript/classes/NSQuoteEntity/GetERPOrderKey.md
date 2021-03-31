@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_GetERPOrderKey
-description: String NSQuoteEntity.GetERPOrderKey()
+uid: crmscript_ref_NSQuoteEntity_GetERPOrderKey
+title: String GetERPOrderKey()
 intellisense: NSQuoteEntity.GetERPOrderKey
 keywords: NSQuoteEntity, GetERPOrderKey
 so.topic: reference

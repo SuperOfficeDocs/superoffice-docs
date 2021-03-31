@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSApproveRejectResponse_SetPluginResponse
-description: NSApproveRejectResponse.SetPluginResponse(PluginResponse pluginResponse)
+uid: crmscript_ref_NSApproveRejectResponse_SetPluginResponse
+title: SetPluginResponse(PluginResponse pluginResponse)
 intellisense: NSApproveRejectResponse.SetPluginResponse
 keywords: NSApproveRejectResponse, GetPluginResponse
 so.topic: reference

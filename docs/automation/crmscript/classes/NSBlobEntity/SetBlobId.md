@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_SetBlobId
-description: NSBlobEntity.SetBlobId(Integer blobId)
+uid: crmscript_ref_NSBlobEntity_SetBlobId
+title: SetBlobId(Integer blobId)
 intellisense: NSBlobEntity.SetBlobId
 keywords: NSBlobEntity, GetBlobId
 so.topic: reference

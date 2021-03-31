@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_GetTitle
-description: String NSTypicalSearch.GetTitle()
+uid: crmscript_ref_NSTypicalSearch_GetTitle
+title: String GetTitle()
 intellisense: NSTypicalSearch.GetTitle
 keywords: NSTypicalSearch, GetTitle
 so.topic: reference

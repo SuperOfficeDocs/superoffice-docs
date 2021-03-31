@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_SetLongDescription
-description: NSShipmentMessageEntity.SetLongDescription(String longDescription)
+uid: crmscript_ref_NSShipmentMessageEntity_SetLongDescription
+title: SetLongDescription(String longDescription)
 intellisense: NSShipmentMessageEntity.SetLongDescription
 keywords: NSShipmentMessageEntity, GetLongDescription
 so.topic: reference

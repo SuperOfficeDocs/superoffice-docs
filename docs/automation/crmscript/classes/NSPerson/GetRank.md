@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetRank
-description: Integer NSPerson.GetRank()
+uid: crmscript_ref_NSPerson_GetRank
+title: Integer GetRank()
 intellisense: NSPerson.GetRank
 keywords: NSPerson, GetRank
 so.topic: reference

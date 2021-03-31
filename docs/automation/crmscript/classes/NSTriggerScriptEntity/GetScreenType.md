@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity_GetScreenType
-description: Integer NSTriggerScriptEntity.GetScreenType()
+uid: crmscript_ref_NSTriggerScriptEntity_GetScreenType
+title: Integer GetScreenType()
 intellisense: NSTriggerScriptEntity.GetScreenType
 keywords: NSTriggerScriptEntity, GetScreenType
 so.topic: reference

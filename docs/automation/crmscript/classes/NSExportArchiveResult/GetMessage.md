@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExportArchiveResult_GetMessage
-description: String NSExportArchiveResult.GetMessage()
+uid: crmscript_ref_NSExportArchiveResult_GetMessage
+title: String GetMessage()
 intellisense: NSExportArchiveResult.GetMessage
 keywords: NSExportArchiveResult, GetMessage
 so.topic: reference

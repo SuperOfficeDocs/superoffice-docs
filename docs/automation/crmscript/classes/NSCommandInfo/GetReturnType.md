@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCommandInfo_GetReturnType
-description: Integer NSCommandInfo.GetReturnType()
+uid: crmscript_ref_NSCommandInfo_GetReturnType
+title: Integer GetReturnType()
 intellisense: NSCommandInfo.GetReturnType
 keywords: NSCommandInfo, GetReturnType
 so.topic: reference

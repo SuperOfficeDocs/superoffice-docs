@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUntrustedCredentials_GetPublicValue
-description: String NSUntrustedCredentials.GetPublicValue()
+uid: crmscript_ref_NSUntrustedCredentials_GetPublicValue
+title: String GetPublicValue()
 intellisense: NSUntrustedCredentials.GetPublicValue
 keywords: NSUntrustedCredentials, GetPublicValue
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_ValidateLicenseInfo
-description: LicenseResult ValidateLicenseInfo(ExtendedLicenseInfo licenseInfo)
+uid: crmscript_ref_NSLicenseAgent_ValidateLicenseInfo
+title: LicenseResult ValidateLicenseInfo(ExtendedLicenseInfo licenseInfo)
 intellisense: NSLicenseAgent.ValidateLicenseInfo
-keywords: NSLicenseAgent,ValidateLicenseInfo
+keywords: NSLicenseAgent, ValidateLicenseInfo
 so.topic: reference
 ---
 

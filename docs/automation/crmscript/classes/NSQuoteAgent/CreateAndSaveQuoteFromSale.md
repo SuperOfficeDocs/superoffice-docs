@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CreateAndSaveQuoteFromSale
-description: QuoteEntity CreateAndSaveQuoteFromSale(Integer copyFromSaleId, Integer copyToSaleId)
+uid: crmscript_ref_NSQuoteAgent_CreateAndSaveQuoteFromSale
+title: QuoteEntity CreateAndSaveQuoteFromSale(Integer copyFromSaleId, Integer copyToSaleId)
 intellisense: NSQuoteAgent.CreateAndSaveQuoteFromSale
-keywords: NSQuoteAgent,CreateAndSaveQuoteFromSale
+keywords: NSQuoteAgent, CreateAndSaveQuoteFromSale
 so.topic: reference
 ---
 

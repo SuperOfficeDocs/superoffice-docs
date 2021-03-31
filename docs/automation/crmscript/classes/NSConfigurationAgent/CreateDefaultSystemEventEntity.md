@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_CreateDefaultSystemEventEntity
-description: NSSystemEventEntity CreateDefaultSystemEventEntity()
+uid: crmscript_ref_NSConfigurationAgent_CreateDefaultSystemEventEntity
+title: NSSystemEventEntity CreateDefaultSystemEventEntity()
 intellisense: NSConfigurationAgent.CreateDefaultSystemEventEntity
-keywords: NSConfigurationAgent,CreateDefaultSystemEventEntity
+keywords: NSConfigurationAgent, CreateDefaultSystemEventEntity
 so.topic: reference
 ---
 	  

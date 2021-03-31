@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProduct
-description: BlobEntity GetBlobEntityOnProduct(Integer productId)
+uid: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProduct
+title: BlobEntity GetBlobEntityOnProduct(Integer productId)
 intellisense: NSBLOBAgent.GetBlobEntityOnProduct
-keywords: NSBLOBAgent,GetBlobEntityOnProduct
+keywords: NSBLOBAgent, GetBlobEntityOnProduct
 so.topic: reference
 ---
 

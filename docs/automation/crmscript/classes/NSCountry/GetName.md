@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_GetName
-description: String NSCountry.GetName()
+uid: crmscript_ref_NSCountry_GetName
+title: String GetName()
 intellisense: NSCountry.GetName
 keywords: NSCountry, GetName
 so.topic: reference

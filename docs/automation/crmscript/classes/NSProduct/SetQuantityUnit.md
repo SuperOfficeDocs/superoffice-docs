@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetQuantityUnit
-description: NSProduct.SetQuantityUnit(String quantityUnit)
+uid: crmscript_ref_NSProduct_SetQuantityUnit
+title: SetQuantityUnit(String quantityUnit)
 intellisense: NSProduct.SetQuantityUnit
 keywords: NSProduct, GetQuantityUnit
 so.topic: reference

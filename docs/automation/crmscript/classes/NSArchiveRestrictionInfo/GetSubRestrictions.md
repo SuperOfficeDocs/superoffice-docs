@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo_GetSubRestrictions
-description: ArchiveRestrictionInfoArray NSArchiveRestrictionInfo.GetSubRestrictions()
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetSubRestrictions
+title: ArchiveRestrictionInfoArray GetSubRestrictions()
 intellisense: NSArchiveRestrictionInfo.GetSubRestrictions
 keywords: NSArchiveRestrictionInfo, GetSubRestrictions
 so.topic: reference

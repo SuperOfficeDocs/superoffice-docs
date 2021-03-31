@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_SetValidTo
-description: NSPriceList.SetValidTo(DateTime validTo)
+uid: crmscript_ref_NSPriceList_SetValidTo
+title: SetValidTo(DateTime validTo)
 intellisense: NSPriceList.SetValidTo
 keywords: NSPriceList, GetValidTo
 so.topic: reference

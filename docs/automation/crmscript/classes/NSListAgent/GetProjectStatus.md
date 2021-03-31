@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetProjectStatus
-description: NSProjectStatus GetProjectStatus(Integer projectStatusId);
+uid: crmscript_ref_NSListAgent_GetProjectStatus
+title: NSProjectStatus GetProjectStatus(Integer projectStatusId);
 intellisense: NSListAgent.GetProjectStatus
-keywords: NSListAgent,GetProjectStatus
+keywords: NSListAgent, GetProjectStatus
 so.topic: reference
 ---
 

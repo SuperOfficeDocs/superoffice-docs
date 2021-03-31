@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_UploadAttachment
-description: Void UploadAttachment(Integer attachmentId, Stream content)
+uid: crmscript_ref_NSTicketAgent_UploadAttachment
+title: Void UploadAttachment(Integer attachmentId, Stream content)
 intellisense: NSTicketAgent.UploadAttachment
-keywords: NSTicketAgent,UploadAttachment
+keywords: NSTicketAgent, UploadAttachment
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetCategories
-description: CategoryArray GetCategories()
+uid: crmscript_ref_NSListAgent_GetCategories
+title: CategoryArray GetCategories()
 intellisense: NSListAgent.GetCategories
-keywords: NSListAgent,GetCategories
+keywords: NSListAgent, GetCategories
 so.topic: reference
 ---
 

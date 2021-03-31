@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketDeviceInfo_SetLanguage
-description: NSPocketDeviceInfo.SetLanguage(String language)
+uid: crmscript_ref_NSPocketDeviceInfo_SetLanguage
+title: SetLanguage(String language)
 intellisense: NSPocketDeviceInfo.SetLanguage
 keywords: NSPocketDeviceInfo, GetLanguage
 so.topic: reference

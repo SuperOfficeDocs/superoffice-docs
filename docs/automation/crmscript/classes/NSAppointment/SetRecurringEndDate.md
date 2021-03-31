@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetRecurringEndDate
-description: NSAppointment.SetRecurringEndDate(DateTime recurringEndDate)
+uid: crmscript_ref_NSAppointment_SetRecurringEndDate
+title: SetRecurringEndDate(DateTime recurringEndDate)
 intellisense: NSAppointment.SetRecurringEndDate
 keywords: NSAppointment, GetRecurringEndDate
 so.topic: reference

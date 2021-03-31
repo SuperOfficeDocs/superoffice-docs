@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_SetMonEnabled
-description: NSChatOpeningHours.SetMonEnabled(Bool monEnabled)
+uid: crmscript_ref_NSChatOpeningHours_SetMonEnabled
+title: SetMonEnabled(Bool monEnabled)
 intellisense: NSChatOpeningHours.SetMonEnabled
 keywords: NSChatOpeningHours, GetMonEnabled
 so.topic: reference

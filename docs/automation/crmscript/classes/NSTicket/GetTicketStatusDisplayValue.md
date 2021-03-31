@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetTicketStatusDisplayValue
-description: String NSTicket.GetTicketStatusDisplayValue()
+uid: crmscript_ref_NSTicket_GetTicketStatusDisplayValue
+title: String GetTicketStatusDisplayValue()
 intellisense: NSTicket.GetTicketStatusDisplayValue
 keywords: NSTicket, GetTicketStatusDisplayValue
 so.topic: reference

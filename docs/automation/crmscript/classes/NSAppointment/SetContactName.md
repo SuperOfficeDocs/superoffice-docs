@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetContactName
-description: NSAppointment.SetContactName(String contactName)
+uid: crmscript_ref_NSAppointment_SetContactName
+title: SetContactName(String contactName)
 intellisense: NSAppointment.SetContactName
 keywords: NSAppointment, GetContactName
 so.topic: reference

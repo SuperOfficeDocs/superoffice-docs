@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceOverride_SetIsActive
-description: NSResourceOverride.SetIsActive(Bool isActive)
+uid: crmscript_ref_NSResourceOverride_SetIsActive
+title: SetIsActive(Bool isActive)
 intellisense: NSResourceOverride.SetIsActive
 keywords: NSResourceOverride, GetIsActive
 so.topic: reference

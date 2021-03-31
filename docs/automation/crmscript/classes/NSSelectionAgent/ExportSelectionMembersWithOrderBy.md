@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_ExportSelectionMembersWithOrderBy
-description: ByteArray ExportSelectionMembersWithOrderBy(Integer selectionId, String templateName, Bool useContacts, String orderBy)
+uid: crmscript_ref_NSSelectionAgent_ExportSelectionMembersWithOrderBy
+title: ByteArray ExportSelectionMembersWithOrderBy(Integer selectionId, String templateName, Bool useContacts, String orderBy)
 intellisense: NSSelectionAgent.ExportSelectionMembersWithOrderBy
-keywords: NSSelectionAgent,ExportSelectionMembersWithOrderBy
+keywords: NSSelectionAgent, ExportSelectionMembersWithOrderBy
 so.topic: reference
 ---
 

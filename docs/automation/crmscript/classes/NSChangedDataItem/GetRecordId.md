@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChangedDataItem_GetRecordId
-description: Integer NSChangedDataItem.GetRecordId()
+uid: crmscript_ref_NSChangedDataItem_GetRecordId
+title: Integer GetRecordId()
 intellisense: NSChangedDataItem.GetRecordId
 keywords: NSChangedDataItem, GetRecordId
 so.topic: reference

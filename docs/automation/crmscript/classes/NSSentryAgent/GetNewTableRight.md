@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSentryAgent_GetNewTableRight
-description: TableRight GetNewTableRight(String tableName)
+uid: crmscript_ref_NSSentryAgent_GetNewTableRight
+title: TableRight GetNewTableRight(String tableName)
 intellisense: NSSentryAgent.GetNewTableRight
-keywords: NSSentryAgent,GetNewTableRight
+keywords: NSSentryAgent, GetNewTableRight
 so.topic: reference
 ---
 

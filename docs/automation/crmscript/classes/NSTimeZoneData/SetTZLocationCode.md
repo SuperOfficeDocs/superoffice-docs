@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneData_SetTZLocationCode
-description: NSTimeZoneData.SetTZLocationCode(String tZLocationCode)
+uid: crmscript_ref_NSTimeZoneData_SetTZLocationCode
+title: SetTZLocationCode(String tZLocationCode)
 intellisense: NSTimeZoneData.SetTZLocationCode
 keywords: NSTimeZoneData, GetTZLocationCode
 so.topic: reference

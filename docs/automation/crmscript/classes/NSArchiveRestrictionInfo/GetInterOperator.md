@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo_GetInterOperator
-description: Integer NSArchiveRestrictionInfo.GetInterOperator()
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetInterOperator
+title: Integer GetInterOperator()
 intellisense: NSArchiveRestrictionInfo.GetInterOperator
 keywords: NSArchiveRestrictionInfo, GetInterOperator
 so.topic: reference

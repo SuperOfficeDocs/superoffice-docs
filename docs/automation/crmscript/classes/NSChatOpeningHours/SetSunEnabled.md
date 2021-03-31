@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_SetSunEnabled
-description: NSChatOpeningHours.SetSunEnabled(Bool sunEnabled)
+uid: crmscript_ref_NSChatOpeningHours_SetSunEnabled
+title: SetSunEnabled(Bool sunEnabled)
 intellisense: NSChatOpeningHours.SetSunEnabled
 keywords: NSChatOpeningHours, GetSunEnabled
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuote_GetERPQuoteKey
-description: String NSQuote.GetERPQuoteKey()
+uid: crmscript_ref_NSQuote_GetERPQuoteKey
+title: String GetERPQuoteKey()
 intellisense: NSQuote.GetERPQuoteKey
 keywords: NSQuote, GetERPQuoteKey
 so.topic: reference

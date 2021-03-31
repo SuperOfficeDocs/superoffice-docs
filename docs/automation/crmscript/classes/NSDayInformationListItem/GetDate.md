@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDayInformationListItem_GetDate
-description: DateTime NSDayInformationListItem.GetDate()
+uid: crmscript_ref_NSDayInformationListItem_GetDate
+title: DateTime GetDate()
 intellisense: NSDayInformationListItem.GetDate
 keywords: NSDayInformationListItem, GetDate
 so.topic: reference

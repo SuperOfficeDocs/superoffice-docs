@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSUser_SetExtraFields
-description: NSUser.SetExtraFields(Map extras)
+uid: crmscript_ref_NSUser_SetExtraFields
+title: SetExtraFields(Map extras)
 intellisense: NSUser.SetExtraFields
 keywords: NSUser, SetExtraFields
 so.topic: reference
 ---
 
-Set the extra field values with a map.
+Set the extra field values on User with a map.
 
 **Parameter:** 
  - **extras** Map containing extra field values encoded as strings.

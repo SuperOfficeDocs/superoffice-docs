@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_GetMessage
-description: String NSPocketNotificationMessage.GetMessage()
+uid: crmscript_ref_NSPocketNotificationMessage_GetMessage
+title: String GetMessage()
 intellisense: NSPocketNotificationMessage.GetMessage
 keywords: NSPocketNotificationMessage, GetMessage
 so.topic: reference

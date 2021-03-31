@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_GenerateReport
-description: String GenerateReport(Integer reportId, Integer labelLayoutId, String filename, String language, String fileType, ArchiveRestrictionInfoArray restrictions)
+uid: crmscript_ref_NSReportAgent_GenerateReport
+title: String GenerateReport(Integer reportId, Integer labelLayoutId, String filename, String language, String fileType, ArchiveRestrictionInfoArray restrictions)
 intellisense: NSReportAgent.GenerateReport
-keywords: NSReportAgent,GenerateReport
+keywords: NSReportAgent, GenerateReport
 so.topic: reference
 ---
 

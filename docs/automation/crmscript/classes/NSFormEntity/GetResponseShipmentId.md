@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetResponseShipmentId
-description: Integer NSFormEntity.GetResponseShipmentId()
+uid: crmscript_ref_NSFormEntity_GetResponseShipmentId
+title: Integer GetResponseShipmentId()
 intellisense: NSFormEntity.GetResponseShipmentId
 keywords: NSFormEntity, GetResponseShipmentId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLineConfiguration
-description: NSQuoteLineConfiguration
+uid: crmscript_ref_NSQuoteLineConfiguration
+title: NSQuoteLineConfiguration
 intellisense: Void.NSQuoteLineConfiguration
 keywords: NSQuoteLineConfiguration
 so.topic: reference

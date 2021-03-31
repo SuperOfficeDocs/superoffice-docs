@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_SetOwnerName
-description: NSModuleLicense.SetOwnerName(String ownerName)
+uid: crmscript_ref_NSModuleLicense_SetOwnerName
+title: SetOwnerName(String ownerName)
 intellisense: NSModuleLicense.SetOwnerName
 keywords: NSModuleLicense, GetOwnerName
 so.topic: reference

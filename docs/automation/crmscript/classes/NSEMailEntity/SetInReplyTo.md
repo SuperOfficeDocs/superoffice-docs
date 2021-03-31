@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetInReplyTo
-description: NSEMailEntity.SetInReplyTo(EMailEnvelope inReplyTo)
+uid: crmscript_ref_NSEMailEntity_SetInReplyTo
+title: SetInReplyTo(EMailEnvelope inReplyTo)
 intellisense: NSEMailEntity.SetInReplyTo
 keywords: NSEMailEntity, GetInReplyTo
 so.topic: reference

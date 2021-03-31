@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_GetShipmentMessageEntity
-description: NSShipmentMessageEntity GetShipmentMessageEntity(Integer shipmentMessageEntityId);
+uid: crmscript_ref_NSMarketingAgent_GetShipmentMessageEntity
+title: NSShipmentMessageEntity GetShipmentMessageEntity(Integer shipmentMessageEntityId);
 intellisense: NSMarketingAgent.GetShipmentMessageEntity
-keywords: NSMarketingAgent,GetShipmentMessageEntity
+keywords: NSMarketingAgent, GetShipmentMessageEntity
 so.topic: reference
 ---
 

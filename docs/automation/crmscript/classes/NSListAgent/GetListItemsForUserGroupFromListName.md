@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetListItemsForUserGroupFromListName
-description: SelectableMDOListItemArray GetListItemsForUserGroupFromListName(String udListDefinitionName, Integer groupId)
+uid: crmscript_ref_NSListAgent_GetListItemsForUserGroupFromListName
+title: SelectableMDOListItemArray GetListItemsForUserGroupFromListName(String udListDefinitionName, Integer groupId)
 intellisense: NSListAgent.GetListItemsForUserGroupFromListName
-keywords: NSListAgent,GetListItemsForUserGroupFromListName
+keywords: NSListAgent, GetListItemsForUserGroupFromListName
 so.topic: reference
 ---
 

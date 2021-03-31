@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_SetRank
-description: NSRoleEntity.SetRank(Integer rank)
+uid: crmscript_ref_NSRoleEntity_SetRank
+title: SetRank(Integer rank)
 intellisense: NSRoleEntity.SetRank
 keywords: NSRoleEntity, GetRank
 so.topic: reference

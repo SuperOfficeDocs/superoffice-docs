@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionCategoryList
-description: NSSelectionCategoryList
+uid: crmscript_ref_NSSelectionCategoryList
+title: NSSelectionCategoryList
 intellisense: Void.NSSelectionCategoryList
 keywords: NSSelectionCategoryList
 so.topic: reference

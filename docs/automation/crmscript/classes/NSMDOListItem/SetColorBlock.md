@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_SetColorBlock
-description: NSMDOListItem.SetColorBlock(Integer colorBlock)
+uid: crmscript_ref_NSMDOListItem_SetColorBlock
+title: SetColorBlock(Integer colorBlock)
 intellisense: NSMDOListItem.SetColorBlock
 keywords: NSMDOListItem, GetColorBlock
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetShowInStatusBar
-description: Bool NSExtAppEntity.GetShowInStatusBar()
+uid: crmscript_ref_NSExtAppEntity_GetShowInStatusBar
+title: Bool GetShowInStatusBar()
 intellisense: NSExtAppEntity.GetShowInStatusBar
 keywords: NSExtAppEntity, GetShowInStatusBar
 so.topic: reference

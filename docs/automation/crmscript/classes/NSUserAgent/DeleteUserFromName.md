@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_DeleteUserFromName
-description: Void DeleteUserFromName(String userName)
+uid: crmscript_ref_NSUserAgent_DeleteUserFromName
+title: Void DeleteUserFromName(String userName)
 intellisense: NSUserAgent.DeleteUserFromName
-keywords: NSUserAgent,DeleteUserFromName
+keywords: NSUserAgent, DeleteUserFromName
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetContact
-description: NSPersonEntity.SetContact(Contact contact)
+uid: crmscript_ref_NSPersonEntity_SetContact
+title: SetContact(Contact contact)
 intellisense: NSPersonEntity.SetContact
 keywords: NSPersonEntity, GetContact
 so.topic: reference

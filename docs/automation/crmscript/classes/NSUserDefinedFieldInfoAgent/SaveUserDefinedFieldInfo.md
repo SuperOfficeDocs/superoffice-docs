@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
-description: NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo userDefinedFieldInfo);
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
+title: NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo userDefinedFieldInfo);
 intellisense: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
-keywords: NSUserDefinedFieldInfoAgent,SaveUserDefinedFieldInfo
+keywords: NSUserDefinedFieldInfoAgent, SaveUserDefinedFieldInfo
 so.topic: reference
 ---
 	  

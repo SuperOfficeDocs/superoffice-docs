@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_CreateTempFile
-description: String CreateTempFile(String filename, Stream dataStream)
+uid: crmscript_ref_NSDocumentAgent_CreateTempFile
+title: String CreateTempFile(String filename, Stream dataStream)
 intellisense: NSDocumentAgent.CreateTempFile
-keywords: NSDocumentAgent,CreateTempFile
+keywords: NSDocumentAgent, CreateTempFile
 so.topic: reference
 ---
 

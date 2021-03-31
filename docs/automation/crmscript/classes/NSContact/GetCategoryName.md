@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_GetCategoryName
-description: String NSContact.GetCategoryName()
+uid: crmscript_ref_NSContact_GetCategoryName
+title: String GetCategoryName()
 intellisense: NSContact.GetCategoryName
 keywords: NSContact, GetCategoryName
 so.topic: reference

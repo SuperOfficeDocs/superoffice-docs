@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_ChatSessionsForUser
-description: ChatSessionArray ChatSessionsForUser()
+uid: crmscript_ref_NSCustomerServiceAgent_ChatSessionsForUser
+title: ChatSessionArray ChatSessionsForUser()
 intellisense: NSCustomerServiceAgent.ChatSessionsForUser
-keywords: NSCustomerServiceAgent,ChatSessionsForUser
+keywords: NSCustomerServiceAgent, ChatSessionsForUser
 so.topic: reference
 ---
 

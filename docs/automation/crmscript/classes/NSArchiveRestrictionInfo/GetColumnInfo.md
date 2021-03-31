@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo_GetColumnInfo
-description: ArchiveColumnInfo NSArchiveRestrictionInfo.GetColumnInfo()
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetColumnInfo
+title: ArchiveColumnInfo GetColumnInfo()
 intellisense: NSArchiveRestrictionInfo.GetColumnInfo
 keywords: NSArchiveRestrictionInfo, GetColumnInfo
 so.topic: reference

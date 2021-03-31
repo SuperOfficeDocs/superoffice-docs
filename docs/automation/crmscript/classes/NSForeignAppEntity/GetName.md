@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignAppEntity_GetName
-description: String NSForeignAppEntity.GetName()
+uid: crmscript_ref_NSForeignAppEntity_GetName
+title: String GetName()
 intellisense: NSForeignAppEntity.GetName
 keywords: NSForeignAppEntity, GetName
 so.topic: reference

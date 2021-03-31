@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetMaxSubmits
-description: Integer NSFormEntity.GetMaxSubmits()
+uid: crmscript_ref_NSFormEntity_GetMaxSubmits
+title: Integer GetMaxSubmits()
 intellisense: NSFormEntity.GetMaxSubmits
 keywords: NSFormEntity, GetMaxSubmits
 so.topic: reference

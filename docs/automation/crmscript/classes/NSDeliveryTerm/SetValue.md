@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSDeliveryTerm_SetValue
-description: NSDeliveryTerm.SetValue(String value)
+uid: crmscript_ref_NSDeliveryTerm_SetValue
+title: SetValue(String value)
 intellisense: NSDeliveryTerm.SetValue
 keywords: NSDeliveryTerm, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the DeliveryTerm item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String DeliveryTerm name.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailboxEntity
-description: NSMailboxEntity
+uid: crmscript_ref_NSMailboxEntity
+title: NSMailboxEntity
 intellisense: Void.NSMailboxEntity
 keywords: NSMailboxEntity
 so.topic: reference

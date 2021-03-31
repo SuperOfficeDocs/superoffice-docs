@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetDescription
-description: NSSale.SetDescription(String description)
+uid: crmscript_ref_NSSale_SetDescription
+title: SetDescription(String description)
 intellisense: NSSale.SetDescription
 keywords: NSSale, GetDescription
 so.topic: reference

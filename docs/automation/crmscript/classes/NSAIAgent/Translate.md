@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAIAgent_Translate
-description: String Translate(String text, String targetLanguage)
+uid: crmscript_ref_NSAIAgent_Translate
+title: String Translate(String text, String targetLanguage)
 intellisense: NSAIAgent.Translate
-keywords: NSAIAgent,Translate
+keywords: NSAIAgent, Translate
 so.topic: reference
 ---
 

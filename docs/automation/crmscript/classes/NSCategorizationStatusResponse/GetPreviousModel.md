@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategorizationStatusResponse_GetPreviousModel
-description: CategorizationModelDetails NSCategorizationStatusResponse.GetPreviousModel()
+uid: crmscript_ref_NSCategorizationStatusResponse_GetPreviousModel
+title: CategorizationModelDetails GetPreviousModel()
 intellisense: NSCategorizationStatusResponse.GetPreviousModel
 keywords: NSCategorizationStatusResponse, GetPreviousModel
 so.topic: reference

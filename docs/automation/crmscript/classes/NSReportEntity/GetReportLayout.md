@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportEntity_GetReportLayout
-description: Integer NSReportEntity.GetReportLayout()
+uid: crmscript_ref_NSReportEntity_GetReportLayout
+title: Integer GetReportLayout()
 intellisense: NSReportEntity.GetReportLayout
 keywords: NSReportEntity, GetReportLayout
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketStartupData_GetOverdueSalesCount
-description: Integer NSPocketStartupData.GetOverdueSalesCount()
+uid: crmscript_ref_NSPocketStartupData_GetOverdueSalesCount
+title: Integer GetOverdueSalesCount()
 intellisense: NSPocketStartupData.GetOverdueSalesCount
 keywords: NSPocketStartupData, GetOverdueSalesCount
 so.topic: reference

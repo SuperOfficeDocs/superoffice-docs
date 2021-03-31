@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetIsDefaultPublished
-description: NSDocumentTemplateEntity.SetIsDefaultPublished(Bool isDefaultPublished)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetIsDefaultPublished
+title: SetIsDefaultPublished(Bool isDefaultPublished)
 intellisense: NSDocumentTemplateEntity.SetIsDefaultPublished
 keywords: NSDocumentTemplateEntity, GetIsDefaultPublished
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptEntity_SetIncludeId
-description: NSCRMScriptEntity.SetIncludeId(String includeId)
+uid: crmscript_ref_NSCRMScriptEntity_SetIncludeId
+title: SetIncludeId(String includeId)
 intellisense: NSCRMScriptEntity.SetIncludeId
 keywords: NSCRMScriptEntity, GetIncludeId
 so.topic: reference

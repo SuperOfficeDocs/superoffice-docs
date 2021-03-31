@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignKey_SetUpdatedDate
-description: NSForeignKey.SetUpdatedDate(DateTime updatedDate)
+uid: crmscript_ref_NSForeignKey_SetUpdatedDate
+title: SetUpdatedDate(DateTime updatedDate)
 intellisense: NSForeignKey.SetUpdatedDate
 keywords: NSForeignKey, GetUpdatedDate
 so.topic: reference

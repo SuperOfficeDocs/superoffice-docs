@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDayInformationListItem
-description: NSDayInformationListItem
+uid: crmscript_ref_NSDayInformationListItem
+title: NSDayInformationListItem
 intellisense: Void.NSDayInformationListItem
 keywords: NSDayInformationListItem
 so.topic: reference

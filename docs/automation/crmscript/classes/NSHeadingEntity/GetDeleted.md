@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHeadingEntity_GetDeleted
-description: Bool NSHeadingEntity.GetDeleted()
+uid: crmscript_ref_NSHeadingEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSHeadingEntity.GetDeleted
 keywords: NSHeadingEntity, GetDeleted
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetStatus
-description: NSQuoteLine.SetStatus(QuoteStatus status)
+uid: crmscript_ref_NSQuoteLine_SetStatus
+title: SetStatus(QuoteStatus status)
 intellisense: NSQuoteLine.SetStatus
 keywords: NSQuoteLine, GetStatus
 so.topic: reference

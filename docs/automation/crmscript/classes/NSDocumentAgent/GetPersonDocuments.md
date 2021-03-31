@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetPersonDocuments
-description: DocumentArray GetPersonDocuments(Integer personId)
+uid: crmscript_ref_NSDocumentAgent_GetPersonDocuments
+title: DocumentArray GetPersonDocuments(Integer personId)
 intellisense: NSDocumentAgent.GetPersonDocuments
-keywords: NSDocumentAgent,GetPersonDocuments
+keywords: NSDocumentAgent, GetPersonDocuments
 so.topic: reference
 ---
 

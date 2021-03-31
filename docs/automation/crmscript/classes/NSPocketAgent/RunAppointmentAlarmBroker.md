@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPocketAgent_RunAppointmentAlarmBroker
-description: Void RunAppointmentAlarmBroker()
+uid: crmscript_ref_NSPocketAgent_RunAppointmentAlarmBroker
+title: Void RunAppointmentAlarmBroker()
 intellisense: NSPocketAgent.RunAppointmentAlarmBroker
-keywords: NSPocketAgent,RunAppointmentAlarmBroker
+keywords: NSPocketAgent, RunAppointmentAlarmBroker
 so.topic: reference
 ---
 

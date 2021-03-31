@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneRule_GetStartRulePattern
-description: String NSTimeZoneRule.GetStartRulePattern()
+uid: crmscript_ref_NSTimeZoneRule_GetStartRulePattern
+title: String GetStartRulePattern()
 intellisense: NSTimeZoneRule.GetStartRulePattern
 keywords: NSTimeZoneRule, GetStartRulePattern
 so.topic: reference

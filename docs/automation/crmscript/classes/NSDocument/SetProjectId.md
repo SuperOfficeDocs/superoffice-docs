@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_SetProjectId
-description: NSDocument.SetProjectId(Integer projectId)
+uid: crmscript_ref_NSDocument_SetProjectId
+title: SetProjectId(Integer projectId)
 intellisense: NSDocument.SetProjectId
 keywords: NSDocument, GetProjectId
 so.topic: reference

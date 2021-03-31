@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_SetToEmail
-description: NSQuotePublishDocuments.SetToEmail(String toEmail)
+uid: crmscript_ref_NSQuotePublishDocuments_SetToEmail
+title: SetToEmail(String toEmail)
 intellisense: NSQuotePublishDocuments.SetToEmail
 keywords: NSQuotePublishDocuments, GetToEmail
 so.topic: reference

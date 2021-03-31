@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent_DeleteStopWordsById
-description: Void DeleteStopWordsById(IntegerArray stopWordIds)
+uid: crmscript_ref_NSFreeTextAgent_DeleteStopWordsById
+title: Void DeleteStopWordsById(IntegerArray stopWordIds)
 intellisense: NSFreeTextAgent.DeleteStopWordsById
-keywords: NSFreeTextAgent,DeleteStopWordsById
+keywords: NSFreeTextAgent, DeleteStopWordsById
 so.topic: reference
 ---
 

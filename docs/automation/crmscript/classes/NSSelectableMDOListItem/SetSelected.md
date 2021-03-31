@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetSelected
-description: NSSelectableMDOListItem.SetSelected(Bool selected)
+uid: crmscript_ref_NSSelectableMDOListItem_SetSelected
+title: SetSelected(Bool selected)
 intellisense: NSSelectableMDOListItem.SetSelected
 keywords: NSSelectableMDOListItem, GetSelected
 so.topic: reference

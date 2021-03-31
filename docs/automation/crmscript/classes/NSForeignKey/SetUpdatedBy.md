@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignKey_SetUpdatedBy
-description: NSForeignKey.SetUpdatedBy(String updatedBy)
+uid: crmscript_ref_NSForeignKey_SetUpdatedBy
+title: SetUpdatedBy(String updatedBy)
 intellisense: NSForeignKey.SetUpdatedBy
 keywords: NSForeignKey, GetUpdatedBy
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_SaveCRMScriptEntity
-description: NSCRMScriptEntity SaveCRMScriptEntity(NSCRMScriptEntity cRMScriptEntity);
+uid: crmscript_ref_NSCRMScriptAgent_SaveCRMScriptEntity
+title: NSCRMScriptEntity SaveCRMScriptEntity(NSCRMScriptEntity cRMScriptEntity);
 intellisense: NSCRMScriptAgent.SaveCRMScriptEntity
-keywords: NSCRMScriptAgent,SaveCRMScriptEntity
+keywords: NSCRMScriptAgent, SaveCRMScriptEntity
 so.topic: reference
 ---
 	  

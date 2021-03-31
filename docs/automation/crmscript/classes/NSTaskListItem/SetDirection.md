@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_SetDirection
-description: NSTaskListItem.SetDirection(TaskDirection direction)
+uid: crmscript_ref_NSTaskListItem_SetDirection
+title: SetDirection(TaskDirection direction)
 intellisense: NSTaskListItem.SetDirection
 keywords: NSTaskListItem, GetDirection
 so.topic: reference

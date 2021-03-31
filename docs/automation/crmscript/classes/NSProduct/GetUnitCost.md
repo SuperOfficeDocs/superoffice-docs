@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetUnitCost
-description: Float NSProduct.GetUnitCost()
+uid: crmscript_ref_NSProduct_GetUnitCost
+title: Float GetUnitCost()
 intellisense: NSProduct.GetUnitCost
 keywords: NSProduct, GetUnitCost
 so.topic: reference

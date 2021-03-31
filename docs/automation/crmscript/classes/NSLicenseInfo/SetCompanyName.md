@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_SetCompanyName
-description: NSLicenseInfo.SetCompanyName(String companyName)
+uid: crmscript_ref_NSLicenseInfo_SetCompanyName
+title: SetCompanyName(String companyName)
 intellisense: NSLicenseInfo.SetCompanyName
 keywords: NSLicenseInfo, GetCompanyName
 so.topic: reference

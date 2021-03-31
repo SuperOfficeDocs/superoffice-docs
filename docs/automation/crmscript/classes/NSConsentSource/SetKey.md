@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentSource_SetKey
-description: NSConsentSource.SetKey(String key)
+uid: crmscript_ref_NSConsentSource_SetKey
+title: SetKey(String key)
 intellisense: NSConsentSource.SetKey
 keywords: NSConsentSource, GetKey
 so.topic: reference

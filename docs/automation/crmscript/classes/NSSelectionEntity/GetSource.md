@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetSource
-description: Integer NSSelectionEntity.GetSource()
+uid: crmscript_ref_NSSelectionEntity_GetSource
+title: Integer GetSource()
 intellisense: NSSelectionEntity.GetSource
 keywords: NSSelectionEntity, GetSource
 so.topic: reference

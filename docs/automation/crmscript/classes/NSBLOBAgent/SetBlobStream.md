@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_SetBlobStream
-description: Void SetBlobStream(Integer blobEntityId, Stream stream)
+uid: crmscript_ref_NSBLOBAgent_SetBlobStream
+title: Void SetBlobStream(Integer blobEntityId, Stream stream)
 intellisense: NSBLOBAgent.SetBlobStream
-keywords: NSBLOBAgent,SetBlobStream
+keywords: NSBLOBAgent, SetBlobStream
 so.topic: reference
 ---
 

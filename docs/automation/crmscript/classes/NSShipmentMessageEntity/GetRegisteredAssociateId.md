@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetRegisteredAssociateId
-description: Integer NSShipmentMessageEntity.GetRegisteredAssociateId()
+uid: crmscript_ref_NSShipmentMessageEntity_GetRegisteredAssociateId
+title: Integer GetRegisteredAssociateId()
 intellisense: NSShipmentMessageEntity.GetRegisteredAssociateId
 keywords: NSShipmentMessageEntity, GetRegisteredAssociateId
 so.topic: reference

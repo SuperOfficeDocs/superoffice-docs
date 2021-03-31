@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetLoadTemplateFromPlugin
-description: Integer NSDocumentTemplateEntity.GetLoadTemplateFromPlugin()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetLoadTemplateFromPlugin
+title: Integer GetLoadTemplateFromPlugin()
 intellisense: NSDocumentTemplateEntity.GetLoadTemplateFromPlugin
 keywords: NSDocumentTemplateEntity, GetLoadTemplateFromPlugin
 so.topic: reference

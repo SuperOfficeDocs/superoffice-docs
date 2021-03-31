@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_SetActiveTimeZoneRow
-description: Void SetActiveTimeZoneRow(Integer id, Bool active)
+uid: crmscript_ref_NSTimeZoneAgent_SetActiveTimeZoneRow
+title: Void SetActiveTimeZoneRow(Integer id, Bool active)
 intellisense: NSTimeZoneAgent.SetActiveTimeZoneRow
-keywords: NSTimeZoneAgent,SetActiveTimeZoneRow
+keywords: NSTimeZoneAgent, SetActiveTimeZoneRow
 so.topic: reference
 ---
 

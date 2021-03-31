@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption_GetListName
-description: String NSDashboardTileOption.GetListName()
+uid: crmscript_ref_NSDashboardTileOption_GetListName
+title: String GetListName()
 intellisense: NSDashboardTileOption.GetListName
 keywords: NSDashboardTileOption, GetListName
 so.topic: reference

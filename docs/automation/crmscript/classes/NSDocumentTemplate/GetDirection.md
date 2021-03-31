@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplate_GetDirection
-description: DocTmplDirection NSDocumentTemplate.GetDirection()
+uid: crmscript_ref_NSDocumentTemplate_GetDirection
+title: DocTmplDirection GetDirection()
 intellisense: NSDocumentTemplate.GetDirection
 keywords: NSDocumentTemplate, GetDirection
 so.topic: reference

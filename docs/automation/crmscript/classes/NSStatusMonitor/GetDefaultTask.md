@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetDefaultTask
-description: Integer NSStatusMonitor.GetDefaultTask()
+uid: crmscript_ref_NSStatusMonitor_GetDefaultTask
+title: Integer GetDefaultTask()
 intellisense: NSStatusMonitor.GetDefaultTask
 keywords: NSStatusMonitor, GetDefaultTask
 so.topic: reference

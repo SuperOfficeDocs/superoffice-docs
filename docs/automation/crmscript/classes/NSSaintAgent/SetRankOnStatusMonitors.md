@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_SetRankOnStatusMonitors
-description: Void SetRankOnStatusMonitors(String type, IntegerArray itemsIds)
+uid: crmscript_ref_NSSaintAgent_SetRankOnStatusMonitors
+title: Void SetRankOnStatusMonitors(String type, IntegerArray itemsIds)
 intellisense: NSSaintAgent.SetRankOnStatusMonitors
-keywords: NSSaintAgent,SetRankOnStatusMonitors
+keywords: NSSaintAgent, SetRankOnStatusMonitors
 so.topic: reference
 ---
 

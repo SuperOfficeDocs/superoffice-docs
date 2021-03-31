@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_SetNumSent
-description: NSPreviewMailingHeader.SetNumSent(Integer numSent)
+uid: crmscript_ref_NSPreviewMailingHeader_SetNumSent
+title: SetNumSent(Integer numSent)
 intellisense: NSPreviewMailingHeader.SetNumSent
 keywords: NSPreviewMailingHeader, GetNumSent
 so.topic: reference

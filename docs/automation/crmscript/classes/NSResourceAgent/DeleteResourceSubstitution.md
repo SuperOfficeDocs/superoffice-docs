@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSResourceAgent_DeleteResourceSubstitution
-description: Void DeleteResourceSubstitution(String resourceName, String culture)
+uid: crmscript_ref_NSResourceAgent_DeleteResourceSubstitution
+title: Void DeleteResourceSubstitution(String resourceName, String culture)
 intellisense: NSResourceAgent.DeleteResourceSubstitution
-keywords: NSResourceAgent,DeleteResourceSubstitution
+keywords: NSResourceAgent, DeleteResourceSubstitution
 so.topic: reference
 ---
 

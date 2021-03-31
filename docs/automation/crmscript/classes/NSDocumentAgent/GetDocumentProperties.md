@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetDocumentProperties
-description: StringDictionary GetDocumentProperties(Integer documentId, StringArray requestedProperties)
+uid: crmscript_ref_NSDocumentAgent_GetDocumentProperties
+title: StringDictionary GetDocumentProperties(Integer documentId, StringArray requestedProperties)
 intellisense: NSDocumentAgent.GetDocumentProperties
-keywords: NSDocumentAgent,GetDocumentProperties
+keywords: NSDocumentAgent, GetDocumentProperties
 so.topic: reference
 ---
 

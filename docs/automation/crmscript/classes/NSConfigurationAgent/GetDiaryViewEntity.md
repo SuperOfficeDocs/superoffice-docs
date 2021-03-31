@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetDiaryViewEntity
-description: NSDiaryViewEntity GetDiaryViewEntity(Integer diaryViewEntityId);
+uid: crmscript_ref_NSConfigurationAgent_GetDiaryViewEntity
+title: NSDiaryViewEntity GetDiaryViewEntity(Integer diaryViewEntityId);
 intellisense: NSConfigurationAgent.GetDiaryViewEntity
-keywords: NSConfigurationAgent,GetDiaryViewEntity
+keywords: NSConfigurationAgent, GetDiaryViewEntity
 so.topic: reference
 ---
 

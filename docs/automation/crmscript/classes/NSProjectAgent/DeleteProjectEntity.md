@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_DeleteProjectEntity
-description: DeleteProjectEntity(Integer projectEntity);
+uid: crmscript_ref_NSProjectAgent_DeleteProjectEntity
+title: DeleteProjectEntity(Integer projectEntity);
 intellisense: NSProjectAgent.DeleteProjectEntity
-keywords: NSProjectAgent,DeleteProjectEntity
+keywords: NSProjectAgent, DeleteProjectEntity
 so.topic: reference
 ---
 

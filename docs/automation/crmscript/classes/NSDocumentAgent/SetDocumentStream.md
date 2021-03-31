@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SetDocumentStream
-description: DocumentEntity SetDocumentStream(DocumentEntity documentEntity, Stream stream, Bool overwriteExistingData)
+uid: crmscript_ref_NSDocumentAgent_SetDocumentStream
+title: DocumentEntity SetDocumentStream(DocumentEntity documentEntity, Stream stream, Bool overwriteExistingData)
 intellisense: NSDocumentAgent.SetDocumentStream
-keywords: NSDocumentAgent,SetDocumentStream
+keywords: NSDocumentAgent, SetDocumentStream
 so.topic: reference
 ---
 

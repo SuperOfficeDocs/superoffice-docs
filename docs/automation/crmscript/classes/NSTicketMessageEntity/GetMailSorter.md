@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_GetMailSorter
-description: String NSTicketMessageEntity.GetMailSorter()
+uid: crmscript_ref_NSTicketMessageEntity_GetMailSorter
+title: String GetMailSorter()
 intellisense: NSTicketMessageEntity.GetMailSorter
 keywords: NSTicketMessageEntity, GetMailSorter
 so.topic: reference

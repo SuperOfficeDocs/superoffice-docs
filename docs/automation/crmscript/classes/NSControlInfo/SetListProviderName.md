@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSControlInfo_SetListProviderName
-description: NSControlInfo.SetListProviderName(String listProviderName)
+uid: crmscript_ref_NSControlInfo_SetListProviderName
+title: SetListProviderName(String listProviderName)
 intellisense: NSControlInfo.SetListProviderName
 keywords: NSControlInfo, GetListProviderName
 so.topic: reference

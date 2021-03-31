@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetProductCategoryKey
-description: NSQuoteLine.SetProductCategoryKey(String productCategoryKey)
+uid: crmscript_ref_NSQuoteLine_SetProductCategoryKey
+title: SetProductCategoryKey(String productCategoryKey)
 intellisense: NSQuoteLine.SetProductCategoryKey
 keywords: NSQuoteLine, GetProductCategoryKey
 so.topic: reference

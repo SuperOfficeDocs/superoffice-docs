@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetSanitizedDocumentStream
-description: Stream GetSanitizedDocumentStream(Integer documentId)
+uid: crmscript_ref_NSDocumentAgent_GetSanitizedDocumentStream
+title: Stream GetSanitizedDocumentStream(Integer documentId)
 intellisense: NSDocumentAgent.GetSanitizedDocumentStream
-keywords: NSDocumentAgent,GetSanitizedDocumentStream
+keywords: NSDocumentAgent, GetSanitizedDocumentStream
 so.topic: reference
 ---
 

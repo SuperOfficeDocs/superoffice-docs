@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessage_SetAuthor
-description: NSTicketMessage.SetAuthor(String author)
+uid: crmscript_ref_NSTicketMessage_SetAuthor
+title: SetAuthor(String author)
 intellisense: NSTicketMessage.SetAuthor
 keywords: NSTicketMessage, GetAuthor
 so.topic: reference

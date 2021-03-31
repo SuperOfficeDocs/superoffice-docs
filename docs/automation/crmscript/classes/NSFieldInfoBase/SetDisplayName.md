@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_SetDisplayName
-description: NSFieldInfoBase.SetDisplayName(String displayName)
+uid: crmscript_ref_NSFieldInfoBase_SetDisplayName
+title: SetDisplayName(String displayName)
 intellisense: NSFieldInfoBase.SetDisplayName
 keywords: NSFieldInfoBase, GetDisplayName
 so.topic: reference

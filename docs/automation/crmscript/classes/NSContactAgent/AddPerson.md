@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_AddPerson
-description: PersonEntity AddPerson(Integer contactId, PersonEntity newPersonEntity)
+uid: crmscript_ref_NSContactAgent_AddPerson
+title: PersonEntity AddPerson(Integer contactId, PersonEntity newPersonEntity)
 intellisense: NSContactAgent.AddPerson
-keywords: NSContactAgent,AddPerson
+keywords: NSContactAgent, AddPerson
 so.topic: reference
 ---
 

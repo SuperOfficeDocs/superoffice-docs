@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList
-description: NSPriceList
+uid: crmscript_ref_NSPriceList
+title: NSPriceList
 intellisense: Void.NSPriceList
 keywords: NSPriceList
 so.topic: reference

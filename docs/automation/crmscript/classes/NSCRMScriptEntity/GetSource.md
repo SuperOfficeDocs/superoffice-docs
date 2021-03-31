@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptEntity_GetSource
-description: String NSCRMScriptEntity.GetSource()
+uid: crmscript_ref_NSCRMScriptEntity_GetSource
+title: String GetSource()
 intellisense: NSCRMScriptEntity.GetSource
 keywords: NSCRMScriptEntity, GetSource
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetScriptId
-description: Integer NSFormEntity.GetScriptId()
+uid: crmscript_ref_NSFormEntity_GetScriptId
+title: Integer GetScriptId()
 intellisense: NSFormEntity.GetScriptId
 keywords: NSFormEntity, GetScriptId
 so.topic: reference

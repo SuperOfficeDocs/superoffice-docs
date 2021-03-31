@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetRepliedAt
-description: DateTime NSTicketEntity.GetRepliedAt()
+uid: crmscript_ref_NSTicketEntity_GetRepliedAt
+title: DateTime GetRepliedAt()
 intellisense: NSTicketEntity.GetRepliedAt
 keywords: NSTicketEntity, GetRepliedAt
 so.topic: reference

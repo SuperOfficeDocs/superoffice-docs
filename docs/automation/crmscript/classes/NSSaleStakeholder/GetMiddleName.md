@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_GetMiddleName
-description: String NSSaleStakeholder.GetMiddleName()
+uid: crmscript_ref_NSSaleStakeholder_GetMiddleName
+title: String GetMiddleName()
 intellisense: NSSaleStakeholder.GetMiddleName
 keywords: NSSaleStakeholder, GetMiddleName
 so.topic: reference

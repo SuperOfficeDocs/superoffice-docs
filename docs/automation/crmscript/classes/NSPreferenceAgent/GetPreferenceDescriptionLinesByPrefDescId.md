@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId
-description: PreferenceDescriptionLineArray GetPreferenceDescriptionLinesByPrefDescId(Integer prefDescId)
+uid: crmscript_ref_NSPreferenceAgent_GetPreferenceDescriptionLinesByPrefDescId
+title: PreferenceDescriptionLineArray GetPreferenceDescriptionLinesByPrefDescId(Integer prefDescId)
 intellisense: NSPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescId
-keywords: NSPreferenceAgent,GetPreferenceDescriptionLinesByPrefDescId
+keywords: NSPreferenceAgent, GetPreferenceDescriptionLinesByPrefDescId
 so.topic: reference
 ---
 

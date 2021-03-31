@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_SaveEMailAccount
-description: NSEMailAccount SaveEMailAccount(NSEMailAccount eMailAccount);
+uid: crmscript_ref_NSEMailAgent_SaveEMailAccount
+title: NSEMailAccount SaveEMailAccount(NSEMailAccount eMailAccount);
 intellisense: NSEMailAgent.SaveEMailAccount
-keywords: NSEMailAgent,SaveEMailAccount
+keywords: NSEMailAgent, SaveEMailAccount
 so.topic: reference
 ---
 	  

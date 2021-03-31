@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_GetIconHint
-description: String NSMDOListItem.GetIconHint()
+uid: crmscript_ref_NSMDOListItem_GetIconHint
+title: String GetIconHint()
 intellisense: NSMDOListItem.GetIconHint
 keywords: NSMDOListItem, GetIconHint
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListItemEntity_GetRank
-description: Integer NSListItemEntity.GetRank()
+uid: crmscript_ref_NSListItemEntity_GetRank
+title: Integer GetRank()
 intellisense: NSListItemEntity.GetRank
 keywords: NSListItemEntity, GetRank
 so.topic: reference

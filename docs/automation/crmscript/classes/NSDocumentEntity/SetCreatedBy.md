@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetCreatedBy
-description: NSDocumentEntity.SetCreatedBy(Associate createdBy)
+uid: crmscript_ref_NSDocumentEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
 intellisense: NSDocumentEntity.SetCreatedBy
 keywords: NSDocumentEntity, GetCreatedBy
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetQuote
-description: Quote GetQuote(Integer quoteId)
+uid: crmscript_ref_NSQuoteAgent_GetQuote
+title: Quote GetQuote(Integer quoteId)
 intellisense: NSQuoteAgent.GetQuote
-keywords: NSQuoteAgent,GetQuote
+keywords: NSQuoteAgent, GetQuote
 so.topic: reference
 ---
 

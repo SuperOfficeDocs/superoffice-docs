@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateInfo
-description: NSTemplateInfo
+uid: crmscript_ref_NSTemplateInfo
+title: NSTemplateInfo
 intellisense: Void.NSTemplateInfo
 keywords: NSTemplateInfo
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_DeleteChatTopicUserAgent
-description: Void DeleteChatTopicUserAgent(Integer chatTopicId, String username)
+uid: crmscript_ref_NSChatAgent_DeleteChatTopicUserAgent
+title: Void DeleteChatTopicUserAgent(Integer chatTopicId, String username)
 intellisense: NSChatAgent.DeleteChatTopicUserAgent
-keywords: NSChatAgent,DeleteChatTopicUserAgent
+keywords: NSChatAgent, DeleteChatTopicUserAgent
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_SetModuleTooltip
-description: NSModuleLicense.SetModuleTooltip(String moduleTooltip)
+uid: crmscript_ref_NSModuleLicense_SetModuleTooltip
+title: SetModuleTooltip(String moduleTooltip)
 intellisense: NSModuleLicense.SetModuleTooltip
 keywords: NSModuleLicense, GetModuleTooltip
 so.topic: reference

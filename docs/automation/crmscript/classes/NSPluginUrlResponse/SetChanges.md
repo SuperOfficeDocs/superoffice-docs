@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginUrlResponse_SetChanges
-description: NSPluginUrlResponse.SetChanges(ChangedData changes)
+uid: crmscript_ref_NSPluginUrlResponse_SetChanges
+title: SetChanges(ChangedData changes)
 intellisense: NSPluginUrlResponse.SetChanges
 keywords: NSPluginUrlResponse, GetChanges
 so.topic: reference

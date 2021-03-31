@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_SetCollectConsent
-description: NSChatTopicEntity.SetCollectConsent(Bool collectConsent)
+uid: crmscript_ref_NSChatTopicEntity_SetCollectConsent
+title: SetCollectConsent(Bool collectConsent)
 intellisense: NSChatTopicEntity.SetCollectConsent
 keywords: NSChatTopicEntity, GetCollectConsent
 so.topic: reference

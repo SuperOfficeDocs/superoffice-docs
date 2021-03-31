@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceConfigParameter_GetCreatedBy
-description: String NSAudienceConfigParameter.GetCreatedBy()
+uid: crmscript_ref_NSAudienceConfigParameter_GetCreatedBy
+title: String GetCreatedBy()
 intellisense: NSAudienceConfigParameter.GetCreatedBy
 keywords: NSAudienceConfigParameter, GetCreatedBy
 so.topic: reference

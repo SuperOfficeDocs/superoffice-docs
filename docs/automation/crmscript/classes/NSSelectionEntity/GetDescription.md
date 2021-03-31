@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetDescription
-description: String NSSelectionEntity.GetDescription()
+uid: crmscript_ref_NSSelectionEntity_GetDescription
+title: String GetDescription()
 intellisense: NSSelectionEntity.GetDescription
 keywords: NSSelectionEntity, GetDescription
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment_SetSuperseded
-description: NSEMailAppointment.SetSuperseded(Bool superseded)
+uid: crmscript_ref_NSEMailAppointment_SetSuperseded
+title: SetSuperseded(Bool superseded)
 intellisense: NSEMailAppointment.SetSuperseded
 keywords: NSEMailAppointment, GetSuperseded
 so.topic: reference

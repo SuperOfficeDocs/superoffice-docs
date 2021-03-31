@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSInstallation
-description: NSInstallation
+uid: crmscript_ref_NSInstallation
+title: NSInstallation
 intellisense: Void.NSInstallation
 keywords: NSInstallation
 so.topic: reference

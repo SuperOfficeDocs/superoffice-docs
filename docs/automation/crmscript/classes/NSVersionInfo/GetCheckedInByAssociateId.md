@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVersionInfo_GetCheckedInByAssociateId
-description: Integer NSVersionInfo.GetCheckedInByAssociateId()
+uid: crmscript_ref_NSVersionInfo_GetCheckedInByAssociateId
+title: Integer GetCheckedInByAssociateId()
 intellisense: NSVersionInfo.GetCheckedInByAssociateId
 keywords: NSVersionInfo, GetCheckedInByAssociateId
 so.topic: reference

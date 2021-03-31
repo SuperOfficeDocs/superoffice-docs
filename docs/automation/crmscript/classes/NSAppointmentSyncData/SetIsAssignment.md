@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_SetIsAssignment
-description: NSAppointmentSyncData.SetIsAssignment(Bool isAssignment)
+uid: crmscript_ref_NSAppointmentSyncData_SetIsAssignment
+title: SetIsAssignment(Bool isAssignment)
 intellisense: NSAppointmentSyncData.SetIsAssignment
 keywords: NSAppointmentSyncData, GetIsAssignment
 so.topic: reference

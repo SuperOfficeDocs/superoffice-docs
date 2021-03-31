@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity
-description: NSExtAppEntity
+uid: crmscript_ref_NSExtAppEntity
+title: NSExtAppEntity
 intellisense: Void.NSExtAppEntity
 keywords: NSExtAppEntity
 so.topic: reference

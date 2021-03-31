@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity_SetTzLocationId
-description: NSDiaryViewEntity.SetTzLocationId(Integer tzLocationId)
+uid: crmscript_ref_NSDiaryViewEntity_SetTzLocationId
+title: SetTzLocationId(Integer tzLocationId)
 intellisense: NSDiaryViewEntity.SetTzLocationId
 keywords: NSDiaryViewEntity, GetTzLocationId
 so.topic: reference

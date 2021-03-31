@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetKeyValueOnDeviceIdentifier
-description: String GetKeyValueOnDeviceIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String tableName, Integer recordId)
+uid: crmscript_ref_NSForeignSystemAgent_GetKeyValueOnDeviceIdentifier
+title: String GetKeyValueOnDeviceIdentifier(String applicationName, String deviceName, String deviceIdentifier, String keyName, String tableName, Integer recordId)
 intellisense: NSForeignSystemAgent.GetKeyValueOnDeviceIdentifier
-keywords: NSForeignSystemAgent,GetKeyValueOnDeviceIdentifier
+keywords: NSForeignSystemAgent, GetKeyValueOnDeviceIdentifier
 so.topic: reference
 ---
 

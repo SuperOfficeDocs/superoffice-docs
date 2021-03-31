@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpCrmListItemMapping_GetCrmListItem
-description: MDOListItem NSErpCrmListItemMapping.GetCrmListItem()
+uid: crmscript_ref_NSErpCrmListItemMapping_GetCrmListItem
+title: MDOListItem GetCrmListItem()
 intellisense: NSErpCrmListItemMapping.GetCrmListItem
 keywords: NSErpCrmListItemMapping, GetCrmListItem
 so.topic: reference

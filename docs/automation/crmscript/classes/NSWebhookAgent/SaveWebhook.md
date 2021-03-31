@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSWebhookAgent_SaveWebhook
-description: NSWebhook SaveWebhook(NSWebhook webhook);
+uid: crmscript_ref_NSWebhookAgent_SaveWebhook
+title: NSWebhook SaveWebhook(NSWebhook webhook);
 intellisense: NSWebhookAgent.SaveWebhook
-keywords: NSWebhookAgent,SaveWebhook
+keywords: NSWebhookAgent, SaveWebhook
 so.topic: reference
 ---
 	  

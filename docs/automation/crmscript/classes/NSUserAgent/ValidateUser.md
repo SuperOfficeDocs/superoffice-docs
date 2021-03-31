@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_ValidateUser
-description: StringDictionary ValidateUser(User user)
+uid: crmscript_ref_NSUserAgent_ValidateUser
+title: StringDictionary ValidateUser(User user)
 intellisense: NSUserAgent.ValidateUser
-keywords: NSUserAgent,ValidateUser
+keywords: NSUserAgent, ValidateUser
 so.topic: reference
 ---
 

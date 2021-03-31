@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_GetSelectionEntity
-description: NSSelectionEntity GetSelectionEntity(Integer selectionEntityId);
+uid: crmscript_ref_NSSelectionAgent_GetSelectionEntity
+title: NSSelectionEntity GetSelectionEntity(Integer selectionEntityId);
 intellisense: NSSelectionAgent.GetSelectionEntity
-keywords: NSSelectionAgent,GetSelectionEntity
+keywords: NSSelectionAgent, GetSelectionEntity
 so.topic: reference
 ---
 

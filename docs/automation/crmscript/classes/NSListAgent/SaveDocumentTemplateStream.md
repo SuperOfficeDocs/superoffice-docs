@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveDocumentTemplateStream
-description: TemplateInfo SaveDocumentTemplateStream(Integer documentTemplateId, Stream content, String languageCode, Integer pluginId)
+uid: crmscript_ref_NSListAgent_SaveDocumentTemplateStream
+title: TemplateInfo SaveDocumentTemplateStream(Integer documentTemplateId, Stream content, String languageCode, Integer pluginId)
 intellisense: NSListAgent.SaveDocumentTemplateStream
-keywords: NSListAgent,SaveDocumentTemplateStream
+keywords: NSListAgent, SaveDocumentTemplateStream
 so.topic: reference
 ---
 

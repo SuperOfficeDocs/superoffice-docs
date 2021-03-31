@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAIAgent_DetectSentiment
-description: Sentiment DetectSentiment(String text)
+uid: crmscript_ref_NSAIAgent_DetectSentiment
+title: Sentiment DetectSentiment(String text)
 intellisense: NSAIAgent.DetectSentiment
-keywords: NSAIAgent,DetectSentiment
+keywords: NSAIAgent, DetectSentiment
 so.topic: reference
 ---
 

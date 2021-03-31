@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder_GetSubscribed
-description: Bool NSEMailFolder.GetSubscribed()
+uid: crmscript_ref_NSEMailFolder_GetSubscribed
+title: Bool GetSubscribed()
 intellisense: NSEMailFolder.GetSubscribed
 keywords: NSEMailFolder, GetSubscribed
 so.topic: reference

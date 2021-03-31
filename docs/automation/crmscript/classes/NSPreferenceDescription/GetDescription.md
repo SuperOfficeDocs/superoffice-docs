@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_GetDescription
-description: String NSPreferenceDescription.GetDescription()
+uid: crmscript_ref_NSPreferenceDescription_GetDescription
+title: String GetDescription()
 intellisense: NSPreferenceDescription.GetDescription
 keywords: NSPreferenceDescription, GetDescription
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_SetIsVisual
-description: NSStatusMonitor.SetIsVisual(Bool isVisual)
+uid: crmscript_ref_NSStatusMonitor_SetIsVisual
+title: SetIsVisual(Bool isVisual)
 intellisense: NSStatusMonitor.SetIsVisual
 keywords: NSStatusMonitor, GetIsVisual
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_SetUpdatedDate
-description: NSConsentPurpose.SetUpdatedDate(DateTime updatedDate)
+uid: crmscript_ref_NSConsentPurpose_SetUpdatedDate
+title: SetUpdatedDate(DateTime updatedDate)
 intellisense: NSConsentPurpose.SetUpdatedDate
 keywords: NSConsentPurpose, GetUpdatedDate
 so.topic: reference

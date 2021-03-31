@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetUpdatedBy
-description: Associate NSAppointmentEntity.GetUpdatedBy()
+uid: crmscript_ref_NSAppointmentEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
 intellisense: NSAppointmentEntity.GetUpdatedBy
 keywords: NSAppointmentEntity, GetUpdatedBy
 so.topic: reference

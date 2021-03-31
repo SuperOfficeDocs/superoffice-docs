@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuote_GetUseValuesFromQuote
-description: Integer NSQuote.GetUseValuesFromQuote()
+uid: crmscript_ref_NSQuote_GetUseValuesFromQuote
+title: Integer GetUseValuesFromQuote()
 intellisense: NSQuote.GetUseValuesFromQuote
 keywords: NSQuote, GetUseValuesFromQuote
 so.topic: reference

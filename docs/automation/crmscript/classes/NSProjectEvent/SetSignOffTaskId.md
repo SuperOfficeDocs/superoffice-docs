@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_SetSignOffTaskId
-description: NSProjectEvent.SetSignOffTaskId(Integer signOffTaskId)
+uid: crmscript_ref_NSProjectEvent_SetSignOffTaskId
+title: SetSignOffTaskId(Integer signOffTaskId)
 intellisense: NSProjectEvent.SetSignOffTaskId
 keywords: NSProjectEvent, GetSignOffTaskId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetConnectorCapabilityNames
-description: StringArray GetConnectorCapabilityNames(Integer quoteConnectionId)
+uid: crmscript_ref_NSQuoteAgent_GetConnectorCapabilityNames
+title: StringArray GetConnectorCapabilityNames(Integer quoteConnectionId)
 intellisense: NSQuoteAgent.GetConnectorCapabilityNames
-keywords: NSQuoteAgent,GetConnectorCapabilityNames
+keywords: NSQuoteAgent, GetConnectorCapabilityNames
 so.topic: reference
 ---
 

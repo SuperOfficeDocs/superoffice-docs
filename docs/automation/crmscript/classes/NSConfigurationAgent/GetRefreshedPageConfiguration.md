@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetRefreshedPageConfiguration
-description: String GetRefreshedPageConfiguration(String application, String instance, String page)
+uid: crmscript_ref_NSConfigurationAgent_GetRefreshedPageConfiguration
+title: String GetRefreshedPageConfiguration(String application, String instance, String page)
 intellisense: NSConfigurationAgent.GetRefreshedPageConfiguration
-keywords: NSConfigurationAgent,GetRefreshedPageConfiguration
+keywords: NSConfigurationAgent, GetRefreshedPageConfiguration
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetQuoteLineImage
-description: Image GetQuoteLineImage(Integer quoteLineId)
+uid: crmscript_ref_NSBLOBAgent_GetQuoteLineImage
+title: Image GetQuoteLineImage(Integer quoteLineId)
 intellisense: NSBLOBAgent.GetQuoteLineImage
-keywords: NSBLOBAgent,GetQuoteLineImage
+keywords: NSBLOBAgent, GetQuoteLineImage
 so.topic: reference
 ---
 

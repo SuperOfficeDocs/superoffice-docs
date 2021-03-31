@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity
-description: NSSaleTypeEntity
+uid: crmscript_ref_NSSaleTypeEntity
+title: NSSaleTypeEntity
 intellisense: Void.NSSaleTypeEntity
 keywords: NSSaleTypeEntity
 so.topic: reference

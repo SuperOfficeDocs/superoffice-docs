@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_BreakActorLink
-description: Bool BreakActorLink(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType)
+uid: crmscript_ref_NSErpSyncAgent_BreakActorLink
+title: Bool BreakActorLink(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType)
 intellisense: NSErpSyncAgent.BreakActorLink
-keywords: NSErpSyncAgent,BreakActorLink
+keywords: NSErpSyncAgent, BreakActorLink
 so.topic: reference
 ---
 

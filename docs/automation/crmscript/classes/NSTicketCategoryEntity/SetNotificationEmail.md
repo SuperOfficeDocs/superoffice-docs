@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_SetNotificationEmail
-description: NSTicketCategoryEntity.SetNotificationEmail(String notificationEmail)
+uid: crmscript_ref_NSTicketCategoryEntity_SetNotificationEmail
+title: SetNotificationEmail(String notificationEmail)
 intellisense: NSTicketCategoryEntity.SetNotificationEmail
 keywords: NSTicketCategoryEntity, GetNotificationEmail
 so.topic: reference

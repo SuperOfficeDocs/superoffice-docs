@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_GetIsEntityDefault
-description: Integer NSTypicalSearch.GetIsEntityDefault()
+uid: crmscript_ref_NSTypicalSearch_GetIsEntityDefault
+title: Integer GetIsEntityDefault()
 intellisense: NSTypicalSearch.GetIsEntityDefault
 keywords: NSTypicalSearch, GetIsEntityDefault
 so.topic: reference

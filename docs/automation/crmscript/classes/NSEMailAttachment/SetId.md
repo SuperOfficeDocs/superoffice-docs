@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_SetId
-description: NSEMailAttachment.SetId(String id)
+uid: crmscript_ref_NSEMailAttachment_SetId
+title: SetId(String id)
 intellisense: NSEMailAttachment.SetId
 keywords: NSEMailAttachment, GetId
 so.topic: reference

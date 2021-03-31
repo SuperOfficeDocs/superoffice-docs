@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_GetHideField
-description: Bool NSFieldInfoBase.GetHideField()
+uid: crmscript_ref_NSFieldInfoBase_GetHideField
+title: Bool GetHideField()
 intellisense: NSFieldInfoBase.GetHideField
 keywords: NSFieldInfoBase, GetHideField
 so.topic: reference

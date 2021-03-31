@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_GetDashboardTiles
-description: DashboardTileArray GetDashboardTiles(IntegerArray dashboardTileIds)
+uid: crmscript_ref_NSDashboardAgent_GetDashboardTiles
+title: DashboardTileArray GetDashboardTiles(IntegerArray dashboardTileIds)
 intellisense: NSDashboardAgent.GetDashboardTiles
-keywords: NSDashboardAgent,GetDashboardTiles
+keywords: NSDashboardAgent, GetDashboardTiles
 so.topic: reference
 ---
 

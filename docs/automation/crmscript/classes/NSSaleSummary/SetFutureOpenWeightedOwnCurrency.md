@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetFutureOpenWeightedOwnCurrency
-description: NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float futureOpenWeightedOwnCurrency)
+uid: crmscript_ref_NSSaleSummary_SetFutureOpenWeightedOwnCurrency
+title: SetFutureOpenWeightedOwnCurrency(Float futureOpenWeightedOwnCurrency)
 intellisense: NSSaleSummary.SetFutureOpenWeightedOwnCurrency
 keywords: NSSaleSummary, GetFutureOpenWeightedOwnCurrency
 so.topic: reference

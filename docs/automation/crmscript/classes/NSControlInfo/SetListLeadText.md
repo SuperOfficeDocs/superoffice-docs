@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSControlInfo_SetListLeadText
-description: NSControlInfo.SetListLeadText(String listLeadText)
+uid: crmscript_ref_NSControlInfo_SetListLeadText
+title: SetListLeadText(String listLeadText)
 intellisense: NSControlInfo.SetListLeadText
 keywords: NSControlInfo, GetListLeadText
 so.topic: reference

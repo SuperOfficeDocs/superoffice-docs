@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLogging
-description: NSLogging
+uid: crmscript_ref_NSLogging
+title: NSLogging
 intellisense: Void.NSLogging
 keywords: NSLogging
 so.topic: reference

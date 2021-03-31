@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_GetType
-description: Integer NSPocketNotificationMessage.GetType()
+uid: crmscript_ref_NSPocketNotificationMessage_GetType
+title: Integer GetType()
 intellisense: NSPocketNotificationMessage.GetType
 keywords: NSPocketNotificationMessage, GetType
 so.topic: reference

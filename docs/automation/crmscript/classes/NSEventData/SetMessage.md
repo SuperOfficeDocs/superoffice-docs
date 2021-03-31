@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_SetMessage
-description: NSEventData.SetMessage(String message)
+uid: crmscript_ref_NSEventData_SetMessage
+title: SetMessage(String message)
 intellisense: NSEventData.SetMessage
 keywords: NSEventData, GetMessage
 so.topic: reference

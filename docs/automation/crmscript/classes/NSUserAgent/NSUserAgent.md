@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserAgent
-description: NSUserAgent
+uid: crmscript_ref_NSUserAgent
+title: NSUserAgent
 intellisense: Void.NSUserAgent
 keywords: NSUserAgent
 so.topic: reference

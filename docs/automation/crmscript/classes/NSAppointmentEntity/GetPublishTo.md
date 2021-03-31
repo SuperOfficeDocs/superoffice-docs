@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetPublishTo
-description: DateTime NSAppointmentEntity.GetPublishTo()
+uid: crmscript_ref_NSAppointmentEntity_GetPublishTo
+title: DateTime GetPublishTo()
 intellisense: NSAppointmentEntity.GetPublishTo
 keywords: NSAppointmentEntity, GetPublishTo
 so.topic: reference
 ---
 
-Publish to date. After this date the event is no longer visible.
+Publish to date on AppointmentEntity. After this date the event is no longer visible.
 
 **Returns:** DateTime.
 

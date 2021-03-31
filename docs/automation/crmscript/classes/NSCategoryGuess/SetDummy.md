@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategoryGuess_SetDummy
-description: NSCategoryGuess.SetDummy(String dummy)
+uid: crmscript_ref_NSCategoryGuess_SetDummy
+title: SetDummy(String dummy)
 intellisense: NSCategoryGuess.SetDummy
 keywords: NSCategoryGuess, GetDummy
 so.topic: reference

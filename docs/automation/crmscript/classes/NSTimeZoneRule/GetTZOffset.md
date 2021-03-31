@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneRule_GetTZOffset
-description: Integer NSTimeZoneRule.GetTZOffset()
+uid: crmscript_ref_NSTimeZoneRule_GetTZOffset
+title: Integer GetTZOffset()
 intellisense: NSTimeZoneRule.GetTZOffset
 keywords: NSTimeZoneRule, GetTZOffset
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetAssociateFullName
-description: NSSale.SetAssociateFullName(String associateFullName)
+uid: crmscript_ref_NSSale_SetAssociateFullName
+title: SetAssociateFullName(String associateFullName)
 intellisense: NSSale.SetAssociateFullName
 keywords: NSSale, GetAssociateFullName
 so.topic: reference

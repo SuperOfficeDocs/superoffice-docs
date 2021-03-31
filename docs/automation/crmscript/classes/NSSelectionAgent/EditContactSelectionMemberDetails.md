@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_EditContactSelectionMemberDetails
-description: Void EditContactSelectionMemberDetails(Integer selectionId, SelectionMemberEditValues selectionMemberEditValues)
+uid: crmscript_ref_NSSelectionAgent_EditContactSelectionMemberDetails
+title: Void EditContactSelectionMemberDetails(Integer selectionId, SelectionMemberEditValues selectionMemberEditValues)
 intellisense: NSSelectionAgent.EditContactSelectionMemberDetails
-keywords: NSSelectionAgent,EditContactSelectionMemberDetails
+keywords: NSSelectionAgent, EditContactSelectionMemberDetails
 so.topic: reference
 ---
 

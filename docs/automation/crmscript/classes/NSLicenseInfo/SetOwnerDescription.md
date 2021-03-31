@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_SetOwnerDescription
-description: NSLicenseInfo.SetOwnerDescription(String ownerDescription)
+uid: crmscript_ref_NSLicenseInfo_SetOwnerDescription
+title: SetOwnerDescription(String ownerDescription)
 intellisense: NSLicenseInfo.SetOwnerDescription
 keywords: NSLicenseInfo, GetOwnerDescription
 so.topic: reference

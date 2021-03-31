@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetCategory
-description: NSContactEntity.SetCategory(Category category)
+uid: crmscript_ref_NSContactEntity_SetCategory
+title: SetCategory(Category category)
 intellisense: NSContactEntity.SetCategory
 keywords: NSContactEntity, GetCategory
 so.topic: reference

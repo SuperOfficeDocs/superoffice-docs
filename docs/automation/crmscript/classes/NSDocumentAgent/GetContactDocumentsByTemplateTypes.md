@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetContactDocumentsByTemplateTypes
-description: DocumentArray GetContactDocumentsByTemplateTypes(Integer contactId, DateTime startTime, DateTime endTime, Integer count, IntegerArray documentTemplateIds)
+uid: crmscript_ref_NSDocumentAgent_GetContactDocumentsByTemplateTypes
+title: DocumentArray GetContactDocumentsByTemplateTypes(Integer contactId, DateTime startTime, DateTime endTime, Integer count, IntegerArray documentTemplateIds)
 intellisense: NSDocumentAgent.GetContactDocumentsByTemplateTypes
-keywords: NSDocumentAgent,GetContactDocumentsByTemplateTypes
+keywords: NSDocumentAgent, GetContactDocumentsByTemplateTypes
 so.topic: reference
 ---
 

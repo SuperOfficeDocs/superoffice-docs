@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_AuthenticateOutgoing
-description: Bool AuthenticateOutgoing(EMailConnectionInfo connectionInfo)
+uid: crmscript_ref_NSEMailAgent_AuthenticateOutgoing
+title: Bool AuthenticateOutgoing(EMailConnectionInfo connectionInfo)
 intellisense: NSEMailAgent.AuthenticateOutgoing
-keywords: NSEMailAgent,AuthenticateOutgoing
+keywords: NSEMailAgent, AuthenticateOutgoing
 so.topic: reference
 ---
 

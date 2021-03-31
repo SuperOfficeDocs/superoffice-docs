@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CreateDefaultUntrustedCredentials
-description: NSUntrustedCredentials CreateDefaultUntrustedCredentials()
+uid: crmscript_ref_NSUserAgent_CreateDefaultUntrustedCredentials
+title: NSUntrustedCredentials CreateDefaultUntrustedCredentials()
 intellisense: NSUserAgent.CreateDefaultUntrustedCredentials
-keywords: NSUserAgent,CreateDefaultUntrustedCredentials
+keywords: NSUserAgent, CreateDefaultUntrustedCredentials
 so.topic: reference
 ---
 	  

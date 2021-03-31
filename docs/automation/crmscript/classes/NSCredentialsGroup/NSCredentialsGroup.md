@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialsGroup
-description: NSCredentialsGroup
+uid: crmscript_ref_NSCredentialsGroup
+title: NSCredentialsGroup
 intellisense: Void.NSCredentialsGroup
 keywords: NSCredentialsGroup
 so.topic: reference

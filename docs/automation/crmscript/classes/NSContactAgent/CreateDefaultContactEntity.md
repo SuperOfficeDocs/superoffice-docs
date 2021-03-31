@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_CreateDefaultContactEntity
-description: NSContactEntity CreateDefaultContactEntity()
+uid: crmscript_ref_NSContactAgent_CreateDefaultContactEntity
+title: NSContactEntity CreateDefaultContactEntity()
 intellisense: NSContactAgent.CreateDefaultContactEntity
-keywords: NSContactAgent,CreateDefaultContactEntity
+keywords: NSContactAgent, CreateDefaultContactEntity
 so.topic: reference
 ---
 	  

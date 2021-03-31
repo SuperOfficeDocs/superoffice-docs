@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactActivity_GetActionTime
-description: DateTime NSContactActivity.GetActionTime()
+uid: crmscript_ref_NSContactActivity_GetActionTime
+title: DateTime GetActionTime()
 intellisense: NSContactActivity.GetActionTime
 keywords: NSContactActivity, GetActionTime
 so.topic: reference

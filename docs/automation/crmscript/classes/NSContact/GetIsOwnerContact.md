@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_GetIsOwnerContact
-description: Bool NSContact.GetIsOwnerContact()
+uid: crmscript_ref_NSContact_GetIsOwnerContact
+title: Bool GetIsOwnerContact()
 intellisense: NSContact.GetIsOwnerContact
 keywords: NSContact, GetIsOwnerContact
 so.topic: reference

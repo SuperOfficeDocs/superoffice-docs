@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportColumnInfo_GetLocked
-description: Bool NSImportColumnInfo.GetLocked()
+uid: crmscript_ref_NSImportColumnInfo_GetLocked
+title: Bool GetLocked()
 intellisense: NSImportColumnInfo.GetLocked
 keywords: NSImportColumnInfo, GetLocked
 so.topic: reference

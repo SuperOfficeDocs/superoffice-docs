@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity_GetName
-description: String NSDiaryViewEntity.GetName()
+uid: crmscript_ref_NSDiaryViewEntity_GetName
+title: String GetName()
 intellisense: NSDiaryViewEntity.GetName
 keywords: NSDiaryViewEntity, GetName
 so.topic: reference

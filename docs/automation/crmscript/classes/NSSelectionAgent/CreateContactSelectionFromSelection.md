@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CreateContactSelectionFromSelection
-description: SelectionEntity CreateContactSelectionFromSelection(Integer selectionId, String name, Integer targetSelectionType, Bool copyMembers)
+uid: crmscript_ref_NSSelectionAgent_CreateContactSelectionFromSelection
+title: SelectionEntity CreateContactSelectionFromSelection(Integer selectionId, String name, Integer targetSelectionType, Bool copyMembers)
 intellisense: NSSelectionAgent.CreateContactSelectionFromSelection
-keywords: NSSelectionAgent,CreateContactSelectionFromSelection
+keywords: NSSelectionAgent, CreateContactSelectionFromSelection
 so.topic: reference
 ---
 

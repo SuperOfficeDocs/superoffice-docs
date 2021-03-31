@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_Html2Text
-description: String Html2Text(String content)
+uid: crmscript_ref_NSTicketAgent_Html2Text
+title: String Html2Text(String content)
 intellisense: NSTicketAgent.Html2Text
-keywords: NSTicketAgent,Html2Text
+keywords: NSTicketAgent, Html2Text
 so.topic: reference
 ---
 

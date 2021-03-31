@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment_SetDtEnd
-description: NSEMailAppointment.SetDtEnd(DateTime dtEnd)
+uid: crmscript_ref_NSEMailAppointment_SetDtEnd
+title: SetDtEnd(DateTime dtEnd)
 intellisense: NSEMailAppointment.SetDtEnd
 keywords: NSEMailAppointment, GetDtEnd
 so.topic: reference

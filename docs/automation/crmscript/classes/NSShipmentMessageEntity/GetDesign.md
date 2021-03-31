@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetDesign
-description: String NSShipmentMessageEntity.GetDesign()
+uid: crmscript_ref_NSShipmentMessageEntity_GetDesign
+title: String GetDesign()
 intellisense: NSShipmentMessageEntity.GetDesign
 keywords: NSShipmentMessageEntity, GetDesign
 so.topic: reference

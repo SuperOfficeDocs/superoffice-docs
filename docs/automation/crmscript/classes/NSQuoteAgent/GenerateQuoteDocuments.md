@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GenerateQuoteDocuments
-description: QuotePublishDocuments GenerateQuoteDocuments(Integer quoteVersionId, Integer emailBodyTemplateId, Bool attachMainDocument, Integer quotedProductsTemplateId, Bool includeAttachments, String rawMailSubject)
+uid: crmscript_ref_NSQuoteAgent_GenerateQuoteDocuments
+title: QuotePublishDocuments GenerateQuoteDocuments(Integer quoteVersionId, Integer emailBodyTemplateId, Bool attachMainDocument, Integer quotedProductsTemplateId, Bool includeAttachments, String rawMailSubject)
 intellisense: NSQuoteAgent.GenerateQuoteDocuments
-keywords: NSQuoteAgent,GenerateQuoteDocuments
+keywords: NSQuoteAgent, GenerateQuoteDocuments
 so.topic: reference
 ---
 

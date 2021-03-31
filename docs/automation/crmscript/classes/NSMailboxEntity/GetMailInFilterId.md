@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailboxEntity_GetMailInFilterId
-description: Integer NSMailboxEntity.GetMailInFilterId()
+uid: crmscript_ref_NSMailboxEntity_GetMailInFilterId
+title: Integer GetMailInFilterId()
 intellisense: NSMailboxEntity.GetMailInFilterId
 keywords: NSMailboxEntity, GetMailInFilterId
 so.topic: reference

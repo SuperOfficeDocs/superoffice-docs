@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetLeadTime
-description: TimeSpan NSAppointmentEntity.GetLeadTime()
+uid: crmscript_ref_NSAppointmentEntity_GetLeadTime
+title: TimeSpan GetLeadTime()
 intellisense: NSAppointmentEntity.GetLeadTime
 keywords: NSAppointmentEntity, GetLeadTime
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserInfo_SetUserGroupId
-description: NSUserInfo.SetUserGroupId(Integer userGroupId)
+uid: crmscript_ref_NSUserInfo_SetUserGroupId
+title: SetUserGroupId(Integer userGroupId)
 intellisense: NSUserInfo.SetUserGroupId
 keywords: NSUserInfo, GetUserGroupId
 so.topic: reference

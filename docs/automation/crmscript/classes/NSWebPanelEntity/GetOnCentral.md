@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetOnCentral
-description: Bool NSWebPanelEntity.GetOnCentral()
+uid: crmscript_ref_NSWebPanelEntity_GetOnCentral
+title: Bool GetOnCentral()
 intellisense: NSWebPanelEntity.GetOnCentral
 keywords: NSWebPanelEntity, GetOnCentral
 so.topic: reference

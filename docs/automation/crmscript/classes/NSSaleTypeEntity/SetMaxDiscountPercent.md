@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetMaxDiscountPercent
-description: NSSaleTypeEntity.SetMaxDiscountPercent(Integer maxDiscountPercent)
+uid: crmscript_ref_NSSaleTypeEntity_SetMaxDiscountPercent
+title: SetMaxDiscountPercent(Integer maxDiscountPercent)
 intellisense: NSSaleTypeEntity.SetMaxDiscountPercent
 keywords: NSSaleTypeEntity, GetMaxDiscountPercent
 so.topic: reference

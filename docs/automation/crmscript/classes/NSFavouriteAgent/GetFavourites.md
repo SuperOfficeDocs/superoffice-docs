@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFavouriteAgent_GetFavourites
-description: FavouriteArray GetFavourites(String tableName, Integer associateId)
+uid: crmscript_ref_NSFavouriteAgent_GetFavourites
+title: FavouriteArray GetFavourites(String tableName, Integer associateId)
 intellisense: NSFavouriteAgent.GetFavourites
-keywords: NSFavouriteAgent,GetFavourites
+keywords: NSFavouriteAgent, GetFavourites
 so.topic: reference
 ---
 

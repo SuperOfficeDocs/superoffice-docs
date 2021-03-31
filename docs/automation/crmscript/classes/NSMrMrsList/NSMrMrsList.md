@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMrMrsList
-description: NSMrMrsList
+uid: crmscript_ref_NSMrMrsList
+title: NSMrMrsList
 intellisense: Void.NSMrMrsList
 keywords: NSMrMrsList
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_UpdateTimeZoneData
-description: Bool UpdateTimeZoneData()
+uid: crmscript_ref_NSTimeZoneAgent_UpdateTimeZoneData
+title: Bool UpdateTimeZoneData()
 intellisense: NSTimeZoneAgent.UpdateTimeZoneData
-keywords: NSTimeZoneAgent,UpdateTimeZoneData
+keywords: NSTimeZoneAgent, UpdateTimeZoneData
 so.topic: reference
 ---
 

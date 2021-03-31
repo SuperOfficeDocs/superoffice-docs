@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistoryRequest_SetRequestForNewRecord
-description: NSHistoryRequest.SetRequestForNewRecord(Bool requestForNewRecord)
+uid: crmscript_ref_NSHistoryRequest_SetRequestForNewRecord
+title: SetRequestForNewRecord(Bool requestForNewRecord)
 intellisense: NSHistoryRequest.SetRequestForNewRecord
 keywords: NSHistoryRequest, GetRequestForNewRecord
 so.topic: reference

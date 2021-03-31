@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetLinkList
-description: NSLink[] GetLinkList(Integer[]  linkIds);
+uid: crmscript_ref_NSListAgent_GetLinkList
+title: NSLink[] GetLinkList(Integer[]  linkIds);
 intellisense: NSListAgent.GetLinkList
-keywords: NSListAgent,GetLinkList
+keywords: NSListAgent, GetLinkList
 so.topic: reference
 ---
 

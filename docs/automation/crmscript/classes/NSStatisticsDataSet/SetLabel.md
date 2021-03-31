@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatisticsDataSet_SetLabel
-description: NSStatisticsDataSet.SetLabel(String label)
+uid: crmscript_ref_NSStatisticsDataSet_SetLabel
+title: SetLabel(String label)
 intellisense: NSStatisticsDataSet.SetLabel
 keywords: NSStatisticsDataSet, GetLabel
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetRank
-description: Integer NSUser.GetRank()
+uid: crmscript_ref_NSUser_GetRank
+title: Integer GetRank()
 intellisense: NSUser.GetRank
 keywords: NSUser, GetRank
 so.topic: reference

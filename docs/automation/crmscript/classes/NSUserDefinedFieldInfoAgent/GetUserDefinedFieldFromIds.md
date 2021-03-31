@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds
-description: UserDefinedFieldInfoArray GetUserDefinedFieldFromIds(IntegerArray ids)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds
+title: UserDefinedFieldInfoArray GetUserDefinedFieldFromIds(IntegerArray ids)
 intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
-keywords: NSUserDefinedFieldInfoAgent,GetUserDefinedFieldFromIds
+keywords: NSUserDefinedFieldInfoAgent, GetUserDefinedFieldFromIds
 so.topic: reference
 ---
 

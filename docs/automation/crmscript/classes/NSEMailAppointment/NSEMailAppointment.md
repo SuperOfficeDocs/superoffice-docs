@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment
-description: NSEMailAppointment
+uid: crmscript_ref_NSEMailAppointment
+title: NSEMailAppointment
 intellisense: Void.NSEMailAppointment
 keywords: NSEMailAppointment
 so.topic: reference

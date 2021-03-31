@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_SetIsTemporarySelection
-description: NSMailMergeSettings.SetIsTemporarySelection(Bool isTemporarySelection)
+uid: crmscript_ref_NSMailMergeSettings_SetIsTemporarySelection
+title: SetIsTemporarySelection(Bool isTemporarySelection)
 intellisense: NSMailMergeSettings.SetIsTemporarySelection
 keywords: NSMailMergeSettings, GetIsTemporarySelection
 so.topic: reference

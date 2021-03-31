@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SetTicketCategoriesForUserGroup
-description: Void SetTicketCategoriesForUserGroup(Integer userGroupId, IntegerArray categoryIds)
+uid: crmscript_ref_NSListAgent_SetTicketCategoriesForUserGroup
+title: Void SetTicketCategoriesForUserGroup(Integer userGroupId, IntegerArray categoryIds)
 intellisense: NSListAgent.SetTicketCategoriesForUserGroup
-keywords: NSListAgent,SetTicketCategoriesForUserGroup
+keywords: NSListAgent, SetTicketCategoriesForUserGroup
 so.topic: reference
 ---
 

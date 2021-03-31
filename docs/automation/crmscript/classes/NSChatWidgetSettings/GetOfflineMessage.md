@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetOfflineMessage
-description: String NSChatWidgetSettings.GetOfflineMessage()
+uid: crmscript_ref_NSChatWidgetSettings_GetOfflineMessage
+title: String GetOfflineMessage()
 intellisense: NSChatWidgetSettings.GetOfflineMessage
 keywords: NSChatWidgetSettings, GetOfflineMessage
 so.topic: reference

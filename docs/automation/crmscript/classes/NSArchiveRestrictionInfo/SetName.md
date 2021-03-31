@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo_SetName
-description: NSArchiveRestrictionInfo.SetName(String name)
+uid: crmscript_ref_NSArchiveRestrictionInfo_SetName
+title: SetName(String name)
 intellisense: NSArchiveRestrictionInfo.SetName
 keywords: NSArchiveRestrictionInfo, GetName
 so.topic: reference

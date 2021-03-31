@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_GetUseCategories
-description: Integer NSRoleEntity.GetUseCategories()
+uid: crmscript_ref_NSRoleEntity_GetUseCategories
+title: Integer GetUseCategories()
 intellisense: NSRoleEntity.GetUseCategories
 keywords: NSRoleEntity, GetUseCategories
 so.topic: reference

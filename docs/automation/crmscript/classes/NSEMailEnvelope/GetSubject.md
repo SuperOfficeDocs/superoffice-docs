@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_GetSubject
-description: String NSEMailEnvelope.GetSubject()
+uid: crmscript_ref_NSEMailEnvelope_GetSubject
+title: String GetSubject()
 intellisense: NSEMailEnvelope.GetSubject
 keywords: NSEMailEnvelope, GetSubject
 so.topic: reference

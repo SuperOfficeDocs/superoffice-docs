@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_SaveErpSyncConnectorEntity
-description: NSErpSyncConnectorEntity SaveErpSyncConnectorEntity(NSErpSyncConnectorEntity erpSyncConnectorEntity);
+uid: crmscript_ref_NSErpSyncAgent_SaveErpSyncConnectorEntity
+title: NSErpSyncConnectorEntity SaveErpSyncConnectorEntity(NSErpSyncConnectorEntity erpSyncConnectorEntity);
 intellisense: NSErpSyncAgent.SaveErpSyncConnectorEntity
-keywords: NSErpSyncAgent,SaveErpSyncConnectorEntity
+keywords: NSErpSyncAgent, SaveErpSyncConnectorEntity
 so.topic: reference
 ---
 	  

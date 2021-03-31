@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetHeadingEntity
-description: NSHeadingEntity GetHeadingEntity(Integer headingEntityId);
+uid: crmscript_ref_NSListAgent_GetHeadingEntity
+title: NSHeadingEntity GetHeadingEntity(Integer headingEntityId);
 intellisense: NSListAgent.GetHeadingEntity
-keywords: NSListAgent,GetHeadingEntity
+keywords: NSListAgent, GetHeadingEntity
 so.topic: reference
 ---
 

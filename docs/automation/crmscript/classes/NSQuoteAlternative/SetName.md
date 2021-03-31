@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_SetName
-description: NSQuoteAlternative.SetName(String name)
+uid: crmscript_ref_NSQuoteAlternative_SetName
+title: SetName(String name)
 intellisense: NSQuoteAlternative.SetName
 keywords: NSQuoteAlternative, GetName
 so.topic: reference

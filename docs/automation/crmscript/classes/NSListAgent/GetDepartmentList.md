@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDepartmentList
-description: NSDepartment[] GetDepartmentList(Integer[]  departmentIds);
+uid: crmscript_ref_NSListAgent_GetDepartmentList
+title: NSDepartment[] GetDepartmentList(Integer[]  departmentIds);
 intellisense: NSListAgent.GetDepartmentList
-keywords: NSListAgent,GetDepartmentList
+keywords: NSListAgent, GetDepartmentList
 so.topic: reference
 ---
 

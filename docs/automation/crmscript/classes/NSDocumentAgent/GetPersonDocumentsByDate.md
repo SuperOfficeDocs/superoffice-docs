@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetPersonDocumentsByDate
-description: DocumentArray GetPersonDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
+uid: crmscript_ref_NSDocumentAgent_GetPersonDocumentsByDate
+title: DocumentArray GetPersonDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSDocumentAgent.GetPersonDocumentsByDate
-keywords: NSDocumentAgent,GetPersonDocumentsByDate
+keywords: NSDocumentAgent, GetPersonDocumentsByDate
 so.topic: reference
 ---
 

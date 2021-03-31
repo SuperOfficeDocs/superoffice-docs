@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_DeleteCRMScriptByUniqueIdentifier
-description: Void DeleteCRMScriptByUniqueIdentifier(String uniqueIdentifier)
+uid: crmscript_ref_NSCRMScriptAgent_DeleteCRMScriptByUniqueIdentifier
+title: Void DeleteCRMScriptByUniqueIdentifier(String uniqueIdentifier)
 intellisense: NSCRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
-keywords: NSCRMScriptAgent,DeleteCRMScriptByUniqueIdentifier
+keywords: NSCRMScriptAgent, DeleteCRMScriptByUniqueIdentifier
 so.topic: reference
 ---
 

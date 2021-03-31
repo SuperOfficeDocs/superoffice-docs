@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStageEntity
-description: NSSaleStageEntity
+uid: crmscript_ref_NSSaleStageEntity
+title: NSSaleStageEntity
 intellisense: Void.NSSaleStageEntity
 keywords: NSSaleStageEntity
 so.topic: reference

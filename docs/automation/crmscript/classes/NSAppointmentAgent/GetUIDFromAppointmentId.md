@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetUIDFromAppointmentId
-description: String GetUIDFromAppointmentId(Integer appointmentId, Bool useMotherId)
+uid: crmscript_ref_NSAppointmentAgent_GetUIDFromAppointmentId
+title: String GetUIDFromAppointmentId(Integer appointmentId, Bool useMotherId)
 intellisense: NSAppointmentAgent.GetUIDFromAppointmentId
-keywords: NSAppointmentAgent,GetUIDFromAppointmentId
+keywords: NSAppointmentAgent, GetUIDFromAppointmentId
 so.topic: reference
 ---
 

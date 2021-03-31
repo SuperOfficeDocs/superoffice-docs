@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReplicationAgent_SetFreetextSearchEnabledOnArea
-description: Void SetFreetextSearchEnabledOnArea(Integer areaId, Bool freetextEnabled)
+uid: crmscript_ref_NSReplicationAgent_SetFreetextSearchEnabledOnArea
+title: Void SetFreetextSearchEnabledOnArea(Integer areaId, Bool freetextEnabled)
 intellisense: NSReplicationAgent.SetFreetextSearchEnabledOnArea
-keywords: NSReplicationAgent,SetFreetextSearchEnabledOnArea
+keywords: NSReplicationAgent, SetFreetextSearchEnabledOnArea
 so.topic: reference
 ---
 

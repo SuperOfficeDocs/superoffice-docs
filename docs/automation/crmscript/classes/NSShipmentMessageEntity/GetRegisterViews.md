@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetRegisterViews
-description: Bool NSShipmentMessageEntity.GetRegisterViews()
+uid: crmscript_ref_NSShipmentMessageEntity_GetRegisterViews
+title: Bool GetRegisterViews()
 intellisense: NSShipmentMessageEntity.GetRegisterViews
 keywords: NSShipmentMessageEntity, GetRegisterViews
 so.topic: reference

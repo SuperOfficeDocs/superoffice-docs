@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetAlertTimeout
-description: DateTime NSTicket.GetAlertTimeout()
+uid: crmscript_ref_NSTicket_GetAlertTimeout
+title: DateTime GetAlertTimeout()
 intellisense: NSTicket.GetAlertTimeout
 keywords: NSTicket, GetAlertTimeout
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEMailFromId
-description: EMailEntity GetEMailFromId(EMailConnectionInfo connectionInfo, Integer messageServerId, Bool lookupAddresses, Integer flags, Bool includeAttachments)
+uid: crmscript_ref_NSEMailAgent_GetEMailFromId
+title: EMailEntity GetEMailFromId(EMailConnectionInfo connectionInfo, Integer messageServerId, Bool lookupAddresses, Integer flags, Bool includeAttachments)
 intellisense: NSEMailAgent.GetEMailFromId
-keywords: NSEMailAgent,GetEMailFromId
+keywords: NSEMailAgent, GetEMailFromId
 so.topic: reference
 ---
 

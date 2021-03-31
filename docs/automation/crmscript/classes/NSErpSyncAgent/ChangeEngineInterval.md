@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_ChangeEngineInterval
-description: Void ChangeEngineInterval(TimeSpan interval)
+uid: crmscript_ref_NSErpSyncAgent_ChangeEngineInterval
+title: Void ChangeEngineInterval(TimeSpan interval)
 intellisense: NSErpSyncAgent.ChangeEngineInterval
-keywords: NSErpSyncAgent,ChangeEngineInterval
+keywords: NSErpSyncAgent, ChangeEngineInterval
 so.topic: reference
 ---
 

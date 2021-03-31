@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_HasGuide
-description: Bool HasGuide(Integer saleId)
+uid: crmscript_ref_NSSaleAgent_HasGuide
+title: Bool HasGuide(Integer saleId)
 intellisense: NSSaleAgent.HasGuide
-keywords: NSSaleAgent,HasGuide
+keywords: NSSaleAgent, HasGuide
 so.topic: reference
 ---
 

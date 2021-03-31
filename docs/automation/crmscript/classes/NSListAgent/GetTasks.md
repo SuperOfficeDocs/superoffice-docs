@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetTasks
-description: TaskArray GetTasks()
+uid: crmscript_ref_NSListAgent_GetTasks
+title: TaskArray GetTasks()
 intellisense: NSListAgent.GetTasks
-keywords: NSListAgent,GetTasks
+keywords: NSListAgent, GetTasks
 so.topic: reference
 ---
 

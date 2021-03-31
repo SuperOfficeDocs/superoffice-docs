@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_CreateNewPhysicalMailMergeDocumentFromTemplate
-description: DocumentEntity CreateNewPhysicalMailMergeDocumentFromTemplate(Integer documentId, String uiCulture)
+uid: crmscript_ref_NSDocumentAgent_CreateNewPhysicalMailMergeDocumentFromTemplate
+title: DocumentEntity CreateNewPhysicalMailMergeDocumentFromTemplate(Integer documentId, String uiCulture)
 intellisense: NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate
-keywords: NSDocumentAgent,CreateNewPhysicalMailMergeDocumentFromTemplate
+keywords: NSDocumentAgent, CreateNewPhysicalMailMergeDocumentFromTemplate
 so.topic: reference
 ---
 

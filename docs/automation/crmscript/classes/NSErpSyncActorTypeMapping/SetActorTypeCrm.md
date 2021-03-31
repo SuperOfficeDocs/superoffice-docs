@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorTypeMapping_SetActorTypeCrm
-description: NSErpSyncActorTypeMapping.SetActorTypeCrm(CrmActorType actorTypeCrm)
+uid: crmscript_ref_NSErpSyncActorTypeMapping_SetActorTypeCrm
+title: SetActorTypeCrm(CrmActorType actorTypeCrm)
 intellisense: NSErpSyncActorTypeMapping.SetActorTypeCrm
 keywords: NSErpSyncActorTypeMapping, GetActorTypeCrm
 so.topic: reference

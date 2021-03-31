@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetQuoteAlternatives
-description: NSQuoteVersion.SetQuoteAlternatives(QuoteAlternativeArray quoteAlternatives)
+uid: crmscript_ref_NSQuoteVersion_SetQuoteAlternatives
+title: SetQuoteAlternatives(QuoteAlternativeArray quoteAlternatives)
 intellisense: NSQuoteVersion.SetQuoteAlternatives
 keywords: NSQuoteVersion, GetQuoteAlternatives
 so.topic: reference

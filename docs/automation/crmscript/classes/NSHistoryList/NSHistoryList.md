@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistoryList
-description: NSHistoryList
+uid: crmscript_ref_NSHistoryList
+title: NSHistoryList
 intellisense: Void.NSHistoryList
 keywords: NSHistoryList
 so.topic: reference

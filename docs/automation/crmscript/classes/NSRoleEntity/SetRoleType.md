@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_SetRoleType
-description: NSRoleEntity.SetRoleType(Integer roleType)
+uid: crmscript_ref_NSRoleEntity_SetRoleType
+title: SetRoleType(Integer roleType)
 intellisense: NSRoleEntity.SetRoleType
 keywords: NSRoleEntity, GetRoleType
 so.topic: reference

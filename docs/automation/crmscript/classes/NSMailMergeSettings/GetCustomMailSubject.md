@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetCustomMailSubject
-description: String NSMailMergeSettings.GetCustomMailSubject()
+uid: crmscript_ref_NSMailMergeSettings_GetCustomMailSubject
+title: String GetCustomMailSubject()
 intellisense: NSMailMergeSettings.GetCustomMailSubject
 keywords: NSMailMergeSettings, GetCustomMailSubject
 so.topic: reference

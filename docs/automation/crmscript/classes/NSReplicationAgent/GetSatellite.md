@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReplicationAgent_GetSatellite
-description: NSSatellite GetSatellite(Integer satelliteId);
+uid: crmscript_ref_NSReplicationAgent_GetSatellite
+title: NSSatellite GetSatellite(Integer satelliteId);
 intellisense: NSReplicationAgent.GetSatellite
-keywords: NSReplicationAgent,GetSatellite
+keywords: NSReplicationAgent, GetSatellite
 so.topic: reference
 ---
 

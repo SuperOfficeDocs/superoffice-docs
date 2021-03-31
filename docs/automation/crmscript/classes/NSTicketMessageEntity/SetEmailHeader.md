@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_SetEmailHeader
-description: NSTicketMessageEntity.SetEmailHeader(String emailHeader)
+uid: crmscript_ref_NSTicketMessageEntity_SetEmailHeader
+title: SetEmailHeader(String emailHeader)
 intellisense: NSTicketMessageEntity.SetEmailHeader
 keywords: NSTicketMessageEntity, GetEmailHeader
 so.topic: reference

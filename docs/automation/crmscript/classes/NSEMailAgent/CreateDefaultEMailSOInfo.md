@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateDefaultEMailSOInfo
-description: NSEMailSOInfo CreateDefaultEMailSOInfo()
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailSOInfo
+title: NSEMailSOInfo CreateDefaultEMailSOInfo()
 intellisense: NSEMailAgent.CreateDefaultEMailSOInfo
-keywords: NSEMailAgent,CreateDefaultEMailSOInfo
+keywords: NSEMailAgent, CreateDefaultEMailSOInfo
 so.topic: reference
 ---
 	  

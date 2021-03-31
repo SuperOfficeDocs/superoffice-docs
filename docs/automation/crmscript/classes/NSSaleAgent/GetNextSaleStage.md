@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetNextSaleStage
-description: Integer GetNextSaleStage(Integer saleId, Bool includeCurrentStage)
+uid: crmscript_ref_NSSaleAgent_GetNextSaleStage
+title: Integer GetNextSaleStage(Integer saleId, Bool includeCurrentStage)
 intellisense: NSSaleAgent.GetNextSaleStage
-keywords: NSSaleAgent,GetNextSaleStage
+keywords: NSSaleAgent, GetNextSaleStage
 so.topic: reference
 ---
 

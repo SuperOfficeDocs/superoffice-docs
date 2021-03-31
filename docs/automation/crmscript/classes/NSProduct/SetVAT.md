@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetVAT
-description: NSProduct.SetVAT(Float vAT)
+uid: crmscript_ref_NSProduct_SetVAT
+title: SetVAT(Float vAT)
 intellisense: NSProduct.SetVAT
 keywords: NSProduct, GetVAT
 so.topic: reference

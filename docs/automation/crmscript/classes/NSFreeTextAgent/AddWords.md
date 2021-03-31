@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent_AddWords
-description: Void AddWords(String stopWords)
+uid: crmscript_ref_NSFreeTextAgent_AddWords
+title: Void AddWords(String stopWords)
 intellisense: NSFreeTextAgent.AddWords
-keywords: NSFreeTextAgent,AddWords
+keywords: NSFreeTextAgent, AddWords
 so.topic: reference
 ---
 

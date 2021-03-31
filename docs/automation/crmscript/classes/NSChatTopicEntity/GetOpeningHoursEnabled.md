@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetOpeningHoursEnabled
-description: Bool NSChatTopicEntity.GetOpeningHoursEnabled()
+uid: crmscript_ref_NSChatTopicEntity_GetOpeningHoursEnabled
+title: Bool GetOpeningHoursEnabled()
 intellisense: NSChatTopicEntity.GetOpeningHoursEnabled
 keywords: NSChatTopicEntity, GetOpeningHoursEnabled
 so.topic: reference

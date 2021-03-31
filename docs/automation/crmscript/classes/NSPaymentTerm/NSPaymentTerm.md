@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPaymentTerm
-description: NSPaymentTerm
+uid: crmscript_ref_NSPaymentTerm
+title: NSPaymentTerm
 intellisense: Void.NSPaymentTerm
 keywords: NSPaymentTerm
 so.topic: reference

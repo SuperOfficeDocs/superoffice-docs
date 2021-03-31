@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetVisibleForPersonInterests
-description: NSProjectEventEntity.SetVisibleForPersonInterests(MDOListItemArray visibleForPersonInterests)
+uid: crmscript_ref_NSProjectEventEntity_SetVisibleForPersonInterests
+title: SetVisibleForPersonInterests(MDOListItemArray visibleForPersonInterests)
 intellisense: NSProjectEventEntity.SetVisibleForPersonInterests
 keywords: NSProjectEventEntity, GetVisibleForPersonInterests
 so.topic: reference

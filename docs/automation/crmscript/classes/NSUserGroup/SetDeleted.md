@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserGroup_SetDeleted
-description: NSUserGroup.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSUserGroup_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSUserGroup.SetDeleted
 keywords: NSUserGroup, GetDeleted
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetApprovedText
-description: String NSQuoteVersion.GetApprovedText()
+uid: crmscript_ref_NSQuoteVersion_GetApprovedText
+title: String GetApprovedText()
 intellisense: NSQuoteVersion.GetApprovedText
 keywords: NSQuoteVersion, GetApprovedText
 so.topic: reference

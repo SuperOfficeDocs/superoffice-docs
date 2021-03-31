@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_HasConsent
-description: Bool HasConsent(Integer personId, String purpose)
+uid: crmscript_ref_NSPersonAgent_HasConsent
+title: Bool HasConsent(Integer personId, String purpose)
 intellisense: NSPersonAgent.HasConsent
-keywords: NSPersonAgent,HasConsent
+keywords: NSPersonAgent, HasConsent
 so.topic: reference
 ---
 

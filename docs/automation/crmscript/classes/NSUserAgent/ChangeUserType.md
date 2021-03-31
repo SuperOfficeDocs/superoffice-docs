@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_ChangeUserType
-description: User ChangeUserType(User user, Integer userType)
+uid: crmscript_ref_NSUserAgent_ChangeUserType
+title: User ChangeUserType(User user, Integer userType)
 intellisense: NSUserAgent.ChangeUserType
-keywords: NSUserAgent,ChangeUserType
+keywords: NSUserAgent, ChangeUserType
 so.topic: reference
 ---
 

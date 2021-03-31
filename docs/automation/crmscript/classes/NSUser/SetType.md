@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetType
-description: NSUser.SetType(Integer type)
+uid: crmscript_ref_NSUser_SetType
+title: SetType(Integer type)
 intellisense: NSUser.SetType
 keywords: NSUser, GetType
 so.topic: reference

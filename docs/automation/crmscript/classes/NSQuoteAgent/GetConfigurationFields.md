@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetConfigurationFields
-description: FieldMetadataDictionary GetConfigurationFields(Integer connectionId, String connectorName)
+uid: crmscript_ref_NSQuoteAgent_GetConfigurationFields
+title: FieldMetadataDictionary GetConfigurationFields(Integer connectionId, String connectorName)
 intellisense: NSQuoteAgent.GetConfigurationFields
-keywords: NSQuoteAgent,GetConfigurationFields
+keywords: NSQuoteAgent, GetConfigurationFields
 so.topic: reference
 ---
 

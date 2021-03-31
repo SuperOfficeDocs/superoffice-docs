@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_CreateDefaultMailboxEntity
-description: NSMailboxEntity CreateDefaultMailboxEntity()
+uid: crmscript_ref_NSCustomerServiceAgent_CreateDefaultMailboxEntity
+title: NSMailboxEntity CreateDefaultMailboxEntity()
 intellisense: NSCustomerServiceAgent.CreateDefaultMailboxEntity
-keywords: NSCustomerServiceAgent,CreateDefaultMailboxEntity
+keywords: NSCustomerServiceAgent, CreateDefaultMailboxEntity
 so.topic: reference
 ---
 	  

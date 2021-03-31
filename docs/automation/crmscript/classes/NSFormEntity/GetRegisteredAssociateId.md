@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetRegisteredAssociateId
-description: Integer NSFormEntity.GetRegisteredAssociateId()
+uid: crmscript_ref_NSFormEntity_GetRegisteredAssociateId
+title: Integer GetRegisteredAssociateId()
 intellisense: NSFormEntity.GetRegisteredAssociateId
 keywords: NSFormEntity, GetRegisteredAssociateId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoDynamicLink_GetLinkValue
-description: String NSFieldInfoDynamicLink.GetLinkValue()
+uid: crmscript_ref_NSFieldInfoDynamicLink_GetLinkValue
+title: String GetLinkValue()
 intellisense: NSFieldInfoDynamicLink.GetLinkValue
 keywords: NSFieldInfoDynamicLink, GetLinkValue
 so.topic: reference

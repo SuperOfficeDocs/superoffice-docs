@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_GetServerId
-description: Integer NSEMailEnvelope.GetServerId()
+uid: crmscript_ref_NSEMailEnvelope_GetServerId
+title: Integer GetServerId()
 intellisense: NSEMailEnvelope.GetServerId
 keywords: NSEMailEnvelope, GetServerId
 so.topic: reference

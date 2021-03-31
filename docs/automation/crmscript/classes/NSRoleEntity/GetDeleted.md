@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_GetDeleted
-description: Integer NSRoleEntity.GetDeleted()
+uid: crmscript_ref_NSRoleEntity_GetDeleted
+title: Integer GetDeleted()
 intellisense: NSRoleEntity.GetDeleted
 keywords: NSRoleEntity, GetDeleted
 so.topic: reference

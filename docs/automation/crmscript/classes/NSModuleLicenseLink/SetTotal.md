@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicenseLink_SetTotal
-description: NSModuleLicenseLink.SetTotal(Integer total)
+uid: crmscript_ref_NSModuleLicenseLink_SetTotal
+title: SetTotal(Integer total)
 intellisense: NSModuleLicenseLink.SetTotal
 keywords: NSModuleLicenseLink, GetTotal
 so.topic: reference

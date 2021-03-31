@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_SetIncludeStoppedRecipients
-description: NSMailMergeSettings.SetIncludeStoppedRecipients(Bool includeStoppedRecipients)
+uid: crmscript_ref_NSMailMergeSettings_SetIncludeStoppedRecipients
+title: SetIncludeStoppedRecipients(Bool includeStoppedRecipients)
 intellisense: NSMailMergeSettings.SetIncludeStoppedRecipients
 keywords: NSMailMergeSettings, GetIncludeStoppedRecipients
 so.topic: reference

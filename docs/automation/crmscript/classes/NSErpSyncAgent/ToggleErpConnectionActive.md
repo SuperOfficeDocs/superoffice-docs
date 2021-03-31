@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_ToggleErpConnectionActive
-description: StringArray ToggleErpConnectionActive(Integer erpConnectionId)
+uid: crmscript_ref_NSErpSyncAgent_ToggleErpConnectionActive
+title: StringArray ToggleErpConnectionActive(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.ToggleErpConnectionActive
-keywords: NSErpSyncAgent,ToggleErpConnectionActive
+keywords: NSErpSyncAgent, ToggleErpConnectionActive
 so.topic: reference
 ---
 

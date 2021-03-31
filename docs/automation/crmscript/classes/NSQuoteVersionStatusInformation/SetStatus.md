@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionStatusInformation_SetStatus
-description: NSQuoteVersionStatusInformation.SetStatus(Integer status)
+uid: crmscript_ref_NSQuoteVersionStatusInformation_SetStatus
+title: SetStatus(Integer status)
 intellisense: NSQuoteVersionStatusInformation.SetStatus
 keywords: NSQuoteVersionStatusInformation, GetStatus
 so.topic: reference

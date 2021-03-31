@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceLayoutEntity_SetInstanceLayout
-description: NSAudienceLayoutEntity.SetInstanceLayout(String instanceLayout)
+uid: crmscript_ref_NSAudienceLayoutEntity_SetInstanceLayout
+title: SetInstanceLayout(String instanceLayout)
 intellisense: NSAudienceLayoutEntity.SetInstanceLayout
 keywords: NSAudienceLayoutEntity, GetInstanceLayout
 so.topic: reference

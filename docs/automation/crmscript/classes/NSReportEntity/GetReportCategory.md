@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportEntity_GetReportCategory
-description: Integer NSReportEntity.GetReportCategory()
+uid: crmscript_ref_NSReportEntity_GetReportCategory
+title: Integer GetReportCategory()
 intellisense: NSReportEntity.GetReportCategory
 keywords: NSReportEntity, GetReportCategory
 so.topic: reference

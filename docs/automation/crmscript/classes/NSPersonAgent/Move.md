@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_Move
-description: Void Move(Integer personId, Integer destinationContactId, DateTime moveAfterDate)
+uid: crmscript_ref_NSPersonAgent_Move
+title: Void Move(Integer personId, Integer destinationContactId, DateTime moveAfterDate)
 intellisense: NSPersonAgent.Move
-keywords: NSPersonAgent,Move
+keywords: NSPersonAgent, Move
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CopySelectionMembers
-description: Void CopySelectionMembers(Integer fromSelectionId, Integer toSelectionId)
+uid: crmscript_ref_NSSelectionAgent_CopySelectionMembers
+title: Void CopySelectionMembers(Integer fromSelectionId, Integer toSelectionId)
 intellisense: NSSelectionAgent.CopySelectionMembers
-keywords: NSSelectionAgent,CopySelectionMembers
+keywords: NSSelectionAgent, CopySelectionMembers
 so.topic: reference
 ---
 

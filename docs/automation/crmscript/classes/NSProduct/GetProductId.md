@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetProductId
-description: Integer NSProduct.GetProductId()
+uid: crmscript_ref_NSProduct_GetProductId
+title: Integer GetProductId()
 intellisense: NSProduct.GetProductId
 keywords: NSProduct, GetProductId
 so.topic: reference

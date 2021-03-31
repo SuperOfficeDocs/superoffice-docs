@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailbox_SetAddress
-description: NSMailbox.SetAddress(String address)
+uid: crmscript_ref_NSMailbox_SetAddress
+title: SetAddress(String address)
 intellisense: NSMailbox.SetAddress
 keywords: NSMailbox, GetAddress
 so.topic: reference

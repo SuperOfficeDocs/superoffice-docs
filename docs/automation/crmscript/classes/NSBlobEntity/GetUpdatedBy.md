@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_GetUpdatedBy
-description: Associate NSBlobEntity.GetUpdatedBy()
+uid: crmscript_ref_NSBlobEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
 intellisense: NSBlobEntity.GetUpdatedBy
 keywords: NSBlobEntity, GetUpdatedBy
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSentryAgent_GetFunctionRights
-description: StringArray GetFunctionRights()
+uid: crmscript_ref_NSSentryAgent_GetFunctionRights
+title: StringArray GetFunctionRights()
 intellisense: NSSentryAgent.GetFunctionRights
-keywords: NSSentryAgent,GetFunctionRights
+keywords: NSSentryAgent, GetFunctionRights
 so.topic: reference
 ---
 

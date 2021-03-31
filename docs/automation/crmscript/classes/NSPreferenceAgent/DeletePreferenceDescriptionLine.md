@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_DeletePreferenceDescriptionLine
-description: DeletePreferenceDescriptionLine(Integer preferenceDescriptionLine);
+uid: crmscript_ref_NSPreferenceAgent_DeletePreferenceDescriptionLine
+title: DeletePreferenceDescriptionLine(Integer preferenceDescriptionLine);
 intellisense: NSPreferenceAgent.DeletePreferenceDescriptionLine
-keywords: NSPreferenceAgent,DeletePreferenceDescriptionLine
+keywords: NSPreferenceAgent, DeletePreferenceDescriptionLine
 so.topic: reference
 ---
 

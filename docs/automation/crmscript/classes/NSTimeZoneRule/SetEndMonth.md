@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneRule_SetEndMonth
-description: NSTimeZoneRule.SetEndMonth(Integer endMonth)
+uid: crmscript_ref_NSTimeZoneRule_SetEndMonth
+title: SetEndMonth(Integer endMonth)
 intellisense: NSTimeZoneRule.SetEndMonth
 keywords: NSTimeZoneRule, GetEndMonth
 so.topic: reference

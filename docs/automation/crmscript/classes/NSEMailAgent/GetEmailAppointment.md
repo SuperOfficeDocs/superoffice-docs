@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEmailAppointment
-description: EMailAppointment GetEmailAppointment(Integer mailItemId)
+uid: crmscript_ref_NSEMailAgent_GetEmailAppointment
+title: EMailAppointment GetEmailAppointment(Integer mailItemId)
 intellisense: NSEMailAgent.GetEmailAppointment
-keywords: NSEMailAgent,GetEmailAppointment
+keywords: NSEMailAgent, GetEmailAppointment
 so.topic: reference
 ---
 

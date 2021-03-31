@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetMyAudienceLayout
-description: AudienceLayoutEntity GetMyAudienceLayout()
+uid: crmscript_ref_NSAudienceAgent_GetMyAudienceLayout
+title: AudienceLayoutEntity GetMyAudienceLayout()
 intellisense: NSAudienceAgent.GetMyAudienceLayout
-keywords: NSAudienceAgent,GetMyAudienceLayout
+keywords: NSAudienceAgent, GetMyAudienceLayout
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBulkUpdateAgent_ExecuteByEntityIds
-description: Integer ExecuteByEntityIds(FieldValueInfoArray fieldValueInfos, String tableName, String context, String ids)
+uid: crmscript_ref_NSBulkUpdateAgent_ExecuteByEntityIds
+title: Integer ExecuteByEntityIds(FieldValueInfoArray fieldValueInfos, String tableName, String context, String ids)
 intellisense: NSBulkUpdateAgent.ExecuteByEntityIds
-keywords: NSBulkUpdateAgent,ExecuteByEntityIds
+keywords: NSBulkUpdateAgent, ExecuteByEntityIds
 so.topic: reference
 ---
 

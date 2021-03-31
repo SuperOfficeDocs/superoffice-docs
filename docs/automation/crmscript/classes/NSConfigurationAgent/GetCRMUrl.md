@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetCRMUrl
-description: String GetCRMUrl(String soProtocol, String currents, Bool frameless)
+uid: crmscript_ref_NSConfigurationAgent_GetCRMUrl
+title: String GetCRMUrl(String soProtocol, String currents, Bool frameless)
 intellisense: NSConfigurationAgent.GetCRMUrl
-keywords: NSConfigurationAgent,GetCRMUrl
+keywords: NSConfigurationAgent, GetCRMUrl
 so.topic: reference
 ---
 

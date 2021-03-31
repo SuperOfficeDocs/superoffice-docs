@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAssociateAgent_GetNote
-description: StringArray GetNote(Integer associateId)
+uid: crmscript_ref_NSAssociateAgent_GetNote
+title: StringArray GetNote(Integer associateId)
 intellisense: NSAssociateAgent.GetNote
-keywords: NSAssociateAgent,GetNote
+keywords: NSAssociateAgent, GetNote
 so.topic: reference
 ---
 

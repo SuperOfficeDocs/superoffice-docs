@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetSaleStakeholder
-description: NSSaleStakeholder GetSaleStakeholder(Integer saleStakeholderId);
+uid: crmscript_ref_NSSaleAgent_GetSaleStakeholder
+title: NSSaleStakeholder GetSaleStakeholder(Integer saleStakeholderId);
 intellisense: NSSaleAgent.GetSaleStakeholder
-keywords: NSSaleAgent,GetSaleStakeholder
+keywords: NSSaleAgent, GetSaleStakeholder
 so.topic: reference
 ---
 

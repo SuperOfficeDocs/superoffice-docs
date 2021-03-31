@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetAllRoles
-description: SelectableMDOListItemArray GetAllRoles(Integer roleType)
+uid: crmscript_ref_NSUserAgent_GetAllRoles
+title: SelectableMDOListItemArray GetAllRoles(Integer roleType)
 intellisense: NSUserAgent.GetAllRoles
-keywords: NSUserAgent,GetAllRoles
+keywords: NSUserAgent, GetAllRoles
 so.topic: reference
 ---
 

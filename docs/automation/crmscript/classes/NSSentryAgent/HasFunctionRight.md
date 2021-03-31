@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSentryAgent_HasFunctionRight
-description: Bool HasFunctionRight(String functionRight)
+uid: crmscript_ref_NSSentryAgent_HasFunctionRight
+title: Bool HasFunctionRight(String functionRight)
 intellisense: NSSentryAgent.HasFunctionRight
-keywords: NSSentryAgent,HasFunctionRight
+keywords: NSSentryAgent, HasFunctionRight
 so.topic: reference
 ---
 

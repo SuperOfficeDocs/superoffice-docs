@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoShortText_SetFormatMask
-description: NSFieldInfoShortText.SetFormatMask(String formatMask)
+uid: crmscript_ref_NSFieldInfoShortText_SetFormatMask
+title: SetFormatMask(String formatMask)
 intellisense: NSFieldInfoShortText.SetFormatMask
 keywords: NSFieldInfoShortText, GetFormatMask
 so.topic: reference

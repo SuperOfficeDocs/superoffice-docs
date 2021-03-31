@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_SetValidFrom
-description: NSPriceList.SetValidFrom(DateTime validFrom)
+uid: crmscript_ref_NSPriceList_SetValidFrom
+title: SetValidFrom(DateTime validFrom)
 intellisense: NSPriceList.SetValidFrom
 keywords: NSPriceList, GetValidFrom
 so.topic: reference

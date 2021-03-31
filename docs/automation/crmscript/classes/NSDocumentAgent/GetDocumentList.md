@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetDocumentList
-description: NSDocument[] GetDocumentList(Integer[]  documentIds);
+uid: crmscript_ref_NSDocumentAgent_GetDocumentList
+title: NSDocument[] GetDocumentList(Integer[]  documentIds);
 intellisense: NSDocumentAgent.GetDocumentList
-keywords: NSDocumentAgent,GetDocumentList
+keywords: NSDocumentAgent, GetDocumentList
 so.topic: reference
 ---
 

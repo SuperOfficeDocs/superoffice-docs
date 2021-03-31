@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetNewMail
-description: EMailEnvelopeArray GetNewMail(IntegerArray folders)
+uid: crmscript_ref_NSEMailAgent_GetNewMail
+title: EMailEnvelopeArray GetNewMail(IntegerArray folders)
 intellisense: NSEMailAgent.GetNewMail
-keywords: NSEMailAgent,GetNewMail
+keywords: NSEMailAgent, GetNewMail
 so.topic: reference
 ---
 

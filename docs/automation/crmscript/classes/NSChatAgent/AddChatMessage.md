@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_AddChatMessage
-description: ChatMessage AddChatMessage(Integer chatSessionId, ChatMessage message)
+uid: crmscript_ref_NSChatAgent_AddChatMessage
+title: ChatMessage AddChatMessage(Integer chatSessionId, ChatMessage message)
 intellisense: NSChatAgent.AddChatMessage
-keywords: NSChatAgent,AddChatMessage
+keywords: NSChatAgent, AddChatMessage
 so.topic: reference
 ---
 

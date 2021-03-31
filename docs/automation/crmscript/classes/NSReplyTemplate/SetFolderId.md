@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReplyTemplate_SetFolderId
-description: NSReplyTemplate.SetFolderId(Integer folderId)
+uid: crmscript_ref_NSReplyTemplate_SetFolderId
+title: SetFolderId(Integer folderId)
 intellisense: NSReplyTemplate.SetFolderId
 keywords: NSReplyTemplate, GetFolderId
 so.topic: reference

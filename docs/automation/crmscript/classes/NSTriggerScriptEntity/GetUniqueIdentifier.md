@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity_GetUniqueIdentifier
-description: String NSTriggerScriptEntity.GetUniqueIdentifier()
+uid: crmscript_ref_NSTriggerScriptEntity_GetUniqueIdentifier
+title: String GetUniqueIdentifier()
 intellisense: NSTriggerScriptEntity.GetUniqueIdentifier
 keywords: NSTriggerScriptEntity, GetUniqueIdentifier
 so.topic: reference

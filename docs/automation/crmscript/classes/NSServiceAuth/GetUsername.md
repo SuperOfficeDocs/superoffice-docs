@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSServiceAuth_GetUsername
-description: String NSServiceAuth.GetUsername()
+uid: crmscript_ref_NSServiceAuth_GetUsername
+title: String GetUsername()
 intellisense: NSServiceAuth.GetUsername
 keywords: NSServiceAuth, GetUsername
 so.topic: reference

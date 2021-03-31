@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginUrlResponse_GetErrorCode
-description: String NSPluginUrlResponse.GetErrorCode()
+uid: crmscript_ref_NSPluginUrlResponse_GetErrorCode
+title: String GetErrorCode()
 intellisense: NSPluginUrlResponse.GetErrorCode
 keywords: NSPluginUrlResponse, GetErrorCode
 so.topic: reference

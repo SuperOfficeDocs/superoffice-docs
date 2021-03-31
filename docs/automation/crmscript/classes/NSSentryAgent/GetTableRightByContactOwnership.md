@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSentryAgent_GetTableRightByContactOwnership
-description: TableRight GetTableRightByContactOwnership(String tableName, Integer contactId)
+uid: crmscript_ref_NSSentryAgent_GetTableRightByContactOwnership
+title: TableRight GetTableRightByContactOwnership(String tableName, Integer contactId)
 intellisense: NSSentryAgent.GetTableRightByContactOwnership
-keywords: NSSentryAgent,GetTableRightByContactOwnership
+keywords: NSSentryAgent, GetTableRightByContactOwnership
 so.topic: reference
 ---
 

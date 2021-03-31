@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetDataRights
-description: StringDictionary GetDataRights(Integer roleId, String tableName)
+uid: crmscript_ref_NSUserAgent_GetDataRights
+title: StringDictionary GetDataRights(Integer roleId, String tableName)
 intellisense: NSUserAgent.GetDataRights
-keywords: NSUserAgent,GetDataRights
+keywords: NSUserAgent, GetDataRights
 so.topic: reference
 ---
 

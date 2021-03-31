@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetMyRecentContacts
-description: ContactArray GetMyRecentContacts(Integer sourceType)
+uid: crmscript_ref_NSContactAgent_GetMyRecentContacts
+title: ContactArray GetMyRecentContacts(Integer sourceType)
 intellisense: NSContactAgent.GetMyRecentContacts
-keywords: NSContactAgent,GetMyRecentContacts
+keywords: NSContactAgent, GetMyRecentContacts
 so.topic: reference
 ---
 

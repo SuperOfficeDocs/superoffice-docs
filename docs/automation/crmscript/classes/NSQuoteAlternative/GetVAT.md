@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_GetVAT
-description: Float NSQuoteAlternative.GetVAT()
+uid: crmscript_ref_NSQuoteAlternative_GetVAT
+title: Float GetVAT()
 intellisense: NSQuoteAlternative.GetVAT
 keywords: NSQuoteAlternative, GetVAT
 so.topic: reference

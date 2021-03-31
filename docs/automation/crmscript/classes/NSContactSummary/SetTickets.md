@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactSummary_SetTickets
-description: NSContactSummary.SetTickets(TicketSummaryItemArray tickets)
+uid: crmscript_ref_NSContactSummary_SetTickets
+title: SetTickets(TicketSummaryItemArray tickets)
 intellisense: NSContactSummary.SetTickets
 keywords: NSContactSummary, GetTickets
 so.topic: reference

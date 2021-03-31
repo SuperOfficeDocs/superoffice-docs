@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_GetDisplayValues
-description: StringArray NSFieldValueInfo.GetDisplayValues()
+uid: crmscript_ref_NSFieldValueInfo_GetDisplayValues
+title: StringArray GetDisplayValues()
 intellisense: NSFieldValueInfo.GetDisplayValues
 keywords: NSFieldValueInfo, GetDisplayValues
 so.topic: reference

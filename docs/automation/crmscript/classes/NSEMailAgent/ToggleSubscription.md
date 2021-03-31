@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_ToggleSubscription
-description: Void ToggleSubscription(Integer folderId, Bool subscriptionStatus)
+uid: crmscript_ref_NSEMailAgent_ToggleSubscription
+title: Void ToggleSubscription(Integer folderId, Bool subscriptionStatus)
 intellisense: NSEMailAgent.ToggleSubscription
-keywords: NSEMailAgent,ToggleSubscription
+keywords: NSEMailAgent, ToggleSubscription
 so.topic: reference
 ---
 

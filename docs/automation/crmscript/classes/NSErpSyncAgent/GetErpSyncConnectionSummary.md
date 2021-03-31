@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetErpSyncConnectionSummary
-description: ErpSyncConnectionSummary GetErpSyncConnectionSummary(Integer erpSyncConnectionId)
+uid: crmscript_ref_NSErpSyncAgent_GetErpSyncConnectionSummary
+title: ErpSyncConnectionSummary GetErpSyncConnectionSummary(Integer erpSyncConnectionId)
 intellisense: NSErpSyncAgent.GetErpSyncConnectionSummary
-keywords: NSErpSyncAgent,GetErpSyncConnectionSummary
+keywords: NSErpSyncAgent, GetErpSyncConnectionSummary
 so.topic: reference
 ---
 

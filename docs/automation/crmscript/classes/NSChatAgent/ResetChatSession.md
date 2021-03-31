@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_ResetChatSession
-description: ChatSessionEntity ResetChatSession(Integer chatSessionId)
+uid: crmscript_ref_NSChatAgent_ResetChatSession
+title: ChatSessionEntity ResetChatSession(Integer chatSessionId)
 intellisense: NSChatAgent.ResetChatSession
-keywords: NSChatAgent,ResetChatSession
+keywords: NSChatAgent, ResetChatSession
 so.topic: reference
 ---
 

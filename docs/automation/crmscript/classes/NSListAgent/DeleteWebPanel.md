@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_DeleteWebPanel
-description: Void DeleteWebPanel(Integer id)
+uid: crmscript_ref_NSListAgent_DeleteWebPanel
+title: Void DeleteWebPanel(Integer id)
 intellisense: NSListAgent.DeleteWebPanel
-keywords: NSListAgent,DeleteWebPanel
+keywords: NSListAgent, DeleteWebPanel
 so.topic: reference
 ---
 

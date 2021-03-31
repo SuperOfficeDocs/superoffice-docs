@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUntrustedCredentials_GetValidFrom
-description: DateTime NSUntrustedCredentials.GetValidFrom()
+uid: crmscript_ref_NSUntrustedCredentials_GetValidFrom
+title: DateTime GetValidFrom()
 intellisense: NSUntrustedCredentials.GetValidFrom
 keywords: NSUntrustedCredentials, GetValidFrom
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_DeleteWindowPosSize
-description: Void DeleteWindowPosSize(Integer windowPosSizeId)
+uid: crmscript_ref_NSConfigurationAgent_DeleteWindowPosSize
+title: Void DeleteWindowPosSize(Integer windowPosSizeId)
 intellisense: NSConfigurationAgent.DeleteWindowPosSize
-keywords: NSConfigurationAgent,DeleteWindowPosSize
+keywords: NSConfigurationAgent, DeleteWindowPosSize
 so.topic: reference
 ---
 

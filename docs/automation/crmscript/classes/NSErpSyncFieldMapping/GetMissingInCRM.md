@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_GetMissingInCRM
-description: Bool NSErpSyncFieldMapping.GetMissingInCRM()
+uid: crmscript_ref_NSErpSyncFieldMapping_GetMissingInCRM
+title: Bool GetMissingInCRM()
 intellisense: NSErpSyncFieldMapping.GetMissingInCRM
 keywords: NSErpSyncFieldMapping, GetMissingInCRM
 so.topic: reference

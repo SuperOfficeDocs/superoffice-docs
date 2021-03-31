@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionValidated_SetChangedSale
-description: NSQuoteVersionValidated.SetChangedSale(Sale changedSale)
+uid: crmscript_ref_NSQuoteVersionValidated_SetChangedSale
+title: SetChangedSale(Sale changedSale)
 intellisense: NSQuoteVersionValidated.SetChangedSale
 keywords: NSQuoteVersionValidated, GetChangedSale
 so.topic: reference

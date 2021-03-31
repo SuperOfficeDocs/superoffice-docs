@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetCanInsertForAssociates
-description: BooleanArray GetCanInsertForAssociates(IntegerArray associateIds)
+uid: crmscript_ref_NSAppointmentAgent_GetCanInsertForAssociates
+title: BooleanArray GetCanInsertForAssociates(IntegerArray associateIds)
 intellisense: NSAppointmentAgent.GetCanInsertForAssociates
-keywords: NSAppointmentAgent,GetCanInsertForAssociates
+keywords: NSAppointmentAgent, GetCanInsertForAssociates
 so.topic: reference
 ---
 

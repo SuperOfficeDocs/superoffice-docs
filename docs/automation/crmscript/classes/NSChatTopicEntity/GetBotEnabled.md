@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetBotEnabled
-description: Bool NSChatTopicEntity.GetBotEnabled()
+uid: crmscript_ref_NSChatTopicEntity_GetBotEnabled
+title: Bool GetBotEnabled()
 intellisense: NSChatTopicEntity.GetBotEnabled
 keywords: NSChatTopicEntity, GetBotEnabled
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboard_SetCaption
-description: NSDashboard.SetCaption(String caption)
+uid: crmscript_ref_NSDashboard_SetCaption
+title: SetCaption(String caption)
 intellisense: NSDashboard.SetCaption
 keywords: NSDashboard, GetCaption
 so.topic: reference

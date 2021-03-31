@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_SetAppData
-description: Void SetAppData(String key, String data)
+uid: crmscript_ref_NSBLOBAgent_SetAppData
+title: Void SetAppData(String key, String data)
 intellisense: NSBLOBAgent.SetAppData
-keywords: NSBLOBAgent,SetAppData
+keywords: NSBLOBAgent, SetAppData
 so.topic: reference
 ---
 

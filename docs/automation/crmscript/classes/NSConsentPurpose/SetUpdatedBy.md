@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_SetUpdatedBy
-description: NSConsentPurpose.SetUpdatedBy(Associate updatedBy)
+uid: crmscript_ref_NSConsentPurpose_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
 intellisense: NSConsentPurpose.SetUpdatedBy
 keywords: NSConsentPurpose, GetUpdatedBy
 so.topic: reference

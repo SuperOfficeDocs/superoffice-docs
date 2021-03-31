@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_GetTriggerScriptByUniqueId
-description: TriggerScriptEntity GetTriggerScriptByUniqueId(String triggerScriptUniqueId)
+uid: crmscript_ref_NSCRMScriptAgent_GetTriggerScriptByUniqueId
+title: TriggerScriptEntity GetTriggerScriptByUniqueId(String triggerScriptUniqueId)
 intellisense: NSCRMScriptAgent.GetTriggerScriptByUniqueId
-keywords: NSCRMScriptAgent,GetTriggerScriptByUniqueId
+keywords: NSCRMScriptAgent, GetTriggerScriptByUniqueId
 so.topic: reference
 ---
 

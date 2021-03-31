@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_GetChatPresence
-description: ChatPresenceArray GetChatPresence()
+uid: crmscript_ref_NSChatAgent_GetChatPresence
+title: ChatPresenceArray GetChatPresence()
 intellisense: NSChatAgent.GetChatPresence
-keywords: NSChatAgent,GetChatPresence
+keywords: NSChatAgent, GetChatPresence
 so.topic: reference
 ---
 

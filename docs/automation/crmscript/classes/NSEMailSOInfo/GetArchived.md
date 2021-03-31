@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailSOInfo_GetArchived
-description: Bool NSEMailSOInfo.GetArchived()
+uid: crmscript_ref_NSEMailSOInfo_GetArchived
+title: Bool GetArchived()
 intellisense: NSEMailSOInfo.GetArchived
 keywords: NSEMailSOInfo, GetArchived
 so.topic: reference

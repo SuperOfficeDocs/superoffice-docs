@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetGroupId
-description: Integer NSContactEntity.GetGroupId()
+uid: crmscript_ref_NSContactEntity_GetGroupId
+title: Integer GetGroupId()
 intellisense: NSContactEntity.GetGroupId
 keywords: NSContactEntity, GetGroupId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetPhoneContact
-description: NSParticipantSyncData.SetPhoneContact(StringArray phoneContact)
+uid: crmscript_ref_NSParticipantSyncData_SetPhoneContact
+title: SetPhoneContact(StringArray phoneContact)
 intellisense: NSParticipantSyncData.SetPhoneContact
 keywords: NSParticipantSyncData, GetPhoneContact
 so.topic: reference

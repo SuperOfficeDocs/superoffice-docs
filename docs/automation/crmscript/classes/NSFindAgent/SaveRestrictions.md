@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_SaveRestrictions
-description: Void SaveRestrictions(String storageType, String providerName, String storageKey, ArchiveRestrictionInfoArray restrictions)
+uid: crmscript_ref_NSFindAgent_SaveRestrictions
+title: Void SaveRestrictions(String storageType, String providerName, String storageKey, ArchiveRestrictionInfoArray restrictions)
 intellisense: NSFindAgent.SaveRestrictions
-keywords: NSFindAgent,SaveRestrictions
+keywords: NSFindAgent, SaveRestrictions
 so.topic: reference
 ---
 

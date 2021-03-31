@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetTheme
-description: Integer NSChatWidgetSettings.GetTheme()
+uid: crmscript_ref_NSChatWidgetSettings_GetTheme
+title: Integer GetTheme()
 intellisense: NSChatWidgetSettings.GetTheme
 keywords: NSChatWidgetSettings, GetTheme
 so.topic: reference

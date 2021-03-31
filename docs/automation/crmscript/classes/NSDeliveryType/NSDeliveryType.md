@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDeliveryType
-description: NSDeliveryType
+uid: crmscript_ref_NSDeliveryType
+title: NSDeliveryType
 intellisense: Void.NSDeliveryType
 keywords: NSDeliveryType
 so.topic: reference

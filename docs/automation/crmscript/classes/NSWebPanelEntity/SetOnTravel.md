@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetOnTravel
-description: NSWebPanelEntity.SetOnTravel(Bool onTravel)
+uid: crmscript_ref_NSWebPanelEntity_SetOnTravel
+title: SetOnTravel(Bool onTravel)
 intellisense: NSWebPanelEntity.SetOnTravel
 keywords: NSWebPanelEntity, GetOnTravel
 so.topic: reference

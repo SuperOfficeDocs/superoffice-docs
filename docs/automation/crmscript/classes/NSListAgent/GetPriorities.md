@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetPriorities
-description: PriorityArray GetPriorities()
+uid: crmscript_ref_NSListAgent_GetPriorities
+title: PriorityArray GetPriorities()
 intellisense: NSListAgent.GetPriorities
-keywords: NSListAgent,GetPriorities
+keywords: NSListAgent, GetPriorities
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHierarchyEntity_GetHierarchyId
-description: Integer NSHierarchyEntity.GetHierarchyId()
+uid: crmscript_ref_NSHierarchyEntity_GetHierarchyId
+title: Integer GetHierarchyId()
 intellisense: NSHierarchyEntity.GetHierarchyId
 keywords: NSHierarchyEntity, GetHierarchyId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity
-description: NSPersonEntity
+uid: crmscript_ref_NSPersonEntity
+title: NSPersonEntity
 intellisense: Void.NSPersonEntity
 keywords: NSPersonEntity
 so.topic: reference

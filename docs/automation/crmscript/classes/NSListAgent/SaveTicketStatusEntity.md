@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveTicketStatusEntity
-description: NSTicketStatusEntity SaveTicketStatusEntity(NSTicketStatusEntity ticketStatusEntity);
+uid: crmscript_ref_NSListAgent_SaveTicketStatusEntity
+title: NSTicketStatusEntity SaveTicketStatusEntity(NSTicketStatusEntity ticketStatusEntity);
 intellisense: NSListAgent.SaveTicketStatusEntity
-keywords: NSListAgent,SaveTicketStatusEntity
+keywords: NSListAgent, SaveTicketStatusEntity
 so.topic: reference
 ---
 	  

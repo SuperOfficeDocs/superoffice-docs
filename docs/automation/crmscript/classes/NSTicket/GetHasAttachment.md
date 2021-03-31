@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetHasAttachment
-description: Bool NSTicket.GetHasAttachment()
+uid: crmscript_ref_NSTicket_GetHasAttachment
+title: Bool GetHasAttachment()
 intellisense: NSTicket.GetHasAttachment
 keywords: NSTicket, GetHasAttachment
 so.topic: reference

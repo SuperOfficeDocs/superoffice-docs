@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetActiveStatusMonitorId
-description: NSContactEntity.SetActiveStatusMonitorId(Integer activeStatusMonitorId)
+uid: crmscript_ref_NSContactEntity_SetActiveStatusMonitorId
+title: SetActiveStatusMonitorId(Integer activeStatusMonitorId)
 intellisense: NSContactEntity.SetActiveStatusMonitorId
 keywords: NSContactEntity, GetActiveStatusMonitorId
 so.topic: reference

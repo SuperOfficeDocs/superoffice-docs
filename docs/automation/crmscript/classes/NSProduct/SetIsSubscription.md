@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetIsSubscription
-description: NSProduct.SetIsSubscription(Bool isSubscription)
+uid: crmscript_ref_NSProduct_SetIsSubscription
+title: SetIsSubscription(Bool isSubscription)
 intellisense: NSProduct.SetIsSubscription
 keywords: NSProduct, GetIsSubscription
 so.topic: reference

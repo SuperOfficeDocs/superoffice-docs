@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_SetReason
-description: NSQuoteAlternative.SetReason(String reason)
+uid: crmscript_ref_NSQuoteAlternative_SetReason
+title: SetReason(String reason)
 intellisense: NSQuoteAlternative.SetReason
 keywords: NSQuoteAlternative, GetReason
 so.topic: reference

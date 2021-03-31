@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatMessage_SetChatMessageId
-description: NSChatMessage.SetChatMessageId(Integer chatMessageId)
+uid: crmscript_ref_NSChatMessage_SetChatMessageId
+title: SetChatMessageId(Integer chatMessageId)
 intellisense: NSChatMessage.SetChatMessageId
 keywords: NSChatMessage, GetChatMessageId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboard_GetLayout
-description: Integer NSDashboard.GetLayout()
+uid: crmscript_ref_NSDashboard_GetLayout
+title: Integer GetLayout()
 intellisense: NSDashboard.GetLayout
 keywords: NSDashboard, GetLayout
 so.topic: reference

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSRating_GetValue
-description: String NSRating.GetValue()
+uid: crmscript_ref_NSRating_GetValue
+title: String GetValue()
 intellisense: NSRating.GetValue
 keywords: NSRating, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the Rating.
 
-**Returns:** String name
+**Returns:** String Rating name.
 

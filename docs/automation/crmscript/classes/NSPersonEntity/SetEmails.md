@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetEmails
-description: NSPersonEntity.SetEmails(EntityElementArray emails)
+uid: crmscript_ref_NSPersonEntity_SetEmails
+title: SetEmails(EntityElementArray emails)
 intellisense: NSPersonEntity.SetEmails
 keywords: NSPersonEntity, GetEmails
 so.topic: reference

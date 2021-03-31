@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetUntrustedCredentialsForAssociate
-description: UntrustedCredentialsArray GetUntrustedCredentialsForAssociate(Integer associateId, String type)
+uid: crmscript_ref_NSUserAgent_GetUntrustedCredentialsForAssociate
+title: UntrustedCredentialsArray GetUntrustedCredentialsForAssociate(Integer associateId, String type)
 intellisense: NSUserAgent.GetUntrustedCredentialsForAssociate
-keywords: NSUserAgent,GetUntrustedCredentialsForAssociate
+keywords: NSUserAgent, GetUntrustedCredentialsForAssociate
 so.topic: reference
 ---
 

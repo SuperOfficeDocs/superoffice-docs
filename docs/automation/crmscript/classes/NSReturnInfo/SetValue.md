@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReturnInfo_SetValue
-description: NSReturnInfo.SetValue(String value)
+uid: crmscript_ref_NSReturnInfo_SetValue
+title: SetValue(String value)
 intellisense: NSReturnInfo.SetValue
 keywords: NSReturnInfo, GetValue
 so.topic: reference

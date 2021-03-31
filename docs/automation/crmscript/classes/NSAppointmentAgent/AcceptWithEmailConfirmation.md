@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_AcceptWithEmailConfirmation
-description: Void AcceptWithEmailConfirmation(Integer appointmentId, Integer updateMode)
+uid: crmscript_ref_NSAppointmentAgent_AcceptWithEmailConfirmation
+title: Void AcceptWithEmailConfirmation(Integer appointmentId, Integer updateMode)
 intellisense: NSAppointmentAgent.AcceptWithEmailConfirmation
-keywords: NSAppointmentAgent,AcceptWithEmailConfirmation
+keywords: NSAppointmentAgent, AcceptWithEmailConfirmation
 so.topic: reference
 ---
 

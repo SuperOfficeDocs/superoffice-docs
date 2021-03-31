@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportLine_SetType
-description: NSImportLine.SetType(Integer type)
+uid: crmscript_ref_NSImportLine_SetType
+title: SetType(Integer type)
 intellisense: NSImportLine.SetType
 keywords: NSImportLine, GetType
 so.topic: reference

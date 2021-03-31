@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_ValidateAppointmentEntity
-description: StringDictionary ValidateAppointmentEntity(AppointmentEntity appointmentEntity)
+uid: crmscript_ref_NSAppointmentAgent_ValidateAppointmentEntity
+title: StringDictionary ValidateAppointmentEntity(AppointmentEntity appointmentEntity)
 intellisense: NSAppointmentAgent.ValidateAppointmentEntity
-keywords: NSAppointmentAgent,ValidateAppointmentEntity
+keywords: NSAppointmentAgent, ValidateAppointmentEntity
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_CreateTicketFromMailData
-description: TicketInfo CreateTicketFromMailData(Integer mailboxId, String data)
+uid: crmscript_ref_NSCustomerServiceAgent_CreateTicketFromMailData
+title: TicketInfo CreateTicketFromMailData(Integer mailboxId, String data)
 intellisense: NSCustomerServiceAgent.CreateTicketFromMailData
-keywords: NSCustomerServiceAgent,CreateTicketFromMailData
+keywords: NSCustomerServiceAgent, CreateTicketFromMailData
 so.topic: reference
 ---
 

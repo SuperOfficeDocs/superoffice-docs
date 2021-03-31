@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetCredited
-description: NSCredited GetCredited(Integer creditedId);
+uid: crmscript_ref_NSListAgent_GetCredited
+title: NSCredited GetCredited(Integer creditedId);
 intellisense: NSListAgent.GetCredited
-keywords: NSListAgent,GetCredited
+keywords: NSListAgent, GetCredited
 so.topic: reference
 ---
 

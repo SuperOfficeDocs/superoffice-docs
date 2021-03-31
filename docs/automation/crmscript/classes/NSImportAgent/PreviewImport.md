@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSImportAgent_PreviewImport
-description: ImportLineArray PreviewImport(ImportLineArray importLines, StringArray columnDefinition, String culture, String context)
+uid: crmscript_ref_NSImportAgent_PreviewImport
+title: ImportLineArray PreviewImport(ImportLineArray importLines, StringArray columnDefinition, String culture, String context)
 intellisense: NSImportAgent.PreviewImport
-keywords: NSImportAgent,PreviewImport
+keywords: NSImportAgent, PreviewImport
 so.topic: reference
 ---
 

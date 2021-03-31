@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_CreateAndAcceptWithEmailConfirmation
-description: Void CreateAndAcceptWithEmailConfirmation(Integer emailItemId, Integer updateMode)
+uid: crmscript_ref_NSAppointmentAgent_CreateAndAcceptWithEmailConfirmation
+title: Void CreateAndAcceptWithEmailConfirmation(Integer emailItemId, Integer updateMode)
 intellisense: NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation
-keywords: NSAppointmentAgent,CreateAndAcceptWithEmailConfirmation
+keywords: NSAppointmentAgent, CreateAndAcceptWithEmailConfirmation
 so.topic: reference
 ---
 

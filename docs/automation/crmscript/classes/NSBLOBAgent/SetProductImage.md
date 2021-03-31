@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_SetProductImage
-description: Void SetProductImage(Integer productId, Image image)
+uid: crmscript_ref_NSBLOBAgent_SetProductImage
+title: Void SetProductImage(Integer productId, Image image)
 intellisense: NSBLOBAgent.SetProductImage
-keywords: NSBLOBAgent,SetProductImage
+keywords: NSBLOBAgent, SetProductImage
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_CollectWebUsage
-description: Void CollectWebUsage()
+uid: crmscript_ref_NSDiagnosticsAgent_CollectWebUsage
+title: Void CollectWebUsage()
 intellisense: NSDiagnosticsAgent.CollectWebUsage
-keywords: NSDiagnosticsAgent,CollectWebUsage
+keywords: NSDiagnosticsAgent, CollectWebUsage
 so.topic: reference
 ---
 

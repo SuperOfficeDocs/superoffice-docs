@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetParticipantInfoFromEmailAddress
-description: Person GetParticipantInfoFromEmailAddress(String emailAddress, Integer appointmentId)
+uid: crmscript_ref_NSEMailAgent_GetParticipantInfoFromEmailAddress
+title: Person GetParticipantInfoFromEmailAddress(String emailAddress, Integer appointmentId)
 intellisense: NSEMailAgent.GetParticipantInfoFromEmailAddress
-keywords: NSEMailAgent,GetParticipantInfoFromEmailAddress
+keywords: NSEMailAgent, GetParticipantInfoFromEmailAddress
 so.topic: reference
 ---
 

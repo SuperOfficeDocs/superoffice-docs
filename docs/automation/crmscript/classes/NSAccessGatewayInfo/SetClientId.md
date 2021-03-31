@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAccessGatewayInfo_SetClientId
-description: NSAccessGatewayInfo.SetClientId(String clientId)
+uid: crmscript_ref_NSAccessGatewayInfo_SetClientId
+title: SetClientId(String clientId)
 intellisense: NSAccessGatewayInfo.SetClientId
 keywords: NSAccessGatewayInfo, GetClientId
 so.topic: reference

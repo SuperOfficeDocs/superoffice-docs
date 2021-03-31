@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_GetParticipantStatus
-description: Integer NSParticipantSyncData.GetParticipantStatus()
+uid: crmscript_ref_NSParticipantSyncData_GetParticipantStatus
+title: Integer GetParticipantStatus()
 intellisense: NSParticipantSyncData.GetParticipantStatus
 keywords: NSParticipantSyncData, GetParticipantStatus
 so.topic: reference

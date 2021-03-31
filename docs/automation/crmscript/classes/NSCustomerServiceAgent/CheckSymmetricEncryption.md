@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_CheckSymmetricEncryption
-description: String CheckSymmetricEncryption(String encryptedString)
+uid: crmscript_ref_NSCustomerServiceAgent_CheckSymmetricEncryption
+title: String CheckSymmetricEncryption(String encryptedString)
 intellisense: NSCustomerServiceAgent.CheckSymmetricEncryption
-keywords: NSCustomerServiceAgent,CheckSymmetricEncryption
+keywords: NSCustomerServiceAgent, CheckSymmetricEncryption
 so.topic: reference
 ---
 

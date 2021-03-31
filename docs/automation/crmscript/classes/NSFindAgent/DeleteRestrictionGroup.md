@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_DeleteRestrictionGroup
-description: Void DeleteRestrictionGroup(String storageType, String providerName, String storageKey, Integer rank, String context)
+uid: crmscript_ref_NSFindAgent_DeleteRestrictionGroup
+title: Void DeleteRestrictionGroup(String storageType, String providerName, String storageKey, Integer rank, String context)
 intellisense: NSFindAgent.DeleteRestrictionGroup
-keywords: NSFindAgent,DeleteRestrictionGroup
+keywords: NSFindAgent, DeleteRestrictionGroup
 so.topic: reference
 ---
 

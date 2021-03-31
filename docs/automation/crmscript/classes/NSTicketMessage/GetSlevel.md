@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessage_GetSlevel
-description: TicketSecurityLevel NSTicketMessage.GetSlevel()
+uid: crmscript_ref_NSTicketMessage_GetSlevel
+title: TicketSecurityLevel GetSlevel()
 intellisense: NSTicketMessage.GetSlevel
 keywords: NSTicketMessage, GetSlevel
 so.topic: reference

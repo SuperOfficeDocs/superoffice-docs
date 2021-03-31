@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearches_GetSearches
-description: TypicalSearchArray NSTypicalSearches.GetSearches()
+uid: crmscript_ref_NSTypicalSearches_GetSearches
+title: TypicalSearchArray GetSearches()
 intellisense: NSTypicalSearches.GetSearches
 keywords: NSTypicalSearches, GetSearches
 so.topic: reference

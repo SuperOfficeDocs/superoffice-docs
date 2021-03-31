@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_GetToEmail
-description: String NSQuotePublishDocuments.GetToEmail()
+uid: crmscript_ref_NSQuotePublishDocuments_GetToEmail
+title: String GetToEmail()
 intellisense: NSQuotePublishDocuments.GetToEmail
 keywords: NSQuotePublishDocuments, GetToEmail
 so.topic: reference

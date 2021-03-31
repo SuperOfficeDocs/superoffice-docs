@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSCurrency_GetTooltip
-description: String NSCurrency.GetTooltip()
+uid: crmscript_ref_NSCurrency_GetTooltip
+title: String GetTooltip()
 intellisense: NSCurrency.GetTooltip
 keywords: NSCurrency, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the list item.
+Get the tooltip description for the Currency list item.
 
-**Returns:** String tooltip description.
+**Returns:** String Currency tooltip description.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_SetHasImage
-description: NSProjectEntity.SetHasImage(Bool hasImage)
+uid: crmscript_ref_NSProjectEntity_SetHasImage
+title: SetHasImage(Bool hasImage)
 intellisense: NSProjectEntity.SetHasImage
 keywords: NSProjectEntity, GetHasImage
 so.topic: reference

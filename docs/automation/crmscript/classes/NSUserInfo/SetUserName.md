@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserInfo_SetUserName
-description: NSUserInfo.SetUserName(String userName)
+uid: crmscript_ref_NSUserInfo_SetUserName
+title: SetUserName(String userName)
 intellisense: NSUserInfo.SetUserName
 keywords: NSUserInfo, GetUserName
 so.topic: reference

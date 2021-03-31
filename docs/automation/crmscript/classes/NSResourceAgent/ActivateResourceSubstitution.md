@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSResourceAgent_ActivateResourceSubstitution
-description: Void ActivateResourceSubstitution(String resourceName, String culture, Bool isActive)
+uid: crmscript_ref_NSResourceAgent_ActivateResourceSubstitution
+title: Void ActivateResourceSubstitution(String resourceName, String culture, Bool isActive)
 intellisense: NSResourceAgent.ActivateResourceSubstitution
-keywords: NSResourceAgent,ActivateResourceSubstitution
+keywords: NSResourceAgent, ActivateResourceSubstitution
 so.topic: reference
 ---
 

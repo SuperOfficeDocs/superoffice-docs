@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetRetired
-description: Bool NSPersonEntity.GetRetired()
+uid: crmscript_ref_NSPersonEntity_GetRetired
+title: Bool GetRetired()
 intellisense: NSPersonEntity.GetRetired
 keywords: NSPersonEntity, GetRetired
 so.topic: reference

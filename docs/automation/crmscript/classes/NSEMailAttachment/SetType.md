@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_SetType
-description: NSEMailAttachment.SetType(String type)
+uid: crmscript_ref_NSEMailAttachment_SetType
+title: SetType(String type)
 intellisense: NSEMailAttachment.SetType
 keywords: NSEMailAttachment, GetType
 so.topic: reference

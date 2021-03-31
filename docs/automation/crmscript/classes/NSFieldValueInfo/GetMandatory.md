@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_GetMandatory
-description: Bool NSFieldValueInfo.GetMandatory()
+uid: crmscript_ref_NSFieldValueInfo_GetMandatory
+title: Bool GetMandatory()
 intellisense: NSFieldValueInfo.GetMandatory
 keywords: NSFieldValueInfo, GetMandatory
 so.topic: reference

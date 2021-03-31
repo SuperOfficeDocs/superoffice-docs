@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_GetBusinessName
-description: String NSContact.GetBusinessName()
+uid: crmscript_ref_NSContact_GetBusinessName
+title: String GetBusinessName()
 intellisense: NSContact.GetBusinessName
 keywords: NSContact, GetBusinessName
 so.topic: reference

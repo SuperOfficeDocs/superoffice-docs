@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetFaxPhone
-description: String NSPerson.GetFaxPhone()
+uid: crmscript_ref_NSPerson_GetFaxPhone
+title: String GetFaxPhone()
 intellisense: NSPerson.GetFaxPhone
 keywords: NSPerson, GetFaxPhone
 so.topic: reference

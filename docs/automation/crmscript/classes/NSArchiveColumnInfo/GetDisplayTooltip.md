@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_GetDisplayTooltip
-description: String NSArchiveColumnInfo.GetDisplayTooltip()
+uid: crmscript_ref_NSArchiveColumnInfo_GetDisplayTooltip
+title: String GetDisplayTooltip()
 intellisense: NSArchiveColumnInfo.GetDisplayTooltip
 keywords: NSArchiveColumnInfo, GetDisplayTooltip
 so.topic: reference

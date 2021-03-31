@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCheckoutInfo
-description: NSCheckoutInfo
+uid: crmscript_ref_NSCheckoutInfo
+title: NSCheckoutInfo
 intellisense: Void.NSCheckoutInfo
 keywords: NSCheckoutInfo
 so.topic: reference

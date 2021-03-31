@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptEntity_SetUniqueIdentifier
-description: NSCRMScriptEntity.SetUniqueIdentifier(String uniqueIdentifier)
+uid: crmscript_ref_NSCRMScriptEntity_SetUniqueIdentifier
+title: SetUniqueIdentifier(String uniqueIdentifier)
 intellisense: NSCRMScriptEntity.SetUniqueIdentifier
 keywords: NSCRMScriptEntity, GetUniqueIdentifier
 so.topic: reference

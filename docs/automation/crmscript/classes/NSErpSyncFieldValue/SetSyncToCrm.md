@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldValue_SetSyncToCrm
-description: NSErpSyncFieldValue.SetSyncToCrm(Bool syncToCrm)
+uid: crmscript_ref_NSErpSyncFieldValue_SetSyncToCrm
+title: SetSyncToCrm(Bool syncToCrm)
 intellisense: NSErpSyncFieldValue.SetSyncToCrm
 keywords: NSErpSyncFieldValue, GetSyncToCrm
 so.topic: reference

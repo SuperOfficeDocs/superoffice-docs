@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetEventDate
-description: DateTime NSProjectEventEntity.GetEventDate()
+uid: crmscript_ref_NSProjectEventEntity_GetEventDate
+title: DateTime GetEventDate()
 intellisense: NSProjectEventEntity.GetEventDate
 keywords: NSProjectEventEntity, GetEventDate
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_GetSoldTotalOwnCurrency
-description: Float NSSaleSummary.GetSoldTotalOwnCurrency()
+uid: crmscript_ref_NSSaleSummary_GetSoldTotalOwnCurrency
+title: Float GetSoldTotalOwnCurrency()
 intellisense: NSSaleSummary.GetSoldTotalOwnCurrency
 keywords: NSSaleSummary, GetSoldTotalOwnCurrency
 so.topic: reference

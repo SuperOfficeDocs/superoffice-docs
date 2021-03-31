@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetIsFree
-description: NSAppointment.SetIsFree(Bool isFree)
+uid: crmscript_ref_NSAppointment_SetIsFree
+title: SetIsFree(Bool isFree)
 intellisense: NSAppointment.SetIsFree
 keywords: NSAppointment, GetIsFree
 so.topic: reference

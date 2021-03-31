@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_GetFolderName
-description: String NSEMailEntity.GetFolderName()
+uid: crmscript_ref_NSEMailEntity_GetFolderName
+title: String GetFolderName()
 intellisense: NSEMailEntity.GetFolderName
 keywords: NSEMailEntity, GetFolderName
 so.topic: reference

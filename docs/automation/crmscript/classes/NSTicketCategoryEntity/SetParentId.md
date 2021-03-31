@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_SetParentId
-description: NSTicketCategoryEntity.SetParentId(Integer parentId)
+uid: crmscript_ref_NSTicketCategoryEntity_SetParentId
+title: SetParentId(Integer parentId)
 intellisense: NSTicketCategoryEntity.SetParentId
 keywords: NSTicketCategoryEntity, GetParentId
 so.topic: reference

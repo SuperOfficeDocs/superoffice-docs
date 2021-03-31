@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialList
-description: NSCredentialList
+uid: crmscript_ref_NSCredentialList
+title: NSCredentialList
 intellisense: Void.NSCredentialList
 keywords: NSCredentialList
 so.topic: reference

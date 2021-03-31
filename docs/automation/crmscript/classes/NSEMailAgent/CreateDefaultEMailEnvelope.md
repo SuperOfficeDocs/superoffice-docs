@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateDefaultEMailEnvelope
-description: NSEMailEnvelope CreateDefaultEMailEnvelope()
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailEnvelope
+title: NSEMailEnvelope CreateDefaultEMailEnvelope()
 intellisense: NSEMailAgent.CreateDefaultEMailEnvelope
-keywords: NSEMailAgent,CreateDefaultEMailEnvelope
+keywords: NSEMailAgent, CreateDefaultEMailEnvelope
 so.topic: reference
 ---
 	  

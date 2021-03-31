@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_GetActivityFilter
-description: ActivityFilter GetActivityFilter()
+uid: crmscript_ref_NSArchiveAgent_GetActivityFilter
+title: ActivityFilter GetActivityFilter()
 intellisense: NSArchiveAgent.GetActivityFilter
-keywords: NSArchiveAgent,GetActivityFilter
+keywords: NSArchiveAgent, GetActivityFilter
 so.topic: reference
 ---
 

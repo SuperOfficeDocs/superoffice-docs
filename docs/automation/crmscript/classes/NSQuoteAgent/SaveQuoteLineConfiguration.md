@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_SaveQuoteLineConfiguration
-description: QuoteLineConfiguration SaveQuoteLineConfiguration(QuoteLineConfiguration quoteLineConfiguration)
+uid: crmscript_ref_NSQuoteAgent_SaveQuoteLineConfiguration
+title: QuoteLineConfiguration SaveQuoteLineConfiguration(QuoteLineConfiguration quoteLineConfiguration)
 intellisense: NSQuoteAgent.SaveQuoteLineConfiguration
-keywords: NSQuoteAgent,SaveQuoteLineConfiguration
+keywords: NSQuoteAgent, SaveQuoteLineConfiguration
 so.topic: reference
 ---
 

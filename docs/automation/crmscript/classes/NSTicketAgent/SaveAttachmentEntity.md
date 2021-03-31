@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_SaveAttachmentEntity
-description: NSAttachmentEntity SaveAttachmentEntity(NSAttachmentEntity attachmentEntity);
+uid: crmscript_ref_NSTicketAgent_SaveAttachmentEntity
+title: NSAttachmentEntity SaveAttachmentEntity(NSAttachmentEntity attachmentEntity);
 intellisense: NSTicketAgent.SaveAttachmentEntity
-keywords: NSTicketAgent,SaveAttachmentEntity
+keywords: NSTicketAgent, SaveAttachmentEntity
 so.topic: reference
 ---
 	  

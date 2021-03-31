@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_SetAllocate
-description: NSRefCountEntity.SetAllocate(Bool allocate)
+uid: crmscript_ref_NSRefCountEntity_SetAllocate
+title: SetAllocate(Bool allocate)
 intellisense: NSRefCountEntity.SetAllocate
 keywords: NSRefCountEntity, GetAllocate
 so.topic: reference

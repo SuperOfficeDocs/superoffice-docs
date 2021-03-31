@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_GetUserPreferenceId
-description: Integer NSPreference.GetUserPreferenceId()
+uid: crmscript_ref_NSPreference_GetUserPreferenceId
+title: Integer GetUserPreferenceId()
 intellisense: NSPreference.GetUserPreferenceId
 keywords: NSPreference, GetUserPreferenceId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionValidated
-description: NSQuoteVersionValidated
+uid: crmscript_ref_NSQuoteVersionValidated
+title: NSQuoteVersionValidated
 intellisense: Void.NSQuoteVersionValidated
 keywords: NSQuoteVersionValidated
 so.topic: reference

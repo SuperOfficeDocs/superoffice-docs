@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSCustomerLanguage_SetId
-description: NSCustomerLanguage.SetId(Integer id)
+uid: crmscript_ref_NSCustomerLanguage_SetId
+title: SetId(Integer id)
 intellisense: NSCustomerLanguage.SetId
 keywords: NSCustomerLanguage, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the CustomerLanguage
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer CustomerLanguage id.
 

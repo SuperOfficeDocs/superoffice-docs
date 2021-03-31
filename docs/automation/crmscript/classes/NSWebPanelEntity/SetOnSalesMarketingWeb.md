@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingWeb
-description: NSWebPanelEntity.SetOnSalesMarketingWeb(Bool onSalesMarketingWeb)
+uid: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingWeb
+title: SetOnSalesMarketingWeb(Bool onSalesMarketingWeb)
 intellisense: NSWebPanelEntity.SetOnSalesMarketingWeb
 keywords: NSWebPanelEntity, GetOnSalesMarketingWeb
 so.topic: reference

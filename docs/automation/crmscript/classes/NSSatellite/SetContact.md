@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSatellite_SetContact
-description: NSSatellite.SetContact(Contact contact)
+uid: crmscript_ref_NSSatellite_SetContact
+title: SetContact(Contact contact)
 intellisense: NSSatellite.SetContact
 keywords: NSSatellite, GetContact
 so.topic: reference

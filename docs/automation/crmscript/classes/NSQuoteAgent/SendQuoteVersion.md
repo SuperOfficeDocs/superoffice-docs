@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_SendQuoteVersion
-description: PluginUrlResponse SendQuoteVersion(Integer quoteVersionId, DateTime expiryDate, DateTime followupDate, String followupText, String culture)
+uid: crmscript_ref_NSQuoteAgent_SendQuoteVersion
+title: PluginUrlResponse SendQuoteVersion(Integer quoteVersionId, DateTime expiryDate, DateTime followupDate, String followupText, String culture)
 intellisense: NSQuoteAgent.SendQuoteVersion
-keywords: NSQuoteAgent,SendQuoteVersion
+keywords: NSQuoteAgent, SendQuoteVersion
 so.topic: reference
 ---
 

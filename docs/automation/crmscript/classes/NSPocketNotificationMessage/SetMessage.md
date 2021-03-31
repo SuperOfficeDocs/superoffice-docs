@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_SetMessage
-description: NSPocketNotificationMessage.SetMessage(String message)
+uid: crmscript_ref_NSPocketNotificationMessage_SetMessage
+title: SetMessage(String message)
 intellisense: NSPocketNotificationMessage.SetMessage
 keywords: NSPocketNotificationMessage, GetMessage
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistoryRequest_GetEntityName
-description: String NSHistoryRequest.GetEntityName()
+uid: crmscript_ref_NSHistoryRequest_GetEntityName
+title: String GetEntityName()
 intellisense: NSHistoryRequest.GetEntityName
 keywords: NSHistoryRequest, GetEntityName
 so.topic: reference

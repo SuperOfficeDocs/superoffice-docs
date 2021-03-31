@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_GetUrl
-description: StringArray NSParticipantSyncData.GetUrl()
+uid: crmscript_ref_NSParticipantSyncData_GetUrl
+title: StringArray GetUrl()
 intellisense: NSParticipantSyncData.GetUrl
 keywords: NSParticipantSyncData, GetUrl
 so.topic: reference

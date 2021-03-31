@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetCategory
-description: NSTicket.SetCategory(Integer category)
+uid: crmscript_ref_NSTicket_SetCategory
+title: SetCategory(Integer category)
 intellisense: NSTicket.SetCategory
 keywords: NSTicket, GetCategory
 so.topic: reference

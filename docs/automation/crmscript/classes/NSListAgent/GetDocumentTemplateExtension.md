@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDocumentTemplateExtension
-description: String GetDocumentTemplateExtension(Integer documentTemplateId)
+uid: crmscript_ref_NSListAgent_GetDocumentTemplateExtension
+title: String GetDocumentTemplateExtension(Integer documentTemplateId)
 intellisense: NSListAgent.GetDocumentTemplateExtension
-keywords: NSListAgent,GetDocumentTemplateExtension
+keywords: NSListAgent, GetDocumentTemplateExtension
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_GetLicenseFromFile
-description: ExtendedLicenseInfo GetLicenseFromFile(String fileContent)
+uid: crmscript_ref_NSLicenseAgent_GetLicenseFromFile
+title: ExtendedLicenseInfo GetLicenseFromFile(String fileContent)
 intellisense: NSLicenseAgent.GetLicenseFromFile
-keywords: NSLicenseAgent,GetLicenseFromFile
+keywords: NSLicenseAgent, GetLicenseFromFile
 so.topic: reference
 ---
 

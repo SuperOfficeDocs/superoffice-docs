@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent
-description: NSCustomerServiceAgent
+uid: crmscript_ref_NSCustomerServiceAgent
+title: NSCustomerServiceAgent
 intellisense: Void.NSCustomerServiceAgent
 keywords: NSCustomerServiceAgent
 so.topic: reference

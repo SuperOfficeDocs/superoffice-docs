@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_GetDynamicSelectionCriteriaGroups
-description: ArchiveRestrictionGroupArray GetDynamicSelectionCriteriaGroups(Integer selectionId)
+uid: crmscript_ref_NSSelectionAgent_GetDynamicSelectionCriteriaGroups
+title: ArchiveRestrictionGroupArray GetDynamicSelectionCriteriaGroups(Integer selectionId)
 intellisense: NSSelectionAgent.GetDynamicSelectionCriteriaGroups
-keywords: NSSelectionAgent,GetDynamicSelectionCriteriaGroups
+keywords: NSSelectionAgent, GetDynamicSelectionCriteriaGroups
 so.topic: reference
 ---
 

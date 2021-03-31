@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLegalBase_GetDeleted
-description: Bool NSLegalBase.GetDeleted()
+uid: crmscript_ref_NSLegalBase_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSLegalBase.GetDeleted
 keywords: NSLegalBase, GetDeleted
 so.topic: reference

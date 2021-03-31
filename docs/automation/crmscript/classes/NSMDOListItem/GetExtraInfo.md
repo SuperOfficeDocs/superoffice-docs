@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_GetExtraInfo
-description: String NSMDOListItem.GetExtraInfo()
+uid: crmscript_ref_NSMDOListItem_GetExtraInfo
+title: String GetExtraInfo()
 intellisense: NSMDOListItem.GetExtraInfo
 keywords: NSMDOListItem, GetExtraInfo
 so.topic: reference

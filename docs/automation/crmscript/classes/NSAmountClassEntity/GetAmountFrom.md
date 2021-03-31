@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity_GetAmountFrom
-description: Float NSAmountClassEntity.GetAmountFrom()
+uid: crmscript_ref_NSAmountClassEntity_GetAmountFrom
+title: Float GetAmountFrom()
 intellisense: NSAmountClassEntity.GetAmountFrom
 keywords: NSAmountClassEntity, GetAmountFrom
 so.topic: reference

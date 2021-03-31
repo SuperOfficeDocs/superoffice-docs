@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetName
-description: String NSProjectEntity.GetName()
+uid: crmscript_ref_NSProjectEntity_GetName
+title: String GetName()
 intellisense: NSProjectEntity.GetName
 keywords: NSProjectEntity, GetName
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetProjectImageWithSize
-description: Image GetProjectImageWithSize(Integer projectId, Integer width, Integer height)
+uid: crmscript_ref_NSBLOBAgent_GetProjectImageWithSize
+title: Image GetProjectImageWithSize(Integer projectId, Integer width, Integer height)
 intellisense: NSBLOBAgent.GetProjectImageWithSize
-keywords: NSBLOBAgent,GetProjectImageWithSize
+keywords: NSBLOBAgent, GetProjectImageWithSize
 so.topic: reference
 ---
 

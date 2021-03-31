@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentSource_SetMailTemplateId
-description: NSConsentSource.SetMailTemplateId(Integer mailTemplateId)
+uid: crmscript_ref_NSConsentSource_SetMailTemplateId
+title: SetMailTemplateId(Integer mailTemplateId)
 intellisense: NSConsentSource.SetMailTemplateId
 keywords: NSConsentSource, GetMailTemplateId
 so.topic: reference

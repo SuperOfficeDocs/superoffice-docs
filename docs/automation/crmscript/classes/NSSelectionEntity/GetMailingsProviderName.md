@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetMailingsProviderName
-description: String NSSelectionEntity.GetMailingsProviderName()
+uid: crmscript_ref_NSSelectionEntity_GetMailingsProviderName
+title: String GetMailingsProviderName()
 intellisense: NSSelectionEntity.GetMailingsProviderName
 keywords: NSSelectionEntity, GetMailingsProviderName
 so.topic: reference

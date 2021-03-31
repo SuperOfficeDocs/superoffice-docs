@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetUpdatedDate
-description: NSSelectionEntity.SetUpdatedDate(DateTime updatedDate)
+uid: crmscript_ref_NSSelectionEntity_SetUpdatedDate
+title: SetUpdatedDate(DateTime updatedDate)
 intellisense: NSSelectionEntity.SetUpdatedDate
 keywords: NSSelectionEntity, GetUpdatedDate
 so.topic: reference

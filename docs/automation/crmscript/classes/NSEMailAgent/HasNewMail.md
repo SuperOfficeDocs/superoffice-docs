@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_HasNewMail
-description: Bool HasNewMail(Integer mailItemId, Integer folderId)
+uid: crmscript_ref_NSEMailAgent_HasNewMail
+title: Bool HasNewMail(Integer mailItemId, Integer folderId)
 intellisense: NSEMailAgent.HasNewMail
-keywords: NSEMailAgent,HasNewMail
+keywords: NSEMailAgent, HasNewMail
 so.topic: reference
 ---
 

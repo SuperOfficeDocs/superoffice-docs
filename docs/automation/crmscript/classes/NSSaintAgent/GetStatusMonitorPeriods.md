@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_GetStatusMonitorPeriods
-description: StatusMonitorPeriods GetStatusMonitorPeriods()
+uid: crmscript_ref_NSSaintAgent_GetStatusMonitorPeriods
+title: StatusMonitorPeriods GetStatusMonitorPeriods()
 intellisense: NSSaintAgent.GetStatusMonitorPeriods
-keywords: NSSaintAgent,GetStatusMonitorPeriods
+keywords: NSSaintAgent, GetStatusMonitorPeriods
 so.topic: reference
 ---
 

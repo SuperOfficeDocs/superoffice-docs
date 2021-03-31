@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption_GetType
-description: Integer NSDashboardTileOption.GetType()
+uid: crmscript_ref_NSDashboardTileOption_GetType
+title: Integer GetType()
 intellisense: NSDashboardTileOption.GetType
 keywords: NSDashboardTileOption, GetType
 so.topic: reference

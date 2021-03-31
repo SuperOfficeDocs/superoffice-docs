@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignKey_GetTableName
-description: String NSForeignKey.GetTableName()
+uid: crmscript_ref_NSForeignKey_GetTableName
+title: String GetTableName()
 intellisense: NSForeignKey.GetTableName
 keywords: NSForeignKey, GetTableName
 so.topic: reference

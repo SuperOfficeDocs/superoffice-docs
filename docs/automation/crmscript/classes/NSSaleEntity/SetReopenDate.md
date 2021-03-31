@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetReopenDate
-description: NSSaleEntity.SetReopenDate(DateTime reopenDate)
+uid: crmscript_ref_NSSaleEntity_SetReopenDate
+title: SetReopenDate(DateTime reopenDate)
 intellisense: NSSaleEntity.SetReopenDate
 keywords: NSSaleEntity, GetReopenDate
 so.topic: reference

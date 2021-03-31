@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAppWebPanels
-description: WebPanelEntityArray GetAppWebPanels()
+uid: crmscript_ref_NSListAgent_GetAppWebPanels
+title: WebPanelEntityArray GetAppWebPanels()
 intellisense: NSListAgent.GetAppWebPanels
-keywords: NSListAgent,GetAppWebPanels
+keywords: NSListAgent, GetAppWebPanels
 so.topic: reference
 ---
 

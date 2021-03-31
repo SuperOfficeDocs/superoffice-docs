@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_GetLegalBaseKey
-description: String NSConsentInfo.GetLegalBaseKey()
+uid: crmscript_ref_NSConsentInfo_GetLegalBaseKey
+title: String GetLegalBaseKey()
 intellisense: NSConsentInfo.GetLegalBaseKey
 keywords: NSConsentInfo, GetLegalBaseKey
 so.topic: reference

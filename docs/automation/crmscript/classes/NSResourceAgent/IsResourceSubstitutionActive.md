@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSResourceAgent_IsResourceSubstitutionActive
-description: ResourceOverrideArray IsResourceSubstitutionActive(StringArray resourceNames, String culture)
+uid: crmscript_ref_NSResourceAgent_IsResourceSubstitutionActive
+title: ResourceOverrideArray IsResourceSubstitutionActive(StringArray resourceNames, String culture)
 intellisense: NSResourceAgent.IsResourceSubstitutionActive
-keywords: NSResourceAgent,IsResourceSubstitutionActive
+keywords: NSResourceAgent, IsResourceSubstitutionActive
 so.topic: reference
 ---
 

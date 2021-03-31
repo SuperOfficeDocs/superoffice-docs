@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_GetName
-description: String NSRoleEntity.GetName()
+uid: crmscript_ref_NSRoleEntity_GetName
+title: String GetName()
 intellisense: NSRoleEntity.GetName
 keywords: NSRoleEntity, GetName
 so.topic: reference

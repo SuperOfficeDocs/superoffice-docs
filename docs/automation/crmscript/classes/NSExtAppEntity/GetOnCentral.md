@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetOnCentral
-description: Bool NSExtAppEntity.GetOnCentral()
+uid: crmscript_ref_NSExtAppEntity_GetOnCentral
+title: Bool GetOnCentral()
 intellisense: NSExtAppEntity.GetOnCentral
 keywords: NSExtAppEntity, GetOnCentral
 so.topic: reference

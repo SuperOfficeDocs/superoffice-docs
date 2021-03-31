@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategorizationModelDetails_GetModelBuiltDateTime
-description: DateTime NSCategorizationModelDetails.GetModelBuiltDateTime()
+uid: crmscript_ref_NSCategorizationModelDetails_GetModelBuiltDateTime
+title: DateTime GetModelBuiltDateTime()
 intellisense: NSCategorizationModelDetails.GetModelBuiltDateTime
 keywords: NSCategorizationModelDetails, GetModelBuiltDateTime
 so.topic: reference

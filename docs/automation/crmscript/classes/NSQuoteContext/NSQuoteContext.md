@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteContext
-description: NSQuoteContext
+uid: crmscript_ref_NSQuoteContext
+title: NSQuoteContext
 intellisense: Void.NSQuoteContext
 keywords: NSQuoteContext
 so.topic: reference

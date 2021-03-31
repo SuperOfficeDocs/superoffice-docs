@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_AddSaleStakeholders
-description: Void AddSaleStakeholders(Integer saleId, SaleStakeholderArray saleStakeholders)
+uid: crmscript_ref_NSSaleAgent_AddSaleStakeholders
+title: Void AddSaleStakeholders(Integer saleId, SaleStakeholderArray saleStakeholders)
 intellisense: NSSaleAgent.AddSaleStakeholders
-keywords: NSSaleAgent,AddSaleStakeholders
+keywords: NSSaleAgent, AddSaleStakeholders
 so.topic: reference
 ---
 

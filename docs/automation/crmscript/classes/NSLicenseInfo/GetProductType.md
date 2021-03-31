@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_GetProductType
-description: String NSLicenseInfo.GetProductType()
+uid: crmscript_ref_NSLicenseInfo_GetProductType
+title: String GetProductType()
 intellisense: NSLicenseInfo.GetProductType
 keywords: NSLicenseInfo, GetProductType
 so.topic: reference

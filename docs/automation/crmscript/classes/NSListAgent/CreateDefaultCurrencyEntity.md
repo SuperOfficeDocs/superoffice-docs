@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultCurrencyEntity
-description: NSCurrencyEntity CreateDefaultCurrencyEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultCurrencyEntity
+title: NSCurrencyEntity CreateDefaultCurrencyEntity()
 intellisense: NSListAgent.CreateDefaultCurrencyEntity
-keywords: NSListAgent,CreateDefaultCurrencyEntity
+keywords: NSListAgent, CreateDefaultCurrencyEntity
 so.topic: reference
 ---
 	  

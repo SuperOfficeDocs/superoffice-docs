@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPerson
-description: NSConsentPerson
+uid: crmscript_ref_NSConsentPerson
+title: NSConsentPerson
 intellisense: Void.NSConsentPerson
 keywords: NSConsentPerson
 so.topic: reference

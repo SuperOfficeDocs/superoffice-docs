@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetTicketCategoryList
-description: NSTicketCategoryEntity[] GetTicketCategoryList(Integer[]  ticketCategoryEntityIds);
+uid: crmscript_ref_NSListAgent_GetTicketCategoryList
+title: NSTicketCategoryEntity[] GetTicketCategoryList(Integer[]  ticketCategoryEntityIds);
 intellisense: NSListAgent.GetTicketCategoryList
-keywords: NSListAgent,GetTicketCategoryList
+keywords: NSListAgent, GetTicketCategoryList
 so.topic: reference
 ---
 

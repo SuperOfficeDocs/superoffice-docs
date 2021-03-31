@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSViewStateAgent_GetHistoriesByNames
-description: HistoryArray GetHistoriesByNames(StringArray historyNames)
+uid: crmscript_ref_NSViewStateAgent_GetHistoriesByNames
+title: HistoryArray GetHistoriesByNames(StringArray historyNames)
 intellisense: NSViewStateAgent.GetHistoriesByNames
-keywords: NSViewStateAgent,GetHistoriesByNames
+keywords: NSViewStateAgent, GetHistoriesByNames
 so.topic: reference
 ---
 

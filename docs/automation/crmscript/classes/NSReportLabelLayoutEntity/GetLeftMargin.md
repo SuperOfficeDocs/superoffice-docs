@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportLabelLayoutEntity_GetLeftMargin
-description: Integer NSReportLabelLayoutEntity.GetLeftMargin()
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetLeftMargin
+title: Integer GetLeftMargin()
 intellisense: NSReportLabelLayoutEntity.GetLeftMargin
 keywords: NSReportLabelLayoutEntity, GetLeftMargin
 so.topic: reference

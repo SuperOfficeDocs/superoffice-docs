@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatPresence_GetUserId
-description: Integer NSChatPresence.GetUserId()
+uid: crmscript_ref_NSChatPresence_GetUserId
+title: Integer GetUserId()
 intellisense: NSChatPresence.GetUserId
 keywords: NSChatPresence, GetUserId
 so.topic: reference

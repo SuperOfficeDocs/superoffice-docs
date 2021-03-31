@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStageEntity_GetDeleted
-description: Bool NSSaleStageEntity.GetDeleted()
+uid: crmscript_ref_NSSaleStageEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSSaleStageEntity.GetDeleted
 keywords: NSSaleStageEntity, GetDeleted
 so.topic: reference

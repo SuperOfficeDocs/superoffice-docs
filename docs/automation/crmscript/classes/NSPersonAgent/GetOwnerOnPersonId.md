@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetOwnerOnPersonId
-description: Person GetOwnerOnPersonId(Integer personId)
+uid: crmscript_ref_NSPersonAgent_GetOwnerOnPersonId
+title: Person GetOwnerOnPersonId(Integer personId)
 intellisense: NSPersonAgent.GetOwnerOnPersonId
-keywords: NSPersonAgent,GetOwnerOnPersonId
+keywords: NSPersonAgent, GetOwnerOnPersonId
 so.topic: reference
 ---
 

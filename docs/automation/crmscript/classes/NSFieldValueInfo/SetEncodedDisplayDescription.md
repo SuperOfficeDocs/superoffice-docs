@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_SetEncodedDisplayDescription
-description: NSFieldValueInfo.SetEncodedDisplayDescription(String encodedDisplayDescription)
+uid: crmscript_ref_NSFieldValueInfo_SetEncodedDisplayDescription
+title: SetEncodedDisplayDescription(String encodedDisplayDescription)
 intellisense: NSFieldValueInfo.SetEncodedDisplayDescription
 keywords: NSFieldValueInfo, GetEncodedDisplayDescription
 so.topic: reference

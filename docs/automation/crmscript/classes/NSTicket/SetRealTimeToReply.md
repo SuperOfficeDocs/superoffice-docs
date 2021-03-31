@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetRealTimeToReply
-description: NSTicket.SetRealTimeToReply(Integer realTimeToReply)
+uid: crmscript_ref_NSTicket_SetRealTimeToReply
+title: SetRealTimeToReply(Integer realTimeToReply)
 intellisense: NSTicket.SetRealTimeToReply
 keywords: NSTicket, GetRealTimeToReply
 so.topic: reference

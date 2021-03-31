@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultCountry
-description: Country CreateDefaultCountry()
+uid: crmscript_ref_NSListAgent_CreateDefaultCountry
+title: Country CreateDefaultCountry()
 intellisense: NSListAgent.CreateDefaultCountry
-keywords: NSListAgent,CreateDefaultCountry
+keywords: NSListAgent, CreateDefaultCountry
 so.topic: reference
 ---
 

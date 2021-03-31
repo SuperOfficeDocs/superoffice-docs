@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_SetEMailSOInfo
-description: NSEMailEnvelope.SetEMailSOInfo(EMailSOInfo eMailSOInfo)
+uid: crmscript_ref_NSEMailEnvelope_SetEMailSOInfo
+title: SetEMailSOInfo(EMailSOInfo eMailSOInfo)
 intellisense: NSEMailEnvelope.SetEMailSOInfo
 keywords: NSEMailEnvelope, GetEMailSOInfo
 so.topic: reference

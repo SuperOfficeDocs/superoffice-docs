@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketInfo_SetOwnerName
-description: NSTicketInfo.SetOwnerName(String ownerName)
+uid: crmscript_ref_NSTicketInfo_SetOwnerName
+title: SetOwnerName(String ownerName)
 intellisense: NSTicketInfo.SetOwnerName
 keywords: NSTicketInfo, GetOwnerName
 so.topic: reference

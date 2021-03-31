@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SetRankOnProjectDocument
-description: Void SetRankOnProjectDocument(Integer projectTypeStatusLinkId, IntegerArray itemsIds)
+uid: crmscript_ref_NSListAgent_SetRankOnProjectDocument
+title: Void SetRankOnProjectDocument(Integer projectTypeStatusLinkId, IntegerArray itemsIds)
 intellisense: NSListAgent.SetRankOnProjectDocument
-keywords: NSListAgent,SetRankOnProjectDocument
+keywords: NSListAgent, SetRankOnProjectDocument
 so.topic: reference
 ---
 

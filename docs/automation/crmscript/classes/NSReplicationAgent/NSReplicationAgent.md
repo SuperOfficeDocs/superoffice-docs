@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReplicationAgent
-description: NSReplicationAgent
+uid: crmscript_ref_NSReplicationAgent
+title: NSReplicationAgent
 intellisense: Void.NSReplicationAgent
 keywords: NSReplicationAgent
 so.topic: reference

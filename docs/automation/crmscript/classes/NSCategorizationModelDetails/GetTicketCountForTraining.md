@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategorizationModelDetails_GetTicketCountForTraining
-description: Integer NSCategorizationModelDetails.GetTicketCountForTraining()
+uid: crmscript_ref_NSCategorizationModelDetails_GetTicketCountForTraining
+title: Integer GetTicketCountForTraining()
 intellisense: NSCategorizationModelDetails.GetTicketCountForTraining
 keywords: NSCategorizationModelDetails, GetTicketCountForTraining
 so.topic: reference

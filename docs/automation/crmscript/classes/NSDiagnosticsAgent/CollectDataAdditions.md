@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_CollectDataAdditions
-description: Void CollectDataAdditions()
+uid: crmscript_ref_NSDiagnosticsAgent_CollectDataAdditions
+title: Void CollectDataAdditions()
 intellisense: NSDiagnosticsAgent.CollectDataAdditions
-keywords: NSDiagnosticsAgent,CollectDataAdditions
+keywords: NSDiagnosticsAgent, CollectDataAdditions
 so.topic: reference
 ---
 

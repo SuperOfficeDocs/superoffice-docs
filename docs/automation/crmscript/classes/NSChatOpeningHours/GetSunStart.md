@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_GetSunStart
-description: TimeSpan NSChatOpeningHours.GetSunStart()
+uid: crmscript_ref_NSChatOpeningHours_GetSunStart
+title: TimeSpan GetSunStart()
 intellisense: NSChatOpeningHours.GetSunStart
 keywords: NSChatOpeningHours, GetSunStart
 so.topic: reference

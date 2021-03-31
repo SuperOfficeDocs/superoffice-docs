@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListItem_SetId
-description: NSPhoneListItem.SetId(Integer id)
+uid: crmscript_ref_NSPhoneListItem_SetId
+title: SetId(Integer id)
 intellisense: NSPhoneListItem.SetId
 keywords: NSPhoneListItem, GetId
 so.topic: reference

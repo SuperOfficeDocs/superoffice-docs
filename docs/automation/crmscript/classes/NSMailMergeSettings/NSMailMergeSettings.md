@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings
-description: NSMailMergeSettings
+uid: crmscript_ref_NSMailMergeSettings
+title: NSMailMergeSettings
 intellisense: Void.NSMailMergeSettings
 keywords: NSMailMergeSettings
 so.topic: reference

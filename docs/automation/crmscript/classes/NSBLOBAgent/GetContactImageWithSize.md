@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetContactImageWithSize
-description: Image GetContactImageWithSize(Integer contactId, Integer width, Integer height)
+uid: crmscript_ref_NSBLOBAgent_GetContactImageWithSize
+title: Image GetContactImageWithSize(Integer contactId, Integer width, Integer height)
 intellisense: NSBLOBAgent.GetContactImageWithSize
-keywords: NSBLOBAgent,GetContactImageWithSize
+keywords: NSBLOBAgent, GetContactImageWithSize
 so.topic: reference
 ---
 

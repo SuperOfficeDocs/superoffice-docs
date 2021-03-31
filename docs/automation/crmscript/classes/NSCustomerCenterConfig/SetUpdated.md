@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerCenterConfig_SetUpdated
-description: NSCustomerCenterConfig.SetUpdated(DateTime updated)
+uid: crmscript_ref_NSCustomerCenterConfig_SetUpdated
+title: SetUpdated(DateTime updated)
 intellisense: NSCustomerCenterConfig.SetUpdated
 keywords: NSCustomerCenterConfig, GetUpdated
 so.topic: reference

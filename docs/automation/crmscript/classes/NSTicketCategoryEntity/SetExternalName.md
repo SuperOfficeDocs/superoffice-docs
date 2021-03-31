@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_SetExternalName
-description: NSTicketCategoryEntity.SetExternalName(String externalName)
+uid: crmscript_ref_NSTicketCategoryEntity_SetExternalName
+title: SetExternalName(String externalName)
 intellisense: NSTicketCategoryEntity.SetExternalName
 keywords: NSTicketCategoryEntity, GetExternalName
 so.topic: reference

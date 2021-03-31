@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOperationInfo_GetEncodedDisplayName
-description: String NSOperationInfo.GetEncodedDisplayName()
+uid: crmscript_ref_NSOperationInfo_GetEncodedDisplayName
+title: String GetEncodedDisplayName()
 intellisense: NSOperationInfo.GetEncodedDisplayName
 keywords: NSOperationInfo, GetEncodedDisplayName
 so.topic: reference

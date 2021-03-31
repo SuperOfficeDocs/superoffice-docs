@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetMrmrs
-description: String NSPersonEntity.GetMrmrs()
+uid: crmscript_ref_NSPersonEntity_GetMrmrs
+title: String GetMrmrs()
 intellisense: NSPersonEntity.GetMrmrs
 keywords: NSPersonEntity, GetMrmrs
 so.topic: reference

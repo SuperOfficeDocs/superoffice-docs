@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_SetEmailAddress
-description: NSFormSubmissionEntity.SetEmailAddress(String emailAddress)
+uid: crmscript_ref_NSFormSubmissionEntity_SetEmailAddress
+title: SetEmailAddress(String emailAddress)
 intellisense: NSFormSubmissionEntity.SetEmailAddress
 keywords: NSFormSubmissionEntity, GetEmailAddress
 so.topic: reference

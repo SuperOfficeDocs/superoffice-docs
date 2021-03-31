@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetUserDefinedFields
-description: Map NSContactEntity.GetUserDefinedFields()
+uid: crmscript_ref_NSContactEntity_GetUserDefinedFields
+title: Map GetUserDefinedFields()
 intellisense: NSContactEntity.GetUserDefinedFields
 keywords: NSContactEntity, GetUserDefinedFields
 so.topic: reference
 ---
 
-Get the user-defined fields as a map.
+Get the user-defined fields on the ContactEntity as a map.
 
 **Returns:** Map containing user defined field values by field prog.id.
 

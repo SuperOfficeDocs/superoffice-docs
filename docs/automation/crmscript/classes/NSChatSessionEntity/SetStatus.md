@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetStatus
-description: NSChatSessionEntity.SetStatus(ChatSessionStatus status)
+uid: crmscript_ref_NSChatSessionEntity_SetStatus
+title: SetStatus(ChatSessionStatus status)
 intellisense: NSChatSessionEntity.SetStatus
 keywords: NSChatSessionEntity, GetStatus
 so.topic: reference

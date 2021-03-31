@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateInfo_SetPluginId
-description: NSTemplateInfo.SetPluginId(Integer pluginId)
+uid: crmscript_ref_NSTemplateInfo_SetPluginId
+title: SetPluginId(Integer pluginId)
 intellisense: NSTemplateInfo.SetPluginId
 keywords: NSTemplateInfo, GetPluginId
 so.topic: reference

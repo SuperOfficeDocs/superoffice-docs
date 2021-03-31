@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_SendTicketMessage
-description: Void SendTicketMessage(Integer ticketMessageEntityId, StringArray to, StringArray cc, StringArray bcc, String subject, Integer replyTemplateId, String gdprSource)
+uid: crmscript_ref_NSTicketAgent_SendTicketMessage
+title: Void SendTicketMessage(Integer ticketMessageEntityId, StringArray to, StringArray cc, StringArray bcc, String subject, Integer replyTemplateId, String gdprSource)
 intellisense: NSTicketAgent.SendTicketMessage
-keywords: NSTicketAgent,SendTicketMessage
+keywords: NSTicketAgent, SendTicketMessage
 so.topic: reference
 ---
 

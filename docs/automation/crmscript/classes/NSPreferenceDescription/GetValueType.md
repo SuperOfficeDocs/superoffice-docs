@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_GetValueType
-description: Integer NSPreferenceDescription.GetValueType()
+uid: crmscript_ref_NSPreferenceDescription_GetValueType
+title: Integer GetValueType()
 intellisense: NSPreferenceDescription.GetValueType
 keywords: NSPreferenceDescription, GetValueType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetQuoteDocType
-description: NSDocumentTemplateEntity.SetQuoteDocType(DocTmplQuoteType quoteDocType)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetQuoteDocType
+title: SetQuoteDocType(DocTmplQuoteType quoteDocType)
 intellisense: NSDocumentTemplateEntity.SetQuoteDocType
 keywords: NSDocumentTemplateEntity, GetQuoteDocType
 so.topic: reference

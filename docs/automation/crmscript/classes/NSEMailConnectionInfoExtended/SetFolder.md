@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailConnectionInfoExtended_SetFolder
-description: NSEMailConnectionInfoExtended.SetFolder(String folder)
+uid: crmscript_ref_NSEMailConnectionInfoExtended_SetFolder
+title: SetFolder(String folder)
 intellisense: NSEMailConnectionInfoExtended.SetFolder
 keywords: NSEMailConnectionInfoExtended, GetFolder
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetSaleType
-description: NSSaleType GetSaleType(Integer saleTypeId);
+uid: crmscript_ref_NSListAgent_GetSaleType
+title: NSSaleType GetSaleType(Integer saleTypeId);
 intellisense: NSListAgent.GetSaleType
-keywords: NSListAgent,GetSaleType
+keywords: NSListAgent, GetSaleType
 so.topic: reference
 ---
 

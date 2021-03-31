@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetCreatedBy
-description: Associate NSPersonEntity.GetCreatedBy()
+uid: crmscript_ref_NSPersonEntity_GetCreatedBy
+title: Associate GetCreatedBy()
 intellisense: NSPersonEntity.GetCreatedBy
 keywords: NSPersonEntity, GetCreatedBy
 so.topic: reference

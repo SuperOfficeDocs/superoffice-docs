@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetColorIndex
-description: Integer NSAppointment.GetColorIndex()
+uid: crmscript_ref_NSAppointment_GetColorIndex
+title: Integer GetColorIndex()
 intellisense: NSAppointment.GetColorIndex
 keywords: NSAppointment, GetColorIndex
 so.topic: reference

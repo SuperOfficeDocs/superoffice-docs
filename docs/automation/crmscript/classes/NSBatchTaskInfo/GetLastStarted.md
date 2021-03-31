@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetLastStarted
-description: DateTime NSBatchTaskInfo.GetLastStarted()
+uid: crmscript_ref_NSBatchTaskInfo_GetLastStarted
+title: DateTime GetLastStarted()
 intellisense: NSBatchTaskInfo.GetLastStarted
 keywords: NSBatchTaskInfo, GetLastStarted
 so.topic: reference

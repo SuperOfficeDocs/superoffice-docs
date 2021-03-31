@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSCompetitor_SetId
-description: NSCompetitor.SetId(Integer id)
+uid: crmscript_ref_NSCompetitor_SetId
+title: SetId(Integer id)
 intellisense: NSCompetitor.SetId
 keywords: NSCompetitor, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the Competitor
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer Competitor id.
 

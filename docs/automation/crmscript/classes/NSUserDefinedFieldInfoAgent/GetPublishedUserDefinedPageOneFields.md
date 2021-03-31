@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields
-description: UserDefinedFieldInfoArray GetPublishedUserDefinedPageOneFields(Integer ownerType, Integer userGroupId)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields
+title: UserDefinedFieldInfoArray GetPublishedUserDefinedPageOneFields(Integer ownerType, Integer userGroupId)
 intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
-keywords: NSUserDefinedFieldInfoAgent,GetPublishedUserDefinedPageOneFields
+keywords: NSUserDefinedFieldInfoAgent, GetPublishedUserDefinedPageOneFields
 so.topic: reference
 ---
 

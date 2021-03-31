@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_SetURLName
-description: NSContact.SetURLName(String uRLName)
+uid: crmscript_ref_NSContact_SetURLName
+title: SetURLName(String uRLName)
 intellisense: NSContact.SetURLName
 keywords: NSContact, GetURLName
 so.topic: reference

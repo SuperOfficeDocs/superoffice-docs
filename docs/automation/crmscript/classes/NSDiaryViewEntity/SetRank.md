@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity_SetRank
-description: NSDiaryViewEntity.SetRank(Integer rank)
+uid: crmscript_ref_NSDiaryViewEntity_SetRank
+title: SetRank(Integer rank)
 intellisense: NSDiaryViewEntity.SetRank
 keywords: NSDiaryViewEntity, GetRank
 so.topic: reference

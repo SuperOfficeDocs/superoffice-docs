@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_Merge
-description: Void Merge(Integer sourceContactId, Integer destinationContactId, Bool mergeIdenticalPersons, Bool replaceEmptyFieldsOnDestination)
+uid: crmscript_ref_NSContactAgent_Merge
+title: Void Merge(Integer sourceContactId, Integer destinationContactId, Bool mergeIdenticalPersons, Bool replaceEmptyFieldsOnDestination)
 intellisense: NSContactAgent.Merge
-keywords: NSContactAgent,Merge
+keywords: NSContactAgent, Merge
 so.topic: reference
 ---
 

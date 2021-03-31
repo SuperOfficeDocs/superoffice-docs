@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummaryItem_SetAmountInBaseCurrency
-description: NSSaleSummaryItem.SetAmountInBaseCurrency(Float amountInBaseCurrency)
+uid: crmscript_ref_NSSaleSummaryItem_SetAmountInBaseCurrency
+title: SetAmountInBaseCurrency(Float amountInBaseCurrency)
 intellisense: NSSaleSummaryItem.SetAmountInBaseCurrency
 keywords: NSSaleSummaryItem, GetAmountInBaseCurrency
 so.topic: reference

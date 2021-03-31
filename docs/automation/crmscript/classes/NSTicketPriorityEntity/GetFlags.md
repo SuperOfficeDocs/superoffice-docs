@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetFlags
-description: TicketPriorityFlags NSTicketPriorityEntity.GetFlags()
+uid: crmscript_ref_NSTicketPriorityEntity_GetFlags
+title: TicketPriorityFlags GetFlags()
 intellisense: NSTicketPriorityEntity.GetFlags
 keywords: NSTicketPriorityEntity, GetFlags
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_SetState
-description: NSWindowPosSize.SetState(ShowWindowState state)
+uid: crmscript_ref_NSWindowPosSize_SetState
+title: SetState(ShowWindowState state)
 intellisense: NSWindowPosSize.SetState
 keywords: NSWindowPosSize, GetState
 so.topic: reference

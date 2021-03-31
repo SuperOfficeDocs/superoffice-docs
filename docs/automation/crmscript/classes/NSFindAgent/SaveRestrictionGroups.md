@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_SaveRestrictionGroups
-description: ArchiveRestrictionGroupArray SaveRestrictionGroups(String storageType, String providerName, String storageKey, ArchiveRestrictionGroupArray restrictionGroups, String context)
+uid: crmscript_ref_NSFindAgent_SaveRestrictionGroups
+title: ArchiveRestrictionGroupArray SaveRestrictionGroups(String storageType, String providerName, String storageKey, ArchiveRestrictionGroupArray restrictionGroups, String context)
 intellisense: NSFindAgent.SaveRestrictionGroups
-keywords: NSFindAgent,SaveRestrictionGroups
+keywords: NSFindAgent, SaveRestrictionGroups
 so.topic: reference
 ---
 

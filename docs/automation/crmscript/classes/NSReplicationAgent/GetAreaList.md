@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReplicationAgent_GetAreaList
-description: NSArea[] GetAreaList(Integer[]  areaIds);
+uid: crmscript_ref_NSReplicationAgent_GetAreaList
+title: NSArea[] GetAreaList(Integer[]  areaIds);
 intellisense: NSReplicationAgent.GetAreaList
-keywords: NSReplicationAgent,GetAreaList
+keywords: NSReplicationAgent, GetAreaList
 so.topic: reference
 ---
 

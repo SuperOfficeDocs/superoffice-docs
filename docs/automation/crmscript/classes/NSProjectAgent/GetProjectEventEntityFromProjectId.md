@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetProjectEventEntityFromProjectId
-description: ProjectEventEntity GetProjectEventEntityFromProjectId(Integer projectId)
+uid: crmscript_ref_NSProjectAgent_GetProjectEventEntityFromProjectId
+title: ProjectEventEntity GetProjectEventEntityFromProjectId(Integer projectId)
 intellisense: NSProjectAgent.GetProjectEventEntityFromProjectId
-keywords: NSProjectAgent,GetProjectEventEntityFromProjectId
+keywords: NSProjectAgent, GetProjectEventEntityFromProjectId
 so.topic: reference
 ---
 

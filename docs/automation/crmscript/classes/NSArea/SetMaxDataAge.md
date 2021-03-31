@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArea_SetMaxDataAge
-description: NSArea.SetMaxDataAge(Integer maxDataAge)
+uid: crmscript_ref_NSArea_SetMaxDataAge
+title: SetMaxDataAge(Integer maxDataAge)
 intellisense: NSArea.SetMaxDataAge
 keywords: NSArea, GetMaxDataAge
 so.topic: reference

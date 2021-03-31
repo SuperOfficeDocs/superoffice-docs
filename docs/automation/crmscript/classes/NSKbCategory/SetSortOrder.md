@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSKbCategory_SetSortOrder
-description: NSKbCategory.SetSortOrder(Integer sortOrder)
+uid: crmscript_ref_NSKbCategory_SetSortOrder
+title: SetSortOrder(Integer sortOrder)
 intellisense: NSKbCategory.SetSortOrder
 keywords: NSKbCategory, GetSortOrder
 so.topic: reference

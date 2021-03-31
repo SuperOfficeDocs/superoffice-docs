@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetNmdAppointmentId
-description: Integer NSProjectEntity.GetNmdAppointmentId()
+uid: crmscript_ref_NSProjectEntity_GetNmdAppointmentId
+title: Integer GetNmdAppointmentId()
 intellisense: NSProjectEntity.GetNmdAppointmentId
 keywords: NSProjectEntity, GetNmdAppointmentId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_SetSignature
-description: NSModuleLicense.SetSignature(String signature)
+uid: crmscript_ref_NSModuleLicense_SetSignature
+title: SetSignature(String signature)
 intellisense: NSModuleLicense.SetSignature
 keywords: NSModuleLicense, GetSignature
 so.topic: reference

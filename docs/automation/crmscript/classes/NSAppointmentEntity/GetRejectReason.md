@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetRejectReason
-description: String NSAppointmentEntity.GetRejectReason()
+uid: crmscript_ref_NSAppointmentEntity_GetRejectReason
+title: String GetRejectReason()
 intellisense: NSAppointmentEntity.GetRejectReason
 keywords: NSAppointmentEntity, GetRejectReason
 so.topic: reference

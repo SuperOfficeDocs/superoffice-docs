@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_GetERPName
-description: String NSQuoteConnection.GetERPName()
+uid: crmscript_ref_NSQuoteConnection_GetERPName
+title: String GetERPName()
 intellisense: NSQuoteConnection.GetERPName
 keywords: NSQuoteConnection, GetERPName
 so.topic: reference

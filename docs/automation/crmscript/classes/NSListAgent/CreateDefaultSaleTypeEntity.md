@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultSaleTypeEntity
-description: NSSaleTypeEntity CreateDefaultSaleTypeEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultSaleTypeEntity
+title: NSSaleTypeEntity CreateDefaultSaleTypeEntity()
 intellisense: NSListAgent.CreateDefaultSaleTypeEntity
-keywords: NSListAgent,CreateDefaultSaleTypeEntity
+keywords: NSListAgent, CreateDefaultSaleTypeEntity
 so.topic: reference
 ---
 	  

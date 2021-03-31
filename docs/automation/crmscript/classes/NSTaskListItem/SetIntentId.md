@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_SetIntentId
-description: NSTaskListItem.SetIntentId(Integer intentId)
+uid: crmscript_ref_NSTaskListItem_SetIntentId
+title: SetIntentId(Integer intentId)
 intellisense: NSTaskListItem.SetIntentId
 keywords: NSTaskListItem, GetIntentId
 so.topic: reference

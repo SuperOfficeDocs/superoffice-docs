@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetKanafname
-description: NSPerson.SetKanafname(String kanafname)
+uid: crmscript_ref_NSPerson_SetKanafname
+title: SetKanafname(String kanafname)
 intellisense: NSPerson.SetKanafname
 keywords: NSPerson, GetKanafname
 so.topic: reference

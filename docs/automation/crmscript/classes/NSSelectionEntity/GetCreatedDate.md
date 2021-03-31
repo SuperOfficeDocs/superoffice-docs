@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetCreatedDate
-description: DateTime NSSelectionEntity.GetCreatedDate()
+uid: crmscript_ref_NSSelectionEntity_GetCreatedDate
+title: DateTime GetCreatedDate()
 intellisense: NSSelectionEntity.GetCreatedDate
 keywords: NSSelectionEntity, GetCreatedDate
 so.topic: reference

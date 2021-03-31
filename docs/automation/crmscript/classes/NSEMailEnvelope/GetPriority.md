@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_GetPriority
-description: Integer NSEMailEnvelope.GetPriority()
+uid: crmscript_ref_NSEMailEnvelope_GetPriority
+title: Integer GetPriority()
 intellisense: NSEMailEnvelope.GetPriority
 keywords: NSEMailEnvelope, GetPriority
 so.topic: reference

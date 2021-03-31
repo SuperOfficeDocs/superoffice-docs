@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetRedLetterInformationListByDatesAndAssociate
-description: RedLetterInformationListItemArray GetRedLetterInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
+uid: crmscript_ref_NSAppointmentAgent_GetRedLetterInformationListByDatesAndAssociate
+title: RedLetterInformationListItemArray GetRedLetterInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
 intellisense: NSAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate
-keywords: NSAppointmentAgent,GetRedLetterInformationListByDatesAndAssociate
+keywords: NSAppointmentAgent, GetRedLetterInformationListByDatesAndAssociate
 so.topic: reference
 ---
 

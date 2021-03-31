@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_GetDomesticAddressLayoutId
-description: Integer NSCountry.GetDomesticAddressLayoutId()
+uid: crmscript_ref_NSCountry_GetDomesticAddressLayoutId
+title: Integer GetDomesticAddressLayoutId()
 intellisense: NSCountry.GetDomesticAddressLayoutId
 keywords: NSCountry, GetDomesticAddressLayoutId
 so.topic: reference

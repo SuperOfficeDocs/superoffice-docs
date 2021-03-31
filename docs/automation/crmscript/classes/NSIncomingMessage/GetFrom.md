@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSIncomingMessage_GetFrom
-description: String NSIncomingMessage.GetFrom()
+uid: crmscript_ref_NSIncomingMessage_GetFrom
+title: String GetFrom()
 intellisense: NSIncomingMessage.GetFrom
 keywords: NSIncomingMessage, GetFrom
 so.topic: reference

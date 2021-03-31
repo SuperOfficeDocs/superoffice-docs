@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_SetUserDefinedPageOneField
-description: Void SetUserDefinedPageOneField(Integer ownerType, Integer udefFieldId, Integer userGroupId, Integer fieldLineNo)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SetUserDefinedPageOneField
+title: Void SetUserDefinedPageOneField(Integer ownerType, Integer udefFieldId, Integer userGroupId, Integer fieldLineNo)
 intellisense: NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
-keywords: NSUserDefinedFieldInfoAgent,SetUserDefinedPageOneField
+keywords: NSUserDefinedFieldInfoAgent, SetUserDefinedPageOneField
 so.topic: reference
 ---
 

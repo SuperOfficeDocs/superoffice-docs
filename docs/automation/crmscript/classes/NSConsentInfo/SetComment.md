@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_SetComment
-description: NSConsentInfo.SetComment(String comment)
+uid: crmscript_ref_NSConsentInfo_SetComment
+title: SetComment(String comment)
 intellisense: NSConsentInfo.SetComment
 keywords: NSConsentInfo, GetComment
 so.topic: reference

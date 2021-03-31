@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_SetPersonFullName
-description: NSDocument.SetPersonFullName(String personFullName)
+uid: crmscript_ref_NSDocument_SetPersonFullName
+title: SetPersonFullName(String personFullName)
 intellisense: NSDocument.SetPersonFullName
 keywords: NSDocument, GetPersonFullName
 so.topic: reference

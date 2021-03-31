@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_GetContactId
-description: Integer NSContact.GetContactId()
+uid: crmscript_ref_NSContact_GetContactId
+title: Integer GetContactId()
 intellisense: NSContact.GetContactId
 keywords: NSContact, GetContactId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternativeRecalculated_SetChanges
-description: NSQuoteAlternativeRecalculated.SetChanges(ChangedData changes)
+uid: crmscript_ref_NSQuoteAlternativeRecalculated_SetChanges
+title: SetChanges(ChangedData changes)
 intellisense: NSQuoteAlternativeRecalculated.SetChanges
 keywords: NSQuoteAlternativeRecalculated, GetChanges
 so.topic: reference

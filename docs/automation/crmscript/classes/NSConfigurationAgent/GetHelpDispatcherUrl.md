@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetHelpDispatcherUrl
-description: String GetHelpDispatcherUrl()
+uid: crmscript_ref_NSConfigurationAgent_GetHelpDispatcherUrl
+title: String GetHelpDispatcherUrl()
 intellisense: NSConfigurationAgent.GetHelpDispatcherUrl
-keywords: NSConfigurationAgent,GetHelpDispatcherUrl
+keywords: NSConfigurationAgent, GetHelpDispatcherUrl
 so.topic: reference
 ---
 

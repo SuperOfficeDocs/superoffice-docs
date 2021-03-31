@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivityInformationListItem_GetActivityInformation
-description: ActivitySummary NSActivityInformationListItem.GetActivityInformation()
+uid: crmscript_ref_NSActivityInformationListItem_GetActivityInformation
+title: ActivitySummary GetActivityInformation()
 intellisense: NSActivityInformationListItem.GetActivityInformation
 keywords: NSActivityInformationListItem, GetActivityInformation
 so.topic: reference

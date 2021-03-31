@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetDefaultAssociateUserName
-description: String GetDefaultAssociateUserName(User user)
+uid: crmscript_ref_NSUserAgent_GetDefaultAssociateUserName
+title: String GetDefaultAssociateUserName(User user)
 intellisense: NSUserAgent.GetDefaultAssociateUserName
-keywords: NSUserAgent,GetDefaultAssociateUserName
+keywords: NSUserAgent, GetDefaultAssociateUserName
 so.topic: reference
 ---
 

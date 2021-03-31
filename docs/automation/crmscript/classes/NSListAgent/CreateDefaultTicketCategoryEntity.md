@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultTicketCategoryEntity
-description: NSTicketCategoryEntity CreateDefaultTicketCategoryEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultTicketCategoryEntity
+title: NSTicketCategoryEntity CreateDefaultTicketCategoryEntity()
 intellisense: NSListAgent.CreateDefaultTicketCategoryEntity
-keywords: NSListAgent,CreateDefaultTicketCategoryEntity
+keywords: NSListAgent, CreateDefaultTicketCategoryEntity
 so.topic: reference
 ---
 	  

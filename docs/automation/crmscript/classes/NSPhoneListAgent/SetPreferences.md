@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPhoneListAgent_SetPreferences
-description: Void SetPreferences(PhoneListPreferences preferences)
+uid: crmscript_ref_NSPhoneListAgent_SetPreferences
+title: Void SetPreferences(PhoneListPreferences preferences)
 intellisense: NSPhoneListAgent.SetPreferences
-keywords: NSPhoneListAgent,SetPreferences
+keywords: NSPhoneListAgent, SetPreferences
 so.topic: reference
 ---
 

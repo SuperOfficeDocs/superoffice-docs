@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_GetCurrencyName
-description: String NSPriceList.GetCurrencyName()
+uid: crmscript_ref_NSPriceList_GetCurrencyName
+title: String GetCurrencyName()
 intellisense: NSPriceList.GetCurrencyName
 keywords: NSPriceList, GetCurrencyName
 so.topic: reference

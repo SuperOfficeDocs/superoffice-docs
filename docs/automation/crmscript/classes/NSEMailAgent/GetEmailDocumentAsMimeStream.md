@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEmailDocumentAsMimeStream
-description: Stream GetEmailDocumentAsMimeStream(Integer documentId)
+uid: crmscript_ref_NSEMailAgent_GetEmailDocumentAsMimeStream
+title: Stream GetEmailDocumentAsMimeStream(Integer documentId)
 intellisense: NSEMailAgent.GetEmailDocumentAsMimeStream
-keywords: NSEMailAgent,GetEmailDocumentAsMimeStream
+keywords: NSEMailAgent, GetEmailDocumentAsMimeStream
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_SetTooltip
-description: NSCountry.SetTooltip(String tooltip)
+uid: crmscript_ref_NSCountry_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSCountry.SetTooltip
 keywords: NSCountry, GetTooltip
 so.topic: reference

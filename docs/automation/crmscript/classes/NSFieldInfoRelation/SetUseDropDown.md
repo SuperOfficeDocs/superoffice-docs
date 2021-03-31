@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoRelation_SetUseDropDown
-description: NSFieldInfoRelation.SetUseDropDown(Bool useDropDown)
+uid: crmscript_ref_NSFieldInfoRelation_SetUseDropDown
+title: SetUseDropDown(Bool useDropDown)
 intellisense: NSFieldInfoRelation.SetUseDropDown
 keywords: NSFieldInfoRelation, GetUseDropDown
 so.topic: reference

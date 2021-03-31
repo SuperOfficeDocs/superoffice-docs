@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSKbCategory_SetParentId
-description: NSKbCategory.SetParentId(Integer parentId)
+uid: crmscript_ref_NSKbCategory_SetParentId
+title: SetParentId(Integer parentId)
 intellisense: NSKbCategory.SetParentId
 keywords: NSKbCategory, GetParentId
 so.topic: reference

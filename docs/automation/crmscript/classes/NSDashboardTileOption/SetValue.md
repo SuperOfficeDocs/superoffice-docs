@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption_SetValue
-description: NSDashboardTileOption.SetValue(String value)
+uid: crmscript_ref_NSDashboardTileOption_SetValue
+title: SetValue(String value)
 intellisense: NSDashboardTileOption.SetValue
 keywords: NSDashboardTileOption, GetValue
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetOurCurrency
-description: Currency GetOurCurrency()
+uid: crmscript_ref_NSListAgent_GetOurCurrency
+title: Currency GetOurCurrency()
 intellisense: NSListAgent.GetOurCurrency
-keywords: NSListAgent,GetOurCurrency
+keywords: NSListAgent, GetOurCurrency
 so.topic: reference
 ---
 

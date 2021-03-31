@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_ActivateLicenseInfo
-description: LicenseResult ActivateLicenseInfo(ExtendedLicenseInfo newLicense)
+uid: crmscript_ref_NSLicenseAgent_ActivateLicenseInfo
+title: LicenseResult ActivateLicenseInfo(ExtendedLicenseInfo newLicense)
 intellisense: NSLicenseAgent.ActivateLicenseInfo
-keywords: NSLicenseAgent,ActivateLicenseInfo
+keywords: NSLicenseAgent, ActivateLicenseInfo
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_Save
-description: EMailEntity Save(EMailEntity email)
+uid: crmscript_ref_NSEMailAgent_Save
+title: EMailEntity Save(EMailEntity email)
 intellisense: NSEMailAgent.Save
-keywords: NSEMailAgent,Save
+keywords: NSEMailAgent, Save
 so.topic: reference
 ---
 

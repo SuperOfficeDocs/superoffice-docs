@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSProjectStatus_SetId
-description: NSProjectStatus.SetId(Integer id)
+uid: crmscript_ref_NSProjectStatus_SetId
+title: SetId(Integer id)
 intellisense: NSProjectStatus.SetId
 keywords: NSProjectStatus, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the ProjectStatus
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer ProjectStatus id.
 

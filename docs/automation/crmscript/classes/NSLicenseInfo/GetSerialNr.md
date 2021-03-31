@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_GetSerialNr
-description: String NSLicenseInfo.GetSerialNr()
+uid: crmscript_ref_NSLicenseInfo_GetSerialNr
+title: String GetSerialNr()
 intellisense: NSLicenseInfo.GetSerialNr
 keywords: NSLicenseInfo, GetSerialNr
 so.topic: reference

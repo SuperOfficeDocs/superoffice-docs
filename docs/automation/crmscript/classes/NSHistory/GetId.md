@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistory_GetId
-description: Integer NSHistory.GetId()
+uid: crmscript_ref_NSHistory_GetId
+title: Integer GetId()
 intellisense: NSHistory.GetId
 keywords: NSHistory, GetId
 so.topic: reference

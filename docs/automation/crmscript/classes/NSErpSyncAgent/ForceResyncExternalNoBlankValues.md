@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_ForceResyncExternalNoBlankValues
-description: PluginResponse ForceResyncExternalNoBlankValues(Integer erpConnectionId, Integer erpActorType, StringArray externalKeys)
+uid: crmscript_ref_NSErpSyncAgent_ForceResyncExternalNoBlankValues
+title: PluginResponse ForceResyncExternalNoBlankValues(Integer erpConnectionId, Integer erpActorType, StringArray externalKeys)
 intellisense: NSErpSyncAgent.ForceResyncExternalNoBlankValues
-keywords: NSErpSyncAgent,ForceResyncExternalNoBlankValues
+keywords: NSErpSyncAgent, ForceResyncExternalNoBlankValues
 so.topic: reference
 ---
 

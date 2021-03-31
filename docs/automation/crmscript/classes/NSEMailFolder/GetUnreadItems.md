@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder_GetUnreadItems
-description: Integer NSEMailFolder.GetUnreadItems()
+uid: crmscript_ref_NSEMailFolder_GetUnreadItems
+title: Integer GetUnreadItems()
 intellisense: NSEMailFolder.GetUnreadItems
 keywords: NSEMailFolder, GetUnreadItems
 so.topic: reference

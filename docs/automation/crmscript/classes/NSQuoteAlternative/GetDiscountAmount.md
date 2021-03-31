@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_GetDiscountAmount
-description: Float NSQuoteAlternative.GetDiscountAmount()
+uid: crmscript_ref_NSQuoteAlternative_GetDiscountAmount
+title: Float GetDiscountAmount()
 intellisense: NSQuoteAlternative.GetDiscountAmount
 keywords: NSQuoteAlternative, GetDiscountAmount
 so.topic: reference

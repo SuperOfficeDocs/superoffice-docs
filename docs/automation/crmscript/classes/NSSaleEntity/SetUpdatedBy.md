@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetUpdatedBy
-description: NSSaleEntity.SetUpdatedBy(Associate updatedBy)
+uid: crmscript_ref_NSSaleEntity_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
 intellisense: NSSaleEntity.SetUpdatedBy
 keywords: NSSaleEntity, GetUpdatedBy
 so.topic: reference

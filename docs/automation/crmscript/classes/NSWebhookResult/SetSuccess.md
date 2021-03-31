@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhookResult_SetSuccess
-description: NSWebhookResult.SetSuccess(Bool success)
+uid: crmscript_ref_NSWebhookResult_SetSuccess
+title: SetSuccess(Bool success)
 intellisense: NSWebhookResult.SetSuccess
 keywords: NSWebhookResult, GetSuccess
 so.topic: reference

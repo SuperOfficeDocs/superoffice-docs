@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerCenterConfig_GetRegistered
-description: DateTime NSCustomerCenterConfig.GetRegistered()
+uid: crmscript_ref_NSCustomerCenterConfig_GetRegistered
+title: DateTime GetRegistered()
 intellisense: NSCustomerCenterConfig.GetRegistered
 keywords: NSCustomerCenterConfig, GetRegistered
 so.topic: reference

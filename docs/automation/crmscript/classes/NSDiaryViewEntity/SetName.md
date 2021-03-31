@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity_SetName
-description: NSDiaryViewEntity.SetName(String name)
+uid: crmscript_ref_NSDiaryViewEntity_SetName
+title: SetName(String name)
 intellisense: NSDiaryViewEntity.SetName
 keywords: NSDiaryViewEntity, GetName
 so.topic: reference

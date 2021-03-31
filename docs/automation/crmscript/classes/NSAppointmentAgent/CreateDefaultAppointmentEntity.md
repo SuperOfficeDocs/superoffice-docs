@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_CreateDefaultAppointmentEntity
-description: NSAppointmentEntity CreateDefaultAppointmentEntity()
+uid: crmscript_ref_NSAppointmentAgent_CreateDefaultAppointmentEntity
+title: NSAppointmentEntity CreateDefaultAppointmentEntity()
 intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntity
-keywords: NSAppointmentAgent,CreateDefaultAppointmentEntity
+keywords: NSAppointmentAgent, CreateDefaultAppointmentEntity
 so.topic: reference
 ---
 	  

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_AddRemoveContactSelectionMemberInterests
-description: Void AddRemoveContactSelectionMemberInterests(Integer selectionId, IntegerArray addCompanyInterests, IntegerArray removeCompanyInterests, IntegerArray addContactInterests, IntegerArray removeContactInterests)
+uid: crmscript_ref_NSSelectionAgent_AddRemoveContactSelectionMemberInterests
+title: Void AddRemoveContactSelectionMemberInterests(Integer selectionId, IntegerArray addCompanyInterests, IntegerArray removeCompanyInterests, IntegerArray addContactInterests, IntegerArray removeContactInterests)
 intellisense: NSSelectionAgent.AddRemoveContactSelectionMemberInterests
-keywords: NSSelectionAgent,AddRemoveContactSelectionMemberInterests
+keywords: NSSelectionAgent, AddRemoveContactSelectionMemberInterests
 so.topic: reference
 ---
 

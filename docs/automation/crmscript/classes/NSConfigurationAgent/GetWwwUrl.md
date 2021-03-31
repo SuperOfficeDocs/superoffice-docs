@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetWwwUrl
-description: String GetWwwUrl(String client)
+uid: crmscript_ref_NSConfigurationAgent_GetWwwUrl
+title: String GetWwwUrl(String client)
 intellisense: NSConfigurationAgent.GetWwwUrl
-keywords: NSConfigurationAgent,GetWwwUrl
+keywords: NSConfigurationAgent, GetWwwUrl
 so.topic: reference
 ---
 

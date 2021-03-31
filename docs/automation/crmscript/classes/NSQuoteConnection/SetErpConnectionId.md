@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_SetErpConnectionId
-description: NSQuoteConnection.SetErpConnectionId(Integer erpConnectionId)
+uid: crmscript_ref_NSQuoteConnection_SetErpConnectionId
+title: SetErpConnectionId(Integer erpConnectionId)
 intellisense: NSQuoteConnection.SetErpConnectionId
 keywords: NSQuoteConnection, GetErpConnectionId
 so.topic: reference

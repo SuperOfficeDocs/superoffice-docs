@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportLine
-description: NSImportLine
+uid: crmscript_ref_NSImportLine
+title: NSImportLine
 intellisense: Void.NSImportLine
 keywords: NSImportLine
 so.topic: reference

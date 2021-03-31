@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent_GetSimpleList
-description: MDOListItemArray GetSimpleList(String name)
+uid: crmscript_ref_NSMDOAgent_GetSimpleList
+title: MDOListItemArray GetSimpleList(String name)
 intellisense: NSMDOAgent.GetSimpleList
-keywords: NSMDOAgent,GetSimpleList
+keywords: NSMDOAgent, GetSimpleList
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity
-description: NSTicketCategoryEntity
+uid: crmscript_ref_NSTicketCategoryEntity
+title: NSTicketCategoryEntity
 intellisense: Void.NSTicketCategoryEntity
 keywords: NSTicketCategoryEntity
 so.topic: reference

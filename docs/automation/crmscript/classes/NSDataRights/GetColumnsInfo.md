@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDataRights_GetColumnsInfo
-description: RelationToOwnerArray NSDataRights.GetColumnsInfo()
+uid: crmscript_ref_NSDataRights_GetColumnsInfo
+title: RelationToOwnerArray GetColumnsInfo()
 intellisense: NSDataRights.GetColumnsInfo
 keywords: NSDataRights, GetColumnsInfo
 so.topic: reference

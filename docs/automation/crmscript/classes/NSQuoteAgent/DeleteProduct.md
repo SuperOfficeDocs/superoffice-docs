@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_DeleteProduct
-description: DeleteProduct(Integer product);
+uid: crmscript_ref_NSQuoteAgent_DeleteProduct
+title: DeleteProduct(Integer product);
 intellisense: NSQuoteAgent.DeleteProduct
-keywords: NSQuoteAgent,DeleteProduct
+keywords: NSQuoteAgent, DeleteProduct
 so.topic: reference
 ---
 

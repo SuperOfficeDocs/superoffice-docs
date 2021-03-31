@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetProjectStatus
-description: ProjectStatus NSProjectEntity.GetProjectStatus()
+uid: crmscript_ref_NSProjectEntity_GetProjectStatus
+title: ProjectStatus GetProjectStatus()
 intellisense: NSProjectEntity.GetProjectStatus
 keywords: NSProjectEntity, GetProjectStatus
 so.topic: reference

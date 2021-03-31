@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetAppointmentId
-description: NSAppointmentEntity.SetAppointmentId(Integer appointmentId)
+uid: crmscript_ref_NSAppointmentEntity_SetAppointmentId
+title: SetAppointmentId(Integer appointmentId)
 intellisense: NSAppointmentEntity.SetAppointmentId
 keywords: NSAppointmentEntity, GetAppointmentId
 so.topic: reference

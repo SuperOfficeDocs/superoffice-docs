@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetERPQuoteVersionKey
-description: String NSQuoteVersion.GetERPQuoteVersionKey()
+uid: crmscript_ref_NSQuoteVersion_GetERPQuoteVersionKey
+title: String GetERPQuoteVersionKey()
 intellisense: NSQuoteVersion.GetERPQuoteVersionKey
 keywords: NSQuoteVersion, GetERPQuoteVersionKey
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLegalBase_SetRank
-description: NSLegalBase.SetRank(Integer rank)
+uid: crmscript_ref_NSLegalBase_SetRank
+title: SetRank(Integer rank)
 intellisense: NSLegalBase.SetRank
 keywords: NSLegalBase, GetRank
 so.topic: reference

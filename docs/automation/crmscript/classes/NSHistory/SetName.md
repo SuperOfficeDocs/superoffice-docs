@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistory_SetName
-description: NSHistory.SetName(String name)
+uid: crmscript_ref_NSHistory_SetName
+title: SetName(String name)
 intellisense: NSHistory.SetName
 keywords: NSHistory, GetName
 so.topic: reference

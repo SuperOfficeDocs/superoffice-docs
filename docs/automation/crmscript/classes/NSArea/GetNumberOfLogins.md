@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArea_GetNumberOfLogins
-description: Integer NSArea.GetNumberOfLogins()
+uid: crmscript_ref_NSArea_GetNumberOfLogins
+title: Integer GetNumberOfLogins()
 intellisense: NSArea.GetNumberOfLogins
 keywords: NSArea, GetNumberOfLogins
 so.topic: reference

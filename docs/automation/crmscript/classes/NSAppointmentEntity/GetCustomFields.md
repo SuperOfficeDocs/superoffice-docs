@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetCustomFields
-description: Map NSAppointmentEntity.GetCustomFields()
+uid: crmscript_ref_NSAppointmentEntity_GetCustomFields
+title: Map GetCustomFields()
 intellisense: NSAppointmentEntity.GetCustomFields
 keywords: NSAppointmentEntity, GetCustomFields
 so.topic: reference
 ---
 
-Get the user-defined + extra fields as a map.
+Get the user-defined + extra fields on a AppointmentEntity as a map.
 
 **Returns:** Map containing user defined and extra field values by field name.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetSatStart
-description: NSTicketPriorityEntity.SetSatStart(DateTime satStart)
+uid: crmscript_ref_NSTicketPriorityEntity_SetSatStart
+title: SetSatStart(DateTime satStart)
 intellisense: NSTicketPriorityEntity.SetSatStart
 keywords: NSTicketPriorityEntity, GetSatStart
 so.topic: reference

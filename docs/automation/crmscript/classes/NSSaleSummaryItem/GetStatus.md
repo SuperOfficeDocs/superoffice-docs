@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummaryItem_GetStatus
-description: Integer NSSaleSummaryItem.GetStatus()
+uid: crmscript_ref_NSSaleSummaryItem_GetStatus
+title: Integer GetStatus()
 intellisense: NSSaleSummaryItem.GetStatus
 keywords: NSSaleSummaryItem, GetStatus
 so.topic: reference

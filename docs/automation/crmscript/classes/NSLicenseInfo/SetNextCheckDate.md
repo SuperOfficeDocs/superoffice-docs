@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_SetNextCheckDate
-description: NSLicenseInfo.SetNextCheckDate(DateTime nextCheckDate)
+uid: crmscript_ref_NSLicenseInfo_SetNextCheckDate
+title: SetNextCheckDate(DateTime nextCheckDate)
 intellisense: NSLicenseInfo.SetNextCheckDate
 keywords: NSLicenseInfo, GetNextCheckDate
 so.topic: reference

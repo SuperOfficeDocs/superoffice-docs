@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_GetSignOnPersonId
-description: Integer NSProjectEvent.GetSignOnPersonId()
+uid: crmscript_ref_NSProjectEvent_GetSignOnPersonId
+title: Integer GetSignOnPersonId()
 intellisense: NSProjectEvent.GetSignOnPersonId
 keywords: NSProjectEvent, GetSignOnPersonId
 so.topic: reference

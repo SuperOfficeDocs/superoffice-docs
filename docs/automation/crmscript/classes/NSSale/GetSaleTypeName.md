@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_GetSaleTypeName
-description: String NSSale.GetSaleTypeName()
+uid: crmscript_ref_NSSale_GetSaleTypeName
+title: String GetSaleTypeName()
 intellisense: NSSale.GetSaleTypeName
 keywords: NSSale, GetSaleTypeName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetPersonFullName
-description: NSParticipantSyncData.SetPersonFullName(String personFullName)
+uid: crmscript_ref_NSParticipantSyncData_SetPersonFullName
+title: SetPersonFullName(String personFullName)
 intellisense: NSParticipantSyncData.SetPersonFullName
 keywords: NSParticipantSyncData, GetPersonFullName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetAssociateId
-description: NSBatchTaskInfo.SetAssociateId(Integer associateId)
+uid: crmscript_ref_NSBatchTaskInfo_SetAssociateId
+title: SetAssociateId(Integer associateId)
 intellisense: NSBatchTaskInfo.SetAssociateId
 keywords: NSBatchTaskInfo, GetAssociateId
 so.topic: reference

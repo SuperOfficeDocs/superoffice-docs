@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAIAgent_GuessCategory
-description: Integer GuessCategory(Integer ticketId)
+uid: crmscript_ref_NSAIAgent_GuessCategory
+title: Integer GuessCategory(Integer ticketId)
 intellisense: NSAIAgent.GuessCategory
-keywords: NSAIAgent,GuessCategory
+keywords: NSAIAgent, GuessCategory
 so.topic: reference
 ---
 

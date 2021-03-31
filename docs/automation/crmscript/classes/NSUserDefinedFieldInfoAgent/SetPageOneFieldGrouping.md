@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_SetPageOneFieldGrouping
-description: Void SetPageOneFieldGrouping(Integer ownerType, Bool active)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SetPageOneFieldGrouping
+title: Void SetPageOneFieldGrouping(Integer ownerType, Bool active)
 intellisense: NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
-keywords: NSUserDefinedFieldInfoAgent,SetPageOneFieldGrouping
+keywords: NSUserDefinedFieldInfoAgent, SetPageOneFieldGrouping
 so.topic: reference
 ---
 

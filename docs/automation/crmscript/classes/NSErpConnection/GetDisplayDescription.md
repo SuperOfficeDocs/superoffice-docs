@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_GetDisplayDescription
-description: String NSErpConnection.GetDisplayDescription()
+uid: crmscript_ref_NSErpConnection_GetDisplayDescription
+title: String GetDisplayDescription()
 intellisense: NSErpConnection.GetDisplayDescription
 keywords: NSErpConnection, GetDisplayDescription
 so.topic: reference

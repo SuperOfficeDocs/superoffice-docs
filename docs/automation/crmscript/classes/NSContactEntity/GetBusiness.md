@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetBusiness
-description: Business NSContactEntity.GetBusiness()
+uid: crmscript_ref_NSContactEntity_GetBusiness
+title: Business GetBusiness()
 intellisense: NSContactEntity.GetBusiness
 keywords: NSContactEntity, GetBusiness
 so.topic: reference

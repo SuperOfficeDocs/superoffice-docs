@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_GetPersonMiddleName
-description: String NSParticipantSyncData.GetPersonMiddleName()
+uid: crmscript_ref_NSParticipantSyncData_GetPersonMiddleName
+title: String GetPersonMiddleName()
 intellisense: NSParticipantSyncData.GetPersonMiddleName
 keywords: NSParticipantSyncData, GetPersonMiddleName
 so.topic: reference

@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSRole_SetValue
-description: NSRole.SetValue(String value)
+uid: crmscript_ref_NSRole_SetValue
+title: SetValue(String value)
 intellisense: NSRole.SetValue
 keywords: NSRole, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the Role item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String Role name.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_GetSignOffText
-description: String NSProjectEvent.GetSignOffText()
+uid: crmscript_ref_NSProjectEvent_GetSignOffText
+title: String GetSignOffText()
 intellisense: NSProjectEvent.GetSignOffText
 keywords: NSProjectEvent, GetSignOffText
 so.topic: reference

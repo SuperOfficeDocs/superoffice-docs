@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetSupplierCode
-description: NSQuoteLine.SetSupplierCode(String supplierCode)
+uid: crmscript_ref_NSQuoteLine_SetSupplierCode
+title: SetSupplierCode(String supplierCode)
 intellisense: NSQuoteLine.SetSupplierCode
 keywords: NSQuoteLine, GetSupplierCode
 so.topic: reference

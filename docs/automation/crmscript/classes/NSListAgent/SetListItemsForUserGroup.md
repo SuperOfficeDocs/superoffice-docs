@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SetListItemsForUserGroup
-description: Void SetListItemsForUserGroup(Integer udListDefinitionId, Integer usergroupId, IntegerArray listItemIds, Bool enable)
+uid: crmscript_ref_NSListAgent_SetListItemsForUserGroup
+title: Void SetListItemsForUserGroup(Integer udListDefinitionId, Integer usergroupId, IntegerArray listItemIds, Bool enable)
 intellisense: NSListAgent.SetListItemsForUserGroup
-keywords: NSListAgent,SetListItemsForUserGroup
+keywords: NSListAgent, SetListItemsForUserGroup
 so.topic: reference
 ---
 

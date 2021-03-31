@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetAddress
-description: Address GetAddress(Integer personId)
+uid: crmscript_ref_NSPersonAgent_GetAddress
+title: Address GetAddress(Integer personId)
 intellisense: NSPersonAgent.GetAddress
-keywords: NSPersonAgent,GetAddress
+keywords: NSPersonAgent, GetAddress
 so.topic: reference
 ---
 

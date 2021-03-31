@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetUDListDefinitionId
-description: Integer NSUserDefinedFieldInfo.GetUDListDefinitionId()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetUDListDefinitionId
+title: Integer GetUDListDefinitionId()
 intellisense: NSUserDefinedFieldInfo.GetUDListDefinitionId
 keywords: NSUserDefinedFieldInfo, GetUDListDefinitionId
 so.topic: reference

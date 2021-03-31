@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetNewTicket
-description: Bool NSFormEntity.GetNewTicket()
+uid: crmscript_ref_NSFormEntity_GetNewTicket
+title: Bool GetNewTicket()
 intellisense: NSFormEntity.GetNewTicket
 keywords: NSFormEntity, GetNewTicket
 so.topic: reference

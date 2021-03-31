@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceSpec_SetSection
-description: NSPreferenceSpec.SetSection(String section)
+uid: crmscript_ref_NSPreferenceSpec_SetSection
+title: SetSection(String section)
 intellisense: NSPreferenceSpec.SetSection
 keywords: NSPreferenceSpec, GetSection
 so.topic: reference

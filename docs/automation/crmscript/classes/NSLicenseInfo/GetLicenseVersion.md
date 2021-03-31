@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_GetLicenseVersion
-description: String NSLicenseInfo.GetLicenseVersion()
+uid: crmscript_ref_NSLicenseInfo_GetLicenseVersion
+title: String GetLicenseVersion()
 intellisense: NSLicenseInfo.GetLicenseVersion
 keywords: NSLicenseInfo, GetLicenseVersion
 so.topic: reference

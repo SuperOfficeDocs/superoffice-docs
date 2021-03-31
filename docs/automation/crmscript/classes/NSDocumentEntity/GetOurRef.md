@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetOurRef
-description: String NSDocumentEntity.GetOurRef()
+uid: crmscript_ref_NSDocumentEntity_GetOurRef
+title: String GetOurRef()
 intellisense: NSDocumentEntity.GetOurRef
 keywords: NSDocumentEntity, GetOurRef
 so.topic: reference

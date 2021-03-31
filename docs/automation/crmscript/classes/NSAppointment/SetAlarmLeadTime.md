@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetAlarmLeadTime
-description: NSAppointment.SetAlarmLeadTime(TimeSpan alarmLeadTime)
+uid: crmscript_ref_NSAppointment_SetAlarmLeadTime
+title: SetAlarmLeadTime(TimeSpan alarmLeadTime)
 intellisense: NSAppointment.SetAlarmLeadTime
 keywords: NSAppointment, GetAlarmLeadTime
 so.topic: reference

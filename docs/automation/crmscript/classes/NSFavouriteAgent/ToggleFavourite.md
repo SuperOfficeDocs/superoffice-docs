@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFavouriteAgent_ToggleFavourite
-description: Bool ToggleFavourite(String tableName, Integer recordId, Integer associateId, String extraInfo)
+uid: crmscript_ref_NSFavouriteAgent_ToggleFavourite
+title: Bool ToggleFavourite(String tableName, Integer recordId, Integer associateId, String extraInfo)
 intellisense: NSFavouriteAgent.ToggleFavourite
-keywords: NSFavouriteAgent,ToggleFavourite
+keywords: NSFavouriteAgent, ToggleFavourite
 so.topic: reference
 ---
 

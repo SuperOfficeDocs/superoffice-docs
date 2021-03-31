@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_ExecuteEventHandlers
-description: EventData ExecuteEventHandlers(EventData eventData)
+uid: crmscript_ref_NSCustomerServiceAgent_ExecuteEventHandlers
+title: EventData ExecuteEventHandlers(EventData eventData)
 intellisense: NSCustomerServiceAgent.ExecuteEventHandlers
-keywords: NSCustomerServiceAgent,ExecuteEventHandlers
+keywords: NSCustomerServiceAgent, ExecuteEventHandlers
 so.topic: reference
 ---
 

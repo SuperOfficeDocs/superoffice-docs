@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_TestConnectorUrl
-description: Integer TestConnectorUrl(String url)
+uid: crmscript_ref_NSErpSyncAgent_TestConnectorUrl
+title: Integer TestConnectorUrl(String url)
 intellisense: NSErpSyncAgent.TestConnectorUrl
-keywords: NSErpSyncAgent,TestConnectorUrl
+keywords: NSErpSyncAgent, TestConnectorUrl
 so.topic: reference
 ---
 

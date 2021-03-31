@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetChatImageWithSize
-description: Image GetChatImageWithSize(Integer chatTopicId, Integer width, Integer height)
+uid: crmscript_ref_NSBLOBAgent_GetChatImageWithSize
+title: Image GetChatImageWithSize(Integer chatTopicId, Integer width, Integer height)
 intellisense: NSBLOBAgent.GetChatImageWithSize
-keywords: NSBLOBAgent,GetChatImageWithSize
+keywords: NSBLOBAgent, GetChatImageWithSize
 so.topic: reference
 ---
 

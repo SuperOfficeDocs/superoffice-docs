@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaintConfiguration_SetEnabled
-description: NSSaintConfiguration.SetEnabled(Bool enabled)
+uid: crmscript_ref_NSSaintConfiguration_SetEnabled
+title: SetEnabled(Bool enabled)
 intellisense: NSSaintConfiguration.SetEnabled
 keywords: NSSaintConfiguration, GetEnabled
 so.topic: reference

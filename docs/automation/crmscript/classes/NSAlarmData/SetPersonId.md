@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_SetPersonId
-description: NSAlarmData.SetPersonId(Integer personId)
+uid: crmscript_ref_NSAlarmData_SetPersonId
+title: SetPersonId(Integer personId)
 intellisense: NSAlarmData.SetPersonId
 keywords: NSAlarmData, GetPersonId
 so.topic: reference

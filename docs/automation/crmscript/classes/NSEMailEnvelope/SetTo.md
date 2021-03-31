@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_SetTo
-description: NSEMailEnvelope.SetTo(EMailAddressArray to)
+uid: crmscript_ref_NSEMailEnvelope_SetTo
+title: SetTo(EMailAddressArray to)
 intellisense: NSEMailEnvelope.SetTo
 keywords: NSEMailEnvelope, GetTo
 so.topic: reference

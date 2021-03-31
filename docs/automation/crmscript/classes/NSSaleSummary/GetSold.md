@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_GetSold
-description: Integer NSSaleSummary.GetSold()
+uid: crmscript_ref_NSSaleSummary_GetSold
+title: Integer GetSold()
 intellisense: NSSaleSummary.GetSold
 keywords: NSSaleSummary, GetSold
 so.topic: reference

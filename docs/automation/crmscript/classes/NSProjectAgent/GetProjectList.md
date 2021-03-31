@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetProjectList
-description: NSProject[] GetProjectList(Integer[]  projectIds);
+uid: crmscript_ref_NSProjectAgent_GetProjectList
+title: NSProject[] GetProjectList(Integer[]  projectIds);
 intellisense: NSProjectAgent.GetProjectList
-keywords: NSProjectAgent,GetProjectList
+keywords: NSProjectAgent, GetProjectList
 so.topic: reference
 ---
 

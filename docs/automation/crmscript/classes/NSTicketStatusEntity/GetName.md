@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketStatusEntity_GetName
-description: String NSTicketStatusEntity.GetName()
+uid: crmscript_ref_NSTicketStatusEntity_GetName
+title: String GetName()
 intellisense: NSTicketStatusEntity.GetName
 keywords: NSTicketStatusEntity, GetName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetFriStop
-description: NSTicketPriorityEntity.SetFriStop(DateTime friStop)
+uid: crmscript_ref_NSTicketPriorityEntity_SetFriStop
+title: SetFriStop(DateTime friStop)
 intellisense: NSTicketPriorityEntity.SetFriStop
 keywords: NSTicketPriorityEntity, GetFriStop
 so.topic: reference

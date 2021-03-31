@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_GetDescription
-description: String NSBlobEntity.GetDescription()
+uid: crmscript_ref_NSBlobEntity_GetDescription
+title: String GetDescription()
 intellisense: NSBlobEntity.GetDescription
 keywords: NSBlobEntity, GetDescription
 so.topic: reference

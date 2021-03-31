@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAccount_GetEMailAddress
-description: String NSEMailAccount.GetEMailAddress()
+uid: crmscript_ref_NSEMailAccount_GetEMailAddress
+title: String GetEMailAddress()
 intellisense: NSEMailAccount.GetEMailAddress
 keywords: NSEMailAccount, GetEMailAddress
 so.topic: reference

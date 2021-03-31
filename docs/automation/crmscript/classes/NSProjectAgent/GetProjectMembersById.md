@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetProjectMembersById
-description: ProjectMemberArray GetProjectMembersById(IntegerArray projectMemberIds)
+uid: crmscript_ref_NSProjectAgent_GetProjectMembersById
+title: ProjectMemberArray GetProjectMembersById(IntegerArray projectMemberIds)
 intellisense: NSProjectAgent.GetProjectMembersById
-keywords: NSProjectAgent,GetProjectMembersById
+keywords: NSProjectAgent, GetProjectMembersById
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoLongText_SetUseTextArea
-description: NSFieldInfoLongText.SetUseTextArea(Bool useTextArea)
+uid: crmscript_ref_NSFieldInfoLongText_SetUseTextArea
+title: SetUseTextArea(Bool useTextArea)
 intellisense: NSFieldInfoLongText.SetUseTextArea
 keywords: NSFieldInfoLongText, GetUseTextArea
 so.topic: reference

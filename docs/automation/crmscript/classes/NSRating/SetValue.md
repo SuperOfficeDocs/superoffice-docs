@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSRating_SetValue
-description: NSRating.SetValue(String value)
+uid: crmscript_ref_NSRating_SetValue
+title: SetValue(String value)
 intellisense: NSRating.SetValue
 keywords: NSRating, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the Rating item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String Rating name.
 

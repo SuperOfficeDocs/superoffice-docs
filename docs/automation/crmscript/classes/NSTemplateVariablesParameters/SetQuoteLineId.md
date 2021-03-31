@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_SetQuoteLineId
-description: NSTemplateVariablesParameters.SetQuoteLineId(Integer quoteLineId)
+uid: crmscript_ref_NSTemplateVariablesParameters_SetQuoteLineId
+title: SetQuoteLineId(Integer quoteLineId)
 intellisense: NSTemplateVariablesParameters.SetQuoteLineId
 keywords: NSTemplateVariablesParameters, GetQuoteLineId
 so.topic: reference

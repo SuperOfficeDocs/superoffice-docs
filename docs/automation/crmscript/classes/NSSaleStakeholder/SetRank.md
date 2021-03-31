@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_SetRank
-description: NSSaleStakeholder.SetRank(Integer rank)
+uid: crmscript_ref_NSSaleStakeholder_SetRank
+title: SetRank(Integer rank)
 intellisense: NSSaleStakeholder.SetRank
 keywords: NSSaleStakeholder, GetRank
 so.topic: reference

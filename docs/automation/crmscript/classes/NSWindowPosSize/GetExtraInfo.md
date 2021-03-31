@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_GetExtraInfo
-description: String NSWindowPosSize.GetExtraInfo()
+uid: crmscript_ref_NSWindowPosSize_GetExtraInfo
+title: String GetExtraInfo()
 intellisense: NSWindowPosSize.GetExtraInfo
 keywords: NSWindowPosSize, GetExtraInfo
 so.topic: reference

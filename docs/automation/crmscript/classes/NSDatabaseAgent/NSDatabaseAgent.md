@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDatabaseAgent
-description: NSDatabaseAgent
+uid: crmscript_ref_NSDatabaseAgent
+title: NSDatabaseAgent
 intellisense: Void.NSDatabaseAgent
 keywords: NSDatabaseAgent
 so.topic: reference

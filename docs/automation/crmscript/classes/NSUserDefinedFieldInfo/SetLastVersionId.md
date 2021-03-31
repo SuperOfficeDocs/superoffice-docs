@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetLastVersionId
-description: NSUserDefinedFieldInfo.SetLastVersionId(Integer lastVersionId)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetLastVersionId
+title: SetLastVersionId(Integer lastVersionId)
 intellisense: NSUserDefinedFieldInfo.SetLastVersionId
 keywords: NSUserDefinedFieldInfo, GetLastVersionId
 so.topic: reference

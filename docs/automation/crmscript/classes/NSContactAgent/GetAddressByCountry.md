@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetAddressByCountry
-description: Address GetAddressByCountry(Integer contactId, Integer countryId)
+uid: crmscript_ref_NSContactAgent_GetAddressByCountry
+title: Address GetAddressByCountry(Integer contactId, Integer countryId)
 intellisense: NSContactAgent.GetAddressByCountry
-keywords: NSContactAgent,GetAddressByCountry
+keywords: NSContactAgent, GetAddressByCountry
 so.topic: reference
 ---
 

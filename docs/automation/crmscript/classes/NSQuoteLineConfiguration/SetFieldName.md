@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLineConfiguration_SetFieldName
-description: NSQuoteLineConfiguration.SetFieldName(String fieldName)
+uid: crmscript_ref_NSQuoteLineConfiguration_SetFieldName
+title: SetFieldName(String fieldName)
 intellisense: NSQuoteLineConfiguration.SetFieldName
 keywords: NSQuoteLineConfiguration, GetFieldName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetCreatedBy
-description: Associate NSProjectEntity.GetCreatedBy()
+uid: crmscript_ref_NSProjectEntity_GetCreatedBy
+title: Associate GetCreatedBy()
 intellisense: NSProjectEntity.GetCreatedBy
 keywords: NSProjectEntity, GetCreatedBy
 so.topic: reference

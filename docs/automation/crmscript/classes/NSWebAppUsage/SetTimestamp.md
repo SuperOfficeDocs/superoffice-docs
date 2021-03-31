@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebAppUsage_SetTimestamp
-description: NSWebAppUsage.SetTimestamp(DateTime timestamp)
+uid: crmscript_ref_NSWebAppUsage_SetTimestamp
+title: SetTimestamp(DateTime timestamp)
 intellisense: NSWebAppUsage.SetTimestamp
 keywords: NSWebAppUsage, GetTimestamp
 so.topic: reference

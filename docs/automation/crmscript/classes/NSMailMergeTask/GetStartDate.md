@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask_GetStartDate
-description: DateTime NSMailMergeTask.GetStartDate()
+uid: crmscript_ref_NSMailMergeTask_GetStartDate
+title: DateTime GetStartDate()
 intellisense: NSMailMergeTask.GetStartDate
 keywords: NSMailMergeTask, GetStartDate
 so.topic: reference

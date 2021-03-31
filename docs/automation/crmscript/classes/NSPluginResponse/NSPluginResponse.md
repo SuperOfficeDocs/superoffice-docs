@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginResponse
-description: NSPluginResponse
+uid: crmscript_ref_NSPluginResponse
+title: NSPluginResponse
 intellisense: Void.NSPluginResponse
 keywords: NSPluginResponse
 so.topic: reference

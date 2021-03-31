@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAddressSyncData_GetAddress3
-description: String NSAddressSyncData.GetAddress3()
+uid: crmscript_ref_NSAddressSyncData_GetAddress3
+title: String GetAddress3()
 intellisense: NSAddressSyncData.GetAddress3
 keywords: NSAddressSyncData, GetAddress3
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_NormalizeRanks
-description: Bool NormalizeRanks(Integer contactId)
+uid: crmscript_ref_NSPersonAgent_NormalizeRanks
+title: Bool NormalizeRanks(Integer contactId)
 intellisense: NSPersonAgent.NormalizeRanks
-keywords: NSPersonAgent,NormalizeRanks
+keywords: NSPersonAgent, NormalizeRanks
 so.topic: reference
 ---
 

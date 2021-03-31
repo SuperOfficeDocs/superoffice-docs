@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder_SetName
-description: NSEMailFolder.SetName(String name)
+uid: crmscript_ref_NSEMailFolder_SetName
+title: SetName(String name)
 intellisense: NSEMailFolder.SetName
 keywords: NSEMailFolder, GetName
 so.topic: reference

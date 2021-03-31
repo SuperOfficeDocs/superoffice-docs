@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSmsConfig
-description: NSSmsConfig
+uid: crmscript_ref_NSSmsConfig
+title: NSSmsConfig
 intellisense: Void.NSSmsConfig
 keywords: NSSmsConfig
 so.topic: reference

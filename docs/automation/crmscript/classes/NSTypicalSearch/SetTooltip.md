@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_SetTooltip
-description: NSTypicalSearch.SetTooltip(String tooltip)
+uid: crmscript_ref_NSTypicalSearch_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSTypicalSearch.SetTooltip
 keywords: NSTypicalSearch, GetTooltip
 so.topic: reference

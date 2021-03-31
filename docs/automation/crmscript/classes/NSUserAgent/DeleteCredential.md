@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_DeleteCredential
-description: Bool DeleteCredential(Integer userId, String credentialType)
+uid: crmscript_ref_NSUserAgent_DeleteCredential
+title: Bool DeleteCredential(Integer userId, String credentialType)
 intellisense: NSUserAgent.DeleteCredential
-keywords: NSUserAgent,DeleteCredential
+keywords: NSUserAgent, DeleteCredential
 so.topic: reference
 ---
 

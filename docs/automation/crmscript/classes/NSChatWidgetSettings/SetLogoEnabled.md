@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetLogoEnabled
-description: NSChatWidgetSettings.SetLogoEnabled(Bool logoEnabled)
+uid: crmscript_ref_NSChatWidgetSettings_SetLogoEnabled
+title: SetLogoEnabled(Bool logoEnabled)
 intellisense: NSChatWidgetSettings.SetLogoEnabled
 keywords: NSChatWidgetSettings, GetLogoEnabled
 so.topic: reference

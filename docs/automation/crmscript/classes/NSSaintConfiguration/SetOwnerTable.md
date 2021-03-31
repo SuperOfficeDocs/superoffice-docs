@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaintConfiguration_SetOwnerTable
-description: NSSaintConfiguration.SetOwnerTable(Integer ownerTable)
+uid: crmscript_ref_NSSaintConfiguration_SetOwnerTable
+title: SetOwnerTable(Integer ownerTable)
 intellisense: NSSaintConfiguration.SetOwnerTable
 keywords: NSSaintConfiguration, GetOwnerTable
 so.topic: reference

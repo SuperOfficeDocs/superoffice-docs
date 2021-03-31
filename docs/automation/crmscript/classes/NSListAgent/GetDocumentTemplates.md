@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDocumentTemplates
-description: DocumentTemplateArray GetDocumentTemplates()
+uid: crmscript_ref_NSListAgent_GetDocumentTemplates
+title: DocumentTemplateArray GetDocumentTemplates()
 intellisense: NSListAgent.GetDocumentTemplates
-keywords: NSListAgent,GetDocumentTemplates
+keywords: NSListAgent, GetDocumentTemplates
 so.topic: reference
 ---
 

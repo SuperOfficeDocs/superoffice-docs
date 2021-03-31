@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_SetRegisteredAssociateId
-description: NSSuggestedAppointment.SetRegisteredAssociateId(Integer registeredAssociateId)
+uid: crmscript_ref_NSSuggestedAppointment_SetRegisteredAssociateId
+title: SetRegisteredAssociateId(Integer registeredAssociateId)
 intellisense: NSSuggestedAppointment.SetRegisteredAssociateId
 keywords: NSSuggestedAppointment, GetRegisteredAssociateId
 so.topic: reference

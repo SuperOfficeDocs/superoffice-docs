@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_CreateDefaultDocumentPreview
-description: NSDocumentPreview CreateDefaultDocumentPreview()
+uid: crmscript_ref_NSDocumentAgent_CreateDefaultDocumentPreview
+title: NSDocumentPreview CreateDefaultDocumentPreview()
 intellisense: NSDocumentAgent.CreateDefaultDocumentPreview
-keywords: NSDocumentAgent,CreateDefaultDocumentPreview
+keywords: NSDocumentAgent, CreateDefaultDocumentPreview
 so.topic: reference
 ---
 	  

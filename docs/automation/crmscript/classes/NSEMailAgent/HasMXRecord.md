@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_HasMXRecord
-description: Bool HasMXRecord(String mailDomain)
+uid: crmscript_ref_NSEMailAgent_HasMXRecord
+title: Bool HasMXRecord(String mailDomain)
 intellisense: NSEMailAgent.HasMXRecord
-keywords: NSEMailAgent,HasMXRecord
+keywords: NSEMailAgent, HasMXRecord
 so.topic: reference
 ---
 

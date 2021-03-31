@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAccessGatewayInfo
-description: NSAccessGatewayInfo
+uid: crmscript_ref_NSAccessGatewayInfo
+title: NSAccessGatewayInfo
 intellisense: Void.NSAccessGatewayInfo
 keywords: NSAccessGatewayInfo
 so.topic: reference

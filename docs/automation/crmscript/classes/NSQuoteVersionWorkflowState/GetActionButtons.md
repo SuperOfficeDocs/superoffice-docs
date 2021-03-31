@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionWorkflowState_GetActionButtons
-description: QuoteVersionButtonStateArray NSQuoteVersionWorkflowState.GetActionButtons()
+uid: crmscript_ref_NSQuoteVersionWorkflowState_GetActionButtons
+title: QuoteVersionButtonStateArray GetActionButtons()
 intellisense: NSQuoteVersionWorkflowState.GetActionButtons
 keywords: NSQuoteVersionWorkflowState, GetActionButtons
 so.topic: reference

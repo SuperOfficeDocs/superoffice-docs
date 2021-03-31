@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArea_GetMaxDataAge
-description: Integer NSArea.GetMaxDataAge()
+uid: crmscript_ref_NSArea_GetMaxDataAge
+title: Integer GetMaxDataAge()
 intellisense: NSArea.GetMaxDataAge
 keywords: NSArea, GetMaxDataAge
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetTotalPrice
-description: Float NSQuoteLine.GetTotalPrice()
+uid: crmscript_ref_NSQuoteLine_GetTotalPrice
+title: Float GetTotalPrice()
 intellisense: NSQuoteLine.GetTotalPrice
 keywords: NSQuoteLine, GetTotalPrice
 so.topic: reference

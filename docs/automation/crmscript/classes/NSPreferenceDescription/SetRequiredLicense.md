@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_SetRequiredLicense
-description: NSPreferenceDescription.SetRequiredLicense(String requiredLicense)
+uid: crmscript_ref_NSPreferenceDescription_SetRequiredLicense
+title: SetRequiredLicense(String requiredLicense)
 intellisense: NSPreferenceDescription.SetRequiredLicense
 keywords: NSPreferenceDescription, GetRequiredLicense
 so.topic: reference

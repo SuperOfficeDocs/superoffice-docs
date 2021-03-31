@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointmentEntity_GetTooltip
-description: String NSSuggestedAppointmentEntity.GetTooltip()
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetTooltip
+title: String GetTooltip()
 intellisense: NSSuggestedAppointmentEntity.GetTooltip
 keywords: NSSuggestedAppointmentEntity, GetTooltip
 so.topic: reference

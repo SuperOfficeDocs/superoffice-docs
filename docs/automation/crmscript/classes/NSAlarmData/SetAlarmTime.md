@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_SetAlarmTime
-description: NSAlarmData.SetAlarmTime(DateTime alarmTime)
+uid: crmscript_ref_NSAlarmData_SetAlarmTime
+title: SetAlarmTime(DateTime alarmTime)
 intellisense: NSAlarmData.SetAlarmTime
 keywords: NSAlarmData, GetAlarmTime
 so.topic: reference

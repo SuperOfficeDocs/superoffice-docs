@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_FindRolesWithFunctionalRights
-description: IntegerArray FindRolesWithFunctionalRights(StringArray functionalRightNames)
+uid: crmscript_ref_NSUserAgent_FindRolesWithFunctionalRights
+title: IntegerArray FindRolesWithFunctionalRights(StringArray functionalRightNames)
 intellisense: NSUserAgent.FindRolesWithFunctionalRights
-keywords: NSUserAgent,FindRolesWithFunctionalRights
+keywords: NSUserAgent, FindRolesWithFunctionalRights
 so.topic: reference
 ---
 

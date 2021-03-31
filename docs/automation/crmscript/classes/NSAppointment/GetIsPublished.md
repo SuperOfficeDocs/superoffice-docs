@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetIsPublished
-description: Bool NSAppointment.GetIsPublished()
+uid: crmscript_ref_NSAppointment_GetIsPublished
+title: Bool GetIsPublished()
 intellisense: NSAppointment.GetIsPublished
 keywords: NSAppointment, GetIsPublished
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent_SetMultiWordOperator
-description: Void SetMultiWordOperator(Integer freeTextOperator)
+uid: crmscript_ref_NSFreeTextAgent_SetMultiWordOperator
+title: Void SetMultiWordOperator(Integer freeTextOperator)
 intellisense: NSFreeTextAgent.SetMultiWordOperator
-keywords: NSFreeTextAgent,SetMultiWordOperator
+keywords: NSFreeTextAgent, SetMultiWordOperator
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_EventHandlerExists
-description: Bool EventHandlerExists(Integer eventHandlerType)
+uid: crmscript_ref_NSCustomerServiceAgent_EventHandlerExists
+title: Bool EventHandlerExists(Integer eventHandlerType)
 intellisense: NSCustomerServiceAgent.EventHandlerExists
-keywords: NSCustomerServiceAgent,EventHandlerExists
+keywords: NSCustomerServiceAgent, EventHandlerExists
 so.topic: reference
 ---
 

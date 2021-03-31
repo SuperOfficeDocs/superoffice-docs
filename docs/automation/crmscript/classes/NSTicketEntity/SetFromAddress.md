@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetFromAddress
-description: NSTicketEntity.SetFromAddress(String fromAddress)
+uid: crmscript_ref_NSTicketEntity_SetFromAddress
+title: SetFromAddress(String fromAddress)
 intellisense: NSTicketEntity.SetFromAddress
 keywords: NSTicketEntity, GetFromAddress
 so.topic: reference

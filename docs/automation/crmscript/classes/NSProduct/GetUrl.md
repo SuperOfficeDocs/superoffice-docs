@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetUrl
-description: String NSProduct.GetUrl()
+uid: crmscript_ref_NSProduct_GetUrl
+title: String GetUrl()
 intellisense: NSProduct.GetUrl
 keywords: NSProduct, GetUrl
 so.topic: reference

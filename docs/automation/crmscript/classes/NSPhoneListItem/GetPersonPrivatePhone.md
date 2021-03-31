@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListItem_GetPersonPrivatePhone
-description: String NSPhoneListItem.GetPersonPrivatePhone()
+uid: crmscript_ref_NSPhoneListItem_GetPersonPrivatePhone
+title: String GetPersonPrivatePhone()
 intellisense: NSPhoneListItem.GetPersonPrivatePhone
 keywords: NSPhoneListItem, GetPersonPrivatePhone
 so.topic: reference

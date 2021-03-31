@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllCurrencies
-description: CurrencyEntityArray GetAllCurrencies(Bool includeDeleted)
+uid: crmscript_ref_NSListAgent_GetAllCurrencies
+title: CurrencyEntityArray GetAllCurrencies(Bool includeDeleted)
 intellisense: NSListAgent.GetAllCurrencies
-keywords: NSListAgent,GetAllCurrencies
+keywords: NSListAgent, GetAllCurrencies
 so.topic: reference
 ---
 

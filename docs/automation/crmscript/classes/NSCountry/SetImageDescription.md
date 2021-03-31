@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_SetImageDescription
-description: NSCountry.SetImageDescription(String imageDescription)
+uid: crmscript_ref_NSCountry_SetImageDescription
+title: SetImageDescription(String imageDescription)
 intellisense: NSCountry.SetImageDescription
 keywords: NSCountry, GetImageDescription
 so.topic: reference

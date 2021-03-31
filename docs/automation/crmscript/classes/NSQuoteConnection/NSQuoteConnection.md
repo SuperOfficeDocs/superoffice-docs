@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection
-description: NSQuoteConnection
+uid: crmscript_ref_NSQuoteConnection
+title: NSQuoteConnection
 intellisense: Void.NSQuoteConnection
 keywords: NSQuoteConnection
 so.topic: reference

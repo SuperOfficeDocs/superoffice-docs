@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_SetExtraInfo
-description: NSBlobEntity.SetExtraInfo(String extraInfo)
+uid: crmscript_ref_NSBlobEntity_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
 intellisense: NSBlobEntity.SetExtraInfo
 keywords: NSBlobEntity, GetExtraInfo
 so.topic: reference

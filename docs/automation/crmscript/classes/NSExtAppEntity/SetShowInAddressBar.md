@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_SetShowInAddressBar
-description: NSExtAppEntity.SetShowInAddressBar(Bool showInAddressBar)
+uid: crmscript_ref_NSExtAppEntity_SetShowInAddressBar
+title: SetShowInAddressBar(Bool showInAddressBar)
 intellisense: NSExtAppEntity.SetShowInAddressBar
 keywords: NSExtAppEntity, GetShowInAddressBar
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetFullName
-description: NSSelectableMDOListItem.SetFullName(String fullName)
+uid: crmscript_ref_NSSelectableMDOListItem_SetFullName
+title: SetFullName(String fullName)
 intellisense: NSSelectableMDOListItem.SetFullName
 keywords: NSSelectableMDOListItem, GetFullName
 so.topic: reference

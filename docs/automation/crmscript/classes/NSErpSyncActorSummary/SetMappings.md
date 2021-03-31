@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorSummary_SetMappings
-description: NSErpSyncActorSummary.SetMappings(String mappings)
+uid: crmscript_ref_NSErpSyncActorSummary_SetMappings
+title: SetMappings(String mappings)
 intellisense: NSErpSyncActorSummary.SetMappings
 keywords: NSErpSyncActorSummary, GetMappings
 so.topic: reference

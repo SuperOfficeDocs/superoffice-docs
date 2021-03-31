@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_SaveAllCustomerCenterConfigs
-description: Void SaveAllCustomerCenterConfigs(CustomerCenterConfigArray custConfigs)
+uid: crmscript_ref_NSCustomerServiceAgent_SaveAllCustomerCenterConfigs
+title: Void SaveAllCustomerCenterConfigs(CustomerCenterConfigArray custConfigs)
 intellisense: NSCustomerServiceAgent.SaveAllCustomerCenterConfigs
-keywords: NSCustomerServiceAgent,SaveAllCustomerCenterConfigs
+keywords: NSCustomerServiceAgent, SaveAllCustomerCenterConfigs
 so.topic: reference
 ---
 

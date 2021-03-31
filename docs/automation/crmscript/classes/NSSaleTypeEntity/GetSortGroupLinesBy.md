@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetSortGroupLinesBy
-description: Integer NSSaleTypeEntity.GetSortGroupLinesBy()
+uid: crmscript_ref_NSSaleTypeEntity_GetSortGroupLinesBy
+title: Integer GetSortGroupLinesBy()
 intellisense: NSSaleTypeEntity.GetSortGroupLinesBy
 keywords: NSSaleTypeEntity, GetSortGroupLinesBy
 so.topic: reference

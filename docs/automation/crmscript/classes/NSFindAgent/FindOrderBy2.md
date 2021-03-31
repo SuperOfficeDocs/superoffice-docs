@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_FindOrderBy2
-description: FindResults FindOrderBy2(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber, String orderBy)
+uid: crmscript_ref_NSFindAgent_FindOrderBy2
+title: FindResults FindOrderBy2(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber, String orderBy)
 intellisense: NSFindAgent.FindOrderBy2
-keywords: NSFindAgent,FindOrderBy2
+keywords: NSFindAgent, FindOrderBy2
 so.topic: reference
 ---
 

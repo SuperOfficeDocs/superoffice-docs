@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_DeletePersonEntity
-description: DeletePersonEntity(Integer personEntity);
+uid: crmscript_ref_NSPersonAgent_DeletePersonEntity
+title: DeletePersonEntity(Integer personEntity);
 intellisense: NSPersonAgent.DeletePersonEntity
-keywords: NSPersonAgent,DeletePersonEntity
+keywords: NSPersonAgent, DeletePersonEntity
 so.topic: reference
 ---
 

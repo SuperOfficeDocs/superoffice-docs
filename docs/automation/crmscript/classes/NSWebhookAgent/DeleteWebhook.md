@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSWebhookAgent_DeleteWebhook
-description: DeleteWebhook(Integer webhook);
+uid: crmscript_ref_NSWebhookAgent_DeleteWebhook
+title: DeleteWebhook(Integer webhook);
 intellisense: NSWebhookAgent.DeleteWebhook
-keywords: NSWebhookAgent,DeleteWebhook
+keywords: NSWebhookAgent, DeleteWebhook
 so.topic: reference
 ---
 

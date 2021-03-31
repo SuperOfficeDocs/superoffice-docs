@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_GetStakeholderRoleName
-description: String NSSaleStakeholder.GetStakeholderRoleName()
+uid: crmscript_ref_NSSaleStakeholder_GetStakeholderRoleName
+title: String GetStakeholderRoleName()
 intellisense: NSSaleStakeholder.GetStakeholderRoleName
 keywords: NSSaleStakeholder, GetStakeholderRoleName
 so.topic: reference

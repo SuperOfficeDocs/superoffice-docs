@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatBotSettings_GetBotName
-description: String NSChatBotSettings.GetBotName()
+uid: crmscript_ref_NSChatBotSettings_GetBotName
+title: String GetBotName()
 intellisense: NSChatBotSettings.GetBotName
 keywords: NSChatBotSettings, GetBotName
 so.topic: reference

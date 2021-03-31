@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListEntity_SetId
-description: NSListEntity.SetId(Integer id)
+uid: crmscript_ref_NSListEntity_SetId
+title: SetId(Integer id)
 intellisense: NSListEntity.SetId
 keywords: NSListEntity, GetId
 so.topic: reference

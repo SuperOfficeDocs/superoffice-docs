@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_GetCustomHeaderList
-description: EMailCustomHeaderArray NSEMailEntity.GetCustomHeaderList()
+uid: crmscript_ref_NSEMailEntity_GetCustomHeaderList
+title: EMailCustomHeaderArray GetCustomHeaderList()
 intellisense: NSEMailEntity.GetCustomHeaderList
 keywords: NSEMailEntity, GetCustomHeaderList
 so.topic: reference

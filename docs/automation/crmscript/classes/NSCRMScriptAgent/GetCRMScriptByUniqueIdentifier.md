@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_GetCRMScriptByUniqueIdentifier
-description: Script GetCRMScriptByUniqueIdentifier(String uniqueIdentifier)
+uid: crmscript_ref_NSCRMScriptAgent_GetCRMScriptByUniqueIdentifier
+title: Script GetCRMScriptByUniqueIdentifier(String uniqueIdentifier)
 intellisense: NSCRMScriptAgent.GetCRMScriptByUniqueIdentifier
-keywords: NSCRMScriptAgent,GetCRMScriptByUniqueIdentifier
+keywords: NSCRMScriptAgent, GetCRMScriptByUniqueIdentifier
 so.topic: reference
 ---
 

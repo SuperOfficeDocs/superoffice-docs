@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetUpdatedCount
-description: Integer NSShipmentMessageEntity.GetUpdatedCount()
+uid: crmscript_ref_NSShipmentMessageEntity_GetUpdatedCount
+title: Integer GetUpdatedCount()
 intellisense: NSShipmentMessageEntity.GetUpdatedCount
 keywords: NSShipmentMessageEntity, GetUpdatedCount
 so.topic: reference

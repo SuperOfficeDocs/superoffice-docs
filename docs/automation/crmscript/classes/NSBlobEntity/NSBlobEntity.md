@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity
-description: NSBlobEntity
+uid: crmscript_ref_NSBlobEntity
+title: NSBlobEntity
 intellisense: Void.NSBlobEntity
 keywords: NSBlobEntity
 so.topic: reference

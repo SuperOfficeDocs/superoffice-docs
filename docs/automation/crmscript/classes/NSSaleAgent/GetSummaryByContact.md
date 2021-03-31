@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetSummaryByContact
-description: SaleSummary GetSummaryByContact(Integer contactId, DateTime fromDate, DateTime toDate)
+uid: crmscript_ref_NSSaleAgent_GetSummaryByContact
+title: SaleSummary GetSummaryByContact(Integer contactId, DateTime fromDate, DateTime toDate)
 intellisense: NSSaleAgent.GetSummaryByContact
-keywords: NSSaleAgent,GetSummaryByContact
+keywords: NSSaleAgent, GetSummaryByContact
 so.topic: reference
 ---
 

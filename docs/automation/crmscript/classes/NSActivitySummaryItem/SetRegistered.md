@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummaryItem_SetRegistered
-description: NSActivitySummaryItem.SetRegistered(DateTime registered)
+uid: crmscript_ref_NSActivitySummaryItem_SetRegistered
+title: SetRegistered(DateTime registered)
 intellisense: NSActivitySummaryItem.SetRegistered
 keywords: NSActivitySummaryItem, GetRegistered
 so.topic: reference

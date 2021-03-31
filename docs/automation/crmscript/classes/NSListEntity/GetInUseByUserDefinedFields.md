@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListEntity_GetInUseByUserDefinedFields
-description: Bool NSListEntity.GetInUseByUserDefinedFields()
+uid: crmscript_ref_NSListEntity_GetInUseByUserDefinedFields
+title: Bool GetInUseByUserDefinedFields()
 intellisense: NSListEntity.GetInUseByUserDefinedFields
 keywords: NSListEntity, GetInUseByUserDefinedFields
 so.topic: reference

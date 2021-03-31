@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent_GetListIdByListName
-description: Integer GetListIdByListName(String name)
+uid: crmscript_ref_NSMDOAgent_GetListIdByListName
+title: Integer GetListIdByListName(String name)
 intellisense: NSMDOAgent.GetListIdByListName
-keywords: NSMDOAgent,GetListIdByListName
+keywords: NSMDOAgent, GetListIdByListName
 so.topic: reference
 ---
 

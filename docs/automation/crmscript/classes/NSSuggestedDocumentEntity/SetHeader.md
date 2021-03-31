@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedDocumentEntity_SetHeader
-description: NSSuggestedDocumentEntity.SetHeader(String header)
+uid: crmscript_ref_NSSuggestedDocumentEntity_SetHeader
+title: SetHeader(String header)
 intellisense: NSSuggestedDocumentEntity.SetHeader
 keywords: NSSuggestedDocumentEntity, GetHeader
 so.topic: reference

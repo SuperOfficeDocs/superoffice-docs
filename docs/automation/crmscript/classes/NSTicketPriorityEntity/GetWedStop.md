@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetWedStop
-description: DateTime NSTicketPriorityEntity.GetWedStop()
+uid: crmscript_ref_NSTicketPriorityEntity_GetWedStop
+title: DateTime GetWedStop()
 intellisense: NSTicketPriorityEntity.GetWedStop
 keywords: NSTicketPriorityEntity, GetWedStop
 so.topic: reference

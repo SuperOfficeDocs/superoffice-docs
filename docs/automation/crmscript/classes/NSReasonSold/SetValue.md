@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSReasonSold_SetValue
-description: NSReasonSold.SetValue(String value)
+uid: crmscript_ref_NSReasonSold_SetValue
+title: SetValue(String value)
 intellisense: NSReasonSold.SetValue
 keywords: NSReasonSold, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the ReasonSold item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String ReasonSold name.
 

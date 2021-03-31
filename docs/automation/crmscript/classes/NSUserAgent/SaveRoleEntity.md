@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_SaveRoleEntity
-description: NSRoleEntity SaveRoleEntity(NSRoleEntity roleEntity);
+uid: crmscript_ref_NSUserAgent_SaveRoleEntity
+title: NSRoleEntity SaveRoleEntity(NSRoleEntity roleEntity);
 intellisense: NSUserAgent.SaveRoleEntity
-keywords: NSUserAgent,SaveRoleEntity
+keywords: NSUserAgent, SaveRoleEntity
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSignedPublicKey
-description: NSSignedPublicKey
+uid: crmscript_ref_NSSignedPublicKey
+title: NSSignedPublicKey
 intellisense: Void.NSSignedPublicKey
 keywords: NSSignedPublicKey
 so.topic: reference

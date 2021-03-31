@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactActivity_GetURL
-description: String NSContactActivity.GetURL()
+uid: crmscript_ref_NSContactActivity_GetURL
+title: String GetURL()
 intellisense: NSContactActivity.GetURL
 keywords: NSContactActivity, GetURL
 so.topic: reference

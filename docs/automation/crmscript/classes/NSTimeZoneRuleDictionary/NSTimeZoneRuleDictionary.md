@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneRuleDictionary
-description: NSTimeZoneRuleDictionary
+uid: crmscript_ref_NSTimeZoneRuleDictionary
+title: NSTimeZoneRuleDictionary
 intellisense: Void.NSTimeZoneRuleDictionary
 keywords: NSTimeZoneRuleDictionary
 so.topic: reference

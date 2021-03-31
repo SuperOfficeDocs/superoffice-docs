@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLanguageInfo_GetNativeName
-description: String NSLanguageInfo.GetNativeName()
+uid: crmscript_ref_NSLanguageInfo_GetNativeName
+title: String GetNativeName()
 intellisense: NSLanguageInfo.GetNativeName
 keywords: NSLanguageInfo, GetNativeName
 so.topic: reference

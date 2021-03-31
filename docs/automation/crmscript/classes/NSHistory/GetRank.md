@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistory_GetRank
-description: Integer NSHistory.GetRank()
+uid: crmscript_ref_NSHistory_GetRank
+title: Integer GetRank()
 intellisense: NSHistory.GetRank
 keywords: NSHistory, GetRank
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_SetDescription
-description: NSDocument.SetDescription(String description)
+uid: crmscript_ref_NSDocument_SetDescription
+title: SetDescription(String description)
 intellisense: NSDocument.SetDescription
 keywords: NSDocument, GetDescription
 so.topic: reference

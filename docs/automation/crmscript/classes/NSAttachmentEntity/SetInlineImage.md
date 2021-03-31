@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAttachmentEntity_SetInlineImage
-description: NSAttachmentEntity.SetInlineImage(Bool inlineImage)
+uid: crmscript_ref_NSAttachmentEntity_SetInlineImage
+title: SetInlineImage(Bool inlineImage)
 intellisense: NSAttachmentEntity.SetInlineImage
 keywords: NSAttachmentEntity, GetInlineImage
 so.topic: reference

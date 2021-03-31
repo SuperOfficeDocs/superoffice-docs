@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetHeader
-description: String NSDocumentEntity.GetHeader()
+uid: crmscript_ref_NSDocumentEntity_GetHeader
+title: String GetHeader()
 intellisense: NSDocumentEntity.GetHeader
 keywords: NSDocumentEntity, GetHeader
 so.topic: reference

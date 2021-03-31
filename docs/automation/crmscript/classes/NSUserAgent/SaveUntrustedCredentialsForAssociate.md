@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_SaveUntrustedCredentialsForAssociate
-description: Void SaveUntrustedCredentialsForAssociate(Integer associateId, String type, UntrustedCredentials credentials)
+uid: crmscript_ref_NSUserAgent_SaveUntrustedCredentialsForAssociate
+title: Void SaveUntrustedCredentialsForAssociate(Integer associateId, String type, UntrustedCredentials credentials)
 intellisense: NSUserAgent.SaveUntrustedCredentialsForAssociate
-keywords: NSUserAgent,SaveUntrustedCredentialsForAssociate
+keywords: NSUserAgent, SaveUntrustedCredentialsForAssociate
 so.topic: reference
 ---
 

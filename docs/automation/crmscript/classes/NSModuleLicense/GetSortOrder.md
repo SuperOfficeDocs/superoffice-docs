@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_GetSortOrder
-description: Integer NSModuleLicense.GetSortOrder()
+uid: crmscript_ref_NSModuleLicense_GetSortOrder
+title: Integer GetSortOrder()
 intellisense: NSModuleLicense.GetSortOrder
 keywords: NSModuleLicense, GetSortOrder
 so.topic: reference

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSCompetitor_GetId
-description: Integer NSCompetitor.GetId()
+uid: crmscript_ref_NSCompetitor_GetId
+title: Integer GetId()
 intellisense: NSCompetitor.GetId
 keywords: NSCompetitor, GetId
 so.topic: reference
 ---
 
-Get the primary key (id)
+Get the primary key (id) for the Competitor
 
-**Returns:** Integer Id
+**Returns:** Integer Competitor id.
 

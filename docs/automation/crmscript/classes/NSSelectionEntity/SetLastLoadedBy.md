@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetLastLoadedBy
-description: NSSelectionEntity.SetLastLoadedBy(Integer lastLoadedBy)
+uid: crmscript_ref_NSSelectionEntity_SetLastLoadedBy
+title: SetLastLoadedBy(Integer lastLoadedBy)
 intellisense: NSSelectionEntity.SetLastLoadedBy
 keywords: NSSelectionEntity, GetLastLoadedBy
 so.topic: reference

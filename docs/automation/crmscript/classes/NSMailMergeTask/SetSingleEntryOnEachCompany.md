@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask_SetSingleEntryOnEachCompany
-description: NSMailMergeTask.SetSingleEntryOnEachCompany(Bool singleEntryOnEachCompany)
+uid: crmscript_ref_NSMailMergeTask_SetSingleEntryOnEachCompany
+title: SetSingleEntryOnEachCompany(Bool singleEntryOnEachCompany)
 intellisense: NSMailMergeTask.SetSingleEntryOnEachCompany
 keywords: NSMailMergeTask, GetSingleEntryOnEachCompany
 so.topic: reference

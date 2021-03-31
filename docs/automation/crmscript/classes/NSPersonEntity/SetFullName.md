@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetFullName
-description: NSPersonEntity.SetFullName(String fullName)
+uid: crmscript_ref_NSPersonEntity_SetFullName
+title: SetFullName(String fullName)
 intellisense: NSPersonEntity.SetFullName
 keywords: NSPersonEntity, GetFullName
 so.topic: reference

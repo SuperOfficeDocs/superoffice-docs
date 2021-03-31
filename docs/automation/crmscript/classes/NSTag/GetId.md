@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTag_GetId
-description: Integer NSTag.GetId()
+uid: crmscript_ref_NSTag_GetId
+title: Integer GetId()
 intellisense: NSTag.GetId
 keywords: NSTag, GetId
 so.topic: reference

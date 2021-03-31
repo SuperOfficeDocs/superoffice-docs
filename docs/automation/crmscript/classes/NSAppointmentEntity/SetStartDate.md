@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetStartDate
-description: NSAppointmentEntity.SetStartDate(DateTime startDate)
+uid: crmscript_ref_NSAppointmentEntity_SetStartDate
+title: SetStartDate(DateTime startDate)
 intellisense: NSAppointmentEntity.SetStartDate
 keywords: NSAppointmentEntity, GetStartDate
 so.topic: reference

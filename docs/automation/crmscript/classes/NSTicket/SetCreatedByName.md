@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetCreatedByName
-description: NSTicket.SetCreatedByName(String createdByName)
+uid: crmscript_ref_NSTicket_SetCreatedByName
+title: SetCreatedByName(String createdByName)
 intellisense: NSTicket.SetCreatedByName
 keywords: NSTicket, GetCreatedByName
 so.topic: reference

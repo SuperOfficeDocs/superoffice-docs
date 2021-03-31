@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetThumbnail
-description: NSQuoteLine.SetThumbnail(String thumbnail)
+uid: crmscript_ref_NSQuoteLine_SetThumbnail
+title: SetThumbnail(String thumbnail)
 intellisense: NSQuoteLine.SetThumbnail
 keywords: NSQuoteLine, GetThumbnail
 so.topic: reference

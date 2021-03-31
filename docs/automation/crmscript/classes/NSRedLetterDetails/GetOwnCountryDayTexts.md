@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRedLetterDetails_GetOwnCountryDayTexts
-description: StringArray NSRedLetterDetails.GetOwnCountryDayTexts()
+uid: crmscript_ref_NSRedLetterDetails_GetOwnCountryDayTexts
+title: StringArray GetOwnCountryDayTexts()
 intellisense: NSRedLetterDetails.GetOwnCountryDayTexts
 keywords: NSRedLetterDetails, GetOwnCountryDayTexts
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_SupportsAdvancedSearch
-description: Bool SupportsAdvancedSearch(Integer erpConnectionId, Integer erpActorType)
+uid: crmscript_ref_NSErpSyncAgent_SupportsAdvancedSearch
+title: Bool SupportsAdvancedSearch(Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.SupportsAdvancedSearch
-keywords: NSErpSyncAgent,SupportsAdvancedSearch
+keywords: NSErpSyncAgent, SupportsAdvancedSearch
 so.topic: reference
 ---
 

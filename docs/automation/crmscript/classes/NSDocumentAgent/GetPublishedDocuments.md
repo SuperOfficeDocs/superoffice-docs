@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetPublishedDocuments
-description: DocumentArray GetPublishedDocuments(IntegerArray documentIds)
+uid: crmscript_ref_NSDocumentAgent_GetPublishedDocuments
+title: DocumentArray GetPublishedDocuments(IntegerArray documentIds)
 intellisense: NSDocumentAgent.GetPublishedDocuments
-keywords: NSDocumentAgent,GetPublishedDocuments
+keywords: NSDocumentAgent, GetPublishedDocuments
 so.topic: reference
 ---
 

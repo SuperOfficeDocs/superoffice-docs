@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoLongText_GetDefaultValue
-description: String NSFieldInfoLongText.GetDefaultValue()
+uid: crmscript_ref_NSFieldInfoLongText_GetDefaultValue
+title: String GetDefaultValue()
 intellisense: NSFieldInfoLongText.GetDefaultValue
 keywords: NSFieldInfoLongText, GetDefaultValue
 so.topic: reference

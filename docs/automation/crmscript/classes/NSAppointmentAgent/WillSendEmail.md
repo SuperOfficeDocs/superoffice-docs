@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_WillSendEmail
-description: Bool WillSendEmail(AppointmentEntity appointment)
+uid: crmscript_ref_NSAppointmentAgent_WillSendEmail
+title: Bool WillSendEmail(AppointmentEntity appointment)
 intellisense: NSAppointmentAgent.WillSendEmail
-keywords: NSAppointmentAgent,WillSendEmail
+keywords: NSAppointmentAgent, WillSendEmail
 so.topic: reference
 ---
 

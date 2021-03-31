@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMessagingAgent_GetDeliveryStatus
-description: MessageDeliveryStatusArray GetDeliveryStatus(IntegerArray messagingIds)
+uid: crmscript_ref_NSMessagingAgent_GetDeliveryStatus
+title: MessageDeliveryStatusArray GetDeliveryStatus(IntegerArray messagingIds)
 intellisense: NSMessagingAgent.GetDeliveryStatus
-keywords: NSMessagingAgent,GetDeliveryStatus
+keywords: NSMessagingAgent, GetDeliveryStatus
 so.topic: reference
 ---
 

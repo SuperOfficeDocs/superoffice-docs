@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetVisibility
-description: Integer NSSelectionEntity.GetVisibility()
+uid: crmscript_ref_NSSelectionEntity_GetVisibility
+title: Integer GetVisibility()
 intellisense: NSSelectionEntity.GetVisibility
 keywords: NSSelectionEntity, GetVisibility
 so.topic: reference

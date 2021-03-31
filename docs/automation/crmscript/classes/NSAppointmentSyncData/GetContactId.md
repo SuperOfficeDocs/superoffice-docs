@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_GetContactId
-description: Integer NSAppointmentSyncData.GetContactId()
+uid: crmscript_ref_NSAppointmentSyncData_GetContactId
+title: Integer GetContactId()
 intellisense: NSAppointmentSyncData.GetContactId
 keywords: NSAppointmentSyncData, GetContactId
 so.topic: reference

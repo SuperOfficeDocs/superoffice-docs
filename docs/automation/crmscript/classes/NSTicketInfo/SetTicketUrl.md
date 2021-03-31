@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketInfo_SetTicketUrl
-description: NSTicketInfo.SetTicketUrl(String ticketUrl)
+uid: crmscript_ref_NSTicketInfo_SetTicketUrl
+title: SetTicketUrl(String ticketUrl)
 intellisense: NSTicketInfo.SetTicketUrl
 keywords: NSTicketInfo, GetTicketUrl
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreviewsAgent_GetPreview
-description: String GetPreview(String previewHint)
+uid: crmscript_ref_NSPreviewsAgent_GetPreview
+title: String GetPreview(String previewHint)
 intellisense: NSPreviewsAgent.GetPreview
-keywords: NSPreviewsAgent,GetPreview
+keywords: NSPreviewsAgent, GetPreview
 so.topic: reference
 ---
 

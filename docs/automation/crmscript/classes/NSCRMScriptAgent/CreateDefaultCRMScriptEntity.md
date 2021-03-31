@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_CreateDefaultCRMScriptEntity
-description: NSCRMScriptEntity CreateDefaultCRMScriptEntity()
+uid: crmscript_ref_NSCRMScriptAgent_CreateDefaultCRMScriptEntity
+title: NSCRMScriptEntity CreateDefaultCRMScriptEntity()
 intellisense: NSCRMScriptAgent.CreateDefaultCRMScriptEntity
-keywords: NSCRMScriptAgent,CreateDefaultCRMScriptEntity
+keywords: NSCRMScriptAgent, CreateDefaultCRMScriptEntity
 so.topic: reference
 ---
 	  

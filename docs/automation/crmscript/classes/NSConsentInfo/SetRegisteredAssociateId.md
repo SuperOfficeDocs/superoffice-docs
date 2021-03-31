@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_SetRegisteredAssociateId
-description: NSConsentInfo.SetRegisteredAssociateId(Integer registeredAssociateId)
+uid: crmscript_ref_NSConsentInfo_SetRegisteredAssociateId
+title: SetRegisteredAssociateId(Integer registeredAssociateId)
 intellisense: NSConsentInfo.SetRegisteredAssociateId
 keywords: NSConsentInfo, GetRegisteredAssociateId
 so.topic: reference

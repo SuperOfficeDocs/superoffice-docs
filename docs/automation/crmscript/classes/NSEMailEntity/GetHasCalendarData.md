@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_GetHasCalendarData
-description: Bool NSEMailEntity.GetHasCalendarData()
+uid: crmscript_ref_NSEMailEntity_GetHasCalendarData
+title: Bool GetHasCalendarData()
 intellisense: NSEMailEntity.GetHasCalendarData
 keywords: NSEMailEntity, GetHasCalendarData
 so.topic: reference

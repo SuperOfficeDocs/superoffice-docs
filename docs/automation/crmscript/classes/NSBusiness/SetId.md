@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSBusiness_SetId
-description: NSBusiness.SetId(Integer id)
+uid: crmscript_ref_NSBusiness_SetId
+title: SetId(Integer id)
 intellisense: NSBusiness.SetId
 keywords: NSBusiness, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the Business
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer Business id.
 

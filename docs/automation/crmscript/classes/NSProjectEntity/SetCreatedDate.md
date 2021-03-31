@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_SetCreatedDate
-description: NSProjectEntity.SetCreatedDate(DateTime createdDate)
+uid: crmscript_ref_NSProjectEntity_SetCreatedDate
+title: SetCreatedDate(DateTime createdDate)
 intellisense: NSProjectEntity.SetCreatedDate
 keywords: NSProjectEntity, GetCreatedDate
 so.topic: reference

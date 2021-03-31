@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetDescription
-description: String NSQuoteVersion.GetDescription()
+uid: crmscript_ref_NSQuoteVersion_GetDescription
+title: String GetDescription()
 intellisense: NSQuoteVersion.GetDescription
 keywords: NSQuoteVersion, GetDescription
 so.topic: reference

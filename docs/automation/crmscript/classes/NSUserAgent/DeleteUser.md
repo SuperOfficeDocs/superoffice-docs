@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_DeleteUser
-description: DeleteUser(Integer user);
+uid: crmscript_ref_NSUserAgent_DeleteUser
+title: DeleteUser(Integer user);
 intellisense: NSUserAgent.DeleteUser
-keywords: NSUserAgent,DeleteUser
+keywords: NSUserAgent, DeleteUser
 so.topic: reference
 ---
 

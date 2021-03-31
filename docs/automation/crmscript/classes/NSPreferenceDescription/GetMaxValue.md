@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_GetMaxValue
-description: Integer NSPreferenceDescription.GetMaxValue()
+uid: crmscript_ref_NSPreferenceDescription_GetMaxValue
+title: Integer GetMaxValue()
 intellisense: NSPreferenceDescription.GetMaxValue
 keywords: NSPreferenceDescription, GetMaxValue
 so.topic: reference

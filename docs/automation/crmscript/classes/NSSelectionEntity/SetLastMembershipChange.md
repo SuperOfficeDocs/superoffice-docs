@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetLastMembershipChange
-description: NSSelectionEntity.SetLastMembershipChange(DateTime lastMembershipChange)
+uid: crmscript_ref_NSSelectionEntity_SetLastMembershipChange
+title: SetLastMembershipChange(DateTime lastMembershipChange)
 intellisense: NSSelectionEntity.SetLastMembershipChange
 keywords: NSSelectionEntity, GetLastMembershipChange
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_GetImportant
-description: Bool NSTicketMessageEntity.GetImportant()
+uid: crmscript_ref_NSTicketMessageEntity_GetImportant
+title: Bool GetImportant()
 intellisense: NSTicketMessageEntity.GetImportant
 keywords: NSTicketMessageEntity, GetImportant
 so.topic: reference

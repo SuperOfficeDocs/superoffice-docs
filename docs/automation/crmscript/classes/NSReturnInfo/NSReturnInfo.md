@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReturnInfo
-description: NSReturnInfo
+uid: crmscript_ref_NSReturnInfo
+title: NSReturnInfo
 intellisense: Void.NSReturnInfo
 keywords: NSReturnInfo
 so.topic: reference

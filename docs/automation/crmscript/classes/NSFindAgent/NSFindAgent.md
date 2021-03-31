@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFindAgent
-description: NSFindAgent
+uid: crmscript_ref_NSFindAgent
+title: NSFindAgent
 intellisense: Void.NSFindAgent
 keywords: NSFindAgent
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetFormatMask
-description: String NSUserDefinedFieldInfo.GetFormatMask()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFormatMask
+title: String GetFormatMask()
 intellisense: NSUserDefinedFieldInfo.GetFormatMask
 keywords: NSUserDefinedFieldInfo, GetFormatMask
 so.topic: reference

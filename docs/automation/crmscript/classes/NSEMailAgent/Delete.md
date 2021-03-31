@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_Delete
-description: Void Delete(EMailConnectionInfo connectionInfo, IntegerArray messageServerIds, String moveToFolder)
+uid: crmscript_ref_NSEMailAgent_Delete
+title: Void Delete(EMailConnectionInfo connectionInfo, IntegerArray messageServerIds, String moveToFolder)
 intellisense: NSEMailAgent.Delete
-keywords: NSEMailAgent,Delete
+keywords: NSEMailAgent, Delete
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_GetOrgNr
-description: String NSContact.GetOrgNr()
+uid: crmscript_ref_NSContact_GetOrgNr
+title: String GetOrgNr()
 intellisense: NSContact.GetOrgNr
 keywords: NSContact, GetOrgNr
 so.topic: reference

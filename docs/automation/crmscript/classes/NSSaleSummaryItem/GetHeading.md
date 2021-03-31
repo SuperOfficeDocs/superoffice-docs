@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummaryItem_GetHeading
-description: String NSSaleSummaryItem.GetHeading()
+uid: crmscript_ref_NSSaleSummaryItem_GetHeading
+title: String GetHeading()
 intellisense: NSSaleSummaryItem.GetHeading
 keywords: NSSaleSummaryItem, GetHeading
 so.topic: reference

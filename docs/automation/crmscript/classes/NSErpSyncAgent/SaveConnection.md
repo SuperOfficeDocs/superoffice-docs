@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_SaveConnection
-description: ErpConnection SaveConnection(ErpConnection connection)
+uid: crmscript_ref_NSErpSyncAgent_SaveConnection
+title: ErpConnection SaveConnection(ErpConnection connection)
 intellisense: NSErpSyncAgent.SaveConnection
-keywords: NSErpSyncAgent,SaveConnection
+keywords: NSErpSyncAgent, SaveConnection
 so.topic: reference
 ---
 

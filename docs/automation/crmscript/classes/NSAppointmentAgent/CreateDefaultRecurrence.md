@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_CreateDefaultRecurrence
-description: RecurrenceInfo CreateDefaultRecurrence()
+uid: crmscript_ref_NSAppointmentAgent_CreateDefaultRecurrence
+title: RecurrenceInfo CreateDefaultRecurrence()
 intellisense: NSAppointmentAgent.CreateDefaultRecurrence
-keywords: NSAppointmentAgent,CreateDefaultRecurrence
+keywords: NSAppointmentAgent, CreateDefaultRecurrence
 so.topic: reference
 ---
 

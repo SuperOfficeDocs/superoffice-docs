@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetEarningPercent
-description: NSSale.SetEarningPercent(Float earningPercent)
+uid: crmscript_ref_NSSale_SetEarningPercent
+title: SetEarningPercent(Float earningPercent)
 intellisense: NSSale.SetEarningPercent
 keywords: NSSale, GetEarningPercent
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetOtherGroups
-description: NSUser.SetOtherGroups(UserGroupArray otherGroups)
+uid: crmscript_ref_NSUser_SetOtherGroups
+title: SetOtherGroups(UserGroupArray otherGroups)
 intellisense: NSUser.SetOtherGroups
 keywords: NSUser, GetOtherGroups
 so.topic: reference

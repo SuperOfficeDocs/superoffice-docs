@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFavourite_GetAssociateId
-description: Integer NSFavourite.GetAssociateId()
+uid: crmscript_ref_NSFavourite_GetAssociateId
+title: Integer GetAssociateId()
 intellisense: NSFavourite.GetAssociateId
 keywords: NSFavourite, GetAssociateId
 so.topic: reference

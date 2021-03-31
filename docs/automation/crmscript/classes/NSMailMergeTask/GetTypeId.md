@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask_GetTypeId
-description: Integer NSMailMergeTask.GetTypeId()
+uid: crmscript_ref_NSMailMergeTask_GetTypeId
+title: Integer GetTypeId()
 intellisense: NSMailMergeTask.GetTypeId
 keywords: NSMailMergeTask, GetTypeId
 so.topic: reference

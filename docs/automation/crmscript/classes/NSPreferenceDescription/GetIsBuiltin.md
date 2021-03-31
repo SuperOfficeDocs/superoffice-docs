@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_GetIsBuiltin
-description: Bool NSPreferenceDescription.GetIsBuiltin()
+uid: crmscript_ref_NSPreferenceDescription_GetIsBuiltin
+title: Bool GetIsBuiltin()
 intellisense: NSPreferenceDescription.GetIsBuiltin
 keywords: NSPreferenceDescription, GetIsBuiltin
 so.topic: reference

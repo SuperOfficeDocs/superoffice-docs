@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_GetEntityType
-description: Integer NSDashboardTile.GetEntityType()
+uid: crmscript_ref_NSDashboardTile_GetEntityType
+title: Integer GetEntityType()
 intellisense: NSDashboardTile.GetEntityType
 keywords: NSDashboardTile, GetEntityType
 so.topic: reference

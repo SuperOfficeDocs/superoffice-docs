@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetUpdatedDate
-description: NSProjectEventEntity.SetUpdatedDate(DateTime updatedDate)
+uid: crmscript_ref_NSProjectEventEntity_SetUpdatedDate
+title: SetUpdatedDate(DateTime updatedDate)
 intellisense: NSProjectEventEntity.SetUpdatedDate
 keywords: NSProjectEventEntity, GetUpdatedDate
 so.topic: reference

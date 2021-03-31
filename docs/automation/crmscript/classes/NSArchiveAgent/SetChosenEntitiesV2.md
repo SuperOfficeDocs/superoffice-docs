@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_SetChosenEntitiesV2
-description: Void SetChosenEntitiesV2(String guiName, String providerName, String context, String ownerKeys, StringArray entities)
+uid: crmscript_ref_NSArchiveAgent_SetChosenEntitiesV2
+title: Void SetChosenEntitiesV2(String guiName, String providerName, String context, String ownerKeys, StringArray entities)
 intellisense: NSArchiveAgent.SetChosenEntitiesV2
-keywords: NSArchiveAgent,SetChosenEntitiesV2
+keywords: NSArchiveAgent, SetChosenEntitiesV2
 so.topic: reference
 ---
 

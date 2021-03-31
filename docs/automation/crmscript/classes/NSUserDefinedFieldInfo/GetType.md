@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetType
-description: Integer NSUserDefinedFieldInfo.GetType()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetType
+title: Integer GetType()
 intellisense: NSUserDefinedFieldInfo.GetType
 keywords: NSUserDefinedFieldInfo, GetType
 so.topic: reference

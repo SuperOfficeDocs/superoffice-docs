@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_SetType
-description: NSMDOListItem.SetType(String type)
+uid: crmscript_ref_NSMDOListItem_SetType
+title: SetType(String type)
 intellisense: NSMDOListItem.SetType
 keywords: NSMDOListItem, GetType
 so.topic: reference

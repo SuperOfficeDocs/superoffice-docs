@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_GetStandardDashboardTileFromChartId
-description: DashboardTile GetStandardDashboardTileFromChartId(String chartId)
+uid: crmscript_ref_NSDashboardAgent_GetStandardDashboardTileFromChartId
+title: DashboardTile GetStandardDashboardTileFromChartId(String chartId)
 intellisense: NSDashboardAgent.GetStandardDashboardTileFromChartId
-keywords: NSDashboardAgent,GetStandardDashboardTileFromChartId
+keywords: NSDashboardAgent, GetStandardDashboardTileFromChartId
 so.topic: reference
 ---
 

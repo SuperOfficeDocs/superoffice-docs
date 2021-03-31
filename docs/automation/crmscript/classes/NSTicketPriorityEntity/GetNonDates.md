@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetNonDates
-description: DateTimeArray NSTicketPriorityEntity.GetNonDates()
+uid: crmscript_ref_NSTicketPriorityEntity_GetNonDates
+title: DateTimeArray GetNonDates()
 intellisense: NSTicketPriorityEntity.GetNonDates
 keywords: NSTicketPriorityEntity, GetNonDates
 so.topic: reference

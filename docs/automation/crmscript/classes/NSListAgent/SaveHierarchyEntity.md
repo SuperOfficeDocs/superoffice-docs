@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveHierarchyEntity
-description: NSHierarchyEntity SaveHierarchyEntity(NSHierarchyEntity hierarchyEntity);
+uid: crmscript_ref_NSListAgent_SaveHierarchyEntity
+title: NSHierarchyEntity SaveHierarchyEntity(NSHierarchyEntity hierarchyEntity);
 intellisense: NSListAgent.SaveHierarchyEntity
-keywords: NSListAgent,SaveHierarchyEntity
+keywords: NSListAgent, SaveHierarchyEntity
 so.topic: reference
 ---
 	  

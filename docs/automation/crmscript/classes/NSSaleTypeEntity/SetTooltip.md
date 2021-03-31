@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetTooltip
-description: NSSaleTypeEntity.SetTooltip(String tooltip)
+uid: crmscript_ref_NSSaleTypeEntity_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSSaleTypeEntity.SetTooltip
 keywords: NSSaleTypeEntity, GetTooltip
 so.topic: reference

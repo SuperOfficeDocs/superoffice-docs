@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_IsWithinOpeningHours
-description: Bool IsWithinOpeningHours(Integer chatTopicId)
+uid: crmscript_ref_NSChatAgent_IsWithinOpeningHours
+title: Bool IsWithinOpeningHours(Integer chatTopicId)
 intellisense: NSChatAgent.IsWithinOpeningHours
-keywords: NSChatAgent,IsWithinOpeningHours
+keywords: NSChatAgent, IsWithinOpeningHours
 so.topic: reference
 ---
 

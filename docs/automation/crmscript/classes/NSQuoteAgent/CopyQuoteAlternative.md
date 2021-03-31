@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CopyQuoteAlternative
-description: QuoteAlternative CopyQuoteAlternative(Integer quoteVersionId, Integer quoteAlternativeId, String quoteAlternativeName)
+uid: crmscript_ref_NSQuoteAgent_CopyQuoteAlternative
+title: QuoteAlternative CopyQuoteAlternative(Integer quoteVersionId, Integer quoteAlternativeId, String quoteAlternativeName)
 intellisense: NSQuoteAgent.CopyQuoteAlternative
-keywords: NSQuoteAgent,CopyQuoteAlternative
+keywords: NSQuoteAgent, CopyQuoteAlternative
 so.topic: reference
 ---
 

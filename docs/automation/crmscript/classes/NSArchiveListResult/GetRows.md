@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListResult_GetRows
-description: ArchiveListItemArray NSArchiveListResult.GetRows()
+uid: crmscript_ref_NSArchiveListResult_GetRows
+title: ArchiveListItemArray GetRows()
 intellisense: NSArchiveListResult.GetRows
 keywords: NSArchiveListResult, GetRows
 so.topic: reference

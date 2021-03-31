@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetEvents
-description: StringArray NSWebhook.GetEvents()
+uid: crmscript_ref_NSWebhook_GetEvents
+title: StringArray GetEvents()
 intellisense: NSWebhook.GetEvents
 keywords: NSWebhook, GetEvents
 so.topic: reference

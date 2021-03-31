@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketSummaryItem
-description: NSTicketSummaryItem
+uid: crmscript_ref_NSTicketSummaryItem
+title: NSTicketSummaryItem
 intellisense: Void.NSTicketSummaryItem
 keywords: NSTicketSummaryItem
 so.topic: reference

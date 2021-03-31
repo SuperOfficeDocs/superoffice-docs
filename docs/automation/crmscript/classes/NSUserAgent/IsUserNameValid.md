@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_IsUserNameValid
-description: Bool IsUserNameValid(Integer associateId, Integer type, Integer personId, String userName)
+uid: crmscript_ref_NSUserAgent_IsUserNameValid
+title: Bool IsUserNameValid(Integer associateId, Integer type, Integer personId, String userName)
 intellisense: NSUserAgent.IsUserNameValid
-keywords: NSUserAgent,IsUserNameValid
+keywords: NSUserAgent, IsUserNameValid
 so.topic: reference
 ---
 

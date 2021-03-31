@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetProjectImage
-description: Image GetProjectImage(Integer projectId)
+uid: crmscript_ref_NSProjectAgent_GetProjectImage
+title: Image GetProjectImage(Integer projectId)
 intellisense: NSProjectAgent.GetProjectImage
-keywords: NSProjectAgent,GetProjectImage
+keywords: NSProjectAgent, GetProjectImage
 so.topic: reference
 ---
 

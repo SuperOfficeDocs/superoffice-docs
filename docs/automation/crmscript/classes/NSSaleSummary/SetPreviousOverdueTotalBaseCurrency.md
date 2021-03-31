@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetPreviousOverdueTotalBaseCurrency
-description: NSSaleSummary.SetPreviousOverdueTotalBaseCurrency(Float previousOverdueTotalBaseCurrency)
+uid: crmscript_ref_NSSaleSummary_SetPreviousOverdueTotalBaseCurrency
+title: SetPreviousOverdueTotalBaseCurrency(Float previousOverdueTotalBaseCurrency)
 intellisense: NSSaleSummary.SetPreviousOverdueTotalBaseCurrency
 keywords: NSSaleSummary, GetPreviousOverdueTotalBaseCurrency
 so.topic: reference

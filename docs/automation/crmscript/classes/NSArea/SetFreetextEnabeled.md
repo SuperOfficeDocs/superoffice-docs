@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArea_SetFreetextEnabeled
-description: NSArea.SetFreetextEnabeled(Bool freetextEnabeled)
+uid: crmscript_ref_NSArea_SetFreetextEnabeled
+title: SetFreetextEnabeled(Bool freetextEnabeled)
 intellisense: NSArea.SetFreetextEnabeled
 keywords: NSArea, GetFreetextEnabeled
 so.topic: reference

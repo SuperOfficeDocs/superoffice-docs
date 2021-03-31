@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetProject
-description: NSDocumentEntity.SetProject(Project project)
+uid: crmscript_ref_NSDocumentEntity_SetProject
+title: SetProject(Project project)
 intellisense: NSDocumentEntity.SetProject
 keywords: NSDocumentEntity, GetProject
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_ToggleQuoteVersionAttachmentIncluded
-description: Bool ToggleQuoteVersionAttachmentIncluded(Integer quoteVersionAttachmentId)
+uid: crmscript_ref_NSQuoteAgent_ToggleQuoteVersionAttachmentIncluded
+title: Bool ToggleQuoteVersionAttachmentIncluded(Integer quoteVersionAttachmentId)
 intellisense: NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded
-keywords: NSQuoteAgent,ToggleQuoteVersionAttachmentIncluded
+keywords: NSQuoteAgent, ToggleQuoteVersionAttachmentIncluded
 so.topic: reference
 ---
 

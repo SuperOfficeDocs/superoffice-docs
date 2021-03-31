@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CreateTemporarySelectionFromIds
-description: SelectionEntity CreateTemporarySelectionFromIds(IntegerArray ids, Integer targetTableNumber)
+uid: crmscript_ref_NSSelectionAgent_CreateTemporarySelectionFromIds
+title: SelectionEntity CreateTemporarySelectionFromIds(IntegerArray ids, Integer targetTableNumber)
 intellisense: NSSelectionAgent.CreateTemporarySelectionFromIds
-keywords: NSSelectionAgent,CreateTemporarySelectionFromIds
+keywords: NSSelectionAgent, CreateTemporarySelectionFromIds
 so.topic: reference
 ---
 

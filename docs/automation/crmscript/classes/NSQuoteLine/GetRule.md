@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetRule
-description: String NSQuoteLine.GetRule()
+uid: crmscript_ref_NSQuoteLine_GetRule
+title: String GetRule()
 intellisense: NSQuoteLine.GetRule
 keywords: NSQuoteLine, GetRule
 so.topic: reference

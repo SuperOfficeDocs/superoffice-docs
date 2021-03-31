@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_GetMailboxes
-description: MailboxArray GetMailboxes()
+uid: crmscript_ref_NSCustomerServiceAgent_GetMailboxes
+title: MailboxArray GetMailboxes()
 intellisense: NSCustomerServiceAgent.GetMailboxes
-keywords: NSCustomerServiceAgent,GetMailboxes
+keywords: NSCustomerServiceAgent, GetMailboxes
 so.topic: reference
 ---
 

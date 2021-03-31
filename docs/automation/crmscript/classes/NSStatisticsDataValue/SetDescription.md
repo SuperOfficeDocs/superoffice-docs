@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatisticsDataValue_SetDescription
-description: NSStatisticsDataValue.SetDescription(String description)
+uid: crmscript_ref_NSStatisticsDataValue_SetDescription
+title: SetDescription(String description)
 intellisense: NSStatisticsDataValue.SetDescription
 keywords: NSStatisticsDataValue, GetDescription
 so.topic: reference

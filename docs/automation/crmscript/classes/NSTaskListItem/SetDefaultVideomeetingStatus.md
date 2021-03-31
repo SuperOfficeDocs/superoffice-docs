@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_SetDefaultVideomeetingStatus
-description: NSTaskListItem.SetDefaultVideomeetingStatus(Integer defaultVideomeetingStatus)
+uid: crmscript_ref_NSTaskListItem_SetDefaultVideomeetingStatus
+title: SetDefaultVideomeetingStatus(Integer defaultVideomeetingStatus)
 intellisense: NSTaskListItem.SetDefaultVideomeetingStatus
 keywords: NSTaskListItem, GetDefaultVideomeetingStatus
 so.topic: reference

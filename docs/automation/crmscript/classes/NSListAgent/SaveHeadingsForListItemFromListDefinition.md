@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveHeadingsForListItemFromListDefinition
-description: SelectableMDOListItemArray SaveHeadingsForListItemFromListDefinition(Integer udListDefinitionId, Integer listItemId, SelectableMDOListItemArray headings)
+uid: crmscript_ref_NSListAgent_SaveHeadingsForListItemFromListDefinition
+title: SelectableMDOListItemArray SaveHeadingsForListItemFromListDefinition(Integer udListDefinitionId, Integer listItemId, SelectableMDOListItemArray headings)
 intellisense: NSListAgent.SaveHeadingsForListItemFromListDefinition
-keywords: NSListAgent,SaveHeadingsForListItemFromListDefinition
+keywords: NSListAgent, SaveHeadingsForListItemFromListDefinition
 so.topic: reference
 ---
 

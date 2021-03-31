@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetConnectionStartupResponse
-description: PluginResponse GetConnectionStartupResponse(Integer quoteConnectionId)
+uid: crmscript_ref_NSQuoteAgent_GetConnectionStartupResponse
+title: PluginResponse GetConnectionStartupResponse(Integer quoteConnectionId)
 intellisense: NSQuoteAgent.GetConnectionStartupResponse
-keywords: NSQuoteAgent,GetConnectionStartupResponse
+keywords: NSQuoteAgent, GetConnectionStartupResponse
 so.topic: reference
 ---
 

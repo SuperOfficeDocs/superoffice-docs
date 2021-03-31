@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicAgent_GetCanListen
-description: Bool NSChatTopicAgent.GetCanListen()
+uid: crmscript_ref_NSChatTopicAgent_GetCanListen
+title: Bool GetCanListen()
 intellisense: NSChatTopicAgent.GetCanListen
 keywords: NSChatTopicAgent, GetCanListen
 so.topic: reference

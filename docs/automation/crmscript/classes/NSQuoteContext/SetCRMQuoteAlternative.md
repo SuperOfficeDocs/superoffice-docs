@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteContext_SetCRMQuoteAlternative
-description: NSQuoteContext.SetCRMQuoteAlternative(QuoteAlternative cRMQuoteAlternative)
+uid: crmscript_ref_NSQuoteContext_SetCRMQuoteAlternative
+title: SetCRMQuoteAlternative(QuoteAlternative cRMQuoteAlternative)
 intellisense: NSQuoteContext.SetCRMQuoteAlternative
 keywords: NSQuoteContext, GetCRMQuoteAlternative
 so.topic: reference

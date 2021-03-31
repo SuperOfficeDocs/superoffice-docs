@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelHeight
-description: NSUserDefinedFieldInfo.SetLabelHeight(Integer labelHeight)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetLabelHeight
+title: SetLabelHeight(Integer labelHeight)
 intellisense: NSUserDefinedFieldInfo.SetLabelHeight
 keywords: NSUserDefinedFieldInfo, GetLabelHeight
 so.topic: reference

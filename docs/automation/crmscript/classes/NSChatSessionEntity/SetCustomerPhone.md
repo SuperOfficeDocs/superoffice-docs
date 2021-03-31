@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetCustomerPhone
-description: NSChatSessionEntity.SetCustomerPhone(String customerPhone)
+uid: crmscript_ref_NSChatSessionEntity_SetCustomerPhone
+title: SetCustomerPhone(String customerPhone)
 intellisense: NSChatSessionEntity.SetCustomerPhone
 keywords: NSChatSessionEntity, GetCustomerPhone
 so.topic: reference

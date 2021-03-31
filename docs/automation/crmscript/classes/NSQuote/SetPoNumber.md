@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuote_SetPoNumber
-description: NSQuote.SetPoNumber(String poNumber)
+uid: crmscript_ref_NSQuote_SetPoNumber
+title: SetPoNumber(String poNumber)
 intellisense: NSQuote.SetPoNumber
 keywords: NSQuote, GetPoNumber
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginResponse_SetTechExplanation
-description: NSPluginResponse.SetTechExplanation(String techExplanation)
+uid: crmscript_ref_NSPluginResponse_SetTechExplanation
+title: SetTechExplanation(String techExplanation)
 intellisense: NSPluginResponse.SetTechExplanation
 keywords: NSPluginResponse, GetTechExplanation
 so.topic: reference

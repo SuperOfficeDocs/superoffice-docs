@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoTime
-description: NSFieldInfoTime
+uid: crmscript_ref_NSFieldInfoTime
+title: NSFieldInfoTime
 intellisense: Void.NSFieldInfoTime
 keywords: NSFieldInfoTime
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetApprovedRegisteredDate
-description: DateTime NSQuoteVersion.GetApprovedRegisteredDate()
+uid: crmscript_ref_NSQuoteVersion_GetApprovedRegisteredDate
+title: DateTime GetApprovedRegisteredDate()
 intellisense: NSQuoteVersion.GetApprovedRegisteredDate
 keywords: NSQuoteVersion, GetApprovedRegisteredDate
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_DeleteDeviceByIdentifier
-description: Void DeleteDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
+uid: crmscript_ref_NSForeignSystemAgent_DeleteDeviceByIdentifier
+title: Void DeleteDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
 intellisense: NSForeignSystemAgent.DeleteDeviceByIdentifier
-keywords: NSForeignSystemAgent,DeleteDeviceByIdentifier
+keywords: NSForeignSystemAgent, DeleteDeviceByIdentifier
 so.topic: reference
 ---
 

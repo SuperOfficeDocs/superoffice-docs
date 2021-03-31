@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_SetFullname
-description: NSTicketCategoryEntity.SetFullname(String fullname)
+uid: crmscript_ref_NSTicketCategoryEntity_SetFullname
+title: SetFullname(String fullname)
 intellisense: NSTicketCategoryEntity.SetFullname
 keywords: NSTicketCategoryEntity, GetFullname
 so.topic: reference

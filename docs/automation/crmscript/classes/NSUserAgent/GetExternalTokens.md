@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetExternalTokens
-description: TokenManagementInfo GetExternalTokens(String key)
+uid: crmscript_ref_NSUserAgent_GetExternalTokens
+title: TokenManagementInfo GetExternalTokens(String key)
 intellisense: NSUserAgent.GetExternalTokens
-keywords: NSUserAgent,GetExternalTokens
+keywords: NSUserAgent, GetExternalTokens
 so.topic: reference
 ---
 

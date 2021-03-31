@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetPersons
-description: PersonArray NSContactEntity.GetPersons()
+uid: crmscript_ref_NSContactEntity_GetPersons
+title: PersonArray GetPersons()
 intellisense: NSContactEntity.GetPersons
 keywords: NSContactEntity, GetPersons
 so.topic: reference

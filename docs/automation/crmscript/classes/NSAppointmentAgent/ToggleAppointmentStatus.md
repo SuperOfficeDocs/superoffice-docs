@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_ToggleAppointmentStatus
-description: Integer ToggleAppointmentStatus(Integer appointmentId)
+uid: crmscript_ref_NSAppointmentAgent_ToggleAppointmentStatus
+title: Integer ToggleAppointmentStatus(Integer appointmentId)
 intellisense: NSAppointmentAgent.ToggleAppointmentStatus
-keywords: NSAppointmentAgent,ToggleAppointmentStatus
+keywords: NSAppointmentAgent, ToggleAppointmentStatus
 so.topic: reference
 ---
 

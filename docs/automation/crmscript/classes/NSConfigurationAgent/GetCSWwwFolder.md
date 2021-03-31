@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetCSWwwFolder
-description: String GetCSWwwFolder()
+uid: crmscript_ref_NSConfigurationAgent_GetCSWwwFolder
+title: String GetCSWwwFolder()
 intellisense: NSConfigurationAgent.GetCSWwwFolder
-keywords: NSConfigurationAgent,GetCSWwwFolder
+keywords: NSConfigurationAgent, GetCSWwwFolder
 so.topic: reference
 ---
 

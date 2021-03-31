@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent_GetListItem
-description: MDOListItem GetListItem(String listName, Integer id)
+uid: crmscript_ref_NSMDOAgent_GetListItem
+title: MDOListItem GetListItem(String listName, Integer id)
 intellisense: NSMDOAgent.GetListItem
-keywords: NSMDOAgent,GetListItem
+keywords: NSMDOAgent, GetListItem
 so.topic: reference
 ---
 

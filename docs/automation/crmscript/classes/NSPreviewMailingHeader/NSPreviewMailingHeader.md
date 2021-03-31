@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader
-description: NSPreviewMailingHeader
+uid: crmscript_ref_NSPreviewMailingHeader
+title: NSPreviewMailingHeader
 intellisense: Void.NSPreviewMailingHeader
 keywords: NSPreviewMailingHeader
 so.topic: reference

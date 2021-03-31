@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetFont
-description: String NSChatWidgetSettings.GetFont()
+uid: crmscript_ref_NSChatWidgetSettings_GetFont
+title: String GetFont()
 intellisense: NSChatWidgetSettings.GetFont
 keywords: NSChatWidgetSettings, GetFont
 so.topic: reference

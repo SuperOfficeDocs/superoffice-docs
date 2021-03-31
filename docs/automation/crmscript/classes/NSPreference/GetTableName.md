@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_GetTableName
-description: String NSPreference.GetTableName()
+uid: crmscript_ref_NSPreference_GetTableName
+title: String GetTableName()
 intellisense: NSPreference.GetTableName
 keywords: NSPreference, GetTableName
 so.topic: reference

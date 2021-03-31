@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLocalizedText_GetIsBuiltIn
-description: Bool NSLocalizedText.GetIsBuiltIn()
+uid: crmscript_ref_NSLocalizedText_GetIsBuiltIn
+title: Bool GetIsBuiltIn()
 intellisense: NSLocalizedText.GetIsBuiltIn
 keywords: NSLocalizedText, GetIsBuiltIn
 so.topic: reference

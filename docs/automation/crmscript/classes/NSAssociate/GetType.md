@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAssociate_GetType
-description: Integer NSAssociate.GetType()
+uid: crmscript_ref_NSAssociate_GetType
+title: Integer GetType()
 intellisense: NSAssociate.GetType
 keywords: NSAssociate, GetType
 so.topic: reference

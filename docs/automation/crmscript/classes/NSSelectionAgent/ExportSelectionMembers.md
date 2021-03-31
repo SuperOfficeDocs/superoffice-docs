@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_ExportSelectionMembers
-description: ByteArray ExportSelectionMembers(Integer selectionId, String templateName, Bool useContacts)
+uid: crmscript_ref_NSSelectionAgent_ExportSelectionMembers
+title: ByteArray ExportSelectionMembers(Integer selectionId, String templateName, Bool useContacts)
 intellisense: NSSelectionAgent.ExportSelectionMembers
-keywords: NSSelectionAgent,ExportSelectionMembers
+keywords: NSSelectionAgent, ExportSelectionMembers
 so.topic: reference
 ---
 

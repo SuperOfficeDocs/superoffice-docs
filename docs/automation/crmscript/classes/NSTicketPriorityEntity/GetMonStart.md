@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetMonStart
-description: DateTime NSTicketPriorityEntity.GetMonStart()
+uid: crmscript_ref_NSTicketPriorityEntity_GetMonStart
+title: DateTime GetMonStart()
 intellisense: NSTicketPriorityEntity.GetMonStart
 keywords: NSTicketPriorityEntity, GetMonStart
 so.topic: reference

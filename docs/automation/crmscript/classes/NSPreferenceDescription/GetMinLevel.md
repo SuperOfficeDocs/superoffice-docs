@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_GetMinLevel
-description: Integer NSPreferenceDescription.GetMinLevel()
+uid: crmscript_ref_NSPreferenceDescription_GetMinLevel
+title: Integer GetMinLevel()
 intellisense: NSPreferenceDescription.GetMinLevel
 keywords: NSPreferenceDescription, GetMinLevel
 so.topic: reference

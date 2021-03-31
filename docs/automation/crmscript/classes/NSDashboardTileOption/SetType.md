@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption_SetType
-description: NSDashboardTileOption.SetType(Integer type)
+uid: crmscript_ref_NSDashboardTileOption_SetType
+title: SetType(Integer type)
 intellisense: NSDashboardTileOption.SetType
 keywords: NSDashboardTileOption, GetType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetInternetPhones
-description: EntityElementArray NSPersonEntity.GetInternetPhones()
+uid: crmscript_ref_NSPersonEntity_GetInternetPhones
+title: EntityElementArray GetInternetPhones()
 intellisense: NSPersonEntity.GetInternetPhones
 keywords: NSPersonEntity, GetInternetPhones
 so.topic: reference

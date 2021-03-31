@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonSummary_SetFollowups
-description: NSPersonSummary.SetFollowups(ActivitySummaryItemArray followups)
+uid: crmscript_ref_NSPersonSummary_SetFollowups
+title: SetFollowups(ActivitySummaryItemArray followups)
 intellisense: NSPersonSummary.SetFollowups
 keywords: NSPersonSummary, GetFollowups
 so.topic: reference

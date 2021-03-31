@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhookResult_GetMessage
-description: String NSWebhookResult.GetMessage()
+uid: crmscript_ref_NSWebhookResult_GetMessage
+title: String GetMessage()
 intellisense: NSWebhookResult.GetMessage
 keywords: NSWebhookResult, GetMessage
 so.topic: reference

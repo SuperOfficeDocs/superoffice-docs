@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetIsAlldayEvent
-description: NSAppointmentEntity.SetIsAlldayEvent(Bool isAlldayEvent)
+uid: crmscript_ref_NSAppointmentEntity_SetIsAlldayEvent
+title: SetIsAlldayEvent(Bool isAlldayEvent)
 intellisense: NSAppointmentEntity.SetIsAlldayEvent
 keywords: NSAppointmentEntity, GetIsAlldayEvent
 so.topic: reference

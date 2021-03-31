@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_AssignTo
-description: AppointmentEntity AssignTo(Integer appointmentId, ParticipantInfo participant, Integer updateMode)
+uid: crmscript_ref_NSAppointmentAgent_AssignTo
+title: AppointmentEntity AssignTo(Integer appointmentId, ParticipantInfo participant, Integer updateMode)
 intellisense: NSAppointmentAgent.AssignTo
-keywords: NSAppointmentAgent,AssignTo
+keywords: NSAppointmentAgent, AssignTo
 so.topic: reference
 ---
 

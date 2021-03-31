@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_SetContactId
-description: NSAlarmData.SetContactId(Integer contactId)
+uid: crmscript_ref_NSAlarmData_SetContactId
+title: SetContactId(Integer contactId)
 intellisense: NSAlarmData.SetContactId
 keywords: NSAlarmData, GetContactId
 so.topic: reference

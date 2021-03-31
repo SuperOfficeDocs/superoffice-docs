@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetReasonStalled
-description: NSReasonStalled GetReasonStalled(Integer reasonStalledId);
+uid: crmscript_ref_NSListAgent_GetReasonStalled
+title: NSReasonStalled GetReasonStalled(Integer reasonStalledId);
 intellisense: NSListAgent.GetReasonStalled
-keywords: NSListAgent,GetReasonStalled
+keywords: NSListAgent, GetReasonStalled
 so.topic: reference
 ---
 

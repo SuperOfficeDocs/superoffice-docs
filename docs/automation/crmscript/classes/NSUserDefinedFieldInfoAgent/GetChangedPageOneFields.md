@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetChangedPageOneFields
-description: BooleanArray GetChangedPageOneFields(Integer ownerType, Integer userGroupId)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetChangedPageOneFields
+title: BooleanArray GetChangedPageOneFields(Integer ownerType, Integer userGroupId)
 intellisense: NSUserDefinedFieldInfoAgent.GetChangedPageOneFields
-keywords: NSUserDefinedFieldInfoAgent,GetChangedPageOneFields
+keywords: NSUserDefinedFieldInfoAgent, GetChangedPageOneFields
 so.topic: reference
 ---
 

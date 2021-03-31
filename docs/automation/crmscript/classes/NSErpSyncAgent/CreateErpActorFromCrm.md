@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_CreateErpActorFromCrm
-description: Bool CreateErpActorFromCrm(Integer connectionId, Integer crmEntityId, Integer erpActorType, Integer crmActorType, StringDictionary erpFieldKeyValues)
+uid: crmscript_ref_NSErpSyncAgent_CreateErpActorFromCrm
+title: Bool CreateErpActorFromCrm(Integer connectionId, Integer crmEntityId, Integer erpActorType, Integer crmActorType, StringDictionary erpFieldKeyValues)
 intellisense: NSErpSyncAgent.CreateErpActorFromCrm
-keywords: NSErpSyncAgent,CreateErpActorFromCrm
+keywords: NSErpSyncAgent, CreateErpActorFromCrm
 so.topic: reference
 ---
 

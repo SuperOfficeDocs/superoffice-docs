@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetRating
-description: NSRating GetRating(Integer ratingId);
+uid: crmscript_ref_NSListAgent_GetRating
+title: NSRating GetRating(Integer ratingId);
 intellisense: NSListAgent.GetRating
-keywords: NSListAgent,GetRating
+keywords: NSListAgent, GetRating
 so.topic: reference
 ---
 

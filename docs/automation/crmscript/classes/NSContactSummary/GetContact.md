@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactSummary_GetContact
-description: Contact NSContactSummary.GetContact()
+uid: crmscript_ref_NSContactSummary_GetContact
+title: Contact GetContact()
 intellisense: NSContactSummary.GetContact
 keywords: NSContactSummary, GetContact
 so.topic: reference

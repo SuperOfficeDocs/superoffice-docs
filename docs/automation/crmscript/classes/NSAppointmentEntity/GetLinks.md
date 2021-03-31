@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetLinks
-description: LinkArray NSAppointmentEntity.GetLinks()
+uid: crmscript_ref_NSAppointmentEntity_GetLinks
+title: LinkArray GetLinks()
 intellisense: NSAppointmentEntity.GetLinks
 keywords: NSAppointmentEntity, GetLinks
 so.topic: reference

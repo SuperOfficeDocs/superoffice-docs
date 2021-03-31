@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_SetNumNeedUpdate
-description: NSStatusMonitor.SetNumNeedUpdate(Integer numNeedUpdate)
+uid: crmscript_ref_NSStatusMonitor_SetNumNeedUpdate
+title: SetNumNeedUpdate(Integer numNeedUpdate)
 intellisense: NSStatusMonitor.SetNumNeedUpdate
 keywords: NSStatusMonitor, GetNumNeedUpdate
 so.topic: reference

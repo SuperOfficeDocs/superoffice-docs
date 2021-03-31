@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_SetPlainMessage
-description: NSShipmentMessageEntity.SetPlainMessage(String plainMessage)
+uid: crmscript_ref_NSShipmentMessageEntity_SetPlainMessage
+title: SetPlainMessage(String plainMessage)
 intellisense: NSShipmentMessageEntity.SetPlainMessage
 keywords: NSShipmentMessageEntity, GetPlainMessage
 so.topic: reference

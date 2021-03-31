@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetUserGroup
-description: NSUser.SetUserGroup(UserGroup userGroup)
+uid: crmscript_ref_NSUser_SetUserGroup
+title: SetUserGroup(UserGroup userGroup)
 intellisense: NSUser.SetUserGroup
 keywords: NSUser, GetUserGroup
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_SetActiveTimeZonesByFilter
-description: Void SetActiveTimeZonesByFilter(String filter, Bool active)
+uid: crmscript_ref_NSTimeZoneAgent_SetActiveTimeZonesByFilter
+title: Void SetActiveTimeZonesByFilter(String filter, Bool active)
 intellisense: NSTimeZoneAgent.SetActiveTimeZonesByFilter
-keywords: NSTimeZoneAgent,SetActiveTimeZonesByFilter
+keywords: NSTimeZoneAgent, SetActiveTimeZonesByFilter
 so.topic: reference
 ---
 

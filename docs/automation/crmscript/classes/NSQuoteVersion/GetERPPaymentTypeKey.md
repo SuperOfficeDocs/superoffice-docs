@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetERPPaymentTypeKey
-description: String NSQuoteVersion.GetERPPaymentTypeKey()
+uid: crmscript_ref_NSQuoteVersion_GetERPPaymentTypeKey
+title: String GetERPPaymentTypeKey()
 intellisense: NSQuoteVersion.GetERPPaymentTypeKey
 keywords: NSQuoteVersion, GetERPPaymentTypeKey
 so.topic: reference

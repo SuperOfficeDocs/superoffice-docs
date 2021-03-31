@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_HasGuide
-description: Bool HasGuide(Integer projectId)
+uid: crmscript_ref_NSProjectAgent_HasGuide
+title: Bool HasGuide(Integer projectId)
 intellisense: NSProjectAgent.HasGuide
-keywords: NSProjectAgent,HasGuide
+keywords: NSProjectAgent, HasGuide
 so.topic: reference
 ---
 

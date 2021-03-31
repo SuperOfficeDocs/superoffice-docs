@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSNavigatorCompany_GetValue
-description: String NSNavigatorCompany.GetValue()
+uid: crmscript_ref_NSNavigatorCompany_GetValue
+title: String GetValue()
 intellisense: NSNavigatorCompany.GetValue
 keywords: NSNavigatorCompany, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the NavigatorCompany.
 
-**Returns:** String name
+**Returns:** String NavigatorCompany name.
 

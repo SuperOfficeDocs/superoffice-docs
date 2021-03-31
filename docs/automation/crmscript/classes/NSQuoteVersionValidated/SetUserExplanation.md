@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionValidated_SetUserExplanation
-description: NSQuoteVersionValidated.SetUserExplanation(String userExplanation)
+uid: crmscript_ref_NSQuoteVersionValidated_SetUserExplanation
+title: SetUserExplanation(String userExplanation)
 intellisense: NSQuoteVersionValidated.SetUserExplanation
 keywords: NSQuoteVersionValidated, GetUserExplanation
 so.topic: reference

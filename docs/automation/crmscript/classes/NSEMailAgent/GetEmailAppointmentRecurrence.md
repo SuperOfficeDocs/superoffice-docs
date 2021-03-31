@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEmailAppointmentRecurrence
-description: RecurrenceInfo GetEmailAppointmentRecurrence(Integer mailItemId)
+uid: crmscript_ref_NSEMailAgent_GetEmailAppointmentRecurrence
+title: RecurrenceInfo GetEmailAppointmentRecurrence(Integer mailItemId)
 intellisense: NSEMailAgent.GetEmailAppointmentRecurrence
-keywords: NSEMailAgent,GetEmailAppointmentRecurrence
+keywords: NSEMailAgent, GetEmailAppointmentRecurrence
 so.topic: reference
 ---
 

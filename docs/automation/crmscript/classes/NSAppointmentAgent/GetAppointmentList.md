@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetAppointmentList
-description: NSAppointment[] GetAppointmentList(Integer[]  appointmentIds);
+uid: crmscript_ref_NSAppointmentAgent_GetAppointmentList
+title: NSAppointment[] GetAppointmentList(Integer[]  appointmentIds);
 intellisense: NSAppointmentAgent.GetAppointmentList
-keywords: NSAppointmentAgent,GetAppointmentList
+keywords: NSAppointmentAgent, GetAppointmentList
 so.topic: reference
 ---
 

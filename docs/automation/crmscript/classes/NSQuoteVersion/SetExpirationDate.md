@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetExpirationDate
-description: NSQuoteVersion.SetExpirationDate(DateTime expirationDate)
+uid: crmscript_ref_NSQuoteVersion_SetExpirationDate
+title: SetExpirationDate(DateTime expirationDate)
 intellisense: NSQuoteVersion.SetExpirationDate
 keywords: NSQuoteVersion, GetExpirationDate
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserValidationResult_GetResult
-description: Bool NSUserValidationResult.GetResult()
+uid: crmscript_ref_NSUserValidationResult_GetResult
+title: Bool GetResult()
 intellisense: NSUserValidationResult.GetResult
 keywords: NSUserValidationResult, GetResult
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistoryRequest_GetEntityOrParentId
-description: Integer NSHistoryRequest.GetEntityOrParentId()
+uid: crmscript_ref_NSHistoryRequest_GetEntityOrParentId
+title: Integer GetEntityOrParentId()
 intellisense: NSHistoryRequest.GetEntityOrParentId
 keywords: NSHistoryRequest, GetEntityOrParentId
 so.topic: reference

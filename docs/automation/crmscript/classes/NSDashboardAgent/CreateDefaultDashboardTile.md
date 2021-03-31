@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_CreateDefaultDashboardTile
-description: NSDashboardTile CreateDefaultDashboardTile()
+uid: crmscript_ref_NSDashboardAgent_CreateDefaultDashboardTile
+title: NSDashboardTile CreateDefaultDashboardTile()
 intellisense: NSDashboardAgent.CreateDefaultDashboardTile
-keywords: NSDashboardAgent,CreateDefaultDashboardTile
+keywords: NSDashboardAgent, CreateDefaultDashboardTile
 so.topic: reference
 ---
 	  

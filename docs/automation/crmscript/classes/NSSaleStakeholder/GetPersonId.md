@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_GetPersonId
-description: Integer NSSaleStakeholder.GetPersonId()
+uid: crmscript_ref_NSSaleStakeholder_GetPersonId
+title: Integer GetPersonId()
 intellisense: NSSaleStakeholder.GetPersonId
 keywords: NSSaleStakeholder, GetPersonId
 so.topic: reference

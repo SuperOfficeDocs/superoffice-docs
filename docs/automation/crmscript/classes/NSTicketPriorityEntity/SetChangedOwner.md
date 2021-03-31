@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetChangedOwner
-description: NSTicketPriorityEntity.SetChangedOwner(TicketPriorityEscalateEvent changedOwner)
+uid: crmscript_ref_NSTicketPriorityEntity_SetChangedOwner
+title: SetChangedOwner(TicketPriorityEscalateEvent changedOwner)
 intellisense: NSTicketPriorityEntity.SetChangedOwner
 keywords: NSTicketPriorityEntity, GetChangedOwner
 so.topic: reference

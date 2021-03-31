@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllDocumentTemplates
-description: DocumentTemplateEntityArray GetAllDocumentTemplates(Bool includeDeleted)
+uid: crmscript_ref_NSListAgent_GetAllDocumentTemplates
+title: DocumentTemplateEntityArray GetAllDocumentTemplates(Bool includeDeleted)
 intellisense: NSListAgent.GetAllDocumentTemplates
-keywords: NSListAgent,GetAllDocumentTemplates
+keywords: NSListAgent, GetAllDocumentTemplates
 so.topic: reference
 ---
 

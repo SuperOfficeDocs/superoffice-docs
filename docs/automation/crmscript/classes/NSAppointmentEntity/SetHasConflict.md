@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetHasConflict
-description: NSAppointmentEntity.SetHasConflict(Bool hasConflict)
+uid: crmscript_ref_NSAppointmentEntity_SetHasConflict
+title: SetHasConflict(Bool hasConflict)
 intellisense: NSAppointmentEntity.SetHasConflict
 keywords: NSAppointmentEntity, GetHasConflict
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetTimeSpentExternally
-description: NSTicketEntity.SetTimeSpentExternally(Integer timeSpentExternally)
+uid: crmscript_ref_NSTicketEntity_SetTimeSpentExternally
+title: SetTimeSpentExternally(Integer timeSpentExternally)
 intellisense: NSTicketEntity.SetTimeSpentExternally
 keywords: NSTicketEntity, GetTimeSpentExternally
 so.topic: reference

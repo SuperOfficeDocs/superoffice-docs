@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSignedPublicKey_SetOwnerName
-description: NSSignedPublicKey.SetOwnerName(String ownerName)
+uid: crmscript_ref_NSSignedPublicKey_SetOwnerName
+title: SetOwnerName(String ownerName)
 intellisense: NSSignedPublicKey.SetOwnerName
 keywords: NSSignedPublicKey, GetOwnerName
 so.topic: reference

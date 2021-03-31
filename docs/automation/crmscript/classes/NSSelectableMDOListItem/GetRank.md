@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_GetRank
-description: Integer NSSelectableMDOListItem.GetRank()
+uid: crmscript_ref_NSSelectableMDOListItem_GetRank
+title: Integer GetRank()
 intellisense: NSSelectableMDOListItem.GetRank
 keywords: NSSelectableMDOListItem, GetRank
 so.topic: reference

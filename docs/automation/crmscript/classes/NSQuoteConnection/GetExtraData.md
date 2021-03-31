@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_GetExtraData
-description: String NSQuoteConnection.GetExtraData()
+uid: crmscript_ref_NSQuoteConnection_GetExtraData
+title: String GetExtraData()
 intellisense: NSQuoteConnection.GetExtraData
 keywords: NSQuoteConnection, GetExtraData
 so.topic: reference

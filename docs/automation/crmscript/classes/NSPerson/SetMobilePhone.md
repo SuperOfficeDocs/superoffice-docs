@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetMobilePhone
-description: NSPerson.SetMobilePhone(String mobilePhone)
+uid: crmscript_ref_NSPerson_SetMobilePhone
+title: SetMobilePhone(String mobilePhone)
 intellisense: NSPerson.SetMobilePhone
 keywords: NSPerson, GetMobilePhone
 so.topic: reference

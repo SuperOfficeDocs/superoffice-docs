@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_AddBounceWithCount
-description: Void AddBounceWithCount(String emailAddress, Integer counts)
+uid: crmscript_ref_NSPersonAgent_AddBounceWithCount
+title: Void AddBounceWithCount(String emailAddress, Integer counts)
 intellisense: NSPersonAgent.AddBounceWithCount
-keywords: NSPersonAgent,AddBounceWithCount
+keywords: NSPersonAgent, AddBounceWithCount
 so.topic: reference
 ---
 

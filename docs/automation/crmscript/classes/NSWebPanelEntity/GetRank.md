@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetRank
-description: Integer NSWebPanelEntity.GetRank()
+uid: crmscript_ref_NSWebPanelEntity_GetRank
+title: Integer GetRank()
 intellisense: NSWebPanelEntity.GetRank
 keywords: NSWebPanelEntity, GetRank
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetSubscriptionStart
-description: DateTime NSQuoteLine.GetSubscriptionStart()
+uid: crmscript_ref_NSQuoteLine_GetSubscriptionStart
+title: DateTime GetSubscriptionStart()
 intellisense: NSQuoteLine.GetSubscriptionStart
 keywords: NSQuoteLine, GetSubscriptionStart
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummaryItem_SetCompleted
-description: NSActivitySummaryItem.SetCompleted(Integer completed)
+uid: crmscript_ref_NSActivitySummaryItem_SetCompleted
+title: SetCompleted(Integer completed)
 intellisense: NSActivitySummaryItem.SetCompleted
 keywords: NSActivitySummaryItem, GetCompleted
 so.topic: reference

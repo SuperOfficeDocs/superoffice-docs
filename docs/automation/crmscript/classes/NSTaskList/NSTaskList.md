@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskList
-description: NSTaskList
+uid: crmscript_ref_NSTaskList
+title: NSTaskList
 intellisense: Void.NSTaskList
 keywords: NSTaskList
 so.topic: reference

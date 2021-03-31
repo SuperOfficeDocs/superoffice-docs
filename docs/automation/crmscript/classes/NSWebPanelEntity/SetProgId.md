@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetProgId
-description: NSWebPanelEntity.SetProgId(String progId)
+uid: crmscript_ref_NSWebPanelEntity_SetProgId
+title: SetProgId(String progId)
 intellisense: NSWebPanelEntity.SetProgId
 keywords: NSWebPanelEntity, GetProgId
 so.topic: reference

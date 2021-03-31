@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetActiveLinks
-description: Integer NSDocumentEntity.GetActiveLinks()
+uid: crmscript_ref_NSDocumentEntity_GetActiveLinks
+title: Integer GetActiveLinks()
 intellisense: NSDocumentEntity.GetActiveLinks
 keywords: NSDocumentEntity, GetActiveLinks
 so.topic: reference

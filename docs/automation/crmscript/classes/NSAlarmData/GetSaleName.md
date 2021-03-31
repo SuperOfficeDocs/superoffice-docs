@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetSaleName
-description: String NSAlarmData.GetSaleName()
+uid: crmscript_ref_NSAlarmData_GetSaleName
+title: String GetSaleName()
 intellisense: NSAlarmData.GetSaleName
 keywords: NSAlarmData, GetSaleName
 so.topic: reference

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetExtraFields
-description: NSPersonEntity.SetExtraFields(Map extras)
+uid: crmscript_ref_NSPersonEntity_SetExtraFields
+title: SetExtraFields(Map extras)
 intellisense: NSPersonEntity.SetExtraFields
 keywords: NSPersonEntity, SetExtraFields
 so.topic: reference
 ---
 
-Set the extra field values with a map.
+Set the extra field values on PersonEntity with a map.
 
 **Parameter:** 
  - **extras** Map containing extra field values encoded as strings.

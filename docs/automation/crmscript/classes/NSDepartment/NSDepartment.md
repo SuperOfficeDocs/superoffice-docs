@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDepartment
-description: NSDepartment
+uid: crmscript_ref_NSDepartment
+title: NSDepartment
 intellisense: Void.NSDepartment
 keywords: NSDepartment
 so.topic: reference

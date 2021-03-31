@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListEntity
-description: NSListEntity
+uid: crmscript_ref_NSListEntity
+title: NSListEntity
 intellisense: Void.NSListEntity
 keywords: NSListEntity
 so.topic: reference

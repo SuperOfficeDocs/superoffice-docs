@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaintConfiguration_GetRowsGenerated
-description: Integer NSSaintConfiguration.GetRowsGenerated()
+uid: crmscript_ref_NSSaintConfiguration_GetRowsGenerated
+title: Integer GetRowsGenerated()
 intellisense: NSSaintConfiguration.GetRowsGenerated
 keywords: NSSaintConfiguration, GetRowsGenerated
 so.topic: reference

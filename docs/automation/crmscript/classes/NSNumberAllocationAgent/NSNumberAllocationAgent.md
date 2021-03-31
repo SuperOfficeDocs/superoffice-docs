@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSNumberAllocationAgent
-description: NSNumberAllocationAgent
+uid: crmscript_ref_NSNumberAllocationAgent
+title: NSNumberAllocationAgent
 intellisense: Void.NSNumberAllocationAgent
 keywords: NSNumberAllocationAgent
 so.topic: reference

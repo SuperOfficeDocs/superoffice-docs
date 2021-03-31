@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity_SetRegisteredAssociateId
-description: NSTriggerScriptEntity.SetRegisteredAssociateId(Integer registeredAssociateId)
+uid: crmscript_ref_NSTriggerScriptEntity_SetRegisteredAssociateId
+title: SetRegisteredAssociateId(Integer registeredAssociateId)
 intellisense: NSTriggerScriptEntity.SetRegisteredAssociateId
 keywords: NSTriggerScriptEntity, GetRegisteredAssociateId
 so.topic: reference

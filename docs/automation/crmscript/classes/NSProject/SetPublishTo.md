@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_SetPublishTo
-description: NSProject.SetPublishTo(DateTime publishTo)
+uid: crmscript_ref_NSProject_SetPublishTo
+title: SetPublishTo(DateTime publishTo)
 intellisense: NSProject.SetPublishTo
 keywords: NSProject, GetPublishTo
 so.topic: reference

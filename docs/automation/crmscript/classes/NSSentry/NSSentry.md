@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSentry
-description: NSSentry
+uid: crmscript_ref_NSSentry
+title: NSSentry
 intellisense: Void.NSSentry
 keywords: NSSentry
 so.topic: reference

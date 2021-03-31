@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAssociate_GetFormalName
-description: String NSAssociate.GetFormalName()
+uid: crmscript_ref_NSAssociate_GetFormalName
+title: String GetFormalName()
 intellisense: NSAssociate.GetFormalName
 keywords: NSAssociate, GetFormalName
 so.topic: reference

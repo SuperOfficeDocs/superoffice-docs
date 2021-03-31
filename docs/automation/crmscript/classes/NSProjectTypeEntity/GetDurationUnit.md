@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectTypeEntity_GetDurationUnit
-description: DurationUnit NSProjectTypeEntity.GetDurationUnit()
+uid: crmscript_ref_NSProjectTypeEntity_GetDurationUnit
+title: DurationUnit GetDurationUnit()
 intellisense: NSProjectTypeEntity.GetDurationUnit
 keywords: NSProjectTypeEntity, GetDurationUnit
 so.topic: reference

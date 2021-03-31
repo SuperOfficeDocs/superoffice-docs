@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTag_GetToolTip
-description: String NSTag.GetToolTip()
+uid: crmscript_ref_NSTag_GetToolTip
+title: String GetToolTip()
 intellisense: NSTag.GetToolTip
 keywords: NSTag, GetToolTip
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignKey_GetCreatedBy
-description: String NSForeignKey.GetCreatedBy()
+uid: crmscript_ref_NSForeignKey_GetCreatedBy
+title: String GetCreatedBy()
 intellisense: NSForeignKey.GetCreatedBy
 keywords: NSForeignKey, GetCreatedBy
 so.topic: reference

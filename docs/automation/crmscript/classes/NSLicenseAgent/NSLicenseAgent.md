@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent
-description: NSLicenseAgent
+uid: crmscript_ref_NSLicenseAgent
+title: NSLicenseAgent
 intellisense: Void.NSLicenseAgent
 keywords: NSLicenseAgent
 so.topic: reference

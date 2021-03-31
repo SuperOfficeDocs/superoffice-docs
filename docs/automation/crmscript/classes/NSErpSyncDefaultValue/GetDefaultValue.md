@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue_GetDefaultValue
-description: String NSErpSyncDefaultValue.GetDefaultValue()
+uid: crmscript_ref_NSErpSyncDefaultValue_GetDefaultValue
+title: String GetDefaultValue()
 intellisense: NSErpSyncDefaultValue.GetDefaultValue
 keywords: NSErpSyncDefaultValue, GetDefaultValue
 so.topic: reference

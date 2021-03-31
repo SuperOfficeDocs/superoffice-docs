@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity
-description: NSRoleEntity
+uid: crmscript_ref_NSRoleEntity
+title: NSRoleEntity
 intellisense: Void.NSRoleEntity
 keywords: NSRoleEntity
 so.topic: reference

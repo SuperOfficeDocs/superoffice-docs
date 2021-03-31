@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAccount_SetEMailAddress
-description: NSEMailAccount.SetEMailAddress(String eMailAddress)
+uid: crmscript_ref_NSEMailAccount_SetEMailAddress
+title: SetEMailAddress(String eMailAddress)
 intellisense: NSEMailAccount.SetEMailAddress
 keywords: NSEMailAccount, GetEMailAddress
 so.topic: reference

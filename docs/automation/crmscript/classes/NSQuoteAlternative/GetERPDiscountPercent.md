@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_GetERPDiscountPercent
-description: Float NSQuoteAlternative.GetERPDiscountPercent()
+uid: crmscript_ref_NSQuoteAlternative_GetERPDiscountPercent
+title: Float GetERPDiscountPercent()
 intellisense: NSQuoteAlternative.GetERPDiscountPercent
 keywords: NSQuoteAlternative, GetERPDiscountPercent
 so.topic: reference

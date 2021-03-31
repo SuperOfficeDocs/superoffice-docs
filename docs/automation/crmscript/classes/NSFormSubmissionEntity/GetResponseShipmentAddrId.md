@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_GetResponseShipmentAddrId
-description: Integer NSFormSubmissionEntity.GetResponseShipmentAddrId()
+uid: crmscript_ref_NSFormSubmissionEntity_GetResponseShipmentAddrId
+title: Integer GetResponseShipmentAddrId()
 intellisense: NSFormSubmissionEntity.GetResponseShipmentAddrId
 keywords: NSFormSubmissionEntity, GetResponseShipmentAddrId
 so.topic: reference

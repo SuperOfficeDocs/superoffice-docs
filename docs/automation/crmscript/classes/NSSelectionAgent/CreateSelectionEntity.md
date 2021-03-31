@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CreateSelectionEntity
-description: SelectionEntity CreateSelectionEntity(String targetTableName)
+uid: crmscript_ref_NSSelectionAgent_CreateSelectionEntity
+title: SelectionEntity CreateSelectionEntity(String targetTableName)
 intellisense: NSSelectionAgent.CreateSelectionEntity
-keywords: NSSelectionAgent,CreateSelectionEntity
+keywords: NSSelectionAgent, CreateSelectionEntity
 so.topic: reference
 ---
 

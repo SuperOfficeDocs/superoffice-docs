@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetSelectionType
-description: NSSelectionEntity.SetSelectionType(Integer selectionType)
+uid: crmscript_ref_NSSelectionEntity_SetSelectionType
+title: SetSelectionType(Integer selectionType)
 intellisense: NSSelectionEntity.SetSelectionType
 keywords: NSSelectionEntity, GetSelectionType
 so.topic: reference

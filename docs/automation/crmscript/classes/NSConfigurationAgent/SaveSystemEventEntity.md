@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_SaveSystemEventEntity
-description: NSSystemEventEntity SaveSystemEventEntity(NSSystemEventEntity systemEventEntity);
+uid: crmscript_ref_NSConfigurationAgent_SaveSystemEventEntity
+title: NSSystemEventEntity SaveSystemEventEntity(NSSystemEventEntity systemEventEntity);
 intellisense: NSConfigurationAgent.SaveSystemEventEntity
-keywords: NSConfigurationAgent,SaveSystemEventEntity
+keywords: NSConfigurationAgent, SaveSystemEventEntity
 so.topic: reference
 ---
 	  

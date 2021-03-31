@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_SetToolTip
-description: NSMDOListItem.SetToolTip(String toolTip)
+uid: crmscript_ref_NSMDOListItem_SetToolTip
+title: SetToolTip(String toolTip)
 intellisense: NSMDOListItem.SetToolTip
 keywords: NSMDOListItem, GetToolTip
 so.topic: reference

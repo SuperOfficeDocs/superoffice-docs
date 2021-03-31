@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetOfflineFields
-description: WidgetRequiredFields NSChatWidgetSettings.GetOfflineFields()
+uid: crmscript_ref_NSChatWidgetSettings_GetOfflineFields
+title: WidgetRequiredFields GetOfflineFields()
 intellisense: NSChatWidgetSettings.GetOfflineFields
 keywords: NSChatWidgetSettings, GetOfflineFields
 so.topic: reference

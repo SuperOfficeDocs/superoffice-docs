@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_SetConnectionId
-description: NSErpConnection.SetConnectionId(String connectionId)
+uid: crmscript_ref_NSErpConnection_SetConnectionId
+title: SetConnectionId(String connectionId)
 intellisense: NSErpConnection.SetConnectionId
 keywords: NSErpConnection, GetConnectionId
 so.topic: reference

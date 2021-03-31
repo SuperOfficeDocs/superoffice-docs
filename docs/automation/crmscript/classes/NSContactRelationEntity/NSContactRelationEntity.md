@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity
-description: NSContactRelationEntity
+uid: crmscript_ref_NSContactRelationEntity
+title: NSContactRelationEntity
 intellisense: Void.NSContactRelationEntity
 keywords: NSContactRelationEntity
 so.topic: reference

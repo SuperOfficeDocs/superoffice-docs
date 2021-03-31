@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_GetAllowBlank
-description: Bool NSRefCountEntity.GetAllowBlank()
+uid: crmscript_ref_NSRefCountEntity_GetAllowBlank
+title: Bool GetAllowBlank()
 intellisense: NSRefCountEntity.GetAllowBlank
 keywords: NSRefCountEntity, GetAllowBlank
 so.topic: reference

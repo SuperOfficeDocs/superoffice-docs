@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLink_GetExtraInfo
-description: String NSLink.GetExtraInfo()
+uid: crmscript_ref_NSLink_GetExtraInfo
+title: String GetExtraInfo()
 intellisense: NSLink.GetExtraInfo
 keywords: NSLink, GetExtraInfo
 so.topic: reference

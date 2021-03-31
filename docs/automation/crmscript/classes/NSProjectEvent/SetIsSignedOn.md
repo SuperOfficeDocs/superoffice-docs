@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_SetIsSignedOn
-description: NSProjectEvent.SetIsSignedOn(Bool isSignedOn)
+uid: crmscript_ref_NSProjectEvent_SetIsSignedOn
+title: SetIsSignedOn(Bool isSignedOn)
 intellisense: NSProjectEvent.SetIsSignedOn
 keywords: NSProjectEvent, GetIsSignedOn
 so.topic: reference

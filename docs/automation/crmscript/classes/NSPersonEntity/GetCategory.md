@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetCategory
-description: Category NSPersonEntity.GetCategory()
+uid: crmscript_ref_NSPersonEntity_GetCategory
+title: Category GetCategory()
 intellisense: NSPersonEntity.GetCategory
 keywords: NSPersonEntity, GetCategory
 so.topic: reference

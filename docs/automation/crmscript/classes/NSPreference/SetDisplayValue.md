@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_SetDisplayValue
-description: NSPreference.SetDisplayValue(String displayValue)
+uid: crmscript_ref_NSPreference_SetDisplayValue
+title: SetDisplayValue(String displayValue)
 intellisense: NSPreference.SetDisplayValue
 keywords: NSPreference, GetDisplayValue
 so.topic: reference

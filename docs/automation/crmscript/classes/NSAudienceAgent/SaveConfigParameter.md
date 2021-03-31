@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_SaveConfigParameter
-description: AudienceConfigParameter SaveConfigParameter(String layoutName, AudienceConfigParameter configParameter)
+uid: crmscript_ref_NSAudienceAgent_SaveConfigParameter
+title: AudienceConfigParameter SaveConfigParameter(String layoutName, AudienceConfigParameter configParameter)
 intellisense: NSAudienceAgent.SaveConfigParameter
-keywords: NSAudienceAgent,SaveConfigParameter
+keywords: NSAudienceAgent, SaveConfigParameter
 so.topic: reference
 ---
 

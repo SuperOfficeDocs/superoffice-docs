@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetReopenDate
-description: DateTime NSSaleEntity.GetReopenDate()
+uid: crmscript_ref_NSSaleEntity_GetReopenDate
+title: DateTime GetReopenDate()
 intellisense: NSSaleEntity.GetReopenDate
 keywords: NSSaleEntity, GetReopenDate
 so.topic: reference

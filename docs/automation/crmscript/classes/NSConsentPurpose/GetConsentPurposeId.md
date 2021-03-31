@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_GetConsentPurposeId
-description: Integer NSConsentPurpose.GetConsentPurposeId()
+uid: crmscript_ref_NSConsentPurpose_GetConsentPurposeId
+title: Integer GetConsentPurposeId()
 intellisense: NSConsentPurpose.GetConsentPurposeId
 keywords: NSConsentPurpose, GetConsentPurposeId
 so.topic: reference

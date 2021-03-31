@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternativeRecalculated_SetChangedQuoteAlternative
-description: NSQuoteAlternativeRecalculated.SetChangedQuoteAlternative(QuoteAlternative changedQuoteAlternative)
+uid: crmscript_ref_NSQuoteAlternativeRecalculated_SetChangedQuoteAlternative
+title: SetChangedQuoteAlternative(QuoteAlternative changedQuoteAlternative)
 intellisense: NSQuoteAlternativeRecalculated.SetChangedQuoteAlternative
 keywords: NSQuoteAlternativeRecalculated, GetChangedQuoteAlternative
 so.topic: reference

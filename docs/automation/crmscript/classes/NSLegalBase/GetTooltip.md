@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLegalBase_GetTooltip
-description: String NSLegalBase.GetTooltip()
+uid: crmscript_ref_NSLegalBase_GetTooltip
+title: String GetTooltip()
 intellisense: NSLegalBase.GetTooltip
 keywords: NSLegalBase, GetTooltip
 so.topic: reference

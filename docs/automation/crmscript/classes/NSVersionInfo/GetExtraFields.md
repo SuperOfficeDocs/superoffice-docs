@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVersionInfo_GetExtraFields
-description: StringArray NSVersionInfo.GetExtraFields()
+uid: crmscript_ref_NSVersionInfo_GetExtraFields
+title: StringArray GetExtraFields()
 intellisense: NSVersionInfo.GetExtraFields
 keywords: NSVersionInfo, GetExtraFields
 so.topic: reference

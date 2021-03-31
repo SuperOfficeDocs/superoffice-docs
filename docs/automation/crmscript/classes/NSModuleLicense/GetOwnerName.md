@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_GetOwnerName
-description: String NSModuleLicense.GetOwnerName()
+uid: crmscript_ref_NSModuleLicense_GetOwnerName
+title: String GetOwnerName()
 intellisense: NSModuleLicense.GetOwnerName
 keywords: NSModuleLicense, GetOwnerName
 so.topic: reference

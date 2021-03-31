@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCheckoutInfo_GetName
-description: String NSCheckoutInfo.GetName()
+uid: crmscript_ref_NSCheckoutInfo_GetName
+title: String GetName()
 intellisense: NSCheckoutInfo.GetName
 keywords: NSCheckoutInfo, GetName
 so.topic: reference

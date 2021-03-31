@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSKbCategory_GetParentId
-description: Integer NSKbCategory.GetParentId()
+uid: crmscript_ref_NSKbCategory_GetParentId
+title: Integer GetParentId()
 intellisense: NSKbCategory.GetParentId
 keywords: NSKbCategory, GetParentId
 so.topic: reference

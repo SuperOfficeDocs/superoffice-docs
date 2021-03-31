@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_CheckNewTimeZoneDataAvailable
-description: Bool CheckNewTimeZoneDataAvailable()
+uid: crmscript_ref_NSTimeZoneAgent_CheckNewTimeZoneDataAvailable
+title: Bool CheckNewTimeZoneDataAvailable()
 intellisense: NSTimeZoneAgent.CheckNewTimeZoneDataAvailable
-keywords: NSTimeZoneAgent,CheckNewTimeZoneDataAvailable
+keywords: NSTimeZoneAgent, CheckNewTimeZoneDataAvailable
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetIcon
-description: Integer NSExtAppEntity.GetIcon()
+uid: crmscript_ref_NSExtAppEntity_GetIcon
+title: Integer GetIcon()
 intellisense: NSExtAppEntity.GetIcon
 keywords: NSExtAppEntity, GetIcon
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GenerateNewPasswordForExternalUser
-description: String GenerateNewPasswordForExternalUser(String associateName)
+uid: crmscript_ref_NSUserAgent_GenerateNewPasswordForExternalUser
+title: String GenerateNewPasswordForExternalUser(String associateName)
 intellisense: NSUserAgent.GenerateNewPasswordForExternalUser
-keywords: NSUserAgent,GenerateNewPasswordForExternalUser
+keywords: NSUserAgent, GenerateNewPasswordForExternalUser
 so.topic: reference
 ---
 

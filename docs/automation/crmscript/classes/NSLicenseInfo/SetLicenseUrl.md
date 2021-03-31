@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_SetLicenseUrl
-description: NSLicenseInfo.SetLicenseUrl(String licenseUrl)
+uid: crmscript_ref_NSLicenseInfo_SetLicenseUrl
+title: SetLicenseUrl(String licenseUrl)
 intellisense: NSLicenseInfo.SetLicenseUrl
 keywords: NSLicenseInfo, GetLicenseUrl
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetUdefIdentity
-description: NSUserDefinedFieldInfo.SetUdefIdentity(Integer udefIdentity)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetUdefIdentity
+title: SetUdefIdentity(Integer udefIdentity)
 intellisense: NSUserDefinedFieldInfo.SetUdefIdentity
 keywords: NSUserDefinedFieldInfo, GetUdefIdentity
 so.topic: reference

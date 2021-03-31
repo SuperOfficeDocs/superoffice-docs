@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetRealTimeSpentExternally
-description: NSTicketEntity.SetRealTimeSpentExternally(Integer realTimeSpentExternally)
+uid: crmscript_ref_NSTicketEntity_SetRealTimeSpentExternally
+title: SetRealTimeSpentExternally(Integer realTimeSpentExternally)
 intellisense: NSTicketEntity.SetRealTimeSpentExternally
 keywords: NSTicketEntity, GetRealTimeSpentExternally
 so.topic: reference

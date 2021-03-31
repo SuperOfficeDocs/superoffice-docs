@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSentryAgent_CanCreateAppointmentInAllDiaries
-description: Bool CanCreateAppointmentInAllDiaries()
+uid: crmscript_ref_NSSentryAgent_CanCreateAppointmentInAllDiaries
+title: Bool CanCreateAppointmentInAllDiaries()
 intellisense: NSSentryAgent.CanCreateAppointmentInAllDiaries
-keywords: NSSentryAgent,CanCreateAppointmentInAllDiaries
+keywords: NSSentryAgent, CanCreateAppointmentInAllDiaries
 so.topic: reference
 ---
 

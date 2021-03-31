@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetCorrespondingAssociate
-description: NSPersonEntity.SetCorrespondingAssociate(Associate correspondingAssociate)
+uid: crmscript_ref_NSPersonEntity_SetCorrespondingAssociate
+title: SetCorrespondingAssociate(Associate correspondingAssociate)
 intellisense: NSPersonEntity.SetCorrespondingAssociate
 keywords: NSPersonEntity, GetCorrespondingAssociate
 so.topic: reference

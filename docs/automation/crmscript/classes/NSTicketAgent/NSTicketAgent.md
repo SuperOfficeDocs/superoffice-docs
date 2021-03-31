@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent
-description: NSTicketAgent
+uid: crmscript_ref_NSTicketAgent
+title: NSTicketAgent
 intellisense: Void.NSTicketAgent
 keywords: NSTicketAgent
 so.topic: reference

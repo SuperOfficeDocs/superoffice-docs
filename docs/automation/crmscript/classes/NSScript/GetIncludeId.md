@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSScript_GetIncludeId
-description: String NSScript.GetIncludeId()
+uid: crmscript_ref_NSScript_GetIncludeId
+title: String GetIncludeId()
 intellisense: NSScript.GetIncludeId
 keywords: NSScript, GetIncludeId
 so.topic: reference

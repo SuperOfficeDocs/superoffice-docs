@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetSenderEmailAddress
-description: String NSDocumentTemplateEntity.GetSenderEmailAddress()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetSenderEmailAddress
+title: String GetSenderEmailAddress()
 intellisense: NSDocumentTemplateEntity.GetSenderEmailAddress
 keywords: NSDocumentTemplateEntity, GetSenderEmailAddress
 so.topic: reference

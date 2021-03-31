@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSalesActivity_GetSalesRep
-description: Person NSSalesActivity.GetSalesRep()
+uid: crmscript_ref_NSSalesActivity_GetSalesRep
+title: Person GetSalesRep()
 intellisense: NSSalesActivity.GetSalesRep
 keywords: NSSalesActivity, GetSalesRep
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketDeviceInfo_SetDeviceName
-description: NSPocketDeviceInfo.SetDeviceName(String deviceName)
+uid: crmscript_ref_NSPocketDeviceInfo_SetDeviceName
+title: SetDeviceName(String deviceName)
 intellisense: NSPocketDeviceInfo.SetDeviceName
 keywords: NSPocketDeviceInfo, GetDeviceName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_SetFieldType
-description: NSFieldInfoBase.SetFieldType(Integer fieldType)
+uid: crmscript_ref_NSFieldInfoBase_SetFieldType
+title: SetFieldType(Integer fieldType)
 intellisense: NSFieldInfoBase.SetFieldType
 keywords: NSFieldInfoBase, GetFieldType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_SetAccess
-description: NSFieldMetadata.SetAccess(Integer access)
+uid: crmscript_ref_NSFieldMetadata_SetAccess
+title: SetAccess(Integer access)
 intellisense: NSFieldMetadata.SetAccess
 keywords: NSFieldMetadata, GetAccess
 so.topic: reference

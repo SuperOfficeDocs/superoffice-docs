@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetInvitationStatus
-description: Integer NSAppointmentEntity.GetInvitationStatus()
+uid: crmscript_ref_NSAppointmentEntity_GetInvitationStatus
+title: Integer GetInvitationStatus()
 intellisense: NSAppointmentEntity.GetInvitationStatus
 keywords: NSAppointmentEntity, GetInvitationStatus
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultTicketPriorityEntity
-description: NSTicketPriorityEntity CreateDefaultTicketPriorityEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultTicketPriorityEntity
+title: NSTicketPriorityEntity CreateDefaultTicketPriorityEntity()
 intellisense: NSListAgent.CreateDefaultTicketPriorityEntity
-keywords: NSListAgent,CreateDefaultTicketPriorityEntity
+keywords: NSListAgent, CreateDefaultTicketPriorityEntity
 so.topic: reference
 ---
 	  

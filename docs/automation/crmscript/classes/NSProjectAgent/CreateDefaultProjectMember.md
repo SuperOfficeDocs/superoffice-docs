@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_CreateDefaultProjectMember
-description: NSProjectMember CreateDefaultProjectMember()
+uid: crmscript_ref_NSProjectAgent_CreateDefaultProjectMember
+title: NSProjectMember CreateDefaultProjectMember()
 intellisense: NSProjectAgent.CreateDefaultProjectMember
-keywords: NSProjectAgent,CreateDefaultProjectMember
+keywords: NSProjectAgent, CreateDefaultProjectMember
 so.topic: reference
 ---
 	  

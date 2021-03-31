@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAssociateAgent_GetAssociateList
-description: NSAssociate[] GetAssociateList(Integer[]  associateIds);
+uid: crmscript_ref_NSAssociateAgent_GetAssociateList
+title: NSAssociate[] GetAssociateList(Integer[]  associateIds);
 intellisense: NSAssociateAgent.GetAssociateList
-keywords: NSAssociateAgent,GetAssociateList
+keywords: NSAssociateAgent, GetAssociateList
 so.topic: reference
 ---
 

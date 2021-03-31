@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_SetCurrencyId
-description: NSCountry.SetCurrencyId(Integer currencyId)
+uid: crmscript_ref_NSCountry_SetCurrencyId
+title: SetCurrencyId(Integer currencyId)
 intellisense: NSCountry.SetCurrencyId
 keywords: NSCountry, GetCurrencyId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_GetColorBlock
-description: Integer NSMDOListItem.GetColorBlock()
+uid: crmscript_ref_NSMDOListItem_GetColorBlock
+title: Integer GetColorBlock()
 intellisense: NSMDOListItem.GetColorBlock
 keywords: NSMDOListItem, GetColorBlock
 so.topic: reference

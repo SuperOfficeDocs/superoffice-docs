@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPhoneListAgent_AddToFavorites
-description: Integer AddToFavorites(Integer contactId)
+uid: crmscript_ref_NSPhoneListAgent_AddToFavorites
+title: Integer AddToFavorites(Integer contactId)
 intellisense: NSPhoneListAgent.AddToFavorites
-keywords: NSPhoneListAgent,AddToFavorites
+keywords: NSPhoneListAgent, AddToFavorites
 so.topic: reference
 ---
 

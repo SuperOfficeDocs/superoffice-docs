@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetDiscountAmount
-description: Float NSQuoteLine.GetDiscountAmount()
+uid: crmscript_ref_NSQuoteLine_GetDiscountAmount
+title: Float GetDiscountAmount()
 intellisense: NSQuoteLine.GetDiscountAmount
 keywords: NSQuoteLine, GetDiscountAmount
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDocumentTemplateLanguages
-description: StringArray GetDocumentTemplateLanguages(Integer documentTemplateId)
+uid: crmscript_ref_NSListAgent_GetDocumentTemplateLanguages
+title: StringArray GetDocumentTemplateLanguages(Integer documentTemplateId)
 intellisense: NSListAgent.GetDocumentTemplateLanguages
-keywords: NSListAgent,GetDocumentTemplateLanguages
+keywords: NSListAgent, GetDocumentTemplateLanguages
 so.topic: reference
 ---
 

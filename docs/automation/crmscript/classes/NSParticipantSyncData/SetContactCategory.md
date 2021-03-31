@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetContactCategory
-description: NSParticipantSyncData.SetContactCategory(String contactCategory)
+uid: crmscript_ref_NSParticipantSyncData_SetContactCategory
+title: SetContactCategory(String contactCategory)
 intellisense: NSParticipantSyncData.SetContactCategory
 keywords: NSParticipantSyncData, GetContactCategory
 so.topic: reference

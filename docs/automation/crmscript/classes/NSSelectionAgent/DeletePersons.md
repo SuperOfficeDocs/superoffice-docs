@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_DeletePersons
-description: Void DeletePersons(Integer selectionId)
+uid: crmscript_ref_NSSelectionAgent_DeletePersons
+title: Void DeletePersons(Integer selectionId)
 intellisense: NSSelectionAgent.DeletePersons
-keywords: NSSelectionAgent,DeletePersons
+keywords: NSSelectionAgent, DeletePersons
 so.topic: reference
 ---
 

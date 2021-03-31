@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetDefaultValueInfo
-description: ErpSyncDefaultValue GetDefaultValueInfo(Integer erpFieldId)
+uid: crmscript_ref_NSErpSyncAgent_GetDefaultValueInfo
+title: ErpSyncDefaultValue GetDefaultValueInfo(Integer erpFieldId)
 intellisense: NSErpSyncAgent.GetDefaultValueInfo
-keywords: NSErpSyncAgent,GetDefaultValueInfo
+keywords: NSErpSyncAgent, GetDefaultValueInfo
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHierarchyEntity_GetDomain
-description: Integer NSHierarchyEntity.GetDomain()
+uid: crmscript_ref_NSHierarchyEntity_GetDomain
+title: Integer GetDomain()
 intellisense: NSHierarchyEntity.GetDomain
 keywords: NSHierarchyEntity, GetDomain
 so.topic: reference

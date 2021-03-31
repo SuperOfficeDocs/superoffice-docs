@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetAssignmentStatus
-description: Integer NSAppointment.GetAssignmentStatus()
+uid: crmscript_ref_NSAppointment_GetAssignmentStatus
+title: Integer GetAssignmentStatus()
 intellisense: NSAppointment.GetAssignmentStatus
 keywords: NSAppointment, GetAssignmentStatus
 so.topic: reference

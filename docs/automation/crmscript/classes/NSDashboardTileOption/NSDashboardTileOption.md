@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption
-description: NSDashboardTileOption
+uid: crmscript_ref_NSDashboardTileOption
+title: NSDashboardTileOption
 intellisense: Void.NSDashboardTileOption
 keywords: NSDashboardTileOption
 so.topic: reference

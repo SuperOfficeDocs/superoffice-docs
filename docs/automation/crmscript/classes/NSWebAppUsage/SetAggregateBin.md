@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebAppUsage_SetAggregateBin
-description: NSWebAppUsage.SetAggregateBin(Integer aggregateBin)
+uid: crmscript_ref_NSWebAppUsage_SetAggregateBin
+title: SetAggregateBin(Integer aggregateBin)
 intellisense: NSWebAppUsage.SetAggregateBin
 keywords: NSWebAppUsage, GetAggregateBin
 so.topic: reference

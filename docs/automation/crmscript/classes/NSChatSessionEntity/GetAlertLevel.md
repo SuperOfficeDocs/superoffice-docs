@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetAlertLevel
-description: Integer NSChatSessionEntity.GetAlertLevel()
+uid: crmscript_ref_NSChatSessionEntity_GetAlertLevel
+title: Integer GetAlertLevel()
 intellisense: NSChatSessionEntity.GetAlertLevel
 keywords: NSChatSessionEntity, GetAlertLevel
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointmentEntity_GetAssignToMember
-description: Bool NSSuggestedAppointmentEntity.GetAssignToMember()
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetAssignToMember
+title: Bool GetAssignToMember()
 intellisense: NSSuggestedAppointmentEntity.GetAssignToMember
 keywords: NSSuggestedAppointmentEntity, GetAssignToMember
 so.topic: reference

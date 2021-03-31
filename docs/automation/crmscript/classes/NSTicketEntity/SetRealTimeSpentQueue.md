@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetRealTimeSpentQueue
-description: NSTicketEntity.SetRealTimeSpentQueue(Integer realTimeSpentQueue)
+uid: crmscript_ref_NSTicketEntity_SetRealTimeSpentQueue
+title: SetRealTimeSpentQueue(Integer realTimeSpentQueue)
 intellisense: NSTicketEntity.SetRealTimeSpentQueue
 keywords: NSTicketEntity, GetRealTimeSpentQueue
 so.topic: reference

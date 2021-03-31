@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetContact
-description: NSChatSessionEntity.SetContact(Contact contact)
+uid: crmscript_ref_NSChatSessionEntity_SetContact
+title: SetContact(Contact contact)
 intellisense: NSChatSessionEntity.SetContact
 keywords: NSChatSessionEntity, GetContact
 so.topic: reference

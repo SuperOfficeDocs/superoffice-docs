@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetSource
-description: Integer NSPersonEntity.GetSource()
+uid: crmscript_ref_NSPersonEntity_GetSource
+title: Integer GetSource()
 intellisense: NSPersonEntity.GetSource
 keywords: NSPersonEntity, GetSource
 so.topic: reference

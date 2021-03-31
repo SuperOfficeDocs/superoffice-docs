@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GenerateLead
-description: SalesActivity GenerateLead(Integer associateIdForNewContact, String leadDescription, String relation, Integer relationId, String leadContact, String leadPersonFirstname, String leadPersonLastname, String leadPersonEmail, String leadPhoneNumber, String creatorsContact, String creatorsFirstname, String creatorsLastname)
+uid: crmscript_ref_NSAppointmentAgent_GenerateLead
+title: SalesActivity GenerateLead(Integer associateIdForNewContact, String leadDescription, String relation, Integer relationId, String leadContact, String leadPersonFirstname, String leadPersonLastname, String leadPersonEmail, String leadPhoneNumber, String creatorsContact, String creatorsFirstname, String creatorsLastname)
 intellisense: NSAppointmentAgent.GenerateLead
-keywords: NSAppointmentAgent,GenerateLead
+keywords: NSAppointmentAgent, GenerateLead
 so.topic: reference
 ---
 

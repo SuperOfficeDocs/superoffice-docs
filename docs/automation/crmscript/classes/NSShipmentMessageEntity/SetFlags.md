@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_SetFlags
-description: NSShipmentMessageEntity.SetFlags(Integer flags)
+uid: crmscript_ref_NSShipmentMessageEntity_SetFlags
+title: SetFlags(Integer flags)
 intellisense: NSShipmentMessageEntity.SetFlags
 keywords: NSShipmentMessageEntity, GetFlags
 so.topic: reference

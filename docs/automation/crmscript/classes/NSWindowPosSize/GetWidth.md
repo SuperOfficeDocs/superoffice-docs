@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_GetWidth
-description: Integer NSWindowPosSize.GetWidth()
+uid: crmscript_ref_NSWindowPosSize_GetWidth
+title: Integer GetWidth()
 intellisense: NSWindowPosSize.GetWidth
 keywords: NSWindowPosSize, GetWidth
 so.topic: reference

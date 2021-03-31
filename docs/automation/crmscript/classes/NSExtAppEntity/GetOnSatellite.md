@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetOnSatellite
-description: Bool NSExtAppEntity.GetOnSatellite()
+uid: crmscript_ref_NSExtAppEntity_GetOnSatellite
+title: Bool GetOnSatellite()
 intellisense: NSExtAppEntity.GetOnSatellite
 keywords: NSExtAppEntity, GetOnSatellite
 so.topic: reference

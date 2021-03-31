@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_CheckIfCustomizedTemplates
-description: Bool CheckIfCustomizedTemplates()
+uid: crmscript_ref_NSCustomerServiceAgent_CheckIfCustomizedTemplates
+title: Bool CheckIfCustomizedTemplates()
 intellisense: NSCustomerServiceAgent.CheckIfCustomizedTemplates
-keywords: NSCustomerServiceAgent,CheckIfCustomizedTemplates
+keywords: NSCustomerServiceAgent, CheckIfCustomizedTemplates
 so.topic: reference
 ---
 

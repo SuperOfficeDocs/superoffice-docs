@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessage_GetImportant
-description: Bool NSTicketMessage.GetImportant()
+uid: crmscript_ref_NSTicketMessage_GetImportant
+title: Bool GetImportant()
 intellisense: NSTicketMessage.GetImportant
 keywords: NSTicketMessage, GetImportant
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDevice_GetName
-description: String NSForeignDevice.GetName()
+uid: crmscript_ref_NSForeignDevice_GetName
+title: String GetName()
 intellisense: NSForeignDevice.GetName
 keywords: NSForeignDevice, GetName
 so.topic: reference

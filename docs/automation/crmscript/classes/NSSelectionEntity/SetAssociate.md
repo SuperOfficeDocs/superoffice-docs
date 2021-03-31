@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetAssociate
-description: NSSelectionEntity.SetAssociate(Associate associate)
+uid: crmscript_ref_NSSelectionEntity_SetAssociate
+title: SetAssociate(Associate associate)
 intellisense: NSSelectionEntity.SetAssociate
 keywords: NSSelectionEntity, GetAssociate
 so.topic: reference

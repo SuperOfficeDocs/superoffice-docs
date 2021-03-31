@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetWhenIdle
-description: NSChatSessionEntity.SetWhenIdle(DateTime whenIdle)
+uid: crmscript_ref_NSChatSessionEntity_SetWhenIdle
+title: SetWhenIdle(DateTime whenIdle)
 intellisense: NSChatSessionEntity.SetWhenIdle
 keywords: NSChatSessionEntity, GetWhenIdle
 so.topic: reference

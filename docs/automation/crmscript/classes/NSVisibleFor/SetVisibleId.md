@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVisibleFor_SetVisibleId
-description: NSVisibleFor.SetVisibleId(Integer visibleId)
+uid: crmscript_ref_NSVisibleFor_SetVisibleId
+title: SetVisibleId(Integer visibleId)
 intellisense: NSVisibleFor.SetVisibleId
 keywords: NSVisibleFor, GetVisibleId
 so.topic: reference

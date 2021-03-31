@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_SetDescription
-description: NSShipmentMessageEntity.SetDescription(String description)
+uid: crmscript_ref_NSShipmentMessageEntity_SetDescription
+title: SetDescription(String description)
 intellisense: NSShipmentMessageEntity.SetDescription
 keywords: NSShipmentMessageEntity, GetDescription
 so.topic: reference

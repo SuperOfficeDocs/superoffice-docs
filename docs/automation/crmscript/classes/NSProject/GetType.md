@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_GetType
-description: String NSProject.GetType()
+uid: crmscript_ref_NSProject_GetType
+title: String GetType()
 intellisense: NSProject.GetType
 keywords: NSProject, GetType
 so.topic: reference

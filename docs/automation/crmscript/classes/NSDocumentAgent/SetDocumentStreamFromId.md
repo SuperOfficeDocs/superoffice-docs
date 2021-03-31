@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SetDocumentStreamFromId
-description: DocumentEntity SetDocumentStreamFromId(Integer documentId, Stream stream)
+uid: crmscript_ref_NSDocumentAgent_SetDocumentStreamFromId
+title: DocumentEntity SetDocumentStreamFromId(Integer documentId, Stream stream)
 intellisense: NSDocumentAgent.SetDocumentStreamFromId
-keywords: NSDocumentAgent,SetDocumentStreamFromId
+keywords: NSDocumentAgent, SetDocumentStreamFromId
 so.topic: reference
 ---
 

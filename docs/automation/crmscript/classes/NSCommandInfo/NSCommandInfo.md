@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCommandInfo
-description: NSCommandInfo
+uid: crmscript_ref_NSCommandInfo
+title: NSCommandInfo
 intellisense: Void.NSCommandInfo
 keywords: NSCommandInfo
 so.topic: reference

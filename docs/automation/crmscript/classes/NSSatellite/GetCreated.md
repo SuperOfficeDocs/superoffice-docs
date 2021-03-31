@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSatellite_GetCreated
-description: DateTime NSSatellite.GetCreated()
+uid: crmscript_ref_NSSatellite_GetCreated
+title: DateTime GetCreated()
 intellisense: NSSatellite.GetCreated
 keywords: NSSatellite, GetCreated
 so.topic: reference

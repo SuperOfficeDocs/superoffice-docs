@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescriptionLine_GetPrefValue
-description: String NSPreferenceDescriptionLine.GetPrefValue()
+uid: crmscript_ref_NSPreferenceDescriptionLine_GetPrefValue
+title: String GetPrefValue()
 intellisense: NSPreferenceDescriptionLine.GetPrefValue
 keywords: NSPreferenceDescriptionLine, GetPrefValue
 so.topic: reference

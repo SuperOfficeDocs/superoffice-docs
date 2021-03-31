@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_CheckoutDocument
-description: ReturnInfo CheckoutDocument(Integer documentId, StringArray allowedReturnTypes)
+uid: crmscript_ref_NSDocumentAgent_CheckoutDocument
+title: ReturnInfo CheckoutDocument(Integer documentId, StringArray allowedReturnTypes)
 intellisense: NSDocumentAgent.CheckoutDocument
-keywords: NSDocumentAgent,CheckoutDocument
+keywords: NSDocumentAgent, CheckoutDocument
 so.topic: reference
 ---
 

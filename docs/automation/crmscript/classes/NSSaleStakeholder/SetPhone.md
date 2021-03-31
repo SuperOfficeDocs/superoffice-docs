@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_SetPhone
-description: NSSaleStakeholder.SetPhone(String phone)
+uid: crmscript_ref_NSSaleStakeholder_SetPhone
+title: SetPhone(String phone)
 intellisense: NSSaleStakeholder.SetPhone
 keywords: NSSaleStakeholder, GetPhone
 so.topic: reference

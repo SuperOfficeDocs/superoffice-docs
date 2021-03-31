@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetInlineImages
-description: Bool NSShipmentMessageEntity.GetInlineImages()
+uid: crmscript_ref_NSShipmentMessageEntity_GetInlineImages
+title: Bool GetInlineImages()
 intellisense: NSShipmentMessageEntity.GetInlineImages
 keywords: NSShipmentMessageEntity, GetInlineImages
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSNumberAllocationAgent_GetNumberEachTemplate
-description: Bool GetNumberEachTemplate()
+uid: crmscript_ref_NSNumberAllocationAgent_GetNumberEachTemplate
+title: Bool GetNumberEachTemplate()
 intellisense: NSNumberAllocationAgent.GetNumberEachTemplate
-keywords: NSNumberAllocationAgent,GetNumberEachTemplate
+keywords: NSNumberAllocationAgent, GetNumberEachTemplate
 so.topic: reference
 ---
 

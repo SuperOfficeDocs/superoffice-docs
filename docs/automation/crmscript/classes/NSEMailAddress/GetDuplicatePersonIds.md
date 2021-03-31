@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAddress_GetDuplicatePersonIds
-description: IntegerArray NSEMailAddress.GetDuplicatePersonIds()
+uid: crmscript_ref_NSEMailAddress_GetDuplicatePersonIds
+title: IntegerArray GetDuplicatePersonIds()
 intellisense: NSEMailAddress.GetDuplicatePersonIds
 keywords: NSEMailAddress, GetDuplicatePersonIds
 so.topic: reference

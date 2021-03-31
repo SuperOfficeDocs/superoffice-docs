@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetTempFile
-description: Stream GetTempFile(String filename)
+uid: crmscript_ref_NSDocumentAgent_GetTempFile
+title: Stream GetTempFile(String filename)
 intellisense: NSDocumentAgent.GetTempFile
-keywords: NSDocumentAgent,GetTempFile
+keywords: NSDocumentAgent, GetTempFile
 so.topic: reference
 ---
 

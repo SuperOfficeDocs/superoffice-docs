@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_GetAttachmentEntity
-description: NSAttachmentEntity GetAttachmentEntity(Integer attachmentEntityId);
+uid: crmscript_ref_NSTicketAgent_GetAttachmentEntity
+title: NSAttachmentEntity GetAttachmentEntity(Integer attachmentEntityId);
 intellisense: NSTicketAgent.GetAttachmentEntity
-keywords: NSTicketAgent,GetAttachmentEntity
+keywords: NSTicketAgent, GetAttachmentEntity
 so.topic: reference
 ---
 

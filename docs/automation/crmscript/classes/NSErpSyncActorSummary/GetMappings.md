@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorSummary_GetMappings
-description: String NSErpSyncActorSummary.GetMappings()
+uid: crmscript_ref_NSErpSyncActorSummary_GetMappings
+title: String GetMappings()
 intellisense: NSErpSyncActorSummary.GetMappings
 keywords: NSErpSyncActorSummary, GetMappings
 so.topic: reference

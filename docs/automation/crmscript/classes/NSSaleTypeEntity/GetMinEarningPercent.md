@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetMinEarningPercent
-description: Integer NSSaleTypeEntity.GetMinEarningPercent()
+uid: crmscript_ref_NSSaleTypeEntity_GetMinEarningPercent
+title: Integer GetMinEarningPercent()
 intellisense: NSSaleTypeEntity.GetMinEarningPercent
 keywords: NSSaleTypeEntity, GetMinEarningPercent
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummary_SetNumBusyActivities
-description: NSActivitySummary.SetNumBusyActivities(Integer numBusyActivities)
+uid: crmscript_ref_NSActivitySummary_SetNumBusyActivities
+title: SetNumBusyActivities(Integer numBusyActivities)
 intellisense: NSActivitySummary.SetNumBusyActivities
 keywords: NSActivitySummary, GetNumBusyActivities
 so.topic: reference

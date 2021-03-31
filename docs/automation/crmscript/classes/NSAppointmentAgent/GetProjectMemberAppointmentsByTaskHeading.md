@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetProjectMemberAppointmentsByTaskHeading
-description: AppointmentArray GetProjectMemberAppointmentsByTaskHeading(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
+uid: crmscript_ref_NSAppointmentAgent_GetProjectMemberAppointmentsByTaskHeading
+title: AppointmentArray GetProjectMemberAppointmentsByTaskHeading(Integer personId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
 intellisense: NSAppointmentAgent.GetProjectMemberAppointmentsByTaskHeading
-keywords: NSAppointmentAgent,GetProjectMemberAppointmentsByTaskHeading
+keywords: NSAppointmentAgent, GetProjectMemberAppointmentsByTaskHeading
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetRights
-description: NSProduct.SetRights(String rights)
+uid: crmscript_ref_NSProduct_SetRights
+title: SetRights(String rights)
 intellisense: NSProduct.SetRights
 keywords: NSProduct, GetRights
 so.topic: reference

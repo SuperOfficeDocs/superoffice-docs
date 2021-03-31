@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetFolderId
-description: Integer NSShipmentMessageEntity.GetFolderId()
+uid: crmscript_ref_NSShipmentMessageEntity_GetFolderId
+title: Integer GetFolderId()
 intellisense: NSShipmentMessageEntity.GetFolderId
 keywords: NSShipmentMessageEntity, GetFolderId
 so.topic: reference

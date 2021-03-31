@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessage_GetEmailHeader
-description: String NSTicketMessage.GetEmailHeader()
+uid: crmscript_ref_NSTicketMessage_GetEmailHeader
+title: String GetEmailHeader()
 intellisense: NSTicketMessage.GetEmailHeader
 keywords: NSTicketMessage, GetEmailHeader
 so.topic: reference

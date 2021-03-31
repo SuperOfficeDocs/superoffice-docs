@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_GetUserValueOverride
-description: ValueOverride NSQuoteAlternative.GetUserValueOverride()
+uid: crmscript_ref_NSQuoteAlternative_GetUserValueOverride
+title: ValueOverride GetUserValueOverride()
 intellisense: NSQuoteAlternative.GetUserValueOverride
 keywords: NSQuoteAlternative, GetUserValueOverride
 so.topic: reference

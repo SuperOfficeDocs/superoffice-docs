@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetConfirmationLinesTemplate
-description: NSSaleTypeEntity.SetConfirmationLinesTemplate(Integer confirmationLinesTemplate)
+uid: crmscript_ref_NSSaleTypeEntity_SetConfirmationLinesTemplate
+title: SetConfirmationLinesTemplate(Integer confirmationLinesTemplate)
 intellisense: NSSaleTypeEntity.SetConfirmationLinesTemplate
 keywords: NSSaleTypeEntity, GetConfirmationLinesTemplate
 so.topic: reference

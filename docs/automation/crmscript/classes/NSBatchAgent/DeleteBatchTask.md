@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBatchAgent_DeleteBatchTask
-description: Void DeleteBatchTask(Integer batchTaskId)
+uid: crmscript_ref_NSBatchAgent_DeleteBatchTask
+title: Void DeleteBatchTask(Integer batchTaskId)
 intellisense: NSBatchAgent.DeleteBatchTask
-keywords: NSBatchAgent,DeleteBatchTask
+keywords: NSBatchAgent, DeleteBatchTask
 so.topic: reference
 ---
 

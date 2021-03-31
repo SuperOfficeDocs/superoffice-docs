@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_SetValueType
-description: NSPreferenceDescription.SetValueType(Integer valueType)
+uid: crmscript_ref_NSPreferenceDescription_SetValueType
+title: SetValueType(Integer valueType)
 intellisense: NSPreferenceDescription.SetValueType
 keywords: NSPreferenceDescription, GetValueType
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetProductImage
-description: String GetProductImage(Integer quoteConnectionId, String eRPProductKey, Integer rank)
+uid: crmscript_ref_NSQuoteAgent_GetProductImage
+title: String GetProductImage(Integer quoteConnectionId, String eRPProductKey, Integer rank)
 intellisense: NSQuoteAgent.GetProductImage
-keywords: NSQuoteAgent,GetProductImage
+keywords: NSQuoteAgent, GetProductImage
 so.topic: reference
 ---
 

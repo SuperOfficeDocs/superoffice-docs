@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveResourceEntity
-description: NSResourceEntity SaveResourceEntity(NSResourceEntity resourceEntity);
+uid: crmscript_ref_NSListAgent_SaveResourceEntity
+title: NSResourceEntity SaveResourceEntity(NSResourceEntity resourceEntity);
 intellisense: NSListAgent.SaveResourceEntity
-keywords: NSListAgent,SaveResourceEntity
+keywords: NSListAgent, SaveResourceEntity
 so.topic: reference
 ---
 	  

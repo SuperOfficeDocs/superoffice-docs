@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetHierarchyFromPath
-description: HierarchyEntity GetHierarchyFromPath(Integer domain, String path, Bool children)
+uid: crmscript_ref_NSListAgent_GetHierarchyFromPath
+title: HierarchyEntity GetHierarchyFromPath(Integer domain, String path, Bool children)
 intellisense: NSListAgent.GetHierarchyFromPath
-keywords: NSListAgent,GetHierarchyFromPath
+keywords: NSListAgent, GetHierarchyFromPath
 so.topic: reference
 ---
 

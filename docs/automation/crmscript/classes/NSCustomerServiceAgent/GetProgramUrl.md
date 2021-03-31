@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_GetProgramUrl
-description: String GetProgramUrl(String programName, Bool external)
+uid: crmscript_ref_NSCustomerServiceAgent_GetProgramUrl
+title: String GetProgramUrl(String programName, Bool external)
 intellisense: NSCustomerServiceAgent.GetProgramUrl
-keywords: NSCustomerServiceAgent,GetProgramUrl
+keywords: NSCustomerServiceAgent, GetProgramUrl
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_GetCountryId
-description: Integer NSSaleStakeholder.GetCountryId()
+uid: crmscript_ref_NSSaleStakeholder_GetCountryId
+title: Integer GetCountryId()
 intellisense: NSSaleStakeholder.GetCountryId
 keywords: NSSaleStakeholder, GetCountryId
 so.topic: reference

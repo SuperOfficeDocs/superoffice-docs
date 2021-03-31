@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetPosition
-description: NSPosition GetPosition(Integer positionId);
+uid: crmscript_ref_NSListAgent_GetPosition
+title: NSPosition GetPosition(Integer positionId);
 intellisense: NSListAgent.GetPosition
-keywords: NSListAgent,GetPosition
+keywords: NSListAgent, GetPosition
 so.topic: reference
 ---
 

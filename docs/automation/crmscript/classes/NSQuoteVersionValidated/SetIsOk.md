@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionValidated_SetIsOk
-description: NSQuoteVersionValidated.SetIsOk(Bool isOk)
+uid: crmscript_ref_NSQuoteVersionValidated_SetIsOk
+title: SetIsOk(Bool isOk)
 intellisense: NSQuoteVersionValidated.SetIsOk
 keywords: NSQuoteVersionValidated, GetIsOk
 so.topic: reference

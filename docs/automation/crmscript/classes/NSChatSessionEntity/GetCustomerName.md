@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetCustomerName
-description: String NSChatSessionEntity.GetCustomerName()
+uid: crmscript_ref_NSChatSessionEntity_GetCustomerName
+title: String GetCustomerName()
 intellisense: NSChatSessionEntity.GetCustomerName
 keywords: NSChatSessionEntity, GetCustomerName
 so.topic: reference

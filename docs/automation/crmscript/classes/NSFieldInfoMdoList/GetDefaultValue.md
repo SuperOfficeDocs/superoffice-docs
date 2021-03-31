@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoMdoList_GetDefaultValue
-description: Integer NSFieldInfoMdoList.GetDefaultValue()
+uid: crmscript_ref_NSFieldInfoMdoList_GetDefaultValue
+title: Integer GetDefaultValue()
 intellisense: NSFieldInfoMdoList.GetDefaultValue
 keywords: NSFieldInfoMdoList, GetDefaultValue
 so.topic: reference

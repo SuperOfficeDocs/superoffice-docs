@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetSource
-description: Source NSSaleEntity.GetSource()
+uid: crmscript_ref_NSSaleEntity_GetSource
+title: Source GetSource()
 intellisense: NSSaleEntity.GetSource
 keywords: NSSaleEntity, GetSource
 so.topic: reference

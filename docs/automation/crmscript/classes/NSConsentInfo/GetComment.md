@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_GetComment
-description: String NSConsentInfo.GetComment()
+uid: crmscript_ref_NSConsentInfo_GetComment
+title: String GetComment()
 intellisense: NSConsentInfo.GetComment
 keywords: NSConsentInfo, GetComment
 so.topic: reference

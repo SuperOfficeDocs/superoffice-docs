@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatisticsDataValue_GetValue
-description: Float NSStatisticsDataValue.GetValue()
+uid: crmscript_ref_NSStatisticsDataValue_GetValue
+title: Float GetValue()
 intellisense: NSStatisticsDataValue.GetValue
 keywords: NSStatisticsDataValue, GetValue
 so.topic: reference

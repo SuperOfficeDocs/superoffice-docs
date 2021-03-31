@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedDocumentEntity_SetSuggestedDocumentId
-description: NSSuggestedDocumentEntity.SetSuggestedDocumentId(Integer suggestedDocumentId)
+uid: crmscript_ref_NSSuggestedDocumentEntity_SetSuggestedDocumentId
+title: SetSuggestedDocumentId(Integer suggestedDocumentId)
 intellisense: NSSuggestedDocumentEntity.SetSuggestedDocumentId
 keywords: NSSuggestedDocumentEntity, GetSuggestedDocumentId
 so.topic: reference

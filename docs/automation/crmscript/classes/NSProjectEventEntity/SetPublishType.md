@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetPublishType
-description: NSProjectEventEntity.SetPublishType(PublishType publishType)
+uid: crmscript_ref_NSProjectEventEntity_SetPublishType
+title: SetPublishType(PublishType publishType)
 intellisense: NSProjectEventEntity.SetPublishType
 keywords: NSProjectEventEntity, GetPublishType
 so.topic: reference

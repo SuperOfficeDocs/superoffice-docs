@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_UpdateFavorite
-description: ReportEntity UpdateFavorite(ReportEntity reportEntity)
+uid: crmscript_ref_NSReportAgent_UpdateFavorite
+title: ReportEntity UpdateFavorite(ReportEntity reportEntity)
 intellisense: NSReportAgent.UpdateFavorite
-keywords: NSReportAgent,UpdateFavorite
+keywords: NSReportAgent, UpdateFavorite
 so.topic: reference
 ---
 

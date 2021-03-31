@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetContactBusiness
-description: NSParticipantSyncData.SetContactBusiness(String contactBusiness)
+uid: crmscript_ref_NSParticipantSyncData_SetContactBusiness
+title: SetContactBusiness(String contactBusiness)
 intellisense: NSParticipantSyncData.SetContactBusiness
 keywords: NSParticipantSyncData, GetContactBusiness
 so.topic: reference

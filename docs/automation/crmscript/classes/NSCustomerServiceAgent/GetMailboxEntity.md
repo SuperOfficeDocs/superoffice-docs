@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_GetMailboxEntity
-description: NSMailboxEntity GetMailboxEntity(Integer mailboxEntityId);
+uid: crmscript_ref_NSCustomerServiceAgent_GetMailboxEntity
+title: NSMailboxEntity GetMailboxEntity(Integer mailboxEntityId);
 intellisense: NSCustomerServiceAgent.GetMailboxEntity
-keywords: NSCustomerServiceAgent,GetMailboxEntity
+keywords: NSCustomerServiceAgent, GetMailboxEntity
 so.topic: reference
 ---
 

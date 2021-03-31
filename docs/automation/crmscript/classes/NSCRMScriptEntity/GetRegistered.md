@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptEntity_GetRegistered
-description: DateTime NSCRMScriptEntity.GetRegistered()
+uid: crmscript_ref_NSCRMScriptEntity_GetRegistered
+title: DateTime GetRegistered()
 intellisense: NSCRMScriptEntity.GetRegistered
 keywords: NSCRMScriptEntity, GetRegistered
 so.topic: reference

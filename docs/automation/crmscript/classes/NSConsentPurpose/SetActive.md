@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_SetActive
-description: NSConsentPurpose.SetActive(Integer active)
+uid: crmscript_ref_NSConsentPurpose_SetActive
+title: SetActive(Integer active)
 intellisense: NSConsentPurpose.SetActive
 keywords: NSConsentPurpose, GetActive
 so.topic: reference

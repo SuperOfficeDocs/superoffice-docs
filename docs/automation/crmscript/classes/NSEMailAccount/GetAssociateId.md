@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAccount_GetAssociateId
-description: Integer NSEMailAccount.GetAssociateId()
+uid: crmscript_ref_NSEMailAccount_GetAssociateId
+title: Integer GetAssociateId()
 intellisense: NSEMailAccount.GetAssociateId
 keywords: NSEMailAccount, GetAssociateId
 so.topic: reference

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSMrMrs_GetTooltip
-description: String NSMrMrs.GetTooltip()
+uid: crmscript_ref_NSMrMrs_GetTooltip
+title: String GetTooltip()
 intellisense: NSMrMrs.GetTooltip
 keywords: NSMrMrs, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the list item.
+Get the tooltip description for the MrMrs list item.
 
-**Returns:** String tooltip description.
+**Returns:** String MrMrs tooltip description.
 

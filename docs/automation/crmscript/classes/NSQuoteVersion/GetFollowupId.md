@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetFollowupId
-description: Integer NSQuoteVersion.GetFollowupId()
+uid: crmscript_ref_NSQuoteVersion_GetFollowupId
+title: Integer GetFollowupId()
 intellisense: NSQuoteVersion.GetFollowupId
 keywords: NSQuoteVersion, GetFollowupId
 so.topic: reference

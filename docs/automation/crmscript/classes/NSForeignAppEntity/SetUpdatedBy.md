@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignAppEntity_SetUpdatedBy
-description: NSForeignAppEntity.SetUpdatedBy(Associate updatedBy)
+uid: crmscript_ref_NSForeignAppEntity_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
 intellisense: NSForeignAppEntity.SetUpdatedBy
 keywords: NSForeignAppEntity, GetUpdatedBy
 so.topic: reference

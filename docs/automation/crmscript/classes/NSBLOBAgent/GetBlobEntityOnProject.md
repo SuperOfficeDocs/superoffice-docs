@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProject
-description: BlobEntity GetBlobEntityOnProject(Integer projectId)
+uid: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProject
+title: BlobEntity GetBlobEntityOnProject(Integer projectId)
 intellisense: NSBLOBAgent.GetBlobEntityOnProject
-keywords: NSBLOBAgent,GetBlobEntityOnProject
+keywords: NSBLOBAgent, GetBlobEntityOnProject
 so.topic: reference
 ---
 

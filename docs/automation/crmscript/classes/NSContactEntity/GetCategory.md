@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetCategory
-description: Category NSContactEntity.GetCategory()
+uid: crmscript_ref_NSContactEntity_GetCategory
+title: Category GetCategory()
 intellisense: NSContactEntity.GetCategory
 keywords: NSContactEntity, GetCategory
 so.topic: reference

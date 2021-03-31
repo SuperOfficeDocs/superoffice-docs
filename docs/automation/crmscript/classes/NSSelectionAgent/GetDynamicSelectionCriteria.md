@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_GetDynamicSelectionCriteria
-description: ArchiveRestrictionInfoArray GetDynamicSelectionCriteria(Integer selectionId)
+uid: crmscript_ref_NSSelectionAgent_GetDynamicSelectionCriteria
+title: ArchiveRestrictionInfoArray GetDynamicSelectionCriteria(Integer selectionId)
 intellisense: NSSelectionAgent.GetDynamicSelectionCriteria
-keywords: NSSelectionAgent,GetDynamicSelectionCriteria
+keywords: NSSelectionAgent, GetDynamicSelectionCriteria
 so.topic: reference
 ---
 

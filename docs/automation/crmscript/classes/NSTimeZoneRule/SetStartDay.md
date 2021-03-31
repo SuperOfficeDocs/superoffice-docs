@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneRule_SetStartDay
-description: NSTimeZoneRule.SetStartDay(Integer startDay)
+uid: crmscript_ref_NSTimeZoneRule_SetStartDay
+title: SetStartDay(Integer startDay)
 intellisense: NSTimeZoneRule.SetStartDay
 keywords: NSTimeZoneRule, GetStartDay
 so.topic: reference

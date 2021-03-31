@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_GetAssociate
-description: Associate NSSuggestedAppointment.GetAssociate()
+uid: crmscript_ref_NSSuggestedAppointment_GetAssociate
+title: Associate GetAssociate()
 intellisense: NSSuggestedAppointment.GetAssociate
 keywords: NSSuggestedAppointment, GetAssociate
 so.topic: reference

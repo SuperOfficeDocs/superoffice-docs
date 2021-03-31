@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetCustomerConsented
-description: NSChatSessionEntity.SetCustomerConsented(Bool customerConsented)
+uid: crmscript_ref_NSChatSessionEntity_SetCustomerConsented
+title: SetCustomerConsented(Bool customerConsented)
 intellisense: NSChatSessionEntity.SetCustomerConsented
 keywords: NSChatSessionEntity, GetCustomerConsented
 so.topic: reference

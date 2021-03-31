@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetUpdatedCount
-description: NSSelectionEntity.SetUpdatedCount(Integer updatedCount)
+uid: crmscript_ref_NSSelectionEntity_SetUpdatedCount
+title: SetUpdatedCount(Integer updatedCount)
 intellisense: NSSelectionEntity.SetUpdatedCount
 keywords: NSSelectionEntity, GetUpdatedCount
 so.topic: reference

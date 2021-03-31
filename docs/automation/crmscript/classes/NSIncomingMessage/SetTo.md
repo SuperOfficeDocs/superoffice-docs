@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSIncomingMessage_SetTo
-description: NSIncomingMessage.SetTo(String to)
+uid: crmscript_ref_NSIncomingMessage_SetTo
+title: SetTo(String to)
 intellisense: NSIncomingMessage.SetTo
 keywords: NSIncomingMessage, GetTo
 so.topic: reference

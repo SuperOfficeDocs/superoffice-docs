@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CanChangePassword
-description: Bool CanChangePassword(Integer associateId)
+uid: crmscript_ref_NSUserAgent_CanChangePassword
+title: Bool CanChangePassword(Integer associateId)
 intellisense: NSUserAgent.CanChangePassword
-keywords: NSUserAgent,CanChangePassword
+keywords: NSUserAgent, CanChangePassword
 so.topic: reference
 ---
 

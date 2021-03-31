@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetWebPanelList
-description: WebPanelEntityArray GetWebPanelList()
+uid: crmscript_ref_NSListAgent_GetWebPanelList
+title: WebPanelEntityArray GetWebPanelList()
 intellisense: NSListAgent.GetWebPanelList
-keywords: NSListAgent,GetWebPanelList
+keywords: NSListAgent, GetWebPanelList
 so.topic: reference
 ---
 

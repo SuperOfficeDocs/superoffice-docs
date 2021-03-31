@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionButtonState_GetImageHint
-description: String NSQuoteVersionButtonState.GetImageHint()
+uid: crmscript_ref_NSQuoteVersionButtonState_GetImageHint
+title: String GetImageHint()
 intellisense: NSQuoteVersionButtonState.GetImageHint
 keywords: NSQuoteVersionButtonState, GetImageHint
 so.topic: reference

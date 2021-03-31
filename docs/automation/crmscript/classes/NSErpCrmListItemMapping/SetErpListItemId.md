@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpCrmListItemMapping_SetErpListItemId
-description: NSErpCrmListItemMapping.SetErpListItemId(String erpListItemId)
+uid: crmscript_ref_NSErpCrmListItemMapping_SetErpListItemId
+title: SetErpListItemId(String erpListItemId)
 intellisense: NSErpCrmListItemMapping.SetErpListItemId
 keywords: NSErpCrmListItemMapping, GetErpListItemId
 so.topic: reference

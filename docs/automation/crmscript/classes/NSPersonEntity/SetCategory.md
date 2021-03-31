@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetCategory
-description: NSPersonEntity.SetCategory(Category category)
+uid: crmscript_ref_NSPersonEntity_SetCategory
+title: SetCategory(Category category)
 intellisense: NSPersonEntity.SetCategory
 keywords: NSPersonEntity, GetCategory
 so.topic: reference

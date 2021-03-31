@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_SetPublishStartSystemEvent
-description: Void SetPublishStartSystemEvent(Integer ownerType)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SetPublishStartSystemEvent
+title: Void SetPublishStartSystemEvent(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
-keywords: NSUserDefinedFieldInfoAgent,SetPublishStartSystemEvent
+keywords: NSUserDefinedFieldInfoAgent, SetPublishStartSystemEvent
 so.topic: reference
 ---
 

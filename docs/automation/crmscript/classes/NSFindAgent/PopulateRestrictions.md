@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_PopulateRestrictions
-description: ArchiveRestrictionInfoArray PopulateRestrictions(String providerName, ArchiveRestrictionInfoArray restrictions)
+uid: crmscript_ref_NSFindAgent_PopulateRestrictions
+title: ArchiveRestrictionInfoArray PopulateRestrictions(String providerName, ArchiveRestrictionInfoArray restrictions)
 intellisense: NSFindAgent.PopulateRestrictions
-keywords: NSFindAgent,PopulateRestrictions
+keywords: NSFindAgent, PopulateRestrictions
 so.topic: reference
 ---
 

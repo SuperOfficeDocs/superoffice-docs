@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_GetUrl
-description: String NSPocketNotificationMessage.GetUrl()
+uid: crmscript_ref_NSPocketNotificationMessage_GetUrl
+title: String GetUrl()
 intellisense: NSPocketNotificationMessage.GetUrl
 keywords: NSPocketNotificationMessage, GetUrl
 so.topic: reference

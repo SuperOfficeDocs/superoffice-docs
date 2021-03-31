@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonSummary_GetTickets
-description: TicketSummaryItemArray NSPersonSummary.GetTickets()
+uid: crmscript_ref_NSPersonSummary_GetTickets
+title: TicketSummaryItemArray GetTickets()
 intellisense: NSPersonSummary.GetTickets
 keywords: NSPersonSummary, GetTickets
 so.topic: reference

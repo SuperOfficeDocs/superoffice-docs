@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_DeleteAllHeadingsFromName
-description: Void DeleteAllHeadingsFromName(String name)
+uid: crmscript_ref_NSListAgent_DeleteAllHeadingsFromName
+title: Void DeleteAllHeadingsFromName(String name)
 intellisense: NSListAgent.DeleteAllHeadingsFromName
-keywords: NSListAgent,DeleteAllHeadingsFromName
+keywords: NSListAgent, DeleteAllHeadingsFromName
 so.topic: reference
 ---
 

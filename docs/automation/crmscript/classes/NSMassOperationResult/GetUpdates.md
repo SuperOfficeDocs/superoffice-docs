@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMassOperationResult_GetUpdates
-description: Integer NSMassOperationResult.GetUpdates()
+uid: crmscript_ref_NSMassOperationResult_GetUpdates
+title: Integer GetUpdates()
 intellisense: NSMassOperationResult.GetUpdates
 keywords: NSMassOperationResult, GetUpdates
 so.topic: reference

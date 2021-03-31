@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRelationDefinitionEntity_SetDestination
-description: NSRelationDefinitionEntity.SetDestination(Integer destination)
+uid: crmscript_ref_NSRelationDefinitionEntity_SetDestination
+title: SetDestination(Integer destination)
 intellisense: NSRelationDefinitionEntity.SetDestination
 keywords: NSRelationDefinitionEntity, GetDestination
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetHeading
-description: String NSSaleEntity.GetHeading()
+uid: crmscript_ref_NSSaleEntity_GetHeading
+title: String GetHeading()
 intellisense: NSSaleEntity.GetHeading
 keywords: NSSaleEntity, GetHeading
 so.topic: reference

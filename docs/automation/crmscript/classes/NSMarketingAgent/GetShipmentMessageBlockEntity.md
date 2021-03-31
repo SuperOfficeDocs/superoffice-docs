@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_GetShipmentMessageBlockEntity
-description: NSShipmentMessageBlockEntity GetShipmentMessageBlockEntity(Integer shipmentMessageBlockEntityId);
+uid: crmscript_ref_NSMarketingAgent_GetShipmentMessageBlockEntity
+title: NSShipmentMessageBlockEntity GetShipmentMessageBlockEntity(Integer shipmentMessageBlockEntityId);
 intellisense: NSMarketingAgent.GetShipmentMessageBlockEntity
-keywords: NSMarketingAgent,GetShipmentMessageBlockEntity
+keywords: NSMarketingAgent, GetShipmentMessageBlockEntity
 so.topic: reference
 ---
 

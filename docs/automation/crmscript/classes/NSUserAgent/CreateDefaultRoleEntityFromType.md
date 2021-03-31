@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CreateDefaultRoleEntityFromType
-description: RoleEntity CreateDefaultRoleEntityFromType(Integer type)
+uid: crmscript_ref_NSUserAgent_CreateDefaultRoleEntityFromType
+title: RoleEntity CreateDefaultRoleEntityFromType(Integer type)
 intellisense: NSUserAgent.CreateDefaultRoleEntityFromType
-keywords: NSUserAgent,CreateDefaultRoleEntityFromType
+keywords: NSUserAgent, CreateDefaultRoleEntityFromType
 so.topic: reference
 ---
 

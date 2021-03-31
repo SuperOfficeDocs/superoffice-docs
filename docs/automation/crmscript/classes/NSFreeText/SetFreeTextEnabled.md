@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFreeText_SetFreeTextEnabled
-description: NSFreeText.SetFreeTextEnabled(Bool freeTextEnabled)
+uid: crmscript_ref_NSFreeText_SetFreeTextEnabled
+title: SetFreeTextEnabled(Bool freeTextEnabled)
 intellisense: NSFreeText.SetFreeTextEnabled
 keywords: NSFreeText, GetFreeTextEnabled
 so.topic: reference

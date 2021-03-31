@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_SetPersonRank
-description: Bool SetPersonRank(Integer personId, Integer desiredRank)
+uid: crmscript_ref_NSPersonAgent_SetPersonRank
+title: Bool SetPersonRank(Integer personId, Integer desiredRank)
 intellisense: NSPersonAgent.SetPersonRank
-keywords: NSPersonAgent,SetPersonRank
+keywords: NSPersonAgent, SetPersonRank
 so.topic: reference
 ---
 

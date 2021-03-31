@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionButtonState_GetTooltipText
-description: String NSQuoteVersionButtonState.GetTooltipText()
+uid: crmscript_ref_NSQuoteVersionButtonState_GetTooltipText
+title: String GetTooltipText()
 intellisense: NSQuoteVersionButtonState.GetTooltipText
 keywords: NSQuoteVersionButtonState, GetTooltipText
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
-description: NSUserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
+title: NSUserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
 intellisense: NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
-keywords: NSUserDefinedFieldInfoAgent,CreateDefaultUserDefinedFieldInfo
+keywords: NSUserDefinedFieldInfoAgent, CreateDefaultUserDefinedFieldInfo
 so.topic: reference
 ---
 	  

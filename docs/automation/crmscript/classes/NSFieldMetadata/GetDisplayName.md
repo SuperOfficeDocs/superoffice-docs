@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_GetDisplayName
-description: String NSFieldMetadata.GetDisplayName()
+uid: crmscript_ref_NSFieldMetadata_GetDisplayName
+title: String GetDisplayName()
 intellisense: NSFieldMetadata.GetDisplayName
 keywords: NSFieldMetadata, GetDisplayName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCurrencyList
-description: NSCurrencyList
+uid: crmscript_ref_NSCurrencyList
+title: NSCurrencyList
 intellisense: Void.NSCurrencyList
 keywords: NSCurrencyList
 so.topic: reference

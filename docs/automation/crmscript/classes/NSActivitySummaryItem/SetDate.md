@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummaryItem_SetDate
-description: NSActivitySummaryItem.SetDate(DateTime date)
+uid: crmscript_ref_NSActivitySummaryItem_SetDate
+title: SetDate(DateTime date)
 intellisense: NSActivitySummaryItem.SetDate
 keywords: NSActivitySummaryItem, GetDate
 so.topic: reference

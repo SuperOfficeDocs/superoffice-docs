@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOperationInfo
-description: NSOperationInfo
+uid: crmscript_ref_NSOperationInfo
+title: NSOperationInfo
 intellisense: Void.NSOperationInfo
 keywords: NSOperationInfo
 so.topic: reference

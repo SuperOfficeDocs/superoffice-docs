@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences_SetSearchModeDepartment
-description: NSPhoneListPreferences.SetSearchModeDepartment(Integer searchModeDepartment)
+uid: crmscript_ref_NSPhoneListPreferences_SetSearchModeDepartment
+title: SetSearchModeDepartment(Integer searchModeDepartment)
 intellisense: NSPhoneListPreferences.SetSearchModeDepartment
 keywords: NSPhoneListPreferences, GetSearchModeDepartment
 so.topic: reference

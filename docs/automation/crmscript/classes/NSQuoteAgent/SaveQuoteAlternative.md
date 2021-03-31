@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_SaveQuoteAlternative
-description: NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative quoteAlternative);
+uid: crmscript_ref_NSQuoteAgent_SaveQuoteAlternative
+title: NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative quoteAlternative);
 intellisense: NSQuoteAgent.SaveQuoteAlternative
-keywords: NSQuoteAgent,SaveQuoteAlternative
+keywords: NSQuoteAgent, SaveQuoteAlternative
 so.topic: reference
 ---
 	  

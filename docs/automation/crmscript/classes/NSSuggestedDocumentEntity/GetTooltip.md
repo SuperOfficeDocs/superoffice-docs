@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedDocumentEntity_GetTooltip
-description: String NSSuggestedDocumentEntity.GetTooltip()
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetTooltip
+title: String GetTooltip()
 intellisense: NSSuggestedDocumentEntity.GetTooltip
 keywords: NSSuggestedDocumentEntity, GetTooltip
 so.topic: reference

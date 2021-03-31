@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginUrlResponse_GetChanges
-description: ChangedData NSPluginUrlResponse.GetChanges()
+uid: crmscript_ref_NSPluginUrlResponse_GetChanges
+title: ChangedData GetChanges()
 intellisense: NSPluginUrlResponse.GetChanges
 keywords: NSPluginUrlResponse, GetChanges
 so.topic: reference

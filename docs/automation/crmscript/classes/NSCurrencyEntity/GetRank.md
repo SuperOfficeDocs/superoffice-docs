@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCurrencyEntity_GetRank
-description: Integer NSCurrencyEntity.GetRank()
+uid: crmscript_ref_NSCurrencyEntity_GetRank
+title: Integer GetRank()
 intellisense: NSCurrencyEntity.GetRank
 keywords: NSCurrencyEntity, GetRank
 so.topic: reference

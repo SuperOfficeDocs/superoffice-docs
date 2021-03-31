@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetMrMrsList
-description: NSMrMrs[] GetMrMrsList(Integer[]  mrMrsIds);
+uid: crmscript_ref_NSListAgent_GetMrMrsList
+title: NSMrMrs[] GetMrMrsList(Integer[]  mrMrsIds);
 intellisense: NSListAgent.GetMrMrsList
-keywords: NSListAgent,GetMrMrsList
+keywords: NSListAgent, GetMrMrsList
 so.topic: reference
 ---
 

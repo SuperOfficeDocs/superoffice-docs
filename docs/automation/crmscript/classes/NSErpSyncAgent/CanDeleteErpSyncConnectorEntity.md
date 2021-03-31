@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_CanDeleteErpSyncConnectorEntity
-description: Integer CanDeleteErpSyncConnectorEntity(Integer erpSyncConnectorId)
+uid: crmscript_ref_NSErpSyncAgent_CanDeleteErpSyncConnectorEntity
+title: Integer CanDeleteErpSyncConnectorEntity(Integer erpSyncConnectorId)
 intellisense: NSErpSyncAgent.CanDeleteErpSyncConnectorEntity
-keywords: NSErpSyncAgent,CanDeleteErpSyncConnectorEntity
+keywords: NSErpSyncAgent, CanDeleteErpSyncConnectorEntity
 so.topic: reference
 ---
 

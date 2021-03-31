@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_Delete
-description: Void Delete(Integer appointmentId, Integer updateMode, Bool sendEmailToParticipants, EMailConnectionInfo smtpEMailConnectionInfo, EMailConnectionInfo imapEMailConnectionInfo)
+uid: crmscript_ref_NSAppointmentAgent_Delete
+title: Void Delete(Integer appointmentId, Integer updateMode, Bool sendEmailToParticipants, EMailConnectionInfo smtpEMailConnectionInfo, EMailConnectionInfo imapEMailConnectionInfo)
 intellisense: NSAppointmentAgent.Delete
-keywords: NSAppointmentAgent,Delete
+keywords: NSAppointmentAgent, Delete
 so.topic: reference
 ---
 

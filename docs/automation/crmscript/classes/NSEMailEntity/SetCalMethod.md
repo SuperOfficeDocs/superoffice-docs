@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetCalMethod
-description: NSEMailEntity.SetCalMethod(Integer calMethod)
+uid: crmscript_ref_NSEMailEntity_SetCalMethod
+title: SetCalMethod(Integer calMethod)
 intellisense: NSEMailEntity.SetCalMethod
 keywords: NSEMailEntity, GetCalMethod
 so.topic: reference

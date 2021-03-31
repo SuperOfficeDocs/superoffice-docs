@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDatabaseTableAgent_Delete
-description: MassOperationResult Delete(String tableName, IntegerArray iDs)
+uid: crmscript_ref_NSDatabaseTableAgent_Delete
+title: MassOperationResult Delete(String tableName, IntegerArray iDs)
 intellisense: NSDatabaseTableAgent.Delete
-keywords: NSDatabaseTableAgent,Delete
+keywords: NSDatabaseTableAgent, Delete
 so.topic: reference
 ---
 

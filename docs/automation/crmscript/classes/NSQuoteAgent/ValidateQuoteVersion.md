@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_ValidateQuoteVersion
-description: QuoteVersionValidated ValidateQuoteVersion(Integer quoteVersionId, Integer action)
+uid: crmscript_ref_NSQuoteAgent_ValidateQuoteVersion
+title: QuoteVersionValidated ValidateQuoteVersion(Integer quoteVersionId, Integer action)
 intellisense: NSQuoteAgent.ValidateQuoteVersion
-keywords: NSQuoteAgent,ValidateQuoteVersion
+keywords: NSQuoteAgent, ValidateQuoteVersion
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_SessionIsValid
-description: Bool SessionIsValid(String csSessionKey)
+uid: crmscript_ref_NSCustomerServiceAgent_SessionIsValid
+title: Bool SessionIsValid(String csSessionKey)
 intellisense: NSCustomerServiceAgent.SessionIsValid
-keywords: NSCustomerServiceAgent,SessionIsValid
+keywords: NSCustomerServiceAgent, SessionIsValid
 so.topic: reference
 ---
 

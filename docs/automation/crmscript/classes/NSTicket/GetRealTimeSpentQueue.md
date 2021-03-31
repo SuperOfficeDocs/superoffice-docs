@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetRealTimeSpentQueue
-description: Integer NSTicket.GetRealTimeSpentQueue()
+uid: crmscript_ref_NSTicket_GetRealTimeSpentQueue
+title: Integer GetRealTimeSpentQueue()
 intellisense: NSTicket.GetRealTimeSpentQueue
 keywords: NSTicket, GetRealTimeSpentQueue
 so.topic: reference

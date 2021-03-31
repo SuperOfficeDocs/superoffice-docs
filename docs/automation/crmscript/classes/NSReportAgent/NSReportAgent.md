@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportAgent
-description: NSReportAgent
+uid: crmscript_ref_NSReportAgent
+title: NSReportAgent
 intellisense: Void.NSReportAgent
 keywords: NSReportAgent
 so.topic: reference

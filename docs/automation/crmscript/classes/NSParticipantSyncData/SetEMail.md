@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetEMail
-description: NSParticipantSyncData.SetEMail(StringArray eMail)
+uid: crmscript_ref_NSParticipantSyncData_SetEMail
+title: SetEMail(StringArray eMail)
 intellisense: NSParticipantSyncData.SetEMail
 keywords: NSParticipantSyncData, GetEMail
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAssociateAgent_GetAssociate
-description: NSAssociate GetAssociate(Integer associateId);
+uid: crmscript_ref_NSAssociateAgent_GetAssociate
+title: NSAssociate GetAssociate(Integer associateId);
 intellisense: NSAssociateAgent.GetAssociate
-keywords: NSAssociateAgent,GetAssociate
+keywords: NSAssociateAgent, GetAssociate
 so.topic: reference
 ---
 

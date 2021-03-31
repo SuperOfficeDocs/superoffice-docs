@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetCustomAttention
-description: String NSMailMergeSettings.GetCustomAttention()
+uid: crmscript_ref_NSMailMergeSettings_GetCustomAttention
+title: String GetCustomAttention()
 intellisense: NSMailMergeSettings.GetCustomAttention
 keywords: NSMailMergeSettings, GetCustomAttention
 so.topic: reference

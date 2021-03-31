@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveCountry
-description: Country SaveCountry(Country country)
+uid: crmscript_ref_NSListAgent_SaveCountry
+title: Country SaveCountry(Country country)
 intellisense: NSListAgent.SaveCountry
-keywords: NSListAgent,SaveCountry
+keywords: NSListAgent, SaveCountry
 so.topic: reference
 ---
 

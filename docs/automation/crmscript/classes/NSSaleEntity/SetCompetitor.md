@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetCompetitor
-description: NSSaleEntity.SetCompetitor(Competitor competitor)
+uid: crmscript_ref_NSSaleEntity_SetCompetitor
+title: SetCompetitor(Competitor competitor)
 intellisense: NSSaleEntity.SetCompetitor
 keywords: NSSaleEntity, GetCompetitor
 so.topic: reference

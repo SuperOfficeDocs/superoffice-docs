@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_SetFullName
-description: NSProjectMember.SetFullName(String fullName)
+uid: crmscript_ref_NSProjectMember_SetFullName
+title: SetFullName(String fullName)
 intellisense: NSProjectMember.SetFullName
 keywords: NSProjectMember, GetFullName
 so.topic: reference

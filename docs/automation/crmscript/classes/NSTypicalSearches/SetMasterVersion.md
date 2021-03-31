@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearches_SetMasterVersion
-description: NSTypicalSearches.SetMasterVersion(Integer masterVersion)
+uid: crmscript_ref_NSTypicalSearches_SetMasterVersion
+title: SetMasterVersion(Integer masterVersion)
 intellisense: NSTypicalSearches.SetMasterVersion
 keywords: NSTypicalSearches, GetMasterVersion
 so.topic: reference

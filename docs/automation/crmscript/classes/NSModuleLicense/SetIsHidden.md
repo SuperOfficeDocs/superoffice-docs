@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_SetIsHidden
-description: NSModuleLicense.SetIsHidden(Bool isHidden)
+uid: crmscript_ref_NSModuleLicense_SetIsHidden
+title: SetIsHidden(Bool isHidden)
 intellisense: NSModuleLicense.SetIsHidden
 keywords: NSModuleLicense, GetIsHidden
 so.topic: reference

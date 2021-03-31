@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_GetExternalName
-description: String NSTicketCategoryEntity.GetExternalName()
+uid: crmscript_ref_NSTicketCategoryEntity_GetExternalName
+title: String GetExternalName()
 intellisense: NSTicketCategoryEntity.GetExternalName
 keywords: NSTicketCategoryEntity, GetExternalName
 so.topic: reference

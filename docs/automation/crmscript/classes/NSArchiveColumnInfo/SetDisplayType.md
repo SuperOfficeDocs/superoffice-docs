@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_SetDisplayType
-description: NSArchiveColumnInfo.SetDisplayType(String displayType)
+uid: crmscript_ref_NSArchiveColumnInfo_SetDisplayType
+title: SetDisplayType(String displayType)
 intellisense: NSArchiveColumnInfo.SetDisplayType
 keywords: NSArchiveColumnInfo, GetDisplayType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCheckLicenseStatusResult_GetUrl
-description: String NSCheckLicenseStatusResult.GetUrl()
+uid: crmscript_ref_NSCheckLicenseStatusResult_GetUrl
+title: String GetUrl()
 intellisense: NSCheckLicenseStatusResult.GetUrl
 keywords: NSCheckLicenseStatusResult, GetUrl
 so.topic: reference

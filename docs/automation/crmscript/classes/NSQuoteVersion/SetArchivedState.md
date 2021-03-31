@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetArchivedState
-description: NSQuoteVersion.SetArchivedState(QuoteVersionState archivedState)
+uid: crmscript_ref_NSQuoteVersion_SetArchivedState
+title: SetArchivedState(QuoteVersionState archivedState)
 intellisense: NSQuoteVersion.SetArchivedState
 keywords: NSQuoteVersion, GetArchivedState
 so.topic: reference

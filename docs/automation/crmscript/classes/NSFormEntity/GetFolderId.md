@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetFolderId
-description: Integer NSFormEntity.GetFolderId()
+uid: crmscript_ref_NSFormEntity_GetFolderId
+title: Integer GetFolderId()
 intellisense: NSFormEntity.GetFolderId
 keywords: NSFormEntity, GetFolderId
 so.topic: reference

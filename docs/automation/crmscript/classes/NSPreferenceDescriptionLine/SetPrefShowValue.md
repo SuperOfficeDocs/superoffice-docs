@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescriptionLine_SetPrefShowValue
-description: NSPreferenceDescriptionLine.SetPrefShowValue(String prefShowValue)
+uid: crmscript_ref_NSPreferenceDescriptionLine_SetPrefShowValue
+title: SetPrefShowValue(String prefShowValue)
 intellisense: NSPreferenceDescriptionLine.SetPrefShowValue
 keywords: NSPreferenceDescriptionLine, GetPrefShowValue
 so.topic: reference

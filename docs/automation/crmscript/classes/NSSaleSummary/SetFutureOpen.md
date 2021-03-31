@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetFutureOpen
-description: NSSaleSummary.SetFutureOpen(Integer futureOpen)
+uid: crmscript_ref_NSSaleSummary_SetFutureOpen
+title: SetFutureOpen(Integer futureOpen)
 intellisense: NSSaleSummary.SetFutureOpen
 keywords: NSSaleSummary, GetFutureOpen
 so.topic: reference

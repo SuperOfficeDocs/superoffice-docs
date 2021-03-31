@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_SetHeaders
-description: NSWebhook.SetHeaders(StringDictionary headers)
+uid: crmscript_ref_NSWebhook_SetHeaders
+title: SetHeaders(StringDictionary headers)
 intellisense: NSWebhook.SetHeaders
 keywords: NSWebhook, GetHeaders
 so.topic: reference

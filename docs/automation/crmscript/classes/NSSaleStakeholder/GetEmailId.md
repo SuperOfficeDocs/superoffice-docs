@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_GetEmailId
-description: Integer NSSaleStakeholder.GetEmailId()
+uid: crmscript_ref_NSSaleStakeholder_GetEmailId
+title: Integer GetEmailId()
 intellisense: NSSaleStakeholder.GetEmailId
 keywords: NSSaleStakeholder, GetEmailId
 so.topic: reference

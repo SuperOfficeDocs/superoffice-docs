@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProductExtraDataField_GetName
-description: String NSProductExtraDataField.GetName()
+uid: crmscript_ref_NSProductExtraDataField_GetName
+title: String GetName()
 intellisense: NSProductExtraDataField.GetName
 keywords: NSProductExtraDataField, GetName
 so.topic: reference

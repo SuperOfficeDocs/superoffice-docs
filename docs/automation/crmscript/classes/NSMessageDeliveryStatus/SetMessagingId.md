@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMessageDeliveryStatus_SetMessagingId
-description: NSMessageDeliveryStatus.SetMessagingId(Integer messagingId)
+uid: crmscript_ref_NSMessageDeliveryStatus_SetMessagingId
+title: SetMessagingId(Integer messagingId)
 intellisense: NSMessageDeliveryStatus.SetMessagingId
 keywords: NSMessageDeliveryStatus, GetMessagingId
 so.topic: reference

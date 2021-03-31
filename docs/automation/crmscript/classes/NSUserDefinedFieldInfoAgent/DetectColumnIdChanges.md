@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_DetectColumnIdChanges
-description: Bool DetectColumnIdChanges(Integer ownerType)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_DetectColumnIdChanges
+title: Bool DetectColumnIdChanges(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.DetectColumnIdChanges
-keywords: NSUserDefinedFieldInfoAgent,DetectColumnIdChanges
+keywords: NSUserDefinedFieldInfoAgent, DetectColumnIdChanges
 so.topic: reference
 ---
 

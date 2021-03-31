@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetCentralserviceVideomeetId
-description: String NSAppointmentEntity.GetCentralserviceVideomeetId()
+uid: crmscript_ref_NSAppointmentEntity_GetCentralserviceVideomeetId
+title: String GetCentralserviceVideomeetId()
 intellisense: NSAppointmentEntity.GetCentralserviceVideomeetId
 keywords: NSAppointmentEntity, GetCentralserviceVideomeetId
 so.topic: reference

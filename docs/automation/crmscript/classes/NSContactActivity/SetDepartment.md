@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactActivity_SetDepartment
-description: NSContactActivity.SetDepartment(String department)
+uid: crmscript_ref_NSContactActivity_SetDepartment
+title: SetDepartment(String department)
 intellisense: NSContactActivity.SetDepartment
 keywords: NSContactActivity, GetDepartment
 so.topic: reference

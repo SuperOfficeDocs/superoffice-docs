@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetFrom
-description: NSEMailEntity.SetFrom(EMailAddress from)
+uid: crmscript_ref_NSEMailEntity_SetFrom
+title: SetFrom(EMailAddress from)
 intellisense: NSEMailEntity.SetFrom
 keywords: NSEMailEntity, GetFrom
 so.topic: reference

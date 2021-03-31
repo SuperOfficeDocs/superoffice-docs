@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialType
-description: NSCredentialType
+uid: crmscript_ref_NSCredentialType
+title: NSCredentialType
 intellisense: Void.NSCredentialType
 keywords: NSCredentialType
 so.topic: reference

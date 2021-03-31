@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_SetContactImage
-description: Void SetContactImage(Integer contactId, Image image)
+uid: crmscript_ref_NSBLOBAgent_SetContactImage
+title: Void SetContactImage(Integer contactId, Image image)
 intellisense: NSBLOBAgent.SetContactImage
-keywords: NSBLOBAgent,SetContactImage
+keywords: NSBLOBAgent, SetContactImage
 so.topic: reference
 ---
 

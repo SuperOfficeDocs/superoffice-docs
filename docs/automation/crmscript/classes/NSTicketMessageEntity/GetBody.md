@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_GetBody
-description: String NSTicketMessageEntity.GetBody()
+uid: crmscript_ref_NSTicketMessageEntity_GetBody
+title: String GetBody()
 intellisense: NSTicketMessageEntity.GetBody
 keywords: NSTicketMessageEntity, GetBody
 so.topic: reference

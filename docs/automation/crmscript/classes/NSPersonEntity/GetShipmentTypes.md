@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetShipmentTypes
-description: SelectableMDOListItemArray NSPersonEntity.GetShipmentTypes()
+uid: crmscript_ref_NSPersonEntity_GetShipmentTypes
+title: SelectableMDOListItemArray GetShipmentTypes()
 intellisense: NSPersonEntity.GetShipmentTypes
 keywords: NSPersonEntity, GetShipmentTypes
 so.topic: reference

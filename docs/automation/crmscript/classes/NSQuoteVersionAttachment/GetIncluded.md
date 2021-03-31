@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionAttachment_GetIncluded
-description: Bool NSQuoteVersionAttachment.GetIncluded()
+uid: crmscript_ref_NSQuoteVersionAttachment_GetIncluded
+title: Bool GetIncluded()
 intellisense: NSQuoteVersionAttachment.GetIncluded
 keywords: NSQuoteVersionAttachment, GetIncluded
 so.topic: reference

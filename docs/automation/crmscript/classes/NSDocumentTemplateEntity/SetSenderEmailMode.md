@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetSenderEmailMode
-description: NSDocumentTemplateEntity.SetSenderEmailMode(SenderMailMode senderEmailMode)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetSenderEmailMode
+title: SetSenderEmailMode(SenderMailMode senderEmailMode)
 intellisense: NSDocumentTemplateEntity.SetSenderEmailMode
 keywords: NSDocumentTemplateEntity, GetSenderEmailMode
 so.topic: reference

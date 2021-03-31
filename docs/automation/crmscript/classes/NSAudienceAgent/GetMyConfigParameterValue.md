@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetMyConfigParameterValue
-description: String GetMyConfigParameterValue(String parameterName)
+uid: crmscript_ref_NSAudienceAgent_GetMyConfigParameterValue
+title: String GetMyConfigParameterValue(String parameterName)
 intellisense: NSAudienceAgent.GetMyConfigParameterValue
-keywords: NSAudienceAgent,GetMyConfigParameterValue
+keywords: NSAudienceAgent, GetMyConfigParameterValue
 so.topic: reference
 ---
 

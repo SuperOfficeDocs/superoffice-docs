@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetListTableId
-description: Integer NSUserDefinedFieldInfo.GetListTableId()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetListTableId
+title: Integer GetListTableId()
 intellisense: NSUserDefinedFieldInfo.GetListTableId
 keywords: NSUserDefinedFieldInfo, GetListTableId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent
-description: NSCRMScriptAgent
+uid: crmscript_ref_NSCRMScriptAgent
+title: NSCRMScriptAgent
 intellisense: Void.NSCRMScriptAgent
 keywords: NSCRMScriptAgent
 so.topic: reference

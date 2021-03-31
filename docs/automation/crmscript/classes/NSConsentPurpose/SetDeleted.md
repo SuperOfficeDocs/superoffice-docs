@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_SetDeleted
-description: NSConsentPurpose.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSConsentPurpose_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSConsentPurpose.SetDeleted
 keywords: NSConsentPurpose, GetDeleted
 so.topic: reference

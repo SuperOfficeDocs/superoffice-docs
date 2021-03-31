@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetPrivatePhones
-description: EntityElementArray NSPersonEntity.GetPrivatePhones()
+uid: crmscript_ref_NSPersonEntity_GetPrivatePhones
+title: EntityElementArray GetPrivatePhones()
 intellisense: NSPersonEntity.GetPrivatePhones
 keywords: NSPersonEntity, GetPrivatePhones
 so.topic: reference

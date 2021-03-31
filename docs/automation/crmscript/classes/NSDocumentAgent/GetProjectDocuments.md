@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetProjectDocuments
-description: DocumentArray GetProjectDocuments(Integer projectId, DateTime startTime, DateTime endTime, Integer count)
+uid: crmscript_ref_NSDocumentAgent_GetProjectDocuments
+title: DocumentArray GetProjectDocuments(Integer projectId, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSDocumentAgent.GetProjectDocuments
-keywords: NSDocumentAgent,GetProjectDocuments
+keywords: NSDocumentAgent, GetProjectDocuments
 so.topic: reference
 ---
 

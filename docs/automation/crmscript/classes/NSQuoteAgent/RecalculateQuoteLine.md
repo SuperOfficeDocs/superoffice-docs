@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_RecalculateQuoteLine
-description: QuoteLine RecalculateQuoteLine(QuoteLine quoteLine, StringArray changedFields)
+uid: crmscript_ref_NSQuoteAgent_RecalculateQuoteLine
+title: QuoteLine RecalculateQuoteLine(QuoteLine quoteLine, StringArray changedFields)
 intellisense: NSQuoteAgent.RecalculateQuoteLine
-keywords: NSQuoteAgent,RecalculateQuoteLine
+keywords: NSQuoteAgent, RecalculateQuoteLine
 so.topic: reference
 ---
 

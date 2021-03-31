@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetPhoneFax
-description: NSParticipantSyncData.SetPhoneFax(StringArray phoneFax)
+uid: crmscript_ref_NSParticipantSyncData_SetPhoneFax
+title: SetPhoneFax(StringArray phoneFax)
 intellisense: NSParticipantSyncData.SetPhoneFax
 keywords: NSParticipantSyncData, GetPhoneFax
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetDescription
-description: String NSBatchTaskInfo.GetDescription()
+uid: crmscript_ref_NSBatchTaskInfo_GetDescription
+title: String GetDescription()
 intellisense: NSBatchTaskInfo.GetDescription
 keywords: NSBatchTaskInfo, GetDescription
 so.topic: reference

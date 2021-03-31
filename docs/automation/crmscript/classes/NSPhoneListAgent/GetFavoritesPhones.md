@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPhoneListAgent_GetFavoritesPhones
-description: PhoneListItemArray GetFavoritesPhones()
+uid: crmscript_ref_NSPhoneListAgent_GetFavoritesPhones
+title: PhoneListItemArray GetFavoritesPhones()
 intellisense: NSPhoneListAgent.GetFavoritesPhones
-keywords: NSPhoneListAgent,GetFavoritesPhones
+keywords: NSPhoneListAgent, GetFavoritesPhones
 so.topic: reference
 ---
 

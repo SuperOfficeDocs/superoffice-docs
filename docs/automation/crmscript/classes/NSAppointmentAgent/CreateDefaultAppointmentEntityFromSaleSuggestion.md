@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_CreateDefaultAppointmentEntityFromSaleSuggestion
-description: AppointmentEntity CreateDefaultAppointmentEntityFromSaleSuggestion(Integer suggestedAppointmentId, Integer saleId, Bool createNow, Integer ownerId)
+uid: crmscript_ref_NSAppointmentAgent_CreateDefaultAppointmentEntityFromSaleSuggestion
+title: AppointmentEntity CreateDefaultAppointmentEntityFromSaleSuggestion(Integer suggestedAppointmentId, Integer saleId, Bool createNow, Integer ownerId)
 intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion
-keywords: NSAppointmentAgent,CreateDefaultAppointmentEntityFromSaleSuggestion
+keywords: NSAppointmentAgent, CreateDefaultAppointmentEntityFromSaleSuggestion
 so.topic: reference
 ---
 

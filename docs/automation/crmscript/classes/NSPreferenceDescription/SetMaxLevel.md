@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_SetMaxLevel
-description: NSPreferenceDescription.SetMaxLevel(PreferenceLevel maxLevel)
+uid: crmscript_ref_NSPreferenceDescription_SetMaxLevel
+title: SetMaxLevel(PreferenceLevel maxLevel)
 intellisense: NSPreferenceDescription.SetMaxLevel
 keywords: NSPreferenceDescription, GetMaxLevel
 so.topic: reference

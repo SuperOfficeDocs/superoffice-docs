@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_GetStatistics
-description: StatisticsDataSetArray GetStatistics(StatusScreenPanelTypeArray functions)
+uid: crmscript_ref_NSCustomerServiceAgent_GetStatistics
+title: StatisticsDataSetArray GetStatistics(StatusScreenPanelTypeArray functions)
 intellisense: NSCustomerServiceAgent.GetStatistics
-keywords: NSCustomerServiceAgent,GetStatistics
+keywords: NSCustomerServiceAgent, GetStatistics
 so.topic: reference
 ---
 

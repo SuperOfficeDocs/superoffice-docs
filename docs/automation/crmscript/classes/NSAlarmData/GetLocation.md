@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetLocation
-description: String NSAlarmData.GetLocation()
+uid: crmscript_ref_NSAlarmData_GetLocation
+title: String GetLocation()
 intellisense: NSAlarmData.GetLocation
 keywords: NSAlarmData, GetLocation
 so.topic: reference

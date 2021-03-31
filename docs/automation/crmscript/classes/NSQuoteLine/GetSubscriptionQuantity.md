@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetSubscriptionQuantity
-description: Float NSQuoteLine.GetSubscriptionQuantity()
+uid: crmscript_ref_NSQuoteLine_GetSubscriptionQuantity
+title: Float GetSubscriptionQuantity()
 intellisense: NSQuoteLine.GetSubscriptionQuantity
 keywords: NSQuoteLine, GetSubscriptionQuantity
 so.topic: reference

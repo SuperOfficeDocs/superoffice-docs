@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetThuStop
-description: DateTime NSTicketPriorityEntity.GetThuStop()
+uid: crmscript_ref_NSTicketPriorityEntity_GetThuStop
+title: DateTime GetThuStop()
 intellisense: NSTicketPriorityEntity.GetThuStop
 keywords: NSTicketPriorityEntity, GetThuStop
 so.topic: reference

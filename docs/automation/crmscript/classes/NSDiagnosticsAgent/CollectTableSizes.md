@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_CollectTableSizes
-description: Void CollectTableSizes()
+uid: crmscript_ref_NSDiagnosticsAgent_CollectTableSizes
+title: Void CollectTableSizes()
 intellisense: NSDiagnosticsAgent.CollectTableSizes
-keywords: NSDiagnosticsAgent,CollectTableSizes
+keywords: NSDiagnosticsAgent, CollectTableSizes
 so.topic: reference
 ---
 

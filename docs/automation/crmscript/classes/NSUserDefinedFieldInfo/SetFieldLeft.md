@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldLeft
-description: NSUserDefinedFieldInfo.SetFieldLeft(Integer fieldLeft)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetFieldLeft
+title: SetFieldLeft(Integer fieldLeft)
 intellisense: NSUserDefinedFieldInfo.SetFieldLeft
 keywords: NSUserDefinedFieldInfo, GetFieldLeft
 so.topic: reference

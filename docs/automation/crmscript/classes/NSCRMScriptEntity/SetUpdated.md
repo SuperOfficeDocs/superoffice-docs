@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptEntity_SetUpdated
-description: NSCRMScriptEntity.SetUpdated(DateTime updated)
+uid: crmscript_ref_NSCRMScriptEntity_SetUpdated
+title: SetUpdated(DateTime updated)
 intellisense: NSCRMScriptEntity.SetUpdated
 keywords: NSCRMScriptEntity, GetUpdated
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSatellite_SetCreatedBy
-description: NSSatellite.SetCreatedBy(Associate createdBy)
+uid: crmscript_ref_NSSatellite_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
 intellisense: NSSatellite.SetCreatedBy
 keywords: NSSatellite, GetCreatedBy
 so.topic: reference

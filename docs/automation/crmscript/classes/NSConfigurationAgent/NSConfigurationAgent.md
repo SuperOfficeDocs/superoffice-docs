@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent
-description: NSConfigurationAgent
+uid: crmscript_ref_NSConfigurationAgent
+title: NSConfigurationAgent
 intellisense: Void.NSConfigurationAgent
 keywords: NSConfigurationAgent
 so.topic: reference

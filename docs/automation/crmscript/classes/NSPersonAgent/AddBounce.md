@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_AddBounce
-description: Void AddBounce(String emailAddress)
+uid: crmscript_ref_NSPersonAgent_AddBounce
+title: Void AddBounce(String emailAddress)
 intellisense: NSPersonAgent.AddBounce
-keywords: NSPersonAgent,AddBounce
+keywords: NSPersonAgent, AddBounce
 so.topic: reference
 ---
 

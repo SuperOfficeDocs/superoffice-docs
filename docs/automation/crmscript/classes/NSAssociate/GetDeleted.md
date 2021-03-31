@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAssociate_GetDeleted
-description: Bool NSAssociate.GetDeleted()
+uid: crmscript_ref_NSAssociate_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSAssociate.GetDeleted
 keywords: NSAssociate, GetDeleted
 so.topic: reference

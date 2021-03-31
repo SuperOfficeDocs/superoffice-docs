@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllFromListName
-description: ListItemEntityArray GetAllFromListName(String udListDefinitionName, Bool includeDeleted)
+uid: crmscript_ref_NSListAgent_GetAllFromListName
+title: ListItemEntityArray GetAllFromListName(String udListDefinitionName, Bool includeDeleted)
 intellisense: NSListAgent.GetAllFromListName
-keywords: NSListAgent,GetAllFromListName
+keywords: NSListAgent, GetAllFromListName
 so.topic: reference
 ---
 

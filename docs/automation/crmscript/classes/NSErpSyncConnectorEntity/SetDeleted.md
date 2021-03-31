@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncConnectorEntity_SetDeleted
-description: NSErpSyncConnectorEntity.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSErpSyncConnectorEntity_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSErpSyncConnectorEntity.SetDeleted
 keywords: NSErpSyncConnectorEntity, GetDeleted
 so.topic: reference

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSPriority_GetValue
-description: String NSPriority.GetValue()
+uid: crmscript_ref_NSPriority_GetValue
+title: String GetValue()
 intellisense: NSPriority.GetValue
 keywords: NSPriority, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the Priority.
 
-**Returns:** String name
+**Returns:** String Priority name.
 

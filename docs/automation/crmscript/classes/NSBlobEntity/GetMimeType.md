@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_GetMimeType
-description: String NSBlobEntity.GetMimeType()
+uid: crmscript_ref_NSBlobEntity_GetMimeType
+title: String GetMimeType()
 intellisense: NSBlobEntity.GetMimeType
 keywords: NSBlobEntity, GetMimeType
 so.topic: reference

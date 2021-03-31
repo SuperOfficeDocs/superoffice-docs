@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFavouriteAgent_IsFavourite
-description: Bool IsFavourite(String tableName, Integer recordId, Integer associateId)
+uid: crmscript_ref_NSFavouriteAgent_IsFavourite
+title: Bool IsFavourite(String tableName, Integer recordId, Integer associateId)
 intellisense: NSFavouriteAgent.IsFavourite
-keywords: NSFavouriteAgent,IsFavourite
+keywords: NSFavouriteAgent, IsFavourite
 so.topic: reference
 ---
 

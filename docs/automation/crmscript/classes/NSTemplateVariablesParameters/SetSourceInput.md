@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_SetSourceInput
-description: NSTemplateVariablesParameters.SetSourceInput(String sourceInput)
+uid: crmscript_ref_NSTemplateVariablesParameters_SetSourceInput
+title: SetSourceInput(String sourceInput)
 intellisense: NSTemplateVariablesParameters.SetSourceInput
 keywords: NSTemplateVariablesParameters, GetSourceInput
 so.topic: reference

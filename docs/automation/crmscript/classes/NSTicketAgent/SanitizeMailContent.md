@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_SanitizeMailContent
-description: String SanitizeMailContent(String content)
+uid: crmscript_ref_NSTicketAgent_SanitizeMailContent
+title: String SanitizeMailContent(String content)
 intellisense: NSTicketAgent.SanitizeMailContent
-keywords: NSTicketAgent,SanitizeMailContent
+keywords: NSTicketAgent, SanitizeMailContent
 so.topic: reference
 ---
 

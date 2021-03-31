@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneData_SetTimeZoneDSTRules
-description: NSTimeZoneData.SetTimeZoneDSTRules(TimeZoneRuleDictionary timeZoneDSTRules)
+uid: crmscript_ref_NSTimeZoneData_SetTimeZoneDSTRules
+title: SetTimeZoneDSTRules(TimeZoneRuleDictionary timeZoneDSTRules)
 intellisense: NSTimeZoneData.SetTimeZoneDSTRules
 keywords: NSTimeZoneData, GetTimeZoneDSTRules
 so.topic: reference

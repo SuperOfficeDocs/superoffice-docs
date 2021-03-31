@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSNavigatorAgent_GetNavigatorCompany
-description: NSNavigatorCompany GetNavigatorCompany(Integer navigatorCompanyId);
+uid: crmscript_ref_NSNavigatorAgent_GetNavigatorCompany
+title: NSNavigatorCompany GetNavigatorCompany(Integer navigatorCompanyId);
 intellisense: NSNavigatorAgent.GetNavigatorCompany
-keywords: NSNavigatorAgent,GetNavigatorCompany
+keywords: NSNavigatorAgent, GetNavigatorCompany
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetSalesRep
-description: PersonEntity GetSalesRep(String contactName, String personFirstname, String personLastname, String emailAddress, String phoneNumber)
+uid: crmscript_ref_NSPersonAgent_GetSalesRep
+title: PersonEntity GetSalesRep(String contactName, String personFirstname, String personLastname, String emailAddress, String phoneNumber)
 intellisense: NSPersonAgent.GetSalesRep
-keywords: NSPersonAgent,GetSalesRep
+keywords: NSPersonAgent, GetSalesRep
 so.topic: reference
 ---
 

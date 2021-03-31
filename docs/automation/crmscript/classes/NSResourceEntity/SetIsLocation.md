@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceEntity_SetIsLocation
-description: NSResourceEntity.SetIsLocation(Bool isLocation)
+uid: crmscript_ref_NSResourceEntity_SetIsLocation
+title: SetIsLocation(Bool isLocation)
 intellisense: NSResourceEntity.SetIsLocation
 keywords: NSResourceEntity, GetIsLocation
 so.topic: reference

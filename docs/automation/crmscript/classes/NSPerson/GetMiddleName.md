@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetMiddleName
-description: String NSPerson.GetMiddleName()
+uid: crmscript_ref_NSPerson_GetMiddleName
+title: String GetMiddleName()
 intellisense: NSPerson.GetMiddleName
 keywords: NSPerson, GetMiddleName
 so.topic: reference

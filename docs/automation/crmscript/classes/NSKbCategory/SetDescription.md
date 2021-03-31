@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSKbCategory_SetDescription
-description: NSKbCategory.SetDescription(String description)
+uid: crmscript_ref_NSKbCategory_SetDescription
+title: SetDescription(String description)
 intellisense: NSKbCategory.SetDescription
 keywords: NSKbCategory, GetDescription
 so.topic: reference

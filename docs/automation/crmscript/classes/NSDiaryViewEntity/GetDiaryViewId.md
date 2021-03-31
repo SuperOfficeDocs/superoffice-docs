@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity_GetDiaryViewId
-description: Integer NSDiaryViewEntity.GetDiaryViewId()
+uid: crmscript_ref_NSDiaryViewEntity_GetDiaryViewId
+title: Integer GetDiaryViewId()
 intellisense: NSDiaryViewEntity.GetDiaryViewId
 keywords: NSDiaryViewEntity, GetDiaryViewId
 so.topic: reference

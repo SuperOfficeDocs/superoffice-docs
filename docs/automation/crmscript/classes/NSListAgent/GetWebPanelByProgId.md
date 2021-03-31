@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetWebPanelByProgId
-description: WebPanelEntity GetWebPanelByProgId(String progId)
+uid: crmscript_ref_NSListAgent_GetWebPanelByProgId
+title: WebPanelEntity GetWebPanelByProgId(String progId)
 intellisense: NSListAgent.GetWebPanelByProgId
-keywords: NSListAgent,GetWebPanelByProgId
+keywords: NSListAgent, GetWebPanelByProgId
 so.topic: reference
 ---
 

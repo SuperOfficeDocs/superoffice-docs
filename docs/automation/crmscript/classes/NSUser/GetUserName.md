@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetUserName
-description: String NSUser.GetUserName()
+uid: crmscript_ref_NSUser_GetUserName
+title: String GetUserName()
 intellisense: NSUser.GetUserName
 keywords: NSUser, GetUserName
 so.topic: reference

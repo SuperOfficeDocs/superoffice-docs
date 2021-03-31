@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetAlertLevel
-description: NSTicket.SetAlertLevel(Integer alertLevel)
+uid: crmscript_ref_NSTicket_SetAlertLevel
+title: SetAlertLevel(Integer alertLevel)
 intellisense: NSTicket.SetAlertLevel
 keywords: NSTicket, GetAlertLevel
 so.topic: reference

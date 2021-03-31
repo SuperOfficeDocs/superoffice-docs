@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetLostTotalOwnCurrency
-description: NSSaleSummary.SetLostTotalOwnCurrency(Float lostTotalOwnCurrency)
+uid: crmscript_ref_NSSaleSummary_SetLostTotalOwnCurrency
+title: SetLostTotalOwnCurrency(Float lostTotalOwnCurrency)
 intellisense: NSSaleSummary.SetLostTotalOwnCurrency
 keywords: NSSaleSummary, GetLostTotalOwnCurrency
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_SetDeleted
-description: NSCountry.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSCountry_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSCountry.SetDeleted
 keywords: NSCountry, GetDeleted
 so.topic: reference

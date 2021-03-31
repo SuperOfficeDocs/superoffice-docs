@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStageEntity_SetValue
-description: NSSaleStageEntity.SetValue(String value)
+uid: crmscript_ref_NSSaleStageEntity_SetValue
+title: SetValue(String value)
 intellisense: NSSaleStageEntity.SetValue
 keywords: NSSaleStageEntity, GetValue
 so.topic: reference

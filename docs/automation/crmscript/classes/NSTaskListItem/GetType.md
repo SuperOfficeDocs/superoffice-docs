@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_GetType
-description: TaskType NSTaskListItem.GetType()
+uid: crmscript_ref_NSTaskListItem_GetType
+title: TaskType GetType()
 intellisense: NSTaskListItem.GetType
 keywords: NSTaskListItem, GetType
 so.topic: reference

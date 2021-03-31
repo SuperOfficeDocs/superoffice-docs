@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetConfigParametersByLayoutName
-description: AudienceConfigParameterArray GetConfigParametersByLayoutName(String layoutName)
+uid: crmscript_ref_NSAudienceAgent_GetConfigParametersByLayoutName
+title: AudienceConfigParameterArray GetConfigParametersByLayoutName(String layoutName)
 intellisense: NSAudienceAgent.GetConfigParametersByLayoutName
-keywords: NSAudienceAgent,GetConfigParametersByLayoutName
+keywords: NSAudienceAgent, GetConfigParametersByLayoutName
 so.topic: reference
 ---
 

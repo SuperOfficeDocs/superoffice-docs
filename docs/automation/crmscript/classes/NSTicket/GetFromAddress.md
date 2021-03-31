@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetFromAddress
-description: String NSTicket.GetFromAddress()
+uid: crmscript_ref_NSTicket_GetFromAddress
+title: String GetFromAddress()
 intellisense: NSTicket.GetFromAddress
 keywords: NSTicket, GetFromAddress
 so.topic: reference

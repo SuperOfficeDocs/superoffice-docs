@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetNumber1
-description: NSContactEntity.SetNumber1(String number1)
+uid: crmscript_ref_NSContactEntity_SetNumber1
+title: SetNumber1(String number1)
 intellisense: NSContactEntity.SetNumber1
 keywords: NSContactEntity, GetNumber1
 so.topic: reference

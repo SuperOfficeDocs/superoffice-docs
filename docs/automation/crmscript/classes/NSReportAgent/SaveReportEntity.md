@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_SaveReportEntity
-description: NSReportEntity SaveReportEntity(NSReportEntity reportEntity);
+uid: crmscript_ref_NSReportAgent_SaveReportEntity
+title: NSReportEntity SaveReportEntity(NSReportEntity reportEntity);
 intellisense: NSReportAgent.SaveReportEntity
-keywords: NSReportAgent,SaveReportEntity
+keywords: NSReportAgent, SaveReportEntity
 so.topic: reference
 ---
 	  

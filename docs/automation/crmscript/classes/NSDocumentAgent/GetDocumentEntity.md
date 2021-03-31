@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetDocumentEntity
-description: NSDocumentEntity GetDocumentEntity(Integer documentEntityId);
+uid: crmscript_ref_NSDocumentAgent_GetDocumentEntity
+title: NSDocumentEntity GetDocumentEntity(Integer documentEntityId);
 intellisense: NSDocumentAgent.GetDocumentEntity
-keywords: NSDocumentAgent,GetDocumentEntity
+keywords: NSDocumentAgent, GetDocumentEntity
 so.topic: reference
 ---
 

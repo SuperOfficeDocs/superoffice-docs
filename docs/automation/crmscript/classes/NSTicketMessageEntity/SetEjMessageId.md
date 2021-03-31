@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_SetEjMessageId
-description: NSTicketMessageEntity.SetEjMessageId(Integer ejMessageId)
+uid: crmscript_ref_NSTicketMessageEntity_SetEjMessageId
+title: SetEjMessageId(Integer ejMessageId)
 intellisense: NSTicketMessageEntity.SetEjMessageId
 keywords: NSTicketMessageEntity, GetEjMessageId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetCompetitorList
-description: NSCompetitor[] GetCompetitorList(Integer[]  competitorIds);
+uid: crmscript_ref_NSListAgent_GetCompetitorList
+title: NSCompetitor[] GetCompetitorList(Integer[]  competitorIds);
 intellisense: NSListAgent.GetCompetitorList
-keywords: NSListAgent,GetCompetitorList
+keywords: NSListAgent, GetCompetitorList
 so.topic: reference
 ---
 

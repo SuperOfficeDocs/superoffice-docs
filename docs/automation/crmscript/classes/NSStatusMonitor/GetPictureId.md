@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetPictureId
-description: Integer NSStatusMonitor.GetPictureId()
+uid: crmscript_ref_NSStatusMonitor_GetPictureId
+title: Integer GetPictureId()
 intellisense: NSStatusMonitor.GetPictureId
 keywords: NSStatusMonitor, GetPictureId
 so.topic: reference

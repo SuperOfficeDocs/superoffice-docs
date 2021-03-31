@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLanguageInfo_SetTwoLetterISOLanguageName
-description: NSLanguageInfo.SetTwoLetterISOLanguageName(String twoLetterISOLanguageName)
+uid: crmscript_ref_NSLanguageInfo_SetTwoLetterISOLanguageName
+title: SetTwoLetterISOLanguageName(String twoLetterISOLanguageName)
 intellisense: NSLanguageInfo.SetTwoLetterISOLanguageName
 keywords: NSLanguageInfo, GetTwoLetterISOLanguageName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetUrls
-description: EntityElementArray NSPersonEntity.GetUrls()
+uid: crmscript_ref_NSPersonEntity_GetUrls
+title: EntityElementArray GetUrls()
 intellisense: NSPersonEntity.GetUrls
 keywords: NSPersonEntity, GetUrls
 so.topic: reference

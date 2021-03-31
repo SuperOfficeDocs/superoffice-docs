@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_GetEarningPercent
-description: Float NSQuoteAlternative.GetEarningPercent()
+uid: crmscript_ref_NSQuoteAlternative_GetEarningPercent
+title: Float GetEarningPercent()
 intellisense: NSQuoteAlternative.GetEarningPercent
 keywords: NSQuoteAlternative, GetEarningPercent
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_SetParameters
-description: NSExtAppEntity.SetParameters(String parameters)
+uid: crmscript_ref_NSExtAppEntity_SetParameters
+title: SetParameters(String parameters)
 intellisense: NSExtAppEntity.SetParameters
 keywords: NSExtAppEntity, GetParameters
 so.topic: reference

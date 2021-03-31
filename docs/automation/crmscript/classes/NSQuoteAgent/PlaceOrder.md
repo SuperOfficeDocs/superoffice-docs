@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_PlaceOrder
-description: PluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleAsSold, String poNumber, String orderComment, String culture)
+uid: crmscript_ref_NSQuoteAgent_PlaceOrder
+title: PluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleAsSold, String poNumber, String orderComment, String culture)
 intellisense: NSQuoteAgent.PlaceOrder
-keywords: NSQuoteAgent,PlaceOrder
+keywords: NSQuoteAgent, PlaceOrder
 so.topic: reference
 ---
 

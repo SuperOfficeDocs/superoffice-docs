@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_GetDebugInfo
-description: String NSTicketMessageEntity.GetDebugInfo()
+uid: crmscript_ref_NSTicketMessageEntity_GetDebugInfo
+title: String GetDebugInfo()
 intellisense: NSTicketMessageEntity.GetDebugInfo
 keywords: NSTicketMessageEntity, GetDebugInfo
 so.topic: reference

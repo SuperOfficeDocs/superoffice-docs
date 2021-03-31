@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetInitialQueuePos
-description: Integer NSChatSessionEntity.GetInitialQueuePos()
+uid: crmscript_ref_NSChatSessionEntity_GetInitialQueuePos
+title: Integer GetInitialQueuePos()
 intellisense: NSChatSessionEntity.GetInitialQueuePos
 keywords: NSChatSessionEntity, GetInitialQueuePos
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionForFind_GetFilterScreenHeading
-description: String NSSelectionForFind.GetFilterScreenHeading()
+uid: crmscript_ref_NSSelectionForFind_GetFilterScreenHeading
+title: String GetFilterScreenHeading()
 intellisense: NSSelectionForFind.GetFilterScreenHeading
 keywords: NSSelectionForFind, GetFilterScreenHeading
 so.topic: reference

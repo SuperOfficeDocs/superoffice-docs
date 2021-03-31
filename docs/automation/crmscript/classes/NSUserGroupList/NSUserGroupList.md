@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserGroupList
-description: NSUserGroupList
+uid: crmscript_ref_NSUserGroupList
+title: NSUserGroupList
 intellisense: Void.NSUserGroupList
 keywords: NSUserGroupList
 so.topic: reference

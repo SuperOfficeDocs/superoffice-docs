@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_SetSelectionId
-description: NSDashboardTile.SetSelectionId(Integer selectionId)
+uid: crmscript_ref_NSDashboardTile_SetSelectionId
+title: SetSelectionId(Integer selectionId)
 intellisense: NSDashboardTile.SetSelectionId
 keywords: NSDashboardTile, GetSelectionId
 so.topic: reference

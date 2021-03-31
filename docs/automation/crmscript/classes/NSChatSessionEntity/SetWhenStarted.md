@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetWhenStarted
-description: NSChatSessionEntity.SetWhenStarted(DateTime whenStarted)
+uid: crmscript_ref_NSChatSessionEntity_SetWhenStarted
+title: SetWhenStarted(DateTime whenStarted)
 intellisense: NSChatSessionEntity.SetWhenStarted
 keywords: NSChatSessionEntity, GetWhenStarted
 so.topic: reference

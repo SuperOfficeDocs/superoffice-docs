@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_MoveErpFieldItem
-description: Void MoveErpFieldItem(Integer erpFieldId, Integer direction, Integer erpConnectionId, Integer erpActorType)
+uid: crmscript_ref_NSErpSyncAgent_MoveErpFieldItem
+title: Void MoveErpFieldItem(Integer erpFieldId, Integer direction, Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.MoveErpFieldItem
-keywords: NSErpSyncAgent,MoveErpFieldItem
+keywords: NSErpSyncAgent, MoveErpFieldItem
 so.topic: reference
 ---
 

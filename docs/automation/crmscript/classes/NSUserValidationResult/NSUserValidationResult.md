@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserValidationResult
-description: NSUserValidationResult
+uid: crmscript_ref_NSUserValidationResult
+title: NSUserValidationResult
 intellisense: Void.NSUserValidationResult
 keywords: NSUserValidationResult
 so.topic: reference

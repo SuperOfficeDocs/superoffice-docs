@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetNextProjectStatus
-description: Integer GetNextProjectStatus(Integer projectId)
+uid: crmscript_ref_NSProjectAgent_GetNextProjectStatus
+title: Integer GetNextProjectStatus(Integer projectId)
 intellisense: NSProjectAgent.GetNextProjectStatus
-keywords: NSProjectAgent,GetNextProjectStatus
+keywords: NSProjectAgent, GetNextProjectStatus
 so.topic: reference
 ---
 

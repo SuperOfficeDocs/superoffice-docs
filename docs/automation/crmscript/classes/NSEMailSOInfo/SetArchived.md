@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailSOInfo_SetArchived
-description: NSEMailSOInfo.SetArchived(Bool archived)
+uid: crmscript_ref_NSEMailSOInfo_SetArchived
+title: SetArchived(Bool archived)
 intellisense: NSEMailSOInfo.SetArchived
 keywords: NSEMailSOInfo, GetArchived
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_AddEmailAddressToPerson
-description: Void AddEmailAddressToPerson(Integer personId, String emailAddress, Bool setAsPrimaryEmail)
+uid: crmscript_ref_NSPersonAgent_AddEmailAddressToPerson
+title: Void AddEmailAddressToPerson(Integer personId, String emailAddress, Bool setAsPrimaryEmail)
 intellisense: NSPersonAgent.AddEmailAddressToPerson
-keywords: NSPersonAgent,AddEmailAddressToPerson
+keywords: NSPersonAgent, AddEmailAddressToPerson
 so.topic: reference
 ---
 

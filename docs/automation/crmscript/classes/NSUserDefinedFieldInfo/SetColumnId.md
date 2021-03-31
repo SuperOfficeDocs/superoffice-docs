@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetColumnId
-description: NSUserDefinedFieldInfo.SetColumnId(Integer columnId)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetColumnId
+title: SetColumnId(Integer columnId)
 intellisense: NSUserDefinedFieldInfo.SetColumnId
 keywords: NSUserDefinedFieldInfo, GetColumnId
 so.topic: reference

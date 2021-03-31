@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetCompleted
-description: Integer NSDocumentEntity.GetCompleted()
+uid: crmscript_ref_NSDocumentEntity_GetCompleted
+title: Integer GetCompleted()
 intellisense: NSDocumentEntity.GetCompleted
 keywords: NSDocumentEntity, GetCompleted
 so.topic: reference

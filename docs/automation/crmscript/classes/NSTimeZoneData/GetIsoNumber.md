@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneData_GetIsoNumber
-description: Integer NSTimeZoneData.GetIsoNumber()
+uid: crmscript_ref_NSTimeZoneData_GetIsoNumber
+title: Integer GetIsoNumber()
 intellisense: NSTimeZoneData.GetIsoNumber
 keywords: NSTimeZoneData, GetIsoNumber
 so.topic: reference

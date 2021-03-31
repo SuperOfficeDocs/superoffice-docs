@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllSaleTypeEntities
-description: SaleTypeEntityArray GetAllSaleTypeEntities(Bool includeDeleted)
+uid: crmscript_ref_NSListAgent_GetAllSaleTypeEntities
+title: SaleTypeEntityArray GetAllSaleTypeEntities(Bool includeDeleted)
 intellisense: NSListAgent.GetAllSaleTypeEntities
-keywords: NSListAgent,GetAllSaleTypeEntities
+keywords: NSListAgent, GetAllSaleTypeEntities
 so.topic: reference
 ---
 

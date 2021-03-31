@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity_GetVisibleColumns
-description: Integer NSDiaryViewEntity.GetVisibleColumns()
+uid: crmscript_ref_NSDiaryViewEntity_GetVisibleColumns
+title: Integer GetVisibleColumns()
 intellisense: NSDiaryViewEntity.GetVisibleColumns
 keywords: NSDiaryViewEntity, GetVisibleColumns
 so.topic: reference

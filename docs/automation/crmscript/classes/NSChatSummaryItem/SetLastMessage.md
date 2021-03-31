@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSummaryItem_SetLastMessage
-description: NSChatSummaryItem.SetLastMessage(String lastMessage)
+uid: crmscript_ref_NSChatSummaryItem_SetLastMessage
+title: SetLastMessage(String lastMessage)
 intellisense: NSChatSummaryItem.SetLastMessage
 keywords: NSChatSummaryItem, GetLastMessage
 so.topic: reference

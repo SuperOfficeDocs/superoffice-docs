@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptEntity_SetHierarchyId
-description: NSCRMScriptEntity.SetHierarchyId(Integer hierarchyId)
+uid: crmscript_ref_NSCRMScriptEntity_SetHierarchyId
+title: SetHierarchyId(Integer hierarchyId)
 intellisense: NSCRMScriptEntity.SetHierarchyId
 keywords: NSCRMScriptEntity, GetHierarchyId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSatellite_GetUpdated
-description: DateTime NSSatellite.GetUpdated()
+uid: crmscript_ref_NSSatellite_GetUpdated
+title: DateTime GetUpdated()
 intellisense: NSSatellite.GetUpdated
 keywords: NSSatellite, GetUpdated
 so.topic: reference

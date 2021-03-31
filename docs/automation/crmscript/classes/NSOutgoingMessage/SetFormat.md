@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOutgoingMessage_SetFormat
-description: NSOutgoingMessage.SetFormat(String format)
+uid: crmscript_ref_NSOutgoingMessage_SetFormat
+title: SetFormat(String format)
 intellisense: NSOutgoingMessage.SetFormat
 keywords: NSOutgoingMessage, GetFormat
 so.topic: reference

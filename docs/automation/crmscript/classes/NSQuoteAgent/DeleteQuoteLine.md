@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_DeleteQuoteLine
-description: Void DeleteQuoteLine(Integer quoteLineId)
+uid: crmscript_ref_NSQuoteAgent_DeleteQuoteLine
+title: Void DeleteQuoteLine(Integer quoteLineId)
 intellisense: NSQuoteAgent.DeleteQuoteLine
-keywords: NSQuoteAgent,DeleteQuoteLine
+keywords: NSQuoteAgent, DeleteQuoteLine
 so.topic: reference
 ---
 

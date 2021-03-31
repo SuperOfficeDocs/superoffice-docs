@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetItemNumber
-description: String NSProduct.GetItemNumber()
+uid: crmscript_ref_NSProduct_GetItemNumber
+title: String GetItemNumber()
 intellisense: NSProduct.GetItemNumber
 keywords: NSProduct, GetItemNumber
 so.topic: reference

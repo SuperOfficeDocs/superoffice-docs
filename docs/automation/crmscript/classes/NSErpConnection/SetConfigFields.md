@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_SetConfigFields
-description: NSErpConnection.SetConfigFields(StringDictionary configFields)
+uid: crmscript_ref_NSErpConnection_SetConfigFields
+title: SetConfigFields(StringDictionary configFields)
 intellisense: NSErpConnection.SetConfigFields
 keywords: NSErpConnection, GetConfigFields
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetDbiLastSyncronized
-description: DateTime NSContactEntity.GetDbiLastSyncronized()
+uid: crmscript_ref_NSContactEntity_GetDbiLastSyncronized
+title: DateTime GetDbiLastSyncronized()
 intellisense: NSContactEntity.GetDbiLastSyncronized
 keywords: NSContactEntity, GetDbiLastSyncronized
 so.topic: reference

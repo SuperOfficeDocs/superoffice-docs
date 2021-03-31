@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_DeleteAudienceLayoutEntity
-description: DeleteAudienceLayoutEntity(Integer audienceLayoutEntity);
+uid: crmscript_ref_NSAudienceAgent_DeleteAudienceLayoutEntity
+title: DeleteAudienceLayoutEntity(Integer audienceLayoutEntity);
 intellisense: NSAudienceAgent.DeleteAudienceLayoutEntity
-keywords: NSAudienceAgent,DeleteAudienceLayoutEntity
+keywords: NSAudienceAgent, DeleteAudienceLayoutEntity
 so.topic: reference
 ---
 

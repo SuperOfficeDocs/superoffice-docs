@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDocumentTemplateUsedInProjectStage
-description: StringArray GetDocumentTemplateUsedInProjectStage(Integer documentTemplateId)
+uid: crmscript_ref_NSListAgent_GetDocumentTemplateUsedInProjectStage
+title: StringArray GetDocumentTemplateUsedInProjectStage(Integer documentTemplateId)
 intellisense: NSListAgent.GetDocumentTemplateUsedInProjectStage
-keywords: NSListAgent,GetDocumentTemplateUsedInProjectStage
+keywords: NSListAgent, GetDocumentTemplateUsedInProjectStage
 so.topic: reference
 ---
 

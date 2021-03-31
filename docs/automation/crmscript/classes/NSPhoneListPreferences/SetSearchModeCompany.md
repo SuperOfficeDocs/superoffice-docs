@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences_SetSearchModeCompany
-description: NSPhoneListPreferences.SetSearchModeCompany(Integer searchModeCompany)
+uid: crmscript_ref_NSPhoneListPreferences_SetSearchModeCompany
+title: SetSearchModeCompany(Integer searchModeCompany)
 intellisense: NSPhoneListPreferences.SetSearchModeCompany
 keywords: NSPhoneListPreferences, GetSearchModeCompany
 so.topic: reference

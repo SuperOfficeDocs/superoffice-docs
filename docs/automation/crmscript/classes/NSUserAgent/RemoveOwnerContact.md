@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_RemoveOwnerContact
-description: Void RemoveOwnerContact(Integer contactId)
+uid: crmscript_ref_NSUserAgent_RemoveOwnerContact
+title: Void RemoveOwnerContact(Integer contactId)
 intellisense: NSUserAgent.RemoveOwnerContact
-keywords: NSUserAgent,RemoveOwnerContact
+keywords: NSUserAgent, RemoveOwnerContact
 so.topic: reference
 ---
 

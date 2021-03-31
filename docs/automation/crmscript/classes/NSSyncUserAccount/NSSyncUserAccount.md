@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSyncUserAccount
-description: NSSyncUserAccount
+uid: crmscript_ref_NSSyncUserAccount
+title: NSSyncUserAccount
 intellisense: Void.NSSyncUserAccount
 keywords: NSSyncUserAccount
 so.topic: reference

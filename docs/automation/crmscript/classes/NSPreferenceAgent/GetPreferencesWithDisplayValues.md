@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_GetPreferencesWithDisplayValues
-description: PreferenceArray GetPreferencesWithDisplayValues(PreferenceSpecArray specifications)
+uid: crmscript_ref_NSPreferenceAgent_GetPreferencesWithDisplayValues
+title: PreferenceArray GetPreferencesWithDisplayValues(PreferenceSpecArray specifications)
 intellisense: NSPreferenceAgent.GetPreferencesWithDisplayValues
-keywords: NSPreferenceAgent,GetPreferencesWithDisplayValues
+keywords: NSPreferenceAgent, GetPreferencesWithDisplayValues
 so.topic: reference
 ---
 

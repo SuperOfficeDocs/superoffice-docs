@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity_GetTooltip
-description: String NSDiaryViewEntity.GetTooltip()
+uid: crmscript_ref_NSDiaryViewEntity_GetTooltip
+title: String GetTooltip()
 intellisense: NSDiaryViewEntity.GetTooltip
 keywords: NSDiaryViewEntity, GetTooltip
 so.topic: reference

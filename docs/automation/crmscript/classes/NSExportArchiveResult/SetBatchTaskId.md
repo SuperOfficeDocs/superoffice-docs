@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExportArchiveResult_SetBatchTaskId
-description: NSExportArchiveResult.SetBatchTaskId(Integer batchTaskId)
+uid: crmscript_ref_NSExportArchiveResult_SetBatchTaskId
+title: SetBatchTaskId(Integer batchTaskId)
 intellisense: NSExportArchiveResult.SetBatchTaskId
 keywords: NSExportArchiveResult, GetBatchTaskId
 so.topic: reference

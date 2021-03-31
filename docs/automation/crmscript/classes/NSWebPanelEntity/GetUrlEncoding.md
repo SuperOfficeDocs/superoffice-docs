@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetUrlEncoding
-description: Integer NSWebPanelEntity.GetUrlEncoding()
+uid: crmscript_ref_NSWebPanelEntity_GetUrlEncoding
+title: Integer GetUrlEncoding()
 intellisense: NSWebPanelEntity.GetUrlEncoding
 keywords: NSWebPanelEntity, GetUrlEncoding
 so.topic: reference

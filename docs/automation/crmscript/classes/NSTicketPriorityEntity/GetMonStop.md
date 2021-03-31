@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetMonStop
-description: DateTime NSTicketPriorityEntity.GetMonStop()
+uid: crmscript_ref_NSTicketPriorityEntity_GetMonStop
+title: DateTime GetMonStop()
 intellisense: NSTicketPriorityEntity.GetMonStop
 keywords: NSTicketPriorityEntity, GetMonStop
 so.topic: reference

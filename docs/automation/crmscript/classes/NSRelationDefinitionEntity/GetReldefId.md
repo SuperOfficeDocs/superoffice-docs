@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRelationDefinitionEntity_GetReldefId
-description: Integer NSRelationDefinitionEntity.GetReldefId()
+uid: crmscript_ref_NSRelationDefinitionEntity_GetReldefId
+title: Integer GetReldefId()
 intellisense: NSRelationDefinitionEntity.GetReldefId
 keywords: NSRelationDefinitionEntity, GetReldefId
 so.topic: reference

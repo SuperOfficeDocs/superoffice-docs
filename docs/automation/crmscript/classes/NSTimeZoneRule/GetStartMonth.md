@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneRule_GetStartMonth
-description: Integer NSTimeZoneRule.GetStartMonth()
+uid: crmscript_ref_NSTimeZoneRule_GetStartMonth
+title: Integer GetStartMonth()
 intellisense: NSTimeZoneRule.GetStartMonth
 keywords: NSTimeZoneRule, GetStartMonth
 so.topic: reference

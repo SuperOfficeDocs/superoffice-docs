@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketAgent
-description: NSPocketAgent
+uid: crmscript_ref_NSPocketAgent
+title: NSPocketAgent
 intellisense: Void.NSPocketAgent
 keywords: NSPocketAgent
 so.topic: reference

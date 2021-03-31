@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncConnectorEntity_GetURL
-description: String NSErpSyncConnectorEntity.GetURL()
+uid: crmscript_ref_NSErpSyncConnectorEntity_GetURL
+title: String GetURL()
 intellisense: NSErpSyncConnectorEntity.GetURL
 keywords: NSErpSyncConnectorEntity, GetURL
 so.topic: reference

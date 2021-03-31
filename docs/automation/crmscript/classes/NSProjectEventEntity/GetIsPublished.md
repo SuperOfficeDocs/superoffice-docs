@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetIsPublished
-description: Bool NSProjectEventEntity.GetIsPublished()
+uid: crmscript_ref_NSProjectEventEntity_GetIsPublished
+title: Bool GetIsPublished()
 intellisense: NSProjectEventEntity.GetIsPublished
 keywords: NSProjectEventEntity, GetIsPublished
 so.topic: reference

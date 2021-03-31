@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_CreateDefaultChatSessionEntity
-description: NSChatSessionEntity CreateDefaultChatSessionEntity()
+uid: crmscript_ref_NSChatAgent_CreateDefaultChatSessionEntity
+title: NSChatSessionEntity CreateDefaultChatSessionEntity()
 intellisense: NSChatAgent.CreateDefaultChatSessionEntity
-keywords: NSChatAgent,CreateDefaultChatSessionEntity
+keywords: NSChatAgent, CreateDefaultChatSessionEntity
 so.topic: reference
 ---
 	  

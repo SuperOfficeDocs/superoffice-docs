@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetTooltip
-description: NSUser.SetTooltip(String tooltip)
+uid: crmscript_ref_NSUser_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSUser.SetTooltip
 keywords: NSUser, GetTooltip
 so.topic: reference

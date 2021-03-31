@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFindResults_GetArchiveColumns
-description: ArchiveColumnInfoArray NSFindResults.GetArchiveColumns()
+uid: crmscript_ref_NSFindResults_GetArchiveColumns
+title: ArchiveColumnInfoArray GetArchiveColumns()
 intellisense: NSFindResults.GetArchiveColumns
 keywords: NSFindResults, GetArchiveColumns
 so.topic: reference

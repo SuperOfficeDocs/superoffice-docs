@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_SetName
-description: NSContact.SetName(String name)
+uid: crmscript_ref_NSContact_SetName
+title: SetName(String name)
 intellisense: NSContact.SetName
 keywords: NSContact, GetName
 so.topic: reference

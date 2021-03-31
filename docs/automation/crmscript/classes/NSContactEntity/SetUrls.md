@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetUrls
-description: NSContactEntity.SetUrls(EntityElementArray urls)
+uid: crmscript_ref_NSContactEntity_SetUrls
+title: SetUrls(EntityElementArray urls)
 intellisense: NSContactEntity.SetUrls
 keywords: NSContactEntity, GetUrls
 so.topic: reference

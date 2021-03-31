@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAttachmentEntity_GetAttachmentId
-description: Integer NSAttachmentEntity.GetAttachmentId()
+uid: crmscript_ref_NSAttachmentEntity_GetAttachmentId
+title: Integer GetAttachmentId()
 intellisense: NSAttachmentEntity.GetAttachmentId
 keywords: NSAttachmentEntity, GetAttachmentId
 so.topic: reference

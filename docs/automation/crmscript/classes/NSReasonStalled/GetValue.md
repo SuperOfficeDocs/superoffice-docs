@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSReasonStalled_GetValue
-description: String NSReasonStalled.GetValue()
+uid: crmscript_ref_NSReasonStalled_GetValue
+title: String GetValue()
 intellisense: NSReasonStalled.GetValue
 keywords: NSReasonStalled, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the ReasonStalled.
 
-**Returns:** String name
+**Returns:** String ReasonStalled name.
 

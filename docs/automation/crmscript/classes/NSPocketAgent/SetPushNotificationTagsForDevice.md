@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPocketAgent_SetPushNotificationTagsForDevice
-description: Void SetPushNotificationTagsForDevice(String deviceIdentifier, String tags)
+uid: crmscript_ref_NSPocketAgent_SetPushNotificationTagsForDevice
+title: Void SetPushNotificationTagsForDevice(String deviceIdentifier, String tags)
 intellisense: NSPocketAgent.SetPushNotificationTagsForDevice
-keywords: NSPocketAgent,SetPushNotificationTagsForDevice
+keywords: NSPocketAgent, SetPushNotificationTagsForDevice
 so.topic: reference
 ---
 

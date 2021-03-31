@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_SetFormSubmissionId
-description: NSFormSubmissionEntity.SetFormSubmissionId(Integer formSubmissionId)
+uid: crmscript_ref_NSFormSubmissionEntity_SetFormSubmissionId
+title: SetFormSubmissionId(Integer formSubmissionId)
 intellisense: NSFormSubmissionEntity.SetFormSubmissionId
 keywords: NSFormSubmissionEntity, GetFormSubmissionId
 so.topic: reference

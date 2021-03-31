@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent_RegenerateIndex
-description: BatchTaskInfo RegenerateIndex(Bool runAsBatch)
+uid: crmscript_ref_NSFreeTextAgent_RegenerateIndex
+title: BatchTaskInfo RegenerateIndex(Bool runAsBatch)
 intellisense: NSFreeTextAgent.RegenerateIndex
-keywords: NSFreeTextAgent,RegenerateIndex
+keywords: NSFreeTextAgent, RegenerateIndex
 so.topic: reference
 ---
 

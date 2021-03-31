@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_CreateDefaultAttachmentEntity
-description: NSAttachmentEntity CreateDefaultAttachmentEntity()
+uid: crmscript_ref_NSTicketAgent_CreateDefaultAttachmentEntity
+title: NSAttachmentEntity CreateDefaultAttachmentEntity()
 intellisense: NSTicketAgent.CreateDefaultAttachmentEntity
-keywords: NSTicketAgent,CreateDefaultAttachmentEntity
+keywords: NSTicketAgent, CreateDefaultAttachmentEntity
 so.topic: reference
 ---
 	  

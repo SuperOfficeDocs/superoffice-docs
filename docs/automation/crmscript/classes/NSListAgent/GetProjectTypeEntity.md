@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetProjectTypeEntity
-description: NSProjectTypeEntity GetProjectTypeEntity(Integer projectTypeEntityId);
+uid: crmscript_ref_NSListAgent_GetProjectTypeEntity
+title: NSProjectTypeEntity GetProjectTypeEntity(Integer projectTypeEntityId);
 intellisense: NSListAgent.GetProjectTypeEntity
-keywords: NSListAgent,GetProjectTypeEntity
+keywords: NSListAgent, GetProjectTypeEntity
 so.topic: reference
 ---
 

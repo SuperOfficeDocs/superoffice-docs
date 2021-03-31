@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetFunctionalRights
-description: SelectableMDOListItemArray GetFunctionalRights(Integer roleId)
+uid: crmscript_ref_NSUserAgent_GetFunctionalRights
+title: SelectableMDOListItemArray GetFunctionalRights(Integer roleId)
 intellisense: NSUserAgent.GetFunctionalRights
-keywords: NSUserAgent,GetFunctionalRights
+keywords: NSUserAgent, GetFunctionalRights
 so.topic: reference
 ---
 

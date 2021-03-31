@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAssociateAgent_GetAssociatesByGroup
-description: AssociateArray GetAssociatesByGroup(Integer groupId, Integer type)
+uid: crmscript_ref_NSAssociateAgent_GetAssociatesByGroup
+title: AssociateArray GetAssociatesByGroup(Integer groupId, Integer type)
 intellisense: NSAssociateAgent.GetAssociatesByGroup
-keywords: NSAssociateAgent,GetAssociatesByGroup
+keywords: NSAssociateAgent, GetAssociatesByGroup
 so.topic: reference
 ---
 

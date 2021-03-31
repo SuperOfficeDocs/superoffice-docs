@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_SetDisplayType
-description: NSPreference.SetDisplayType(Integer displayType)
+uid: crmscript_ref_NSPreference_SetDisplayType
+title: SetDisplayType(Integer displayType)
 intellisense: NSPreference.SetDisplayType
 keywords: NSPreference, GetDisplayType
 so.topic: reference

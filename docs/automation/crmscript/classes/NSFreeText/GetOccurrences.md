@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFreeText_GetOccurrences
-description: Integer NSFreeText.GetOccurrences()
+uid: crmscript_ref_NSFreeText_GetOccurrences
+title: Integer GetOccurrences()
 intellisense: NSFreeText.GetOccurrences
 keywords: NSFreeText, GetOccurrences
 so.topic: reference

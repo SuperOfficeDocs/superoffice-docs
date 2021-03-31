@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder_SetFlags
-description: NSEMailFolder.SetFlags(String flags)
+uid: crmscript_ref_NSEMailFolder_SetFlags
+title: SetFlags(String flags)
 intellisense: NSEMailFolder.SetFlags
 keywords: NSEMailFolder, GetFlags
 so.topic: reference

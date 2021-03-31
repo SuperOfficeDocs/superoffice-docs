@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentPreview_SetType
-description: NSDocumentPreview.SetType(String type)
+uid: crmscript_ref_NSDocumentPreview_SetType
+title: SetType(String type)
 intellisense: NSDocumentPreview.SetType
 keywords: NSDocumentPreview, GetType
 so.topic: reference

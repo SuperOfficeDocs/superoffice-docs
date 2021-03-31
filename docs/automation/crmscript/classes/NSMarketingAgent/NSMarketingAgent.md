@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent
-description: NSMarketingAgent
+uid: crmscript_ref_NSMarketingAgent
+title: NSMarketingAgent
 intellisense: Void.NSMarketingAgent
 keywords: NSMarketingAgent
 so.topic: reference

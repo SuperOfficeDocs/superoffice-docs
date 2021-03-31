@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_SaveExternalTokens
-description: String SaveExternalTokens(TokenManagementInfo tokenManagementInfo)
+uid: crmscript_ref_NSUserAgent_SaveExternalTokens
+title: String SaveExternalTokens(TokenManagementInfo tokenManagementInfo)
 intellisense: NSUserAgent.SaveExternalTokens
-keywords: NSUserAgent,SaveExternalTokens
+keywords: NSUserAgent, SaveExternalTokens
 so.topic: reference
 ---
 

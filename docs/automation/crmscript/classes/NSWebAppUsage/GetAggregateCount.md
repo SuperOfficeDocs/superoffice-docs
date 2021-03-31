@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebAppUsage_GetAggregateCount
-description: Integer NSWebAppUsage.GetAggregateCount()
+uid: crmscript_ref_NSWebAppUsage_GetAggregateCount
+title: Integer GetAggregateCount()
 intellisense: NSWebAppUsage.GetAggregateCount
 keywords: NSWebAppUsage, GetAggregateCount
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDatabaseTableAgent_Truncate
-description: MassOperationResult Truncate(String tableName)
+uid: crmscript_ref_NSDatabaseTableAgent_Truncate
+title: MassOperationResult Truncate(String tableName)
 intellisense: NSDatabaseTableAgent.Truncate
-keywords: NSDatabaseTableAgent,Truncate
+keywords: NSDatabaseTableAgent, Truncate
 so.topic: reference
 ---
 

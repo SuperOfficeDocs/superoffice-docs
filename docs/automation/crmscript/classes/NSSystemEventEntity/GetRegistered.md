@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSystemEventEntity_GetRegistered
-description: DateTime NSSystemEventEntity.GetRegistered()
+uid: crmscript_ref_NSSystemEventEntity_GetRegistered
+title: DateTime GetRegistered()
 intellisense: NSSystemEventEntity.GetRegistered
 keywords: NSSystemEventEntity, GetRegistered
 so.topic: reference

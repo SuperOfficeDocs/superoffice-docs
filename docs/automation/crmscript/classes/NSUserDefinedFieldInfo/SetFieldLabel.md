@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldLabel
-description: NSUserDefinedFieldInfo.SetFieldLabel(String fieldLabel)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetFieldLabel
+title: SetFieldLabel(String fieldLabel)
 intellisense: NSUserDefinedFieldInfo.SetFieldLabel
 keywords: NSUserDefinedFieldInfo, GetFieldLabel
 so.topic: reference

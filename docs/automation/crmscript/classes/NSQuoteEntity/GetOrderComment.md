@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_GetOrderComment
-description: String NSQuoteEntity.GetOrderComment()
+uid: crmscript_ref_NSQuoteEntity_GetOrderComment
+title: String GetOrderComment()
 intellisense: NSQuoteEntity.GetOrderComment
 keywords: NSQuoteEntity, GetOrderComment
 so.topic: reference

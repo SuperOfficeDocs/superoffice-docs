@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoDecimal_SetPrecision
-description: NSFieldInfoDecimal.SetPrecision(Integer precision)
+uid: crmscript_ref_NSFieldInfoDecimal_SetPrecision
+title: SetPrecision(Integer precision)
 intellisense: NSFieldInfoDecimal.SetPrecision
 keywords: NSFieldInfoDecimal, GetPrecision
 so.topic: reference

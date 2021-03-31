@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_GetPersonId
-description: Integer NSDocument.GetPersonId()
+uid: crmscript_ref_NSDocument_GetPersonId
+title: Integer GetPersonId()
 intellisense: NSDocument.GetPersonId
 keywords: NSDocument, GetPersonId
 so.topic: reference

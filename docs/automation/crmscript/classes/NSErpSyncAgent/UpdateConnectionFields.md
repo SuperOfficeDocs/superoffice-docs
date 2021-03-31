@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_UpdateConnectionFields
-description: Bool UpdateConnectionFields(Integer erpConnectionId)
+uid: crmscript_ref_NSErpSyncAgent_UpdateConnectionFields
+title: Bool UpdateConnectionFields(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.UpdateConnectionFields
-keywords: NSErpSyncAgent,UpdateConnectionFields
+keywords: NSErpSyncAgent, UpdateConnectionFields
 so.topic: reference
 ---
 

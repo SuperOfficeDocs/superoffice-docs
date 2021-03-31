@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_GetDeleted
-description: Bool NSConsentPurpose.GetDeleted()
+uid: crmscript_ref_NSConsentPurpose_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSConsentPurpose.GetDeleted
 keywords: NSConsentPurpose, GetDeleted
 so.topic: reference

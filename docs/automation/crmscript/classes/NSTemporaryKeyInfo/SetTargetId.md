@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemporaryKeyInfo_SetTargetId
-description: NSTemporaryKeyInfo.SetTargetId(Integer targetId)
+uid: crmscript_ref_NSTemporaryKeyInfo_SetTargetId
+title: SetTargetId(Integer targetId)
 intellisense: NSTemporaryKeyInfo.SetTargetId
 keywords: NSTemporaryKeyInfo, GetTargetId
 so.topic: reference

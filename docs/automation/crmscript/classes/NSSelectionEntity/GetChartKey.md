@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetChartKey
-description: String NSSelectionEntity.GetChartKey()
+uid: crmscript_ref_NSSelectionEntity_GetChartKey
+title: String GetChartKey()
 intellisense: NSSelectionEntity.GetChartKey
 keywords: NSSelectionEntity, GetChartKey
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetName
-description: String NSFormEntity.GetName()
+uid: crmscript_ref_NSFormEntity_GetName
+title: String GetName()
 intellisense: NSFormEntity.GetName
 keywords: NSFormEntity, GetName
 so.topic: reference

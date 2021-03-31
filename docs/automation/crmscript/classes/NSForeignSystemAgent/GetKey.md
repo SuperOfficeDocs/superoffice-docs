@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetKey
-description: ForeignKey GetKey(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
+uid: crmscript_ref_NSForeignSystemAgent_GetKey
+title: ForeignKey GetKey(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
 intellisense: NSForeignSystemAgent.GetKey
-keywords: NSForeignSystemAgent,GetKey
+keywords: NSForeignSystemAgent, GetKey
 so.topic: reference
 ---
 

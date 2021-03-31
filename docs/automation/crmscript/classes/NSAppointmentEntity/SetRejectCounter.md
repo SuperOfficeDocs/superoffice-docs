@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetRejectCounter
-description: NSAppointmentEntity.SetRejectCounter(Integer rejectCounter)
+uid: crmscript_ref_NSAppointmentEntity_SetRejectCounter
+title: SetRejectCounter(Integer rejectCounter)
 intellisense: NSAppointmentEntity.SetRejectCounter
 keywords: NSAppointmentEntity, GetRejectCounter
 so.topic: reference

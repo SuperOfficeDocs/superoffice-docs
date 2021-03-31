@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_Revert
-description: Void Revert(Integer ownerType)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_Revert
+title: Void Revert(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.Revert
-keywords: NSUserDefinedFieldInfoAgent,Revert
+keywords: NSUserDefinedFieldInfoAgent, Revert
 so.topic: reference
 ---
 

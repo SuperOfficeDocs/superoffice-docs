@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetUserDefinedFields
-description: Map NSProjectEntity.GetUserDefinedFields()
+uid: crmscript_ref_NSProjectEntity_GetUserDefinedFields
+title: Map GetUserDefinedFields()
 intellisense: NSProjectEntity.GetUserDefinedFields
 keywords: NSProjectEntity, GetUserDefinedFields
 so.topic: reference
 ---
 
-Get the user-defined fields as a map.
+Get the user-defined fields on the ProjectEntity as a map.
 
 **Returns:** Map containing user defined field values by field prog.id.
 

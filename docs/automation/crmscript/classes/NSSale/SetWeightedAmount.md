@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetWeightedAmount
-description: NSSale.SetWeightedAmount(Float weightedAmount)
+uid: crmscript_ref_NSSale_SetWeightedAmount
+title: SetWeightedAmount(Float weightedAmount)
 intellisense: NSSale.SetWeightedAmount
 keywords: NSSale, GetWeightedAmount
 so.topic: reference

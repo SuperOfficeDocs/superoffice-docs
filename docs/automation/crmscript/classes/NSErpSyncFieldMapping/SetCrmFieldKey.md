@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_SetCrmFieldKey
-description: NSErpSyncFieldMapping.SetCrmFieldKey(String crmFieldKey)
+uid: crmscript_ref_NSErpSyncFieldMapping_SetCrmFieldKey
+title: SetCrmFieldKey(String crmFieldKey)
 intellisense: NSErpSyncFieldMapping.SetCrmFieldKey
 keywords: NSErpSyncFieldMapping, GetCrmFieldKey
 so.topic: reference

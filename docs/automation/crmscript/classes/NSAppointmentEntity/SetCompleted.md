@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetCompleted
-description: NSAppointmentEntity.SetCompleted(Integer completed)
+uid: crmscript_ref_NSAppointmentEntity_SetCompleted
+title: SetCompleted(Integer completed)
 intellisense: NSAppointmentEntity.SetCompleted
 keywords: NSAppointmentEntity, GetCompleted
 so.topic: reference

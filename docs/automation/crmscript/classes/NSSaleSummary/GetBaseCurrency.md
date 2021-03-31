@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_GetBaseCurrency
-description: String NSSaleSummary.GetBaseCurrency()
+uid: crmscript_ref_NSSaleSummary_GetBaseCurrency
+title: String GetBaseCurrency()
 intellisense: NSSaleSummary.GetBaseCurrency
 keywords: NSSaleSummary, GetBaseCurrency
 so.topic: reference

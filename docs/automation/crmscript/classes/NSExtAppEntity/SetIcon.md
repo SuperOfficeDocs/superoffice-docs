@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_SetIcon
-description: NSExtAppEntity.SetIcon(Integer icon)
+uid: crmscript_ref_NSExtAppEntity_SetIcon
+title: SetIcon(Integer icon)
 intellisense: NSExtAppEntity.SetIcon
 keywords: NSExtAppEntity, GetIcon
 so.topic: reference

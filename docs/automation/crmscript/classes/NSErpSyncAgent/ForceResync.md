@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_ForceResync
-description: PluginResponse ForceResync(Integer erpConnectionId, IntegerArray internalKeyIds)
+uid: crmscript_ref_NSErpSyncAgent_ForceResync
+title: PluginResponse ForceResync(Integer erpConnectionId, IntegerArray internalKeyIds)
 intellisense: NSErpSyncAgent.ForceResync
-keywords: NSErpSyncAgent,ForceResync
+keywords: NSErpSyncAgent, ForceResync
 so.topic: reference
 ---
 

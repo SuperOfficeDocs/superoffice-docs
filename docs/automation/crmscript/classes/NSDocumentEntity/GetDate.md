@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetDate
-description: DateTime NSDocumentEntity.GetDate()
+uid: crmscript_ref_NSDocumentEntity_GetDate
+title: DateTime GetDate()
 intellisense: NSDocumentEntity.GetDate
 keywords: NSDocumentEntity, GetDate
 so.topic: reference

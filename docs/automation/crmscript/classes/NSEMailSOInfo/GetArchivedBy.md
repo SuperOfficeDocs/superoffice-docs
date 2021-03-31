@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailSOInfo_GetArchivedBy
-description: Integer NSEMailSOInfo.GetArchivedBy()
+uid: crmscript_ref_NSEMailSOInfo_GetArchivedBy
+title: Integer GetArchivedBy()
 intellisense: NSEMailSOInfo.GetArchivedBy
 keywords: NSEMailSOInfo, GetArchivedBy
 so.topic: reference

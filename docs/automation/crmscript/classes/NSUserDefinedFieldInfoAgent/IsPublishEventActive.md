@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_IsPublishEventActive
-description: Bool IsPublishEventActive(Integer type)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_IsPublishEventActive
+title: Bool IsPublishEventActive(Integer type)
 intellisense: NSUserDefinedFieldInfoAgent.IsPublishEventActive
-keywords: NSUserDefinedFieldInfoAgent,IsPublishEventActive
+keywords: NSUserDefinedFieldInfoAgent, IsPublishEventActive
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption_GetDefaultDataOption
-description: Bool NSDashboardTileOption.GetDefaultDataOption()
+uid: crmscript_ref_NSDashboardTileOption_GetDefaultDataOption
+title: Bool GetDefaultDataOption()
 intellisense: NSDashboardTileOption.GetDefaultDataOption
 keywords: NSDashboardTileOption, GetDefaultDataOption
 so.topic: reference

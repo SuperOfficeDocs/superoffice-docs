@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_SetMessageHeaders
-description: NSTicketMessageEntity.SetMessageHeaders(TicketMessageHeaderArray messageHeaders)
+uid: crmscript_ref_NSTicketMessageEntity_SetMessageHeaders
+title: SetMessageHeaders(TicketMessageHeaderArray messageHeaders)
 intellisense: NSTicketMessageEntity.SetMessageHeaders
 keywords: NSTicketMessageEntity, GetMessageHeaders
 so.topic: reference

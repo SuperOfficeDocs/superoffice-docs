@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_SetIsActive
-description: NSFieldValueInfo.SetIsActive(Bool isActive)
+uid: crmscript_ref_NSFieldValueInfo_SetIsActive
+title: SetIsActive(Bool isActive)
 intellisense: NSFieldValueInfo.SetIsActive
 keywords: NSFieldValueInfo, GetIsActive
 so.topic: reference

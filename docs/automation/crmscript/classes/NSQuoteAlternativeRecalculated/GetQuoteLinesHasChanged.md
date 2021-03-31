@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternativeRecalculated_GetQuoteLinesHasChanged
-description: Bool NSQuoteAlternativeRecalculated.GetQuoteLinesHasChanged()
+uid: crmscript_ref_NSQuoteAlternativeRecalculated_GetQuoteLinesHasChanged
+title: Bool GetQuoteLinesHasChanged()
 intellisense: NSQuoteAlternativeRecalculated.GetQuoteLinesHasChanged
 keywords: NSQuoteAlternativeRecalculated, GetQuoteLinesHasChanged
 so.topic: reference

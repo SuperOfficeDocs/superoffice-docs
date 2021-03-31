@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldTop
-description: Integer NSUserDefinedFieldInfo.GetFieldTop()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldTop
+title: Integer GetFieldTop()
 intellisense: NSUserDefinedFieldInfo.GetFieldTop
 keywords: NSUserDefinedFieldInfo, GetFieldTop
 so.topic: reference

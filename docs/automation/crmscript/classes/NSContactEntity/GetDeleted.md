@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetDeleted
-description: Integer NSContactEntity.GetDeleted()
+uid: crmscript_ref_NSContactEntity_GetDeleted
+title: Integer GetDeleted()
 intellisense: NSContactEntity.GetDeleted
 keywords: NSContactEntity, GetDeleted
 so.topic: reference

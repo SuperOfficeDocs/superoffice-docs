@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetTooltip
-description: String NSUserDefinedFieldInfo.GetTooltip()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetTooltip
+title: String GetTooltip()
 intellisense: NSUserDefinedFieldInfo.GetTooltip
 keywords: NSUserDefinedFieldInfo, GetTooltip
 so.topic: reference

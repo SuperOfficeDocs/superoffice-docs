@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_GetPersonId
-description: Integer NSPreviewMailingHeader.GetPersonId()
+uid: crmscript_ref_NSPreviewMailingHeader_GetPersonId
+title: Integer GetPersonId()
 intellisense: NSPreviewMailingHeader.GetPersonId
 keywords: NSPreviewMailingHeader, GetPersonId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailboxEntity_SetServerType
-description: NSMailboxEntity.SetServerType(MailboxType serverType)
+uid: crmscript_ref_NSMailboxEntity_SetServerType
+title: SetServerType(MailboxType serverType)
 intellisense: NSMailboxEntity.SetServerType
 keywords: NSMailboxEntity, GetServerType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSControlInfo
-description: NSControlInfo
+uid: crmscript_ref_NSControlInfo
+title: NSControlInfo
 intellisense: Void.NSControlInfo
 keywords: NSControlInfo
 so.topic: reference

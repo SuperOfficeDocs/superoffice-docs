@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetCautionWarning
-description: AppointmentCautionWarning NSAppointmentEntity.GetCautionWarning()
+uid: crmscript_ref_NSAppointmentEntity_GetCautionWarning
+title: AppointmentCautionWarning GetCautionWarning()
 intellisense: NSAppointmentEntity.GetCautionWarning
 keywords: NSAppointmentEntity, GetCautionWarning
 so.topic: reference

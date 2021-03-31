@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SetRankOnHeadings
-description: Void SetRankOnHeadings(Integer udListDefinitionId, IntegerArray headingIds)
+uid: crmscript_ref_NSListAgent_SetRankOnHeadings
+title: Void SetRankOnHeadings(Integer udListDefinitionId, IntegerArray headingIds)
 intellisense: NSListAgent.SetRankOnHeadings
-keywords: NSListAgent,SetRankOnHeadings
+keywords: NSListAgent, SetRankOnHeadings
 so.topic: reference
 ---
 

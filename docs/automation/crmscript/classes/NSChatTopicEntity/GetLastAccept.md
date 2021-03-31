@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetLastAccept
-description: DateTime NSChatTopicEntity.GetLastAccept()
+uid: crmscript_ref_NSChatTopicEntity_GetLastAccept
+title: DateTime GetLastAccept()
 intellisense: NSChatTopicEntity.GetLastAccept
 keywords: NSChatTopicEntity, GetLastAccept
 so.topic: reference

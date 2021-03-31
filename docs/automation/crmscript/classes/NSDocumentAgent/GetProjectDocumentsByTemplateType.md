@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetProjectDocumentsByTemplateType
-description: DocumentArray GetProjectDocumentsByTemplateType(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer documentTemplateId)
+uid: crmscript_ref_NSDocumentAgent_GetProjectDocumentsByTemplateType
+title: DocumentArray GetProjectDocumentsByTemplateType(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer documentTemplateId)
 intellisense: NSDocumentAgent.GetProjectDocumentsByTemplateType
-keywords: NSDocumentAgent,GetProjectDocumentsByTemplateType
+keywords: NSDocumentAgent, GetProjectDocumentsByTemplateType
 so.topic: reference
 ---
 

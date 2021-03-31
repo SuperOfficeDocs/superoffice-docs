@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetIncludeSignature
-description: NSDocumentTemplateEntity.SetIncludeSignature(Bool includeSignature)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetIncludeSignature
+title: SetIncludeSignature(Bool includeSignature)
 intellisense: NSDocumentTemplateEntity.SetIncludeSignature
 keywords: NSDocumentTemplateEntity, GetIncludeSignature
 so.topic: reference

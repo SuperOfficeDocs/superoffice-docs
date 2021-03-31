@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetSubTotal
-description: Float NSQuoteLine.GetSubTotal()
+uid: crmscript_ref_NSQuoteLine_GetSubTotal
+title: Float GetSubTotal()
 intellisense: NSQuoteLine.GetSubTotal
 keywords: NSQuoteLine, GetSubTotal
 so.topic: reference

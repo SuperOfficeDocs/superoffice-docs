@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionForFind
-description: NSSelectionForFind
+uid: crmscript_ref_NSSelectionForFind
+title: NSSelectionForFind
 intellisense: Void.NSSelectionForFind
 keywords: NSSelectionForFind
 so.topic: reference

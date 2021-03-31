@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantInfo_SetContactId
-description: NSParticipantInfo.SetContactId(Integer contactId)
+uid: crmscript_ref_NSParticipantInfo_SetContactId
+title: SetContactId(Integer contactId)
 intellisense: NSParticipantInfo.SetContactId
 keywords: NSParticipantInfo, GetContactId
 so.topic: reference

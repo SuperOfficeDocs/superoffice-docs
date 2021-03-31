@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetSaleDuration
-description: Integer NSSaleTypeEntity.GetSaleDuration()
+uid: crmscript_ref_NSSaleTypeEntity_GetSaleDuration
+title: Integer GetSaleDuration()
 intellisense: NSSaleTypeEntity.GetSaleDuration
 keywords: NSSaleTypeEntity, GetSaleDuration
 so.topic: reference

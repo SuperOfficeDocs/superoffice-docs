@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetSelectionUnionType
-description: NSSelectionEntity.SetSelectionUnionType(Integer selectionUnionType)
+uid: crmscript_ref_NSSelectionEntity_SetSelectionUnionType
+title: SetSelectionUnionType(Integer selectionUnionType)
 intellisense: NSSelectionEntity.SetSelectionUnionType
 keywords: NSSelectionEntity, GetSelectionUnionType
 so.topic: reference

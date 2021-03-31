@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectTypeEntity_GetDeleted
-description: Bool NSProjectTypeEntity.GetDeleted()
+uid: crmscript_ref_NSProjectTypeEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSProjectTypeEntity.GetDeleted
 keywords: NSProjectTypeEntity, GetDeleted
 so.topic: reference

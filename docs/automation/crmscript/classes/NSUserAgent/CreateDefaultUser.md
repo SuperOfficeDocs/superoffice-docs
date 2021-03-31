@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CreateDefaultUser
-description: NSUser CreateDefaultUser()
+uid: crmscript_ref_NSUserAgent_CreateDefaultUser
+title: NSUser CreateDefaultUser()
 intellisense: NSUserAgent.CreateDefaultUser
-keywords: NSUserAgent,CreateDefaultUser
+keywords: NSUserAgent, CreateDefaultUser
 so.topic: reference
 ---
 	  

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_CreateDefaultSmsConfig
-description: NSSmsConfig CreateDefaultSmsConfig()
+uid: crmscript_ref_NSCustomerServiceAgent_CreateDefaultSmsConfig
+title: NSSmsConfig CreateDefaultSmsConfig()
 intellisense: NSCustomerServiceAgent.CreateDefaultSmsConfig
-keywords: NSCustomerServiceAgent,CreateDefaultSmsConfig
+keywords: NSCustomerServiceAgent, CreateDefaultSmsConfig
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_SetThreeLetterISOCountry
-description: NSCountry.SetThreeLetterISOCountry(String threeLetterISOCountry)
+uid: crmscript_ref_NSCountry_SetThreeLetterISOCountry
+title: SetThreeLetterISOCountry(String threeLetterISOCountry)
 intellisense: NSCountry.SetThreeLetterISOCountry
 keywords: NSCountry, GetThreeLetterISOCountry
 so.topic: reference

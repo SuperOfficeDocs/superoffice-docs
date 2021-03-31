@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_SetSuggestedRecords
-description: NSRefCountEntity.SetSuggestedRecords(MDOListItemArray suggestedRecords)
+uid: crmscript_ref_NSRefCountEntity_SetSuggestedRecords
+title: SetSuggestedRecords(MDOListItemArray suggestedRecords)
 intellisense: NSRefCountEntity.SetSuggestedRecords
 keywords: NSRefCountEntity, GetSuggestedRecords
 so.topic: reference

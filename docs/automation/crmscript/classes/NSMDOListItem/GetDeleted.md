@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_GetDeleted
-description: Bool NSMDOListItem.GetDeleted()
+uid: crmscript_ref_NSMDOListItem_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSMDOListItem.GetDeleted
 keywords: NSMDOListItem, GetDeleted
 so.topic: reference

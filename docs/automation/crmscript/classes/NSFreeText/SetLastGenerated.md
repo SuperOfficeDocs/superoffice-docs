@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFreeText_SetLastGenerated
-description: NSFreeText.SetLastGenerated(DateTime lastGenerated)
+uid: crmscript_ref_NSFreeText_SetLastGenerated
+title: SetLastGenerated(DateTime lastGenerated)
 intellisense: NSFreeText.SetLastGenerated
 keywords: NSFreeText, GetLastGenerated
 so.topic: reference

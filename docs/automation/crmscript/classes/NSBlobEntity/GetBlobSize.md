@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_GetBlobSize
-description: Integer NSBlobEntity.GetBlobSize()
+uid: crmscript_ref_NSBlobEntity_GetBlobSize
+title: Integer GetBlobSize()
 intellisense: NSBlobEntity.GetBlobSize
 keywords: NSBlobEntity, GetBlobSize
 so.topic: reference

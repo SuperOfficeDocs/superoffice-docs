@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings
-description: NSChatWidgetSettings
+uid: crmscript_ref_NSChatWidgetSettings
+title: NSChatWidgetSettings
 intellisense: Void.NSChatWidgetSettings
 keywords: NSChatWidgetSettings
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetDocument
-description: NSDocument GetDocument(Integer documentId);
+uid: crmscript_ref_NSDocumentAgent_GetDocument
+title: NSDocument GetDocument(Integer documentId);
 intellisense: NSDocumentAgent.GetDocument
-keywords: NSDocumentAgent,GetDocument
+keywords: NSDocumentAgent, GetDocument
 so.topic: reference
 ---
 

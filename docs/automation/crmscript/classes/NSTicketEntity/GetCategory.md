@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetCategory
-description: TicketCategoryEntity NSTicketEntity.GetCategory()
+uid: crmscript_ref_NSTicketEntity_GetCategory
+title: TicketCategoryEntity GetCategory()
 intellisense: NSTicketEntity.GetCategory
 keywords: NSTicketEntity, GetCategory
 so.topic: reference

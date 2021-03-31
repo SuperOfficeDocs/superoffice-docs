@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SetVisibleForUserGroupsFromListName
-description: SelectableMDOListItemArray SetVisibleForUserGroupsFromListName(String udListDefinitionName, Integer listItemId, SelectableMDOListItemArray userGroups)
+uid: crmscript_ref_NSListAgent_SetVisibleForUserGroupsFromListName
+title: SelectableMDOListItemArray SetVisibleForUserGroupsFromListName(String udListDefinitionName, Integer listItemId, SelectableMDOListItemArray userGroups)
 intellisense: NSListAgent.SetVisibleForUserGroupsFromListName
-keywords: NSListAgent,SetVisibleForUserGroupsFromListName
+keywords: NSListAgent, SetVisibleForUserGroupsFromListName
 so.topic: reference
 ---
 

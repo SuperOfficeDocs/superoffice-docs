@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetInStock
-description: Float NSProduct.GetInStock()
+uid: crmscript_ref_NSProduct_GetInStock
+title: Float GetInStock()
 intellisense: NSProduct.GetInStock
 keywords: NSProduct, GetInStock
 so.topic: reference

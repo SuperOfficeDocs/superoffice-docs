@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionStatusInformation_SetIconHint
-description: NSQuoteVersionStatusInformation.SetIconHint(String iconHint)
+uid: crmscript_ref_NSQuoteVersionStatusInformation_SetIconHint
+title: SetIconHint(String iconHint)
 intellisense: NSQuoteVersionStatusInformation.SetIconHint
 keywords: NSQuoteVersionStatusInformation, GetIconHint
 so.topic: reference

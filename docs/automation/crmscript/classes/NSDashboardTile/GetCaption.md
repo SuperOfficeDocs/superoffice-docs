@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_GetCaption
-description: String NSDashboardTile.GetCaption()
+uid: crmscript_ref_NSDashboardTile_GetCaption
+title: String GetCaption()
 intellisense: NSDashboardTile.GetCaption
 keywords: NSDashboardTile, GetCaption
 so.topic: reference

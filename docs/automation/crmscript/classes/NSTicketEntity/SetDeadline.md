@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetDeadline
-description: NSTicketEntity.SetDeadline(DateTime deadline)
+uid: crmscript_ref_NSTicketEntity_SetDeadline
+title: SetDeadline(DateTime deadline)
 intellisense: NSTicketEntity.SetDeadline
 keywords: NSTicketEntity, GetDeadline
 so.topic: reference

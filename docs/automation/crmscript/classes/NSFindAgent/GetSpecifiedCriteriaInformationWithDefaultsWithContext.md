@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_GetSpecifiedCriteriaInformationWithDefaultsWithContext
-description: CriteriaInformation GetSpecifiedCriteriaInformationWithDefaultsWithContext(String storageType, String providerName, String storageKey, StringArray desiredColumnNames, StringArray staticColumns, String context)
+uid: crmscript_ref_NSFindAgent_GetSpecifiedCriteriaInformationWithDefaultsWithContext
+title: CriteriaInformation GetSpecifiedCriteriaInformationWithDefaultsWithContext(String storageType, String providerName, String storageKey, StringArray desiredColumnNames, StringArray staticColumns, String context)
 intellisense: NSFindAgent.GetSpecifiedCriteriaInformationWithDefaultsWithContext
-keywords: NSFindAgent,GetSpecifiedCriteriaInformationWithDefaultsWithContext
+keywords: NSFindAgent, GetSpecifiedCriteriaInformationWithDefaultsWithContext
 so.topic: reference
 ---
 

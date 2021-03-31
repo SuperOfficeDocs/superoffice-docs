@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMessageDeliveryStatus_GetStatusDescription
-description: String NSMessageDeliveryStatus.GetStatusDescription()
+uid: crmscript_ref_NSMessageDeliveryStatus_GetStatusDescription
+title: String GetStatusDescription()
 intellisense: NSMessageDeliveryStatus.GetStatusDescription
 keywords: NSMessageDeliveryStatus, GetStatusDescription
 so.topic: reference

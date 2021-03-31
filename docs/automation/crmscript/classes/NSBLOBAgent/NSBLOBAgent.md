@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent
-description: NSBLOBAgent
+uid: crmscript_ref_NSBLOBAgent
+title: NSBLOBAgent
 intellisense: Void.NSBLOBAgent
 keywords: NSBLOBAgent
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplate_GetSaveInDb
-description: Integer NSDocumentTemplate.GetSaveInDb()
+uid: crmscript_ref_NSDocumentTemplate_GetSaveInDb
+title: Integer GetSaveInDb()
 intellisense: NSDocumentTemplate.GetSaveInDb
 keywords: NSDocumentTemplate, GetSaveInDb
 so.topic: reference

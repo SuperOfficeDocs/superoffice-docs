@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivityFilter_SetFutureDateList
-description: NSActivityFilter.SetFutureDateList(MDOListItemArray futureDateList)
+uid: crmscript_ref_NSActivityFilter_SetFutureDateList
+title: SetFutureDateList(MDOListItemArray futureDateList)
 intellisense: NSActivityFilter.SetFutureDateList
 keywords: NSActivityFilter, GetFutureDateList
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_GetRecipientStatistics
-description: RecipientStatistics GetRecipientStatistics(Integer selectionId)
+uid: crmscript_ref_NSSelectionAgent_GetRecipientStatistics
+title: RecipientStatistics GetRecipientStatistics(Integer selectionId)
 intellisense: NSSelectionAgent.GetRecipientStatistics
-keywords: NSSelectionAgent,GetRecipientStatistics
+keywords: NSSelectionAgent, GetRecipientStatistics
 so.topic: reference
 ---
 

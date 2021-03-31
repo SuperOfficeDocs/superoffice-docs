@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetDbiKey
-description: String NSPersonEntity.GetDbiKey()
+uid: crmscript_ref_NSPersonEntity_GetDbiKey
+title: String GetDbiKey()
 intellisense: NSPersonEntity.GetDbiKey
 keywords: NSPersonEntity, GetDbiKey
 so.topic: reference

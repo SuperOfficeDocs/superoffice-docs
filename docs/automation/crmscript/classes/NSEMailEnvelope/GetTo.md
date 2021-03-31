@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_GetTo
-description: EMailAddressArray NSEMailEnvelope.GetTo()
+uid: crmscript_ref_NSEMailEnvelope_GetTo
+title: EMailAddressArray GetTo()
 intellisense: NSEMailEnvelope.GetTo
 keywords: NSEMailEnvelope, GetTo
 so.topic: reference

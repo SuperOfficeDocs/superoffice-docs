@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetPostit
-description: String NSSaleEntity.GetPostit()
+uid: crmscript_ref_NSSaleEntity_GetPostit
+title: String GetPostit()
 intellisense: NSSaleEntity.GetPostit
 keywords: NSSaleEntity, GetPostit
 so.topic: reference

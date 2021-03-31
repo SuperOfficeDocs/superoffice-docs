@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetCreatedByFullName
-description: String NSAppointment.GetCreatedByFullName()
+uid: crmscript_ref_NSAppointment_GetCreatedByFullName
+title: String GetCreatedByFullName()
 intellisense: NSAppointment.GetCreatedByFullName
 keywords: NSAppointment, GetCreatedByFullName
 so.topic: reference

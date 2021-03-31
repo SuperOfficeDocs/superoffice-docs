@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLink
-description: NSLink
+uid: crmscript_ref_NSLink
+title: NSLink
 intellisense: Void.NSLink
 keywords: NSLink
 so.topic: reference

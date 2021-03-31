@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantInfo_GetSendEmail
-description: Bool NSParticipantInfo.GetSendEmail()
+uid: crmscript_ref_NSParticipantInfo_GetSendEmail
+title: Bool GetSendEmail()
 intellisense: NSParticipantInfo.GetSendEmail
 keywords: NSParticipantInfo, GetSendEmail
 so.topic: reference

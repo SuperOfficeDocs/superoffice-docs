@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldHeight
-description: Integer NSUserDefinedFieldInfo.GetFieldHeight()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldHeight
+title: Integer GetFieldHeight()
 intellisense: NSUserDefinedFieldInfo.GetFieldHeight
 keywords: NSUserDefinedFieldInfo, GetFieldHeight
 so.topic: reference

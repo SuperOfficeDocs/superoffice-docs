@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetUpdatedAssociateId
-description: Integer NSQuoteVersion.GetUpdatedAssociateId()
+uid: crmscript_ref_NSQuoteVersion_GetUpdatedAssociateId
+title: Integer GetUpdatedAssociateId()
 intellisense: NSQuoteVersion.GetUpdatedAssociateId
 keywords: NSQuoteVersion, GetUpdatedAssociateId
 so.topic: reference

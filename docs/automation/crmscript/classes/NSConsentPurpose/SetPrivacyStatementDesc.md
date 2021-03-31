@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_SetPrivacyStatementDesc
-description: NSConsentPurpose.SetPrivacyStatementDesc(String privacyStatementDesc)
+uid: crmscript_ref_NSConsentPurpose_SetPrivacyStatementDesc
+title: SetPrivacyStatementDesc(String privacyStatementDesc)
 intellisense: NSConsentPurpose.SetPrivacyStatementDesc
 keywords: NSConsentPurpose, GetPrivacyStatementDesc
 so.topic: reference

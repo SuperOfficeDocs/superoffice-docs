@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboard_GetTiles
-description: DashboardTileArray NSDashboard.GetTiles()
+uid: crmscript_ref_NSDashboard_GetTiles
+title: DashboardTileArray GetTiles()
 intellisense: NSDashboard.GetTiles
 keywords: NSDashboard, GetTiles
 so.topic: reference

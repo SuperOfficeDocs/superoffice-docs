@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatMessage_GetReadByCustomer
-description: Integer NSChatMessage.GetReadByCustomer()
+uid: crmscript_ref_NSChatMessage_GetReadByCustomer
+title: Integer GetReadByCustomer()
 intellisense: NSChatMessage.GetReadByCustomer
 keywords: NSChatMessage, GetReadByCustomer
 so.topic: reference

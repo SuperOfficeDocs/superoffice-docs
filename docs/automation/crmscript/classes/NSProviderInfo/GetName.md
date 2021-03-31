@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProviderInfo_GetName
-description: String NSProviderInfo.GetName()
+uid: crmscript_ref_NSProviderInfo_GetName
+title: String GetName()
 intellisense: NSProviderInfo.GetName
 keywords: NSProviderInfo, GetName
 so.topic: reference

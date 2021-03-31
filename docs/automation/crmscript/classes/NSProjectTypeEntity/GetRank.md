@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectTypeEntity_GetRank
-description: Integer NSProjectTypeEntity.GetRank()
+uid: crmscript_ref_NSProjectTypeEntity_GetRank
+title: Integer GetRank()
 intellisense: NSProjectTypeEntity.GetRank
 keywords: NSProjectTypeEntity, GetRank
 so.topic: reference

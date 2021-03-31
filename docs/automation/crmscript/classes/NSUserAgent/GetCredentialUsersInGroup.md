@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetCredentialUsersInGroup
-description: CredentialsGroupUsers GetCredentialUsersInGroup(String type, String groupName)
+uid: crmscript_ref_NSUserAgent_GetCredentialUsersInGroup
+title: CredentialsGroupUsers GetCredentialUsersInGroup(String type, String groupName)
 intellisense: NSUserAgent.GetCredentialUsersInGroup
-keywords: NSUserAgent,GetCredentialUsersInGroup
+keywords: NSUserAgent, GetCredentialUsersInGroup
 so.topic: reference
 ---
 

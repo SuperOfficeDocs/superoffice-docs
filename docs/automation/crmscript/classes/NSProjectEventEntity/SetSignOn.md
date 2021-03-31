@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetSignOn
-description: NSProjectEventEntity.SetSignOn(Bool signOn)
+uid: crmscript_ref_NSProjectEventEntity_SetSignOn
+title: SetSignOn(Bool signOn)
 intellisense: NSProjectEventEntity.SetSignOn
 keywords: NSProjectEventEntity, GetSignOn
 so.topic: reference

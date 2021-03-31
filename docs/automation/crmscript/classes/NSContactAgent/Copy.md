@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_Copy
-description: Integer Copy(Integer sourceContactId, String destinationContactName, String destinationContactDepartment, Bool copyPersons)
+uid: crmscript_ref_NSContactAgent_Copy
+title: Integer Copy(Integer sourceContactId, String destinationContactName, String destinationContactDepartment, Bool copyPersons)
 intellisense: NSContactAgent.Copy
-keywords: NSContactAgent,Copy
+keywords: NSContactAgent, Copy
 so.topic: reference
 ---
 

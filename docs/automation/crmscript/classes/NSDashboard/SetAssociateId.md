@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboard_SetAssociateId
-description: NSDashboard.SetAssociateId(Integer associateId)
+uid: crmscript_ref_NSDashboard_SetAssociateId
+title: SetAssociateId(Integer associateId)
 intellisense: NSDashboard.SetAssociateId
 keywords: NSDashboard, GetAssociateId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_GetId
-description: Integer NSMDOListItem.GetId()
+uid: crmscript_ref_NSMDOListItem_GetId
+title: Integer GetId()
 intellisense: NSMDOListItem.GetId
 keywords: NSMDOListItem, GetId
 so.topic: reference

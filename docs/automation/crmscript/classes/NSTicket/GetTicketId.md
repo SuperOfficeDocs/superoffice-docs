@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetTicketId
-description: Integer NSTicket.GetTicketId()
+uid: crmscript_ref_NSTicket_GetTicketId
+title: Integer GetTicketId()
 intellisense: NSTicket.GetTicketId
 keywords: NSTicket, GetTicketId
 so.topic: reference

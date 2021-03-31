@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_GetPersonCountry
-description: String NSParticipantSyncData.GetPersonCountry()
+uid: crmscript_ref_NSParticipantSyncData_GetPersonCountry
+title: String GetPersonCountry()
 intellisense: NSParticipantSyncData.GetPersonCountry
 keywords: NSParticipantSyncData, GetPersonCountry
 so.topic: reference

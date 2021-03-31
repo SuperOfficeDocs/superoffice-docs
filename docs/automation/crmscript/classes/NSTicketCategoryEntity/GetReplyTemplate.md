@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_GetReplyTemplate
-description: Integer NSTicketCategoryEntity.GetReplyTemplate()
+uid: crmscript_ref_NSTicketCategoryEntity_GetReplyTemplate
+title: Integer GetReplyTemplate()
 intellisense: NSTicketCategoryEntity.GetReplyTemplate
 keywords: NSTicketCategoryEntity, GetReplyTemplate
 so.topic: reference

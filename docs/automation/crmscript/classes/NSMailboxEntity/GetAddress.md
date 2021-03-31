@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailboxEntity_GetAddress
-description: String NSMailboxEntity.GetAddress()
+uid: crmscript_ref_NSMailboxEntity_GetAddress
+title: String GetAddress()
 intellisense: NSMailboxEntity.GetAddress
 keywords: NSMailboxEntity, GetAddress
 so.topic: reference

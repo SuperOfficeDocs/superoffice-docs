@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity_GetAmountClassId
-description: Integer NSAmountClassEntity.GetAmountClassId()
+uid: crmscript_ref_NSAmountClassEntity_GetAmountClassId
+title: Integer GetAmountClassId()
 intellisense: NSAmountClassEntity.GetAmountClassId
 keywords: NSAmountClassEntity, GetAmountClassId
 so.topic: reference

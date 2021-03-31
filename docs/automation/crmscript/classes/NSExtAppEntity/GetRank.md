@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetRank
-description: Integer NSExtAppEntity.GetRank()
+uid: crmscript_ref_NSExtAppEntity_GetRank
+title: Integer GetRank()
 intellisense: NSExtAppEntity.GetRank
 keywords: NSExtAppEntity, GetRank
 so.topic: reference

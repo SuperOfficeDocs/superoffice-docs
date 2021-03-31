@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVersionInfo_GetVersionId
-description: String NSVersionInfo.GetVersionId()
+uid: crmscript_ref_NSVersionInfo_GetVersionId
+title: String GetVersionId()
 intellisense: NSVersionInfo.GetVersionId
 keywords: NSVersionInfo, GetVersionId
 so.topic: reference

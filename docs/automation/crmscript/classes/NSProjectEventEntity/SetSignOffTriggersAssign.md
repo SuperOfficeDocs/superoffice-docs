@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetSignOffTriggersAssign
-description: NSProjectEventEntity.SetSignOffTriggersAssign(Bool signOffTriggersAssign)
+uid: crmscript_ref_NSProjectEventEntity_SetSignOffTriggersAssign
+title: SetSignOffTriggersAssign(Bool signOffTriggersAssign)
 intellisense: NSProjectEventEntity.SetSignOffTriggersAssign
 keywords: NSProjectEventEntity, GetSignOffTriggersAssign
 so.topic: reference

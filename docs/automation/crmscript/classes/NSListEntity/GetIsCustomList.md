@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListEntity_GetIsCustomList
-description: Bool NSListEntity.GetIsCustomList()
+uid: crmscript_ref_NSListEntity_GetIsCustomList
+title: Bool GetIsCustomList()
 intellisense: NSListEntity.GetIsCustomList
 keywords: NSListEntity, GetIsCustomList
 so.topic: reference

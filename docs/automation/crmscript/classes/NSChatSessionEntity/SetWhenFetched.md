@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetWhenFetched
-description: NSChatSessionEntity.SetWhenFetched(DateTime whenFetched)
+uid: crmscript_ref_NSChatSessionEntity_SetWhenFetched
+title: SetWhenFetched(DateTime whenFetched)
 intellisense: NSChatSessionEntity.SetWhenFetched
 keywords: NSChatSessionEntity, GetWhenFetched
 so.topic: reference

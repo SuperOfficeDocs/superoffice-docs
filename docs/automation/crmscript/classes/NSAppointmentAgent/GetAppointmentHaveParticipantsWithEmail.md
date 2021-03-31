@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetAppointmentHaveParticipantsWithEmail
-description: Bool GetAppointmentHaveParticipantsWithEmail(Integer appointmentId)
+uid: crmscript_ref_NSAppointmentAgent_GetAppointmentHaveParticipantsWithEmail
+title: Bool GetAppointmentHaveParticipantsWithEmail(Integer appointmentId)
 intellisense: NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail
-keywords: NSAppointmentAgent,GetAppointmentHaveParticipantsWithEmail
+keywords: NSAppointmentAgent, GetAppointmentHaveParticipantsWithEmail
 so.topic: reference
 ---
 

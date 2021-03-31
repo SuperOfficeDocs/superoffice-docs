@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTabOrder_SetTabName
-description: NSTabOrder.SetTabName(String tabName)
+uid: crmscript_ref_NSTabOrder_SetTabName
+title: SetTabName(String tabName)
 intellisense: NSTabOrder.SetTabName
 keywords: NSTabOrder, GetTabName
 so.topic: reference

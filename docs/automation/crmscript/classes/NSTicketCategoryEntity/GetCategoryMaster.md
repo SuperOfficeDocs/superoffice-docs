@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_GetCategoryMaster
-description: Integer NSTicketCategoryEntity.GetCategoryMaster()
+uid: crmscript_ref_NSTicketCategoryEntity_GetCategoryMaster
+title: Integer GetCategoryMaster()
 intellisense: NSTicketCategoryEntity.GetCategoryMaster
 keywords: NSTicketCategoryEntity, GetCategoryMaster
 so.topic: reference

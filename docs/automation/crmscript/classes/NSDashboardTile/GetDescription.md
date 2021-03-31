@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_GetDescription
-description: String NSDashboardTile.GetDescription()
+uid: crmscript_ref_NSDashboardTile_GetDescription
+title: String GetDescription()
 intellisense: NSDashboardTile.GetDescription
 keywords: NSDashboardTile, GetDescription
 so.topic: reference

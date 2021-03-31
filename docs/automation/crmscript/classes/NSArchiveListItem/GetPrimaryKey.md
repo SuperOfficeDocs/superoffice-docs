@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListItem_GetPrimaryKey
-description: Integer NSArchiveListItem.GetPrimaryKey()
+uid: crmscript_ref_NSArchiveListItem_GetPrimaryKey
+title: Integer GetPrimaryKey()
 intellisense: NSArchiveListItem.GetPrimaryKey
 keywords: NSArchiveListItem, GetPrimaryKey
 so.topic: reference

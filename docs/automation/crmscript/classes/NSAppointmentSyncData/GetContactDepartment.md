@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_GetContactDepartment
-description: String NSAppointmentSyncData.GetContactDepartment()
+uid: crmscript_ref_NSAppointmentSyncData_GetContactDepartment
+title: String GetContactDepartment()
 intellisense: NSAppointmentSyncData.GetContactDepartment
 keywords: NSAppointmentSyncData, GetContactDepartment
 so.topic: reference

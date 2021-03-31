@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_GetPersonId
-description: Integer NSFormSubmissionEntity.GetPersonId()
+uid: crmscript_ref_NSFormSubmissionEntity_GetPersonId
+title: Integer GetPersonId()
 intellisense: NSFormSubmissionEntity.GetPersonId
 keywords: NSFormSubmissionEntity, GetPersonId
 so.topic: reference

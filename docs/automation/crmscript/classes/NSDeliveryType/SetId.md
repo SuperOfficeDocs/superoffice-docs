@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSDeliveryType_SetId
-description: NSDeliveryType.SetId(Integer id)
+uid: crmscript_ref_NSDeliveryType_SetId
+title: SetId(Integer id)
 intellisense: NSDeliveryType.SetId
 keywords: NSDeliveryType, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the DeliveryType
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer DeliveryType id.
 

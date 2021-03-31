@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetClosedAt
-description: NSTicketEntity.SetClosedAt(DateTime closedAt)
+uid: crmscript_ref_NSTicketEntity_SetClosedAt
+title: SetClosedAt(DateTime closedAt)
 intellisense: NSTicketEntity.SetClosedAt
 keywords: NSTicketEntity, GetClosedAt
 so.topic: reference

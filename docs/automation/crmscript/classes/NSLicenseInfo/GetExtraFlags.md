@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_GetExtraFlags
-description: Integer NSLicenseInfo.GetExtraFlags()
+uid: crmscript_ref_NSLicenseInfo_GetExtraFlags
+title: Integer GetExtraFlags()
 intellisense: NSLicenseInfo.GetExtraFlags
 keywords: NSLicenseInfo, GetExtraFlags
 so.topic: reference

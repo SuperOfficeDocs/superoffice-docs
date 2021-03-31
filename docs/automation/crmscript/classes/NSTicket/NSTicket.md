@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket
-description: NSTicket
+uid: crmscript_ref_NSTicket
+title: NSTicket
 intellisense: Void.NSTicket
 keywords: NSTicket
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_SetType
-description: NSWebhook.SetType(String type)
+uid: crmscript_ref_NSWebhook_SetType
+title: SetType(String type)
 intellisense: NSWebhook.SetType
 keywords: NSWebhook, GetType
 so.topic: reference

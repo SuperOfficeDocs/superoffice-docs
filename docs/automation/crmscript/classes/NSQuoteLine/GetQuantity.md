@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetQuantity
-description: Float NSQuoteLine.GetQuantity()
+uid: crmscript_ref_NSQuoteLine_GetQuantity
+title: Float GetQuantity()
 intellisense: NSQuoteLine.GetQuantity
 keywords: NSQuoteLine, GetQuantity
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatBotSettings_GetBotMessageReceivedScriptId
-description: Integer NSChatBotSettings.GetBotMessageReceivedScriptId()
+uid: crmscript_ref_NSChatBotSettings_GetBotMessageReceivedScriptId
+title: Integer GetBotMessageReceivedScriptId()
 intellisense: NSChatBotSettings.GetBotMessageReceivedScriptId
 keywords: NSChatBotSettings, GetBotMessageReceivedScriptId
 so.topic: reference

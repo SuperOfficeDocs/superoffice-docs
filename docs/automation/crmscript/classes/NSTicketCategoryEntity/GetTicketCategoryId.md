@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_GetTicketCategoryId
-description: Integer NSTicketCategoryEntity.GetTicketCategoryId()
+uid: crmscript_ref_NSTicketCategoryEntity_GetTicketCategoryId
+title: Integer GetTicketCategoryId()
 intellisense: NSTicketCategoryEntity.GetTicketCategoryId
 keywords: NSTicketCategoryEntity, GetTicketCategoryId
 so.topic: reference

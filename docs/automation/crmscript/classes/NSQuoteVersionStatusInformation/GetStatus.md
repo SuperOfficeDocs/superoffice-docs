@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionStatusInformation_GetStatus
-description: Integer NSQuoteVersionStatusInformation.GetStatus()
+uid: crmscript_ref_NSQuoteVersionStatusInformation_GetStatus
+title: Integer GetStatus()
 intellisense: NSQuoteVersionStatusInformation.GetStatus
 keywords: NSQuoteVersionStatusInformation, GetStatus
 so.topic: reference

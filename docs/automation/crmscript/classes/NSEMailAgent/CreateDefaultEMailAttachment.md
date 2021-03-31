@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateDefaultEMailAttachment
-description: NSEMailAttachment CreateDefaultEMailAttachment()
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailAttachment
+title: NSEMailAttachment CreateDefaultEMailAttachment()
 intellisense: NSEMailAgent.CreateDefaultEMailAttachment
-keywords: NSEMailAgent,CreateDefaultEMailAttachment
+keywords: NSEMailAgent, CreateDefaultEMailAttachment
 so.topic: reference
 ---
 	  

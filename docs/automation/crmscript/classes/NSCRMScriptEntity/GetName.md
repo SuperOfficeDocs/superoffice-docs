@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptEntity_GetName
-description: String NSCRMScriptEntity.GetName()
+uid: crmscript_ref_NSCRMScriptEntity_GetName
+title: String GetName()
 intellisense: NSCRMScriptEntity.GetName
 keywords: NSCRMScriptEntity, GetName
 so.topic: reference

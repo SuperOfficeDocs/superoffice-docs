@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_GetDaysFuture
-description: Integer NSSuggestedAppointment.GetDaysFuture()
+uid: crmscript_ref_NSSuggestedAppointment_GetDaysFuture
+title: Integer GetDaysFuture()
 intellisense: NSSuggestedAppointment.GetDaysFuture
 keywords: NSSuggestedAppointment, GetDaysFuture
 so.topic: reference

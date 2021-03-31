@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_SetDeleted
-description: NSExtAppEntity.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSExtAppEntity_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSExtAppEntity.SetDeleted
 keywords: NSExtAppEntity, GetDeleted
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetCreated
-description: NSBatchTaskInfo.SetCreated(DateTime created)
+uid: crmscript_ref_NSBatchTaskInfo_SetCreated
+title: SetCreated(DateTime created)
 intellisense: NSBatchTaskInfo.SetCreated
 keywords: NSBatchTaskInfo, GetCreated
 so.topic: reference

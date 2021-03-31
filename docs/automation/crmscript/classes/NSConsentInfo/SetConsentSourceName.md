@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_SetConsentSourceName
-description: NSConsentInfo.SetConsentSourceName(String consentSourceName)
+uid: crmscript_ref_NSConsentInfo_SetConsentSourceName
+title: SetConsentSourceName(String consentSourceName)
 intellisense: NSConsentInfo.SetConsentSourceName
 keywords: NSConsentInfo, GetConsentSourceName
 so.topic: reference

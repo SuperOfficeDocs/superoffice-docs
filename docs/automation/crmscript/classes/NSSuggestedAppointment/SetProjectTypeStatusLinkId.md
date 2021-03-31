@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_SetProjectTypeStatusLinkId
-description: NSSuggestedAppointment.SetProjectTypeStatusLinkId(Integer projectTypeStatusLinkId)
+uid: crmscript_ref_NSSuggestedAppointment_SetProjectTypeStatusLinkId
+title: SetProjectTypeStatusLinkId(Integer projectTypeStatusLinkId)
 intellisense: NSSuggestedAppointment.SetProjectTypeStatusLinkId
 keywords: NSSuggestedAppointment, GetProjectTypeStatusLinkId
 so.topic: reference

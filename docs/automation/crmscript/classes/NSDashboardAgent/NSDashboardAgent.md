@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent
-description: NSDashboardAgent
+uid: crmscript_ref_NSDashboardAgent
+title: NSDashboardAgent
 intellisense: Void.NSDashboardAgent
 keywords: NSDashboardAgent
 so.topic: reference

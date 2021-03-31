@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSViewStateAgent_GetHistory
-description: NSHistory GetHistory(Integer historyId);
+uid: crmscript_ref_NSViewStateAgent_GetHistory
+title: NSHistory GetHistory(Integer historyId);
 intellisense: NSViewStateAgent.GetHistory
-keywords: NSViewStateAgent,GetHistory
+keywords: NSViewStateAgent, GetHistory
 so.topic: reference
 ---
 

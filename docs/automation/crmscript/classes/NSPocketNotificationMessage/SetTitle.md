@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_SetTitle
-description: NSPocketNotificationMessage.SetTitle(String title)
+uid: crmscript_ref_NSPocketNotificationMessage_SetTitle
+title: SetTitle(String title)
 intellisense: NSPocketNotificationMessage.SetTitle
 keywords: NSPocketNotificationMessage, GetTitle
 so.topic: reference

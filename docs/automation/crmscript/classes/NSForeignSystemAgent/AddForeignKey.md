@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_AddForeignKey
-description: ForeignKey AddForeignKey(ForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
+uid: crmscript_ref_NSForeignSystemAgent_AddForeignKey
+title: ForeignKey AddForeignKey(ForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
 intellisense: NSForeignSystemAgent.AddForeignKey
-keywords: NSForeignSystemAgent,AddForeignKey
+keywords: NSForeignSystemAgent, AddForeignKey
 so.topic: reference
 ---
 

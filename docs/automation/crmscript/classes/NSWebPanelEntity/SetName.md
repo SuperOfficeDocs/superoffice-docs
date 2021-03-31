@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetName
-description: NSWebPanelEntity.SetName(String name)
+uid: crmscript_ref_NSWebPanelEntity_SetName
+title: SetName(String name)
 intellisense: NSWebPanelEntity.SetName
 keywords: NSWebPanelEntity, GetName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetShadowProviderName
-description: NSSelectionEntity.SetShadowProviderName(String shadowProviderName)
+uid: crmscript_ref_NSSelectionEntity_SetShadowProviderName
+title: SetShadowProviderName(String shadowProviderName)
 intellisense: NSSelectionEntity.SetShadowProviderName
 keywords: NSSelectionEntity, GetShadowProviderName
 so.topic: reference

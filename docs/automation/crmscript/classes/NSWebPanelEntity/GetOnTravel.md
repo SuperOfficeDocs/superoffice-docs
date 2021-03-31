@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetOnTravel
-description: Bool NSWebPanelEntity.GetOnTravel()
+uid: crmscript_ref_NSWebPanelEntity_GetOnTravel
+title: Bool GetOnTravel()
 intellisense: NSWebPanelEntity.GetOnTravel
 keywords: NSWebPanelEntity, GetOnTravel
 so.topic: reference

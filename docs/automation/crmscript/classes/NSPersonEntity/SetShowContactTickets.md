@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetShowContactTickets
-description: NSPersonEntity.SetShowContactTickets(Integer showContactTickets)
+uid: crmscript_ref_NSPersonEntity_SetShowContactTickets
+title: SetShowContactTickets(Integer showContactTickets)
 intellisense: NSPersonEntity.SetShowContactTickets
 keywords: NSPersonEntity, GetShowContactTickets
 so.topic: reference

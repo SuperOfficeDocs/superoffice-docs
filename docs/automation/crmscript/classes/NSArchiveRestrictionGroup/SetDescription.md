@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionGroup_SetDescription
-description: NSArchiveRestrictionGroup.SetDescription(String description)
+uid: crmscript_ref_NSArchiveRestrictionGroup_SetDescription
+title: SetDescription(String description)
 intellisense: NSArchiveRestrictionGroup.SetDescription
 keywords: NSArchiveRestrictionGroup, GetDescription
 so.topic: reference

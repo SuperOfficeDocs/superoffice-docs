@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUntrustedCredentials_SetIsActive
-description: NSUntrustedCredentials.SetIsActive(Bool isActive)
+uid: crmscript_ref_NSUntrustedCredentials_SetIsActive
+title: SetIsActive(Bool isActive)
 intellisense: NSUntrustedCredentials.SetIsActive
 keywords: NSUntrustedCredentials, GetIsActive
 so.topic: reference

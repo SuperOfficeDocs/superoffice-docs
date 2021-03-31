@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetAssignedBy
-description: Associate NSAppointmentEntity.GetAssignedBy()
+uid: crmscript_ref_NSAppointmentEntity_GetAssignedBy
+title: Associate GetAssignedBy()
 intellisense: NSAppointmentEntity.GetAssignedBy
 keywords: NSAppointmentEntity, GetAssignedBy
 so.topic: reference

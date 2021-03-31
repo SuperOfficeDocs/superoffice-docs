@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportColumnInfo_GetName
-description: String NSImportColumnInfo.GetName()
+uid: crmscript_ref_NSImportColumnInfo_GetName
+title: String GetName()
 intellisense: NSImportColumnInfo.GetName
 keywords: NSImportColumnInfo, GetName
 so.topic: reference

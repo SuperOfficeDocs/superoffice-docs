@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDevice_GetDeviceIdentifier
-description: String NSForeignDevice.GetDeviceIdentifier()
+uid: crmscript_ref_NSForeignDevice_GetDeviceIdentifier
+title: String GetDeviceIdentifier()
 intellisense: NSForeignDevice.GetDeviceIdentifier
 keywords: NSForeignDevice, GetDeviceIdentifier
 so.topic: reference

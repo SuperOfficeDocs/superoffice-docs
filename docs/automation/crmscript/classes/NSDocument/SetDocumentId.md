@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_SetDocumentId
-description: NSDocument.SetDocumentId(Integer documentId)
+uid: crmscript_ref_NSDocument_SetDocumentId
+title: SetDocumentId(Integer documentId)
 intellisense: NSDocument.SetDocumentId
 keywords: NSDocument, GetDocumentId
 so.topic: reference

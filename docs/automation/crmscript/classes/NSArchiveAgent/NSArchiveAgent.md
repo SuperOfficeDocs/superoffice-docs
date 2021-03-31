@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent
-description: NSArchiveAgent
+uid: crmscript_ref_NSArchiveAgent
+title: NSArchiveAgent
 intellisense: Void.NSArchiveAgent
 keywords: NSArchiveAgent
 so.topic: reference

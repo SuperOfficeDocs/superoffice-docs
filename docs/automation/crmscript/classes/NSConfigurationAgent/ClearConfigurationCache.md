@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_ClearConfigurationCache
-description: Void ClearConfigurationCache(String application, String instance, Bool forAllAssociates)
+uid: crmscript_ref_NSConfigurationAgent_ClearConfigurationCache
+title: Void ClearConfigurationCache(String application, String instance, Bool forAllAssociates)
 intellisense: NSConfigurationAgent.ClearConfigurationCache
-keywords: NSConfigurationAgent,ClearConfigurationCache
+keywords: NSConfigurationAgent, ClearConfigurationCache
 so.topic: reference
 ---
 

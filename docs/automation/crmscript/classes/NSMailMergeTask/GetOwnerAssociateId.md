@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask_GetOwnerAssociateId
-description: Integer NSMailMergeTask.GetOwnerAssociateId()
+uid: crmscript_ref_NSMailMergeTask_GetOwnerAssociateId
+title: Integer GetOwnerAssociateId()
 intellisense: NSMailMergeTask.GetOwnerAssociateId
 keywords: NSMailMergeTask, GetOwnerAssociateId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetFaxes
-description: EntityElementArray NSPersonEntity.GetFaxes()
+uid: crmscript_ref_NSPersonEntity_GetFaxes
+title: EntityElementArray GetFaxes()
 intellisense: NSPersonEntity.GetFaxes
 keywords: NSPersonEntity, GetFaxes
 so.topic: reference

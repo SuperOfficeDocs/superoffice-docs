@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatPresence_GetChatTopics
-description: IntegerArray NSChatPresence.GetChatTopics()
+uid: crmscript_ref_NSChatPresence_GetChatTopics
+title: IntegerArray GetChatTopics()
 intellisense: NSChatPresence.GetChatTopics
 keywords: NSChatPresence, GetChatTopics
 so.topic: reference

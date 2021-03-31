@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_GenerateFollowUps
-description: Void GenerateFollowUps(Integer selectionId, AppointmentEntity appointmentEntity, Integer associateId, Bool saveOnContactOwner, Bool uniqueContact)
+uid: crmscript_ref_NSSelectionAgent_GenerateFollowUps
+title: Void GenerateFollowUps(Integer selectionId, AppointmentEntity appointmentEntity, Integer associateId, Bool saveOnContactOwner, Bool uniqueContact)
 intellisense: NSSelectionAgent.GenerateFollowUps
-keywords: NSSelectionAgent,GenerateFollowUps
+keywords: NSSelectionAgent, GenerateFollowUps
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_UpdateChatTopicUserAgent
-description: ChatTopicAgent UpdateChatTopicUserAgent(Integer chatTopicId, String username, ChatTopicAgent useragent)
+uid: crmscript_ref_NSChatAgent_UpdateChatTopicUserAgent
+title: ChatTopicAgent UpdateChatTopicUserAgent(Integer chatTopicId, String username, ChatTopicAgent useragent)
 intellisense: NSChatAgent.UpdateChatTopicUserAgent
-keywords: NSChatAgent,UpdateChatTopicUserAgent
+keywords: NSChatAgent, UpdateChatTopicUserAgent
 so.topic: reference
 ---
 

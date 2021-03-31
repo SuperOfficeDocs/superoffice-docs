@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_SaveProjectEventEntity
-description: NSProjectEventEntity SaveProjectEventEntity(NSProjectEventEntity projectEventEntity);
+uid: crmscript_ref_NSProjectAgent_SaveProjectEventEntity
+title: NSProjectEventEntity SaveProjectEventEntity(NSProjectEventEntity projectEventEntity);
 intellisense: NSProjectAgent.SaveProjectEventEntity
-keywords: NSProjectAgent,SaveProjectEventEntity
+keywords: NSProjectAgent, SaveProjectEventEntity
 so.topic: reference
 ---
 	  

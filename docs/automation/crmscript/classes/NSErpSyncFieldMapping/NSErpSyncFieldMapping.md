@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping
-description: NSErpSyncFieldMapping
+uid: crmscript_ref_NSErpSyncFieldMapping
+title: NSErpSyncFieldMapping
 intellisense: Void.NSErpSyncFieldMapping
 keywords: NSErpSyncFieldMapping
 so.topic: reference

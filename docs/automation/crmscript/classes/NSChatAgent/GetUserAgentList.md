@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_GetUserAgentList
-description: MDOListItemArray GetUserAgentList(Bool flat, Bool onlyPresent)
+uid: crmscript_ref_NSChatAgent_GetUserAgentList
+title: MDOListItemArray GetUserAgentList(Bool flat, Bool onlyPresent)
 intellisense: NSChatAgent.GetUserAgentList
-keywords: NSChatAgent,GetUserAgentList
+keywords: NSChatAgent, GetUserAgentList
 so.topic: reference
 ---
 

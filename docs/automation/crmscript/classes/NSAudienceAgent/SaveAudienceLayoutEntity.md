@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_SaveAudienceLayoutEntity
-description: NSAudienceLayoutEntity SaveAudienceLayoutEntity(NSAudienceLayoutEntity audienceLayoutEntity);
+uid: crmscript_ref_NSAudienceAgent_SaveAudienceLayoutEntity
+title: NSAudienceLayoutEntity SaveAudienceLayoutEntity(NSAudienceLayoutEntity audienceLayoutEntity);
 intellisense: NSAudienceAgent.SaveAudienceLayoutEntity
-keywords: NSAudienceAgent,SaveAudienceLayoutEntity
+keywords: NSAudienceAgent, SaveAudienceLayoutEntity
 so.topic: reference
 ---
 	  

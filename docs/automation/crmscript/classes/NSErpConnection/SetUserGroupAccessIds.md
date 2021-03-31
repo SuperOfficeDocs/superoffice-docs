@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_SetUserGroupAccessIds
-description: NSErpConnection.SetUserGroupAccessIds(IntegerArray userGroupAccessIds)
+uid: crmscript_ref_NSErpConnection_SetUserGroupAccessIds
+title: SetUserGroupAccessIds(IntegerArray userGroupAccessIds)
 intellisense: NSErpConnection.SetUserGroupAccessIds
 keywords: NSErpConnection, GetUserGroupAccessIds
 so.topic: reference

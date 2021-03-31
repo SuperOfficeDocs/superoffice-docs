@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_SetAllAccess
-description: NSQuoteConnection.SetAllAccess(Bool allAccess)
+uid: crmscript_ref_NSQuoteConnection_SetAllAccess
+title: SetAllAccess(Bool allAccess)
 intellisense: NSQuoteConnection.SetAllAccess
 keywords: NSQuoteConnection, GetAllAccess
 so.topic: reference

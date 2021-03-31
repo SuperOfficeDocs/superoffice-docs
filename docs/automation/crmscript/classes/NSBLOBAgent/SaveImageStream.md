@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_SaveImageStream
-description: Integer SaveImageStream(Integer type, Image image, String description)
+uid: crmscript_ref_NSBLOBAgent_SaveImageStream
+title: Integer SaveImageStream(Integer type, Image image, String description)
 intellisense: NSBLOBAgent.SaveImageStream
-keywords: NSBLOBAgent,SaveImageStream
+keywords: NSBLOBAgent, SaveImageStream
 so.topic: reference
 ---
 

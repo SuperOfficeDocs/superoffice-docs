@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialsGroupUsers_SetUsers
-description: NSCredentialsGroupUsers.SetUsers(CredentialUserArray users)
+uid: crmscript_ref_NSCredentialsGroupUsers_SetUsers
+title: SetUsers(CredentialUserArray users)
 intellisense: NSCredentialsGroupUsers.SetUsers
 keywords: NSCredentialsGroupUsers, GetUsers
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_CreateRestrictionGroup
-description: ArchiveRestrictionGroup CreateRestrictionGroup(String storageType, String providerName, String storageKey, String context)
+uid: crmscript_ref_NSFindAgent_CreateRestrictionGroup
+title: ArchiveRestrictionGroup CreateRestrictionGroup(String storageType, String providerName, String storageKey, String context)
 intellisense: NSFindAgent.CreateRestrictionGroup
-keywords: NSFindAgent,CreateRestrictionGroup
+keywords: NSFindAgent, CreateRestrictionGroup
 so.topic: reference
 ---
 

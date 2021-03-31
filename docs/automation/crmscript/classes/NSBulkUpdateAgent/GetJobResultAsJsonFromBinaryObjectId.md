@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId
-description: String GetJobResultAsJsonFromBinaryObjectId(String tableName, Integer binaryObjectId)
+uid: crmscript_ref_NSBulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId
+title: String GetJobResultAsJsonFromBinaryObjectId(String tableName, Integer binaryObjectId)
 intellisense: NSBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
-keywords: NSBulkUpdateAgent,GetJobResultAsJsonFromBinaryObjectId
+keywords: NSBulkUpdateAgent, GetJobResultAsJsonFromBinaryObjectId
 so.topic: reference
 ---
 

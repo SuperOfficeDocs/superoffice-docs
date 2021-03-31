@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAddressSyncData_SetLatitude
-description: NSAddressSyncData.SetLatitude(Float latitude)
+uid: crmscript_ref_NSAddressSyncData_SetLatitude
+title: SetLatitude(Float latitude)
 intellisense: NSAddressSyncData.SetLatitude
 keywords: NSAddressSyncData, GetLatitude
 so.topic: reference

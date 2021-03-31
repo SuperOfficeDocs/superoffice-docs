@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetRegistered
-description: DateTime NSQuoteVersion.GetRegistered()
+uid: crmscript_ref_NSQuoteVersion_GetRegistered
+title: DateTime GetRegistered()
 intellisense: NSQuoteVersion.GetRegistered
 keywords: NSQuoteVersion, GetRegistered
 so.topic: reference

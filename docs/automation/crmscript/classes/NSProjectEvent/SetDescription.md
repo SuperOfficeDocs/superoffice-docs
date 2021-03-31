@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_SetDescription
-description: NSProjectEvent.SetDescription(String description)
+uid: crmscript_ref_NSProjectEvent_SetDescription
+title: SetDescription(String description)
 intellisense: NSProjectEvent.SetDescription
 keywords: NSProjectEvent, GetDescription
 so.topic: reference

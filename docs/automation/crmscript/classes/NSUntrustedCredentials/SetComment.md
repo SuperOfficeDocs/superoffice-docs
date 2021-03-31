@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUntrustedCredentials_SetComment
-description: NSUntrustedCredentials.SetComment(String comment)
+uid: crmscript_ref_NSUntrustedCredentials_SetComment
+title: SetComment(String comment)
 intellisense: NSUntrustedCredentials.SetComment
 keywords: NSUntrustedCredentials, GetComment
 so.topic: reference

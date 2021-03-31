@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetNeedsUpdate
-description: Bool NSStatusMonitor.GetNeedsUpdate()
+uid: crmscript_ref_NSStatusMonitor_GetNeedsUpdate
+title: Bool GetNeedsUpdate()
 intellisense: NSStatusMonitor.GetNeedsUpdate
 keywords: NSStatusMonitor, GetNeedsUpdate
 so.topic: reference

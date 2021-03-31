@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSyncUserAccount_SetAccountId
-description: NSSyncUserAccount.SetAccountId(Integer accountId)
+uid: crmscript_ref_NSSyncUserAccount_SetAccountId
+title: SetAccountId(Integer accountId)
 intellisense: NSSyncUserAccount.SetAccountId
 keywords: NSSyncUserAccount, GetAccountId
 so.topic: reference

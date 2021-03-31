@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetLastname
-description: NSPerson.SetLastname(String lastname)
+uid: crmscript_ref_NSPerson_SetLastname
+title: SetLastname(String lastname)
 intellisense: NSPerson.SetLastname
 keywords: NSPerson, GetLastname
 so.topic: reference

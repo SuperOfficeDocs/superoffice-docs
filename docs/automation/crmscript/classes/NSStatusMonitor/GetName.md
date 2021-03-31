@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetName
-description: String NSStatusMonitor.GetName()
+uid: crmscript_ref_NSStatusMonitor_GetName
+title: String GetName()
 intellisense: NSStatusMonitor.GetName
 keywords: NSStatusMonitor, GetName
 so.topic: reference

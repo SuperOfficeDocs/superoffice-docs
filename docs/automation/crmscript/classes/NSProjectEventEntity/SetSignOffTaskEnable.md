@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetSignOffTaskEnable
-description: NSProjectEventEntity.SetSignOffTaskEnable(Bool signOffTaskEnable)
+uid: crmscript_ref_NSProjectEventEntity_SetSignOffTaskEnable
+title: SetSignOffTaskEnable(Bool signOffTaskEnable)
 intellisense: NSProjectEventEntity.SetSignOffTaskEnable
 keywords: NSProjectEventEntity, GetSignOffTaskEnable
 so.topic: reference

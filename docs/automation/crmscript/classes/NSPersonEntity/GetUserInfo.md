@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetUserInfo
-description: UserInfo NSPersonEntity.GetUserInfo()
+uid: crmscript_ref_NSPersonEntity_GetUserInfo
+title: UserInfo GetUserInfo()
 intellisense: NSPersonEntity.GetUserInfo
 keywords: NSPersonEntity, GetUserInfo
 so.topic: reference

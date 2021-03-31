@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetName
-description: String NSDocumentEntity.GetName()
+uid: crmscript_ref_NSDocumentEntity_GetName
+title: String GetName()
 intellisense: NSDocumentEntity.GetName
 keywords: NSDocumentEntity, GetName
 so.topic: reference

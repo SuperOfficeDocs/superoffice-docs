@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetBotSettings
-description: ChatBotSettings NSChatTopicEntity.GetBotSettings()
+uid: crmscript_ref_NSChatTopicEntity_GetBotSettings
+title: ChatBotSettings GetBotSettings()
 intellisense: NSChatTopicEntity.GetBotSettings
 keywords: NSChatTopicEntity, GetBotSettings
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetDatabaseSerialNumber
-description: String NSBatchTaskInfo.GetDatabaseSerialNumber()
+uid: crmscript_ref_NSBatchTaskInfo_GetDatabaseSerialNumber
+title: String GetDatabaseSerialNumber()
 intellisense: NSBatchTaskInfo.GetDatabaseSerialNumber
 keywords: NSBatchTaskInfo, GetDatabaseSerialNumber
 so.topic: reference

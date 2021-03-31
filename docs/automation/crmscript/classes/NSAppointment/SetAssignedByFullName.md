@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetAssignedByFullName
-description: NSAppointment.SetAssignedByFullName(String assignedByFullName)
+uid: crmscript_ref_NSAppointment_SetAssignedByFullName
+title: SetAssignedByFullName(String assignedByFullName)
 intellisense: NSAppointment.SetAssignedByFullName
 keywords: NSAppointment, GetAssignedByFullName
 so.topic: reference

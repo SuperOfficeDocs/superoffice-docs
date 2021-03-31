@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetDocumentMessage
-description: Integer NSShipmentMessageEntity.GetDocumentMessage()
+uid: crmscript_ref_NSShipmentMessageEntity_GetDocumentMessage
+title: Integer GetDocumentMessage()
 intellisense: NSShipmentMessageEntity.GetDocumentMessage
 keywords: NSShipmentMessageEntity, GetDocumentMessage
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncConnectionSummary_GetLastSync
-description: DateTime NSErpSyncConnectionSummary.GetLastSync()
+uid: crmscript_ref_NSErpSyncConnectionSummary_GetLastSync
+title: DateTime GetLastSync()
 intellisense: NSErpSyncConnectionSummary.GetLastSync
 keywords: NSErpSyncConnectionSummary, GetLastSync
 so.topic: reference

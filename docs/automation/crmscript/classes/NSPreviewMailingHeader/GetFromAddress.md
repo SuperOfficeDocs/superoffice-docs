@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_GetFromAddress
-description: String NSPreviewMailingHeader.GetFromAddress()
+uid: crmscript_ref_NSPreviewMailingHeader_GetFromAddress
+title: String GetFromAddress()
 intellisense: NSPreviewMailingHeader.GetFromAddress
 keywords: NSPreviewMailingHeader, GetFromAddress
 so.topic: reference

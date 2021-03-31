@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAssociate_SetEjUserId
-description: NSAssociate.SetEjUserId(Integer ejUserId)
+uid: crmscript_ref_NSAssociate_SetEjUserId
+title: SetEjUserId(Integer ejUserId)
 intellisense: NSAssociate.SetEjUserId
 keywords: NSAssociate, GetEjUserId
 so.topic: reference

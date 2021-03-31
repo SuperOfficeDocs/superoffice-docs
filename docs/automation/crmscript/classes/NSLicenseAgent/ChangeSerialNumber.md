@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_ChangeSerialNumber
-description: LicenseResult ChangeSerialNumber(String newCompanyName, String newSerialNumber)
+uid: crmscript_ref_NSLicenseAgent_ChangeSerialNumber
+title: LicenseResult ChangeSerialNumber(String newCompanyName, String newSerialNumber)
 intellisense: NSLicenseAgent.ChangeSerialNumber
-keywords: NSLicenseAgent,ChangeSerialNumber
+keywords: NSLicenseAgent, ChangeSerialNumber
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity
-description: NSChatTopicEntity
+uid: crmscript_ref_NSChatTopicEntity
+title: NSChatTopicEntity
 intellisense: Void.NSChatTopicEntity
 keywords: NSChatTopicEntity
 so.topic: reference

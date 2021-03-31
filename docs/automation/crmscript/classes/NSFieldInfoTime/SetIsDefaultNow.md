@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoTime_SetIsDefaultNow
-description: NSFieldInfoTime.SetIsDefaultNow(Bool isDefaultNow)
+uid: crmscript_ref_NSFieldInfoTime_SetIsDefaultNow
+title: SetIsDefaultNow(Bool isDefaultNow)
 intellisense: NSFieldInfoTime.SetIsDefaultNow
 keywords: NSFieldInfoTime, GetIsDefaultNow
 so.topic: reference

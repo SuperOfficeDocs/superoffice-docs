@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSentiment
-description: NSSentiment
+uid: crmscript_ref_NSSentiment
+title: NSSentiment
 intellisense: Void.NSSentiment
 keywords: NSSentiment
 so.topic: reference

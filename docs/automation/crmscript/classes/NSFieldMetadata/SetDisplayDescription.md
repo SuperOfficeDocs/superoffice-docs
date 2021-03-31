@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_SetDisplayDescription
-description: NSFieldMetadata.SetDisplayDescription(String displayDescription)
+uid: crmscript_ref_NSFieldMetadata_SetDisplayDescription
+title: SetDisplayDescription(String displayDescription)
 intellisense: NSFieldMetadata.SetDisplayDescription
 keywords: NSFieldMetadata, GetDisplayDescription
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBusinessList
-description: NSBusinessList
+uid: crmscript_ref_NSBusinessList
+title: NSBusinessList
 intellisense: Void.NSBusinessList
 keywords: NSBusinessList
 so.topic: reference

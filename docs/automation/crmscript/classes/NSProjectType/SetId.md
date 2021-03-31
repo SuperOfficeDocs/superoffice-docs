@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSProjectType_SetId
-description: NSProjectType.SetId(Integer id)
+uid: crmscript_ref_NSProjectType_SetId
+title: SetId(Integer id)
 intellisense: NSProjectType.SetId
 keywords: NSProjectType, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the ProjectType
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer ProjectType id.
 

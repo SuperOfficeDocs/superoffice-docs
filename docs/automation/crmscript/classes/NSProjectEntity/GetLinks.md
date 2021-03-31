@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetLinks
-description: LinkArray NSProjectEntity.GetLinks()
+uid: crmscript_ref_NSProjectEntity_GetLinks
+title: LinkArray GetLinks()
 intellisense: NSProjectEntity.GetLinks
 keywords: NSProjectEntity, GetLinks
 so.topic: reference

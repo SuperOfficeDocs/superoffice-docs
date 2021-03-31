@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_SetRestrictionListName
-description: NSArchiveColumnInfo.SetRestrictionListName(String restrictionListName)
+uid: crmscript_ref_NSArchiveColumnInfo_SetRestrictionListName
+title: SetRestrictionListName(String restrictionListName)
 intellisense: NSArchiveColumnInfo.SetRestrictionListName
 keywords: NSArchiveColumnInfo, GetRestrictionListName
 so.topic: reference

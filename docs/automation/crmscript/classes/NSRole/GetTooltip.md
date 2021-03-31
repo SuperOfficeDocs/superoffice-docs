@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSRole_GetTooltip
-description: String NSRole.GetTooltip()
+uid: crmscript_ref_NSRole_GetTooltip
+title: String GetTooltip()
 intellisense: NSRole.GetTooltip
 keywords: NSRole, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the list item.
+Get the tooltip description for the Role list item.
 
-**Returns:** String tooltip description.
+**Returns:** String Role tooltip description.
 

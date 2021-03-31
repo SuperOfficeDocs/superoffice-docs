@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_SetBaseTimeZoneId
-description: Bool SetBaseTimeZoneId(Integer timezoneId)
+uid: crmscript_ref_NSTimeZoneAgent_SetBaseTimeZoneId
+title: Bool SetBaseTimeZoneId(Integer timezoneId)
 intellisense: NSTimeZoneAgent.SetBaseTimeZoneId
-keywords: NSTimeZoneAgent,SetBaseTimeZoneId
+keywords: NSTimeZoneAgent, SetBaseTimeZoneId
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorTypeMapping_GetFieldMappings
-description: ErpSyncFieldMappingArray NSErpSyncActorTypeMapping.GetFieldMappings()
+uid: crmscript_ref_NSErpSyncActorTypeMapping_GetFieldMappings
+title: ErpSyncFieldMappingArray GetFieldMappings()
 intellisense: NSErpSyncActorTypeMapping.GetFieldMappings
 keywords: NSErpSyncActorTypeMapping, GetFieldMappings
 so.topic: reference

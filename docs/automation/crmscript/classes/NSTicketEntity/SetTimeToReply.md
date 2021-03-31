@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetTimeToReply
-description: NSTicketEntity.SetTimeToReply(Integer timeToReply)
+uid: crmscript_ref_NSTicketEntity_SetTimeToReply
+title: SetTimeToReply(Integer timeToReply)
 intellisense: NSTicketEntity.SetTimeToReply
 keywords: NSTicketEntity, GetTimeToReply
 so.topic: reference

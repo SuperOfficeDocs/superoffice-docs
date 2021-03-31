@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_FindFromRestrictionsColumnsOrderBy2
-description: FindResults FindFromRestrictionsColumnsOrderBy2(String restrictions, String providerName, String desiredColumns, String orderBy, Integer pageSize, Integer pageNumber)
+uid: crmscript_ref_NSFindAgent_FindFromRestrictionsColumnsOrderBy2
+title: FindResults FindFromRestrictionsColumnsOrderBy2(String restrictions, String providerName, String desiredColumns, String orderBy, Integer pageSize, Integer pageNumber)
 intellisense: NSFindAgent.FindFromRestrictionsColumnsOrderBy2
-keywords: NSFindAgent,FindFromRestrictionsColumnsOrderBy2
+keywords: NSFindAgent, FindFromRestrictionsColumnsOrderBy2
 so.topic: reference
 ---
 

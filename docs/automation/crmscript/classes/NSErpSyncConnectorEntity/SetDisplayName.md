@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncConnectorEntity_SetDisplayName
-description: NSErpSyncConnectorEntity.SetDisplayName(String displayName)
+uid: crmscript_ref_NSErpSyncConnectorEntity_SetDisplayName
+title: SetDisplayName(String displayName)
 intellisense: NSErpSyncConnectorEntity.SetDisplayName
 keywords: NSErpSyncConnectorEntity, GetDisplayName
 so.topic: reference

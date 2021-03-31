@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_GetEncoding
-description: String NSEMailAttachment.GetEncoding()
+uid: crmscript_ref_NSEMailAttachment_GetEncoding
+title: String GetEncoding()
 intellisense: NSEMailAttachment.GetEncoding
 keywords: NSEMailAttachment, GetEncoding
 so.topic: reference

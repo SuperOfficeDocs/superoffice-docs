@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectTypeEntity_SetIsAutoAdvance
-description: NSProjectTypeEntity.SetIsAutoAdvance(Bool isAutoAdvance)
+uid: crmscript_ref_NSProjectTypeEntity_SetIsAutoAdvance
+title: SetIsAutoAdvance(Bool isAutoAdvance)
 intellisense: NSProjectTypeEntity.SetIsAutoAdvance
 keywords: NSProjectTypeEntity, GetIsAutoAdvance
 so.topic: reference

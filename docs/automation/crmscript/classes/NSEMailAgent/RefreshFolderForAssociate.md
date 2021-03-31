@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_RefreshFolderForAssociate
-description: String RefreshFolderForAssociate(StringArray folders)
+uid: crmscript_ref_NSEMailAgent_RefreshFolderForAssociate
+title: String RefreshFolderForAssociate(StringArray folders)
 intellisense: NSEMailAgent.RefreshFolderForAssociate
-keywords: NSEMailAgent,RefreshFolderForAssociate
+keywords: NSEMailAgent, RefreshFolderForAssociate
 so.topic: reference
 ---
 

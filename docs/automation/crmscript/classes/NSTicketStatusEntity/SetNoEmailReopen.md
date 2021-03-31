@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketStatusEntity_SetNoEmailReopen
-description: NSTicketStatusEntity.SetNoEmailReopen(Bool noEmailReopen)
+uid: crmscript_ref_NSTicketStatusEntity_SetNoEmailReopen
+title: SetNoEmailReopen(Bool noEmailReopen)
 intellisense: NSTicketStatusEntity.SetNoEmailReopen
 keywords: NSTicketStatusEntity, GetNoEmailReopen
 so.topic: reference

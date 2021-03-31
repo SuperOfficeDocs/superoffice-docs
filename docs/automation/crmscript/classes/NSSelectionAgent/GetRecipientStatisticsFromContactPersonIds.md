@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_GetRecipientStatisticsFromContactPersonIds
-description: RecipientStatistics GetRecipientStatisticsFromContactPersonIds(ContactPersonIdArray contactPersonIds)
+uid: crmscript_ref_NSSelectionAgent_GetRecipientStatisticsFromContactPersonIds
+title: RecipientStatistics GetRecipientStatisticsFromContactPersonIds(ContactPersonIdArray contactPersonIds)
 intellisense: NSSelectionAgent.GetRecipientStatisticsFromContactPersonIds
-keywords: NSSelectionAgent,GetRecipientStatisticsFromContactPersonIds
+keywords: NSSelectionAgent, GetRecipientStatisticsFromContactPersonIds
 so.topic: reference
 ---
 

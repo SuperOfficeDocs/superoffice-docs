@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_GetTabOrders
-description: TabOrderArray GetTabOrders()
+uid: crmscript_ref_NSPreferenceAgent_GetTabOrders
+title: TabOrderArray GetTabOrders()
 intellisense: NSPreferenceAgent.GetTabOrders
-keywords: NSPreferenceAgent,GetTabOrders
+keywords: NSPreferenceAgent, GetTabOrders
 so.topic: reference
 ---
 

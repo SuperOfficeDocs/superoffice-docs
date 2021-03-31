@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChangedData_SetAddedRecords
-description: NSChangedData.SetAddedRecords(ChangedDataItemArray addedRecords)
+uid: crmscript_ref_NSChangedData_SetAddedRecords
+title: SetAddedRecords(ChangedDataItemArray addedRecords)
 intellisense: NSChangedData.SetAddedRecords
 keywords: NSChangedData, GetAddedRecords
 so.topic: reference

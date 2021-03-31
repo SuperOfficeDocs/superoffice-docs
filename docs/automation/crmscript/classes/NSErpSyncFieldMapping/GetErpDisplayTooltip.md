@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_GetErpDisplayTooltip
-description: String NSErpSyncFieldMapping.GetErpDisplayTooltip()
+uid: crmscript_ref_NSErpSyncFieldMapping_GetErpDisplayTooltip
+title: String GetErpDisplayTooltip()
 intellisense: NSErpSyncFieldMapping.GetErpDisplayTooltip
 keywords: NSErpSyncFieldMapping, GetErpDisplayTooltip
 so.topic: reference

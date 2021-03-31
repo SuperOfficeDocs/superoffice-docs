@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectTypeEntity_GetStages
-description: SelectableMDOListItemArray NSProjectTypeEntity.GetStages()
+uid: crmscript_ref_NSProjectTypeEntity_GetStages
+title: SelectableMDOListItemArray GetStages()
 intellisense: NSProjectTypeEntity.GetStages
 keywords: NSProjectTypeEntity, GetStages
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_UpdateHierarchyFromPath
-description: HierarchyEntity UpdateHierarchyFromPath(Integer domain, String path, HierarchyEntity entity)
+uid: crmscript_ref_NSListAgent_UpdateHierarchyFromPath
+title: HierarchyEntity UpdateHierarchyFromPath(Integer domain, String path, HierarchyEntity entity)
 intellisense: NSListAgent.UpdateHierarchyFromPath
-keywords: NSListAgent,UpdateHierarchyFromPath
+keywords: NSListAgent, UpdateHierarchyFromPath
 so.topic: reference
 ---
 

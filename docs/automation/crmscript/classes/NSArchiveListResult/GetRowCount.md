@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListResult_GetRowCount
-description: Integer NSArchiveListResult.GetRowCount()
+uid: crmscript_ref_NSArchiveListResult_GetRowCount
+title: Integer GetRowCount()
 intellisense: NSArchiveListResult.GetRowCount
 keywords: NSArchiveListResult, GetRowCount
 so.topic: reference

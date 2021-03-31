@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_GetCustomerServiceStartup
-description: CustomerServiceStartup GetCustomerServiceStartup()
+uid: crmscript_ref_NSCustomerServiceAgent_GetCustomerServiceStartup
+title: CustomerServiceStartup GetCustomerServiceStartup()
 intellisense: NSCustomerServiceAgent.GetCustomerServiceStartup
-keywords: NSCustomerServiceAgent,GetCustomerServiceStartup
+keywords: NSCustomerServiceAgent, GetCustomerServiceStartup
 so.topic: reference
 ---
 

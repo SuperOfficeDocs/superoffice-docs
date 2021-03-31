@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetProductCategoryKey
-description: NSProduct.SetProductCategoryKey(String productCategoryKey)
+uid: crmscript_ref_NSProduct_SetProductCategoryKey
+title: SetProductCategoryKey(String productCategoryKey)
 intellisense: NSProduct.SetProductCategoryKey
 keywords: NSProduct, GetProductCategoryKey
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_SetSubscription
-description: Void SetSubscription(EMailConnectionInfo connectionInfo, EMailFolderArray folders)
+uid: crmscript_ref_NSEMailAgent_SetSubscription
+title: Void SetSubscription(EMailConnectionInfo connectionInfo, EMailFolderArray folders)
 intellisense: NSEMailAgent.SetSubscription
-keywords: NSEMailAgent,SetSubscription
+keywords: NSEMailAgent, SetSubscription
 so.topic: reference
 ---
 

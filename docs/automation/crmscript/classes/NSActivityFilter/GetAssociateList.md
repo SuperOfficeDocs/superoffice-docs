@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivityFilter_GetAssociateList
-description: SelectableMDOListItemArray NSActivityFilter.GetAssociateList()
+uid: crmscript_ref_NSActivityFilter_GetAssociateList
+title: SelectableMDOListItemArray GetAssociateList()
 intellisense: NSActivityFilter.GetAssociateList
 keywords: NSActivityFilter, GetAssociateList
 so.topic: reference

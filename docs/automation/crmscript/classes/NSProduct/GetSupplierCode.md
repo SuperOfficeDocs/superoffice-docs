@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetSupplierCode
-description: String NSProduct.GetSupplierCode()
+uid: crmscript_ref_NSProduct_GetSupplierCode
+title: String GetSupplierCode()
 intellisense: NSProduct.GetSupplierCode
 keywords: NSProduct, GetSupplierCode
 so.topic: reference

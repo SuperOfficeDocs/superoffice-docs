@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoListText
-description: NSFieldInfoListText
+uid: crmscript_ref_NSFieldInfoListText
+title: NSFieldInfoListText
 intellisense: Void.NSFieldInfoListText
 keywords: NSFieldInfoListText
 so.topic: reference

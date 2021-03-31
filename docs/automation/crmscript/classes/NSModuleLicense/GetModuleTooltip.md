@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_GetModuleTooltip
-description: String NSModuleLicense.GetModuleTooltip()
+uid: crmscript_ref_NSModuleLicense_GetModuleTooltip
+title: String GetModuleTooltip()
 intellisense: NSModuleLicense.GetModuleTooltip
 keywords: NSModuleLicense, GetModuleTooltip
 so.topic: reference

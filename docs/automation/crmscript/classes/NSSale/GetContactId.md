@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_GetContactId
-description: Integer NSSale.GetContactId()
+uid: crmscript_ref_NSSale_GetContactId
+title: Integer GetContactId()
 intellisense: NSSale.GetContactId
 keywords: NSSale, GetContactId
 so.topic: reference

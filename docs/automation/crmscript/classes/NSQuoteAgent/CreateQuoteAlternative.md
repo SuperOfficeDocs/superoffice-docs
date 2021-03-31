@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CreateQuoteAlternative
-description: QuoteAlternative CreateQuoteAlternative(Integer quoteVersionId, String quoteAlternativeName, String quoteAlternativeDescription)
+uid: crmscript_ref_NSQuoteAgent_CreateQuoteAlternative
+title: QuoteAlternative CreateQuoteAlternative(Integer quoteVersionId, String quoteAlternativeName, String quoteAlternativeDescription)
 intellisense: NSQuoteAgent.CreateQuoteAlternative
-keywords: NSQuoteAgent,CreateQuoteAlternative
+keywords: NSQuoteAgent, CreateQuoteAlternative
 so.topic: reference
 ---
 

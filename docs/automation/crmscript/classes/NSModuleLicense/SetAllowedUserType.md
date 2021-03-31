@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_SetAllowedUserType
-description: NSModuleLicense.SetAllowedUserType(Integer allowedUserType)
+uid: crmscript_ref_NSModuleLicense_SetAllowedUserType
+title: SetAllowedUserType(Integer allowedUserType)
 intellisense: NSModuleLicense.SetAllowedUserType
 keywords: NSModuleLicense, GetAllowedUserType
 so.topic: reference

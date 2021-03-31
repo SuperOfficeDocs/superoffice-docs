@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetPhonePrivate
-description: NSParticipantSyncData.SetPhonePrivate(StringArray phonePrivate)
+uid: crmscript_ref_NSParticipantSyncData_SetPhonePrivate
+title: SetPhonePrivate(StringArray phonePrivate)
 intellisense: NSParticipantSyncData.SetPhonePrivate
 keywords: NSParticipantSyncData, GetPhonePrivate
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAddressSyncData_SetCity
-description: NSAddressSyncData.SetCity(String city)
+uid: crmscript_ref_NSAddressSyncData_SetCity
+title: SetCity(String city)
 intellisense: NSAddressSyncData.SetCity
 keywords: NSAddressSyncData, GetCity
 so.topic: reference

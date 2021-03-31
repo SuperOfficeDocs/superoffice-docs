@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetQuoteVersionWorkflowButtonStates
-description: QuoteVersionWorkflowState GetQuoteVersionWorkflowButtonStates(Integer quoteVersionId, Integer quoteAlternativeId)
+uid: crmscript_ref_NSQuoteAgent_GetQuoteVersionWorkflowButtonStates
+title: QuoteVersionWorkflowState GetQuoteVersionWorkflowButtonStates(Integer quoteVersionId, Integer quoteAlternativeId)
 intellisense: NSQuoteAgent.GetQuoteVersionWorkflowButtonStates
-keywords: NSQuoteAgent,GetQuoteVersionWorkflowButtonStates
+keywords: NSQuoteAgent, GetQuoteVersionWorkflowButtonStates
 so.topic: reference
 ---
 

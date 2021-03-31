@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoRelation_GetTargetTable
-description: String NSFieldInfoRelation.GetTargetTable()
+uid: crmscript_ref_NSFieldInfoRelation_GetTargetTable
+title: String GetTargetTable()
 intellisense: NSFieldInfoRelation.GetTargetTable
 keywords: NSFieldInfoRelation, GetTargetTable
 so.topic: reference

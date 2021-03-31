@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetQuickReplies
-description: QuickReplyArray GetQuickReplies()
+uid: crmscript_ref_NSListAgent_GetQuickReplies
+title: QuickReplyArray GetQuickReplies()
 intellisense: NSListAgent.GetQuickReplies
-keywords: NSListAgent,GetQuickReplies
+keywords: NSListAgent, GetQuickReplies
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetPublishFrom
-description: DateTime NSProjectEventEntity.GetPublishFrom()
+uid: crmscript_ref_NSProjectEventEntity_GetPublishFrom
+title: DateTime GetPublishFrom()
 intellisense: NSProjectEventEntity.GetPublishFrom
 keywords: NSProjectEventEntity, GetPublishFrom
 so.topic: reference

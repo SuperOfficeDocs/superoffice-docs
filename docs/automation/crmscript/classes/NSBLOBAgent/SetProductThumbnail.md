@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_SetProductThumbnail
-description: Void SetProductThumbnail(Integer productId, Image image)
+uid: crmscript_ref_NSBLOBAgent_SetProductThumbnail
+title: Void SetProductThumbnail(Integer productId, Image image)
 intellisense: NSBLOBAgent.SetProductThumbnail
-keywords: NSBLOBAgent,SetProductThumbnail
+keywords: NSBLOBAgent, SetProductThumbnail
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SetDocumentTemplateFromDocumentTemplate
-description: DocumentTemplateEntity SetDocumentTemplateFromDocumentTemplate(Integer sourceDocumentTemplateId, DocumentTemplateEntity documentTemplateEntity)
+uid: crmscript_ref_NSListAgent_SetDocumentTemplateFromDocumentTemplate
+title: DocumentTemplateEntity SetDocumentTemplateFromDocumentTemplate(Integer sourceDocumentTemplateId, DocumentTemplateEntity documentTemplateEntity)
 intellisense: NSListAgent.SetDocumentTemplateFromDocumentTemplate
-keywords: NSListAgent,SetDocumentTemplateFromDocumentTemplate
+keywords: NSListAgent, SetDocumentTemplateFromDocumentTemplate
 so.topic: reference
 ---
 

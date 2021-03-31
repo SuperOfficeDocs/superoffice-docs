@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoListText_SetDefaultValue
-description: NSFieldInfoListText.SetDefaultValue(String defaultValue)
+uid: crmscript_ref_NSFieldInfoListText_SetDefaultValue
+title: SetDefaultValue(String defaultValue)
 intellisense: NSFieldInfoListText.SetDefaultValue
 keywords: NSFieldInfoListText, GetDefaultValue
 so.topic: reference

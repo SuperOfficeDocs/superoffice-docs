@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemporaryKeyInfo_SetDomain
-description: NSTemporaryKeyInfo.SetDomain(Integer domain)
+uid: crmscript_ref_NSTemporaryKeyInfo_SetDomain
+title: SetDomain(Integer domain)
 intellisense: NSTemporaryKeyInfo.SetDomain
 keywords: NSTemporaryKeyInfo, GetDomain
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_SaveDeviceByIdentifier
-description: ForeignDevice SaveDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier, ForeignDevice foreignDevice)
+uid: crmscript_ref_NSForeignSystemAgent_SaveDeviceByIdentifier
+title: ForeignDevice SaveDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier, ForeignDevice foreignDevice)
 intellisense: NSForeignSystemAgent.SaveDeviceByIdentifier
-keywords: NSForeignSystemAgent,SaveDeviceByIdentifier
+keywords: NSForeignSystemAgent, SaveDeviceByIdentifier
 so.topic: reference
 ---
 

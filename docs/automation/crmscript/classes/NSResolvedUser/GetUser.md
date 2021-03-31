@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResolvedUser_GetUser
-description: User NSResolvedUser.GetUser()
+uid: crmscript_ref_NSResolvedUser_GetUser
+title: User GetUser()
 intellisense: NSResolvedUser.GetUser
 keywords: NSResolvedUser, GetUser
 so.topic: reference

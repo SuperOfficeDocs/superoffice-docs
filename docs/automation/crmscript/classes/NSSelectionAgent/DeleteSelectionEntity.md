@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_DeleteSelectionEntity
-description: DeleteSelectionEntity(Integer selectionEntity);
+uid: crmscript_ref_NSSelectionAgent_DeleteSelectionEntity
+title: DeleteSelectionEntity(Integer selectionEntity);
 intellisense: NSSelectionAgent.DeleteSelectionEntity
-keywords: NSSelectionAgent,DeleteSelectionEntity
+keywords: NSSelectionAgent, DeleteSelectionEntity
 so.topic: reference
 ---
 

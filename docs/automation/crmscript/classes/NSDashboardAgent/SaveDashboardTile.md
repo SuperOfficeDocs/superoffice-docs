@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_SaveDashboardTile
-description: NSDashboardTile SaveDashboardTile(NSDashboardTile dashboardTile);
+uid: crmscript_ref_NSDashboardAgent_SaveDashboardTile
+title: NSDashboardTile SaveDashboardTile(NSDashboardTile dashboardTile);
 intellisense: NSDashboardAgent.SaveDashboardTile
-keywords: NSDashboardAgent,SaveDashboardTile
+keywords: NSDashboardAgent, SaveDashboardTile
 so.topic: reference
 ---
 	  

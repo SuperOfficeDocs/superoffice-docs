@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment_GetSequence
-description: Integer NSEMailAppointment.GetSequence()
+uid: crmscript_ref_NSEMailAppointment_GetSequence
+title: Integer GetSequence()
 intellisense: NSEMailAppointment.GetSequence
 keywords: NSEMailAppointment, GetSequence
 so.topic: reference

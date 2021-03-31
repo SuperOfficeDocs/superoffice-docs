@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveConfiguration
-description: NSArchiveConfiguration
+uid: crmscript_ref_NSArchiveConfiguration
+title: NSArchiveConfiguration
 intellisense: Void.NSArchiveConfiguration
 keywords: NSArchiveConfiguration
 so.topic: reference

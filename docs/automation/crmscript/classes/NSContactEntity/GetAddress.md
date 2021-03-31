@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetAddress
-description: Address NSContactEntity.GetAddress()
+uid: crmscript_ref_NSContactEntity_GetAddress
+title: Address GetAddress()
 intellisense: NSContactEntity.GetAddress
 keywords: NSContactEntity, GetAddress
 so.topic: reference

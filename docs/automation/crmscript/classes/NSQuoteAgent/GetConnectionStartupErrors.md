@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetConnectionStartupErrors
-description: PluginResponseArray GetConnectionStartupErrors()
+uid: crmscript_ref_NSQuoteAgent_GetConnectionStartupErrors
+title: PluginResponseArray GetConnectionStartupErrors()
 intellisense: NSQuoteAgent.GetConnectionStartupErrors
-keywords: NSQuoteAgent,GetConnectionStartupErrors
+keywords: NSQuoteAgent, GetConnectionStartupErrors
 so.topic: reference
 ---
 

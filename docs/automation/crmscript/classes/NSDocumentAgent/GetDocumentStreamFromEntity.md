@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetDocumentStreamFromEntity
-description: Stream GetDocumentStreamFromEntity(DocumentEntity documentEntity)
+uid: crmscript_ref_NSDocumentAgent_GetDocumentStreamFromEntity
+title: Stream GetDocumentStreamFromEntity(DocumentEntity documentEntity)
 intellisense: NSDocumentAgent.GetDocumentStreamFromEntity
-keywords: NSDocumentAgent,GetDocumentStreamFromEntity
+keywords: NSDocumentAgent, GetDocumentStreamFromEntity
 so.topic: reference
 ---
 

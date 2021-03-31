@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_SetAddPersonInterest
-description: NSMailMergeSettings.SetAddPersonInterest(Integer addPersonInterest)
+uid: crmscript_ref_NSMailMergeSettings_SetAddPersonInterest
+title: SetAddPersonInterest(Integer addPersonInterest)
 intellisense: NSMailMergeSettings.SetAddPersonInterest
 keywords: NSMailMergeSettings, GetAddPersonInterest
 so.topic: reference

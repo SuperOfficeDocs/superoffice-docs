@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetQuoteLineConfigurationFromFieldName
-description: QuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String fieldName)
+uid: crmscript_ref_NSQuoteAgent_GetQuoteLineConfigurationFromFieldName
+title: QuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String fieldName)
 intellisense: NSQuoteAgent.GetQuoteLineConfigurationFromFieldName
-keywords: NSQuoteAgent,GetQuoteLineConfigurationFromFieldName
+keywords: NSQuoteAgent, GetQuoteLineConfigurationFromFieldName
 so.topic: reference
 ---
 

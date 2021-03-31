@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetIconHint
-description: NSSelectableMDOListItem.SetIconHint(String iconHint)
+uid: crmscript_ref_NSSelectableMDOListItem_SetIconHint
+title: SetIconHint(String iconHint)
 intellisense: NSSelectableMDOListItem.SetIconHint
 keywords: NSSelectableMDOListItem, GetIconHint
 so.topic: reference

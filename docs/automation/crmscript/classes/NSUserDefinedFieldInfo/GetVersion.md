@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetVersion
-description: Integer NSUserDefinedFieldInfo.GetVersion()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetVersion
+title: Integer GetVersion()
 intellisense: NSUserDefinedFieldInfo.GetVersion
 keywords: NSUserDefinedFieldInfo, GetVersion
 so.topic: reference

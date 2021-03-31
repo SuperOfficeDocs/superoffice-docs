@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetUser
-description: NSUser GetUser(Integer userId);
+uid: crmscript_ref_NSUserAgent_GetUser
+title: NSUser GetUser(Integer userId);
 intellisense: NSUserAgent.GetUser
-keywords: NSUserAgent,GetUser
+keywords: NSUserAgent, GetUser
 so.topic: reference
 ---
 

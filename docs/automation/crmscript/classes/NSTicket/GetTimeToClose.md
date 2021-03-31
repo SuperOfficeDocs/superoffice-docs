@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetTimeToClose
-description: Integer NSTicket.GetTimeToClose()
+uid: crmscript_ref_NSTicket_GetTimeToClose
+title: Integer GetTimeToClose()
 intellisense: NSTicket.GetTimeToClose
 keywords: NSTicket, GetTimeToClose
 so.topic: reference

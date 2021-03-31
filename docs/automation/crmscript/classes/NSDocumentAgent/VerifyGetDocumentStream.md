@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_VerifyGetDocumentStream
-description: Void VerifyGetDocumentStream(Integer documentId)
+uid: crmscript_ref_NSDocumentAgent_VerifyGetDocumentStream
+title: Void VerifyGetDocumentStream(Integer documentId)
 intellisense: NSDocumentAgent.VerifyGetDocumentStream
-keywords: NSDocumentAgent,VerifyGetDocumentStream
+keywords: NSDocumentAgent, VerifyGetDocumentStream
 so.topic: reference
 ---
 

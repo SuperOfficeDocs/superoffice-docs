@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionListMapping_SetCrmList
-description: NSErpConnectionListMapping.SetCrmList(MDOListItem crmList)
+uid: crmscript_ref_NSErpConnectionListMapping_SetCrmList
+title: SetCrmList(MDOListItem crmList)
 intellisense: NSErpConnectionListMapping.SetCrmList
 keywords: NSErpConnectionListMapping, GetCrmList
 so.topic: reference

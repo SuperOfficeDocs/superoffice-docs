@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetWebPanelId
-description: Integer NSWebPanelEntity.GetWebPanelId()
+uid: crmscript_ref_NSWebPanelEntity_GetWebPanelId
+title: Integer GetWebPanelId()
 intellisense: NSWebPanelEntity.GetWebPanelId
 keywords: NSWebPanelEntity, GetWebPanelId
 so.topic: reference

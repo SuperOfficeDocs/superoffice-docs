@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialUser_SetColumns
-description: NSCredentialUser.SetColumns(StringArray columns)
+uid: crmscript_ref_NSCredentialUser_SetColumns
+title: SetColumns(StringArray columns)
 intellisense: NSCredentialUser.SetColumns
 keywords: NSCredentialUser, GetColumns
 so.topic: reference

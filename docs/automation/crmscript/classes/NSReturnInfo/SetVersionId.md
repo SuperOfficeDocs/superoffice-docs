@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReturnInfo_SetVersionId
-description: NSReturnInfo.SetVersionId(String versionId)
+uid: crmscript_ref_NSReturnInfo_SetVersionId
+title: SetVersionId(String versionId)
 intellisense: NSReturnInfo.SetVersionId
 keywords: NSReturnInfo, GetVersionId
 so.topic: reference

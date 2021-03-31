@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketStartupData_SetNotificationsCount
-description: NSPocketStartupData.SetNotificationsCount(Integer notificationsCount)
+uid: crmscript_ref_NSPocketStartupData_SetNotificationsCount
+title: SetNotificationsCount(Integer notificationsCount)
 intellisense: NSPocketStartupData.SetNotificationsCount
 keywords: NSPocketStartupData, GetNotificationsCount
 so.topic: reference

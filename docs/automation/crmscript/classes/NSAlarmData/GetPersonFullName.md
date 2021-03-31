@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetPersonFullName
-description: String NSAlarmData.GetPersonFullName()
+uid: crmscript_ref_NSAlarmData_GetPersonFullName
+title: String GetPersonFullName()
 intellisense: NSAlarmData.GetPersonFullName
 keywords: NSAlarmData, GetPersonFullName
 so.topic: reference

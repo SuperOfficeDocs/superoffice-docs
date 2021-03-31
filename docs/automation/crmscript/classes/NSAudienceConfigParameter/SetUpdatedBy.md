@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceConfigParameter_SetUpdatedBy
-description: NSAudienceConfigParameter.SetUpdatedBy(String updatedBy)
+uid: crmscript_ref_NSAudienceConfigParameter_SetUpdatedBy
+title: SetUpdatedBy(String updatedBy)
 intellisense: NSAudienceConfigParameter.SetUpdatedBy
 keywords: NSAudienceConfigParameter, GetUpdatedBy
 so.topic: reference

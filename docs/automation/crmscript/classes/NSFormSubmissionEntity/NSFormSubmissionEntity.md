@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity
-description: NSFormSubmissionEntity
+uid: crmscript_ref_NSFormSubmissionEntity
+title: NSFormSubmissionEntity
 intellisense: Void.NSFormSubmissionEntity
 keywords: NSFormSubmissionEntity
 so.topic: reference

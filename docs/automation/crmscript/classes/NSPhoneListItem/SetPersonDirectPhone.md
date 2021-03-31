@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListItem_SetPersonDirectPhone
-description: NSPhoneListItem.SetPersonDirectPhone(String personDirectPhone)
+uid: crmscript_ref_NSPhoneListItem_SetPersonDirectPhone
+title: SetPersonDirectPhone(String personDirectPhone)
 intellisense: NSPhoneListItem.SetPersonDirectPhone
 keywords: NSPhoneListItem, GetPersonDirectPhone
 so.topic: reference

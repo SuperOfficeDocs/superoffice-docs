@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSTask_GetId
-description: Integer NSTask.GetId()
+uid: crmscript_ref_NSTask_GetId
+title: Integer GetId()
 intellisense: NSTask.GetId
 keywords: NSTask, GetId
 so.topic: reference
 ---
 
-Get the primary key (id)
+Get the primary key (id) for the Task
 
-**Returns:** Integer Id
+**Returns:** Integer Task id.
 

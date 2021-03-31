@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFreeText_SetSingleWordOperator
-description: NSFreeText.SetSingleWordOperator(Integer singleWordOperator)
+uid: crmscript_ref_NSFreeText_SetSingleWordOperator
+title: SetSingleWordOperator(Integer singleWordOperator)
 intellisense: NSFreeText.SetSingleWordOperator
 keywords: NSFreeText, GetSingleWordOperator
 so.topic: reference

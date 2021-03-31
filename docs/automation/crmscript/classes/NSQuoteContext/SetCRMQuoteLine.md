@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteContext_SetCRMQuoteLine
-description: NSQuoteContext.SetCRMQuoteLine(QuoteLine cRMQuoteLine)
+uid: crmscript_ref_NSQuoteContext_SetCRMQuoteLine
+title: SetCRMQuoteLine(QuoteLine cRMQuoteLine)
 intellisense: NSQuoteContext.SetCRMQuoteLine
 keywords: NSQuoteContext, GetCRMQuoteLine
 so.topic: reference

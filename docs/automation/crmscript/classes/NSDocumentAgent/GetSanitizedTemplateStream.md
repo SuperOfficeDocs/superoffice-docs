@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetSanitizedTemplateStream
-description: Stream GetSanitizedTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
+uid: crmscript_ref_NSDocumentAgent_GetSanitizedTemplateStream
+title: Stream GetSanitizedTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
 intellisense: NSDocumentAgent.GetSanitizedTemplateStream
-keywords: NSDocumentAgent,GetSanitizedTemplateStream
+keywords: NSDocumentAgent, GetSanitizedTemplateStream
 so.topic: reference
 ---
 

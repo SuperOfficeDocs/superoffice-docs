@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_DeleteEntities
-description: Void DeleteEntities(Integer selectionId)
+uid: crmscript_ref_NSSelectionAgent_DeleteEntities
+title: Void DeleteEntities(Integer selectionId)
 intellisense: NSSelectionAgent.DeleteEntities
-keywords: NSSelectionAgent,DeleteEntities
+keywords: NSSelectionAgent, DeleteEntities
 so.topic: reference
 ---
 

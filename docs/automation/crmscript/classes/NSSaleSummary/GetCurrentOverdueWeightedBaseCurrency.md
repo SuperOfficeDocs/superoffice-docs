@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_GetCurrentOverdueWeightedBaseCurrency
-description: Float NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency()
+uid: crmscript_ref_NSSaleSummary_GetCurrentOverdueWeightedBaseCurrency
+title: Float GetCurrentOverdueWeightedBaseCurrency()
 intellisense: NSSaleSummary.GetCurrentOverdueWeightedBaseCurrency
 keywords: NSSaleSummary, GetCurrentOverdueWeightedBaseCurrency
 so.topic: reference

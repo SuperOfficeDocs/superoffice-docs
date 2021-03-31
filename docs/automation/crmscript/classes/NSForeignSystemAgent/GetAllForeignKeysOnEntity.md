@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetAllForeignKeysOnEntity
-description: StringDictionary GetAllForeignKeysOnEntity(String entityType, Integer entityId)
+uid: crmscript_ref_NSForeignSystemAgent_GetAllForeignKeysOnEntity
+title: StringDictionary GetAllForeignKeysOnEntity(String entityType, Integer entityId)
 intellisense: NSForeignSystemAgent.GetAllForeignKeysOnEntity
-keywords: NSForeignSystemAgent,GetAllForeignKeysOnEntity
+keywords: NSForeignSystemAgent, GetAllForeignKeysOnEntity
 so.topic: reference
 ---
 

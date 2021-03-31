@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSViewStateAgent_GetHistoryLengthPrefValue
-description: Integer GetHistoryLengthPrefValue()
+uid: crmscript_ref_NSViewStateAgent_GetHistoryLengthPrefValue
+title: Integer GetHistoryLengthPrefValue()
 intellisense: NSViewStateAgent.GetHistoryLengthPrefValue
-keywords: NSViewStateAgent,GetHistoryLengthPrefValue
+keywords: NSViewStateAgent, GetHistoryLengthPrefValue
 so.topic: reference
 ---
 

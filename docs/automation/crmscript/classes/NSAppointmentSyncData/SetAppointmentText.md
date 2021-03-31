@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_SetAppointmentText
-description: NSAppointmentSyncData.SetAppointmentText(String appointmentText)
+uid: crmscript_ref_NSAppointmentSyncData_SetAppointmentText
+title: SetAppointmentText(String appointmentText)
 intellisense: NSAppointmentSyncData.SetAppointmentText
 keywords: NSAppointmentSyncData, GetAppointmentText
 so.topic: reference

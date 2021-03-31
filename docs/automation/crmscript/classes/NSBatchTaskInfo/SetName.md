@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetName
-description: NSBatchTaskInfo.SetName(String name)
+uid: crmscript_ref_NSBatchTaskInfo_SetName
+title: SetName(String name)
 intellisense: NSBatchTaskInfo.SetName
 keywords: NSBatchTaskInfo, GetName
 so.topic: reference

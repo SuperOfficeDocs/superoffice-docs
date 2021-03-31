@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_SaveUserFromName
-description: User SaveUserFromName(String userName, User user)
+uid: crmscript_ref_NSUserAgent_SaveUserFromName
+title: User SaveUserFromName(String userName, User user)
 intellisense: NSUserAgent.SaveUserFromName
-keywords: NSUserAgent,SaveUserFromName
+keywords: NSUserAgent, SaveUserFromName
 so.topic: reference
 ---
 

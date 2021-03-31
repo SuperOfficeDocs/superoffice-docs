@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetPost2
-description: String NSPersonEntity.GetPost2()
+uid: crmscript_ref_NSPersonEntity_GetPost2
+title: String GetPost2()
 intellisense: NSPersonEntity.GetPost2
 keywords: NSPersonEntity, GetPost2
 so.topic: reference

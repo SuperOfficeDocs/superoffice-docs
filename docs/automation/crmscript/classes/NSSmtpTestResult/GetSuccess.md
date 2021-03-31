@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSmtpTestResult_GetSuccess
-description: Bool NSSmtpTestResult.GetSuccess()
+uid: crmscript_ref_NSSmtpTestResult_GetSuccess
+title: Bool GetSuccess()
 intellisense: NSSmtpTestResult.GetSuccess
 keywords: NSSmtpTestResult, GetSuccess
 so.topic: reference

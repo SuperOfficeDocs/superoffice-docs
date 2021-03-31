@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserInfo_GetUserGroupTooltip
-description: String NSUserInfo.GetUserGroupTooltip()
+uid: crmscript_ref_NSUserInfo_GetUserGroupTooltip
+title: String GetUserGroupTooltip()
 intellisense: NSUserInfo.GetUserGroupTooltip
 keywords: NSUserInfo, GetUserGroupTooltip
 so.topic: reference

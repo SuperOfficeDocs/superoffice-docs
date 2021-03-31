@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelLeft
-description: NSUserDefinedFieldInfo.SetLabelLeft(Integer labelLeft)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetLabelLeft
+title: SetLabelLeft(Integer labelLeft)
 intellisense: NSUserDefinedFieldInfo.SetLabelLeft
 keywords: NSUserDefinedFieldInfo, GetLabelLeft
 so.topic: reference

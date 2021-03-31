@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetFilename
-description: String NSDocumentTemplateEntity.GetFilename()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetFilename
+title: String GetFilename()
 intellisense: NSDocumentTemplateEntity.GetFilename
 keywords: NSDocumentTemplateEntity, GetFilename
 so.topic: reference

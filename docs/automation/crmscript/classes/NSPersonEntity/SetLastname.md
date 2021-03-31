@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetLastname
-description: NSPersonEntity.SetLastname(String lastname)
+uid: crmscript_ref_NSPersonEntity_SetLastname
+title: SetLastname(String lastname)
 intellisense: NSPersonEntity.SetLastname
 keywords: NSPersonEntity, GetLastname
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetReason
-description: String NSQuoteVersion.GetReason()
+uid: crmscript_ref_NSQuoteVersion_GetReason
+title: String GetReason()
 intellisense: NSQuoteVersion.GetReason
 keywords: NSQuoteVersion, GetReason
 so.topic: reference

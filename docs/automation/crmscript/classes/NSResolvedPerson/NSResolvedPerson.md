@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResolvedPerson
-description: NSResolvedPerson
+uid: crmscript_ref_NSResolvedPerson
+title: NSResolvedPerson
 intellisense: Void.NSResolvedPerson
 keywords: NSResolvedPerson
 so.topic: reference

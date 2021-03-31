@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetTransferTo
-description: NSChatSessionEntity.SetTransferTo(Associate transferTo)
+uid: crmscript_ref_NSChatSessionEntity_SetTransferTo
+title: SetTransferTo(Associate transferTo)
 intellisense: NSChatSessionEntity.SetTransferTo
 keywords: NSChatSessionEntity, GetTransferTo
 so.topic: reference

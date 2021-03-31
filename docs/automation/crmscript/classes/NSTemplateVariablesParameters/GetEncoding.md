@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_GetEncoding
-description: Integer NSTemplateVariablesParameters.GetEncoding()
+uid: crmscript_ref_NSTemplateVariablesParameters_GetEncoding
+title: Integer GetEncoding()
 intellisense: NSTemplateVariablesParameters.GetEncoding
 keywords: NSTemplateVariablesParameters, GetEncoding
 so.topic: reference

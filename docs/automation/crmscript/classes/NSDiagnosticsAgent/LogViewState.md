@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_LogViewState
-description: Void LogViewState(String viewState)
+uid: crmscript_ref_NSDiagnosticsAgent_LogViewState
+title: Void LogViewState(String viewState)
 intellisense: NSDiagnosticsAgent.LogViewState
-keywords: NSDiagnosticsAgent,LogViewState
+keywords: NSDiagnosticsAgent, LogViewState
 so.topic: reference
 ---
 

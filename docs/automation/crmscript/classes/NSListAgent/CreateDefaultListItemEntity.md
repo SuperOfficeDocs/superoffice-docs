@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultListItemEntity
-description: NSListItemEntity CreateDefaultListItemEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultListItemEntity
+title: NSListItemEntity CreateDefaultListItemEntity()
 intellisense: NSListAgent.CreateDefaultListItemEntity
-keywords: NSListAgent,CreateDefaultListItemEntity
+keywords: NSListAgent, CreateDefaultListItemEntity
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetERPDeliveryTermsKey
-description: String NSQuoteVersion.GetERPDeliveryTermsKey()
+uid: crmscript_ref_NSQuoteVersion_GetERPDeliveryTermsKey
+title: String GetERPDeliveryTermsKey()
 intellisense: NSQuoteVersion.GetERPDeliveryTermsKey
 keywords: NSQuoteVersion, GetERPDeliveryTermsKey
 so.topic: reference

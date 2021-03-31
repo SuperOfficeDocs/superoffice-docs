@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageBlockEntity_GetRegistered
-description: DateTime NSShipmentMessageBlockEntity.GetRegistered()
+uid: crmscript_ref_NSShipmentMessageBlockEntity_GetRegistered
+title: DateTime GetRegistered()
 intellisense: NSShipmentMessageBlockEntity.GetRegistered
 keywords: NSShipmentMessageBlockEntity, GetRegistered
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSourceList
-description: NSSourceList
+uid: crmscript_ref_NSSourceList
+title: NSSourceList
 intellisense: Void.NSSourceList
 keywords: NSSourceList
 so.topic: reference

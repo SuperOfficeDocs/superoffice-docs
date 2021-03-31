@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent_GetListWithRestriction
-description: MDOListItemArray GetListWithRestriction(String name, String additionalInfo, String searchValue)
+uid: crmscript_ref_NSMDOAgent_GetListWithRestriction
+title: MDOListItemArray GetListWithRestriction(String name, String additionalInfo, String searchValue)
 intellisense: NSMDOAgent.GetListWithRestriction
-keywords: NSMDOAgent,GetListWithRestriction
+keywords: NSMDOAgent, GetListWithRestriction
 so.topic: reference
 ---
 

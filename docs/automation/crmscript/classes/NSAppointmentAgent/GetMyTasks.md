@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetMyTasks
-description: AppointmentArray GetMyTasks(Integer count)
+uid: crmscript_ref_NSAppointmentAgent_GetMyTasks
+title: AppointmentArray GetMyTasks(Integer count)
 intellisense: NSAppointmentAgent.GetMyTasks
-keywords: NSAppointmentAgent,GetMyTasks
+keywords: NSAppointmentAgent, GetMyTasks
 so.topic: reference
 ---
 

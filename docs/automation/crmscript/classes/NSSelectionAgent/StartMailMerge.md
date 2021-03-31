@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_StartMailMerge
-description: Void StartMailMerge(MailMergeSettings settings)
+uid: crmscript_ref_NSSelectionAgent_StartMailMerge
+title: Void StartMailMerge(MailMergeSettings settings)
 intellisense: NSSelectionAgent.StartMailMerge
-keywords: NSSelectionAgent,StartMailMerge
+keywords: NSSelectionAgent, StartMailMerge
 so.topic: reference
 ---
 

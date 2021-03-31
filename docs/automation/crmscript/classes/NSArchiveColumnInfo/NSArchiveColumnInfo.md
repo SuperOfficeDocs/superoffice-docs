@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo
-description: NSArchiveColumnInfo
+uid: crmscript_ref_NSArchiveColumnInfo
+title: NSArchiveColumnInfo
 intellisense: Void.NSArchiveColumnInfo
 keywords: NSArchiveColumnInfo
 so.topic: reference

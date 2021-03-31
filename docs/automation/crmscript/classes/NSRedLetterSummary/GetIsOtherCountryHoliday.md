@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRedLetterSummary_GetIsOtherCountryHoliday
-description: Bool NSRedLetterSummary.GetIsOtherCountryHoliday()
+uid: crmscript_ref_NSRedLetterSummary_GetIsOtherCountryHoliday
+title: Bool GetIsOtherCountryHoliday()
 intellisense: NSRedLetterSummary.GetIsOtherCountryHoliday
 keywords: NSRedLetterSummary, GetIsOtherCountryHoliday
 so.topic: reference

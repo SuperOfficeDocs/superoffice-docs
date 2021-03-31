@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_ChatTopicsForUser
-description: ChatTopicEntityArray ChatTopicsForUser()
+uid: crmscript_ref_NSChatAgent_ChatTopicsForUser
+title: ChatTopicEntityArray ChatTopicsForUser()
 intellisense: NSChatAgent.ChatTopicsForUser
-keywords: NSChatAgent,ChatTopicsForUser
+keywords: NSChatAgent, ChatTopicsForUser
 so.topic: reference
 ---
 

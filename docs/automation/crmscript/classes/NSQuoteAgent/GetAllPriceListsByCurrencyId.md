@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetAllPriceListsByCurrencyId
-description: PriceListArray GetAllPriceListsByCurrencyId(Integer quoteConnectionId, Integer currencyId)
+uid: crmscript_ref_NSQuoteAgent_GetAllPriceListsByCurrencyId
+title: PriceListArray GetAllPriceListsByCurrencyId(Integer quoteConnectionId, Integer currencyId)
 intellisense: NSQuoteAgent.GetAllPriceListsByCurrencyId
-keywords: NSQuoteAgent,GetAllPriceListsByCurrencyId
+keywords: NSQuoteAgent, GetAllPriceListsByCurrencyId
 so.topic: reference
 ---
 

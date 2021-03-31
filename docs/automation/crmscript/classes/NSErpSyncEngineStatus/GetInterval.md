@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncEngineStatus_GetInterval
-description: TimeSpan NSErpSyncEngineStatus.GetInterval()
+uid: crmscript_ref_NSErpSyncEngineStatus_GetInterval
+title: TimeSpan GetInterval()
 intellisense: NSErpSyncEngineStatus.GetInterval
 keywords: NSErpSyncEngineStatus, GetInterval
 so.topic: reference

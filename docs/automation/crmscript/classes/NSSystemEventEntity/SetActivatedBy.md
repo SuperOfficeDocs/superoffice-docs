@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSystemEventEntity_SetActivatedBy
-description: NSSystemEventEntity.SetActivatedBy(Associate activatedBy)
+uid: crmscript_ref_NSSystemEventEntity_SetActivatedBy
+title: SetActivatedBy(Associate activatedBy)
 intellisense: NSSystemEventEntity.SetActivatedBy
 keywords: NSSystemEventEntity, GetActivatedBy
 so.topic: reference

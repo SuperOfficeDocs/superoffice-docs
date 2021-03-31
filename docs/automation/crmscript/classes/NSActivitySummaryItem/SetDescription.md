@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummaryItem_SetDescription
-description: NSActivitySummaryItem.SetDescription(String description)
+uid: crmscript_ref_NSActivitySummaryItem_SetDescription
+title: SetDescription(String description)
 intellisense: NSActivitySummaryItem.SetDescription
 keywords: NSActivitySummaryItem, GetDescription
 so.topic: reference

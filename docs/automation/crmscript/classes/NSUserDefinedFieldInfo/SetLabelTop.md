@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelTop
-description: NSUserDefinedFieldInfo.SetLabelTop(Integer labelTop)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetLabelTop
+title: SetLabelTop(Integer labelTop)
 intellisense: NSUserDefinedFieldInfo.SetLabelTop
 keywords: NSUserDefinedFieldInfo, GetLabelTop
 so.topic: reference

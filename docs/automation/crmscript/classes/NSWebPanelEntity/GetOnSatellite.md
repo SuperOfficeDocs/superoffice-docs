@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetOnSatellite
-description: Bool NSWebPanelEntity.GetOnSatellite()
+uid: crmscript_ref_NSWebPanelEntity_GetOnSatellite
+title: Bool GetOnSatellite()
 intellisense: NSWebPanelEntity.GetOnSatellite
 keywords: NSWebPanelEntity, GetOnSatellite
 so.topic: reference

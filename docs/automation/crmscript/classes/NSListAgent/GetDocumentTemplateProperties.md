@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDocumentTemplateProperties
-description: StringDictionary GetDocumentTemplateProperties(Integer documentTemplateId, StringArray requestedProperties)
+uid: crmscript_ref_NSListAgent_GetDocumentTemplateProperties
+title: StringDictionary GetDocumentTemplateProperties(Integer documentTemplateId, StringArray requestedProperties)
 intellisense: NSListAgent.GetDocumentTemplateProperties
-keywords: NSListAgent,GetDocumentTemplateProperties
+keywords: NSListAgent, GetDocumentTemplateProperties
 so.topic: reference
 ---
 

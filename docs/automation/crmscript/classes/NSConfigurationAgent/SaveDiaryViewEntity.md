@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_SaveDiaryViewEntity
-description: NSDiaryViewEntity SaveDiaryViewEntity(NSDiaryViewEntity diaryViewEntity);
+uid: crmscript_ref_NSConfigurationAgent_SaveDiaryViewEntity
+title: NSDiaryViewEntity SaveDiaryViewEntity(NSDiaryViewEntity diaryViewEntity);
 intellisense: NSConfigurationAgent.SaveDiaryViewEntity
-keywords: NSConfigurationAgent,SaveDiaryViewEntity
+keywords: NSConfigurationAgent, SaveDiaryViewEntity
 so.topic: reference
 ---
 	  

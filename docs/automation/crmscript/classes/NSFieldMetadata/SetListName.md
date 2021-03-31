@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_SetListName
-description: NSFieldMetadata.SetListName(String listName)
+uid: crmscript_ref_NSFieldMetadata_SetListName
+title: SetListName(String listName)
 intellisense: NSFieldMetadata.SetListName
 keywords: NSFieldMetadata, GetListName
 so.topic: reference

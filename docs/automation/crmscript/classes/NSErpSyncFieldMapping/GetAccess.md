@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_GetAccess
-description: FieldAccess NSErpSyncFieldMapping.GetAccess()
+uid: crmscript_ref_NSErpSyncFieldMapping_GetAccess
+title: FieldAccess GetAccess()
 intellisense: NSErpSyncFieldMapping.GetAccess
 keywords: NSErpSyncFieldMapping, GetAccess
 so.topic: reference

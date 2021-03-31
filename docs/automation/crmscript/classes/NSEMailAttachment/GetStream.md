@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_GetStream
-description: Stream NSEMailAttachment.GetStream()
+uid: crmscript_ref_NSEMailAttachment_GetStream
+title: Stream GetStream()
 intellisense: NSEMailAttachment.GetStream
 keywords: NSEMailAttachment, GetStream
 so.topic: reference

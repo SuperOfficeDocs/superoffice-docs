@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetRecentSales
-description: SaleArray GetRecentSales(Integer amountLimit, Integer count)
+uid: crmscript_ref_NSSaleAgent_GetRecentSales
+title: SaleArray GetRecentSales(Integer amountLimit, Integer count)
 intellisense: NSSaleAgent.GetRecentSales
-keywords: NSSaleAgent,GetRecentSales
+keywords: NSSaleAgent, GetRecentSales
 so.topic: reference
 ---
 

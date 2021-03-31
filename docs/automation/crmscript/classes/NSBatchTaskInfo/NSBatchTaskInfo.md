@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo
-description: NSBatchTaskInfo
+uid: crmscript_ref_NSBatchTaskInfo
+title: NSBatchTaskInfo
 intellisense: Void.NSBatchTaskInfo
 keywords: NSBatchTaskInfo
 so.topic: reference

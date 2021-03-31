@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetAudienceLayoutByName
-description: AudienceLayoutEntity GetAudienceLayoutByName(String layoutName)
+uid: crmscript_ref_NSAudienceAgent_GetAudienceLayoutByName
+title: AudienceLayoutEntity GetAudienceLayoutByName(String layoutName)
 intellisense: NSAudienceAgent.GetAudienceLayoutByName
-keywords: NSAudienceAgent,GetAudienceLayoutByName
+keywords: NSAudienceAgent, GetAudienceLayoutByName
 so.topic: reference
 ---
 

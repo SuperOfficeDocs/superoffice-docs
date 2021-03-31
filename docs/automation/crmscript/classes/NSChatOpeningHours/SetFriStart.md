@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_SetFriStart
-description: NSChatOpeningHours.SetFriStart(TimeSpan friStart)
+uid: crmscript_ref_NSChatOpeningHours_SetFriStart
+title: SetFriStart(TimeSpan friStart)
 intellisense: NSChatOpeningHours.SetFriStart
 keywords: NSChatOpeningHours, GetFriStart
 so.topic: reference

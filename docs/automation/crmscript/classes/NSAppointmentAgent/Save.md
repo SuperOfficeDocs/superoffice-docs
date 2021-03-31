@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_Save
-description: AppointmentEntity Save(AppointmentEntity appointmentEntity, Integer updateMode, Bool sendEmailToParticipants, EMailConnectionInfo smtpEMailConnectionInfo, EMailConnectionInfo imapEMailConnectionInfo)
+uid: crmscript_ref_NSAppointmentAgent_Save
+title: AppointmentEntity Save(AppointmentEntity appointmentEntity, Integer updateMode, Bool sendEmailToParticipants, EMailConnectionInfo smtpEMailConnectionInfo, EMailConnectionInfo imapEMailConnectionInfo)
 intellisense: NSAppointmentAgent.Save
-keywords: NSAppointmentAgent,Save
+keywords: NSAppointmentAgent, Save
 so.topic: reference
 ---
 

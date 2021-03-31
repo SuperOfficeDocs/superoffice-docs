@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCsSessionKey_GetKey
-description: String NSCsSessionKey.GetKey()
+uid: crmscript_ref_NSCsSessionKey_GetKey
+title: String GetKey()
 intellisense: NSCsSessionKey.GetKey
 keywords: NSCsSessionKey, GetKey
 so.topic: reference

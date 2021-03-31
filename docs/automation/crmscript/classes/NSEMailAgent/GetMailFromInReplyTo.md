@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetMailFromInReplyTo
-description: EMailEntity GetMailFromInReplyTo(String messageId)
+uid: crmscript_ref_NSEMailAgent_GetMailFromInReplyTo
+title: EMailEntity GetMailFromInReplyTo(String messageId)
 intellisense: NSEMailAgent.GetMailFromInReplyTo
-keywords: NSEMailAgent,GetMailFromInReplyTo
+keywords: NSEMailAgent, GetMailFromInReplyTo
 so.topic: reference
 ---
 

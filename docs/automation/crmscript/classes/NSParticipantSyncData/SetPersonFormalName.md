@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetPersonFormalName
-description: NSParticipantSyncData.SetPersonFormalName(String personFormalName)
+uid: crmscript_ref_NSParticipantSyncData_SetPersonFormalName
+title: SetPersonFormalName(String personFormalName)
 intellisense: NSParticipantSyncData.SetPersonFormalName
 keywords: NSParticipantSyncData, GetPersonFormalName
 so.topic: reference

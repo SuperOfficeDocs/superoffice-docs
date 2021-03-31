@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicAgent_SetCanNotify
-description: NSChatTopicAgent.SetCanNotify(Bool canNotify)
+uid: crmscript_ref_NSChatTopicAgent_SetCanNotify
+title: SetCanNotify(Bool canNotify)
 intellisense: NSChatTopicAgent.SetCanNotify
 keywords: NSChatTopicAgent, GetCanNotify
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetUrl
-description: NSQuoteLine.SetUrl(String url)
+uid: crmscript_ref_NSQuoteLine_SetUrl
+title: SetUrl(String url)
 intellisense: NSQuoteLine.SetUrl
 keywords: NSQuoteLine, GetUrl
 so.topic: reference

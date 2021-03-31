@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_SetFolderId
-description: NSFormEntity.SetFolderId(Integer folderId)
+uid: crmscript_ref_NSFormEntity_SetFolderId
+title: SetFolderId(Integer folderId)
 intellisense: NSFormEntity.SetFolderId
 keywords: NSFormEntity, GetFolderId
 so.topic: reference

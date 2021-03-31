@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_ToggleActiveTimeZoneRow
-description: Void ToggleActiveTimeZoneRow(Integer id)
+uid: crmscript_ref_NSTimeZoneAgent_ToggleActiveTimeZoneRow
+title: Void ToggleActiveTimeZoneRow(Integer id)
 intellisense: NSTimeZoneAgent.ToggleActiveTimeZoneRow
-keywords: NSTimeZoneAgent,ToggleActiveTimeZoneRow
+keywords: NSTimeZoneAgent, ToggleActiveTimeZoneRow
 so.topic: reference
 ---
 

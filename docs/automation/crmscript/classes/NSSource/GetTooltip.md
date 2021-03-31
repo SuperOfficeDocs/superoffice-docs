@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSSource_GetTooltip
-description: String NSSource.GetTooltip()
+uid: crmscript_ref_NSSource_GetTooltip
+title: String GetTooltip()
 intellisense: NSSource.GetTooltip
 keywords: NSSource, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the list item.
+Get the tooltip description for the Source list item.
 
-**Returns:** String tooltip description.
+**Returns:** String Source tooltip description.
 

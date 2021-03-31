@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCurrencyEntity_SetTooltip
-description: NSCurrencyEntity.SetTooltip(String tooltip)
+uid: crmscript_ref_NSCurrencyEntity_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSCurrencyEntity.SetTooltip
 keywords: NSCurrencyEntity, GetTooltip
 so.topic: reference

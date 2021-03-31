@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessage_SetNumAttachments
-description: NSTicketMessage.SetNumAttachments(Integer numAttachments)
+uid: crmscript_ref_NSTicketMessage_SetNumAttachments
+title: SetNumAttachments(Integer numAttachments)
 intellisense: NSTicketMessage.SetNumAttachments
 keywords: NSTicketMessage, GetNumAttachments
 so.topic: reference

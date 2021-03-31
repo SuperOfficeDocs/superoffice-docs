@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredited
-description: NSCredited
+uid: crmscript_ref_NSCredited
+title: NSCredited
 intellisense: Void.NSCredited
 keywords: NSCredited
 so.topic: reference

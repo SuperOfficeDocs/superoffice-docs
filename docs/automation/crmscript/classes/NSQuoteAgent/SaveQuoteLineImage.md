@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_SaveQuoteLineImage
-description: Void SaveQuoteLineImage(Integer quoteLineId, Image image, Integer rank)
+uid: crmscript_ref_NSQuoteAgent_SaveQuoteLineImage
+title: Void SaveQuoteLineImage(Integer quoteLineId, Image image, Integer rank)
 intellisense: NSQuoteAgent.SaveQuoteLineImage
-keywords: NSQuoteAgent,SaveQuoteLineImage
+keywords: NSQuoteAgent, SaveQuoteLineImage
 so.topic: reference
 ---
 

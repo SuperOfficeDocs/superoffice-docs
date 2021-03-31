@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo_SetInterParenthesis
-description: NSArchiveRestrictionInfo.SetInterParenthesis(Integer interParenthesis)
+uid: crmscript_ref_NSArchiveRestrictionInfo_SetInterParenthesis
+title: SetInterParenthesis(Integer interParenthesis)
 intellisense: NSArchiveRestrictionInfo.SetInterParenthesis
 keywords: NSArchiveRestrictionInfo, GetInterParenthesis
 so.topic: reference

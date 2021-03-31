@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetCredentialTypes
-description: CredentialTypeArray GetCredentialTypes()
+uid: crmscript_ref_NSUserAgent_GetCredentialTypes
+title: CredentialTypeArray GetCredentialTypes()
 intellisense: NSUserAgent.GetCredentialTypes
-keywords: NSUserAgent,GetCredentialTypes
+keywords: NSUserAgent, GetCredentialTypes
 so.topic: reference
 ---
 

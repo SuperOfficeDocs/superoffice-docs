@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_GetCacheNames
-description: StringArray GetCacheNames()
+uid: crmscript_ref_NSDiagnosticsAgent_GetCacheNames
+title: StringArray GetCacheNames()
 intellisense: NSDiagnosticsAgent.GetCacheNames
-keywords: NSDiagnosticsAgent,GetCacheNames
+keywords: NSDiagnosticsAgent, GetCacheNames
 so.topic: reference
 ---
 

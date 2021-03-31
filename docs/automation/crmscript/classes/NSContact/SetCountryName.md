@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_SetCountryName
-description: NSContact.SetCountryName(String countryName)
+uid: crmscript_ref_NSContact_SetCountryName
+title: SetCountryName(String countryName)
 intellisense: NSContact.SetCountryName
 keywords: NSContact, GetCountryName
 so.topic: reference

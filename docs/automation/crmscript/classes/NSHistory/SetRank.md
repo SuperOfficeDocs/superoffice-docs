@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistory_SetRank
-description: NSHistory.SetRank(Integer rank)
+uid: crmscript_ref_NSHistory_SetRank
+title: SetRank(Integer rank)
 intellisense: NSHistory.SetRank
 keywords: NSHistory, GetRank
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveProjectTypeEntity
-description: NSProjectTypeEntity SaveProjectTypeEntity(NSProjectTypeEntity projectTypeEntity);
+uid: crmscript_ref_NSListAgent_SaveProjectTypeEntity
+title: NSProjectTypeEntity SaveProjectTypeEntity(NSProjectTypeEntity projectTypeEntity);
 intellisense: NSListAgent.SaveProjectTypeEntity
-keywords: NSListAgent,SaveProjectTypeEntity
+keywords: NSListAgent, SaveProjectTypeEntity
 so.topic: reference
 ---
 	  

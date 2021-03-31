@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialType_GetValueControl
-description: Integer NSCredentialType.GetValueControl()
+uid: crmscript_ref_NSCredentialType_GetValueControl
+title: Integer GetValueControl()
 intellisense: NSCredentialType.GetValueControl
 keywords: NSCredentialType, GetValueControl
 so.topic: reference

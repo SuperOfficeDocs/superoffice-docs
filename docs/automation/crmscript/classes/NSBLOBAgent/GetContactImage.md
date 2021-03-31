@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetContactImage
-description: Image GetContactImage(Integer contactId)
+uid: crmscript_ref_NSBLOBAgent_GetContactImage
+title: Image GetContactImage(Integer contactId)
 intellisense: NSBLOBAgent.GetContactImage
-keywords: NSBLOBAgent,GetContactImage
+keywords: NSBLOBAgent, GetContactImage
 so.topic: reference
 ---
 

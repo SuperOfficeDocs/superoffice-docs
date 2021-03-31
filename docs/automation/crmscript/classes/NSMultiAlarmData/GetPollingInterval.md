@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMultiAlarmData_GetPollingInterval
-description: Integer NSMultiAlarmData.GetPollingInterval()
+uid: crmscript_ref_NSMultiAlarmData_GetPollingInterval
+title: Integer GetPollingInterval()
 intellisense: NSMultiAlarmData.GetPollingInterval
 keywords: NSMultiAlarmData, GetPollingInterval
 so.topic: reference

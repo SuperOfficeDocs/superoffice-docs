@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetAppointmentEntity
-description: NSAppointmentEntity GetAppointmentEntity(Integer appointmentEntityId);
+uid: crmscript_ref_NSAppointmentAgent_GetAppointmentEntity
+title: NSAppointmentEntity GetAppointmentEntity(Integer appointmentEntityId);
 intellisense: NSAppointmentAgent.GetAppointmentEntity
-keywords: NSAppointmentAgent,GetAppointmentEntity
+keywords: NSAppointmentAgent, GetAppointmentEntity
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetCSAuthUrl
-description: String GetCSAuthUrl(String language, String programName, String action, String extraParameters)
+uid: crmscript_ref_NSConfigurationAgent_GetCSAuthUrl
+title: String GetCSAuthUrl(String language, String programName, String action, String extraParameters)
 intellisense: NSConfigurationAgent.GetCSAuthUrl
-keywords: NSConfigurationAgent,GetCSAuthUrl
+keywords: NSConfigurationAgent, GetCSAuthUrl
 so.topic: reference
 ---
 

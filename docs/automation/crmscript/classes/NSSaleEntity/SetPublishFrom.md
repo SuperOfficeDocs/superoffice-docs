@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetVisibleFor
-description: NSSaleEntity.SetVisibleFor(DateTime publishFrom)
-intellisense: NSSaleEntity.VisibleForArray
-keywords: NSSaleEntity, VisibleForArray
+uid: crmscript_ref_NSSaleEntity_SetPublishFrom
+title: SetPublishFrom(DateTime publishFrom)
+intellisense: NSSaleEntity.SetPublishFrom
+keywords: NSSaleEntity, SetPublishFrom
 so.topic: reference
 ---
 
-Set the publish from date.
+Set the publish from date on a SaleEntity.
 
 **Parameter:** 
  - **publishFrom** DateTime.

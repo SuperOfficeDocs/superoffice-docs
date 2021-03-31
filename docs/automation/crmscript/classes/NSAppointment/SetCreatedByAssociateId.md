@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetCreatedByAssociateId
-description: NSAppointment.SetCreatedByAssociateId(Integer createdByAssociateId)
+uid: crmscript_ref_NSAppointment_SetCreatedByAssociateId
+title: SetCreatedByAssociateId(Integer createdByAssociateId)
 intellisense: NSAppointment.SetCreatedByAssociateId
 keywords: NSAppointment, GetCreatedByAssociateId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetBookingType
-description: Integer NSAppointmentEntity.GetBookingType()
+uid: crmscript_ref_NSAppointmentEntity_GetBookingType
+title: Integer GetBookingType()
 intellisense: NSAppointmentEntity.GetBookingType
 keywords: NSAppointmentEntity, GetBookingType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetFirstMessage
-description: String NSChatSessionEntity.GetFirstMessage()
+uid: crmscript_ref_NSChatSessionEntity_GetFirstMessage
+title: String GetFirstMessage()
 intellisense: NSChatSessionEntity.GetFirstMessage
 keywords: NSChatSessionEntity, GetFirstMessage
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetCsCgiUrlInternal
-description: String GetCsCgiUrlInternal()
+uid: crmscript_ref_NSConfigurationAgent_GetCsCgiUrlInternal
+title: String GetCsCgiUrlInternal()
 intellisense: NSConfigurationAgent.GetCsCgiUrlInternal
-keywords: NSConfigurationAgent,GetCsCgiUrlInternal
+keywords: NSConfigurationAgent, GetCsCgiUrlInternal
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_GetTooltip
-description: String NSTaskListItem.GetTooltip()
+uid: crmscript_ref_NSTaskListItem_GetTooltip
+title: String GetTooltip()
 intellisense: NSTaskListItem.GetTooltip
 keywords: NSTaskListItem, GetTooltip
 so.topic: reference

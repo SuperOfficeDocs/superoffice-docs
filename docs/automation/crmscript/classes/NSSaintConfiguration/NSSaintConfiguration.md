@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaintConfiguration
-description: NSSaintConfiguration
+uid: crmscript_ref_NSSaintConfiguration
+title: NSSaintConfiguration
 intellisense: Void.NSSaintConfiguration
 keywords: NSSaintConfiguration
 so.topic: reference

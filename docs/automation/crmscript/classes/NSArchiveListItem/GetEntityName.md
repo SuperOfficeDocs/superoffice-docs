@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListItem_GetEntityName
-description: String NSArchiveListItem.GetEntityName()
+uid: crmscript_ref_NSArchiveListItem_GetEntityName
+title: String GetEntityName()
 intellisense: NSArchiveListItem.GetEntityName
 keywords: NSArchiveListItem, GetEntityName
 so.topic: reference

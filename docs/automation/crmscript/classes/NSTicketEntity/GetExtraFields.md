@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetExtraFields
-description: Map NSTicketEntity.GetExtraFields()
+uid: crmscript_ref_NSTicketEntity_GetExtraFields
+title: Map GetExtraFields()
 intellisense: NSTicketEntity.GetExtraFields
 keywords: NSTicketEntity, GetExtraFields
 so.topic: reference
 ---
 
-Get the extra fields as a map.
+Get the extra fields on TicketEntity as a map.
 
 **Returns:** Map containing extra field values by field name.
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CreateNewEntry
-description: Integer CreateNewEntry(DuplicateEntry duplicate)
+uid: crmscript_ref_NSSelectionAgent_CreateNewEntry
+title: Integer CreateNewEntry(DuplicateEntry duplicate)
 intellisense: NSSelectionAgent.CreateNewEntry
-keywords: NSSelectionAgent,CreateNewEntry
+keywords: NSSelectionAgent, CreateNewEntry
 so.topic: reference
 ---
 

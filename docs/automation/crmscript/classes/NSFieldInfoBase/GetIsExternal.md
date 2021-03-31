@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_GetIsExternal
-description: Bool NSFieldInfoBase.GetIsExternal()
+uid: crmscript_ref_NSFieldInfoBase_GetIsExternal
+title: Bool GetIsExternal()
 intellisense: NSFieldInfoBase.GetIsExternal
 keywords: NSFieldInfoBase, GetIsExternal
 so.topic: reference

@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSCredited_SetValue
-description: NSCredited.SetValue(String value)
+uid: crmscript_ref_NSCredited_SetValue
+title: SetValue(String value)
 intellisense: NSCredited.SetValue
 keywords: NSCredited, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the Credited item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String Credited name.
 

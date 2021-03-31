@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorSummary_GetDefaults
-description: String NSErpSyncActorSummary.GetDefaults()
+uid: crmscript_ref_NSErpSyncActorSummary_GetDefaults
+title: String GetDefaults()
 intellisense: NSErpSyncActorSummary.GetDefaults
 keywords: NSErpSyncActorSummary, GetDefaults
 so.topic: reference

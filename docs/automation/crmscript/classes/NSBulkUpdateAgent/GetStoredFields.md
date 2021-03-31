@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBulkUpdateAgent_GetStoredFields
-description: FieldValueInfoArray GetStoredFields(String tablename, String context)
+uid: crmscript_ref_NSBulkUpdateAgent_GetStoredFields
+title: FieldValueInfoArray GetStoredFields(String tablename, String context)
 intellisense: NSBulkUpdateAgent.GetStoredFields
-keywords: NSBulkUpdateAgent,GetStoredFields
+keywords: NSBulkUpdateAgent, GetStoredFields
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetCode
-description: String NSProduct.GetCode()
+uid: crmscript_ref_NSProduct_GetCode
+title: String GetCode()
 intellisense: NSProduct.GetCode
 keywords: NSProduct, GetCode
 so.topic: reference

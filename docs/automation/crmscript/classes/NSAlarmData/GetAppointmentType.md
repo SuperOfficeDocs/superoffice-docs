@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetAppointmentType
-description: Integer NSAlarmData.GetAppointmentType()
+uid: crmscript_ref_NSAlarmData_GetAppointmentType
+title: Integer GetAppointmentType()
 intellisense: NSAlarmData.GetAppointmentType
 keywords: NSAlarmData, GetAppointmentType
 so.topic: reference

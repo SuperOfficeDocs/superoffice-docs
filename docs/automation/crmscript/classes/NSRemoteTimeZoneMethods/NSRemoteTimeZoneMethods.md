@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRemoteTimeZoneMethods
-description: NSRemoteTimeZoneMethods
+uid: crmscript_ref_NSRemoteTimeZoneMethods
+title: NSRemoteTimeZoneMethods
 intellisense: Void.NSRemoteTimeZoneMethods
 keywords: NSRemoteTimeZoneMethods
 so.topic: reference

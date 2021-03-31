@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_GetIconHint
-description: String NSFieldValueInfo.GetIconHint()
+uid: crmscript_ref_NSFieldValueInfo_GetIconHint
+title: String GetIconHint()
 intellisense: NSFieldValueInfo.GetIconHint
 keywords: NSFieldValueInfo, GetIconHint
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_SetUpdatedAssociate
-description: NSWebhook.SetUpdatedAssociate(Associate updatedAssociate)
+uid: crmscript_ref_NSWebhook_SetUpdatedAssociate
+title: SetUpdatedAssociate(Associate updatedAssociate)
 intellisense: NSWebhook.SetUpdatedAssociate
 keywords: NSWebhook, GetUpdatedAssociate
 so.topic: reference

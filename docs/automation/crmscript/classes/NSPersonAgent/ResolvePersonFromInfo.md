@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_ResolvePersonFromInfo
-description: ResolvedPerson ResolvePersonFromInfo(Integer contactId, String personName, StringArray phoneNumbers, StringArray emails)
+uid: crmscript_ref_NSPersonAgent_ResolvePersonFromInfo
+title: ResolvedPerson ResolvePersonFromInfo(Integer contactId, String personName, StringArray phoneNumbers, StringArray emails)
 intellisense: NSPersonAgent.ResolvePersonFromInfo
-keywords: NSPersonAgent,ResolvePersonFromInfo
+keywords: NSPersonAgent, ResolvePersonFromInfo
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_SetDynamicSelectionCriteria3
-description: ArchiveRestrictionInfoArray SetDynamicSelectionCriteria3(Integer selectionId, ArchiveRestrictionInfoArray criteria, String filter)
+uid: crmscript_ref_NSSelectionAgent_SetDynamicSelectionCriteria3
+title: ArchiveRestrictionInfoArray SetDynamicSelectionCriteria3(Integer selectionId, ArchiveRestrictionInfoArray criteria, String filter)
 intellisense: NSSelectionAgent.SetDynamicSelectionCriteria3
-keywords: NSSelectionAgent,SetDynamicSelectionCriteria3
+keywords: NSSelectionAgent, SetDynamicSelectionCriteria3
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatMessage_GetMessage
-description: String NSChatMessage.GetMessage()
+uid: crmscript_ref_NSChatMessage_GetMessage
+title: String GetMessage()
 intellisense: NSChatMessage.GetMessage
 keywords: NSChatMessage, GetMessage
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_GetShowInGui
-description: Bool NSErpSyncFieldMapping.GetShowInGui()
+uid: crmscript_ref_NSErpSyncFieldMapping_GetShowInGui
+title: Bool GetShowInGui()
 intellisense: NSErpSyncFieldMapping.GetShowInGui
 keywords: NSErpSyncFieldMapping, GetShowInGui
 so.topic: reference

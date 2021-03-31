@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialType_GetDescription
-description: String NSCredentialType.GetDescription()
+uid: crmscript_ref_NSCredentialType_GetDescription
+title: String GetDescription()
 intellisense: NSCredentialType.GetDescription
 keywords: NSCredentialType, GetDescription
 so.topic: reference

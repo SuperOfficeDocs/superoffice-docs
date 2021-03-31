@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_GetDataRights
-description: DataRights NSRoleEntity.GetDataRights()
+uid: crmscript_ref_NSRoleEntity_GetDataRights
+title: DataRights GetDataRights()
 intellisense: NSRoleEntity.GetDataRights
 keywords: NSRoleEntity, GetDataRights
 so.topic: reference

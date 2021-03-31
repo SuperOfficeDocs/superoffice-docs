@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_DeleteListEntityByName
-description: Void DeleteListEntityByName(String name)
+uid: crmscript_ref_NSListAgent_DeleteListEntityByName
+title: Void DeleteListEntityByName(String name)
 intellisense: NSListAgent.DeleteListEntityByName
-keywords: NSListAgent,DeleteListEntityByName
+keywords: NSListAgent, DeleteListEntityByName
 so.topic: reference
 ---
 

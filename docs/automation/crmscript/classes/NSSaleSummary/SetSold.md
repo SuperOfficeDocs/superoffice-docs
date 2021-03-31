@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetSold
-description: NSSaleSummary.SetSold(Integer sold)
+uid: crmscript_ref_NSSaleSummary_SetSold
+title: SetSold(Integer sold)
 intellisense: NSSaleSummary.SetSold
 keywords: NSSaleSummary, GetSold
 so.topic: reference

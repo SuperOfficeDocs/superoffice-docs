@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionButtonState
-description: NSQuoteVersionButtonState
+uid: crmscript_ref_NSQuoteVersionButtonState
+title: NSQuoteVersionButtonState
 intellisense: Void.NSQuoteVersionButtonState
 keywords: NSQuoteVersionButtonState
 so.topic: reference

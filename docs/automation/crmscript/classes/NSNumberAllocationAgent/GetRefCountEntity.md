@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSNumberAllocationAgent_GetRefCountEntity
-description: NSRefCountEntity GetRefCountEntity(Integer refCountEntityId);
+uid: crmscript_ref_NSNumberAllocationAgent_GetRefCountEntity
+title: NSRefCountEntity GetRefCountEntity(Integer refCountEntityId);
 intellisense: NSNumberAllocationAgent.GetRefCountEntity
-keywords: NSNumberAllocationAgent,GetRefCountEntity
+keywords: NSNumberAllocationAgent, GetRefCountEntity
 so.topic: reference
 ---
 

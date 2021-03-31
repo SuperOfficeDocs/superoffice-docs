@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetTicketCategories
-description: MDOListItemArray NSUser.GetTicketCategories()
+uid: crmscript_ref_NSUser_GetTicketCategories
+title: MDOListItemArray GetTicketCategories()
 intellisense: NSUser.GetTicketCategories
 keywords: NSUser, GetTicketCategories
 so.topic: reference

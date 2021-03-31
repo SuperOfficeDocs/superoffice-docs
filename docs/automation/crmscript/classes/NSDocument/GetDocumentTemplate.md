@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_GetDocumentTemplate
-description: String NSDocument.GetDocumentTemplate()
+uid: crmscript_ref_NSDocument_GetDocumentTemplate
+title: String GetDocumentTemplate()
 intellisense: NSDocument.GetDocumentTemplate
 keywords: NSDocument, GetDocumentTemplate
 so.topic: reference

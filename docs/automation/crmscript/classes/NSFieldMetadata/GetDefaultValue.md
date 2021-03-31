@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_GetDefaultValue
-description: String NSFieldMetadata.GetDefaultValue()
+uid: crmscript_ref_NSFieldMetadata_GetDefaultValue
+title: String GetDefaultValue()
 intellisense: NSFieldMetadata.GetDefaultValue
 keywords: NSFieldMetadata, GetDefaultValue
 so.topic: reference

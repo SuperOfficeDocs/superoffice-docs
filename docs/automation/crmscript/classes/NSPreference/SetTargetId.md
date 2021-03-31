@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_SetTargetId
-description: NSPreference.SetTargetId(Integer targetId)
+uid: crmscript_ref_NSPreference_SetTargetId
+title: SetTargetId(Integer targetId)
 intellisense: NSPreference.SetTargetId
 keywords: NSPreference, GetTargetId
 so.topic: reference

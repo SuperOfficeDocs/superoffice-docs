@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetProject
-description: NSChatSessionEntity.SetProject(Project project)
+uid: crmscript_ref_NSChatSessionEntity_SetProject
+title: SetProject(Project project)
 intellisense: NSChatSessionEntity.SetProject
 keywords: NSChatSessionEntity, GetProject
 so.topic: reference

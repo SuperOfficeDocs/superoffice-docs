@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetSource
-description: NSPersonEntity.SetSource(Integer source)
+uid: crmscript_ref_NSPersonEntity_SetSource
+title: SetSource(Integer source)
 intellisense: NSPersonEntity.SetSource
 keywords: NSPersonEntity, GetSource
 so.topic: reference

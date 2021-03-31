@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetSource
-description: NSContactEntity.SetSource(Integer source)
+uid: crmscript_ref_NSContactEntity_SetSource
+title: SetSource(Integer source)
 intellisense: NSContactEntity.SetSource
 keywords: NSContactEntity, GetSource
 so.topic: reference

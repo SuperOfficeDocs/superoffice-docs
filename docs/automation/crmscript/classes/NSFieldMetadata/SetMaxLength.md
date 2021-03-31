@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_SetMaxLength
-description: NSFieldMetadata.SetMaxLength(Integer maxLength)
+uid: crmscript_ref_NSFieldMetadata_SetMaxLength
+title: SetMaxLength(Integer maxLength)
 intellisense: NSFieldMetadata.SetMaxLength
 keywords: NSFieldMetadata, GetMaxLength
 so.topic: reference

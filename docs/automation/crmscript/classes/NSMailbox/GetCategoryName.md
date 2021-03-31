@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailbox_GetCategoryName
-description: String NSMailbox.GetCategoryName()
+uid: crmscript_ref_NSMailbox_GetCategoryName
+title: String GetCategoryName()
 intellisense: NSMailbox.GetCategoryName
 keywords: NSMailbox, GetCategoryName
 so.topic: reference

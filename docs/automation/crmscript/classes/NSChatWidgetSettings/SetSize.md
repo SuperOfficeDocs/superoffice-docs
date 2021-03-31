@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetSize
-description: NSChatWidgetSettings.SetSize(Integer size)
+uid: crmscript_ref_NSChatWidgetSettings_SetSize
+title: SetSize(Integer size)
 intellisense: NSChatWidgetSettings.SetSize
 keywords: NSChatWidgetSettings, GetSize
 so.topic: reference

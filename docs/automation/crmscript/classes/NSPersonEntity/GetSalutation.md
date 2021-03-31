@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetSalutation
-description: String NSPersonEntity.GetSalutation()
+uid: crmscript_ref_NSPersonEntity_GetSalutation
+title: String GetSalutation()
 intellisense: NSPersonEntity.GetSalutation
 keywords: NSPersonEntity, GetSalutation
 so.topic: reference

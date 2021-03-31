@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SetTemplateStream
-description: Void SetTemplateStream(String filename, Bool personal, Stream stream)
+uid: crmscript_ref_NSDocumentAgent_SetTemplateStream
+title: Void SetTemplateStream(String filename, Bool personal, Stream stream)
 intellisense: NSDocumentAgent.SetTemplateStream
-keywords: NSDocumentAgent,SetTemplateStream
+keywords: NSDocumentAgent, SetTemplateStream
 so.topic: reference
 ---
 

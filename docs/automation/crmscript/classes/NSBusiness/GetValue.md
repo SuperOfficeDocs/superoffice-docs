@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSBusiness_GetValue
-description: String NSBusiness.GetValue()
+uid: crmscript_ref_NSBusiness_GetValue
+title: String GetValue()
 intellisense: NSBusiness.GetValue
 keywords: NSBusiness, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the Business.
 
-**Returns:** String name
+**Returns:** String Business name.
 

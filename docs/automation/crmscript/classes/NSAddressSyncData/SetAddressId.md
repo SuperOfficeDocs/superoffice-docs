@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAddressSyncData_SetAddressId
-description: NSAddressSyncData.SetAddressId(Integer addressId)
+uid: crmscript_ref_NSAddressSyncData_SetAddressId
+title: SetAddressId(Integer addressId)
 intellisense: NSAddressSyncData.SetAddressId
 keywords: NSAddressSyncData, GetAddressId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_GetAll
-description: PreferenceDescriptionArray GetAll()
+uid: crmscript_ref_NSPreferenceAgent_GetAll
+title: PreferenceDescriptionArray GetAll()
 intellisense: NSPreferenceAgent.GetAll
-keywords: NSPreferenceAgent,GetAll
+keywords: NSPreferenceAgent, GetAll
 so.topic: reference
 ---
 

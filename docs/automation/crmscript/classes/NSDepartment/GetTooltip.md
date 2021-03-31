@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSDepartment_GetTooltip
-description: String NSDepartment.GetTooltip()
+uid: crmscript_ref_NSDepartment_GetTooltip
+title: String GetTooltip()
 intellisense: NSDepartment.GetTooltip
 keywords: NSDepartment, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the list item.
+Get the tooltip description for the Department list item.
 
-**Returns:** String tooltip description.
+**Returns:** String Department tooltip description.
 

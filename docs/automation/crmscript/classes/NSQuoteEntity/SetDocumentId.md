@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_SetDocumentId
-description: NSQuoteEntity.SetDocumentId(Integer documentId)
+uid: crmscript_ref_NSQuoteEntity_SetDocumentId
+title: SetDocumentId(Integer documentId)
 intellisense: NSQuoteEntity.SetDocumentId
 keywords: NSQuoteEntity, GetDocumentId
 so.topic: reference

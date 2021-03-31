@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SubstituteMergeDocumentTemplateVariablesEx
-description: Stream SubstituteMergeDocumentTemplateVariablesEx(Integer mergeDocumentId, Integer contactId, Integer personId, Integer projectId, Integer selectionId, Integer appointmentId, Integer documentId, Integer saleId, StringArray customTags, StringArray customValues)
+uid: crmscript_ref_NSDocumentAgent_SubstituteMergeDocumentTemplateVariablesEx
+title: Stream SubstituteMergeDocumentTemplateVariablesEx(Integer mergeDocumentId, Integer contactId, Integer personId, Integer projectId, Integer selectionId, Integer appointmentId, Integer documentId, Integer saleId, StringArray customTags, StringArray customValues)
 intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx
-keywords: NSDocumentAgent,SubstituteMergeDocumentTemplateVariablesEx
+keywords: NSDocumentAgent, SubstituteMergeDocumentTemplateVariablesEx
 so.topic: reference
 ---
 

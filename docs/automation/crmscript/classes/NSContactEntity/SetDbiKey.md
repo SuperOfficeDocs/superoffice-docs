@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetDbiKey
-description: NSContactEntity.SetDbiKey(String dbiKey)
+uid: crmscript_ref_NSContactEntity_SetDbiKey
+title: SetDbiKey(String dbiKey)
 intellisense: NSContactEntity.SetDbiKey
 keywords: NSContactEntity, GetDbiKey
 so.topic: reference

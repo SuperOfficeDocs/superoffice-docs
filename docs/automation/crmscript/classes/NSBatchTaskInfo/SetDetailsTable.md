@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetDetailsTable
-description: NSBatchTaskInfo.SetDetailsTable(Integer detailsTable)
+uid: crmscript_ref_NSBatchTaskInfo_SetDetailsTable
+title: SetDetailsTable(Integer detailsTable)
 intellisense: NSBatchTaskInfo.SetDetailsTable
 keywords: NSBatchTaskInfo, GetDetailsTable
 so.topic: reference

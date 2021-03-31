@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetHasGuide
-description: NSSaleTypeEntity.SetHasGuide(Bool hasGuide)
+uid: crmscript_ref_NSSaleTypeEntity_SetHasGuide
+title: SetHasGuide(Bool hasGuide)
 intellisense: NSSaleTypeEntity.SetHasGuide
 keywords: NSSaleTypeEntity, GetHasGuide
 so.topic: reference

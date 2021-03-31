@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_SetTemplateVariableName
-description: NSFieldInfoBase.SetTemplateVariableName(String templateVariableName)
+uid: crmscript_ref_NSFieldInfoBase_SetTemplateVariableName
+title: SetTemplateVariableName(String templateVariableName)
 intellisense: NSFieldInfoBase.SetTemplateVariableName
 keywords: NSFieldInfoBase, GetTemplateVariableName
 so.topic: reference

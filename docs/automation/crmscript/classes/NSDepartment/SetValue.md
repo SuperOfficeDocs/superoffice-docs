@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSDepartment_SetValue
-description: NSDepartment.SetValue(String value)
+uid: crmscript_ref_NSDepartment_SetValue
+title: SetValue(String value)
 intellisense: NSDepartment.SetValue
 keywords: NSDepartment, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the Department item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String Department name.
 

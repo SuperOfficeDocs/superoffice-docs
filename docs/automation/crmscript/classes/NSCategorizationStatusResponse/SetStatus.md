@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategorizationStatusResponse_SetStatus
-description: NSCategorizationStatusResponse.SetStatus(String status)
+uid: crmscript_ref_NSCategorizationStatusResponse_SetStatus
+title: SetStatus(String status)
 intellisense: NSCategorizationStatusResponse.SetStatus
 keywords: NSCategorizationStatusResponse, GetStatus
 so.topic: reference

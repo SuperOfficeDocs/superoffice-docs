@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRelationDefinitionEntity_GetName
-description: String NSRelationDefinitionEntity.GetName()
+uid: crmscript_ref_NSRelationDefinitionEntity_GetName
+title: String GetName()
 intellisense: NSRelationDefinitionEntity.GetName
 keywords: NSRelationDefinitionEntity, GetName
 so.topic: reference

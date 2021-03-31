@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetFlags
-description: ChatSessionFlags NSChatSessionEntity.GetFlags()
+uid: crmscript_ref_NSChatSessionEntity_GetFlags
+title: ChatSessionFlags GetFlags()
 intellisense: NSChatSessionEntity.GetFlags
 keywords: NSChatSessionEntity, GetFlags
 so.topic: reference

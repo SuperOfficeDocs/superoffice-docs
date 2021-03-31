@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_GetShipmentDescription
-description: String NSPreviewMailing.GetShipmentDescription()
+uid: crmscript_ref_NSPreviewMailing_GetShipmentDescription
+title: String GetShipmentDescription()
 intellisense: NSPreviewMailing.GetShipmentDescription
 keywords: NSPreviewMailing, GetShipmentDescription
 so.topic: reference

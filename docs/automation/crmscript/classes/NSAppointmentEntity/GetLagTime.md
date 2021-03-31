@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetLagTime
-description: TimeSpan NSAppointmentEntity.GetLagTime()
+uid: crmscript_ref_NSAppointmentEntity_GetLagTime
+title: TimeSpan GetLagTime()
 intellisense: NSAppointmentEntity.GetLagTime
 keywords: NSAppointmentEntity, GetLagTime
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetNumMatches
-description: Integer NSStatusMonitor.GetNumMatches()
+uid: crmscript_ref_NSStatusMonitor_GetNumMatches
+title: Integer GetNumMatches()
 intellisense: NSStatusMonitor.GetNumMatches
 keywords: NSStatusMonitor, GetNumMatches
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_CreateDefaultSaleEntity
-description: NSSaleEntity CreateDefaultSaleEntity()
+uid: crmscript_ref_NSSaleAgent_CreateDefaultSaleEntity
+title: NSSaleEntity CreateDefaultSaleEntity()
 intellisense: NSSaleAgent.CreateDefaultSaleEntity
-keywords: NSSaleAgent,CreateDefaultSaleEntity
+keywords: NSSaleAgent, CreateDefaultSaleEntity
 so.topic: reference
 ---
 	  

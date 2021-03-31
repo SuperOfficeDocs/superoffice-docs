@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetConnectionConfigFields
-description: StringDictionary GetConnectionConfigFields(Integer quoteConnectionId)
+uid: crmscript_ref_NSQuoteAgent_GetConnectionConfigFields
+title: StringDictionary GetConnectionConfigFields(Integer quoteConnectionId)
 intellisense: NSQuoteAgent.GetConnectionConfigFields
-keywords: NSQuoteAgent,GetConnectionConfigFields
+keywords: NSQuoteAgent, GetConnectionConfigFields
 so.topic: reference
 ---
 

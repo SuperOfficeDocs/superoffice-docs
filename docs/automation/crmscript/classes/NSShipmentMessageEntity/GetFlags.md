@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetFlags
-description: Integer NSShipmentMessageEntity.GetFlags()
+uid: crmscript_ref_NSShipmentMessageEntity_GetFlags
+title: Integer GetFlags()
 intellisense: NSShipmentMessageEntity.GetFlags
 keywords: NSShipmentMessageEntity, GetFlags
 so.topic: reference

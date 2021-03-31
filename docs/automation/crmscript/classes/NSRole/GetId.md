@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSRole_GetId
-description: Integer NSRole.GetId()
+uid: crmscript_ref_NSRole_GetId
+title: Integer GetId()
 intellisense: NSRole.GetId
 keywords: NSRole, GetId
 so.topic: reference
 ---
 
-Get the primary key (id)
+Get the primary key (id) for the Role
 
-**Returns:** Integer Id
+**Returns:** Integer Role id.
 

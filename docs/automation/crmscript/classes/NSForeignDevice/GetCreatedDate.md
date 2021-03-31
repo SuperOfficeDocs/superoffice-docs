@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDevice_GetCreatedDate
-description: DateTime NSForeignDevice.GetCreatedDate()
+uid: crmscript_ref_NSForeignDevice_GetCreatedDate
+title: DateTime GetCreatedDate()
 intellisense: NSForeignDevice.GetCreatedDate
 keywords: NSForeignDevice, GetCreatedDate
 so.topic: reference

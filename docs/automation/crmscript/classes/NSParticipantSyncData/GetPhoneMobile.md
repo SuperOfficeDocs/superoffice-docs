@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_GetPhoneMobile
-description: StringArray NSParticipantSyncData.GetPhoneMobile()
+uid: crmscript_ref_NSParticipantSyncData_GetPhoneMobile
+title: StringArray GetPhoneMobile()
 intellisense: NSParticipantSyncData.GetPhoneMobile
 keywords: NSParticipantSyncData, GetPhoneMobile
 so.topic: reference

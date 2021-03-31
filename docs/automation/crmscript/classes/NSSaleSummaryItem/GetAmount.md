@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummaryItem_GetAmount
-description: Float NSSaleSummaryItem.GetAmount()
+uid: crmscript_ref_NSSaleSummaryItem_GetAmount
+title: Float GetAmount()
 intellisense: NSSaleSummaryItem.GetAmount
 keywords: NSSaleSummaryItem, GetAmount
 so.topic: reference

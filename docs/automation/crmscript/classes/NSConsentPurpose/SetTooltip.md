@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_SetTooltip
-description: NSConsentPurpose.SetTooltip(String tooltip)
+uid: crmscript_ref_NSConsentPurpose_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSConsentPurpose.SetTooltip
 keywords: NSConsentPurpose, GetTooltip
 so.topic: reference

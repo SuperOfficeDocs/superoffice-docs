@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue_SetPromptUser
-description: NSErpSyncDefaultValue.SetPromptUser(Bool promptUser)
+uid: crmscript_ref_NSErpSyncDefaultValue_SetPromptUser
+title: SetPromptUser(Bool promptUser)
 intellisense: NSErpSyncDefaultValue.SetPromptUser
 keywords: NSErpSyncDefaultValue, GetPromptUser
 so.topic: reference

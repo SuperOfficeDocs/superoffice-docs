@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_SetBlockExecution
-description: NSEventData.SetBlockExecution(Bool blockExecution)
+uid: crmscript_ref_NSEventData_SetBlockExecution
+title: SetBlockExecution(Bool blockExecution)
 intellisense: NSEventData.SetBlockExecution
 keywords: NSEventData, GetBlockExecution
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetSale
-description: NSChatSessionEntity.SetSale(Sale sale)
+uid: crmscript_ref_NSChatSessionEntity_SetSale
+title: SetSale(Sale sale)
 intellisense: NSChatSessionEntity.SetSale
 keywords: NSChatSessionEntity, GetSale
 so.topic: reference

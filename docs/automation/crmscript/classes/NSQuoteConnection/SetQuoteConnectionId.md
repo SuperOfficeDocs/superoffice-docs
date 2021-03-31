@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_SetQuoteConnectionId
-description: NSQuoteConnection.SetQuoteConnectionId(Integer quoteConnectionId)
+uid: crmscript_ref_NSQuoteConnection_SetQuoteConnectionId
+title: SetQuoteConnectionId(Integer quoteConnectionId)
 intellisense: NSQuoteConnection.SetQuoteConnectionId
 keywords: NSQuoteConnection, GetQuoteConnectionId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStageEntity_GetSaleStageId
-description: Integer NSSaleStageEntity.GetSaleStageId()
+uid: crmscript_ref_NSSaleStageEntity_GetSaleStageId
+title: Integer GetSaleStageId()
 intellisense: NSSaleStageEntity.GetSaleStageId
 keywords: NSSaleStageEntity, GetSaleStageId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetPersonFirstname
-description: NSTicket.SetPersonFirstname(String personFirstname)
+uid: crmscript_ref_NSTicket_SetPersonFirstname
+title: SetPersonFirstname(String personFirstname)
 intellisense: NSTicket.SetPersonFirstname
 keywords: NSTicket, GetPersonFirstname
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceLayoutEntity_GetInstanceLayout
-description: String NSAudienceLayoutEntity.GetInstanceLayout()
+uid: crmscript_ref_NSAudienceLayoutEntity_GetInstanceLayout
+title: String GetInstanceLayout()
 intellisense: NSAudienceLayoutEntity.GetInstanceLayout
 keywords: NSAudienceLayoutEntity, GetInstanceLayout
 so.topic: reference

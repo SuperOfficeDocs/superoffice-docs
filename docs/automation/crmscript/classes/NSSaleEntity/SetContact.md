@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetContact
-description: NSSaleEntity.SetContact(Contact contact)
+uid: crmscript_ref_NSSaleEntity_SetContact
+title: SetContact(Contact contact)
 intellisense: NSSaleEntity.SetContact
 keywords: NSSaleEntity, GetContact
 so.topic: reference

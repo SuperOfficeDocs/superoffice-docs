@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetProductFamily
-description: NSProductFamily GetProductFamily(Integer productFamilyId);
+uid: crmscript_ref_NSListAgent_GetProductFamily
+title: NSProductFamily GetProductFamily(Integer productFamilyId);
 intellisense: NSListAgent.GetProductFamily
-keywords: NSListAgent,GetProductFamily
+keywords: NSListAgent, GetProductFamily
 so.topic: reference
 ---
 

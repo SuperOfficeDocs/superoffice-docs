@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity_SetDestinationPersonId
-description: NSContactRelationEntity.SetDestinationPersonId(Integer destinationPersonId)
+uid: crmscript_ref_NSContactRelationEntity_SetDestinationPersonId
+title: SetDestinationPersonId(Integer destinationPersonId)
 intellisense: NSContactRelationEntity.SetDestinationPersonId
 keywords: NSContactRelationEntity, GetDestinationPersonId
 so.topic: reference

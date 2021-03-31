@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_GetReadOnly
-description: Bool NSRefCountEntity.GetReadOnly()
+uid: crmscript_ref_NSRefCountEntity_GetReadOnly
+title: Bool GetReadOnly()
 intellisense: NSRefCountEntity.GetReadOnly
 keywords: NSRefCountEntity, GetReadOnly
 so.topic: reference

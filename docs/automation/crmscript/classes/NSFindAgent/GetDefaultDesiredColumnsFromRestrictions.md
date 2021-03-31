@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_GetDefaultDesiredColumnsFromRestrictions
-description: ArchiveColumnInfoArray GetDefaultDesiredColumnsFromRestrictions(String providerName, ArchiveRestrictionInfoArray restrictions)
+uid: crmscript_ref_NSFindAgent_GetDefaultDesiredColumnsFromRestrictions
+title: ArchiveColumnInfoArray GetDefaultDesiredColumnsFromRestrictions(String providerName, ArchiveRestrictionInfoArray restrictions)
 intellisense: NSFindAgent.GetDefaultDesiredColumnsFromRestrictions
-keywords: NSFindAgent,GetDefaultDesiredColumnsFromRestrictions
+keywords: NSFindAgent, GetDefaultDesiredColumnsFromRestrictions
 so.topic: reference
 ---
 

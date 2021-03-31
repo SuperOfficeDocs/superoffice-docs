@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_SetDocumentId
-description: NSTemplateVariablesParameters.SetDocumentId(Integer documentId)
+uid: crmscript_ref_NSTemplateVariablesParameters_SetDocumentId
+title: SetDocumentId(Integer documentId)
 intellisense: NSTemplateVariablesParameters.SetDocumentId
 keywords: NSTemplateVariablesParameters, GetDocumentId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceLayoutEntity_SetCreatedDate
-description: NSAudienceLayoutEntity.SetCreatedDate(DateTime createdDate)
+uid: crmscript_ref_NSAudienceLayoutEntity_SetCreatedDate
+title: SetCreatedDate(DateTime createdDate)
 intellisense: NSAudienceLayoutEntity.SetCreatedDate
 keywords: NSAudienceLayoutEntity, GetCreatedDate
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_SetUpperY
-description: NSWindowPosSize.SetUpperY(Integer upperY)
+uid: crmscript_ref_NSWindowPosSize_SetUpperY
+title: SetUpperY(Integer upperY)
 intellisense: NSWindowPosSize.SetUpperY
 keywords: NSWindowPosSize, GetUpperY
 so.topic: reference

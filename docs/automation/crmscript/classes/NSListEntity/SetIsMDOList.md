@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListEntity_SetIsMDOList
-description: NSListEntity.SetIsMDOList(Bool isMDOList)
+uid: crmscript_ref_NSListEntity_SetIsMDOList
+title: SetIsMDOList(Bool isMDOList)
 intellisense: NSListEntity.SetIsMDOList
 keywords: NSListEntity, GetIsMDOList
 so.topic: reference

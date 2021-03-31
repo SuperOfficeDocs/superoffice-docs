@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetNumNeedUpdate
-description: Integer NSStatusMonitor.GetNumNeedUpdate()
+uid: crmscript_ref_NSStatusMonitor_GetNumNeedUpdate
+title: Integer GetNumNeedUpdate()
 intellisense: NSStatusMonitor.GetNumNeedUpdate
 keywords: NSStatusMonitor, GetNumNeedUpdate
 so.topic: reference

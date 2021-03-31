@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetPostFormHeader
-description: NSChatWidgetSettings.SetPostFormHeader(String postFormHeader)
+uid: crmscript_ref_NSChatWidgetSettings_SetPostFormHeader
+title: SetPostFormHeader(String postFormHeader)
 intellisense: NSChatWidgetSettings.SetPostFormHeader
 keywords: NSChatWidgetSettings, GetPostFormHeader
 so.topic: reference

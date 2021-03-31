@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginResponse_SetUserExplanation
-description: NSPluginResponse.SetUserExplanation(String userExplanation)
+uid: crmscript_ref_NSPluginResponse_SetUserExplanation
+title: SetUserExplanation(String userExplanation)
 intellisense: NSPluginResponse.SetUserExplanation
 keywords: NSPluginResponse, GetUserExplanation
 so.topic: reference

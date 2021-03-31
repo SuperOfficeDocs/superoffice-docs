@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSWebhookAgent_SignalEvent
-description: Void SignalEvent(String eventName, Integer primaryKey, StringObjectDictionary data)
+uid: crmscript_ref_NSWebhookAgent_SignalEvent
+title: Void SignalEvent(String eventName, Integer primaryKey, StringObjectDictionary data)
 intellisense: NSWebhookAgent.SignalEvent
-keywords: NSWebhookAgent,SignalEvent
+keywords: NSWebhookAgent, SignalEvent
 so.topic: reference
 ---
 

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetExtraFields
-description: Map NSDocumentEntity.GetExtraFields()
+uid: crmscript_ref_NSDocumentEntity_GetExtraFields
+title: Map GetExtraFields()
 intellisense: NSDocumentEntity.GetExtraFields
 keywords: NSDocumentEntity, GetExtraFields
 so.topic: reference
 ---
 
-Get the extra fields as a map.
+Get the extra fields on DocumentEntity as a map.
 
 **Returns:** Map containing extra field values by field name.
 

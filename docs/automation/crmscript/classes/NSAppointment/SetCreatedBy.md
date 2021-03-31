@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetCreatedBy
-description: NSAppointment.SetCreatedBy(String createdBy)
+uid: crmscript_ref_NSAppointment_SetCreatedBy
+title: SetCreatedBy(String createdBy)
 intellisense: NSAppointment.SetCreatedBy
 keywords: NSAppointment, GetCreatedBy
 so.topic: reference

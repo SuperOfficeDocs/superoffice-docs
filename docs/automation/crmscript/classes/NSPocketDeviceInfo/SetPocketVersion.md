@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketDeviceInfo_SetPocketVersion
-description: NSPocketDeviceInfo.SetPocketVersion(String pocketVersion)
+uid: crmscript_ref_NSPocketDeviceInfo_SetPocketVersion
+title: SetPocketVersion(String pocketVersion)
 intellisense: NSPocketDeviceInfo.SetPocketVersion
 keywords: NSPocketDeviceInfo, GetPocketVersion
 so.topic: reference

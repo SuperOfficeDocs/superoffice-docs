@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_CreateDefaultArchiveListResult
-description: NSArchiveListResult CreateDefaultArchiveListResult()
+uid: crmscript_ref_NSArchiveAgent_CreateDefaultArchiveListResult
+title: NSArchiveListResult CreateDefaultArchiveListResult()
 intellisense: NSArchiveAgent.CreateDefaultArchiveListResult
-keywords: NSArchiveAgent,CreateDefaultArchiveListResult
+keywords: NSArchiveAgent, CreateDefaultArchiveListResult
 so.topic: reference
 ---
 	  

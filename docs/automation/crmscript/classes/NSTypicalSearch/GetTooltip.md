@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_GetTooltip
-description: String NSTypicalSearch.GetTooltip()
+uid: crmscript_ref_NSTypicalSearch_GetTooltip
+title: String GetTooltip()
 intellisense: NSTypicalSearch.GetTooltip
 keywords: NSTypicalSearch, GetTooltip
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetInvoiceCountryId
-description: NSQuoteVersion.SetInvoiceCountryId(Integer invoiceCountryId)
+uid: crmscript_ref_NSQuoteVersion_SetInvoiceCountryId
+title: SetInvoiceCountryId(Integer invoiceCountryId)
 intellisense: NSQuoteVersion.SetInvoiceCountryId
 keywords: NSQuoteVersion, GetInvoiceCountryId
 so.topic: reference

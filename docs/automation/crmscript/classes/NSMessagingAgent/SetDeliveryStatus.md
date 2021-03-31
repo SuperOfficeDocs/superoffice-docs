@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMessagingAgent_SetDeliveryStatus
-description: Void SetDeliveryStatus(String plugin, String externalMessageId, Integer status, String statusDescription)
+uid: crmscript_ref_NSMessagingAgent_SetDeliveryStatus
+title: Void SetDeliveryStatus(String plugin, String externalMessageId, Integer status, String statusDescription)
 intellisense: NSMessagingAgent.SetDeliveryStatus
-keywords: NSMessagingAgent,SetDeliveryStatus
+keywords: NSMessagingAgent, SetDeliveryStatus
 so.topic: reference
 ---
 

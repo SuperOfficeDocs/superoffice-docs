@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_SetHtmlBody
-description: NSTicketMessageEntity.SetHtmlBody(String htmlBody)
+uid: crmscript_ref_NSTicketMessageEntity_SetHtmlBody
+title: SetHtmlBody(String htmlBody)
 intellisense: NSTicketMessageEntity.SetHtmlBody
 keywords: NSTicketMessageEntity, GetHtmlBody
 so.topic: reference

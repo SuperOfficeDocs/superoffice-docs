@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_GetData
-description: TileDataArray GetData(Integer dashboardTileId, String restrictions)
+uid: crmscript_ref_NSDashboardAgent_GetData
+title: TileDataArray GetData(Integer dashboardTileId, String restrictions)
 intellisense: NSDashboardAgent.GetData
-keywords: NSDashboardAgent,GetData
+keywords: NSDashboardAgent, GetData
 so.topic: reference
 ---
 

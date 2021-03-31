@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity
-description: NSAmountClassEntity
+uid: crmscript_ref_NSAmountClassEntity
+title: NSAmountClassEntity
 intellisense: Void.NSAmountClassEntity
 keywords: NSAmountClassEntity
 so.topic: reference

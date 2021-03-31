@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllInDomain
-description: HierarchyEntityArray GetAllInDomain(Integer domain, Bool children)
+uid: crmscript_ref_NSListAgent_GetAllInDomain
+title: HierarchyEntityArray GetAllInDomain(Integer domain, Bool children)
 intellisense: NSListAgent.GetAllInDomain
-keywords: NSListAgent,GetAllInDomain
+keywords: NSListAgent, GetAllInDomain
 so.topic: reference
 ---
 

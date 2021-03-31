@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPocketAgent_GetPushNotificationTagsForDevice
-description: String GetPushNotificationTagsForDevice(String deviceIdentifier)
+uid: crmscript_ref_NSPocketAgent_GetPushNotificationTagsForDevice
+title: String GetPushNotificationTagsForDevice(String deviceIdentifier)
 intellisense: NSPocketAgent.GetPushNotificationTagsForDevice
-keywords: NSPocketAgent,GetPushNotificationTagsForDevice
+keywords: NSPocketAgent, GetPushNotificationTagsForDevice
 so.topic: reference
 ---
 

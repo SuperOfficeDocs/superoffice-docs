@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTabOrder_GetOrder
-description: String NSTabOrder.GetOrder()
+uid: crmscript_ref_NSTabOrder_GetOrder
+title: String GetOrder()
 intellisense: NSTabOrder.GetOrder
 keywords: NSTabOrder, GetOrder
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFavourite_GetRank
-description: Integer NSFavourite.GetRank()
+uid: crmscript_ref_NSFavourite_GetRank
+title: Integer GetRank()
 intellisense: NSFavourite.GetRank
 keywords: NSFavourite, GetRank
 so.topic: reference

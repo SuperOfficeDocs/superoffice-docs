@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetProjectMember
-description: NSProjectMember GetProjectMember(Integer projectMemberId);
+uid: crmscript_ref_NSProjectAgent_GetProjectMember
+title: NSProjectMember GetProjectMember(Integer projectMemberId);
 intellisense: NSProjectAgent.GetProjectMember
-keywords: NSProjectAgent,GetProjectMember
+keywords: NSProjectAgent, GetProjectMember
 so.topic: reference
 ---
 

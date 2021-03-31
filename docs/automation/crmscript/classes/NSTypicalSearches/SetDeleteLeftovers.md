@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearches_SetDeleteLeftovers
-description: NSTypicalSearches.SetDeleteLeftovers(Bool deleteLeftovers)
+uid: crmscript_ref_NSTypicalSearches_SetDeleteLeftovers
+title: SetDeleteLeftovers(Bool deleteLeftovers)
 intellisense: NSTypicalSearches.SetDeleteLeftovers
 keywords: NSTypicalSearches, GetDeleteLeftovers
 so.topic: reference

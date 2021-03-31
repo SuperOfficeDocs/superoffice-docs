@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetCountry
-description: Country NSContactEntity.GetCountry()
+uid: crmscript_ref_NSContactEntity_GetCountry
+title: Country GetCountry()
 intellisense: NSContactEntity.GetCountry
 keywords: NSContactEntity, GetCountry
 so.topic: reference

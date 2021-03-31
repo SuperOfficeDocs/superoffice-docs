@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetPreferredTZLocation
-description: Integer NSAppointmentEntity.GetPreferredTZLocation()
+uid: crmscript_ref_NSAppointmentEntity_GetPreferredTZLocation
+title: Integer GetPreferredTZLocation()
 intellisense: NSAppointmentEntity.GetPreferredTZLocation
 keywords: NSAppointmentEntity, GetPreferredTZLocation
 so.topic: reference

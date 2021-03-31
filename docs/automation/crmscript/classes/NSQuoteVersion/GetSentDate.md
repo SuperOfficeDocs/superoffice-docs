@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetSentDate
-description: DateTime NSQuoteVersion.GetSentDate()
+uid: crmscript_ref_NSQuoteVersion_GetSentDate
+title: DateTime GetSentDate()
 intellisense: NSQuoteVersion.GetSentDate
 keywords: NSQuoteVersion, GetSentDate
 so.topic: reference

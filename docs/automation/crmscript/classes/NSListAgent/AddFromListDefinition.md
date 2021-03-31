@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_AddFromListDefinition
-description: ListItemEntity AddFromListDefinition(Integer udListDefinitionId, ListItemEntity item)
+uid: crmscript_ref_NSListAgent_AddFromListDefinition
+title: ListItemEntity AddFromListDefinition(Integer udListDefinitionId, ListItemEntity item)
 intellisense: NSListAgent.AddFromListDefinition
-keywords: NSListAgent,AddFromListDefinition
+keywords: NSListAgent, AddFromListDefinition
 so.topic: reference
 ---
 

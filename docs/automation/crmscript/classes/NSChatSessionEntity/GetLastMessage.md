@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetLastMessage
-description: String NSChatSessionEntity.GetLastMessage()
+uid: crmscript_ref_NSChatSessionEntity_GetLastMessage
+title: String GetLastMessage()
 intellisense: NSChatSessionEntity.GetLastMessage
 keywords: NSChatSessionEntity, GetLastMessage
 so.topic: reference

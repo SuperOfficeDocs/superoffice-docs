@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_SetDomainName
-description: NSCountry.SetDomainName(String domainName)
+uid: crmscript_ref_NSCountry_SetDomainName
+title: SetDomainName(String domainName)
 intellisense: NSCountry.SetDomainName
 keywords: NSCountry, GetDomainName
 so.topic: reference

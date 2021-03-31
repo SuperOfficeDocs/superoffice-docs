@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescriptionLine_SetIsBuiltin
-description: NSPreferenceDescriptionLine.SetIsBuiltin(Bool isBuiltin)
+uid: crmscript_ref_NSPreferenceDescriptionLine_SetIsBuiltin
+title: SetIsBuiltin(Bool isBuiltin)
 intellisense: NSPreferenceDescriptionLine.SetIsBuiltin
 keywords: NSPreferenceDescriptionLine, GetIsBuiltin
 so.topic: reference

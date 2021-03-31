@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoLongText
-description: NSFieldInfoLongText
+uid: crmscript_ref_NSFieldInfoLongText
+title: NSFieldInfoLongText
 intellisense: Void.NSFieldInfoLongText
 keywords: NSFieldInfoLongText
 so.topic: reference

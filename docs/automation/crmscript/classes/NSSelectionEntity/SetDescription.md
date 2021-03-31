@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetDescription
-description: NSSelectionEntity.SetDescription(String description)
+uid: crmscript_ref_NSSelectionEntity_SetDescription
+title: SetDescription(String description)
 intellisense: NSSelectionEntity.SetDescription
 keywords: NSSelectionEntity, GetDescription
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetImageDescription
-description: String NSProjectEntity.GetImageDescription()
+uid: crmscript_ref_NSProjectEntity_GetImageDescription
+title: String GetImageDescription()
 intellisense: NSProjectEntity.GetImageDescription
 keywords: NSProjectEntity, GetImageDescription
 so.topic: reference

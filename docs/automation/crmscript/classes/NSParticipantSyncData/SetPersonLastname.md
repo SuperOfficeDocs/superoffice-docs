@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetPersonLastname
-description: NSParticipantSyncData.SetPersonLastname(String personLastname)
+uid: crmscript_ref_NSParticipantSyncData_SetPersonLastname
+title: SetPersonLastname(String personLastname)
 intellisense: NSParticipantSyncData.SetPersonLastname
 keywords: NSParticipantSyncData, GetPersonLastname
 so.topic: reference

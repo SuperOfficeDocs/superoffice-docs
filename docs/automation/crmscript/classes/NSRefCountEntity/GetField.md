@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_GetField
-description: String NSRefCountEntity.GetField()
+uid: crmscript_ref_NSRefCountEntity_GetField
+title: String GetField()
 intellisense: NSRefCountEntity.GetField
 keywords: NSRefCountEntity, GetField
 so.topic: reference

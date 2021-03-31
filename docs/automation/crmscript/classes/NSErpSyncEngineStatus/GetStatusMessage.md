@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncEngineStatus_GetStatusMessage
-description: String NSErpSyncEngineStatus.GetStatusMessage()
+uid: crmscript_ref_NSErpSyncEngineStatus_GetStatusMessage
+title: String GetStatusMessage()
 intellisense: NSErpSyncEngineStatus.GetStatusMessage
 keywords: NSErpSyncEngineStatus, GetStatusMessage
 so.topic: reference

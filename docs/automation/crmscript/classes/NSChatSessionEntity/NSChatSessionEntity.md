@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity
-description: NSChatSessionEntity
+uid: crmscript_ref_NSChatSessionEntity
+title: NSChatSessionEntity
 intellisense: Void.NSChatSessionEntity
 keywords: NSChatSessionEntity
 so.topic: reference

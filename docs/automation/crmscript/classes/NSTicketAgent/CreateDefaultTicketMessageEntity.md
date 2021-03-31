@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_CreateDefaultTicketMessageEntity
-description: NSTicketMessageEntity CreateDefaultTicketMessageEntity()
+uid: crmscript_ref_NSTicketAgent_CreateDefaultTicketMessageEntity
+title: NSTicketMessageEntity CreateDefaultTicketMessageEntity()
 intellisense: NSTicketAgent.CreateDefaultTicketMessageEntity
-keywords: NSTicketAgent,CreateDefaultTicketMessageEntity
+keywords: NSTicketAgent, CreateDefaultTicketMessageEntity
 so.topic: reference
 ---
 	  

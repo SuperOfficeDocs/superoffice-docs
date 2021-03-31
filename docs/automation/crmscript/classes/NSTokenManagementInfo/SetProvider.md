@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTokenManagementInfo_SetProvider
-description: NSTokenManagementInfo.SetProvider(String provider)
+uid: crmscript_ref_NSTokenManagementInfo_SetProvider
+title: SetProvider(String provider)
 intellisense: NSTokenManagementInfo.SetProvider
 keywords: NSTokenManagementInfo, GetProvider
 so.topic: reference

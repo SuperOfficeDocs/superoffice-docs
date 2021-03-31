@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSNavigatorCompany_SetValue
-description: NSNavigatorCompany.SetValue(String value)
+uid: crmscript_ref_NSNavigatorCompany_SetValue
+title: SetValue(String value)
 intellisense: NSNavigatorCompany.SetValue
 keywords: NSNavigatorCompany, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the NavigatorCompany item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String NavigatorCompany name.
 

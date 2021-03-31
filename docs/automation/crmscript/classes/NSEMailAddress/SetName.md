@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAddress_SetName
-description: NSEMailAddress.SetName(String name)
+uid: crmscript_ref_NSEMailAddress_SetName
+title: SetName(String name)
 intellisense: NSEMailAddress.SetName
 keywords: NSEMailAddress, GetName
 so.topic: reference

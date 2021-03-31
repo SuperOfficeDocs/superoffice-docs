@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveHeadingFromName
-description: HeadingEntity SaveHeadingFromName(String name, HeadingEntity entity)
+uid: crmscript_ref_NSListAgent_SaveHeadingFromName
+title: HeadingEntity SaveHeadingFromName(String name, HeadingEntity entity)
 intellisense: NSListAgent.SaveHeadingFromName
-keywords: NSListAgent,SaveHeadingFromName
+keywords: NSListAgent, SaveHeadingFromName
 so.topic: reference
 ---
 

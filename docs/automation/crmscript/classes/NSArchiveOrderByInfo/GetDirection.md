@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveOrderByInfo_GetDirection
-description: Integer NSArchiveOrderByInfo.GetDirection()
+uid: crmscript_ref_NSArchiveOrderByInfo_GetDirection
+title: Integer GetDirection()
 intellisense: NSArchiveOrderByInfo.GetDirection
 keywords: NSArchiveOrderByInfo, GetDirection
 so.topic: reference

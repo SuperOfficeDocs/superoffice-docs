@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_GetEntityName
-description: String NSTypicalSearch.GetEntityName()
+uid: crmscript_ref_NSTypicalSearch_GetEntityName
+title: String GetEntityName()
 intellisense: NSTypicalSearch.GetEntityName
 keywords: NSTypicalSearch, GetEntityName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConfiguration
-description: NSConfiguration
+uid: crmscript_ref_NSConfiguration
+title: NSConfiguration
 intellisense: Void.NSConfiguration
 keywords: NSConfiguration
 so.topic: reference

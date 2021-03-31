@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetReason
-description: NSQuoteLine.SetReason(String reason)
+uid: crmscript_ref_NSQuoteLine_SetReason
+title: SetReason(String reason)
 intellisense: NSQuoteLine.SetReason
 keywords: NSQuoteLine, GetReason
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_ValidateArchiveColumnConfig
-description: Void ValidateArchiveColumnConfig(String listOwner, Integer erpConnectionId)
+uid: crmscript_ref_NSErpSyncAgent_ValidateArchiveColumnConfig
+title: Void ValidateArchiveColumnConfig(String listOwner, Integer erpConnectionId)
 intellisense: NSErpSyncAgent.ValidateArchiveColumnConfig
-keywords: NSErpSyncAgent,ValidateArchiveColumnConfig
+keywords: NSErpSyncAgent, ValidateArchiveColumnConfig
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_SetActivityStatus
-description: Void SetActivityStatus(StringArray activityIdentifier, Integer activityStatus)
+uid: crmscript_ref_NSAppointmentAgent_SetActivityStatus
+title: Void SetActivityStatus(StringArray activityIdentifier, Integer activityStatus)
 intellisense: NSAppointmentAgent.SetActivityStatus
-keywords: NSAppointmentAgent,SetActivityStatus
+keywords: NSAppointmentAgent, SetActivityStatus
 so.topic: reference
 ---
 

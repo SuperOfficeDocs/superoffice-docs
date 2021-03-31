@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
-description: UserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer ownerType, Integer fieldType)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
+title: UserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer ownerType, Integer fieldType)
 intellisense: NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
-keywords: NSUserDefinedFieldInfoAgent,CreateUserDefinedFieldInfo
+keywords: NSUserDefinedFieldInfoAgent, CreateUserDefinedFieldInfo
 so.topic: reference
 ---
 

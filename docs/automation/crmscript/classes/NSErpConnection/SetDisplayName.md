@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_SetDisplayName
-description: NSErpConnection.SetDisplayName(String displayName)
+uid: crmscript_ref_NSErpConnection_SetDisplayName
+title: SetDisplayName(String displayName)
 intellisense: NSErpConnection.SetDisplayName
 keywords: NSErpConnection, GetDisplayName
 so.topic: reference

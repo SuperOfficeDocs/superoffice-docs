@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultProjectTypeEntity
-description: NSProjectTypeEntity CreateDefaultProjectTypeEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultProjectTypeEntity
+title: NSProjectTypeEntity CreateDefaultProjectTypeEntity()
 intellisense: NSListAgent.CreateDefaultProjectTypeEntity
-keywords: NSListAgent,CreateDefaultProjectTypeEntity
+keywords: NSListAgent, CreateDefaultProjectTypeEntity
 so.topic: reference
 ---
 	  

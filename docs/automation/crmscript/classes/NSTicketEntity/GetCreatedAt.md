@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetCreatedAt
-description: DateTime NSTicketEntity.GetCreatedAt()
+uid: crmscript_ref_NSTicketEntity_GetCreatedAt
+title: DateTime GetCreatedAt()
 intellisense: NSTicketEntity.GetCreatedAt
 keywords: NSTicketEntity, GetCreatedAt
 so.topic: reference

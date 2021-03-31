@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetPersons
-description: PersonArray GetPersons(Integer contactId)
+uid: crmscript_ref_NSContactAgent_GetPersons
+title: PersonArray GetPersons(Integer contactId)
 intellisense: NSContactAgent.GetPersons
-keywords: NSContactAgent,GetPersons
+keywords: NSContactAgent, GetPersons
 so.topic: reference
 ---
 

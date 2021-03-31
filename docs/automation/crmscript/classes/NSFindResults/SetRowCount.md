@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFindResults_SetRowCount
-description: NSFindResults.SetRowCount(Integer rowCount)
+uid: crmscript_ref_NSFindResults_SetRowCount
+title: SetRowCount(Integer rowCount)
 intellisense: NSFindResults.SetRowCount
 keywords: NSFindResults, GetRowCount
 so.topic: reference

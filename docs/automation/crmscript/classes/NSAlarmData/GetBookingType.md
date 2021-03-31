@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetBookingType
-description: Integer NSAlarmData.GetBookingType()
+uid: crmscript_ref_NSAlarmData_GetBookingType
+title: Integer GetBookingType()
 intellisense: NSAlarmData.GetBookingType
 keywords: NSAlarmData, GetBookingType
 so.topic: reference

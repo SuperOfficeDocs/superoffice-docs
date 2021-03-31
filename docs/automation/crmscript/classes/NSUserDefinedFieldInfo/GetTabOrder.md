@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetTabOrder
-description: Integer NSUserDefinedFieldInfo.GetTabOrder()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetTabOrder
+title: Integer GetTabOrder()
 intellisense: NSUserDefinedFieldInfo.GetTabOrder
 keywords: NSUserDefinedFieldInfo, GetTabOrder
 so.topic: reference

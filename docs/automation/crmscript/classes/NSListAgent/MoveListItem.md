@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_MoveListItem
-description: Void MoveListItem(Integer udListDefinitionId, Integer listItemId, Integer direction)
+uid: crmscript_ref_NSListAgent_MoveListItem
+title: Void MoveListItem(Integer udListDefinitionId, Integer listItemId, Integer direction)
 intellisense: NSListAgent.MoveListItem
-keywords: NSListAgent,MoveListItem
+keywords: NSListAgent, MoveListItem
 so.topic: reference
 ---
 

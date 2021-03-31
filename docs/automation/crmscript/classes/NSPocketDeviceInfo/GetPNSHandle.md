@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketDeviceInfo_GetPNSHandle
-description: String NSPocketDeviceInfo.GetPNSHandle()
+uid: crmscript_ref_NSPocketDeviceInfo_GetPNSHandle
+title: String GetPNSHandle()
 intellisense: NSPocketDeviceInfo.GetPNSHandle
 keywords: NSPocketDeviceInfo, GetPNSHandle
 so.topic: reference

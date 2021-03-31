@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_SetAllowBlank
-description: NSRefCountEntity.SetAllowBlank(Bool allowBlank)
+uid: crmscript_ref_NSRefCountEntity_SetAllowBlank
+title: SetAllowBlank(Bool allowBlank)
 intellisense: NSRefCountEntity.SetAllowBlank
 keywords: NSRefCountEntity, GetAllowBlank
 so.topic: reference

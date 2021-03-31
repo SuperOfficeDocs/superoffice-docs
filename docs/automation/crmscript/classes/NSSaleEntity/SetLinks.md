@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetLinks
-description: NSSaleEntity.SetLinks(LinkArray links)
+uid: crmscript_ref_NSSaleEntity_SetLinks
+title: SetLinks(LinkArray links)
 intellisense: NSSaleEntity.SetLinks
 keywords: NSSaleEntity, GetLinks
 so.topic: reference

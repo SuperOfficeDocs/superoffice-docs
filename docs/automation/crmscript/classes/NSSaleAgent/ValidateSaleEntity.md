@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_ValidateSaleEntity
-description: StringDictionary ValidateSaleEntity(SaleEntity saleEntity)
+uid: crmscript_ref_NSSaleAgent_ValidateSaleEntity
+title: StringDictionary ValidateSaleEntity(SaleEntity saleEntity)
 intellisense: NSSaleAgent.ValidateSaleEntity
-keywords: NSSaleAgent,ValidateSaleEntity
+keywords: NSSaleAgent, ValidateSaleEntity
 so.topic: reference
 ---
 

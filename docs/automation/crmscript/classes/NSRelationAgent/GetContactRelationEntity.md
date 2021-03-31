@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSRelationAgent_GetContactRelationEntity
-description: NSContactRelationEntity GetContactRelationEntity(Integer contactRelationEntityId);
+uid: crmscript_ref_NSRelationAgent_GetContactRelationEntity
+title: NSContactRelationEntity GetContactRelationEntity(Integer contactRelationEntityId);
 intellisense: NSRelationAgent.GetContactRelationEntity
-keywords: NSRelationAgent,GetContactRelationEntity
+keywords: NSRelationAgent, GetContactRelationEntity
 so.topic: reference
 ---
 

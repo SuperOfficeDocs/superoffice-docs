@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_SetERPOrderKey
-description: NSQuoteEntity.SetERPOrderKey(String eRPOrderKey)
+uid: crmscript_ref_NSQuoteEntity_SetERPOrderKey
+title: SetERPOrderKey(String eRPOrderKey)
 intellisense: NSQuoteEntity.SetERPOrderKey
 keywords: NSQuoteEntity, GetERPOrderKey
 so.topic: reference

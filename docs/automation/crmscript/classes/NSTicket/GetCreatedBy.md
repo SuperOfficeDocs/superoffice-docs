@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetCreatedBy
-description: Integer NSTicket.GetCreatedBy()
+uid: crmscript_ref_NSTicket_GetCreatedBy
+title: Integer GetCreatedBy()
 intellisense: NSTicket.GetCreatedBy
 keywords: NSTicket, GetCreatedBy
 so.topic: reference

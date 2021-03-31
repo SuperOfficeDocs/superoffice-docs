@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent_SetAutoEnableTravelAreas
-description: Void SetAutoEnableTravelAreas(Bool autoEnable)
+uid: crmscript_ref_NSFreeTextAgent_SetAutoEnableTravelAreas
+title: Void SetAutoEnableTravelAreas(Bool autoEnable)
 intellisense: NSFreeTextAgent.SetAutoEnableTravelAreas
-keywords: NSFreeTextAgent,SetAutoEnableTravelAreas
+keywords: NSFreeTextAgent, SetAutoEnableTravelAreas
 so.topic: reference
 ---
 

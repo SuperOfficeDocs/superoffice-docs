@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_GetSysMaxLevel
-description: PreferenceLevel NSPreferenceDescription.GetSysMaxLevel()
+uid: crmscript_ref_NSPreferenceDescription_GetSysMaxLevel
+title: PreferenceLevel GetSysMaxLevel()
 intellisense: NSPreferenceDescription.GetSysMaxLevel
 keywords: NSPreferenceDescription, GetSysMaxLevel
 so.topic: reference

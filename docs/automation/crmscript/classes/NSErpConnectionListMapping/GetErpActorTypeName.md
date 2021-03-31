@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionListMapping_GetErpActorTypeName
-description: String NSErpConnectionListMapping.GetErpActorTypeName()
+uid: crmscript_ref_NSErpConnectionListMapping_GetErpActorTypeName
+title: String GetErpActorTypeName()
 intellisense: NSErpConnectionListMapping.GetErpActorTypeName
 keywords: NSErpConnectionListMapping, GetErpActorTypeName
 so.topic: reference

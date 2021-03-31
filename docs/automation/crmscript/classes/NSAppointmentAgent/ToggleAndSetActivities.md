@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_ToggleAndSetActivities
-description: StringArray ToggleAndSetActivities(StringArray activityIdentifiers)
+uid: crmscript_ref_NSAppointmentAgent_ToggleAndSetActivities
+title: StringArray ToggleAndSetActivities(StringArray activityIdentifiers)
 intellisense: NSAppointmentAgent.ToggleAndSetActivities
-keywords: NSAppointmentAgent,ToggleAndSetActivities
+keywords: NSAppointmentAgent, ToggleAndSetActivities
 so.topic: reference
 ---
 

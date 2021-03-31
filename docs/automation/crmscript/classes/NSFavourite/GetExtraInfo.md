@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFavourite_GetExtraInfo
-description: String NSFavourite.GetExtraInfo()
+uid: crmscript_ref_NSFavourite_GetExtraInfo
+title: String GetExtraInfo()
 intellisense: NSFavourite.GetExtraInfo
 keywords: NSFavourite, GetExtraInfo
 so.topic: reference

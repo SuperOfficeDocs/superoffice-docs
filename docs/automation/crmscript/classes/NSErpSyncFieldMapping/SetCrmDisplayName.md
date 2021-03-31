@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_SetCrmDisplayName
-description: NSErpSyncFieldMapping.SetCrmDisplayName(String crmDisplayName)
+uid: crmscript_ref_NSErpSyncFieldMapping_SetCrmDisplayName
+title: SetCrmDisplayName(String crmDisplayName)
 intellisense: NSErpSyncFieldMapping.SetCrmDisplayName
 keywords: NSErpSyncFieldMapping, GetCrmDisplayName
 so.topic: reference

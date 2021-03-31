@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_DeleteRole
-description: Void DeleteRole(Integer roleIdToDelete, Integer replacingRoleId)
+uid: crmscript_ref_NSUserAgent_DeleteRole
+title: Void DeleteRole(Integer roleIdToDelete, Integer replacingRoleId)
 intellisense: NSUserAgent.DeleteRole
-keywords: NSUserAgent,DeleteRole
+keywords: NSUserAgent, DeleteRole
 so.topic: reference
 ---
 

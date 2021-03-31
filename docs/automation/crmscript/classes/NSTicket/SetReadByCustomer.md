@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetReadByCustomer
-description: NSTicket.SetReadByCustomer(DateTime readByCustomer)
+uid: crmscript_ref_NSTicket_SetReadByCustomer
+title: SetReadByCustomer(DateTime readByCustomer)
 intellisense: NSTicket.SetReadByCustomer
 keywords: NSTicket, GetReadByCustomer
 so.topic: reference

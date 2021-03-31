@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetPriceList
-description: NSPriceList GetPriceList(Integer priceListId);
+uid: crmscript_ref_NSQuoteAgent_GetPriceList
+title: NSPriceList GetPriceList(Integer priceListId);
 intellisense: NSQuoteAgent.GetPriceList
-keywords: NSQuoteAgent,GetPriceList
+keywords: NSQuoteAgent, GetPriceList
 so.topic: reference
 ---
 

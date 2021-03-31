@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetUnitListPrice
-description: Float NSQuoteLine.GetUnitListPrice()
+uid: crmscript_ref_NSQuoteLine_GetUnitListPrice
+title: Float GetUnitListPrice()
 intellisense: NSQuoteLine.GetUnitListPrice
 keywords: NSQuoteLine, GetUnitListPrice
 so.topic: reference

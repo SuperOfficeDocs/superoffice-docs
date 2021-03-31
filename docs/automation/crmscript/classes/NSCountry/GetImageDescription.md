@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_GetImageDescription
-description: String NSCountry.GetImageDescription()
+uid: crmscript_ref_NSCountry_GetImageDescription
+title: String GetImageDescription()
 intellisense: NSCountry.GetImageDescription
 keywords: NSCountry, GetImageDescription
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetMailMergeDeliveryType
-description: Integer NSMailMergeSettings.GetMailMergeDeliveryType()
+uid: crmscript_ref_NSMailMergeSettings_GetMailMergeDeliveryType
+title: Integer GetMailMergeDeliveryType()
 intellisense: NSMailMergeSettings.GetMailMergeDeliveryType
 keywords: NSMailMergeSettings, GetMailMergeDeliveryType
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPhoneListAgent_GetPreferences
-description: PhoneListPreferences GetPreferences()
+uid: crmscript_ref_NSPhoneListAgent_GetPreferences
+title: PhoneListPreferences GetPreferences()
 intellisense: NSPhoneListAgent.GetPreferences
-keywords: NSPhoneListAgent,GetPreferences
+keywords: NSPhoneListAgent, GetPreferences
 so.topic: reference
 ---
 

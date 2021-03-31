@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSDepartment_GetValue
-description: String NSDepartment.GetValue()
+uid: crmscript_ref_NSDepartment_GetValue
+title: String GetValue()
 intellisense: NSDepartment.GetValue
 keywords: NSDepartment, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the Department.
 
-**Returns:** String name
+**Returns:** String Department name.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_GetContactId
-description: Integer NSSaleStakeholder.GetContactId()
+uid: crmscript_ref_NSSaleStakeholder_GetContactId
+title: Integer GetContactId()
 intellisense: NSSaleStakeholder.GetContactId
 keywords: NSSaleStakeholder, GetContactId
 so.topic: reference

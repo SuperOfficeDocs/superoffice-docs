@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointmentEntity_GetAutoSuggest
-description: Bool NSSuggestedAppointmentEntity.GetAutoSuggest()
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetAutoSuggest
+title: Bool GetAutoSuggest()
 intellisense: NSSuggestedAppointmentEntity.GetAutoSuggest
 keywords: NSSuggestedAppointmentEntity, GetAutoSuggest
 so.topic: reference

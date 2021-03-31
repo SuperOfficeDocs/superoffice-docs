@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSTicketCategory_SetTooltip
-description: NSTicketCategory.SetTooltip(String tooltip)
+uid: crmscript_ref_NSTicketCategory_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSTicketCategory.SetTooltip
 keywords: NSTicketCategory, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the list item.
+Set the tooltip description for the TicketCategory list item.
 
 **Parameter:** 
- - **tooltip** String tooltip description.
+ - **tooltip** String TicketCategory tooltip description.
 

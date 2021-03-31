@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetCountries
-description: CountryArray GetCountries()
+uid: crmscript_ref_NSListAgent_GetCountries
+title: CountryArray GetCountries()
 intellisense: NSListAgent.GetCountries
-keywords: NSListAgent,GetCountries
+keywords: NSListAgent, GetCountries
 so.topic: reference
 ---
 

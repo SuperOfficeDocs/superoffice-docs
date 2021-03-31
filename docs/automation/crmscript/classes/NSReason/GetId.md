@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSReason_GetId
-description: Integer NSReason.GetId()
+uid: crmscript_ref_NSReason_GetId
+title: Integer GetId()
 intellisense: NSReason.GetId
 keywords: NSReason, GetId
 so.topic: reference
 ---
 
-Get the primary key (id)
+Get the primary key (id) for the Reason
 
-**Returns:** Integer Id
+**Returns:** Integer Reason id.
 

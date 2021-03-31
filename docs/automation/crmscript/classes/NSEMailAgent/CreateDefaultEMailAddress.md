@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateDefaultEMailAddress
-description: NSEMailAddress CreateDefaultEMailAddress()
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailAddress
+title: NSEMailAddress CreateDefaultEMailAddress()
 intellisense: NSEMailAgent.CreateDefaultEMailAddress
-keywords: NSEMailAgent,CreateDefaultEMailAddress
+keywords: NSEMailAgent, CreateDefaultEMailAddress
 so.topic: reference
 ---
 	  

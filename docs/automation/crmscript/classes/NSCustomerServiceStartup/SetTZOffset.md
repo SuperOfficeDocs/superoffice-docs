@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceStartup_SetTZOffset
-description: NSCustomerServiceStartup.SetTZOffset(Integer tZOffset)
+uid: crmscript_ref_NSCustomerServiceStartup_SetTZOffset
+title: SetTZOffset(Integer tZOffset)
 intellisense: NSCustomerServiceStartup.SetTZOffset
 keywords: NSCustomerServiceStartup, GetTZOffset
 so.topic: reference

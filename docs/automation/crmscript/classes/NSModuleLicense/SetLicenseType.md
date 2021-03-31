@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_SetLicenseType
-description: NSModuleLicense.SetLicenseType(LicenseType licenseType)
+uid: crmscript_ref_NSModuleLicense_SetLicenseType
+title: SetLicenseType(LicenseType licenseType)
 intellisense: NSModuleLicense.SetLicenseType
 keywords: NSModuleLicense, GetLicenseType
 so.topic: reference

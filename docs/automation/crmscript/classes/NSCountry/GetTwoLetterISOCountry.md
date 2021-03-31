@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_GetTwoLetterISOCountry
-description: String NSCountry.GetTwoLetterISOCountry()
+uid: crmscript_ref_NSCountry_GetTwoLetterISOCountry
+title: String GetTwoLetterISOCountry()
 intellisense: NSCountry.GetTwoLetterISOCountry
 keywords: NSCountry, GetTwoLetterISOCountry
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplate_SetDeleted
-description: NSDocumentTemplate.SetDeleted(Integer deleted)
+uid: crmscript_ref_NSDocumentTemplate_SetDeleted
+title: SetDeleted(Integer deleted)
 intellisense: NSDocumentTemplate.SetDeleted
 keywords: NSDocumentTemplate, GetDeleted
 so.topic: reference

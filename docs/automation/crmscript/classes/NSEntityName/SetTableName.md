@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEntityName_SetTableName
-description: NSEntityName.SetTableName(String tableName)
+uid: crmscript_ref_NSEntityName_SetTableName
+title: SetTableName(String tableName)
 intellisense: NSEntityName.SetTableName
 keywords: NSEntityName, GetTableName
 so.topic: reference

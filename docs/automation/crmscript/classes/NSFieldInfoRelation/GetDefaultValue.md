@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoRelation_GetDefaultValue
-description: Integer NSFieldInfoRelation.GetDefaultValue()
+uid: crmscript_ref_NSFieldInfoRelation_GetDefaultValue
+title: Integer GetDefaultValue()
 intellisense: NSFieldInfoRelation.GetDefaultValue
 keywords: NSFieldInfoRelation, GetDefaultValue
 so.topic: reference

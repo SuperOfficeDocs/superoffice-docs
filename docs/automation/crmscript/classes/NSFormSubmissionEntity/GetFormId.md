@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_GetFormId
-description: Integer NSFormSubmissionEntity.GetFormId()
+uid: crmscript_ref_NSFormSubmissionEntity_GetFormId
+title: Integer GetFormId()
 intellisense: NSFormSubmissionEntity.GetFormId
 keywords: NSFormSubmissionEntity, GetFormId
 so.topic: reference

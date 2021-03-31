@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_SetReadOnly
-description: NSRefCountEntity.SetReadOnly(Bool readOnly)
+uid: crmscript_ref_NSRefCountEntity_SetReadOnly
+title: SetReadOnly(Bool readOnly)
 intellisense: NSRefCountEntity.SetReadOnly
 keywords: NSRefCountEntity, GetReadOnly
 so.topic: reference

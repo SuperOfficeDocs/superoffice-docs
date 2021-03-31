@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuote_GetFavoriteQuoteAlternative
-description: QuoteAlternative NSQuote.GetFavoriteQuoteAlternative()
+uid: crmscript_ref_NSQuote_GetFavoriteQuoteAlternative
+title: QuoteAlternative GetFavoriteQuoteAlternative()
 intellisense: NSQuote.GetFavoriteQuoteAlternative
 keywords: NSQuote, GetFavoriteQuoteAlternative
 so.topic: reference

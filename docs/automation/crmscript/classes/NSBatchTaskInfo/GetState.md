@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetState
-description: Integer NSBatchTaskInfo.GetState()
+uid: crmscript_ref_NSBatchTaskInfo_GetState
+title: Integer GetState()
 intellisense: NSBatchTaskInfo.GetState
 keywords: NSBatchTaskInfo, GetState
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailConnectionInfo_SetServerName
-description: NSEMailConnectionInfo.SetServerName(String serverName)
+uid: crmscript_ref_NSEMailConnectionInfo_SetServerName
+title: SetServerName(String serverName)
 intellisense: NSEMailConnectionInfo.SetServerName
 keywords: NSEMailConnectionInfo, GetServerName
 so.topic: reference

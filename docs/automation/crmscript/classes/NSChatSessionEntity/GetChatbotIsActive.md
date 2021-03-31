@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetChatbotIsActive
-description: Bool NSChatSessionEntity.GetChatbotIsActive()
+uid: crmscript_ref_NSChatSessionEntity_GetChatbotIsActive
+title: Bool GetChatbotIsActive()
 intellisense: NSChatSessionEntity.GetChatbotIsActive
 keywords: NSChatSessionEntity, GetChatbotIsActive
 so.topic: reference

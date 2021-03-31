@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_SetTooltip
-description: NSRoleEntity.SetTooltip(String tooltip)
+uid: crmscript_ref_NSRoleEntity_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSRoleEntity.SetTooltip
 keywords: NSRoleEntity, GetTooltip
 so.topic: reference

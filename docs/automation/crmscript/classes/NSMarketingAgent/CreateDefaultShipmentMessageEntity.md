@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_CreateDefaultShipmentMessageEntity
-description: NSShipmentMessageEntity CreateDefaultShipmentMessageEntity()
+uid: crmscript_ref_NSMarketingAgent_CreateDefaultShipmentMessageEntity
+title: NSShipmentMessageEntity CreateDefaultShipmentMessageEntity()
 intellisense: NSMarketingAgent.CreateDefaultShipmentMessageEntity
-keywords: NSMarketingAgent,CreateDefaultShipmentMessageEntity
+keywords: NSMarketingAgent, CreateDefaultShipmentMessageEntity
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetTargetUrl
-description: String NSWebhook.GetTargetUrl()
+uid: crmscript_ref_NSWebhook_GetTargetUrl
+title: String GetTargetUrl()
 intellisense: NSWebhook.GetTargetUrl
 keywords: NSWebhook, GetTargetUrl
 so.topic: reference

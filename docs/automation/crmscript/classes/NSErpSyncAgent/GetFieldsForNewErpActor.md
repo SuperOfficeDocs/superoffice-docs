@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetFieldsForNewErpActor
-description: FieldMetadataArray GetFieldsForNewErpActor(Integer erpConnectionId, Integer erpActorType)
+uid: crmscript_ref_NSErpSyncAgent_GetFieldsForNewErpActor
+title: FieldMetadataArray GetFieldsForNewErpActor(Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.GetFieldsForNewErpActor
-keywords: NSErpSyncAgent,GetFieldsForNewErpActor
+keywords: NSErpSyncAgent, GetFieldsForNewErpActor
 so.topic: reference
 ---
 

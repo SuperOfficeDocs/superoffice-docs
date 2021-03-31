@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_SetContactDepartment
-description: NSProjectMember.SetContactDepartment(String contactDepartment)
+uid: crmscript_ref_NSProjectMember_SetContactDepartment
+title: SetContactDepartment(String contactDepartment)
 intellisense: NSProjectMember.SetContactDepartment
 keywords: NSProjectMember, GetContactDepartment
 so.topic: reference

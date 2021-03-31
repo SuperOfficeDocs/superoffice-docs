@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_GetDisplayDescription
-description: String NSQuoteConnection.GetDisplayDescription()
+uid: crmscript_ref_NSQuoteConnection_GetDisplayDescription
+title: String GetDisplayDescription()
 intellisense: NSQuoteConnection.GetDisplayDescription
 keywords: NSQuoteConnection, GetDisplayDescription
 so.topic: reference

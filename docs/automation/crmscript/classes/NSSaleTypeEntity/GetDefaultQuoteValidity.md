@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetDefaultQuoteValidity
-description: Integer NSSaleTypeEntity.GetDefaultQuoteValidity()
+uid: crmscript_ref_NSSaleTypeEntity_GetDefaultQuoteValidity
+title: Integer GetDefaultQuoteValidity()
 intellisense: NSSaleTypeEntity.GetDefaultQuoteValidity
 keywords: NSSaleTypeEntity, GetDefaultQuoteValidity
 so.topic: reference

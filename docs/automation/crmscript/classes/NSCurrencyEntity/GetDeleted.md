@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCurrencyEntity_GetDeleted
-description: Bool NSCurrencyEntity.GetDeleted()
+uid: crmscript_ref_NSCurrencyEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSCurrencyEntity.GetDeleted
 keywords: NSCurrencyEntity, GetDeleted
 so.topic: reference

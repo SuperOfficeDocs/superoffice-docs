@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetQuoteDocType
-description: DocTmplQuoteType NSDocumentTemplateEntity.GetQuoteDocType()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetQuoteDocType
+title: DocTmplQuoteType GetQuoteDocType()
 intellisense: NSDocumentTemplateEntity.GetQuoteDocType
 keywords: NSDocumentTemplateEntity, GetQuoteDocType
 so.topic: reference

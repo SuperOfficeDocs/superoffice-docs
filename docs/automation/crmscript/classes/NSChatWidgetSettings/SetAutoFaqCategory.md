@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetAutoFaqCategory
-description: NSChatWidgetSettings.SetAutoFaqCategory(KbCategory autoFaqCategory)
+uid: crmscript_ref_NSChatWidgetSettings_SetAutoFaqCategory
+title: SetAutoFaqCategory(KbCategory autoFaqCategory)
 intellisense: NSChatWidgetSettings.SetAutoFaqCategory
 keywords: NSChatWidgetSettings, GetAutoFaqCategory
 so.topic: reference

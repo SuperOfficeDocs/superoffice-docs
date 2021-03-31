@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatPresence_GetPresent
-description: Bool NSChatPresence.GetPresent()
+uid: crmscript_ref_NSChatPresence_GetPresent
+title: Bool GetPresent()
 intellisense: NSChatPresence.GetPresent
 keywords: NSChatPresence, GetPresent
 so.topic: reference

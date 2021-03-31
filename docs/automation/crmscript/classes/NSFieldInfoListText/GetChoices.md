@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoListText_GetChoices
-description: StringArray NSFieldInfoListText.GetChoices()
+uid: crmscript_ref_NSFieldInfoListText_GetChoices
+title: StringArray GetChoices()
 intellisense: NSFieldInfoListText.GetChoices
 keywords: NSFieldInfoListText, GetChoices
 so.topic: reference

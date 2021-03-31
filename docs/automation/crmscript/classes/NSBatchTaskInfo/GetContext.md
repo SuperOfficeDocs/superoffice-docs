@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetContext
-description: String NSBatchTaskInfo.GetContext()
+uid: crmscript_ref_NSBatchTaskInfo_GetContext
+title: String GetContext()
 intellisense: NSBatchTaskInfo.GetContext
 keywords: NSBatchTaskInfo, GetContext
 so.topic: reference

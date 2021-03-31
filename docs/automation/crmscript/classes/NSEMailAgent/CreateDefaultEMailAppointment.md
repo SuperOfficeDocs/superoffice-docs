@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateDefaultEMailAppointment
-description: NSEMailAppointment CreateDefaultEMailAppointment()
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailAppointment
+title: NSEMailAppointment CreateDefaultEMailAppointment()
 intellisense: NSEMailAgent.CreateDefaultEMailAppointment
-keywords: NSEMailAgent,CreateDefaultEMailAppointment
+keywords: NSEMailAgent, CreateDefaultEMailAppointment
 so.topic: reference
 ---
 	  

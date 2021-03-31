@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_GetDescription
-description: String NSDocument.GetDescription()
+uid: crmscript_ref_NSDocument_GetDescription
+title: String GetDescription()
 intellisense: NSDocument.GetDescription
 keywords: NSDocument, GetDescription
 so.topic: reference

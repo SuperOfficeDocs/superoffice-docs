@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_GetSelected
-description: Bool NSSelectableMDOListItem.GetSelected()
+uid: crmscript_ref_NSSelectableMDOListItem_GetSelected
+title: Bool GetSelected()
 intellisense: NSSelectableMDOListItem.GetSelected
 keywords: NSSelectableMDOListItem, GetSelected
 so.topic: reference

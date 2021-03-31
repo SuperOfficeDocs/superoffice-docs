@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetCustomerLanguage
-description: NSCustomerLanguage GetCustomerLanguage(Integer customerLanguageId);
+uid: crmscript_ref_NSListAgent_GetCustomerLanguage
+title: NSCustomerLanguage GetCustomerLanguage(Integer customerLanguageId);
 intellisense: NSListAgent.GetCustomerLanguage
-keywords: NSListAgent,GetCustomerLanguage
+keywords: NSListAgent, GetCustomerLanguage
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetPost1
-description: NSPerson.SetPost1(String post1)
+uid: crmscript_ref_NSPerson_SetPost1
+title: SetPost1(String post1)
 intellisense: NSPerson.SetPost1
 keywords: NSPerson, GetPost1
 so.topic: reference

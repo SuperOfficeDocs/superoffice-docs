@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetTicketNew
-description: NSTicketPriorityEntity.SetTicketNew(TicketPriorityEscalateEvent ticketNew)
+uid: crmscript_ref_NSTicketPriorityEntity_SetTicketNew
+title: SetTicketNew(TicketPriorityEscalateEvent ticketNew)
 intellisense: NSTicketPriorityEntity.SetTicketNew
 keywords: NSTicketPriorityEntity, GetTicketNew
 so.topic: reference

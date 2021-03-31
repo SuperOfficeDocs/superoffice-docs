@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSApproveRejectResponse_SetCreatedAppointmentId
-description: NSApproveRejectResponse.SetCreatedAppointmentId(Integer createdAppointmentId)
+uid: crmscript_ref_NSApproveRejectResponse_SetCreatedAppointmentId
+title: SetCreatedAppointmentId(Integer createdAppointmentId)
 intellisense: NSApproveRejectResponse.SetCreatedAppointmentId
 keywords: NSApproveRejectResponse, GetCreatedAppointmentId
 so.topic: reference

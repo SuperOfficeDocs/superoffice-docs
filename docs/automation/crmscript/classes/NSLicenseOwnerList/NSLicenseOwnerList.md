@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseOwnerList
-description: NSLicenseOwnerList
+uid: crmscript_ref_NSLicenseOwnerList
+title: NSLicenseOwnerList
 intellisense: Void.NSLicenseOwnerList
 keywords: NSLicenseOwnerList
 so.topic: reference

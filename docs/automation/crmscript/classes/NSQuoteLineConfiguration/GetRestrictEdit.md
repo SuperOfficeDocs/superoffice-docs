@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLineConfiguration_GetRestrictEdit
-description: Bool NSQuoteLineConfiguration.GetRestrictEdit()
+uid: crmscript_ref_NSQuoteLineConfiguration_GetRestrictEdit
+title: Bool GetRestrictEdit()
 intellisense: NSQuoteLineConfiguration.GetRestrictEdit
 keywords: NSQuoteLineConfiguration, GetRestrictEdit
 so.topic: reference

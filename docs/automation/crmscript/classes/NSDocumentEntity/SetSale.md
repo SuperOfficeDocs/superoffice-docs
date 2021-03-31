@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetSale
-description: NSDocumentEntity.SetSale(Sale sale)
+uid: crmscript_ref_NSDocumentEntity_SetSale
+title: SetSale(Sale sale)
 intellisense: NSDocumentEntity.SetSale
 keywords: NSDocumentEntity, GetSale
 so.topic: reference

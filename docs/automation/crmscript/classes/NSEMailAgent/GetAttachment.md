@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetAttachment
-description: EMailAttachment GetAttachment(EMailConnectionInfo connectionInfo, Integer messageServerId, String attachmentId)
+uid: crmscript_ref_NSEMailAgent_GetAttachment
+title: EMailAttachment GetAttachment(EMailConnectionInfo connectionInfo, Integer messageServerId, String attachmentId)
 intellisense: NSEMailAgent.GetAttachment
-keywords: NSEMailAgent,GetAttachment
+keywords: NSEMailAgent, GetAttachment
 so.topic: reference
 ---
 

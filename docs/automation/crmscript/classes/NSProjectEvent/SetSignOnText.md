@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_SetSignOnText
-description: NSProjectEvent.SetSignOnText(String signOnText)
+uid: crmscript_ref_NSProjectEvent_SetSignOnText
+title: SetSignOnText(String signOnText)
 intellisense: NSProjectEvent.SetSignOnText
 keywords: NSProjectEvent, GetSignOnText
 so.topic: reference

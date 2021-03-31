@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveTicketCategoryEntity
-description: NSTicketCategoryEntity SaveTicketCategoryEntity(NSTicketCategoryEntity ticketCategoryEntity);
+uid: crmscript_ref_NSListAgent_SaveTicketCategoryEntity
+title: NSTicketCategoryEntity SaveTicketCategoryEntity(NSTicketCategoryEntity ticketCategoryEntity);
 intellisense: NSListAgent.SaveTicketCategoryEntity
-keywords: NSListAgent,SaveTicketCategoryEntity
+keywords: NSListAgent, SaveTicketCategoryEntity
 so.topic: reference
 ---
 	  

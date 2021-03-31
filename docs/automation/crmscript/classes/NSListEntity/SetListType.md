@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListEntity_SetListType
-description: NSListEntity.SetListType(String listType)
+uid: crmscript_ref_NSListEntity_SetListType
+title: SetListType(String listType)
 intellisense: NSListEntity.SetListType
 keywords: NSListEntity, GetListType
 so.topic: reference

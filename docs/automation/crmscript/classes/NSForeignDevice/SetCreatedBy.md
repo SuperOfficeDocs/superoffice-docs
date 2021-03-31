@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDevice_SetCreatedBy
-description: NSForeignDevice.SetCreatedBy(String createdBy)
+uid: crmscript_ref_NSForeignDevice_SetCreatedBy
+title: SetCreatedBy(String createdBy)
 intellisense: NSForeignDevice.SetCreatedBy
 keywords: NSForeignDevice, GetCreatedBy
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_SetPersonId
-description: NSDocument.SetPersonId(Integer personId)
+uid: crmscript_ref_NSDocument_SetPersonId
+title: SetPersonId(Integer personId)
 intellisense: NSDocument.SetPersonId
 keywords: NSDocument, GetPersonId
 so.topic: reference

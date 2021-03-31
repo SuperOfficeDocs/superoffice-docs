@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetSource
-description: NSSelectionEntity.SetSource(Integer source)
+uid: crmscript_ref_NSSelectionEntity_SetSource
+title: SetSource(Integer source)
 intellisense: NSSelectionEntity.SetSource
 keywords: NSSelectionEntity, GetSource
 so.topic: reference

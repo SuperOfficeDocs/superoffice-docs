@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_SavePreferenceDescriptionLines
-description: PreferenceDescriptionLineArray SavePreferenceDescriptionLines(PreferenceDescriptionLineArray preferenceDescriptionLines)
+uid: crmscript_ref_NSPreferenceAgent_SavePreferenceDescriptionLines
+title: PreferenceDescriptionLineArray SavePreferenceDescriptionLines(PreferenceDescriptionLineArray preferenceDescriptionLines)
 intellisense: NSPreferenceAgent.SavePreferenceDescriptionLines
-keywords: NSPreferenceAgent,SavePreferenceDescriptionLines
+keywords: NSPreferenceAgent, SavePreferenceDescriptionLines
 so.topic: reference
 ---
 

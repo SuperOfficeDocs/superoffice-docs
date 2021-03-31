@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_DeleteExpired
-description: Void DeleteExpired()
+uid: crmscript_ref_NSPersonAgent_DeleteExpired
+title: Void DeleteExpired()
 intellisense: NSPersonAgent.DeleteExpired
-keywords: NSPersonAgent,DeleteExpired
+keywords: NSPersonAgent, DeleteExpired
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_GetDelegateMethod
-description: TicketCategoryDelegateMethod NSTicketCategoryEntity.GetDelegateMethod()
+uid: crmscript_ref_NSTicketCategoryEntity_GetDelegateMethod
+title: TicketCategoryDelegateMethod GetDelegateMethod()
 intellisense: NSTicketCategoryEntity.GetDelegateMethod
 keywords: NSTicketCategoryEntity, GetDelegateMethod
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_CreateDefaultTriggerScriptEntity
-description: NSTriggerScriptEntity CreateDefaultTriggerScriptEntity()
+uid: crmscript_ref_NSCRMScriptAgent_CreateDefaultTriggerScriptEntity
+title: NSTriggerScriptEntity CreateDefaultTriggerScriptEntity()
 intellisense: NSCRMScriptAgent.CreateDefaultTriggerScriptEntity
-keywords: NSCRMScriptAgent,CreateDefaultTriggerScriptEntity
+keywords: NSCRMScriptAgent, CreateDefaultTriggerScriptEntity
 so.topic: reference
 ---
 	  

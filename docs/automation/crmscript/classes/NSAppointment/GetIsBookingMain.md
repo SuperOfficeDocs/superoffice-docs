@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetIsBookingMain
-description: Bool NSAppointment.GetIsBookingMain()
+uid: crmscript_ref_NSAppointment_GetIsBookingMain
+title: Bool GetIsBookingMain()
 intellisense: NSAppointment.GetIsBookingMain
 keywords: NSAppointment, GetIsBookingMain
 so.topic: reference

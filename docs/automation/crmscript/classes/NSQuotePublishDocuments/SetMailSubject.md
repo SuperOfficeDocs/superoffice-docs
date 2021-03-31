@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_SetMailSubject
-description: NSQuotePublishDocuments.SetMailSubject(String mailSubject)
+uid: crmscript_ref_NSQuotePublishDocuments_SetMailSubject
+title: SetMailSubject(String mailSubject)
 intellisense: NSQuotePublishDocuments.SetMailSubject
 keywords: NSQuotePublishDocuments, GetMailSubject
 so.topic: reference

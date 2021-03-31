@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSummaryItem_GetName
-description: String NSChatSummaryItem.GetName()
+uid: crmscript_ref_NSChatSummaryItem_GetName
+title: String GetName()
 intellisense: NSChatSummaryItem.GetName
 keywords: NSChatSummaryItem, GetName
 so.topic: reference

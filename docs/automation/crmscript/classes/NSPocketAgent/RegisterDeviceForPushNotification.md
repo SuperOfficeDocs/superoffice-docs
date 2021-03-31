@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPocketAgent_RegisterDeviceForPushNotification
-description: Void RegisterDeviceForPushNotification(PocketDeviceInfo deviceInfo)
+uid: crmscript_ref_NSPocketAgent_RegisterDeviceForPushNotification
+title: Void RegisterDeviceForPushNotification(PocketDeviceInfo deviceInfo)
 intellisense: NSPocketAgent.RegisterDeviceForPushNotification
-keywords: NSPocketAgent,RegisterDeviceForPushNotification
+keywords: NSPocketAgent, RegisterDeviceForPushNotification
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_GetUpdated
-description: DateTime NSConsentInfo.GetUpdated()
+uid: crmscript_ref_NSConsentInfo_GetUpdated
+title: DateTime GetUpdated()
 intellisense: NSConsentInfo.GetUpdated
 keywords: NSConsentInfo, GetUpdated
 so.topic: reference

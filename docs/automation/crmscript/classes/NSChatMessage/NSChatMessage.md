@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatMessage
-description: NSChatMessage
+uid: crmscript_ref_NSChatMessage
+title: NSChatMessage
 intellisense: Void.NSChatMessage
 keywords: NSChatMessage
 so.topic: reference

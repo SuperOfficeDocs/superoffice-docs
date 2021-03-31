@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllDomains
-description: DomainArray GetAllDomains()
+uid: crmscript_ref_NSListAgent_GetAllDomains
+title: DomainArray GetAllDomains()
 intellisense: NSListAgent.GetAllDomains
-keywords: NSListAgent,GetAllDomains
+keywords: NSListAgent, GetAllDomains
 so.topic: reference
 ---
 

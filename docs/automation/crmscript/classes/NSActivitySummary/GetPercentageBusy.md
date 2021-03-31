@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummary_GetPercentageBusy
-description: Integer NSActivitySummary.GetPercentageBusy()
+uid: crmscript_ref_NSActivitySummary_GetPercentageBusy
+title: Integer GetPercentageBusy()
 intellisense: NSActivitySummary.GetPercentageBusy
 keywords: NSActivitySummary, GetPercentageBusy
 so.topic: reference

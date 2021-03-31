@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_Merge
-description: Void Merge(Integer sourcePersonId, Integer destinationPersonId, DateTime moveAfterDate, Bool deleteSource, Bool replaceEmptyFieldsOnDestination)
+uid: crmscript_ref_NSPersonAgent_Merge
+title: Void Merge(Integer sourcePersonId, Integer destinationPersonId, DateTime moveAfterDate, Bool deleteSource, Bool replaceEmptyFieldsOnDestination)
 intellisense: NSPersonAgent.Merge
-keywords: NSPersonAgent,Merge
+keywords: NSPersonAgent, Merge
 so.topic: reference
 ---
 

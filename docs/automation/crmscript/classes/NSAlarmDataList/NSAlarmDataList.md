@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmDataList
-description: NSAlarmDataList
+uid: crmscript_ref_NSAlarmDataList
+title: NSAlarmDataList
 intellisense: Void.NSAlarmDataList
 keywords: NSAlarmDataList
 so.topic: reference

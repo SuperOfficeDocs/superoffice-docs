@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_CleanUpRecurringBookingDeleted
-description: Integer CleanUpRecurringBookingDeleted()
+uid: crmscript_ref_NSAppointmentAgent_CleanUpRecurringBookingDeleted
+title: Integer CleanUpRecurringBookingDeleted()
 intellisense: NSAppointmentAgent.CleanUpRecurringBookingDeleted
-keywords: NSAppointmentAgent,CleanUpRecurringBookingDeleted
+keywords: NSAppointmentAgent, CleanUpRecurringBookingDeleted
 so.topic: reference
 ---
 

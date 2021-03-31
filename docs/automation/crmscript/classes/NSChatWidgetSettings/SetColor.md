@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetColor
-description: NSChatWidgetSettings.SetColor(String color)
+uid: crmscript_ref_NSChatWidgetSettings_SetColor
+title: SetColor(String color)
 intellisense: NSChatWidgetSettings.SetColor
 keywords: NSChatWidgetSettings, GetColor
 so.topic: reference

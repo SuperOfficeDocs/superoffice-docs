@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultExtAppEntity
-description: NSExtAppEntity CreateDefaultExtAppEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultExtAppEntity
+title: NSExtAppEntity CreateDefaultExtAppEntity()
 intellisense: NSListAgent.CreateDefaultExtAppEntity
-keywords: NSListAgent,CreateDefaultExtAppEntity
+keywords: NSListAgent, CreateDefaultExtAppEntity
 so.topic: reference
 ---
 	  

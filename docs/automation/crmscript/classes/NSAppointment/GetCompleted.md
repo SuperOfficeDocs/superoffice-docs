@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetCompleted
-description: Integer NSAppointment.GetCompleted()
+uid: crmscript_ref_NSAppointment_GetCompleted
+title: Integer GetCompleted()
 intellisense: NSAppointment.GetCompleted
 keywords: NSAppointment, GetCompleted
 so.topic: reference

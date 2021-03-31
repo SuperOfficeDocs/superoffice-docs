@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMassOperationResult_GetRowStatus
-description: UpsertRowStatusArray NSMassOperationResult.GetRowStatus()
+uid: crmscript_ref_NSMassOperationResult_GetRowStatus
+title: UpsertRowStatusArray GetRowStatus()
 intellisense: NSMassOperationResult.GetRowStatus
 keywords: NSMassOperationResult, GetRowStatus
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_RemoveSelectionMembersById
-description: Void RemoveSelectionMembersById(Integer selectionId, IntegerArray ids)
+uid: crmscript_ref_NSSelectionAgent_RemoveSelectionMembersById
+title: Void RemoveSelectionMembersById(Integer selectionId, IntegerArray ids)
 intellisense: NSSelectionAgent.RemoveSelectionMembersById
-keywords: NSSelectionAgent,RemoveSelectionMembersById
+keywords: NSSelectionAgent, RemoveSelectionMembersById
 so.topic: reference
 ---
 

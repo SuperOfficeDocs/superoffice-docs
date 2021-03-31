@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSNavigatorAgent
-description: NSNavigatorAgent
+uid: crmscript_ref_NSNavigatorAgent
+title: NSNavigatorAgent
 intellisense: Void.NSNavigatorAgent
 keywords: NSNavigatorAgent
 so.topic: reference

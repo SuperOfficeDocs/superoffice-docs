@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetUpdatedCount
-description: Integer NSFormEntity.GetUpdatedCount()
+uid: crmscript_ref_NSFormEntity_GetUpdatedCount
+title: Integer GetUpdatedCount()
 intellisense: NSFormEntity.GetUpdatedCount
 keywords: NSFormEntity, GetUpdatedCount
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CreateExternalUser
-description: Integer CreateExternalUser(Integer personId, String userName, String password, Integer roleId, Bool isActive)
+uid: crmscript_ref_NSUserAgent_CreateExternalUser
+title: Integer CreateExternalUser(Integer personId, String userName, String password, Integer roleId, Bool isActive)
 intellisense: NSUserAgent.CreateExternalUser
-keywords: NSUserAgent,CreateExternalUser
+keywords: NSUserAgent, CreateExternalUser
 so.topic: reference
 ---
 

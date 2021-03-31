@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetWelcomeTitle
-description: String NSChatWidgetSettings.GetWelcomeTitle()
+uid: crmscript_ref_NSChatWidgetSettings_GetWelcomeTitle
+title: String GetWelcomeTitle()
 intellisense: NSChatWidgetSettings.GetWelcomeTitle
 keywords: NSChatWidgetSettings, GetWelcomeTitle
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceConfigParameter_SetAudienceLayoutId
-description: NSAudienceConfigParameter.SetAudienceLayoutId(Integer audienceLayoutId)
+uid: crmscript_ref_NSAudienceConfigParameter_SetAudienceLayoutId
+title: SetAudienceLayoutId(Integer audienceLayoutId)
 intellisense: NSAudienceConfigParameter.SetAudienceLayoutId
 keywords: NSAudienceConfigParameter, GetAudienceLayoutId
 so.topic: reference

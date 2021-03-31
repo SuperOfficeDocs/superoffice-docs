@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionListMappingContainer_SetErpConnectionName
-description: NSErpConnectionListMappingContainer.SetErpConnectionName(String erpConnectionName)
+uid: crmscript_ref_NSErpConnectionListMappingContainer_SetErpConnectionName
+title: SetErpConnectionName(String erpConnectionName)
 intellisense: NSErpConnectionListMappingContainer.SetErpConnectionName
 keywords: NSErpConnectionListMappingContainer, GetErpConnectionName
 so.topic: reference

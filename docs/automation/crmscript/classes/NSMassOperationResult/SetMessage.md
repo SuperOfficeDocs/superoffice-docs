@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMassOperationResult_SetMessage
-description: NSMassOperationResult.SetMessage(String message)
+uid: crmscript_ref_NSMassOperationResult_SetMessage
+title: SetMessage(String message)
 intellisense: NSMassOperationResult.SetMessage
 keywords: NSMassOperationResult, GetMessage
 so.topic: reference

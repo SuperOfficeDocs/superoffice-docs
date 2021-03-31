@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetExtraFields
-description: NSAppointmentEntity.SetExtraFields(Map extras)
+uid: crmscript_ref_NSAppointmentEntity_SetExtraFields
+title: SetExtraFields(Map extras)
 intellisense: NSAppointmentEntity.SetExtraFields
 keywords: NSAppointmentEntity, SetExtraFields
 so.topic: reference
 ---
 
-Set the extra field values with a map.
+Set the extra field values on AppointmentEntity with a map.
 
 **Parameter:** 
  - **extras** Map containing extra field values encoded as strings.

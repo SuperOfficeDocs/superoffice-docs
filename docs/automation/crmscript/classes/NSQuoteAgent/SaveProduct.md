@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_SaveProduct
-description: NSProduct SaveProduct(NSProduct product);
+uid: crmscript_ref_NSQuoteAgent_SaveProduct
+title: NSProduct SaveProduct(NSProduct product);
 intellisense: NSQuoteAgent.SaveProduct
-keywords: NSQuoteAgent,SaveProduct
+keywords: NSQuoteAgent, SaveProduct
 so.topic: reference
 ---
 	  

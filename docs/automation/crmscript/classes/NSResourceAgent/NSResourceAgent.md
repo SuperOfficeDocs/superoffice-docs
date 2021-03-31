@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceAgent
-description: NSResourceAgent
+uid: crmscript_ref_NSResourceAgent
+title: NSResourceAgent
 intellisense: Void.NSResourceAgent
 keywords: NSResourceAgent
 so.topic: reference

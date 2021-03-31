@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetContact
-description: Contact NSChatSessionEntity.GetContact()
+uid: crmscript_ref_NSChatSessionEntity_GetContact
+title: Contact GetContact()
 intellisense: NSChatSessionEntity.GetContact
 keywords: NSChatSessionEntity, GetContact
 so.topic: reference

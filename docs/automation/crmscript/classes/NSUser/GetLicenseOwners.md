@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetLicenseOwners
-description: LicenseOwnerArray NSUser.GetLicenseOwners()
+uid: crmscript_ref_NSUser_GetLicenseOwners
+title: LicenseOwnerArray GetLicenseOwners()
 intellisense: NSUser.GetLicenseOwners
 keywords: NSUser, GetLicenseOwners
 so.topic: reference

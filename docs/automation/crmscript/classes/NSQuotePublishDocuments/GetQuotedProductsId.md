@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_GetQuotedProductsId
-description: Integer NSQuotePublishDocuments.GetQuotedProductsId()
+uid: crmscript_ref_NSQuotePublishDocuments_GetQuotedProductsId
+title: Integer GetQuotedProductsId()
 intellisense: NSQuotePublishDocuments.GetQuotedProductsId
 keywords: NSQuotePublishDocuments, GetQuotedProductsId
 so.topic: reference

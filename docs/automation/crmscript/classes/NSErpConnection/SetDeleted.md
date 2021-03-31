@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_SetDeleted
-description: NSErpConnection.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSErpConnection_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSErpConnection.SetDeleted
 keywords: NSErpConnection, GetDeleted
 so.topic: reference

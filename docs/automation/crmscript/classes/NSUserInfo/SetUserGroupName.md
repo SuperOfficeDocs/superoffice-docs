@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserInfo_SetUserGroupName
-description: NSUserInfo.SetUserGroupName(String userGroupName)
+uid: crmscript_ref_NSUserInfo_SetUserGroupName
+title: SetUserGroupName(String userGroupName)
 intellisense: NSUserInfo.SetUserGroupName
 keywords: NSUserInfo, GetUserGroupName
 so.topic: reference

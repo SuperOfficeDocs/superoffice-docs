@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_GetPreferenceByNameAndId
-description: Preference GetPreferenceByNameAndId(String prefSection, String prefKey, Integer prefLevel, Integer ownerId)
+uid: crmscript_ref_NSPreferenceAgent_GetPreferenceByNameAndId
+title: Preference GetPreferenceByNameAndId(String prefSection, String prefKey, Integer prefLevel, Integer ownerId)
 intellisense: NSPreferenceAgent.GetPreferenceByNameAndId
-keywords: NSPreferenceAgent,GetPreferenceByNameAndId
+keywords: NSPreferenceAgent, GetPreferenceByNameAndId
 so.topic: reference
 ---
 

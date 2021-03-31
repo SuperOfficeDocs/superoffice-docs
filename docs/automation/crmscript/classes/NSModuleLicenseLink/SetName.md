@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicenseLink_SetName
-description: NSModuleLicenseLink.SetName(String name)
+uid: crmscript_ref_NSModuleLicenseLink_SetName
+title: SetName(String name)
 intellisense: NSModuleLicenseLink.SetName
 keywords: NSModuleLicenseLink, GetName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_SetKananame
-description: NSContact.SetKananame(String kananame)
+uid: crmscript_ref_NSContact_SetKananame
+title: SetKananame(String kananame)
 intellisense: NSContact.SetKananame
 keywords: NSContact, GetKananame
 so.topic: reference

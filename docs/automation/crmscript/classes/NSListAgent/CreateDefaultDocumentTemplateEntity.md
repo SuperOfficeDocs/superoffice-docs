@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultDocumentTemplateEntity
-description: NSDocumentTemplateEntity CreateDefaultDocumentTemplateEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultDocumentTemplateEntity
+title: NSDocumentTemplateEntity CreateDefaultDocumentTemplateEntity()
 intellisense: NSListAgent.CreateDefaultDocumentTemplateEntity
-keywords: NSListAgent,CreateDefaultDocumentTemplateEntity
+keywords: NSListAgent, CreateDefaultDocumentTemplateEntity
 so.topic: reference
 ---
 	  

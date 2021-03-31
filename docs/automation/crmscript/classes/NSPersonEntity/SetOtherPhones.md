@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetOtherPhones
-description: NSPersonEntity.SetOtherPhones(EntityElementArray otherPhones)
+uid: crmscript_ref_NSPersonEntity_SetOtherPhones
+title: SetOtherPhones(EntityElementArray otherPhones)
 intellisense: NSPersonEntity.SetOtherPhones
 keywords: NSPersonEntity, GetOtherPhones
 so.topic: reference

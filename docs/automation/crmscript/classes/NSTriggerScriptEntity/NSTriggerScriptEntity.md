@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity
-description: NSTriggerScriptEntity
+uid: crmscript_ref_NSTriggerScriptEntity
+title: NSTriggerScriptEntity
 intellisense: Void.NSTriggerScriptEntity
 keywords: NSTriggerScriptEntity
 so.topic: reference

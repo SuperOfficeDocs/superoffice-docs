@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_ChangePersonImage
-description: Void ChangePersonImage(Integer personId, Integer blobId)
+uid: crmscript_ref_NSBLOBAgent_ChangePersonImage
+title: Void ChangePersonImage(Integer personId, Integer blobId)
 intellisense: NSBLOBAgent.ChangePersonImage
-keywords: NSBLOBAgent,ChangePersonImage
+keywords: NSBLOBAgent, ChangePersonImage
 so.topic: reference
 ---
 

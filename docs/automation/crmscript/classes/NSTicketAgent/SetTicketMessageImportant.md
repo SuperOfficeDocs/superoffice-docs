@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_SetTicketMessageImportant
-description: Void SetTicketMessageImportant(Integer ticketMessageId, Bool important)
+uid: crmscript_ref_NSTicketAgent_SetTicketMessageImportant
+title: Void SetTicketMessageImportant(Integer ticketMessageId, Bool important)
 intellisense: NSTicketAgent.SetTicketMessageImportant
-keywords: NSTicketAgent,SetTicketMessageImportant
+keywords: NSTicketAgent, SetTicketMessageImportant
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_DeleteSaleEntity
-description: DeleteSaleEntity(Integer saleEntity);
+uid: crmscript_ref_NSSaleAgent_DeleteSaleEntity
+title: DeleteSaleEntity(Integer saleEntity);
 intellisense: NSSaleAgent.DeleteSaleEntity
-keywords: NSSaleAgent,DeleteSaleEntity
+keywords: NSSaleAgent, DeleteSaleEntity
 so.topic: reference
 ---
 

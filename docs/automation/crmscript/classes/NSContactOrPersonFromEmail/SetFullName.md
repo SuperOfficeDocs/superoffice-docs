@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactOrPersonFromEmail_SetFullName
-description: NSContactOrPersonFromEmail.SetFullName(String fullName)
+uid: crmscript_ref_NSContactOrPersonFromEmail_SetFullName
+title: SetFullName(String fullName)
 intellisense: NSContactOrPersonFromEmail.SetFullName
 keywords: NSContactOrPersonFromEmail, GetFullName
 so.topic: reference

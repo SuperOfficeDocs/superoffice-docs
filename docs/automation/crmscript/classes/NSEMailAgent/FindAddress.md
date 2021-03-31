@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_FindAddress
-description: EMailAddressArray FindAddress(String address)
+uid: crmscript_ref_NSEMailAgent_FindAddress
+title: EMailAddressArray FindAddress(String address)
 intellisense: NSEMailAgent.FindAddress
-keywords: NSEMailAgent,FindAddress
+keywords: NSEMailAgent, FindAddress
 so.topic: reference
 ---
 

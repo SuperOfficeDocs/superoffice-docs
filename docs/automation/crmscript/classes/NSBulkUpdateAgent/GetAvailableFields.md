@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBulkUpdateAgent_GetAvailableFields
-description: FieldValueInfoArray GetAvailableFields(String tablename)
+uid: crmscript_ref_NSBulkUpdateAgent_GetAvailableFields
+title: FieldValueInfoArray GetAvailableFields(String tablename)
 intellisense: NSBulkUpdateAgent.GetAvailableFields
-keywords: NSBulkUpdateAgent,GetAvailableFields
+keywords: NSBulkUpdateAgent, GetAvailableFields
 so.topic: reference
 ---
 

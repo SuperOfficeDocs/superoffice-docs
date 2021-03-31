@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetKanalname
-description: NSPersonEntity.SetKanalname(String kanalname)
+uid: crmscript_ref_NSPersonEntity_SetKanalname
+title: SetKanalname(String kanalname)
 intellisense: NSPersonEntity.SetKanalname
 keywords: NSPersonEntity, GetKanalname
 so.topic: reference

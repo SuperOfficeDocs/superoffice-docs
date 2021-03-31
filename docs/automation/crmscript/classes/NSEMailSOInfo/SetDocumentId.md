@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailSOInfo_SetDocumentId
-description: NSEMailSOInfo.SetDocumentId(Integer documentId)
+uid: crmscript_ref_NSEMailSOInfo_SetDocumentId
+title: SetDocumentId(Integer documentId)
 intellisense: NSEMailSOInfo.SetDocumentId
 keywords: NSEMailSOInfo, GetDocumentId
 so.topic: reference

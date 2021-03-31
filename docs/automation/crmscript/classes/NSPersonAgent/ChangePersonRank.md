@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_ChangePersonRank
-description: Integer ChangePersonRank(Integer personId, Bool moveUp)
+uid: crmscript_ref_NSPersonAgent_ChangePersonRank
+title: Integer ChangePersonRank(Integer personId, Bool moveUp)
 intellisense: NSPersonAgent.ChangePersonRank
-keywords: NSPersonAgent,ChangePersonRank
+keywords: NSPersonAgent, ChangePersonRank
 so.topic: reference
 ---
 

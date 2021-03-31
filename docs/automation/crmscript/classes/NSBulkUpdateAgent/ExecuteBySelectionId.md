@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBulkUpdateAgent_ExecuteBySelectionId
-description: Integer ExecuteBySelectionId(FieldValueInfoArray fieldValueInfos, String tableName, String context, Integer selectionId, Bool isShadow)
+uid: crmscript_ref_NSBulkUpdateAgent_ExecuteBySelectionId
+title: Integer ExecuteBySelectionId(FieldValueInfoArray fieldValueInfos, String tableName, String context, Integer selectionId, Bool isShadow)
 intellisense: NSBulkUpdateAgent.ExecuteBySelectionId
-keywords: NSBulkUpdateAgent,ExecuteBySelectionId
+keywords: NSBulkUpdateAgent, ExecuteBySelectionId
 so.topic: reference
 ---
 

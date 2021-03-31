@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetPersonEntitiesFromEmailAddress
-description: PersonEntityArray GetPersonEntitiesFromEmailAddress(String emailAddress)
+uid: crmscript_ref_NSEMailAgent_GetPersonEntitiesFromEmailAddress
+title: PersonEntityArray GetPersonEntitiesFromEmailAddress(String emailAddress)
 intellisense: NSEMailAgent.GetPersonEntitiesFromEmailAddress
-keywords: NSEMailAgent,GetPersonEntitiesFromEmailAddress
+keywords: NSEMailAgent, GetPersonEntitiesFromEmailAddress
 so.topic: reference
 ---
 

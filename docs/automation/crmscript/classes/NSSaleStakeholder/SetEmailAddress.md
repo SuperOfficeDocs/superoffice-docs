@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_SetEmailAddress
-description: NSSaleStakeholder.SetEmailAddress(String emailAddress)
+uid: crmscript_ref_NSSaleStakeholder_SetEmailAddress
+title: SetEmailAddress(String emailAddress)
 intellisense: NSSaleStakeholder.SetEmailAddress
 keywords: NSSaleStakeholder, GetEmailAddress
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_SetRepliedAt
-description: Void SetRepliedAt(String messageId)
+uid: crmscript_ref_NSEMailAgent_SetRepliedAt
+title: Void SetRepliedAt(String messageId)
 intellisense: NSEMailAgent.SetRepliedAt
-keywords: NSEMailAgent,SetRepliedAt
+keywords: NSEMailAgent, SetRepliedAt
 so.topic: reference
 ---
 

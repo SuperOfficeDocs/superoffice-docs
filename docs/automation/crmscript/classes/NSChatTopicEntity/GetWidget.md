@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetWidget
-description: ChatWidgetSettings NSChatTopicEntity.GetWidget()
+uid: crmscript_ref_NSChatTopicEntity_GetWidget
+title: ChatWidgetSettings GetWidget()
 intellisense: NSChatTopicEntity.GetWidget
 keywords: NSChatTopicEntity, GetWidget
 so.topic: reference

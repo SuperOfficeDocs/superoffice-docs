@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity
-description: NSDiaryViewEntity
+uid: crmscript_ref_NSDiaryViewEntity
+title: NSDiaryViewEntity
 intellisense: Void.NSDiaryViewEntity
 keywords: NSDiaryViewEntity
 so.topic: reference

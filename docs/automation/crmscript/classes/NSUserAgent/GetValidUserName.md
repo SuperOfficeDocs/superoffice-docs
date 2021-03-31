@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetValidUserName
-description: String GetValidUserName(Integer associateId, Integer type, Integer personId, String userName)
+uid: crmscript_ref_NSUserAgent_GetValidUserName
+title: String GetValidUserName(Integer associateId, Integer type, Integer personId, String userName)
 intellisense: NSUserAgent.GetValidUserName
-keywords: NSUserAgent,GetValidUserName
+keywords: NSUserAgent, GetValidUserName
 so.topic: reference
 ---
 

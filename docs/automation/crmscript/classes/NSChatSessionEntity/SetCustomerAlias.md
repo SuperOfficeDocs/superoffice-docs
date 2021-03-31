@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetCustomerAlias
-description: NSChatSessionEntity.SetCustomerAlias(String customerAlias)
+uid: crmscript_ref_NSChatSessionEntity_SetCustomerAlias
+title: SetCustomerAlias(String customerAlias)
 intellisense: NSChatSessionEntity.SetCustomerAlias
 keywords: NSChatSessionEntity, GetCustomerAlias
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDeliveryTerm
-description: NSDeliveryTerm GetDeliveryTerm(Integer deliveryTermId);
+uid: crmscript_ref_NSListAgent_GetDeliveryTerm
+title: NSDeliveryTerm GetDeliveryTerm(Integer deliveryTermId);
 intellisense: NSListAgent.GetDeliveryTerm
-keywords: NSListAgent,GetDeliveryTerm
+keywords: NSListAgent, GetDeliveryTerm
 so.topic: reference
 ---
 

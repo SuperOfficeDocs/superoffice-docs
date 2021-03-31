@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetBusinesses
-description: BusinessArray GetBusinesses()
+uid: crmscript_ref_NSListAgent_GetBusinesses
+title: BusinessArray GetBusinesses()
 intellisense: NSListAgent.GetBusinesses
-keywords: NSListAgent,GetBusinesses
+keywords: NSListAgent, GetBusinesses
 so.topic: reference
 ---
 

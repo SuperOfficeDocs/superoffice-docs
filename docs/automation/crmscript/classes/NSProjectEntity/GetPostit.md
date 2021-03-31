@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetPostit
-description: String NSProjectEntity.GetPostit()
+uid: crmscript_ref_NSProjectEntity_GetPostit
+title: String GetPostit()
 intellisense: NSProjectEntity.GetPostit
 keywords: NSProjectEntity, GetPostit
 so.topic: reference

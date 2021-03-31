@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CreateDefaultProduct
-description: NSProduct CreateDefaultProduct()
+uid: crmscript_ref_NSQuoteAgent_CreateDefaultProduct
+title: NSProduct CreateDefaultProduct()
 intellisense: NSQuoteAgent.CreateDefaultProduct
-keywords: NSQuoteAgent,CreateDefaultProduct
+keywords: NSQuoteAgent, CreateDefaultProduct
 so.topic: reference
 ---
 	  

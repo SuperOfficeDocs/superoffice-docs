@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_GetType
-description: TicketMessageType NSTicketMessageEntity.GetType()
+uid: crmscript_ref_NSTicketMessageEntity_GetType
+title: TicketMessageType GetType()
 intellisense: NSTicketMessageEntity.GetType
 keywords: NSTicketMessageEntity, GetType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_GetUnique
-description: Bool NSRefCountEntity.GetUnique()
+uid: crmscript_ref_NSRefCountEntity_GetUnique
+title: Bool GetUnique()
 intellisense: NSRefCountEntity.GetUnique
 keywords: NSRefCountEntity, GetUnique
 so.topic: reference

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSSource_GetValue
-description: String NSSource.GetValue()
+uid: crmscript_ref_NSSource_GetValue
+title: String GetValue()
 intellisense: NSSource.GetValue
 keywords: NSSource, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the Source.
 
-**Returns:** String name
+**Returns:** String Source name.
 

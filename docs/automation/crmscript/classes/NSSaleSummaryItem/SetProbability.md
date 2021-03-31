@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummaryItem_SetProbability
-description: NSSaleSummaryItem.SetProbability(Integer probability)
+uid: crmscript_ref_NSSaleSummaryItem_SetProbability
+title: SetProbability(Integer probability)
 intellisense: NSSaleSummaryItem.SetProbability
 keywords: NSSaleSummaryItem, GetProbability
 so.topic: reference

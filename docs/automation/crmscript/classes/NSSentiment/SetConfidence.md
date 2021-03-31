@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSentiment_SetConfidence
-description: NSSentiment.SetConfidence(Integer confidence)
+uid: crmscript_ref_NSSentiment_SetConfidence
+title: SetConfidence(Integer confidence)
 intellisense: NSSentiment.SetConfidence
 keywords: NSSentiment, GetConfidence
 so.topic: reference

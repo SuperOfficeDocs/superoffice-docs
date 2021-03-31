@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTabOrder_GetAssociateId
-description: Integer NSTabOrder.GetAssociateId()
+uid: crmscript_ref_NSTabOrder_GetAssociateId
+title: Integer GetAssociateId()
 intellisense: NSTabOrder.GetAssociateId
 keywords: NSTabOrder, GetAssociateId
 so.topic: reference

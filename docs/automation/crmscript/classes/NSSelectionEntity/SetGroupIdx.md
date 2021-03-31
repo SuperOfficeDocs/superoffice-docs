@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetGroupIdx
-description: NSSelectionEntity.SetGroupIdx(Integer groupIdx)
+uid: crmscript_ref_NSSelectionEntity_SetGroupIdx
+title: SetGroupIdx(Integer groupIdx)
 intellisense: NSSelectionEntity.SetGroupIdx
 keywords: NSSelectionEntity, GetGroupIdx
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent_GetListNames
-description: StringArray GetListNames()
+uid: crmscript_ref_NSMDOAgent_GetListNames
+title: StringArray GetListNames()
 intellisense: NSMDOAgent.GetListNames
-keywords: NSMDOAgent,GetListNames
+keywords: NSMDOAgent, GetListNames
 so.topic: reference
 ---
 

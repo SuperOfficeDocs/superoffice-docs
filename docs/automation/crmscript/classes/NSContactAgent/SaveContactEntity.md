@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_SaveContactEntity
-description: NSContactEntity SaveContactEntity(NSContactEntity contactEntity);
+uid: crmscript_ref_NSContactAgent_SaveContactEntity
+title: NSContactEntity SaveContactEntity(NSContactEntity contactEntity);
 intellisense: NSContactAgent.SaveContactEntity
-keywords: NSContactAgent,SaveContactEntity
+keywords: NSContactAgent, SaveContactEntity
 so.topic: reference
 ---
 	  

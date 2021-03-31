@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetEngineStatus
-description: ErpSyncEngineStatus GetEngineStatus()
+uid: crmscript_ref_NSErpSyncAgent_GetEngineStatus
+title: ErpSyncEngineStatus GetEngineStatus()
 intellisense: NSErpSyncAgent.GetEngineStatus
-keywords: NSErpSyncAgent,GetEngineStatus
+keywords: NSErpSyncAgent, GetEngineStatus
 so.topic: reference
 ---
 

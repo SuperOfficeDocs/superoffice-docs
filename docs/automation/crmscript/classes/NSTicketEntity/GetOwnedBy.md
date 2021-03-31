@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetOwnedBy
-description: Associate NSTicketEntity.GetOwnedBy()
+uid: crmscript_ref_NSTicketEntity_GetOwnedBy
+title: Associate GetOwnedBy()
 intellisense: NSTicketEntity.GetOwnedBy
 keywords: NSTicketEntity, GetOwnedBy
 so.topic: reference

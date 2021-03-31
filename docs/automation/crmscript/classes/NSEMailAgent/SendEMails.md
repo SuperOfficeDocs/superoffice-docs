@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_SendEMails
-description: EMailEntityArray SendEMails(EMailConnectionInfo outgoingConnectionInfo, EMailEntityArray emails, EMailConnectionInfo sentItemsConnectionInfo)
+uid: crmscript_ref_NSEMailAgent_SendEMails
+title: EMailEntityArray SendEMails(EMailConnectionInfo outgoingConnectionInfo, EMailEntityArray emails, EMailConnectionInfo sentItemsConnectionInfo)
 intellisense: NSEMailAgent.SendEMails
-keywords: NSEMailAgent,SendEMails
+keywords: NSEMailAgent, SendEMails
 so.topic: reference
 ---
 

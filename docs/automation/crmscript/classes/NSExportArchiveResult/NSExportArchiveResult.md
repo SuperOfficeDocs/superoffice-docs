@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExportArchiveResult
-description: NSExportArchiveResult
+uid: crmscript_ref_NSExportArchiveResult
+title: NSExportArchiveResult
 intellisense: Void.NSExportArchiveResult
 keywords: NSExportArchiveResult
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_TestConnectionByConfig
-description: Bool TestConnectionByConfig(Integer erpConnectionId, StringDictionary configFields)
+uid: crmscript_ref_NSErpSyncAgent_TestConnectionByConfig
+title: Bool TestConnectionByConfig(Integer erpConnectionId, StringDictionary configFields)
 intellisense: NSErpSyncAgent.TestConnectionByConfig
-keywords: NSErpSyncAgent,TestConnectionByConfig
+keywords: NSErpSyncAgent, TestConnectionByConfig
 so.topic: reference
 ---
 

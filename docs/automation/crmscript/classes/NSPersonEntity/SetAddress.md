@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetAddress
-description: NSPersonEntity.SetAddress(Address address)
+uid: crmscript_ref_NSPersonEntity_SetAddress
+title: SetAddress(Address address)
 intellisense: NSPersonEntity.SetAddress
 keywords: NSPersonEntity, GetAddress
 so.topic: reference

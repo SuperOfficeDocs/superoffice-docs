@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetFriStart
-description: NSTicketPriorityEntity.SetFriStart(DateTime friStart)
+uid: crmscript_ref_NSTicketPriorityEntity_SetFriStart
+title: SetFriStart(DateTime friStart)
 intellisense: NSTicketPriorityEntity.SetFriStart
 keywords: NSTicketPriorityEntity, GetFriStart
 so.topic: reference

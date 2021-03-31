@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneRule_SetEndDay
-description: NSTimeZoneRule.SetEndDay(Integer endDay)
+uid: crmscript_ref_NSTimeZoneRule_SetEndDay
+title: SetEndDay(Integer endDay)
 intellisense: NSTimeZoneRule.SetEndDay
 keywords: NSTimeZoneRule, GetEndDay
 so.topic: reference

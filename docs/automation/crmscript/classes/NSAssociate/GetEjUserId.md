@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAssociate_GetEjUserId
-description: Integer NSAssociate.GetEjUserId()
+uid: crmscript_ref_NSAssociate_GetEjUserId
+title: Integer GetEjUserId()
 intellisense: NSAssociate.GetEjUserId
 keywords: NSAssociate, GetEjUserId
 so.topic: reference

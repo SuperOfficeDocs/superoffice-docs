@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetSubscriptionUnit
-description: String NSQuoteLine.GetSubscriptionUnit()
+uid: crmscript_ref_NSQuoteLine_GetSubscriptionUnit
+title: String GetSubscriptionUnit()
 intellisense: NSQuoteLine.GetSubscriptionUnit
 keywords: NSQuoteLine, GetSubscriptionUnit
 so.topic: reference

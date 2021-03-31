@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_RemoveUntrustedCredentials
-description: Void RemoveUntrustedCredentials(String type, String publicValue)
+uid: crmscript_ref_NSUserAgent_RemoveUntrustedCredentials
+title: Void RemoveUntrustedCredentials(String type, String publicValue)
 intellisense: NSUserAgent.RemoveUntrustedCredentials
-keywords: NSUserAgent,RemoveUntrustedCredentials
+keywords: NSUserAgent, RemoveUntrustedCredentials
 so.topic: reference
 ---
 

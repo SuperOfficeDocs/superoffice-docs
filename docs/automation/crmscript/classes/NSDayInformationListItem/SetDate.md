@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDayInformationListItem_SetDate
-description: NSDayInformationListItem.SetDate(DateTime date)
+uid: crmscript_ref_NSDayInformationListItem_SetDate
+title: SetDate(DateTime date)
 intellisense: NSDayInformationListItem.SetDate
 keywords: NSDayInformationListItem, GetDate
 so.topic: reference

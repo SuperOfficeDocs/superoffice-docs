@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetCrmActorType
-description: Integer GetCrmActorType(Integer erpConnectionId, Integer erpActorType)
+uid: crmscript_ref_NSErpSyncAgent_GetCrmActorType
+title: Integer GetCrmActorType(Integer erpConnectionId, Integer erpActorType)
 intellisense: NSErpSyncAgent.GetCrmActorType
-keywords: NSErpSyncAgent,GetCrmActorType
+keywords: NSErpSyncAgent, GetCrmActorType
 so.topic: reference
 ---
 

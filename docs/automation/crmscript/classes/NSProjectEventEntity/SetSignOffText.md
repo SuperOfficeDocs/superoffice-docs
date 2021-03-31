@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetSignOffText
-description: NSProjectEventEntity.SetSignOffText(String signOffText)
+uid: crmscript_ref_NSProjectEventEntity_SetSignOffText
+title: SetSignOffText(String signOffText)
 intellisense: NSProjectEventEntity.SetSignOffText
 keywords: NSProjectEventEntity, GetSignOffText
 so.topic: reference

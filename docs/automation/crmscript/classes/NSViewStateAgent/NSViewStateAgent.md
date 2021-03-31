@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSViewStateAgent
-description: NSViewStateAgent
+uid: crmscript_ref_NSViewStateAgent
+title: NSViewStateAgent
 intellisense: Void.NSViewStateAgent
 keywords: NSViewStateAgent
 so.topic: reference

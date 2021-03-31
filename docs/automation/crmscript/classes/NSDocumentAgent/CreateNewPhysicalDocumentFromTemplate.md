@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_CreateNewPhysicalDocumentFromTemplate
-description: DocumentEntity CreateNewPhysicalDocumentFromTemplate(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String uiCulture)
+uid: crmscript_ref_NSDocumentAgent_CreateNewPhysicalDocumentFromTemplate
+title: DocumentEntity CreateNewPhysicalDocumentFromTemplate(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String uiCulture)
 intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate
-keywords: NSDocumentAgent,CreateNewPhysicalDocumentFromTemplate
+keywords: NSDocumentAgent, CreateNewPhysicalDocumentFromTemplate
 so.topic: reference
 ---
 

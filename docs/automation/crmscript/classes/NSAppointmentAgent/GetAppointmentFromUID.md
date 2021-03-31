@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetAppointmentFromUID
-description: AppointmentEntity GetAppointmentFromUID(String uID)
+uid: crmscript_ref_NSAppointmentAgent_GetAppointmentFromUID
+title: AppointmentEntity GetAppointmentFromUID(String uID)
 intellisense: NSAppointmentAgent.GetAppointmentFromUID
-keywords: NSAppointmentAgent,GetAppointmentFromUID
+keywords: NSAppointmentAgent, GetAppointmentFromUID
 so.topic: reference
 ---
 

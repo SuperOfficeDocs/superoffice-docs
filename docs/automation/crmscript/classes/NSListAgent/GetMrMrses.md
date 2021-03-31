@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetMrMrses
-description: MrMrsArray GetMrMrses()
+uid: crmscript_ref_NSListAgent_GetMrMrses
+title: MrMrsArray GetMrMrses()
 intellisense: NSListAgent.GetMrMrses
-keywords: NSListAgent,GetMrMrses
+keywords: NSListAgent, GetMrMrses
 so.topic: reference
 ---
 

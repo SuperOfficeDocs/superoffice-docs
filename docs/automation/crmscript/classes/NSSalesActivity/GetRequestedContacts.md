@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSalesActivity_GetRequestedContacts
-description: ContactArray NSSalesActivity.GetRequestedContacts()
+uid: crmscript_ref_NSSalesActivity_GetRequestedContacts
+title: ContactArray GetRequestedContacts()
 intellisense: NSSalesActivity.GetRequestedContacts
 keywords: NSSalesActivity, GetRequestedContacts
 so.topic: reference

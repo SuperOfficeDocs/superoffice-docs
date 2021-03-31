@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetCompanyUnique
-description: Bool NSSelectionEntity.GetCompanyUnique()
+uid: crmscript_ref_NSSelectionEntity_GetCompanyUnique
+title: Bool GetCompanyUnique()
 intellisense: NSSelectionEntity.GetCompanyUnique
 keywords: NSSelectionEntity, GetCompanyUnique
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantInfo_SetInvitationStatus
-description: NSParticipantInfo.SetInvitationStatus(Integer invitationStatus)
+uid: crmscript_ref_NSParticipantInfo_SetInvitationStatus
+title: SetInvitationStatus(Integer invitationStatus)
 intellisense: NSParticipantInfo.SetInvitationStatus
 keywords: NSParticipantInfo, GetInvitationStatus
 so.topic: reference

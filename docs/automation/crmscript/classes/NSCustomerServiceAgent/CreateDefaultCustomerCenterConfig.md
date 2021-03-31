@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_CreateDefaultCustomerCenterConfig
-description: NSCustomerCenterConfig CreateDefaultCustomerCenterConfig()
+uid: crmscript_ref_NSCustomerServiceAgent_CreateDefaultCustomerCenterConfig
+title: NSCustomerCenterConfig CreateDefaultCustomerCenterConfig()
 intellisense: NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig
-keywords: NSCustomerServiceAgent,CreateDefaultCustomerCenterConfig
+keywords: NSCustomerServiceAgent, CreateDefaultCustomerCenterConfig
 so.topic: reference
 ---
 	  

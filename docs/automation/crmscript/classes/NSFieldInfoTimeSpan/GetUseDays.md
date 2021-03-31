@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoTimeSpan_GetUseDays
-description: Bool NSFieldInfoTimeSpan.GetUseDays()
+uid: crmscript_ref_NSFieldInfoTimeSpan_GetUseDays
+title: Bool GetUseDays()
 intellisense: NSFieldInfoTimeSpan.GetUseDays
 keywords: NSFieldInfoTimeSpan, GetUseDays
 so.topic: reference

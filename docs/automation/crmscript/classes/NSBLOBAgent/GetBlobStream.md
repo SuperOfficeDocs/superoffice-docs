@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetBlobStream
-description: Stream GetBlobStream(Integer blobEntityId)
+uid: crmscript_ref_NSBLOBAgent_GetBlobStream
+title: Stream GetBlobStream(Integer blobEntityId)
 intellisense: NSBLOBAgent.GetBlobStream
-keywords: NSBLOBAgent,GetBlobStream
+keywords: NSBLOBAgent, GetBlobStream
 so.topic: reference
 ---
 

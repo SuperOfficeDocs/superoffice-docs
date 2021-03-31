@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_CheckTemporaryKey
-description: TemporaryKeyInfo CheckTemporaryKey(String temporaryKey)
+uid: crmscript_ref_NSPersonAgent_CheckTemporaryKey
+title: TemporaryKeyInfo CheckTemporaryKey(String temporaryKey)
 intellisense: NSPersonAgent.CheckTemporaryKey
-keywords: NSPersonAgent,CheckTemporaryKey
+keywords: NSPersonAgent, CheckTemporaryKey
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetOfficePhones
-description: EntityElementArray NSPersonEntity.GetOfficePhones()
+uid: crmscript_ref_NSPersonEntity_GetOfficePhones
+title: EntityElementArray GetOfficePhones()
 intellisense: NSPersonEntity.GetOfficePhones
 keywords: NSPersonEntity, GetOfficePhones
 so.topic: reference

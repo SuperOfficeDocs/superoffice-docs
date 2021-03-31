@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetCountry
-description: NSContactEntity.SetCountry(Country country)
+uid: crmscript_ref_NSContactEntity_SetCountry
+title: SetCountry(Country country)
 intellisense: NSContactEntity.SetCountry
 keywords: NSContactEntity, GetCountry
 so.topic: reference

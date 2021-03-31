@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUpsertRowStatus_GetAction
-description: Integer NSUpsertRowStatus.GetAction()
+uid: crmscript_ref_NSUpsertRowStatus_GetAction
+title: Integer GetAction()
 intellisense: NSUpsertRowStatus.GetAction
 keywords: NSUpsertRowStatus, GetAction
 so.topic: reference

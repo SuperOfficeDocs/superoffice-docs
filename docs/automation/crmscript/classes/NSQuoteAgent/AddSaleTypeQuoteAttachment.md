@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_AddSaleTypeQuoteAttachment
-description: Integer AddSaleTypeQuoteAttachment(Integer saleTypeId, Integer documentId)
+uid: crmscript_ref_NSQuoteAgent_AddSaleTypeQuoteAttachment
+title: Integer AddSaleTypeQuoteAttachment(Integer saleTypeId, Integer documentId)
 intellisense: NSQuoteAgent.AddSaleTypeQuoteAttachment
-keywords: NSQuoteAgent,AddSaleTypeQuoteAttachment
+keywords: NSQuoteAgent, AddSaleTypeQuoteAttachment
 so.topic: reference
 ---
 

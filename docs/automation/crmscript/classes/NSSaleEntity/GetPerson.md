@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetPerson
-description: Person NSSaleEntity.GetPerson()
+uid: crmscript_ref_NSSaleEntity_GetPerson
+title: Person GetPerson()
 intellisense: NSSaleEntity.GetPerson
 keywords: NSSaleEntity, GetPerson
 so.topic: reference

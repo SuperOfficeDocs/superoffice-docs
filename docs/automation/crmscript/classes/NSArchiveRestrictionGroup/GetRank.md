@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionGroup_GetRank
-description: Integer NSArchiveRestrictionGroup.GetRank()
+uid: crmscript_ref_NSArchiveRestrictionGroup_GetRank
+title: Integer GetRank()
 intellisense: NSArchiveRestrictionGroup.GetRank
 keywords: NSArchiveRestrictionGroup, GetRank
 so.topic: reference

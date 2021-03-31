@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorTypeMapping
-description: NSErpSyncActorTypeMapping
+uid: crmscript_ref_NSErpSyncActorTypeMapping
+title: NSErpSyncActorTypeMapping
 intellisense: Void.NSErpSyncActorTypeMapping
 keywords: NSErpSyncActorTypeMapping
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCsSessionKey_GetUserId
-description: Integer NSCsSessionKey.GetUserId()
+uid: crmscript_ref_NSCsSessionKey_GetUserId
+title: Integer GetUserId()
 intellisense: NSCsSessionKey.GetUserId
 keywords: NSCsSessionKey, GetUserId
 so.topic: reference

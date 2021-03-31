@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_RequestForInfo
-description: SalesActivity RequestForInfo(Integer associateIdForNewContact, String channel, String regarding, String contactName, String personFirstname, String personLastname, String emailAddress, String phoneNumber)
+uid: crmscript_ref_NSAppointmentAgent_RequestForInfo
+title: SalesActivity RequestForInfo(Integer associateIdForNewContact, String channel, String regarding, String contactName, String personFirstname, String personLastname, String emailAddress, String phoneNumber)
 intellisense: NSAppointmentAgent.RequestForInfo
-keywords: NSAppointmentAgent,RequestForInfo
+keywords: NSAppointmentAgent, RequestForInfo
 so.topic: reference
 ---
 

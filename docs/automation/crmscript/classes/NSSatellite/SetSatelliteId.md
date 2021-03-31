@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSatellite_SetSatelliteId
-description: NSSatellite.SetSatelliteId(Integer satelliteId)
+uid: crmscript_ref_NSSatellite_SetSatelliteId
+title: SetSatelliteId(Integer satelliteId)
 intellisense: NSSatellite.SetSatelliteId
 keywords: NSSatellite, GetSatelliteId
 so.topic: reference

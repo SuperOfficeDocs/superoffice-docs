@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_HasChatNotify
-description: Bool HasChatNotify()
+uid: crmscript_ref_NSCustomerServiceAgent_HasChatNotify
+title: Bool HasChatNotify()
 intellisense: NSCustomerServiceAgent.HasChatNotify
-keywords: NSCustomerServiceAgent,HasChatNotify
+keywords: NSCustomerServiceAgent, HasChatNotify
 so.topic: reference
 ---
 

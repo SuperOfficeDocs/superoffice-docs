@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListItem_SetEntityName
-description: NSArchiveListItem.SetEntityName(String entityName)
+uid: crmscript_ref_NSArchiveListItem_SetEntityName
+title: SetEntityName(String entityName)
 intellisense: NSArchiveListItem.SetEntityName
 keywords: NSArchiveListItem, GetEntityName
 so.topic: reference

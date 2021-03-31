@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity_GetReversed
-description: Integer NSContactRelationEntity.GetReversed()
+uid: crmscript_ref_NSContactRelationEntity_GetReversed
+title: Integer GetReversed()
 intellisense: NSContactRelationEntity.GetReversed
 keywords: NSContactRelationEntity, GetReversed
 so.topic: reference

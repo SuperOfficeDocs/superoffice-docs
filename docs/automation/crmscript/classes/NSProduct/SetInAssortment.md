@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetInAssortment
-description: NSProduct.SetInAssortment(Bool inAssortment)
+uid: crmscript_ref_NSProduct_SetInAssortment
+title: SetInAssortment(Bool inAssortment)
 intellisense: NSProduct.SetInAssortment
 keywords: NSProduct, GetInAssortment
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity_SetAssocId
-description: NSDiaryViewEntity.SetAssocId(Integer assocId)
+uid: crmscript_ref_NSDiaryViewEntity_SetAssocId
+title: SetAssocId(Integer assocId)
 intellisense: NSDiaryViewEntity.SetAssocId
 keywords: NSDiaryViewEntity, GetAssocId
 so.topic: reference

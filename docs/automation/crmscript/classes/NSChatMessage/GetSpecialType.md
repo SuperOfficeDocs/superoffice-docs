@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatMessage_GetSpecialType
-description: ChatMessageSpecialType NSChatMessage.GetSpecialType()
+uid: crmscript_ref_NSChatMessage_GetSpecialType
+title: ChatMessageSpecialType GetSpecialType()
 intellisense: NSChatMessage.GetSpecialType
 keywords: NSChatMessage, GetSpecialType
 so.topic: reference

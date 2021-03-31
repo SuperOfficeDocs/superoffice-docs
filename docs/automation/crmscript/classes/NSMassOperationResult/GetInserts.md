@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMassOperationResult_GetInserts
-description: Integer NSMassOperationResult.GetInserts()
+uid: crmscript_ref_NSMassOperationResult_GetInserts
+title: Integer GetInserts()
 intellisense: NSMassOperationResult.GetInserts
 keywords: NSMassOperationResult, GetInserts
 so.topic: reference

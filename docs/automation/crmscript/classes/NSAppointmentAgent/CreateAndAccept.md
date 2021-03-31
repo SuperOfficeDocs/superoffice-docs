@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_CreateAndAccept
-description: Void CreateAndAccept(Integer emailItemId, Integer updateMode)
+uid: crmscript_ref_NSAppointmentAgent_CreateAndAccept
+title: Void CreateAndAccept(Integer emailItemId, Integer updateMode)
 intellisense: NSAppointmentAgent.CreateAndAccept
-keywords: NSAppointmentAgent,CreateAndAccept
+keywords: NSAppointmentAgent, CreateAndAccept
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_SaveErpConnectionSyncPriorities
-description: Bool SaveErpConnectionSyncPriorities(IntegerArray erpConnectionIds)
+uid: crmscript_ref_NSErpSyncAgent_SaveErpConnectionSyncPriorities
+title: Bool SaveErpConnectionSyncPriorities(IntegerArray erpConnectionIds)
 intellisense: NSErpSyncAgent.SaveErpConnectionSyncPriorities
-keywords: NSErpSyncAgent,SaveErpConnectionSyncPriorities
+keywords: NSErpSyncAgent, SaveErpConnectionSyncPriorities
 so.topic: reference
 ---
 

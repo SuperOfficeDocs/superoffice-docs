@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_SetSeen
-description: Void SetSeen(Integer appointmentId, Integer updateMode)
+uid: crmscript_ref_NSAppointmentAgent_SetSeen
+title: Void SetSeen(Integer appointmentId, Integer updateMode)
 intellisense: NSAppointmentAgent.SetSeen
-keywords: NSAppointmentAgent,SetSeen
+keywords: NSAppointmentAgent, SetSeen
 so.topic: reference
 ---
 

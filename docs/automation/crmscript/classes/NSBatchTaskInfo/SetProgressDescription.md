@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetProgressDescription
-description: NSBatchTaskInfo.SetProgressDescription(String progressDescription)
+uid: crmscript_ref_NSBatchTaskInfo_SetProgressDescription
+title: SetProgressDescription(String progressDescription)
 intellisense: NSBatchTaskInfo.SetProgressDescription
 keywords: NSBatchTaskInfo, GetProgressDescription
 so.topic: reference

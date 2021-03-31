@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_ChangeProjectImage
-description: Void ChangeProjectImage(Integer projectId, Integer blobId)
+uid: crmscript_ref_NSBLOBAgent_ChangeProjectImage
+title: Void ChangeProjectImage(Integer projectId, Integer blobId)
 intellisense: NSBLOBAgent.ChangeProjectImage
-keywords: NSBLOBAgent,ChangeProjectImage
+keywords: NSBLOBAgent, ChangeProjectImage
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo_GetIsActive
-description: Bool NSArchiveRestrictionInfo.GetIsActive()
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetIsActive
+title: Bool GetIsActive()
 intellisense: NSArchiveRestrictionInfo.GetIsActive
 keywords: NSArchiveRestrictionInfo, GetIsActive
 so.topic: reference

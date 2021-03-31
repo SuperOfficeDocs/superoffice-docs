@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_SetFormattedAddress
-description: NSContact.SetFormattedAddress(String formattedAddress)
+uid: crmscript_ref_NSContact_SetFormattedAddress
+title: SetFormattedAddress(String formattedAddress)
 intellisense: NSContact.SetFormattedAddress
 keywords: NSContact, GetFormattedAddress
 so.topic: reference

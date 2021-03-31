@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoAttachment
-description: NSFieldInfoAttachment
+uid: crmscript_ref_NSFieldInfoAttachment
+title: NSFieldInfoAttachment
 intellisense: Void.NSFieldInfoAttachment
 keywords: NSFieldInfoAttachment
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_CreateDefaultFormEntity
-description: NSFormEntity CreateDefaultFormEntity()
+uid: crmscript_ref_NSMarketingAgent_CreateDefaultFormEntity
+title: NSFormEntity CreateDefaultFormEntity()
 intellisense: NSMarketingAgent.CreateDefaultFormEntity
-keywords: NSMarketingAgent,CreateDefaultFormEntity
+keywords: NSMarketingAgent, CreateDefaultFormEntity
 so.topic: reference
 ---
 	  

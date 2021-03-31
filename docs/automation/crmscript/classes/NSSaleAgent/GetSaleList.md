@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetSaleList
-description: NSSale[] GetSaleList(Integer[]  saleIds);
+uid: crmscript_ref_NSSaleAgent_GetSaleList
+title: NSSale[] GetSaleList(Integer[]  saleIds);
 intellisense: NSSaleAgent.GetSaleList
-keywords: NSSaleAgent,GetSaleList
+keywords: NSSaleAgent, GetSaleList
 so.topic: reference
 ---
 

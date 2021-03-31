@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDeliveryTypes
-description: DeliveryTypeArray GetDeliveryTypes()
+uid: crmscript_ref_NSListAgent_GetDeliveryTypes
+title: DeliveryTypeArray GetDeliveryTypes()
 intellisense: NSListAgent.GetDeliveryTypes
-keywords: NSListAgent,GetDeliveryTypes
+keywords: NSListAgent, GetDeliveryTypes
 so.topic: reference
 ---
 

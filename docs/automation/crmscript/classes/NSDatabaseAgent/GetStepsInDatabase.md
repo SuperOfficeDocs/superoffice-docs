@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDatabaseAgent_GetStepsInDatabase
-description: DictionaryStepInformationArray GetStepsInDatabase()
+uid: crmscript_ref_NSDatabaseAgent_GetStepsInDatabase
+title: DictionaryStepInformationArray GetStepsInDatabase()
 intellisense: NSDatabaseAgent.GetStepsInDatabase
-keywords: NSDatabaseAgent,GetStepsInDatabase
+keywords: NSDatabaseAgent, GetStepsInDatabase
 so.topic: reference
 ---
 

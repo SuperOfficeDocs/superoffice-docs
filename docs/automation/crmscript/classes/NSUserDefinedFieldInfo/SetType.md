@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetType
-description: NSUserDefinedFieldInfo.SetType(Integer type)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetType
+title: SetType(Integer type)
 intellisense: NSUserDefinedFieldInfo.SetType
 keywords: NSUserDefinedFieldInfo, GetType
 so.topic: reference

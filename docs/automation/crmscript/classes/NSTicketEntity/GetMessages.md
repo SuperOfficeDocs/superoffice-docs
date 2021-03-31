@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetMessages
-description: TicketMessageArray NSTicketEntity.GetMessages()
+uid: crmscript_ref_NSTicketEntity_GetMessages
+title: TicketMessageArray GetMessages()
 intellisense: NSTicketEntity.GetMessages
 keywords: NSTicketEntity, GetMessages
 so.topic: reference

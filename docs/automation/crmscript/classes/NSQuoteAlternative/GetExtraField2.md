@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_GetExtraField2
-description: String NSQuoteAlternative.GetExtraField2()
+uid: crmscript_ref_NSQuoteAlternative_GetExtraField2
+title: String GetExtraField2()
 intellisense: NSQuoteAlternative.GetExtraField2
 keywords: NSQuoteAlternative, GetExtraField2
 so.topic: reference

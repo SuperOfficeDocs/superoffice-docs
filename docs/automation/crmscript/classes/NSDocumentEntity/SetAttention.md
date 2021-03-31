@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetAttention
-description: NSDocumentEntity.SetAttention(String attention)
+uid: crmscript_ref_NSDocumentEntity_SetAttention
+title: SetAttention(String attention)
 intellisense: NSDocumentEntity.SetAttention
 keywords: NSDocumentEntity, GetAttention
 so.topic: reference

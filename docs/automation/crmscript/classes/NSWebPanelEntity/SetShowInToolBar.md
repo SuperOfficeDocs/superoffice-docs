@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetShowInToolBar
-description: NSWebPanelEntity.SetShowInToolBar(Bool showInToolBar)
+uid: crmscript_ref_NSWebPanelEntity_SetShowInToolBar
+title: SetShowInToolBar(Bool showInToolBar)
 intellisense: NSWebPanelEntity.SetShowInToolBar
 keywords: NSWebPanelEntity, GetShowInToolBar
 so.topic: reference

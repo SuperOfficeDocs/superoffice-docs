@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetTitle
-description: NSSale.SetTitle(String title)
+uid: crmscript_ref_NSSale_SetTitle
+title: SetTitle(String title)
 intellisense: NSSale.SetTitle
 keywords: NSSale, GetTitle
 so.topic: reference

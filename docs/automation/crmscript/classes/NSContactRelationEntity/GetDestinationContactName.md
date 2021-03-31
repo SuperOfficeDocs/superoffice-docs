@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity_GetDestinationContactName
-description: String NSContactRelationEntity.GetDestinationContactName()
+uid: crmscript_ref_NSContactRelationEntity_GetDestinationContactName
+title: String GetDestinationContactName()
 intellisense: NSContactRelationEntity.GetDestinationContactName
 keywords: NSContactRelationEntity, GetDestinationContactName
 so.topic: reference

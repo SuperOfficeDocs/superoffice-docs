@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_SetDashboardTileId
-description: NSDashboardTile.SetDashboardTileId(Integer dashboardTileId)
+uid: crmscript_ref_NSDashboardTile_SetDashboardTileId
+title: SetDashboardTileId(Integer dashboardTileId)
 intellisense: NSDashboardTile.SetDashboardTileId
 keywords: NSDashboardTile, GetDashboardTileId
 so.topic: reference

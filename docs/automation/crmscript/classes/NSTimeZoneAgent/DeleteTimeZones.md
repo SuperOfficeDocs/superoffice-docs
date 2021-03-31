@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_DeleteTimeZones
-description: Void DeleteTimeZones()
+uid: crmscript_ref_NSTimeZoneAgent_DeleteTimeZones
+title: Void DeleteTimeZones()
 intellisense: NSTimeZoneAgent.DeleteTimeZones
-keywords: NSTimeZoneAgent,DeleteTimeZones
+keywords: NSTimeZoneAgent, DeleteTimeZones
 so.topic: reference
 ---
 

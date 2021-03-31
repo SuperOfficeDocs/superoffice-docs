@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_SetFullName
-description: NSMDOListItem.SetFullName(String fullName)
+uid: crmscript_ref_NSMDOListItem_SetFullName
+title: SetFullName(String fullName)
 intellisense: NSMDOListItem.SetFullName
 keywords: NSMDOListItem, GetFullName
 so.topic: reference

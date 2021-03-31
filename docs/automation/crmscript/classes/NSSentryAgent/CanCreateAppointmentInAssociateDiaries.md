@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSentryAgent_CanCreateAppointmentInAssociateDiaries
-description: Bool CanCreateAppointmentInAssociateDiaries(IntegerArray associateIds)
+uid: crmscript_ref_NSSentryAgent_CanCreateAppointmentInAssociateDiaries
+title: Bool CanCreateAppointmentInAssociateDiaries(IntegerArray associateIds)
 intellisense: NSSentryAgent.CanCreateAppointmentInAssociateDiaries
-keywords: NSSentryAgent,CanCreateAppointmentInAssociateDiaries
+keywords: NSSentryAgent, CanCreateAppointmentInAssociateDiaries
 so.topic: reference
 ---
 

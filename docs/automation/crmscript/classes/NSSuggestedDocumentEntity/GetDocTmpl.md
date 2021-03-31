@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedDocumentEntity_GetDocTmpl
-description: DocumentTemplate NSSuggestedDocumentEntity.GetDocTmpl()
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetDocTmpl
+title: DocumentTemplate GetDocTmpl()
 intellisense: NSSuggestedDocumentEntity.GetDocTmpl
 keywords: NSSuggestedDocumentEntity, GetDocTmpl
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_CreateNewPhysicalDocumentFromTemplateWithCustomTags
-description: DocumentEntity CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, StringArray customTags, StringArray customValues, String uiCulture)
+uid: crmscript_ref_NSDocumentAgent_CreateNewPhysicalDocumentFromTemplateWithCustomTags
+title: DocumentEntity CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, StringArray customTags, StringArray customValues, String uiCulture)
 intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags
-keywords: NSDocumentAgent,CreateNewPhysicalDocumentFromTemplateWithCustomTags
+keywords: NSDocumentAgent, CreateNewPhysicalDocumentFromTemplateWithCustomTags
 so.topic: reference
 ---
 

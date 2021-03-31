@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignKey_GetUpdatedBy
-description: String NSForeignKey.GetUpdatedBy()
+uid: crmscript_ref_NSForeignKey_GetUpdatedBy
+title: String GetUpdatedBy()
 intellisense: NSForeignKey.GetUpdatedBy
 keywords: NSForeignKey, GetUpdatedBy
 so.topic: reference

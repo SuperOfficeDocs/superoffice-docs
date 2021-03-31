@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetNextDueDate
-description: NSSaleEntity.SetNextDueDate(DateTime nextDueDate)
+uid: crmscript_ref_NSSaleEntity_SetNextDueDate
+title: SetNextDueDate(DateTime nextDueDate)
 intellisense: NSSaleEntity.SetNextDueDate
 keywords: NSSaleEntity, GetNextDueDate
 so.topic: reference

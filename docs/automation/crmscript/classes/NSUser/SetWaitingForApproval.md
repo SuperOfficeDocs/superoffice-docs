@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetWaitingForApproval
-description: NSUser.SetWaitingForApproval(Bool waitingForApproval)
+uid: crmscript_ref_NSUser_SetWaitingForApproval
+title: SetWaitingForApproval(Bool waitingForApproval)
 intellisense: NSUser.SetWaitingForApproval
 keywords: NSUser, GetWaitingForApproval
 so.topic: reference

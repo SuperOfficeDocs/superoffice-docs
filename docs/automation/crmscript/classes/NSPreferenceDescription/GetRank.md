@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_GetRank
-description: Integer NSPreferenceDescription.GetRank()
+uid: crmscript_ref_NSPreferenceDescription_GetRank
+title: Integer GetRank()
 intellisense: NSPreferenceDescription.GetRank
 keywords: NSPreferenceDescription, GetRank
 so.topic: reference

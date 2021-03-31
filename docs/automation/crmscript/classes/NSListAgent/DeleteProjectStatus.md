@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_DeleteProjectStatus
-description: Void DeleteProjectStatus(Integer projectStatusId)
+uid: crmscript_ref_NSListAgent_DeleteProjectStatus
+title: Void DeleteProjectStatus(Integer projectStatusId)
 intellisense: NSListAgent.DeleteProjectStatus
-keywords: NSListAgent,DeleteProjectStatus
+keywords: NSListAgent, DeleteProjectStatus
 so.topic: reference
 ---
 

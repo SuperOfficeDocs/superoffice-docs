@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneData_SetName
-description: NSTimeZoneData.SetName(String name)
+uid: crmscript_ref_NSTimeZoneData_SetName
+title: SetName(String name)
 intellisense: NSTimeZoneData.SetName
 keywords: NSTimeZoneData, GetName
 so.topic: reference

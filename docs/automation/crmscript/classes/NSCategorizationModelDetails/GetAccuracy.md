@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategorizationModelDetails_GetAccuracy
-description: Float NSCategorizationModelDetails.GetAccuracy()
+uid: crmscript_ref_NSCategorizationModelDetails_GetAccuracy
+title: Float GetAccuracy()
 intellisense: NSCategorizationModelDetails.GetAccuracy
 keywords: NSCategorizationModelDetails, GetAccuracy
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_GetAvailableRestrictionColumns
-description: StringArray GetAvailableRestrictionColumns(String storageType, String providerName)
+uid: crmscript_ref_NSFindAgent_GetAvailableRestrictionColumns
+title: StringArray GetAvailableRestrictionColumns(String storageType, String providerName)
 intellisense: NSFindAgent.GetAvailableRestrictionColumns
-keywords: NSFindAgent,GetAvailableRestrictionColumns
+keywords: NSFindAgent, GetAvailableRestrictionColumns
 so.topic: reference
 ---
 

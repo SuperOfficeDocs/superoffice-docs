@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetDefaultQuoteValidity
-description: NSSaleTypeEntity.SetDefaultQuoteValidity(Integer defaultQuoteValidity)
+uid: crmscript_ref_NSSaleTypeEntity_SetDefaultQuoteValidity
+title: SetDefaultQuoteValidity(Integer defaultQuoteValidity)
 intellisense: NSSaleTypeEntity.SetDefaultQuoteValidity
 keywords: NSSaleTypeEntity, GetDefaultQuoteValidity
 so.topic: reference

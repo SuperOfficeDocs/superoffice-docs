@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetTicketCategoriesForUserGroups
-description: MDOListItemArray GetTicketCategoriesForUserGroups(IntegerArray userGroupIds)
+uid: crmscript_ref_NSListAgent_GetTicketCategoriesForUserGroups
+title: MDOListItemArray GetTicketCategoriesForUserGroups(IntegerArray userGroupIds)
 intellisense: NSListAgent.GetTicketCategoriesForUserGroups
-keywords: NSListAgent,GetTicketCategoriesForUserGroups
+keywords: NSListAgent, GetTicketCategoriesForUserGroups
 so.topic: reference
 ---
 

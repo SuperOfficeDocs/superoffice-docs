@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_GetFlags
-description: Integer NSEMailEntity.GetFlags()
+uid: crmscript_ref_NSEMailEntity_GetFlags
+title: Integer GetFlags()
 intellisense: NSEMailEntity.GetFlags
 keywords: NSEMailEntity, GetFlags
 so.topic: reference

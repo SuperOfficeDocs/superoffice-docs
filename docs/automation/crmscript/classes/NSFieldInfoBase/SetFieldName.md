@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_SetFieldName
-description: NSFieldInfoBase.SetFieldName(String fieldName)
+uid: crmscript_ref_NSFieldInfoBase_SetFieldName
+title: SetFieldName(String fieldName)
 intellisense: NSFieldInfoBase.SetFieldName
 keywords: NSFieldInfoBase, GetFieldName
 so.topic: reference

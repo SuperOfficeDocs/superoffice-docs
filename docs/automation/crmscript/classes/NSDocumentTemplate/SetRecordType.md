@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplate_SetRecordType
-description: NSDocumentTemplate.SetRecordType(DocTmplType recordType)
+uid: crmscript_ref_NSDocumentTemplate_SetRecordType
+title: SetRecordType(DocTmplType recordType)
 intellisense: NSDocumentTemplate.SetRecordType
 keywords: NSDocumentTemplate, GetRecordType
 so.topic: reference

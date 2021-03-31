@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorSummary_GetHasMappings
-description: Bool NSErpSyncActorSummary.GetHasMappings()
+uid: crmscript_ref_NSErpSyncActorSummary_GetHasMappings
+title: Bool GetHasMappings()
 intellisense: NSErpSyncActorSummary.GetHasMappings
 keywords: NSErpSyncActorSummary, GetHasMappings
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetMotherAssociate
-description: NSAppointmentEntity.SetMotherAssociate(Associate motherAssociate)
+uid: crmscript_ref_NSAppointmentEntity_SetMotherAssociate
+title: SetMotherAssociate(Associate motherAssociate)
 intellisense: NSAppointmentEntity.SetMotherAssociate
 keywords: NSAppointmentEntity, GetMotherAssociate
 so.topic: reference

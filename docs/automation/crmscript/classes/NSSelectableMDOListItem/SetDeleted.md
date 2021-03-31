@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetDeleted
-description: NSSelectableMDOListItem.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSSelectableMDOListItem_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSSelectableMDOListItem.SetDeleted
 keywords: NSSelectableMDOListItem, GetDeleted
 so.topic: reference

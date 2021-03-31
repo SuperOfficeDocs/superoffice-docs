@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_GetContactCategory
-description: String NSParticipantSyncData.GetContactCategory()
+uid: crmscript_ref_NSParticipantSyncData_GetContactCategory
+title: String GetContactCategory()
 intellisense: NSParticipantSyncData.GetContactCategory
 keywords: NSParticipantSyncData, GetContactCategory
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_RenameDocument
-description: String RenameDocument(Integer documentId, String newFilename)
+uid: crmscript_ref_NSDocumentAgent_RenameDocument
+title: String RenameDocument(Integer documentId, String newFilename)
 intellisense: NSDocumentAgent.RenameDocument
-keywords: NSDocumentAgent,RenameDocument
+keywords: NSDocumentAgent, RenameDocument
 so.topic: reference
 ---
 

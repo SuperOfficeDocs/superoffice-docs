@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetRecaptchaMode
-description: Integer NSFormEntity.GetRecaptchaMode()
+uid: crmscript_ref_NSFormEntity_GetRecaptchaMode
+title: Integer GetRecaptchaMode()
 intellisense: NSFormEntity.GetRecaptchaMode
 keywords: NSFormEntity, GetRecaptchaMode
 so.topic: reference

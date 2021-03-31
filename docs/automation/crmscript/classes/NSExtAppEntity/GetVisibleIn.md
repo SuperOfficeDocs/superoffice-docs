@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetVisibleIn
-description: Integer NSExtAppEntity.GetVisibleIn()
+uid: crmscript_ref_NSExtAppEntity_GetVisibleIn
+title: Integer GetVisibleIn()
 intellisense: NSExtAppEntity.GetVisibleIn
 keywords: NSExtAppEntity, GetVisibleIn
 so.topic: reference

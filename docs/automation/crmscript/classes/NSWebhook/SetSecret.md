@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_SetSecret
-description: NSWebhook.SetSecret(String secret)
+uid: crmscript_ref_NSWebhook_SetSecret
+title: SetSecret(String secret)
 intellisense: NSWebhook.SetSecret
 keywords: NSWebhook, GetSecret
 so.topic: reference

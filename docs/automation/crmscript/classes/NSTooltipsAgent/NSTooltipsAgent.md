@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTooltipsAgent
-description: NSTooltipsAgent
+uid: crmscript_ref_NSTooltipsAgent
+title: NSTooltipsAgent
 intellisense: Void.NSTooltipsAgent
 keywords: NSTooltipsAgent
 so.topic: reference

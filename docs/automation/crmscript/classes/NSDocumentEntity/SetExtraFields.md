@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetExtraFields
-description: NSDocumentEntity.SetExtraFields(Map extras)
+uid: crmscript_ref_NSDocumentEntity_SetExtraFields
+title: SetExtraFields(Map extras)
 intellisense: NSDocumentEntity.SetExtraFields
 keywords: NSDocumentEntity, SetExtraFields
 so.topic: reference
 ---
 
-Set the extra field values with a map.
+Set the extra field values on DocumentEntity with a map.
 
 **Parameter:** 
  - **extras** Map containing extra field values encoded as strings.

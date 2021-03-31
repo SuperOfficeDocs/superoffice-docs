@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByAssociatesAndState
-description: BatchTaskInfoArray GetBatchTaskInfosByAssociatesAndState(IntegerArray associateIds, Integer state)
+uid: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByAssociatesAndState
+title: BatchTaskInfoArray GetBatchTaskInfosByAssociatesAndState(IntegerArray associateIds, Integer state)
 intellisense: NSBatchAgent.GetBatchTaskInfosByAssociatesAndState
-keywords: NSBatchAgent,GetBatchTaskInfosByAssociatesAndState
+keywords: NSBatchAgent, GetBatchTaskInfosByAssociatesAndState
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_SetUseCategories
-description: NSRoleEntity.SetUseCategories(Integer useCategories)
+uid: crmscript_ref_NSRoleEntity_SetUseCategories
+title: SetUseCategories(Integer useCategories)
 intellisense: NSRoleEntity.SetUseCategories
 keywords: NSRoleEntity, GetUseCategories
 so.topic: reference

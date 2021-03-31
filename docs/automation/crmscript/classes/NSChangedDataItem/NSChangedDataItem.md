@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChangedDataItem
-description: NSChangedDataItem
+uid: crmscript_ref_NSChangedDataItem
+title: NSChangedDataItem
 intellisense: Void.NSChangedDataItem
 keywords: NSChangedDataItem
 so.topic: reference

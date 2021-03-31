@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetSnum
-description: NSDocumentEntity.SetSnum(Integer snum)
+uid: crmscript_ref_NSDocumentEntity_SetSnum
+title: SetSnum(Integer snum)
 intellisense: NSDocumentEntity.SetSnum
 keywords: NSDocumentEntity, GetSnum
 so.topic: reference

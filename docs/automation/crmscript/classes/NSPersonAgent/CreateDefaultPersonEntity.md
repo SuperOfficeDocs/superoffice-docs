@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_CreateDefaultPersonEntity
-description: NSPersonEntity CreateDefaultPersonEntity()
+uid: crmscript_ref_NSPersonAgent_CreateDefaultPersonEntity
+title: NSPersonEntity CreateDefaultPersonEntity()
 intellisense: NSPersonAgent.CreateDefaultPersonEntity
-keywords: NSPersonAgent,CreateDefaultPersonEntity
+keywords: NSPersonAgent, CreateDefaultPersonEntity
 so.topic: reference
 ---
 	  

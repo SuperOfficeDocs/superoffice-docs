@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_SetShowInSearch
-description: NSErpSyncFieldMapping.SetShowInSearch(Bool showInSearch)
+uid: crmscript_ref_NSErpSyncFieldMapping_SetShowInSearch
+title: SetShowInSearch(Bool showInSearch)
 intellisense: NSErpSyncFieldMapping.SetShowInSearch
 keywords: NSErpSyncFieldMapping, GetShowInSearch
 so.topic: reference

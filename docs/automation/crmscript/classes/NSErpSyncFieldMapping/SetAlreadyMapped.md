@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_SetAlreadyMapped
-description: NSErpSyncFieldMapping.SetAlreadyMapped(Bool alreadyMapped)
+uid: crmscript_ref_NSErpSyncFieldMapping_SetAlreadyMapped
+title: SetAlreadyMapped(Bool alreadyMapped)
 intellisense: NSErpSyncFieldMapping.SetAlreadyMapped
 keywords: NSErpSyncFieldMapping, GetAlreadyMapped
 so.topic: reference

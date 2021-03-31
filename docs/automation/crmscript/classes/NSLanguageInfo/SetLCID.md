@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLanguageInfo_SetLCID
-description: NSLanguageInfo.SetLCID(Integer lCID)
+uid: crmscript_ref_NSLanguageInfo_SetLCID
+title: SetLCID(Integer lCID)
 intellisense: NSLanguageInfo.SetLCID
 keywords: NSLanguageInfo, GetLCID
 so.topic: reference

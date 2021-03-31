@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetName
-description: String NSWebhook.GetName()
+uid: crmscript_ref_NSWebhook_GetName
+title: String GetName()
 intellisense: NSWebhook.GetName
 keywords: NSWebhook, GetName
 so.topic: reference

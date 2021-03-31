@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_GetNumOpened
-description: Integer NSPreviewMailingHeader.GetNumOpened()
+uid: crmscript_ref_NSPreviewMailingHeader_GetNumOpened
+title: Integer GetNumOpened()
 intellisense: NSPreviewMailingHeader.GetNumOpened
 keywords: NSPreviewMailingHeader, GetNumOpened
 so.topic: reference

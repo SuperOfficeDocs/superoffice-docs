@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetContact
-description: Contact NSSaleEntity.GetContact()
+uid: crmscript_ref_NSSaleEntity_GetContact
+title: Contact GetContact()
 intellisense: NSSaleEntity.GetContact
 keywords: NSSaleEntity, GetContact
 so.topic: reference

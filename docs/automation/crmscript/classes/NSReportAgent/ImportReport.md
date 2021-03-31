@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_ImportReport
-description: Integer ImportReport(String report)
+uid: crmscript_ref_NSReportAgent_ImportReport
+title: Integer ImportReport(String report)
 intellisense: NSReportAgent.ImportReport
-keywords: NSReportAgent,ImportReport
+keywords: NSReportAgent, ImportReport
 so.topic: reference
 ---
 

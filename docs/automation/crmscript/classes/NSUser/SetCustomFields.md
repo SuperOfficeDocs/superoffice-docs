@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSUser_SetCustomFields
-description: NSUser.SetCustomFields(Map udefs)
+uid: crmscript_ref_NSUser_SetCustomFields
+title: SetCustomFields(Map udefs)
 intellisense: NSUser.SetCustomFields
 keywords: NSUser, SetCustomFields
 so.topic: reference
 ---
 
-Set the user-defined and extra fields as a map.
+Set the user-defined and extra fields on a User with a map.
 
 **Parameter:** 
  - **udefs** Map user defined field and extra field values encoded as strings.

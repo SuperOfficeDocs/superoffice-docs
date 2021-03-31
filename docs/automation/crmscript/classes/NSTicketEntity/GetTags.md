@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetTags
-description: TagArray NSTicketEntity.GetTags()
+uid: crmscript_ref_NSTicketEntity_GetTags
+title: TagArray GetTags()
 intellisense: NSTicketEntity.GetTags
 keywords: NSTicketEntity, GetTags
 so.topic: reference

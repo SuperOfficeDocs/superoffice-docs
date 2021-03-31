@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment_SetCalMethod
-description: NSEMailAppointment.SetCalMethod(Integer calMethod)
+uid: crmscript_ref_NSEMailAppointment_SetCalMethod
+title: SetCalMethod(Integer calMethod)
 intellisense: NSEMailAppointment.SetCalMethod
 keywords: NSEMailAppointment, GetCalMethod
 so.topic: reference

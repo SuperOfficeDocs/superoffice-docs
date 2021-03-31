@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetIsSent
-description: NSEMailEntity.SetIsSent(Bool isSent)
+uid: crmscript_ref_NSEMailEntity_SetIsSent
+title: SetIsSent(Bool isSent)
 intellisense: NSEMailEntity.SetIsSent
 keywords: NSEMailEntity, GetIsSent
 so.topic: reference

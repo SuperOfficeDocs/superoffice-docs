@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_GetSaleId
-description: Integer NSTemplateVariablesParameters.GetSaleId()
+uid: crmscript_ref_NSTemplateVariablesParameters_GetSaleId
+title: Integer GetSaleId()
 intellisense: NSTemplateVariablesParameters.GetSaleId
 keywords: NSTemplateVariablesParameters, GetSaleId
 so.topic: reference

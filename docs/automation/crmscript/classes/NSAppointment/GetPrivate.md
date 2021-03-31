@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetPrivate
-description: AppointmentPrivate NSAppointment.GetPrivate()
+uid: crmscript_ref_NSAppointment_GetPrivate
+title: AppointmentPrivate GetPrivate()
 intellisense: NSAppointment.GetPrivate
 keywords: NSAppointment, GetPrivate
 so.topic: reference

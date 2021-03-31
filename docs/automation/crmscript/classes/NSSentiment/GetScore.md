@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSentiment_GetScore
-description: Integer NSSentiment.GetScore()
+uid: crmscript_ref_NSSentiment_GetScore
+title: Integer GetScore()
 intellisense: NSSentiment.GetScore
 keywords: NSSentiment, GetScore
 so.topic: reference

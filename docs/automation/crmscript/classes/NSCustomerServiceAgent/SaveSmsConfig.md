@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_SaveSmsConfig
-description: NSSmsConfig SaveSmsConfig(NSSmsConfig smsConfig);
+uid: crmscript_ref_NSCustomerServiceAgent_SaveSmsConfig
+title: NSSmsConfig SaveSmsConfig(NSSmsConfig smsConfig);
 intellisense: NSCustomerServiceAgent.SaveSmsConfig
-keywords: NSCustomerServiceAgent,SaveSmsConfig
+keywords: NSCustomerServiceAgent, SaveSmsConfig
 so.topic: reference
 ---
 	  

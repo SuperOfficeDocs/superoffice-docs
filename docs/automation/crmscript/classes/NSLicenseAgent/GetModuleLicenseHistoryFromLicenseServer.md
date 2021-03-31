@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_GetModuleLicenseHistoryFromLicenseServer
-description: String GetModuleLicenseHistoryFromLicenseServer(ExtendedLicenseInfo licenseInfo, ExtendedModuleLicense moduleLicense)
+uid: crmscript_ref_NSLicenseAgent_GetModuleLicenseHistoryFromLicenseServer
+title: String GetModuleLicenseHistoryFromLicenseServer(ExtendedLicenseInfo licenseInfo, ExtendedModuleLicense moduleLicense)
 intellisense: NSLicenseAgent.GetModuleLicenseHistoryFromLicenseServer
-keywords: NSLicenseAgent,GetModuleLicenseHistoryFromLicenseServer
+keywords: NSLicenseAgent, GetModuleLicenseHistoryFromLicenseServer
 so.topic: reference
 ---
 

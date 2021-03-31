@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_SetDuration
-description: NSPocketNotificationMessage.SetDuration(TimeSpan duration)
+uid: crmscript_ref_NSPocketNotificationMessage_SetDuration
+title: SetDuration(TimeSpan duration)
 intellisense: NSPocketNotificationMessage.SetDuration
 keywords: NSPocketNotificationMessage, GetDuration
 so.topic: reference

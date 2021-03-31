@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetExtraInfo
-description: NSQuoteLine.SetExtraInfo(ProductExtraDataFieldArray extraInfo)
+uid: crmscript_ref_NSQuoteLine_SetExtraInfo
+title: SetExtraInfo(ProductExtraDataFieldArray extraInfo)
 intellisense: NSQuoteLine.SetExtraInfo
 keywords: NSQuoteLine, GetExtraInfo
 so.topic: reference

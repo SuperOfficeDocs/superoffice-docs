@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetIsPersonRetired
-description: Bool NSUser.GetIsPersonRetired()
+uid: crmscript_ref_NSUser_GetIsPersonRetired
+title: Bool GetIsPersonRetired()
 intellisense: NSUser.GetIsPersonRetired
 keywords: NSUser, GetIsPersonRetired
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_Accept
-description: Void Accept(Integer appointmentId, Integer updateMode)
+uid: crmscript_ref_NSAppointmentAgent_Accept
+title: Void Accept(Integer appointmentId, Integer updateMode)
 intellisense: NSAppointmentAgent.Accept
-keywords: NSAppointmentAgent,Accept
+keywords: NSAppointmentAgent, Accept
 so.topic: reference
 ---
 

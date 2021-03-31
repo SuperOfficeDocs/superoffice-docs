@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetExtraField3
-description: NSProduct.SetExtraField3(String extraField3)
+uid: crmscript_ref_NSProduct_SetExtraField3
+title: SetExtraField3(String extraField3)
 intellisense: NSProduct.SetExtraField3
 keywords: NSProduct, GetExtraField3
 so.topic: reference

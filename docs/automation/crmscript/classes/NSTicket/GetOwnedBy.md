@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetOwnedBy
-description: Integer NSTicket.GetOwnedBy()
+uid: crmscript_ref_NSTicket_GetOwnedBy
+title: Integer GetOwnedBy()
 intellisense: NSTicket.GetOwnedBy
 keywords: NSTicket, GetOwnedBy
 so.topic: reference

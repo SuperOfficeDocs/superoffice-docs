@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_DeletePreference
-description: Void DeletePreference(Integer id)
+uid: crmscript_ref_NSPreferenceAgent_DeletePreference
+title: Void DeletePreference(Integer id)
 intellisense: NSPreferenceAgent.DeletePreference
-keywords: NSPreferenceAgent,DeletePreference
+keywords: NSPreferenceAgent, DeletePreference
 so.topic: reference
 ---
 

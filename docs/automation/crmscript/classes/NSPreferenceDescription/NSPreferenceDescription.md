@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription
-description: NSPreferenceDescription
+uid: crmscript_ref_NSPreferenceDescription
+title: NSPreferenceDescription
 intellisense: Void.NSPreferenceDescription
 keywords: NSPreferenceDescription
 so.topic: reference

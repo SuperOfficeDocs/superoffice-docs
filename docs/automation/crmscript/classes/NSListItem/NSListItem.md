@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListItem
-description: NSListItem
+uid: crmscript_ref_NSListItem
+title: NSListItem
 intellisense: Void.NSListItem
 keywords: NSListItem
 so.topic: reference

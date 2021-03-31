@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_SetVersionNumber
-description: NSTypicalSearch.SetVersionNumber(Integer versionNumber)
+uid: crmscript_ref_NSTypicalSearch_SetVersionNumber
+title: SetVersionNumber(Integer versionNumber)
 intellisense: NSTypicalSearch.SetVersionNumber
 keywords: NSTypicalSearch, GetVersionNumber
 so.topic: reference

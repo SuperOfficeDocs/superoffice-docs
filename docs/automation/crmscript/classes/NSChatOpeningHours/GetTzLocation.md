@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_GetTzLocation
-description: TimeZoneData NSChatOpeningHours.GetTzLocation()
+uid: crmscript_ref_NSChatOpeningHours_GetTzLocation
+title: TimeZoneData GetTzLocation()
 intellisense: NSChatOpeningHours.GetTzLocation
 keywords: NSChatOpeningHours, GetTzLocation
 so.topic: reference

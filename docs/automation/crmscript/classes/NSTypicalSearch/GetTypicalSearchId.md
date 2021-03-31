@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_GetTypicalSearchId
-description: Integer NSTypicalSearch.GetTypicalSearchId()
+uid: crmscript_ref_NSTypicalSearch_GetTypicalSearchId
+title: Integer GetTypicalSearchId()
 intellisense: NSTypicalSearch.GetTypicalSearchId
 keywords: NSTypicalSearch, GetTypicalSearchId
 so.topic: reference

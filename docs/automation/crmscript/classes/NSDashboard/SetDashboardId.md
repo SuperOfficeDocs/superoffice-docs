@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboard_SetDashboardId
-description: NSDashboard.SetDashboardId(Integer dashboardId)
+uid: crmscript_ref_NSDashboard_SetDashboardId
+title: SetDashboardId(Integer dashboardId)
 intellisense: NSDashboard.SetDashboardId
 keywords: NSDashboard, GetDashboardId
 so.topic: reference

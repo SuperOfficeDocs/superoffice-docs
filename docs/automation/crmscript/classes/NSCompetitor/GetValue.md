@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSCompetitor_GetValue
-description: String NSCompetitor.GetValue()
+uid: crmscript_ref_NSCompetitor_GetValue
+title: String GetValue()
 intellisense: NSCompetitor.GetValue
 keywords: NSCompetitor, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the Competitor.
 
-**Returns:** String name
+**Returns:** String Competitor name.
 

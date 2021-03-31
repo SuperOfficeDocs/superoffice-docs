@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerCenterConfig_GetUpdatedAssociateId
-description: Integer NSCustomerCenterConfig.GetUpdatedAssociateId()
+uid: crmscript_ref_NSCustomerCenterConfig_GetUpdatedAssociateId
+title: Integer GetUpdatedAssociateId()
 intellisense: NSCustomerCenterConfig.GetUpdatedAssociateId
 keywords: NSCustomerCenterConfig, GetUpdatedAssociateId
 so.topic: reference

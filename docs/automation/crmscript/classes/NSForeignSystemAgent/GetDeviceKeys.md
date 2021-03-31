@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetDeviceKeys
-description: ForeignKeyArray GetDeviceKeys(String applicationName, String deviceName)
+uid: crmscript_ref_NSForeignSystemAgent_GetDeviceKeys
+title: ForeignKeyArray GetDeviceKeys(String applicationName, String deviceName)
 intellisense: NSForeignSystemAgent.GetDeviceKeys
-keywords: NSForeignSystemAgent,GetDeviceKeys
+keywords: NSForeignSystemAgent, GetDeviceKeys
 so.topic: reference
 ---
 

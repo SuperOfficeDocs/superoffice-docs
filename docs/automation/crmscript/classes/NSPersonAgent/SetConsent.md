@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_SetConsent
-description: Void SetConsent(Integer personId, String purpose, String source, String legalBase, String comment)
+uid: crmscript_ref_NSPersonAgent_SetConsent
+title: Void SetConsent(Integer personId, String purpose, String source, String legalBase, String comment)
 intellisense: NSPersonAgent.SetConsent
-keywords: NSPersonAgent,SetConsent
+keywords: NSPersonAgent, SetConsent
 so.topic: reference
 ---
 

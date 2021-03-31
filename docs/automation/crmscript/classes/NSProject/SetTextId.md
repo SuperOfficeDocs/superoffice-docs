@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_SetTextId
-description: NSProject.SetTextId(Integer textId)
+uid: crmscript_ref_NSProject_SetTextId
+title: SetTextId(Integer textId)
 intellisense: NSProject.SetTextId
 keywords: NSProject, GetTextId
 so.topic: reference

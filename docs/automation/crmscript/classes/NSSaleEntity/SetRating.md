@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetRating
-description: NSSaleEntity.SetRating(Rating rating)
+uid: crmscript_ref_NSSaleEntity_SetRating
+title: SetRating(Rating rating)
 intellisense: NSSaleEntity.SetRating
 keywords: NSSaleEntity, GetRating
 so.topic: reference

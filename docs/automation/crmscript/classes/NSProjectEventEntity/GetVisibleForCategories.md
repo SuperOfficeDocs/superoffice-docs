@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetVisibleForCategories
-description: MDOListItemArray NSProjectEventEntity.GetVisibleForCategories()
+uid: crmscript_ref_NSProjectEventEntity_GetVisibleForCategories
+title: MDOListItemArray GetVisibleForCategories()
 intellisense: NSProjectEventEntity.GetVisibleForCategories
 keywords: NSProjectEventEntity, GetVisibleForCategories
 so.topic: reference

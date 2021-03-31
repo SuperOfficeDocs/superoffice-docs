@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_GetShipmentType
-description: String NSPreviewMailing.GetShipmentType()
+uid: crmscript_ref_NSPreviewMailing_GetShipmentType
+title: String GetShipmentType()
 intellisense: NSPreviewMailing.GetShipmentType
 keywords: NSPreviewMailing, GetShipmentType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_GetPersonFullName
-description: String NSAppointmentSyncData.GetPersonFullName()
+uid: crmscript_ref_NSAppointmentSyncData_GetPersonFullName
+title: String GetPersonFullName()
 intellisense: NSAppointmentSyncData.GetPersonFullName
 keywords: NSAppointmentSyncData, GetPersonFullName
 so.topic: reference

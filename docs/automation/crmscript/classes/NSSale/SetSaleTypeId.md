@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetSaleTypeId
-description: NSSale.SetSaleTypeId(Integer saleTypeId)
+uid: crmscript_ref_NSSale_SetSaleTypeId
+title: SetSaleTypeId(Integer saleTypeId)
 intellisense: NSSale.SetSaleTypeId
 keywords: NSSale, GetSaleTypeId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetProject
-description: Project NSSaleEntity.GetProject()
+uid: crmscript_ref_NSSaleEntity_GetProject
+title: Project GetProject()
 intellisense: NSSaleEntity.GetProject
 keywords: NSSaleEntity, GetProject
 so.topic: reference

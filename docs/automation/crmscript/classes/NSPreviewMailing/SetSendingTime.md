@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_SetSendingTime
-description: NSPreviewMailing.SetSendingTime(DateTime sendingTime)
+uid: crmscript_ref_NSPreviewMailing_SetSendingTime
+title: SetSendingTime(DateTime sendingTime)
 intellisense: NSPreviewMailing.SetSendingTime
 keywords: NSPreviewMailing, GetSendingTime
 so.topic: reference

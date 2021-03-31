@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetPersonPosition
-description: NSParticipantSyncData.SetPersonPosition(String personPosition)
+uid: crmscript_ref_NSParticipantSyncData_SetPersonPosition
+title: SetPersonPosition(String personPosition)
 intellisense: NSParticipantSyncData.SetPersonPosition
 keywords: NSParticipantSyncData, GetPersonPosition
 so.topic: reference

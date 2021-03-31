@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences_GetSearchModeDepartment
-description: Integer NSPhoneListPreferences.GetSearchModeDepartment()
+uid: crmscript_ref_NSPhoneListPreferences_GetSearchModeDepartment
+title: Integer GetSearchModeDepartment()
 intellisense: NSPhoneListPreferences.GetSearchModeDepartment
 keywords: NSPhoneListPreferences, GetSearchModeDepartment
 so.topic: reference

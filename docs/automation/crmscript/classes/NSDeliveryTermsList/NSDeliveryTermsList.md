@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDeliveryTermsList
-description: NSDeliveryTermsList
+uid: crmscript_ref_NSDeliveryTermsList
+title: NSDeliveryTermsList
 intellisense: Void.NSDeliveryTermsList
 keywords: NSDeliveryTermsList
 so.topic: reference

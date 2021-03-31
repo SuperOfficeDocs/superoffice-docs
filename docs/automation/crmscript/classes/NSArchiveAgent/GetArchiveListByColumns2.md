@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_GetArchiveListByColumns2
-description: ArchiveListItemArray GetArchiveListByColumns2(String providerName, String columns, String sortOrder, String restrictions, String entities, Integer page, Integer pageSize)
+uid: crmscript_ref_NSArchiveAgent_GetArchiveListByColumns2
+title: ArchiveListItemArray GetArchiveListByColumns2(String providerName, String columns, String sortOrder, String restrictions, String entities, Integer page, Integer pageSize)
 intellisense: NSArchiveAgent.GetArchiveListByColumns2
-keywords: NSArchiveAgent,GetArchiveListByColumns2
+keywords: NSArchiveAgent, GetArchiveListByColumns2
 so.topic: reference
 ---
 

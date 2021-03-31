@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity_SetName
-description: NSAmountClassEntity.SetName(String name)
+uid: crmscript_ref_NSAmountClassEntity_SetName
+title: SetName(String name)
 intellisense: NSAmountClassEntity.SetName
 keywords: NSAmountClassEntity, GetName
 so.topic: reference

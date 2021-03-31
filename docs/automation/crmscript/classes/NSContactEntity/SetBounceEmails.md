@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetBounceEmails
-description: NSContactEntity.SetBounceEmails(StringArray bounceEmails)
+uid: crmscript_ref_NSContactEntity_SetBounceEmails
+title: SetBounceEmails(StringArray bounceEmails)
 intellisense: NSContactEntity.SetBounceEmails
 keywords: NSContactEntity, GetBounceEmails
 so.topic: reference

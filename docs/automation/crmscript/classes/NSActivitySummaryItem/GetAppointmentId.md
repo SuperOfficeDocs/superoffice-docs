@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummaryItem_GetAppointmentId
-description: Integer NSActivitySummaryItem.GetAppointmentId()
+uid: crmscript_ref_NSActivitySummaryItem_GetAppointmentId
+title: Integer GetAppointmentId()
 intellisense: NSActivitySummaryItem.GetAppointmentId
 keywords: NSActivitySummaryItem, GetAppointmentId
 so.topic: reference

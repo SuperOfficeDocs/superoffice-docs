@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChangedDataItem_SetTablename
-description: NSChangedDataItem.SetTablename(String tablename)
+uid: crmscript_ref_NSChangedDataItem_SetTablename
+title: SetTablename(String tablename)
 intellisense: NSChangedDataItem.SetTablename
 keywords: NSChangedDataItem, GetTablename
 so.topic: reference

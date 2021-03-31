@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetUserGroup
-description: NSUserGroup GetUserGroup(Integer userGroupId);
+uid: crmscript_ref_NSUserAgent_GetUserGroup
+title: NSUserGroup GetUserGroup(Integer userGroupId);
 intellisense: NSUserAgent.GetUserGroup
-keywords: NSUserAgent,GetUserGroup
+keywords: NSUserAgent, GetUserGroup
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_SetProjectId
-description: NSProjectEvent.SetProjectId(Integer projectId)
+uid: crmscript_ref_NSProjectEvent_SetProjectId
+title: SetProjectId(Integer projectId)
 intellisense: NSProjectEvent.SetProjectId
 keywords: NSProjectEvent, GetProjectId
 so.topic: reference

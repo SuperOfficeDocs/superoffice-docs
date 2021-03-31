@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetProductTypeKey
-description: NSProduct.SetProductTypeKey(String productTypeKey)
+uid: crmscript_ref_NSProduct_SetProductTypeKey
+title: SetProductTypeKey(String productTypeKey)
 intellisense: NSProduct.SetProductTypeKey
 keywords: NSProduct, GetProductTypeKey
 so.topic: reference

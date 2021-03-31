@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetQuoteAlternativeId
-description: Integer NSQuoteLine.GetQuoteAlternativeId()
+uid: crmscript_ref_NSQuoteLine_GetQuoteAlternativeId
+title: Integer GetQuoteAlternativeId()
 intellisense: NSQuoteLine.GetQuoteAlternativeId
 keywords: NSQuoteLine, GetQuoteAlternativeId
 so.topic: reference

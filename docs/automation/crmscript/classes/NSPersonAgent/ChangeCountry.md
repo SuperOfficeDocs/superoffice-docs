@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_ChangeCountry
-description: PersonEntity ChangeCountry(PersonEntity personEntity, Integer toCountryId)
+uid: crmscript_ref_NSPersonAgent_ChangeCountry
+title: PersonEntity ChangeCountry(PersonEntity personEntity, Integer toCountryId)
 intellisense: NSPersonAgent.ChangeCountry
-keywords: NSPersonAgent,ChangeCountry
+keywords: NSPersonAgent, ChangeCountry
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetPersonDocumentsByTemplateHeading
-description: DocumentArray GetPersonDocumentsByTemplateHeading(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
+uid: crmscript_ref_NSDocumentAgent_GetPersonDocumentsByTemplateHeading
+title: DocumentArray GetPersonDocumentsByTemplateHeading(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count, Integer templateHeadingId)
 intellisense: NSDocumentAgent.GetPersonDocumentsByTemplateHeading
-keywords: NSDocumentAgent,GetPersonDocumentsByTemplateHeading
+keywords: NSDocumentAgent, GetPersonDocumentsByTemplateHeading
 so.topic: reference
 ---
 

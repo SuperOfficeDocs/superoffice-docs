@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetLogoBlobId
-description: NSChatWidgetSettings.SetLogoBlobId(Integer logoBlobId)
+uid: crmscript_ref_NSChatWidgetSettings_SetLogoBlobId
+title: SetLogoBlobId(Integer logoBlobId)
 intellisense: NSChatWidgetSettings.SetLogoBlobId
 keywords: NSChatWidgetSettings, GetLogoBlobId
 so.topic: reference

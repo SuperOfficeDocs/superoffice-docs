@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_SetProjectName
-description: NSDocument.SetProjectName(String projectName)
+uid: crmscript_ref_NSDocument_SetProjectName
+title: SetProjectName(String projectName)
 intellisense: NSDocument.SetProjectName
 keywords: NSDocument, GetProjectName
 so.topic: reference

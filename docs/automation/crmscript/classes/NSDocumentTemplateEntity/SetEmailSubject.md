@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetEmailSubject
-description: NSDocumentTemplateEntity.SetEmailSubject(String emailSubject)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetEmailSubject
+title: SetEmailSubject(String emailSubject)
 intellisense: NSDocumentTemplateEntity.SetEmailSubject
 keywords: NSDocumentTemplateEntity, GetEmailSubject
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredential_GetDisplayValue
-description: String NSCredential.GetDisplayValue()
+uid: crmscript_ref_NSCredential_GetDisplayValue
+title: String GetDisplayValue()
 intellisense: NSCredential.GetDisplayValue
 keywords: NSCredential, GetDisplayValue
 so.topic: reference

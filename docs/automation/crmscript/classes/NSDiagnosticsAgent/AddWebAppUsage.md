@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_AddWebAppUsage
-description: Void AddWebAppUsage(WebAppUsageArray webAppUsages)
+uid: crmscript_ref_NSDiagnosticsAgent_AddWebAppUsage
+title: Void AddWebAppUsage(WebAppUsageArray webAppUsages)
 intellisense: NSDiagnosticsAgent.AddWebAppUsage
-keywords: NSDiagnosticsAgent,AddWebAppUsage
+keywords: NSDiagnosticsAgent, AddWebAppUsage
 so.topic: reference
 ---
 

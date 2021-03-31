@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactOrPersonFromEmail_SetContactCategory
-description: NSContactOrPersonFromEmail.SetContactCategory(String contactCategory)
+uid: crmscript_ref_NSContactOrPersonFromEmail_SetContactCategory
+title: SetContactCategory(String contactCategory)
 intellisense: NSContactOrPersonFromEmail.SetContactCategory
 keywords: NSContactOrPersonFromEmail, GetContactCategory
 so.topic: reference

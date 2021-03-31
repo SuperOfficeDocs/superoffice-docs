@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_SetName
-description: NSConsentPurpose.SetName(String name)
+uid: crmscript_ref_NSConsentPurpose_SetName
+title: SetName(String name)
 intellisense: NSConsentPurpose.SetName
 keywords: NSConsentPurpose, GetName
 so.topic: reference

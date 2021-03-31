@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCurrencyEntity_SetUnits
-description: NSCurrencyEntity.SetUnits(Float units)
+uid: crmscript_ref_NSCurrencyEntity_SetUnits
+title: SetUnits(Float units)
 intellisense: NSCurrencyEntity.SetUnits
 keywords: NSCurrencyEntity, GetUnits
 so.topic: reference

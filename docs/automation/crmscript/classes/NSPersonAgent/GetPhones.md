@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetPhones
-description: EntityElementArray GetPhones(Integer personId)
+uid: crmscript_ref_NSPersonAgent_GetPhones
+title: EntityElementArray GetPhones(Integer personId)
 intellisense: NSPersonAgent.GetPhones
-keywords: NSPersonAgent,GetPhones
+keywords: NSPersonAgent, GetPhones
 so.topic: reference
 ---
 

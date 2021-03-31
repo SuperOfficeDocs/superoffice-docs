@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity
-description: NSProjectEventEntity
+uid: crmscript_ref_NSProjectEventEntity
+title: NSProjectEventEntity
 intellisense: Void.NSProjectEventEntity
 keywords: NSProjectEventEntity
 so.topic: reference

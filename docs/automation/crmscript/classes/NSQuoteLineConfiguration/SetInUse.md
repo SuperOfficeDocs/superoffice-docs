@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLineConfiguration_SetInUse
-description: NSQuoteLineConfiguration.SetInUse(Bool inUse)
+uid: crmscript_ref_NSQuoteLineConfiguration_SetInUse
+title: SetInUse(Bool inUse)
 intellisense: NSQuoteLineConfiguration.SetInUse
 keywords: NSQuoteLineConfiguration, GetInUse
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_CreateDefaultAudienceLayoutEntity
-description: NSAudienceLayoutEntity CreateDefaultAudienceLayoutEntity()
+uid: crmscript_ref_NSAudienceAgent_CreateDefaultAudienceLayoutEntity
+title: NSAudienceLayoutEntity CreateDefaultAudienceLayoutEntity()
 intellisense: NSAudienceAgent.CreateDefaultAudienceLayoutEntity
-keywords: NSAudienceAgent,CreateDefaultAudienceLayoutEntity
+keywords: NSAudienceAgent, CreateDefaultAudienceLayoutEntity
 so.topic: reference
 ---
 	  

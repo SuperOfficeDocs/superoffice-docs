@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetBookingType
-description: NSAppointmentEntity.SetBookingType(Integer bookingType)
+uid: crmscript_ref_NSAppointmentEntity_SetBookingType
+title: SetBookingType(Integer bookingType)
 intellisense: NSAppointmentEntity.SetBookingType
 keywords: NSAppointmentEntity, GetBookingType
 so.topic: reference

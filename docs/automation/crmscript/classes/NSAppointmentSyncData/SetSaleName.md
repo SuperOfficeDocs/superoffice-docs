@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_SetSaleName
-description: NSAppointmentSyncData.SetSaleName(String saleName)
+uid: crmscript_ref_NSAppointmentSyncData_SetSaleName
+title: SetSaleName(String saleName)
 intellisense: NSAppointmentSyncData.SetSaleName
 keywords: NSAppointmentSyncData, GetSaleName
 so.topic: reference

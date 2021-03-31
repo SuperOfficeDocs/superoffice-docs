@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_GetSize
-description: Integer NSEMailEnvelope.GetSize()
+uid: crmscript_ref_NSEMailEnvelope_GetSize
+title: Integer GetSize()
 intellisense: NSEMailEnvelope.GetSize
 keywords: NSEMailEnvelope, GetSize
 so.topic: reference

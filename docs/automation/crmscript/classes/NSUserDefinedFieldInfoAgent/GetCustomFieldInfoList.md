@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetCustomFieldInfoList
-description: FieldInfoBaseArray GetCustomFieldInfoList(String tableName, Bool includeStandard)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetCustomFieldInfoList
+title: FieldInfoBaseArray GetCustomFieldInfoList(String tableName, Bool includeStandard)
 intellisense: NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList
-keywords: NSUserDefinedFieldInfoAgent,GetCustomFieldInfoList
+keywords: NSUserDefinedFieldInfoAgent, GetCustomFieldInfoList
 so.topic: reference
 ---
 

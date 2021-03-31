@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetRealTimeToClose
-description: Integer NSTicket.GetRealTimeToClose()
+uid: crmscript_ref_NSTicket_GetRealTimeToClose
+title: Integer GetRealTimeToClose()
 intellisense: NSTicket.GetRealTimeToClose
 keywords: NSTicket, GetRealTimeToClose
 so.topic: reference

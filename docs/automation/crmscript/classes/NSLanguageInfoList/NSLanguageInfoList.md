@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLanguageInfoList
-description: NSLanguageInfoList
+uid: crmscript_ref_NSLanguageInfoList
+title: NSLanguageInfoList
 intellisense: Void.NSLanguageInfoList
 keywords: NSLanguageInfoList
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetConnectionListMappings
-description: ErpConnectionListMappingContainer GetConnectionListMappings(Integer erpConnectionId)
+uid: crmscript_ref_NSErpSyncAgent_GetConnectionListMappings
+title: ErpConnectionListMappingContainer GetConnectionListMappings(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.GetConnectionListMappings
-keywords: NSErpSyncAgent,GetConnectionListMappings
+keywords: NSErpSyncAgent, GetConnectionListMappings
 so.topic: reference
 ---
 

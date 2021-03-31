@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldValue
-description: NSErpSyncFieldValue
+uid: crmscript_ref_NSErpSyncFieldValue
+title: NSErpSyncFieldValue
 intellisense: Void.NSErpSyncFieldValue
 keywords: NSErpSyncFieldValue
 so.topic: reference

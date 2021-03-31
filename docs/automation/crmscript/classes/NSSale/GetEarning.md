@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_GetEarning
-description: Float NSSale.GetEarning()
+uid: crmscript_ref_NSSale_GetEarning
+title: Float GetEarning()
 intellisense: NSSale.GetEarning
 keywords: NSSale, GetEarning
 so.topic: reference

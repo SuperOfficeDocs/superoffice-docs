@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_CreateDefaultReOpenAppointment
-description: AppointmentEntity CreateDefaultReOpenAppointment(Integer saleId)
+uid: crmscript_ref_NSAppointmentAgent_CreateDefaultReOpenAppointment
+title: AppointmentEntity CreateDefaultReOpenAppointment(Integer saleId)
 intellisense: NSAppointmentAgent.CreateDefaultReOpenAppointment
-keywords: NSAppointmentAgent,CreateDefaultReOpenAppointment
+keywords: NSAppointmentAgent, CreateDefaultReOpenAppointment
 so.topic: reference
 ---
 

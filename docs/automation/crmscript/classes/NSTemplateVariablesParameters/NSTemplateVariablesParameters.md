@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters
-description: NSTemplateVariablesParameters
+uid: crmscript_ref_NSTemplateVariablesParameters
+title: NSTemplateVariablesParameters
 intellisense: Void.NSTemplateVariablesParameters
 keywords: NSTemplateVariablesParameters
 so.topic: reference

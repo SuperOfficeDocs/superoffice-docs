@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportErpData
-description: NSImportErpData
+uid: crmscript_ref_NSImportErpData
+title: NSImportErpData
 intellisense: Void.NSImportErpData
 keywords: NSImportErpData
 so.topic: reference

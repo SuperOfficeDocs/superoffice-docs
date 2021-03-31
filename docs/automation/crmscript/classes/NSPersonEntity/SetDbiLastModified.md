@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetDbiLastModified
-description: NSPersonEntity.SetDbiLastModified(DateTime dbiLastModified)
+uid: crmscript_ref_NSPersonEntity_SetDbiLastModified
+title: SetDbiLastModified(DateTime dbiLastModified)
 intellisense: NSPersonEntity.SetDbiLastModified
 keywords: NSPersonEntity, GetDbiLastModified
 so.topic: reference

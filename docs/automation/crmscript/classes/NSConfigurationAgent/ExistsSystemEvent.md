@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_ExistsSystemEvent
-description: Bool ExistsSystemEvent(String key)
+uid: crmscript_ref_NSConfigurationAgent_ExistsSystemEvent
+title: Bool ExistsSystemEvent(String key)
 intellisense: NSConfigurationAgent.ExistsSystemEvent
-keywords: NSConfigurationAgent,ExistsSystemEvent
+keywords: NSConfigurationAgent, ExistsSystemEvent
 so.topic: reference
 ---
 

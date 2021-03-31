@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetName
-description: NSDocumentTemplateEntity.SetName(String name)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetName
+title: SetName(String name)
 intellisense: NSDocumentTemplateEntity.SetName
 keywords: NSDocumentTemplateEntity, GetName
 so.topic: reference

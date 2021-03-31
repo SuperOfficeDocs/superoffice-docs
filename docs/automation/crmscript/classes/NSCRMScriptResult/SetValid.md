@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptResult_SetValid
-description: NSCRMScriptResult.SetValid(Bool valid)
+uid: crmscript_ref_NSCRMScriptResult_SetValid
+title: SetValid(Bool valid)
 intellisense: NSCRMScriptResult.SetValid
 keywords: NSCRMScriptResult, GetValid
 so.topic: reference

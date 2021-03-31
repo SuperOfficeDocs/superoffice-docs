@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SortListItems
-description: Void SortListItems(Integer udListDefinitionId, String cultureName)
+uid: crmscript_ref_NSListAgent_SortListItems
+title: Void SortListItems(Integer udListDefinitionId, String cultureName)
 intellisense: NSListAgent.SortListItems
-keywords: NSListAgent,SortListItems
+keywords: NSListAgent, SortListItems
 so.topic: reference
 ---
 

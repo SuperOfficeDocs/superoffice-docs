@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialType_GetCanCreatePerson
-description: Bool NSCredentialType.GetCanCreatePerson()
+uid: crmscript_ref_NSCredentialType_GetCanCreatePerson
+title: Bool GetCanCreatePerson()
 intellisense: NSCredentialType.GetCanCreatePerson
 keywords: NSCredentialType, GetCanCreatePerson
 so.topic: reference

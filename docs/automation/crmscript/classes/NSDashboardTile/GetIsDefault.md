@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_GetIsDefault
-description: Bool NSDashboardTile.GetIsDefault()
+uid: crmscript_ref_NSDashboardTile_GetIsDefault
+title: Bool GetIsDefault()
 intellisense: NSDashboardTile.GetIsDefault
 keywords: NSDashboardTile, GetIsDefault
 so.topic: reference

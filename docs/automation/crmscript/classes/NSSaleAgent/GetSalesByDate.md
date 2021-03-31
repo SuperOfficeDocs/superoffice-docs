@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetSalesByDate
-description: SaleArray GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
+uid: crmscript_ref_NSSaleAgent_GetSalesByDate
+title: SaleArray GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
 intellisense: NSSaleAgent.GetSalesByDate
-keywords: NSSaleAgent,GetSalesByDate
+keywords: NSSaleAgent, GetSalesByDate
 so.topic: reference
 ---
 

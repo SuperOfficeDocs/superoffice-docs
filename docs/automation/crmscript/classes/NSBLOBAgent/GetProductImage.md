@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetProductImage
-description: Image GetProductImage(Integer productId)
+uid: crmscript_ref_NSBLOBAgent_GetProductImage
+title: Image GetProductImage(Integer productId)
 intellisense: NSBLOBAgent.GetProductImage
-keywords: NSBLOBAgent,GetProductImage
+keywords: NSBLOBAgent, GetProductImage
 so.topic: reference
 ---
 

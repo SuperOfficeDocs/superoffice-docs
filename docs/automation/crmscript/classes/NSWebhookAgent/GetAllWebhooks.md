@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSWebhookAgent_GetAllWebhooks
-description: WebhookArray GetAllWebhooks(String nameFilter, String eventFilter, Integer statusFilter)
+uid: crmscript_ref_NSWebhookAgent_GetAllWebhooks
+title: WebhookArray GetAllWebhooks(String nameFilter, String eventFilter, Integer statusFilter)
 intellisense: NSWebhookAgent.GetAllWebhooks
-keywords: NSWebhookAgent,GetAllWebhooks
+keywords: NSWebhookAgent, GetAllWebhooks
 so.topic: reference
 ---
 

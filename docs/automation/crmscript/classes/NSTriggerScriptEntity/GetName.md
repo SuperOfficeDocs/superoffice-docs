@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity_GetName
-description: String NSTriggerScriptEntity.GetName()
+uid: crmscript_ref_NSTriggerScriptEntity_GetName
+title: String GetName()
 intellisense: NSTriggerScriptEntity.GetName
 keywords: NSTriggerScriptEntity, GetName
 so.topic: reference

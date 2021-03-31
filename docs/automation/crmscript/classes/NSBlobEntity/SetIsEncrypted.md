@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_SetIsEncrypted
-description: NSBlobEntity.SetIsEncrypted(Bool isEncrypted)
+uid: crmscript_ref_NSBlobEntity_SetIsEncrypted
+title: SetIsEncrypted(Bool isEncrypted)
 intellisense: NSBlobEntity.SetIsEncrypted
 keywords: NSBlobEntity, GetIsEncrypted
 so.topic: reference

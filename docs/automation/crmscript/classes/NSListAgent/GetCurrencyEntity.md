@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetCurrencyEntity
-description: NSCurrencyEntity GetCurrencyEntity(Integer currencyEntityId);
+uid: crmscript_ref_NSListAgent_GetCurrencyEntity
+title: NSCurrencyEntity GetCurrencyEntity(Integer currencyEntityId);
 intellisense: NSListAgent.GetCurrencyEntity
-keywords: NSListAgent,GetCurrencyEntity
+keywords: NSListAgent, GetCurrencyEntity
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetPostFormMessage
-description: NSChatWidgetSettings.SetPostFormMessage(String postFormMessage)
+uid: crmscript_ref_NSChatWidgetSettings_SetPostFormMessage
+title: SetPostFormMessage(String postFormMessage)
 intellisense: NSChatWidgetSettings.SetPostFormMessage
 keywords: NSChatWidgetSettings, GetPostFormMessage
 so.topic: reference

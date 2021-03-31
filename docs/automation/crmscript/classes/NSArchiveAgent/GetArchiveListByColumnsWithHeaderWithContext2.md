@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2
-description: ArchiveListResult GetArchiveListByColumnsWithHeaderWithContext2(String providerName, String columns, String sortOrder, String restriction, String entities, Integer page, Integer pageSize, String options, String context)
+uid: crmscript_ref_NSArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2
+title: ArchiveListResult GetArchiveListByColumnsWithHeaderWithContext2(String providerName, String columns, String sortOrder, String restriction, String entities, Integer page, Integer pageSize, String options, String context)
 intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
-keywords: NSArchiveAgent,GetArchiveListByColumnsWithHeaderWithContext2
+keywords: NSArchiveAgent, GetArchiveListByColumnsWithHeaderWithContext2
 so.topic: reference
 ---
 

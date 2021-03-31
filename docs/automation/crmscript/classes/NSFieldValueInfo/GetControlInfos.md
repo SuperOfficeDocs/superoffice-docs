@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_GetControlInfos
-description: ControlInfoArray NSFieldValueInfo.GetControlInfos()
+uid: crmscript_ref_NSFieldValueInfo_GetControlInfos
+title: ControlInfoArray GetControlInfos()
 intellisense: NSFieldValueInfo.GetControlInfos
 keywords: NSFieldValueInfo, GetControlInfos
 so.topic: reference

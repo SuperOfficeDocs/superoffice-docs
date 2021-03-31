@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_UpdateProjectMember
-description: ProjectMember UpdateProjectMember(ProjectMember projectMember)
+uid: crmscript_ref_NSProjectAgent_UpdateProjectMember
+title: ProjectMember UpdateProjectMember(ProjectMember projectMember)
 intellisense: NSProjectAgent.UpdateProjectMember
-keywords: NSProjectAgent,UpdateProjectMember
+keywords: NSProjectAgent, UpdateProjectMember
 so.topic: reference
 ---
 

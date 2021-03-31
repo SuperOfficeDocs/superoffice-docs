@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_SavePreferences
-description: Void SavePreferences(PreferenceArray preferences)
+uid: crmscript_ref_NSPreferenceAgent_SavePreferences
+title: Void SavePreferences(PreferenceArray preferences)
 intellisense: NSPreferenceAgent.SavePreferences
-keywords: NSPreferenceAgent,SavePreferences
+keywords: NSPreferenceAgent, SavePreferences
 so.topic: reference
 ---
 

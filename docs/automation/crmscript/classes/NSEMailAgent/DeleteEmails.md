@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_DeleteEmails
-description: Void DeleteEmails(IntegerArray ids, String moveToFolder)
+uid: crmscript_ref_NSEMailAgent_DeleteEmails
+title: Void DeleteEmails(IntegerArray ids, String moveToFolder)
 intellisense: NSEMailAgent.DeleteEmails
-keywords: NSEMailAgent,DeleteEmails
+keywords: NSEMailAgent, DeleteEmails
 so.topic: reference
 ---
 

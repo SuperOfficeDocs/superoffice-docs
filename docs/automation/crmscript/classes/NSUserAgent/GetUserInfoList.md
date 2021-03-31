@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetUserInfoList
-description: NSUserInfo[] GetUserInfoList(Integer[]  userInfoIds);
+uid: crmscript_ref_NSUserAgent_GetUserInfoList
+title: NSUserInfo[] GetUserInfoList(Integer[]  userInfoIds);
 intellisense: NSUserAgent.GetUserInfoList
-keywords: NSUserAgent,GetUserInfoList
+keywords: NSUserAgent, GetUserInfoList
 so.topic: reference
 ---
 

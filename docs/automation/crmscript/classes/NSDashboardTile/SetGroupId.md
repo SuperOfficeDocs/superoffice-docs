@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_SetGroupId
-description: NSDashboardTile.SetGroupId(Integer groupId)
+uid: crmscript_ref_NSDashboardTile_SetGroupId
+title: SetGroupId(Integer groupId)
 intellisense: NSDashboardTile.SetGroupId
 keywords: NSDashboardTile, GetGroupId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_GetParentCombinedSelections
-description: IntegerArray GetParentCombinedSelections(Integer selectionId)
+uid: crmscript_ref_NSSelectionAgent_GetParentCombinedSelections
+title: IntegerArray GetParentCombinedSelections(Integer selectionId)
 intellisense: NSSelectionAgent.GetParentCombinedSelections
-keywords: NSSelectionAgent,GetParentCombinedSelections
+keywords: NSSelectionAgent, GetParentCombinedSelections
 so.topic: reference
 ---
 

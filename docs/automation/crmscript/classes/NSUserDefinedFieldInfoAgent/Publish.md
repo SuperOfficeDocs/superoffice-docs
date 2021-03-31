@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_Publish
-description: Integer Publish(Integer ownerType)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_Publish
+title: Integer Publish(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.Publish
-keywords: NSUserDefinedFieldInfoAgent,Publish
+keywords: NSUserDefinedFieldInfoAgent, Publish
 so.topic: reference
 ---
 

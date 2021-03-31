@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonSummary_GetPerson
-description: Person NSPersonSummary.GetPerson()
+uid: crmscript_ref_NSPersonSummary_GetPerson
+title: Person GetPerson()
 intellisense: NSPersonSummary.GetPerson
 keywords: NSPersonSummary, GetPerson
 so.topic: reference

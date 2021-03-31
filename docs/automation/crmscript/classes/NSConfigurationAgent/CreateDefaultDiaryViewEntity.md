@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_CreateDefaultDiaryViewEntity
-description: NSDiaryViewEntity CreateDefaultDiaryViewEntity()
+uid: crmscript_ref_NSConfigurationAgent_CreateDefaultDiaryViewEntity
+title: NSDiaryViewEntity CreateDefaultDiaryViewEntity()
 intellisense: NSConfigurationAgent.CreateDefaultDiaryViewEntity
-keywords: NSConfigurationAgent,CreateDefaultDiaryViewEntity
+keywords: NSConfigurationAgent, CreateDefaultDiaryViewEntity
 so.topic: reference
 ---
 	  

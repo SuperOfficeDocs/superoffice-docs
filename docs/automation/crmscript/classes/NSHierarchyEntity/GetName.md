@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHierarchyEntity_GetName
-description: String NSHierarchyEntity.GetName()
+uid: crmscript_ref_NSHierarchyEntity_GetName
+title: String GetName()
 intellisense: NSHierarchyEntity.GetName
 keywords: NSHierarchyEntity, GetName
 so.topic: reference

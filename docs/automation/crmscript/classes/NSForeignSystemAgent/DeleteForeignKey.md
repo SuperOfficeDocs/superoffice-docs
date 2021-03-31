@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_DeleteForeignKey
-description: Void DeleteForeignKey(ForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier, String tableName, Integer recordId)
+uid: crmscript_ref_NSForeignSystemAgent_DeleteForeignKey
+title: Void DeleteForeignKey(ForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier, String tableName, Integer recordId)
 intellisense: NSForeignSystemAgent.DeleteForeignKey
-keywords: NSForeignSystemAgent,DeleteForeignKey
+keywords: NSForeignSystemAgent, DeleteForeignKey
 so.topic: reference
 ---
 

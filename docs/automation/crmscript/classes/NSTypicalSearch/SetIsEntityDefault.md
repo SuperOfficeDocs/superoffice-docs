@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_SetIsEntityDefault
-description: NSTypicalSearch.SetIsEntityDefault(Integer isEntityDefault)
+uid: crmscript_ref_NSTypicalSearch_SetIsEntityDefault
+title: SetIsEntityDefault(Integer isEntityDefault)
 intellisense: NSTypicalSearch.SetIsEntityDefault
 keywords: NSTypicalSearch, GetIsEntityDefault
 so.topic: reference

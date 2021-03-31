@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_VerifyGoogleRecaptcha
-description: Bool VerifyGoogleRecaptcha(String token, String optionalSecretKey)
+uid: crmscript_ref_NSMarketingAgent_VerifyGoogleRecaptcha
+title: Bool VerifyGoogleRecaptcha(String token, String optionalSecretKey)
 intellisense: NSMarketingAgent.VerifyGoogleRecaptcha
-keywords: NSMarketingAgent,VerifyGoogleRecaptcha
+keywords: NSMarketingAgent, VerifyGoogleRecaptcha
 so.topic: reference
 ---
 

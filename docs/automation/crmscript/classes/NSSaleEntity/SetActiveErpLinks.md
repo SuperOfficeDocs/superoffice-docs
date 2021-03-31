@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetActiveErpLinks
-description: NSSaleEntity.SetActiveErpLinks(Integer activeErpLinks)
+uid: crmscript_ref_NSSaleEntity_SetActiveErpLinks
+title: SetActiveErpLinks(Integer activeErpLinks)
 intellisense: NSSaleEntity.SetActiveErpLinks
 keywords: NSSaleEntity, GetActiveErpLinks
 so.topic: reference

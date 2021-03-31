@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_DeleteTriggerScriptEntity
-description: DeleteTriggerScriptEntity(Integer triggerScriptEntity);
+uid: crmscript_ref_NSCRMScriptAgent_DeleteTriggerScriptEntity
+title: DeleteTriggerScriptEntity(Integer triggerScriptEntity);
 intellisense: NSCRMScriptAgent.DeleteTriggerScriptEntity
-keywords: NSCRMScriptAgent,DeleteTriggerScriptEntity
+keywords: NSCRMScriptAgent, DeleteTriggerScriptEntity
 so.topic: reference
 ---
 

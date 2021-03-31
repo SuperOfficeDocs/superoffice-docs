@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetRealTimeSpentInternally
-description: Integer NSTicketEntity.GetRealTimeSpentInternally()
+uid: crmscript_ref_NSTicketEntity_GetRealTimeSpentInternally
+title: Integer GetRealTimeSpentInternally()
 intellisense: NSTicketEntity.GetRealTimeSpentInternally
 keywords: NSTicketEntity, GetRealTimeSpentInternally
 so.topic: reference

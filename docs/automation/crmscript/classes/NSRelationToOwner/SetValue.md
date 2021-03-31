@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSRelationToOwner_SetValue
-description: NSRelationToOwner.SetValue(String value)
+uid: crmscript_ref_NSRelationToOwner_SetValue
+title: SetValue(String value)
 intellisense: NSRelationToOwner.SetValue
 keywords: NSRelationToOwner, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the RelationToOwner item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String RelationToOwner name.
 

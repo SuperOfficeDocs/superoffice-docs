@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetCode
-description: String NSQuoteLine.GetCode()
+uid: crmscript_ref_NSQuoteLine_GetCode
+title: String GetCode()
 intellisense: NSQuoteLine.GetCode
 keywords: NSQuoteLine, GetCode
 so.topic: reference

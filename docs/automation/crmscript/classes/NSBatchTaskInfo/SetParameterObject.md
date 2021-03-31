@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetParameterObject
-description: NSBatchTaskInfo.SetParameterObject(StringDictionary parameterObject)
+uid: crmscript_ref_NSBatchTaskInfo_SetParameterObject
+title: SetParameterObject(StringDictionary parameterObject)
 intellisense: NSBatchTaskInfo.SetParameterObject
 keywords: NSBatchTaskInfo, GetParameterObject
 so.topic: reference

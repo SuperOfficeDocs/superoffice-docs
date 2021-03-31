@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSTicketCategory_SetValue
-description: NSTicketCategory.SetValue(String value)
+uid: crmscript_ref_NSTicketCategory_SetValue
+title: SetValue(String value)
 intellisense: NSTicketCategory.SetValue
 keywords: NSTicketCategory, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the TicketCategory item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String TicketCategory name.
 

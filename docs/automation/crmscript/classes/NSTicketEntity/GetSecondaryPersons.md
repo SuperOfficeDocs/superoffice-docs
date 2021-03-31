@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetSecondaryPersons
-description: PersonArray NSTicketEntity.GetSecondaryPersons()
+uid: crmscript_ref_NSTicketEntity_GetSecondaryPersons
+title: PersonArray GetSecondaryPersons()
 intellisense: NSTicketEntity.GetSecondaryPersons
 keywords: NSTicketEntity, GetSecondaryPersons
 so.topic: reference

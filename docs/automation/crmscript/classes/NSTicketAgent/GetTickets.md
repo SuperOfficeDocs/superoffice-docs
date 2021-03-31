@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_GetTickets
-description: TicketArray GetTickets(IntegerArray ticketIds)
+uid: crmscript_ref_NSTicketAgent_GetTickets
+title: TicketArray GetTickets(IntegerArray ticketIds)
 intellisense: NSTicketAgent.GetTickets
-keywords: NSTicketAgent,GetTickets
+keywords: NSTicketAgent, GetTickets
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetDocumentCommands
-description: CommandInfoArray GetDocumentCommands(Integer documentId, StringArray allowedReturnTypes)
+uid: crmscript_ref_NSDocumentAgent_GetDocumentCommands
+title: CommandInfoArray GetDocumentCommands(Integer documentId, StringArray allowedReturnTypes)
 intellisense: NSDocumentAgent.GetDocumentCommands
-keywords: NSDocumentAgent,GetDocumentCommands
+keywords: NSDocumentAgent, GetDocumentCommands
 so.topic: reference
 ---
 

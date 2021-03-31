@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_SetTotalPrice
-description: NSQuoteAlternative.SetTotalPrice(Float totalPrice)
+uid: crmscript_ref_NSQuoteAlternative_SetTotalPrice
+title: SetTotalPrice(Float totalPrice)
 intellisense: NSQuoteAlternative.SetTotalPrice
 keywords: NSQuoteAlternative, GetTotalPrice
 so.topic: reference

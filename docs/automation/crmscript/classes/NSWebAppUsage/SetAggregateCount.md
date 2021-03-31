@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebAppUsage_SetAggregateCount
-description: NSWebAppUsage.SetAggregateCount(Integer aggregateCount)
+uid: crmscript_ref_NSWebAppUsage_SetAggregateCount
+title: SetAggregateCount(Integer aggregateCount)
 intellisense: NSWebAppUsage.SetAggregateCount
 keywords: NSWebAppUsage, GetAggregateCount
 so.topic: reference

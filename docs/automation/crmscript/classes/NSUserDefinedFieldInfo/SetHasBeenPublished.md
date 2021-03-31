@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetHasBeenPublished
-description: NSUserDefinedFieldInfo.SetHasBeenPublished(Bool hasBeenPublished)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetHasBeenPublished
+title: SetHasBeenPublished(Bool hasBeenPublished)
 intellisense: NSUserDefinedFieldInfo.SetHasBeenPublished
 keywords: NSUserDefinedFieldInfo, GetHasBeenPublished
 so.topic: reference

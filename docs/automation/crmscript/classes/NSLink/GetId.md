@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLink_GetId
-description: Integer NSLink.GetId()
+uid: crmscript_ref_NSLink_GetId
+title: Integer GetId()
 intellisense: NSLink.GetId
 keywords: NSLink, GetId
 so.topic: reference

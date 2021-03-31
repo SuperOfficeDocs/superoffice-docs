@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetSale
-description: Sale NSDocumentEntity.GetSale()
+uid: crmscript_ref_NSDocumentEntity_GetSale
+title: Sale GetSale()
 intellisense: NSDocumentEntity.GetSale
 keywords: NSDocumentEntity, GetSale
 so.topic: reference

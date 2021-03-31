@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSTicketCategory_GetValue
-description: String NSTicketCategory.GetValue()
+uid: crmscript_ref_NSTicketCategory_GetValue
+title: String GetValue()
 intellisense: NSTicketCategory.GetValue
 keywords: NSTicketCategory, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the TicketCategory.
 
-**Returns:** String name
+**Returns:** String TicketCategory name.
 

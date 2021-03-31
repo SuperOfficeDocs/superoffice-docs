@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_CreateDefaultSuggestedDocumentEntity
-description: NSSuggestedDocumentEntity CreateDefaultSuggestedDocumentEntity()
+uid: crmscript_ref_NSDocumentAgent_CreateDefaultSuggestedDocumentEntity
+title: NSSuggestedDocumentEntity CreateDefaultSuggestedDocumentEntity()
 intellisense: NSDocumentAgent.CreateDefaultSuggestedDocumentEntity
-keywords: NSDocumentAgent,CreateDefaultSuggestedDocumentEntity
+keywords: NSDocumentAgent, CreateDefaultSuggestedDocumentEntity
 so.topic: reference
 ---
 	  

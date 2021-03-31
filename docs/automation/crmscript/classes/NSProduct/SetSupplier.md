@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetSupplier
-description: NSProduct.SetSupplier(String supplier)
+uid: crmscript_ref_NSProduct_SetSupplier
+title: SetSupplier(String supplier)
 intellisense: NSProduct.SetSupplier
 keywords: NSProduct, GetSupplier
 so.topic: reference

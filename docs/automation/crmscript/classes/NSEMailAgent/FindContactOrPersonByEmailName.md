@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_FindContactOrPersonByEmailName
-description: ContactOrPersonFromEmailArray FindContactOrPersonByEmailName(String name, String emailAddress)
+uid: crmscript_ref_NSEMailAgent_FindContactOrPersonByEmailName
+title: ContactOrPersonFromEmailArray FindContactOrPersonByEmailName(String name, String emailAddress)
 intellisense: NSEMailAgent.FindContactOrPersonByEmailName
-keywords: NSEMailAgent,FindContactOrPersonByEmailName
+keywords: NSEMailAgent, FindContactOrPersonByEmailName
 so.topic: reference
 ---
 

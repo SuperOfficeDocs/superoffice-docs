@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSImportAgent_CreateDefaultImportLine
-description: ImportLine CreateDefaultImportLine(Integer countColumns)
+uid: crmscript_ref_NSImportAgent_CreateDefaultImportLine
+title: ImportLine CreateDefaultImportLine(Integer countColumns)
 intellisense: NSImportAgent.CreateDefaultImportLine
-keywords: NSImportAgent,CreateDefaultImportLine
+keywords: NSImportAgent, CreateDefaultImportLine
 so.topic: reference
 ---
 

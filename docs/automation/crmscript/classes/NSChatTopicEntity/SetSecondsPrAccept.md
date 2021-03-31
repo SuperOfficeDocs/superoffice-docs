@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_SetSecondsPrAccept
-description: NSChatTopicEntity.SetSecondsPrAccept(Integer secondsPrAccept)
+uid: crmscript_ref_NSChatTopicEntity_SetSecondsPrAccept
+title: SetSecondsPrAccept(Integer secondsPrAccept)
 intellisense: NSChatTopicEntity.SetSecondsPrAccept
 keywords: NSChatTopicEntity, GetSecondsPrAccept
 so.topic: reference

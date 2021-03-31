@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_GetValidTo
-description: DateTime NSPriceList.GetValidTo()
+uid: crmscript_ref_NSPriceList_GetValidTo
+title: DateTime GetValidTo()
 intellisense: NSPriceList.GetValidTo
 keywords: NSPriceList, GetValidTo
 so.topic: reference

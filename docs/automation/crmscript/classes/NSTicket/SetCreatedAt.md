@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetCreatedAt
-description: NSTicket.SetCreatedAt(DateTime createdAt)
+uid: crmscript_ref_NSTicket_SetCreatedAt
+title: SetCreatedAt(DateTime createdAt)
 intellisense: NSTicket.SetCreatedAt
 keywords: NSTicket, GetCreatedAt
 so.topic: reference

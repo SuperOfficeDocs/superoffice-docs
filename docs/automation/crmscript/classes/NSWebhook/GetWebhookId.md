@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetWebhookId
-description: Integer NSWebhook.GetWebhookId()
+uid: crmscript_ref_NSWebhook_GetWebhookId
+title: Integer GetWebhookId()
 intellisense: NSWebhook.GetWebhookId
 keywords: NSWebhook, GetWebhookId
 so.topic: reference

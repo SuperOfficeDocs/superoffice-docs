@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetConnectId
-description: Integer NSTicketEntity.GetConnectId()
+uid: crmscript_ref_NSTicketEntity_GetConnectId
+title: Integer GetConnectId()
 intellisense: NSTicketEntity.GetConnectId
 keywords: NSTicketEntity, GetConnectId
 so.topic: reference

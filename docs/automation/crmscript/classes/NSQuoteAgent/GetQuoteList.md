@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetQuoteList
-description: QuoteListItemArray GetQuoteList(String quoteListType)
+uid: crmscript_ref_NSQuoteAgent_GetQuoteList
+title: QuoteListItemArray GetQuoteList(String quoteListType)
 intellisense: NSQuoteAgent.GetQuoteList
-keywords: NSQuoteAgent,GetQuoteList
+keywords: NSQuoteAgent, GetQuoteList
 so.topic: reference
 ---
 

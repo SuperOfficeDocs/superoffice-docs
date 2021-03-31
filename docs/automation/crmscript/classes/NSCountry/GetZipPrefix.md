@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_GetZipPrefix
-description: String NSCountry.GetZipPrefix()
+uid: crmscript_ref_NSCountry_GetZipPrefix
+title: String GetZipPrefix()
 intellisense: NSCountry.GetZipPrefix
 keywords: NSCountry, GetZipPrefix
 so.topic: reference

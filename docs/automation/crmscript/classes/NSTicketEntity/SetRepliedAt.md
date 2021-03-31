@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetRepliedAt
-description: NSTicketEntity.SetRepliedAt(DateTime repliedAt)
+uid: crmscript_ref_NSTicketEntity_SetRepliedAt
+title: SetRepliedAt(DateTime repliedAt)
 intellisense: NSTicketEntity.SetRepliedAt
 keywords: NSTicketEntity, GetRepliedAt
 so.topic: reference

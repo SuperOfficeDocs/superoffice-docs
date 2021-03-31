@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_GetProjectId
-description: Integer NSProjectMember.GetProjectId()
+uid: crmscript_ref_NSProjectMember_GetProjectId
+title: Integer GetProjectId()
 intellisense: NSProjectMember.GetProjectId
 keywords: NSProjectMember, GetProjectId
 so.topic: reference

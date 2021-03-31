@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent_GetSelectableSimpleList
-description: SelectableMDOListItemArray GetSelectableSimpleList(String name)
+uid: crmscript_ref_NSMDOAgent_GetSelectableSimpleList
+title: SelectableMDOListItemArray GetSelectableSimpleList(String name)
 intellisense: NSMDOAgent.GetSelectableSimpleList
-keywords: NSMDOAgent,GetSelectableSimpleList
+keywords: NSMDOAgent, GetSelectableSimpleList
 so.topic: reference
 ---
 

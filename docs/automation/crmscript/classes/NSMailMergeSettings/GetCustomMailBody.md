@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetCustomMailBody
-description: String NSMailMergeSettings.GetCustomMailBody()
+uid: crmscript_ref_NSMailMergeSettings_GetCustomMailBody
+title: String GetCustomMailBody()
 intellisense: NSMailMergeSettings.GetCustomMailBody
 keywords: NSMailMergeSettings, GetCustomMailBody
 so.topic: reference

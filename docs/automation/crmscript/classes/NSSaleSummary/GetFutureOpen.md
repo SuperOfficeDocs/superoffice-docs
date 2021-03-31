@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_GetFutureOpen
-description: Integer NSSaleSummary.GetFutureOpen()
+uid: crmscript_ref_NSSaleSummary_GetFutureOpen
+title: Integer GetFutureOpen()
 intellisense: NSSaleSummary.GetFutureOpen
 keywords: NSSaleSummary, GetFutureOpen
 so.topic: reference

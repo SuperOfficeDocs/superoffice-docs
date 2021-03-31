@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_SetRegistered
-description: NSConsentInfo.SetRegistered(DateTime registered)
+uid: crmscript_ref_NSConsentInfo_SetRegistered
+title: SetRegistered(DateTime registered)
 intellisense: NSConsentInfo.SetRegistered
 keywords: NSConsentInfo, GetRegistered
 so.topic: reference

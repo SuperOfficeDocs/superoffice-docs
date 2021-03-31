@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_GetAdminWarningDate
-description: DateTime NSLicenseInfo.GetAdminWarningDate()
+uid: crmscript_ref_NSLicenseInfo_GetAdminWarningDate
+title: DateTime GetAdminWarningDate()
 intellisense: NSLicenseInfo.GetAdminWarningDate
 keywords: NSLicenseInfo, GetAdminWarningDate
 so.topic: reference

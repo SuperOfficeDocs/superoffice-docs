@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPhoneListAgent_GetContactPhones
-description: PhoneListItemArray GetContactPhones(Integer contactId)
+uid: crmscript_ref_NSPhoneListAgent_GetContactPhones
+title: PhoneListItemArray GetContactPhones(Integer contactId)
 intellisense: NSPhoneListAgent.GetContactPhones
-keywords: NSPhoneListAgent,GetContactPhones
+keywords: NSPhoneListAgent, GetContactPhones
 so.topic: reference
 ---
 

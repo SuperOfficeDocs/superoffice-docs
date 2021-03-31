@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_Move
-description: AppointmentEntity Move(Integer appointmentId, DateTime newStartTime, Integer updateMode)
+uid: crmscript_ref_NSAppointmentAgent_Move
+title: AppointmentEntity Move(Integer appointmentId, DateTime newStartTime, Integer updateMode)
 intellisense: NSAppointmentAgent.Move
-keywords: NSAppointmentAgent,Move
+keywords: NSAppointmentAgent, Move
 so.topic: reference
 ---
 

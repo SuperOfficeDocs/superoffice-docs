@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_SetHeadingIconHint
-description: NSArchiveColumnInfo.SetHeadingIconHint(String headingIconHint)
+uid: crmscript_ref_NSArchiveColumnInfo_SetHeadingIconHint
+title: SetHeadingIconHint(String headingIconHint)
 intellisense: NSArchiveColumnInfo.SetHeadingIconHint
 keywords: NSArchiveColumnInfo, GetHeadingIconHint
 so.topic: reference

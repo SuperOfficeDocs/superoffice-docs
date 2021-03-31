@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_SetComment
-description: NSProjectMember.SetComment(String comment)
+uid: crmscript_ref_NSProjectMember_SetComment
+title: SetComment(String comment)
 intellisense: NSProjectMember.SetComment
 keywords: NSProjectMember, GetComment
 so.topic: reference

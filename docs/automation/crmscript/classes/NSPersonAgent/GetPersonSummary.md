@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetPersonSummary
-description: PersonSummary GetPersonSummary(Integer personId, Integer limit)
+uid: crmscript_ref_NSPersonAgent_GetPersonSummary
+title: PersonSummary GetPersonSummary(Integer personId, Integer limit)
 intellisense: NSPersonAgent.GetPersonSummary
-keywords: NSPersonAgent,GetPersonSummary
+keywords: NSPersonAgent, GetPersonSummary
 so.topic: reference
 ---
 

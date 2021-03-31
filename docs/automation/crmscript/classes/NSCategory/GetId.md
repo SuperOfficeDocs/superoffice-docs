@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSCategory_GetId
-description: Integer NSCategory.GetId()
+uid: crmscript_ref_NSCategory_GetId
+title: Integer GetId()
 intellisense: NSCategory.GetId
 keywords: NSCategory, GetId
 so.topic: reference
 ---
 
-Get the primary key (id)
+Get the primary key (id) for the Category
 
-**Returns:** Integer Id
+**Returns:** Integer Category id.
 

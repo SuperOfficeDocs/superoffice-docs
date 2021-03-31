@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearch_GetIncludePerson
-description: Integer NSTypicalSearch.GetIncludePerson()
+uid: crmscript_ref_NSTypicalSearch_GetIncludePerson
+title: Integer GetIncludePerson()
 intellisense: NSTypicalSearch.GetIncludePerson
 keywords: NSTypicalSearch, GetIncludePerson
 so.topic: reference

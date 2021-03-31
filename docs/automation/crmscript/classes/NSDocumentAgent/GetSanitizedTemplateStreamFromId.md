@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetSanitizedTemplateStreamFromId
-description: Stream GetSanitizedTemplateStreamFromId(Integer templateId, String uiCulture)
+uid: crmscript_ref_NSDocumentAgent_GetSanitizedTemplateStreamFromId
+title: Stream GetSanitizedTemplateStreamFromId(Integer templateId, String uiCulture)
 intellisense: NSDocumentAgent.GetSanitizedTemplateStreamFromId
-keywords: NSDocumentAgent,GetSanitizedTemplateStreamFromId
+keywords: NSDocumentAgent, GetSanitizedTemplateStreamFromId
 so.topic: reference
 ---
 

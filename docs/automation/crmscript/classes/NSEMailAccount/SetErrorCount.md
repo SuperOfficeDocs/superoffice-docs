@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAccount_SetErrorCount
-description: NSEMailAccount.SetErrorCount(Integer errorCount)
+uid: crmscript_ref_NSEMailAccount_SetErrorCount
+title: SetErrorCount(Integer errorCount)
 intellisense: NSEMailAccount.SetErrorCount
 keywords: NSEMailAccount, GetErrorCount
 so.topic: reference

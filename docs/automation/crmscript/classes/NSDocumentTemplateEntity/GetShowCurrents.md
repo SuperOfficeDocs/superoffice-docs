@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetShowCurrents
-description: Bool NSDocumentTemplateEntity.GetShowCurrents()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetShowCurrents
+title: Bool GetShowCurrents()
 intellisense: NSDocumentTemplateEntity.GetShowCurrents
 keywords: NSDocumentTemplateEntity, GetShowCurrents
 so.topic: reference

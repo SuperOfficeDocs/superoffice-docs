@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_SetCrmDisplayTooltip
-description: NSErpSyncFieldMapping.SetCrmDisplayTooltip(String crmDisplayTooltip)
+uid: crmscript_ref_NSErpSyncFieldMapping_SetCrmDisplayTooltip
+title: SetCrmDisplayTooltip(String crmDisplayTooltip)
 intellisense: NSErpSyncFieldMapping.SetCrmDisplayTooltip
 keywords: NSErpSyncFieldMapping, GetCrmDisplayTooltip
 so.topic: reference

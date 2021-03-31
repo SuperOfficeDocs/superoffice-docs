@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPosition
-description: NSPosition
+uid: crmscript_ref_NSPosition
+title: NSPosition
 intellisense: Void.NSPosition
 keywords: NSPosition
 so.topic: reference

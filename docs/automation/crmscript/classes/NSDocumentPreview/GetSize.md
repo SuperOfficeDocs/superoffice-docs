@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentPreview_GetSize
-description: Integer NSDocumentPreview.GetSize()
+uid: crmscript_ref_NSDocumentPreview_GetSize
+title: Integer GetSize()
 intellisense: NSDocumentPreview.GetSize
 keywords: NSDocumentPreview, GetSize
 so.topic: reference

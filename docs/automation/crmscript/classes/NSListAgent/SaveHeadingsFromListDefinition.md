@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveHeadingsFromListDefinition
-description: HeadingEntityArray SaveHeadingsFromListDefinition(Integer id, HeadingEntityArray entities)
+uid: crmscript_ref_NSListAgent_SaveHeadingsFromListDefinition
+title: HeadingEntityArray SaveHeadingsFromListDefinition(Integer id, HeadingEntityArray entities)
 intellisense: NSListAgent.SaveHeadingsFromListDefinition
-keywords: NSListAgent,SaveHeadingsFromListDefinition
+keywords: NSListAgent, SaveHeadingsFromListDefinition
 so.topic: reference
 ---
 

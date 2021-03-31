@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetActiveLinks
-description: NSAppointmentEntity.SetActiveLinks(Integer activeLinks)
+uid: crmscript_ref_NSAppointmentEntity_SetActiveLinks
+title: SetActiveLinks(Integer activeLinks)
 intellisense: NSAppointmentEntity.SetActiveLinks
 keywords: NSAppointmentEntity, GetActiveLinks
 so.topic: reference

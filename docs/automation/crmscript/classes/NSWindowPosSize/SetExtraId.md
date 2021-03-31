@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_SetExtraId
-description: NSWindowPosSize.SetExtraId(Integer extraId)
+uid: crmscript_ref_NSWindowPosSize_SetExtraId
+title: SetExtraId(Integer extraId)
 intellisense: NSWindowPosSize.SetExtraId
 keywords: NSWindowPosSize, GetExtraId
 so.topic: reference

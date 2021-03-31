@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_GetRank
-description: Integer NSFieldMetadata.GetRank()
+uid: crmscript_ref_NSFieldMetadata_GetRank
+title: Integer GetRank()
 intellisense: NSFieldMetadata.GetRank
 keywords: NSFieldMetadata, GetRank
 so.topic: reference

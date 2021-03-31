@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuickReply_GetQuickReplyId
-description: Integer NSQuickReply.GetQuickReplyId()
+uid: crmscript_ref_NSQuickReply_GetQuickReplyId
+title: Integer GetQuickReplyId()
 intellisense: NSQuickReply.GetQuickReplyId
 keywords: NSQuickReply, GetQuickReplyId
 so.topic: reference

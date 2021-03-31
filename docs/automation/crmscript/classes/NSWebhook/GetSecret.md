@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetSecret
-description: String NSWebhook.GetSecret()
+uid: crmscript_ref_NSWebhook_GetSecret
+title: String GetSecret()
 intellisense: NSWebhook.GetSecret
 keywords: NSWebhook, GetSecret
 so.topic: reference

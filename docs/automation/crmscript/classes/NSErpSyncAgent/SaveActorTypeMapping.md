@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_SaveActorTypeMapping
-description: ErpSyncActorTypeMapping SaveActorTypeMapping(ErpSyncActorTypeMapping mapping)
+uid: crmscript_ref_NSErpSyncAgent_SaveActorTypeMapping
+title: ErpSyncActorTypeMapping SaveActorTypeMapping(ErpSyncActorTypeMapping mapping)
 intellisense: NSErpSyncAgent.SaveActorTypeMapping
-keywords: NSErpSyncAgent,SaveActorTypeMapping
+keywords: NSErpSyncAgent, SaveActorTypeMapping
 so.topic: reference
 ---
 

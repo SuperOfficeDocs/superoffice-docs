@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_SetMailBody
-description: NSQuotePublishDocuments.SetMailBody(String mailBody)
+uid: crmscript_ref_NSQuotePublishDocuments_SetMailBody
+title: SetMailBody(String mailBody)
 intellisense: NSQuotePublishDocuments.SetMailBody
 keywords: NSQuotePublishDocuments, GetMailBody
 so.topic: reference

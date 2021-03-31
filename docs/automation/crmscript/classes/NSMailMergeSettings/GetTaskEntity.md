@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetTaskEntity
-description: MailMergeTask NSMailMergeSettings.GetTaskEntity()
+uid: crmscript_ref_NSMailMergeSettings_GetTaskEntity
+title: MailMergeTask GetTaskEntity()
 intellisense: NSMailMergeSettings.GetTaskEntity
 keywords: NSMailMergeSettings, GetTaskEntity
 so.topic: reference

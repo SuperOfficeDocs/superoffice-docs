@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_SetConceptualType
-description: NSBlobEntity.SetConceptualType(String conceptualType)
+uid: crmscript_ref_NSBlobEntity_SetConceptualType
+title: SetConceptualType(String conceptualType)
 intellisense: NSBlobEntity.SetConceptualType
 keywords: NSBlobEntity, GetConceptualType
 so.topic: reference

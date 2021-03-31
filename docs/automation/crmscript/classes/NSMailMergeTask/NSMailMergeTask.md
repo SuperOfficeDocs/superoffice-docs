@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask
-description: NSMailMergeTask
+uid: crmscript_ref_NSMailMergeTask
+title: NSMailMergeTask
 intellisense: Void.NSMailMergeTask
 keywords: NSMailMergeTask
 so.topic: reference

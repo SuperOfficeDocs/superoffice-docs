@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_SetMessageSubject
-description: NSPreviewMailing.SetMessageSubject(String messageSubject)
+uid: crmscript_ref_NSPreviewMailing_SetMessageSubject
+title: SetMessageSubject(String messageSubject)
 intellisense: NSPreviewMailing.SetMessageSubject
 keywords: NSPreviewMailing, GetMessageSubject
 so.topic: reference

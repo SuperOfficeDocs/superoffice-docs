@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_GetFormText
-description: String NSConsentPurpose.GetFormText()
+uid: crmscript_ref_NSConsentPurpose_GetFormText
+title: String GetFormText()
 intellisense: NSConsentPurpose.GetFormText
 keywords: NSConsentPurpose, GetFormText
 so.topic: reference

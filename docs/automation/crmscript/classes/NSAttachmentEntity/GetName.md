@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAttachmentEntity_GetName
-description: String NSAttachmentEntity.GetName()
+uid: crmscript_ref_NSAttachmentEntity_GetName
+title: String GetName()
 intellisense: NSAttachmentEntity.GetName
 keywords: NSAttachmentEntity, GetName
 so.topic: reference

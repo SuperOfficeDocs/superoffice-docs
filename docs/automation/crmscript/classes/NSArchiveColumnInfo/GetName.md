@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_GetName
-description: String NSArchiveColumnInfo.GetName()
+uid: crmscript_ref_NSArchiveColumnInfo_GetName
+title: String GetName()
 intellisense: NSArchiveColumnInfo.GetName
 keywords: NSArchiveColumnInfo, GetName
 so.topic: reference

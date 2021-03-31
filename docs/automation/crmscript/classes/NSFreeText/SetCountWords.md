@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFreeText_SetCountWords
-description: NSFreeText.SetCountWords(Integer countWords)
+uid: crmscript_ref_NSFreeText_SetCountWords
+title: SetCountWords(Integer countWords)
 intellisense: NSFreeText.SetCountWords
 keywords: NSFreeText, GetCountWords
 so.topic: reference

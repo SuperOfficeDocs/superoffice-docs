@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_GetRank
-description: Integer NSStatusMonitor.GetRank()
+uid: crmscript_ref_NSStatusMonitor_GetRank
+title: Integer GetRank()
 intellisense: NSStatusMonitor.GetRank
 keywords: NSStatusMonitor, GetRank
 so.topic: reference

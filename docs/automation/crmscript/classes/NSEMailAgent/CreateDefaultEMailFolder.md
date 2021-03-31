@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateDefaultEMailFolder
-description: NSEMailFolder CreateDefaultEMailFolder()
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailFolder
+title: NSEMailFolder CreateDefaultEMailFolder()
 intellisense: NSEMailAgent.CreateDefaultEMailFolder
-keywords: NSEMailAgent,CreateDefaultEMailFolder
+keywords: NSEMailAgent, CreateDefaultEMailFolder
 so.topic: reference
 ---
 	  

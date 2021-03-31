@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_SetLegalBaseName
-description: NSConsentInfo.SetLegalBaseName(String legalBaseName)
+uid: crmscript_ref_NSConsentInfo_SetLegalBaseName
+title: SetLegalBaseName(String legalBaseName)
 intellisense: NSConsentInfo.SetLegalBaseName
 keywords: NSConsentInfo, GetLegalBaseName
 so.topic: reference

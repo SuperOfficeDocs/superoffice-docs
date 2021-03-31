@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaintConfiguration_GetGenerationStart
-description: DateTime NSSaintConfiguration.GetGenerationStart()
+uid: crmscript_ref_NSSaintConfiguration_GetGenerationStart
+title: DateTime GetGenerationStart()
 intellisense: NSSaintConfiguration.GetGenerationStart
 keywords: NSSaintConfiguration, GetGenerationStart
 so.topic: reference

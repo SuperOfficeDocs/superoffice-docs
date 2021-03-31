@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetStatus
-description: NSSale.SetStatus(Integer status)
+uid: crmscript_ref_NSSale_SetStatus
+title: SetStatus(Integer status)
 intellisense: NSSale.SetStatus
 keywords: NSSale, GetStatus
 so.topic: reference

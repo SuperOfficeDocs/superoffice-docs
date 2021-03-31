@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_ApproveQuoteVersion
-description: ApproveRejectResponse ApproveQuoteVersion(Integer quoteVersionId, String approvedByText, Integer approvedByAssociateId, String approvalText)
+uid: crmscript_ref_NSQuoteAgent_ApproveQuoteVersion
+title: ApproveRejectResponse ApproveQuoteVersion(Integer quoteVersionId, String approvedByText, Integer approvedByAssociateId, String approvalText)
 intellisense: NSQuoteAgent.ApproveQuoteVersion
-keywords: NSQuoteAgent,ApproveQuoteVersion
+keywords: NSQuoteAgent, ApproveQuoteVersion
 so.topic: reference
 ---
 

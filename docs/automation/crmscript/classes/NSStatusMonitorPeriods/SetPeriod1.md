@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitorPeriods_SetPeriod1
-description: NSStatusMonitorPeriods.SetPeriod1(Integer period1)
+uid: crmscript_ref_NSStatusMonitorPeriods_SetPeriod1
+title: SetPeriod1(Integer period1)
 intellisense: NSStatusMonitorPeriods.SetPeriod1
 keywords: NSStatusMonitorPeriods, GetPeriod1
 so.topic: reference

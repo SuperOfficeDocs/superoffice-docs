@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSDeliveryType_GetValue
-description: String NSDeliveryType.GetValue()
+uid: crmscript_ref_NSDeliveryType_GetValue
+title: String GetValue()
 intellisense: NSDeliveryType.GetValue
 keywords: NSDeliveryType, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the DeliveryType.
 
-**Returns:** String name
+**Returns:** String DeliveryType name.
 

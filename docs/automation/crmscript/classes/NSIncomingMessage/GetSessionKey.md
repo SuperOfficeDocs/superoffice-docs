@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSIncomingMessage_GetSessionKey
-description: String NSIncomingMessage.GetSessionKey()
+uid: crmscript_ref_NSIncomingMessage_GetSessionKey
+title: String GetSessionKey()
 intellisense: NSIncomingMessage.GetSessionKey
 keywords: NSIncomingMessage, GetSessionKey
 so.topic: reference

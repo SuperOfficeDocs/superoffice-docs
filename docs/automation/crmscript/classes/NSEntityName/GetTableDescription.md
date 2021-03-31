@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEntityName_GetTableDescription
-description: String NSEntityName.GetTableDescription()
+uid: crmscript_ref_NSEntityName_GetTableDescription
+title: String GetTableDescription()
 intellisense: NSEntityName.GetTableDescription
 keywords: NSEntityName, GetTableDescription
 so.topic: reference

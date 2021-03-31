@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember
-description: NSProjectMember
+uid: crmscript_ref_NSProjectMember
+title: NSProjectMember
 intellisense: Void.NSProjectMember
 keywords: NSProjectMember
 so.topic: reference

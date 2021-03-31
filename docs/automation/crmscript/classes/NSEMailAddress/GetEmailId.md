@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAddress_GetEmailId
-description: Integer NSEMailAddress.GetEmailId()
+uid: crmscript_ref_NSEMailAddress_GetEmailId
+title: Integer GetEmailId()
 intellisense: NSEMailAddress.GetEmailId
 keywords: NSEMailAddress, GetEmailId
 so.topic: reference

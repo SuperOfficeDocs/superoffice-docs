@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistory_GetHistoryName
-description: String NSHistory.GetHistoryName()
+uid: crmscript_ref_NSHistory_GetHistoryName
+title: String GetHistoryName()
 intellisense: NSHistory.GetHistoryName
 keywords: NSHistory, GetHistoryName
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetReadySyncEmailAccounts
-description: SyncUserAccountArray GetReadySyncEmailAccounts()
+uid: crmscript_ref_NSEMailAgent_GetReadySyncEmailAccounts
+title: SyncUserAccountArray GetReadySyncEmailAccounts()
 intellisense: NSEMailAgent.GetReadySyncEmailAccounts
-keywords: NSEMailAgent,GetReadySyncEmailAccounts
+keywords: NSEMailAgent, GetReadySyncEmailAccounts
 so.topic: reference
 ---
 

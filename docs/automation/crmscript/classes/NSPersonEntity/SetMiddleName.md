@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetMiddleName
-description: NSPersonEntity.SetMiddleName(String middleName)
+uid: crmscript_ref_NSPersonEntity_SetMiddleName
+title: SetMiddleName(String middleName)
 intellisense: NSPersonEntity.SetMiddleName
 keywords: NSPersonEntity, GetMiddleName
 so.topic: reference

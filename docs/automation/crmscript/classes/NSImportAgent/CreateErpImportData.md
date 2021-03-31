@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSImportAgent_CreateErpImportData
-description: ImportErpData CreateErpImportData(ArchiveRestrictionInfoArray restriction, StringArray columns, Integer connectionId, Integer erpActorType)
+uid: crmscript_ref_NSImportAgent_CreateErpImportData
+title: ImportErpData CreateErpImportData(ArchiveRestrictionInfoArray restriction, StringArray columns, Integer connectionId, Integer erpActorType)
 intellisense: NSImportAgent.CreateErpImportData
-keywords: NSImportAgent,CreateErpImportData
+keywords: NSImportAgent, CreateErpImportData
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_SetPostit
-description: NSProjectEntity.SetPostit(String postit)
+uid: crmscript_ref_NSProjectEntity_SetPostit
+title: SetPostit(String postit)
 intellisense: NSProjectEntity.SetPostit
 keywords: NSProjectEntity, GetPostit
 so.topic: reference

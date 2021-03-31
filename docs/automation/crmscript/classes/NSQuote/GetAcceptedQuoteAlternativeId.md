@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuote_GetAcceptedQuoteAlternativeId
-description: Integer NSQuote.GetAcceptedQuoteAlternativeId()
+uid: crmscript_ref_NSQuote_GetAcceptedQuoteAlternativeId
+title: Integer GetAcceptedQuoteAlternativeId()
 intellisense: NSQuote.GetAcceptedQuoteAlternativeId
 keywords: NSQuote, GetAcceptedQuoteAlternativeId
 so.topic: reference

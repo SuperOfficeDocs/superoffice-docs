@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoLongText_SetIsHtml
-description: NSFieldInfoLongText.SetIsHtml(Bool isHtml)
+uid: crmscript_ref_NSFieldInfoLongText_SetIsHtml
+title: SetIsHtml(Bool isHtml)
 intellisense: NSFieldInfoLongText.SetIsHtml
 keywords: NSFieldInfoLongText, GetIsHtml
 so.topic: reference

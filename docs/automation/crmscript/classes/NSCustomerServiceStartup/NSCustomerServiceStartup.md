@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceStartup
-description: NSCustomerServiceStartup
+uid: crmscript_ref_NSCustomerServiceStartup
+title: NSCustomerServiceStartup
 intellisense: Void.NSCustomerServiceStartup
 keywords: NSCustomerServiceStartup
 so.topic: reference

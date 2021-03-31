@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_SetPersonId
-description: NSFormSubmissionEntity.SetPersonId(Integer personId)
+uid: crmscript_ref_NSFormSubmissionEntity_SetPersonId
+title: SetPersonId(Integer personId)
 intellisense: NSFormSubmissionEntity.SetPersonId
 keywords: NSFormSubmissionEntity, GetPersonId
 so.topic: reference

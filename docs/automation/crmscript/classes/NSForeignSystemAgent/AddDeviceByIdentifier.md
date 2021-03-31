@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_AddDeviceByIdentifier
-description: ForeignDevice AddDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
+uid: crmscript_ref_NSForeignSystemAgent_AddDeviceByIdentifier
+title: ForeignDevice AddDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
 intellisense: NSForeignSystemAgent.AddDeviceByIdentifier
-keywords: NSForeignSystemAgent,AddDeviceByIdentifier
+keywords: NSForeignSystemAgent, AddDeviceByIdentifier
 so.topic: reference
 ---
 

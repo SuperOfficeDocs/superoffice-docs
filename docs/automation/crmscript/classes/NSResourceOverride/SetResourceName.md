@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceOverride_SetResourceName
-description: NSResourceOverride.SetResourceName(String resourceName)
+uid: crmscript_ref_NSResourceOverride_SetResourceName
+title: SetResourceName(String resourceName)
 intellisense: NSResourceOverride.SetResourceName
 keywords: NSResourceOverride, GetResourceName
 so.topic: reference

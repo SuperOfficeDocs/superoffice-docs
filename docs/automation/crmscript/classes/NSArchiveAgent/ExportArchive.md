@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_ExportArchive
-description: ExportArchiveResult ExportArchive(String providerName, String context, StringArray desiredEntities, StringArray columns, ArchiveOrderByInfoArray sortOrder, ArchiveRestrictionInfoArray restrictions, String exportType, StringArray selectedRowIds, Integer estimatedRowCount)
+uid: crmscript_ref_NSArchiveAgent_ExportArchive
+title: ExportArchiveResult ExportArchive(String providerName, String context, StringArray desiredEntities, StringArray columns, ArchiveOrderByInfoArray sortOrder, ArchiveRestrictionInfoArray restrictions, String exportType, StringArray selectedRowIds, Integer estimatedRowCount)
 intellisense: NSArchiveAgent.ExportArchive
-keywords: NSArchiveAgent,ExportArchive
+keywords: NSArchiveAgent, ExportArchive
 so.topic: reference
 ---
 

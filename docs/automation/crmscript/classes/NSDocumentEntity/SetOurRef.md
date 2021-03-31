@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetOurRef
-description: NSDocumentEntity.SetOurRef(String ourRef)
+uid: crmscript_ref_NSDocumentEntity_SetOurRef
+title: SetOurRef(String ourRef)
 intellisense: NSDocumentEntity.SetOurRef
 keywords: NSDocumentEntity, GetOurRef
 so.topic: reference

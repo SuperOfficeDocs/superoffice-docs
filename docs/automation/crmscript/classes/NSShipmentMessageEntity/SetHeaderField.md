@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_SetHeaderField
-description: NSShipmentMessageEntity.SetHeaderField(String headerField)
+uid: crmscript_ref_NSShipmentMessageEntity_SetHeaderField
+title: SetHeaderField(String headerField)
 intellisense: NSShipmentMessageEntity.SetHeaderField
 keywords: NSShipmentMessageEntity, GetHeaderField
 so.topic: reference

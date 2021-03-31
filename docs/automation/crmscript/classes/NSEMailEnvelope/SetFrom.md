@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_SetFrom
-description: NSEMailEnvelope.SetFrom(EMailAddress from)
+uid: crmscript_ref_NSEMailEnvelope_SetFrom
+title: SetFrom(EMailAddress from)
 intellisense: NSEMailEnvelope.SetFrom
 keywords: NSEMailEnvelope, GetFrom
 so.topic: reference

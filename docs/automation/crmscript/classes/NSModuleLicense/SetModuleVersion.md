@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_SetModuleVersion
-description: NSModuleLicense.SetModuleVersion(String moduleVersion)
+uid: crmscript_ref_NSModuleLicense_SetModuleVersion
+title: SetModuleVersion(String moduleVersion)
 intellisense: NSModuleLicense.SetModuleVersion
 keywords: NSModuleLicense, GetModuleVersion
 so.topic: reference

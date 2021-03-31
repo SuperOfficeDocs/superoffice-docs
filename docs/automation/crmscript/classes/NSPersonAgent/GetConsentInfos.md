@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetConsentInfos
-description: ConsentInfoArray GetConsentInfos(Integer personId)
+uid: crmscript_ref_NSPersonAgent_GetConsentInfos
+title: ConsentInfoArray GetConsentInfos(Integer personId)
 intellisense: NSPersonAgent.GetConsentInfos
-keywords: NSPersonAgent,GetConsentInfos
+keywords: NSPersonAgent, GetConsentInfos
 so.topic: reference
 ---
 

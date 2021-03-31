@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSmtpTestResult
-description: NSSmtpTestResult
+uid: crmscript_ref_NSSmtpTestResult
+title: NSSmtpTestResult
 intellisense: Void.NSSmtpTestResult
 keywords: NSSmtpTestResult
 so.topic: reference

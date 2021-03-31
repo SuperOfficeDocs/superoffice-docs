@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetListItemsForHeading
-description: SelectableMDOListItemArray GetListItemsForHeading(Integer udListDefinitionId, Integer headingId)
+uid: crmscript_ref_NSListAgent_GetListItemsForHeading
+title: SelectableMDOListItemArray GetListItemsForHeading(Integer udListDefinitionId, Integer headingId)
 intellisense: NSListAgent.GetListItemsForHeading
-keywords: NSListAgent,GetListItemsForHeading
+keywords: NSListAgent, GetListItemsForHeading
 so.topic: reference
 ---
 

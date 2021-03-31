@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRelationDefinitionEntity_SetPassiveText
-description: NSRelationDefinitionEntity.SetPassiveText(String passiveText)
+uid: crmscript_ref_NSRelationDefinitionEntity_SetPassiveText
+title: SetPassiveText(String passiveText)
 intellisense: NSRelationDefinitionEntity.SetPassiveText
 keywords: NSRelationDefinitionEntity, GetPassiveText
 so.topic: reference

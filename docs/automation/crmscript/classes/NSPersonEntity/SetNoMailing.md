@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetNoMailing
-description: NSPersonEntity.SetNoMailing(Bool noMailing)
+uid: crmscript_ref_NSPersonEntity_SetNoMailing
+title: SetNoMailing(Bool noMailing)
 intellisense: NSPersonEntity.SetNoMailing
 keywords: NSPersonEntity, GetNoMailing
 so.topic: reference

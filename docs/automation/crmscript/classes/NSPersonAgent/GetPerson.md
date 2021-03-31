@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetPerson
-description: NSPerson GetPerson(Integer personId);
+uid: crmscript_ref_NSPersonAgent_GetPerson
+title: NSPerson GetPerson(Integer personId);
 intellisense: NSPersonAgent.GetPerson
-keywords: NSPersonAgent,GetPerson
+keywords: NSPersonAgent, GetPerson
 so.topic: reference
 ---
 

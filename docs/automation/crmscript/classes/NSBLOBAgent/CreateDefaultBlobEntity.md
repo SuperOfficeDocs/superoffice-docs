@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_CreateDefaultBlobEntity
-description: NSBlobEntity CreateDefaultBlobEntity()
+uid: crmscript_ref_NSBLOBAgent_CreateDefaultBlobEntity
+title: NSBlobEntity CreateDefaultBlobEntity()
 intellisense: NSBLOBAgent.CreateDefaultBlobEntity
-keywords: NSBLOBAgent,CreateDefaultBlobEntity
+keywords: NSBLOBAgent, CreateDefaultBlobEntity
 so.topic: reference
 ---
 	  

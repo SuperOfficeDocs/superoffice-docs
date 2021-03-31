@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDocumentTypesForPlugin
-description: IntStringDictionary GetDocumentTypesForPlugin(Integer pluginId)
+uid: crmscript_ref_NSListAgent_GetDocumentTypesForPlugin
+title: IntStringDictionary GetDocumentTypesForPlugin(Integer pluginId)
 intellisense: NSListAgent.GetDocumentTypesForPlugin
-keywords: NSListAgent,GetDocumentTypesForPlugin
+keywords: NSListAgent, GetDocumentTypesForPlugin
 so.topic: reference
 ---
 

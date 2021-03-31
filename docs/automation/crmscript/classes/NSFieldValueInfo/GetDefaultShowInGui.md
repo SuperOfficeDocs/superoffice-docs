@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_GetDefaultShowInGui
-description: Bool NSFieldValueInfo.GetDefaultShowInGui()
+uid: crmscript_ref_NSFieldValueInfo_GetDefaultShowInGui
+title: Bool GetDefaultShowInGui()
 intellisense: NSFieldValueInfo.GetDefaultShowInGui
 keywords: NSFieldValueInfo, GetDefaultShowInGui
 so.topic: reference

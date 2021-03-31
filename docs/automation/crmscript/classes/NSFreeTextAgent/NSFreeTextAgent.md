@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent
-description: NSFreeTextAgent
+uid: crmscript_ref_NSFreeTextAgent
+title: NSFreeTextAgent
 intellisense: Void.NSFreeTextAgent
 keywords: NSFreeTextAgent
 so.topic: reference

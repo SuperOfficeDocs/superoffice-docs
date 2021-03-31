@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_CreateDefaultSaleStakeholder
-description: NSSaleStakeholder CreateDefaultSaleStakeholder()
+uid: crmscript_ref_NSSaleAgent_CreateDefaultSaleStakeholder
+title: NSSaleStakeholder CreateDefaultSaleStakeholder()
 intellisense: NSSaleAgent.CreateDefaultSaleStakeholder
-keywords: NSSaleAgent,CreateDefaultSaleStakeholder
+keywords: NSSaleAgent, CreateDefaultSaleStakeholder
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveOrderByInfo_SetName
-description: NSArchiveOrderByInfo.SetName(String name)
+uid: crmscript_ref_NSArchiveOrderByInfo_SetName
+title: SetName(String name)
 intellisense: NSArchiveOrderByInfo.SetName
 keywords: NSArchiveOrderByInfo, GetName
 so.topic: reference

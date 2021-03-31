@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_GetPersonFullName
-description: String NSPreviewMailing.GetPersonFullName()
+uid: crmscript_ref_NSPreviewMailing_GetPersonFullName
+title: String GetPersonFullName()
 intellisense: NSPreviewMailing.GetPersonFullName
 keywords: NSPreviewMailing, GetPersonFullName
 so.topic: reference

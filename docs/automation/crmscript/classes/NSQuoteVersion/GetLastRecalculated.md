@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetLastRecalculated
-description: DateTime NSQuoteVersion.GetLastRecalculated()
+uid: crmscript_ref_NSQuoteVersion_GetLastRecalculated
+title: DateTime GetLastRecalculated()
 intellisense: NSQuoteVersion.GetLastRecalculated
 keywords: NSQuoteVersion, GetLastRecalculated
 so.topic: reference

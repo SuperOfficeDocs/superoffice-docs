@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatMessage_SetWhenPosted
-description: NSChatMessage.SetWhenPosted(DateTime whenPosted)
+uid: crmscript_ref_NSChatMessage_SetWhenPosted
+title: SetWhenPosted(DateTime whenPosted)
 intellisense: NSChatMessage.SetWhenPosted
 keywords: NSChatMessage, GetWhenPosted
 so.topic: reference

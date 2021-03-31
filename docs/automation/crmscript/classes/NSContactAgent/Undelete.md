@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_Undelete
-description: Void Undelete(Integer id)
+uid: crmscript_ref_NSContactAgent_Undelete
+title: Void Undelete(Integer id)
 intellisense: NSContactAgent.Undelete
-keywords: NSContactAgent,Undelete
+keywords: NSContactAgent, Undelete
 so.topic: reference
 ---
 

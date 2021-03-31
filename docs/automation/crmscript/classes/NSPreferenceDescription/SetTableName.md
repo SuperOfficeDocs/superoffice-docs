@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_SetTableName
-description: NSPreferenceDescription.SetTableName(String tableName)
+uid: crmscript_ref_NSPreferenceDescription_SetTableName
+title: SetTableName(String tableName)
 intellisense: NSPreferenceDescription.SetTableName
 keywords: NSPreferenceDescription, GetTableName
 so.topic: reference

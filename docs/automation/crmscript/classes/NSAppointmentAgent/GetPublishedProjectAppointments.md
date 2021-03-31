@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetPublishedProjectAppointments
-description: AppointmentArray GetPublishedProjectAppointments(Integer projectId)
+uid: crmscript_ref_NSAppointmentAgent_GetPublishedProjectAppointments
+title: AppointmentArray GetPublishedProjectAppointments(Integer projectId)
 intellisense: NSAppointmentAgent.GetPublishedProjectAppointments
-keywords: NSAppointmentAgent,GetPublishedProjectAppointments
+keywords: NSAppointmentAgent, GetPublishedProjectAppointments
 so.topic: reference
 ---
 

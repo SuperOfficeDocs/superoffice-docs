@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetThuStart
-description: NSTicketPriorityEntity.SetThuStart(DateTime thuStart)
+uid: crmscript_ref_NSTicketPriorityEntity_SetThuStart
+title: SetThuStart(DateTime thuStart)
 intellisense: NSTicketPriorityEntity.SetThuStart
 keywords: NSTicketPriorityEntity, GetThuStart
 so.topic: reference

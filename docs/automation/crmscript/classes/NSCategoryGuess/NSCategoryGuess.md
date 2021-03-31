@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategoryGuess
-description: NSCategoryGuess
+uid: crmscript_ref_NSCategoryGuess
+title: NSCategoryGuess
 intellisense: Void.NSCategoryGuess
 keywords: NSCategoryGuess
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDevice_GetUpdatedDate
-description: DateTime NSForeignDevice.GetUpdatedDate()
+uid: crmscript_ref_NSForeignDevice_GetUpdatedDate
+title: DateTime GetUpdatedDate()
 intellisense: NSForeignDevice.GetUpdatedDate
 keywords: NSForeignDevice, GetUpdatedDate
 so.topic: reference

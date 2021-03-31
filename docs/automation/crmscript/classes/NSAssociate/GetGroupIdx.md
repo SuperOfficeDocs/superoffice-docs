@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAssociate_GetGroupIdx
-description: Integer NSAssociate.GetGroupIdx()
+uid: crmscript_ref_NSAssociate_GetGroupIdx
+title: Integer GetGroupIdx()
 intellisense: NSAssociate.GetGroupIdx
 keywords: NSAssociate, GetGroupIdx
 so.topic: reference

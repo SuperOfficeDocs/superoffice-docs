@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_SetDisplayTooltip
-description: NSPreference.SetDisplayTooltip(String displayTooltip)
+uid: crmscript_ref_NSPreference_SetDisplayTooltip
+title: SetDisplayTooltip(String displayTooltip)
 intellisense: NSPreference.SetDisplayTooltip
 keywords: NSPreference, GetDisplayTooltip
 so.topic: reference

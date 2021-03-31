@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_Reject
-description: Void Reject(Integer appointmentId, String rejectReason, Integer updateMode)
+uid: crmscript_ref_NSAppointmentAgent_Reject
+title: Void Reject(Integer appointmentId, String rejectReason, Integer updateMode)
 intellisense: NSAppointmentAgent.Reject
-keywords: NSAppointmentAgent,Reject
+keywords: NSAppointmentAgent, Reject
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_SetQuoteAttachmentIds
-description: NSQuotePublishDocuments.SetQuoteAttachmentIds(IntegerArray quoteAttachmentIds)
+uid: crmscript_ref_NSQuotePublishDocuments_SetQuoteAttachmentIds
+title: SetQuoteAttachmentIds(IntegerArray quoteAttachmentIds)
 intellisense: NSQuotePublishDocuments.SetQuoteAttachmentIds
 keywords: NSQuotePublishDocuments, GetQuoteAttachmentIds
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetProject
-description: NSSaleEntity.SetProject(Project project)
+uid: crmscript_ref_NSSaleEntity_SetProject
+title: SetProject(Project project)
 intellisense: NSSaleEntity.SetProject
 keywords: NSSaleEntity, GetProject
 so.topic: reference

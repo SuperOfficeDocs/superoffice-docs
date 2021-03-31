@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivityFilter_SetToDate
-description: NSActivityFilter.SetToDate(DateTime toDate)
+uid: crmscript_ref_NSActivityFilter_SetToDate
+title: SetToDate(DateTime toDate)
 intellisense: NSActivityFilter.SetToDate
 keywords: NSActivityFilter, GetToDate
 so.topic: reference

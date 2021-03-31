@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetShowInMenuBar
-description: Bool NSWebPanelEntity.GetShowInMenuBar()
+uid: crmscript_ref_NSWebPanelEntity_GetShowInMenuBar
+title: Bool GetShowInMenuBar()
 intellisense: NSWebPanelEntity.GetShowInMenuBar
 keywords: NSWebPanelEntity, GetShowInMenuBar
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_SetValueType
-description: NSFieldValueInfo.SetValueType(String valueType)
+uid: crmscript_ref_NSFieldValueInfo_SetValueType
+title: SetValueType(String valueType)
 intellisense: NSFieldValueInfo.SetValueType
 keywords: NSFieldValueInfo, GetValueType
 so.topic: reference

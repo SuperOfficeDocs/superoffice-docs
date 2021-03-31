@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetIsReadOnly
-description: NSUserDefinedFieldInfo.SetIsReadOnly(Bool isReadOnly)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetIsReadOnly
+title: SetIsReadOnly(Bool isReadOnly)
 intellisense: NSUserDefinedFieldInfo.SetIsReadOnly
 keywords: NSUserDefinedFieldInfo, GetIsReadOnly
 so.topic: reference

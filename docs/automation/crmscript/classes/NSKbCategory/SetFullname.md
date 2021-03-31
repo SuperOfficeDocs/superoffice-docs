@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSKbCategory_SetFullname
-description: NSKbCategory.SetFullname(String fullname)
+uid: crmscript_ref_NSKbCategory_SetFullname
+title: SetFullname(String fullname)
 intellisense: NSKbCategory.SetFullname
 keywords: NSKbCategory, GetFullname
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_SaveBlobEntity
-description: NSBlobEntity SaveBlobEntity(NSBlobEntity blobEntity);
+uid: crmscript_ref_NSBLOBAgent_SaveBlobEntity
+title: NSBlobEntity SaveBlobEntity(NSBlobEntity blobEntity);
 intellisense: NSBLOBAgent.SaveBlobEntity
-keywords: NSBLOBAgent,SaveBlobEntity
+keywords: NSBLOBAgent, SaveBlobEntity
 so.topic: reference
 ---
 	  

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetCSRegistryValue
-description: String GetCSRegistryValue(Integer entry)
+uid: crmscript_ref_NSConfigurationAgent_GetCSRegistryValue
+title: String GetCSRegistryValue(Integer entry)
 intellisense: NSConfigurationAgent.GetCSRegistryValue
-keywords: NSConfigurationAgent,GetCSRegistryValue
+keywords: NSConfigurationAgent, GetCSRegistryValue
 so.topic: reference
 ---
 

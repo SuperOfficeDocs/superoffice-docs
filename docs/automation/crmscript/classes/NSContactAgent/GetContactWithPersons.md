@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetContactWithPersons
-description: ContactEntity GetContactWithPersons(Integer contactId)
+uid: crmscript_ref_NSContactAgent_GetContactWithPersons
+title: ContactEntity GetContactWithPersons(Integer contactId)
 intellisense: NSContactAgent.GetContactWithPersons
-keywords: NSContactAgent,GetContactWithPersons
+keywords: NSContactAgent, GetContactWithPersons
 so.topic: reference
 ---
 

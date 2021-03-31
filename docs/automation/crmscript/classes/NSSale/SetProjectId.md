@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetProjectId
-description: NSSale.SetProjectId(Integer projectId)
+uid: crmscript_ref_NSSale_SetProjectId
+title: SetProjectId(Integer projectId)
 intellisense: NSSale.SetProjectId
 keywords: NSSale, GetProjectId
 so.topic: reference

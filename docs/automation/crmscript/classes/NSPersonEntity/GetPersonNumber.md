@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetPersonNumber
-description: String NSPersonEntity.GetPersonNumber()
+uid: crmscript_ref_NSPersonEntity_GetPersonNumber
+title: String GetPersonNumber()
 intellisense: NSPersonEntity.GetPersonNumber
 keywords: NSPersonEntity, GetPersonNumber
 so.topic: reference

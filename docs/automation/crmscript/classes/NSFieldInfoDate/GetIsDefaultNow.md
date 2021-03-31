@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoDate_GetIsDefaultNow
-description: Bool NSFieldInfoDate.GetIsDefaultNow()
+uid: crmscript_ref_NSFieldInfoDate_GetIsDefaultNow
+title: Bool GetIsDefaultNow()
 intellisense: NSFieldInfoDate.GetIsDefaultNow
 keywords: NSFieldInfoDate, GetIsDefaultNow
 so.topic: reference

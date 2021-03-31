@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointmentEntity_SetText
-description: NSSuggestedAppointmentEntity.SetText(String text)
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetText
+title: SetText(String text)
 intellisense: NSSuggestedAppointmentEntity.SetText
 keywords: NSSuggestedAppointmentEntity, GetText
 so.topic: reference

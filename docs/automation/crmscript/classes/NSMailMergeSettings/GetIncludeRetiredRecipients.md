@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetIncludeRetiredRecipients
-description: Bool NSMailMergeSettings.GetIncludeRetiredRecipients()
+uid: crmscript_ref_NSMailMergeSettings_GetIncludeRetiredRecipients
+title: Bool GetIncludeRetiredRecipients()
 intellisense: NSMailMergeSettings.GetIncludeRetiredRecipients
 keywords: NSMailMergeSettings, GetIncludeRetiredRecipients
 so.topic: reference

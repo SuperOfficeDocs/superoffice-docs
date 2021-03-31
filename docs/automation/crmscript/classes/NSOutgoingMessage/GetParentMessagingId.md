@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOutgoingMessage_GetParentMessagingId
-description: Integer NSOutgoingMessage.GetParentMessagingId()
+uid: crmscript_ref_NSOutgoingMessage_GetParentMessagingId
+title: Integer GetParentMessagingId()
 intellisense: NSOutgoingMessage.GetParentMessagingId
 keywords: NSOutgoingMessage, GetParentMessagingId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTooltipsAgent_GetTooltip
-description: String GetTooltip(String tooltipHint)
+uid: crmscript_ref_NSTooltipsAgent_GetTooltip
+title: String GetTooltip(String tooltipHint)
 intellisense: NSTooltipsAgent.GetTooltip
-keywords: NSTooltipsAgent,GetTooltip
+keywords: NSTooltipsAgent, GetTooltip
 so.topic: reference
 ---
 

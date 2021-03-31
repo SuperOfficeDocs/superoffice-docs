@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_SetQuoteAlternativeId
-description: NSQuoteAlternative.SetQuoteAlternativeId(Integer quoteAlternativeId)
+uid: crmscript_ref_NSQuoteAlternative_SetQuoteAlternativeId
+title: SetQuoteAlternativeId(Integer quoteAlternativeId)
 intellisense: NSQuoteAlternative.SetQuoteAlternativeId
 keywords: NSQuoteAlternative, GetQuoteAlternativeId
 so.topic: reference

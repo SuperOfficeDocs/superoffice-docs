@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetNextMilestone
-description: Appointment GetNextMilestone(Integer projectId)
+uid: crmscript_ref_NSProjectAgent_GetNextMilestone
+title: Appointment GetNextMilestone(Integer projectId)
 intellisense: NSProjectAgent.GetNextMilestone
-keywords: NSProjectAgent,GetNextMilestone
+keywords: NSProjectAgent, GetNextMilestone
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask_SetCompleted
-description: NSMailMergeTask.SetCompleted(Integer completed)
+uid: crmscript_ref_NSMailMergeTask_SetCompleted
+title: SetCompleted(Integer completed)
 intellisense: NSMailMergeTask.SetCompleted
 keywords: NSMailMergeTask, GetCompleted
 so.topic: reference

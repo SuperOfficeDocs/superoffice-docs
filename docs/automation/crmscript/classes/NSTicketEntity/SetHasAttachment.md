@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetHasAttachment
-description: NSTicketEntity.SetHasAttachment(Bool hasAttachment)
+uid: crmscript_ref_NSTicketEntity_SetHasAttachment
+title: SetHasAttachment(Bool hasAttachment)
 intellisense: NSTicketEntity.SetHasAttachment
 keywords: NSTicketEntity, GetHasAttachment
 so.topic: reference

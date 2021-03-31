@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerCenterConfig_GetCustLangId
-description: Integer NSCustomerCenterConfig.GetCustLangId()
+uid: crmscript_ref_NSCustomerCenterConfig_GetCustLangId
+title: Integer GetCustLangId()
 intellisense: NSCustomerCenterConfig.GetCustLangId
 keywords: NSCustomerCenterConfig, GetCustLangId
 so.topic: reference

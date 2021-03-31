@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketDeviceInfo_SetOSVersion
-description: NSPocketDeviceInfo.SetOSVersion(String oSVersion)
+uid: crmscript_ref_NSPocketDeviceInfo_SetOSVersion
+title: SetOSVersion(String oSVersion)
 intellisense: NSPocketDeviceInfo.SetOSVersion
 keywords: NSPocketDeviceInfo, GetOSVersion
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetName
-description: NSTicketPriorityEntity.SetName(String name)
+uid: crmscript_ref_NSTicketPriorityEntity_SetName
+title: SetName(String name)
 intellisense: NSTicketPriorityEntity.SetName
 keywords: NSTicketPriorityEntity, GetName
 so.topic: reference

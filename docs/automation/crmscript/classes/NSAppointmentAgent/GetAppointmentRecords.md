@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetAppointmentRecords
-description: AppointmentArray GetAppointmentRecords(Integer motherId, Integer recurrenceRuleId)
+uid: crmscript_ref_NSAppointmentAgent_GetAppointmentRecords
+title: AppointmentArray GetAppointmentRecords(Integer motherId, Integer recurrenceRuleId)
 intellisense: NSAppointmentAgent.GetAppointmentRecords
-keywords: NSAppointmentAgent,GetAppointmentRecords
+keywords: NSAppointmentAgent, GetAppointmentRecords
 so.topic: reference
 ---
 

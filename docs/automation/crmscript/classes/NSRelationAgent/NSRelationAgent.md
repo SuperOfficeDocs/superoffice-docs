@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRelationAgent
-description: NSRelationAgent
+uid: crmscript_ref_NSRelationAgent
+title: NSRelationAgent
 intellisense: Void.NSRelationAgent
 keywords: NSRelationAgent
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_SaveConnection
-description: QuoteConnection SaveConnection(QuoteConnection connection)
+uid: crmscript_ref_NSQuoteAgent_SaveConnection
+title: QuoteConnection SaveConnection(QuoteConnection connection)
 intellisense: NSQuoteAgent.SaveConnection
-keywords: NSQuoteAgent,SaveConnection
+keywords: NSQuoteAgent, SaveConnection
 so.topic: reference
 ---
 

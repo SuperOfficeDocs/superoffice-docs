@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllTasks
-description: TaskListItemArray GetAllTasks(Bool includeDeleted)
+uid: crmscript_ref_NSListAgent_GetAllTasks
+title: TaskListItemArray GetAllTasks(Bool includeDeleted)
 intellisense: NSListAgent.GetAllTasks
-keywords: NSListAgent,GetAllTasks
+keywords: NSListAgent, GetAllTasks
 so.topic: reference
 ---
 

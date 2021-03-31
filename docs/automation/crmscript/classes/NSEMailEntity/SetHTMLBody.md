@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetHTMLBody
-description: NSEMailEntity.SetHTMLBody(String hTMLBody)
+uid: crmscript_ref_NSEMailEntity_SetHTMLBody
+title: SetHTMLBody(String hTMLBody)
 intellisense: NSEMailEntity.SetHTMLBody
 keywords: NSEMailEntity, GetHTMLBody
 so.topic: reference

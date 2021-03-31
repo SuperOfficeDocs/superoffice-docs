@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity_SetAmountClassId
-description: NSAmountClassEntity.SetAmountClassId(Integer amountClassId)
+uid: crmscript_ref_NSAmountClassEntity_SetAmountClassId
+title: SetAmountClassId(Integer amountClassId)
 intellisense: NSAmountClassEntity.SetAmountClassId
 keywords: NSAmountClassEntity, GetAmountClassId
 so.topic: reference

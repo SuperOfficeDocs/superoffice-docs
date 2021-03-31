@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetEndDate
-description: DateTime NSAppointmentEntity.GetEndDate()
+uid: crmscript_ref_NSAppointmentEntity_GetEndDate
+title: DateTime GetEndDate()
 intellisense: NSAppointmentEntity.GetEndDate
 keywords: NSAppointmentEntity, GetEndDate
 so.topic: reference

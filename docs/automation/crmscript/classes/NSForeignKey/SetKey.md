@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignKey_SetKey
-description: NSForeignKey.SetKey(String key)
+uid: crmscript_ref_NSForeignKey_SetKey
+title: SetKey(String key)
 intellisense: NSForeignKey.SetKey
 keywords: NSForeignKey, GetKey
 so.topic: reference

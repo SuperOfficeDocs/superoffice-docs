@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessage
-description: NSTicketMessage
+uid: crmscript_ref_NSTicketMessage
+title: NSTicketMessage
 intellisense: Void.NSTicketMessage
 keywords: NSTicketMessage
 so.topic: reference

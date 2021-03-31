@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignAppEntity_GetCreatedBy
-description: Associate NSForeignAppEntity.GetCreatedBy()
+uid: crmscript_ref_NSForeignAppEntity_GetCreatedBy
+title: Associate GetCreatedBy()
 intellisense: NSForeignAppEntity.GetCreatedBy
 keywords: NSForeignAppEntity, GetCreatedBy
 so.topic: reference

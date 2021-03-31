@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSProductType_SetValue
-description: NSProductType.SetValue(String value)
+uid: crmscript_ref_NSProductType_SetValue
+title: SetValue(String value)
 intellisense: NSProductType.SetValue
 keywords: NSProductType, SetValue
 so.topic: reference
 ---
 
-Set the name of the item.
+Set the name of the ProductType item.
 
 **Parameter:** 
- - **value** String name.
+ - **value** String ProductType name.
 

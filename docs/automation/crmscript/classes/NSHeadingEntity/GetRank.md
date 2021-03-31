@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHeadingEntity_GetRank
-description: Integer NSHeadingEntity.GetRank()
+uid: crmscript_ref_NSHeadingEntity_GetRank
+title: Integer GetRank()
 intellisense: NSHeadingEntity.GetRank
 keywords: NSHeadingEntity, GetRank
 so.topic: reference

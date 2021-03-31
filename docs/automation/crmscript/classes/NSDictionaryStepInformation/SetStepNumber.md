@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDictionaryStepInformation_SetStepNumber
-description: NSDictionaryStepInformation.SetStepNumber(Integer stepNumber)
+uid: crmscript_ref_NSDictionaryStepInformation_SetStepNumber
+title: SetStepNumber(Integer stepNumber)
 intellisense: NSDictionaryStepInformation.SetStepNumber
 keywords: NSDictionaryStepInformation, GetStepNumber
 so.topic: reference

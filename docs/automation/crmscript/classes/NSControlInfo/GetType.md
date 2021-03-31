@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSControlInfo_GetType
-description: String NSControlInfo.GetType()
+uid: crmscript_ref_NSControlInfo_GetType
+title: String GetType()
 intellisense: NSControlInfo.GetType
 keywords: NSControlInfo, GetType
 so.topic: reference

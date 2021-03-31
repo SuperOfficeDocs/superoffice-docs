@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_CreateDefaultPreference
-description: NSPreference CreateDefaultPreference()
+uid: crmscript_ref_NSPreferenceAgent_CreateDefaultPreference
+title: NSPreference CreateDefaultPreference()
 intellisense: NSPreferenceAgent.CreateDefaultPreference
-keywords: NSPreferenceAgent,CreateDefaultPreference
+keywords: NSPreferenceAgent, CreateDefaultPreference
 so.topic: reference
 ---
 	  

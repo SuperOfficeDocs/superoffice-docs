@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetTicketPriorityList
-description: NSTicketPriority[] GetTicketPriorityList(Integer[]  ticketPriorityIds);
+uid: crmscript_ref_NSListAgent_GetTicketPriorityList
+title: NSTicketPriority[] GetTicketPriorityList(Integer[]  ticketPriorityIds);
 intellisense: NSListAgent.GetTicketPriorityList
-keywords: NSListAgent,GetTicketPriorityList
+keywords: NSListAgent, GetTicketPriorityList
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetPaymentTypes
-description: PaymentTypeArray GetPaymentTypes()
+uid: crmscript_ref_NSListAgent_GetPaymentTypes
+title: PaymentTypeArray GetPaymentTypes()
 intellisense: NSListAgent.GetPaymentTypes
-keywords: NSListAgent,GetPaymentTypes
+keywords: NSListAgent, GetPaymentTypes
 so.topic: reference
 ---
 

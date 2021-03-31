@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SavePrivacyReport
-description: Integer SavePrivacyReport(String htmlReport, String title, Integer personId)
+uid: crmscript_ref_NSDocumentAgent_SavePrivacyReport
+title: Integer SavePrivacyReport(String htmlReport, String title, Integer personId)
 intellisense: NSDocumentAgent.SavePrivacyReport
-keywords: NSDocumentAgent,SavePrivacyReport
+keywords: NSDocumentAgent, SavePrivacyReport
 so.topic: reference
 ---
 

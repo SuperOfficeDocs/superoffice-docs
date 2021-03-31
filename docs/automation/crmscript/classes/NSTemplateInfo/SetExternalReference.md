@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateInfo_SetExternalReference
-description: NSTemplateInfo.SetExternalReference(String externalReference)
+uid: crmscript_ref_NSTemplateInfo_SetExternalReference
+title: SetExternalReference(String externalReference)
 intellisense: NSTemplateInfo.SetExternalReference
 keywords: NSTemplateInfo, GetExternalReference
 so.topic: reference

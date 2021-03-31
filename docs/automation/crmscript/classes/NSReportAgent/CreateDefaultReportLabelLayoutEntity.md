@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_CreateDefaultReportLabelLayoutEntity
-description: NSReportLabelLayoutEntity CreateDefaultReportLabelLayoutEntity()
+uid: crmscript_ref_NSReportAgent_CreateDefaultReportLabelLayoutEntity
+title: NSReportLabelLayoutEntity CreateDefaultReportLabelLayoutEntity()
 intellisense: NSReportAgent.CreateDefaultReportLabelLayoutEntity
-keywords: NSReportAgent,CreateDefaultReportLabelLayoutEntity
+keywords: NSReportAgent, CreateDefaultReportLabelLayoutEntity
 so.topic: reference
 ---
 	  

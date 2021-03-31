@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_SetWindowPosSizeId
-description: NSWindowPosSize.SetWindowPosSizeId(Integer windowPosSizeId)
+uid: crmscript_ref_NSWindowPosSize_SetWindowPosSizeId
+title: SetWindowPosSizeId(Integer windowPosSizeId)
 intellisense: NSWindowPosSize.SetWindowPosSizeId
 keywords: NSWindowPosSize, GetWindowPosSizeId
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_FindFromRestrictions
-description: FindResults FindFromRestrictions(ArchiveRestrictionInfoArray restrictions, String providerName, Integer pageSize, Integer pageNumber)
+uid: crmscript_ref_NSFindAgent_FindFromRestrictions
+title: FindResults FindFromRestrictions(ArchiveRestrictionInfoArray restrictions, String providerName, Integer pageSize, Integer pageNumber)
 intellisense: NSFindAgent.FindFromRestrictions
-keywords: NSFindAgent,FindFromRestrictions
+keywords: NSFindAgent, FindFromRestrictions
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_GetIsZipped
-description: Bool NSBlobEntity.GetIsZipped()
+uid: crmscript_ref_NSBlobEntity_GetIsZipped
+title: Bool GetIsZipped()
 intellisense: NSBlobEntity.GetIsZipped
 keywords: NSBlobEntity, GetIsZipped
 so.topic: reference

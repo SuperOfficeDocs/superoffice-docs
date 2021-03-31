@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_SetIsIndexed
-description: NSFieldInfoBase.SetIsIndexed(Bool isIndexed)
+uid: crmscript_ref_NSFieldInfoBase_SetIsIndexed
+title: SetIsIndexed(Bool isIndexed)
 intellisense: NSFieldInfoBase.SetIsIndexed
 keywords: NSFieldInfoBase, GetIsIndexed
 so.topic: reference

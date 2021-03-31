@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetAppointmentDocuments
-description: DocumentArray GetAppointmentDocuments(Integer appointmentId)
+uid: crmscript_ref_NSDocumentAgent_GetAppointmentDocuments
+title: DocumentArray GetAppointmentDocuments(Integer appointmentId)
 intellisense: NSDocumentAgent.GetAppointmentDocuments
-keywords: NSDocumentAgent,GetAppointmentDocuments
+keywords: NSDocumentAgent, GetAppointmentDocuments
 so.topic: reference
 ---
 

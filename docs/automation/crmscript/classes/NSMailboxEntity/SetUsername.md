@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailboxEntity_SetUsername
-description: NSMailboxEntity.SetUsername(String username)
+uid: crmscript_ref_NSMailboxEntity_SetUsername
+title: SetUsername(String username)
 intellisense: NSMailboxEntity.SetUsername
 keywords: NSMailboxEntity, GetUsername
 so.topic: reference

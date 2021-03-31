@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_GetModuleLicenseFromDB
-description: ModuleLicense GetModuleLicenseFromDB(String ownerName, String moduleName)
+uid: crmscript_ref_NSLicenseAgent_GetModuleLicenseFromDB
+title: ModuleLicense GetModuleLicenseFromDB(String ownerName, String moduleName)
 intellisense: NSLicenseAgent.GetModuleLicenseFromDB
-keywords: NSLicenseAgent,GetModuleLicenseFromDB
+keywords: NSLicenseAgent, GetModuleLicenseFromDB
 so.topic: reference
 ---
 

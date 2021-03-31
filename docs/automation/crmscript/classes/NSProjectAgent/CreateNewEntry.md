@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_CreateNewEntry
-description: Integer CreateNewEntry(DuplicateEntry duplicate)
+uid: crmscript_ref_NSProjectAgent_CreateNewEntry
+title: Integer CreateNewEntry(DuplicateEntry duplicate)
 intellisense: NSProjectAgent.CreateNewEntry
-keywords: NSProjectAgent,CreateNewEntry
+keywords: NSProjectAgent, CreateNewEntry
 so.topic: reference
 ---
 

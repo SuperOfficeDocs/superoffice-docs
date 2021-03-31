@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveWebPanelEntity
-description: NSWebPanelEntity SaveWebPanelEntity(NSWebPanelEntity webPanelEntity);
+uid: crmscript_ref_NSListAgent_SaveWebPanelEntity
+title: NSWebPanelEntity SaveWebPanelEntity(NSWebPanelEntity webPanelEntity);
 intellisense: NSListAgent.SaveWebPanelEntity
-keywords: NSListAgent,SaveWebPanelEntity
+keywords: NSListAgent, SaveWebPanelEntity
 so.topic: reference
 ---
 	  

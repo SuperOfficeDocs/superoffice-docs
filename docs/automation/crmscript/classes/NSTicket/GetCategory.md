@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetCategory
-description: Integer NSTicket.GetCategory()
+uid: crmscript_ref_NSTicket_GetCategory
+title: Integer GetCategory()
 intellisense: NSTicket.GetCategory
 keywords: NSTicket, GetCategory
 so.topic: reference

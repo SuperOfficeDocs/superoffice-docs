@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask_SetDuration
-description: NSMailMergeTask.SetDuration(Integer duration)
+uid: crmscript_ref_NSMailMergeTask_SetDuration
+title: SetDuration(Integer duration)
 intellisense: NSMailMergeTask.SetDuration
 keywords: NSMailMergeTask, GetDuration
 so.topic: reference

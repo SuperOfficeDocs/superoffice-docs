@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_SetAssociateId
-description: NSProject.SetAssociateId(Integer associateId)
+uid: crmscript_ref_NSProject_SetAssociateId
+title: SetAssociateId(Integer associateId)
 intellisense: NSProject.SetAssociateId
 keywords: NSProject, GetAssociateId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_SetProjectId
-description: NSTemplateVariablesParameters.SetProjectId(Integer projectId)
+uid: crmscript_ref_NSTemplateVariablesParameters_SetProjectId
+title: SetProjectId(Integer projectId)
 intellisense: NSTemplateVariablesParameters.SetProjectId
 keywords: NSTemplateVariablesParameters, GetProjectId
 so.topic: reference

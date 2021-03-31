@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDeliveryType
-description: NSDeliveryType GetDeliveryType(Integer deliveryTypeId);
+uid: crmscript_ref_NSListAgent_GetDeliveryType
+title: NSDeliveryType GetDeliveryType(Integer deliveryTypeId);
 intellisense: NSListAgent.GetDeliveryType
-keywords: NSListAgent,GetDeliveryType
+keywords: NSListAgent, GetDeliveryType
 so.topic: reference
 ---
 

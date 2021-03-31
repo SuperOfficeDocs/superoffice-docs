@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListItemEntity_SetUdListDefinitionId
-description: NSListItemEntity.SetUdListDefinitionId(Integer udListDefinitionId)
+uid: crmscript_ref_NSListItemEntity_SetUdListDefinitionId
+title: SetUdListDefinitionId(Integer udListDefinitionId)
 intellisense: NSListItemEntity.SetUdListDefinitionId
 keywords: NSListItemEntity, GetUdListDefinitionId
 so.topic: reference

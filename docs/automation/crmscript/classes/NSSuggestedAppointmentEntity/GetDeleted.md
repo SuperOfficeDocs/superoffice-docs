@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointmentEntity_GetDeleted
-description: Bool NSSuggestedAppointmentEntity.GetDeleted()
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSSuggestedAppointmentEntity.GetDeleted
 keywords: NSSuggestedAppointmentEntity, GetDeleted
 so.topic: reference

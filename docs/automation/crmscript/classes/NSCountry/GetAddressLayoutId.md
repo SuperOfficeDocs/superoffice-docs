@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_GetAddressLayoutId
-description: Integer NSCountry.GetAddressLayoutId()
+uid: crmscript_ref_NSCountry_GetAddressLayoutId
+title: Integer GetAddressLayoutId()
 intellisense: NSCountry.GetAddressLayoutId
 keywords: NSCountry, GetAddressLayoutId
 so.topic: reference

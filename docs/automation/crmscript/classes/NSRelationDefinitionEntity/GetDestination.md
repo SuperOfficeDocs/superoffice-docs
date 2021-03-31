@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRelationDefinitionEntity_GetDestination
-description: Integer NSRelationDefinitionEntity.GetDestination()
+uid: crmscript_ref_NSRelationDefinitionEntity_GetDestination
+title: Integer GetDestination()
 intellisense: NSRelationDefinitionEntity.GetDestination
 keywords: NSRelationDefinitionEntity, GetDestination
 so.topic: reference

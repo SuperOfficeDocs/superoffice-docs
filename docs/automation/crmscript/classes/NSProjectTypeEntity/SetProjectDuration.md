@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectTypeEntity_SetProjectDuration
-description: NSProjectTypeEntity.SetProjectDuration(Integer projectDuration)
+uid: crmscript_ref_NSProjectTypeEntity_SetProjectDuration
+title: SetProjectDuration(Integer projectDuration)
 intellisense: NSProjectTypeEntity.SetProjectDuration
 keywords: NSProjectTypeEntity, GetProjectDuration
 so.topic: reference

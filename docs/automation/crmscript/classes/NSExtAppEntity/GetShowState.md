@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetShowState
-description: Integer NSExtAppEntity.GetShowState()
+uid: crmscript_ref_NSExtAppEntity_GetShowState
+title: Integer GetShowState()
 intellisense: NSExtAppEntity.GetShowState
 keywords: NSExtAppEntity, GetShowState
 so.topic: reference

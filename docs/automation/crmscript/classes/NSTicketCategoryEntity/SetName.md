@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_SetName
-description: NSTicketCategoryEntity.SetName(String name)
+uid: crmscript_ref_NSTicketCategoryEntity_SetName
+title: SetName(String name)
 intellisense: NSTicketCategoryEntity.SetName
 keywords: NSTicketCategoryEntity, GetName
 so.topic: reference

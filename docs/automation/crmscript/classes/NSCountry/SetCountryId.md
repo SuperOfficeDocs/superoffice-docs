@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_SetCountryId
-description: NSCountry.SetCountryId(Integer countryId)
+uid: crmscript_ref_NSCountry_SetCountryId
+title: SetCountryId(Integer countryId)
 intellisense: NSCountry.SetCountryId
 keywords: NSCountry, GetCountryId
 so.topic: reference

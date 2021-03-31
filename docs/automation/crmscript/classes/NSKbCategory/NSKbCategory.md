@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSKbCategory
-description: NSKbCategory
+uid: crmscript_ref_NSKbCategory
+title: NSKbCategory
 intellisense: Void.NSKbCategory
 keywords: NSKbCategory
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_GetIconHint
-description: String NSArchiveColumnInfo.GetIconHint()
+uid: crmscript_ref_NSArchiveColumnInfo_GetIconHint
+title: String GetIconHint()
 intellisense: NSArchiveColumnInfo.GetIconHint
 keywords: NSArchiveColumnInfo, GetIconHint
 so.topic: reference

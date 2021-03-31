@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportAgent
-description: NSImportAgent
+uid: crmscript_ref_NSImportAgent
+title: NSImportAgent
 intellisense: Void.NSImportAgent
 keywords: NSImportAgent
 so.topic: reference

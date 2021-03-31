@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionForFind_SetSelectionId
-description: NSSelectionForFind.SetSelectionId(Integer selectionId)
+uid: crmscript_ref_NSSelectionForFind_SetSelectionId
+title: SetSelectionId(Integer selectionId)
 intellisense: NSSelectionForFind.SetSelectionId
 keywords: NSSelectionForFind, GetSelectionId
 so.topic: reference

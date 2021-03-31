@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_GetId
-description: Integer NSSelectableMDOListItem.GetId()
+uid: crmscript_ref_NSSelectableMDOListItem_GetId
+title: Integer GetId()
 intellisense: NSSelectableMDOListItem.GetId
 keywords: NSSelectableMDOListItem, GetId
 so.topic: reference

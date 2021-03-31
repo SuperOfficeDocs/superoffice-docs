@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_SaveFormEntity
-description: NSFormEntity SaveFormEntity(NSFormEntity formEntity);
+uid: crmscript_ref_NSMarketingAgent_SaveFormEntity
+title: NSFormEntity SaveFormEntity(NSFormEntity formEntity);
 intellisense: NSMarketingAgent.SaveFormEntity
-keywords: NSMarketingAgent,SaveFormEntity
+keywords: NSMarketingAgent, SaveFormEntity
 so.topic: reference
 ---
 	  

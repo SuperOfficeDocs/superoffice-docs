@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPhoneListAgent_Search
-description: PhoneListItemArray Search(String searchString)
+uid: crmscript_ref_NSPhoneListAgent_Search
+title: PhoneListItemArray Search(String searchString)
 intellisense: NSPhoneListAgent.Search
-keywords: NSPhoneListAgent,Search
+keywords: NSPhoneListAgent, Search
 so.topic: reference
 ---
 

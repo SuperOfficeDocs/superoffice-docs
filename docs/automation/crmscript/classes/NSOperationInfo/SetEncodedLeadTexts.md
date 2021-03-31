@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOperationInfo_SetEncodedLeadTexts
-description: NSOperationInfo.SetEncodedLeadTexts(StringArray encodedLeadTexts)
+uid: crmscript_ref_NSOperationInfo_SetEncodedLeadTexts
+title: SetEncodedLeadTexts(StringArray encodedLeadTexts)
 intellisense: NSOperationInfo.SetEncodedLeadTexts
 keywords: NSOperationInfo, GetEncodedLeadTexts
 so.topic: reference

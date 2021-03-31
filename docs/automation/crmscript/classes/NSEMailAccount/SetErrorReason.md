@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAccount_SetErrorReason
-description: NSEMailAccount.SetErrorReason(String errorReason)
+uid: crmscript_ref_NSEMailAccount_SetErrorReason
+title: SetErrorReason(String errorReason)
 intellisense: NSEMailAccount.SetErrorReason
 keywords: NSEMailAccount, GetErrorReason
 so.topic: reference

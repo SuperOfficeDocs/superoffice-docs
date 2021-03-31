@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSNavigatorCompanyList
-description: NSNavigatorCompanyList
+uid: crmscript_ref_NSNavigatorCompanyList
+title: NSNavigatorCompanyList
 intellisense: Void.NSNavigatorCompanyList
 keywords: NSNavigatorCompanyList
 so.topic: reference

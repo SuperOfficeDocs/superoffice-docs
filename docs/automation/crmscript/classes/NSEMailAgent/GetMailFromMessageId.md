@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetMailFromMessageId
-description: EMailEntity GetMailFromMessageId(String messageId)
+uid: crmscript_ref_NSEMailAgent_GetMailFromMessageId
+title: EMailEntity GetMailFromMessageId(String messageId)
 intellisense: NSEMailAgent.GetMailFromMessageId
-keywords: NSEMailAgent,GetMailFromMessageId
+keywords: NSEMailAgent, GetMailFromMessageId
 so.topic: reference
 ---
 

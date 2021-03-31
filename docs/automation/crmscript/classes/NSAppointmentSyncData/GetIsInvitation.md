@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_GetIsInvitation
-description: Bool NSAppointmentSyncData.GetIsInvitation()
+uid: crmscript_ref_NSAppointmentSyncData_GetIsInvitation
+title: Bool GetIsInvitation()
 intellisense: NSAppointmentSyncData.GetIsInvitation
 keywords: NSAppointmentSyncData, GetIsInvitation
 so.topic: reference

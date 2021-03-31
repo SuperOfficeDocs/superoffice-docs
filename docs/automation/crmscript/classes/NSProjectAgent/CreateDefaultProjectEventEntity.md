@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_CreateDefaultProjectEventEntity
-description: NSProjectEventEntity CreateDefaultProjectEventEntity()
+uid: crmscript_ref_NSProjectAgent_CreateDefaultProjectEventEntity
+title: NSProjectEventEntity CreateDefaultProjectEventEntity()
 intellisense: NSProjectAgent.CreateDefaultProjectEventEntity
-keywords: NSProjectAgent,CreateDefaultProjectEventEntity
+keywords: NSProjectAgent, CreateDefaultProjectEventEntity
 so.topic: reference
 ---
 	  

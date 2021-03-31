@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_SetIsAvailable
-description: NSQuoteConnection.SetIsAvailable(Bool isAvailable)
+uid: crmscript_ref_NSQuoteConnection_SetIsAvailable
+title: SetIsAvailable(Bool isAvailable)
 intellisense: NSQuoteConnection.SetIsAvailable
 keywords: NSQuoteConnection, GetIsAvailable
 so.topic: reference

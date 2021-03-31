@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSUser_GetExtraFields
-description: Map NSUser.GetExtraFields()
+uid: crmscript_ref_NSUser_GetExtraFields
+title: Map GetExtraFields()
 intellisense: NSUser.GetExtraFields
 keywords: NSUser, GetExtraFields
 so.topic: reference
 ---
 
-Get the extra fields as a map.
+Get the extra fields on User as a map.
 
 **Returns:** Map containing extra field values by field name.
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportLabelLayoutEntity_SetBottomMargin
-description: NSReportLabelLayoutEntity.SetBottomMargin(Integer bottomMargin)
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetBottomMargin
+title: SetBottomMargin(Integer bottomMargin)
 intellisense: NSReportLabelLayoutEntity.SetBottomMargin
 keywords: NSReportLabelLayoutEntity, GetBottomMargin
 so.topic: reference

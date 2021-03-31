@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetTitle
-description: String NSPersonEntity.GetTitle()
+uid: crmscript_ref_NSPersonEntity_GetTitle
+title: String GetTitle()
 intellisense: NSPersonEntity.GetTitle
 keywords: NSPersonEntity, GetTitle
 so.topic: reference

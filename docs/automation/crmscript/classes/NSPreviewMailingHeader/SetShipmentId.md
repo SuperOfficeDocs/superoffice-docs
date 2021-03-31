@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_SetShipmentId
-description: NSPreviewMailingHeader.SetShipmentId(Integer shipmentId)
+uid: crmscript_ref_NSPreviewMailingHeader_SetShipmentId
+title: SetShipmentId(Integer shipmentId)
 intellisense: NSPreviewMailingHeader.SetShipmentId
 keywords: NSPreviewMailingHeader, GetShipmentId
 so.topic: reference

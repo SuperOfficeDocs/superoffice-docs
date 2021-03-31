@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSIncomingMessage_SetContent
-description: NSIncomingMessage.SetContent(String content)
+uid: crmscript_ref_NSIncomingMessage_SetContent
+title: SetContent(String content)
 intellisense: NSIncomingMessage.SetContent
 keywords: NSIncomingMessage, GetContent
 so.topic: reference

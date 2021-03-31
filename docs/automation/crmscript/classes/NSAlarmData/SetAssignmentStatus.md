@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_SetAssignmentStatus
-description: NSAlarmData.SetAssignmentStatus(Integer assignmentStatus)
+uid: crmscript_ref_NSAlarmData_SetAssignmentStatus
+title: SetAssignmentStatus(Integer assignmentStatus)
 intellisense: NSAlarmData.SetAssignmentStatus
 keywords: NSAlarmData, GetAssignmentStatus
 so.topic: reference

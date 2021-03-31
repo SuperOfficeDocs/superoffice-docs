@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateEMailFromMimeMessage
-description: EMailEntity CreateEMailFromMimeMessage(String mimeMessage)
+uid: crmscript_ref_NSEMailAgent_CreateEMailFromMimeMessage
+title: EMailEntity CreateEMailFromMimeMessage(String mimeMessage)
 intellisense: NSEMailAgent.CreateEMailFromMimeMessage
-keywords: NSEMailAgent,CreateEMailFromMimeMessage
+keywords: NSEMailAgent, CreateEMailFromMimeMessage
 so.topic: reference
 ---
 

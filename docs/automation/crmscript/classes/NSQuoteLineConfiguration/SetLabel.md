@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLineConfiguration_SetLabel
-description: NSQuoteLineConfiguration.SetLabel(String label)
+uid: crmscript_ref_NSQuoteLineConfiguration_SetLabel
+title: SetLabel(String label)
 intellisense: NSQuoteLineConfiguration.SetLabel
 keywords: NSQuoteLineConfiguration, GetLabel
 so.topic: reference

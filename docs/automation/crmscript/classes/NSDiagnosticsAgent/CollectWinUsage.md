@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_CollectWinUsage
-description: Void CollectWinUsage()
+uid: crmscript_ref_NSDiagnosticsAgent_CollectWinUsage
+title: Void CollectWinUsage()
 intellisense: NSDiagnosticsAgent.CollectWinUsage
-keywords: NSDiagnosticsAgent,CollectWinUsage
+keywords: NSDiagnosticsAgent, CollectWinUsage
 so.topic: reference
 ---
 

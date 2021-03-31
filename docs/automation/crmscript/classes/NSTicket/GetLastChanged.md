@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetLastChanged
-description: DateTime NSTicket.GetLastChanged()
+uid: crmscript_ref_NSTicket_GetLastChanged
+title: DateTime GetLastChanged()
 intellisense: NSTicket.GetLastChanged
 keywords: NSTicket, GetLastChanged
 so.topic: reference

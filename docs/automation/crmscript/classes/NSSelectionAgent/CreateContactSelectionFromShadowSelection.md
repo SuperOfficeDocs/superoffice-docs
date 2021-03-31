@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CreateContactSelectionFromShadowSelection
-description: SelectionEntity CreateContactSelectionFromShadowSelection(Integer selectionId, String name)
+uid: crmscript_ref_NSSelectionAgent_CreateContactSelectionFromShadowSelection
+title: SelectionEntity CreateContactSelectionFromShadowSelection(Integer selectionId, String name)
 intellisense: NSSelectionAgent.CreateContactSelectionFromShadowSelection
-keywords: NSSelectionAgent,CreateContactSelectionFromShadowSelection
+keywords: NSSelectionAgent, CreateContactSelectionFromShadowSelection
 so.topic: reference
 ---
 

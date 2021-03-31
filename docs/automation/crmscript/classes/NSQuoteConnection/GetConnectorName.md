@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_GetConnectorName
-description: String NSQuoteConnection.GetConnectorName()
+uid: crmscript_ref_NSQuoteConnection_GetConnectorName
+title: String GetConnectorName()
 intellisense: NSQuoteConnection.GetConnectorName
 keywords: NSQuoteConnection, GetConnectorName
 so.topic: reference

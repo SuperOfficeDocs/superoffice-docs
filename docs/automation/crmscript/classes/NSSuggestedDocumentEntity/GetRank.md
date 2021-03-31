@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedDocumentEntity_GetRank
-description: Integer NSSuggestedDocumentEntity.GetRank()
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetRank
+title: Integer GetRank()
 intellisense: NSSuggestedDocumentEntity.GetRank
 keywords: NSSuggestedDocumentEntity, GetRank
 so.topic: reference

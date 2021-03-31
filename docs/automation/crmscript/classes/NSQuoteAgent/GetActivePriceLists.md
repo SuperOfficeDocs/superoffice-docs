@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetActivePriceLists
-description: PriceListArray GetActivePriceLists(Integer quoteConnectionId, String currency)
+uid: crmscript_ref_NSQuoteAgent_GetActivePriceLists
+title: PriceListArray GetActivePriceLists(Integer quoteConnectionId, String currency)
 intellisense: NSQuoteAgent.GetActivePriceLists
-keywords: NSQuoteAgent,GetActivePriceLists
+keywords: NSQuoteAgent, GetActivePriceLists
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_GetIsDefaultFree
-description: Bool NSTaskListItem.GetIsDefaultFree()
+uid: crmscript_ref_NSTaskListItem_GetIsDefaultFree
+title: Bool GetIsDefaultFree()
 intellisense: NSTaskListItem.GetIsDefaultFree
 keywords: NSTaskListItem, GetIsDefaultFree
 so.topic: reference

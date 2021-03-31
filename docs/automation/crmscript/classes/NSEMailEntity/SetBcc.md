@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetBcc
-description: NSEMailEntity.SetBcc(EMailAddressArray bcc)
+uid: crmscript_ref_NSEMailEntity_SetBcc
+title: SetBcc(EMailAddressArray bcc)
 intellisense: NSEMailEntity.SetBcc
 keywords: NSEMailEntity, GetBcc
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetActiveDate
-description: NSAppointmentEntity.SetActiveDate(DateTime activeDate)
+uid: crmscript_ref_NSAppointmentEntity_SetActiveDate
+title: SetActiveDate(DateTime activeDate)
 intellisense: NSAppointmentEntity.SetActiveDate
 keywords: NSAppointmentEntity, GetActiveDate
 so.topic: reference

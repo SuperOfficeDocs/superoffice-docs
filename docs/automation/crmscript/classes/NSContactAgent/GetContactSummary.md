@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetContactSummary
-description: ContactSummary GetContactSummary(Integer contactId, Integer limit)
+uid: crmscript_ref_NSContactAgent_GetContactSummary
+title: ContactSummary GetContactSummary(Integer contactId, Integer limit)
 intellisense: NSContactAgent.GetContactSummary
-keywords: NSContactAgent,GetContactSummary
+keywords: NSContactAgent, GetContactSummary
 so.topic: reference
 ---
 

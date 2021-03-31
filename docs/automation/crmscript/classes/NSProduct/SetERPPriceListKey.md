@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetERPPriceListKey
-description: NSProduct.SetERPPriceListKey(String eRPPriceListKey)
+uid: crmscript_ref_NSProduct_SetERPPriceListKey
+title: SetERPPriceListKey(String eRPPriceListKey)
 intellisense: NSProduct.SetERPPriceListKey
 keywords: NSProduct, GetERPPriceListKey
 so.topic: reference

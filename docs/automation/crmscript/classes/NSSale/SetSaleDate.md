@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetSaleDate
-description: NSSale.SetSaleDate(DateTime saleDate)
+uid: crmscript_ref_NSSale_SetSaleDate
+title: SetSaleDate(DateTime saleDate)
 intellisense: NSSale.SetSaleDate
 keywords: NSSale, GetSaleDate
 so.topic: reference

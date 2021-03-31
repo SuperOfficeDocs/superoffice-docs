@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity_SetUpdated
-description: NSTriggerScriptEntity.SetUpdated(DateTime updated)
+uid: crmscript_ref_NSTriggerScriptEntity_SetUpdated
+title: SetUpdated(DateTime updated)
 intellisense: NSTriggerScriptEntity.SetUpdated
 keywords: NSTriggerScriptEntity, GetUpdated
 so.topic: reference

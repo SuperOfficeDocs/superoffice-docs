@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMessageDeliveryStatus_SetStatus
-description: NSMessageDeliveryStatus.SetStatus(Integer status)
+uid: crmscript_ref_NSMessageDeliveryStatus_SetStatus
+title: SetStatus(Integer status)
 intellisense: NSMessageDeliveryStatus.SetStatus
 keywords: NSMessageDeliveryStatus, GetStatus
 so.topic: reference

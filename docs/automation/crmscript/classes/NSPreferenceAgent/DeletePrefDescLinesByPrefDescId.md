@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_DeletePrefDescLinesByPrefDescId
-description: Void DeletePrefDescLinesByPrefDescId(Integer prefDescId)
+uid: crmscript_ref_NSPreferenceAgent_DeletePrefDescLinesByPrefDescId
+title: Void DeletePrefDescLinesByPrefDescId(Integer prefDescId)
 intellisense: NSPreferenceAgent.DeletePrefDescLinesByPrefDescId
-keywords: NSPreferenceAgent,DeletePrefDescLinesByPrefDescId
+keywords: NSPreferenceAgent, DeletePrefDescLinesByPrefDescId
 so.topic: reference
 ---
 

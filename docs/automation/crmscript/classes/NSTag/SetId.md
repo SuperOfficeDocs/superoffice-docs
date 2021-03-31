@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTag_SetId
-description: NSTag.SetId(Integer id)
+uid: crmscript_ref_NSTag_SetId
+title: SetId(Integer id)
 intellisense: NSTag.SetId
 keywords: NSTag, GetId
 so.topic: reference

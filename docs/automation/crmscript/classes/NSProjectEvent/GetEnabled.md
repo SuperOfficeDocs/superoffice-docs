@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_GetEnabled
-description: Bool NSProjectEvent.GetEnabled()
+uid: crmscript_ref_NSProjectEvent_GetEnabled
+title: Bool GetEnabled()
 intellisense: NSProjectEvent.GetEnabled
 keywords: NSProjectEvent, GetEnabled
 so.topic: reference

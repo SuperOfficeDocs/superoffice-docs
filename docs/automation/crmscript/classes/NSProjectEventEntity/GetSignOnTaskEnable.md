@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetSignOnTaskEnable
-description: Bool NSProjectEventEntity.GetSignOnTaskEnable()
+uid: crmscript_ref_NSProjectEventEntity_GetSignOnTaskEnable
+title: Bool GetSignOnTaskEnable()
 intellisense: NSProjectEventEntity.GetSignOnTaskEnable
 keywords: NSProjectEventEntity, GetSignOnTaskEnable
 so.topic: reference

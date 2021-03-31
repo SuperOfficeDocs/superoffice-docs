@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessage_GetPersonFullName
-description: String NSTicketMessage.GetPersonFullName()
+uid: crmscript_ref_NSTicketMessage_GetPersonFullName
+title: String GetPersonFullName()
 intellisense: NSTicketMessage.GetPersonFullName
 keywords: NSTicketMessage, GetPersonFullName
 so.topic: reference

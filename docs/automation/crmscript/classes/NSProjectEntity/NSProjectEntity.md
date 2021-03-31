@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity
-description: NSProjectEntity
+uid: crmscript_ref_NSProjectEntity
+title: NSProjectEntity
 intellisense: Void.NSProjectEntity
 keywords: NSProjectEntity
 so.topic: reference

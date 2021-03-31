@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialType_SetDisplayType
-description: NSCredentialType.SetDisplayType(String displayType)
+uid: crmscript_ref_NSCredentialType_SetDisplayType
+title: SetDisplayType(String displayType)
 intellisense: NSCredentialType.SetDisplayType
 keywords: NSCredentialType, GetDisplayType
 so.topic: reference

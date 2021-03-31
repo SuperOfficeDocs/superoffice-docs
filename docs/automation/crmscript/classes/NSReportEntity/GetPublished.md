@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportEntity_GetPublished
-description: Bool NSReportEntity.GetPublished()
+uid: crmscript_ref_NSReportEntity_GetPublished
+title: Bool GetPublished()
 intellisense: NSReportEntity.GetPublished
 keywords: NSReportEntity, GetPublished
 so.topic: reference

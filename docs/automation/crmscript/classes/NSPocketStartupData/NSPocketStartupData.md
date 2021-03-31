@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketStartupData
-description: NSPocketStartupData
+uid: crmscript_ref_NSPocketStartupData
+title: NSPocketStartupData
 intellisense: Void.NSPocketStartupData
 keywords: NSPocketStartupData
 so.topic: reference

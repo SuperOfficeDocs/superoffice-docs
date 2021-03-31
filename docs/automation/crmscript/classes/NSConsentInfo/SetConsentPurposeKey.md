@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_SetConsentPurposeKey
-description: NSConsentInfo.SetConsentPurposeKey(String consentPurposeKey)
+uid: crmscript_ref_NSConsentInfo_SetConsentPurposeKey
+title: SetConsentPurposeKey(String consentPurposeKey)
 intellisense: NSConsentInfo.SetConsentPurposeKey
 keywords: NSConsentInfo, GetConsentPurposeKey
 so.topic: reference

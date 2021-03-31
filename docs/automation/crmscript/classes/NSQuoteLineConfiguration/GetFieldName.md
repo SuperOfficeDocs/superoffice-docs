@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLineConfiguration_GetFieldName
-description: String NSQuoteLineConfiguration.GetFieldName()
+uid: crmscript_ref_NSQuoteLineConfiguration_GetFieldName
+title: String GetFieldName()
 intellisense: NSQuoteLineConfiguration.GetFieldName
 keywords: NSQuoteLineConfiguration, GetFieldName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue_SetHasFirstSyncDefaultValue
-description: NSErpSyncDefaultValue.SetHasFirstSyncDefaultValue(Bool hasFirstSyncDefaultValue)
+uid: crmscript_ref_NSErpSyncDefaultValue_SetHasFirstSyncDefaultValue
+title: SetHasFirstSyncDefaultValue(Bool hasFirstSyncDefaultValue)
 intellisense: NSErpSyncDefaultValue.SetHasFirstSyncDefaultValue
 keywords: NSErpSyncDefaultValue, GetHasFirstSyncDefaultValue
 so.topic: reference

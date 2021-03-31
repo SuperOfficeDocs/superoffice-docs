@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetUpdatedBy
-description: NSDocumentEntity.SetUpdatedBy(Associate updatedBy)
+uid: crmscript_ref_NSDocumentEntity_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
 intellisense: NSDocumentEntity.SetUpdatedBy
 keywords: NSDocumentEntity, GetUpdatedBy
 so.topic: reference

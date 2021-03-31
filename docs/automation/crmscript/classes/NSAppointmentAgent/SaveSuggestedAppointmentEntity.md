@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_SaveSuggestedAppointmentEntity
-description: NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity suggestedAppointmentEntity);
+uid: crmscript_ref_NSAppointmentAgent_SaveSuggestedAppointmentEntity
+title: NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity suggestedAppointmentEntity);
 intellisense: NSAppointmentAgent.SaveSuggestedAppointmentEntity
-keywords: NSAppointmentAgent,SaveSuggestedAppointmentEntity
+keywords: NSAppointmentAgent, SaveSuggestedAppointmentEntity
 so.topic: reference
 ---
 	  

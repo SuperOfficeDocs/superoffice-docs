@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity_GetSourceContactName
-description: String NSContactRelationEntity.GetSourceContactName()
+uid: crmscript_ref_NSContactRelationEntity_GetSourceContactName
+title: String GetSourceContactName()
 intellisense: NSContactRelationEntity.GetSourceContactName
 keywords: NSContactRelationEntity, GetSourceContactName
 so.topic: reference

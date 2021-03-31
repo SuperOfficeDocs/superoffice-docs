@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultHeadingFromListDefinition
-description: HeadingEntity CreateDefaultHeadingFromListDefinition(Integer udListDefinitionId)
+uid: crmscript_ref_NSListAgent_CreateDefaultHeadingFromListDefinition
+title: HeadingEntity CreateDefaultHeadingFromListDefinition(Integer udListDefinitionId)
 intellisense: NSListAgent.CreateDefaultHeadingFromListDefinition
-keywords: NSListAgent,CreateDefaultHeadingFromListDefinition
+keywords: NSListAgent, CreateDefaultHeadingFromListDefinition
 so.topic: reference
 ---
 

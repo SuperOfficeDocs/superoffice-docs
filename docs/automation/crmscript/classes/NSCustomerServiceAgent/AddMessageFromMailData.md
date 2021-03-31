@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_AddMessageFromMailData
-description: TicketInfo AddMessageFromMailData(Integer ticketId, String data)
+uid: crmscript_ref_NSCustomerServiceAgent_AddMessageFromMailData
+title: TicketInfo AddMessageFromMailData(Integer ticketId, String data)
 intellisense: NSCustomerServiceAgent.AddMessageFromMailData
-keywords: NSCustomerServiceAgent,AddMessageFromMailData
+keywords: NSCustomerServiceAgent, AddMessageFromMailData
 so.topic: reference
 ---
 

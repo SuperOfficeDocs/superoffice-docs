@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailSOInfo
-description: NSEMailSOInfo
+uid: crmscript_ref_NSEMailSOInfo
+title: NSEMailSOInfo
 intellisense: Void.NSEMailSOInfo
 keywords: NSEMailSOInfo
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSmsConfig_GetNsPluginSender
-description: String NSSmsConfig.GetNsPluginSender()
+uid: crmscript_ref_NSSmsConfig_GetNsPluginSender
+title: String GetNsPluginSender()
 intellisense: NSSmsConfig.GetNsPluginSender
 keywords: NSSmsConfig, GetNsPluginSender
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_SetContactName
-description: NSPreviewMailing.SetContactName(String contactName)
+uid: crmscript_ref_NSPreviewMailing_SetContactName
+title: SetContactName(String contactName)
 intellisense: NSPreviewMailing.SetContactName
 keywords: NSPreviewMailing, GetContactName
 so.topic: reference

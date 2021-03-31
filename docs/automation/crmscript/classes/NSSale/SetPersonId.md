@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetPersonId
-description: NSSale.SetPersonId(Integer personId)
+uid: crmscript_ref_NSSale_SetPersonId
+title: SetPersonId(Integer personId)
 intellisense: NSSale.SetPersonId
 keywords: NSSale, GetPersonId
 so.topic: reference

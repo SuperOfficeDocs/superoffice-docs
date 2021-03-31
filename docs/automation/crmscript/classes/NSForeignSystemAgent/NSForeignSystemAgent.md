@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent
-description: NSForeignSystemAgent
+uid: crmscript_ref_NSForeignSystemAgent
+title: NSForeignSystemAgent
 intellisense: Void.NSForeignSystemAgent
 keywords: NSForeignSystemAgent
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_SetSilent
-description: NSPocketNotificationMessage.SetSilent(Bool silent)
+uid: crmscript_ref_NSPocketNotificationMessage_SetSilent
+title: SetSilent(Bool silent)
 intellisense: NSPocketNotificationMessage.SetSilent
 keywords: NSPocketNotificationMessage, GetSilent
 so.topic: reference

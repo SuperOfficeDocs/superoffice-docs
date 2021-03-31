@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_GetMiddleName
-description: String NSProjectMember.GetMiddleName()
+uid: crmscript_ref_NSProjectMember_GetMiddleName
+title: String GetMiddleName()
 intellisense: NSProjectMember.GetMiddleName
 keywords: NSProjectMember, GetMiddleName
 so.topic: reference

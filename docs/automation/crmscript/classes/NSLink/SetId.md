@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLink_SetId
-description: NSLink.SetId(Integer id)
+uid: crmscript_ref_NSLink_SetId
+title: SetId(Integer id)
 intellisense: NSLink.SetId
 keywords: NSLink, GetId
 so.topic: reference

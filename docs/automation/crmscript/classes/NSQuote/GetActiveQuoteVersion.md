@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuote_GetActiveQuoteVersion
-description: QuoteVersion NSQuote.GetActiveQuoteVersion()
+uid: crmscript_ref_NSQuote_GetActiveQuoteVersion
+title: QuoteVersion GetActiveQuoteVersion()
 intellisense: NSQuote.GetActiveQuoteVersion
 keywords: NSQuote, GetActiveQuoteVersion
 so.topic: reference

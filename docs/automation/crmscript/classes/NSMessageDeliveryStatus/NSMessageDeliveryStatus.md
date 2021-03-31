@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMessageDeliveryStatus
-description: NSMessageDeliveryStatus
+uid: crmscript_ref_NSMessageDeliveryStatus
+title: NSMessageDeliveryStatus
 intellisense: Void.NSMessageDeliveryStatus
 keywords: NSMessageDeliveryStatus
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoDate
-description: NSFieldInfoDate
+uid: crmscript_ref_NSFieldInfoDate
+title: NSFieldInfoDate
 intellisense: Void.NSFieldInfoDate
 keywords: NSFieldInfoDate
 so.topic: reference

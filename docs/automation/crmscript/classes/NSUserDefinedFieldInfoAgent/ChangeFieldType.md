@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_ChangeFieldType
-description: UserDefinedFieldInfo ChangeFieldType(UserDefinedFieldInfo info, Integer fieldType, Bool isIndexed)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_ChangeFieldType
+title: UserDefinedFieldInfo ChangeFieldType(UserDefinedFieldInfo info, Integer fieldType, Bool isIndexed)
 intellisense: NSUserDefinedFieldInfoAgent.ChangeFieldType
-keywords: NSUserDefinedFieldInfoAgent,ChangeFieldType
+keywords: NSUserDefinedFieldInfoAgent, ChangeFieldType
 so.topic: reference
 ---
 

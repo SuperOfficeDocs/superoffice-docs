@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneRule_GetEndRulePattern
-description: String NSTimeZoneRule.GetEndRulePattern()
+uid: crmscript_ref_NSTimeZoneRule_GetEndRulePattern
+title: String GetEndRulePattern()
 intellisense: NSTimeZoneRule.GetEndRulePattern
 keywords: NSTimeZoneRule, GetEndRulePattern
 so.topic: reference

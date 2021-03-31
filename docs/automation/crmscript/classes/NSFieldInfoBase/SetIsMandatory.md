@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_SetIsMandatory
-description: NSFieldInfoBase.SetIsMandatory(Bool isMandatory)
+uid: crmscript_ref_NSFieldInfoBase_SetIsMandatory
+title: SetIsMandatory(Bool isMandatory)
 intellisense: NSFieldInfoBase.SetIsMandatory
 keywords: NSFieldInfoBase, GetIsMandatory
 so.topic: reference

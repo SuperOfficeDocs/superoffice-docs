@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseOwner_GetName
-description: String NSLicenseOwner.GetName()
+uid: crmscript_ref_NSLicenseOwner_GetName
+title: String GetName()
 intellisense: NSLicenseOwner.GetName
 keywords: NSLicenseOwner, GetName
 so.topic: reference

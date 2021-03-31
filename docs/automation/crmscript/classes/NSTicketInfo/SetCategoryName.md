@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketInfo_SetCategoryName
-description: NSTicketInfo.SetCategoryName(String categoryName)
+uid: crmscript_ref_NSTicketInfo_SetCategoryName
+title: SetCategoryName(String categoryName)
 intellisense: NSTicketInfo.SetCategoryName
 keywords: NSTicketInfo, GetCategoryName
 so.topic: reference

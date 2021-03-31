@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescription_GetAccessFlags
-description: Integer NSPreferenceDescription.GetAccessFlags()
+uid: crmscript_ref_NSPreferenceDescription_GetAccessFlags
+title: Integer GetAccessFlags()
 intellisense: NSPreferenceDescription.GetAccessFlags
 keywords: NSPreferenceDescription, GetAccessFlags
 so.topic: reference

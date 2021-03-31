@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetConnection
-description: ErpConnection GetConnection(Integer erpConnectionId)
+uid: crmscript_ref_NSErpSyncAgent_GetConnection
+title: ErpConnection GetConnection(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.GetConnection
-keywords: NSErpSyncAgent,GetConnection
+keywords: NSErpSyncAgent, GetConnection
 so.topic: reference
 ---
 

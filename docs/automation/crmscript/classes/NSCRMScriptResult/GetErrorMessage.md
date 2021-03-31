@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptResult_GetErrorMessage
-description: String NSCRMScriptResult.GetErrorMessage()
+uid: crmscript_ref_NSCRMScriptResult_GetErrorMessage
+title: String GetErrorMessage()
 intellisense: NSCRMScriptResult.GetErrorMessage
 keywords: NSCRMScriptResult, GetErrorMessage
 so.topic: reference

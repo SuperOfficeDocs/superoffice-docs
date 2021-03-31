@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_GetGroupAssociateIds
-description: IntegerArray GetGroupAssociateIds(IntegerArray groupIds)
+uid: crmscript_ref_NSArchiveAgent_GetGroupAssociateIds
+title: IntegerArray GetGroupAssociateIds(IntegerArray groupIds)
 intellisense: NSArchiveAgent.GetGroupAssociateIds
-keywords: NSArchiveAgent,GetGroupAssociateIds
+keywords: NSArchiveAgent, GetGroupAssociateIds
 so.topic: reference
 ---
 

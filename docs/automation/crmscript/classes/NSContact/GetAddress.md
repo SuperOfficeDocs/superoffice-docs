@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_GetAddress
-description: Address NSContact.GetAddress()
+uid: crmscript_ref_NSContact_GetAddress
+title: Address GetAddress()
 intellisense: NSContact.GetAddress
 keywords: NSContact, GetAddress
 so.topic: reference

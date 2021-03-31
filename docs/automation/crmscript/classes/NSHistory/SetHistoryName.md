@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistory_SetHistoryName
-description: NSHistory.SetHistoryName(String historyName)
+uid: crmscript_ref_NSHistory_SetHistoryName
+title: SetHistoryName(String historyName)
 intellisense: NSHistory.SetHistoryName
 keywords: NSHistory, GetHistoryName
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_RejectWithSmtpEmailConfirmation
-description: Void RejectWithSmtpEmailConfirmation(Integer appointmentId, String rejectReason, Integer updateMode, EMailConnectionInfo smtpEMailConnectionInfo)
+uid: crmscript_ref_NSAppointmentAgent_RejectWithSmtpEmailConfirmation
+title: Void RejectWithSmtpEmailConfirmation(Integer appointmentId, String rejectReason, Integer updateMode, EMailConnectionInfo smtpEMailConnectionInfo)
 intellisense: NSAppointmentAgent.RejectWithSmtpEmailConfirmation
-keywords: NSAppointmentAgent,RejectWithSmtpEmailConfirmation
+keywords: NSAppointmentAgent, RejectWithSmtpEmailConfirmation
 so.topic: reference
 ---
 

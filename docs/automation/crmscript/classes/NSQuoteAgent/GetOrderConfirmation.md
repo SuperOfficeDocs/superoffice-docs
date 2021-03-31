@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetOrderConfirmation
-description: String GetOrderConfirmation(Integer quoteVersionId, Integer confirmationTemplateId)
+uid: crmscript_ref_NSQuoteAgent_GetOrderConfirmation
+title: String GetOrderConfirmation(Integer quoteVersionId, Integer confirmationTemplateId)
 intellisense: NSQuoteAgent.GetOrderConfirmation
-keywords: NSQuoteAgent,GetOrderConfirmation
+keywords: NSQuoteAgent, GetOrderConfirmation
 so.topic: reference
 ---
 

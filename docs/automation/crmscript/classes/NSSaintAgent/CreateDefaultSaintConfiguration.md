@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_CreateDefaultSaintConfiguration
-description: NSSaintConfiguration CreateDefaultSaintConfiguration()
+uid: crmscript_ref_NSSaintAgent_CreateDefaultSaintConfiguration
+title: NSSaintConfiguration CreateDefaultSaintConfiguration()
 intellisense: NSSaintAgent.CreateDefaultSaintConfiguration
-keywords: NSSaintAgent,CreateDefaultSaintConfiguration
+keywords: NSSaintAgent, CreateDefaultSaintConfiguration
 so.topic: reference
 ---
 	  

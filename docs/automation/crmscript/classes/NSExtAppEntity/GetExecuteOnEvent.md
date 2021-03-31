@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetExecuteOnEvent
-description: ExecuteOnEvent NSExtAppEntity.GetExecuteOnEvent()
+uid: crmscript_ref_NSExtAppEntity_GetExecuteOnEvent
+title: ExecuteOnEvent GetExecuteOnEvent()
 intellisense: NSExtAppEntity.GetExecuteOnEvent
 keywords: NSExtAppEntity, GetExecuteOnEvent
 so.topic: reference

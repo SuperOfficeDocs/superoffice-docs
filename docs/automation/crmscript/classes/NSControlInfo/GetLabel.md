@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSControlInfo_GetLabel
-description: String NSControlInfo.GetLabel()
+uid: crmscript_ref_NSControlInfo_GetLabel
+title: String GetLabel()
 intellisense: NSControlInfo.GetLabel
 keywords: NSControlInfo, GetLabel
 so.topic: reference

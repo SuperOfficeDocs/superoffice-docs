@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_CreateDefaultShipmentMessageBlockEntity
-description: NSShipmentMessageBlockEntity CreateDefaultShipmentMessageBlockEntity()
+uid: crmscript_ref_NSMarketingAgent_CreateDefaultShipmentMessageBlockEntity
+title: NSShipmentMessageBlockEntity CreateDefaultShipmentMessageBlockEntity()
 intellisense: NSMarketingAgent.CreateDefaultShipmentMessageBlockEntity
-keywords: NSMarketingAgent,CreateDefaultShipmentMessageBlockEntity
+keywords: NSMarketingAgent, CreateDefaultShipmentMessageBlockEntity
 so.topic: reference
 ---
 	  

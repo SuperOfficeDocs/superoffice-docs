@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_SetType
-description: NSPocketNotificationMessage.SetType(Integer type)
+uid: crmscript_ref_NSPocketNotificationMessage_SetType
+title: SetType(Integer type)
 intellisense: NSPocketNotificationMessage.SetType
 keywords: NSPocketNotificationMessage, GetType
 so.topic: reference

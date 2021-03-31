@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetResponse
-description: NSBatchTaskInfo.SetResponse(String response)
+uid: crmscript_ref_NSBatchTaskInfo_SetResponse
+title: SetResponse(String response)
 intellisense: NSBatchTaskInfo.SetResponse
 keywords: NSBatchTaskInfo, GetResponse
 so.topic: reference

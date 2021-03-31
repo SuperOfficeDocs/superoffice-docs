@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSViewStateAgent_SaveHistories
-description: HistoryArray SaveHistories(String historyName, HistoryArray history)
+uid: crmscript_ref_NSViewStateAgent_SaveHistories
+title: HistoryArray SaveHistories(String historyName, HistoryArray history)
 intellisense: NSViewStateAgent.SaveHistories
-keywords: NSViewStateAgent,SaveHistories
+keywords: NSViewStateAgent, SaveHistories
 so.topic: reference
 ---
 

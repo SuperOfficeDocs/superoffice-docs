@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDiaryViewEntity_SetVisibleColumns
-description: NSDiaryViewEntity.SetVisibleColumns(Integer visibleColumns)
+uid: crmscript_ref_NSDiaryViewEntity_SetVisibleColumns
+title: SetVisibleColumns(Integer visibleColumns)
 intellisense: NSDiaryViewEntity.SetVisibleColumns
 keywords: NSDiaryViewEntity, GetVisibleColumns
 so.topic: reference

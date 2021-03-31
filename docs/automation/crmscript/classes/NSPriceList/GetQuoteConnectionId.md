@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_GetQuoteConnectionId
-description: Integer NSPriceList.GetQuoteConnectionId()
+uid: crmscript_ref_NSPriceList_GetQuoteConnectionId
+title: Integer GetQuoteConnectionId()
 intellisense: NSPriceList.GetQuoteConnectionId
 keywords: NSPriceList, GetQuoteConnectionId
 so.topic: reference

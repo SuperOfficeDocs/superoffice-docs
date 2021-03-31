@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_GetHasAlarm
-description: Bool NSAppointmentSyncData.GetHasAlarm()
+uid: crmscript_ref_NSAppointmentSyncData_GetHasAlarm
+title: Bool GetHasAlarm()
 intellisense: NSAppointmentSyncData.GetHasAlarm
 keywords: NSAppointmentSyncData, GetHasAlarm
 so.topic: reference

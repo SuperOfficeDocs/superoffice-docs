@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketDeviceInfo
-description: NSPocketDeviceInfo
+uid: crmscript_ref_NSPocketDeviceInfo
+title: NSPocketDeviceInfo
 intellisense: Void.NSPocketDeviceInfo
 keywords: NSPocketDeviceInfo
 so.topic: reference

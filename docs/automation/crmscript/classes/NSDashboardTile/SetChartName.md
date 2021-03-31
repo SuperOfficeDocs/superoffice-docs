@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_SetChartName
-description: NSDashboardTile.SetChartName(String chartName)
+uid: crmscript_ref_NSDashboardTile_SetChartName
+title: SetChartName(String chartName)
 intellisense: NSDashboardTile.SetChartName
 keywords: NSDashboardTile, GetChartName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_SetWhenSubmitted
-description: NSFormSubmissionEntity.SetWhenSubmitted(DateTime whenSubmitted)
+uid: crmscript_ref_NSFormSubmissionEntity_SetWhenSubmitted
+title: SetWhenSubmitted(DateTime whenSubmitted)
 intellisense: NSFormSubmissionEntity.SetWhenSubmitted
 keywords: NSFormSubmissionEntity, GetWhenSubmitted
 so.topic: reference

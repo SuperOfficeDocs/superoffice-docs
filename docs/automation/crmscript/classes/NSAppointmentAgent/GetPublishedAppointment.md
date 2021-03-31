@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetPublishedAppointment
-description: Appointment GetPublishedAppointment(Integer appointmentId)
+uid: crmscript_ref_NSAppointmentAgent_GetPublishedAppointment
+title: Appointment GetPublishedAppointment(Integer appointmentId)
 intellisense: NSAppointmentAgent.GetPublishedAppointment
-keywords: NSAppointmentAgent,GetPublishedAppointment
+keywords: NSAppointmentAgent, GetPublishedAppointment
 so.topic: reference
 ---
 

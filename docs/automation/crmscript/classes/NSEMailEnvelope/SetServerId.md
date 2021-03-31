@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_SetServerId
-description: NSEMailEnvelope.SetServerId(Integer serverId)
+uid: crmscript_ref_NSEMailEnvelope_SetServerId
+title: SetServerId(Integer serverId)
 intellisense: NSEMailEnvelope.SetServerId
 keywords: NSEMailEnvelope, GetServerId
 so.topic: reference

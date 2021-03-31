@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_RegenerateCounters
-description: BatchTaskInfo RegenerateCounters(Bool runAsBatch)
+uid: crmscript_ref_NSSaintAgent_RegenerateCounters
+title: BatchTaskInfo RegenerateCounters(Bool runAsBatch)
 intellisense: NSSaintAgent.RegenerateCounters
-keywords: NSSaintAgent,RegenerateCounters
+keywords: NSSaintAgent, RegenerateCounters
 so.topic: reference
 ---
 

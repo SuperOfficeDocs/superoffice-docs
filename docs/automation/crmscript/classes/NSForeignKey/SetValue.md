@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignKey_SetValue
-description: NSForeignKey.SetValue(String value)
+uid: crmscript_ref_NSForeignKey_SetValue
+title: SetValue(String value)
 intellisense: NSForeignKey.SetValue
 keywords: NSForeignKey, GetValue
 so.topic: reference

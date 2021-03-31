@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_SetOwnerWindow
-description: NSWindowPosSize.SetOwnerWindow(String ownerWindow)
+uid: crmscript_ref_NSWindowPosSize_SetOwnerWindow
+title: SetOwnerWindow(String ownerWindow)
 intellisense: NSWindowPosSize.SetOwnerWindow
 keywords: NSWindowPosSize, GetOwnerWindow
 so.topic: reference

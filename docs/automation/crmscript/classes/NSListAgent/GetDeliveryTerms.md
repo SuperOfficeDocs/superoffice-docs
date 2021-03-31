@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDeliveryTerms
-description: DeliveryTermArray GetDeliveryTerms()
+uid: crmscript_ref_NSListAgent_GetDeliveryTerms
+title: DeliveryTermArray GetDeliveryTerms()
 intellisense: NSListAgent.GetDeliveryTerms
-keywords: NSListAgent,GetDeliveryTerms
+keywords: NSListAgent, GetDeliveryTerms
 so.topic: reference
 ---
 

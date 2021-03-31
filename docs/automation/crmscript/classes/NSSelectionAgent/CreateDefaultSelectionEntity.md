@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CreateDefaultSelectionEntity
-description: NSSelectionEntity CreateDefaultSelectionEntity()
+uid: crmscript_ref_NSSelectionAgent_CreateDefaultSelectionEntity
+title: NSSelectionEntity CreateDefaultSelectionEntity()
 intellisense: NSSelectionAgent.CreateDefaultSelectionEntity
-keywords: NSSelectionAgent,CreateDefaultSelectionEntity
+keywords: NSSelectionAgent, CreateDefaultSelectionEntity
 so.topic: reference
 ---
 	  

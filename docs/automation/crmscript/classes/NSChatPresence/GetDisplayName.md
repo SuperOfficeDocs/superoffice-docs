@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatPresence_GetDisplayName
-description: String NSChatPresence.GetDisplayName()
+uid: crmscript_ref_NSChatPresence_GetDisplayName
+title: String GetDisplayName()
 intellisense: NSChatPresence.GetDisplayName
 keywords: NSChatPresence, GetDisplayName
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_DeleteResourceEntity
-description: DeleteResourceEntity(Integer resourceEntity);
+uid: crmscript_ref_NSListAgent_DeleteResourceEntity
+title: DeleteResourceEntity(Integer resourceEntity);
 intellisense: NSListAgent.DeleteResourceEntity
-keywords: NSListAgent,DeleteResourceEntity
+keywords: NSListAgent, DeleteResourceEntity
 so.topic: reference
 ---
 

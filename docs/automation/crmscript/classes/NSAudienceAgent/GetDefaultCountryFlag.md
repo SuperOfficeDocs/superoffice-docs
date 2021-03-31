@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetDefaultCountryFlag
-description: Image GetDefaultCountryFlag(String layoutName)
+uid: crmscript_ref_NSAudienceAgent_GetDefaultCountryFlag
+title: Image GetDefaultCountryFlag(String layoutName)
 intellisense: NSAudienceAgent.GetDefaultCountryFlag
-keywords: NSAudienceAgent,GetDefaultCountryFlag
+keywords: NSAudienceAgent, GetDefaultCountryFlag
 so.topic: reference
 ---
 

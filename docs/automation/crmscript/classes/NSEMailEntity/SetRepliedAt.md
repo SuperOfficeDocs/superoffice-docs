@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetRepliedAt
-description: NSEMailEntity.SetRepliedAt(DateTime repliedAt)
+uid: crmscript_ref_NSEMailEntity_SetRepliedAt
+title: SetRepliedAt(DateTime repliedAt)
 intellisense: NSEMailEntity.SetRepliedAt
 keywords: NSEMailEntity, GetRepliedAt
 so.topic: reference

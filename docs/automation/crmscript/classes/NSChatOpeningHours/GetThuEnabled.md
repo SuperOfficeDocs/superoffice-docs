@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_GetThuEnabled
-description: Bool NSChatOpeningHours.GetThuEnabled()
+uid: crmscript_ref_NSChatOpeningHours_GetThuEnabled
+title: Bool GetThuEnabled()
 intellisense: NSChatOpeningHours.GetThuEnabled
 keywords: NSChatOpeningHours, GetThuEnabled
 so.topic: reference

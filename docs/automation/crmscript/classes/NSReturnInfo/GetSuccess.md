@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReturnInfo_GetSuccess
-description: Bool NSReturnInfo.GetSuccess()
+uid: crmscript_ref_NSReturnInfo_GetSuccess
+title: Bool GetSuccess()
 intellisense: NSReturnInfo.GetSuccess
 keywords: NSReturnInfo, GetSuccess
 so.topic: reference

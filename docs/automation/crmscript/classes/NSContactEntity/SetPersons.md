@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetPersons
-description: NSContactEntity.SetPersons(PersonArray persons)
+uid: crmscript_ref_NSContactEntity_SetPersons
+title: SetPersons(PersonArray persons)
 intellisense: NSContactEntity.SetPersons
 keywords: NSContactEntity, GetPersons
 so.topic: reference

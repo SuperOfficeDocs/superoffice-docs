@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_SetSubTotal
-description: NSQuoteAlternative.SetSubTotal(Float subTotal)
+uid: crmscript_ref_NSQuoteAlternative_SetSubTotal
+title: SetSubTotal(Float subTotal)
 intellisense: NSQuoteAlternative.SetSubTotal
 keywords: NSQuoteAlternative, GetSubTotal
 so.topic: reference

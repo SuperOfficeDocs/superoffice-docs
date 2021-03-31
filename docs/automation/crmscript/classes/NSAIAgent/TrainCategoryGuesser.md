@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAIAgent_TrainCategoryGuesser
-description: String TrainCategoryGuesser(Integer selectionId, Integer maxItems, Integer maxTextLength)
+uid: crmscript_ref_NSAIAgent_TrainCategoryGuesser
+title: String TrainCategoryGuesser(Integer selectionId, Integer maxItems, Integer maxTextLength)
 intellisense: NSAIAgent.TrainCategoryGuesser
-keywords: NSAIAgent,TrainCategoryGuesser
+keywords: NSAIAgent, TrainCategoryGuesser
 so.topic: reference
 ---
 

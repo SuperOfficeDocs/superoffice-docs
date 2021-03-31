@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSRelationToOwner_SetId
-description: NSRelationToOwner.SetId(Integer id)
+uid: crmscript_ref_NSRelationToOwner_SetId
+title: SetId(Integer id)
 intellisense: NSRelationToOwner.SetId
 keywords: NSRelationToOwner, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the RelationToOwner
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer RelationToOwner id.
 

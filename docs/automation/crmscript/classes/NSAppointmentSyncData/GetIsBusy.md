@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_GetIsBusy
-description: Bool NSAppointmentSyncData.GetIsBusy()
+uid: crmscript_ref_NSAppointmentSyncData_GetIsBusy
+title: Bool GetIsBusy()
 intellisense: NSAppointmentSyncData.GetIsBusy
 keywords: NSAppointmentSyncData, GetIsBusy
 so.topic: reference

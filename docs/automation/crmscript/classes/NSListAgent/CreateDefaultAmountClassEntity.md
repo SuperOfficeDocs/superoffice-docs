@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultAmountClassEntity
-description: NSAmountClassEntity CreateDefaultAmountClassEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultAmountClassEntity
+title: NSAmountClassEntity CreateDefaultAmountClassEntity()
 intellisense: NSListAgent.CreateDefaultAmountClassEntity
-keywords: NSListAgent,CreateDefaultAmountClassEntity
+keywords: NSListAgent, CreateDefaultAmountClassEntity
 so.topic: reference
 ---
 	  

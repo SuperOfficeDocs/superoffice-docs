@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetAlwaysUseCustomAttention
-description: Bool NSMailMergeSettings.GetAlwaysUseCustomAttention()
+uid: crmscript_ref_NSMailMergeSettings_GetAlwaysUseCustomAttention
+title: Bool GetAlwaysUseCustomAttention()
 intellisense: NSMailMergeSettings.GetAlwaysUseCustomAttention
 keywords: NSMailMergeSettings, GetAlwaysUseCustomAttention
 so.topic: reference

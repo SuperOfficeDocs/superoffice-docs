@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetPage1LineNo
-description: Integer NSUserDefinedFieldInfo.GetPage1LineNo()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetPage1LineNo
+title: Integer GetPage1LineNo()
 intellisense: NSUserDefinedFieldInfo.GetPage1LineNo
 keywords: NSUserDefinedFieldInfo, GetPage1LineNo
 so.topic: reference

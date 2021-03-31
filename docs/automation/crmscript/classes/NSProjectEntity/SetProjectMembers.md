@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_SetProjectMembers
-description: NSProjectEntity.SetProjectMembers(ProjectMemberArray projectMembers)
+uid: crmscript_ref_NSProjectEntity_SetProjectMembers
+title: SetProjectMembers(ProjectMemberArray projectMembers)
 intellisense: NSProjectEntity.SetProjectMembers
 keywords: NSProjectEntity, GetProjectMembers
 so.topic: reference

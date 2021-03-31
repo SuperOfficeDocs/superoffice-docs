@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetExtraField4
-description: String NSProduct.GetExtraField4()
+uid: crmscript_ref_NSProduct_GetExtraField4
+title: String GetExtraField4()
 intellisense: NSProduct.GetExtraField4
 keywords: NSProduct, GetExtraField4
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicAgent_GetCanRespond
-description: Bool NSChatTopicAgent.GetCanRespond()
+uid: crmscript_ref_NSChatTopicAgent_GetCanRespond
+title: Bool GetCanRespond()
 intellisense: NSChatTopicAgent.GetCanRespond
 keywords: NSChatTopicAgent, GetCanRespond
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatisticsDataValue
-description: NSStatisticsDataValue
+uid: crmscript_ref_NSStatisticsDataValue
+title: NSStatisticsDataValue
 intellisense: Void.NSStatisticsDataValue
 keywords: NSStatisticsDataValue
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetMinEarningPercent
-description: NSSaleTypeEntity.SetMinEarningPercent(Integer minEarningPercent)
+uid: crmscript_ref_NSSaleTypeEntity_SetMinEarningPercent
+title: SetMinEarningPercent(Integer minEarningPercent)
 intellisense: NSSaleTypeEntity.SetMinEarningPercent
 keywords: NSSaleTypeEntity, GetMinEarningPercent
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetOnSatellite
-description: NSWebPanelEntity.SetOnSatellite(Bool onSatellite)
+uid: crmscript_ref_NSWebPanelEntity_SetOnSatellite
+title: SetOnSatellite(Bool onSatellite)
 intellisense: NSWebPanelEntity.SetOnSatellite
 keywords: NSWebPanelEntity, GetOnSatellite
 so.topic: reference

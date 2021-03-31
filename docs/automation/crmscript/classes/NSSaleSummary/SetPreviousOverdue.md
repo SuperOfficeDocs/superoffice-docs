@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetPreviousOverdue
-description: NSSaleSummary.SetPreviousOverdue(Integer previousOverdue)
+uid: crmscript_ref_NSSaleSummary_SetPreviousOverdue
+title: SetPreviousOverdue(Integer previousOverdue)
 intellisense: NSSaleSummary.SetPreviousOverdue
 keywords: NSSaleSummary, GetPreviousOverdue
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDevice_SetForeignAppId
-description: NSForeignDevice.SetForeignAppId(Integer foreignAppId)
+uid: crmscript_ref_NSForeignDevice_SetForeignAppId
+title: SetForeignAppId(Integer foreignAppId)
 intellisense: NSForeignDevice.SetForeignAppId
 keywords: NSForeignDevice, GetForeignAppId
 so.topic: reference

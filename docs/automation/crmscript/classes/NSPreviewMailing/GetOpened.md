@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_GetOpened
-description: DateTime NSPreviewMailing.GetOpened()
+uid: crmscript_ref_NSPreviewMailing_GetOpened
+title: DateTime GetOpened()
 intellisense: NSPreviewMailing.GetOpened
 keywords: NSPreviewMailing, GetOpened
 so.topic: reference

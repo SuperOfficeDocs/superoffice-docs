@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetState
-description: NSQuoteVersion.SetState(QuoteVersionState state)
+uid: crmscript_ref_NSQuoteVersion_SetState
+title: SetState(QuoteVersionState state)
 intellisense: NSQuoteVersion.SetState
 keywords: NSQuoteVersion, GetState
 so.topic: reference

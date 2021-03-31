@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetShortLabel
-description: String NSUserDefinedFieldInfo.GetShortLabel()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetShortLabel
+title: String GetShortLabel()
 intellisense: NSUserDefinedFieldInfo.GetShortLabel
 keywords: NSUserDefinedFieldInfo, GetShortLabel
 so.topic: reference

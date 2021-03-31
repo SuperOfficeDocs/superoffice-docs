@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultRelationDefinitionEntity
-description: NSRelationDefinitionEntity CreateDefaultRelationDefinitionEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultRelationDefinitionEntity
+title: NSRelationDefinitionEntity CreateDefaultRelationDefinitionEntity()
 intellisense: NSListAgent.CreateDefaultRelationDefinitionEntity
-keywords: NSListAgent,CreateDefaultRelationDefinitionEntity
+keywords: NSListAgent, CreateDefaultRelationDefinitionEntity
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetPerson
-description: Person NSUser.GetPerson()
+uid: crmscript_ref_NSUser_GetPerson
+title: Person GetPerson()
 intellisense: NSUser.GetPerson
 keywords: NSUser, GetPerson
 so.topic: reference

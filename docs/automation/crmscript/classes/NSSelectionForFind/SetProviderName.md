@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionForFind_SetProviderName
-description: NSSelectionForFind.SetProviderName(String providerName)
+uid: crmscript_ref_NSSelectionForFind_SetProviderName
+title: SetProviderName(String providerName)
 intellisense: NSSelectionForFind.SetProviderName
 keywords: NSSelectionForFind, GetProviderName
 so.topic: reference

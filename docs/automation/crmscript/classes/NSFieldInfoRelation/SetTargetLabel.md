@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoRelation_SetTargetLabel
-description: NSFieldInfoRelation.SetTargetLabel(String targetLabel)
+uid: crmscript_ref_NSFieldInfoRelation_SetTargetLabel
+title: SetTargetLabel(String targetLabel)
 intellisense: NSFieldInfoRelation.SetTargetLabel
 keywords: NSFieldInfoRelation, GetTargetLabel
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_GetCompleted
-description: Bool NSProjectEntity.GetCompleted()
+uid: crmscript_ref_NSProjectEntity_GetCompleted
+title: Bool GetCompleted()
 intellisense: NSProjectEntity.GetCompleted
 keywords: NSProjectEntity, GetCompleted
 so.topic: reference

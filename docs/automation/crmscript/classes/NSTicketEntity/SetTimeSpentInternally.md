@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetTimeSpentInternally
-description: NSTicketEntity.SetTimeSpentInternally(Integer timeSpentInternally)
+uid: crmscript_ref_NSTicketEntity_SetTimeSpentInternally
+title: SetTimeSpentInternally(Integer timeSpentInternally)
 intellisense: NSTicketEntity.SetTimeSpentInternally
 keywords: NSTicketEntity, GetTimeSpentInternally
 so.topic: reference

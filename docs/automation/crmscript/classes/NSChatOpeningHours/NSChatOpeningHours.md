@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours
-description: NSChatOpeningHours
+uid: crmscript_ref_NSChatOpeningHours
+title: NSChatOpeningHours
 intellisense: Void.NSChatOpeningHours
 keywords: NSChatOpeningHours
 so.topic: reference

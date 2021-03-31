@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSScript
-description: NSScript
+uid: crmscript_ref_NSScript
+title: NSScript
 intellisense: Void.NSScript
 keywords: NSScript
 so.topic: reference

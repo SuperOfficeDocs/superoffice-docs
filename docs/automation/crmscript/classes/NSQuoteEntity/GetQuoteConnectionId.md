@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_GetQuoteConnectionId
-description: Integer NSQuoteEntity.GetQuoteConnectionId()
+uid: crmscript_ref_NSQuoteEntity_GetQuoteConnectionId
+title: Integer GetQuoteConnectionId()
 intellisense: NSQuoteEntity.GetQuoteConnectionId
 keywords: NSQuoteEntity, GetQuoteConnectionId
 so.topic: reference

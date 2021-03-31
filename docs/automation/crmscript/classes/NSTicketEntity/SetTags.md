@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetTags
-description: NSTicketEntity.SetTags(TagArray tags)
+uid: crmscript_ref_NSTicketEntity_SetTags
+title: SetTags(TagArray tags)
 intellisense: NSTicketEntity.SetTags
 keywords: NSTicketEntity, GetTags
 so.topic: reference

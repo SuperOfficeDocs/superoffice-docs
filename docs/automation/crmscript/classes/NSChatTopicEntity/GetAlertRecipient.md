@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetAlertRecipient
-description: String NSChatTopicEntity.GetAlertRecipient()
+uid: crmscript_ref_NSChatTopicEntity_GetAlertRecipient
+title: String GetAlertRecipient()
 intellisense: NSChatTopicEntity.GetAlertRecipient
 keywords: NSChatTopicEntity, GetAlertRecipient
 so.topic: reference

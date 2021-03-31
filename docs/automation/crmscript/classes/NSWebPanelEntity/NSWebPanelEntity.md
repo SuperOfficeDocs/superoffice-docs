@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity
-description: NSWebPanelEntity
+uid: crmscript_ref_NSWebPanelEntity
+title: NSWebPanelEntity
 intellisense: Void.NSWebPanelEntity
 keywords: NSWebPanelEntity
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSScript_GetPath
-description: String NSScript.GetPath()
+uid: crmscript_ref_NSScript_GetPath
+title: String GetPath()
 intellisense: NSScript.GetPath
 keywords: NSScript, GetPath
 so.topic: reference

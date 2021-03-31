@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserInfo_GetGrantedLicenses
-description: StringArray NSUserInfo.GetGrantedLicenses()
+uid: crmscript_ref_NSUserInfo_GetGrantedLicenses
+title: StringArray GetGrantedLicenses()
 intellisense: NSUserInfo.GetGrantedLicenses
 keywords: NSUserInfo, GetGrantedLicenses
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSystemEventEntity_GetEventkey
-description: String NSSystemEventEntity.GetEventkey()
+uid: crmscript_ref_NSSystemEventEntity_GetEventkey
+title: String GetEventkey()
 intellisense: NSSystemEventEntity.GetEventkey
 keywords: NSSystemEventEntity, GetEventkey
 so.topic: reference

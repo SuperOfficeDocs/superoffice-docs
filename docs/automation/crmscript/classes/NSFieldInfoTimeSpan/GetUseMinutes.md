@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoTimeSpan_GetUseMinutes
-description: Bool NSFieldInfoTimeSpan.GetUseMinutes()
+uid: crmscript_ref_NSFieldInfoTimeSpan_GetUseMinutes
+title: Bool GetUseMinutes()
 intellisense: NSFieldInfoTimeSpan.GetUseMinutes
 keywords: NSFieldInfoTimeSpan, GetUseMinutes
 so.topic: reference

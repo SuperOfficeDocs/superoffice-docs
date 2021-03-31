@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAmountClassEntity
-description: NSAmountClassEntity GetAmountClassEntity(Integer amountClassEntityId);
+uid: crmscript_ref_NSListAgent_GetAmountClassEntity
+title: NSAmountClassEntity GetAmountClassEntity(Integer amountClassEntityId);
 intellisense: NSListAgent.GetAmountClassEntity
-keywords: NSListAgent,GetAmountClassEntity
+keywords: NSListAgent, GetAmountClassEntity
 so.topic: reference
 ---
 

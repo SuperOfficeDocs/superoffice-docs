@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearches_GetMasterVersion
-description: Integer NSTypicalSearches.GetMasterVersion()
+uid: crmscript_ref_NSTypicalSearches_GetMasterVersion
+title: Integer GetMasterVersion()
 intellisense: NSTypicalSearches.GetMasterVersion
 keywords: NSTypicalSearches, GetMasterVersion
 so.topic: reference

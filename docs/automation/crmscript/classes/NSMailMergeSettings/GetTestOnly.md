@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetTestOnly
-description: Bool NSMailMergeSettings.GetTestOnly()
+uid: crmscript_ref_NSMailMergeSettings_GetTestOnly
+title: Bool GetTestOnly()
 intellisense: NSMailMergeSettings.GetTestOnly
 keywords: NSMailMergeSettings, GetTestOnly
 so.topic: reference

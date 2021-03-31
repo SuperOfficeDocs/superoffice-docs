@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields
-description: FieldValueInfoArray RemoveStoredFieldsAndGetDefaultFields(String tableName, String context)
+uid: crmscript_ref_NSBulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields
+title: FieldValueInfoArray RemoveStoredFieldsAndGetDefaultFields(String tableName, String context)
 intellisense: NSBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
-keywords: NSBulkUpdateAgent,RemoveStoredFieldsAndGetDefaultFields
+keywords: NSBulkUpdateAgent, RemoveStoredFieldsAndGetDefaultFields
 so.topic: reference
 ---
 

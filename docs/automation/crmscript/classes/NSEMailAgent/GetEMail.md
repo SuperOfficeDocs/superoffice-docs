@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEMail
-description: EMailEntity GetEMail(Integer id, Bool includeAttachments)
+uid: crmscript_ref_NSEMailAgent_GetEMail
+title: EMailEntity GetEMail(Integer id, Bool includeAttachments)
 intellisense: NSEMailAgent.GetEMail
-keywords: NSEMailAgent,GetEMail
+keywords: NSEMailAgent, GetEMail
 so.topic: reference
 ---
 

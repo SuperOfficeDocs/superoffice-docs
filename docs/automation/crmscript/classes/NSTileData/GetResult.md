@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTileData_GetResult
-description: ArchiveListResult NSTileData.GetResult()
+uid: crmscript_ref_NSTileData_GetResult
+title: ArchiveListResult GetResult()
 intellisense: NSTileData.GetResult
 keywords: NSTileData, GetResult
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetItemNumber
-description: NSQuoteLine.SetItemNumber(String itemNumber)
+uid: crmscript_ref_NSQuoteLine_SetItemNumber
+title: SetItemNumber(String itemNumber)
 intellisense: NSQuoteLine.SetItemNumber
 keywords: NSQuoteLine, GetItemNumber
 so.topic: reference

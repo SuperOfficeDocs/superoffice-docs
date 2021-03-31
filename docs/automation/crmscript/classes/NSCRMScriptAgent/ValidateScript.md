@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_ValidateScript
-description: CRMScriptResult ValidateScript(Integer cRMScriptId)
+uid: crmscript_ref_NSCRMScriptAgent_ValidateScript
+title: CRMScriptResult ValidateScript(Integer cRMScriptId)
 intellisense: NSCRMScriptAgent.ValidateScript
-keywords: NSCRMScriptAgent,ValidateScript
+keywords: NSCRMScriptAgent, ValidateScript
 so.topic: reference
 ---
 

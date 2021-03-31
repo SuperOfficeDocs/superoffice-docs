@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_SetCanRestrictBy
-description: NSArchiveColumnInfo.SetCanRestrictBy(Bool canRestrictBy)
+uid: crmscript_ref_NSArchiveColumnInfo_SetCanRestrictBy
+title: SetCanRestrictBy(Bool canRestrictBy)
 intellisense: NSArchiveColumnInfo.SetCanRestrictBy
 keywords: NSArchiveColumnInfo, GetCanRestrictBy
 so.topic: reference

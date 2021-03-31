@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketStatusEntity_SetTimeCounter
-description: NSTicketStatusEntity.SetTimeCounter(TicketStatusTimeCounter timeCounter)
+uid: crmscript_ref_NSTicketStatusEntity_SetTimeCounter
+title: SetTimeCounter(TicketStatusTimeCounter timeCounter)
 intellisense: NSTicketStatusEntity.SetTimeCounter
 keywords: NSTicketStatusEntity, GetTimeCounter
 so.topic: reference

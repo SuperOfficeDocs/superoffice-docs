@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_HasConnections
-description: PluginResponse HasConnections()
+uid: crmscript_ref_NSQuoteAgent_HasConnections
+title: PluginResponse HasConnections()
 intellisense: NSQuoteAgent.HasConnections
-keywords: NSQuoteAgent,HasConnections
+keywords: NSQuoteAgent, HasConnections
 so.topic: reference
 ---
 

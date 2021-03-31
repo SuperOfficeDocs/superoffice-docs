@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetPublishedProjects
-description: ProjectArray GetPublishedProjects(IntegerArray projectIds)
+uid: crmscript_ref_NSProjectAgent_GetPublishedProjects
+title: ProjectArray GetPublishedProjects(IntegerArray projectIds)
 intellisense: NSProjectAgent.GetPublishedProjects
-keywords: NSProjectAgent,GetPublishedProjects
+keywords: NSProjectAgent, GetPublishedProjects
 so.topic: reference
 ---
 

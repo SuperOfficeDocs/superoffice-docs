@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetPostitTextId
-description: Integer NSSelectionEntity.GetPostitTextId()
+uid: crmscript_ref_NSSelectionEntity_GetPostitTextId
+title: Integer GetPostitTextId()
 intellisense: NSSelectionEntity.GetPostitTextId
 keywords: NSSelectionEntity, GetPostitTextId
 so.topic: reference

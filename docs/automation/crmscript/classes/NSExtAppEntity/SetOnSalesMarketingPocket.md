@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_SetOnSalesMarketingPocket
-description: NSExtAppEntity.SetOnSalesMarketingPocket(Bool onSalesMarketingPocket)
+uid: crmscript_ref_NSExtAppEntity_SetOnSalesMarketingPocket
+title: SetOnSalesMarketingPocket(Bool onSalesMarketingPocket)
 intellisense: NSExtAppEntity.SetOnSalesMarketingPocket
 keywords: NSExtAppEntity, GetOnSalesMarketingPocket
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetApplicationKeys
-description: ForeignKeyArray GetApplicationKeys(String applicationName)
+uid: crmscript_ref_NSForeignSystemAgent_GetApplicationKeys
+title: ForeignKeyArray GetApplicationKeys(String applicationName)
 intellisense: NSForeignSystemAgent.GetApplicationKeys
-keywords: NSForeignSystemAgent,GetApplicationKeys
+keywords: NSForeignSystemAgent, GetApplicationKeys
 so.topic: reference
 ---
 

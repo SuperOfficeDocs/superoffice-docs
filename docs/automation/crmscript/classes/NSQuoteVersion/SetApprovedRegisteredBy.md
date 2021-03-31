@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetApprovedRegisteredBy
-description: NSQuoteVersion.SetApprovedRegisteredBy(Integer approvedRegisteredBy)
+uid: crmscript_ref_NSQuoteVersion_SetApprovedRegisteredBy
+title: SetApprovedRegisteredBy(Integer approvedRegisteredBy)
 intellisense: NSQuoteVersion.SetApprovedRegisteredBy
 keywords: NSQuoteVersion, GetApprovedRegisteredBy
 so.topic: reference

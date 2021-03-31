@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_GetMessageId
-description: String NSEMailEnvelope.GetMessageId()
+uid: crmscript_ref_NSEMailEnvelope_GetMessageId
+title: String GetMessageId()
 intellisense: NSEMailEnvelope.GetMessageId
 keywords: NSEMailEnvelope, GetMessageId
 so.topic: reference

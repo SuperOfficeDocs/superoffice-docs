@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_SetId
-description: NSMDOListItem.SetId(Integer id)
+uid: crmscript_ref_NSMDOListItem_SetId
+title: SetId(Integer id)
 intellisense: NSMDOListItem.SetId
 keywords: NSMDOListItem, GetId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetCategoryFullname
-description: NSTicket.SetCategoryFullname(String categoryFullname)
+uid: crmscript_ref_NSTicket_SetCategoryFullname
+title: SetCategoryFullname(String categoryFullname)
 intellisense: NSTicket.SetCategoryFullname
 keywords: NSTicket, GetCategoryFullname
 so.topic: reference

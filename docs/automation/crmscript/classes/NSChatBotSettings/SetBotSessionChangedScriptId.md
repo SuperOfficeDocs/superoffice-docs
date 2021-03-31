@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatBotSettings_SetBotSessionChangedScriptId
-description: NSChatBotSettings.SetBotSessionChangedScriptId(Integer botSessionChangedScriptId)
+uid: crmscript_ref_NSChatBotSettings_SetBotSessionChangedScriptId
+title: SetBotSessionChangedScriptId(Integer botSessionChangedScriptId)
 intellisense: NSChatBotSettings.SetBotSessionChangedScriptId
 keywords: NSChatBotSettings, GetBotSessionChangedScriptId
 so.topic: reference

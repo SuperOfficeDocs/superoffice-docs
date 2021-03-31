@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedDocumentEntity_GetDeleted
-description: Bool NSSuggestedDocumentEntity.GetDeleted()
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSSuggestedDocumentEntity.GetDeleted
 keywords: NSSuggestedDocumentEntity, GetDeleted
 so.topic: reference

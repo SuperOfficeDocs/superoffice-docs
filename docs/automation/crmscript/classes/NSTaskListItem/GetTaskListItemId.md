@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_GetTaskListItemId
-description: Integer NSTaskListItem.GetTaskListItemId()
+uid: crmscript_ref_NSTaskListItem_GetTaskListItemId
+title: Integer GetTaskListItemId()
 intellisense: NSTaskListItem.GetTaskListItemId
 keywords: NSTaskListItem, GetTaskListItemId
 so.topic: reference

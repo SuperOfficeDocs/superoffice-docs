@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSImportAgent_SaveImport
-description: IntegerArray SaveImport(ImportLineArray importLines, StringArray columnDefinition, Bool createSelection, String culture, String context)
+uid: crmscript_ref_NSImportAgent_SaveImport
+title: IntegerArray SaveImport(ImportLineArray importLines, StringArray columnDefinition, Bool createSelection, String culture, String context)
 intellisense: NSImportAgent.SaveImport
-keywords: NSImportAgent,SaveImport
+keywords: NSImportAgent, SaveImport
 so.topic: reference
 ---
 

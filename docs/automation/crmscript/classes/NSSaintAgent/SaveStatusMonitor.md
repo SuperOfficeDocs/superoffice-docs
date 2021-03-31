@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_SaveStatusMonitor
-description: NSStatusMonitor SaveStatusMonitor(NSStatusMonitor statusMonitor);
+uid: crmscript_ref_NSSaintAgent_SaveStatusMonitor
+title: NSStatusMonitor SaveStatusMonitor(NSStatusMonitor statusMonitor);
 intellisense: NSSaintAgent.SaveStatusMonitor
-keywords: NSSaintAgent,SaveStatusMonitor
+keywords: NSSaintAgent, SaveStatusMonitor
 so.topic: reference
 ---
 	  

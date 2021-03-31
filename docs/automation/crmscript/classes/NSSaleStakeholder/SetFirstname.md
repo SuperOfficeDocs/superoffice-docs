@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_SetFirstname
-description: NSSaleStakeholder.SetFirstname(String firstname)
+uid: crmscript_ref_NSSaleStakeholder_SetFirstname
+title: SetFirstname(String firstname)
 intellisense: NSSaleStakeholder.SetFirstname
 keywords: NSSaleStakeholder, GetFirstname
 so.topic: reference

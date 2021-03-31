@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetPerson
-description: Person NSAppointmentEntity.GetPerson()
+uid: crmscript_ref_NSAppointmentEntity_GetPerson
+title: Person GetPerson()
 intellisense: NSAppointmentEntity.GetPerson
 keywords: NSAppointmentEntity, GetPerson
 so.topic: reference

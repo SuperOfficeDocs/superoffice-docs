@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSScript_GetUniqueIdentifier
-description: String NSScript.GetUniqueIdentifier()
+uid: crmscript_ref_NSScript_GetUniqueIdentifier
+title: String GetUniqueIdentifier()
 intellisense: NSScript.GetUniqueIdentifier
 keywords: NSScript, GetUniqueIdentifier
 so.topic: reference

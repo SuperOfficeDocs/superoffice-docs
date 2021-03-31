@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetRecurringPattern
-description: NSAppointment.SetRecurringPattern(Integer recurringPattern)
+uid: crmscript_ref_NSAppointment_SetRecurringPattern
+title: SetRecurringPattern(Integer recurringPattern)
 intellisense: NSAppointment.SetRecurringPattern
 keywords: NSAppointment, GetRecurringPattern
 so.topic: reference

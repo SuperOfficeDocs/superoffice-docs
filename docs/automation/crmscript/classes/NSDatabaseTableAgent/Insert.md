@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDatabaseTableAgent_Insert
-description: MassOperationResult Insert(String tableName, StringArray columns, StringArrayArray data)
+uid: crmscript_ref_NSDatabaseTableAgent_Insert
+title: MassOperationResult Insert(String tableName, StringArray columns, StringArrayArray data)
 intellisense: NSDatabaseTableAgent.Insert
-keywords: NSDatabaseTableAgent,Insert
+keywords: NSDatabaseTableAgent, Insert
 so.topic: reference
 ---
 

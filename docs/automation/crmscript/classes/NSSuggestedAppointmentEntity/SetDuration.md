@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointmentEntity_SetDuration
-description: NSSuggestedAppointmentEntity.SetDuration(TimeSpan duration)
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetDuration
+title: SetDuration(TimeSpan duration)
 intellisense: NSSuggestedAppointmentEntity.SetDuration
 keywords: NSSuggestedAppointmentEntity, GetDuration
 so.topic: reference

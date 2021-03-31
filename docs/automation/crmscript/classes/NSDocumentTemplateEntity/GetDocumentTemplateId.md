@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetDocumentTemplateId
-description: Integer NSDocumentTemplateEntity.GetDocumentTemplateId()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetDocumentTemplateId
+title: Integer GetDocumentTemplateId()
 intellisense: NSDocumentTemplateEntity.GetDocumentTemplateId
 keywords: NSDocumentTemplateEntity, GetDocumentTemplateId
 so.topic: reference

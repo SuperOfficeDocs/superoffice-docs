@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_SetSent
-description: NSEMailEnvelope.SetSent(DateTime sent)
+uid: crmscript_ref_NSEMailEnvelope_SetSent
+title: SetSent(DateTime sent)
 intellisense: NSEMailEnvelope.SetSent
 keywords: NSEMailEnvelope, GetSent
 so.topic: reference

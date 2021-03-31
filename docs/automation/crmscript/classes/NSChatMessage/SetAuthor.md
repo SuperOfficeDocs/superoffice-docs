@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatMessage_SetAuthor
-description: NSChatMessage.SetAuthor(String author)
+uid: crmscript_ref_NSChatMessage_SetAuthor
+title: SetAuthor(String author)
 intellisense: NSChatMessage.SetAuthor
 keywords: NSChatMessage, GetAuthor
 so.topic: reference

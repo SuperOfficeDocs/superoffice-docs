@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_GetSent
-description: DateTime NSEMailEnvelope.GetSent()
+uid: crmscript_ref_NSEMailEnvelope_GetSent
+title: DateTime GetSent()
 intellisense: NSEMailEnvelope.GetSent
 keywords: NSEMailEnvelope, GetSent
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields
-description: StringDictionary GetErpConnectionConfigFields(Integer erpConnectionId)
+uid: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields
+title: StringDictionary GetErpConnectionConfigFields(Integer erpConnectionId)
 intellisense: NSErpSyncAgent.GetErpConnectionConfigFields
-keywords: NSErpSyncAgent,GetErpConnectionConfigFields
+keywords: NSErpSyncAgent, GetErpConnectionConfigFields
 so.topic: reference
 ---
 

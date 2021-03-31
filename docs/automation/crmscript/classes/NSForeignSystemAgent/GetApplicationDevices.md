@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetApplicationDevices
-description: ForeignDeviceArray GetApplicationDevices(String applicationName)
+uid: crmscript_ref_NSForeignSystemAgent_GetApplicationDevices
+title: ForeignDeviceArray GetApplicationDevices(String applicationName)
 intellisense: NSForeignSystemAgent.GetApplicationDevices
-keywords: NSForeignSystemAgent,GetApplicationDevices
+keywords: NSForeignSystemAgent, GetApplicationDevices
 so.topic: reference
 ---
 

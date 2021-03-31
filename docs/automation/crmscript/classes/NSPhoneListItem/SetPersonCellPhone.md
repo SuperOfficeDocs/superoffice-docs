@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListItem_SetPersonCellPhone
-description: NSPhoneListItem.SetPersonCellPhone(String personCellPhone)
+uid: crmscript_ref_NSPhoneListItem_SetPersonCellPhone
+title: SetPersonCellPhone(String personCellPhone)
 intellisense: NSPhoneListItem.SetPersonCellPhone
 keywords: NSPhoneListItem, GetPersonCellPhone
 so.topic: reference

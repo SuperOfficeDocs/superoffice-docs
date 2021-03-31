@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_SetCultureName
-description: NSTemplateVariablesParameters.SetCultureName(String cultureName)
+uid: crmscript_ref_NSTemplateVariablesParameters_SetCultureName
+title: SetCultureName(String cultureName)
 intellisense: NSTemplateVariablesParameters.SetCultureName
 keywords: NSTemplateVariablesParameters, GetCultureName
 so.topic: reference

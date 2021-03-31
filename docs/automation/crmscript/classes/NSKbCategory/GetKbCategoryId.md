@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSKbCategory_GetKbCategoryId
-description: Integer NSKbCategory.GetKbCategoryId()
+uid: crmscript_ref_NSKbCategory_GetKbCategoryId
+title: Integer GetKbCategoryId()
 intellisense: NSKbCategory.GetKbCategoryId
 keywords: NSKbCategory, GetKbCategoryId
 so.topic: reference

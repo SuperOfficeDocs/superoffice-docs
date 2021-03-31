@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLocalizedText_GetText
-description: String NSLocalizedText.GetText()
+uid: crmscript_ref_NSLocalizedText_GetText
+title: String GetText()
 intellisense: NSLocalizedText.GetText
 keywords: NSLocalizedText, GetText
 so.topic: reference

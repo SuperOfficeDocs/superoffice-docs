@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_SetRegistered
-description: NSFormEntity.SetRegistered(DateTime registered)
+uid: crmscript_ref_NSFormEntity_SetRegistered
+title: SetRegistered(DateTime registered)
 intellisense: NSFormEntity.SetRegistered
 keywords: NSFormEntity, GetRegistered
 so.topic: reference

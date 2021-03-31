@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetDeliveryCountryId
-description: Integer NSQuoteVersion.GetDeliveryCountryId()
+uid: crmscript_ref_NSQuoteVersion_GetDeliveryCountryId
+title: Integer GetDeliveryCountryId()
 intellisense: NSQuoteVersion.GetDeliveryCountryId
 keywords: NSQuoteVersion, GetDeliveryCountryId
 so.topic: reference

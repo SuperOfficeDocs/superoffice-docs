@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_ChangeCountry
-description: ContactEntity ChangeCountry(ContactEntity contactEntity, Integer toCountryId)
+uid: crmscript_ref_NSContactAgent_ChangeCountry
+title: ContactEntity ChangeCountry(ContactEntity contactEntity, Integer toCountryId)
 intellisense: NSContactAgent.ChangeCountry
-keywords: NSContactAgent,ChangeCountry
+keywords: NSContactAgent, ChangeCountry
 so.topic: reference
 ---
 

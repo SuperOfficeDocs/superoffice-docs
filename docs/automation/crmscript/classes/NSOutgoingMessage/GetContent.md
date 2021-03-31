@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOutgoingMessage_GetContent
-description: String NSOutgoingMessage.GetContent()
+uid: crmscript_ref_NSOutgoingMessage_GetContent
+title: String GetContent()
 intellisense: NSOutgoingMessage.GetContent
 keywords: NSOutgoingMessage, GetContent
 so.topic: reference

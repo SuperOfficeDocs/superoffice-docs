@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportEntity_GetTemplateId
-description: Integer NSReportEntity.GetTemplateId()
+uid: crmscript_ref_NSReportEntity_GetTemplateId
+title: Integer GetTemplateId()
 intellisense: NSReportEntity.GetTemplateId
 keywords: NSReportEntity, GetTemplateId
 so.topic: reference

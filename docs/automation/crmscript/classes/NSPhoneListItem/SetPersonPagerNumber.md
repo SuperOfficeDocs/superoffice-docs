@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListItem_SetPersonPagerNumber
-description: NSPhoneListItem.SetPersonPagerNumber(String personPagerNumber)
+uid: crmscript_ref_NSPhoneListItem_SetPersonPagerNumber
+title: SetPersonPagerNumber(String personPagerNumber)
 intellisense: NSPhoneListItem.SetPersonPagerNumber
 keywords: NSPhoneListItem, GetPersonPagerNumber
 so.topic: reference

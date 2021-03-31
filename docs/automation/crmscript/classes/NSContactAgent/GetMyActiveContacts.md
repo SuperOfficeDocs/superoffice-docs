@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetMyActiveContacts
-description: ContactActivityArray GetMyActiveContacts(DateTime activityStartTime, IntegerArray contactCategories, Integer actionType)
+uid: crmscript_ref_NSContactAgent_GetMyActiveContacts
+title: ContactActivityArray GetMyActiveContacts(DateTime activityStartTime, IntegerArray contactCategories, Integer actionType)
 intellisense: NSContactAgent.GetMyActiveContacts
-keywords: NSContactAgent,GetMyActiveContacts
+keywords: NSContactAgent, GetMyActiveContacts
 so.topic: reference
 ---
 

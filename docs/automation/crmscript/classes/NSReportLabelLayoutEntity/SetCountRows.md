@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportLabelLayoutEntity_SetCountRows
-description: NSReportLabelLayoutEntity.SetCountRows(Integer countRows)
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetCountRows
+title: SetCountRows(Integer countRows)
 intellisense: NSReportLabelLayoutEntity.SetCountRows
 keywords: NSReportLabelLayoutEntity, GetCountRows
 so.topic: reference

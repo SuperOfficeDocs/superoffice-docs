@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLanguageInfo_SetIsBuiltIn
-description: NSLanguageInfo.SetIsBuiltIn(Bool isBuiltIn)
+uid: crmscript_ref_NSLanguageInfo_SetIsBuiltIn
+title: SetIsBuiltIn(Bool isBuiltIn)
 intellisense: NSLanguageInfo.SetIsBuiltIn
 keywords: NSLanguageInfo, GetIsBuiltIn
 so.topic: reference

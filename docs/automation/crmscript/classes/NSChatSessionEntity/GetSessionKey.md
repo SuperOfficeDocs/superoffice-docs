@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetSessionKey
-description: String NSChatSessionEntity.GetSessionKey()
+uid: crmscript_ref_NSChatSessionEntity_GetSessionKey
+title: String GetSessionKey()
 intellisense: NSChatSessionEntity.GetSessionKey
 keywords: NSChatSessionEntity, GetSessionKey
 so.topic: reference

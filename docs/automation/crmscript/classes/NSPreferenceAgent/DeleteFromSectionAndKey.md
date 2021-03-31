@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_DeleteFromSectionAndKey
-description: Void DeleteFromSectionAndKey(String section, String key)
+uid: crmscript_ref_NSPreferenceAgent_DeleteFromSectionAndKey
+title: Void DeleteFromSectionAndKey(String section, String key)
 intellisense: NSPreferenceAgent.DeleteFromSectionAndKey
-keywords: NSPreferenceAgent,DeleteFromSectionAndKey
+keywords: NSPreferenceAgent, DeleteFromSectionAndKey
 so.topic: reference
 ---
 

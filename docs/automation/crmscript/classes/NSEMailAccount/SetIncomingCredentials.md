@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAccount_SetIncomingCredentials
-description: NSEMailAccount.SetIncomingCredentials(ServiceAuth incomingCredentials)
+uid: crmscript_ref_NSEMailAccount_SetIncomingCredentials
+title: SetIncomingCredentials(ServiceAuth incomingCredentials)
 intellisense: NSEMailAccount.SetIncomingCredentials
 keywords: NSEMailAccount, GetIncomingCredentials
 so.topic: reference

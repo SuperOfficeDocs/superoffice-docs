@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_GetCrmFieldKey
-description: String NSErpSyncFieldMapping.GetCrmFieldKey()
+uid: crmscript_ref_NSErpSyncFieldMapping_GetCrmFieldKey
+title: String GetCrmFieldKey()
 intellisense: NSErpSyncFieldMapping.GetCrmFieldKey
 keywords: NSErpSyncFieldMapping, GetCrmFieldKey
 so.topic: reference

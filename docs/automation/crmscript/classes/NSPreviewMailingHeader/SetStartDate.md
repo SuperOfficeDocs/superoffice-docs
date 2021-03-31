@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_SetStartDate
-description: NSPreviewMailingHeader.SetStartDate(DateTime startDate)
+uid: crmscript_ref_NSPreviewMailingHeader_SetStartDate
+title: SetStartDate(DateTime startDate)
 intellisense: NSPreviewMailingHeader.SetStartDate
 keywords: NSPreviewMailingHeader, GetStartDate
 so.topic: reference

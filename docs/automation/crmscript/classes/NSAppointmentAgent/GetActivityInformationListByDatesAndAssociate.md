@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetActivityInformationListByDatesAndAssociate
-description: ActivityInformationListItemArray GetActivityInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
+uid: crmscript_ref_NSAppointmentAgent_GetActivityInformationListByDatesAndAssociate
+title: ActivityInformationListItemArray GetActivityInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
 intellisense: NSAppointmentAgent.GetActivityInformationListByDatesAndAssociate
-keywords: NSAppointmentAgent,GetActivityInformationListByDatesAndAssociate
+keywords: NSAppointmentAgent, GetActivityInformationListByDatesAndAssociate
 so.topic: reference
 ---
 

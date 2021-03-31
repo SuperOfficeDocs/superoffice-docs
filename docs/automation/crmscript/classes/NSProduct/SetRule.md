@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetRule
-description: NSProduct.SetRule(String rule)
+uid: crmscript_ref_NSProduct_SetRule
+title: SetRule(String rule)
 intellisense: NSProduct.SetRule
 keywords: NSProduct, GetRule
 so.topic: reference

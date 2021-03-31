@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSentryAgent
-description: NSSentryAgent
+uid: crmscript_ref_NSSentryAgent
+title: NSSentryAgent
 intellisense: Void.NSSentryAgent
 keywords: NSSentryAgent
 so.topic: reference

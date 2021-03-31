@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_SetSearchTitle
-description: NSTicketMessageEntity.SetSearchTitle(String searchTitle)
+uid: crmscript_ref_NSTicketMessageEntity_SetSearchTitle
+title: SetSearchTitle(String searchTitle)
 intellisense: NSTicketMessageEntity.SetSearchTitle
 keywords: NSTicketMessageEntity, GetSearchTitle
 so.topic: reference

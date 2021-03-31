@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetDataRight
-description: String GetDataRight(Integer roleId, String tableName, Integer relationToOwner)
+uid: crmscript_ref_NSUserAgent_GetDataRight
+title: String GetDataRight(Integer roleId, String tableName, Integer relationToOwner)
 intellisense: NSUserAgent.GetDataRight
-keywords: NSUserAgent,GetDataRight
+keywords: NSUserAgent, GetDataRight
 so.topic: reference
 ---
 

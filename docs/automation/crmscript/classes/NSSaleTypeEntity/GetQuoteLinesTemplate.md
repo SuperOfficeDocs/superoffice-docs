@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetQuoteLinesTemplate
-description: Integer NSSaleTypeEntity.GetQuoteLinesTemplate()
+uid: crmscript_ref_NSSaleTypeEntity_GetQuoteLinesTemplate
+title: Integer GetQuoteLinesTemplate()
 intellisense: NSSaleTypeEntity.GetQuoteLinesTemplate
 keywords: NSSaleTypeEntity, GetQuoteLinesTemplate
 so.topic: reference

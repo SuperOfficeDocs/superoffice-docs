@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetIsAssociate
-description: NSPersonEntity.SetIsAssociate(Bool isAssociate)
+uid: crmscript_ref_NSPersonEntity_SetIsAssociate
+title: SetIsAssociate(Bool isAssociate)
 intellisense: NSPersonEntity.SetIsAssociate
 keywords: NSPersonEntity, GetIsAssociate
 so.topic: reference

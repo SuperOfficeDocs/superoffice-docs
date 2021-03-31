@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_GetURLName
-description: String NSProject.GetURLName()
+uid: crmscript_ref_NSProject_GetURLName
+title: String GetURLName()
 intellisense: NSProject.GetURLName
 keywords: NSProject, GetURLName
 so.topic: reference

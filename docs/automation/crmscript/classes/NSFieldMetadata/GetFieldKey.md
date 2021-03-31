@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_GetFieldKey
-description: String NSFieldMetadata.GetFieldKey()
+uid: crmscript_ref_NSFieldMetadata_GetFieldKey
+title: String GetFieldKey()
 intellisense: NSFieldMetadata.GetFieldKey
 keywords: NSFieldMetadata, GetFieldKey
 so.topic: reference

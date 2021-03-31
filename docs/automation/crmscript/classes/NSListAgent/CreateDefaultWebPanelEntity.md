@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultWebPanelEntity
-description: NSWebPanelEntity CreateDefaultWebPanelEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultWebPanelEntity
+title: NSWebPanelEntity CreateDefaultWebPanelEntity()
 intellisense: NSListAgent.CreateDefaultWebPanelEntity
-keywords: NSListAgent,CreateDefaultWebPanelEntity
+keywords: NSListAgent, CreateDefaultWebPanelEntity
 so.topic: reference
 ---
 	  

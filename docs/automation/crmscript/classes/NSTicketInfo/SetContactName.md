@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketInfo_SetContactName
-description: NSTicketInfo.SetContactName(String contactName)
+uid: crmscript_ref_NSTicketInfo_SetContactName
+title: SetContactName(String contactName)
 intellisense: NSTicketInfo.SetContactName
 keywords: NSTicketInfo, GetContactName
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFindAgent_Find
-description: FindResults Find(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber)
+uid: crmscript_ref_NSFindAgent_Find
+title: FindResults Find(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber)
 intellisense: NSFindAgent.Find
-keywords: NSFindAgent,Find
+keywords: NSFindAgent, Find
 so.topic: reference
 ---
 

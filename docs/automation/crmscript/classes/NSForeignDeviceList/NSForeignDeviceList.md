@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDeviceList
-description: NSForeignDeviceList
+uid: crmscript_ref_NSForeignDeviceList
+title: NSForeignDeviceList
 intellisense: Void.NSForeignDeviceList
 keywords: NSForeignDeviceList
 so.topic: reference

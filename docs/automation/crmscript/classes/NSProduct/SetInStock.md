@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetInStock
-description: NSProduct.SetInStock(Float inStock)
+uid: crmscript_ref_NSProduct_SetInStock
+title: SetInStock(Float inStock)
 intellisense: NSProduct.SetInStock
 keywords: NSProduct, GetInStock
 so.topic: reference

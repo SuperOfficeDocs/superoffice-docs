@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneRule_SetTZOffset
-description: NSTimeZoneRule.SetTZOffset(Integer tZOffset)
+uid: crmscript_ref_NSTimeZoneRule_SetTZOffset
+title: SetTZOffset(Integer tZOffset)
 intellisense: NSTimeZoneRule.SetTZOffset
 keywords: NSTimeZoneRule, GetTZOffset
 so.topic: reference

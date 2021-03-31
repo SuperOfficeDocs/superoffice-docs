@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_DeleteDashboard
-description: DeleteDashboard(Integer dashboard);
+uid: crmscript_ref_NSDashboardAgent_DeleteDashboard
+title: DeleteDashboard(Integer dashboard);
 intellisense: NSDashboardAgent.DeleteDashboard
-keywords: NSDashboardAgent,DeleteDashboard
+keywords: NSDashboardAgent, DeleteDashboard
 so.topic: reference
 ---
 

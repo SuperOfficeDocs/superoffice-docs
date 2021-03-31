@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetCredited
-description: Credited NSSaleEntity.GetCredited()
+uid: crmscript_ref_NSSaleEntity_GetCredited
+title: Credited GetCredited()
 intellisense: NSSaleEntity.GetCredited
 keywords: NSSaleEntity, GetCredited
 so.topic: reference

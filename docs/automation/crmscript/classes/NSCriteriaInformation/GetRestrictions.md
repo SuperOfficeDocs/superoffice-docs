@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCriteriaInformation_GetRestrictions
-description: ArchiveRestrictionInfoArray NSCriteriaInformation.GetRestrictions()
+uid: crmscript_ref_NSCriteriaInformation_GetRestrictions
+title: ArchiveRestrictionInfoArray GetRestrictions()
 intellisense: NSCriteriaInformation.GetRestrictions
 keywords: NSCriteriaInformation, GetRestrictions
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetQuoteLineImage
-description: Image GetQuoteLineImage(Integer quoteLineId, Integer rank)
+uid: crmscript_ref_NSQuoteAgent_GetQuoteLineImage
+title: Image GetQuoteLineImage(Integer quoteLineId, Integer rank)
 intellisense: NSQuoteAgent.GetQuoteLineImage
-keywords: NSQuoteAgent,GetQuoteLineImage
+keywords: NSQuoteAgent, GetQuoteLineImage
 so.topic: reference
 ---
 

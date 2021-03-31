@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_SetHeight
-description: NSWindowPosSize.SetHeight(Integer height)
+uid: crmscript_ref_NSWindowPosSize_SetHeight
+title: SetHeight(Integer height)
 intellisense: NSWindowPosSize.SetHeight
 keywords: NSWindowPosSize, GetHeight
 so.topic: reference

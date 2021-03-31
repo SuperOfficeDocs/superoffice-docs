@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceConfigParameter_GetUpdatedDate
-description: DateTime NSAudienceConfigParameter.GetUpdatedDate()
+uid: crmscript_ref_NSAudienceConfigParameter_GetUpdatedDate
+title: DateTime GetUpdatedDate()
 intellisense: NSAudienceConfigParameter.GetUpdatedDate
 keywords: NSAudienceConfigParameter, GetUpdatedDate
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetNickName
-description: NSUser.SetNickName(String nickName)
+uid: crmscript_ref_NSUser_SetNickName
+title: SetNickName(String nickName)
 intellisense: NSUser.SetNickName
 keywords: NSUser, GetNickName
 so.topic: reference

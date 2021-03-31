@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetInterests
-description: SelectableMDOListItemArray NSContactEntity.GetInterests()
+uid: crmscript_ref_NSContactEntity_GetInterests
+title: SelectableMDOListItemArray GetInterests()
 intellisense: NSContactEntity.GetInterests
 keywords: NSContactEntity, GetInterests
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_SetAssociate
-description: NSProjectEntity.SetAssociate(Associate associate)
+uid: crmscript_ref_NSProjectEntity_SetAssociate
+title: SetAssociate(Associate associate)
 intellisense: NSProjectEntity.SetAssociate
 keywords: NSProjectEntity, GetAssociate
 so.topic: reference

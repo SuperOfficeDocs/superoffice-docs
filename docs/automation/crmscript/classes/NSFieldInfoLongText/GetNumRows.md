@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoLongText_GetNumRows
-description: Integer NSFieldInfoLongText.GetNumRows()
+uid: crmscript_ref_NSFieldInfoLongText_GetNumRows
+title: Integer GetNumRows()
 intellisense: NSFieldInfoLongText.GetNumRows
 keywords: NSFieldInfoLongText, GetNumRows
 so.topic: reference

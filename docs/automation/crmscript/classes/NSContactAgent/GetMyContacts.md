@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetMyContacts
-description: ContactArray GetMyContacts()
+uid: crmscript_ref_NSContactAgent_GetMyContacts
+title: ContactArray GetMyContacts()
 intellisense: NSContactAgent.GetMyContacts
-keywords: NSContactAgent,GetMyContacts
+keywords: NSContactAgent, GetMyContacts
 so.topic: reference
 ---
 

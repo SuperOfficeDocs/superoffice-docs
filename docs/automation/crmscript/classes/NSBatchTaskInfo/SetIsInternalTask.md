@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetIsInternalTask
-description: NSBatchTaskInfo.SetIsInternalTask(Bool isInternalTask)
+uid: crmscript_ref_NSBatchTaskInfo_SetIsInternalTask
+title: SetIsInternalTask(Bool isInternalTask)
 intellisense: NSBatchTaskInfo.SetIsInternalTask
 keywords: NSBatchTaskInfo, GetIsInternalTask
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetMotherId
-description: Integer NSAppointment.GetMotherId()
+uid: crmscript_ref_NSAppointment_GetMotherId
+title: Integer GetMotherId()
 intellisense: NSAppointment.GetMotherId
 keywords: NSAppointment, GetMotherId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetProject
-description: Project NSAppointmentEntity.GetProject()
+uid: crmscript_ref_NSAppointmentEntity_GetProject
+title: Project GetProject()
 intellisense: NSAppointmentEntity.GetProject
 keywords: NSAppointmentEntity, GetProject
 so.topic: reference

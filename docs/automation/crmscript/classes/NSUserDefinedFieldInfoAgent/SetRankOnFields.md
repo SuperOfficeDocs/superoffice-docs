@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_SetRankOnFields
-description: Void SetRankOnFields(Integer ownerType, IntegerArray rankedFieldsIds)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SetRankOnFields
+title: Void SetRankOnFields(Integer ownerType, IntegerArray rankedFieldsIds)
 intellisense: NSUserDefinedFieldInfoAgent.SetRankOnFields
-keywords: NSUserDefinedFieldInfoAgent,SetRankOnFields
+keywords: NSUserDefinedFieldInfoAgent, SetRankOnFields
 so.topic: reference
 ---
 

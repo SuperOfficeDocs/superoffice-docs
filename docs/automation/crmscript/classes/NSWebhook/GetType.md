@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetType
-description: String NSWebhook.GetType()
+uid: crmscript_ref_NSWebhook_GetType
+title: String GetType()
 intellisense: NSWebhook.GetType
 keywords: NSWebhook, GetType
 so.topic: reference

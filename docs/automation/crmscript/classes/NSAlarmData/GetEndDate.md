@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetEndDate
-description: DateTime NSAlarmData.GetEndDate()
+uid: crmscript_ref_NSAlarmData_GetEndDate
+title: DateTime GetEndDate()
 intellisense: NSAlarmData.GetEndDate
 keywords: NSAlarmData, GetEndDate
 so.topic: reference

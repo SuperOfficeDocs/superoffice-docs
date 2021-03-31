@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_UpdateNetServicesStatus
-description: Void UpdateNetServicesStatus(String xmlOrJson)
+uid: crmscript_ref_NSPreferenceAgent_UpdateNetServicesStatus
+title: Void UpdateNetServicesStatus(String xmlOrJson)
 intellisense: NSPreferenceAgent.UpdateNetServicesStatus
-keywords: NSPreferenceAgent,UpdateNetServicesStatus
+keywords: NSPreferenceAgent, UpdateNetServicesStatus
 so.topic: reference
 ---
 

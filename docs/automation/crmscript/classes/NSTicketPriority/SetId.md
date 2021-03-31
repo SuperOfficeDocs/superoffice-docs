@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSTicketPriority_SetId
-description: NSTicketPriority.SetId(Integer id)
+uid: crmscript_ref_NSTicketPriority_SetId
+title: SetId(Integer id)
 intellisense: NSTicketPriority.SetId
 keywords: NSTicketPriority, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the TicketPriority
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer TicketPriority id.
 

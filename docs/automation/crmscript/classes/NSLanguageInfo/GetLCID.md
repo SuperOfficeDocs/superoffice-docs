@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLanguageInfo_GetLCID
-description: Integer NSLanguageInfo.GetLCID()
+uid: crmscript_ref_NSLanguageInfo_GetLCID
+title: Integer GetLCID()
 intellisense: NSLanguageInfo.GetLCID
 keywords: NSLanguageInfo, GetLCID
 so.topic: reference

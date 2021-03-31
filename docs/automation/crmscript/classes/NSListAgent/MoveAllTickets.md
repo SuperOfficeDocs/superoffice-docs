@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_MoveAllTickets
-description: Void MoveAllTickets(Integer fromTicketCategoryId, Integer toTicketCategoryId)
+uid: crmscript_ref_NSListAgent_MoveAllTickets
+title: Void MoveAllTickets(Integer fromTicketCategoryId, Integer toTicketCategoryId)
 intellisense: NSListAgent.MoveAllTickets
-keywords: NSListAgent,MoveAllTickets
+keywords: NSListAgent, MoveAllTickets
 so.topic: reference
 ---
 

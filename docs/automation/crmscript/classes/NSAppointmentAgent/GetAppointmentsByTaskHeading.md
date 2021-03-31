@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetAppointmentsByTaskHeading
-description: AppointmentArray GetAppointmentsByTaskHeading(Integer taskHeadingId)
+uid: crmscript_ref_NSAppointmentAgent_GetAppointmentsByTaskHeading
+title: AppointmentArray GetAppointmentsByTaskHeading(Integer taskHeadingId)
 intellisense: NSAppointmentAgent.GetAppointmentsByTaskHeading
-keywords: NSAppointmentAgent,GetAppointmentsByTaskHeading
+keywords: NSAppointmentAgent, GetAppointmentsByTaskHeading
 so.topic: reference
 ---
 

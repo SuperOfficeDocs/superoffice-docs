@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity_GetEnabled
-description: Bool NSTriggerScriptEntity.GetEnabled()
+uid: crmscript_ref_NSTriggerScriptEntity_GetEnabled
+title: Bool GetEnabled()
 intellisense: NSTriggerScriptEntity.GetEnabled
 keywords: NSTriggerScriptEntity, GetEnabled
 so.topic: reference

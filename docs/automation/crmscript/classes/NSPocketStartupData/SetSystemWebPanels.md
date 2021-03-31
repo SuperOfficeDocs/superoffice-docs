@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketStartupData_SetSystemWebPanels
-description: NSPocketStartupData.SetSystemWebPanels(WebPanelEntityArray systemWebPanels)
+uid: crmscript_ref_NSPocketStartupData_SetSystemWebPanels
+title: SetSystemWebPanels(WebPanelEntityArray systemWebPanels)
 intellisense: NSPocketStartupData.SetSystemWebPanels
 keywords: NSPocketStartupData, GetSystemWebPanels
 so.topic: reference

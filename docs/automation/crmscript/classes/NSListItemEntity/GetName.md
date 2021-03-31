@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListItemEntity_GetName
-description: String NSListItemEntity.GetName()
+uid: crmscript_ref_NSListItemEntity_GetName
+title: String GetName()
 intellisense: NSListItemEntity.GetName
 keywords: NSListItemEntity, GetName
 so.topic: reference

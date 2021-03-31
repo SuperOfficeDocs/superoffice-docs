@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHierarchyEntity_SetUpdated
-description: NSHierarchyEntity.SetUpdated(DateTime updated)
+uid: crmscript_ref_NSHierarchyEntity_SetUpdated
+title: SetUpdated(DateTime updated)
 intellisense: NSHierarchyEntity.SetUpdated
 keywords: NSHierarchyEntity, GetUpdated
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetPositions
-description: PositionArray GetPositions()
+uid: crmscript_ref_NSListAgent_GetPositions
+title: PositionArray GetPositions()
 intellisense: NSListAgent.GetPositions
-keywords: NSListAgent,GetPositions
+keywords: NSListAgent, GetPositions
 so.topic: reference
 ---
 

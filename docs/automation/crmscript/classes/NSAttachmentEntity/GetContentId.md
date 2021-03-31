@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAttachmentEntity_GetContentId
-description: String NSAttachmentEntity.GetContentId()
+uid: crmscript_ref_NSAttachmentEntity_GetContentId
+title: String GetContentId()
 intellisense: NSAttachmentEntity.GetContentId
 keywords: NSAttachmentEntity, GetContentId
 so.topic: reference

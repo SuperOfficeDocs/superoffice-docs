@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_GetFormSubmissionEntity
-description: NSFormSubmissionEntity GetFormSubmissionEntity(Integer formSubmissionEntityId);
+uid: crmscript_ref_NSMarketingAgent_GetFormSubmissionEntity
+title: NSFormSubmissionEntity GetFormSubmissionEntity(Integer formSubmissionEntityId);
 intellisense: NSMarketingAgent.GetFormSubmissionEntity
-keywords: NSMarketingAgent,GetFormSubmissionEntity
+keywords: NSMarketingAgent, GetFormSubmissionEntity
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEMailFromDocumentId
-description: EMailEntity GetEMailFromDocumentId(Integer documentId)
+uid: crmscript_ref_NSEMailAgent_GetEMailFromDocumentId
+title: EMailEntity GetEMailFromDocumentId(Integer documentId)
 intellisense: NSEMailAgent.GetEMailFromDocumentId
-keywords: NSEMailAgent,GetEMailFromDocumentId
+keywords: NSEMailAgent, GetEMailFromDocumentId
 so.topic: reference
 ---
 

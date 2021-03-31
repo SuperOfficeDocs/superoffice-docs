@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVersionInfo_SetExternalReference
-description: NSVersionInfo.SetExternalReference(String externalReference)
+uid: crmscript_ref_NSVersionInfo_SetExternalReference
+title: SetExternalReference(String externalReference)
 intellisense: NSVersionInfo.SetExternalReference
 keywords: NSVersionInfo, GetExternalReference
 so.topic: reference

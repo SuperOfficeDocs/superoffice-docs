@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_SetMrmrs
-description: NSSaleStakeholder.SetMrmrs(String mrmrs)
+uid: crmscript_ref_NSSaleStakeholder_SetMrmrs
+title: SetMrmrs(String mrmrs)
 intellisense: NSSaleStakeholder.SetMrmrs
 keywords: NSSaleStakeholder, GetMrmrs
 so.topic: reference

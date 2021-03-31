@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_GetProviderNames
-description: StringArray GetProviderNames()
+uid: crmscript_ref_NSArchiveAgent_GetProviderNames
+title: StringArray GetProviderNames()
 intellisense: NSArchiveAgent.GetProviderNames
-keywords: NSArchiveAgent,GetProviderNames
+keywords: NSArchiveAgent, GetProviderNames
 so.topic: reference
 ---
 

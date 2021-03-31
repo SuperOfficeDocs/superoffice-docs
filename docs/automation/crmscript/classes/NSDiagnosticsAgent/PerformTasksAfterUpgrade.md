@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_PerformTasksAfterUpgrade
-description: String PerformTasksAfterUpgrade()
+uid: crmscript_ref_NSDiagnosticsAgent_PerformTasksAfterUpgrade
+title: String PerformTasksAfterUpgrade()
 intellisense: NSDiagnosticsAgent.PerformTasksAfterUpgrade
-keywords: NSDiagnosticsAgent,PerformTasksAfterUpgrade
+keywords: NSDiagnosticsAgent, PerformTasksAfterUpgrade
 so.topic: reference
 ---
 

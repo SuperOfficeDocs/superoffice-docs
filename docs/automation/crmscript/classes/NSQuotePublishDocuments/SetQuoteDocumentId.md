@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_SetQuoteDocumentId
-description: NSQuotePublishDocuments.SetQuoteDocumentId(Integer quoteDocumentId)
+uid: crmscript_ref_NSQuotePublishDocuments_SetQuoteDocumentId
+title: SetQuoteDocumentId(Integer quoteDocumentId)
 intellisense: NSQuotePublishDocuments.SetQuoteDocumentId
 keywords: NSQuotePublishDocuments, GetQuoteDocumentId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUpsertRowStatus
-description: NSUpsertRowStatus
+uid: crmscript_ref_NSUpsertRowStatus
+title: NSUpsertRowStatus
 intellisense: Void.NSUpsertRowStatus
 keywords: NSUpsertRowStatus
 so.topic: reference

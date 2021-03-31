@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceLayoutEntity_GetAudienceLayoutId
-description: Integer NSAudienceLayoutEntity.GetAudienceLayoutId()
+uid: crmscript_ref_NSAudienceLayoutEntity_GetAudienceLayoutId
+title: Integer GetAudienceLayoutId()
 intellisense: NSAudienceLayoutEntity.GetAudienceLayoutId
 keywords: NSAudienceLayoutEntity, GetAudienceLayoutId
 so.topic: reference

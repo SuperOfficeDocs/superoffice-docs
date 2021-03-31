@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetShowAgentPhoto
-description: NSChatWidgetSettings.SetShowAgentPhoto(Bool showAgentPhoto)
+uid: crmscript_ref_NSChatWidgetSettings_SetShowAgentPhoto
+title: SetShowAgentPhoto(Bool showAgentPhoto)
 intellisense: NSChatWidgetSettings.SetShowAgentPhoto
 keywords: NSChatWidgetSettings, GetShowAgentPhoto
 so.topic: reference

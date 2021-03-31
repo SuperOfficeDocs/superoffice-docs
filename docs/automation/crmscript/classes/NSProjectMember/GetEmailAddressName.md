@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_GetEmailAddressName
-description: String NSProjectMember.GetEmailAddressName()
+uid: crmscript_ref_NSProjectMember_GetEmailAddressName
+title: String GetEmailAddressName()
 intellisense: NSProjectMember.GetEmailAddressName
 keywords: NSProjectMember, GetEmailAddressName
 so.topic: reference

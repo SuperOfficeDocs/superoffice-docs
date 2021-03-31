@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetTotalPrice
-description: NSQuoteLine.SetTotalPrice(Float totalPrice)
+uid: crmscript_ref_NSQuoteLine_SetTotalPrice
+title: SetTotalPrice(Float totalPrice)
 intellisense: NSQuoteLine.SetTotalPrice
 keywords: NSQuoteLine, GetTotalPrice
 so.topic: reference

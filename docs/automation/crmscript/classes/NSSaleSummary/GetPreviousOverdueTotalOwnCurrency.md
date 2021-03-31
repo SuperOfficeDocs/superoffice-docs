@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_GetPreviousOverdueTotalOwnCurrency
-description: Float NSSaleSummary.GetPreviousOverdueTotalOwnCurrency()
+uid: crmscript_ref_NSSaleSummary_GetPreviousOverdueTotalOwnCurrency
+title: Float GetPreviousOverdueTotalOwnCurrency()
 intellisense: NSSaleSummary.GetPreviousOverdueTotalOwnCurrency
 keywords: NSSaleSummary, GetPreviousOverdueTotalOwnCurrency
 so.topic: reference

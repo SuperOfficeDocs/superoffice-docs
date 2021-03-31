@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetERPDeliveryTypeKey
-description: NSQuoteVersion.SetERPDeliveryTypeKey(String eRPDeliveryTypeKey)
+uid: crmscript_ref_NSQuoteVersion_SetERPDeliveryTypeKey
+title: SetERPDeliveryTypeKey(String eRPDeliveryTypeKey)
 intellisense: NSQuoteVersion.SetERPDeliveryTypeKey
 keywords: NSQuoteVersion, GetERPDeliveryTypeKey
 so.topic: reference

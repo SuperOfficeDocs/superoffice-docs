@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageBlockEntity_SetUpdatedCount
-description: NSShipmentMessageBlockEntity.SetUpdatedCount(Integer updatedCount)
+uid: crmscript_ref_NSShipmentMessageBlockEntity_SetUpdatedCount
+title: SetUpdatedCount(Integer updatedCount)
 intellisense: NSShipmentMessageBlockEntity.SetUpdatedCount
 keywords: NSShipmentMessageBlockEntity, GetUpdatedCount
 so.topic: reference

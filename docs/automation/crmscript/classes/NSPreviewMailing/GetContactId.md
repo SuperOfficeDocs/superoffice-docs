@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_GetContactId
-description: Integer NSPreviewMailing.GetContactId()
+uid: crmscript_ref_NSPreviewMailing_GetContactId
+title: Integer GetContactId()
 intellisense: NSPreviewMailing.GetContactId
 keywords: NSPreviewMailing, GetContactId
 so.topic: reference

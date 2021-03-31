@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetRole
-description: NSUser.SetRole(Role role)
+uid: crmscript_ref_NSUser_SetRole
+title: SetRole(Role role)
 intellisense: NSUser.SetRole
 keywords: NSUser, GetRole
 so.topic: reference

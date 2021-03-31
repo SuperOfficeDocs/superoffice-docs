@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_GetFormEntity
-description: NSFormEntity GetFormEntity(Integer formEntityId);
+uid: crmscript_ref_NSMarketingAgent_GetFormEntity
+title: NSFormEntity GetFormEntity(Integer formEntityId);
 intellisense: NSMarketingAgent.GetFormEntity
-keywords: NSMarketingAgent,GetFormEntity
+keywords: NSMarketingAgent, GetFormEntity
 so.topic: reference
 ---
 

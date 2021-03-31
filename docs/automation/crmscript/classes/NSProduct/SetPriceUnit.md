@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetPriceUnit
-description: NSProduct.SetPriceUnit(String priceUnit)
+uid: crmscript_ref_NSProduct_SetPriceUnit
+title: SetPriceUnit(String priceUnit)
 intellisense: NSProduct.SetPriceUnit
 keywords: NSProduct, GetPriceUnit
 so.topic: reference

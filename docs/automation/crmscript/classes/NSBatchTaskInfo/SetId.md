@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_SetId
-description: NSBatchTaskInfo.SetId(Integer id)
+uid: crmscript_ref_NSBatchTaskInfo_SetId
+title: SetId(Integer id)
 intellisense: NSBatchTaskInfo.SetId
 keywords: NSBatchTaskInfo, GetId
 so.topic: reference

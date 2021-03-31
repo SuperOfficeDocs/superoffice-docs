@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetChangedOwner
-description: TicketPriorityEscalateEvent NSTicketPriorityEntity.GetChangedOwner()
+uid: crmscript_ref_NSTicketPriorityEntity_GetChangedOwner
+title: TicketPriorityEscalateEvent GetChangedOwner()
 intellisense: NSTicketPriorityEntity.GetChangedOwner
 keywords: NSTicketPriorityEntity, GetChangedOwner
 so.topic: reference

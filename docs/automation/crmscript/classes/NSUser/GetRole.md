@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetRole
-description: Role NSUser.GetRole()
+uid: crmscript_ref_NSUser_GetRole
+title: Role GetRole()
 intellisense: NSUser.GetRole
 keywords: NSUser, GetRole
 so.topic: reference

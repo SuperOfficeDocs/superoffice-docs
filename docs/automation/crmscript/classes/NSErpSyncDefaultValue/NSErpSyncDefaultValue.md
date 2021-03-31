@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue
-description: NSErpSyncDefaultValue
+uid: crmscript_ref_NSErpSyncDefaultValue
+title: NSErpSyncDefaultValue
 intellisense: Void.NSErpSyncDefaultValue
 keywords: NSErpSyncDefaultValue
 so.topic: reference

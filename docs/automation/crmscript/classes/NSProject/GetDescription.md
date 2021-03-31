@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_GetDescription
-description: String NSProject.GetDescription()
+uid: crmscript_ref_NSProject_GetDescription
+title: String GetDescription()
 intellisense: NSProject.GetDescription
 keywords: NSProject, GetDescription
 so.topic: reference

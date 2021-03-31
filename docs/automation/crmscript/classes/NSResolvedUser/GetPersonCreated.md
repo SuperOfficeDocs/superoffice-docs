@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResolvedUser_GetPersonCreated
-description: Bool NSResolvedUser.GetPersonCreated()
+uid: crmscript_ref_NSResolvedUser_GetPersonCreated
+title: Bool GetPersonCreated()
 intellisense: NSResolvedUser.GetPersonCreated
 keywords: NSResolvedUser, GetPersonCreated
 so.topic: reference

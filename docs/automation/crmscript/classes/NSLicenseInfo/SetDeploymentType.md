@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_SetDeploymentType
-description: NSLicenseInfo.SetDeploymentType(Integer deploymentType)
+uid: crmscript_ref_NSLicenseInfo_SetDeploymentType
+title: SetDeploymentType(Integer deploymentType)
 intellisense: NSLicenseInfo.SetDeploymentType
 keywords: NSLicenseInfo, GetDeploymentType
 so.topic: reference

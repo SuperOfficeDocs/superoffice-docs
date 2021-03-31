@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_CreateDefaultStatusMonitor
-description: NSStatusMonitor CreateDefaultStatusMonitor()
+uid: crmscript_ref_NSSaintAgent_CreateDefaultStatusMonitor
+title: NSStatusMonitor CreateDefaultStatusMonitor()
 intellisense: NSSaintAgent.CreateDefaultStatusMonitor
-keywords: NSSaintAgent,CreateDefaultStatusMonitor
+keywords: NSSaintAgent, CreateDefaultStatusMonitor
 so.topic: reference
 ---
 	  

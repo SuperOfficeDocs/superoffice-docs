@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_GetSpecification
-description: PreferenceSpec NSPreference.GetSpecification()
+uid: crmscript_ref_NSPreference_GetSpecification
+title: PreferenceSpec GetSpecification()
 intellisense: NSPreference.GetSpecification
 keywords: NSPreference, GetSpecification
 so.topic: reference

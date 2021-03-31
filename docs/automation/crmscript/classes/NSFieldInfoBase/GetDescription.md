@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_GetDescription
-description: String NSFieldInfoBase.GetDescription()
+uid: crmscript_ref_NSFieldInfoBase_GetDescription
+title: String GetDescription()
 intellisense: NSFieldInfoBase.GetDescription
 keywords: NSFieldInfoBase, GetDescription
 so.topic: reference

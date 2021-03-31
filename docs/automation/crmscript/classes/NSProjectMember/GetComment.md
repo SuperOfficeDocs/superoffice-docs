@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_GetComment
-description: String NSProjectMember.GetComment()
+uid: crmscript_ref_NSProjectMember_GetComment
+title: String GetComment()
 intellisense: NSProjectMember.GetComment
 keywords: NSProjectMember, GetComment
 so.topic: reference

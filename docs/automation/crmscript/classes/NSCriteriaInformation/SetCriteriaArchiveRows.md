@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCriteriaInformation_SetCriteriaArchiveRows
-description: NSCriteriaInformation.SetCriteriaArchiveRows(ArchiveListItemArray criteriaArchiveRows)
+uid: crmscript_ref_NSCriteriaInformation_SetCriteriaArchiveRows
+title: SetCriteriaArchiveRows(ArchiveListItemArray criteriaArchiveRows)
 intellisense: NSCriteriaInformation.SetCriteriaArchiveRows
 keywords: NSCriteriaInformation, GetCriteriaArchiveRows
 so.topic: reference

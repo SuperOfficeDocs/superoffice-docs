@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetExtraInfo
-description: ProductExtraDataFieldArray GetExtraInfo(String quoteLineExtraData)
+uid: crmscript_ref_NSQuoteAgent_GetExtraInfo
+title: ProductExtraDataFieldArray GetExtraInfo(String quoteLineExtraData)
 intellisense: NSQuoteAgent.GetExtraInfo
-keywords: NSQuoteAgent,GetExtraInfo
+keywords: NSQuoteAgent, GetExtraInfo
 so.topic: reference
 ---
 

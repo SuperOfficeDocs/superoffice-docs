@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_SetPreviousOverdueWeightedOwnCurrency
-description: NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency(Float previousOverdueWeightedOwnCurrency)
+uid: crmscript_ref_NSSaleSummary_SetPreviousOverdueWeightedOwnCurrency
+title: SetPreviousOverdueWeightedOwnCurrency(Float previousOverdueWeightedOwnCurrency)
 intellisense: NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency
 keywords: NSSaleSummary, GetPreviousOverdueWeightedOwnCurrency
 so.topic: reference

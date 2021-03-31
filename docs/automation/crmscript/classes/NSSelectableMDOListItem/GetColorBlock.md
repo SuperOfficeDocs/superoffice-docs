@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_GetColorBlock
-description: Integer NSSelectableMDOListItem.GetColorBlock()
+uid: crmscript_ref_NSSelectableMDOListItem_GetColorBlock
+title: Integer GetColorBlock()
 intellisense: NSSelectableMDOListItem.GetColorBlock
 keywords: NSSelectableMDOListItem, GetColorBlock
 so.topic: reference

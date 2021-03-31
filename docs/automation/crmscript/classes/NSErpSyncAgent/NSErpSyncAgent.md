@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent
-description: NSErpSyncAgent
+uid: crmscript_ref_NSErpSyncAgent
+title: NSErpSyncAgent
 intellisense: Void.NSErpSyncAgent
 keywords: NSErpSyncAgent
 so.topic: reference

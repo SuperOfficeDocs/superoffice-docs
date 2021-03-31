@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SetDocumentTemplateStream
-description: DocumentTemplateEntity SetDocumentTemplateStream(DocumentTemplateEntity documentTemplateEntity, Stream stream, String languageCode, Integer pluginId)
+uid: crmscript_ref_NSListAgent_SetDocumentTemplateStream
+title: DocumentTemplateEntity SetDocumentTemplateStream(DocumentTemplateEntity documentTemplateEntity, Stream stream, String languageCode, Integer pluginId)
 intellisense: NSListAgent.SetDocumentTemplateStream
-keywords: NSListAgent,SetDocumentTemplateStream
+keywords: NSListAgent, SetDocumentTemplateStream
 so.topic: reference
 ---
 

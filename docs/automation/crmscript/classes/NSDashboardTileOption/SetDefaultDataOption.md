@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption_SetDefaultDataOption
-description: NSDashboardTileOption.SetDefaultDataOption(Bool defaultDataOption)
+uid: crmscript_ref_NSDashboardTileOption_SetDefaultDataOption
+title: SetDefaultDataOption(Bool defaultDataOption)
 intellisense: NSDashboardTileOption.SetDefaultDataOption
 keywords: NSDashboardTileOption, GetDefaultDataOption
 so.topic: reference

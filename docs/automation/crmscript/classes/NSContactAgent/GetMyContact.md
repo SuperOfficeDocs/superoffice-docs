@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetMyContact
-description: ContactEntity GetMyContact()
+uid: crmscript_ref_NSContactAgent_GetMyContact
+title: ContactEntity GetMyContact()
 intellisense: NSContactAgent.GetMyContact
-keywords: NSContactAgent,GetMyContact
+keywords: NSContactAgent, GetMyContact
 so.topic: reference
 ---
 

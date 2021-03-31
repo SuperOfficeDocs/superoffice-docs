@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_SetColorIndex
-description: NSTaskListItem.SetColorIndex(Integer colorIndex)
+uid: crmscript_ref_NSTaskListItem_SetColorIndex
+title: SetColorIndex(Integer colorIndex)
 intellisense: NSTaskListItem.SetColorIndex
 keywords: NSTaskListItem, GetColorIndex
 so.topic: reference

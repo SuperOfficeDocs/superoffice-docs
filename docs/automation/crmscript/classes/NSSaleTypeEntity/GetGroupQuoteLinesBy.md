@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetGroupQuoteLinesBy
-description: Integer NSSaleTypeEntity.GetGroupQuoteLinesBy()
+uid: crmscript_ref_NSSaleTypeEntity_GetGroupQuoteLinesBy
+title: Integer GetGroupQuoteLinesBy()
 intellisense: NSSaleTypeEntity.GetGroupQuoteLinesBy
 keywords: NSSaleTypeEntity, GetGroupQuoteLinesBy
 so.topic: reference

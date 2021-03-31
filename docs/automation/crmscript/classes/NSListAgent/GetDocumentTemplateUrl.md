@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDocumentTemplateUrl
-description: String GetDocumentTemplateUrl(Integer documentTemplateId, Bool writableUrl, String languageCode)
+uid: crmscript_ref_NSListAgent_GetDocumentTemplateUrl
+title: String GetDocumentTemplateUrl(Integer documentTemplateId, Bool writableUrl, String languageCode)
 intellisense: NSListAgent.GetDocumentTemplateUrl
-keywords: NSListAgent,GetDocumentTemplateUrl
+keywords: NSListAgent, GetDocumentTemplateUrl
 so.topic: reference
 ---
 

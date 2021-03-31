@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetProductThumbnail
-description: Image GetProductThumbnail(Integer productId)
+uid: crmscript_ref_NSBLOBAgent_GetProductThumbnail
+title: Image GetProductThumbnail(Integer productId)
 intellisense: NSBLOBAgent.GetProductThumbnail
-keywords: NSBLOBAgent,GetProductThumbnail
+keywords: NSBLOBAgent, GetProductThumbnail
 so.topic: reference
 ---
 

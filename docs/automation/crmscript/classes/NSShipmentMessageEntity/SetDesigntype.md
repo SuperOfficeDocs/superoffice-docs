@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_SetDesigntype
-description: NSShipmentMessageEntity.SetDesigntype(DesignType designtype)
+uid: crmscript_ref_NSShipmentMessageEntity_SetDesigntype
+title: SetDesigntype(DesignType designtype)
 intellisense: NSShipmentMessageEntity.SetDesigntype
 keywords: NSShipmentMessageEntity, GetDesigntype
 so.topic: reference

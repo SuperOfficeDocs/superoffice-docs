@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetDeleted
-description: Bool NSUser.GetDeleted()
+uid: crmscript_ref_NSUser_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSUser.GetDeleted
 keywords: NSUser, GetDeleted
 so.topic: reference

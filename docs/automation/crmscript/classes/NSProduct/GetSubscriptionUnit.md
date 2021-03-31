@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetSubscriptionUnit
-description: String NSProduct.GetSubscriptionUnit()
+uid: crmscript_ref_NSProduct_GetSubscriptionUnit
+title: String GetSubscriptionUnit()
 intellisense: NSProduct.GetSubscriptionUnit
 keywords: NSProduct, GetSubscriptionUnit
 so.topic: reference

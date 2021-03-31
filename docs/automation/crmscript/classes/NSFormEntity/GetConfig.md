@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetConfig
-description: String NSFormEntity.GetConfig()
+uid: crmscript_ref_NSFormEntity_GetConfig
+title: String GetConfig()
 intellisense: NSFormEntity.GetConfig
 keywords: NSFormEntity, GetConfig
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CreateDefaultUserFromUserTypeAndPersonId
-description: User CreateDefaultUserFromUserTypeAndPersonId(Integer userType, Integer personId)
+uid: crmscript_ref_NSUserAgent_CreateDefaultUserFromUserTypeAndPersonId
+title: User CreateDefaultUserFromUserTypeAndPersonId(Integer userType, Integer personId)
 intellisense: NSUserAgent.CreateDefaultUserFromUserTypeAndPersonId
-keywords: NSUserAgent,CreateDefaultUserFromUserTypeAndPersonId
+keywords: NSUserAgent, CreateDefaultUserFromUserTypeAndPersonId
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptEntity_SetRegistered
-description: NSCRMScriptEntity.SetRegistered(DateTime registered)
+uid: crmscript_ref_NSCRMScriptEntity_SetRegistered
+title: SetRegistered(DateTime registered)
 intellisense: NSCRMScriptEntity.SetRegistered
 keywords: NSCRMScriptEntity, GetRegistered
 so.topic: reference

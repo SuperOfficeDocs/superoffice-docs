@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_GetType
-description: String NSSelectableMDOListItem.GetType()
+uid: crmscript_ref_NSSelectableMDOListItem_GetType
+title: String GetType()
 intellisense: NSSelectableMDOListItem.GetType
 keywords: NSSelectableMDOListItem, GetType
 so.topic: reference

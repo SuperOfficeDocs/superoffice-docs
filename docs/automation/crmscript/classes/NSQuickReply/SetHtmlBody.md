@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuickReply_SetHtmlBody
-description: NSQuickReply.SetHtmlBody(String htmlBody)
+uid: crmscript_ref_NSQuickReply_SetHtmlBody
+title: SetHtmlBody(String htmlBody)
 intellisense: NSQuickReply.SetHtmlBody
 keywords: NSQuickReply, GetHtmlBody
 so.topic: reference

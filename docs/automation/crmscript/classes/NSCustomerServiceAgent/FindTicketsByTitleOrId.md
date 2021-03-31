@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_FindTicketsByTitleOrId
-description: TicketInfoArray FindTicketsByTitleOrId(String titleOrId, Integer maxRows)
+uid: crmscript_ref_NSCustomerServiceAgent_FindTicketsByTitleOrId
+title: TicketInfoArray FindTicketsByTitleOrId(String titleOrId, Integer maxRows)
 intellisense: NSCustomerServiceAgent.FindTicketsByTitleOrId
-keywords: NSCustomerServiceAgent,FindTicketsByTitleOrId
+keywords: NSCustomerServiceAgent, FindTicketsByTitleOrId
 so.topic: reference
 ---
 

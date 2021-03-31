@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment_SetAppointment
-description: NSEMailAppointment.SetAppointment(Appointment appointment)
+uid: crmscript_ref_NSEMailAppointment_SetAppointment
+title: SetAppointment(Appointment appointment)
 intellisense: NSEMailAppointment.SetAppointment
 keywords: NSEMailAppointment, GetAppointment
 so.topic: reference

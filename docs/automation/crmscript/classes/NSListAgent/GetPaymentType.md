@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetPaymentType
-description: NSPaymentType GetPaymentType(Integer paymentTypeId);
+uid: crmscript_ref_NSListAgent_GetPaymentType
+title: NSPaymentType GetPaymentType(Integer paymentTypeId);
 intellisense: NSListAgent.GetPaymentType
-keywords: NSListAgent,GetPaymentType
+keywords: NSListAgent, GetPaymentType
 so.topic: reference
 ---
 

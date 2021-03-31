@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity_GetComment
-description: String NSContactRelationEntity.GetComment()
+uid: crmscript_ref_NSContactRelationEntity_GetComment
+title: String GetComment()
 intellisense: NSContactRelationEntity.GetComment
 keywords: NSContactRelationEntity, GetComment
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_SaveDefaultValueInfo
-description: ErpSyncDefaultValue SaveDefaultValueInfo(ErpSyncDefaultValue erpSyncDefaultValue)
+uid: crmscript_ref_NSErpSyncAgent_SaveDefaultValueInfo
+title: ErpSyncDefaultValue SaveDefaultValueInfo(ErpSyncDefaultValue erpSyncDefaultValue)
 intellisense: NSErpSyncAgent.SaveDefaultValueInfo
-keywords: NSErpSyncAgent,SaveDefaultValueInfo
+keywords: NSErpSyncAgent, SaveDefaultValueInfo
 so.topic: reference
 ---
 

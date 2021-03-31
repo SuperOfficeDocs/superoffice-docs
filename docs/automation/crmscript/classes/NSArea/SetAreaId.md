@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArea_SetAreaId
-description: NSArea.SetAreaId(Integer areaId)
+uid: crmscript_ref_NSArea_SetAreaId
+title: SetAreaId(Integer areaId)
 intellisense: NSArea.SetAreaId
 keywords: NSArea, GetAreaId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetName
-description: NSProduct.SetName(String name)
+uid: crmscript_ref_NSProduct_SetName
+title: SetName(String name)
 intellisense: NSProduct.SetName
 keywords: NSProduct, GetName
 so.topic: reference

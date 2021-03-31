@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncConnectionSummary_GetActors
-description: ErpSyncActorSummaryArray NSErpSyncConnectionSummary.GetActors()
+uid: crmscript_ref_NSErpSyncConnectionSummary_GetActors
+title: ErpSyncActorSummaryArray GetActors()
 intellisense: NSErpSyncConnectionSummary.GetActors
 keywords: NSErpSyncConnectionSummary, GetActors
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOutgoingMessage
-description: NSOutgoingMessage
+uid: crmscript_ref_NSOutgoingMessage
+title: NSOutgoingMessage
 intellisense: Void.NSOutgoingMessage
 keywords: NSOutgoingMessage
 so.topic: reference

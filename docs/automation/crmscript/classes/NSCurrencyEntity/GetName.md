@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCurrencyEntity_GetName
-description: String NSCurrencyEntity.GetName()
+uid: crmscript_ref_NSCurrencyEntity_GetName
+title: String GetName()
 intellisense: NSCurrencyEntity.GetName
 keywords: NSCurrencyEntity, GetName
 so.topic: reference

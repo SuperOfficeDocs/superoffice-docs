@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_SaveConsentPerson
-description: NSConsentPerson SaveConsentPerson(NSConsentPerson consentPerson);
+uid: crmscript_ref_NSPersonAgent_SaveConsentPerson
+title: NSConsentPerson SaveConsentPerson(NSConsentPerson consentPerson);
 intellisense: NSPersonAgent.SaveConsentPerson
-keywords: NSPersonAgent,SaveConsentPerson
+keywords: NSPersonAgent, SaveConsentPerson
 so.topic: reference
 ---
 	  

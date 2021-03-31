@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetFaxes
-description: EntityElementArray NSContactEntity.GetFaxes()
+uid: crmscript_ref_NSContactEntity_GetFaxes
+title: EntityElementArray GetFaxes()
 intellisense: NSContactEntity.GetFaxes
 keywords: NSContactEntity, GetFaxes
 so.topic: reference

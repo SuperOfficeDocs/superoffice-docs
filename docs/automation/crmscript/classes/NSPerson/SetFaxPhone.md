@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetFaxPhone
-description: NSPerson.SetFaxPhone(String faxPhone)
+uid: crmscript_ref_NSPerson_SetFaxPhone
+title: SetFaxPhone(String faxPhone)
 intellisense: NSPerson.SetFaxPhone
 keywords: NSPerson, GetFaxPhone
 so.topic: reference

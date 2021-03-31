@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SetRankOnSaleActivity
-description: Void SetRankOnSaleActivity(Integer saleTypeStageLinkId, IntegerArray itemsIds)
+uid: crmscript_ref_NSListAgent_SetRankOnSaleActivity
+title: Void SetRankOnSaleActivity(Integer saleTypeStageLinkId, IntegerArray itemsIds)
 intellisense: NSListAgent.SetRankOnSaleActivity
-keywords: NSListAgent,SetRankOnSaleActivity
+keywords: NSListAgent, SetRankOnSaleActivity
 so.topic: reference
 ---
 

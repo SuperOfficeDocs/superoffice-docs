@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetRecurringStartDate
-description: NSAppointment.SetRecurringStartDate(DateTime recurringStartDate)
+uid: crmscript_ref_NSAppointment_SetRecurringStartDate
+title: SetRecurringStartDate(DateTime recurringStartDate)
 intellisense: NSAppointment.SetRecurringStartDate
 keywords: NSAppointment, GetRecurringStartDate
 so.topic: reference

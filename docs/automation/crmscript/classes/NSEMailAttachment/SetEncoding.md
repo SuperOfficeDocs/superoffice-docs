@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_SetEncoding
-description: NSEMailAttachment.SetEncoding(String encoding)
+uid: crmscript_ref_NSEMailAttachment_SetEncoding
+title: SetEncoding(String encoding)
 intellisense: NSEMailAttachment.SetEncoding
 keywords: NSEMailAttachment, GetEncoding
 so.topic: reference

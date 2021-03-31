@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSServiceAuth_GetPassword
-description: String NSServiceAuth.GetPassword()
+uid: crmscript_ref_NSServiceAuth_GetPassword
+title: String GetPassword()
 intellisense: NSServiceAuth.GetPassword
 keywords: NSServiceAuth, GetPassword
 so.topic: reference

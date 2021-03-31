@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetProjectName
-description: NSSale.SetProjectName(String projectName)
+uid: crmscript_ref_NSSale_SetProjectName
+title: SetProjectName(String projectName)
 intellisense: NSSale.SetProjectName
 keywords: NSSale, GetProjectName
 so.topic: reference

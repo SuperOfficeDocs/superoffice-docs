@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetPrivacyDocType
-description: NSDocumentTemplateEntity.SetPrivacyDocType(DocTmplPrivacyType privacyDocType)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetPrivacyDocType
+title: SetPrivacyDocType(DocTmplPrivacyType privacyDocType)
 intellisense: NSDocumentTemplateEntity.SetPrivacyDocType
 keywords: NSDocumentTemplateEntity, GetPrivacyDocType
 so.topic: reference

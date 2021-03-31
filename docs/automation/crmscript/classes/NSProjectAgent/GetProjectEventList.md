@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetProjectEventList
-description: NSProjectEvent[] GetProjectEventList(Integer[]  projectEventIds);
+uid: crmscript_ref_NSProjectAgent_GetProjectEventList
+title: NSProjectEvent[] GetProjectEventList(Integer[]  projectEventIds);
 intellisense: NSProjectAgent.GetProjectEventList
-keywords: NSProjectAgent,GetProjectEventList
+keywords: NSProjectAgent, GetProjectEventList
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_SetRemoveCompanyInterest
-description: NSMailMergeSettings.SetRemoveCompanyInterest(Integer removeCompanyInterest)
+uid: crmscript_ref_NSMailMergeSettings_SetRemoveCompanyInterest
+title: SetRemoveCompanyInterest(Integer removeCompanyInterest)
 intellisense: NSMailMergeSettings.SetRemoveCompanyInterest
 keywords: NSMailMergeSettings, GetRemoveCompanyInterest
 so.topic: reference

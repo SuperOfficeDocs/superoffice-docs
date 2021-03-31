@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetChildItems
-description: NSSelectableMDOListItem.SetChildItems(SelectableMDOListItemArray childItems)
+uid: crmscript_ref_NSSelectableMDOListItem_SetChildItems
+title: SetChildItems(SelectableMDOListItemArray childItems)
 intellisense: NSSelectableMDOListItem.SetChildItems
 keywords: NSSelectableMDOListItem, GetChildItems
 so.topic: reference

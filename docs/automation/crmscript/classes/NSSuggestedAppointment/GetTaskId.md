@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_GetTaskId
-description: Integer NSSuggestedAppointment.GetTaskId()
+uid: crmscript_ref_NSSuggestedAppointment_GetTaskId
+title: Integer GetTaskId()
 intellisense: NSSuggestedAppointment.GetTaskId
 keywords: NSSuggestedAppointment, GetTaskId
 so.topic: reference

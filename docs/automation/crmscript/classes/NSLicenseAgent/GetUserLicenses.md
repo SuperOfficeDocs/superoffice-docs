@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_GetUserLicenses
-description: LicenseOwnerArray GetUserLicenses(Integer associateId)
+uid: crmscript_ref_NSLicenseAgent_GetUserLicenses
+title: LicenseOwnerArray GetUserLicenses(Integer associateId)
 intellisense: NSLicenseAgent.GetUserLicenses
-keywords: NSLicenseAgent,GetUserLicenses
+keywords: NSLicenseAgent, GetUserLicenses
 so.topic: reference
 ---
 

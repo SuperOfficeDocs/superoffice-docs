@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_SetProjectMemberTypeId
-description: NSProjectMember.SetProjectMemberTypeId(Integer projectMemberTypeId)
+uid: crmscript_ref_NSProjectMember_SetProjectMemberTypeId
+title: SetProjectMemberTypeId(Integer projectMemberTypeId)
 intellisense: NSProjectMember.SetProjectMemberTypeId
 keywords: NSProjectMember, GetProjectMemberTypeId
 so.topic: reference

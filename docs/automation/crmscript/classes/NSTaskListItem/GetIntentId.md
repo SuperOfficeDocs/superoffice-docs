@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_GetIntentId
-description: Integer NSTaskListItem.GetIntentId()
+uid: crmscript_ref_NSTaskListItem_GetIntentId
+title: Integer GetIntentId()
 intellisense: NSTaskListItem.GetIntentId
 keywords: NSTaskListItem, GetIntentId
 so.topic: reference

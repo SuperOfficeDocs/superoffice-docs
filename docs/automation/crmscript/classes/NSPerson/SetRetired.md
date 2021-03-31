@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetRetired
-description: NSPerson.SetRetired(Integer retired)
+uid: crmscript_ref_NSPerson_SetRetired
+title: SetRetired(Integer retired)
 intellisense: NSPerson.SetRetired
 keywords: NSPerson, GetRetired
 so.topic: reference

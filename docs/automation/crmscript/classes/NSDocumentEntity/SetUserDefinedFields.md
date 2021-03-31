@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetUserDefinedFields
-description: NSDocumentEntity.SetUserDefinedFields(Map udefs)
+uid: crmscript_ref_NSDocumentEntity_SetUserDefinedFields
+title: SetUserDefinedFields(Map udefs)
 intellisense: NSDocumentEntity.SetUserDefinedFields
 keywords: NSDocumentEntity, SetUserDefinedFields
 so.topic: reference
 ---
 
-Set the user-defined fields as a map.
+Set the user-defined fields on the DocumentEntity as a map.
 
 **Parameter:** 
  - **udefs** Map user defined field values encoded as strings.

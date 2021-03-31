@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_SetAutoSuggest
-description: NSSuggestedAppointment.SetAutoSuggest(Integer autoSuggest)
+uid: crmscript_ref_NSSuggestedAppointment_SetAutoSuggest
+title: SetAutoSuggest(Integer autoSuggest)
 intellisense: NSSuggestedAppointment.SetAutoSuggest
 keywords: NSSuggestedAppointment, GetAutoSuggest
 so.topic: reference

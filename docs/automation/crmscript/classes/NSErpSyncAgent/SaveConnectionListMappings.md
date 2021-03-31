@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_SaveConnectionListMappings
-description: ErpConnectionListMappingContainer SaveConnectionListMappings(ErpConnectionListMappingContainer listMapping)
+uid: crmscript_ref_NSErpSyncAgent_SaveConnectionListMappings
+title: ErpConnectionListMappingContainer SaveConnectionListMappings(ErpConnectionListMappingContainer listMapping)
 intellisense: NSErpSyncAgent.SaveConnectionListMappings
-keywords: NSErpSyncAgent,SaveConnectionListMappings
+keywords: NSErpSyncAgent, SaveConnectionListMappings
 so.topic: reference
 ---
 

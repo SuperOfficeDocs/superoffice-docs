@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_GetEmailAddress
-description: String NSFormSubmissionEntity.GetEmailAddress()
+uid: crmscript_ref_NSFormSubmissionEntity_GetEmailAddress
+title: String GetEmailAddress()
 intellisense: NSFormSubmissionEntity.GetEmailAddress
 keywords: NSFormSubmissionEntity, GetEmailAddress
 so.topic: reference

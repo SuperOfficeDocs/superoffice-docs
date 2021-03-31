@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetMimeType
-description: String NSDocumentTemplateEntity.GetMimeType()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetMimeType
+title: String GetMimeType()
 intellisense: NSDocumentTemplateEntity.GetMimeType
 keywords: NSDocumentTemplateEntity, GetMimeType
 so.topic: reference

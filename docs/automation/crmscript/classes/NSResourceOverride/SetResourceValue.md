@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceOverride_SetResourceValue
-description: NSResourceOverride.SetResourceValue(String resourceValue)
+uid: crmscript_ref_NSResourceOverride_SetResourceValue
+title: SetResourceValue(String resourceValue)
 intellisense: NSResourceOverride.SetResourceValue
 keywords: NSResourceOverride, GetResourceValue
 so.topic: reference

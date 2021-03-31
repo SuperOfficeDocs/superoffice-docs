@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption_GetListItems
-description: MDOListItemArray NSDashboardTileOption.GetListItems()
+uid: crmscript_ref_NSDashboardTileOption_GetListItems
+title: MDOListItemArray GetListItems()
 intellisense: NSDashboardTileOption.GetListItems
 keywords: NSDashboardTileOption, GetListItems
 so.topic: reference

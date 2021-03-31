@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTypicalSearches_SetSource
-description: NSTypicalSearches.SetSource(String source)
+uid: crmscript_ref_NSTypicalSearches_SetSource
+title: SetSource(String source)
 intellisense: NSTypicalSearches.SetSource
 keywords: NSTypicalSearches, GetSource
 so.topic: reference

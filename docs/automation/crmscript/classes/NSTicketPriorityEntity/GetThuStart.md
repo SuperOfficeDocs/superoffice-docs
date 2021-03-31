@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetThuStart
-description: DateTime NSTicketPriorityEntity.GetThuStart()
+uid: crmscript_ref_NSTicketPriorityEntity_GetThuStart
+title: DateTime GetThuStart()
 intellisense: NSTicketPriorityEntity.GetThuStart
 keywords: NSTicketPriorityEntity, GetThuStart
 so.topic: reference

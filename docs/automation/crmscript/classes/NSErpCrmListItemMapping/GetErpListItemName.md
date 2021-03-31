@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpCrmListItemMapping_GetErpListItemName
-description: String NSErpCrmListItemMapping.GetErpListItemName()
+uid: crmscript_ref_NSErpCrmListItemMapping_GetErpListItemName
+title: String GetErpListItemName()
 intellisense: NSErpCrmListItemMapping.GetErpListItemName
 keywords: NSErpCrmListItemMapping, GetErpListItemName
 so.topic: reference

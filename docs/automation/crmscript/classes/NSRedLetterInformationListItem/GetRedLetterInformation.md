@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRedLetterInformationListItem_GetRedLetterInformation
-description: RedLetterSummary NSRedLetterInformationListItem.GetRedLetterInformation()
+uid: crmscript_ref_NSRedLetterInformationListItem_GetRedLetterInformation
+title: RedLetterSummary GetRedLetterInformation()
 intellisense: NSRedLetterInformationListItem.GetRedLetterInformation
 keywords: NSRedLetterInformationListItem, GetRedLetterInformation
 so.topic: reference

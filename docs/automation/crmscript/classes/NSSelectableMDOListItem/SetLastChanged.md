@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetLastChanged
-description: NSSelectableMDOListItem.SetLastChanged(DateTime lastChanged)
+uid: crmscript_ref_NSSelectableMDOListItem_SetLastChanged
+title: SetLastChanged(DateTime lastChanged)
 intellisense: NSSelectableMDOListItem.SetLastChanged
 keywords: NSSelectableMDOListItem, GetLastChanged
 so.topic: reference

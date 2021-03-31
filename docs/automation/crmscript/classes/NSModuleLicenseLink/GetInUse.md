@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicenseLink_GetInUse
-description: Integer NSModuleLicenseLink.GetInUse()
+uid: crmscript_ref_NSModuleLicenseLink_GetInUse
+title: Integer GetInUse()
 intellisense: NSModuleLicenseLink.GetInUse
 keywords: NSModuleLicenseLink, GetInUse
 so.topic: reference

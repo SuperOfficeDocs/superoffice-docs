@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFind
-description: NSFind
+uid: crmscript_ref_NSFind
+title: NSFind
 intellisense: Void.NSFind
 keywords: NSFind
 so.topic: reference

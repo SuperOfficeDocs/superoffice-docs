@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_SetListReference
-description: NSErpSyncFieldMapping.SetListReference(String listReference)
+uid: crmscript_ref_NSErpSyncFieldMapping_SetListReference
+title: SetListReference(String listReference)
 intellisense: NSErpSyncFieldMapping.SetListReference
 keywords: NSErpSyncFieldMapping, GetListReference
 so.topic: reference

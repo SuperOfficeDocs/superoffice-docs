@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetProjectName
-description: NSAppointment.SetProjectName(String projectName)
+uid: crmscript_ref_NSAppointment_SetProjectName
+title: SetProjectName(String projectName)
 intellisense: NSAppointment.SetProjectName
 keywords: NSAppointment, GetProjectName
 so.topic: reference

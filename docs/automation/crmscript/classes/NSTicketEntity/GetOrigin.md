@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetOrigin
-description: TicketOrigin NSTicketEntity.GetOrigin()
+uid: crmscript_ref_NSTicketEntity_GetOrigin
+title: TicketOrigin GetOrigin()
 intellisense: NSTicketEntity.GetOrigin
 keywords: NSTicketEntity, GetOrigin
 so.topic: reference

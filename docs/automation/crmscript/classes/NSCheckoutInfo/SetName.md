@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCheckoutInfo_SetName
-description: NSCheckoutInfo.SetName(String name)
+uid: crmscript_ref_NSCheckoutInfo_SetName
+title: SetName(String name)
 intellisense: NSCheckoutInfo.SetName
 keywords: NSCheckoutInfo, GetName
 so.topic: reference

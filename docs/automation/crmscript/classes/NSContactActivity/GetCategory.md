@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactActivity_GetCategory
-description: String NSContactActivity.GetCategory()
+uid: crmscript_ref_NSContactActivity_GetCategory
+title: String GetCategory()
 intellisense: NSContactActivity.GetCategory
 keywords: NSContactActivity, GetCategory
 so.topic: reference

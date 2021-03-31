@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceEntity_GetResourceId
-description: Integer NSResourceEntity.GetResourceId()
+uid: crmscript_ref_NSResourceEntity_GetResourceId
+title: Integer GetResourceId()
 intellisense: NSResourceEntity.GetResourceId
 keywords: NSResourceEntity, GetResourceId
 so.topic: reference

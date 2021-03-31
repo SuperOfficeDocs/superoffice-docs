@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent
-description: NSAppointmentAgent
+uid: crmscript_ref_NSAppointmentAgent
+title: NSAppointmentAgent
 intellisense: Void.NSAppointmentAgent
 keywords: NSAppointmentAgent
 so.topic: reference

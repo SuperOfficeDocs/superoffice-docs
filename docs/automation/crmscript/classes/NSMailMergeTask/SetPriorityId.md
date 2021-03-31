@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask_SetPriorityId
-description: NSMailMergeTask.SetPriorityId(Integer priorityId)
+uid: crmscript_ref_NSMailMergeTask_SetPriorityId
+title: SetPriorityId(Integer priorityId)
 intellisense: NSMailMergeTask.SetPriorityId
 keywords: NSMailMergeTask, GetPriorityId
 so.topic: reference

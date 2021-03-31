@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetAssignedBy
-description: Integer NSAppointment.GetAssignedBy()
+uid: crmscript_ref_NSAppointment_GetAssignedBy
+title: Integer GetAssignedBy()
 intellisense: NSAppointment.GetAssignedBy
 keywords: NSAppointment, GetAssignedBy
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetOnSalesMarketingWeb
-description: Bool NSWebPanelEntity.GetOnSalesMarketingWeb()
+uid: crmscript_ref_NSWebPanelEntity_GetOnSalesMarketingWeb
+title: Bool GetOnSalesMarketingWeb()
 intellisense: NSWebPanelEntity.GetOnSalesMarketingWeb
 keywords: NSWebPanelEntity, GetOnSalesMarketingWeb
 so.topic: reference

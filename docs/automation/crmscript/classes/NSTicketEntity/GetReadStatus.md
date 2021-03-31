@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_GetReadStatus
-description: TicketReadStatus NSTicketEntity.GetReadStatus()
+uid: crmscript_ref_NSTicketEntity_GetReadStatus
+title: TicketReadStatus GetReadStatus()
 intellisense: NSTicketEntity.GetReadStatus
 keywords: NSTicketEntity, GetReadStatus
 so.topic: reference

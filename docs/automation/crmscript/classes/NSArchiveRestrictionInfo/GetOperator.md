@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo_GetOperator
-description: String NSArchiveRestrictionInfo.GetOperator()
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetOperator
+title: String GetOperator()
 intellisense: NSArchiveRestrictionInfo.GetOperator
 keywords: NSArchiveRestrictionInfo, GetOperator
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetHasAlarm
-description: NSAppointment.SetHasAlarm(Bool hasAlarm)
+uid: crmscript_ref_NSAppointment_SetHasAlarm
+title: SetHasAlarm(Bool hasAlarm)
 intellisense: NSAppointment.SetHasAlarm
 keywords: NSAppointment, GetHasAlarm
 so.topic: reference

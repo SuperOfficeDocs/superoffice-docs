@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketCategoryEntity_SetFlags
-description: NSTicketCategoryEntity.SetFlags(TicketCategoryFlags flags)
+uid: crmscript_ref_NSTicketCategoryEntity_SetFlags
+title: SetFlags(TicketCategoryFlags flags)
 intellisense: NSTicketCategoryEntity.SetFlags
 keywords: NSTicketCategoryEntity, GetFlags
 so.topic: reference

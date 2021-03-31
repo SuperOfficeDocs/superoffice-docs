@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultHeadingEntity
-description: NSHeadingEntity CreateDefaultHeadingEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultHeadingEntity
+title: NSHeadingEntity CreateDefaultHeadingEntity()
 intellisense: NSListAgent.CreateDefaultHeadingEntity
-keywords: NSListAgent,CreateDefaultHeadingEntity
+keywords: NSListAgent, CreateDefaultHeadingEntity
 so.topic: reference
 ---
 	  

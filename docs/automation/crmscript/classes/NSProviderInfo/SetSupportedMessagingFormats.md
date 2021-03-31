@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProviderInfo_SetSupportedMessagingFormats
-description: NSProviderInfo.SetSupportedMessagingFormats(StringArray supportedMessagingFormats)
+uid: crmscript_ref_NSProviderInfo_SetSupportedMessagingFormats
+title: SetSupportedMessagingFormats(StringArray supportedMessagingFormats)
 intellisense: NSProviderInfo.SetSupportedMessagingFormats
 keywords: NSProviderInfo, GetSupportedMessagingFormats
 so.topic: reference

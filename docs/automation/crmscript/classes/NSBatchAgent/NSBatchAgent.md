@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchAgent
-description: NSBatchAgent
+uid: crmscript_ref_NSBatchAgent
+title: NSBatchAgent
 intellisense: Void.NSBatchAgent
 keywords: NSBatchAgent
 so.topic: reference

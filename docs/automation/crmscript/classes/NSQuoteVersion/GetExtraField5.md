@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetExtraField5
-description: String NSQuoteVersion.GetExtraField5()
+uid: crmscript_ref_NSQuoteVersion_GetExtraField5
+title: String GetExtraField5()
 intellisense: NSQuoteVersion.GetExtraField5
 keywords: NSQuoteVersion, GetExtraField5
 so.topic: reference

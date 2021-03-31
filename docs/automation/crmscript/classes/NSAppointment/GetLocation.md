@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetLocation
-description: String NSAppointment.GetLocation()
+uid: crmscript_ref_NSAppointment_GetLocation
+title: String GetLocation()
 intellisense: NSAppointment.GetLocation
 keywords: NSAppointment, GetLocation
 so.topic: reference

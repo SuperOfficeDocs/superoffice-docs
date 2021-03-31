@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_SetFlags
-description: NSEMailEnvelope.SetFlags(Integer flags)
+uid: crmscript_ref_NSEMailEnvelope_SetFlags
+title: SetFlags(Integer flags)
 intellisense: NSEMailEnvelope.SetFlags
 keywords: NSEMailEnvelope, GetFlags
 so.topic: reference

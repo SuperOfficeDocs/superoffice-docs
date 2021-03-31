@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReplicationAgent_SaveSatellite
-description: NSSatellite SaveSatellite(NSSatellite satellite);
+uid: crmscript_ref_NSReplicationAgent_SaveSatellite
+title: NSSatellite SaveSatellite(NSSatellite satellite);
 intellisense: NSReplicationAgent.SaveSatellite
-keywords: NSReplicationAgent,SaveSatellite
+keywords: NSReplicationAgent, SaveSatellite
 so.topic: reference
 ---
 	  

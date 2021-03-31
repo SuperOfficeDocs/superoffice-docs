@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetConfigurationFields
-description: FieldMetadataArray GetConfigurationFields(Integer erpConnectorId)
+uid: crmscript_ref_NSErpSyncAgent_GetConfigurationFields
+title: FieldMetadataArray GetConfigurationFields(Integer erpConnectorId)
 intellisense: NSErpSyncAgent.GetConfigurationFields
-keywords: NSErpSyncAgent,GetConfigurationFields
+keywords: NSErpSyncAgent, GetConfigurationFields
 so.topic: reference
 ---
 

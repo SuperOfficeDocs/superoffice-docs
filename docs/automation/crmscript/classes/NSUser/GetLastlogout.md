@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetLastlogout
-description: DateTime NSUser.GetLastlogout()
+uid: crmscript_ref_NSUser_GetLastlogout
+title: DateTime GetLastlogout()
 intellisense: NSUser.GetLastlogout
 keywords: NSUser, GetLastlogout
 so.topic: reference

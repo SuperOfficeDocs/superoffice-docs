@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitorPeriods_GetPeriod3
-description: Integer NSStatusMonitorPeriods.GetPeriod3()
+uid: crmscript_ref_NSStatusMonitorPeriods_GetPeriod3
+title: Integer GetPeriod3()
 intellisense: NSStatusMonitorPeriods.GetPeriod3
 keywords: NSStatusMonitorPeriods, GetPeriod3
 so.topic: reference

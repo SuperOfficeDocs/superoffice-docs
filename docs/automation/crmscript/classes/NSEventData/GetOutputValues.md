@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_GetOutputValues
-description: StringDictionary NSEventData.GetOutputValues()
+uid: crmscript_ref_NSEventData_GetOutputValues
+title: StringDictionary GetOutputValues()
 intellisense: NSEventData.GetOutputValues
 keywords: NSEventData, GetOutputValues
 so.topic: reference

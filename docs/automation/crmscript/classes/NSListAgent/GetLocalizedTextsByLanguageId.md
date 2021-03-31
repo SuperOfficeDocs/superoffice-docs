@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetLocalizedTextsByLanguageId
-description: LocalizedTextArray GetLocalizedTextsByLanguageId(Integer languageId)
+uid: crmscript_ref_NSListAgent_GetLocalizedTextsByLanguageId
+title: LocalizedTextArray GetLocalizedTextsByLanguageId(Integer languageId)
 intellisense: NSListAgent.GetLocalizedTextsByLanguageId
-keywords: NSListAgent,GetLocalizedTextsByLanguageId
+keywords: NSListAgent, GetLocalizedTextsByLanguageId
 so.topic: reference
 ---
 

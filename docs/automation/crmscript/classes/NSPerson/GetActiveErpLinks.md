@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetActiveErpLinks
-description: Integer NSPerson.GetActiveErpLinks()
+uid: crmscript_ref_NSPerson_GetActiveErpLinks
+title: Integer GetActiveErpLinks()
 intellisense: NSPerson.GetActiveErpLinks
 keywords: NSPerson, GetActiveErpLinks
 so.topic: reference

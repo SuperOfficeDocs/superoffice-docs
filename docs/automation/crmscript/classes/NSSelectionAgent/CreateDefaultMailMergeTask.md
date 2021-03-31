@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_CreateDefaultMailMergeTask
-description: NSMailMergeTask CreateDefaultMailMergeTask()
+uid: crmscript_ref_NSSelectionAgent_CreateDefaultMailMergeTask
+title: NSMailMergeTask CreateDefaultMailMergeTask()
 intellisense: NSSelectionAgent.CreateDefaultMailMergeTask
-keywords: NSSelectionAgent,CreateDefaultMailMergeTask
+keywords: NSSelectionAgent, CreateDefaultMailMergeTask
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetTargetTableNumber
-description: Integer NSSelectionEntity.GetTargetTableNumber()
+uid: crmscript_ref_NSSelectionEntity_GetTargetTableNumber
+title: Integer GetTargetTableNumber()
 intellisense: NSSelectionEntity.GetTargetTableNumber
 keywords: NSSelectionEntity, GetTargetTableNumber
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_GetRoleType
-description: Integer NSRoleEntity.GetRoleType()
+uid: crmscript_ref_NSRoleEntity_GetRoleType
+title: Integer GetRoleType()
 intellisense: NSRoleEntity.GetRoleType
 keywords: NSRoleEntity, GetRoleType
 so.topic: reference

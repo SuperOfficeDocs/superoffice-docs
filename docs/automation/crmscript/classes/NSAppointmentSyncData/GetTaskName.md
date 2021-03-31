@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_GetTaskName
-description: String NSAppointmentSyncData.GetTaskName()
+uid: crmscript_ref_NSAppointmentSyncData_GetTaskName
+title: String GetTaskName()
 intellisense: NSAppointmentSyncData.GetTaskName
 keywords: NSAppointmentSyncData, GetTaskName
 so.topic: reference

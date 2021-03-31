@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_FindProduct
-description: ProductArray FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
+uid: crmscript_ref_NSQuoteAgent_FindProduct
+title: ProductArray FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
 intellisense: NSQuoteAgent.FindProduct
-keywords: NSQuoteAgent,FindProduct
+keywords: NSQuoteAgent, FindProduct
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTag_SetName
-description: NSTag.SetName(String name)
+uid: crmscript_ref_NSTag_SetName
+title: SetName(String name)
 intellisense: NSTag.SetName
 keywords: NSTag, GetName
 so.topic: reference

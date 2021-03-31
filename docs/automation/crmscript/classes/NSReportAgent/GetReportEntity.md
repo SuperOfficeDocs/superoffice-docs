@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_GetReportEntity
-description: NSReportEntity GetReportEntity(Integer reportEntityId);
+uid: crmscript_ref_NSReportAgent_GetReportEntity
+title: NSReportEntity GetReportEntity(Integer reportEntityId);
 intellisense: NSReportAgent.GetReportEntity
-keywords: NSReportAgent,GetReportEntity
+keywords: NSReportAgent, GetReportEntity
 so.topic: reference
 ---
 

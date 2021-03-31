@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuotePublishDocuments_GetMailBody
-description: String NSQuotePublishDocuments.GetMailBody()
+uid: crmscript_ref_NSQuotePublishDocuments_GetMailBody
+title: String GetMailBody()
 intellisense: NSQuotePublishDocuments.GetMailBody
 keywords: NSQuotePublishDocuments, GetMailBody
 so.topic: reference

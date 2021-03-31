@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListItem_GetName
-description: String NSPhoneListItem.GetName()
+uid: crmscript_ref_NSPhoneListItem_GetName
+title: String GetName()
 intellisense: NSPhoneListItem.GetName
 keywords: NSPhoneListItem, GetName
 so.topic: reference

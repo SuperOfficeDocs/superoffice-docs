@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CreateDefaultServiceAuth
-description: NSServiceAuth CreateDefaultServiceAuth()
+uid: crmscript_ref_NSUserAgent_CreateDefaultServiceAuth
+title: NSServiceAuth CreateDefaultServiceAuth()
 intellisense: NSUserAgent.CreateDefaultServiceAuth
-keywords: NSUserAgent,CreateDefaultServiceAuth
+keywords: NSUserAgent, CreateDefaultServiceAuth
 so.topic: reference
 ---
 	  

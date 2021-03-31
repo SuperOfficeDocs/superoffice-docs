@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_GetFilename
-description: String NSEMailAttachment.GetFilename()
+uid: crmscript_ref_NSEMailAttachment_GetFilename
+title: String GetFilename()
 intellisense: NSEMailAttachment.GetFilename
 keywords: NSEMailAttachment, GetFilename
 so.topic: reference

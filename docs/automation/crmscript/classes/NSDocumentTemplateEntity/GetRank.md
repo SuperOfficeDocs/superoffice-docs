@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetRank
-description: Integer NSDocumentTemplateEntity.GetRank()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetRank
+title: Integer GetRank()
 intellisense: NSDocumentTemplateEntity.GetRank
 keywords: NSDocumentTemplateEntity, GetRank
 so.topic: reference

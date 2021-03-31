@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_SetState
-description: NSWebhook.SetState(WebhookState state)
+uid: crmscript_ref_NSWebhook_SetState
+title: SetState(WebhookState state)
 intellisense: NSWebhook.SetState
 keywords: NSWebhook, GetState
 so.topic: reference

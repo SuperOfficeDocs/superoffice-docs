@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignKey_SetRecordId
-description: NSForeignKey.SetRecordId(Integer recordId)
+uid: crmscript_ref_NSForeignKey_SetRecordId
+title: SetRecordId(Integer recordId)
 intellisense: NSForeignKey.SetRecordId
 keywords: NSForeignKey, GetRecordId
 so.topic: reference

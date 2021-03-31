@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionValidated_GetChangedQuote
-description: Quote NSQuoteVersionValidated.GetChangedQuote()
+uid: crmscript_ref_NSQuoteVersionValidated_GetChangedQuote
+title: Quote GetChangedQuote()
 intellisense: NSQuoteVersionValidated.GetChangedQuote
 keywords: NSQuoteVersionValidated, GetChangedQuote
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEMailAsStream
-description: Stream GetEMailAsStream(EMailConnectionInfo connectionInfo, Integer messageServerId, Bool stripAttachments)
+uid: crmscript_ref_NSEMailAgent_GetEMailAsStream
+title: Stream GetEMailAsStream(EMailConnectionInfo connectionInfo, Integer messageServerId, Bool stripAttachments)
 intellisense: NSEMailAgent.GetEMailAsStream
-keywords: NSEMailAgent,GetEMailAsStream
+keywords: NSEMailAgent, GetEMailAsStream
 so.topic: reference
 ---
 

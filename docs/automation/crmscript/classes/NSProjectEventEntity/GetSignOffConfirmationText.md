@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetSignOffConfirmationText
-description: String NSProjectEventEntity.GetSignOffConfirmationText()
+uid: crmscript_ref_NSProjectEventEntity_GetSignOffConfirmationText
+title: String GetSignOffConfirmationText()
 intellisense: NSProjectEventEntity.GetSignOffConfirmationText
 keywords: NSProjectEventEntity, GetSignOffConfirmationText
 so.topic: reference

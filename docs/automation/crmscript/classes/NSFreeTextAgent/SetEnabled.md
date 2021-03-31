@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent_SetEnabled
-description: Void SetEnabled(Bool enabled)
+uid: crmscript_ref_NSFreeTextAgent_SetEnabled
+title: Void SetEnabled(Bool enabled)
 intellisense: NSFreeTextAgent.SetEnabled
-keywords: NSFreeTextAgent,SetEnabled
+keywords: NSFreeTextAgent, SetEnabled
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceStartup_SetRecaptchaSiteKey
-description: NSCustomerServiceStartup.SetRecaptchaSiteKey(String recaptchaSiteKey)
+uid: crmscript_ref_NSCustomerServiceStartup_SetRecaptchaSiteKey
+title: SetRecaptchaSiteKey(String recaptchaSiteKey)
 intellisense: NSCustomerServiceStartup.SetRecaptchaSiteKey
 keywords: NSCustomerServiceStartup, GetRecaptchaSiteKey
 so.topic: reference

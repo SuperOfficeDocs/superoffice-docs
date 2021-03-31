@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailConnectionInfo_GetFolder
-description: String NSEMailConnectionInfo.GetFolder()
+uid: crmscript_ref_NSEMailConnectionInfo_GetFolder
+title: String GetFolder()
 intellisense: NSEMailConnectionInfo.GetFolder
 keywords: NSEMailConnectionInfo, GetFolder
 so.topic: reference

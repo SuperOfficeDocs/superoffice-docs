@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder_GetDelimiter
-description: String NSEMailFolder.GetDelimiter()
+uid: crmscript_ref_NSEMailFolder_GetDelimiter
+title: String GetDelimiter()
 intellisense: NSEMailFolder.GetDelimiter
 keywords: NSEMailFolder, GetDelimiter
 so.topic: reference

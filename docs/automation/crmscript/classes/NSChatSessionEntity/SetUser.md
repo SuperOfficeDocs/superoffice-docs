@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetUser
-description: NSChatSessionEntity.SetUser(Associate user)
+uid: crmscript_ref_NSChatSessionEntity_SetUser
+title: SetUser(Associate user)
 intellisense: NSChatSessionEntity.SetUser
 keywords: NSChatSessionEntity, GetUser
 so.topic: reference

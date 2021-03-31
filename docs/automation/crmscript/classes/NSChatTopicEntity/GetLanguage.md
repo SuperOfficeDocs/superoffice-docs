@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetLanguage
-description: CustomerLanguage NSChatTopicEntity.GetLanguage()
+uid: crmscript_ref_NSChatTopicEntity_GetLanguage
+title: CustomerLanguage GetLanguage()
 intellisense: NSChatTopicEntity.GetLanguage
 keywords: NSChatTopicEntity, GetLanguage
 so.topic: reference

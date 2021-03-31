@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSPaymentTerm_GetTooltip
-description: String NSPaymentTerm.GetTooltip()
+uid: crmscript_ref_NSPaymentTerm_GetTooltip
+title: String GetTooltip()
 intellisense: NSPaymentTerm.GetTooltip
 keywords: NSPaymentTerm, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the list item.
+Get the tooltip description for the PaymentTerm list item.
 
-**Returns:** String tooltip description.
+**Returns:** String PaymentTerm tooltip description.
 

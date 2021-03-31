@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetSoundEx
-description: String NSSelectionEntity.GetSoundEx()
+uid: crmscript_ref_NSSelectionEntity_GetSoundEx
+title: String GetSoundEx()
 intellisense: NSSelectionEntity.GetSoundEx
 keywords: NSSelectionEntity, GetSoundEx
 so.topic: reference

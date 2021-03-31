@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSIncomingMessage_GetContent
-description: String NSIncomingMessage.GetContent()
+uid: crmscript_ref_NSIncomingMessage_GetContent
+title: String GetContent()
 intellisense: NSIncomingMessage.GetContent
 keywords: NSIncomingMessage, GetContent
 so.topic: reference

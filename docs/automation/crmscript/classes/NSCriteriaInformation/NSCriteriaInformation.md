@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCriteriaInformation
-description: NSCriteriaInformation
+uid: crmscript_ref_NSCriteriaInformation
+title: NSCriteriaInformation
 intellisense: Void.NSCriteriaInformation
 keywords: NSCriteriaInformation
 so.topic: reference

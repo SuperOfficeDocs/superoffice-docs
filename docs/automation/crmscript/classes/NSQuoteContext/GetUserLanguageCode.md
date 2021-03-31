@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteContext_GetUserLanguageCode
-description: String NSQuoteContext.GetUserLanguageCode()
+uid: crmscript_ref_NSQuoteContext_GetUserLanguageCode
+title: String GetUserLanguageCode()
 intellisense: NSQuoteContext.GetUserLanguageCode
 keywords: NSQuoteContext, GetUserLanguageCode
 so.topic: reference

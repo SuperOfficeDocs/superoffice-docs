@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_SetName
-description: NSPriceList.SetName(String name)
+uid: crmscript_ref_NSPriceList_SetName
+title: SetName(String name)
 intellisense: NSPriceList.SetName
 keywords: NSPriceList, GetName
 so.topic: reference

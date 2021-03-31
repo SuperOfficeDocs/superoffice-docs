@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetShowInToolBar
-description: Bool NSExtAppEntity.GetShowInToolBar()
+uid: crmscript_ref_NSExtAppEntity_GetShowInToolBar
+title: Bool GetShowInToolBar()
 intellisense: NSExtAppEntity.GetShowInToolBar
 keywords: NSExtAppEntity, GetShowInToolBar
 so.topic: reference

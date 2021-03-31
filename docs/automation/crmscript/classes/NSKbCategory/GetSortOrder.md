@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSKbCategory_GetSortOrder
-description: Integer NSKbCategory.GetSortOrder()
+uid: crmscript_ref_NSKbCategory_GetSortOrder
+title: Integer GetSortOrder()
 intellisense: NSKbCategory.GetSortOrder
 keywords: NSKbCategory, GetSortOrder
 so.topic: reference

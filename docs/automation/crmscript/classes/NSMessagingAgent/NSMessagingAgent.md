@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMessagingAgent
-description: NSMessagingAgent
+uid: crmscript_ref_NSMessagingAgent
+title: NSMessagingAgent
 intellisense: Void.NSMessagingAgent
 keywords: NSMessagingAgent
 so.topic: reference

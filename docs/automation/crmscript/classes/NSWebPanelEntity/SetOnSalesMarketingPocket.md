@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingPocket
-description: NSWebPanelEntity.SetOnSalesMarketingPocket(Bool onSalesMarketingPocket)
+uid: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingPocket
+title: SetOnSalesMarketingPocket(Bool onSalesMarketingPocket)
 intellisense: NSWebPanelEntity.SetOnSalesMarketingPocket
 keywords: NSWebPanelEntity, GetOnSalesMarketingPocket
 so.topic: reference

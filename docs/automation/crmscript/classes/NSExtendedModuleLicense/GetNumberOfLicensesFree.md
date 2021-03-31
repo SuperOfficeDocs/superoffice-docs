@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtendedModuleLicense_GetNumberOfLicensesFree
-description: Integer NSExtendedModuleLicense.GetNumberOfLicensesFree()
+uid: crmscript_ref_NSExtendedModuleLicense_GetNumberOfLicensesFree
+title: Integer GetNumberOfLicensesFree()
 intellisense: NSExtendedModuleLicense.GetNumberOfLicensesFree
 keywords: NSExtendedModuleLicense, GetNumberOfLicensesFree
 so.topic: reference

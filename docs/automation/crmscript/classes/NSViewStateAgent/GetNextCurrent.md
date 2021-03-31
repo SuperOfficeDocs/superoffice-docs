@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSViewStateAgent_GetNextCurrent
-description: History GetNextCurrent(String historyName, Integer id)
+uid: crmscript_ref_NSViewStateAgent_GetNextCurrent
+title: History GetNextCurrent(String historyName, Integer id)
 intellisense: NSViewStateAgent.GetNextCurrent
-keywords: NSViewStateAgent,GetNextCurrent
+keywords: NSViewStateAgent, GetNextCurrent
 so.topic: reference
 ---
 

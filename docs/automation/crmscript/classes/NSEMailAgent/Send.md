@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_Send
-description: EMailEntityArray Send(EMailEntityArray emails)
+uid: crmscript_ref_NSEMailAgent_Send
+title: EMailEntityArray Send(EMailEntityArray emails)
 intellisense: NSEMailAgent.Send
-keywords: NSEMailAgent,Send
+keywords: NSEMailAgent, Send
 so.topic: reference
 ---
 

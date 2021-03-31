@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTableRecord_SetValues
-description: NSTableRecord.SetValues(StringDictionary values)
+uid: crmscript_ref_NSTableRecord_SetValues
+title: SetValues(StringDictionary values)
 intellisense: NSTableRecord.SetValues
 keywords: NSTableRecord, GetValues
 so.topic: reference

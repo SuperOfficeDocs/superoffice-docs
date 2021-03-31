@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionListMapping
-description: NSErpConnectionListMapping
+uid: crmscript_ref_NSErpConnectionListMapping
+title: NSErpConnectionListMapping
 intellisense: Void.NSErpConnectionListMapping
 keywords: NSErpConnectionListMapping
 so.topic: reference

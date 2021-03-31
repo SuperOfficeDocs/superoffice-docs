@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_DetectUnpublishedChanges
-description: Bool DetectUnpublishedChanges(Integer ownerType)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_DetectUnpublishedChanges
+title: Bool DetectUnpublishedChanges(Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges
-keywords: NSUserDefinedFieldInfoAgent,DetectUnpublishedChanges
+keywords: NSUserDefinedFieldInfoAgent, DetectUnpublishedChanges
 so.topic: reference
 ---
 

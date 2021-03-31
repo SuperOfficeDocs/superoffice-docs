@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSControlInfo_GetListProviderPrimaryKeyName
-description: String NSControlInfo.GetListProviderPrimaryKeyName()
+uid: crmscript_ref_NSControlInfo_GetListProviderPrimaryKeyName
+title: String GetListProviderPrimaryKeyName()
 intellisense: NSControlInfo.GetListProviderPrimaryKeyName
 keywords: NSControlInfo, GetListProviderPrimaryKeyName
 so.topic: reference

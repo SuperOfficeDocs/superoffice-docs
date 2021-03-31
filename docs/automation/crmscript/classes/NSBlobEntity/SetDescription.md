@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_SetDescription
-description: NSBlobEntity.SetDescription(String description)
+uid: crmscript_ref_NSBlobEntity_SetDescription
+title: SetDescription(String description)
 intellisense: NSBlobEntity.SetDescription
 keywords: NSBlobEntity, GetDescription
 so.topic: reference

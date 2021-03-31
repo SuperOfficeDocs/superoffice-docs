@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetKanafname
-description: String NSPersonEntity.GetKanafname()
+uid: crmscript_ref_NSPersonEntity_GetKanafname
+title: String GetKanafname()
 intellisense: NSPersonEntity.GetKanafname
 keywords: NSPersonEntity, GetKanafname
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListResult
-description: NSArchiveListResult
+uid: crmscript_ref_NSArchiveListResult
+title: NSArchiveListResult
 intellisense: Void.NSArchiveListResult
 keywords: NSArchiveListResult
 so.topic: reference

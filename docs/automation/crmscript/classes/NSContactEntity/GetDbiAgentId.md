@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetDbiAgentId
-description: Integer NSContactEntity.GetDbiAgentId()
+uid: crmscript_ref_NSContactEntity_GetDbiAgentId
+title: Integer GetDbiAgentId()
 intellisense: NSContactEntity.GetDbiAgentId
 keywords: NSContactEntity, GetDbiAgentId
 so.topic: reference

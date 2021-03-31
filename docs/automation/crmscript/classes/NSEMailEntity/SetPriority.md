@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetPriority
-description: NSEMailEntity.SetPriority(Integer priority)
+uid: crmscript_ref_NSEMailEntity_SetPriority
+title: SetPriority(Integer priority)
 intellisense: NSEMailEntity.SetPriority
 keywords: NSEMailEntity, GetPriority
 so.topic: reference

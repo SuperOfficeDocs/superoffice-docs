@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionData_GetErpConnectionId
-description: Integer NSErpConnectionData.GetErpConnectionId()
+uid: crmscript_ref_NSErpConnectionData_GetErpConnectionId
+title: Integer GetErpConnectionId()
 intellisense: NSErpConnectionData.GetErpConnectionId
 keywords: NSErpConnectionData, GetErpConnectionId
 so.topic: reference

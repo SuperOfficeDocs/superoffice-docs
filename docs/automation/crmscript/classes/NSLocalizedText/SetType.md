@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLocalizedText_SetType
-description: NSLocalizedText.SetType(Integer type)
+uid: crmscript_ref_NSLocalizedText_SetType
+title: SetType(Integer type)
 intellisense: NSLocalizedText.SetType
 keywords: NSLocalizedText, GetType
 so.topic: reference

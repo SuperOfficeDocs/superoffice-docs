@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummaryItem_SetCurrency
-description: NSSaleSummaryItem.SetCurrency(String currency)
+uid: crmscript_ref_NSSaleSummaryItem_SetCurrency
+title: SetCurrency(String currency)
 intellisense: NSSaleSummaryItem.SetCurrency
 keywords: NSSaleSummaryItem, GetCurrency
 so.topic: reference

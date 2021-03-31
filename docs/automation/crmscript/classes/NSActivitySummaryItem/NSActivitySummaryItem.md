@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummaryItem
-description: NSActivitySummaryItem
+uid: crmscript_ref_NSActivitySummaryItem
+title: NSActivitySummaryItem
 intellisense: Void.NSActivitySummaryItem
 keywords: NSActivitySummaryItem
 so.topic: reference

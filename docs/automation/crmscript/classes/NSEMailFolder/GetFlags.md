@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder_GetFlags
-description: String NSEMailFolder.GetFlags()
+uid: crmscript_ref_NSEMailFolder_GetFlags
+title: String GetFlags()
 intellisense: NSEMailFolder.GetFlags
 keywords: NSEMailFolder, GetFlags
 so.topic: reference

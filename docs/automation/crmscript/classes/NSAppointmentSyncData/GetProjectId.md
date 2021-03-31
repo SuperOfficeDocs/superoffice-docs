@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_GetProjectId
-description: Integer NSAppointmentSyncData.GetProjectId()
+uid: crmscript_ref_NSAppointmentSyncData_GetProjectId
+title: Integer GetProjectId()
 intellisense: NSAppointmentSyncData.GetProjectId
 keywords: NSAppointmentSyncData, GetProjectId
 so.topic: reference

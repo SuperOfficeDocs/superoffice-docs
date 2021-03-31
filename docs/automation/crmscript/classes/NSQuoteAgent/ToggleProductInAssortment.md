@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_ToggleProductInAssortment
-description: Void ToggleProductInAssortment(Integer productId)
+uid: crmscript_ref_NSQuoteAgent_ToggleProductInAssortment
+title: Void ToggleProductInAssortment(Integer productId)
 intellisense: NSQuoteAgent.ToggleProductInAssortment
-keywords: NSQuoteAgent,ToggleProductInAssortment
+keywords: NSQuoteAgent, ToggleProductInAssortment
 so.topic: reference
 ---
 

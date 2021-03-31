@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSmsConfig_GetNsPluginConfig
-description: StringDictionary NSSmsConfig.GetNsPluginConfig()
+uid: crmscript_ref_NSSmsConfig_GetNsPluginConfig
+title: StringDictionary GetNsPluginConfig()
 intellisense: NSSmsConfig.GetNsPluginConfig
 keywords: NSSmsConfig, GetNsPluginConfig
 so.topic: reference

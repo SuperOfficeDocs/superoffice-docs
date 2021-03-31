@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetTopicId
-description: NSChatSessionEntity.SetTopicId(Integer topicId)
+uid: crmscript_ref_NSChatSessionEntity_SetTopicId
+title: SetTopicId(Integer topicId)
 intellisense: NSChatSessionEntity.SetTopicId
 keywords: NSChatSessionEntity, GetTopicId
 so.topic: reference

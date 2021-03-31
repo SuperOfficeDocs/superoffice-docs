@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetUpdatedAssociateId
-description: Integer NSShipmentMessageEntity.GetUpdatedAssociateId()
+uid: crmscript_ref_NSShipmentMessageEntity_GetUpdatedAssociateId
+title: Integer GetUpdatedAssociateId()
 intellisense: NSShipmentMessageEntity.GetUpdatedAssociateId
 keywords: NSShipmentMessageEntity, GetUpdatedAssociateId
 so.topic: reference

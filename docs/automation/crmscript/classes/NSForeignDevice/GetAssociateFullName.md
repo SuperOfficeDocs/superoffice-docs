@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDevice_GetAssociateFullName
-description: String NSForeignDevice.GetAssociateFullName()
+uid: crmscript_ref_NSForeignDevice_GetAssociateFullName
+title: String GetAssociateFullName()
 intellisense: NSForeignDevice.GetAssociateFullName
 keywords: NSForeignDevice, GetAssociateFullName
 so.topic: reference

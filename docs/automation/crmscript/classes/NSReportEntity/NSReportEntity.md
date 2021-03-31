@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportEntity
-description: NSReportEntity
+uid: crmscript_ref_NSReportEntity
+title: NSReportEntity
 intellisense: Void.NSReportEntity
 keywords: NSReportEntity
 so.topic: reference

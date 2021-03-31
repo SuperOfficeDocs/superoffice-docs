@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLocalizedTextList
-description: NSLocalizedTextList
+uid: crmscript_ref_NSLocalizedTextList
+title: NSLocalizedTextList
 intellisense: Void.NSLocalizedTextList
 keywords: NSLocalizedTextList
 so.topic: reference

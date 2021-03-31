@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginUrlResponse_GetUserExplanation
-description: String NSPluginUrlResponse.GetUserExplanation()
+uid: crmscript_ref_NSPluginUrlResponse_GetUserExplanation
+title: String GetUserExplanation()
 intellisense: NSPluginUrlResponse.GetUserExplanation
 keywords: NSPluginUrlResponse, GetUserExplanation
 so.topic: reference

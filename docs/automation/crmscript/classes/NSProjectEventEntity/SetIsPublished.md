@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetIsPublished
-description: NSProjectEventEntity.SetIsPublished(Bool isPublished)
+uid: crmscript_ref_NSProjectEventEntity_SetIsPublished
+title: SetIsPublished(Bool isPublished)
 intellisense: NSProjectEventEntity.SetIsPublished
 keywords: NSProjectEventEntity, GetIsPublished
 so.topic: reference

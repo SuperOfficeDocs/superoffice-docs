@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo
-description: NSUserDefinedFieldInfo
+uid: crmscript_ref_NSUserDefinedFieldInfo
+title: NSUserDefinedFieldInfo
 intellisense: Void.NSUserDefinedFieldInfo
 keywords: NSUserDefinedFieldInfo
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDatabaseTableAgent_DeleteRow
-description: Void DeleteRow(String tableName, Integer id)
+uid: crmscript_ref_NSDatabaseTableAgent_DeleteRow
+title: Void DeleteRow(String tableName, Integer id)
 intellisense: NSDatabaseTableAgent.DeleteRow
-keywords: NSDatabaseTableAgent,DeleteRow
+keywords: NSDatabaseTableAgent, DeleteRow
 so.topic: reference
 ---
 

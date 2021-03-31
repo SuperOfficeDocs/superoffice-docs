@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_GetCity
-description: String NSContact.GetCity()
+uid: crmscript_ref_NSContact_GetCity
+title: String GetCity()
 intellisense: NSContact.GetCity
 keywords: NSContact, GetCity
 so.topic: reference

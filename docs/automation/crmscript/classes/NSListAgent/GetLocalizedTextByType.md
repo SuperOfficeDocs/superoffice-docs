@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetLocalizedTextByType
-description: LocalizedText GetLocalizedTextByType(Integer textType, Integer resourceId, Integer languageId)
+uid: crmscript_ref_NSListAgent_GetLocalizedTextByType
+title: LocalizedText GetLocalizedTextByType(Integer textType, Integer resourceId, Integer languageId)
 intellisense: NSListAgent.GetLocalizedTextByType
-keywords: NSListAgent,GetLocalizedTextByType
+keywords: NSListAgent, GetLocalizedTextByType
 so.topic: reference
 ---
 

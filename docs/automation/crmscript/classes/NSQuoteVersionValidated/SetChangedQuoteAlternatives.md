@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionValidated_SetChangedQuoteAlternatives
-description: NSQuoteVersionValidated.SetChangedQuoteAlternatives(QuoteAlternativeRecalculatedArray changedQuoteAlternatives)
+uid: crmscript_ref_NSQuoteVersionValidated_SetChangedQuoteAlternatives
+title: SetChangedQuoteAlternatives(QuoteAlternativeRecalculatedArray changedQuoteAlternatives)
 intellisense: NSQuoteVersionValidated.SetChangedQuoteAlternatives
 keywords: NSQuoteVersionValidated, GetChangedQuoteAlternatives
 so.topic: reference

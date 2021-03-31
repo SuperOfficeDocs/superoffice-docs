@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListItem_GetStyleHint
-description: String NSArchiveListItem.GetStyleHint()
+uid: crmscript_ref_NSArchiveListItem_GetStyleHint
+title: String GetStyleHint()
 intellisense: NSArchiveListItem.GetStyleHint
 keywords: NSArchiveListItem, GetStyleHint
 so.topic: reference

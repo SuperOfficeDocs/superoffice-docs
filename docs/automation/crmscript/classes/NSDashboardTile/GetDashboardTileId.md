@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_GetDashboardTileId
-description: Integer NSDashboardTile.GetDashboardTileId()
+uid: crmscript_ref_NSDashboardTile_GetDashboardTileId
+title: Integer GetDashboardTileId()
 intellisense: NSDashboardTile.GetDashboardTileId
 keywords: NSDashboardTile, GetDashboardTileId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetGroupIdx
-description: Integer NSSelectionEntity.GetGroupIdx()
+uid: crmscript_ref_NSSelectionEntity_GetGroupIdx
+title: Integer GetGroupIdx()
 intellisense: NSSelectionEntity.GetGroupIdx
 keywords: NSSelectionEntity, GetGroupIdx
 so.topic: reference

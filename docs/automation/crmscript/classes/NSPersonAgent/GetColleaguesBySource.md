@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetColleaguesBySource
-description: PersonArray GetColleaguesBySource(Integer sourceType, Integer count)
+uid: crmscript_ref_NSPersonAgent_GetColleaguesBySource
+title: PersonArray GetColleaguesBySource(Integer sourceType, Integer count)
 intellisense: NSPersonAgent.GetColleaguesBySource
-keywords: NSPersonAgent,GetColleaguesBySource
+keywords: NSPersonAgent, GetColleaguesBySource
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCheckLicenseStatusResult_SetUrl
-description: NSCheckLicenseStatusResult.SetUrl(String url)
+uid: crmscript_ref_NSCheckLicenseStatusResult_SetUrl
+title: SetUrl(String url)
 intellisense: NSCheckLicenseStatusResult.SetUrl
 keywords: NSCheckLicenseStatusResult, GetUrl
 so.topic: reference

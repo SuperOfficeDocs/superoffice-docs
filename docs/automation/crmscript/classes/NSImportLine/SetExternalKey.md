@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportLine_SetExternalKey
-description: NSImportLine.SetExternalKey(String externalKey)
+uid: crmscript_ref_NSImportLine_SetExternalKey
+title: SetExternalKey(String externalKey)
 intellisense: NSImportLine.SetExternalKey
 keywords: NSImportLine, GetExternalKey
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoBase_SetHideField
-description: NSFieldInfoBase.SetHideField(Bool hideField)
+uid: crmscript_ref_NSFieldInfoBase_SetHideField
+title: SetHideField(Bool hideField)
 intellisense: NSFieldInfoBase.SetHideField
 keywords: NSFieldInfoBase, GetHideField
 so.topic: reference

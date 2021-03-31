@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_ValidatePersonEntity
-description: StringDictionary ValidatePersonEntity(PersonEntity personEntity)
+uid: crmscript_ref_NSPersonAgent_ValidatePersonEntity
+title: StringDictionary ValidatePersonEntity(PersonEntity personEntity)
 intellisense: NSPersonAgent.ValidatePersonEntity
-keywords: NSPersonAgent,ValidatePersonEntity
+keywords: NSPersonAgent, ValidatePersonEntity
 so.topic: reference
 ---
 

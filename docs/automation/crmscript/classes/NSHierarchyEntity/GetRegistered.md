@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHierarchyEntity_GetRegistered
-description: DateTime NSHierarchyEntity.GetRegistered()
+uid: crmscript_ref_NSHierarchyEntity_GetRegistered
+title: DateTime GetRegistered()
 intellisense: NSHierarchyEntity.GetRegistered
 keywords: NSHierarchyEntity, GetRegistered
 so.topic: reference

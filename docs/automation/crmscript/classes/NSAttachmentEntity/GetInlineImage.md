@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAttachmentEntity_GetInlineImage
-description: Bool NSAttachmentEntity.GetInlineImage()
+uid: crmscript_ref_NSAttachmentEntity_GetInlineImage
+title: Bool GetInlineImage()
 intellisense: NSAttachmentEntity.GetInlineImage
 keywords: NSAttachmentEntity, GetInlineImage
 so.topic: reference

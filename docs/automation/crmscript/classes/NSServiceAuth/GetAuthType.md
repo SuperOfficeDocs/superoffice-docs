@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSServiceAuth_GetAuthType
-description: String NSServiceAuth.GetAuthType()
+uid: crmscript_ref_NSServiceAuth_GetAuthType
+title: String GetAuthType()
 intellisense: NSServiceAuth.GetAuthType
 keywords: NSServiceAuth, GetAuthType
 so.topic: reference

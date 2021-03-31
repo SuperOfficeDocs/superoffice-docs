@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetStartCount
-description: Integer NSBatchTaskInfo.GetStartCount()
+uid: crmscript_ref_NSBatchTaskInfo_GetStartCount
+title: Integer GetStartCount()
 intellisense: NSBatchTaskInfo.GetStartCount
 keywords: NSBatchTaskInfo, GetStartCount
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_SetOnCentral
-description: NSExtAppEntity.SetOnCentral(Bool onCentral)
+uid: crmscript_ref_NSExtAppEntity_SetOnCentral
+title: SetOnCentral(Bool onCentral)
 intellisense: NSExtAppEntity.SetOnCentral
 keywords: NSExtAppEntity, GetOnCentral
 so.topic: reference

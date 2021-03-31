@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_CreateDefaultTemplateVariablesParameters
-description: NSTemplateVariablesParameters CreateDefaultTemplateVariablesParameters()
+uid: crmscript_ref_NSDocumentAgent_CreateDefaultTemplateVariablesParameters
+title: NSTemplateVariablesParameters CreateDefaultTemplateVariablesParameters()
 intellisense: NSDocumentAgent.CreateDefaultTemplateVariablesParameters
-keywords: NSDocumentAgent,CreateDefaultTemplateVariablesParameters
+keywords: NSDocumentAgent, CreateDefaultTemplateVariablesParameters
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetDescription
-description: NSQuoteLine.SetDescription(String description)
+uid: crmscript_ref_NSQuoteLine_SetDescription
+title: SetDescription(String description)
 intellisense: NSQuoteLine.SetDescription
 keywords: NSQuoteLine, GetDescription
 so.topic: reference

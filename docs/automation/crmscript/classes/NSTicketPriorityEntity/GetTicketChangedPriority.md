@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetTicketChangedPriority
-description: TicketPriorityEscalateEvent NSTicketPriorityEntity.GetTicketChangedPriority()
+uid: crmscript_ref_NSTicketPriorityEntity_GetTicketChangedPriority
+title: TicketPriorityEscalateEvent GetTicketChangedPriority()
 intellisense: NSTicketPriorityEntity.GetTicketChangedPriority
 keywords: NSTicketPriorityEntity, GetTicketChangedPriority
 so.topic: reference

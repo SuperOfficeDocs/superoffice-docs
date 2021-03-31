@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSControlInfo_SetListProviderExtraInfo
-description: NSControlInfo.SetListProviderExtraInfo(String listProviderExtraInfo)
+uid: crmscript_ref_NSControlInfo_SetListProviderExtraInfo
+title: SetListProviderExtraInfo(String listProviderExtraInfo)
 intellisense: NSControlInfo.SetListProviderExtraInfo
 keywords: NSControlInfo, GetListProviderExtraInfo
 so.topic: reference

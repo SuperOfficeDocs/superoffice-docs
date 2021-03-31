@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListItem_GetPersonEmail
-description: String NSPhoneListItem.GetPersonEmail()
+uid: crmscript_ref_NSPhoneListItem_GetPersonEmail
+title: String GetPersonEmail()
 intellisense: NSPhoneListItem.GetPersonEmail
 keywords: NSPhoneListItem, GetPersonEmail
 so.topic: reference

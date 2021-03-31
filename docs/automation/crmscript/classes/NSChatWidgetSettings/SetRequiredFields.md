@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_SetRequiredFields
-description: NSChatWidgetSettings.SetRequiredFields(WidgetRequiredFields requiredFields)
+uid: crmscript_ref_NSChatWidgetSettings_SetRequiredFields
+title: SetRequiredFields(WidgetRequiredFields requiredFields)
 intellisense: NSChatWidgetSettings.SetRequiredFields
 keywords: NSChatWidgetSettings, GetRequiredFields
 so.topic: reference

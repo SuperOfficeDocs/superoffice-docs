@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_SetMonStart
-description: NSChatOpeningHours.SetMonStart(TimeSpan monStart)
+uid: crmscript_ref_NSChatOpeningHours_SetMonStart
+title: SetMonStart(TimeSpan monStart)
 intellisense: NSChatOpeningHours.SetMonStart
 keywords: NSChatOpeningHours, GetMonStart
 so.topic: reference

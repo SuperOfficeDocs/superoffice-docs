@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSystemEventEntity_GetEta
-description: DateTime NSSystemEventEntity.GetEta()
+uid: crmscript_ref_NSSystemEventEntity_GetEta
+title: DateTime GetEta()
 intellisense: NSSystemEventEntity.GetEta
 keywords: NSSystemEventEntity, GetEta
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_GetCreated
-description: DateTime NSRoleEntity.GetCreated()
+uid: crmscript_ref_NSRoleEntity_GetCreated
+title: DateTime GetCreated()
 intellisense: NSRoleEntity.GetCreated
 keywords: NSRoleEntity, GetCreated
 so.topic: reference

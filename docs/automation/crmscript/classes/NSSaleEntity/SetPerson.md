@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetPerson
-description: NSSaleEntity.SetPerson(Person person)
+uid: crmscript_ref_NSSaleEntity_SetPerson
+title: SetPerson(Person person)
 intellisense: NSSaleEntity.SetPerson
 keywords: NSSaleEntity, GetPerson
 so.topic: reference

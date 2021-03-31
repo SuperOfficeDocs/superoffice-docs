@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateEMailFromDocumentEntity
-description: EMailEntity CreateEMailFromDocumentEntity(DocumentEntity documentEntity)
+uid: crmscript_ref_NSEMailAgent_CreateEMailFromDocumentEntity
+title: EMailEntity CreateEMailFromDocumentEntity(DocumentEntity documentEntity)
 intellisense: NSEMailAgent.CreateEMailFromDocumentEntity
-keywords: NSEMailAgent,CreateEMailFromDocumentEntity
+keywords: NSEMailAgent, CreateEMailFromDocumentEntity
 so.topic: reference
 ---
 

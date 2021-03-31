@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFavouriteAgent
-description: NSFavouriteAgent
+uid: crmscript_ref_NSFavouriteAgent
+title: NSFavouriteAgent
 intellisense: Void.NSFavouriteAgent
 keywords: NSFavouriteAgent
 so.topic: reference

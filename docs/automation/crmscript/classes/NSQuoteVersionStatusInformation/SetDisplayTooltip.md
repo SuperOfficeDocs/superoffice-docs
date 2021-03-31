@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayTooltip
-description: NSQuoteVersionStatusInformation.SetDisplayTooltip(String displayTooltip)
+uid: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayTooltip
+title: SetDisplayTooltip(String displayTooltip)
 intellisense: NSQuoteVersionStatusInformation.SetDisplayTooltip
 keywords: NSQuoteVersionStatusInformation, GetDisplayTooltip
 so.topic: reference

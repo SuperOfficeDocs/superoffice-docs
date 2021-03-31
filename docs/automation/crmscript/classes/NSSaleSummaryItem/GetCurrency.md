@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummaryItem_GetCurrency
-description: String NSSaleSummaryItem.GetCurrency()
+uid: crmscript_ref_NSSaleSummaryItem_GetCurrency
+title: String GetCurrency()
 intellisense: NSSaleSummaryItem.GetCurrency
 keywords: NSSaleSummaryItem, GetCurrency
 so.topic: reference

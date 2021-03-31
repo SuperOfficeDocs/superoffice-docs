@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue_SetMandatory
-description: NSErpSyncDefaultValue.SetMandatory(Bool mandatory)
+uid: crmscript_ref_NSErpSyncDefaultValue_SetMandatory
+title: SetMandatory(Bool mandatory)
 intellisense: NSErpSyncDefaultValue.SetMandatory
 keywords: NSErpSyncDefaultValue, GetMandatory
 so.topic: reference

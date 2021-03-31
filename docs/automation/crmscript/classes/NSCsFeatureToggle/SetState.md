@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCsFeatureToggle_SetState
-description: NSCsFeatureToggle.SetState(Bool state)
+uid: crmscript_ref_NSCsFeatureToggle_SetState
+title: SetState(Bool state)
 intellisense: NSCsFeatureToggle.SetState
 keywords: NSCsFeatureToggle, GetState
 so.topic: reference

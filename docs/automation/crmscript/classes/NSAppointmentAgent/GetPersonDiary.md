@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetPersonDiary
-description: AppointmentArray GetPersonDiary(Integer personId, DateTime startTime, DateTime endTime, Integer count)
+uid: crmscript_ref_NSAppointmentAgent_GetPersonDiary
+title: AppointmentArray GetPersonDiary(Integer personId, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSAppointmentAgent.GetPersonDiary
-keywords: NSAppointmentAgent,GetPersonDiary
+keywords: NSAppointmentAgent, GetPersonDiary
 so.topic: reference
 ---
 

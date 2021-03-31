@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage_SetExtraValues
-description: NSPocketNotificationMessage.SetExtraValues(StringDictionary extraValues)
+uid: crmscript_ref_NSPocketNotificationMessage_SetExtraValues
+title: SetExtraValues(StringDictionary extraValues)
 intellisense: NSPocketNotificationMessage.SetExtraValues
 keywords: NSPocketNotificationMessage, GetExtraValues
 so.topic: reference

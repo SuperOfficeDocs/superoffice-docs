@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_SetRegisteredAssociate
-description: NSWebhook.SetRegisteredAssociate(Associate registeredAssociate)
+uid: crmscript_ref_NSWebhook_SetRegisteredAssociate
+title: SetRegisteredAssociate(Associate registeredAssociate)
 intellisense: NSWebhook.SetRegisteredAssociate
 keywords: NSWebhook, GetRegisteredAssociate
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_GetSaintConfigurations
-description: SaintConfigurationArray GetSaintConfigurations()
+uid: crmscript_ref_NSSaintAgent_GetSaintConfigurations
+title: SaintConfigurationArray GetSaintConfigurations()
 intellisense: NSSaintAgent.GetSaintConfigurations
-keywords: NSSaintAgent,GetSaintConfigurations
+keywords: NSSaintAgent, GetSaintConfigurations
 so.topic: reference
 ---
 

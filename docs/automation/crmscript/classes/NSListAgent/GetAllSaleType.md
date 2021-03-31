@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllSaleType
-description: SaleTypeArray GetAllSaleType()
+uid: crmscript_ref_NSListAgent_GetAllSaleType
+title: SaleTypeArray GetAllSaleType()
 intellisense: NSListAgent.GetAllSaleType
-keywords: NSListAgent,GetAllSaleType
+keywords: NSListAgent, GetAllSaleType
 so.topic: reference
 ---
 

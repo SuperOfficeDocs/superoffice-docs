@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative
-description: NSQuoteAlternative
+uid: crmscript_ref_NSQuoteAlternative
+title: NSQuoteAlternative
 intellisense: Void.NSQuoteAlternative
 keywords: NSQuoteAlternative
 so.topic: reference

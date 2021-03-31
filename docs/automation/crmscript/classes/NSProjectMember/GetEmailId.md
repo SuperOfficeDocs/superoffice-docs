@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_GetEmailId
-description: Integer NSProjectMember.GetEmailId()
+uid: crmscript_ref_NSProjectMember_GetEmailId
+title: Integer GetEmailId()
 intellisense: NSProjectMember.GetEmailId
 keywords: NSProjectMember, GetEmailId
 so.topic: reference

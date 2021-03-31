@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope
-description: NSEMailEnvelope
+uid: crmscript_ref_NSEMailEnvelope
+title: NSEMailEnvelope
 intellisense: Void.NSEMailEnvelope
 keywords: NSEMailEnvelope
 so.topic: reference

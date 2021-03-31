@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAccount_SetEMailAccountId
-description: NSEMailAccount.SetEMailAccountId(Integer eMailAccountId)
+uid: crmscript_ref_NSEMailAccount_SetEMailAccountId
+title: SetEMailAccountId(Integer eMailAccountId)
 intellisense: NSEMailAccount.SetEMailAccountId
 keywords: NSEMailAccount, GetEMailAccountId
 so.topic: reference

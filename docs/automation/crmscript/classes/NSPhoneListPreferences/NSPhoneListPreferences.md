@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences
-description: NSPhoneListPreferences
+uid: crmscript_ref_NSPhoneListPreferences
+title: NSPhoneListPreferences
 intellisense: Void.NSPhoneListPreferences
 keywords: NSPhoneListPreferences
 so.topic: reference

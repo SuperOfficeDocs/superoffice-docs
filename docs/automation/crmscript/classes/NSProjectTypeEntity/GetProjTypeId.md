@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectTypeEntity_GetProjTypeId
-description: Integer NSProjectTypeEntity.GetProjTypeId()
+uid: crmscript_ref_NSProjectTypeEntity_GetProjTypeId
+title: Integer GetProjTypeId()
 intellisense: NSProjectTypeEntity.GetProjTypeId
 keywords: NSProjectTypeEntity, GetProjTypeId
 so.topic: reference

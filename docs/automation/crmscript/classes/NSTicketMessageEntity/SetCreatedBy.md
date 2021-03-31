@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_SetCreatedBy
-description: NSTicketMessageEntity.SetCreatedBy(Associate createdBy)
+uid: crmscript_ref_NSTicketMessageEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
 intellisense: NSTicketMessageEntity.SetCreatedBy
 keywords: NSTicketMessageEntity, GetCreatedBy
 so.topic: reference

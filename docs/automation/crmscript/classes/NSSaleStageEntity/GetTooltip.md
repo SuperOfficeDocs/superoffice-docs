@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStageEntity_GetTooltip
-description: String NSSaleStageEntity.GetTooltip()
+uid: crmscript_ref_NSSaleStageEntity_GetTooltip
+title: String GetTooltip()
 intellisense: NSSaleStageEntity.GetTooltip
 keywords: NSSaleStageEntity, GetTooltip
 so.topic: reference

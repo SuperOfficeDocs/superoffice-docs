@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetPreFormEnabled
-description: Bool NSChatWidgetSettings.GetPreFormEnabled()
+uid: crmscript_ref_NSChatWidgetSettings_GetPreFormEnabled
+title: Bool GetPreFormEnabled()
 intellisense: NSChatWidgetSettings.GetPreFormEnabled
 keywords: NSChatWidgetSettings, GetPreFormEnabled
 so.topic: reference

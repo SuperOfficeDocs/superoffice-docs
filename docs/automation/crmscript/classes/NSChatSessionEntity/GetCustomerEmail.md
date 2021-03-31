@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetCustomerEmail
-description: String NSChatSessionEntity.GetCustomerEmail()
+uid: crmscript_ref_NSChatSessionEntity_GetCustomerEmail
+title: String GetCustomerEmail()
 intellisense: NSChatSessionEntity.GetCustomerEmail
 keywords: NSChatSessionEntity, GetCustomerEmail
 so.topic: reference

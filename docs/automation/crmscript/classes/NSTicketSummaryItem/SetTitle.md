@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketSummaryItem_SetTitle
-description: NSTicketSummaryItem.SetTitle(String title)
+uid: crmscript_ref_NSTicketSummaryItem_SetTitle
+title: SetTitle(String title)
 intellisense: NSTicketSummaryItem.SetTitle
 keywords: NSTicketSummaryItem, GetTitle
 so.topic: reference

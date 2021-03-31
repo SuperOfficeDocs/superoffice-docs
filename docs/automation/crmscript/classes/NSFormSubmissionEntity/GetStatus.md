@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_GetStatus
-description: FormSubmissionStatus NSFormSubmissionEntity.GetStatus()
+uid: crmscript_ref_NSFormSubmissionEntity_GetStatus
+title: FormSubmissionStatus GetStatus()
 intellisense: NSFormSubmissionEntity.GetStatus
 keywords: NSFormSubmissionEntity, GetStatus
 so.topic: reference

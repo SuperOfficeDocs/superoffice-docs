@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_SetSignOnTriggersAssign
-description: NSProjectEvent.SetSignOnTriggersAssign(Bool signOnTriggersAssign)
+uid: crmscript_ref_NSProjectEvent_SetSignOnTriggersAssign
+title: SetSignOnTriggersAssign(Bool signOnTriggersAssign)
 intellisense: NSProjectEvent.SetSignOnTriggersAssign
 keywords: NSProjectEvent, GetSignOnTriggersAssign
 so.topic: reference

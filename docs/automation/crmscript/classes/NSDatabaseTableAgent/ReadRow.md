@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDatabaseTableAgent_ReadRow
-description: TableRecord ReadRow(String tableName, Integer id)
+uid: crmscript_ref_NSDatabaseTableAgent_ReadRow
+title: TableRecord ReadRow(String tableName, Integer id)
 intellisense: NSDatabaseTableAgent.ReadRow
-keywords: NSDatabaseTableAgent,ReadRow
+keywords: NSDatabaseTableAgent, ReadRow
 so.topic: reference
 ---
 

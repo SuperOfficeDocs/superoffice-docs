@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetAssignmentStatus
-description: NSAppointment.SetAssignmentStatus(Integer assignmentStatus)
+uid: crmscript_ref_NSAppointment_SetAssignmentStatus
+title: SetAssignmentStatus(Integer assignmentStatus)
 intellisense: NSAppointment.SetAssignmentStatus
 keywords: NSAppointment, GetAssignmentStatus
 so.topic: reference

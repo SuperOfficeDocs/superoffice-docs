@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetBusiness
-description: NSPersonEntity.SetBusiness(Business business)
+uid: crmscript_ref_NSPersonEntity_SetBusiness
+title: SetBusiness(Business business)
 intellisense: NSPersonEntity.SetBusiness
 keywords: NSPersonEntity, GetBusiness
 so.topic: reference

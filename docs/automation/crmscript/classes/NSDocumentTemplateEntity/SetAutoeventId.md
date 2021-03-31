@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetAutoeventId
-description: NSDocumentTemplateEntity.SetAutoeventId(Integer autoeventId)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetAutoeventId
+title: SetAutoeventId(Integer autoeventId)
 intellisense: NSDocumentTemplateEntity.SetAutoeventId
 keywords: NSDocumentTemplateEntity, GetAutoeventId
 so.topic: reference

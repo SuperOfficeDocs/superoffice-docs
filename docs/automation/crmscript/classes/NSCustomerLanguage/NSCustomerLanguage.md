@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerLanguage
-description: NSCustomerLanguage
+uid: crmscript_ref_NSCustomerLanguage
+title: NSCustomerLanguage
 intellisense: Void.NSCustomerLanguage
 keywords: NSCustomerLanguage
 so.topic: reference

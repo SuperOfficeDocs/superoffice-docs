@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_SetAllAccess
-description: NSErpConnection.SetAllAccess(Bool allAccess)
+uid: crmscript_ref_NSErpConnection_SetAllAccess
+title: SetAllAccess(Bool allAccess)
 intellisense: NSErpConnection.SetAllAccess
 keywords: NSErpConnection, GetAllAccess
 so.topic: reference

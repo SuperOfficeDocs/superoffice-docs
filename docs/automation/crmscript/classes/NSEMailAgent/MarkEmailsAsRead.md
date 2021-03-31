@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_MarkEmailsAsRead
-description: Void MarkEmailsAsRead(IntegerArray ids, Bool read)
+uid: crmscript_ref_NSEMailAgent_MarkEmailsAsRead
+title: Void MarkEmailsAsRead(IntegerArray ids, Bool read)
 intellisense: NSEMailAgent.MarkEmailsAsRead
-keywords: NSEMailAgent,MarkEmailsAsRead
+keywords: NSEMailAgent, MarkEmailsAsRead
 so.topic: reference
 ---
 

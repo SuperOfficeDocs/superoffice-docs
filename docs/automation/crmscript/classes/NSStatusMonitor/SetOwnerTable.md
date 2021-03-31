@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor_SetOwnerTable
-description: NSStatusMonitor.SetOwnerTable(Integer ownerTable)
+uid: crmscript_ref_NSStatusMonitor_SetOwnerTable
+title: SetOwnerTable(Integer ownerTable)
 intellisense: NSStatusMonitor.SetOwnerTable
 keywords: NSStatusMonitor, GetOwnerTable
 so.topic: reference

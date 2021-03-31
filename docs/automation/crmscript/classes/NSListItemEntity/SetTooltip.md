@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListItemEntity_SetTooltip
-description: NSListItemEntity.SetTooltip(String tooltip)
+uid: crmscript_ref_NSListItemEntity_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSListItemEntity.SetTooltip
 keywords: NSListItemEntity, GetTooltip
 so.topic: reference

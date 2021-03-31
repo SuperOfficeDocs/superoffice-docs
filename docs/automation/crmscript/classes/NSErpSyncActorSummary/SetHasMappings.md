@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorSummary_SetHasMappings
-description: NSErpSyncActorSummary.SetHasMappings(Bool hasMappings)
+uid: crmscript_ref_NSErpSyncActorSummary_SetHasMappings
+title: SetHasMappings(Bool hasMappings)
 intellisense: NSErpSyncActorSummary.SetHasMappings
 keywords: NSErpSyncActorSummary, GetHasMappings
 so.topic: reference

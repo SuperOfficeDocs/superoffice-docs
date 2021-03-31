@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSummaryItem_GetFirstMessage
-description: String NSChatSummaryItem.GetFirstMessage()
+uid: crmscript_ref_NSChatSummaryItem_GetFirstMessage
+title: String GetFirstMessage()
 intellisense: NSChatSummaryItem.GetFirstMessage
 keywords: NSChatSummaryItem, GetFirstMessage
 so.topic: reference

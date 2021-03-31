@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetLastMembershipChangeBy
-description: Integer NSSelectionEntity.GetLastMembershipChangeBy()
+uid: crmscript_ref_NSSelectionEntity_GetLastMembershipChangeBy
+title: Integer GetLastMembershipChangeBy()
 intellisense: NSSelectionEntity.GetLastMembershipChangeBy
 keywords: NSSelectionEntity, GetLastMembershipChangeBy
 so.topic: reference

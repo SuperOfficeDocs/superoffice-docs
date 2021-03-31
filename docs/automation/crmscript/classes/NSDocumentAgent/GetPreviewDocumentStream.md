@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetPreviewDocumentStream
-description: DocumentPreview GetPreviewDocumentStream(Integer documentId)
+uid: crmscript_ref_NSDocumentAgent_GetPreviewDocumentStream
+title: DocumentPreview GetPreviewDocumentStream(Integer documentId)
 intellisense: NSDocumentAgent.GetPreviewDocumentStream
-keywords: NSDocumentAgent,GetPreviewDocumentStream
+keywords: NSDocumentAgent, GetPreviewDocumentStream
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetOwnerCompanysCurrency
-description: Currency GetOwnerCompanysCurrency()
+uid: crmscript_ref_NSListAgent_GetOwnerCompanysCurrency
+title: Currency GetOwnerCompanysCurrency()
 intellisense: NSListAgent.GetOwnerCompanysCurrency
-keywords: NSListAgent,GetOwnerCompanysCurrency
+keywords: NSListAgent, GetOwnerCompanysCurrency
 so.topic: reference
 ---
 

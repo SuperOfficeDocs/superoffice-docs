@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportEntity_GetAssociateId
-description: Integer NSReportEntity.GetAssociateId()
+uid: crmscript_ref_NSReportEntity_GetAssociateId
+title: Integer GetAssociateId()
 intellisense: NSReportEntity.GetAssociateId
 keywords: NSReportEntity, GetAssociateId
 so.topic: reference

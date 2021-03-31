@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity_SetDeleted
-description: NSAmountClassEntity.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSAmountClassEntity_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSAmountClassEntity.SetDeleted
 keywords: NSAmountClassEntity, GetDeleted
 so.topic: reference

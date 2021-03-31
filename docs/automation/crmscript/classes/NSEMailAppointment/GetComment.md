@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment_GetComment
-description: String NSEMailAppointment.GetComment()
+uid: crmscript_ref_NSEMailAppointment_GetComment
+title: String GetComment()
 intellisense: NSEMailAppointment.GetComment
 keywords: NSEMailAppointment, GetComment
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionButtonState_SetEnabled
-description: NSQuoteVersionButtonState.SetEnabled(Bool enabled)
+uid: crmscript_ref_NSQuoteVersionButtonState_SetEnabled
+title: SetEnabled(Bool enabled)
 intellisense: NSQuoteVersionButtonState.SetEnabled
 keywords: NSQuoteVersionButtonState, GetEnabled
 so.topic: reference

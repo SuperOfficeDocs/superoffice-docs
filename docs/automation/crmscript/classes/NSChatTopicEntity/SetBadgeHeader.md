@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_SetBadgeHeader
-description: NSChatTopicEntity.SetBadgeHeader(String badgeHeader)
+uid: crmscript_ref_NSChatTopicEntity_SetBadgeHeader
+title: SetBadgeHeader(String badgeHeader)
 intellisense: NSChatTopicEntity.SetBadgeHeader
 keywords: NSChatTopicEntity, GetBadgeHeader
 so.topic: reference

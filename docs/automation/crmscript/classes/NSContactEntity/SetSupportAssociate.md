@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetSupportAssociate
-description: NSContactEntity.SetSupportAssociate(Associate supportAssociate)
+uid: crmscript_ref_NSContactEntity_SetSupportAssociate
+title: SetSupportAssociate(Associate supportAssociate)
 intellisense: NSContactEntity.SetSupportAssociate
 keywords: NSContactEntity, GetSupportAssociate
 so.topic: reference

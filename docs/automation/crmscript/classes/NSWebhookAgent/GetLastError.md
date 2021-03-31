@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSWebhookAgent_GetLastError
-description: String GetLastError(Integer webhookId)
+uid: crmscript_ref_NSWebhookAgent_GetLastError
+title: String GetLastError(Integer webhookId)
 intellisense: NSWebhookAgent.GetLastError
-keywords: NSWebhookAgent,GetLastError
+keywords: NSWebhookAgent, GetLastError
 so.topic: reference
 ---
 

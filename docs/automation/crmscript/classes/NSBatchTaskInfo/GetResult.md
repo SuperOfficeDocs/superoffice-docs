@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetResult
-description: String NSBatchTaskInfo.GetResult()
+uid: crmscript_ref_NSBatchTaskInfo_GetResult
+title: String GetResult()
 intellisense: NSBatchTaskInfo.GetResult
 keywords: NSBatchTaskInfo, GetResult
 so.topic: reference

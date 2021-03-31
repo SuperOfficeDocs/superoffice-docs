@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_DeleteUserGroup
-description: Void DeleteUserGroup(Integer userGroupToDelete, Integer userGroupToMoveTo)
+uid: crmscript_ref_NSUserAgent_DeleteUserGroup
+title: Void DeleteUserGroup(Integer userGroupToDelete, Integer userGroupToMoveTo)
 intellisense: NSUserAgent.DeleteUserGroup
-keywords: NSUserAgent,DeleteUserGroup
+keywords: NSUserAgent, DeleteUserGroup
 so.topic: reference
 ---
 

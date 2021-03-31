@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetConnectionsForAssociate
-description: QuoteConnectionArray GetConnectionsForAssociate(Integer associateId)
+uid: crmscript_ref_NSQuoteAgent_GetConnectionsForAssociate
+title: QuoteConnectionArray GetConnectionsForAssociate(Integer associateId)
 intellisense: NSQuoteAgent.GetConnectionsForAssociate
-keywords: NSQuoteAgent,GetConnectionsForAssociate
+keywords: NSQuoteAgent, GetConnectionsForAssociate
 so.topic: reference
 ---
 

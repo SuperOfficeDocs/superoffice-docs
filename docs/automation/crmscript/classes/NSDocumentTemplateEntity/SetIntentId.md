@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetIntentId
-description: NSDocumentTemplateEntity.SetIntentId(Integer intentId)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetIntentId
+title: SetIntentId(Integer intentId)
 intellisense: NSDocumentTemplateEntity.SetIntentId
 keywords: NSDocumentTemplateEntity, GetIntentId
 so.topic: reference

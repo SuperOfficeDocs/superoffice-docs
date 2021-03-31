@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetAssociateId
-description: NSPerson.SetAssociateId(Integer associateId)
+uid: crmscript_ref_NSPerson_SetAssociateId
+title: SetAssociateId(Integer associateId)
 intellisense: NSPerson.SetAssociateId
 keywords: NSPerson, GetAssociateId
 so.topic: reference

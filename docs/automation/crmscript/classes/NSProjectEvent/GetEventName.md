@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_GetEventName
-description: String NSProjectEvent.GetEventName()
+uid: crmscript_ref_NSProjectEvent_GetEventName
+title: String GetEventName()
 intellisense: NSProjectEvent.GetEventName
 keywords: NSProjectEvent, GetEventName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicAgent
-description: NSChatTopicAgent
+uid: crmscript_ref_NSChatTopicAgent
+title: NSChatTopicAgent
 intellisense: Void.NSChatTopicAgent
 keywords: NSChatTopicAgent
 so.topic: reference

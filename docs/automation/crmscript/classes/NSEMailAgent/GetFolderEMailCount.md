@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetFolderEMailCount
-description: Integer GetFolderEMailCount(EMailConnectionInfo connectionInfo, Bool onlyUnread)
+uid: crmscript_ref_NSEMailAgent_GetFolderEMailCount
+title: Integer GetFolderEMailCount(EMailConnectionInfo connectionInfo, Bool onlyUnread)
 intellisense: NSEMailAgent.GetFolderEMailCount
-keywords: NSEMailAgent,GetFolderEMailCount
+keywords: NSEMailAgent, GetFolderEMailCount
 so.topic: reference
 ---
 

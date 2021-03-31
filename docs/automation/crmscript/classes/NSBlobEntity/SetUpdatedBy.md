@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_SetUpdatedBy
-description: NSBlobEntity.SetUpdatedBy(Associate updatedBy)
+uid: crmscript_ref_NSBlobEntity_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
 intellisense: NSBlobEntity.SetUpdatedBy
 keywords: NSBlobEntity, GetUpdatedBy
 so.topic: reference

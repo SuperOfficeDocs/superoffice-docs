@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_SetRecipe
-description: NSFormEntity.SetRecipe(String recipe)
+uid: crmscript_ref_NSFormEntity_SetRecipe
+title: SetRecipe(String recipe)
 intellisense: NSFormEntity.SetRecipe
 keywords: NSFormEntity, GetRecipe
 so.topic: reference

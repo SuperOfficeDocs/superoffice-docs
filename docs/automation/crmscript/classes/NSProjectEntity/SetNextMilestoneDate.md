@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_SetNextMilestoneDate
-description: NSProjectEntity.SetNextMilestoneDate(DateTime nextMilestoneDate)
+uid: crmscript_ref_NSProjectEntity_SetNextMilestoneDate
+title: SetNextMilestoneDate(DateTime nextMilestoneDate)
 intellisense: NSProjectEntity.SetNextMilestoneDate
 keywords: NSProjectEntity, GetNextMilestoneDate
 so.topic: reference

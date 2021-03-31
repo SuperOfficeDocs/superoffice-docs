@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFreeText
-description: NSFreeText
+uid: crmscript_ref_NSFreeText
+title: NSFreeText
 intellisense: Void.NSFreeText
 keywords: NSFreeText
 so.topic: reference

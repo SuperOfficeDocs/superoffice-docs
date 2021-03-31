@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAttachmentEntity_GetAttSize
-description: Integer NSAttachmentEntity.GetAttSize()
+uid: crmscript_ref_NSAttachmentEntity_GetAttSize
+title: Integer GetAttSize()
 intellisense: NSAttachmentEntity.GetAttSize
 keywords: NSAttachmentEntity, GetAttSize
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAttachmentEntity_GetContentType
-description: String NSAttachmentEntity.GetContentType()
+uid: crmscript_ref_NSAttachmentEntity_GetContentType
+title: String GetContentType()
 intellisense: NSAttachmentEntity.GetContentType
 keywords: NSAttachmentEntity, GetContentType
 so.topic: reference

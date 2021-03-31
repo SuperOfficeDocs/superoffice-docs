@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent
-description: NSUserDefinedFieldInfoAgent
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent
+title: NSUserDefinedFieldInfoAgent
 intellisense: Void.NSUserDefinedFieldInfoAgent
 keywords: NSUserDefinedFieldInfoAgent
 so.topic: reference

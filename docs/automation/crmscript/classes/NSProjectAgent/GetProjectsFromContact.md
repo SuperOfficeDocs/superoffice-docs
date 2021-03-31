@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetProjectsFromContact
-description: ProjectArray GetProjectsFromContact(Integer contactId)
+uid: crmscript_ref_NSProjectAgent_GetProjectsFromContact
+title: ProjectArray GetProjectsFromContact(Integer contactId)
 intellisense: NSProjectAgent.GetProjectsFromContact
-keywords: NSProjectAgent,GetProjectsFromContact
+keywords: NSProjectAgent, GetProjectsFromContact
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_GetMyProjects
-description: ProjectArray GetMyProjects(Bool includeMemberProjects)
+uid: crmscript_ref_NSProjectAgent_GetMyProjects
+title: ProjectArray GetMyProjects(Bool includeMemberProjects)
 intellisense: NSProjectAgent.GetMyProjects
-keywords: NSProjectAgent,GetMyProjects
+keywords: NSProjectAgent, GetMyProjects
 so.topic: reference
 ---
 

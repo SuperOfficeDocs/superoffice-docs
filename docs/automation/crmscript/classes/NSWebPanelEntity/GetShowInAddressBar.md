@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetShowInAddressBar
-description: Bool NSWebPanelEntity.GetShowInAddressBar()
+uid: crmscript_ref_NSWebPanelEntity_GetShowInAddressBar
+title: Bool GetShowInAddressBar()
 intellisense: NSWebPanelEntity.GetShowInAddressBar
 keywords: NSWebPanelEntity, GetShowInAddressBar
 so.topic: reference

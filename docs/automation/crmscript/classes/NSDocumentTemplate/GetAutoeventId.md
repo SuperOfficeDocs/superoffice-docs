@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplate_GetAutoeventId
-description: Integer NSDocumentTemplate.GetAutoeventId()
+uid: crmscript_ref_NSDocumentTemplate_GetAutoeventId
+title: Integer GetAutoeventId()
 intellisense: NSDocumentTemplate.GetAutoeventId
 keywords: NSDocumentTemplate, GetAutoeventId
 so.topic: reference

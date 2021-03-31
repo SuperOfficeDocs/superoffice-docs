@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_SetWorkdir
-description: NSExtAppEntity.SetWorkdir(String workdir)
+uid: crmscript_ref_NSExtAppEntity_SetWorkdir
+title: SetWorkdir(String workdir)
 intellisense: NSExtAppEntity.SetWorkdir
 keywords: NSExtAppEntity, GetWorkdir
 so.topic: reference

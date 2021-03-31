@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_GetFrom
-description: EMailAddress NSEMailEnvelope.GetFrom()
+uid: crmscript_ref_NSEMailEnvelope_GetFrom
+title: EMailAddress GetFrom()
 intellisense: NSEMailEnvelope.GetFrom
 keywords: NSEMailEnvelope, GetFrom
 so.topic: reference

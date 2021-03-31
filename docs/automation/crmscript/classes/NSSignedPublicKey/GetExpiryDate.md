@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSignedPublicKey_GetExpiryDate
-description: DateTime NSSignedPublicKey.GetExpiryDate()
+uid: crmscript_ref_NSSignedPublicKey_GetExpiryDate
+title: DateTime GetExpiryDate()
 intellisense: NSSignedPublicKey.GetExpiryDate
 keywords: NSSignedPublicKey, GetExpiryDate
 so.topic: reference

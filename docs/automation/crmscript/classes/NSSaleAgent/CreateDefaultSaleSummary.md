@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_CreateDefaultSaleSummary
-description: NSSaleSummary CreateDefaultSaleSummary()
+uid: crmscript_ref_NSSaleAgent_CreateDefaultSaleSummary
+title: NSSaleSummary CreateDefaultSaleSummary()
 intellisense: NSSaleAgent.CreateDefaultSaleSummary
-keywords: NSSaleAgent,CreateDefaultSaleSummary
+keywords: NSSaleAgent, CreateDefaultSaleSummary
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicAgent_SetCanManage
-description: NSChatTopicAgent.SetCanManage(Bool canManage)
+uid: crmscript_ref_NSChatTopicAgent_SetCanManage
+title: SetCanManage(Bool canManage)
 intellisense: NSChatTopicAgent.SetCanManage
 keywords: NSChatTopicAgent, GetCanManage
 so.topic: reference

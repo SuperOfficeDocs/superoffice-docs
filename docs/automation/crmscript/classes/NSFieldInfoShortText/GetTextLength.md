@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoShortText_GetTextLength
-description: Integer NSFieldInfoShortText.GetTextLength()
+uid: crmscript_ref_NSFieldInfoShortText_GetTextLength
+title: Integer GetTextLength()
 intellisense: NSFieldInfoShortText.GetTextLength
 keywords: NSFieldInfoShortText, GetTextLength
 so.topic: reference

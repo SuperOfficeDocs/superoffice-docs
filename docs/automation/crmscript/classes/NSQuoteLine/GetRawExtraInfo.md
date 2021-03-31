@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetRawExtraInfo
-description: String NSQuoteLine.GetRawExtraInfo()
+uid: crmscript_ref_NSQuoteLine_GetRawExtraInfo
+title: String GetRawExtraInfo()
 intellisense: NSQuoteLine.GetRawExtraInfo
 keywords: NSQuoteLine, GetRawExtraInfo
 so.topic: reference

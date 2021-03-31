@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue_GetMandatory
-description: Bool NSErpSyncDefaultValue.GetMandatory()
+uid: crmscript_ref_NSErpSyncDefaultValue_GetMandatory
+title: Bool GetMandatory()
 intellisense: NSErpSyncDefaultValue.GetMandatory
 keywords: NSErpSyncDefaultValue, GetMandatory
 so.topic: reference

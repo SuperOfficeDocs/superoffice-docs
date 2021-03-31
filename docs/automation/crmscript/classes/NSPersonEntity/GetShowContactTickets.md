@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetShowContactTickets
-description: Integer NSPersonEntity.GetShowContactTickets()
+uid: crmscript_ref_NSPersonEntity_GetShowContactTickets
+title: Integer GetShowContactTickets()
 intellisense: NSPersonEntity.GetShowContactTickets
 keywords: NSPersonEntity, GetShowContactTickets
 so.topic: reference

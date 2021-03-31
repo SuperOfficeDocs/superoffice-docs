@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_GetAppointmentId
-description: Integer NSTemplateVariablesParameters.GetAppointmentId()
+uid: crmscript_ref_NSTemplateVariablesParameters_GetAppointmentId
+title: Integer GetAppointmentId()
 intellisense: NSTemplateVariablesParameters.GetAppointmentId
 keywords: NSTemplateVariablesParameters, GetAppointmentId
 so.topic: reference

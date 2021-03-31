@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
-description: QuoteConnectionArray GetAllAvailableQuoteConnectionsWithPriceLists()
+uid: crmscript_ref_NSQuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
+title: QuoteConnectionArray GetAllAvailableQuoteConnectionsWithPriceLists()
 intellisense: NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists
-keywords: NSQuoteAgent,GetAllAvailableQuoteConnectionsWithPriceLists
+keywords: NSQuoteAgent, GetAllAvailableQuoteConnectionsWithPriceLists
 so.topic: reference
 ---
 

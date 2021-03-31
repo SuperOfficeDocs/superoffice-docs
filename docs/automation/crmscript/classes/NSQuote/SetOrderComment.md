@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuote_SetOrderComment
-description: NSQuote.SetOrderComment(String orderComment)
+uid: crmscript_ref_NSQuote_SetOrderComment
+title: SetOrderComment(String orderComment)
 intellisense: NSQuote.SetOrderComment
 keywords: NSQuote, GetOrderComment
 so.topic: reference

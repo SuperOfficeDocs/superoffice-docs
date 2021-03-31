@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketStartupData_GetTableRights
-description: ETableRightArray NSPocketStartupData.GetTableRights()
+uid: crmscript_ref_NSPocketStartupData_GetTableRights
+title: ETableRightArray GetTableRights()
 intellisense: NSPocketStartupData.GetTableRights
 keywords: NSPocketStartupData, GetTableRights
 so.topic: reference

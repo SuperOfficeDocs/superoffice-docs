@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetDeleted
-description: NSSaleTypeEntity.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSSaleTypeEntity_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSSaleTypeEntity.SetDeleted
 keywords: NSSaleTypeEntity, GetDeleted
 so.topic: reference

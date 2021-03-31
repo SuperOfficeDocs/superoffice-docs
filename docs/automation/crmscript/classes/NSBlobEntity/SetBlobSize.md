@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_SetBlobSize
-description: NSBlobEntity.SetBlobSize(Integer blobSize)
+uid: crmscript_ref_NSBlobEntity_SetBlobSize
+title: SetBlobSize(Integer blobSize)
 intellisense: NSBlobEntity.SetBlobSize
 keywords: NSBlobEntity, GetBlobSize
 so.topic: reference

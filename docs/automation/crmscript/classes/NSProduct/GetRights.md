@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetRights
-description: String NSProduct.GetRights()
+uid: crmscript_ref_NSProduct_GetRights
+title: String GetRights()
 intellisense: NSProduct.GetRights
 keywords: NSProduct, GetRights
 so.topic: reference

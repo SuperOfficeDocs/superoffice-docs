@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReasonSold
-description: NSReasonSold
+uid: crmscript_ref_NSReasonSold
+title: NSReasonSold
 intellisense: Void.NSReasonSold
 keywords: NSReasonSold
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CreateDefaultRoleEntity
-description: NSRoleEntity CreateDefaultRoleEntity()
+uid: crmscript_ref_NSUserAgent_CreateDefaultRoleEntity
+title: NSRoleEntity CreateDefaultRoleEntity()
 intellisense: NSUserAgent.CreateDefaultRoleEntity
-keywords: NSUserAgent,CreateDefaultRoleEntity
+keywords: NSUserAgent, CreateDefaultRoleEntity
 so.topic: reference
 ---
 	  

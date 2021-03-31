@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTableRecord
-description: NSTableRecord
+uid: crmscript_ref_NSTableRecord
+title: NSTableRecord
 intellisense: Void.NSTableRecord
 keywords: NSTableRecord
 so.topic: reference

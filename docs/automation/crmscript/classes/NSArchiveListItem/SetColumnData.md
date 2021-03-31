@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListItem_SetColumnData
-description: NSArchiveListItem.SetColumnData(ColumnDataDictionary columnData)
+uid: crmscript_ref_NSArchiveListItem_SetColumnData
+title: SetColumnData(ColumnDataDictionary columnData)
 intellisense: NSArchiveListItem.SetColumnData
 keywords: NSArchiveListItem, GetColumnData
 so.topic: reference

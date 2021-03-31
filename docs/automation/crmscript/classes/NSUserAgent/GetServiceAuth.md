@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetServiceAuth
-description: NSServiceAuth GetServiceAuth(Integer serviceAuthId);
+uid: crmscript_ref_NSUserAgent_GetServiceAuth
+title: NSServiceAuth GetServiceAuth(Integer serviceAuthId);
 intellisense: NSUserAgent.GetServiceAuth
-keywords: NSUserAgent,GetServiceAuth
+keywords: NSUserAgent, GetServiceAuth
 so.topic: reference
 ---
 

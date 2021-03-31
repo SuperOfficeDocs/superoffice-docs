@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetColleagues
-description: PersonArray GetColleagues()
+uid: crmscript_ref_NSPersonAgent_GetColleagues
+title: PersonArray GetColleagues()
 intellisense: NSPersonAgent.GetColleagues
-keywords: NSPersonAgent,GetColleagues
+keywords: NSPersonAgent, GetColleagues
 so.topic: reference
 ---
 

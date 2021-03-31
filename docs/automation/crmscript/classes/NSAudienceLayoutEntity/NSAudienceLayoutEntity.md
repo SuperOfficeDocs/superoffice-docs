@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceLayoutEntity
-description: NSAudienceLayoutEntity
+uid: crmscript_ref_NSAudienceLayoutEntity
+title: NSAudienceLayoutEntity
 intellisense: Void.NSAudienceLayoutEntity
 keywords: NSAudienceLayoutEntity
 so.topic: reference

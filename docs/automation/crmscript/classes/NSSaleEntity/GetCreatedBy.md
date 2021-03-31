@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetCreatedBy
-description: Associate NSSaleEntity.GetCreatedBy()
+uid: crmscript_ref_NSSaleEntity_GetCreatedBy
+title: Associate GetCreatedBy()
 intellisense: NSSaleEntity.GetCreatedBy
 keywords: NSSaleEntity, GetCreatedBy
 so.topic: reference

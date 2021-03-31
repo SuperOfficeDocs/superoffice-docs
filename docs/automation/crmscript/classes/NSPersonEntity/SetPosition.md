@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetPosition
-description: NSPersonEntity.SetPosition(Position position)
+uid: crmscript_ref_NSPersonEntity_SetPosition
+title: SetPosition(Position position)
 intellisense: NSPersonEntity.SetPosition
 keywords: NSPersonEntity, GetPosition
 so.topic: reference

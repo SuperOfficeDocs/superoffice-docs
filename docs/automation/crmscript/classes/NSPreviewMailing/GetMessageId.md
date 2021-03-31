@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_GetMessageId
-description: Integer NSPreviewMailing.GetMessageId()
+uid: crmscript_ref_NSPreviewMailing_GetMessageId
+title: Integer GetMessageId()
 intellisense: NSPreviewMailing.GetMessageId
 keywords: NSPreviewMailing, GetMessageId
 so.topic: reference

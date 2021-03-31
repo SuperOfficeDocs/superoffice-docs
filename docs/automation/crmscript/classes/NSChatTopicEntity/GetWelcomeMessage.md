@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetWelcomeMessage
-description: String NSChatTopicEntity.GetWelcomeMessage()
+uid: crmscript_ref_NSChatTopicEntity_GetWelcomeMessage
+title: String GetWelcomeMessage()
 intellisense: NSChatTopicEntity.GetWelcomeMessage
 keywords: NSChatTopicEntity, GetWelcomeMessage
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetQuoteVersionAddresses
-description: AddressArray GetQuoteVersionAddresses(Integer quoteVersionId)
+uid: crmscript_ref_NSContactAgent_GetQuoteVersionAddresses
+title: AddressArray GetQuoteVersionAddresses(Integer quoteVersionId)
 intellisense: NSContactAgent.GetQuoteVersionAddresses
-keywords: NSContactAgent,GetQuoteVersionAddresses
+keywords: NSContactAgent, GetQuoteVersionAddresses
 so.topic: reference
 ---
 

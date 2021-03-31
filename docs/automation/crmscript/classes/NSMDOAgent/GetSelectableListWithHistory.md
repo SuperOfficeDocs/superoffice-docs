@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent_GetSelectableListWithHistory
-description: SelectableMDOListItemArray GetSelectableListWithHistory(String name, Bool forceFlatList, String additionalInfo, IntegerArray historyItems, Bool onlyHistory)
+uid: crmscript_ref_NSMDOAgent_GetSelectableListWithHistory
+title: SelectableMDOListItemArray GetSelectableListWithHistory(String name, Bool forceFlatList, String additionalInfo, IntegerArray historyItems, Bool onlyHistory)
 intellisense: NSMDOAgent.GetSelectableListWithHistory
-keywords: NSMDOAgent,GetSelectableListWithHistory
+keywords: NSMDOAgent, GetSelectableListWithHistory
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity
-description: NSRefCountEntity
+uid: crmscript_ref_NSRefCountEntity
+title: NSRefCountEntity
 intellisense: Void.NSRefCountEntity
 keywords: NSRefCountEntity
 so.topic: reference

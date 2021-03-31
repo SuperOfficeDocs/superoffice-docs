@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent_SaveSaintConfiguration
-description: NSSaintConfiguration SaveSaintConfiguration(NSSaintConfiguration saintConfiguration);
+uid: crmscript_ref_NSSaintAgent_SaveSaintConfiguration
+title: NSSaintConfiguration SaveSaintConfiguration(NSSaintConfiguration saintConfiguration);
 intellisense: NSSaintAgent.SaveSaintConfiguration
-keywords: NSSaintAgent,SaveSaintConfiguration
+keywords: NSSaintAgent, SaveSaintConfiguration
 so.topic: reference
 ---
 	  

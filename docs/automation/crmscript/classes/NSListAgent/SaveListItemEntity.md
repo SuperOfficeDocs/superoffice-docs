@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveListItemEntity
-description: ListItemEntity SaveListItemEntity(ListItemEntity listItemEntity)
+uid: crmscript_ref_NSListAgent_SaveListItemEntity
+title: ListItemEntity SaveListItemEntity(ListItemEntity listItemEntity)
 intellisense: NSListAgent.SaveListItemEntity
-keywords: NSListAgent,SaveListItemEntity
+keywords: NSListAgent, SaveListItemEntity
 so.topic: reference
 ---
 

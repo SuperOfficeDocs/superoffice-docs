@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetQuoteVersion
-description: QuoteVersion GetQuoteVersion(Integer quoteVersionId)
+uid: crmscript_ref_NSQuoteAgent_GetQuoteVersion
+title: QuoteVersion GetQuoteVersion(Integer quoteVersionId)
 intellisense: NSQuoteAgent.GetQuoteVersion
-keywords: NSQuoteAgent,GetQuoteVersion
+keywords: NSQuoteAgent, GetQuoteVersion
 so.topic: reference
 ---
 

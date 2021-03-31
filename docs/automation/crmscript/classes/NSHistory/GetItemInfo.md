@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistory_GetItemInfo
-description: String NSHistory.GetItemInfo()
+uid: crmscript_ref_NSHistory_GetItemInfo
+title: String GetItemInfo()
 intellisense: NSHistory.GetItemInfo
 keywords: NSHistory, GetItemInfo
 so.topic: reference

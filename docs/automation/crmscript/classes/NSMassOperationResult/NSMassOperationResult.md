@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMassOperationResult
-description: NSMassOperationResult
+uid: crmscript_ref_NSMassOperationResult
+title: NSMassOperationResult
 intellisense: Void.NSMassOperationResult
 keywords: NSMassOperationResult
 so.topic: reference

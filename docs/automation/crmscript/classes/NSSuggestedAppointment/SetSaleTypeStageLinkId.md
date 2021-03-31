@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_SetSaleTypeStageLinkId
-description: NSSuggestedAppointment.SetSaleTypeStageLinkId(Integer saleTypeStageLinkId)
+uid: crmscript_ref_NSSuggestedAppointment_SetSaleTypeStageLinkId
+title: SetSaleTypeStageLinkId(Integer saleTypeStageLinkId)
 intellisense: NSSuggestedAppointment.SetSaleTypeStageLinkId
 keywords: NSSuggestedAppointment, GetSaleTypeStageLinkId
 so.topic: reference

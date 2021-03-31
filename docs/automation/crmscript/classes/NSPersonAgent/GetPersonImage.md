@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetPersonImage
-description: Image GetPersonImage(Integer personId)
+uid: crmscript_ref_NSPersonAgent_GetPersonImage
+title: Image GetPersonImage(Integer personId)
 intellisense: NSPersonAgent.GetPersonImage
-keywords: NSPersonAgent,GetPersonImage
+keywords: NSPersonAgent, GetPersonImage
 so.topic: reference
 ---
 

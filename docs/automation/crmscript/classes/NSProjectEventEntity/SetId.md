@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_SetId
-description: NSProjectEventEntity.SetId(Integer id)
+uid: crmscript_ref_NSProjectEventEntity_SetId
+title: SetId(Integer id)
 intellisense: NSProjectEventEntity.SetId
 keywords: NSProjectEventEntity, GetId
 so.topic: reference

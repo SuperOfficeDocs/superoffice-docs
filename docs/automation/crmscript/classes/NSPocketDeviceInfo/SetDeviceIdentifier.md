@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketDeviceInfo_SetDeviceIdentifier
-description: NSPocketDeviceInfo.SetDeviceIdentifier(String deviceIdentifier)
+uid: crmscript_ref_NSPocketDeviceInfo_SetDeviceIdentifier
+title: SetDeviceIdentifier(String deviceIdentifier)
 intellisense: NSPocketDeviceInfo.SetDeviceIdentifier
 keywords: NSPocketDeviceInfo, GetDeviceIdentifier
 so.topic: reference

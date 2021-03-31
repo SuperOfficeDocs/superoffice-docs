@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetDbiLastModified
-description: DateTime NSContactEntity.GetDbiLastModified()
+uid: crmscript_ref_NSContactEntity_GetDbiLastModified
+title: DateTime GetDbiLastModified()
 intellisense: NSContactEntity.GetDbiLastModified
 keywords: NSContactEntity, GetDbiLastModified
 so.topic: reference

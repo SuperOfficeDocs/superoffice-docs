@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportEntity_SetName
-description: NSReportEntity.SetName(String name)
+uid: crmscript_ref_NSReportEntity_SetName
+title: SetName(String name)
 intellisense: NSReportEntity.SetName
 keywords: NSReportEntity, GetName
 so.topic: reference

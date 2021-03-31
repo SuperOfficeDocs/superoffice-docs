@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_GetContactBusiness
-description: String NSParticipantSyncData.GetContactBusiness()
+uid: crmscript_ref_NSParticipantSyncData_GetContactBusiness
+title: String GetContactBusiness()
 intellisense: NSParticipantSyncData.GetContactBusiness
 keywords: NSParticipantSyncData, GetContactBusiness
 so.topic: reference

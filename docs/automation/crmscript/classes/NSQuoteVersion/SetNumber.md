@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetNumber
-description: NSQuoteVersion.SetNumber(String number)
+uid: crmscript_ref_NSQuoteVersion_SetNumber
+title: SetNumber(String number)
 intellisense: NSQuoteVersion.SetNumber
 keywords: NSQuoteVersion, GetNumber
 so.topic: reference

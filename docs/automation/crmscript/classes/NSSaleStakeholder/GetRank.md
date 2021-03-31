@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_GetRank
-description: Integer NSSaleStakeholder.GetRank()
+uid: crmscript_ref_NSSaleStakeholder_GetRank
+title: Integer GetRank()
 intellisense: NSSaleStakeholder.GetRank
 keywords: NSSaleStakeholder, GetRank
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_CreateTemporaryKey
-description: String CreateTemporaryKey(Integer domain, Integer targetId, Integer personId, DateTime expires)
+uid: crmscript_ref_NSPersonAgent_CreateTemporaryKey
+title: String CreateTemporaryKey(Integer domain, Integer targetId, Integer personId, DateTime expires)
 intellisense: NSPersonAgent.CreateTemporaryKey
-keywords: NSPersonAgent,CreateTemporaryKey
+keywords: NSPersonAgent, CreateTemporaryKey
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetHeadingsForListItemFromListName
-description: SelectableMDOListItemArray GetHeadingsForListItemFromListName(String udListDefinitionName, Integer listItemId, Bool showDeleted)
+uid: crmscript_ref_NSListAgent_GetHeadingsForListItemFromListName
+title: SelectableMDOListItemArray GetHeadingsForListItemFromListName(String udListDefinitionName, Integer listItemId, Bool showDeleted)
 intellisense: NSListAgent.GetHeadingsForListItemFromListName
-keywords: NSListAgent,GetHeadingsForListItemFromListName
+keywords: NSListAgent, GetHeadingsForListItemFromListName
 so.topic: reference
 ---
 

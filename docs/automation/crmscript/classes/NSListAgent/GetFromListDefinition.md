@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetFromListDefinition
-description: ListItemEntity GetFromListDefinition(Integer id, Integer udListDefinitionId)
+uid: crmscript_ref_NSListAgent_GetFromListDefinition
+title: ListItemEntity GetFromListDefinition(Integer id, Integer udListDefinitionId)
 intellisense: NSListAgent.GetFromListDefinition
-keywords: NSListAgent,GetFromListDefinition
+keywords: NSListAgent, GetFromListDefinition
 so.topic: reference
 ---
 

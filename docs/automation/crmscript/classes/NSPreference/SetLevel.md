@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_SetLevel
-description: NSPreference.SetLevel(PreferenceLevel level)
+uid: crmscript_ref_NSPreference_SetLevel
+title: SetLevel(PreferenceLevel level)
 intellisense: NSPreference.SetLevel
 keywords: NSPreference, GetLevel
 so.topic: reference

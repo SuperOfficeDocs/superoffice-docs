@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportLabelLayoutEntity_SetRightMargin
-description: NSReportLabelLayoutEntity.SetRightMargin(Integer rightMargin)
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetRightMargin
+title: SetRightMargin(Integer rightMargin)
 intellisense: NSReportLabelLayoutEntity.SetRightMargin
 keywords: NSReportLabelLayoutEntity, GetRightMargin
 so.topic: reference

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSReason_GetTooltip
-description: String NSReason.GetTooltip()
+uid: crmscript_ref_NSReason_GetTooltip
+title: String GetTooltip()
 intellisense: NSReason.GetTooltip
 keywords: NSReason, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the list item.
+Get the tooltip description for the Reason list item.
 
-**Returns:** String tooltip description.
+**Returns:** String Reason tooltip description.
 

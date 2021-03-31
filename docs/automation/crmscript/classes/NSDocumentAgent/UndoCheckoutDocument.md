@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_UndoCheckoutDocument
-description: ReturnInfo UndoCheckoutDocument(Integer documentId, StringArray allowedReturnTypes)
+uid: crmscript_ref_NSDocumentAgent_UndoCheckoutDocument
+title: ReturnInfo UndoCheckoutDocument(Integer documentId, StringArray allowedReturnTypes)
 intellisense: NSDocumentAgent.UndoCheckoutDocument
-keywords: NSDocumentAgent,UndoCheckoutDocument
+keywords: NSDocumentAgent, UndoCheckoutDocument
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionForFind_GetSelectionEntityHeading
-description: String NSSelectionForFind.GetSelectionEntityHeading()
+uid: crmscript_ref_NSSelectionForFind_GetSelectionEntityHeading
+title: String GetSelectionEntityHeading()
 intellisense: NSSelectionForFind.GetSelectionEntityHeading
 keywords: NSSelectionForFind, GetSelectionEntityHeading
 so.topic: reference

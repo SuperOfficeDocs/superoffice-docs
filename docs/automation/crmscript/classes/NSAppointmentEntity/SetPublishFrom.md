@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetVisibleFor
-description: NSAppointmentEntity.SetVisibleFor(DateTime publishFrom)
-intellisense: NSAppointmentEntity.VisibleForArray
-keywords: NSAppointmentEntity, VisibleForArray
+uid: crmscript_ref_NSAppointmentEntity_SetPublishFrom
+title: SetPublishFrom(DateTime publishFrom)
+intellisense: NSAppointmentEntity.SetPublishFrom
+keywords: NSAppointmentEntity, SetPublishFrom
 so.topic: reference
 ---
 
-Set the publish from date.
+Set the publish from date on a AppointmentEntity.
 
 **Parameter:** 
  - **publishFrom** DateTime.

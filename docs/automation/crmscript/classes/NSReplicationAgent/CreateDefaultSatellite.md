@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReplicationAgent_CreateDefaultSatellite
-description: NSSatellite CreateDefaultSatellite()
+uid: crmscript_ref_NSReplicationAgent_CreateDefaultSatellite
+title: NSSatellite CreateDefaultSatellite()
 intellisense: NSReplicationAgent.CreateDefaultSatellite
-keywords: NSReplicationAgent,CreateDefaultSatellite
+keywords: NSReplicationAgent, CreateDefaultSatellite
 so.topic: reference
 ---
 	  

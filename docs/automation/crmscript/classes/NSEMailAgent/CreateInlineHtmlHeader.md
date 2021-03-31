@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateInlineHtmlHeader
-description: String CreateInlineHtmlHeader(EMailEntity email)
+uid: crmscript_ref_NSEMailAgent_CreateInlineHtmlHeader
+title: String CreateInlineHtmlHeader(EMailEntity email)
 intellisense: NSEMailAgent.CreateInlineHtmlHeader
-keywords: NSEMailAgent,CreateInlineHtmlHeader
+keywords: NSEMailAgent, CreateInlineHtmlHeader
 so.topic: reference
 ---
 

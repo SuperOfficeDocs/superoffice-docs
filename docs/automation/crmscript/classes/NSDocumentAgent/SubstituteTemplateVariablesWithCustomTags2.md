@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariablesWithCustomTags2
-description: String SubstituteTemplateVariablesWithCustomTags2(String source, Integer generatorEncoding, StringDictionary customTags, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
+uid: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariablesWithCustomTags2
+title: String SubstituteTemplateVariablesWithCustomTags2(String source, Integer generatorEncoding, StringDictionary customTags, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
 intellisense: NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags2
-keywords: NSDocumentAgent,SubstituteTemplateVariablesWithCustomTags2
+keywords: NSDocumentAgent, SubstituteTemplateVariablesWithCustomTags2
 so.topic: reference
 ---
 

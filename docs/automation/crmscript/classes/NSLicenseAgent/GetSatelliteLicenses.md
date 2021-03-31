@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_GetSatelliteLicenses
-description: LicenseOwnerArray GetSatelliteLicenses(Integer satelliteId)
+uid: crmscript_ref_NSLicenseAgent_GetSatelliteLicenses
+title: LicenseOwnerArray GetSatelliteLicenses(Integer satelliteId)
 intellisense: NSLicenseAgent.GetSatelliteLicenses
-keywords: NSLicenseAgent,GetSatelliteLicenses
+keywords: NSLicenseAgent, GetSatelliteLicenses
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_GetDashboards
-description: DashboardArray GetDashboards(Integer associateId)
+uid: crmscript_ref_NSDashboardAgent_GetDashboards
+title: DashboardArray GetDashboards(Integer associateId)
 intellisense: NSDashboardAgent.GetDashboards
-keywords: NSDashboardAgent,GetDashboards
+keywords: NSDashboardAgent, GetDashboards
 so.topic: reference
 ---
 

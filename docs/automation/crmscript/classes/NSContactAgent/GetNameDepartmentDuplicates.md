@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_GetNameDepartmentDuplicates
-description: DuplicateEntryArray GetNameDepartmentDuplicates(String name, String department)
+uid: crmscript_ref_NSContactAgent_GetNameDepartmentDuplicates
+title: DuplicateEntryArray GetNameDepartmentDuplicates(String name, String department)
 intellisense: NSContactAgent.GetNameDepartmentDuplicates
-keywords: NSContactAgent,GetNameDepartmentDuplicates
+keywords: NSContactAgent, GetNameDepartmentDuplicates
 so.topic: reference
 ---
 

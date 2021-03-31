@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateDefaultEMailEntity
-description: NSEMailEntity CreateDefaultEMailEntity()
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailEntity
+title: NSEMailEntity CreateDefaultEMailEntity()
 intellisense: NSEMailAgent.CreateDefaultEMailEntity
-keywords: NSEMailAgent,CreateDefaultEMailEntity
+keywords: NSEMailAgent, CreateDefaultEMailEntity
 so.topic: reference
 ---
 	  

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_GetName
-description: String NSPriceList.GetName()
+uid: crmscript_ref_NSPriceList_GetName
+title: String GetName()
 intellisense: NSPriceList.GetName
 keywords: NSPriceList, GetName
 so.topic: reference

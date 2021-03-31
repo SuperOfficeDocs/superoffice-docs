@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_GetLost
-description: Integer NSSaleSummary.GetLost()
+uid: crmscript_ref_NSSaleSummary_GetLost
+title: Integer GetLost()
 intellisense: NSSaleSummary.GetLost
 keywords: NSSaleSummary, GetLost
 so.topic: reference

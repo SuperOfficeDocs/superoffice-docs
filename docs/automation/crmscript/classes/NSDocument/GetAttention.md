@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocument_GetAttention
-description: String NSDocument.GetAttention()
+uid: crmscript_ref_NSDocument_GetAttention
+title: String GetAttention()
 intellisense: NSDocument.GetAttention
 keywords: NSDocument, GetAttention
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatPresence_SetChatTopics
-description: NSChatPresence.SetChatTopics(IntegerArray chatTopics)
+uid: crmscript_ref_NSChatPresence_SetChatTopics
+title: SetChatTopics(IntegerArray chatTopics)
 intellisense: NSChatPresence.SetChatTopics
 keywords: NSChatPresence, GetChatTopics
 so.topic: reference

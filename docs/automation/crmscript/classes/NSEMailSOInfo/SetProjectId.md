@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailSOInfo_SetProjectId
-description: NSEMailSOInfo.SetProjectId(Integer projectId)
+uid: crmscript_ref_NSEMailSOInfo_SetProjectId
+title: SetProjectId(Integer projectId)
 intellisense: NSEMailSOInfo.SetProjectId
 keywords: NSEMailSOInfo, GetProjectId
 so.topic: reference

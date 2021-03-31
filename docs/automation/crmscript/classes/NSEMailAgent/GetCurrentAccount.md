@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetCurrentAccount
-description: EMailAccount GetCurrentAccount()
+uid: crmscript_ref_NSEMailAgent_GetCurrentAccount
+title: EMailAccount GetCurrentAccount()
 intellisense: NSEMailAgent.GetCurrentAccount
-keywords: NSEMailAgent,GetCurrentAccount
+keywords: NSEMailAgent, GetCurrentAccount
 so.topic: reference
 ---
 

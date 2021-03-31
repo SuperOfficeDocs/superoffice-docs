@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSNumberAllocationAgent_DeleteRefCountEntity
-description: DeleteRefCountEntity(Integer refCountEntity);
+uid: crmscript_ref_NSNumberAllocationAgent_DeleteRefCountEntity
+title: DeleteRefCountEntity(Integer refCountEntity);
 intellisense: NSNumberAllocationAgent.DeleteRefCountEntity
-keywords: NSNumberAllocationAgent,DeleteRefCountEntity
+keywords: NSNumberAllocationAgent, DeleteRefCountEntity
 so.topic: reference
 ---
 

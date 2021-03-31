@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetMrmrs
-description: NSPerson.SetMrmrs(String mrmrs)
+uid: crmscript_ref_NSPerson_SetMrmrs
+title: SetMrmrs(String mrmrs)
 intellisense: NSPerson.SetMrmrs
 keywords: NSPerson, GetMrmrs
 so.topic: reference

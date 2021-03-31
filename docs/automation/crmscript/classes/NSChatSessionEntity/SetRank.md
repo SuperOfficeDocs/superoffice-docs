@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetRank
-description: NSChatSessionEntity.SetRank(Integer rank)
+uid: crmscript_ref_NSChatSessionEntity_SetRank
+title: SetRank(Integer rank)
 intellisense: NSChatSessionEntity.SetRank
 keywords: NSChatSessionEntity, GetRank
 so.topic: reference

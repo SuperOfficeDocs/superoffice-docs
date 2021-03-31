@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_GetDirectPhone
-description: String NSContact.GetDirectPhone()
+uid: crmscript_ref_NSContact_GetDirectPhone
+title: String GetDirectPhone()
 intellisense: NSContact.GetDirectPhone
 keywords: NSContact, GetDirectPhone
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemporaryKeyInfo_GetTargetId
-description: Integer NSTemporaryKeyInfo.GetTargetId()
+uid: crmscript_ref_NSTemporaryKeyInfo_GetTargetId
+title: Integer GetTargetId()
 intellisense: NSTemporaryKeyInfo.GetTargetId
 keywords: NSTemporaryKeyInfo, GetTargetId
 so.topic: reference

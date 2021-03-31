@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_GetName
-description: String NSExtAppEntity.GetName()
+uid: crmscript_ref_NSExtAppEntity_GetName
+title: String GetName()
 intellisense: NSExtAppEntity.GetName
 keywords: NSExtAppEntity, GetName
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetBusiness
-description: NSBusiness GetBusiness(Integer businessId);
+uid: crmscript_ref_NSListAgent_GetBusiness
+title: NSBusiness GetBusiness(Integer businessId);
 intellisense: NSListAgent.GetBusiness
-keywords: NSListAgent,GetBusiness
+keywords: NSListAgent, GetBusiness
 so.topic: reference
 ---
 

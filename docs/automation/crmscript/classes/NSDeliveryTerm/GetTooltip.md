@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSDeliveryTerm_GetTooltip
-description: String NSDeliveryTerm.GetTooltip()
+uid: crmscript_ref_NSDeliveryTerm_GetTooltip
+title: String GetTooltip()
 intellisense: NSDeliveryTerm.GetTooltip
 keywords: NSDeliveryTerm, GetTooltip
 so.topic: reference
 ---
 
-Get the tooltip description for the list item.
+Get the tooltip description for the DeliveryTerm list item.
 
-**Returns:** String tooltip description.
+**Returns:** String DeliveryTerm tooltip description.
 

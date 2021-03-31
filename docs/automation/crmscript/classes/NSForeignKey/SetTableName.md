@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignKey_SetTableName
-description: NSForeignKey.SetTableName(String tableName)
+uid: crmscript_ref_NSForeignKey_SetTableName
+title: SetTableName(String tableName)
 intellisense: NSForeignKey.SetTableName
 keywords: NSForeignKey, GetTableName
 so.topic: reference

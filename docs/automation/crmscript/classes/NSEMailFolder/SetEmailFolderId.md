@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder_SetEmailFolderId
-description: NSEMailFolder.SetEmailFolderId(Integer emailFolderId)
+uid: crmscript_ref_NSEMailFolder_SetEmailFolderId
+title: SetEmailFolderId(Integer emailFolderId)
 intellisense: NSEMailFolder.SetEmailFolderId
 keywords: NSEMailFolder, GetEmailFolderId
 so.topic: reference

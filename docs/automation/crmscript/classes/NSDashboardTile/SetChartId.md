@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_SetChartId
-description: NSDashboardTile.SetChartId(String chartId)
+uid: crmscript_ref_NSDashboardTile_SetChartId
+title: SetChartId(String chartId)
 intellisense: NSDashboardTile.SetChartId
 keywords: NSDashboardTile, GetChartId
 so.topic: reference

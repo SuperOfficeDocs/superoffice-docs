@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoRelation
-description: NSFieldInfoRelation
+uid: crmscript_ref_NSFieldInfoRelation
+title: NSFieldInfoRelation
 intellisense: Void.NSFieldInfoRelation
 keywords: NSFieldInfoRelation
 so.topic: reference

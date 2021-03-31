@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCache
-description: NSCache
+uid: crmscript_ref_NSCache
+title: NSCache
 intellisense: Void.NSCache
 keywords: NSCache
 so.topic: reference

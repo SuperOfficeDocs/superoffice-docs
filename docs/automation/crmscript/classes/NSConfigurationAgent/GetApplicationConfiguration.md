@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetApplicationConfiguration
-description: String GetApplicationConfiguration(String application, String instance)
+uid: crmscript_ref_NSConfigurationAgent_GetApplicationConfiguration
+title: String GetApplicationConfiguration(String application, String instance)
 intellisense: NSConfigurationAgent.GetApplicationConfiguration
-keywords: NSConfigurationAgent,GetApplicationConfiguration
+keywords: NSConfigurationAgent, GetApplicationConfiguration
 so.topic: reference
 ---
 

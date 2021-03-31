@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetIsOnTravel
-description: Bool NSUser.GetIsOnTravel()
+uid: crmscript_ref_NSUser_GetIsOnTravel
+title: Bool GetIsOnTravel()
 intellisense: NSUser.GetIsOnTravel
 keywords: NSUser, GetIsOnTravel
 so.topic: reference

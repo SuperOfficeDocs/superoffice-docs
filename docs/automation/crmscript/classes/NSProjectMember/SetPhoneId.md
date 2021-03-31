@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_SetPhoneId
-description: NSProjectMember.SetPhoneId(Integer phoneId)
+uid: crmscript_ref_NSProjectMember_SetPhoneId
+title: SetPhoneId(Integer phoneId)
 intellisense: NSProjectMember.SetPhoneId
 keywords: NSProjectMember, GetPhoneId
 so.topic: reference

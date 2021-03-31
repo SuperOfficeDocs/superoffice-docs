@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetPerson
-description: NSDocumentEntity.SetPerson(Person person)
+uid: crmscript_ref_NSDocumentEntity_SetPerson
+title: SetPerson(Person person)
 intellisense: NSDocumentEntity.SetPerson
 keywords: NSDocumentEntity, GetPerson
 so.topic: reference

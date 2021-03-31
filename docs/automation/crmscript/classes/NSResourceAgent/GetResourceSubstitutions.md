@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSResourceAgent_GetResourceSubstitutions
-description: ResourceOverrideArray GetResourceSubstitutions(StringArray resourceNames, String culture, Bool activeOnly)
+uid: crmscript_ref_NSResourceAgent_GetResourceSubstitutions
+title: ResourceOverrideArray GetResourceSubstitutions(StringArray resourceNames, String culture, Bool activeOnly)
 intellisense: NSResourceAgent.GetResourceSubstitutions
-keywords: NSResourceAgent,GetResourceSubstitutions
+keywords: NSResourceAgent, GetResourceSubstitutions
 so.topic: reference
 ---
 

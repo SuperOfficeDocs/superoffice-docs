@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReturnInfo_GetValue
-description: String NSReturnInfo.GetValue()
+uid: crmscript_ref_NSReturnInfo_GetValue
+title: String GetValue()
 intellisense: NSReturnInfo.GetValue
 keywords: NSReturnInfo, GetValue
 so.topic: reference

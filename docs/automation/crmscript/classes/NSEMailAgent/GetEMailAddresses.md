@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEMailAddresses
-description: EMailAddressArray GetEMailAddresses(IntegerArray emailIds)
+uid: crmscript_ref_NSEMailAgent_GetEMailAddresses
+title: EMailAddressArray GetEMailAddresses(IntegerArray emailIds)
 intellisense: NSEMailAgent.GetEMailAddresses
-keywords: NSEMailAgent,GetEMailAddresses
+keywords: NSEMailAgent, GetEMailAddresses
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketStartupData_GetCustomData
-description: String NSPocketStartupData.GetCustomData()
+uid: crmscript_ref_NSPocketStartupData_GetCustomData
+title: String GetCustomData()
 intellisense: NSPocketStartupData.GetCustomData
 keywords: NSPocketStartupData, GetCustomData
 so.topic: reference

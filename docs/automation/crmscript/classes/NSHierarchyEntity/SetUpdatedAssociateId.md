@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHierarchyEntity_SetUpdatedAssociateId
-description: NSHierarchyEntity.SetUpdatedAssociateId(Integer updatedAssociateId)
+uid: crmscript_ref_NSHierarchyEntity_SetUpdatedAssociateId
+title: SetUpdatedAssociateId(Integer updatedAssociateId)
 intellisense: NSHierarchyEntity.SetUpdatedAssociateId
 keywords: NSHierarchyEntity, GetUpdatedAssociateId
 so.topic: reference

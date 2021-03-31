@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSWebhookAgent_GetWebhook
-description: NSWebhook GetWebhook(Integer webhookId);
+uid: crmscript_ref_NSWebhookAgent_GetWebhook
+title: NSWebhook GetWebhook(Integer webhookId);
 intellisense: NSWebhookAgent.GetWebhook
-keywords: NSWebhookAgent,GetWebhook
+keywords: NSWebhookAgent, GetWebhook
 so.topic: reference
 ---
 

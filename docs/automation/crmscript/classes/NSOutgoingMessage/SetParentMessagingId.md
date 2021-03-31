@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOutgoingMessage_SetParentMessagingId
-description: NSOutgoingMessage.SetParentMessagingId(Integer parentMessagingId)
+uid: crmscript_ref_NSOutgoingMessage_SetParentMessagingId
+title: SetParentMessagingId(Integer parentMessagingId)
 intellisense: NSOutgoingMessage.SetParentMessagingId
 keywords: NSOutgoingMessage, GetParentMessagingId
 so.topic: reference

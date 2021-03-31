@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetActivate
-description: DateTime NSTicket.GetActivate()
+uid: crmscript_ref_NSTicket_GetActivate
+title: DateTime GetActivate()
 intellisense: NSTicket.GetActivate
 keywords: NSTicket, GetActivate
 so.topic: reference

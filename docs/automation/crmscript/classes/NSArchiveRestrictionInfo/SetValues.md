@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveRestrictionInfo_SetValues
-description: NSArchiveRestrictionInfo.SetValues(StringArray values)
+uid: crmscript_ref_NSArchiveRestrictionInfo_SetValues
+title: SetValues(StringArray values)
 intellisense: NSArchiveRestrictionInfo.SetValues
 keywords: NSArchiveRestrictionInfo, GetValues
 so.topic: reference

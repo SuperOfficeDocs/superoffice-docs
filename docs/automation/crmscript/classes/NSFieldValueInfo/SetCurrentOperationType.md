@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_SetCurrentOperationType
-description: NSFieldValueInfo.SetCurrentOperationType(String currentOperationType)
+uid: crmscript_ref_NSFieldValueInfo_SetCurrentOperationType
+title: SetCurrentOperationType(String currentOperationType)
 intellisense: NSFieldValueInfo.SetCurrentOperationType
 keywords: NSFieldValueInfo, GetCurrentOperationType
 so.topic: reference

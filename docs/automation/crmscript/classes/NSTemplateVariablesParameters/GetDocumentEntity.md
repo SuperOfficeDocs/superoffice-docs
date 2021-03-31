@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_GetDocumentEntity
-description: DocumentEntity NSTemplateVariablesParameters.GetDocumentEntity()
+uid: crmscript_ref_NSTemplateVariablesParameters_GetDocumentEntity
+title: DocumentEntity GetDocumentEntity()
 intellisense: NSTemplateVariablesParameters.GetDocumentEntity
 keywords: NSTemplateVariablesParameters, GetDocumentEntity
 so.topic: reference

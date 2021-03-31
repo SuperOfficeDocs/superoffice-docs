@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetCredentials
-description: CredentialArray NSUser.GetCredentials()
+uid: crmscript_ref_NSUser_GetCredentials
+title: CredentialArray GetCredentials()
 intellisense: NSUser.GetCredentials
 keywords: NSUser, GetCredentials
 so.topic: reference

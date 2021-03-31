@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveConfiguration_SetOwnerKeys
-description: NSArchiveConfiguration.SetOwnerKeys(String ownerKeys)
+uid: crmscript_ref_NSArchiveConfiguration_SetOwnerKeys
+title: SetOwnerKeys(String ownerKeys)
 intellisense: NSArchiveConfiguration.SetOwnerKeys
 keywords: NSArchiveConfiguration, GetOwnerKeys
 so.topic: reference

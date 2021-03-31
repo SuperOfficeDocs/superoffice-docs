@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_SavePriceList
-description: NSPriceList SavePriceList(NSPriceList priceList);
+uid: crmscript_ref_NSQuoteAgent_SavePriceList
+title: NSPriceList SavePriceList(NSPriceList priceList);
 intellisense: NSQuoteAgent.SavePriceList
-keywords: NSQuoteAgent,SavePriceList
+keywords: NSQuoteAgent, SavePriceList
 so.topic: reference
 ---
 	  

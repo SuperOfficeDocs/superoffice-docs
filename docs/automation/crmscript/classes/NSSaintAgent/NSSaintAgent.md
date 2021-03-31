@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaintAgent
-description: NSSaintAgent
+uid: crmscript_ref_NSSaintAgent
+title: NSSaintAgent
 intellisense: Void.NSSaintAgent
 keywords: NSSaintAgent
 so.topic: reference

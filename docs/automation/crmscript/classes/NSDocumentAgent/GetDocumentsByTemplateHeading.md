@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetDocumentsByTemplateHeading
-description: DocumentArray GetDocumentsByTemplateHeading(Integer templateHeadingId)
+uid: crmscript_ref_NSDocumentAgent_GetDocumentsByTemplateHeading
+title: DocumentArray GetDocumentsByTemplateHeading(Integer templateHeadingId)
 intellisense: NSDocumentAgent.GetDocumentsByTemplateHeading
-keywords: NSDocumentAgent,GetDocumentsByTemplateHeading
+keywords: NSDocumentAgent, GetDocumentsByTemplateHeading
 so.topic: reference
 ---
 

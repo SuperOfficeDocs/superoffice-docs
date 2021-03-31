@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetFilterList
-description: String GetFilterList(String application, String instance)
+uid: crmscript_ref_NSConfigurationAgent_GetFilterList
+title: String GetFilterList(String application, String instance)
 intellisense: NSConfigurationAgent.GetFilterList
-keywords: NSConfigurationAgent,GetFilterList
+keywords: NSConfigurationAgent, GetFilterList
 so.topic: reference
 ---
 

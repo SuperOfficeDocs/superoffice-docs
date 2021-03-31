@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetStatus
-description: ChatSessionStatus NSChatSessionEntity.GetStatus()
+uid: crmscript_ref_NSChatSessionEntity_GetStatus
+title: ChatSessionStatus GetStatus()
 intellisense: NSChatSessionEntity.GetStatus
 keywords: NSChatSessionEntity, GetStatus
 so.topic: reference

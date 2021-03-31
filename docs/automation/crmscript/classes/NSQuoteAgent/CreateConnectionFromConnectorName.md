@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CreateConnectionFromConnectorName
-description: QuoteConnection CreateConnectionFromConnectorName(String connectorName)
+uid: crmscript_ref_NSQuoteAgent_CreateConnectionFromConnectorName
+title: QuoteConnection CreateConnectionFromConnectorName(String connectorName)
 intellisense: NSQuoteAgent.CreateConnectionFromConnectorName
-keywords: NSQuoteAgent,CreateConnectionFromConnectorName
+keywords: NSQuoteAgent, CreateConnectionFromConnectorName
 so.topic: reference
 ---
 

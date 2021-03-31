@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_SetProjectId
-description: NSMailMergeSettings.SetProjectId(Integer projectId)
+uid: crmscript_ref_NSMailMergeSettings_SetProjectId
+title: SetProjectId(Integer projectId)
 intellisense: NSMailMergeSettings.SetProjectId
 keywords: NSMailMergeSettings, GetProjectId
 so.topic: reference

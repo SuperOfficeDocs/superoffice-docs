@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_GetEMailSOInfo
-description: EMailSOInfo NSEMailEntity.GetEMailSOInfo()
+uid: crmscript_ref_NSEMailEntity_GetEMailSOInfo
+title: EMailSOInfo GetEMailSOInfo()
 intellisense: NSEMailEntity.GetEMailSOInfo
 keywords: NSEMailEntity, GetEMailSOInfo
 so.topic: reference

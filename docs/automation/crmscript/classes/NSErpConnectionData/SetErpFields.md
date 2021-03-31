@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionData_SetErpFields
-description: NSErpConnectionData.SetErpFields(FieldMetadataArray erpFields)
+uid: crmscript_ref_NSErpConnectionData_SetErpFields
+title: SetErpFields(FieldMetadataArray erpFields)
 intellisense: NSErpConnectionData.SetErpFields
 keywords: NSErpConnectionData, GetErpFields
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_FlushCachesByName
-description: Void FlushCachesByName(StringArray cacheNames)
+uid: crmscript_ref_NSDiagnosticsAgent_FlushCachesByName
+title: Void FlushCachesByName(StringArray cacheNames)
 intellisense: NSDiagnosticsAgent.FlushCachesByName
-keywords: NSDiagnosticsAgent,FlushCachesByName
+keywords: NSDiagnosticsAgent, FlushCachesByName
 so.topic: reference
 ---
 

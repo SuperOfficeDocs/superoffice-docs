@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetWarnManagerNewChatMinutes
-description: Integer NSChatTopicEntity.GetWarnManagerNewChatMinutes()
+uid: crmscript_ref_NSChatTopicEntity_GetWarnManagerNewChatMinutes
+title: Integer GetWarnManagerNewChatMinutes()
 intellisense: NSChatTopicEntity.GetWarnManagerNewChatMinutes
 keywords: NSChatTopicEntity, GetWarnManagerNewChatMinutes
 so.topic: reference

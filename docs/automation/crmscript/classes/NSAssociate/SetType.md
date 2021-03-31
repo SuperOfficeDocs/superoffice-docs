@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAssociate_SetType
-description: NSAssociate.SetType(Integer type)
+uid: crmscript_ref_NSAssociate_SetType
+title: SetType(Integer type)
 intellisense: NSAssociate.SetType
 keywords: NSAssociate, GetType
 so.topic: reference

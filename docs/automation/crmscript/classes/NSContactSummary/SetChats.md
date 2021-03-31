@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactSummary_SetChats
-description: NSContactSummary.SetChats(ChatSummaryItemArray chats)
+uid: crmscript_ref_NSContactSummary_SetChats
+title: SetChats(ChatSummaryItemArray chats)
 intellisense: NSContactSummary.SetChats
 keywords: NSContactSummary, GetChats
 so.topic: reference

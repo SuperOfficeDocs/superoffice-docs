@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetLeftSelectionId
-description: NSSelectionEntity.SetLeftSelectionId(Integer leftSelectionId)
+uid: crmscript_ref_NSSelectionEntity_SetLeftSelectionId
+title: SetLeftSelectionId(Integer leftSelectionId)
 intellisense: NSSelectionEntity.SetLeftSelectionId
 keywords: NSSelectionEntity, GetLeftSelectionId
 so.topic: reference

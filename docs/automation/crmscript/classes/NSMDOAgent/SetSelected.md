@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMDOAgent_SetSelected
-description: SelectableMDOListItemArray SetSelected(String name, String additionalInfo, SelectableMDOListItemArray selectableMDOList)
+uid: crmscript_ref_NSMDOAgent_SetSelected
+title: SelectableMDOListItemArray SetSelected(String name, String additionalInfo, SelectableMDOListItemArray selectableMDOList)
 intellisense: NSMDOAgent.SetSelected
-keywords: NSMDOAgent,SetSelected
+keywords: NSMDOAgent, SetSelected
 so.topic: reference
 ---
 

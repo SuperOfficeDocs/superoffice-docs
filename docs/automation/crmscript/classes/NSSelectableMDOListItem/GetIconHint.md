@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_GetIconHint
-description: String NSSelectableMDOListItem.GetIconHint()
+uid: crmscript_ref_NSSelectableMDOListItem_GetIconHint
+title: String GetIconHint()
 intellisense: NSSelectableMDOListItem.GetIconHint
 keywords: NSSelectableMDOListItem, GetIconHint
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadataDictionary
-description: NSFieldMetadataDictionary
+uid: crmscript_ref_NSFieldMetadataDictionary
+title: NSFieldMetadataDictionary
 intellisense: Void.NSFieldMetadataDictionary
 keywords: NSFieldMetadataDictionary
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVersionInfo_GetDisplayText
-description: String NSVersionInfo.GetDisplayText()
+uid: crmscript_ref_NSVersionInfo_GetDisplayText
+title: String GetDisplayText()
 intellisense: NSVersionInfo.GetDisplayText
 keywords: NSVersionInfo, GetDisplayText
 so.topic: reference

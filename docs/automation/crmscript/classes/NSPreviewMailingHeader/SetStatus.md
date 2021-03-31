@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_SetStatus
-description: NSPreviewMailingHeader.SetStatus(ShipmentStatus status)
+uid: crmscript_ref_NSPreviewMailingHeader_SetStatus
+title: SetStatus(ShipmentStatus status)
 intellisense: NSPreviewMailingHeader.SetStatus
 keywords: NSPreviewMailingHeader, GetStatus
 so.topic: reference

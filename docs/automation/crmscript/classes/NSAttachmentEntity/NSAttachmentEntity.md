@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAttachmentEntity
-description: NSAttachmentEntity
+uid: crmscript_ref_NSAttachmentEntity
+title: NSAttachmentEntity
 intellisense: Void.NSAttachmentEntity
 keywords: NSAttachmentEntity
 so.topic: reference

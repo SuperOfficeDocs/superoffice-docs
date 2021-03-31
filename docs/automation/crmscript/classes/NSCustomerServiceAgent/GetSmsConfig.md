@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_GetSmsConfig
-description: SmsConfig GetSmsConfig()
+uid: crmscript_ref_NSCustomerServiceAgent_GetSmsConfig
+title: SmsConfig GetSmsConfig()
 intellisense: NSCustomerServiceAgent.GetSmsConfig
-keywords: NSCustomerServiceAgent,GetSmsConfig
+keywords: NSCustomerServiceAgent, GetSmsConfig
 so.topic: reference
 ---
 

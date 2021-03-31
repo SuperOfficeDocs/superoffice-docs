@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCurrencyEntity_GetRate
-description: Float NSCurrencyEntity.GetRate()
+uid: crmscript_ref_NSCurrencyEntity_GetRate
+title: Float GetRate()
 intellisense: NSCurrencyEntity.GetRate
 keywords: NSCurrencyEntity, GetRate
 so.topic: reference

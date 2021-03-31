@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPocketAgent_SetPushNotificationTagsForUser
-description: Void SetPushNotificationTagsForUser(Integer associateId, String tags)
+uid: crmscript_ref_NSPocketAgent_SetPushNotificationTagsForUser
+title: Void SetPushNotificationTagsForUser(Integer associateId, String tags)
 intellisense: NSPocketAgent.SetPushNotificationTagsForUser
-keywords: NSPocketAgent,SetPushNotificationTagsForUser
+keywords: NSPocketAgent, SetPushNotificationTagsForUser
 so.topic: reference
 ---
 

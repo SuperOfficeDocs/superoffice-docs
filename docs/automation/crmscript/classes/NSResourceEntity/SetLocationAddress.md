@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceEntity_SetLocationAddress
-description: NSResourceEntity.SetLocationAddress(String locationAddress)
+uid: crmscript_ref_NSResourceEntity_SetLocationAddress
+title: SetLocationAddress(String locationAddress)
 intellisense: NSResourceEntity.SetLocationAddress
 keywords: NSResourceEntity, GetLocationAddress
 so.topic: reference

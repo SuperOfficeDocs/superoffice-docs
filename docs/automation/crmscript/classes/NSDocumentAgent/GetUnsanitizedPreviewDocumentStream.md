@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetUnsanitizedPreviewDocumentStream
-description: DocumentPreview GetUnsanitizedPreviewDocumentStream(Integer documentId)
+uid: crmscript_ref_NSDocumentAgent_GetUnsanitizedPreviewDocumentStream
+title: DocumentPreview GetUnsanitizedPreviewDocumentStream(Integer documentId)
 intellisense: NSDocumentAgent.GetUnsanitizedPreviewDocumentStream
-keywords: NSDocumentAgent,GetUnsanitizedPreviewDocumentStream
+keywords: NSDocumentAgent, GetUnsanitizedPreviewDocumentStream
 so.topic: reference
 ---
 

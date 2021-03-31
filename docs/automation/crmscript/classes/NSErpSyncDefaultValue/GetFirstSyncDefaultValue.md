@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue_GetFirstSyncDefaultValue
-description: String NSErpSyncDefaultValue.GetFirstSyncDefaultValue()
+uid: crmscript_ref_NSErpSyncDefaultValue_GetFirstSyncDefaultValue
+title: String GetFirstSyncDefaultValue()
 intellisense: NSErpSyncDefaultValue.GetFirstSyncDefaultValue
 keywords: NSErpSyncDefaultValue, GetFirstSyncDefaultValue
 so.topic: reference

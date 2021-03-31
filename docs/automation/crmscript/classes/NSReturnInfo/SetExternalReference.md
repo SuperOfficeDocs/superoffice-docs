@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReturnInfo_SetExternalReference
-description: NSReturnInfo.SetExternalReference(String externalReference)
+uid: crmscript_ref_NSReturnInfo_SetExternalReference
+title: SetExternalReference(String externalReference)
 intellisense: NSReturnInfo.SetExternalReference
 keywords: NSReturnInfo, GetExternalReference
 so.topic: reference

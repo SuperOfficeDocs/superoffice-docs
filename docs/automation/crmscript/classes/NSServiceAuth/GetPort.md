@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSServiceAuth_GetPort
-description: Integer NSServiceAuth.GetPort()
+uid: crmscript_ref_NSServiceAuth_GetPort
+title: Integer GetPort()
 intellisense: NSServiceAuth.GetPort
 keywords: NSServiceAuth, GetPort
 so.topic: reference

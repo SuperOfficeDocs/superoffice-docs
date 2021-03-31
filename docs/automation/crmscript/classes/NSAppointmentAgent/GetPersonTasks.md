@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetPersonTasks
-description: AppointmentArray GetPersonTasks(Integer personId, Integer count)
+uid: crmscript_ref_NSAppointmentAgent_GetPersonTasks
+title: AppointmentArray GetPersonTasks(Integer personId, Integer count)
 intellisense: NSAppointmentAgent.GetPersonTasks
-keywords: NSAppointmentAgent,GetPersonTasks
+keywords: NSAppointmentAgent, GetPersonTasks
 so.topic: reference
 ---
 

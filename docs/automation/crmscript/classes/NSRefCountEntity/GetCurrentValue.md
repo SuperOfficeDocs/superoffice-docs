@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_GetCurrentValue
-description: Integer NSRefCountEntity.GetCurrentValue()
+uid: crmscript_ref_NSRefCountEntity_GetCurrentValue
+title: Integer GetCurrentValue()
 intellisense: NSRefCountEntity.GetCurrentValue
 keywords: NSRefCountEntity, GetCurrentValue
 so.topic: reference

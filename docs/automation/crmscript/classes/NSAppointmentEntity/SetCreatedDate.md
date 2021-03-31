@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetCreatedDate
-description: NSAppointmentEntity.SetCreatedDate(DateTime createdDate)
+uid: crmscript_ref_NSAppointmentEntity_SetCreatedDate
+title: SetCreatedDate(DateTime createdDate)
 intellisense: NSAppointmentEntity.SetCreatedDate
 keywords: NSAppointmentEntity, GetCreatedDate
 so.topic: reference

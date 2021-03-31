@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_GetConsentPurposeName
-description: String NSConsentInfo.GetConsentPurposeName()
+uid: crmscript_ref_NSConsentInfo_GetConsentPurposeName
+title: String GetConsentPurposeName()
 intellisense: NSConsentInfo.GetConsentPurposeName
 keywords: NSConsentInfo, GetConsentPurposeName
 so.topic: reference

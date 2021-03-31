@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetListTableId
-description: NSUserDefinedFieldInfo.SetListTableId(Integer listTableId)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetListTableId
+title: SetListTableId(Integer listTableId)
 intellisense: NSUserDefinedFieldInfo.SetListTableId
 keywords: NSUserDefinedFieldInfo, GetListTableId
 so.topic: reference

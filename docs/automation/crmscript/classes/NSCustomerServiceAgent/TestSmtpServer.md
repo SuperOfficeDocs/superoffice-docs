@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_TestSmtpServer
-description: SmtpTestResult TestSmtpServer(String smtpUri, String from, Bool useStoredPassword)
+uid: crmscript_ref_NSCustomerServiceAgent_TestSmtpServer
+title: SmtpTestResult TestSmtpServer(String smtpUri, String from, Bool useStoredPassword)
 intellisense: NSCustomerServiceAgent.TestSmtpServer
-keywords: NSCustomerServiceAgent,TestSmtpServer
+keywords: NSCustomerServiceAgent, TestSmtpServer
 so.topic: reference
 ---
 

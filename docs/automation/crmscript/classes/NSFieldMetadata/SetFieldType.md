@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_SetFieldType
-description: NSFieldMetadata.SetFieldType(Integer fieldType)
+uid: crmscript_ref_NSFieldMetadata_SetFieldType
+title: SetFieldType(Integer fieldType)
 intellisense: NSFieldMetadata.SetFieldType
 keywords: NSFieldMetadata, GetFieldType
 so.topic: reference

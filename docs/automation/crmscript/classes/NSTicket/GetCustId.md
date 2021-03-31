@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetCustId
-description: Integer NSTicket.GetCustId()
+uid: crmscript_ref_NSTicket_GetCustId
+title: Integer GetCustId()
 intellisense: NSTicket.GetCustId
 keywords: NSTicket, GetCustId
 so.topic: reference

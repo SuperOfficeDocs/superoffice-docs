@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceEntity_GetTooltip
-description: String NSResourceEntity.GetTooltip()
+uid: crmscript_ref_NSResourceEntity_GetTooltip
+title: String GetTooltip()
 intellisense: NSResourceEntity.GetTooltip
 keywords: NSResourceEntity, GetTooltip
 so.topic: reference

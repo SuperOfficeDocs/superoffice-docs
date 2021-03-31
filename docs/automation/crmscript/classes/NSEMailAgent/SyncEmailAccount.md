@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_SyncEmailAccount
-description: Void SyncEmailAccount(SyncUserAccount syncUserAccount)
+uid: crmscript_ref_NSEMailAgent_SyncEmailAccount
+title: Void SyncEmailAccount(SyncUserAccount syncUserAccount)
 intellisense: NSEMailAgent.SyncEmailAccount
-keywords: NSEMailAgent,SyncEmailAccount
+keywords: NSEMailAgent, SyncEmailAccount
 so.topic: reference
 ---
 

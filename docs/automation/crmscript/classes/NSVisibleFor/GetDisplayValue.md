@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVisibleFor_GetDisplayValue
-description: String NSVisibleFor.GetDisplayValue()
+uid: crmscript_ref_NSVisibleFor_GetDisplayValue
+title: String GetDisplayValue()
 intellisense: NSVisibleFor.GetDisplayValue
 keywords: NSVisibleFor, GetDisplayValue
 so.topic: reference

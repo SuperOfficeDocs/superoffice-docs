@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_GetAllAccess
-description: Bool NSErpConnection.GetAllAccess()
+uid: crmscript_ref_NSErpConnection_GetAllAccess
+title: Bool GetAllAccess()
 intellisense: NSErpConnection.GetAllAccess
 keywords: NSErpConnection, GetAllAccess
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListItem_SetLinkHint
-description: NSArchiveListItem.SetLinkHint(String linkHint)
+uid: crmscript_ref_NSArchiveListItem_SetLinkHint
+title: SetLinkHint(String linkHint)
 intellisense: NSArchiveListItem.SetLinkHint
 keywords: NSArchiveListItem, GetLinkHint
 so.topic: reference

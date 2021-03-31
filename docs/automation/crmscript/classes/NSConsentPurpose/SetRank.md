@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_SetRank
-description: NSConsentPurpose.SetRank(Integer rank)
+uid: crmscript_ref_NSConsentPurpose_SetRank
+title: SetRank(Integer rank)
 intellisense: NSConsentPurpose.SetRank
 keywords: NSConsentPurpose, GetRank
 so.topic: reference

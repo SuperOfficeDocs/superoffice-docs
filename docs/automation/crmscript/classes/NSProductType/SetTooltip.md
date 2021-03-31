@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSProductType_SetTooltip
-description: NSProductType.SetTooltip(String tooltip)
+uid: crmscript_ref_NSProductType_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSProductType.SetTooltip
 keywords: NSProductType, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the list item.
+Set the tooltip description for the ProductType list item.
 
 **Parameter:** 
- - **tooltip** String tooltip description.
+ - **tooltip** String ProductType tooltip description.
 

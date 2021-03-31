@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_GetConceptualType
-description: String NSBlobEntity.GetConceptualType()
+uid: crmscript_ref_NSBlobEntity_GetConceptualType
+title: String GetConceptualType()
 intellisense: NSBlobEntity.GetConceptualType
 keywords: NSBlobEntity, GetConceptualType
 so.topic: reference

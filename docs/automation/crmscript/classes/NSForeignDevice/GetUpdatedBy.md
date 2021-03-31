@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDevice_GetUpdatedBy
-description: String NSForeignDevice.GetUpdatedBy()
+uid: crmscript_ref_NSForeignDevice_GetUpdatedBy
+title: String GetUpdatedBy()
 intellisense: NSForeignDevice.GetUpdatedBy
 keywords: NSForeignDevice, GetUpdatedBy
 so.topic: reference

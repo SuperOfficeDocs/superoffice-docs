@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSIncomingMessage_GetFormat
-description: String NSIncomingMessage.GetFormat()
+uid: crmscript_ref_NSIncomingMessage_GetFormat
+title: String GetFormat()
 intellisense: NSIncomingMessage.GetFormat
 keywords: NSIncomingMessage, GetFormat
 so.topic: reference

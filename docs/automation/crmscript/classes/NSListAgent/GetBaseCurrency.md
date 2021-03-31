@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetBaseCurrency
-description: CurrencyEntity GetBaseCurrency()
+uid: crmscript_ref_NSListAgent_GetBaseCurrency
+title: CurrencyEntity GetBaseCurrency()
 intellisense: NSListAgent.GetBaseCurrency
-keywords: NSListAgent,GetBaseCurrency
+keywords: NSListAgent, GetBaseCurrency
 so.topic: reference
 ---
 

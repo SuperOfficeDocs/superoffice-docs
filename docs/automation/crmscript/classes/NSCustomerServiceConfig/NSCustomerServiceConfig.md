@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceConfig
-description: NSCustomerServiceConfig
+uid: crmscript_ref_NSCustomerServiceConfig
+title: NSCustomerServiceConfig
 intellisense: Void.NSCustomerServiceConfig
 keywords: NSCustomerServiceConfig
 so.topic: reference

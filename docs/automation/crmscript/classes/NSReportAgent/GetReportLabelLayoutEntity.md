@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_GetReportLabelLayoutEntity
-description: NSReportLabelLayoutEntity GetReportLabelLayoutEntity(Integer reportLabelLayoutEntityId);
+uid: crmscript_ref_NSReportAgent_GetReportLabelLayoutEntity
+title: NSReportLabelLayoutEntity GetReportLabelLayoutEntity(Integer reportLabelLayoutEntityId);
 intellisense: NSReportAgent.GetReportLabelLayoutEntity
-keywords: NSReportAgent,GetReportLabelLayoutEntity
+keywords: NSReportAgent, GetReportLabelLayoutEntity
 so.topic: reference
 ---
 

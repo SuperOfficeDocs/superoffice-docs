@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_ChangePasswordFromName
-description: Bool ChangePasswordFromName(String associateName, String oldPassword, String newPassword)
+uid: crmscript_ref_NSUserAgent_ChangePasswordFromName
+title: Bool ChangePasswordFromName(String associateName, String oldPassword, String newPassword)
 intellisense: NSUserAgent.ChangePasswordFromName
-keywords: NSUserAgent,ChangePasswordFromName
+keywords: NSUserAgent, ChangePasswordFromName
 so.topic: reference
 ---
 

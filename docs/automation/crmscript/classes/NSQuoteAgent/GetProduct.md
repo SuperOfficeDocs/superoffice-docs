@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_GetProduct
-description: Product GetProduct(Integer quoteConnectionId, String eRPProductKey)
+uid: crmscript_ref_NSQuoteAgent_GetProduct
+title: Product GetProduct(Integer quoteConnectionId, String eRPProductKey)
 intellisense: NSQuoteAgent.GetProduct
-keywords: NSQuoteAgent,GetProduct
+keywords: NSQuoteAgent, GetProduct
 so.topic: reference
 ---
 

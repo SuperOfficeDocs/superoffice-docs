@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_GetSatEnabled
-description: Bool NSChatOpeningHours.GetSatEnabled()
+uid: crmscript_ref_NSChatOpeningHours_GetSatEnabled
+title: Bool GetSatEnabled()
 intellisense: NSChatOpeningHours.GetSatEnabled
 keywords: NSChatOpeningHours, GetSatEnabled
 so.topic: reference

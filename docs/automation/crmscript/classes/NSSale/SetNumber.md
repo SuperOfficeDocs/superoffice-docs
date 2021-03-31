@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_SetNumber
-description: NSSale.SetNumber(String number)
+uid: crmscript_ref_NSSale_SetNumber
+title: SetNumber(String number)
 intellisense: NSSale.SetNumber
 keywords: NSSale, GetNumber
 so.topic: reference

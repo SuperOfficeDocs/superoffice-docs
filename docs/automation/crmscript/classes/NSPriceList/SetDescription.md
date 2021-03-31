@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_SetDescription
-description: NSPriceList.SetDescription(String description)
+uid: crmscript_ref_NSPriceList_SetDescription
+title: SetDescription(String description)
 intellisense: NSPriceList.SetDescription
 keywords: NSPriceList, GetDescription
 so.topic: reference

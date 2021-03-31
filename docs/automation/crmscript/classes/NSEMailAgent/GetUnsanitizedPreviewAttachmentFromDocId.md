@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetUnsanitizedPreviewAttachmentFromDocId
-description: EMailAttachment GetUnsanitizedPreviewAttachmentFromDocId(Integer docId, String attachmentId)
+uid: crmscript_ref_NSEMailAgent_GetUnsanitizedPreviewAttachmentFromDocId
+title: EMailAttachment GetUnsanitizedPreviewAttachmentFromDocId(Integer docId, String attachmentId)
 intellisense: NSEMailAgent.GetUnsanitizedPreviewAttachmentFromDocId
-keywords: NSEMailAgent,GetUnsanitizedPreviewAttachmentFromDocId
+keywords: NSEMailAgent, GetUnsanitizedPreviewAttachmentFromDocId
 so.topic: reference
 ---
 

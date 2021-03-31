@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreferenceDescriptionLine_GetPrefDescId
-description: Integer NSPreferenceDescriptionLine.GetPrefDescId()
+uid: crmscript_ref_NSPreferenceDescriptionLine_GetPrefDescId
+title: Integer GetPrefDescId()
 intellisense: NSPreferenceDescriptionLine.GetPrefDescId
 keywords: NSPreferenceDescriptionLine, GetPrefDescId
 so.topic: reference

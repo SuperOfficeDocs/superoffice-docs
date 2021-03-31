@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllSaleStages
-description: SaleStageEntityArray GetAllSaleStages(Bool includeDeleted)
+uid: crmscript_ref_NSListAgent_GetAllSaleStages
+title: SaleStageEntityArray GetAllSaleStages(Bool includeDeleted)
 intellisense: NSListAgent.GetAllSaleStages
-keywords: NSListAgent,GetAllSaleStages
+keywords: NSListAgent, GetAllSaleStages
 so.topic: reference
 ---
 

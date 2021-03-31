@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionAttachment_SetDocumentId
-description: NSQuoteVersionAttachment.SetDocumentId(Integer documentId)
+uid: crmscript_ref_NSQuoteVersionAttachment_SetDocumentId
+title: SetDocumentId(Integer documentId)
 intellisense: NSQuoteVersionAttachment.SetDocumentId
 keywords: NSQuoteVersionAttachment, GetDocumentId
 so.topic: reference

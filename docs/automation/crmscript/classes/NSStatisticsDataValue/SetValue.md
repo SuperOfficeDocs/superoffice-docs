@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatisticsDataValue_SetValue
-description: NSStatisticsDataValue.SetValue(Float value)
+uid: crmscript_ref_NSStatisticsDataValue_SetValue
+title: SetValue(Float value)
 intellisense: NSStatisticsDataValue.SetValue
 keywords: NSStatisticsDataValue, GetValue
 so.topic: reference

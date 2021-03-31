@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldInfoDateTime_SetDefaultValue
-description: NSFieldInfoDateTime.SetDefaultValue(DateTime defaultValue)
+uid: crmscript_ref_NSFieldInfoDateTime_SetDefaultValue
+title: SetDefaultValue(DateTime defaultValue)
 intellisense: NSFieldInfoDateTime.SetDefaultValue
 keywords: NSFieldInfoDateTime, GetDefaultValue
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTimeZoneAgent_GetBaseTimeZoneId
-description: Integer GetBaseTimeZoneId()
+uid: crmscript_ref_NSTimeZoneAgent_GetBaseTimeZoneId
+title: Integer GetBaseTimeZoneId()
 intellisense: NSTimeZoneAgent.GetBaseTimeZoneId
-keywords: NSTimeZoneAgent,GetBaseTimeZoneId
+keywords: NSTimeZoneAgent, GetBaseTimeZoneId
 so.topic: reference
 ---
 

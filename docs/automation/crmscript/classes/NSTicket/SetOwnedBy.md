@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetOwnedBy
-description: NSTicket.SetOwnedBy(Integer ownedBy)
+uid: crmscript_ref_NSTicket_SetOwnedBy
+title: SetOwnedBy(Integer ownedBy)
 intellisense: NSTicket.SetOwnedBy
 keywords: NSTicket, GetOwnedBy
 so.topic: reference

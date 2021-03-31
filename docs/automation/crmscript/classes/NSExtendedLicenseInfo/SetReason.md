@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtendedLicenseInfo_SetReason
-description: NSExtendedLicenseInfo.SetReason(String reason)
+uid: crmscript_ref_NSExtendedLicenseInfo_SetReason
+title: SetReason(String reason)
 intellisense: NSExtendedLicenseInfo.SetReason
 keywords: NSExtendedLicenseInfo, GetReason
 so.topic: reference

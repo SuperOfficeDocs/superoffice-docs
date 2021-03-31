@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhookAgent
-description: NSWebhookAgent
+uid: crmscript_ref_NSWebhookAgent
+title: NSWebhookAgent
 intellisense: Void.NSWebhookAgent
 keywords: NSWebhookAgent
 so.topic: reference

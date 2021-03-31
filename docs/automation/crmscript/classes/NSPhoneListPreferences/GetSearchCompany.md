@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences_GetSearchCompany
-description: Bool NSPhoneListPreferences.GetSearchCompany()
+uid: crmscript_ref_NSPhoneListPreferences_GetSearchCompany
+title: Bool GetSearchCompany()
 intellisense: NSPhoneListPreferences.GetSearchCompany
 keywords: NSPhoneListPreferences, GetSearchCompany
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveAmountClassEntity
-description: NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity amountClassEntity);
+uid: crmscript_ref_NSListAgent_SaveAmountClassEntity
+title: NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity amountClassEntity);
 intellisense: NSListAgent.SaveAmountClassEntity
-keywords: NSListAgent,SaveAmountClassEntity
+keywords: NSListAgent, SaveAmountClassEntity
 so.topic: reference
 ---
 	  

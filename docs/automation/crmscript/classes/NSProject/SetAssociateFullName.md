@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_SetAssociateFullName
-description: NSProject.SetAssociateFullName(String associateFullName)
+uid: crmscript_ref_NSProject_SetAssociateFullName
+title: SetAssociateFullName(String associateFullName)
 intellisense: NSProject.SetAssociateFullName
 keywords: NSProject, GetAssociateFullName
 so.topic: reference

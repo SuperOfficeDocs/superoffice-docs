@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_GetSelectionForFind
-description: SelectionForFind GetSelectionForFind(String entityName, Integer typicalSearchId)
+uid: crmscript_ref_NSSelectionAgent_GetSelectionForFind
+title: SelectionForFind GetSelectionForFind(String entityName, Integer typicalSearchId)
 intellisense: NSSelectionAgent.GetSelectionForFind
-keywords: NSSelectionAgent,GetSelectionForFind
+keywords: NSSelectionAgent, GetSelectionForFind
 so.topic: reference
 ---
 

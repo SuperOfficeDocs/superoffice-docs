@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetNumReplies
-description: NSTicket.SetNumReplies(Integer numReplies)
+uid: crmscript_ref_NSTicket_SetNumReplies
+title: SetNumReplies(Integer numReplies)
 intellisense: NSTicket.SetNumReplies
 keywords: NSTicket, GetNumReplies
 so.topic: reference

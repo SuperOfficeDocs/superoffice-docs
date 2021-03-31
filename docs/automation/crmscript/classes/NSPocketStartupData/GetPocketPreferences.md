@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketStartupData_GetPocketPreferences
-description: PreferenceArray NSPocketStartupData.GetPocketPreferences()
+uid: crmscript_ref_NSPocketStartupData_GetPocketPreferences
+title: PreferenceArray GetPocketPreferences()
 intellisense: NSPocketStartupData.GetPocketPreferences
 keywords: NSPocketStartupData, GetPocketPreferences
 so.topic: reference

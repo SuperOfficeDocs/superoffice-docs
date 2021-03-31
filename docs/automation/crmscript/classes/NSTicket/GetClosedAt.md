@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_GetClosedAt
-description: DateTime NSTicket.GetClosedAt()
+uid: crmscript_ref_NSTicket_GetClosedAt
+title: DateTime GetClosedAt()
 intellisense: NSTicket.GetClosedAt
 keywords: NSTicket, GetClosedAt
 so.topic: reference

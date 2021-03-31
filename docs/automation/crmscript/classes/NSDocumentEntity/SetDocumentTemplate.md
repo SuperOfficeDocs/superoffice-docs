@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetDocumentTemplate
-description: NSDocumentEntity.SetDocumentTemplate(DocumentTemplate documentTemplate)
+uid: crmscript_ref_NSDocumentEntity_SetDocumentTemplate
+title: SetDocumentTemplate(DocumentTemplate documentTemplate)
 intellisense: NSDocumentEntity.SetDocumentTemplate
 keywords: NSDocumentEntity, GetDocumentTemplate
 so.topic: reference

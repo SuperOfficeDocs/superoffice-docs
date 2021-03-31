@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_ValidateDays
-description: RecurrenceDateArray ValidateDays(AppointmentEntity appointmentEntity, DateTimeArray dates)
+uid: crmscript_ref_NSAppointmentAgent_ValidateDays
+title: RecurrenceDateArray ValidateDays(AppointmentEntity appointmentEntity, DateTimeArray dates)
 intellisense: NSAppointmentAgent.ValidateDays
-keywords: NSAppointmentAgent,ValidateDays
+keywords: NSAppointmentAgent, ValidateDays
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReportLabelLayoutEntity_SetOrientation
-description: NSReportLabelLayoutEntity.SetOrientation(Integer orientation)
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetOrientation
+title: SetOrientation(Integer orientation)
 intellisense: NSReportLabelLayoutEntity.SetOrientation
 keywords: NSReportLabelLayoutEntity, GetOrientation
 so.topic: reference

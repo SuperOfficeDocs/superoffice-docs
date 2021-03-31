@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_SetDeleted
-description: NSRoleEntity.SetDeleted(Integer deleted)
+uid: crmscript_ref_NSRoleEntity_SetDeleted
+title: SetDeleted(Integer deleted)
 intellisense: NSRoleEntity.SetDeleted
 keywords: NSRoleEntity, GetDeleted
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSExtAppEntity_SetPath
-description: NSExtAppEntity.SetPath(String path)
+uid: crmscript_ref_NSExtAppEntity_SetPath
+title: SetPath(String path)
 intellisense: NSExtAppEntity.SetPath
 keywords: NSExtAppEntity, GetPath
 so.topic: reference

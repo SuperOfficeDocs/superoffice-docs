@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormEntity_GetFormKey
-description: String NSFormEntity.GetFormKey()
+uid: crmscript_ref_NSFormEntity_GetFormKey
+title: String GetFormKey()
 intellisense: NSFormEntity.GetFormKey
 keywords: NSFormEntity, GetFormKey
 so.topic: reference

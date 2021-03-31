@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetReasonStalled
-description: NSSaleEntity.SetReasonStalled(ReasonStalled reasonStalled)
+uid: crmscript_ref_NSSaleEntity_SetReasonStalled
+title: SetReasonStalled(ReasonStalled reasonStalled)
 intellisense: NSSaleEntity.SetReasonStalled
 keywords: NSSaleEntity, GetReasonStalled
 so.topic: reference

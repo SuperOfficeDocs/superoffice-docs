@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetProbabilityFromStage
-description: Integer GetProbabilityFromStage(Integer stageId)
+uid: crmscript_ref_NSSaleAgent_GetProbabilityFromStage
+title: Integer GetProbabilityFromStage(Integer stageId)
 intellisense: NSSaleAgent.GetProbabilityFromStage
-keywords: NSSaleAgent,GetProbabilityFromStage
+keywords: NSSaleAgent, GetProbabilityFromStage
 so.topic: reference
 ---
 

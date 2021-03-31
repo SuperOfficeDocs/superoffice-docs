@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_SetTargetTableName
-description: NSSelectionEntity.SetTargetTableName(String targetTableName)
+uid: crmscript_ref_NSSelectionEntity_SetTargetTableName
+title: SetTargetTableName(String targetTableName)
 intellisense: NSSelectionEntity.SetTargetTableName
 keywords: NSSelectionEntity, GetTargetTableName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetMainProviderName
-description: String NSSelectionEntity.GetMainProviderName()
+uid: crmscript_ref_NSSelectionEntity_GetMainProviderName
+title: String GetMainProviderName()
 intellisense: NSSelectionEntity.GetMainProviderName
 keywords: NSSelectionEntity, GetMainProviderName
 so.topic: reference

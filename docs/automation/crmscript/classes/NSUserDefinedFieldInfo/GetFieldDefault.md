@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldDefault
-description: String NSUserDefinedFieldInfo.GetFieldDefault()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldDefault
+title: String GetFieldDefault()
 intellisense: NSUserDefinedFieldInfo.GetFieldDefault
 keywords: NSUserDefinedFieldInfo, GetFieldDefault
 so.topic: reference

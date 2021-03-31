@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetAppData
-description: String GetAppData(String key)
+uid: crmscript_ref_NSBLOBAgent_GetAppData
+title: String GetAppData(String key)
 intellisense: NSBLOBAgent.GetAppData
-keywords: NSBLOBAgent,GetAppData
+keywords: NSBLOBAgent, GetAppData
 so.topic: reference
 ---
 

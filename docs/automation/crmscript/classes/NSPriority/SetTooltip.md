@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSPriority_SetTooltip
-description: NSPriority.SetTooltip(String tooltip)
+uid: crmscript_ref_NSPriority_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSPriority.SetTooltip
 keywords: NSPriority, SetTooltip
 so.topic: reference
 ---
 
-Set the tooltip description for the list item.
+Set the tooltip description for the Priority list item.
 
 **Parameter:** 
- - **tooltip** String tooltip description.
+ - **tooltip** String Priority tooltip description.
 

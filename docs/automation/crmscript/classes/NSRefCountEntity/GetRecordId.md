@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_GetRecordId
-description: Integer NSRefCountEntity.GetRecordId()
+uid: crmscript_ref_NSRefCountEntity_GetRecordId
+title: Integer GetRecordId()
 intellisense: NSRefCountEntity.GetRecordId
 keywords: NSRefCountEntity, GetRecordId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_SetValues
-description: NSFieldValueInfo.SetValues(StringArray values)
+uid: crmscript_ref_NSFieldValueInfo_SetValues
+title: SetValues(StringArray values)
 intellisense: NSFieldValueInfo.SetValues
 keywords: NSFieldValueInfo, GetValues
 so.topic: reference

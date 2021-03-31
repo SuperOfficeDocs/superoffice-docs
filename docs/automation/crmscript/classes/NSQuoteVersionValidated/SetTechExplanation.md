@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionValidated_SetTechExplanation
-description: NSQuoteVersionValidated.SetTechExplanation(String techExplanation)
+uid: crmscript_ref_NSQuoteVersionValidated_SetTechExplanation
+title: SetTechExplanation(String techExplanation)
 intellisense: NSQuoteVersionValidated.SetTechExplanation
 keywords: NSQuoteVersionValidated, GetTechExplanation
 so.topic: reference

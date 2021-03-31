@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_GetArchiveConfigurationV2
-description: ArchiveConfiguration GetArchiveConfigurationV2(String guiName, String providerName, String context, String ownerKeys)
+uid: crmscript_ref_NSArchiveAgent_GetArchiveConfigurationV2
+title: ArchiveConfiguration GetArchiveConfigurationV2(String guiName, String providerName, String context, String ownerKeys)
 intellisense: NSArchiveAgent.GetArchiveConfigurationV2
-keywords: NSArchiveAgent,GetArchiveConfigurationV2
+keywords: NSArchiveAgent, GetArchiveConfigurationV2
 so.topic: reference
 ---
 

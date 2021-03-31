@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCommandInfo_SetName
-description: NSCommandInfo.SetName(String name)
+uid: crmscript_ref_NSCommandInfo_SetName
+title: SetName(String name)
 intellisense: NSCommandInfo.SetName
 keywords: NSCommandInfo, GetName
 so.topic: reference

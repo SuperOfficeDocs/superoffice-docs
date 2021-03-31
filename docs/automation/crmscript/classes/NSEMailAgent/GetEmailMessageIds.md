@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEmailMessageIds
-description: StringArray GetEmailMessageIds(EMailConnectionInfoExtended connectionInfoExtended)
+uid: crmscript_ref_NSEMailAgent_GetEmailMessageIds
+title: StringArray GetEmailMessageIds(EMailConnectionInfoExtended connectionInfoExtended)
 intellisense: NSEMailAgent.GetEmailMessageIds
-keywords: NSEMailAgent,GetEmailMessageIds
+keywords: NSEMailAgent, GetEmailMessageIds
 so.topic: reference
 ---
 

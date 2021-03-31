@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetWindowName
-description: NSWebPanelEntity.SetWindowName(String windowName)
+uid: crmscript_ref_NSWebPanelEntity_SetWindowName
+title: SetWindowName(String windowName)
 intellisense: NSWebPanelEntity.SetWindowName
 keywords: NSWebPanelEntity, GetWindowName
 so.topic: reference

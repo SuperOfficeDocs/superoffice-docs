@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSScript_GetRegisteredBy
-description: String NSScript.GetRegisteredBy()
+uid: crmscript_ref_NSScript_GetRegisteredBy
+title: String GetRegisteredBy()
 intellisense: NSScript.GetRegisteredBy
 keywords: NSScript, GetRegisteredBy
 so.topic: reference

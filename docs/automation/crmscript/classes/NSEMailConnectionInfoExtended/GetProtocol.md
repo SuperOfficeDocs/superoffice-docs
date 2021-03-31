@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailConnectionInfoExtended_GetProtocol
-description: String NSEMailConnectionInfoExtended.GetProtocol()
+uid: crmscript_ref_NSEMailConnectionInfoExtended_GetProtocol
+title: String GetProtocol()
 intellisense: NSEMailConnectionInfoExtended.GetProtocol
 keywords: NSEMailConnectionInfoExtended, GetProtocol
 so.topic: reference

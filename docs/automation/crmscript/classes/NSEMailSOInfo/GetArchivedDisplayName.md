@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailSOInfo_GetArchivedDisplayName
-description: String NSEMailSOInfo.GetArchivedDisplayName()
+uid: crmscript_ref_NSEMailSOInfo_GetArchivedDisplayName
+title: String GetArchivedDisplayName()
 intellisense: NSEMailSOInfo.GetArchivedDisplayName
 keywords: NSEMailSOInfo, GetArchivedDisplayName
 so.topic: reference

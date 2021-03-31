@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_GetTravelPrefix
-description: Integer NSRefCountEntity.GetTravelPrefix()
+uid: crmscript_ref_NSRefCountEntity_GetTravelPrefix
+title: Integer GetTravelPrefix()
 intellisense: NSRefCountEntity.GetTravelPrefix
 keywords: NSRefCountEntity, GetTravelPrefix
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserInfo_GetUserType
-description: Integer NSUserInfo.GetUserType()
+uid: crmscript_ref_NSUserInfo_GetUserType
+title: Integer GetUserType()
 intellisense: NSUserInfo.GetUserType
 keywords: NSUserInfo, GetUserType
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetListEntity
-description: NSListEntity GetListEntity(Integer listEntityId);
+uid: crmscript_ref_NSListAgent_GetListEntity
+title: NSListEntity GetListEntity(Integer listEntityId);
 intellisense: NSListAgent.GetListEntity
-keywords: NSListAgent,GetListEntity
+keywords: NSListAgent, GetListEntity
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_GetCustomerCenterConfig
-description: NSCustomerCenterConfig GetCustomerCenterConfig(Integer customerCenterConfigId);
+uid: crmscript_ref_NSCustomerServiceAgent_GetCustomerCenterConfig
+title: NSCustomerCenterConfig GetCustomerCenterConfig(Integer customerCenterConfigId);
 intellisense: NSCustomerServiceAgent.GetCustomerCenterConfig
-keywords: NSCustomerServiceAgent,GetCustomerCenterConfig
+keywords: NSCustomerServiceAgent, GetCustomerCenterConfig
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_SetDeleted
-description: NSQuoteConnection.SetDeleted(Bool deleted)
+uid: crmscript_ref_NSQuoteConnection_SetDeleted
+title: SetDeleted(Bool deleted)
 intellisense: NSQuoteConnection.SetDeleted
 keywords: NSQuoteConnection, GetDeleted
 so.topic: reference

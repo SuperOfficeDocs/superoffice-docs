@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSmsConfig_SetDefaultSmsCountry
-description: NSSmsConfig.SetDefaultSmsCountry(String defaultSmsCountry)
+uid: crmscript_ref_NSSmsConfig_SetDefaultSmsCountry
+title: SetDefaultSmsCountry(String defaultSmsCountry)
 intellisense: NSSmsConfig.SetDefaultSmsCountry
 keywords: NSSmsConfig, GetDefaultSmsCountry
 so.topic: reference

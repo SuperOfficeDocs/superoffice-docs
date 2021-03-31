@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetType
-description: NSAppointment.SetType(Integer type)
+uid: crmscript_ref_NSAppointment_SetType
+title: SetType(Integer type)
 intellisense: NSAppointment.SetType
 keywords: NSAppointment, GetType
 so.topic: reference

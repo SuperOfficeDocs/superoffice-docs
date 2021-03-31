@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaintConfiguration_SetPeriod2
-description: NSSaintConfiguration.SetPeriod2(Integer period2)
+uid: crmscript_ref_NSSaintConfiguration_SetPeriod2
+title: SetPeriod2(Integer period2)
 intellisense: NSSaintConfiguration.SetPeriod2
 keywords: NSSaintConfiguration, GetPeriod2
 so.topic: reference

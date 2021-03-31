@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactActivity_SetActionId
-description: NSContactActivity.SetActionId(Integer actionId)
+uid: crmscript_ref_NSContactActivity_SetActionId
+title: SetActionId(Integer actionId)
 intellisense: NSContactActivity.SetActionId
 keywords: NSContactActivity, GetActionId
 so.topic: reference

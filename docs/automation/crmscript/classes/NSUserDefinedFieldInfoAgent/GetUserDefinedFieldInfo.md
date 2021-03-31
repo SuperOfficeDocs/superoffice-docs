@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldInfo
-description: NSUserDefinedFieldInfo GetUserDefinedFieldInfo(Integer userDefinedFieldInfoId);
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldInfo
+title: NSUserDefinedFieldInfo GetUserDefinedFieldInfo(Integer userDefinedFieldInfoId);
 intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
-keywords: NSUserDefinedFieldInfoAgent,GetUserDefinedFieldInfo
+keywords: NSUserDefinedFieldInfoAgent, GetUserDefinedFieldInfo
 so.topic: reference
 ---
 

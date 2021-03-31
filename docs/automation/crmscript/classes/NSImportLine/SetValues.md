@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportLine_SetValues
-description: NSImportLine.SetValues(StringArray values)
+uid: crmscript_ref_NSImportLine_SetValues
+title: SetValues(StringArray values)
 intellisense: NSImportLine.SetValues
 keywords: NSImportLine, GetValues
 so.topic: reference

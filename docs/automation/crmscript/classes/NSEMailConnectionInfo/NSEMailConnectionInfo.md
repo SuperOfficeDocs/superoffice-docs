@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailConnectionInfo
-description: NSEMailConnectionInfo
+uid: crmscript_ref_NSEMailConnectionInfo
+title: NSEMailConnectionInfo
 intellisense: Void.NSEMailConnectionInfo
 keywords: NSEMailConnectionInfo
 so.topic: reference

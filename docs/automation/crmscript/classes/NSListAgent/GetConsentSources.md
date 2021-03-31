@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetConsentSources
-description: ConsentSourceArray GetConsentSources()
+uid: crmscript_ref_NSListAgent_GetConsentSources
+title: ConsentSourceArray GetConsentSources()
 intellisense: NSListAgent.GetConsentSources
-keywords: NSListAgent,GetConsentSources
+keywords: NSListAgent, GetConsentSources
 so.topic: reference
 ---
 

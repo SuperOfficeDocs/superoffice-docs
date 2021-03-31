@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetDeleted
-description: Bool NSWebPanelEntity.GetDeleted()
+uid: crmscript_ref_NSWebPanelEntity_GetDeleted
+title: Bool GetDeleted()
 intellisense: NSWebPanelEntity.GetDeleted
 keywords: NSWebPanelEntity, GetDeleted
 so.topic: reference

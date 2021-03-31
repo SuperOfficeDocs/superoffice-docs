@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_GetCustomQueueText
-description: String NSChatTopicEntity.GetCustomQueueText()
+uid: crmscript_ref_NSChatTopicEntity_GetCustomQueueText
+title: String GetCustomQueueText()
 intellisense: NSChatTopicEntity.GetCustomQueueText
 keywords: NSChatTopicEntity, GetCustomQueueText
 so.topic: reference

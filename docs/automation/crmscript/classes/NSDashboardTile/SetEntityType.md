@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTile_SetEntityType
-description: NSDashboardTile.SetEntityType(Integer entityType)
+uid: crmscript_ref_NSDashboardTile_SetEntityType
+title: SetEntityType(Integer entityType)
 intellisense: NSDashboardTile.SetEntityType
 keywords: NSDashboardTile, GetEntityType
 so.topic: reference

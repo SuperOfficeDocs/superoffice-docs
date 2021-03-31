@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetDocumentTemplateStreamFromId
-description: Stream GetDocumentTemplateStreamFromId(Integer documentTemplateId, String languageCode)
+uid: crmscript_ref_NSListAgent_GetDocumentTemplateStreamFromId
+title: Stream GetDocumentTemplateStreamFromId(Integer documentTemplateId, String languageCode)
 intellisense: NSListAgent.GetDocumentTemplateStreamFromId
-keywords: NSListAgent,GetDocumentTemplateStreamFromId
+keywords: NSListAgent, GetDocumentTemplateStreamFromId
 so.topic: reference
 ---
 

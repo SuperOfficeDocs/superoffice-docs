@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_GetStyleHint
-description: String NSSelectableMDOListItem.GetStyleHint()
+uid: crmscript_ref_NSSelectableMDOListItem_GetStyleHint
+title: String GetStyleHint()
 intellisense: NSSelectableMDOListItem.GetStyleHint
 keywords: NSSelectableMDOListItem, GetStyleHint
 so.topic: reference

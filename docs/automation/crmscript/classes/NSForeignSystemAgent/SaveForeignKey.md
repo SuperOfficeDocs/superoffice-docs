@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_SaveForeignKey
-description: ForeignKey SaveForeignKey(ForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
+uid: crmscript_ref_NSForeignSystemAgent_SaveForeignKey
+title: ForeignKey SaveForeignKey(ForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
 intellisense: NSForeignSystemAgent.SaveForeignKey
-keywords: NSForeignSystemAgent,SaveForeignKey
+keywords: NSForeignSystemAgent, SaveForeignKey
 so.topic: reference
 ---
 

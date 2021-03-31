@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_SaveUserGroup
-description: UserGroup SaveUserGroup(UserGroup userGroup)
+uid: crmscript_ref_NSUserAgent_SaveUserGroup
+title: UserGroup SaveUserGroup(UserGroup userGroup)
 intellisense: NSUserAgent.SaveUserGroup
-keywords: NSUserAgent,SaveUserGroup
+keywords: NSUserAgent, SaveUserGroup
 so.topic: reference
 ---
 

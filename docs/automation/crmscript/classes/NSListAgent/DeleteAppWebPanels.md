@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_DeleteAppWebPanels
-description: Void DeleteAppWebPanels()
+uid: crmscript_ref_NSListAgent_DeleteAppWebPanels
+title: Void DeleteAppWebPanels()
 intellisense: NSListAgent.DeleteAppWebPanels
-keywords: NSListAgent,DeleteAppWebPanels
+keywords: NSListAgent, DeleteAppWebPanels
 so.topic: reference
 ---
 

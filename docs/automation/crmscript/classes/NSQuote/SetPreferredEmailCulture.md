@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuote_SetPreferredEmailCulture
-description: NSQuote.SetPreferredEmailCulture(String preferredEmailCulture)
+uid: crmscript_ref_NSQuote_SetPreferredEmailCulture
+title: SetPreferredEmailCulture(String preferredEmailCulture)
 intellisense: NSQuote.SetPreferredEmailCulture
 keywords: NSQuote, GetPreferredEmailCulture
 so.topic: reference

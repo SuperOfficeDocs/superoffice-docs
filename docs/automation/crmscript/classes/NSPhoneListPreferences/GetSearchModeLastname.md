@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences_GetSearchModeLastname
-description: Integer NSPhoneListPreferences.GetSearchModeLastname()
+uid: crmscript_ref_NSPhoneListPreferences_GetSearchModeLastname
+title: Integer GetSearchModeLastname()
 intellisense: NSPhoneListPreferences.GetSearchModeLastname
 keywords: NSPhoneListPreferences, GetSearchModeLastname
 so.topic: reference

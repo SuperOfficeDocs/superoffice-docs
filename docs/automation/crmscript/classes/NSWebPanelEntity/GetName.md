@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_GetName
-description: String NSWebPanelEntity.GetName()
+uid: crmscript_ref_NSWebPanelEntity_GetName
+title: String GetName()
 intellisense: NSWebPanelEntity.GetName
 keywords: NSWebPanelEntity, GetName
 so.topic: reference

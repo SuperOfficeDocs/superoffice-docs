@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAccessGatewayInfo_GetRedirectUri
-description: String NSAccessGatewayInfo.GetRedirectUri()
+uid: crmscript_ref_NSAccessGatewayInfo_GetRedirectUri
+title: String GetRedirectUri()
 intellisense: NSAccessGatewayInfo.GetRedirectUri
 keywords: NSAccessGatewayInfo, GetRedirectUri
 so.topic: reference

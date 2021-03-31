@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailCustomHeader_SetValues
-description: NSEMailCustomHeader.SetValues(StringArray values)
+uid: crmscript_ref_NSEMailCustomHeader_SetValues
+title: SetValues(StringArray values)
 intellisense: NSEMailCustomHeader.SetValues
 keywords: NSEMailCustomHeader, GetValues
 so.topic: reference

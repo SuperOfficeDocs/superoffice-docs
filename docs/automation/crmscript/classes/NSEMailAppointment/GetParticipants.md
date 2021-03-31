@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment_GetParticipants
-description: StringArray NSEMailAppointment.GetParticipants()
+uid: crmscript_ref_NSEMailAppointment_GetParticipants
+title: StringArray GetParticipants()
 intellisense: NSEMailAppointment.GetParticipants
 keywords: NSEMailAppointment, GetParticipants
 so.topic: reference

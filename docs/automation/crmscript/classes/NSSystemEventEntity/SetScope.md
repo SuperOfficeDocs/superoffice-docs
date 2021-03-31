@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSystemEventEntity_SetScope
-description: NSSystemEventEntity.SetScope(Integer scope)
+uid: crmscript_ref_NSSystemEventEntity_SetScope
+title: SetScope(Integer scope)
 intellisense: NSSystemEventEntity.SetScope
 keywords: NSSystemEventEntity, GetScope
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectMember_SetPersonId
-description: NSProjectMember.SetPersonId(Integer personId)
+uid: crmscript_ref_NSProjectMember_SetPersonId
+title: SetPersonId(Integer personId)
 intellisense: NSProjectMember.SetPersonId
 keywords: NSProjectMember, GetPersonId
 so.topic: reference

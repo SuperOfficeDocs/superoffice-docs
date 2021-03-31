@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetPostFormEnabled
-description: Bool NSChatWidgetSettings.GetPostFormEnabled()
+uid: crmscript_ref_NSChatWidgetSettings_GetPostFormEnabled
+title: Bool GetPostFormEnabled()
 intellisense: NSChatWidgetSettings.GetPostFormEnabled
 keywords: NSChatWidgetSettings, GetPostFormEnabled
 so.topic: reference

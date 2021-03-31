@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEnvelope_GetFlags
-description: Integer NSEMailEnvelope.GetFlags()
+uid: crmscript_ref_NSEMailEnvelope_GetFlags
+title: Integer GetFlags()
 intellisense: NSEMailEnvelope.GetFlags
 keywords: NSEMailEnvelope, GetFlags
 so.topic: reference

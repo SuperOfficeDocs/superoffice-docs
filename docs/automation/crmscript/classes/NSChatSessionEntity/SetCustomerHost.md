@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_SetCustomerHost
-description: NSChatSessionEntity.SetCustomerHost(String customerHost)
+uid: crmscript_ref_NSChatSessionEntity_SetCustomerHost
+title: SetCustomerHost(String customerHost)
 intellisense: NSChatSessionEntity.SetCustomerHost
 keywords: NSChatSessionEntity, GetCustomerHost
 so.topic: reference

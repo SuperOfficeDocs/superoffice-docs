@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeSettings_GetSaveDocument
-description: Bool NSMailMergeSettings.GetSaveDocument()
+uid: crmscript_ref_NSMailMergeSettings_GetSaveDocument
+title: Bool GetSaveDocument()
 intellisense: NSMailMergeSettings.GetSaveDocument
 keywords: NSMailMergeSettings, GetSaveDocument
 so.topic: reference

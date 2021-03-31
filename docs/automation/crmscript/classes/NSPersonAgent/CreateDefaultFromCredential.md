@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_CreateDefaultFromCredential
-description: PersonEntity CreateDefaultFromCredential(Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
+uid: crmscript_ref_NSPersonAgent_CreateDefaultFromCredential
+title: PersonEntity CreateDefaultFromCredential(Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
 intellisense: NSPersonAgent.CreateDefaultFromCredential
-keywords: NSPersonAgent,CreateDefaultFromCredential
+keywords: NSPersonAgent, CreateDefaultFromCredential
 so.topic: reference
 ---
 

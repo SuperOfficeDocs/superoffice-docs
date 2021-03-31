@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFavouriteAgent_RemoveFavouritesById
-description: Void RemoveFavouritesById(IntegerArray favouriteIds)
+uid: crmscript_ref_NSFavouriteAgent_RemoveFavouritesById
+title: Void RemoveFavouritesById(IntegerArray favouriteIds)
 intellisense: NSFavouriteAgent.RemoveFavouritesById
-keywords: NSFavouriteAgent,RemoveFavouritesById
+keywords: NSFavouriteAgent, RemoveFavouritesById
 so.topic: reference
 ---
 

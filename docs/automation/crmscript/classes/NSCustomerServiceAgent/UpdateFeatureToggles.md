@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_UpdateFeatureToggles
-description: Void UpdateFeatureToggles(CsFeatureToggleArray featureToggles)
+uid: crmscript_ref_NSCustomerServiceAgent_UpdateFeatureToggles
+title: Void UpdateFeatureToggles(CsFeatureToggleArray featureToggles)
 intellisense: NSCustomerServiceAgent.UpdateFeatureToggles
-keywords: NSCustomerServiceAgent,UpdateFeatureToggles
+keywords: NSCustomerServiceAgent, UpdateFeatureToggles
 so.topic: reference
 ---
 

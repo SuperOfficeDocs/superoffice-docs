@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketStartupData_SetPhoneLocaleTimeZoneData
-description: NSPocketStartupData.SetPhoneLocaleTimeZoneData(TimeZoneData phoneLocaleTimeZoneData)
+uid: crmscript_ref_NSPocketStartupData_SetPhoneLocaleTimeZoneData
+title: SetPhoneLocaleTimeZoneData(TimeZoneData phoneLocaleTimeZoneData)
 intellisense: NSPocketStartupData.SetPhoneLocaleTimeZoneData
 keywords: NSPocketStartupData, GetPhoneLocaleTimeZoneData
 so.topic: reference

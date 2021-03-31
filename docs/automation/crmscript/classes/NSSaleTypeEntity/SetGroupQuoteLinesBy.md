@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_SetGroupQuoteLinesBy
-description: NSSaleTypeEntity.SetGroupQuoteLinesBy(Integer groupQuoteLinesBy)
+uid: crmscript_ref_NSSaleTypeEntity_SetGroupQuoteLinesBy
+title: SetGroupQuoteLinesBy(Integer groupQuoteLinesBy)
 intellisense: NSSaleTypeEntity.SetGroupQuoteLinesBy
 keywords: NSSaleTypeEntity, GetGroupQuoteLinesBy
 so.topic: reference

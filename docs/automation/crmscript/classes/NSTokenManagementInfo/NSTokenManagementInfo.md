@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTokenManagementInfo
-description: NSTokenManagementInfo
+uid: crmscript_ref_NSTokenManagementInfo
+title: NSTokenManagementInfo
 intellisense: Void.NSTokenManagementInfo
 keywords: NSTokenManagementInfo
 so.topic: reference

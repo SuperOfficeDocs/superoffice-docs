@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailMergeTask_GetPriorityId
-description: Integer NSMailMergeTask.GetPriorityId()
+uid: crmscript_ref_NSMailMergeTask_GetPriorityId
+title: Integer GetPriorityId()
 intellisense: NSMailMergeTask.GetPriorityId
 keywords: NSMailMergeTask, GetPriorityId
 so.topic: reference

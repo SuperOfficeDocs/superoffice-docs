@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_SetSentInfo
-description: NSPersonEntity.SetSentInfo(Integer sentInfo)
+uid: crmscript_ref_NSPersonEntity_SetSentInfo
+title: SetSentInfo(Integer sentInfo)
 intellisense: NSPersonEntity.SetSentInfo
 keywords: NSPersonEntity, GetSentInfo
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_ForceResyncExternal
-description: PluginResponse ForceResyncExternal(Integer erpConnectionId, Integer erpActorType, StringArray externalKeys)
+uid: crmscript_ref_NSErpSyncAgent_ForceResyncExternal
+title: PluginResponse ForceResyncExternal(Integer erpConnectionId, Integer erpActorType, StringArray externalKeys)
 intellisense: NSErpSyncAgent.ForceResyncExternal
-keywords: NSErpSyncAgent,ForceResyncExternal
+keywords: NSErpSyncAgent, ForceResyncExternal
 so.topic: reference
 ---
 

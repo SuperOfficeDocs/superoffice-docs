@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorTypeMapping_GetActorTypeErp
-description: ErpActorType NSErpSyncActorTypeMapping.GetActorTypeErp()
+uid: crmscript_ref_NSErpSyncActorTypeMapping_GetActorTypeErp
+title: ErpActorType GetActorTypeErp()
 intellisense: NSErpSyncActorTypeMapping.GetActorTypeErp
 keywords: NSErpSyncActorTypeMapping, GetActorTypeErp
 so.topic: reference

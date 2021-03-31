@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetUpdated
-description: DateTime NSWebhook.GetUpdated()
+uid: crmscript_ref_NSWebhook_GetUpdated
+title: DateTime GetUpdated()
 intellisense: NSWebhook.GetUpdated
 keywords: NSWebhook, GetUpdated
 so.topic: reference

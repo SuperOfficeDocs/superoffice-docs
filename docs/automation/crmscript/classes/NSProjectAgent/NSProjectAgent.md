@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent
-description: NSProjectAgent
+uid: crmscript_ref_NSProjectAgent
+title: NSProjectAgent
 intellisense: Void.NSProjectAgent
 keywords: NSProjectAgent
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetLanguageIsoCode
-description: String NSChatWidgetSettings.GetLanguageIsoCode()
+uid: crmscript_ref_NSChatWidgetSettings_GetLanguageIsoCode
+title: String GetLanguageIsoCode()
 intellisense: NSChatWidgetSettings.GetLanguageIsoCode
 keywords: NSChatWidgetSettings, GetLanguageIsoCode
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_GetErpFieldId
-description: Integer NSErpSyncFieldMapping.GetErpFieldId()
+uid: crmscript_ref_NSErpSyncFieldMapping_GetErpFieldId
+title: Integer GetErpFieldId()
 intellisense: NSErpSyncFieldMapping.GetErpFieldId
 keywords: NSErpSyncFieldMapping, GetErpFieldId
 so.topic: reference

@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSPaymentTerm_GetValue
-description: String NSPaymentTerm.GetValue()
+uid: crmscript_ref_NSPaymentTerm_GetValue
+title: String GetValue()
 intellisense: NSPaymentTerm.GetValue
 keywords: NSPaymentTerm, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the PaymentTerm.
 
-**Returns:** String name
+**Returns:** String PaymentTerm name.
 

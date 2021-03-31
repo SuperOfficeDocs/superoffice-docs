@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantInfo_GetEmailId
-description: Integer NSParticipantInfo.GetEmailId()
+uid: crmscript_ref_NSParticipantInfo_GetEmailId
+title: Integer GetEmailId()
 intellisense: NSParticipantInfo.GetEmailId
 keywords: NSParticipantInfo, GetEmailId
 so.topic: reference

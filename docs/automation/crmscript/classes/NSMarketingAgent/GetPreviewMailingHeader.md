@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_GetPreviewMailingHeader
-description: PreviewMailingHeader GetPreviewMailingHeader(Integer shipmentId)
+uid: crmscript_ref_NSMarketingAgent_GetPreviewMailingHeader
+title: PreviewMailingHeader GetPreviewMailingHeader(Integer shipmentId)
 intellisense: NSMarketingAgent.GetPreviewMailingHeader
-keywords: NSMarketingAgent,GetPreviewMailingHeader
+keywords: NSMarketingAgent, GetPreviewMailingHeader
 so.topic: reference
 ---
 

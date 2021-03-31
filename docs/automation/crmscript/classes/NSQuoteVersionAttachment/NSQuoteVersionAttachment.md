@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionAttachment
-description: NSQuoteVersionAttachment
+uid: crmscript_ref_NSQuoteVersionAttachment
+title: NSQuoteVersionAttachment
 intellisense: Void.NSQuoteVersionAttachment
 keywords: NSQuoteVersionAttachment
 so.topic: reference

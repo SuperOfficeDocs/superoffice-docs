@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_ExecuteDocumentCommand
-description: ReturnInfo ExecuteDocumentCommand(Integer documentId, String versionId, StringArray allowedReturnTypes, String command, StringArray additionalData)
+uid: crmscript_ref_NSDocumentAgent_ExecuteDocumentCommand
+title: ReturnInfo ExecuteDocumentCommand(Integer documentId, String versionId, StringArray allowedReturnTypes, String command, StringArray additionalData)
 intellisense: NSDocumentAgent.ExecuteDocumentCommand
-keywords: NSDocumentAgent,ExecuteDocumentCommand
+keywords: NSDocumentAgent, ExecuteDocumentCommand
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_AddChatTopicUserAgent
-description: ChatTopicAgent AddChatTopicUserAgent(Integer chatTopicId, ChatTopicAgent useragent)
+uid: crmscript_ref_NSChatAgent_AddChatTopicUserAgent
+title: ChatTopicAgent AddChatTopicUserAgent(Integer chatTopicId, ChatTopicAgent useragent)
 intellisense: NSChatAgent.AddChatTopicUserAgent
-keywords: NSChatAgent,AddChatTopicUserAgent
+keywords: NSChatAgent, AddChatTopicUserAgent
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetPageConfiguration
-description: String GetPageConfiguration(String application, String instance, String page)
+uid: crmscript_ref_NSConfigurationAgent_GetPageConfiguration
+title: String GetPageConfiguration(String application, String instance, String page)
 intellisense: NSConfigurationAgent.GetPageConfiguration
-keywords: NSConfigurationAgent,GetPageConfiguration
+keywords: NSConfigurationAgent, GetPageConfiguration
 so.topic: reference
 ---
 

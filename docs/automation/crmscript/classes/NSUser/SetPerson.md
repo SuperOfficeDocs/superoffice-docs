@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_SetPerson
-description: NSUser.SetPerson(Person person)
+uid: crmscript_ref_NSUser_SetPerson
+title: SetPerson(Person person)
 intellisense: NSUser.SetPerson
 keywords: NSUser, GetPerson
 so.topic: reference

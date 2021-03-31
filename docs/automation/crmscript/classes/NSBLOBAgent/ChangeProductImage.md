@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_ChangeProductImage
-description: Void ChangeProductImage(Integer productId, Integer blobId)
+uid: crmscript_ref_NSBLOBAgent_ChangeProductImage
+title: Void ChangeProductImage(Integer productId, Integer blobId)
 intellisense: NSBLOBAgent.ChangeProductImage
-keywords: NSBLOBAgent,ChangeProductImage
+keywords: NSBLOBAgent, ChangeProductImage
 so.topic: reference
 ---
 

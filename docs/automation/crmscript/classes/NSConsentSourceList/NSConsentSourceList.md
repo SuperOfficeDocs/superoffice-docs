@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentSourceList
-description: NSConsentSourceList
+uid: crmscript_ref_NSConsentSourceList
+title: NSConsentSourceList
 intellisense: Void.NSConsentSourceList
 keywords: NSConsentSourceList
 so.topic: reference

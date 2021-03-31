@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_GetLikelyQuoteAlternativeId
-description: Integer NSQuoteVersion.GetLikelyQuoteAlternativeId()
+uid: crmscript_ref_NSQuoteVersion_GetLikelyQuoteAlternativeId
+title: Integer GetLikelyQuoteAlternativeId()
 intellisense: NSQuoteVersion.GetLikelyQuoteAlternativeId
 keywords: NSQuoteVersion, GetLikelyQuoteAlternativeId
 so.topic: reference

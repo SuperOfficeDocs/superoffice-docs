@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetConfigParameter
-description: AudienceConfigParameter GetConfigParameter(String layoutName, String parameterName)
+uid: crmscript_ref_NSAudienceAgent_GetConfigParameter
+title: AudienceConfigParameter GetConfigParameter(String layoutName, String parameterName)
 intellisense: NSAudienceAgent.GetConfigParameter
-keywords: NSAudienceAgent,GetConfigParameter
+keywords: NSAudienceAgent, GetConfigParameter
 so.topic: reference
 ---
 

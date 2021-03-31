@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAmountClassEntity_GetTooltip
-description: String NSAmountClassEntity.GetTooltip()
+uid: crmscript_ref_NSAmountClassEntity_GetTooltip
+title: String GetTooltip()
 intellisense: NSAmountClassEntity.GetTooltip
 keywords: NSAmountClassEntity, GetTooltip
 so.topic: reference

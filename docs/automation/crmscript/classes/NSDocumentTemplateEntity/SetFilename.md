@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetFilename
-description: NSDocumentTemplateEntity.SetFilename(String filename)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetFilename
+title: SetFilename(String filename)
 intellisense: NSDocumentTemplateEntity.SetFilename
 keywords: NSDocumentTemplateEntity, GetFilename
 so.topic: reference

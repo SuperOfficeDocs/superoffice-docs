@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_SetDocumentMessage
-description: NSShipmentMessageEntity.SetDocumentMessage(Integer documentMessage)
+uid: crmscript_ref_NSShipmentMessageEntity_SetDocumentMessage
+title: SetDocumentMessage(Integer documentMessage)
 intellisense: NSShipmentMessageEntity.SetDocumentMessage
 keywords: NSShipmentMessageEntity, GetDocumentMessage
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateList
-description: NSDocumentTemplateList
+uid: crmscript_ref_NSDocumentTemplateList
+title: NSDocumentTemplateList
 intellisense: Void.NSDocumentTemplateList
 keywords: NSDocumentTemplateList
 so.topic: reference

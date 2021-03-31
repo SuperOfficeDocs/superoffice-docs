@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetUrl
-description: NSWebPanelEntity.SetUrl(String url)
+uid: crmscript_ref_NSWebPanelEntity_SetUrl
+title: SetUrl(String url)
 intellisense: NSWebPanelEntity.SetUrl
 keywords: NSWebPanelEntity, GetUrl
 so.topic: reference

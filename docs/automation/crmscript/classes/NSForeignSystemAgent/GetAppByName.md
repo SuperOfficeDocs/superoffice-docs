@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetAppByName
-description: ForeignAppEntity GetAppByName(String applicationName)
+uid: crmscript_ref_NSForeignSystemAgent_GetAppByName
+title: ForeignAppEntity GetAppByName(String applicationName)
 intellisense: NSForeignSystemAgent.GetAppByName
-keywords: NSForeignSystemAgent,GetAppByName
+keywords: NSForeignSystemAgent, GetAppByName
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_GetPreferenceDescription
-description: NSPreferenceDescription GetPreferenceDescription(Integer preferenceDescriptionId);
+uid: crmscript_ref_NSPreferenceAgent_GetPreferenceDescription
+title: NSPreferenceDescription GetPreferenceDescription(Integer preferenceDescriptionId);
 intellisense: NSPreferenceAgent.GetPreferenceDescription
-keywords: NSPreferenceAgent,GetPreferenceDescription
+keywords: NSPreferenceAgent, GetPreferenceDescription
 so.topic: reference
 ---
 

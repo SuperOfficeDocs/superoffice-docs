@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncEngineStatus_SetIsRunning
-description: NSErpSyncEngineStatus.SetIsRunning(Bool isRunning)
+uid: crmscript_ref_NSErpSyncEngineStatus_SetIsRunning
+title: SetIsRunning(Bool isRunning)
 intellisense: NSErpSyncEngineStatus.SetIsRunning
 keywords: NSErpSyncEngineStatus, GetIsRunning
 so.topic: reference

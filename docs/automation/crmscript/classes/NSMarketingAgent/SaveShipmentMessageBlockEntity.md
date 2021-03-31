@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_SaveShipmentMessageBlockEntity
-description: NSShipmentMessageBlockEntity SaveShipmentMessageBlockEntity(NSShipmentMessageBlockEntity shipmentMessageBlockEntity);
+uid: crmscript_ref_NSMarketingAgent_SaveShipmentMessageBlockEntity
+title: NSShipmentMessageBlockEntity SaveShipmentMessageBlockEntity(NSShipmentMessageBlockEntity shipmentMessageBlockEntity);
 intellisense: NSMarketingAgent.SaveShipmentMessageBlockEntity
-keywords: NSMarketingAgent,SaveShipmentMessageBlockEntity
+keywords: NSMarketingAgent, SaveShipmentMessageBlockEntity
 so.topic: reference
 ---
 	  

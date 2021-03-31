@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemporaryKeyInfo_GetPersonId
-description: Integer NSTemporaryKeyInfo.GetPersonId()
+uid: crmscript_ref_NSTemporaryKeyInfo_GetPersonId
+title: Integer GetPersonId()
 intellisense: NSTemporaryKeyInfo.GetPersonId
 keywords: NSTemporaryKeyInfo, GetPersonId
 so.topic: reference

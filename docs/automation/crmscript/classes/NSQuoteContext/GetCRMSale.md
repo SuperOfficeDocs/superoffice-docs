@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteContext_GetCRMSale
-description: Sale NSQuoteContext.GetCRMSale()
+uid: crmscript_ref_NSQuoteContext_GetCRMSale
+title: Sale GetCRMSale()
 intellisense: NSQuoteContext.GetCRMSale
 keywords: NSQuoteContext, GetCRMSale
 so.topic: reference

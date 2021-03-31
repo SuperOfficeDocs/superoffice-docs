@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_SavePreferenceEntity
-description: Preference SavePreferenceEntity(Preference preference, Bool removeLowerLevels)
+uid: crmscript_ref_NSPreferenceAgent_SavePreferenceEntity
+title: Preference SavePreferenceEntity(Preference preference, Bool removeLowerLevels)
 intellisense: NSPreferenceAgent.SavePreferenceEntity
-keywords: NSPreferenceAgent,SavePreferenceEntity
+keywords: NSPreferenceAgent, SavePreferenceEntity
 so.topic: reference
 ---
 

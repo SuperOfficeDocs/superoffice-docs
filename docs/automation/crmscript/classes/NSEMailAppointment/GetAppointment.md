@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAppointment_GetAppointment
-description: Appointment NSEMailAppointment.GetAppointment()
+uid: crmscript_ref_NSEMailAppointment_GetAppointment
+title: Appointment GetAppointment()
 intellisense: NSEMailAppointment.GetAppointment
 keywords: NSEMailAppointment, GetAppointment
 so.topic: reference

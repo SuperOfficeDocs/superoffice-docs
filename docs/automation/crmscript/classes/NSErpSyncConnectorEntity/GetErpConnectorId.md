@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncConnectorEntity_GetErpConnectorId
-description: Integer NSErpSyncConnectorEntity.GetErpConnectorId()
+uid: crmscript_ref_NSErpSyncConnectorEntity_GetErpConnectorId
+title: Integer GetErpConnectorId()
 intellisense: NSErpSyncConnectorEntity.GetErpConnectorId
 keywords: NSErpSyncConnectorEntity, GetErpConnectorId
 so.topic: reference

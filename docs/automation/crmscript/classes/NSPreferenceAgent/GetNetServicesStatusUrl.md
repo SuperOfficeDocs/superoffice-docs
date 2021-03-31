@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_GetNetServicesStatusUrl
-description: String GetNetServicesStatusUrl()
+uid: crmscript_ref_NSPreferenceAgent_GetNetServicesStatusUrl
+title: String GetNetServicesStatusUrl()
 intellisense: NSPreferenceAgent.GetNetServicesStatusUrl
-keywords: NSPreferenceAgent,GetNetServicesStatusUrl
+keywords: NSPreferenceAgent, GetNetServicesStatusUrl
 so.topic: reference
 ---
 

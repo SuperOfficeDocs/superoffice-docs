@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_GetAuthor
-description: String NSTicketMessageEntity.GetAuthor()
+uid: crmscript_ref_NSTicketMessageEntity_GetAuthor
+title: String GetAuthor()
 intellisense: NSTicketMessageEntity.GetAuthor
 keywords: NSTicketMessageEntity, GetAuthor
 so.topic: reference

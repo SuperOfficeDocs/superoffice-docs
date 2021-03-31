@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_SetCompleted
-description: NSSaleEntity.SetCompleted(Integer completed)
+uid: crmscript_ref_NSSaleEntity_SetCompleted
+title: SetCompleted(Integer completed)
 intellisense: NSSaleEntity.SetCompleted
 keywords: NSSaleEntity, GetCompleted
 so.topic: reference

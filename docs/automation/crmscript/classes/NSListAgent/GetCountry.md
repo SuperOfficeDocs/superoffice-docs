@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetCountry
-description: NSCountry GetCountry(Integer countryId);
+uid: crmscript_ref_NSListAgent_GetCountry
+title: NSCountry GetCountry(Integer countryId);
 intellisense: NSListAgent.GetCountry
-keywords: NSListAgent,GetCountry
+keywords: NSListAgent, GetCountry
 so.topic: reference
 ---
 

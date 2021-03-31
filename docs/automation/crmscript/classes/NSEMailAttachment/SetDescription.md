@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_SetDescription
-description: NSEMailAttachment.SetDescription(String description)
+uid: crmscript_ref_NSEMailAttachment_SetDescription
+title: SetDescription(String description)
 intellisense: NSEMailAttachment.SetDescription
 keywords: NSEMailAttachment, GetDescription
 so.topic: reference

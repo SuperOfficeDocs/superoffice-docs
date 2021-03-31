@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_GetNextCheckDate
-description: DateTime NSLicenseInfo.GetNextCheckDate()
+uid: crmscript_ref_NSLicenseInfo_GetNextCheckDate
+title: DateTime GetNextCheckDate()
 intellisense: NSLicenseInfo.GetNextCheckDate
 keywords: NSLicenseInfo, GetNextCheckDate
 so.topic: reference

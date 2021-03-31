@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_DeleteReport
-description: Bool DeleteReport(Integer reportId)
+uid: crmscript_ref_NSReportAgent_DeleteReport
+title: Bool DeleteReport(Integer reportId)
 intellisense: NSReportAgent.DeleteReport
-keywords: NSReportAgent,DeleteReport
+keywords: NSReportAgent, DeleteReport
 so.topic: reference
 ---
 

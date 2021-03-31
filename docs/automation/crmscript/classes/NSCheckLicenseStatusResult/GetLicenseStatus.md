@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCheckLicenseStatusResult_GetLicenseStatus
-description: Integer NSCheckLicenseStatusResult.GetLicenseStatus()
+uid: crmscript_ref_NSCheckLicenseStatusResult_GetLicenseStatus
+title: Integer GetLicenseStatus()
 intellisense: NSCheckLicenseStatusResult.GetLicenseStatus
 keywords: NSCheckLicenseStatusResult, GetLicenseStatus
 so.topic: reference

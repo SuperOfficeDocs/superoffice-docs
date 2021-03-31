@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetLocalizedTextList
-description: NSLocalizedText[] GetLocalizedTextList(Integer[]  localizedTextIds);
+uid: crmscript_ref_NSListAgent_GetLocalizedTextList
+title: NSLocalizedText[] GetLocalizedTextList(Integer[]  localizedTextIds);
 intellisense: NSListAgent.GetLocalizedTextList
-keywords: NSListAgent,GetLocalizedTextList
+keywords: NSListAgent, GetLocalizedTextList
 so.topic: reference
 ---
 

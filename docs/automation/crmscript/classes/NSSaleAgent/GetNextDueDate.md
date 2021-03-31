@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetNextDueDate
-description: DateTime GetNextDueDate(Integer saleId)
+uid: crmscript_ref_NSSaleAgent_GetNextDueDate
+title: DateTime GetNextDueDate(Integer saleId)
 intellisense: NSSaleAgent.GetNextDueDate
-keywords: NSSaleAgent,GetNextDueDate
+keywords: NSSaleAgent, GetNextDueDate
 so.topic: reference
 ---
 

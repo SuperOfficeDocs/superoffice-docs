@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CreateForwardEmail
-description: EMailEntity CreateForwardEmail(EMailEntity email)
+uid: crmscript_ref_NSEMailAgent_CreateForwardEmail
+title: EMailEntity CreateForwardEmail(EMailEntity email)
 intellisense: NSEMailAgent.CreateForwardEmail
-keywords: NSEMailAgent,CreateForwardEmail
+keywords: NSEMailAgent, CreateForwardEmail
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetDocumentTypeKey
-description: NSDocumentTemplateEntity.SetDocumentTypeKey(Integer documentTypeKey)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetDocumentTypeKey
+title: SetDocumentTypeKey(Integer documentTypeKey)
 intellisense: NSDocumentTemplateEntity.SetDocumentTypeKey
 keywords: NSDocumentTemplateEntity, GetDocumentTypeKey
 so.topic: reference

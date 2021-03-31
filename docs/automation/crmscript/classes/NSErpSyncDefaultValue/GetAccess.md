@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue_GetAccess
-description: FieldAccess NSErpSyncDefaultValue.GetAccess()
+uid: crmscript_ref_NSErpSyncDefaultValue_GetAccess
+title: FieldAccess GetAccess()
 intellisense: NSErpSyncDefaultValue.GetAccess
 keywords: NSErpSyncDefaultValue, GetAccess
 so.topic: reference

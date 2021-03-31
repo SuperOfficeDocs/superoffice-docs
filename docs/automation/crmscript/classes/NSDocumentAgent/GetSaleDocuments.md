@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetSaleDocuments
-description: DocumentArray GetSaleDocuments(Integer saleId)
+uid: crmscript_ref_NSDocumentAgent_GetSaleDocuments
+title: DocumentArray GetSaleDocuments(Integer saleId)
 intellisense: NSDocumentAgent.GetSaleDocuments
-keywords: NSDocumentAgent,GetSaleDocuments
+keywords: NSDocumentAgent, GetSaleDocuments
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_DeleteAppointmentEntity
-description: DeleteAppointmentEntity(Integer appointmentEntity);
+uid: crmscript_ref_NSAppointmentAgent_DeleteAppointmentEntity
+title: DeleteAppointmentEntity(Integer appointmentEntity);
 intellisense: NSAppointmentAgent.DeleteAppointmentEntity
-keywords: NSAppointmentAgent,DeleteAppointmentEntity
+keywords: NSAppointmentAgent, DeleteAppointmentEntity
 so.topic: reference
 ---
 

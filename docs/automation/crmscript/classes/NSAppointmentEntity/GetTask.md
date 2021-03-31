@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetTask
-description: TaskListItem NSAppointmentEntity.GetTask()
+uid: crmscript_ref_NSAppointmentEntity_GetTask
+title: TaskListItem GetTask()
 intellisense: NSAppointmentEntity.GetTask
 keywords: NSAppointmentEntity, GetTask
 so.topic: reference

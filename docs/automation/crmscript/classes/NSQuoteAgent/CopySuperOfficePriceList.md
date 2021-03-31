@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_CopySuperOfficePriceList
-description: PriceList CopySuperOfficePriceList(Integer originalPriceListId, String newName, DateTime validFrom, DateTime validTo, Integer newCurrencyId, Bool convertCurrency)
+uid: crmscript_ref_NSQuoteAgent_CopySuperOfficePriceList
+title: PriceList CopySuperOfficePriceList(Integer originalPriceListId, String newName, DateTime validFrom, DateTime validTo, Integer newCurrencyId, Bool convertCurrency)
 intellisense: NSQuoteAgent.CopySuperOfficePriceList
-keywords: NSQuoteAgent,CopySuperOfficePriceList
+keywords: NSQuoteAgent, CopySuperOfficePriceList
 so.topic: reference
 ---
 

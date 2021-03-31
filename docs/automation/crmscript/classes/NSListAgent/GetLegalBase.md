@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetLegalBase
-description: NSLegalBase GetLegalBase(Integer legalBaseId);
+uid: crmscript_ref_NSListAgent_GetLegalBase
+title: NSLegalBase GetLegalBase(Integer legalBaseId);
 intellisense: NSListAgent.GetLegalBase
-keywords: NSListAgent,GetLegalBase
+keywords: NSListAgent, GetLegalBase
 so.topic: reference
 ---
 

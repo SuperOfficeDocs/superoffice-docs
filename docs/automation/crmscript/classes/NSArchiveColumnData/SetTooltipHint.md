@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnData_SetTooltipHint
-description: NSArchiveColumnData.SetTooltipHint(String tooltipHint)
+uid: crmscript_ref_NSArchiveColumnData_SetTooltipHint
+title: SetTooltipHint(String tooltipHint)
 intellisense: NSArchiveColumnData.SetTooltipHint
 keywords: NSArchiveColumnData, GetTooltipHint
 so.topic: reference

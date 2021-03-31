@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCheckoutInfo_GetAssociateId
-description: Integer NSCheckoutInfo.GetAssociateId()
+uid: crmscript_ref_NSCheckoutInfo_GetAssociateId
+title: Integer GetAssociateId()
 intellisense: NSCheckoutInfo.GetAssociateId
 keywords: NSCheckoutInfo, GetAssociateId
 so.topic: reference

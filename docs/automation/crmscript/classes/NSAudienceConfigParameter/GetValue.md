@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceConfigParameter_GetValue
-description: String NSAudienceConfigParameter.GetValue()
+uid: crmscript_ref_NSAudienceConfigParameter_GetValue
+title: String GetValue()
 intellisense: NSAudienceConfigParameter.GetValue
 keywords: NSAudienceConfigParameter, GetValue
 so.topic: reference

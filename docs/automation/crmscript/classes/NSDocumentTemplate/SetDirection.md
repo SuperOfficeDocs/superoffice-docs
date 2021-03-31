@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplate_SetDirection
-description: NSDocumentTemplate.SetDirection(DocTmplDirection direction)
+uid: crmscript_ref_NSDocumentTemplate_SetDirection
+title: SetDirection(DocTmplDirection direction)
 intellisense: NSDocumentTemplate.SetDirection
 keywords: NSDocumentTemplate, GetDirection
 so.topic: reference

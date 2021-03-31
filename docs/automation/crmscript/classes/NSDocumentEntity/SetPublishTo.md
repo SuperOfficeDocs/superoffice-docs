@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetPublishTo
-description: NSDocumentEntity.SetPublishTo(DateTime publishTo)
+uid: crmscript_ref_NSDocumentEntity_SetPublishTo
+title: SetPublishTo(DateTime publishTo)
 intellisense: NSDocumentEntity.SetPublishTo
 keywords: NSDocumentEntity, SetPublishTo
 so.topic: reference
 ---
 
-Set the publish to date. After this date the event is no longer visible.
+Set the publish to date on DocumentEntity. After this date the event is no longer visible.
 
 **Parameter:** 
  - **publishTo** DateTime

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldWidth
-description: NSUserDefinedFieldInfo.SetFieldWidth(Integer fieldWidth)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetFieldWidth
+title: SetFieldWidth(Integer fieldWidth)
 intellisense: NSUserDefinedFieldInfo.SetFieldWidth
 keywords: NSUserDefinedFieldInfo, GetFieldWidth
 so.topic: reference

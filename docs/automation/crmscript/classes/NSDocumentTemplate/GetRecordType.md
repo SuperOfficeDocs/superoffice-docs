@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplate_GetRecordType
-description: DocTmplType NSDocumentTemplate.GetRecordType()
+uid: crmscript_ref_NSDocumentTemplate_GetRecordType
+title: DocTmplType GetRecordType()
 intellisense: NSDocumentTemplate.GetRecordType
 keywords: NSDocumentTemplate, GetRecordType
 so.topic: reference

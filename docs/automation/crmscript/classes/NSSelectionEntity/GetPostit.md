@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetPostit
-description: String NSSelectionEntity.GetPostit()
+uid: crmscript_ref_NSSelectionEntity_GetPostit
+title: String GetPostit()
 intellisense: NSSelectionEntity.GetPostit
 keywords: NSSelectionEntity, GetPostit
 so.topic: reference

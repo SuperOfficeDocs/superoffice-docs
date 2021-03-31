@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_GetResponse
-description: String NSFormSubmissionEntity.GetResponse()
+uid: crmscript_ref_NSFormSubmissionEntity_GetResponse
+title: String GetResponse()
 intellisense: NSFormSubmissionEntity.GetResponse
 keywords: NSFormSubmissionEntity, GetResponse
 so.topic: reference

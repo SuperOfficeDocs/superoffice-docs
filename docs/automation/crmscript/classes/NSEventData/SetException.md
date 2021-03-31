@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_SetException
-description: NSEventData.SetException(String exception)
+uid: crmscript_ref_NSEventData_SetException
+title: SetException(String exception)
 intellisense: NSEventData.SetException
 keywords: NSEventData, GetException
 so.topic: reference

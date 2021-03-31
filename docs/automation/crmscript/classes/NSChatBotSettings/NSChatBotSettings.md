@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatBotSettings
-description: NSChatBotSettings
+uid: crmscript_ref_NSChatBotSettings
+title: NSChatBotSettings
 intellisense: Void.NSChatBotSettings
 keywords: NSChatBotSettings
 so.topic: reference

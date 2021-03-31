@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_GetRank
-description: Integer NSSuggestedAppointment.GetRank()
+uid: crmscript_ref_NSSuggestedAppointment_GetRank
+title: Integer GetRank()
 intellisense: NSSuggestedAppointment.GetRank
 keywords: NSSuggestedAppointment, GetRank
 so.topic: reference

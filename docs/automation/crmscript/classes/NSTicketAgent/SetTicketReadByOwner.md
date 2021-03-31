@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_SetTicketReadByOwner
-description: TicketEntity SetTicketReadByOwner(Integer ticketEntityId, Integer readStatus, Bool checkEscalating)
+uid: crmscript_ref_NSTicketAgent_SetTicketReadByOwner
+title: TicketEntity SetTicketReadByOwner(Integer ticketEntityId, Integer readStatus, Bool checkEscalating)
 intellisense: NSTicketAgent.SetTicketReadByOwner
-keywords: NSTicketAgent,SetTicketReadByOwner
+keywords: NSTicketAgent, SetTicketReadByOwner
 so.topic: reference
 ---
 

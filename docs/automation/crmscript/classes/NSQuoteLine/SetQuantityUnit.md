@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetQuantityUnit
-description: NSQuoteLine.SetQuantityUnit(String quantityUnit)
+uid: crmscript_ref_NSQuoteLine_SetQuantityUnit
+title: SetQuantityUnit(String quantityUnit)
 intellisense: NSQuoteLine.SetQuantityUnit
 keywords: NSQuoteLine, GetQuantityUnit
 so.topic: reference

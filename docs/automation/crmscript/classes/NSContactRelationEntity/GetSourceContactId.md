@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity_GetSourceContactId
-description: Integer NSContactRelationEntity.GetSourceContactId()
+uid: crmscript_ref_NSContactRelationEntity_GetSourceContactId
+title: Integer GetSourceContactId()
 intellisense: NSContactRelationEntity.GetSourceContactId
 keywords: NSContactRelationEntity, GetSourceContactId
 so.topic: reference

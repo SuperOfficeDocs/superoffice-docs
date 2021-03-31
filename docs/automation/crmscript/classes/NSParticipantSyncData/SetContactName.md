@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData_SetContactName
-description: NSParticipantSyncData.SetContactName(String contactName)
+uid: crmscript_ref_NSParticipantSyncData_SetContactName
+title: SetContactName(String contactName)
 intellisense: NSParticipantSyncData.SetContactName
 keywords: NSParticipantSyncData, GetContactName
 so.topic: reference

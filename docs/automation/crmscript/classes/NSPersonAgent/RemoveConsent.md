@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_RemoveConsent
-description: Void RemoveConsent(Integer personId, String purpose)
+uid: crmscript_ref_NSPersonAgent_RemoveConsent
+title: Void RemoveConsent(Integer personId, String purpose)
 intellisense: NSPersonAgent.RemoveConsent
-keywords: NSPersonAgent,RemoveConsent
+keywords: NSPersonAgent, RemoveConsent
 so.topic: reference
 ---
 

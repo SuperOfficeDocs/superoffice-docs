@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_CacheFolderList
-description: EMailFolderArray CacheFolderList()
+uid: crmscript_ref_NSEMailAgent_CacheFolderList
+title: EMailFolderArray CacheFolderList()
 intellisense: NSEMailAgent.CacheFolderList
-keywords: NSEMailAgent,CacheFolderList
+keywords: NSEMailAgent, CacheFolderList
 so.topic: reference
 ---
 

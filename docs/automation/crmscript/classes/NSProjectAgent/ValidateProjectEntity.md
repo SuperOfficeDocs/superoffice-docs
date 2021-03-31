@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_ValidateProjectEntity
-description: StringDictionary ValidateProjectEntity(ProjectEntity projectEntity)
+uid: crmscript_ref_NSProjectAgent_ValidateProjectEntity
+title: StringDictionary ValidateProjectEntity(ProjectEntity projectEntity)
 intellisense: NSProjectAgent.ValidateProjectEntity
-keywords: NSProjectAgent,ValidateProjectEntity
+keywords: NSProjectAgent, ValidateProjectEntity
 so.topic: reference
 ---
 

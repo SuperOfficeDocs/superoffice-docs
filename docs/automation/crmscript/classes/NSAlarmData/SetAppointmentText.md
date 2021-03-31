@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_SetAppointmentText
-description: NSAlarmData.SetAppointmentText(String appointmentText)
+uid: crmscript_ref_NSAlarmData_SetAppointmentText
+title: SetAppointmentText(String appointmentText)
 intellisense: NSAlarmData.SetAppointmentText
 keywords: NSAlarmData, GetAppointmentText
 so.topic: reference

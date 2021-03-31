@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetSignOnText
-description: String NSProjectEventEntity.GetSignOnText()
+uid: crmscript_ref_NSProjectEventEntity_GetSignOnText
+title: String GetSignOnText()
 intellisense: NSProjectEventEntity.GetSignOnText
 keywords: NSProjectEventEntity, GetSignOnText
 so.topic: reference

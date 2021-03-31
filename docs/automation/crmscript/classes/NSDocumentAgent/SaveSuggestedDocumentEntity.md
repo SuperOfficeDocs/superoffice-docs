@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SaveSuggestedDocumentEntity
-description: NSSuggestedDocumentEntity SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity suggestedDocumentEntity);
+uid: crmscript_ref_NSDocumentAgent_SaveSuggestedDocumentEntity
+title: NSSuggestedDocumentEntity SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity suggestedDocumentEntity);
 intellisense: NSDocumentAgent.SaveSuggestedDocumentEntity
-keywords: NSDocumentAgent,SaveSuggestedDocumentEntity
+keywords: NSDocumentAgent, SaveSuggestedDocumentEntity
 so.topic: reference
 ---
 	  

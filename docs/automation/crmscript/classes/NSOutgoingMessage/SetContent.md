@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSOutgoingMessage_SetContent
-description: NSOutgoingMessage.SetContent(String content)
+uid: crmscript_ref_NSOutgoingMessage_SetContent
+title: SetContent(String content)
 intellisense: NSOutgoingMessage.SetContent
 keywords: NSOutgoingMessage, GetContent
 so.topic: reference

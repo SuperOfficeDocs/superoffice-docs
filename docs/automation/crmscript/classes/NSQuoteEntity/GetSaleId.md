@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_GetSaleId
-description: Integer NSQuoteEntity.GetSaleId()
+uid: crmscript_ref_NSQuoteEntity_GetSaleId
+title: Integer GetSaleId()
 intellisense: NSQuoteEntity.GetSaleId
 keywords: NSQuoteEntity, GetSaleId
 so.topic: reference

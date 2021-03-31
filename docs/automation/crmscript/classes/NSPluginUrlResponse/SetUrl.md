@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPluginUrlResponse_SetUrl
-description: NSPluginUrlResponse.SetUrl(String url)
+uid: crmscript_ref_NSPluginUrlResponse_SetUrl
+title: SetUrl(String url)
 intellisense: NSPluginUrlResponse.SetUrl
 keywords: NSPluginUrlResponse, GetUrl
 so.topic: reference

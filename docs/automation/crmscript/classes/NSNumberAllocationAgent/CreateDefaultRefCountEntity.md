@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSNumberAllocationAgent_CreateDefaultRefCountEntity
-description: NSRefCountEntity CreateDefaultRefCountEntity()
+uid: crmscript_ref_NSNumberAllocationAgent_CreateDefaultRefCountEntity
+title: NSRefCountEntity CreateDefaultRefCountEntity()
 intellisense: NSNumberAllocationAgent.CreateDefaultRefCountEntity
-keywords: NSNumberAllocationAgent,CreateDefaultRefCountEntity
+keywords: NSNumberAllocationAgent, CreateDefaultRefCountEntity
 so.topic: reference
 ---
 	  

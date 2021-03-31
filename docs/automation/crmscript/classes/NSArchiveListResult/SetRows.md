@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveListResult_SetRows
-description: NSArchiveListResult.SetRows(ArchiveListItemArray rows)
+uid: crmscript_ref_NSArchiveListResult_SetRows
+title: SetRows(ArchiveListItemArray rows)
 intellisense: NSArchiveListResult.SetRows
 keywords: NSArchiveListResult, GetRows
 so.topic: reference

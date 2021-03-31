@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldWidth
-description: Integer NSUserDefinedFieldInfo.GetFieldWidth()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldWidth
+title: Integer GetFieldWidth()
 intellisense: NSUserDefinedFieldInfo.GetFieldWidth
 keywords: NSUserDefinedFieldInfo, GetFieldWidth
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSystemEventEntity_SetExtraInfo
-description: NSSystemEventEntity.SetExtraInfo(Integer extraInfo)
+uid: crmscript_ref_NSSystemEventEntity_SetExtraInfo
+title: SetExtraInfo(Integer extraInfo)
 intellisense: NSSystemEventEntity.SetExtraInfo
 keywords: NSSystemEventEntity, GetExtraInfo
 so.topic: reference

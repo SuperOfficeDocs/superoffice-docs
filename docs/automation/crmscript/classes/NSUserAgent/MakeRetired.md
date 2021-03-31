@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_MakeRetired
-description: Void MakeRetired(Integer associateId, Bool retired)
+uid: crmscript_ref_NSUserAgent_MakeRetired
+title: Void MakeRetired(Integer associateId, Bool retired)
 intellisense: NSUserAgent.MakeRetired
-keywords: NSUserAgent,MakeRetired
+keywords: NSUserAgent, MakeRetired
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetSaleId
-description: Integer NSAlarmData.GetSaleId()
+uid: crmscript_ref_NSAlarmData_GetSaleId
+title: Integer GetSaleId()
 intellisense: NSAlarmData.GetSaleId
 keywords: NSAlarmData, GetSaleId
 so.topic: reference

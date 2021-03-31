@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetExtAppEntity
-description: NSExtAppEntity GetExtAppEntity(Integer extAppEntityId);
+uid: crmscript_ref_NSListAgent_GetExtAppEntity
+title: NSExtAppEntity GetExtAppEntity(Integer extAppEntityId);
 intellisense: NSListAgent.GetExtAppEntity
-keywords: NSListAgent,GetExtAppEntity
+keywords: NSListAgent, GetExtAppEntity
 so.topic: reference
 ---
 

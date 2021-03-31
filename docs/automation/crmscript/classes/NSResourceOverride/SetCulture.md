@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceOverride_SetCulture
-description: NSResourceOverride.SetCulture(String culture)
+uid: crmscript_ref_NSResourceOverride_SetCulture
+title: SetCulture(String culture)
 intellisense: NSResourceOverride.SetCulture
 keywords: NSResourceOverride, GetCulture
 so.topic: reference

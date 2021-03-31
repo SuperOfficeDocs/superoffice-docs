@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_RecalculateQuoteAlternative
-description: QuoteAlternativeRecalculated RecalculateQuoteAlternative(Integer quoteAlternative)
+uid: crmscript_ref_NSQuoteAgent_RecalculateQuoteAlternative
+title: QuoteAlternativeRecalculated RecalculateQuoteAlternative(Integer quoteAlternative)
 intellisense: NSQuoteAgent.RecalculateQuoteAlternative
-keywords: NSQuoteAgent,RecalculateQuoteAlternative
+keywords: NSQuoteAgent, RecalculateQuoteAlternative
 so.topic: reference
 ---
 

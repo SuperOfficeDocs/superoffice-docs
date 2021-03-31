@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebPanelEntity_SetVisibleIn
-description: NSWebPanelEntity.SetVisibleIn(Integer visibleIn)
+uid: crmscript_ref_NSWebPanelEntity_SetVisibleIn
+title: SetVisibleIn(Integer visibleIn)
 intellisense: NSWebPanelEntity.SetVisibleIn
 keywords: NSWebPanelEntity, GetVisibleIn
 so.topic: reference

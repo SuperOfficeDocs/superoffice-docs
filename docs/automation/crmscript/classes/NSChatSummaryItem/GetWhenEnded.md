@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSummaryItem_GetWhenEnded
-description: DateTime NSChatSummaryItem.GetWhenEnded()
+uid: crmscript_ref_NSChatSummaryItem_GetWhenEnded
+title: DateTime GetWhenEnded()
 intellisense: NSChatSummaryItem.GetWhenEnded
 keywords: NSChatSummaryItem, GetWhenEnded
 so.topic: reference

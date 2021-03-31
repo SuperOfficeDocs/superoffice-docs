@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProductExtraDataField_SetValue
-description: NSProductExtraDataField.SetValue(String value)
+uid: crmscript_ref_NSProductExtraDataField_SetValue
+title: SetValue(String value)
 intellisense: NSProductExtraDataField.SetValue
 keywords: NSProductExtraDataField, GetValue
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_GetBlockExecution
-description: Bool NSEventData.GetBlockExecution()
+uid: crmscript_ref_NSEventData_GetBlockExecution
+title: Bool GetBlockExecution()
 intellisense: NSEventData.GetBlockExecution
 keywords: NSEventData, GetBlockExecution
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetLockSemantics
-description: Integer NSDocumentEntity.GetLockSemantics()
+uid: crmscript_ref_NSDocumentEntity_GetLockSemantics
+title: Integer GetLockSemantics()
 intellisense: NSDocumentEntity.GetLockSemantics
 keywords: NSDocumentEntity, GetLockSemantics
 so.topic: reference

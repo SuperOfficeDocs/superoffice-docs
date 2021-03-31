@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetProgId
-description: String NSUserDefinedFieldInfo.GetProgId()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetProgId
+title: String GetProgId()
 intellisense: NSUserDefinedFieldInfo.GetProgId
 keywords: NSUserDefinedFieldInfo, GetProgId
 so.topic: reference

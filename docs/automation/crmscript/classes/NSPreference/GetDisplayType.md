@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_GetDisplayType
-description: Integer NSPreference.GetDisplayType()
+uid: crmscript_ref_NSPreference_GetDisplayType
+title: Integer GetDisplayType()
 intellisense: NSPreference.GetDisplayType
 keywords: NSPreference, GetDisplayType
 so.topic: reference

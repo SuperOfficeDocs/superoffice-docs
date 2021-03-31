@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPreferenceAgent_GetTabOrder
-description: TabOrder GetTabOrder(String tabName)
+uid: crmscript_ref_NSPreferenceAgent_GetTabOrder
+title: TabOrder GetTabOrder(String tabName)
 intellisense: NSPreferenceAgent.GetTabOrder
-keywords: NSPreferenceAgent,GetTabOrder
+keywords: NSPreferenceAgent, GetTabOrder
 so.topic: reference
 ---
 

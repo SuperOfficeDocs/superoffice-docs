@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateInfo_GetExternalReference
-description: String NSTemplateInfo.GetExternalReference()
+uid: crmscript_ref_NSTemplateInfo_GetExternalReference
+title: String GetExternalReference()
 intellisense: NSTemplateInfo.GetExternalReference
 keywords: NSTemplateInfo, GetExternalReference
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_WebAppUsageExistsInPeriod
-description: Bool WebAppUsageExistsInPeriod(Integer associateId, String viewState, DateTime fromDate)
+uid: crmscript_ref_NSDiagnosticsAgent_WebAppUsageExistsInPeriod
+title: Bool WebAppUsageExistsInPeriod(Integer associateId, String viewState, DateTime fromDate)
 intellisense: NSDiagnosticsAgent.WebAppUsageExistsInPeriod
-keywords: NSDiagnosticsAgent,WebAppUsageExistsInPeriod
+keywords: NSDiagnosticsAgent, WebAppUsageExistsInPeriod
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_SendConsentConfirmationEmail
-description: Void SendConsentConfirmationEmail(Integer personId, String emailAddress, Integer emailTemplateId, Integer cultureLcidId, String subject)
+uid: crmscript_ref_NSPersonAgent_SendConsentConfirmationEmail
+title: Void SendConsentConfirmationEmail(Integer personId, String emailAddress, Integer emailTemplateId, Integer cultureLcidId, String subject)
 intellisense: NSPersonAgent.SendConsentConfirmationEmail
-keywords: NSPersonAgent,SendConsentConfirmationEmail
+keywords: NSPersonAgent, SendConsentConfirmationEmail
 so.topic: reference
 ---
 

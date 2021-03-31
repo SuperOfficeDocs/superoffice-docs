@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHistory_SetAssociateId
-description: NSHistory.SetAssociateId(Integer associateId)
+uid: crmscript_ref_NSHistory_SetAssociateId
+title: SetAssociateId(Integer associateId)
 intellisense: NSHistory.SetAssociateId
 keywords: NSHistory, GetAssociateId
 so.topic: reference

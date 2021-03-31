@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_SetUserGroupAccessIds
-description: NSQuoteConnection.SetUserGroupAccessIds(IntegerArray userGroupAccessIds)
+uid: crmscript_ref_NSQuoteConnection_SetUserGroupAccessIds
+title: SetUserGroupAccessIds(IntegerArray userGroupAccessIds)
 intellisense: NSQuoteConnection.SetUserGroupAccessIds
 keywords: NSQuoteConnection, GetUserGroupAccessIds
 so.topic: reference

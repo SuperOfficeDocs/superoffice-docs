@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSStatusMonitor
-description: NSStatusMonitor
+uid: crmscript_ref_NSStatusMonitor
+title: NSStatusMonitor
 intellisense: Void.NSStatusMonitor
 keywords: NSStatusMonitor
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_GetTriggerScriptEntity
-description: NSTriggerScriptEntity GetTriggerScriptEntity(Integer triggerScriptEntityId);
+uid: crmscript_ref_NSCRMScriptAgent_GetTriggerScriptEntity
+title: NSTriggerScriptEntity GetTriggerScriptEntity(Integer triggerScriptEntityId);
 intellisense: NSCRMScriptAgent.GetTriggerScriptEntity
-keywords: NSCRMScriptAgent,GetTriggerScriptEntity
+keywords: NSCRMScriptAgent, GetTriggerScriptEntity
 so.topic: reference
 ---
 

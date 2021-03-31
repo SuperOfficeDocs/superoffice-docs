@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBulkUpdateAgent_GetJobResultsFromStorageAsJson
-description: StringArray GetJobResultsFromStorageAsJson()
+uid: crmscript_ref_NSBulkUpdateAgent_GetJobResultsFromStorageAsJson
+title: StringArray GetJobResultsFromStorageAsJson()
 intellisense: NSBulkUpdateAgent.GetJobResultsFromStorageAsJson
-keywords: NSBulkUpdateAgent,GetJobResultsFromStorageAsJson
+keywords: NSBulkUpdateAgent, GetJobResultsFromStorageAsJson
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTriggerScriptEntity_SetScreenType
-description: NSTriggerScriptEntity.SetScreenType(Integer screenType)
+uid: crmscript_ref_NSTriggerScriptEntity_SetScreenType
+title: SetScreenType(Integer screenType)
 intellisense: NSTriggerScriptEntity.SetScreenType
 keywords: NSTriggerScriptEntity, GetScreenType
 so.topic: reference

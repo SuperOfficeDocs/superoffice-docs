@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetIsIndexed
-description: NSUserDefinedFieldInfo.SetIsIndexed(Bool isIndexed)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetIsIndexed
+title: SetIsIndexed(Bool isIndexed)
 intellisense: NSUserDefinedFieldInfo.SetIsIndexed
 keywords: NSUserDefinedFieldInfo, GetIsIndexed
 so.topic: reference

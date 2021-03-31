@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_FindCredentialUsers
-description: CredentialsGroupUsers FindCredentialUsers(String type, String searchString)
+uid: crmscript_ref_NSUserAgent_FindCredentialUsers
+title: CredentialsGroupUsers FindCredentialUsers(String type, String searchString)
 intellisense: NSUserAgent.FindCredentialUsers
-keywords: NSUserAgent,FindCredentialUsers
+keywords: NSUserAgent, FindCredentialUsers
 so.topic: reference
 ---
 

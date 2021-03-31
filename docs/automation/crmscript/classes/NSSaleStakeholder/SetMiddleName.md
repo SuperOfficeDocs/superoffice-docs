@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_SetMiddleName
-description: NSSaleStakeholder.SetMiddleName(String middleName)
+uid: crmscript_ref_NSSaleStakeholder_SetMiddleName
+title: SetMiddleName(String middleName)
 intellisense: NSSaleStakeholder.SetMiddleName
 keywords: NSSaleStakeholder, GetMiddleName
 so.topic: reference

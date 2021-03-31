@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct
-description: NSProduct
+uid: crmscript_ref_NSProduct
+title: NSProduct
 intellisense: Void.NSProduct
 keywords: NSProduct
 so.topic: reference

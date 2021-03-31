@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessage_GetContactDepartment
-description: String NSTicketMessage.GetContactDepartment()
+uid: crmscript_ref_NSTicketMessage_GetContactDepartment
+title: String GetContactDepartment()
 intellisense: NSTicketMessage.GetContactDepartment
 keywords: NSTicketMessage, GetContactDepartment
 so.topic: reference

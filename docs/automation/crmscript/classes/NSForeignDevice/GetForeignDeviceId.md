@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSForeignDevice_GetForeignDeviceId
-description: Integer NSForeignDevice.GetForeignDeviceId()
+uid: crmscript_ref_NSForeignDevice_GetForeignDeviceId
+title: Integer GetForeignDeviceId()
 intellisense: NSForeignDevice.GetForeignDeviceId
 keywords: NSForeignDevice, GetForeignDeviceId
 so.topic: reference

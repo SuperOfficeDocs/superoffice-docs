@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCustomerServiceAgent_GetAllCustomerCenterConfigs
-description: CustomerCenterConfigArray GetAllCustomerCenterConfigs()
+uid: crmscript_ref_NSCustomerServiceAgent_GetAllCustomerCenterConfigs
+title: CustomerCenterConfigArray GetAllCustomerCenterConfigs()
 intellisense: NSCustomerServiceAgent.GetAllCustomerCenterConfigs
-keywords: NSCustomerServiceAgent,GetAllCustomerCenterConfigs
+keywords: NSCustomerServiceAgent, GetAllCustomerCenterConfigs
 so.topic: reference
 ---
 

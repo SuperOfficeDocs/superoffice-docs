@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetTueStart
-description: DateTime NSTicketPriorityEntity.GetTueStart()
+uid: crmscript_ref_NSTicketPriorityEntity_GetTueStart
+title: DateTime GetTueStart()
 intellisense: NSTicketPriorityEntity.GetTueStart
 keywords: NSTicketPriorityEntity, GetTueStart
 so.topic: reference

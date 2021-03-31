@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_RemoveContactSelectionMembersFromSearch
-description: Integer RemoveContactSelectionMembersFromSearch(Integer selectionId, String storageKey)
+uid: crmscript_ref_NSSelectionAgent_RemoveContactSelectionMembersFromSearch
+title: Integer RemoveContactSelectionMembersFromSearch(Integer selectionId, String storageKey)
 intellisense: NSSelectionAgent.RemoveContactSelectionMembersFromSearch
-keywords: NSSelectionAgent,RemoveContactSelectionMembersFromSearch
+keywords: NSSelectionAgent, RemoveContactSelectionMembersFromSearch
 so.topic: reference
 ---
 

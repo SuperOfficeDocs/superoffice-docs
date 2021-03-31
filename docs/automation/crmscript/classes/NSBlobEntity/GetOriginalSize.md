@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBlobEntity_GetOriginalSize
-description: Integer NSBlobEntity.GetOriginalSize()
+uid: crmscript_ref_NSBlobEntity_GetOriginalSize
+title: Integer GetOriginalSize()
 intellisense: NSBlobEntity.GetOriginalSize
 keywords: NSBlobEntity, GetOriginalSize
 so.topic: reference

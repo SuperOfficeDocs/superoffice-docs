@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayMessage
-description: NSQuoteVersionStatusInformation.SetDisplayMessage(String displayMessage)
+uid: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayMessage
+title: SetDisplayMessage(String displayMessage)
 intellisense: NSQuoteVersionStatusInformation.SetDisplayMessage
 keywords: NSQuoteVersionStatusInformation, GetDisplayMessage
 so.topic: reference

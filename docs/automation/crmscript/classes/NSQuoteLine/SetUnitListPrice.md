@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetUnitListPrice
-description: NSQuoteLine.SetUnitListPrice(Float unitListPrice)
+uid: crmscript_ref_NSQuoteLine_SetUnitListPrice
+title: SetUnitListPrice(Float unitListPrice)
 intellisense: NSQuoteLine.SetUnitListPrice
 keywords: NSQuoteLine, GetUnitListPrice
 so.topic: reference

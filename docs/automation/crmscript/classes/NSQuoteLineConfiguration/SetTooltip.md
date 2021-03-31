@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLineConfiguration_SetTooltip
-description: NSQuoteLineConfiguration.SetTooltip(String tooltip)
+uid: crmscript_ref_NSQuoteLineConfiguration_SetTooltip
+title: SetTooltip(String tooltip)
 intellisense: NSQuoteLineConfiguration.SetTooltip
 keywords: NSQuoteLineConfiguration, GetTooltip
 so.topic: reference

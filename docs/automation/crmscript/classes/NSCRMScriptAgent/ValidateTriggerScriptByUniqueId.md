@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptAgent_ValidateTriggerScriptByUniqueId
-description: CRMScriptResult ValidateTriggerScriptByUniqueId(String triggerScriptUniqueId)
+uid: crmscript_ref_NSCRMScriptAgent_ValidateTriggerScriptByUniqueId
+title: CRMScriptResult ValidateTriggerScriptByUniqueId(String triggerScriptUniqueId)
 intellisense: NSCRMScriptAgent.ValidateTriggerScriptByUniqueId
-keywords: NSCRMScriptAgent,ValidateTriggerScriptByUniqueId
+keywords: NSCRMScriptAgent, ValidateTriggerScriptByUniqueId
 so.topic: reference
 ---
 

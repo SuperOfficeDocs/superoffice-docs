@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessageEntity_SetType
-description: NSTicketMessageEntity.SetType(TicketMessageType type)
+uid: crmscript_ref_NSTicketMessageEntity_SetType
+title: SetType(TicketMessageType type)
 intellisense: NSTicketMessageEntity.SetType
 keywords: NSTicketMessageEntity, GetType
 so.topic: reference

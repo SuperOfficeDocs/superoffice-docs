@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPersonEntity_GetConsents
-description: ConsentInfoArray NSPersonEntity.GetConsents()
+uid: crmscript_ref_NSPersonEntity_GetConsents
+title: ConsentInfoArray GetConsents()
 intellisense: NSPersonEntity.GetConsents
 keywords: NSPersonEntity, GetConsents
 so.topic: reference

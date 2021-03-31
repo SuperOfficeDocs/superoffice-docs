@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteAlternative_SetExtraField4
-description: NSQuoteAlternative.SetExtraField4(String extraField4)
+uid: crmscript_ref_NSQuoteAlternative_SetExtraField4
+title: SetExtraField4(String extraField4)
 intellisense: NSQuoteAlternative.SetExtraField4
 keywords: NSQuoteAlternative, GetExtraField4
 so.topic: reference

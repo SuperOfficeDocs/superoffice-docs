@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity
-description: NSAppointmentEntity
+uid: crmscript_ref_NSAppointmentEntity
+title: NSAppointmentEntity
 intellisense: Void.NSAppointmentEntity
 keywords: NSAppointmentEntity
 so.topic: reference

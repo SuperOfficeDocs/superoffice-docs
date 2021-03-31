@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSummaryItem_SetFirstMessage
-description: NSChatSummaryItem.SetFirstMessage(String firstMessage)
+uid: crmscript_ref_NSChatSummaryItem_SetFirstMessage
+title: SetFirstMessage(String firstMessage)
 intellisense: NSChatSummaryItem.SetFirstMessage
 keywords: NSChatSummaryItem, GetFirstMessage
 so.topic: reference

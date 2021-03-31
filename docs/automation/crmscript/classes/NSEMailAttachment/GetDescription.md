@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAttachment_GetDescription
-description: String NSEMailAttachment.GetDescription()
+uid: crmscript_ref_NSEMailAttachment_GetDescription
+title: String GetDescription()
 intellisense: NSEMailAttachment.GetDescription
 keywords: NSEMailAttachment, GetDescription
 so.topic: reference

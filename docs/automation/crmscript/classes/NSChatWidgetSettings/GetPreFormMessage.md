@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatWidgetSettings_GetPreFormMessage
-description: String NSChatWidgetSettings.GetPreFormMessage()
+uid: crmscript_ref_NSChatWidgetSettings_GetPreFormMessage
+title: String GetPreFormMessage()
 intellisense: NSChatWidgetSettings.GetPreFormMessage
 keywords: NSChatWidgetSettings, GetPreFormMessage
 so.topic: reference

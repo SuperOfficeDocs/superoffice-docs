@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicense_GetAllowedUserType
-description: Integer NSModuleLicense.GetAllowedUserType()
+uid: crmscript_ref_NSModuleLicense_GetAllowedUserType
+title: Integer GetAllowedUserType()
 intellisense: NSModuleLicense.GetAllowedUserType
 keywords: NSModuleLicense, GetAllowedUserType
 so.topic: reference

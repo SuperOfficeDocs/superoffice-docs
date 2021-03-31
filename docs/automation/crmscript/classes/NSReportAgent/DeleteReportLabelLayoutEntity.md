@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_DeleteReportLabelLayoutEntity
-description: DeleteReportLabelLayoutEntity(Integer reportLabelLayoutEntity);
+uid: crmscript_ref_NSReportAgent_DeleteReportLabelLayoutEntity
+title: DeleteReportLabelLayoutEntity(Integer reportLabelLayoutEntity);
 intellisense: NSReportAgent.DeleteReportLabelLayoutEntity
-keywords: NSReportAgent,DeleteReportLabelLayoutEntity
+keywords: NSReportAgent, DeleteReportLabelLayoutEntity
 so.topic: reference
 ---
 

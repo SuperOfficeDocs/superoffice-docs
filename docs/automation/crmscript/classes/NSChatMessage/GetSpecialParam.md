@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatMessage_GetSpecialParam
-description: String NSChatMessage.GetSpecialParam()
+uid: crmscript_ref_NSChatMessage_GetSpecialParam
+title: String GetSpecialParam()
 intellisense: NSChatMessage.GetSpecialParam
 keywords: NSChatMessage, GetSpecialParam
 so.topic: reference

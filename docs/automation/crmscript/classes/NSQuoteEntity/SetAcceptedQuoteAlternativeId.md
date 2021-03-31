@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_SetAcceptedQuoteAlternativeId
-description: NSQuoteEntity.SetAcceptedQuoteAlternativeId(Integer acceptedQuoteAlternativeId)
+uid: crmscript_ref_NSQuoteEntity_SetAcceptedQuoteAlternativeId
+title: SetAcceptedQuoteAlternativeId(Integer acceptedQuoteAlternativeId)
 intellisense: NSQuoteEntity.SetAcceptedQuoteAlternativeId
 keywords: NSQuoteEntity, GetAcceptedQuoteAlternativeId
 so.topic: reference

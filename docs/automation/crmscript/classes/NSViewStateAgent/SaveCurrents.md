@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSViewStateAgent_SaveCurrents
-description: HistoryArray SaveCurrents(HistoryArray currents)
+uid: crmscript_ref_NSViewStateAgent_SaveCurrents
+title: HistoryArray SaveCurrents(HistoryArray currents)
 intellisense: NSViewStateAgent.SaveCurrents
-keywords: NSViewStateAgent,SaveCurrents
+keywords: NSViewStateAgent, SaveCurrents
 so.topic: reference
 ---
 

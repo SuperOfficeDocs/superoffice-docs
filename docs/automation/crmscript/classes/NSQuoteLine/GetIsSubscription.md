@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_GetIsSubscription
-description: Bool NSQuoteLine.GetIsSubscription()
+uid: crmscript_ref_NSQuoteLine_GetIsSubscription
+title: Bool GetIsSubscription()
 intellisense: NSQuoteLine.GetIsSubscription
 keywords: NSQuoteLine, GetIsSubscription
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemporaryKeyInfo_SetIsExpired
-description: NSTemporaryKeyInfo.SetIsExpired(Bool isExpired)
+uid: crmscript_ref_NSTemporaryKeyInfo_SetIsExpired
+title: SetIsExpired(Bool isExpired)
 intellisense: NSTemporaryKeyInfo.SetIsExpired
 keywords: NSTemporaryKeyInfo, GetIsExpired
 so.topic: reference

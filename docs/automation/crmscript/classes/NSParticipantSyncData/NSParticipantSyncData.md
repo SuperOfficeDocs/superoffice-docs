@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantSyncData
-description: NSParticipantSyncData
+uid: crmscript_ref_NSParticipantSyncData
+title: NSParticipantSyncData
 intellisense: Void.NSParticipantSyncData
 keywords: NSParticipantSyncData
 so.topic: reference

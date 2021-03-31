@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_AcceptRejected
-description: AppointmentEntity AcceptRejected(Integer appointmentId, Integer updateMode)
+uid: crmscript_ref_NSAppointmentAgent_AcceptRejected
+title: AppointmentEntity AcceptRejected(Integer appointmentId, Integer updateMode)
 intellisense: NSAppointmentAgent.AcceptRejected
-keywords: NSAppointmentAgent,AcceptRejected
+keywords: NSAppointmentAgent, AcceptRejected
 so.topic: reference
 ---
 

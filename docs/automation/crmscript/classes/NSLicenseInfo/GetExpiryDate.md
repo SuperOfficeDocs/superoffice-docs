@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo_GetExpiryDate
-description: DateTime NSLicenseInfo.GetExpiryDate()
+uid: crmscript_ref_NSLicenseInfo_GetExpiryDate
+title: DateTime GetExpiryDate()
 intellisense: NSLicenseInfo.GetExpiryDate
 keywords: NSLicenseInfo, GetExpiryDate
 so.topic: reference

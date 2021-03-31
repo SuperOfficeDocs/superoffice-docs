@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_SetCustomFields
-description: NSContactEntity.SetCustomFields(Map udefs)
+uid: crmscript_ref_NSContactEntity_SetCustomFields
+title: SetCustomFields(Map udefs)
 intellisense: NSContactEntity.SetCustomFields
 keywords: NSContactEntity, SetCustomFields
 so.topic: reference
 ---
 
-Set the user-defined and extra fields as a map.
+Set the user-defined and extra fields on a ContactEntity with a map.
 
 **Parameter:** 
  - **udefs** Map user defined field and extra field values encoded as strings.

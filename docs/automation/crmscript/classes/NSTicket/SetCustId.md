@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetCustId
-description: NSTicket.SetCustId(Integer custId)
+uid: crmscript_ref_NSTicket_SetCustId
+title: SetCustId(Integer custId)
 intellisense: NSTicket.SetCustId
 keywords: NSTicket, GetCustId
 so.topic: reference

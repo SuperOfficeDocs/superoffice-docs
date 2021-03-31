@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResolvedPerson_SetPersonCreated
-description: NSResolvedPerson.SetPersonCreated(Bool personCreated)
+uid: crmscript_ref_NSResolvedPerson_SetPersonCreated
+title: SetPersonCreated(Bool personCreated)
 intellisense: NSResolvedPerson.SetPersonCreated
 keywords: NSResolvedPerson, GetPersonCreated
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetPersonImage
-description: Image GetPersonImage(Integer personId)
+uid: crmscript_ref_NSBLOBAgent_GetPersonImage
+title: Image GetPersonImage(Integer personId)
 intellisense: NSBLOBAgent.GetPersonImage
-keywords: NSBLOBAgent,GetPersonImage
+keywords: NSBLOBAgent, GetPersonImage
 so.topic: reference
 ---
 

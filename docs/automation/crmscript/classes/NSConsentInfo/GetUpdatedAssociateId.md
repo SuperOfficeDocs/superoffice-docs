@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentInfo_GetUpdatedAssociateId
-description: Integer NSConsentInfo.GetUpdatedAssociateId()
+uid: crmscript_ref_NSConsentInfo_GetUpdatedAssociateId
+title: Integer GetUpdatedAssociateId()
 intellisense: NSConsentInfo.GetUpdatedAssociateId
 keywords: NSConsentInfo, GetUpdatedAssociateId
 so.topic: reference

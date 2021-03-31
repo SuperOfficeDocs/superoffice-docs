@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_RemoveLicenses
-description: Void RemoveLicenses(Integer associateId)
+uid: crmscript_ref_NSUserAgent_RemoveLicenses
+title: Void RemoveLicenses(Integer associateId)
 intellisense: NSUserAgent.RemoveLicenses
-keywords: NSUserAgent,RemoveLicenses
+keywords: NSUserAgent, RemoveLicenses
 so.topic: reference
 ---
 

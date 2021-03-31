@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetPersonId
-description: Integer NSAppointment.GetPersonId()
+uid: crmscript_ref_NSAppointment_GetPersonId
+title: Integer GetPersonId()
 intellisense: NSAppointment.GetPersonId
 keywords: NSAppointment, GetPersonId
 so.topic: reference

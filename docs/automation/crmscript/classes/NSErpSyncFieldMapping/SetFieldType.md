@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldMapping_SetFieldType
-description: NSErpSyncFieldMapping.SetFieldType(FieldMetadataType fieldType)
+uid: crmscript_ref_NSErpSyncFieldMapping_SetFieldType
+title: SetFieldType(FieldMetadataType fieldType)
 intellisense: NSErpSyncFieldMapping.SetFieldType
 keywords: NSErpSyncFieldMapping, GetFieldType
 so.topic: reference

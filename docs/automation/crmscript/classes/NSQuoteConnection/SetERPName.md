@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_SetERPName
-description: NSQuoteConnection.SetERPName(String eRPName)
+uid: crmscript_ref_NSQuoteConnection_SetERPName
+title: SetERPName(String eRPName)
 intellisense: NSQuoteConnection.SetERPName
 keywords: NSQuoteConnection, GetERPName
 so.topic: reference

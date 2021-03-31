@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactEntity_GetXstop
-description: Bool NSContactEntity.GetXstop()
+uid: crmscript_ref_NSContactEntity_GetXstop
+title: Bool GetXstop()
 intellisense: NSContactEntity.GetXstop
 keywords: NSContactEntity, GetXstop
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetName
-description: NSSelectableMDOListItem.SetName(String name)
+uid: crmscript_ref_NSSelectableMDOListItem_SetName
+title: SetName(String name)
 intellisense: NSSelectableMDOListItem.SetName
 keywords: NSSelectableMDOListItem, GetName
 so.topic: reference

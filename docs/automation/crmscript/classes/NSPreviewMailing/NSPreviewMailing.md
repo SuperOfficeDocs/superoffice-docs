@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing
-description: NSPreviewMailing
+uid: crmscript_ref_NSPreviewMailing
+title: NSPreviewMailing
 intellisense: Void.NSPreviewMailing
 keywords: NSPreviewMailing
 so.topic: reference

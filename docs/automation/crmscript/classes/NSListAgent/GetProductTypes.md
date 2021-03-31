@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetProductTypes
-description: ProductTypeArray GetProductTypes()
+uid: crmscript_ref_NSListAgent_GetProductTypes
+title: ProductTypeArray GetProductTypes()
 intellisense: NSListAgent.GetProductTypes
-keywords: NSListAgent,GetProductTypes
+keywords: NSListAgent, GetProductTypes
 so.topic: reference
 ---
 

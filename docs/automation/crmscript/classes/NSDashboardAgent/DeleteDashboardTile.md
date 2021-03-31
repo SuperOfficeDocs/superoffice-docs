@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_DeleteDashboardTile
-description: DeleteDashboardTile(Integer dashboardTile);
+uid: crmscript_ref_NSDashboardAgent_DeleteDashboardTile
+title: DeleteDashboardTile(Integer dashboardTile);
 intellisense: NSDashboardAgent.DeleteDashboardTile
-keywords: NSDashboardAgent,DeleteDashboardTile
+keywords: NSDashboardAgent, DeleteDashboardTile
 so.topic: reference
 ---
 

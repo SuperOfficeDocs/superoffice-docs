@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_SetIconHint
-description: NSMDOListItem.SetIconHint(String iconHint)
+uid: crmscript_ref_NSMDOListItem_SetIconHint
+title: SetIconHint(String iconHint)
 intellisense: NSMDOListItem.SetIconHint
 keywords: NSMDOListItem, GetIconHint
 so.topic: reference

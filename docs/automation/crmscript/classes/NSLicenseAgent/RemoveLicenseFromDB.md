@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_RemoveLicenseFromDB
-description: LicenseResult RemoveLicenseFromDB(String moduleOwner)
+uid: crmscript_ref_NSLicenseAgent_RemoveLicenseFromDB
+title: LicenseResult RemoveLicenseFromDB(String moduleOwner)
 intellisense: NSLicenseAgent.RemoveLicenseFromDB
-keywords: NSLicenseAgent,RemoveLicenseFromDB
+keywords: NSLicenseAgent, RemoveLicenseFromDB
 so.topic: reference
 ---
 

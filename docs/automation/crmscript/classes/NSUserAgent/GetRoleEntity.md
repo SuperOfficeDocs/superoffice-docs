@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetRoleEntity
-description: NSRoleEntity GetRoleEntity(Integer roleEntityId);
+uid: crmscript_ref_NSUserAgent_GetRoleEntity
+title: NSRoleEntity GetRoleEntity(Integer roleEntityId);
 intellisense: NSUserAgent.GetRoleEntity
-keywords: NSUserAgent,GetRoleEntity
+keywords: NSUserAgent, GetRoleEntity
 so.topic: reference
 ---
 

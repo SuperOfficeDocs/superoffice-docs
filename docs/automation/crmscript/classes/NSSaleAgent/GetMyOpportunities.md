@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetMyOpportunities
-description: SaleArray GetMyOpportunities(Integer count)
+uid: crmscript_ref_NSSaleAgent_GetMyOpportunities
+title: SaleArray GetMyOpportunities(Integer count)
 intellisense: NSSaleAgent.GetMyOpportunities
-keywords: NSSaleAgent,GetMyOpportunities
+keywords: NSSaleAgent, GetMyOpportunities
 so.topic: reference
 ---
 

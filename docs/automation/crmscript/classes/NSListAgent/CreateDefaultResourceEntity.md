@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_CreateDefaultResourceEntity
-description: NSResourceEntity CreateDefaultResourceEntity()
+uid: crmscript_ref_NSListAgent_CreateDefaultResourceEntity
+title: NSResourceEntity CreateDefaultResourceEntity()
 intellisense: NSListAgent.CreateDefaultResourceEntity
-keywords: NSListAgent,CreateDefaultResourceEntity
+keywords: NSListAgent, CreateDefaultResourceEntity
 so.topic: reference
 ---
 	  

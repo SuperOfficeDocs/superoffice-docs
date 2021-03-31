@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplate_SetDefaultOref
-description: NSDocumentTemplate.SetDefaultOref(String defaultOref)
+uid: crmscript_ref_NSDocumentTemplate_SetDefaultOref
+title: SetDefaultOref(String defaultOref)
 intellisense: NSDocumentTemplate.SetDefaultOref
 keywords: NSDocumentTemplate, GetDefaultOref
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetReasonList
-description: NSReason[] GetReasonList(Integer[]  reasonIds);
+uid: crmscript_ref_NSListAgent_GetReasonList
+title: NSReason[] GetReasonList(Integer[]  reasonIds);
 intellisense: NSListAgent.GetReasonList
-keywords: NSListAgent,GetReasonList
+keywords: NSListAgent, GetReasonList
 so.topic: reference
 ---
 

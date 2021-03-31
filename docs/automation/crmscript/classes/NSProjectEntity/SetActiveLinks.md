@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEntity_SetActiveLinks
-description: NSProjectEntity.SetActiveLinks(Integer activeLinks)
+uid: crmscript_ref_NSProjectEntity_SetActiveLinks
+title: SetActiveLinks(Integer activeLinks)
 intellisense: NSProjectEntity.SetActiveLinks
 keywords: NSProjectEntity, GetActiveLinks
 so.topic: reference

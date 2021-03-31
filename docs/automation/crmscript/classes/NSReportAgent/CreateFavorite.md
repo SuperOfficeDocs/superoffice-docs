@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_CreateFavorite
-description: ReportEntity CreateFavorite(Integer sourceId, String name, String description)
+uid: crmscript_ref_NSReportAgent_CreateFavorite
+title: ReportEntity CreateFavorite(Integer sourceId, String name, String description)
 intellisense: NSReportAgent.CreateFavorite
-keywords: NSReportAgent,CreateFavorite
+keywords: NSReportAgent, CreateFavorite
 so.topic: reference
 ---
 

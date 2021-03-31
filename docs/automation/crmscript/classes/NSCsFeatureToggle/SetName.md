@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCsFeatureToggle_SetName
-description: NSCsFeatureToggle.SetName(String name)
+uid: crmscript_ref_NSCsFeatureToggle_SetName
+title: SetName(String name)
 intellisense: NSCsFeatureToggle.SetName
 keywords: NSCsFeatureToggle, GetName
 so.topic: reference

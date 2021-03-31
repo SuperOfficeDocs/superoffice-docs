@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata_GetFieldType
-description: Integer NSFieldMetadata.GetFieldType()
+uid: crmscript_ref_NSFieldMetadata_GetFieldType
+title: Integer GetFieldType()
 intellisense: NSFieldMetadata.GetFieldType
 keywords: NSFieldMetadata, GetFieldType
 so.topic: reference

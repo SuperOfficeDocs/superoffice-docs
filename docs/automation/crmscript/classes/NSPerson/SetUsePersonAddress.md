@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_SetUsePersonAddress
-description: NSPerson.SetUsePersonAddress(Bool usePersonAddress)
+uid: crmscript_ref_NSPerson_SetUsePersonAddress
+title: SetUsePersonAddress(Bool usePersonAddress)
 intellisense: NSPerson.SetUsePersonAddress
 keywords: NSPerson, GetUsePersonAddress
 so.topic: reference

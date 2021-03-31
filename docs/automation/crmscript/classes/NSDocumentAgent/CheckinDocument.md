@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_CheckinDocument
-description: ReturnInfo CheckinDocument(Integer documentId, StringArray allowedReturnTypes, String versionDescription, StringArray versionExtraFields)
+uid: crmscript_ref_NSDocumentAgent_CheckinDocument
+title: ReturnInfo CheckinDocument(Integer documentId, StringArray allowedReturnTypes, String versionDescription, StringArray versionExtraFields)
 intellisense: NSDocumentAgent.CheckinDocument
-keywords: NSDocumentAgent,CheckinDocument
+keywords: NSDocumentAgent, CheckinDocument
 so.topic: reference
 ---
 

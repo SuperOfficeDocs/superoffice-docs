@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAudienceLayoutEntity_GetUpdatedBy
-description: Associate NSAudienceLayoutEntity.GetUpdatedBy()
+uid: crmscript_ref_NSAudienceLayoutEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
 intellisense: NSAudienceLayoutEntity.GetUpdatedBy
 keywords: NSAudienceLayoutEntity, GetUpdatedBy
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_SaveRelationDefinitionEntity
-description: NSRelationDefinitionEntity SaveRelationDefinitionEntity(NSRelationDefinitionEntity relationDefinitionEntity);
+uid: crmscript_ref_NSListAgent_SaveRelationDefinitionEntity
+title: NSRelationDefinitionEntity SaveRelationDefinitionEntity(NSRelationDefinitionEntity relationDefinitionEntity);
 intellisense: NSListAgent.SaveRelationDefinitionEntity
-keywords: NSListAgent,SaveRelationDefinitionEntity
+keywords: NSListAgent, SaveRelationDefinitionEntity
 so.topic: reference
 ---
 	  

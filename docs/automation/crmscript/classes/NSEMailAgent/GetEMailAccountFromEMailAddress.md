@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetEMailAccountFromEMailAddress
-description: EMailAccount GetEMailAccountFromEMailAddress(String fromAddress)
+uid: crmscript_ref_NSEMailAgent_GetEMailAccountFromEMailAddress
+title: EMailAccount GetEMailAccountFromEMailAddress(String fromAddress)
 intellisense: NSEMailAgent.GetEMailAccountFromEMailAddress
-keywords: NSEMailAgent,GetEMailAccountFromEMailAddress
+keywords: NSEMailAgent, GetEMailAccountFromEMailAddress
 so.topic: reference
 ---
 

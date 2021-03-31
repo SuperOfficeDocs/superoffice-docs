@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSShipmentMessageEntity_GetSmsMessage
-description: String NSShipmentMessageEntity.GetSmsMessage()
+uid: crmscript_ref_NSShipmentMessageEntity_GetSmsMessage
+title: String GetSmsMessage()
 intellisense: NSShipmentMessageEntity.GetSmsMessage
 keywords: NSShipmentMessageEntity, GetSmsMessage
 so.topic: reference

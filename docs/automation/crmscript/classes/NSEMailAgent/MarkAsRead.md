@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_MarkAsRead
-description: Void MarkAsRead(EMailConnectionInfo connectionInfo, IntegerArray messageServerIds, Bool read)
+uid: crmscript_ref_NSEMailAgent_MarkAsRead
+title: Void MarkAsRead(EMailConnectionInfo connectionInfo, IntegerArray messageServerIds, Bool read)
 intellisense: NSEMailAgent.MarkAsRead
-keywords: NSEMailAgent,MarkAsRead
+keywords: NSEMailAgent, MarkAsRead
 so.topic: reference
 ---
 

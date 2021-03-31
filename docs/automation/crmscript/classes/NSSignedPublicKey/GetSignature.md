@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSignedPublicKey_GetSignature
-description: String NSSignedPublicKey.GetSignature()
+uid: crmscript_ref_NSSignedPublicKey_GetSignature
+title: String GetSignature()
 intellisense: NSSignedPublicKey.GetSignature
 keywords: NSSignedPublicKey, GetSignature
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSReportAgent_CreateDefaultReportEntity
-description: NSReportEntity CreateDefaultReportEntity()
+uid: crmscript_ref_NSReportAgent_CreateDefaultReportEntity
+title: NSReportEntity CreateDefaultReportEntity()
 intellisense: NSReportAgent.CreateDefaultReportEntity
-keywords: NSReportAgent,CreateDefaultReportEntity
+keywords: NSReportAgent, CreateDefaultReportEntity
 so.topic: reference
 ---
 	  

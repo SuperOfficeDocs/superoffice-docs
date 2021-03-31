@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_GetLicenseStatusFromLicenseServer
-description: CheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String ownerName)
+uid: crmscript_ref_NSLicenseAgent_GetLicenseStatusFromLicenseServer
+title: CheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String ownerName)
 intellisense: NSLicenseAgent.GetLicenseStatusFromLicenseServer
-keywords: NSLicenseAgent,GetLicenseStatusFromLicenseServer
+keywords: NSLicenseAgent, GetLicenseStatusFromLicenseServer
 so.topic: reference
 ---
 

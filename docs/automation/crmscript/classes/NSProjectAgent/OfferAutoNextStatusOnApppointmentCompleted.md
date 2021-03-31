@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSProjectAgent_OfferAutoNextStatusOnApppointmentCompleted
-description: Bool OfferAutoNextStatusOnApppointmentCompleted(Integer appointmentId)
+uid: crmscript_ref_NSProjectAgent_OfferAutoNextStatusOnApppointmentCompleted
+title: Bool OfferAutoNextStatusOnApppointmentCompleted(Integer appointmentId)
 intellisense: NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted
-keywords: NSProjectAgent,OfferAutoNextStatusOnApppointmentCompleted
+keywords: NSProjectAgent, OfferAutoNextStatusOnApppointmentCompleted
 so.topic: reference
 ---
 

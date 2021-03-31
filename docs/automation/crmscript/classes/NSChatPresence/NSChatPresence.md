@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatPresence
-description: NSChatPresence
+uid: crmscript_ref_NSChatPresence
+title: NSChatPresence
 intellisense: Void.NSChatPresence
 keywords: NSChatPresence
 so.topic: reference

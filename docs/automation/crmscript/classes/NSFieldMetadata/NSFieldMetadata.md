@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldMetadata
-description: NSFieldMetadata
+uid: crmscript_ref_NSFieldMetadata
+title: NSFieldMetadata
 intellisense: Void.NSFieldMetadata
 keywords: NSFieldMetadata
 so.topic: reference

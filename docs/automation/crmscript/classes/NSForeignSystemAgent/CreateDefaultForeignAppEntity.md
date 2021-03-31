@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_CreateDefaultForeignAppEntity
-description: NSForeignAppEntity CreateDefaultForeignAppEntity()
+uid: crmscript_ref_NSForeignSystemAgent_CreateDefaultForeignAppEntity
+title: NSForeignAppEntity CreateDefaultForeignAppEntity()
 intellisense: NSForeignSystemAgent.CreateDefaultForeignAppEntity
-keywords: NSForeignSystemAgent,CreateDefaultForeignAppEntity
+keywords: NSForeignSystemAgent, CreateDefaultForeignAppEntity
 so.topic: reference
 ---
 	  

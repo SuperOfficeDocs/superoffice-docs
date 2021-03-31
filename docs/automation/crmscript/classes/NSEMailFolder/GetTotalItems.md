@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder_GetTotalItems
-description: Integer NSEMailFolder.GetTotalItems()
+uid: crmscript_ref_NSEMailFolder_GetTotalItems
+title: Integer GetTotalItems()
 intellisense: NSEMailFolder.GetTotalItems
 keywords: NSEMailFolder, GetTotalItems
 so.topic: reference

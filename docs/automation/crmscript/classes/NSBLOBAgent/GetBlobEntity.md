@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_GetBlobEntity
-description: NSBlobEntity GetBlobEntity(Integer blobEntityId);
+uid: crmscript_ref_NSBLOBAgent_GetBlobEntity
+title: NSBlobEntity GetBlobEntity(Integer blobEntityId);
 intellisense: NSBLOBAgent.GetBlobEntity
-keywords: NSBLOBAgent,GetBlobEntity
+keywords: NSBLOBAgent, GetBlobEntity
 so.topic: reference
 ---
 

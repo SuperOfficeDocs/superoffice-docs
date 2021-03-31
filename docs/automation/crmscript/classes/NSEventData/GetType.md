@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEventData_GetType
-description: Integer NSEventData.GetType()
+uid: crmscript_ref_NSEventData_GetType
+title: Integer GetType()
 intellisense: NSEventData.GetType
 keywords: NSEventData, GetType
 so.topic: reference

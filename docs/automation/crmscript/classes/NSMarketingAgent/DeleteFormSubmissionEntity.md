@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_DeleteFormSubmissionEntity
-description: DeleteFormSubmissionEntity(Integer formSubmissionEntity);
+uid: crmscript_ref_NSMarketingAgent_DeleteFormSubmissionEntity
+title: DeleteFormSubmissionEntity(Integer formSubmissionEntity);
 intellisense: NSMarketingAgent.DeleteFormSubmissionEntity
-keywords: NSMarketingAgent,DeleteFormSubmissionEntity
+keywords: NSMarketingAgent, DeleteFormSubmissionEntity
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_GetRestrictionType
-description: String NSArchiveColumnInfo.GetRestrictionType()
+uid: crmscript_ref_NSArchiveColumnInfo_GetRestrictionType
+title: String GetRestrictionType()
 intellisense: NSArchiveColumnInfo.GetRestrictionType
 keywords: NSArchiveColumnInfo, GetRestrictionType
 so.topic: reference

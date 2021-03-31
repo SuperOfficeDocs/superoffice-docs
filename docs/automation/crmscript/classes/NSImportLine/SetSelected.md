@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportLine_SetSelected
-description: NSImportLine.SetSelected(Bool selected)
+uid: crmscript_ref_NSImportLine_SetSelected
+title: SetSelected(Bool selected)
 intellisense: NSImportLine.SetSelected
 keywords: NSImportLine, GetSelected
 so.topic: reference

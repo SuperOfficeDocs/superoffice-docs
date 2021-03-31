@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetKanalname
-description: String NSPerson.GetKanalname()
+uid: crmscript_ref_NSPerson_GetKanalname
+title: String GetKanalname()
 intellisense: NSPerson.GetKanalname
 keywords: NSPerson, GetKanalname
 so.topic: reference

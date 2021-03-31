@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_SetQuoteId
-description: NSQuoteEntity.SetQuoteId(Integer quoteId)
+uid: crmscript_ref_NSQuoteEntity_SetQuoteId
+title: SetQuoteId(Integer quoteId)
 intellisense: NSQuoteEntity.SetQuoteId
 keywords: NSQuoteEntity, GetQuoteId
 so.topic: reference

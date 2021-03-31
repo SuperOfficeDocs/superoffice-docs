@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetTicketCategory
-description: NSTicketCategory GetTicketCategory(Integer ticketCategoryId);
+uid: crmscript_ref_NSListAgent_GetTicketCategory
+title: NSTicketCategory GetTicketCategory(Integer ticketCategoryId);
 intellisense: NSListAgent.GetTicketCategory
-keywords: NSListAgent,GetTicketCategory
+keywords: NSListAgent, GetTicketCategory
 so.topic: reference
 ---
 

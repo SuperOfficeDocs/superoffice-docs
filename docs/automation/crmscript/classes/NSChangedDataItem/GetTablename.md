@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChangedDataItem_GetTablename
-description: String NSChangedDataItem.GetTablename()
+uid: crmscript_ref_NSChangedDataItem_GetTablename
+title: String GetTablename()
 intellisense: NSChangedDataItem.GetTablename
 keywords: NSChangedDataItem, GetTablename
 so.topic: reference

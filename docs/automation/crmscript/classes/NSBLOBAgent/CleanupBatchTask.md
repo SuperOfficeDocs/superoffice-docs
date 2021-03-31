@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSBLOBAgent_CleanupBatchTask
-description: Void CleanupBatchTask(Integer batchTaskId)
+uid: crmscript_ref_NSBLOBAgent_CleanupBatchTask
+title: Void CleanupBatchTask(Integer batchTaskId)
 intellisense: NSBLOBAgent.CleanupBatchTask
-keywords: NSBLOBAgent,CleanupBatchTask
+keywords: NSBLOBAgent, CleanupBatchTask
 so.topic: reference
 ---
 

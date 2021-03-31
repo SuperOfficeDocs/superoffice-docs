@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_GetAvailableColumns
-description: ArchiveColumnInfoArray GetAvailableColumns(String providerName, String context)
+uid: crmscript_ref_NSArchiveAgent_GetAvailableColumns
+title: ArchiveColumnInfoArray GetAvailableColumns(String providerName, String context)
 intellisense: NSArchiveAgent.GetAvailableColumns
-keywords: NSArchiveAgent,GetAvailableColumns
+keywords: NSArchiveAgent, GetAvailableColumns
 so.topic: reference
 ---
 

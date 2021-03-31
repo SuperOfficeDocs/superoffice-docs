@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetEarningPercent
-description: NSQuoteLine.SetEarningPercent(Float earningPercent)
+uid: crmscript_ref_NSQuoteLine_SetEarningPercent
+title: SetEarningPercent(Float earningPercent)
 intellisense: NSQuoteLine.SetEarningPercent
 keywords: NSQuoteLine, GetEarningPercent
 so.topic: reference

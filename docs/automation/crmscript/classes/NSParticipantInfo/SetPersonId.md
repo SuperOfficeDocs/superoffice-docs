@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSParticipantInfo_SetPersonId
-description: NSParticipantInfo.SetPersonId(Integer personId)
+uid: crmscript_ref_NSParticipantInfo_SetPersonId
+title: SetPersonId(Integer personId)
 intellisense: NSParticipantInfo.SetPersonId
 keywords: NSParticipantInfo, GetPersonId
 so.topic: reference

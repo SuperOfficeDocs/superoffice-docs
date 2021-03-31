@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_GetIsActive
-description: Bool NSPriceList.GetIsActive()
+uid: crmscript_ref_NSPriceList_GetIsActive
+title: Bool GetIsActive()
 intellisense: NSPriceList.GetIsActive
 keywords: NSPriceList, GetIsActive
 so.topic: reference

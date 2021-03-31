@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicenseLink
-description: NSModuleLicenseLink
+uid: crmscript_ref_NSModuleLicenseLink
+title: NSModuleLicenseLink
 intellisense: Void.NSModuleLicenseLink
 keywords: NSModuleLicenseLink
 so.topic: reference

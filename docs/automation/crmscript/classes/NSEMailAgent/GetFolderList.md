@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_GetFolderList
-description: StringArray GetFolderList(EMailConnectionInfo connectionInfo, Bool includeItemCount)
+uid: crmscript_ref_NSEMailAgent_GetFolderList
+title: StringArray GetFolderList(EMailConnectionInfo connectionInfo, Bool includeItemCount)
 intellisense: NSEMailAgent.GetFolderList
-keywords: NSEMailAgent,GetFolderList
+keywords: NSEMailAgent, GetFolderList
 so.topic: reference
 ---
 

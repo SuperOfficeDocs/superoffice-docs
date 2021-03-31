@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLegalBase_SetKey
-description: NSLegalBase.SetKey(String key)
+uid: crmscript_ref_NSLegalBase_SetKey
+title: SetKey(String key)
 intellisense: NSLegalBase.SetKey
 keywords: NSLegalBase, GetKey
 so.topic: reference

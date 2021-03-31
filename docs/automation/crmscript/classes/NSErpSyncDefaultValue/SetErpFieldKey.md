@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncDefaultValue_SetErpFieldKey
-description: NSErpSyncDefaultValue.SetErpFieldKey(String erpFieldKey)
+uid: crmscript_ref_NSErpSyncDefaultValue_SetErpFieldKey
+title: SetErpFieldKey(String erpFieldKey)
 intellisense: NSErpSyncDefaultValue.SetErpFieldKey
 keywords: NSErpSyncDefaultValue, GetErpFieldKey
 so.topic: reference

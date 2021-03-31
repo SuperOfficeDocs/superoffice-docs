@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHierarchyEntity
-description: NSHierarchyEntity
+uid: crmscript_ref_NSHierarchyEntity
+title: NSHierarchyEntity
 intellisense: Void.NSHierarchyEntity
 keywords: NSHierarchyEntity
 so.topic: reference

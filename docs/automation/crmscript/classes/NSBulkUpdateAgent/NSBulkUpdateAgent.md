@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBulkUpdateAgent
-description: NSBulkUpdateAgent
+uid: crmscript_ref_NSBulkUpdateAgent
+title: NSBulkUpdateAgent
 intellisense: Void.NSBulkUpdateAgent
 keywords: NSBulkUpdateAgent
 so.topic: reference

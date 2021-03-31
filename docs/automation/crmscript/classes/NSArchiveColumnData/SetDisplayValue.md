@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnData_SetDisplayValue
-description: NSArchiveColumnData.SetDisplayValue(String displayValue)
+uid: crmscript_ref_NSArchiveColumnData_SetDisplayValue
+title: SetDisplayValue(String displayValue)
 intellisense: NSArchiveColumnData.SetDisplayValue
 keywords: NSArchiveColumnData, GetDisplayValue
 so.topic: reference

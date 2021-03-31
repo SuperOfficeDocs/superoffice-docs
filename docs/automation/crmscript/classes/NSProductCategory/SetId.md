@@ -1,13 +1,13 @@
 ﻿---
-title: crmscript_ref_NSProductCategory_SetId
-description: NSProductCategory.SetId(Integer id)
+uid: crmscript_ref_NSProductCategory_SetId
+title: SetId(Integer id)
 intellisense: NSProductCategory.SetId
 keywords: NSProductCategory, SetId
 so.topic: reference
 ---
 
-Set the primary key (id)
+Set the primary key (id) for the ProductCategory
 
 **Parameter:** 
- - **id** Integer
+ - **id** Integer ProductCategory id.
 

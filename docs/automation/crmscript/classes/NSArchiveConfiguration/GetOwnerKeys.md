@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveConfiguration_GetOwnerKeys
-description: String NSArchiveConfiguration.GetOwnerKeys()
+uid: crmscript_ref_NSArchiveConfiguration_GetOwnerKeys
+title: String GetOwnerKeys()
 intellisense: NSArchiveConfiguration.GetOwnerKeys
 keywords: NSArchiveConfiguration, GetOwnerKeys
 so.topic: reference

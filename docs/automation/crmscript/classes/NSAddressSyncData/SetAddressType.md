@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAddressSyncData_SetAddressType
-description: NSAddressSyncData.SetAddressType(Integer addressType)
+uid: crmscript_ref_NSAddressSyncData_SetAddressType
+title: SetAddressType(Integer addressType)
 intellisense: NSAddressSyncData.SetAddressType
 keywords: NSAddressSyncData, GetAddressType
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailboxEntity_GetPort
-description: Integer NSMailboxEntity.GetPort()
+uid: crmscript_ref_NSMailboxEntity_GetPort
+title: Integer GetPort()
 intellisense: NSMailboxEntity.GetPort
 keywords: NSMailboxEntity, GetPort
 so.topic: reference

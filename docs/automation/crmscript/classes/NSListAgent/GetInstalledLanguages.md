@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetInstalledLanguages
-description: LanguageInfoArray GetInstalledLanguages()
+uid: crmscript_ref_NSListAgent_GetInstalledLanguages
+title: LanguageInfoArray GetInstalledLanguages()
 intellisense: NSListAgent.GetInstalledLanguages
-keywords: NSListAgent,GetInstalledLanguages
+keywords: NSListAgent, GetInstalledLanguages
 so.topic: reference
 ---
 

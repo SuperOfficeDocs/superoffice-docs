@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_GetAudienceLayoutOnPerson
-description: AudienceLayoutEntity GetAudienceLayoutOnPerson(Integer personId)
+uid: crmscript_ref_NSAudienceAgent_GetAudienceLayoutOnPerson
+title: AudienceLayoutEntity GetAudienceLayoutOnPerson(Integer personId)
 intellisense: NSAudienceAgent.GetAudienceLayoutOnPerson
-keywords: NSAudienceAgent,GetAudienceLayoutOnPerson
+keywords: NSAudienceAgent, GetAudienceLayoutOnPerson
 so.topic: reference
 ---
 

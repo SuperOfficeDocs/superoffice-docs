@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_GetIsRecurrence
-description: Bool NSAppointment.GetIsRecurrence()
+uid: crmscript_ref_NSAppointment_GetIsRecurrence
+title: Bool GetIsRecurrence()
 intellisense: NSAppointment.GetIsRecurrence
 keywords: NSAppointment, GetIsRecurrence
 so.topic: reference

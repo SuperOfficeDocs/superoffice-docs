@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_DeleteHierarchyFromPath
-description: Void DeleteHierarchyFromPath(Integer domain, String path)
+uid: crmscript_ref_NSListAgent_DeleteHierarchyFromPath
+title: Void DeleteHierarchyFromPath(Integer domain, String path)
 intellisense: NSListAgent.DeleteHierarchyFromPath
-keywords: NSListAgent,DeleteHierarchyFromPath
+keywords: NSListAgent, DeleteHierarchyFromPath
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetMaxDiscountPercentSet
-description: Bool NSSaleTypeEntity.GetMaxDiscountPercentSet()
+uid: crmscript_ref_NSSaleTypeEntity_GetMaxDiscountPercentSet
+title: Bool GetMaxDiscountPercentSet()
 intellisense: NSSaleTypeEntity.GetMaxDiscountPercentSet
 keywords: NSSaleTypeEntity, GetMaxDiscountPercentSet
 so.topic: reference

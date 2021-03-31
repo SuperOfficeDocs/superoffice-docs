@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSLicenseAgent_GetUserLicensesMDOList
-description: SelectableMDOListItemArray GetUserLicensesMDOList()
+uid: crmscript_ref_NSLicenseAgent_GetUserLicensesMDOList
+title: SelectableMDOListItemArray GetUserLicensesMDOList()
 intellisense: NSLicenseAgent.GetUserLicensesMDOList
-keywords: NSLicenseAgent,GetUserLicensesMDOList
+keywords: NSLicenseAgent, GetUserLicensesMDOList
 so.topic: reference
 ---
 

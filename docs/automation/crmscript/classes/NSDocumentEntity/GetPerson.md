@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetPerson
-description: Person NSDocumentEntity.GetPerson()
+uid: crmscript_ref_NSDocumentEntity_GetPerson
+title: Person GetPerson()
 intellisense: NSDocumentEntity.GetPerson
 keywords: NSDocumentEntity, GetPerson
 so.topic: reference

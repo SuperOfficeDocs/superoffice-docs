@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVisibleFor
-description: NSVisibleFor
+uid: crmscript_ref_NSVisibleFor
+title: NSVisibleFor
 intellisense: Void.NSVisibleFor
 keywords: NSVisibleFor
 so.topic: reference

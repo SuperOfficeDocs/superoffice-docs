@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPerson_GetCountryId
-description: Integer NSPerson.GetCountryId()
+uid: crmscript_ref_NSPerson_GetCountryId
+title: Integer GetCountryId()
 intellisense: NSPerson.GetCountryId
 keywords: NSPerson, GetCountryId
 so.topic: reference

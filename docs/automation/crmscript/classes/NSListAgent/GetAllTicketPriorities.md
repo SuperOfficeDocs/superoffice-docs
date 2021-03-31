@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetAllTicketPriorities
-description: TicketPriorityEntityArray GetAllTicketPriorities(Bool includeDeleted)
+uid: crmscript_ref_NSListAgent_GetAllTicketPriorities
+title: TicketPriorityEntityArray GetAllTicketPriorities(Bool includeDeleted)
 intellisense: NSListAgent.GetAllTicketPriorities
-keywords: NSListAgent,GetAllTicketPriorities
+keywords: NSListAgent, GetAllTicketPriorities
 so.topic: reference
 ---
 

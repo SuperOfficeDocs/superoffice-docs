@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent_GetSuggestedStopWords
-description: MDOListItemArray GetSuggestedStopWords(Integer countWords)
+uid: crmscript_ref_NSFreeTextAgent_GetSuggestedStopWords
+title: MDOListItemArray GetSuggestedStopWords(Integer countWords)
 intellisense: NSFreeTextAgent.GetSuggestedStopWords
-keywords: NSFreeTextAgent,GetSuggestedStopWords
+keywords: NSFreeTextAgent, GetSuggestedStopWords
 so.topic: reference
 ---
 

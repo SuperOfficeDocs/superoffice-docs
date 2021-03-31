@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRoleEntity_SetUpdated
-description: NSRoleEntity.SetUpdated(DateTime updated)
+uid: crmscript_ref_NSRoleEntity_SetUpdated
+title: SetUpdated(DateTime updated)
 intellisense: NSRoleEntity.SetUpdated
 keywords: NSRoleEntity, GetUpdated
 so.topic: reference

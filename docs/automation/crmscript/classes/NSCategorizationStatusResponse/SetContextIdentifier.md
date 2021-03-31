@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCategorizationStatusResponse_SetContextIdentifier
-description: NSCategorizationStatusResponse.SetContextIdentifier(String contextIdentifier)
+uid: crmscript_ref_NSCategorizationStatusResponse_SetContextIdentifier
+title: SetContextIdentifier(String contextIdentifier)
 intellisense: NSCategorizationStatusResponse.SetContextIdentifier
 keywords: NSCategorizationStatusResponse, GetContextIdentifier
 so.topic: reference

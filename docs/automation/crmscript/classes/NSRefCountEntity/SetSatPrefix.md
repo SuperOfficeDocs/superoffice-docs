@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_SetSatPrefix
-description: NSRefCountEntity.SetSatPrefix(Integer satPrefix)
+uid: crmscript_ref_NSRefCountEntity_SetSatPrefix
+title: SetSatPrefix(Integer satPrefix)
 intellisense: NSRefCountEntity.SetSatPrefix
 keywords: NSRefCountEntity, GetSatPrefix
 so.topic: reference

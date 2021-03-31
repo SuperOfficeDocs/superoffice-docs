@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailConnectionInfo_GetUseSSL
-description: Bool NSEMailConnectionInfo.GetUseSSL()
+uid: crmscript_ref_NSEMailConnectionInfo_GetUseSSL
+title: Bool GetUseSSL()
 intellisense: NSEMailConnectionInfo.GetUseSSL
 keywords: NSEMailConnectionInfo, GetUseSSL
 so.topic: reference

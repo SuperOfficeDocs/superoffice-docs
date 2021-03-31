@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContact_SetAddress
-description: NSContact.SetAddress(Address address)
+uid: crmscript_ref_NSContact_SetAddress
+title: SetAddress(Address address)
 intellisense: NSContact.SetAddress
 keywords: NSContact, GetAddress
 so.topic: reference

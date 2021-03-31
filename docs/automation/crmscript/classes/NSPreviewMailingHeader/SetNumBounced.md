@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_SetNumBounced
-description: NSPreviewMailingHeader.SetNumBounced(Integer numBounced)
+uid: crmscript_ref_NSPreviewMailingHeader_SetNumBounced
+title: SetNumBounced(Integer numBounced)
 intellisense: NSPreviewMailingHeader.SetNumBounced
 keywords: NSPreviewMailingHeader, GetNumBounced
 so.topic: reference

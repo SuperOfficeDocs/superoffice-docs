@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnection_GetAssociateAccessIds
-description: IntegerArray NSErpConnection.GetAssociateAccessIds()
+uid: crmscript_ref_NSErpConnection_GetAssociateAccessIds
+title: IntegerArray GetAssociateAccessIds()
 intellisense: NSErpConnection.GetAssociateAccessIds
 keywords: NSErpConnection, GetAssociateAccessIds
 so.topic: reference

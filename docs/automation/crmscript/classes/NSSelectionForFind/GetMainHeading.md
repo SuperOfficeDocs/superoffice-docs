@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionForFind_GetMainHeading
-description: String NSSelectionForFind.GetMainHeading()
+uid: crmscript_ref_NSSelectionForFind_GetMainHeading
+title: String GetMainHeading()
 intellisense: NSSelectionForFind.GetMainHeading
 keywords: NSSelectionForFind, GetMainHeading
 so.topic: reference

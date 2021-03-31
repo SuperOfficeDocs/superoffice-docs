@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_GetDashboard
-description: NSDashboard GetDashboard(Integer dashboardId);
+uid: crmscript_ref_NSDashboardAgent_GetDashboard
+title: NSDashboard GetDashboard(Integer dashboardId);
 intellisense: NSDashboardAgent.GetDashboard
-keywords: NSDashboardAgent,GetDashboard
+keywords: NSDashboardAgent, GetDashboard
 so.topic: reference
 ---
 

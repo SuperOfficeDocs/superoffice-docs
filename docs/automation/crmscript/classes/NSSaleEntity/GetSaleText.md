@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleEntity_GetSaleText
-description: String NSSaleEntity.GetSaleText()
+uid: crmscript_ref_NSSaleEntity_GetSaleText
+title: String GetSaleText()
 intellisense: NSSaleEntity.GetSaleText
 keywords: NSSaleEntity, GetSaleText
 so.topic: reference

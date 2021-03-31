@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionListMapping_SetErpFieldId
-description: NSErpConnectionListMapping.SetErpFieldId(Integer erpFieldId)
+uid: crmscript_ref_NSErpConnectionListMapping_SetErpFieldId
+title: SetErpFieldId(Integer erpFieldId)
 intellisense: NSErpConnectionListMapping.SetErpFieldId
 keywords: NSErpConnectionListMapping, GetErpFieldId
 so.topic: reference

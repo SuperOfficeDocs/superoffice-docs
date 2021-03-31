@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailboxEntity_SetPassword
-description: NSMailboxEntity.SetPassword(String password)
+uid: crmscript_ref_NSMailboxEntity_SetPassword
+title: SetPassword(String password)
 intellisense: NSMailboxEntity.SetPassword
 keywords: NSMailboxEntity, GetPassword
 so.topic: reference

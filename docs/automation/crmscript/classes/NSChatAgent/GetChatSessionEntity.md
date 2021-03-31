@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSChatAgent_GetChatSessionEntity
-description: NSChatSessionEntity GetChatSessionEntity(Integer chatSessionEntityId);
+uid: crmscript_ref_NSChatAgent_GetChatSessionEntity
+title: NSChatSessionEntity GetChatSessionEntity(Integer chatSessionEntityId);
 intellisense: NSChatAgent.GetChatSessionEntity
-keywords: NSChatAgent,GetChatSessionEntity
+keywords: NSChatAgent, GetChatSessionEntity
 so.topic: reference
 ---
 

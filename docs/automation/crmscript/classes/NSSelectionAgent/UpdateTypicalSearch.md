@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_UpdateTypicalSearch
-description: String UpdateTypicalSearch(TypicalSearches searches)
+uid: crmscript_ref_NSSelectionAgent_UpdateTypicalSearch
+title: String UpdateTypicalSearch(TypicalSearches searches)
 intellisense: NSSelectionAgent.UpdateTypicalSearch
-keywords: NSSelectionAgent,UpdateTypicalSearch
+keywords: NSSelectionAgent, UpdateTypicalSearch
 so.topic: reference
 ---
 

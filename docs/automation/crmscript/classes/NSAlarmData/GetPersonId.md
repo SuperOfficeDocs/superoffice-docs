@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAlarmData_GetPersonId
-description: Integer NSAlarmData.GetPersonId()
+uid: crmscript_ref_NSAlarmData_GetPersonId
+title: Integer GetPersonId()
 intellisense: NSAlarmData.GetPersonId
 keywords: NSAlarmData, GetPersonId
 so.topic: reference

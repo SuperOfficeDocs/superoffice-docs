@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetIsRecurrence
-description: NSAppointment.SetIsRecurrence(Bool isRecurrence)
+uid: crmscript_ref_NSAppointment_SetIsRecurrence
+title: SetIsRecurrence(Bool isRecurrence)
 intellisense: NSAppointment.SetIsRecurrence
 keywords: NSAppointment, GetIsRecurrence
 so.topic: reference

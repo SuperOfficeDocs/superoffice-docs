@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_GetTicketMessage
-description: NSTicketMessage GetTicketMessage(Integer ticketMessageId);
+uid: crmscript_ref_NSTicketAgent_GetTicketMessage
+title: NSTicketMessage GetTicketMessage(Integer ticketMessageId);
 intellisense: NSTicketAgent.GetTicketMessage
-keywords: NSTicketAgent,GetTicketMessage
+keywords: NSTicketAgent, GetTicketMessage
 so.topic: reference
 ---
 

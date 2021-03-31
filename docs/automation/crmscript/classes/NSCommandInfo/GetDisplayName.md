@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCommandInfo_GetDisplayName
-description: String NSCommandInfo.GetDisplayName()
+uid: crmscript_ref_NSCommandInfo_GetDisplayName
+title: String GetDisplayName()
 intellisense: NSCommandInfo.GetDisplayName
 keywords: NSCommandInfo, GetDisplayName
 so.topic: reference

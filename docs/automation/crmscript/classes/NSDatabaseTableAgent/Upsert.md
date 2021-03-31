@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDatabaseTableAgent_Upsert
-description: MassOperationResult Upsert(String tableName, StringArray columns, StringArray keys, StringArrayArray data, Integer nomatchAction, Bool returnRowStatus)
+uid: crmscript_ref_NSDatabaseTableAgent_Upsert
+title: MassOperationResult Upsert(String tableName, StringArray columns, StringArray keys, StringArrayArray data, Integer nomatchAction, Bool returnRowStatus)
 intellisense: NSDatabaseTableAgent.Upsert
-keywords: NSDatabaseTableAgent,Upsert
+keywords: NSDatabaseTableAgent, Upsert
 so.topic: reference
 ---
 

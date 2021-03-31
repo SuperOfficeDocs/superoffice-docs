@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSListAgent
-description: NSListAgent
+uid: crmscript_ref_NSListAgent
+title: NSListAgent
 intellisense: Void.NSListAgent
 keywords: NSListAgent
 so.topic: reference

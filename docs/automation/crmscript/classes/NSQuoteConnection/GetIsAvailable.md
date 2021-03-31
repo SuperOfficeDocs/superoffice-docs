@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteConnection_GetIsAvailable
-description: Bool NSQuoteConnection.GetIsAvailable()
+uid: crmscript_ref_NSQuoteConnection_GetIsAvailable
+title: Bool GetIsAvailable()
 intellisense: NSQuoteConnection.GetIsAvailable
 keywords: NSQuoteConnection, GetIsAvailable
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketMessage_SetSlevel
-description: NSTicketMessage.SetSlevel(TicketSecurityLevel slevel)
+uid: crmscript_ref_NSTicketMessage_SetSlevel
+title: SetSlevel(TicketSecurityLevel slevel)
 intellisense: NSTicketMessage.SetSlevel
 keywords: NSTicketMessage, GetSlevel
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetAssociate
-description: Associate NSSelectionEntity.GetAssociate()
+uid: crmscript_ref_NSSelectionEntity_GetAssociate
+title: Associate GetAssociate()
 intellisense: NSSelectionEntity.GetAssociate
 keywords: NSSelectionEntity, GetAssociate
 so.topic: reference

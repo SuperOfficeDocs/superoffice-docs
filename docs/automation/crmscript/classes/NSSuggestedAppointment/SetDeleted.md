@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_SetDeleted
-description: NSSuggestedAppointment.SetDeleted(Integer deleted)
+uid: crmscript_ref_NSSuggestedAppointment_SetDeleted
+title: SetDeleted(Integer deleted)
 intellisense: NSSuggestedAppointment.SetDeleted
 keywords: NSSuggestedAppointment, GetDeleted
 so.topic: reference

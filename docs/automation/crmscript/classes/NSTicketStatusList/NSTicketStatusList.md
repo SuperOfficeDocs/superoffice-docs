@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketStatusList
-description: NSTicketStatusList
+uid: crmscript_ref_NSTicketStatusList
+title: NSTicketStatusList
 intellisense: Void.NSTicketStatusList
 keywords: NSTicketStatusList
 so.topic: reference

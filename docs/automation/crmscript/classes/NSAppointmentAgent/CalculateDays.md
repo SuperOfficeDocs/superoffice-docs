@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_CalculateDays
-description: RecurrenceInfo CalculateDays(AppointmentEntity appointmentEntity)
+uid: crmscript_ref_NSAppointmentAgent_CalculateDays
+title: RecurrenceInfo CalculateDays(AppointmentEntity appointmentEntity)
 intellisense: NSAppointmentAgent.CalculateDays
-keywords: NSAppointmentAgent,CalculateDays
+keywords: NSAppointmentAgent, CalculateDays
 so.topic: reference
 ---
 

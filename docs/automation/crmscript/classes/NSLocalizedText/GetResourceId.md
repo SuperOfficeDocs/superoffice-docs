@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLocalizedText_GetResourceId
-description: Integer NSLocalizedText.GetResourceId()
+uid: crmscript_ref_NSLocalizedText_GetResourceId
+title: Integer GetResourceId()
 intellisense: NSLocalizedText.GetResourceId
 keywords: NSLocalizedText, GetResourceId
 so.topic: reference

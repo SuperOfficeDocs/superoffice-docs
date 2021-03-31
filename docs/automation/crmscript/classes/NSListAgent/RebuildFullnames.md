@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_RebuildFullnames
-description: Void RebuildFullnames()
+uid: crmscript_ref_NSListAgent_RebuildFullnames
+title: Void RebuildFullnames()
 intellisense: NSListAgent.RebuildFullnames
-keywords: NSListAgent,RebuildFullnames
+keywords: NSListAgent, RebuildFullnames
 so.topic: reference
 ---
 

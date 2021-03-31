@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPocketNotificationMessage
-description: NSPocketNotificationMessage
+uid: crmscript_ref_NSPocketNotificationMessage
+title: NSPocketNotificationMessage
 intellisense: Void.NSPocketNotificationMessage
 keywords: NSPocketNotificationMessage
 so.topic: reference

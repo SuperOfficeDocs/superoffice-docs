@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateVariablesParameters_SetPersonId
-description: NSTemplateVariablesParameters.SetPersonId(Integer personId)
+uid: crmscript_ref_NSTemplateVariablesParameters_SetPersonId
+title: SetPersonId(Integer personId)
 intellisense: NSTemplateVariablesParameters.SetPersonId
 keywords: NSTemplateVariablesParameters, GetPersonId
 so.topic: reference

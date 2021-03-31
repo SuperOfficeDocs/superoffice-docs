@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCRMScriptResult
-description: NSCRMScriptResult
+uid: crmscript_ref_NSCRMScriptResult
+title: NSCRMScriptResult
 intellisense: Void.NSCRMScriptResult
 keywords: NSCRMScriptResult
 so.topic: reference

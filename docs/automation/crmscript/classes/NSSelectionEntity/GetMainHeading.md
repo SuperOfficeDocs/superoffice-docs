@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetMainHeading
-description: String NSSelectionEntity.GetMainHeading()
+uid: crmscript_ref_NSSelectionEntity_GetMainHeading
+title: String GetMainHeading()
 intellisense: NSSelectionEntity.GetMainHeading
 keywords: NSSelectionEntity, GetMainHeading
 so.topic: reference

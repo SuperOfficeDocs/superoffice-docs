@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_GetForeignAppEntity
-description: NSForeignAppEntity GetForeignAppEntity(Integer foreignAppEntityId);
+uid: crmscript_ref_NSForeignSystemAgent_GetForeignAppEntity
+title: NSForeignAppEntity GetForeignAppEntity(Integer foreignAppEntityId);
 intellisense: NSForeignSystemAgent.GetForeignAppEntity
-keywords: NSForeignSystemAgent,GetForeignAppEntity
+keywords: NSForeignSystemAgent, GetForeignAppEntity
 so.topic: reference
 ---
 

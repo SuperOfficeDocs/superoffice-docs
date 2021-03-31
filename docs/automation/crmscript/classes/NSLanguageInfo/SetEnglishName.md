@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLanguageInfo_SetEnglishName
-description: NSLanguageInfo.SetEnglishName(String englishName)
+uid: crmscript_ref_NSLanguageInfo_SetEnglishName
+title: SetEnglishName(String englishName)
 intellisense: NSLanguageInfo.SetEnglishName
 keywords: NSLanguageInfo, GetEnglishName
 so.topic: reference

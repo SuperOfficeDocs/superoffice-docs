@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSentiment_GetConfidence
-description: Integer NSSentiment.GetConfidence()
+uid: crmscript_ref_NSSentiment_GetConfidence
+title: Integer GetConfidence()
 intellisense: NSSentiment.GetConfidence
 keywords: NSSentiment, GetConfidence
 so.topic: reference

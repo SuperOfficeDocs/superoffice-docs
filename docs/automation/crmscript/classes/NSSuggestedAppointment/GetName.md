@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointment_GetName
-description: String NSSuggestedAppointment.GetName()
+uid: crmscript_ref_NSSuggestedAppointment_GetName
+title: String GetName()
 intellisense: NSSuggestedAppointment.GetName
 keywords: NSSuggestedAppointment, GetName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListItem_SetName
-description: NSPhoneListItem.SetName(String name)
+uid: crmscript_ref_NSPhoneListItem_SetName
+title: SetName(String name)
 intellisense: NSPhoneListItem.SetName
 keywords: NSPhoneListItem, GetName
 so.topic: reference

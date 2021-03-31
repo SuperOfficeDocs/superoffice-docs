@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionForFind_GetCanSaveAsSelection
-description: Bool NSSelectionForFind.GetCanSaveAsSelection()
+uid: crmscript_ref_NSSelectionForFind_GetCanSaveAsSelection
+title: Bool GetCanSaveAsSelection()
 intellisense: NSSelectionForFind.GetCanSaveAsSelection
 keywords: NSSelectionForFind, GetCanSaveAsSelection
 so.topic: reference

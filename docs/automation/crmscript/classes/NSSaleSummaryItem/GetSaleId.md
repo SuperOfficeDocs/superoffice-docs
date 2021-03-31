@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummaryItem_GetSaleId
-description: Integer NSSaleSummaryItem.GetSaleId()
+uid: crmscript_ref_NSSaleSummaryItem_GetSaleId
+title: Integer GetSaleId()
 intellisense: NSSaleSummaryItem.GetSaleId
 keywords: NSSaleSummaryItem, GetSaleId
 so.topic: reference

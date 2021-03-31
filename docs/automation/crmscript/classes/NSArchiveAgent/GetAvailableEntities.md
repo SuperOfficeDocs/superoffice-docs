@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_GetAvailableEntities
-description: MDOListItemArray GetAvailableEntities(String providerName, String context)
+uid: crmscript_ref_NSArchiveAgent_GetAvailableEntities
+title: MDOListItemArray GetAvailableEntities(String providerName, String context)
 intellisense: NSArchiveAgent.GetAvailableEntities
-keywords: NSArchiveAgent,GetAvailableEntities
+keywords: NSArchiveAgent, GetAvailableEntities
 so.topic: reference
 ---
 

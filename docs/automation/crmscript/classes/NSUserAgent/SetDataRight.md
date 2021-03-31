@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_SetDataRight
-description: Void SetDataRight(Integer roleId, String tableName, Integer relationToOwner, String dataRightValue)
+uid: crmscript_ref_NSUserAgent_SetDataRight
+title: Void SetDataRight(Integer roleId, String tableName, Integer relationToOwner, String dataRightValue)
 intellisense: NSUserAgent.SetDataRight
-keywords: NSUserAgent,SetDataRight
+keywords: NSUserAgent, SetDataRight
 so.topic: reference
 ---
 

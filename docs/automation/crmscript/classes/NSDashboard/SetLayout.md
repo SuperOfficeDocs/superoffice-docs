@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboard_SetLayout
-description: NSDashboard.SetLayout(Integer layout)
+uid: crmscript_ref_NSDashboard_SetLayout
+title: SetLayout(Integer layout)
 intellisense: NSDashboard.SetLayout
 keywords: NSDashboard, GetLayout
 so.topic: reference

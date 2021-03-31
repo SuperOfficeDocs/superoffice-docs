@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointment_SetPriorityName
-description: NSAppointment.SetPriorityName(String priorityName)
+uid: crmscript_ref_NSAppointment_SetPriorityName
+title: SetPriorityName(String priorityName)
 intellisense: NSAppointment.SetPriorityName
 keywords: NSAppointment, GetPriorityName
 so.topic: reference

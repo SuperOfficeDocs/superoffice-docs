@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_GetRule
-description: String NSProduct.GetRule()
+uid: crmscript_ref_NSProduct_GetRule
+title: String GetRule()
 intellisense: NSProduct.GetRule
 keywords: NSProduct, GetRule
 so.topic: reference

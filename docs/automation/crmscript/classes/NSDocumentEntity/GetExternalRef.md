@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_GetExternalRef
-description: String NSDocumentEntity.GetExternalRef()
+uid: crmscript_ref_NSDocumentEntity_GetExternalRef
+title: String GetExternalRef()
 intellisense: NSDocumentEntity.GetExternalRef
 keywords: NSDocumentEntity, GetExternalRef
 so.topic: reference

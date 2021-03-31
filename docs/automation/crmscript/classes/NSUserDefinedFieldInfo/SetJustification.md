@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_SetJustification
-description: NSUserDefinedFieldInfo.SetJustification(UdefJustification justification)
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetJustification
+title: SetJustification(UdefJustification justification)
 intellisense: NSUserDefinedFieldInfo.SetJustification
 keywords: NSUserDefinedFieldInfo, GetJustification
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectType
-description: NSProjectType
+uid: crmscript_ref_NSProjectType
+title: NSProjectType
 intellisense: Void.NSProjectType
 keywords: NSProjectType
 so.topic: reference

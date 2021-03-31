@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVersionInfo_GetCheckedInDate
-description: DateTime NSVersionInfo.GetCheckedInDate()
+uid: crmscript_ref_NSVersionInfo_GetCheckedInDate
+title: DateTime GetCheckedInDate()
 intellisense: NSVersionInfo.GetCheckedInDate
 keywords: NSVersionInfo, GetCheckedInDate
 so.topic: reference

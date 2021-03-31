@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_SaveWindowPosSizes
-description: WindowPosSizeArray SaveWindowPosSizes(WindowPosSizeArray windowPosSizes)
+uid: crmscript_ref_NSConfigurationAgent_SaveWindowPosSizes
+title: WindowPosSizeArray SaveWindowPosSizes(WindowPosSizeArray windowPosSizes)
 intellisense: NSConfigurationAgent.SaveWindowPosSizes
-keywords: NSConfigurationAgent,SaveWindowPosSizes
+keywords: NSConfigurationAgent, SaveWindowPosSizes
 so.topic: reference
 ---
 

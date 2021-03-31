@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_CreateActorLink
-description: Bool CreateActorLink(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType)
+uid: crmscript_ref_NSErpSyncAgent_CreateActorLink
+title: Bool CreateActorLink(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType)
 intellisense: NSErpSyncAgent.CreateActorLink
-keywords: NSErpSyncAgent,CreateActorLink
+keywords: NSErpSyncAgent, CreateActorLink
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAudienceAgent_DeleteConfigParameter
-description: Void DeleteConfigParameter(String layoutName, String parameterName)
+uid: crmscript_ref_NSAudienceAgent_DeleteConfigParameter
+title: Void DeleteConfigParameter(String layoutName, String parameterName)
 intellisense: NSAudienceAgent.DeleteConfigParameter
-keywords: NSAudienceAgent,DeleteConfigParameter
+keywords: NSAudienceAgent, DeleteConfigParameter
 so.topic: reference
 ---
 

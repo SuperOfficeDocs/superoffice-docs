@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreference_SetPrefDescId
-description: NSPreference.SetPrefDescId(Integer prefDescId)
+uid: crmscript_ref_NSPreference_SetPrefDescId
+title: SetPrefDescId(Integer prefDescId)
 intellisense: NSPreference.SetPrefDescId
 keywords: NSPreference, GetPrefDescId
 so.topic: reference

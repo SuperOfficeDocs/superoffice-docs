@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleStakeholder_SetEmailId
-description: NSSaleStakeholder.SetEmailId(Integer emailId)
+uid: crmscript_ref_NSSaleStakeholder_SetEmailId
+title: SetEmailId(Integer emailId)
 intellisense: NSSaleStakeholder.SetEmailId
 keywords: NSSaleStakeholder, GetEmailId
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailingHeader_GetNumBounced
-description: Integer NSPreviewMailingHeader.GetNumBounced()
+uid: crmscript_ref_NSPreviewMailingHeader_GetNumBounced
+title: Integer GetNumBounced()
 intellisense: NSPreviewMailingHeader.GetNumBounced
 keywords: NSPreviewMailingHeader, GetNumBounced
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFormSubmissionEntity_GetProcessingLog
-description: String NSFormSubmissionEntity.GetProcessingLog()
+uid: crmscript_ref_NSFormSubmissionEntity_GetProcessingLog
+title: String GetProcessingLog()
 intellisense: NSFormSubmissionEntity.GetProcessingLog
 keywords: NSFormSubmissionEntity, GetProcessingLog
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetHideLabel
-description: Bool NSUserDefinedFieldInfo.GetHideLabel()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetHideLabel
+title: Bool GetHideLabel()
 intellisense: NSUserDefinedFieldInfo.GetHideLabel
 keywords: NSUserDefinedFieldInfo, GetHideLabel
 so.topic: reference

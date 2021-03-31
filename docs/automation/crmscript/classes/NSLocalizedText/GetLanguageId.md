@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLocalizedText_GetLanguageId
-description: Integer NSLocalizedText.GetLanguageId()
+uid: crmscript_ref_NSLocalizedText_GetLanguageId
+title: Integer GetLanguageId()
 intellisense: NSLocalizedText.GetLanguageId
 keywords: NSLocalizedText, GetLanguageId
 so.topic: reference

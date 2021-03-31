@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUntrustedCredentials_SetSecretValue
-description: NSUntrustedCredentials.SetSecretValue(String secretValue)
+uid: crmscript_ref_NSUntrustedCredentials_SetSecretValue
+title: SetSecretValue(String secretValue)
 intellisense: NSUntrustedCredentials.SetSecretValue
 keywords: NSUntrustedCredentials, GetSecretValue
 so.topic: reference

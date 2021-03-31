@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentSource_GetRank
-description: Integer NSConsentSource.GetRank()
+uid: crmscript_ref_NSConsentSource_GetRank
+title: Integer GetRank()
 intellisense: NSConsentSource.GetRank
 keywords: NSConsentSource, GetRank
 so.topic: reference

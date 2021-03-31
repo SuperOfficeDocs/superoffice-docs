@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSAppointmentAgent_GetNextSuggestedAppointmentBySale
-description: SuggestedAppointment GetNextSuggestedAppointmentBySale(Integer saleId, Integer currentAppointmentId, Bool skipCompleteCheck)
+uid: crmscript_ref_NSAppointmentAgent_GetNextSuggestedAppointmentBySale
+title: SuggestedAppointment GetNextSuggestedAppointmentBySale(Integer saleId, Integer currentAppointmentId, Bool skipCompleteCheck)
 intellisense: NSAppointmentAgent.GetNextSuggestedAppointmentBySale
-keywords: NSAppointmentAgent,GetNextSuggestedAppointmentBySale
+keywords: NSAppointmentAgent, GetNextSuggestedAppointmentBySale
 so.topic: reference
 ---
 

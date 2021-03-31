@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCriteriaInformation_SetRestrictionGroups
-description: NSCriteriaInformation.SetRestrictionGroups(ArchiveRestrictionGroupArray restrictionGroups)
+uid: crmscript_ref_NSCriteriaInformation_SetRestrictionGroups
+title: SetRestrictionGroups(ArchiveRestrictionGroupArray restrictionGroups)
 intellisense: NSCriteriaInformation.SetRestrictionGroups
 keywords: NSCriteriaInformation, GetRestrictionGroups
 so.topic: reference

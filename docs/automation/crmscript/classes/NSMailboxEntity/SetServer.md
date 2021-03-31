@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailboxEntity_SetServer
-description: NSMailboxEntity.SetServer(String server)
+uid: crmscript_ref_NSMailboxEntity_SetServer
+title: SetServer(String server)
 intellisense: NSMailboxEntity.SetServer
 keywords: NSMailboxEntity, GetServer
 so.topic: reference

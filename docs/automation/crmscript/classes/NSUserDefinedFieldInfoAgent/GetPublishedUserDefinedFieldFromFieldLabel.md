@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel
-description: UserDefinedFieldInfo GetPublishedUserDefinedFieldFromFieldLabel(String fieldLabel, Integer ownerType)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel
+title: UserDefinedFieldInfo GetPublishedUserDefinedFieldFromFieldLabel(String fieldLabel, Integer ownerType)
 intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
-keywords: NSUserDefinedFieldInfoAgent,GetPublishedUserDefinedFieldFromFieldLabel
+keywords: NSUserDefinedFieldInfoAgent, GetPublishedUserDefinedFieldFromFieldLabel
 so.topic: reference
 ---
 

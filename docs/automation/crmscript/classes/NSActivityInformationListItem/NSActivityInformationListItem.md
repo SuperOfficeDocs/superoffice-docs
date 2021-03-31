@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivityInformationListItem
-description: NSActivityInformationListItem
+uid: crmscript_ref_NSActivityInformationListItem
+title: NSActivityInformationListItem
 intellisense: Void.NSActivityInformationListItem
 keywords: NSActivityInformationListItem
 so.topic: reference

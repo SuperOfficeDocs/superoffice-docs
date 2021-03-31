@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSTicketAgent_NotifyNewTicketMessage
-description: Void NotifyNewTicketMessage(Integer ticketEntityId)
+uid: crmscript_ref_NSTicketAgent_NotifyNewTicketMessage
+title: Void NotifyNewTicketMessage(Integer ticketEntityId)
 intellisense: NSTicketAgent.NotifyNewTicketMessage
-keywords: NSTicketAgent,NotifyNewTicketMessage
+keywords: NSTicketAgent, NotifyNewTicketMessage
 so.topic: reference
 ---
 

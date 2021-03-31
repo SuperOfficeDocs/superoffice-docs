@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_SetAssociate
-description: NSAppointmentEntity.SetAssociate(Associate associate)
+uid: crmscript_ref_NSAppointmentEntity_SetAssociate
+title: SetAssociate(Associate associate)
 intellisense: NSAppointmentEntity.SetAssociate
 keywords: NSAppointmentEntity, GetAssociate
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_GetFutureOpenTotalOwnCurrency
-description: Float NSSaleSummary.GetFutureOpenTotalOwnCurrency()
+uid: crmscript_ref_NSSaleSummary_GetFutureOpenTotalOwnCurrency
+title: Float GetFutureOpenTotalOwnCurrency()
 intellisense: NSSaleSummary.GetFutureOpenTotalOwnCurrency
 keywords: NSSaleSummary, GetFutureOpenTotalOwnCurrency
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetListDefinitions
-description: ListEntityArray GetListDefinitions(Bool includeDeleted)
+uid: crmscript_ref_NSListAgent_GetListDefinitions
+title: ListEntityArray GetListDefinitions(Bool includeDeleted)
 intellisense: NSListAgent.GetListDefinitions
-keywords: NSListAgent,GetListDefinitions
+keywords: NSListAgent, GetListDefinitions
 so.topic: reference
 ---
 

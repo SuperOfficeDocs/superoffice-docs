@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity
-description: NSTicketPriorityEntity
+uid: crmscript_ref_NSTicketPriorityEntity
+title: NSTicketPriorityEntity
 intellisense: Void.NSTicketPriorityEntity
 keywords: NSTicketPriorityEntity
 so.topic: reference

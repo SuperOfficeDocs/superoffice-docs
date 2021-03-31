@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_GetHTMLBody
-description: String NSEMailEntity.GetHTMLBody()
+uid: crmscript_ref_NSEMailEntity_GetHTMLBody
+title: String GetHTMLBody()
 intellisense: NSEMailEntity.GetHTMLBody
 keywords: NSEMailEntity, GetHTMLBody
 so.topic: reference

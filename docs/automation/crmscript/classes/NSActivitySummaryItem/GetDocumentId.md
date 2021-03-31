@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSActivitySummaryItem_GetDocumentId
-description: Integer NSActivitySummaryItem.GetDocumentId()
+uid: crmscript_ref_NSActivitySummaryItem_GetDocumentId
+title: Integer GetDocumentId()
 intellisense: NSActivitySummaryItem.GetDocumentId
 keywords: NSActivitySummaryItem, GetDocumentId
 so.topic: reference

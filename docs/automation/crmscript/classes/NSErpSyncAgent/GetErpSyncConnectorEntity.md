@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetErpSyncConnectorEntity
-description: NSErpSyncConnectorEntity GetErpSyncConnectorEntity(Integer erpSyncConnectorEntityId);
+uid: crmscript_ref_NSErpSyncAgent_GetErpSyncConnectorEntity
+title: NSErpSyncConnectorEntity GetErpSyncConnectorEntity(Integer erpSyncConnectorEntityId);
 intellisense: NSErpSyncAgent.GetErpSyncConnectorEntity
-keywords: NSErpSyncAgent,GetErpSyncConnectorEntity
+keywords: NSErpSyncAgent, GetErpSyncConnectorEntity
 so.topic: reference
 ---
 

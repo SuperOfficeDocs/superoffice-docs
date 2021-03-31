@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailEntity_SetSize
-description: NSEMailEntity.SetSize(Integer size)
+uid: crmscript_ref_NSEMailEntity_SetSize
+title: SetSize(Integer size)
 intellisense: NSEMailEntity.SetSize
 keywords: NSEMailEntity, GetSize
 so.topic: reference

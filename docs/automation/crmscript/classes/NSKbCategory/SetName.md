@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSKbCategory_SetName
-description: NSKbCategory.SetName(String name)
+uid: crmscript_ref_NSKbCategory_SetName
+title: SetName(String name)
 intellisense: NSKbCategory.SetName
 keywords: NSKbCategory, GetName
 so.topic: reference

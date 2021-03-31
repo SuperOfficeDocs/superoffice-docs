@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactSummary
-description: NSContactSummary
+uid: crmscript_ref_NSContactSummary
+title: NSContactSummary
 intellisense: Void.NSContactSummary
 keywords: NSContactSummary
 so.topic: reference

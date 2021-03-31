@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_SaveQuoteEntity
-description: QuoteEntity SaveQuoteEntity(QuoteEntity quoteEntity)
+uid: crmscript_ref_NSQuoteAgent_SaveQuoteEntity
+title: QuoteEntity SaveQuoteEntity(QuoteEntity quoteEntity)
 intellisense: NSQuoteAgent.SaveQuoteEntity
-keywords: NSQuoteAgent,SaveQuoteEntity
+keywords: NSQuoteAgent, SaveQuoteEntity
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTaskListItem_SetIsDefaultPublished
-description: NSTaskListItem.SetIsDefaultPublished(Bool isDefaultPublished)
+uid: crmscript_ref_NSTaskListItem_SetIsDefaultPublished
+title: SetIsDefaultPublished(Bool isDefaultPublished)
 intellisense: NSTaskListItem.SetIsDefaultPublished
 keywords: NSTaskListItem, GetIsDefaultPublished
 so.topic: reference

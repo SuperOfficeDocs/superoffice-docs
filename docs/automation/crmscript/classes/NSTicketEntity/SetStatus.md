@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketEntity_SetStatus
-description: NSTicketEntity.SetStatus(TicketStatusEntity status)
+uid: crmscript_ref_NSTicketEntity_SetStatus
+title: SetStatus(TicketStatusEntity status)
 intellisense: NSTicketEntity.SetStatus
 keywords: NSTicketEntity, GetStatus
 so.topic: reference

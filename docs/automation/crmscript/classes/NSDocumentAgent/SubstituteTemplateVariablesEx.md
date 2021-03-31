@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariablesEx
-description: String SubstituteTemplateVariablesEx(TemplateVariablesParameters parameters)
+uid: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariablesEx
+title: String SubstituteTemplateVariablesEx(TemplateVariablesParameters parameters)
 intellisense: NSDocumentAgent.SubstituteTemplateVariablesEx
-keywords: NSDocumentAgent,SubstituteTemplateVariablesEx
+keywords: NSDocumentAgent, SubstituteTemplateVariablesEx
 so.topic: reference
 ---
 

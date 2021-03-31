@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_CreateUserGroup
-description: UserGroup CreateUserGroup()
+uid: crmscript_ref_NSUserAgent_CreateUserGroup
+title: UserGroup CreateUserGroup()
 intellisense: NSUserAgent.CreateUserGroup
-keywords: NSUserAgent,CreateUserGroup
+keywords: NSUserAgent, CreateUserGroup
 so.topic: reference
 ---
 

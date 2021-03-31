@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAccount_GetOutgoingCredentials
-description: ServiceAuth NSEMailAccount.GetOutgoingCredentials()
+uid: crmscript_ref_NSEMailAccount_GetOutgoingCredentials
+title: ServiceAuth GetOutgoingCredentials()
 intellisense: NSEMailAccount.GetOutgoingCredentials
 keywords: NSEMailAccount, GetOutgoingCredentials
 so.topic: reference

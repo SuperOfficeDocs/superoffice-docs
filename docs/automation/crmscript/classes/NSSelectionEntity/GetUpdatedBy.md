@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetUpdatedBy
-description: Associate NSSelectionEntity.GetUpdatedBy()
+uid: crmscript_ref_NSSelectionEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
 intellisense: NSSelectionEntity.GetUpdatedBy
 keywords: NSSelectionEntity, GetUpdatedBy
 so.topic: reference

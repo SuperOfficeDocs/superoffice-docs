@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSuggestedAppointmentEntity_SetRank
-description: NSSuggestedAppointmentEntity.SetRank(Integer rank)
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetRank
+title: SetRank(Integer rank)
 intellisense: NSSuggestedAppointmentEntity.SetRank
 keywords: NSSuggestedAppointmentEntity, GetRank
 so.topic: reference

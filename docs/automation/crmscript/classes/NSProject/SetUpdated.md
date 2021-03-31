@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProject_SetUpdated
-description: NSProject.SetUpdated(DateTime updated)
+uid: crmscript_ref_NSProject_SetUpdated
+title: SetUpdated(DateTime updated)
 intellisense: NSProject.SetUpdated
 keywords: NSProject, GetUpdated
 so.topic: reference

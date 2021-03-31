@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_ChangeOwnPassword
-description: Bool ChangeOwnPassword(String oldPassword, String newPassword)
+uid: crmscript_ref_NSUserAgent_ChangeOwnPassword
+title: Bool ChangeOwnPassword(String oldPassword, String newPassword)
 intellisense: NSUserAgent.ChangeOwnPassword
-keywords: NSUserAgent,ChangeOwnPassword
+keywords: NSUserAgent, ChangeOwnPassword
 so.topic: reference
 ---
 

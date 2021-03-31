@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSHierarchyEntity_GetRegisteredAssociateId
-description: Integer NSHierarchyEntity.GetRegisteredAssociateId()
+uid: crmscript_ref_NSHierarchyEntity_GetRegisteredAssociateId
+title: Integer GetRegisteredAssociateId()
 intellisense: NSHierarchyEntity.GetRegisteredAssociateId
 keywords: NSHierarchyEntity, GetRegisteredAssociateId
 so.topic: reference

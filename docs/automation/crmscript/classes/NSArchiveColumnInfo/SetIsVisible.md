@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_SetIsVisible
-description: NSArchiveColumnInfo.SetIsVisible(Bool isVisible)
+uid: crmscript_ref_NSArchiveColumnInfo_SetIsVisible
+title: SetIsVisible(Bool isVisible)
 intellisense: NSArchiveColumnInfo.SetIsVisible
 keywords: NSArchiveColumnInfo, GetIsVisible
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLanguageInfo_SetLanguageInfoId
-description: NSLanguageInfo.SetLanguageInfoId(Integer languageInfoId)
+uid: crmscript_ref_NSLanguageInfo_SetLanguageInfoId
+title: SetLanguageInfoId(Integer languageInfoId)
 intellisense: NSLanguageInfo.SetLanguageInfoId
 keywords: NSLanguageInfo, GetLanguageInfoId
 so.topic: reference

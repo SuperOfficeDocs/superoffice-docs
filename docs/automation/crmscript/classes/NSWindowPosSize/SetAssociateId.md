@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWindowPosSize_SetAssociateId
-description: NSWindowPosSize.SetAssociateId(Integer associateId)
+uid: crmscript_ref_NSWindowPosSize_SetAssociateId
+title: SetAssociateId(Integer associateId)
 intellisense: NSWindowPosSize.SetAssociateId
 keywords: NSWindowPosSize, GetAssociateId
 so.topic: reference

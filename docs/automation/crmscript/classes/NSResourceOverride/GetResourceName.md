@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSResourceOverride_GetResourceName
-description: String NSResourceOverride.GetResourceName()
+uid: crmscript_ref_NSResourceOverride_GetResourceName
+title: String GetResourceName()
 intellisense: NSResourceOverride.GetResourceName
 keywords: NSResourceOverride, GetResourceName
 so.topic: reference

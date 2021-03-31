@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleSummary_GetLostTotalBaseCurrency
-description: Float NSSaleSummary.GetLostTotalBaseCurrency()
+uid: crmscript_ref_NSSaleSummary_GetLostTotalBaseCurrency
+title: Float GetLostTotalBaseCurrency()
 intellisense: NSSaleSummary.GetLostTotalBaseCurrency
 keywords: NSSaleSummary, GetLostTotalBaseCurrency
 so.topic: reference

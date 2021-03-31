@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSFreeTextAgent_GetStopWordList
-description: StringArray GetStopWordList()
+uid: crmscript_ref_NSFreeTextAgent_GetStopWordList
+title: StringArray GetStopWordList()
 intellisense: NSFreeTextAgent.GetStopWordList
-keywords: NSFreeTextAgent,GetStopWordList
+keywords: NSFreeTextAgent, GetStopWordList
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaintConfiguration_GetGenerationEnd
-description: DateTime NSSaintConfiguration.GetGenerationEnd()
+uid: crmscript_ref_NSSaintConfiguration_GetGenerationEnd
+title: DateTime GetGenerationEnd()
 intellisense: NSSaintConfiguration.GetGenerationEnd
 keywords: NSSaintConfiguration, GetGenerationEnd
 so.topic: reference

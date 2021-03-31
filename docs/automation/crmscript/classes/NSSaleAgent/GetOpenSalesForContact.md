@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSaleAgent_GetOpenSalesForContact
-description: SaleArray GetOpenSalesForContact(Integer contactId)
+uid: crmscript_ref_NSSaleAgent_GetOpenSalesForContact
+title: SaleArray GetOpenSalesForContact(Integer contactId)
 intellisense: NSSaleAgent.GetOpenSalesForContact
-keywords: NSSaleAgent,GetOpenSalesForContact
+keywords: NSSaleAgent, GetOpenSalesForContact
 so.topic: reference
 ---
 

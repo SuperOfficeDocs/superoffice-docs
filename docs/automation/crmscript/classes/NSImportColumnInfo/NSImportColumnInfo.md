@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportColumnInfo
-description: NSImportColumnInfo
+uid: crmscript_ref_NSImportColumnInfo
+title: NSImportColumnInfo
 intellisense: Void.NSImportColumnInfo
 keywords: NSImportColumnInfo
 so.topic: reference

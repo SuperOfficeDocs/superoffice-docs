@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProduct_SetExtraInfo
-description: NSProduct.SetExtraInfo(ProductExtraDataFieldArray extraInfo)
+uid: crmscript_ref_NSProduct_SetExtraInfo
+title: SetExtraInfo(ProductExtraDataFieldArray extraInfo)
 intellisense: NSProduct.SetExtraInfo
 keywords: NSProduct, GetExtraInfo
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_RestoreConnection
-description: Void RestoreConnection(Integer quoteConnectionId)
+uid: crmscript_ref_NSQuoteAgent_RestoreConnection
+title: Void RestoreConnection(Integer quoteConnectionId)
 intellisense: NSQuoteAgent.RestoreConnection
-keywords: NSQuoteAgent,RestoreConnection
+keywords: NSQuoteAgent, RestoreConnection
 so.topic: reference
 ---
 

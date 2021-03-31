@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListPreferences_SetSearchModeFirstname
-description: NSPhoneListPreferences.SetSearchModeFirstname(Integer searchModeFirstname)
+uid: crmscript_ref_NSPhoneListPreferences_SetSearchModeFirstname
+title: SetSearchModeFirstname(Integer searchModeFirstname)
 intellisense: NSPhoneListPreferences.SetSearchModeFirstname
 keywords: NSPhoneListPreferences, GetSearchModeFirstname
 so.topic: reference

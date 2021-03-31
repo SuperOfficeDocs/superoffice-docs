@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSUser_GetOtherGroups
-description: UserGroupArray NSUser.GetOtherGroups()
+uid: crmscript_ref_NSUser_GetOtherGroups
+title: UserGroupArray GetOtherGroups()
 intellisense: NSUser.GetOtherGroups
 keywords: NSUser, GetOtherGroups
 so.topic: reference

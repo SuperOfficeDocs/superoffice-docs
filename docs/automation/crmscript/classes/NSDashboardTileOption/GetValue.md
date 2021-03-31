@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDashboardTileOption_GetValue
-description: String NSDashboardTileOption.GetValue()
+uid: crmscript_ref_NSDashboardTileOption_GetValue
+title: String GetValue()
 intellisense: NSDashboardTileOption.GetValue
 keywords: NSDashboardTileOption, GetValue
 so.topic: reference

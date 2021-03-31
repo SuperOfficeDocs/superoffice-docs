@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnData_SetLinkHint
-description: NSArchiveColumnData.SetLinkHint(String linkHint)
+uid: crmscript_ref_NSArchiveColumnData_SetLinkHint
+title: SetLinkHint(String linkHint)
 intellisense: NSArchiveColumnData.SetLinkHint
 keywords: NSArchiveColumnData, GetLinkHint
 so.topic: reference

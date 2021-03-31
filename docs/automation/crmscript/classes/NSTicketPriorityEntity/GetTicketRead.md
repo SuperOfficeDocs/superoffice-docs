@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_GetTicketRead
-description: TicketPriorityEscalateEvent NSTicketPriorityEntity.GetTicketRead()
+uid: crmscript_ref_NSTicketPriorityEntity_GetTicketRead
+title: TicketPriorityEscalateEvent GetTicketRead()
 intellisense: NSTicketPriorityEntity.GetTicketRead
 keywords: NSTicketPriorityEntity, GetTicketRead
 so.topic: reference

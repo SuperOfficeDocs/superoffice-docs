@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_GetContactDocuments
-description: DocumentArray GetContactDocuments(Integer contactId, DateTime startTime, DateTime endTime, Integer count)
+uid: crmscript_ref_NSDocumentAgent_GetContactDocuments
+title: DocumentArray GetContactDocuments(Integer contactId, DateTime startTime, DateTime endTime, Integer count)
 intellisense: NSDocumentAgent.GetContactDocuments
-keywords: NSDocumentAgent,GetContactDocuments
+keywords: NSDocumentAgent, GetContactDocuments
 so.topic: reference
 ---
 

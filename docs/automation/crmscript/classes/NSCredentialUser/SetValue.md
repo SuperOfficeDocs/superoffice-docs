@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCredentialUser_SetValue
-description: NSCredentialUser.SetValue(String value)
+uid: crmscript_ref_NSCredentialUser_SetValue
+title: SetValue(String value)
 intellisense: NSCredentialUser.SetValue
 keywords: NSCredentialUser, GetValue
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpConnectionData
-description: NSErpConnectionData
+uid: crmscript_ref_NSErpConnectionData
+title: NSErpConnectionData
 intellisense: Void.NSErpConnectionData
 keywords: NSErpConnectionData
 so.topic: reference

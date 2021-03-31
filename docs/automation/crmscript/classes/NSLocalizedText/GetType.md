@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLocalizedText_GetType
-description: Integer NSLocalizedText.GetType()
+uid: crmscript_ref_NSLocalizedText_GetType
+title: Integer GetType()
 intellisense: NSLocalizedText.GetType
 keywords: NSLocalizedText, GetType
 so.topic: reference

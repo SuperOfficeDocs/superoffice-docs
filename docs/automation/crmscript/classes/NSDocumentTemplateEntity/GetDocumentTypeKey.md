@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_GetDocumentTypeKey
-description: Integer NSDocumentTemplateEntity.GetDocumentTypeKey()
+uid: crmscript_ref_NSDocumentTemplateEntity_GetDocumentTypeKey
+title: Integer GetDocumentTypeKey()
 intellisense: NSDocumentTemplateEntity.GetDocumentTypeKey
 keywords: NSDocumentTemplateEntity, GetDocumentTypeKey
 so.topic: reference

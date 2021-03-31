@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_SetTravelPrefix
-description: NSRefCountEntity.SetTravelPrefix(Integer travelPrefix)
+uid: crmscript_ref_NSRefCountEntity_SetTravelPrefix
+title: SetTravelPrefix(Integer travelPrefix)
 intellisense: NSRefCountEntity.SetTravelPrefix
 keywords: NSRefCountEntity, GetTravelPrefix
 so.topic: reference

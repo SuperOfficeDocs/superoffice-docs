@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncFieldValue_GetSyncToCrm
-description: Bool NSErpSyncFieldValue.GetSyncToCrm()
+uid: crmscript_ref_NSErpSyncFieldValue_GetSyncToCrm
+title: Bool GetSyncToCrm()
 intellisense: NSErpSyncFieldValue.GetSyncToCrm
 keywords: NSErpSyncFieldValue, GetSyncToCrm
 so.topic: reference

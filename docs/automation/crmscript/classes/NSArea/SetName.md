@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArea_SetName
-description: NSArea.SetName(String name)
+uid: crmscript_ref_NSArea_SetName
+title: SetName(String name)
 intellisense: NSArea.SetName
 keywords: NSArea, GetName
 so.topic: reference

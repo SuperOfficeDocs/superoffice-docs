@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDiagnosticsAgent_ChangeLogSettings
-description: Void ChangeLogSettings(Bool logWarning, Bool logInformation, Bool logSuccessAudit, Bool logFailureAudit, Bool logToEventLog, Bool logToSuperOffice, Bool logToFile, Bool logToTrace)
+uid: crmscript_ref_NSDiagnosticsAgent_ChangeLogSettings
+title: Void ChangeLogSettings(Bool logWarning, Bool logInformation, Bool logSuccessAudit, Bool logFailureAudit, Bool logToEventLog, Bool logToSuperOffice, Bool logToFile, Bool logToTrace)
 intellisense: NSDiagnosticsAgent.ChangeLogSettings
-keywords: NSDiagnosticsAgent,ChangeLogSettings
+keywords: NSDiagnosticsAgent, ChangeLogSettings
 so.topic: reference
 ---
 

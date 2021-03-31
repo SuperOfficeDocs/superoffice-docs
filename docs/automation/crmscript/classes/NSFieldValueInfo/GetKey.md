@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSFieldValueInfo_GetKey
-description: String NSFieldValueInfo.GetKey()
+uid: crmscript_ref_NSFieldValueInfo_GetKey
+title: String GetKey()
 intellisense: NSFieldValueInfo.GetKey
 keywords: NSFieldValueInfo, GetKey
 so.topic: reference

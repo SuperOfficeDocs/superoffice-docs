@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicket_SetNumMessages
-description: NSTicket.SetNumMessages(Integer numMessages)
+uid: crmscript_ref_NSTicket_SetNumMessages
+title: SetNumMessages(Integer numMessages)
 intellisense: NSTicket.SetNumMessages
 keywords: NSTicket, GetNumMessages
 so.topic: reference

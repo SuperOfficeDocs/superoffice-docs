@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSConsentPurpose_SetConsentText
-description: NSConsentPurpose.SetConsentText(String consentText)
+uid: crmscript_ref_NSConsentPurpose_SetConsentText
+title: SetConsentText(String consentText)
 intellisense: NSConsentPurpose.SetConsentText
 keywords: NSConsentPurpose, GetConsentText
 so.topic: reference

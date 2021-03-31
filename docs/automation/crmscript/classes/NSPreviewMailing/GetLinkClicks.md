@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPreviewMailing_GetLinkClicks
-description: Integer NSPreviewMailing.GetLinkClicks()
+uid: crmscript_ref_NSPreviewMailing_GetLinkClicks
+title: Integer GetLinkClicks()
 intellisense: NSPreviewMailing.GetLinkClicks
 keywords: NSPreviewMailing, GetLinkClicks
 so.topic: reference

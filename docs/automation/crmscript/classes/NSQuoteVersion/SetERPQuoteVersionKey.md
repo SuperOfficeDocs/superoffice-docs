@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetERPQuoteVersionKey
-description: NSQuoteVersion.SetERPQuoteVersionKey(String eRPQuoteVersionKey)
+uid: crmscript_ref_NSQuoteVersion_SetERPQuoteVersionKey
+title: SetERPQuoteVersionKey(String eRPQuoteVersionKey)
 intellisense: NSQuoteVersion.SetERPQuoteVersionKey
 keywords: NSQuoteVersion, GetERPQuoteVersionKey
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSatellite_GetLicenseOwners
-description: LicenseOwnerArray NSSatellite.GetLicenseOwners()
+uid: crmscript_ref_NSSatellite_GetLicenseOwners
+title: LicenseOwnerArray GetLicenseOwners()
 intellisense: NSSatellite.GetLicenseOwners
 keywords: NSSatellite, GetLicenseOwners
 so.topic: reference

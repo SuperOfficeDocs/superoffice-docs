@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatOpeningHours_GetMonStop
-description: TimeSpan NSChatOpeningHours.GetMonStop()
+uid: crmscript_ref_NSChatOpeningHours_GetMonStop
+title: TimeSpan GetMonStop()
 intellisense: NSChatOpeningHours.GetMonStop
 keywords: NSChatOpeningHours, GetMonStop
 so.topic: reference

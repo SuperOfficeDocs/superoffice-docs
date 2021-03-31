@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReasonStalledList
-description: NSReasonStalledList
+uid: crmscript_ref_NSReasonStalledList
+title: NSReasonStalledList
 intellisense: Void.NSReasonStalledList
 keywords: NSReasonStalledList
 so.topic: reference

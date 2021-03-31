@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatSessionEntity_GetWhenStarted
-description: DateTime NSChatSessionEntity.GetWhenStarted()
+uid: crmscript_ref_NSChatSessionEntity_GetWhenStarted
+title: DateTime GetWhenStarted()
 intellisense: NSChatSessionEntity.GetWhenStarted
 keywords: NSChatSessionEntity, GetWhenStarted
 so.topic: reference

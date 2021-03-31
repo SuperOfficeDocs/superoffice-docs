@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSRefCountEntity_SetField
-description: NSRefCountEntity.SetField(String field)
+uid: crmscript_ref_NSRefCountEntity_SetField
+title: SetField(String field)
 intellisense: NSRefCountEntity.SetField
 keywords: NSRefCountEntity, GetField
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetRights
-description: NSQuoteLine.SetRights(String rights)
+uid: crmscript_ref_NSQuoteLine_SetRights
+title: SetRights(String rights)
 intellisense: NSQuoteLine.SetRights
 keywords: NSQuoteLine, GetRights
 so.topic: reference

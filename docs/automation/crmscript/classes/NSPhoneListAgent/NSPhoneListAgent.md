@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPhoneListAgent
-description: NSPhoneListAgent
+uid: crmscript_ref_NSPhoneListAgent
+title: NSPhoneListAgent
 intellisense: Void.NSPhoneListAgent
 keywords: NSPhoneListAgent
 so.topic: reference

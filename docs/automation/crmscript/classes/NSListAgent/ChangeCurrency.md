@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_ChangeCurrency
-description: Float ChangeCurrency(Float amount, String fromCurrency, String toCurrency)
+uid: crmscript_ref_NSListAgent_ChangeCurrency
+title: Float ChangeCurrency(Float amount, String fromCurrency, String toCurrency)
 intellisense: NSListAgent.ChangeCurrency
-keywords: NSListAgent,ChangeCurrency
+keywords: NSListAgent, ChangeCurrency
 so.topic: reference
 ---
 

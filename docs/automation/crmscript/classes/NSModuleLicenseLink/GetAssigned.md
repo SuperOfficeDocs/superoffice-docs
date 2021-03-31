@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSModuleLicenseLink_GetAssigned
-description: Bool NSModuleLicenseLink.GetAssigned()
+uid: crmscript_ref_NSModuleLicenseLink_GetAssigned
+title: Bool GetAssigned()
 intellisense: NSModuleLicenseLink.GetAssigned
 keywords: NSModuleLicenseLink, GetAssigned
 so.topic: reference

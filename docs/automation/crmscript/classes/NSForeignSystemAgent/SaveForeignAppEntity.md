@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSForeignSystemAgent_SaveForeignAppEntity
-description: NSForeignAppEntity SaveForeignAppEntity(NSForeignAppEntity foreignAppEntity);
+uid: crmscript_ref_NSForeignSystemAgent_SaveForeignAppEntity
+title: NSForeignAppEntity SaveForeignAppEntity(NSForeignAppEntity foreignAppEntity);
 intellisense: NSForeignSystemAgent.SaveForeignAppEntity
-keywords: NSForeignSystemAgent,SaveForeignAppEntity
+keywords: NSForeignSystemAgent, SaveForeignAppEntity
 so.topic: reference
 ---
 	  

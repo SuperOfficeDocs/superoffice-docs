@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSContactAgent_ValidateContactEntity
-description: StringDictionary ValidateContactEntity(ContactEntity contactEntity)
+uid: crmscript_ref_NSContactAgent_ValidateContactEntity
+title: StringDictionary ValidateContactEntity(ContactEntity contactEntity)
 intellisense: NSContactAgent.ValidateContactEntity
-keywords: NSContactAgent,ValidateContactEntity
+keywords: NSContactAgent, ValidateContactEntity
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSControlInfo_SetType
-description: NSControlInfo.SetType(String type)
+uid: crmscript_ref_NSControlInfo_SetType
+title: SetType(String type)
 intellisense: NSControlInfo.SetType
 keywords: NSControlInfo, GetType
 so.topic: reference

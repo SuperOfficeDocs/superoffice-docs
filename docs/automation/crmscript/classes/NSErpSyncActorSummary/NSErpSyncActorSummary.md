@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorSummary
-description: NSErpSyncActorSummary
+uid: crmscript_ref_NSErpSyncActorSummary
+title: NSErpSyncActorSummary
 intellisense: Void.NSErpSyncActorSummary
 keywords: NSErpSyncActorSummary
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSArchiveColumnInfo_GetCanOrderBy
-description: Bool NSArchiveColumnInfo.GetCanOrderBy()
+uid: crmscript_ref_NSArchiveColumnInfo_GetCanOrderBy
+title: Bool GetCanOrderBy()
 intellisense: NSArchiveColumnInfo.GetCanOrderBy
 keywords: NSArchiveColumnInfo, GetCanOrderBy
 so.topic: reference

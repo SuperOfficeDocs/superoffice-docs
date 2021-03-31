@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_DeleteFolder
-description: Void DeleteFolder(EMailConnectionInfo connectionInfo)
+uid: crmscript_ref_NSEMailAgent_DeleteFolder
+title: Void DeleteFolder(EMailConnectionInfo connectionInfo)
 intellisense: NSEMailAgent.DeleteFolder
-keywords: NSEMailAgent,DeleteFolder
+keywords: NSEMailAgent, DeleteFolder
 so.topic: reference
 ---
 

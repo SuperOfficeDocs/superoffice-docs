@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTicketPriorityEntity_SetTicketClosed
-description: NSTicketPriorityEntity.SetTicketClosed(TicketPriorityEscalateEvent ticketClosed)
+uid: crmscript_ref_NSTicketPriorityEntity_SetTicketClosed
+title: SetTicketClosed(TicketPriorityEscalateEvent ticketClosed)
 intellisense: NSTicketPriorityEntity.SetTicketClosed
 keywords: NSTicketPriorityEntity, GetTicketClosed
 so.topic: reference

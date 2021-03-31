@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCountry_GetInterAreaPrefix
-description: String NSCountry.GetInterAreaPrefix()
+uid: crmscript_ref_NSCountry_GetInterAreaPrefix
+title: String GetInterAreaPrefix()
 intellisense: NSCountry.GetInterAreaPrefix
 keywords: NSCountry, GetInterAreaPrefix
 so.topic: reference

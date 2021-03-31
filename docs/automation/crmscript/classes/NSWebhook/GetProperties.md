@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetProperties
-description: StringObjectDictionary NSWebhook.GetProperties()
+uid: crmscript_ref_NSWebhook_GetProperties
+title: StringObjectDictionary GetProperties()
 intellisense: NSWebhook.GetProperties
 keywords: NSWebhook, GetProperties
 so.topic: reference

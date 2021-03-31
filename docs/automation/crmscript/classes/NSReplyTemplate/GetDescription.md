@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSReplyTemplate_GetDescription
-description: String NSReplyTemplate.GetDescription()
+uid: crmscript_ref_NSReplyTemplate_GetDescription
+title: String GetDescription()
 intellisense: NSReplyTemplate.GetDescription
 keywords: NSReplyTemplate, GetDescription
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerCenterConfig_SetConfig
-description: NSCustomerCenterConfig.SetConfig(String config)
+uid: crmscript_ref_NSCustomerCenterConfig_SetConfig
+title: SetConfig(String config)
 intellisense: NSCustomerCenterConfig.SetConfig
 keywords: NSCustomerCenterConfig, GetConfig
 so.topic: reference

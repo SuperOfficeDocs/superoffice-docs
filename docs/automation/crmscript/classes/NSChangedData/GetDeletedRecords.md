@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChangedData_GetDeletedRecords
-description: ChangedDataItemArray NSChangedData.GetDeletedRecords()
+uid: crmscript_ref_NSChangedData_GetDeletedRecords
+title: ChangedDataItemArray GetDeletedRecords()
 intellisense: NSChangedData.GetDeletedRecords
 keywords: NSChangedData, GetDeletedRecords
 so.topic: reference

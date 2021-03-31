@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSEMailAgent_SendAndSaveEmailToTmpDocument
-description: String SendAndSaveEmailToTmpDocument(EMailEntity email, Bool stripAttachments)
+uid: crmscript_ref_NSEMailAgent_SendAndSaveEmailToTmpDocument
+title: String SendAndSaveEmailToTmpDocument(EMailEntity email, Bool stripAttachments)
 intellisense: NSEMailAgent.SendAndSaveEmailToTmpDocument
-keywords: NSEMailAgent,SendAndSaveEmailToTmpDocument
+keywords: NSEMailAgent, SendAndSaveEmailToTmpDocument
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentEntity_GetContact
-description: Contact NSAppointmentEntity.GetContact()
+uid: crmscript_ref_NSAppointmentEntity_GetContact
+title: Contact GetContact()
 intellisense: NSAppointmentEntity.GetContact
 keywords: NSAppointmentEntity, GetContact
 so.topic: reference

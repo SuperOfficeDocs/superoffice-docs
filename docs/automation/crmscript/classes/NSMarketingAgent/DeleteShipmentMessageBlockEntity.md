@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSMarketingAgent_DeleteShipmentMessageBlockEntity
-description: DeleteShipmentMessageBlockEntity(Integer shipmentMessageBlockEntity);
+uid: crmscript_ref_NSMarketingAgent_DeleteShipmentMessageBlockEntity
+title: DeleteShipmentMessageBlockEntity(Integer shipmentMessageBlockEntity);
 intellisense: NSMarketingAgent.DeleteShipmentMessageBlockEntity
-keywords: NSMarketingAgent,DeleteShipmentMessageBlockEntity
+keywords: NSMarketingAgent, DeleteShipmentMessageBlockEntity
 so.topic: reference
 ---
 

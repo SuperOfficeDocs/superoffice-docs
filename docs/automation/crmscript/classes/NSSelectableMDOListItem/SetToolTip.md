@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectableMDOListItem_SetToolTip
-description: NSSelectableMDOListItem.SetToolTip(String toolTip)
+uid: crmscript_ref_NSSelectableMDOListItem_SetToolTip
+title: SetToolTip(String toolTip)
 intellisense: NSSelectableMDOListItem.SetToolTip
 keywords: NSSelectableMDOListItem, GetToolTip
 so.topic: reference

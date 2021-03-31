@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetLastMembershipChangeByAssociate
-description: Associate NSSelectionEntity.GetLastMembershipChangeByAssociate()
+uid: crmscript_ref_NSSelectionEntity_GetLastMembershipChangeByAssociate
+title: Associate GetLastMembershipChangeByAssociate()
 intellisense: NSSelectionEntity.GetLastMembershipChangeByAssociate
 keywords: NSSelectionEntity, GetLastMembershipChangeByAssociate
 so.topic: reference

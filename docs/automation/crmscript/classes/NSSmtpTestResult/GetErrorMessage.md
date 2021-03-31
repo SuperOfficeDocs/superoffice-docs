@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSmtpTestResult_GetErrorMessage
-description: String NSSmtpTestResult.GetErrorMessage()
+uid: crmscript_ref_NSSmtpTestResult_GetErrorMessage
+title: String GetErrorMessage()
 intellisense: NSSmtpTestResult.GetErrorMessage
 keywords: NSSmtpTestResult, GetErrorMessage
 so.topic: reference

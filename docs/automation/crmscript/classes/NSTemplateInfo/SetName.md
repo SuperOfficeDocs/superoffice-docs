@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSTemplateInfo_SetName
-description: NSTemplateInfo.SetName(String name)
+uid: crmscript_ref_NSTemplateInfo_SetName
+title: SetName(String name)
 intellisense: NSTemplateInfo.SetName
 keywords: NSTemplateInfo, GetName
 so.topic: reference

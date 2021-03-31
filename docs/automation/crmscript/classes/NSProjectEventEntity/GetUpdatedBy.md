@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEventEntity_GetUpdatedBy
-description: Associate NSProjectEventEntity.GetUpdatedBy()
+uid: crmscript_ref_NSProjectEventEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
 intellisense: NSProjectEventEntity.GetUpdatedBy
 keywords: NSProjectEventEntity, GetUpdatedBy
 so.topic: reference

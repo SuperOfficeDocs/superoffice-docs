@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GetConsentPurposeList
-description: NSConsentPurpose[] GetConsentPurposeList(Integer[]  consentPurposeIds);
+uid: crmscript_ref_NSListAgent_GetConsentPurposeList
+title: NSConsentPurpose[] GetConsentPurposeList(Integer[]  consentPurposeIds);
 intellisense: NSListAgent.GetConsentPurposeList
-keywords: NSListAgent,GetConsentPurposeList
+keywords: NSListAgent, GetConsentPurposeList
 so.topic: reference
 ---
 

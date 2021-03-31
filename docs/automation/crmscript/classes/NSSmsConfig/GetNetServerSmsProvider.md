@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSmsConfig_GetNetServerSmsProvider
-description: String NSSmsConfig.GetNetServerSmsProvider()
+uid: crmscript_ref_NSSmsConfig_GetNetServerSmsProvider
+title: String GetNetServerSmsProvider()
 intellisense: NSSmsConfig.GetNetServerSmsProvider
 keywords: NSSmsConfig, GetNetServerSmsProvider
 so.topic: reference

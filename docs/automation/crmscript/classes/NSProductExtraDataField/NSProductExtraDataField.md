@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProductExtraDataField
-description: NSProductExtraDataField
+uid: crmscript_ref_NSProductExtraDataField
+title: NSProductExtraDataField
 intellisense: Void.NSProductExtraDataField
 keywords: NSProductExtraDataField
 so.topic: reference

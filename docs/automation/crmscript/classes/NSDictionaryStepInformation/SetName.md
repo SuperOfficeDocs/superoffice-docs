@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDictionaryStepInformation_SetName
-description: NSDictionaryStepInformation.SetName(String name)
+uid: crmscript_ref_NSDictionaryStepInformation_SetName
+title: SetName(String name)
 intellisense: NSDictionaryStepInformation.SetName
 keywords: NSDictionaryStepInformation, GetName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder_SetDelimiter
-description: NSEMailFolder.SetDelimiter(String delimiter)
+uid: crmscript_ref_NSEMailFolder_SetDelimiter
+title: SetDelimiter(String delimiter)
 intellisense: NSEMailFolder.SetDelimiter
 keywords: NSEMailFolder, GetDelimiter
 so.topic: reference

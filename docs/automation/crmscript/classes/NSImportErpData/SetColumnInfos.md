@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSImportErpData_SetColumnInfos
-description: NSImportErpData.SetColumnInfos(ImportColumnInfoArray columnInfos)
+uid: crmscript_ref_NSImportErpData_SetColumnInfos
+title: SetColumnInfos(ImportColumnInfoArray columnInfos)
 intellisense: NSImportErpData.SetColumnInfos
 keywords: NSImportErpData, GetColumnInfos
 so.topic: reference

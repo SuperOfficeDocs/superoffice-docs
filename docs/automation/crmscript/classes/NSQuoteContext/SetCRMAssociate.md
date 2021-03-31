@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteContext_SetCRMAssociate
-description: NSQuoteContext.SetCRMAssociate(Associate cRMAssociate)
+uid: crmscript_ref_NSQuoteContext_SetCRMAssociate
+title: SetCRMAssociate(Associate cRMAssociate)
 intellisense: NSQuoteContext.SetCRMAssociate
 keywords: NSQuoteContext, GetCRMAssociate
 so.topic: reference

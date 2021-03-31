@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSErpSyncActorTypeMapping_SetErpConnectionId
-description: NSErpSyncActorTypeMapping.SetErpConnectionId(Integer erpConnectionId)
+uid: crmscript_ref_NSErpSyncActorTypeMapping_SetErpConnectionId
+title: SetErpConnectionId(Integer erpConnectionId)
 intellisense: NSErpSyncActorTypeMapping.SetErpConnectionId
 keywords: NSErpSyncActorTypeMapping, GetErpConnectionId
 so.topic: reference

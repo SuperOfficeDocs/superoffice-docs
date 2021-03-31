@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSSelectionAgent_AddSelectionMembers
-description: Integer AddSelectionMembers(Integer selectionId, IntegerArray ids)
+uid: crmscript_ref_NSSelectionAgent_AddSelectionMembers
+title: Integer AddSelectionMembers(Integer selectionId, IntegerArray ids)
 intellisense: NSSelectionAgent.AddSelectionMembers
-keywords: NSSelectionAgent,AddSelectionMembers
+keywords: NSSelectionAgent, AddSelectionMembers
 so.topic: reference
 ---
 

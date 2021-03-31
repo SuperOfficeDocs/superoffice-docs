@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariables
-description: String SubstituteTemplateVariables(String source, Integer generatorEncoding, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
+uid: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariables
+title: String SubstituteTemplateVariables(String source, Integer generatorEncoding, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
 intellisense: NSDocumentAgent.SubstituteTemplateVariables
-keywords: NSDocumentAgent,SubstituteTemplateVariables
+keywords: NSDocumentAgent, SubstituteTemplateVariables
 so.topic: reference
 ---
 

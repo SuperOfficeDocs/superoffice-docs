@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentTemplateEntity_SetRank
-description: NSDocumentTemplateEntity.SetRank(Integer rank)
+uid: crmscript_ref_NSDocumentTemplateEntity_SetRank
+title: SetRank(Integer rank)
 intellisense: NSDocumentTemplateEntity.SetRank
 keywords: NSDocumentTemplateEntity, GetRank
 so.topic: reference

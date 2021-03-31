@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSScript_GetName
-description: String NSScript.GetName()
+uid: crmscript_ref_NSScript_GetName
+title: String GetName()
 intellisense: NSScript.GetName
 keywords: NSScript, GetName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMailboxEntity_GetPassword
-description: String NSMailboxEntity.GetPassword()
+uid: crmscript_ref_NSMailboxEntity_GetPassword
+title: String GetPassword()
 intellisense: NSMailboxEntity.GetPassword
 keywords: NSMailboxEntity, GetPassword
 so.topic: reference

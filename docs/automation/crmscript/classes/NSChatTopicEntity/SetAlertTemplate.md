@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSChatTopicEntity_SetAlertTemplate
-description: NSChatTopicEntity.SetAlertTemplate(ReplyTemplate alertTemplate)
+uid: crmscript_ref_NSChatTopicEntity_SetAlertTemplate
+title: SetAlertTemplate(ReplyTemplate alertTemplate)
 intellisense: NSChatTopicEntity.SetAlertTemplate
 keywords: NSChatTopicEntity, GetAlertTemplate
 so.topic: reference

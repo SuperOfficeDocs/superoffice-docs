@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetVATInfo
-description: NSQuoteLine.SetVATInfo(String vATInfo)
+uid: crmscript_ref_NSQuoteLine_SetVATInfo
+title: SetVATInfo(String vATInfo)
 intellisense: NSQuoteLine.SetVATInfo
 keywords: NSQuoteLine, GetVATInfo
 so.topic: reference

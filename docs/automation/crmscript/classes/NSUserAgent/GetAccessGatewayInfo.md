@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_GetAccessGatewayInfo
-description: AccessGatewayInfo GetAccessGatewayInfo()
+uid: crmscript_ref_NSUserAgent_GetAccessGatewayInfo
+title: AccessGatewayInfo GetAccessGatewayInfo()
 intellisense: NSUserAgent.GetAccessGatewayInfo
-keywords: NSUserAgent,GetAccessGatewayInfo
+keywords: NSUserAgent, GetAccessGatewayInfo
 so.topic: reference
 ---
 

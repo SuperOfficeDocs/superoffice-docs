@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSWebhook_GetState
-description: WebhookState NSWebhook.GetState()
+uid: crmscript_ref_NSWebhook_GetState
+title: WebhookState GetState()
 intellisense: NSWebhook.GetState
 keywords: NSWebhook, GetState
 so.topic: reference

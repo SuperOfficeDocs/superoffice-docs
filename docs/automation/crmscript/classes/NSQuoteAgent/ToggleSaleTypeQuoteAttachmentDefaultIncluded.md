@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_ToggleSaleTypeQuoteAttachmentDefaultIncluded
-description: Bool ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer saleTypeQuoteAttachmentId)
+uid: crmscript_ref_NSQuoteAgent_ToggleSaleTypeQuoteAttachmentDefaultIncluded
+title: Bool ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer saleTypeQuoteAttachmentId)
 intellisense: NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded
-keywords: NSQuoteAgent,ToggleSaleTypeQuoteAttachmentDefaultIncluded
+keywords: NSQuoteAgent, ToggleSaleTypeQuoteAttachmentDefaultIncluded
 so.topic: reference
 ---
 

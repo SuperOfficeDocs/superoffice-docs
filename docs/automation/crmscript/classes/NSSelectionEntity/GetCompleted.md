@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSelectionEntity_GetCompleted
-description: Bool NSSelectionEntity.GetCompleted()
+uid: crmscript_ref_NSSelectionEntity_GetCompleted
+title: Bool GetCompleted()
 intellisense: NSSelectionEntity.GetCompleted
 keywords: NSSelectionEntity, GetCompleted
 so.topic: reference

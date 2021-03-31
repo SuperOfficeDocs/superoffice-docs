@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetConnectionsAndDisplayFields
-description: ErpConnectionDataArray GetConnectionsAndDisplayFields(Integer crmActorType, Integer entityId)
+uid: crmscript_ref_NSErpSyncAgent_GetConnectionsAndDisplayFields
+title: ErpConnectionDataArray GetConnectionsAndDisplayFields(Integer crmActorType, Integer entityId)
 intellisense: NSErpSyncAgent.GetConnectionsAndDisplayFields
-keywords: NSErpSyncAgent,GetConnectionsAndDisplayFields
+keywords: NSErpSyncAgent, GetConnectionsAndDisplayFields
 so.topic: reference
 ---
 

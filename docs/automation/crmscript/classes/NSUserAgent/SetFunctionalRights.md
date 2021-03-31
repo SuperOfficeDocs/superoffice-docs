@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_SetFunctionalRights
-description: Void SetFunctionalRights(Integer roleId, IntegerArray functionalRightIds)
+uid: crmscript_ref_NSUserAgent_SetFunctionalRights
+title: Void SetFunctionalRights(Integer roleId, IntegerArray functionalRightIds)
 intellisense: NSUserAgent.SetFunctionalRights
-keywords: NSUserAgent,SetFunctionalRights
+keywords: NSUserAgent, SetFunctionalRights
 so.topic: reference
 ---
 

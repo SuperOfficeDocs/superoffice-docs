@@ -1,12 +1,12 @@
 ﻿---
-title: crmscript_ref_NSProductCategory_GetValue
-description: String NSProductCategory.GetValue()
+uid: crmscript_ref_NSProductCategory_GetValue
+title: String GetValue()
 intellisense: NSProductCategory.GetValue
 keywords: NSProductCategory, GetValue
 so.topic: reference
 ---
 
-Get the name of the item.
+Get the name of the ProductCategory.
 
-**Returns:** String name
+**Returns:** String ProductCategory name.
 

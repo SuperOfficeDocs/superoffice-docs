@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactRelationEntity_SetReversed
-description: NSContactRelationEntity.SetReversed(Integer reversed)
+uid: crmscript_ref_NSContactRelationEntity_SetReversed
+title: SetReversed(Integer reversed)
 intellisense: NSContactRelationEntity.SetReversed
 keywords: NSContactRelationEntity, GetReversed
 so.topic: reference

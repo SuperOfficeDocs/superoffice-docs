@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSScript_GetRegistered
-description: DateTime NSScript.GetRegistered()
+uid: crmscript_ref_NSScript_GetRegistered
+title: DateTime GetRegistered()
 intellisense: NSScript.GetRegistered
 keywords: NSScript, GetRegistered
 so.topic: reference

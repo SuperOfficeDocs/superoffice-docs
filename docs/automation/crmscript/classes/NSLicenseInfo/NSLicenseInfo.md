@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSLicenseInfo
-description: NSLicenseInfo
+uid: crmscript_ref_NSLicenseInfo
+title: NSLicenseInfo
 intellisense: Void.NSLicenseInfo
 keywords: NSLicenseInfo
 so.topic: reference

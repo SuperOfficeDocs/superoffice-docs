@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailFolder
-description: NSEMailFolder
+uid: crmscript_ref_NSEMailFolder
+title: NSEMailFolder
 intellisense: Void.NSEMailFolder
 keywords: NSEMailFolder
 so.topic: reference

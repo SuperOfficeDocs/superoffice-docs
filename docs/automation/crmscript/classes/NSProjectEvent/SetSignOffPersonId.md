@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSProjectEvent_SetSignOffPersonId
-description: NSProjectEvent.SetSignOffPersonId(Integer signOffPersonId)
+uid: crmscript_ref_NSProjectEvent_SetSignOffPersonId
+title: SetSignOffPersonId(Integer signOffPersonId)
 intellisense: NSProjectEvent.SetSignOffPersonId
 keywords: NSProjectEvent, GetSignOffPersonId
 so.topic: reference

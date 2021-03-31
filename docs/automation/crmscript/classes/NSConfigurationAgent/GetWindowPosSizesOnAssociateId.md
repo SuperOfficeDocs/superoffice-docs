@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSConfigurationAgent_GetWindowPosSizesOnAssociateId
-description: WindowPosSizeArray GetWindowPosSizesOnAssociateId(Integer associateId)
+uid: crmscript_ref_NSConfigurationAgent_GetWindowPosSizesOnAssociateId
+title: WindowPosSizeArray GetWindowPosSizesOnAssociateId(Integer associateId)
 intellisense: NSConfigurationAgent.GetWindowPosSizesOnAssociateId
-keywords: NSConfigurationAgent,GetWindowPosSizesOnAssociateId
+keywords: NSConfigurationAgent, GetWindowPosSizesOnAssociateId
 so.topic: reference
 ---
 

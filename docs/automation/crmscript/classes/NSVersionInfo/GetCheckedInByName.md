@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSVersionInfo_GetCheckedInByName
-description: String NSVersionInfo.GetCheckedInByName()
+uid: crmscript_ref_NSVersionInfo_GetCheckedInByName
+title: String GetCheckedInByName()
 intellisense: NSVersionInfo.GetCheckedInByName
 keywords: NSVersionInfo, GetCheckedInByName
 so.topic: reference

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSCustomerCenterConfig_GetCustConfigId
-description: Integer NSCustomerCenterConfig.GetCustConfigId()
+uid: crmscript_ref_NSCustomerCenterConfig_GetCustConfigId
+title: Integer GetCustConfigId()
 intellisense: NSCustomerCenterConfig.GetCustConfigId
 keywords: NSCustomerCenterConfig, GetCustConfigId
 so.topic: reference

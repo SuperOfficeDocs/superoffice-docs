@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSAppointmentSyncData_SetContactFullName
-description: NSAppointmentSyncData.SetContactFullName(String contactFullName)
+uid: crmscript_ref_NSAppointmentSyncData_SetContactFullName
+title: SetContactFullName(String contactFullName)
 intellisense: NSAppointmentSyncData.SetContactFullName
 keywords: NSAppointmentSyncData, GetContactFullName
 so.topic: reference

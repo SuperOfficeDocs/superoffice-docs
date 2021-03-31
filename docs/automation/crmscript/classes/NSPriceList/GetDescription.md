@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSPriceList_GetDescription
-description: String NSPriceList.GetDescription()
+uid: crmscript_ref_NSPriceList_GetDescription
+title: String GetDescription()
 intellisense: NSPriceList.GetDescription
 keywords: NSPriceList, GetDescription
 so.topic: reference

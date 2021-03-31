@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSaleTypeEntity_GetRank
-description: Integer NSSaleTypeEntity.GetRank()
+uid: crmscript_ref_NSSaleTypeEntity_GetRank
+title: Integer GetRank()
 intellisense: NSSaleTypeEntity.GetRank
 keywords: NSSaleTypeEntity, GetRank
 so.topic: reference

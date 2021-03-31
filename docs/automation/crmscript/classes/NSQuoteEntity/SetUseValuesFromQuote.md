@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteEntity_SetUseValuesFromQuote
-description: NSQuoteEntity.SetUseValuesFromQuote(Integer useValuesFromQuote)
+uid: crmscript_ref_NSQuoteEntity_SetUseValuesFromQuote
+title: SetUseValuesFromQuote(Integer useValuesFromQuote)
 intellisense: NSQuoteEntity.SetUseValuesFromQuote
 keywords: NSQuoteEntity, GetUseValuesFromQuote
 so.topic: reference

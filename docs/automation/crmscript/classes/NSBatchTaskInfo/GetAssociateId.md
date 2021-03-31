@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSBatchTaskInfo_GetAssociateId
-description: Integer NSBatchTaskInfo.GetAssociateId()
+uid: crmscript_ref_NSBatchTaskInfo_GetAssociateId
+title: Integer GetAssociateId()
 intellisense: NSBatchTaskInfo.GetAssociateId
 keywords: NSBatchTaskInfo, GetAssociateId
 so.topic: reference

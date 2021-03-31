@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSDashboardAgent_CreateDefaultDashboard
-description: NSDashboard CreateDefaultDashboard()
+uid: crmscript_ref_NSDashboardAgent_CreateDefaultDashboard
+title: NSDashboard CreateDefaultDashboard()
 intellisense: NSDashboardAgent.CreateDefaultDashboard
-keywords: NSDashboardAgent,CreateDefaultDashboard
+keywords: NSDashboardAgent, CreateDefaultDashboard
 so.topic: reference
 ---
 	  

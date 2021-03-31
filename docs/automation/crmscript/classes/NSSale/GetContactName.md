@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSSale_GetContactName
-description: String NSSale.GetContactName()
+uid: crmscript_ref_NSSale_GetContactName
+title: String GetContactName()
 intellisense: NSSale.GetContactName
 keywords: NSSale, GetContactName
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_DeleteTicketPriorityEntity
-description: DeleteTicketPriorityEntity(Integer ticketPriorityEntity);
+uid: crmscript_ref_NSListAgent_DeleteTicketPriorityEntity
+title: DeleteTicketPriorityEntity(Integer ticketPriorityEntity);
 intellisense: NSListAgent.DeleteTicketPriorityEntity
-keywords: NSListAgent,DeleteTicketPriorityEntity
+keywords: NSListAgent, DeleteTicketPriorityEntity
 so.topic: reference
 ---
 

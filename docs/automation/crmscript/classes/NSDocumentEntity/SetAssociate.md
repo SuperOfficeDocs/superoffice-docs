@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSDocumentEntity_SetAssociate
-description: NSDocumentEntity.SetAssociate(Associate associate)
+uid: crmscript_ref_NSDocumentEntity_SetAssociate
+title: SetAssociate(Associate associate)
 intellisense: NSDocumentEntity.SetAssociate
 keywords: NSDocumentEntity, GetAssociate
 so.topic: reference

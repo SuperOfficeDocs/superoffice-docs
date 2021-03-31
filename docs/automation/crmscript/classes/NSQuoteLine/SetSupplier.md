@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteLine_SetSupplier
-description: NSQuoteLine.SetSupplier(String supplier)
+uid: crmscript_ref_NSQuoteLine_SetSupplier
+title: SetSupplier(String supplier)
 intellisense: NSQuoteLine.SetSupplier
 keywords: NSQuoteLine, GetSupplier
 so.topic: reference

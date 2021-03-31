@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSUserAgent_AddOwnerContact
-description: Void AddOwnerContact(Integer contactId)
+uid: crmscript_ref_NSUserAgent_AddOwnerContact
+title: Void AddOwnerContact(Integer contactId)
 intellisense: NSUserAgent.AddOwnerContact
-keywords: NSUserAgent,AddOwnerContact
+keywords: NSUserAgent, AddOwnerContact
 so.topic: reference
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSContactActivity_SetOrgNr
-description: NSContactActivity.SetOrgNr(String orgNr)
+uid: crmscript_ref_NSContactActivity_SetOrgNr
+title: SetOrgNr(String orgNr)
 intellisense: NSContactActivity.SetOrgNr
 keywords: NSContactActivity, GetOrgNr
 so.topic: reference

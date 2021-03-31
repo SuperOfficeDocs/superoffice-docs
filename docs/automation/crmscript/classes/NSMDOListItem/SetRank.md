@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSMDOListItem_SetRank
-description: NSMDOListItem.SetRank(Integer rank)
+uid: crmscript_ref_NSMDOListItem_SetRank
+title: SetRank(Integer rank)
 intellisense: NSMDOListItem.SetRank
 keywords: NSMDOListItem, GetRank
 so.topic: reference

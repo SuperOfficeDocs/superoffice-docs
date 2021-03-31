@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSErpSyncAgent_GetActorTypeMapping
-description: ErpSyncActorTypeMapping GetActorTypeMapping(Integer erpConnectionId, Integer actorType)
+uid: crmscript_ref_NSErpSyncAgent_GetActorTypeMapping
+title: ErpSyncActorTypeMapping GetActorTypeMapping(Integer erpConnectionId, Integer actorType)
 intellisense: NSErpSyncAgent.GetActorTypeMapping
-keywords: NSErpSyncAgent,GetActorTypeMapping
+keywords: NSErpSyncAgent, GetActorTypeMapping
 so.topic: reference
 ---
 

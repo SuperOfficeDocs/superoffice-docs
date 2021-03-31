@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSListAgent_GlobalChangeTicketStatus
-description: Void GlobalChangeTicketStatus(Integer fromTicketStatusId, Integer toTicketStatusId)
+uid: crmscript_ref_NSListAgent_GlobalChangeTicketStatus
+title: Void GlobalChangeTicketStatus(Integer fromTicketStatusId, Integer toTicketStatusId)
 intellisense: NSListAgent.GlobalChangeTicketStatus
-keywords: NSListAgent,GlobalChangeTicketStatus
+keywords: NSListAgent, GlobalChangeTicketStatus
 so.topic: reference
 ---
 

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSArchiveAgent_GetArchiveListWithContext
-description: ArchiveListItemArray GetArchiveListWithContext(String guiName, String providerName, ArchiveOrderByInfoArray sortOrder, ArchiveRestrictionInfoArray restriction, StringArray entities, Integer page, Integer pageSize, String context)
+uid: crmscript_ref_NSArchiveAgent_GetArchiveListWithContext
+title: ArchiveListItemArray GetArchiveListWithContext(String guiName, String providerName, ArchiveOrderByInfoArray sortOrder, ArchiveRestrictionInfoArray restriction, StringArray entities, Integer page, Integer pageSize, String context)
 intellisense: NSArchiveAgent.GetArchiveListWithContext
-keywords: NSArchiveAgent,GetArchiveListWithContext
+keywords: NSArchiveAgent, GetArchiveListWithContext
 so.topic: reference
 ---
 

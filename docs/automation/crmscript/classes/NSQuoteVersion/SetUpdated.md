@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSQuoteVersion_SetUpdated
-description: NSQuoteVersion.SetUpdated(DateTime updated)
+uid: crmscript_ref_NSQuoteVersion_SetUpdated
+title: SetUpdated(DateTime updated)
 intellisense: NSQuoteVersion.SetUpdated
 keywords: NSQuoteVersion, GetUpdated
 so.topic: reference

@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSQuoteAgent_SaveConnectionConfigFields
-description: StringDictionary SaveConnectionConfigFields(Integer quoteConnectionId, StringDictionary connectionConfigFields)
+uid: crmscript_ref_NSQuoteAgent_SaveConnectionConfigFields
+title: StringDictionary SaveConnectionConfigFields(Integer quoteConnectionId, StringDictionary connectionConfigFields)
 intellisense: NSQuoteAgent.SaveConnectionConfigFields
-keywords: NSQuoteAgent,SaveConnectionConfigFields
+keywords: NSQuoteAgent, SaveConnectionConfigFields
 so.topic: reference
 ---
 

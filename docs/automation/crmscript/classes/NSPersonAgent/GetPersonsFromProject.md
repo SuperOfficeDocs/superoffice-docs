@@ -1,8 +1,8 @@
 ﻿---
-title: crmscript_ref_NSPersonAgent_GetPersonsFromProject
-description: PersonArray GetPersonsFromProject(Integer projectId)
+uid: crmscript_ref_NSPersonAgent_GetPersonsFromProject
+title: PersonArray GetPersonsFromProject(Integer projectId)
 intellisense: NSPersonAgent.GetPersonsFromProject
-keywords: NSPersonAgent,GetPersonsFromProject
+keywords: NSPersonAgent, GetPersonsFromProject
 so.topic: reference
 ---
 

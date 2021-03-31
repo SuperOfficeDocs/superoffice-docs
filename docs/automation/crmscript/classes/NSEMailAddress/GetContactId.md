@@ -1,6 +1,6 @@
 ﻿---
-title: crmscript_ref_NSEMailAddress_GetContactId
-description: Integer NSEMailAddress.GetContactId()
+uid: crmscript_ref_NSEMailAddress_GetContactId
+title: Integer GetContactId()
 intellisense: NSEMailAddress.GetContactId
 keywords: NSEMailAddress, GetContactId
 so.topic: reference
