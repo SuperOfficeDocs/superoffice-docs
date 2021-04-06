@@ -43,6 +43,38 @@ items:
     items:
     - name: Bulk Update
       href: ../bulk-operations/bulk-update/index.md
+      items: # These items are navigation headers
+      - name: How to use bulk update
+        href: ../bulk-operations/bulk-update/using-bulk-update.md
+      - name: Field value info
+        href: ../bulk-operations/bulk-update/field-value-info.md
+      - name: Operations and values
+        href: ../bulk-operations/bulk-update/operations-and-values.md
+      - name: Entities and field types
+        href: ../bulk-operations/bulk-update/entities-field-types.md
+      - name: Examples
+        href: ../bulk-operations/bulk-update/ns-core-examples.md
+      - name: Reference
+        href: ../bulk-operations/bulk-update/reference/appointment-table.md
+        items:
+        - name: Appointment table
+          href: ../bulk-operations/bulk-update/reference/appointment-table.md
+        - name: Contact table
+          href: ../bulk-operations/bulk-update/reference/contact-table.md
+        - name: Document table
+          href: ../bulk-operations/bulk-update/reference/document-table.md
+        - name: Person table
+          href: ../bulk-operations/bulk-update/reference/person-table.md
+        - name: Project table
+          href: ../bulk-operations/bulk-update/reference/project-table.md
+        - name: Sale table
+          href: ../bulk-operations/bulk-update/reference/sale-table.md
+        - name: Selection table
+          href: ../bulk-operations/bulk-update/reference/selection-table.md
+        - name: Extra fields
+          href: ../bulk-operations/bulk-update/reference/extra-fields.md
+        - name: User-defined fields
+          href: ../bulk-operations/bulk-update/reference/user-defined-fields.md
     - name: Mass Operations
       href: ../bulk-operations/mass-operations/index.md
       items:
@@ -60,7 +92,7 @@ items:
     items:
     - name: Find Selection API
       href: ../search/find-selection/new-selection/new-selection.md
-    - name: Archive Providers
+    - name: Archive provider fundamentals
       href: ../archive-providers/index.md
       items:
       - name: Encoded values
@@ -73,7 +105,7 @@ items:
         href: ../archive-providers/aggregate-groupby.md
       - name: Nested Aggregate Functions
         href: ../archive-providers/nested-aggregate-functions.md
-    - name: Archive Provider Architecture
+    - name: Archive provider architecture
       href: ../archive-providers/architecture.md
       items:
       - name: Interfaces
