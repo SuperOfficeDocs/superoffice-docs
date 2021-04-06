@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToWeekEnd
-description: DateTime.moveToWeekEnd()
+uid: crmscript_ref_DateTime_moveToWeekEnd
+title: DateTime.moveToWeekEnd()
 intellisense: DateTime.moveToWeekEnd
 sortOrder: 224
 keywords: moveToWeekEnd()

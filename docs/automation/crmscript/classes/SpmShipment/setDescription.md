@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_setDescription_String_description
-description: SpmShipment.setDescription(String description)
+uid: crmscript_ref_SpmShipment_setDescription_String_description
+title: SpmShipment.setDescription(String description)
 intellisense: SpmShipment.setDescription
 keywords: setDescription(String)
 so.topic: reference

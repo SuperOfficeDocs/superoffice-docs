@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Notify_sendNewTicketMessage_Integer_ticketId_Bool_onlyToHotLlist
-description: Notify.sendNewTicketMessage(Integer ticketId, Bool onlyToHotLlist)
+uid: crmscript_ref_Notify_sendNewTicketMessage_Integer_ticketId_Bool_onlyToHotLlist
+title: Notify.sendNewTicketMessage(Integer ticketId, Bool onlyToHotLlist)
 intellisense: Notify.sendNewTicketMessage
 keywords: sendNewTicketMessage(Integer,Bool)
 so.topic: reference

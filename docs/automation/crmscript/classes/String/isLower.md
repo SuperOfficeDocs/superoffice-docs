@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isLower
-description: String.isLower()
+uid: crmscript_ref_String_isLower
+title: String.isLower()
 intellisense: String.isLower
 keywords: isLower()
 so.topic: reference

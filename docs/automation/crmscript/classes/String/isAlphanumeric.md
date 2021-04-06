@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isAlphanumeric
-description: String.isAlphanumeric()
+uid: crmscript_ref_String_isAlphanumeric
+title: String.isAlphanumeric()
 intellisense: String.isAlphanumeric
 keywords: isAlphanumeric()
 so.topic: reference

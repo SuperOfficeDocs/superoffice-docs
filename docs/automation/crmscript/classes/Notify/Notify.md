@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Notify
-description: Notify
+uid: crmscript_ref_Notify
+title: Notify
 intellisense: Void.Notify
 so.topic: reference
 ---

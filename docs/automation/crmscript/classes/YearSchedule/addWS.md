@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_YearSchedule_addWS_WeekSchedule_ws_Integer_mStop_Integer_dStop
-description: YearSchedule.addWS(WeekSchedule ws, Integer mStop, Integer dStop)
+uid: crmscript_ref_YearSchedule_addWS_WeekSchedule_ws_Integer_mStop_Integer_dStop
+title: YearSchedule.addWS(WeekSchedule ws, Integer mStop, Integer dStop)
 intellisense: YearSchedule.addWS
 keywords: addWS(WeekSchedule,Integer,Integer)
 so.topic: reference

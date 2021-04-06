@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company_checkTableRights_String_tableRight
-description: Company.checkTableRights(String tableRight)
+uid: crmscript_ref_Company_checkTableRights_String_tableRight
+title: Company.checkTableRights(String tableRight)
 intellisense: Company.checkTableRights
 sortOrder: 158
 keywords: checkTableRights(String)

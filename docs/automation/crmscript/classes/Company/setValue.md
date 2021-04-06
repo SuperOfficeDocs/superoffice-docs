@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company_setValue_String_column_String_value
-description: Company.setValue(String column, String value)
+uid: crmscript_ref_Company_setValue_String_column_String_value
+title: Company.setValue(String column, String value)
 intellisense: Company.setValue
 sortOrder: 168
 keywords: setValue(String,String)

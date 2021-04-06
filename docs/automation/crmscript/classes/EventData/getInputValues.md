@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_getInputValues
-description: EventData.getInputValues()
+uid: crmscript_ref_EventData_getInputValues
+title: EventData.getInputValues()
 intellisense: EventData.getInputValues
 sortOrder: 289
 keywords: getInputValues()

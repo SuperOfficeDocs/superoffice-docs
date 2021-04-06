@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_setValue_String_colName_String_value
-description: Message.setValue(String colName, String value)
+uid: crmscript_ref_Message_setValue_String_colName_String_value
+title: Message.setValue(String colName, String value)
 intellisense: Message.setValue
 sortOrder: 558
 keywords: setValue(String,String)

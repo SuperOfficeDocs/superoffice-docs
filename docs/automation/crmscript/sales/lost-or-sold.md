@@ -1,6 +1,6 @@
 ---
-title: crmscript_sale-done
-description: Lost or sold sales
+uid: crmscript_sale-done
+title: Lost or sold sales
 author:
 so.date:
 keywords:

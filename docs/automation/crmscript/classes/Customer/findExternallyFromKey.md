@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_findExternallyFromKey_Integer_table_String_key
-description: Customer.findExternallyFromKey(Integer table, String key)
+uid: crmscript_ref_Customer_findExternallyFromKey_Integer_table_String_key
+title: Customer.findExternallyFromKey(Integer table, String key)
 intellisense: Customer.findExternallyFromKey
 sortOrder: 180
 keywords: findExternallyFromKey(Integer,String)

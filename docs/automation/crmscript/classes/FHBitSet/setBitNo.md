@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_FHBitSet_setBitNo_Integer_number_Bool_val
-description: FHBitSet.setBitNo(Integer number, Bool val)
+uid: crmscript_ref_FHBitSet_setBitNo_Integer_number_Bool_val
+title: FHBitSet.setBitNo(Integer number, Bool val)
 intellisense: FHBitSet.setBitNo
 sortOrder: 339
 keywords: setBitNo(Integer,Bool)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_netserver
-description: NetServer agents and carriers
+uid: crmscript_netserver
+title: NetServer agents and carriers
 author:
 so.date:
 keywords:

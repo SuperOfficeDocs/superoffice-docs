@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_urlEncode
-description: String.urlEncode()
+uid: crmscript_ref_String_urlEncode
+title: String.urlEncode()
 intellisense: String.urlEncode
 keywords: urlEncode()
 so.topic: reference

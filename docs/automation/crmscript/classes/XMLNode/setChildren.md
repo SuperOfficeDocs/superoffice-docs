@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_setChildren_XMLNode__children
-description: XMLNode.setChildren(XMLNode[] children)
+uid: crmscript_ref_XMLNode_setChildren_XMLNode__children
+title: XMLNode.setChildren(XMLNode[] children)
 intellisense: XMLNode.setChildren
 keywords: setChildren(XMLNode[])
 so.topic: reference

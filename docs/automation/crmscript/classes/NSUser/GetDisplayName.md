@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSUser_GetDisplayName
-description: NSUser.GetDisplayName()
+uid: crmscript_ref_NSUser_GetDisplayName
+title: NSUser.GetDisplayName()
 intellisense: NSUser.GetDisplayName
 keywords: GetDisplayName()
 so.topic: reference

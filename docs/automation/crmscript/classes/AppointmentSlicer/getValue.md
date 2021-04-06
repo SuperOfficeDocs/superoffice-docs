@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_AppointmentSlicer_getValue_String_field
-description: AppointmentSlicer.getValue(String field)
+uid: crmscript_ref_AppointmentSlicer_getValue_String_field
+title: AppointmentSlicer.getValue(String field)
 intellisense: AppointmentSlicer.getValue
 sortOrder: 111
 keywords: getValue(String)

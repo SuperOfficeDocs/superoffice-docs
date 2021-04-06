@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_addOrder_String_field_Bool_asc
-description: GenericSearch.addOrder(String field, Bool asc)
+uid: crmscript_ref_GenericSearch_addOrder_String_field_Bool_asc
+title: GenericSearch.addOrder(String field, Bool asc)
 intellisense: GenericSearch.addOrder
 sortOrder: 373
 keywords: addOrder(String,Bool)

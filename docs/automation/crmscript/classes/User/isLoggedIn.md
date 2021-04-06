@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User_isLoggedIn_Integer_origin
-description: User.isLoggedIn(Integer origin)
+uid: crmscript_ref_User_isLoggedIn_Integer_origin
+title: User.isLoggedIn(Integer origin)
 intellisense: User.isLoggedIn
 keywords: isLoggedIn(Integer)
 so.topic: reference

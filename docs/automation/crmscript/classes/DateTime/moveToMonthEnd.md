@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToMonthEnd
-description: DateTime.moveToMonthEnd()
+uid: crmscript_ref_DateTime_moveToMonthEnd
+title: DateTime.moveToMonthEnd()
 intellisense: DateTime.moveToMonthEnd
 sortOrder: 220
 keywords: moveToMonthEnd()

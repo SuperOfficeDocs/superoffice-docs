@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_IntInput_Integer_p_0
-description: NSAAAMockAgent.IntInput(Integer p_0)
+uid: crmscript_ref_NSAAAMockAgent_IntInput_Integer_p_0
+title: NSAAAMockAgent.IntInput(Integer p_0)
 intellisense: NSAAAMockAgent.IntInput
 sortOrder: 8911
 keywords: IntInput(Integer)

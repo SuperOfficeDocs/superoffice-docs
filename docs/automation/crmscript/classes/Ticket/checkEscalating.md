@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_checkEscalating_Integer_action
-description: Ticket.checkEscalating(Integer action)
+uid: crmscript_ref_Ticket_checkEscalating_Integer_action
+title: Ticket.checkEscalating(Integer action)
 intellisense: Ticket.checkEscalating
 keywords: checkEscalating(Integer)
 so.topic: reference

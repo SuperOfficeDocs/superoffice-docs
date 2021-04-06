@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Float
-description: Float
+uid: crmscript_ref_Float
+title: Float
 intellisense: Void.Float
 sortOrder: 354
 so.topic: reference

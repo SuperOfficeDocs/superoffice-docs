@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Float_toString_Integer_decimals
-description: Float.toString(Integer decimals)
+uid: crmscript_ref_Float_toString_Integer_decimals
+title: Float.toString(Integer decimals)
 intellisense: Float.toString
 sortOrder: 360
 keywords: toString(Integer)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSLocalizedField_GetValue
-description: NSLocalizedField.GetValue()
+uid: crmscript_ref_NSLocalizedField_GetValue
+title: NSLocalizedField.GetValue()
 intellisense: NSLocalizedField.GetValue
 keywords: GetValue()
 so.topic: reference

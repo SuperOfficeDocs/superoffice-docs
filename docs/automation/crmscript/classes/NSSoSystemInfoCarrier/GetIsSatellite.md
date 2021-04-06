@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoSystemInfoCarrier_GetIsSatellite
-description: NSSoSystemInfoCarrier.GetIsSatellite()
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetIsSatellite
+title: NSSoSystemInfoCarrier.GetIsSatellite()
 intellisense: NSSoSystemInfoCarrier.GetIsSatellite
 keywords: GetIsSatellite()
 so.topic: reference

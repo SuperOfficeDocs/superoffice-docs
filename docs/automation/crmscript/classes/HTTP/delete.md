@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_delete_String_p_0
-description: HTTP.delete(String p_0)
+uid: crmscript_ref_HTTP_delete_String_p_0
+title: HTTP.delete(String p_0)
 intellisense: HTTP.delete
 sortOrder: 399
 keywords: delete(String)

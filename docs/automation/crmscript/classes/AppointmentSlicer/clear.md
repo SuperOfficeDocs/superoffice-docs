@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_AppointmentSlicer_clear
-description: AppointmentSlicer.clear()
+uid: crmscript_ref_AppointmentSlicer_clear
+title: AppointmentSlicer.clear()
 intellisense: AppointmentSlicer.clear
 sortOrder: 113
 keywords: clear()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetStandardString
-description: NSAAATestClassForModeling.GetStandardString()
+uid: crmscript_ref_NSAAATestClassForModeling_GetStandardString
+title: NSAAATestClassForModeling.GetStandardString()
 intellisense: NSAAATestClassForModeling.GetStandardString
 sortOrder: 8931
 keywords: GetStandardString()

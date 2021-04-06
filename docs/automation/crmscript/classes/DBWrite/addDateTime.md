@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DBWrite_addDateTime_String_name_DateTime_value
-description: DBWrite.addDateTime(String name, DateTime value)
+uid: crmscript_ref_DBWrite_addDateTime_String_name_DateTime_value
+title: DBWrite.addDateTime(String name, DateTime value)
 intellisense: DBWrite.addDateTime
 sortOrder: 264
 keywords: addDateTime(String,DateTime)

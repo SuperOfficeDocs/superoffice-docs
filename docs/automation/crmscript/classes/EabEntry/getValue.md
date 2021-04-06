@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EabEntry_getValue_String_p_0
-description: EabEntry.getValue(String p_0)
+uid: crmscript_ref_EabEntry_getValue_String_p_0
+title: EabEntry.getValue(String p_0)
 intellisense: EabEntry.getValue
 sortOrder: 277
 keywords: getValue(String)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_appointments
-description: Calendar appointments
+uid: crmscript_appointments
+title: Calendar appointments
 author:
 so.date:
 keywords:

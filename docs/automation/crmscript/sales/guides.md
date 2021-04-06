@@ -1,6 +1,6 @@
 ---
-title: crmscript_sale-guide
-description: Guides
+uid: crmscript_sale-guide
+title: Guides
 author:
 so.date:
 keywords:

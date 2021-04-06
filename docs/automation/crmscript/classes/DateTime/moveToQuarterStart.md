@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToQuarterStart
-description: DateTime.moveToQuarterStart()
+uid: crmscript_ref_DateTime_moveToQuarterStart
+title: DateTime.moveToQuarterStart()
 intellisense: DateTime.moveToQuarterStart
 sortOrder: 223
 keywords: moveToQuarterStart()

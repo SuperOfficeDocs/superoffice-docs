@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry
-description: InvoiceEntry
+uid: crmscript_ref_InvoiceEntry
+title: InvoiceEntry
 intellisense: Void.InvoiceEntry
 sortOrder: 430
 so.topic: reference

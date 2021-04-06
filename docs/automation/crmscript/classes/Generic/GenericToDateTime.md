@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_GenericToDateTime_Generic_generic
-description: Generic.GenericToDateTime(Generic generic)
+uid: crmscript_ref_Generic_GenericToDateTime_Generic_generic
+title: Generic.GenericToDateTime(Generic generic)
 intellisense: Generic.GenericToDateTime
 langref: 1
 sortOrder: 50

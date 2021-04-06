@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_load_Integer_id
-description: Ticket.load(Integer id)
+uid: crmscript_ref_Ticket_load_Integer_id
+title: Ticket.load(Integer id)
 intellisense: Ticket.load
 keywords: load(Integer)
 so.topic: reference

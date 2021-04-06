@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_setStateValue_String_stateName_String_val
-description: EventData.setStateValue(String stateName, String val)
+uid: crmscript_ref_EventData_setStateValue_String_stateName_String_val
+title: EventData.setStateValue(String stateName, String val)
 intellisense: EventData.setStateValue
 sortOrder: 299
 keywords: setStateValue(String,String)

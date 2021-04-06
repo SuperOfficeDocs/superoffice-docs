@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_convertInlineImages
-description: Message.convertInlineImages()
+uid: crmscript_ref_Message_convertInlineImages
+title: Message.convertInlineImages()
 intellisense: Message.convertInlineImages
 sortOrder: 553
 keywords: convertInlineImages()

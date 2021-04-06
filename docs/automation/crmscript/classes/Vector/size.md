@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Vector_size
-description: Vector.size()
+uid: crmscript_ref_Vector_size
+title: Vector.size()
 intellisense: Vector.size
 keywords: size()
 so.topic: reference

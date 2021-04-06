@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_setMonStop_Time_t
-description: WeekSchedule.setMonStop(Time t)
+uid: crmscript_ref_WeekSchedule_setMonStop_Time_t
+title: WeekSchedule.setMonStop(Time t)
 intellisense: WeekSchedule.setMonStop
 keywords: setMonStop(Time)
 so.topic: reference

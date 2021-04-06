@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DbConverter_next
-description: DbConverter.next()
+uid: crmscript_ref_DbConverter_next
+title: DbConverter.next()
 intellisense: DbConverter.next
 sortOrder: 246
 keywords: next()

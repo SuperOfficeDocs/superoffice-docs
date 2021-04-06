@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatResult_dumpParser
-description: StatResult.dumpParser()
+uid: crmscript_ref_StatResult_dumpParser
+title: StatResult.dumpParser()
 intellisense: StatResult.dumpParser
 keywords: dumpParser()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Parser_getVariableCount_String_name
-description: Parser.getVariableCount(String name)
+uid: crmscript_ref_Parser_getVariableCount_String_name
+title: Parser.getVariableCount(String name)
 intellisense: Parser.getVariableCount
 keywords: getVariableCount(String)
 so.topic: reference

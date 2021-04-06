@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_setValue_String_value
-description: HtmlElement.setValue(String value)
+uid: crmscript_ref_HtmlElement_setValue_String_value
+title: HtmlElement.setValue(String value)
 intellisense: HtmlElement.setValue
 sortOrder: 395
 keywords: setValue(String)

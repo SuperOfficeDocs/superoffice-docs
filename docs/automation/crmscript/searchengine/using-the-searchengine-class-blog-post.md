@@ -2,8 +2,8 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
 # Mandatory fields.
-title: using_the_searchengine_class_blog_post       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Using the SearchEngine class in ejScript # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+uid: using_the_searchengine_class_blog_post       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+title: Using the SearchEngine class in ejScript # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Frode Lillerud
 so.date: 03.03.2012
 keywords: search,crmscript

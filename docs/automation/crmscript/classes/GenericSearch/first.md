@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_first
-description: GenericSearch.first()
+uid: crmscript_ref_GenericSearch_first
+title: GenericSearch.first()
 intellisense: GenericSearch.first
 sortOrder: 364
 keywords: first()

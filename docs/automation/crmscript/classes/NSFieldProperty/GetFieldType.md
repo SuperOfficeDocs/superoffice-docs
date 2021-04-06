@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSFieldProperty_GetFieldType
-description: NSFieldProperty.GetFieldType()
+uid: crmscript_ref_NSFieldProperty_GetFieldType
+title: NSFieldProperty.GetFieldType()
 intellisense: NSFieldProperty.GetFieldType
 sortOrder: 3600
 keywords: GetFieldType()

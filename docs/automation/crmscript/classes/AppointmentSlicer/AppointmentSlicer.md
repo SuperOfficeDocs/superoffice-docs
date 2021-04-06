@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_AppointmentSlicer
-description: AppointmentSlicer
+uid: crmscript_ref_AppointmentSlicer
+title: AppointmentSlicer
 intellisense: Void.AppointmentSlicer
 sortOrder: 106
 so.topic: reference

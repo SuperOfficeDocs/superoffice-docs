@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User
-description: User
+uid: crmscript_ref_User
+title: User
 intellisense: Void.User
 so.topic: reference
 ---

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_findFromEmail_String_email
-description: Customer.findFromEmail(String email)
+uid: crmscript_ref_Customer_findFromEmail_String_email
+title: Customer.findFromEmail(String email)
 intellisense: Customer.findFromEmail
 sortOrder: 177
 keywords: findFromEmail(String)

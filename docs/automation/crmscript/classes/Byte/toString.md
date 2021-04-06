@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Byte_toString
-description: Byte.toString()
+uid: crmscript_ref_Byte_toString
+title: Byte.toString()
 intellisense: Byte.toString
 sortOrder: 139
 keywords: toString()

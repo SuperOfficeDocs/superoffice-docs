@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DBWrite
-description: DBWrite
+uid: crmscript_ref_DBWrite
+title: DBWrite
 intellisense: Void.DBWrite
 sortOrder: 259
 so.topic: reference

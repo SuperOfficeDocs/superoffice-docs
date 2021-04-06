@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Vector_removeAt_Integer_index
-description: Vector.removeAt(Integer index)
+uid: crmscript_ref_Vector_removeAt_Integer_index
+title: Vector.removeAt(Integer index)
 intellisense: Vector.removeAt
 keywords: removeAt(Integer)
 so.topic: reference

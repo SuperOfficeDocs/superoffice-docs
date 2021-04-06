@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSErpConnectionData_GetErpActorTypes
-description: NSErpConnectionData.GetErpActorTypes()
+uid: crmscript_ref_NSErpConnectionData_GetErpActorTypes
+title: NSErpConnectionData.GetErpActorTypes()
 intellisense: NSErpConnectionData.GetErpActorTypes
 sortOrder: 3111
 keywords: GetErpActorTypes()

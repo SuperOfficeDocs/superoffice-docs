@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_getLength
-description: String.getLength()
+uid: crmscript_ref_String_getLength
+title: String.getLength()
 intellisense: String.getLength
 keywords: getLength()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmCustomerList_save
-description: SpmCustomerList.save()
+uid: crmscript_ref_SpmCustomerList_save
+title: SpmCustomerList.save()
 intellisense: SpmCustomerList.save
 keywords: save()
 so.topic: reference

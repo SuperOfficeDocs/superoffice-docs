@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Email_addAttachment_Integer_attachmentId_Bool_inline
-description: Email.addAttachment(Integer attachmentId, Bool inline)
+uid: crmscript_ref_Email_addAttachment_Integer_attachmentId_Bool_inline
+title: Email.addAttachment(Integer attachmentId, Bool inline)
 intellisense: Email.addAttachment
 sortOrder: 282
 keywords: addAttachment(Integer,Bool)

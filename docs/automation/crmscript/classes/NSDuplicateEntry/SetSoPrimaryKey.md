@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateEntry_SetSoPrimaryKey_Integer_p_0
-description: NSDuplicateEntry.SetSoPrimaryKey(Integer p_0)
+uid: crmscript_ref_NSDuplicateEntry_SetSoPrimaryKey_Integer_p_0
+title: NSDuplicateEntry.SetSoPrimaryKey(Integer p_0)
 intellisense: NSDuplicateEntry.SetSoPrimaryKey
 sortOrder: 2731
 keywords: SetSoPrimaryKey(Integer)

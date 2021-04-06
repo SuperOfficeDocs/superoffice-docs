@@ -1,6 +1,6 @@
 ---
-title: crmscript_datatypes_generic
-description: Generic data type
+uid: crmscript_datatypes_generic
+title: Generic data type
 author:
 so.date:
 keywords:

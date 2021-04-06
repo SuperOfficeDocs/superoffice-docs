@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_setFriStart_Time_t
-description: WeekSchedule.setFriStart(Time t)
+uid: crmscript_ref_WeekSchedule_setFriStart_Time_t
+title: WeekSchedule.setFriStart(Time t)
 intellisense: WeekSchedule.setFriStart
 keywords: setFriStart(Time)
 so.topic: reference

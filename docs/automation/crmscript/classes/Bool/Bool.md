@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Bool
-description: Bool
+uid: crmscript_ref_Bool
+title: Bool
 intellisense: Void.Bool
 sortOrder: 129
 so.topic: reference

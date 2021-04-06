@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Time_toString
-description: Time.toString()
+uid: crmscript_ref_Time_toString
+title: Time.toString()
 intellisense: Time.toString
 keywords: toString()
 so.topic: reference

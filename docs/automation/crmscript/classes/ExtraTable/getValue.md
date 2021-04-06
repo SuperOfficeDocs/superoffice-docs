@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTable_getValue_String_field
-description: ExtraTable.getValue(String field)
+uid: crmscript_ref_ExtraTable_getValue_String_field
+title: ExtraTable.getValue(String field)
 intellisense: ExtraTable.getValue
 sortOrder: 323
 keywords: getValue(String)

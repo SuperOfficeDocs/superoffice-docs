@@ -1,6 +1,6 @@
 ---
-title: crmscript_sale-pipeline
-description: Pipeline
+uid: crmscript_sale-pipeline
+title: Pipeline
 author:
 so.date:
 keywords:

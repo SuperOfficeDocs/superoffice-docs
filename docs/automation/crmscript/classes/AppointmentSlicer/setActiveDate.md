@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_AppointmentSlicer_setActiveDate_Date_d
-description: AppointmentSlicer.setActiveDate(Date d)
+uid: crmscript_ref_AppointmentSlicer_setActiveDate_Date_d
+title: AppointmentSlicer.setActiveDate(Date d)
 intellisense: AppointmentSlicer.setActiveDate
 sortOrder: 114
 keywords: setActiveDate(Date)

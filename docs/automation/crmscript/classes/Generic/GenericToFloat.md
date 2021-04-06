@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_GenericToFloat_Generic_generic
-description: Generic.GenericToFloat(Generic generic)
+uid: crmscript_ref_Generic_GenericToFloat_Generic_generic
+title: Generic.GenericToFloat(Generic generic)
 intellisense: Generic.GenericToFloat
 langref: 1
 sortOrder: 60

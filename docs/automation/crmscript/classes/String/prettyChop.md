@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_prettyChop_Integer_length
-description: String.prettyChop(Integer length)
+uid: crmscript_ref_String_prettyChop_Integer_length
+title: String.prettyChop(Integer length)
 intellisense: String.prettyChop
 keywords: prettyChop(Integer)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_saveInvolved_Vector_emailAdresses
-description: Message.saveInvolved(Vector emailAdresses)
+uid: crmscript_ref_Message_saveInvolved_Vector_emailAdresses
+title: Message.saveInvolved(Vector emailAdresses)
 intellisense: Message.saveInvolved
 sortOrder: 555
 keywords: saveInvolved(Vector)

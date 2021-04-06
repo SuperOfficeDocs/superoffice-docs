@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSContactPersonId_SetPersonId_Integer_p_0
-description: NSContactPersonId.SetPersonId(Integer p_0)
+uid: crmscript_ref_NSContactPersonId_SetPersonId_Integer_p_0
+title: NSContactPersonId.SetPersonId(Integer p_0)
 intellisense: NSContactPersonId.SetPersonId
 sortOrder: 1941
 keywords: SetPersonId(Integer)

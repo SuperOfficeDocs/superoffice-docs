@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DbiControl_getParameters
-description: DbiControl.getParameters()
+uid: crmscript_ref_DbiControl_getParameters
+title: DbiControl.getParameters()
 intellisense: DbiControl.getParameters
 sortOrder: 254
 keywords: getParameters()

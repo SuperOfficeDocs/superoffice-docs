@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_setInfoMessage_String_infoMessage
-description: HtmlElement.setInfoMessage(String infoMessage)
+uid: crmscript_ref_HtmlElement_setInfoMessage_String_infoMessage
+title: HtmlElement.setInfoMessage(String infoMessage)
 intellisense: HtmlElement.setInfoMessage
 sortOrder: 393
 keywords: setInfoMessage(String)

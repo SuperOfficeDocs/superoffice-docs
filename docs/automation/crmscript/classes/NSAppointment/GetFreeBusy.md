@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAppointment_GetFreeBusy
-description: NSAppointment.GetFreeBusy()
+uid: crmscript_ref_NSAppointment_GetFreeBusy
+title: NSAppointment.GetFreeBusy()
 intellisense: NSAppointment.GetFreeBusy
 sortOrder: 736
 keywords: GetFreeBusy()

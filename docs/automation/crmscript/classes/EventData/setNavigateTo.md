@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_setNavigateTo_String_navigateTo
-description: EventData.setNavigateTo(String navigateTo)
+uid: crmscript_ref_EventData_setNavigateTo_String_navigateTo
+title: EventData.setNavigateTo(String navigateTo)
 intellisense: EventData.setNavigateTo
 sortOrder: 297
 keywords: setNavigateTo(String)

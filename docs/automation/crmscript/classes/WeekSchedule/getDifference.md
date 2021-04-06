@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_getDifference_DateTime_start_DateTime_stop
-description: WeekSchedule.getDifference(DateTime start, DateTime stop)
+uid: crmscript_ref_WeekSchedule_getDifference_DateTime_start_DateTime_stop
+title: WeekSchedule.getDifference(DateTime start, DateTime stop)
 intellisense: WeekSchedule.getDifference
 keywords: getDifference(DateTime,DateTime)
 so.topic: reference

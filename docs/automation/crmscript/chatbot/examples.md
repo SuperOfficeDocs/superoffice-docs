@@ -1,6 +1,6 @@
 ---
-title: chatbot_examples
-description: CRMScript Chatbot Examples
+uid: chatbot_examples
+title: CRMScript Chatbot Examples
 author: christian
 so.date:
 keywords:

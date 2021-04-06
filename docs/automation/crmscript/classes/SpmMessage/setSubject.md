@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmMessage_setSubject_String_subject
-description: SpmMessage.setSubject(String subject)
+uid: crmscript_ref_SpmMessage_setSubject_String_subject
+title: SpmMessage.setSubject(String subject)
 intellisense: SpmMessage.setSubject
 keywords: setSubject(String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_JSONBuilder_popLevel
-description: JSONBuilder.popLevel()
+uid: crmscript_ref_JSONBuilder_popLevel
+title: JSONBuilder.popLevel()
 intellisense: JSONBuilder.popLevel
 sortOrder: 450
 keywords: popLevel()

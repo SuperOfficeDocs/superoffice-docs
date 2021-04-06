@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_eof
-description: ExtraFieldsInfo.eof()
+uid: crmscript_ref_ExtraFieldsInfo_eof
+title: ExtraFieldsInfo.eof()
 intellisense: ExtraFieldsInfo.eof
 sortOrder: 303
 keywords: eof()

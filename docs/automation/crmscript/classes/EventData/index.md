@@ -1,9 +1,9 @@
 ---
-title: crmscript_ref_EventData
-description: EventData
+uid: crmscript_ref_EventData
+title: EventData
 intellisense: Void.EventData
 sortOrder: 285
-description: EventData
+title: EventData
 author:
 so.date:
 keywords:

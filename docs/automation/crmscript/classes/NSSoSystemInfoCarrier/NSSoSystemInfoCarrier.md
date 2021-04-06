@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoSystemInfoCarrier
-description: NSSoSystemInfoCarrier
+uid: crmscript_ref_NSSoSystemInfoCarrier
+title: NSSoSystemInfoCarrier
 intellisense: Void.NSSoSystemInfoCarrier
 so.topic: reference
 ---

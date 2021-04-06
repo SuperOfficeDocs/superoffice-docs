@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoSystemInfoCarrier_GetAccumulatedNextCheckDate
-description: NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetAccumulatedNextCheckDate
+title: NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
 intellisense: NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate
 keywords: GetAccumulatedNextCheckDate()
 so.topic: reference

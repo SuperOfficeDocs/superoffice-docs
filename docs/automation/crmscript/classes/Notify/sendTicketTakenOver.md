@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Notify_sendTicketTakenOver_Integer_ticketId_Integer_oldUserId_Integer_newUserId
-description: Notify.sendTicketTakenOver(Integer ticketId, Integer oldUserId, Integer newUserId)
+uid: crmscript_ref_Notify_sendTicketTakenOver_Integer_ticketId_Integer_oldUserId_Integer_newUserId
+title: Notify.sendTicketTakenOver(Integer ticketId, Integer oldUserId, Integer newUserId)
 intellisense: Notify.sendTicketTakenOver
 keywords: sendTicketTakenOver(Integer,Integer,Integer)
 so.topic: reference

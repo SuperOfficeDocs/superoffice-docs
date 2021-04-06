@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DBWrite_addTable_String_tableName
-description: DBWrite.addTable(String tableName)
+uid: crmscript_ref_DBWrite_addTable_String_tableName
+title: DBWrite.addTable(String tableName)
 intellisense: DBWrite.addTable
 sortOrder: 267
 keywords: addTable(String)

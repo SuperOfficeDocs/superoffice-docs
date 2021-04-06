@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDSAParameters_GetSeed
-description: NSDSAParameters.GetSeed()
+uid: crmscript_ref_NSDSAParameters_GetSeed
+title: NSDSAParameters.GetSeed()
 intellisense: NSDSAParameters.GetSeed
 sortOrder: 2711
 keywords: GetSeed()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Byte_toInteger
-description: Byte.toInteger()
+uid: crmscript_ref_Byte_toInteger
+title: Byte.toInteger()
 intellisense: Byte.toInteger
 sortOrder: 136
 keywords: toInteger()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_save
-description: Message.save()
+uid: crmscript_ref_Message_save
+title: Message.save()
 intellisense: Message.save
 sortOrder: 547
 keywords: save()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Email
-description: Email
+uid: crmscript_ref_Email
+title: Email
 intellisense: Void.Email
 sortOrder: 280
 so.topic: reference

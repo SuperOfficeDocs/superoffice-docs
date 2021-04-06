@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_getPricePrUnit
-description: InvoiceEntry.getPricePrUnit()
+uid: crmscript_ref_InvoiceEntry_getPricePrUnit
+title: InvoiceEntry.getPricePrUnit()
 intellisense: InvoiceEntry.getPricePrUnit
 sortOrder: 436
 keywords: getPricePrUnit()

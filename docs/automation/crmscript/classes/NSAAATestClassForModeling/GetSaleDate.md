@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetSaleDate
-description: NSAAATestClassForModeling.GetSaleDate()
+uid: crmscript_ref_NSAAATestClassForModeling_GetSaleDate
+title: NSAAATestClassForModeling.GetSaleDate()
 intellisense: NSAAATestClassForModeling.GetSaleDate
 sortOrder: 8918
 keywords: GetSaleDate()

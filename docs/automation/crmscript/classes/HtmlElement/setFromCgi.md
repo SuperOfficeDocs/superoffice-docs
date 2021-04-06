@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_setFromCgi
-description: HtmlElement.setFromCgi()
+uid: crmscript_ref_HtmlElement_setFromCgi
+title: HtmlElement.setFromCgi()
 intellisense: HtmlElement.setFromCgi
 sortOrder: 392
 keywords: setFromCgi()

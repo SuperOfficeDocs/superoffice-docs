@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Inbox
-description: Inbox
+uid: crmscript_ref_Inbox
+title: Inbox
 intellisense: Void.Inbox
 sortOrder: 419
 so.topic: reference

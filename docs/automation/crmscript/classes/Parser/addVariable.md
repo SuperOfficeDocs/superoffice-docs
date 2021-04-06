@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Parser_addVariable_String_field_String_value
-description: Parser.addVariable(String field, String value)
+uid: crmscript_ref_Parser_addVariable_String_field_String_value
+title: Parser.addVariable(String field, String value)
 intellisense: Parser.addVariable
 keywords: addVariable(String,String)
 so.topic: reference

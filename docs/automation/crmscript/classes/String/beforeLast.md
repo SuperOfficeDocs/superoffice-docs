@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_beforeLast_String_needle
-description: String.beforeLast(String needle)
+uid: crmscript_ref_String_beforeLast_String_needle
+title: String.beforeLast(String needle)
 intellisense: String.beforeLast
 keywords: beforeLast(String)
 so.topic: reference

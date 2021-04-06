@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_FHBitSet_toInteger
-description: FHBitSet.toInteger()
+uid: crmscript_ref_FHBitSet_toInteger
+title: FHBitSet.toInteger()
 intellisense: FHBitSet.toInteger
 sortOrder: 335
 keywords: toInteger()

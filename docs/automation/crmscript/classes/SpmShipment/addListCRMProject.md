@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_addListCRMProject_Integer_p_0
-description: SpmShipment.addListCRMProject(Integer p_0)
+uid: crmscript_ref_SpmShipment_addListCRMProject_Integer_p_0
+title: SpmShipment.addListCRMProject(Integer p_0)
 intellisense: SpmShipment.addListCRMProject
 keywords: addListCRMProject(Integer)
 so.topic: reference

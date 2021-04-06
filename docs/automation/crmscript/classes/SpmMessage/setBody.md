@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmMessage_setBody_String_body
-description: SpmMessage.setBody(String body)
+uid: crmscript_ref_SpmMessage_setBody_String_body
+title: SpmMessage.setBody(String body)
 intellisense: SpmMessage.setBody
 keywords: setBody(String)
 so.topic: reference

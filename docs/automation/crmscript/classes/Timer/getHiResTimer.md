@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Timer_getHiResTimer
-description: Timer.getHiResTimer()
+uid: crmscript_ref_Timer_getHiResTimer
+title: Timer.getHiResTimer()
 intellisense: Timer.getHiResTimer
 keywords: getHiResTimer()
 so.topic: reference

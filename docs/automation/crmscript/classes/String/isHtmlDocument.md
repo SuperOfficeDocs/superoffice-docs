@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isHtmlDocument
-description: String.isHtmlDocument()
+uid: crmscript_ref_String_isHtmlDocument
+title: String.isHtmlDocument()
 intellisense: String.isHtmlDocument
 keywords: isHtmlDocument()
 so.topic: reference

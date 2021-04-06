@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroReturnValue_setName_String_p_0
-description: MacroReturnValue.setName(String p_0)
+uid: crmscript_ref_MacroReturnValue_setName_String_p_0
+title: MacroReturnValue.setName(String p_0)
 intellisense: MacroReturnValue.setName
 sortOrder: 501
 keywords: setName(String)

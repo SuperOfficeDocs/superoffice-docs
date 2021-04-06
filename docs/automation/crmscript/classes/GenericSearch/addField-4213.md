@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_addField_String_field_Integer_fieldMask
-description: GenericSearch.addField(String field, Integer fieldMask)
+uid: crmscript_ref_GenericSearch_addField_String_field_Integer_fieldMask
+title: GenericSearch.addField(String field, Integer fieldMask)
 intellisense: GenericSearch.addField
 sortOrder: 372
 keywords: addField(String,Integer)

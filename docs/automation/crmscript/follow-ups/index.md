@@ -1,6 +1,6 @@
 ---
-title: crmscript_followups
-description: Calendar and todo list
+uid: crmscript_followups
+title: Calendar and todo list
 author:
 so.date:
 keywords:

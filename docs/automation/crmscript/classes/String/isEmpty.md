@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isEmpty
-description: String.isEmpty()
+uid: crmscript_ref_String_isEmpty
+title: String.isEmpty()
 intellisense: String.isEmpty
 keywords: isEmpty()
 so.topic: reference

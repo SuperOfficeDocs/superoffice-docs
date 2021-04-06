@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_getMonStart
-description: WeekSchedule.getMonStart()
+uid: crmscript_ref_WeekSchedule_getMonStart
+title: WeekSchedule.getMonStart()
 intellisense: WeekSchedule.getMonStart
 keywords: getMonStart()
 so.topic: reference

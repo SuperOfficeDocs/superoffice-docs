@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_toDateTime
-description: String.toDateTime()
+uid: crmscript_ref_String_toDateTime
+title: String.toDateTime()
 intellisense: String.toDateTime
 keywords: toDateTime()
 so.topic: reference

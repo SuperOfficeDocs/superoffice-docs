@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User_isAdministrator
-description: User.isAdministrator()
+uid: crmscript_ref_User_isAdministrator
+title: User.isAdministrator()
 intellisense: User.isAdministrator
 keywords: isAdministrator()
 so.topic: reference

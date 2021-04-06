@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company_checkFieldRights_String_field_String_fieldRight
-description: Company.checkFieldRights(String field, String fieldRight)
+uid: crmscript_ref_Company_checkFieldRights_String_field_String_fieldRight
+title: Company.checkFieldRights(String field, String fieldRight)
 intellisense: Company.checkFieldRights
 sortOrder: 157
 keywords: checkFieldRights(String,String)

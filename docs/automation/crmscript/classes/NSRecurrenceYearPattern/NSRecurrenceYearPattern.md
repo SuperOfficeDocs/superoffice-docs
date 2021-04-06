@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSRecurrenceYearPattern
-description: NSRecurrenceYearPattern
+uid: crmscript_ref_NSRecurrenceYearPattern
+title: NSRecurrenceYearPattern
 intellisense: Void.NSRecurrenceYearPattern
 so.topic: reference
 ---

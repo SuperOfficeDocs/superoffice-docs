@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_diff_DateTime_otherDateTime
-description: DateTime.diff(DateTime otherDateTime)
+uid: crmscript_ref_DateTime_diff_DateTime_otherDateTime
+title: DateTime.diff(DateTime otherDateTime)
 intellisense: DateTime.diff
 sortOrder: 229
 keywords: diff(DateTime)

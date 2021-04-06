@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_try_catch
-description: Control - try...catch
+uid: crmscript_fundamentals_try_catch
+title: Control - try...catch
 author:
 so.date:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_StringInput_String_p_0
-description: NSAAAMockAgent.StringInput(String p_0)
+uid: crmscript_ref_NSAAAMockAgent_StringInput_String_p_0
+title: NSAAAMockAgent.StringInput(String p_0)
 intellisense: NSAAAMockAgent.StringInput
 sortOrder: 8914
 keywords: StringInput(String)

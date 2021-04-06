@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_size
-description: Map.size()
+uid: crmscript_ref_Map_size
+title: Map.size()
 intellisense: Map.size
 sortOrder: 528
 keywords: size()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_addFields_String_table_String_fields
-description: SearchEngine.addFields(String table, String fields)
+uid: crmscript_ref_SearchEngine_addFields_String_table_String_fields
+title: SearchEngine.addFields(String table, String fields)
 intellisense: SearchEngine.addFields
 keywords: addFields(String,String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetBool
-description: NSAAAMockAgent.GetBool()
+uid: crmscript_ref_NSAAAMockAgent_GetBool
+title: NSAAAMockAgent.GetBool()
 intellisense: NSAAAMockAgent.GetBool
 sortOrder: 8884
 keywords: GetBool()

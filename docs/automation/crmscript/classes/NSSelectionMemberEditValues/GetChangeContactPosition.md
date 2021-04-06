@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSelectionMemberEditValues_GetChangeContactPosition
-description: NSSelectionMemberEditValues.GetChangeContactPosition()
+uid: crmscript_ref_NSSelectionMemberEditValues_GetChangeContactPosition
+title: NSSelectionMemberEditValues.GetChangeContactPosition()
 intellisense: NSSelectionMemberEditValues.GetChangeContactPosition
 keywords: GetChangeContactPosition()
 so.topic: reference

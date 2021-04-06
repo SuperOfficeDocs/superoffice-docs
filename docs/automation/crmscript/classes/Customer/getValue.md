@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_getValue_String_colName
-description: Customer.getValue(String colName)
+uid: crmscript_ref_Customer_getValue_String_colName
+title: Customer.getValue(String colName)
 intellisense: Customer.getValue
 sortOrder: 184
 keywords: getValue(String)

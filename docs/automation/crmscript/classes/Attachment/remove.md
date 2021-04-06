@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment_remove
-description: Attachment.remove()
+uid: crmscript_ref_Attachment_remove
+title: Attachment.remove()
 intellisense: Attachment.remove
 sortOrder: 127
 keywords: remove()

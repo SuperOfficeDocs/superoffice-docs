@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmCustomerList_delete
-description: SpmCustomerList.delete()
+uid: crmscript_ref_SpmCustomerList_delete
+title: SpmCustomerList.delete()
 intellisense: SpmCustomerList.delete
 keywords: delete()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_addMin_Integer_num
-description: DateTime.addMin(Integer num)
+uid: crmscript_ref_DateTime_addMin_Integer_num
+title: DateTime.addMin(Integer num)
 intellisense: DateTime.addMin
 sortOrder: 212
 keywords: addMin(Integer)

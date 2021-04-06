@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetArrayOfDoubles
-description: NSAAAMockAgent.GetArrayOfDoubles()
+uid: crmscript_ref_NSAAAMockAgent_GetArrayOfDoubles
+title: NSAAAMockAgent.GetArrayOfDoubles()
 intellisense: NSAAAMockAgent.GetArrayOfDoubles
 sortOrder: 8889
 keywords: GetArrayOfDoubles()

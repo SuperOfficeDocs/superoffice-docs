@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Profile_getListTicketsFields_Integer_p_user
-description: Profile.getListTicketsFields(Integer p_user)
+uid: crmscript_ref_Profile_getListTicketsFields_Integer_p_user
+title: Profile.getListTicketsFields(Integer p_user)
 intellisense: Profile.getListTicketsFields
 keywords: getListTicketsFields(Integer)
 so.topic: reference

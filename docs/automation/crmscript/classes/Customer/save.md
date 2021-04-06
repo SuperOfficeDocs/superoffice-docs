@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_save
-description: Customer.save()
+uid: crmscript_ref_Customer_save
+title: Customer.save()
 intellisense: Customer.save
 sortOrder: 182
 keywords: save()

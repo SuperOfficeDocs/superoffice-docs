@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmCustomerList_addRecipient_Integer_customerId
-description: SpmCustomerList.addRecipient(Integer customerId)
+uid: crmscript_ref_SpmCustomerList_addRecipient_Integer_customerId
+title: SpmCustomerList.addRecipient(Integer customerId)
 intellisense: SpmCustomerList.addRecipient
 keywords: addRecipient(Integer)
 so.topic: reference

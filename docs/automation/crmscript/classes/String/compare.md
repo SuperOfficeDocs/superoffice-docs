@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_compare_String_p_0
-description: String.compare(String p_0)
+uid: crmscript_ref_String_compare_String_p_0
+title: String.compare(String p_0)
 intellisense: String.compare
 keywords: compare(String)
 so.topic: reference

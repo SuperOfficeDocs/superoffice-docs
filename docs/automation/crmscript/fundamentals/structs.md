@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_structs
-description: Structs
+uid: crmscript_fundamentals_structs
+title: Structs
 author:
 so.date:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_setSatStop_Time_t
-description: WeekSchedule.setSatStop(Time t)
+uid: crmscript_ref_WeekSchedule_setSatStop_Time_t
+title: WeekSchedule.setSatStop(Time t)
 intellisense: WeekSchedule.setSatStop
 keywords: setSatStop(Time)
 so.topic: reference

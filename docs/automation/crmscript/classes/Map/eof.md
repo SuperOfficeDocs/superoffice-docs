@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_eof
-description: Map.eof()
+uid: crmscript_ref_Map_eof
+title: Map.eof()
 intellisense: Map.eof
 sortOrder: 524
 keywords: eof()

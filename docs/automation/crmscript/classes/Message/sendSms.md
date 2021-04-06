@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_sendSms_Vector_to
-description: Message.sendSms(Vector to)
+uid: crmscript_ref_Message_sendSms_Vector_to
+title: Message.sendSms(Vector to)
 intellisense: Message.sendSms
 sortOrder: 546
 keywords: sendSms(Vector)

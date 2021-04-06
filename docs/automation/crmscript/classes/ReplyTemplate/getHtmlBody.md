@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ReplyTemplate_getHtmlBody_Integer_language
-description: ReplyTemplate.getHtmlBody(Integer language)
+uid: crmscript_ref_ReplyTemplate_getHtmlBody_Integer_language
+title: ReplyTemplate.getHtmlBody(Integer language)
 intellisense: ReplyTemplate.getHtmlBody
 keywords: getHtmlBody(Integer)
 so.topic: reference

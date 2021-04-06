@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_License_toParser_Parser_parser
-description: License.toParser(Parser parser)
+uid: crmscript_ref_License_toParser_Parser_parser
+title: License.toParser(Parser parser)
 intellisense: License.toParser
 sortOrder: 464
 keywords: toParser(Parser)

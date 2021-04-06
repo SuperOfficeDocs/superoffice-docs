@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_addChild_XMLNode_node
-description: XMLNode.addChild(XMLNode node)
+uid: crmscript_ref_XMLNode_addChild_XMLNode_node
+title: XMLNode.addChild(XMLNode node)
 intellisense: XMLNode.addChild
 keywords: addChild(XMLNode)
 so.topic: reference

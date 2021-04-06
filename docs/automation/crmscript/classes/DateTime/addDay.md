@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_addDay_Integer_num
-description: DateTime.addDay(Integer num)
+uid: crmscript_ref_DateTime_addDay_Integer_num
+title: DateTime.addDay(Integer num)
 intellisense: DateTime.addDay
 sortOrder: 210
 keywords: addDay(Integer)

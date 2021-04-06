@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_delete
-description: SearchEngine.delete()
+uid: crmscript_ref_SearchEngine_delete
+title: SearchEngine.delete()
 intellisense: SearchEngine.delete
 keywords: delete()
 so.topic: reference

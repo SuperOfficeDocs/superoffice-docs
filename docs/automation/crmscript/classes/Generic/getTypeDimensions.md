@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_getTypeDimensions_Generic_generic
-description: Generic.getTypeDimensions(Generic generic)
+uid: crmscript_ref_Generic_getTypeDimensions_Generic_generic
+title: Generic.getTypeDimensions(Generic generic)
 intellisense: Generic.getTypeDimensions
 langref: 1
 sortOrder: 110

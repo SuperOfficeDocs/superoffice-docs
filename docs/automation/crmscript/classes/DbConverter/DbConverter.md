@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DbConverter
-description: DbConverter
+uid: crmscript_ref_DbConverter
+title: DbConverter
 intellisense: Void.DbConverter
 sortOrder: 242
 so.topic: reference

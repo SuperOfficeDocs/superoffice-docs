@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_deleteAsStream_String_p_0
-description: HTTP.deleteAsStream(String p_0)
+uid: crmscript_ref_HTTP_deleteAsStream_String_p_0
+title: HTTP.deleteAsStream(String p_0)
 intellisense: HTTP.deleteAsStream
 sortOrder: 405
 keywords: deleteAsStream(String)

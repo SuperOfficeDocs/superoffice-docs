@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_setControlConfig_Map_p_0
-description: MacroParameter.setControlConfig(Map p_0)
+uid: crmscript_ref_MacroParameter_setControlConfig_Map_p_0
+title: MacroParameter.setControlConfig(Map p_0)
 intellisense: MacroParameter.setControlConfig
 sortOrder: 487
 keywords: setControlConfig(Map)

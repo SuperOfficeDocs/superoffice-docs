@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_toString_Integer_indent
-description: XMLNode.toString(Integer indent)
+uid: crmscript_ref_XMLNode_toString_Integer_indent
+title: XMLNode.toString(Integer indent)
 intellisense: XMLNode.toString
 keywords: toString(Integer)
 so.topic: reference

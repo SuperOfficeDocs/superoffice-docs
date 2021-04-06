@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSProjectTypeStatusLink_GetProjTypeId
-description: NSProjectTypeStatusLink.GetProjTypeId()
+uid: crmscript_ref_NSProjectTypeStatusLink_GetProjTypeId
+title: NSProjectTypeStatusLink.GetProjTypeId()
 intellisense: NSProjectTypeStatusLink.GetProjTypeId
 keywords: GetProjTypeId()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmStaticList_setName_String_name
-description: SpmStaticList.setName(String name)
+uid: crmscript_ref_SpmStaticList_setName_String_name
+title: SpmStaticList.setName(String name)
 intellisense: SpmStaticList.setName
 keywords: setName(String)
 so.topic: reference

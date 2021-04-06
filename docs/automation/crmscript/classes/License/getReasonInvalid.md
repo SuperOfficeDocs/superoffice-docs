@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_License_getReasonInvalid
-description: License.getReasonInvalid()
+uid: crmscript_ref_License_getReasonInvalid
+title: License.getReasonInvalid()
 intellisense: License.getReasonInvalid
 sortOrder: 462
 keywords: getReasonInvalid()

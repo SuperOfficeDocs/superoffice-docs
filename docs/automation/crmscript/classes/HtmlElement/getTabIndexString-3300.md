@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_getTabIndexString_Bool_noId
-description: HtmlElement.getTabIndexString(Bool noId)
+uid: crmscript_ref_HtmlElement_getTabIndexString_Bool_noId
+title: HtmlElement.getTabIndexString(Bool noId)
 intellisense: HtmlElement.getTabIndexString
 sortOrder: 385
 keywords: getTabIndexString(Bool)

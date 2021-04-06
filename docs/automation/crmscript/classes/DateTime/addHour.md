@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_addHour_Integer_num
-description: DateTime.addHour(Integer num)
+uid: crmscript_ref_DateTime_addHour_Integer_num
+title: DateTime.addHour(Integer num)
 intellisense: DateTime.addHour
 sortOrder: 211
 keywords: addHour(Integer)

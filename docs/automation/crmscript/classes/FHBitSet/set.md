@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_FHBitSet_set_Integer_value
-description: FHBitSet.set(Integer value)
+uid: crmscript_ref_FHBitSet_set_Integer_value
+title: FHBitSet.set(Integer value)
 intellisense: FHBitSet.set
 sortOrder: 337
 keywords: set(Integer)

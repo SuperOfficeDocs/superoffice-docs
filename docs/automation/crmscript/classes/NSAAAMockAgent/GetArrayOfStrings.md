@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetArrayOfStrings
-description: NSAAAMockAgent.GetArrayOfStrings()
+uid: crmscript_ref_NSAAAMockAgent_GetArrayOfStrings
+title: NSAAAMockAgent.GetArrayOfStrings()
 intellisense: NSAAAMockAgent.GetArrayOfStrings
 sortOrder: 8898
 keywords: GetArrayOfStrings()

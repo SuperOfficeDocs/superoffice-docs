@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_addData_String_field_String_value
-description: SearchEngine.addData(String field, String value)
+uid: crmscript_ref_SearchEngine_addData_String_field_String_value
+title: SearchEngine.addData(String field, String value)
 intellisense: SearchEngine.addData
 keywords: addData(String,String)
 so.topic: reference

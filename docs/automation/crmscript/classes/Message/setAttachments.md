@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_setAttachments_Vector_ids
-description: Message.setAttachments(Vector ids)
+uid: crmscript_ref_Message_setAttachments_Vector_ids
+title: Message.setAttachments(Vector ids)
 intellisense: Message.setAttachments
 sortOrder: 557
 keywords: setAttachments(Vector)

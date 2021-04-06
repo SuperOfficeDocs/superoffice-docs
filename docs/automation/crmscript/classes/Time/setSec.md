@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Time_setSec_Integer_sec
-description: Time.setSec(Integer sec)
+uid: crmscript_ref_Time_setSec_Integer_sec
+title: Time.setSec(Integer sec)
 intellisense: Time.setSec
 keywords: setSec(Integer)
 so.topic: reference

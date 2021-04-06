@@ -1,6 +1,6 @@
 ---
-title: crmscript_doc_properties
-description: Document properties
+uid: crmscript_doc_properties
+title: Document properties
 author:
 so.date:
 keywords:

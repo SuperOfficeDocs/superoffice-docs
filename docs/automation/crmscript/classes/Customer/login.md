@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_login
-description: Customer.login()
+uid: crmscript_ref_Customer_login
+title: Customer.login()
 intellisense: Customer.login
 sortOrder: 188
 keywords: login()

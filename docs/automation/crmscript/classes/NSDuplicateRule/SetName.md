@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateRule_SetName_String_p_0
-description: NSDuplicateRule.SetName(String p_0)
+uid: crmscript_ref_NSDuplicateRule_SetName_String_p_0
+title: NSDuplicateRule.SetName(String p_0)
 intellisense: NSDuplicateRule.SetName
 sortOrder: 2741
 keywords: SetName(String)

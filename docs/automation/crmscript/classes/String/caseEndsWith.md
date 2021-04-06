@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_caseEndsWith_String_s
-description: String.caseEndsWith(String s)
+uid: crmscript_ref_String_caseEndsWith_String_s
+title: String.caseEndsWith(String s)
 intellisense: String.caseEndsWith
 keywords: caseEndsWith(String)
 so.topic: reference

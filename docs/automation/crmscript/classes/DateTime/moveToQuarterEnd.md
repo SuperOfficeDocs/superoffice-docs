@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToQuarterEnd
-description: DateTime.moveToQuarterEnd()
+uid: crmscript_ref_DateTime_moveToQuarterEnd
+title: DateTime.moveToQuarterEnd()
 intellisense: DateTime.moveToQuarterEnd
 sortOrder: 222
 keywords: moveToQuarterEnd()

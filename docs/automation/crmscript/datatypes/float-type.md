@@ -1,6 +1,6 @@
 ---
-title: crmscript_datatypes_float
-description: Float data type
+uid: crmscript_datatypes_float
+title: Float data type
 author:
 so.date:
 keywords:

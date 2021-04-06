@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_getName
-description: ExtraFieldsInfo.getName()
+uid: crmscript_ref_ExtraFieldsInfo_getName
+title: ExtraFieldsInfo.getName()
 intellisense: ExtraFieldsInfo.getName
 sortOrder: 307
 keywords: getName()

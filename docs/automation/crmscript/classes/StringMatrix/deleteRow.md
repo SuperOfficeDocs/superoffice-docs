@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StringMatrix_deleteRow_Integer_row
-description: StringMatrix.deleteRow(Integer row)
+uid: crmscript_ref_StringMatrix_deleteRow_Integer_row
+title: StringMatrix.deleteRow(Integer row)
 intellisense: StringMatrix.deleteRow
 keywords: deleteRow(Integer)
 so.topic: reference

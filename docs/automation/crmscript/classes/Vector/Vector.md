@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Vector
-description: Vector
+uid: crmscript_ref_Vector
+title: Vector
 intellisense: Void.Vector
 so.topic: reference
 ---

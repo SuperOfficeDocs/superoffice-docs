@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_getNextTabIndex
-description: HtmlElement.getNextTabIndex()
+uid: crmscript_ref_HtmlElement_getNextTabIndex
+title: HtmlElement.getNextTabIndex()
 intellisense: HtmlElement.getNextTabIndex
 sortOrder: 381
 keywords: getNextTabIndex()

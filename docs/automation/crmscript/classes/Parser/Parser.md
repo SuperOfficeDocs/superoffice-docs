@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Parser
-description: Parser
+uid: crmscript_ref_Parser
+title: Parser
 intellisense: Void.Parser
 so.topic: reference
 ---

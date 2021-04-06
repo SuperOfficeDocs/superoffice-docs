@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_setText_String_text
-description: XMLNode.setText(String text)
+uid: crmscript_ref_XMLNode_setText_String_text
+title: XMLNode.setText(String text)
 intellisense: XMLNode.setText
 keywords: setText(String)
 so.topic: reference

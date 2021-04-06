@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Profile
-description: Profile
+uid: crmscript_ref_Profile
+title: Profile
 intellisense: Void.Profile
 so.topic: reference
 ---

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan
-description: TimeSpan
+uid: crmscript_ref_TimeSpan
+title: TimeSpan
 intellisense: Void.TimeSpan
 so.topic: reference
 ---

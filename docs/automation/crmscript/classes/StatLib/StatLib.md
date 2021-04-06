@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatLib
-description: StatLib
+uid: crmscript_ref_StatLib
+title: StatLib
 intellisense: Void.StatLib
 so.topic: reference
 ---

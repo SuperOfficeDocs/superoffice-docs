@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_setSendRate_Integer_sendRate
-description: SpmShipment.setSendRate(Integer sendRate)
+uid: crmscript_ref_SpmShipment_setSendRate_Integer_sendRate
+title: SpmShipment.setSendRate(Integer sendRate)
 intellisense: SpmShipment.setSendRate
 keywords: setSendRate(Integer)
 so.topic: reference

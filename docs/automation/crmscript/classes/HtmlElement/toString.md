@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_toString
-description: HtmlElement.toString()
+uid: crmscript_ref_HtmlElement_toString
+title: HtmlElement.toString()
 intellisense: HtmlElement.toString
 sortOrder: 387
 keywords: toString()

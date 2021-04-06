@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_getNumItems_Integer_p_group
-description: MainMenu.getNumItems(Integer p_group)
+uid: crmscript_ref_MainMenu_getNumItems_Integer_p_group
+title: MainMenu.getNumItems(Integer p_group)
 intellisense: MainMenu.getNumItems
 sortOrder: 507
 keywords: getNumItems(Integer)

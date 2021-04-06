@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DbConverter_eof
-description: DbConverter.eof()
+uid: crmscript_ref_DbConverter_eof
+title: DbConverter.eof()
 intellisense: DbConverter.eof
 sortOrder: 244
 keywords: eof()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer
-description: Customer
+uid: crmscript_ref_Customer
+title: Customer
 intellisense: Void.Customer
 sortOrder: 170
 so.topic: reference

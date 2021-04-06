@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isAlpha
-description: String.isAlpha()
+uid: crmscript_ref_String_isAlpha
+title: String.isAlpha()
 intellisense: String.isAlpha
 keywords: isAlpha()
 so.topic: reference

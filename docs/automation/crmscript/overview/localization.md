@@ -1,6 +1,6 @@
 ---
-title: crmscript_localization
-description: Globalization and localization
+uid: crmscript_localization
+title: Globalization and localization
 author:
 so.date:
 keywords:

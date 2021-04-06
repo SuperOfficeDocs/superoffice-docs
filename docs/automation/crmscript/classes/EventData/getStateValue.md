@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_getStateValue_String_stateValue
-description: EventData.getStateValue(String stateValue)
+uid: crmscript_ref_EventData_getStateValue_String_stateValue
+title: EventData.getStateValue(String stateValue)
 intellisense: EventData.getStateValue
 sortOrder: 294
 keywords: getStateValue(String)

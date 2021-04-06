@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_countRows
-description: GenericSearch.countRows()
+uid: crmscript_ref_GenericSearch_countRows
+title: GenericSearch.countRows()
 intellisense: GenericSearch.countRows
 sortOrder: 366
 keywords: countRows()

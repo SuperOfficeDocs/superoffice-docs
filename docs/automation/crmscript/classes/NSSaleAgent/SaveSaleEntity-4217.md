@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSaleAgent_SaveSaleEntity_NSSaleEntity_p_0
-description: NSSaleAgent.SaveSaleEntity(NSSaleEntity p_0)
+uid: crmscript_ref_NSSaleAgent_SaveSaleEntity_NSSaleEntity_p_0
+title: NSSaleAgent.SaveSaleEntity(NSSaleEntity p_0)
 intellisense: NSSaleAgent.SaveSaleEntity
 keywords: SaveSaleEntity(NSSaleEntity)
 so.topic: reference

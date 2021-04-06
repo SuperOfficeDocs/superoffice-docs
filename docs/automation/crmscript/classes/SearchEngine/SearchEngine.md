@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine
-description: SearchEngine
+uid: crmscript_ref_SearchEngine
+title: SearchEngine
 intellisense: Void.SearchEngine
 so.topic: reference
 ---

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_getHour
-description: TimeSpan.getHour()
+uid: crmscript_ref_TimeSpan_getHour
+title: TimeSpan.getHour()
 intellisense: TimeSpan.getHour
 keywords: getHour()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_regexp_String_pattern
-description: String.regexp(String pattern)
+uid: crmscript_ref_String_regexp_String_pattern
+title: String.regexp(String pattern)
 intellisense: String.regexp
 keywords: regexp(String)
 so.topic: reference

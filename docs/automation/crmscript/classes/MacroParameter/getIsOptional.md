@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_getIsOptional
-description: MacroParameter.getIsOptional()
+uid: crmscript_ref_MacroParameter_getIsOptional
+title: MacroParameter.getIsOptional()
 intellisense: MacroParameter.getIsOptional
 sortOrder: 479
 keywords: getIsOptional()

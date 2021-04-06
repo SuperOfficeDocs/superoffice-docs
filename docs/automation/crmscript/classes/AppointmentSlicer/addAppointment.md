@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_AppointmentSlicer_addAppointment_Integer_id_DateTime_start_DateTime_end_String_title
-description: AppointmentSlicer.addAppointment(Integer id, DateTime start, DateTime end, String title)
+uid: crmscript_ref_AppointmentSlicer_addAppointment_Integer_id_DateTime_start_DateTime_end_String_title
+title: AppointmentSlicer.addAppointment(Integer id, DateTime start, DateTime end, String title)
 intellisense: AppointmentSlicer.addAppointment
 sortOrder: 112
 keywords: addAppointment(Integer,DateTime,DateTime,String)

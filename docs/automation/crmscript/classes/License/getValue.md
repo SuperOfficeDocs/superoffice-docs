@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_License_getValue_String_name
-description: License.getValue(String name)
+uid: crmscript_ref_License_getValue_String_name
+title: License.getValue(String name)
 intellisense: License.getValue
 sortOrder: 463
 keywords: getValue(String)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_getChildrenFields_Integer_type_Integer_extraTableTarget
-description: ExtraFieldsInfo.getChildrenFields(Integer type, Integer extraTableTarget)
+uid: crmscript_ref_ExtraFieldsInfo_getChildrenFields_Integer_type_Integer_extraTableTarget
+title: ExtraFieldsInfo.getChildrenFields(Integer type, Integer extraTableTarget)
 intellisense: ExtraFieldsInfo.getChildrenFields
 sortOrder: 310
 keywords: getChildrenFields(Integer,Integer)

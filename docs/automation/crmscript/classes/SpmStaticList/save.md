@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmStaticList_save
-description: SpmStaticList.save()
+uid: crmscript_ref_SpmStaticList_save
+title: SpmStaticList.save()
 intellisense: SpmStaticList.save
 keywords: save()
 so.topic: reference

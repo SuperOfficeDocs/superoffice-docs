@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StringMatrix_getNumColumns_Integer_row
-description: StringMatrix.getNumColumns(Integer row)
+uid: crmscript_ref_StringMatrix_getNumColumns_Integer_row
+title: StringMatrix.getNumColumns(Integer row)
 intellisense: StringMatrix.getNumColumns
 keywords: getNumColumns(Integer)
 so.topic: reference

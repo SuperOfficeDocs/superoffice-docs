@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_addHaving_String_field_String_compOperator_String_value_String_rowOperator_Integer_priority
-description: SearchEngine.addHaving(String field, String compOperator, String value, String rowOperator, Integer priority)
+uid: crmscript_ref_SearchEngine_addHaving_String_field_String_compOperator_String_value_String_rowOperator_Integer_priority
+title: SearchEngine.addHaving(String field, String compOperator, String value, String rowOperator, Integer priority)
 intellisense: SearchEngine.addHaving
 keywords: addHaving(String,String,String,String,Integer)
 so.topic: reference

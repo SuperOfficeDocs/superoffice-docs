@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSRecurrenceDate_GetDescription
-description: NSRecurrenceDate.GetDescription()
+uid: crmscript_ref_NSRecurrenceDate_GetDescription
+title: NSRecurrenceDate.GetDescription()
 intellisense: NSRecurrenceDate.GetDescription
 keywords: GetDescription()
 so.topic: reference

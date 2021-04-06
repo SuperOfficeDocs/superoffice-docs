@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_setStartDate_DateTime_start
-description: SpmShipment.setStartDate(DateTime start)
+uid: crmscript_ref_SpmShipment_setStartDate_DateTime_start
+title: SpmShipment.setStartDate(DateTime start)
 intellisense: SpmShipment.setStartDate
 keywords: setStartDate(DateTime)
 so.topic: reference

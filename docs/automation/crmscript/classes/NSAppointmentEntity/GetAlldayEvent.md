@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAppointmentEntity_GetAlldayEvent
-description: NSAppointmentEntity.GetAlldayEvent()
+uid: crmscript_ref_NSAppointmentEntity_GetAlldayEvent
+title: NSAppointmentEntity.GetAlldayEvent()
 intellisense: NSAppointmentEntity.GetAlldayEvent
 sortOrder: 923
 keywords: GetAlldayEvent()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoPrincipalCarrier_GetEjAccessLevel
-description: NSSoPrincipalCarrier.GetEjAccessLevel()
+uid: crmscript_ref_NSSoPrincipalCarrier_GetEjAccessLevel
+title: NSSoPrincipalCarrier.GetEjAccessLevel()
 intellisense: NSSoPrincipalCarrier.GetEjAccessLevel
 keywords: GetEjAccessLevel()
 so.topic: reference

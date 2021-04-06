@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSRecurrenceInfo_GetDayPattern
-description: NSRecurrenceInfo.GetDayPattern()
+uid: crmscript_ref_NSRecurrenceInfo_GetDayPattern
+title: NSRecurrenceInfo.GetDayPattern()
 intellisense: NSRecurrenceInfo.GetDayPattern
 keywords: GetDayPattern()
 so.topic: reference

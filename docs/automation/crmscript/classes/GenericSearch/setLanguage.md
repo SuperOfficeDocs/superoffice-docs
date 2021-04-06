@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_setLanguage_Integer_languageId
-description: GenericSearch.setLanguage(Integer languageId)
+uid: crmscript_ref_GenericSearch_setLanguage_Integer_languageId
+title: GenericSearch.setLanguage(Integer languageId)
 intellisense: GenericSearch.setLanguage
 sortOrder: 375
 keywords: setLanguage(Integer)

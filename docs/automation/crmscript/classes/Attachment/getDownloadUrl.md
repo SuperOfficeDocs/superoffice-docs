@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment_getDownloadUrl_Bool_external_Bool_saveToDisk
-description: Attachment.getDownloadUrl(Bool external, Bool saveToDisk)
+uid: crmscript_ref_Attachment_getDownloadUrl_Bool_external_Bool_saveToDisk
+title: Attachment.getDownloadUrl(Bool external, Bool saveToDisk)
 intellisense: Attachment.getDownloadUrl
 sortOrder: 124
 keywords: getDownloadUrl(Bool,Bool)

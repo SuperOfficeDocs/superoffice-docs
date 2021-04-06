@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Parser_evaluateString_String_stringToParse
-description: Parser.evaluateString(String stringToParse)
+uid: crmscript_ref_Parser_evaluateString_String_stringToParse
+title: Parser.evaluateString(String stringToParse)
 intellisense: Parser.evaluateString
 keywords: evaluateString(String)
 so.topic: reference

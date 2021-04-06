@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_addField_String_field
-description: GenericSearch.addField(String field)
+uid: crmscript_ref_GenericSearch_addField_String_field
+title: GenericSearch.addField(String field)
 intellisense: GenericSearch.addField
 sortOrder: 371
 keywords: addField(String)

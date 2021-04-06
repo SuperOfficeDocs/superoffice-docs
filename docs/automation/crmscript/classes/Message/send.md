@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_send_Vector_p_to_Vector_p_cc_Vector_p_bcc_Integer_p_categoryId
-description: Message.send(Vector p_to, Vector p_cc, Vector p_bcc, Integer p_categoryId)
+uid: crmscript_ref_Message_send_Vector_p_to_Vector_p_cc_Vector_p_bcc_Integer_p_categoryId
+title: Message.send(Vector p_to, Vector p_cc, Vector p_bcc, Integer p_categoryId)
 intellisense: Message.send
 sortOrder: 542
 keywords: send(Vector,Vector,Vector,Integer)

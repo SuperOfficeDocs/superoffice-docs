@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatLib_execute_StatResult_sr
-description: StatLib.execute(StatResult sr)
+uid: crmscript_ref_StatLib_execute_StatResult_sr
+title: StatLib.execute(StatResult sr)
 intellisense: StatLib.execute
 keywords: execute(StatResult)
 so.topic: reference

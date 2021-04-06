@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetDoubleAmount
-description: NSAAATestClassForModeling.GetDoubleAmount()
+uid: crmscript_ref_NSAAATestClassForModeling_GetDoubleAmount
+title: NSAAATestClassForModeling.GetDoubleAmount()
 intellisense: NSAAATestClassForModeling.GetDoubleAmount
 sortOrder: 8920
 keywords: GetDoubleAmount()

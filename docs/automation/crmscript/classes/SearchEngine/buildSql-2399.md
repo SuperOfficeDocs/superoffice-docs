@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_buildSql_String_p_0
-description: SearchEngine.buildSql(String p_0)
+uid: crmscript_ref_SearchEngine_buildSql_String_p_0
+title: SearchEngine.buildSql(String p_0)
 intellisense: SearchEngine.buildSql
 keywords: buildSql(String)
 so.topic: reference

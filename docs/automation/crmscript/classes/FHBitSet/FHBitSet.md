@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_FHBitSet
-description: FHBitSet
+uid: crmscript_ref_FHBitSet
+title: FHBitSet
 intellisense: Void.FHBitSet
 sortOrder: 332
 so.topic: reference

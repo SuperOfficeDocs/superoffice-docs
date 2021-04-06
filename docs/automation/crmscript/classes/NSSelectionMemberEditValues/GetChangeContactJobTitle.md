@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSelectionMemberEditValues_GetChangeContactJobTitle
-description: NSSelectionMemberEditValues.GetChangeContactJobTitle()
+uid: crmscript_ref_NSSelectionMemberEditValues_GetChangeContactJobTitle
+title: NSSelectionMemberEditValues.GetChangeContactJobTitle()
 intellisense: NSSelectionMemberEditValues.GetChangeContactJobTitle
 keywords: GetChangeContactJobTitle()
 so.topic: reference

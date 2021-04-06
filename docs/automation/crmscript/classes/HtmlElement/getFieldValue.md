@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_getFieldValue_String_field
-description: HtmlElement.getFieldValue(String field)
+uid: crmscript_ref_HtmlElement_getFieldValue_String_field
+title: HtmlElement.getFieldValue(String field)
 intellisense: HtmlElement.getFieldValue
 sortOrder: 383
 keywords: getFieldValue(String)

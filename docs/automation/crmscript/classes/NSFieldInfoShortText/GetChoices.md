@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSFieldInfoShortText_GetChoices
-description: NSFieldInfoShortText.GetChoices()
+uid: crmscript_ref_NSFieldInfoShortText_GetChoices
+title: NSFieldInfoShortText.GetChoices()
 intellisense: NSFieldInfoShortText.GetChoices
 sortOrder: 3551
 keywords: GetChoices()

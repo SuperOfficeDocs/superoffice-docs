@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Date_addYear_Integer_num
-description: Date.addYear(Integer num)
+uid: crmscript_ref_Date_addYear_Integer_num
+title: Date.addYear(Integer num)
 intellisense: Date.addYear
 sortOrder: 199
 keywords: addYear(Integer)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Byte_toHex_Integer_p_padding
-description: Byte.toHex(Integer p_padding)
+uid: crmscript_ref_Byte_toHex_Integer_p_padding
+title: Byte.toHex(Integer p_padding)
 intellisense: Byte.toHex
 sortOrder: 138
 keywords: toHex(Integer)

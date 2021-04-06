@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_setDebugMode_Bool
-description: HTTP.setDebugMode(Bool)
+uid: crmscript_ref_HTTP_setDebugMode_Bool
+title: HTTP.setDebugMode(Bool)
 intellisense: HTTP.setDebugMode
 sortOrder: 416
 keywords: setDebugMode(Bool)

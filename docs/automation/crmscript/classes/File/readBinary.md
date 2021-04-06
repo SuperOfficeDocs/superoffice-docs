@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File_readBinary
-description: File.readBinary()
+uid: crmscript_ref_File_readBinary
+title: File.readBinary()
 intellisense: File.readBinary
 sortOrder: 346
 keywords: readBinary()

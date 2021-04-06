@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSFieldInfoDynamicLink_SetDefaultValue_Integer_p_0
-description: NSFieldInfoDynamicLink.SetDefaultValue(Integer p_0)
+uid: crmscript_ref_NSFieldInfoDynamicLink_SetDefaultValue_Integer_p_0
+title: NSFieldInfoDynamicLink.SetDefaultValue(Integer p_0)
 intellisense: NSFieldInfoDynamicLink.SetDefaultValue
 sortOrder: 3512
 keywords: SetDefaultValue(Integer)

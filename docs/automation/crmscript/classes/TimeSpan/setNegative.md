@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_setNegative_Bool_negative
-description: TimeSpan.setNegative(Bool negative)
+uid: crmscript_ref_TimeSpan_setNegative_Bool_negative
+title: TimeSpan.setNegative(Bool negative)
 intellisense: TimeSpan.setNegative
 keywords: setNegative(Bool)
 so.topic: reference

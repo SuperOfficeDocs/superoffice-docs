@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields_Integer_p_0
-description: NSErpSyncAgent.GetErpConnectionConfigFields(Integer p_0)
+uid: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields_Integer_p_0
+title: NSErpSyncAgent.GetErpConnectionConfigFields(Integer p_0)
 intellisense: NSErpSyncAgent.GetErpConnectionConfigFields
 sortOrder: 3217
 keywords: GetErpConnectionConfigFields(Integer)

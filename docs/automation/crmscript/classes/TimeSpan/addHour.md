@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_addHour_Integer_num
-description: TimeSpan.addHour(Integer num)
+uid: crmscript_ref_TimeSpan_addHour_Integer_num
+title: TimeSpan.addHour(Integer num)
 intellisense: TimeSpan.addHour
 keywords: addHour(Integer)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAppointmentAgent_SaveAppointmentEntity_NSAppointmentEntity_p_0
-description: NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity p_0)
+uid: crmscript_ref_NSAppointmentAgent_SaveAppointmentEntity_NSAppointmentEntity_p_0
+title: NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity p_0)
 intellisense: NSAppointmentAgent.SaveAppointmentEntity
 sortOrder: 918
 keywords: SaveAppointmentEntity(NSAppointmentEntity)

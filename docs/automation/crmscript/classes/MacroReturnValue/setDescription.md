@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroReturnValue_setDescription_String_p_0
-description: MacroReturnValue.setDescription(String p_0)
+uid: crmscript_ref_MacroReturnValue_setDescription_String_p_0
+title: MacroReturnValue.setDescription(String p_0)
 intellisense: MacroReturnValue.setDescription
 sortOrder: 500
 keywords: setDescription(String)

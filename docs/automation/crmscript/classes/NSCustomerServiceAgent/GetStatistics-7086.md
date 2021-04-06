@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSCustomerServiceAgent_GetStatistics_NSStatusScreenPanelType__p_0
-description: NSCustomerServiceAgent.GetStatistics(NSStatusScreenPanelType[] p_0)
+uid: crmscript_ref_NSCustomerServiceAgent_GetStatistics_NSStatusScreenPanelType__p_0
+title: NSCustomerServiceAgent.GetStatistics(NSStatusScreenPanelType[] p_0)
 intellisense: NSCustomerServiceAgent.GetStatistics
 sortOrder: 2239
 keywords: GetStatistics(NSStatusScreenPanelType[])

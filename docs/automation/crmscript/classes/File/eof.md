@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File_eof
-description: File.eof()
+uid: crmscript_ref_File_eof
+title: File.eof()
 intellisense: File.eof
 sortOrder: 342
 keywords: eof()

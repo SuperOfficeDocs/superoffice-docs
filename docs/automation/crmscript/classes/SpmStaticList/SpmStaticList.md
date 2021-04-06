@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmStaticList
-description: SpmStaticList
+uid: crmscript_ref_SpmStaticList
+title: SpmStaticList
 intellisense: Void.SpmStaticList
 so.topic: reference
 ---

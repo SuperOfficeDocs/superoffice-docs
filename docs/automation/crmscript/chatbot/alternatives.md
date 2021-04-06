@@ -1,6 +1,6 @@
 ---
-title: chatbot_alternatives
-description: Chatbot Alternatives
+uid: chatbot_alternatives
+title: Chatbot Alternatives
 author: christian
 so.date: 2021-03-29
 keywords: chatbot, ai

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_setTueStop_Time_t
-description: WeekSchedule.setTueStop(Time t)
+uid: crmscript_ref_WeekSchedule_setTueStop_Time_t
+title: WeekSchedule.setTueStop(Time t)
 intellisense: WeekSchedule.setTueStop
 keywords: setTueStop(Time)
 so.topic: reference

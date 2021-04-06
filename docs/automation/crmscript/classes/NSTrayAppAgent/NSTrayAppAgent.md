@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSTrayAppAgent
-description: NSTrayAppAgent
+uid: crmscript_ref_NSTrayAppAgent
+title: NSTrayAppAgent
 intellisense: Void.NSTrayAppAgent
 so.topic: reference
 ---

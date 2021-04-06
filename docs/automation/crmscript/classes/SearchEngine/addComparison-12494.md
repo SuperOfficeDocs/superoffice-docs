@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_addComparison_String_field1_String_func1_String_compOperator_String_field2_String_func2_String_rowOperator_Integer_priority
-description: SearchEngine.addComparison(String field1, String func1, String compOperator, String field2, String func2, String rowOperator, Integer priority)
+uid: crmscript_ref_SearchEngine_addComparison_String_field1_String_func1_String_compOperator_String_field2_String_func2_String_rowOperator_Integer_priority
+title: SearchEngine.addComparison(String field1, String func1, String compOperator, String field2, String func2, String rowOperator, Integer priority)
 intellisense: SearchEngine.addComparison
 keywords: addComparison(String,String,String,String,String,String,Integer)
 so.topic: reference

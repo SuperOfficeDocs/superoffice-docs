@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateEntry_SetRuleName_String_p_0
-description: NSDuplicateEntry.SetRuleName(String p_0)
+uid: crmscript_ref_NSDuplicateEntry_SetRuleName_String_p_0
+title: NSDuplicateEntry.SetRuleName(String p_0)
 intellisense: NSDuplicateEntry.SetRuleName
 sortOrder: 2730
 keywords: SetRuleName(String)

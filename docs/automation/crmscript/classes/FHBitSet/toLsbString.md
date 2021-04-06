@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_FHBitSet_toLsbString
-description: FHBitSet.toLsbString()
+uid: crmscript_ref_FHBitSet_toLsbString
+title: FHBitSet.toLsbString()
 intellisense: FHBitSet.toLsbString
 sortOrder: 336
 keywords: toLsbString()

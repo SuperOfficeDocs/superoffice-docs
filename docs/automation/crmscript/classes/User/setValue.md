@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User_setValue_String_column_String_Value
-description: User.setValue(String column, String Value)
+uid: crmscript_ref_User_setValue_String_column_String_Value
+title: User.setValue(String column, String Value)
 intellisense: User.setValue
 keywords: setValue(String,String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_findLast_String_p_0
-description: String.findLast(String p_0)
+uid: crmscript_ref_String_findLast_String_p_0
+title: String.findLast(String p_0)
 intellisense: String.findLast
 keywords: findLast(String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket
-description: Ticket
+uid: crmscript_ref_Ticket
+title: Ticket
 intellisense: Void.Ticket
 so.topic: reference
 ---

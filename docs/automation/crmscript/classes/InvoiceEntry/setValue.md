@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_setValue_String_field_String_value
-description: InvoiceEntry.setValue(String field, String value)
+uid: crmscript_ref_InvoiceEntry_setValue_String_field_String_value
+title: InvoiceEntry.setValue(String field, String value)
 intellisense: InvoiceEntry.setValue
 sortOrder: 441
 keywords: setValue(String,String)

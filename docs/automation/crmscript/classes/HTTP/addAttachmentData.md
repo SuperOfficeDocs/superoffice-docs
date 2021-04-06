@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_addAttachmentData_Integer_p_attachmentId
-description: HTTP.addAttachmentData(Integer p_attachmentId)
+uid: crmscript_ref_HTTP_addAttachmentData_Integer_p_attachmentId
+title: HTTP.addAttachmentData(Integer p_attachmentId)
 intellisense: HTTP.addAttachmentData
 sortOrder: 418
 keywords: addAttachmentData(Integer p_attachmentId)

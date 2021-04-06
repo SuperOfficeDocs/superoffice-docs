@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_toParserRaw_Parser_theParser
-description: Ticket.toParserRaw(Parser theParser)
+uid: crmscript_ref_Ticket_toParserRaw_Parser_theParser
+title: Ticket.toParserRaw(Parser theParser)
 intellisense: Ticket.toParserRaw
 keywords: toParserRaw(Parser)
 so.topic: reference

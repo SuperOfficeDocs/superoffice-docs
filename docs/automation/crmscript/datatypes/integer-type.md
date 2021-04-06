@@ -1,6 +1,6 @@
 ---
-title: crmscript_datatypes_int
-description: Integer data type
+uid: crmscript_datatypes_int
+title: Integer data type
 author:
 so.date:
 keywords:

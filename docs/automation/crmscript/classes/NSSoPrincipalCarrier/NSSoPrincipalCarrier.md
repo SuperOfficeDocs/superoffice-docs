@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoPrincipalCarrier
-description: NSSoPrincipalCarrier
+uid: crmscript_ref_NSSoPrincipalCarrier
+title: NSSoPrincipalCarrier
 intellisense: Void.NSSoPrincipalCarrier
 so.topic: reference
 ---

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_getTime
-description: DateTime.getTime()
+uid: crmscript_ref_DateTime_getTime
+title: DateTime.getTime()
 intellisense: DateTime.getTime
 sortOrder: 240
 keywords: getTime()

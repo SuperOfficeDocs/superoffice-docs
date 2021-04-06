@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_append_String_appendString
-description: String.append(String appendString)
+uid: crmscript_ref_String_append_String_appendString
+title: String.append(String appendString)
 intellisense: String.append
 keywords: append(String)
 so.topic: reference

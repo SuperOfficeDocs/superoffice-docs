@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment_getBase64
-description: Attachment.getBase64()
+uid: crmscript_ref_Attachment_getBase64
+title: Attachment.getBase64()
 intellisense: Attachment.getBase64
 sortOrder: 123
 keywords: getBase64()

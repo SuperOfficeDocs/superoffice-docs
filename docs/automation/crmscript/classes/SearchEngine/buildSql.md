@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_buildSql
-description: SearchEngine.buildSql()
+uid: crmscript_ref_SearchEngine_buildSql
+title: SearchEngine.buildSql()
 intellisense: SearchEngine.buildSql
 keywords: buildSql()
 so.topic: reference

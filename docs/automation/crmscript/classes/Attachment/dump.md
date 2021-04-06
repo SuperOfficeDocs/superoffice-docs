@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment_dump
-description: Attachment.dump()
+uid: crmscript_ref_Attachment_dump
+title: Attachment.dump()
 intellisense: Attachment.dump
 sortOrder: 117
 keywords: dump()

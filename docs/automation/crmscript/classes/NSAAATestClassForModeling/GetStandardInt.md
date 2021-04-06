@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetStandardInt
-description: NSAAATestClassForModeling.GetStandardInt()
+uid: crmscript_ref_NSAAATestClassForModeling_GetStandardInt
+title: NSAAATestClassForModeling.GetStandardInt()
 intellisense: NSAAATestClassForModeling.GetStandardInt
 sortOrder: 8926
 keywords: GetStandardInt()

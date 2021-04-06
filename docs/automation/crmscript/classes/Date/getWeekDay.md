@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Date_getWeekDay
-description: Date.getWeekDay()
+uid: crmscript_ref_Date_getWeekDay
+title: Date.getWeekDay()
 intellisense: Date.getWeekDay
 sortOrder: 203
 keywords: getWeekDay()

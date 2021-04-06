@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_caseBeginsWith_String_s
-description: String.caseBeginsWith(String s)
+uid: crmscript_ref_String_caseBeginsWith_String_s
+title: String.caseBeginsWith(String s)
 intellisense: String.caseBeginsWith
 keywords: caseBeginsWith(String)
 so.topic: reference

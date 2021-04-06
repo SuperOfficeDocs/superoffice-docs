@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatLib_setStringMatrix_StringMatrix_sm
-description: StatLib.setStringMatrix(StringMatrix sm)
+uid: crmscript_ref_StatLib_setStringMatrix_StringMatrix_sm
+title: StatLib.setStringMatrix(StringMatrix sm)
 intellisense: StatLib.setStringMatrix
 keywords: setStringMatrix(StringMatrix)
 so.topic: reference

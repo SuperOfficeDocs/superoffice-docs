@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Integer_abs
-description: Integer.abs()
+uid: crmscript_ref_Integer_abs
+title: Integer.abs()
 intellisense: Integer.abs
 sortOrder: 426
 keywords: abs()

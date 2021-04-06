@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_toLower
-description: String.toLower()
+uid: crmscript_ref_String_toLower
+title: String.toLower()
 intellisense: String.toLower
 keywords: toLower()
 so.topic: reference

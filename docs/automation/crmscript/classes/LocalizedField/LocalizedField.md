@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_LocalizedField
-description: LocalizedField
+uid: crmscript_ref_LocalizedField
+title: LocalizedField
 intellisense: Void.LocalizedField
 sortOrder: 465
 so.topic: reference

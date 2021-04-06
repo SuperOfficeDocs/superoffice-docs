@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_extractHtmlBody_Bool_convertBodyToDiv
-description: String.extractHtmlBody(Bool convertBodyToDiv)
+uid: crmscript_ref_String_extractHtmlBody_Bool_convertBodyToDiv
+title: String.extractHtmlBody(Bool convertBodyToDiv)
 intellisense: String.extractHtmlBody
 keywords: extractHtmlBody(Bool)
 so.topic: reference

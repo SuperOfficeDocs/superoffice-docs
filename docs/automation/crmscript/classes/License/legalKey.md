@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_License_legalKey
-description: License.legalKey()
+uid: crmscript_ref_License_legalKey
+title: License.legalKey()
 intellisense: License.legalKey
 sortOrder: 460
 keywords: legalKey()

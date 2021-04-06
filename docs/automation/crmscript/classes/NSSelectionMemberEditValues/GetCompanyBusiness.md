@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSelectionMemberEditValues_GetCompanyBusiness
-description: NSSelectionMemberEditValues.GetCompanyBusiness()
+uid: crmscript_ref_NSSelectionMemberEditValues_GetCompanyBusiness
+title: NSSelectionMemberEditValues.GetCompanyBusiness()
 intellisense: NSSelectionMemberEditValues.GetCompanyBusiness
 keywords: GetCompanyBusiness()
 so.topic: reference

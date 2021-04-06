@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment
-description: SpmShipment
+uid: crmscript_ref_SpmShipment
+title: SpmShipment
 intellisense: Void.SpmShipment
 so.topic: reference
 ---

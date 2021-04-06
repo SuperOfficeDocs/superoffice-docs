@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmCustomerList_removeRecipients
-description: SpmCustomerList.removeRecipients()
+uid: crmscript_ref_SpmCustomerList_removeRecipients
+title: SpmCustomerList.removeRecipients()
 intellisense: SpmCustomerList.removeRecipients
 keywords: removeRecipients()
 so.topic: reference

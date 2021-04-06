@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_addYear_Integer_num
-description: TimeSpan.addYear(Integer num)
+uid: crmscript_ref_TimeSpan_addYear_Integer_num
+title: TimeSpan.addYear(Integer num)
 intellisense: TimeSpan.addYear
 keywords: addYear(Integer)
 so.topic: reference

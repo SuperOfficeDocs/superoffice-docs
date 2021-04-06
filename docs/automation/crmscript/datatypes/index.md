@@ -1,6 +1,6 @@
 ---
-title: crmscript_data_types
-description: Data types
+uid: crmscript_data_types
+title: Data types
 author:
 so.date:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_toInteger
-description: String.toInteger()
+uid: crmscript_ref_String_toInteger
+title: String.toInteger()
 intellisense: String.toInteger
 keywords: toInteger()
 so.topic: reference

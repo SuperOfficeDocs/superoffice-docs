@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment_getRaw
-description: Attachment.getRaw()
+uid: crmscript_ref_Attachment_getRaw
+title: Attachment.getRaw()
 intellisense: Attachment.getRaw
 sortOrder: 125
 keywords: getRaw()

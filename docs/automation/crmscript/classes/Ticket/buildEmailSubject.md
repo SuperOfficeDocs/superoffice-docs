@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_buildEmailSubject
-description: Ticket.buildEmailSubject()
+uid: crmscript_ref_Ticket_buildEmailSubject
+title: Ticket.buildEmailSubject()
 intellisense: Ticket.buildEmailSubject
 keywords: buildEmailSubject()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DBWrite_addInteger_String_name_Integer_value
-description: DBWrite.addInteger(String name, Integer value)
+uid: crmscript_ref_DBWrite_addInteger_String_name_Integer_value
+title: DBWrite.addInteger(String name, Integer value)
 intellisense: DBWrite.addInteger
 sortOrder: 265
 keywords: addInteger(String,Integer)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmStaticList_delete
-description: SpmStaticList.delete()
+uid: crmscript_ref_SpmStaticList_delete
+title: SpmStaticList.delete()
 intellisense: SpmStaticList.delete
 keywords: delete()
 so.topic: reference

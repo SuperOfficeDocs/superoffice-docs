@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Time_setMin_Integer_min
-description: Time.setMin(Integer min)
+uid: crmscript_ref_Time_setMin_Integer_min
+title: Time.setMin(Integer min)
 intellisense: Time.setMin
 keywords: setMin(Integer)
 so.topic: reference

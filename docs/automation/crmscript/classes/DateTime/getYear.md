@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_getYear
-description: DateTime.getYear()
+uid: crmscript_ref_DateTime_getYear
+title: DateTime.getYear()
 intellisense: DateTime.getYear
 sortOrder: 235
 keywords: getYear()

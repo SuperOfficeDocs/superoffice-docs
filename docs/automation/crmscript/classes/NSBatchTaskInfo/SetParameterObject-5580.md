@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSBatchTaskInfo_SetParameterObject_StringDictionary_p_0
-description: NSBatchTaskInfo.SetParameterObject(StringDictionary p_0)
+uid: crmscript_ref_NSBatchTaskInfo_SetParameterObject_StringDictionary_p_0
+title: NSBatchTaskInfo.SetParameterObject(StringDictionary p_0)
 intellisense: NSBatchTaskInfo.SetParameterObject
 sortOrder: 1398
 keywords: SetParameterObject(StringDictionary)

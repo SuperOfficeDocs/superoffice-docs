@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_getName
-description: XMLNode.getName()
+uid: crmscript_ref_XMLNode_getName
+title: XMLNode.getName()
 intellisense: XMLNode.getName
 keywords: getName()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Date
-description: Date
+uid: crmscript_ref_Date
+title: Date
 intellisense: Void.Date
 sortOrder: 194
 so.topic: reference

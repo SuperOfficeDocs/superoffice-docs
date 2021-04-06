@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User_hasTicketAccess_Integer_ticketId_Integer_accessLevel
-description: User.hasTicketAccess(Integer ticketId, Integer accessLevel)
+uid: crmscript_ref_User_hasTicketAccess_Integer_ticketId_Integer_accessLevel
+title: User.hasTicketAccess(Integer ticketId, Integer accessLevel)
 intellisense: User.hasTicketAccess
 keywords: hasTicketAccess(Integer,Integer)
 so.topic: reference

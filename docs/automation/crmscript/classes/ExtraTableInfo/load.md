@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTableInfo_load_String_tableName
-description: ExtraTableInfo.load(String tableName)
+uid: crmscript_ref_ExtraTableInfo_load_String_tableName
+title: ExtraTableInfo.load(String tableName)
 intellisense: ExtraTableInfo.load
 sortOrder: 331
 keywords: load(String)

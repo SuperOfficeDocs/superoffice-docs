@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmStaticList_getRecipients
-description: SpmStaticList.getRecipients()
+uid: crmscript_ref_SpmStaticList_getRecipients
+title: SpmStaticList.getRecipients()
 intellisense: SpmStaticList.getRecipients
 keywords: getRecipients()
 so.topic: reference

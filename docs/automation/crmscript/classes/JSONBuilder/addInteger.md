@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_JSONBuilder_addInteger_String_key_Integer_value
-description: JSONBuilder.addInteger(String key, Integer value)
+uid: crmscript_ref_JSONBuilder_addInteger_String_key_Integer_value
+title: JSONBuilder.addInteger(String key, Integer value)
 intellisense: JSONBuilder.addInteger
 sortOrder: 448
 keywords: addInteger(String,Integer)

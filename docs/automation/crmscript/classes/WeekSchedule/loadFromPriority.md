@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_loadFromPriority_Integer_p_id
-description: WeekSchedule.loadFromPriority(Integer p_id)
+uid: crmscript_ref_WeekSchedule_loadFromPriority_Integer_p_id
+title: WeekSchedule.loadFromPriority(Integer p_id)
 intellisense: WeekSchedule.loadFromPriority
 keywords: loadFromPriority(Integer)
 so.topic: reference

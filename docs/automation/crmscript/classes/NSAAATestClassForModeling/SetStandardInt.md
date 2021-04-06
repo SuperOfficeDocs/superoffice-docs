@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_SetStandardInt_Integer_p_0
-description: NSAAATestClassForModeling.SetStandardInt(Integer p_0)
+uid: crmscript_ref_NSAAATestClassForModeling_SetStandardInt_Integer_p_0
+title: NSAAATestClassForModeling.SetStandardInt(Integer p_0)
 intellisense: NSAAATestClassForModeling.SetStandardInt
 sortOrder: 8949
 keywords: SetStandardInt(Integer)

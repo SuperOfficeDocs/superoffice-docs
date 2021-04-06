@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDSAParameters_GetY
-description: NSDSAParameters.GetY()
+uid: crmscript_ref_NSDSAParameters_GetY
+title: NSDSAParameters.GetY()
 intellisense: NSDSAParameters.GetY
 sortOrder: 2712
 keywords: GetY()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_setCallBack_String_functionName
-description: SearchEngine.setCallBack(String functionName)
+uid: crmscript_ref_SearchEngine_setCallBack_String_functionName
+title: SearchEngine.setCallBack(String functionName)
 intellisense: SearchEngine.setCallBack
 keywords: setCallBack(String)
 so.topic: reference

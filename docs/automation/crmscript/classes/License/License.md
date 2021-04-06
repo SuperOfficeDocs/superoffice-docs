@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_License
-description: License
+uid: crmscript_ref_License
+title: License
 intellisense: Void.License
 sortOrder: 458
 so.topic: reference

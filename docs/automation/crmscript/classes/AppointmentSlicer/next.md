@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_AppointmentSlicer_next
-description: AppointmentSlicer.next()
+uid: crmscript_ref_AppointmentSlicer_next
+title: AppointmentSlicer.next()
 intellisense: AppointmentSlicer.next
 sortOrder: 109
 keywords: next()

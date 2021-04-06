@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_getFlags
-description: ExtraFieldsInfo.getFlags()
+uid: crmscript_ref_ExtraFieldsInfo_getFlags
+title: ExtraFieldsInfo.getFlags()
 intellisense: ExtraFieldsInfo.getFlags
 sortOrder: 304
 keywords: getFlags()

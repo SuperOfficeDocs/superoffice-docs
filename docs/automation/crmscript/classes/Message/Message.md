@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message
-description: Message
+uid: crmscript_ref_Message
+title: Message
 intellisense: Void.Message
 sortOrder: 539
 so.topic: reference

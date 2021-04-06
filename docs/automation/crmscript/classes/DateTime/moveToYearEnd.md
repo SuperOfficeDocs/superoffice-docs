@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToYearEnd
-description: DateTime.moveToYearEnd()
+uid: crmscript_ref_DateTime_moveToYearEnd
+title: DateTime.moveToYearEnd()
 intellisense: DateTime.moveToYearEnd
 sortOrder: 226
 keywords: moveToYearEnd()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetAAATestClassForModeling_Integer_p_0
-description: NSAAAMockAgent.GetAAATestClassForModeling(Integer p_0)
+uid: crmscript_ref_NSAAAMockAgent_GetAAATestClassForModeling_Integer_p_0
+title: NSAAAMockAgent.GetAAATestClassForModeling(Integer p_0)
 intellisense: NSAAAMockAgent.GetAAATestClassForModeling
 sortOrder: 8896
 keywords: GetAAATestClassForModeling(Integer)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_getTabIndexString
-description: HtmlElement.getTabIndexString()
+uid: crmscript_ref_HtmlElement_getTabIndexString
+title: HtmlElement.getTabIndexString()
 intellisense: HtmlElement.getTabIndexString
 sortOrder: 384
 keywords: getTabIndexString()

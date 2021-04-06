@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Time_isNull
-description: Time.isNull()
+uid: crmscript_ref_Time_isNull
+title: Time.isNull()
 intellisense: Time.isNull
 keywords: isNull()
 so.topic: reference

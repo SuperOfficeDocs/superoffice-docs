@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSTableRight
-description: NSTableRight
+uid: crmscript_ref_NSTableRight
+title: NSTableRight
 intellisense: Void.NSTableRight
 so.topic: reference
 ---

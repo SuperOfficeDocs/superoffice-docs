@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_removeEmail_String_email
-description: Customer.removeEmail(String email)
+uid: crmscript_ref_Customer_removeEmail_String_email
+title: Customer.removeEmail(String email)
 intellisense: Customer.removeEmail
 sortOrder: 190
 keywords: removeEmail(String)

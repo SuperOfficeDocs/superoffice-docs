@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatResult_getField_String_field
-description: StatResult.getField(String field)
+uid: crmscript_ref_StatResult_getField_String_field
+title: StatResult.getField(String field)
 intellisense: StatResult.getField
 keywords: getField(String)
 so.topic: reference

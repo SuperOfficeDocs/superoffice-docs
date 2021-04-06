@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Vector_get_Integer_index
-description: Vector.get(Integer index)
+uid: crmscript_ref_Vector_get_Integer_index
+title: Vector.get(Integer index)
 intellisense: Vector.get
 keywords: get(Integer)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSelectionMemberEditValues_GetChangeCompanyCountry
-description: NSSelectionMemberEditValues.GetChangeCompanyCountry()
+uid: crmscript_ref_NSSelectionMemberEditValues_GetChangeCompanyCountry
+title: NSSelectionMemberEditValues.GetChangeCompanyCountry()
 intellisense: NSSelectionMemberEditValues.GetChangeCompanyCountry
 keywords: GetChangeCompanyCountry()
 so.topic: reference

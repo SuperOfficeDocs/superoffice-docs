@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User_loadFromAgentAndKey_Integer_id_String_Key
-description: User.loadFromAgentAndKey(Integer id, String Key)
+uid: crmscript_ref_User_loadFromAgentAndKey_Integer_id_String_Key
+title: User.loadFromAgentAndKey(Integer id, String Key)
 intellisense: User.loadFromAgentAndKey
 keywords: loadFromAgentAndKey(Integer,String)
 so.topic: reference

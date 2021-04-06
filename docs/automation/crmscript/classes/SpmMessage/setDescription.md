@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmMessage_setDescription_String_description
-description: SpmMessage.setDescription(String description)
+uid: crmscript_ref_SpmMessage_setDescription_String_description
+title: SpmMessage.setDescription(String description)
 intellisense: SpmMessage.setDescription
 keywords: setDescription(String)
 so.topic: reference

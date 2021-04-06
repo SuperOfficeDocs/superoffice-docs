@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateRule_GetDisplayTooltip
-description: NSDuplicateRule.GetDisplayTooltip()
+uid: crmscript_ref_NSDuplicateRule_GetDisplayTooltip
+title: NSDuplicateRule.GetDisplayTooltip()
 intellisense: NSDuplicateRule.GetDisplayTooltip
 sortOrder: 2736
 keywords: GetDisplayTooltip()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTableInfo_getName
-description: ExtraTableInfo.getName()
+uid: crmscript_ref_ExtraTableInfo_getName
+title: ExtraTableInfo.getName()
 intellisense: ExtraTableInfo.getName
 sortOrder: 330
 keywords: getName()

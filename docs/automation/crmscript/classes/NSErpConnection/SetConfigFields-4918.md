@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSErpConnection_SetConfigFields_StringDictionary_p_0
-description: NSErpConnection.SetConfigFields(StringDictionary p_0)
+uid: crmscript_ref_NSErpConnection_SetConfigFields_StringDictionary_p_0
+title: NSErpConnection.SetConfigFields(StringDictionary p_0)
 intellisense: NSErpConnection.SetConfigFields
 sortOrder: 3095
 keywords: SetConfigFields(StringDictionary)

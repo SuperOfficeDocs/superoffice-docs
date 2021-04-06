@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_getType
-description: EventData.getType()
+uid: crmscript_ref_EventData_getType
+title: EventData.getType()
 intellisense: EventData.getType
 sortOrder: 288
 keywords: getType()

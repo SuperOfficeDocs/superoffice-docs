@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_getExtraFields_String_p_0
-description: ExtraFieldsInfo.getExtraFields(String p_0)
+uid: crmscript_ref_ExtraFieldsInfo_getExtraFields_String_p_0
+title: ExtraFieldsInfo.getExtraFields(String p_0)
 intellisense: ExtraFieldsInfo.getExtraFields
 sortOrder: 313
 keywords: getExtraFields(String)

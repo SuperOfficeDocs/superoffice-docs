@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EabEntry
-description: EabEntry
+uid: crmscript_ref_EabEntry
+title: EabEntry
 intellisense: Void.EabEntry
 sortOrder: 272
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_log_String_message
-description: Ticket.log(String message)
+uid: crmscript_ref_Ticket_log_String_message
+title: Ticket.log(String message)
 intellisense: Ticket.log
 keywords: log(String)
 so.topic: reference

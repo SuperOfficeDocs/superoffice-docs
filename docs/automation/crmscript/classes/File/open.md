@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File_open_String_filename_String_mode
-description: File.open(String filename, String mode)
+uid: crmscript_ref_File_open_String_filename_String_mode
+title: File.open(String filename, String mode)
 intellisense: File.open
 sortOrder: 343
 keywords: open(String,String)

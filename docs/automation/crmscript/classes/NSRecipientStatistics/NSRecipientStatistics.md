@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSRecipientStatistics
-description: NSRecipientStatistics
+uid: crmscript_ref_NSRecipientStatistics
+title: NSRecipientStatistics
 intellisense: Void.NSRecipientStatistics
 so.topic: reference
 ---

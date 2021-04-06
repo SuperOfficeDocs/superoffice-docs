@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_findFromCellphone_String_cellphone
-description: Customer.findFromCellphone(String cellphone)
+uid: crmscript_ref_Customer_findFromCellphone_String_cellphone
+title: Customer.findFromCellphone(String cellphone)
 intellisense: Customer.findFromCellphone
 sortOrder: 176
 keywords: findFromCellphone(String)

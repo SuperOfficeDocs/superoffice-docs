@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_getMonStop
-description: WeekSchedule.getMonStop()
+uid: crmscript_ref_WeekSchedule_getMonStop
+title: WeekSchedule.getMonStop()
 intellisense: WeekSchedule.getMonStop
 keywords: getMonStop()
 so.topic: reference

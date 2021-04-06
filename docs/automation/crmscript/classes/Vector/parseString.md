@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Vector_parseString_String_text_String_delimiter
-description: Vector.parseString(String text, String delimiter)
+uid: crmscript_ref_Vector_parseString_String_text_String_delimiter
+title: Vector.parseString(String text, String delimiter)
 intellisense: Vector.parseString
 keywords: parseString(String,String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_getLine
-description: String.getLine()
+uid: crmscript_ref_String_getLine
+title: String.getLine()
 intellisense: String.getLine
 keywords: getLine()
 so.topic: reference

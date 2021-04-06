@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_JSONBuilder_pushArray_String
-description: JSONBuilder.pushArray(String)
+uid: crmscript_ref_JSONBuilder_pushArray_String
+title: JSONBuilder.pushArray(String)
 intellisense: JSONBuilder.pushArray
 sortOrder: 451
 keywords: pushArray(String)

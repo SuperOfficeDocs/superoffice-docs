@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToYearStart
-description: DateTime.moveToYearStart()
+uid: crmscript_ref_DateTime_moveToYearStart
+title: DateTime.moveToYearStart()
 intellisense: DateTime.moveToYearStart
 sortOrder: 227
 keywords: moveToYearStart()

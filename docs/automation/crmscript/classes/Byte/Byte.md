@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Byte
-description: Byte
+uid: crmscript_ref_Byte
+title: Byte
 intellisense: Void.Byte
 sortOrder: 133
 so.topic: reference

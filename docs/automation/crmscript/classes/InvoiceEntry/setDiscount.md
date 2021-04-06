@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_setDiscount_Float_percent
-description: InvoiceEntry.setDiscount(Float percent)
+uid: crmscript_ref_InvoiceEntry_setDiscount_Float_percent
+title: InvoiceEntry.setDiscount(Float percent)
 intellisense: InvoiceEntry.setDiscount
 sortOrder: 438
 keywords: setDiscount(Float)

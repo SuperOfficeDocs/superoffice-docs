@@ -1,6 +1,6 @@
 ---
-title: crmscript_debug_troubleshooting
-description: Basic troubleshooting
+uid: crmscript_debug_troubleshooting
+title: Basic troubleshooting
 author:
 so.date:
 keywords:

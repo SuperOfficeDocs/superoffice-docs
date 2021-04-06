@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_first
-description: Map.first()
+uid: crmscript_ref_Map_first
+title: Map.first()
 intellisense: Map.first
 sortOrder: 526
 keywords: first()

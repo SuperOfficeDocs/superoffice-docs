@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch
-description: GenericSearch
+uid: crmscript_ref_GenericSearch
+title: GenericSearch
 intellisense: Void.GenericSearch
 sortOrder: 361
 so.topic: reference

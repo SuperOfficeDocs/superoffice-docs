@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroReturnValue_getDescription
-description: MacroReturnValue.getDescription()
+uid: crmscript_ref_MacroReturnValue_getDescription
+title: MacroReturnValue.getDescription()
 intellisense: MacroReturnValue.getDescription
 sortOrder: 498
 keywords: getDescription()

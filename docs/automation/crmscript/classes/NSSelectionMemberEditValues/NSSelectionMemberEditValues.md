@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSelectionMemberEditValues
-description: NSSelectionMemberEditValues
+uid: crmscript_ref_NSSelectionMemberEditValues
+title: NSSelectionMemberEditValues
 intellisense: Void.NSSelectionMemberEditValues
 so.topic: reference
 ---

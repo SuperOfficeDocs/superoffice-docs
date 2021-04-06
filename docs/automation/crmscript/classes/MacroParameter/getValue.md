@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_getValue
-description: MacroParameter.getValue()
+uid: crmscript_ref_MacroParameter_getValue
+title: MacroParameter.getValue()
 intellisense: MacroParameter.getValue
 sortOrder: 486
 keywords: getValue()

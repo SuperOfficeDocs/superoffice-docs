@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File_write_String_data
-description: File.write(String data)
+uid: crmscript_ref_File_write_String_data
+title: File.write(String data)
 intellisense: File.write
 sortOrder: 352
 keywords: write(String)

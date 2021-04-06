@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetInteger
-description: NSAAAMockAgent.GetInteger()
+uid: crmscript_ref_NSAAAMockAgent_GetInteger
+title: NSAAAMockAgent.GetInteger()
 intellisense: NSAAAMockAgent.GetInteger
 sortOrder: 8890
 keywords: GetInteger()

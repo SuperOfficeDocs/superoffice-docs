@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetUshortProbability
-description: NSAAATestClassForModeling.GetUshortProbability()
+uid: crmscript_ref_NSAAATestClassForModeling_GetUshortProbability
+title: NSAAATestClassForModeling.GetUshortProbability()
 intellisense: NSAAATestClassForModeling.GetUshortProbability
 sortOrder: 8927
 keywords: GetUshortProbability()

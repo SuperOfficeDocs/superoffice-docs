@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_addListTicketSelection_Integer_p_0
-description: SpmShipment.addListTicketSelection(Integer p_0)
+uid: crmscript_ref_SpmShipment_addListTicketSelection_Integer_p_0
+title: SpmShipment.addListTicketSelection(Integer p_0)
 intellisense: SpmShipment.addListTicketSelection
 keywords: addListTicketSelection(Integer)
 so.topic: reference

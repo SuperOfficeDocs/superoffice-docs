@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Category_load_Integer_id
-description: Category.load(Integer id)
+uid: crmscript_ref_Category_load_Integer_id
+title: Category.load(Integer id)
 intellisense: Category.load
 sortOrder: 151
 keywords: load(Integer)

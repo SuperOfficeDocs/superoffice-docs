@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_addGroup_String_label_String_image
-description: MainMenu.addGroup(String label, String image)
+uid: crmscript_ref_MainMenu_addGroup_String_label_String_image
+title: MainMenu.addGroup(String label, String image)
 intellisense: MainMenu.addGroup
 sortOrder: 510
 keywords: addGroup(String,String)

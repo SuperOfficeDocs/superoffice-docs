@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company_toParser_Parser_parser
-description: Company.toParser(Parser parser)
+uid: crmscript_ref_Company_toParser_Parser_parser
+title: Company.toParser(Parser parser)
 intellisense: Company.toParser
 sortOrder: 169
 keywords: toParser(Parser)

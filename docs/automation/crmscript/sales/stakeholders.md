@@ -1,6 +1,6 @@
 ---
-title: crmscript_sale-stakeholders
-description: Stakeholders
+uid: crmscript_sale-stakeholders
+title: Stakeholders
 author:
 so.date:
 keywords:

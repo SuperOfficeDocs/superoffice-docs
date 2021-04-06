@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_loops_break_continue
-description: Loops - break and continue
+uid: crmscript_fundamentals_loops_break_continue
+title: Loops - break and continue
 author:
 so.date:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSReplicationAgent_SaveSatellite_NSSatellite_p_0
-description: NSReplicationAgent.SaveSatellite(NSSatellite p_0)
+uid: crmscript_ref_NSReplicationAgent_SaveSatellite_NSSatellite_p_0
+title: NSReplicationAgent.SaveSatellite(NSSatellite p_0)
 intellisense: NSReplicationAgent.SaveSatellite
 keywords: SaveSatellite(NSSatellite)
 so.topic: reference

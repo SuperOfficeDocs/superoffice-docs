@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_setBlockExecution_Bool_val
-description: EventData.setBlockExecution(Bool val)
+uid: crmscript_ref_EventData_setBlockExecution_Bool_val
+title: EventData.setBlockExecution(Bool val)
 intellisense: EventData.setBlockExecution
 sortOrder: 295
 keywords: setBlockExecution(Bool)

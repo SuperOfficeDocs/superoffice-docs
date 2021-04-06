@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EabEntry_setValue_String_p_0_String_p_1
-description: EabEntry.setValue(String p_0, String p_1)
+uid: crmscript_ref_EabEntry_setValue_String_p_0_String_p_1
+title: EabEntry.setValue(String p_0, String p_1)
 intellisense: EabEntry.setValue
 sortOrder: 279
 keywords: setValue(String,String)

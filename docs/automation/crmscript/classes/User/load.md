@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User_load_Integer_p_id
-description: User.load(Integer p_id)
+uid: crmscript_ref_User_load_Integer_p_id
+title: User.load(Integer p_id)
 intellisense: User.load
 keywords: load(Integer)
 so.topic: reference

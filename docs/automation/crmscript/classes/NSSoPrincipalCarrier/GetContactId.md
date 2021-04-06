@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoPrincipalCarrier_GetContactId
-description: NSSoPrincipalCarrier.GetContactId()
+uid: crmscript_ref_NSSoPrincipalCarrier_GetContactId
+title: NSSoPrincipalCarrier.GetContactId()
 intellisense: NSSoPrincipalCarrier.GetContactId
 keywords: GetContactId()
 so.topic: reference

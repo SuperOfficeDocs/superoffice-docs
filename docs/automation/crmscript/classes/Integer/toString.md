@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Integer_toString
-description: Integer.toString()
+uid: crmscript_ref_Integer_toString
+title: Integer.toString()
 intellisense: Integer.toString
 sortOrder: 429
 keywords: toString()

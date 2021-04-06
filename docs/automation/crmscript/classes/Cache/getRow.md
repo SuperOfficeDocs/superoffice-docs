@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Cache_getRow
-description: Cache.getRow()
+uid: crmscript_ref_Cache_getRow
+title: Cache.getRow()
 intellisense: Cache.getRow
 sortOrder: 145
 keywords: getRow()

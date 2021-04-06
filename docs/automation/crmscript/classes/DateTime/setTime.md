@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_setTime_Time_theTime
-description: DateTime.setTime(Time theTime)
+uid: crmscript_ref_DateTime_setTime_Time_theTime
+title: DateTime.setTime(Time theTime)
 intellisense: DateTime.setTime
 sortOrder: 241
 keywords: setTime(Time)

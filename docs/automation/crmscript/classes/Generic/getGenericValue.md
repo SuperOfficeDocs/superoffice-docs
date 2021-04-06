@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_getGenericValue_Generic_struct_String_name
-description: Generic.getGenericValue(Generic struct, String name)
+uid: crmscript_ref_Generic_getGenericValue_Generic_struct_String_name
+title: Generic.getGenericValue(Generic struct, String name)
 intellisense: Generic.getGenericValue
 langref: 1
 sortOrder: 70

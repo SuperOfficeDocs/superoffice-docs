@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DbiControl_sendObject_Map_values
-description: DbiControl.sendObject(Map values)
+uid: crmscript_ref_DbiControl_sendObject_Map_values
+title: DbiControl.sendObject(Map values)
 intellisense: DbiControl.sendObject
 sortOrder: 257
 keywords: sendObject(Map)

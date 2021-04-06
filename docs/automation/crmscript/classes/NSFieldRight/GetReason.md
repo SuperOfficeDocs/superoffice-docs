@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSFieldRight_GetReason
-description: NSFieldRight.GetReason()
+uid: crmscript_ref_NSFieldRight_GetReason
+title: NSFieldRight.GetReason()
 intellisense: NSFieldRight.GetReason
 sortOrder: 3611
 keywords: GetReason()

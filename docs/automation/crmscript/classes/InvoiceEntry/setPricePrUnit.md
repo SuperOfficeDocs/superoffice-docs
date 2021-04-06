@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_setPricePrUnit_Float_price
-description: InvoiceEntry.setPricePrUnit(Float price)
+uid: crmscript_ref_InvoiceEntry_setPricePrUnit_Float_price
+title: InvoiceEntry.setPricePrUnit(Float price)
 intellisense: InvoiceEntry.setPricePrUnit
 sortOrder: 440
 keywords: setPricePrUnit(Float)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company_findFromDomain_String_domain
-description: Company.findFromDomain(String domain)
+uid: crmscript_ref_Company_findFromDomain_String_domain
+title: Company.findFromDomain(String domain)
 intellisense: Company.findFromDomain
 sortOrder: 159
 keywords: findFromDomain(String)

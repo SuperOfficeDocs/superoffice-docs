@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_toFloat
-description: String.toFloat()
+uid: crmscript_ref_String_toFloat
+title: String.toFloat()
 intellisense: String.toFloat
 keywords: toFloat()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Category_setValue_String_name_String_value
-description: Category.setValue(String name, String value)
+uid: crmscript_ref_Category_setValue_String_name_String_value
+title: Category.setValue(String name, String value)
 intellisense: Category.setValue
 sortOrder: 154
 keywords: setValue(String,String)

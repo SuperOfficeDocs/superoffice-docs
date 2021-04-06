@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_toBool
-description: String.toBool()
+uid: crmscript_ref_String_toBool
+title: String.toBool()
 intellisense: String.toBool
 keywords: toBool()
 so.topic: reference

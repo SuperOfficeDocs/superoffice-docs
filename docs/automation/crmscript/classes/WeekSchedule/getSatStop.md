@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_getSatStop
-description: WeekSchedule.getSatStop()
+uid: crmscript_ref_WeekSchedule_getSatStop
+title: WeekSchedule.getSatStop()
 intellisense: WeekSchedule.getSatStop
 keywords: getSatStop()
 so.topic: reference

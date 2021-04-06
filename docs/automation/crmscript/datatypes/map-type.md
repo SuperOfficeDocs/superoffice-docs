@@ -1,6 +1,6 @@
 ---
-title: crmscript_datatypes_map
-description: Map data type
+uid: crmscript_datatypes_map
+title: Map data type
 author:
 so.date:
 keywords:

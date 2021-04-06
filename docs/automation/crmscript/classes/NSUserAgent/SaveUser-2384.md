@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSUserAgent_SaveUser_NSUser_p_0
-description: NSUserAgent.SaveUser(NSUser p_0)
+uid: crmscript_ref_NSUserAgent_SaveUser_NSUser_p_0
+title: NSUserAgent.SaveUser(NSUser p_0)
 intellisense: NSUserAgent.SaveUser
 keywords: SaveUser(NSUser)
 so.topic: reference

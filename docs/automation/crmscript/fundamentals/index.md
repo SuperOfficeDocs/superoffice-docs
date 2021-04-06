@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals
-description: Fundamentals of CRMScript
+uid: crmscript_fundamentals
+title: Fundamentals of CRMScript
 author:
 so.date:
 keywords:

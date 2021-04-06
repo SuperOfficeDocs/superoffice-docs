@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Time_getSec
-description: Time.getSec()
+uid: crmscript_ref_Time_getSec
+title: Time.getSec()
 intellisense: Time.getSec
 keywords: getSec()
 so.topic: reference

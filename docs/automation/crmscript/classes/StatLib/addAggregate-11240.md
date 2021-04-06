@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatLib_addAggregate_Integer_groupColumn_Integer_column_String_name_String_type_Integer_decimals_Integer_uniqueColumn
-description: StatLib.addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals, Integer uniqueColumn)
+uid: crmscript_ref_StatLib_addAggregate_Integer_groupColumn_Integer_column_String_name_String_type_Integer_decimals_Integer_uniqueColumn
+title: StatLib.addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals, Integer uniqueColumn)
 intellisense: StatLib.addAggregate
 keywords: addAggregate(Integer,Integer,String,String,Integer,Integer)
 so.topic: reference

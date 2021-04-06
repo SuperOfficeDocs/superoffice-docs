@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ReplyTemplate_getSubject_Integer_language
-description: ReplyTemplate.getSubject(Integer language)
+uid: crmscript_ref_ReplyTemplate_getSubject_Integer_language
+title: ReplyTemplate.getSubject(Integer language)
 intellisense: ReplyTemplate.getSubject
 keywords: getSubject(Integer)
 so.topic: reference

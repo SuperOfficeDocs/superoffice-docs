@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSArchiveColumnInfo_GetSourceCode
-description: NSArchiveColumnInfo.GetSourceCode()
+uid: crmscript_ref_NSArchiveColumnInfo_GetSourceCode
+title: NSArchiveColumnInfo.GetSourceCode()
 intellisense: NSArchiveColumnInfo.GetSourceCode
 sortOrder: 1148
 keywords: GetSourceCode()

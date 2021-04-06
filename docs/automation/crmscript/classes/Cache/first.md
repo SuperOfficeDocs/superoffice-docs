@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Cache_first
-description: Cache.first()
+uid: crmscript_ref_Cache_first
+title: Cache.first()
 intellisense: Cache.first
 sortOrder: 143
 keywords: first()

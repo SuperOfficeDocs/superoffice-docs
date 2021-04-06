@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company_getValue_String_colName
-description: Company.getValue(String colName)
+uid: crmscript_ref_Company_getValue_String_colName
+title: Company.getValue(String colName)
 intellisense: Company.getValue
 sortOrder: 165
 keywords: getValue(String)

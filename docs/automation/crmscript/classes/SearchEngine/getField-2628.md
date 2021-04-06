@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_getField_String_name
-description: SearchEngine.getField(String name)
+uid: crmscript_ref_SearchEngine_getField_String_name
+title: SearchEngine.getField(String name)
 intellisense: SearchEngine.getField
 keywords: getField(String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_keepChars_String_charsToKeep
-description: String.keepChars(String charsToKeep)
+uid: crmscript_ref_String_keepChars_String_charsToKeep
+title: String.keepChars(String charsToKeep)
 intellisense: String.keepChars
 keywords: keepChars(String)
 so.topic: reference

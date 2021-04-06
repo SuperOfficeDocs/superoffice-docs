@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_getUnix
-description: DateTime.getUnix()
+uid: crmscript_ref_DateTime_getUnix
+title: DateTime.getUnix()
 intellisense: DateTime.getUnix
 sortOrder: 232
 keywords: getUnix()

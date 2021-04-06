@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_executeHTMLTable
-description: SearchEngine.executeHTMLTable()
+uid: crmscript_ref_SearchEngine_executeHTMLTable
+title: SearchEngine.executeHTMLTable()
 intellisense: SearchEngine.executeHTMLTable
 keywords: executeHTMLTable()
 so.topic: reference

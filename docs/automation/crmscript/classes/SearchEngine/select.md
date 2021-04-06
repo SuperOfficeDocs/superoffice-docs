@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_select
-description: SearchEngine.select()
+uid: crmscript_ref_SearchEngine_select
+title: SearchEngine.select()
 intellisense: SearchEngine.select
 keywords: select()
 so.topic: reference

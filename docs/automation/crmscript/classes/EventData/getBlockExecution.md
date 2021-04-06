@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_getBlockExecution
-description: EventData.getBlockExecution()
+uid: crmscript_ref_EventData_getBlockExecution
+title: EventData.getBlockExecution()
 intellisense: EventData.getBlockExecution
 sortOrder: 287
 keywords: getBlockExecution()

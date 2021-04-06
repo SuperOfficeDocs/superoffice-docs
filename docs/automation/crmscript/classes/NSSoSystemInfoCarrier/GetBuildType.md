@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoSystemInfoCarrier_GetBuildType
-description: NSSoSystemInfoCarrier.GetBuildType()
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetBuildType
+title: NSSoSystemInfoCarrier.GetBuildType()
 intellisense: NSSoSystemInfoCarrier.GetBuildType
 keywords: GetBuildType()
 so.topic: reference

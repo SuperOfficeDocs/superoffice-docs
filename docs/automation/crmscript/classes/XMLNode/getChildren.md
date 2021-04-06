@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_getChildren
-description: XMLNode.getChildren()
+uid: crmscript_ref_XMLNode_getChildren
+title: XMLNode.getChildren()
 intellisense: XMLNode.getChildren
 keywords: getChildren()
 so.topic: reference

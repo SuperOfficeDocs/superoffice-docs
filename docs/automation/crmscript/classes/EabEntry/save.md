@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EabEntry_save
-description: EabEntry.save()
+uid: crmscript_ref_EabEntry_save
+title: EabEntry.save()
 intellisense: EabEntry.save
 sortOrder: 276
 keywords: save()

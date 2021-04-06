@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateRule
-description: NSDuplicateRule
+uid: crmscript_ref_NSDuplicateRule
+title: NSDuplicateRule
 intellisense: Void.NSDuplicateRule
 sortOrder: 2732
 so.topic: reference

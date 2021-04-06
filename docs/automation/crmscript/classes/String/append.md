@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_append_Byte_character
-description: String.append(Byte character)
+uid: crmscript_ref_String_append_Byte_character
+title: String.append(Byte character)
 intellisense: String.append
 keywords: append(Byte)
 so.topic: reference

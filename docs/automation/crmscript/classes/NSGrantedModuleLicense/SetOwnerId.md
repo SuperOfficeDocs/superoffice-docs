@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSGrantedModuleLicense_SetOwnerId_Integer_p_0
-description: NSGrantedModuleLicense.SetOwnerId(Integer p_0)
+uid: crmscript_ref_NSGrantedModuleLicense_SetOwnerId_Integer_p_0
+title: NSGrantedModuleLicense.SetOwnerId(Integer p_0)
 intellisense: NSGrantedModuleLicense.SetOwnerId
 sortOrder: 3906
 keywords: SetOwnerId(Integer)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTable_load_Integer_id
-description: ExtraTable.load(Integer id)
+uid: crmscript_ref_ExtraTable_load_Integer_id
+title: ExtraTable.load(Integer id)
 intellisense: ExtraTable.load
 sortOrder: 318
 keywords: load(Integer)

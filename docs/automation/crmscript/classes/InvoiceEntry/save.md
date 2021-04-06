@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_save
-description: InvoiceEntry.save()
+uid: crmscript_ref_InvoiceEntry_save
+title: InvoiceEntry.save()
 intellisense: InvoiceEntry.save
 sortOrder: 433
 keywords: save()

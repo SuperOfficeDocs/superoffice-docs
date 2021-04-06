@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File
-description: File
+uid: crmscript_ref_File
+title: File
 intellisense: Void.File
 sortOrder: 340
 so.topic: reference

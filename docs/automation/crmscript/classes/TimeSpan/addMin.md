@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_addMin_Integer_num
-description: TimeSpan.addMin(Integer num)
+uid: crmscript_ref_TimeSpan_addMin_Integer_num
+title: TimeSpan.addMin(Integer num)
 intellisense: TimeSpan.addMin
 keywords: addMin(Integer)
 so.topic: reference

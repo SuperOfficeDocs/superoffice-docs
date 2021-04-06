@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_next
-description: ExtraFieldsInfo.next()
+uid: crmscript_ref_ExtraFieldsInfo_next
+title: ExtraFieldsInfo.next()
 intellisense: ExtraFieldsInfo.next
 sortOrder: 315
 keywords: next()

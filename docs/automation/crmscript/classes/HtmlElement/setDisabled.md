@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_setDisabled_Bool_disable
-description: HtmlElement.setDisabled(Bool disable)
+uid: crmscript_ref_HtmlElement_setDisabled_Bool_disable
+title: HtmlElement.setDisabled(Bool disable)
 intellisense: HtmlElement.setDisabled
 sortOrder: 389
 keywords: setDisabled(Bool)

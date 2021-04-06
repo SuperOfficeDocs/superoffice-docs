@@ -1,6 +1,6 @@
 ---
-title: crmscript_products
-description: Products and price lists 
+uid: crmscript_products
+title: Products and price lists 
 author:
 so.date:
 keywords:

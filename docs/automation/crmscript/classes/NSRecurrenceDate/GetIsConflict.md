@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSRecurrenceDate_GetIsConflict
-description: NSRecurrenceDate.GetIsConflict()
+uid: crmscript_ref_NSRecurrenceDate_GetIsConflict
+title: NSRecurrenceDate.GetIsConflict()
 intellisense: NSRecurrenceDate.GetIsConflict
 keywords: GetIsConflict()
 so.topic: reference

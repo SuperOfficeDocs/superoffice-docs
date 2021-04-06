@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_getCompanyChildrenFields
-description: ExtraFieldsInfo.getCompanyChildrenFields()
+uid: crmscript_ref_ExtraFieldsInfo_getCompanyChildrenFields
+title: ExtraFieldsInfo.getCompanyChildrenFields()
 intellisense: ExtraFieldsInfo.getCompanyChildrenFields
 sortOrder: 311
 keywords: getCompanyChildrenFields()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatLib_setSearchEngine_SearchEngine_se
-description: StatLib.setSearchEngine(SearchEngine se)
+uid: crmscript_ref_StatLib_setSearchEngine_SearchEngine_se
+title: StatLib.setSearchEngine(SearchEngine se)
 intellisense: StatLib.setSearchEngine
 keywords: setSearchEngine(SearchEngine)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_setFolderId_Integer_folderId
-description: SpmShipment.setFolderId(Integer folderId)
+uid: crmscript_ref_SpmShipment_setFolderId_Integer_folderId
+title: SpmShipment.setFolderId(Integer folderId)
 intellisense: SpmShipment.setFolderId
 keywords: setFolderId(Integer)
 so.topic: reference

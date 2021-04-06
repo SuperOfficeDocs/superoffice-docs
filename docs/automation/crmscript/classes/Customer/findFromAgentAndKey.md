@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_findFromAgentAndKey_Integer_agent_String_key
-description: Customer.findFromAgentAndKey(Integer agent, String key)
+uid: crmscript_ref_Customer_findFromAgentAndKey_Integer_agent_String_key
+title: Customer.findFromAgentAndKey(Integer agent, String key)
 intellisense: Customer.findFromAgentAndKey
 sortOrder: 181
 keywords: findFromAgentAndKey(Integer,String)

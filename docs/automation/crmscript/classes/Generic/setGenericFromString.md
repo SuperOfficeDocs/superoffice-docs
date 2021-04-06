@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_setGenericFromString_Generic_generic_String_value
-description: Generic.setGenericFromString(Generic generic, String value)
+uid: crmscript_ref_Generic_setGenericFromString_Generic_generic_String_value
+title: Generic.setGenericFromString(Generic generic, String value)
 intellisense: Generic.setGenericFromString
 langref: 1
 sortOrder: 170

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_addSec_Integer_num
-description: DateTime.addSec(Integer num)
+uid: crmscript_ref_DateTime_addSec_Integer_num
+title: DateTime.addSec(Integer num)
 intellisense: DateTime.addSec
 sortOrder: 214
 keywords: addSec(Integer)

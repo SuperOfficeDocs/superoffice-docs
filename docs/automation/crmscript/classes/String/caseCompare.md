@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_caseCompare_String_p_0
-description: String.caseCompare(String p_0)
+uid: crmscript_ref_String_caseCompare_String_p_0
+title: String.caseCompare(String p_0)
 intellisense: String.caseCompare
 keywords: caseCompare(String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_addBinaryData_Byte__p_binaryData
-description: HTTP.addBinaryData(Byte[] p_binaryData)
+uid: crmscript_ref_HTTP_addBinaryData_Byte__p_binaryData
+title: HTTP.addBinaryData(Byte[] p_binaryData)
 intellisense: HTTP.addBinaryData
 sortOrder: 418
 keywords: addBinaryData(Byte[])

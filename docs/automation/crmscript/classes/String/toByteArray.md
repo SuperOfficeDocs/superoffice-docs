@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_toByteArray
-description: String.toByteArray()
+uid: crmscript_ref_String_toByteArray
+title: String.toByteArray()
 intellisense: String.toByteArray
 keywords: toByteArray()
 so.topic: reference

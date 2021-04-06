@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_openAsStream_String_p_url
-description: HTTP.openAsStream(String p_url)
+uid: crmscript_ref_HTTP_openAsStream_String_p_url
+title: HTTP.openAsStream(String p_url)
 intellisense: HTTP.openAsStream
 sortOrder: 407
 keywords: openAsStream(String)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_escape_String_chars
-description: String.escape(String chars)
+uid: crmscript_ref_String_escape_String_chars
+title: String.escape(String chars)
 intellisense: String.escape
 keywords: escape(String)
 so.topic: reference

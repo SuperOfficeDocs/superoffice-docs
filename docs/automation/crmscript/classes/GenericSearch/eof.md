@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_eof
-description: GenericSearch.eof()
+uid: crmscript_ref_GenericSearch_eof
+title: GenericSearch.eof()
 intellisense: GenericSearch.eof
 sortOrder: 363
 keywords: eof()

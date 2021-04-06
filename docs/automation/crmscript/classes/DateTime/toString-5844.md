@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_toString_Integer_mode_Integer_language_Bool_24HourMode
-description: DateTime.toString(Integer mode, Integer language, Bool 24HourMode)
+uid: crmscript_ref_DateTime_toString_Integer_mode_Integer_language_Bool_24HourMode
+title: DateTime.toString(Integer mode, Integer language, Bool 24HourMode)
 intellisense: DateTime.toString
 sortOrder: 237
 keywords: toString(Integer,Integer,Bool)

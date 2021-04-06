@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatLib_dropOrder
-description: StatLib.dropOrder()
+uid: crmscript_ref_StatLib_dropOrder
+title: StatLib.dropOrder()
 intellisense: StatLib.dropOrder
 keywords: dropOrder()
 so.topic: reference

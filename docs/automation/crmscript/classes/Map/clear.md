@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_clear
-description: Map.clear()
+uid: crmscript_ref_Map_clear
+title: Map.clear()
 intellisense: Map.clear
 sortOrder: 534
 keywords: clear()

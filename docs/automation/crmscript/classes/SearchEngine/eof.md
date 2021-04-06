@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_eof
-description: SearchEngine.eof()
+uid: crmscript_ref_SearchEngine_eof
+title: SearchEngine.eof()
 intellisense: SearchEngine.eof
 keywords: eof()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSGrantedModuleLicense_GetName
-description: NSGrantedModuleLicense.GetName()
+uid: crmscript_ref_NSGrantedModuleLicense_GetName
+title: NSGrantedModuleLicense.GetName()
 intellisense: NSGrantedModuleLicense.GetName
 sortOrder: 3891
 keywords: GetName()

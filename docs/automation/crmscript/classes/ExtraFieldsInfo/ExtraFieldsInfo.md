@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo
-description: ExtraFieldsInfo
+uid: crmscript_ref_ExtraFieldsInfo
+title: ExtraFieldsInfo
 intellisense: Void.ExtraFieldsInfo
 sortOrder: 301
 so.topic: reference

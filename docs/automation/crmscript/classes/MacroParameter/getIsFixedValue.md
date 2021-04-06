@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_getIsFixedValue
-description: MacroParameter.getIsFixedValue()
+uid: crmscript_ref_MacroParameter_getIsFixedValue
+title: MacroParameter.getIsFixedValue()
 intellisense: MacroParameter.getIsFixedValue
 sortOrder: 478
 keywords: getIsFixedValue()

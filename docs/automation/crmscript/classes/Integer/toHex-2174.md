@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Integer_toHex_Integer_p_0
-description: Integer.toHex(Integer p_0)
+uid: crmscript_ref_Integer_toHex_Integer_p_0
+title: Integer.toHex(Integer p_0)
 intellisense: Integer.toHex
 sortOrder: 428
 keywords: toHex(Integer)

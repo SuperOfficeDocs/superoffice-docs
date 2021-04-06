@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File_flush
-description: File.flush()
+uid: crmscript_ref_File_flush
+title: File.flush()
 intellisense: File.flush
 sortOrder: 350
 keywords: flush()

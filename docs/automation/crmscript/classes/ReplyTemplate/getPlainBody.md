@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ReplyTemplate_getPlainBody_Integer_language
-description: ReplyTemplate.getPlainBody(Integer language)
+uid: crmscript_ref_ReplyTemplate_getPlainBody_Integer_language
+title: ReplyTemplate.getPlainBody(Integer language)
 intellisense: ReplyTemplate.getPlainBody
 keywords: getPlainBody(Integer)
 so.topic: reference

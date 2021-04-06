@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToWeekStart
-description: DateTime.moveToWeekStart()
+uid: crmscript_ref_DateTime_moveToWeekStart
+title: DateTime.moveToWeekStart()
 intellisense: DateTime.moveToWeekStart
 sortOrder: 225
 keywords: moveToWeekStart()

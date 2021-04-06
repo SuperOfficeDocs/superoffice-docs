@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_utf8Encode
-description: String.utf8Encode()
+uid: crmscript_ref_String_utf8Encode
+title: String.utf8Encode()
 intellisense: String.utf8Encode
 keywords: utf8Encode()
 so.topic: reference

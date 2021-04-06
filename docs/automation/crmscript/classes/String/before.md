@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_before_String_searchText
-description: String.before(String searchText)
+uid: crmscript_ref_String_before_String_searchText
+title: String.before(String searchText)
 intellisense: String.before
 keywords: before(String)
 so.topic: reference

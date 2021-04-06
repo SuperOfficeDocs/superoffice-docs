@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_toString
-description: DateTime.toString()
+uid: crmscript_ref_DateTime_toString
+title: DateTime.toString()
 intellisense: DateTime.toString
 sortOrder: 236
 keywords: toString()

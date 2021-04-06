@@ -1,6 +1,6 @@
 ---
-title: crmscript_quote_document
-description: Quote document
+uid: crmscript_quote_document
+title: Quote document
 author:
 so.date:
 keywords:

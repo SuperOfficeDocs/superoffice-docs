@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DbConverter_getRow
-description: DbConverter.getRow()
+uid: crmscript_ref_DbConverter_getRow
+title: DbConverter.getRow()
 intellisense: DbConverter.getRow
 sortOrder: 245
 keywords: getRow()

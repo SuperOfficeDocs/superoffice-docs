@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Bool_toString
-description: Bool.toString()
+uid: crmscript_ref_Bool_toString
+title: Bool.toString()
 intellisense: Bool.toString
 sortOrder: 132
 keywords: toString()

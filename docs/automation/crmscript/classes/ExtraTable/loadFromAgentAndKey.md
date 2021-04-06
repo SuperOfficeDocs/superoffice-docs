@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTable_loadFromAgentAndKey_Integer_agent_String_key
-description: ExtraTable.loadFromAgentAndKey(Integer agent, String key)
+uid: crmscript_ref_ExtraTable_loadFromAgentAndKey_Integer_agent_String_key
+title: ExtraTable.loadFromAgentAndKey(Integer agent, String key)
 intellisense: ExtraTable.loadFromAgentAndKey
 sortOrder: 319
 keywords: loadFromAgentAndKey(Integer,String)

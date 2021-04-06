@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_first
-description: SearchEngine.first()
+uid: crmscript_ref_SearchEngine_first
+title: SearchEngine.first()
 intellisense: SearchEngine.first
 keywords: first()
 so.topic: reference

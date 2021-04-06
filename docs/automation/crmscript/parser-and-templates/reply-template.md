@@ -1,6 +1,6 @@
 ---
-title: crmscript_reply_template
-description: Reply templates
+uid: crmscript_reply_template
+title: Reply templates
 author:
 so.date:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: search_engine_db_actions
-description: Insert, update, and delete
+uid: search_engine_db_actions
+title: Insert, update, and delete
 author:
 so.date:
 keywords:

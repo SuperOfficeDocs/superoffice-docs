@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_addHeader_String_p_name_String_p_value
-description: HTTP.addHeader(String p_name, String p_value)
+uid: crmscript_ref_HTTP_addHeader_String_p_name_String_p_value
+title: HTTP.addHeader(String p_name, String p_value)
 intellisense: HTTP.addHeader
 sortOrder: 415
 keywords: addHeader(String,String)

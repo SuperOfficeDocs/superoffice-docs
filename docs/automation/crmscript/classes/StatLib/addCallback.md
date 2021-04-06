@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatLib_addCallback_Integer_column_String_script
-description: StatLib.addCallback(Integer column, String script)
+uid: crmscript_ref_StatLib_addCallback_Integer_column_String_script
+title: StatLib.addCallback(Integer column, String script)
 intellisense: StatLib.addCallback
 keywords: addCallback(Integer,String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_putAsStream_String_p_0
-description: HTTP.putAsStream(String p_0)
+uid: crmscript_ref_HTTP_putAsStream_String_p_0
+title: HTTP.putAsStream(String p_0)
 intellisense: HTTP.putAsStream
 sortOrder: 410
 keywords: putAsStream(String)

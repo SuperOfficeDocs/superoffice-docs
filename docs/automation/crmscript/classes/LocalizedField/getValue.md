@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_LocalizedField_getValue
-description: LocalizedField.getValue()
+uid: crmscript_ref_LocalizedField_getValue
+title: LocalizedField.getValue()
 intellisense: LocalizedField.getValue
 sortOrder: 471
 keywords: getValue()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Byte_toBool
-description: Byte.toBool()
+uid: crmscript_ref_Byte_toBool
+title: Byte.toBool()
 intellisense: Byte.toBool
 sortOrder: 135
 keywords: toBool()

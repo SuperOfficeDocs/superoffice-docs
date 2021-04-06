@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSBatchTaskInfo_GetParameterObject
-description: NSBatchTaskInfo.GetParameterObject()
+uid: crmscript_ref_NSBatchTaskInfo_GetParameterObject
+title: NSBatchTaskInfo.GetParameterObject()
 intellisense: NSBatchTaskInfo.GetParameterObject
 sortOrder: 1384
 keywords: GetParameterObject()

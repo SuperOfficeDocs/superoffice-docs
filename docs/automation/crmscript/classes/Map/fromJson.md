@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_fromJson_String_pJson
-description: Map.fromJson(String pJson)
+uid: crmscript_ref_Map_fromJson_String_pJson
+title: Map.fromJson(String pJson)
 intellisense: Map.fromJson
 sortOrder: 535
 keywords: fromJson(String)

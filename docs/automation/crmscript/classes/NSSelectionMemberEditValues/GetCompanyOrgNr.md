@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSelectionMemberEditValues_GetCompanyOrgNr
-description: NSSelectionMemberEditValues.GetCompanyOrgNr()
+uid: crmscript_ref_NSSelectionMemberEditValues_GetCompanyOrgNr
+title: NSSelectionMemberEditValues.GetCompanyOrgNr()
 intellisense: NSSelectionMemberEditValues.GetCompanyOrgNr
 keywords: GetCompanyOrgNr()
 so.topic: reference

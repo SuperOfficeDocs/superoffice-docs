@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSUserGroup_SetDeleted_Integer_p_0
-description: NSUserGroup.SetDeleted(Integer p_0)
+uid: crmscript_ref_NSUserGroup_SetDeleted_Integer_p_0
+title: NSUserGroup.SetDeleted(Integer p_0)
 intellisense: NSUserGroup.SetDeleted
 keywords: SetDeleted(Integer)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_countRows
-description: SearchEngine.countRows()
+uid: crmscript_ref_SearchEngine_countRows
+title: SearchEngine.countRows()
 intellisense: SearchEngine.countRows
 keywords: countRows()
 so.topic: reference

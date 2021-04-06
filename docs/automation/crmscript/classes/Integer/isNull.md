@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Integer_isNull
-description: Integer.isNull()
+uid: crmscript_ref_Integer_isNull
+title: Integer.isNull()
 intellisense: Integer.isNull
 sortOrder: 424
 keywords: isNull()

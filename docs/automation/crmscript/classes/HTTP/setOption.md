@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_setOption_String_p_name_String_p_value
-description: HTTP.setOption(String p_name, String p_value)
+uid: crmscript_ref_HTTP_setOption_String_p_name_String_p_value
+title: HTTP.setOption(String p_name, String p_value)
 intellisense: HTTP.setOption
 sortOrder: 417
 keywords: setOption(String,String)

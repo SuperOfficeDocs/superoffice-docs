@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSArchiveListItem_GetColumnData
-description: NSArchiveListItem.GetColumnData()
+uid: crmscript_ref_NSArchiveListItem_GetColumnData
+title: NSArchiveListItem.GetColumnData()
 intellisense: NSArchiveListItem.GetColumnData
 sortOrder: 1178
 keywords: GetColumnData()

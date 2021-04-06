@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToHourEnd
-description: DateTime.moveToHourEnd()
+uid: crmscript_ref_DateTime_moveToHourEnd
+title: DateTime.moveToHourEnd()
 intellisense: DateTime.moveToHourEnd
 sortOrder: 218
 keywords: moveToHourEnd()

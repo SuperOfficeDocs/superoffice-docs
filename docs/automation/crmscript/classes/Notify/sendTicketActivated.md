@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Notify_sendTicketActivated_Integer_ticketId
-description: Notify.sendTicketActivated(Integer ticketId)
+uid: crmscript_ref_Notify_sendTicketActivated_Integer_ticketId
+title: Notify.sendTicketActivated(Integer ticketId)
 intellisense: Notify.sendTicketActivated
 keywords: sendTicketActivated(Integer)
 so.topic: reference

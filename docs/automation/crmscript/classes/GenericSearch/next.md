@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_next
-description: GenericSearch.next()
+uid: crmscript_ref_GenericSearch_next
+title: GenericSearch.next()
 intellisense: GenericSearch.next
 sortOrder: 365
 keywords: next()

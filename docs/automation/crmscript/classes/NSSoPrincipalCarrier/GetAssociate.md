@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoPrincipalCarrier_GetAssociate
-description: NSSoPrincipalCarrier.GetAssociate()
+uid: crmscript_ref_NSSoPrincipalCarrier_GetAssociate
+title: NSSoPrincipalCarrier.GetAssociate()
 intellisense: NSSoPrincipalCarrier.GetAssociate
 keywords: GetAssociate()
 so.topic: reference

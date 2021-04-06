@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatResult_eof
-description: StatResult.eof()
+uid: crmscript_ref_StatResult_eof
+title: StatResult.eof()
 intellisense: StatResult.eof
 keywords: eof()
 so.topic: reference

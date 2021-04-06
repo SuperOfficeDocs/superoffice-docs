@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTableInfo_getFlags
-description: ExtraTableInfo.getFlags()
+uid: crmscript_ref_ExtraTableInfo_getFlags
+title: ExtraTableInfo.getFlags()
 intellisense: ExtraTableInfo.getFlags
 sortOrder: 328
 keywords: getFlags()

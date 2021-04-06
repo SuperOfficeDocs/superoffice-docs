@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_getMDay
-description: DateTime.getMDay()
+uid: crmscript_ref_DateTime_getMDay
+title: DateTime.getMDay()
 intellisense: DateTime.getMDay
 sortOrder: 230
 keywords: getMDay()

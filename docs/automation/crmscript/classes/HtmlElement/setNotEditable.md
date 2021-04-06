@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_setNotEditable_Bool_onOff
-description: HtmlElement.setNotEditable(Bool onOff)
+uid: crmscript_ref_HtmlElement_setNotEditable_Bool_onOff
+title: HtmlElement.setNotEditable(Bool onOff)
 intellisense: HtmlElement.setNotEditable
 sortOrder: 394
 keywords: setNotEditable(Bool)

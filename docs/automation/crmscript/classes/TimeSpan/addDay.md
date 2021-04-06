@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_addDay_Integer_num
-description: TimeSpan.addDay(Integer num)
+uid: crmscript_ref_TimeSpan_addDay_Integer_num
+title: TimeSpan.addDay(Integer num)
 intellisense: TimeSpan.addDay
 keywords: addDay(Integer)
 so.topic: reference

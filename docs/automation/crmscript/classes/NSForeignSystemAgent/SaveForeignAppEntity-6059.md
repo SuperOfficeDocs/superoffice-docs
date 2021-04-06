@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSForeignSystemAgent_SaveForeignAppEntity_NSForeignAppEntity_p_0
-description: NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntity p_0)
+uid: crmscript_ref_NSForeignSystemAgent_SaveForeignAppEntity_NSForeignAppEntity_p_0
+title: NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntity p_0)
 intellisense: NSForeignSystemAgent.SaveForeignAppEntity
 sortOrder: 3781
 keywords: SaveForeignAppEntity(NSForeignAppEntity)

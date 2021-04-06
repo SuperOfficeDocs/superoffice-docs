@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Byte_toHex
-description: Byte.toHex()
+uid: crmscript_ref_Byte_toHex
+title: Byte.toHex()
 intellisense: Byte.toHex
 sortOrder: 137
 keywords: toHex()

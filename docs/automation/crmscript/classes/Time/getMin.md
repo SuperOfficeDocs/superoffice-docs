@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Time_getMin
-description: Time.getMin()
+uid: crmscript_ref_Time_getMin
+title: Time.getMin()
 intellisense: Time.getMin
 keywords: getMin()
 so.topic: reference

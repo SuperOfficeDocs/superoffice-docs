@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_YearSchedule
-description: YearSchedule
+uid: crmscript_ref_YearSchedule
+title: YearSchedule
 intellisense: Void.YearSchedule
 so.topic: reference
 ---

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetArrayOfBytes
-description: NSAAAMockAgent.GetArrayOfBytes()
+uid: crmscript_ref_NSAAAMockAgent_GetArrayOfBytes
+title: NSAAAMockAgent.GetArrayOfBytes()
 intellisense: NSAAAMockAgent.GetArrayOfBytes
 sortOrder: 8885
 keywords: GetArrayOfBytes()

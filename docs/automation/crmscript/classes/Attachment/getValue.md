@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment_getValue_String_name
-description: Attachment.getValue(String name)
+uid: crmscript_ref_Attachment_getValue_String_name
+title: Attachment.getValue(String name)
 intellisense: Attachment.getValue
 sortOrder: 126
 keywords: getValue(String)

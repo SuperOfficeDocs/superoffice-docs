@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_quote_String_quoteString
-description: String.quote(String quoteString)
+uid: crmscript_ref_String_quote_String_quoteString
+title: String.quote(String quoteString)
 intellisense: String.quote
 keywords: quote(String)
 so.topic: reference

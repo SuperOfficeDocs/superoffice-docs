@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_addOrder_String_field_Bool_ascending
-description: SearchEngine.addOrder(String field, Bool ascending)
+uid: crmscript_ref_SearchEngine_addOrder_String_field_Bool_ascending
+title: SearchEngine.addOrder(String field, Bool ascending)
 intellisense: SearchEngine.addOrder
 keywords: addOrder(String,Bool)
 so.topic: reference

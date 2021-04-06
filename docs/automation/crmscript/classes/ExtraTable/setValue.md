@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTable_setValue_String_fieldname_String_value
-description: ExtraTable.setValue(String fieldname, String value)
+uid: crmscript_ref_ExtraTable_setValue_String_fieldname_String_value
+title: ExtraTable.setValue(String fieldname, String value)
 intellisense: ExtraTable.setValue
 sortOrder: 325
 keywords: setValue(String,String)

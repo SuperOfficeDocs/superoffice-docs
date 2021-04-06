@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Date_toString
-description: Date.toString()
+uid: crmscript_ref_Date_toString
+title: Date.toString()
 intellisense: Date.toString
 sortOrder: 205
 keywords: toString()

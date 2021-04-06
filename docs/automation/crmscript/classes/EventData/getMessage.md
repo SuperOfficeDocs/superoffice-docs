@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_getMessage
-description: EventData.getMessage()
+uid: crmscript_ref_EventData_getMessage
+title: EventData.getMessage()
 intellisense: EventData.getMessage
 sortOrder: 292
 keywords: getMessage()

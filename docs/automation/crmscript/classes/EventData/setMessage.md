@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_setMessage_String_message
-description: EventData.setMessage(String message)
+uid: crmscript_ref_EventData_setMessage_String_message
+title: EventData.setMessage(String message)
 intellisense: EventData.setMessage
 sortOrder: 296
 keywords: setMessage(String)

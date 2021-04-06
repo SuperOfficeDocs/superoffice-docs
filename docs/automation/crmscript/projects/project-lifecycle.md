@@ -1,6 +1,6 @@
 ---
-title: crmscript_project_lifecycle
-description: Projects from start to end
+uid: crmscript_project_lifecycle
+title: Projects from start to end
 author:
 so.date:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_getOwnerEmail
-description: Ticket.getOwnerEmail()
+uid: crmscript_ref_Ticket_getOwnerEmail
+title: Ticket.getOwnerEmail()
 intellisense: Ticket.getOwnerEmail
 keywords: getOwnerEmail()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_addComparison_String_field1_String_compOperator_String_field2_String_rowOperator_Integer_concatLevel
-description: GenericSearch.addComparison(String field1, String compOperator, String field2, String rowOperator, Integer concatLevel)
+uid: crmscript_ref_GenericSearch_addComparison_String_field1_String_compOperator_String_field2_String_rowOperator_Integer_concatLevel
+title: GenericSearch.addComparison(String field1, String compOperator, String field2, String rowOperator, Integer concatLevel)
 intellisense: GenericSearch.addComparison
 sortOrder: 369
 keywords: addComparison(String,String,String,String,Integer)

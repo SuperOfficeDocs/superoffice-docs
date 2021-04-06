@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_stripLeadingAndTrailing_String_characters
-description: String.stripLeadingAndTrailing(String characters)
+uid: crmscript_ref_String_stripLeadingAndTrailing_String_characters
+title: String.stripLeadingAndTrailing(String characters)
 intellisense: String.stripLeadingAndTrailing
 keywords: stripLeadingAndTrailing(String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSArchiveRestrictionInfo_GetIsActive
-description: NSArchiveRestrictionInfo.GetIsActive()
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetIsActive
+title: NSArchiveRestrictionInfo.GetIsActive()
 intellisense: NSArchiveRestrictionInfo.GetIsActive
 sortOrder: 1213
 keywords: GetIsActive()

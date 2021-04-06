@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSGrantedModuleLicense_GetOwnerId
-description: NSGrantedModuleLicense.GetOwnerId()
+uid: crmscript_ref_NSGrantedModuleLicense_GetOwnerId
+title: NSGrantedModuleLicense.GetOwnerId()
 intellisense: NSGrantedModuleLicense.GetOwnerId
 sortOrder: 3887
 keywords: GetOwnerId()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_getTypeName
-description: HtmlElement.getTypeName()
+uid: crmscript_ref_HtmlElement_getTypeName
+title: HtmlElement.getTypeName()
 intellisense: HtmlElement.getTypeName
 sortOrder: 386
 keywords: getTypeName()

@@ -1,6 +1,6 @@
 ---
-title: chatbot_registration
-description: Chatbot registration
+uid: chatbot_registration
+title: Chatbot registration
 author: christianm
 so.date: 2021-03-29
 keywords: chatbot, ai

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSProvidedCredential_SetCredentialId_Integer_p_0
-description: NSProvidedCredential.SetCredentialId(Integer p_0)
+uid: crmscript_ref_NSProvidedCredential_SetCredentialId_Integer_p_0
+title: NSProvidedCredential.SetCredentialId(Integer p_0)
 intellisense: NSProvidedCredential.SetCredentialId
 keywords: SetCredentialId(Integer)
 so.topic: reference

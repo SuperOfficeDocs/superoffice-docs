@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetSomeId
-description: NSAAAMockAgent.GetSomeId()
+uid: crmscript_ref_NSAAAMockAgent_GetSomeId
+title: NSAAAMockAgent.GetSomeId()
 intellisense: NSAAAMockAgent.GetSomeId
 sortOrder: 8891
 keywords: GetSomeId()

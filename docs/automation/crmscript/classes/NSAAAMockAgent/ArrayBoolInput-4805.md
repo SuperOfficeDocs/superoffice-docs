@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_ArrayBoolInput_NSBoolean__p_0
-description: NSAAAMockAgent.ArrayBoolInput(NSBoolean[] p_0)
+uid: crmscript_ref_NSAAAMockAgent_ArrayBoolInput_NSBoolean__p_0
+title: NSAAAMockAgent.ArrayBoolInput(NSBoolean[] p_0)
 intellisense: NSAAAMockAgent.ArrayBoolInput
 sortOrder: 8900
 keywords: ArrayBoolInput(NSBoolean[])

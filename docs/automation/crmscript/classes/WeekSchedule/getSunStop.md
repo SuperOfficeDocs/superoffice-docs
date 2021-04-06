@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_getSunStop
-description: WeekSchedule.getSunStop()
+uid: crmscript_ref_WeekSchedule_getSunStop
+title: WeekSchedule.getSunStop()
 intellisense: WeekSchedule.getSunStop
 keywords: getSunStop()
 so.topic: reference

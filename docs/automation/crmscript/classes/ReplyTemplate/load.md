@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ReplyTemplate_load_Integer_id
-description: ReplyTemplate.load(Integer id)
+uid: crmscript_ref_ReplyTemplate_load_Integer_id
+title: ReplyTemplate.load(Integer id)
 intellisense: ReplyTemplate.load
 keywords: load(Integer)
 so.topic: reference

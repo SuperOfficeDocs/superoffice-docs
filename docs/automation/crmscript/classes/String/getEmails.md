@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_getEmails
-description: String.getEmails()
+uid: crmscript_ref_String_getEmails
+title: String.getEmails()
 intellisense: String.getEmails
 keywords: getEmails()
 so.topic: reference

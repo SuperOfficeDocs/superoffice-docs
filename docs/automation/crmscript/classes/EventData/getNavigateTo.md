@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_getNavigateTo
-description: EventData.getNavigateTo()
+uid: crmscript_ref_EventData_getNavigateTo
+title: EventData.getNavigateTo()
 intellisense: EventData.getNavigateTo
 sortOrder: 293
 keywords: getNavigateTo()

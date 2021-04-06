@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_toJSON_Integer_indent
-description: XMLNode.toJSON(Integer indent)
+uid: crmscript_ref_XMLNode_toJSON_Integer_indent
+title: XMLNode.toJSON(Integer indent)
 intellisense: XMLNode.toJSON
 keywords: toJSON(Integer)
 so.topic: reference

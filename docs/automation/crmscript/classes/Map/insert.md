@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_insert_String_key_String_value
-description: Map.insert(String key, String value)
+uid: crmscript_ref_Map_insert_String_key_String_value
+title: Map.insert(String key, String value)
 intellisense: Map.insert
 sortOrder: 529
 keywords: insert(String,String)

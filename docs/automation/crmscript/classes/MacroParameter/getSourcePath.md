@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_getSourcePath
-description: MacroParameter.getSourcePath()
+uid: crmscript_ref_MacroParameter_getSourcePath
+title: MacroParameter.getSourcePath()
 intellisense: MacroParameter.getSourcePath
 sortOrder: 484
 keywords: getSourcePath()

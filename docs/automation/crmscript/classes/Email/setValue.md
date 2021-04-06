@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Email_setValue_String_name_String_value
-description: Email.setValue(String name, String value)
+uid: crmscript_ref_Email_setValue_String_name_String_value
+title: Email.setValue(String name, String value)
 intellisense: Email.setValue
 sortOrder: 284
 keywords: setValue(String,String)

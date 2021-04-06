@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_setParameter_String_name_String_value
-description: XMLNode.setParameter(String name, String value)
+uid: crmscript_ref_XMLNode_setParameter_String_name_String_value
+title: XMLNode.setParameter(String name, String value)
 intellisense: XMLNode.setParameter
 keywords: setParameter(String,String)
 so.topic: reference

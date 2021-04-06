@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_get_String_p_0
-description: HTTP.get(String p_0)
+uid: crmscript_ref_HTTP_get_String_p_0
+title: HTTP.get(String p_0)
 intellisense: HTTP.get
 sortOrder: 400
 keywords: get(String)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_saveInvolved_String_emailAddress
-description: Message.saveInvolved(String emailAddress)
+uid: crmscript_ref_Message_saveInvolved_String_emailAddress
+title: Message.saveInvolved(String emailAddress)
 intellisense: Message.saveInvolved
 sortOrder: 554
 keywords: saveInvolved(String)

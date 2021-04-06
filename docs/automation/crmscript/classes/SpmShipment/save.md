@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_save
-description: SpmShipment.save()
+uid: crmscript_ref_SpmShipment_save
+title: SpmShipment.save()
 intellisense: SpmShipment.save
 keywords: save()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isNull
-description: String.isNull()
+uid: crmscript_ref_String_isNull
+title: String.isNull()
 intellisense: String.isNull
 keywords: isNull()
 so.topic: reference

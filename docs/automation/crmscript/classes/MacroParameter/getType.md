@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_getType
-description: MacroParameter.getType()
+uid: crmscript_ref_MacroParameter_getType
+title: MacroParameter.getType()
 intellisense: MacroParameter.getType
 sortOrder: 485
 keywords: getType()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_SetUshortProbability_Integer_p_0
-description: NSAAATestClassForModeling.SetUshortProbability(Integer p_0)
+uid: crmscript_ref_NSAAATestClassForModeling_SetUshortProbability_Integer_p_0
+title: NSAAATestClassForModeling.SetUshortProbability(Integer p_0)
 intellisense: NSAAATestClassForModeling.SetUshortProbability
 sortOrder: 8954
 keywords: SetUshortProbability(Integer)

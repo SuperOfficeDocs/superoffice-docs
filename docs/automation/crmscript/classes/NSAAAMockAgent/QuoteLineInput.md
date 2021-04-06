@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_QuoteLineInput_NSQuoteLine_p_0
-description: NSAAAMockAgent.QuoteLineInput(NSQuoteLine p_0)
+uid: crmscript_ref_NSAAAMockAgent_QuoteLineInput_NSQuoteLine_p_0
+title: NSAAAMockAgent.QuoteLineInput(NSQuoteLine p_0)
 intellisense: NSAAAMockAgent.QuoteLineInput
 sortOrder: 8913
 keywords: QuoteLineInput(NSQuoteLine)

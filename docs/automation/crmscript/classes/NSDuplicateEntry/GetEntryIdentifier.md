@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateEntry_GetEntryIdentifier
-description: NSDuplicateEntry.GetEntryIdentifier()
+uid: crmscript_ref_NSDuplicateEntry_GetEntryIdentifier
+title: NSDuplicateEntry.GetEntryIdentifier()
 intellisense: NSDuplicateEntry.GetEntryIdentifier
 sortOrder: 2723
 keywords: GetEntryIdentifier()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSArchiveColumnInfo_GetIsVisible
-description: NSArchiveColumnInfo.GetIsVisible()
+uid: crmscript_ref_NSArchiveColumnInfo_GetIsVisible
+title: NSArchiveColumnInfo.GetIsVisible()
 intellisense: NSArchiveColumnInfo.GetIsVisible
 sortOrder: 1139
 keywords: GetIsVisible()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ReplyTemplate
-description: ReplyTemplate
+uid: crmscript_ref_ReplyTemplate
+title: ReplyTemplate
 intellisense: Void.ReplyTemplate
 so.topic: reference
 ---

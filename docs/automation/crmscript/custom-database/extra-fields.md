@@ -1,6 +1,6 @@
 ---
-title: crmscript_extra_fields
-description: Extra fields
+uid: crmscript_extra_fields
+title: Extra fields
 author:
 so.date:
 keywords:

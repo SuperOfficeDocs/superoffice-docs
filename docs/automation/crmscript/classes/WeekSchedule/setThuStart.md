@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_setThuStart_Time_t
-description: WeekSchedule.setThuStart(Time t)
+uid: crmscript_ref_WeekSchedule_setThuStart_Time_t
+title: WeekSchedule.setThuStart(Time t)
 intellisense: WeekSchedule.setThuStart
 keywords: setThuStart(Time)
 so.topic: reference

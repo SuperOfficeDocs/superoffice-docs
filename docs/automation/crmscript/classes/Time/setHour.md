@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Time_setHour_Integer_hour
-description: Time.setHour(Integer hour)
+uid: crmscript_ref_Time_setHour_Integer_hour
+title: Time.setHour(Integer hour)
 intellisense: Time.setHour
 keywords: setHour(Integer)
 so.topic: reference

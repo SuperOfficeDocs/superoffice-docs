@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetQuoteLine
-description: NSAAAMockAgent.GetQuoteLine()
+uid: crmscript_ref_NSAAAMockAgent_GetQuoteLine
+title: NSAAAMockAgent.GetQuoteLine()
 intellisense: NSAAAMockAgent.GetQuoteLine
 sortOrder: 8894
 keywords: GetQuoteLine()

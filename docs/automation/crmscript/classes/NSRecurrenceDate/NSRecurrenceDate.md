@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSRecurrenceDate
-description: NSRecurrenceDate
+uid: crmscript_ref_NSRecurrenceDate
+title: NSRecurrenceDate
 intellisense: Void.NSRecurrenceDate
 so.topic: reference
 ---

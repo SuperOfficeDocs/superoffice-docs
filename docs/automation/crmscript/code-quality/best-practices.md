@@ -1,6 +1,6 @@
 ---
-title: crmscript_best_practice
-description: CRMScript best practices
+uid: crmscript_best_practice
+title: CRMScript best practices
 author:
 so.date:
 keywords:

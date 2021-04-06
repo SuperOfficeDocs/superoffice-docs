@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isUpper
-description: String.isUpper()
+uid: crmscript_ref_String_isUpper
+title: String.isUpper()
 intellisense: String.isUpper
 keywords: isUpper()
 so.topic: reference

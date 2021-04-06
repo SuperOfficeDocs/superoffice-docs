@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_getKey
-description: Map.getKey()
+uid: crmscript_ref_Map_getKey
+title: Map.getKey()
 intellisense: Map.getKey
 sortOrder: 531
 keywords: getKey()

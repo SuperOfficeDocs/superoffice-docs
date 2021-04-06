@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Email_send
-description: Email.send()
+uid: crmscript_ref_Email_send
+title: Email.send()
 intellisense: Email.send
 sortOrder: 283
 keywords: send()

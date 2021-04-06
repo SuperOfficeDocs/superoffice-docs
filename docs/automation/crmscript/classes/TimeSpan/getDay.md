@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_getDay
-description: TimeSpan.getDay()
+uid: crmscript_ref_TimeSpan_getDay
+title: TimeSpan.getDay()
 intellisense: TimeSpan.getDay
 keywords: getDay()
 so.topic: reference

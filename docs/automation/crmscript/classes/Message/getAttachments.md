@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_getAttachments
-description: Message.getAttachments()
+uid: crmscript_ref_Message_getAttachments
+title: Message.getAttachments()
 intellisense: Message.getAttachments
 sortOrder: 550
 keywords: getAttachments()

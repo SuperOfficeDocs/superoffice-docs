@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_addItem_String_label_String_url
-description: MainMenu.addItem(String label, String url)
+uid: crmscript_ref_MainMenu_addItem_String_label_String_url
+title: MainMenu.addItem(String label, String url)
 intellisense: MainMenu.addItem
 sortOrder: 513
 keywords: addItem(String,String)

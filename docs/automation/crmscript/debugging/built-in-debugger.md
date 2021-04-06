@@ -1,6 +1,6 @@
 ---
-title: crmscript_debug_built_in_debugger
-description: Built-in debugger
+uid: crmscript_debug_built_in_debugger
+title: Built-in debugger
 author:
 so.date:
 keywords:

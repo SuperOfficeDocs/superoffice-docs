@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSRecipientStatistics_SetNoFaxOrEmails_Integer_p_0
-description: NSRecipientStatistics.SetNoFaxOrEmails(Integer p_0)
+uid: crmscript_ref_NSRecipientStatistics_SetNoFaxOrEmails_Integer_p_0
+title: NSRecipientStatistics.SetNoFaxOrEmails(Integer p_0)
 intellisense: NSRecipientStatistics.SetNoFaxOrEmails
 keywords: SetNoFaxOrEmails(Integer)
 so.topic: reference

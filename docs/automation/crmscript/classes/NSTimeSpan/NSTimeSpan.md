@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSTimeSpan
-description: NSTimeSpan
+uid: crmscript_ref_NSTimeSpan
+title: NSTimeSpan
 intellisense: Void.NSTimeSpan
 so.topic: reference
 ---

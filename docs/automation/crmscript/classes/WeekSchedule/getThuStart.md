@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_getThuStart
-description: WeekSchedule.getThuStart()
+uid: crmscript_ref_WeekSchedule_getThuStart
+title: WeekSchedule.getThuStart()
 intellisense: WeekSchedule.getThuStart
 keywords: getThuStart()
 so.topic: reference

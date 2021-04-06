@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String
-description: String
+uid: crmscript_ref_String
+title: String
 intellisense: Void.String
 so.topic: reference
 ---

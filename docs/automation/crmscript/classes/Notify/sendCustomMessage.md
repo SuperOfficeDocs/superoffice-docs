@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Notify_sendCustomMessage_Integer_recipientId_String_message
-description: Notify.sendCustomMessage(Integer recipientId, String message)
+uid: crmscript_ref_Notify_sendCustomMessage_Integer_recipientId_String_message
+title: Notify.sendCustomMessage(Integer recipientId, String message)
 intellisense: Notify.sendCustomMessage
 keywords: sendCustomMessage(Integer,String)
 so.topic: reference

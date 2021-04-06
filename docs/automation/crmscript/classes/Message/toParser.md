@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_toParser_Parser_parser
-description: Message.toParser(Parser parser)
+uid: crmscript_ref_Message_toParser_Parser_parser
+title: Message.toParser(Parser parser)
 intellisense: Message.toParser
 sortOrder: 559
 keywords: toParser(Parser)

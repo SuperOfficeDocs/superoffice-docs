@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_typeIsStruct_Generic_generic
-description: Generic.typeIsStruct(Generic generic)
+uid: crmscript_ref_Generic_typeIsStruct_Generic_generic
+title: Generic.typeIsStruct(Generic generic)
 intellisense: Generic.typeIsStruct
 langref: 1
 sortOrder: 20

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_setType_String_p_0
-description: MacroParameter.setType(String p_0)
+uid: crmscript_ref_MacroParameter_setType_String_p_0
+title: MacroParameter.setType(String p_0)
 intellisense: MacroParameter.setType
 sortOrder: 494
 keywords: setType(String)

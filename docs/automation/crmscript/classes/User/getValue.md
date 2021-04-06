@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User_getValue_String_colName
-description: User.getValue(String colName)
+uid: crmscript_ref_User_getValue_String_colName
+title: User.getValue(String colName)
 intellisense: User.getValue
 keywords: getValue(String)
 so.topic: reference

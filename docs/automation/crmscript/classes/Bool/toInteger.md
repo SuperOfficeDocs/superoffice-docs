@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Bool_toInteger
-description: Bool.toInteger()
+uid: crmscript_ref_Bool_toInteger
+title: Bool.toInteger()
 intellisense: Bool.toInteger
 sortOrder: 131
 keywords: toInteger()

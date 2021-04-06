@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_getDebug
-description: HTTP.getDebug()
+uid: crmscript_ref_HTTP_getDebug
+title: HTTP.getDebug()
 intellisense: HTTP.getDebug
 sortOrder: 411
 keywords: getDebug()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSUserAgent_GetCredentialsGroups_String_p_0
-description: NSUserAgent.GetCredentialsGroups(String p_0)
+uid: crmscript_ref_NSUserAgent_GetCredentialsGroups_String_p_0
+title: NSUserAgent.GetCredentialsGroups(String p_0)
 intellisense: NSUserAgent.GetCredentialsGroups
 keywords: GetCredentialsGroups(String)
 so.topic: reference

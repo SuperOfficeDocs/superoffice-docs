@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Cache_eof
-description: Cache.eof()
+uid: crmscript_ref_Cache_eof
+title: Cache.eof()
 intellisense: Cache.eof
 sortOrder: 142
 keywords: eof()

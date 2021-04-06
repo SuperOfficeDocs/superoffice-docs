@@ -2,8 +2,8 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
 # Mandatory fields.
-title: sort_extra_field_values       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Sorting CS extra fields list values # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+uid: sort_extra_field_values       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+title: Sorting CS extra fields list values # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: David Hollegien
 so.date: 06.19.2018
 keywords:

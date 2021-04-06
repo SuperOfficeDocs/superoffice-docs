@@ -1,6 +1,6 @@
 ---
-title: crmscript_debug_log_messages
-description: Log Messages
+uid: crmscript_debug_log_messages
+title: Log Messages
 author:
 so.date:
 keywords:

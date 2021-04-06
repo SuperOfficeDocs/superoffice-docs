@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_htmlDecode
-description: String.htmlDecode()
+uid: crmscript_ref_String_htmlDecode
+title: String.htmlDecode()
 intellisense: String.htmlDecode
 keywords: htmlDecode()
 so.topic: reference

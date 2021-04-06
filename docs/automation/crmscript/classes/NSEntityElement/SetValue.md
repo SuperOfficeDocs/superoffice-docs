@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSEntityElement_SetValue_String_p_0
-description: NSEntityElement.SetValue(String p_0)
+uid: crmscript_ref_NSEntityElement_SetValue_String_p_0
+title: NSEntityElement.SetValue(String p_0)
 intellisense: NSEntityElement.SetValue
 sortOrder: 3067
 keywords: SetValue(String)

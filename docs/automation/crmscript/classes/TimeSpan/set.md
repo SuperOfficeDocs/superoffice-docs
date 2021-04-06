@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_set_Integer_years_Integer_days_Integer_hours_Integer_minutes_Integer_seconds
-description: TimeSpan.set(Integer years, Integer days, Integer hours, Integer minutes, Integer seconds)
+uid: crmscript_ref_TimeSpan_set_Integer_years_Integer_days_Integer_hours_Integer_minutes_Integer_seconds
+title: TimeSpan.set(Integer years, Integer days, Integer hours, Integer minutes, Integer seconds)
 intellisense: TimeSpan.set
 keywords: set(Integer,Integer,Integer,Integer,Integer)
 so.topic: reference

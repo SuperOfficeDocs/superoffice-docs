@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode
-description: XMLNode
+uid: crmscript_ref_XMLNode
+title: XMLNode
 intellisense: Void.XMLNode
 so.topic: reference
 ---

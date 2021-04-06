@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmMessage
-description: SpmMessage
+uid: crmscript_ref_SpmMessage
+title: SpmMessage
 intellisense: Void.SpmMessage
 so.topic: reference
 ---

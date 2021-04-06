@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_delegate
-description: Ticket.delegate()
+uid: crmscript_ref_Ticket_delegate
+title: Ticket.delegate()
 intellisense: Ticket.delegate
 keywords: delegate()
 so.topic: reference

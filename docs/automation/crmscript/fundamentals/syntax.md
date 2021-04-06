@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_syntax
-description: Code structure (syntax)
+uid: crmscript_fundamentals_syntax
+title: Code structure (syntax)
 author:
 so.date:
 keywords:

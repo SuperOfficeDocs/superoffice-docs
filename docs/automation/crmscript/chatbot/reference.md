@@ -1,6 +1,6 @@
 ---
-title: chatbot_reference_registration
-description: Chatbot Scripts Reference
+uid: chatbot_reference_registration
+title: Chatbot Scripts Reference
 author: christianm
 so.date: 2021-03-29
 keywords: chatbot, ai

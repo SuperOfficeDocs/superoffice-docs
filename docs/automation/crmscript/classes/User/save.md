@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User_save
-description: User.save()
+uid: crmscript_ref_User_save
+title: User.save()
 intellisense: User.save
 keywords: save()
 so.topic: reference

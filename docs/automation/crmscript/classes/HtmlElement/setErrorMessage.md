@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_setErrorMessage_String_errormessage
-description: HtmlElement.setErrorMessage(String errormessage)
+uid: crmscript_ref_HtmlElement_setErrorMessage_String_errormessage
+title: HtmlElement.setErrorMessage(String errormessage)
 intellisense: HtmlElement.setErrorMessage
 sortOrder: 390
 keywords: setErrorMessage(String)

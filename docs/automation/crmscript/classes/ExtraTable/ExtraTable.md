@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTable
-description: ExtraTable
+uid: crmscript_ref_ExtraTable
+title: ExtraTable
 intellisense: Void.ExtraTable
 sortOrder: 316
 so.topic: reference

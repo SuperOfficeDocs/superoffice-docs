@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_setDiscountMoney_Float_money
-description: InvoiceEntry.setDiscountMoney(Float money)
+uid: crmscript_ref_InvoiceEntry_setDiscountMoney_Float_money
+title: InvoiceEntry.setDiscountMoney(Float money)
 intellisense: InvoiceEntry.setDiscountMoney
 sortOrder: 439
 keywords: setDiscountMoney(Float)

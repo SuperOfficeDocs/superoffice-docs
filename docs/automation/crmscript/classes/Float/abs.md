@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Float_abs
-description: Float.abs()
+uid: crmscript_ref_Float_abs
+title: Float.abs()
 intellisense: Float.abs
 sortOrder: 357
 keywords: abs()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Date_isNull
-description: Date.isNull()
+uid: crmscript_ref_Date_isNull
+title: Date.isNull()
 intellisense: Date.isNull
 sortOrder: 196
 keywords: isNull()

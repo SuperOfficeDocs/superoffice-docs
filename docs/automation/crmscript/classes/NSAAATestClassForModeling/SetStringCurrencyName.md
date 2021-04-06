@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_SetStringCurrencyName_String_p_0
-description: NSAAATestClassForModeling.SetStringCurrencyName(String p_0)
+uid: crmscript_ref_NSAAATestClassForModeling_SetStringCurrencyName_String_p_0
+title: NSAAATestClassForModeling.SetStringCurrencyName(String p_0)
 intellisense: NSAAATestClassForModeling.SetStringCurrencyName
 sortOrder: 8951
 keywords: SetStringCurrencyName(String)

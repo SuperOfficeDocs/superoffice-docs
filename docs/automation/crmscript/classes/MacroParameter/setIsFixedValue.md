@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_setIsFixedValue_Bool_p_0
-description: MacroParameter.setIsFixedValue(Bool p_0)
+uid: crmscript_ref_MacroParameter_setIsFixedValue_Bool_p_0
+title: MacroParameter.setIsFixedValue(Bool p_0)
 intellisense: MacroParameter.setIsFixedValue
 sortOrder: 489
 keywords: setIsFixedValue(Bool)

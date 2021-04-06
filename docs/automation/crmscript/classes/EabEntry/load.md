@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EabEntry_load_Integer_p_0
-description: EabEntry.load(Integer p_0)
+uid: crmscript_ref_EabEntry_load_Integer_p_0
+title: EabEntry.load(Integer p_0)
 intellisense: EabEntry.load
 sortOrder: 274
 keywords: load(Integer)

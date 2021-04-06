@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Vector_set_Integer_index_String_value
-description: Vector.set(Integer index, String value)
+uid: crmscript_ref_Vector_set_Integer_index_String_value
+title: Vector.set(Integer index, String value)
 intellisense: Vector.set
 keywords: set(Integer,String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_getItemId_Integer_p_groupId_Integer_p_itemId
-description: MainMenu.getItemId(Integer p_groupId, Integer p_itemId)
+uid: crmscript_ref_MainMenu_getItemId_Integer_p_groupId_Integer_p_itemId
+title: MainMenu.getItemId(Integer p_groupId, Integer p_itemId)
 intellisense: MainMenu.getItemId
 sortOrder: 509
 keywords: getItemId(Integer,Integer)

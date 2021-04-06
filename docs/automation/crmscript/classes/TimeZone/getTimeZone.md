@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeZone_getTimeZone
-description: TimeZone.getTimeZone()
+uid: crmscript_ref_TimeZone_getTimeZone
+title: TimeZone.getTimeZone()
 intellisense: TimeZone.getTimeZone
 keywords: getTimeZone()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSRecurrenceDate_GetDescriptionStyleHint
-description: NSRecurrenceDate.GetDescriptionStyleHint()
+uid: crmscript_ref_NSRecurrenceDate_GetDescriptionStyleHint
+title: NSRecurrenceDate.GetDescriptionStyleHint()
 intellisense: NSRecurrenceDate.GetDescriptionStyleHint
 keywords: GetDescriptionStyleHint()
 so.topic: reference

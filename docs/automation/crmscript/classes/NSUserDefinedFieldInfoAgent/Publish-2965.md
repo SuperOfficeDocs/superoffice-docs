@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSUserDefinedFieldInfoAgent_Publish_Integer_p_0
-description: NSUserDefinedFieldInfoAgent.Publish(Integer p_0)
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_Publish_Integer_p_0
+title: NSUserDefinedFieldInfoAgent.Publish(Integer p_0)
 intellisense: NSUserDefinedFieldInfoAgent.Publish
 keywords: Publish(Integer)
 so.topic: reference

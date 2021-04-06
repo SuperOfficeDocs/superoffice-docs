@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_addList_Integer_list
-description: SpmShipment.addList(Integer list)
+uid: crmscript_ref_SpmShipment_addList_Integer_list
+title: SpmShipment.addList(Integer list)
 intellisense: SpmShipment.addList
 keywords: addList(Integer)
 so.topic: reference

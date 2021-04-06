@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_setNonDates_String_dates
-description: WeekSchedule.setNonDates(String dates)
+uid: crmscript_ref_WeekSchedule_setNonDates_String_dates
+title: WeekSchedule.setNonDates(String dates)
 intellisense: WeekSchedule.setNonDates
 keywords: setNonDates(String)
 so.topic: reference

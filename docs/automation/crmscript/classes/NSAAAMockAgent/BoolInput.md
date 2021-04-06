@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_BoolInput_Bool_p_0
-description: NSAAAMockAgent.BoolInput(Bool p_0)
+uid: crmscript_ref_NSAAAMockAgent_BoolInput_Bool_p_0
+title: NSAAAMockAgent.BoolInput(Bool p_0)
 intellisense: NSAAAMockAgent.BoolInput
 sortOrder: 8904
 keywords: BoolInput(Bool)

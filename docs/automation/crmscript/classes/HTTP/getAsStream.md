@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_getAsStream_String_p_0
-description: HTTP.getAsStream(String p_0)
+uid: crmscript_ref_HTTP_getAsStream_String_p_0
+title: HTTP.getAsStream(String p_0)
 intellisense: HTTP.getAsStream
 sortOrder: 406
 keywords: getAsStream(String)

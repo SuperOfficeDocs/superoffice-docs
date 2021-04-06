@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_JSONBuilder_addString_String_key_String_value
-description: JSONBuilder.addString(String key, String value)
+uid: crmscript_ref_JSONBuilder_addString_String_key_String_value
+title: JSONBuilder.addString(String key, String value)
 intellisense: JSONBuilder.addString
 sortOrder: 449
 keywords: addString(String,String)

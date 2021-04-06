@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetDouble
-description: NSAAAMockAgent.GetDouble()
+uid: crmscript_ref_NSAAAMockAgent_GetDouble
+title: NSAAAMockAgent.GetDouble()
 intellisense: NSAAAMockAgent.GetDouble
 sortOrder: 8888
 keywords: GetDouble()

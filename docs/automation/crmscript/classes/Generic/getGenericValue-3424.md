@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_getGenericValue_String_name
-description: Generic.getGenericValue(String name)
+uid: crmscript_ref_Generic_getGenericValue_String_name
+title: Generic.getGenericValue(String name)
 intellisense: Generic.getGenericValue
 langref: 1
 sortOrder: 80

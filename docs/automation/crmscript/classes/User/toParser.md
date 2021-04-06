@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_User_toParser_Parser_parser
-description: User.toParser(Parser parser)
+uid: crmscript_ref_User_toParser_Parser_parser
+title: User.toParser(Parser parser)
 intellisense: User.toParser
 keywords: toParser(Parser)
 so.topic: reference

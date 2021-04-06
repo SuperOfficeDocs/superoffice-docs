@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSLocalizedField_GetLabel
-description: NSLocalizedField.GetLabel()
+uid: crmscript_ref_NSLocalizedField_GetLabel
+title: NSLocalizedField.GetLabel()
 intellisense: NSLocalizedField.GetLabel
 keywords: GetLabel()
 so.topic: reference

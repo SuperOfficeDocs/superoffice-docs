@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_parseCSV_String_delim
-description: String.parseCSV(String delim)
+uid: crmscript_ref_String_parseCSV_String_delim
+title: String.parseCSV(String delim)
 intellisense: String.parseCSV
 keywords: parseCSV(String)
 so.topic: reference

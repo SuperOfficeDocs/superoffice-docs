@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_endsWith_String_s
-description: String.endsWith(String s)
+uid: crmscript_ref_String_endsWith_String_s
+title: String.endsWith(String s)
 intellisense: String.endsWith
 keywords: endsWith(String)
 so.topic: reference

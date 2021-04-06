@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSFieldInfoLongText_GetChoices
-description: NSFieldInfoLongText.GetChoices()
+uid: crmscript_ref_NSFieldInfoLongText_GetChoices
+title: NSFieldInfoLongText.GetChoices()
 intellisense: NSFieldInfoLongText.GetChoices
 sortOrder: 3523
 keywords: GetChoices()

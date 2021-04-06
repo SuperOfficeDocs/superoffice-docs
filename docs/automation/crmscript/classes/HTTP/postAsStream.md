@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_postAsStream_String_p_0
-description: HTTP.postAsStream(String p_0)
+uid: crmscript_ref_HTTP_postAsStream_String_p_0
+title: HTTP.postAsStream(String p_0)
 intellisense: HTTP.postAsStream
 sortOrder: 409
 keywords: postAsStream(String)

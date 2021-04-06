@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File_writeBinary_Byte__data
-description: File.writeBinary(Byte[] data)
+uid: crmscript_ref_File_writeBinary_Byte__data
+title: File.writeBinary(Byte[] data)
 intellisense: File.writeBinary
 sortOrder: 353
 keywords: writeBinary(Byte[])

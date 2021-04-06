@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToHourStart
-description: DateTime.moveToHourStart()
+uid: crmscript_ref_DateTime_moveToHourStart
+title: DateTime.moveToHourStart()
 intellisense: DateTime.moveToHourStart
 sortOrder: 219
 keywords: moveToHourStart()

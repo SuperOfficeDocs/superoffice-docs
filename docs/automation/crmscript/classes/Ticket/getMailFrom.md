@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_getMailFrom
-description: Ticket.getMailFrom()
+uid: crmscript_ref_Ticket_getMailFrom
+title: Ticket.getMailFrom()
 intellisense: Ticket.getMailFrom
 keywords: getMailFrom()
 so.topic: reference

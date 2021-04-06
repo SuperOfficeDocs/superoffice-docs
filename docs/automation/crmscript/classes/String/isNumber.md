@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isNumber
-description: String.isNumber()
+uid: crmscript_ref_String_isNumber
+title: String.isNumber()
 intellisense: String.isNumber
 keywords: isNumber()
 so.topic: reference

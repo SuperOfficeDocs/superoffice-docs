@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_isEmpty
-description: HtmlElement.isEmpty()
+uid: crmscript_ref_HtmlElement_isEmpty
+title: HtmlElement.isEmpty()
 intellisense: HtmlElement.isEmpty
 sortOrder: 379
 keywords: isEmpty()

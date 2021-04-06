@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_deleteGroup_Integer_index
-description: MainMenu.deleteGroup(Integer index)
+uid: crmscript_ref_MainMenu_deleteGroup_Integer_index
+title: MainMenu.deleteGroup(Integer index)
 intellisense: MainMenu.deleteGroup
 sortOrder: 518
 keywords: deleteGroup(Integer)

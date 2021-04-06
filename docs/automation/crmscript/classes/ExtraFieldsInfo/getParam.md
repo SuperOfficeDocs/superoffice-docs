@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_getParam_String_p_0
-description: ExtraFieldsInfo.getParam(String p_0)
+uid: crmscript_ref_ExtraFieldsInfo_getParam_String_p_0
+title: ExtraFieldsInfo.getParam(String p_0)
 intellisense: ExtraFieldsInfo.getParam
 sortOrder: 308
 keywords: getParam(String)

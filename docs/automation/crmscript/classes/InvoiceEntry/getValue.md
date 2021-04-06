@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_getValue_String_field
-description: InvoiceEntry.getValue(String field)
+uid: crmscript_ref_InvoiceEntry_getValue_String_field
+title: InvoiceEntry.getValue(String field)
 intellisense: InvoiceEntry.getValue
 sortOrder: 437
 keywords: getValue(String)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAppointment_SetAlldayEvent_Integer_p_0
-description: NSAppointment.SetAlldayEvent(Integer p_0)
+uid: crmscript_ref_NSAppointment_SetAlldayEvent_Integer_p_0
+title: NSAppointment.SetAlldayEvent(Integer p_0)
 intellisense: NSAppointment.SetAlldayEvent
 sortOrder: 769
 keywords: SetAlldayEvent(Integer)

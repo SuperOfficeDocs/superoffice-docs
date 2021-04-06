@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_setValue_String_p_0
-description: MacroParameter.setValue(String p_0)
+uid: crmscript_ref_MacroParameter_setValue_String_p_0
+title: MacroParameter.setValue(String p_0)
 intellisense: MacroParameter.setValue
 sortOrder: 495
 keywords: setValue(String)

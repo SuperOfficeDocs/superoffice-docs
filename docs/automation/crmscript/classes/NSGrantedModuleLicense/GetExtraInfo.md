@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSGrantedModuleLicense_GetExtraInfo
-description: NSGrantedModuleLicense.GetExtraInfo()
+uid: crmscript_ref_NSGrantedModuleLicense_GetExtraInfo
+title: NSGrantedModuleLicense.GetExtraInfo()
 intellisense: NSGrantedModuleLicense.GetExtraInfo
 sortOrder: 3890
 keywords: GetExtraInfo()

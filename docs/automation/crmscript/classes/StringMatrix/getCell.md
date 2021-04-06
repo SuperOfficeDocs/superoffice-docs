@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StringMatrix_getCell_Integer_row_Integer_column
-description: StringMatrix.getCell(Integer row, Integer column)
+uid: crmscript_ref_StringMatrix_getCell_Integer_row_Integer_column
+title: StringMatrix.getCell(Integer row, Integer column)
 intellisense: StringMatrix.getCell
 keywords: getCell(Integer,Integer)
 so.topic: reference

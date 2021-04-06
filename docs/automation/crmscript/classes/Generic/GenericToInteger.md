@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_GenericToInteger_Generic_generic
-description: Generic.GenericToInteger(Generic generic)
+uid: crmscript_ref_Generic_GenericToInteger_Generic_generic
+title: Generic.GenericToInteger(Generic generic)
 intellisense: Generic.GenericToInteger
 langref: 1
 sortOrder: 100

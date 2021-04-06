@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_getValueFromPath_String_path
-description: XMLNode.getValueFromPath(String path)
+uid: crmscript_ref_XMLNode_getValueFromPath_String_path
+title: XMLNode.getValueFromPath(String path)
 intellisense: XMLNode.getValueFromPath
 keywords: getValueFromPath(String)
 so.topic: reference

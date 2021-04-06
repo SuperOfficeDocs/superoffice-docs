@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_delegate_Integer_notUser
-description: Ticket.delegate(Integer notUser)
+uid: crmscript_ref_Ticket_delegate_Integer_notUser
+title: Ticket.delegate(Integer notUser)
 intellisense: Ticket.delegate
 keywords: delegate(Integer)
 so.topic: reference

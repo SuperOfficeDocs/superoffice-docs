@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSPersonAgent_SavePersonEntity_NSPersonEntity_p_0
-description: NSPersonAgent.SavePersonEntity(NSPersonEntity p_0)
+uid: crmscript_ref_NSPersonAgent_SavePersonEntity_NSPersonEntity_p_0
+title: NSPersonAgent.SavePersonEntity(NSPersonEntity p_0)
 intellisense: NSPersonAgent.SavePersonEntity
 keywords: SavePersonEntity(NSPersonEntity)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Category_getValue_String_field
-description: Category.getValue(String field)
+uid: crmscript_ref_Category_getValue_String_field
+title: Category.getValue(String field)
 intellisense: Category.getValue
 sortOrder: 153
 keywords: getValue(String)

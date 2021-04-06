@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDSAParameters_GetP
-description: NSDSAParameters.GetP()
+uid: crmscript_ref_NSDSAParameters_GetP
+title: NSDSAParameters.GetP()
 intellisense: NSDSAParameters.GetP
 sortOrder: 2709
 keywords: GetP()

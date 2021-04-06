@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSFieldProperty_GetLength
-description: NSFieldProperty.GetLength()
+uid: crmscript_ref_NSFieldProperty_GetLength
+title: NSFieldProperty.GetLength()
 intellisense: NSFieldProperty.GetLength
 sortOrder: 3598
 keywords: GetLength()

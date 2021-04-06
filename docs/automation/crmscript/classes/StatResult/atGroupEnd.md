@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatResult_atGroupEnd_Integer_column
-description: StatResult.atGroupEnd(Integer column)
+uid: crmscript_ref_StatResult_atGroupEnd_Integer_column
+title: StatResult.atGroupEnd(Integer column)
 intellisense: StatResult.atGroupEnd
 keywords: atGroupEnd(Integer)
 so.topic: reference

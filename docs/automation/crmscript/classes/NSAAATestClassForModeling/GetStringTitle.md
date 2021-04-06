@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetStringTitle
-description: NSAAATestClassForModeling.GetStringTitle()
+uid: crmscript_ref_NSAAATestClassForModeling_GetStringTitle
+title: NSAAATestClassForModeling.GetStringTitle()
 intellisense: NSAAATestClassForModeling.GetStringTitle
 sortOrder: 8934
 keywords: GetStringTitle()

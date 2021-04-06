@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_setUnix_Integer_number
-description: DateTime.setUnix(Integer number)
+uid: crmscript_ref_DateTime_setUnix_Integer_number
+title: DateTime.setUnix(Integer number)
 intellisense: DateTime.setUnix
 sortOrder: 228
 keywords: setUnix(Integer)

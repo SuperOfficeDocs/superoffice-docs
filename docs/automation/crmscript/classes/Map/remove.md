@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_remove_String_key
-description: Map.remove(String key)
+uid: crmscript_ref_Map_remove_String_key
+title: Map.remove(String key)
 intellisense: Map.remove
 sortOrder: 538
 keywords: remove(String)

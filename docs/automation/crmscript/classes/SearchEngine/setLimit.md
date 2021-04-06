@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_setLimit_Integer_number
-description: SearchEngine.setLimit(Integer number)
+uid: crmscript_ref_SearchEngine_setLimit_Integer_number
+title: SearchEngine.setLimit(Integer number)
 intellisense: SearchEngine.setLimit
 keywords: setLimit(Integer)
 so.topic: reference

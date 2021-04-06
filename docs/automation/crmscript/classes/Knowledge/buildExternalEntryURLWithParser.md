@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Knowledge_buildExternalEntryURLWithParser_Integer_kbId_Parser_parser
-description: Knowledge.buildExternalEntryURLWithParser(Integer kbId, Parser parser)
+uid: crmscript_ref_Knowledge_buildExternalEntryURLWithParser_Integer_kbId_Parser_parser
+title: Knowledge.buildExternalEntryURLWithParser(Integer kbId, Parser parser)
 intellisense: Knowledge.buildExternalEntryURLWithParser
 sortOrder: 456
 keywords: buildExternalEntryURLWithParser(Integer,Parser)

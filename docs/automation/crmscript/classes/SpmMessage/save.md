@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmMessage_save
-description: SpmMessage.save()
+uid: crmscript_ref_SpmMessage_save
+title: SpmMessage.save()
 intellisense: SpmMessage.save
 keywords: save()
 so.topic: reference

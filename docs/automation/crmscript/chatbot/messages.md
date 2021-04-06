@@ -1,6 +1,6 @@
 ---
-title: chatbot_messages
-description: Chatbot messages
+uid: chatbot_messages
+title: Chatbot messages
 author: christianm
 so.date: 2021-03-08
 keywords: chatbot, ai

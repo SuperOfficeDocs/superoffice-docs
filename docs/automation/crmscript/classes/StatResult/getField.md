@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatResult_getField_Integer_column
-description: StatResult.getField(Integer column)
+uid: crmscript_ref_StatResult_getField_Integer_column
+title: StatResult.getField(Integer column)
 intellisense: StatResult.getField
 keywords: getField(Integer)
 so.topic: reference

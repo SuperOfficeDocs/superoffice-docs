@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSelectionMemberEditValues_GetCompanyOurContact
-description: NSSelectionMemberEditValues.GetCompanyOurContact()
+uid: crmscript_ref_NSSelectionMemberEditValues_GetCompanyOurContact
+title: NSSelectionMemberEditValues.GetCompanyOurContact()
 intellisense: NSSelectionMemberEditValues.GetCompanyOurContact
 keywords: GetCompanyOurContact()
 so.topic: reference

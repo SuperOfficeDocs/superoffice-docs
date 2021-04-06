@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_getOwnerSms
-description: Ticket.getOwnerSms()
+uid: crmscript_ref_Ticket_getOwnerSms
+title: Ticket.getOwnerSms()
 intellisense: Ticket.getOwnerSms
 keywords: getOwnerSms()
 so.topic: reference

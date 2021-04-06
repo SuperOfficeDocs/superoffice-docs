@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company
-description: Company
+uid: crmscript_ref_Company
+title: Company
 intellisense: Void.Company
 sortOrder: 155
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_reserved_words
-description: Reserved words
+uid: crmscript_fundamentals_reserved_words
+title: Reserved words
 author:
 so.date:
 keywords:

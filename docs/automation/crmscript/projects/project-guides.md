@@ -1,6 +1,6 @@
 ---
-title: crmscript_project-guides
-description: Guides
+uid: crmscript_project-guides
+title: Guides
 author:
 so.date:
 keywords:

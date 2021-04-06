@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_addEmail_String_p_email_Integer_p_extTable_Integer_p_dbiAgentId
-description: Customer.addEmail(String p_email, Integer p_extTable, Integer p_dbiAgentId)
+uid: crmscript_ref_Customer_addEmail_String_p_email_Integer_p_extTable_Integer_p_dbiAgentId
+title: Customer.addEmail(String p_email, Integer p_extTable, Integer p_dbiAgentId)
 intellisense: Customer.addEmail
 sortOrder: 187
 keywords: addEmail(String,Integer,Integer)

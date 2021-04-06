@@ -1,6 +1,6 @@
 ---
-title: crmscript_extra_tables
-description: Third-party tables
+uid: crmscript_extra_tables
+title: Third-party tables
 author:
 so.date:
 keywords:

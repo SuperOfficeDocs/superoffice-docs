@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDSAParameters_SetY_NSBinary_p_0
-description: NSDSAParameters.SetY(NSBinary p_0)
+uid: crmscript_ref_NSDSAParameters_SetY_NSBinary_p_0
+title: NSDSAParameters.SetY(NSBinary p_0)
 intellisense: NSDSAParameters.SetY
 sortOrder: 2719
 keywords: SetY(NSBinary)

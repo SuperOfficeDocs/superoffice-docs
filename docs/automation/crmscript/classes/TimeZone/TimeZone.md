@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeZone
-description: TimeZone
+uid: crmscript_ref_TimeZone
+title: TimeZone
 intellisense: Void.TimeZone
 so.topic: reference
 ---

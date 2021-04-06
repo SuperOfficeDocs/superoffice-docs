@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_getResponseHeaders
-description: HTTP.getResponseHeaders()
+uid: crmscript_ref_HTTP_getResponseHeaders
+title: HTTP.getResponseHeaders()
 intellisense: HTTP.getResponseHeaders
 sortOrder: 404
 keywords: getResponseHeaders()

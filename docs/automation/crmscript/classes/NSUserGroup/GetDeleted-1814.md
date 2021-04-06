@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSUserGroup_GetDeleted
-description: NSUserGroup.GetDeleted()
+uid: crmscript_ref_NSUserGroup_GetDeleted
+title: NSUserGroup.GetDeleted()
 intellisense: NSUserGroup.GetDeleted
 keywords: GetDeleted()
 so.topic: reference

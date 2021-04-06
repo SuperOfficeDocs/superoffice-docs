@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_toSeconds
-description: TimeSpan.toSeconds()
+uid: crmscript_ref_TimeSpan_toSeconds
+title: TimeSpan.toSeconds()
 intellisense: TimeSpan.toSeconds
 keywords: toSeconds()
 so.topic: reference

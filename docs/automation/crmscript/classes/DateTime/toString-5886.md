@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_toString_String_format_String_months_String_weekDays
-description: DateTime.toString(String format, String months, String weekDays)
+uid: crmscript_ref_DateTime_toString_String_format_String_months_String_weekDays
+title: DateTime.toString(String format, String months, String weekDays)
 intellisense: DateTime.toString
 sortOrder: 239
 keywords: toString(String,String,String)

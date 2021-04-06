@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSArchiveListItem_SetColumnData_NSColumnDataDictionary_p_0
-description: NSArchiveListItem.SetColumnData(NSColumnDataDictionary p_0)
+uid: crmscript_ref_NSArchiveListItem_SetColumnData_NSColumnDataDictionary_p_0
+title: NSArchiveListItem.SetColumnData(NSColumnDataDictionary p_0)
 intellisense: NSArchiveListItem.SetColumnData
 sortOrder: 1183
 keywords: SetColumnData(NSColumnDataDictionary)

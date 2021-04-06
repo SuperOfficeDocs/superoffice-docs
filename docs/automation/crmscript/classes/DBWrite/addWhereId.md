@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DBWrite_addWhereId_Integer_id
-description: DBWrite.addWhereId(Integer id)
+uid: crmscript_ref_DBWrite_addWhereId_Integer_id
+title: DBWrite.addWhereId(Integer id)
 intellisense: DBWrite.addWhereId
 sortOrder: 269
 keywords: addWhereId(Integer)

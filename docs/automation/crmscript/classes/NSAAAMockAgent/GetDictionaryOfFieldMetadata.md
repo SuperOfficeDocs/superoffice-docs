@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetDictionaryOfFieldMetadata
-description: NSAAAMockAgent.GetDictionaryOfFieldMetadata()
+uid: crmscript_ref_NSAAAMockAgent_GetDictionaryOfFieldMetadata
+title: NSAAAMockAgent.GetDictionaryOfFieldMetadata()
 intellisense: NSAAAMockAgent.GetDictionaryOfFieldMetadata
 sortOrder: 8887
 keywords: GetDictionaryOfFieldMetadata()

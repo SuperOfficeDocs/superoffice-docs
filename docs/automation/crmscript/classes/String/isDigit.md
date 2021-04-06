@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isDigit
-description: String.isDigit()
+uid: crmscript_ref_String_isDigit
+title: String.isDigit()
 intellisense: String.isDigit
 keywords: isDigit()
 so.topic: reference

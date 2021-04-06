@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DBWrite_delete
-description: DBWrite.delete()
+uid: crmscript_ref_DBWrite_delete
+title: DBWrite.delete()
 intellisense: DBWrite.delete
 sortOrder: 270
 keywords: delete()

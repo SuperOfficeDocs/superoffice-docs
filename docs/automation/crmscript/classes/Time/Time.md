@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Time
-description: Time
+uid: crmscript_ref_Time
+title: Time
 intellisense: Void.Time
 so.topic: reference
 ---

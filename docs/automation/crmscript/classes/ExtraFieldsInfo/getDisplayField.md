@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_getDisplayField
-description: ExtraFieldsInfo.getDisplayField()
+uid: crmscript_ref_ExtraFieldsInfo_getDisplayField
+title: ExtraFieldsInfo.getDisplayField()
 intellisense: ExtraFieldsInfo.getDisplayField
 sortOrder: 305
 keywords: getDisplayField()

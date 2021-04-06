@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSUserDefinedFieldInfo_GetOwnerTableId
-description: NSUserDefinedFieldInfo.GetOwnerTableId()
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetOwnerTableId
+title: NSUserDefinedFieldInfo.GetOwnerTableId()
 intellisense: NSUserDefinedFieldInfo.GetOwnerTableId
 keywords: GetOwnerTableId()
 so.topic: reference

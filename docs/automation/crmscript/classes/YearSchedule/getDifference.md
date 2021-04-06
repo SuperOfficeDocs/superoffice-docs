@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_YearSchedule_getDifference_DateTime_from_DateTime_to
-description: YearSchedule.getDifference(DateTime from, DateTime to)
+uid: crmscript_ref_YearSchedule_getDifference_DateTime_from_DateTime_to
+title: YearSchedule.getDifference(DateTime from, DateTime to)
 intellisense: YearSchedule.getDifference
 keywords: getDifference(DateTime,DateTime)
 so.topic: reference

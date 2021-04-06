@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_AppointmentSlicer_getLoadForDay_Date_day_Time_start_Time_stop_Integer_max
-description: AppointmentSlicer.getLoadForDay(Date day, Time start, Time stop, Integer max)
+uid: crmscript_ref_AppointmentSlicer_getLoadForDay_Date_day_Time_start_Time_stop_Integer_max
+title: AppointmentSlicer.getLoadForDay(Date day, Time start, Time stop, Integer max)
 intellisense: AppointmentSlicer.getLoadForDay
 sortOrder: 110
 keywords: getLoadForDay(Date,Time,Time,Integer)

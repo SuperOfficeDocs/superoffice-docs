@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_equals_String_p_0
-description: String.equals(String p_0)
+uid: crmscript_ref_String_equals_String_p_0
+title: String.equals(String p_0)
 intellisense: String.equals
 keywords: equals(String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSelectionMemberEditValues_GetChangeCompanyCategory
-description: NSSelectionMemberEditValues.GetChangeCompanyCategory()
+uid: crmscript_ref_NSSelectionMemberEditValues_GetChangeCompanyCategory
+title: NSSelectionMemberEditValues.GetChangeCompanyCategory()
 intellisense: NSSelectionMemberEditValues.GetChangeCompanyCategory
 keywords: GetChangeCompanyCategory()
 so.topic: reference

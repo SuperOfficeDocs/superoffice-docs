@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_variables
-description: Variables
+uid: crmscript_fundamentals_variables
+title: Variables
 author:
 so.date:
 keywords:

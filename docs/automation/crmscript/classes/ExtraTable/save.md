@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTable_save
-description: ExtraTable.save()
+uid: crmscript_ref_ExtraTable_save
+title: ExtraTable.save()
 intellisense: ExtraTable.save
 sortOrder: 320
 keywords: save()

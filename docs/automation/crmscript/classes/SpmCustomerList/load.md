@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmCustomerList_load_Integer_id
-description: SpmCustomerList.load(Integer id)
+uid: crmscript_ref_SpmCustomerList_load_Integer_id
+title: SpmCustomerList.load(Integer id)
 intellisense: SpmCustomerList.load
 keywords: load(Integer)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Date_addMonth_Integer_num
-description: Date.addMonth(Integer num)
+uid: crmscript_ref_Date_addMonth_Integer_num
+title: Date.addMonth(Integer num)
 intellisense: Date.addMonth
 sortOrder: 198
 keywords: addMonth(Integer)

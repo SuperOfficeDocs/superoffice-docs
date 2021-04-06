@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_setFrom_String_from
-description: SpmShipment.setFrom(String from)
+uid: crmscript_ref_SpmShipment_setFrom_String_from
+title: SpmShipment.setFrom(String from)
 intellisense: SpmShipment.setFrom
 keywords: setFrom(String)
 so.topic: reference

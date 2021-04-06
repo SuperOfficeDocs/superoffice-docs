@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment
-description: Attachment
+uid: crmscript_ref_Attachment
+title: Attachment
 intellisense: Void.Attachment
 sortOrder: 115
 so.topic: reference

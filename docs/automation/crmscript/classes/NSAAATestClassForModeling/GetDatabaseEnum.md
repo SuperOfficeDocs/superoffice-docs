@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetDatabaseEnum
-description: NSAAATestClassForModeling.GetDatabaseEnum()
+uid: crmscript_ref_NSAAATestClassForModeling_GetDatabaseEnum
+title: NSAAATestClassForModeling.GetDatabaseEnum()
 intellisense: NSAAATestClassForModeling.GetDatabaseEnum
 sortOrder: 8922
 keywords: GetDatabaseEnum()

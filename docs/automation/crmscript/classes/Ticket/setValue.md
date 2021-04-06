@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_setValue_String_colName_String_value
-description: Ticket.setValue(String colName, String value)
+uid: crmscript_ref_Ticket_setValue_String_colName_String_value
+title: Ticket.setValue(String colName, String value)
 intellisense: Ticket.setValue
 keywords: setValue(String,String)
 so.topic: reference

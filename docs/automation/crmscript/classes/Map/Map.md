@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map
-description: Map
+uid: crmscript_ref_Map
+title: Map
 intellisense: Void.Map
 sortOrder: 522
 so.topic: reference

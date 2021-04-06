@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSPocketAgent_GetPocketStartupData_String__p_0_DateTime_p_1
-description: NSPocketAgent.GetPocketStartupData(String[] p_0, DateTime p_1)
+uid: crmscript_ref_NSPocketAgent_GetPocketStartupData_String__p_0_DateTime_p_1
+title: NSPocketAgent.GetPocketStartupData(String[] p_0, DateTime p_1)
 intellisense: NSPocketAgent.GetPocketStartupData
 keywords: GetPocketStartupData(String[],DateTime)
 so.topic: reference

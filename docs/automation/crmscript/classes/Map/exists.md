@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_exists_String_key
-description: Map.exists(String key)
+uid: crmscript_ref_Map_exists_String_key
+title: Map.exists(String key)
 intellisense: Map.exists
 sortOrder: 525
 keywords: exists(String)

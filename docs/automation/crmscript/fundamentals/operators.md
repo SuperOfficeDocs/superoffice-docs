@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_operators
-description: Operators
+uid: crmscript_fundamentals_operators
+title: Operators
 author:
 so.date:
 keywords:

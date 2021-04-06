@@ -1,6 +1,6 @@
 ---
-title: crmscript_howto
-description: How do I create and run CRMScripts?
+uid: crmscript_howto
+title: How do I create and run CRMScripts?
 author:
 so.date:
 keywords:

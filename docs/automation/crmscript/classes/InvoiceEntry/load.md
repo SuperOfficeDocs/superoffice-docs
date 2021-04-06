@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_load_Integer_id
-description: InvoiceEntry.load(Integer id)
+uid: crmscript_ref_InvoiceEntry_load_Integer_id
+title: InvoiceEntry.load(Integer id)
 intellisense: InvoiceEntry.load
 sortOrder: 432
 keywords: load(Integer)

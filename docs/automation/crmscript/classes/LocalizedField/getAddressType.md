@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_LocalizedField_getAddressType
-description: LocalizedField.getAddressType()
+uid: crmscript_ref_LocalizedField_getAddressType
+title: LocalizedField.getAddressType()
 intellisense: LocalizedField.getAddressType
 sortOrder: 467
 keywords: getAddressType()

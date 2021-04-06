@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_JSONBuilder
-description: JSONBuilder
+uid: crmscript_ref_JSONBuilder
+title: JSONBuilder
 intellisense: Void.JSONBuilder
 sortOrder: 442
 so.topic: reference

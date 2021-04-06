@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_SetSaleId_Integer_p_0
-description: NSAAATestClassForModeling.SetSaleId(Integer p_0)
+uid: crmscript_ref_NSAAATestClassForModeling_SetSaleId_Integer_p_0
+title: NSAAATestClassForModeling.SetSaleId(Integer p_0)
 intellisense: NSAAATestClassForModeling.SetSaleId
 sortOrder: 8943
 keywords: SetSaleId(Integer)

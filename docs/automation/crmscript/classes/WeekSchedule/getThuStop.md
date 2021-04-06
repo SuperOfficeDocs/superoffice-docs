@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_getThuStop
-description: WeekSchedule.getThuStop()
+uid: crmscript_ref_WeekSchedule_getThuStop
+title: WeekSchedule.getThuStop()
 intellisense: WeekSchedule.getThuStop
 keywords: getThuStop()
 so.topic: reference

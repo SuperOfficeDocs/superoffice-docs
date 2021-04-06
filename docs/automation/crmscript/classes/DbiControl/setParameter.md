@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DbiControl_setParameter_String_name_String_val
-description: DbiControl.setParameter(String name, String val)
+uid: crmscript_ref_DbiControl_setParameter_String_name_String_val
+title: DbiControl.setParameter(String name, String val)
 intellisense: DbiControl.setParameter
 sortOrder: 258
 keywords: setParameter(String,String)

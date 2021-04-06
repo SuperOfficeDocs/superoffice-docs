@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToDayStart
-description: DateTime.moveToDayStart()
+uid: crmscript_ref_DateTime_moveToDayStart
+title: DateTime.moveToDayStart()
 intellisense: DateTime.moveToDayStart
 sortOrder: 217
 keywords: moveToDayStart()

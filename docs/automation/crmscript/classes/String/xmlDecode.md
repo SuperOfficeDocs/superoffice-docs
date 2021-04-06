@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_xmlDecode
-description: String.xmlDecode()
+uid: crmscript_ref_String_xmlDecode
+title: String.xmlDecode()
 intellisense: String.xmlDecode
 keywords: xmlDecode()
 so.topic: reference

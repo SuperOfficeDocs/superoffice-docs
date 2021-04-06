@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmStaticList_removeRecipient_String_address
-description: SpmStaticList.removeRecipient(String address)
+uid: crmscript_ref_SpmStaticList_removeRecipient_String_address
+title: SpmStaticList.removeRecipient(String address)
 intellisense: SpmStaticList.removeRecipient
 keywords: removeRecipient(String)
 so.topic: reference

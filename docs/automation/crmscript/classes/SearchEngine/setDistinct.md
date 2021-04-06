@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_setDistinct_String_field
-description: SearchEngine.setDistinct(String field)
+uid: crmscript_ref_SearchEngine_setDistinct_String_field
+title: SearchEngine.setDistinct(String field)
 intellisense: SearchEngine.setDistinct
 keywords: setDistinct(String)
 so.topic: reference

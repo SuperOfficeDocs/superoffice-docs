@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatResult_atGroupBegin_Integer_column
-description: StatResult.atGroupBegin(Integer column)
+uid: crmscript_ref_StatResult_atGroupBegin_Integer_column
+title: StatResult.atGroupBegin(Integer column)
 intellisense: StatResult.atGroupBegin
 keywords: atGroupBegin(Integer)
 so.topic: reference

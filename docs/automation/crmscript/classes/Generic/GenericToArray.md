@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_GenericToArray_Generic_generic
-description: Generic.GenericToArray(Generic generic)
+uid: crmscript_ref_Generic_GenericToArray_Generic_generic
+title: Generic.GenericToArray(Generic generic)
 intellisense: Generic.GenericToArray
 langref: 1
 sortOrder: 90

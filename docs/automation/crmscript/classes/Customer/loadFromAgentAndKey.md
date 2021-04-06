@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_loadFromAgentAndKey_Integer_agent_String_key
-description: Customer.loadFromAgentAndKey(Integer agent, String key)
+uid: crmscript_ref_Customer_loadFromAgentAndKey_Integer_agent_String_key
+title: Customer.loadFromAgentAndKey(Integer agent, String key)
 intellisense: Customer.loadFromAgentAndKey
 sortOrder: 179
 keywords: loadFromAgentAndKey(Integer,String)

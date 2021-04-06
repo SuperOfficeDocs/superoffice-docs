@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_findAlternativeFields_String_fieldBeginsWith
-description: SearchEngine.findAlternativeFields(String fieldBeginsWith)
+uid: crmscript_ref_SearchEngine_findAlternativeFields_String_fieldBeginsWith
+title: SearchEngine.findAlternativeFields(String fieldBeginsWith)
 intellisense: SearchEngine.findAlternativeFields
 keywords: findAlternativeFields(String)
 so.topic: reference

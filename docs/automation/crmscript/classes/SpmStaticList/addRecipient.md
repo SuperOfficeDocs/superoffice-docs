@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmStaticList_addRecipient_String_address_String_name
-description: SpmStaticList.addRecipient(String address, String name)
+uid: crmscript_ref_SpmStaticList_addRecipient_String_address_String_name
+title: SpmStaticList.addRecipient(String address, String name)
 intellisense: SpmStaticList.addRecipient
 keywords: addRecipient(String,String)
 so.topic: reference

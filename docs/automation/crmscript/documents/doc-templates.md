@@ -1,6 +1,6 @@
 ---
-title: crmscript_doc_templates
-description: Document templates
+uid: crmscript_doc_templates
+title: Document templates
 author:
 so.date:
 keywords:

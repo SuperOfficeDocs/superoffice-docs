@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime
-description: DateTime
+uid: crmscript_ref_DateTime
+title: DateTime
 intellisense: Void.DateTime
 sortOrder: 206
 so.topic: reference

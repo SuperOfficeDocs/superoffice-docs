@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Notify_sendNewTicket_Integer_ticketId
-description: Notify.sendNewTicket(Integer ticketId)
+uid: crmscript_ref_Notify_sendNewTicket_Integer_ticketId
+title: Notify.sendNewTicket(Integer ticketId)
 intellisense: Notify.sendNewTicket
 keywords: sendNewTicket(Integer)
 so.topic: reference

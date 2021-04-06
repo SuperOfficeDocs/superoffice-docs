@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_addListCRMSelection_Integer_p_0
-description: SpmShipment.addListCRMSelection(Integer p_0)
+uid: crmscript_ref_SpmShipment_addListCRMSelection_Integer_p_0
+title: SpmShipment.addListCRMSelection(Integer p_0)
 intellisense: SpmShipment.addListCRMSelection
 keywords: addListCRMSelection(Integer)
 so.topic: reference

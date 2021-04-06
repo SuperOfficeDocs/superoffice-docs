@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP
-description: HTTP
+uid: crmscript_ref_HTTP
+title: HTTP
 intellisense: Void.HTTP
 sortOrder: 396
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_setSourcePath_String_p_0
-description: MacroParameter.setSourcePath(String p_0)
+uid: crmscript_ref_MacroParameter_setSourcePath_String_p_0
+title: MacroParameter.setSourcePath(String p_0)
 intellisense: MacroParameter.setSourcePath
 sortOrder: 493
 keywords: setSourcePath(String)

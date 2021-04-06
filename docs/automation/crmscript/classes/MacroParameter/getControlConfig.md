@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_getControlConfig
-description: MacroParameter.getControlConfig()
+uid: crmscript_ref_MacroParameter_getControlConfig
+title: MacroParameter.getControlConfig()
 intellisense: MacroParameter.getControlConfig
 sortOrder: 480
 keywords: getControlConfig()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DBWrite_addString_String_name_String_value
-description: DBWrite.addString(String name, String value)
+uid: crmscript_ref_DBWrite_addString_String_name_String_value
+title: DBWrite.addString(String name, String value)
 intellisense: DBWrite.addString
 sortOrder: 266
 keywords: addString(String,String)

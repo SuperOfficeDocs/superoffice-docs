@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EabEntry_delete
-description: EabEntry.delete()
+uid: crmscript_ref_EabEntry_delete
+title: EabEntry.delete()
 intellisense: EabEntry.delete
 sortOrder: 278
 keywords: delete()

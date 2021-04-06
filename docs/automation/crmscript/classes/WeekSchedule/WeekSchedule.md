@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule
-description: WeekSchedule
+uid: crmscript_ref_WeekSchedule
+title: WeekSchedule
 intellisense: Void.WeekSchedule
 so.topic: reference
 ---

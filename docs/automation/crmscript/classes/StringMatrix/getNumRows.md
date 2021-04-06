@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StringMatrix_getNumRows
-description: StringMatrix.getNumRows()
+uid: crmscript_ref_StringMatrix_getNumRows
+title: StringMatrix.getNumRows()
 intellisense: StringMatrix.getNumRows
 keywords: getNumRows()
 so.topic: reference

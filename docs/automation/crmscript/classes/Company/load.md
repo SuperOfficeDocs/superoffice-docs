@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company_load_Integer_id
-description: Company.load(Integer id)
+uid: crmscript_ref_Company_load_Integer_id
+title: Company.load(Integer id)
 intellisense: Company.load
 sortOrder: 160
 keywords: load(Integer)

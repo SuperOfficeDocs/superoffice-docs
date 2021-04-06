@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_after_String_s
-description: String.after(String s)
+uid: crmscript_ref_String_after_String_s
+title: String.after(String s)
 intellisense: String.after
 keywords: after(String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetStandardBool
-description: NSAAATestClassForModeling.GetStandardBool()
+uid: crmscript_ref_NSAAATestClassForModeling_GetStandardBool
+title: NSAAATestClassForModeling.GetStandardBool()
 intellisense: NSAAATestClassForModeling.GetStandardBool
 sortOrder: 8917
 keywords: GetStandardBool()

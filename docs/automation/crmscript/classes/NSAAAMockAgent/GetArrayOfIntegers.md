@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetArrayOfIntegers
-description: NSAAAMockAgent.GetArrayOfIntegers()
+uid: crmscript_ref_NSAAAMockAgent_GetArrayOfIntegers
+title: NSAAAMockAgent.GetArrayOfIntegers()
 intellisense: NSAAAMockAgent.GetArrayOfIntegers
 sortOrder: 8892
 keywords: GetArrayOfIntegers()

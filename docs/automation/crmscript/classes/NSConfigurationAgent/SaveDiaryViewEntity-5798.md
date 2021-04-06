@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSConfigurationAgent_SaveDiaryViewEntity_NSDiaryViewEntity_p_0
-description: NSConfigurationAgent.SaveDiaryViewEntity(NSDiaryViewEntity p_0)
+uid: crmscript_ref_NSConfigurationAgent_SaveDiaryViewEntity_NSDiaryViewEntity_p_0
+title: NSConfigurationAgent.SaveDiaryViewEntity(NSDiaryViewEntity p_0)
 intellisense: NSConfigurationAgent.SaveDiaryViewEntity
 sortOrder: 1625
 keywords: SaveDiaryViewEntity(NSDiaryViewEntity)

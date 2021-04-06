@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_setGroup_Bool_set
-description: SearchEngine.setGroup(Bool set)
+uid: crmscript_ref_SearchEngine_setGroup_Bool_set
+title: SearchEngine.setGroup(Bool set)
 intellisense: SearchEngine.setGroup
 keywords: setGroup(Bool)
 so.topic: reference

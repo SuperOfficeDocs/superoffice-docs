@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_FHBitSet_getBitNo_Integer_number
-description: FHBitSet.getBitNo(Integer number)
+uid: crmscript_ref_FHBitSet_getBitNo_Integer_number
+title: FHBitSet.getBitNo(Integer number)
 intellisense: FHBitSet.getBitNo
 sortOrder: 334
 keywords: getBitNo(Integer)

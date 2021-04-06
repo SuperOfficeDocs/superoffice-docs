@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_getNumGroups
-description: MainMenu.getNumGroups()
+uid: crmscript_ref_MainMenu_getNumGroups
+title: MainMenu.getNumGroups()
 intellisense: MainMenu.getNumGroups
 sortOrder: 506
 keywords: getNumGroups()

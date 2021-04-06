@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Integer_toBool
-description: Integer.toBool()
+uid: crmscript_ref_Integer_toBool
+title: Integer.toBool()
 intellisense: Integer.toBool
 sortOrder: 425
 keywords: toBool()

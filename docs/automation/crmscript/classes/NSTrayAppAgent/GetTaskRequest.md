@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSTrayAppAgent_GetTaskRequest_String_p_0
-description: NSTrayAppAgent.GetTaskRequest(String p_0)
+uid: crmscript_ref_NSTrayAppAgent_GetTaskRequest_String_p_0
+title: NSTrayAppAgent.GetTaskRequest(String p_0)
 intellisense: NSTrayAppAgent.GetTaskRequest
 keywords: GetTaskRequest(String)
 so.topic: reference

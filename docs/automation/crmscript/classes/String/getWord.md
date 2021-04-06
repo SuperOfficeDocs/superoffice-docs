@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_getWord_Integer_num
-description: String.getWord(Integer num)
+uid: crmscript_ref_String_getWord_Integer_num
+title: String.getWord(Integer num)
 intellisense: String.getWord
 keywords: getWord(Integer)
 so.topic: reference

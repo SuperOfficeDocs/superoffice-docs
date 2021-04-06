@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Priority_checkEscalating_Integer_ticketId_Integer_action
-description: Priority.checkEscalating(Integer ticketId, Integer action)
+uid: crmscript_ref_Priority_checkEscalating_Integer_ticketId_Integer_action
+title: Priority.checkEscalating(Integer ticketId, Integer action)
 intellisense: Priority.checkEscalating
 keywords: checkEscalating(Integer,Integer)
 so.topic: reference

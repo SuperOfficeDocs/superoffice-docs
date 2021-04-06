@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_beginsWith_String_s
-description: String.beginsWith(String s)
+uid: crmscript_ref_String_beginsWith_String_s
+title: String.beginsWith(String s)
 intellisense: String.beginsWith
 keywords: beginsWith(String)
 so.topic: reference

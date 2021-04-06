@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File_close
-description: File.close()
+uid: crmscript_ref_File_close
+title: File.close()
 intellisense: File.close
 sortOrder: 349
 keywords: close()

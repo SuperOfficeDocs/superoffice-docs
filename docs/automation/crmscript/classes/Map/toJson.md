@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_toJson
-description: Map.toJson()
+uid: crmscript_ref_Map_toJson
+title: Map.toJson()
 intellisense: Map.toJson
 sortOrder: 533
 keywords: toJson()

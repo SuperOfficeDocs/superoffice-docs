@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_XMLNode_getParameter_String_name
-description: XMLNode.getParameter(String name)
+uid: crmscript_ref_XMLNode_getParameter_String_name
+title: XMLNode.getParameter(String name)
 intellisense: XMLNode.getParameter
 keywords: getParameter(String)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Vector_toIntegerArray
-description: Vector.toIntegerArray()
+uid: crmscript_ref_Vector_toIntegerArray
+title: Vector.toIntegerArray()
 intellisense: Vector.toIntegerArray
 keywords: toIntegerArray()
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Category
-description: Category
+uid: crmscript_ref_Category
+title: Category
 intellisense: Void.Category
 sortOrder: 149
 so.topic: reference

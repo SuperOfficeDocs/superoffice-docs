@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSelectionAgent_SaveSelectionEntity_NSSelectionEntity_p_0
-description: NSSelectionAgent.SaveSelectionEntity(NSSelectionEntity p_0)
+uid: crmscript_ref_NSSelectionAgent_SaveSelectionEntity_NSSelectionEntity_p_0
+title: NSSelectionAgent.SaveSelectionEntity(NSSelectionEntity p_0)
 intellisense: NSSelectionAgent.SaveSelectionEntity
 keywords: SaveSelectionEntity(NSSelectionEntity)
 so.topic: reference

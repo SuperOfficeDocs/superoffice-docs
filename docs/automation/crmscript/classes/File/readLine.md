@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File_readLine
-description: File.readLine()
+uid: crmscript_ref_File_readLine
+title: File.readLine()
 intellisense: File.readLine
 sortOrder: 348
 keywords: readLine()

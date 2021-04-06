@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSErpConnection_GetConfigFields
-description: NSErpConnection.GetConfigFields()
+uid: crmscript_ref_NSErpConnection_GetConfigFields
+title: NSErpConnection.GetConfigFields()
 intellisense: NSErpConnection.GetConfigFields
 sortOrder: 3089
 keywords: GetConfigFields()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_findExternallyFromEmail_String_email_Integer_extTable
-description: Customer.findExternallyFromEmail(String email, Integer extTable)
+uid: crmscript_ref_Customer_findExternallyFromEmail_String_email_Integer_extTable
+title: Customer.findExternallyFromEmail(String email, Integer extTable)
 intellisense: Customer.findExternallyFromEmail
 sortOrder: 174
 keywords: findExternallyFromEmail(String,Integer)

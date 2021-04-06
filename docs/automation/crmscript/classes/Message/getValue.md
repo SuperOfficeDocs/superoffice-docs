@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_getValue_String_colName
-description: Message.getValue(String colName)
+uid: crmscript_ref_Message_getValue_String_colName
+title: Message.getValue(String colName)
 intellisense: Message.getValue
 sortOrder: 551
 keywords: getValue(String)

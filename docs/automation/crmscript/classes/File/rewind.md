@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_File_rewind
-description: File.rewind()
+uid: crmscript_ref_File_rewind
+title: File.rewind()
 intellisense: File.rewind
 sortOrder: 351
 keywords: rewind()

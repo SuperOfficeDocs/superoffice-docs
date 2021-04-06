@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_setValue_String_p_cgiVariable_String_p_value
-description: HTTP.setValue(String p_cgiVariable, String p_value)
+uid: crmscript_ref_HTTP_setValue_String_p_cgiVariable_String_p_value
+title: HTTP.setValue(String p_cgiVariable, String p_value)
 intellisense: HTTP.setValue
 sortOrder: 418
 keywords: setValue(String,String)

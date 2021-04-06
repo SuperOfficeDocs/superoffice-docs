@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_patchAsStream_String_p_0
-description: HTTP.patchAsStream(String p_0)
+uid: crmscript_ref_HTTP_patchAsStream_String_p_0
+title: HTTP.patchAsStream(String p_0)
 intellisense: HTTP.patchAsStream
 sortOrder: 408
 keywords: patchAsStream(String)

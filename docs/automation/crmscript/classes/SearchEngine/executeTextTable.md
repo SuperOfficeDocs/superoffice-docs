@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_executeTextTable
-description: SearchEngine.executeTextTable()
+uid: crmscript_ref_SearchEngine_executeTextTable
+title: SearchEngine.executeTextTable()
 intellisense: SearchEngine.executeTextTable
 keywords: executeTextTable()
 so.topic: reference

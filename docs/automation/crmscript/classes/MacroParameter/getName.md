@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MacroParameter_getName
-description: MacroParameter.getName()
+uid: crmscript_ref_MacroParameter_getName
+title: MacroParameter.getName()
 intellisense: MacroParameter.getName
 sortOrder: 483
 keywords: getName()

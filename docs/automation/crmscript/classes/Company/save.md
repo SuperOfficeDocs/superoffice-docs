@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company_save
-description: Company.save()
+uid: crmscript_ref_Company_save
+title: Company.save()
 intellisense: Company.save
 sortOrder: 162
 keywords: save()

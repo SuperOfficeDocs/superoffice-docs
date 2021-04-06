@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatResult_saveAsResult_Integer_column_Integer_ownerId_Integer_maxRows
-description: StatResult.saveAsResult(Integer column, Integer ownerId, Integer maxRows)
+uid: crmscript_ref_StatResult_saveAsResult_Integer_column_Integer_ownerId_Integer_maxRows
+title: StatResult.saveAsResult(Integer column, Integer ownerId, Integer maxRows)
 intellisense: StatResult.saveAsResult
 keywords: saveAsResult(Integer,Integer,Integer)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmShipment_setMessage_Integer_messageId
-description: SpmShipment.setMessage(Integer messageId)
+uid: crmscript_ref_SpmShipment_setMessage_Integer_messageId
+title: SpmShipment.setMessage(Integer messageId)
 intellisense: SpmShipment.setMessage
 keywords: setMessage(Integer)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_setOutputValue_String_fieldName_String_val
-description: EventData.setOutputValue(String fieldName, String val)
+uid: crmscript_ref_EventData_setOutputValue_String_fieldName_String_val
+title: EventData.setOutputValue(String fieldName, String val)
 intellisense: EventData.setOutputValue
 sortOrder: 298
 keywords: setOutputValue(String,String)

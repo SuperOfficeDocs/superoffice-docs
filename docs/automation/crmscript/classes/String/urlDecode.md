@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_urlDecode
-description: String.urlDecode()
+uid: crmscript_ref_String_urlDecode
+title: String.urlDecode()
 intellisense: String.urlDecode
 keywords: urlDecode()
 so.topic: reference

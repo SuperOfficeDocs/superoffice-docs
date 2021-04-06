@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_load_Integer_id
-description: Customer.load(Integer id)
+uid: crmscript_ref_Customer_load_Integer_id
+title: Customer.load(Integer id)
 intellisense: Customer.load
 sortOrder: 178
 keywords: load(Integer)

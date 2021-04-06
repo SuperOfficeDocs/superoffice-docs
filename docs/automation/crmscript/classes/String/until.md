@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_until_String_s
-description: String.until(String s)
+uid: crmscript_ref_String_until_String_s
+title: String.until(String s)
 intellisense: String.until
 keywords: until(String)
 so.topic: reference

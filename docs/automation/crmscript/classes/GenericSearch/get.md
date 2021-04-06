@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_get_Integer_field_Integer_fieldMask
-description: GenericSearch.get(Integer field, Integer fieldMask)
+uid: crmscript_ref_GenericSearch_get_Integer_field_Integer_fieldMask
+title: GenericSearch.get(Integer field, Integer fieldMask)
 intellisense: GenericSearch.get
 sortOrder: 367
 keywords: get(Integer,Integer)

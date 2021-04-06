@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_insert
-description: SearchEngine.insert()
+uid: crmscript_ref_SearchEngine_insert
+title: SearchEngine.insert()
 intellisense: SearchEngine.insert
 keywords: insert()
 so.topic: reference

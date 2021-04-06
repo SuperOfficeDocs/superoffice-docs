@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_isValidEmail
-description: String.isValidEmail()
+uid: crmscript_ref_String_isValidEmail
+title: String.isValidEmail()
 intellisense: String.isValidEmail
 keywords: isValidEmail()
 so.topic: reference

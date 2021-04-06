@@ -1,6 +1,6 @@
 ---
-title: crmscript_recurrence
-description: Recurrence
+uid: crmscript_recurrence
+title: Recurrence
 author:
 so.date:
 keywords:

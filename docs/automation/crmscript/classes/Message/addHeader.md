@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_addHeader_String_type_String_value
-description: Message.addHeader(String type, String value)
+uid: crmscript_ref_Message_addHeader_String_type_String_value
+title: Message.addHeader(String type, String value)
 intellisense: Message.addHeader
 sortOrder: 552
 keywords: addHeader(String,String)

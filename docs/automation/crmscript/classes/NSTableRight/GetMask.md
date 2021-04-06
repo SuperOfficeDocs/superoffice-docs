@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSTableRight_GetMask
-description: NSTableRight.GetMask()
+uid: crmscript_ref_NSTableRight_GetMask
+title: NSTableRight.GetMask()
 intellisense: NSTableRight.GetMask
 keywords: GetMask()
 so.topic: reference

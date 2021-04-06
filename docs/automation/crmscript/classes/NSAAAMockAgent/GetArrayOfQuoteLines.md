@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetArrayOfQuoteLines
-description: NSAAAMockAgent.GetArrayOfQuoteLines()
+uid: crmscript_ref_NSAAAMockAgent_GetArrayOfQuoteLines
+title: NSAAAMockAgent.GetArrayOfQuoteLines()
 intellisense: NSAAAMockAgent.GetArrayOfQuoteLines
 sortOrder: 8895
 keywords: GetArrayOfQuoteLines()

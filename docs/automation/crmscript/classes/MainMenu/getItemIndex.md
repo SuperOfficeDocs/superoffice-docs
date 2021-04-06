@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_getItemIndex_Integer_p_group_String_p_itemId
-description: MainMenu.getItemIndex(Integer p_group, String p_itemId)
+uid: crmscript_ref_MainMenu_getItemIndex_Integer_p_group_String_p_itemId
+title: MainMenu.getItemIndex(Integer p_group, String p_itemId)
 intellisense: MainMenu.getItemIndex
 sortOrder: 505
 keywords: getItemIndex(Integer,String)

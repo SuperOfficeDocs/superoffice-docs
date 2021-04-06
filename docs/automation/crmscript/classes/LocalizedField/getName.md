@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_LocalizedField_getName
-description: LocalizedField.getName()
+uid: crmscript_ref_LocalizedField_getName
+title: LocalizedField.getName()
 intellisense: LocalizedField.getName
 sortOrder: 469
 keywords: getName()

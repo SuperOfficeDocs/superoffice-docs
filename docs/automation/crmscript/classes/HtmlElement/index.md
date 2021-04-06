@@ -1,9 +1,9 @@
 ---
-title: crmscript_ref_HtmlElement
-description: HtmlElement
+uid: crmscript_ref_HtmlElement
+title: HtmlElement
 intellisense: Void.HtmlElement
 sortOrder: 377
-description: HtmlElement
+title: HtmlElement
 author:
 so.date:
 keywords:

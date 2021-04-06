@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Time_getHour
-description: Time.getHour()
+uid: crmscript_ref_Time_getHour
+title: Time.getHour()
 intellisense: Time.getHour
 keywords: getHour()
 so.topic: reference

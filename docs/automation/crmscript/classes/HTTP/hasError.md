@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_hasError
-description: HTTP.hasError()
+uid: crmscript_ref_HTTP_hasError
+title: HTTP.hasError()
 intellisense: HTTP.hasError
 sortOrder: 398
 keywords: hasError()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_extractHtmlHead_Bool_stripTitle
-description: String.extractHtmlHead(Bool stripTitle)
+uid: crmscript_ref_String_extractHtmlHead_Bool_stripTitle
+title: String.extractHtmlHead(Bool stripTitle)
 intellisense: String.extractHtmlHead
 keywords: extractHtmlHead(Bool)
 so.topic: reference

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment_Dump_Bool
-description: Attachment.Dump(Bool)
+uid: crmscript_ref_Attachment_Dump_Bool
+title: Attachment.Dump(Bool)
 intellisense: Attachment.Dump
 sortOrder: 120
 keywords: Dump(Bool)

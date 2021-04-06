@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Priority
-description: Priority
+uid: crmscript_ref_Priority
+title: Priority
 intellisense: Void.Priority
 so.topic: reference
 ---

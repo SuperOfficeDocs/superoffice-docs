@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_makeSalutation
-description: Customer.makeSalutation()
+uid: crmscript_ref_Customer_makeSalutation
+title: Customer.makeSalutation()
 intellisense: Customer.makeSalutation
 sortOrder: 185
 keywords: makeSalutation()

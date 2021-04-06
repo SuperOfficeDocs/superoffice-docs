@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDocumentAgent_GetPluginCapabilities_Integer_p_0
-description: NSDocumentAgent.GetPluginCapabilities(Integer p_0)
+uid: crmscript_ref_NSDocumentAgent_GetPluginCapabilities_Integer_p_0
+title: NSDocumentAgent.GetPluginCapabilities(Integer p_0)
 intellisense: NSDocumentAgent.GetPluginCapabilities
 sortOrder: 2543
 keywords: GetPluginCapabilities(Integer)

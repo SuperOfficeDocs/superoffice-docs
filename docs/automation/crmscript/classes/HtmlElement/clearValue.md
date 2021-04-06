@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_clearValue
-description: HtmlElement.clearValue()
+uid: crmscript_ref_HtmlElement_clearValue
+title: HtmlElement.clearValue()
 intellisense: HtmlElement.clearValue
 sortOrder: 388
 keywords: clearValue()

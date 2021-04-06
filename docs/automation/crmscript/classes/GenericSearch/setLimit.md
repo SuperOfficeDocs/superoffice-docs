@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_GenericSearch_setLimit_Integer_limit
-description: GenericSearch.setLimit(Integer limit)
+uid: crmscript_ref_GenericSearch_setLimit_Integer_limit
+title: GenericSearch.setLimit(Integer limit)
 intellisense: GenericSearch.setLimit
 sortOrder: 376
 keywords: setLimit(Integer)

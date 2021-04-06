@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_JSONBuilder_getString
-description: JSONBuilder.getString()
+uid: crmscript_ref_JSONBuilder_getString
+title: JSONBuilder.getString()
 intellisense: JSONBuilder.getString
 sortOrder: 445
 keywords: getString()

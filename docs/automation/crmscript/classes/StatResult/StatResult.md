@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatResult
-description: StatResult
+uid: crmscript_ref_StatResult
+title: StatResult
 intellisense: Void.StatResult
 so.topic: reference
 ---

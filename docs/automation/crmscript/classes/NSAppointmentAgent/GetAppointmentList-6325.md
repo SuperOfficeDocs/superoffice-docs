@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAppointmentAgent_GetAppointmentList_Integer__p_0
-description: NSAppointmentAgent.GetAppointmentList(Integer[] p_0)
+uid: crmscript_ref_NSAppointmentAgent_GetAppointmentList_Integer__p_0
+title: NSAppointmentAgent.GetAppointmentList(Integer[] p_0)
 intellisense: NSAppointmentAgent.GetAppointmentList
 sortOrder: 885
 keywords: GetAppointmentList(Integer[])

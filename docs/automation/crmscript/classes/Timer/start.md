@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Timer_start
-description: Timer.start()
+uid: crmscript_ref_Timer_start
+title: Timer.start()
 intellisense: Timer.start
 keywords: start()
 so.topic: reference

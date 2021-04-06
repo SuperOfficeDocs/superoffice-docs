@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment_save
-description: Attachment.save()
+uid: crmscript_ref_Attachment_save
+title: Attachment.save()
 intellisense: Attachment.save
 sortOrder: 121
 keywords: save()

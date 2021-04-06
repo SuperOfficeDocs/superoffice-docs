@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_getFriStop
-description: WeekSchedule.getFriStop()
+uid: crmscript_ref_WeekSchedule_getFriStop
+title: WeekSchedule.getFriStop()
 intellisense: WeekSchedule.getFriStop
 keywords: getFriStop()
 so.topic: reference

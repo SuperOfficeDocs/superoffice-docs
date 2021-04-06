@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateEntry_GetRuleName
-description: NSDuplicateEntry.GetRuleName()
+uid: crmscript_ref_NSDuplicateEntry_GetRuleName
+title: NSDuplicateEntry.GetRuleName()
 intellisense: NSDuplicateEntry.GetRuleName
 sortOrder: 2726
 keywords: GetRuleName()

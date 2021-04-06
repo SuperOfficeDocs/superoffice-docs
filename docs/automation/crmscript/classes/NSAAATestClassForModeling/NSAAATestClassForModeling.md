@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling
-description: NSAAATestClassForModeling
+uid: crmscript_ref_NSAAATestClassForModeling
+title: NSAAATestClassForModeling
 intellisense: Void.NSAAATestClassForModeling
 sortOrder: 8915
 so.topic: reference

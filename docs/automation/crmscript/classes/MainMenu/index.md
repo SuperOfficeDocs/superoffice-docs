@@ -1,9 +1,9 @@
 ---
-title: crmscript_ref_MainMenu
-description: MainMenu
+uid: crmscript_ref_MainMenu
+title: MainMenu
 intellisense: Void.MainMenu
 sortOrder: 502
-description: MainMenu
+title: MainMenu
 author:
 so.date:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateEntry_SetEntryName_String_p_0
-description: NSDuplicateEntry.SetEntryName(String p_0)
+uid: crmscript_ref_NSDuplicateEntry_SetEntryName_String_p_0
+title: NSDuplicateEntry.SetEntryName(String p_0)
 intellisense: NSDuplicateEntry.SetEntryName
 sortOrder: 2728
 keywords: SetEntryName(String)

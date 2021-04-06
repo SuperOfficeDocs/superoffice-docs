@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Date_getWeek
-description: Date.getWeek()
+uid: crmscript_ref_Date_getWeek
+title: Date.getWeek()
 intellisense: Date.getWeek
 sortOrder: 202
 keywords: getWeek()

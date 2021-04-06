@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSFieldInfoShortText_SetChoices_String__p_0
-description: NSFieldInfoShortText.SetChoices(String[] p_0)
+uid: crmscript_ref_NSFieldInfoShortText_SetChoices_String__p_0
+title: NSFieldInfoShortText.SetChoices(String[] p_0)
 intellisense: NSFieldInfoShortText.SetChoices
 sortOrder: 3552
 keywords: SetChoices(String[])

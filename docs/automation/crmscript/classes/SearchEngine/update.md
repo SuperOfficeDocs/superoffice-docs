@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SearchEngine_update
-description: SearchEngine.update()
+uid: crmscript_ref_SearchEngine_update
+title: SearchEngine.update()
 intellisense: SearchEngine.update
 keywords: update()
 so.topic: reference

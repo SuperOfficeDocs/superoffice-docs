@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSBLOBAgent_SaveBlobEntity_NSBlobEntity_p_0
-description: NSBLOBAgent.SaveBlobEntity(NSBlobEntity p_0)
+uid: crmscript_ref_NSBLOBAgent_SaveBlobEntity_NSBlobEntity_p_0
+title: NSBLOBAgent.SaveBlobEntity(NSBlobEntity p_0)
 intellisense: NSBLOBAgent.SaveBlobEntity
 sortOrder: 1430
 keywords: SaveBlobEntity(NSBlobEntity)

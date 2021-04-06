@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_WeekSchedule_addTimeSpan_DateTime_start_TimeSpan_add
-description: WeekSchedule.addTimeSpan(DateTime start, TimeSpan add)
+uid: crmscript_ref_WeekSchedule_addTimeSpan_DateTime_start_TimeSpan_add
+title: WeekSchedule.addTimeSpan(DateTime start, TimeSpan add)
 intellisense: WeekSchedule.addTimeSpan
 keywords: addTimeSpan(DateTime,TimeSpan)
 so.topic: reference

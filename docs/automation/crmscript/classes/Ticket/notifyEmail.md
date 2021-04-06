@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_notifyEmail_Integer_replyTemplateId
-description: Ticket.notifyEmail(Integer replyTemplateId)
+uid: crmscript_ref_Ticket_notifyEmail_Integer_replyTemplateId
+title: Ticket.notifyEmail(Integer replyTemplateId)
 intellisense: Ticket.notifyEmail
 keywords: notifyEmail(Integer)
 so.topic: reference

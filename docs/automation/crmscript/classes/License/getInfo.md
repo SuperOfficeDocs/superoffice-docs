@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_License_getInfo
-description: License.getInfo()
+uid: crmscript_ref_License_getInfo
+title: License.getInfo()
 intellisense: License.getInfo
 sortOrder: 461
 keywords: getInfo()

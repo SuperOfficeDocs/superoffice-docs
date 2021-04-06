@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Cache_sort_String_p_0_Bool_p_1
-description: Cache.sort(String p_0, Bool p_1)
+uid: crmscript_ref_Cache_sort_String_p_0_Bool_p_1
+title: Cache.sort(String p_0, Bool p_1)
 intellisense: Cache.sort
 sortOrder: 148
 keywords: sort(String,Bool)

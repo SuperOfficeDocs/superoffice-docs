@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_find_String_subStr
-description: String.find(String subStr)
+uid: crmscript_ref_String_find_String_subStr
+title: String.find(String subStr)
 intellisense: String.find
 keywords: find(String)
 so.topic: reference

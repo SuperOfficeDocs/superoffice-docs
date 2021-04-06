@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateEntry_GetSoPrimaryKey
-description: NSDuplicateEntry.GetSoPrimaryKey()
+uid: crmscript_ref_NSDuplicateEntry_GetSoPrimaryKey
+title: NSDuplicateEntry.GetSoPrimaryKey()
 intellisense: NSDuplicateEntry.GetSoPrimaryKey
 sortOrder: 2722
 keywords: GetSoPrimaryKey()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EabEntry_loadFromAgentAndKey_Integer_p_0_String_p_1
-description: EabEntry.loadFromAgentAndKey(Integer p_0, String p_1)
+uid: crmscript_ref_EabEntry_loadFromAgentAndKey_Integer_p_0_String_p_1
+title: EabEntry.loadFromAgentAndKey(Integer p_0, String p_1)
 intellisense: EabEntry.loadFromAgentAndKey
 sortOrder: 275
 keywords: loadFromAgentAndKey(Integer,String)

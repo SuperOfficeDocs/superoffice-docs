@@ -1,6 +1,6 @@
 ---
-title: crmscript_quote_properties
-description: One quote per sale
+uid: crmscript_quote_properties
+title: One quote per sale
 author:
 so.date:
 keywords:

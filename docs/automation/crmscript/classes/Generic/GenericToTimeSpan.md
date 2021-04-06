@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_GenericToTimeSpan_Generic_generic
-description: Generic.GenericToTimeSpan(Generic generic)
+uid: crmscript_ref_Generic_GenericToTimeSpan_Generic_generic
+title: Generic.GenericToTimeSpan(Generic generic)
 intellisense: Generic.GenericToTimeSpan
 langref: 1
 sortOrder: 160

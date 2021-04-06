@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_getDiscount
-description: InvoiceEntry.getDiscount()
+uid: crmscript_ref_InvoiceEntry_getDiscount
+title: InvoiceEntry.getDiscount()
 intellisense: InvoiceEntry.getDiscount
 sortOrder: 434
 keywords: getDiscount()

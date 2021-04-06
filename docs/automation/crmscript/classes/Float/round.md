@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Float_round
-description: Float.round()
+uid: crmscript_ref_Float_round
+title: Float.round()
 intellisense: Float.round
 sortOrder: 359
 keywords: round()

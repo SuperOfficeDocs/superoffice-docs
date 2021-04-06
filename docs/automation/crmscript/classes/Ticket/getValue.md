@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_getValue_String_colName
-description: Ticket.getValue(String colName)
+uid: crmscript_ref_Ticket_getValue_String_colName
+title: Ticket.getValue(String colName)
 intellisense: Ticket.getValue
 keywords: getValue(String)
 so.topic: reference

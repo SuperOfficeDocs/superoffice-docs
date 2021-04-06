@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateRule_GetIsActive
-description: NSDuplicateRule.GetIsActive()
+uid: crmscript_ref_NSDuplicateRule_GetIsActive
+title: NSDuplicateRule.GetIsActive()
 intellisense: NSDuplicateRule.GetIsActive
 sortOrder: 2734
 keywords: GetIsActive()

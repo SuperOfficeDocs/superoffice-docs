@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Float_isNull
-description: Float.isNull()
+uid: crmscript_ref_Float_isNull
+title: Float.isNull()
 intellisense: Float.isNull
 sortOrder: 356
 keywords: isNull()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_GenericToByte_Generic_generic
-description: Generic.GenericToByte(Generic generic)
+uid: crmscript_ref_Generic_GenericToByte_Generic_generic
+title: Generic.GenericToByte(Generic generic)
 intellisense: Generic.GenericToByte
 langref: 1
 sortOrder: 30

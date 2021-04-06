@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoSystemInfoCarrier_GetCompanyId
-description: NSSoSystemInfoCarrier.GetCompanyId()
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetCompanyId
+title: NSSoSystemInfoCarrier.GetCompanyId()
 intellisense: NSSoSystemInfoCarrier.GetCompanyId
 keywords: GetCompanyId()
 so.topic: reference

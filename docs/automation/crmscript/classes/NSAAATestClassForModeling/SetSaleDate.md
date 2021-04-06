@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_SetSaleDate_DateTime_p_0
-description: NSAAATestClassForModeling.SetSaleDate(DateTime p_0)
+uid: crmscript_ref_NSAAATestClassForModeling_SetSaleDate_DateTime_p_0
+title: NSAAATestClassForModeling.SetSaleDate(DateTime p_0)
 intellisense: NSAAATestClassForModeling.SetSaleDate
 sortOrder: 8942
 keywords: SetSaleDate(DateTime)

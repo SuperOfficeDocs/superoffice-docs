@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_removeExternalEmails_Integer_p_0_Integer_p_1
-description: Customer.removeExternalEmails(Integer p_0, Integer p_1)
+uid: crmscript_ref_Customer_removeExternalEmails_Integer_p_0_Integer_p_1
+title: Customer.removeExternalEmails(Integer p_0, Integer p_1)
 intellisense: Customer.removeExternalEmails
 sortOrder: 191
 keywords: removeExternalEmails(Integer,Integer)

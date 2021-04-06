@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HtmlElement_toBool
-description: HtmlElement.toBool()
+uid: crmscript_ref_HtmlElement_toBool
+title: HtmlElement.toBool()
 intellisense: HtmlElement.toBool
 sortOrder: 380
 keywords: toBool()

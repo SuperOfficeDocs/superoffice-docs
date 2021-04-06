@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_addGroup_String_label_String_image_Integer_position
-description: MainMenu.addGroup(String label, String image, Integer position)
+uid: crmscript_ref_MainMenu_addGroup_String_label_String_image_Integer_position
+title: MainMenu.addGroup(String label, String image, Integer position)
 intellisense: MainMenu.addGroup
 sortOrder: 511
 keywords: addGroup(String,String,Integer)

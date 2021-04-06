@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_SetArrayOfQuoteLines_NSQuoteLine__p_0
-description: NSAAATestClassForModeling.SetArrayOfQuoteLines(NSQuoteLine[] p_0)
+uid: crmscript_ref_NSAAATestClassForModeling_SetArrayOfQuoteLines_NSQuoteLine__p_0
+title: NSAAATestClassForModeling.SetArrayOfQuoteLines(NSQuoteLine[] p_0)
 intellisense: NSAAATestClassForModeling.SetArrayOfQuoteLines
 sortOrder: 8937
 keywords: SetArrayOfQuoteLines(NSQuoteLine[])

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_AppointmentSlicer_eof
-description: AppointmentSlicer.eof()
+uid: crmscript_ref_AppointmentSlicer_eof
+title: AppointmentSlicer.eof()
 intellisense: AppointmentSlicer.eof
 sortOrder: 108
 keywords: eof()

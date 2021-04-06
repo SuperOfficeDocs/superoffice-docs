@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoPrincipalCarrier_GetBusinessId
-description: NSSoPrincipalCarrier.GetBusinessId()
+uid: crmscript_ref_NSSoPrincipalCarrier_GetBusinessId
+title: NSSoPrincipalCarrier.GetBusinessId()
 intellisense: NSSoPrincipalCarrier.GetBusinessId
 keywords: GetBusinessId()
 so.topic: reference

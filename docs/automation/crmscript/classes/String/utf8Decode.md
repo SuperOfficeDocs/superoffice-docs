@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_utf8Decode
-description: String.utf8Decode()
+uid: crmscript_ref_String_utf8Decode
+title: String.utf8Decode()
 intellisense: String.utf8Decode
 keywords: utf8Decode()
 so.topic: reference

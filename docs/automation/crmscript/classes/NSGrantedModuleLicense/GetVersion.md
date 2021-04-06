@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSGrantedModuleLicense_GetVersion
-description: NSGrantedModuleLicense.GetVersion()
+uid: crmscript_ref_NSGrantedModuleLicense_GetVersion
+title: NSGrantedModuleLicense.GetVersion()
 intellisense: NSGrantedModuleLicense.GetVersion
 sortOrder: 3894
 keywords: GetVersion()

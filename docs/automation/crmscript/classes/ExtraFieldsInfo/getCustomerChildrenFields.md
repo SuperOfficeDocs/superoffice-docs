@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraFieldsInfo_getCustomerChildrenFields
-description: ExtraFieldsInfo.getCustomerChildrenFields()
+uid: crmscript_ref_ExtraFieldsInfo_getCustomerChildrenFields
+title: ExtraFieldsInfo.getCustomerChildrenFields()
 intellisense: ExtraFieldsInfo.getCustomerChildrenFields
 sortOrder: 312
 keywords: getCustomerChildrenFields()

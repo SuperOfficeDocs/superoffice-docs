@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Attachment_saveBase64_String_p_0
-description: Attachment.saveBase64(String p_0)
+uid: crmscript_ref_Attachment_saveBase64_String_p_0
+title: Attachment.saveBase64(String p_0)
 intellisense: Attachment.saveBase64
 sortOrder: 122
 keywords: saveBase64(String)

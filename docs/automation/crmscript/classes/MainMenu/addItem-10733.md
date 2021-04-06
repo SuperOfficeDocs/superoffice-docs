@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_addItem_String_label_String_url_Integer_group_Integer_position_String_onClick_String_itemId_String_target
-description: MainMenu.addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target)
+uid: crmscript_ref_MainMenu_addItem_String_label_String_url_Integer_group_Integer_position_String_onClick_String_itemId_String_target
+title: MainMenu.addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target)
 intellisense: MainMenu.addItem
 sortOrder: 515
 keywords: addItem(String,String,Integer,Integer,String,String,String)

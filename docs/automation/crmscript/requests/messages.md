@@ -1,6 +1,6 @@
 ---
-title: crmscript_messages
-description: Messages
+uid: crmscript_messages
+title: Messages
 author:
 so.date:
 keywords:

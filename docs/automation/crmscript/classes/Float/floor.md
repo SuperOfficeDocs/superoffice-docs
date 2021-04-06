@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Float_floor
-description: Float.floor()
+uid: crmscript_ref_Float_floor
+title: Float.floor()
 intellisense: Float.floor
 sortOrder: 358
 keywords: floor()

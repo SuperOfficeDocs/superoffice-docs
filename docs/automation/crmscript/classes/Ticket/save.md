@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_save
-description: Ticket.save()
+uid: crmscript_ref_Ticket_save
+title: Ticket.save()
 intellisense: Ticket.save
 keywords: save()
 so.topic: reference

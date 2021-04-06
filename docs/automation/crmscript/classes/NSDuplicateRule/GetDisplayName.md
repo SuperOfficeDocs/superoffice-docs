@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateRule_GetDisplayName
-description: NSDuplicateRule.GetDisplayName()
+uid: crmscript_ref_NSDuplicateRule_GetDisplayName
+title: NSDuplicateRule.GetDisplayName()
 intellisense: NSDuplicateRule.GetDisplayName
 sortOrder: 2735
 keywords: GetDisplayName()

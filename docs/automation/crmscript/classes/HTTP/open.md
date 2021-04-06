@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_open_String_p_url
-description: HTTP.open(String p_url)
+uid: crmscript_ref_HTTP_open_String_p_url
+title: HTTP.open(String p_url)
 intellisense: HTTP.open
 sortOrder: 401
 keywords: open(String)

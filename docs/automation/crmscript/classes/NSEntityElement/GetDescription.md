@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSEntityElement_GetDescription
-description: NSEntityElement.GetDescription()
+uid: crmscript_ref_NSEntityElement_GetDescription
+title: NSEntityElement.GetDescription()
 intellisense: NSEntityElement.GetDescription
 sortOrder: 3062
 keywords: GetDescription()

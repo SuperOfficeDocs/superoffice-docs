@@ -1,6 +1,6 @@
 ---
-title: crmscript_custom_db
-description: Database customizations
+uid: crmscript_custom_db
+title: Database customizations
 author:
 so.date:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToDayEnd
-description: DateTime.moveToDayEnd()
+uid: crmscript_ref_DateTime_moveToDayEnd
+title: DateTime.moveToDayEnd()
 intellisense: DateTime.moveToDayEnd
 sortOrder: 216
 keywords: moveToDayEnd()

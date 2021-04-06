@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Date_getMonth
-description: Date.getMonth()
+uid: crmscript_ref_Date_getMonth
+title: Date.getMonth()
 intellisense: Date.getMonth
 sortOrder: 201
 keywords: getMonth()

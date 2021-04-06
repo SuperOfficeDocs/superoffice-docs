@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_SetStandardString_String_p_0
-description: NSAAATestClassForModeling.SetStandardString(String p_0)
+uid: crmscript_ref_NSAAATestClassForModeling_SetStandardString_String_p_0
+title: NSAAATestClassForModeling.SetStandardString(String p_0)
 intellisense: NSAAATestClassForModeling.SetStandardString
 sortOrder: 8950
 keywords: SetStandardString(String)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Ticket_getInvolvedOnly
-description: Ticket.getInvolvedOnly()
+uid: crmscript_ref_Ticket_getInvolvedOnly
+title: Ticket.getInvolvedOnly()
 intellisense: Ticket.getInvolvedOnly
 keywords: getInvolvedOnly()
 so.topic: reference

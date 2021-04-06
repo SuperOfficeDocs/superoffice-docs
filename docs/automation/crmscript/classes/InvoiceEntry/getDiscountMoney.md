@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_InvoiceEntry_getDiscountMoney
-description: InvoiceEntry.getDiscountMoney()
+uid: crmscript_ref_InvoiceEntry_getDiscountMoney
+title: InvoiceEntry.getDiscountMoney()
 intellisense: InvoiceEntry.getDiscountMoney
 sortOrder: 435
 keywords: getDiscountMoney()

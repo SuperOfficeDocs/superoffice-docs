@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetArrayOfStrings
-description: NSAAATestClassForModeling.GetArrayOfStrings()
+uid: crmscript_ref_NSAAATestClassForModeling_GetArrayOfStrings
+title: NSAAATestClassForModeling.GetArrayOfStrings()
 intellisense: NSAAATestClassForModeling.GetArrayOfStrings
 sortOrder: 8935
 keywords: GetArrayOfStrings()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Vector_buildString_String_delimiter
-description: Vector.buildString(String delimiter)
+uid: crmscript_ref_Vector_buildString_String_delimiter
+title: Vector.buildString(String delimiter)
 intellisense: Vector.buildString
 keywords: buildString(String)
 so.topic: reference

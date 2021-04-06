@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSErpSyncAgent_TestConnectionByConfig_Integer_p_0_StringDictionary_p_1
-description: NSErpSyncAgent.TestConnectionByConfig(Integer p_0, StringDictionary p_1)
+uid: crmscript_ref_NSErpSyncAgent_TestConnectionByConfig_Integer_p_0_StringDictionary_p_1
+title: NSErpSyncAgent.TestConnectionByConfig(Integer p_0, StringDictionary p_1)
 intellisense: NSErpSyncAgent.TestConnectionByConfig
 sortOrder: 3185
 keywords: TestConnectionByConfig(Integer,StringDictionary)

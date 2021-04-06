@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_JSONBuilder_addBoolean_String_key_Bool_value
-description: JSONBuilder.addBoolean(String key, Bool value)
+uid: crmscript_ref_JSONBuilder_addBoolean_String_key_Bool_value
+title: JSONBuilder.addBoolean(String key, Bool value)
 intellisense: JSONBuilder.addBoolean
 sortOrder: 446
 keywords: addBoolean(String,Bool)

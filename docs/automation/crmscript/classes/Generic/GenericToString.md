@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic_GenericToString_Generic_generic
-description: Generic.GenericToString(Generic generic)
+uid: crmscript_ref_Generic_GenericToString_Generic_generic
+title: Generic.GenericToString(Generic generic)
 intellisense: Generic.GenericToString
 langref: 1
 sortOrder: 130

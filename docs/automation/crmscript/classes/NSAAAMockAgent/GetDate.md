@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAAMockAgent_GetDate
-description: NSAAAMockAgent.GetDate()
+uid: crmscript_ref_NSAAAMockAgent_GetDate
+title: NSAAAMockAgent.GetDate()
 intellisense: NSAAAMockAgent.GetDate
 sortOrder: 8886
 keywords: GetDate()

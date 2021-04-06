@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StatLib_addGroup_Integer_column_Bool_desc
-description: StatLib.addGroup(Integer column, Bool desc)
+uid: crmscript_ref_StatLib_addGroup_Integer_column_Bool_desc
+title: StatLib.addGroup(Integer column, Bool desc)
 intellisense: StatLib.addGroup
 keywords: addGroup(Integer,Bool)
 so.topic: reference

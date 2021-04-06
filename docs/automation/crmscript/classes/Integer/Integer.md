@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Integer
-description: Integer
+uid: crmscript_ref_Integer
+title: Integer
 intellisense: Void.Integer
 sortOrder: 422
 so.topic: reference

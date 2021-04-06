@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDuplicateRule_SetIsActive_Bool_p_0
-description: NSDuplicateRule.SetIsActive(Bool p_0)
+uid: crmscript_ref_NSDuplicateRule_SetIsActive_Bool_p_0
+title: NSDuplicateRule.SetIsActive(Bool p_0)
 intellisense: NSDuplicateRule.SetIsActive
 sortOrder: 2740
 keywords: SetIsActive(Bool)

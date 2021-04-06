@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Customer_setValue_String_field_String_value
-description: Customer.setValue(String field, String value)
+uid: crmscript_ref_Customer_setValue_String_field_String_value
+title: Customer.setValue(String field, String value)
 intellisense: Customer.setValue
 sortOrder: 192
 keywords: setValue(String,String)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmMessage_setFolderId_Integer_folderId
-description: SpmMessage.setFolderId(Integer folderId)
+uid: crmscript_ref_SpmMessage_setFolderId_Integer_folderId
+title: SpmMessage.setFolderId(Integer folderId)
 intellisense: SpmMessage.setFolderId
 keywords: setFolderId(Integer)
 so.topic: reference

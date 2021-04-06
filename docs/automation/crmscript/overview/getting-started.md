@@ -1,6 +1,6 @@
 ---
-title: crmscript_start
-description: Getting started with CRMScript
+uid: crmscript_start
+title: Getting started with CRMScript
 author:
 so.date:
 keywords:

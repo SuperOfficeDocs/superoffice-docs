@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSProjectTypeStatusLink
-description: NSProjectTypeStatusLink
+uid: crmscript_ref_NSProjectTypeStatusLink
+title: NSProjectTypeStatusLink
 intellisense: Void.NSProjectTypeStatusLink
 so.topic: reference
 ---

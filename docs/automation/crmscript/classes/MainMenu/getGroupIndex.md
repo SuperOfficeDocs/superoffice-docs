@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_getGroupIndex_String
-description: MainMenu.getGroupIndex(String)
+uid: crmscript_ref_MainMenu_getGroupIndex_String
+title: MainMenu.getGroupIndex(String)
 intellisense: MainMenu.getGroupIndex
 sortOrder: 504
 keywords: getGroupIndex(String)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Message_load_Integer_id
-description: Message.load(Integer id)
+uid: crmscript_ref_Message_load_Integer_id
+title: Message.load(Integer id)
 intellisense: Message.load
 sortOrder: 541
 keywords: load(Integer)

@@ -1,6 +1,6 @@
 ---
-title: crmscript_parser
-description: Parser
+uid: crmscript_parser
+title: Parser
 author:
 so.date:
 keywords:

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_getResponseHeader_String_p_header
-description: HTTP.getResponseHeader(String p_header)
+uid: crmscript_ref_HTTP_getResponseHeader_String_p_header
+title: HTTP.getResponseHeader(String p_header)
 intellisense: HTTP.getResponseHeader
 sortOrder: 413
 keywords: getResponseHeader(String)

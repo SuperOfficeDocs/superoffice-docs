@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_EventData_setValidationMessage_String_message
-description: EventData.setValidationMessage(String message)
+uid: crmscript_ref_EventData_setValidationMessage_String_message
+title: EventData.setValidationMessage(String message)
 intellisense: EventData.setValidationMessage
 sortOrder: 300
 keywords: setValidationMessage(String)

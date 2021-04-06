@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Generic
-description: Generic
+uid: crmscript_ref_Generic
+title: Generic
 intellisense: Void.Generic
 sortOrder: 360
 so.topic: reference

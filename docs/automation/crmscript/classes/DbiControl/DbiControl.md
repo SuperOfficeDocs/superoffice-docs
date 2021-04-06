@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DbiControl
-description: DbiControl
+uid: crmscript_ref_DbiControl
+title: DbiControl
 intellisense: Void.DbiControl
 sortOrder: 251
 so.topic: reference

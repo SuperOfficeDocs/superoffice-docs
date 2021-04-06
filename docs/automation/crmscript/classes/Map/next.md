@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Map_next
-description: Map.next()
+uid: crmscript_ref_Map_next
+title: Map.next()
 intellisense: Map.next
 sortOrder: 527
 keywords: next()

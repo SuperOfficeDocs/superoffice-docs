@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_patch_String_p_0
-description: HTTP.patch(String p_0)
+uid: crmscript_ref_HTTP_patch_String_p_0
+title: HTTP.patch(String p_0)
 intellisense: HTTP.patch
 sortOrder: 402
 keywords: patch(String)

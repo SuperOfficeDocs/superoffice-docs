@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_StringMatrix_addCell_String_value
-description: StringMatrix.addCell(String value)
+uid: crmscript_ref_StringMatrix_addCell_String_value
+title: StringMatrix.addCell(String value)
 intellisense: StringMatrix.addCell
 keywords: addCell(String)
 so.topic: reference

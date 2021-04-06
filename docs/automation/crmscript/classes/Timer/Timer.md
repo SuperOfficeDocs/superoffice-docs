@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Timer
-description: Timer
+uid: crmscript_ref_Timer
+title: Timer
 intellisense: Void.Timer
 so.topic: reference
 ---

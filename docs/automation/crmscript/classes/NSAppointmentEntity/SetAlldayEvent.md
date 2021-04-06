@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAppointmentEntity_SetAlldayEvent_Bool_p_0
-description: NSAppointmentEntity.SetAlldayEvent(Bool p_0)
+uid: crmscript_ref_NSAppointmentEntity_SetAlldayEvent_Bool_p_0
+title: NSAppointmentEntity.SetAlldayEvent(Bool p_0)
 intellisense: NSAppointmentEntity.SetAlldayEvent
 sortOrder: 983
 keywords: SetAlldayEvent(Bool)

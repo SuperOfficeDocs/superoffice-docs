@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_MainMenu_getGroupId_Integer_p_group
-description: MainMenu.getGroupId(Integer p_group)
+uid: crmscript_ref_MainMenu_getGroupId_Integer_p_group
+title: MainMenu.getGroupId(Integer p_group)
 intellisense: MainMenu.getGroupId
 sortOrder: 508
 keywords: getGroupId(Integer)

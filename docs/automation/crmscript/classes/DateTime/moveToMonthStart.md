@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DateTime_moveToMonthStart
-description: DateTime.moveToMonthStart()
+uid: crmscript_ref_DateTime_moveToMonthStart
+title: DateTime.moveToMonthStart()
 intellisense: DateTime.moveToMonthStart
 sortOrder: 221
 keywords: moveToMonthStart()

@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAAATestClassForModeling_GetStringCurrencyName
-description: NSAAATestClassForModeling.GetStringCurrencyName()
+uid: crmscript_ref_NSAAATestClassForModeling_GetStringCurrencyName
+title: NSAAATestClassForModeling.GetStringCurrencyName()
 intellisense: NSAAATestClassForModeling.GetStringCurrencyName
 sortOrder: 8932
 keywords: GetStringCurrencyName()

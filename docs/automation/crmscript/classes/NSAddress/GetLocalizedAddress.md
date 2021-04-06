@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSAddress_GetLocalizedAddress
-description: NSAddress.GetLocalizedAddress()
+uid: crmscript_ref_NSAddress_GetLocalizedAddress
+title: NSAddress.GetLocalizedAddress()
 intellisense: NSAddress.GetLocalizedAddress
 sortOrder: 611
 keywords: GetLocalizedAddress()

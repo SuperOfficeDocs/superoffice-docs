@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_ExtraTable_getValues
-description: ExtraTable.getValues()
+uid: crmscript_ref_ExtraTable_getValues
+title: ExtraTable.getValues()
 intellisense: ExtraTable.getValues
 sortOrder: 322
 keywords: getValues()

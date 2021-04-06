@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_SpmStaticList_setFolderId_Integer_folderId
-description: SpmStaticList.setFolderId(Integer folderId)
+uid: crmscript_ref_SpmStaticList_setFolderId_Integer_folderId
+title: SpmStaticList.setFolderId(Integer folderId)
 intellisense: SpmStaticList.setFolderId
 keywords: setFolderId(Integer)
 so.topic: reference

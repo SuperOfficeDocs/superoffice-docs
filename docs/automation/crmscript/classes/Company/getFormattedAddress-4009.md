@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Company_getFormattedAddress
-description: Company.getFormattedAddress()
+uid: crmscript_ref_Company_getFormattedAddress
+title: Company.getFormattedAddress()
 intellisense: Company.getFormattedAddress
 sortOrder: 164
 keywords: getFormattedAddress()

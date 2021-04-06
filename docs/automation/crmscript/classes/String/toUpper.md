@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_toUpper
-description: String.toUpper()
+uid: crmscript_ref_String_toUpper
+title: String.toUpper()
 intellisense: String.toUpper
 keywords: toUpper()
 so.topic: reference

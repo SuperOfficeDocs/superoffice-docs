@@ -1,6 +1,6 @@
 ---
-title: chatbot_sessions
-description: Chatbot Session Scripts
+uid: chatbot_sessions
+title: Chatbot Session Scripts
 author: christianm
 so.date: 2021-03-08
 keywords: chatbot, ai

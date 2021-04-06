@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Cache_next
-description: Cache.next()
+uid: crmscript_ref_Cache_next
+title: Cache.next()
 intellisense: Cache.next
 sortOrder: 144
 keywords: next()

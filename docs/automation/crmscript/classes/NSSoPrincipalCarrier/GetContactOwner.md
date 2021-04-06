@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoPrincipalCarrier_GetContactOwner
-description: NSSoPrincipalCarrier.GetContactOwner()
+uid: crmscript_ref_NSSoPrincipalCarrier_GetContactOwner
+title: NSSoPrincipalCarrier.GetContactOwner()
 intellisense: NSSoPrincipalCarrier.GetContactOwner
 keywords: GetContactOwner()
 so.topic: reference

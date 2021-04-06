@@ -1,6 +1,6 @@
 ---
-title: search_engine_select
-description: Building a query
+uid: search_engine_select
+title: Building a query
 author:
 so.date:
 keywords:

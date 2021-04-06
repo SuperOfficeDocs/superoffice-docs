@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_Inbox_addSmtpMail_String_smtpMail_String_uidl_Integer_filterId
-description: Inbox.addSmtpMail(String smtpMail, String uidl, Integer filterId)
+uid: crmscript_ref_Inbox_addSmtpMail_String_smtpMail_String_uidl_Integer_filterId
+title: Inbox.addSmtpMail(String smtpMail, String uidl, Integer filterId)
 intellisense: Inbox.addSmtpMail
 sortOrder: 421
 keywords: addSmtpMail(String,String,Integer)

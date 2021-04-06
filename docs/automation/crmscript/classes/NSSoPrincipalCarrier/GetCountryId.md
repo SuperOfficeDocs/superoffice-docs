@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSSoPrincipalCarrier_GetCountryId
-description: NSSoPrincipalCarrier.GetCountryId()
+uid: crmscript_ref_NSSoPrincipalCarrier_GetCountryId
+title: NSSoPrincipalCarrier.GetCountryId()
 intellisense: NSSoPrincipalCarrier.GetCountryId
 keywords: GetCountryId()
 so.topic: reference

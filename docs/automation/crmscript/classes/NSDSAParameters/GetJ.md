@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSDSAParameters_GetJ
-description: NSDSAParameters.GetJ()
+uid: crmscript_ref_NSDSAParameters_GetJ
+title: NSDSAParameters.GetJ()
 intellisense: NSDSAParameters.GetJ
 sortOrder: 2708
 keywords: GetJ()

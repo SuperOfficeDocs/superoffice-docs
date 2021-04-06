@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_NSImage_SetImage_Byte__p_0
-description: NSImage.SetImage(Byte[] p_0)
+uid: crmscript_ref_NSImage_SetImage_Byte__p_0
+title: NSImage.SetImage(Byte[] p_0)
 intellisense: NSImage.SetImage
 sortOrder: 3951
 keywords: SetImage(Byte[])

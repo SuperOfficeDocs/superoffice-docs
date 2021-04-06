@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_TimeSpan_isNegative
-description: TimeSpan.isNegative()
+uid: crmscript_ref_TimeSpan_isNegative
+title: TimeSpan.isNegative()
 intellisense: TimeSpan.isNegative
 keywords: isNegative()
 so.topic: reference

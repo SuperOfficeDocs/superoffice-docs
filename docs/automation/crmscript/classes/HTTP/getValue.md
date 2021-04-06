@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_HTTP_getValue_String_name
-description: HTTP.getValue(String name)
+uid: crmscript_ref_HTTP_getValue_String_name
+title: HTTP.getValue(String name)
 intellisense: HTTP.getValue
 sortOrder: 414
 keywords: getValue(String)

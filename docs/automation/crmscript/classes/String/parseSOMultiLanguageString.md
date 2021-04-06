@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_String_parseSOMultiLanguageString_Integer_p_0
-description: String.parseSOMultiLanguageString(Integer p_0)
+uid: crmscript_ref_String_parseSOMultiLanguageString_Integer_p_0
+title: String.parseSOMultiLanguageString(Integer p_0)
 intellisense: String.parseSOMultiLanguageString
 keywords: parseSOMultiLanguageString(Integer)
 so.topic: reference

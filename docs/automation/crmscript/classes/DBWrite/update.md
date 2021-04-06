@@ -1,6 +1,6 @@
 ---
-title: crmscript_ref_DBWrite_update
-description: DBWrite.update()
+uid: crmscript_ref_DBWrite_update
+title: DBWrite.update()
 intellisense: DBWrite.update
 sortOrder: 271
 keywords: update()
