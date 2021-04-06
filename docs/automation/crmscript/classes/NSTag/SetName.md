@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTag_SetName
+title: SetName(String name)
+intellisense: NSTag.SetName
+keywords: NSTag, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSTag/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 The name of the ListItem
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSTag thing;
+String name;
+thing.SetName(name);
+```
 

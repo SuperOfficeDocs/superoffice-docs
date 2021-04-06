@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetDeploymentType
+title: SetDeploymentType(Integer deploymentType)
+intellisense: NSLicenseInfo.SetDeploymentType
+keywords: NSLicenseInfo, GetDeploymentType
+so.topic: reference
 ---
-title: Void SetDeploymentType(Integer DeploymentType)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetDeploymentType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeploymentType(Integer)
----
-
 
 Type of deployment
 
+**Parameter:** 
+ - **deploymentType** Integer
 
-
-* **DeploymentType:** Integer
-* **Returns:** Void
-
+```crmscript
+NSLicenseInfo thing;
+Integer deploymentType;
+thing.SetDeploymentType(deploymentType);
+```
 

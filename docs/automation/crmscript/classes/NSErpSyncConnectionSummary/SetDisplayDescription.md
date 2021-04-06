@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncConnectionSummary_SetDisplayDescription
+title: SetDisplayDescription(String displayDescription)
+intellisense: NSErpSyncConnectionSummary.SetDisplayDescription
+keywords: NSErpSyncConnectionSummary, GetDisplayDescription
+so.topic: reference
 ---
-title: Void SetDisplayDescription(String DisplayDescription)
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/Void SetDisplayDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3236
-keywords: SetDisplayDescription(String)
----
-
 
 Tooltip/description shown to user; multi-language support
 
+**Parameter:** 
+ - **displayDescription** String
 
-
-* **DisplayDescription:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncConnectionSummary thing;
+String displayDescription;
+thing.SetDisplayDescription(displayDescription);
+```
 

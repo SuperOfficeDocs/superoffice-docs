@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetSentDate
 title: DateTime GetSentDate()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetSentDate()
-intellisense: 1
-classref: 1
-keywords: GetSentDate()
+intellisense: NSQuoteVersion.GetSentDate
+keywords: NSQuoteVersion, GetSentDate
+so.topic: reference
 ---
-
 
 The date the version was sent to the customer.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSQuoteVersion thing;
+DateTime sentDate  = thing.GetSentDate();
+```
 
 

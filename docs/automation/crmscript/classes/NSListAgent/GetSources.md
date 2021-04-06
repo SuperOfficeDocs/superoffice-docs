@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetSources
+title: SourceArray GetSources()
+intellisense: NSListAgent.GetSources
+keywords: NSListAgent, GetSources
+so.topic: reference
 ---
-title: NSSource[] GetSources()
-path: /EJScript/Classes/NSListAgent/Member functions/NSSource[] GetSources()
-intellisense: 1
-classref: 1
-keywords: GetSources()
----
-
 
 Returns all sources
 
 
+**Returns:** Array of sources
 
-* **Returns:** Array of sources
-
+```crmscript
+NSListAgent agent;
+SourceArray res = agent.GetSources();
+```
 

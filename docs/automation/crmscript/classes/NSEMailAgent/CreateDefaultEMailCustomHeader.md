@@ -1,18 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailCustomHeader
 title: NSEMailCustomHeader CreateDefaultEMailCustomHeader()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailCustomHeader CreateDefaultEMailCustomHeader()
-intellisense: 1
-classref: 1
-sortOrder: 2811
-keywords: CreateDefaultEMailCustomHeader()
+intellisense: NSEMailAgent.CreateDefaultEMailCustomHeader
+keywords: NSEMailAgent, CreateDefaultEMailCustomHeader
+so.topic: reference
 ---
+	  
+Set default values into a new NSEMailCustomHeader.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSEMailCustomHeader with default values.
 
-
-Loading default values into a new EMailCustomHeader.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New EMailCustomHeader with default values
-
+```crmscript
+NSEMailAgent agent;
+NSEMailCustomHeader thing = agent.CreateDefaultEMailCustomHeader();
+thing = agent.SaveEMailCustomHeader(thing);
+```
 

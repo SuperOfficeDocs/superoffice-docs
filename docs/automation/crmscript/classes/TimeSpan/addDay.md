@@ -1,9 +1,9 @@
 ---
-title: Void addDay(Integer num)
-path: /EJScript/Classes/TimeSpan/Member functions/Void addDay(Integer num)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_TimeSpan_addDay_Integer_num
+title: TimeSpan.addDay(Integer num)
+intellisense: TimeSpan.addDay
 keywords: addDay(Integer)
+so.topic: reference
 ---
 
 This function will add the given number of days to the currently set timespan.

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSSaleStakeholder.GetRank
+keywords: NSSaleStakeholder, GetRank
+so.topic: reference
 ---
-
 
 Rank in list of stakeholders
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleStakeholder thing;
+Integer rank  = thing.GetRank();
+```
 
 

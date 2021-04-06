@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSDepartment_SetValue
+title: SetValue(String value)
+intellisense: NSDepartment.SetValue
+keywords: NSDepartment, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSDepartment/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2387
-keywords: SetValue(String)
----
 
+Set the name of the Department item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Department name.
 
+```crmscript
+NSDepartment thing;
+thing.SetValue("frotz");
+```
 

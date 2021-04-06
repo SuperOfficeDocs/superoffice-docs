@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetConfig
 title: String GetConfig()
-path: /EJScript/Classes/NSFormEntity/Member functions/String GetConfig()
-intellisense: 1
-classref: 1
-sortOrder: 3800
-keywords: GetConfig()
+intellisense: NSFormEntity.GetConfig
+keywords: NSFormEntity, GetConfig
+so.topic: reference
 ---
-
 
 The JSON-formatted config of this form
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFormEntity thing;
+String config  = thing.GetConfig();
+```
 
 

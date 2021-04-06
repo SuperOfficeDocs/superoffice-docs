@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_GetErrorMessage
 title: String GetErrorMessage()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetErrorMessage()
-intellisense: 1
-classref: 1
-keywords: GetErrorMessage()
+intellisense: NSQuotePublishDocuments.GetErrorMessage
+keywords: NSQuotePublishDocuments, GetErrorMessage
+so.topic: reference
 ---
-
 
 If something went wrong, show this message and do not continue
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuotePublishDocuments thing;
+String errorMessage  = thing.GetErrorMessage();
+```
 
 

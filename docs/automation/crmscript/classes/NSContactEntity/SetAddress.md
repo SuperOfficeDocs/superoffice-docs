@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetAddress
+title: SetAddress(Address address)
+intellisense: NSContactEntity.SetAddress
+keywords: NSContactEntity, GetAddress
+so.topic: reference
 ---
-title: Void SetAddress(NSAddress Address)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetAddress(NSAddress p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1878
-keywords: SetAddress(NSAddress)
----
 
 
-* **Address:** Address
-* **Returns:** Address
 
+**Parameter:** 
+ - **address** Address
+
+```crmscript
+NSContactEntity thing;
+Address address;
+thing.SetAddress(address);
+```
 

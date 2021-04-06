@@ -1,10 +1,10 @@
 ---
-title: String GetStandardString()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/String GetStandardString()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAATestClassForModeling_GetStandardString
+title: NSAAATestClassForModeling.GetStandardString()
+intellisense: NSAAATestClassForModeling.GetStandardString
 sortOrder: 8931
 keywords: GetStandardString()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 description: Void debugWait(String info)
-path: /EJScript/Global functions/Void debugWait(String info)
-intellisense: 1
+intellisense: Void.debugWait
 langref: 1
 keywords: debugWait(String)
+so.topic: reference
 ---
 
 

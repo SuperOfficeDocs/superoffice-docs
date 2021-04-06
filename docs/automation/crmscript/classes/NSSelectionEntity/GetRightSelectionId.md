@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetRightSelectionId
 title: Integer GetRightSelectionId()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetRightSelectionId()
-intellisense: 1
-classref: 1
-keywords: GetRightSelectionId()
+intellisense: NSSelectionEntity.GetRightSelectionId
+keywords: NSSelectionEntity, GetRightSelectionId
+so.topic: reference
 ---
-
 
 RightSelectionId  is used in combination with LeftSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectionEntity thing;
+Integer rightSelectionId  = thing.GetRightSelectionId();
+```
 
 

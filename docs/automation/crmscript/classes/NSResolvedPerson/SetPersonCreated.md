@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResolvedPerson_SetPersonCreated
+title: SetPersonCreated(Bool personCreated)
+intellisense: NSResolvedPerson.SetPersonCreated
+keywords: NSResolvedPerson, GetPersonCreated
+so.topic: reference
 ---
-title: Void SetPersonCreated(Bool PersonCreated)
-path: /EJScript/Classes/NSResolvedPerson/Member functions/Void SetPersonCreated(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonCreated(Bool)
----
-
 
 Indicates if the resolved person was created or not.
 
+**Parameter:** 
+ - **personCreated** Bool
 
-
-* **PersonCreated:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSResolvedPerson thing;
+Bool personCreated;
+thing.SetPersonCreated(personCreated);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSProjectEvent.SetAssociateId
+keywords: NSProjectEvent, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociateId(Integer)
----
-
 
 Id of the person that ows the event (i.e. project)
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectEvent thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

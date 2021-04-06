@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteConnection_SetUserGroupAccessIds
+title: SetUserGroupAccessIds(IntegerArray userGroupAccessIds)
+intellisense: NSQuoteConnection.SetUserGroupAccessIds
+keywords: NSQuoteConnection, GetUserGroupAccessIds
+so.topic: reference
 ---
-title: Void SetUserGroupAccessIds(Integer[] UserGroupAccessIds)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetUserGroupAccessIds(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserGroupAccessIds(Integer[])
----
-
 
 Array of ids containing usergroups that will have access to this connection.
 
+**Parameter:** 
+ - **userGroupAccessIds** IntegerArray
 
-
-* **UserGroupAccessIds:** IntegerArray
-* **Returns:** Void
-
+```crmscript
+NSQuoteConnection thing;
+IntegerArray userGroupAccessIds;
+thing.SetUserGroupAccessIds(userGroupAccessIds);
+```
 

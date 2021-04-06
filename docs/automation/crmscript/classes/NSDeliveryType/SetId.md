@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSDeliveryType_SetId
+title: SetId(Integer id)
+intellisense: NSDeliveryType.SetId
+keywords: NSDeliveryType, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSDeliveryType/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2377
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the DeliveryType
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer DeliveryType id.
 
+```crmscript
+NSDeliveryType thing;
+thing.SetId(123);
+```
 

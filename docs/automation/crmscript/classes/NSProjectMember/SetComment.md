@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetComment
+title: SetComment(String comment)
+intellisense: NSProjectMember.SetComment
+keywords: NSProjectMember, GetComment
+so.topic: reference
 ---
-title: Void SetComment(String Comment)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetComment(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetComment(String)
----
-
 
 Comment text on the project membership
 
+**Parameter:** 
+ - **comment** String
 
-
-* **Comment:** String
-* **Returns:** String
-
+```crmscript
+NSProjectMember thing;
+String comment;
+thing.SetComment(comment);
+```
 

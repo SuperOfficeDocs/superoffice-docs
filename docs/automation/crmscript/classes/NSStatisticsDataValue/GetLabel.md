@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatisticsDataValue_GetLabel
 title: String GetLabel()
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/String GetLabel()
-intellisense: 1
-classref: 1
-keywords: GetLabel()
+intellisense: NSStatisticsDataValue.GetLabel
+keywords: NSStatisticsDataValue, GetLabel
+so.topic: reference
 ---
-
 
 The label for the data value
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSStatisticsDataValue thing;
+String label  = thing.GetLabel();
+```
 
 

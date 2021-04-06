@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_SetPerson
+title: SetPerson(Person person)
+intellisense: NSUser.SetPerson
+keywords: NSUser, GetPerson
+so.topic: reference
 ---
-title: Void SetPerson(NSPerson Person)
-path: /EJScript/Classes/NSUser/Member functions/Void SetPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
-keywords: SetPerson(NSPerson)
----
-
 
 The person associated with this user. Detailed information about the user
 
+**Parameter:** 
+ - **person** Person
 
-
-* **Person:** Person
-* **Returns:** Person
-
+```crmscript
+NSUser thing;
+Person person;
+thing.SetPerson(person);
+```
 

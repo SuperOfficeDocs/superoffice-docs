@@ -1,9 +1,9 @@
 ---
 description: String getProgramAjax()
-path: /EJScript/Global functions/String getProgramAjax()
-intellisense: 1
+intellisense: Void.getProgramAjax
 langref: 1
 keywords: getProgramAjax()
+so.topic: reference
 ---
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDictionaryStepInformation_SetStepNumber
+title: SetStepNumber(Integer stepNumber)
+intellisense: NSDictionaryStepInformation.SetStepNumber
+keywords: NSDictionaryStepInformation, GetStepNumber
+so.topic: reference
 ---
-title: Void SetStepNumber(Integer StepNumber)
-path: /EJScript/Classes/NSDictionaryStepInformation/Member functions/Void SetStepNumber(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2426
-keywords: SetStepNumber(Integer)
----
-
 
 Generation number of step
 
+**Parameter:** 
+ - **stepNumber** Integer
 
-
-* **StepNumber:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDictionaryStepInformation thing;
+Integer stepNumber;
+thing.SetStepNumber(stepNumber);
+```
 

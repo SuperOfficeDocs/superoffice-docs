@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCsFeatureToggle_SetName
+title: SetName(String name)
+intellisense: NSCsFeatureToggle.SetName
+keywords: NSCsFeatureToggle, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSCsFeatureToggle/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2159
-keywords: SetName(String)
----
-
 
 Name of the feature toggle
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSCsFeatureToggle thing;
+String name;
+thing.SetName(name);
+```
 

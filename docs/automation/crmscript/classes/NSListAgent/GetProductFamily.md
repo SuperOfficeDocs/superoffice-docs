@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetProductFamily
+title: NSProductFamily GetProductFamily(Integer productFamilyId);
+intellisense: NSListAgent.GetProductFamily
+keywords: NSListAgent, GetProductFamily
+so.topic: reference
 ---
-title: NSProductFamily GetProductFamily(Integer productFamilyId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProductFamily GetProductFamily(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetProductFamily(Integer)
----
 
+Gets a NSProductFamily object.
 
-Gets a ProductFamily object.
+**Parameters:**
+ - **productFamilyId** The identifier of the NSProductFamily object
 
+**Returns:** NSProductFamily
 
-
-* **productFamilyId:** The identifier of the ProductFamily object
-* **Returns:** ProductFamily
-
+```crmscript
+NSListAgent agent;
+NSProductFamily thing = agent.GetProductFamily(123);
+```
 

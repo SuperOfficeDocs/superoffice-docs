@@ -1,10 +1,10 @@
 ---
-title: Void BoolInput(Bool boolArgument)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void BoolInput(Bool p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_BoolInput_Bool_p_0
+title: NSAAAMockAgent.BoolInput(Bool p_0)
+intellisense: NSAAAMockAgent.BoolInput
 sortOrder: 8904
 keywords: BoolInput(Bool)
+so.topic: reference
 ---
 
 

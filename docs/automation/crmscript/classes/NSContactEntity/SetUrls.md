@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetUrls
+title: SetUrls(EntityElementArray urls)
+intellisense: NSContactEntity.SetUrls
+keywords: NSContactEntity, GetUrls
+so.topic: reference
 ---
-title: Void SetUrls(NSEntityElement[] Urls)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetUrls(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1915
-keywords: SetUrls(NSEntityElement[])
----
-
 
 The contact's internet adresses
 
+**Parameter:** 
+ - **urls** EntityElementArray
 
-
-* **Urls:** EntityElementArray
-* **Returns:** EntityElementArray
-
+```crmscript
+NSContactEntity thing;
+EntityElementArray urls;
+thing.SetUrls(urls);
+```
 

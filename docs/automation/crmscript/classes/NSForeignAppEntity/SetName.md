@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignAppEntity_SetName
+title: SetName(String name)
+intellisense: NSForeignAppEntity.SetName
+keywords: NSForeignAppEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3709
-keywords: SetName(String)
----
-
 
 Name of foreign application
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSForeignAppEntity thing;
+String name;
+thing.SetName(name);
+```
 

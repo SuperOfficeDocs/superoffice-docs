@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectMember_GetPhone
 title: String GetPhone()
-path: /EJScript/Classes/NSProjectMember/Member functions/String GetPhone()
-intellisense: 1
-classref: 1
-keywords: GetPhone()
+intellisense: NSProjectMember.GetPhone
+keywords: NSProjectMember, GetPhone
+so.topic: reference
 ---
-
 
 Phone number
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProjectMember thing;
+String phone  = thing.GetPhone();
+```
 
 

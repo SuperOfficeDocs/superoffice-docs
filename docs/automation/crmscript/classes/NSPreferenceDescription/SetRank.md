@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_SetRank
+title: SetRank(Integer rank)
+intellisense: NSPreferenceDescription.SetRank
+keywords: NSPreferenceDescription, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 Rank field for ordering sections, and keys within sections
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPreferenceDescription thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

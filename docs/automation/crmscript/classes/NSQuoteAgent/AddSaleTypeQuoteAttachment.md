@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAgent_AddSaleTypeQuoteAttachment
 title: Integer AddSaleTypeQuoteAttachment(Integer saleTypeId, Integer documentId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Integer AddSaleTypeQuoteAttachment(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-keywords: AddSaleTypeQuoteAttachment(Integer,Integer)
+intellisense: NSQuoteAgent.AddSaleTypeQuoteAttachment
+keywords: NSQuoteAgent, AddSaleTypeQuoteAttachment
+so.topic: reference
 ---
-
 
 Adds a new quote attachment document to a sale type
 
+**Parameters:**
+ - **saleTypeId** The ID of the sale type
+ - **documentId** The ID of the document
 
+**Returns:** ID of the new sale type quote attachment row
 
-* **saleTypeId:** The ID of the sale type
-* **documentId:** The ID of the document
-* **Returns:** ID of the new sale type quote attachment row
-
+```crmscript
+NSQuoteAgent agent;
+Integer saleTypeId;
+Integer documentId;
+Integer res = agent.AddSaleTypeQuoteAttachment(saleTypeId, documentId);
+```
 

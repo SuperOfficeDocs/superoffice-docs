@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_GetResponse
 title: String GetResponse()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/String GetResponse()
-intellisense: 1
-classref: 1
-sortOrder: 3839
-keywords: GetResponse()
+intellisense: NSFormSubmissionEntity.GetResponse
+keywords: NSFormSubmissionEntity, GetResponse
+so.topic: reference
 ---
-
 
 The JSON-formatted response from this form
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFormSubmissionEntity thing;
+String response  = thing.GetResponse();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonSummary_SetSales
+title: SetSales(SaleSummaryItemArray sales)
+intellisense: NSPersonSummary.SetSales
+keywords: NSPersonSummary, GetSales
+so.topic: reference
 ---
-title: Void SetSales(NSSaleSummaryItem[] Sales)
-path: /EJScript/Classes/NSPersonSummary/Member functions/Void SetSales(NSSaleSummaryItem[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetSales(NSSaleSummaryItem[])
----
-
 
 Recent sales on person
 
+**Parameter:** 
+ - **sales** SaleSummaryItemArray
 
-
-* **Sales:** SaleSummaryItemArray
-* **Returns:** SaleSummaryItemArray
-
+```crmscript
+NSPersonSummary thing;
+SaleSummaryItemArray sales;
+thing.SetSales(sales);
+```
 

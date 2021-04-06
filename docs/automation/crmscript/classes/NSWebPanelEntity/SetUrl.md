@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetUrl
+title: SetUrl(String url)
+intellisense: NSWebPanelEntity.SetUrl
+keywords: NSWebPanelEntity, GetUrl
+so.topic: reference
 ---
-title: Void SetUrl(String Url)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetUrl(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUrl(String)
----
-
 
 The url
 
+**Parameter:** 
+ - **url** String
 
-
-* **Url:** String
-* **Returns:** String
-
+```crmscript
+NSWebPanelEntity thing;
+String url;
+thing.SetUrl(url);
+```
 

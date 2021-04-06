@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionWorkflowState_SetStateImage
+title: SetStateImage(QuoteVersionButtonState stateImage)
+intellisense: NSQuoteVersionWorkflowState.SetStateImage
+keywords: NSQuoteVersionWorkflowState, GetStateImage
+so.topic: reference
 ---
-title: Void SetStateImage(NSQuoteVersionButtonState StateImage)
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/Void SetStateImage(NSQuoteVersionButtonState p_0)
-intellisense: 1
-classref: 1
-keywords: SetStateImage(NSQuoteVersionButtonState)
----
-
 
 Information about the state image for the current quote version.
 
+**Parameter:** 
+ - **stateImage** QuoteVersionButtonState
 
-
-* **StateImage:** QuoteVersionButtonState
-* **Returns:** QuoteVersionButtonState
-
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionButtonState stateImage;
+thing.SetStateImage(stateImage);
+```
 

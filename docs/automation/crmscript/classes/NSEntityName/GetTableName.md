@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEntityName_GetTableName
 title: String GetTableName()
-path: /EJScript/Classes/NSEntityName/Member functions/String GetTableName()
-intellisense: 1
-classref: 1
-sortOrder: 3071
-keywords: GetTableName()
+intellisense: NSEntityName.GetTableName
+keywords: NSEntityName, GetTableName
+so.topic: reference
 ---
-
 
 The name of the table in the database
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEntityName thing;
+String tableName  = thing.GetTableName();
+```
 
 

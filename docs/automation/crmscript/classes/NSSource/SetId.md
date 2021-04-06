@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSSource_SetId
+title: SetId(Integer id)
+intellisense: NSSource.SetId
+keywords: NSSource, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSSource/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the Source
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer Source id.
 
+```crmscript
+NSSource thing;
+thing.SetId(123);
+```
 

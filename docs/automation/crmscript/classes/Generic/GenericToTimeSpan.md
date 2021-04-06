@@ -1,10 +1,11 @@
 ---
-title: TimeSpan GenericToTimeSpan(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/TimeSpan GenericToTimeSpan(Generic generic)
-intellisense: 1
+uid: crmscript_ref_Generic_GenericToTimeSpan_Generic_generic
+title: Generic.GenericToTimeSpan(Generic generic)
+intellisense: Generic.GenericToTimeSpan
 langref: 1
 sortOrder: 160
 keywords: GenericToTimeSpan(Generic)
+so.topic: reference
 ---
 
 

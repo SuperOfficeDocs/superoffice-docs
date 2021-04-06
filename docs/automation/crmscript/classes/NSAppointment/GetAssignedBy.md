@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetAssignedBy
 title: Integer GetAssignedBy()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetAssignedBy()
-intellisense: 1
-classref: 1
-sortOrder: 728
-keywords: GetAssignedBy()
+intellisense: NSAppointment.GetAssignedBy
+keywords: NSAppointment, GetAssignedBy
+so.topic: reference
 ---
 
+Who (last) assigned this appointment to associate_id?
 
-Who (last) assigned this appointment to associate\_id?
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSAppointment thing;
+Integer assignedBy  = thing.GetAssignedBy();
+```
 
 

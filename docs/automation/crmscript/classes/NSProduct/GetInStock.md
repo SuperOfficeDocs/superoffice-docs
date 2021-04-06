@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetInStock
 title: Float GetInStock()
-path: /EJScript/Classes/NSProduct/Member functions/Float GetInStock()
-intellisense: 1
-classref: 1
-keywords: GetInStock()
+intellisense: NSProduct.GetInStock
+keywords: NSProduct, GetInStock
+so.topic: reference
 ---
-
 
 Negative numbers will be interpreted as how many is ordered. Might not be available.
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSProduct thing;
+Float inStock  = thing.GetInStock();
+```
 
 

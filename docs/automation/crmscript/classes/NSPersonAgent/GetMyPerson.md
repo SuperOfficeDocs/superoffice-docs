@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_GetMyPerson
+title: PersonEntity GetMyPerson()
+intellisense: NSPersonAgent.GetMyPerson
+keywords: NSPersonAgent, GetMyPerson
+so.topic: reference
 ---
-title: NSPersonEntity GetMyPerson()
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity GetMyPerson()
-intellisense: 1
-classref: 1
-keywords: GetMyPerson()
----
-
 
 Gets the person info belonging to the currently logged on user.
 
 
+**Returns:** The PersonEntity
 
-* **Returns:** The PersonEntity
-
+```crmscript
+NSPersonAgent agent;
+PersonEntity res = agent.GetMyPerson();
+```
 

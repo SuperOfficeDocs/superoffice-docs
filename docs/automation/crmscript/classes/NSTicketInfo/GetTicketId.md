@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketInfo_GetTicketId
 title: Integer GetTicketId()
-path: /EJScript/Classes/NSTicketInfo/Member functions/Integer GetTicketId()
-intellisense: 1
-classref: 1
-keywords: GetTicketId()
+intellisense: NSTicketInfo.GetTicketId
+keywords: NSTicketInfo, GetTicketId
+so.topic: reference
 ---
-
 
 The id of the created ticket
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketInfo thing;
+Integer ticketId  = thing.GetTicketId();
+```
 
 

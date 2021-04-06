@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetSentInfo
 title: Integer GetSentInfo()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetSentInfo()
-intellisense: 1
-classref: 1
-keywords: GetSentInfo()
+intellisense: NSPersonEntity.GetSentInfo
+keywords: NSPersonEntity, GetSentInfo
+so.topic: reference
 ---
-
 
 Has information on username/password been sent (ejournal)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPersonEntity thing;
+Integer sentInfo  = thing.GetSentInfo();
+```
 
 

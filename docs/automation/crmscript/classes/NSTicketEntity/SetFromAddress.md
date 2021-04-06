@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetFromAddress
+title: SetFromAddress(String fromAddress)
+intellisense: NSTicketEntity.SetFromAddress
+keywords: NSTicketEntity, GetFromAddress
+so.topic: reference
 ---
-title: Void SetFromAddress(String FromAddress)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetFromAddress(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetFromAddress(String)
----
-
 
 The from-address used when this ticket got created, e.g. by email
 
+**Parameter:** 
+ - **fromAddress** String
 
-
-* **FromAddress:** String
-* **Returns:** String
-
+```crmscript
+NSTicketEntity thing;
+String fromAddress;
+thing.SetFromAddress(fromAddress);
+```
 

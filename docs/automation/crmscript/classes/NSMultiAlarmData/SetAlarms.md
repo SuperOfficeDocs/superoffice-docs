@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMultiAlarmData_SetAlarms
+title: SetAlarms(AlarmDataArray alarms)
+intellisense: NSMultiAlarmData.SetAlarms
+keywords: NSMultiAlarmData, GetAlarms
+so.topic: reference
 ---
-title: Void SetAlarms(NSAlarmData[] Alarms)
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/Void SetAlarms(NSAlarmData[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetAlarms(NSAlarmData[])
----
 
 
-* **Alarms:** AlarmDataArray
-* **Returns:** AlarmDataArray
 
+**Parameter:** 
+ - **alarms** AlarmDataArray
+
+```crmscript
+NSMultiAlarmData thing;
+AlarmDataArray alarms;
+thing.SetAlarms(alarms);
+```
 

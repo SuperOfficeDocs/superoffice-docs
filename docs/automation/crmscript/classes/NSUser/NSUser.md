@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSUser
 title: NSUser
-path: /EJScript/Classes/NSUser
-intellisense: 1
-classref: 1
+intellisense: Void.NSUser
+keywords: NSUser
+so.topic: reference
 ---
-
 
 SuperOffice User, with login credentials and an associated person.
 
-
-
-
-1. autolist
+1. autolist 
 

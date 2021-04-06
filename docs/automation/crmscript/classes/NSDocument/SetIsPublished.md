@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocument_SetIsPublished
+title: SetIsPublished(Bool isPublished)
+intellisense: NSDocument.SetIsPublished
+keywords: NSDocument, GetIsPublished
+so.topic: reference
 ---
-title: Void SetIsPublished(Bool IsPublished)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetIsPublished(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2455
-keywords: SetIsPublished(Bool)
----
-
 
 True if document have an entry in published table
 
+**Parameter:** 
+ - **isPublished** Bool
 
-
-* **IsPublished:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSDocument thing;
+Bool isPublished;
+thing.SetIsPublished(isPublished);
+```
 

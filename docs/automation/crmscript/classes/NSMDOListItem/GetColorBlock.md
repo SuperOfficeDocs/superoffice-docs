@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem_GetColorBlock
 title: Integer GetColorBlock()
-path: /EJScript/Classes/NSMDOListItem/Member functions/Integer GetColorBlock()
-intellisense: 1
-classref: 1
-keywords: GetColorBlock()
+intellisense: NSMDOListItem.GetColorBlock
+keywords: NSMDOListItem, GetColorBlock
+so.topic: reference
 ---
-
 
 The color indicator of the ListItem color block
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMDOListItem thing;
+Integer colorBlock  = thing.GetColorBlock();
+```
 
 

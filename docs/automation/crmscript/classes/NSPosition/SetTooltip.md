@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPosition_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSPosition.SetTooltip
+keywords: NSPosition, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSPosition/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the Position list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String Position tooltip description.
 
+```crmscript
+NSPosition thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

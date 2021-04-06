@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetName
+title: SetName(String name)
+intellisense: NSReportLabelLayoutEntity.SetName
+keywords: NSReportLabelLayoutEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Name of the label layout
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSReportLabelLayoutEntity thing;
+String name;
+thing.SetName(name);
+```
 

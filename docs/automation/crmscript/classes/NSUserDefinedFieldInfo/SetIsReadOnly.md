@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetIsReadOnly
+title: SetIsReadOnly(Bool isReadOnly)
+intellisense: NSUserDefinedFieldInfo.SetIsReadOnly
+keywords: NSUserDefinedFieldInfo, GetIsReadOnly
+so.topic: reference
 ---
-title: Void SetIsReadOnly(Bool IsReadOnly)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetIsReadOnly(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsReadOnly(Bool)
----
-
 
 0 = read/write, 1 = readonly (don't combine with mandatory  8-) )
 
+**Parameter:** 
+ - **isReadOnly** Bool
 
-
-* **IsReadOnly:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Bool isReadOnly;
+thing.SetIsReadOnly(isReadOnly);
+```
 

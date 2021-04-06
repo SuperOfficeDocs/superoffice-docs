@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetReasons
+title: ReasonArray GetReasons()
+intellisense: NSListAgent.GetReasons
+keywords: NSListAgent, GetReasons
+so.topic: reference
 ---
-title: NSReason[] GetReasons()
-path: /EJScript/Classes/NSListAgent/Member functions/NSReason[] GetReasons()
-intellisense: 1
-classref: 1
-keywords: GetReasons()
----
-
 
 Returns all reasons
 
 
+**Returns:** Array of reasons
 
-* **Returns:** Array of reasons
-
+```crmscript
+NSListAgent agent;
+ReasonArray res = agent.GetReasons();
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailbox_GetAddress
 title: String GetAddress()
-path: /EJScript/Classes/NSMailbox/Member functions/String GetAddress()
-intellisense: 1
-classref: 1
-keywords: GetAddress()
+intellisense: NSMailbox.GetAddress
+keywords: NSMailbox, GetAddress
+so.topic: reference
 ---
-
 
 The address associated with this mailbox (used as FROM: address when sending emails).
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMailbox thing;
+String address  = thing.GetAddress();
+```
 
 

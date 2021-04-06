@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_GetAutoSuggest
 title: Integer GetAutoSuggest()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetAutoSuggest()
-intellisense: 1
-classref: 1
-keywords: GetAutoSuggest()
+intellisense: NSSuggestedAppointment.GetAutoSuggest
+keywords: NSSuggestedAppointment, GetAutoSuggest
+so.topic: reference
 ---
-
 
 Should this appointment be auto-suggested
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSuggestedAppointment thing;
+Integer autoSuggest  = thing.GetAutoSuggest();
+```
 
 

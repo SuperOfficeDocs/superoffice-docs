@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSLicenseAgent_GetUserLicenses
+title: LicenseOwnerArray GetUserLicenses(Integer associateId)
+intellisense: NSLicenseAgent.GetUserLicenses
+keywords: NSLicenseAgent, GetUserLicenses
+so.topic: reference
 ---
-title: NSLicenseOwner[] GetUserLicenses(Integer associateId)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseOwner[] GetUserLicenses(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetUserLicenses(Integer)
----
-
 
 Obtain information about associate module licenses
 
+**Parameters:**
+ - **associateId** Associate id to check for associate module licenses
 
+**Returns:** Associate module licenses grouped by owners.
 
-* **associateId:** Associate id to check for associate module licenses
-* **Returns:** Associate module licenses grouped by owners.
-
+```crmscript
+NSLicenseAgent agent;
+Integer associateId;
+LicenseOwnerArray res = agent.GetUserLicenses(associateId);
+```
 

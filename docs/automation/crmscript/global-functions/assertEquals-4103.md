@@ -1,9 +1,9 @@
 ---
 description: Void assertEquals(Float float1, Float float2)
-path: /EJScript/Global functions/Void assertEquals(Float float1, Float float2)
-intellisense: 1
+intellisense: Void.assertEquals
 langref: 1
 keywords: assertEquals(Float,Float)
+so.topic: reference
 ---
 
 

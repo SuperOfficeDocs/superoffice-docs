@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetAssignedByFullName
 title: String GetAssignedByFullName()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetAssignedByFullName()
-intellisense: 1
-classref: 1
-sortOrder: 752
-keywords: GetAssignedByFullName()
+intellisense: NSAppointment.GetAssignedByFullName
+keywords: NSAppointment, GetAssignedByFullName
+so.topic: reference
 ---
-
 
 The associate's culture formatted fullname (firstname, middleName and lastname)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointment thing;
+String assignedByFullName  = thing.GetAssignedByFullName();
+```
 
 

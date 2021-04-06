@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetEjMessageId
+title: SetEjMessageId(Integer ejMessageId)
+intellisense: NSTicketMessageEntity.SetEjMessageId
+keywords: NSTicketMessageEntity, GetEjMessageId
+so.topic: reference
 ---
-title: Void SetEjMessageId(Integer EjMessageId)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetEjMessageId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetEjMessageId(Integer)
----
-
 
 The primary key (auto-incremented)
 
+**Parameter:** 
+ - **ejMessageId** Integer
 
-
-* **EjMessageId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicketMessageEntity thing;
+Integer ejMessageId;
+thing.SetEjMessageId(ejMessageId);
+```
 

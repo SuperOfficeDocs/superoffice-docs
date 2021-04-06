@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactActivity_SetURL
+title: SetURL(String uRL)
+intellisense: NSContactActivity.SetURL
+keywords: NSContactActivity, GetURL
+so.topic: reference
 ---
-title: Void SetURL(String URL)
-path: /EJScript/Classes/NSContactActivity/Member functions/Void SetURL(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1793
-keywords: SetURL(String)
----
-
 
 URL address
 
+**Parameter:** 
+ - **uRL** String
 
-
-* **URL:** String
-* **Returns:** String
-
+```crmscript
+NSContactActivity thing;
+String uRL;
+thing.SetURL(uRL);
+```
 

@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPriority_SetValue
+title: SetValue(String value)
+intellisense: NSPriority.SetValue
+keywords: NSPriority, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSPriority/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the Priority item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Priority name.
 
+```crmscript
+NSPriority thing;
+thing.SetValue("frotz");
+```
 

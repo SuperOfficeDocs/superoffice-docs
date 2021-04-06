@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignAppEntity_GetCreatedBy
+title: Associate GetCreatedBy()
+intellisense: NSForeignAppEntity.GetCreatedBy
+keywords: NSForeignAppEntity, GetCreatedBy
+so.topic: reference
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
-sortOrder: 3701
-keywords: GetCreatedBy()
----
-
 
 The person that created the foreign application.
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSForeignAppEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
 
 

@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetPersonFormalName
+title: SetPersonFormalName(String personFormalName)
+intellisense: NSAppointmentSyncData.SetPersonFormalName
+keywords: NSAppointmentSyncData, GetPersonFormalName
+so.topic: reference
 ---
-title: Void SetPersonFormalName(String PersonFormalName)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetPersonFormalName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1083
-keywords: SetPersonFormalName(String)
----
 
 
-* **PersonFormalName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **personFormalName** String
+
+```crmscript
+NSAppointmentSyncData thing;
+String personFormalName;
+thing.SetPersonFormalName(personFormalName);
+```
 

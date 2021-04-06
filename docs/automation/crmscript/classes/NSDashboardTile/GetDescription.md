@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSDashboardTile/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 2300
-keywords: GetDescription()
+intellisense: NSDashboardTile.GetDescription
+keywords: NSDashboardTile, GetDescription
+so.topic: reference
 ---
-
 
 The tile description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDashboardTile thing;
+String description  = thing.GetDescription();
+```
 
 

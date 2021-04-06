@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent_SetPassword
 title: Bool SetPassword(Integer associateId, String password)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool SetPassword(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: SetPassword(Integer,String)
+intellisense: NSUserAgent.SetPassword
+keywords: NSUserAgent, SetPassword
+so.topic: reference
 ---
-
 
 Change password for a user.
 
+**Parameters:**
+ - **associateId** Id of User to set password for
+ - **password** New password
 
+**Returns:** Succeeded?
 
-* **associateId:** Id of User to set password for
-* **password:** New password
-* **Returns:** Succeeded?
-
+```crmscript
+NSUserAgent agent;
+Integer associateId;
+String password;
+Bool res = agent.SetPassword(associateId, password);
+```
 

@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity
 title: NSDocumentEntity
-path: /EJScript/Classes/NSDocumentEntity
-intellisense: 1
-classref: 1
-sortOrder: 2549
+intellisense: Void.NSDocumentEntity
+keywords: NSDocumentEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetColumnId
+title: SetColumnId(Integer columnId)
+intellisense: NSUserDefinedFieldInfo.SetColumnId
+keywords: NSUserDefinedFieldInfo, GetColumnId
+so.topic: reference
 ---
-title: Void SetColumnId(Integer ColumnId)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetColumnId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetColumnId(Integer)
----
-
 
 The ID of the database column this field corresponds to
 
+**Parameter:** 
+ - **columnId** Integer
 
-
-* **ColumnId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer columnId;
+thing.SetColumnId(columnId);
+```
 

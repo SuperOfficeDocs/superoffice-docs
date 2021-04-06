@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketStartupData_GetOverdueSalesCount
 title: Integer GetOverdueSalesCount()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Integer GetOverdueSalesCount()
-intellisense: 1
-classref: 1
-keywords: GetOverdueSalesCount()
+intellisense: NSPocketStartupData.GetOverdueSalesCount
+keywords: NSPocketStartupData, GetOverdueSalesCount
+so.topic: reference
 ---
-
 
 Number of overdued sales for current user
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPocketStartupData thing;
+Integer overdueSalesCount  = thing.GetOverdueSalesCount();
+```
 
 

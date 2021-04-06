@@ -1,9 +1,9 @@
 ---
-title: Void SetLicenses(NSGrantedModuleLicense[] p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetLicenses(NSGrantedModuleLicense[] p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_SetLicenses_NSGrantedModuleLicense__p_0
+title: NSSoPrincipalCarrier.SetLicenses(NSGrantedModuleLicense[] p_0)
+intellisense: NSSoPrincipalCarrier.SetLicenses
 keywords: SetLicenses(NSGrantedModuleLicense[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void addCallback(Integer column, String script)
-path: /EJScript/Classes/StatLib/Member functions/Void addCallback(Integer column, String script)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatLib_addCallback_Integer_column_String_script
+title: StatLib.addCallback(Integer column, String script)
+intellisense: StatLib.addCallback
 keywords: addCallback(Integer,String)
+so.topic: reference
 ---
 
 

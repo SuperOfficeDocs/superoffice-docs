@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetDestinationPersonName
 title: String GetDestinationPersonName()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/String GetDestinationPersonName()
-intellisense: 1
-classref: 1
-sortOrder: 1958
-keywords: GetDestinationPersonName()
+intellisense: NSContactRelationEntity.GetDestinationPersonName
+keywords: NSContactRelationEntity, GetDestinationPersonName
+so.topic: reference
 ---
-
 
 Name of the destination person.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactRelationEntity thing;
+String destinationPersonName  = thing.GetDestinationPersonName();
+```
 
 

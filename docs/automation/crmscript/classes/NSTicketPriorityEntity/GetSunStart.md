@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetSunStart
 title: DateTime GetSunStart()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetSunStart()
-intellisense: 1
-classref: 1
-keywords: GetSunStart()
+intellisense: NSTicketPriorityEntity.GetSunStart
+keywords: NSTicketPriorityEntity, GetSunStart
+so.topic: reference
 ---
-
 
 The work hour start for Sundays. Note that only the time part of the DateTime is used
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime sunStart  = thing.GetSunStart();
+```
 
 

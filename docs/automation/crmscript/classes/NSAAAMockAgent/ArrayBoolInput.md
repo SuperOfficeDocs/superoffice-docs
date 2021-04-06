@@ -1,10 +1,10 @@
 ---
-title: Void ArrayBoolInput(Boolean[] p0)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void ArrayBoolInput(Boolean[] p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_ArrayBoolInput_Boolean__p_0
+title: NSAAAMockAgent.ArrayBoolInput(Boolean[] p_0)
+intellisense: NSAAAMockAgent.ArrayBoolInput
 sortOrder: 8899
 keywords: ArrayBoolInput(Boolean[])
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectMember_GetPersonId
 title: Integer GetPersonId()
-path: /EJScript/Classes/NSProjectMember/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
-keywords: GetPersonId()
+intellisense: NSProjectMember.GetPersonId
+keywords: NSProjectMember, GetPersonId
+so.topic: reference
 ---
-
 
 The person's id - primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectMember thing;
+Integer personId  = thing.GetPersonId();
+```
 
 

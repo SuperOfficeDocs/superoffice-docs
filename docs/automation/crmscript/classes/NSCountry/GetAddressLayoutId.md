@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetAddressLayoutId
 title: Integer GetAddressLayoutId()
-path: /EJScript/Classes/NSCountry/Member functions/Integer GetAddressLayoutId()
-intellisense: 1
-classref: 1
-sortOrder: 2013
-keywords: GetAddressLayoutId()
+intellisense: NSCountry.GetAddressLayoutId
+keywords: NSCountry, GetAddressLayoutId
+so.topic: reference
 ---
-
 
 Address layout of the country
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCountry thing;
+Integer addressLayoutId  = thing.GetAddressLayoutId();
+```
 
 

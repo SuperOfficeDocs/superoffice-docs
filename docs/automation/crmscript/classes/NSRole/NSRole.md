@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSRole
 title: NSRole
-path: /EJScript/Classes/NSRole
-intellisense: 1
-classref: 1
+intellisense: Void.NSRole
+keywords: NSRole
+so.topic: reference
 ---
-
 
 Users role for role-based security
 
-
-
-
-1. autolist
+1. autolist 
 

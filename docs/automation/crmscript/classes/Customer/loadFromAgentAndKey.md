@@ -1,10 +1,10 @@
 ---
-title: Bool loadFromAgentAndKey(Integer agent, String key)
-path: /EJScript/Classes/Customer/Member functions/Bool loadFromAgentAndKey(Integer agent, String key)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_loadFromAgentAndKey_Integer_agent_String_key
+title: Customer.loadFromAgentAndKey(Integer agent, String key)
+intellisense: Customer.loadFromAgentAndKey
 sortOrder: 179
 keywords: loadFromAgentAndKey(Integer,String)
+so.topic: reference
 ---
 
 Loads a customer based on agent id and external key.

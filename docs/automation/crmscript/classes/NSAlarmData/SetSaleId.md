@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAlarmData_SetSaleId
+title: SetSaleId(Integer saleId)
+intellisense: NSAlarmData.SetSaleId
+keywords: NSAlarmData, GetSaleId
+so.topic: reference
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 689
-keywords: SetSaleId(Integer)
----
-
 
 Owning sale, if any (may be 0)
 
+**Parameter:** 
+ - **saleId** Integer
 
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAlarmData thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
 

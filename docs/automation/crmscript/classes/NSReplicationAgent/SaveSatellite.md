@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSReplicationAgent_SaveSatellite
+title: NSSatellite SaveSatellite(NSSatellite satellite);
+intellisense: NSReplicationAgent.SaveSatellite
+keywords: NSReplicationAgent, SaveSatellite
+so.topic: reference
 ---
-title: NSSatellite SaveSatellite(NSSatellite satellite)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSSatellite SaveSatellite(NSSatellite p_0)
-intellisense: 1
-classref: 1
-keywords: SaveSatellite(NSSatellite)
----
+	  
+Updates the existing NSSatellite or creates a new NSSatellite if the id parameter is 0
+	  
+**Parameters**:
+ - **satellite** The NSSatellite to save.
 
+**Returns:** New or updated NSSatellite
 
-Updates the existing Satellite or creates a new Satellite if the id parameter is empty
-
-
-
-* **satellite:** The Satellite that is saved
-* **Returns:** New or updated Satellite
-
+```crmscript
+NSReplication  agent;
+NSSatellite thing = agent.CreateDefaultSatellite();
+thing = agent.SaveSatellite(thing);
+```
 

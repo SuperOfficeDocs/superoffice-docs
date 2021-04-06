@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSControlInfo_SetLabel
+title: SetLabel(String label)
+intellisense: NSControlInfo.SetLabel
+keywords: NSControlInfo, GetLabel
+so.topic: reference
 ---
-title: Void SetLabel(String Label)
-path: /EJScript/Classes/NSControlInfo/Member functions/Void SetLabel(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2004
-keywords: SetLabel(String)
----
 
 
-* **Label:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **label** String
+
+```crmscript
+NSControlInfo thing;
+String label;
+thing.SetLabel(label);
+```
 

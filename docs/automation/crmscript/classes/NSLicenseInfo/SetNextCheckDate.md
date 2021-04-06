@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetNextCheckDate
+title: SetNextCheckDate(DateTime nextCheckDate)
+intellisense: NSLicenseInfo.SetNextCheckDate
+keywords: NSLicenseInfo, GetNextCheckDate
+so.topic: reference
 ---
-title: Void SetNextCheckDate(DateTime NextCheckDate)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetNextCheckDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetNextCheckDate(DateTime)
----
-
 
 When should the system next check with the license issuer
 
+**Parameter:** 
+ - **nextCheckDate** DateTime
 
-
-* **NextCheckDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSLicenseInfo thing;
+DateTime nextCheckDate;
+thing.SetNextCheckDate(nextCheckDate);
+```
 

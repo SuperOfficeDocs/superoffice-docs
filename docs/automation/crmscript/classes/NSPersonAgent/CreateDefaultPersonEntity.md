@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonAgent_CreateDefaultPersonEntity
 title: NSPersonEntity CreateDefaultPersonEntity()
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity CreateDefaultPersonEntity()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultPersonEntity()
+intellisense: NSPersonAgent.CreateDefaultPersonEntity
+keywords: NSPersonAgent, CreateDefaultPersonEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSPersonEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSPersonEntity with default values.
 
-
-Loading default values into a new PersonEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New PersonEntity with default values
-
+```crmscript
+NSPersonAgent agent;
+NSPersonEntity thing = agent.CreateDefaultPersonEntity();
+thing = agent.SavePersonEntity(thing);
+```
 

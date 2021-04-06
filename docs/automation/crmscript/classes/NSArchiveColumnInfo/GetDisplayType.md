@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_GetDisplayType
 title: String GetDisplayType()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetDisplayType()
-intellisense: 1
-classref: 1
-sortOrder: 1142
-keywords: GetDisplayType()
+intellisense: NSArchiveColumnInfo.GetDisplayType
+keywords: NSArchiveColumnInfo, GetDisplayType
+so.topic: reference
 ---
-
 
 Type of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted). This name can contain resource tags.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSArchiveColumnInfo thing;
+String displayType  = thing.GetDisplayType();
+```
 
 

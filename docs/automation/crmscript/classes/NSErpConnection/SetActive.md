@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnection_SetActive
+title: SetActive(Bool active)
+intellisense: NSErpConnection.SetActive
+keywords: NSErpConnection, GetActive
+so.topic: reference
 ---
-title: Void SetActive(Bool Active)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetActive(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3090
-keywords: SetActive(Bool)
----
-
 
 Is this connection currently active
 
+**Parameter:** 
+ - **active** Bool
 
-
-* **Active:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSErpConnection thing;
+Bool active;
+thing.SetActive(active);
+```
 

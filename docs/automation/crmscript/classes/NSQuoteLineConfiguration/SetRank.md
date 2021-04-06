@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_SetRank
+title: SetRank(Integer rank)
+intellisense: NSQuoteLineConfiguration.SetRank
+keywords: NSQuoteLineConfiguration, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 Rank of the field
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteLineConfiguration thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

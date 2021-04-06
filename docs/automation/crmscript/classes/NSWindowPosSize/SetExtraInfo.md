@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWindowPosSize_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
+intellisense: NSWindowPosSize.SetExtraInfo
+keywords: NSWindowPosSize, GetExtraInfo
+so.topic: reference
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraInfo(String)
----
-
 
 Extra information - show state, or whatever is required
 
+**Parameter:** 
+ - **extraInfo** String
 
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+```crmscript
+NSWindowPosSize thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
 

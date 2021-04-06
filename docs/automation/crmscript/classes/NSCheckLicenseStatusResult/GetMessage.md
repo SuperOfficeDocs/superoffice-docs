@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCheckLicenseStatusResult_GetMessage
 title: String GetMessage()
-path: /EJScript/Classes/NSCheckLicenseStatusResult/Member functions/String GetMessage()
-intellisense: 1
-classref: 1
-sortOrder: 1552
-keywords: GetMessage()
+intellisense: NSCheckLicenseStatusResult.GetMessage
+keywords: NSCheckLicenseStatusResult, GetMessage
+so.topic: reference
 ---
-
 
 Message to display in SOADMIN if LinkType=90.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCheckLicenseStatusResult thing;
+String message  = thing.GetMessage();
+```
 
 

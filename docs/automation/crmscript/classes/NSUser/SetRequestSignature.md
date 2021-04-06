@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_SetRequestSignature
+title: SetRequestSignature(String requestSignature)
+intellisense: NSUser.SetRequestSignature
+keywords: NSUser, GetRequestSignature
+so.topic: reference
 ---
-title: Void SetRequestSignature(String RequestSignature)
-path: /EJScript/Classes/NSUser/Member functions/Void SetRequestSignature(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetRequestSignature(String)
----
-
 
 ej users request signature
 
+**Parameter:** 
+ - **requestSignature** String
 
-
-* **RequestSignature:** String
-* **Returns:** String
-
+```crmscript
+NSUser thing;
+String requestSignature;
+thing.SetRequestSignature(requestSignature);
+```
 

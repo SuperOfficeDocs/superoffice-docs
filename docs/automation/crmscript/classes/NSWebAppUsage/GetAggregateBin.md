@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebAppUsage_GetAggregateBin
 title: Integer GetAggregateBin()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Integer GetAggregateBin()
-intellisense: 1
-classref: 1
-keywords: GetAggregateBin()
+intellisense: NSWebAppUsage.GetAggregateBin
+keywords: NSWebAppUsage, GetAggregateBin
+so.topic: reference
 ---
-
 
 ??
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWebAppUsage thing;
+Integer aggregateBin  = thing.GetAggregateBin();
+```
 
 

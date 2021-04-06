@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetPostit
 title: String GetPostit()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/String GetPostit()
-intellisense: 1
-classref: 1
-keywords: GetPostit()
+intellisense: NSSelectionEntity.GetPostit
+keywords: NSSelectionEntity, GetPostit
+so.topic: reference
 ---
-
 
 The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSelectionEntity thing;
+String postit  = thing.GetPostit();
+```
 
 

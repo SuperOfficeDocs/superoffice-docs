@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAppointment_SetDtStart
+title: SetDtStart(DateTime dtStart)
+intellisense: NSEMailAppointment.SetDtStart
+keywords: NSEMailAppointment, GetDtStart
+so.topic: reference
 ---
-title: Void SetDtStart(DateTime DtStart)
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Void SetDtStart(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2886
-keywords: SetDtStart(DateTime)
----
-
 
 Start date/time in ICS file.
 
+**Parameter:** 
+ - **dtStart** DateTime
 
-
-* **DtStart:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSEMailAppointment thing;
+DateTime dtStart;
+thing.SetDtStart(dtStart);
+```
 

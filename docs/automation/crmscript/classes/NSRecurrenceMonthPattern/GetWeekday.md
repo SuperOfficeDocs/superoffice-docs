@@ -1,9 +1,9 @@
 ---
-title: Integer GetWeekday()
-path: /EJScript/Classes/NSRecurrenceMonthPattern/Member functions/Integer GetWeekday()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceMonthPattern_GetWeekday
+title: NSRecurrenceMonthPattern.GetWeekday()
+intellisense: NSRecurrenceMonthPattern.GetWeekday
 keywords: GetWeekday()
+so.topic: reference
 ---
 
 

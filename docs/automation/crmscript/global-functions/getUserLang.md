@@ -1,9 +1,9 @@
 ---
 description: String getUserLang()
-path: /EJScript/Global functions/String getUserLang()
-intellisense: 1
+intellisense: Void.getUserLang
 langref: 1
 keywords: getUserLang()
+so.topic: reference
 ---
 
 

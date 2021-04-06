@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneAgent
 title: NSTimeZoneAgent
-path: /EJScript/Classes/NSTimeZoneAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSTimeZoneAgent
+keywords: NSTimeZoneAgent
+so.topic: reference
 ---
-
 
 TimeZone maintenance
 
-
-
+```crmscript
+NSTimeZoneAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

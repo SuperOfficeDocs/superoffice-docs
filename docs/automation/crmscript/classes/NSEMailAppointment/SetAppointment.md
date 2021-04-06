@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAppointment_SetAppointment
+title: SetAppointment(Appointment appointment)
+intellisense: NSEMailAppointment.SetAppointment
+keywords: NSEMailAppointment, GetAppointment
+so.topic: reference
 ---
-title: Void SetAppointment(NSAppointment Appointment)
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Void SetAppointment(NSAppointment p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2882
-keywords: SetAppointment(NSAppointment)
----
-
 
 Appointment information
 
+**Parameter:** 
+ - **appointment** Appointment
 
-
-* **Appointment:** Appointment
-* **Returns:** Appointment
-
+```crmscript
+NSEMailAppointment thing;
+Appointment appointment;
+thing.SetAppointment(appointment);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: Date addYear(Integer num)
-path: /EJScript/Classes/Date/Member functions/Date addYear(Integer num)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Date_addYear_Integer_num
+title: Date.addYear(Integer num)
+intellisense: Date.addYear
 sortOrder: 199
 keywords: addYear(Integer)
+so.topic: reference
 ---
 
 

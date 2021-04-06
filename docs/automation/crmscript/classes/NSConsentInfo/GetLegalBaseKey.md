@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo_GetLegalBaseKey
 title: String GetLegalBaseKey()
-path: /EJScript/Classes/NSConsentInfo/Member functions/String GetLegalBaseKey()
-intellisense: 1
-classref: 1
-sortOrder: 1641
-keywords: GetLegalBaseKey()
+intellisense: NSConsentInfo.GetLegalBaseKey
+keywords: NSConsentInfo, GetLegalBaseKey
+so.topic: reference
 ---
-
 
 Key for the LegalBase associated with this consent
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentInfo thing;
+String legalBaseKey  = thing.GetLegalBaseKey();
+```
 
 

@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetHeadingEntity
+title: NSHeadingEntity GetHeadingEntity(Integer headingEntityId);
+intellisense: NSListAgent.GetHeadingEntity
+keywords: NSListAgent, GetHeadingEntity
+so.topic: reference
 ---
-title: NSHeadingEntity GetHeadingEntity(Integer headingEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity GetHeadingEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetHeadingEntity(Integer)
----
 
+Gets a NSHeadingEntity object.
 
-Gets a HeadingEntity object.
+**Parameters:**
+ - **headingEntityId** The identifier of the NSHeadingEntity object
 
+**Returns:** NSHeadingEntity
 
-
-* **headingEntityId:** The identifier of the HeadingEntity object
-* **Returns:** HeadingEntity
-
+```crmscript
+NSListAgent agent;
+NSHeadingEntity thing = agent.GetHeadingEntity(123);
+```
 

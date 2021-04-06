@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketStartupData_SetPhoneLocaleTimeZoneData
+title: SetPhoneLocaleTimeZoneData(TimeZoneData phoneLocaleTimeZoneData)
+intellisense: NSPocketStartupData.SetPhoneLocaleTimeZoneData
+keywords: NSPocketStartupData, GetPhoneLocaleTimeZoneData
+so.topic: reference
 ---
-title: Void SetPhoneLocaleTimeZoneData(NSTimeZoneData PhoneLocaleTimeZoneData)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetPhoneLocaleTimeZoneData(NSTimeZoneData p_0)
-intellisense: 1
-classref: 1
-keywords: SetPhoneLocaleTimeZoneData(NSTimeZoneData)
----
 
 
-* **PhoneLocaleTimeZoneData:** TimeZoneData
-* **Returns:** TimeZoneData
 
+**Parameter:** 
+ - **phoneLocaleTimeZoneData** TimeZoneData
+
+```crmscript
+NSPocketStartupData thing;
+TimeZoneData phoneLocaleTimeZoneData;
+thing.SetPhoneLocaleTimeZoneData(phoneLocaleTimeZoneData);
+```
 

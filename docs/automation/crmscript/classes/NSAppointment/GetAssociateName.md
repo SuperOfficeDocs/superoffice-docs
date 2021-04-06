@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetAssociateName
 title: String GetAssociateName()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetAssociateName()
-intellisense: 1
-classref: 1
-sortOrder: 754
-keywords: GetAssociateName()
+intellisense: NSAppointment.GetAssociateName
+keywords: NSAppointment, GetAssociateName
+so.topic: reference
 ---
-
 
 The associate's name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointment thing;
+String associateName  = thing.GetAssociateName();
+```
 
 

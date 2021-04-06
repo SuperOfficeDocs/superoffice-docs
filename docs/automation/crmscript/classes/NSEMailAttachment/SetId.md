@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAttachment_SetId
+title: SetId(String id)
+intellisense: NSEMailAttachment.SetId
+keywords: NSEMailAttachment, GetId
+so.topic: reference
 ---
-title: Void SetId(String Id)
-path: /EJScript/Classes/NSEMailAttachment/Member functions/Void SetId(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2904
-keywords: SetId(String)
----
-
 
 Content-ID
 
+**Parameter:** 
+ - **id** String
 
-
-* **Id:** String
-* **Returns:** String
-
+```crmscript
+NSEMailAttachment thing;
+String id;
+thing.SetId(id);
+```
 

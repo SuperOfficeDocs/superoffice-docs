@@ -1,13 +1,19 @@
----
-title: NSLicenseInfo GetCurrent()
-path: /EJScript/Classes/NSExtendedLicenseInfo/Member functions/NSLicenseInfo GetCurrent()
-intellisense: 1
-classref: 1
-sortOrder: 3406
-keywords: GetCurrent()
+﻿---
+uid: crmscript_ref_NSExtendedLicenseInfo_GetCurrent
+title: LicenseInfo GetCurrent()
+intellisense: NSExtendedLicenseInfo.GetCurrent
+keywords: NSExtendedLicenseInfo, GetCurrent
+so.topic: reference
 ---
 
 
-* **Returns:** LicenseInfo
+
+**Returns:** LicenseInfo
+
+
+```crmscript
+NSExtendedLicenseInfo thing;
+LicenseInfo current  = thing.GetCurrent();
+```
 
 

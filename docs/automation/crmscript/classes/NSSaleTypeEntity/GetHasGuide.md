@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_GetHasGuide
 title: Bool GetHasGuide()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetHasGuide()
-intellisense: 1
-classref: 1
-keywords: GetHasGuide()
+intellisense: NSSaleTypeEntity.GetHasGuide
+keywords: NSSaleTypeEntity, GetHasGuide
+so.topic: reference
 ---
-
 
 Does this sale type have a guide attached
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSaleTypeEntity thing;
+Bool hasGuide  = thing.GetHasGuide();
+```
 
 

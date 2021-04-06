@@ -1,9 +1,9 @@
 ---
-title: Void SetDatabaseContextIdentifier(String p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetDatabaseContextIdentifier(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_SetDatabaseContextIdentifier_String_p_0
+title: NSSoPrincipalCarrier.SetDatabaseContextIdentifier(String p_0)
+intellisense: NSSoPrincipalCarrier.SetDatabaseContextIdentifier
 keywords: SetDatabaseContextIdentifier(String)
+so.topic: reference
 ---
 
 

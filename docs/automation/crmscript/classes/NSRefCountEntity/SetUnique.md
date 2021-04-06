@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRefCountEntity_SetUnique
+title: SetUnique(Bool unique)
+intellisense: NSRefCountEntity.SetUnique
+keywords: NSRefCountEntity, GetUnique
+so.topic: reference
 ---
-title: Void SetUnique(Bool Unique)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetUnique(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetUnique(Bool)
----
-
 
 Check that entered value is unique
 
+**Parameter:** 
+ - **unique** Bool
 
-
-* **Unique:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSRefCountEntity thing;
+Bool unique;
+thing.SetUnique(unique);
+```
 

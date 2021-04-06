@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetApprovedText
+title: SetApprovedText(String approvedText)
+intellisense: NSQuoteVersion.SetApprovedText
+keywords: NSQuoteVersion, GetApprovedText
+so.topic: reference
 ---
-title: Void SetApprovedText(String ApprovedText)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetApprovedText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetApprovedText(String)
----
-
 
 Text with comments on why approval was granted (or rejected)
 
+**Parameter:** 
+ - **approvedText** String
 
-
-* **ApprovedText:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersion thing;
+String approvedText;
+thing.SetApprovedText(approvedText);
+```
 

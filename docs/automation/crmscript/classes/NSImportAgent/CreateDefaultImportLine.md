@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSImportAgent_CreateDefaultImportLine
+title: ImportLine CreateDefaultImportLine(Integer countColumns)
+intellisense: NSImportAgent.CreateDefaultImportLine
+keywords: NSImportAgent, CreateDefaultImportLine
+so.topic: reference
 ---
-title: NSImportLine CreateDefaultImportLine(Integer countColumns)
-path: /EJScript/Classes/NSImportAgent/Member functions/NSImportLine CreateDefaultImportLine(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3956
-keywords: CreateDefaultImportLine(Integer)
----
-
 
 Create a new empty import row with x count of values
 
+**Parameters:**
+ - **countColumns** The count of values that will can be filled out
 
+**Returns:** A new ImportLine
 
-* **countColumns:** The count of values that will can be filled out
-* **Returns:** A new ImportLine
-
+```crmscript
+NSImportAgent agent;
+Integer countColumns;
+ImportLine res = agent.CreateDefaultImportLine(countColumns);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetDescription
+title: NSSoSystemInfoCarrier.GetDescription()
+intellisense: NSSoSystemInfoCarrier.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

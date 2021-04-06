@@ -1,26 +1,29 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetInvitationStatus
 title: Integer GetInvitationStatus()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetInvitationStatus()
-intellisense: 1
-classref: 1
-sortOrder: 737
-keywords: GetInvitationStatus()
+intellisense: NSAppointment.GetInvitationStatus
+keywords: NSAppointment, GetInvitationStatus
+so.topic: reference
 ---
-
 
 Status if this appointment represents an invitation
 
-* Unknown=0
-* None=1
-* Accepted=2
-* Hidden=4	
-* Invitation=5	
-* Moved=6	
-* Seen=7	
-* MovedSeen=8	
-* Declined=9	
-* Cancelled=10
+**Returns:** Integer
 
-* **Returns:** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = None 
+     - Enum: 2 = Accepted 
+     - Enum: 4 = Hidden 
+     - Enum: 5 = Invitation 
+     - Enum: 6 = Moved 
+     - Enum: 7 = Seen 
+     - Enum: 8 = MovedSeen 
+     - Enum: 9 = Declined 
+     - Enum: 10 = Cancelled 
+
+```crmscript
+NSAppointment thing;
+Integer invitationStatus  = thing.GetInvitationStatus();
+```
 
 

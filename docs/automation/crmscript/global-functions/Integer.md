@@ -1,9 +1,9 @@
 ---
 description: Integer Integer(Integer value)
-path: /EJScript/Global functions/Integer Integer(Integer value)
-intellisense: 1
+intellisense: Void.Integer
 langref: 1
 keywords: Integer(Integer)
+so.topic: reference
 ---
 
 

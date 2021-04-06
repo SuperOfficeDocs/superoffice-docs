@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSPaymentType
 title: NSPaymentType
-path: /EJScript/Classes/NSPaymentType
-intellisense: 1
-classref: 1
+intellisense: Void.NSPaymentType
+keywords: NSPaymentType
+so.topic: reference
 ---
-
 
 The built-in payment types list. Used by the SuperOffice Quote Connector in quote versions.
 
-
-
-
-1. autolist
+1. autolist 
 

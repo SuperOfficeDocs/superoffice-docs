@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetRelationDefinitionEntity
+title: NSRelationDefinitionEntity GetRelationDefinitionEntity(Integer relationDefinitionEntityId);
+intellisense: NSListAgent.GetRelationDefinitionEntity
+keywords: NSListAgent, GetRelationDefinitionEntity
+so.topic: reference
 ---
-title: NSRelationDefinitionEntity GetRelationDefinitionEntity(Integer relationDefinitionEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSRelationDefinitionEntity GetRelationDefinitionEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetRelationDefinitionEntity(Integer)
----
 
+Gets a NSRelationDefinitionEntity object.
 
-Gets a RelationDefinitionEntity object.
+**Parameters:**
+ - **relationDefinitionEntityId** The identifier of the NSRelationDefinitionEntity object
 
+**Returns:** NSRelationDefinitionEntity
 
-
-* **relationDefinitionEntityId:** The identifier of the RelationDefinitionEntity object
-* **Returns:** RelationDefinitionEntity
-
+```crmscript
+NSListAgent agent;
+NSRelationDefinitionEntity thing = agent.GetRelationDefinitionEntity(123);
+```
 

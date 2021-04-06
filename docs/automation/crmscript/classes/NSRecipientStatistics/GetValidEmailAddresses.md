@@ -1,9 +1,9 @@
 ---
-title: Integer GetValidEmailAddresses()
-path: /EJScript/Classes/NSRecipientStatistics/Member functions/Integer GetValidEmailAddresses()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecipientStatistics_GetValidEmailAddresses
+title: NSRecipientStatistics.GetValidEmailAddresses()
+intellisense: NSRecipientStatistics.GetValidEmailAddresses
 keywords: GetValidEmailAddresses()
+so.topic: reference
 ---
 
 

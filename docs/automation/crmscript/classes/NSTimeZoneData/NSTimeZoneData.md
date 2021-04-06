@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneData
 title: NSTimeZoneData
-path: /EJScript/Classes/NSTimeZoneData
-intellisense: 1
-classref: 1
+intellisense: Void.NSTimeZoneData
+keywords: NSTimeZoneData
+so.topic: reference
 ---
-
 
 Information about a TimeZone
 
-
-
-
-1. autolist
+1. autolist 
 

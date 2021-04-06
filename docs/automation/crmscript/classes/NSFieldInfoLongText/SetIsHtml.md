@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoLongText_SetIsHtml
+title: SetIsHtml(Bool isHtml)
+intellisense: NSFieldInfoLongText.SetIsHtml
+keywords: NSFieldInfoLongText, GetIsHtml
+so.topic: reference
 ---
-title: Void SetIsHtml(Bool IsHtml)
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/Void SetIsHtml(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3526
-keywords: SetIsHtml(Bool)
----
-
 
 Do not escape HTML in field when displaying contents.
 
+**Parameter:** 
+ - **isHtml** Bool
 
-
-* **IsHtml:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldInfoLongText thing;
+Bool isHtml;
+thing.SetIsHtml(isHtml);
+```
 

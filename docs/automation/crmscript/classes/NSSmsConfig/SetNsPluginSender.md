@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSmsConfig_SetNsPluginSender
+title: SetNsPluginSender(String nsPluginSender)
+intellisense: NSSmsConfig.SetNsPluginSender
+keywords: NSSmsConfig, GetNsPluginSender
+so.topic: reference
 ---
-title: Void SetNsPluginSender(String NsPluginSender)
-path: /EJScript/Classes/NSSmsConfig/Member functions/Void SetNsPluginSender(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetNsPluginSender(String)
----
-
 
 The sender of the SMS messages. This text will appear on the recipient's mobile phone.
 
+**Parameter:** 
+ - **nsPluginSender** String
 
-
-* **NsPluginSender:** String
-* **Returns:** String
-
+```crmscript
+NSSmsConfig thing;
+String nsPluginSender;
+thing.SetNsPluginSender(nsPluginSender);
+```
 

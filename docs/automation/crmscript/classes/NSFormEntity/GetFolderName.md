@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetFolderName
 title: String GetFolderName()
-path: /EJScript/Classes/NSFormEntity/Member functions/String GetFolderName()
-intellisense: 1
-classref: 1
-sortOrder: 3802
-keywords: GetFolderName()
+intellisense: NSFormEntity.GetFolderName
+keywords: NSFormEntity, GetFolderName
+so.topic: reference
 ---
-
 
 The name of the folder for this form
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFormEntity thing;
+String folderName  = thing.GetFolderName();
+```
 
 

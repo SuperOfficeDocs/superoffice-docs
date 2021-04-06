@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_SetDisplayValues
+title: SetDisplayValues(StringArray displayValues)
+intellisense: NSFieldValueInfo.SetDisplayValues
+keywords: NSFieldValueInfo, GetDisplayValues
+so.topic: reference
 ---
-title: Void SetDisplayValues(String[] DisplayValues)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetDisplayValues(String[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3639
-keywords: SetDisplayValues(String[])
----
-
 
 The displayvalues to be set on this field on this bulkupdate, used to resolve when values array contains ids
 
+**Parameter:** 
+ - **displayValues** StringArray
 
-
-* **DisplayValues:** StringArray
-* **Returns:** StringArray
-
+```crmscript
+NSFieldValueInfo thing;
+StringArray displayValues;
+thing.SetDisplayValues(displayValues);
+```
 

@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_GetExtraInfo
+title: ProductExtraDataFieldArray GetExtraInfo()
+intellisense: NSQuoteLine.GetExtraInfo
+keywords: NSQuoteLine, GetExtraInfo
+so.topic: reference
 ---
-title: NSProductExtraDataField[] GetExtraInfo()
-path: /EJScript/Classes/NSQuoteLine/Member functions/NSProductExtraDataField[] GetExtraInfo()
-intellisense: 1
-classref: 1
-keywords: GetExtraInfo()
----
-
 
 Extra information, supplied by QuoteConnector, used by a future dynamic GUI extension
 
+**Returns:** ProductExtraDataFieldArray
 
 
-* **Returns:** ProductExtraDataFieldArray
+```crmscript
+NSQuoteLine thing;
+ProductExtraDataFieldArray extraInfo  = thing.GetExtraInfo();
+```
 
 

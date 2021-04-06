@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_GetName
 title: String GetName()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSQuoteAlternative.GetName
+keywords: NSQuoteAlternative, GetName
+so.topic: reference
 ---
-
 
 Name of Alternative. Shown in tab in user interface, intentionally kept short
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteAlternative thing;
+String name  = thing.GetName();
+```
 
 

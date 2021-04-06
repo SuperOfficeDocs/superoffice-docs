@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_functions
-description: Functions
+uid: crmscript_fundamentals_functions
+title: Functions
 author:
 so.date:
 keywords:

@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSVisibleFor_GetDisplayValue
 title: String GetDisplayValue()
-path: /EJScript/Classes/NSVisibleFor/Member functions/String GetDisplayValue()
-intellisense: 1
-classref: 1
-keywords: GetDisplayValue()
+intellisense: NSVisibleFor.GetDisplayValue
+keywords: NSVisibleFor, GetDisplayValue
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSVisibleFor thing;
+String displayValue  = thing.GetDisplayValue();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketDeviceInfo_SetDeviceIdentifier
+title: SetDeviceIdentifier(String deviceIdentifier)
+intellisense: NSPocketDeviceInfo.SetDeviceIdentifier
+keywords: NSPocketDeviceInfo, GetDeviceIdentifier
+so.topic: reference
 ---
-title: Void SetDeviceIdentifier(String DeviceIdentifier)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetDeviceIdentifier(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeviceIdentifier(String)
----
-
 
 A unique identifier of this device. This value should always be the same for the same device
 
+**Parameter:** 
+ - **deviceIdentifier** String
 
-
-* **DeviceIdentifier:** String
-* **Returns:** String
-
+```crmscript
+NSPocketDeviceInfo thing;
+String deviceIdentifier;
+thing.SetDeviceIdentifier(deviceIdentifier);
+```
 

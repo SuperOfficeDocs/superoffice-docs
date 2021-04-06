@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRedLetterInformationListItem_SetRedLetterDetails
+title: SetRedLetterDetails(RedLetterDetails redLetterDetails)
+intellisense: NSRedLetterInformationListItem.SetRedLetterDetails
+keywords: NSRedLetterInformationListItem, GetRedLetterDetails
+so.topic: reference
 ---
-title: Void SetRedLetterDetails(NSRedLetterDetails RedLetterDetails)
-path: /EJScript/Classes/NSRedLetterInformationListItem/Member functions/Void SetRedLetterDetails(NSRedLetterDetails p_0)
-intellisense: 1
-classref: 1
-keywords: SetRedLetterDetails(NSRedLetterDetails)
----
-
 
 Red letter day text details, all the texts related to the given day.
 
+**Parameter:** 
+ - **redLetterDetails** RedLetterDetails
 
-
-* **RedLetterDetails:** RedLetterDetails
-* **Returns:** RedLetterDetails
-
+```crmscript
+NSRedLetterInformationListItem thing;
+RedLetterDetails redLetterDetails;
+thing.SetRedLetterDetails(redLetterDetails);
+```
 

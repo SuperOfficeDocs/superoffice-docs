@@ -1,12 +1,19 @@
----
-title: String[] GetEncodedLeadTexts()
-path: /EJScript/Classes/NSOperationInfo/Member functions/String[] GetEncodedLeadTexts()
-intellisense: 1
-classref: 1
-keywords: GetEncodedLeadTexts()
+﻿---
+uid: crmscript_ref_NSOperationInfo_GetEncodedLeadTexts
+title: StringArray GetEncodedLeadTexts()
+intellisense: NSOperationInfo.GetEncodedLeadTexts
+keywords: NSOperationInfo, GetEncodedLeadTexts
+so.topic: reference
 ---
 
 
-* **Returns:** StringArray
+
+**Returns:** StringArray
+
+
+```crmscript
+NSOperationInfo thing;
+StringArray encodedLeadTexts  = thing.GetEncodedLeadTexts();
+```
 
 

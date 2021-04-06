@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetProgId
+title: SetProgId(String progId)
+intellisense: NSWebPanelEntity.SetProgId
+keywords: NSWebPanelEntity, GetProgId
+so.topic: reference
 ---
-title: Void SetProgId(String ProgId)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetProgId(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetProgId(String)
----
-
 
 String key that can be used to uniquely retrieve the panel; particularly useful for partners and others who do not wish to store database ID's
 
+**Parameter:** 
+ - **progId** String
 
-
-* **ProgId:** String
-* **Returns:** String
-
+```crmscript
+NSWebPanelEntity thing;
+String progId;
+thing.SetProgId(progId);
+```
 

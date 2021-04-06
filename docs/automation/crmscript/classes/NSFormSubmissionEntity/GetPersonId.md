@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_GetPersonId
 title: Integer GetPersonId()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
-sortOrder: 3834
-keywords: GetPersonId()
+intellisense: NSFormSubmissionEntity.GetPersonId
+keywords: NSFormSubmissionEntity, GetPersonId
+so.topic: reference
 ---
-
 
 The optional id of the person who submitted.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFormSubmissionEntity thing;
+Integer personId  = thing.GetPersonId();
+```
 
 

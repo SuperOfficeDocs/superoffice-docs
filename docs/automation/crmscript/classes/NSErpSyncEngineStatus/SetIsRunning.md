@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncEngineStatus_SetIsRunning
+title: SetIsRunning(Bool isRunning)
+intellisense: NSErpSyncEngineStatus.SetIsRunning
+keywords: NSErpSyncEngineStatus, GetIsRunning
+so.topic: reference
 ---
-title: Void SetIsRunning(Bool IsRunning)
-path: /EJScript/Classes/NSErpSyncEngineStatus/Member functions/Void SetIsRunning(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3281
-keywords: SetIsRunning(Bool)
----
-
 
 Is the engine currently running
 
+**Parameter:** 
+ - **isRunning** Bool
 
-
-* **IsRunning:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSErpSyncEngineStatus thing;
+Bool isRunning;
+thing.SetIsRunning(isRunning);
+```
 

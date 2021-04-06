@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStageEntity_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSSaleStageEntity.GetDeleted
+keywords: NSSaleStageEntity, GetDeleted
+so.topic: reference
 ---
-
 
 If true, the Sale stage is deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSaleStageEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

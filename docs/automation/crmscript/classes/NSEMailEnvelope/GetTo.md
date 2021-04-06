@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEnvelope_GetTo
+title: EMailAddressArray GetTo()
+intellisense: NSEMailEnvelope.GetTo
+keywords: NSEMailEnvelope, GetTo
+so.topic: reference
 ---
-title: NSEMailAddress[] GetTo()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/NSEMailAddress[] GetTo()
-intellisense: 1
-classref: 1
-sortOrder: 3008
-keywords: GetTo()
----
-
 
 To recipients of e-mail
 
+**Returns:** EMailAddressArray
 
 
-* **Returns:** EMailAddressArray
+```crmscript
+NSEMailEnvelope thing;
+EMailAddressArray to  = thing.GetTo();
+```
 
 

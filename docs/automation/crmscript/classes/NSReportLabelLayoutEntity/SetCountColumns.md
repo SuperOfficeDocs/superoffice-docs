@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetCountColumns
+title: SetCountColumns(Integer countColumns)
+intellisense: NSReportLabelLayoutEntity.SetCountColumns
+keywords: NSReportLabelLayoutEntity, GetCountColumns
+so.topic: reference
 ---
-title: Void SetCountColumns(Integer CountColumns)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetCountColumns(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCountColumns(Integer)
----
-
 
 Number og columns
 
+**Parameter:** 
+ - **countColumns** Integer
 
-
-* **CountColumns:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer countColumns;
+thing.SetCountColumns(countColumns);
+```
 

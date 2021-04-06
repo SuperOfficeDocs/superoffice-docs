@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetAlertTimeout
+title: SetAlertTimeout(DateTime alertTimeout)
+intellisense: NSTicketEntity.SetAlertTimeout
+keywords: NSTicketEntity, GetAlertTimeout
+so.topic: reference
 ---
-title: Void SetAlertTimeout(DateTime AlertTimeout)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetAlertTimeout(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetAlertTimeout(DateTime)
----
 
+The datetime for when the ticket should jump to the next alert_level.
 
-The datetime for when the ticket should jump to the next alert\_level.
+**Parameter:** 
+ - **alertTimeout** DateTime
 
-
-
-* **AlertTimeout:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketEntity thing;
+DateTime alertTimeout;
+thing.SetAlertTimeout(alertTimeout);
+```
 

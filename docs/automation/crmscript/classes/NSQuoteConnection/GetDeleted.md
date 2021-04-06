@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteConnection_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSQuoteConnection.GetDeleted
+keywords: NSQuoteConnection, GetDeleted
+so.topic: reference
 ---
-
 
 If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSQuoteConnection thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

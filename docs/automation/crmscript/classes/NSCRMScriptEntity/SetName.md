@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_SetName
+title: SetName(String name)
+intellisense: NSCRMScriptEntity.SetName
+keywords: NSCRMScriptEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2142
-keywords: SetName(String)
----
-
 
 A description of this script
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSCRMScriptEntity thing;
+String name;
+thing.SetName(name);
+```
 

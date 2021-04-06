@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeTask_GetSaleId
 title: Integer GetSaleId()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
-keywords: GetSaleId()
+intellisense: NSMailMergeTask.GetSaleId
+keywords: NSMailMergeTask, GetSaleId
+so.topic: reference
 ---
-
 
 Sale identity to set on task
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMailMergeTask thing;
+Integer saleId  = thing.GetSaleId();
+```
 
 

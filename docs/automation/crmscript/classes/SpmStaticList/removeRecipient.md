@@ -1,9 +1,9 @@
 ---
-title: Void removeRecipient(String address)
-path: /EJScript/Classes/SpmStaticList/Member functions/Void removeRecipient(String address)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmStaticList_removeRecipient_String_address
+title: SpmStaticList.removeRecipient(String address)
+intellisense: SpmStaticList.removeRecipient
 keywords: removeRecipient(String)
+so.topic: reference
 ---
 
 

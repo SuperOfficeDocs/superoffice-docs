@@ -1,9 +1,9 @@
 ---
-title: Void setBodyHtml(String htmlBody)
-path: /EJScript/Classes/SpmMessage/Member functions/Void setBodyHtml(String htmlBody)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmMessage_setBodyHtml_String_htmlBody
+title: SpmMessage.setBodyHtml(String htmlBody)
+intellisense: SpmMessage.setBodyHtml
 keywords: setBodyHtml(String)
+so.topic: reference
 ---
 
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetPersonAddress
+title: SetPersonAddress(AddressSyncData personAddress)
+intellisense: NSParticipantSyncData.SetPersonAddress
+keywords: NSParticipantSyncData, GetPersonAddress
+so.topic: reference
 ---
-title: Void SetPersonAddress(NSAddressSyncData PersonAddress)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPersonAddress(NSAddressSyncData p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonAddress(NSAddressSyncData)
----
 
 
-* **PersonAddress:** AddressSyncData
-* **Returns:** AddressSyncData
 
+**Parameter:** 
+ - **personAddress** AddressSyncData
+
+```crmscript
+NSParticipantSyncData thing;
+AddressSyncData personAddress;
+thing.SetPersonAddress(personAddress);
+```
 

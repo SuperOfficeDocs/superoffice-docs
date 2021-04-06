@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetSaveDocument
+title: SetSaveDocument(Bool saveDocument)
+intellisense: NSMailMergeSettings.SetSaveDocument
+keywords: NSMailMergeSettings, GetSaveDocument
+so.topic: reference
 ---
-title: Void SetSaveDocument(Bool SaveDocument)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetSaveDocument(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaveDocument(Bool)
----
-
 
 Should we save a reference to the merge document on each recipient.
 
+**Parameter:** 
+ - **saveDocument** Bool
 
-
-* **SaveDocument:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSMailMergeSettings thing;
+Bool saveDocument;
+thing.SetSaveDocument(saveDocument);
+```
 

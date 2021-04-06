@@ -1,10 +1,10 @@
 ---
-title: Bool load(Integer p0)
-path: /EJScript/Classes/EabEntry/Member functions/Bool load(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_EabEntry_load_Integer_p_0
+title: EabEntry.load(Integer p_0)
+intellisense: EabEntry.load
 sortOrder: 274
 keywords: load(Integer)
+so.topic: reference
 ---
 
 Load an entry from the address book with the specified id. Returns true if load var successful, false if not.

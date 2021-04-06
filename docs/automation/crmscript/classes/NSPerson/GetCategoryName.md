@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetCategoryName
 title: String GetCategoryName()
-path: /EJScript/Classes/NSPerson/Member functions/String GetCategoryName()
-intellisense: 1
-classref: 1
-keywords: GetCategoryName()
+intellisense: NSPerson.GetCategoryName
+keywords: NSPerson, GetCategoryName
+so.topic: reference
 ---
-
 
 The category list item name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPerson thing;
+String categoryName  = thing.GetCategoryName();
+```
 
 

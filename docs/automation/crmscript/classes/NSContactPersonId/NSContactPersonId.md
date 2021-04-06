@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_NSContactPersonId
 title: NSContactPersonId
-path: /EJScript/Classes/NSContactPersonId
-intellisense: 1
-classref: 1
+intellisense: Void.NSContactPersonId
 sortOrder: 1936
+so.topic: reference
 ---
 
 

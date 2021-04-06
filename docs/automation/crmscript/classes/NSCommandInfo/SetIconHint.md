@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCommandInfo_SetIconHint
+title: SetIconHint(String iconHint)
+intellisense: NSCommandInfo.SetIconHint
+keywords: NSCommandInfo, GetIconHint
+so.topic: reference
 ---
-title: Void SetIconHint(String IconHint)
-path: /EJScript/Classes/NSCommandInfo/Member functions/Void SetIconHint(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1575
-keywords: SetIconHint(String)
----
-
 
 Icon hint, which should resolve to an icon that is compatible in size with a standard menu or dropdown list font. May be blank.
 
+**Parameter:** 
+ - **iconHint** String
 
-
-* **IconHint:** String
-* **Returns:** String
-
+```crmscript
+NSCommandInfo thing;
+String iconHint;
+thing.SetIconHint(iconHint);
+```
 

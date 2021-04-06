@@ -1,18 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_TestConnectorUrl
 title: Integer TestConnectorUrl(String url)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Integer TestConnectorUrl(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3190
-keywords: TestConnectorUrl(String)
+intellisense: NSErpSyncAgent.TestConnectorUrl
+keywords: NSErpSyncAgent, TestConnectorUrl
+so.topic: reference
 ---
-
 
 Test if connector urls anwers
 
+**Parameters:**
+ - **url** The url to test connection on
 
+**Returns:** Enum response says ok or what is wrong
 
-* **url:** The url to test connection on
-* **Returns:** Enum response says ok or what is wrong
-
+```crmscript
+NSErpSyncAgent agent;
+String url;
+Integer res = agent.TestConnectorUrl(url);
+```
 

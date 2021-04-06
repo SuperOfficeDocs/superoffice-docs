@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_GetSystemEventId
 title: Integer GetSystemEventId()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Integer GetSystemEventId()
-intellisense: 1
-classref: 1
-keywords: GetSystemEventId()
+intellisense: NSSystemEventEntity.GetSystemEventId
+keywords: NSSystemEventEntity, GetSystemEventId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSystemEventEntity thing;
+Integer systemEventId  = thing.GetSystemEventId();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMDOListItem_SetId
+title: SetId(Integer id)
+intellisense: NSMDOListItem.SetId
+keywords: NSMDOListItem, GetId
+so.topic: reference
 ---
-title: Void SetId(Integer Id)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
-
 
 The Id of the ListItem
 
+**Parameter:** 
+ - **id** Integer
 
-
-* **Id:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMDOListItem thing;
+Integer id;
+thing.SetId(id);
+```
 

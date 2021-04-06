@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetCreatedBy
+title: Associate GetCreatedBy()
+intellisense: NSTicketEntity.GetCreatedBy
+keywords: NSTicketEntity, GetCreatedBy
+so.topic: reference
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
-keywords: GetCreatedBy()
----
-
 
 The associate who created this ticket
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSTicketEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
 
 

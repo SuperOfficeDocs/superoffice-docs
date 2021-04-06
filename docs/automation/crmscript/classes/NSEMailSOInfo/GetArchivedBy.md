@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_GetArchivedBy
 title: Integer GetArchivedBy()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Integer GetArchivedBy()
-intellisense: 1
-classref: 1
-sortOrder: 3047
-keywords: GetArchivedBy()
+intellisense: NSEMailSOInfo.GetArchivedBy
+keywords: NSEMailSOInfo, GetArchivedBy
+so.topic: reference
 ---
-
 
 The associate who archived this email
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailSOInfo thing;
+Integer archivedBy  = thing.GetArchivedBy();
+```
 
 

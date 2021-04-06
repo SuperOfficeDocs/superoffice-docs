@@ -1,9 +1,9 @@
 ---
 description: String getVariable(String name)
-path: /EJScript/Global functions/String getVariable(String name)
-intellisense: 1
+intellisense: Void.getVariable
 langref: 1
 keywords: getVariable(String)
+so.topic: reference
 ---
 
 

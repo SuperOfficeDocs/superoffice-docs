@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPosition_SetValue
+title: SetValue(String value)
+intellisense: NSPosition.SetValue
+keywords: NSPosition, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSPosition/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the Position item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Position name.
 
+```crmscript
+NSPosition thing;
+thing.SetValue("frotz");
+```
 

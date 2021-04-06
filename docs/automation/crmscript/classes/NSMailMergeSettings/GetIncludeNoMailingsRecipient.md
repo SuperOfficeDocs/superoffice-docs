@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_GetIncludeNoMailingsRecipient
 title: Bool GetIncludeNoMailingsRecipient()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetIncludeNoMailingsRecipient()
-intellisense: 1
-classref: 1
-keywords: GetIncludeNoMailingsRecipient()
+intellisense: NSMailMergeSettings.GetIncludeNoMailingsRecipient
+keywords: NSMailMergeSettings, GetIncludeNoMailingsRecipient
+so.topic: reference
 ---
-
 
 Include recipients that are marked with NoMailings
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSMailMergeSettings thing;
+Bool includeNoMailingsRecipient  = thing.GetIncludeNoMailingsRecipient();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetLabelTop
+title: SetLabelTop(Integer labelTop)
+intellisense: NSUserDefinedFieldInfo.SetLabelTop
+keywords: NSUserDefinedFieldInfo, GetLabelTop
+so.topic: reference
 ---
-title: Void SetLabelTop(Integer LabelTop)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetLabelTop(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLabelTop(Integer)
----
-
 
 Y pixel coordinate of label
 
+**Parameter:** 
+ - **labelTop** Integer
 
-
-* **LabelTop:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer labelTop;
+thing.SetLabelTop(labelTop);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAttachment_SetDisposition
+title: SetDisposition(String disposition)
+intellisense: NSEMailAttachment.SetDisposition
+keywords: NSEMailAttachment, GetDisposition
+so.topic: reference
 ---
-title: Void SetDisposition(String Disposition)
-path: /EJScript/Classes/NSEMailAttachment/Member functions/Void SetDisposition(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2901
-keywords: SetDisposition(String)
----
-
 
 Content-Disposition
 
+**Parameter:** 
+ - **disposition** String
 
-
-* **Disposition:** String
-* **Returns:** String
-
+```crmscript
+NSEMailAttachment thing;
+String disposition;
+thing.SetDisposition(disposition);
+```
 

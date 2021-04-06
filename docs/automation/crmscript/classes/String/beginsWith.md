@@ -1,9 +1,9 @@
 ---
-title: Bool beginsWith(String s)
-path: /EJScript/Classes/String/Member functions/Bool beginsWith(String s)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_beginsWith_String_s
+title: String.beginsWith(String s)
+intellisense: String.beginsWith
 keywords: beginsWith(String)
+so.topic: reference
 ---
 
 

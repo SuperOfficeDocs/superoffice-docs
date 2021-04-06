@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicense_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
+intellisense: NSModuleLicense.SetExtraInfo
+keywords: NSModuleLicense, GetExtraInfo
+so.topic: reference
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraInfo(String)
----
-
 
 Free field, can be used by the module owner (example: host domain, for eJournal). NOTE: For rows with extraFlags=1 this field contains the list of modules that this plan comprises
 
+**Parameter:** 
+ - **extraInfo** String
 
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+```crmscript
+NSModuleLicense thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
 

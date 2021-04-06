@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetPost1
+title: SetPost1(String post1)
+intellisense: NSPersonEntity.SetPost1
+keywords: NSPersonEntity, GetPost1
+so.topic: reference
 ---
-title: Void SetPost1(String Post1)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetPost1(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPost1(String)
----
-
 
 Postal address, used in Japanese versions only
 
+**Parameter:** 
+ - **post1** String
 
-
-* **Post1:** String
-* **Returns:** String
-
+```crmscript
+NSPersonEntity thing;
+String post1;
+thing.SetPost1(post1);
+```
 

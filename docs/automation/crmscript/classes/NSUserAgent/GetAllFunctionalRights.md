@@ -1,17 +1,25 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetAllFunctionalRights
+title: SelectableMDOListItemArray GetAllFunctionalRights(Integer roleType)
+intellisense: NSUserAgent.GetAllFunctionalRights
+keywords: NSUserAgent, GetAllFunctionalRights
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] GetAllFunctionalRights(Integer roleType)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSSelectableMDOListItem[] GetAllFunctionalRights(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetAllFunctionalRights(Integer)
----
 
+Get a list of all functional rights for the given type of role. MDO List name = 'FunctionRights', extra='roleType=0' 
 
-Get a list of all functional rights for the given type of role. MDO List name = 'FunctionRights', extra='roleType=0'
+**Parameters:**
+ - **roleType** Type of role (Employee/External/Anonymous/System)
+     - Enum: 0 = Employee 
+     - Enum: 1 = ExternalUser 
+     - Enum: 2 = Anonymous 
+     - Enum: 3 = System 
 
+**Returns:** FunctionRight items with name and description. Code name for function right is in the extra-info property.
 
-
-* **roleType:** Type of role (Employee/External/Anonymous/System)
-* **Returns:** FunctionRight items with name and description. Code name for function right is in the extra-info property.
-
+```crmscript
+NSUserAgent agent;
+Integer roleType;
+SelectableMDOListItemArray res = agent.GetAllFunctionalRights(roleType);
+```
 

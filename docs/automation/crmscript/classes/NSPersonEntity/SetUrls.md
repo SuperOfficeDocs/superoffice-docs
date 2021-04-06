@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetUrls
+title: SetUrls(EntityElementArray urls)
+intellisense: NSPersonEntity.SetUrls
+keywords: NSPersonEntity, GetUrls
+so.topic: reference
 ---
-title: Void SetUrls(NSEntityElement[] Urls)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetUrls(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetUrls(NSEntityElement[])
----
-
 
 The urls related to this person.
 
+**Parameter:** 
+ - **urls** EntityElementArray
 
-
-* **Urls:** EntityElementArray
-* **Returns:** EntityElementArray
-
+```crmscript
+NSPersonEntity thing;
+EntityElementArray urls;
+thing.SetUrls(urls);
+```
 

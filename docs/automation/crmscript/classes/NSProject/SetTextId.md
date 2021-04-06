@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProject_SetTextId
+title: SetTextId(Integer textId)
+intellisense: NSProject.SetTextId
+keywords: NSProject, GetTextId
+so.topic: reference
 ---
-title: Void SetTextId(Integer TextId)
-path: /EJScript/Classes/NSProject/Member functions/Void SetTextId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTextId(Integer)
----
-
 
 The id of the description
 
+**Parameter:** 
+ - **textId** Integer
 
-
-* **TextId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProject thing;
+Integer textId;
+thing.SetTextId(textId);
+```
 

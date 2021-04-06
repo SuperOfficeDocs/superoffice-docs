@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSTimeSpan
 title: NSTimeSpan
-path: /EJScript/Classes/NSTimeSpan
-intellisense: 1
-classref: 1
+intellisense: Void.NSTimeSpan
+so.topic: reference
 ---
 
 

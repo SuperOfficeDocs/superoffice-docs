@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSOutgoingMessage_GetTo
 title: String GetTo()
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/String GetTo()
-intellisense: 1
-classref: 1
-keywords: GetTo()
+intellisense: NSOutgoingMessage.GetTo
+keywords: NSOutgoingMessage, GetTo
+so.topic: reference
 ---
-
 
 Address of the recipient. This can be in the form of phone number or email.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSOutgoingMessage thing;
+String to  = thing.GetTo();
+```
 
 

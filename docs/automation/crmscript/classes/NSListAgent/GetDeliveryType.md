@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetDeliveryType
+title: NSDeliveryType GetDeliveryType(Integer deliveryTypeId);
+intellisense: NSListAgent.GetDeliveryType
+keywords: NSListAgent, GetDeliveryType
+so.topic: reference
 ---
-title: NSDeliveryType GetDeliveryType(Integer deliveryTypeId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDeliveryType GetDeliveryType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetDeliveryType(Integer)
----
 
+Gets a NSDeliveryType object.
 
-Gets a DeliveryType object.
+**Parameters:**
+ - **deliveryTypeId** The identifier of the NSDeliveryType object
 
+**Returns:** NSDeliveryType
 
-
-* **deliveryTypeId:** The identifier of the DeliveryType object
-* **Returns:** DeliveryType
-
+```crmscript
+NSListAgent agent;
+NSDeliveryType thing = agent.GetDeliveryType(123);
+```
 

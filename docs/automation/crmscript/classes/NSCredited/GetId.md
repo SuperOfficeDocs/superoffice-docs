@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSCredited_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSCredited/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-sortOrder: 2096
-keywords: GetId()
+intellisense: NSCredited.GetId
+keywords: NSCredited, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the Credited
 
-* **Returns:** Integer
+**Returns:** Integer Credited id.
 
+```crmscript
+NSCredited thing;
+Integer id = thing.GetId();
+```
 

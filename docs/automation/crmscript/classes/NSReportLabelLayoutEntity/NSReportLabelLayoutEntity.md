@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity
 title: NSReportLabelLayoutEntity
-path: /EJScript/Classes/NSReportLabelLayoutEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSReportLabelLayoutEntity
+keywords: NSReportLabelLayoutEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

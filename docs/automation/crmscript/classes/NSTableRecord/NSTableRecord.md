@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTableRecord
 title: NSTableRecord
-path: /EJScript/Classes/NSTableRecord
-intellisense: 1
-classref: 1
+intellisense: Void.NSTableRecord
+keywords: NSTableRecord
+so.topic: reference
 ---
-
 
 The extra table entity contains meta data for an extra table (not implemented yet)
 
-
-
-
-1. autolist
+1. autolist 
 

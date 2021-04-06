@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetUpdated
+title: SetUpdated(DateTime updated)
+intellisense: NSQuoteVersion.SetUpdated
+keywords: NSQuoteVersion, GetUpdated
+so.topic: reference
 ---
-title: Void SetUpdated(DateTime Updated)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetUpdated(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdated(DateTime)
----
-
 
 Last updated when
 
+**Parameter:** 
+ - **updated** DateTime
 
-
-* **Updated:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSQuoteVersion thing;
+DateTime updated;
+thing.SetUpdated(updated);
+```
 

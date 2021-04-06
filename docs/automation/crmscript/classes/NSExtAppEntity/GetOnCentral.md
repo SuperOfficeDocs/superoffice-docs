@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetOnCentral
 title: Bool GetOnCentral()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetOnCentral()
-intellisense: 1
-classref: 1
-sortOrder: 3358
-keywords: GetOnCentral()
+intellisense: NSExtAppEntity.GetOnCentral
+keywords: NSExtAppEntity, GetOnCentral
+so.topic: reference
 ---
-
 
 Is the application visible when user is on central database
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSExtAppEntity thing;
+Bool onCentral  = thing.GetOnCentral();
+```
 
 

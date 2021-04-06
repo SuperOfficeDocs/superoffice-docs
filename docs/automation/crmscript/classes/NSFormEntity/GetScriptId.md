@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetScriptId
 title: Integer GetScriptId()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetScriptId()
-intellisense: 1
-classref: 1
-sortOrder: 3796
-keywords: GetScriptId()
+intellisense: NSFormEntity.GetScriptId
+keywords: NSFormEntity, GetScriptId
+so.topic: reference
 ---
-
 
 The CRMScript Macro which will be run when the form is submitted.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFormEntity thing;
+Integer scriptId  = thing.GetScriptId();
+```
 
 

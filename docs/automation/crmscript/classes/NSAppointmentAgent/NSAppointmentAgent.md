@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentAgent
 title: NSAppointmentAgent
-path: /EJScript/Classes/NSAppointmentAgent
-intellisense: 1
-classref: 1
-sortOrder: 821
+intellisense: Void.NSAppointmentAgent
+keywords: NSAppointmentAgent
+so.topic: reference
 ---
-
 
 Collection of all services that works with Appointment data.
 
-
-
+```crmscript
+NSAppointmentAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

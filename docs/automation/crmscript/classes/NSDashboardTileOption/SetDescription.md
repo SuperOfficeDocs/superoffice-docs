@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTileOption_SetDescription
+title: SetDescription(String description)
+intellisense: NSDashboardTileOption.SetDescription
+keywords: NSDashboardTileOption, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2326
-keywords: SetDescription(String)
----
-
 
 Option description, visible to users
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSDashboardTileOption thing;
+String description;
+thing.SetDescription(description);
+```
 

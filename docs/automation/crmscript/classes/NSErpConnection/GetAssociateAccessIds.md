@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnection_GetAssociateAccessIds
+title: IntegerArray GetAssociateAccessIds()
+intellisense: NSErpConnection.GetAssociateAccessIds
+keywords: NSErpConnection, GetAssociateAccessIds
+so.topic: reference
 ---
-title: Integer[] GetAssociateAccessIds()
-path: /EJScript/Classes/NSErpConnection/Member functions/Integer[] GetAssociateAccessIds()
-intellisense: 1
-classref: 1
-sortOrder: 3082
-keywords: GetAssociateAccessIds()
----
-
 
 Array of ids containing associates that will have access to this connection.
 
+**Returns:** IntegerArray
 
 
-* **Returns:** IntegerArray
+```crmscript
+NSErpConnection thing;
+IntegerArray associateAccessIds  = thing.GetAssociateAccessIds();
+```
 
 

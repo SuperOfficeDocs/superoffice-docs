@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleAgent_CreateDefaultSaleSummary
 title: NSSaleSummary CreateDefaultSaleSummary()
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleSummary CreateDefaultSaleSummary()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultSaleSummary()
+intellisense: NSSaleAgent.CreateDefaultSaleSummary
+keywords: NSSaleAgent, CreateDefaultSaleSummary
+so.topic: reference
 ---
+	  
+Set default values into a new NSSaleSummary.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSSaleSummary with default values.
 
-
-Loading default values into a new SaleSummary.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New SaleSummary with default values
-
+```crmscript
+NSSaleAgent agent;
+NSSaleSummary thing = agent.CreateDefaultSaleSummary();
+thing = agent.SaveSaleSummary(thing);
+```
 

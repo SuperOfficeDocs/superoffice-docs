@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_SyncEmailAccounts
+title: Void SyncEmailAccounts(SyncUserAccountArray syncUserAccounts)
+intellisense: NSEMailAgent.SyncEmailAccounts
+keywords: NSEMailAgent, SyncEmailAccounts
+so.topic: reference
 ---
-title: Void SyncEmailAccounts(NSSyncUserAccount[] syncUserAccounts)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void SyncEmailAccounts(NSSyncUserAccount[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2870
-keywords: SyncEmailAccounts(NSSyncUserAccount[])
----
-
 
 Start syncing of the given accounts
 
+**Parameters:**
+ - **syncUserAccounts** Accounts to sync
 
+**Returns:** A void return
 
-* **syncUserAccounts:** Accounts to sync
-* **Returns:** A void return
-
+```crmscript
+NSEMailAgent agent;
+SyncUserAccountArray syncUserAccounts;
+Void res = agent.SyncEmailAccounts(syncUserAccounts);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetExtraField4
 title: String GetExtraField4()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetExtraField4()
-intellisense: 1
-classref: 1
-keywords: GetExtraField4()
+intellisense: NSQuoteVersion.GetExtraField4
+keywords: NSQuoteVersion, GetExtraField4
+so.topic: reference
 ---
-
 
 Optional information added by Quote Connector; usable in the quote document merge process
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersion thing;
+String extraField4  = thing.GetExtraField4();
+```
 
 

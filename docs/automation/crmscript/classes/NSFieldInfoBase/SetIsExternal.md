@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_SetIsExternal
+title: SetIsExternal(Bool isExternal)
+intellisense: NSFieldInfoBase.SetIsExternal
+keywords: NSFieldInfoBase, GetIsExternal
+so.topic: reference
 ---
-title: Void SetIsExternal(Bool IsExternal)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetIsExternal(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3480
-keywords: SetIsExternal(Bool)
----
-
 
 Should this field be shown to external users via customer center?
 
+**Parameter:** 
+ - **isExternal** Bool
 
-
-* **IsExternal:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldInfoBase thing;
+Bool isExternal;
+thing.SetIsExternal(isExternal);
+```
 

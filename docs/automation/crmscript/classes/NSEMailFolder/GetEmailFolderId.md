@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailFolder_GetEmailFolderId
 title: Integer GetEmailFolderId()
-path: /EJScript/Classes/NSEMailFolder/Member functions/Integer GetEmailFolderId()
-intellisense: 1
-classref: 1
-sortOrder: 3029
-keywords: GetEmailFolderId()
+intellisense: NSEMailFolder.GetEmailFolderId
+keywords: NSEMailFolder, GetEmailFolderId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailFolder thing;
+Integer emailFolderId  = thing.GetEmailFolderId();
+```
 
 

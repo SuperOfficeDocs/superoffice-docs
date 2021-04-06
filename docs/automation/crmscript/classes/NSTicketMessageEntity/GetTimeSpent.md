@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_GetTimeSpent
 title: Integer GetTimeSpent()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Integer GetTimeSpent()
-intellisense: 1
-classref: 1
-keywords: GetTimeSpent()
+intellisense: NSTicketMessageEntity.GetTimeSpent
+keywords: NSTicketMessageEntity, GetTimeSpent
+so.topic: reference
 ---
-
 
 The time spent (minutes) for this message.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketMessageEntity thing;
+Integer timeSpent  = thing.GetTimeSpent();
+```
 
 

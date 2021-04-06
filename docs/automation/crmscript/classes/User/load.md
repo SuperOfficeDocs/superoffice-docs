@@ -1,9 +1,9 @@
 ---
-title: Bool load(Integer p\_id)
-path: /EJScript/Classes/User/Member functions/Bool load(Integer p_id)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_User_load_Integer_p_id
+title: User.load(Integer p_id)
+intellisense: User.load
 keywords: load(Integer)
+so.topic: reference
 ---
 
 

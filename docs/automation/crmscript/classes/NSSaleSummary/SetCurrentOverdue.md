@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetCurrentOverdue
+title: SetCurrentOverdue(Integer currentOverdue)
+intellisense: NSSaleSummary.SetCurrentOverdue
+keywords: NSSaleSummary, GetCurrentOverdue
+so.topic: reference
 ---
-title: Void SetCurrentOverdue(Integer CurrentOverdue)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetCurrentOverdue(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCurrentOverdue(Integer)
----
-
 
 Number of all overdue sales within the period
 
+**Parameter:** 
+ - **currentOverdue** Integer
 
-
-* **CurrentOverdue:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleSummary thing;
+Integer currentOverdue;
+thing.SetCurrentOverdue(currentOverdue);
+```
 

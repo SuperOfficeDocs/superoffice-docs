@@ -1,10 +1,10 @@
 ---
-title: Integer GetSoPrimaryKey()
-path: /EJScript/Classes/NSDuplicateEntry/Member functions/Integer GetSoPrimaryKey()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSDuplicateEntry_GetSoPrimaryKey
+title: NSDuplicateEntry.GetSoPrimaryKey()
+intellisense: NSDuplicateEntry.GetSoPrimaryKey
 sortOrder: 2722
 keywords: GetSoPrimaryKey()
+so.topic: reference
 ---
 
 

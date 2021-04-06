@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig_SetCustConfigId
+title: SetCustConfigId(Integer custConfigId)
+intellisense: NSCustomerCenterConfig.SetCustConfigId
+keywords: NSCustomerCenterConfig, GetCustConfigId
+so.topic: reference
 ---
-title: Void SetCustConfigId(Integer CustConfigId)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetCustConfigId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2204
-keywords: SetCustConfigId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **custConfigId** Integer
 
-
-* **CustConfigId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCustomerCenterConfig thing;
+Integer custConfigId;
+thing.SetCustConfigId(custConfigId);
+```
 

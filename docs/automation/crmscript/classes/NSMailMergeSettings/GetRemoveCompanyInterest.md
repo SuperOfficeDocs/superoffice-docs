@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_GetRemoveCompanyInterest
 title: Integer GetRemoveCompanyInterest()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Integer GetRemoveCompanyInterest()
-intellisense: 1
-classref: 1
-keywords: GetRemoveCompanyInterest()
+intellisense: NSMailMergeSettings.GetRemoveCompanyInterest
+keywords: NSMailMergeSettings, GetRemoveCompanyInterest
+so.topic: reference
 ---
-
 
 Remove this company interest on each company recipient.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMailMergeSettings thing;
+Integer removeCompanyInterest  = thing.GetRemoveCompanyInterest();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetActiveDate
 title: DateTime GetActiveDate()
-path: /EJScript/Classes/NSAppointment/Member functions/DateTime GetActiveDate()
-intellisense: 1
-classref: 1
-sortOrder: 720
-keywords: GetActiveDate()
+intellisense: NSAppointment.GetActiveDate
+keywords: NSAppointment, GetActiveDate
+so.topic: reference
 ---
-
 
 The date to be used for searching & showing
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSAppointment thing;
+DateTime activeDate  = thing.GetActiveDate();
+```
 
 

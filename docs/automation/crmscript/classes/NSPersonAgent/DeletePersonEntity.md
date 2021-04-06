@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_DeletePersonEntity
+title: DeletePersonEntity(Integer personEntity);
+intellisense: NSPersonAgent.DeletePersonEntity
+keywords: NSPersonAgent, DeletePersonEntity
+so.topic: reference
 ---
-title: Void DeletePersonEntity(Integer personEntityId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void DeletePersonEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeletePersonEntity(Integer)
----
 
+Deletes the NSPersonEntity
+  
+**Parameters:**
+ - **personEntityId** The identity of the PersonEntity to delete.
 
-Deletes the PersonEntity
-
-
-
-* **personEntityId:** The identity of the PersonEntity
-
+```crmscript
+NSPersonAgent agent;
+agent.DeletePersonEntity(123);
+```
 

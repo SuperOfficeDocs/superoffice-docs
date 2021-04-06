@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaintConfiguration_SetGenerationEnd
+title: SetGenerationEnd(DateTime generationEnd)
+intellisense: NSSaintConfiguration.SetGenerationEnd
+keywords: NSSaintConfiguration, GetGenerationEnd
+so.topic: reference
 ---
-title: Void SetGenerationEnd(DateTime GenerationEnd)
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Void SetGenerationEnd(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetGenerationEnd(DateTime)
----
-
 
 When was the last regeneration finished
 
+**Parameter:** 
+ - **generationEnd** DateTime
 
-
-* **GenerationEnd:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSSaintConfiguration thing;
+DateTime generationEnd;
+thing.SetGenerationEnd(generationEnd);
+```
 

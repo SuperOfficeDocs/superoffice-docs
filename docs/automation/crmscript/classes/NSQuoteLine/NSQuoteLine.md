@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLine
 title: NSQuoteLine
-path: /EJScript/Classes/NSQuoteLine
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuoteLine
+keywords: NSQuoteLine
+so.topic: reference
 ---
-
 
 Information about a connection to the ERP system.
 
-
-
-
-1. autolist
+1. autolist 
 

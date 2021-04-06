@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetMrmrs
+title: SetMrmrs(String mrmrs)
+intellisense: NSSaleStakeholder.SetMrmrs
+keywords: NSSaleStakeholder, GetMrmrs
+so.topic: reference
 ---
-title: Void SetMrmrs(String Mrmrs)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetMrmrs(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetMrmrs(String)
----
-
 
 e.g. Mrs, Mr, Ms, Dr.
 
+**Parameter:** 
+ - **mrmrs** String
 
-
-* **Mrmrs:** String
-* **Returns:** String
-
+```crmscript
+NSSaleStakeholder thing;
+String mrmrs;
+thing.SetMrmrs(mrmrs);
+```
 

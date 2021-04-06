@@ -1,18 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_UpdateConnectionFields
 title: Bool UpdateConnectionFields(Integer erpConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Bool UpdateConnectionFields(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3187
-keywords: UpdateConnectionFields(Integer)
+intellisense: NSErpSyncAgent.UpdateConnectionFields
+keywords: NSErpSyncAgent, UpdateConnectionFields
+so.topic: reference
 ---
-
 
 Gets all supported actor types, and all fields for each actor type, and save this state to the CRM database
 
+**Parameters:**
+ - **erpConnectionId** The ERP connection ID
 
+**Returns:** Success or fail
 
-* **erpConnectionId:** The ERP connection ID
-* **Returns:** Success or fail
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+Bool res = agent.UpdateConnectionFields(erpConnectionId);
+```
 

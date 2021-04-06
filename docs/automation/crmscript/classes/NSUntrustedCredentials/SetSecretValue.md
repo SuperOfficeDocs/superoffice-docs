@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUntrustedCredentials_SetSecretValue
+title: SetSecretValue(String secretValue)
+intellisense: NSUntrustedCredentials.SetSecretValue
+keywords: NSUntrustedCredentials, GetSecretValue
+so.topic: reference
 ---
-title: Void SetSecretValue(String SecretValue)
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/Void SetSecretValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSecretValue(String)
----
-
 
 Data stored encrypted in the db. Typically a password. Max 70 characters.
 
+**Parameter:** 
+ - **secretValue** String
 
-
-* **SecretValue:** String
-* **Returns:** String
-
+```crmscript
+NSUntrustedCredentials thing;
+String secretValue;
+thing.SetSecretValue(secretValue);
+```
 

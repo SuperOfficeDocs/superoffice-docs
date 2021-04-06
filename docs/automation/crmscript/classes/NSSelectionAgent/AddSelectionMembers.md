@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSSelectionAgent_AddSelectionMembers
+title: Integer AddSelectionMembers(Integer selectionId, IntegerArray ids)
+intellisense: NSSelectionAgent.AddSelectionMembers
+keywords: NSSelectionAgent, AddSelectionMembers
+so.topic: reference
 ---
-title: Integer AddSelectionMembers(Integer selectionId, Integer[] ids)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer AddSelectionMembers(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
-keywords: AddSelectionMembers(Integer,Integer[])
----
-
 
 Add selection members to a static selection of type others than contacts.
 
+**Parameters:**
+ - **selectionId** The selection id to add the members to.
+ - **ids** Collection of ids to add to the selection.
 
+**Returns:** Returns number of members added to the selection.
 
-* **selectionId:** The selection id to add the members to.
-* **ids:** Collection of ids to add to the selection.
-* **Returns:** Returns number of members added to the selection.
-
+```crmscript
+NSSelectionAgent agent;
+Integer selectionId;
+IntegerArray ids;
+Integer res = agent.AddSelectionMembers(selectionId, ids);
+```
 

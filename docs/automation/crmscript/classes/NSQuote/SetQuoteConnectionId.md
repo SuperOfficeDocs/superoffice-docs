@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuote_SetQuoteConnectionId
+title: SetQuoteConnectionId(Integer quoteConnectionId)
+intellisense: NSQuote.SetQuoteConnectionId
+keywords: NSQuote, GetQuoteConnectionId
+so.topic: reference
 ---
-title: Void SetQuoteConnectionId(Integer QuoteConnectionId)
-path: /EJScript/Classes/NSQuote/Member functions/Void SetQuoteConnectionId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetQuoteConnectionId(Integer)
----
-
 
 The connection in the CRM system to where this quote came from. Identifies the ERP connection used for this quote. Each quote is bound to one and only one connection.
 
+**Parameter:** 
+ - **quoteConnectionId** Integer
 
-
-* **QuoteConnectionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuote thing;
+Integer quoteConnectionId;
+thing.SetQuoteConnectionId(quoteConnectionId);
+```
 

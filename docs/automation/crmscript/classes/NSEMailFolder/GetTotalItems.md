@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailFolder_GetTotalItems
 title: Integer GetTotalItems()
-path: /EJScript/Classes/NSEMailFolder/Member functions/Integer GetTotalItems()
-intellisense: 1
-classref: 1
-sortOrder: 3030
-keywords: GetTotalItems()
+intellisense: NSEMailFolder.GetTotalItems
+keywords: NSEMailFolder, GetTotalItems
+so.topic: reference
 ---
-
 
 Total number of messages in the folder
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailFolder thing;
+Integer totalItems  = thing.GetTotalItems();
+```
 
 

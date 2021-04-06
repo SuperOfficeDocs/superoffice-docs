@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemporaryKeyInfo_SetIsExpired
+title: SetIsExpired(Bool isExpired)
+intellisense: NSTemporaryKeyInfo.SetIsExpired
+keywords: NSTemporaryKeyInfo, GetIsExpired
+so.topic: reference
 ---
-title: Void SetIsExpired(Bool IsExpired)
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Void SetIsExpired(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsExpired(Bool)
----
-
 
 Whether the key is expired or not.
 
+**Parameter:** 
+ - **isExpired** Bool
 
-
-* **IsExpired:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSTemporaryKeyInfo thing;
+Bool isExpired;
+thing.SetIsExpired(isExpired);
+```
 

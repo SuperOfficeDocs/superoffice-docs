@@ -1,9 +1,9 @@
 ---
-title: String GetWarningEnglish()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/String GetWarningEnglish()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetWarningEnglish
+title: NSSoSystemInfoCarrier.GetWarningEnglish()
+intellisense: NSSoSystemInfoCarrier.GetWarningEnglish
 keywords: GetWarningEnglish()
+so.topic: reference
 ---
 
 

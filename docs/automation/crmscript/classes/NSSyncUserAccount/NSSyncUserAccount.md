@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSyncUserAccount
 title: NSSyncUserAccount
-path: /EJScript/Classes/NSSyncUserAccount
-intellisense: 1
-classref: 1
+intellisense: Void.NSSyncUserAccount
+keywords: NSSyncUserAccount
+so.topic: reference
 ---
-
 
 Details for syncing email user accounts
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,9 +1,9 @@
 ---
-title: NSPocketStartupData GetPocketStartupData(String[] tables, DateTime currentClientTime)
-path: /EJScript/Classes/NSPocketAgent/Member functions/NSPocketStartupData GetPocketStartupData(String[] p_0, DateTime p_1)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSPocketAgent_GetPocketStartupData_String__p_0_DateTime_p_1
+title: NSPocketAgent.GetPocketStartupData(String[] p_0, DateTime p_1)
+intellisense: NSPocketAgent.GetPocketStartupData
 keywords: GetPocketStartupData(String[],DateTime)
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetPersonMrmrs
+title: SetPersonMrmrs(String personMrmrs)
+intellisense: NSParticipantSyncData.SetPersonMrmrs
+keywords: NSParticipantSyncData, GetPersonMrmrs
+so.topic: reference
 ---
-title: Void SetPersonMrmrs(String PersonMrmrs)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPersonMrmrs(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonMrmrs(String)
----
 
+e.g. Mrs   sex_title
 
-e.g. Mrs   sex\_title
+**Parameter:** 
+ - **personMrmrs** String
 
-
-
-* **PersonMrmrs:** String
-* **Returns:** String
-
+```crmscript
+NSParticipantSyncData thing;
+String personMrmrs;
+thing.SetPersonMrmrs(personMrmrs);
+```
 

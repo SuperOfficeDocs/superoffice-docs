@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSNumberAllocationAgent_SaveRefCountEntity
+title: NSRefCountEntity SaveRefCountEntity(NSRefCountEntity refCountEntity);
+intellisense: NSNumberAllocationAgent.SaveRefCountEntity
+keywords: NSNumberAllocationAgent, SaveRefCountEntity
+so.topic: reference
 ---
-title: NSRefCountEntity SaveRefCountEntity(NSRefCountEntity refCountEntity)
-path: /EJScript/Classes/NSNumberAllocationAgent/Member functions/NSRefCountEntity SaveRefCountEntity(NSRefCountEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveRefCountEntity(NSRefCountEntity)
----
+	  
+Updates the existing NSRefCountEntity or creates a new NSRefCountEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **refCountEntity** The NSRefCountEntity to save.
 
+**Returns:** New or updated NSRefCountEntity
 
-Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty
-
-
-
-* **refCountEntity:** The RefCountEntity that is saved
-* **Returns:** New or updated RefCountEntity
-
+```crmscript
+NSNumberAllocation  agent;
+NSRefCountEntity thing = agent.CreateDefaultRefCountEntity();
+thing = agent.SaveRefCountEntity(thing);
+```
 

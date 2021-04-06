@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_GetType
+title: FormType GetType()
+intellisense: NSFormEntity.GetType
+keywords: NSFormEntity, GetType
+so.topic: reference
 ---
-title: NSFormType GetType()
-path: /EJScript/Classes/NSFormEntity/Member functions/NSFormType GetType()
-intellisense: 1
-classref: 1
-sortOrder: 3799
-keywords: GetType()
----
-
 
 What kind of form is this? Indicates if this is a normal form or a template
 
+**Returns:** FormType
 
+     - Enum: 0 = Normal 
+     - Enum: 1 = Template 
 
-* **Returns:** FormType
+```crmscript
+NSFormEntity thing;
+FormType type  = thing.GetType();
+```
 
 

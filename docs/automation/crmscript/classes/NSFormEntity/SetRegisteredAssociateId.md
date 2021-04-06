@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetRegisteredAssociateId
+title: SetRegisteredAssociateId(Integer registeredAssociateId)
+intellisense: NSFormEntity.SetRegisteredAssociateId
+keywords: NSFormEntity, GetRegisteredAssociateId
+so.topic: reference
 ---
-title: Void SetRegisteredAssociateId(Integer RegisteredAssociateId)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetRegisteredAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3821
-keywords: SetRegisteredAssociateId(Integer)
----
-
 
 Registered by whom
 
+**Parameter:** 
+ - **registeredAssociateId** Integer
 
-
-* **RegisteredAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFormEntity thing;
+Integer registeredAssociateId;
+thing.SetRegisteredAssociateId(registeredAssociateId);
+```
 

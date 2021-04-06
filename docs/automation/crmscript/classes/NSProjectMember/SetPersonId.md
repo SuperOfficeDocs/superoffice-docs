@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetPersonId
+title: SetPersonId(Integer personId)
+intellisense: NSProjectMember.SetPersonId
+keywords: NSProjectMember, GetPersonId
+so.topic: reference
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonId(Integer)
----
-
 
 The person's id - primary key
 
+**Parameter:** 
+ - **personId** Integer
 
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectMember thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
 

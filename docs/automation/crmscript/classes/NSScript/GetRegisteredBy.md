@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSScript_GetRegisteredBy
 title: String GetRegisteredBy()
-path: /EJScript/Classes/NSScript/Member functions/String GetRegisteredBy()
-intellisense: 1
-classref: 1
-keywords: GetRegisteredBy()
+intellisense: NSScript.GetRegisteredBy
+keywords: NSScript, GetRegisteredBy
+so.topic: reference
 ---
-
 
 Who created this script
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSScript thing;
+String registeredBy  = thing.GetRegisteredBy();
+```
 
 

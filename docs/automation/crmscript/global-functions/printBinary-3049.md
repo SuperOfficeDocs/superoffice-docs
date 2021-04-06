@@ -1,9 +1,9 @@
 ---
 description: Void printBinary(NSStream bytes)
-path: /EJScript/Global functions/Void printBinary(NSStream bytes)
-intellisense: 1
+intellisense: Void.printBinary
 langref: 1
 keywords: printBinary(NSStream)
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
+intellisense: NSContactEntity.GetUpdatedBy
+keywords: NSContactEntity, GetUpdatedBy
+so.topic: reference
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
-sortOrder: 1853
-keywords: GetUpdatedBy()
----
+
+The user that last updated the contact
+
+**Returns:** Associate
 
 
-The person that last updated the contact
-
-
-
-* **Returns:** Associate
+```crmscript
+NSContactEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
 
 

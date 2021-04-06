@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessage_SetImportant
+title: SetImportant(Bool important)
+intellisense: NSTicketMessage.SetImportant
+keywords: NSTicketMessage, GetImportant
+so.topic: reference
 ---
-title: Void SetImportant(Bool Important)
-path: /EJScript/Classes/NSTicketMessage/Member functions/Void SetImportant(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetImportant(Bool)
----
-
 
 If this message is important or not.
 
+**Parameter:** 
+ - **important** Bool
 
-
-* **Important:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSTicketMessage thing;
+Bool important;
+thing.SetImportant(important);
+```
 

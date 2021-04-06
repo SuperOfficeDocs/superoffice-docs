@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserInfo_SetUserGroupTooltip
+title: SetUserGroupTooltip(String userGroupTooltip)
+intellisense: NSUserInfo.SetUserGroupTooltip
+keywords: NSUserInfo, GetUserGroupTooltip
+so.topic: reference
 ---
-title: Void SetUserGroupTooltip(String UserGroupTooltip)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetUserGroupTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserGroupTooltip(String)
----
 
 
-* **UserGroupTooltip:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **userGroupTooltip** String
+
+```crmscript
+NSUserInfo thing;
+String userGroupTooltip;
+thing.SetUserGroupTooltip(userGroupTooltip);
+```
 

@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncEngineStatus
 title: NSErpSyncEngineStatus
-path: /EJScript/Classes/NSErpSyncEngineStatus
-intellisense: 1
-classref: 1
-sortOrder: 3275
+intellisense: Void.NSErpSyncEngineStatus
+keywords: NSErpSyncEngineStatus
+so.topic: reference
 ---
-
 
 Status of the Sync engine
 
-
-
-
-1. autolist
+1. autolist 
 

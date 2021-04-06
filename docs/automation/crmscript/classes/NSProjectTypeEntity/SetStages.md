@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectTypeEntity_SetStages
+title: SetStages(SelectableMDOListItemArray stages)
+intellisense: NSProjectTypeEntity.SetStages
+keywords: NSProjectTypeEntity, GetStages
+so.topic: reference
 ---
-title: Void SetStages(NSSelectableMDOListItem[] Stages)
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Void SetStages(NSSelectableMDOListItem[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetStages(NSSelectableMDOListItem[])
----
-
 
 Stages (project statuses), those associated with this ProjType are selected.
 
+**Parameter:** 
+ - **stages** SelectableMDOListItemArray
 
-
-* **Stages:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
-
+```crmscript
+NSProjectTypeEntity thing;
+SelectableMDOListItemArray stages;
+thing.SetStages(stages);
+```
 

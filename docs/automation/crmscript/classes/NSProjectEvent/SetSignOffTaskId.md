@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetSignOffTaskId
+title: SetSignOffTaskId(Integer signOffTaskId)
+intellisense: NSProjectEvent.SetSignOffTaskId
+keywords: NSProjectEvent, GetSignOffTaskId
+so.topic: reference
 ---
-title: Void SetSignOffTaskId(Integer SignOffTaskId)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOffTaskId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOffTaskId(Integer)
----
-
 
 If not 0, sign off should cause an Activity of this type to be registered
 
+**Parameter:** 
+ - **signOffTaskId** Integer
 
-
-* **SignOffTaskId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectEvent thing;
+Integer signOffTaskId;
+thing.SetSignOffTaskId(signOffTaskId);
+```
 

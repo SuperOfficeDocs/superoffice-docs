@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSProjectAgent_IsNumberValid
 title: Bool IsNumberValid(Integer contactId, String number)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Bool IsNumberValid(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: IsNumberValid(Integer,String)
+intellisense: NSProjectAgent.IsNumberValid
+keywords: NSProjectAgent, IsNumberValid
+so.topic: reference
 ---
-
 
 Checks if the number is unique or required.  The setting is configured from admin under system options.
 
+**Parameters:**
+ - **contactId** The Project id
+ - **number** The number to check for uniqueness and validity
 
+**Returns:** True if the number is valid
 
-* **contactId:** The Project id
-* **number:** The number to check for uniqueness and validity
-* **Returns:** True if the number is valid
-
+```crmscript
+NSProjectAgent agent;
+Integer contactId;
+String number;
+Bool res = agent.IsNumberValid(contactId, number);
+```
 

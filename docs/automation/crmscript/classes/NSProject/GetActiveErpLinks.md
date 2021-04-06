@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetActiveErpLinks
 title: Integer GetActiveErpLinks()
-path: /EJScript/Classes/NSProject/Member functions/Integer GetActiveErpLinks()
-intellisense: 1
-classref: 1
-keywords: GetActiveErpLinks()
+intellisense: NSProject.GetActiveErpLinks
+keywords: NSProject, GetActiveErpLinks
+so.topic: reference
 ---
-
 
 The number of active erp links
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProject thing;
+Integer activeErpLinks  = thing.GetActiveErpLinks();
+```
 
 

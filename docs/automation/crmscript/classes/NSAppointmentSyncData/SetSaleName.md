@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetSaleName
+title: SetSaleName(String saleName)
+intellisense: NSAppointmentSyncData.SetSaleName
+keywords: NSAppointmentSyncData, GetSaleName
+so.topic: reference
 ---
-title: Void SetSaleName(String SaleName)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetSaleName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1089
-keywords: SetSaleName(String)
----
-
 
 Sale heading (short description?)
 
+**Parameter:** 
+ - **saleName** String
 
-
-* **SaleName:** String
-* **Returns:** String
-
+```crmscript
+NSAppointmentSyncData thing;
+String saleName;
+thing.SetSaleName(saleName);
+```
 

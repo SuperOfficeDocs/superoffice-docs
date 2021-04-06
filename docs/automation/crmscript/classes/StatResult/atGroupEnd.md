@@ -1,9 +1,9 @@
 ---
-title: Bool atGroupEnd(Integer column)
-path: /EJScript/Classes/StatResult/Member functions/Bool atGroupEnd(Integer column)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatResult_atGroupEnd_Integer_column
+title: StatResult.atGroupEnd(Integer column)
+intellisense: StatResult.atGroupEnd
 keywords: atGroupEnd(Integer)
+so.topic: reference
 ---
 
 

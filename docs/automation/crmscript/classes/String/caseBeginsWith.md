@@ -1,9 +1,9 @@
 ---
-title: Bool caseBeginsWith(String s)
-path: /EJScript/Classes/String/Member functions/Bool caseBeginsWith(String s)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_caseBeginsWith_String_s
+title: String.caseBeginsWith(String s)
+intellisense: String.caseBeginsWith
 keywords: caseBeginsWith(String)
+so.topic: reference
 ---
 
 

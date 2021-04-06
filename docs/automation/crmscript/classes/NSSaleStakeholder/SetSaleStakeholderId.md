@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetSaleStakeholderId
+title: SetSaleStakeholderId(Integer saleStakeholderId)
+intellisense: NSSaleStakeholder.SetSaleStakeholderId
+keywords: NSSaleStakeholder, GetSaleStakeholderId
+so.topic: reference
 ---
-title: Void SetSaleStakeholderId(Integer SaleStakeholderId)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetSaleStakeholderId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleStakeholderId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **saleStakeholderId** Integer
 
-
-* **SaleStakeholderId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleStakeholder thing;
+Integer saleStakeholderId;
+thing.SetSaleStakeholderId(saleStakeholderId);
+```
 

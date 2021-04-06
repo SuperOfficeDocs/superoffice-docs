@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCredential
 title: NSCredential
-path: /EJScript/Classes/NSCredential
-intellisense: 1
-classref: 1
-sortOrder: 2048
+intellisense: Void.NSCredential
+keywords: NSCredential
+so.topic: reference
 ---
-
 
 Credentials supported for authentication
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,9 +1,9 @@
 ---
-title: Void setGenericSearch(GenericSearch gs)
-path: /EJScript/Classes/StatLib/Member functions/Void setGenericSearch(GenericSearch gs)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatLib_setGenericSearch_GenericSearch_gs
+title: StatLib.setGenericSearch(GenericSearch gs)
+intellisense: StatLib.setGenericSearch
 keywords: setGenericSearch(GenericSearch)
+so.topic: reference
 ---
 
 

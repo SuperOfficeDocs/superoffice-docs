@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_NSAAATestClassForModeling
 title: NSAAATestClassForModeling
-path: /EJScript/Classes/NSAAATestClassForModeling
-intellisense: 1
-classref: 1
+intellisense: Void.NSAAATestClassForModeling
 sortOrder: 8915
+so.topic: reference
 ---
 
 

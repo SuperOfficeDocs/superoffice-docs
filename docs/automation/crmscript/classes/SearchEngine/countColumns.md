@@ -1,9 +1,9 @@
 ---
-title: Integer countColumns()
-path: /EJScript/Classes/SearchEngine/member functions/Integer countColumns()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_countColumns
+title: SearchEngine.countColumns()
+intellisense: SearchEngine.countColumns
 keywords: countColumns()
+so.topic: reference
 ---
 
 

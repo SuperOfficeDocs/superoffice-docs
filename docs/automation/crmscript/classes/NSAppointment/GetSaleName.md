@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetSaleName
 title: String GetSaleName()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetSaleName()
-intellisense: 1
-classref: 1
-sortOrder: 764
-keywords: GetSaleName()
+intellisense: NSAppointment.GetSaleName
+keywords: NSAppointment, GetSaleName
+so.topic: reference
 ---
-
 
 Heading of Owning sale, if any. (may be blank)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointment thing;
+String saleName  = thing.GetSaleName();
+```
 
 

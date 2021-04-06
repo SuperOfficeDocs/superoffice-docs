@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetApprovedRegisteredBy
 title: Integer GetApprovedRegisteredBy()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetApprovedRegisteredBy()
-intellisense: 1
-classref: 1
-keywords: GetApprovedRegisteredBy()
+intellisense: NSQuoteVersion.GetApprovedRegisteredBy
+keywords: NSQuoteVersion, GetApprovedRegisteredBy
+so.topic: reference
 ---
-
 
 Id of associate who actually entered the approval; might be different from ApprovedBy (f.x. due to telephone consultation/approval)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteVersion thing;
+Integer approvedRegisteredBy  = thing.GetApprovedRegisteredBy();
+```
 
 

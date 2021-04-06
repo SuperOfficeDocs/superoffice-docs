@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo_GetConsentPurposeId
 title: Integer GetConsentPurposeId()
-path: /EJScript/Classes/NSConsentInfo/Member functions/Integer GetConsentPurposeId()
-intellisense: 1
-classref: 1
-sortOrder: 1631
-keywords: GetConsentPurposeId()
+intellisense: NSConsentInfo.GetConsentPurposeId
+keywords: NSConsentInfo, GetConsentPurposeId
+so.topic: reference
 ---
-
 
 Primary key for the ConsentPurpose associated with this consent
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSConsentInfo thing;
+Integer consentPurposeId  = thing.GetConsentPurposeId();
+```
 
 

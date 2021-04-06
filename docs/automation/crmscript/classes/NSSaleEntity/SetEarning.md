@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetEarning
+title: SetEarning(Float earning)
+intellisense: NSSaleEntity.SetEarning
+keywords: NSSaleEntity, GetEarning
+so.topic: reference
 ---
-title: Void SetEarning(Float Earning)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetEarning(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetEarning(Float)
----
-
 
 Earning on sale
 
+**Parameter:** 
+ - **earning** Float
 
-
-* **Earning:** Float
-* **Returns:** Float
-
+```crmscript
+NSSaleEntity thing;
+Float earning;
+thing.SetEarning(earning);
+```
 

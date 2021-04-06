@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig_SetRegisteredAssociateId
+title: SetRegisteredAssociateId(Integer registeredAssociateId)
+intellisense: NSCustomerCenterConfig.SetRegisteredAssociateId
+keywords: NSCustomerCenterConfig, GetRegisteredAssociateId
+so.topic: reference
 ---
-title: Void SetRegisteredAssociateId(Integer RegisteredAssociateId)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetRegisteredAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2207
-keywords: SetRegisteredAssociateId(Integer)
----
-
 
 Registered by whom
 
+**Parameter:** 
+ - **registeredAssociateId** Integer
 
-
-* **RegisteredAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCustomerCenterConfig thing;
+Integer registeredAssociateId;
+thing.SetRegisteredAssociateId(registeredAssociateId);
+```
 

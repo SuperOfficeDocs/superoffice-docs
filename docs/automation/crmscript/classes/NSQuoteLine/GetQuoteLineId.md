@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLine_GetQuoteLineId
 title: Integer GetQuoteLineId()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Integer GetQuoteLineId()
-intellisense: 1
-classref: 1
-keywords: GetQuoteLineId()
+intellisense: NSQuoteLine.GetQuoteLineId
+keywords: NSQuoteLine, GetQuoteLineId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteLine thing;
+Integer quoteLineId  = thing.GetQuoteLineId();
+```
 
 

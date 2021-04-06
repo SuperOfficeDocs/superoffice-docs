@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity
 title: NSProjectEventEntity
-path: /EJScript/Classes/NSProjectEventEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSProjectEventEntity
+keywords: NSProjectEventEntity
+so.topic: reference
 ---
-
 
 The ProjectEvent Service. The service implements all services working with the ProjectEvent object
 
-
-
-
-1. autolist
+1. autolist 
 

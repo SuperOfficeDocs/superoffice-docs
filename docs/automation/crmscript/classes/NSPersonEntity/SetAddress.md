@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetAddress
+title: SetAddress(Address address)
+intellisense: NSPersonEntity.SetAddress
+keywords: NSPersonEntity, GetAddress
+so.topic: reference
 ---
-title: Void SetAddress(NSAddress Address)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetAddress(NSAddress p_0)
-intellisense: 1
-classref: 1
-keywords: SetAddress(NSAddress)
----
-
 
 Structure holding formatted address data. The layout of the array structure indicates the layout of the localized address.
 
+**Parameter:** 
+ - **address** Address
 
-
-* **Address:** Address
-* **Returns:** Address
-
+```crmscript
+NSPersonEntity thing;
+Address address;
+thing.SetAddress(address);
+```
 

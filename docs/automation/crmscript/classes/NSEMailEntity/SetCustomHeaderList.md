@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetCustomHeaderList
+title: SetCustomHeaderList(EMailCustomHeaderArray customHeaderList)
+intellisense: NSEMailEntity.SetCustomHeaderList
+keywords: NSEMailEntity, GetCustomHeaderList
+so.topic: reference
 ---
-title: Void SetCustomHeaderList(NSEMailCustomHeader[] CustomHeaderList)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetCustomHeaderList(NSEMailCustomHeader[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2978
-keywords: SetCustomHeaderList(NSEMailCustomHeader[])
----
-
 
 Non standard e-mail headers
 
+**Parameter:** 
+ - **customHeaderList** EMailCustomHeaderArray
 
-
-* **CustomHeaderList:** EMailCustomHeaderArray
-* **Returns:** EMailCustomHeaderArray
-
+```crmscript
+NSEMailEntity thing;
+EMailCustomHeaderArray customHeaderList;
+thing.SetCustomHeaderList(customHeaderList);
+```
 

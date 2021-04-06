@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSResourceOverride_GetCulture
 title: String GetCulture()
-path: /EJScript/Classes/NSResourceOverride/Member functions/String GetCulture()
-intellisense: 1
-classref: 1
-keywords: GetCulture()
+intellisense: NSResourceOverride.GetCulture
+keywords: NSResourceOverride, GetCulture
+so.topic: reference
 ---
-
 
 .NET-style culture code, such as NB-NO or EN-UK
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSResourceOverride thing;
+String culture  = thing.GetCulture();
+```
 
 

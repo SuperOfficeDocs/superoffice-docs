@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSConsentPerson
 title: NSConsentPerson
-path: /EJScript/Classes/NSConsentPerson
-intellisense: 1
-classref: 1
-sortOrder: 1658
+intellisense: Void.NSConsentPerson
+keywords: NSConsentPerson
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRefCountEntity_GetAllowBlank
 title: Bool GetAllowBlank()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Bool GetAllowBlank()
-intellisense: 1
-classref: 1
-keywords: GetAllowBlank()
+intellisense: NSRefCountEntity.GetAllowBlank
+keywords: NSRefCountEntity, GetAllowBlank
+so.topic: reference
 ---
-
 
 Allow blank  as a valid value
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSRefCountEntity thing;
+Bool allowBlank  = thing.GetAllowBlank();
+```
 
 

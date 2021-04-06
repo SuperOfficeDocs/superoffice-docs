@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSCustomerServiceAgent_CreateSession
+title: CsSessionKey CreateSession(String remoteIp)
+intellisense: NSCustomerServiceAgent.CreateSession
+keywords: NSCustomerServiceAgent, CreateSession
+so.topic: reference
 ---
-title: NSCsSessionKey CreateSession(String remoteIp)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSCsSessionKey CreateSession(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2226
-keywords: CreateSession(String)
----
-
 
 Creates a login session for a CS user
 
+**Parameters:**
+ - **remoteIp** The ip of the client creating the session
 
+**Returns:** The session key information
 
-* **remoteIp:** The ip of the client creating the session
-* **Returns:** The session key information
-
+```crmscript
+NSCustomerServiceAgent agent;
+String remoteIp;
+CsSessionKey res = agent.CreateSession(remoteIp);
+```
 

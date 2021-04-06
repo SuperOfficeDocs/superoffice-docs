@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboard_GetTiles
+title: DashboardTileArray GetTiles()
+intellisense: NSDashboard.GetTiles
+keywords: NSDashboard, GetTiles
+so.topic: reference
 ---
-title: NSDashboardTile[] GetTiles()
-path: /EJScript/Classes/NSDashboard/Member functions/NSDashboardTile[] GetTiles()
-intellisense: 1
-classref: 1
-sortOrder: 2263
-keywords: GetTiles()
----
-
 
 The tiles associated with this dashboard
 
+**Returns:** DashboardTileArray
 
 
-* **Returns:** DashboardTileArray
+```crmscript
+NSDashboard thing;
+DashboardTileArray tiles  = thing.GetTiles();
+```
 
 

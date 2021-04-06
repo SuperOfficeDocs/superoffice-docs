@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketInfo_SetPersonName
+title: SetPersonName(String personName)
+intellisense: NSTicketInfo.SetPersonName
+keywords: NSTicketInfo, GetPersonName
+so.topic: reference
 ---
-title: Void SetPersonName(String PersonName)
-path: /EJScript/Classes/NSTicketInfo/Member functions/Void SetPersonName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonName(String)
----
-
 
 The name of the person/customer connected to the ticket
 
+**Parameter:** 
+ - **personName** String
 
-
-* **PersonName:** String
-* **Returns:** String
-
+```crmscript
+NSTicketInfo thing;
+String personName;
+thing.SetPersonName(personName);
+```
 

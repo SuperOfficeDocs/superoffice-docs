@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetContext
 title: String GetContext()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetContext()
-intellisense: 1
-classref: 1
-sortOrder: 1376
-keywords: GetContext()
+intellisense: NSBatchTaskInfo.GetContext
+keywords: NSBatchTaskInfo, GetContext
+so.topic: reference
 ---
-
 
 Context for the executing task.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSBatchTaskInfo thing;
+String context  = thing.GetContext();
+```
 
 

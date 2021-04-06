@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetTitle
 title: String GetTitle()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetTitle()
-intellisense: 1
-classref: 1
-keywords: GetTitle()
+intellisense: NSPersonEntity.GetTitle
+keywords: NSPersonEntity, GetTitle
+so.topic: reference
 ---
-
 
 Title
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPersonEntity thing;
+String title  = thing.GetTitle();
+```
 
 

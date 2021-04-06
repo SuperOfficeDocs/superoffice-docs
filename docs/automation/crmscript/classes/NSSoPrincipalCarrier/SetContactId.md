@@ -1,9 +1,9 @@
 ---
-title: Void SetContactId(Integer p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetContactId(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_SetContactId_Integer_p_0
+title: NSSoPrincipalCarrier.SetContactId(Integer p_0)
+intellisense: NSSoPrincipalCarrier.SetContactId
 keywords: SetContactId(Integer)
+so.topic: reference
 ---
 
 

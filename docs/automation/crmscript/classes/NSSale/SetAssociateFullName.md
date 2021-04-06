@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetAssociateFullName
+title: SetAssociateFullName(String associateFullName)
+intellisense: NSSale.SetAssociateFullName
+keywords: NSSale, GetAssociateFullName
+so.topic: reference
 ---
-title: Void SetAssociateFullName(String AssociateFullName)
-path: /EJScript/Classes/NSSale/Member functions/Void SetAssociateFullName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociateFullName(String)
----
-
 
 The sale's owner
 
+**Parameter:** 
+ - **associateFullName** String
 
-
-* **AssociateFullName:** String
-* **Returns:** String
-
+```crmscript
+NSSale thing;
+String associateFullName;
+thing.SetAssociateFullName(associateFullName);
+```
 

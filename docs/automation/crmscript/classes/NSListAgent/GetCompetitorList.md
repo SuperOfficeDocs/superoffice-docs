@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCompetitorList
+title: NSCompetitor[] GetCompetitorList(Integer[]  competitorIds);
+intellisense: NSListAgent.GetCompetitorList
+keywords: NSListAgent, GetCompetitorList
+so.topic: reference
 ---
-title: NSCompetitor[] GetCompetitorList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCompetitor[] GetCompetitorList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetCompetitorList(Integer[])
----
 
-Gets an array of Competitor objects.
+Gets a vector of Competitor objects.
 
+**Parameters:**
+ - **competitorIds** The identifiers of the NSCompetitor objects
 
-* **p0:** IntegerArray of identifiers for Competitor
-* **Returns:** Array of NSCompetitor
+**Returns:** Vector of NSCompetitor objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetCompetitorList(ids);
+```
 

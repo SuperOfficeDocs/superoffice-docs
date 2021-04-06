@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetPhone
+title: SetPhone(String phone)
+intellisense: NSProjectMember.SetPhone
+keywords: NSProjectMember, GetPhone
+so.topic: reference
 ---
-title: Void SetPhone(String Phone)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetPhone(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPhone(String)
----
-
 
 Phone number
 
+**Parameter:** 
+ - **phone** String
 
-
-* **Phone:** String
-* **Returns:** String
-
+```crmscript
+NSProjectMember thing;
+String phone;
+thing.SetPhone(phone);
+```
 

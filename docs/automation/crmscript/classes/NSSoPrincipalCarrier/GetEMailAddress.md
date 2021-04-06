@@ -1,9 +1,9 @@
 ---
-title: String GetEMailAddress()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/String GetEMailAddress()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetEMailAddress
+title: NSSoPrincipalCarrier.GetEMailAddress()
+intellisense: NSSoPrincipalCarrier.GetEMailAddress
 keywords: GetEMailAddress()
+so.topic: reference
 ---
 
 

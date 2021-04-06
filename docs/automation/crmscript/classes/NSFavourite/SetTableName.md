@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFavourite_SetTableName
+title: SetTableName(String tableName)
+intellisense: NSFavourite.SetTableName
+keywords: NSFavourite, GetTableName
+so.topic: reference
 ---
-title: Void SetTableName(String TableName)
-path: /EJScript/Classes/NSFavourite/Member functions/Void SetTableName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3444
-keywords: SetTableName(String)
----
-
 
 Name of the table this favourite belongs to.
 
+**Parameter:** 
+ - **tableName** String
 
-
-* **TableName:** String
-* **Returns:** String
-
+```crmscript
+NSFavourite thing;
+String tableName;
+thing.SetTableName(tableName);
+```
 

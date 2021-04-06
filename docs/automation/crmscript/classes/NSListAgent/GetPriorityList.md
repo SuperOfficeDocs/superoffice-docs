@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetPriorityList
+title: NSPriority[] GetPriorityList(Integer[]  priorityIds);
+intellisense: NSListAgent.GetPriorityList
+keywords: NSListAgent, GetPriorityList
+so.topic: reference
 ---
-title: NSPriority[] GetPriorityList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSPriority[] GetPriorityList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetPriorityList(Integer[])
----
 
-Gets an array of Priority objects.
+Gets a vector of Priority objects.
 
+**Parameters:**
+ - **priorityIds** The identifiers of the NSPriority objects
 
-* **p0:** IntegerArray of identifiers for Priority
-* **Returns:** Array of NSPriority
+**Returns:** Vector of NSPriority objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetPriorityList(ids);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLocalizedText_GetLanguageId
 title: Integer GetLanguageId()
-path: /EJScript/Classes/NSLocalizedText/Member functions/Integer GetLanguageId()
-intellisense: 1
-classref: 1
-keywords: GetLanguageId()
+intellisense: NSLocalizedText.GetLanguageId
+keywords: NSLocalizedText, GetLanguageId
+so.topic: reference
 ---
-
 
 Language id as LCID value
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSLocalizedText thing;
+Integer languageId  = thing.GetLanguageId();
+```
 
 

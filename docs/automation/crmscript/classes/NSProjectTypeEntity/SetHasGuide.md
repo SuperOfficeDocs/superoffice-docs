@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectTypeEntity_SetHasGuide
+title: SetHasGuide(Bool hasGuide)
+intellisense: NSProjectTypeEntity.SetHasGuide
+keywords: NSProjectTypeEntity, GetHasGuide
+so.topic: reference
 ---
-title: Void SetHasGuide(Bool HasGuide)
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Void SetHasGuide(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetHasGuide(Bool)
----
-
 
 Does this project type have a guide attached
 
+**Parameter:** 
+ - **hasGuide** Bool
 
-
-* **HasGuide:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectTypeEntity thing;
+Bool hasGuide;
+thing.SetHasGuide(hasGuide);
+```
 

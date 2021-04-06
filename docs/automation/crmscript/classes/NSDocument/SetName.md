@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocument_SetName
+title: SetName(String name)
+intellisense: NSDocument.SetName
+keywords: NSDocument, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2456
-keywords: SetName(String)
----
-
 
 File name
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSDocument thing;
+String name;
+thing.SetName(name);
+```
 

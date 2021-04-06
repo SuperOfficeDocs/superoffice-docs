@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMDOListItem_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
+intellisense: NSMDOListItem.SetExtraInfo
+keywords: NSMDOListItem, GetExtraInfo
+so.topic: reference
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraInfo(String)
----
-
 
 Extra information added to the ListItem. Could be information such as sort order etc or other meta data. Custom field.
 
+**Parameter:** 
+ - **extraInfo** String
 
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+```crmscript
+NSMDOListItem thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
 

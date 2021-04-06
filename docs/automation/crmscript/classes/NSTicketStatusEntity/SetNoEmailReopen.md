@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketStatusEntity_SetNoEmailReopen
+title: SetNoEmailReopen(Bool noEmailReopen)
+intellisense: NSTicketStatusEntity.SetNoEmailReopen
+keywords: NSTicketStatusEntity, GetNoEmailReopen
+so.topic: reference
 ---
-title: Void SetNoEmailReopen(Bool NoEmailReopen)
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/Void SetNoEmailReopen(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetNoEmailReopen(Bool)
----
-
 
 Whether inbound emails can reopen requests with this status or not
 
+**Parameter:** 
+ - **noEmailReopen** Bool
 
-
-* **NoEmailReopen:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSTicketStatusEntity thing;
+Bool noEmailReopen;
+thing.SetNoEmailReopen(noEmailReopen);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_SetFirstMessage
+title: SetFirstMessage(String firstMessage)
+intellisense: NSChatSummaryItem.SetFirstMessage
+keywords: NSChatSummaryItem, GetFirstMessage
+so.topic: reference
 ---
-title: Void SetFirstMessage(String FirstMessage)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetFirstMessage(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1544
-keywords: SetFirstMessage(String)
----
-
 
 A copy of the first message in the chat session
 
+**Parameter:** 
+ - **firstMessage** String
 
-
-* **FirstMessage:** String
-* **Returns:** String
-
+```crmscript
+NSChatSummaryItem thing;
+String firstMessage;
+thing.SetFirstMessage(firstMessage);
+```
 

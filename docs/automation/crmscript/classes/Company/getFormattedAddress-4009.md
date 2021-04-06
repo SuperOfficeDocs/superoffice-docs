@@ -1,10 +1,10 @@
 ---
-title: NSLocalizedField[][] getFormattedAddress()
-path: /EJScript/Classes/Company/member functions/NSLocalizedField[][] getFormattedAddress()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Company_getFormattedAddress
+title: Company.getFormattedAddress()
+intellisense: Company.getFormattedAddress
 sortOrder: 164
 keywords: getFormattedAddress()
+so.topic: reference
 ---
 
 Gets the formatted company address.

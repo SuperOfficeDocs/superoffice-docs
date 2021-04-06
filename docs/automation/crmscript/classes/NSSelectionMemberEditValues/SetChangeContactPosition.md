@@ -1,9 +1,9 @@
 ---
-title: Void SetChangeContactPosition(Bool p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetChangeContactPosition(Bool p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_SetChangeContactPosition_Bool_p_0
+title: NSSelectionMemberEditValues.SetChangeContactPosition(Bool p_0)
+intellisense: NSSelectionMemberEditValues.SetChangeContactPosition
 keywords: SetChangeContactPosition(Bool)
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSignedPublicKey_GetExpiryDate
 title: DateTime GetExpiryDate()
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/DateTime GetExpiryDate()
-intellisense: 1
-classref: 1
-keywords: GetExpiryDate()
+intellisense: NSSignedPublicKey.GetExpiryDate
+keywords: NSSignedPublicKey, GetExpiryDate
+so.topic: reference
 ---
-
 
 Date when the signature expires. No Timezone.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSSignedPublicKey thing;
+DateTime expiryDate  = thing.GetExpiryDate();
+```
 
 

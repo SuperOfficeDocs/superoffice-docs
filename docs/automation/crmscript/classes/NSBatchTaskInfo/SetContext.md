@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetContext
+title: SetContext(String context)
+intellisense: NSBatchTaskInfo.SetContext
+keywords: NSBatchTaskInfo, GetContext
+so.topic: reference
 ---
-title: Void SetContext(String Context)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetContext(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1386
-keywords: SetContext(String)
----
-
 
 Context for the executing task.
 
+**Parameter:** 
+ - **context** String
 
-
-* **Context:** String
-* **Returns:** String
-
+```crmscript
+NSBatchTaskInfo thing;
+String context;
+thing.SetContext(context);
+```
 

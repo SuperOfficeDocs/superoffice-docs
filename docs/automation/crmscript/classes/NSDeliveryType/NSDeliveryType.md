@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDeliveryType
 title: NSDeliveryType
-path: /EJScript/Classes/NSDeliveryType
-intellisense: 1
-classref: 1
-sortOrder: 2372
+intellisense: Void.NSDeliveryType
+keywords: NSDeliveryType
+so.topic: reference
 ---
-
 
 The built-in delivery types list. Used by the SuperOffice Quote Connector in quote versions.
 
-
-
-
-1. autolist
+1. autolist 
 

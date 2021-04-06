@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSAudienceAgent_GetMyConfigParameter
+title: AudienceConfigParameter GetMyConfigParameter(String parameterName)
+intellisense: NSAudienceAgent.GetMyConfigParameter
+keywords: NSAudienceAgent, GetMyConfigParameter
+so.topic: reference
 ---
-title: NSAudienceConfigParameter GetMyConfigParameter(String parameterName)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceConfigParameter GetMyConfigParameter(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1292
-keywords: GetMyConfigParameter(String)
----
-
 
 Gets an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.
 
+**Parameters:**
+ - **parameterName** The name of the Audience configuration parameter
 
+**Returns:** The Audience configuration parameter.
 
-* **parameterName:** The name of the Audience configuration parameter
-* **Returns:** The Audience configuration parameter.
-
+```crmscript
+NSAudienceAgent agent;
+String parameterName;
+AudienceConfigParameter res = agent.GetMyConfigParameter(parameterName);
+```
 

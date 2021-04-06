@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSRole_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSRole/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSRole.GetValue
+keywords: NSRole, GetValue
+so.topic: reference
 ---
 
+Get the name of the Role.
 
-* **Returns:** String
+**Returns:** String Role name.
 
+```crmscript
+NSRole thing;
+String name = thing.GetValue();
+```
 

@@ -1,10 +1,10 @@
 ---
-title: String getValue(String field)
-path: /EJScript/Classes/ExtraTable/Member functions/String getValue(String field)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ExtraTable_getValue_String_field
+title: ExtraTable.getValue(String field)
+intellisense: ExtraTable.getValue
 sortOrder: 323
 keywords: getValue(String)
+so.topic: reference
 ---
 
 

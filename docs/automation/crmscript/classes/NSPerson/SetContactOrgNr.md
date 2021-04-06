@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetContactOrgNr
+title: SetContactOrgNr(String contactOrgNr)
+intellisense: NSPerson.SetContactOrgNr
+keywords: NSPerson, GetContactOrgNr
+so.topic: reference
 ---
-title: Void SetContactOrgNr(String ContactOrgNr)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetContactOrgNr(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetContactOrgNr(String)
----
-
 
 The persons contact organization number
 
+**Parameter:** 
+ - **contactOrgNr** String
 
-
-* **ContactOrgNr:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String contactOrgNr;
+thing.SetContactOrgNr(contactOrgNr);
+```
 

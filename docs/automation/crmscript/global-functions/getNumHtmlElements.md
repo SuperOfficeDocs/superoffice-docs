@@ -1,9 +1,9 @@
 ---
 description: Integer getNumHtmlElements()
-path: /EJScript/Global functions/Integer getNumHtmlElements()
-intellisense: 1
+intellisense: Void.getNumHtmlElements
 langref: 1
 keywords: getNumHtmlElements()
+so.topic: reference
 ---
 
 

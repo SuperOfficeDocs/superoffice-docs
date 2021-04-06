@@ -1,19 +1,23 @@
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem_SetCompleted
+title: SetCompleted(Integer completed)
+intellisense: NSActivitySummaryItem.SetCompleted
+keywords: NSActivitySummaryItem, GetCompleted
+so.topic: reference
 ---
-title: Void SetCompleted(Integer Completed)
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Void SetCompleted(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 602
-keywords: SetCompleted(Integer)
----
 
+The Completed state. NotStarted(1) or Completed(3)
 
-    The Completed state. NotStarted(1) or Completed(3)
-    
+**Parameter:** 
+ - **completed** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 
-
-
-* **Completed:** Integer
-* **Returns:** Void
-
+```crmscript
+NSActivitySummaryItem thing;
+Integer completed;
+thing.SetCompleted(completed);
+```
 

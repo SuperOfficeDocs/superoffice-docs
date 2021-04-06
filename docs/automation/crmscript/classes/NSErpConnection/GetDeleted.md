@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnection_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSErpConnection/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 3078
-keywords: GetDeleted()
+intellisense: NSErpConnection.GetDeleted
+keywords: NSErpConnection, GetDeleted
+so.topic: reference
 ---
-
 
 If true, the connection has been deleted and should not be shown to the users.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSErpConnection thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

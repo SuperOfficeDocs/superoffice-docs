@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAttachment_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 2894
-keywords: GetDescription()
+intellisense: NSEMailAttachment.GetDescription
+keywords: NSEMailAttachment, GetDescription
+so.topic: reference
 ---
-
 
 Name/description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAttachment thing;
+String description  = thing.GetDescription();
+```
 
 

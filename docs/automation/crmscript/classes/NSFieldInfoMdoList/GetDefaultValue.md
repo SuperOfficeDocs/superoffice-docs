@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoMdoList_GetDefaultValue
 title: Integer GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoMdoList/Member functions/Integer GetDefaultValue()
-intellisense: 1
-classref: 1
-sortOrder: 3531
-keywords: GetDefaultValue()
+intellisense: NSFieldInfoMdoList.GetDefaultValue
+keywords: NSFieldInfoMdoList, GetDefaultValue
+so.topic: reference
 ---
-
 
 Default list item id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFieldInfoMdoList thing;
+Integer defaultValue  = thing.GetDefaultValue();
+```
 
 

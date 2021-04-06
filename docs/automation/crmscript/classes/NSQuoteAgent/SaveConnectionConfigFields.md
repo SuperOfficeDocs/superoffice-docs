@@ -1,11 +1,23 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_SaveConnectionConfigFields
+title: StringDictionary SaveConnectionConfigFields(Integer quoteConnectionId, StringDictionary connectionConfigFields)
+intellisense: NSQuoteAgent.SaveConnectionConfigFields
+keywords: NSQuoteAgent, SaveConnectionConfigFields
+so.topic: reference
 ---
-title: Map SaveConnectionConfigFields(Integer p0, Map p1)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Map SaveConnectionConfigFields(Integer p_0, Map p_1)
-intellisense: 1
-classref: 1
-keywords: SaveConnectionConfigFields(Integer,Map)
----
 
+Saves the connection config fields
 
+**Parameters:**
+ - **quoteConnectionId** Primary key of the connection
+ - **connectionConfigFields** ConnectionConfigFields to save.
 
+**Returns:** Config Fields
+
+```crmscript
+NSQuoteAgent agent;
+Integer quoteConnectionId;
+StringDictionary connectionConfigFields;
+StringDictionary res = agent.SaveConnectionConfigFields(quoteConnectionId, connectionConfigFields);
+```
 

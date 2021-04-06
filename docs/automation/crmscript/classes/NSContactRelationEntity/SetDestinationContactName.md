@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_SetDestinationContactName
+title: SetDestinationContactName(String destinationContactName)
+intellisense: NSContactRelationEntity.SetDestinationContactName
+keywords: NSContactRelationEntity, GetDestinationContactName
+so.topic: reference
 ---
-title: Void SetDestinationContactName(String DestinationContactName)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetDestinationContactName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1967
-keywords: SetDestinationContactName(String)
----
-
 
 Name of the destination contact.
 
+**Parameter:** 
+ - **destinationContactName** String
 
-
-* **DestinationContactName:** String
-* **Returns:** String
-
+```crmscript
+NSContactRelationEntity thing;
+String destinationContactName;
+thing.SetDestinationContactName(destinationContactName);
+```
 

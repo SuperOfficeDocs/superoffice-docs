@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTimeZoneData_SetTZLocationCode
+title: SetTZLocationCode(String tZLocationCode)
+intellisense: NSTimeZoneData.SetTZLocationCode
+keywords: NSTimeZoneData, GetTZLocationCode
+so.topic: reference
 ---
-title: Void SetTZLocationCode(String TZLocationCode)
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetTZLocationCode(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTZLocationCode(String)
----
-
 
 Code associated with location
 
+**Parameter:** 
+ - **tZLocationCode** String
 
-
-* **TZLocationCode:** String
-* **Returns:** String
-
+```crmscript
+NSTimeZoneData thing;
+String tZLocationCode;
+thing.SetTZLocationCode(tZLocationCode);
+```
 

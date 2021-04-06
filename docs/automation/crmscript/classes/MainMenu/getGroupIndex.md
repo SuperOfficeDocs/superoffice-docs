@@ -1,10 +1,10 @@
 ---
-title: Integer getGroupIndex(String)
-path: /EJScript/Classes/MainMenu/Member functions/Integer getGroupIndex(String)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MainMenu_getGroupIndex_String
+title: MainMenu.getGroupIndex(String)
+intellisense: MainMenu.getGroupIndex
 sortOrder: 504
 keywords: getGroupIndex(String)
+so.topic: reference
 ---
 
 # Integer getGroupIndex(String)

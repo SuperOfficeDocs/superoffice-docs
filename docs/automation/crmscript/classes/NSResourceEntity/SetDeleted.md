@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResourceEntity_SetDeleted
+title: SetDeleted(Bool deleted)
+intellisense: NSResourceEntity.SetDeleted
+keywords: NSResourceEntity, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSResourceEntity/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeleted(Bool)
----
-
 
 If true, the resource is deleted.
 
+**Parameter:** 
+ - **deleted** Bool
 
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSResourceEntity thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
 

@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncAgent
 title: NSErpSyncAgent
-path: /EJScript/Classes/NSErpSyncAgent
-intellisense: 1
-classref: 1
-sortOrder: 3176
+intellisense: Void.NSErpSyncAgent
+keywords: NSErpSyncAgent
+so.topic: reference
 ---
-
 
 Services for the ERP Integration Services feature
 
-
-
+```crmscript
+NSErpSyncAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

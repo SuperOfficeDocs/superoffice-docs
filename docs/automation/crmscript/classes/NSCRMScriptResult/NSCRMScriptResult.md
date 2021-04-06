@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptResult
 title: NSCRMScriptResult
-path: /EJScript/Classes/NSCRMScriptResult
-intellisense: 1
-classref: 1
-sortOrder: 2149
+intellisense: Void.NSCRMScriptResult
+keywords: NSCRMScriptResult
+so.topic: reference
 ---
-
 
 Object for returning information when validating a CRMScript
 
-
-
-
-1. autolist
+1. autolist 
 

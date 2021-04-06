@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSDiagnosticsAgent
 title: NSDiagnosticsAgent
-path: /EJScript/Classes/NSDiagnosticsAgent
-intellisense: 1
-classref: 1
-sortOrder: 2388
+intellisense: Void.NSDiagnosticsAgent
+keywords: NSDiagnosticsAgent
+so.topic: reference
 ---
-
 
 Diagnostics, usage data collection, caches and flushing
 
-
-
+```crmscript
+NSDiagnosticsAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

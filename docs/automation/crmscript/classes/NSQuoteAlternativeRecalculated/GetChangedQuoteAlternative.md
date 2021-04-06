@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternativeRecalculated_GetChangedQuoteAlternative
+title: QuoteAlternative GetChangedQuoteAlternative()
+intellisense: NSQuoteAlternativeRecalculated.GetChangedQuoteAlternative
+keywords: NSQuoteAlternativeRecalculated, GetChangedQuoteAlternative
+so.topic: reference
 ---
-title: NSQuoteAlternative GetChangedQuoteAlternative()
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/NSQuoteAlternative GetChangedQuoteAlternative()
-intellisense: 1
-classref: 1
-keywords: GetChangedQuoteAlternative()
----
-
 
 The recalculated QuoteAlternative
 
+**Returns:** QuoteAlternative
 
 
-* **Returns:** QuoteAlternative
+```crmscript
+NSQuoteAlternativeRecalculated thing;
+QuoteAlternative changedQuoteAlternative  = thing.GetChangedQuoteAlternative();
+```
 
 

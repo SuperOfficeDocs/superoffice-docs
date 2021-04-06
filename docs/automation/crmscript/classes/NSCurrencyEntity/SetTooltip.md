@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSCurrencyEntity.SetTooltip
+keywords: NSCurrencyEntity, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2191
-keywords: SetTooltip(String)
----
-
 
 Tooltip or other description
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSCurrencyEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

@@ -1,16 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetLinkList
+title: NSLink[] GetLinkList(Integer[]  linkIds);
+intellisense: NSListAgent.GetLinkList
+keywords: NSListAgent, GetLinkList
+so.topic: reference
 ---
-title: NSLink[] GetLinkList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLink[] GetLinkList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetLinkList(Integer[])
----
 
-Gets an array of Link objects.
+Gets a vector of Link objects.
 
+**Parameters:**
+ - **linkIds** The identifiers of the NSLink objects
 
+**Returns:** Vector of NSLink objects
 
-* **p0:** IntegerArray of identifiers for Link
-* **Returns:** Array of NSLink
-
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetLinkList(ids);
+```
 

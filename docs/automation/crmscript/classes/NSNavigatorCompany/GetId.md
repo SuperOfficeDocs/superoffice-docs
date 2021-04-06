@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSNavigatorCompany_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSNavigatorCompany/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSNavigatorCompany.GetId
+keywords: NSNavigatorCompany, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the NavigatorCompany
 
-* **Returns:** Integer
+**Returns:** Integer NavigatorCompany id.
 
+```crmscript
+NSNavigatorCompany thing;
+Integer id = thing.GetId();
+```
 

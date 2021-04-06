@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetOnTravel
 title: Bool GetOnTravel()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetOnTravel()
-intellisense: 1
-classref: 1
-sortOrder: 3361
-keywords: GetOnTravel()
+intellisense: NSExtAppEntity.GetOnTravel
+keywords: NSExtAppEntity, GetOnTravel
+so.topic: reference
 ---
-
 
 Is the application visible when user is on travel
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSExtAppEntity thing;
+Bool onTravel  = thing.GetOnTravel();
+```
 
 

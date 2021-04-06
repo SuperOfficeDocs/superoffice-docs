@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactActivity_SetActivityPersonName
+title: SetActivityPersonName(String activityPersonName)
+intellisense: NSContactActivity.SetActivityPersonName
+keywords: NSContactActivity, GetActivityPersonName
+so.topic: reference
 ---
-title: Void SetActivityPersonName(String ActivityPersonName)
-path: /EJScript/Classes/NSContactActivity/Member functions/Void SetActivityPersonName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1784
-keywords: SetActivityPersonName(String)
----
-
 
 The person that carried out the activity on the contact.
 
+**Parameter:** 
+ - **activityPersonName** String
 
-
-* **ActivityPersonName:** String
-* **Returns:** String
-
+```crmscript
+NSContactActivity thing;
+String activityPersonName;
+thing.SetActivityPersonName(activityPersonName);
+```
 

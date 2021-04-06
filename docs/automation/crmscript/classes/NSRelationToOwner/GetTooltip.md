@@ -1,12 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSRelationToOwner_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSRelationToOwner/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSRelationToOwner.GetTooltip
+keywords: NSRelationToOwner, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the RelationToOwner list item.
 
-* **Returns:** String
+**Returns:** String RelationToOwner tooltip description.
+
+```crmscript
+NSRelationToOwner thing;
+String descr = thing.GetTooltip();
+```
 
 

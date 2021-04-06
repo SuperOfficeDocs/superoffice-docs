@@ -1,16 +1,22 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_GetMessageCategory
+title: TicketMessageCategory GetMessageCategory()
+intellisense: NSTicketMessageEntity.GetMessageCategory
+keywords: NSTicketMessageEntity, GetMessageCategory
+so.topic: reference
 ---
-title: NSTicketMessageCategory GetMessageCategory()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/NSTicketMessageCategory GetMessageCategory()
-intellisense: 1
-classref: 1
-keywords: GetMessageCategory()
----
-
 
 Defines what kind of message this is.
 
+**Returns:** TicketMessageCategory
 
+     - Enum: 0 = Message 
+     - Enum: 1 = Bounce 
+     - Enum: 2 = OutboxFailed 
 
-* **Returns:** TicketMessageCategory
+```crmscript
+NSTicketMessageEntity thing;
+TicketMessageCategory messageCategory  = thing.GetMessageCategory();
+```
 
 

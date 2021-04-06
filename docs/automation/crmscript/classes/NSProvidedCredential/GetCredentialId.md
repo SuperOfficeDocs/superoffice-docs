@@ -1,9 +1,9 @@
 ---
-title: Integer GetCredentialId()
-path: /EJScript/Classes/NSProvidedCredential/Member functions/Integer GetCredentialId()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSProvidedCredential_GetCredentialId
+title: NSProvidedCredential.GetCredentialId()
+intellisense: NSProvidedCredential.GetCredentialId
 keywords: GetCredentialId()
+so.topic: reference
 ---
 
 

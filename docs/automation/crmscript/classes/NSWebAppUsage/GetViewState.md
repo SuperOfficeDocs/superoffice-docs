@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebAppUsage_GetViewState
 title: String GetViewState()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/String GetViewState()
-intellisense: 1
-classref: 1
-keywords: GetViewState()
+intellisense: NSWebAppUsage.GetViewState
+keywords: NSWebAppUsage, GetViewState
+so.topic: reference
 ---
 
+The SoProtocol(ViewState)
 
-    The SoProtocol(ViewState)
-    
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSWebAppUsage thing;
+String viewState  = thing.GetViewState();
+```
 
 

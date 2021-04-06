@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
+intellisense: NSRoleEntity.SetUpdatedBy
+keywords: NSRoleEntity, GetUpdatedBy
+so.topic: reference
 ---
-title: Void SetUpdatedBy(NSAssociate UpdatedBy)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetUpdatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatedBy(NSAssociate)
----
-
 
 Last updated by user
 
+**Parameter:** 
+ - **updatedBy** Associate
 
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSRoleEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
 

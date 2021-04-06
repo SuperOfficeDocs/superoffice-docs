@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldMetadata_GetListName
 title: String GetListName()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/String GetListName()
-intellisense: 1
-classref: 1
-sortOrder: 3584
-keywords: GetListName()
+intellisense: NSFieldMetadata.GetListName
+keywords: NSFieldMetadata, GetListName
+so.topic: reference
 ---
-
 
 MDO List provider name for list fields
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldMetadata thing;
+String listName  = thing.GetListName();
+```
 
 

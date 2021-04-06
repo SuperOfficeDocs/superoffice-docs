@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerLanguage
 title: NSCustomerLanguage
-path: /EJScript/Classes/NSCustomerLanguage
-intellisense: 1
-classref: 1
-sortOrder: 2211
+intellisense: Void.NSCustomerLanguage
+keywords: NSCustomerLanguage
+so.topic: reference
 ---
 
+Customer languages that customer center supports.
 
-
-
-
-
-1. autolist
+1. autolist 
 

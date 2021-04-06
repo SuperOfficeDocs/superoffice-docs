@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetInReplyTo
+title: SetInReplyTo(EMailEnvelope inReplyTo)
+intellisense: NSEMailEntity.SetInReplyTo
+keywords: NSEMailEntity, GetInReplyTo
+so.topic: reference
 ---
-title: Void SetInReplyTo(NSEMailEnvelope InReplyTo)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetInReplyTo(NSEMailEnvelope p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2987
-keywords: SetInReplyTo(NSEMailEnvelope)
----
-
 
 The envelope of the email this email is a reply to, if it exists
 
+**Parameter:** 
+ - **inReplyTo** EMailEnvelope
 
-
-* **InReplyTo:** EMailEnvelope
-* **Returns:** EMailEnvelope
-
+```crmscript
+NSEMailEntity thing;
+EMailEnvelope inReplyTo;
+thing.SetInReplyTo(inReplyTo);
+```
 

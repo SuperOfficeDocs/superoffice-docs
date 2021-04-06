@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketStartupData_GetNotificationsCount
 title: Integer GetNotificationsCount()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Integer GetNotificationsCount()
-intellisense: 1
-classref: 1
-keywords: GetNotificationsCount()
+intellisense: NSPocketStartupData.GetNotificationsCount
+keywords: NSPocketStartupData, GetNotificationsCount
+so.topic: reference
 ---
-
 
 Number of new invitations
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPocketStartupData thing;
+Integer notificationsCount  = thing.GetNotificationsCount();
+```
 
 

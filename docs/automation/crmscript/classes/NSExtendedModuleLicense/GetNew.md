@@ -1,13 +1,19 @@
----
-title: NSModuleLicense GetNew()
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/NSModuleLicense GetNew()
-intellisense: 1
-classref: 1
-sortOrder: 3424
-keywords: GetNew()
+﻿---
+uid: crmscript_ref_NSExtendedModuleLicense_GetNew
+title: ModuleLicense GetNew()
+intellisense: NSExtendedModuleLicense.GetNew
+keywords: NSExtendedModuleLicense, GetNew
+so.topic: reference
 ---
 
 
-* **Returns:** ModuleLicense
+
+**Returns:** ModuleLicense
+
+
+```crmscript
+NSExtendedModuleLicense thing;
+ModuleLicense new  = thing.GetNew();
+```
 
 

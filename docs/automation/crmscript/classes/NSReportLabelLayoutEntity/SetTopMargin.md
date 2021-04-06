@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetTopMargin
+title: SetTopMargin(Integer topMargin)
+intellisense: NSReportLabelLayoutEntity.SetTopMargin
+keywords: NSReportLabelLayoutEntity, GetTopMargin
+so.topic: reference
 ---
-title: Void SetTopMargin(Integer TopMargin)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetTopMargin(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTopMargin(Integer)
----
-
 
 Top margin in twips
 
+**Parameter:** 
+ - **topMargin** Integer
 
-
-* **TopMargin:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer topMargin;
+thing.SetTopMargin(topMargin);
+```
 

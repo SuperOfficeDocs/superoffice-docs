@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChangedDataItem_GetRecordId
 title: Integer GetRecordId()
-path: /EJScript/Classes/NSChangedDataItem/Member functions/Integer GetRecordId()
-intellisense: 1
-classref: 1
-sortOrder: 1508
-keywords: GetRecordId()
+intellisense: NSChangedDataItem.GetRecordId
+keywords: NSChangedDataItem, GetRecordId
+so.topic: reference
 ---
-
 
 Id of record, should never be 0
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSChangedDataItem thing;
+Integer recordId  = thing.GetRecordId();
+```
 
 

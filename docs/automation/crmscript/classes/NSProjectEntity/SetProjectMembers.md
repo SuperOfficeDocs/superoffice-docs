@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetProjectMembers
+title: SetProjectMembers(ProjectMemberArray projectMembers)
+intellisense: NSProjectEntity.SetProjectMembers
+keywords: NSProjectEntity, GetProjectMembers
+so.topic: reference
 ---
-title: Void SetProjectMembers(NSProjectMember[] ProjectMembers)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetProjectMembers(NSProjectMember[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectMembers(NSProjectMember[])
----
-
 
 The persons which are members of the project
 
+**Parameter:** 
+ - **projectMembers** ProjectMemberArray
 
-
-* **ProjectMembers:** ProjectMemberArray
-* **Returns:** ProjectMemberArray
-
+```crmscript
+NSProjectEntity thing;
+ProjectMemberArray projectMembers;
+thing.SetProjectMembers(projectMembers);
+```
 

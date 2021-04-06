@@ -1,16 +1,22 @@
+﻿---
+uid: crmscript_ref_NSTicketMessage_GetSlevel
+title: TicketSecurityLevel GetSlevel()
+intellisense: NSTicketMessage.GetSlevel
+keywords: NSTicketMessage, GetSlevel
+so.topic: reference
 ---
-title: NSTicketSecurityLevel GetSlevel()
-path: /EJScript/Classes/NSTicketMessage/Member functions/NSTicketSecurityLevel GetSlevel()
-intellisense: 1
-classref: 1
-keywords: GetSlevel()
----
-
 
 The securitylevel of the message.
 
+**Returns:** TicketSecurityLevel
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Internal 
+     - Enum: 2 = External 
 
-* **Returns:** TicketSecurityLevel
+```crmscript
+NSTicketMessage thing;
+TicketSecurityLevel slevel  = thing.GetSlevel();
+```
 
 

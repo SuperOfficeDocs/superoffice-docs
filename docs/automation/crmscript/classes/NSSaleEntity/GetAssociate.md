@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetAssociate
+title: Associate GetAssociate()
+intellisense: NSSaleEntity.GetAssociate
+keywords: NSSaleEntity, GetAssociate
+so.topic: reference
 ---
-title: NSAssociate GetAssociate()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSAssociate GetAssociate()
-intellisense: 1
-classref: 1
-keywords: GetAssociate()
----
-
 
 The sale owner
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSSaleEntity thing;
+Associate associate  = thing.GetAssociate();
+```
 
 

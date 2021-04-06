@@ -1,16 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSRelationDefinitionEntity_GetDestination
 title: Integer GetDestination()
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Integer GetDestination()
-intellisense: 1
-classref: 1
-keywords: GetDestination()
+intellisense: NSRelationDefinitionEntity.GetDestination
+keywords: NSRelationDefinitionEntity, GetDestination
+so.topic: reference
 ---
-
 
 The destination of the relation
 
+**Returns:** Integer
 
+     - Enum: 0 = None 
+     - Enum: 1 = Contact 
+     - Enum: 2 = Person 
+     - Enum: 3 = Both 
 
-* **Returns:** Integer
+```crmscript
+NSRelationDefinitionEntity thing;
+Integer destination  = thing.GetDestination();
+```
 
 

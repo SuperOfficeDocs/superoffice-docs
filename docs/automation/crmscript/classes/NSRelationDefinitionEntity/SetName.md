@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRelationDefinitionEntity_SetName
+title: SetName(String name)
+intellisense: NSRelationDefinitionEntity.SetName
+keywords: NSRelationDefinitionEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Active text
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSRelationDefinitionEntity thing;
+String name;
+thing.SetName(name);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: Bool checkTableRights(String tableRight)
-path: /EJScript/Classes/Customer/Member functions/Bool checkTableRights(String tableRight)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_checkTableRights_String_tableRight
+title: Customer.checkTableRights(String tableRight)
+intellisense: Customer.checkTableRights
 sortOrder: 173
 keywords: checkTableRights(String)
+so.topic: reference
 ---
 
 Use this function to see if the current user has access to this customer.

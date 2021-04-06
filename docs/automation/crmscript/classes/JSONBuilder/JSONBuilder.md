@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_JSONBuilder
 title: JSONBuilder
-path: /EJScript/Classes/JSONBuilder
-intellisense: 1
-classref: 1
+intellisense: Void.JSONBuilder
 sortOrder: 442
+so.topic: reference
 ---
 
 

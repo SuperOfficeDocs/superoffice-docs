@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_GetCreatedBy
+title: Associate GetCreatedBy()
+intellisense: NSRoleEntity.GetCreatedBy
+keywords: NSRoleEntity, GetCreatedBy
+so.topic: reference
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSRoleEntity/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
-keywords: GetCreatedBy()
----
-
 
 Created by user
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSRoleEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
 
 

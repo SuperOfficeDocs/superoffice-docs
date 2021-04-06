@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetSignOffText
+title: SetSignOffText(String signOffText)
+intellisense: NSProjectEvent.SetSignOffText
+keywords: NSProjectEvent, GetSignOffText
+so.topic: reference
 ---
-title: Void SetSignOffText(String SignOffText)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOffText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOffText(String)
----
-
 
 Default text for the activity created when signing off.
 
+**Parameter:** 
+ - **signOffText** String
 
-
-* **SignOffText:** String
-* **Returns:** String
-
+```crmscript
+NSProjectEvent thing;
+String signOffText;
+thing.SetSignOffText(signOffText);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetValidPostalAddresses()
-path: /EJScript/Classes/NSRecipientStatistics/Member functions/Integer GetValidPostalAddresses()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecipientStatistics_GetValidPostalAddresses
+title: NSRecipientStatistics.GetValidPostalAddresses()
+intellisense: NSRecipientStatistics.GetValidPostalAddresses
 keywords: GetValidPostalAddresses()
+so.topic: reference
 ---
 
 

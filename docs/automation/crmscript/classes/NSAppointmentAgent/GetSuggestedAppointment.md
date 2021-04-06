@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_GetSuggestedAppointment
+title: NSSuggestedAppointment GetSuggestedAppointment(Integer suggestedAppointmentId);
+intellisense: NSAppointmentAgent.GetSuggestedAppointment
+keywords: NSAppointmentAgent, GetSuggestedAppointment
+so.topic: reference
 ---
-title: NSSuggestedAppointment GetSuggestedAppointment(Integer suggestedAppointmentId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSSuggestedAppointment GetSuggestedAppointment(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 898
-keywords: GetSuggestedAppointment(Integer)
----
 
+Gets a NSSuggestedAppointment object.
 
-Gets a SuggestedAppointment object.
+**Parameters:**
+ - **suggestedAppointmentId** The identifier of the NSSuggestedAppointment object
 
+**Returns:** NSSuggestedAppointment
 
-
-* **suggestedAppointmentId:** The identifier of the SuggestedAppointment object
-* **Returns:** SuggestedAppointment
-
+```crmscript
+NSAppointmentAgent agent;
+NSSuggestedAppointment thing = agent.GetSuggestedAppointment(123);
+```
 

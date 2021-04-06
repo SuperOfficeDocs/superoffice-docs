@@ -1,13 +1,22 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetExtraFields
+title: SetExtraFields(Map extras)
+intellisense: NSPersonEntity.SetExtraFields
+keywords: NSPersonEntity, SetExtraFields
+so.topic: reference
 ---
-title: Void SetExtraFields(Map fields)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetExtraFields(Map p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraFields(Map)
----
 
+Set the extra field values on PersonEntity with a map.
 
-* **fields:** Map
-* **Returns:** Void
+**Parameter:** 
+ - **extras** Map containing extra field values encoded as strings.
 
+```crmscript
+NSPersonEntity thing;
+Map extras;
+extras["SuperOffice:1"] = "[I:123]";
+extras["SuperOffice:1"] = "123"; // this will also work, but beware of decimal point variations in different languages
+extras["custom.progid"] = "foobar";
+thing.SetExtraFields(extras);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoRelation_SetDefaultValue
+title: SetDefaultValue(Integer defaultValue)
+intellisense: NSFieldInfoRelation.SetDefaultValue
+keywords: NSFieldInfoRelation, GetDefaultValue
+so.topic: reference
 ---
-title: Void SetDefaultValue(Integer DefaultValue)
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/Void SetDefaultValue(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3541
-keywords: SetDefaultValue(Integer)
----
-
 
 Default record id.
 
+**Parameter:** 
+ - **defaultValue** Integer
 
-
-* **DefaultValue:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFieldInfoRelation thing;
+Integer defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
 

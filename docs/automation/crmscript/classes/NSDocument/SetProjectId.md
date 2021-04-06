@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocument_SetProjectId
+title: SetProjectId(Integer projectId)
+intellisense: NSDocument.SetProjectId
+keywords: NSDocument, GetProjectId
+so.topic: reference
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2460
-keywords: SetProjectId(Integer)
----
-
 
 ID of project referred to, may be 0
 
+**Parameter:** 
+ - **projectId** Integer
 
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDocument thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
 

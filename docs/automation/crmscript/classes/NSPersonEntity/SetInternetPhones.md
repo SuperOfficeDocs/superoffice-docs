@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetInternetPhones
+title: SetInternetPhones(EntityElementArray internetPhones)
+intellisense: NSPersonEntity.SetInternetPhones
+keywords: NSPersonEntity, GetInternetPhones
+so.topic: reference
 ---
-title: Void SetInternetPhones(NSEntityElement[] InternetPhones)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetInternetPhones(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetInternetPhones(NSEntityElement[])
----
 
 
-* **InternetPhones:** EntityElementArray
-* **Returns:** EntityElementArray
 
+**Parameter:** 
+ - **internetPhones** EntityElementArray
+
+```crmscript
+NSPersonEntity thing;
+EntityElementArray internetPhones;
+thing.SetInternetPhones(internetPhones);
+```
 

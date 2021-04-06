@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSBLOBAgent_GetBlobEntity
+title: NSBlobEntity GetBlobEntity(Integer blobEntityId);
+intellisense: NSBLOBAgent.GetBlobEntity
+keywords: NSBLOBAgent, GetBlobEntity
+so.topic: reference
 ---
-title: NSBlobEntity GetBlobEntity(Integer blobEntityId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSBlobEntity GetBlobEntity(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1410
-keywords: GetBlobEntity(Integer)
----
 
+Gets a NSBlobEntity object.
 
-Gets a BlobEntity object.
+**Parameters:**
+ - **blobEntityId** The identifier of the NSBlobEntity object
 
+**Returns:** NSBlobEntity
 
-
-* **blobEntityId:** The identifier of the BlobEntity object
-* **Returns:** BlobEntity
-
+```crmscript
+NSBLOBAgent agent;
+NSBlobEntity thing = agent.GetBlobEntity(123);
+```
 

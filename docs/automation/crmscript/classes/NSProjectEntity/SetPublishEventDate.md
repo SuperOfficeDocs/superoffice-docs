@@ -1,13 +1,13 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetPublishEventDate
+title: SetPublishEventDate(DateTime publishDate)
+intellisense: NSProjectEntity.SetPublishEventDate
+keywords: NSProjectEntity, SetPublishEventDate
+so.topic: reference
 ---
-title: Void SetPublishEventDate(DateTime fields)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetPublishEventDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetPublishEventDate(DateTime)
----
 
+Publish event date on ProjectEntity.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishDate** DateTime.
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetSoldTotalOwnCurrency
+title: SetSoldTotalOwnCurrency(Float soldTotalOwnCurrency)
+intellisense: NSSaleSummary.SetSoldTotalOwnCurrency
+keywords: NSSaleSummary, GetSoldTotalOwnCurrency
+so.topic: reference
 ---
-title: Void SetSoldTotalOwnCurrency(Float SoldTotalOwnCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetSoldTotalOwnCurrency(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetSoldTotalOwnCurrency(Float)
----
-
 
 Summed amount for all sold within the period in default currency for the current user
 
+**Parameter:** 
+ - **soldTotalOwnCurrency** Float
 
-
-* **SoldTotalOwnCurrency:** Float
-* **Returns:** Float
-
+```crmscript
+NSSaleSummary thing;
+Float soldTotalOwnCurrency;
+thing.SetSoldTotalOwnCurrency(soldTotalOwnCurrency);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: Float GetStandardDouble()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Float GetStandardDouble()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAATestClassForModeling_GetStandardDouble
+title: NSAAATestClassForModeling.GetStandardDouble()
+intellisense: NSAAATestClassForModeling.GetStandardDouble
 sortOrder: 8921
 keywords: GetStandardDouble()
+so.topic: reference
 ---
 
 

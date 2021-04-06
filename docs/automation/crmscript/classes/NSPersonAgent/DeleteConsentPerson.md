@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_DeleteConsentPerson
+title: DeleteConsentPerson(Integer consentPerson);
+intellisense: NSPersonAgent.DeleteConsentPerson
+keywords: NSPersonAgent, DeleteConsentPerson
+so.topic: reference
 ---
-title: Void DeleteConsentPerson(Integer consentPersonId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void DeleteConsentPerson(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteConsentPerson(Integer)
----
 
+Deletes the NSConsentPerson
+  
+**Parameters:**
+ - **consentPersonId** The identity of the ConsentPerson to delete.
 
-Deletes the ConsentPerson
-
-
-
-* **consentPersonId:** The identity of the ConsentPerson
-
+```crmscript
+NSPersonAgent agent;
+agent.DeleteConsentPerson(123);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetFrom
+title: SetFrom(EMailAddress from)
+intellisense: NSEMailEntity.SetFrom
+keywords: NSEMailEntity, GetFrom
+so.topic: reference
 ---
-title: Void SetFrom(NSEMailAddress From)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetFrom(NSEMailAddress p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2984
-keywords: SetFrom(NSEMailAddress)
----
-
 
 Who did the e-mail originate from
 
+**Parameter:** 
+ - **from** EMailAddress
 
-
-* **From:** EMailAddress
-* **Returns:** EMailAddress
-
+```crmscript
+NSEMailEntity thing;
+EMailAddress from;
+thing.SetFrom(from);
+```
 

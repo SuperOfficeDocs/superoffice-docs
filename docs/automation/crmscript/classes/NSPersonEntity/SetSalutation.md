@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetSalutation
+title: SetSalutation(String salutation)
+intellisense: NSPersonEntity.SetSalutation
+keywords: NSPersonEntity, GetSalutation
+so.topic: reference
 ---
-title: Void SetSalutation(String Salutation)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetSalutation(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSalutation(String)
----
-
 
 Academic title, populated from Salutation list but can be overwritten with anything at all
 
+**Parameter:** 
+ - **salutation** String
 
-
-* **Salutation:** String
-* **Returns:** String
-
+```crmscript
+NSPersonEntity thing;
+String salutation;
+thing.SetSalutation(salutation);
+```
 

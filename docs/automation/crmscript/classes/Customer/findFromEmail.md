@@ -1,10 +1,10 @@
 ---
-title: Bool findFromEmail(String email)
-path: /EJScript/Classes/Customer/Member functions/Bool findFromEmail(String email)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_findFromEmail_String_email
+title: Customer.findFromEmail(String email)
+intellisense: Customer.findFromEmail
 sortOrder: 177
 keywords: findFromEmail(String)
+so.topic: reference
 ---
 
 Find a Customer instance based on the email address.

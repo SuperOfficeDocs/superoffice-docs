@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetCompleted
+title: SetCompleted(Bool completed)
+intellisense: NSSelectionEntity.SetCompleted
+keywords: NSSelectionEntity, GetCompleted
+so.topic: reference
 ---
-title: Void SetCompleted(Bool Completed)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetCompleted(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetCompleted(Bool)
----
 
+The Completed state. 
 
-The Completed state.
+**Parameter:** 
+ - **completed** Bool
 
-
-
-* **Completed:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSSelectionEntity thing;
+Bool completed;
+thing.SetCompleted(completed);
+```
 

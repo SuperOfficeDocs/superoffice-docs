@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetPost3
 title: String GetPost3()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetPost3()
-intellisense: 1
-classref: 1
-keywords: GetPost3()
+intellisense: NSPersonEntity.GetPost3
+keywords: NSPersonEntity, GetPost3
+so.topic: reference
 ---
-
 
 Postal address, used in Japanese versions only
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPersonEntity thing;
+String post3  = thing.GetPost3();
+```
 
 

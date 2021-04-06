@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTicketPriorityList
+title: NSTicketPriority[] GetTicketPriorityList(Integer[]  ticketPriorityIds);
+intellisense: NSListAgent.GetTicketPriorityList
+keywords: NSListAgent, GetTicketPriorityList
+so.topic: reference
 ---
-title: NSTicketPriority[] GetTicketPriorityList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriority[] GetTicketPriorityList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetTicketPriorityList(Integer[])
----
 
-Gets an array of TicketPriority objects.
+Gets a vector of TicketPriority objects.
 
+**Parameters:**
+ - **ticketPriorityIds** The identifiers of the NSTicketPriority objects
 
-* **p0:** IntegerArray of identifiers for TicketPriority
-* **Returns:** Array of NSTicketPriority
+**Returns:** Vector of NSTicketPriority objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetTicketPriorityList(ids);
+```
 

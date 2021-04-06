@@ -1,10 +1,10 @@
 ---
-title: String getValue(String field)
-path: /EJScript/Classes/Category/member functions/String getValue(String field)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Category_getValue_String_field
+title: Category.getValue(String field)
+intellisense: Category.getValue
 sortOrder: 153
 keywords: getValue(String)
+so.topic: reference
 ---
 
 Retrieves the value of the given field in the category.

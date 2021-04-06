@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResourceOverride_SetResourceValue
+title: SetResourceValue(String resourceValue)
+intellisense: NSResourceOverride.SetResourceValue
+keywords: NSResourceOverride, GetResourceValue
+so.topic: reference
 ---
-title: Void SetResourceValue(String ResourceValue)
-path: /EJScript/Classes/NSResourceOverride/Member functions/Void SetResourceValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetResourceValue(String)
----
-
 
 The value of the resource in the given culture
 
+**Parameter:** 
+ - **resourceValue** String
 
-
-* **ResourceValue:** String
-* **Returns:** String
-
+```crmscript
+NSResourceOverride thing;
+String resourceValue;
+thing.SetResourceValue(resourceValue);
+```
 

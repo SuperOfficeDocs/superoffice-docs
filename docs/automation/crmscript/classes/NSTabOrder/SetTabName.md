@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTabOrder_SetTabName
+title: SetTabName(String tabName)
+intellisense: NSTabOrder.SetTabName
+keywords: NSTabOrder, GetTabName
+so.topic: reference
 ---
-title: Void SetTabName(String TabName)
-path: /EJScript/Classes/NSTabOrder/Member functions/Void SetTabName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTabName(String)
----
-
 
 Name of tab control
 
+**Parameter:** 
+ - **tabName** String
 
-
-* **TabName:** String
-* **Returns:** String
-
+```crmscript
+NSTabOrder thing;
+String tabName;
+thing.SetTabName(tabName);
+```
 

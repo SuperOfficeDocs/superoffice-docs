@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDocument
 title: NSDocument
-path: /EJScript/Classes/NSDocument
-intellisense: 1
-classref: 1
-sortOrder: 2427
+intellisense: Void.NSDocument
+keywords: NSDocument
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

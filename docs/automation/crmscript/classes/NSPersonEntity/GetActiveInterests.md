@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetActiveInterests
 title: Integer GetActiveInterests()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetActiveInterests()
-intellisense: 1
-classref: 1
-keywords: GetActiveInterests()
+intellisense: NSPersonEntity.GetActiveInterests
+keywords: NSPersonEntity, GetActiveInterests
+so.topic: reference
 ---
-
 
 The number of active interests.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPersonEntity thing;
+Integer activeInterests  = thing.GetActiveInterests();
+```
 
 

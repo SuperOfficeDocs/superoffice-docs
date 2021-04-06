@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetCompetitor
+title: Competitor GetCompetitor()
+intellisense: NSSaleEntity.GetCompetitor
+keywords: NSSaleEntity, GetCompetitor
+so.topic: reference
 ---
-title: NSCompetitor GetCompetitor()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSCompetitor GetCompetitor()
-intellisense: 1
-classref: 1
-keywords: GetCompetitor()
----
+
+List of all possible competitors. 
+
+**Returns:** Competitor
 
 
-List of all possible competitors.
-
-
-
-* **Returns:** Competitor
+```crmscript
+NSSaleEntity thing;
+Competitor competitor  = thing.GetCompetitor();
+```
 
 

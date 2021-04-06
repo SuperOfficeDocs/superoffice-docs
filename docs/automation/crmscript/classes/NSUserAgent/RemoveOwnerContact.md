@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent_RemoveOwnerContact
 title: Void RemoveOwnerContact(Integer contactId)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void RemoveOwnerContact(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: RemoveOwnerContact(Integer)
+intellisense: NSUserAgent.RemoveOwnerContact
+keywords: NSUserAgent, RemoveOwnerContact
+so.topic: reference
 ---
-
 
 Remove a contact from the ownercontactlink table
 
-
-
-* **contactId:** The id of the contact to remove
-
-
+**Parameters:**
+ - **contactId** The id of the contact to remove

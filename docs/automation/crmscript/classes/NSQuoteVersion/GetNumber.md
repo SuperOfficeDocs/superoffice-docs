@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetNumber
 title: String GetNumber()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetNumber()
-intellisense: 1
-classref: 1
-keywords: GetNumber()
+intellisense: NSQuoteVersion.GetNumber
+keywords: NSQuoteVersion, GetNumber
+so.topic: reference
 ---
-
 
 A quote number that the user (or ERP connector) can fill out.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersion thing;
+String number  = thing.GetNumber();
+```
 
 

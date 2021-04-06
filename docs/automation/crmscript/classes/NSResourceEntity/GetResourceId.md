@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSResourceEntity_GetResourceId
 title: Integer GetResourceId()
-path: /EJScript/Classes/NSResourceEntity/Member functions/Integer GetResourceId()
-intellisense: 1
-classref: 1
-keywords: GetResourceId()
+intellisense: NSResourceEntity.GetResourceId
+keywords: NSResourceEntity, GetResourceId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSResourceEntity thing;
+Integer resourceId  = thing.GetResourceId();
+```
 
 

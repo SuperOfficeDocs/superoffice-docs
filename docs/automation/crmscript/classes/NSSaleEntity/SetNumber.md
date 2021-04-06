@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetNumber
+title: SetNumber(String number)
+intellisense: NSSaleEntity.SetNumber
+keywords: NSSaleEntity, GetNumber
+so.topic: reference
 ---
-title: Void SetNumber(String Number)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetNumber(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetNumber(String)
----
-
 
 Alphanumeric user field
 
+**Parameter:** 
+ - **number** String
 
-
-* **Number:** String
-* **Returns:** String
-
+```crmscript
+NSSaleEntity thing;
+String number;
+thing.SetNumber(number);
+```
 

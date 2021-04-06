@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetCountRows
 title: Integer GetCountRows()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetCountRows()
-intellisense: 1
-classref: 1
-keywords: GetCountRows()
+intellisense: NSReportLabelLayoutEntity.GetCountRows
+keywords: NSReportLabelLayoutEntity, GetCountRows
+so.topic: reference
 ---
-
 
 Number of rows
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer countRows  = thing.GetCountRows();
+```
 
 

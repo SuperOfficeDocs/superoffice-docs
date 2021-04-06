@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPaymentTerm_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSPaymentTerm.SetTooltip
+keywords: NSPaymentTerm, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSPaymentTerm/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the PaymentTerm list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String PaymentTerm tooltip description.
 
+```crmscript
+NSPaymentTerm thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

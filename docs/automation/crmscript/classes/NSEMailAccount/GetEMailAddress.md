@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAccount_GetEMailAddress
 title: String GetEMailAddress()
-path: /EJScript/Classes/NSEMailAccount/Member functions/String GetEMailAddress()
-intellisense: 1
-classref: 1
-sortOrder: 2750
-keywords: GetEMailAddress()
+intellisense: NSEMailAccount.GetEMailAddress
+keywords: NSEMailAccount, GetEMailAddress
+so.topic: reference
 ---
-
 
 The account (from) address
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAccount thing;
+String eMailAddress  = thing.GetEMailAddress();
+```
 
 

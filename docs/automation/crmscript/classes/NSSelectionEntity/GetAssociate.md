@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetAssociate
+title: Associate GetAssociate()
+intellisense: NSSelectionEntity.GetAssociate
+keywords: NSSelectionEntity, GetAssociate
+so.topic: reference
 ---
-title: NSAssociate GetAssociate()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/NSAssociate GetAssociate()
-intellisense: 1
-classref: 1
-keywords: GetAssociate()
----
-
 
 Owner of the selection
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSSelectionEntity thing;
+Associate associate  = thing.GetAssociate();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetTwoLetterISOCountry
 title: String GetTwoLetterISOCountry()
-path: /EJScript/Classes/NSCountry/Member functions/String GetTwoLetterISOCountry()
-intellisense: 1
-classref: 1
-sortOrder: 2028
-keywords: GetTwoLetterISOCountry()
+intellisense: NSCountry.GetTwoLetterISOCountry
+keywords: NSCountry, GetTwoLetterISOCountry
+so.topic: reference
 ---
 
+Two-letter country-code according to ISO3166 
 
-Two-letter country-code according to ISO3166
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSCountry thing;
+String twoLetterISOCountry  = thing.GetTwoLetterISOCountry();
+```
 
 

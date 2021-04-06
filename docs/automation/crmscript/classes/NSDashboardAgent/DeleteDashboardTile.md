@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSDashboardAgent_DeleteDashboardTile
+title: DeleteDashboardTile(Integer dashboardTile);
+intellisense: NSDashboardAgent.DeleteDashboardTile
+keywords: NSDashboardAgent, DeleteDashboardTile
+so.topic: reference
 ---
-title: Void DeleteDashboardTile(Integer dashboardTileId)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/Void DeleteDashboardTile(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2285
-keywords: DeleteDashboardTile(Integer)
----
 
+Deletes the NSDashboardTile
+  
+**Parameters:**
+ - **dashboardTileId** The identity of the DashboardTile to delete.
 
-Deletes the DashboardTile
-
-
-
-* **dashboardTileId:** The identity of the DashboardTile
-
+```crmscript
+NSDashboardAgent agent;
+agent.DeleteDashboardTile(123);
+```
 

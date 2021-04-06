@@ -1,17 +1,22 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetInterOperator
 title: Integer GetInterOperator()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Integer GetInterOperator()
-intellisense: 1
-classref: 1
-sortOrder: 1214
-keywords: GetInterOperator()
+intellisense: NSArchiveRestrictionInfo.GetInterOperator
+keywords: NSArchiveRestrictionInfo, GetInterOperator
+so.topic: reference
 ---
-
 
 Get or set the inter-restriction operator that describes how this restriction is related to the next one in an array. Default for new ArchiveRestrictionInfo objects is And
 
+**Returns:** Integer
 
+     - Enum: 0 = None 
+     - Enum: 1 = And 
+     - Enum: 2 = Or 
 
-* **Returns:** Integer
+```crmscript
+NSArchiveRestrictionInfo thing;
+Integer interOperator  = thing.GetInterOperator();
+```
 
 

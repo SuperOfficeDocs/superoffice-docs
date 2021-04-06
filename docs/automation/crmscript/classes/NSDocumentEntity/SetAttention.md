@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_SetAttention
+title: SetAttention(String attention)
+intellisense: NSDocumentEntity.SetAttention
+keywords: NSDocumentEntity, GetAttention
+so.topic: reference
 ---
-title: Void SetAttention(String Attention)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetAttention(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2586
-keywords: SetAttention(String)
----
-
 
 Attention/salutation
 
+**Parameter:** 
+ - **attention** String
 
-
-* **Attention:** String
-* **Returns:** String
-
+```crmscript
+NSDocumentEntity thing;
+String attention;
+thing.SetAttention(attention);
+```
 

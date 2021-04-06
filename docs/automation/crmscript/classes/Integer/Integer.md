@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_Integer
 title: Integer
-path: /EJScript/Classes/Integer
-intellisense: 1
-classref: 1
+intellisense: Void.Integer
 sortOrder: 422
+so.topic: reference
 ---
 
 

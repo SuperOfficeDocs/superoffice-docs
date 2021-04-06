@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteListItem
 title: NSQuoteListItem
-path: /EJScript/Classes/NSQuoteListItem
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuoteListItem
+keywords: NSQuoteListItem
+so.topic: reference
 ---
-
 
 One line in a list
 
-
-
-
-1. autolist
+1. autolist 
 

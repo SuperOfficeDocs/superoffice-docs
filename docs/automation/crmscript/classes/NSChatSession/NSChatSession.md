@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSChatSession
 title: NSChatSession
-path: /EJScript/Classes/NSChatSession
-intellisense: 1
-classref: 1
-sortOrder: 1529
+intellisense: Void.NSChatSession
+keywords: NSChatSession
+so.topic: reference
 ---
 
+Use the ChatSessionEntity on the Chat agent instead. Chat sessions belong to a chat topic, and contain messages to/from users
 
-Item describing a chat session
-
-
-
-
-1. autolist
+1. autolist 
 

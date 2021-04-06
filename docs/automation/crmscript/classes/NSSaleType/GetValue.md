@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSSaleType_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSSaleType/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSSaleType.GetValue
+keywords: NSSaleType, GetValue
+so.topic: reference
 ---
 
+Get the name of the SaleType.
 
-* **Returns:** String
+**Returns:** String SaleType name.
 
+```crmscript
+NSSaleType thing;
+String name = thing.GetValue();
+```
 

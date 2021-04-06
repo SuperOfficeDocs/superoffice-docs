@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboard_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSDashboard.SetAssociateId
+keywords: NSDashboard, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSDashboard/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2265
-keywords: SetAssociateId(Integer)
----
-
 
 Id of the associate who owns this dashboard
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDashboard thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

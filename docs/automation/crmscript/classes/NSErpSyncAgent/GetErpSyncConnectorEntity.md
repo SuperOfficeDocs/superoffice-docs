@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_GetErpSyncConnectorEntity
+title: NSErpSyncConnectorEntity GetErpSyncConnectorEntity(Integer erpSyncConnectorEntityId);
+intellisense: NSErpSyncAgent.GetErpSyncConnectorEntity
+keywords: NSErpSyncAgent, GetErpSyncConnectorEntity
+so.topic: reference
 ---
-title: NSErpSyncConnectorEntity GetErpSyncConnectorEntity(Integer erpSyncConnectorEntityId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncConnectorEntity GetErpSyncConnectorEntity(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3201
-keywords: GetErpSyncConnectorEntity(Integer)
----
 
+Gets a NSErpSyncConnectorEntity object.
 
-Gets a ErpSyncConnectorEntity object.
+**Parameters:**
+ - **erpSyncConnectorEntityId** The identifier of the NSErpSyncConnectorEntity object
 
+**Returns:** NSErpSyncConnectorEntity
 
-
-* **erpSyncConnectorEntityId:** The identifier of the ErpSyncConnectorEntity object
-* **Returns:** ErpSyncConnectorEntity
-
+```crmscript
+NSErpSyncAgent agent;
+NSErpSyncConnectorEntity thing = agent.GetErpSyncConnectorEntity(123);
+```
 

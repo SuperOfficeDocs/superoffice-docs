@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSListEntity_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSListEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSListEntity.GetDeleted
+keywords: NSListEntity, GetDeleted
+so.topic: reference
 ---
-
 
 True if the list item is marked as deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSListEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

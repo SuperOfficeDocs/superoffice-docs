@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetStatusId
 title: Integer GetStatusId()
-path: /EJScript/Classes/NSProject/Member functions/Integer GetStatusId()
-intellisense: 1
-classref: 1
-keywords: GetStatusId()
+intellisense: NSProject.GetStatusId
+keywords: NSProject, GetStatusId
+so.topic: reference
 ---
-
 
 The projects status id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProject thing;
+Integer statusId  = thing.GetStatusId();
+```
 
 

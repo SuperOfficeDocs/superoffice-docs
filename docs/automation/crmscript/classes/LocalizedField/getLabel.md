@@ -1,10 +1,10 @@
 ---
-title: String getLabel()
-path: /EJScript/Classes/LocalizedField/Member functions/String getLabel()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_LocalizedField_getLabel
+title: LocalizedField.getLabel()
+intellisense: LocalizedField.getLabel
 sortOrder: 468
 keywords: getLabel()
+so.topic: reference
 ---
 
 

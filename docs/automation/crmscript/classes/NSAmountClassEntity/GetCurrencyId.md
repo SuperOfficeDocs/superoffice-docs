@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAmountClassEntity_GetCurrencyId
 title: Integer GetCurrencyId()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Integer GetCurrencyId()
-intellisense: 1
-classref: 1
-sortOrder: 699
-keywords: GetCurrencyId()
+intellisense: NSAmountClassEntity.GetCurrencyId
+keywords: NSAmountClassEntity, GetCurrencyId
+so.topic: reference
 ---
-
 
 Currency the limits in this amount class refer to. Mixing currencies between classes can give rise to overlapping intervals and thus unpredictable classifications.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAmountClassEntity thing;
+Integer currencyId  = thing.GetCurrencyId();
+```
 
 

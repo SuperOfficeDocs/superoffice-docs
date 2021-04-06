@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetPersonId
 title: Integer GetPersonId()
-path: /EJScript/Classes/NSSale/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
-keywords: GetPersonId()
+intellisense: NSSale.GetPersonId
+keywords: NSSale, GetPersonId
+so.topic: reference
 ---
-
 
 The sale's contact persons id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSale thing;
+Integer personId  = thing.GetPersonId();
+```
 
 

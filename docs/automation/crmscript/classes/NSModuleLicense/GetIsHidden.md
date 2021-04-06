@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSModuleLicense_GetIsHidden
 title: Bool GetIsHidden()
-path: /EJScript/Classes/NSModuleLicense/Member functions/Bool GetIsHidden()
-intellisense: 1
-classref: 1
-keywords: GetIsHidden()
+intellisense: NSModuleLicense.GetIsHidden
+keywords: NSModuleLicense, GetIsHidden
+so.topic: reference
 ---
-
 
 If true, then this module should not appear in GUI and is not assignable by users
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSModuleLicense thing;
+Bool isHidden  = thing.GetIsHidden();
+```
 
 

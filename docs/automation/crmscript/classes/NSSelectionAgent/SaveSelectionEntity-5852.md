@@ -1,9 +1,9 @@
 ---
-title: Void SaveSelectionEntity(NSSelectionEntity selectionEntity)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void SaveSelectionEntity(NSSelectionEntity p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionAgent_SaveSelectionEntity_NSSelectionEntity_p_0
+title: NSSelectionAgent.SaveSelectionEntity(NSSelectionEntity p_0)
+intellisense: NSSelectionAgent.SaveSelectionEntity
 keywords: SaveSelectionEntity(NSSelectionEntity)
+so.topic: reference
 ---
 
 

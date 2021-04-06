@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSOperationInfo_SetEncodedLeadTexts
+title: SetEncodedLeadTexts(StringArray encodedLeadTexts)
+intellisense: NSOperationInfo.SetEncodedLeadTexts
+keywords: NSOperationInfo, GetEncodedLeadTexts
+so.topic: reference
 ---
-title: Void SetEncodedLeadTexts(String[] EncodedLeadTexts)
-path: /EJScript/Classes/NSOperationInfo/Member functions/Void SetEncodedLeadTexts(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetEncodedLeadTexts(String[])
----
 
 
-* **EncodedLeadTexts:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **encodedLeadTexts** StringArray
+
+```crmscript
+NSOperationInfo thing;
+StringArray encodedLeadTexts;
+thing.SetEncodedLeadTexts(encodedLeadTexts);
+```
 

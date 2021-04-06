@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSCategory_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSCategory/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-sortOrder: 1494
-keywords: GetValue()
+intellisense: NSCategory.GetValue
+keywords: NSCategory, GetValue
+so.topic: reference
 ---
 
+Get the name of the Category.
 
-* **Returns:** String
+**Returns:** String Category name.
 
+```crmscript
+NSCategory thing;
+String name = thing.GetValue();
+```
 

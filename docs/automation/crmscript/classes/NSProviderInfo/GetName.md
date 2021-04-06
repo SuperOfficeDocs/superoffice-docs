@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProviderInfo_GetName
 title: String GetName()
-path: /EJScript/Classes/NSProviderInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSProviderInfo.GetName
+keywords: NSProviderInfo, GetName
+so.topic: reference
 ---
-
 
 Unique name of the provider plugin
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProviderInfo thing;
+String name  = thing.GetName();
+```
 
 

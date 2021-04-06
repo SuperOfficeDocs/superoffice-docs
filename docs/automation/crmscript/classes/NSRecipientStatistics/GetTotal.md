@@ -1,9 +1,9 @@
 ---
-title: Integer GetTotal()
-path: /EJScript/Classes/NSRecipientStatistics/Member functions/Integer GetTotal()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecipientStatistics_GetTotal
+title: NSRecipientStatistics.GetTotal()
+intellisense: NSRecipientStatistics.GetTotal
 keywords: GetTotal()
+so.topic: reference
 ---
 
 

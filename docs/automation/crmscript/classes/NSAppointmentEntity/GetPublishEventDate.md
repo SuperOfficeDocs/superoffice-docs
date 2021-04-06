@@ -1,13 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetPublishEventDate
 title: DateTime GetPublishEventDate()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/DateTime GetPublishEventDate()
-intellisense: 1
-classref: 1
-sortOrder: 934
-keywords: GetPublishEventDate()
+intellisense: NSAppointmentEntity.GetPublishEventDate
+keywords: NSAppointmentEntity, GetPublishEventDate
+so.topic: reference
 ---
 
+Publish event date on AppointmentEntity.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime
 

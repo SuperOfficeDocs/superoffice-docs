@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_ExtraTableInfo
 title: ExtraTableInfo
-path: /EJScript/Classes/ExtraTableInfo
-intellisense: 1
-classref: 1
+intellisense: Void.ExtraTableInfo
 sortOrder: 326
+so.topic: reference
 ---
 
 With this class you can retrieve meta information about an extra table. The class will only retrieve information, thus it is not possible to change an extra table from this class.

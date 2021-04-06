@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSCountry/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 2027
-keywords: GetTooltip()
+intellisense: NSCountry.GetTooltip
+keywords: NSCountry, GetTooltip
+so.topic: reference
 ---
-
 
 The tooltip of the country
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCountry thing;
+String tooltip  = thing.GetTooltip();
+```
 
 

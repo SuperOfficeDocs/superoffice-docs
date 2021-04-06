@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitorPeriods_GetPeriod1
 title: Integer GetPeriod1()
-path: /EJScript/Classes/NSStatusMonitorPeriods/Member functions/Integer GetPeriod1()
-intellisense: 1
-classref: 1
-keywords: GetPeriod1()
+intellisense: NSStatusMonitorPeriods.GetPeriod1
+keywords: NSStatusMonitorPeriods, GetPeriod1
+so.topic: reference
 ---
-
 
 Days in the first period
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSStatusMonitorPeriods thing;
+Integer period1  = thing.GetPeriod1();
+```
 
 

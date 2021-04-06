@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetPhoneId
 title: Integer GetPhoneId()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetPhoneId()
-intellisense: 1
-classref: 1
-keywords: GetPhoneId()
+intellisense: NSSaleStakeholder.GetPhoneId
+keywords: NSSaleStakeholder, GetPhoneId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleStakeholder thing;
+Integer phoneId  = thing.GetPhoneId();
+```
 
 

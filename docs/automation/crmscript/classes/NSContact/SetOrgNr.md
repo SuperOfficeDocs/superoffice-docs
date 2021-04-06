@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetOrgNr
+title: SetOrgNr(String orgNr)
+intellisense: NSContact.SetOrgNr
+keywords: NSContact, GetOrgNr
+so.topic: reference
 ---
-title: Void SetOrgNr(String OrgNr)
-path: /EJScript/Classes/NSContact/Member functions/Void SetOrgNr(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1761
-keywords: SetOrgNr(String)
----
-
 
 VAT number or similar
 
+**Parameter:** 
+ - **orgNr** String
 
-
-* **OrgNr:** String
-* **Returns:** String
-
+```crmscript
+NSContact thing;
+String orgNr;
+thing.SetOrgNr(orgNr);
+```
 

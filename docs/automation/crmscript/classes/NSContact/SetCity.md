@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetCity
+title: SetCity(String city)
+intellisense: NSContact.SetCity
+keywords: NSContact, GetCity
+so.topic: reference
 ---
-title: Void SetCity(String City)
-path: /EJScript/Classes/NSContact/Member functions/Void SetCity(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1748
-keywords: SetCity(String)
----
-
 
 City corresponding to zip code
 
+**Parameter:** 
+ - **city** String
 
-
-* **City:** String
-* **Returns:** String
-
+```crmscript
+NSContact thing;
+String city;
+thing.SetCity(city);
+```
 

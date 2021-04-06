@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreference_GetTargetId
 title: Integer GetTargetId()
-path: /EJScript/Classes/NSPreference/Member functions/Integer GetTargetId()
-intellisense: 1
-classref: 1
-keywords: GetTargetId()
+intellisense: NSPreference.GetTargetId
+keywords: NSPreference, GetTargetId
+so.topic: reference
 ---
-
 
 The id of the target row. The table it points at is specified by the preference type.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPreference thing;
+Integer targetId  = thing.GetTargetId();
+```
 
 

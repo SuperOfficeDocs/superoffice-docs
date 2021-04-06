@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_GetTaskEntity
+title: MailMergeTask GetTaskEntity()
+intellisense: NSMailMergeSettings.GetTaskEntity
+keywords: NSMailMergeSettings, GetTaskEntity
+so.topic: reference
 ---
-title: NSMailMergeTask GetTaskEntity()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/NSMailMergeTask GetTaskEntity()
-intellisense: 1
-classref: 1
-keywords: GetTaskEntity()
----
-
 
 If specified, register a task on recipients using properties from this object.
 
+**Returns:** MailMergeTask
 
 
-* **Returns:** MailMergeTask
+```crmscript
+NSMailMergeSettings thing;
+MailMergeTask taskEntity  = thing.GetTaskEntity();
+```
 
 

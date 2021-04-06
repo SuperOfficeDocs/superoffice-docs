@@ -1,9 +1,9 @@
 ---
-title: String getValue(String colName)
-path: /EJScript/Classes/User/Member functions/String getValue(String colName)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_User_getValue_String_colName
+title: User.getValue(String colName)
+intellisense: User.getValue
 keywords: getValue(String)
+so.topic: reference
 ---
 
 

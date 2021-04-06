@@ -1,9 +1,9 @@
 ---
 description: Integer getPID()
-path: /EJScript/Global functions/Integer getPID()
-intellisense: 1
+intellisense: Void.getPID
 langref: 1
 keywords: getPID()
+so.topic: reference
 ---
 
 

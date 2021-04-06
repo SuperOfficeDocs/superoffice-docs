@@ -1,9 +1,9 @@
 ---
-title: String getPlainBody(Integer language)
-path: /EJScript/Classes/ReplyTemplate/Member functions/String getPlainBody(Integer language)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ReplyTemplate_getPlainBody_Integer_language
+title: ReplyTemplate.getPlainBody(Integer language)
+intellisense: ReplyTemplate.getPlainBody
 keywords: getPlainBody(Integer)
+so.topic: reference
 ---
 
 Returns the Reply template plain text body, in the language given by language

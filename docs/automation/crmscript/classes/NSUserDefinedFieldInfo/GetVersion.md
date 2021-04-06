@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetVersion
 title: Integer GetVersion()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetVersion()
-intellisense: 1
-classref: 1
-keywords: GetVersion()
+intellisense: NSUserDefinedFieldInfo.GetVersion
+keywords: NSUserDefinedFieldInfo, GetVersion
+so.topic: reference
 ---
-
 
 Definition version number; ALL fields get new version whenever layout is updated.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer version  = thing.GetVersion();
+```
 
 

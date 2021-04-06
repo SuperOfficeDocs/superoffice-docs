@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_DeleteProjectMemberByIds
+title: Void DeleteProjectMemberByIds(IntegerArray projectMemberIds)
+intellisense: NSProjectAgent.DeleteProjectMemberByIds
+keywords: NSProjectAgent, DeleteProjectMemberByIds
+so.topic: reference
 ---
-title: Void DeleteProjectMemberByIds(Integer[] projectMemberIds)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Void DeleteProjectMemberByIds(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteProjectMemberByIds(Integer[])
----
-
 
 Deletes projectmembers rows.
 
-
-
-* **projectMemberIds:** An Array of projectmember ids.
-
-
+**Parameters:**
+ - **projectMemberIds** An Array of projectmember ids.

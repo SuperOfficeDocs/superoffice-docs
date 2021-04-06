@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSSaleType_SetValue
+title: SetValue(String value)
+intellisense: NSSaleType.SetValue
+keywords: NSSaleType, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSSaleType/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the SaleType item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String SaleType name.
 
+```crmscript
+NSSaleType thing;
+thing.SetValue("frotz");
+```
 

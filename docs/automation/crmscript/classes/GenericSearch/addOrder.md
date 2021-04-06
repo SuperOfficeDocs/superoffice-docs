@@ -1,10 +1,10 @@
 ---
-title: Void addOrder(String field, Bool asc)
-path: /EJScript/Classes/GenericSearch/Member functions/Void addOrder(String field, Bool asc)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_GenericSearch_addOrder_String_field_Bool_asc
+title: GenericSearch.addOrder(String field, Bool asc)
+intellisense: GenericSearch.addOrder
 sortOrder: 373
 keywords: addOrder(String,Bool)
+so.topic: reference
 ---
 
 

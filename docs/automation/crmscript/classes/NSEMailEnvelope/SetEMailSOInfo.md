@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEnvelope_SetEMailSOInfo
+title: SetEMailSOInfo(EMailSOInfo eMailSOInfo)
+intellisense: NSEMailEnvelope.SetEMailSOInfo
+keywords: NSEMailEnvelope, GetEMailSOInfo
+so.topic: reference
 ---
-title: Void SetEMailSOInfo(NSEMailSOInfo EMailSOInfo)
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Void SetEMailSOInfo(NSEMailSOInfo p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3014
-keywords: SetEMailSOInfo(NSEMailSOInfo)
----
-
 
 Glue between SuperOffice data and an e-mail.
 
+**Parameter:** 
+ - **eMailSOInfo** EMailSOInfo
 
-
-* **EMailSOInfo:** EMailSOInfo
-* **Returns:** EMailSOInfo
-
+```crmscript
+NSEMailEnvelope thing;
+EMailSOInfo eMailSOInfo;
+thing.SetEMailSOInfo(eMailSOInfo);
+```
 

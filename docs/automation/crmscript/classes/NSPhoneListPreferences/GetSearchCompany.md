@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListPreferences_GetSearchCompany
 title: Bool GetSearchCompany()
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Bool GetSearchCompany()
-intellisense: 1
-classref: 1
-keywords: GetSearchCompany()
+intellisense: NSPhoneListPreferences.GetSearchCompany
+keywords: NSPhoneListPreferences, GetSearchCompany
+so.topic: reference
 ---
-
 
 True if you want to search for Companies by their name.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSPhoneListPreferences thing;
+Bool searchCompany  = thing.GetSearchCompany();
+```
 
 

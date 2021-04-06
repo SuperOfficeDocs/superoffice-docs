@@ -1,9 +1,9 @@
 ---
-title: Void addRecipient(String address, String name)
-path: /EJScript/Classes/SpmStaticList/Member functions/Void addRecipient(String address, String name)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmStaticList_addRecipient_String_address_String_name
+title: SpmStaticList.addRecipient(String address, String name)
+intellisense: SpmStaticList.addRecipient
 keywords: addRecipient(String,String)
+so.topic: reference
 ---
 
 

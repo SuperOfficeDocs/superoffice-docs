@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSListEntity_GetIsMDOList
 title: Bool GetIsMDOList()
-path: /EJScript/Classes/NSListEntity/Member functions/Bool GetIsMDOList()
-intellisense: 1
-classref: 1
-keywords: GetIsMDOList()
+intellisense: NSListEntity.GetIsMDOList
+keywords: NSListEntity, GetIsMDOList
+so.topic: reference
 ---
-
 
 Indicates if this is a MDO list
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSListEntity thing;
+Bool isMDOList  = thing.GetIsMDOList();
+```
 
 

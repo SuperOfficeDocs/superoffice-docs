@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSScript_SetDescription
+title: SetDescription(String description)
+intellisense: NSScript.SetDescription
+keywords: NSScript, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSScript/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 Optional description of what this script is used for.
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSScript thing;
+String description;
+thing.SetDescription(description);
+```
 

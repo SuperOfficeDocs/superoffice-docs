@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSTableRight
 title: NSTableRight
-path: /EJScript/Classes/NSTableRight
-intellisense: 1
-classref: 1
+intellisense: Void.NSTableRight
+so.topic: reference
 ---
 
 

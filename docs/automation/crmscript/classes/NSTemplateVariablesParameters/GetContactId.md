@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_GetContactId
 title: Integer GetContactId()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
-keywords: GetContactId()
+intellisense: NSTemplateVariablesParameters.GetContactId
+keywords: NSTemplateVariablesParameters, GetContactId
+so.topic: reference
 ---
-
 
 Identifier for a contact
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer contactId  = thing.GetContactId();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer insert()
-path: /EJScript/Classes/SearchEngine/member functions/Integer insert()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_insert
+title: SearchEngine.insert()
+intellisense: SearchEngine.insert
 keywords: insert()
+so.topic: reference
 ---
 
 

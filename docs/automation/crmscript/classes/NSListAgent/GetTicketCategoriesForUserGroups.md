@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTicketCategoriesForUserGroups
+title: MDOListItemArray GetTicketCategoriesForUserGroups(IntegerArray userGroupIds)
+intellisense: NSListAgent.GetTicketCategoriesForUserGroups
+keywords: NSListAgent, GetTicketCategoriesForUserGroups
+so.topic: reference
 ---
-title: NSMDOListItem[] GetTicketCategoriesForUserGroups(Integer[] userGroupIds)
-path: /EJScript/Classes/NSListAgent/Member functions/NSMDOListItem[] GetTicketCategoriesForUserGroups(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetTicketCategoriesForUserGroups(Integer[])
----
-
 
 Ticket categories for user groups
 
-
-
-* **userGroupIds:** The ids of the user groups we want tickets categories from
-
-
+**Parameters:**
+ - **userGroupIds** The ids of the user groups we want tickets categories from

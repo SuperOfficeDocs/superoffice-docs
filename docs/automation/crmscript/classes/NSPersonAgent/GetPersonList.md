@@ -1,16 +1,21 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_GetPersonList
+title: NSPerson[] GetPersonList(Integer[]  personIds);
+intellisense: NSPersonAgent.GetPersonList
+keywords: NSPersonAgent, GetPersonList
+so.topic: reference
 ---
-title: NSPerson[] GetPersonList(Integer[] p0)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson[] GetPersonList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetPersonList(Integer[])
----
 
-Gets an array of Person objects.
+Gets a vector of Person objects.
 
+**Parameters:**
+ - **personIds** The identifiers of the NSPerson objects
 
+**Returns:** Vector of NSPerson objects
 
-* **p0:** IntegerArray of identifiers for Person
-* **Returns:** Array of NSPerson
-
+```crmscript
+Integer[] ids;
+NSPersonAgent agent;
+agent.GetPersonList(ids);
+```
 

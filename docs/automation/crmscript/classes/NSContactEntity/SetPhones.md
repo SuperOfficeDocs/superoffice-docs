@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetPhones
+title: SetPhones(EntityElementArray phones)
+intellisense: NSContactEntity.SetPhones
+keywords: NSContactEntity, GetPhones
+so.topic: reference
 ---
-title: Void SetPhones(NSEntityElement[] Phones)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetPhones(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1908
-keywords: SetPhones(NSEntityElement[])
----
-
 
 The contact's phone numbers
 
+**Parameter:** 
+ - **phones** EntityElementArray
 
-
-* **Phones:** EntityElementArray
-* **Returns:** EntityElementArray
-
+```crmscript
+NSContactEntity thing;
+EntityElementArray phones;
+thing.SetPhones(phones);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetERPPaymentTermsKey
+title: SetERPPaymentTermsKey(String eRPPaymentTermsKey)
+intellisense: NSQuoteVersion.SetERPPaymentTermsKey
+keywords: NSQuoteVersion, GetERPPaymentTermsKey
+so.topic: reference
 ---
-title: Void SetERPPaymentTermsKey(String ERPPaymentTermsKey)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetERPPaymentTermsKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetERPPaymentTermsKey(String)
----
-
 
 Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Standard 30 days’.
 
+**Parameter:** 
+ - **eRPPaymentTermsKey** String
 
-
-* **ERPPaymentTermsKey:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersion thing;
+String eRPPaymentTermsKey;
+thing.SetERPPaymentTermsKey(eRPPaymentTermsKey);
+```
 

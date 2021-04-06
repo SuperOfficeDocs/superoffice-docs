@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSSuggestedAppointmentEntity.GetName
+keywords: NSSuggestedAppointmentEntity, GetName
+so.topic: reference
 ---
-
 
 Item name, visible in Guide
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSuggestedAppointmentEntity thing;
+String name  = thing.GetName();
+```
 
 

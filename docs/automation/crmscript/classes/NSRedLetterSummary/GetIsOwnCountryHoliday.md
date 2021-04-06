@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRedLetterSummary_GetIsOwnCountryHoliday
 title: Bool GetIsOwnCountryHoliday()
-path: /EJScript/Classes/NSRedLetterSummary/Member functions/Bool GetIsOwnCountryHoliday()
-intellisense: 1
-classref: 1
-keywords: GetIsOwnCountryHoliday()
+intellisense: NSRedLetterSummary.GetIsOwnCountryHoliday
+keywords: NSRedLetterSummary, GetIsOwnCountryHoliday
+so.topic: reference
 ---
-
 
 If true, this day is a holiday in the country of the given associate.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSRedLetterSummary thing;
+Bool isOwnCountryHoliday  = thing.GetIsOwnCountryHoliday();
+```
 
 

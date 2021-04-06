@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetRatingList
+title: NSRating[] GetRatingList(Integer[]  ratingIds);
+intellisense: NSListAgent.GetRatingList
+keywords: NSListAgent, GetRatingList
+so.topic: reference
 ---
-title: NSRating[] GetRatingList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSRating[] GetRatingList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetRatingList(Integer[])
----
 
-Gets an array of Rating objects.
+Gets a vector of Rating objects.
 
+**Parameters:**
+ - **ratingIds** The identifiers of the NSRating objects
 
-* **p0:** IntegerArray of identifiers for Rating
-* **Returns:** Array of NSRating
+**Returns:** Vector of NSRating objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetRatingList(ids);
+```
 

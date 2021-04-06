@@ -1,10 +1,10 @@
 ---
-title: String addAttachment(Integer attachmentId, Bool inline)
-path: /EJScript/Classes/Email/Member functions/String addAttachment(Integer attachmentId, Bool inline)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Email_addAttachment_Integer_attachmentId_Bool_inline
+title: Email.addAttachment(Integer attachmentId, Bool inline)
+intellisense: Email.addAttachment
 sortOrder: 282
 keywords: addAttachment(Integer,Bool)
+so.topic: reference
 ---
 
 Adds an attachment to the email object.

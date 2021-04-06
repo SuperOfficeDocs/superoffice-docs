@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetDeadline
 title: Integer GetDeadline()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Integer GetDeadline()
-intellisense: 1
-classref: 1
-keywords: GetDeadline()
+intellisense: NSTicketPriorityEntity.GetDeadline
+keywords: NSTicketPriorityEntity, GetDeadline
+so.topic: reference
 ---
-
 
 Deadline to add if escalated (minutes)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketPriorityEntity thing;
+Integer deadline  = thing.GetDeadline();
+```
 
 

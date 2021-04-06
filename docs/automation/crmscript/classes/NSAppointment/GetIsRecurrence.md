@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetIsRecurrence
 title: Bool GetIsRecurrence()
-path: /EJScript/Classes/NSAppointment/Member functions/Bool GetIsRecurrence()
-intellisense: 1
-classref: 1
-sortOrder: 719
-keywords: GetIsRecurrence()
+intellisense: NSAppointment.GetIsRecurrence
+keywords: NSAppointment, GetIsRecurrence
+so.topic: reference
 ---
-
 
 True if the appointment is part of a recurring pattern.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSAppointment thing;
+Bool isRecurrence  = thing.GetIsRecurrence();
+```
 
 

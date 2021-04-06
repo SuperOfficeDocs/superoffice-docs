@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_GetHidden
 title: Bool GetHidden()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Bool GetHidden()
-intellisense: 1
-classref: 1
-keywords: GetHidden()
+intellisense: NSSelectableMDOListItem.GetHidden
+keywords: NSSelectableMDOListItem, GetHidden
+so.topic: reference
 ---
-
 
 True if the ListItem is hidden
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSelectableMDOListItem thing;
+Bool hidden  = thing.GetHidden();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBlobEntity_GetUpdatedDate
 title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSBlobEntity/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
-sortOrder: 1443
-keywords: GetUpdatedDate()
+intellisense: NSBlobEntity.GetUpdatedDate
+keywords: NSBlobEntity, GetUpdatedDate
+so.topic: reference
 ---
-
 
 Last updated when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSBlobEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
 
 

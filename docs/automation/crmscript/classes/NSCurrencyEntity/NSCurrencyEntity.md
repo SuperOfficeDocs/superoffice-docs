@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCurrencyEntity
 title: NSCurrencyEntity
-path: /EJScript/Classes/NSCurrencyEntity
-intellisense: 1
-classref: 1
-sortOrder: 2177
+intellisense: Void.NSCurrencyEntity
+keywords: NSCurrencyEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

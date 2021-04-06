@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUser_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSUser/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSUser.GetRank
+keywords: NSUser, GetRank
+so.topic: reference
 ---
 
+Rank order 
 
-Rank order
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSUser thing;
+Integer rank  = thing.GetRank();
+```
 
 

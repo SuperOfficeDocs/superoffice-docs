@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTicketPriority
+title: NSTicketPriority GetTicketPriority(Integer ticketPriorityId);
+intellisense: NSListAgent.GetTicketPriority
+keywords: NSListAgent, GetTicketPriority
+so.topic: reference
 ---
-title: NSTicketPriority GetTicketPriority(Integer ticketPriorityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriority GetTicketPriority(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetTicketPriority(Integer)
----
 
+Gets a NSTicketPriority object.
 
-Gets a TicketPriority object.
+**Parameters:**
+ - **ticketPriorityId** The identifier of the NSTicketPriority object
 
+**Returns:** NSTicketPriority
 
-
-* **ticketPriorityId:** The identifier of the TicketPriority object
-* **Returns:** TicketPriority
-
+```crmscript
+NSListAgent agent;
+NSTicketPriority thing = agent.GetTicketPriority(123);
+```
 

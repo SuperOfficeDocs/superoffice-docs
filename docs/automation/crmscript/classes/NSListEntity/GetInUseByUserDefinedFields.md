@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSListEntity_GetInUseByUserDefinedFields
 title: Bool GetInUseByUserDefinedFields()
-path: /EJScript/Classes/NSListEntity/Member functions/Bool GetInUseByUserDefinedFields()
-intellisense: 1
-classref: 1
-keywords: GetInUseByUserDefinedFields()
+intellisense: NSListEntity.GetInUseByUserDefinedFields
+keywords: NSListEntity, GetInUseByUserDefinedFields
+so.topic: reference
 ---
-
 
 True if this in use by one or more udfields
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSListEntity thing;
+Bool inUseByUserDefinedFields  = thing.GetInUseByUserDefinedFields();
+```
 
 

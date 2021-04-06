@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDashboardAgent_SaveDashboard
+title: NSDashboard SaveDashboard(NSDashboard dashboard);
+intellisense: NSDashboardAgent.SaveDashboard
+keywords: NSDashboardAgent, SaveDashboard
+so.topic: reference
 ---
-title: NSDashboard SaveDashboard(NSDashboard dashboard)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboard SaveDashboard(NSDashboard p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2274
-keywords: SaveDashboard(NSDashboard)
----
+	  
+Updates the existing NSDashboard or creates a new NSDashboard if the id parameter is 0
+	  
+**Parameters**:
+ - **dashboard** The NSDashboard to save.
 
+**Returns:** New or updated NSDashboard
 
-Updates the existing Dashboard or creates a new Dashboard if the id parameter is empty
-
-
-
-* **dashboard:** The Dashboard that is saved
-* **Returns:** New or updated Dashboard
-
+```crmscript
+NSDashboard  agent;
+NSDashboard thing = agent.CreateDefaultDashboard();
+thing = agent.SaveDashboard(thing);
+```
 

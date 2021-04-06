@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAddressSyncData_GetFormattedAddress
 title: String GetFormattedAddress()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/String GetFormattedAddress()
-intellisense: 1
-classref: 1
-sortOrder: 626
-keywords: GetFormattedAddress()
+intellisense: NSAddressSyncData.GetFormattedAddress
+keywords: NSAddressSyncData, GetFormattedAddress
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSAddressSyncData thing;
+String formattedAddress  = thing.GetFormattedAddress();
+```
 
 

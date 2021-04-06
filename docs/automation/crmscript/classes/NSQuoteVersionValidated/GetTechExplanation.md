@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionValidated_GetTechExplanation
 title: String GetTechExplanation()
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/String GetTechExplanation()
-intellisense: 1
-classref: 1
-keywords: GetTechExplanation()
+intellisense: NSQuoteVersionValidated.GetTechExplanation
+keywords: NSQuoteVersionValidated, GetTechExplanation
+so.topic: reference
 ---
-
 
 Always in English
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersionValidated thing;
+String techExplanation  = thing.GetTechExplanation();
+```
 
 

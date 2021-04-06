@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaintConfiguration_SetPeriod1
+title: SetPeriod1(Integer period1)
+intellisense: NSSaintConfiguration.SetPeriod1
+keywords: NSSaintConfiguration, GetPeriod1
+so.topic: reference
 ---
-title: Void SetPeriod1(Integer Period1)
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Void SetPeriod1(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPeriod1(Integer)
----
-
 
 Length of the first counter period
 
+**Parameter:** 
+ - **period1** Integer
 
-
-* **Period1:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaintConfiguration thing;
+Integer period1;
+thing.SetPeriod1(period1);
+```
 

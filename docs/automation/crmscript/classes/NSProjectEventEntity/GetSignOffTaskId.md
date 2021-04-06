@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetSignOffTaskId
 title: Integer GetSignOffTaskId()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Integer GetSignOffTaskId()
-intellisense: 1
-classref: 1
-keywords: GetSignOffTaskId()
+intellisense: NSProjectEventEntity.GetSignOffTaskId
+keywords: NSProjectEventEntity, GetSignOffTaskId
+so.topic: reference
 ---
-
 
 If not 0, sign off should cause an Activity of this type to be registered
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectEventEntity thing;
+Integer signOffTaskId  = thing.GetSignOffTaskId();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactOrPersonFromEmail_SetContactName
+title: SetContactName(String contactName)
+intellisense: NSContactOrPersonFromEmail.SetContactName
+keywords: NSContactOrPersonFromEmail, GetContactName
+so.topic: reference
 ---
-title: Void SetContactName(String ContactName)
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/Void SetContactName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1931
-keywords: SetContactName(String)
----
-
 
 The contact name
 
+**Parameter:** 
+ - **contactName** String
 
-
-* **ContactName:** String
-* **Returns:** String
-
+```crmscript
+NSContactOrPersonFromEmail thing;
+String contactName;
+thing.SetContactName(contactName);
+```
 

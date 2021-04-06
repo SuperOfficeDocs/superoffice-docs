@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetSaleStakeholderId
 title: Integer GetSaleStakeholderId()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetSaleStakeholderId()
-intellisense: 1
-classref: 1
-keywords: GetSaleStakeholderId()
+intellisense: NSSaleStakeholder.GetSaleStakeholderId
+keywords: NSSaleStakeholder, GetSaleStakeholderId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleStakeholder thing;
+Integer saleStakeholderId  = thing.GetSaleStakeholderId();
+```
 
 

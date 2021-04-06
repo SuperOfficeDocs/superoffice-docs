@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_TimeZone
 title: TimeZone
-path: /EJScript/Classes/TimeZone
-intellisense: 1
-classref: 1
+intellisense: Void.TimeZone
+so.topic: reference
 ---
 
 

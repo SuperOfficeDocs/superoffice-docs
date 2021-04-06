@@ -1,16 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_GetEmarketingStrictMode
 title: Bool GetEmarketingStrictMode()
-path: /EJScript/Classes/NSListAgent/Member functions/Bool GetEmarketingStrictMode()
-intellisense: 1
-classref: 1
-keywords: GetEmarketingStrictMode()
+intellisense: NSListAgent.GetEmarketingStrictMode
+keywords: NSListAgent, GetEmarketingStrictMode
+so.topic: reference
 ---
-
 
 Get the value of the Emarketing strict mode setting
 
 
+**Returns:** Returns true if Emarkerint strict mode is set, false otherwise
 
-* **Returns:** Returns true if Emarkerint strict mode is set, false otherwise
-
+```crmscript
+NSListAgent agent;
+Bool res = agent.GetEmarketingStrictMode();
+```
 

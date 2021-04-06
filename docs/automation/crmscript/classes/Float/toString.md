@@ -1,10 +1,10 @@
 ---
-title: String toString(Integer decimals)
-path: /EJScript/Classes/Float/Member functions/String toString(Integer decimals)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Float_toString_Integer_decimals
+title: Float.toString(Integer decimals)
+intellisense: Float.toString
 sortOrder: 360
 keywords: toString(Integer)
+so.topic: reference
 ---
 
 Returns a string representation of the Float, with "decimals" number of decimals

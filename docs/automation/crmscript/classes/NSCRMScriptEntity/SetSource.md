@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_SetSource
+title: SetSource(String source)
+intellisense: NSCRMScriptEntity.SetSource
+keywords: NSCRMScriptEntity, GetSource
+so.topic: reference
 ---
-title: Void SetSource(String Source)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetSource(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2145
-keywords: SetSource(String)
----
-
 
 The script
 
+**Parameter:** 
+ - **source** String
 
-
-* **Source:** String
-* **Returns:** String
-
+```crmscript
+NSCRMScriptEntity thing;
+String source;
+thing.SetSource(source);
+```
 

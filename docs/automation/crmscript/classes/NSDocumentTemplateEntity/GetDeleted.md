@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 2650
-keywords: GetDeleted()
+intellisense: NSDocumentTemplateEntity.GetDeleted
+keywords: NSDocumentTemplateEntity, GetDeleted
+so.topic: reference
 ---
-
 
 True if deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSDocumentTemplateEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

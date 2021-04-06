@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSProjectAgent_HasGuide
 title: Bool HasGuide(Integer projectId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Bool HasGuide(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: HasGuide(Integer)
+intellisense: NSProjectAgent.HasGuide
+keywords: NSProjectAgent, HasGuide
+so.topic: reference
 ---
-
 
 Does this project have a guide associated with its project type?
 
+**Parameters:**
+ - **projectId** Project id
 
+**Returns:** True if the project has a guide
 
-* **projectId:** Project id
-* **Returns:** True if the project has a guide
-
+```crmscript
+NSProjectAgent agent;
+Integer projectId;
+Bool res = agent.HasGuide(projectId);
+```
 

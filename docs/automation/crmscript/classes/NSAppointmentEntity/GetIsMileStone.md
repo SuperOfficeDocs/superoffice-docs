@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetIsMileStone
 title: Bool GetIsMileStone()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetIsMileStone()
-intellisense: 1
-classref: 1
-sortOrder: 929
-keywords: GetIsMileStone()
+intellisense: NSAppointmentEntity.GetIsMileStone
+keywords: NSAppointmentEntity, GetIsMileStone
+so.topic: reference
 ---
-
 
 Is this appointment a milestone?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSAppointmentEntity thing;
+Bool isMileStone  = thing.GetIsMileStone();
+```
 
 

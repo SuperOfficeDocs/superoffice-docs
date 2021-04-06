@@ -1,19 +1,23 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_ValidateDays
+title: RecurrenceDateArray ValidateDays(AppointmentEntity appointmentEntity, DateTimeArray dates)
+intellisense: NSAppointmentAgent.ValidateDays
+keywords: NSAppointmentAgent, ValidateDays
+so.topic: reference
 ---
-title: NSRecurrenceDate[] ValidateDays(NSAppointmentEntity p0, DateTime[] dates)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSRecurrenceDate[] ValidateDays(NSAppointmentEntity p_0, DateTime[] p_1)
-intellisense: 1
-classref: 1
-sortOrder: 890
-keywords: ValidateDays(NSAppointmentEntity,DateTime[])
----
-
 
 Validates the set of dates to calculate any conflicts.
 
+**Parameters:**
+ - **appointmentEntity** 
+ - **dates** The dates to validate.
 
+**Returns:** Array of RecurrenceDate object for each validated date.
 
-* **appointmentEntity
-\param** p1 dates: The dates to validate.
-* **Returns:** Array of RecurrenceDate object for each validated date.
-
+```crmscript
+NSAppointmentAgent agent;
+AppointmentEntity appointmentEntity;
+DateTimeArray dates;
+RecurrenceDateArray res = agent.ValidateDays(appointmentEntity, dates);
+```
 

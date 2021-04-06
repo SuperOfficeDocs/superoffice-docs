@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSListEntity_SetIsCustomList
+title: SetIsCustomList(Bool isCustomList)
+intellisense: NSListEntity.SetIsCustomList
+keywords: NSListEntity, GetIsCustomList
+so.topic: reference
 ---
-title: Void SetIsCustomList(Bool IsCustomList)
-path: /EJScript/Classes/NSListEntity/Member functions/Void SetIsCustomList(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsCustomList(Bool)
----
-
 
 Indicates if this is a custom list or a standard list
 
+**Parameter:** 
+ - **isCustomList** Bool
 
-
-* **IsCustomList:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSListEntity thing;
+Bool isCustomList;
+thing.SetIsCustomList(isCustomList);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetQuantityUnit
 title: String GetQuantityUnit()
-path: /EJScript/Classes/NSProduct/Member functions/String GetQuantityUnit()
-intellisense: 1
-classref: 1
-keywords: GetQuantityUnit()
+intellisense: NSProduct.GetQuantityUnit
+keywords: NSProduct, GetQuantityUnit
+so.topic: reference
 ---
-
 
 What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProduct thing;
+String quantityUnit  = thing.GetQuantityUnit();
+```
 
 

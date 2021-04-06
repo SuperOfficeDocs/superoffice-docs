@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetIsInUseInGuides
 title: Bool GetIsInUseInGuides()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Bool GetIsInUseInGuides()
-intellisense: 1
-classref: 1
-sortOrder: 2653
-keywords: GetIsInUseInGuides()
+intellisense: NSDocumentTemplateEntity.GetIsInUseInGuides
+keywords: NSDocumentTemplateEntity, GetIsInUseInGuides
+so.topic: reference
 ---
-
 
 True if the template is in use in a project or sales guide
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSDocumentTemplateEntity thing;
+Bool isInUseInGuides  = thing.GetIsInUseInGuides();
+```
 
 

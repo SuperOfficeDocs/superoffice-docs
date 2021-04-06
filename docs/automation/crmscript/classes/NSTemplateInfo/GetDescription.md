@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTemplateInfo_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSTemplateInfo/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSTemplateInfo.GetDescription
+keywords: NSTemplateInfo, GetDescription
+so.topic: reference
 ---
-
 
 Document description, shown as a tooltip or in some extended description area
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTemplateInfo thing;
+String description  = thing.GetDescription();
+```
 
 

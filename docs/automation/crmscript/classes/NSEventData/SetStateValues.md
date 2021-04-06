@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEventData_SetStateValues
+title: SetStateValues(StringDictionary stateValues)
+intellisense: NSEventData.SetStateValues
+keywords: NSEventData, GetStateValues
+so.topic: reference
 ---
-title: Void SetStateValues(StringDictionary StateValues)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetStateValues(StringDictionary p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3353
-keywords: SetStateValues(StringDictionary)
----
-
 
 Values kept between event handlers
 
+**Parameter:** 
+ - **stateValues** StringDictionary
 
-
-* **StateValues:** StringDictionary
-* **Returns:** StringDictionary
-
+```crmscript
+NSEventData thing;
+StringDictionary stateValues;
+thing.SetStateValues(stateValues);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: String getValue(String colName)
-path: /EJScript/Classes/Message/Member functions/String getValue(String colName)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Message_getValue_String_colName
+title: Message.getValue(String colName)
+intellisense: Message.getValue
 sortOrder: 551
 keywords: getValue(String)
+so.topic: reference
 ---
 
 Returns the value of column colName as String.

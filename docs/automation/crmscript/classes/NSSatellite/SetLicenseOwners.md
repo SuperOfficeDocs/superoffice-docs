@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSatellite_SetLicenseOwners
+title: SetLicenseOwners(LicenseOwnerArray licenseOwners)
+intellisense: NSSatellite.SetLicenseOwners
+keywords: NSSatellite, GetLicenseOwners
+so.topic: reference
 ---
-title: Void SetLicenseOwners(NSLicenseOwner[] LicenseOwners)
-path: /EJScript/Classes/NSSatellite/Member functions/Void SetLicenseOwners(NSLicenseOwner[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetLicenseOwners(NSLicenseOwner[])
----
-
 
 The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user
 
+**Parameter:** 
+ - **licenseOwners** LicenseOwnerArray
 
-
-* **LicenseOwners:** LicenseOwnerArray
-* **Returns:** LicenseOwnerArray
-
+```crmscript
+NSSatellite thing;
+LicenseOwnerArray licenseOwners;
+thing.SetLicenseOwners(licenseOwners);
+```
 

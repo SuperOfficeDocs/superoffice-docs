@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSContactActivity
 title: NSContactActivity
-path: /EJScript/Classes/NSContactActivity
-intellisense: 1
-classref: 1
-sortOrder: 1764
+intellisense: Void.NSContactActivity
+keywords: NSContactActivity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

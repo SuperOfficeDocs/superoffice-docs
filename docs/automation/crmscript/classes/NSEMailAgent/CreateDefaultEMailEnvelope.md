@@ -1,18 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailEnvelope
 title: NSEMailEnvelope CreateDefaultEMailEnvelope()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEnvelope CreateDefaultEMailEnvelope()
-intellisense: 1
-classref: 1
-sortOrder: 2832
-keywords: CreateDefaultEMailEnvelope()
+intellisense: NSEMailAgent.CreateDefaultEMailEnvelope
+keywords: NSEMailAgent, CreateDefaultEMailEnvelope
+so.topic: reference
 ---
+	  
+Set default values into a new NSEMailEnvelope.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSEMailEnvelope with default values.
 
-
-Loading default values into a new EMailEnvelope.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New EMailEnvelope with default values
-
+```crmscript
+NSEMailAgent agent;
+NSEMailEnvelope thing = agent.CreateDefaultEMailEnvelope();
+thing = agent.SaveEMailEnvelope(thing);
+```
 

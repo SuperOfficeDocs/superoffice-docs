@@ -1,10 +1,10 @@
 ---
-title: String toHex()
-path: /EJScript/Classes/Byte/Member functions/String toHex()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Byte_toHex
+title: Byte.toHex()
+intellisense: Byte.toHex
 sortOrder: 137
 keywords: toHex()
+so.topic: reference
 ---
 
 Returns the value of a Byte as hexadecimal representation of the byte.

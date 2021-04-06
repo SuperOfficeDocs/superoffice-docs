@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserInfo_GetEjUserId
 title: Integer GetEjUserId()
-path: /EJScript/Classes/NSUserInfo/Member functions/Integer GetEjUserId()
-intellisense: 1
-classref: 1
-keywords: GetEjUserId()
+intellisense: NSUserInfo.GetEjUserId
+keywords: NSUserInfo, GetEjUserId
+so.topic: reference
 ---
-
 
 ID of the ej user record corresponding to this associate; 0 for associates that are not ej users
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserInfo thing;
+Integer ejUserId  = thing.GetEjUserId();
+```
 
 

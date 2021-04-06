@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSMDOAgent
 title: NSMDOAgent
-path: /EJScript/Classes/NSMDOAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSMDOAgent
+keywords: NSMDOAgent
+so.topic: reference
 ---
-
 
 MDO Lists, reading, searching, and item lookup.
 
-
-
+```crmscript
+NSMDOAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

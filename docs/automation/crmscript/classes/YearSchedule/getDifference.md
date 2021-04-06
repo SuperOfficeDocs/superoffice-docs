@@ -1,9 +1,9 @@
 ---
-title: TimeSpan getDifference(DateTime from, DateTime to)
-path: /EJScript/Classes/YearSchedule/Member functions/TimeSpan getDifference(DateTime from, DateTime to)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_YearSchedule_getDifference_DateTime_from_DateTime_to
+title: YearSchedule.getDifference(DateTime from, DateTime to)
+intellisense: YearSchedule.getDifference
 keywords: getDifference(DateTime,DateTime)
+so.topic: reference
 ---
 
 

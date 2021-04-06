@@ -1,6 +1,6 @@
 ---
-title: crmscript_debug_using_trace
-description: Using Trace
+uid: crmscript_debug_using_trace
+title: Using Trace
 author:
 so.date:
 keywords:

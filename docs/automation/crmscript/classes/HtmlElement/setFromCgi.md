@@ -1,10 +1,10 @@
 ---
-title: Void setFromCgi()
-path: /EJScript/Classes/HtmlElement/Member functions/Void setFromCgi()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HtmlElement_setFromCgi
+title: HtmlElement.setFromCgi()
+intellisense: HtmlElement.setFromCgi
 sortOrder: 392
 keywords: setFromCgi()
+so.topic: reference
 ---
 
 # Void setFromCgi()

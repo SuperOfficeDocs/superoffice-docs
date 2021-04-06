@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetEndDate
+title: SetEndDate(DateTime endDate)
+intellisense: NSAppointmentEntity.SetEndDate
+keywords: NSAppointmentEntity, GetEndDate
+so.topic: reference
 ---
-title: Void SetEndDate(DateTime EndDate)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetEndDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 998
-keywords: SetEndDate(DateTime)
----
-
 
 Date + end time planned
 
+**Parameter:** 
+ - **endDate** DateTime
 
-
-* **EndDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSAppointmentEntity thing;
+DateTime endDate;
+thing.SetEndDate(endDate);
+```
 

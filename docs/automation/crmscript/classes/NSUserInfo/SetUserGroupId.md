@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserInfo_SetUserGroupId
+title: SetUserGroupId(Integer userGroupId)
+intellisense: NSUserInfo.SetUserGroupId
+keywords: NSUserInfo, GetUserGroupId
+so.topic: reference
 ---
-title: Void SetUserGroupId(Integer UserGroupId)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetUserGroupId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserGroupId(Integer)
----
-
 
 Primary group membership, see UserGroupLink for secondary memberships
 
+**Parameter:** 
+ - **userGroupId** Integer
 
-
-* **UserGroupId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserInfo thing;
+Integer userGroupId;
+thing.SetUserGroupId(userGroupId);
+```
 

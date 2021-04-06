@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetProductType
 title: String GetProductType()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetProductType()
-intellisense: 1
-classref: 1
-keywords: GetProductType()
+intellisense: NSLicenseInfo.GetProductType
+keywords: NSLicenseInfo, GetProductType
+so.topic: reference
 ---
-
 
 Type of product
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLicenseInfo thing;
+String productType  = thing.GetProductType();
+```
 
 

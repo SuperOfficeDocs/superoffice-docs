@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonSummary_SetPerson
+title: SetPerson(Person person)
+intellisense: NSPersonSummary.SetPerson
+keywords: NSPersonSummary, GetPerson
+so.topic: reference
 ---
-title: Void SetPerson(NSPerson Person)
-path: /EJScript/Classes/NSPersonSummary/Member functions/Void SetPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
-keywords: SetPerson(NSPerson)
----
-
 
 Simple Person data.
 
+**Parameter:** 
+ - **person** Person
 
-
-* **Person:** Person
-* **Returns:** Person
-
+```crmscript
+NSPersonSummary thing;
+Person person;
+thing.SetPerson(person);
+```
 

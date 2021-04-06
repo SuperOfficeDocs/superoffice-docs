@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetIsMilestone
 title: Bool GetIsMilestone()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Bool GetIsMilestone()
-intellisense: 1
-classref: 1
-keywords: GetIsMilestone()
+intellisense: NSSuggestedAppointmentEntity.GetIsMilestone
+keywords: NSSuggestedAppointmentEntity, GetIsMilestone
+so.topic: reference
 ---
-
 
 Is this a milestone activity
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Bool isMilestone  = thing.GetIsMilestone();
+```
 
 

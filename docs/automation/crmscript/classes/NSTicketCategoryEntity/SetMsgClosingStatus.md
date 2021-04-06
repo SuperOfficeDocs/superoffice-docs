@@ -1,17 +1,23 @@
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_SetMsgClosingStatus
+title: SetMsgClosingStatus(TicketCategoryClosingStatus msgClosingStatus)
+intellisense: NSTicketCategoryEntity.SetMsgClosingStatus
+keywords: NSTicketCategoryEntity, GetMsgClosingStatus
+so.topic: reference
 ---
-title: Void SetMsgClosingStatus(NSTicketCategoryClosingStatus MsgClosingStatus)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetMsgClosingStatus(NSTicketCategoryClosingStatus p_0)
-intellisense: 1
-classref: 1
-keywords: SetMsgClosingStatus(NSTicketCategoryClosingStatus)
----
-
 
 An integer indicating if new messages should have the &apos;close request&apos; in this category checked as default, or if the users preferences should be selected.
 
+**Parameter:** 
+ - **msgClosingStatus** TicketCategoryClosingStatus
+     - Enum: 0 = UserDefined 
+     - Enum: 1 = Active 
+     - Enum: 2 = Closed 
+     - Enum: 3 = Postponed 
 
-
-* **MsgClosingStatus:** TicketCategoryClosingStatus
-* **Returns:** TicketCategoryClosingStatus
-
+```crmscript
+NSTicketCategoryEntity thing;
+TicketCategoryClosingStatus msgClosingStatus;
+thing.SetMsgClosingStatus(msgClosingStatus);
+```
 

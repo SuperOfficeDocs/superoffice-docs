@@ -1,9 +1,9 @@
 ---
-title: String GetCheckedInDate()
-path: /EJScript/Classes/NSVersionInfo/Member functions/String GetCheckedInDate()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSVersionInfo_GetCheckedInDate
+title: NSVersionInfo.GetCheckedInDate()
+intellisense: NSVersionInfo.GetCheckedInDate
 keywords: GetCheckedInDate()
+so.topic: reference
 ---
 
 

@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion
 title: NSQuoteVersion
-path: /EJScript/Classes/NSQuoteVersion
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuoteVersion
+keywords: NSQuoteVersion
+so.topic: reference
 ---
-
 
 Information about a version of the .
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldWidth
 title: Integer GetFieldWidth()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetFieldWidth()
-intellisense: 1
-classref: 1
-keywords: GetFieldWidth()
+intellisense: NSUserDefinedFieldInfo.GetFieldWidth
+keywords: NSUserDefinedFieldInfo, GetFieldWidth
+so.topic: reference
 ---
-
 
 field width in pixels, 0 = 'enough' (from font)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldWidth  = thing.GetFieldWidth();
+```
 
 

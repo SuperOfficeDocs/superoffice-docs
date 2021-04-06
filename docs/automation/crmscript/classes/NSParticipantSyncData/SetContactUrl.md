@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetContactUrl
+title: SetContactUrl(StringArray contactUrl)
+intellisense: NSParticipantSyncData.SetContactUrl
+keywords: NSParticipantSyncData, GetContactUrl
+so.topic: reference
 ---
-title: Void SetContactUrl(String[] ContactUrl)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetContactUrl(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetContactUrl(String[])
----
-
 
 The contact's internet adresses
 
+**Parameter:** 
+ - **contactUrl** StringArray
 
-
-* **ContactUrl:** StringArray
-* **Returns:** StringArray
-
+```crmscript
+NSParticipantSyncData thing;
+StringArray contactUrl;
+thing.SetContactUrl(contactUrl);
+```
 

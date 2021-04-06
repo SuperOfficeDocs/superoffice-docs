@@ -1,6 +1,6 @@
 ---
-title: crmscript_udef
-description: User-defined fields explained
+uid: crmscript_udef
+title: User-defined fields explained
 author:
 so.date:
 keywords:

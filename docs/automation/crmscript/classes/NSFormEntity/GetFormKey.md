@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetFormKey
 title: String GetFormKey()
-path: /EJScript/Classes/NSFormEntity/Member functions/String GetFormKey()
-intellisense: 1
-classref: 1
-sortOrder: 3803
-keywords: GetFormKey()
+intellisense: NSFormEntity.GetFormKey
+keywords: NSFormEntity, GetFormKey
+so.topic: reference
 ---
-
 
 A short string used as unique id to access this form
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFormEntity thing;
+String formKey  = thing.GetFormKey();
+```
 
 

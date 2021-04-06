@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionValidated_SetUserExplanation
+title: SetUserExplanation(String userExplanation)
+intellisense: NSQuoteVersionValidated.SetUserExplanation
+keywords: NSQuoteVersionValidated, GetUserExplanation
+so.topic: reference
 ---
-title: Void SetUserExplanation(String UserExplanation)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetUserExplanation(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserExplanation(String)
----
-
 
 A localized explanation to the answer.
 
+**Parameter:** 
+ - **userExplanation** String
 
-
-* **UserExplanation:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersionValidated thing;
+String userExplanation;
+thing.SetUserExplanation(userExplanation);
+```
 

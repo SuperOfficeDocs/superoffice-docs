@@ -1,10 +1,10 @@
 ---
-title: Void SetErpActorTypes(NSErpActorType[] ErpActorTypes)
-path: /EJScript/Classes/NSErpConnectionData/Member functions/Void SetErpActorTypes(NSErpActorType[] p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSErpConnectionData_SetErpActorTypes_NSErpActorType__p_0
+title: NSErpConnectionData.SetErpActorTypes(NSErpActorType[] p_0)
+intellisense: NSErpConnectionData.SetErpActorTypes
 sortOrder: 3119
 keywords: SetErpActorTypes(NSErpActorType[])
+so.topic: reference
 ---
 
 

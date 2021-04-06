@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSHistoryRequest_GetEntityOrParentId
 title: Integer GetEntityOrParentId()
-path: /EJScript/Classes/NSHistoryRequest/Member functions/Integer GetEntityOrParentId()
-intellisense: 1
-classref: 1
-sortOrder: 3943
-keywords: GetEntityOrParentId()
+intellisense: NSHistoryRequest.GetEntityOrParentId
+keywords: NSHistoryRequest, GetEntityOrParentId
+so.topic: reference
 ---
-
 
 ID of entity to get history for, or parent entity id if requesting insert rights for an entity that has a parent
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSHistoryRequest thing;
+Integer entityOrParentId  = thing.GetEntityOrParentId();
+```
 
 

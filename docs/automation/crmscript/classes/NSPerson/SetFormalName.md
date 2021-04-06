@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetFormalName
+title: SetFormalName(String formalName)
+intellisense: NSPerson.SetFormalName
+keywords: NSPerson, GetFormalName
+so.topic: reference
 ---
-title: Void SetFormalName(String FormalName)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetFormalName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetFormalName(String)
----
-
 
 Get formal name for a person, as used in labels. (Full name + person title + academic title)
 
+**Parameter:** 
+ - **formalName** String
 
-
-* **FormalName:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String formalName;
+thing.SetFormalName(formalName);
+```
 

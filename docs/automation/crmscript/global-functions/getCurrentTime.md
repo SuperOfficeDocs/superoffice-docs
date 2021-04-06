@@ -1,9 +1,9 @@
 ---
 description: Time getCurrentTime()
-path: /EJScript/Global functions/Time getCurrentTime()
-intellisense: 1
+intellisense: Void.getCurrentTime
 langref: 1
 keywords: getCurrentTime()
+so.topic: reference
 ---
 
 

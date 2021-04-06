@@ -1,10 +1,10 @@
 ---
-title: String getDownloadUrl(Bool external, Bool saveToDisk)
-path: /EJScript/Classes/Attachment/Member functions/String getDownloadUrl(Bool external, Bool saveToDisk)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Attachment_getDownloadUrl_Bool_external_Bool_saveToDisk
+title: Attachment.getDownloadUrl(Bool external, Bool saveToDisk)
+intellisense: Attachment.getDownloadUrl
 sortOrder: 124
 keywords: getDownloadUrl(Bool,Bool)
+so.topic: reference
 ---
 
 Construct an download url for the attachment. There are two kinds of urls first we have the kind that the customers can used they are called external. Then we have the kind the eJournal users can use and they are called internal.

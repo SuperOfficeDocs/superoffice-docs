@@ -1,9 +1,9 @@
 ---
-title: Void delete()
-path: /EJScript/Classes/SearchEngine/member functions/Void delete()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_delete
+title: SearchEngine.delete()
+intellisense: SearchEngine.delete
 keywords: delete()
+so.topic: reference
 ---
 
 After adding criterias, call this to delete the items that was selected by the query

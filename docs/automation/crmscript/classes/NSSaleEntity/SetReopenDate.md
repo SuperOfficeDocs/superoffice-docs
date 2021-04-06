@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetReopenDate
+title: SetReopenDate(DateTime reopenDate)
+intellisense: NSSaleEntity.SetReopenDate
+keywords: NSSaleEntity, GetReopenDate
+so.topic: reference
 ---
-title: Void SetReopenDate(DateTime ReopenDate)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetReopenDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetReopenDate(DateTime)
----
-
 
 Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate.
 
+**Parameter:** 
+ - **reopenDate** DateTime
 
-
-* **ReopenDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSSaleEntity thing;
+DateTime reopenDate;
+thing.SetReopenDate(reopenDate);
+```
 

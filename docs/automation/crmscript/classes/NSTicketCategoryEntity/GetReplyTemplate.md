@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_GetReplyTemplate
 title: Integer GetReplyTemplate()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetReplyTemplate()
-intellisense: 1
-classref: 1
-keywords: GetReplyTemplate()
+intellisense: NSTicketCategoryEntity.GetReplyTemplate
+keywords: NSTicketCategoryEntity, GetReplyTemplate
+so.topic: reference
 ---
-
 
 Reply template to merge with messages posted in this category
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketCategoryEntity thing;
+Integer replyTemplate  = thing.GetReplyTemplate();
+```
 
 

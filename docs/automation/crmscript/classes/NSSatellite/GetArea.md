@@ -1,12 +1,19 @@
----
-title: NSArea GetArea()
-path: /EJScript/Classes/NSSatellite/Member functions/NSArea GetArea()
-intellisense: 1
-classref: 1
-keywords: GetArea()
+﻿---
+uid: crmscript_ref_NSSatellite_GetArea
+title: Area GetArea()
+intellisense: NSSatellite.GetArea
+keywords: NSSatellite, GetArea
+so.topic: reference
 ---
 
 
-* **Returns:** Area
+
+**Returns:** Area
+
+
+```crmscript
+NSSatellite thing;
+Area area  = thing.GetArea();
+```
 
 

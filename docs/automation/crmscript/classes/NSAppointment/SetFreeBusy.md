@@ -1,10 +1,10 @@
 ---
-title: Void SetFreeBusy(Integer p0)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetFreeBusy(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAppointment_SetFreeBusy_Integer_p_0
+title: NSAppointment.SetFreeBusy(Integer p_0)
+intellisense: NSAppointment.SetFreeBusy
 sortOrder: 790
 keywords: SetFreeBusy(Integer)
+so.topic: reference
 ---
 
 

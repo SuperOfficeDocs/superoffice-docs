@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_GetQuoteAlternativeId
 title: Integer GetQuoteAlternativeId()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Integer GetQuoteAlternativeId()
-intellisense: 1
-classref: 1
-keywords: GetQuoteAlternativeId()
+intellisense: NSQuoteAlternative.GetQuoteAlternativeId
+keywords: NSQuoteAlternative, GetQuoteAlternativeId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteAlternative thing;
+Integer quoteAlternativeId  = thing.GetQuoteAlternativeId();
+```
 
 

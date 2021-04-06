@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncDefaultValue_SetFirstSyncDefaultValue
+title: SetFirstSyncDefaultValue(String firstSyncDefaultValue)
+intellisense: NSErpSyncDefaultValue.SetFirstSyncDefaultValue
+keywords: NSErpSyncDefaultValue, GetFirstSyncDefaultValue
+so.topic: reference
 ---
-title: Void SetFirstSyncDefaultValue(String FirstSyncDefaultValue)
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Void SetFirstSyncDefaultValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3270
-keywords: SetFirstSyncDefaultValue(String)
----
-
 
 The default value to be set, can be blank
 
+**Parameter:** 
+ - **firstSyncDefaultValue** String
 
-
-* **FirstSyncDefaultValue:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncDefaultValue thing;
+String firstSyncDefaultValue;
+thing.SetFirstSyncDefaultValue(firstSyncDefaultValue);
+```
 

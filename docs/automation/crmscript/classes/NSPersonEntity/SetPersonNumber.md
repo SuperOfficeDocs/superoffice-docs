@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetPersonNumber
+title: SetPersonNumber(String personNumber)
+intellisense: NSPersonEntity.SetPersonNumber
+keywords: NSPersonEntity, GetPersonNumber
+so.topic: reference
 ---
-title: Void SetPersonNumber(String PersonNumber)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetPersonNumber(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonNumber(String)
----
-
 
 Alphanumeric user field
 
+**Parameter:** 
+ - **personNumber** String
 
-
-* **PersonNumber:** String
-* **Returns:** String
-
+```crmscript
+NSPersonEntity thing;
+String personNumber;
+thing.SetPersonNumber(personNumber);
+```
 

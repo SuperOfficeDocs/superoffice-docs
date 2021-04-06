@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoBool_GetDefaultValue
 title: Bool GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoBool/Member functions/Bool GetDefaultValue()
-intellisense: 1
-classref: 1
-sortOrder: 3489
-keywords: GetDefaultValue()
+intellisense: NSFieldInfoBool.GetDefaultValue
+keywords: NSFieldInfoBool, GetDefaultValue
+so.topic: reference
 ---
-
 
 Default boolean value
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFieldInfoBool thing;
+Bool defaultValue  = thing.GetDefaultValue();
+```
 
 

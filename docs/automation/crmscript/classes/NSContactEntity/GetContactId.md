@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity_GetContactId
 title: Integer GetContactId()
-path: /EJScript/Classes/NSContactEntity/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
-sortOrder: 1841
-keywords: GetContactId()
+intellisense: NSContactEntity.GetContactId
+keywords: NSContactEntity, GetContactId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSContactEntity thing;
+Integer contactId  = thing.GetContactId();
+```
 
 

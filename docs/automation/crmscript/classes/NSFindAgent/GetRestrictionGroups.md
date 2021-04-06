@@ -1,21 +1,27 @@
+﻿---
+uid: crmscript_ref_NSFindAgent_GetRestrictionGroups
+title: ArchiveRestrictionGroupArray GetRestrictionGroups(String storageType, String providerName, String storageKey, String context)
+intellisense: NSFindAgent.GetRestrictionGroups
+keywords: NSFindAgent, GetRestrictionGroups
+so.topic: reference
 ---
-title: NSArchiveRestrictionGroup[] GetRestrictionGroups(String storageType, String providerName, String storageKey, String context)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSArchiveRestrictionGroup[] GetRestrictionGroups(String p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
-sortOrder: 3660
-keywords: GetRestrictionGroups(String,String,String,String)
----
-
 
 Return all the restriction groups.
 
+**Parameters:**
+ - **storageType** Restriction storage type specification, either 'Criteria' or 'Reporter' (or possible extensions)
+ - **providerName** Name of archive provider that is the intended consumer of the restrictions
+ - **storageKey** Storage key to be interpreted by the restriction storage provider, when it saves the restrictions as criteria
+ - **context** Optional context that can be used by FindProvider
 
+**Returns:** The restriction groups.
 
-* **storageType:** Restriction storage type specification, either 'Criteria' or 'Reporter' (or possible extensions)
-* **providerName:** Name of archive provider that is the intended consumer of the restrictions
-* **storageKey:** Storage key to be interpreted by the restriction storage provider, when it saves the restrictions as criteria
-* **context:** Optional context that can be used by FindProvider
-* **Returns:** The restriction groups.
-
+```crmscript
+NSFindAgent agent;
+String storageType;
+String providerName;
+String storageKey;
+String context;
+ArchiveRestrictionGroupArray res = agent.GetRestrictionGroups(storageType, providerName, storageKey, context);
+```
 

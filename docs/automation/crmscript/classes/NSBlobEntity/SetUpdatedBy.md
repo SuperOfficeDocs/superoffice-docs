@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBlobEntity_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
+intellisense: NSBlobEntity.SetUpdatedBy
+keywords: NSBlobEntity, GetUpdatedBy
+so.topic: reference
 ---
-title: Void SetUpdatedBy(NSAssociate UpdatedBy)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetUpdatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1464
-keywords: SetUpdatedBy(NSAssociate)
----
-
 
 The person that last updated the appointment.
 
+**Parameter:** 
+ - **updatedBy** Associate
 
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSBlobEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
 

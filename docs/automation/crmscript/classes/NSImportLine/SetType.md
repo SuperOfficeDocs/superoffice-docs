@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSImportLine_SetType
+title: SetType(Integer type)
+intellisense: NSImportLine.SetType
+keywords: NSImportLine, GetType
+so.topic: reference
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSImportLine/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3982
-keywords: SetType(Integer)
----
-
 
 Which entity type will be created? This is a read-only property
 
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Person 
+     - Enum: 2 = Contact 
+     - Enum: 4 = Product 
 
-
-* **Type:** Integer
-* **Returns:** Void
-
+```crmscript
+NSImportLine thing;
+Integer type;
+thing.SetType(type);
+```
 

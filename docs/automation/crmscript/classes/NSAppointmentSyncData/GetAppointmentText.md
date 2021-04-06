@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetAppointmentText
 title: String GetAppointmentText()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/String GetAppointmentText()
-intellisense: 1
-classref: 1
-sortOrder: 1056
-keywords: GetAppointmentText()
+intellisense: NSAppointmentSyncData.GetAppointmentText
+keywords: NSAppointmentSyncData, GetAppointmentText
+so.topic: reference
 ---
-
 
 The appointment's textbox; holds a descriptive text about the appointment. Filled out by the user.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointmentSyncData thing;
+String appointmentText  = thing.GetAppointmentText();
+```
 
 

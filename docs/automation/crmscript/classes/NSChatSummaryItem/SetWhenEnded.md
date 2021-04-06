@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_SetWhenEnded
+title: SetWhenEnded(DateTime whenEnded)
+intellisense: NSChatSummaryItem.SetWhenEnded
+keywords: NSChatSummaryItem, GetWhenEnded
+so.topic: reference
 ---
-title: Void SetWhenEnded(DateTime WhenEnded)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetWhenEnded(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1547
-keywords: SetWhenEnded(DateTime)
----
-
 
 When the session was ended.
 
+**Parameter:** 
+ - **whenEnded** DateTime
 
-
-* **WhenEnded:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSChatSummaryItem thing;
+DateTime whenEnded;
+thing.SetWhenEnded(whenEnded);
+```
 

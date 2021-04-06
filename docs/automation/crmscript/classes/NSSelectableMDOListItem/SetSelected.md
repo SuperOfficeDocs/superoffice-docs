@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_SetSelected
+title: SetSelected(Bool selected)
+intellisense: NSSelectableMDOListItem.SetSelected
+keywords: NSSelectableMDOListItem, GetSelected
+so.topic: reference
 ---
-title: Void SetSelected(Bool Selected)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetSelected(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSelected(Bool)
----
-
 
 True if the ListItem is selected
 
+**Parameter:** 
+ - **selected** Bool
 
-
-* **Selected:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSSelectableMDOListItem thing;
+Bool selected;
+thing.SetSelected(selected);
+```
 

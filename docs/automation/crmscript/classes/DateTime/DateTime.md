@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_DateTime
 title: DateTime
-path: /EJScript/Classes/DateTime
-intellisense: 1
-classref: 1
+intellisense: Void.DateTime
 sortOrder: 206
+so.topic: reference
 ---
 
 A class for representing date and time as objects.

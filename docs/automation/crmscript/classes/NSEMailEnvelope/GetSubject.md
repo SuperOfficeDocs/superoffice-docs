@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEnvelope_GetSubject
 title: String GetSubject()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/String GetSubject()
-intellisense: 1
-classref: 1
-sortOrder: 3013
-keywords: GetSubject()
+intellisense: NSEMailEnvelope.GetSubject
+keywords: NSEMailEnvelope, GetSubject
+so.topic: reference
 ---
-
 
 Subject of the e-mail
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailEnvelope thing;
+String subject  = thing.GetSubject();
+```
 
 

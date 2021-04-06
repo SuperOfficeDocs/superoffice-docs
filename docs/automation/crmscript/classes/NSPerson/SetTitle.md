@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetTitle
+title: SetTitle(String title)
+intellisense: NSPerson.SetTitle
+keywords: NSPerson, GetTitle
+so.topic: reference
 ---
-title: Void SetTitle(String Title)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetTitle(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTitle(String)
----
-
 
 Title
 
+**Parameter:** 
+ - **title** String
 
-
-* **Title:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String title;
+thing.SetTitle(title);
+```
 

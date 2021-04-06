@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_GetConfigurationFields
+title: FieldMetadataArray GetConfigurationFields(Integer erpConnectorId)
+intellisense: NSErpSyncAgent.GetConfigurationFields
+keywords: NSErpSyncAgent, GetConfigurationFields
+so.topic: reference
 ---
-title: NSFieldMetadata[] GetConfigurationFields(Integer erpConnectorId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSFieldMetadata[] GetConfigurationFields(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3209
-keywords: GetConfigurationFields(Integer)
----
-
 
 Returns all fields needed to connect to the given connector
 
+**Parameters:**
+ - **erpConnectorId** The id of the erp connector
 
+**Returns:** The fields
 
-* **erpConnectorId:** The id of the erp connector
-* **Returns:** The fields
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectorId;
+FieldMetadataArray res = agent.GetConfigurationFields(erpConnectorId);
+```
 

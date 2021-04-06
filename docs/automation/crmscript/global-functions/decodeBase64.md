@@ -1,9 +1,9 @@
 ---
 description: Byte[] decodeBase64(String base64)
-path: /EJScript/Global functions/Byte[] decodeBase64(String base64)
-intellisense: 1
+intellisense: Void.decodeBase64
 langref: 1
 keywords: decodeBase64(String)
+so.topic: reference
 ---
 
 

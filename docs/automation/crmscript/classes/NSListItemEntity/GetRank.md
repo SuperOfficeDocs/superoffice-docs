@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSListItemEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSListItemEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSListItemEntity.GetRank
+keywords: NSListItemEntity, GetRank
+so.topic: reference
 ---
-
 
 The rank of the list item
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSListItemEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

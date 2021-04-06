@@ -1,10 +1,10 @@
 ---
-title: String buildExternalEntryURLWithParser(Integer kbId, Parser parser)
-path: /EJScript/Classes/Knowledge/Member functions/String buildExternalEntryURLWithParser(Integer kbId, Parser parser)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Knowledge_buildExternalEntryURLWithParser_Integer_kbId_Parser_parser
+title: Knowledge.buildExternalEntryURLWithParser(Integer kbId, Parser parser)
+intellisense: Knowledge.buildExternalEntryURLWithParser
 sortOrder: 456
 keywords: buildExternalEntryURLWithParser(Integer,Parser)
+so.topic: reference
 ---
 
 This function builds an url to the customer center to view a knowledgebase entry.

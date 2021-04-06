@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_GetUnits
 title: Float GetUnits()
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Float GetUnits()
-intellisense: 1
-classref: 1
-sortOrder: 2181
-keywords: GetUnits()
+intellisense: NSCurrencyEntity.GetUnits
+keywords: NSCurrencyEntity, GetUnits
+so.topic: reference
 ---
-
 
 Exchange unit scale (0.01, 0.1, 1, 10, 100 etc)
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSCurrencyEntity thing;
+Float units  = thing.GetUnits();
+```
 
 

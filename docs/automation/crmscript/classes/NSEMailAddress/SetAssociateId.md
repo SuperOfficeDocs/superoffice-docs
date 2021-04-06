@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAddress_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSEMailAddress.SetAssociateId
+keywords: NSEMailAddress, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2772
-keywords: SetAssociateId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailAddress thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Void setTueStart(Time p0)
-path: /EJScript/Classes/WeekSchedule/Member functions/Void setTueStart(Time p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_setTueStart_Time_p_0
+title: WeekSchedule.setTueStart(Time p_0)
+intellisense: WeekSchedule.setTueStart
 keywords: setTueStart(Time)
+so.topic: reference
 ---
 
 

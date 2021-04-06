@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSForeignDevice_GetAssociateFullName
 title: String GetAssociateFullName()
-path: /EJScript/Classes/NSForeignDevice/Member functions/String GetAssociateFullName()
-intellisense: 1
-classref: 1
-sortOrder: 3718
-keywords: GetAssociateFullName()
+intellisense: NSForeignDevice.GetAssociateFullName
+keywords: NSForeignDevice, GetAssociateFullName
+so.topic: reference
 ---
-
 
 The person owning the Foreign Device
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSForeignDevice thing;
+String associateFullName  = thing.GetAssociateFullName();
+```
 
 

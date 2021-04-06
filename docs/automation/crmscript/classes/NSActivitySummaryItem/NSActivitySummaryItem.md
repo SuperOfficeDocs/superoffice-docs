@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem
 title: NSActivitySummaryItem
-path: /EJScript/Classes/NSActivitySummaryItem
-intellisense: 1
-classref: 1
-sortOrder: 593
+intellisense: Void.NSActivitySummaryItem
+keywords: NSActivitySummaryItem
+so.topic: reference
 ---
-
 
 Summary details about appointments and documents.
 
-
-
-
-1. autolist
+1. autolist 
 

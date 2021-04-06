@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectMember_GetPhoneId
 title: Integer GetPhoneId()
-path: /EJScript/Classes/NSProjectMember/Member functions/Integer GetPhoneId()
-intellisense: 1
-classref: 1
-keywords: GetPhoneId()
+intellisense: NSProjectMember.GetPhoneId
+keywords: NSProjectMember, GetPhoneId
+so.topic: reference
 ---
-
 
 The phone id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectMember thing;
+Integer phoneId  = thing.GetPhoneId();
+```
 
 

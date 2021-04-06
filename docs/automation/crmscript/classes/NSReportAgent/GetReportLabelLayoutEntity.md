@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSReportAgent_GetReportLabelLayoutEntity
+title: NSReportLabelLayoutEntity GetReportLabelLayoutEntity(Integer reportLabelLayoutEntityId);
+intellisense: NSReportAgent.GetReportLabelLayoutEntity
+keywords: NSReportAgent, GetReportLabelLayoutEntity
+so.topic: reference
 ---
-title: NSReportLabelLayoutEntity GetReportLabelLayoutEntity(Integer reportLabelLayoutEntityId)
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportLabelLayoutEntity GetReportLabelLayoutEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetReportLabelLayoutEntity(Integer)
----
 
+Gets a NSReportLabelLayoutEntity object.
 
-Gets a ReportLabelLayoutEntity object.
+**Parameters:**
+ - **reportLabelLayoutEntityId** The identifier of the NSReportLabelLayoutEntity object
 
+**Returns:** NSReportLabelLayoutEntity
 
-
-* **reportLabelLayoutEntityId:** The identifier of the ReportLabelLayoutEntity object
-* **Returns:** ReportLabelLayoutEntity
-
+```crmscript
+NSReportAgent agent;
+NSReportLabelLayoutEntity thing = agent.GetReportLabelLayoutEntity(123);
+```
 

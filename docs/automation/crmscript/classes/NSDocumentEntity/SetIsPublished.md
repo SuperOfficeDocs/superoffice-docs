@@ -1,14 +1,13 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_SetIsPublished
+title: SetIsPublished(Boolean isPublished)
+intellisense: NSDocumentEntity.IsPublished
+keywords: NSDocumentEntity, IsPublished
+so.topic: reference
 ---
-title: Void SetIsPublished()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetIsPublished()
-intellisense: 1
-classref: 1
-sortOrder: 2599
-keywords: SetIsPublished()
----
 
+Should this DocumentEntity be published and visible to strangers?
 
-* **fields:** Bool
-* **Returns:** Void
-
+**Parameter:** 
+ - **isPublished** Boolean.
 

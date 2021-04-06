@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSParticipantInfo
 title: NSParticipantInfo
-path: /EJScript/Classes/NSParticipantInfo
-intellisense: 1
-classref: 1
+intellisense: Void.NSParticipantInfo
+keywords: NSParticipantInfo
+so.topic: reference
 ---
-
 
 Class representing an appointment participant.
 
-
-
-
-1. autolist
+1. autolist 
 

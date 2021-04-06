@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetIsSystemTask
 title: Bool GetIsSystemTask()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Bool GetIsSystemTask()
-intellisense: 1
-classref: 1
-sortOrder: 1365
-keywords: GetIsSystemTask()
+intellisense: NSBatchTaskInfo.GetIsSystemTask
+keywords: NSBatchTaskInfo, GetIsSystemTask
+so.topic: reference
 ---
-
 
 If IsSystemTask is true, the task is not initiated by an associate.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSBatchTaskInfo thing;
+Bool isSystemTask  = thing.GetIsSystemTask();
+```
 
 

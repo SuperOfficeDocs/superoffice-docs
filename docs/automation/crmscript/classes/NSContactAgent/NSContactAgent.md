@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSContactAgent
 title: NSContactAgent
-path: /EJScript/Classes/NSContactAgent
-intellisense: 1
-classref: 1
-sortOrder: 1794
+intellisense: Void.NSContactAgent
+keywords: NSContactAgent
+so.topic: reference
 ---
-
 
 Contact (company) data services.
 
-
-
+```crmscript
+NSContactAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

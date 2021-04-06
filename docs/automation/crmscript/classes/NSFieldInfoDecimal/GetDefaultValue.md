@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoDecimal_GetDefaultValue
 title: Float GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoDecimal/Member functions/Float GetDefaultValue()
-intellisense: 1
-classref: 1
-sortOrder: 3505
-keywords: GetDefaultValue()
+intellisense: NSFieldInfoDecimal.GetDefaultValue
+keywords: NSFieldInfoDecimal, GetDefaultValue
+so.topic: reference
 ---
-
 
 Default decimal (double precision) value
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSFieldInfoDecimal thing;
+Float defaultValue  = thing.GetDefaultValue();
+```
 
 

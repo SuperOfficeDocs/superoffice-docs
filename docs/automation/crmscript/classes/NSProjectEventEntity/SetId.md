@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetId
+title: SetId(Integer id)
+intellisense: NSProjectEventEntity.SetId
+keywords: NSProjectEventEntity, GetId
+so.topic: reference
 ---
-title: Void SetId(Integer Id)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
-
 
 Id of the external event
 
+**Parameter:** 
+ - **id** Integer
 
-
-* **Id:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectEventEntity thing;
+Integer id;
+thing.SetId(id);
+```
 

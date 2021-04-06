@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetQuoteVersionId
+title: SetQuoteVersionId(Integer quoteVersionId)
+intellisense: NSQuoteVersion.SetQuoteVersionId
+keywords: NSQuoteVersion, GetQuoteVersionId
+so.topic: reference
 ---
-title: Void SetQuoteVersionId(Integer QuoteVersionId)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetQuoteVersionId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetQuoteVersionId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **quoteVersionId** Integer
 
-
-* **QuoteVersionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteVersion thing;
+Integer quoteVersionId;
+thing.SetQuoteVersionId(quoteVersionId);
+```
 

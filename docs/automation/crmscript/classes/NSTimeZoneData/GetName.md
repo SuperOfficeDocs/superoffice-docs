@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneData_GetName
 title: String GetName()
-path: /EJScript/Classes/NSTimeZoneData/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSTimeZoneData.GetName
+keywords: NSTimeZoneData, GetName
+so.topic: reference
 ---
-
 
 Name associated with the location
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTimeZoneData thing;
+String name  = thing.GetName();
+```
 
 

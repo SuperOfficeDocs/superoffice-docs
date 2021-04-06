@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_StringMatrix
 title: StringMatrix
-path: /EJScript/Classes/StringMatrix
-intellisense: 1
-classref: 1
+intellisense: Void.StringMatrix
+so.topic: reference
 ---
 
 

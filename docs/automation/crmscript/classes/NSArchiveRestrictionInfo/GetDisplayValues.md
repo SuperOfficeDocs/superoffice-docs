@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetDisplayValues
+title: StringArray GetDisplayValues()
+intellisense: NSArchiveRestrictionInfo.GetDisplayValues
+keywords: NSArchiveRestrictionInfo, GetDisplayValues
+so.topic: reference
 ---
-title: String[] GetDisplayValues()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/String[] GetDisplayValues()
-intellisense: 1
-classref: 1
-sortOrder: 1223
-keywords: GetDisplayValues()
----
+
+Display representation of value(s) - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the CultureDataFormatter.
+
+**Returns:** StringArray
 
 
-Display representation of `value(s)` - list ID's are decoded to display texts, other values are represented in a format suitable for decoding and display through the CultureDataFormatter.
-
-
-
-* **Returns:** StringArray
+```crmscript
+NSArchiveRestrictionInfo thing;
+StringArray displayValues  = thing.GetDisplayValues();
+```
 
 

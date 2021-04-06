@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetLastVersionId
+title: SetLastVersionId(Integer lastVersionId)
+intellisense: NSUserDefinedFieldInfo.SetLastVersionId
+keywords: NSUserDefinedFieldInfo, GetLastVersionId
+so.topic: reference
 ---
-title: Void SetLastVersionId(Integer LastVersionId)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetLastVersionId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLastVersionId(Integer)
----
-
 
 UDefFieldId this field had in the previous version, 0 = field is new in this version
 
+**Parameter:** 
+ - **lastVersionId** Integer
 
-
-* **LastVersionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer lastVersionId;
+thing.SetLastVersionId(lastVersionId);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
+intellisense: NSTicketMessageEntity.SetCreatedBy
+keywords: NSTicketMessageEntity, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetCreatedBy(NSAssociate)
----
-
 
 The associate who created this ticket message
 
+**Parameter:** 
+ - **createdBy** Associate
 
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSTicketMessageEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_GetAssociate
+title: Associate GetAssociate()
+intellisense: NSContactEntity.GetAssociate
+keywords: NSContactEntity, GetAssociate
+so.topic: reference
 ---
-title: NSAssociate GetAssociate()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSAssociate GetAssociate()
-intellisense: 1
-classref: 1
-sortOrder: 1850
-keywords: GetAssociate()
----
+
+The user that owns this contact.
+
+**Returns:** Associate
 
 
-The person that owns this contact.
-
-
-
-* **Returns:** Associate
+```crmscript
+NSContactEntity thing;
+Associate associate  = thing.GetAssociate();
+```
 
 

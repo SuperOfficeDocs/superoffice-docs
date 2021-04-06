@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetProjectTypeStatusLink
+title: ProjectTypeStatusLink GetProjectTypeStatusLink()
+intellisense: NSSuggestedDocumentEntity.GetProjectTypeStatusLink
+keywords: NSSuggestedDocumentEntity, GetProjectTypeStatusLink
+so.topic: reference
 ---
-title: NSProjectTypeStatusLink GetProjectTypeStatusLink()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/NSProjectTypeStatusLink GetProjectTypeStatusLink()
-intellisense: 1
-classref: 1
-keywords: GetProjectTypeStatusLink()
----
-
 
 Project type and project status link info
 
+**Returns:** ProjectTypeStatusLink
 
 
-* **Returns:** ProjectTypeStatusLink
+```crmscript
+NSSuggestedDocumentEntity thing;
+ProjectTypeStatusLink projectTypeStatusLink  = thing.GetProjectTypeStatusLink();
+```
 
 

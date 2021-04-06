@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerServiceStartup
 title: NSCustomerServiceStartup
-path: /EJScript/Classes/NSCustomerServiceStartup
-intellisense: 1
-classref: 1
-sortOrder: 2250
+intellisense: Void.NSCustomerServiceStartup
+keywords: NSCustomerServiceStartup
+so.topic: reference
 ---
-
 
 This carrier contains various data needed by Service for startup. Do not use this API, as it is for internal use and might change without notice
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaintConfiguration_GetPeriod1
 title: Integer GetPeriod1()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Integer GetPeriod1()
-intellisense: 1
-classref: 1
-keywords: GetPeriod1()
+intellisense: NSSaintConfiguration.GetPeriod1
+keywords: NSSaintConfiguration, GetPeriod1
+so.topic: reference
 ---
-
 
 Length of the first counter period
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaintConfiguration thing;
+Integer period1  = thing.GetPeriod1();
+```
 
 

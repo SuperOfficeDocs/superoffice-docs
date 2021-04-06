@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetCurrencyId
 title: Integer GetCurrencyId()
-path: /EJScript/Classes/NSCountry/Member functions/Integer GetCurrencyId()
-intellisense: 1
-classref: 1
-sortOrder: 2015
-keywords: GetCurrencyId()
+intellisense: NSCountry.GetCurrencyId
+keywords: NSCountry, GetCurrencyId
+so.topic: reference
 ---
-
 
 Default currency for this country
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCountry thing;
+Integer currencyId  = thing.GetCurrencyId();
+```
 
 

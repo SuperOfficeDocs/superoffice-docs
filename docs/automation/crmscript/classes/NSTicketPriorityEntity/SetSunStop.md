@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetSunStop
+title: SetSunStop(DateTime sunStop)
+intellisense: NSTicketPriorityEntity.SetSunStop
+keywords: NSTicketPriorityEntity, GetSunStop
+so.topic: reference
 ---
-title: Void SetSunStop(DateTime SunStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetSunStop(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetSunStop(DateTime)
----
-
 
 The work hour stop for Sundays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **sunStop** DateTime
 
-
-* **SunStop:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime sunStop;
+thing.SetSunStop(sunStop);
+```
 

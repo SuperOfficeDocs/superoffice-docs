@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayTooltip(String p0)
-path: /EJScript/Classes/NSDuplicateRule/Member functions/Void SetDisplayTooltip(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSDuplicateRule_SetDisplayTooltip_String_p_0
+title: NSDuplicateRule.SetDisplayTooltip(String p_0)
+intellisense: NSDuplicateRule.SetDisplayTooltip
 sortOrder: 2739
 keywords: SetDisplayTooltip(String)
+so.topic: reference
 ---
 
 Description of the rule

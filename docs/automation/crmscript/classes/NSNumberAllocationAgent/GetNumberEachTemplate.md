@@ -1,16 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSNumberAllocationAgent_GetNumberEachTemplate
 title: Bool GetNumberEachTemplate()
-path: /EJScript/Classes/NSNumberAllocationAgent/Member functions/Bool GetNumberEachTemplate()
-intellisense: 1
-classref: 1
-keywords: GetNumberEachTemplate()
+intellisense: NSNumberAllocationAgent.GetNumberEachTemplate
+keywords: NSNumberAllocationAgent, GetNumberEachTemplate
+so.topic: reference
 ---
-
 
 Returns true or false if Automatically create new counters for new document templates
 
 
+**Returns:** Is NumberEachTemplate?
 
-* **Returns:** Is NumberEachTemplate?
-
+```crmscript
+NSNumberAllocationAgent agent;
+Bool res = agent.GetNumberEachTemplate();
+```
 

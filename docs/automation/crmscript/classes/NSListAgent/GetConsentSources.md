@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetConsentSources
+title: ConsentSourceArray GetConsentSources()
+intellisense: NSListAgent.GetConsentSources
+keywords: NSListAgent, GetConsentSources
+so.topic: reference
 ---
-title: NSConsentSource[] GetConsentSources()
-path: /EJScript/Classes/NSListAgent/Member functions/NSConsentSource[] GetConsentSources()
-intellisense: 1
-classref: 1
-keywords: GetConsentSources()
----
-
 
 Returns all defined Sources.
 
 
+**Returns:** An array of all defined Sources
 
-* **Returns:** An array of all defined Sources
-
+```crmscript
+NSListAgent agent;
+ConsentSourceArray res = agent.GetConsentSources();
+```
 

@@ -1,10 +1,10 @@
 ---
-title: String[] GetChoices()
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/String[] GetChoices()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSFieldInfoLongText_GetChoices
+title: NSFieldInfoLongText.GetChoices()
+intellisense: NSFieldInfoLongText.GetChoices
 sortOrder: 3523
 keywords: GetChoices()
+so.topic: reference
 ---
 
 

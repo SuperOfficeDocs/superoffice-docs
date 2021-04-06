@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocument_SetDocumentId
+title: SetDocumentId(Integer documentId)
+intellisense: NSDocument.SetDocumentId
+keywords: NSDocument, GetDocumentId
+so.topic: reference
 ---
-title: Void SetDocumentId(Integer DocumentId)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2452
-keywords: SetDocumentId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **documentId** Integer
 
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDocument thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAttachment_GetDisposition
 title: String GetDisposition()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/String GetDisposition()
-intellisense: 1
-classref: 1
-sortOrder: 2895
-keywords: GetDisposition()
+intellisense: NSEMailAttachment.GetDisposition
+keywords: NSEMailAttachment, GetDisposition
+so.topic: reference
 ---
-
 
 Content-Disposition
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAttachment thing;
+String disposition  = thing.GetDisposition();
+```
 
 

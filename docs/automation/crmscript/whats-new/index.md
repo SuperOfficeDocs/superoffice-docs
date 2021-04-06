@@ -1,6 +1,6 @@
 ---
-title: crmscript_whats_new
-description: What's new in CRMScript
+uid: crmscript_whats_new
+title: What's new in CRMScript
 author:
 so.date: 10.15.2020
 keywords:

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_GetCategoryMaster
 title: Integer GetCategoryMaster()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetCategoryMaster()
-intellisense: 1
-classref: 1
-keywords: GetCategoryMaster()
+intellisense: NSTicketCategoryEntity.GetCategoryMaster
+keywords: NSTicketCategoryEntity, GetCategoryMaster
+so.topic: reference
 ---
-
 
 The user associated with this category.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketCategoryEntity thing;
+Integer categoryMaster  = thing.GetCategoryMaster();
+```
 
 

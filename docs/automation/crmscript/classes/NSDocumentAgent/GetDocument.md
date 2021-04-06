@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSDocumentAgent_GetDocument
+title: NSDocument GetDocument(Integer documentId);
+intellisense: NSDocumentAgent.GetDocument
+keywords: NSDocumentAgent, GetDocument
+so.topic: reference
 ---
-title: NSDocument GetDocument(Integer documentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument GetDocument(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2470
-keywords: GetDocument(Integer)
----
 
+Gets a NSDocument object.
 
-Gets a Document object.
+**Parameters:**
+ - **documentId** The identifier of the NSDocument object
 
+**Returns:** NSDocument
 
-
-* **documentId:** The identifier of the Document object
-* **Returns:** Document
-
+```crmscript
+NSDocumentAgent agent;
+NSDocument thing = agent.GetDocument(123);
+```
 

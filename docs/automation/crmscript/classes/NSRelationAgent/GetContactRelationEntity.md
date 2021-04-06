@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSRelationAgent_GetContactRelationEntity
+title: NSContactRelationEntity GetContactRelationEntity(Integer contactRelationEntityId);
+intellisense: NSRelationAgent.GetContactRelationEntity
+keywords: NSRelationAgent, GetContactRelationEntity
+so.topic: reference
 ---
-title: NSContactRelationEntity GetContactRelationEntity(Integer contactRelationEntityId)
-path: /EJScript/Classes/NSRelationAgent/Member functions/NSContactRelationEntity GetContactRelationEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetContactRelationEntity(Integer)
----
 
+Gets a NSContactRelationEntity object.
 
-Gets a ContactRelationEntity object.
+**Parameters:**
+ - **contactRelationEntityId** The identifier of the NSContactRelationEntity object
 
+**Returns:** NSContactRelationEntity
 
-
-* **contactRelationEntityId:** The identifier of the ContactRelationEntity object
-* **Returns:** ContactRelationEntity
-
+```crmscript
+NSRelationAgent agent;
+NSContactRelationEntity thing = agent.GetContactRelationEntity(123);
+```
 

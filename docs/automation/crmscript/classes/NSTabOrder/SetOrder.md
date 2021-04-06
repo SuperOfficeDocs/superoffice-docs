@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTabOrder_SetOrder
+title: SetOrder(String order)
+intellisense: NSTabOrder.SetOrder
+keywords: NSTabOrder, GetOrder
+so.topic: reference
 ---
-title: Void SetOrder(String Order)
-path: /EJScript/Classes/NSTabOrder/Member functions/Void SetOrder(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetOrder(String)
----
-
 
 The actual tab order
 
+**Parameter:** 
+ - **order** String
 
-
-* **Order:** String
-* **Returns:** String
-
+```crmscript
+NSTabOrder thing;
+String order;
+thing.SetOrder(order);
+```
 

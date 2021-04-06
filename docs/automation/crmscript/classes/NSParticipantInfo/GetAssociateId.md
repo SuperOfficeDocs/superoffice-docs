@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSParticipantInfo_GetAssociateId
 title: Integer GetAssociateId()
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
-keywords: GetAssociateId()
+intellisense: NSParticipantInfo.GetAssociateId
+keywords: NSParticipantInfo, GetAssociateId
+so.topic: reference
 ---
-
 
 Associate id of the participant if the participant is an associate (or resource)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSParticipantInfo thing;
+Integer associateId  = thing.GetAssociateId();
+```
 
 

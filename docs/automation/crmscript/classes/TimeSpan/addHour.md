@@ -1,9 +1,9 @@
 ---
-title: Void addHour(Integer num)
-path: /EJScript/Classes/TimeSpan/Member functions/Void addHour(Integer num)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_TimeSpan_addHour_Integer_num
+title: TimeSpan.addHour(Integer num)
+intellisense: TimeSpan.addHour
 keywords: addHour(Integer)
+so.topic: reference
 ---
 
 

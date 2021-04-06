@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_SetSaleDuration
+title: SetSaleDuration(Integer saleDuration)
+intellisense: NSSaleTypeEntity.SetSaleDuration
+keywords: NSSaleTypeEntity, GetSaleDuration
+so.topic: reference
 ---
-title: Void SetSaleDuration(Integer SaleDuration)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetSaleDuration(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleDuration(Integer)
----
-
 
 Expected number of dales from initiation to close of sale
 
+**Parameter:** 
+ - **saleDuration** Integer
 
-
-* **SaleDuration:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleTypeEntity thing;
+Integer saleDuration;
+thing.SetSaleDuration(saleDuration);
+```
 

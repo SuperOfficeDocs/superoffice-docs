@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetIntentId
 title: Integer GetIntentId()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetIntentId()
-intellisense: 1
-classref: 1
-sortOrder: 2659
-keywords: GetIntentId()
+intellisense: NSDocumentTemplateEntity.GetIntentId
+keywords: NSDocumentTemplateEntity, GetIntentId
+so.topic: reference
 ---
-
 
 What is the intention of this document (used by SAINT)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer intentId  = thing.GetIntentId();
+```
 
 

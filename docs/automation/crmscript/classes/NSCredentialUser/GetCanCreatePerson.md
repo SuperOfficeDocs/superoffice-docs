@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCredentialUser_GetCanCreatePerson
 title: Bool GetCanCreatePerson()
-path: /EJScript/Classes/NSCredentialUser/Member functions/Bool GetCanCreatePerson()
-intellisense: 1
-classref: 1
-sortOrder: 2086
-keywords: GetCanCreatePerson()
+intellisense: NSCredentialUser.GetCanCreatePerson
+keywords: NSCredentialUser, GetCanCreatePerson
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSCredentialUser thing;
+Bool canCreatePerson  = thing.GetCanCreatePerson();
+```
 
 

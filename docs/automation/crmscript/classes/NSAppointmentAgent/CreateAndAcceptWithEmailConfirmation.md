@@ -1,18 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_CreateAndAcceptWithEmailConfirmation
 title: Void CreateAndAcceptWithEmailConfirmation(Integer emailItemId, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void CreateAndAcceptWithEmailConfirmation(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-sortOrder: 912
-keywords: CreateAndAcceptWithEmailConfirmation(Integer,Integer)
+intellisense: NSAppointmentAgent.CreateAndAcceptWithEmailConfirmation
+keywords: NSAppointmentAgent, CreateAndAcceptWithEmailConfirmation
+so.topic: reference
 ---
-
 
 Creating an appointment from an emailItem invitation and accepting it with email confirmation to the meeting organizer.
 
-
-
-* **emailItemId:** The emailItemId
-* **updateMode:** Update mode for a recurring appointment.
-
-
+**Parameters:**
+ - **emailItemId** The emailItemId
+ - **updateMode** Update mode for a recurring appointment.
+     - Enum: 0 = Unknown 
+     - Enum: 1 = OnlyThis 
+     - Enum: 2 = ThisAndForward 
+     - Enum: 9 = StopRecurrence 

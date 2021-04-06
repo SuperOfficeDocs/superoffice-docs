@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSRecurrenceDate/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceDate_GetDescription
+title: NSRecurrenceDate.GetDescription()
+intellisense: NSRecurrenceDate.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

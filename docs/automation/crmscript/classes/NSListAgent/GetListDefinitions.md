@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetListDefinitions
+title: ListEntityArray GetListDefinitions(Bool includeDeleted)
+intellisense: NSListAgent.GetListDefinitions
+keywords: NSListAgent, GetListDefinitions
+so.topic: reference
 ---
-title: NSListEntity[] GetListDefinitions(Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity[] GetListDefinitions(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: GetListDefinitions(Bool)
----
-
 
 Get a list of the lists - built-in and user-defined.
 
+**Parameters:**
+ - **includeDeleted** Include deleted items in result?
 
+**Returns:** The list definitions
 
-* **includeDeleted:** Include deleted items in result?
-* **Returns:** The list definitions
-
+```crmscript
+NSListAgent agent;
+Bool includeDeleted;
+ListEntityArray res = agent.GetListDefinitions(includeDeleted);
+```
 

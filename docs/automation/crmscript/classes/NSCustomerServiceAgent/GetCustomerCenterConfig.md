@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSCustomerServiceAgent_GetCustomerCenterConfig
+title: NSCustomerCenterConfig GetCustomerCenterConfig(Integer customerCenterConfigId);
+intellisense: NSCustomerServiceAgent.GetCustomerCenterConfig
+keywords: NSCustomerServiceAgent, GetCustomerCenterConfig
+so.topic: reference
 ---
-title: NSCustomerCenterConfig GetCustomerCenterConfig(Integer customerCenterConfigId)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSCustomerCenterConfig GetCustomerCenterConfig(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2228
-keywords: GetCustomerCenterConfig(Integer)
----
 
+Gets a NSCustomerCenterConfig object.
 
-Gets a CustomerCenterConfig object.
+**Parameters:**
+ - **customerCenterConfigId** The identifier of the NSCustomerCenterConfig object
 
+**Returns:** NSCustomerCenterConfig
 
-
-* **customerCenterConfigId:** The identifier of the CustomerCenterConfig object
-* **Returns:** CustomerCenterConfig
-
+```crmscript
+NSCustomerServiceAgent agent;
+NSCustomerCenterConfig thing = agent.GetCustomerCenterConfig(123);
+```
 

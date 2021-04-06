@@ -1,10 +1,10 @@
 ---
-title: String[] GetArrayOfStrings()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/String[] GetArrayOfStrings()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_GetArrayOfStrings
+title: NSAAAMockAgent.GetArrayOfStrings()
+intellisense: NSAAAMockAgent.GetArrayOfStrings
 sortOrder: 8898
 keywords: GetArrayOfStrings()
+so.topic: reference
 ---
 
 

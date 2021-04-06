@@ -1,9 +1,9 @@
 ---
-title: Bool isLower()
-path: /EJScript/Classes/String/Member functions/Bool isLower()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_isLower
+title: String.isLower()
+intellisense: String.isLower
 keywords: isLower()
+so.topic: reference
 ---
 
 

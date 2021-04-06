@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetUdefIdentity
+title: SetUdefIdentity(Integer udefIdentity)
+intellisense: NSUserDefinedFieldInfo.SetUdefIdentity
+keywords: NSUserDefinedFieldInfo, GetUdefIdentity
+so.topic: reference
 ---
-title: Void SetUdefIdentity(Integer UdefIdentity)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetUdefIdentity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUdefIdentity(Integer)
----
-
 
 Unique number used to track field identity across layout changes
 
+**Parameter:** 
+ - **udefIdentity** Integer
 
-
-* **UdefIdentity:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer udefIdentity;
+thing.SetUdefIdentity(udefIdentity);
+```
 

@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDashboardAgent_SaveDashboardTile
+title: NSDashboardTile SaveDashboardTile(NSDashboardTile dashboardTile);
+intellisense: NSDashboardAgent.SaveDashboardTile
+keywords: NSDashboardAgent, SaveDashboardTile
+so.topic: reference
 ---
-title: NSDashboardTile SaveDashboardTile(NSDashboardTile dashboardTile)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboardTile SaveDashboardTile(NSDashboardTile p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2280
-keywords: SaveDashboardTile(NSDashboardTile)
----
+	  
+Updates the existing NSDashboardTile or creates a new NSDashboardTile if the id parameter is 0
+	  
+**Parameters**:
+ - **dashboardTile** The NSDashboardTile to save.
 
+**Returns:** New or updated NSDashboardTile
 
-Updates the existing DashboardTile or creates a new DashboardTile if the id parameter is empty
-
-
-
-* **dashboardTile:** The DashboardTile that is saved
-* **Returns:** New or updated DashboardTile
-
+```crmscript
+NSDashboard  agent;
+NSDashboardTile thing = agent.CreateDefaultDashboardTile();
+thing = agent.SaveDashboardTile(thing);
+```
 

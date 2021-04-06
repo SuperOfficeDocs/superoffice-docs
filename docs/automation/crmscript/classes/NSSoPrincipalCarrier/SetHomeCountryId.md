@@ -1,9 +1,9 @@
 ---
-title: Void SetHomeCountryId(Integer p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetHomeCountryId(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_SetHomeCountryId_Integer_p_0
+title: NSSoPrincipalCarrier.SetHomeCountryId(Integer p_0)
+intellisense: NSSoPrincipalCarrier.SetHomeCountryId
 keywords: SetHomeCountryId(Integer)
+so.topic: reference
 ---
 
 

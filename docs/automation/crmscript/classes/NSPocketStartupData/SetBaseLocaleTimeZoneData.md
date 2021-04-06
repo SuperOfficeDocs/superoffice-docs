@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketStartupData_SetBaseLocaleTimeZoneData
+title: SetBaseLocaleTimeZoneData(TimeZoneData baseLocaleTimeZoneData)
+intellisense: NSPocketStartupData.SetBaseLocaleTimeZoneData
+keywords: NSPocketStartupData, GetBaseLocaleTimeZoneData
+so.topic: reference
 ---
-title: Void SetBaseLocaleTimeZoneData(NSTimeZoneData BaseLocaleTimeZoneData)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetBaseLocaleTimeZoneData(NSTimeZoneData p_0)
-intellisense: 1
-classref: 1
-keywords: SetBaseLocaleTimeZoneData(NSTimeZoneData)
----
 
 
-* **BaseLocaleTimeZoneData:** TimeZoneData
-* **Returns:** TimeZoneData
 
+**Parameter:** 
+ - **baseLocaleTimeZoneData** TimeZoneData
+
+```crmscript
+NSPocketStartupData thing;
+TimeZoneData baseLocaleTimeZoneData;
+thing.SetBaseLocaleTimeZoneData(baseLocaleTimeZoneData);
+```
 

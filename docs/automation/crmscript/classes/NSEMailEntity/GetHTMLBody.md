@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetHTMLBody
 title: String GetHTMLBody()
-path: /EJScript/Classes/NSEMailEntity/Member functions/String GetHTMLBody()
-intellisense: 1
-classref: 1
-sortOrder: 2968
-keywords: GetHTMLBody()
+intellisense: NSEMailEntity.GetHTMLBody
+keywords: NSEMailEntity, GetHTMLBody
+so.topic: reference
 ---
-
 
 Body formatted in HTML
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailEntity thing;
+String hTMLBody  = thing.GetHTMLBody();
+```
 
 

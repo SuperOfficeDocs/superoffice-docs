@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_GetFormId
 title: Integer GetFormId()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Integer GetFormId()
-intellisense: 1
-classref: 1
-sortOrder: 3832
-keywords: GetFormId()
+intellisense: NSFormSubmissionEntity.GetFormId
+keywords: NSFormSubmissionEntity, GetFormId
+so.topic: reference
 ---
-
 
 The id of the parent form.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFormSubmissionEntity thing;
+Integer formId  = thing.GetFormId();
+```
 
 

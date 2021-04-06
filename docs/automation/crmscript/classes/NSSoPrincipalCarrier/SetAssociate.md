@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociate(String p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetAssociate(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_SetAssociate_String_p_0
+title: NSSoPrincipalCarrier.SetAssociate(String p_0)
+intellisense: NSSoPrincipalCarrier.SetAssociate
 keywords: SetAssociate(String)
+so.topic: reference
 ---
 
 

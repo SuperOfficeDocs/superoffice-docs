@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteContext_GetCRMSale
+title: Sale GetCRMSale()
+intellisense: NSQuoteContext.GetCRMSale
+keywords: NSQuoteContext, GetCRMSale
+so.topic: reference
 ---
-title: NSSale GetCRMSale()
-path: /EJScript/Classes/NSQuoteContext/Member functions/NSSale GetCRMSale()
-intellisense: 1
-classref: 1
-keywords: GetCRMSale()
----
-
 
 The sale the quote is registered in the CRM system.
 
+**Returns:** Sale
 
 
-* **Returns:** Sale
+```crmscript
+NSQuoteContext thing;
+Sale cRMSale  = thing.GetCRMSale();
+```
 
 

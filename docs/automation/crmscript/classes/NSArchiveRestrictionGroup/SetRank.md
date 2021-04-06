@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionGroup_SetRank
+title: SetRank(Integer rank)
+intellisense: NSArchiveRestrictionGroup.SetRank
+keywords: NSArchiveRestrictionGroup, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1208
-keywords: SetRank(Integer)
----
-
 
 Rank order within this CriteriaModel
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSArchiveRestrictionGroup thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

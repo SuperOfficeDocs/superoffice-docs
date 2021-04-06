@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArea_SetMaxDataAge
+title: SetMaxDataAge(Integer maxDataAge)
+intellisense: NSArea.SetMaxDataAge
+keywords: NSArea, GetMaxDataAge
+so.topic: reference
 ---
-title: Void SetMaxDataAge(Integer MaxDataAge)
-path: /EJScript/Classes/NSArea/Member functions/Void SetMaxDataAge(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1248
-keywords: SetMaxDataAge(Integer)
----
-
 
 Max age of data when generating db's based on this area
 
+**Parameter:** 
+ - **maxDataAge** Integer
 
-
-* **MaxDataAge:** Integer
-* **Returns:** Void
-
+```crmscript
+NSArea thing;
+Integer maxDataAge;
+thing.SetMaxDataAge(maxDataAge);
+```
 

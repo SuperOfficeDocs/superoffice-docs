@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSResolvedUser
 title: NSResolvedUser
-path: /EJScript/Classes/NSResolvedUser
-intellisense: 1
-classref: 1
+intellisense: Void.NSResolvedUser
+keywords: NSResolvedUser
+so.topic: reference
 ---
-
 
 The User Service. The service implements all services working with the User object.
 
-
-
-
-1. autolist
+1. autolist 
 

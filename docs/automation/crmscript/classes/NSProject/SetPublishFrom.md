@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProject_SetPublishFrom
+title: SetPublishFrom(DateTime publishFrom)
+intellisense: NSProject.SetPublishFrom
+keywords: NSProject, GetPublishFrom
+so.topic: reference
 ---
-title: Void SetPublishFrom(DateTime PublishFrom)
-path: /EJScript/Classes/NSProject/Member functions/Void SetPublishFrom(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetPublishFrom(DateTime)
----
-
 
 Publication valid from (inclusive)
 
+**Parameter:** 
+ - **publishFrom** DateTime
 
-
-* **PublishFrom:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSProject thing;
+DateTime publishFrom;
+thing.SetPublishFrom(publishFrom);
+```
 

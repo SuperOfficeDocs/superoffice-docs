@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLanguageInfo_GetTwoLetterISOLanguageName
 title: String GetTwoLetterISOLanguageName()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/String GetTwoLetterISOLanguageName()
-intellisense: 1
-classref: 1
-sortOrder: 4006
-keywords: GetTwoLetterISOLanguageName()
+intellisense: NSLanguageInfo.GetTwoLetterISOLanguageName
+keywords: NSLanguageInfo, GetTwoLetterISOLanguageName
+so.topic: reference
 ---
-
 
 ISO 2-letter abbreviation
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLanguageInfo thing;
+String twoLetterISOLanguageName  = thing.GetTwoLetterISOLanguageName();
+```
 
 

@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoDateTime
 title: NSFieldInfoDateTime
-path: /EJScript/Classes/NSFieldInfoDateTime
-intellisense: 1
-classref: 1
-sortOrder: 3497
+intellisense: Void.NSFieldInfoDateTime
+keywords: NSFieldInfoDateTime
+so.topic: reference
 ---
-
 
 Date + time custom database field.
 
-
-
-
-1. autolist
+1. autolist 
 

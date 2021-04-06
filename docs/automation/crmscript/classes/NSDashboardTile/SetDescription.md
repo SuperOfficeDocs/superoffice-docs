@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_SetDescription
+title: SetDescription(String description)
+intellisense: NSDashboardTile.SetDescription
+keywords: NSDashboardTile, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2308
-keywords: SetDescription(String)
----
-
 
 The tile description
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSDashboardTile thing;
+String description;
+thing.SetDescription(description);
+```
 

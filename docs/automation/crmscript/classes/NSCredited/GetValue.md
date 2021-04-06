@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSCredited_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSCredited/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-sortOrder: 2098
-keywords: GetValue()
+intellisense: NSCredited.GetValue
+keywords: NSCredited, GetValue
+so.topic: reference
 ---
 
+Get the name of the Credited.
 
-* **Returns:** String
+**Returns:** String Credited name.
 
+```crmscript
+NSCredited thing;
+String name = thing.GetValue();
+```
 

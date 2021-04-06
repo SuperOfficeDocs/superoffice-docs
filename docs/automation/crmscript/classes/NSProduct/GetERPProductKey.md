@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetERPProductKey
 title: String GetERPProductKey()
-path: /EJScript/Classes/NSProduct/Member functions/String GetERPProductKey()
-intellisense: 1
-classref: 1
-keywords: GetERPProductKey()
+intellisense: NSProduct.GetERPProductKey
+keywords: NSProduct, GetERPProductKey
+so.topic: reference
 ---
-
 
 Reference/foreign key to the product in the given pricelist in the product supplier system, if it exists there.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProduct thing;
+String eRPProductKey  = thing.GetERPProductKey();
+```
 
 

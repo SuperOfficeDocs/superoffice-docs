@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSHeadingEntity_GetHeadingId
 title: Integer GetHeadingId()
-path: /EJScript/Classes/NSHeadingEntity/Member functions/Integer GetHeadingId()
-intellisense: 1
-classref: 1
-sortOrder: 3913
-keywords: GetHeadingId()
+intellisense: NSHeadingEntity.GetHeadingId
+keywords: NSHeadingEntity, GetHeadingId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSHeadingEntity thing;
+Integer headingId  = thing.GetHeadingId();
+```
 
 

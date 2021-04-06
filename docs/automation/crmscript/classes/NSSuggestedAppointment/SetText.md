@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetText
+title: SetText(String text)
+intellisense: NSSuggestedAppointment.SetText
+keywords: NSSuggestedAppointment, GetText
+so.topic: reference
 ---
-title: Void SetText(String Text)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetText(String)
----
-
 
 The suggested text of the new appointment
 
+**Parameter:** 
+ - **text** String
 
-
-* **Text:** String
-* **Returns:** String
-
+```crmscript
+NSSuggestedAppointment thing;
+String text;
+thing.SetText(text);
+```
 

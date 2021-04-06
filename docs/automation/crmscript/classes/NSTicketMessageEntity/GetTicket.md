@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_GetTicket
+title: Ticket GetTicket()
+intellisense: NSTicketMessageEntity.GetTicket
+keywords: NSTicketMessageEntity, GetTicket
+so.topic: reference
 ---
-title: NSTicket GetTicket()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/NSTicket GetTicket()
-intellisense: 1
-classref: 1
-keywords: GetTicket()
----
-
 
 The connected ticket
 
+**Returns:** Ticket
 
 
-* **Returns:** Ticket
+```crmscript
+NSTicketMessageEntity thing;
+Ticket ticket  = thing.GetTicket();
+```
 
 

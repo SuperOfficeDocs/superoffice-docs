@@ -1,9 +1,9 @@
 ---
 description: Float pow(Float base, Float exp)
-path: /EJScript/Global functions/Float pow(Float base, Float exp)
-intellisense: 1
+intellisense: Void.pow
 langref: 1
 keywords: pow(Float,Float)
+so.topic: reference
 ---
 
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetStreetAddress
+title: SetStreetAddress(AddressSyncData streetAddress)
+intellisense: NSParticipantSyncData.SetStreetAddress
+keywords: NSParticipantSyncData, GetStreetAddress
+so.topic: reference
 ---
-title: Void SetStreetAddress(NSAddressSyncData StreetAddress)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetStreetAddress(NSAddressSyncData p_0)
-intellisense: 1
-classref: 1
-keywords: SetStreetAddress(NSAddressSyncData)
----
 
 
-* **StreetAddress:** AddressSyncData
-* **Returns:** AddressSyncData
 
+**Parameter:** 
+ - **streetAddress** AddressSyncData
+
+```crmscript
+NSParticipantSyncData thing;
+AddressSyncData streetAddress;
+thing.SetStreetAddress(streetAddress);
+```
 

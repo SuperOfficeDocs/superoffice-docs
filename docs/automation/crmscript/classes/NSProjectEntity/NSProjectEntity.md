@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEntity
 title: NSProjectEntity
-path: /EJScript/Classes/NSProjectEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSProjectEntity
+keywords: NSProjectEntity
+so.topic: reference
 ---
-
 
 The Project Service. The service implements all services working with the Project object
 
-
-
-
-1. autolist
+1. autolist 
 

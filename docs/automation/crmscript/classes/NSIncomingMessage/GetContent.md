@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSIncomingMessage_GetContent
 title: String GetContent()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetContent()
-intellisense: 1
-classref: 1
-sortOrder: 3986
-keywords: GetContent()
+intellisense: NSIncomingMessage.GetContent
+keywords: NSIncomingMessage, GetContent
+so.topic: reference
 ---
-
 
 Content, or body, of the message.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSIncomingMessage thing;
+String content  = thing.GetContent();
+```
 
 

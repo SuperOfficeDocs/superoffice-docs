@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetSignature
+title: SetSignature(String signature)
+intellisense: NSLicenseInfo.SetSignature
+keywords: NSLicenseInfo, GetSignature
+so.topic: reference
 ---
-title: Void SetSignature(String Signature)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetSignature(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignature(String)
----
-
 
 Signature of all non-zero-amount moduleLicense rows referring to this owner
 
+**Parameter:** 
+ - **signature** String
 
-
-* **Signature:** String
-* **Returns:** String
-
+```crmscript
+NSLicenseInfo thing;
+String signature;
+thing.SetSignature(signature);
+```
 

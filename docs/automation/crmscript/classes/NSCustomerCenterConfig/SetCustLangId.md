@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig_SetCustLangId
+title: SetCustLangId(Integer custLangId)
+intellisense: NSCustomerCenterConfig.SetCustLangId
+keywords: NSCustomerCenterConfig, GetCustLangId
+so.topic: reference
 ---
-title: Void SetCustLangId(Integer CustLangId)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetCustLangId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2205
-keywords: SetCustLangId(Integer)
----
-
 
 The customer language which this config belongs to. 0 indicates that the config is global
 
+**Parameter:** 
+ - **custLangId** Integer
 
-
-* **CustLangId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCustomerCenterConfig thing;
+Integer custLangId;
+thing.SetCustLangId(custLangId);
+```
 

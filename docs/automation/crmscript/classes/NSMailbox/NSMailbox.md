@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSMailbox
 title: NSMailbox
-path: /EJScript/Classes/NSMailbox
-intellisense: 1
-classref: 1
+intellisense: Void.NSMailbox
+keywords: NSMailbox
+so.topic: reference
 ---
-
 
 Carrier containing information about a Service mailbox
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSReasonStalled
 title: NSReasonStalled
-path: /EJScript/Classes/NSReasonStalled
-intellisense: 1
-classref: 1
+intellisense: Void.NSReasonStalled
+keywords: NSReasonStalled
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

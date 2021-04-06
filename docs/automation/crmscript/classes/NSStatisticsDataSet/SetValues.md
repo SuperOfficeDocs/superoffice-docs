@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatisticsDataSet_SetValues
+title: SetValues(StatisticsDataValueArray values)
+intellisense: NSStatisticsDataSet.SetValues
+keywords: NSStatisticsDataSet, GetValues
+so.topic: reference
 ---
-title: Void SetValues(NSStatisticsDataValue[] Values)
-path: /EJScript/Classes/NSStatisticsDataSet/Member functions/Void SetValues(NSStatisticsDataValue[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetValues(NSStatisticsDataValue[])
----
-
 
 Values in this set
 
+**Parameter:** 
+ - **values** StatisticsDataValueArray
 
-
-* **Values:** StatisticsDataValueArray
-* **Returns:** StatisticsDataValueArray
-
+```crmscript
+NSStatisticsDataSet thing;
+StatisticsDataValueArray values;
+thing.SetValues(values);
+```
 

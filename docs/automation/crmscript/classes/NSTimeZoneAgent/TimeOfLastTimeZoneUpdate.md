@@ -1,16 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneAgent_TimeOfLastTimeZoneUpdate
 title: DateTime TimeOfLastTimeZoneUpdate()
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/DateTime TimeOfLastTimeZoneUpdate()
-intellisense: 1
-classref: 1
-keywords: TimeOfLastTimeZoneUpdate()
+intellisense: NSTimeZoneAgent.TimeOfLastTimeZoneUpdate
+keywords: NSTimeZoneAgent, TimeOfLastTimeZoneUpdate
+so.topic: reference
 ---
-
 
 Get the time time zone data was last updated
 
 
+**Returns:** Time of last update
 
-* **Returns:** Time of last update
-
+```crmscript
+NSTimeZoneAgent agent;
+DateTime res = agent.TimeOfLastTimeZoneUpdate();
+```
 

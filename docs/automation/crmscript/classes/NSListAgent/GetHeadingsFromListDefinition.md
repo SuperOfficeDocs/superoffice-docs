@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetHeadingsFromListDefinition
+title: HeadingEntityArray GetHeadingsFromListDefinition(Integer id)
+intellisense: NSListAgent.GetHeadingsFromListDefinition
+keywords: NSListAgent, GetHeadingsFromListDefinition
+so.topic: reference
 ---
-title: NSHeadingEntity[] GetHeadingsFromListDefinition(Integer id)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity[] GetHeadingsFromListDefinition(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetHeadingsFromListDefinition(Integer)
----
-
 
 Gets headings for list resolved by the provided id.
 
+**Parameters:**
+ - **id** The id of the list to look up.
 
+**Returns:** List of headings
 
-* **id:** The id of the list to look up.
-* **Returns:** List of headings
-
+```crmscript
+NSListAgent agent;
+Integer id;
+HeadingEntityArray res = agent.GetHeadingsFromListDefinition(id);
+```
 

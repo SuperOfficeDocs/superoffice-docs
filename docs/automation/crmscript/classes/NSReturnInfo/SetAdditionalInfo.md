@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReturnInfo_SetAdditionalInfo
+title: SetAdditionalInfo(String additionalInfo)
+intellisense: NSReturnInfo.SetAdditionalInfo
+keywords: NSReturnInfo, GetAdditionalInfo
+so.topic: reference
 ---
-title: Void SetAdditionalInfo(String AdditionalInfo)
-path: /EJScript/Classes/NSReturnInfo/Member functions/Void SetAdditionalInfo(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetAdditionalInfo(String)
----
-
 
 Optional, additional information meant for further processing. This member is ignored for return types None, Message and SoProtocol. It can be used to pass execution-dependent information to the code that handles CustomGui and Other.
 
+**Parameter:** 
+ - **additionalInfo** String
 
-
-* **AdditionalInfo:** String
-* **Returns:** String
-
+```crmscript
+NSReturnInfo thing;
+String additionalInfo;
+thing.SetAdditionalInfo(additionalInfo);
+```
 

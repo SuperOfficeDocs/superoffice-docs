@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetERPDeliveryTypeKey
+title: SetERPDeliveryTypeKey(String eRPDeliveryTypeKey)
+intellisense: NSQuoteVersion.SetERPDeliveryTypeKey
+keywords: NSQuoteVersion, GetERPDeliveryTypeKey
+so.topic: reference
 ---
-title: Void SetERPDeliveryTypeKey(String ERPDeliveryTypeKey)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetERPDeliveryTypeKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetERPDeliveryTypeKey(String)
----
-
 
 Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Air’.
 
+**Parameter:** 
+ - **eRPDeliveryTypeKey** String
 
-
-* **ERPDeliveryTypeKey:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersion thing;
+String eRPDeliveryTypeKey;
+thing.SetERPDeliveryTypeKey(eRPDeliveryTypeKey);
+```
 

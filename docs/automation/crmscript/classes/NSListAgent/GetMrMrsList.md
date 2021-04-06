@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetMrMrsList
+title: NSMrMrs[] GetMrMrsList(Integer[]  mrMrsIds);
+intellisense: NSListAgent.GetMrMrsList
+keywords: NSListAgent, GetMrMrsList
+so.topic: reference
 ---
-title: NSMrMrs[] GetMrMrsList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSMrMrs[] GetMrMrsList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetMrMrsList(Integer[])
----
 
-Gets an array of MrMrs objects.
+Gets a vector of MrMrs objects.
 
+**Parameters:**
+ - **mrMrsIds** The identifiers of the NSMrMrs objects
 
-* **p0:** IntegerArray of identifiers for MrMrs
-* **Returns:** Array of NSMrMrs
+**Returns:** Vector of NSMrMrs objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetMrMrsList(ids);
+```
 

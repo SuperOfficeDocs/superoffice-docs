@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDataRight_SetValue
+title: SetValue(String value)
+intellisense: NSDataRight.SetValue
+keywords: NSDataRight, GetValue
+so.topic: reference
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSDataRight/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2347
-keywords: SetValue(String)
----
 
 
-* **Value:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **value** String
+
+```crmscript
+NSDataRight thing;
+String value;
+thing.SetValue(value);
+```
 

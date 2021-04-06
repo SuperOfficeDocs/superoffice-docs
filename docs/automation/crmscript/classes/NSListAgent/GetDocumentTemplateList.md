@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetDocumentTemplateList
+title: NSDocumentTemplate[] GetDocumentTemplateList(Integer[]  documentTemplateIds);
+intellisense: NSListAgent.GetDocumentTemplateList
+keywords: NSListAgent, GetDocumentTemplateList
+so.topic: reference
 ---
-title: NSDocumentTemplate[] GetDocumentTemplateList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplate[] GetDocumentTemplateList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetDocumentTemplateList(Integer[])
----
 
-Gets an array of DocumentTemplate objects.
+Gets a vector of DocumentTemplate objects.
 
+**Parameters:**
+ - **documentTemplateIds** The identifiers of the NSDocumentTemplate objects
 
-* **p0:** IntegerArray of identifiers for DocumentTemplate
-* **Returns:** Array of NSDocumentTemplate
+**Returns:** Vector of NSDocumentTemplate objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetDocumentTemplateList(ids);
+```
 

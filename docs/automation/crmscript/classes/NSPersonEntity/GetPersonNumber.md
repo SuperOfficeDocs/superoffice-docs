@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetPersonNumber
 title: String GetPersonNumber()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetPersonNumber()
-intellisense: 1
-classref: 1
-keywords: GetPersonNumber()
+intellisense: NSPersonEntity.GetPersonNumber
+keywords: NSPersonEntity, GetPersonNumber
+so.topic: reference
 ---
-
 
 Alphanumeric user field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPersonEntity thing;
+String personNumber  = thing.GetPersonNumber();
+```
 
 

@@ -1,12 +1,17 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetVisibleFor
+title: VisibleForArray GetVisibleFor()
+intellisense: NSSelectionEntity.GetVisibleFor
+keywords: NSSelectionEntity, GetVisibleFor
+so.topic: reference
 ---
-title: VisibleFor[] GetVisibleFor()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/VisibleFor[] GetVisibleFor()
-intellisense: 1
-classref: 1
-keywords: GetVisibleFor()
----
 
+Return the usergroups and/or users the SelectionEntity item is visible for.
 
-* **Returns:** VisibleForArray
+**Returns:** Visible for array.
 
+```crmscript
+NSSelectionEntity thing;
+VisibleFor[] visibleFor = thing.GetVisibleFor();
+```
 

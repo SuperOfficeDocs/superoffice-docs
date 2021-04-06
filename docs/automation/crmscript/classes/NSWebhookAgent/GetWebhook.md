@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSWebhookAgent_GetWebhook
+title: NSWebhook GetWebhook(Integer webhookId);
+intellisense: NSWebhookAgent.GetWebhook
+keywords: NSWebhookAgent, GetWebhook
+so.topic: reference
 ---
-title: NSWebhook GetWebhook(Integer webhookId)
-path: /EJScript/Classes/NSWebhookAgent/Member functions/NSWebhook GetWebhook(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetWebhook(Integer)
----
 
+Gets a NSWebhook object.
 
-Gets a Webhook object.
+**Parameters:**
+ - **webhookId** The identifier of the NSWebhook object
 
+**Returns:** NSWebhook
 
-
-* **webhookId:** The identifier of the Webhook object
-* **Returns:** Webhook
-
+```crmscript
+NSWebhookAgent agent;
+NSWebhook thing = agent.GetWebhook(123);
+```
 

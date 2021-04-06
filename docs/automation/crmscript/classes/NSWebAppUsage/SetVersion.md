@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebAppUsage_SetVersion
+title: SetVersion(Integer version)
+intellisense: NSWebAppUsage.SetVersion
+keywords: NSWebAppUsage, GetVersion
+so.topic: reference
 ---
-title: Void SetVersion(Integer Version)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetVersion(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetVersion(Integer)
----
-
 
 ??
 
+**Parameter:** 
+ - **version** Integer
 
-
-* **Version:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWebAppUsage thing;
+Integer version;
+thing.SetVersion(version);
+```
 

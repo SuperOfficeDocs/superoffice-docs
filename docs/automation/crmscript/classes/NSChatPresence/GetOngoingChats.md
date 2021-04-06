@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChatPresence_GetOngoingChats
 title: Integer GetOngoingChats()
-path: /EJScript/Classes/NSChatPresence/Member functions/Integer GetOngoingChats()
-intellisense: 1
-classref: 1
-sortOrder: 1520
-keywords: GetOngoingChats()
+intellisense: NSChatPresence.GetOngoingChats
+keywords: NSChatPresence, GetOngoingChats
+so.topic: reference
 ---
-
 
 The number of ongoing chats this users has now
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSChatPresence thing;
+Integer ongoingChats  = thing.GetOngoingChats();
+```
 
 

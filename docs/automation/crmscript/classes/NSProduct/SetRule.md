@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetRule
+title: SetRule(String rule)
+intellisense: NSProduct.SetRule
+keywords: NSProduct, GetRule
+so.topic: reference
 ---
-title: Void SetRule(String Rule)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetRule(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetRule(String)
----
-
 
 The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive. Will NOT be used by SuperOffice.
 
+**Parameter:** 
+ - **rule** String
 
-
-* **Rule:** String
-* **Returns:** String
-
+```crmscript
+NSProduct thing;
+String rule;
+thing.SetRule(rule);
+```
 

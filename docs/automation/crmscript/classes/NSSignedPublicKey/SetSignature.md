@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSignedPublicKey_SetSignature
+title: SetSignature(String signature)
+intellisense: NSSignedPublicKey.SetSignature
+keywords: NSSignedPublicKey, GetSignature
+so.topic: reference
 ---
-title: Void SetSignature(String Signature)
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/Void SetSignature(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignature(String)
----
-
 
 Signature - Base64 encoded value
 
+**Parameter:** 
+ - **signature** String
 
-
-* **Signature:** String
-* **Returns:** String
-
+```crmscript
+NSSignedPublicKey thing;
+String signature;
+thing.SetSignature(signature);
+```
 

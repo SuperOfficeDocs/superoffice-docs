@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSActivitySummary
 title: NSActivitySummary
-path: /EJScript/Classes/NSActivitySummary
-intellisense: 1
-classref: 1
-sortOrder: 585
+intellisense: Void.NSActivitySummary
+keywords: NSActivitySummary
+so.topic: reference
 ---
-
 
 Activity information summary - number of free and busy activities.
 
-
-
-
-1. autolist
+1. autolist 
 

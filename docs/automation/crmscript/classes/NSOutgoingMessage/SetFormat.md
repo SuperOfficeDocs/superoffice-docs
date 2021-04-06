@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSOutgoingMessage_SetFormat
+title: SetFormat(String format)
+intellisense: NSOutgoingMessage.SetFormat
+keywords: NSOutgoingMessage, GetFormat
+so.topic: reference
 ---
-title: Void SetFormat(String Format)
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/Void SetFormat(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetFormat(String)
----
-
 
 Format of content
 
+**Parameter:** 
+ - **format** String
 
-
-* **Format:** String
-* **Returns:** String
-
+```crmscript
+NSOutgoingMessage thing;
+String format;
+thing.SetFormat(format);
+```
 

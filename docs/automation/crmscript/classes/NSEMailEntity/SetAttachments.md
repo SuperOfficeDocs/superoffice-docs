@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetAttachments
+title: SetAttachments(EMailAttachmentArray attachments)
+intellisense: NSEMailEntity.SetAttachments
+keywords: NSEMailEntity, GetAttachments
+so.topic: reference
 ---
-title: Void SetAttachments(NSEMailAttachment[] Attachments)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetAttachments(NSEMailAttachment[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2973
-keywords: SetAttachments(NSEMailAttachment[])
----
 
 
-* **Attachments:** EMailAttachmentArray
-* **Returns:** EMailAttachmentArray
 
+**Parameter:** 
+ - **attachments** EMailAttachmentArray
+
+```crmscript
+NSEMailEntity thing;
+EMailAttachmentArray attachments;
+thing.SetAttachments(attachments);
+```
 

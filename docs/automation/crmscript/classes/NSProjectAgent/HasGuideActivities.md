@@ -1,12 +1,12 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_HasGuideActivities
+title: Bool HasGuideActivities(Integer projectId)
+intellisense: NSProjectAgent.HasGuideActivities
+keywords: NSProjectAgent, HasGuideActivities
+so.topic: reference
 ---
-title: Bool HasGuideActivities(Integer p0)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Bool HasGuideActivities(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: HasGuideActivities(Integer)
----
 
 
-* **projectId**
 
-
+**Parameters:**
+ - **projectId** 

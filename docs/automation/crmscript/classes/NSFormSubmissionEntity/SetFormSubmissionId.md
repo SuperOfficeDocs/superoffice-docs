@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_SetFormSubmissionId
+title: SetFormSubmissionId(Integer formSubmissionId)
+intellisense: NSFormSubmissionEntity.SetFormSubmissionId
+keywords: NSFormSubmissionEntity, GetFormSubmissionId
+so.topic: reference
 ---
-title: Void SetFormSubmissionId(Integer FormSubmissionId)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetFormSubmissionId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3843
-keywords: SetFormSubmissionId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **formSubmissionId** Integer
 
-
-* **FormSubmissionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFormSubmissionEntity thing;
+Integer formSubmissionId;
+thing.SetFormSubmissionId(formSubmissionId);
+```
 

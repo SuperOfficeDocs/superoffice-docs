@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_GetTaskId
 title: Integer GetTaskId()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetTaskId()
-intellisense: 1
-classref: 1
-keywords: GetTaskId()
+intellisense: NSSuggestedAppointment.GetTaskId
+keywords: NSSuggestedAppointment, GetTaskId
+so.topic: reference
 ---
-
 
 Type of the suggested appointment
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSuggestedAppointment thing;
+Integer taskId  = thing.GetTaskId();
+```
 
 

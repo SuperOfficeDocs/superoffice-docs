@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreferenceDescriptionLine_SetPrefDescLineId
+title: SetPrefDescLineId(Integer prefDescLineId)
+intellisense: NSPreferenceDescriptionLine.SetPrefDescLineId
+keywords: NSPreferenceDescriptionLine, GetPrefDescLineId
+so.topic: reference
 ---
-title: Void SetPrefDescLineId(Integer PrefDescLineId)
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/Void SetPrefDescLineId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPrefDescLineId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **prefDescLineId** Integer
 
-
-* **PrefDescLineId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPreferenceDescriptionLine thing;
+Integer prefDescLineId;
+thing.SetPrefDescLineId(prefDescLineId);
+```
 

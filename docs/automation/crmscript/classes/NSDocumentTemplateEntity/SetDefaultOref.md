@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_SetDefaultOref
+title: SetDefaultOref(String defaultOref)
+intellisense: NSDocumentTemplateEntity.SetDefaultOref
+keywords: NSDocumentTemplateEntity, GetDefaultOref
+so.topic: reference
 ---
-title: Void SetDefaultOref(String DefaultOref)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetDefaultOref(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2678
-keywords: SetDefaultOref(String)
----
-
 
 Processed via tag substitution to give document reference
 
+**Parameter:** 
+ - **defaultOref** String
 
-
-* **DefaultOref:** String
-* **Returns:** String
-
+```crmscript
+NSDocumentTemplateEntity thing;
+String defaultOref;
+thing.SetDefaultOref(defaultOref);
+```
 

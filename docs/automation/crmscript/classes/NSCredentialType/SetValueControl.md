@@ -1,22 +1,24 @@
+﻿---
+uid: crmscript_ref_NSCredentialType_SetValueControl
+title: SetValueControl(Integer valueControl)
+intellisense: NSCredentialType.SetValueControl
+keywords: NSCredentialType, GetValueControl
+so.topic: reference
 ---
-title: Void SetValueControl(Integer ValueControl)
-path: /EJScript/Classes/NSCredentialType/Member functions/Void SetValueControl(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2082
-keywords: SetValueControl(Integer)
----
-
 
 Type of control used to display the value.
 
-* Static=0
-* Edit=1
-* Password=2
-* Link=3
-* Hidden=4
+**Parameter:** 
+ - **valueControl** Integer
+     - Enum: 0 = Static 
+     - Enum: 1 = Edit 
+     - Enum: 2 = Password 
+     - Enum: 3 = Link 
+     - Enum: 4 = Hidden 
 
-* **ValueControl:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCredentialType thing;
+Integer valueControl;
+thing.SetValueControl(valueControl);
+```
 

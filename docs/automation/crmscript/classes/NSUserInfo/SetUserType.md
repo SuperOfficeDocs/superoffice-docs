@@ -1,13 +1,25 @@
+﻿---
+uid: crmscript_ref_NSUserInfo_SetUserType
+title: SetUserType(Integer userType)
+intellisense: NSUserInfo.SetUserType
+keywords: NSUserInfo, GetUserType
+so.topic: reference
 ---
-title: Void SetUserType(Integer UserType)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetUserType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserType(Integer)
----
 
 
-* **UserType:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **userType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
+
+```crmscript
+NSUserInfo thing;
+Integer userType;
+thing.SetUserType(userType);
+```
 

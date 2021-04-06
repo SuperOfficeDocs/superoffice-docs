@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPhoneListPreferences_SetSearchCompany
+title: SetSearchCompany(Bool searchCompany)
+intellisense: NSPhoneListPreferences.SetSearchCompany
+keywords: NSPhoneListPreferences, GetSearchCompany
+so.topic: reference
 ---
-title: Void SetSearchCompany(Bool SearchCompany)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchCompany(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSearchCompany(Bool)
----
-
 
 True if you want to search for Companies by their name.
 
+**Parameter:** 
+ - **searchCompany** Bool
 
-
-* **SearchCompany:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSPhoneListPreferences thing;
+Bool searchCompany;
+thing.SetSearchCompany(searchCompany);
+```
 

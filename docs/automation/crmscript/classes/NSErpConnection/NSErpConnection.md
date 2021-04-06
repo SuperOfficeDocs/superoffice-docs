@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnection
 title: NSErpConnection
-path: /EJScript/Classes/NSErpConnection
-intellisense: 1
-classref: 1
-sortOrder: 3074
+intellisense: Void.NSErpConnection
+keywords: NSErpConnection
+so.topic: reference
 ---
-
 
 Information about a connection to the ERP system.
 
-
-
-
-1. autolist
+1. autolist 
 

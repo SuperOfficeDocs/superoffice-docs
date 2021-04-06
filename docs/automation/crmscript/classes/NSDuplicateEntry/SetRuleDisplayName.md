@@ -1,10 +1,10 @@
 ---
-title: Void SetRuleDisplayName(String p0)
-path: /EJScript/Classes/NSDuplicateEntry/Member functions/Void SetRuleDisplayName(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSDuplicateEntry_SetRuleDisplayName_String_p_0
+title: NSDuplicateEntry.SetRuleDisplayName(String p_0)
+intellisense: NSDuplicateEntry.SetRuleDisplayName
 sortOrder: 2729
 keywords: SetRuleDisplayName(String)
+so.topic: reference
 ---
 
 Short name of rule to display to user

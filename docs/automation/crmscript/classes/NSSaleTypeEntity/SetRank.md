@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_SetRank
+title: SetRank(Integer rank)
+intellisense: NSSaleTypeEntity.SetRank
+keywords: NSSaleTypeEntity, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 Rank order
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleTypeEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSNavigatorCompany_SetId
+title: SetId(Integer id)
+intellisense: NSNavigatorCompany.SetId
+keywords: NSNavigatorCompany, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSNavigatorCompany/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the NavigatorCompany
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer NavigatorCompany id.
 
+```crmscript
+NSNavigatorCompany thing;
+thing.SetId(123);
+```
 

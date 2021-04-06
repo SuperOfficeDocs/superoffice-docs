@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAudienceConfigParameter_SetName
+title: SetName(String name)
+intellisense: NSAudienceConfigParameter.SetName
+keywords: NSAudienceConfigParameter, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1329
-keywords: SetName(String)
----
-
 
 The name of the configuration parameter
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSAudienceConfigParameter thing;
+String name;
+thing.SetName(name);
+```
 

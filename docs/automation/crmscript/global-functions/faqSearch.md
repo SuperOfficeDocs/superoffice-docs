@@ -1,9 +1,9 @@
 ---
 description: Parser faqSearch(Integer root, Integer access, String message, Parser p, Integer max)
-path: /EJScript/Global functions/Parser faqSearch(Integer root, Integer access, String message, Parser p, Integer max)
-intellisense: 1
+intellisense: Void.faqSearch
 langref: 1
 keywords: faqSearch(Integer,Integer,String,Parser,Integer)
+so.topic: reference
 ---
 
 

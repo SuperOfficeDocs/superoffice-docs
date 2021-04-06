@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseOwner_SetUnrestrictedModuleLicenses
+title: SetUnrestrictedModuleLicenses(ModuleLicenseLinkArray unrestrictedModuleLicenses)
+intellisense: NSLicenseOwner.SetUnrestrictedModuleLicenses
+keywords: NSLicenseOwner, GetUnrestrictedModuleLicenses
+so.topic: reference
 ---
-title: Void SetUnrestrictedModuleLicenses(NSModuleLicenseLink[] UnrestrictedModuleLicenses)
-path: /EJScript/Classes/NSLicenseOwner/Member functions/Void SetUnrestrictedModuleLicenses(NSModuleLicenseLink[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetUnrestrictedModuleLicenses(NSModuleLicenseLink[])
----
-
 
 The unrestricted module licenses that this license owner
 
+**Parameter:** 
+ - **unrestrictedModuleLicenses** ModuleLicenseLinkArray
 
-
-* **UnrestrictedModuleLicenses:** ModuleLicenseLinkArray
-* **Returns:** ModuleLicenseLinkArray
-
+```crmscript
+NSLicenseOwner thing;
+ModuleLicenseLinkArray unrestrictedModuleLicenses;
+thing.SetUnrestrictedModuleLicenses(unrestrictedModuleLicenses);
+```
 

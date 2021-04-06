@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetMrmrs
 title: String GetMrmrs()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetMrmrs()
-intellisense: 1
-classref: 1
-keywords: GetMrmrs()
+intellisense: NSSaleStakeholder.GetMrmrs
+keywords: NSSaleStakeholder, GetMrmrs
+so.topic: reference
 ---
-
 
 e.g. Mrs, Mr, Ms, Dr.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleStakeholder thing;
+String mrmrs  = thing.GetMrmrs();
+```
 
 

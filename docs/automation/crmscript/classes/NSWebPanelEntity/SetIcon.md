@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetIcon
+title: SetIcon(Integer icon)
+intellisense: NSWebPanelEntity.SetIcon
+keywords: NSWebPanelEntity, GetIcon
+so.topic: reference
 ---
-title: Void SetIcon(Integer Icon)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetIcon(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetIcon(Integer)
----
-
 
 The icon of the webpanel
 
+**Parameter:** 
+ - **icon** Integer
 
-
-* **Icon:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWebPanelEntity thing;
+Integer icon;
+thing.SetIcon(icon);
+```
 

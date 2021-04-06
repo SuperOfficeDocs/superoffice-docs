@@ -1,10 +1,10 @@
 ---
-title: Integer getNumGroups()
-path: /EJScript/Classes/MainMenu/Member functions/Integer getNumGroups()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MainMenu_getNumGroups
+title: MainMenu.getNumGroups()
+intellisense: MainMenu.getNumGroups
 sortOrder: 506
 keywords: getNumGroups()
+so.topic: reference
 ---
 
 

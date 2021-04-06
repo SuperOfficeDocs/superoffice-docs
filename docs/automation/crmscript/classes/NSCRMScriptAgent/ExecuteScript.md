@@ -1,19 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptAgent_ExecuteScript
 title: String ExecuteScript(Integer cRMScriptId, StringDictionary parameters)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/String ExecuteScript(Integer p_0, StringDictionary p_1)
-intellisense: 1
-classref: 1
-sortOrder: 2121
-keywords: ExecuteScript(Integer,StringDictionary)
+intellisense: NSCRMScriptAgent.ExecuteScript
+keywords: NSCRMScriptAgent, ExecuteScript
+so.topic: reference
 ---
 
+Execute a CRMScript with parameters, returning printed output value.
 
-Execute a CRMScript with parameters
+**Parameters:**
+ - **cRMScriptId** The id of the CRMScript to execute
+ - **parameters** Parameters passed as variables to the CRMScript
 
+**Returns:** The output produced by the CRMScript
 
-
-* **cRMScriptId:** The id of the CRMScript to execute
-* **parameters:** Parameters passed as variables to the CRMScript
-* **Returns:** The output produced by the CRMScript
-
+```crmscript
+NSCRMScriptAgent agent;
+Integer cRMScriptId;
+StringDictionary parameters;
+String res = agent.ExecuteScript(cRMScriptId, parameters);
+```
 

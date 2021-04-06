@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetNextMilestoneDate
+title: SetNextMilestoneDate(DateTime nextMilestoneDate)
+intellisense: NSProjectEntity.SetNextMilestoneDate
+keywords: NSProjectEntity, GetNextMilestoneDate
+so.topic: reference
 ---
-title: Void SetNextMilestoneDate(DateTime NextMilestoneDate)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetNextMilestoneDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetNextMilestoneDate(DateTime)
----
-
 
 Calculated date, reflects date of closest non-complete future milestone activity
 
+**Parameter:** 
+ - **nextMilestoneDate** DateTime
 
-
-* **NextMilestoneDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSProjectEntity thing;
+DateTime nextMilestoneDate;
+thing.SetNextMilestoneDate(nextMilestoneDate);
+```
 

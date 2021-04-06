@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_SetFilename
+title: SetFilename(String filename)
+intellisense: NSDocumentTemplateEntity.SetFilename
+keywords: NSDocumentTemplateEntity, GetFilename
+so.topic: reference
 ---
-title: Void SetFilename(String Filename)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetFilename(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2685
-keywords: SetFilename(String)
----
-
 
 Relative to TemplatePath, or extref for other document plugins. i.e URL or full path.
 
+**Parameter:** 
+ - **filename** String
 
-
-* **Filename:** String
-* **Returns:** String
-
+```crmscript
+NSDocumentTemplateEntity thing;
+String filename;
+thing.SetFilename(filename);
+```
 

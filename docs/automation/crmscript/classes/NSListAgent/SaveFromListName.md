@@ -1,19 +1,25 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveFromListName
+title: ListItemEntity SaveFromListName(Integer id, String udListDefinitionName, ListItemEntity item)
+intellisense: NSListAgent.SaveFromListName
+keywords: NSListAgent, SaveFromListName
+so.topic: reference
 ---
-title: NSListItemEntity SaveFromListName(Integer id, String udListDefinitionName, NSListItemEntity item)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity SaveFromListName(Integer p_0, String p_1, NSListItemEntity p_2)
-intellisense: 1
-classref: 1
-keywords: SaveFromListName(Integer,String,NSListItemEntity)
----
-
 
 Save a list item for the specified list defintion
 
+**Parameters:**
+ - **id** The identity of the list item to load
+ - **udListDefinitionName** The name of the list definition, indicating which list to save the item to.
+ - **item** The item to save
 
+**Returns:** The saved list item
 
-* **id:** The identity of the list item to load
-* **udListDefinitionName:** The name of the list definition, indicating which list to save the item to.
-* **item:** The item to save
-* **Returns:** The saved list item
-
+```crmscript
+NSListAgent agent;
+Integer id;
+String udListDefinitionName;
+ListItemEntity item;
+ListItemEntity res = agent.SaveFromListName(id, udListDefinitionName, item);
+```
 

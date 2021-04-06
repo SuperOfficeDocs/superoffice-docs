@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSRelationToOwner_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSRelationToOwner/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSRelationToOwner.GetValue
+keywords: NSRelationToOwner, GetValue
+so.topic: reference
 ---
 
+Get the name of the RelationToOwner.
 
-* **Returns:** String
+**Returns:** String RelationToOwner name.
 
+```crmscript
+NSRelationToOwner thing;
+String name = thing.GetValue();
+```
 

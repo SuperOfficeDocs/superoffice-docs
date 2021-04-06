@@ -1,10 +1,10 @@
 ---
-title: Bool first()
-path: /EJScript/Classes/Cache/Member functions/Bool first()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Cache_first
+title: Cache.first()
+intellisense: Cache.first
 sortOrder: 143
 keywords: first()
+so.topic: reference
 ---
 
 Sets the iterator variable to the first field in the fieldset.

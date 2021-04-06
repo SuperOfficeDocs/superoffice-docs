@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionGroup_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 1204
-keywords: GetDescription()
+intellisense: NSArchiveRestrictionGroup.GetDescription
+keywords: NSArchiveRestrictionGroup, GetDescription
+so.topic: reference
 ---
-
 
 Description of group
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSArchiveRestrictionGroup thing;
+String description  = thing.GetDescription();
+```
 
 

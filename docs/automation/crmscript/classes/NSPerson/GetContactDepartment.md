@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetContactDepartment
 title: String GetContactDepartment()
-path: /EJScript/Classes/NSPerson/Member functions/String GetContactDepartment()
-intellisense: 1
-classref: 1
-keywords: GetContactDepartment()
+intellisense: NSPerson.GetContactDepartment
+keywords: NSPerson, GetContactDepartment
+so.topic: reference
 ---
-
 
 The persons contact department
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPerson thing;
+String contactDepartment  = thing.GetContactDepartment();
+```
 
 

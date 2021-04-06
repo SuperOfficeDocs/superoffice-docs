@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncConnectorEntity_SetDeleted
+title: SetDeleted(Bool deleted)
+intellisense: NSErpSyncConnectorEntity.SetDeleted
+keywords: NSErpSyncConnectorEntity, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSErpSyncConnectorEntity/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3245
-keywords: SetDeleted(Bool)
----
-
 
 True if the connector is deleted
 
+**Parameter:** 
+ - **deleted** Bool
 
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSErpSyncConnectorEntity thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
 

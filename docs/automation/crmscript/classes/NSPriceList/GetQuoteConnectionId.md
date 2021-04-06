@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPriceList_GetQuoteConnectionId
 title: Integer GetQuoteConnectionId()
-path: /EJScript/Classes/NSPriceList/Member functions/Integer GetQuoteConnectionId()
-intellisense: 1
-classref: 1
-keywords: GetQuoteConnectionId()
+intellisense: NSPriceList.GetQuoteConnectionId
+keywords: NSPriceList, GetQuoteConnectionId
+so.topic: reference
 ---
-
 
 (Reserved for future use) The connection to the ERP system used for this pricelist
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPriceList thing;
+Integer quoteConnectionId  = thing.GetQuoteConnectionId();
+```
 
 

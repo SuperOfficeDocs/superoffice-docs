@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLegalBase_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSLegalBase.SetTooltip
+keywords: NSLegalBase, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSLegalBase/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
-
 
 Tooltip for this consent source
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSLegalBase thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

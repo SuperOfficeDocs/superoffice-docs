@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetContactId
 title: Integer GetContactId()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
-sortOrder: 650
-keywords: GetContactId()
+intellisense: NSAlarmData.GetContactId
+keywords: NSAlarmData, GetContactId
+so.topic: reference
 ---
-
 
 Contact ID of owning contact, may be 0
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAlarmData thing;
+Integer contactId  = thing.GetContactId();
+```
 
 

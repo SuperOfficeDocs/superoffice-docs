@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetDomesticAddressLayoutId
+title: SetDomesticAddressLayoutId(Integer domesticAddressLayoutId)
+intellisense: NSCountry.SetDomesticAddressLayoutId
+keywords: NSCountry, GetDomesticAddressLayoutId
+so.topic: reference
 ---
-title: Void SetDomesticAddressLayoutId(Integer DomesticAddressLayoutId)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetDomesticAddressLayoutId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2036
-keywords: SetDomesticAddressLayoutId(Integer)
----
-
 
 Domestic address layout of the country
 
+**Parameter:** 
+ - **domesticAddressLayoutId** Integer
 
-
-* **DomesticAddressLayoutId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCountry thing;
+Integer domesticAddressLayoutId;
+thing.SetDomesticAddressLayoutId(domesticAddressLayoutId);
+```
 

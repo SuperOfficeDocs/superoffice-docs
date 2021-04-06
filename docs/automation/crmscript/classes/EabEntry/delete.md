@@ -1,10 +1,10 @@
 ---
-title: Void delete()
-path: /EJScript/Classes/EabEntry/Member functions/Void delete()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_EabEntry_delete
+title: EabEntry.delete()
+intellisense: EabEntry.delete
 sortOrder: 278
 keywords: delete()
+so.topic: reference
 ---
 
 This method will delete the current address book entry from the database.

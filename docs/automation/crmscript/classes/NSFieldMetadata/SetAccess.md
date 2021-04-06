@@ -1,18 +1,22 @@
+﻿---
+uid: crmscript_ref_NSFieldMetadata_SetAccess
+title: SetAccess(Integer access)
+intellisense: NSFieldMetadata.SetAccess
+keywords: NSFieldMetadata, GetAccess
+so.topic: reference
 ---
-title: Void SetAccess(Integer Access)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetAccess(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3585
-keywords: SetAccess(Integer)
----
-
 
 Access restrictions on the field
 
+**Parameter:** 
+ - **access** Integer
+     - Enum: 0 = Normal 
+     - Enum: 1 = Mandatory 
+     - Enum: 2 = ReadOnly 
 
-
-* **Access:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFieldMetadata thing;
+Integer access;
+thing.SetAccess(access);
+```
 

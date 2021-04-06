@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSRecurrenceInfo
 title: NSRecurrenceInfo
-path: /EJScript/Classes/NSRecurrenceInfo
-intellisense: 1
-classref: 1
+intellisense: Void.NSRecurrenceInfo
+so.topic: reference
 ---
 
 

@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSMultiAlarmData
 title: NSMultiAlarmData
-path: /EJScript/Classes/NSMultiAlarmData
-intellisense: 1
-classref: 1
+intellisense: Void.NSMultiAlarmData
+keywords: NSMultiAlarmData
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

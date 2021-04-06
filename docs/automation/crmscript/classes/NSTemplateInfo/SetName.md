@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateInfo_SetName
+title: SetName(String name)
+intellisense: NSTemplateInfo.SetName
+keywords: NSTemplateInfo, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSTemplateInfo/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Name of the document, shown in lists etc to the user
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSTemplateInfo thing;
+String name;
+thing.SetName(name);
+```
 

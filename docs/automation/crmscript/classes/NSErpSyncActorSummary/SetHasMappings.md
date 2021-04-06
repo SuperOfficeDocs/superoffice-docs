@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncActorSummary_SetHasMappings
+title: SetHasMappings(Bool hasMappings)
+intellisense: NSErpSyncActorSummary.SetHasMappings
+keywords: NSErpSyncActorSummary, GetHasMappings
+so.topic: reference
 ---
-title: Void SetHasMappings(Bool HasMappings)
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/Void SetHasMappings(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3158
-keywords: SetHasMappings(Bool)
----
-
 
 Does this actor type have field mappings
 
+**Parameter:** 
+ - **hasMappings** Bool
 
-
-* **HasMappings:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSErpSyncActorSummary thing;
+Bool hasMappings;
+thing.SetHasMappings(hasMappings);
+```
 

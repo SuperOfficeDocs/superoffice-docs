@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProductExtraDataField_SetName
+title: SetName(String name)
+intellisense: NSProductExtraDataField.SetName
+keywords: NSProductExtraDataField, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Label for the field
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSProductExtraDataField thing;
+String name;
+thing.SetName(name);
+```
 

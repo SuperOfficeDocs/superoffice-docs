@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWindowPosSize_GetWidth
 title: Integer GetWidth()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetWidth()
-intellisense: 1
-classref: 1
-keywords: GetWidth()
+intellisense: NSWindowPosSize.GetWidth
+keywords: NSWindowPosSize, GetWidth
+so.topic: reference
 ---
-
 
 The width of the widget
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWindowPosSize thing;
+Integer width  = thing.GetWidth();
+```
 
 

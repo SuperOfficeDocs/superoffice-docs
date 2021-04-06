@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSWebhook
 title: NSWebhook
-path: /EJScript/Classes/NSWebhook
-intellisense: 1
-classref: 1
+intellisense: Void.NSWebhook
+keywords: NSWebhook
+so.topic: reference
 ---
-
 
 Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
 
-
-
-
-1. autolist
+1. autolist 
 

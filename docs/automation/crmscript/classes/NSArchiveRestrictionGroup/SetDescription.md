@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionGroup_SetDescription
+title: SetDescription(String description)
+intellisense: NSArchiveRestrictionGroup.SetDescription
+keywords: NSArchiveRestrictionGroup, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1206
-keywords: SetDescription(String)
----
-
 
 Description of group
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSArchiveRestrictionGroup thing;
+String description;
+thing.SetDescription(description);
+```
 

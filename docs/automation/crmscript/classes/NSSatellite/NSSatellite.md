@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSatellite
 title: NSSatellite
-path: /EJScript/Classes/NSSatellite
-intellisense: 1
-classref: 1
+intellisense: Void.NSSatellite
+keywords: NSSatellite
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

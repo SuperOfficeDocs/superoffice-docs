@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitorPeriods_SetPeriod3
+title: SetPeriod3(Integer period3)
+intellisense: NSStatusMonitorPeriods.SetPeriod3
+keywords: NSStatusMonitorPeriods, GetPeriod3
+so.topic: reference
 ---
-title: Void SetPeriod3(Integer Period3)
-path: /EJScript/Classes/NSStatusMonitorPeriods/Member functions/Void SetPeriod3(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPeriod3(Integer)
----
-
 
 Days in the third period
 
+**Parameter:** 
+ - **period3** Integer
 
-
-* **Period3:** Integer
-* **Returns:** Void
-
+```crmscript
+NSStatusMonitorPeriods thing;
+Integer period3;
+thing.SetPeriod3(period3);
+```
 

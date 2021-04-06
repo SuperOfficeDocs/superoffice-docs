@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTileOption_SetName
+title: SetName(String name)
+intellisense: NSDashboardTileOption.SetName
+keywords: NSDashboardTileOption, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2329
-keywords: SetName(String)
----
-
 
 Name of option, usually not visible to users
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSDashboardTileOption thing;
+String name;
+thing.SetName(name);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetFaxPhone
+title: SetFaxPhone(String faxPhone)
+intellisense: NSPerson.SetFaxPhone
+keywords: NSPerson, GetFaxPhone
+so.topic: reference
 ---
-title: Void SetFaxPhone(String FaxPhone)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetFaxPhone(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetFaxPhone(String)
----
-
 
 Returns the fax phone that belong to the contact person.
 
+**Parameter:** 
+ - **faxPhone** String
 
-
-* **FaxPhone:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String faxPhone;
+thing.SetFaxPhone(faxPhone);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetSatStop
+title: SetSatStop(DateTime satStop)
+intellisense: NSTicketPriorityEntity.SetSatStop
+keywords: NSTicketPriorityEntity, GetSatStop
+so.topic: reference
 ---
-title: Void SetSatStop(DateTime SatStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetSatStop(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetSatStop(DateTime)
----
-
 
 The work hour stop for Saturdays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **satStop** DateTime
 
-
-* **SatStop:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime satStop;
+thing.SetSatStop(satStop);
+```
 

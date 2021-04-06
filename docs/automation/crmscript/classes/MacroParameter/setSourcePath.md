@@ -1,10 +1,10 @@
 ---
-title: Void setSourcePath(String p0)
-path: /EJScript/Classes/MacroParameter/Member functions/Void setSourcePath(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MacroParameter_setSourcePath_String_p_0
+title: MacroParameter.setSourcePath(String p_0)
+intellisense: MacroParameter.setSourcePath
 sortOrder: 493
 keywords: setSourcePath(String)
+so.topic: reference
 ---
 
 

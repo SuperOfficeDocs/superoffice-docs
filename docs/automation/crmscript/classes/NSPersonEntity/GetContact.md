@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetContact
+title: Contact GetContact()
+intellisense: NSPersonEntity.GetContact
+keywords: NSPersonEntity, GetContact
+so.topic: reference
 ---
-title: NSContact GetContact()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSContact GetContact()
-intellisense: 1
-classref: 1
-keywords: GetContact()
----
+
+The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set.
+
+**Returns:** Contact
 
 
-The contact the contact person is registered on. This is required.
-
-
-
-* **Returns:** Contact
+```crmscript
+NSPersonEntity thing;
+Contact contact  = thing.GetContact();
+```
 
 

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveSaleStageEntity
+title: NSSaleStageEntity SaveSaleStageEntity(NSSaleStageEntity saleStageEntity);
+intellisense: NSListAgent.SaveSaleStageEntity
+keywords: NSListAgent, SaveSaleStageEntity
+so.topic: reference
 ---
-title: NSSaleStageEntity SaveSaleStageEntity(NSSaleStageEntity saleStageEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleStageEntity SaveSaleStageEntity(NSSaleStageEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveSaleStageEntity(NSSaleStageEntity)
----
+	  
+Updates the existing NSSaleStageEntity or creates a new NSSaleStageEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **saleStageEntity** The NSSaleStageEntity to save.
 
+**Returns:** New or updated NSSaleStageEntity
 
-Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id parameter is empty
-
-
-
-* **saleStageEntity:** The SaleStageEntity that is saved
-* **Returns:** New or updated SaleStageEntity
-
+```crmscript
+NSList  agent;
+NSSaleStageEntity thing = agent.CreateDefaultSaleStageEntity();
+thing = agent.SaveSaleStageEntity(thing);
+```
 

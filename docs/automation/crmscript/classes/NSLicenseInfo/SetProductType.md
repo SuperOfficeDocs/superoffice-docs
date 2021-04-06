@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetProductType
+title: SetProductType(String productType)
+intellisense: NSLicenseInfo.SetProductType
+keywords: NSLicenseInfo, GetProductType
+so.topic: reference
 ---
-title: Void SetProductType(String ProductType)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetProductType(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetProductType(String)
----
-
 
 Type of product
 
+**Parameter:** 
+ - **productType** String
 
-
-* **ProductType:** String
-* **Returns:** String
-
+```crmscript
+NSLicenseInfo thing;
+String productType;
+thing.SetProductType(productType);
+```
 

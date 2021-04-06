@@ -1,10 +1,10 @@
 ---
-title: Integer getWeekDay()
-path: /EJScript/Classes/Date/Member functions/Integer getWeekDay()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Date_getWeekDay
+title: Date.getWeekDay()
+intellisense: Date.getWeekDay
 sortOrder: 203
 keywords: getWeekDay()
+so.topic: reference
 ---
 
 This function will return the ISO week day (Monday is 0).

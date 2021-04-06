@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketStartupData_GetCustomData
 title: String GetCustomData()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/String GetCustomData()
-intellisense: 1
-classref: 1
-keywords: GetCustomData()
+intellisense: NSPocketStartupData.GetCustomData
+keywords: NSPocketStartupData, GetCustomData
+so.topic: reference
 ---
-
 
 Custom data for Pocket, in JSON format
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPocketStartupData thing;
+String customData  = thing.GetCustomData();
+```
 
 

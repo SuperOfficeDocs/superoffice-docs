@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRedLetterInformationListItem_GetDate
 title: DateTime GetDate()
-path: /EJScript/Classes/NSRedLetterInformationListItem/Member functions/DateTime GetDate()
-intellisense: 1
-classref: 1
-keywords: GetDate()
+intellisense: NSRedLetterInformationListItem.GetDate
+keywords: NSRedLetterInformationListItem, GetDate
+so.topic: reference
 ---
-
 
 Date that this item is valid for; there is exactly one item per date, ordered by date.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSRedLetterInformationListItem thing;
+DateTime date  = thing.GetDate();
+```
 
 

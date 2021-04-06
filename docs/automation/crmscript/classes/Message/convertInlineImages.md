@@ -1,10 +1,10 @@
 ---
-title: Void convertInlineImages()
-path: /EJScript/Classes/Message/Member functions/Void convertInlineImages()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Message_convertInlineImages
+title: Message.convertInlineImages()
+intellisense: Message.convertInlineImages
 sortOrder: 553
 keywords: convertInlineImages()
+so.topic: reference
 ---
 
 

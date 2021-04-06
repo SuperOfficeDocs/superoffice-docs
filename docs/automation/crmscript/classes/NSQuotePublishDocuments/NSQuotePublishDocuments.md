@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments
 title: NSQuotePublishDocuments
-path: /EJScript/Classes/NSQuotePublishDocuments
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuotePublishDocuments
+keywords: NSQuotePublishDocuments
+so.topic: reference
 ---
-
 
 Prepare the documents required to publish a quote - Email, main document as pdf, quoted products as pdf, attachments
 
-
-
-
-1. autolist
+1. autolist 
 

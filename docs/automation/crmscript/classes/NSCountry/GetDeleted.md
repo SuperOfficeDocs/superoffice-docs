@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSCountry/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 2012
-keywords: GetDeleted()
+intellisense: NSCountry.GetDeleted
+keywords: NSCountry, GetDeleted
+so.topic: reference
 ---
-
 
 true if the country is deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSCountry thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

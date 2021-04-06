@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSmsConfig
 title: NSSmsConfig
-path: /EJScript/Classes/NSSmsConfig
-intellisense: 1
-classref: 1
+intellisense: Void.NSSmsConfig
+keywords: NSSmsConfig
+so.topic: reference
 ---
-
 
 Sms settings for Customer Service sms providers.
 
-
-
-
-1. autolist
+1. autolist 
 

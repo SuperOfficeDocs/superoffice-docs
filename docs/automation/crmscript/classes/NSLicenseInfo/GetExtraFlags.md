@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetExtraFlags
 title: Integer GetExtraFlags()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Integer GetExtraFlags()
-intellisense: 1
-classref: 1
-keywords: GetExtraFlags()
+intellisense: NSLicenseInfo.GetExtraFlags
+keywords: NSLicenseInfo, GetExtraFlags
+so.topic: reference
 ---
-
 
 Unspecified extra flags of license, part of checksum
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSLicenseInfo thing;
+Integer extraFlags  = thing.GetExtraFlags();
+```
 
 

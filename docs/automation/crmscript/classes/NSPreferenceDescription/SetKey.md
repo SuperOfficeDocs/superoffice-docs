@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_SetKey
+title: SetKey(String key)
+intellisense: NSPreferenceDescription.SetKey
+keywords: NSPreferenceDescription, GetKey
+so.topic: reference
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetKey(String)
----
-
 
 Preference key name
 
+**Parameter:** 
+ - **key** String
 
-
-* **Key:** String
-* **Returns:** String
-
+```crmscript
+NSPreferenceDescription thing;
+String key;
+thing.SetKey(key);
+```
 

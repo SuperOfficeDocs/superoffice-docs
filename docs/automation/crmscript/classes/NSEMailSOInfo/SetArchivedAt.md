@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_SetArchivedAt
+title: SetArchivedAt(DateTime archivedAt)
+intellisense: NSEMailSOInfo.SetArchivedAt
+keywords: NSEMailSOInfo, GetArchivedAt
+so.topic: reference
 ---
-title: Void SetArchivedAt(DateTime ArchivedAt)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetArchivedAt(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3054
-keywords: SetArchivedAt(DateTime)
----
-
 
 The datetime when this email was archived
 
+**Parameter:** 
+ - **archivedAt** DateTime
 
-
-* **ArchivedAt:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSEMailSOInfo thing;
+DateTime archivedAt;
+thing.SetArchivedAt(archivedAt);
+```
 

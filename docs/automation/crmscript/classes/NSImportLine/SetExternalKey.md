@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSImportLine_SetExternalKey
+title: SetExternalKey(String externalKey)
+intellisense: NSImportLine.SetExternalKey
+keywords: NSImportLine, GetExternalKey
+so.topic: reference
 ---
-title: Void SetExternalKey(String ExternalKey)
-path: /EJScript/Classes/NSImportLine/Member functions/Void SetExternalKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3979
-keywords: SetExternalKey(String)
----
-
 
 Optional external primary key for the row
 
+**Parameter:** 
+ - **externalKey** String
 
-
-* **ExternalKey:** String
-* **Returns:** String
-
+```crmscript
+NSImportLine thing;
+String externalKey;
+thing.SetExternalKey(externalKey);
+```
 

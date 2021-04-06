@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetContactId
 title: Integer GetContactId()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
-sortOrder: 1051
-keywords: GetContactId()
+intellisense: NSAppointmentSyncData.GetContactId
+keywords: NSAppointmentSyncData, GetContactId
+so.topic: reference
 ---
-
 
 The contacts identifier
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAppointmentSyncData thing;
+Integer contactId  = thing.GetContactId();
+```
 
 

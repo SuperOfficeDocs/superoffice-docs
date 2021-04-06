@@ -1,13 +1,19 @@
----
-title: NSAddress GetAddress()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSAddress GetAddress()
-intellisense: 1
-classref: 1
-sortOrder: 1849
-keywords: GetAddress()
+﻿---
+uid: crmscript_ref_NSContactEntity_GetAddress
+title: Address GetAddress()
+intellisense: NSContactEntity.GetAddress
+keywords: NSContactEntity, GetAddress
+so.topic: reference
 ---
 
 
-* **Returns:** Address
+
+**Returns:** Address
+
+
+```crmscript
+NSContactEntity thing;
+Address address  = thing.GetAddress();
+```
 
 

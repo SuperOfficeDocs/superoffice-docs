@@ -1,6 +1,6 @@
 ---
-title: crmscript_intellisense
-description: CRMScript intellisense
+uid: crmscript_intellisense
+title: CRMScript intellisense
 author:
 so.date:
 keywords:

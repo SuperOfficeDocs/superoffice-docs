@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnectionListMappingContainer_SetErpListItemMappings
+title: SetErpListItemMappings(ErpConnectionListMappingArray erpListItemMappings)
+intellisense: NSErpConnectionListMappingContainer.SetErpListItemMappings
+keywords: NSErpConnectionListMappingContainer, GetErpListItemMappings
+so.topic: reference
 ---
-title: Void SetErpListItemMappings(NSErpConnectionListMapping[] ErpListItemMappings)
-path: /EJScript/Classes/NSErpConnectionListMappingContainer/Member functions/Void SetErpListItemMappings(NSErpConnectionListMapping[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3141
-keywords: SetErpListItemMappings(NSErpConnectionListMapping[])
----
-
 
 Array of ErpConnectionListMapping
 
+**Parameter:** 
+ - **erpListItemMappings** ErpConnectionListMappingArray
 
-
-* **ErpListItemMappings:** ErpConnectionListMappingArray
-* **Returns:** ErpConnectionListMappingArray
-
+```crmscript
+NSErpConnectionListMappingContainer thing;
+ErpConnectionListMappingArray erpListItemMappings;
+thing.SetErpListItemMappings(erpListItemMappings);
+```
 

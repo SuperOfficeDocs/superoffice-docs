@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSForeignDevice_GetForeignAppId
 title: Integer GetForeignAppId()
-path: /EJScript/Classes/NSForeignDevice/Member functions/Integer GetForeignAppId()
-intellisense: 1
-classref: 1
-sortOrder: 3716
-keywords: GetForeignAppId()
+intellisense: NSForeignDevice.GetForeignAppId
+keywords: NSForeignDevice, GetForeignAppId
+so.topic: reference
 ---
-
 
 Reference to foregin application (device type)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSForeignDevice thing;
+Integer foreignAppId  = thing.GetForeignAppId();
+```
 
 

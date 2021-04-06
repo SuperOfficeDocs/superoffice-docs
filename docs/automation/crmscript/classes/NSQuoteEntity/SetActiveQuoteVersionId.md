@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteEntity_SetActiveQuoteVersionId
+title: SetActiveQuoteVersionId(Integer activeQuoteVersionId)
+intellisense: NSQuoteEntity.SetActiveQuoteVersionId
+keywords: NSQuoteEntity, GetActiveQuoteVersionId
+so.topic: reference
 ---
-title: Void SetActiveQuoteVersionId(Integer ActiveQuoteVersionId)
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Void SetActiveQuoteVersionId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetActiveQuoteVersionId(Integer)
----
-
 
 The primary key of the Quote Version that is currently active. (The active version will always be the latest version.)
 
+**Parameter:** 
+ - **activeQuoteVersionId** Integer
 
-
-* **ActiveQuoteVersionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteEntity thing;
+Integer activeQuoteVersionId;
+thing.SetActiveQuoteVersionId(activeQuoteVersionId);
+```
 

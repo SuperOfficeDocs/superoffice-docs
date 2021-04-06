@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetLabelWidth
+title: SetLabelWidth(Integer labelWidth)
+intellisense: NSUserDefinedFieldInfo.SetLabelWidth
+keywords: NSUserDefinedFieldInfo, GetLabelWidth
+so.topic: reference
 ---
-title: Void SetLabelWidth(Integer LabelWidth)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetLabelWidth(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLabelWidth(Integer)
----
-
 
 label width in pixels, 0 = 'enough' (from font)
 
+**Parameter:** 
+ - **labelWidth** Integer
 
-
-* **LabelWidth:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer labelWidth;
+thing.SetLabelWidth(labelWidth);
+```
 

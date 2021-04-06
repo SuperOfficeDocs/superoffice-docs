@@ -1,10 +1,10 @@
 ---
-title: Integer getMonth()
-path: /EJScript/Classes/Date/Member functions/Integer getMonth()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Date_getMonth
+title: Date.getMonth()
+intellisense: Date.getMonth
 sortOrder: 201
 keywords: getMonth()
+so.topic: reference
 ---
 
 This function will return the month as a number between 1 and 12.

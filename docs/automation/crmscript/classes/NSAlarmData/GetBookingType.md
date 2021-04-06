@@ -1,20 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetBookingType
 title: Integer GetBookingType()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetBookingType()
-intellisense: 1
-classref: 1
-sortOrder: 649
-keywords: GetBookingType()
+intellisense: NSAlarmData.GetBookingType
+keywords: NSAlarmData, GetBookingType
+so.topic: reference
 ---
-
 
 The type of booking the appointment represents
-* Unknown=0
-* None=1
-* Owner=2
-* Participant=3
 
+**Returns:** Integer
 
-* **Returns:** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = None 
+     - Enum: 2 = Owner 
+     - Enum: 3 = Participant 
+
+```crmscript
+NSAlarmData thing;
+Integer bookingType  = thing.GetBookingType();
+```
 
 

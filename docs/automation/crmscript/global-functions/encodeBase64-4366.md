@@ -1,9 +1,9 @@
 ---
 description: String encodeBase64(Byte[] data, bool wrapLines)
-path: /EJScript/Global functions/String encodeBase64(Byte[] data, bool wrapLines)
-intellisense: 1
+intellisense: Void.encodeBase64
 langref: 1
 keywords: encodeBase64(Byte[],bool)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetStringCurrencyName(String StringCurrencyName)
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Void SetStringCurrencyName(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAATestClassForModeling_SetStringCurrencyName_String_p_0
+title: NSAAATestClassForModeling.SetStringCurrencyName(String p_0)
+intellisense: NSAAATestClassForModeling.SetStringCurrencyName
 sortOrder: 8951
 keywords: SetStringCurrencyName(String)
+so.topic: reference
 ---
 
 

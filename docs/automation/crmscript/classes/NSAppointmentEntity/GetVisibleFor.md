@@ -1,13 +1,17 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetVisibleFor
+title: VisibleForArray GetVisibleFor()
+intellisense: NSAppointmentEntity.GetVisibleFor
+keywords: NSAppointmentEntity, GetVisibleFor
+so.topic: reference
 ---
-title: VisibleFor[] GetVisibleFor()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/VisibleFor[] GetVisibleFor()
-intellisense: 1
-classref: 1
-sortOrder: 979
-keywords: GetVisibleFor()
----
 
+Return the usergroups and/or users the AppointmentEntity item is visible for.
 
-* **Returns:** VisibleForArray
+**Returns:** Visible for array.
 
+```crmscript
+NSAppointmentEntity thing;
+VisibleFor[] visibleFor = thing.GetVisibleFor();
+```
 

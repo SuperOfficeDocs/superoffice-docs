@@ -1,10 +1,10 @@
 ---
-title: Dump(Bool)
-path: /EJScript/Classes/Attachment/Member functions/Dump(Bool)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Attachment_Dump_Bool
+title: Attachment.Dump(Bool)
+intellisense: Attachment.Dump
 sortOrder: 120
 keywords: Dump(Bool)
+so.topic: reference
 ---
 
 Dumps the attachment file to output.

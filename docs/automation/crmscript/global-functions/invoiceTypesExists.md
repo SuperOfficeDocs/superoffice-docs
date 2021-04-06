@@ -1,9 +1,9 @@
 ---
 description: Bool invoiceTypesExists()
-path: /EJScript/Global functions/Bool invoiceTypesExists()
-intellisense: 1
+intellisense: Void.invoiceTypesExists
 langref: 1
 keywords: invoiceTypesExists()
+so.topic: reference
 ---
 
 

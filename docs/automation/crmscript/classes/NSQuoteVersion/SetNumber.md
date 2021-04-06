@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetNumber
+title: SetNumber(String number)
+intellisense: NSQuoteVersion.SetNumber
+keywords: NSQuoteVersion, GetNumber
+so.topic: reference
 ---
-title: Void SetNumber(String Number)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetNumber(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetNumber(String)
----
-
 
 A quote number that the user (or ERP connector) can fill out.
 
+**Parameter:** 
+ - **number** String
 
-
-* **Number:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersion thing;
+String number;
+thing.SetNumber(number);
+```
 

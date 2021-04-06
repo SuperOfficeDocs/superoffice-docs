@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetPostalAddress
+title: SetPostalAddress(AddressSyncData postalAddress)
+intellisense: NSParticipantSyncData.SetPostalAddress
+keywords: NSParticipantSyncData, GetPostalAddress
+so.topic: reference
 ---
-title: Void SetPostalAddress(NSAddressSyncData PostalAddress)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPostalAddress(NSAddressSyncData p_0)
-intellisense: 1
-classref: 1
-keywords: SetPostalAddress(NSAddressSyncData)
----
 
 
-* **PostalAddress:** AddressSyncData
-* **Returns:** AddressSyncData
 
+**Parameter:** 
+ - **postalAddress** AddressSyncData
+
+```crmscript
+NSParticipantSyncData thing;
+AddressSyncData postalAddress;
+thing.SetPostalAddress(postalAddress);
+```
 

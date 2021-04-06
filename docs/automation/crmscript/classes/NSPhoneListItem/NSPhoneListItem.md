@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListItem
 title: NSPhoneListItem
-path: /EJScript/Classes/NSPhoneListItem
-intellisense: 1
-classref: 1
+intellisense: Void.NSPhoneListItem
+keywords: NSPhoneListItem
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

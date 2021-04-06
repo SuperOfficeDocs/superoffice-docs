@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDataRight
 title: NSDataRight
-path: /EJScript/Classes/NSDataRight
-intellisense: 1
-classref: 1
-sortOrder: 2342
+intellisense: Void.NSDataRight
+keywords: NSDataRight
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

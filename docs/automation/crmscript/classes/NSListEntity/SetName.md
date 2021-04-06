@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSListEntity_SetName
+title: SetName(String name)
+intellisense: NSListEntity.SetName
+keywords: NSListEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSListEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 The name of the list
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSListEntity thing;
+String name;
+thing.SetName(name);
+```
 

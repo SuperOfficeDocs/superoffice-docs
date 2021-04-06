@@ -1,12 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetPublishTo
 title: DateTime GetPublishTo()
-path: /EJScript/Classes/NSProjectEntity/Member functions/DateTime GetPublishTo()
-intellisense: 1
-classref: 1
-keywords: GetPublishTo()
+intellisense: NSProjectEntity.GetPublishTo
+keywords: NSProjectEntity, GetPublishTo
+so.topic: reference
 ---
 
+Publish to date on ProjectEntity. After this date the event is no longer visible.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime.
 

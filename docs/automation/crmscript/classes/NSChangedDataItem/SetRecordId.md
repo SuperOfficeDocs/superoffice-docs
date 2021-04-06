@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChangedDataItem_SetRecordId
+title: SetRecordId(Integer recordId)
+intellisense: NSChangedDataItem.SetRecordId
+keywords: NSChangedDataItem, GetRecordId
+so.topic: reference
 ---
-title: Void SetRecordId(Integer RecordId)
-path: /EJScript/Classes/NSChangedDataItem/Member functions/Void SetRecordId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1510
-keywords: SetRecordId(Integer)
----
-
 
 Id of record, should never be 0
 
+**Parameter:** 
+ - **recordId** Integer
 
-
-* **RecordId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSChangedDataItem thing;
+Integer recordId;
+thing.SetRecordId(recordId);
+```
 

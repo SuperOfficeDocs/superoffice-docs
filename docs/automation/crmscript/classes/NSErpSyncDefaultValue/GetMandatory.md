@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncDefaultValue_GetMandatory
 title: Bool GetMandatory()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Bool GetMandatory()
-intellisense: 1
-classref: 1
-sortOrder: 3252
-keywords: GetMandatory()
+intellisense: NSErpSyncDefaultValue.GetMandatory
+keywords: NSErpSyncDefaultValue, GetMandatory
+so.topic: reference
 ---
-
 
 Should the user be forced to set a value (the Erp Connector may declare fields mandatory as well)
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSErpSyncDefaultValue thing;
+Bool mandatory  = thing.GetMandatory();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_GetPrefDescId
 title: Integer GetPrefDescId()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetPrefDescId()
-intellisense: 1
-classref: 1
-keywords: GetPrefDescId()
+intellisense: NSPreferenceDescription.GetPrefDescId
+keywords: NSPreferenceDescription, GetPrefDescId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPreferenceDescription thing;
+Integer prefDescId  = thing.GetPrefDescId();
+```
 
 

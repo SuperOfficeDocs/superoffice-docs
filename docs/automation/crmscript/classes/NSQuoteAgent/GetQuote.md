@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetQuote
+title: Quote GetQuote(Integer quoteId)
+intellisense: NSQuoteAgent.GetQuote
+keywords: NSQuoteAgent, GetQuote
+so.topic: reference
 ---
-title: NSQuote GetQuote(Integer quoteId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuote GetQuote(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetQuote(Integer)
----
-
 
 Get a Quote
 
+**Parameters:**
+ - **quoteId** QuoteId of the Quote to get.
 
+**Returns:** The Quote
 
-* **quoteId:** QuoteId of the Quote to get.
-* **Returns:** The Quote
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteId;
+Quote res = agent.GetQuote(quoteId);
+```
 

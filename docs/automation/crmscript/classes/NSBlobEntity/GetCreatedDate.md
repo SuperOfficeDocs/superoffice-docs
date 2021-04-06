@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBlobEntity_GetCreatedDate
 title: DateTime GetCreatedDate()
-path: /EJScript/Classes/NSBlobEntity/Member functions/DateTime GetCreatedDate()
-intellisense: 1
-classref: 1
-sortOrder: 1442
-keywords: GetCreatedDate()
+intellisense: NSBlobEntity.GetCreatedDate
+keywords: NSBlobEntity, GetCreatedDate
+so.topic: reference
 ---
-
 
 Registered when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSBlobEntity thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
 
 

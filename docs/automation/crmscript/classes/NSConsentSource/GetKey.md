@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentSource_GetKey
 title: String GetKey()
-path: /EJScript/Classes/NSConsentSource/Member functions/String GetKey()
-intellisense: 1
-classref: 1
-sortOrder: 1706
-keywords: GetKey()
+intellisense: NSConsentSource.GetKey
+keywords: NSConsentSource, GetKey
+so.topic: reference
 ---
-
 
 The key used to uniquely identify this consent source
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentSource thing;
+String key  = thing.GetKey();
+```
 
 

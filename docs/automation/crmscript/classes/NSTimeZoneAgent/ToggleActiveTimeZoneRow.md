@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneAgent_ToggleActiveTimeZoneRow
 title: Void ToggleActiveTimeZoneRow(Integer id)
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Void ToggleActiveTimeZoneRow(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: ToggleActiveTimeZoneRow(Integer)
+intellisense: NSTimeZoneAgent.ToggleActiveTimeZoneRow
+keywords: NSTimeZoneAgent, ToggleActiveTimeZoneRow
+so.topic: reference
 ---
-
 
 Toggles active state of a single row in the TZLocation table
 
-
-
-* **id:** Id of row to toggle active state on
-
-
+**Parameters:**
+ - **id** Id of row to toggle active state on

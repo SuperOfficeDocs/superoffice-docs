@@ -1,9 +1,9 @@
 ---
-title: String GetTimeSpan()
-path: /EJScript/Classes/NSTimeSpan/Member functions/String GetTimeSpan()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSTimeSpan_GetTimeSpan
+title: NSTimeSpan.GetTimeSpan()
+intellisense: NSTimeSpan.GetTimeSpan
 keywords: GetTimeSpan()
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectMember_GetProjectMemberTypeId
 title: Integer GetProjectMemberTypeId()
-path: /EJScript/Classes/NSProjectMember/Member functions/Integer GetProjectMemberTypeId()
-intellisense: 1
-classref: 1
-keywords: GetProjectMemberTypeId()
+intellisense: NSProjectMember.GetProjectMemberTypeId
+keywords: NSProjectMember, GetProjectMemberTypeId
+so.topic: reference
 ---
-
 
 ProjectMember Type Id - from the ProjectMemberType list.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectMember thing;
+Integer projectMemberTypeId  = thing.GetProjectMemberTypeId();
+```
 
 

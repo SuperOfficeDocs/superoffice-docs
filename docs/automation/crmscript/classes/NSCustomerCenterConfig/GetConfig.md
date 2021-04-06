@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig_GetConfig
 title: String GetConfig()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/String GetConfig()
-intellisense: 1
-classref: 1
-sortOrder: 2202
-keywords: GetConfig()
+intellisense: NSCustomerCenterConfig.GetConfig
+keywords: NSCustomerCenterConfig, GetConfig
+so.topic: reference
 ---
-
 
 A JSON-formatted config
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCustomerCenterConfig thing;
+String config  = thing.GetConfig();
+```
 
 

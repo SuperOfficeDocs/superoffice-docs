@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetParameters
+title: SetParameters(String parameters)
+intellisense: NSExtAppEntity.SetParameters
+keywords: NSExtAppEntity, GetParameters
+so.topic: reference
 ---
-title: Void SetParameters(String Parameters)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetParameters(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3389
-keywords: SetParameters(String)
----
 
+<template variable> <other template variable>
 
-\<template variable> \<other template variable>
+**Parameter:** 
+ - **parameters** String
 
-
-
-* **Parameters:** String
-* **Returns:** String
-
+```crmscript
+NSExtAppEntity thing;
+String parameters;
+thing.SetParameters(parameters);
+```
 

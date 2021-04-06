@@ -1,13 +1,19 @@
----
-title: NSEMailAttachment[] GetAttachments()
-path: /EJScript/Classes/NSEMailEntity/Member functions/NSEMailAttachment[] GetAttachments()
-intellisense: 1
-classref: 1
-sortOrder: 2961
-keywords: GetAttachments()
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetAttachments
+title: EMailAttachmentArray GetAttachments()
+intellisense: NSEMailEntity.GetAttachments
+keywords: NSEMailEntity, GetAttachments
+so.topic: reference
 ---
 
 
-* **Returns:** EMailAttachmentArray
+
+**Returns:** EMailAttachmentArray
+
+
+```crmscript
+NSEMailEntity thing;
+EMailAttachmentArray attachments  = thing.GetAttachments();
+```
 
 

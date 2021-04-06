@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSPreferenceAgent_SavePreferenceEntity
+title: Preference SavePreferenceEntity(Preference preference, Bool removeLowerLevels)
+intellisense: NSPreferenceAgent.SavePreferenceEntity
+keywords: NSPreferenceAgent, SavePreferenceEntity
+so.topic: reference
 ---
-title: NSPreference SavePreferenceEntity(NSPreference preference, Bool removeLowerLevels)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference SavePreferenceEntity(NSPreference p_0, Bool p_1)
-intellisense: 1
-classref: 1
-keywords: SavePreferenceEntity(NSPreference,Bool)
----
-
 
 Saves a complete preference object, on any level and any target. Preference administrator rights are required to use this
 
+**Parameters:**
+ - **preference** The preference object to be saved
+ - **removeLowerLevels** If this is true, all user preferences on lower levels will be deleted
 
+**Returns:** Returns the saved preference
 
-* **preference:** The preference object to be saved
-* **removeLowerLevels:** If this is true, all user preferences on lower levels will be deleted
-* **Returns:** Returns the saved preference
-
+```crmscript
+NSPreferenceAgent agent;
+Preference preference;
+Bool removeLowerLevels;
+Preference res = agent.SavePreferenceEntity(preference, removeLowerLevels);
+```
 

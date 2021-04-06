@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_SetRank
+title: SetRank(Integer rank)
+intellisense: NSFieldInfoBase.SetRank
+keywords: NSFieldInfoBase, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3484
-keywords: SetRank(Integer)
----
-
 
 Tab order, ranking within the custom fields.
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFieldInfoBase thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

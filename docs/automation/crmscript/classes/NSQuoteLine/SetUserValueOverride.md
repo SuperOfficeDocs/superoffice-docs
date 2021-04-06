@@ -1,20 +1,25 @@
----
-title: Void SetUserValueOverride(Integer p0)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetUserValueOverride(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserValueOverride(Integer)
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetUserValueOverride
+title: SetUserValueOverride(ValueOverride userValueOverride)
+intellisense: NSQuoteLine.SetUserValueOverride
+keywords: NSQuoteLine, GetUserValueOverride
+so.topic: reference
 ---
 
 Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.)
 
-* None=0
-* Total=1
-* DiscountPercent=2
-* DiscountAmount=3
-* EarningPercent=4
-* EarningAmount=5
+**Parameter:** 
+ - **userValueOverride** ValueOverride
+     - Enum: 0 = None 
+     - Enum: 1 = Total 
+     - Enum: 2 = DiscountPercent 
+     - Enum: 3 = DiscountAmount 
+     - Enum: 4 = EarningPercent 
+     - Enum: 5 = EarningAmount 
 
-* **p_0:** Integer
-* **Returns:** Void
+```crmscript
+NSQuoteLine thing;
+ValueOverride userValueOverride;
+thing.SetUserValueOverride(userValueOverride);
+```
 

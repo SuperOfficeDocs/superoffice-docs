@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetUpdatedDate
 title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
-sortOrder: 1945
-keywords: GetUpdatedDate()
+intellisense: NSContactRelationEntity.GetUpdatedDate
+keywords: NSContactRelationEntity, GetUpdatedDate
+so.topic: reference
 ---
-
 
 Last updated when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSContactRelationEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
 
 

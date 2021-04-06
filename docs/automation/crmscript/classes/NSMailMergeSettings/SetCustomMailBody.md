@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetCustomMailBody
+title: SetCustomMailBody(String customMailBody)
+intellisense: NSMailMergeSettings.SetCustomMailBody
+keywords: NSMailMergeSettings, GetCustomMailBody
+so.topic: reference
 ---
-title: Void SetCustomMailBody(String CustomMailBody)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetCustomMailBody(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCustomMailBody(String)
----
-
 
 If specified, use this value as default mail body.
 
+**Parameter:** 
+ - **customMailBody** String
 
-
-* **CustomMailBody:** String
-* **Returns:** String
-
+```crmscript
+NSMailMergeSettings thing;
+String customMailBody;
+thing.SetCustomMailBody(customMailBody);
+```
 

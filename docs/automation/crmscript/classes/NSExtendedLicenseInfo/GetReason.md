@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtendedLicenseInfo_GetReason
 title: String GetReason()
-path: /EJScript/Classes/NSExtendedLicenseInfo/Member functions/String GetReason()
-intellisense: 1
-classref: 1
-sortOrder: 3408
-keywords: GetReason()
+intellisense: NSExtendedLicenseInfo.GetReason
+keywords: NSExtendedLicenseInfo, GetReason
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSExtendedLicenseInfo thing;
+String reason  = thing.GetReason();
+```
 
 

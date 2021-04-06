@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserGroup_SetValue
+title: SetValue(String value)
+intellisense: NSUserGroup.SetValue
+keywords: NSUserGroup, GetValue
+so.topic: reference
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSUserGroup/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
-
 
 UserGroup name
 
+**Parameter:** 
+ - **value** String
 
-
-* **Value:** String
-* **Returns:** String
-
+```crmscript
+NSUserGroup thing;
+String value;
+thing.SetValue(value);
+```
 

@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_DeleteSaleEntity
+title: DeleteSaleEntity(Integer saleEntity);
+intellisense: NSSaleAgent.DeleteSaleEntity
+keywords: NSSaleAgent, DeleteSaleEntity
+so.topic: reference
 ---
-title: Void DeleteSaleEntity(Integer saleEntityId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Void DeleteSaleEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteSaleEntity(Integer)
----
 
+Deletes the NSSaleEntity
+  
+**Parameters:**
+ - **saleEntityId** The identity of the SaleEntity to delete.
 
-Deletes the SaleEntity
-
-
-
-* **saleEntityId:** The identity of the SaleEntity
-
+```crmscript
+NSSaleAgent agent;
+agent.DeleteSaleEntity(123);
+```
 

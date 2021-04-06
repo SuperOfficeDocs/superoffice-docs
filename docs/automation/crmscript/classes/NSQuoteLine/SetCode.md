@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetCode
+title: SetCode(String code)
+intellisense: NSQuoteLine.SetCode
+keywords: NSQuoteLine, GetCode
+so.topic: reference
 ---
-title: Void SetCode(String Code)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetCode(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCode(String)
----
-
 
 A value the salesmen use to quickly find the correct product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.
 
+**Parameter:** 
+ - **code** String
 
-
-* **Code:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLine thing;
+String code;
+thing.SetCode(code);
+```
 

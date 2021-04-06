@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetFutureOpenTotalBaseCurrency
 title: Float GetFutureOpenTotalBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetFutureOpenTotalBaseCurrency()
-intellisense: 1
-classref: 1
-keywords: GetFutureOpenTotalBaseCurrency()
+intellisense: NSSaleSummary.GetFutureOpenTotalBaseCurrency
+keywords: NSSaleSummary, GetFutureOpenTotalBaseCurrency
+so.topic: reference
 ---
-
 
 Summed amount for all Future Pipe/All open sales with date after the period in default currency for the installation
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSaleSummary thing;
+Float futureOpenTotalBaseCurrency  = thing.GetFutureOpenTotalBaseCurrency();
+```
 
 

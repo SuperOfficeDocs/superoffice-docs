@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitor_SetIsVisual
+title: SetIsVisual(Bool isVisual)
+intellisense: NSStatusMonitor.SetIsVisual
+keywords: NSStatusMonitor, GetIsVisual
+so.topic: reference
 ---
-title: Void SetIsVisual(Bool IsVisual)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetIsVisual(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsVisual(Bool)
----
-
 
 Should the status be visualized (active) in the client
 
+**Parameter:** 
+ - **isVisual** Bool
 
-
-* **IsVisual:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSStatusMonitor thing;
+Bool isVisual;
+thing.SetIsVisual(isVisual);
+```
 

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSaintAgent_SaveSaintConfiguration
+title: NSSaintConfiguration SaveSaintConfiguration(NSSaintConfiguration saintConfiguration);
+intellisense: NSSaintAgent.SaveSaintConfiguration
+keywords: NSSaintAgent, SaveSaintConfiguration
+so.topic: reference
 ---
-title: NSSaintConfiguration SaveSaintConfiguration(NSSaintConfiguration saintConfiguration)
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSSaintConfiguration SaveSaintConfiguration(NSSaintConfiguration p_0)
-intellisense: 1
-classref: 1
-keywords: SaveSaintConfiguration(NSSaintConfiguration)
----
+	  
+Updates the existing NSSaintConfiguration or creates a new NSSaintConfiguration if the id parameter is 0
+	  
+**Parameters**:
+ - **saintConfiguration** The NSSaintConfiguration to save.
 
+**Returns:** New or updated NSSaintConfiguration
 
-Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty
-
-
-
-* **saintConfiguration:** The SaintConfiguration that is saved
-* **Returns:** New or updated SaintConfiguration
-
+```crmscript
+NSSaint  agent;
+NSSaintConfiguration thing = agent.CreateDefaultSaintConfiguration();
+thing = agent.SaveSaintConfiguration(thing);
+```
 

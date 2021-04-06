@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserValidationResult_GetResult
 title: Bool GetResult()
-path: /EJScript/Classes/NSUserValidationResult/Member functions/Bool GetResult()
-intellisense: 1
-classref: 1
-keywords: GetResult()
+intellisense: NSUserValidationResult.GetResult
+keywords: NSUserValidationResult, GetResult
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSUserValidationResult thing;
+Bool result  = thing.GetResult();
+```
 
 

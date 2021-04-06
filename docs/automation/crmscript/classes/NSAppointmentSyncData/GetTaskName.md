@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetTaskName
 title: String GetTaskName()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/String GetTaskName()
-intellisense: 1
-classref: 1
-sortOrder: 1065
-keywords: GetTaskName()
+intellisense: NSAppointmentSyncData.GetTaskName
+keywords: NSAppointmentSyncData, GetTaskName
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSAppointmentSyncData thing;
+String taskName  = thing.GetTaskName();
+```
 
 

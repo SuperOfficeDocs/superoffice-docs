@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetIsMilestone
+title: SetIsMilestone(Bool isMilestone)
+intellisense: NSSuggestedAppointmentEntity.SetIsMilestone
+keywords: NSSuggestedAppointmentEntity, GetIsMilestone
+so.topic: reference
 ---
-title: Void SetIsMilestone(Bool IsMilestone)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetIsMilestone(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsMilestone(Bool)
----
-
 
 Is this a milestone activity
 
+**Parameter:** 
+ - **isMilestone** Bool
 
-
-* **IsMilestone:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Bool isMilestone;
+thing.SetIsMilestone(isMilestone);
+```
 

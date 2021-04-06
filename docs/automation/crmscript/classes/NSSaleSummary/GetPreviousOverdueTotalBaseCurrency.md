@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetPreviousOverdueTotalBaseCurrency
 title: Float GetPreviousOverdueTotalBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetPreviousOverdueTotalBaseCurrency()
-intellisense: 1
-classref: 1
-keywords: GetPreviousOverdueTotalBaseCurrency()
+intellisense: NSSaleSummary.GetPreviousOverdueTotalBaseCurrency
+keywords: NSSaleSummary, GetPreviousOverdueTotalBaseCurrency
+so.topic: reference
 ---
-
 
 Summed amount for all open sales with date before this period in default currency for the installation
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSaleSummary thing;
+Float previousOverdueTotalBaseCurrency  = thing.GetPreviousOverdueTotalBaseCurrency();
+```
 
 

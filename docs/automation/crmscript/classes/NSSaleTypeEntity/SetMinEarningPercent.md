@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_SetMinEarningPercent
+title: SetMinEarningPercent(Integer minEarningPercent)
+intellisense: NSSaleTypeEntity.SetMinEarningPercent
+keywords: NSSaleTypeEntity, GetMinEarningPercent
+so.topic: reference
 ---
-title: Void SetMinEarningPercent(Integer MinEarningPercent)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetMinEarningPercent(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetMinEarningPercent(Integer)
----
-
 
 The minimum earning in percent of total, if set, on quotes linked to sales of this type
 
+**Parameter:** 
+ - **minEarningPercent** Integer
 
-
-* **MinEarningPercent:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleTypeEntity thing;
+Integer minEarningPercent;
+thing.SetMinEarningPercent(minEarningPercent);
+```
 

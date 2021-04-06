@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoLongText_GetDefaultValue
 title: String GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/String GetDefaultValue()
-intellisense: 1
-classref: 1
-sortOrder: 3522
-keywords: GetDefaultValue()
+intellisense: NSFieldInfoLongText.GetDefaultValue
+keywords: NSFieldInfoLongText, GetDefaultValue
+so.topic: reference
 ---
-
 
 Default string value
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldInfoLongText thing;
+String defaultValue  = thing.GetDefaultValue();
+```
 
 

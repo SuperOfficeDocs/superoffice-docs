@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailCustomHeader_SetValues
+title: SetValues(StringArray values)
+intellisense: NSEMailCustomHeader.SetValues
+keywords: NSEMailCustomHeader, GetValues
+so.topic: reference
 ---
-title: Void SetValues(String[] Values)
-path: /EJScript/Classes/NSEMailCustomHeader/Member functions/Void SetValues(String[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2941
-keywords: SetValues(String[])
----
 
 
-* **Values:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **values** StringArray
+
+```crmscript
+NSEMailCustomHeader thing;
+StringArray values;
+thing.SetValues(values);
+```
 

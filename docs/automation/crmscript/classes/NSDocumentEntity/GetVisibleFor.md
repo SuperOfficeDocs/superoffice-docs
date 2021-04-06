@@ -1,13 +1,17 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetVisibleFor
+title: VisibleForArray GetVisibleFor()
+intellisense: NSDocumentEntity.GetVisibleFor
+keywords: NSDocumentEntity, GetVisibleFor
+so.topic: reference
 ---
-title: VisibleFor[] GetVisibleFor()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/VisibleFor[] GetVisibleFor()
-intellisense: 1
-classref: 1
-sortOrder: 2583
-keywords: GetVisibleFor()
----
 
+Return the usergroups and/or users the DocumentEntity item is visible for.
 
-* **Returns:** VisibleForArray
+**Returns:** Visible for array.
 
+```crmscript
+NSDocumentEntity thing;
+VisibleFor[] visibleFor = thing.GetVisibleFor();
+```
 

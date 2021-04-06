@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 2407
-keywords: GetRank()
+intellisense: NSDiaryViewEntity.GetRank
+keywords: NSDiaryViewEntity, GetRank
+so.topic: reference
 ---
-
 
 DiaryView rank.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDiaryViewEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetCreatedDate
+title: SetCreatedDate(DateTime createdDate)
+intellisense: NSSaleEntity.SetCreatedDate
+keywords: NSSaleEntity, GetCreatedDate
+so.topic: reference
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetCreatedDate(DateTime)
----
-
 
 Registered date
 
+**Parameter:** 
+ - **createdDate** DateTime
 
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSSaleEntity thing;
+DateTime createdDate;
+thing.SetCreatedDate(createdDate);
+```
 

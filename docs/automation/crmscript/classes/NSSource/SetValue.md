@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSSource_SetValue
+title: SetValue(String value)
+intellisense: NSSource.SetValue
+keywords: NSSource, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSSource/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the Source item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Source name.
 
+```crmscript
+NSSource thing;
+thing.SetValue("frotz");
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListItem_GetPersonCellPhone
 title: String GetPersonCellPhone()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetPersonCellPhone()
-intellisense: 1
-classref: 1
-keywords: GetPersonCellPhone()
+intellisense: NSPhoneListItem.GetPersonCellPhone
+keywords: NSPhoneListItem, GetPersonCellPhone
+so.topic: reference
 ---
-
 
 Person Cell Phone
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPhoneListItem thing;
+String personCellPhone  = thing.GetPersonCellPhone();
+```
 
 

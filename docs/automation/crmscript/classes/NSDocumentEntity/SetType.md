@@ -1,18 +1,29 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_SetType
+title: SetType(Integer type)
+intellisense: NSDocumentEntity.SetType
+keywords: NSDocumentEntity, GetType
+so.topic: reference
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2612
-keywords: SetType(Integer)
----
-
 
 Is this a normal document or a mail-merge or report?
 
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = inDiary 
+     - Enum: 2 = inChecklist 
+     - Enum: 3 = Note 
+     - Enum: 4 = Document 
+     - Enum: 5 = SavedReport 
+     - Enum: 6 = BookingForDiary 
+     - Enum: 7 = BookingForChecklist 
+     - Enum: 8 = MergeDraft 
+     - Enum: 9 = MergeFinal 
 
-
-* **Type:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDocumentEntity thing;
+Integer type;
+thing.SetType(type);
+```
 

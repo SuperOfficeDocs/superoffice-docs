@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSCustomerServiceAgent_DeleteChatSessions
+title: Void DeleteChatSessions(IntegerArray ids)
+intellisense: NSCustomerServiceAgent.DeleteChatSessions
+keywords: NSCustomerServiceAgent, DeleteChatSessions
+so.topic: reference
 ---
-title: Void DeleteChatSessions(Integer[] ids)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Void DeleteChatSessions(Integer[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2245
-keywords: DeleteChatSessions(Integer[])
----
-
 
 Deletes the specified chat sessions.
 
+**Parameters:**
+ - **ids** The ids of the chat sessions to delete
 
+**Returns:** This method has no return value
 
-* **ids:** The ids of the chat sessions to delete
-* **Returns:** This method has no return value
-
+```crmscript
+NSCustomerServiceAgent agent;
+IntegerArray ids;
+Void res = agent.DeleteChatSessions(ids);
+```
 

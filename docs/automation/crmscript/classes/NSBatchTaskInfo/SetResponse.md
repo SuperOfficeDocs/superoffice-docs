@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetResponse
+title: SetResponse(String response)
+intellisense: NSBatchTaskInfo.SetResponse
+keywords: NSBatchTaskInfo, GetResponse
+so.topic: reference
 ---
-title: Void SetResponse(String Response)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetResponse(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1402
-keywords: SetResponse(String)
----
-
 
 Maps to the response field in the batchtask table.
 
+**Parameter:** 
+ - **response** String
 
-
-* **Response:** String
-* **Returns:** String
-
+```crmscript
+NSBatchTaskInfo thing;
+String response;
+thing.SetResponse(response);
+```
 

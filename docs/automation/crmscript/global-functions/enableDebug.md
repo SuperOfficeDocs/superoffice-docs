@@ -1,9 +1,9 @@
 ---
 description: Void enableDebug(String debugId)
-path: /EJScript/Global functions/Void enableDebug(String debugId)
-intellisense: 1
+intellisense: Void.enableDebug
 langref: 1
 keywords: enableDebug(String)
+so.topic: reference
 ---
 
 

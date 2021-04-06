@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTag_GetToolTip
 title: String GetToolTip()
-path: /EJScript/Classes/NSTag/Member functions/String GetToolTip()
-intellisense: 1
-classref: 1
-keywords: GetToolTip()
+intellisense: NSTag.GetToolTip
+keywords: NSTag, GetToolTip
+so.topic: reference
 ---
-
 
 The tooltip of the ListItem
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTag thing;
+String toolTip  = thing.GetToolTip();
+```
 
 

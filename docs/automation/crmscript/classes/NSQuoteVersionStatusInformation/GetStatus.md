@@ -1,16 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionStatusInformation_GetStatus
 title: Integer GetStatus()
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/Integer GetStatus()
-intellisense: 1
-classref: 1
-keywords: GetStatus()
+intellisense: NSQuoteVersionStatusInformation.GetStatus
+keywords: NSQuoteVersionStatusInformation, GetStatus
+so.topic: reference
 ---
-
 
 Status information for the quote version.
 
+**Returns:** Integer
 
+     - Enum: 0 = Ok 
+     - Enum: 1 = OkWithInfo 
+     - Enum: 2 = Warning 
+     - Enum: 3 = Error 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteVersionStatusInformation thing;
+Integer status  = thing.GetStatus();
+```
 
 

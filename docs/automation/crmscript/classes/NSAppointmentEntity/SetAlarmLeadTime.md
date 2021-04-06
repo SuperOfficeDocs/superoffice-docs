@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetAlarmLeadTime
+title: SetAlarmLeadTime(TimeSpan alarmLeadTime)
+intellisense: NSAppointmentEntity.SetAlarmLeadTime
+keywords: NSAppointmentEntity, GetAlarmLeadTime
+so.topic: reference
 ---
-title: Void SetAlarmLeadTime(TimeSpan AlarmLeadTime)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetAlarmLeadTime(TimeSpan p_0)
-intellisense: 1
-classref: 1
-sortOrder: 982
-keywords: SetAlarmLeadTime(TimeSpan)
----
-
 
 Alarm lead time.
 
+**Parameter:** 
+ - **alarmLeadTime** TimeSpan
 
-
-* **AlarmLeadTime:** TimeSpan
-* **Returns:** TimeSpan
-
+```crmscript
+NSAppointmentEntity thing;
+TimeSpan alarmLeadTime;
+thing.SetAlarmLeadTime(alarmLeadTime);
+```
 

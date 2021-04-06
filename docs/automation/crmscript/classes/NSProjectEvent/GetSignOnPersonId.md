@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEvent_GetSignOnPersonId
 title: Integer GetSignOnPersonId()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Integer GetSignOnPersonId()
-intellisense: 1
-classref: 1
-keywords: GetSignOnPersonId()
+intellisense: NSProjectEvent.GetSignOnPersonId
+keywords: NSProjectEvent, GetSignOnPersonId
+so.topic: reference
 ---
-
 
 If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Person whose diary should get the activity
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectEvent thing;
+Integer signOnPersonId  = thing.GetSignOnPersonId();
+```
 
 

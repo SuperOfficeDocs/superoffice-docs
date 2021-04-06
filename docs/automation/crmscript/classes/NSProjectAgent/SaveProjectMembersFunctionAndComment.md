@@ -1,18 +1,14 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_SaveProjectMembersFunctionAndComment
+title: Void SaveProjectMembersFunctionAndComment(IntegerArray projectMemberIds, Integer roleId, String comment)
+intellisense: NSProjectAgent.SaveProjectMembersFunctionAndComment
+keywords: NSProjectAgent, SaveProjectMembersFunctionAndComment
+so.topic: reference
 ---
-title: Void SaveProjectMembersFunctionAndComment(Integer[] p0, Integer p1, String p2)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Void SaveProjectMembersFunctionAndComment(Integer[] p_0, Integer p_1, String p_2)
-intellisense: 1
-classref: 1
-keywords: SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
----
-
 
 Saves role and comment on an array of projectmembers represented by ids
 
-
-
-* **projectMemberIds
-\param** p1 roleId
-* **comment**
-
-
+**Parameters:**
+ - **projectMemberIds** 
+ - **roleId** 
+ - **comment** 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetSignOnTriggersAssign
+title: SetSignOnTriggersAssign(Bool signOnTriggersAssign)
+intellisense: NSProjectEventEntity.SetSignOnTriggersAssign
+keywords: NSProjectEventEntity, GetSignOnTriggersAssign
+so.topic: reference
 ---
-title: Void SetSignOnTriggersAssign(Bool SignOnTriggersAssign)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetSignOnTriggersAssign(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOnTriggersAssign(Bool)
----
-
 
 If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog
 
+**Parameter:** 
+ - **signOnTriggersAssign** Bool
 
-
-* **SignOnTriggersAssign:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEventEntity thing;
+Bool signOnTriggersAssign;
+thing.SetSignOnTriggersAssign(signOnTriggersAssign);
+```
 

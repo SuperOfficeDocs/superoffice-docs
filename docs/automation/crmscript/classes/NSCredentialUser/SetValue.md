@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCredentialUser_SetValue
+title: SetValue(String value)
+intellisense: NSCredentialUser.SetValue
+keywords: NSCredentialUser, GetValue
+so.topic: reference
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSCredentialUser/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2093
-keywords: SetValue(String)
----
-
 
 Identification of user in the foreign system.  This value needs to be applied to the Credential.Value field
 
+**Parameter:** 
+ - **value** String
 
-
-* **Value:** String
-* **Returns:** String
-
+```crmscript
+NSCredentialUser thing;
+String value;
+thing.SetValue(value);
+```
 

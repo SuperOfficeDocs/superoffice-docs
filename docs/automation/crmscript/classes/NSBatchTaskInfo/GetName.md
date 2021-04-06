@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetName
 title: String GetName()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 1379
-keywords: GetName()
+intellisense: NSBatchTaskInfo.GetName
+keywords: NSBatchTaskInfo, GetName
+so.topic: reference
 ---
-
 
 Name of the task.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSBatchTaskInfo thing;
+String name  = thing.GetName();
+```
 
 

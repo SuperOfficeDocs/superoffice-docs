@@ -1,10 +1,10 @@
 ---
-title: Void remove(String key)
-path: /EJScript/Classes/Map/Member functions/Void remove(String key)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Map_remove_String_key
+title: Map.remove(String key)
+intellisense: Map.remove
 sortOrder: 538
 keywords: remove(String)
+so.topic: reference
 ---
 
 Will remove the element with the given key.

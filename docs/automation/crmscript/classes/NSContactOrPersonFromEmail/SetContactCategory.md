@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactOrPersonFromEmail_SetContactCategory
+title: SetContactCategory(String contactCategory)
+intellisense: NSContactOrPersonFromEmail.SetContactCategory
+keywords: NSContactOrPersonFromEmail, GetContactCategory
+so.topic: reference
 ---
-title: Void SetContactCategory(String ContactCategory)
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/Void SetContactCategory(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1928
-keywords: SetContactCategory(String)
----
-
 
 Contact category
 
+**Parameter:** 
+ - **contactCategory** String
 
-
-* **ContactCategory:** String
-* **Returns:** String
-
+```crmscript
+NSContactOrPersonFromEmail thing;
+String contactCategory;
+thing.SetContactCategory(contactCategory);
+```
 

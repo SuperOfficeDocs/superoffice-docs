@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLocalizedText_GetResourceId
 title: Integer GetResourceId()
-path: /EJScript/Classes/NSLocalizedText/Member functions/Integer GetResourceId()
-intellisense: 1
-classref: 1
-keywords: GetResourceId()
+intellisense: NSLocalizedText.GetResourceId
+keywords: NSLocalizedText, GetResourceId
+so.topic: reference
 ---
-
 
 Resource ID
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSLocalizedText thing;
+Integer resourceId  = thing.GetResourceId();
+```
 
 

@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig_SetType
+title: SetType(Integer type)
+intellisense: NSCustomerCenterConfig.SetType
+keywords: NSCustomerCenterConfig, GetType
+so.topic: reference
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2208
-keywords: SetType(Integer)
----
-
 
 What kind of data is in this row
 
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Style 
+     - Enum: 1 = Options 
 
-
-* **Type:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCustomerCenterConfig thing;
+Integer type;
+thing.SetType(type);
+```
 

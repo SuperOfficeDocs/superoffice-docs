@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetAllCurrencies
+title: CurrencyEntityArray GetAllCurrencies(Bool includeDeleted)
+intellisense: NSListAgent.GetAllCurrencies
+keywords: NSListAgent, GetAllCurrencies
+so.topic: reference
 ---
-title: NSCurrencyEntity[] GetAllCurrencies(Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrencyEntity[] GetAllCurrencies(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: GetAllCurrencies(Bool)
----
-
 
 Returns all currencies
 
+**Parameters:**
+ - **includeDeleted** Include deleted items in result?
 
+**Returns:** Array of currencies
 
-* **includeDeleted:** Include deleted items in result?
-* **Returns:** Array of currencies
-
+```crmscript
+NSListAgent agent;
+Bool includeDeleted;
+CurrencyEntityArray res = agent.GetAllCurrencies(includeDeleted);
+```
 

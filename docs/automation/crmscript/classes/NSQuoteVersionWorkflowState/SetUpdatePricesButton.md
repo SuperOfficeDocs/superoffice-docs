@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionWorkflowState_SetUpdatePricesButton
+title: SetUpdatePricesButton(QuoteVersionButtonState updatePricesButton)
+intellisense: NSQuoteVersionWorkflowState.SetUpdatePricesButton
+keywords: NSQuoteVersionWorkflowState, GetUpdatePricesButton
+so.topic: reference
 ---
-title: Void SetUpdatePricesButton(NSQuoteVersionButtonState UpdatePricesButton)
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/Void SetUpdatePricesButton(NSQuoteVersionButtonState p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatePricesButton(NSQuoteVersionButtonState)
----
-
 
 Information about the action for the update prices button.
 
+**Parameter:** 
+ - **updatePricesButton** QuoteVersionButtonState
 
-
-* **UpdatePricesButton:** QuoteVersionButtonState
-* **Returns:** QuoteVersionButtonState
-
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionButtonState updatePricesButton;
+thing.SetUpdatePricesButton(updatePricesButton);
+```
 

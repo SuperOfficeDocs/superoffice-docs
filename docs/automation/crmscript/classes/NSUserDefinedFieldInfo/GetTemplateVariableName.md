@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetTemplateVariableName
 title: String GetTemplateVariableName()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetTemplateVariableName()
-intellisense: 1
-classref: 1
-keywords: GetTemplateVariableName()
+intellisense: NSUserDefinedFieldInfo.GetTemplateVariableName
+keywords: NSUserDefinedFieldInfo, GetTemplateVariableName
+so.topic: reference
 ---
-
 
 Template variable name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSUserDefinedFieldInfo thing;
+String templateVariableName  = thing.GetTemplateVariableName();
+```
 
 

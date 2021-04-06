@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSFreeTextAgent_GetStatus
+title: FreeText GetStatus()
+intellisense: NSFreeTextAgent.GetStatus
+keywords: NSFreeTextAgent, GetStatus
+so.topic: reference
 ---
-title: NSFreeText GetStatus()
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/NSFreeText GetStatus()
-intellisense: 1
-classref: 1
-sortOrder: 3869
-keywords: GetStatus()
----
-
 
 Returns status for the freetext search words
 
 
+**Returns:** The freetext status
 
-* **Returns:** The freetext status
-
+```crmscript
+NSFreeTextAgent agent;
+FreeText res = agent.GetStatus();
+```
 

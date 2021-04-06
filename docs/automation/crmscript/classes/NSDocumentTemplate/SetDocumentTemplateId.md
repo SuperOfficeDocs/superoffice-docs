@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplate_SetDocumentTemplateId
+title: SetDocumentTemplateId(Integer documentTemplateId)
+intellisense: NSDocumentTemplate.SetDocumentTemplateId
+keywords: NSDocumentTemplate, GetDocumentTemplateId
+so.topic: reference
 ---
-title: Void SetDocumentTemplateId(Integer DocumentTemplateId)
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Void SetDocumentTemplateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2639
-keywords: SetDocumentTemplateId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **documentTemplateId** Integer
 
-
-* **DocumentTemplateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDocumentTemplate thing;
+Integer documentTemplateId;
+thing.SetDocumentTemplateId(documentTemplateId);
+```
 

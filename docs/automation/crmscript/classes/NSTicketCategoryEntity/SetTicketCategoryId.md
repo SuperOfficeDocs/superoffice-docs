@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_SetTicketCategoryId
+title: SetTicketCategoryId(Integer ticketCategoryId)
+intellisense: NSTicketCategoryEntity.SetTicketCategoryId
+keywords: NSTicketCategoryEntity, GetTicketCategoryId
+so.topic: reference
 ---
-title: Void SetTicketCategoryId(Integer TicketCategoryId)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetTicketCategoryId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTicketCategoryId(Integer)
----
-
 
 The id of the ticket category. (primary key)
 
+**Parameter:** 
+ - **ticketCategoryId** Integer
 
-
-* **TicketCategoryId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicketCategoryEntity thing;
+Integer ticketCategoryId;
+thing.SetTicketCategoryId(ticketCategoryId);
+```
 

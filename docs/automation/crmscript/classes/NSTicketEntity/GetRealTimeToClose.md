@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetRealTimeToClose
 title: Integer GetRealTimeToClose()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetRealTimeToClose()
-intellisense: 1
-classref: 1
-keywords: GetRealTimeToClose()
+intellisense: NSTicketEntity.GetRealTimeToClose
+keywords: NSTicketEntity, GetRealTimeToClose
+so.topic: reference
 ---
 
+Same as time_to_close, but not calculated based on priority.
 
-Same as time\_to_close, but not calculated based on priority.
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSTicketEntity thing;
+Integer realTimeToClose  = thing.GetRealTimeToClose();
+```
 
 

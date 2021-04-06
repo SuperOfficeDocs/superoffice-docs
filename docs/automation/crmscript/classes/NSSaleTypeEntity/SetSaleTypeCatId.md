@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_SetSaleTypeCatId
+title: SetSaleTypeCatId(Integer saleTypeCatId)
+intellisense: NSSaleTypeEntity.SetSaleTypeCatId
+keywords: NSSaleTypeEntity, GetSaleTypeCatId
+so.topic: reference
 ---
-title: Void SetSaleTypeCatId(Integer SaleTypeCatId)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetSaleTypeCatId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleTypeCatId(Integer)
----
-
 
 Category of sale type, copied to sale
 
+**Parameter:** 
+ - **saleTypeCatId** Integer
 
-
-* **SaleTypeCatId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleTypeEntity thing;
+Integer saleTypeCatId;
+thing.SetSaleTypeCatId(saleTypeCatId);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/InvoiceEntry/Member functions/Integer save()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_InvoiceEntry_save
+title: InvoiceEntry.save()
+intellisense: InvoiceEntry.save
 sortOrder: 433
 keywords: save()
+so.topic: reference
 ---
 
 

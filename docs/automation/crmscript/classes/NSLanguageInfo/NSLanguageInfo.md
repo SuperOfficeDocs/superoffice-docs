@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSLanguageInfo
 title: NSLanguageInfo
-path: /EJScript/Classes/NSLanguageInfo
-intellisense: 1
-classref: 1
-sortOrder: 3998
+intellisense: Void.NSLanguageInfo
+keywords: NSLanguageInfo
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

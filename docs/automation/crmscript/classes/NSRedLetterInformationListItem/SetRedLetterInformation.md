@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRedLetterInformationListItem_SetRedLetterInformation
+title: SetRedLetterInformation(RedLetterSummary redLetterInformation)
+intellisense: NSRedLetterInformationListItem.SetRedLetterInformation
+keywords: NSRedLetterInformationListItem, GetRedLetterInformation
+so.topic: reference
 ---
-title: Void SetRedLetterInformation(NSRedLetterSummary RedLetterInformation)
-path: /EJScript/Classes/NSRedLetterInformationListItem/Member functions/Void SetRedLetterInformation(NSRedLetterSummary p_0)
-intellisense: 1
-classref: 1
-keywords: SetRedLetterInformation(NSRedLetterSummary)
----
-
 
 Summary of redletter day information - holiday in own country, and in other countries known to the system.
 
+**Parameter:** 
+ - **redLetterInformation** RedLetterSummary
 
-
-* **RedLetterInformation:** RedLetterSummary
-* **Returns:** RedLetterSummary
-
+```crmscript
+NSRedLetterInformationListItem thing;
+RedLetterSummary redLetterInformation;
+thing.SetRedLetterInformation(redLetterInformation);
+```
 

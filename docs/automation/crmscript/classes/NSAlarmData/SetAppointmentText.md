@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAlarmData_SetAppointmentText
+title: SetAppointmentText(String appointmentText)
+intellisense: NSAlarmData.SetAppointmentText
+keywords: NSAlarmData, GetAppointmentText
+so.topic: reference
 ---
-title: Void SetAppointmentText(String AppointmentText)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetAppointmentText(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 670
-keywords: SetAppointmentText(String)
----
-
 
 The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
 
+**Parameter:** 
+ - **appointmentText** String
 
-
-* **AppointmentText:** String
-* **Returns:** String
-
+```crmscript
+NSAlarmData thing;
+String appointmentText;
+thing.SetAppointmentText(appointmentText);
+```
 

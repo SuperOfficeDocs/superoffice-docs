@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_GetReadySyncEmailAccounts
+title: SyncUserAccountArray GetReadySyncEmailAccounts()
+intellisense: NSEMailAgent.GetReadySyncEmailAccounts
+keywords: NSEMailAgent, GetReadySyncEmailAccounts
+so.topic: reference
 ---
-title: NSSyncUserAccount[] GetReadySyncEmailAccounts()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSSyncUserAccount[] GetReadySyncEmailAccounts()
-intellisense: 1
-classref: 1
-sortOrder: 2846
-keywords: GetReadySyncEmailAccounts()
----
-
 
 Gets the list of SyncUserAccounts that should be synced.
 
 
+**Returns:** List of accounts to sync
 
-* **Returns:** List of accounts to sync
-
+```crmscript
+NSEMailAgent agent;
+SyncUserAccountArray res = agent.GetReadySyncEmailAccounts();
+```
 

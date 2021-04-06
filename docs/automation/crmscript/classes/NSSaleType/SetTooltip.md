@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleType_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSSaleType.SetTooltip
+keywords: NSSaleType, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSSaleType/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the SaleType list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String SaleType tooltip description.
 
+```crmscript
+NSSaleType thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

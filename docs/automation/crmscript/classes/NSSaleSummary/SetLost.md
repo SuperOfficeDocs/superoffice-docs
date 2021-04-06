@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetLost
+title: SetLost(Integer lost)
+intellisense: NSSaleSummary.SetLost
+keywords: NSSaleSummary, GetLost
+so.topic: reference
 ---
-title: Void SetLost(Integer Lost)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetLost(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLost(Integer)
----
-
 
 Number of all lost within the period
 
+**Parameter:** 
+ - **lost** Integer
 
-
-* **Lost:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleSummary thing;
+Integer lost;
+thing.SetLost(lost);
+```
 

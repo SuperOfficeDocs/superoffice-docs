@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWindowPosSize_SetUpperY
+title: SetUpperY(Integer upperY)
+intellisense: NSWindowPosSize.SetUpperY
+keywords: NSWindowPosSize, GetUpperY
+so.topic: reference
 ---
-title: Void SetUpperY(Integer UpperY)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetUpperY(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpperY(Integer)
----
-
 
 Y of origin, upper edge of widget
 
+**Parameter:** 
+ - **upperY** Integer
 
-
-* **UpperY:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWindowPosSize thing;
+Integer upperY;
+thing.SetUpperY(upperY);
+```
 

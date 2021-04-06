@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSource
 title: NSSource
-path: /EJScript/Classes/NSSource
-intellisense: 1
-classref: 1
+intellisense: Void.NSSource
+keywords: NSSource
+so.topic: reference
 ---
-
 
 Source of a sale
 
-
-
-
-1. autolist
+1. autolist 
 

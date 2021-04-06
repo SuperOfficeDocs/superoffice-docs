@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetRelationDefinitionId
 title: Integer GetRelationDefinitionId()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Integer GetRelationDefinitionId()
-intellisense: 1
-classref: 1
-sortOrder: 1948
-keywords: GetRelationDefinitionId()
+intellisense: NSContactRelationEntity.GetRelationDefinitionId
+keywords: NSContactRelationEntity, GetRelationDefinitionId
+so.topic: reference
 ---
-
 
 Reference to definition
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSContactRelationEntity thing;
+Integer relationDefinitionId  = thing.GetRelationDefinitionId();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetProjectName
 title: String GetProjectName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetProjectName()
-intellisense: 1
-classref: 1
-sortOrder: 665
-keywords: GetProjectName()
+intellisense: NSAlarmData.GetProjectName
+keywords: NSAlarmData, GetProjectName
+so.topic: reference
 ---
-
 
 Project name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAlarmData thing;
+String projectName  = thing.GetProjectName();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionAttachment_GetDocumentId
 title: Integer GetDocumentId()
-path: /EJScript/Classes/NSQuoteVersionAttachment/Member functions/Integer GetDocumentId()
-intellisense: 1
-classref: 1
-keywords: GetDocumentId()
+intellisense: NSQuoteVersionAttachment.GetDocumentId
+keywords: NSQuoteVersionAttachment, GetDocumentId
+so.topic: reference
 ---
-
 
 Link to document
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteVersionAttachment thing;
+Integer documentId  = thing.GetDocumentId();
+```
 
 

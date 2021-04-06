@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSOutgoingMessage_SetTo
+title: SetTo(String to)
+intellisense: NSOutgoingMessage.SetTo
+keywords: NSOutgoingMessage, GetTo
+so.topic: reference
 ---
-title: Void SetTo(String To)
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/Void SetTo(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTo(String)
----
-
 
 Address of the recipient. This can be in the form of phone number or email.
 
+**Parameter:** 
+ - **to** String
 
-
-* **To:** String
-* **Returns:** String
-
+```crmscript
+NSOutgoingMessage thing;
+String to;
+thing.SetTo(to);
+```
 

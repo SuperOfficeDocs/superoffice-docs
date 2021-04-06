@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAppointment_GetSuperseded
 title: Bool GetSuperseded()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Bool GetSuperseded()
-intellisense: 1
-classref: 1
-sortOrder: 2874
-keywords: GetSuperseded()
+intellisense: NSEMailAppointment.GetSuperseded
+keywords: NSEMailAppointment, GetSuperseded
+so.topic: reference
 ---
-
 
 A newer invitation exists
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSEMailAppointment thing;
+Bool superseded  = thing.GetSuperseded();
+```
 
 

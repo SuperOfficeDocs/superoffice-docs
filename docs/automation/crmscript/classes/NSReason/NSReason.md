@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSReason
 title: NSReason
-path: /EJScript/Classes/NSReason
-intellisense: 1
-classref: 1
+intellisense: Void.NSReason
+keywords: NSReason
+so.topic: reference
 ---
-
 
 Reason for a lost sale
 
-
-
-
-1. autolist
+1. autolist 
 

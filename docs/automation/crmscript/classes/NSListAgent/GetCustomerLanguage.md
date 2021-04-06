@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCustomerLanguage
+title: NSCustomerLanguage GetCustomerLanguage(Integer customerLanguageId);
+intellisense: NSListAgent.GetCustomerLanguage
+keywords: NSListAgent, GetCustomerLanguage
+so.topic: reference
 ---
-title: NSCustomerLanguage GetCustomerLanguage(Integer customerLanguageId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCustomerLanguage GetCustomerLanguage(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetCustomerLanguage(Integer)
----
 
+Gets a NSCustomerLanguage object.
 
-Gets a CustomerLanguage object.
+**Parameters:**
+ - **customerLanguageId** The identifier of the NSCustomerLanguage object
 
+**Returns:** NSCustomerLanguage
 
-
-* **customerLanguageId:** The identifier of the CustomerLanguage object
-* **Returns:** CustomerLanguage
-
+```crmscript
+NSListAgent agent;
+NSCustomerLanguage thing = agent.GetCustomerLanguage(123);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSyncUserAccount_GetAssociateId
 title: Integer GetAssociateId()
-path: /EJScript/Classes/NSSyncUserAccount/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
-keywords: GetAssociateId()
+intellisense: NSSyncUserAccount.GetAssociateId
+keywords: NSSyncUserAccount, GetAssociateId
+so.topic: reference
 ---
-
 
 Id of the associate who owns this account
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSyncUserAccount thing;
+Integer associateId  = thing.GetAssociateId();
+```
 
 

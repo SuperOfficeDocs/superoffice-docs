@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnection_GetErpConnectionId
 title: Integer GetErpConnectionId()
-path: /EJScript/Classes/NSErpConnection/Member functions/Integer GetErpConnectionId()
-intellisense: 1
-classref: 1
-sortOrder: 3080
-keywords: GetErpConnectionId()
+intellisense: NSErpConnection.GetErpConnectionId
+keywords: NSErpConnection, GetErpConnectionId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSErpConnection thing;
+Integer erpConnectionId  = thing.GetErpConnectionId();
+```
 
 

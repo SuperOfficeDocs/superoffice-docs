@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetHasAlarm
+title: SetHasAlarm(Bool hasAlarm)
+intellisense: NSAppointmentSyncData.SetHasAlarm
+keywords: NSAppointmentSyncData, GetHasAlarm
+so.topic: reference
 ---
-title: Void SetHasAlarm(Bool HasAlarm)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetHasAlarm(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1074
-keywords: SetHasAlarm(Bool)
----
-
 
 Does this appointment have an alarm
 
+**Parameter:** 
+ - **hasAlarm** Bool
 
-
-* **HasAlarm:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSAppointmentSyncData thing;
+Bool hasAlarm;
+thing.SetHasAlarm(hasAlarm);
+```
 

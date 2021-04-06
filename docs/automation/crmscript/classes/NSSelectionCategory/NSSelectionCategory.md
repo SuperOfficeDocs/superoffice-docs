@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionCategory
 title: NSSelectionCategory
-path: /EJScript/Classes/NSSelectionCategory
-intellisense: 1
-classref: 1
+intellisense: Void.NSSelectionCategory
+keywords: NSSelectionCategory
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

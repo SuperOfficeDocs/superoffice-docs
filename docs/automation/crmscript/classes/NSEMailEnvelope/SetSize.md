@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEnvelope_SetSize
+title: SetSize(Integer size)
+intellisense: NSEMailEnvelope.SetSize
+keywords: NSEMailEnvelope, GetSize
+so.topic: reference
 ---
-title: Void SetSize(Integer Size)
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Void SetSize(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3023
-keywords: SetSize(Integer)
----
-
 
 Total size of the e-mail
 
+**Parameter:** 
+ - **size** Integer
 
-
-* **Size:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailEnvelope thing;
+Integer size;
+thing.SetSize(size);
+```
 

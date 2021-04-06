@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_Category
 title: Category
-path: /EJScript/Classes/Category
-intellisense: 1
-classref: 1
+intellisense: Void.Category
 sortOrder: 149
+so.topic: reference
 ---
 
 

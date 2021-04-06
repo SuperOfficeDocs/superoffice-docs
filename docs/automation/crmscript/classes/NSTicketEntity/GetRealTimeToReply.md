@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetRealTimeToReply
 title: Integer GetRealTimeToReply()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetRealTimeToReply()
-intellisense: 1
-classref: 1
-keywords: GetRealTimeToReply()
+intellisense: NSTicketEntity.GetRealTimeToReply
+keywords: NSTicketEntity, GetRealTimeToReply
+so.topic: reference
 ---
 
+Same as time_to_reply, but not calculated based on priority.
 
-Same as time\_to_reply, but not calculated based on priority.
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSTicketEntity thing;
+Integer realTimeToReply  = thing.GetRealTimeToReply();
+```
 
 

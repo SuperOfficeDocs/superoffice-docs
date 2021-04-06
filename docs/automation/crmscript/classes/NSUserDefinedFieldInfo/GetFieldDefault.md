@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldDefault
 title: String GetFieldDefault()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetFieldDefault()
-intellisense: 1
-classref: 1
-keywords: GetFieldDefault()
+intellisense: NSUserDefinedFieldInfo.GetFieldDefault
+keywords: NSUserDefinedFieldInfo, GetFieldDefault
+so.topic: reference
 ---
-
 
 Optional default value for String fields
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSUserDefinedFieldInfo thing;
+String fieldDefault  = thing.GetFieldDefault();
+```
 
 

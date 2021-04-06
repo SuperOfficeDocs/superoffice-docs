@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncEngineStatus_GetInterval
 title: TimeSpan GetInterval()
-path: /EJScript/Classes/NSErpSyncEngineStatus/Member functions/TimeSpan GetInterval()
-intellisense: 1
-classref: 1
-sortOrder: 3279
-keywords: GetInterval()
+intellisense: NSErpSyncEngineStatus.GetInterval
+keywords: NSErpSyncEngineStatus, GetInterval
+so.topic: reference
 ---
-
 
 The interval for each iteration of the sync engine
 
+**Returns:** TimeSpan
 
 
-* **Returns:** TimeSpan
+```crmscript
+NSErpSyncEngineStatus thing;
+TimeSpan interval  = thing.GetInterval();
+```
 
 

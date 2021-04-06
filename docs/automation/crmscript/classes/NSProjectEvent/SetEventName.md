@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetEventName
+title: SetEventName(String eventName)
+intellisense: NSProjectEvent.SetEventName
+keywords: NSProjectEvent, GetEventName
+so.topic: reference
 ---
-title: Void SetEventName(String EventName)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetEventName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetEventName(String)
----
-
 
 The name of the event (i.e. the project name)
 
+**Parameter:** 
+ - **eventName** String
 
-
-* **EventName:** String
-* **Returns:** String
-
+```crmscript
+NSProjectEvent thing;
+String eventName;
+thing.SetEventName(eventName);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSDocumentTemplateEntity.SetTooltip
+keywords: NSDocumentTemplateEntity, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2703
-keywords: SetTooltip(String)
----
-
 
 Tooltip or other description
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSDocumentTemplateEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

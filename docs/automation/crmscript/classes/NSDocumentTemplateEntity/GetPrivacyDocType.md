@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetPrivacyDocType
+title: DocTmplPrivacyType GetPrivacyDocType()
+intellisense: NSDocumentTemplateEntity.GetPrivacyDocType
+keywords: NSDocumentTemplateEntity, GetPrivacyDocType
+so.topic: reference
 ---
-title: NSDocTmplPrivacyType GetPrivacyDocType()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/NSDocTmplPrivacyType GetPrivacyDocType()
-intellisense: 1
-classref: 1
-sortOrder: 2666
-keywords: GetPrivacyDocType()
----
-
 
 Indicator that this document template has a functional role, related to privacy/GDPR
 
+**Returns:** DocTmplPrivacyType
 
+     - Enum: 0 = None 
+     - Enum: 1 = PersonRegistered 
 
-* **Returns:** DocTmplPrivacyType
+```crmscript
+NSDocumentTemplateEntity thing;
+DocTmplPrivacyType privacyDocType  = thing.GetPrivacyDocType();
+```
 
 

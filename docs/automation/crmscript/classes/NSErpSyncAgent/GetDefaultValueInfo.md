@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_GetDefaultValueInfo
+title: ErpSyncDefaultValue GetDefaultValueInfo(Integer erpFieldId)
+intellisense: NSErpSyncAgent.GetDefaultValueInfo
+keywords: NSErpSyncAgent, GetDefaultValueInfo
+so.topic: reference
 ---
-title: NSErpSyncDefaultValue GetDefaultValueInfo(Integer erpFieldId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncDefaultValue GetDefaultValueInfo(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3203
-keywords: GetDefaultValueInfo(Integer)
----
-
 
 Get information about default value for an ERP field
 
+**Parameters:**
+ - **erpFieldId** The id of the ERP field
 
+**Returns:** Object with information about default values
 
-* **erpFieldId:** The id of the ERP field
-* **Returns:** Object with information about default values
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpFieldId;
+ErpSyncDefaultValue res = agent.GetDefaultValueInfo(erpFieldId);
+```
 

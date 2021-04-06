@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTemplateInfo_GetPluginId
 title: Integer GetPluginId()
-path: /EJScript/Classes/NSTemplateInfo/Member functions/Integer GetPluginId()
-intellisense: 1
-classref: 1
-keywords: GetPluginId()
+intellisense: NSTemplateInfo.GetPluginId
+keywords: NSTemplateInfo, GetPluginId
+so.topic: reference
 ---
-
 
 ID of plugin that stores this template, so it can be retrieved
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTemplateInfo thing;
+Integer pluginId  = thing.GetPluginId();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSSale/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSSale.GetDescription
+keywords: NSSale, GetDescription
+so.topic: reference
 ---
-
 
 The sales description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSale thing;
+String description  = thing.GetDescription();
+```
 
 

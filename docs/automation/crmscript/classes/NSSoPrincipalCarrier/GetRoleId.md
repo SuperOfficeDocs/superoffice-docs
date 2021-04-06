@@ -1,9 +1,9 @@
 ---
-title: Integer GetRoleId()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetRoleId()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetRoleId
+title: NSSoPrincipalCarrier.GetRoleId()
+intellisense: NSSoPrincipalCarrier.GetRoleId
 keywords: GetRoleId()
+so.topic: reference
 ---
 
 

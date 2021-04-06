@@ -1,9 +1,9 @@
 ---
 description: Time Time(String time)
-path: /EJScript/Global functions/Time Time(String time)
-intellisense: 1
+intellisense: Void.Time
 langref: 1
 keywords: Time(String)
+so.topic: reference
 ---
 
 

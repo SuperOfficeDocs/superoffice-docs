@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_SetHeader
+title: SetHeader(String header)
+intellisense: NSSuggestedDocumentEntity.SetHeader
+keywords: NSSuggestedDocumentEntity, GetHeader
+so.topic: reference
 ---
-title: Void SetHeader(String Header)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetHeader(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetHeader(String)
----
-
 
 Suggested 'header'
 
+**Parameter:** 
+ - **header** String
 
-
-* **Header:** String
-* **Returns:** String
-
+```crmscript
+NSSuggestedDocumentEntity thing;
+String header;
+thing.SetHeader(header);
+```
 

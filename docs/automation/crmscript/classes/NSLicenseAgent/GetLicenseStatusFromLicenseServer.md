@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSLicenseAgent_GetLicenseStatusFromLicenseServer
+title: CheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String ownerName)
+intellisense: NSLicenseAgent.GetLicenseStatusFromLicenseServer
+keywords: NSLicenseAgent, GetLicenseStatusFromLicenseServer
+so.topic: reference
 ---
-title: NSCheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String ownerName)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSCheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String p_0)
-intellisense: 1
-classref: 1
-keywords: GetLicenseStatusFromLicenseServer(String)
----
-
 
 Get License from the license server for a particular module owner.
 
+**Parameters:**
+ - **ownerName** Name of the module owner to get license from.
 
+**Returns:** License from the database, from the license server and with usage.
 
-* **ownerName:** Name of the module owner to get license from.
-* **Returns:** License from the database, from the license server and with usage.
-
+```crmscript
+NSLicenseAgent agent;
+String ownerName;
+CheckLicenseStatusResult res = agent.GetLicenseStatusFromLicenseServer(ownerName);
+```
 

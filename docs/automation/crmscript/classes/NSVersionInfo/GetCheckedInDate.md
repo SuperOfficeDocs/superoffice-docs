@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSVersionInfo_GetCheckedInDate
 title: DateTime GetCheckedInDate()
-path: /EJScript/Classes/NSVersionInfo/Member functions/DateTime GetCheckedInDate()
-intellisense: 1
-classref: 1
-keywords: GetCheckedInDate()
+intellisense: NSVersionInfo.GetCheckedInDate
+keywords: NSVersionInfo, GetCheckedInDate
+so.topic: reference
 ---
-
 
 The date that this version was checked in and became official
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSVersionInfo thing;
+DateTime checkedInDate  = thing.GetCheckedInDate();
+```
 
 

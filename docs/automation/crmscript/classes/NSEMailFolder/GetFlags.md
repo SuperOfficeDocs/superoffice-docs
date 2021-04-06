@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailFolder_GetFlags
 title: String GetFlags()
-path: /EJScript/Classes/NSEMailFolder/Member functions/String GetFlags()
-intellisense: 1
-classref: 1
-sortOrder: 3033
-keywords: GetFlags()
+intellisense: NSEMailFolder.GetFlags
+keywords: NSEMailFolder, GetFlags
+so.topic: reference
 ---
-
 
 Flags associated with the folder
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailFolder thing;
+String flags  = thing.GetFlags();
+```
 
 

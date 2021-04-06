@@ -1,6 +1,6 @@
 ---
-title: crmscript_sales
-description: Sales
+uid: crmscript_sales
+title: Sales
 author:
 so.date:
 keywords:

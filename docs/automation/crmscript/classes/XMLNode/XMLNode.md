@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_XMLNode
 title: XMLNode
-path: /EJScript/Classes/XMLNode
-intellisense: 1
-classref: 1
+intellisense: Void.XMLNode
+so.topic: reference
 ---
 
 

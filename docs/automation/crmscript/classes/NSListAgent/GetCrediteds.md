@@ -1,12 +1,10 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCrediteds
+title: CreditedArray GetCrediteds()
+intellisense: NSListAgent.GetCrediteds
+keywords: NSListAgent, GetCrediteds
+so.topic: reference
 ---
-title: NSCredited[] GetCrediteds()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCredited[] GetCrediteds()
-intellisense: 1
-classref: 1
-keywords: GetCrediteds()
----
-
 
 Returns all credited
-
 

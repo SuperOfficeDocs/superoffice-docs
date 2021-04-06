@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProject_SetTypeId
+title: SetTypeId(Integer typeId)
+intellisense: NSProject.SetTypeId
+keywords: NSProject, GetTypeId
+so.topic: reference
 ---
-title: Void SetTypeId(Integer TypeId)
-path: /EJScript/Classes/NSProject/Member functions/Void SetTypeId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTypeId(Integer)
----
 
 
-* **TypeId:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **typeId** Integer
+
+```crmscript
+NSProject thing;
+Integer typeId;
+thing.SetTypeId(typeId);
+```
 

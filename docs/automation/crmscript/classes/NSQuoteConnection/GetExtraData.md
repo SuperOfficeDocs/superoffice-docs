@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteConnection_GetExtraData
 title: String GetExtraData()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetExtraData()
-intellisense: 1
-classref: 1
-keywords: GetExtraData()
+intellisense: NSQuoteConnection.GetExtraData
+keywords: NSQuoteConnection, GetExtraData
+so.topic: reference
 ---
-
 
 Optional extra data, in XML format, for configuring the connector. Connector-specific!
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteConnection thing;
+String extraData  = thing.GetExtraData();
+```
 
 

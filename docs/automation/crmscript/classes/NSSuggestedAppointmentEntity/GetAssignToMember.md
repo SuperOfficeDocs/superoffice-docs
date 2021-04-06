@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetAssignToMember
 title: Bool GetAssignToMember()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Bool GetAssignToMember()
-intellisense: 1
-classref: 1
-keywords: GetAssignToMember()
+intellisense: NSSuggestedAppointmentEntity.GetAssignToMember
+keywords: NSSuggestedAppointmentEntity, GetAssignToMember
+so.topic: reference
 ---
-
 
 Should this appointment be assigned to project member
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Bool assignToMember  = thing.GetAssignToMember();
+```
 
 

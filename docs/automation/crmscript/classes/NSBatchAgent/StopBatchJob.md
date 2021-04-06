@@ -1,18 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSBatchAgent_StopBatchJob
 title: Bool StopBatchJob(Integer id)
-path: /EJScript/Classes/NSBatchAgent/Member functions/Bool StopBatchJob(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1351
-keywords: StopBatchJob(Integer)
+intellisense: NSBatchAgent.StopBatchJob
+keywords: NSBatchAgent, StopBatchJob
+so.topic: reference
 ---
-
 
 Stop a batch job based on Id.
 
+**Parameters:**
+ - **id** Id of the batch job to stop.
 
+**Returns:** Returns true if the job was stopped successfully.
 
-* **id:** Id of the batch job to stop.
-* **Returns:** Returns true if the job was stopped successfully.
-
+```crmscript
+NSBatchAgent agent;
+Integer id;
+Bool res = agent.StopBatchJob(id);
+```
 

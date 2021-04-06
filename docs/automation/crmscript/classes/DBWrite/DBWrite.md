@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_DBWrite
 title: DBWrite
-path: /EJScript/Classes/DBWrite
-intellisense: 1
-classref: 1
+intellisense: Void.DBWrite
 sortOrder: 259
+so.topic: reference
 ---
 
 

@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSListItemEntity
 title: NSListItemEntity
-path: /EJScript/Classes/NSListItemEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSListItemEntity
+keywords: NSListItemEntity
+so.topic: reference
 ---
-
 
 The list item entity contains generic list item information
 
-
-
-
-1. autolist
+1. autolist 
 

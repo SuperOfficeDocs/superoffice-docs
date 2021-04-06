@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds
+title: UserDefinedFieldInfoArray GetUserDefinedFieldFromIds(IntegerArray ids)
+intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
+keywords: NSUserDefinedFieldInfoAgent, GetUserDefinedFieldFromIds
+so.topic: reference
 ---
-title: NSUserDefinedFieldInfo[] GetUserDefinedFieldFromIds(Integer[] ids)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo[] GetUserDefinedFieldFromIds(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetUserDefinedFieldFromIds(Integer[])
----
-
 
 Return an given array of user defined field identified by the ids.
 
+**Parameters:**
+ - **ids** Array of user defined field ids
 
+**Returns:** Returns an array of user-defined field info carriers
 
-* **ids:** Array of user defined field ids
-* **Returns:** Returns an array of user-defined field info carriers
-
+```crmscript
+NSUserDefinedFieldInfoAgent agent;
+IntegerArray ids;
+UserDefinedFieldInfoArray res = agent.GetUserDefinedFieldFromIds(ids);
+```
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetAppointment
+title: SetAppointment(Appointment appointment)
+intellisense: NSSaleEntity.SetAppointment
+keywords: NSSaleEntity, GetAppointment
+so.topic: reference
 ---
-title: Void SetAppointment(NSAppointment Appointment)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetAppointment(NSAppointment p_0)
-intellisense: 1
-classref: 1
-keywords: SetAppointment(NSAppointment)
----
 
 
-* **Appointment:** Appointment
-* **Returns:** Appointment
 
+**Parameter:** 
+ - **appointment** Appointment
+
+```crmscript
+NSSaleEntity thing;
+Appointment appointment;
+thing.SetAppointment(appointment);
+```
 

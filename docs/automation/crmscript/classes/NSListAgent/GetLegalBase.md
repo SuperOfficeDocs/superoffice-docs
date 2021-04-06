@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetLegalBase
+title: NSLegalBase GetLegalBase(Integer legalBaseId);
+intellisense: NSListAgent.GetLegalBase
+keywords: NSListAgent, GetLegalBase
+so.topic: reference
 ---
-title: NSLegalBase GetLegalBase(Integer legalBaseId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLegalBase GetLegalBase(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetLegalBase(Integer)
----
 
+Gets a NSLegalBase object.
 
-Gets a LegalBase object.
+**Parameters:**
+ - **legalBaseId** The identifier of the NSLegalBase object
 
+**Returns:** NSLegalBase
 
-
-* **legalBaseId:** The identifier of the LegalBase object
-* **Returns:** LegalBase
-
+```crmscript
+NSListAgent agent;
+NSLegalBase thing = agent.GetLegalBase(123);
+```
 

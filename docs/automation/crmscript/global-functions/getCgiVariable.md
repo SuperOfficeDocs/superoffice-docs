@@ -1,9 +1,9 @@
 ---
 description: String getCgiVariable(String varName)
-path: /EJScript/Global functions/String getCgiVariable(String varName)
-intellisense: 1
+intellisense: Void.getCgiVariable
 langref: 1
 keywords: getCgiVariable(String)
+so.topic: reference
 ---
 
 

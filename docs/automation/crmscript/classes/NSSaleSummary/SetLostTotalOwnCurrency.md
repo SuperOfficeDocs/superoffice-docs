@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetLostTotalOwnCurrency
+title: SetLostTotalOwnCurrency(Float lostTotalOwnCurrency)
+intellisense: NSSaleSummary.SetLostTotalOwnCurrency
+keywords: NSSaleSummary, GetLostTotalOwnCurrency
+so.topic: reference
 ---
-title: Void SetLostTotalOwnCurrency(Float LostTotalOwnCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetLostTotalOwnCurrency(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetLostTotalOwnCurrency(Float)
----
-
 
 Summed amount for all lost within the period in default currency for the current user
 
+**Parameter:** 
+ - **lostTotalOwnCurrency** Float
 
-
-* **LostTotalOwnCurrency:** Float
-* **Returns:** Float
-
+```crmscript
+NSSaleSummary thing;
+Float lostTotalOwnCurrency;
+thing.SetLostTotalOwnCurrency(lostTotalOwnCurrency);
+```
 

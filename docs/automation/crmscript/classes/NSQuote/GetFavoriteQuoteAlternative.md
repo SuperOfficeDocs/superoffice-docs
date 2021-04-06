@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuote_GetFavoriteQuoteAlternative
+title: QuoteAlternative GetFavoriteQuoteAlternative()
+intellisense: NSQuote.GetFavoriteQuoteAlternative
+keywords: NSQuote, GetFavoriteQuoteAlternative
+so.topic: reference
 ---
-title: NSQuoteAlternative GetFavoriteQuoteAlternative()
-path: /EJScript/Classes/NSQuote/Member functions/NSQuoteAlternative GetFavoriteQuoteAlternative()
-intellisense: 1
-classref: 1
-keywords: GetFavoriteQuoteAlternative()
----
-
 
 The favorite quote alternative for the quote and active quote version.
 
+**Returns:** QuoteAlternative
 
 
-* **Returns:** QuoteAlternative
+```crmscript
+NSQuote thing;
+QuoteAlternative favoriteQuoteAlternative  = thing.GetFavoriteQuoteAlternative();
+```
 
 

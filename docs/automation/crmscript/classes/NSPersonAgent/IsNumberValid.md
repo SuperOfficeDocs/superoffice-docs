@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_IsNumberValid
+title: Bool IsNumberValid(Integer contactId, String number)
+intellisense: NSPersonAgent.IsNumberValid
+keywords: NSPersonAgent, IsNumberValid
+so.topic: reference
 ---
-title: Bool IsNumberValid(Integer p0, String number)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Bool IsNumberValid(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: IsNumberValid(Integer,String)
----
-
 
 Checks if the number is unique or required.  The setting is configured from admin under system options.
 
+**Parameters:**
+ - **contactId** 
+ - **number** Number to check.
 
+**Returns:** True if number is ok (passes uniqueness/required checks)
 
-* **contactId
-\param** p1 number: Number to check.
-* **Returns:** True if number is ok (passes uniqueness/required checks)
-
+```crmscript
+NSPersonAgent agent;
+Integer contactId;
+String number;
+Bool res = agent.IsNumberValid(contactId, number);
+```
 

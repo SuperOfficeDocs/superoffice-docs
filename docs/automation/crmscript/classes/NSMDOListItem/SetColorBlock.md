@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMDOListItem_SetColorBlock
+title: SetColorBlock(Integer colorBlock)
+intellisense: NSMDOListItem.SetColorBlock
+keywords: NSMDOListItem, GetColorBlock
+so.topic: reference
 ---
-title: Void SetColorBlock(Integer ColorBlock)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetColorBlock(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetColorBlock(Integer)
----
-
 
 The color indicator of the ListItem color block
 
+**Parameter:** 
+ - **colorBlock** Integer
 
-
-* **ColorBlock:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMDOListItem thing;
+Integer colorBlock;
+thing.SetColorBlock(colorBlock);
+```
 

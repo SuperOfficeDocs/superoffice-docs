@@ -1,9 +1,9 @@
 ---
-title: Void SetOwnerTableId(Integer p0)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetOwnerTableId(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetOwnerTableId_Integer_p_0
+title: NSUserDefinedFieldInfo.SetOwnerTableId(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetOwnerTableId
 keywords: SetOwnerTableId(Integer)
+so.topic: reference
 ---
 
 

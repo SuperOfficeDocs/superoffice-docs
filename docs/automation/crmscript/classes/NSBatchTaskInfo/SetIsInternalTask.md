@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetIsInternalTask
+title: SetIsInternalTask(Bool isInternalTask)
+intellisense: NSBatchTaskInfo.SetIsInternalTask
+keywords: NSBatchTaskInfo, GetIsInternalTask
+so.topic: reference
 ---
-title: Void SetIsInternalTask(Bool IsInternalTask)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetIsInternalTask(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1393
-keywords: SetIsInternalTask(Bool)
----
-
 
 If IsInternalTask is true, this task will not add a trace to the database.
 
+**Parameter:** 
+ - **isInternalTask** Bool
 
-
-* **IsInternalTask:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSBatchTaskInfo thing;
+Bool isInternalTask;
+thing.SetIsInternalTask(isInternalTask);
+```
 

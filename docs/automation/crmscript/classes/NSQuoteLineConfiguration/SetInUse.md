@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_SetInUse
+title: SetInUse(Bool inUse)
+intellisense: NSQuoteLineConfiguration.SetInUse
+keywords: NSQuoteLineConfiguration, GetInUse
+so.topic: reference
 ---
-title: Void SetInUse(Bool InUse)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetInUse(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetInUse(Bool)
----
-
 
 Should this field be displayed in the GUI?
 
+**Parameter:** 
+ - **inUse** Bool
 
-
-* **InUse:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteLineConfiguration thing;
+Bool inUse;
+thing.SetInUse(inUse);
+```
 

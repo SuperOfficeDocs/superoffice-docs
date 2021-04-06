@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetIsVisibleForCategories
+title: SetIsVisibleForCategories(Bool isVisibleForCategories)
+intellisense: NSProjectEventEntity.SetIsVisibleForCategories
+keywords: NSProjectEventEntity, GetIsVisibleForCategories
+so.topic: reference
 ---
-title: Void SetIsVisibleForCategories(Bool IsVisibleForCategories)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetIsVisibleForCategories(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsVisibleForCategories(Bool)
----
 
 
-* **IsVisibleForCategories:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isVisibleForCategories** Bool
+
+```crmscript
+NSProjectEventEntity thing;
+Bool isVisibleForCategories;
+thing.SetIsVisibleForCategories(isVisibleForCategories);
+```
 

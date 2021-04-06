@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_GetChatSessionId
 title: Integer GetChatSessionId()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Integer GetChatSessionId()
-intellisense: 1
-classref: 1
-sortOrder: 1537
-keywords: GetChatSessionId()
+intellisense: NSChatSummaryItem.GetChatSessionId
+keywords: NSChatSummaryItem, GetChatSessionId
+so.topic: reference
 ---
-
 
 The primary key (auto-incremented)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSChatSummaryItem thing;
+Integer chatSessionId  = thing.GetChatSessionId();
+```
 
 

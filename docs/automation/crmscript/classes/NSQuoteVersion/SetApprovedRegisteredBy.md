@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetApprovedRegisteredBy
+title: SetApprovedRegisteredBy(Integer approvedRegisteredBy)
+intellisense: NSQuoteVersion.SetApprovedRegisteredBy
+keywords: NSQuoteVersion, GetApprovedRegisteredBy
+so.topic: reference
 ---
-title: Void SetApprovedRegisteredBy(Integer ApprovedRegisteredBy)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetApprovedRegisteredBy(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetApprovedRegisteredBy(Integer)
----
-
 
 Id of associate who actually entered the approval; might be different from ApprovedBy (f.x. due to telephone consultation/approval)
 
+**Parameter:** 
+ - **approvedRegisteredBy** Integer
 
-
-* **ApprovedRegisteredBy:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteVersion thing;
+Integer approvedRegisteredBy;
+thing.SetApprovedRegisteredBy(approvedRegisteredBy);
+```
 

@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSReasonStalled_SetId
+title: SetId(Integer id)
+intellisense: NSReasonStalled.SetId
+keywords: NSReasonStalled, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSReasonStalled/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the ReasonStalled
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer ReasonStalled id.
 
+```crmscript
+NSReasonStalled thing;
+thing.SetId(123);
+```
 

@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCredentialsGroupUsers
 title: NSCredentialsGroupUsers
-path: /EJScript/Classes/NSCredentialsGroupUsers
-intellisense: 1
-classref: 1
-sortOrder: 2062
+intellisense: Void.NSCredentialsGroupUsers
+keywords: NSCredentialsGroupUsers
+so.topic: reference
 ---
-
 
 This is the users within a user group.
 
-
-
-
-1. autolist
+1. autolist 
 

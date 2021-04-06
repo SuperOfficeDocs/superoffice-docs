@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetNumber
 title: String GetNumber()
-path: /EJScript/Classes/NSSaleEntity/Member functions/String GetNumber()
-intellisense: 1
-classref: 1
-keywords: GetNumber()
+intellisense: NSSaleEntity.GetNumber
+keywords: NSSaleEntity, GetNumber
+so.topic: reference
 ---
-
 
 Alphanumeric user field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleEntity thing;
+String number  = thing.GetNumber();
+```
 
 

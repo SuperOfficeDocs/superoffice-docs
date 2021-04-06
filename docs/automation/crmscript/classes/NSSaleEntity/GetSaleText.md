@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetSaleText
 title: String GetSaleText()
-path: /EJScript/Classes/NSSaleEntity/Member functions/String GetSaleText()
-intellisense: 1
-classref: 1
-keywords: GetSaleText()
+intellisense: NSSaleEntity.GetSaleText
+keywords: NSSaleEntity, GetSaleText
+so.topic: reference
 ---
-
 
 Text describing the sale
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleEntity thing;
+String saleText  = thing.GetSaleText();
+```
 
 

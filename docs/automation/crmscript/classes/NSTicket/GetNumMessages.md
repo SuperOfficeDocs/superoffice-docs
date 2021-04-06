@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetNumMessages
 title: Integer GetNumMessages()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetNumMessages()
-intellisense: 1
-classref: 1
-keywords: GetNumMessages()
+intellisense: NSTicket.GetNumMessages
+keywords: NSTicket, GetNumMessages
+so.topic: reference
 ---
-
 
 The total number of messages for this request.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicket thing;
+Integer numMessages  = thing.GetNumMessages();
+```
 
 

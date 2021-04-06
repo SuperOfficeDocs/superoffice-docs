@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitor_GetGenerationStart
 title: DateTime GetGenerationStart()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/DateTime GetGenerationStart()
-intellisense: 1
-classref: 1
-keywords: GetGenerationStart()
+intellisense: NSStatusMonitor.GetGenerationStart
+keywords: NSStatusMonitor, GetGenerationStart
+so.topic: reference
 ---
-
 
 When was the last regeneration started
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSStatusMonitor thing;
+DateTime generationStart  = thing.GetGenerationStart();
+```
 
 

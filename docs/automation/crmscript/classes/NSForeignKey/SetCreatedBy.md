@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignKey_SetCreatedBy
+title: SetCreatedBy(String createdBy)
+intellisense: NSForeignKey.SetCreatedBy
+keywords: NSForeignKey, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(String CreatedBy)
-path: /EJScript/Classes/NSForeignKey/Member functions/Void SetCreatedBy(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3742
-keywords: SetCreatedBy(String)
----
-
 
 Name of the person that created the foreign key
 
+**Parameter:** 
+ - **createdBy** String
 
-
-* **CreatedBy:** String
-* **Returns:** String
-
+```crmscript
+NSForeignKey thing;
+String createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

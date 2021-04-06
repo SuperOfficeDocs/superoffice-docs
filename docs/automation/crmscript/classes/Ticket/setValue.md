@@ -1,9 +1,9 @@
 ---
-title: Void setValue(String colName, String value)
-path: /EJScript/Classes/Ticket/Member functions/Void setValue(String colName, String value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Ticket_setValue_String_colName_String_value
+title: Ticket.setValue(String colName, String value)
+intellisense: Ticket.setValue
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 

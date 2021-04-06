@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetOpenTotalOwnCurrency
 title: Float GetOpenTotalOwnCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetOpenTotalOwnCurrency()
-intellisense: 1
-classref: 1
-keywords: GetOpenTotalOwnCurrency()
+intellisense: NSSaleSummary.GetOpenTotalOwnCurrency
+keywords: NSSaleSummary, GetOpenTotalOwnCurrency
+so.topic: reference
 ---
-
 
 Summed amount for all open within the period in default currency for the current user
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSaleSummary thing;
+Float openTotalOwnCurrency  = thing.GetOpenTotalOwnCurrency();
+```
 
 

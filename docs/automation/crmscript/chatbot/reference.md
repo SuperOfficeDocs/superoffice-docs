@@ -1,5 +1,6 @@
 ---
-title: chatbot_reference_registration
+uid: chatbot_reference_registration
+title: Chatbot Scripts Reference
 description: Chatbot scripts reference
 author: christianm
 so.date: 2021-03-29

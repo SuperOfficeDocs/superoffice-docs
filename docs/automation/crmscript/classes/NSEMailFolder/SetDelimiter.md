@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailFolder_SetDelimiter
+title: SetDelimiter(String delimiter)
+intellisense: NSEMailFolder.SetDelimiter
+keywords: NSEMailFolder, GetDelimiter
+so.topic: reference
 ---
-title: Void SetDelimiter(String Delimiter)
-path: /EJScript/Classes/NSEMailFolder/Member functions/Void SetDelimiter(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3035
-keywords: SetDelimiter(String)
----
-
 
 The character which is used to delimit folder levels on the server
 
+**Parameter:** 
+ - **delimiter** String
 
-
-* **Delimiter:** String
-* **Returns:** String
-
+```crmscript
+NSEMailFolder thing;
+String delimiter;
+thing.SetDelimiter(delimiter);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteConnection_SetIsAvailable
+title: SetIsAvailable(Bool isAvailable)
+intellisense: NSQuoteConnection.SetIsAvailable
+keywords: NSQuoteConnection, GetIsAvailable
+so.topic: reference
 ---
-title: Void SetIsAvailable(Bool IsAvailable)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetIsAvailable(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsAvailable(Bool)
----
-
 
 Whether or not the specified connection is available. Typically, without network access the availability is false.
 
+**Parameter:** 
+ - **isAvailable** Bool
 
-
-* **IsAvailable:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteConnection thing;
+Bool isAvailable;
+thing.SetIsAvailable(isAvailable);
+```
 

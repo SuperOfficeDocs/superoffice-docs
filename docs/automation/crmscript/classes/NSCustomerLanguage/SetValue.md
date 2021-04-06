@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSCustomerLanguage_SetValue
+title: SetValue(String value)
+intellisense: NSCustomerLanguage.SetValue
+keywords: NSCustomerLanguage, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSCustomerLanguage/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2218
-keywords: SetValue(String)
----
 
+Set the name of the CustomerLanguage item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String CustomerLanguage name.
 
+```crmscript
+NSCustomerLanguage thing;
+thing.SetValue("frotz");
+```
 

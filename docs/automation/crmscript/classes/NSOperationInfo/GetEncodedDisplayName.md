@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSOperationInfo_GetEncodedDisplayName
 title: String GetEncodedDisplayName()
-path: /EJScript/Classes/NSOperationInfo/Member functions/String GetEncodedDisplayName()
-intellisense: 1
-classref: 1
-keywords: GetEncodedDisplayName()
+intellisense: NSOperationInfo.GetEncodedDisplayName
+keywords: NSOperationInfo, GetEncodedDisplayName
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSOperationInfo thing;
+String encodedDisplayName  = thing.GetEncodedDisplayName();
+```
 
 

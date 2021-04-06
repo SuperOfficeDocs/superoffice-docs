@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldMetadata_GetFieldKey
 title: String GetFieldKey()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/String GetFieldKey()
-intellisense: 1
-classref: 1
-sortOrder: 3583
-keywords: GetFieldKey()
+intellisense: NSFieldMetadata.GetFieldKey
+keywords: NSFieldMetadata, GetFieldKey
+so.topic: reference
 ---
-
 
 Internal key/name of the field. Used as the key in the ConnectionConfigField values when TestConnection is called.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldMetadata thing;
+String fieldKey  = thing.GetFieldKey();
+```
 
 

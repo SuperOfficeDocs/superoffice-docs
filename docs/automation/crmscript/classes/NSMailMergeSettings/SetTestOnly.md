@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetTestOnly
+title: SetTestOnly(Bool testOnly)
+intellisense: NSMailMergeSettings.SetTestOnly
+keywords: NSMailMergeSettings, GetTestOnly
+so.topic: reference
 ---
-title: Void SetTestOnly(Bool TestOnly)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetTestOnly(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetTestOnly(Bool)
----
-
 
 If true, do the merge task, but use current user as target, instead of selection members
 
+**Parameter:** 
+ - **testOnly** Bool
 
-
-* **TestOnly:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSMailMergeSettings thing;
+Bool testOnly;
+thing.SetTestOnly(testOnly);
+```
 

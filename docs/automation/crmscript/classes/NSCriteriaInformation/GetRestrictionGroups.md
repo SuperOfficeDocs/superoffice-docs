@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCriteriaInformation_GetRestrictionGroups
+title: ArchiveRestrictionGroupArray GetRestrictionGroups()
+intellisense: NSCriteriaInformation.GetRestrictionGroups
+keywords: NSCriteriaInformation, GetRestrictionGroups
+so.topic: reference
 ---
-title: NSArchiveRestrictionGroup[] GetRestrictionGroups()
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/NSArchiveRestrictionGroup[] GetRestrictionGroups()
-intellisense: 1
-classref: 1
-sortOrder: 2106
-keywords: GetRestrictionGroups()
----
-
 
 Array of restrictiongroups, including the default first group of restrictions
 
+**Returns:** ArchiveRestrictionGroupArray
 
 
-* **Returns:** ArchiveRestrictionGroupArray
+```crmscript
+NSCriteriaInformation thing;
+ArchiveRestrictionGroupArray restrictionGroups  = thing.GetRestrictionGroups();
+```
 
 

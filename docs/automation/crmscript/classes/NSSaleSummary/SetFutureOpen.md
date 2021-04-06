@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetFutureOpen
+title: SetFutureOpen(Integer futureOpen)
+intellisense: NSSaleSummary.SetFutureOpen
+keywords: NSSaleSummary, GetFutureOpen
+so.topic: reference
 ---
-title: Void SetFutureOpen(Integer FutureOpen)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetFutureOpen(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetFutureOpen(Integer)
----
-
 
 Number of all Future Pipe/All open sales with date after the period
 
+**Parameter:** 
+ - **futureOpen** Integer
 
-
-* **FutureOpen:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleSummary thing;
+Integer futureOpen;
+thing.SetFutureOpen(futureOpen);
+```
 

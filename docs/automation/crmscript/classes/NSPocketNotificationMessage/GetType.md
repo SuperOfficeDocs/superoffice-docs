@@ -1,16 +1,24 @@
----
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_GetType
 title: Integer GetType()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
-keywords: GetType()
+intellisense: NSPocketNotificationMessage.GetType
+keywords: NSPocketNotificationMessage, GetType
+so.topic: reference
 ---
-
 
 The type of notification this is
 
+**Returns:** Integer
 
+     - Enum: 0 = Message 
+     - Enum: 1 = ImportantMessage 
+     - Enum: 2 = RemoteAction 
+     - Enum: 3 = YesNoQuestion 
+     - Enum: 4 = ShowWebPage 
 
-* **Returns:** Integer
+```crmscript
+NSPocketNotificationMessage thing;
+Integer type  = thing.GetType();
+```
 
 

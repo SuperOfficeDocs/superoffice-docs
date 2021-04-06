@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionButtonState_SetDisplayText
+title: SetDisplayText(String displayText)
+intellisense: NSQuoteVersionButtonState.SetDisplayText
+keywords: NSQuoteVersionButtonState, GetDisplayText
+so.topic: reference
 ---
-title: Void SetDisplayText(String DisplayText)
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Void SetDisplayText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDisplayText(String)
----
-
 
 Text to be displayed on the button
 
+**Parameter:** 
+ - **displayText** String
 
-
-* **DisplayText:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersionButtonState thing;
+String displayText;
+thing.SetDisplayText(displayText);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSSuggestedDocumentEntity.GetRank
+keywords: NSSuggestedDocumentEntity, GetRank
+so.topic: reference
 ---
-
 
 Rank, controls rank of non-instantiated items in Guide
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSuggestedDocumentEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

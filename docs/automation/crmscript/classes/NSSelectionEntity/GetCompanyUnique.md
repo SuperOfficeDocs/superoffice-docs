@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetCompanyUnique
 title: Bool GetCompanyUnique()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Bool GetCompanyUnique()
-intellisense: 1
-classref: 1
-keywords: GetCompanyUnique()
+intellisense: NSSelectionEntity.GetCompanyUnique
+keywords: NSSelectionEntity, GetCompanyUnique
+so.topic: reference
 ---
-
 
 Filter out duplicate members based on company?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSelectionEntity thing;
+Bool companyUnique  = thing.GetCompanyUnique();
+```
 
 

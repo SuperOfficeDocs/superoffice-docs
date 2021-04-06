@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuote_GetUseValuesFromQuote
 title: Integer GetUseValuesFromQuote()
-path: /EJScript/Classes/NSQuote/Member functions/Integer GetUseValuesFromQuote()
-intellisense: 1
-classref: 1
-keywords: GetUseValuesFromQuote()
+intellisense: NSQuote.GetUseValuesFromQuote
+keywords: NSQuote, GetUseValuesFromQuote
+so.topic: reference
 ---
 
+If true, then the Earning, Earning_Percent and Amount fields are populated from the QuoteVersion.QuoteAlternative (current revision, most-likely alternative).
 
-If true, then the Earning, Earning\_Percent and Amount fields are populated from the QuoteVersion.QuoteAlternative (current revision, most-likely alternative).
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSQuote thing;
+Integer useValuesFromQuote  = thing.GetUseValuesFromQuote();
+```
 
 

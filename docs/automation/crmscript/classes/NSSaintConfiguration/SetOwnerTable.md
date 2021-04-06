@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaintConfiguration_SetOwnerTable
+title: SetOwnerTable(Integer ownerTable)
+intellisense: NSSaintConfiguration.SetOwnerTable
+keywords: NSSaintConfiguration, GetOwnerTable
+so.topic: reference
 ---
-title: Void SetOwnerTable(Integer OwnerTable)
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Void SetOwnerTable(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwnerTable(Integer)
----
-
 
 The table that is the owning entity
 
+**Parameter:** 
+ - **ownerTable** Integer
 
-
-* **OwnerTable:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaintConfiguration thing;
+Integer ownerTable;
+thing.SetOwnerTable(ownerTable);
+```
 

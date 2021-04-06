@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeTask_GetTypeId
 title: Integer GetTypeId()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetTypeId()
-intellisense: 1
-classref: 1
-keywords: GetTypeId()
+intellisense: NSMailMergeTask.GetTypeId
+keywords: NSMailMergeTask, GetTypeId
+so.topic: reference
 ---
-
 
 Type identity to set on task
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMailMergeTask thing;
+Integer typeId  = thing.GetTypeId();
+```
 
 

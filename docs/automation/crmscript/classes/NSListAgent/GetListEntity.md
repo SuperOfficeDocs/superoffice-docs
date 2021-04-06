@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetListEntity
+title: NSListEntity GetListEntity(Integer listEntityId);
+intellisense: NSListAgent.GetListEntity
+keywords: NSListAgent, GetListEntity
+so.topic: reference
 ---
-title: NSListEntity GetListEntity(Integer listEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity GetListEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetListEntity(Integer)
----
 
+Gets a NSListEntity object.
 
-Gets a ListEntity object.
+**Parameters:**
+ - **listEntityId** The identifier of the NSListEntity object
 
+**Returns:** NSListEntity
 
-
-* **listEntityId:** The identifier of the ListEntity object
-* **Returns:** ListEntity
-
+```crmscript
+NSListAgent agent;
+NSListEntity thing = agent.GetListEntity(123);
+```
 

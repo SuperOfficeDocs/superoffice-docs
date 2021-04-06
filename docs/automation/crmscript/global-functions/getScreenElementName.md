@@ -1,9 +1,9 @@
 ---
 description: String getScreenElementName(Integer index)
-path: /EJScript/Global functions/String getScreenElementName(Integer index)
-intellisense: 1
+intellisense: Void.getScreenElementName
 langref: 1
 keywords: getScreenElementName(Integer)
+so.topic: reference
 ---
 
 

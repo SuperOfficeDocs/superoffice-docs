@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSSelectionCategory_SetId
+title: SetId(Integer id)
+intellisense: NSSelectionCategory.SetId
+keywords: NSSelectionCategory, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSSelectionCategory/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the SelectionCategory
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer SelectionCategory id.
 
+```crmscript
+NSSelectionCategory thing;
+thing.SetId(123);
+```
 

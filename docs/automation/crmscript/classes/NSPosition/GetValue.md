@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSPosition_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSPosition/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSPosition.GetValue
+keywords: NSPosition, GetValue
+so.topic: reference
 ---
 
+Get the name of the Position.
 
-* **Returns:** String
+**Returns:** String Position name.
 
+```crmscript
+NSPosition thing;
+String name = thing.GetValue();
+```
 

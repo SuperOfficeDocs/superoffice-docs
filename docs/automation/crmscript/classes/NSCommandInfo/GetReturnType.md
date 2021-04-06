@@ -1,17 +1,25 @@
----
+﻿---
+uid: crmscript_ref_NSCommandInfo_GetReturnType
 title: Integer GetReturnType()
-path: /EJScript/Classes/NSCommandInfo/Member functions/Integer GetReturnType()
-intellisense: 1
-classref: 1
-sortOrder: 1568
-keywords: GetReturnType()
+intellisense: NSCommandInfo.GetReturnType
+keywords: NSCommandInfo, GetReturnType
+so.topic: reference
 ---
-
 
 Declaration of what kind of return type the execution of this command will give.
 
+**Returns:** Integer
 
+     - Enum: 0 = None 
+     - Enum: 1 = Message 
+     - Enum: 2 = SoProtocol 
+     - Enum: 3 = CustomGui 
+     - Enum: 4 = Other 
+     - Enum: 5 = URL 
 
-* **Returns:** Integer
+```crmscript
+NSCommandInfo thing;
+Integer returnType  = thing.GetReturnType();
+```
 
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetLinks
+title: SetLinks(LinkArray links)
+intellisense: NSProjectEntity.SetLinks
+keywords: NSProjectEntity, GetLinks
+so.topic: reference
 ---
-title: Void SetLinks(NSLink[] Links)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetLinks(NSLink[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetLinks(NSLink[])
----
 
+List of all elements linked to the project
 
-* **Links:** LinkArray
-* **Returns:** LinkArray
+**Parameter:** 
+ - **links** LinkArray
 
+```crmscript
+NSProjectEntity thing;
+LinkArray links;
+thing.SetLinks(links);
+```
 

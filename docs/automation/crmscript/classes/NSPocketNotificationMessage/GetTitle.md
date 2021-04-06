@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_GetTitle
 title: String GetTitle()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/String GetTitle()
-intellisense: 1
-classref: 1
-keywords: GetTitle()
+intellisense: NSPocketNotificationMessage.GetTitle
+keywords: NSPocketNotificationMessage, GetTitle
+so.topic: reference
 ---
-
 
 Title for the notification
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPocketNotificationMessage thing;
+String title  = thing.GetTitle();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 3357
-keywords: GetDeleted()
+intellisense: NSExtAppEntity.GetDeleted
+keywords: NSExtAppEntity, GetDeleted
+so.topic: reference
 ---
-
 
 True if the application is marked as deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSExtAppEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCredited
 title: NSCredited
-path: /EJScript/Classes/NSCredited
-intellisense: 1
-classref: 1
-sortOrder: 2094
+intellisense: Void.NSCredited
+keywords: NSCredited
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSVersionInfo_SetCheckedInByAssociateId
+title: SetCheckedInByAssociateId(Integer checkedInByAssociateId)
+intellisense: NSVersionInfo.SetCheckedInByAssociateId
+keywords: NSVersionInfo, GetCheckedInByAssociateId
+so.topic: reference
 ---
-title: Void SetCheckedInByAssociateId(Integer CheckedInByAssociateId)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetCheckedInByAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCheckedInByAssociateId(Integer)
----
-
 
 Associate id of the user who performed the checkin
 
+**Parameter:** 
+ - **checkedInByAssociateId** Integer
 
-
-* **CheckedInByAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSVersionInfo thing;
+Integer checkedInByAssociateId;
+thing.SetCheckedInByAssociateId(checkedInByAssociateId);
+```
 

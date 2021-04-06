@@ -1,13 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSDepartment_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSDepartment/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 2383
-keywords: GetTooltip()
+intellisense: NSDepartment.GetTooltip
+keywords: NSDepartment, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the Department list item.
 
-* **Returns:** String
+**Returns:** String Department tooltip description.
+
+```crmscript
+NSDepartment thing;
+String descr = thing.GetTooltip();
+```
 
 

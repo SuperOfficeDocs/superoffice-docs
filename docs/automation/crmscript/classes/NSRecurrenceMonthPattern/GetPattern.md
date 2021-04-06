@@ -1,9 +1,9 @@
 ---
-title: Integer GetPattern()
-path: /EJScript/Classes/NSRecurrenceMonthPattern/Member functions/Integer GetPattern()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceMonthPattern_GetPattern
+title: NSRecurrenceMonthPattern.GetPattern()
+intellisense: NSRecurrenceMonthPattern.GetPattern
 keywords: GetPattern()
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayTooltip
+title: SetDisplayTooltip(String displayTooltip)
+intellisense: NSQuoteVersionStatusInformation.SetDisplayTooltip
+keywords: NSQuoteVersionStatusInformation, GetDisplayTooltip
+so.topic: reference
 ---
-title: Void SetDisplayTooltip(String DisplayTooltip)
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/Void SetDisplayTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDisplayTooltip(String)
----
-
 
 Generated full tooltip for the Quote Version. Will check for errors on quote lines, alternatives and the version itself.
 
+**Parameter:** 
+ - **displayTooltip** String
 
-
-* **DisplayTooltip:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersionStatusInformation thing;
+String displayTooltip;
+thing.SetDisplayTooltip(displayTooltip);
+```
 

@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceAgent_DeleteFromSectionAndKey
 title: Void DeleteFromSectionAndKey(String section, String key)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void DeleteFromSectionAndKey(String p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: DeleteFromSectionAndKey(String,String)
+intellisense: NSPreferenceAgent.DeleteFromSectionAndKey
+keywords: NSPreferenceAgent, DeleteFromSectionAndKey
+so.topic: reference
 ---
-
 
 Gets a PreferenceDescription based on the section and key
 
+**Parameters:**
+ - **section** The PreferenceDescription-section
+ - **key** The PreferenceDescription-key
 
+**Returns:** This method has no return value
 
-* **section:** The PreferenceDescription-section
-* **key:** The PreferenceDescription-key
-* **Returns:** This method has no return value
-
+```crmscript
+NSPreferenceAgent agent;
+String section;
+String key;
+Void res = agent.DeleteFromSectionAndKey(section, key);
+```
 

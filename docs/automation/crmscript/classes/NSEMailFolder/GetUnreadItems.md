@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailFolder_GetUnreadItems
 title: Integer GetUnreadItems()
-path: /EJScript/Classes/NSEMailFolder/Member functions/Integer GetUnreadItems()
-intellisense: 1
-classref: 1
-sortOrder: 3031
-keywords: GetUnreadItems()
+intellisense: NSEMailFolder.GetUnreadItems
+keywords: NSEMailFolder, GetUnreadItems
+so.topic: reference
 ---
-
 
 Number of unread messages in the folder
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailFolder thing;
+Integer unreadItems  = thing.GetUnreadItems();
+```
 
 

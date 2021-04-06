@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreferenceSpec_SetSection
+title: SetSection(String section)
+intellisense: NSPreferenceSpec.SetSection
+keywords: NSPreferenceSpec, GetSection
+so.topic: reference
 ---
-title: Void SetSection(String Section)
-path: /EJScript/Classes/NSPreferenceSpec/Member functions/Void SetSection(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSection(String)
----
-
 
 Preference section name
 
+**Parameter:** 
+ - **section** String
 
-
-* **Section:** String
-* **Returns:** String
-
+```crmscript
+NSPreferenceSpec thing;
+String section;
+thing.SetSection(section);
+```
 

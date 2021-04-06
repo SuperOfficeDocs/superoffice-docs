@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetDomainName
 title: String GetDomainName()
-path: /EJScript/Classes/NSCountry/Member functions/String GetDomainName()
-intellisense: 1
-classref: 1
-sortOrder: 2020
-keywords: GetDomainName()
+intellisense: NSCountry.GetDomainName
+keywords: NSCountry, GetDomainName
+so.topic: reference
 ---
-
 
 Domain name of the country
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCountry thing;
+String domainName  = thing.GetDomainName();
+```
 
 

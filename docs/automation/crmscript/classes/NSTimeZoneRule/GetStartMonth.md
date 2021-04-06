@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneRule_GetStartMonth
 title: Integer GetStartMonth()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Integer GetStartMonth()
-intellisense: 1
-classref: 1
-keywords: GetStartMonth()
+intellisense: NSTimeZoneRule.GetStartMonth
+keywords: NSTimeZoneRule, GetStartMonth
+so.topic: reference
 ---
-
 
 Custom DST start month, if 0 then parse startRule
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTimeZoneRule thing;
+Integer startMonth  = thing.GetStartMonth();
+```
 
 

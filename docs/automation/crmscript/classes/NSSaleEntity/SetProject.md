@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetProject
+title: SetProject(Project project)
+intellisense: NSSaleEntity.SetProject
+keywords: NSSaleEntity, GetProject
+so.topic: reference
 ---
-title: Void SetProject(NSProject Project)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetProject(NSProject p_0)
-intellisense: 1
-classref: 1
-keywords: SetProject(NSProject)
----
-
 
 A sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required.
 
+**Parameter:** 
+ - **project** Project
 
-
-* **Project:** Project
-* **Returns:** Project
-
+```crmscript
+NSSaleEntity thing;
+Project project;
+thing.SetProject(project);
+```
 

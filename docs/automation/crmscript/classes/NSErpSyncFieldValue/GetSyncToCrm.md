@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncFieldValue_GetSyncToCrm
 title: Bool GetSyncToCrm()
-path: /EJScript/Classes/NSErpSyncFieldValue/Member functions/Bool GetSyncToCrm()
-intellisense: 1
-classref: 1
-sortOrder: 3325
-keywords: GetSyncToCrm()
+intellisense: NSErpSyncFieldValue.GetSyncToCrm
+keywords: NSErpSyncFieldValue, GetSyncToCrm
+so.topic: reference
 ---
-
 
 Should value changes in ERP be automatically transferred to CRM
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSErpSyncFieldValue thing;
+Bool syncToCrm  = thing.GetSyncToCrm();
+```
 
 

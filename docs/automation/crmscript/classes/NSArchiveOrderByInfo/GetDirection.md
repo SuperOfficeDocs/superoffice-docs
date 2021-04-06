@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveOrderByInfo_GetDirection
 title: Integer GetDirection()
-path: /EJScript/Classes/NSArchiveOrderByInfo/Member functions/Integer GetDirection()
-intellisense: 1
-classref: 1
-sortOrder: 1196
-keywords: GetDirection()
+intellisense: NSArchiveOrderByInfo.GetDirection
+keywords: NSArchiveOrderByInfo, GetDirection
+so.topic: reference
 ---
-
 
 Direction to order.
 
+**Returns:** Integer
 
+     - Enum: 0 = ASC 
+     - Enum: 1 = DESC 
 
-* **Returns:** Integer
+```crmscript
+NSArchiveOrderByInfo thing;
+Integer direction  = thing.GetDirection();
+```
 
 

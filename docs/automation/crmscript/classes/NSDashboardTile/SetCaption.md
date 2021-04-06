@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_SetCaption
+title: SetCaption(String caption)
+intellisense: NSDashboardTile.SetCaption
+keywords: NSDashboardTile, GetCaption
+so.topic: reference
 ---
-title: Void SetCaption(String Caption)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetCaption(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2303
-keywords: SetCaption(String)
----
-
 
 The tile caption
 
+**Parameter:** 
+ - **caption** String
 
-
-* **Caption:** String
-* **Returns:** String
-
+```crmscript
+NSDashboardTile thing;
+String caption;
+thing.SetCaption(caption);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetSupplier
+title: SetSupplier(String supplier)
+intellisense: NSProduct.SetSupplier
+keywords: NSProduct, GetSupplier
+so.topic: reference
 ---
-title: Void SetSupplier(String Supplier)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetSupplier(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSupplier(String)
----
-
 
 In SuperOffice, an id from the contact table, when saved as an ERP cache, the name of the supplier
 
+**Parameter:** 
+ - **supplier** String
 
-
-* **Supplier:** String
-* **Returns:** String
-
+```crmscript
+NSProduct thing;
+String supplier;
+thing.SetSupplier(supplier);
+```
 

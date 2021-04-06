@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSCRMScriptAgent_GetCRMScriptEntity
+title: NSCRMScriptEntity GetCRMScriptEntity(Integer cRMScriptEntityId);
+intellisense: NSCRMScriptAgent.GetCRMScriptEntity
+keywords: NSCRMScriptAgent, GetCRMScriptEntity
+so.topic: reference
 ---
-title: NSCRMScriptEntity GetCRMScriptEntity(Integer cRMScriptEntityId)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/NSCRMScriptEntity GetCRMScriptEntity(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2115
-keywords: GetCRMScriptEntity(Integer)
----
 
+Gets a NSCRMScriptEntity object.
 
-Gets a CRMScriptEntity object.
+**Parameters:**
+ - **cRMScriptEntityId** The identifier of the NSCRMScriptEntity object
 
+**Returns:** NSCRMScriptEntity
 
-
-* **cRMScriptEntityId:** The identifier of the CRMScriptEntity object
-* **Returns:** CRMScriptEntity
-
+```crmscript
+NSCRMScriptAgent agent;
+NSCRMScriptEntity thing = agent.GetCRMScriptEntity(123);
+```
 

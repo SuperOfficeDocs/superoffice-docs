@@ -1,16 +1,25 @@
----
+﻿---
+uid: crmscript_ref_NSModuleLicense_GetAllowedUserType
 title: Integer GetAllowedUserType()
-path: /EJScript/Classes/NSModuleLicense/Member functions/Integer GetAllowedUserType()
-intellisense: 1
-classref: 1
-keywords: GetAllowedUserType()
+intellisense: NSModuleLicense.GetAllowedUserType
+keywords: NSModuleLicense, GetAllowedUserType
+so.topic: reference
 ---
 
+Allowed associate type for user licenses: internal(0), external(4). 
 
-Allowed associate type for user licenses: `internal(0)`, `external(4)`.
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 
-
-* **Returns:** Integer
+```crmscript
+NSModuleLicense thing;
+Integer allowedUserType  = thing.GetAllowedUserType();
+```
 
 

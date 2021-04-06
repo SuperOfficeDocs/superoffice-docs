@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreference_GetRawValue
 title: String GetRawValue()
-path: /EJScript/Classes/NSPreference/Member functions/String GetRawValue()
-intellisense: 1
-classref: 1
-keywords: GetRawValue()
+intellisense: NSPreference.GetRawValue
+keywords: NSPreference, GetRawValue
+so.topic: reference
 ---
-
 
 Preference value
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPreference thing;
+String rawValue  = thing.GetRawValue();
+```
 
 

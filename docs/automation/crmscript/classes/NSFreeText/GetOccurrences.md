@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFreeText_GetOccurrences
 title: Integer GetOccurrences()
-path: /EJScript/Classes/NSFreeText/Member functions/Integer GetOccurrences()
-intellisense: 1
-classref: 1
-sortOrder: 3857
-keywords: GetOccurrences()
+intellisense: NSFreeText.GetOccurrences
+keywords: NSFreeText, GetOccurrences
+so.topic: reference
 ---
-
 
 Total count of search words
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFreeText thing;
+Integer occurrences  = thing.GetOccurrences();
+```
 
 

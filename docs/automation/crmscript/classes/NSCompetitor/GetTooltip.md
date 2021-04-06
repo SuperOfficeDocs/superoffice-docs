@@ -1,13 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSCompetitor_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSCompetitor/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 1581
-keywords: GetTooltip()
+intellisense: NSCompetitor.GetTooltip
+keywords: NSCompetitor, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the Competitor list item.
 
-* **Returns:** String
+**Returns:** String Competitor tooltip description.
+
+```crmscript
+NSCompetitor thing;
+String descr = thing.GetTooltip();
+```
 
 

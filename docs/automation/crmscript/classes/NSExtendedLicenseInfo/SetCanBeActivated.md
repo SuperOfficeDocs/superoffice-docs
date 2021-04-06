@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtendedLicenseInfo_SetCanBeActivated
+title: SetCanBeActivated(Bool canBeActivated)
+intellisense: NSExtendedLicenseInfo.SetCanBeActivated
+keywords: NSExtendedLicenseInfo, GetCanBeActivated
+so.topic: reference
 ---
-title: Void SetCanBeActivated(Bool CanBeActivated)
-path: /EJScript/Classes/NSExtendedLicenseInfo/Member functions/Void SetCanBeActivated(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3410
-keywords: SetCanBeActivated(Bool)
----
 
 
-* **CanBeActivated:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **canBeActivated** Bool
+
+```crmscript
+NSExtendedLicenseInfo thing;
+Bool canBeActivated;
+thing.SetCanBeActivated(canBeActivated);
+```
 

@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSArchiveAgent_GetActivityFilter
+title: ActivityFilter GetActivityFilter()
+intellisense: NSArchiveAgent.GetActivityFilter
+keywords: NSArchiveAgent, GetActivityFilter
+so.topic: reference
 ---
-title: NSActivityFilter GetActivityFilter()
-path: /EJScript/Classes/NSArchiveAgent/Member functions/NSActivityFilter GetActivityFilter()
-intellisense: 1
-classref: 1
-sortOrder: 1101
-keywords: GetActivityFilter()
----
-
 
 Get activity filter for the specified list.
 
 
+**Returns:** The activity filter for the specified list
 
-* **Returns:** The activity filter for the specified list
-
+```crmscript
+NSArchiveAgent agent;
+ActivityFilter res = agent.GetActivityFilter();
+```
 

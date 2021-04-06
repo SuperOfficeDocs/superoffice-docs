@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListPreferences_GetSearchDepartment
 title: Bool GetSearchDepartment()
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Bool GetSearchDepartment()
-intellisense: 1
-classref: 1
-keywords: GetSearchDepartment()
+intellisense: NSPhoneListPreferences.GetSearchDepartment
+keywords: NSPhoneListPreferences, GetSearchDepartment
+so.topic: reference
 ---
-
 
 True if you want to search for Departments where your colleagues work.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSPhoneListPreferences thing;
+Bool searchDepartment  = thing.GetSearchDepartment();
+```
 
 

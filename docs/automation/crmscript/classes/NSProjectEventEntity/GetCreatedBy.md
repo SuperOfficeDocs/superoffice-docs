@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetCreatedBy
+title: Associate GetCreatedBy()
+intellisense: NSProjectEventEntity.GetCreatedBy
+keywords: NSProjectEventEntity, GetCreatedBy
+so.topic: reference
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
-keywords: GetCreatedBy()
----
-
 
 The person that created the projectevent
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSProjectEventEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
 
 

@@ -1,10 +1,10 @@
 ---
-title: Byte[] GetImage()
-path: /EJScript/Classes/NSImage/Member functions/Byte[] GetImage()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSImage_GetImage
+title: NSImage.GetImage()
+intellisense: NSImage.GetImage
 sortOrder: 3950
 keywords: GetImage()
+so.topic: reference
 ---
 
 

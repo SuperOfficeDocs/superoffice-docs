@@ -1,9 +1,9 @@
 ---
 description: String buildUrl()
-path: /EJScript/Global functions/String buildUrl()
-intellisense: 1
+intellisense: Void.buildUrl
 langref: 1
 keywords: buildUrl()
+so.topic: reference
 ---
 
 

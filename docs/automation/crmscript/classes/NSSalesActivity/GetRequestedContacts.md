@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSalesActivity_GetRequestedContacts
+title: ContactArray GetRequestedContacts()
+intellisense: NSSalesActivity.GetRequestedContacts
+keywords: NSSalesActivity, GetRequestedContacts
+so.topic: reference
 ---
-title: NSContact[] GetRequestedContacts()
-path: /EJScript/Classes/NSSalesActivity/Member functions/NSContact[] GetRequestedContacts()
-intellisense: 1
-classref: 1
-keywords: GetRequestedContacts()
----
-
 
 The companies that match the request
 
+**Returns:** ContactArray
 
 
-* **Returns:** ContactArray
+```crmscript
+NSSalesActivity thing;
+ContactArray requestedContacts  = thing.GetRequestedContacts();
+```
 
 

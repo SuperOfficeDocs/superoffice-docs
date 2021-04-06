@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSViewStateAgent_SaveCurrents
+title: HistoryArray SaveCurrents(HistoryArray currents)
+intellisense: NSViewStateAgent.SaveCurrents
+keywords: NSViewStateAgent, SaveCurrents
+so.topic: reference
 ---
-title: NSHistory[] SaveCurrents(NSHistory[] currents)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] SaveCurrents(NSHistory[] p_0)
-intellisense: 1
-classref: 1
-keywords: SaveCurrents(NSHistory[])
----
-
 
 Saves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.
 
+**Parameters:**
+ - **currents** Array of new history items to save.
 
+**Returns:** Array of the saved History items
 
-* **currents:** Array of new history items to save.
-* **Returns:** Array of the saved History items
-
+```crmscript
+NSViewStateAgent agent;
+HistoryArray currents;
+HistoryArray res = agent.SaveCurrents(currents);
+```
 

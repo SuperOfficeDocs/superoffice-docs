@@ -1,17 +1,25 @@
+﻿---
+uid: crmscript_ref_NSSale_SetStatus
+title: SetStatus(Integer status)
+intellisense: NSSale.SetStatus
+keywords: NSSale, GetStatus
+so.topic: reference
 ---
-title: Void SetStatus(Integer Status)
-path: /EJScript/Classes/NSSale/Member functions/Void SetStatus(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetStatus(Integer)
----
-
 
 The sale's status, indicating wether the sale is open, sold or lost.
 
+**Parameter:** 
+ - **status** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Open 
+     - Enum: 2 = Sold 
+     - Enum: 3 = Lost 
+     - Enum: 4 = Stalled 
+     - Enum: 1000 = SaintAll 
 
-
-* **Status:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSale thing;
+Integer status;
+thing.SetStatus(status);
+```
 

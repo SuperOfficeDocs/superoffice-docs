@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResourceOverride_SetIsActive
+title: SetIsActive(Bool isActive)
+intellisense: NSResourceOverride.SetIsActive
+keywords: NSResourceOverride, GetIsActive
+so.topic: reference
 ---
-title: Void SetIsActive(Bool IsActive)
-path: /EJScript/Classes/NSResourceOverride/Member functions/Void SetIsActive(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsActive(Bool)
----
-
 
 Is this override active
 
+**Parameter:** 
+ - **isActive** Bool
 
-
-* **IsActive:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSResourceOverride thing;
+Bool isActive;
+thing.SetIsActive(isActive);
+```
 

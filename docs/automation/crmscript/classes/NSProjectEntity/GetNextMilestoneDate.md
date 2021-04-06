@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetNextMilestoneDate
 title: DateTime GetNextMilestoneDate()
-path: /EJScript/Classes/NSProjectEntity/Member functions/DateTime GetNextMilestoneDate()
-intellisense: 1
-classref: 1
-keywords: GetNextMilestoneDate()
+intellisense: NSProjectEntity.GetNextMilestoneDate
+keywords: NSProjectEntity, GetNextMilestoneDate
+so.topic: reference
 ---
-
 
 Calculated date, reflects date of closest non-complete future milestone activity
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSProjectEntity thing;
+DateTime nextMilestoneDate  = thing.GetNextMilestoneDate();
+```
 
 

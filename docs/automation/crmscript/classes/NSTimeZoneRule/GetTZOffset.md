@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneRule_GetTZOffset
 title: Integer GetTZOffset()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Integer GetTZOffset()
-intellisense: 1
-classref: 1
-keywords: GetTZOffset()
+intellisense: NSTimeZoneRule.GetTZOffset
+keywords: NSTimeZoneRule, GetTZOffset
+so.topic: reference
 ---
-
 
 Number of minutes bias relative to UTC time
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTimeZoneRule thing;
+Integer tZOffset  = thing.GetTZOffset();
+```
 
 

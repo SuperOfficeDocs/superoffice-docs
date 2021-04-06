@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSalesActivity_SetRequestedPerson
+title: SetRequestedPerson(Person requestedPerson)
+intellisense: NSSalesActivity.SetRequestedPerson
+keywords: NSSalesActivity, GetRequestedPerson
+so.topic: reference
 ---
-title: Void SetRequestedPerson(NSPerson RequestedPerson)
-path: /EJScript/Classes/NSSalesActivity/Member functions/Void SetRequestedPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
-keywords: SetRequestedPerson(NSPerson)
----
-
 
 The person that matches the request.
 
+**Parameter:** 
+ - **requestedPerson** Person
 
-
-* **RequestedPerson:** Person
-* **Returns:** Person
-
+```crmscript
+NSSalesActivity thing;
+Person requestedPerson;
+thing.SetRequestedPerson(requestedPerson);
+```
 

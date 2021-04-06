@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetSignOnConfirmationText
 title: String GetSignOnConfirmationText()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/String GetSignOnConfirmationText()
-intellisense: 1
-classref: 1
-keywords: GetSignOnConfirmationText()
+intellisense: NSProjectEventEntity.GetSignOnConfirmationText
+keywords: NSProjectEventEntity, GetSignOnConfirmationText
+so.topic: reference
 ---
-
 
 Text shown as confirmation text before accepting sign on.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProjectEventEntity thing;
+String signOnConfirmationText  = thing.GetSignOnConfirmationText();
+```
 
 

@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_NSCarrier
 title: NSCarrier
-path: /EJScript/Classes/NSCarrier
-intellisense: 1
-classref: 1
+intellisense: Void.NSCarrier
 sortOrder: 1484
+so.topic: reference
 ---
 
 

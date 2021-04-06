@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListItem_GetPersonPagerNumber
 title: String GetPersonPagerNumber()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetPersonPagerNumber()
-intellisense: 1
-classref: 1
-keywords: GetPersonPagerNumber()
+intellisense: NSPhoneListItem.GetPersonPagerNumber
+keywords: NSPhoneListItem, GetPersonPagerNumber
+so.topic: reference
 ---
-
 
 Actual phone number as eneterd by the user
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPhoneListItem thing;
+String personPagerNumber  = thing.GetPersonPagerNumber();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPluginResponse_GetIsOk
 title: Bool GetIsOk()
-path: /EJScript/Classes/NSPluginResponse/Member functions/Bool GetIsOk()
-intellisense: 1
-classref: 1
-keywords: GetIsOk()
+intellisense: NSPluginResponse.GetIsOk
+keywords: NSPluginResponse, GetIsOk
+so.topic: reference
 ---
-
 
 Answer to the question / An indication if the operation went well.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSPluginResponse thing;
+Bool isOk  = thing.GetIsOk();
+```
 
 

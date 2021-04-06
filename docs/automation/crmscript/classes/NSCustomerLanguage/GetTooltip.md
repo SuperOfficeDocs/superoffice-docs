@@ -1,13 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerLanguage_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSCustomerLanguage/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 2214
-keywords: GetTooltip()
+intellisense: NSCustomerLanguage.GetTooltip
+keywords: NSCustomerLanguage, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the CustomerLanguage list item.
 
-* **Returns:** String
+**Returns:** String CustomerLanguage tooltip description.
+
+```crmscript
+NSCustomerLanguage thing;
+String descr = thing.GetTooltip();
+```
 
 

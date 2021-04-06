@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionButtonState_GetTooltipText
 title: String GetTooltipText()
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/String GetTooltipText()
-intellisense: 1
-classref: 1
-keywords: GetTooltipText()
+intellisense: NSQuoteVersionButtonState.GetTooltipText
+keywords: NSQuoteVersionButtonState, GetTooltipText
+so.topic: reference
 ---
-
 
 The tooltip for the button
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersionButtonState thing;
+String tooltipText  = thing.GetTooltipText();
+```
 
 

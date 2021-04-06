@@ -1,9 +1,9 @@
 ---
-title: Void SaveProjectEventEntity(NSProjectEventEntity projectEventEntity)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Void SaveProjectEventEntity(NSProjectEventEntity p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSProjectAgent_SaveProjectEventEntity_NSProjectEventEntity_p_0
+title: NSProjectAgent.SaveProjectEventEntity(NSProjectEventEntity p_0)
+intellisense: NSProjectAgent.SaveProjectEventEntity
 keywords: SaveProjectEventEntity(NSProjectEventEntity)
+so.topic: reference
 ---
 
 

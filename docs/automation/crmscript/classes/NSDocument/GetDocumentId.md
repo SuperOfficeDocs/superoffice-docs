@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetDocumentId
 title: Integer GetDocumentId()
-path: /EJScript/Classes/NSDocument/Member functions/Integer GetDocumentId()
-intellisense: 1
-classref: 1
-sortOrder: 2432
-keywords: GetDocumentId()
+intellisense: NSDocument.GetDocumentId
+keywords: NSDocument, GetDocumentId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDocument thing;
+Integer documentId  = thing.GetDocumentId();
+```
 
 

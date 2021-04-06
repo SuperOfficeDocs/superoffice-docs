@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebAppUsage_GetWebAppUsageId
 title: Integer GetWebAppUsageId()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Integer GetWebAppUsageId()
-intellisense: 1
-classref: 1
-keywords: GetWebAppUsageId()
+intellisense: NSWebAppUsage.GetWebAppUsageId
+keywords: NSWebAppUsage, GetWebAppUsageId
+so.topic: reference
 ---
-
 
 Primary Key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWebAppUsage thing;
+Integer webAppUsageId  = thing.GetWebAppUsageId();
+```
 
 

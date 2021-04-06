@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSReasonSold
 title: NSReasonSold
-path: /EJScript/Classes/NSReasonSold
-intellisense: 1
-classref: 1
+intellisense: Void.NSReasonSold
+keywords: NSReasonSold
+so.topic: reference
 ---
-
 
 Reason for a succesfully sold sale
 
-
-
-
-1. autolist
+1. autolist 
 

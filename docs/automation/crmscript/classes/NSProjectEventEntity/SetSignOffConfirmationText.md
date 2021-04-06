@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetSignOffConfirmationText
+title: SetSignOffConfirmationText(String signOffConfirmationText)
+intellisense: NSProjectEventEntity.SetSignOffConfirmationText
+keywords: NSProjectEventEntity, GetSignOffConfirmationText
+so.topic: reference
 ---
-title: Void SetSignOffConfirmationText(String SignOffConfirmationText)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetSignOffConfirmationText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOffConfirmationText(String)
----
-
 
 Text shown as confirmation text before accepting sign off.
 
+**Parameter:** 
+ - **signOffConfirmationText** String
 
-
-* **SignOffConfirmationText:** String
-* **Returns:** String
-
+```crmscript
+NSProjectEventEntity thing;
+String signOffConfirmationText;
+thing.SetSignOffConfirmationText(signOffConfirmationText);
+```
 

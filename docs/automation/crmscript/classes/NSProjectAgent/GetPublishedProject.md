@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetPublishedProject
+title: Project GetPublishedProject(Integer projectId)
+intellisense: NSProjectAgent.GetPublishedProject
+keywords: NSProjectAgent, GetPublishedProject
+so.topic: reference
 ---
-title: NSProject GetPublishedProject(Integer projectId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject GetPublishedProject(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPublishedProject(Integer)
----
-
 
 Get published project by project id.
 
+**Parameters:**
+ - **projectId** The project id.
 
+**Returns:** Project
 
-* **projectId:** The project id.
-* **Returns:** Project
-
+```crmscript
+NSProjectAgent agent;
+Integer projectId;
+Project res = agent.GetPublishedProject(projectId);
+```
 

@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSReportEntity
 title: NSReportEntity
-path: /EJScript/Classes/NSReportEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSReportEntity
+keywords: NSReportEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

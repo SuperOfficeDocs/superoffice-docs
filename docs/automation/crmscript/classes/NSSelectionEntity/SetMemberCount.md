@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetMemberCount
+title: SetMemberCount(Integer memberCount)
+intellisense: NSSelectionEntity.SetMemberCount
+keywords: NSSelectionEntity, GetMemberCount
+so.topic: reference
 ---
-title: Void SetMemberCount(Integer MemberCount)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetMemberCount(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetMemberCount(Integer)
----
 
+How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know
 
-How many selectionmembers (for progress bar calculations)
+**Parameter:** 
+ - **memberCount** Integer
 
-
-
-* **MemberCount:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectionEntity thing;
+Integer memberCount;
+thing.SetMemberCount(memberCount);
+```
 

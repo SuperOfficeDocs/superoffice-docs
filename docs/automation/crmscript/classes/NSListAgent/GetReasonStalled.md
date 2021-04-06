@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetReasonStalled
+title: NSReasonStalled GetReasonStalled(Integer reasonStalledId);
+intellisense: NSListAgent.GetReasonStalled
+keywords: NSListAgent, GetReasonStalled
+so.topic: reference
 ---
-title: NSReasonStalled GetReasonStalled(Integer reasonStalledId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSReasonStalled GetReasonStalled(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetReasonStalled(Integer)
----
 
+Gets a NSReasonStalled object.
 
-Gets a ReasonStalled object.
+**Parameters:**
+ - **reasonStalledId** The identifier of the NSReasonStalled object
 
+**Returns:** NSReasonStalled
 
-
-* **reasonStalledId:** The identifier of the ReasonStalled object
-* **Returns:** ReasonStalled
-
+```crmscript
+NSListAgent agent;
+NSReasonStalled thing = agent.GetReasonStalled(123);
+```
 

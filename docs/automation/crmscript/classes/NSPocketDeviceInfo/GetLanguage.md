@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketDeviceInfo_GetLanguage
 title: String GetLanguage()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetLanguage()
-intellisense: 1
-classref: 1
-keywords: GetLanguage()
+intellisense: NSPocketDeviceInfo.GetLanguage
+keywords: NSPocketDeviceInfo, GetLanguage
+so.topic: reference
 ---
-
 
 The language which this device will receive notifications translated in
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPocketDeviceInfo thing;
+String language  = thing.GetLanguage();
+```
 
 

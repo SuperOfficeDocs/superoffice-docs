@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetPriority
+title: SetPriority(Integer priority)
+intellisense: NSTicket.SetPriority
+keywords: NSTicket, GetPriority
+so.topic: reference
 ---
-title: Void SetPriority(Integer Priority)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetPriority(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPriority(Integer)
----
 
+The reference to the ticket_priority table.
 
-The reference to the ticket\_priority table.
+**Parameter:** 
+ - **priority** Integer
 
-
-
-* **Priority:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicket thing;
+Integer priority;
+thing.SetPriority(priority);
+```
 

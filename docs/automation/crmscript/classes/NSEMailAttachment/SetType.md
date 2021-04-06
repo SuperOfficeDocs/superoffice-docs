@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAttachment_SetType
+title: SetType(String type)
+intellisense: NSEMailAttachment.SetType
+keywords: NSEMailAttachment, GetType
+so.topic: reference
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSEMailAttachment/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2907
-keywords: SetType(String)
----
-
 
 Attachment Content-Type
 
+**Parameter:** 
+ - **type** String
 
-
-* **Type:** String
-* **Returns:** String
-
+```crmscript
+NSEMailAttachment thing;
+String type;
+thing.SetType(type);
+```
 

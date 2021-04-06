@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetIsTemporarySelection
+title: SetIsTemporarySelection(Bool isTemporarySelection)
+intellisense: NSMailMergeSettings.SetIsTemporarySelection
+keywords: NSMailMergeSettings, GetIsTemporarySelection
+so.topic: reference
 ---
-title: Void SetIsTemporarySelection(Bool IsTemporarySelection)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetIsTemporarySelection(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsTemporarySelection(Bool)
----
-
 
 If true, the selection is a temporary selection that can be deleted later.
 
+**Parameter:** 
+ - **isTemporarySelection** Bool
 
-
-* **IsTemporarySelection:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSMailMergeSettings thing;
+Bool isTemporarySelection;
+thing.SetIsTemporarySelection(isTemporarySelection);
+```
 

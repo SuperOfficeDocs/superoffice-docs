@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAccount_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSEMailAccount.SetAssociateId
+keywords: NSEMailAccount, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSEMailAccount/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2753
-keywords: SetAssociateId(Integer)
----
-
 
 Id of the associate who owns this account
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailAccount thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

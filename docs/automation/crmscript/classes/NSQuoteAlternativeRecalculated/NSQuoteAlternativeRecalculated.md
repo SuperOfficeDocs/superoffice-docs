@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAlternativeRecalculated
 title: NSQuoteAlternativeRecalculated
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuoteAlternativeRecalculated
+keywords: NSQuoteAlternativeRecalculated
+so.topic: reference
 ---
-
 
 The QuoteAlternativeRecalculated is returned after a call to RecalculateQuoteAlternative. It contains flags indicating changes to quote alternative and quote lines.
 
-
-
-
-1. autolist
+1. autolist 
 

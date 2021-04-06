@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_GetValues
+title: StringArray GetValues()
+intellisense: NSFieldValueInfo.GetValues
+keywords: NSFieldValueInfo, GetValues
+so.topic: reference
 ---
-title: String[] GetValues()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String[] GetValues()
-intellisense: 1
-classref: 1
-sortOrder: 3633
-keywords: GetValues()
----
-
 
 The values to be set on this field on this bulkupdate
 
+**Returns:** StringArray
 
 
-* **Returns:** StringArray
+```crmscript
+NSFieldValueInfo thing;
+StringArray values  = thing.GetValues();
+```
 
 

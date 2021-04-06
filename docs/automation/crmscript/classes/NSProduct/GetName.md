@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetName
 title: String GetName()
-path: /EJScript/Classes/NSProduct/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSProduct.GetName
+keywords: NSProduct, GetName
+so.topic: reference
 ---
-
 
 The name to use in the user interface.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProduct thing;
+String name  = thing.GetName();
+```
 
 

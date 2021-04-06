@@ -1,10 +1,10 @@
 ---
-title: Integer GetMask()
-path: /EJScript/Classes/NSFieldRight/Member functions/Integer GetMask()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSFieldRight_GetMask
+title: NSFieldRight.GetMask()
+intellisense: NSFieldRight.GetMask
 sortOrder: 3610
 keywords: GetMask()
+so.topic: reference
 ---
 
 

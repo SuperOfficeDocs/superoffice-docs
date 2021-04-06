@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetHasOwnDeliveryAddress
+title: SetHasOwnDeliveryAddress(Bool hasOwnDeliveryAddress)
+intellisense: NSQuoteVersion.SetHasOwnDeliveryAddress
+keywords: NSQuoteVersion, GetHasOwnDeliveryAddress
+so.topic: reference
 ---
-title: Void SetHasOwnDeliveryAddress(Bool HasOwnDeliveryAddress)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetHasOwnDeliveryAddress(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetHasOwnDeliveryAddress(Bool)
----
-
 
 The delivery address is not the same as the contact's Street address
 
+**Parameter:** 
+ - **hasOwnDeliveryAddress** Bool
 
-
-* **HasOwnDeliveryAddress:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteVersion thing;
+Bool hasOwnDeliveryAddress;
+thing.SetHasOwnDeliveryAddress(hasOwnDeliveryAddress);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetPreferredTZLocation
+title: SetPreferredTZLocation(Integer preferredTZLocation)
+intellisense: NSAppointmentEntity.SetPreferredTZLocation
+keywords: NSAppointmentEntity, GetPreferredTZLocation
+so.topic: reference
 ---
-title: Void SetPreferredTZLocation(Integer PreferredTZLocation)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetPreferredTZLocation(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1019
-keywords: SetPreferredTZLocation(Integer)
----
-
 
 Appoinmtments preferred timezone location.
 
+**Parameter:** 
+ - **preferredTZLocation** Integer
 
-
-* **PreferredTZLocation:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointmentEntity thing;
+Integer preferredTZLocation;
+thing.SetPreferredTZLocation(preferredTZLocation);
+```
 

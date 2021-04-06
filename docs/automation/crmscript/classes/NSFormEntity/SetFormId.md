@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetFormId
+title: SetFormId(Integer formId)
+intellisense: NSFormEntity.SetFormId
+keywords: NSFormEntity, GetFormId
+so.topic: reference
 ---
-title: Void SetFormId(Integer FormId)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetFormId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3812
-keywords: SetFormId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **formId** Integer
 
-
-* **FormId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFormEntity thing;
+Integer formId;
+thing.SetFormId(formId);
+```
 

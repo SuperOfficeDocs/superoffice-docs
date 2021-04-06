@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_GetFieldName
 title: String GetFieldName()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/String GetFieldName()
-intellisense: 1
-classref: 1
-sortOrder: 3471
-keywords: GetFieldName()
+intellisense: NSFieldInfoBase.GetFieldName
+keywords: NSFieldInfoBase, GetFieldName
+so.topic: reference
 ---
 
+Database name or prog-id: 'x_foobar' or 'SuperOffice:2'.
 
-Database name or prog-id: 'x\_foobar' or 'SuperOffice:2'.
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSFieldInfoBase thing;
+String fieldName  = thing.GetFieldName();
+```
 
 

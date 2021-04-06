@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternativeRecalculated_SetQuoteLinesHasChanged
+title: SetQuoteLinesHasChanged(Bool quoteLinesHasChanged)
+intellisense: NSQuoteAlternativeRecalculated.SetQuoteLinesHasChanged
+keywords: NSQuoteAlternativeRecalculated, GetQuoteLinesHasChanged
+so.topic: reference
 ---
-title: Void SetQuoteLinesHasChanged(Bool QuoteLinesHasChanged)
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/Void SetQuoteLinesHasChanged(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetQuoteLinesHasChanged(Bool)
----
-
 
 If true any of the quotelines for the alternative has been changed.
 
+**Parameter:** 
+ - **quoteLinesHasChanged** Bool
 
-
-* **QuoteLinesHasChanged:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteAlternativeRecalculated thing;
+Bool quoteLinesHasChanged;
+thing.SetQuoteLinesHasChanged(quoteLinesHasChanged);
+```
 

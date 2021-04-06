@@ -1,10 +1,10 @@
 ---
-title: Void addDateTime(String name, DateTime value)
-path: /EJScript/Classes/DBWrite/Member functions/Void addDateTime(String name, DateTime value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DBWrite_addDateTime_String_name_DateTime_value
+title: DBWrite.addDateTime(String name, DateTime value)
+intellisense: DBWrite.addDateTime
 sortOrder: 264
 keywords: addDateTime(String,DateTime)
+so.topic: reference
 ---
 
 

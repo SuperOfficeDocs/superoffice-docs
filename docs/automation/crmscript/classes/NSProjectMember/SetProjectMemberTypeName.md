@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetProjectMemberTypeName
+title: SetProjectMemberTypeName(String projectMemberTypeName)
+intellisense: NSProjectMember.SetProjectMemberTypeName
+keywords: NSProjectMember, GetProjectMemberTypeName
+so.topic: reference
 ---
-title: Void SetProjectMemberTypeName(String ProjectMemberTypeName)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetProjectMemberTypeName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectMemberTypeName(String)
----
-
 
 The projectmembers type name: 'secretary', 'member', etc.
 
+**Parameter:** 
+ - **projectMemberTypeName** String
 
-
-* **ProjectMemberTypeName:** String
-* **Returns:** String
-
+```crmscript
+NSProjectMember thing;
+String projectMemberTypeName;
+thing.SetProjectMemberTypeName(projectMemberTypeName);
+```
 

@@ -1,9 +1,9 @@
 ---
 description: String getProgramChat()
-path: /EJScript/Global functions/String getProgramChat()
-intellisense: 1
+intellisense: Void.getProgramChat
 langref: 1
 keywords: getProgramChat()
+so.topic: reference
 ---
 
 

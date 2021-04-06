@@ -1,16 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetCompleted
 title: Integer GetCompleted()
-path: /EJScript/Classes/NSSale/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
-keywords: GetCompleted()
+intellisense: NSSale.GetCompleted
+keywords: NSSale, GetCompleted
+so.topic: reference
 ---
-
 
 The Sale completed state. The completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field.
 
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 
-* **Returns:** Integer
+```crmscript
+NSSale thing;
+Integer completed  = thing.GetCompleted();
+```
 
 

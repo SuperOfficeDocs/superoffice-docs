@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_GetEMailAccount
+title: NSEMailAccount GetEMailAccount(Integer eMailAccountId);
+intellisense: NSEMailAgent.GetEMailAccount
+keywords: NSEMailAgent, GetEMailAccount
+so.topic: reference
 ---
-title: NSEMailAccount GetEMailAccount(Integer eMailAccountId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAccount GetEMailAccount(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2796
-keywords: GetEMailAccount(Integer)
----
 
+Gets a NSEMailAccount object.
 
-Gets a EMailAccount object.
+**Parameters:**
+ - **eMailAccountId** The identifier of the NSEMailAccount object
 
+**Returns:** NSEMailAccount
 
-
-* **eMailAccountId:** The identifier of the EMailAccount object
-* **Returns:** EMailAccount
-
+```crmscript
+NSEMailAgent agent;
+NSEMailAccount thing = agent.GetEMailAccount(123);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetOwnedBy
+title: SetOwnedBy(Associate ownedBy)
+intellisense: NSTicketEntity.SetOwnedBy
+keywords: NSTicketEntity, GetOwnedBy
+so.topic: reference
 ---
-title: Void SetOwnedBy(NSAssociate OwnedBy)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetOwnedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwnedBy(NSAssociate)
----
-
 
 The associate who owns this ticket
 
+**Parameter:** 
+ - **ownedBy** Associate
 
-
-* **OwnedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSTicketEntity thing;
+Associate ownedBy;
+thing.SetOwnedBy(ownedBy);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetRegistered
 title: DateTime GetRegistered()
-path: /EJScript/Classes/NSFormEntity/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
-sortOrder: 3787
-keywords: GetRegistered()
+intellisense: NSFormEntity.GetRegistered
+keywords: NSFormEntity, GetRegistered
+so.topic: reference
 ---
-
 
 Registered when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSFormEntity thing;
+DateTime registered  = thing.GetRegistered();
+```
 
 

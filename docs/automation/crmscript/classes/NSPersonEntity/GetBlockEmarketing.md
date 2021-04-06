@@ -1,9 +1,9 @@
 ---
-title: Integer GetBlockEmarketing()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetBlockEmarketing()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSPersonEntity_GetBlockEmarketing
+title: NSPersonEntity.GetBlockEmarketing()
+intellisense: NSPersonEntity.GetBlockEmarketing
 keywords: GetBlockEmarketing()
+so.topic: reference
 ---
 
 

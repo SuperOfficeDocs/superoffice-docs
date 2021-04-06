@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSReportAgent_SaveReportEntity
+title: NSReportEntity SaveReportEntity(NSReportEntity reportEntity);
+intellisense: NSReportAgent.SaveReportEntity
+keywords: NSReportAgent, SaveReportEntity
+so.topic: reference
 ---
-title: NSReportEntity SaveReportEntity(NSReportEntity reportEntity)
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity SaveReportEntity(NSReportEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveReportEntity(NSReportEntity)
----
+	  
+Updates the existing NSReportEntity or creates a new NSReportEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **reportEntity** The NSReportEntity to save.
 
+**Returns:** New or updated NSReportEntity
 
-Updates the existing ReportEntity or creates a new ReportEntity if the id parameter is empty
-
-
-
-* **reportEntity:** The ReportEntity that is saved
-* **Returns:** New or updated ReportEntity
-
+```crmscript
+NSReport  agent;
+NSReportEntity thing = agent.CreateDefaultReportEntity();
+thing = agent.SaveReportEntity(thing);
+```
 

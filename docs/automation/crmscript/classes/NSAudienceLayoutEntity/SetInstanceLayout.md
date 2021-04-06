@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAudienceLayoutEntity_SetInstanceLayout
+title: SetInstanceLayout(String instanceLayout)
+intellisense: NSAudienceLayoutEntity.SetInstanceLayout
+keywords: NSAudienceLayoutEntity, GetInstanceLayout
+so.topic: reference
 ---
-title: Void SetInstanceLayout(String InstanceLayout)
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/Void SetInstanceLayout(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1345
-keywords: SetInstanceLayout(String)
----
-
 
 The web part layout as a serialized string
 
+**Parameter:** 
+ - **instanceLayout** String
 
-
-* **InstanceLayout:** String
-* **Returns:** String
-
+```crmscript
+NSAudienceLayoutEntity thing;
+String instanceLayout;
+thing.SetInstanceLayout(instanceLayout);
+```
 

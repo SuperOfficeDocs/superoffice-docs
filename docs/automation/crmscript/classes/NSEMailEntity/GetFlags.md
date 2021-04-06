@@ -1,23 +1,26 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetFlags
 title: Integer GetFlags()
-path: /EJScript/Classes/NSEMailEntity/Member functions/Integer GetFlags()
-intellisense: 1
-classref: 1
-sortOrder: 2953
-keywords: GetFlags()
+intellisense: NSEMailEntity.GetFlags
+keywords: NSEMailEntity, GetFlags
+so.topic: reference
 ---
-
 
 Flag status of this mail (unread, replied, deleted )
 
-* None=0
-* Seen=1
-* Deleted=2
-* Recent=4
-* Flagged=8
-* Draft=16
-* Answered=32
+**Returns:** Integer
 
-* **Returns:** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Seen 
+     - Enum: 2 = Deleted 
+     - Enum: 4 = Recent 
+     - Enum: 8 = Flagged 
+     - Enum: 16 = Draft 
+     - Enum: 32 = Answered 
+
+```crmscript
+NSEMailEntity thing;
+Integer flags  = thing.GetFlags();
+```
 
 

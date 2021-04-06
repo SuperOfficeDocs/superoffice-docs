@@ -1,10 +1,11 @@
 ---
-title: String GenericToString(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/String GenericToString(Generic generic)
-intellisense: 1
+uid: crmscript_ref_Generic_GenericToString_Generic_generic
+title: Generic.GenericToString(Generic generic)
+intellisense: Generic.GenericToString
 langref: 1
 sortOrder: 130
 keywords: GenericToString(Generic)
+so.topic: reference
 ---
 
 

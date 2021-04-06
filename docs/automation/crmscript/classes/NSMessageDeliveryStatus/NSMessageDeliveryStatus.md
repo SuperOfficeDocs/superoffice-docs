@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSMessageDeliveryStatus
 title: NSMessageDeliveryStatus
-path: /EJScript/Classes/NSMessageDeliveryStatus
-intellisense: 1
-classref: 1
+intellisense: Void.NSMessageDeliveryStatus
+keywords: NSMessageDeliveryStatus
+so.topic: reference
 ---
-
 
 Class used to describe the message status.
 
-
-
-
-1. autolist
+1. autolist 
 

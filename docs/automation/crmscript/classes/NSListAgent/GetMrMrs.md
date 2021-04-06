@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetMrMrs
+title: NSMrMrs GetMrMrs(Integer mrMrsId);
+intellisense: NSListAgent.GetMrMrs
+keywords: NSListAgent, GetMrMrs
+so.topic: reference
 ---
-title: NSMrMrs GetMrMrs(Integer mrMrsId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSMrMrs GetMrMrs(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetMrMrs(Integer)
----
 
+Gets a NSMrMrs object.
 
-Gets a MrMrs object.
+**Parameters:**
+ - **mrMrsId** The identifier of the NSMrMrs object
 
+**Returns:** NSMrMrs
 
-
-* **mrMrsId:** The identifier of the MrMrs object
-* **Returns:** MrMrs
-
+```crmscript
+NSListAgent agent;
+NSMrMrs thing = agent.GetMrMrs(123);
+```
 

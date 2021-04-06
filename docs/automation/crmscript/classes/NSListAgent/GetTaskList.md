@@ -1,14 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTaskList
+title: NSTask[] GetTaskList(Integer[]  taskIds);
+intellisense: NSListAgent.GetTaskList
+keywords: NSListAgent, GetTaskList
+so.topic: reference
 ---
-title: NSTask[] GetTaskList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTask[] GetTaskList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetTaskList(Integer[])
----
 
-Gets an array of Task objects.
+Gets a vector of Task objects.
 
+**Parameters:**
+ - **taskIds** The identifiers of the NSTask objects
 
-* **p0:** IntegerArray of identifiers for Task
-* **Returns:** Array of NSTask
+**Returns:** Vector of NSTask objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetTaskList(ids);
+```
 

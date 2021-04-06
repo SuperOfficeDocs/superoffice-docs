@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetRule
+title: SetRule(String rule)
+intellisense: NSQuoteLine.SetRule
+keywords: NSQuoteLine, GetRule
+so.topic: reference
 ---
-title: Void SetRule(String Rule)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetRule(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetRule(String)
----
-
 
 The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive
 
+**Parameter:** 
+ - **rule** String
 
-
-* **Rule:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLine thing;
+String rule;
+thing.SetRule(rule);
+```
 

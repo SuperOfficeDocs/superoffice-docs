@@ -1,9 +1,9 @@
 ---
 description: String getCurrent(String key)
-path: /EJScript/Global functions/String getCurrent(String key)
-intellisense: 1
+intellisense: Void.getCurrent
 langref: 1
 keywords: getCurrent(String)
+so.topic: reference
 ---
 
 

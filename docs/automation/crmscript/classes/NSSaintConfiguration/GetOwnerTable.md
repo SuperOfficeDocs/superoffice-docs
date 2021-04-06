@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaintConfiguration_GetOwnerTable
 title: Integer GetOwnerTable()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Integer GetOwnerTable()
-intellisense: 1
-classref: 1
-keywords: GetOwnerTable()
+intellisense: NSSaintConfiguration.GetOwnerTable
+keywords: NSSaintConfiguration, GetOwnerTable
+so.topic: reference
 ---
-
 
 The table that is the owning entity
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaintConfiguration thing;
+Integer ownerTable  = thing.GetOwnerTable();
+```
 
 

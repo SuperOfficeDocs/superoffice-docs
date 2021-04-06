@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetReportLabelLayoutId
 title: Integer GetReportLabelLayoutId()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetReportLabelLayoutId()
-intellisense: 1
-classref: 1
-keywords: GetReportLabelLayoutId()
+intellisense: NSReportLabelLayoutEntity.GetReportLabelLayoutId
+keywords: NSReportLabelLayoutEntity, GetReportLabelLayoutId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer reportLabelLayoutId  = thing.GetReportLabelLayoutId();
+```
 
 

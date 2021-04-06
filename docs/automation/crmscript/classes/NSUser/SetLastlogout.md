@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_SetLastlogout
+title: SetLastlogout(DateTime lastlogout)
+intellisense: NSUser.SetLastlogout
+keywords: NSUser, GetLastlogout
+so.topic: reference
 ---
-title: Void SetLastlogout(DateTime Lastlogout)
-path: /EJScript/Classes/NSUser/Member functions/Void SetLastlogout(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetLastlogout(DateTime)
----
-
 
 Last logout date
 
+**Parameter:** 
+ - **lastlogout** DateTime
 
-
-* **Lastlogout:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSUser thing;
+DateTime lastlogout;
+thing.SetLastlogout(lastlogout);
+```
 

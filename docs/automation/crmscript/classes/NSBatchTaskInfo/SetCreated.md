@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetCreated
+title: SetCreated(DateTime created)
+intellisense: NSBatchTaskInfo.SetCreated
+keywords: NSBatchTaskInfo, GetCreated
+so.topic: reference
 ---
-title: Void SetCreated(DateTime Created)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetCreated(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1387
-keywords: SetCreated(DateTime)
----
-
 
 Task creation time.
 
+**Parameter:** 
+ - **created** DateTime
 
-
-* **Created:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSBatchTaskInfo thing;
+DateTime created;
+thing.SetCreated(created);
+```
 

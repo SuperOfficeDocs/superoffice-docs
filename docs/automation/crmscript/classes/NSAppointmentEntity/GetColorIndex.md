@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetColorIndex
 title: Integer GetColorIndex()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Integer GetColorIndex()
-intellisense: 1
-classref: 1
-sortOrder: 943
-keywords: GetColorIndex()
+intellisense: NSAppointmentEntity.GetColorIndex
+keywords: NSAppointmentEntity, GetColorIndex
+so.topic: reference
 ---
-
 
 Appointment colour, used only in Japanese versions. Western versions take colour from Task
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAppointmentEntity thing;
+Integer colorIndex  = thing.GetColorIndex();
+```
 
 

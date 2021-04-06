@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity
 title: NSDiaryViewEntity
-path: /EJScript/Classes/NSDiaryViewEntity
-intellisense: 1
-classref: 1
-sortOrder: 2403
+intellisense: Void.NSDiaryViewEntity
+keywords: NSDiaryViewEntity
+so.topic: reference
 ---
-
 
 The DiaryView Service. The service implements all services working with the DiaryView object.
 
-
-
-
-1. autolist
+1. autolist 
 

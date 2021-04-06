@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_GetIsHidden
 title: Bool GetIsHidden()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Bool GetIsHidden()
-intellisense: 1
-classref: 1
-keywords: GetIsHidden()
+intellisense: NSModuleLicenseLink.GetIsHidden
+keywords: NSModuleLicenseLink, GetIsHidden
+so.topic: reference
 ---
-
 
 Is hidden from UI
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSModuleLicenseLink thing;
+Bool isHidden  = thing.GetIsHidden();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCsFeatureToggle_GetName
 title: String GetName()
-path: /EJScript/Classes/NSCsFeatureToggle/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 2158
-keywords: GetName()
+intellisense: NSCsFeatureToggle.GetName
+keywords: NSCsFeatureToggle, GetName
+so.topic: reference
 ---
-
 
 Name of the feature toggle
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCsFeatureToggle thing;
+String name  = thing.GetName();
+```
 
 

@@ -1,16 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_RebuildFullnames
 title: Void RebuildFullnames()
-path: /EJScript/Classes/NSListAgent/Member functions/Void RebuildFullnames()
-intellisense: 1
-classref: 1
-keywords: RebuildFullnames()
+intellisense: NSListAgent.RebuildFullnames
+keywords: NSListAgent, RebuildFullnames
+so.topic: reference
 ---
-
 
 Update the fullname field of all categories. Use this e.g. when changing parentId or renaming a category with children.
 
 
+**Returns:** This method has no return value
 
-* **Returns:** This method has no return value
-
+```crmscript
+NSListAgent agent;
+Void res = agent.RebuildFullnames();
+```
 

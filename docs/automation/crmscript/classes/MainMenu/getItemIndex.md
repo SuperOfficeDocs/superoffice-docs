@@ -1,10 +1,10 @@
 ---
-title: Integer getItemIndex(Integer p\_group, String p\_itemId)
-path: /EJScript/Classes/MainMenu/Member functions/Integer getItemIndex(Integer p_group, String p_itemId)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MainMenu_getItemIndex_Integer_p_group_String_p_itemId
+title: MainMenu.getItemIndex(Integer p_group, String p_itemId)
+intellisense: MainMenu.getItemIndex
 sortOrder: 505
 keywords: getItemIndex(Integer,String)
+so.topic: reference
 ---
 
 # Integer getItemIndex(Integer group, String label)

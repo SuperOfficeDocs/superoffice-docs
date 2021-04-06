@@ -1,10 +1,10 @@
 ---
-title: DateTime setUnix(Integer number)
-path: /EJScript/Classes/DateTime/Member functions/DateTime setUnix(Integer number)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DateTime_setUnix_Integer_number
+title: DateTime.setUnix(Integer number)
+intellisense: DateTime.setUnix
 sortOrder: 228
 keywords: setUnix(Integer)
+so.topic: reference
 ---
 
 Sets the datetime to the number of the seconds since 01.01.1970 00:00:00

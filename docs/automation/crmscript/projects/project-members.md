@@ -1,6 +1,6 @@
 ---
-title: crmscript_project_members
-description: Project members
+uid: crmscript_project_members
+title: Project members
 author:
 so.date:
 keywords:

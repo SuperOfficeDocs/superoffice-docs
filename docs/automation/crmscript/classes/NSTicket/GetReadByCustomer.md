@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetReadByCustomer
 title: DateTime GetReadByCustomer()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetReadByCustomer()
-intellisense: 1
-classref: 1
-keywords: GetReadByCustomer()
+intellisense: NSTicket.GetReadByCustomer
+keywords: NSTicket, GetReadByCustomer
+so.topic: reference
 ---
-
 
 The datetime for when the ticket was read by the customer.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicket thing;
+DateTime readByCustomer  = thing.GetReadByCustomer();
+```
 
 

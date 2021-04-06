@@ -1,16 +1,22 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetStatus
+title: TicketPriorityStatus GetStatus()
+intellisense: NSTicketPriorityEntity.GetStatus
+keywords: NSTicketPriorityEntity, GetStatus
+so.topic: reference
 ---
-title: NSTicketPriorityStatus GetStatus()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityStatus GetStatus()
-intellisense: 1
-classref: 1
-keywords: GetStatus()
----
-
 
 The status (normal/deleted) of the priority.
 
+**Returns:** TicketPriorityStatus
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Normal 
+     - Enum: 2 = Deleted 
 
-* **Returns:** TicketPriorityStatus
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityStatus status  = thing.GetStatus();
+```
 
 

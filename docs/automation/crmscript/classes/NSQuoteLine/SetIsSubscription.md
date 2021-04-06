@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetIsSubscription
+title: SetIsSubscription(Bool isSubscription)
+intellisense: NSQuoteLine.SetIsSubscription
+keywords: NSQuoteLine, GetIsSubscription
+so.topic: reference
 ---
-title: Void SetIsSubscription(Bool IsSubscription)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetIsSubscription(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsSubscription(Bool)
----
-
 
 Is this a subscription product, sold in repeating intervals/amounts?
 
+**Parameter:** 
+ - **isSubscription** Bool
 
-
-* **IsSubscription:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteLine thing;
+Bool isSubscription;
+thing.SetIsSubscription(isSubscription);
+```
 

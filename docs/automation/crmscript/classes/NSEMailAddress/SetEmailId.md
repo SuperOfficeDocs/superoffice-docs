@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAddress_SetEmailId
+title: SetEmailId(Integer emailId)
+intellisense: NSEMailAddress.SetEmailId
+keywords: NSEMailAddress, GetEmailId
+so.topic: reference
 ---
-title: Void SetEmailId(Integer EmailId)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetEmailId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2776
-keywords: SetEmailId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **emailId** Integer
 
-
-* **EmailId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailAddress thing;
+Integer emailId;
+thing.SetEmailId(emailId);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_SetEjscriptId
+title: SetEjscriptId(Integer ejscriptId)
+intellisense: NSCRMScriptEntity.SetEjscriptId
+keywords: NSCRMScriptEntity, GetEjscriptId
+so.topic: reference
 ---
-title: Void SetEjscriptId(Integer EjscriptId)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetEjscriptId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2139
-keywords: SetEjscriptId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **ejscriptId** Integer
 
-
-* **EjscriptId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCRMScriptEntity thing;
+Integer ejscriptId;
+thing.SetEjscriptId(ejscriptId);
+```
 

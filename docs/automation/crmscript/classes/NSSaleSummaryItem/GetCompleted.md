@@ -1,17 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_GetCompleted
 title: Integer GetCompleted()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
-keywords: GetCompleted()
+intellisense: NSSaleSummaryItem.GetCompleted
+keywords: NSSaleSummaryItem, GetCompleted
+so.topic: reference
 ---
 
+The Completed state. NotStarted(1) or Completed(3)
 
-    The Completed state. NotStarted(1) or Completed(3)
-    
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 
-
-* **Returns:** Integer
+```crmscript
+NSSaleSummaryItem thing;
+Integer completed  = thing.GetCompleted();
+```
 
 

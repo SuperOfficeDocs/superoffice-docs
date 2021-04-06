@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetAssociate
+title: SetAssociate(Associate associate)
+intellisense: NSSelectionEntity.SetAssociate
+keywords: NSSelectionEntity, GetAssociate
+so.topic: reference
 ---
-title: Void SetAssociate(NSAssociate Associate)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociate(NSAssociate)
----
-
 
 Owner of the selection
 
+**Parameter:** 
+ - **associate** Associate
 
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSSelectionEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
 

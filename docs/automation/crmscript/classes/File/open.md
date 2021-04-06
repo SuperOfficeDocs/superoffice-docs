@@ -1,10 +1,10 @@
 ---
-title: Bool open(String filename, String mode)
-path: /EJScript/Classes/File/Member functions/Bool open(String filename, String mode)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_File_open_String_filename_String_mode
+title: File.open(String filename, String mode)
+intellisense: File.open
 sortOrder: 343
 keywords: open(String,String)
+so.topic: reference
 ---
 
 Opens the file to be available for other method calls.

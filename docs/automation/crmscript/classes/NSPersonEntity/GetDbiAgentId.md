@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetDbiAgentId
 title: Integer GetDbiAgentId()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetDbiAgentId()
-intellisense: 1
-classref: 1
-keywords: GetDbiAgentId()
+intellisense: NSPersonEntity.GetDbiAgentId
+keywords: NSPersonEntity, GetDbiAgentId
+so.topic: reference
 ---
-
 
 Integration agent (eJournal)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPersonEntity thing;
+Integer dbiAgentId  = thing.GetDbiAgentId();
+```
 
 

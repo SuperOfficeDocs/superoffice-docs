@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTabOrder_GetTabOrderId
 title: Integer GetTabOrderId()
-path: /EJScript/Classes/NSTabOrder/Member functions/Integer GetTabOrderId()
-intellisense: 1
-classref: 1
-keywords: GetTabOrderId()
+intellisense: NSTabOrder.GetTabOrderId
+keywords: NSTabOrder, GetTabOrderId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTabOrder thing;
+Integer tabOrderId  = thing.GetTabOrderId();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsUnicode()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Bool GetIsUnicode()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetIsUnicode
+title: NSSoSystemInfoCarrier.GetIsUnicode()
+intellisense: NSSoSystemInfoCarrier.GetIsUnicode
 keywords: GetIsUnicode()
+so.topic: reference
 ---
 
 

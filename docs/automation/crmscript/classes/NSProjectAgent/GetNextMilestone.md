@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetNextMilestone
+title: Appointment GetNextMilestone(Integer projectId)
+intellisense: NSProjectAgent.GetNextMilestone
+keywords: NSProjectAgent, GetNextMilestone
+so.topic: reference
 ---
-title: NSAppointment GetNextMilestone(Integer projectId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSAppointment GetNextMilestone(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetNextMilestone(Integer)
----
-
 
 Next upcoming milestone appointment
 
+**Parameters:**
+ - **projectId** Project id - primary key
 
+**Returns:** Upcoming milestone appointment
 
-* **projectId:** Project id - primary key
-* **Returns:** Upcoming milestone appointment
-
+```crmscript
+NSProjectAgent agent;
+Integer projectId;
+Appointment res = agent.GetNextMilestone(projectId);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTaskListItem_SetTaskListItemId
+title: SetTaskListItemId(Integer taskListItemId)
+intellisense: NSTaskListItem.SetTaskListItemId
+keywords: NSTaskListItem, GetTaskListItemId
+so.topic: reference
 ---
-title: Void SetTaskListItemId(Integer TaskListItemId)
-path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetTaskListItemId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTaskListItemId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **taskListItemId** Integer
 
-
-* **TaskListItemId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTaskListItem thing;
+Integer taskListItemId;
+thing.SetTaskListItemId(taskListItemId);
+```
 

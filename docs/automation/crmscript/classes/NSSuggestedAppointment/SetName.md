@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetName
+title: SetName(String name)
+intellisense: NSSuggestedAppointment.SetName
+keywords: NSSuggestedAppointment, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Item name, visible in Guide
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSSuggestedAppointment thing;
+String name;
+thing.SetName(name);
+```
 

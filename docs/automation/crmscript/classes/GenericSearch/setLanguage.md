@@ -1,10 +1,10 @@
 ---
-title: Void setLanguage(Integer languageId)
-path: /EJScript/Classes/GenericSearch/Member functions/Void setLanguage(Integer languageId)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_GenericSearch_setLanguage_Integer_languageId
+title: GenericSearch.setLanguage(Integer languageId)
+intellisense: GenericSearch.setLanguage
 sortOrder: 375
 keywords: setLanguage(Integer)
+so.topic: reference
 ---
 
 

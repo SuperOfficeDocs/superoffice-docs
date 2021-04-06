@@ -1,9 +1,9 @@
 ---
-title: Void executeToJSONBuilder(JSONBuilder jb, String fields, String arrayName)
-path: /EJScript/Classes/SearchEngine/member functions/Void executeToJSONBuilder(JSONBuilder jb, String fields, String arrayName)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_executeToJSONBuilder_JSONBuilder_jb_String_fields_String_arrayName
+title: SearchEngine.executeToJSONBuilder(JSONBuilder jb, String fields, String arrayName)
+intellisense: SearchEngine.executeToJSONBuilder
 keywords: executeToJSONBuilder(JSONBuilder,String,String)
+so.topic: reference
 ---
 
 

@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSBusiness_SetValue
+title: SetValue(String value)
+intellisense: NSBusiness.SetValue
+keywords: NSBusiness, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSBusiness/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1483
-keywords: SetValue(String)
----
 
+Set the name of the Business item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Business name.
 
+```crmscript
+NSBusiness thing;
+thing.SetValue("frotz");
+```
 

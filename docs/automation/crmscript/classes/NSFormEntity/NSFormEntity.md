@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity
 title: NSFormEntity
-path: /EJScript/Classes/NSFormEntity
-intellisense: 1
-classref: 1
-sortOrder: 3782
+intellisense: Void.NSFormEntity
+keywords: NSFormEntity
+so.topic: reference
 ---
-
 
 Definition and configuration of a Form
 
-
-
-
-1. autolist
+1. autolist 
 

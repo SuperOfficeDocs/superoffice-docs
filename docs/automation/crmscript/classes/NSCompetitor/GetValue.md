@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSCompetitor_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSCompetitor/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-sortOrder: 1582
-keywords: GetValue()
+intellisense: NSCompetitor.GetValue
+keywords: NSCompetitor, GetValue
+so.topic: reference
 ---
 
+Get the name of the Competitor.
 
-* **Returns:** String
+**Returns:** String Competitor name.
 
+```crmscript
+NSCompetitor thing;
+String name = thing.GetValue();
+```
 

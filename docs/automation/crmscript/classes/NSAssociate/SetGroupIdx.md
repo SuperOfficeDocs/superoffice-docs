@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAssociate_SetGroupIdx
+title: SetGroupIdx(Integer groupIdx)
+intellisense: NSAssociate.SetGroupIdx
+keywords: NSAssociate, GetGroupIdx
+so.topic: reference
 ---
-title: Void SetGroupIdx(Integer GroupIdx)
-path: /EJScript/Classes/NSAssociate/Member functions/Void SetGroupIdx(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1271
-keywords: SetGroupIdx(Integer)
----
-
 
 Primary group membership, see UserGroupLink for secondary memberships
 
+**Parameter:** 
+ - **groupIdx** Integer
 
-
-* **GroupIdx:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAssociate thing;
+Integer groupIdx;
+thing.SetGroupIdx(groupIdx);
+```
 

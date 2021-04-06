@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetRecipe
 title: String GetRecipe()
-path: /EJScript/Classes/NSFormEntity/Member functions/String GetRecipe()
-intellisense: 1
-classref: 1
-sortOrder: 3805
-keywords: GetRecipe()
+intellisense: NSFormEntity.GetRecipe
+keywords: NSFormEntity, GetRecipe
+so.topic: reference
 ---
-
 
 The JSON-formatted recipe of this form
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFormEntity thing;
+String recipe  = thing.GetRecipe();
+```
 
 

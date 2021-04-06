@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldHeight
 title: Integer GetFieldHeight()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetFieldHeight()
-intellisense: 1
-classref: 1
-keywords: GetFieldHeight()
+intellisense: NSUserDefinedFieldInfo.GetFieldHeight
+keywords: NSUserDefinedFieldInfo, GetFieldHeight
+so.topic: reference
 ---
-
 
 field height in pixels, 0 = 'enough' (from font)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldHeight  = thing.GetFieldHeight();
+```
 
 

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_FindRolesWithFunctionalRights
+title: IntegerArray FindRolesWithFunctionalRights(StringArray functionalRightNames)
+intellisense: NSUserAgent.FindRolesWithFunctionalRights
+keywords: NSUserAgent, FindRolesWithFunctionalRights
+so.topic: reference
 ---
-title: Integer[] FindRolesWithFunctionalRights(String[] functionalRightNames)
-path: /EJScript/Classes/NSUserAgent/Member functions/Integer[] FindRolesWithFunctionalRights(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: FindRolesWithFunctionalRights(String[])
----
 
+Find all roles with a given set of functional rights. The roles matched must contain one or more of the specified functional rights. 
 
-Find all roles with a given set of functional rights. The roles matched must contain one or more of the specified functional rights.
+**Parameters:**
+ - **functionalRightNames** An array of functional rights names to search for
 
+**Returns:** Role ids that contains your functional rights
 
-
-* **functionalRightNames:** An array of functional rights names to search for
-* **Returns:** Role ids that contains your functional rights
-
+```crmscript
+NSUserAgent agent;
+StringArray functionalRightNames;
+IntegerArray res = agent.FindRolesWithFunctionalRights(functionalRightNames);
+```
 

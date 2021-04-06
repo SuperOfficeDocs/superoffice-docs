@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSRoleEntity
 title: NSRoleEntity
-path: /EJScript/Classes/NSRoleEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSRoleEntity
+keywords: NSRoleEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

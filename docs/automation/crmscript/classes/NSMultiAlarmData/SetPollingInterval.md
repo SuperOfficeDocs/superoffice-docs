@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMultiAlarmData_SetPollingInterval
+title: SetPollingInterval(Integer pollingInterval)
+intellisense: NSMultiAlarmData.SetPollingInterval
+keywords: NSMultiAlarmData, GetPollingInterval
+so.topic: reference
 ---
-title: Void SetPollingInterval(Integer PollingInterval)
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/Void SetPollingInterval(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPollingInterval(Integer)
----
 
 
-* **PollingInterval:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **pollingInterval** Integer
+
+```crmscript
+NSMultiAlarmData thing;
+Integer pollingInterval;
+thing.SetPollingInterval(pollingInterval);
+```
 

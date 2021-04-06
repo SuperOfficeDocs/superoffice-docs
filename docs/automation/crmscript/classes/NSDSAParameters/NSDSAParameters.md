@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_NSDSAParameters
 title: NSDSAParameters
-path: /EJScript/Classes/NSDSAParameters
-intellisense: 1
-classref: 1
+intellisense: Void.NSDSAParameters
 sortOrder: 2704
+so.topic: reference
 ---
 
 

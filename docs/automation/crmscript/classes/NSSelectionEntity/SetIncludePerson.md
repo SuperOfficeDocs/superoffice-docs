@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetIncludePerson
+title: SetIncludePerson(Integer includePerson)
+intellisense: NSSelectionEntity.SetIncludePerson
+keywords: NSSelectionEntity, GetIncludePerson
+so.topic: reference
 ---
-title: Void SetIncludePerson(Integer IncludePerson)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetIncludePerson(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetIncludePerson(Integer)
----
-
 
 0 = Include first person, 1 = Include all persons, 2 = Include no persons
 
+**Parameter:** 
+ - **includePerson** Integer
 
-
-* **IncludePerson:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectionEntity thing;
+Integer includePerson;
+thing.SetIncludePerson(includePerson);
+```
 

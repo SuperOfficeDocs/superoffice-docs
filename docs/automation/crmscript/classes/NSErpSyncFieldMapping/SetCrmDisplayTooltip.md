@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_SetCrmDisplayTooltip
+title: SetCrmDisplayTooltip(String crmDisplayTooltip)
+intellisense: NSErpSyncFieldMapping.SetCrmDisplayTooltip
+keywords: NSErpSyncFieldMapping, GetCrmDisplayTooltip
+so.topic: reference
 ---
-title: Void SetCrmDisplayTooltip(String CrmDisplayTooltip)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetCrmDisplayTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3308
-keywords: SetCrmDisplayTooltip(String)
----
-
 
 Tooltip text for CRM field; ignored on Save
 
+**Parameter:** 
+ - **crmDisplayTooltip** String
 
-
-* **CrmDisplayTooltip:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncFieldMapping thing;
+String crmDisplayTooltip;
+thing.SetCrmDisplayTooltip(crmDisplayTooltip);
+```
 

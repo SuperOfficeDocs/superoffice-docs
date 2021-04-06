@@ -1,10 +1,10 @@
 ---
-title: Bool checkFieldRights(String field, String fieldRight)
-path: /EJScript/Classes/Customer/Member functions/Bool checkFieldRights(String field, String fieldRight)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_checkFieldRights_String_field_String_fieldRight
+title: Customer.checkFieldRights(String field, String fieldRight)
+intellisense: Customer.checkFieldRights
 sortOrder: 172
 keywords: checkFieldRights(String,String)
+so.topic: reference
 ---
 
 Use this function to see if the current user has access to the field.

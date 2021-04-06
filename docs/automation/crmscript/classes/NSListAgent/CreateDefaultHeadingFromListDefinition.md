@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_CreateDefaultHeadingFromListDefinition
+title: HeadingEntity CreateDefaultHeadingFromListDefinition(Integer udListDefinitionId)
+intellisense: NSListAgent.CreateDefaultHeadingFromListDefinition
+keywords: NSListAgent, CreateDefaultHeadingFromListDefinition
+so.topic: reference
 ---
-title: NSHeadingEntity CreateDefaultHeadingFromListDefinition(Integer udListDefinitionId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity CreateDefaultHeadingFromListDefinition(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: CreateDefaultHeadingFromListDefinition(Integer)
----
-
 
 Get a heading for the specified list defintion
 
+**Parameters:**
+ - **udListDefinitionId** The id of the list definition, indicating which list to get the item from
 
+**Returns:** The loaded heading
 
-* **udListDefinitionId:** The id of the list definition, indicating which list to get the item from
-* **Returns:** The loaded heading
-
+```crmscript
+NSListAgent agent;
+Integer udListDefinitionId;
+HeadingEntity res = agent.CreateDefaultHeadingFromListDefinition(udListDefinitionId);
+```
 

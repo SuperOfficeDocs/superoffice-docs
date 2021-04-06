@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLink_SetDescription
+title: SetDescription(String description)
+intellisense: NSLink.SetDescription
+keywords: NSLink, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSLink/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 Link description.
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSLink thing;
+String description;
+thing.SetDescription(description);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnection_SetUserGroupAccessIds
+title: SetUserGroupAccessIds(IntegerArray userGroupAccessIds)
+intellisense: NSErpConnection.SetUserGroupAccessIds
+keywords: NSErpConnection, GetUserGroupAccessIds
+so.topic: reference
 ---
-title: Void SetUserGroupAccessIds(Integer[] UserGroupAccessIds)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetUserGroupAccessIds(Integer[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3103
-keywords: SetUserGroupAccessIds(Integer[])
----
-
 
 Array of ids containing usergroups that will have access to this connection.
 
+**Parameter:** 
+ - **userGroupAccessIds** IntegerArray
 
-
-* **UserGroupAccessIds:** IntegerArray
-* **Returns:** Void
-
+```crmscript
+NSErpConnection thing;
+IntegerArray userGroupAccessIds;
+thing.SetUserGroupAccessIds(userGroupAccessIds);
+```
 

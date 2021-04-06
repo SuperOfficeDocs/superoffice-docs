@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListItem_GetUniqueId
 title: String GetUniqueId()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetUniqueId()
-intellisense: 1
-classref: 1
-keywords: GetUniqueId()
+intellisense: NSPhoneListItem.GetUniqueId
+keywords: NSPhoneListItem, GetUniqueId
+so.topic: reference
 ---
-
 
 Property setting a unique id indicating if this is a person or contact
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPhoneListItem thing;
+String uniqueId  = thing.GetUniqueId();
+```
 
 

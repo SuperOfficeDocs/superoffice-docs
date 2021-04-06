@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSSelectionAgent_SetDuplicateRulesStatus
+title: Void SetDuplicateRulesStatus(DuplicateRuleArray rules)
+intellisense: NSSelectionAgent.SetDuplicateRulesStatus
+keywords: NSSelectionAgent, SetDuplicateRulesStatus
+so.topic: reference
 ---
-title: Void SetDuplicateRulesStatus(NSDuplicateRule[] rules)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void SetDuplicateRulesStatus(NSDuplicateRule[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetDuplicateRulesStatus(NSDuplicateRule[])
----
-
 
 Set which duplicate rules should be active or not
 
-
-
-* **rules:** Duplicate rules to update active status for
-
-
+**Parameters:**
+ - **rules** Duplicate rules to update active status for

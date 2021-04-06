@@ -1,13 +1,10 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAgent_TestAuthenticate
 title: Bool TestAuthenticate()
-path: /EJScript/Classes/NSEMailAgent/Member functions/Bool TestAuthenticate()
-intellisense: 1
-classref: 1
-sortOrder: 2787
-keywords: TestAuthenticate()
+intellisense: NSEMailAgent.TestAuthenticate
+keywords: NSEMailAgent, TestAuthenticate
+so.topic: reference
 ---
 
-
-Test if logged-in user has a working mail account
-
+Test if logged-in user has a working mail account 
 

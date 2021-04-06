@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetFieldLabel
+title: SetFieldLabel(String fieldLabel)
+intellisense: NSUserDefinedFieldInfo.SetFieldLabel
+keywords: NSUserDefinedFieldInfo, GetFieldLabel
+so.topic: reference
 ---
-title: Void SetFieldLabel(String FieldLabel)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFieldLabel(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetFieldLabel(String)
----
-
 
 The label (lead text)
 
+**Parameter:** 
+ - **fieldLabel** String
 
-
-* **FieldLabel:** String
-* **Returns:** String
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+String fieldLabel;
+thing.SetFieldLabel(fieldLabel);
+```
 

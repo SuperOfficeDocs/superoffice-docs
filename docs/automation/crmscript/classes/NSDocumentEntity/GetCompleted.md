@@ -1,17 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetCompleted
 title: Integer GetCompleted()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
-sortOrder: 2559
-keywords: GetCompleted()
+intellisense: NSDocumentEntity.GetCompleted
+keywords: NSDocumentEntity, GetCompleted
+so.topic: reference
 ---
 
+Document Completed state. This is the part of the Status property. 
 
-Document Completed state. This is the part of the Status property.
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 
-
-* **Returns:** Integer
+```crmscript
+NSDocumentEntity thing;
+Integer completed  = thing.GetCompleted();
+```
 
 

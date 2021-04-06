@@ -1,14 +1,13 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetPublishEventDate
+title: SetPublishEventDate(DateTime publishDate)
+intellisense: NSAppointmentEntity.SetPublishEventDate
+keywords: NSAppointmentEntity, SetPublishEventDate
+so.topic: reference
 ---
-title: Void SetPublishEventDate(DateTime fields)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetPublishEventDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1023
-keywords: SetPublishEventDate(DateTime)
----
 
+Publish event date on AppointmentEntity.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishDate** DateTime.
 

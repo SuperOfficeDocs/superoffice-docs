@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_GetUrls
+title: EntityElementArray GetUrls()
+intellisense: NSContactEntity.GetUrls
+keywords: NSContactEntity, GetUrls
+so.topic: reference
 ---
-title: NSEntityElement[] GetUrls()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSEntityElement[] GetUrls()
-intellisense: 1
-classref: 1
-sortOrder: 1861
-keywords: GetUrls()
----
-
 
 The contact's internet adresses
 
+**Returns:** EntityElementArray
 
 
-* **Returns:** EntityElementArray
+```crmscript
+NSContactEntity thing;
+EntityElementArray urls  = thing.GetUrls();
+```
 
 

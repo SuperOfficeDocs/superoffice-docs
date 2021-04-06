@@ -1,9 +1,9 @@
 ---
-title: Void addListSelection(Integer p0)
-path: /EJScript/Classes/SpmShipment/Member functions/Void addListSelection(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmShipment_addListSelection_Integer_p_0
+title: SpmShipment.addListSelection(Integer p_0)
+intellisense: SpmShipment.addListSelection
 keywords: addListSelection(Integer)
+so.topic: reference
 ---
 
 

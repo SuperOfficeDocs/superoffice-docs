@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_GetEditable
 title: Bool GetEditable()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Bool GetEditable()
-intellisense: 1
-classref: 1
-keywords: GetEditable()
+intellisense: NSQuoteLineConfiguration.GetEditable
+keywords: NSQuoteLineConfiguration, GetEditable
+so.topic: reference
 ---
-
 
 Is this a read only field?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSQuoteLineConfiguration thing;
+Bool editable  = thing.GetEditable();
+```
 
 

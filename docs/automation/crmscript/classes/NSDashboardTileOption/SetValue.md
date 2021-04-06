@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTileOption_SetValue
+title: SetValue(String value)
+intellisense: NSDashboardTileOption.SetValue
+keywords: NSDashboardTileOption, GetValue
+so.topic: reference
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2331
-keywords: SetValue(String)
----
-
 
 The value, encoded as string, Id:Name of list item if type is list
 
+**Parameter:** 
+ - **value** String
 
-
-* **Value:** String
-* **Returns:** String
-
+```crmscript
+NSDashboardTileOption thing;
+String value;
+thing.SetValue(value);
+```
 

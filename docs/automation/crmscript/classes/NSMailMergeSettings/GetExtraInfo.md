@@ -1,20 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_GetExtraInfo
 title: String GetExtraInfo()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/String GetExtraInfo()
-intellisense: 1
-classref: 1
-keywords: GetExtraInfo()
+intellisense: NSMailMergeSettings.GetExtraInfo
+keywords: NSMailMergeSettings, GetExtraInfo
+so.topic: reference
 ---
 
+Used to store additional information for the delivery systems. 
 
-Used to store additional information for the delivery systems.
-
-
-    	///
-    
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSMailMergeSettings thing;
+String extraInfo  = thing.GetExtraInfo();
+```
 
 

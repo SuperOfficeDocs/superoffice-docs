@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoLongText_GetUseTextArea
 title: Bool GetUseTextArea()
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/Bool GetUseTextArea()
-intellisense: 1
-classref: 1
-sortOrder: 3520
-keywords: GetUseTextArea()
+intellisense: NSFieldInfoLongText.GetUseTextArea
+keywords: NSFieldInfoLongText, GetUseTextArea
+so.topic: reference
 ---
-
 
 Use a multi-line text area?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFieldInfoLongText thing;
+Bool useTextArea  = thing.GetUseTextArea();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSParticipantInfo_GetSendEmail
 title: Bool GetSendEmail()
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Bool GetSendEmail()
-intellisense: 1
-classref: 1
-keywords: GetSendEmail()
+intellisense: NSParticipantInfo.GetSendEmail
+keywords: NSParticipantInfo, GetSendEmail
+so.topic: reference
 ---
-
 
 True if the participant has been sent an email or should be sent an email
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSParticipantInfo thing;
+Bool sendEmail  = thing.GetSendEmail();
+```
 
 

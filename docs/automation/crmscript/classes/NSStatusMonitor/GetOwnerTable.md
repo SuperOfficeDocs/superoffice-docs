@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitor_GetOwnerTable
 title: Integer GetOwnerTable()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetOwnerTable()
-intellisense: 1
-classref: 1
-keywords: GetOwnerTable()
+intellisense: NSStatusMonitor.GetOwnerTable
+keywords: NSStatusMonitor, GetOwnerTable
+so.topic: reference
 ---
-
 
 Id of table that owns the status monitor
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSStatusMonitor thing;
+Integer ownerTable  = thing.GetOwnerTable();
+```
 
 

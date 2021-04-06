@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWindowPosSize_SetHeight
+title: SetHeight(Integer height)
+intellisense: NSWindowPosSize.SetHeight
+keywords: NSWindowPosSize, GetHeight
+so.topic: reference
 ---
-title: Void SetHeight(Integer Height)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetHeight(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetHeight(Integer)
----
-
 
 The height of the widget
 
+**Parameter:** 
+ - **height** Integer
 
-
-* **Height:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWindowPosSize thing;
+Integer height;
+thing.SetHeight(height);
+```
 

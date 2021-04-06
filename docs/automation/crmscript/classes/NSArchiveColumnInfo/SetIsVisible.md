@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_SetIsVisible
+title: SetIsVisible(Bool isVisible)
+intellisense: NSArchiveColumnInfo.SetIsVisible
+keywords: NSArchiveColumnInfo, GetIsVisible
+so.topic: reference
 ---
-title: Void SetIsVisible(Bool IsVisible)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetIsVisible(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1159
-keywords: SetIsVisible(Bool)
----
-
 
 Is this column visible to the user in configuration dialogs etc
 
+**Parameter:** 
+ - **isVisible** Bool
 
-
-* **IsVisible:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSArchiveColumnInfo thing;
+Bool isVisible;
+thing.SetIsVisible(isVisible);
+```
 

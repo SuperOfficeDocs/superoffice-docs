@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoLongText_GetNumRows
 title: Integer GetNumRows()
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/Integer GetNumRows()
-intellisense: 1
-classref: 1
-sortOrder: 3521
-keywords: GetNumRows()
+intellisense: NSFieldInfoLongText.GetNumRows
+keywords: NSFieldInfoLongText, GetNumRows
+so.topic: reference
 ---
-
 
 Number of lines of text to show. Text area height.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFieldInfoLongText thing;
+Integer numRows  = thing.GetNumRows();
+```
 
 

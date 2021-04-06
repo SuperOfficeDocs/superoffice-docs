@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetContactId
+title: SetContactId(Integer contactId)
+intellisense: NSParticipantSyncData.SetContactId
+keywords: NSParticipantSyncData, GetContactId
+so.topic: reference
 ---
-title: Void SetContactId(Integer ContactId)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetContactId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetContactId(Integer)
----
-
 
 Contact ID of owning contact, may be 0
 
+**Parameter:** 
+ - **contactId** Integer
 
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSParticipantSyncData thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
 

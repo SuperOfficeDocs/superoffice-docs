@@ -1,9 +1,9 @@
 ---
-title: String toString()
-path: /EJScript/Classes/Time/Member functions/String toString()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Time_toString
+title: Time.toString()
+intellisense: Time.toString
 keywords: toString()
+so.topic: reference
 ---
 
 

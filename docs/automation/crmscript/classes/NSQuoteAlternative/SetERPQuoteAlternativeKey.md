@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_SetERPQuoteAlternativeKey
+title: SetERPQuoteAlternativeKey(String eRPQuoteAlternativeKey)
+intellisense: NSQuoteAlternative.SetERPQuoteAlternativeKey
+keywords: NSQuoteAlternative, GetERPQuoteAlternativeKey
+so.topic: reference
 ---
-title: Void SetERPQuoteAlternativeKey(String ERPQuoteAlternativeKey)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetERPQuoteAlternativeKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetERPQuoteAlternativeKey(String)
----
-
 
 Key that identifies this alternative in the ERP system, if it exists there.
 
+**Parameter:** 
+ - **eRPQuoteAlternativeKey** String
 
-
-* **ERPQuoteAlternativeKey:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteAlternative thing;
+String eRPQuoteAlternativeKey;
+thing.SetERPQuoteAlternativeKey(eRPQuoteAlternativeKey);
+```
 

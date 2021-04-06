@@ -1,12 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSReason_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSReason/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSReason.GetTooltip
+keywords: NSReason, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the Reason list item.
 
-* **Returns:** String
+**Returns:** String Reason tooltip description.
+
+```crmscript
+NSReason thing;
+String descr = thing.GetTooltip();
+```
 
 

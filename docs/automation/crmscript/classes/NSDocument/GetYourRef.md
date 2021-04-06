@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetYourRef
 title: String GetYourRef()
-path: /EJScript/Classes/NSDocument/Member functions/String GetYourRef()
-intellisense: 1
-classref: 1
-sortOrder: 2445
-keywords: GetYourRef()
+intellisense: NSDocument.GetYourRef
+keywords: NSDocument, GetYourRef
+so.topic: reference
 ---
-
 
 Your reference
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocument thing;
+String yourRef  = thing.GetYourRef();
+```
 
 

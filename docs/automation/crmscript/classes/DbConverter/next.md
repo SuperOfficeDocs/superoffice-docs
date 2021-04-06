@@ -1,10 +1,10 @@
 ---
-title: Void next()
-path: /EJScript/Classes/DbConverter/Member functions/Void next()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DbConverter_next
+title: DbConverter.next()
+intellisense: DbConverter.next
 sortOrder: 246
 keywords: next()
+so.topic: reference
 ---
 
 This function points the iterator at the next element.

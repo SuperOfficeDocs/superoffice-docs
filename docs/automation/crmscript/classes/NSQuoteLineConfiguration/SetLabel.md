@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_SetLabel
+title: SetLabel(String label)
+intellisense: NSQuoteLineConfiguration.SetLabel
+keywords: NSQuoteLineConfiguration, GetLabel
+so.topic: reference
 ---
-title: Void SetLabel(String Label)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetLabel(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetLabel(String)
----
-
 
 Label resource string.
 
+**Parameter:** 
+ - **label** String
 
-
-* **Label:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLineConfiguration thing;
+String label;
+thing.SetLabel(label);
+```
 

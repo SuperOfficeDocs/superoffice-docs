@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig_SetUpdatedAssociateId
+title: SetUpdatedAssociateId(Integer updatedAssociateId)
+intellisense: NSCustomerCenterConfig.SetUpdatedAssociateId
+keywords: NSCustomerCenterConfig, GetUpdatedAssociateId
+so.topic: reference
 ---
-title: Void SetUpdatedAssociateId(Integer UpdatedAssociateId)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetUpdatedAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2210
-keywords: SetUpdatedAssociateId(Integer)
----
-
 
 Last updated by whom
 
+**Parameter:** 
+ - **updatedAssociateId** Integer
 
-
-* **UpdatedAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCustomerCenterConfig thing;
+Integer updatedAssociateId;
+thing.SetUpdatedAssociateId(updatedAssociateId);
+```
 

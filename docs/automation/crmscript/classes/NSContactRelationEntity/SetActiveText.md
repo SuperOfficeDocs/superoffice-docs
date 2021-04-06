@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_SetActiveText
+title: SetActiveText(String activeText)
+intellisense: NSContactRelationEntity.SetActiveText
+keywords: NSContactRelationEntity, GetActiveText
+so.topic: reference
 ---
-title: Void SetActiveText(String ActiveText)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetActiveText(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1962
-keywords: SetActiveText(String)
----
-
 
 Active text for the relation.
 
+**Parameter:** 
+ - **activeText** String
 
-
-* **ActiveText:** String
-* **Returns:** String
-
+```crmscript
+NSContactRelationEntity thing;
+String activeText;
+thing.SetActiveText(activeText);
+```
 

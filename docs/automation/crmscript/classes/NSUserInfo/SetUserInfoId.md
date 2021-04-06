@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserInfo_SetUserInfoId
+title: SetUserInfoId(Integer userInfoId)
+intellisense: NSUserInfo.SetUserInfoId
+keywords: NSUserInfo, GetUserInfoId
+so.topic: reference
 ---
-title: Void SetUserInfoId(Integer UserInfoId)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetUserInfoId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserInfoId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **userInfoId** Integer
 
-
-* **UserInfoId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserInfo thing;
+Integer userInfoId;
+thing.SetUserInfoId(userInfoId);
+```
 

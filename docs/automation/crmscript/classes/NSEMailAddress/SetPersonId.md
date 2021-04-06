@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAddress_SetPersonId
+title: SetPersonId(Integer personId)
+intellisense: NSEMailAddress.SetPersonId
+keywords: NSEMailAddress, GetPersonId
+so.topic: reference
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2778
-keywords: SetPersonId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **personId** Integer
 
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailAddress thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
 

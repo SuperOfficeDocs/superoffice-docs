@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEventData
 title: NSEventData
-path: /EJScript/Classes/NSEventData
-intellisense: 1
-classref: 1
-sortOrder: 3337
+intellisense: Void.NSEventData
+keywords: NSEventData
+so.topic: reference
 ---
-
 
 EventData containing data related to event handlers
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetFilename
 title: String GetFilename()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetFilename()
-intellisense: 1
-classref: 1
-sortOrder: 3373
-keywords: GetFilename()
+intellisense: NSExtAppEntity.GetFilename
+keywords: NSExtAppEntity, GetFilename
+so.topic: reference
 ---
-
 
 Filename of the programfile
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSExtAppEntity thing;
+String filename  = thing.GetFilename();
+```
 
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetSaleType
+title: SetSaleType(SaleType saleType)
+intellisense: NSSaleEntity.SetSaleType
+keywords: NSSaleEntity, GetSaleType
+so.topic: reference
 ---
-title: Void SetSaleType(NSSaleType SaleType)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetSaleType(NSSaleType p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleType(NSSaleType)
----
 
 
-* **SaleType:** SaleType
-* **Returns:** SaleType
 
+**Parameter:** 
+ - **saleType** SaleType
+
+```crmscript
+NSSaleEntity thing;
+SaleType saleType;
+thing.SetSaleType(saleType);
+```
 

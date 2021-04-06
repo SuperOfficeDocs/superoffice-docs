@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAppointment_GetDtEnd
 title: DateTime GetDtEnd()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/DateTime GetDtEnd()
-intellisense: 1
-classref: 1
-sortOrder: 2875
-keywords: GetDtEnd()
+intellisense: NSEMailAppointment.GetDtEnd
+keywords: NSEMailAppointment, GetDtEnd
+so.topic: reference
 ---
-
 
 End date/time in ICS file.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSEMailAppointment thing;
+DateTime dtEnd  = thing.GetDtEnd();
+```
 
 

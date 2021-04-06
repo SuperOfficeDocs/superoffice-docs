@@ -1,10 +1,10 @@
 ---
-title: Void SaveForeignAppEntity(NSForeignAppEntity foreignAppEntity)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/Void SaveForeignAppEntity(NSForeignAppEntity p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSForeignSystemAgent_SaveForeignAppEntity_NSForeignAppEntity_p_0
+title: NSForeignSystemAgent.SaveForeignAppEntity(NSForeignAppEntity p_0)
+intellisense: NSForeignSystemAgent.SaveForeignAppEntity
 sortOrder: 3781
 keywords: SaveForeignAppEntity(NSForeignAppEntity)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void setText(String text)
-path: /EJScript/Classes/XMLNode/Member functions/Void setText(String text)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_XMLNode_setText_String_text
+title: XMLNode.setText(String text)
+intellisense: XMLNode.setText
 keywords: setText(String)
+so.topic: reference
 ---
 
 Set the text between two tags.

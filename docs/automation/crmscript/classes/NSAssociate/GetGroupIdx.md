@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAssociate_GetGroupIdx
 title: Integer GetGroupIdx()
-path: /EJScript/Classes/NSAssociate/Member functions/Integer GetGroupIdx()
-intellisense: 1
-classref: 1
-sortOrder: 1257
-keywords: GetGroupIdx()
+intellisense: NSAssociate.GetGroupIdx
+keywords: NSAssociate, GetGroupIdx
+so.topic: reference
 ---
-
 
 Primary group membership, see UserGroupLink for secondary memberships
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAssociate thing;
+Integer groupIdx  = thing.GetGroupIdx();
+```
 
 

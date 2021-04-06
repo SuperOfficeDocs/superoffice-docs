@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSRecurrenceYearPattern
 title: NSRecurrenceYearPattern
-path: /EJScript/Classes/NSRecurrenceYearPattern
-intellisense: 1
-classref: 1
+intellisense: Void.NSRecurrenceYearPattern
+so.topic: reference
 ---
 
 

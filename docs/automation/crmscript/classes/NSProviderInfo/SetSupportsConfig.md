@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProviderInfo_SetSupportsConfig
+title: SetSupportsConfig(Bool supportsConfig)
+intellisense: NSProviderInfo.SetSupportsConfig
+keywords: NSProviderInfo, GetSupportsConfig
+so.topic: reference
 ---
-title: Void SetSupportsConfig(Bool SupportsConfig)
-path: /EJScript/Classes/NSProviderInfo/Member functions/Void SetSupportsConfig(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSupportsConfig(Bool)
----
-
 
 True if it supports the config parameters to the sending methods
 
+**Parameter:** 
+ - **supportsConfig** Bool
 
-
-* **SupportsConfig:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProviderInfo thing;
+Bool supportsConfig;
+thing.SetSupportsConfig(supportsConfig);
+```
 

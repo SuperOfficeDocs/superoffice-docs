@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetNumReplies
+title: SetNumReplies(Integer numReplies)
+intellisense: NSTicket.SetNumReplies
+keywords: NSTicket, GetNumReplies
+so.topic: reference
 ---
-title: Void SetNumReplies(Integer NumReplies)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetNumReplies(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetNumReplies(Integer)
----
-
 
 The number of replies (messages) to the customer for this request.
 
+**Parameter:** 
+ - **numReplies** Integer
 
-
-* **NumReplies:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicket thing;
+Integer numReplies;
+thing.SetNumReplies(numReplies);
+```
 

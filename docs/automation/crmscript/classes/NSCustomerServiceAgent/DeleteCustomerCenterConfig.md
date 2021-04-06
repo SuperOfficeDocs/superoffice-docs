@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSCustomerServiceAgent_DeleteCustomerCenterConfig
+title: DeleteCustomerCenterConfig(Integer customerCenterConfig);
+intellisense: NSCustomerServiceAgent.DeleteCustomerCenterConfig
+keywords: NSCustomerServiceAgent, DeleteCustomerCenterConfig
+so.topic: reference
 ---
-title: Void DeleteCustomerCenterConfig(Integer customerCenterConfigId)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Void DeleteCustomerCenterConfig(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2246
-keywords: DeleteCustomerCenterConfig(Integer)
----
 
+Deletes the NSCustomerCenterConfig
+  
+**Parameters:**
+ - **customerCenterConfigId** The identity of the CustomerCenterConfig to delete.
 
-Deletes the CustomerCenterConfig
-
-
-
-* **customerCenterConfigId:** The identity of the CustomerCenterConfig
-
+```crmscript
+NSCustomerServiceAgent agent;
+agent.DeleteCustomerCenterConfig(123);
+```
 

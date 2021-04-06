@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity_GetDbiKey
 title: String GetDbiKey()
-path: /EJScript/Classes/NSContactEntity/Member functions/String GetDbiKey()
-intellisense: 1
-classref: 1
-sortOrder: 1867
-keywords: GetDbiKey()
+intellisense: NSContactEntity.GetDbiKey
+keywords: NSContactEntity, GetDbiKey
+so.topic: reference
 ---
-
 
 The primary key for the integrated entry in the external datasource.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactEntity thing;
+String dbiKey  = thing.GetDbiKey();
+```
 
 

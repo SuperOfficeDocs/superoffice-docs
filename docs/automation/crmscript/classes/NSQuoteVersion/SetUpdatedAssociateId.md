@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetUpdatedAssociateId
+title: SetUpdatedAssociateId(Integer updatedAssociateId)
+intellisense: NSQuoteVersion.SetUpdatedAssociateId
+keywords: NSQuoteVersion, GetUpdatedAssociateId
+so.topic: reference
 ---
-title: Void SetUpdatedAssociateId(Integer UpdatedAssociateId)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetUpdatedAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatedAssociateId(Integer)
----
-
 
 Last updated by whom
 
+**Parameter:** 
+ - **updatedAssociateId** Integer
 
-
-* **UpdatedAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteVersion thing;
+Integer updatedAssociateId;
+thing.SetUpdatedAssociateId(updatedAssociateId);
+```
 

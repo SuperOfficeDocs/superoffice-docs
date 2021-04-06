@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetMonStop
+title: SetMonStop(DateTime monStop)
+intellisense: NSTicketPriorityEntity.SetMonStop
+keywords: NSTicketPriorityEntity, GetMonStop
+so.topic: reference
 ---
-title: Void SetMonStop(DateTime MonStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetMonStop(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetMonStop(DateTime)
----
-
 
 The work hour sstop for Mondays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **monStop** DateTime
 
-
-* **MonStop:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime monStop;
+thing.SetMonStop(monStop);
+```
 

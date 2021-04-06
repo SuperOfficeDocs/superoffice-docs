@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetAllTasks
+title: TaskListItemArray GetAllTasks(Bool includeDeleted)
+intellisense: NSListAgent.GetAllTasks
+keywords: NSListAgent, GetAllTasks
+so.topic: reference
 ---
-title: NSTaskListItem[] GetAllTasks(Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTaskListItem[] GetAllTasks(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: GetAllTasks(Bool)
----
-
 
 Returns all appointment tasks
 
+**Parameters:**
+ - **includeDeleted** Include deleted items in result?
 
+**Returns:** An array of all available tasks
 
-* **includeDeleted:** Include deleted items in result?
-* **Returns:** An array of all available tasks
-
+```crmscript
+NSListAgent agent;
+Bool includeDeleted;
+TaskListItemArray res = agent.GetAllTasks(includeDeleted);
+```
 

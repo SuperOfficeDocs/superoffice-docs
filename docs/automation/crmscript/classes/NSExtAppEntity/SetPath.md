@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetPath
+title: SetPath(String path)
+intellisense: NSExtAppEntity.SetPath
+keywords: NSExtAppEntity, GetPath
+so.topic: reference
 ---
-title: Void SetPath(String Path)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetPath(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3390
-keywords: SetPath(String)
----
-
 
 Path where the programfile is located; if empty, PATH is used
 
+**Parameter:** 
+ - **path** String
 
-
-* **Path:** String
-* **Returns:** String
-
+```crmscript
+NSExtAppEntity thing;
+String path;
+thing.SetPath(path);
+```
 

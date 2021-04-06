@@ -1,9 +1,9 @@
 ---
-title: Void addGroup(Integer column, Bool desc)
-path: /EJScript/Classes/StatLib/Member functions/Void addGroup(Integer column, Bool desc)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatLib_addGroup_Integer_column_Bool_desc
+title: StatLib.addGroup(Integer column, Bool desc)
+intellisense: StatLib.addGroup
 keywords: addGroup(Integer,Bool)
+so.topic: reference
 ---
 
 

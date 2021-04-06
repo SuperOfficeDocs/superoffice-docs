@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig_GetCustConfigId
 title: Integer GetCustConfigId()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Integer GetCustConfigId()
-intellisense: 1
-classref: 1
-sortOrder: 2197
-keywords: GetCustConfigId()
+intellisense: NSCustomerCenterConfig.GetCustConfigId
+keywords: NSCustomerCenterConfig, GetCustConfigId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCustomerCenterConfig thing;
+Integer custConfigId  = thing.GetCustConfigId();
+```
 
 

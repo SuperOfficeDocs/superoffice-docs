@@ -1,9 +1,9 @@
 ---
-title: String getOwnerSms()
-path: /EJScript/Classes/Ticket/Member functions/String getOwnerSms()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Ticket_getOwnerSms
+title: Ticket.getOwnerSms()
+intellisense: Ticket.getOwnerSms
 keywords: getOwnerSms()
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_SetFree
+title: SetFree(Integer free)
+intellisense: NSModuleLicenseLink.SetFree
+keywords: NSModuleLicenseLink, GetFree
+so.topic: reference
 ---
-title: Void SetFree(Integer Free)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetFree(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetFree(Integer)
----
-
 
 The number of licenses that are free to be assigned
 
+**Parameter:** 
+ - **free** Integer
 
-
-* **Free:** Integer
-* **Returns:** Void
-
+```crmscript
+NSModuleLicenseLink thing;
+Integer free;
+thing.SetFree(free);
+```
 

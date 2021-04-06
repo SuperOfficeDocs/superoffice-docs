@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReasonStalled_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSReasonStalled.SetTooltip
+keywords: NSReasonStalled, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSReasonStalled/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the ReasonStalled list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String ReasonStalled tooltip description.
 
+```crmscript
+NSReasonStalled thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

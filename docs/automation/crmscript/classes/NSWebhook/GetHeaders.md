@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebhook_GetHeaders
 title: StringDictionary GetHeaders()
-path: /EJScript/Classes/NSWebhook/Member functions/StringDictionary GetHeaders()
-intellisense: 1
-classref: 1
-keywords: GetHeaders()
+intellisense: NSWebhook.GetHeaders
+keywords: NSWebhook, GetHeaders
+so.topic: reference
 ---
-
 
 Custom HTTP Headers to add to webhook requests.
 
+**Returns:** StringDictionary
 
 
-* **Returns:** StringDictionary
+```crmscript
+NSWebhook thing;
+StringDictionary headers  = thing.GetHeaders();
+```
 
 

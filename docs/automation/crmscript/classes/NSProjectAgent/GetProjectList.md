@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetProjectList
+title: NSProject[] GetProjectList(Integer[]  projectIds);
+intellisense: NSProjectAgent.GetProjectList
+keywords: NSProjectAgent, GetProjectList
+so.topic: reference
 ---
-title: NSProject[] GetProjectList(Integer[] p0)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject[] GetProjectList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetProjectList(Integer[])
----
 
-Gets an array of Project objects.
+Gets a vector of Project objects.
 
+**Parameters:**
+ - **projectIds** The identifiers of the NSProject objects
 
-* **p0:** IntegerArray of identifiers for Project
-* **Returns:** Array of NSProject
+**Returns:** Vector of NSProject objects
 
+```crmscript
+Integer[] ids;
+NSProjectAgent agent;
+agent.GetProjectList(ids);
+```
 

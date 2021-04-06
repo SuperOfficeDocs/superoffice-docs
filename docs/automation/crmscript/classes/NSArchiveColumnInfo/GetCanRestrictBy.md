@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_GetCanRestrictBy
 title: Bool GetCanRestrictBy()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Bool GetCanRestrictBy()
-intellisense: 1
-classref: 1
-sortOrder: 1135
-keywords: GetCanRestrictBy()
+intellisense: NSArchiveColumnInfo.GetCanRestrictBy
+keywords: NSArchiveColumnInfo, GetCanRestrictBy
+so.topic: reference
 ---
-
 
 Can this column be used as a restriction
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSArchiveColumnInfo thing;
+Bool canRestrictBy  = thing.GetCanRestrictBy();
+```
 
 

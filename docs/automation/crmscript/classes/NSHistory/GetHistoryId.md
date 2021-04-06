@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSHistory_GetHistoryId
 title: Integer GetHistoryId()
-path: /EJScript/Classes/NSHistory/Member functions/Integer GetHistoryId()
-intellisense: 1
-classref: 1
-sortOrder: 3927
-keywords: GetHistoryId()
+intellisense: NSHistory.GetHistoryId
+keywords: NSHistory, GetHistoryId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSHistory thing;
+Integer historyId  = thing.GetHistoryId();
+```
 
 

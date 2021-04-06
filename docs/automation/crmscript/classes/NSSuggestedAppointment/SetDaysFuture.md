@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetDaysFuture
+title: SetDaysFuture(Integer daysFuture)
+intellisense: NSSuggestedAppointment.SetDaysFuture
+keywords: NSSuggestedAppointment, GetDaysFuture
+so.topic: reference
 ---
-title: Void SetDaysFuture(Integer DaysFuture)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetDaysFuture(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDaysFuture(Integer)
----
-
 
 How many days into the future the appointment should be scheduled
 
+**Parameter:** 
+ - **daysFuture** Integer
 
-
-* **DaysFuture:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedAppointment thing;
+Integer daysFuture;
+thing.SetDaysFuture(daysFuture);
+```
 

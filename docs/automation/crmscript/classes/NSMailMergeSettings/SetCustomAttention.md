@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetCustomAttention
+title: SetCustomAttention(String customAttention)
+intellisense: NSMailMergeSettings.SetCustomAttention
+keywords: NSMailMergeSettings, GetCustomAttention
+so.topic: reference
 ---
-title: Void SetCustomAttention(String CustomAttention)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetCustomAttention(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCustomAttention(String)
----
-
 
 Custom value for attention.
 
+**Parameter:** 
+ - **customAttention** String
 
-
-* **CustomAttention:** String
-* **Returns:** String
-
+```crmscript
+NSMailMergeSettings thing;
+String customAttention;
+thing.SetCustomAttention(customAttention);
+```
 

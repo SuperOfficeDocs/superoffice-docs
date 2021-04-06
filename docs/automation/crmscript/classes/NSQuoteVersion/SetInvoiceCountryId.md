@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetInvoiceCountryId
+title: SetInvoiceCountryId(Integer invoiceCountryId)
+intellisense: NSQuoteVersion.SetInvoiceCountryId
+keywords: NSQuoteVersion, GetInvoiceCountryId
+so.topic: reference
 ---
-title: Void SetInvoiceCountryId(Integer InvoiceCountryId)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetInvoiceCountryId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetInvoiceCountryId(Integer)
----
-
 
 Country of invoice address, typically copied from contact record
 
+**Parameter:** 
+ - **invoiceCountryId** Integer
 
-
-* **InvoiceCountryId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteVersion thing;
+Integer invoiceCountryId;
+thing.SetInvoiceCountryId(invoiceCountryId);
+```
 

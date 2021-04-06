@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_SetMessage
+title: SetMessage(String message)
+intellisense: NSPocketNotificationMessage.SetMessage
+keywords: NSPocketNotificationMessage, GetMessage
+so.topic: reference
 ---
-title: Void SetMessage(String Message)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetMessage(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetMessage(String)
----
-
 
 The notification message body
 
+**Parameter:** 
+ - **message** String
 
-
-* **Message:** String
-* **Returns:** String
-
+```crmscript
+NSPocketNotificationMessage thing;
+String message;
+thing.SetMessage(message);
+```
 

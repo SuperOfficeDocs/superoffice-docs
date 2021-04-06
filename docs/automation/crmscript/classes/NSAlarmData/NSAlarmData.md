@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData
 title: NSAlarmData
-path: /EJScript/Classes/NSAlarmData
-intellisense: 1
-classref: 1
-sortOrder: 641
+intellisense: Void.NSAlarmData
+keywords: NSAlarmData
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

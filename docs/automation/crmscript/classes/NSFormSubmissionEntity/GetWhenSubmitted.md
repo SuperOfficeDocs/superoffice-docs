@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_GetWhenSubmitted
 title: DateTime GetWhenSubmitted()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/DateTime GetWhenSubmitted()
-intellisense: 1
-classref: 1
-sortOrder: 3830
-keywords: GetWhenSubmitted()
+intellisense: NSFormSubmissionEntity.GetWhenSubmitted
+keywords: NSFormSubmissionEntity, GetWhenSubmitted
+so.topic: reference
 ---
-
 
 The time of the submit.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSFormSubmissionEntity thing;
+DateTime whenSubmitted  = thing.GetWhenSubmitted();
+```
 
 

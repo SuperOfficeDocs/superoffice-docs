@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTileData_GetColumns
+title: ArchiveColumnInfoArray GetColumns()
+intellisense: NSTileData.GetColumns
+keywords: NSTileData, GetColumns
+so.topic: reference
 ---
-title: NSArchiveColumnInfo[] GetColumns()
-path: /EJScript/Classes/NSTileData/Member functions/NSArchiveColumnInfo[] GetColumns()
-intellisense: 1
-classref: 1
-keywords: GetColumns()
----
-
 
 Column information
 
+**Returns:** ArchiveColumnInfoArray
 
 
-* **Returns:** ArchiveColumnInfoArray
+```crmscript
+NSTileData thing;
+ArchiveColumnInfoArray columns  = thing.GetColumns();
+```
 
 

@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSRecurrenceDayPattern
 title: NSRecurrenceDayPattern
-path: /EJScript/Classes/NSRecurrenceDayPattern
-intellisense: 1
-classref: 1
+intellisense: Void.NSRecurrenceDayPattern
+so.topic: reference
 ---
 
 

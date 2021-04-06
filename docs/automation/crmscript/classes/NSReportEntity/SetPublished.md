@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportEntity_SetPublished
+title: SetPublished(Bool published)
+intellisense: NSReportEntity.SetPublished
+keywords: NSReportEntity, GetPublished
+so.topic: reference
 ---
-title: Void SetPublished(Bool Published)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetPublished(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetPublished(Bool)
----
-
 
 Is the report published?
 
+**Parameter:** 
+ - **published** Bool
 
-
-* **Published:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSReportEntity thing;
+Bool published;
+thing.SetPublished(published);
+```
 

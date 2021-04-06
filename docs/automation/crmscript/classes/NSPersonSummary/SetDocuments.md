@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonSummary_SetDocuments
+title: SetDocuments(ActivitySummaryItemArray documents)
+intellisense: NSPersonSummary.SetDocuments
+keywords: NSPersonSummary, GetDocuments
+so.topic: reference
 ---
-title: Void SetDocuments(NSActivitySummaryItem[] Documents)
-path: /EJScript/Classes/NSPersonSummary/Member functions/Void SetDocuments(NSActivitySummaryItem[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetDocuments(NSActivitySummaryItem[])
----
-
 
 Recent documents on person
 
+**Parameter:** 
+ - **documents** ActivitySummaryItemArray
 
-
-* **Documents:** ActivitySummaryItemArray
-* **Returns:** ActivitySummaryItemArray
-
+```crmscript
+NSPersonSummary thing;
+ActivitySummaryItemArray documents;
+thing.SetDocuments(documents);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRefCountEntity_SetRecordId
+title: SetRecordId(Integer recordId)
+intellisense: NSRefCountEntity.SetRecordId
+keywords: NSRefCountEntity, GetRecordId
+so.topic: reference
 ---
-title: Void SetRecordId(Integer RecordId)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetRecordId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRecordId(Integer)
----
-
 
 Record id in target table, used when there are separate counters for each target record
 
+**Parameter:** 
+ - **recordId** Integer
 
-
-* **RecordId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRefCountEntity thing;
+Integer recordId;
+thing.SetRecordId(recordId);
+```
 

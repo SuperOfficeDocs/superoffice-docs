@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSCountry.SetTooltip
+keywords: NSCountry, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2045
-keywords: SetTooltip(String)
----
-
 
 The tooltip of the country
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSCountry thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

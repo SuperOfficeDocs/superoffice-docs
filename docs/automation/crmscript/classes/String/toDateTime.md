@@ -1,9 +1,9 @@
 ---
-title: DateTime toDateTime()
-path: /EJScript/Classes/String/Member functions/DateTime toDateTime()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_toDateTime
+title: String.toDateTime()
+intellisense: String.toDateTime
 keywords: toDateTime()
+so.topic: reference
 ---
 
 

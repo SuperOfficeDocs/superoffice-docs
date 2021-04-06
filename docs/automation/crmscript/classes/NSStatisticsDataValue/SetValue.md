@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatisticsDataValue_SetValue
+title: SetValue(Float value)
+intellisense: NSStatisticsDataValue.SetValue
+keywords: NSStatisticsDataValue, GetValue
+so.topic: reference
 ---
-title: Void SetValue(Float Value)
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/Void SetValue(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(Float)
----
-
 
 The value for the data value
 
+**Parameter:** 
+ - **value** Float
 
-
-* **Value:** Float
-* **Returns:** Float
-
+```crmscript
+NSStatisticsDataValue thing;
+Float value;
+thing.SetValue(value);
+```
 

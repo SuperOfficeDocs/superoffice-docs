@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTaskListItem_SetIsDefaultFree
+title: SetIsDefaultFree(Bool isDefaultFree)
+intellisense: NSTaskListItem.SetIsDefaultFree
+keywords: NSTaskListItem, GetIsDefaultFree
+so.topic: reference
 ---
-title: Void SetIsDefaultFree(Bool IsDefaultFree)
-path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetIsDefaultFree(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsDefaultFree(Bool)
----
-
 
 True if free, false if busy
 
+**Parameter:** 
+ - **isDefaultFree** Bool
 
-
-* **IsDefaultFree:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSTaskListItem thing;
+Bool isDefaultFree;
+thing.SetIsDefaultFree(isDefaultFree);
+```
 

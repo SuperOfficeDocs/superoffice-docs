@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreferenceDescriptionLine_SetPrefValue
+title: SetPrefValue(String prefValue)
+intellisense: NSPreferenceDescriptionLine.SetPrefValue
+keywords: NSPreferenceDescriptionLine, GetPrefValue
+so.topic: reference
 ---
-title: Void SetPrefValue(String PrefValue)
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/Void SetPrefValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPrefValue(String)
----
-
 
 Possible value
 
+**Parameter:** 
+ - **prefValue** String
 
-
-* **PrefValue:** String
-* **Returns:** String
-
+```crmscript
+NSPreferenceDescriptionLine thing;
+String prefValue;
+thing.SetPrefValue(prefValue);
+```
 

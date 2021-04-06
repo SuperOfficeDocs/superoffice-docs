@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAssociate_SetRank
+title: SetRank(Integer rank)
+intellisense: NSAssociate.SetRank
+keywords: NSAssociate, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSAssociate/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1274
-keywords: SetRank(Integer)
----
 
+Rank order 
 
-Rank order
+**Parameter:** 
+ - **rank** Integer
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAssociate thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetOpenWeightedOwnCurrency
 title: Float GetOpenWeightedOwnCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetOpenWeightedOwnCurrency()
-intellisense: 1
-classref: 1
-keywords: GetOpenWeightedOwnCurrency()
+intellisense: NSSaleSummary.GetOpenWeightedOwnCurrency
+keywords: NSSaleSummary, GetOpenWeightedOwnCurrency
+so.topic: reference
 ---
-
 
 Weighted sum for all open within the period in default currency for the current user
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSaleSummary thing;
+Float openWeightedOwnCurrency  = thing.GetOpenWeightedOwnCurrency();
+```
 
 

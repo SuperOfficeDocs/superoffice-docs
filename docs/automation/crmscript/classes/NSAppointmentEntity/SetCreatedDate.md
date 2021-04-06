@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetCreatedDate
+title: SetCreatedDate(DateTime createdDate)
+intellisense: NSAppointmentEntity.SetCreatedDate
+keywords: NSAppointmentEntity, GetCreatedDate
+so.topic: reference
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 995
-keywords: SetCreatedDate(DateTime)
----
-
 
 Registered date
 
+**Parameter:** 
+ - **createdDate** DateTime
 
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSAppointmentEntity thing;
+DateTime createdDate;
+thing.SetCreatedDate(createdDate);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetPlainBody
+title: SetPlainBody(String plainBody)
+intellisense: NSEMailEntity.SetPlainBody
+keywords: NSEMailEntity, GetPlainBody
+so.topic: reference
 ---
-title: Void SetPlainBody(String PlainBody)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetPlainBody(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2990
-keywords: SetPlainBody(String)
----
-
 
 Body formatted in plain text
 
+**Parameter:** 
+ - **plainBody** String
 
-
-* **PlainBody:** String
-* **Returns:** String
-
+```crmscript
+NSEMailEntity thing;
+String plainBody;
+thing.SetPlainBody(plainBody);
+```
 

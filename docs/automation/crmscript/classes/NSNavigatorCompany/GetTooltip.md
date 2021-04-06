@@ -1,12 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSNavigatorCompany_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSNavigatorCompany/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSNavigatorCompany.GetTooltip
+keywords: NSNavigatorCompany, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the NavigatorCompany list item.
 
-* **Returns:** String
+**Returns:** String NavigatorCompany tooltip description.
+
+```crmscript
+NSNavigatorCompany thing;
+String descr = thing.GetTooltip();
+```
 
 

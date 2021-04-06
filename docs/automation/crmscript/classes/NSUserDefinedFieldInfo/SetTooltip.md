@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSUserDefinedFieldInfo.SetTooltip
+keywords: NSUserDefinedFieldInfo, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
-
 
 Optional tooltip text for this field
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

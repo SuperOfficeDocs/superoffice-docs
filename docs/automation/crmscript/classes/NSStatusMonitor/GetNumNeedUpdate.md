@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitor_GetNumNeedUpdate
 title: Integer GetNumNeedUpdate()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetNumNeedUpdate()
-intellisense: 1
-classref: 1
-keywords: GetNumNeedUpdate()
+intellisense: NSStatusMonitor.GetNumNeedUpdate
+keywords: NSStatusMonitor, GetNumNeedUpdate
+so.topic: reference
 ---
-
 
 Number of targets that had this status, but have their needsUpdate bit set due to some change
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSStatusMonitor thing;
+Integer numNeedUpdate  = thing.GetNumNeedUpdate();
+```
 
 

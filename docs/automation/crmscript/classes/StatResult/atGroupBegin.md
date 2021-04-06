@@ -1,9 +1,9 @@
 ---
-title: Bool atGroupBegin(Integer column)
-path: /EJScript/Classes/StatResult/Member functions/Bool atGroupBegin(Integer column)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatResult_atGroupBegin_Integer_column
+title: StatResult.atGroupBegin(Integer column)
+intellisense: StatResult.atGroupBegin
 keywords: atGroupBegin(Integer)
+so.topic: reference
 ---
 
 

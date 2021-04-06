@@ -1,9 +1,9 @@
 ---
-title: String parseString(String stringToParse)
-path: /EJScript/Classes/Parser/Member functions/String parseString(String stringToParse)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Parser_parseString_String_stringToParse
+title: Parser.parseString(String stringToParse)
+intellisense: Parser.parseString
 keywords: parseString(String)
+so.topic: reference
 ---
 
 

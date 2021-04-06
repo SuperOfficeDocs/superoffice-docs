@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_GetConnection
+title: ErpConnection GetConnection(Integer erpConnectionId)
+intellisense: NSErpSyncAgent.GetConnection
+keywords: NSErpSyncAgent, GetConnection
+so.topic: reference
 ---
-title: NSErpConnection GetConnection(Integer erpConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpConnection GetConnection(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3192
-keywords: GetConnection(Integer)
----
-
 
 Returns the specified connection.
 
+**Parameters:**
+ - **erpConnectionId** Primary key of the connection
 
+**Returns:** The connection
 
-* **erpConnectionId:** Primary key of the connection
-* **Returns:** The connection
-
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+ErpConnection res = agent.GetConnection(erpConnectionId);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProductExtraDataField_GetName
 title: String GetName()
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSProductExtraDataField.GetName
+keywords: NSProductExtraDataField, GetName
+so.topic: reference
 ---
-
 
 Label for the field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProductExtraDataField thing;
+String name  = thing.GetName();
+```
 
 

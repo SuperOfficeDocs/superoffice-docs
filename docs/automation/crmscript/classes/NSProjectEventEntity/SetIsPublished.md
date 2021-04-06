@@ -1,21 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetIsPublished
+title: SetIsPublished(Bool isPublished)
+intellisense: NSProjectEventEntity.SetIsPublished
+keywords: NSProjectEventEntity, GetIsPublished
+so.topic: reference
 ---
-title: Void SetIsPublished(Bool IsPublished)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetIsPublished(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsPublished(Bool)
----
 
+Publish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties.
 
-Publish to external users? When true, the event/project information is visible to external users through the Audience portal.
+**Parameter:** 
+ - **isPublished** Bool
 
-
-    	/// You can control the publish duration using the PublishFrom/PublishTo properties.
-    
-
-
-
-* **IsPublished:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEventEntity thing;
+Bool isPublished;
+thing.SetIsPublished(isPublished);
+```
 

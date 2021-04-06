@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetProjectTypeStatusLinkId
+title: SetProjectTypeStatusLinkId(Integer projectTypeStatusLinkId)
+intellisense: NSSuggestedAppointment.SetProjectTypeStatusLinkId
+keywords: NSSuggestedAppointment, GetProjectTypeStatusLinkId
+so.topic: reference
 ---
-title: Void SetProjectTypeStatusLinkId(Integer ProjectTypeStatusLinkId)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetProjectTypeStatusLinkId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectTypeStatusLinkId(Integer)
----
-
 
 Link to projectTypeStatusLink, the anchor for project guide items. Either this OR saleAnchorId should be set, not both at the same time.
 
+**Parameter:** 
+ - **projectTypeStatusLinkId** Integer
 
-
-* **ProjectTypeStatusLinkId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedAppointment thing;
+Integer projectTypeStatusLinkId;
+thing.SetProjectTypeStatusLinkId(projectTypeStatusLinkId);
+```
 

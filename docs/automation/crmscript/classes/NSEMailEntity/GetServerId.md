@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetServerId
 title: Integer GetServerId()
-path: /EJScript/Classes/NSEMailEntity/Member functions/Integer GetServerId()
-intellisense: 1
-classref: 1
-sortOrder: 2955
-keywords: GetServerId()
+intellisense: NSEMailEntity.GetServerId
+keywords: NSEMailEntity, GetServerId
+so.topic: reference
 ---
-
 
 Unique id for the e-mail on the server
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailEntity thing;
+Integer serverId  = thing.GetServerId();
+```
 
 

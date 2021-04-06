@@ -1,9 +1,9 @@
 ---
-title: String executeJSON()
-path: /EJScript/Classes/SearchEngine/member functions/String executeJSON()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_executeJSON
+title: SearchEngine.executeJSON()
+intellisense: SearchEngine.executeJSON
 keywords: executeJSON()
+so.topic: reference
 ---
 
 

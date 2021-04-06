@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebAppUsage_GetVersion
 title: Integer GetVersion()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Integer GetVersion()
-intellisense: 1
-classref: 1
-keywords: GetVersion()
+intellisense: NSWebAppUsage.GetVersion
+keywords: NSWebAppUsage, GetVersion
+so.topic: reference
 ---
-
 
 ??
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWebAppUsage thing;
+Integer version  = thing.GetVersion();
+```
 
 

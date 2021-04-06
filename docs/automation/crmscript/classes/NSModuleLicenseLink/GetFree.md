@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_GetFree
 title: Integer GetFree()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Integer GetFree()
-intellisense: 1
-classref: 1
-keywords: GetFree()
+intellisense: NSModuleLicenseLink.GetFree
+keywords: NSModuleLicenseLink, GetFree
+so.topic: reference
 ---
-
 
 The number of licenses that are free to be assigned
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSModuleLicenseLink thing;
+Integer free  = thing.GetFree();
+```
 
 

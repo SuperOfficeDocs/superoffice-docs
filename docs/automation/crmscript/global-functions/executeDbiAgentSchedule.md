@@ -1,9 +1,9 @@
 ---
 description: Void executeDbiAgentSchedule(Integer scheduleId, Map values)
-path: /EJScript/Global functions/Void executeDbiAgentSchedule(Integer scheduleId, Map values)
-intellisense: 1
+intellisense: Void.executeDbiAgentSchedule
 langref: 1
 keywords: executeDbiAgentSchedule(Integer,Map)
+so.topic: reference
 ---
 
 

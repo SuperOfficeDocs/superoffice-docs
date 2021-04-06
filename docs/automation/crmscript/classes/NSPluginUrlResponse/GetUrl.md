@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPluginUrlResponse_GetUrl
 title: String GetUrl()
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/String GetUrl()
-intellisense: 1
-classref: 1
-keywords: GetUrl()
+intellisense: NSPluginUrlResponse.GetUrl
+keywords: NSPluginUrlResponse, GetUrl
+so.topic: reference
 ---
-
 
 Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPluginUrlResponse thing;
+String url  = thing.GetUrl();
+```
 
 

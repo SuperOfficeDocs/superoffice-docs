@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionButtonState_SetTooltipText
+title: SetTooltipText(String tooltipText)
+intellisense: NSQuoteVersionButtonState.SetTooltipText
+keywords: NSQuoteVersionButtonState, GetTooltipText
+so.topic: reference
 ---
-title: Void SetTooltipText(String TooltipText)
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Void SetTooltipText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltipText(String)
----
-
 
 The tooltip for the button
 
+**Parameter:** 
+ - **tooltipText** String
 
-
-* **TooltipText:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersionButtonState thing;
+String tooltipText;
+thing.SetTooltipText(tooltipText);
+```
 

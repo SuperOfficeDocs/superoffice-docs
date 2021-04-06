@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_GetSection
 title: String GetSection()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetSection()
-intellisense: 1
-classref: 1
-keywords: GetSection()
+intellisense: NSPreferenceDescription.GetSection
+keywords: NSPreferenceDescription, GetSection
+so.topic: reference
 ---
-
 
 Preference section name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPreferenceDescription thing;
+String section  = thing.GetSection();
+```
 
 

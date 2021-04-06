@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetReason
+title: SetReason(Reason reason)
+intellisense: NSSaleEntity.SetReason
+keywords: NSSaleEntity, GetReason
+so.topic: reference
 ---
-title: Void SetReason(NSReason Reason)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetReason(NSReason p_0)
-intellisense: 1
-classref: 1
-keywords: SetReason(NSReason)
----
-
 
 The sale reason
 
+**Parameter:** 
+ - **reason** Reason
 
-
-* **Reason:** Reason
-* **Returns:** Reason
-
+```crmscript
+NSSaleEntity thing;
+Reason reason;
+thing.SetReason(reason);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Void addList(Integer list)
-path: /EJScript/Classes/SpmShipment/Member functions/Void addList(Integer list)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmShipment_addList_Integer_list
+title: SpmShipment.addList(Integer list)
+intellisense: SpmShipment.addList
 keywords: addList(Integer)
+so.topic: reference
 ---
 
 

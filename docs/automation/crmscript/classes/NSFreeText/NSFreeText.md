@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFreeText
 title: NSFreeText
-path: /EJScript/Classes/NSFreeText
-intellisense: 1
-classref: 1
-sortOrder: 3850
+intellisense: Void.NSFreeText
+keywords: NSFreeText
+so.topic: reference
 ---
-
 
 Used to manage freetext search.
 
-
-
-
-1. autolist
+1. autolist 
 

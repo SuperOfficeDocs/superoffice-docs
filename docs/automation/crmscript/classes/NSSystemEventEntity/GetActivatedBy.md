@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_GetActivatedBy
+title: Associate GetActivatedBy()
+intellisense: NSSystemEventEntity.GetActivatedBy
+keywords: NSSystemEventEntity, GetActivatedBy
+so.topic: reference
 ---
-title: NSAssociate GetActivatedBy()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/NSAssociate GetActivatedBy()
-intellisense: 1
-classref: 1
-keywords: GetActivatedBy()
----
-
 
 The associate that first created the SystemEvent.
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSSystemEventEntity thing;
+Associate activatedBy  = thing.GetActivatedBy();
+```
 
 

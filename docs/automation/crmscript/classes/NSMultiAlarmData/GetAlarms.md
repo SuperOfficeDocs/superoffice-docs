@@ -1,12 +1,19 @@
----
-title: NSAlarmData[] GetAlarms()
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/NSAlarmData[] GetAlarms()
-intellisense: 1
-classref: 1
-keywords: GetAlarms()
+﻿---
+uid: crmscript_ref_NSMultiAlarmData_GetAlarms
+title: AlarmDataArray GetAlarms()
+intellisense: NSMultiAlarmData.GetAlarms
+keywords: NSMultiAlarmData, GetAlarms
+so.topic: reference
 ---
 
 
-* **Returns:** AlarmDataArray
+
+**Returns:** AlarmDataArray
+
+
+```crmscript
+NSMultiAlarmData thing;
+AlarmDataArray alarms  = thing.GetAlarms();
+```
 
 

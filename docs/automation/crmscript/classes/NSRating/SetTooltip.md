@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRating_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSRating.SetTooltip
+keywords: NSRating, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSRating/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the Rating list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String Rating tooltip description.
 
+```crmscript
+NSRating thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

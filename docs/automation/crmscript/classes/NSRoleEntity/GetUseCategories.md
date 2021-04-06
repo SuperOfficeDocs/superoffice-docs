@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRoleEntity_GetUseCategories
 title: Integer GetUseCategories()
-path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetUseCategories()
-intellisense: 1
-classref: 1
-keywords: GetUseCategories()
+intellisense: NSRoleEntity.GetUseCategories
+keywords: NSRoleEntity, GetUseCategories
+so.topic: reference
 ---
-
 
 Apply role category membership to users
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSRoleEntity thing;
+Integer useCategories  = thing.GetUseCategories();
+```
 
 

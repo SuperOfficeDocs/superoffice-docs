@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetInAssortment
+title: SetInAssortment(Bool inAssortment)
+intellisense: NSProduct.SetInAssortment
+keywords: NSProduct, GetInAssortment
+so.topic: reference
 ---
-title: Void SetInAssortment(Bool InAssortment)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetInAssortment(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetInAssortment(Bool)
----
-
 
 True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results.
 
+**Parameter:** 
+ - **inAssortment** Bool
 
-
-* **InAssortment:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProduct thing;
+Bool inAssortment;
+thing.SetInAssortment(inAssortment);
+```
 

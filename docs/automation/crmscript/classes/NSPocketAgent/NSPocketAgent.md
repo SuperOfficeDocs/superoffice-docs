@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSPocketAgent
 title: NSPocketAgent
-path: /EJScript/Classes/NSPocketAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSPocketAgent
+keywords: NSPocketAgent
+so.topic: reference
 ---
-
 
 Agent with Pocket specific functionality
 
-
-
+```crmscript
+NSPocketAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

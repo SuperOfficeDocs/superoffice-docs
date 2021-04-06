@@ -1,10 +1,10 @@
 ---
-title: Void SetLocalizedAddress(NSLocalizedField[][] p0)
-path: /EJScript/Classes/NSAddress/Member functions/Void SetLocalizedAddress(NSLocalizedField[][] p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAddress_SetLocalizedAddress_NSLocalizedField___p_0
+title: NSAddress.SetLocalizedAddress(NSLocalizedField[][] p_0)
+intellisense: NSAddress.SetLocalizedAddress
 sortOrder: 612
 keywords: SetLocalizedAddress(NSLocalizedField[][])
+so.topic: reference
 ---
 
 

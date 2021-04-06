@@ -1,6 +1,6 @@
 ---
-title: udef_tutorial
-description: User-defined fields
+uid: udef_tutorial
+title: User-defined fields
 author:
 so.date:
 keywords: udefagent,crmscript

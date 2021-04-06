@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/String GetName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSGrantedModuleLicense_GetName
+title: NSGrantedModuleLicense.GetName()
+intellisense: NSGrantedModuleLicense.GetName
 sortOrder: 3891
 keywords: GetName()
+so.topic: reference
 ---
 
 

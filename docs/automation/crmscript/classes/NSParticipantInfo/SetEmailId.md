@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantInfo_SetEmailId
+title: SetEmailId(Integer emailId)
+intellisense: NSParticipantInfo.SetEmailId
+keywords: NSParticipantInfo, GetEmailId
+so.topic: reference
 ---
-title: Void SetEmailId(Integer EmailId)
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Void SetEmailId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetEmailId(Integer)
----
-
 
 The email id of the email belonging to the appointment record belonging to this person
 
+**Parameter:** 
+ - **emailId** Integer
 
-
-* **EmailId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSParticipantInfo thing;
+Integer emailId;
+thing.SetEmailId(emailId);
+```
 

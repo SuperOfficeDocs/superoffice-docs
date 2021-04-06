@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetHasCalendarData
 title: Bool GetHasCalendarData()
-path: /EJScript/Classes/NSEMailEntity/Member functions/Bool GetHasCalendarData()
-intellisense: 1
-classref: 1
-sortOrder: 2944
-keywords: GetHasCalendarData()
+intellisense: NSEMailEntity.GetHasCalendarData
+keywords: NSEMailEntity, GetHasCalendarData
+so.topic: reference
 ---
-
 
 If this email contains exactly one iCal appointment
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSEMailEntity thing;
+Bool hasCalendarData  = thing.GetHasCalendarData();
+```
 
 

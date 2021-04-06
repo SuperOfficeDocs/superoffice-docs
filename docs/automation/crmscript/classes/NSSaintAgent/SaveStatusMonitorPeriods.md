@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSaintAgent_SaveStatusMonitorPeriods
+title: NSStatusMonitorPeriods SaveStatusMonitorPeriods(NSStatusMonitorPeriods statusMonitorPeriods);
+intellisense: NSSaintAgent.SaveStatusMonitorPeriods
+keywords: NSSaintAgent, SaveStatusMonitorPeriods
+so.topic: reference
 ---
-title: NSStatusMonitorPeriods SaveStatusMonitorPeriods(NSStatusMonitorPeriods statusMonitorPeriods)
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitorPeriods SaveStatusMonitorPeriods(NSStatusMonitorPeriods p_0)
-intellisense: 1
-classref: 1
-keywords: SaveStatusMonitorPeriods(NSStatusMonitorPeriods)
----
+	  
+Updates the existing NSStatusMonitorPeriods or creates a new NSStatusMonitorPeriods if the id parameter is 0
+	  
+**Parameters**:
+ - **statusMonitorPeriods** The NSStatusMonitorPeriods to save.
 
+**Returns:** New or updated NSStatusMonitorPeriods
 
-Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is empty
-
-
-
-* **statusMonitorPeriods:** The StatusMonitorPeriods that is saved
-* **Returns:** New or updated StatusMonitorPeriods
-
+```crmscript
+NSSaint  agent;
+NSStatusMonitorPeriods thing = agent.CreateDefaultStatusMonitorPeriods();
+thing = agent.SaveStatusMonitorPeriods(thing);
+```
 

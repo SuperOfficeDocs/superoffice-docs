@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSUserValidationResult
 title: NSUserValidationResult
-path: /EJScript/Classes/NSUserValidationResult
-intellisense: 1
-classref: 1
+intellisense: Void.NSUserValidationResult
+keywords: NSUserValidationResult
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

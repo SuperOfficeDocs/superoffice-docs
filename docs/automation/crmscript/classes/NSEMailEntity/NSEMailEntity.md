@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEntity
 title: NSEMailEntity
-path: /EJScript/Classes/NSEMailEntity
-intellisense: 1
-classref: 1
-sortOrder: 2942
+intellisense: Void.NSEMailEntity
+keywords: NSEMailEntity
+so.topic: reference
 ---
-
 
 All information about an e-mail
 
-
-
-
-1. autolist
+1. autolist 
 

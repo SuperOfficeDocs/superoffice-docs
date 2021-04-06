@@ -1,19 +1,25 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_FindProduct
+title: ProductArray FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
+intellisense: NSQuoteAgent.FindProduct
+keywords: NSQuoteAgent, FindProduct
+so.topic: reference
 ---
-title: NSProduct[] FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProduct[] FindProduct(Integer p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
-keywords: FindProduct(Integer,String,String)
----
-
 
 Gets a product, from the ProductProvider
 
+**Parameters:**
+ - **quoteAlternativeId** Quote alternative to search in.
+ - **userInput** search string
+ - **priceListKey** If the pricelist is null or empty, the function will search in all active pricelists.
 
+**Returns:** Product array
 
-* **quoteAlternativeId:** Quote alternative to search in.
-* **userInput:** search string
-* **priceListKey:** If the pricelist is null or empty, the function will search in all active pricelists.
-* **Returns:** Product array
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteAlternativeId;
+String userInput;
+String priceListKey;
+ProductArray res = agent.FindProduct(quoteAlternativeId, userInput, priceListKey);
+```
 

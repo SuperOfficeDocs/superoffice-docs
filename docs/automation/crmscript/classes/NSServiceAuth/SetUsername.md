@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSServiceAuth_SetUsername
+title: SetUsername(String username)
+intellisense: NSServiceAuth.SetUsername
+keywords: NSServiceAuth, GetUsername
+so.topic: reference
 ---
-title: Void SetUsername(String Username)
-path: /EJScript/Classes/NSServiceAuth/Member functions/Void SetUsername(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUsername(String)
----
-
 
 The username
 
+**Parameter:** 
+ - **username** String
 
-
-* **Username:** String
-* **Returns:** String
-
+```crmscript
+NSServiceAuth thing;
+String username;
+thing.SetUsername(username);
+```
 

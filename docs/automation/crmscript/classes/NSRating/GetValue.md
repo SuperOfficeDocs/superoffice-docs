@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSRating_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSRating/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSRating.GetValue
+keywords: NSRating, GetValue
+so.topic: reference
 ---
 
+Get the name of the Rating.
 
-* **Returns:** String
+**Returns:** String Rating name.
 
+```crmscript
+NSRating thing;
+String name = thing.GetValue();
+```
 

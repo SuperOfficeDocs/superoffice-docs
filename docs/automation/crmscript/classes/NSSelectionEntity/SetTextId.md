@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetTextId
+title: SetTextId(Integer textId)
+intellisense: NSSelectionEntity.SetTextId
+keywords: NSSelectionEntity, GetTextId
+so.topic: reference
 ---
-title: Void SetTextId(Integer TextId)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetTextId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTextId(Integer)
----
-
 
 Description text record id
 
+**Parameter:** 
+ - **textId** Integer
 
-
-* **TextId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectionEntity thing;
+Integer textId;
+thing.SetTextId(textId);
+```
 

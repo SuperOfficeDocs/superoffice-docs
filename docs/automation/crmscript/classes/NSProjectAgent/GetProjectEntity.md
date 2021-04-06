@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetProjectEntity
+title: NSProjectEntity GetProjectEntity(Integer projectEntityId);
+intellisense: NSProjectAgent.GetProjectEntity
+keywords: NSProjectAgent, GetProjectEntity
+so.topic: reference
 ---
-title: NSProjectEntity GetProjectEntity(Integer projectEntityId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEntity GetProjectEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetProjectEntity(Integer)
----
 
+Gets a NSProjectEntity object.
 
-Gets a ProjectEntity object.
+**Parameters:**
+ - **projectEntityId** The identifier of the NSProjectEntity object
 
+**Returns:** NSProjectEntity
 
-
-* **projectEntityId:** The identifier of the ProjectEntity object
-* **Returns:** ProjectEntity
-
+```crmscript
+NSProjectAgent agent;
+NSProjectEntity thing = agent.GetProjectEntity(123);
+```
 

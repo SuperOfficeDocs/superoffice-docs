@@ -1,19 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_SetValues
+title: SetValues(StringArray values)
+intellisense: NSArchiveRestrictionInfo.SetValues
+keywords: NSArchiveRestrictionInfo, GetValues
+so.topic: reference
 ---
-title: Void SetValues(String[] Values)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetValues(String[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1237
-keywords: SetValues(String[])
----
 
+Value(s) to test against
 
-    Value(s) to test against
-    
+**Parameter:** 
+ - **values** StringArray
 
-
-
-* **Values:** StringArray
-* **Returns:** StringArray
-
+```crmscript
+NSArchiveRestrictionInfo thing;
+StringArray values;
+thing.SetValues(values);
+```
 

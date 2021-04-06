@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSReportEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSReportEntity.GetName
+keywords: NSReportEntity, GetName
+so.topic: reference
 ---
-
 
 The name of the report
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSReportEntity thing;
+String name  = thing.GetName();
+```
 
 

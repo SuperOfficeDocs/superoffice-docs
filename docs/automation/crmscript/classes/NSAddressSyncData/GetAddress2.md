@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAddressSyncData_GetAddress2
 title: String GetAddress2()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/String GetAddress2()
-intellisense: 1
-classref: 1
-sortOrder: 622
-keywords: GetAddress2()
+intellisense: NSAddressSyncData.GetAddress2
+keywords: NSAddressSyncData, GetAddress2
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSAddressSyncData thing;
+String address2  = thing.GetAddress2();
+```
 
 

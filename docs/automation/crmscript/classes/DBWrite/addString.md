@@ -1,10 +1,10 @@
 ---
-title: Void addString(String name, String value)
-path: /EJScript/Classes/DBWrite/Member functions/Void addString(String name, String value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DBWrite_addString_String_name_String_value
+title: DBWrite.addString(String name, String value)
+intellisense: DBWrite.addString
 sortOrder: 266
 keywords: addString(String,String)
+so.topic: reference
 ---
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_SetIconHint
+title: SetIconHint(String iconHint)
+intellisense: NSFieldValueInfo.SetIconHint
+keywords: NSFieldValueInfo, GetIconHint
+so.topic: reference
 ---
-title: Void SetIconHint(String IconHint)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetIconHint(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3644
-keywords: SetIconHint(String)
----
-
 
 The iconhint of the field
 
+**Parameter:** 
+ - **iconHint** String
 
-
-* **IconHint:** String
-* **Returns:** String
-
+```crmscript
+NSFieldValueInfo thing;
+String iconHint;
+thing.SetIconHint(iconHint);
+```
 

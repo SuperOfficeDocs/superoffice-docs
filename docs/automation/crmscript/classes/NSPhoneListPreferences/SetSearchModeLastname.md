@@ -1,17 +1,23 @@
+﻿---
+uid: crmscript_ref_NSPhoneListPreferences_SetSearchModeLastname
+title: SetSearchModeLastname(Integer searchModeLastname)
+intellisense: NSPhoneListPreferences.SetSearchModeLastname
+keywords: NSPhoneListPreferences, GetSearchModeLastname
+so.topic: reference
 ---
-title: Void SetSearchModeLastname(Integer SearchModeLastname)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchModeLastname(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSearchModeLastname(Integer)
----
-
 
 The lastname search type, e.g. BeginsWith, Contains, Endswith, Matches
 
+**Parameter:** 
+ - **searchModeLastname** Integer
+     - Enum: 0 = Exact 
+     - Enum: 1 = BeginsWith 
+     - Enum: 2 = EndsWith 
+     - Enum: 3 = Contains 
 
-
-* **SearchModeLastname:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPhoneListPreferences thing;
+Integer searchModeLastname;
+thing.SetSearchModeLastname(searchModeLastname);
+```
 

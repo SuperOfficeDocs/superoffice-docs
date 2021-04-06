@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocument_SetHeader
+title: SetHeader(String header)
+intellisense: NSDocument.SetHeader
+keywords: NSDocument, GetHeader
+so.topic: reference
 ---
-title: Void SetHeader(String Header)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetHeader(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2454
-keywords: SetHeader(String)
----
-
 
 Visible document name
 
+**Parameter:** 
+ - **header** String
 
-
-* **Header:** String
-* **Returns:** String
-
+```crmscript
+NSDocument thing;
+String header;
+thing.SetHeader(header);
+```
 

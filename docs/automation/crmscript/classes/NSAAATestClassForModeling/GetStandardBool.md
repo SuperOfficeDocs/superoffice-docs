@@ -1,10 +1,10 @@
 ---
-title: Bool GetStandardBool()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Bool GetStandardBool()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAATestClassForModeling_GetStandardBool
+title: NSAAATestClassForModeling.GetStandardBool()
+intellisense: NSAAATestClassForModeling.GetStandardBool
 sortOrder: 8917
 keywords: GetStandardBool()
+so.topic: reference
 ---
 
 

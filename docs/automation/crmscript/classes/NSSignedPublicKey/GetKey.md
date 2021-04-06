@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSignedPublicKey_GetKey
+title: DSAParameters GetKey()
+intellisense: NSSignedPublicKey.GetKey
+keywords: NSSignedPublicKey, GetKey
+so.topic: reference
 ---
-title: NSDSAParameters GetKey()
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/NSDSAParameters GetKey()
-intellisense: 1
-classref: 1
-keywords: GetKey()
----
-
 
 Public key held by module owner.
 
+**Returns:** DSAParameters
 
 
-* **Returns:** DSAParameters
+```crmscript
+NSSignedPublicKey thing;
+DSAParameters key  = thing.GetKey();
+```
 
 

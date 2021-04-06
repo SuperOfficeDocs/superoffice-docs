@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_loops_for
-description: Loops - for
+uid: crmscript_fundamentals_loops_for
+title: Loops - for
 author:
 so.date:
 keywords:

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetEnglishName
 title: String GetEnglishName()
-path: /EJScript/Classes/NSCountry/Member functions/String GetEnglishName()
-intellisense: 1
-classref: 1
-sortOrder: 2021
-keywords: GetEnglishName()
+intellisense: NSCountry.GetEnglishName
+keywords: NSCountry, GetEnglishName
+so.topic: reference
 ---
-
 
 Name of country in english
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCountry thing;
+String englishName  = thing.GetEnglishName();
+```
 
 

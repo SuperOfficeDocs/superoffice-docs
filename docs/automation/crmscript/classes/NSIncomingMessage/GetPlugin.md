@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSIncomingMessage_GetPlugin
 title: String GetPlugin()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetPlugin()
-intellisense: 1
-classref: 1
-sortOrder: 3989
-keywords: GetPlugin()
+intellisense: NSIncomingMessage.GetPlugin
+keywords: NSIncomingMessage, GetPlugin
+so.topic: reference
 ---
-
 
 Name of plugin
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSIncomingMessage thing;
+String plugin  = thing.GetPlugin();
+```
 
 

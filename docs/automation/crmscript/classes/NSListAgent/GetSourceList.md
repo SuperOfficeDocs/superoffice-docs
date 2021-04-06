@@ -1,14 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetSourceList
+title: NSSource[] GetSourceList(Integer[]  sourceIds);
+intellisense: NSListAgent.GetSourceList
+keywords: NSListAgent, GetSourceList
+so.topic: reference
 ---
-title: NSSource[] GetSourceList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSource[] GetSourceList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetSourceList(Integer[])
----
 
-Gets an array of Source objects.
+Gets a vector of Source objects.
 
+**Parameters:**
+ - **sourceIds** The identifiers of the NSSource objects
 
-* **p0:** IntegerArray of identifiers for Source
-* **Returns:** Array of NSSource
+**Returns:** Vector of NSSource objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetSourceList(ids);
+```
 

@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_GetMailFromMessageId
+title: EMailEntity GetMailFromMessageId(String messageId)
+intellisense: NSEMailAgent.GetMailFromMessageId
+keywords: NSEMailAgent, GetMailFromMessageId
+so.topic: reference
 ---
-title: NSEMailEntity GetMailFromMessageId(String messageId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity GetMailFromMessageId(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2825
-keywords: GetMailFromMessageId(String)
----
-
 
 Get email from db based on Message Id
 
+**Parameters:**
+ - **messageId** The message id
 
+**Returns:** EMailEntity with the provided message id
 
-* **messageId:** The message id
-* **Returns:** EMailEntity with the provided message id
-
+```crmscript
+NSEMailAgent agent;
+String messageId;
+EMailEntity res = agent.GetMailFromMessageId(messageId);
+```
 

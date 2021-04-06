@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreference_SetTabOrder
+title: SetTabOrder(TabOrder tabOrder)
+intellisense: NSPreference.SetTabOrder
+keywords: NSPreference, GetTabOrder
+so.topic: reference
 ---
-title: Void SetTabOrder(NSTabOrder TabOrder)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetTabOrder(NSTabOrder p_0)
-intellisense: 1
-classref: 1
-keywords: SetTabOrder(NSTabOrder)
----
 
 
-* **TabOrder:** TabOrder
-* **Returns:** TabOrder
 
+**Parameter:** 
+ - **tabOrder** TabOrder
+
+```crmscript
+NSPreference thing;
+TabOrder tabOrder;
+thing.SetTabOrder(tabOrder);
+```
 

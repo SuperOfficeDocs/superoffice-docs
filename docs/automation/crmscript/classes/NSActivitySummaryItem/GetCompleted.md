@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem_GetCompleted
 title: Integer GetCompleted()
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
-sortOrder: 598
-keywords: GetCompleted()
+intellisense: NSActivitySummaryItem.GetCompleted
+keywords: NSActivitySummaryItem, GetCompleted
+so.topic: reference
 ---
 
+The Completed state. NotStarted(1) or Completed(3)
 
-    The Completed state. NotStarted(1) or Completed(3)
-    
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 
-
-* **Returns:** Integer
+```crmscript
+NSActivitySummaryItem thing;
+Integer completed  = thing.GetCompleted();
+```
 
 

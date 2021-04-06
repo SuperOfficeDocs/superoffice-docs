@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWindowPosSize_GetAssociateId
 title: Integer GetAssociateId()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
-keywords: GetAssociateId()
+intellisense: NSWindowPosSize.GetAssociateId
+keywords: NSWindowPosSize, GetAssociateId
+so.topic: reference
 ---
-
 
 Associate id of the Associate/Person owning this window setting
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWindowPosSize thing;
+Integer associateId  = thing.GetAssociateId();
+```
 
 

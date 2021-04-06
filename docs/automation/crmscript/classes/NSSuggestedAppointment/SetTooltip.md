@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSSuggestedAppointment.SetTooltip
+keywords: NSSuggestedAppointment, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
-
 
 Tooltip / description
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSSuggestedAppointment thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetUserType(Integer p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetUserType(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_SetUserType_Integer_p_0
+title: NSSoPrincipalCarrier.SetUserType(Integer p_0)
+intellisense: NSSoPrincipalCarrier.SetUserType
 keywords: SetUserType(Integer)
+so.topic: reference
 ---
 
 

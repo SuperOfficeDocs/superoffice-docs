@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetSold
+title: SetSold(Integer sold)
+intellisense: NSSaleSummary.SetSold
+keywords: NSSaleSummary, GetSold
+so.topic: reference
 ---
-title: Void SetSold(Integer Sold)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetSold(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSold(Integer)
----
-
 
 Number of all sold within the period
 
+**Parameter:** 
+ - **sold** Integer
 
-
-* **Sold:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleSummary thing;
+Integer sold;
+thing.SetSold(sold);
+```
 

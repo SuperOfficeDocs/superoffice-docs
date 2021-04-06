@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetAlertLevel
 title: Integer GetAlertLevel()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetAlertLevel()
-intellisense: 1
-classref: 1
-keywords: GetAlertLevel()
+intellisense: NSTicketEntity.GetAlertLevel
+keywords: NSTicketEntity, GetAlertLevel
+so.topic: reference
 ---
 
+The alert level for the ticket. Matches the level value of the ticket_alert table.
 
-The alert level for the ticket. Matches the level value of the ticket\_alert table.
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSTicketEntity thing;
+Integer alertLevel  = thing.GetAlertLevel();
+```
 
 

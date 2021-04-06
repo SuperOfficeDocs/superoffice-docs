@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMessageDeliveryStatus_SetStatus
+title: SetStatus(Integer status)
+intellisense: NSMessageDeliveryStatus.SetStatus
+keywords: NSMessageDeliveryStatus, GetStatus
+so.topic: reference
 ---
-title: Void SetStatus(Integer Status)
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Void SetStatus(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetStatus(Integer)
----
-
 
 Current message status
 
+**Parameter:** 
+ - **status** Integer
 
-
-* **Status:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMessageDeliveryStatus thing;
+Integer status;
+thing.SetStatus(status);
+```
 

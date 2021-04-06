@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetLastname
 title: String GetLastname()
-path: /EJScript/Classes/NSPerson/Member functions/String GetLastname()
-intellisense: 1
-classref: 1
-keywords: GetLastname()
+intellisense: NSPerson.GetLastname
+keywords: NSPerson, GetLastname
+so.topic: reference
 ---
-
 
 Last name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPerson thing;
+String lastname  = thing.GetLastname();
+```
 
 

@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitorPeriods
 title: NSStatusMonitorPeriods
-path: /EJScript/Classes/NSStatusMonitorPeriods
-intellisense: 1
-classref: 1
+intellisense: Void.NSStatusMonitorPeriods
+keywords: NSStatusMonitorPeriods
+so.topic: reference
 ---
-
 
 Obsolete, use SaintConfiguration carrier and methods instead. Was:Definition of the three perionds for status monitors
 
-
-
-
-1. autolist
+1. autolist 
 

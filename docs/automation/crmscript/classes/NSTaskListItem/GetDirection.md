@@ -1,14 +1,23 @@
+﻿---
+uid: crmscript_ref_NSTaskListItem_GetDirection
+title: TaskDirection GetDirection()
+intellisense: NSTaskListItem.GetDirection
+keywords: NSTaskListItem, GetDirection
+so.topic: reference
 ---
-title: Integer GetDirection()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetDirection()
-intellisense: 1
-classref: 1
-keywords: GetDirection()
----
-
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
+**Returns:** TaskDirection
+
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Incoming 
+     - Enum: 2 = Outgoing 
+     - Enum: 3 = SaintAll 
+
+```crmscript
+NSTaskListItem thing;
+TaskDirection direction  = thing.GetDirection();
+```
 
 
-* **Returns:** Integer

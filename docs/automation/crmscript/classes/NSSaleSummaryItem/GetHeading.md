@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_GetHeading
 title: String GetHeading()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/String GetHeading()
-intellisense: 1
-classref: 1
-keywords: GetHeading()
+intellisense: NSSaleSummaryItem.GetHeading
+keywords: NSSaleSummaryItem, GetHeading
+so.topic: reference
 ---
-
 
 Sale heading (short description?)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleSummaryItem thing;
+String heading  = thing.GetHeading();
+```
 
 

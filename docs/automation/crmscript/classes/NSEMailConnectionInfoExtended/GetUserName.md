@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfoExtended_GetUserName
 title: String GetUserName()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/String GetUserName()
-intellisense: 1
-classref: 1
-sortOrder: 2928
-keywords: GetUserName()
+intellisense: NSEMailConnectionInfoExtended.GetUserName
+keywords: NSEMailConnectionInfoExtended, GetUserName
+so.topic: reference
 ---
-
 
 Name of user to log in with
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailConnectionInfoExtended thing;
+String userName  = thing.GetUserName();
+```
 
 

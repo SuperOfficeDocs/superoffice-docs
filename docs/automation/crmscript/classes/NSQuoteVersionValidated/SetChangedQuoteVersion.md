@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionValidated_SetChangedQuoteVersion
+title: SetChangedQuoteVersion(QuoteVersion changedQuoteVersion)
+intellisense: NSQuoteVersionValidated.SetChangedQuoteVersion
+keywords: NSQuoteVersionValidated, GetChangedQuoteVersion
+so.topic: reference
 ---
-title: Void SetChangedQuoteVersion(NSQuoteVersion ChangedQuoteVersion)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetChangedQuoteVersion(NSQuoteVersion p_0)
-intellisense: 1
-classref: 1
-keywords: SetChangedQuoteVersion(NSQuoteVersion)
----
-
 
 The validated QuoteVersion
 
+**Parameter:** 
+ - **changedQuoteVersion** QuoteVersion
 
-
-* **ChangedQuoteVersion:** QuoteVersion
-* **Returns:** QuoteVersion
-
+```crmscript
+NSQuoteVersionValidated thing;
+QuoteVersion changedQuoteVersion;
+thing.SetChangedQuoteVersion(changedQuoteVersion);
+```
 

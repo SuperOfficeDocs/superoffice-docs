@@ -1,16 +1,23 @@
+﻿---
+uid: crmscript_ref_NSWebhook_GetState
+title: WebhookState GetState()
+intellisense: NSWebhook.GetState
+keywords: NSWebhook, GetState
+so.topic: reference
 ---
-title: Integer GetState()
-path: /EJScript/Classes/NSWebhook/Member functions/Integer GetState()
-intellisense: 1
-classref: 1
-keywords: GetState()
----
-
 
 Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors
 
+**Returns:** WebhookState
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Active 
+     - Enum: 2 = Stopped 
+     - Enum: 3 = TooManyErrors 
 
-* **Returns:** Integer
+```crmscript
+NSWebhook thing;
+WebhookState state  = thing.GetState();
+```
 
 

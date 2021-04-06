@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetRemovePersonInterest
+title: SetRemovePersonInterest(Integer removePersonInterest)
+intellisense: NSMailMergeSettings.SetRemovePersonInterest
+keywords: NSMailMergeSettings, GetRemovePersonInterest
+so.topic: reference
 ---
-title: Void SetRemovePersonInterest(Integer RemovePersonInterest)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetRemovePersonInterest(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRemovePersonInterest(Integer)
----
-
 
 Remove this person interest on each person recipient.
 
+**Parameter:** 
+ - **removePersonInterest** Integer
 
-
-* **RemovePersonInterest:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMailMergeSettings thing;
+Integer removePersonInterest;
+thing.SetRemovePersonInterest(removePersonInterest);
+```
 

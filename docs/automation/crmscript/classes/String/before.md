@@ -1,9 +1,9 @@
 ---
-title: String before(String searchText)
-path: /EJScript/Classes/String/Member functions/String before(String searchText)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_before_String_searchText
+title: String.before(String searchText)
+intellisense: String.before
 keywords: before(String)
+so.topic: reference
 ---
 
 

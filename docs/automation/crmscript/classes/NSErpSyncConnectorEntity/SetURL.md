@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncConnectorEntity_SetURL
+title: SetURL(String uRL)
+intellisense: NSErpSyncConnectorEntity.SetURL
+keywords: NSErpSyncConnectorEntity, GetURL
+so.topic: reference
 ---
-title: Void SetURL(String URL)
-path: /EJScript/Classes/NSErpSyncConnectorEntity/Member functions/Void SetURL(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3248
-keywords: SetURL(String)
----
-
 
 The URL where the connector is located and can be called
 
+**Parameter:** 
+ - **uRL** String
 
-
-* **URL:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncConnectorEntity thing;
+String uRL;
+thing.SetURL(uRL);
+```
 

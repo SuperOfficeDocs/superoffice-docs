@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSMrMrs_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSMrMrs/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSMrMrs.GetValue
+keywords: NSMrMrs, GetValue
+so.topic: reference
 ---
 
+Get the name of the MrMrs.
 
-* **Returns:** String
+**Returns:** String MrMrs name.
 
+```crmscript
+NSMrMrs thing;
+String name = thing.GetValue();
+```
 

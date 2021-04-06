@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoShortText_SetIsHtml
+title: SetIsHtml(Bool isHtml)
+intellisense: NSFieldInfoShortText.SetIsHtml
+keywords: NSFieldInfoShortText, GetIsHtml
+so.topic: reference
 ---
-title: Void SetIsHtml(Bool IsHtml)
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/Void SetIsHtml(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3555
-keywords: SetIsHtml(Bool)
----
-
 
 Do not escape HTML in field when displaying contents.
 
+**Parameter:** 
+ - **isHtml** Bool
 
-
-* **IsHtml:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldInfoShortText thing;
+Bool isHtml;
+thing.SetIsHtml(isHtml);
+```
 

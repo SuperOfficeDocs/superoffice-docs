@@ -1,10 +1,10 @@
 ---
-title: Integer GetDatabaseEnum()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Integer GetDatabaseEnum()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAATestClassForModeling_GetDatabaseEnum
+title: NSAAATestClassForModeling.GetDatabaseEnum()
+intellisense: NSAAATestClassForModeling.GetDatabaseEnum
 sortOrder: 8922
 keywords: GetDatabaseEnum()
+so.topic: reference
 ---
 
 

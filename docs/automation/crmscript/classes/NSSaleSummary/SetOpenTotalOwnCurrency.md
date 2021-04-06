@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetOpenTotalOwnCurrency
+title: SetOpenTotalOwnCurrency(Float openTotalOwnCurrency)
+intellisense: NSSaleSummary.SetOpenTotalOwnCurrency
+keywords: NSSaleSummary, GetOpenTotalOwnCurrency
+so.topic: reference
 ---
-title: Void SetOpenTotalOwnCurrency(Float OpenTotalOwnCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetOpenTotalOwnCurrency(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetOpenTotalOwnCurrency(Float)
----
-
 
 Summed amount for all open within the period in default currency for the current user
 
+**Parameter:** 
+ - **openTotalOwnCurrency** Float
 
-
-* **OpenTotalOwnCurrency:** Float
-* **Returns:** Float
-
+```crmscript
+NSSaleSummary thing;
+Float openTotalOwnCurrency;
+thing.SetOpenTotalOwnCurrency(openTotalOwnCurrency);
+```
 

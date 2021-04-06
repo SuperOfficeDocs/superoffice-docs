@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetIsSignedOn
+title: SetIsSignedOn(Bool isSignedOn)
+intellisense: NSProjectEvent.SetIsSignedOn
+keywords: NSProjectEvent, GetIsSignedOn
+so.topic: reference
 ---
-title: Void SetIsSignedOn(Bool IsSignedOn)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetIsSignedOn(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsSignedOn(Bool)
----
-
 
 True if the current user is signed on to the event (i.e. is project member)
 
+**Parameter:** 
+ - **isSignedOn** Bool
 
-
-* **IsSignedOn:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEvent thing;
+Bool isSignedOn;
+thing.SetIsSignedOn(isSignedOn);
+```
 

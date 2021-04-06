@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetEmailDescription
+title: SetEmailDescription(String emailDescription)
+intellisense: NSSaleStakeholder.SetEmailDescription
+keywords: NSSaleStakeholder, GetEmailDescription
+so.topic: reference
 ---
-title: Void SetEmailDescription(String EmailDescription)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetEmailDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetEmailDescription(String)
----
-
 
 E-mail description
 
+**Parameter:** 
+ - **emailDescription** String
 
-
-* **EmailDescription:** String
-* **Returns:** String
-
+```crmscript
+NSSaleStakeholder thing;
+String emailDescription;
+thing.SetEmailDescription(emailDescription);
+```
 

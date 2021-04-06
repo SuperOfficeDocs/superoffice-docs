@@ -1,17 +1,23 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetTicketChangedPriority
+title: SetTicketChangedPriority(TicketPriorityEscalateEvent ticketChangedPriority)
+intellisense: NSTicketPriorityEntity.SetTicketChangedPriority
+keywords: NSTicketPriorityEntity, GetTicketChangedPriority
+so.topic: reference
 ---
-title: Void SetTicketChangedPriority(NSTicketPriorityEscalateEvent TicketChangedPriority)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetTicketChangedPriority(NSTicketPriorityEscalateEvent p_0)
-intellisense: 1
-classref: 1
-keywords: SetTicketChangedPriority(NSTicketPriorityEscalateEvent)
----
-
 
 This field indicates what to do with the escalation chain when the request is changed into this priority
 
+**Parameter:** 
+ - **ticketChangedPriority** TicketPriorityEscalateEvent
+     - Enum: -1 = None 
+     - Enum: 0 = Stop 
+     - Enum: 1 = Continue 
+     - Enum: 2 = Restart 
 
-
-* **TicketChangedPriority:** TicketPriorityEscalateEvent
-* **Returns:** TicketPriorityEscalateEvent
-
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityEscalateEvent ticketChangedPriority;
+thing.SetTicketChangedPriority(ticketChangedPriority);
+```
 

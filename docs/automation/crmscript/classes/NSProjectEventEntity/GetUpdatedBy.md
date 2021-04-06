@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
+intellisense: NSProjectEventEntity.GetUpdatedBy
+keywords: NSProjectEventEntity, GetUpdatedBy
+so.topic: reference
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
-keywords: GetUpdatedBy()
----
-
 
 The person that last updated the projectevent
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSProjectEventEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
 
 

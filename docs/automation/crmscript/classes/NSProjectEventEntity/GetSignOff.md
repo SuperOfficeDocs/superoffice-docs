@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetSignOff
 title: Bool GetSignOff()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Bool GetSignOff()
-intellisense: 1
-classref: 1
-keywords: GetSignOff()
+intellisense: NSProjectEventEntity.GetSignOff
+keywords: NSProjectEventEntity, GetSignOff
+so.topic: reference
 ---
-
 
 Is Sign Off functionality enabled?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSProjectEventEntity thing;
+Bool signOff  = thing.GetSignOff();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetDescription
+title: SetDescription(String description)
+intellisense: NSQuoteLine.SetDescription
+keywords: NSQuoteLine, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 A longer description for the product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLine thing;
+String description;
+thing.SetDescription(description);
+```
 

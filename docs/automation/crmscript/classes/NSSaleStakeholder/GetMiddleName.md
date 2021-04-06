@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetMiddleName
 title: String GetMiddleName()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetMiddleName()
-intellisense: 1
-classref: 1
-keywords: GetMiddleName()
+intellisense: NSSaleStakeholder.GetMiddleName
+keywords: NSSaleStakeholder, GetMiddleName
+so.topic: reference
 ---
-
 
 Middle name or 'van' etc.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleStakeholder thing;
+String middleName  = thing.GetMiddleName();
+```
 
 

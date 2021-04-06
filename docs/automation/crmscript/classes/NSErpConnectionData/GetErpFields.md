@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnectionData_GetErpFields
+title: FieldMetadataArray GetErpFields()
+intellisense: NSErpConnectionData.GetErpFields
+keywords: NSErpConnectionData, GetErpFields
+so.topic: reference
 ---
-title: NSFieldMetadata[] GetErpFields()
-path: /EJScript/Classes/NSErpConnectionData/Member functions/NSFieldMetadata[] GetErpFields()
-intellisense: 1
-classref: 1
-sortOrder: 3112
-keywords: GetErpFields()
----
-
 
 The ERP fields that should be displayed
 
+**Returns:** FieldMetadataArray
 
 
-* **Returns:** FieldMetadataArray
+```crmscript
+NSErpConnectionData thing;
+FieldMetadataArray erpFields  = thing.GetErpFields();
+```
 
 

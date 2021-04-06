@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_GetWindowName
 title: String GetWindowName()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/String GetWindowName()
-intellisense: 1
-classref: 1
-keywords: GetWindowName()
+intellisense: NSWebPanelEntity.GetWindowName
+keywords: NSWebPanelEntity, GetWindowName
+so.topic: reference
 ---
-
 
 The window which the URL address is to open in (webpanel only)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSWebPanelEntity thing;
+String windowName  = thing.GetWindowName();
+```
 
 

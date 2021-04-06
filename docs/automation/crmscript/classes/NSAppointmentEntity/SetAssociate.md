@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetAssociate
+title: SetAssociate(Associate associate)
+intellisense: NSAppointmentEntity.SetAssociate
+keywords: NSAppointmentEntity, GetAssociate
+so.topic: reference
 ---
-title: Void SetAssociate(NSAssociate Associate)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-sortOrder: 988
-keywords: SetAssociate(NSAssociate)
----
-
 
 The owner of the appointment - the associate whose diary/checklist the appointment is in.
 
+**Parameter:** 
+ - **associate** Associate
 
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSAppointmentEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
 

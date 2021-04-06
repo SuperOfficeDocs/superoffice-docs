@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSHistory_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSHistory.SetAssociateId
+keywords: NSHistory, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSHistory/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3933
-keywords: SetAssociateId(Integer)
----
-
 
 Owner of history list
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSHistory thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

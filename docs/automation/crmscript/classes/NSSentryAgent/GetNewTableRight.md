@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSentryAgent_GetNewTableRight
+title: TableRight GetNewTableRight(String tableName)
+intellisense: NSSentryAgent.GetNewTableRight
+keywords: NSSentryAgent, GetNewTableRight
+so.topic: reference
 ---
-title: NSTableRight GetNewTableRight(String tableName)
-path: /EJScript/Classes/NSSentryAgent/Member functions/NSTableRight GetNewTableRight(String p_0)
-intellisense: 1
-classref: 1
-keywords: GetNewTableRight(String)
----
-
 
 Returns a TableRight for a new row based on tableName parameter.
 
+**Parameters:**
+ - **tableName** Name of the table to get the TableRights from
 
+**Returns:** The TableRight
 
-* **tableName:** Name of the table to get the TableRights from
-* **Returns:** The TableRight
-
+```crmscript
+NSSentryAgent agent;
+String tableName;
+TableRight res = agent.GetNewTableRight(tableName);
+```
 

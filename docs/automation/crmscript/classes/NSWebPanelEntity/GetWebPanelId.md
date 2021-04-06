@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_GetWebPanelId
 title: Integer GetWebPanelId()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Integer GetWebPanelId()
-intellisense: 1
-classref: 1
-keywords: GetWebPanelId()
+intellisense: NSWebPanelEntity.GetWebPanelId
+keywords: NSWebPanelEntity, GetWebPanelId
+so.topic: reference
 ---
-
 
 The identity of the web panel
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWebPanelEntity thing;
+Integer webPanelId  = thing.GetWebPanelId();
+```
 
 

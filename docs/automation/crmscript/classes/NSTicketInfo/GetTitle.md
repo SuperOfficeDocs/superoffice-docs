@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketInfo_GetTitle
 title: String GetTitle()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetTitle()
-intellisense: 1
-classref: 1
-keywords: GetTitle()
+intellisense: NSTicketInfo.GetTitle
+keywords: NSTicketInfo, GetTitle
+so.topic: reference
 ---
-
 
 The title/subject of the created ticket
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketInfo thing;
+String title  = thing.GetTitle();
+```
 
 

@@ -1,15 +1,12 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_HasGuideActivities
+title: Bool HasGuideActivities(Integer saleId)
+intellisense: NSSaleAgent.HasGuideActivities
+keywords: NSSaleAgent, HasGuideActivities
+so.topic: reference
 ---
-title: Bool HasGuideActivities(Integer p0)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Bool HasGuideActivities(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: HasGuideActivities(Integer)
----
 
 
 
-
-* **saleId
-**
-
-
+**Parameters:**
+ - **saleId** 

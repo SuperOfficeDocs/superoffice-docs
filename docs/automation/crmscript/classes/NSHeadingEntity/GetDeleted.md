@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSHeadingEntity_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSHeadingEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 3912
-keywords: GetDeleted()
+intellisense: NSHeadingEntity.GetDeleted
+keywords: NSHeadingEntity, GetDeleted
+so.topic: reference
 ---
-
 
 True if the heading is marked as deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSHeadingEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

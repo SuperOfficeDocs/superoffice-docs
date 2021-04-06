@@ -1,12 +1,19 @@
----
-title: NSAppointment GetAppointment()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSAppointment GetAppointment()
-intellisense: 1
-classref: 1
-keywords: GetAppointment()
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetAppointment
+title: Appointment GetAppointment()
+intellisense: NSSaleEntity.GetAppointment
+keywords: NSSaleEntity, GetAppointment
+so.topic: reference
 ---
 
 
-* **Returns:** Appointment
+
+**Returns:** Appointment
+
+
+```crmscript
+NSSaleEntity thing;
+Appointment appointment  = thing.GetAppointment();
+```
 
 

@@ -1,14 +1,13 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetPublishTo
+title: SetPublishTo(DateTime publishTo)
+intellisense: NSAppointmentEntity.SetPublishTo
+keywords: NSAppointmentEntity, SetPublishTo
+so.topic: reference
 ---
-title: Void SetPublishTo(DateTime fields)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetPublishTo(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1025
-keywords: SetPublishTo(DateTime)
----
 
+Set the publish to date on AppointmentEntity. After this date the event is no longer visible.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishTo** DateTime
 

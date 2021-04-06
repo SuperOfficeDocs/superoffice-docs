@@ -1,9 +1,9 @@
 ---
-title: Void SetStartDate(DateTime p0)
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/Void SetStartDate(DateTime p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceInfo_SetStartDate_DateTime_p_0
+title: NSRecurrenceInfo.SetStartDate(DateTime p_0)
+intellisense: NSRecurrenceInfo.SetStartDate
 keywords: SetStartDate(DateTime)
+so.topic: reference
 ---
 
 

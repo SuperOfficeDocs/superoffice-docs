@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_AppointmentSlicer
 title: AppointmentSlicer
-path: /EJScript/Classes/AppointmentSlicer
-intellisense: 1
-classref: 1
+intellisense: Void.AppointmentSlicer
 sortOrder: 106
+so.topic: reference
 ---
 
 This class is used to slice appointments into single entities which are within a single day. This class is essential when having calender data (with entries possibly spanning several days), which you would like to display in the calender control (which only accepts data for single days).

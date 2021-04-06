@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_GetEncodedDisplayName
 title: String GetEncodedDisplayName()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String GetEncodedDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 3628
-keywords: GetEncodedDisplayName()
+intellisense: NSFieldValueInfo.GetEncodedDisplayName
+keywords: NSFieldValueInfo, GetEncodedDisplayName
+so.topic: reference
 ---
-
 
 The displayname of the field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldValueInfo thing;
+String encodedDisplayName  = thing.GetEncodedDisplayName();
+```
 
 

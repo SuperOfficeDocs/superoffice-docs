@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionWorkflowState_GetStatus
+title: QuoteVersionStatusInformation GetStatus()
+intellisense: NSQuoteVersionWorkflowState.GetStatus
+keywords: NSQuoteVersionWorkflowState, GetStatus
+so.topic: reference
 ---
-title: NSQuoteVersionStatusInformation GetStatus()
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/NSQuoteVersionStatusInformation GetStatus()
-intellisense: 1
-classref: 1
-keywords: GetStatus()
----
-
 
 Status information for the Quote Version.
 
+**Returns:** QuoteVersionStatusInformation
 
 
-* **Returns:** QuoteVersionStatusInformation
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionStatusInformation status  = thing.GetStatus();
+```
 
 

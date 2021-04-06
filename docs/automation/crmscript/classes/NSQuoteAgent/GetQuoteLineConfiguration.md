@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetQuoteLineConfiguration
+title: QuoteLineConfiguration GetQuoteLineConfiguration(Integer quoteLineConfigurationId)
+intellisense: NSQuoteAgent.GetQuoteLineConfiguration
+keywords: NSQuoteAgent, GetQuoteLineConfiguration
+so.topic: reference
 ---
-title: NSQuoteLineConfiguration GetQuoteLineConfiguration(Integer quoteLineConfigurationId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLineConfiguration GetQuoteLineConfiguration(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetQuoteLineConfiguration(Integer)
----
-
 
 Returns the configuration field with the given id
 
+**Parameters:**
+ - **quoteLineConfigurationId** Id of the QuoteLineConfiguration to get.
 
+**Returns:** QuoteLineConfiguration
 
-* **quoteLineConfigurationId:** Id of the QuoteLineConfiguration to get.
-* **Returns:** QuoteLineConfiguration
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteLineConfigurationId;
+QuoteLineConfiguration res = agent.GetQuoteLineConfiguration(quoteLineConfigurationId);
+```
 

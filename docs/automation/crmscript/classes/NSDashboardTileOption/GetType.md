@@ -1,17 +1,24 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTileOption_GetType
 title: Integer GetType()
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
-sortOrder: 2319
-keywords: GetType()
+intellisense: NSDashboardTileOption.GetType
+keywords: NSDashboardTileOption, GetType
+so.topic: reference
 ---
-
 
 The type of option - integer, list, boolean (checkbox) etc.
 
+**Returns:** Integer
 
+     - Enum: 0 = None 
+     - Enum: 1 = String 
+     - Enum: 2 = Integer 
+     - Enum: 3 = Boolean 
+     - Enum: 4 = List 
 
-* **Returns:** Integer
+```crmscript
+NSDashboardTileOption thing;
+Integer type  = thing.GetType();
+```
 
 

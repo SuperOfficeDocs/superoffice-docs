@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAmountClassEntity_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSAmountClassEntity.SetTooltip
+keywords: NSAmountClassEntity, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 710
-keywords: SetTooltip(String)
----
-
 
 Tooltip or other description
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSAmountClassEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

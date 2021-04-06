@@ -1,9 +1,9 @@
 ---
-title: Void setParameter(String name, String value)
-path: /EJScript/Classes/XMLNode/Member functions/Void setParameter(String name, String value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_XMLNode_setParameter_String_name_String_value
+title: XMLNode.setParameter(String name, String value)
+intellisense: XMLNode.setParameter
 keywords: setParameter(String,String)
+so.topic: reference
 ---
 
 Sets a parameter with name and value. A node can have any number of parameters but all names must be unique.

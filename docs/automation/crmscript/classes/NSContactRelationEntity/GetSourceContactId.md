@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetSourceContactId
 title: Integer GetSourceContactId()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Integer GetSourceContactId()
-intellisense: 1
-classref: 1
-sortOrder: 1951
-keywords: GetSourceContactId()
+intellisense: NSContactRelationEntity.GetSourceContactId
+keywords: NSContactRelationEntity, GetSourceContactId
+so.topic: reference
 ---
-
 
 Id of the source contact. The value is mandatory.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSContactRelationEntity thing;
+Integer sourceContactId  = thing.GetSourceContactId();
+```
 
 

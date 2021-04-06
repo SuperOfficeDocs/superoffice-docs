@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetOperator
 title: String GetOperator()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/String GetOperator()
-intellisense: 1
-classref: 1
-sortOrder: 1222
-keywords: GetOperator()
+intellisense: NSArchiveRestrictionInfo.GetOperator
+keywords: NSArchiveRestrictionInfo, GetOperator
+so.topic: reference
 ---
-
 
 The operator, such as =, etc
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSArchiveRestrictionInfo thing;
+String operator  = thing.GetOperator();
+```
 
 

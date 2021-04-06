@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetFormalName
 title: String GetFormalName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetFormalName()
-intellisense: 1
-classref: 1
-sortOrder: 662
-keywords: GetFormalName()
+intellisense: NSAlarmData.GetFormalName
+keywords: NSAlarmData, GetFormalName
+so.topic: reference
 ---
-
 
 The associate's culture formatted formalname (firstname, middleName and lastname, title, mrmrs)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAlarmData thing;
+String formalName  = thing.GetFormalName();
+```
 
 

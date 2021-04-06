@@ -1,9 +1,9 @@
 ---
-title: String GetCompanyName()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/String GetCompanyName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetCompanyName
+title: NSSoSystemInfoCarrier.GetCompanyName()
+intellisense: NSSoSystemInfoCarrier.GetCompanyName
 keywords: GetCompanyName()
+so.topic: reference
 ---
 
 

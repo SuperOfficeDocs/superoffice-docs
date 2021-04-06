@@ -1,17 +1,22 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SetPageOneFieldGrouping
 title: Void SetPageOneFieldGrouping(Integer ownerType, Bool active)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Void SetPageOneFieldGrouping(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
-keywords: SetPageOneFieldGrouping(Integer,Bool)
+intellisense: NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
+keywords: NSUserDefinedFieldInfoAgent, SetPageOneFieldGrouping
+so.topic: reference
 ---
-
 
 Sets the Page One Field grouping for a specific entity
 
-
-
-* **ownerType:** The user-defined field owner-entity.
-* **active:** If true, use grouping
-
-
+**Parameters:**
+ - **ownerType** The user-defined field owner-entity.
+     - Enum: 0 = Invalid 
+     - Enum: 7 = Contact 
+     - Enum: 8 = Person 
+     - Enum: 9 = Project 
+     - Enum: 10 = Sale 
+     - Enum: 11 = Temp 
+     - Enum: 12 = Appointment 
+     - Enum: 13 = Document 
+     - Enum: 14 = None 
+ - **active** If true, use grouping

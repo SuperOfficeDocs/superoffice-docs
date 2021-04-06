@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo_GetConsentPurposeKey
 title: String GetConsentPurposeKey()
-path: /EJScript/Classes/NSConsentInfo/Member functions/String GetConsentPurposeKey()
-intellisense: 1
-classref: 1
-sortOrder: 1637
-keywords: GetConsentPurposeKey()
+intellisense: NSConsentInfo.GetConsentPurposeKey
+keywords: NSConsentInfo, GetConsentPurposeKey
+so.topic: reference
 ---
-
 
 Key of the ConsentPurpose associated with this consent
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentInfo thing;
+String consentPurposeKey  = thing.GetConsentPurposeKey();
+```
 
 

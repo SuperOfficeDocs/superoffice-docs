@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetWedStop
+title: SetWedStop(DateTime wedStop)
+intellisense: NSTicketPriorityEntity.SetWedStop
+keywords: NSTicketPriorityEntity, GetWedStop
+so.topic: reference
 ---
-title: Void SetWedStop(DateTime WedStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetWedStop(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetWedStop(DateTime)
----
-
 
 The work hour stop for Wednesdays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **wedStop** DateTime
 
-
-* **WedStop:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime wedStop;
+thing.SetWedStop(wedStop);
+```
 

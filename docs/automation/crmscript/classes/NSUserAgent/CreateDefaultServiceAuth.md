@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent_CreateDefaultServiceAuth
 title: NSServiceAuth CreateDefaultServiceAuth()
-path: /EJScript/Classes/NSUserAgent/Member functions/NSServiceAuth CreateDefaultServiceAuth()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultServiceAuth()
+intellisense: NSUserAgent.CreateDefaultServiceAuth
+keywords: NSUserAgent, CreateDefaultServiceAuth
+so.topic: reference
 ---
+	  
+Set default values into a new NSServiceAuth.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSServiceAuth with default values.
 
-
-Loading default values into a new ServiceAuth.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New ServiceAuth with default values
-
+```crmscript
+NSUserAgent agent;
+NSServiceAuth thing = agent.CreateDefaultServiceAuth();
+thing = agent.SaveServiceAuth(thing);
+```
 

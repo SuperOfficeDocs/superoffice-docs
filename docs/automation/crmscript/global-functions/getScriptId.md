@@ -1,9 +1,9 @@
 ---
 description: Integer getScriptId(String idString)
-path: /EJScript/Global functions/Integer getScriptId(String idString)
-intellisense: 1
+intellisense: Void.getScriptId
 langref: 1
 keywords: getScriptId(String)
+so.topic: reference
 ---
 
 Returns the id of the script matching the idString parameter

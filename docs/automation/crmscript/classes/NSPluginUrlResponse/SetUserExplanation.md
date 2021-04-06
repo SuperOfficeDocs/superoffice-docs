@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPluginUrlResponse_SetUserExplanation
+title: SetUserExplanation(String userExplanation)
+intellisense: NSPluginUrlResponse.SetUserExplanation
+keywords: NSPluginUrlResponse, GetUserExplanation
+so.topic: reference
 ---
-title: Void SetUserExplanation(String UserExplanation)
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/Void SetUserExplanation(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserExplanation(String)
----
-
 
 A localized explanation to the answer.
 
+**Parameter:** 
+ - **userExplanation** String
 
-
-* **UserExplanation:** String
-* **Returns:** String
-
+```crmscript
+NSPluginUrlResponse thing;
+String userExplanation;
+thing.SetUserExplanation(userExplanation);
+```
 

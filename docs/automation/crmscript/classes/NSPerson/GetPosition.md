@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetPosition
 title: String GetPosition()
-path: /EJScript/Classes/NSPerson/Member functions/String GetPosition()
-intellisense: 1
-classref: 1
-keywords: GetPosition()
+intellisense: NSPerson.GetPosition
+keywords: NSPerson, GetPosition
+so.topic: reference
 ---
-
 
 The position. This is a predefined SuperOffice value, different from Title
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPerson thing;
+String position  = thing.GetPosition();
+```
 
 

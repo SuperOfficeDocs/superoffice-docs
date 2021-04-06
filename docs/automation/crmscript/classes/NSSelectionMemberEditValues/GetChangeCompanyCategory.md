@@ -1,9 +1,9 @@
 ---
-title: Bool GetChangeCompanyCategory()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Bool GetChangeCompanyCategory()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_GetChangeCompanyCategory
+title: NSSelectionMemberEditValues.GetChangeCompanyCategory()
+intellisense: NSSelectionMemberEditValues.GetChangeCompanyCategory
 keywords: GetChangeCompanyCategory()
+so.topic: reference
 ---
 
 

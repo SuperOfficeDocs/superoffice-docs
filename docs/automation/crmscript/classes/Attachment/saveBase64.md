@@ -1,10 +1,10 @@
 ---
-title: Integer saveBase64(String p0)
-path: /EJScript/Classes/Attachment/Member functions/Integer saveBase64(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Attachment_saveBase64_String_p_0
+title: Attachment.saveBase64(String p_0)
+intellisense: Attachment.saveBase64
 sortOrder: 122
 keywords: saveBase64(String)
+so.topic: reference
 ---
 
 This function creates a filename and saves a base64 coded attachment to disk. Returns the actual number of bytes written to disk.

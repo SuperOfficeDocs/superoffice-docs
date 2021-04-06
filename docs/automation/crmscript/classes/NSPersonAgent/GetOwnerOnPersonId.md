@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_GetOwnerOnPersonId
+title: Person GetOwnerOnPersonId(Integer personId)
+intellisense: NSPersonAgent.GetOwnerOnPersonId
+keywords: NSPersonAgent, GetOwnerOnPersonId
+so.topic: reference
 ---
-title: NSPerson GetOwnerOnPersonId(Integer p0)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson GetOwnerOnPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetOwnerOnPersonId(Integer)
----
-
 
 Get the owner of the person by id.
 
+**Parameters:**
+ - **personId** 
 
+**Returns:** Person
 
-* **personId
-* **Returns:**** Person
-
+```crmscript
+NSPersonAgent agent;
+Integer personId;
+Person res = agent.GetOwnerOnPersonId(personId);
+```
 

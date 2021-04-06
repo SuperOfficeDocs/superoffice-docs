@@ -1,12 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetParameterObject
+title: SetParameterObject(StringDictionary parameterObject)
+intellisense: NSBatchTaskInfo.SetParameterObject
+keywords: NSBatchTaskInfo, GetParameterObject
+so.topic: reference
 ---
-title: Void SetParameterObject(Map p0)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetParameterObject(Map p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1397
-keywords: SetParameterObject(Map)
----
 
+ParameterObject will be serialized to a binary blob and saved in the BinaryObject table. The link to the BinaryObject will be set using DetailsTable and DetailsRecord.
 
+**Parameter:** 
+ - **parameterObject** StringDictionary
 
+```crmscript
+NSBatchTaskInfo thing;
+StringDictionary parameterObject;
+thing.SetParameterObject(parameterObject);
+```
 

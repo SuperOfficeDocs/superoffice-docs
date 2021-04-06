@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAssociate_SetName
+title: SetName(String name)
+intellisense: NSAssociate.SetName
+keywords: NSAssociate, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSAssociate/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1272
-keywords: SetName(String)
----
-
 
 Initials, also login name, possibly database user name
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSAssociate thing;
+String name;
+thing.SetName(name);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_SetEjUserId
+title: SetEjUserId(Integer ejUserId)
+intellisense: NSUser.SetEjUserId
+keywords: NSUser, GetEjUserId
+so.topic: reference
 ---
-title: Void SetEjUserId(Integer EjUserId)
-path: /EJScript/Classes/NSUser/Member functions/Void SetEjUserId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetEjUserId(Integer)
----
-
 
 ID of the ej user record corresponding to this associate; 0 for associates that are not ej users
 
+**Parameter:** 
+ - **ejUserId** Integer
 
-
-* **EjUserId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUser thing;
+Integer ejUserId;
+thing.SetEjUserId(ejUserId);
+```
 

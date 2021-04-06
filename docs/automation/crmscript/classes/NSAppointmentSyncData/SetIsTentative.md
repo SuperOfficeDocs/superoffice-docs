@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetIsTentative
+title: SetIsTentative(Bool isTentative)
+intellisense: NSAppointmentSyncData.SetIsTentative
+keywords: NSAppointmentSyncData, GetIsTentative
+so.topic: reference
 ---
-title: Void SetIsTentative(Bool IsTentative)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetIsTentative(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1080
-keywords: SetIsTentative(Bool)
----
 
 
-* **IsTentative:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isTentative** Bool
+
+```crmscript
+NSAppointmentSyncData thing;
+Bool isTentative;
+thing.SetIsTentative(isTentative);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_SetDate
+title: SetDate(DateTime date)
+intellisense: NSPocketNotificationMessage.SetDate
+keywords: NSPocketNotificationMessage, GetDate
+so.topic: reference
 ---
-title: Void SetDate(DateTime Date)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetDate(DateTime)
----
-
 
 If the message is about some event happening at a specific date and time
 
+**Parameter:** 
+ - **date** DateTime
 
-
-* **Date:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSPocketNotificationMessage thing;
+DateTime date;
+thing.SetDate(date);
+```
 

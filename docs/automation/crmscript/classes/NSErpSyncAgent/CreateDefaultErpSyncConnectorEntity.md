@@ -1,18 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_CreateDefaultErpSyncConnectorEntity
 title: NSErpSyncConnectorEntity CreateDefaultErpSyncConnectorEntity()
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncConnectorEntity CreateDefaultErpSyncConnectorEntity()
-intellisense: 1
-classref: 1
-sortOrder: 3200
-keywords: CreateDefaultErpSyncConnectorEntity()
+intellisense: NSErpSyncAgent.CreateDefaultErpSyncConnectorEntity
+keywords: NSErpSyncAgent, CreateDefaultErpSyncConnectorEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSErpSyncConnectorEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSErpSyncConnectorEntity with default values.
 
-
-Loading default values into a new ErpSyncConnectorEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New ErpSyncConnectorEntity with default values
-
+```crmscript
+NSErpSyncAgent agent;
+NSErpSyncConnectorEntity thing = agent.CreateDefaultErpSyncConnectorEntity();
+thing = agent.SaveErpSyncConnectorEntity(thing);
+```
 

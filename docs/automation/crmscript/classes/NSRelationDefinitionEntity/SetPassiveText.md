@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRelationDefinitionEntity_SetPassiveText
+title: SetPassiveText(String passiveText)
+intellisense: NSRelationDefinitionEntity.SetPassiveText
+keywords: NSRelationDefinitionEntity, GetPassiveText
+so.topic: reference
 ---
-title: Void SetPassiveText(String PassiveText)
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Void SetPassiveText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPassiveText(String)
----
-
 
 Text used in passive direction
 
+**Parameter:** 
+ - **passiveText** String
 
-
-* **PassiveText:** String
-* **Returns:** String
-
+```crmscript
+NSRelationDefinitionEntity thing;
+String passiveText;
+thing.SetPassiveText(passiveText);
+```
 

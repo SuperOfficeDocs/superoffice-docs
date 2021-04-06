@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChangedDataItem_SetTablename
+title: SetTablename(String tablename)
+intellisense: NSChangedDataItem.SetTablename
+keywords: NSChangedDataItem, GetTablename
+so.topic: reference
 ---
-title: Void SetTablename(String Tablename)
-path: /EJScript/Classes/NSChangedDataItem/Member functions/Void SetTablename(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1511
-keywords: SetTablename(String)
----
-
 
 Name of table, standardized to lowercase
 
+**Parameter:** 
+ - **tablename** String
 
-
-* **Tablename:** String
-* **Returns:** String
-
+```crmscript
+NSChangedDataItem thing;
+String tablename;
+thing.SetTablename(tablename);
+```
 

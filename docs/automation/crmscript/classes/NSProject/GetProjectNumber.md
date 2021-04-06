@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetProjectNumber
 title: String GetProjectNumber()
-path: /EJScript/Classes/NSProject/Member functions/String GetProjectNumber()
-intellisense: 1
-classref: 1
-keywords: GetProjectNumber()
+intellisense: NSProject.GetProjectNumber
+keywords: NSProject, GetProjectNumber
+so.topic: reference
 ---
-
 
 Automatically generated number
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProject thing;
+String projectNumber  = thing.GetProjectNumber();
+```
 
 

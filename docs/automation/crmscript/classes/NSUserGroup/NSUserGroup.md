@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSUserGroup
 title: NSUserGroup
-path: /EJScript/Classes/NSUserGroup
-intellisense: 1
-classref: 1
+intellisense: Void.NSUserGroup
+keywords: NSUserGroup
+so.topic: reference
 ---
-
 
 The main user group that this user belongs to
 
-
-
-
-1. autolist
+1. autolist 
 

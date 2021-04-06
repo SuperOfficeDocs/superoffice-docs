@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_IsPasswordValid
+title: Bool IsPasswordValid(Integer associateId, Integer type, Integer personId, String password)
+intellisense: NSUserAgent.IsPasswordValid
+keywords: NSUserAgent, IsPasswordValid
+so.topic: reference
 ---
-title: Bool IsPasswordValid(Integer p0, Integer p1, Integer p2, String p3)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool IsPasswordValid(Integer p_0, Integer p_1, Integer p_2, String p_3)
-intellisense: 1
-classref: 1
-keywords: IsPasswordValid(Integer,Integer,Integer,String)
----
 
 
 
-
-* **associateId
-\param** p1 type
-* **personId
-\param** p3 password
-
-
+**Parameters:**
+ - **associateId** 
+ - **type** 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
+ - **personId** 
+ - **password** 

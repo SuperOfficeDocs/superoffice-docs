@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSVersionInfo_SetCheckedInByName
+title: SetCheckedInByName(String checkedInByName)
+intellisense: NSVersionInfo.SetCheckedInByName
+keywords: NSVersionInfo, GetCheckedInByName
+so.topic: reference
 ---
-title: Void SetCheckedInByName(String CheckedInByName)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetCheckedInByName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCheckedInByName(String)
----
-
 
 Name (nicely formatted) of the user/person who performed the checkin
 
+**Parameter:** 
+ - **checkedInByName** String
 
-
-* **CheckedInByName:** String
-* **Returns:** String
-
+```crmscript
+NSVersionInfo thing;
+String checkedInByName;
+thing.SetCheckedInByName(checkedInByName);
+```
 

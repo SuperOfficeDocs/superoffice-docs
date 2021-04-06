@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignAppEntity_SetForeignAppId
+title: SetForeignAppId(Integer foreignAppId)
+intellisense: NSForeignAppEntity.SetForeignAppId
+keywords: NSForeignAppEntity, GetForeignAppId
+so.topic: reference
 ---
-title: Void SetForeignAppId(Integer ForeignAppId)
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/Void SetForeignAppId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3708
-keywords: SetForeignAppId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **foreignAppId** Integer
 
-
-* **ForeignAppId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSForeignAppEntity thing;
+Integer foreignAppId;
+thing.SetForeignAppId(foreignAppId);
+```
 

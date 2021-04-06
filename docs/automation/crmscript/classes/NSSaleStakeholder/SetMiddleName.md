@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetMiddleName
+title: SetMiddleName(String middleName)
+intellisense: NSSaleStakeholder.SetMiddleName
+keywords: NSSaleStakeholder, GetMiddleName
+so.topic: reference
 ---
-title: Void SetMiddleName(String MiddleName)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetMiddleName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetMiddleName(String)
----
-
 
 Middle name or 'van' etc.
 
+**Parameter:** 
+ - **middleName** String
 
-
-* **MiddleName:** String
-* **Returns:** String
-
+```crmscript
+NSSaleStakeholder thing;
+String middleName;
+thing.SetMiddleName(middleName);
+```
 

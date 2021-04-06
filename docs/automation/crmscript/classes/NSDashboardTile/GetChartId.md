@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetChartId
 title: String GetChartId()
-path: /EJScript/Classes/NSDashboardTile/Member functions/String GetChartId()
-intellisense: 1
-classref: 1
-sortOrder: 2297
-keywords: GetChartId()
+intellisense: NSDashboardTile.GetChartId
+keywords: NSDashboardTile, GetChartId
+so.topic: reference
 ---
-
 
 The original chart Id
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDashboardTile thing;
+String chartId  = thing.GetChartId();
+```
 
 

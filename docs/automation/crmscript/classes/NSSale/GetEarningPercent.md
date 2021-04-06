@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetEarningPercent
 title: Float GetEarningPercent()
-path: /EJScript/Classes/NSSale/Member functions/Float GetEarningPercent()
-intellisense: 1
-classref: 1
-keywords: GetEarningPercent()
+intellisense: NSSale.GetEarningPercent
+keywords: NSSale, GetEarningPercent
+so.topic: reference
 ---
-
 
 Earning as percent of total
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSale thing;
+Float earningPercent  = thing.GetEarningPercent();
+```
 
 

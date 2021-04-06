@@ -1,9 +1,9 @@
 ---
-title: Void parseString(String text, String delimiter)
-path: /EJScript/Classes/Vector/Member functions/Void parseString(String text, String delimiter)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Vector_parseString_String_text_String_delimiter
+title: Vector.parseString(String text, String delimiter)
+intellisense: Vector.parseString
 keywords: parseString(String,String)
+so.topic: reference
 ---
 
 

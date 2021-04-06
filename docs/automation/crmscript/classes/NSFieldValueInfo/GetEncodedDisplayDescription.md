@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_GetEncodedDisplayDescription
 title: String GetEncodedDisplayDescription()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String GetEncodedDisplayDescription()
-intellisense: 1
-classref: 1
-sortOrder: 3627
-keywords: GetEncodedDisplayDescription()
+intellisense: NSFieldValueInfo.GetEncodedDisplayDescription
+keywords: NSFieldValueInfo, GetEncodedDisplayDescription
+so.topic: reference
 ---
-
 
 The description of the field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldValueInfo thing;
+String encodedDisplayDescription  = thing.GetEncodedDisplayDescription();
+```
 
 

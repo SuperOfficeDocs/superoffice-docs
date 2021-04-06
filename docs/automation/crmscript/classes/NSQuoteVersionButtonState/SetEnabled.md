@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionButtonState_SetEnabled
+title: SetEnabled(Bool enabled)
+intellisense: NSQuoteVersionButtonState.SetEnabled
+keywords: NSQuoteVersionButtonState, GetEnabled
+so.topic: reference
 ---
-title: Void SetEnabled(Bool Enabled)
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Void SetEnabled(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetEnabled(Bool)
----
-
 
 Indicate if the button should be enabled or disabled
 
+**Parameter:** 
+ - **enabled** Bool
 
-
-* **Enabled:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteVersionButtonState thing;
+Bool enabled;
+thing.SetEnabled(enabled);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Bool loadFromAgentAndKey(Integer id, String Key)
-path: /EJScript/Classes/User/Member functions/Bool loadFromAgentAndKey(Integer id, String Key)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_User_loadFromAgentAndKey_Integer_id_String_Key
+title: User.loadFromAgentAndKey(Integer id, String Key)
+intellisense: User.loadFromAgentAndKey
 keywords: loadFromAgentAndKey(Integer,String)
+so.topic: reference
 ---
 
 

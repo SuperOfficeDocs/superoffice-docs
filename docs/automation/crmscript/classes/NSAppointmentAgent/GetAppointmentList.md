@@ -1,14 +1,21 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_GetAppointmentList
+title: NSAppointment[] GetAppointmentList(Integer[]  appointmentIds);
+intellisense: NSAppointmentAgent.GetAppointmentList
+keywords: NSAppointmentAgent, GetAppointmentList
+so.topic: reference
 ---
-title: NSAppointment[] GetAppointmentList(Integer[] p0)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetAppointmentList(Integer[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 837
-keywords: GetAppointmentList(Integer[])
----
 
+Gets a vector of Appointment objects.
 
-* **p0:** IntegerArray of identifiers for Appointment
-* **Returns:** Array of NSAppointment
+**Parameters:**
+ - **appointmentIds** The identifiers of the NSAppointment objects
 
+**Returns:** Vector of NSAppointment objects
+
+```crmscript
+Integer[] ids;
+NSAppointmentAgent agent;
+agent.GetAppointmentList(ids);
+```
 

@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_DeleteAllFromListName
 title: Void DeleteAllFromListName(String udListDefinitionName)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteAllFromListName(String p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteAllFromListName(String)
+intellisense: NSListAgent.DeleteAllFromListName
+keywords: NSListAgent, DeleteAllFromListName
+so.topic: reference
 ---
-
 
 Marks all items in the list deleted
 
+**Parameters:**
+ - **udListDefinitionName** The name of the list definition, indicating which list to delete the items from.
 
+**Returns:** This method has no return value
 
-* **udListDefinitionName:** The name of the list definition, indicating which list to delete the items from.
-* **Returns:** This method has no return value
-
+```crmscript
+NSListAgent agent;
+String udListDefinitionName;
+Void res = agent.DeleteAllFromListName(udListDefinitionName);
+```
 

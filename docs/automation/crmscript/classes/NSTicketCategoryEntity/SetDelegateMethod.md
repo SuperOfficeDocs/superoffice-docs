@@ -1,17 +1,24 @@
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_SetDelegateMethod
+title: SetDelegateMethod(TicketCategoryDelegateMethod delegateMethod)
+intellisense: NSTicketCategoryEntity.SetDelegateMethod
+keywords: NSTicketCategoryEntity, GetDelegateMethod
+so.topic: reference
 ---
-title: Void SetDelegateMethod(NSTicketCategoryDelegateMethod DelegateMethod)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetDelegateMethod(NSTicketCategoryDelegateMethod p_0)
-intellisense: 1
-classref: 1
-keywords: SetDelegateMethod(NSTicketCategoryDelegateMethod)
----
-
 
 An integer indicating the delegation method for this category.
 
+**Parameter:** 
+ - **delegateMethod** TicketCategoryDelegateMethod
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Even 
+     - Enum: 2 = Weighted 
+     - Enum: 3 = Unfair 
+     - Enum: 4 = Not 
 
-
-* **DelegateMethod:** TicketCategoryDelegateMethod
-* **Returns:** TicketCategoryDelegateMethod
-
+```crmscript
+NSTicketCategoryEntity thing;
+TicketCategoryDelegateMethod delegateMethod;
+thing.SetDelegateMethod(delegateMethod);
+```
 

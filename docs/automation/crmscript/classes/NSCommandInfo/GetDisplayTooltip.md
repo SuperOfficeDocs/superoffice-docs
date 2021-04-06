@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCommandInfo_GetDisplayTooltip
 title: String GetDisplayTooltip()
-path: /EJScript/Classes/NSCommandInfo/Member functions/String GetDisplayTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 1570
-keywords: GetDisplayTooltip()
+intellisense: NSCommandInfo.GetDisplayTooltip
+keywords: NSCommandInfo, GetDisplayTooltip
+so.topic: reference
 ---
-
 
 Tooltip string associate with the command - can be a literal or a tooltip hint.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCommandInfo thing;
+String displayTooltip  = thing.GetDisplayTooltip();
+```
 
 

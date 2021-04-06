@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBlobEntity_GetIsEncrypted
 title: Bool GetIsEncrypted()
-path: /EJScript/Classes/NSBlobEntity/Member functions/Bool GetIsEncrypted()
-intellisense: 1
-classref: 1
-sortOrder: 1440
-keywords: GetIsEncrypted()
+intellisense: NSBlobEntity.GetIsEncrypted
+keywords: NSBlobEntity, GetIsEncrypted
+so.topic: reference
 ---
-
 
 Has the data been encrypted.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSBlobEntity thing;
+Bool isEncrypted  = thing.GetIsEncrypted();
+```
 
 

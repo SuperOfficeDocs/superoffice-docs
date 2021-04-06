@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSReturnInfo
 title: NSReturnInfo
-path: /EJScript/Classes/NSReturnInfo
-intellisense: 1
-classref: 1
+intellisense: Void.NSReturnInfo
+keywords: NSReturnInfo
+so.topic: reference
 ---
-
 
 Return value object for Document Plugin API calls
 
-
-
-
-1. autolist
+1. autolist 
 

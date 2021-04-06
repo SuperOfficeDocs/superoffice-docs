@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSListEntity_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSListEntity/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSListEntity.GetId
+keywords: NSListEntity, GetId
+so.topic: reference
 ---
-
 
 The identity of the list
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSListEntity thing;
+Integer id  = thing.GetId();
+```
 
 

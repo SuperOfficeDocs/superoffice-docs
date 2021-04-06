@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLanguageInfo_GetIsBuiltIn
 title: Bool GetIsBuiltIn()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/Bool GetIsBuiltIn()
-intellisense: 1
-classref: 1
-sortOrder: 4000
-keywords: GetIsBuiltIn()
+intellisense: NSLanguageInfo.GetIsBuiltIn
+keywords: NSLanguageInfo, GetIsBuiltIn
+so.topic: reference
 ---
-
 
 Has this row been inserted by SuperOffice priming data
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSLanguageInfo thing;
+Bool isBuiltIn  = thing.GetIsBuiltIn();
+```
 
 

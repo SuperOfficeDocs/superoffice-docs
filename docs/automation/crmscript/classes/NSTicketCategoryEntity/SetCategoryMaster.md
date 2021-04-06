@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_SetCategoryMaster
+title: SetCategoryMaster(Integer categoryMaster)
+intellisense: NSTicketCategoryEntity.SetCategoryMaster
+keywords: NSTicketCategoryEntity, GetCategoryMaster
+so.topic: reference
 ---
-title: Void SetCategoryMaster(Integer CategoryMaster)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetCategoryMaster(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCategoryMaster(Integer)
----
-
 
 The user associated with this category.
 
+**Parameter:** 
+ - **categoryMaster** Integer
 
-
-* **CategoryMaster:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicketCategoryEntity thing;
+Integer categoryMaster;
+thing.SetCategoryMaster(categoryMaster);
+```
 

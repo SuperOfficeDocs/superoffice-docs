@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetSource
+title: SetSource(Source source)
+intellisense: NSSaleEntity.SetSource
+keywords: NSSaleEntity, GetSource
+so.topic: reference
 ---
-title: Void SetSource(NSSource Source)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetSource(NSSource p_0)
-intellisense: 1
-classref: 1
-keywords: SetSource(NSSource)
----
-
 
 The sale source
 
+**Parameter:** 
+ - **source** Source
 
-
-* **Source:** Source
-* **Returns:** Source
-
+```crmscript
+NSSaleEntity thing;
+Source source;
+thing.SetSource(source);
+```
 

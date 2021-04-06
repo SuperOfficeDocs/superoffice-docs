@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSOutgoingMessage
 title: NSOutgoingMessage
-path: /EJScript/Classes/NSOutgoingMessage
-intellisense: 1
-classref: 1
+intellisense: Void.NSOutgoingMessage
+keywords: NSOutgoingMessage
+so.topic: reference
 ---
-
 
 Details about a message to be sent
 
-
-
-
-1. autolist
+1. autolist 
 

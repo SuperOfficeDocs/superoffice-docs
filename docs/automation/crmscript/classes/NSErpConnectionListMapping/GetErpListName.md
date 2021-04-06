@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnectionListMapping_GetErpListName
 title: String GetErpListName()
-path: /EJScript/Classes/NSErpConnectionListMapping/Member functions/String GetErpListName()
-intellisense: 1
-classref: 1
-sortOrder: 3128
-keywords: GetErpListName()
+intellisense: NSErpConnectionListMapping.GetErpListName
+keywords: NSErpConnectionListMapping, GetErpListName
+so.topic: reference
 ---
-
 
 The ERP list name, if the field has a list of values supplied by the ERP Connector
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpConnectionListMapping thing;
+String erpListName  = thing.GetErpListName();
+```
 
 

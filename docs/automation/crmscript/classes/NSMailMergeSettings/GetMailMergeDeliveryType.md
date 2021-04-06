@@ -1,16 +1,26 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_GetMailMergeDeliveryType
 title: Integer GetMailMergeDeliveryType()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Integer GetMailMergeDeliveryType()
-intellisense: 1
-classref: 1
-keywords: GetMailMergeDeliveryType()
+intellisense: NSMailMergeSettings.GetMailMergeDeliveryType
+keywords: NSMailMergeSettings, GetMailMergeDeliveryType
+so.topic: reference
 ---
-
 
 How the merged document is delivered to the recipients.
 
+**Returns:** Integer
 
+     - Enum: 0 = BestFit 
+     - Enum: 1 = Electronic 
+     - Enum: 2 = Mail 
+     - Enum: 3 = Fax 
+     - Enum: 4 = Printer 
+     - Enum: 5 = Xml 
+     - Enum: 6 = XmlFax 
 
-* **Returns:** Integer
+```crmscript
+NSMailMergeSettings thing;
+Integer mailMergeDeliveryType  = thing.GetMailMergeDeliveryType();
+```
 
 

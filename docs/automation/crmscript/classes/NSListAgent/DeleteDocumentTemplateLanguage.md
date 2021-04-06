@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_DeleteDocumentTemplateLanguage
 title: Void DeleteDocumentTemplateLanguage(Integer documentTemplateId, String languageCode)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteDocumentTemplateLanguage(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: DeleteDocumentTemplateLanguage(Integer,String)
+intellisense: NSListAgent.DeleteDocumentTemplateLanguage
+keywords: NSListAgent, DeleteDocumentTemplateLanguage
+so.topic: reference
 ---
-
 
 Deletes language variant of the document template
 
+**Parameters:**
+ - **documentTemplateId** The id of the document template
+ - **languageCode** The language code ('en-US, 'nb-NO', etc)
 
+**Returns:** This method has no return value
 
-* **documentTemplateId:** The id of the document template
-* **languageCode:** The language code ('en-US, 'nb-NO', etc)
-* **Returns:** This method has no return value
-
+```crmscript
+NSListAgent agent;
+Integer documentTemplateId;
+String languageCode;
+Void res = agent.DeleteDocumentTemplateLanguage(documentTemplateId, languageCode);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
+intellisense: NSProjectEventEntity.SetUpdatedBy
+keywords: NSProjectEventEntity, GetUpdatedBy
+so.topic: reference
 ---
-title: Void SetUpdatedBy(NSAssociate UpdatedBy)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetUpdatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatedBy(NSAssociate)
----
-
 
 The person that last updated the projectevent
 
+**Parameter:** 
+ - **updatedBy** Associate
 
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSProjectEventEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
 

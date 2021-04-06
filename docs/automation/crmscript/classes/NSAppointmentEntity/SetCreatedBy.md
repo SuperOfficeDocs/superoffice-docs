@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
+intellisense: NSAppointmentEntity.SetCreatedBy
+keywords: NSAppointmentEntity, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-sortOrder: 994
-keywords: SetCreatedBy(NSAssociate)
----
-
 
 The associate that first created the appointment. The property is read-only.
 
+**Parameter:** 
+ - **createdBy** Associate
 
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSAppointmentEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

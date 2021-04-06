@@ -1,10 +1,10 @@
 ---
-title: String toString()
-path: /EJScript/Classes/Date/Member functions/String toString()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Date_toString
+title: Date.toString()
+intellisense: Date.toString
 sortOrder: 205
 keywords: toString()
+so.topic: reference
 ---
 
 This function returns a string representation of the date, in ISO format.

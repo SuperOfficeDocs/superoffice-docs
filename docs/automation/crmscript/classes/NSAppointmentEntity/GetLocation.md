@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetLocation
 title: String GetLocation()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/String GetLocation()
-intellisense: 1
-classref: 1
-sortOrder: 974
-keywords: GetLocation()
+intellisense: NSAppointmentEntity.GetLocation
+keywords: NSAppointmentEntity, GetLocation
+so.topic: reference
 ---
-
 
 Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointmentEntity thing;
+String location  = thing.GetLocation();
+```
 
 

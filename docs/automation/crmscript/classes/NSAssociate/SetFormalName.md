@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAssociate_SetFormalName
+title: SetFormalName(String formalName)
+intellisense: NSAssociate.SetFormalName
+keywords: NSAssociate, GetFormalName
+so.topic: reference
 ---
-title: Void SetFormalName(String FormalName)
-path: /EJScript/Classes/NSAssociate/Member functions/Void SetFormalName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1269
-keywords: SetFormalName(String)
----
-
 
 The associate's culture formatted formalname (firstname, middleName and lastname, title, mrmrs)
 
+**Parameter:** 
+ - **formalName** String
 
-
-* **FormalName:** String
-* **Returns:** String
-
+```crmscript
+NSAssociate thing;
+String formalName;
+thing.SetFormalName(formalName);
+```
 

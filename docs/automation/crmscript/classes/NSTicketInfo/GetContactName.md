@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketInfo_GetContactName
 title: String GetContactName()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetContactName()
-intellisense: 1
-classref: 1
-keywords: GetContactName()
+intellisense: NSTicketInfo.GetContactName
+keywords: NSTicketInfo, GetContactName
+so.topic: reference
 ---
-
 
 The name of the contact/company connected to the ticket
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketInfo thing;
+String contactName  = thing.GetContactName();
+```
 
 

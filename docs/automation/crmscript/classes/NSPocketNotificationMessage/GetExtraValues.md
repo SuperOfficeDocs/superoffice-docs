@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_GetExtraValues
 title: StringDictionary GetExtraValues()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/StringDictionary GetExtraValues()
-intellisense: 1
-classref: 1
-keywords: GetExtraValues()
+intellisense: NSPocketNotificationMessage.GetExtraValues
+keywords: NSPocketNotificationMessage, GetExtraValues
+so.topic: reference
 ---
-
 
 Additional key/value properties to include in the message
 
+**Returns:** StringDictionary
 
 
-* **Returns:** StringDictionary
+```crmscript
+NSPocketNotificationMessage thing;
+StringDictionary extraValues  = thing.GetExtraValues();
+```
 
 

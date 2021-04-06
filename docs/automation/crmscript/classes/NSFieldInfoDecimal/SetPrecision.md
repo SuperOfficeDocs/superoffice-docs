@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoDecimal_SetPrecision
+title: SetPrecision(Integer precision)
+intellisense: NSFieldInfoDecimal.SetPrecision
+keywords: NSFieldInfoDecimal, GetPrecision
+so.topic: reference
 ---
-title: Void SetPrecision(Integer Precision)
-path: /EJScript/Classes/NSFieldInfoDecimal/Member functions/Void SetPrecision(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3508
-keywords: SetPrecision(Integer)
----
-
 
 How many decimals to display
 
+**Parameter:** 
+ - **precision** Integer
 
-
-* **Precision:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFieldInfoDecimal thing;
+Integer precision;
+thing.SetPrecision(precision);
+```
 

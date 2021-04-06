@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboard_SetDashboardId
+title: SetDashboardId(Integer dashboardId)
+intellisense: NSDashboard.SetDashboardId
+keywords: NSDashboard, GetDashboardId
+so.topic: reference
 ---
-title: Void SetDashboardId(Integer DashboardId)
-path: /EJScript/Classes/NSDashboard/Member functions/Void SetDashboardId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2267
-keywords: SetDashboardId(Integer)
----
-
 
 The dashboard id
 
+**Parameter:** 
+ - **dashboardId** Integer
 
-
-* **DashboardId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDashboard thing;
+Integer dashboardId;
+thing.SetDashboardId(dashboardId);
+```
 

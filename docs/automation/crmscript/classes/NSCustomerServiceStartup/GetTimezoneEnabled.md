@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerServiceStartup_GetTimezoneEnabled
 title: Bool GetTimezoneEnabled()
-path: /EJScript/Classes/NSCustomerServiceStartup/Member functions/Bool GetTimezoneEnabled()
-intellisense: 1
-classref: 1
-sortOrder: 2252
-keywords: GetTimezoneEnabled()
+intellisense: NSCustomerServiceStartup.GetTimezoneEnabled
+keywords: NSCustomerServiceStartup, GetTimezoneEnabled
+so.topic: reference
 ---
-
 
 Is timezone enabled
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSCustomerServiceStartup thing;
+Bool timezoneEnabled  = thing.GetTimezoneEnabled();
+```
 
 

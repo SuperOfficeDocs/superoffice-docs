@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSProduct
 title: NSProduct
-path: /EJScript/Classes/NSProduct
-intellisense: 1
-classref: 1
+intellisense: Void.NSProduct
+keywords: NSProduct
+so.topic: reference
 ---
-
 
 Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
 
-
-
-
-1. autolist
+1. autolist 
 

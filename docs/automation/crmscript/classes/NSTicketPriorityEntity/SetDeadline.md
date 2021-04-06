@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetDeadline
+title: SetDeadline(Integer deadline)
+intellisense: NSTicketPriorityEntity.SetDeadline
+keywords: NSTicketPriorityEntity, GetDeadline
+so.topic: reference
 ---
-title: Void SetDeadline(Integer Deadline)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetDeadline(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeadline(Integer)
----
-
 
 Deadline to add if escalated (minutes)
 
+**Parameter:** 
+ - **deadline** Integer
 
-
-* **Deadline:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicketPriorityEntity thing;
+Integer deadline;
+thing.SetDeadline(deadline);
+```
 

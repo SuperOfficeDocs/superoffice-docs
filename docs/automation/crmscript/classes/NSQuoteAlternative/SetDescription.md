@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_SetDescription
+title: SetDescription(String description)
+intellisense: NSQuoteAlternative.SetDescription
+keywords: NSQuoteAlternative, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 The tool-tip to use in the user interface (on the tab, for instance).
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteAlternative thing;
+String description;
+thing.SetDescription(description);
+```
 

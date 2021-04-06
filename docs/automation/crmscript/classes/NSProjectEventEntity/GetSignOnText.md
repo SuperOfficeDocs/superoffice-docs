@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetSignOnText
 title: String GetSignOnText()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/String GetSignOnText()
-intellisense: 1
-classref: 1
-keywords: GetSignOnText()
+intellisense: NSProjectEventEntity.GetSignOnText
+keywords: NSProjectEventEntity, GetSignOnText
+so.topic: reference
 ---
-
 
 Default text for the activity created when signing on.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProjectEventEntity thing;
+String signOnText  = thing.GetSignOnText();
+```
 
 

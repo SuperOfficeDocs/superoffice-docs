@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProductExtraDataField_SetValue
+title: SetValue(String value)
+intellisense: NSProductExtraDataField.SetValue
+keywords: NSProductExtraDataField, GetValue
+so.topic: reference
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
-
 
 Value for the field. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user's computer is set up).
 
+**Parameter:** 
+ - **value** String
 
-
-* **Value:** String
-* **Returns:** String
-
+```crmscript
+NSProductExtraDataField thing;
+String value;
+thing.SetValue(value);
+```
 

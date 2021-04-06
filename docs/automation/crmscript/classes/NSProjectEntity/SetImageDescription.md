@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetImageDescription
+title: SetImageDescription(String imageDescription)
+intellisense: NSProjectEntity.SetImageDescription
+keywords: NSProjectEntity, GetImageDescription
+so.topic: reference
 ---
-title: Void SetImageDescription(String ImageDescription)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetImageDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetImageDescription(String)
----
-
 
 Description of the project image if it exists. (This is the image that is displayed in the CRM client)
 
+**Parameter:** 
+ - **imageDescription** String
 
-
-* **ImageDescription:** String
-* **Returns:** String
-
+```crmscript
+NSProjectEntity thing;
+String imageDescription;
+thing.SetImageDescription(imageDescription);
+```
 

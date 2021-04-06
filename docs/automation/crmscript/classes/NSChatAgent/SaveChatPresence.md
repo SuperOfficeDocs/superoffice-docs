@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSChatAgent_SaveChatPresence
+title: Void SaveChatPresence(ChatPresenceArray chatPresence)
+intellisense: NSChatAgent.SaveChatPresence
+keywords: NSChatAgent, SaveChatPresence
+so.topic: reference
 ---
-title: Void SaveChatPresence(NSChatPresence[] chatPresence)
-path: /EJScript/Classes/NSChatAgent/Member functions/Void SaveChatPresence(NSChatPresence[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1516
-keywords: SaveChatPresence(NSChatPresence[])
----
-
 
 Save the chat presence for specified users
 
+**Parameters:**
+ - **chatPresence** An array with ChatPresence objects. Only the UserId and Present information is used while saving
 
+**Returns:** void
 
-* **chatPresence:** An array with ChatPresence objects. Only the UserId and Present information is used while saving
-* **Returns:** void
-
+```crmscript
+NSChatAgent agent;
+ChatPresenceArray chatPresence;
+Void res = agent.SaveChatPresence(chatPresence);
+```
 

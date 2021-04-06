@@ -1,6 +1,6 @@
 ---
-title: crmscript_persons_and_org
-description: Persons and organizations
+uid: crmscript_persons_and_org
+title: Persons and organizations
 author:
 so.date:
 keywords:

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetIsIndexed
 title: Bool GetIsIndexed()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Bool GetIsIndexed()
-intellisense: 1
-classref: 1
-keywords: GetIsIndexed()
+intellisense: NSUserDefinedFieldInfo.GetIsIndexed
+keywords: NSUserDefinedFieldInfo, GetIsIndexed
+so.topic: reference
 ---
-
 
 Is this field indexed? 0 if no, index no. if yes
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSUserDefinedFieldInfo thing;
+Bool isIndexed  = thing.GetIsIndexed();
+```
 
 

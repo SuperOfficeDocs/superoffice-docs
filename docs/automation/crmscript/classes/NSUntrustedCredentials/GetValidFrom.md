@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUntrustedCredentials_GetValidFrom
 title: DateTime GetValidFrom()
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/DateTime GetValidFrom()
-intellisense: 1
-classref: 1
-keywords: GetValidFrom()
+intellisense: NSUntrustedCredentials.GetValidFrom
+keywords: NSUntrustedCredentials, GetValidFrom
+so.topic: reference
 ---
-
 
 Credentials are valid from this date.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSUntrustedCredentials thing;
+DateTime validFrom  = thing.GetValidFrom();
+```
 
 

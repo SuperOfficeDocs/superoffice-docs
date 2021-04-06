@@ -1,18 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentAgent_CreateDefaultDocumentEntity
 title: NSDocumentEntity CreateDefaultDocumentEntity()
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocumentEntity CreateDefaultDocumentEntity()
-intellisense: 1
-classref: 1
-sortOrder: 2498
-keywords: CreateDefaultDocumentEntity()
+intellisense: NSDocumentAgent.CreateDefaultDocumentEntity
+keywords: NSDocumentAgent, CreateDefaultDocumentEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSDocumentEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSDocumentEntity with default values.
 
-
-Loading default values into a new DocumentEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New DocumentEntity with default values
-
+```crmscript
+NSDocumentAgent agent;
+NSDocumentEntity thing = agent.CreateDefaultDocumentEntity();
+thing = agent.SaveDocumentEntity(thing);
+```
 

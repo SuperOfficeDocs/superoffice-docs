@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetAllFromListDefinition
+title: ListItemEntityArray GetAllFromListDefinition(Integer udListDefinitionId, Bool includeDeleted)
+intellisense: NSListAgent.GetAllFromListDefinition
+keywords: NSListAgent, GetAllFromListDefinition
+so.topic: reference
 ---
-title: NSListItemEntity[] GetAllFromListDefinition(Integer udListDefinitionId, Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity[] GetAllFromListDefinition(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
-keywords: GetAllFromListDefinition(Integer,Bool)
----
-
 
 Get all list items for the specified list defintion
 
+**Parameters:**
+ - **udListDefinitionId** The id of the list definition, indicating which list to get the item from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
+ - **includeDeleted** Include deleted items in result?
 
+**Returns:** The list items
 
-* **udListDefinitionId:** The id of the list definition, indicating which list to get the item from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **includeDeleted:** Include deleted items in result?
-* **Returns:** The list items
-
+```crmscript
+NSListAgent agent;
+Integer udListDefinitionId;
+Bool includeDeleted;
+ListItemEntityArray res = agent.GetAllFromListDefinition(udListDefinitionId, includeDeleted);
+```
 

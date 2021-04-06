@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetStartDate
 title: DateTime GetStartDate()
-path: /EJScript/Classes/NSAppointment/Member functions/DateTime GetStartDate()
-intellisense: 1
-classref: 1
-sortOrder: 725
-keywords: GetStartDate()
+intellisense: NSAppointment.GetStartDate
+keywords: NSAppointment, GetStartDate
+so.topic: reference
 ---
-
 
 date + start time planned
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSAppointment thing;
+DateTime startDate  = thing.GetStartDate();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSPerson/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSPerson.GetDescription
+keywords: NSPerson, GetDescription
+so.topic: reference
 ---
 
+Info text/description on person. 
 
-Info text/description on person.
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSPerson thing;
+String description  = thing.GetDescription();
+```
 
 

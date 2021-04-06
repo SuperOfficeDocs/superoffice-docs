@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSCustomerServiceAgent_SaveCustomerCenterConfig
+title: NSCustomerCenterConfig SaveCustomerCenterConfig(NSCustomerCenterConfig customerCenterConfig);
+intellisense: NSCustomerServiceAgent.SaveCustomerCenterConfig
+keywords: NSCustomerServiceAgent, SaveCustomerCenterConfig
+so.topic: reference
 ---
-title: NSCustomerCenterConfig SaveCustomerCenterConfig(NSCustomerCenterConfig customerCenterConfig)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSCustomerCenterConfig SaveCustomerCenterConfig(NSCustomerCenterConfig p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2229
-keywords: SaveCustomerCenterConfig(NSCustomerCenterConfig)
----
+	  
+Updates the existing NSCustomerCenterConfig or creates a new NSCustomerCenterConfig if the id parameter is 0
+	  
+**Parameters**:
+ - **customerCenterConfig** The NSCustomerCenterConfig to save.
 
+**Returns:** New or updated NSCustomerCenterConfig
 
-Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty
-
-
-
-* **customerCenterConfig:** The CustomerCenterConfig that is saved
-* **Returns:** New or updated CustomerCenterConfig
-
+```crmscript
+NSCustomerService  agent;
+NSCustomerCenterConfig thing = agent.CreateDefaultCustomerCenterConfig();
+thing = agent.SaveCustomerCenterConfig(thing);
+```
 

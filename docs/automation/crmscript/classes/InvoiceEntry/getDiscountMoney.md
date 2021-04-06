@@ -1,10 +1,10 @@
 ---
-title: String getDiscountMoney()
-path: /EJScript/Classes/InvoiceEntry/Member functions/String getDiscountMoney()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_InvoiceEntry_getDiscountMoney
+title: InvoiceEntry.getDiscountMoney()
+intellisense: InvoiceEntry.getDiscountMoney
 sortOrder: 435
 keywords: getDiscountMoney()
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_GetQuoteAttachmentIds
+title: IntegerArray GetQuoteAttachmentIds()
+intellisense: NSQuotePublishDocuments.GetQuoteAttachmentIds
+keywords: NSQuotePublishDocuments, GetQuoteAttachmentIds
+so.topic: reference
 ---
-title: Integer[] GetQuoteAttachmentIds()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Integer[] GetQuoteAttachmentIds()
-intellisense: 1
-classref: 1
-keywords: GetQuoteAttachmentIds()
----
-
 
 Array of id's of any attachments (standard + custom for this version)
 
+**Returns:** IntegerArray
 
 
-* **Returns:** IntegerArray
+```crmscript
+NSQuotePublishDocuments thing;
+IntegerArray quoteAttachmentIds  = thing.GetQuoteAttachmentIds();
+```
 
 

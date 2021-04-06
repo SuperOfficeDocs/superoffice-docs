@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyOurContact(Integer p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetCompanyOurContact(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_SetCompanyOurContact_Integer_p_0
+title: NSSelectionMemberEditValues.SetCompanyOurContact(Integer p_0)
+intellisense: NSSelectionMemberEditValues.SetCompanyOurContact
 keywords: SetCompanyOurContact(Integer)
+so.topic: reference
 ---
 
 

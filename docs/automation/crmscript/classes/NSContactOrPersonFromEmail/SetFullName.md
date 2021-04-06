@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactOrPersonFromEmail_SetFullName
+title: SetFullName(String fullName)
+intellisense: NSContactOrPersonFromEmail.SetFullName
+keywords: NSContactOrPersonFromEmail, GetFullName
+so.topic: reference
 ---
-title: Void SetFullName(String FullName)
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/Void SetFullName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1933
-keywords: SetFullName(String)
----
-
 
 The person fullname
 
+**Parameter:** 
+ - **fullName** String
 
-
-* **FullName:** String
-* **Returns:** String
-
+```crmscript
+NSContactOrPersonFromEmail thing;
+String fullName;
+thing.SetFullName(fullName);
+```
 

@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSUserInfo
 title: NSUserInfo
-path: /EJScript/Classes/NSUserInfo
-intellisense: 1
-classref: 1
+intellisense: Void.NSUserInfo
+keywords: NSUserInfo
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

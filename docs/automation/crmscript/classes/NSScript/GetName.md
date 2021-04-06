@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSScript_GetName
 title: String GetName()
-path: /EJScript/Classes/NSScript/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSScript.GetName
+keywords: NSScript, GetName
+so.topic: reference
 ---
-
 
 A description of this script
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSScript thing;
+String name  = thing.GetName();
+```
 
 

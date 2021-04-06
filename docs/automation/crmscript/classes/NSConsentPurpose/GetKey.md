@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentPurpose_GetKey
 title: String GetKey()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/String GetKey()
-intellisense: 1
-classref: 1
-sortOrder: 1682
-keywords: GetKey()
+intellisense: NSConsentPurpose.GetKey
+keywords: NSConsentPurpose, GetKey
+so.topic: reference
 ---
-
 
 The key used to refer to this purpose, like #Process, #Emarketing etc.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentPurpose thing;
+String key  = thing.GetKey();
+```
 
 

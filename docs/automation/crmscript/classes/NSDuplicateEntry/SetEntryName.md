@@ -1,10 +1,10 @@
 ---
-title: Void SetEntryName(String p0)
-path: /EJScript/Classes/NSDuplicateEntry/Member functions/Void SetEntryName(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSDuplicateEntry_SetEntryName_String_p_0
+title: NSDuplicateEntry.SetEntryName(String p_0)
+intellisense: NSDuplicateEntry.SetEntryName
 sortOrder: 2728
 keywords: SetEntryName(String)
+so.topic: reference
 ---
 
 Name of duplicate entry

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTaskListItem_SetValue
+title: SetValue(String value)
+intellisense: NSTaskListItem.SetValue
+keywords: NSTaskListItem, GetValue
+so.topic: reference
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
-
 
 The list item
 
+**Parameter:** 
+ - **value** String
 
-
-* **Value:** String
-* **Returns:** String
-
+```crmscript
+NSTaskListItem thing;
+String value;
+thing.SetValue(value);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_SetRegistered
+title: SetRegistered(DateTime registered)
+intellisense: NSSystemEventEntity.SetRegistered
+keywords: NSSystemEventEntity, GetRegistered
+so.topic: reference
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetRegistered(DateTime)
----
-
 
 Registered when
 
+**Parameter:** 
+ - **registered** DateTime
 
-
-* **Registered:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSSystemEventEntity thing;
+DateTime registered;
+thing.SetRegistered(registered);
+```
 

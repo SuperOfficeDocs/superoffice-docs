@@ -1,9 +1,9 @@
 ---
-title: Void addListCRMProject(Integer p0)
-path: /EJScript/Classes/SpmShipment/Member functions/Void addListCRMProject(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmShipment_addListCRMProject_Integer_p_0
+title: SpmShipment.addListCRMProject(Integer p_0)
+intellisense: SpmShipment.addListCRMProject
 keywords: addListCRMProject(Integer)
+so.topic: reference
 ---
 
 

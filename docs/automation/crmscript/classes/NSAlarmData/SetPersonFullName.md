@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAlarmData_SetPersonFullName
+title: SetPersonFullName(String personFullName)
+intellisense: NSAlarmData.SetPersonFullName
+keywords: NSAlarmData, GetPersonFullName
+so.topic: reference
 ---
-title: Void SetPersonFullName(String PersonFullName)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetPersonFullName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 685
-keywords: SetPersonFullName(String)
----
-
 
 The associate's culture formatted fullname (firstname, middleName and lastname)
 
+**Parameter:** 
+ - **personFullName** String
 
-
-* **PersonFullName:** String
-* **Returns:** String
-
+```crmscript
+NSAlarmData thing;
+String personFullName;
+thing.SetPersonFullName(personFullName);
+```
 

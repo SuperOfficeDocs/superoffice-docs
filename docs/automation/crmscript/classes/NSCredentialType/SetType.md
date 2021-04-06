@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCredentialType_SetType
+title: SetType(String type)
+intellisense: NSCredentialType.SetType
+keywords: NSCredentialType, GetType
+so.topic: reference
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSCredentialType/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2081
-keywords: SetType(String)
----
-
 
 Type of credentials, corresponding to name of plugin and type in the credentials table
 
+**Parameter:** 
+ - **type** String
 
-
-* **Type:** String
-* **Returns:** String
-
+```crmscript
+NSCredentialType thing;
+String type;
+thing.SetType(type);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetCode
+title: SetCode(String code)
+intellisense: NSProduct.SetCode
+keywords: NSProduct, GetCode
+so.topic: reference
 ---
-title: Void SetCode(String Code)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetCode(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCode(String)
----
-
 
 The product code / article number in the product supplier system.
 
+**Parameter:** 
+ - **code** String
 
-
-* **Code:** String
-* **Returns:** String
-
+```crmscript
+NSProduct thing;
+String code;
+thing.SetCode(code);
+```
 

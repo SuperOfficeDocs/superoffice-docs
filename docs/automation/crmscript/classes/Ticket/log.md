@@ -1,9 +1,9 @@
 ---
-title: Void log(String message)
-path: /EJScript/Classes/Ticket/Member functions/Void log(String message)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Ticket_log_String_message
+title: Ticket.log(String message)
+intellisense: Ticket.log
 keywords: log(String)
+so.topic: reference
 ---
 
 

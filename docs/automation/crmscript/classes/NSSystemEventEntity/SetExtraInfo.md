@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_SetExtraInfo
+title: SetExtraInfo(Integer extraInfo)
+intellisense: NSSystemEventEntity.SetExtraInfo
+keywords: NSSystemEventEntity, GetExtraInfo
+so.topic: reference
 ---
-title: Void SetExtraInfo(Integer ExtraInfo)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetExtraInfo(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraInfo(Integer)
----
-
 
 Extra information (area id for prototype rebuild, etc)
 
+**Parameter:** 
+ - **extraInfo** Integer
 
-
-* **ExtraInfo:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSystemEventEntity thing;
+Integer extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
 

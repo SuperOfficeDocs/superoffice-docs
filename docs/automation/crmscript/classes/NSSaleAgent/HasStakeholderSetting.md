@@ -1,12 +1,12 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_HasStakeholderSetting
+title: Bool HasStakeholderSetting(Integer saleId)
+intellisense: NSSaleAgent.HasStakeholderSetting
+keywords: NSSaleAgent, HasStakeholderSetting
+so.topic: reference
 ---
-title: Bool HasStakeholderSetting(Integer p0)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Bool HasStakeholderSetting(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: HasStakeholderSetting(Integer)
----
 
 
-* **saleId**
 
-
+**Parameters:**
+ - **saleId** 

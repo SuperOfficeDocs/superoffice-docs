@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetProjectName
 title: String GetProjectName()
-path: /EJScript/Classes/NSDocument/Member functions/String GetProjectName()
-intellisense: 1
-classref: 1
-sortOrder: 2444
-keywords: GetProjectName()
+intellisense: NSDocument.GetProjectName
+keywords: NSDocument, GetProjectName
+so.topic: reference
 ---
-
 
 Project name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocument thing;
+String projectName  = thing.GetProjectName();
+```
 
 

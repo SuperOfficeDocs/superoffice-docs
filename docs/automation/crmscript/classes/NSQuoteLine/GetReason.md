@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLine_GetReason
 title: String GetReason()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetReason()
-intellisense: 1
-classref: 1
-keywords: GetReason()
+intellisense: NSQuoteLine.GetReason
+keywords: NSQuoteLine, GetReason
+so.topic: reference
 ---
-
 
 If QuoteStatus is not OK, then this field contains a localized explanation that the user can be shown.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteLine thing;
+String reason  = thing.GetReason();
+```
 
 

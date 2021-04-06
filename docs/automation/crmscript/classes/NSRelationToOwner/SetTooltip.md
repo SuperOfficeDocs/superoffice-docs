@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRelationToOwner_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSRelationToOwner.SetTooltip
+keywords: NSRelationToOwner, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSRelationToOwner/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the RelationToOwner list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String RelationToOwner tooltip description.
 
+```crmscript
+NSRelationToOwner thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

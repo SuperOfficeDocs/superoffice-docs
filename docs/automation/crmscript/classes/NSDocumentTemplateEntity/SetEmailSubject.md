@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_SetEmailSubject
+title: SetEmailSubject(String emailSubject)
+intellisense: NSDocumentTemplateEntity.SetEmailSubject
+keywords: NSDocumentTemplateEntity, GetEmailSubject
+so.topic: reference
 ---
-title: Void SetEmailSubject(String EmailSubject)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetEmailSubject(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2684
-keywords: SetEmailSubject(String)
----
-
 
 Subject to use if document template is an email.
 
+**Parameter:** 
+ - **emailSubject** String
 
-
-* **EmailSubject:** String
-* **Returns:** String
-
+```crmscript
+NSDocumentTemplateEntity thing;
+String emailSubject;
+thing.SetEmailSubject(emailSubject);
+```
 

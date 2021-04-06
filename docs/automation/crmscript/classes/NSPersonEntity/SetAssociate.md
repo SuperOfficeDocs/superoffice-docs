@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetAssociate
+title: SetAssociate(Associate associate)
+intellisense: NSPersonEntity.SetAssociate
+keywords: NSPersonEntity, GetAssociate
+so.topic: reference
 ---
-title: Void SetAssociate(NSAssociate Associate)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociate(NSAssociate)
----
-
 
 The associate owning this person (similar to contact.Associate) - usually blank. Use the Person.Contact.Associate instead.  Intended for use when individual persons are created (i.e. when Person.Contact is blank)
 
+**Parameter:** 
+ - **associate** Associate
 
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSPersonEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
 

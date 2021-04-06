@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetOptions
+title: DashboardTileOptionArray GetOptions()
+intellisense: NSDashboardTile.GetOptions
+keywords: NSDashboardTile, GetOptions
+so.topic: reference
 ---
-title: NSDashboardTileOption[] GetOptions()
-path: /EJScript/Classes/NSDashboardTile/Member functions/NSDashboardTileOption[] GetOptions()
-intellisense: 1
-classref: 1
-sortOrder: 2295
-keywords: GetOptions()
----
-
 
 The tile options
 
+**Returns:** DashboardTileOptionArray
 
 
-* **Returns:** DashboardTileOptionArray
+```crmscript
+NSDashboardTile thing;
+DashboardTileOptionArray options  = thing.GetOptions();
+```
 
 

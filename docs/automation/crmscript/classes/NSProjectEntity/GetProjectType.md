@@ -1,12 +1,19 @@
----
-title: NSProjectType GetProjectType()
-path: /EJScript/Classes/NSProjectEntity/Member functions/NSProjectType GetProjectType()
-intellisense: 1
-classref: 1
-keywords: GetProjectType()
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetProjectType
+title: ProjectType GetProjectType()
+intellisense: NSProjectEntity.GetProjectType
+keywords: NSProjectEntity, GetProjectType
+so.topic: reference
 ---
 
+Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...
 
-* **Returns:** ProjectType
+**Returns:** ProjectType
+
+
+```crmscript
+NSProjectEntity thing;
+ProjectType projectType  = thing.GetProjectType();
+```
 
 

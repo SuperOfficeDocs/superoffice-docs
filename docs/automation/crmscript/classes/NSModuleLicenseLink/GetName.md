@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_GetName
 title: String GetName()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSModuleLicenseLink.GetName
+keywords: NSModuleLicenseLink, GetName
+so.topic: reference
 ---
-
 
 The name of the module license
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSModuleLicenseLink thing;
+String name  = thing.GetName();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetRank
+title: SetRank(Integer rank)
+intellisense: NSWebPanelEntity.SetRank
+keywords: NSWebPanelEntity, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 The rank of the web panel
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWebPanelEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

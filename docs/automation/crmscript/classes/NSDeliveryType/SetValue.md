@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSDeliveryType_SetValue
+title: SetValue(String value)
+intellisense: NSDeliveryType.SetValue
+keywords: NSDeliveryType, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSDeliveryType/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2379
-keywords: SetValue(String)
----
 
+Set the name of the DeliveryType item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String DeliveryType name.
 
+```crmscript
+NSDeliveryType thing;
+thing.SetValue("frotz");
+```
 

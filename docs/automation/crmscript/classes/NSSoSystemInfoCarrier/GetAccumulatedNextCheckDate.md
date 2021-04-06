@@ -1,9 +1,9 @@
 ---
-title: DateTime GetAccumulatedNextCheckDate()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/DateTime GetAccumulatedNextCheckDate()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetAccumulatedNextCheckDate
+title: NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate()
+intellisense: NSSoSystemInfoCarrier.GetAccumulatedNextCheckDate
 keywords: GetAccumulatedNextCheckDate()
+so.topic: reference
 ---
 
 

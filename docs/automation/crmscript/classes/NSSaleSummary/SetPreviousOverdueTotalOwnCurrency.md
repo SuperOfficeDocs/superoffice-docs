@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetPreviousOverdueTotalOwnCurrency
+title: SetPreviousOverdueTotalOwnCurrency(Float previousOverdueTotalOwnCurrency)
+intellisense: NSSaleSummary.SetPreviousOverdueTotalOwnCurrency
+keywords: NSSaleSummary, GetPreviousOverdueTotalOwnCurrency
+so.topic: reference
 ---
-title: Void SetPreviousOverdueTotalOwnCurrency(Float PreviousOverdueTotalOwnCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetPreviousOverdueTotalOwnCurrency(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetPreviousOverdueTotalOwnCurrency(Float)
----
-
 
 Summed amount for all open sales with date before this period in default currency for the current user
 
+**Parameter:** 
+ - **previousOverdueTotalOwnCurrency** Float
 
-
-* **PreviousOverdueTotalOwnCurrency:** Float
-* **Returns:** Float
-
+```crmscript
+NSSaleSummary thing;
+Float previousOverdueTotalOwnCurrency;
+thing.SetPreviousOverdueTotalOwnCurrency(previousOverdueTotalOwnCurrency);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetWebPanelId
+title: SetWebPanelId(Integer webPanelId)
+intellisense: NSWebPanelEntity.SetWebPanelId
+keywords: NSWebPanelEntity, GetWebPanelId
+so.topic: reference
 ---
-title: Void SetWebPanelId(Integer WebPanelId)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetWebPanelId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetWebPanelId(Integer)
----
-
 
 The identity of the web panel
 
+**Parameter:** 
+ - **webPanelId** Integer
 
-
-* **WebPanelId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWebPanelEntity thing;
+Integer webPanelId;
+thing.SetWebPanelId(webPanelId);
+```
 

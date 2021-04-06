@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_GetName
 title: String GetName()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSSelectableMDOListItem.GetName
+keywords: NSSelectableMDOListItem, GetName
+so.topic: reference
 ---
-
 
 The name of the ListItem
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSelectableMDOListItem thing;
+String name  = thing.GetName();
+```
 
 

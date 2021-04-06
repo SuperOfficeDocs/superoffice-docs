@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAddressSyncData_SetLongitude
+title: SetLongitude(Float longitude)
+intellisense: NSAddressSyncData.SetLongitude
+keywords: NSAddressSyncData, GetLongitude
+so.topic: reference
 ---
-title: Void SetLongitude(Float Longitude)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetLongitude(Float p_0)
-intellisense: 1
-classref: 1
-sortOrder: 638
-keywords: SetLongitude(Float)
----
 
 
-* **Longitude:** Float
-* **Returns:** Float
 
+**Parameter:** 
+ - **longitude** Float
+
+```crmscript
+NSAddressSyncData thing;
+Float longitude;
+thing.SetLongitude(longitude);
+```
 

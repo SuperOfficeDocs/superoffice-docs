@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSalesActivity
 title: NSSalesActivity
-path: /EJScript/Classes/NSSalesActivity
-intellisense: 1
-classref: 1
+intellisense: Void.NSSalesActivity
+keywords: NSSalesActivity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

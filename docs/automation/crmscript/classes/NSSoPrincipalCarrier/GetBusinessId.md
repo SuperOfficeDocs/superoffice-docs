@@ -1,9 +1,9 @@
 ---
-title: Integer GetBusinessId()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetBusinessId()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetBusinessId
+title: NSSoPrincipalCarrier.GetBusinessId()
+intellisense: NSSoPrincipalCarrier.GetBusinessId
 keywords: GetBusinessId()
+so.topic: reference
 ---
 
 

@@ -1,24 +1,27 @@
+﻿---
+uid: crmscript_ref_NSErpSyncActorTypeMapping_SetActorTypeErp
+title: SetActorTypeErp(ErpActorType actorTypeErp)
+intellisense: NSErpSyncActorTypeMapping.SetActorTypeErp
+keywords: NSErpSyncActorTypeMapping, GetActorTypeErp
+so.topic: reference
 ---
-title: Void SetActorTypeErp(Integer p0)
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/Void SetActorTypeErp(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3171
-keywords: SetActorTypeErp(Integer)
----
-
 
 The actor type (ERP side)
 
-* Unknown=0
-* Customer=1
-* Supplier=2
-* Partner=3
-* Person=4
-* Project=5
-* Employee=6
-* Sale=7
+**Parameter:** 
+ - **actorTypeErp** ErpActorType
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Customer 
+     - Enum: 2 = Supplier 
+     - Enum: 3 = Partner 
+     - Enum: 4 = Person 
+     - Enum: 5 = Project 
+     - Enum: 6 = Employee 
+     - Enum: 7 = Sale 
 
-* **p0:** Integer
-* **Returns:** Void
+```crmscript
+NSErpSyncActorTypeMapping thing;
+ErpActorType actorTypeErp;
+thing.SetActorTypeErp(actorTypeErp);
+```
 

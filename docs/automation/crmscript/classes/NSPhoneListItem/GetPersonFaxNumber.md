@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListItem_GetPersonFaxNumber
 title: String GetPersonFaxNumber()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetPersonFaxNumber()
-intellisense: 1
-classref: 1
-keywords: GetPersonFaxNumber()
+intellisense: NSPhoneListItem.GetPersonFaxNumber
+keywords: NSPhoneListItem, GetPersonFaxNumber
+so.topic: reference
 ---
-
 
 Actual phone number as eneterd by the user
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPhoneListItem thing;
+String personFaxNumber  = thing.GetPersonFaxNumber();
+```
 
 

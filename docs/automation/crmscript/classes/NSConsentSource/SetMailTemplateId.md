@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentSource_SetMailTemplateId
+title: SetMailTemplateId(Integer mailTemplateId)
+intellisense: NSConsentSource.SetMailTemplateId
+keywords: NSConsentSource, GetMailTemplateId
+so.topic: reference
 ---
-title: Void SetMailTemplateId(Integer MailTemplateId)
-path: /EJScript/Classes/NSConsentSource/Member functions/Void SetMailTemplateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1712
-keywords: SetMailTemplateId(Integer)
----
-
 
 The mail template to use when automatically sending emails to new persons created with this consent source.
 
+**Parameter:** 
+ - **mailTemplateId** Integer
 
-
-* **MailTemplateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSConsentSource thing;
+Integer mailTemplateId;
+thing.SetMailTemplateId(mailTemplateId);
+```
 

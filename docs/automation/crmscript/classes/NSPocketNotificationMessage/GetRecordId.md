@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_GetRecordId
 title: Integer GetRecordId()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Integer GetRecordId()
-intellisense: 1
-classref: 1
-keywords: GetRecordId()
+intellisense: NSPocketNotificationMessage.GetRecordId
+keywords: NSPocketNotificationMessage, GetRecordId
+so.topic: reference
 ---
-
 
 If the message is about some specific database record, this could be its primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPocketNotificationMessage thing;
+Integer recordId  = thing.GetRecordId();
+```
 
 

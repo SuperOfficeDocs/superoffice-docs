@@ -1,14 +1,13 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_SetPublishEventDate
+title: SetPublishEventDate(DateTime publishDate)
+intellisense: NSDocumentEntity.SetPublishEventDate
+keywords: NSDocumentEntity, SetPublishEventDate
+so.topic: reference
 ---
-title: Void SetPublishEventDate(DateTime fields)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetPublishEventDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2607
-keywords: SetPublishEventDate(DateTime)
----
 
+Publish event date on DocumentEntity.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishDate** DateTime.
 

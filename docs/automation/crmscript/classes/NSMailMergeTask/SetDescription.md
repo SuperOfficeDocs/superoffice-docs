@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeTask_SetDescription
+title: SetDescription(String description)
+intellisense: NSMailMergeTask.SetDescription
+keywords: NSMailMergeTask, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 Text describing task
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSMailMergeTask thing;
+String description;
+thing.SetDescription(description);
+```
 

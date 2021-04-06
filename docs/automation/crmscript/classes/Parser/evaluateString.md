@@ -1,9 +1,9 @@
 ---
-title: String evaluateString(String stringToParse)
-path: /EJScript/Classes/Parser/Member functions/String evaluateString(String stringToParse)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Parser_evaluateString_String_stringToParse
+title: Parser.evaluateString(String stringToParse)
+intellisense: Parser.evaluateString
 keywords: evaluateString(String)
+so.topic: reference
 ---
 
 Parse a text, and return the evaluated result from a RETURN statement inside the text.

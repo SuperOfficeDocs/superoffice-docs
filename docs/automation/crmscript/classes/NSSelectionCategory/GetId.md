@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionCategory_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSSelectionCategory/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSSelectionCategory.GetId
+keywords: NSSelectionCategory, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the SelectionCategory
 
-* **Returns:** Integer
+**Returns:** Integer SelectionCategory id.
 
+```crmscript
+NSSelectionCategory thing;
+Integer id = thing.GetId();
+```
 

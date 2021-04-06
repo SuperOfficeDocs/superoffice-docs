@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetAppointmentId
 title: Integer GetAppointmentId()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetAppointmentId()
-intellisense: 1
-classref: 1
-sortOrder: 646
-keywords: GetAppointmentId()
+intellisense: NSAlarmData.GetAppointmentId
+keywords: NSAlarmData, GetAppointmentId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAlarmData thing;
+Integer appointmentId  = thing.GetAppointmentId();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_GetDisplayTooltip
 title: String GetDisplayTooltip()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetDisplayTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 1141
-keywords: GetDisplayTooltip()
+intellisense: NSArchiveColumnInfo.GetDisplayTooltip
+keywords: NSArchiveColumnInfo, GetDisplayTooltip
+so.topic: reference
 ---
-
 
 The column tooltip, used in the column list and in the column headings
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSArchiveColumnInfo thing;
+String displayTooltip  = thing.GetDisplayTooltip();
+```
 
 

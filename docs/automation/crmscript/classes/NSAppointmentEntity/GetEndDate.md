@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetEndDate
 title: DateTime GetEndDate()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/DateTime GetEndDate()
-intellisense: 1
-classref: 1
-sortOrder: 933
-keywords: GetEndDate()
+intellisense: NSAppointmentEntity.GetEndDate
+keywords: NSAppointmentEntity, GetEndDate
+so.topic: reference
 ---
-
 
 Date + end time planned
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSAppointmentEntity thing;
+DateTime endDate  = thing.GetEndDate();
+```
 
 

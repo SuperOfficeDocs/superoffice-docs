@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoAttachment_SetDefaultValue
+title: SetDefaultValue(Integer defaultValue)
+intellisense: NSFieldInfoAttachment.SetDefaultValue
+keywords: NSFieldInfoAttachment, GetDefaultValue
+so.topic: reference
 ---
-title: Void SetDefaultValue(Integer DefaultValue)
-path: /EJScript/Classes/NSFieldInfoAttachment/Member functions/Void SetDefaultValue(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3458
-keywords: SetDefaultValue(Integer)
----
-
 
 Default attachment id value
 
+**Parameter:** 
+ - **defaultValue** Integer
 
-
-* **DefaultValue:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFieldInfoAttachment thing;
+Integer defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
 

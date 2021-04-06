@@ -1,10 +1,10 @@
 ---
-title: Bool exists(String key)
-path: /EJScript/Classes/Map/Member functions/Bool exists(String key)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Map_exists_String_key
+title: Map.exists(String key)
+intellisense: Map.exists
 sortOrder: 525
 keywords: exists(String)
+so.topic: reference
 ---
 
 

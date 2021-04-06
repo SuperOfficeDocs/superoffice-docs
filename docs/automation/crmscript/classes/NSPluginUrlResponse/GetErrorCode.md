@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPluginUrlResponse_GetErrorCode
 title: String GetErrorCode()
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/String GetErrorCode()
-intellisense: 1
-classref: 1
-keywords: GetErrorCode()
+intellisense: NSPluginUrlResponse.GetErrorCode
+keywords: NSPluginUrlResponse, GetErrorCode
+so.topic: reference
 ---
-
 
 An error code, if available.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPluginUrlResponse thing;
+String errorCode  = thing.GetErrorCode();
+```
 
 

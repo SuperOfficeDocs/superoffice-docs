@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionAttachment_SetIncluded
+title: SetIncluded(Bool included)
+intellisense: NSQuoteVersionAttachment.SetIncluded
+keywords: NSQuoteVersionAttachment, GetIncluded
+so.topic: reference
 ---
-title: Void SetIncluded(Bool Included)
-path: /EJScript/Classes/NSQuoteVersionAttachment/Member functions/Void SetIncluded(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIncluded(Bool)
----
-
 
 Will this attachment be included in the next 'Send Quote' operation
 
+**Parameter:** 
+ - **included** Bool
 
-
-* **Included:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteVersionAttachment thing;
+Bool included;
+thing.SetIncluded(included);
+```
 

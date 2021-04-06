@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTabOrder_GetOrder
 title: String GetOrder()
-path: /EJScript/Classes/NSTabOrder/Member functions/String GetOrder()
-intellisense: 1
-classref: 1
-keywords: GetOrder()
+intellisense: NSTabOrder.GetOrder
+keywords: NSTabOrder, GetOrder
+so.topic: reference
 ---
-
 
 The actual tab order
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTabOrder thing;
+String order  = thing.GetOrder();
+```
 
 

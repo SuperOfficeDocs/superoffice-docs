@@ -1,13 +1,19 @@
----
-title: NSAssociate GetSupportAssociate()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSAssociate GetSupportAssociate()
-intellisense: 1
-classref: 1
-sortOrder: 1852
-keywords: GetSupportAssociate()
+﻿---
+uid: crmscript_ref_NSContactEntity_GetSupportAssociate
+title: Associate GetSupportAssociate()
+intellisense: NSContactEntity.GetSupportAssociate
+keywords: NSContactEntity, GetSupportAssociate
+so.topic: reference
 ---
 
 
-* **Returns:** Associate
+
+**Returns:** Associate
+
+
+```crmscript
+NSContactEntity thing;
+Associate supportAssociate  = thing.GetSupportAssociate();
+```
 
 

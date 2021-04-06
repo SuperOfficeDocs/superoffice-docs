@@ -1,18 +1,28 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetCalMethod
+title: SetCalMethod(Integer calMethod)
+intellisense: NSEMailEntity.SetCalMethod
+keywords: NSEMailEntity, GetCalMethod
+so.topic: reference
 ---
-title: Void SetCalMethod(Integer CalMethod)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetCalMethod(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2975
-keywords: SetCalMethod(Integer)
----
-
 
 Method stored in the associated iCal appointment. Indicates if the iCal data is a reply, counter proposal etc.
 
+**Parameter:** 
+ - **calMethod** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Add 
+     - Enum: 2 = Cancel 
+     - Enum: 3 = Counter 
+     - Enum: 4 = DeclineCounter 
+     - Enum: 5 = Publish 
+     - Enum: 6 = Refresh 
+     - Enum: 7 = Reply 
+     - Enum: 8 = Request 
 
-
-* **CalMethod:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailEntity thing;
+Integer calMethod;
+thing.SetCalMethod(calMethod);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRefCountEntity_SetAllocate
+title: SetAllocate(Bool allocate)
+intellisense: NSRefCountEntity.SetAllocate
+keywords: NSRefCountEntity, GetAllocate
+so.topic: reference
 ---
-title: Void SetAllocate(Bool Allocate)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetAllocate(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetAllocate(Bool)
----
-
 
 Allocate numbers automatically
 
+**Parameter:** 
+ - **allocate** Bool
 
-
-* **Allocate:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSRefCountEntity thing;
+Bool allocate;
+thing.SetAllocate(allocate);
+```
 

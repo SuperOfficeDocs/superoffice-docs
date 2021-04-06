@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPerson_GetLegalBase
+title: LegalBase GetLegalBase()
+intellisense: NSConsentPerson.GetLegalBase
+keywords: NSConsentPerson, GetLegalBase
+so.topic: reference
 ---
-title: NSLegalBase GetLegalBase()
-path: /EJScript/Classes/NSConsentPerson/Member functions/NSLegalBase GetLegalBase()
-intellisense: 1
-classref: 1
-sortOrder: 1664
-keywords: GetLegalBase()
----
-
 
 The legal base
 
+**Returns:** LegalBase
 
 
-* **Returns:** LegalBase
+```crmscript
+NSConsentPerson thing;
+LegalBase legalBase  = thing.GetLegalBase();
+```
 
 

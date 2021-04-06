@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoRelation_GetTargetTable
 title: String GetTargetTable()
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/String GetTargetTable()
-intellisense: 1
-classref: 1
-sortOrder: 3540
-keywords: GetTargetTable()
+intellisense: NSFieldInfoRelation.GetTargetTable
+keywords: NSFieldInfoRelation, GetTargetTable
+so.topic: reference
 ---
 
+Name of target table: 'contact', 'y_equipment'
 
-Name of target table: 'contact', 'y\_equipment'
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSFieldInfoRelation thing;
+String targetTable  = thing.GetTargetTable();
+```
 
 

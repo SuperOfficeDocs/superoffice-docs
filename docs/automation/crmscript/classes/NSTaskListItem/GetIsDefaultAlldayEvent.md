@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTaskListItem_GetIsDefaultAlldayEvent
 title: Bool GetIsDefaultAlldayEvent()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Bool GetIsDefaultAlldayEvent()
-intellisense: 1
-classref: 1
-keywords: GetIsDefaultAlldayEvent()
+intellisense: NSTaskListItem.GetIsDefaultAlldayEvent
+keywords: NSTaskListItem, GetIsDefaultAlldayEvent
+so.topic: reference
 ---
-
 
 True if all day event
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSTaskListItem thing;
+Bool isDefaultAlldayEvent  = thing.GetIsDefaultAlldayEvent();
+```
 
 

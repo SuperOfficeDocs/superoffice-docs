@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSControlInfo_SetDimension
+title: SetDimension(Integer dimension)
+intellisense: NSControlInfo.SetDimension
+keywords: NSControlInfo, GetDimension
+so.topic: reference
 ---
-title: Void SetDimension(Integer Dimension)
-path: /EJScript/Classes/NSControlInfo/Member functions/Void SetDimension(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2003
-keywords: SetDimension(Integer)
----
 
 
-* **Dimension:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **dimension** Integer
+
+```crmscript
+NSControlInfo thing;
+Integer dimension;
+thing.SetDimension(dimension);
+```
 

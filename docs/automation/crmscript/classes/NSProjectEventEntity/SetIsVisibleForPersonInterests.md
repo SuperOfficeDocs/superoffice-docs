@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetIsVisibleForPersonInterests
+title: SetIsVisibleForPersonInterests(Bool isVisibleForPersonInterests)
+intellisense: NSProjectEventEntity.SetIsVisibleForPersonInterests
+keywords: NSProjectEventEntity, GetIsVisibleForPersonInterests
+so.topic: reference
 ---
-title: Void SetIsVisibleForPersonInterests(Bool IsVisibleForPersonInterests)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetIsVisibleForPersonInterests(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsVisibleForPersonInterests(Bool)
----
 
 
-* **IsVisibleForPersonInterests:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isVisibleForPersonInterests** Bool
+
+```crmscript
+NSProjectEventEntity thing;
+Bool isVisibleForPersonInterests;
+thing.SetIsVisibleForPersonInterests(isVisibleForPersonInterests);
+```
 

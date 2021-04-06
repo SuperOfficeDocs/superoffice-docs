@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetOnTravel
+title: SetOnTravel(Bool onTravel)
+intellisense: NSWebPanelEntity.SetOnTravel
+keywords: NSWebPanelEntity, GetOnTravel
+so.topic: reference
 ---
-title: Void SetOnTravel(Bool OnTravel)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetOnTravel(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetOnTravel(Bool)
----
-
 
 Is the webpanel visible when user is on travel
 
+**Parameter:** 
+ - **onTravel** Bool
 
-
-* **OnTravel:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSWebPanelEntity thing;
+Bool onTravel;
+thing.SetOnTravel(onTravel);
+```
 

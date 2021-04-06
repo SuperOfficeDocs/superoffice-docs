@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetTwoLetterISOCountry
+title: SetTwoLetterISOCountry(String twoLetterISOCountry)
+intellisense: NSCountry.SetTwoLetterISOCountry
+keywords: NSCountry, GetTwoLetterISOCountry
+so.topic: reference
 ---
-title: Void SetTwoLetterISOCountry(String TwoLetterISOCountry)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetTwoLetterISOCountry(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2046
-keywords: SetTwoLetterISOCountry(String)
----
 
+Two-letter country-code according to ISO3166 
 
-Two-letter country-code according to ISO3166
+**Parameter:** 
+ - **twoLetterISOCountry** String
 
-
-
-* **TwoLetterISOCountry:** String
-* **Returns:** String
-
+```crmscript
+NSCountry thing;
+String twoLetterISOCountry;
+thing.SetTwoLetterISOCountry(twoLetterISOCountry);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSQuoteVersion.GetRank
+keywords: NSQuoteVersion, GetRank
+so.topic: reference
 ---
-
 
 Rank/Version number, starts at 1
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteVersion thing;
+Integer rank  = thing.GetRank();
+```
 
 

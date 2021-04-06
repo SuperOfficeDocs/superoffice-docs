@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketStatusEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSTicketStatusEntity.GetName
+keywords: NSTicketStatusEntity, GetName
+so.topic: reference
 ---
-
 
 Name of user defined ticket status
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketStatusEntity thing;
+String name  = thing.GetName();
+```
 
 

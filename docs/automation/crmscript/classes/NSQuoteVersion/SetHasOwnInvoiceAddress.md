@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetHasOwnInvoiceAddress
+title: SetHasOwnInvoiceAddress(Bool hasOwnInvoiceAddress)
+intellisense: NSQuoteVersion.SetHasOwnInvoiceAddress
+keywords: NSQuoteVersion, GetHasOwnInvoiceAddress
+so.topic: reference
 ---
-title: Void SetHasOwnInvoiceAddress(Bool HasOwnInvoiceAddress)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetHasOwnInvoiceAddress(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetHasOwnInvoiceAddress(Bool)
----
 
+The quote has an address for Invoicing. This will typically be copied from the company's addresses. 
 
-The quote has an address for Invoicing. This will typically be copied from the company's addresses.
+**Parameter:** 
+ - **hasOwnInvoiceAddress** Bool
 
-
-
-* **HasOwnInvoiceAddress:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteVersion thing;
+Bool hasOwnInvoiceAddress;
+thing.SetHasOwnInvoiceAddress(hasOwnInvoiceAddress);
+```
 

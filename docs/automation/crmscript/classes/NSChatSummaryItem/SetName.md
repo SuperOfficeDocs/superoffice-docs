@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_SetName
+title: SetName(String name)
+intellisense: NSChatSummaryItem.SetName
+keywords: NSChatSummaryItem, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1546
-keywords: SetName(String)
----
-
 
 The name of customer, if provided
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSChatSummaryItem thing;
+String name;
+thing.SetName(name);
+```
 

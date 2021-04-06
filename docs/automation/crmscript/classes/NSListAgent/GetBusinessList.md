@@ -1,14 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetBusinessList
+title: NSBusiness[] GetBusinessList(Integer[]  businessIds);
+intellisense: NSListAgent.GetBusinessList
+keywords: NSListAgent, GetBusinessList
+so.topic: reference
 ---
-title: NSBusiness[] GetBusinessList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSBusiness[] GetBusinessList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetBusinessList(Integer[])
----
 
-Gets an array of Business objects.
+Gets a vector of Business objects.
 
-* **p0:** IntegerArray of identifiers for Business
-* **Returns:** Array of NSBusiness
+**Parameters:**
+ - **businessIds** The identifiers of the NSBusiness objects
 
+**Returns:** Vector of NSBusiness objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetBusinessList(ids);
+```
 

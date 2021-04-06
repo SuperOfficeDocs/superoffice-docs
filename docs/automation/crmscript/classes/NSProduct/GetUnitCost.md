@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetUnitCost
 title: Float GetUnitCost()
-path: /EJScript/Classes/NSProduct/Member functions/Float GetUnitCost()
-intellisense: 1
-classref: 1
-keywords: GetUnitCost()
+intellisense: NSProduct.GetUnitCost
+keywords: NSProduct, GetUnitCost
+so.topic: reference
 ---
-
 
 The cost price. Might not be given, use Decimal.MinValue to signal this.
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSProduct thing;
+Float unitCost  = thing.GetUnitCost();
+```
 
 

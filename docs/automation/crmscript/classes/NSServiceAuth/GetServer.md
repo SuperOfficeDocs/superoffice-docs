@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSServiceAuth_GetServer
 title: String GetServer()
-path: /EJScript/Classes/NSServiceAuth/Member functions/String GetServer()
-intellisense: 1
-classref: 1
-keywords: GetServer()
+intellisense: NSServiceAuth.GetServer
+keywords: NSServiceAuth, GetServer
+so.topic: reference
 ---
-
 
 The mail server
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSServiceAuth thing;
+String server  = thing.GetServer();
+```
 
 

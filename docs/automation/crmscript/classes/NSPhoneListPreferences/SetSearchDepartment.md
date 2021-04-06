@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPhoneListPreferences_SetSearchDepartment
+title: SetSearchDepartment(Bool searchDepartment)
+intellisense: NSPhoneListPreferences.SetSearchDepartment
+keywords: NSPhoneListPreferences, GetSearchDepartment
+so.topic: reference
 ---
-title: Void SetSearchDepartment(Bool SearchDepartment)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchDepartment(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSearchDepartment(Bool)
----
-
 
 True if you want to search for Departments where your colleagues work.
 
+**Parameter:** 
+ - **searchDepartment** Bool
 
-
-* **SearchDepartment:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSPhoneListPreferences thing;
+Bool searchDepartment;
+thing.SetSearchDepartment(searchDepartment);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetRecurrenceCounter()
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/Integer GetRecurrenceCounter()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceInfo_GetRecurrenceCounter
+title: NSRecurrenceInfo.GetRecurrenceCounter()
+intellisense: NSRecurrenceInfo.GetRecurrenceCounter
 keywords: GetRecurrenceCounter()
+so.topic: reference
 ---
 
 

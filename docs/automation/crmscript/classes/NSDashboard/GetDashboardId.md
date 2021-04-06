@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboard_GetDashboardId
 title: Integer GetDashboardId()
-path: /EJScript/Classes/NSDashboard/Member functions/Integer GetDashboardId()
-intellisense: 1
-classref: 1
-sortOrder: 2261
-keywords: GetDashboardId()
+intellisense: NSDashboard.GetDashboardId
+keywords: NSDashboard, GetDashboardId
+so.topic: reference
 ---
-
 
 The dashboard id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDashboard thing;
+Integer dashboardId  = thing.GetDashboardId();
+```
 
 

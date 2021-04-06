@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetPhoneId
+title: SetPhoneId(Integer phoneId)
+intellisense: NSProjectMember.SetPhoneId
+keywords: NSProjectMember, GetPhoneId
+so.topic: reference
 ---
-title: Void SetPhoneId(Integer PhoneId)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetPhoneId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPhoneId(Integer)
----
-
 
 The phone id
 
+**Parameter:** 
+ - **phoneId** Integer
 
-
-* **PhoneId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectMember thing;
+Integer phoneId;
+thing.SetPhoneId(phoneId);
+```
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSatellite_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
+intellisense: NSSatellite.SetUpdatedBy
+keywords: NSSatellite, GetUpdatedBy
+so.topic: reference
 ---
-title: Void SetUpdatedBy(NSAssociate UpdatedBy)
-path: /EJScript/Classes/NSSatellite/Member functions/Void SetUpdatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatedBy(NSAssociate)
----
 
 
-* **UpdatedBy:** Associate
-* **Returns:** Associate
 
+**Parameter:** 
+ - **updatedBy** Associate
+
+```crmscript
+NSSatellite thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
 

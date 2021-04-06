@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAddressSyncData_GetLatitude
 title: Float GetLatitude()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Float GetLatitude()
-intellisense: 1
-classref: 1
-sortOrder: 617
-keywords: GetLatitude()
+intellisense: NSAddressSyncData.GetLatitude
+keywords: NSAddressSyncData, GetLatitude
+so.topic: reference
 ---
 
 
-* **Returns:** Float
+
+**Returns:** Float
+
+
+```crmscript
+NSAddressSyncData thing;
+Float latitude  = thing.GetLatitude();
+```
 
 

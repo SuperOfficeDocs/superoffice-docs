@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_SaveProjectEntity
+title: NSProjectEntity SaveProjectEntity(NSProjectEntity projectEntity);
+intellisense: NSProjectAgent.SaveProjectEntity
+keywords: NSProjectAgent, SaveProjectEntity
+so.topic: reference
 ---
-title: NSProjectEntity SaveProjectEntity(NSProjectEntity projectEntity)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEntity SaveProjectEntity(NSProjectEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveProjectEntity(NSProjectEntity)
----
+	  
+Updates the existing NSProjectEntity or creates a new NSProjectEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **projectEntity** The NSProjectEntity to save.
 
+**Returns:** New or updated NSProjectEntity
 
-Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is empty
-
-
-
-* **projectEntity:** The ProjectEntity that is saved
-* **Returns:** New or updated ProjectEntity
-
+```crmscript
+NSProject  agent;
+NSProjectEntity thing = agent.CreateDefaultProjectEntity();
+thing = agent.SaveProjectEntity(thing);
+```
 

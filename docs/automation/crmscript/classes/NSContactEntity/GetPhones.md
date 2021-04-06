@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_GetPhones
+title: EntityElementArray GetPhones()
+intellisense: NSContactEntity.GetPhones
+keywords: NSContactEntity, GetPhones
+so.topic: reference
 ---
-title: NSEntityElement[] GetPhones()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSEntityElement[] GetPhones()
-intellisense: 1
-classref: 1
-sortOrder: 1860
-keywords: GetPhones()
----
-
 
 The contact's phone numbers
 
+**Returns:** EntityElementArray
 
 
-* **Returns:** EntityElementArray
+```crmscript
+NSContactEntity thing;
+EntityElementArray phones  = thing.GetPhones();
+```
 
 

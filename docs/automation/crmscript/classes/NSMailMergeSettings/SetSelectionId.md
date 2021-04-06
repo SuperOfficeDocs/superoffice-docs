@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetSelectionId
+title: SetSelectionId(Integer selectionId)
+intellisense: NSMailMergeSettings.SetSelectionId
+keywords: NSMailMergeSettings, GetSelectionId
+so.topic: reference
 ---
-title: Void SetSelectionId(Integer SelectionId)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetSelectionId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSelectionId(Integer)
----
-
 
 Identity of selection to use as source for recipients.
 
+**Parameter:** 
+ - **selectionId** Integer
 
-
-* **SelectionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMailMergeSettings thing;
+Integer selectionId;
+thing.SetSelectionId(selectionId);
+```
 

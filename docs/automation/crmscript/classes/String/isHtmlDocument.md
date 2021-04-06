@@ -1,9 +1,9 @@
 ---
-title: Bool isHtmlDocument()
-path: /EJScript/Classes/String/Member functions/Bool isHtmlDocument()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_isHtmlDocument
+title: String.isHtmlDocument()
+intellisense: String.isHtmlDocument
 keywords: isHtmlDocument()
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSListEntity_SetUseGroupsAndHeadings
+title: SetUseGroupsAndHeadings(Bool useGroupsAndHeadings)
+intellisense: NSListEntity.SetUseGroupsAndHeadings
+keywords: NSListEntity, GetUseGroupsAndHeadings
+so.topic: reference
 ---
-title: Void SetUseGroupsAndHeadings(Bool UseGroupsAndHeadings)
-path: /EJScript/Classes/NSListEntity/Member functions/Void SetUseGroupsAndHeadings(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetUseGroupsAndHeadings(Bool)
----
-
 
 Indicates if this list should use groups and headings
 
+**Parameter:** 
+ - **useGroupsAndHeadings** Bool
 
-
-* **UseGroupsAndHeadings:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSListEntity thing;
+Bool useGroupsAndHeadings;
+thing.SetUseGroupsAndHeadings(useGroupsAndHeadings);
+```
 

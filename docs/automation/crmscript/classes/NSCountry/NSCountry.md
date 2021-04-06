@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCountry
 title: NSCountry
-path: /EJScript/Classes/NSCountry
-intellisense: 1
-classref: 1
-sortOrder: 2010
+intellisense: Void.NSCountry
+keywords: NSCountry
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

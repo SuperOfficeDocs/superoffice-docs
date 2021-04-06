@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity_GetGroupId
 title: Integer GetGroupId()
-path: /EJScript/Classes/NSContactEntity/Member functions/Integer GetGroupId()
-intellisense: 1
-classref: 1
-sortOrder: 1844
-keywords: GetGroupId()
+intellisense: NSContactEntity.GetGroupId
+keywords: NSContactEntity, GetGroupId
+so.topic: reference
 ---
 
+Group id of original owning associate, semantics like appnt.grp_id
 
-Group id of original owning associate, semantics like appnt.grp\_id
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSContactEntity thing;
+Integer groupId  = thing.GetGroupId();
+```
 
 

@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetRole
+title: NSRole GetRole(Integer roleId);
+intellisense: NSUserAgent.GetRole
+keywords: NSUserAgent, GetRole
+so.topic: reference
 ---
-title: NSRole GetRole(Integer roleId)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSRole GetRole(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetRole(Integer)
----
 
+Gets a NSRole object.
 
-Gets a Role object.
+**Parameters:**
+ - **roleId** The identifier of the NSRole object
 
+**Returns:** NSRole
 
-
-* **roleId:** The identifier of the Role object
-* **Returns:** Role
-
+```crmscript
+NSUserAgent agent;
+NSRole thing = agent.GetRole(123);
+```
 

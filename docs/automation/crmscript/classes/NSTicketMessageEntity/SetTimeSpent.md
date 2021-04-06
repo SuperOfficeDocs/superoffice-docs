@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetTimeSpent
+title: SetTimeSpent(Integer timeSpent)
+intellisense: NSTicketMessageEntity.SetTimeSpent
+keywords: NSTicketMessageEntity, GetTimeSpent
+so.topic: reference
 ---
-title: Void SetTimeSpent(Integer TimeSpent)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetTimeSpent(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTimeSpent(Integer)
----
-
 
 The time spent (minutes) for this message.
 
+**Parameter:** 
+ - **timeSpent** Integer
 
-
-* **TimeSpent:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicketMessageEntity thing;
+Integer timeSpent;
+thing.SetTimeSpent(timeSpent);
+```
 

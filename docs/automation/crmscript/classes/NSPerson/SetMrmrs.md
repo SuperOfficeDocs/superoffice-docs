@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetMrmrs
+title: SetMrmrs(String mrmrs)
+intellisense: NSPerson.SetMrmrs
+keywords: NSPerson, GetMrmrs
+so.topic: reference
 ---
-title: Void SetMrmrs(String Mrmrs)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetMrmrs(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetMrmrs(String)
----
 
+e.g. Mrs   sex_title
 
-e.g. Mrs   sex\_title
+**Parameter:** 
+ - **mrmrs** String
 
-
-
-* **Mrmrs:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String mrmrs;
+thing.SetMrmrs(mrmrs);
+```
 

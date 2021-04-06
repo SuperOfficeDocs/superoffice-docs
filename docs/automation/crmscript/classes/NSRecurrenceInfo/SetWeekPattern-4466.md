@@ -1,9 +1,9 @@
 ---
-title: Void SetWeekPattern(NSRecurrenceWeekPattern p0)
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/Void SetWeekPattern(NSRecurrenceWeekPattern p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceInfo_SetWeekPattern_NSRecurrenceWeekPattern_p_0
+title: NSRecurrenceInfo.SetWeekPattern(NSRecurrenceWeekPattern p_0)
+intellisense: NSRecurrenceInfo.SetWeekPattern
 keywords: SetWeekPattern(NSRecurrenceWeekPattern)
+so.topic: reference
 ---
 
 

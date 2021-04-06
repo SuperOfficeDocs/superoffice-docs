@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetBaseCurrency
+title: SetBaseCurrency(String baseCurrency)
+intellisense: NSSaleSummary.SetBaseCurrency
+keywords: NSSaleSummary, GetBaseCurrency
+so.topic: reference
 ---
-title: Void SetBaseCurrency(String BaseCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetBaseCurrency(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetBaseCurrency(String)
----
-
 
 Default currency for the installation
 
+**Parameter:** 
+ - **baseCurrency** String
 
-
-* **BaseCurrency:** String
-* **Returns:** String
-
+```crmscript
+NSSaleSummary thing;
+String baseCurrency;
+thing.SetBaseCurrency(baseCurrency);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDictionaryStepInformation_SetName
+title: SetName(String name)
+intellisense: NSDictionaryStepInformation.SetName
+keywords: NSDictionaryStepInformation, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSDictionaryStepInformation/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2425
-keywords: SetName(String)
----
-
 
 The name of the dictionary step (from attribute, not class name)
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSDictionaryStepInformation thing;
+String name;
+thing.SetName(name);
+```
 

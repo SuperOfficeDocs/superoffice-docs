@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseOwner_SetDescription
+title: SetDescription(String description)
+intellisense: NSLicenseOwner.SetDescription
+keywords: NSLicenseOwner, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSLicenseOwner/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
 
 
-* **Description:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **description** String
+
+```crmscript
+NSLicenseOwner thing;
+String description;
+thing.SetDescription(description);
+```
 

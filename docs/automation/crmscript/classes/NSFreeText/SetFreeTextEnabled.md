@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFreeText_SetFreeTextEnabled
+title: SetFreeTextEnabled(Bool freeTextEnabled)
+intellisense: NSFreeText.SetFreeTextEnabled
+keywords: NSFreeText, GetFreeTextEnabled
+so.topic: reference
 ---
-title: Void SetFreeTextEnabled(Bool FreeTextEnabled)
-path: /EJScript/Classes/NSFreeText/Member functions/Void SetFreeTextEnabled(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3861
-keywords: SetFreeTextEnabled(Bool)
----
-
 
 True if freetext search enabled
 
+**Parameter:** 
+ - **freeTextEnabled** Bool
 
-
-* **FreeTextEnabled:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFreeText thing;
+Bool freeTextEnabled;
+thing.SetFreeTextEnabled(freeTextEnabled);
+```
 

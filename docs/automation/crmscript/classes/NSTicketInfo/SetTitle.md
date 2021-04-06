@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketInfo_SetTitle
+title: SetTitle(String title)
+intellisense: NSTicketInfo.SetTitle
+keywords: NSTicketInfo, GetTitle
+so.topic: reference
 ---
-title: Void SetTitle(String Title)
-path: /EJScript/Classes/NSTicketInfo/Member functions/Void SetTitle(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTitle(String)
----
-
 
 The title/subject of the created ticket
 
+**Parameter:** 
+ - **title** String
 
-
-* **Title:** String
-* **Returns:** String
-
+```crmscript
+NSTicketInfo thing;
+String title;
+thing.SetTitle(title);
+```
 

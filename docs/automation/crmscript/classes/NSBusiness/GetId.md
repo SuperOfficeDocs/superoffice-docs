@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSBusiness_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSBusiness/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-sortOrder: 1478
-keywords: GetId()
+intellisense: NSBusiness.GetId
+keywords: NSBusiness, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the Business
 
-* **Returns:** Integer
+**Returns:** Integer Business id.
 
+```crmscript
+NSBusiness thing;
+Integer id = thing.GetId();
+```
 

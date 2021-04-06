@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetHeader
 title: String GetHeader()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/String GetHeader()
-intellisense: 1
-classref: 1
-sortOrder: 2579
-keywords: GetHeader()
+intellisense: NSDocumentEntity.GetHeader
+keywords: NSDocumentEntity, GetHeader
+so.topic: reference
 ---
-
 
 Visible document name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocumentEntity thing;
+String header  = thing.GetHeader();
+```
 
 

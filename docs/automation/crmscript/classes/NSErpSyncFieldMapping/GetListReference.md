@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_GetListReference
 title: String GetListReference()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/String GetListReference()
-intellisense: 1
-classref: 1
-sortOrder: 3303
-keywords: GetListReference()
+intellisense: NSErpSyncFieldMapping.GetListReference
+keywords: NSErpSyncFieldMapping, GetListReference
+so.topic: reference
 ---
-
 
 Field is read-only, for lookup in gui
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpSyncFieldMapping thing;
+String listReference  = thing.GetListReference();
+```
 
 

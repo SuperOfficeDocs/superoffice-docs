@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSatellite_SetSatelliteId
+title: SetSatelliteId(Integer satelliteId)
+intellisense: NSSatellite.SetSatelliteId
+keywords: NSSatellite, GetSatelliteId
+so.topic: reference
 ---
-title: Void SetSatelliteId(Integer SatelliteId)
-path: /EJScript/Classes/NSSatellite/Member functions/Void SetSatelliteId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSatelliteId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **satelliteId** Integer
 
-
-* **SatelliteId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSatellite thing;
+Integer satelliteId;
+thing.SetSatelliteId(satelliteId);
+```
 

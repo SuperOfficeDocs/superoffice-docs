@@ -1,9 +1,9 @@
 ---
-title: String GetAssemblyVersion()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/String GetAssemblyVersion()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetAssemblyVersion
+title: NSSoSystemInfoCarrier.GetAssemblyVersion()
+intellisense: NSSoSystemInfoCarrier.GetAssemblyVersion
 keywords: GetAssemblyVersion()
+so.topic: reference
 ---
 
 

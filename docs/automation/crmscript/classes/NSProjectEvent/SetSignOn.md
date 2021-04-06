@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetSignOn
+title: SetSignOn(Bool signOn)
+intellisense: NSProjectEvent.SetSignOn
+keywords: NSProjectEvent, GetSignOn
+so.topic: reference
 ---
-title: Void SetSignOn(Bool SignOn)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOn(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOn(Bool)
----
-
 
 If true, it is possible to sign on the event.
 
+**Parameter:** 
+ - **signOn** Bool
 
-
-* **SignOn:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEvent thing;
+Bool signOn;
+thing.SetSignOn(signOn);
+```
 

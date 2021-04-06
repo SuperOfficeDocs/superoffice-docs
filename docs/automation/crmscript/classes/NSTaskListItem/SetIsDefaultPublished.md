@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTaskListItem_SetIsDefaultPublished
+title: SetIsDefaultPublished(Bool isDefaultPublished)
+intellisense: NSTaskListItem.SetIsDefaultPublished
+keywords: NSTaskListItem, GetIsDefaultPublished
+so.topic: reference
 ---
-title: Void SetIsDefaultPublished(Bool IsDefaultPublished)
-path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetIsDefaultPublished(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsDefaultPublished(Bool)
----
-
 
 Published to external persons
 
+**Parameter:** 
+ - **isDefaultPublished** Bool
 
-
-* **IsDefaultPublished:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSTaskListItem thing;
+Bool isDefaultPublished;
+thing.SetIsDefaultPublished(isDefaultPublished);
+```
 

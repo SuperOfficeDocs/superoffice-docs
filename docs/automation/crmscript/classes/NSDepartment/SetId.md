@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSDepartment_SetId
+title: SetId(Integer id)
+intellisense: NSDepartment.SetId
+keywords: NSDepartment, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSDepartment/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2385
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the Department
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer Department id.
 
+```crmscript
+NSDepartment thing;
+thing.SetId(123);
+```
 

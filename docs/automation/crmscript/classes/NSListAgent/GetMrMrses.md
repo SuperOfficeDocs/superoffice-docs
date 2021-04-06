@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetMrMrses
+title: MrMrsArray GetMrMrses()
+intellisense: NSListAgent.GetMrMrses
+keywords: NSListAgent, GetMrMrses
+so.topic: reference
 ---
-title: NSMrMrs[] GetMrMrses()
-path: /EJScript/Classes/NSListAgent/Member functions/NSMrMrs[] GetMrMrses()
-intellisense: 1
-classref: 1
-keywords: GetMrMrses()
----
-
 
 Returns all Items from the MrMrs table sorted by their value.
 
 
+**Returns:** All items from the MrMrs table sorted by their value
 
-* **Returns:** All items from the MrMrs table sorted by their value
-
+```crmscript
+NSListAgent agent;
+MrMrsArray res = agent.GetMrMrses();
+```
 

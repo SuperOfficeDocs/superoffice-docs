@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetShowInMenuBar
+title: SetShowInMenuBar(Bool showInMenuBar)
+intellisense: NSWebPanelEntity.SetShowInMenuBar
+keywords: NSWebPanelEntity, GetShowInMenuBar
+so.topic: reference
 ---
-title: Void SetShowInMenuBar(Bool ShowInMenuBar)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetShowInMenuBar(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetShowInMenuBar(Bool)
----
-
 
 Does the webpanel have a menu bar
 
+**Parameter:** 
+ - **showInMenuBar** Bool
 
-
-* **ShowInMenuBar:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSWebPanelEntity thing;
+Bool showInMenuBar;
+thing.SetShowInMenuBar(showInMenuBar);
+```
 

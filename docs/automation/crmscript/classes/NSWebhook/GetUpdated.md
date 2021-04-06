@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebhook_GetUpdated
 title: DateTime GetUpdated()
-path: /EJScript/Classes/NSWebhook/Member functions/DateTime GetUpdated()
-intellisense: 1
-classref: 1
-keywords: GetUpdated()
+intellisense: NSWebhook.GetUpdated
+keywords: NSWebhook, GetUpdated
+so.topic: reference
 ---
-
 
 Last updated when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSWebhook thing;
+DateTime updated  = thing.GetUpdated();
+```
 
 

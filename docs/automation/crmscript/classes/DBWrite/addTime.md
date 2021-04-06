@@ -1,10 +1,10 @@
 ---
-title: Void addTime(String name, Time value)
-path: /EJScript/Classes/DBWrite/Member functions/Void addTime(String name, Time value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DBWrite_addTime_String_name_Time_value
+title: DBWrite.addTime(String name, Time value)
+intellisense: DBWrite.addTime
 sortOrder: 268
 keywords: addTime(String,Time)
+so.topic: reference
 ---
 
 

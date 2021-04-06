@@ -1,21 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportEntity_SetReportId
+title: SetReportId(Integer reportId)
+intellisense: NSReportEntity.SetReportId
+keywords: NSReportEntity, GetReportId
+so.topic: reference
 ---
-title: Void SetReportId(Integer ReportId)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetReportId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetReportId(Integer)
----
 
+The id of the report. 
 
-The id of the report.
+**Parameter:** 
+ - **reportId** Integer
 
-
-    	///
-    
-
-
-
-* **ReportId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportEntity thing;
+Integer reportId;
+thing.SetReportId(reportId);
+```
 

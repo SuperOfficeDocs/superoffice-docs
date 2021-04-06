@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMessageDeliveryStatus_GetStatus
 title: Integer GetStatus()
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Integer GetStatus()
-intellisense: 1
-classref: 1
-keywords: GetStatus()
+intellisense: NSMessageDeliveryStatus.GetStatus
+keywords: NSMessageDeliveryStatus, GetStatus
+so.topic: reference
 ---
-
 
 Current message status
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMessageDeliveryStatus thing;
+Integer status  = thing.GetStatus();
+```
 
 

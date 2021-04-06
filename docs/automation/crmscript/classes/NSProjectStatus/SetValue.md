@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSProjectStatus_SetValue
+title: SetValue(String value)
+intellisense: NSProjectStatus.SetValue
+keywords: NSProjectStatus, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSProjectStatus/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the ProjectStatus item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String ProjectStatus name.
 
+```crmscript
+NSProjectStatus thing;
+thing.SetValue("frotz");
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetNoMailing
 title: Bool GetNoMailing()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Bool GetNoMailing()
-intellisense: 1
-classref: 1
-keywords: GetNoMailing()
+intellisense: NSPersonEntity.GetNoMailing
+keywords: NSPersonEntity, GetNoMailing
+so.topic: reference
 ---
-
 
 Spam filter. Indicates if this person should retrieve advertising.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSPersonEntity thing;
+Bool noMailing  = thing.GetNoMailing();
+```
 
 

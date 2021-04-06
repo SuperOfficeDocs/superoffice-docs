@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetContactId
+title: SetContactId(Integer contactId)
+intellisense: NSSale.SetContactId
+keywords: NSSale, GetContactId
+so.topic: reference
 ---
-title: Void SetContactId(Integer ContactId)
-path: /EJScript/Classes/NSSale/Member functions/Void SetContactId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetContactId(Integer)
----
-
 
 Optional contact reference
 
+**Parameter:** 
+ - **contactId** Integer
 
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSale thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
 

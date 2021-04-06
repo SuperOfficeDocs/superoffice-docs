@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetAlertLevel
+title: SetAlertLevel(Integer alertLevel)
+intellisense: NSTicket.SetAlertLevel
+keywords: NSTicket, GetAlertLevel
+so.topic: reference
 ---
-title: Void SetAlertLevel(Integer AlertLevel)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetAlertLevel(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAlertLevel(Integer)
----
 
+The alert level for the ticket. Matches the level value of the ticket_alert table.
 
-The alert level for the ticket. Matches the level value of the ticket\_alert table.
+**Parameter:** 
+ - **alertLevel** Integer
 
-
-
-* **AlertLevel:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicket thing;
+Integer alertLevel;
+thing.SetAlertLevel(alertLevel);
+```
 

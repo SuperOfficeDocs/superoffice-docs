@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_SetRank
+title: SetRank(Integer rank)
+intellisense: NSCurrencyEntity.SetRank
+keywords: NSCurrencyEntity, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2189
-keywords: SetRank(Integer)
----
-
 
 Rank order
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCurrencyEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

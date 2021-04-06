@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetPerson
+title: Person GetPerson()
+intellisense: NSTicketEntity.GetPerson
+keywords: NSTicketEntity, GetPerson
+so.topic: reference
 ---
-title: NSPerson GetPerson()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSPerson GetPerson()
-intellisense: 1
-classref: 1
-keywords: GetPerson()
----
-
 
 The primary person that this ticket is connected to
 
+**Returns:** Person
 
 
-* **Returns:** Person
+```crmscript
+NSTicketEntity thing;
+Person person  = thing.GetPerson();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetUsePersonAddress
+title: SetUsePersonAddress(Bool usePersonAddress)
+intellisense: NSPerson.SetUsePersonAddress
+keywords: NSPerson, GetUsePersonAddress
+so.topic: reference
 ---
-title: Void SetUsePersonAddress(Bool UsePersonAddress)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetUsePersonAddress(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetUsePersonAddress(Bool)
----
-
 
 If 1, use person's address for mailing instead of company address
 
+**Parameter:** 
+ - **usePersonAddress** Bool
 
-
-* **UsePersonAddress:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSPerson thing;
+Bool usePersonAddress;
+thing.SetUsePersonAddress(usePersonAddress);
+```
 

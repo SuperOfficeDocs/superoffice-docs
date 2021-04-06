@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 2412
-keywords: GetTooltip()
+intellisense: NSDiaryViewEntity.GetTooltip
+keywords: NSDiaryViewEntity, GetTooltip
+so.topic: reference
 ---
-
 
 Tooltip/description of the DiaryView
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDiaryViewEntity thing;
+String tooltip  = thing.GetTooltip();
+```
 
 

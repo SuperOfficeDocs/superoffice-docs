@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_SetCanAssign
+title: SetCanAssign(Bool canAssign)
+intellisense: NSModuleLicenseLink.SetCanAssign
+keywords: NSModuleLicenseLink, GetCanAssign
+so.topic: reference
 ---
-title: Void SetCanAssign(Bool CanAssign)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetCanAssign(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetCanAssign(Bool)
----
-
 
 Can a specific user assign this module license
 
+**Parameter:** 
+ - **canAssign** Bool
 
-
-* **CanAssign:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSModuleLicenseLink thing;
+Bool canAssign;
+thing.SetCanAssign(canAssign);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRefCountEntity_SetRefCountsId
+title: SetRefCountsId(Integer refCountsId)
+intellisense: NSRefCountEntity.SetRefCountsId
+keywords: NSRefCountEntity, GetRefCountsId
+so.topic: reference
 ---
-title: Void SetRefCountsId(Integer RefCountsId)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetRefCountsId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRefCountsId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **refCountsId** Integer
 
-
-* **RefCountsId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRefCountEntity thing;
+Integer refCountsId;
+thing.SetRefCountsId(refCountsId);
+```
 

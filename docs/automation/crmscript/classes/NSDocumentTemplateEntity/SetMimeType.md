@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_SetMimeType
+title: SetMimeType(String mimeType)
+intellisense: NSDocumentTemplateEntity.SetMimeType
+keywords: NSDocumentTemplateEntity, GetMimeType
+so.topic: reference
 ---
-title: Void SetMimeType(String MimeType)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetMimeType(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2691
-keywords: SetMimeType(String)
----
-
 
 The mime type
 
+**Parameter:** 
+ - **mimeType** String
 
-
-* **MimeType:** String
-* **Returns:** String
-
+```crmscript
+NSDocumentTemplateEntity thing;
+String mimeType;
+thing.SetMimeType(mimeType);
+```
 

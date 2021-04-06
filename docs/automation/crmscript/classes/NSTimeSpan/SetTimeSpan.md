@@ -1,9 +1,9 @@
 ---
-title: Void SetTimeSpan(String p0)
-path: /EJScript/Classes/NSTimeSpan/Member functions/Void SetTimeSpan(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSTimeSpan_SetTimeSpan_String_p_0
+title: NSTimeSpan.SetTimeSpan(String p_0)
+intellisense: NSTimeSpan.SetTimeSpan
 keywords: SetTimeSpan(String)
+so.topic: reference
 ---
 
 

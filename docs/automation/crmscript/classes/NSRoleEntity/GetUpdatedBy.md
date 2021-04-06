@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
+intellisense: NSRoleEntity.GetUpdatedBy
+keywords: NSRoleEntity, GetUpdatedBy
+so.topic: reference
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSRoleEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
-keywords: GetUpdatedBy()
----
-
 
 Last updated by user
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSRoleEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
 
 

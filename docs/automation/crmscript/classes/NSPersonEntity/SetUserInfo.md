@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetUserInfo
+title: SetUserInfo(UserInfo userInfo)
+intellisense: NSPersonEntity.SetUserInfo
+keywords: NSPersonEntity, GetUserInfo
+so.topic: reference
 ---
-title: Void SetUserInfo(NSUserInfo UserInfo)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetUserInfo(NSUserInfo p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserInfo(NSUserInfo)
----
-
 
 Information about the user if this person is a user.  If IsAssociate (e.g. is user is true) the UserInfo will be provided.
 
+**Parameter:** 
+ - **userInfo** UserInfo
 
-
-* **UserInfo:** UserInfo
-* **Returns:** UserInfo
-
+```crmscript
+NSPersonEntity thing;
+UserInfo userInfo;
+thing.SetUserInfo(userInfo);
+```
 

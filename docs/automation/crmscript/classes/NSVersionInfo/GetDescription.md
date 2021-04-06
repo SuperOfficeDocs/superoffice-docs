@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSVersionInfo_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSVersionInfo/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSVersionInfo.GetDescription
+keywords: NSVersionInfo, GetDescription
+so.topic: reference
 ---
-
 
 Arbitrary description string
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSVersionInfo thing;
+String description  = thing.GetDescription();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAudienceConfigParameter_SetCreatedBy
+title: SetCreatedBy(String createdBy)
+intellisense: NSAudienceConfigParameter.SetCreatedBy
+keywords: NSAudienceConfigParameter, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(String CreatedBy)
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/Void SetCreatedBy(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1327
-keywords: SetCreatedBy(String)
----
-
 
 Name of the person that created the configuration parameter
 
+**Parameter:** 
+ - **createdBy** String
 
-
-* **CreatedBy:** String
-* **Returns:** String
-
+```crmscript
+NSAudienceConfigParameter thing;
+String createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

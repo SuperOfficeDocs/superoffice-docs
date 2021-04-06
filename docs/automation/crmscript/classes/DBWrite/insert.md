@@ -1,10 +1,10 @@
 ---
-title: Integer insert()
-path: /EJScript/Classes/DBWrite/Member functions/Integer insert()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DBWrite_insert
+title: DBWrite.insert()
+intellisense: DBWrite.insert
 sortOrder: 261
 keywords: insert()
+so.topic: reference
 ---
 
 Execute insert-query with the specified columns and values.

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetSource
 title: Integer GetSource()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetSource()
-intellisense: 1
-classref: 1
-keywords: GetSource()
+intellisense: NSSelectionEntity.GetSource
+keywords: NSSelectionEntity, GetSource
+so.topic: reference
 ---
-
 
 How did we get this selection? For future integration needs
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectionEntity thing;
+Integer source  = thing.GetSource();
+```
 
 

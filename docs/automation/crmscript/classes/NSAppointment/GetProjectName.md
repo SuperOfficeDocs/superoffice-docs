@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetProjectName
 title: String GetProjectName()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetProjectName()
-intellisense: 1
-classref: 1
-sortOrder: 762
-keywords: GetProjectName()
+intellisense: NSAppointment.GetProjectName
+keywords: NSAppointment, GetProjectName
+so.topic: reference
 ---
-
 
 The name of the project this appointment belong to. Blank if no project is connected.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointment thing;
+String projectName  = thing.GetProjectName();
+```
 
 

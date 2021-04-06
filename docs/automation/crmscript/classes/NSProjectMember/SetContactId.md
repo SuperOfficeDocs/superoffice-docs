@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetContactId
+title: SetContactId(Integer contactId)
+intellisense: NSProjectMember.SetContactId
+keywords: NSProjectMember, GetContactId
+so.topic: reference
 ---
-title: Void SetContactId(Integer ContactId)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetContactId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetContactId(Integer)
----
-
 
 Contact ID of person who is the project member
 
+**Parameter:** 
+ - **contactId** Integer
 
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectMember thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
 

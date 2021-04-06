@@ -1,17 +1,22 @@
+﻿---
+uid: crmscript_ref_NSWindowPosSize_SetState
+title: SetState(ShowWindowState state)
+intellisense: NSWindowPosSize.SetState
+keywords: NSWindowPosSize, GetState
+so.topic: reference
 ---
-title: Void SetState(Integer p0)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetState(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetState(Integer)
----
-
 
 Normal = 0, Maximized = 1, Minimized = 2
 
+**Parameter:** 
+ - **state** ShowWindowState
+     - Enum: 0 = Normal 
+     - Enum: 1 = Maximized 
+     - Enum: 2 = Minimized 
 
-
-* **p_0:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWindowPosSize thing;
+ShowWindowState state;
+thing.SetState(state);
+```
 

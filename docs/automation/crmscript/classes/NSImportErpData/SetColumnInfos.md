@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSImportErpData_SetColumnInfos
+title: SetColumnInfos(ImportColumnInfoArray columnInfos)
+intellisense: NSImportErpData.SetColumnInfos
+keywords: NSImportErpData, GetColumnInfos
+so.topic: reference
 ---
-title: Void SetColumnInfos(NSImportColumnInfo[] ColumnInfos)
-path: /EJScript/Classes/NSImportErpData/Member functions/Void SetColumnInfos(NSImportColumnInfo[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3970
-keywords: SetColumnInfos(NSImportColumnInfo[])
----
-
 
 Array of column definitions
 
+**Parameter:** 
+ - **columnInfos** ImportColumnInfoArray
 
-
-* **ColumnInfos:** ImportColumnInfoArray
-* **Returns:** ImportColumnInfoArray
-
+```crmscript
+NSImportErpData thing;
+ImportColumnInfoArray columnInfos;
+thing.SetColumnInfos(columnInfos);
+```
 

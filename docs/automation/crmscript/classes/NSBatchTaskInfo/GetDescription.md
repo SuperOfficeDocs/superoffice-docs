@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 1378
-keywords: GetDescription()
+intellisense: NSBatchTaskInfo.GetDescription
+keywords: NSBatchTaskInfo, GetDescription
+so.topic: reference
 ---
-
 
 Description of the task.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSBatchTaskInfo thing;
+String description  = thing.GetDescription();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetRightMargin
 title: Integer GetRightMargin()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetRightMargin()
-intellisense: 1
-classref: 1
-keywords: GetRightMargin()
+intellisense: NSReportLabelLayoutEntity.GetRightMargin
+keywords: NSReportLabelLayoutEntity, GetRightMargin
+so.topic: reference
 ---
-
 
 Right margin in twips
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer rightMargin  = thing.GetRightMargin();
+```
 
 

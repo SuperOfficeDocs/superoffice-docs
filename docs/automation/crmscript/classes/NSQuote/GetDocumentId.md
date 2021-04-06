@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuote_GetDocumentId
 title: Integer GetDocumentId()
-path: /EJScript/Classes/NSQuote/Member functions/Integer GetDocumentId()
-intellisense: 1
-classref: 1
-keywords: GetDocumentId()
+intellisense: NSQuote.GetDocumentId
+keywords: NSQuote, GetDocumentId
+so.topic: reference
 ---
-
 
 The ID of the main Quote Document
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuote thing;
+Integer documentId  = thing.GetDocumentId();
+```
 
 

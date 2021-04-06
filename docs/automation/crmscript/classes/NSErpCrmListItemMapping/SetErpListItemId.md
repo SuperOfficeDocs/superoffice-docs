@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpCrmListItemMapping_SetErpListItemId
+title: SetErpListItemId(String erpListItemId)
+intellisense: NSErpCrmListItemMapping.SetErpListItemId
+keywords: NSErpCrmListItemMapping, GetErpListItemId
+so.topic: reference
 ---
-title: Void SetErpListItemId(String ErpListItemId)
-path: /EJScript/Classes/NSErpCrmListItemMapping/Member functions/Void SetErpListItemId(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3148
-keywords: SetErpListItemId(String)
----
-
 
 One Erp listItem id
 
+**Parameter:** 
+ - **erpListItemId** String
 
-
-* **ErpListItemId:** String
-* **Returns:** String
-
+```crmscript
+NSErpCrmListItemMapping thing;
+String erpListItemId;
+thing.SetErpListItemId(erpListItemId);
+```
 

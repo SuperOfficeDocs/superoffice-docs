@@ -1,6 +1,6 @@
 ---
-title: crmscript_request_logs
-description: Logs
+uid: crmscript_request_logs
+title: Logs
 author:
 so.date:
 keywords:

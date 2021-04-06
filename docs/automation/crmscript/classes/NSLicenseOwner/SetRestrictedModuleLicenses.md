@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseOwner_SetRestrictedModuleLicenses
+title: SetRestrictedModuleLicenses(ModuleLicenseLinkArray restrictedModuleLicenses)
+intellisense: NSLicenseOwner.SetRestrictedModuleLicenses
+keywords: NSLicenseOwner, GetRestrictedModuleLicenses
+so.topic: reference
 ---
-title: Void SetRestrictedModuleLicenses(NSModuleLicenseLink[] RestrictedModuleLicenses)
-path: /EJScript/Classes/NSLicenseOwner/Member functions/Void SetRestrictedModuleLicenses(NSModuleLicenseLink[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetRestrictedModuleLicenses(NSModuleLicenseLink[])
----
 
 
-* **RestrictedModuleLicenses:** ModuleLicenseLinkArray
-* **Returns:** ModuleLicenseLinkArray
 
+**Parameter:** 
+ - **restrictedModuleLicenses** ModuleLicenseLinkArray
+
+```crmscript
+NSLicenseOwner thing;
+ModuleLicenseLinkArray restrictedModuleLicenses;
+thing.SetRestrictedModuleLicenses(restrictedModuleLicenses);
+```
 

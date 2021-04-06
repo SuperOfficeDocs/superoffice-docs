@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetMotherId
 title: Integer GetMotherId()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetMotherId()
-intellisense: 1
-classref: 1
-sortOrder: 738
-keywords: GetMotherId()
+intellisense: NSAppointment.GetMotherId
+keywords: NSAppointment, GetMotherId
+so.topic: reference
 ---
 
+ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking
 
-ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc\_id != reg\_id then this is an assigned appointment, indicated vt type = kBooking
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSAppointment thing;
+Integer motherId  = thing.GetMotherId();
+```
 
 

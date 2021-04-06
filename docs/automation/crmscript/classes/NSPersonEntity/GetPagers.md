@@ -1,9 +1,9 @@
 ---
-title: NSEntityElement[] GetPagers()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetPagers()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSPersonEntity_GetPagers
+title: NSPersonEntity.GetPagers()
+intellisense: NSPersonEntity.GetPagers
 keywords: GetPagers()
+so.topic: reference
 ---
 
 

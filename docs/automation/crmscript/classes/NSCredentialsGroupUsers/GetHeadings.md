@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCredentialsGroupUsers_GetHeadings
+title: StringArray GetHeadings()
+intellisense: NSCredentialsGroupUsers.GetHeadings
+keywords: NSCredentialsGroupUsers, GetHeadings
+so.topic: reference
 ---
-title: String[] GetHeadings()
-path: /EJScript/Classes/NSCredentialsGroupUsers/Member functions/String[] GetHeadings()
-intellisense: 1
-classref: 1
-sortOrder: 2065
-keywords: GetHeadings()
----
-
 
 Headings in which to list the different users.
 
+**Returns:** StringArray
 
 
-* **Returns:** StringArray
+```crmscript
+NSCredentialsGroupUsers thing;
+StringArray headings  = thing.GetHeadings();
+```
 
 

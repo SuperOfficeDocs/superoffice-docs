@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetName
+title: SetName(String name)
+intellisense: NSSelectionEntity.SetName
+keywords: NSSelectionEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Name of selection, freetext indexed
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSSelectionEntity thing;
+String name;
+thing.SetName(name);
+```
 

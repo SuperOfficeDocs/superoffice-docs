@@ -1,9 +1,9 @@
 ---
-title: Bool isLoggedIn(Integer origin)
-path: /EJScript/Classes/User/Member functions/Bool isLoggedIn(Integer origin)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_User_isLoggedIn_Integer_origin
+title: User.isLoggedIn(Integer origin)
+intellisense: User.isLoggedIn
 keywords: isLoggedIn(Integer)
+so.topic: reference
 ---
 
 Check if a user is logged in or not.

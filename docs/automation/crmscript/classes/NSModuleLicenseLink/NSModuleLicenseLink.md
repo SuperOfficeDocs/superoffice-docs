@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink
 title: NSModuleLicenseLink
-path: /EJScript/Classes/NSModuleLicenseLink
-intellisense: 1
-classref: 1
+intellisense: Void.NSModuleLicenseLink
+keywords: NSModuleLicenseLink
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

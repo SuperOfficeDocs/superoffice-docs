@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveQuickReplies
+title: Void SaveQuickReplies(QuickReplyArray quickReplies)
+intellisense: NSListAgent.SaveQuickReplies
+keywords: NSListAgent, SaveQuickReplies
+so.topic: reference
 ---
-title: Void SaveQuickReplies(NSQuickReply[] quickReplies)
-path: /EJScript/Classes/NSListAgent/Member functions/Void SaveQuickReplies(NSQuickReply[] p_0)
-intellisense: 1
-classref: 1
-keywords: SaveQuickReplies(NSQuickReply[])
----
-
 
 Method to save all quick replies for a given associate
 
-
-
-* **quickReplies:** Array of quick replies
-
-
+**Parameters:**
+ - **quickReplies** Array of quick replies

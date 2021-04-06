@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSUserDefinedFieldInfo.GetTooltip
+keywords: NSUserDefinedFieldInfo, GetTooltip
+so.topic: reference
 ---
-
 
 Optional tooltip text for this field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSUserDefinedFieldInfo thing;
+String tooltip  = thing.GetTooltip();
+```
 
 

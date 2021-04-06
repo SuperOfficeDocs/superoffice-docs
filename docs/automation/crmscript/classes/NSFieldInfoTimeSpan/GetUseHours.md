@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoTimeSpan_GetUseHours
 title: Bool GetUseHours()
-path: /EJScript/Classes/NSFieldInfoTimeSpan/Member functions/Bool GetUseHours()
-intellisense: 1
-classref: 1
-sortOrder: 3566
-keywords: GetUseHours()
+intellisense: NSFieldInfoTimeSpan.GetUseHours
+keywords: NSFieldInfoTimeSpan, GetUseHours
+so.topic: reference
 ---
-
 
 Should the time-span be counted in hours?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFieldInfoTimeSpan thing;
+Bool useHours  = thing.GetUseHours();
+```
 
 

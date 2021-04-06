@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAmountClassEntity_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 702
-keywords: GetTooltip()
+intellisense: NSAmountClassEntity.GetTooltip
+keywords: NSAmountClassEntity, GetTooltip
+so.topic: reference
 ---
-
 
 Tooltip or other description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAmountClassEntity thing;
+String tooltip  = thing.GetTooltip();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncConnectionSummary_SetActors
+title: SetActors(ErpSyncActorSummaryArray actors)
+intellisense: NSErpSyncConnectionSummary.SetActors
+keywords: NSErpSyncConnectionSummary, GetActors
+so.topic: reference
 ---
-title: Void SetActors(NSErpSyncActorSummary[] Actors)
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/Void SetActors(NSErpSyncActorSummary[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3234
-keywords: SetActors(NSErpSyncActorSummary[])
----
-
 
 Summaries of the configuration of the actors configured for this connection
 
+**Parameter:** 
+ - **actors** ErpSyncActorSummaryArray
 
-
-* **Actors:** ErpSyncActorSummaryArray
-* **Returns:** ErpSyncActorSummaryArray
-
+```crmscript
+NSErpSyncConnectionSummary thing;
+ErpSyncActorSummaryArray actors;
+thing.SetActors(actors);
+```
 

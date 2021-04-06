@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionAgent_DeletePersons
 title: Void DeletePersons(Integer selectionId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void DeletePersons(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeletePersons(Integer)
+intellisense: NSSelectionAgent.DeletePersons
+keywords: NSSelectionAgent, DeletePersons
+so.topic: reference
 ---
-
 
 Deletes all persons from a selection. If a person does not have delete rights, it will be skipped.
 
-
-
-* **selectionId:** Id of the selection the delete operation will be performed.
-
-
+**Parameters:**
+ - **selectionId** Id of the selection the delete operation will be performed.

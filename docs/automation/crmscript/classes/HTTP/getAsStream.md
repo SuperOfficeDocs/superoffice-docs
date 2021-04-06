@@ -1,10 +1,10 @@
 ---
-title: NSStream getAsStream(String p0)
-path: /EJScript/Classes/HTTP/Member functions/NSStream getAsStream(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HTTP_getAsStream_String_p_0
+title: HTTP.getAsStream(String p_0)
+intellisense: HTTP.getAsStream
 sortOrder: 406
 keywords: getAsStream(String)
+so.topic: reference
 ---
 
 Supports both http and https. Returns the result in a NSStream.

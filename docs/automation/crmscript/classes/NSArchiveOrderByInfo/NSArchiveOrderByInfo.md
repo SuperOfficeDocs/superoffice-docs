@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveOrderByInfo
 title: NSArchiveOrderByInfo
-path: /EJScript/Classes/NSArchiveOrderByInfo
-intellisense: 1
-classref: 1
-sortOrder: 1194
+intellisense: Void.NSArchiveOrderByInfo
+keywords: NSArchiveOrderByInfo
+so.topic: reference
 ---
-
 
 This class carries information about an ordering criterion for an archive.
 
-
-
-
-1. autolist
+1. autolist 
 

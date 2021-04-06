@@ -1,9 +1,9 @@
 ---
-title: String GetDescriptionStyleHint()
-path: /EJScript/Classes/NSRecurrenceDate/Member functions/String GetDescriptionStyleHint()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceDate_GetDescriptionStyleHint
+title: NSRecurrenceDate.GetDescriptionStyleHint()
+intellisense: NSRecurrenceDate.GetDescriptionStyleHint
 keywords: GetDescriptionStyleHint()
+so.topic: reference
 ---
 
 

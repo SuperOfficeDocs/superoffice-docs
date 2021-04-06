@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_SetHideField
+title: SetHideField(Bool hideField)
+intellisense: NSFieldInfoBase.SetHideField
+keywords: NSFieldInfoBase, GetHideField
+so.topic: reference
 ---
-title: Void SetHideField(Bool HideField)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetHideField(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3478
-keywords: SetHideField(Bool)
----
-
 
 Hide the field from the UI. Only allow API access.
 
+**Parameter:** 
+ - **hideField** Bool
 
-
-* **HideField:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldInfoBase thing;
+Bool hideField;
+thing.SetHideField(hideField);
+```
 

@@ -1,9 +1,9 @@
 ---
 description: MainMenu getMainMenu()
-path: /EJScript/Global functions/MainMenu getMainMenu()
-intellisense: 1
+intellisense: Void.getMainMenu
 langref: 1
 keywords: getMainMenu()
+so.topic: reference
 ---
 
 

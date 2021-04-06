@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_loops_while
-description: Loops - while
+uid: crmscript_fundamentals_loops_while
+title: Loops - while
 author:
 so.date:
 keywords:

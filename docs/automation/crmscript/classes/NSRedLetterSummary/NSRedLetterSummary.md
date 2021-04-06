@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSRedLetterSummary
 title: NSRedLetterSummary
-path: /EJScript/Classes/NSRedLetterSummary
-intellisense: 1
-classref: 1
+intellisense: Void.NSRedLetterSummary
+keywords: NSRedLetterSummary
+so.topic: reference
 ---
-
 
 Summary of redletter day information - holiday in own country, and in other countries known to the system.
 
-
-
-
-1. autolist
+1. autolist 
 

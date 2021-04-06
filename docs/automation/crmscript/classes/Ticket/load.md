@@ -1,9 +1,9 @@
 ---
-title: Bool load(Integer id)
-path: /EJScript/Classes/Ticket/Member functions/Bool load(Integer id)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Ticket_load_Integer_id
+title: Ticket.load(Integer id)
+intellisense: Ticket.load
 keywords: load(Integer)
+so.topic: reference
 ---
 
 Load ticket with given id into this object, return true if successful, false otherwise.

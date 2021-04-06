@@ -1,9 +1,9 @@
 ---
 description: Integer getCategoryIdFromFullname(String name)
-path: /EJScript/Global functions/Integer getCategoryIdFromFullname(String name)
-intellisense: 1
+intellisense: Void.getCategoryIdFromFullname
 langref: 1
 keywords: getCategoryIdFromFullname(String)
+so.topic: reference
 ---
 
 

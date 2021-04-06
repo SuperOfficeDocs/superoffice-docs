@@ -1,9 +1,9 @@
 ---
 description: Void setVariable(String name, String value)
-path: /EJScript/Global functions/Void setVariable(String name, String value)
-intellisense: 1
+intellisense: Void.setVariable
 langref: 1
 keywords: setVariable(String,String)
+so.topic: reference
 ---
 
 

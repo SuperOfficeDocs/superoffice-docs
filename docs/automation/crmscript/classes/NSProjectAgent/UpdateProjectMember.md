@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_UpdateProjectMember
+title: ProjectMember UpdateProjectMember(ProjectMember projectMember)
+intellisense: NSProjectAgent.UpdateProjectMember
+keywords: NSProjectAgent, UpdateProjectMember
+so.topic: reference
 ---
-title: NSProjectMember UpdateProjectMember(NSProjectMember projectMember)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectMember UpdateProjectMember(NSProjectMember p_0)
-intellisense: 1
-classref: 1
-keywords: UpdateProjectMember(NSProjectMember)
----
-
 
 Updates a ProjectMember row.
 
+**Parameters:**
+ - **projectMember** ProjectMember to update
 
+**Returns:** The Updated ProjectMember
 
-* **projectMember:** ProjectMember to update
-* **Returns:** The Updated ProjectMember
-
+```crmscript
+NSProjectAgent agent;
+ProjectMember projectMember;
+ProjectMember res = agent.UpdateProjectMember(projectMember);
+```
 

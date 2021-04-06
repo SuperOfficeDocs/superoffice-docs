@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayName(String p0)
-path: /EJScript/Classes/NSProvidedCredential/Member functions/Void SetDisplayName(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSProvidedCredential_SetDisplayName_String_p_0
+title: NSProvidedCredential.SetDisplayName(String p_0)
+intellisense: NSProvidedCredential.SetDisplayName
 keywords: SetDisplayName(String)
+so.topic: reference
 ---
 
 

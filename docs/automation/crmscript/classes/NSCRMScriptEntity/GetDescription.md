@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 2133
-keywords: GetDescription()
+intellisense: NSCRMScriptEntity.GetDescription
+keywords: NSCRMScriptEntity, GetDescription
+so.topic: reference
 ---
-
 
 Optional description of what this script is used for.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCRMScriptEntity thing;
+String description  = thing.GetDescription();
+```
 
 

@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAgent_DeleteQuoteLine
 title: Void DeleteQuoteLine(Integer quoteLineId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void DeleteQuoteLine(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteQuoteLine(Integer)
+intellisense: NSQuoteAgent.DeleteQuoteLine
+keywords: NSQuoteAgent, DeleteQuoteLine
+so.topic: reference
 ---
-
 
 Deletes the QuoteLine in the SuperOffice database
 
+**Parameters:**
+ - **quoteLineId** Primary key of the quoteline to delete
 
+**Returns:** Nothing
 
-* **quoteLineId:** Primary key of the quoteline to delete
-* **Returns:** Nothing
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteLineId;
+Void res = agent.DeleteQuoteLine(quoteLineId);
+```
 

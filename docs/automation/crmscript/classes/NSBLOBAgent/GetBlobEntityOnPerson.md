@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSBLOBAgent_GetBlobEntityOnPerson
+title: BlobEntity GetBlobEntityOnPerson(Integer personId)
+intellisense: NSBLOBAgent.GetBlobEntityOnPerson
+keywords: NSBLOBAgent, GetBlobEntityOnPerson
+so.topic: reference
 ---
-title: NSBlobEntity GetBlobEntityOnPerson(Integer personId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSBlobEntity GetBlobEntityOnPerson(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1412
-keywords: GetBlobEntityOnPerson(Integer)
----
-
 
 Gets the blob entity that represents the person image binary object.
 
+**Parameters:**
+ - **personId** The person id
 
+**Returns:** BlobEntity object
 
-* **personId:** The person id
-* **Returns:** BlobEntity object
-
+```crmscript
+NSBLOBAgent agent;
+Integer personId;
+BlobEntity res = agent.GetBlobEntityOnPerson(personId);
+```
 

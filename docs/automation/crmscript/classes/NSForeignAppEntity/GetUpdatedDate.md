@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSForeignAppEntity_GetUpdatedDate
 title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
-sortOrder: 3699
-keywords: GetUpdatedDate()
+intellisense: NSForeignAppEntity.GetUpdatedDate
+keywords: NSForeignAppEntity, GetUpdatedDate
+so.topic: reference
 ---
-
 
 Last updated when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSForeignAppEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
 
 

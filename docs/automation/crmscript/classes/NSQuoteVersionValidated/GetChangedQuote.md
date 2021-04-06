@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionValidated_GetChangedQuote
+title: Quote GetChangedQuote()
+intellisense: NSQuoteVersionValidated.GetChangedQuote
+keywords: NSQuoteVersionValidated, GetChangedQuote
+so.topic: reference
 ---
-title: NSQuote GetChangedQuote()
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/NSQuote GetChangedQuote()
-intellisense: 1
-classref: 1
-keywords: GetChangedQuote()
----
-
 
 The validated version is a member of Quote
 
+**Returns:** Quote
 
 
-* **Returns:** Quote
+```crmscript
+NSQuoteVersionValidated thing;
+Quote changedQuote  = thing.GetChangedQuote();
+```
 
 

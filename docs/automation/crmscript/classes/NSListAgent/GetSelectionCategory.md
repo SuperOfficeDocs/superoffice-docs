@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetSelectionCategory
+title: NSSelectionCategory GetSelectionCategory(Integer selectionCategoryId);
+intellisense: NSListAgent.GetSelectionCategory
+keywords: NSListAgent, GetSelectionCategory
+so.topic: reference
 ---
-title: NSSelectionCategory GetSelectionCategory(Integer selectionCategoryId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectionCategory GetSelectionCategory(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSelectionCategory(Integer)
----
 
+Gets a NSSelectionCategory object.
 
-Gets a SelectionCategory object.
+**Parameters:**
+ - **selectionCategoryId** The identifier of the NSSelectionCategory object
 
+**Returns:** NSSelectionCategory
 
-
-* **selectionCategoryId:** The identifier of the SelectionCategory object
-* **Returns:** SelectionCategory
-
+```crmscript
+NSListAgent agent;
+NSSelectionCategory thing = agent.GetSelectionCategory(123);
+```
 

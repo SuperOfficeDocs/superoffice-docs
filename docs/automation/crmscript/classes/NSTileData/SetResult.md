@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTileData_SetResult
+title: SetResult(ArchiveListResult result)
+intellisense: NSTileData.SetResult
+keywords: NSTileData, GetResult
+so.topic: reference
 ---
-title: Void SetResult(NSArchiveListResult Result)
-path: /EJScript/Classes/NSTileData/Member functions/Void SetResult(NSArchiveListResult p_0)
-intellisense: 1
-classref: 1
-keywords: SetResult(NSArchiveListResult)
----
-
 
 The result set
 
+**Parameter:** 
+ - **result** ArchiveListResult
 
-
-* **Result:** ArchiveListResult
-* **Returns:** ArchiveListResult
-
+```crmscript
+NSTileData thing;
+ArchiveListResult result;
+thing.SetResult(result);
+```
 

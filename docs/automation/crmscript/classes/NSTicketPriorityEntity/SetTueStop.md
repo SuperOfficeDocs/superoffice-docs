@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetTueStop
+title: SetTueStop(DateTime tueStop)
+intellisense: NSTicketPriorityEntity.SetTueStop
+keywords: NSTicketPriorityEntity, GetTueStop
+so.topic: reference
 ---
-title: Void SetTueStop(DateTime TueStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetTueStop(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetTueStop(DateTime)
----
-
 
 The work hour stop for Tuesdays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **tueStop** DateTime
 
-
-* **TueStop:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime tueStop;
+thing.SetTueStop(tueStop);
+```
 

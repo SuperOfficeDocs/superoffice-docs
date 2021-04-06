@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_GetFirstMessage
 title: String GetFirstMessage()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/String GetFirstMessage()
-intellisense: 1
-classref: 1
-sortOrder: 1539
-keywords: GetFirstMessage()
+intellisense: NSChatSummaryItem.GetFirstMessage
+keywords: NSChatSummaryItem, GetFirstMessage
+so.topic: reference
 ---
-
 
 A copy of the first message in the chat session
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSChatSummaryItem thing;
+String firstMessage  = thing.GetFirstMessage();
+```
 
 

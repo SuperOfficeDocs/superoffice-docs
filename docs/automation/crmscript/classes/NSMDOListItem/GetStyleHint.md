@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem_GetStyleHint
 title: String GetStyleHint()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetStyleHint()
-intellisense: 1
-classref: 1
-keywords: GetStyleHint()
+intellisense: NSMDOListItem.GetStyleHint
+keywords: NSMDOListItem, GetStyleHint
+so.topic: reference
 ---
-
 
 Style hint indicating, information such as background color etc. Custom field.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMDOListItem thing;
+String styleHint  = thing.GetStyleHint();
+```
 
 

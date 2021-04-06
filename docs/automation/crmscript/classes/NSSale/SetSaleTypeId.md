@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetSaleTypeId
+title: SetSaleTypeId(Integer saleTypeId)
+intellisense: NSSale.SetSaleTypeId
+keywords: NSSale, GetSaleTypeId
+so.topic: reference
 ---
-title: Void SetSaleTypeId(Integer SaleTypeId)
-path: /EJScript/Classes/NSSale/Member functions/Void SetSaleTypeId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleTypeId(Integer)
----
-
 
 The sale's type id
 
+**Parameter:** 
+ - **saleTypeId** Integer
 
-
-* **SaleTypeId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSale thing;
+Integer saleTypeId;
+thing.SetSaleTypeId(saleTypeId);
+```
 

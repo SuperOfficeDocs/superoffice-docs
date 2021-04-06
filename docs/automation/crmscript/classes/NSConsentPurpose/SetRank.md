@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPurpose_SetRank
+title: SetRank(Integer rank)
+intellisense: NSConsentPurpose.SetRank
+keywords: NSConsentPurpose, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1696
-keywords: SetRank(Integer)
----
-
 
 Rank of this consent source
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSConsentPurpose thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

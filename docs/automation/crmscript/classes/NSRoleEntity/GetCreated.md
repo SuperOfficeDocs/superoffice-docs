@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRoleEntity_GetCreated
 title: DateTime GetCreated()
-path: /EJScript/Classes/NSRoleEntity/Member functions/DateTime GetCreated()
-intellisense: 1
-classref: 1
-keywords: GetCreated()
+intellisense: NSRoleEntity.GetCreated
+keywords: NSRoleEntity, GetCreated
+so.topic: reference
 ---
-
 
 Registered when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSRoleEntity thing;
+DateTime created  = thing.GetCreated();
+```
 
 

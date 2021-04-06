@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAddressSyncData_SetFormattedAddress
+title: SetFormattedAddress(String formattedAddress)
+intellisense: NSAddressSyncData.SetFormattedAddress
+keywords: NSAddressSyncData, GetFormattedAddress
+so.topic: reference
 ---
-title: Void SetFormattedAddress(String FormattedAddress)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetFormattedAddress(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 636
-keywords: SetFormattedAddress(String)
----
 
 
-* **FormattedAddress:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **formattedAddress** String
+
+```crmscript
+NSAddressSyncData thing;
+String formattedAddress;
+thing.SetFormattedAddress(formattedAddress);
+```
 

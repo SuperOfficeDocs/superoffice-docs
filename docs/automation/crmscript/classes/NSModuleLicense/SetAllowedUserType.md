@@ -1,17 +1,25 @@
+﻿---
+uid: crmscript_ref_NSModuleLicense_SetAllowedUserType
+title: SetAllowedUserType(Integer allowedUserType)
+intellisense: NSModuleLicense.SetAllowedUserType
+keywords: NSModuleLicense, GetAllowedUserType
+so.topic: reference
 ---
-title: Void SetAllowedUserType(Integer AllowedUserType)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetAllowedUserType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAllowedUserType(Integer)
----
 
+Allowed associate type for user licenses: internal(0), external(4). 
 
-Allowed associate type for user licenses: `internal(0)`, `external(4)`.
+**Parameter:** 
+ - **allowedUserType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 
-
-
-* **AllowedUserType:** Integer
-* **Returns:** Void
-
+```crmscript
+NSModuleLicense thing;
+Integer allowedUserType;
+thing.SetAllowedUserType(allowedUserType);
+```
 

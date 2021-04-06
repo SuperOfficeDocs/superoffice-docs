@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_GetFieldName
 title: String GetFieldName()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/String GetFieldName()
-intellisense: 1
-classref: 1
-keywords: GetFieldName()
+intellisense: NSQuoteLineConfiguration.GetFieldName
+keywords: NSQuoteLineConfiguration, GetFieldName
+so.topic: reference
 ---
-
 
 The name of the field being configured, from data dictionary
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteLineConfiguration thing;
+String fieldName  = thing.GetFieldName();
+```
 
 

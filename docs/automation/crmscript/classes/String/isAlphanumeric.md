@@ -1,9 +1,9 @@
 ---
-title: Bool isAlphanumeric()
-path: /EJScript/Classes/String/Member functions/Bool isAlphanumeric()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_isAlphanumeric
+title: String.isAlphanumeric()
+intellisense: String.isAlphanumeric
 keywords: isAlphanumeric()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetNoFaxOrEmails()
-path: /EJScript/Classes/NSRecipientStatistics/Member functions/Integer GetNoFaxOrEmails()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecipientStatistics_GetNoFaxOrEmails
+title: NSRecipientStatistics.GetNoFaxOrEmails()
+intellisense: NSRecipientStatistics.GetNoFaxOrEmails
 keywords: GetNoFaxOrEmails()
+so.topic: reference
 ---
 
 

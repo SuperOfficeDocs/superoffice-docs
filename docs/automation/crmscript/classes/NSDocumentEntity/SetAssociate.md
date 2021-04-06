@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_SetAssociate
+title: SetAssociate(Associate associate)
+intellisense: NSDocumentEntity.SetAssociate
+keywords: NSDocumentEntity, GetAssociate
+so.topic: reference
 ---
-title: Void SetAssociate(NSAssociate Associate)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2585
-keywords: SetAssociate(NSAssociate)
----
-
 
 The owner of the document - the associate whose checklist the document is in.
 
+**Parameter:** 
+ - **associate** Associate
 
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSDocumentEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
 

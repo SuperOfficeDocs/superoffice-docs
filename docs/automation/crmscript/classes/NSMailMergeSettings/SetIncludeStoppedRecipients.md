@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetIncludeStoppedRecipients
+title: SetIncludeStoppedRecipients(Bool includeStoppedRecipients)
+intellisense: NSMailMergeSettings.SetIncludeStoppedRecipients
+keywords: NSMailMergeSettings, GetIncludeStoppedRecipients
+so.topic: reference
 ---
-title: Void SetIncludeStoppedRecipients(Bool IncludeStoppedRecipients)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetIncludeStoppedRecipients(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIncludeStoppedRecipients(Bool)
----
-
 
 Include recipients that are marked with stop
 
+**Parameter:** 
+ - **includeStoppedRecipients** Bool
 
-
-* **IncludeStoppedRecipients:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSMailMergeSettings thing;
+Bool includeStoppedRecipients;
+thing.SetIncludeStoppedRecipients(includeStoppedRecipients);
+```
 

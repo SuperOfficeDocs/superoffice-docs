@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetParticipants
+title: ParticipantInfoArray GetParticipants()
+intellisense: NSAppointmentEntity.GetParticipants
+keywords: NSAppointmentEntity, GetParticipants
+so.topic: reference
 ---
-title: NSParticipantInfo[] GetParticipants()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSParticipantInfo[] GetParticipants()
-intellisense: 1
-classref: 1
-sortOrder: 965
-keywords: GetParticipants()
----
-
 
 List of id's of the participants to this appointment.
 
+**Returns:** ParticipantInfoArray
 
 
-* **Returns:** ParticipantInfoArray
+```crmscript
+NSAppointmentEntity thing;
+ParticipantInfoArray participants  = thing.GetParticipants();
+```
 
 

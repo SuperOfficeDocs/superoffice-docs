@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplate_GetFilename
 title: String GetFilename()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/String GetFilename()
-intellisense: 1
-classref: 1
-sortOrder: 2631
-keywords: GetFilename()
+intellisense: NSDocumentTemplate.GetFilename
+keywords: NSDocumentTemplate, GetFilename
+so.topic: reference
 ---
-
 
 Relative to TemplatePath
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocumentTemplate thing;
+String filename  = thing.GetFilename();
+```
 
 

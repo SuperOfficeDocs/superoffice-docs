@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_GetEmailAppointmentRecurrence
+title: RecurrenceInfo GetEmailAppointmentRecurrence(Integer mailItemId)
+intellisense: NSEMailAgent.GetEmailAppointmentRecurrence
+keywords: NSEMailAgent, GetEmailAppointmentRecurrence
+so.topic: reference
 ---
-title: NSRecurrenceInfo GetEmailAppointmentRecurrence(Integer mailItemId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSRecurrenceInfo GetEmailAppointmentRecurrence(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2843
-keywords: GetEmailAppointmentRecurrence(Integer)
----
-
 
 Get recurrence data contained in the email iCal attachment
 
+**Parameters:**
+ - **mailItemId** Id identifying the email
 
+**Returns:** Recurrence information
 
-* **mailItemId:** Id identifying the email
-* **Returns:** Recurrence information
-
+```crmscript
+NSEMailAgent agent;
+Integer mailItemId;
+RecurrenceInfo res = agent.GetEmailAppointmentRecurrence(mailItemId);
+```
 

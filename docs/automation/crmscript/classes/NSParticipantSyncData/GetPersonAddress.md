@@ -1,12 +1,19 @@
----
-title: NSAddressSyncData GetPersonAddress()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/NSAddressSyncData GetPersonAddress()
-intellisense: 1
-classref: 1
-keywords: GetPersonAddress()
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_GetPersonAddress
+title: AddressSyncData GetPersonAddress()
+intellisense: NSParticipantSyncData.GetPersonAddress
+keywords: NSParticipantSyncData, GetPersonAddress
+so.topic: reference
 ---
 
 
-* **Returns:** AddressSyncData
+
+**Returns:** AddressSyncData
+
+
+```crmscript
+NSParticipantSyncData thing;
+AddressSyncData personAddress  = thing.GetPersonAddress();
+```
 
 

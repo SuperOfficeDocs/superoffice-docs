@@ -1,13 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetConsentPurposeList
+title: NSConsentPurpose[] GetConsentPurposeList(Integer[]  consentPurposeIds);
+intellisense: NSListAgent.GetConsentPurposeList
+keywords: NSListAgent, GetConsentPurposeList
+so.topic: reference
 ---
-title: NSConsentPurpose[] GetConsentPurposeList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSConsentPurpose[] GetConsentPurposeList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetConsentPurposeList(Integer[])
----
 
+Gets a vector of ConsentPurpose objects.
 
-* **p0:** IntegerArray of identifiers for ConsentPurpose
-* **Returns:** Array of NSConsentPurpose
+**Parameters:**
+ - **consentPurposeIds** The identifiers of the NSConsentPurpose objects
 
+**Returns:** Vector of NSConsentPurpose objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetConsentPurposeList(ids);
+```
 

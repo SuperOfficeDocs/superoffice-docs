@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArea_GetFreetextEnabeled
 title: Bool GetFreetextEnabeled()
-path: /EJScript/Classes/NSArea/Member functions/Bool GetFreetextEnabeled()
-intellisense: 1
-classref: 1
-sortOrder: 1240
-keywords: GetFreetextEnabeled()
+intellisense: NSArea.GetFreetextEnabeled
+keywords: NSArea, GetFreetextEnabeled
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSArea thing;
+Bool freetextEnabeled  = thing.GetFreetextEnabeled();
+```
 
 

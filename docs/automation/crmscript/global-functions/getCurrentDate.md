@@ -1,9 +1,9 @@
 ---
 description: Date getCurrentDate()
-path: /EJScript/Global functions/Date getCurrentDate()
-intellisense: 1
+intellisense: Void.getCurrentDate
 langref: 1
 keywords: getCurrentDate()
+so.topic: reference
 ---
 
 

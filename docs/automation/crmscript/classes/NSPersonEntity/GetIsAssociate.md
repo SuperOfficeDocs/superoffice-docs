@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetIsAssociate
 title: Bool GetIsAssociate()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Bool GetIsAssociate()
-intellisense: 1
-classref: 1
-keywords: GetIsAssociate()
+intellisense: NSPersonEntity.GetIsAssociate
+keywords: NSPersonEntity, GetIsAssociate
+so.topic: reference
 ---
-
 
 Checks if the person object is an associate. The property is read-only.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSPersonEntity thing;
+Bool isAssociate  = thing.GetIsAssociate();
+```
 
 

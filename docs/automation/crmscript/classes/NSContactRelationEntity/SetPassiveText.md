@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_SetPassiveText
+title: SetPassiveText(String passiveText)
+intellisense: NSContactRelationEntity.SetPassiveText
+keywords: NSContactRelationEntity, GetPassiveText
+so.topic: reference
 ---
-title: Void SetPassiveText(String PassiveText)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetPassiveText(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1970
-keywords: SetPassiveText(String)
----
-
 
 Passive text for the relation.
 
+**Parameter:** 
+ - **passiveText** String
 
-
-* **PassiveText:** String
-* **Returns:** String
-
+```crmscript
+NSContactRelationEntity thing;
+String passiveText;
+thing.SetPassiveText(passiveText);
+```
 

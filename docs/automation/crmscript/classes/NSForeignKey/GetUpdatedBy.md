@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSForeignKey_GetUpdatedBy
 title: String GetUpdatedBy()
-path: /EJScript/Classes/NSForeignKey/Member functions/String GetUpdatedBy()
-intellisense: 1
-classref: 1
-sortOrder: 3740
-keywords: GetUpdatedBy()
+intellisense: NSForeignKey.GetUpdatedBy
+keywords: NSForeignKey, GetUpdatedBy
+so.topic: reference
 ---
-
 
 Name of the person that last updated the foreign key
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSForeignKey thing;
+String updatedBy  = thing.GetUpdatedBy();
+```
 
 

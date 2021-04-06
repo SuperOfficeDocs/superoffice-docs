@@ -1,9 +1,9 @@
 ---
-title: Void SetTooltip(String p0)
-path: /EJScript/Classes/NSRecurrenceDate/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceDate_SetTooltip_String_p_0
+title: NSRecurrenceDate.SetTooltip(String p_0)
+intellisense: NSRecurrenceDate.SetTooltip
 keywords: SetTooltip(String)
+so.topic: reference
 ---
 
 

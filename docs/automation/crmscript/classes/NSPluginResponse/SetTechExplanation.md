@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPluginResponse_SetTechExplanation
+title: SetTechExplanation(String techExplanation)
+intellisense: NSPluginResponse.SetTechExplanation
+keywords: NSPluginResponse, GetTechExplanation
+so.topic: reference
 ---
-title: Void SetTechExplanation(String TechExplanation)
-path: /EJScript/Classes/NSPluginResponse/Member functions/Void SetTechExplanation(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTechExplanation(String)
----
-
 
 Always in English
 
+**Parameter:** 
+ - **techExplanation** String
 
-
-* **TechExplanation:** String
-* **Returns:** String
-
+```crmscript
+NSPluginResponse thing;
+String techExplanation;
+thing.SetTechExplanation(techExplanation);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignDevice_SetCreatedDate
+title: SetCreatedDate(DateTime createdDate)
+intellisense: NSForeignDevice.SetCreatedDate
+keywords: NSForeignDevice, GetCreatedDate
+so.topic: reference
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSForeignDevice/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3725
-keywords: SetCreatedDate(DateTime)
----
-
 
 Registered when
 
+**Parameter:** 
+ - **createdDate** DateTime
 
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSForeignDevice thing;
+DateTime createdDate;
+thing.SetCreatedDate(createdDate);
+```
 

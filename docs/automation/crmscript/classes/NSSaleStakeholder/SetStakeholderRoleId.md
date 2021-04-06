@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetStakeholderRoleId
+title: SetStakeholderRoleId(Integer stakeholderRoleId)
+intellisense: NSSaleStakeholder.SetStakeholderRoleId
+keywords: NSSaleStakeholder, GetStakeholderRoleId
+so.topic: reference
 ---
-title: Void SetStakeholderRoleId(Integer StakeholderRoleId)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetStakeholderRoleId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetStakeholderRoleId(Integer)
----
-
 
 Stakeholde role list id - Primary key
 
+**Parameter:** 
+ - **stakeholderRoleId** Integer
 
-
-* **StakeholderRoleId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleStakeholder thing;
+Integer stakeholderRoleId;
+thing.SetStakeholderRoleId(stakeholderRoleId);
+```
 

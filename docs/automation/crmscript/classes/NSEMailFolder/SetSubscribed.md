@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailFolder_SetSubscribed
+title: SetSubscribed(Bool subscribed)
+intellisense: NSEMailFolder.SetSubscribed
+keywords: NSEMailFolder, GetSubscribed
+so.topic: reference
 ---
-title: Void SetSubscribed(Bool Subscribed)
-path: /EJScript/Classes/NSEMailFolder/Member functions/Void SetSubscribed(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3039
-keywords: SetSubscribed(Bool)
----
-
 
 Indicates if the folder is subscribed to
 
+**Parameter:** 
+ - **subscribed** Bool
 
-
-* **Subscribed:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSEMailFolder thing;
+Bool subscribed;
+thing.SetSubscribed(subscribed);
+```
 

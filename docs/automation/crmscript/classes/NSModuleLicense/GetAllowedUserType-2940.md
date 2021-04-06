@@ -1,9 +1,9 @@
 ---
-title: NSUserType GetAllowedUserType()
-path: /EJScript/Classes/NSModuleLicense/Member functions/NSUserType GetAllowedUserType()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSModuleLicense_GetAllowedUserType
+title: NSModuleLicense.GetAllowedUserType()
+intellisense: NSModuleLicense.GetAllowedUserType
 keywords: GetAllowedUserType()
+so.topic: reference
 ---
 
 

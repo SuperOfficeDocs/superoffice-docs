@@ -1,12 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveListItem_SetColumnData
+title: SetColumnData(ColumnDataDictionary columnData)
+intellisense: NSArchiveListItem.SetColumnData
+keywords: NSArchiveListItem, GetColumnData
+so.topic: reference
 ---
-title: Void SetColumnData(Map p0)
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Void SetColumnData(Map p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1182
-keywords: SetColumnData(Map)
----
 
+Dictionary of column name - column data items. Each column data item contains a display value, a tooltip hint, a link hint, and an orderby value. <para/>The display value is encoded by the CultureDataFormatter and can be decoded / localized by that class; all other values are optional. <para/>Tooltip hints can be passed to the TooltipProvider (Tooltip service) to be translated into an actual tootip.
 
+**Parameter:** 
+ - **columnData** ColumnDataDictionary
 
+```crmscript
+NSArchiveListItem thing;
+ColumnDataDictionary columnData;
+thing.SetColumnData(columnData);
+```
 

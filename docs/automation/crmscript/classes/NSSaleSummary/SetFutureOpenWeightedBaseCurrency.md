@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetFutureOpenWeightedBaseCurrency
+title: SetFutureOpenWeightedBaseCurrency(Float futureOpenWeightedBaseCurrency)
+intellisense: NSSaleSummary.SetFutureOpenWeightedBaseCurrency
+keywords: NSSaleSummary, GetFutureOpenWeightedBaseCurrency
+so.topic: reference
 ---
-title: Void SetFutureOpenWeightedBaseCurrency(Float FutureOpenWeightedBaseCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetFutureOpenWeightedBaseCurrency(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetFutureOpenWeightedBaseCurrency(Float)
----
-
 
 Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the installation
 
+**Parameter:** 
+ - **futureOpenWeightedBaseCurrency** Float
 
-
-* **FutureOpenWeightedBaseCurrency:** Float
-* **Returns:** Float
-
+```crmscript
+NSSaleSummary thing;
+Float futureOpenWeightedBaseCurrency;
+thing.SetFutureOpenWeightedBaseCurrency(futureOpenWeightedBaseCurrency);
+```
 

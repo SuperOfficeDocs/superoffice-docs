@@ -1,17 +1,24 @@
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_SetType
+title: SetType(Integer type)
+intellisense: NSPocketNotificationMessage.SetType
+keywords: NSPocketNotificationMessage, GetType
+so.topic: reference
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetType(Integer)
----
-
 
 The type of notification this is
 
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Message 
+     - Enum: 1 = ImportantMessage 
+     - Enum: 2 = RemoteAction 
+     - Enum: 3 = YesNoQuestion 
+     - Enum: 4 = ShowWebPage 
 
-
-* **Type:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPocketNotificationMessage thing;
+Integer type;
+thing.SetType(type);
+```
 

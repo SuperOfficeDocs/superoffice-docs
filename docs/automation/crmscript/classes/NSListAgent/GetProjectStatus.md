@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetProjectStatus
+title: NSProjectStatus GetProjectStatus(Integer projectStatusId);
+intellisense: NSListAgent.GetProjectStatus
+keywords: NSListAgent, GetProjectStatus
+so.topic: reference
 ---
-title: NSProjectStatus GetProjectStatus(Integer projectStatusId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProjectStatus GetProjectStatus(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetProjectStatus(Integer)
----
 
+Gets a NSProjectStatus object.
 
-Gets a ProjectStatus object.
+**Parameters:**
+ - **projectStatusId** The identifier of the NSProjectStatus object
 
+**Returns:** NSProjectStatus
 
-
-* **projectStatusId:** The identifier of the ProjectStatus object
-* **Returns:** ProjectStatus
-
+```crmscript
+NSListAgent agent;
+NSProjectStatus thing = agent.GetProjectStatus(123);
+```
 

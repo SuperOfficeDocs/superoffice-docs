@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetReasonSold
+title: NSReasonSold GetReasonSold(Integer reasonSoldId);
+intellisense: NSListAgent.GetReasonSold
+keywords: NSListAgent, GetReasonSold
+so.topic: reference
 ---
-title: NSReasonSold GetReasonSold(Integer reasonSoldId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSReasonSold GetReasonSold(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetReasonSold(Integer)
----
 
+Gets a NSReasonSold object.
 
-Gets a ReasonSold object.
+**Parameters:**
+ - **reasonSoldId** The identifier of the NSReasonSold object
 
+**Returns:** NSReasonSold
 
-
-* **reasonSoldId:** The identifier of the ReasonSold object
-* **Returns:** ReasonSold
-
+```crmscript
+NSListAgent agent;
+NSReasonSold thing = agent.GetReasonSold(123);
+```
 

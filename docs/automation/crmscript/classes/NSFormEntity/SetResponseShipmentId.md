@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetResponseShipmentId
+title: SetResponseShipmentId(Integer responseShipmentId)
+intellisense: NSFormEntity.SetResponseShipmentId
+keywords: NSFormEntity, GetResponseShipmentId
+so.topic: reference
 ---
-title: Void SetResponseShipmentId(Integer ResponseShipmentId)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetResponseShipmentId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3822
-keywords: SetResponseShipmentId(Integer)
----
 
+The id of the s_shipment that is used to send the response mails
 
-The id of the s\_shipment that is used to send the response mails
+**Parameter:** 
+ - **responseShipmentId** Integer
 
-
-
-* **ResponseShipmentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFormEntity thing;
+Integer responseShipmentId;
+thing.SetResponseShipmentId(responseShipmentId);
+```
 

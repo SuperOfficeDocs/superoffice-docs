@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBusiness_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSBusiness.SetTooltip
+keywords: NSBusiness, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSBusiness/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1482
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the Business list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String Business tooltip description.
 
+```crmscript
+NSBusiness thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

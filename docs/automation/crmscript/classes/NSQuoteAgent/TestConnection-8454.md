@@ -1,9 +1,9 @@
 ---
-title: NSPluginResponse TestConnection(String connectorName, StringDictionary connectionData)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginResponse TestConnection(String p_0, StringDictionary p_1)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSQuoteAgent_TestConnection_String_p_0_StringDictionary_p_1
+title: NSQuoteAgent.TestConnection(String p_0, StringDictionary p_1)
+intellisense: NSQuoteAgent.TestConnection
 keywords: TestConnection(String,StringDictionary)
+so.topic: reference
 ---
 
 

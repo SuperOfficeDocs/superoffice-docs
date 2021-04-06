@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLine_GetUnitListPrice
 title: Float GetUnitListPrice()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetUnitListPrice()
-intellisense: 1
-classref: 1
-keywords: GetUnitListPrice()
+intellisense: NSQuoteLine.GetUnitListPrice
+keywords: NSQuoteLine, GetUnitListPrice
+so.topic: reference
 ---
-
 
 The standard list price; as given by ERP Connector, OR overridden by user
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSQuoteLine thing;
+Float unitListPrice  = thing.GetUnitListPrice();
+```
 
 

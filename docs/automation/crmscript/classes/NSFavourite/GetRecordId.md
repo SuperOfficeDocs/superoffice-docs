@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFavourite_GetRecordId
 title: Integer GetRecordId()
-path: /EJScript/Classes/NSFavourite/Member functions/Integer GetRecordId()
-intellisense: 1
-classref: 1
-sortOrder: 3437
-keywords: GetRecordId()
+intellisense: NSFavourite.GetRecordId
+keywords: NSFavourite, GetRecordId
+so.topic: reference
 ---
-
 
 Id of the record this favourite belongs to.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFavourite thing;
+Integer recordId  = thing.GetRecordId();
+```
 
 

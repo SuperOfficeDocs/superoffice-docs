@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSyncUserAccount_GetAccountId
 title: Integer GetAccountId()
-path: /EJScript/Classes/NSSyncUserAccount/Member functions/Integer GetAccountId()
-intellisense: 1
-classref: 1
-keywords: GetAccountId()
+intellisense: NSSyncUserAccount.GetAccountId
+keywords: NSSyncUserAccount, GetAccountId
+so.topic: reference
 ---
-
 
 The account primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSyncUserAccount thing;
+Integer accountId  = thing.GetAccountId();
+```
 
 

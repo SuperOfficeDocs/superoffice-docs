@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetAddCompanyInterest
+title: SetAddCompanyInterest(Integer addCompanyInterest)
+intellisense: NSMailMergeSettings.SetAddCompanyInterest
+keywords: NSMailMergeSettings, GetAddCompanyInterest
+so.topic: reference
 ---
-title: Void SetAddCompanyInterest(Integer AddCompanyInterest)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetAddCompanyInterest(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAddCompanyInterest(Integer)
----
-
 
 Add this company interest to each company recipient.
 
+**Parameter:** 
+ - **addCompanyInterest** Integer
 
-
-* **AddCompanyInterest:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMailMergeSettings thing;
+Integer addCompanyInterest;
+thing.SetAddCompanyInterest(addCompanyInterest);
+```
 

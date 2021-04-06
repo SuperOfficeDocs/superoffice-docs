@@ -1,24 +1,27 @@
----
+﻿---
+uid: crmscript_ref_NSCheckLicenseStatusResult_GetLicenseStatus
 title: Integer GetLicenseStatus()
-path: /EJScript/Classes/NSCheckLicenseStatusResult/Member functions/Integer GetLicenseStatus()
-intellisense: 1
-classref: 1
-sortOrder: 1551
-keywords: GetLicenseStatus()
+intellisense: NSCheckLicenseStatusResult.GetLicenseStatus
+keywords: NSCheckLicenseStatusResult, GetLicenseStatus
+so.topic: reference
 ---
 
+Result of CheckLicenseStatus 
 
-Result of CheckLicenseStatus
-* Ok=0
-* NewLicenseAvailable=1
-* NewCompanyNameAvailable=2
-* NewSerialAvailable=3
-* UseCustomMessage=4
-* UseCustomMessageAndUrl=5
-* ProblemWithLicense=100
-* UnknownError=5000
+**Returns:** Integer
 
+     - Enum: 0 = Ok 
+     - Enum: 1 = NewLicenseAvailable 
+     - Enum: 2 = NewCompanyNameAvailable 
+     - Enum: 3 = NewSerialAvailable 
+     - Enum: 4 = UseCustomMessage 
+     - Enum: 5 = UseCustomMessageAndUrl 
+     - Enum: 100 = ProblemWithLicense 
+     - Enum: 5000 = UnknownError 
 
-* **Returns:** Integer
+```crmscript
+NSCheckLicenseStatusResult thing;
+Integer licenseStatus  = thing.GetLicenseStatus();
+```
 
 

@@ -1,20 +1,25 @@
+﻿---
+uid: crmscript_ref_NSDashboardAgent_SetTile
+title: Dashboard SetTile(Integer dashboardId, Integer tileId, Integer position)
+intellisense: NSDashboardAgent.SetTile
+keywords: NSDashboardAgent, SetTile
+so.topic: reference
 ---
-title: NSDashboard SetTile(Integer dashboardId, Integer tileId, Integer position)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboard SetTile(Integer p_0, Integer p_1, Integer p_2)
-intellisense: 1
-classref: 1
-sortOrder: 2275
-keywords: SetTile(Integer,Integer,Integer)
----
-
 
 Sets tile in the given dashboard position
 
+**Parameters:**
+ - **dashboardId** Dashboard Id
+ - **tileId** Tile Id
+ - **position** Tile position in the dashboard
 
+**Returns:** The new dashboard is returned after the tile change
 
-* **dashboardId:** Dashboard Id
-* **tileId:** Tile Id
-* **position:** Tile position in the dashboard
-* **Returns:** The new dashboard is returned after the tile change
-
+```crmscript
+NSDashboardAgent agent;
+Integer dashboardId;
+Integer tileId;
+Integer position;
+Dashboard res = agent.SetTile(dashboardId, tileId, position);
+```
 

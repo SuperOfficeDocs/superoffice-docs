@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetCompetitor
+title: SetCompetitor(Competitor competitor)
+intellisense: NSSaleEntity.SetCompetitor
+keywords: NSSaleEntity, GetCompetitor
+so.topic: reference
 ---
-title: Void SetCompetitor(NSCompetitor Competitor)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetCompetitor(NSCompetitor p_0)
-intellisense: 1
-classref: 1
-keywords: SetCompetitor(NSCompetitor)
----
 
+List of all possible competitors. 
 
-List of all possible competitors.
+**Parameter:** 
+ - **competitor** Competitor
 
-
-
-* **Competitor:** Competitor
-* **Returns:** Competitor
-
+```crmscript
+NSSaleEntity thing;
+Competitor competitor;
+thing.SetCompetitor(competitor);
+```
 

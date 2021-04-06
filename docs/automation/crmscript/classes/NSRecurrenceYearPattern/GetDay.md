@@ -1,9 +1,9 @@
 ---
-title: Integer GetDay()
-path: /EJScript/Classes/NSRecurrenceYearPattern/Member functions/Integer GetDay()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceYearPattern_GetDay
+title: NSRecurrenceYearPattern.GetDay()
+intellisense: NSRecurrenceYearPattern.GetDay
 keywords: GetDay()
+so.topic: reference
 ---
 
 

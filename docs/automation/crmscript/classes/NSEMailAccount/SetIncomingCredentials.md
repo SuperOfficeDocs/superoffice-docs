@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAccount_SetIncomingCredentials
+title: SetIncomingCredentials(ServiceAuth incomingCredentials)
+intellisense: NSEMailAccount.SetIncomingCredentials
+keywords: NSEMailAccount, GetIncomingCredentials
+so.topic: reference
 ---
-title: Void SetIncomingCredentials(NSServiceAuth IncomingCredentials)
-path: /EJScript/Classes/NSEMailAccount/Member functions/Void SetIncomingCredentials(NSServiceAuth p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2758
-keywords: SetIncomingCredentials(NSServiceAuth)
----
-
 
 Account credentials for imap
 
+**Parameter:** 
+ - **incomingCredentials** ServiceAuth
 
-
-* **IncomingCredentials:** ServiceAuth
-* **Returns:** ServiceAuth
-
+```crmscript
+NSEMailAccount thing;
+ServiceAuth incomingCredentials;
+thing.SetIncomingCredentials(incomingCredentials);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFreeText_GetAutoEnableTravelAreas
 title: Bool GetAutoEnableTravelAreas()
-path: /EJScript/Classes/NSFreeText/Member functions/Bool GetAutoEnableTravelAreas()
-intellisense: 1
-classref: 1
-sortOrder: 3852
-keywords: GetAutoEnableTravelAreas()
+intellisense: NSFreeText.GetAutoEnableTravelAreas
+keywords: NSFreeText, GetAutoEnableTravelAreas
+so.topic: reference
 ---
-
 
 Automatically enable freetext search for new travel areas
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFreeText thing;
+Bool autoEnableTravelAreas  = thing.GetAutoEnableTravelAreas();
+```
 
 

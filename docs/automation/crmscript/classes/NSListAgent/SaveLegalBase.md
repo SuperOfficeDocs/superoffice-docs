@@ -1,12 +1,12 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveLegalBase
+title: LegalBase SaveLegalBase(LegalBase legalBase)
+intellisense: NSListAgent.SaveLegalBase
+keywords: NSListAgent, SaveLegalBase
+so.topic: reference
 ---
-title: NSLegalBase SaveLegalBase(NSLegalBase p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLegalBase SaveLegalBase(NSLegalBase p_0)
-intellisense: 1
-classref: 1
-keywords: SaveLegalBase(NSLegalBase)
----
 
 
-* **legalBase**
 
-
+**Parameters:**
+ - **legalBase** 

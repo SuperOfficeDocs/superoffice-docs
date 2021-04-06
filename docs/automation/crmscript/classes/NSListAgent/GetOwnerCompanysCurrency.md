@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetOwnerCompanysCurrency
+title: Currency GetOwnerCompanysCurrency()
+intellisense: NSListAgent.GetOwnerCompanysCurrency
+keywords: NSListAgent, GetOwnerCompanysCurrency
+so.topic: reference
 ---
-title: NSCurrency GetOwnerCompanysCurrency()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrency GetOwnerCompanysCurrency()
-intellisense: 1
-classref: 1
-keywords: GetOwnerCompanysCurrency()
----
-
 
 Get the currency of the user's owner company
 
 
+**Returns:** Currency of the user's owner company
 
-* **Returns:** Currency of the user's owner company
-
+```crmscript
+NSListAgent agent;
+Currency res = agent.GetOwnerCompanysCurrency();
+```
 

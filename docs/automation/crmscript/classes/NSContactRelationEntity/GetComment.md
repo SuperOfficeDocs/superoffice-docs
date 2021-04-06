@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetComment
 title: String GetComment()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/String GetComment()
-intellisense: 1
-classref: 1
-sortOrder: 1956
-keywords: GetComment()
+intellisense: NSContactRelationEntity.GetComment
+keywords: NSContactRelationEntity, GetComment
+so.topic: reference
 ---
-
 
 Comment for relation
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactRelationEntity thing;
+String comment  = thing.GetComment();
+```
 
 

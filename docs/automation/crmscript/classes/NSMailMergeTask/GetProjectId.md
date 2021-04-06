@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeTask_GetProjectId
 title: Integer GetProjectId()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
-keywords: GetProjectId()
+intellisense: NSMailMergeTask.GetProjectId
+keywords: NSMailMergeTask, GetProjectId
+so.topic: reference
 ---
-
 
 Project identity to set on task
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMailMergeTask thing;
+Integer projectId  = thing.GetProjectId();
+```
 
 

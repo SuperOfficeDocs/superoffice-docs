@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 3369
-keywords: GetRank()
+intellisense: NSExtAppEntity.GetRank
+keywords: NSExtAppEntity, GetRank
+so.topic: reference
 ---
-
 
 The rank of the application
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSExtAppEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

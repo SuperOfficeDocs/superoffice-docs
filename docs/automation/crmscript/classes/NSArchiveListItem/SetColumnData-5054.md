@@ -1,10 +1,10 @@
 ---
-title: Void SetColumnData(NSColumnDataDictionary ColumnData)
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Void SetColumnData(NSColumnDataDictionary p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSArchiveListItem_SetColumnData_NSColumnDataDictionary_p_0
+title: NSArchiveListItem.SetColumnData(NSColumnDataDictionary p_0)
+intellisense: NSArchiveListItem.SetColumnData
 sortOrder: 1183
 keywords: SetColumnData(NSColumnDataDictionary)
+so.topic: reference
 ---
 
 

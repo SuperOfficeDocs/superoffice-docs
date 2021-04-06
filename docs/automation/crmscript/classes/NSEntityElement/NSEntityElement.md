@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_NSEntityElement
 title: NSEntityElement
-path: /EJScript/Classes/NSEntityElement
-intellisense: 1
-classref: 1
+intellisense: Void.NSEntityElement
 sortOrder: 3060
+so.topic: reference
 ---
 
 

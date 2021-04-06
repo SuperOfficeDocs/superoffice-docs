@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetLinks
+title: LinkArray GetLinks()
+intellisense: NSAppointmentEntity.GetLinks
+keywords: NSAppointmentEntity, GetLinks
+so.topic: reference
 ---
-title: NSLink[] GetLinks()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSLink[] GetLinks()
-intellisense: 1
-classref: 1
-sortOrder: 964
-keywords: GetLinks()
----
+
+List of all elements linked to the appointment.
+
+**Returns:** LinkArray
 
 
-List of all elements linked to the document.
-
-
-
-* **Returns:** LinkArray
+```crmscript
+NSAppointmentEntity thing;
+LinkArray links  = thing.GetLinks();
+```
 
 

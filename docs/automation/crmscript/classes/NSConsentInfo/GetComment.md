@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo_GetComment
 title: String GetComment()
-path: /EJScript/Classes/NSConsentInfo/Member functions/String GetComment()
-intellisense: 1
-classref: 1
-sortOrder: 1636
-keywords: GetComment()
+intellisense: NSConsentInfo.GetComment
+keywords: NSConsentInfo, GetComment
+so.topic: reference
 ---
-
 
 Comment regarding this specific consent
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentInfo thing;
+String comment  = thing.GetComment();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetTo
+title: SetTo(EMailAddressArray to)
+intellisense: NSEMailEntity.SetTo
+keywords: NSEMailEntity, GetTo
+so.topic: reference
 ---
-title: Void SetTo(NSEMailAddress[] To)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetTo(NSEMailAddress[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2999
-keywords: SetTo(NSEMailAddress[])
----
-
 
 To recipients of e-mail
 
+**Parameter:** 
+ - **to** EMailAddressArray
 
-
-* **To:** EMailAddressArray
-* **Returns:** EMailAddressArray
-
+```crmscript
+NSEMailEntity thing;
+EMailAddressArray to;
+thing.SetTo(to);
+```
 

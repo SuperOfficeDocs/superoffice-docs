@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_SetIsMandatory
+title: SetIsMandatory(Bool isMandatory)
+intellisense: NSFieldInfoBase.SetIsMandatory
+keywords: NSFieldInfoBase, GetIsMandatory
+so.topic: reference
 ---
-title: Void SetIsMandatory(Bool IsMandatory)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetIsMandatory(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3482
-keywords: SetIsMandatory(Bool)
----
-
 
 0 = no, 1 = yes (field must be filled out)
 
+**Parameter:** 
+ - **isMandatory** Bool
 
-
-* **IsMandatory:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldInfoBase thing;
+Bool isMandatory;
+thing.SetIsMandatory(isMandatory);
+```
 

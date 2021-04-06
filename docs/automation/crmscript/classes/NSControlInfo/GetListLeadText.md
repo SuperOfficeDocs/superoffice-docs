@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSControlInfo_GetListLeadText
 title: String GetListLeadText()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetListLeadText()
-intellisense: 1
-classref: 1
-sortOrder: 1998
-keywords: GetListLeadText()
+intellisense: NSControlInfo.GetListLeadText
+keywords: NSControlInfo, GetListLeadText
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSControlInfo thing;
+String listLeadText  = thing.GetListLeadText();
+```
 
 

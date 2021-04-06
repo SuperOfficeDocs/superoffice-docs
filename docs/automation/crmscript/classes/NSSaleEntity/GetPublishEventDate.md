@@ -1,12 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetPublishEventDate
 title: DateTime GetPublishEventDate()
-path: /EJScript/Classes/NSSaleEntity/Member functions/DateTime GetPublishEventDate()
-intellisense: 1
-classref: 1
-keywords: GetPublishEventDate()
+intellisense: NSSaleEntity.GetPublishEventDate
+keywords: NSSaleEntity, GetPublishEventDate
+so.topic: reference
 ---
 
+Publish event date on SaleEntity.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime
 

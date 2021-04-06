@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_SetDocumentId
+title: SetDocumentId(Integer documentId)
+intellisense: NSEMailSOInfo.SetDocumentId
+keywords: NSEMailSOInfo, GetDocumentId
+so.topic: reference
 ---
-title: Void SetDocumentId(Integer DocumentId)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3057
-keywords: SetDocumentId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **documentId** Integer
 
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailSOInfo thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
 

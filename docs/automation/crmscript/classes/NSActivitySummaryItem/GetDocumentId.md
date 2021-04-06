@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem_GetDocumentId
 title: Integer GetDocumentId()
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Integer GetDocumentId()
-intellisense: 1
-classref: 1
-sortOrder: 599
-keywords: GetDocumentId()
+intellisense: NSActivitySummaryItem.GetDocumentId
+keywords: NSActivitySummaryItem, GetDocumentId
+so.topic: reference
 ---
-
 
 Document id - 0 if not a document
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSActivitySummaryItem thing;
+Integer documentId  = thing.GetDocumentId();
+```
 
 

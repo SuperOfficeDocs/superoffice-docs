@@ -1,19 +1,25 @@
+﻿---
+uid: crmscript_ref_NSMDOAgent_GetListWithRestriction
+title: MDOListItemArray GetListWithRestriction(String name, String additionalInfo, String searchValue)
+intellisense: NSMDOAgent.GetListWithRestriction
+keywords: NSMDOAgent, GetListWithRestriction
+so.topic: reference
 ---
-title: NSMDOListItem[] GetListWithRestriction(String name, String additionalInfo, String searchValue)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSMDOListItem[] GetListWithRestriction(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
-keywords: GetListWithRestriction(String,String,String)
----
-
 
 Method to get a MDO list with restrictions.
 
+**Parameters:**
+ - **name** Conceptual name of the MDO list-
+ - **additionalInfo** Additional info to the MDO provider
+ - **searchValue** the value used to restrict the list
 
+**Returns:** Array of MDOListItem
 
-* **name:** Conceptual name of the MDO list-
-* **additionalInfo:** Additional info to the MDO provider
-* **searchValue:** the value used to restrict the list
-* **Returns:** Array of MDOListItem
-
+```crmscript
+NSMDOAgent agent;
+String name;
+String additionalInfo;
+String searchValue;
+MDOListItemArray res = agent.GetListWithRestriction(name, additionalInfo, searchValue);
+```
 

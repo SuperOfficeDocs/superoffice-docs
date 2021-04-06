@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_SetEmailAddress
+title: SetEmailAddress(String emailAddress)
+intellisense: NSFormSubmissionEntity.SetEmailAddress
+keywords: NSFormSubmissionEntity, GetEmailAddress
+so.topic: reference
 ---
-title: Void SetEmailAddress(String EmailAddress)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetEmailAddress(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3841
-keywords: SetEmailAddress(String)
----
-
 
 The email address of the person who submitted
 
+**Parameter:** 
+ - **emailAddress** String
 
-
-* **EmailAddress:** String
-* **Returns:** String
-
+```crmscript
+NSFormSubmissionEntity thing;
+String emailAddress;
+thing.SetEmailAddress(emailAddress);
+```
 

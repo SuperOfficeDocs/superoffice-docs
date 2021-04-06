@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetProjectId
+title: SetProjectId(Integer projectId)
+intellisense: NSProjectMember.SetProjectId
+keywords: NSProjectMember, GetProjectId
+so.topic: reference
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectId(Integer)
----
-
 
 Parent project - the project this project member belongs to.
 
+**Parameter:** 
+ - **projectId** Integer
 
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectMember thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
 

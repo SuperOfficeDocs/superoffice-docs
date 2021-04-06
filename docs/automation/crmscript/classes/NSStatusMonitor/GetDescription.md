@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitor_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSStatusMonitor.GetDescription
+keywords: NSStatusMonitor, GetDescription
+so.topic: reference
 ---
-
 
 Description of the status monitor
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSStatusMonitor thing;
+String description  = thing.GetDescription();
+```
 
 

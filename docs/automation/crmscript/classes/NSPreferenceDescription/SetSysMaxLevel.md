@@ -1,16 +1,26 @@
----
-title: Void SetSysMaxLevel(Integer p0)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetSysMaxLevel(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSysMaxLevel(Integer)
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_SetSysMaxLevel
+title: SetSysMaxLevel(PreferenceLevel sysMaxLevel)
+intellisense: NSPreferenceDescription.SetSysMaxLevel
+keywords: NSPreferenceDescription, GetSysMaxLevel
+so.topic: reference
 ---
 
 Lowest allowed setting level, set by SuperOffice
 
+**Parameter:** 
+ - **sysMaxLevel** PreferenceLevel
+     - Enum: 0 = Undefined 
+     - Enum: 1 = HardDefault 
+     - Enum: 2 = SystemWide 
+     - Enum: 3 = Database 
+     - Enum: 4 = Group 
+     - Enum: 5 = Individual 
+     - Enum: 6 = PC 
 
-
-* **p_0:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPreferenceDescription thing;
+PreferenceLevel sysMaxLevel;
+thing.SetSysMaxLevel(sysMaxLevel);
+```
 

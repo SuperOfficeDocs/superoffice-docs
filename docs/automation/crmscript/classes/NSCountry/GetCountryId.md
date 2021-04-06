@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetCountryId
 title: Integer GetCountryId()
-path: /EJScript/Classes/NSCountry/Member functions/Integer GetCountryId()
-intellisense: 1
-classref: 1
-sortOrder: 2014
-keywords: GetCountryId()
+intellisense: NSCountry.GetCountryId
+keywords: NSCountry, GetCountryId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCountry thing;
+Integer countryId  = thing.GetCountryId();
+```
 
 

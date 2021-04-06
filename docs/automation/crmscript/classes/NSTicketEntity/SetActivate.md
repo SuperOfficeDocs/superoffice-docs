@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetActivate
+title: SetActivate(DateTime activate)
+intellisense: NSTicketEntity.SetActivate
+keywords: NSTicketEntity, GetActivate
+so.topic: reference
 ---
-title: Void SetActivate(DateTime Activate)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetActivate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetActivate(DateTime)
----
-
 
 When the ticket should be activated, if it is postponed.
 
+**Parameter:** 
+ - **activate** DateTime
 
-
-* **Activate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketEntity thing;
+DateTime activate;
+thing.SetActivate(activate);
+```
 

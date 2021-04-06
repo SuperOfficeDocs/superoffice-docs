@@ -1,9 +1,9 @@
 ---
 description: Integer getAttachmentsSize(Integer[] attachmentIds)
-path: /EJScript/Global functions/Integer getAttachmentsSize(Integer[] attachmentIds)
-intellisense: 1
+intellisense: Void.getAttachmentsSize
 langref: 1
 keywords: getAttachmentsSize(Integer[])
+so.topic: reference
 ---
 
 

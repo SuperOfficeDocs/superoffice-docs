@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFreeText_SetLastGenerated
+title: SetLastGenerated(DateTime lastGenerated)
+intellisense: NSFreeText.SetLastGenerated
+keywords: NSFreeText, GetLastGenerated
+so.topic: reference
 ---
-title: Void SetLastGenerated(DateTime LastGenerated)
-path: /EJScript/Classes/NSFreeText/Member functions/Void SetLastGenerated(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3862
-keywords: SetLastGenerated(DateTime)
----
-
 
 Last time search has been generated
 
+**Parameter:** 
+ - **lastGenerated** DateTime
 
-
-* **LastGenerated:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSFreeText thing;
+DateTime lastGenerated;
+thing.SetLastGenerated(lastGenerated);
+```
 

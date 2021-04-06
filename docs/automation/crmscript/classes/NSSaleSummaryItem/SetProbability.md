@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_SetProbability
+title: SetProbability(Integer probability)
+intellisense: NSSaleSummaryItem.SetProbability
+keywords: NSSaleSummaryItem, GetProbability
+so.topic: reference
 ---
-title: Void SetProbability(Integer Probability)
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Void SetProbability(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetProbability(Integer)
----
-
 
 Probability of sale succeess in percent (0-100)
 
+**Parameter:** 
+ - **probability** Integer
 
-
-* **Probability:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleSummaryItem thing;
+Integer probability;
+thing.SetProbability(probability);
+```
 

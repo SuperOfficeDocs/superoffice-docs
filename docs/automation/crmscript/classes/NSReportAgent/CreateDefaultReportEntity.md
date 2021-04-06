@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportAgent_CreateDefaultReportEntity
 title: NSReportEntity CreateDefaultReportEntity()
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity CreateDefaultReportEntity()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultReportEntity()
+intellisense: NSReportAgent.CreateDefaultReportEntity
+keywords: NSReportAgent, CreateDefaultReportEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSReportEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSReportEntity with default values.
 
-
-Loading default values into a new ReportEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New ReportEntity with default values
-
+```crmscript
+NSReportAgent agent;
+NSReportEntity thing = agent.CreateDefaultReportEntity();
+thing = agent.SaveReportEntity(thing);
+```
 

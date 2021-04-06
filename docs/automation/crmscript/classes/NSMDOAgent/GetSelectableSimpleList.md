@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSMDOAgent_GetSelectableSimpleList
+title: SelectableMDOListItemArray GetSelectableSimpleList(String name)
+intellisense: NSMDOAgent.GetSelectableSimpleList
+keywords: NSMDOAgent, GetSelectableSimpleList
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] GetSelectableSimpleList(String name)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSSelectableMDOListItem[] GetSelectableSimpleList(String p_0)
-intellisense: 1
-classref: 1
-keywords: GetSelectableSimpleList(String)
----
-
 
 Method returns a flat Selectable MDO List.
 
+**Parameters:**
+ - **name** Conceptual name of the MDO list
 
+**Returns:** Array of SelectableMDOListItem
 
-* **name:** Conceptual name of the MDO list
-* **Returns:** Array of SelectableMDOListItem
-
+```crmscript
+NSMDOAgent agent;
+String name;
+SelectableMDOListItemArray res = agent.GetSelectableSimpleList(name);
+```
 

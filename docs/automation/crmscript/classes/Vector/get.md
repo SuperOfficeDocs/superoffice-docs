@@ -1,9 +1,9 @@
 ---
-title: String get(Integer index)
-path: /EJScript/Classes/Vector/Member functions/String get(Integer index)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Vector_get_Integer_index
+title: Vector.get(Integer index)
+intellisense: Vector.get
 keywords: get(Integer)
+so.topic: reference
 ---
 
 

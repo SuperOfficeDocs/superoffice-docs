@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetPosition
+title: NSPosition GetPosition(Integer positionId);
+intellisense: NSListAgent.GetPosition
+keywords: NSListAgent, GetPosition
+so.topic: reference
 ---
-title: NSPosition GetPosition(Integer positionId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSPosition GetPosition(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPosition(Integer)
----
 
+Gets a NSPosition object.
 
-Gets a Position object.
+**Parameters:**
+ - **positionId** The identifier of the NSPosition object
 
+**Returns:** NSPosition
 
-
-* **positionId:** The identifier of the Position object
-* **Returns:** Position
-
+```crmscript
+NSListAgent agent;
+NSPosition thing = agent.GetPosition(123);
+```
 

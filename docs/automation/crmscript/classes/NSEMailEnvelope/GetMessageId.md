@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEnvelope_GetMessageId
 title: String GetMessageId()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/String GetMessageId()
-intellisense: 1
-classref: 1
-sortOrder: 3012
-keywords: GetMessageId()
+intellisense: NSEMailEnvelope.GetMessageId
+keywords: NSEMailEnvelope, GetMessageId
+so.topic: reference
 ---
-
 
 Unique id of e-mails
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailEnvelope thing;
+String messageId  = thing.GetMessageId();
+```
 
 

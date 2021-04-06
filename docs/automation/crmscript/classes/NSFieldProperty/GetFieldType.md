@@ -1,10 +1,10 @@
 ---
-title: String GetFieldType()
-path: /EJScript/Classes/NSFieldProperty/Member functions/String GetFieldType()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSFieldProperty_GetFieldType
+title: NSFieldProperty.GetFieldType()
+intellisense: NSFieldProperty.GetFieldType
 sortOrder: 3600
 keywords: GetFieldType()
+so.topic: reference
 ---
 
 

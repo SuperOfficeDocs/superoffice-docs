@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpCrmListItemMapping_GetCrmListItem
+title: MDOListItem GetCrmListItem()
+intellisense: NSErpCrmListItemMapping.GetCrmListItem
+keywords: NSErpCrmListItemMapping, GetCrmListItem
+so.topic: reference
 ---
-title: NSMDOListItem GetCrmListItem()
-path: /EJScript/Classes/NSErpCrmListItemMapping/Member functions/NSMDOListItem GetCrmListItem()
-intellisense: 1
-classref: 1
-sortOrder: 3144
-keywords: GetCrmListItem()
----
-
 
 One mapped SuperOffice listItem
 
+**Returns:** MDOListItem
 
 
-* **Returns:** MDOListItem
+```crmscript
+NSErpCrmListItemMapping thing;
+MDOListItem crmListItem  = thing.GetCrmListItem();
+```
 
 

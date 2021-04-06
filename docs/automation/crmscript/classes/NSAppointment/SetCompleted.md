@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetCompleted
+title: SetCompleted(Integer completed)
+intellisense: NSAppointment.SetCompleted
+keywords: NSAppointment, GetCompleted
+so.topic: reference
 ---
-title: Void SetCompleted(Integer Completed)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetCompleted(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 781
-keywords: SetCompleted(Integer)
----
 
+The Completed state. 
 
-The Completed state.
+**Parameter:** 
+ - **completed** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 
-
-
-* **Completed:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointment thing;
+Integer completed;
+thing.SetCompleted(completed);
+```
 

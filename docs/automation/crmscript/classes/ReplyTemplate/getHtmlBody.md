@@ -1,9 +1,9 @@
 ---
-title: String getHtmlBody(Integer language)
-path: /EJScript/Classes/ReplyTemplate/Member functions/String getHtmlBody(Integer language)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ReplyTemplate_getHtmlBody_Integer_language
+title: ReplyTemplate.getHtmlBody(Integer language)
+intellisense: ReplyTemplate.getHtmlBody
 keywords: getHtmlBody(Integer)
+so.topic: reference
 ---
 
 Returns the Reply template html body, in the language given by language

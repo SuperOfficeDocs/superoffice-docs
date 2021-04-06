@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDictionaryStepInformation_GetStepNumber
 title: Integer GetStepNumber()
-path: /EJScript/Classes/NSDictionaryStepInformation/Member functions/Integer GetStepNumber()
-intellisense: 1
-classref: 1
-sortOrder: 2423
-keywords: GetStepNumber()
+intellisense: NSDictionaryStepInformation.GetStepNumber
+keywords: NSDictionaryStepInformation, GetStepNumber
+so.topic: reference
 ---
-
 
 Generation number of step
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDictionaryStepInformation thing;
+Integer stepNumber  = thing.GetStepNumber();
+```
 
 

@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity
 title: NSSuggestedDocumentEntity
-path: /EJScript/Classes/NSSuggestedDocumentEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSSuggestedDocumentEntity
+keywords: NSSuggestedDocumentEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

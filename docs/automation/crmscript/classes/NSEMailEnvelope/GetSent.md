@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEnvelope_GetSent
 title: DateTime GetSent()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/DateTime GetSent()
-intellisense: 1
-classref: 1
-sortOrder: 3002
-keywords: GetSent()
+intellisense: NSEMailEnvelope.GetSent
+keywords: NSEMailEnvelope, GetSent
+so.topic: reference
 ---
-
 
 When was the e-mail sent
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSEMailEnvelope thing;
+DateTime sent  = thing.GetSent();
+```
 
 

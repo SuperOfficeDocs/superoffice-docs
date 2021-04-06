@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSScript_GetSource
 title: String GetSource()
-path: /EJScript/Classes/NSScript/Member functions/String GetSource()
-intellisense: 1
-classref: 1
-keywords: GetSource()
+intellisense: NSScript.GetSource
+keywords: NSScript, GetSource
+so.topic: reference
 ---
-
 
 The script
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSScript thing;
+String source  = thing.GetSource();
+```
 
 

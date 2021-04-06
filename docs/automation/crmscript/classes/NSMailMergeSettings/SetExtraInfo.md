@@ -1,21 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
+intellisense: NSMailMergeSettings.SetExtraInfo
+keywords: NSMailMergeSettings, GetExtraInfo
+so.topic: reference
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraInfo(String)
----
 
+Used to store additional information for the delivery systems. 
 
-Used to store additional information for the delivery systems.
+**Parameter:** 
+ - **extraInfo** String
 
-
-    	///
-    
-
-
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+```crmscript
+NSMailMergeSettings thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
 

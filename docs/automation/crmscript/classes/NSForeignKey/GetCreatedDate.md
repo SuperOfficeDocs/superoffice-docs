@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSForeignKey_GetCreatedDate
 title: DateTime GetCreatedDate()
-path: /EJScript/Classes/NSForeignKey/Member functions/DateTime GetCreatedDate()
-intellisense: 1
-classref: 1
-sortOrder: 3734
-keywords: GetCreatedDate()
+intellisense: NSForeignKey.GetCreatedDate
+keywords: NSForeignKey, GetCreatedDate
+so.topic: reference
 ---
-
 
 Registered when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSForeignKey thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
 
 

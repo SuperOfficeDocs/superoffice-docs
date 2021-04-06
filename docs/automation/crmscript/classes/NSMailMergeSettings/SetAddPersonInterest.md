@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetAddPersonInterest
+title: SetAddPersonInterest(Integer addPersonInterest)
+intellisense: NSMailMergeSettings.SetAddPersonInterest
+keywords: NSMailMergeSettings, GetAddPersonInterest
+so.topic: reference
 ---
-title: Void SetAddPersonInterest(Integer AddPersonInterest)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetAddPersonInterest(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAddPersonInterest(Integer)
----
-
 
 Add this person interest to each person recipient.
 
+**Parameter:** 
+ - **addPersonInterest** Integer
 
-
-* **AddPersonInterest:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMailMergeSettings thing;
+Integer addPersonInterest;
+thing.SetAddPersonInterest(addPersonInterest);
+```
 

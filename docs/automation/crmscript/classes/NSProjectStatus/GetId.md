@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSProjectStatus_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSProjectStatus/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSProjectStatus.GetId
+keywords: NSProjectStatus, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the ProjectStatus
 
-* **Returns:** Integer
+**Returns:** Integer ProjectStatus id.
 
+```crmscript
+NSProjectStatus thing;
+Integer id = thing.GetId();
+```
 

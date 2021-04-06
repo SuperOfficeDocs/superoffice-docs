@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailCustomHeader
 title: NSEMailCustomHeader
-path: /EJScript/Classes/NSEMailCustomHeader
-intellisense: 1
-classref: 1
-sortOrder: 2936
+intellisense: Void.NSEMailCustomHeader
+keywords: NSEMailCustomHeader
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

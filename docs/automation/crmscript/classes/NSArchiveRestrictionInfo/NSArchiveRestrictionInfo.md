@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo
 title: NSArchiveRestrictionInfo
-path: /EJScript/Classes/NSArchiveRestrictionInfo
-intellisense: 1
-classref: 1
-sortOrder: 1210
+intellisense: Void.NSArchiveRestrictionInfo
+keywords: NSArchiveRestrictionInfo
+so.topic: reference
 ---
-
 
 This class carries information about a restriction on the query of an archive provider
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,9 +1,9 @@
 ---
 description: Integer copyCRMDocumentToAttachment(Integer crmDocId)
-path: /EJScript/Global functions/Integer copyCRMDocumentToAttachment(Integer crmDocId)
-intellisense: 1
+intellisense: Void.copyCRMDocumentToAttachment
 langref: 1
 keywords: copyCRMDocumentToAttachment(Integer)
+so.topic: reference
 ---
 
 

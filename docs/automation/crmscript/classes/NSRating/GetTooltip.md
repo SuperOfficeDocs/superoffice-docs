@@ -1,12 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSRating_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSRating/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSRating.GetTooltip
+keywords: NSRating, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the Rating list item.
 
-* **Returns:** String
+**Returns:** String Rating tooltip description.
+
+```crmscript
+NSRating thing;
+String descr = thing.GetTooltip();
+```
 
 

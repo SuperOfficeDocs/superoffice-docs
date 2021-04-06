@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBlobEntity_SetConceptualType
+title: SetConceptualType(String conceptualType)
+intellisense: NSBlobEntity.SetConceptualType
+keywords: NSBlobEntity, GetConceptualType
+so.topic: reference
 ---
-title: Void SetConceptualType(String ConceptualType)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetConceptualType(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1455
-keywords: SetConceptualType(String)
----
-
 
 The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of what kind of image or data this is
 
+**Parameter:** 
+ - **conceptualType** String
 
-
-* **ConceptualType:** String
-* **Returns:** String
-
+```crmscript
+NSBlobEntity thing;
+String conceptualType;
+thing.SetConceptualType(conceptualType);
+```
 

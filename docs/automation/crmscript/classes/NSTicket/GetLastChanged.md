@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetLastChanged
 title: DateTime GetLastChanged()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetLastChanged()
-intellisense: 1
-classref: 1
-keywords: GetLastChanged()
+intellisense: NSTicket.GetLastChanged
+keywords: NSTicket, GetLastChanged
+so.topic: reference
 ---
-
 
 The last time the ticket was modified.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicket thing;
+DateTime lastChanged  = thing.GetLastChanged();
+```
 
 

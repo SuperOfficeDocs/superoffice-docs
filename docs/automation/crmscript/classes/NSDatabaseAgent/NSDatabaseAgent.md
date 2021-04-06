@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSDatabaseAgent
 title: NSDatabaseAgent
-path: /EJScript/Classes/NSDatabaseAgent
-intellisense: 1
-classref: 1
-sortOrder: 2332
+intellisense: Void.NSDatabaseAgent
+keywords: NSDatabaseAgent
+so.topic: reference
 ---
-
 
 Database schema queries and changes
 
-
-
+```crmscript
+NSDatabaseAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

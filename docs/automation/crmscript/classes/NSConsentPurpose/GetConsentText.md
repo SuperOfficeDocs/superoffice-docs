@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentPurpose_GetConsentText
 title: String GetConsentText()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/String GetConsentText()
-intellisense: 1
-classref: 1
-sortOrder: 1680
-keywords: GetConsentText()
+intellisense: NSConsentPurpose.GetConsentText
+keywords: NSConsentPurpose, GetConsentText
+so.topic: reference
 ---
-
 
 Form text used for the actual checkbox
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentPurpose thing;
+String consentText  = thing.GetConsentText();
+```
 
 

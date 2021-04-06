@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteListItem_SetERPQuoteListItemKey
+title: SetERPQuoteListItemKey(String eRPQuoteListItemKey)
+intellisense: NSQuoteListItem.SetERPQuoteListItemKey
+keywords: NSQuoteListItem, GetERPQuoteListItemKey
+so.topic: reference
 ---
-title: Void SetERPQuoteListItemKey(String ERPQuoteListItemKey)
-path: /EJScript/Classes/NSQuoteListItem/Member functions/Void SetERPQuoteListItemKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetERPQuoteListItemKey(String)
----
-
 
 Primary key for the item.
 
+**Parameter:** 
+ - **eRPQuoteListItemKey** String
 
-
-* **ERPQuoteListItemKey:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteListItem thing;
+String eRPQuoteListItemKey;
+thing.SetERPQuoteListItemKey(eRPQuoteListItemKey);
+```
 

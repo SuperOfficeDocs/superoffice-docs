@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoMdoList_SetDefaultValue
+title: SetDefaultValue(Integer defaultValue)
+intellisense: NSFieldInfoMdoList.SetDefaultValue
+keywords: NSFieldInfoMdoList, GetDefaultValue
+so.topic: reference
 ---
-title: Void SetDefaultValue(Integer DefaultValue)
-path: /EJScript/Classes/NSFieldInfoMdoList/Member functions/Void SetDefaultValue(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3533
-keywords: SetDefaultValue(Integer)
----
-
 
 Default list item id
 
+**Parameter:** 
+ - **defaultValue** Integer
 
-
-* **DefaultValue:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFieldInfoMdoList thing;
+Integer defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
 

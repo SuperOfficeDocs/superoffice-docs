@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncDefaultValue_GetDefaultValue
 title: String GetDefaultValue()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/String GetDefaultValue()
-intellisense: 1
-classref: 1
-sortOrder: 3259
-keywords: GetDefaultValue()
+intellisense: NSErpSyncDefaultValue.GetDefaultValue
+keywords: NSErpSyncDefaultValue, GetDefaultValue
+so.topic: reference
 ---
-
 
 Default value, stored using CultureDataFormatter format if it is not a string
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpSyncDefaultValue thing;
+String defaultValue  = thing.GetDefaultValue();
+```
 
 

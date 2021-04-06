@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_GetEta
 title: DateTime GetEta()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/DateTime GetEta()
-intellisense: 1
-classref: 1
-keywords: GetEta()
+intellisense: NSSystemEventEntity.GetEta
+keywords: NSSystemEventEntity, GetEta
+so.topic: reference
 ---
-
 
 Estimated Time of Arrival, i.e., when will this event finish?
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSSystemEventEntity thing;
+DateTime eta  = thing.GetEta();
+```
 
 

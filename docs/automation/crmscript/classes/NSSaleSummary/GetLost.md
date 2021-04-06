@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetLost
 title: Integer GetLost()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Integer GetLost()
-intellisense: 1
-classref: 1
-keywords: GetLost()
+intellisense: NSSaleSummary.GetLost
+keywords: NSSaleSummary, GetLost
+so.topic: reference
 ---
-
 
 Number of all lost within the period
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleSummary thing;
+Integer lost  = thing.GetLost();
+```
 
 

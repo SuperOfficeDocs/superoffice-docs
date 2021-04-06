@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncActorTypeMapping_SetIsActive
+title: SetIsActive(Bool isActive)
+intellisense: NSErpSyncActorTypeMapping.SetIsActive
+keywords: NSErpSyncActorTypeMapping, GetIsActive
+so.topic: reference
 ---
-title: Void SetIsActive(Bool IsActive)
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/Void SetIsActive(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3175
-keywords: SetIsActive(Bool)
----
-
 
 Is this sync mapping active
 
+**Parameter:** 
+ - **isActive** Bool
 
-
-* **IsActive:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSErpSyncActorTypeMapping thing;
+Bool isActive;
+thing.SetIsActive(isActive);
+```
 

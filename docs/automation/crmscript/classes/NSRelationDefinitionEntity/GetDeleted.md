@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRelationDefinitionEntity_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSRelationDefinitionEntity.GetDeleted
+keywords: NSRelationDefinitionEntity, GetDeleted
+so.topic: reference
 ---
-
 
 True if deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSRelationDefinitionEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

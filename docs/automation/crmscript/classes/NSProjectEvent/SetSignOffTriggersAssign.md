@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetSignOffTriggersAssign
+title: SetSignOffTriggersAssign(Bool signOffTriggersAssign)
+intellisense: NSProjectEvent.SetSignOffTriggersAssign
+keywords: NSProjectEvent, GetSignOffTriggersAssign
+so.topic: reference
 ---
-title: Void SetSignOffTriggersAssign(Bool SignOffTriggersAssign)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOffTriggersAssign(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOffTriggersAssign(Bool)
----
-
 
 If true, the sign off task should be created as an Assigned task, triggering the invitation dialog
 
+**Parameter:** 
+ - **signOffTriggersAssign** Bool
 
-
-* **SignOffTriggersAssign:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEvent thing;
+Bool signOffTriggersAssign;
+thing.SetSignOffTriggersAssign(signOffTriggersAssign);
+```
 

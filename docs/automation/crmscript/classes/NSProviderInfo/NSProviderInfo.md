@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSProviderInfo
 title: NSProviderInfo
-path: /EJScript/Classes/NSProviderInfo
-intellisense: 1
-classref: 1
+intellisense: Void.NSProviderInfo
+keywords: NSProviderInfo
+so.topic: reference
 ---
-
 
 Information about a provider plugin
 
-
-
-
-1. autolist
+1. autolist 
 

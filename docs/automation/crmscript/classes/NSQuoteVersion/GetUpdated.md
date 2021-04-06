@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetUpdated
 title: DateTime GetUpdated()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetUpdated()
-intellisense: 1
-classref: 1
-keywords: GetUpdated()
+intellisense: NSQuoteVersion.GetUpdated
+keywords: NSQuoteVersion, GetUpdated
+so.topic: reference
 ---
-
 
 Last updated when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSQuoteVersion thing;
+DateTime updated  = thing.GetUpdated();
+```
 
 

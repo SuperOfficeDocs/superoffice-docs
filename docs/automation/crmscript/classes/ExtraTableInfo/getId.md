@@ -1,10 +1,10 @@
 ---
-title: Integer getId()
-path: /EJScript/Classes/ExtraTableInfo/Member functions/Integer getId()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ExtraTableInfo_getId
+title: ExtraTableInfo.getId()
+intellisense: ExtraTableInfo.getId
 sortOrder: 329
 keywords: getId()
+so.topic: reference
 ---
 
 This function returns the id of the extratable as an Integer

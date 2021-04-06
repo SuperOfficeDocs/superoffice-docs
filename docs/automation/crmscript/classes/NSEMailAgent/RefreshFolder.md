@@ -1,19 +1,23 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_RefreshFolder
+title: Integer RefreshFolder(EMailConnectionInfo connectionInfo, StringArray folders)
+intellisense: NSEMailAgent.RefreshFolder
+keywords: NSEMailAgent, RefreshFolder
+so.topic: reference
 ---
-title: Integer RefreshFolder(NSEMailConnectionInfo connectionInfo, String[] folders)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Integer RefreshFolder(NSEMailConnectionInfo p_0, String[] p_1)
-intellisense: 1
-classref: 1
-sortOrder: 2791
-keywords: RefreshFolder(NSEMailConnectionInfo,String[])
----
-
 
 Refresh the given folders - i.e., fetch data from the mail server and update the in-database cache. This may happen synchronously or as a batch task, the return value will be 0 if the processing was synchronous, or the batch task id if a batch task is used.
 
+**Parameters:**
+ - **connectionInfo** Email connection info credentials
+ - **folders** List of folder names to refresh
 
+**Returns:** Batch task id, or 0 if the processing was synchronous
 
-* **connectionInfo:** Email connection info credentials
-* **folders:** List of folder names to refresh
-* **Returns:** Batch task id, or 0 if the processing was synchronous
-
+```crmscript
+NSEMailAgent agent;
+EMailConnectionInfo connectionInfo;
+StringArray folders;
+Integer res = agent.RefreshFolder(connectionInfo, folders);
+```
 

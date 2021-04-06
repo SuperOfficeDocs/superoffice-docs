@@ -1,9 +1,9 @@
 ---
-title: Bool equalsIgnoreCase(String p0)
-path: /EJScript/Classes/String/Member functions/Bool equalsIgnoreCase(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_equalsIgnoreCase_String_p_0
+title: String.equalsIgnoreCase(String p_0)
+intellisense: String.equalsIgnoreCase
 keywords: equalsIgnoreCase(String)
+so.topic: reference
 ---
 
 

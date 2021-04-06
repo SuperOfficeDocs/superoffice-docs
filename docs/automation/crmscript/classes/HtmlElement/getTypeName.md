@@ -1,10 +1,10 @@
 ---
-title: String getTypeName()
-path: /EJScript/Classes/HtmlElement/Member functions/String getTypeName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HtmlElement_getTypeName
+title: HtmlElement.getTypeName()
+intellisense: HtmlElement.getTypeName
 sortOrder: 386
 keywords: getTypeName()
+so.topic: reference
 ---
 
 # String getTypeName()

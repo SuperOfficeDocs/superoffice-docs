@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_NSFieldRight
 title: NSFieldRight
-path: /EJScript/Classes/NSFieldRight
-intellisense: 1
-classref: 1
+intellisense: Void.NSFieldRight
 sortOrder: 3607
+so.topic: reference
 ---
 
 

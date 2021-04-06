@@ -1,9 +1,9 @@
 ---
-title: String GetProbTooltip()
-path: /EJScript/Classes/NSSaleTypeStageLink/Member functions/String GetProbTooltip()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSaleTypeStageLink_GetProbTooltip
+title: NSSaleTypeStageLink.GetProbTooltip()
+intellisense: NSSaleTypeStageLink.GetProbTooltip
 keywords: GetProbTooltip()
+so.topic: reference
 ---
 
 

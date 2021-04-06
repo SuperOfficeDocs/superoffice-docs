@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetId
+title: SetId(Integer id)
+intellisense: NSBatchTaskInfo.SetId
+keywords: NSBatchTaskInfo, GetId
+so.topic: reference
 ---
-title: Void SetId(Integer Id)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1392
-keywords: SetId(Integer)
----
-
 
 Id of the task.
 
+**Parameter:** 
+ - **id** Integer
 
-
-* **Id:** Integer
-* **Returns:** Void
-
+```crmscript
+NSBatchTaskInfo thing;
+Integer id;
+thing.SetId(id);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBlobEntity_SetDescription
+title: SetDescription(String description)
+intellisense: NSBlobEntity.SetDescription
+keywords: NSBlobEntity, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1458
-keywords: SetDescription(String)
----
-
 
 A description that is entered by the user, and visible to the user
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSBlobEntity thing;
+String description;
+thing.SetDescription(description);
+```
 

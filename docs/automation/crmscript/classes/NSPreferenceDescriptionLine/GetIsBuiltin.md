@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescriptionLine_GetIsBuiltin
 title: Bool GetIsBuiltin()
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/Bool GetIsBuiltin()
-intellisense: 1
-classref: 1
-keywords: GetIsBuiltin()
+intellisense: NSPreferenceDescriptionLine.GetIsBuiltin
+keywords: NSPreferenceDescriptionLine, GetIsBuiltin
+so.topic: reference
 ---
-
 
 1 = This row populated and maintained by SuperOffice
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSPreferenceDescriptionLine thing;
+Bool isBuiltin  = thing.GetIsBuiltin();
+```
 
 

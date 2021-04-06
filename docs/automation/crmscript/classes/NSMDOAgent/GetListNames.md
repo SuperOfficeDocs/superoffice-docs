@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSMDOAgent_GetListNames
+title: StringArray GetListNames()
+intellisense: NSMDOAgent.GetListNames
+keywords: NSMDOAgent, GetListNames
+so.topic: reference
 ---
-title: String[] GetListNames()
-path: /EJScript/Classes/NSMDOAgent/Member functions/String[] GetListNames()
-intellisense: 1
-classref: 1
-keywords: GetListNames()
----
-
 
 Returns a list of all MDO List names. These names can also be used with the Archive agent as ProviderNames.
 
 
+**Returns:** Array of list names.
 
-* **Returns:** Array of list names.
-
+```crmscript
+NSMDOAgent agent;
+StringArray res = agent.GetListNames();
+```
 

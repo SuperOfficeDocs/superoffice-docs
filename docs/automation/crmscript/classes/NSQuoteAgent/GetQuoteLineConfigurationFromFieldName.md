@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetQuoteLineConfigurationFromFieldName
+title: QuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String fieldName)
+intellisense: NSQuoteAgent.GetQuoteLineConfigurationFromFieldName
+keywords: NSQuoteAgent, GetQuoteLineConfigurationFromFieldName
+so.topic: reference
 ---
-title: NSQuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String fieldName)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String p_0)
-intellisense: 1
-classref: 1
-keywords: GetQuoteLineConfigurationFromFieldName(String)
----
-
 
 Returns the configuration field with the given field name
 
+**Parameters:**
+ - **fieldName** Field name of the QuoteLineConfiguration to get.
 
+**Returns:** QuoteLineConfiguration
 
-* **fieldName:** Field name of the QuoteLineConfiguration to get.
-* **Returns:** QuoteLineConfiguration
-
+```crmscript
+NSQuoteAgent agent;
+String fieldName;
+QuoteLineConfiguration res = agent.GetQuoteLineConfigurationFromFieldName(fieldName);
+```
 

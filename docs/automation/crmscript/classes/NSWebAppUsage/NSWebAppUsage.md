@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSWebAppUsage
 title: NSWebAppUsage
-path: /EJScript/Classes/NSWebAppUsage
-intellisense: 1
-classref: 1
+intellisense: Void.NSWebAppUsage
+keywords: NSWebAppUsage
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

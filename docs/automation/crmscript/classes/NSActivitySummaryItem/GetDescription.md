@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 600
-keywords: GetDescription()
+intellisense: NSActivitySummaryItem.GetDescription
+keywords: NSActivitySummaryItem, GetDescription
+so.topic: reference
 ---
-
 
 The appointment's textbox; document title
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSActivitySummaryItem thing;
+String description  = thing.GetDescription();
+```
 
 

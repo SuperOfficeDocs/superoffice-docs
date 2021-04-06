@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_SetCreatedDate
+title: SetCreatedDate(DateTime createdDate)
+intellisense: NSContactRelationEntity.SetCreatedDate
+keywords: NSContactRelationEntity, GetCreatedDate
+so.topic: reference
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1965
-keywords: SetCreatedDate(DateTime)
----
-
 
 Registered when
 
+**Parameter:** 
+ - **createdDate** DateTime
 
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSContactRelationEntity thing;
+DateTime createdDate;
+thing.SetCreatedDate(createdDate);
+```
 

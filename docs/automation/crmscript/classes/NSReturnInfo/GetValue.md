@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReturnInfo_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSReturnInfo/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSReturnInfo.GetValue
+keywords: NSReturnInfo, GetValue
+so.topic: reference
 ---
-
 
 Return value, may be blank.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSReturnInfo thing;
+String value  = thing.GetValue();
+```
 
 

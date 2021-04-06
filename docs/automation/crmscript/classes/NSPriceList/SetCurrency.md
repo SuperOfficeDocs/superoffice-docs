@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPriceList_SetCurrency
+title: SetCurrency(String currency)
+intellisense: NSPriceList.SetCurrency
+keywords: NSPriceList, GetCurrency
+so.topic: reference
 ---
-title: Void SetCurrency(String Currency)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetCurrency(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCurrency(String)
----
-
 
 The iso currency code, like 'USD' or 'NOK'.
 
+**Parameter:** 
+ - **currency** String
 
-
-* **Currency:** String
-* **Returns:** String
-
+```crmscript
+NSPriceList thing;
+String currency;
+thing.SetCurrency(currency);
+```
 

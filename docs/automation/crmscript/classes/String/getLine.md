@@ -1,9 +1,9 @@
 ---
-title: String getLine()
-path: /EJScript/Classes/String/Member functions/String getLine()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_getLine
+title: String.getLine()
+intellisense: String.getLine
 keywords: getLine()
+so.topic: reference
 ---
 
 This function will return and remove a line from this string. It is normally used

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserGroup_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSUserGroup/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSUserGroup.GetId
+keywords: NSUserGroup, GetId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserGroup thing;
+Integer id  = thing.GetId();
+```
 
 

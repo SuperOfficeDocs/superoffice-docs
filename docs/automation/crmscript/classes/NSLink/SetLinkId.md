@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLink_SetLinkId
+title: SetLinkId(Integer linkId)
+intellisense: NSLink.SetLinkId
+keywords: NSLink, GetLinkId
+so.topic: reference
 ---
-title: Void SetLinkId(Integer LinkId)
-path: /EJScript/Classes/NSLink/Member functions/Void SetLinkId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLinkId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **linkId** Integer
 
-
-* **LinkId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSLink thing;
+Integer linkId;
+thing.SetLinkId(linkId);
+```
 

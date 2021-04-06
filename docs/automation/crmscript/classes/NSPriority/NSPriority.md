@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSPriority
 title: NSPriority
-path: /EJScript/Classes/NSPriority
-intellisense: 1
-classref: 1
+intellisense: Void.NSPriority
+keywords: NSPriority
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

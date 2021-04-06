@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_SetQuoteAlternativeId
+title: SetQuoteAlternativeId(Integer quoteAlternativeId)
+intellisense: NSTemplateVariablesParameters.SetQuoteAlternativeId
+keywords: NSTemplateVariablesParameters, GetQuoteAlternativeId
+so.topic: reference
 ---
-title: Void SetQuoteAlternativeId(Integer QuoteAlternativeId)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetQuoteAlternativeId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetQuoteAlternativeId(Integer)
----
-
 
 Quote alternative id
 
+**Parameter:** 
+ - **quoteAlternativeId** Integer
 
-
-* **QuoteAlternativeId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer quoteAlternativeId;
+thing.SetQuoteAlternativeId(quoteAlternativeId);
+```
 

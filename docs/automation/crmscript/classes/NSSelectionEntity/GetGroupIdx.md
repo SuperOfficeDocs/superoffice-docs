@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetGroupIdx
 title: Integer GetGroupIdx()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetGroupIdx()
-intellisense: 1
-classref: 1
-keywords: GetGroupIdx()
+intellisense: NSSelectionEntity.GetGroupIdx
+keywords: NSSelectionEntity, GetGroupIdx
+so.topic: reference
 ---
-
 
 Original primary user group of associate
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectionEntity thing;
+Integer groupIdx  = thing.GetGroupIdx();
+```
 
 

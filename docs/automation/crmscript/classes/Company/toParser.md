@@ -1,10 +1,10 @@
 ---
-title: Void toParser(Parser parser)
-path: /EJScript/Classes/Company/member functions/Void toParser(Parser parser)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Company_toParser_Parser_parser
+title: Company.toParser(Parser parser)
+intellisense: Company.toParser
 sortOrder: 169
 keywords: toParser(Parser)
+so.topic: reference
 ---
 
 This function puts a lot of fields into the input parser.

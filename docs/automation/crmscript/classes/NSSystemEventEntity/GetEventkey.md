@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_GetEventkey
 title: String GetEventkey()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/String GetEventkey()
-intellisense: 1
-classref: 1
-keywords: GetEventkey()
+intellisense: NSSystemEventEntity.GetEventkey
+keywords: NSSystemEventEntity, GetEventkey
+so.topic: reference
 ---
-
 
 Event key, predefined in code
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSystemEventEntity thing;
+String eventkey  = thing.GetEventkey();
+```
 
 

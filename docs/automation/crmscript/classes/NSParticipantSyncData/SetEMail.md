@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetEMail
+title: SetEMail(StringArray eMail)
+intellisense: NSParticipantSyncData.SetEMail
+keywords: NSParticipantSyncData, GetEMail
+so.topic: reference
 ---
-title: Void SetEMail(String[] EMail)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetEMail(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetEMail(String[])
----
 
 
-* **EMail:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **eMail** StringArray
+
+```crmscript
+NSParticipantSyncData thing;
+StringArray eMail;
+thing.SetEMail(eMail);
+```
 

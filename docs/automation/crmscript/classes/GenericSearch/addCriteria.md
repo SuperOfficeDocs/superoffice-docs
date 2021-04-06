@@ -1,10 +1,10 @@
 ---
-title: Void addCriteria(String field, String operator, String value, String andOr, Integer concatLevel)
-path: /EJScript/Classes/GenericSearch/Member functions/Void addCriteria(String field, String operator, String value, String andOr, Integer concatLevel)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_GenericSearch_addCriteria_String_field_String_operator_String_value_String_andOr_Integer_concatLevel
+title: GenericSearch.addCriteria(String field, String operator, String value, String andOr, Integer concatLevel)
+intellisense: GenericSearch.addCriteria
 sortOrder: 370
 keywords: addCriteria(String,String,String,String,Integer)
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetSubTotal
+title: SetSubTotal(Float subTotal)
+intellisense: NSQuoteLine.SetSubTotal
+keywords: NSQuoteLine, GetSubTotal
+so.topic: reference
 ---
-title: Void SetSubTotal(Float SubTotal)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetSubTotal(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetSubTotal(Float)
----
-
 
 Value to help the user interface, is equal to 'Quantity * ListPrice'
 
+**Parameter:** 
+ - **subTotal** Float
 
-
-* **SubTotal:** Float
-* **Returns:** Float
-
+```crmscript
+NSQuoteLine thing;
+Float subTotal;
+thing.SetSubTotal(subTotal);
+```
 

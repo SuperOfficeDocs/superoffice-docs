@@ -1,17 +1,13 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneAgent_SetActiveTimeZonesByFilter
 title: Void SetActiveTimeZonesByFilter(String filter, Bool active)
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Void SetActiveTimeZonesByFilter(String p_0, Bool p_1)
-intellisense: 1
-classref: 1
-keywords: SetActiveTimeZonesByFilter(String,Bool)
+intellisense: NSTimeZoneAgent.SetActiveTimeZonesByFilter
+keywords: NSTimeZoneAgent, SetActiveTimeZonesByFilter
+so.topic: reference
 ---
-
 
 Toggles active state of a single row in the TZLocation table
 
-
-
-* **filter:** Filter timezones
-* **active:** Set active to true or false
-
-
+**Parameters:**
+ - **filter** Filter timezones
+ - **active** Set active to true or false

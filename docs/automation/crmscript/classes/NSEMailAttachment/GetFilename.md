@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAttachment_GetFilename
 title: String GetFilename()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/String GetFilename()
-intellisense: 1
-classref: 1
-sortOrder: 2897
-keywords: GetFilename()
+intellisense: NSEMailAttachment.GetFilename
+keywords: NSEMailAttachment, GetFilename
+so.topic: reference
 ---
-
 
 Filename
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAttachment thing;
+String filename  = thing.GetFilename();
+```
 
 

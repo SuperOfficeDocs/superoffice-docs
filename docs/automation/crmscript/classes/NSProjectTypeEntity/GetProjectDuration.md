@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectTypeEntity_GetProjectDuration
 title: Integer GetProjectDuration()
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Integer GetProjectDuration()
-intellisense: 1
-classref: 1
-keywords: GetProjectDuration()
+intellisense: NSProjectTypeEntity.GetProjectDuration
+keywords: NSProjectTypeEntity, GetProjectDuration
+so.topic: reference
 ---
-
 
 Expected duration of project, in given units
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectTypeEntity thing;
+Integer projectDuration  = thing.GetProjectDuration();
+```
 
 

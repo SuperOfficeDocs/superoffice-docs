@@ -1,10 +1,10 @@
 ---
-title: Void delete()
-path: /EJScript/Classes/DBWrite/Member functions/Void delete()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DBWrite_delete
+title: DBWrite.delete()
+intellisense: DBWrite.delete
 sortOrder: 270
 keywords: delete()
+so.topic: reference
 ---
 
 

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_SaveProduct
+title: NSProduct SaveProduct(NSProduct product);
+intellisense: NSQuoteAgent.SaveProduct
+keywords: NSQuoteAgent, SaveProduct
+so.topic: reference
 ---
-title: NSProduct SaveProduct(NSProduct product)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProduct SaveProduct(NSProduct p_0)
-intellisense: 1
-classref: 1
-keywords: SaveProduct(NSProduct)
----
+	  
+Updates the existing NSProduct or creates a new NSProduct if the id parameter is 0
+	  
+**Parameters**:
+ - **product** The NSProduct to save.
 
+**Returns:** New or updated NSProduct
 
-Updates the existing Product or creates a new Product if the id parameter is empty
-
-
-
-* **product:** The Product that is saved
-* **Returns:** New or updated Product
-
+```crmscript
+NSQuote  agent;
+NSProduct thing = agent.CreateDefaultProduct();
+thing = agent.SaveProduct(thing);
+```
 

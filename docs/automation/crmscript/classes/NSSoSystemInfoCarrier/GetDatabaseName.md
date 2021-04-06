@@ -1,9 +1,9 @@
 ---
-title: String GetDatabaseName()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/String GetDatabaseName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetDatabaseName
+title: NSSoSystemInfoCarrier.GetDatabaseName()
+intellisense: NSSoSystemInfoCarrier.GetDatabaseName
 keywords: GetDatabaseName()
+so.topic: reference
 ---
 
 

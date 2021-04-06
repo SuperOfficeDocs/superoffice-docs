@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSImportErpData_GetColumnInfos
+title: ImportColumnInfoArray GetColumnInfos()
+intellisense: NSImportErpData.GetColumnInfos
+keywords: NSImportErpData, GetColumnInfos
+so.topic: reference
 ---
-title: NSImportColumnInfo[] GetColumnInfos()
-path: /EJScript/Classes/NSImportErpData/Member functions/NSImportColumnInfo[] GetColumnInfos()
-intellisense: 1
-classref: 1
-sortOrder: 3968
-keywords: GetColumnInfos()
----
-
 
 Array of column definitions
 
+**Returns:** ImportColumnInfoArray
 
 
-* **Returns:** ImportColumnInfoArray
+```crmscript
+NSImportErpData thing;
+ImportColumnInfoArray columnInfos  = thing.GetColumnInfos();
+```
 
 

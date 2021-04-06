@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCommandInfo_SetName
+title: SetName(String name)
+intellisense: NSCommandInfo.SetName
+keywords: NSCommandInfo, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSCommandInfo/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1576
-keywords: SetName(String)
----
-
 
 The programmatic name of the command, uniquely identifying this command for the document plugin.
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSCommandInfo thing;
+String name;
+thing.SetName(name);
+```
 

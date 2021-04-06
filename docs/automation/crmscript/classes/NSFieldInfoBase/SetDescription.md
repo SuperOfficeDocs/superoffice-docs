@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_SetDescription
+title: SetDescription(String description)
+intellisense: NSFieldInfoBase.SetDescription
+keywords: NSFieldInfoBase, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3474
-keywords: SetDescription(String)
----
-
 
 Optional tooltip text for this field
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSFieldInfoBase thing;
+String description;
+thing.SetDescription(description);
+```
 

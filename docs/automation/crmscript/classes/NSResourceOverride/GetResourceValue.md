@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSResourceOverride_GetResourceValue
 title: String GetResourceValue()
-path: /EJScript/Classes/NSResourceOverride/Member functions/String GetResourceValue()
-intellisense: 1
-classref: 1
-keywords: GetResourceValue()
+intellisense: NSResourceOverride.GetResourceValue
+keywords: NSResourceOverride, GetResourceValue
+so.topic: reference
 ---
-
 
 The value of the resource in the given culture
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSResourceOverride thing;
+String resourceValue  = thing.GetResourceValue();
+```
 
 

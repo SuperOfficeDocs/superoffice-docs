@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSSelectionMemberEditValues
 title: NSSelectionMemberEditValues
-path: /EJScript/Classes/NSSelectionMemberEditValues
-intellisense: 1
-classref: 1
+intellisense: Void.NSSelectionMemberEditValues
+so.topic: reference
 ---
 
 

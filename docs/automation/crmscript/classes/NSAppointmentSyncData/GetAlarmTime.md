@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetAlarmTime
 title: DateTime GetAlarmTime()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/DateTime GetAlarmTime()
-intellisense: 1
-classref: 1
-sortOrder: 1047
-keywords: GetAlarmTime()
+intellisense: NSAppointmentSyncData.GetAlarmTime
+keywords: NSAppointmentSyncData, GetAlarmTime
+so.topic: reference
 ---
-
 
 Date and time at which to show alarm
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSAppointmentSyncData thing;
+DateTime alarmTime  = thing.GetAlarmTime();
+```
 
 

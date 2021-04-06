@@ -1,6 +1,6 @@
 ---
-title: crmscript_datatypes_datetime
-description: DateTime data type
+uid: crmscript_datatypes_datetime
+title: DateTime data type
 author:
 so.date:
 keywords:

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPhoneListItem_SetPersonCellPhone
+title: SetPersonCellPhone(String personCellPhone)
+intellisense: NSPhoneListItem.SetPersonCellPhone
+keywords: NSPhoneListItem, GetPersonCellPhone
+so.topic: reference
 ---
-title: Void SetPersonCellPhone(String PersonCellPhone)
-path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetPersonCellPhone(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonCellPhone(String)
----
-
 
 Person Cell Phone
 
+**Parameter:** 
+ - **personCellPhone** String
 
-
-* **PersonCellPhone:** String
-* **Returns:** String
-
+```crmscript
+NSPhoneListItem thing;
+String personCellPhone;
+thing.SetPersonCellPhone(personCellPhone);
+```
 

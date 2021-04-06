@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMDOListItem_SetRank
+title: SetRank(Integer rank)
+intellisense: NSMDOListItem.SetRank
+keywords: NSMDOListItem, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 The rank of the ListItem
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMDOListItem thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

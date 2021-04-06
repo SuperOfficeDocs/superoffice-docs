@@ -1,18 +1,24 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_SetType
+title: SetType(Integer type)
+intellisense: NSDashboardTile.SetType
+keywords: NSDashboardTile, GetType
+so.topic: reference
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2314
-keywords: SetType(Integer)
----
-
 
 The tile type, what kind of tile this is
 
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Chart 
+     - Enum: 2 = Web 
+     - Enum: 3 = List 
+     - Enum: 4 = Bignum 
 
-
-* **Type:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDashboardTile thing;
+Integer type;
+thing.SetType(type);
+```
 

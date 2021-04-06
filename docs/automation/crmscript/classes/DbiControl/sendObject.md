@@ -1,10 +1,10 @@
 ---
-title: Void sendObject(Map values)
-path: /EJScript/Classes/DbiControl/Member functions/Void sendObject(Map values)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DbiControl_sendObject_Map_values
+title: DbiControl.sendObject(Map values)
+intellisense: DbiControl.sendObject
 sortOrder: 257
 keywords: sendObject(Map)
+so.topic: reference
 ---
 
 

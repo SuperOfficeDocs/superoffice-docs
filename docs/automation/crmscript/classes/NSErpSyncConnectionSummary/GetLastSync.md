@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncConnectionSummary_GetLastSync
 title: DateTime GetLastSync()
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/DateTime GetLastSync()
-intellisense: 1
-classref: 1
-sortOrder: 3229
-keywords: GetLastSync()
+intellisense: NSErpSyncConnectionSummary.GetLastSync
+keywords: NSErpSyncConnectionSummary, GetLastSync
+so.topic: reference
 ---
-
 
 The time of the last sync
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSErpSyncConnectionSummary thing;
+DateTime lastSync  = thing.GetLastSync();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void setWedStart(Time t)
-path: /EJScript/Classes/WeekSchedule/Member functions/Void setWedStart(Time t)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_setWedStart_Time_t
+title: WeekSchedule.setWedStart(Time t)
+intellisense: WeekSchedule.setWedStart
 keywords: setWedStart(Time)
+so.topic: reference
 ---
 
 

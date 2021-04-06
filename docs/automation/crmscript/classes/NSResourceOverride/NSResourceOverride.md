@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSResourceOverride
 title: NSResourceOverride
-path: /EJScript/Classes/NSResourceOverride
-intellisense: 1
-classref: 1
+intellisense: Void.NSResourceOverride
+keywords: NSResourceOverride
+so.topic: reference
 ---
-
 
 Override specifications for resources/labels
 
-
-
-
-1. autolist
+1. autolist 
 

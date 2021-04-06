@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetTimeToReply
 title: Integer GetTimeToReply()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetTimeToReply()
-intellisense: 1
-classref: 1
-keywords: GetTimeToReply()
+intellisense: NSTicketEntity.GetTimeToReply
+keywords: NSTicketEntity, GetTimeToReply
+so.topic: reference
 ---
-
 
 The time (minutes) between when the ticket was created and when it was replied to. Calculated based on priority&apos;s timeframe.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketEntity thing;
+Integer timeToReply  = thing.GetTimeToReply();
+```
 
 

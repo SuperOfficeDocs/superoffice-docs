@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPhoneListItem_SetId
+title: SetId(Integer id)
+intellisense: NSPhoneListItem.SetId
+keywords: NSPhoneListItem, GetId
+so.topic: reference
 ---
-title: Void SetId(Integer Id)
-path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
-
 
 The contact or person's id
 
+**Parameter:** 
+ - **id** Integer
 
-
-* **Id:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPhoneListItem thing;
+Integer id;
+thing.SetId(id);
+```
 

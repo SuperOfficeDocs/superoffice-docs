@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetEventDate
 title: DateTime GetEventDate()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/DateTime GetEventDate()
-intellisense: 1
-classref: 1
-keywords: GetEventDate()
+intellisense: NSProjectEventEntity.GetEventDate
+keywords: NSProjectEventEntity, GetEventDate
+so.topic: reference
 ---
-
 
 Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSProjectEventEntity thing;
+DateTime eventDate  = thing.GetEventDate();
+```
 
 

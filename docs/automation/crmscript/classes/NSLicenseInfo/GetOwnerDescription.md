@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetOwnerDescription
 title: String GetOwnerDescription()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetOwnerDescription()
-intellisense: 1
-classref: 1
-keywords: GetOwnerDescription()
+intellisense: NSLicenseInfo.GetOwnerDescription
+keywords: NSLicenseInfo, GetOwnerDescription
+so.topic: reference
 ---
-
 
 Human-readable description of owner, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 26
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLicenseInfo thing;
+String ownerDescription  = thing.GetOwnerDescription();
+```
 
 

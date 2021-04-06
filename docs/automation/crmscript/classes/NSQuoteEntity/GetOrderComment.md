@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteEntity_GetOrderComment
 title: String GetOrderComment()
-path: /EJScript/Classes/NSQuoteEntity/Member functions/String GetOrderComment()
-intellisense: 1
-classref: 1
-keywords: GetOrderComment()
+intellisense: NSQuoteEntity.GetOrderComment
+keywords: NSQuoteEntity, GetOrderComment
+so.topic: reference
 ---
-
 
 A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteEntity thing;
+String orderComment  = thing.GetOrderComment();
+```
 
 

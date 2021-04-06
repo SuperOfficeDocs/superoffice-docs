@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_StatLib
 title: StatLib
-path: /EJScript/Classes/StatLib
-intellisense: 1
-classref: 1
+intellisense: Void.StatLib
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_MacroReturnValue
 title: MacroReturnValue
-path: /EJScript/Classes/MacroReturnValue
-intellisense: 1
-classref: 1
+intellisense: Void.MacroReturnValue
 sortOrder: 496
+so.topic: reference
 ---
 
 

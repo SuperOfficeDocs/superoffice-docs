@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPhoneListItem_SetPersonFaxNumber
+title: SetPersonFaxNumber(String personFaxNumber)
+intellisense: NSPhoneListItem.SetPersonFaxNumber
+keywords: NSPhoneListItem, GetPersonFaxNumber
+so.topic: reference
 ---
-title: Void SetPersonFaxNumber(String PersonFaxNumber)
-path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetPersonFaxNumber(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonFaxNumber(String)
----
-
 
 Actual phone number as eneterd by the user
 
+**Parameter:** 
+ - **personFaxNumber** String
 
-
-* **PersonFaxNumber:** String
-* **Returns:** String
-
+```crmscript
+NSPhoneListItem thing;
+String personFaxNumber;
+thing.SetPersonFaxNumber(personFaxNumber);
+```
 

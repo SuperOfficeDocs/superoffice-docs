@@ -1,9 +1,9 @@
 ---
 description: String String(String value)
-path: /EJScript/Global functions/String String(String value)
-intellisense: 1
+intellisense: Void.String
 langref: 1
 keywords: String(String)
+so.topic: reference
 ---
 
 

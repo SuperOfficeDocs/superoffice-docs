@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetExpiryDate
 title: DateTime GetExpiryDate()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/DateTime GetExpiryDate()
-intellisense: 1
-classref: 1
-keywords: GetExpiryDate()
+intellisense: NSLicenseInfo.GetExpiryDate
+keywords: NSLicenseInfo, GetExpiryDate
+so.topic: reference
 ---
-
 
 Expiration date, 0 = forever
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSLicenseInfo thing;
+DateTime expiryDate  = thing.GetExpiryDate();
+```
 
 

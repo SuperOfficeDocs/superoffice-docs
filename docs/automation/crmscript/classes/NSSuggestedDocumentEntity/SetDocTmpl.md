@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_SetDocTmpl
+title: SetDocTmpl(DocumentTemplate docTmpl)
+intellisense: NSSuggestedDocumentEntity.SetDocTmpl
+keywords: NSSuggestedDocumentEntity, GetDocTmpl
+so.topic: reference
 ---
-title: Void SetDocTmpl(NSDocumentTemplate DocTmpl)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetDocTmpl(NSDocumentTemplate p_0)
-intellisense: 1
-classref: 1
-keywords: SetDocTmpl(NSDocumentTemplate)
----
-
 
 Document template
 
+**Parameter:** 
+ - **docTmpl** DocumentTemplate
 
-
-* **DocTmpl:** DocumentTemplate
-* **Returns:** DocumentTemplate
-
+```crmscript
+NSSuggestedDocumentEntity thing;
+DocumentTemplate docTmpl;
+thing.SetDocTmpl(docTmpl);
+```
 

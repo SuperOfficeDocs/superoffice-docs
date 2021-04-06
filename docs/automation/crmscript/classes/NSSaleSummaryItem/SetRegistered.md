@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_SetRegistered
+title: SetRegistered(DateTime registered)
+intellisense: NSSaleSummaryItem.SetRegistered
+keywords: NSSaleSummaryItem, GetRegistered
+so.topic: reference
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetRegistered(DateTime)
----
-
 
 Registered date
 
+**Parameter:** 
+ - **registered** DateTime
 
-
-* **Registered:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSSaleSummaryItem thing;
+DateTime registered;
+thing.SetRegistered(registered);
+```
 

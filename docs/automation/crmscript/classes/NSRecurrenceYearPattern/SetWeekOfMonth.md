@@ -1,9 +1,9 @@
 ---
-title: Void SetWeekOfMonth(Integer p0)
-path: /EJScript/Classes/NSRecurrenceYearPattern/Member functions/Void SetWeekOfMonth(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceYearPattern_SetWeekOfMonth_Integer_p_0
+title: NSRecurrenceYearPattern.SetWeekOfMonth(Integer p_0)
+intellisense: NSRecurrenceYearPattern.SetWeekOfMonth
 keywords: SetWeekOfMonth(Integer)
+so.topic: reference
 ---
 
 

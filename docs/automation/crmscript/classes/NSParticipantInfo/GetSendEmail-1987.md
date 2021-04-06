@@ -1,9 +1,9 @@
 ---
-title: Boolean GetSendEmail()
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Boolean GetSendEmail()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSParticipantInfo_GetSendEmail
+title: NSParticipantInfo.GetSendEmail()
+intellisense: NSParticipantInfo.GetSendEmail
 keywords: GetSendEmail()
+so.topic: reference
 ---
 
 

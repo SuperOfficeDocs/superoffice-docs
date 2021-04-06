@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_GetDocumentEntity
+title: DocumentEntity GetDocumentEntity()
+intellisense: NSTemplateVariablesParameters.GetDocumentEntity
+keywords: NSTemplateVariablesParameters, GetDocumentEntity
+so.topic: reference
 ---
-title: NSDocumentEntity GetDocumentEntity()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/NSDocumentEntity GetDocumentEntity()
-intellisense: 1
-classref: 1
-keywords: GetDocumentEntity()
----
-
 
 Custom document entity to use for data retrieval. Useful for unsaved data.  DocumentEntity.DocumentId need to match the DocumentId specified in separate property.
 
+**Returns:** DocumentEntity
 
 
-* **Returns:** DocumentEntity
+```crmscript
+NSTemplateVariablesParameters thing;
+DocumentEntity documentEntity  = thing.GetDocumentEntity();
+```
 
 

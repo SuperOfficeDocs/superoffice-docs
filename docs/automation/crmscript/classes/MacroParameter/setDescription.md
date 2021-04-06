@@ -1,10 +1,10 @@
 ---
-title: Void setDescription(String p0)
-path: /EJScript/Classes/MacroParameter/Member functions/Void setDescription(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MacroParameter_setDescription_String_p_0
+title: MacroParameter.setDescription(String p_0)
+intellisense: MacroParameter.setDescription
 sortOrder: 488
 keywords: setDescription(String)
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetCurrency
+title: SetCurrency(Currency currency)
+intellisense: NSSaleEntity.SetCurrency
+keywords: NSSaleEntity, GetCurrency
+so.topic: reference
 ---
-title: Void SetCurrency(NSCurrency Currency)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetCurrency(NSCurrency p_0)
-intellisense: 1
-classref: 1
-keywords: SetCurrency(NSCurrency)
----
-
 
 The currency the sale object was sold in
 
+**Parameter:** 
+ - **currency** Currency
 
-
-* **Currency:** Currency
-* **Returns:** Currency
-
+```crmscript
+NSSaleEntity thing;
+Currency currency;
+thing.SetCurrency(currency);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetActiveLinks
 title: Integer GetActiveLinks()
-path: /EJScript/Classes/NSSaleEntity/Member functions/Integer GetActiveLinks()
-intellisense: 1
-classref: 1
-keywords: GetActiveLinks()
+intellisense: NSSaleEntity.GetActiveLinks
+keywords: NSSaleEntity, GetActiveLinks
+so.topic: reference
 ---
-
 
 Number of active links to sale, document, appointment.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleEntity thing;
+Integer activeLinks  = thing.GetActiveLinks();
+```
 
 

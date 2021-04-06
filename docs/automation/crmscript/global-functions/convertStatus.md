@@ -1,9 +1,9 @@
 ---
 description: String convertStatus(Integer status)
-path: /EJScript/Global functions/String convertStatus(Integer status)
-intellisense: 1
+intellisense: Void.convertStatus
 langref: 1
 keywords: convertStatus(Integer)
+so.topic: reference
 ---
 
 

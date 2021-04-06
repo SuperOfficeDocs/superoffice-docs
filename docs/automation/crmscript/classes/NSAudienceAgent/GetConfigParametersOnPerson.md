@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSAudienceAgent_GetConfigParametersOnPerson
+title: AudienceConfigParameterArray GetConfigParametersOnPerson(Integer personId)
+intellisense: NSAudienceAgent.GetConfigParametersOnPerson
+keywords: NSAudienceAgent, GetConfigParametersOnPerson
+so.topic: reference
 ---
-title: NSAudienceConfigParameter[] GetConfigParametersOnPerson(Integer personId)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceConfigParameter[] GetConfigParametersOnPerson(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1295
-keywords: GetConfigParametersOnPerson(Integer)
----
-
 
 Gets the Audience configuration parameters belonging to the person specified
 
+**Parameters:**
+ - **personId** Id of the person the parameter belongs to
 
+**Returns:** Array of Audience configuration parameters.
 
-* **personId:** Id of the person the parameter belongs to
-* **Returns:** Array of Audience configuration parameters.
-
+```crmscript
+NSAudienceAgent agent;
+Integer personId;
+AudienceConfigParameterArray res = agent.GetConfigParametersOnPerson(personId);
+```
 

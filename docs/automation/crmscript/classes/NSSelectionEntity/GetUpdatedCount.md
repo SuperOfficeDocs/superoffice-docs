@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetUpdatedCount
 title: Integer GetUpdatedCount()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetUpdatedCount()
-intellisense: 1
-classref: 1
-keywords: GetUpdatedCount()
+intellisense: NSSelectionEntity.GetUpdatedCount
+keywords: NSSelectionEntity, GetUpdatedCount
+so.topic: reference
 ---
-
 
 Number of updates made to this record
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectionEntity thing;
+Integer updatedCount  = thing.GetUpdatedCount();
+```
 
 

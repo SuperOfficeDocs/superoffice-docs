@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_GetContactCountry
 title: String GetContactCountry()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetContactCountry()
-intellisense: 1
-classref: 1
-keywords: GetContactCountry()
+intellisense: NSParticipantSyncData.GetContactCountry
+keywords: NSParticipantSyncData, GetContactCountry
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSParticipantSyncData thing;
+String contactCountry  = thing.GetContactCountry();
+```
 
 

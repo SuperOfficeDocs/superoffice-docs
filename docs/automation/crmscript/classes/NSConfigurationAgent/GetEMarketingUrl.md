@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSConfigurationAgent_GetEMarketingUrl
+title: String GetEMarketingUrl(String language)
+intellisense: NSConfigurationAgent.GetEMarketingUrl
+keywords: NSConfigurationAgent, GetEMarketingUrl
+so.topic: reference
 ---
-title: String GetEMarketingUrl(String p0)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetEMarketingUrl(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1613
-keywords: GetEMarketingUrl(String)
----
 
 
 
-
-* **language
-**
-
-
+**Parameters:**
+ - **language** 

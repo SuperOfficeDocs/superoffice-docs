@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_SetMaxDiscountPercent
+title: SetMaxDiscountPercent(Integer maxDiscountPercent)
+intellisense: NSSaleTypeEntity.SetMaxDiscountPercent
+keywords: NSSaleTypeEntity, GetMaxDiscountPercent
+so.topic: reference
 ---
-title: Void SetMaxDiscountPercent(Integer MaxDiscountPercent)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetMaxDiscountPercent(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetMaxDiscountPercent(Integer)
----
-
 
 The maximum discount in percent of total, if set, on quotes linked to sales of this type
 
+**Parameter:** 
+ - **maxDiscountPercent** Integer
 
-
-* **MaxDiscountPercent:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleTypeEntity thing;
+Integer maxDiscountPercent;
+thing.SetMaxDiscountPercent(maxDiscountPercent);
+```
 

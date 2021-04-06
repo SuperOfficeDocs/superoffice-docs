@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSDiaryViewEntity.SetTooltip
+keywords: NSDiaryViewEntity, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2418
-keywords: SetTooltip(String)
----
-
 
 Tooltip/description of the DiaryView
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSDiaryViewEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

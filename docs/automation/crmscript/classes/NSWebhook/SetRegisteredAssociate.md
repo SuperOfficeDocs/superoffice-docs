@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebhook_SetRegisteredAssociate
+title: SetRegisteredAssociate(Associate registeredAssociate)
+intellisense: NSWebhook.SetRegisteredAssociate
+keywords: NSWebhook, GetRegisteredAssociate
+so.topic: reference
 ---
-title: Void SetRegisteredAssociate(NSAssociate RegisteredAssociate)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetRegisteredAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetRegisteredAssociate(NSAssociate)
----
-
 
 The user that created the webhook.
 
+**Parameter:** 
+ - **registeredAssociate** Associate
 
-
-* **RegisteredAssociate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSWebhook thing;
+Associate registeredAssociate;
+thing.SetRegisteredAssociate(registeredAssociate);
+```
 

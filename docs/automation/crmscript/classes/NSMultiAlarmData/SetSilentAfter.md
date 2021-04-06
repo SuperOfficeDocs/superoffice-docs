@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMultiAlarmData_SetSilentAfter
+title: SetSilentAfter(Integer silentAfter)
+intellisense: NSMultiAlarmData.SetSilentAfter
+keywords: NSMultiAlarmData, GetSilentAfter
+so.topic: reference
 ---
-title: Void SetSilentAfter(Integer SilentAfter)
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/Void SetSilentAfter(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSilentAfter(Integer)
----
 
 
-* **SilentAfter:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **silentAfter** Integer
+
+```crmscript
+NSMultiAlarmData thing;
+Integer silentAfter;
+thing.SetSilentAfter(silentAfter);
+```
 

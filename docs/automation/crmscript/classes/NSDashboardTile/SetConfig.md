@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_SetConfig
+title: SetConfig(String config)
+intellisense: NSDashboardTile.SetConfig
+keywords: NSDashboardTile, GetConfig
+so.topic: reference
 ---
-title: Void SetConfig(String Config)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetConfig(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2306
-keywords: SetConfig(String)
----
-
 
 The tile config
 
+**Parameter:** 
+ - **config** String
 
-
-* **Config:** String
-* **Returns:** String
-
+```crmscript
+NSDashboardTile thing;
+String config;
+thing.SetConfig(config);
+```
 

@@ -1,9 +1,9 @@
 ---
 description: Bool Bool(Bool value)
-path: /EJScript/Global functions/Bool Bool(Bool value)
-intellisense: 1
+intellisense: Void.Bool
 langref: 1
 keywords: Bool(Bool)
+so.topic: reference
 ---
 
 Bool constructor

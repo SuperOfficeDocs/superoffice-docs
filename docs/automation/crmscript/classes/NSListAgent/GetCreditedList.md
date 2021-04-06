@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCreditedList
+title: NSCredited[] GetCreditedList(Integer[]  creditedIds);
+intellisense: NSListAgent.GetCreditedList
+keywords: NSListAgent, GetCreditedList
+so.topic: reference
 ---
-title: NSCredited[] GetCreditedList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCredited[] GetCreditedList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetCreditedList(Integer[])
----
 
-Gets an array of Credited objects.
+Gets a vector of Credited objects.
 
+**Parameters:**
+ - **creditedIds** The identifiers of the NSCredited objects
 
+**Returns:** Vector of NSCredited objects
 
-* **p0:** IntegerArray of identifiers for Credited
-* **Returns:** Array of NSCredited
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetCreditedList(ids);
+```
 

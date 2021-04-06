@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetItemNumber
+title: SetItemNumber(String itemNumber)
+intellisense: NSQuoteLine.SetItemNumber
+keywords: NSQuoteLine, GetItemNumber
+so.topic: reference
 ---
-title: Void SetItemNumber(String ItemNumber)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetItemNumber(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetItemNumber(String)
----
-
 
 Norwegian: «Postnummer». Specific numbers from some hierarchy, for instance '1.4.3.2'. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.
 
+**Parameter:** 
+ - **itemNumber** String
 
-
-* **ItemNumber:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLine thing;
+String itemNumber;
+thing.SetItemNumber(itemNumber);
+```
 

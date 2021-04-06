@@ -1,14 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSServiceAuth_GetPort
 title: Integer GetPort()
-path: /EJScript/Classes/NSServiceAuth/Member functions/Integer GetPort()
-intellisense: 1
-classref: 1
-keywords: GetPort()
+intellisense: NSServiceAuth.GetPort
+keywords: NSServiceAuth, GetPort
+so.topic: reference
 ---
 
 The server port
 
+**Returns:** Integer
 
-* **Returns:** Integer
+
+```crmscript
+NSServiceAuth thing;
+Integer port  = thing.GetPort();
+```
 
 

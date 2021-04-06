@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetContact
+title: SetContact(Contact contact)
+intellisense: NSAppointmentEntity.SetContact
+keywords: NSAppointmentEntity, GetContact
+so.topic: reference
 ---
-title: Void SetContact(NSContact Contact)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetContact(NSContact p_0)
-intellisense: 1
-classref: 1
-sortOrder: 993
-keywords: SetContact(NSContact)
----
-
 
 The contact associated with the appointment. It may also be null if no contact is associated with the appointment.
 
+**Parameter:** 
+ - **contact** Contact
 
-
-* **Contact:** Contact
-* **Returns:** Contact
-
+```crmscript
+NSAppointmentEntity thing;
+Contact contact;
+thing.SetContact(contact);
+```
 

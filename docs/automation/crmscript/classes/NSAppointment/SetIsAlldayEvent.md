@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetIsAlldayEvent
+title: SetIsAlldayEvent(Bool isAlldayEvent)
+intellisense: NSAppointment.SetIsAlldayEvent
+keywords: NSAppointment, GetIsAlldayEvent
+so.topic: reference
 ---
-title: Void SetIsAlldayEvent(Bool IsAlldayEvent)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetIsAlldayEvent(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 794
-keywords: SetIsAlldayEvent(Bool)
----
-
 
 True if all day event
 
+**Parameter:** 
+ - **isAlldayEvent** Bool
 
-
-* **IsAlldayEvent:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSAppointment thing;
+Bool isAlldayEvent;
+thing.SetIsAlldayEvent(isAlldayEvent);
+```
 

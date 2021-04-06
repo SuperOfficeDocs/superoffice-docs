@@ -1,13 +1,19 @@
----
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
-sortOrder: 1954
-keywords: GetUpdatedBy()
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
+intellisense: NSContactRelationEntity.GetUpdatedBy
+keywords: NSContactRelationEntity, GetUpdatedBy
+so.topic: reference
 ---
 
 
-* **Returns:** Associate
+
+**Returns:** Associate
+
+
+```crmscript
+NSContactRelationEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
 
 

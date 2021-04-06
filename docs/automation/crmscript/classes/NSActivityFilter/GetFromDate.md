@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSActivityFilter_GetFromDate
 title: DateTime GetFromDate()
-path: /EJScript/Classes/NSActivityFilter/Member functions/DateTime GetFromDate()
-intellisense: 1
-classref: 1
-sortOrder: 569
-keywords: GetFromDate()
+intellisense: NSActivityFilter.GetFromDate
+keywords: NSActivityFilter, GetFromDate
+so.topic: reference
 ---
-
 
 The filtering From date
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSActivityFilter thing;
+DateTime fromDate  = thing.GetFromDate();
+```
 
 

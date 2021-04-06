@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTicketCategoryEntity
+title: NSTicketCategoryEntity GetTicketCategoryEntity(Integer ticketCategoryEntityId);
+intellisense: NSListAgent.GetTicketCategoryEntity
+keywords: NSListAgent, GetTicketCategoryEntity
+so.topic: reference
 ---
-title: NSTicketCategoryEntity GetTicketCategoryEntity(Integer ticketCategoryEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketCategoryEntity GetTicketCategoryEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetTicketCategoryEntity(Integer)
----
 
+Gets a NSTicketCategoryEntity object.
 
-Gets a TicketCategoryEntity object.
+**Parameters:**
+ - **ticketCategoryEntityId** The identifier of the NSTicketCategoryEntity object
 
+**Returns:** NSTicketCategoryEntity
 
-
-* **ticketCategoryEntityId:** The identifier of the TicketCategoryEntity object
-* **Returns:** TicketCategoryEntity
-
+```crmscript
+NSListAgent agent;
+NSTicketCategoryEntity thing = agent.GetTicketCategoryEntity(123);
+```
 

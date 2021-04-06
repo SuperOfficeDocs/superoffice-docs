@@ -1,16 +1,22 @@
----
+﻿---
+uid: crmscript_ref_NSProductExtraDataField_GetType
 title: Integer GetType()
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
-keywords: GetType()
+intellisense: NSProductExtraDataField.GetType
+keywords: NSProductExtraDataField, GetType
+so.topic: reference
 ---
-
 
 String, url, image. How the value should be interpreted.
 
+**Returns:** Integer
 
+     - Enum: 0 = String 
+     - Enum: 1 = Url 
+     - Enum: 2 = Image 
 
-* **Returns:** Integer
+```crmscript
+NSProductExtraDataField thing;
+Integer type  = thing.GetType();
+```
 
 

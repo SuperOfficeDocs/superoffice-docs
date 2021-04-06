@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetSold
 title: Integer GetSold()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Integer GetSold()
-intellisense: 1
-classref: 1
-keywords: GetSold()
+intellisense: NSSaleSummary.GetSold
+keywords: NSSaleSummary, GetSold
+so.topic: reference
 ---
-
 
 Number of all sold within the period
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleSummary thing;
+Integer sold  = thing.GetSold();
+```
 
 

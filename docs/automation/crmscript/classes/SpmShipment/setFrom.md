@@ -1,9 +1,9 @@
 ---
-title: Void setFrom(String from)
-path: /EJScript/Classes/SpmShipment/Member functions/Void setFrom(String from)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmShipment_setFrom_String_from
+title: SpmShipment.setFrom(String from)
+intellisense: SpmShipment.setFrom
 keywords: setFrom(String)
+so.topic: reference
 ---
 
 

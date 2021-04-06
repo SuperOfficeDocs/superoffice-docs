@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetFolderName
+title: SetFolderName(String folderName)
+intellisense: NSFormEntity.SetFolderName
+keywords: NSFormEntity, GetFolderName
+so.topic: reference
 ---
-title: Void SetFolderName(String FolderName)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetFolderName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3811
-keywords: SetFolderName(String)
----
-
 
 The name of the folder for this form
 
+**Parameter:** 
+ - **folderName** String
 
-
-* **FolderName:** String
-* **Returns:** String
-
+```crmscript
+NSFormEntity thing;
+String folderName;
+thing.SetFolderName(folderName);
+```
 

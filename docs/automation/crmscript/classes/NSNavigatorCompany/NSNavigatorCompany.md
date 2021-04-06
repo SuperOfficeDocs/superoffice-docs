@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSNavigatorCompany
 title: NSNavigatorCompany
-path: /EJScript/Classes/NSNavigatorCompany
-intellisense: 1
-classref: 1
+intellisense: Void.NSNavigatorCompany
+keywords: NSNavigatorCompany
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

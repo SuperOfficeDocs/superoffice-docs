@@ -1,13 +1,24 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetCustomFields
+title: SetCustomFields(Map udefs)
+intellisense: NSSaleEntity.SetCustomFields
+keywords: NSSaleEntity, SetCustomFields
+so.topic: reference
 ---
-title: Void SetCustomFields(Map fields)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetCustomFields(Map p_0)
-intellisense: 1
-classref: 1
-keywords: SetCustomFields(Map)
----
 
+Set the user-defined and extra fields on a SaleEntity with a map.
 
-* **fields:** Map
-* **Returns:** Void
+**Parameter:** 
+ - **udefs** Map user defined field and extra field values encoded as strings.
 
+```crmscript
+NSSaleEntity thing;
+Map udefs;
+udefs["SuperOffice:1"] = "[I:123]";
+udefs["SuperOffice:1"] = "123"; // this will also work, but beware of decimal point variations in different languages
+udefs["custom.progid"] = "foobar";
+udefs["x_foo"] = "foobar";
+udefs["x_bar"] = "456"; // List item id
+thing.SetCustomFields(udefs);
+```
 

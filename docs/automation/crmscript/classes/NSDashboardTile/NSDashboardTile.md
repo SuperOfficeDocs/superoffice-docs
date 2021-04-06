@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile
 title: NSDashboardTile
-path: /EJScript/Classes/NSDashboardTile
-intellisense: 1
-classref: 1
-sortOrder: 2286
+intellisense: Void.NSDashboardTile
+keywords: NSDashboardTile
+so.topic: reference
 ---
-
 
 Dashboard Tile configuration
 
-
-
-
-1. autolist
+1. autolist 
 

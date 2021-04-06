@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPaymentType_SetValue
+title: SetValue(String value)
+intellisense: NSPaymentType.SetValue
+keywords: NSPaymentType, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSPaymentType/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the PaymentType item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String PaymentType name.
 
+```crmscript
+NSPaymentType thing;
+thing.SetValue("frotz");
+```
 

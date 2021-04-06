@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData
 title: NSAppointmentSyncData
-path: /EJScript/Classes/NSAppointmentSyncData
-intellisense: 1
-classref: 1
-sortOrder: 1038
+intellisense: Void.NSAppointmentSyncData
+keywords: NSAppointmentSyncData
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

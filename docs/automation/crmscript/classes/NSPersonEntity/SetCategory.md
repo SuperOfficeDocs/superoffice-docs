@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetCategory
+title: SetCategory(Category category)
+intellisense: NSPersonEntity.SetCategory
+keywords: NSPersonEntity, GetCategory
+so.topic: reference
 ---
-title: Void SetCategory(NSCategory Category)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetCategory(NSCategory p_0)
-intellisense: 1
-classref: 1
-keywords: SetCategory(NSCategory)
----
-
 
 Person's category. Usually null. Refer to the Contact.Category instead.  Intended for use when individual persons are created. (i.e. when Person.Contact is blank)
 
+**Parameter:** 
+ - **category** Category
 
-
-* **Category:** Category
-* **Returns:** Category
-
+```crmscript
+NSPersonEntity thing;
+Category category;
+thing.SetCategory(category);
+```
 

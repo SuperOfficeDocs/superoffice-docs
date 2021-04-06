@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncConnectorEntity
 title: NSErpSyncConnectorEntity
-path: /EJScript/Classes/NSErpSyncConnectorEntity
-intellisense: 1
-classref: 1
-sortOrder: 3239
+intellisense: Void.NSErpSyncConnectorEntity
+keywords: NSErpSyncConnectorEntity
+so.topic: reference
 ---
-
 
 Erp connector information
 
-
-
-
-1. autolist
+1. autolist 
 

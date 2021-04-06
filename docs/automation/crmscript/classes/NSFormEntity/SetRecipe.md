@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetRecipe
+title: SetRecipe(String recipe)
+intellisense: NSFormEntity.SetRecipe
+keywords: NSFormEntity, GetRecipe
+so.topic: reference
 ---
-title: Void SetRecipe(String Recipe)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetRecipe(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3819
-keywords: SetRecipe(String)
----
-
 
 The JSON-formatted recipe of this form
 
+**Parameter:** 
+ - **recipe** String
 
-
-* **Recipe:** String
-* **Returns:** String
-
+```crmscript
+NSFormEntity thing;
+String recipe;
+thing.SetRecipe(recipe);
+```
 

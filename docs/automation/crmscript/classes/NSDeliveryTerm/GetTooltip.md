@@ -1,13 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSDeliveryTerm_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSDeliveryTerm/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 2367
-keywords: GetTooltip()
+intellisense: NSDeliveryTerm.GetTooltip
+keywords: NSDeliveryTerm, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the DeliveryTerm list item.
 
-* **Returns:** String
+**Returns:** String DeliveryTerm tooltip description.
+
+```crmscript
+NSDeliveryTerm thing;
+String descr = thing.GetTooltip();
+```
 
 

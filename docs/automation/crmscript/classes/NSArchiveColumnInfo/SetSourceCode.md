@@ -1,10 +1,10 @@
 ---
-title: Void SetSourceCode(String p0)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetSourceCode(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSArchiveColumnInfo_SetSourceCode_String_p_0
+title: NSArchiveColumnInfo.SetSourceCode(String p_0)
+intellisense: NSArchiveColumnInfo.SetSourceCode
 sortOrder: 1164
 keywords: SetSourceCode(String)
+so.topic: reference
 ---
 
 

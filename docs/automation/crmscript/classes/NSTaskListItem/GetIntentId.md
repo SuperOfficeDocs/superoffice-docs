@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTaskListItem_GetIntentId
 title: Integer GetIntentId()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetIntentId()
-intellisense: 1
-classref: 1
-keywords: GetIntentId()
+intellisense: NSTaskListItem.GetIntentId
+keywords: NSTaskListItem, GetIntentId
+so.topic: reference
 ---
-
 
 Link to the intention of this kind of task (used by SAINT)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTaskListItem thing;
+Integer intentId  = thing.GetIntentId();
+```
 
 

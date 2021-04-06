@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_SetAssocId
+title: SetAssocId(Integer assocId)
+intellisense: NSDiaryViewEntity.SetAssocId
+keywords: NSDiaryViewEntity, GetAssocId
+so.topic: reference
 ---
-title: Void SetAssocId(Integer AssocId)
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Void SetAssocId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2414
-keywords: SetAssocId(Integer)
----
-
 
 Owning associate id for the DiaryView.
 
+**Parameter:** 
+ - **assocId** Integer
 
-
-* **AssocId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDiaryViewEntity thing;
+Integer assocId;
+thing.SetAssocId(assocId);
+```
 

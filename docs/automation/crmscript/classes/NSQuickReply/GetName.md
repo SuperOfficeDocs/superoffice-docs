@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuickReply_GetName
 title: String GetName()
-path: /EJScript/Classes/NSQuickReply/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSQuickReply.GetName
+keywords: NSQuickReply, GetName
+so.topic: reference
 ---
-
 
 The short name of the quick reply
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuickReply thing;
+String name  = thing.GetName();
+```
 
 

@@ -1,17 +1,26 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetShowState
 title: Integer GetShowState()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Integer GetShowState()
-intellisense: 1
-classref: 1
-sortOrder: 3370
-keywords: GetShowState()
+intellisense: NSExtAppEntity.GetShowState
+keywords: NSExtAppEntity, GetShowState
+so.topic: reference
 ---
-
 
 The application is shown in which state Minimized, Maximized or Restored
 
+**Returns:** Integer
 
+     - Enum: 0 = Minimized 
+     - Enum: 1 = Maximized 
+     - Enum: 2 = Default 
+     - Enum: 256 = ToolBar 
+     - Enum: 512 = AddressBar 
+     - Enum: 1024 = StatusBar 
+     - Enum: 2048 = MenuBar 
 
-* **Returns:** Integer
+```crmscript
+NSExtAppEntity thing;
+Integer showState  = thing.GetShowState();
+```
 
 

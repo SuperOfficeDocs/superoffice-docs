@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetVisibleForUserGroupsFromListName
+title: SelectableMDOListItemArray GetVisibleForUserGroupsFromListName(String udListDefinitionName, Integer listItemId)
+intellisense: NSListAgent.GetVisibleForUserGroupsFromListName
+keywords: NSListAgent, GetVisibleForUserGroupsFromListName
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] GetVisibleForUserGroupsFromListName(String udListDefinitionName, Integer listItemId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetVisibleForUserGroupsFromListName(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
-keywords: GetVisibleForUserGroupsFromListName(String,Integer)
----
-
 
 List of User groups that this list item is visible for
 
+**Parameters:**
+ - **udListDefinitionName** The name of the list definition.
+ - **listItemId** The id of the list item
 
+**Returns:** Array of selectable user groups
 
-* **udListDefinitionName:** The name of the list definition.
-* **listItemId:** The id of the list item
-* **Returns:** Array of selectable user groups
-
+```crmscript
+NSListAgent agent;
+String udListDefinitionName;
+Integer listItemId;
+SelectableMDOListItemArray res = agent.GetVisibleForUserGroupsFromListName(udListDefinitionName, listItemId);
+```
 

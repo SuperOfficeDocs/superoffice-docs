@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_SpmStaticList
 title: SpmStaticList
-path: /EJScript/Classes/SpmStaticList
-intellisense: 1
-classref: 1
+intellisense: Void.SpmStaticList
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionValidated_GetErrorCode
 title: String GetErrorCode()
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/String GetErrorCode()
-intellisense: 1
-classref: 1
-keywords: GetErrorCode()
+intellisense: NSQuoteVersionValidated.GetErrorCode
+keywords: NSQuoteVersionValidated, GetErrorCode
+so.topic: reference
 ---
-
 
 An error code, if available.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersionValidated thing;
+String errorCode  = thing.GetErrorCode();
+```
 
 

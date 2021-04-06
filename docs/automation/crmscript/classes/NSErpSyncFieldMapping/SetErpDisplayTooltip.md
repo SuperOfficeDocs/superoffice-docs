@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_SetErpDisplayTooltip
+title: SetErpDisplayTooltip(String erpDisplayTooltip)
+intellisense: NSErpSyncFieldMapping.SetErpDisplayTooltip
+keywords: NSErpSyncFieldMapping, GetErpDisplayTooltip
+so.topic: reference
 ---
-title: Void SetErpDisplayTooltip(String ErpDisplayTooltip)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetErpDisplayTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3311
-keywords: SetErpDisplayTooltip(String)
----
-
 
 Tooltip text for ERP field; ignored on Save
 
+**Parameter:** 
+ - **erpDisplayTooltip** String
 
-
-* **ErpDisplayTooltip:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncFieldMapping thing;
+String erpDisplayTooltip;
+thing.SetErpDisplayTooltip(erpDisplayTooltip);
+```
 

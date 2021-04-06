@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetAutoSuggest
+title: SetAutoSuggest(Integer autoSuggest)
+intellisense: NSSuggestedAppointment.SetAutoSuggest
+keywords: NSSuggestedAppointment, GetAutoSuggest
+so.topic: reference
 ---
-title: Void SetAutoSuggest(Integer AutoSuggest)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetAutoSuggest(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAutoSuggest(Integer)
----
-
 
 Should this appointment be auto-suggested
 
+**Parameter:** 
+ - **autoSuggest** Integer
 
-
-* **AutoSuggest:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedAppointment thing;
+Integer autoSuggest;
+thing.SetAutoSuggest(autoSuggest);
+```
 

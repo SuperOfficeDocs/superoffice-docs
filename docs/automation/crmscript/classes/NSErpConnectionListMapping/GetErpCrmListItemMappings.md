@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnectionListMapping_GetErpCrmListItemMappings
+title: ErpCrmListItemMappingArray GetErpCrmListItemMappings()
+intellisense: NSErpConnectionListMapping.GetErpCrmListItemMappings
+keywords: NSErpConnectionListMapping, GetErpCrmListItemMappings
+so.topic: reference
 ---
-title: NSErpCrmListItemMapping[] GetErpCrmListItemMappings()
-path: /EJScript/Classes/NSErpConnectionListMapping/Member functions/NSErpCrmListItemMapping[] GetErpCrmListItemMappings()
-intellisense: 1
-classref: 1
-sortOrder: 3125
-keywords: GetErpCrmListItemMappings()
----
-
 
 Array of all the list item mappings
 
+**Returns:** ErpCrmListItemMappingArray
 
 
-* **Returns:** ErpCrmListItemMappingArray
+```crmscript
+NSErpConnectionListMapping thing;
+ErpCrmListItemMappingArray erpCrmListItemMappings  = thing.GetErpCrmListItemMappings();
+```
 
 

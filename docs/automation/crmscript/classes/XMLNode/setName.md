@@ -1,9 +1,9 @@
 ---
-title: Void setName(String name)
-path: /EJScript/Classes/XMLNode/Member functions/Void setName(String name)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_XMLNode_setName_String_name
+title: XMLNode.setName(String name)
+intellisense: XMLNode.setName
 keywords: setName(String)
+so.topic: reference
 ---
 
 Sets the tag name of the node.

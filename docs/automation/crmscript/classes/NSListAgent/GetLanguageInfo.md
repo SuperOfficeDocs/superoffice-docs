@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetLanguageInfo
+title: NSLanguageInfo GetLanguageInfo(Integer languageInfoId);
+intellisense: NSListAgent.GetLanguageInfo
+keywords: NSListAgent, GetLanguageInfo
+so.topic: reference
 ---
-title: NSLanguageInfo GetLanguageInfo(Integer languageInfoId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLanguageInfo GetLanguageInfo(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetLanguageInfo(Integer)
----
 
+Gets a NSLanguageInfo object.
 
-Gets a LanguageInfo object.
+**Parameters:**
+ - **languageInfoId** The identifier of the NSLanguageInfo object
 
+**Returns:** NSLanguageInfo
 
-
-* **languageInfoId:** The identifier of the LanguageInfo object
-* **Returns:** LanguageInfo
-
+```crmscript
+NSListAgent agent;
+NSLanguageInfo thing = agent.GetLanguageInfo(123);
+```
 

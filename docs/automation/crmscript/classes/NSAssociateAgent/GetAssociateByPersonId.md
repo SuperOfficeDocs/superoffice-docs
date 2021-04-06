@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSAssociateAgent_GetAssociateByPersonId
+title: Associate GetAssociateByPersonId(Integer personId)
+intellisense: NSAssociateAgent.GetAssociateByPersonId
+keywords: NSAssociateAgent, GetAssociateByPersonId
+so.topic: reference
 ---
-title: NSAssociate GetAssociateByPersonId(Integer personId)
-path: /EJScript/Classes/NSAssociateAgent/Member functions/NSAssociate GetAssociateByPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1281
-keywords: GetAssociateByPersonId(Integer)
----
-
 
 Returns the associate that belongs to this person if the person is an associate.
 
+**Parameters:**
+ - **personId** The person id
 
+**Returns:** Associate if person is associate
 
-* **personId:** The person id
-* **Returns:** Associate if person is associate
-
+```crmscript
+NSAssociateAgent agent;
+Integer personId;
+Associate res = agent.GetAssociateByPersonId(personId);
+```
 

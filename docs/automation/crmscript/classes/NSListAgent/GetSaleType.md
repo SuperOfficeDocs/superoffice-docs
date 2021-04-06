@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetSaleType
+title: NSSaleType GetSaleType(Integer saleTypeId);
+intellisense: NSListAgent.GetSaleType
+keywords: NSListAgent, GetSaleType
+so.topic: reference
 ---
-title: NSSaleType GetSaleType(Integer saleTypeId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleType GetSaleType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSaleType(Integer)
----
 
+Gets a NSSaleType object.
 
-Gets a SaleType object.
+**Parameters:**
+ - **saleTypeId** The identifier of the NSSaleType object
 
+**Returns:** NSSaleType
 
-
-* **saleTypeId:** The identifier of the SaleType object
-* **Returns:** SaleType
-
+```crmscript
+NSListAgent agent;
+NSSaleType thing = agent.GetSaleType(123);
+```
 

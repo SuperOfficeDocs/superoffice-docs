@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAudienceConfigParameter_SetAudienceLayoutId
+title: SetAudienceLayoutId(Integer audienceLayoutId)
+intellisense: NSAudienceConfigParameter.SetAudienceLayoutId
+keywords: NSAudienceConfigParameter, GetAudienceLayoutId
+so.topic: reference
 ---
-title: Void SetAudienceLayoutId(Integer AudienceLayoutId)
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/Void SetAudienceLayoutId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1326
-keywords: SetAudienceLayoutId(Integer)
----
-
 
 The id of the Audience layout this configuration setting belongs to
 
+**Parameter:** 
+ - **audienceLayoutId** Integer
 
-
-* **AudienceLayoutId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAudienceConfigParameter thing;
+Integer audienceLayoutId;
+thing.SetAudienceLayoutId(audienceLayoutId);
+```
 

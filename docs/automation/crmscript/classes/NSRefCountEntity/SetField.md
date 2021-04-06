@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRefCountEntity_SetField
+title: SetField(String field)
+intellisense: NSRefCountEntity.SetField
+keywords: NSRefCountEntity, GetField
+so.topic: reference
 ---
-title: Void SetField(String Field)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetField(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetField(String)
----
-
 
 Field identifier in string format table.field
 
+**Parameter:** 
+ - **field** String
 
-
-* **Field:** String
-* **Returns:** String
-
+```crmscript
+NSRefCountEntity thing;
+String field;
+thing.SetField(field);
+```
 

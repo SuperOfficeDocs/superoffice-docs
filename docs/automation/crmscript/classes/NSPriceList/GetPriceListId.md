@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPriceList_GetPriceListId
 title: Integer GetPriceListId()
-path: /EJScript/Classes/NSPriceList/Member functions/Integer GetPriceListId()
-intellisense: 1
-classref: 1
-keywords: GetPriceListId()
+intellisense: NSPriceList.GetPriceListId
+keywords: NSPriceList, GetPriceListId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPriceList thing;
+Integer priceListId  = thing.GetPriceListId();
+```
 
 

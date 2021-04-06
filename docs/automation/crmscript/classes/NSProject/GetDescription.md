@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSProject/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSProject.GetDescription
+keywords: NSProject, GetDescription
+so.topic: reference
 ---
-
 
 The projects description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProject thing;
+String description  = thing.GetDescription();
+```
 
 

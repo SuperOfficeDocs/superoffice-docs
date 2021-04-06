@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
+intellisense: NSTicketEntity.SetCreatedBy
+keywords: NSTicketEntity, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetCreatedBy(NSAssociate)
----
-
 
 The associate who created this ticket
 
+**Parameter:** 
+ - **createdBy** Associate
 
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSTicketEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

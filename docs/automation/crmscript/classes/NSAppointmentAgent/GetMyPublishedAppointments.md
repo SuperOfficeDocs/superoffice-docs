@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_GetMyPublishedAppointments
+title: AppointmentArray GetMyPublishedAppointments()
+intellisense: NSAppointmentAgent.GetMyPublishedAppointments
+keywords: NSAppointmentAgent, GetMyPublishedAppointments
+so.topic: reference
 ---
-title: NSAppointment[] GetMyPublishedAppointments()
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetMyPublishedAppointments()
-intellisense: 1
-classref: 1
-sortOrder: 850
-keywords: GetMyPublishedAppointments()
----
-
 
 Get published appointments from the logged in user.
 
 
+**Returns:** Appointments
 
-* **Returns:** Appointments
-
+```crmscript
+NSAppointmentAgent agent;
+AppointmentArray res = agent.GetMyPublishedAppointments();
+```
 

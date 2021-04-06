@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWindowPosSize_GetExtraId
 title: Integer GetExtraId()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetExtraId()
-intellisense: 1
-classref: 1
-keywords: GetExtraId()
+intellisense: NSWindowPosSize.GetExtraId
+keywords: NSWindowPosSize, GetExtraId
+so.topic: reference
 ---
-
 
 Spare ID, not yet in use
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWindowPosSize thing;
+Integer extraId  = thing.GetExtraId();
+```
 
 

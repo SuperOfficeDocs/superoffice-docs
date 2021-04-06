@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentPurpose_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 1678
-keywords: GetRank()
+intellisense: NSConsentPurpose.GetRank
+keywords: NSConsentPurpose, GetRank
+so.topic: reference
 ---
-
 
 Rank of this consent source
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSConsentPurpose thing;
+Integer rank  = thing.GetRank();
+```
 
 

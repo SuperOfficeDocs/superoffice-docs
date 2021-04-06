@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSViewStateAgent
 title: NSViewStateAgent
-path: /EJScript/Classes/NSViewStateAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSViewStateAgent
+keywords: NSViewStateAgent
+so.topic: reference
 ---
-
 
 User interface view state, history, currentXXX values
 
-
-
+```crmscript
+NSViewStateAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetContactFax
+title: SetContactFax(String contactFax)
+intellisense: NSPerson.SetContactFax
+keywords: NSPerson, GetContactFax
+so.topic: reference
 ---
-title: Void SetContactFax(String ContactFax)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetContactFax(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetContactFax(String)
----
-
 
 Actual phone number as eneterd by the user
 
+**Parameter:** 
+ - **contactFax** String
 
-
-* **ContactFax:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String contactFax;
+thing.SetContactFax(contactFax);
+```
 

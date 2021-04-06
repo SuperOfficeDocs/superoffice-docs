@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetType
+title: SetType(Task type)
+intellisense: NSSuggestedAppointmentEntity.SetType
+keywords: NSSuggestedAppointmentEntity, GetType
+so.topic: reference
 ---
-title: Void SetType(NSTask Type)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetType(NSTask p_0)
-intellisense: 1
-classref: 1
-keywords: SetType(NSTask)
----
-
 
 Type of the suggested appointment
 
+**Parameter:** 
+ - **type** Task
 
-
-* **Type:** Task
-* **Returns:** Task
-
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Task type;
+thing.SetType(type);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSTicketPriorityEntity.GetName
+keywords: NSTicketPriorityEntity, GetName
+so.topic: reference
 ---
-
 
 The name of the priority.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketPriorityEntity thing;
+String name  = thing.GetName();
+```
 
 

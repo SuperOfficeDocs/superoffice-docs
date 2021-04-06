@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSCredited_SetValue
+title: SetValue(String value)
+intellisense: NSCredited.SetValue
+keywords: NSCredited, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSCredited/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2101
-keywords: SetValue(String)
----
 
+Set the name of the Credited item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Credited name.
 
+```crmscript
+NSCredited thing;
+thing.SetValue("frotz");
+```
 

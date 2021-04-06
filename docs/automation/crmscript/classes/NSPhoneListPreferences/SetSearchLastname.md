@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPhoneListPreferences_SetSearchLastname
+title: SetSearchLastname(Bool searchLastname)
+intellisense: NSPhoneListPreferences.SetSearchLastname
+keywords: NSPhoneListPreferences, GetSearchLastname
+so.topic: reference
 ---
-title: Void SetSearchLastname(Bool SearchLastname)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchLastname(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSearchLastname(Bool)
----
-
 
 True if you want to search for Persons by their lastname.
 
+**Parameter:** 
+ - **searchLastname** Bool
 
-
-* **SearchLastname:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSPhoneListPreferences thing;
+Bool searchLastname;
+thing.SetSearchLastname(searchLastname);
+```
 

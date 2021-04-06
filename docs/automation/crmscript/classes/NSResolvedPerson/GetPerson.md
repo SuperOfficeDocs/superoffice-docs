@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResolvedPerson_GetPerson
+title: PersonEntity GetPerson()
+intellisense: NSResolvedPerson.GetPerson
+keywords: NSResolvedPerson, GetPerson
+so.topic: reference
 ---
-title: NSPersonEntity GetPerson()
-path: /EJScript/Classes/NSResolvedPerson/Member functions/NSPersonEntity GetPerson()
-intellisense: 1
-classref: 1
-keywords: GetPerson()
----
-
 
 The resolved PersonEntity instance.
 
+**Returns:** PersonEntity
 
 
-* **Returns:** PersonEntity
+```crmscript
+NSResolvedPerson thing;
+PersonEntity person  = thing.GetPerson();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetActiveErpLinks
+title: SetActiveErpLinks(Integer activeErpLinks)
+intellisense: NSContact.SetActiveErpLinks
+keywords: NSContact, GetActiveErpLinks
+so.topic: reference
 ---
-title: Void SetActiveErpLinks(Integer ActiveErpLinks)
-path: /EJScript/Classes/NSContact/Member functions/Void SetActiveErpLinks(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1741
-keywords: SetActiveErpLinks(Integer)
----
-
 
 The number of active erp links
 
+**Parameter:** 
+ - **activeErpLinks** Integer
 
-
-* **ActiveErpLinks:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContact thing;
+Integer activeErpLinks;
+thing.SetActiveErpLinks(activeErpLinks);
+```
 

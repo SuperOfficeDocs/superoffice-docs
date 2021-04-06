@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketDeviceInfo_SetDeviceName
+title: SetDeviceName(String deviceName)
+intellisense: NSPocketDeviceInfo.SetDeviceName
+keywords: NSPocketDeviceInfo, GetDeviceName
+so.topic: reference
 ---
-title: Void SetDeviceName(String DeviceName)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetDeviceName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeviceName(String)
----
-
 
 A friendly display name for the device. Ex: 'Bobbys iPhone 5S'
 
+**Parameter:** 
+ - **deviceName** String
 
-
-* **DeviceName:** String
-* **Returns:** String
-
+```crmscript
+NSPocketDeviceInfo thing;
+String deviceName;
+thing.SetDeviceName(deviceName);
+```
 

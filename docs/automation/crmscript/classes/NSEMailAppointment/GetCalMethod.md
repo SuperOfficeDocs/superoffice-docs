@@ -1,17 +1,28 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAppointment_GetCalMethod
 title: Integer GetCalMethod()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Integer GetCalMethod()
-intellisense: 1
-classref: 1
-sortOrder: 2877
-keywords: GetCalMethod()
+intellisense: NSEMailAppointment.GetCalMethod
+keywords: NSEMailAppointment, GetCalMethod
+so.topic: reference
 ---
-
 
 Method field stored in ICS file.
 
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Add 
+     - Enum: 2 = Cancel 
+     - Enum: 3 = Counter 
+     - Enum: 4 = DeclineCounter 
+     - Enum: 5 = Publish 
+     - Enum: 6 = Refresh 
+     - Enum: 7 = Reply 
+     - Enum: 8 = Request 
 
-* **Returns:** Integer
+```crmscript
+NSEMailAppointment thing;
+Integer calMethod  = thing.GetCalMethod();
+```
 
 

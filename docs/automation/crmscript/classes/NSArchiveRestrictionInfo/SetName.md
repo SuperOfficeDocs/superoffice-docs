@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_SetName
+title: SetName(String name)
+intellisense: NSArchiveRestrictionInfo.SetName
+keywords: NSArchiveRestrictionInfo, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1232
-keywords: SetName(String)
----
-
 
 The programmatic column name, including any required prefixes
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSArchiveRestrictionInfo thing;
+String name;
+thing.SetName(name);
+```
 

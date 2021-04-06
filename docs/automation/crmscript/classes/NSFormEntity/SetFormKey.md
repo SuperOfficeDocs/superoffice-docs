@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetFormKey
+title: SetFormKey(String formKey)
+intellisense: NSFormEntity.SetFormKey
+keywords: NSFormEntity, GetFormKey
+so.topic: reference
 ---
-title: Void SetFormKey(String FormKey)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetFormKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3813
-keywords: SetFormKey(String)
----
-
 
 A short string used as unique id to access this form
 
+**Parameter:** 
+ - **formKey** String
 
-
-* **FormKey:** String
-* **Returns:** String
-
+```crmscript
+NSFormEntity thing;
+String formKey;
+thing.SetFormKey(formKey);
+```
 

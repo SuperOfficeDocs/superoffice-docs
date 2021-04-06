@@ -1,11 +1,10 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTicketCategories
+title: TicketCategoryEntityArray GetTicketCategories()
+intellisense: NSListAgent.GetTicketCategories
+keywords: NSListAgent, GetTicketCategories
+so.topic: reference
 ---
-title: NSTicketCategoryEntity[] GetTicketCategories()
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketCategoryEntity[] GetTicketCategories()
-intellisense: 1
-classref: 1
-keywords: GetTicketCategories()
----
-
 
 
 

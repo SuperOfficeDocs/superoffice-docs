@@ -1,9 +1,9 @@
 ---
-title: Void setDescription(String description)
-path: /EJScript/Classes/SpmShipment/Member functions/Void setDescription(String description)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmShipment_setDescription_String_description
+title: SpmShipment.setDescription(String description)
+intellisense: SpmShipment.setDescription
 keywords: setDescription(String)
+so.topic: reference
 ---
 
 

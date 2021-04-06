@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSHistory_GetItemInfo
 title: String GetItemInfo()
-path: /EJScript/Classes/NSHistory/Member functions/String GetItemInfo()
-intellisense: 1
-classref: 1
-sortOrder: 3931
-keywords: GetItemInfo()
+intellisense: NSHistory.GetItemInfo
+keywords: NSHistory, GetItemInfo
+so.topic: reference
 ---
-
 
 Extra information on the history item, e.g. The Associate Type for an associate or other relevant info.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSHistory thing;
+String itemInfo  = thing.GetItemInfo();
+```
 
 

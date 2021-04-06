@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentPerson_GetPersonId
 title: Integer GetPersonId()
-path: /EJScript/Classes/NSConsentPerson/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
-sortOrder: 1661
-keywords: GetPersonId()
+intellisense: NSConsentPerson.GetPersonId
+keywords: NSConsentPerson, GetPersonId
+so.topic: reference
 ---
-
 
 Person ID
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSConsentPerson thing;
+Integer personId  = thing.GetPersonId();
+```
 
 

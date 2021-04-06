@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSErpCrmListItemMapping
 title: NSErpCrmListItemMapping
-path: /EJScript/Classes/NSErpCrmListItemMapping
-intellisense: 1
-classref: 1
-sortOrder: 3142
+intellisense: Void.NSErpCrmListItemMapping
+keywords: NSErpCrmListItemMapping
+so.topic: reference
 ---
-
 
 One list item mapping between erp and crm.
 
-
-
-
-1. autolist
+1. autolist 
 

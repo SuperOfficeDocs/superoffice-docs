@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_SetRestrictionListName
+title: SetRestrictionListName(String restrictionListName)
+intellisense: NSArchiveColumnInfo.SetRestrictionListName
+keywords: NSArchiveColumnInfo, GetRestrictionListName
+so.topic: reference
 ---
-title: Void SetRestrictionListName(String RestrictionListName)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetRestrictionListName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1162
-keywords: SetRestrictionListName(String)
----
-
 
 If the restriction data type is 'list', this property contains the name of the SoList so that choices can be shown
 
+**Parameter:** 
+ - **restrictionListName** String
 
-
-* **RestrictionListName:** String
-* **Returns:** String
-
+```crmscript
+NSArchiveColumnInfo thing;
+String restrictionListName;
+thing.SetRestrictionListName(restrictionListName);
+```
 

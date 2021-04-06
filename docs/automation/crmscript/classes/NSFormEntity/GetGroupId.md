@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetGroupId
 title: Integer GetGroupId()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetGroupId()
-intellisense: 1
-classref: 1
-sortOrder: 3791
-keywords: GetGroupId()
+intellisense: NSFormEntity.GetGroupId
+keywords: NSFormEntity, GetGroupId
+so.topic: reference
 ---
-
 
 The group which this form belongs to.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFormEntity thing;
+Integer groupId  = thing.GetGroupId();
+```
 
 

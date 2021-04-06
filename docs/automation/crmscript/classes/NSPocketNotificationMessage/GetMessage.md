@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_GetMessage
 title: String GetMessage()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/String GetMessage()
-intellisense: 1
-classref: 1
-keywords: GetMessage()
+intellisense: NSPocketNotificationMessage.GetMessage
+keywords: NSPocketNotificationMessage, GetMessage
+so.topic: reference
 ---
-
 
 The notification message body
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPocketNotificationMessage thing;
+String message  = thing.GetMessage();
+```
 
 

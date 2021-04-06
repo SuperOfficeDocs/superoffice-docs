@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSVisibleFor_SetDisplayValue
+title: SetDisplayValue(String displayValue)
+intellisense: NSVisibleFor.SetDisplayValue
+keywords: NSVisibleFor, GetDisplayValue
+so.topic: reference
 ---
-title: Void SetDisplayValue(String DisplayValue)
-path: /EJScript/Classes/NSVisibleFor/Member functions/Void SetDisplayValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDisplayValue(String)
----
 
 
-* **DisplayValue:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **displayValue** String
+
+```crmscript
+NSVisibleFor thing;
+String displayValue;
+thing.SetDisplayValue(displayValue);
+```
 

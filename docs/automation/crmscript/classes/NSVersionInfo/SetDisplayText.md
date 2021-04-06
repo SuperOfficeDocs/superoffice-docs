@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSVersionInfo_SetDisplayText
+title: SetDisplayText(String displayText)
+intellisense: NSVersionInfo.SetDisplayText
+keywords: NSVersionInfo, GetDisplayText
+so.topic: reference
 ---
-title: Void SetDisplayText(String DisplayText)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetDisplayText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDisplayText(String)
----
-
 
 A short description, suitable for display in a popup menu or dropdown list of versions.
 
+**Parameter:** 
+ - **displayText** String
 
-
-* **DisplayText:** String
-* **Returns:** String
-
+```crmscript
+NSVersionInfo thing;
+String displayText;
+thing.SetDisplayText(displayText);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLine_GetThumbnail
 title: String GetThumbnail()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetThumbnail()
-intellisense: 1
-classref: 1
-keywords: GetThumbnail()
+intellisense: NSQuoteLine.GetThumbnail
+keywords: NSQuoteLine, GetThumbnail
+so.topic: reference
 ---
-
 
 A small image of the product, typically used to show in a list. Base64 encoded png.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteLine thing;
+String thumbnail  = thing.GetThumbnail();
+```
 
 

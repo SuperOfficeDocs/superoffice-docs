@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetZipPrefix
+title: SetZipPrefix(String zipPrefix)
+intellisense: NSCountry.SetZipPrefix
+keywords: NSCountry, GetZipPrefix
+so.topic: reference
 ---
-title: Void SetZipPrefix(String ZipPrefix)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetZipPrefix(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2047
-keywords: SetZipPrefix(String)
----
-
 
 Post prefix
 
+**Parameter:** 
+ - **zipPrefix** String
 
-
-* **ZipPrefix:** String
-* **Returns:** String
-
+```crmscript
+NSCountry thing;
+String zipPrefix;
+thing.SetZipPrefix(zipPrefix);
+```
 

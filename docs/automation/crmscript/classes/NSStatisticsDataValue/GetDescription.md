@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatisticsDataValue_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSStatisticsDataValue.GetDescription
+keywords: NSStatisticsDataValue, GetDescription
+so.topic: reference
 ---
-
 
 Tooltip for data value
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSStatisticsDataValue thing;
+String description  = thing.GetDescription();
+```
 
 

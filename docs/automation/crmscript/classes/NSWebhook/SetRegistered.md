@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebhook_SetRegistered
+title: SetRegistered(DateTime registered)
+intellisense: NSWebhook.SetRegistered
+keywords: NSWebhook, GetRegistered
+so.topic: reference
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetRegistered(DateTime)
----
-
 
 Registered when
 
+**Parameter:** 
+ - **registered** DateTime
 
-
-* **Registered:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSWebhook thing;
+DateTime registered;
+thing.SetRegistered(registered);
+```
 

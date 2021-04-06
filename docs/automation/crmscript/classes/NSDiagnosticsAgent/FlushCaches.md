@@ -1,13 +1,10 @@
----
+﻿---
+uid: crmscript_ref_NSDiagnosticsAgent_FlushCaches
 title: Void FlushCaches()
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Void FlushCaches()
-intellisense: 1
-classref: 1
-sortOrder: 2399
-keywords: FlushCaches()
+intellisense: NSDiagnosticsAgent.FlushCaches
+keywords: NSDiagnosticsAgent, FlushCaches
+so.topic: reference
 ---
-
 
 Flushes all NetServer caches
-
 

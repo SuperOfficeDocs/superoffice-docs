@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
+intellisense: NSContactRelationEntity.SetCreatedBy
+keywords: NSContactRelationEntity, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1964
-keywords: SetCreatedBy(NSAssociate)
----
 
 
-* **CreatedBy:** Associate
-* **Returns:** Associate
 
+**Parameter:** 
+ - **createdBy** Associate
+
+```crmscript
+NSContactRelationEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketInfo_GetTicketUrl
 title: String GetTicketUrl()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetTicketUrl()
-intellisense: 1
-classref: 1
-keywords: GetTicketUrl()
+intellisense: NSTicketInfo.GetTicketUrl
+keywords: NSTicketInfo, GetTicketUrl
+so.topic: reference
 ---
-
 
 A URL leading directly to the created request. This is a URL ment to be used by a Service user
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketInfo thing;
+String ticketUrl  = thing.GetTicketUrl();
+```
 
 

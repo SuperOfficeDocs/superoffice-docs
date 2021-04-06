@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTicketStatusEntity
 title: NSTicketStatusEntity
-path: /EJScript/Classes/NSTicketStatusEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSTicketStatusEntity
+keywords: NSTicketStatusEntity
+so.topic: reference
 ---
-
 
 Entity for a ticket status. This entity describes the meta data for a ticket status, and provides special operations on it.
 
-
-
-
-1. autolist
+1. autolist 
 

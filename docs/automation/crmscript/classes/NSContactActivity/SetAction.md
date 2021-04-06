@@ -1,18 +1,28 @@
+﻿---
+uid: crmscript_ref_NSContactActivity_SetAction
+title: SetAction(Integer action)
+intellisense: NSContactActivity.SetAction
+keywords: NSContactActivity, GetAction
+so.topic: reference
 ---
-title: Void SetAction(Integer Action)
-path: /EJScript/Classes/NSContactActivity/Member functions/Void SetAction(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1780
-keywords: SetAction(Integer)
----
-
 
 The activity that has occured on this contact.
 
+**Parameter:** 
+ - **action** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Created 
+     - Enum: 2 = Updated 
+     - Enum: 4 = NewActivity 
+     - Enum: 8 = ActivityCompleted 
+     - Enum: 16 = PersonAdded 
+     - Enum: 32 = PersonUpdated 
+     - Enum: 64 = DocumentAdded 
+     - Enum: 127 = All 
 
-
-* **Action:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContactActivity thing;
+Integer action;
+thing.SetAction(action);
+```
 

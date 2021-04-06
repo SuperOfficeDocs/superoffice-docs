@@ -1,12 +1,23 @@
+﻿---
+uid: crmscript_ref_NSDocumentAgent_GetDocumentProperties
+title: StringDictionary GetDocumentProperties(Integer documentId, StringArray requestedProperties)
+intellisense: NSDocumentAgent.GetDocumentProperties
+keywords: NSDocumentAgent, GetDocumentProperties
+so.topic: reference
 ---
-title: Map GetDocumentProperties(Integer p0, String[] p1)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/Map GetDocumentProperties(Integer p_0, String[] p_1)
-intellisense: 1
-classref: 1
-sortOrder: 2466
-keywords: GetDocumentProperties(Integer,String[])
----
 
+Get plugin-dependent properties for the document. A number of standard properties that should be supported by all plugins are defined in SuperOffice.CRM.Documents.Constants.Properties.
 
+**Parameters:**
+ - **documentId** SuperOffice document ID
+ - **requestedProperties** Array of property names whose values are being requested.
 
+**Returns:** Dictionary of name=value pairs, corresponding to the requested properties.
+
+```crmscript
+NSDocumentAgent agent;
+Integer documentId;
+StringArray requestedProperties;
+StringDictionary res = agent.GetDocumentProperties(documentId, requestedProperties);
+```
 

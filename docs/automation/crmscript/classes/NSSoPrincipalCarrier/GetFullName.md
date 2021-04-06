@@ -1,9 +1,9 @@
 ---
-title: String GetFullName()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/String GetFullName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetFullName
+title: NSSoPrincipalCarrier.GetFullName()
+intellisense: NSSoPrincipalCarrier.GetFullName
 keywords: GetFullName()
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_SetOwner
+title: SetOwner(Integer owner)
+intellisense: NSSystemEventEntity.SetOwner
+keywords: NSSystemEventEntity, GetOwner
+so.topic: reference
 ---
-title: Void SetOwner(Integer Owner)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetOwner(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwner(Integer)
----
 
+0, 0, group_id, assoc id (see over)
 
-0, 0, group\_id, assoc id (see over)
+**Parameter:** 
+ - **owner** Integer
 
-
-
-* **Owner:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSystemEventEntity thing;
+Integer owner;
+thing.SetOwner(owner);
+```
 

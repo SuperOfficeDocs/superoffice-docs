@@ -1,9 +1,9 @@
 ---
-title: Void execute(StatResult sr)
-path: /EJScript/Classes/StatLib/Member functions/Void execute(StatResult sr)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatLib_execute_StatResult_sr
+title: StatLib.execute(StatResult sr)
+intellisense: StatLib.execute
 keywords: execute(StatResult)
+so.topic: reference
 ---
 
 

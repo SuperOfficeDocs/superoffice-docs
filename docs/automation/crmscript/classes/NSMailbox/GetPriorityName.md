@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailbox_GetPriorityName
 title: String GetPriorityName()
-path: /EJScript/Classes/NSMailbox/Member functions/String GetPriorityName()
-intellisense: 1
-classref: 1
-keywords: GetPriorityName()
+intellisense: NSMailbox.GetPriorityName
+keywords: NSMailbox, GetPriorityName
+so.topic: reference
 ---
-
 
 The name of the priority that the mailbox is connected to
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMailbox thing;
+String priorityName  = thing.GetPriorityName();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_SetDocumentTypeKey
+title: SetDocumentTypeKey(Integer documentTypeKey)
+intellisense: NSDocumentTemplateEntity.SetDocumentTypeKey
+keywords: NSDocumentTemplateEntity, GetDocumentTypeKey
+so.topic: reference
 ---
-title: Void SetDocumentTypeKey(Integer DocumentTypeKey)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetDocumentTypeKey(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2683
-keywords: SetDocumentTypeKey(Integer)
----
-
 
 The document type to use when creating a blank document. Plugin-specific. Used when not creating template from a local file.
 
+**Parameter:** 
+ - **documentTypeKey** Integer
 
-
-* **DocumentTypeKey:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer documentTypeKey;
+thing.SetDocumentTypeKey(documentTypeKey);
+```
 

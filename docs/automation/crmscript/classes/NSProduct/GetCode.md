@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetCode
 title: String GetCode()
-path: /EJScript/Classes/NSProduct/Member functions/String GetCode()
-intellisense: 1
-classref: 1
-keywords: GetCode()
+intellisense: NSProduct.GetCode
+keywords: NSProduct, GetCode
+so.topic: reference
 ---
-
 
 The product code / article number in the product supplier system.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProduct thing;
+String code  = thing.GetCode();
+```
 
 

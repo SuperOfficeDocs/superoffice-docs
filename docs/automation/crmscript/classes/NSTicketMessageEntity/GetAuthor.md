@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_GetAuthor
 title: String GetAuthor()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/String GetAuthor()
-intellisense: 1
-classref: 1
-keywords: GetAuthor()
+intellisense: NSTicketMessageEntity.GetAuthor
+keywords: NSTicketMessageEntity, GetAuthor
+so.topic: reference
 ---
-
 
 A string representing the author of the message. Could be a user&apos;s name, or a persons email address.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketMessageEntity thing;
+String author  = thing.GetAuthor();
+```
 
 

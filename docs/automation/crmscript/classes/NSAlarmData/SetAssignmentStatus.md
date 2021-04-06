@@ -1,21 +1,24 @@
+﻿---
+uid: crmscript_ref_NSAlarmData_SetAssignmentStatus
+title: SetAssignmentStatus(Integer assignmentStatus)
+intellisense: NSAlarmData.SetAssignmentStatus
+keywords: NSAlarmData, GetAssignmentStatus
+so.topic: reference
 ---
-title: Void SetAssignmentStatus(Integer AssignmentStatus)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetAssignmentStatus(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 672
-keywords: SetAssignmentStatus(Integer)
----
-
 
 Status if this appointment is in the process of being assigned to someone else
 
-* Unknown= 0
-* None=1
-* Assigning=11
-* Seen=12
-* Declined=13
+**Parameter:** 
+ - **assignmentStatus** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = None 
+     - Enum: 11 = Assigning 
+     - Enum: 12 = Seen 
+     - Enum: 13 = Declined 
 
-* **AssignmentStatus:** Integer
-* **Returns:** Void
+```crmscript
+NSAlarmData thing;
+Integer assignmentStatus;
+thing.SetAssignmentStatus(assignmentStatus);
+```
 

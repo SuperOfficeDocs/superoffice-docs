@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatPresence_SetOngoingChats
+title: SetOngoingChats(Integer ongoingChats)
+intellisense: NSChatPresence.SetOngoingChats
+keywords: NSChatPresence, GetOngoingChats
+so.topic: reference
 ---
-title: Void SetOngoingChats(Integer OngoingChats)
-path: /EJScript/Classes/NSChatPresence/Member functions/Void SetOngoingChats(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1526
-keywords: SetOngoingChats(Integer)
----
-
 
 The number of ongoing chats this users has now
 
+**Parameter:** 
+ - **ongoingChats** Integer
 
-
-* **OngoingChats:** Integer
-* **Returns:** Void
-
+```crmscript
+NSChatPresence thing;
+Integer ongoingChats;
+thing.SetOngoingChats(ongoingChats);
+```
 

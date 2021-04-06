@@ -1,9 +1,9 @@
 ---
 description: XMLNode XMLNode(XMLNode node)
-path: /EJScript/Global functions/XMLNode XMLNode(XMLNode node)
-intellisense: 1
+intellisense: Void.XMLNode
 langref: 1
 keywords: XMLNode(XMLNode)
+so.topic: reference
 ---
 
 

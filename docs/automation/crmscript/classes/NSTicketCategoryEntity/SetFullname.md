@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_SetFullname
+title: SetFullname(String fullname)
+intellisense: NSTicketCategoryEntity.SetFullname
+keywords: NSTicketCategoryEntity, GetFullname
+so.topic: reference
 ---
-title: Void SetFullname(String Fullname)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetFullname(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetFullname(String)
----
-
 
 The fullname (compiled from parents&apos; names) for this category. E.g. &apos;norway/product A/support&apos;.
 
+**Parameter:** 
+ - **fullname** String
 
-
-* **Fullname:** String
-* **Returns:** String
-
+```crmscript
+NSTicketCategoryEntity thing;
+String fullname;
+thing.SetFullname(fullname);
+```
 

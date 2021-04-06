@@ -1,12 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent_AddOwnerContact
 title: Void AddOwnerContact(Integer contactId)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void AddOwnerContact(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: AddOwnerContact(Integer)
+intellisense: NSUserAgent.AddOwnerContact
+keywords: NSUserAgent, AddOwnerContact
+so.topic: reference
 ---
 
 
-* **contactId:** Id of the contact to add as a owner contact
 
-
+**Parameters:**
+ - **contactId** Id of the contact to add as a owner contact

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetMimeType
 title: String GetMimeType()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/String GetMimeType()
-intellisense: 1
-classref: 1
-sortOrder: 2673
-keywords: GetMimeType()
+intellisense: NSDocumentTemplateEntity.GetMimeType
+keywords: NSDocumentTemplateEntity, GetMimeType
+so.topic: reference
 ---
-
 
 The mime type
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocumentTemplateEntity thing;
+String mimeType  = thing.GetMimeType();
+```
 
 

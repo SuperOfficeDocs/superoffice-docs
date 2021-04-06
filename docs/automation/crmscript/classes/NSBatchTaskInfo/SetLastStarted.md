@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetLastStarted
+title: SetLastStarted(DateTime lastStarted)
+intellisense: NSBatchTaskInfo.SetLastStarted
+keywords: NSBatchTaskInfo, GetLastStarted
+so.topic: reference
 ---
-title: Void SetLastStarted(DateTime LastStarted)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetLastStarted(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1395
-keywords: SetLastStarted(DateTime)
----
-
 
 When was the task last started.
 
+**Parameter:** 
+ - **lastStarted** DateTime
 
-
-* **LastStarted:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSBatchTaskInfo thing;
+DateTime lastStarted;
+thing.SetLastStarted(lastStarted);
+```
 

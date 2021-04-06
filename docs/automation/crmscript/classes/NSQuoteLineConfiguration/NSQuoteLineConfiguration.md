@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration
 title: NSQuoteLineConfiguration
-path: /EJScript/Classes/NSQuoteLineConfiguration
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuoteLineConfiguration
+keywords: NSQuoteLineConfiguration
+so.topic: reference
 ---
-
 
 QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified.
 
-
-
-
-1. autolist
+1. autolist 
 

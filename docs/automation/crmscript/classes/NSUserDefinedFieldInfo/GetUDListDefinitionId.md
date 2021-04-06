@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetUDListDefinitionId
 title: Integer GetUDListDefinitionId()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetUDListDefinitionId()
-intellisense: 1
-classref: 1
-keywords: GetUDListDefinitionId()
+intellisense: NSUserDefinedFieldInfo.GetUDListDefinitionId
+keywords: NSUserDefinedFieldInfo, GetUDListDefinitionId
+so.topic: reference
 ---
-
 
 List to use for populating dropdown or listbox
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer uDListDefinitionId  = thing.GetUDListDefinitionId();
+```
 
 

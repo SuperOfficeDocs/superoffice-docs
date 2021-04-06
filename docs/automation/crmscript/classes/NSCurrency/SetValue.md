@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSCurrency_SetValue
+title: SetValue(String value)
+intellisense: NSCurrency.SetValue
+keywords: NSCurrency, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSCurrency/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2176
-keywords: SetValue(String)
----
 
+Set the name of the Currency item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Currency name.
 
+```crmscript
+NSCurrency thing;
+thing.SetValue("frotz");
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSScript_SetRegisteredBy
+title: SetRegisteredBy(String registeredBy)
+intellisense: NSScript.SetRegisteredBy
+keywords: NSScript, GetRegisteredBy
+so.topic: reference
 ---
-title: Void SetRegisteredBy(String RegisteredBy)
-path: /EJScript/Classes/NSScript/Member functions/Void SetRegisteredBy(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetRegisteredBy(String)
----
-
 
 Who created this script
 
+**Parameter:** 
+ - **registeredBy** String
 
-
-* **RegisteredBy:** String
-* **Returns:** String
-
+```crmscript
+NSScript thing;
+String registeredBy;
+thing.SetRegisteredBy(registeredBy);
+```
 

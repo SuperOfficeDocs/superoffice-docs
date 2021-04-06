@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAddressSyncData_GetAddressId
 title: Integer GetAddressId()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Integer GetAddressId()
-intellisense: 1
-classref: 1
-sortOrder: 619
-keywords: GetAddressId()
+intellisense: NSAddressSyncData.GetAddressId
+keywords: NSAddressSyncData, GetAddressId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAddressSyncData thing;
+Integer addressId  = thing.GetAddressId();
+```
 
 

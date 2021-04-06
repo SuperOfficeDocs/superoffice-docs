@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
+intellisense: NSSaleEntity.SetCreatedBy
+keywords: NSSaleEntity, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetCreatedBy(NSAssociate)
----
-
 
 Who created to sale
 
+**Parameter:** 
+ - **createdBy** Associate
 
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSSaleEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

@@ -1,17 +1,22 @@
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetOrientation
+title: SetOrientation(Integer orientation)
+intellisense: NSReportLabelLayoutEntity.SetOrientation
+keywords: NSReportLabelLayoutEntity, GetOrientation
+so.topic: reference
 ---
-title: Void SetOrientation(Integer Orientation)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetOrientation(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetOrientation(Integer)
----
-
 
 Paper orientation: 1=portrait, 2=landscape
 
+**Parameter:** 
+ - **orientation** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Portrait 
+     - Enum: 2 = Landscape 
 
-
-* **Orientation:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer orientation;
+thing.SetOrientation(orientation);
+```
 

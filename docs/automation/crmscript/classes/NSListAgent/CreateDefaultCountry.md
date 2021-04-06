@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_CreateDefaultCountry
+title: Country CreateDefaultCountry()
+intellisense: NSListAgent.CreateDefaultCountry
+keywords: NSListAgent, CreateDefaultCountry
+so.topic: reference
 ---
-title: NSCountry CreateDefaultCountry()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry CreateDefaultCountry()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultCountry()
----
-
 
 Gets a new country
 
 
+**Returns:** A new country with default values
 
-* **Returns:** A new country with default values
-
+```crmscript
+NSListAgent agent;
+Country res = agent.CreateDefaultCountry();
+```
 

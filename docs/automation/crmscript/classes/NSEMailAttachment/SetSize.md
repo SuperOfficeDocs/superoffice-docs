@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAttachment_SetSize
+title: SetSize(Integer size)
+intellisense: NSEMailAttachment.SetSize
+keywords: NSEMailAttachment, GetSize
+so.topic: reference
 ---
-title: Void SetSize(Integer Size)
-path: /EJScript/Classes/NSEMailAttachment/Member functions/Void SetSize(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2905
-keywords: SetSize(Integer)
----
-
 
 Size of attachment
 
+**Parameter:** 
+ - **size** Integer
 
-
-* **Size:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailAttachment thing;
+Integer size;
+thing.SetSize(size);
+```
 

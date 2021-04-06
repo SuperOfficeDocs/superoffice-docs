@@ -1,10 +1,10 @@
 ---
-title: String toHex(Integer p0)
-path: /EJScript/Classes/Integer/Member functions/String toHex(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Integer_toHex_Integer_p_0
+title: Integer.toHex(Integer p_0)
+intellisense: Integer.toHex
 sortOrder: 428
 keywords: toHex(Integer)
+so.topic: reference
 ---
 
 This function returns the given integer as a hexadecimal representation of the integer.

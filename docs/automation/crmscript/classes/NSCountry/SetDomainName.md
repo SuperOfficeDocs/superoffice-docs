@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetDomainName
+title: SetDomainName(String domainName)
+intellisense: NSCountry.SetDomainName
+keywords: NSCountry, GetDomainName
+so.topic: reference
 ---
-title: Void SetDomainName(String DomainName)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetDomainName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2035
-keywords: SetDomainName(String)
----
-
 
 Domain name of the country
 
+**Parameter:** 
+ - **domainName** String
 
-
-* **DomainName:** String
-* **Returns:** String
-
+```crmscript
+NSCountry thing;
+String domainName;
+thing.SetDomainName(domainName);
+```
 

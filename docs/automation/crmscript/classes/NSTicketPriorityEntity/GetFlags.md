@@ -1,16 +1,23 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetFlags
+title: TicketPriorityFlags GetFlags()
+intellisense: NSTicketPriorityEntity.GetFlags
+keywords: NSTicketPriorityEntity, GetFlags
+so.topic: reference
 ---
-title: NSTicketPriorityFlags GetFlags()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityFlags GetFlags()
-intellisense: 1
-classref: 1
-keywords: GetFlags()
----
-
 
 A bitmask of flags.
 
+**Returns:** TicketPriorityFlags
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = External 
+     - Enum: 2 = Default 
+     - Enum: 4 = AlertSchedule 
 
-* **Returns:** TicketPriorityFlags
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityFlags flags  = thing.GetFlags();
+```
 
 

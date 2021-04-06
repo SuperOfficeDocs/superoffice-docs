@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSMessagingAgent_GetDeliveryStatus
+title: MessageDeliveryStatusArray GetDeliveryStatus(IntegerArray messagingIds)
+intellisense: NSMessagingAgent.GetDeliveryStatus
+keywords: NSMessagingAgent, GetDeliveryStatus
+so.topic: reference
 ---
-title: NSMessageDeliveryStatus[] GetDeliveryStatus(Integer[] messagingIds)
-path: /EJScript/Classes/NSMessagingAgent/Member functions/NSMessageDeliveryStatus[] GetDeliveryStatus(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetDeliveryStatus(Integer[])
----
-
 
 Get delivery status
 
-
-
-* **messagingIds:** Array of messaging ids.
-
-
+**Parameters:**
+ - **messagingIds** Array of messaging ids.

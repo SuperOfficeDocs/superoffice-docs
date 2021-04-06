@@ -1,9 +1,9 @@
 ---
-title: Void append(String appendString)
-path: /EJScript/Classes/String/Member functions/Void append(String appendString)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_append_String_appendString
+title: String.append(String appendString)
+intellisense: String.append
 keywords: append(String)
+so.topic: reference
 ---
 
 

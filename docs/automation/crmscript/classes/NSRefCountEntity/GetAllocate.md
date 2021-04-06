@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRefCountEntity_GetAllocate
 title: Bool GetAllocate()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Bool GetAllocate()
-intellisense: 1
-classref: 1
-keywords: GetAllocate()
+intellisense: NSRefCountEntity.GetAllocate
+keywords: NSRefCountEntity, GetAllocate
+so.topic: reference
 ---
-
 
 Allocate numbers automatically
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSRefCountEntity thing;
+Bool allocate  = thing.GetAllocate();
+```
 
 

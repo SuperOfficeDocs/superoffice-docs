@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSyncUserAccount_SetAssociateName
+title: SetAssociateName(String associateName)
+intellisense: NSSyncUserAccount.SetAssociateName
+keywords: NSSyncUserAccount, GetAssociateName
+so.topic: reference
 ---
-title: Void SetAssociateName(String AssociateName)
-path: /EJScript/Classes/NSSyncUserAccount/Member functions/Void SetAssociateName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociateName(String)
----
-
 
 The username of the associate owning the account
 
+**Parameter:** 
+ - **associateName** String
 
-
-* **AssociateName:** String
-* **Returns:** String
-
+```crmscript
+NSSyncUserAccount thing;
+String associateName;
+thing.SetAssociateName(associateName);
+```
 

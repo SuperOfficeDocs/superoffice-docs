@@ -1,9 +1,9 @@
 ---
-title: Void SetNoFaxOrEmails(Integer p0)
-path: /EJScript/Classes/NSRecipientStatistics/Member functions/Void SetNoFaxOrEmails(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecipientStatistics_SetNoFaxOrEmails_Integer_p_0
+title: NSRecipientStatistics.SetNoFaxOrEmails(Integer p_0)
+intellisense: NSRecipientStatistics.SetNoFaxOrEmails
 keywords: SetNoFaxOrEmails(Integer)
+so.topic: reference
 ---
 
 

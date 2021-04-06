@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetURL
 title: String GetURL()
-path: /EJScript/Classes/NSProject/Member functions/String GetURL()
-intellisense: 1
-classref: 1
-keywords: GetURL()
+intellisense: NSProject.GetURL
+keywords: NSProject, GetURL
+so.topic: reference
 ---
-
 
 URL address
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProject thing;
+String uRL  = thing.GetURL();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void addRecipient(Integer customerId)
-path: /EJScript/Classes/SpmCustomerList/Member functions/Void addRecipient(Integer customerId)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmCustomerList_addRecipient_Integer_customerId
+title: SpmCustomerList.addRecipient(Integer customerId)
+intellisense: SpmCustomerList.addRecipient
 keywords: addRecipient(Integer)
+so.topic: reference
 ---
 
 

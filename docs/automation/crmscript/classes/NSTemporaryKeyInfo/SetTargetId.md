@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemporaryKeyInfo_SetTargetId
+title: SetTargetId(Integer targetId)
+intellisense: NSTemporaryKeyInfo.SetTargetId
+keywords: NSTemporaryKeyInfo, GetTargetId
+so.topic: reference
 ---
-title: Void SetTargetId(Integer TargetId)
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Void SetTargetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTargetId(Integer)
----
-
 
 The primary key of the entity this temporary key is for, dependent of dmain
 
+**Parameter:** 
+ - **targetId** Integer
 
-
-* **TargetId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTemporaryKeyInfo thing;
+Integer targetId;
+thing.SetTargetId(targetId);
+```
 

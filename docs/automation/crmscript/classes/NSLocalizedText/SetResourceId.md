@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLocalizedText_SetResourceId
+title: SetResourceId(Integer resourceId)
+intellisense: NSLocalizedText.SetResourceId
+keywords: NSLocalizedText, GetResourceId
+so.topic: reference
 ---
-title: Void SetResourceId(Integer ResourceId)
-path: /EJScript/Classes/NSLocalizedText/Member functions/Void SetResourceId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetResourceId(Integer)
----
-
 
 Resource ID
 
+**Parameter:** 
+ - **resourceId** Integer
 
-
-* **ResourceId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSLocalizedText thing;
+Integer resourceId;
+thing.SetResourceId(resourceId);
+```
 

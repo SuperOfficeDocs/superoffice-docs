@@ -1,17 +1,22 @@
----
-title: Integer GetAccess()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Integer GetAccess()
-intellisense: 1
-classref: 1
-sortOrder: 3254
-keywords: GetAccess()
+﻿---
+uid: crmscript_ref_NSErpSyncDefaultValue_GetAccess
+title: FieldAccess GetAccess()
+intellisense: NSErpSyncDefaultValue.GetAccess
+keywords: NSErpSyncDefaultValue, GetAccess
+so.topic: reference
 ---
 
 Access restrictions for the field
-* Normal=0
-* Mandatory=1
-* ReadOnly=2
 
+**Returns:** FieldAccess
 
-* **Returns:** Integer
+     - Enum: 0 = Normal 
+     - Enum: 1 = Mandatory 
+     - Enum: 2 = ReadOnly 
+
+```crmscript
+NSErpSyncDefaultValue thing;
+FieldAccess access  = thing.GetAccess();
+```
+
 

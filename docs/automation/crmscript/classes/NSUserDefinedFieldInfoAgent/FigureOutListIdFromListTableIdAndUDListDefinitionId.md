@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId
+title: Integer FigureOutListIdFromListTableIdAndUDListDefinitionId(UserDefinedFieldInfo info)
+intellisense: NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
+keywords: NSUserDefinedFieldInfoAgent, FigureOutListIdFromListTableIdAndUDListDefinitionId
+so.topic: reference
 ---
-title: Integer FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo p0)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Integer FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo p_0)
-intellisense: 1
-classref: 1
-keywords: FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)
----
-
 
 Kind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId
 
-
-
-* **info**
-
-
+**Parameters:**
+ - **info** 

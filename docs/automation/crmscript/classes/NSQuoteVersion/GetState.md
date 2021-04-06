@@ -1,23 +1,29 @@
----
-title: Integer GetState()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetState()
-intellisense: 1
-classref: 1
-keywords: GetState()
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetState
+title: QuoteVersionState GetState()
+intellisense: NSQuoteVersion.GetState
+keywords: NSQuoteVersion, GetState
+so.topic: reference
 ---
 
 Current state of this quote version.
 
-* Unknown=0
-* Draft=1
-* DraftNotCalculated=2
-* DraftNeedsApproval=3
-* DraftApproved=4
-* DraftNotApproved=5
-* Sent=6
-* Archived=7
-* Lost=8
-* Sold=9
+**Returns:** QuoteVersionState
 
-* **Returns:** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Draft 
+     - Enum: 2 = DraftNotCalculated 
+     - Enum: 3 = DraftNeedsApproval 
+     - Enum: 4 = DraftApproved 
+     - Enum: 5 = DraftNotApproved 
+     - Enum: 6 = Sent 
+     - Enum: 7 = Archived 
+     - Enum: 8 = Lost 
+     - Enum: 9 = Sold 
+
+```crmscript
+NSQuoteVersion thing;
+QuoteVersionState state  = thing.GetState();
+```
+
 

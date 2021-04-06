@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetFromAddress
 title: String GetFromAddress()
-path: /EJScript/Classes/NSTicket/Member functions/String GetFromAddress()
-intellisense: 1
-classref: 1
-keywords: GetFromAddress()
+intellisense: NSTicket.GetFromAddress
+keywords: NSTicket, GetFromAddress
+so.topic: reference
 ---
-
 
 The from-address used when this ticket got created, e.g. by email
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicket thing;
+String fromAddress  = thing.GetFromAddress();
+```
 
 

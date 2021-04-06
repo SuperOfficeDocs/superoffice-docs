@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetContactDepartment
 title: String GetContactDepartment()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/String GetContactDepartment()
-intellisense: 1
-classref: 1
-sortOrder: 1057
-keywords: GetContactDepartment()
+intellisense: NSAppointmentSyncData.GetContactDepartment
+keywords: NSAppointmentSyncData, GetContactDepartment
+so.topic: reference
 ---
-
 
 The department of the contact connected to the appointment
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointmentSyncData thing;
+String contactDepartment  = thing.GetContactDepartment();
+```
 
 

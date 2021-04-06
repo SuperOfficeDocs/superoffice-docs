@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCommandInfo_GetDisplayName
 title: String GetDisplayName()
-path: /EJScript/Classes/NSCommandInfo/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 1569
-keywords: GetDisplayName()
+intellisense: NSCommandInfo.GetDisplayName
+keywords: NSCommandInfo, GetDisplayName
+so.topic: reference
 ---
-
 
 Display name, shown in menus, command lists and similar GUI elements.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCommandInfo thing;
+String displayName  = thing.GetDisplayName();
+```
 
 

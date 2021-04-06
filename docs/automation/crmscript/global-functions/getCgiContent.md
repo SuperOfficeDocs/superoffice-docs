@@ -1,9 +1,9 @@
 ---
 description: String getCgiContent()
-path: /EJScript/Global functions/String getCgiContent()
-intellisense: 1
+intellisense: Void.getCgiContent
 langref: 1
 keywords: getCgiContent()
+so.topic: reference
 ---
 
 

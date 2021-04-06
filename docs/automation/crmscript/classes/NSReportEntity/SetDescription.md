@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportEntity_SetDescription
+title: SetDescription(String description)
+intellisense: NSReportEntity.SetDescription
+keywords: NSReportEntity, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 The description of the report.
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSReportEntity thing;
+String description;
+thing.SetDescription(description);
+```
 

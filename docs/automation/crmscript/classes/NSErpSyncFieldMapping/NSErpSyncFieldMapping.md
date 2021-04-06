@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping
 title: NSErpSyncFieldMapping
-path: /EJScript/Classes/NSErpSyncFieldMapping
-intellisense: 1
-classref: 1
-sortOrder: 3283
+intellisense: Void.NSErpSyncFieldMapping
+keywords: NSErpSyncFieldMapping
+so.topic: reference
 ---
 
+Mapping information for one field pair (ERP <-> SuperOffice)
 
-Mapping information for one field pair (ERP \<-> SuperOffice)
-
-
-
-
-1. autolist
+1. autolist 
 

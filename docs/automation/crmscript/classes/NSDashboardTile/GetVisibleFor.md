@@ -1,13 +1,17 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetVisibleFor
+title: VisibleForArray GetVisibleFor()
+intellisense: NSDashboardTile.GetVisibleFor
+keywords: NSDashboardTile, GetVisibleFor
+so.topic: reference
 ---
-title: VisibleFor[] GetVisibleFor()
-path: /EJScript/Classes/NSDashboardTile/Member functions/VisibleFor[] GetVisibleFor()
-intellisense: 1
-classref: 1
-sortOrder: 2301
-keywords: GetVisibleFor()
----
 
+Return the usergroups and/or users the DashboardTile item is visible for.
 
-* **Returns:** VisibleForArray
+**Returns:** Visible for array.
 
+```crmscript
+NSDashboardTile thing;
+VisibleFor[] visibleFor = thing.GetVisibleFor();
+```
 

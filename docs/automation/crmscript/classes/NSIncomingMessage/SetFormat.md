@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSIncomingMessage_SetFormat
+title: SetFormat(String format)
+intellisense: NSIncomingMessage.SetFormat
+keywords: NSIncomingMessage, GetFormat
+so.topic: reference
 ---
-title: Void SetFormat(String Format)
-path: /EJScript/Classes/NSIncomingMessage/Member functions/Void SetFormat(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3993
-keywords: SetFormat(String)
----
-
 
 Format of the content
 
+**Parameter:** 
+ - **format** String
 
-
-* **Format:** String
-* **Returns:** String
-
+```crmscript
+NSIncomingMessage thing;
+String format;
+thing.SetFormat(format);
+```
 

@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_datatypes_intro
-description: Introduction to data types
+uid: crmscript_fundamentals_datatypes_intro
+title: Introduction to data types
 author:
 so.date:
 keywords:

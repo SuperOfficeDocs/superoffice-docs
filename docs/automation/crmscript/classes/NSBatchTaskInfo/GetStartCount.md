@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetStartCount
 title: Integer GetStartCount()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Integer GetStartCount()
-intellisense: 1
-classref: 1
-sortOrder: 1373
-keywords: GetStartCount()
+intellisense: NSBatchTaskInfo.GetStartCount
+keywords: NSBatchTaskInfo, GetStartCount
+so.topic: reference
 ---
-
 
 Maps to the startcount field in the batchtask table.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSBatchTaskInfo thing;
+Integer startCount  = thing.GetStartCount();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPriceList_SetIsActive
+title: SetIsActive(Bool isActive)
+intellisense: NSPriceList.SetIsActive
+keywords: NSPriceList, GetIsActive
+so.topic: reference
 ---
-title: Void SetIsActive(Bool IsActive)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetIsActive(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsActive(Bool)
----
-
 
 Is the list active (as opposed to being worked on, suddenly canceled, etc.
 
+**Parameter:** 
+ - **isActive** Bool
 
-
-* **IsActive:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSPriceList thing;
+Bool isActive;
+thing.SetIsActive(isActive);
+```
 

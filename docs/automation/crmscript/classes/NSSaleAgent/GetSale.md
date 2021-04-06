@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_GetSale
+title: NSSale GetSale(Integer saleId);
+intellisense: NSSaleAgent.GetSale
+keywords: NSSaleAgent, GetSale
+so.topic: reference
 ---
-title: NSSale GetSale(Integer saleId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale GetSale(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSale(Integer)
----
 
+Gets a NSSale object.
 
-Gets a Sale object.
+**Parameters:**
+ - **saleId** The identifier of the NSSale object
 
+**Returns:** NSSale
 
-
-* **saleId:** The identifier of the Sale object
-* **Returns:** Sale
-
+```crmscript
+NSSaleAgent agent;
+NSSale thing = agent.GetSale(123);
+```
 

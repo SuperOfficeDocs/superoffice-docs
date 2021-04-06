@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_NSAddress
 title: NSAddress
-path: /EJScript/Classes/NSAddress
-intellisense: 1
-classref: 1
+intellisense: Void.NSAddress
 sortOrder: 607
+so.topic: reference
 ---
 
 

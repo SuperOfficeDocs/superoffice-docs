@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetAssociateName
+title: SetAssociateName(String associateName)
+intellisense: NSAppointment.SetAssociateName
+keywords: NSAppointment, GetAssociateName
+so.topic: reference
 ---
-title: Void SetAssociateName(String AssociateName)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAssociateName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 777
-keywords: SetAssociateName(String)
----
-
 
 The associate's name
 
+**Parameter:** 
+ - **associateName** String
 
-
-* **AssociateName:** String
-* **Returns:** String
-
+```crmscript
+NSAppointment thing;
+String associateName;
+thing.SetAssociateName(associateName);
+```
 

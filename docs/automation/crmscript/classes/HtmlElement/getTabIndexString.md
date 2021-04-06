@@ -1,10 +1,10 @@
 ---
-title: String getTabIndexString()
-path: /EJScript/Classes/HtmlElement/Member functions/String getTabIndexString()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HtmlElement_getTabIndexString
+title: HtmlElement.getTabIndexString()
+intellisense: HtmlElement.getTabIndexString
 sortOrder: 384
 keywords: getTabIndexString()
+so.topic: reference
 ---
 
 # String getTabIndexString()

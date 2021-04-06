@@ -1,6 +1,6 @@
 ---
-title: crmscript_addresses
-description: Address localization
+uid: crmscript_addresses
+title: Address localization
 author:
 so.date:
 keywords:

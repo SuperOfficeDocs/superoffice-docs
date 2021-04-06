@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserGroup_SetDeleted
+title: SetDeleted(Bool deleted)
+intellisense: NSUserGroup.SetDeleted
+keywords: NSUserGroup, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSUserGroup/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeleted(Bool)
----
-
 
 Deleted equal to true means that this is a user group that no longer can be selected by the user.  It is not permitted to delete a UserGroup.
 
+**Parameter:** 
+ - **deleted** Bool
 
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSUserGroup thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
 

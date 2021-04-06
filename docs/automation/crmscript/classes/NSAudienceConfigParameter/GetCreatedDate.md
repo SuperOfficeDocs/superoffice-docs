@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAudienceConfigParameter_GetCreatedDate
 title: DateTime GetCreatedDate()
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/DateTime GetCreatedDate()
-intellisense: 1
-classref: 1
-sortOrder: 1319
-keywords: GetCreatedDate()
+intellisense: NSAudienceConfigParameter.GetCreatedDate
+keywords: NSAudienceConfigParameter, GetCreatedDate
+so.topic: reference
 ---
-
 
 The date and time the configuration parameter was created
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSAudienceConfigParameter thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
 
 

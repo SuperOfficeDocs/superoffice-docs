@@ -1,12 +1,12 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetIsPublished
+title: Boolean GetIsPublished()
+intellisense: NSSaleEntity.GetIsPublished
+keywords: NSSaleEntity, GetIsPublished
+so.topic: reference
 ---
-title: Bool GetIsPublished()
-path: /EJScript/Classes/NSSaleEntity/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
-keywords: GetIsPublished()
----
 
+Should this SaleEntity be published and visible to strangers?
 
-Get the Publication is published field
-
+**Returns:** Boolean
 

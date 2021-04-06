@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetProjectName
+title: SetProjectName(String projectName)
+intellisense: NSProjectMember.SetProjectName
+keywords: NSProjectMember, GetProjectName
+so.topic: reference
 ---
-title: Void SetProjectName(String ProjectName)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetProjectName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectName(String)
----
-
 
 Name of the project this project member belongs to.
 
+**Parameter:** 
+ - **projectName** String
 
-
-* **ProjectName:** String
-* **Returns:** String
-
+```crmscript
+NSProjectMember thing;
+String projectName;
+thing.SetProjectName(projectName);
+```
 

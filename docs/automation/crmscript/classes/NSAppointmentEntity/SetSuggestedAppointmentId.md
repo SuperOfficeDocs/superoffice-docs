@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetSuggestedAppointmentId
+title: SetSuggestedAppointmentId(Integer suggestedAppointmentId)
+intellisense: NSAppointmentEntity.SetSuggestedAppointmentId
+keywords: NSAppointmentEntity, GetSuggestedAppointmentId
+so.topic: reference
 ---
-title: Void SetSuggestedAppointmentId(Integer SuggestedAppointmentId)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetSuggestedAppointmentId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1031
-keywords: SetSuggestedAppointmentId(Integer)
----
-
 
 Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link)
 
+**Parameter:** 
+ - **suggestedAppointmentId** Integer
 
-
-* **SuggestedAppointmentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointmentEntity thing;
+Integer suggestedAppointmentId;
+thing.SetSuggestedAppointmentId(suggestedAppointmentId);
+```
 

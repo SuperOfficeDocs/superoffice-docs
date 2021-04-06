@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetSubscriptionStart
+title: SetSubscriptionStart(DateTime subscriptionStart)
+intellisense: NSQuoteLine.SetSubscriptionStart
+keywords: NSQuoteLine, GetSubscriptionStart
+so.topic: reference
 ---
-title: Void SetSubscriptionStart(DateTime SubscriptionStart)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetSubscriptionStart(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetSubscriptionStart(DateTime)
----
-
 
 Start date for subscription, as offered
 
+**Parameter:** 
+ - **subscriptionStart** DateTime
 
-
-* **SubscriptionStart:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSQuoteLine thing;
+DateTime subscriptionStart;
+thing.SetSubscriptionStart(subscriptionStart);
+```
 

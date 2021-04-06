@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetDescription
+title: SetDescription(String description)
+intellisense: NSSale.SetDescription
+keywords: NSSale, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSSale/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 The sales description
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSSale thing;
+String description;
+thing.SetDescription(description);
+```
 

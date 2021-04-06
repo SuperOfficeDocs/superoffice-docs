@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetProjectName
+title: SetProjectName(String projectName)
+intellisense: NSSale.SetProjectName
+keywords: NSSale, GetProjectName
+so.topic: reference
 ---
-title: Void SetProjectName(String ProjectName)
-path: /EJScript/Classes/NSSale/Member functions/Void SetProjectName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectName(String)
----
-
 
 Project name
 
+**Parameter:** 
+ - **projectName** String
 
-
-* **ProjectName:** String
-* **Returns:** String
-
+```crmscript
+NSSale thing;
+String projectName;
+thing.SetProjectName(projectName);
+```
 

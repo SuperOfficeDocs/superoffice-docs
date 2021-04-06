@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSArchiveOrderByInfo_SetDirection
+title: SetDirection(Integer direction)
+intellisense: NSArchiveOrderByInfo.SetDirection
+keywords: NSArchiveOrderByInfo, GetDirection
+so.topic: reference
 ---
-title: Void SetDirection(Integer Direction)
-path: /EJScript/Classes/NSArchiveOrderByInfo/Member functions/Void SetDirection(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1198
-keywords: SetDirection(Integer)
----
-
 
 Direction to order.
 
+**Parameter:** 
+ - **direction** Integer
+     - Enum: 0 = ASC 
+     - Enum: 1 = DESC 
 
-
-* **Direction:** Integer
-* **Returns:** Void
-
+```crmscript
+NSArchiveOrderByInfo thing;
+Integer direction;
+thing.SetDirection(direction);
+```
 

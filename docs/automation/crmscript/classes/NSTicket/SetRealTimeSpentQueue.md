@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetRealTimeSpentQueue
+title: SetRealTimeSpentQueue(Integer realTimeSpentQueue)
+intellisense: NSTicket.SetRealTimeSpentQueue
+keywords: NSTicket, GetRealTimeSpentQueue
+so.topic: reference
 ---
-title: Void SetRealTimeSpentQueue(Integer RealTimeSpentQueue)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetRealTimeSpentQueue(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRealTimeSpentQueue(Integer)
----
-
 
 The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state
 
+**Parameter:** 
+ - **realTimeSpentQueue** Integer
 
-
-* **RealTimeSpentQueue:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicket thing;
+Integer realTimeSpentQueue;
+thing.SetRealTimeSpentQueue(realTimeSpentQueue);
+```
 

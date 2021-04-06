@@ -1,13 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTicketStatusList
+title: NSTicketStatusEntity[] GetTicketStatusList(Integer[]  ticketStatusEntityIds);
+intellisense: NSListAgent.GetTicketStatusList
+keywords: NSListAgent, GetTicketStatusList
+so.topic: reference
 ---
-title: NSTicketStatusEntity[] GetTicketStatusList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketStatusEntity[] GetTicketStatusList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetTicketStatusList(Integer[])
----
 
+Gets a vector of TicketStatusEntity objects.
 
-* **p0:** IntegerArray of identifiers for TicketStatus
-* **Returns:** Array of NSTicketStatusEntity
+**Parameters:**
+ - **ticketStatusEntityIds** The identifiers of the NSTicketStatusEntity objects
 
+**Returns:** Vector of NSTicketStatusEntity objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetTicketStatusList(ids);
+```
 

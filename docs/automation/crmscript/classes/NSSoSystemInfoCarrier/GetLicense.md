@@ -1,9 +1,9 @@
 ---
-title: NSLicenseInfo GetLicense()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/NSLicenseInfo GetLicense()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetLicense
+title: NSSoSystemInfoCarrier.GetLicense()
+intellisense: NSSoSystemInfoCarrier.GetLicense
 keywords: GetLicense()
+so.topic: reference
 ---
 
 

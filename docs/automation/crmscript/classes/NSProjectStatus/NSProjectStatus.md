@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSProjectStatus
 title: NSProjectStatus
-path: /EJScript/Classes/NSProjectStatus
-intellisense: 1
-classref: 1
+intellisense: Void.NSProjectStatus
+keywords: NSProjectStatus
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

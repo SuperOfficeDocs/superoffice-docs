@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteConnection_GetIsAvailable
 title: Bool GetIsAvailable()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Bool GetIsAvailable()
-intellisense: 1
-classref: 1
-keywords: GetIsAvailable()
+intellisense: NSQuoteConnection.GetIsAvailable
+keywords: NSQuoteConnection, GetIsAvailable
+so.topic: reference
 ---
-
 
 Whether or not the specified connection is available. Typically, without network access the availability is false.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSQuoteConnection thing;
+Bool isAvailable  = thing.GetIsAvailable();
+```
 
 

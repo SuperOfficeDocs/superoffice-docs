@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLine_GetDeliveredQuantity
 title: Float GetDeliveredQuantity()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetDeliveredQuantity()
-intellisense: 1
-classref: 1
-keywords: GetDeliveredQuantity()
+intellisense: NSQuoteLine.GetDeliveredQuantity
+keywords: NSQuoteLine, GetDeliveredQuantity
+so.topic: reference
 ---
-
 
 How many units have been delivered - updated by ERP system.
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSQuoteLine thing;
+Float deliveredQuantity  = thing.GetDeliveredQuantity();
+```
 
 

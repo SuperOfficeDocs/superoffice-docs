@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetQuantityUnit
+title: SetQuantityUnit(String quantityUnit)
+intellisense: NSQuoteLine.SetQuantityUnit
+keywords: NSQuoteLine, GetQuantityUnit
+so.topic: reference
 ---
-title: Void SetQuantityUnit(String QuantityUnit)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetQuantityUnit(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetQuantityUnit(String)
----
-
 
 What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different.
 
+**Parameter:** 
+ - **quantityUnit** String
 
-
-* **QuantityUnit:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLine thing;
+String quantityUnit;
+thing.SetQuantityUnit(quantityUnit);
+```
 

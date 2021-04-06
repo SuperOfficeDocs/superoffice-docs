@@ -1,19 +1,23 @@
+﻿---
+uid: crmscript_ref_NSDashboardAgent_GetData
+title: TileDataArray GetData(Integer dashboardTileId, String restrictions)
+intellisense: NSDashboardAgent.GetData
+keywords: NSDashboardAgent, GetData
+so.topic: reference
 ---
-title: NSTileData[] GetData(Integer dashboardTileId, String restrictions)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSTileData[] GetData(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
-sortOrder: 2282
-keywords: GetData(Integer,String)
----
-
 
 Get data for this tile
 
+**Parameters:**
+ - **dashboardTileId** Tile Id
+ - **restrictions** Replacement restrictions
 
+**Returns:** The data
 
-* **dashboardTileId:** Tile Id
-* **restrictions:** Replacement restrictions
-* **Returns:** The data
-
+```crmscript
+NSDashboardAgent agent;
+Integer dashboardTileId;
+String restrictions;
+TileDataArray res = agent.GetData(dashboardTileId, restrictions);
+```
 

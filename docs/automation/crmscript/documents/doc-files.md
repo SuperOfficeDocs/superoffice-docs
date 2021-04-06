@@ -1,6 +1,6 @@
 ---
-title: crmscript_doc_files
-description: Document files
+uid: crmscript_doc_files
+title: Document files
 author:
 so.date:
 keywords:

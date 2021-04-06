@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_GetMaxValue
 title: Integer GetMaxValue()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetMaxValue()
-intellisense: 1
-classref: 1
-keywords: GetMaxValue()
+intellisense: NSPreferenceDescription.GetMaxValue
+keywords: NSPreferenceDescription, GetMaxValue
+so.topic: reference
 ---
-
 
 Max value (if type 1); list table ID (if type 5)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPreferenceDescription thing;
+Integer maxValue  = thing.GetMaxValue();
+```
 
 

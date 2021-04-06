@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetDeadline
+title: SetDeadline(DateTime deadline)
+intellisense: NSTicket.SetDeadline
+keywords: NSTicket, GetDeadline
+so.topic: reference
 ---
-title: Void SetDeadline(DateTime Deadline)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetDeadline(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeadline(DateTime)
----
-
 
 Deadline for ticket.
 
+**Parameter:** 
+ - **deadline** DateTime
 
-
-* **Deadline:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicket thing;
+DateTime deadline;
+thing.SetDeadline(deadline);
+```
 

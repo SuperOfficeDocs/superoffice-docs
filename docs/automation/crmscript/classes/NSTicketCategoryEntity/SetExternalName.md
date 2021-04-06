@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_SetExternalName
+title: SetExternalName(String externalName)
+intellisense: NSTicketCategoryEntity.SetExternalName
+keywords: NSTicketCategoryEntity, GetExternalName
+so.topic: reference
 ---
-title: Void SetExternalName(String ExternalName)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetExternalName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExternalName(String)
----
-
 
 The external name for this category, used for the customer frontend.
 
+**Parameter:** 
+ - **externalName** String
 
-
-* **ExternalName:** String
-* **Returns:** String
-
+```crmscript
+NSTicketCategoryEntity thing;
+String externalName;
+thing.SetExternalName(externalName);
+```
 

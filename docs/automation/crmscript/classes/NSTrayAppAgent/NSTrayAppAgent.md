@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSTrayAppAgent
 title: NSTrayAppAgent
-path: /EJScript/Classes/NSTrayAppAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSTrayAppAgent
+so.topic: reference
 ---
 
 

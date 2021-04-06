@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSArchiveAgent_GetProviderNames
+title: StringArray GetProviderNames()
+intellisense: NSArchiveAgent.GetProviderNames
+keywords: NSArchiveAgent, GetProviderNames
+so.topic: reference
 ---
-title: String[] GetProviderNames()
-path: /EJScript/Classes/NSArchiveAgent/Member functions/String[] GetProviderNames()
-intellisense: 1
-classref: 1
-sortOrder: 1119
-keywords: GetProviderNames()
----
-
 
 Return list of all archive provider names
 
 
+**Returns:** Array of all archive provider names. 
 
-* **Returns:** Array of all archive provider names.
-
+```crmscript
+NSArchiveAgent agent;
+StringArray res = agent.GetProviderNames();
+```
 

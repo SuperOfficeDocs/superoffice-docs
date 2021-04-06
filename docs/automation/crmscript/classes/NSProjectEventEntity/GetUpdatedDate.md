@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetUpdatedDate
 title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
-keywords: GetUpdatedDate()
+intellisense: NSProjectEventEntity.GetUpdatedDate
+keywords: NSProjectEventEntity, GetUpdatedDate
+so.topic: reference
 ---
-
 
 Last updated when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSProjectEventEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
 
 

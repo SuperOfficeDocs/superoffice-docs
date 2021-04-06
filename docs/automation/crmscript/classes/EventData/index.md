@@ -1,14 +1,14 @@
 ---
+uid: crmscript_ref_EventData
 title: EventData
-path: /EJScript/Classes/EventData
-intellisense: 1
-classref: 1
+intellisense: Void.EventData
 sortOrder: 285
-description: EventData
+title: EventData
 author:
 so.date:
 keywords:
 so.topic:
+so.topic: reference
 ---
 
 # EventData

@@ -1,15 +1,22 @@
+﻿---
+uid: crmscript_ref_NSWindowPosSize_GetState
+title: ShowWindowState GetState()
+intellisense: NSWindowPosSize.GetState
+keywords: NSWindowPosSize, GetState
+so.topic: reference
 ---
-title: Integer GetState()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetState()
-intellisense: 1
-classref: 1
-keywords: GetState()
----
-
 
 Normal = 0, Maximized = 1, Minimized = 2
 
+**Returns:** ShowWindowState
 
+     - Enum: 0 = Normal 
+     - Enum: 1 = Maximized 
+     - Enum: 2 = Minimized 
 
-* **Returns:** Integer
+```crmscript
+NSWindowPosSize thing;
+ShowWindowState state  = thing.GetState();
+```
+
 

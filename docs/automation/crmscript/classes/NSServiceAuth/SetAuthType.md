@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSServiceAuth_SetAuthType
+title: SetAuthType(String authType)
+intellisense: NSServiceAuth.SetAuthType
+keywords: NSServiceAuth, GetAuthType
+so.topic: reference
 ---
-title: Void SetAuthType(String AuthType)
-path: /EJScript/Classes/NSServiceAuth/Member functions/Void SetAuthType(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetAuthType(String)
----
-
 
 The type of authentication, plain-text, OAuth...
 
+**Parameter:** 
+ - **authType** String
 
-
-* **AuthType:** String
-* **Returns:** String
-
+```crmscript
+NSServiceAuth thing;
+String authType;
+thing.SetAuthType(authType);
+```
 

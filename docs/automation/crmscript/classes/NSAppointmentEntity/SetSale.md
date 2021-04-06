@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetSale
+title: SetSale(Sale sale)
+intellisense: NSAppointmentEntity.SetSale
+keywords: NSAppointmentEntity, GetSale
+so.topic: reference
 ---
-title: Void SetSale(NSSale Sale)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetSale(NSSale p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1029
-keywords: SetSale(NSSale)
----
-
 
 An appointment may also be connected to a sale, so you see the appointment on the company card, on the project card and on the sale card. This does not mean however that a sale is required.
 
+**Parameter:** 
+ - **sale** Sale
 
-
-* **Sale:** Sale
-* **Returns:** Sale
-
+```crmscript
+NSAppointmentEntity thing;
+Sale sale;
+thing.SetSale(sale);
+```
 

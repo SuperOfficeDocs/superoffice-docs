@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSLicenseAgent_GetSatelliteLicenses
+title: LicenseOwnerArray GetSatelliteLicenses(Integer satelliteId)
+intellisense: NSLicenseAgent.GetSatelliteLicenses
+keywords: NSLicenseAgent, GetSatelliteLicenses
+so.topic: reference
 ---
-title: NSLicenseOwner[] GetSatelliteLicenses(Integer satelliteId)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseOwner[] GetSatelliteLicenses(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSatelliteLicenses(Integer)
----
-
 
 Obtain information about satellite module licenses
 
+**Parameters:**
+ - **satelliteId** Satellite id to check for satellite module licenses
 
+**Returns:** Satellite module licenses grouped by owners.
 
-* **satelliteId:** Satellite id to check for satellite module licenses
-* **Returns:** Satellite module licenses grouped by owners.
-
+```crmscript
+NSLicenseAgent agent;
+Integer satelliteId;
+LicenseOwnerArray res = agent.GetSatelliteLicenses(satelliteId);
+```
 

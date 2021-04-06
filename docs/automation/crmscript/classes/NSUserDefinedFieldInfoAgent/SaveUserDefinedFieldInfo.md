@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
+title: NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo userDefinedFieldInfo);
+intellisense: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
+keywords: NSUserDefinedFieldInfoAgent, SaveUserDefinedFieldInfo
+so.topic: reference
 ---
-title: NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo userDefinedFieldInfo)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo p_0)
-intellisense: 1
-classref: 1
-keywords: SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
----
+	  
+Updates the existing NSUserDefinedFieldInfo or creates a new NSUserDefinedFieldInfo if the id parameter is 0
+	  
+**Parameters**:
+ - **userDefinedFieldInfo** The NSUserDefinedFieldInfo to save.
 
+**Returns:** New or updated NSUserDefinedFieldInfo
 
-Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is empty
-
-
-
-* **userDefinedFieldInfo:** The UserDefinedFieldInfo that is saved
-* **Returns:** New or updated UserDefinedFieldInfo
-
+```crmscript
+NSUserDefinedFieldInfo  agent;
+NSUserDefinedFieldInfo thing = agent.CreateDefaultUserDefinedFieldInfo();
+thing = agent.SaveUserDefinedFieldInfo(thing);
+```
 

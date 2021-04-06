@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoShortText
 title: NSFieldInfoShortText
-path: /EJScript/Classes/NSFieldInfoShortText
-intellisense: 1
-classref: 1
-sortOrder: 3545
+intellisense: Void.NSFieldInfoShortText
+keywords: NSFieldInfoShortText
+so.topic: reference
 ---
-
 
 Short text string custom database field.
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_GetRole
+title: Role GetRole()
+intellisense: NSUser.GetRole
+keywords: NSUser, GetRole
+so.topic: reference
 ---
-title: NSRole GetRole()
-path: /EJScript/Classes/NSUser/Member functions/NSRole GetRole()
-intellisense: 1
-classref: 1
-keywords: GetRole()
----
-
 
 Users role for role-based security. Determines permissions and access rights for the user.
 
+**Returns:** Role
 
 
-* **Returns:** Role
+```crmscript
+NSUser thing;
+Role role  = thing.GetRole();
+```
 
 

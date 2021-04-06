@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactSummary_SetContact
+title: SetContact(Contact contact)
+intellisense: NSContactSummary.SetContact
+keywords: NSContactSummary, GetContact
+so.topic: reference
 ---
-title: Void SetContact(NSContact Contact)
-path: /EJScript/Classes/NSContactSummary/Member functions/Void SetContact(NSContact p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1989
-keywords: SetContact(NSContact)
----
-
 
 Simple Contact data.
 
+**Parameter:** 
+ - **contact** Contact
 
-
-* **Contact:** Contact
-* **Returns:** Contact
-
+```crmscript
+NSContactSummary thing;
+Contact contact;
+thing.SetContact(contact);
+```
 

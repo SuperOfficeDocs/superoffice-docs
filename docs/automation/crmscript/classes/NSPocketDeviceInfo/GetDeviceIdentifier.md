@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketDeviceInfo_GetDeviceIdentifier
 title: String GetDeviceIdentifier()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetDeviceIdentifier()
-intellisense: 1
-classref: 1
-keywords: GetDeviceIdentifier()
+intellisense: NSPocketDeviceInfo.GetDeviceIdentifier
+keywords: NSPocketDeviceInfo, GetDeviceIdentifier
+so.topic: reference
 ---
-
 
 A unique identifier of this device. This value should always be the same for the same device
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPocketDeviceInfo thing;
+String deviceIdentifier  = thing.GetDeviceIdentifier();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncConnectorEntity_GetURL
 title: String GetURL()
-path: /EJScript/Classes/NSErpSyncConnectorEntity/Member functions/String GetURL()
-intellisense: 1
-classref: 1
-sortOrder: 3244
-keywords: GetURL()
+intellisense: NSErpSyncConnectorEntity.GetURL
+keywords: NSErpSyncConnectorEntity, GetURL
+so.topic: reference
 ---
-
 
 The URL where the connector is located and can be called
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpSyncConnectorEntity thing;
+String uRL  = thing.GetURL();
+```
 
 

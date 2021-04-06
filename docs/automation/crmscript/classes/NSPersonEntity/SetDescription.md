@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetDescription
+title: SetDescription(String description)
+intellisense: NSPersonEntity.SetDescription
+keywords: NSPersonEntity, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSPersonEntity thing;
+String description;
+thing.SetDescription(description);
+```
 

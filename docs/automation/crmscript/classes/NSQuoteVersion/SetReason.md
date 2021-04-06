@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetReason
+title: SetReason(String reason)
+intellisense: NSQuoteVersion.SetReason
+keywords: NSQuoteVersion, GetReason
+so.topic: reference
 ---
-title: Void SetReason(String Reason)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetReason(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetReason(String)
----
-
 
 If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.
 
+**Parameter:** 
+ - **reason** String
 
-
-* **Reason:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersion thing;
+String reason;
+thing.SetReason(reason);
+```
 

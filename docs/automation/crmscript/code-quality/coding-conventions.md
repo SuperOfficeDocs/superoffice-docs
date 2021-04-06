@@ -1,6 +1,6 @@
 ---
-title: crmscript_conventions
-description: CRMScript coding conventions
+uid: crmscript_conventions
+title: CRMScript coding conventions
 author:
 so.date:
 keywords:

@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_AuthenticateOutgoing
+title: Bool AuthenticateOutgoing(EMailConnectionInfo connectionInfo)
+intellisense: NSEMailAgent.AuthenticateOutgoing
+keywords: NSEMailAgent, AuthenticateOutgoing
+so.topic: reference
 ---
-title: Bool AuthenticateOutgoing(NSEMailConnectionInfo connectionInfo)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Bool AuthenticateOutgoing(NSEMailConnectionInfo p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2784
-keywords: AuthenticateOutgoing(NSEMailConnectionInfo)
----
-
 
 Authenticate against a mail server to send items with
 
+**Parameters:**
+ - **connectionInfo** All information needed to connect to the mailserver
 
+**Returns:** True if authentication was succcesfull
 
-* **connectionInfo:** All information needed to connect to the mailserver
-* **Returns:** True if authentication was succcesfull
-
+```crmscript
+NSEMailAgent agent;
+EMailConnectionInfo connectionInfo;
+Bool res = agent.AuthenticateOutgoing(connectionInfo);
+```
 

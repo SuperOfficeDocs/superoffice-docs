@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetTextId
 title: Integer GetTextId()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetTextId()
-intellisense: 1
-classref: 1
-keywords: GetTextId()
+intellisense: NSSelectionEntity.GetTextId
+keywords: NSSelectionEntity, GetTextId
+so.topic: reference
 ---
-
 
 Description text record id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectionEntity thing;
+Integer textId  = thing.GetTextId();
+```
 
 

@@ -1,13 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetPublishFrom
 title: DateTime GetPublishFrom()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/DateTime GetPublishFrom()
-intellisense: 1
-classref: 1
-sortOrder: 2555
-keywords: GetPublishFrom()
+intellisense: NSDocumentEntity.GetPublishFrom
+keywords: NSDocumentEntity, GetPublishFrom
+so.topic: reference
 ---
 
+Publish from date on DocumentEntity.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime.
 

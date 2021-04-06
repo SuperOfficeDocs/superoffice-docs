@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetInAssortment
 title: Bool GetInAssortment()
-path: /EJScript/Classes/NSProduct/Member functions/Bool GetInAssortment()
-intellisense: 1
-classref: 1
-keywords: GetInAssortment()
+intellisense: NSProduct.GetInAssortment
+keywords: NSProduct, GetInAssortment
+so.topic: reference
 ---
-
 
 True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSProduct thing;
+Bool inAssortment  = thing.GetInAssortment();
+```
 
 

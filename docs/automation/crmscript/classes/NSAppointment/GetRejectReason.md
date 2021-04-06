@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetRejectReason
 title: String GetRejectReason()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetRejectReason()
-intellisense: 1
-classref: 1
-sortOrder: 763
-keywords: GetRejectReason()
+intellisense: NSAppointment.GetRejectReason
+keywords: NSAppointment, GetRejectReason
+so.topic: reference
 ---
-
 
 Why was this booking or assignment rejected, the RejectReason list is a source of suggestions but you can write anything here
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointment thing;
+String rejectReason  = thing.GetRejectReason();
+```
 
 

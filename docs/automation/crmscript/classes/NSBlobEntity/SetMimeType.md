@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBlobEntity_SetMimeType
+title: SetMimeType(String mimeType)
+intellisense: NSBlobEntity.SetMimeType
+keywords: NSBlobEntity, GetMimeType
+so.topic: reference
 ---
-title: Void SetMimeType(String MimeType)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetMimeType(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1462
-keywords: SetMimeType(String)
----
-
 
 Mime type, describing the technical type (image/jpeg) of the data
 
+**Parameter:** 
+ - **mimeType** String
 
-
-* **MimeType:** String
-* **Returns:** String
-
+```crmscript
+NSBlobEntity thing;
+String mimeType;
+thing.SetMimeType(mimeType);
+```
 

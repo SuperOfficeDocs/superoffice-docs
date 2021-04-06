@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteEntity_SetPoNumber
+title: SetPoNumber(String poNumber)
+intellisense: NSQuoteEntity.SetPoNumber
+keywords: NSQuoteEntity, GetPoNumber
+so.topic: reference
 ---
-title: Void SetPoNumber(String PoNumber)
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Void SetPoNumber(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPoNumber(String)
----
-
 
 Customer's Purchase order number
 
+**Parameter:** 
+ - **poNumber** String
 
-
-* **PoNumber:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteEntity thing;
+String poNumber;
+thing.SetPoNumber(poNumber);
+```
 

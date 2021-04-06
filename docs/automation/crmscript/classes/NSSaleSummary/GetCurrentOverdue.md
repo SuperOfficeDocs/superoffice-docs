@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetCurrentOverdue
 title: Integer GetCurrentOverdue()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Integer GetCurrentOverdue()
-intellisense: 1
-classref: 1
-keywords: GetCurrentOverdue()
+intellisense: NSSaleSummary.GetCurrentOverdue
+keywords: NSSaleSummary, GetCurrentOverdue
+so.topic: reference
 ---
-
 
 Number of all overdue sales within the period
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleSummary thing;
+Integer currentOverdue  = thing.GetCurrentOverdue();
+```
 
 

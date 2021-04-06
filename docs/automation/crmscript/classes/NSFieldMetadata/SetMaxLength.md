@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldMetadata_SetMaxLength
+title: SetMaxLength(Integer maxLength)
+intellisense: NSFieldMetadata.SetMaxLength
+keywords: NSFieldMetadata, GetMaxLength
+so.topic: reference
 ---
-title: Void SetMaxLength(Integer MaxLength)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetMaxLength(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3592
-keywords: SetMaxLength(Integer)
----
-
 
 Maximum length for strings, if set. 0 means no restriction. (Though sooner or later something will no doubt overflow if you pile on the gigabytes.)
 
+**Parameter:** 
+ - **maxLength** Integer
 
-
-* **MaxLength:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFieldMetadata thing;
+Integer maxLength;
+thing.SetMaxLength(maxLength);
+```
 

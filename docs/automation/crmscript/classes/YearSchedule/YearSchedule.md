@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_YearSchedule
 title: YearSchedule
-path: /EJScript/Classes/YearSchedule
-intellisense: 1
-classref: 1
+intellisense: Void.YearSchedule
+so.topic: reference
 ---
 
 This class is used to represent a year schedule. A year can be composed of several WeekSchedules.

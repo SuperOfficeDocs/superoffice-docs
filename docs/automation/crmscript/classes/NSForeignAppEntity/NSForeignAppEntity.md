@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSForeignAppEntity
 title: NSForeignAppEntity
-path: /EJScript/Classes/NSForeignAppEntity
-intellisense: 1
-classref: 1
-sortOrder: 3696
+intellisense: Void.NSForeignAppEntity
+keywords: NSForeignAppEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

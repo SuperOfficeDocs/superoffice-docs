@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStageEntity
 title: NSSaleStageEntity
-path: /EJScript/Classes/NSSaleStageEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSSaleStageEntity
+keywords: NSSaleStageEntity
+so.topic: reference
 ---
-
 
 This entity represents a sale stage with a default percentage rating.
 
-
-
-
-1. autolist
+1. autolist 
 

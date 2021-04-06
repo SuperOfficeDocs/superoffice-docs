@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnectionListMapping_GetErpActorTypeName
 title: String GetErpActorTypeName()
-path: /EJScript/Classes/NSErpConnectionListMapping/Member functions/String GetErpActorTypeName()
-intellisense: 1
-classref: 1
-sortOrder: 3127
-keywords: GetErpActorTypeName()
+intellisense: NSErpConnectionListMapping.GetErpActorTypeName
+keywords: NSErpConnectionListMapping, GetErpActorTypeName
+so.topic: reference
 ---
-
 
 The actorType belonging to the ListMapping
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpConnectionListMapping thing;
+String erpActorTypeName  = thing.GetErpActorTypeName();
+```
 
 

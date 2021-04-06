@@ -1,6 +1,6 @@
 ---
-title: crmscript_text
-description: Text
+uid: crmscript_text
+title: Text
 author:
 so.date:
 keywords:

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetConnectorCapabilities
+title: StringArray GetConnectorCapabilities(Integer quoteConnectionId)
+intellisense: NSQuoteAgent.GetConnectorCapabilities
+keywords: NSQuoteAgent, GetConnectorCapabilities
+so.topic: reference
 ---
-title: String[] GetConnectorCapabilities(Integer quoteConnectionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/String[] GetConnectorCapabilities(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetConnectorCapabilities(Integer)
----
-
 
 Gets a list of connector capabilities
 
+**Parameters:**
+ - **quoteConnectionId** Primary key of the connection
 
+**Returns:** Capabilities
 
-* **quoteConnectionId:** Primary key of the connection
-* **Returns:** Capabilities
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteConnectionId;
+StringArray res = agent.GetConnectorCapabilities(quoteConnectionId);
+```
 

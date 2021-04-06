@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity
 title: NSPersonEntity
-path: /EJScript/Classes/NSPersonEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSPersonEntity
+keywords: NSPersonEntity
+so.topic: reference
 ---
-
 
 The Person Service. The service implements all services working with the Person object.
 
-
-
-
-1. autolist
+1. autolist 
 

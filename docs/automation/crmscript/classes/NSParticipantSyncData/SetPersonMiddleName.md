@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetPersonMiddleName
+title: SetPersonMiddleName(String personMiddleName)
+intellisense: NSParticipantSyncData.SetPersonMiddleName
+keywords: NSParticipantSyncData, GetPersonMiddleName
+so.topic: reference
 ---
-title: Void SetPersonMiddleName(String PersonMiddleName)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPersonMiddleName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonMiddleName(String)
----
-
 
 Middle name or 'van' etc.
 
+**Parameter:** 
+ - **personMiddleName** String
 
-
-* **PersonMiddleName:** String
-* **Returns:** String
-
+```crmscript
+NSParticipantSyncData thing;
+String personMiddleName;
+thing.SetPersonMiddleName(personMiddleName);
+```
 

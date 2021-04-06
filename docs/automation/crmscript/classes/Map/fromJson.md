@@ -1,10 +1,10 @@
 ---
-title: Void fromJson(String pJson)
-path: /EJScript/Classes/Map/Member functions/Void fromJson(String pJson)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Map_fromJson_String_pJson
+title: Map.fromJson(String pJson)
+intellisense: Map.fromJson
 sortOrder: 535
 keywords: fromJson(String)
+so.topic: reference
 ---
 
 

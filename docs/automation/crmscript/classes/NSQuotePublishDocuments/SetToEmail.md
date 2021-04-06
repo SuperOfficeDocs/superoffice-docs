@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_SetToEmail
+title: SetToEmail(String toEmail)
+intellisense: NSQuotePublishDocuments.SetToEmail
+keywords: NSQuotePublishDocuments, GetToEmail
+so.topic: reference
 ---
-title: Void SetToEmail(String ToEmail)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetToEmail(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetToEmail(String)
----
-
 
 The email address of the recipient, taken from the sale's person
 
+**Parameter:** 
+ - **toEmail** String
 
-
-* **ToEmail:** String
-* **Returns:** String
-
+```crmscript
+NSQuotePublishDocuments thing;
+String toEmail;
+thing.SetToEmail(toEmail);
+```
 

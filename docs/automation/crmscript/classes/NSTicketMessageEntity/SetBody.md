@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetBody
+title: SetBody(String body)
+intellisense: NSTicketMessageEntity.SetBody
+keywords: NSTicketMessageEntity, GetBody
+so.topic: reference
 ---
-title: Void SetBody(String Body)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetBody(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetBody(String)
----
-
 
 The textbody for the message.
 
+**Parameter:** 
+ - **body** String
 
-
-* **Body:** String
-* **Returns:** String
-
+```crmscript
+NSTicketMessageEntity thing;
+String body;
+thing.SetBody(body);
+```
 

@@ -1,25 +1,29 @@
----
-title: Integer GetArchivedState()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetArchivedState()
-intellisense: 1
-classref: 1
-keywords: GetArchivedState()
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetArchivedState
+title: QuoteVersionState GetArchivedState()
+intellisense: NSQuoteVersion.GetArchivedState
+keywords: NSQuoteVersion, GetArchivedState
+so.topic: reference
 ---
 
 State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.
 
-* Unknown=0
-* Draft=1
-* DraftNotCalculated=2
-* DraftNeedsApproval=3
-* DraftApproved=4
-* DraftNotApproved=5
-* Sent=6
-* Archived=7
-* Lost=8
-* Sold=9
+**Returns:** QuoteVersionState
 
-* **Returns:** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Draft 
+     - Enum: 2 = DraftNotCalculated 
+     - Enum: 3 = DraftNeedsApproval 
+     - Enum: 4 = DraftApproved 
+     - Enum: 5 = DraftNotApproved 
+     - Enum: 6 = Sent 
+     - Enum: 7 = Archived 
+     - Enum: 8 = Lost 
+     - Enum: 9 = Sold 
 
+```crmscript
+NSQuoteVersion thing;
+QuoteVersionState archivedState  = thing.GetArchivedState();
+```
 
 

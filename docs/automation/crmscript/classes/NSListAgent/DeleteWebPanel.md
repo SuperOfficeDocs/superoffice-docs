@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_DeleteWebPanel
 title: Void DeleteWebPanel(Integer id)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteWebPanel(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteWebPanel(Integer)
+intellisense: NSListAgent.DeleteWebPanel
+keywords: NSListAgent, DeleteWebPanel
+so.topic: reference
 ---
-
 
 Hard-delete (real, permanent DELETE in the database) the given web panel. Use with care!
 
+**Parameters:**
+ - **id** Database id of web panel to delete
 
+**Returns:** This method has no return value
 
-* **id:** Database id of web panel to delete
-* **Returns:** This method has no return value
-
+```crmscript
+NSListAgent agent;
+Integer id;
+Void res = agent.DeleteWebPanel(id);
+```
 

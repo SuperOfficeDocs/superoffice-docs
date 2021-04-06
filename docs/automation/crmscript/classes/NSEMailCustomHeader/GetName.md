@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailCustomHeader_GetName
 title: String GetName()
-path: /EJScript/Classes/NSEMailCustomHeader/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 2938
-keywords: GetName()
+intellisense: NSEMailCustomHeader.GetName
+keywords: NSEMailCustomHeader, GetName
+so.topic: reference
 ---
-
 
 Name of header
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailCustomHeader thing;
+String name  = thing.GetName();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetEmailHeader
+title: SetEmailHeader(String emailHeader)
+intellisense: NSTicketMessageEntity.SetEmailHeader
+keywords: NSTicketMessageEntity, GetEmailHeader
+so.topic: reference
 ---
-title: Void SetEmailHeader(String EmailHeader)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetEmailHeader(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetEmailHeader(String)
----
-
 
 The email header is saved in this field as raw text
 
+**Parameter:** 
+ - **emailHeader** String
 
-
-* **EmailHeader:** String
-* **Returns:** String
-
+```crmscript
+NSTicketMessageEntity thing;
+String emailHeader;
+thing.SetEmailHeader(emailHeader);
+```
 

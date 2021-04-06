@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetConfig
 title: String GetConfig()
-path: /EJScript/Classes/NSDashboardTile/Member functions/String GetConfig()
-intellisense: 1
-classref: 1
-sortOrder: 2299
-keywords: GetConfig()
+intellisense: NSDashboardTile.GetConfig
+keywords: NSDashboardTile, GetConfig
+so.topic: reference
 ---
-
 
 The tile config
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDashboardTile thing;
+String config  = thing.GetConfig();
+```
 
 

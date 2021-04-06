@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSScript_SetPath
+title: SetPath(String path)
+intellisense: NSScript.SetPath
+keywords: NSScript, GetPath
+so.topic: reference
 ---
-title: Void SetPath(String Path)
-path: /EJScript/Classes/NSScript/Member functions/Void SetPath(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPath(String)
----
-
 
 Path to script in the hierarchy.
 
+**Parameter:** 
+ - **path** String
 
-
-* **Path:** String
-* **Returns:** String
-
+```crmscript
+NSScript thing;
+String path;
+thing.SetPath(path);
+```
 

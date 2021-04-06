@@ -1,10 +1,10 @@
 ---
-title: DateTime addSec(Integer num)
-path: /EJScript/Classes/DateTime/Member functions/DateTime addSec(Integer num)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DateTime_addSec_Integer_num
+title: DateTime.addSec(Integer num)
+intellisense: DateTime.addSec
 sortOrder: 214
 keywords: addSec(Integer)
+so.topic: reference
 ---
 
 Adds num seconds to the time and returns the datetime.

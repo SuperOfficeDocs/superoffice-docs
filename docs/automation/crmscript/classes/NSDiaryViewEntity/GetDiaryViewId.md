@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_GetDiaryViewId
 title: Integer GetDiaryViewId()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Integer GetDiaryViewId()
-intellisense: 1
-classref: 1
-sortOrder: 2406
-keywords: GetDiaryViewId()
+intellisense: NSDiaryViewEntity.GetDiaryViewId
+keywords: NSDiaryViewEntity, GetDiaryViewId
+so.topic: reference
 ---
-
 
 Id of the DiaryView
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDiaryViewEntity thing;
+Integer diaryViewId  = thing.GetDiaryViewId();
+```
 
 

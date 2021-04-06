@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetActiveErpLinks
+title: SetActiveErpLinks(Integer activeErpLinks)
+intellisense: NSProjectEntity.SetActiveErpLinks
+keywords: NSProjectEntity, GetActiveErpLinks
+so.topic: reference
 ---
-title: Void SetActiveErpLinks(Integer ActiveErpLinks)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetActiveErpLinks(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetActiveErpLinks(Integer)
----
-
 
 The number of active erp links
 
+**Parameter:** 
+ - **activeErpLinks** Integer
 
-
-* **ActiveErpLinks:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectEntity thing;
+Integer activeErpLinks;
+thing.SetActiveErpLinks(activeErpLinks);
+```
 

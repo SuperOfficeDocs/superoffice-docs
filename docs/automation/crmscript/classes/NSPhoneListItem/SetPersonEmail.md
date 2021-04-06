@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPhoneListItem_SetPersonEmail
+title: SetPersonEmail(String personEmail)
+intellisense: NSPhoneListItem.SetPersonEmail
+keywords: NSPhoneListItem, GetPersonEmail
+so.topic: reference
 ---
-title: Void SetPersonEmail(String PersonEmail)
-path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetPersonEmail(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonEmail(String)
----
-
 
 The address itself
 
+**Parameter:** 
+ - **personEmail** String
 
-
-* **PersonEmail:** String
-* **Returns:** String
-
+```crmscript
+NSPhoneListItem thing;
+String personEmail;
+thing.SetPersonEmail(personEmail);
+```
 

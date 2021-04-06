@@ -1,10 +1,10 @@
 ---
-title: String getValue()
-path: /EJScript/Classes/LocalizedField/Member functions/String getValue()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_LocalizedField_getValue
+title: LocalizedField.getValue()
+intellisense: LocalizedField.getValue
 sortOrder: 471
 keywords: getValue()
+so.topic: reference
 ---
 
 

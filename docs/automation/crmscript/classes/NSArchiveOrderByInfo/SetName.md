@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveOrderByInfo_SetName
+title: SetName(String name)
+intellisense: NSArchiveOrderByInfo.SetName
+keywords: NSArchiveOrderByInfo, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSArchiveOrderByInfo/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1199
-keywords: SetName(String)
----
-
 
 Programmatic name of the column to order by, semantically the same as the ArchiveColumnInfo.Name.
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSArchiveOrderByInfo thing;
+String name;
+thing.SetName(name);
+```
 

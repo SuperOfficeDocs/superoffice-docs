@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailCustomHeader_SetName
+title: SetName(String name)
+intellisense: NSEMailCustomHeader.SetName
+keywords: NSEMailCustomHeader, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSEMailCustomHeader/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2940
-keywords: SetName(String)
----
-
 
 Name of header
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSEMailCustomHeader thing;
+String name;
+thing.SetName(name);
+```
 

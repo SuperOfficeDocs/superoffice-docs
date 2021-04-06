@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetDescription
+title: SetDescription(String description)
+intellisense: NSProduct.SetDescription
+keywords: NSProduct, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 The description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too.
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSProduct thing;
+String description;
+thing.SetDescription(description);
+```
 

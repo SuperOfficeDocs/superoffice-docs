@@ -1,6 +1,6 @@
 ---
-title: crmscript_request_samples
-description: Samples
+uid: crmscript_request_samples
+title: Samples
 author:
 so.date:
 keywords:

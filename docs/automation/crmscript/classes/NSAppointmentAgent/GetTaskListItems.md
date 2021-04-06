@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_GetTaskListItems
+title: TaskListItemArray GetTaskListItems(Bool includeDeleted)
+intellisense: NSAppointmentAgent.GetTaskListItems
+keywords: NSAppointmentAgent, GetTaskListItems
+so.topic: reference
 ---
-title: NSTaskListItem[] GetTaskListItems(Bool includeDeleted)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSTaskListItem[] GetTaskListItems(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 905
-keywords: GetTaskListItems(Bool)
----
-
 
 Gets all takslist items
 
+**Parameters:**
+ - **includeDeleted** Include deleted items
 
+**Returns:** An array of tasklist items
 
-* **includeDeleted:** Include deleted items
-* **Returns:** An array of tasklist items
-
+```crmscript
+NSAppointmentAgent agent;
+Bool includeDeleted;
+TaskListItemArray res = agent.GetTaskListItems(includeDeleted);
+```
 

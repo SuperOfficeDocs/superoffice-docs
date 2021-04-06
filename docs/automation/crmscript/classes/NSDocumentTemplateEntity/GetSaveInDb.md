@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetSaveInDb
 title: Integer GetSaveInDb()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetSaveInDb()
-intellisense: 1
-classref: 1
-sortOrder: 2664
-keywords: GetSaveInDb()
+intellisense: NSDocumentTemplateEntity.GetSaveInDb
+keywords: NSDocumentTemplateEntity, GetSaveInDb
+so.topic: reference
 ---
-
 
 1 = save document records in DB; otherwise not.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer saveInDb  = thing.GetSaveInDb();
+```
 
 

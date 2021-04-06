@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetTimeSpentQueue
 title: Integer GetTimeSpentQueue()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetTimeSpentQueue()
-intellisense: 1
-classref: 1
-keywords: GetTimeSpentQueue()
+intellisense: NSTicket.GetTimeSpentQueue
+keywords: NSTicket, GetTimeSpentQueue
+so.topic: reference
 ---
-
 
 The total time (seconds) within the priority's office hours the ticket has been in a queue status, not including current state
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicket thing;
+Integer timeSpentQueue  = thing.GetTimeSpentQueue();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 2662
-keywords: GetRank()
+intellisense: NSDocumentTemplateEntity.GetRank
+keywords: NSDocumentTemplateEntity, GetRank
+so.topic: reference
 ---
-
 
 Rank order
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

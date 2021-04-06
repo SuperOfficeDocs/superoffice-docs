@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetEarningAmount
+title: SetEarningAmount(Float earningAmount)
+intellisense: NSQuoteLine.SetEarningAmount
+keywords: NSQuoteLine, GetEarningAmount
+so.topic: reference
 ---
-title: Void SetEarningAmount(Float EarningAmount)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetEarningAmount(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetEarningAmount(Float)
----
-
 
 The earning, in whatever currency the sale is in. Both ‘EarningAmount and ‘EarningPercent shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last.
 
+**Parameter:** 
+ - **earningAmount** Float
 
-
-* **EarningAmount:** Float
-* **Returns:** Float
-
+```crmscript
+NSQuoteLine thing;
+Float earningAmount;
+thing.SetEarningAmount(earningAmount);
+```
 

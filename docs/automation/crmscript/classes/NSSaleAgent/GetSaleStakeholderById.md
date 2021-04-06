@@ -1,12 +1,12 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_GetSaleStakeholderById
+title: SaleStakeholderArray GetSaleStakeholderById(IntegerArray saleStakeholderIds)
+intellisense: NSSaleAgent.GetSaleStakeholderById
+keywords: NSSaleAgent, GetSaleStakeholderById
+so.topic: reference
 ---
-title: NSSaleStakeholder[] GetSaleStakeholderById(Integer[] p0)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleStakeholder[] GetSaleStakeholderById(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetSaleStakeholderById(Integer[])
----
 
 
-* **saleStakeholderIds**
 
-
+**Parameters:**
+ - **saleStakeholderIds** 

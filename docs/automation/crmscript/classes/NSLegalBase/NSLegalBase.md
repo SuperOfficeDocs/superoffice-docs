@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSLegalBase
 title: NSLegalBase
-path: /EJScript/Classes/NSLegalBase
-intellisense: 1
-classref: 1
+intellisense: Void.NSLegalBase
+keywords: NSLegalBase
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

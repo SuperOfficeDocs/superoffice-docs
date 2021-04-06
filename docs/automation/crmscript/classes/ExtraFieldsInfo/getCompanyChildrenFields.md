@@ -1,10 +1,10 @@
 ---
-title: Void getCompanyChildrenFields()
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/Void getCompanyChildrenFields()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ExtraFieldsInfo_getCompanyChildrenFields
+title: ExtraFieldsInfo.getCompanyChildrenFields()
+intellisense: ExtraFieldsInfo.getCompanyChildrenFields
 sortOrder: 311
 keywords: getCompanyChildrenFields()
+so.topic: reference
 ---
 
 This is a helper function for getting company relation fields. It is equivalent to calling getChildrenFields(17, 0)

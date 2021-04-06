@@ -1,9 +1,9 @@
 ---
 description: String getProgramCustomer()
-path: /EJScript/Global functions/String getProgramCustomer()
-intellisense: 1
+intellisense: Void.getProgramCustomer
 langref: 1
 keywords: getProgramCustomer()
+so.topic: reference
 ---
 
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSatellite_SetArea
+title: SetArea(Area area)
+intellisense: NSSatellite.SetArea
+keywords: NSSatellite, GetArea
+so.topic: reference
 ---
-title: Void SetArea(NSArea Area)
-path: /EJScript/Classes/NSSatellite/Member functions/Void SetArea(NSArea p_0)
-intellisense: 1
-classref: 1
-keywords: SetArea(NSArea)
----
 
 
-* **Area:** Area
-* **Returns:** Area
 
+**Parameter:** 
+ - **area** Area
+
+```crmscript
+NSSatellite thing;
+Area area;
+thing.SetArea(area);
+```
 

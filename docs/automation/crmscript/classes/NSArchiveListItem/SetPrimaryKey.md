@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveListItem_SetPrimaryKey
+title: SetPrimaryKey(Integer primaryKey)
+intellisense: NSArchiveListItem.SetPrimaryKey
+keywords: NSArchiveListItem, GetPrimaryKey
+so.topic: reference
 ---
-title: Void SetPrimaryKey(Integer PrimaryKey)
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Void SetPrimaryKey(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1186
-keywords: SetPrimaryKey(Integer)
----
-
 
 The  primary key for the row
 
+**Parameter:** 
+ - **primaryKey** Integer
 
-
-* **PrimaryKey:** Integer
-* **Returns:** Void
-
+```crmscript
+NSArchiveListItem thing;
+Integer primaryKey;
+thing.SetPrimaryKey(primaryKey);
+```
 

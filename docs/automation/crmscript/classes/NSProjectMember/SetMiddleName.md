@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetMiddleName
+title: SetMiddleName(String middleName)
+intellisense: NSProjectMember.SetMiddleName
+keywords: NSProjectMember, GetMiddleName
+so.topic: reference
 ---
-title: Void SetMiddleName(String MiddleName)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetMiddleName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetMiddleName(String)
----
-
 
 Middle name or 'van' etc.
 
+**Parameter:** 
+ - **middleName** String
 
-
-* **MiddleName:** String
-* **Returns:** String
-
+```crmscript
+NSProjectMember thing;
+String middleName;
+thing.SetMiddleName(middleName);
+```
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetIsVisibleForMembers
+title: SetIsVisibleForMembers(Bool isVisibleForMembers)
+intellisense: NSProjectEventEntity.SetIsVisibleForMembers
+keywords: NSProjectEventEntity, GetIsVisibleForMembers
+so.topic: reference
 ---
-title: Void SetIsVisibleForMembers(Bool IsVisibleForMembers)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetIsVisibleForMembers(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsVisibleForMembers(Bool)
----
 
 
-* **IsVisibleForMembers:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isVisibleForMembers** Bool
+
+```crmscript
+NSProjectEventEntity thing;
+Bool isVisibleForMembers;
+thing.SetIsVisibleForMembers(isVisibleForMembers);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_GetDocumentId
 title: Integer GetDocumentId()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Integer GetDocumentId()
-intellisense: 1
-classref: 1
-sortOrder: 3048
-keywords: GetDocumentId()
+intellisense: NSEMailSOInfo.GetDocumentId
+keywords: NSEMailSOInfo, GetDocumentId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailSOInfo thing;
+Integer documentId  = thing.GetDocumentId();
+```
 
 

@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_GetPrerequisiteModuleName
 title: String GetPrerequisiteModuleName()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/String GetPrerequisiteModuleName()
-intellisense: 1
-classref: 1
-keywords: GetPrerequisiteModuleName()
+intellisense: NSModuleLicenseLink.GetPrerequisiteModuleName
+keywords: NSModuleLicenseLink, GetPrerequisiteModuleName
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSModuleLicenseLink thing;
+String prerequisiteModuleName  = thing.GetPrerequisiteModuleName();
+```
 
 

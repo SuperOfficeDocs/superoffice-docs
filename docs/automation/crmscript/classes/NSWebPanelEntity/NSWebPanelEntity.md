@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity
 title: NSWebPanelEntity
-path: /EJScript/Classes/NSWebPanelEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSWebPanelEntity
+keywords: NSWebPanelEntity
+so.topic: reference
 ---
-
 
 The web panel entity contains information on a web panel
 
-
-
-
-1. autolist
+1. autolist 
 

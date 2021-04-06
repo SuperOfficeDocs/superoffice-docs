@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetDeploymentType
 title: Integer GetDeploymentType()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Integer GetDeploymentType()
-intellisense: 1
-classref: 1
-keywords: GetDeploymentType()
+intellisense: NSLicenseInfo.GetDeploymentType
+keywords: NSLicenseInfo, GetDeploymentType
+so.topic: reference
 ---
-
 
 Type of deployment
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSLicenseInfo thing;
+Integer deploymentType  = thing.GetDeploymentType();
+```
 
 

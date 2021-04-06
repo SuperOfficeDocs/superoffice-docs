@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPriority_SetId
+title: SetId(Integer id)
+intellisense: NSPriority.SetId
+keywords: NSPriority, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSPriority/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the Priority
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer Priority id.
 
+```crmscript
+NSPriority thing;
+thing.SetId(123);
+```
 

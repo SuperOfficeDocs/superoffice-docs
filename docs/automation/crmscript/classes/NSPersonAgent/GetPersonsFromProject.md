@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_GetPersonsFromProject
+title: PersonArray GetPersonsFromProject(Integer projectId)
+intellisense: NSPersonAgent.GetPersonsFromProject
+keywords: NSPersonAgent, GetPersonsFromProject
+so.topic: reference
 ---
-title: NSPerson[] GetPersonsFromProject(Integer projectId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson[] GetPersonsFromProject(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPersonsFromProject(Integer)
----
-
 
 Returns all the persons belonging to a project.
 
+**Parameters:**
+ - **projectId** The project id
 
+**Returns:** The persons belonging to a project.
 
-* **projectId:** The project id
-* **Returns:** The persons belonging to a project.
-
+```crmscript
+NSPersonAgent agent;
+Integer projectId;
+PersonArray res = agent.GetPersonsFromProject(projectId);
+```
 

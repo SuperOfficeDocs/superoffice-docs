@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebAppUsage_GetTimestamp
 title: DateTime GetTimestamp()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/DateTime GetTimestamp()
-intellisense: 1
-classref: 1
-keywords: GetTimestamp()
+intellisense: NSWebAppUsage.GetTimestamp
+keywords: NSWebAppUsage, GetTimestamp
+so.topic: reference
 ---
-
 
 Which day the usage was logged
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSWebAppUsage thing;
+DateTime timestamp  = thing.GetTimestamp();
+```
 
 

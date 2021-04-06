@@ -1,10 +1,10 @@
 ---
-title: Integer getWeek()
-path: /EJScript/Classes/DateTime/Member functions/Integer getWeek()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DateTime_getWeek
+title: DateTime.getWeek()
+intellisense: DateTime.getWeek
 sortOrder: 233
 keywords: getWeek()
+so.topic: reference
 ---
 
 Returns the iso week number, from 1 to 53.

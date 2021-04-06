@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_GetCountry
 title: String GetCountry()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetCountry()
-intellisense: 1
-classref: 1
-keywords: GetCountry()
+intellisense: NSParticipantSyncData.GetCountry
+keywords: NSParticipantSyncData, GetCountry
+so.topic: reference
 ---
-
 
 The country this contact is located in. The country a contact is saved with, affects the phone number format, and the address layout.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSParticipantSyncData thing;
+String country  = thing.GetCountry();
+```
 
 

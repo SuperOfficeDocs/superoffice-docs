@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebAppUsage_SetTimestamp
+title: SetTimestamp(DateTime timestamp)
+intellisense: NSWebAppUsage.SetTimestamp
+keywords: NSWebAppUsage, GetTimestamp
+so.topic: reference
 ---
-title: Void SetTimestamp(DateTime Timestamp)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetTimestamp(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetTimestamp(DateTime)
----
-
 
 Which day the usage was logged
 
+**Parameter:** 
+ - **timestamp** DateTime
 
-
-* **Timestamp:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSWebAppUsage thing;
+DateTime timestamp;
+thing.SetTimestamp(timestamp);
+```
 

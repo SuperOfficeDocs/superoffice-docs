@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetProjectId
+title: SetProjectId(Integer projectId)
+intellisense: NSMailMergeSettings.SetProjectId
+keywords: NSMailMergeSettings, GetProjectId
+so.topic: reference
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectId(Integer)
----
-
 
 Identity of project to use as source for recipients.
 
+**Parameter:** 
+ - **projectId** Integer
 
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMailMergeSettings thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
 

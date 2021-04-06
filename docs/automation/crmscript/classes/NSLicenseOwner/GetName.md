@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseOwner_GetName
 title: String GetName()
-path: /EJScript/Classes/NSLicenseOwner/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSLicenseOwner.GetName
+keywords: NSLicenseOwner, GetName
+so.topic: reference
 ---
-
 
 The name of the license owner
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLicenseOwner thing;
+String name  = thing.GetName();
+```
 
 

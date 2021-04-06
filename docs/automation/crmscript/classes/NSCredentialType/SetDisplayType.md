@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCredentialType_SetDisplayType
+title: SetDisplayType(String displayType)
+intellisense: NSCredentialType.SetDisplayType
+keywords: NSCredentialType, GetDisplayType
+so.topic: reference
 ---
-title: Void SetDisplayType(String DisplayType)
-path: /EJScript/Classes/NSCredentialType/Member functions/Void SetDisplayType(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2079
-keywords: SetDisplayType(String)
----
-
 
 The name of the credentials to be displayed in the user interface.  This will typically be Password for user-name/password scenarios and Active Directoru User for AD integration.
 
+**Parameter:** 
+ - **displayType** String
 
-
-* **DisplayType:** String
-* **Returns:** String
-
+```crmscript
+NSCredentialType thing;
+String displayType;
+thing.SetDisplayType(displayType);
+```
 

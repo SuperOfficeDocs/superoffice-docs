@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetSubRestrictions
+title: ArchiveRestrictionInfoArray GetSubRestrictions()
+intellisense: NSArchiveRestrictionInfo.GetSubRestrictions
+keywords: NSArchiveRestrictionInfo, GetSubRestrictions
+so.topic: reference
 ---
-title: NSArchiveRestrictionInfo[] GetSubRestrictions()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/NSArchiveRestrictionInfo[] GetSubRestrictions()
-intellisense: 1
-classref: 1
-sortOrder: 1219
-keywords: GetSubRestrictions()
----
-
 
 Optional collection of sub criteria, usually null but set for Saint counter fields
 
+**Returns:** ArchiveRestrictionInfoArray
 
 
-* **Returns:** ArchiveRestrictionInfoArray
+```crmscript
+NSArchiveRestrictionInfo thing;
+ArchiveRestrictionInfoArray subRestrictions  = thing.GetSubRestrictions();
+```
 
 

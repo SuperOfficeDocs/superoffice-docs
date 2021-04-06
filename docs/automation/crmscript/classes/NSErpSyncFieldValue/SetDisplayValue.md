@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldValue_SetDisplayValue
+title: SetDisplayValue(String displayValue)
+intellisense: NSErpSyncFieldValue.SetDisplayValue
+keywords: NSErpSyncFieldValue, GetDisplayValue
+so.topic: reference
 ---
-title: Void SetDisplayValue(String DisplayValue)
-path: /EJScript/Classes/NSErpSyncFieldValue/Member functions/Void SetDisplayValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3333
-keywords: SetDisplayValue(String)
----
 
 
-* **DisplayValue:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **displayValue** String
+
+```crmscript
+NSErpSyncFieldValue thing;
+String displayValue;
+thing.SetDisplayValue(displayValue);
+```
 

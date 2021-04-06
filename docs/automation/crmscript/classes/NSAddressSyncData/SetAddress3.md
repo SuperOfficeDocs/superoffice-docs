@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAddressSyncData_SetAddress3
+title: SetAddress3(String address3)
+intellisense: NSAddressSyncData.SetAddress3
+keywords: NSAddressSyncData, GetAddress3
+so.topic: reference
 ---
-title: Void SetAddress3(String Address3)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetAddress3(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 631
-keywords: SetAddress3(String)
----
 
 
-* **Address3:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **address3** String
+
+```crmscript
+NSAddressSyncData thing;
+String address3;
+thing.SetAddress3(address3);
+```
 

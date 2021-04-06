@@ -1,17 +1,12 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetUserFromPersonId
+title: UserArray GetUserFromPersonId(Integer personId)
+intellisense: NSUserAgent.GetUserFromPersonId
+keywords: NSUserAgent, GetUserFromPersonId
+so.topic: reference
 ---
-title: NSUser[] GetUserFromPersonId(Integer p0)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser[] GetUserFromPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetUserFromPersonId(Integer)
----
-
 
 Returns the user associated with the supplied person id
 
-
-
-* **personId
-**
-
-
+**Parameters:**
+ - **personId** 

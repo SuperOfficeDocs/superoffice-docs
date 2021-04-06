@@ -1,18 +1,26 @@
+﻿---
+uid: crmscript_ref_NSDashboard_SetLayout
+title: SetLayout(Integer layout)
+intellisense: NSDashboard.SetLayout
+keywords: NSDashboard, GetLayout
+so.topic: reference
 ---
-title: Void SetLayout(Integer Layout)
-path: /EJScript/Classes/NSDashboard/Member functions/Void SetLayout(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2268
-keywords: SetLayout(Integer)
----
-
 
 The dashboard layout, how the tiles are organized on the screen
 
+**Parameter:** 
+ - **layout** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = One 
+     - Enum: 2 = TwoVerticalSplit 
+     - Enum: 3 = ThreeESplit 
+     - Enum: 4 = TwoHorizontalSplit 
+     - Enum: 5 = ThreeTSplit 
+     - Enum: 7 = Four 
 
-
-* **Layout:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDashboard thing;
+Integer layout;
+thing.SetLayout(layout);
+```
 

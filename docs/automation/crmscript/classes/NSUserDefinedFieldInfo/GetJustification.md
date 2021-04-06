@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetJustification
+title: UdefJustification GetJustification()
+intellisense: NSUserDefinedFieldInfo.GetJustification
+keywords: NSUserDefinedFieldInfo, GetJustification
+so.topic: reference
 ---
-title: Integer GetJustification()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetJustification()
-intellisense: 1
-classref: 1
-keywords: GetJustification()
----
 
-Justification
-* Default=0
-* Left=1
-* Center=2
-* Right=3
+Justification - 0 = default, left, right, center
 
+**Returns:** UdefJustification
 
-* **Returns:** Integer
+     - Enum: 0 = Default 
+     - Enum: 1 = Left 
+     - Enum: 2 = Center 
+     - Enum: 3 = Right 
+
+```crmscript
+NSUserDefinedFieldInfo thing;
+UdefJustification justification  = thing.GetJustification();
+```
 
 

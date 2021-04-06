@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserInfo_GetCanLogon
 title: Bool GetCanLogon()
-path: /EJScript/Classes/NSUserInfo/Member functions/Bool GetCanLogon()
-intellisense: 1
-classref: 1
-keywords: GetCanLogon()
+intellisense: NSUserInfo.GetCanLogon
+keywords: NSUserInfo, GetCanLogon
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSUserInfo thing;
+Bool canLogon  = thing.GetCanLogon();
+```
 
 

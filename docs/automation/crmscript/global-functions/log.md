@@ -1,9 +1,9 @@
 ---
 description: Void log(String msg)
-path: /EJScript/Global functions/Void log(String msg)
-intellisense: 1
+intellisense: Void.log
 langref: 1
 keywords: log(String)
+so.topic: reference
 ---
 
 

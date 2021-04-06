@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAppointment_GetSequence
 title: Integer GetSequence()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Integer GetSequence()
-intellisense: 1
-classref: 1
-sortOrder: 2878
-keywords: GetSequence()
+intellisense: NSEMailAppointment.GetSequence
+keywords: NSEMailAppointment, GetSequence
+so.topic: reference
 ---
-
 
 Sequence number in ICS file.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailAppointment thing;
+Integer sequence  = thing.GetSequence();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAccount_SetAccountStatus
+title: SetAccountStatus(Integer accountStatus)
+intellisense: NSEMailAccount.SetAccountStatus
+keywords: NSEMailAccount, GetAccountStatus
+so.topic: reference
 ---
-title: Void SetAccountStatus(Integer AccountStatus)
-path: /EJScript/Classes/NSEMailAccount/Member functions/Void SetAccountStatus(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2752
-keywords: SetAccountStatus(Integer)
----
-
 
 The account status (Disabled or...) Readonly field
 
+**Parameter:** 
+ - **accountStatus** Integer
 
-
-* **AccountStatus:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailAccount thing;
+Integer accountStatus;
+thing.SetAccountStatus(accountStatus);
+```
 

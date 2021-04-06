@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_GetCurrencyId
 title: Integer GetCurrencyId()
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Integer GetCurrencyId()
-intellisense: 1
-classref: 1
-sortOrder: 2182
-keywords: GetCurrencyId()
+intellisense: NSCurrencyEntity.GetCurrencyId
+keywords: NSCurrencyEntity, GetCurrencyId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCurrencyEntity thing;
+Integer currencyId  = thing.GetCurrencyId();
+```
 
 

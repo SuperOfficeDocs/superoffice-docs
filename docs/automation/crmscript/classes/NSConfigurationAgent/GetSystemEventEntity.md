@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSConfigurationAgent_GetSystemEventEntity
+title: NSSystemEventEntity GetSystemEventEntity(Integer systemEventEntityId);
+intellisense: NSConfigurationAgent.GetSystemEventEntity
+keywords: NSConfigurationAgent, GetSystemEventEntity
+so.topic: reference
 ---
-title: NSSystemEventEntity GetSystemEventEntity(Integer systemEventEntityId)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSSystemEventEntity GetSystemEventEntity(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1594
-keywords: GetSystemEventEntity(Integer)
----
 
+Gets a NSSystemEventEntity object.
 
-Gets a SystemEventEntity object.
+**Parameters:**
+ - **systemEventEntityId** The identifier of the NSSystemEventEntity object
 
+**Returns:** NSSystemEventEntity
 
-
-* **systemEventEntityId:** The identifier of the SystemEventEntity object
-* **Returns:** SystemEventEntity
-
+```crmscript
+NSConfigurationAgent agent;
+NSSystemEventEntity thing = agent.GetSystemEventEntity(123);
+```
 

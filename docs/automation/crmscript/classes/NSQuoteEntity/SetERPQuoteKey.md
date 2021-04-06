@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteEntity_SetERPQuoteKey
+title: SetERPQuoteKey(String eRPQuoteKey)
+intellisense: NSQuoteEntity.SetERPQuoteKey
+keywords: NSQuoteEntity, GetERPQuoteKey
+so.topic: reference
 ---
-title: Void SetERPQuoteKey(String ERPQuoteKey)
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Void SetERPQuoteKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetERPQuoteKey(String)
----
-
 
 Foreign key of quote (if available). The key in the ERP system that identifies this sale's Quote (as opposed to the later Order information)
 
+**Parameter:** 
+ - **eRPQuoteKey** String
 
-
-* **ERPQuoteKey:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteEntity thing;
+String eRPQuoteKey;
+thing.SetERPQuoteKey(eRPQuoteKey);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitor_GetStatusMonitorId
 title: Integer GetStatusMonitorId()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetStatusMonitorId()
-intellisense: 1
-classref: 1
-keywords: GetStatusMonitorId()
+intellisense: NSStatusMonitor.GetStatusMonitorId
+keywords: NSStatusMonitor, GetStatusMonitorId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSStatusMonitor thing;
+Integer statusMonitorId  = thing.GetStatusMonitorId();
+```
 
 

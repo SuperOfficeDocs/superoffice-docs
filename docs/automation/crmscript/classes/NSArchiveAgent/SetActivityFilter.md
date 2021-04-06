@@ -1,17 +1,12 @@
+﻿---
+uid: crmscript_ref_NSArchiveAgent_SetActivityFilter
+title: Void SetActivityFilter(ActivityFilter activityFilter)
+intellisense: NSArchiveAgent.SetActivityFilter
+keywords: NSArchiveAgent, SetActivityFilter
+so.topic: reference
 ---
-title: Void SetActivityFilter(NSActivityFilter activityFilter)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/Void SetActivityFilter(NSActivityFilter p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1120
-keywords: SetActivityFilter(NSActivityFilter)
----
-
 
 Set activity filter for the specified list.
 
-
-
-* **activityFilter:** New activity filter
-
-
+**Parameters:**
+ - **activityFilter** New activity filter

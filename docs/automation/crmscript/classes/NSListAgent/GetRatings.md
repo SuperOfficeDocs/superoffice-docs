@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetRatings
+title: RatingArray GetRatings()
+intellisense: NSListAgent.GetRatings
+keywords: NSListAgent, GetRatings
+so.topic: reference
 ---
-title: NSRating[] GetRatings()
-path: /EJScript/Classes/NSListAgent/Member functions/NSRating[] GetRatings()
-intellisense: 1
-classref: 1
-keywords: GetRatings()
----
-
 
 Returns all ratings
 
 
+**Returns:** Array of ratings
 
-* **Returns:** Array of ratings
-
+```crmscript
+NSListAgent agent;
+RatingArray res = agent.GetRatings();
+```
 

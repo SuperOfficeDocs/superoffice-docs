@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectTypeEntity_GetIsAutoAdvance
 title: Bool GetIsAutoAdvance()
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Bool GetIsAutoAdvance()
-intellisense: 1
-classref: 1
-keywords: GetIsAutoAdvance()
+intellisense: NSProjectTypeEntity.GetIsAutoAdvance
+keywords: NSProjectTypeEntity, GetIsAutoAdvance
+so.topic: reference
 ---
-
 
 Does the project status advance automatically, when the last guided activity in a status is completed?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSProjectTypeEntity thing;
+Bool isAutoAdvance  = thing.GetIsAutoAdvance();
+```
 
 

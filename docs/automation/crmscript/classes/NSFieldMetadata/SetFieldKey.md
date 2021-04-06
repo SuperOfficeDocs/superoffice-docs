@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldMetadata_SetFieldKey
+title: SetFieldKey(String fieldKey)
+intellisense: NSFieldMetadata.SetFieldKey
+keywords: NSFieldMetadata, GetFieldKey
+so.topic: reference
 ---
-title: Void SetFieldKey(String FieldKey)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetFieldKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3589
-keywords: SetFieldKey(String)
----
-
 
 Internal key/name of the field. Used as the key in the ConnectionConfigField values when TestConnection is called.
 
+**Parameter:** 
+ - **fieldKey** String
 
-
-* **FieldKey:** String
-* **Returns:** String
-
+```crmscript
+NSFieldMetadata thing;
+String fieldKey;
+thing.SetFieldKey(fieldKey);
+```
 

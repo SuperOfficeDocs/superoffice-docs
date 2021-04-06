@@ -1,6 +1,6 @@
 ---
-title: crmscript_code_quality
-description: Code quality
+uid: crmscript_code_quality
+title: Code quality
 author:
 so.date:
 keywords:

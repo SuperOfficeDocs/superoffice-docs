@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_GetProbability
 title: Integer GetProbability()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Integer GetProbability()
-intellisense: 1
-classref: 1
-keywords: GetProbability()
+intellisense: NSSaleSummaryItem.GetProbability
+keywords: NSSaleSummaryItem, GetProbability
+so.topic: reference
 ---
-
 
 Probability of sale succeess in percent (0-100)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleSummaryItem thing;
+Integer probability  = thing.GetProbability();
+```
 
 

@@ -1,20 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetFutureOpenWeightedOwnCurrency
 title: Float GetFutureOpenWeightedOwnCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetFutureOpenWeightedOwnCurrency()
-intellisense: 1
-classref: 1
-keywords: GetFutureOpenWeightedOwnCurrency()
+intellisense: NSSaleSummary.GetFutureOpenWeightedOwnCurrency
+keywords: NSSaleSummary, GetFutureOpenWeightedOwnCurrency
+so.topic: reference
 ---
 
+Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user 
 
-Weighted sum for all Future Pipe/All open sales with date after the period in default currency for the current user
-
-
-    	///
-    
+**Returns:** Float
 
 
-
-* **Returns:** Float
+```crmscript
+NSSaleSummary thing;
+Float futureOpenWeightedOwnCurrency  = thing.GetFutureOpenWeightedOwnCurrency();
+```
 
 

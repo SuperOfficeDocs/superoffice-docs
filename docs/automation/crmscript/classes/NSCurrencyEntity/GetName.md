@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 2184
-keywords: GetName()
+intellisense: NSCurrencyEntity.GetName
+keywords: NSCurrencyEntity, GetName
+so.topic: reference
 ---
-
 
 The list item
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCurrencyEntity thing;
+String name  = thing.GetName();
+```
 
 

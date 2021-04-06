@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity
 title: NSSaleEntity
-path: /EJScript/Classes/NSSaleEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSSaleEntity
+keywords: NSSaleEntity
+so.topic: reference
 ---
-
 
 The Sale Entity contains the sale amount, currency, and sale members. Sales are linked to contacts, persons, and/or projects.
 
-
-
-
-1. autolist
+1. autolist 
 

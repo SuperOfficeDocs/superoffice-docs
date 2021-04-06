@@ -1,10 +1,10 @@
 ---
-title: NSColumnDataDictionary GetColumnData()
-path: /EJScript/Classes/NSArchiveListItem/Member functions/NSColumnDataDictionary GetColumnData()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSArchiveListItem_GetColumnData
+title: NSArchiveListItem.GetColumnData()
+intellisense: NSArchiveListItem.GetColumnData
 sortOrder: 1178
 keywords: GetColumnData()
+so.topic: reference
 ---
 
 

@@ -1,13 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetPublishTo
 title: DateTime GetPublishTo()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/DateTime GetPublishTo()
-intellisense: 1
-classref: 1
-sortOrder: 2556
-keywords: GetPublishTo()
+intellisense: NSDocumentEntity.GetPublishTo
+keywords: NSDocumentEntity, GetPublishTo
+so.topic: reference
 ---
 
+Publish to date on DocumentEntity. After this date the event is no longer visible.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime.
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo_GetRegistered
 title: DateTime GetRegistered()
-path: /EJScript/Classes/NSConsentInfo/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
-sortOrder: 1628
-keywords: GetRegistered()
+intellisense: NSConsentInfo.GetRegistered
+keywords: NSConsentInfo, GetRegistered
+so.topic: reference
 ---
-
 
 When this consent record was created
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSConsentInfo thing;
+DateTime registered  = thing.GetRegistered();
+```
 
 

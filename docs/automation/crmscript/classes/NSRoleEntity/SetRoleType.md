@@ -1,17 +1,23 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_SetRoleType
+title: SetRoleType(Integer roleType)
+intellisense: NSRoleEntity.SetRoleType
+keywords: NSRoleEntity, GetRoleType
+so.topic: reference
 ---
-title: Void SetRoleType(Integer RoleType)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetRoleType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRoleType(Integer)
----
 
+The role type. Note that changing this field has no effect, so treat this as a read-only field. 
 
-The role type. Note that changing this field has no effect, so treat this as a read-only field.
+**Parameter:** 
+ - **roleType** Integer
+     - Enum: 0 = Employee 
+     - Enum: 1 = ExternalUser 
+     - Enum: 2 = Anonymous 
+     - Enum: 3 = System 
 
-
-
-* **RoleType:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRoleEntity thing;
+Integer roleType;
+thing.SetRoleType(roleType);
+```
 

@@ -1,17 +1,13 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionAgent_CopySelectionMembers
 title: Void CopySelectionMembers(Integer fromSelectionId, Integer toSelectionId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void CopySelectionMembers(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-keywords: CopySelectionMembers(Integer,Integer)
+intellisense: NSSelectionAgent.CopySelectionMembers
+keywords: NSSelectionAgent, CopySelectionMembers
+so.topic: reference
 ---
-
 
 Copy selection members from selection into an existing selection.
 
-
-
-* **fromSelectionId:** The id of the selection to copy members from.
-* **toSelectionId:** The id of the selection to copy members to.
-
-
+**Parameters:**
+ - **fromSelectionId** The id of the selection to copy members from.
+ - **toSelectionId** The id of the selection to copy members to.

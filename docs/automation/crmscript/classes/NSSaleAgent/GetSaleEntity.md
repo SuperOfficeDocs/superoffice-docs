@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_GetSaleEntity
+title: NSSaleEntity GetSaleEntity(Integer saleEntityId);
+intellisense: NSSaleAgent.GetSaleEntity
+keywords: NSSaleAgent, GetSaleEntity
+so.topic: reference
 ---
-title: NSSaleEntity GetSaleEntity(Integer saleEntityId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleEntity GetSaleEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSaleEntity(Integer)
----
 
+Gets a NSSaleEntity object.
 
-Gets a SaleEntity object.
+**Parameters:**
+ - **saleEntityId** The identifier of the NSSaleEntity object
 
+**Returns:** NSSaleEntity
 
-
-* **saleEntityId:** The identifier of the SaleEntity object
-* **Returns:** SaleEntity
-
+```crmscript
+NSSaleAgent agent;
+NSSaleEntity thing = agent.GetSaleEntity(123);
+```
 

@@ -1,22 +1,25 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEnvelope_GetPriority
 title: Integer GetPriority()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Integer GetPriority()
-intellisense: 1
-classref: 1
-sortOrder: 3004
-keywords: GetPriority()
+intellisense: NSEMailEnvelope.GetPriority
+keywords: NSEMailEnvelope, GetPriority
+so.topic: reference
 ---
-
 
 Importance of the e-mail
-* NoPriority=0
-* Highest=1
-* High=2
-* Normal=3
-* Low=4
-* Lowest=5
 
+**Returns:** Integer
 
-* **Returns:** Integer
+     - Enum: 0 = NoPriority 
+     - Enum: 1 = Highest 
+     - Enum: 2 = High 
+     - Enum: 3 = Normal 
+     - Enum: 4 = Low 
+     - Enum: 5 = Lowest 
+
+```crmscript
+NSEMailEnvelope thing;
+Integer priority  = thing.GetPriority();
+```
 
 

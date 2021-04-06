@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent_SetPasswordFromName
 title: Bool SetPasswordFromName(String associateName, String password)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool SetPasswordFromName(String p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: SetPasswordFromName(String,String)
+intellisense: NSUserAgent.SetPasswordFromName
+keywords: NSUserAgent, SetPasswordFromName
+so.topic: reference
 ---
-
 
 Change password for a user.
 
+**Parameters:**
+ - **associateName** Username to set password for
+ - **password** New password
 
+**Returns:** Succeeded?
 
-* **associateName:** Username to set password for
-* **password:** New password
-* **Returns:** Succeeded?
-
+```crmscript
+NSUserAgent agent;
+String associateName;
+String password;
+Bool res = agent.SetPasswordFromName(associateName, password);
+```
 

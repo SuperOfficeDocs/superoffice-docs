@@ -1,9 +1,9 @@
 ---
-title: Bool isNegative()
-path: /EJScript/Classes/TimeSpan/Member functions/Bool isNegative()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_TimeSpan_isNegative
+title: TimeSpan.isNegative()
+intellisense: TimeSpan.isNegative
 keywords: isNegative()
+so.topic: reference
 ---
 
 The return value is true if this is a negative timespan, othewise false.

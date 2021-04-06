@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetLeftSelectionId
+title: SetLeftSelectionId(Integer leftSelectionId)
+intellisense: NSSelectionEntity.SetLeftSelectionId
+keywords: NSSelectionEntity, GetLeftSelectionId
+so.topic: reference
 ---
-title: Void SetLeftSelectionId(Integer LeftSelectionId)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetLeftSelectionId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLeftSelectionId(Integer)
----
-
 
 LeftSelectionId is used in combination with RightSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.
 
+**Parameter:** 
+ - **leftSelectionId** Integer
 
-
-* **LeftSelectionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectionEntity thing;
+Integer leftSelectionId;
+thing.SetLeftSelectionId(leftSelectionId);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetEmailAddress
+title: SetEmailAddress(String emailAddress)
+intellisense: NSSaleStakeholder.SetEmailAddress
+keywords: NSSaleStakeholder, GetEmailAddress
+so.topic: reference
 ---
-title: Void SetEmailAddress(String EmailAddress)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetEmailAddress(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetEmailAddress(String)
----
-
 
 E-mail address
 
+**Parameter:** 
+ - **emailAddress** String
 
-
-* **EmailAddress:** String
-* **Returns:** String
-
+```crmscript
+NSSaleStakeholder thing;
+String emailAddress;
+thing.SetEmailAddress(emailAddress);
+```
 

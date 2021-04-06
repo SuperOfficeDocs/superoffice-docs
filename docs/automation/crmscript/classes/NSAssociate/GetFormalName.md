@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAssociate_GetFormalName
 title: String GetFormalName()
-path: /EJScript/Classes/NSAssociate/Member functions/String GetFormalName()
-intellisense: 1
-classref: 1
-sortOrder: 1261
-keywords: GetFormalName()
+intellisense: NSAssociate.GetFormalName
+keywords: NSAssociate, GetFormalName
+so.topic: reference
 ---
-
 
 The associate's culture formatted formalname (firstname, middleName and lastname, title, mrmrs)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAssociate thing;
+String formalName  = thing.GetFormalName();
+```
 
 

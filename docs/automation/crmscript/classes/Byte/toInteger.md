@@ -1,10 +1,10 @@
 ---
-title: Integer toInteger()
-path: /EJScript/Classes/Byte/Member functions/Integer toInteger()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Byte_toInteger
+title: Byte.toInteger()
+intellisense: Byte.toInteger
 sortOrder: 136
 keywords: toInteger()
+so.topic: reference
 ---
 
 Returns the value of a byte as an integer.

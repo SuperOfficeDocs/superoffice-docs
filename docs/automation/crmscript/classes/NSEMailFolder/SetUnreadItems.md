@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailFolder_SetUnreadItems
+title: SetUnreadItems(Integer unreadItems)
+intellisense: NSEMailFolder.SetUnreadItems
+keywords: NSEMailFolder, GetUnreadItems
+so.topic: reference
 ---
-title: Void SetUnreadItems(Integer UnreadItems)
-path: /EJScript/Classes/NSEMailFolder/Member functions/Void SetUnreadItems(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3041
-keywords: SetUnreadItems(Integer)
----
-
 
 Number of unread messages in the folder
 
+**Parameter:** 
+ - **unreadItems** Integer
 
-
-* **UnreadItems:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailFolder thing;
+Integer unreadItems;
+thing.SetUnreadItems(unreadItems);
+```
 

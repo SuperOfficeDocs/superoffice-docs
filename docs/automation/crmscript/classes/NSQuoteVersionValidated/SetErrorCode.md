@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionValidated_SetErrorCode
+title: SetErrorCode(String errorCode)
+intellisense: NSQuoteVersionValidated.SetErrorCode
+keywords: NSQuoteVersionValidated, GetErrorCode
+so.topic: reference
 ---
-title: Void SetErrorCode(String ErrorCode)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetErrorCode(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetErrorCode(String)
----
-
 
 An error code, if available.
 
+**Parameter:** 
+ - **errorCode** String
 
-
-* **ErrorCode:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersionValidated thing;
+String errorCode;
+thing.SetErrorCode(errorCode);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSHistory_SetHistoryId
+title: SetHistoryId(Integer historyId)
+intellisense: NSHistory.SetHistoryId
+keywords: NSHistory, GetHistoryId
+so.topic: reference
 ---
-title: Void SetHistoryId(Integer HistoryId)
-path: /EJScript/Classes/NSHistory/Member functions/Void SetHistoryId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3934
-keywords: SetHistoryId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **historyId** Integer
 
-
-* **HistoryId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSHistory thing;
+Integer historyId;
+thing.SetHistoryId(historyId);
+```
 

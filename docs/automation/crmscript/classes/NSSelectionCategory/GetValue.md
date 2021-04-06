@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionCategory_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSSelectionCategory/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSSelectionCategory.GetValue
+keywords: NSSelectionCategory, GetValue
+so.topic: reference
 ---
 
+Get the name of the SelectionCategory.
 
-* **Returns:** String
+**Returns:** String SelectionCategory name.
 
+```crmscript
+NSSelectionCategory thing;
+String name = thing.GetValue();
+```
 

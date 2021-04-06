@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCsSessionKey_SetUserId
+title: SetUserId(Integer userId)
+intellisense: NSCsSessionKey.SetUserId
+keywords: NSCsSessionKey, GetUserId
+so.topic: reference
 ---
-title: Void SetUserId(Integer UserId)
-path: /EJScript/Classes/NSCsSessionKey/Member functions/Void SetUserId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2168
-keywords: SetUserId(Integer)
----
-
 
 The ejuser id owning this session key
 
+**Parameter:** 
+ - **userId** Integer
 
-
-* **UserId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCsSessionKey thing;
+Integer userId;
+thing.SetUserId(userId);
+```
 

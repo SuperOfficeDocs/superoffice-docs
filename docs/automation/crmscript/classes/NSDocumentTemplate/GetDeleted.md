@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplate_GetDeleted
 title: Integer GetDeleted()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Integer GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 2621
-keywords: GetDeleted()
+intellisense: NSDocumentTemplate.GetDeleted
+keywords: NSDocumentTemplate, GetDeleted
+so.topic: reference
 ---
-
 
 0 -> record is active 1 -> record is 'deleted' and should not be shown in lists
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDocumentTemplate thing;
+Integer deleted  = thing.GetDeleted();
+```
 
 

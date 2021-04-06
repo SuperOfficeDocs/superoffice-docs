@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_GetCustomTags
+title: StringArrayArray GetCustomTags()
+intellisense: NSTemplateVariablesParameters.GetCustomTags
+keywords: NSTemplateVariablesParameters, GetCustomTags
+so.topic: reference
 ---
-title: String[][] GetCustomTags()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/String[][] GetCustomTags()
-intellisense: 1
-classref: 1
-keywords: GetCustomTags()
----
-
 
 Array with custom tags and values. Array may be of unlimited height, but need to be exactly 2 in width.
 
+**Returns:** StringArrayArray
 
 
-* **Returns:** StringArrayArray
+```crmscript
+NSTemplateVariablesParameters thing;
+StringArrayArray customTags  = thing.GetCustomTags();
+```
 
 

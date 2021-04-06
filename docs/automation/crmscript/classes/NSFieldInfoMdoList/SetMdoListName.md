@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoMdoList_SetMdoListName
+title: SetMdoListName(String mdoListName)
+intellisense: NSFieldInfoMdoList.SetMdoListName
+keywords: NSFieldInfoMdoList, GetMdoListName
+so.topic: reference
 ---
-title: Void SetMdoListName(String MdoListName)
-path: /EJScript/Classes/NSFieldInfoMdoList/Member functions/Void SetMdoListName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3534
-keywords: SetMdoListName(String)
----
-
 
 MDO list name used to populate this list. (Read-only)
 
+**Parameter:** 
+ - **mdoListName** String
 
-
-* **MdoListName:** String
-* **Returns:** String
-
+```crmscript
+NSFieldInfoMdoList thing;
+String mdoListName;
+thing.SetMdoListName(mdoListName);
+```
 

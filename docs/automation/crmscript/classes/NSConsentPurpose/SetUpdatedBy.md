@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPurpose_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
+intellisense: NSConsentPurpose.SetUpdatedBy
+keywords: NSConsentPurpose, GetUpdatedBy
+so.topic: reference
 ---
-title: Void SetUpdatedBy(NSAssociate UpdatedBy)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetUpdatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1698
-keywords: SetUpdatedBy(NSAssociate)
----
-
 
 The associate that last updated the consent purpose
 
+**Parameter:** 
+ - **updatedBy** Associate
 
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSConsentPurpose thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
 

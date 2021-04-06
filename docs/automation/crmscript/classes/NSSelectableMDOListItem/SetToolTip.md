@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_SetToolTip
+title: SetToolTip(String toolTip)
+intellisense: NSSelectableMDOListItem.SetToolTip
+keywords: NSSelectableMDOListItem, GetToolTip
+so.topic: reference
 ---
-title: Void SetToolTip(String ToolTip)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetToolTip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetToolTip(String)
----
-
 
 The tooltip of the ListItem
 
+**Parameter:** 
+ - **toolTip** String
 
-
-* **ToolTip:** String
-* **Returns:** String
-
+```crmscript
+NSSelectableMDOListItem thing;
+String toolTip;
+thing.SetToolTip(toolTip);
+```
 

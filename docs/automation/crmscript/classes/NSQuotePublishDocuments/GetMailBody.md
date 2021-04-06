@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_GetMailBody
 title: String GetMailBody()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetMailBody()
-intellisense: 1
-classref: 1
-keywords: GetMailBody()
+intellisense: NSQuotePublishDocuments.GetMailBody
+keywords: NSQuotePublishDocuments, GetMailBody
+so.topic: reference
 ---
-
 
 The string that is the content of the mail body; this is the result of merging the mail body template with the current template variable values
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuotePublishDocuments thing;
+String mailBody  = thing.GetMailBody();
+```
 
 

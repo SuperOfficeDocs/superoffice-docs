@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetActiveErpLinks
 title: Integer GetActiveErpLinks()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetActiveErpLinks()
-intellisense: 1
-classref: 1
-keywords: GetActiveErpLinks()
+intellisense: NSPersonEntity.GetActiveErpLinks
+keywords: NSPersonEntity, GetActiveErpLinks
+so.topic: reference
 ---
-
 
 How many active ERP links are there for this person?
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPersonEntity thing;
+Integer activeErpLinks  = thing.GetActiveErpLinks();
+```
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetStandardBool(Bool StandardBool)
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Void SetStandardBool(Bool p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAATestClassForModeling_SetStandardBool_Bool_p_0
+title: NSAAATestClassForModeling.SetStandardBool(Bool p_0)
+intellisense: NSAAATestClassForModeling.SetStandardBool
 sortOrder: 8945
 keywords: SetStandardBool(Bool)
+so.topic: reference
 ---
 
 

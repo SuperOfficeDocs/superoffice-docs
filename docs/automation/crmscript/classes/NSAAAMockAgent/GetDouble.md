@@ -1,10 +1,10 @@
 ---
-title: Float GetDouble()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Float GetDouble()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_GetDouble
+title: NSAAAMockAgent.GetDouble()
+intellisense: NSAAAMockAgent.GetDouble
 sortOrder: 8888
 keywords: GetDouble()
+so.topic: reference
 ---
 
 

@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage
 title: NSPocketNotificationMessage
-path: /EJScript/Classes/NSPocketNotificationMessage
-intellisense: 1
-classref: 1
+intellisense: Void.NSPocketNotificationMessage
+keywords: NSPocketNotificationMessage
+so.topic: reference
 ---
-
 
 Describes behaviour and content for a push notification message
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignKey_SetTableName
+title: SetTableName(String tableName)
+intellisense: NSForeignKey.SetTableName
+keywords: NSForeignKey, GetTableName
+so.topic: reference
 ---
-title: Void SetTableName(String TableName)
-path: /EJScript/Classes/NSForeignKey/Member functions/Void SetTableName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3746
-keywords: SetTableName(String)
----
-
 
 Table name, transformed to and from numeric table id by the service layer
 
+**Parameter:** 
+ - **tableName** String
 
-
-* **TableName:** String
-* **Returns:** String
-
+```crmscript
+NSForeignKey thing;
+String tableName;
+thing.SetTableName(tableName);
+```
 

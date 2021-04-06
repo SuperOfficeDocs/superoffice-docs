@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetCategoryName
+title: SetCategoryName(String categoryName)
+intellisense: NSPerson.SetCategoryName
+keywords: NSPerson, GetCategoryName
+so.topic: reference
 ---
-title: Void SetCategoryName(String CategoryName)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetCategoryName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCategoryName(String)
----
-
 
 The category list item name
 
+**Parameter:** 
+ - **categoryName** String
 
-
-* **CategoryName:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String categoryName;
+thing.SetCategoryName(categoryName);
+```
 

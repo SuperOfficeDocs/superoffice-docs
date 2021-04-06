@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResourceEntity_SetName
+title: SetName(String name)
+intellisense: NSResourceEntity.SetName
+keywords: NSResourceEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSResourceEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Initials, also login name, possibly database user name
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSResourceEntity thing;
+String name;
+thing.SetName(name);
+```
 

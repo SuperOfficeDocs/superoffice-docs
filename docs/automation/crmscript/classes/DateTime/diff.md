@@ -1,10 +1,10 @@
 ---
-title: Integer diff(DateTime otherDateTime)
-path: /EJScript/Classes/DateTime/Member functions/Integer diff(DateTime otherDateTime)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DateTime_diff_DateTime_otherDateTime
+title: DateTime.diff(DateTime otherDateTime)
+intellisense: DateTime.diff
 sortOrder: 229
 keywords: diff(DateTime)
+so.topic: reference
 ---
 
 

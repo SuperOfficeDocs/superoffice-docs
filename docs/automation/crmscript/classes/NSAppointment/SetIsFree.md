@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetIsFree
+title: SetIsFree(Bool isFree)
+intellisense: NSAppointment.SetIsFree
+keywords: NSAppointment, GetIsFree
+so.topic: reference
 ---
-title: Void SetIsFree(Bool IsFree)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetIsFree(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 797
-keywords: SetIsFree(Bool)
----
-
 
 True if free, false if busy
 
+**Parameter:** 
+ - **isFree** Bool
 
-
-* **IsFree:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSAppointment thing;
+Bool isFree;
+thing.SetIsFree(isFree);
+```
 

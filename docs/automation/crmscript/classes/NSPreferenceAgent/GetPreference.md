@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSPreferenceAgent_GetPreference
+title: Preference GetPreference(Integer id)
+intellisense: NSPreferenceAgent.GetPreference
+keywords: NSPreferenceAgent, GetPreference
+so.topic: reference
 ---
-title: NSPreference GetPreference(Integer id)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference GetPreference(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPreference(Integer)
----
-
 
 Get a preference by id
 
+**Parameters:**
+ - **id** The id of the preference to load
 
+**Returns:** The preference loaded
 
-* **id:** The id of the preference to load
-* **Returns:** The preference loaded
-
+```crmscript
+NSPreferenceAgent agent;
+Integer id;
+Preference res = agent.GetPreference(id);
+```
 

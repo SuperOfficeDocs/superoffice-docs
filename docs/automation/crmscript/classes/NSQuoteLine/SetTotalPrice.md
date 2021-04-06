@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetTotalPrice
+title: SetTotalPrice(Float totalPrice)
+intellisense: NSQuoteLine.SetTotalPrice
+keywords: NSQuoteLine, GetTotalPrice
+so.topic: reference
 ---
-title: Void SetTotalPrice(Float TotalPrice)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetTotalPrice(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetTotalPrice(Float)
----
-
 
 TotalPrice  = SubTotal - DiscountAmount or TotalPrice = (UnitCost * Quantity) + EarningAmount, according to what the user changed last.
 
+**Parameter:** 
+ - **totalPrice** Float
 
-
-* **TotalPrice:** Float
-* **Returns:** Float
-
+```crmscript
+NSQuoteLine thing;
+Float totalPrice;
+thing.SetTotalPrice(totalPrice);
+```
 

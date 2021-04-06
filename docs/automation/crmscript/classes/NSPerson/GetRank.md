@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSPerson/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSPerson.GetRank
+keywords: NSPerson, GetRank
+so.topic: reference
 ---
-
 
 Display sort sequence for default sort order
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPerson thing;
+Integer rank  = thing.GetRank();
+```
 
 

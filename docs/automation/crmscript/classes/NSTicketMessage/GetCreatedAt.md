@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketMessage_GetCreatedAt
 title: DateTime GetCreatedAt()
-path: /EJScript/Classes/NSTicketMessage/Member functions/DateTime GetCreatedAt()
-intellisense: 1
-classref: 1
-keywords: GetCreatedAt()
+intellisense: NSTicketMessage.GetCreatedAt
+keywords: NSTicketMessage, GetCreatedAt
+so.topic: reference
 ---
-
 
 When the message was posted.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicketMessage thing;
+DateTime createdAt  = thing.GetCreatedAt();
+```
 
 

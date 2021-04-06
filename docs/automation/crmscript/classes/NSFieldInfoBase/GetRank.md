@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 3468
-keywords: GetRank()
+intellisense: NSFieldInfoBase.GetRank
+keywords: NSFieldInfoBase, GetRank
+so.topic: reference
 ---
-
 
 Tab order, ranking within the custom fields.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFieldInfoBase thing;
+Integer rank  = thing.GetRank();
+```
 
 

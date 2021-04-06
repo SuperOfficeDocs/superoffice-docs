@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSmtpTestResult_GetSuccess
 title: Bool GetSuccess()
-path: /EJScript/Classes/NSSmtpTestResult/Member functions/Bool GetSuccess()
-intellisense: 1
-classref: 1
-keywords: GetSuccess()
+intellisense: NSSmtpTestResult.GetSuccess
+keywords: NSSmtpTestResult, GetSuccess
+so.topic: reference
 ---
-
 
 True if the test went ok. False if it failed. See the error message for details
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSmtpTestResult thing;
+Bool success  = thing.GetSuccess();
+```
 
 

@@ -1,11 +1,10 @@
+﻿---
+uid: crmscript_ref_NSPreferenceAgent_GetTabOrders
+title: TabOrderArray GetTabOrders()
+intellisense: NSPreferenceAgent.GetTabOrders
+keywords: NSPreferenceAgent, GetTabOrders
+so.topic: reference
 ---
-title: NSTabOrder[] GetTabOrders()
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSTabOrder[] GetTabOrders()
-intellisense: 1
-classref: 1
-keywords: GetTabOrders()
----
-
 
 
 

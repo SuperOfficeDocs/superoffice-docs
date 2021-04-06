@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCriteriaInformation_SetCriteriaArchiveColumns
+title: SetCriteriaArchiveColumns(ArchiveColumnInfoArray criteriaArchiveColumns)
+intellisense: NSCriteriaInformation.SetCriteriaArchiveColumns
+keywords: NSCriteriaInformation, GetCriteriaArchiveColumns
+so.topic: reference
 ---
-title: Void SetCriteriaArchiveColumns(NSArchiveColumnInfo[] CriteriaArchiveColumns)
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/Void SetCriteriaArchiveColumns(NSArchiveColumnInfo[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2108
-keywords: SetCriteriaArchiveColumns(NSArchiveColumnInfo[])
----
-
 
 Array of ColumnInfo column specifications
 
+**Parameter:** 
+ - **criteriaArchiveColumns** ArchiveColumnInfoArray
 
-
-* **CriteriaArchiveColumns:** ArchiveColumnInfoArray
-* **Returns:** ArchiveColumnInfoArray
-
+```crmscript
+NSCriteriaInformation thing;
+ArchiveColumnInfoArray criteriaArchiveColumns;
+thing.SetCriteriaArchiveColumns(criteriaArchiveColumns);
+```
 

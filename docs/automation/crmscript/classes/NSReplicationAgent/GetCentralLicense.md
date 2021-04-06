@@ -1,11 +1,10 @@
+﻿---
+uid: crmscript_ref_NSReplicationAgent_GetCentralLicense
+title: LicenseOwnerArray GetCentralLicense()
+intellisense: NSReplicationAgent.GetCentralLicense
+keywords: NSReplicationAgent, GetCentralLicense
+so.topic: reference
 ---
-title: NSLicenseOwner[] GetCentralLicense()
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSLicenseOwner[] GetCentralLicense()
-intellisense: 1
-classref: 1
-keywords: GetCentralLicense()
----
-
 
 
 

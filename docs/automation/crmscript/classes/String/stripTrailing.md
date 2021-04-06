@@ -1,9 +1,9 @@
 ---
-title: String stripTrailing(String characters)
-path: /EJScript/Classes/String/Member functions/String stripTrailing(String characters)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_stripTrailing_String_characters
+title: String.stripTrailing(String characters)
+intellisense: String.stripTrailing
 keywords: stripTrailing(String)
+so.topic: reference
 ---
 
 

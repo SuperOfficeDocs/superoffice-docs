@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAudienceConfigParameter_GetName
 title: String GetName()
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 1323
-keywords: GetName()
+intellisense: NSAudienceConfigParameter.GetName
+keywords: NSAudienceConfigParameter, GetName
+so.topic: reference
 ---
-
 
 The name of the configuration parameter
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAudienceConfigParameter thing;
+String name  = thing.GetName();
+```
 
 

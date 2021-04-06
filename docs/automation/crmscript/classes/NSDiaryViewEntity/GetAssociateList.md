@@ -1,13 +1,19 @@
----
-title: NSSelectableMDOListItem[] GetAssociateList()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/NSSelectableMDOListItem[] GetAssociateList()
-intellisense: 1
-classref: 1
-sortOrder: 2410
-keywords: GetAssociateList()
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_GetAssociateList
+title: SelectableMDOListItemArray GetAssociateList()
+intellisense: NSDiaryViewEntity.GetAssociateList
+keywords: NSDiaryViewEntity, GetAssociateList
+so.topic: reference
 ---
 
 
-* **Returns:** SelectableMDOListItemArray
+
+**Returns:** SelectableMDOListItemArray
+
+
+```crmscript
+NSDiaryViewEntity thing;
+SelectableMDOListItemArray associateList  = thing.GetAssociateList();
+```
 
 

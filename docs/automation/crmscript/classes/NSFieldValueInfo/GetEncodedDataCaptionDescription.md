@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_GetEncodedDataCaptionDescription
 title: String GetEncodedDataCaptionDescription()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String GetEncodedDataCaptionDescription()
-intellisense: 1
-classref: 1
-sortOrder: 3626
-keywords: GetEncodedDataCaptionDescription()
+intellisense: NSFieldValueInfo.GetEncodedDataCaptionDescription
+keywords: NSFieldValueInfo, GetEncodedDataCaptionDescription
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSFieldValueInfo thing;
+String encodedDataCaptionDescription  = thing.GetEncodedDataCaptionDescription();
+```
 
 

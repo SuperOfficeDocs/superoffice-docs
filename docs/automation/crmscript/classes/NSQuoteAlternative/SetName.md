@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_SetName
+title: SetName(String name)
+intellisense: NSQuoteAlternative.SetName
+keywords: NSQuoteAlternative, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Name of Alternative. Shown in tab in user interface, intentionally kept short
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteAlternative thing;
+String name;
+thing.SetName(name);
+```
 

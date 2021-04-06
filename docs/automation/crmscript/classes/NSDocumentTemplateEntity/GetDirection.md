@@ -1,16 +1,23 @@
----
-title: Integer GetDirection()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetDirection()
-intellisense: 1
-classref: 1
-sortOrder: 2656
-keywords: GetDirection()
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetDirection
+title: DocTmplDirection GetDirection()
+intellisense: NSDocumentTemplateEntity.GetDirection
+keywords: NSDocumentTemplateEntity, GetDirection
+so.topic: reference
 ---
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
+**Returns:** DocTmplDirection
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Incoming 
+     - Enum: 2 = Outgoing 
+     - Enum: 3 = SaintAll 
 
-* **Returns:** Integer
+```crmscript
+NSDocumentTemplateEntity thing;
+DocTmplDirection direction  = thing.GetDirection();
+```
 
 

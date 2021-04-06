@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_GetResponseShipmentAddrId
 title: Integer GetResponseShipmentAddrId()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Integer GetResponseShipmentAddrId()
-intellisense: 1
-classref: 1
-sortOrder: 3835
-keywords: GetResponseShipmentAddrId()
+intellisense: NSFormSubmissionEntity.GetResponseShipmentAddrId
+keywords: NSFormSubmissionEntity, GetResponseShipmentAddrId
+so.topic: reference
 ---
 
+The id of the s_shipment_addr that is the response mail
 
-The id of the s\_shipment_addr that is the response mail
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSFormSubmissionEntity thing;
+Integer responseShipmentAddrId  = thing.GetResponseShipmentAddrId();
+```
 
 

@@ -1,9 +1,9 @@
 ---
 description: HtmlElement addHtmlElement(Integer id, String name, Integer type, Map config, Integer position)
-path: /EJScript/Global functions/HtmlElement addHtmlElement(Integer id, String name, Integer type, Map config, Integer position)
-intellisense: 1
+intellisense: Void.addHtmlElement
 langref: 1
 keywords: addHtmlElement(Integer,String,Integer,Map,Integer)
+so.topic: reference
 ---
 
 Adds an html element to the associated screen, i.e. when this script is excuted as the load script for a screen.

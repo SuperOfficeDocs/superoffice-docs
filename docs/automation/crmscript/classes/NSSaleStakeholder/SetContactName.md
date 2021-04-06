@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetContactName
+title: SetContactName(String contactName)
+intellisense: NSSaleStakeholder.SetContactName
+keywords: NSSaleStakeholder, GetContactName
+so.topic: reference
 ---
-title: Void SetContactName(String ContactName)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetContactName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetContactName(String)
----
-
 
 Contact name
 
+**Parameter:** 
+ - **contactName** String
 
-
-* **ContactName:** String
-* **Returns:** String
-
+```crmscript
+NSSaleStakeholder thing;
+String contactName;
+thing.SetContactName(contactName);
+```
 

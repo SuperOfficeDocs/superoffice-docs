@@ -1,10 +1,10 @@
 ---
-title: Void SaveContactEntity(NSContactEntity contactEntity)
-path: /EJScript/Classes/NSContactAgent/Member functions/Void SaveContactEntity(NSContactEntity p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSContactAgent_SaveContactEntity_NSContactEntity_p_0
+title: NSContactAgent.SaveContactEntity(NSContactEntity p_0)
+intellisense: NSContactAgent.SaveContactEntity
 sortOrder: 1827
 keywords: SaveContactEntity(NSContactEntity)
+so.topic: reference
 ---
 
 

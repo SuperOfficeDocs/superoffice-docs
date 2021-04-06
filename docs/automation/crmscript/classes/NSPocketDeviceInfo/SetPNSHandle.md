@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketDeviceInfo_SetPNSHandle
+title: SetPNSHandle(String pNSHandle)
+intellisense: NSPocketDeviceInfo.SetPNSHandle
+keywords: NSPocketDeviceInfo, GetPNSHandle
+so.topic: reference
 ---
-title: Void SetPNSHandle(String PNSHandle)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetPNSHandle(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPNSHandle(String)
----
-
 
 The identifier associated with the device that will be used when talking with vendors push services
 
+**Parameter:** 
+ - **pNSHandle** String
 
-
-* **PNSHandle:** String
-* **Returns:** String
-
+```crmscript
+NSPocketDeviceInfo thing;
+String pNSHandle;
+thing.SetPNSHandle(pNSHandle);
+```
 

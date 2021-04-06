@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_GetLastMessage
 title: String GetLastMessage()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/String GetLastMessage()
-intellisense: 1
-classref: 1
-sortOrder: 1540
-keywords: GetLastMessage()
+intellisense: NSChatSummaryItem.GetLastMessage
+keywords: NSChatSummaryItem, GetLastMessage
+so.topic: reference
 ---
-
 
 A copy of the last message in the chat session
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSChatSummaryItem thing;
+String lastMessage  = thing.GetLastMessage();
+```
 
 

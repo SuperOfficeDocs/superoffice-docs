@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportEntity_GetTemplateId
 title: Integer GetTemplateId()
-path: /EJScript/Classes/NSReportEntity/Member functions/Integer GetTemplateId()
-intellisense: 1
-classref: 1
-keywords: GetTemplateId()
+intellisense: NSReportEntity.GetTemplateId
+keywords: NSReportEntity, GetTemplateId
+so.topic: reference
 ---
-
 
 The id of report template.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSReportEntity thing;
+Integer templateId  = thing.GetTemplateId();
+```
 
 

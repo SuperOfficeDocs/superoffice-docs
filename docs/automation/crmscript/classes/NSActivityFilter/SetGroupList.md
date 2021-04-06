@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSActivityFilter_SetGroupList
+title: SetGroupList(SelectableMDOListItemArray groupList)
+intellisense: NSActivityFilter.SetGroupList
+keywords: NSActivityFilter, GetGroupList
+so.topic: reference
 ---
-title: Void SetGroupList(NSSelectableMDOListItem[] GroupList)
-path: /EJScript/Classes/NSActivityFilter/Member functions/Void SetGroupList(NSSelectableMDOListItem[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 577
-keywords: SetGroupList(NSSelectableMDOListItem[])
----
-
 
 The list of groups to filter on
 
+**Parameter:** 
+ - **groupList** SelectableMDOListItemArray
 
-
-* **GroupList:** SelectableMDOListItemArray
-* **Returns:** SelectableMDOListItemArray
-
+```crmscript
+NSActivityFilter thing;
+SelectableMDOListItemArray groupList;
+thing.SetGroupList(groupList);
+```
 

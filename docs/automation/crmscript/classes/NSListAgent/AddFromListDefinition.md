@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSListAgent_AddFromListDefinition
+title: ListItemEntity AddFromListDefinition(Integer udListDefinitionId, ListItemEntity item)
+intellisense: NSListAgent.AddFromListDefinition
+keywords: NSListAgent, AddFromListDefinition
+so.topic: reference
 ---
-title: NSListItemEntity AddFromListDefinition(Integer udListDefinitionId, NSListItemEntity item)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity AddFromListDefinition(Integer p_0, NSListItemEntity p_1)
-intellisense: 1
-classref: 1
-keywords: AddFromListDefinition(Integer,NSListItemEntity)
----
-
 
 Save a new list item for the specified list defintion
 
+**Parameters:**
+ - **udListDefinitionId** The name of the list definition, indicating which list to save the item to.
+ - **item** The item to save
 
+**Returns:** The saved list item
 
-* **udListDefinitionId:** The name of the list definition, indicating which list to save the item to.
-* **item:** The item to save
-* **Returns:** The saved list item
-
+```crmscript
+NSListAgent agent;
+Integer udListDefinitionId;
+ListItemEntity item;
+ListItemEntity res = agent.AddFromListDefinition(udListDefinitionId, item);
+```
 

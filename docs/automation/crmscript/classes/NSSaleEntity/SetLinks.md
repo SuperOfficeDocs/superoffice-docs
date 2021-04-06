@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetLinks
+title: SetLinks(LinkArray links)
+intellisense: NSSaleEntity.SetLinks
+keywords: NSSaleEntity, GetLinks
+so.topic: reference
 ---
-title: Void SetLinks(NSLink[] Links)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetLinks(NSLink[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetLinks(NSLink[])
----
 
+List of all elements linked to the sale.
 
-List of all elements linked to the document.
+**Parameter:** 
+ - **links** LinkArray
 
-
-
-* **Links:** LinkArray
-* **Returns:** LinkArray
-
+```crmscript
+NSSaleEntity thing;
+LinkArray links;
+thing.SetLinks(links);
+```
 

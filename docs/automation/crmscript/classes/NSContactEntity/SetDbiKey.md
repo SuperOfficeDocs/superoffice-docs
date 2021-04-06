@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetDbiKey
+title: SetDbiKey(String dbiKey)
+intellisense: NSContactEntity.SetDbiKey
+keywords: NSContactEntity, GetDbiKey
+so.topic: reference
 ---
-title: Void SetDbiKey(String DbiKey)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetDbiKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1890
-keywords: SetDbiKey(String)
----
-
 
 The primary key for the integrated entry in the external datasource.
 
+**Parameter:** 
+ - **dbiKey** String
 
-
-* **DbiKey:** String
-* **Returns:** String
-
+```crmscript
+NSContactEntity thing;
+String dbiKey;
+thing.SetDbiKey(dbiKey);
+```
 

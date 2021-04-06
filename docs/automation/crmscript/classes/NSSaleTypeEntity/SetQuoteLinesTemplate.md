@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_SetQuoteLinesTemplate
+title: SetQuoteLinesTemplate(Integer quoteLinesTemplate)
+intellisense: NSSaleTypeEntity.SetQuoteLinesTemplate
+keywords: NSSaleTypeEntity, GetQuoteLinesTemplate
+so.topic: reference
 ---
-title: Void SetQuoteLinesTemplate(Integer QuoteLinesTemplate)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetQuoteLinesTemplate(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetQuoteLinesTemplate(Integer)
----
-
 
 The template that this sale type should use when producing the product lines offer document; the template must have DocTmplQuoteType=QuoteLines
 
+**Parameter:** 
+ - **quoteLinesTemplate** Integer
 
-
-* **QuoteLinesTemplate:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleTypeEntity thing;
+Integer quoteLinesTemplate;
+thing.SetQuoteLinesTemplate(quoteLinesTemplate);
+```
 

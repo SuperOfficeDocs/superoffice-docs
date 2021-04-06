@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_SaveEMailAccount
+title: NSEMailAccount SaveEMailAccount(NSEMailAccount eMailAccount);
+intellisense: NSEMailAgent.SaveEMailAccount
+keywords: NSEMailAgent, SaveEMailAccount
+so.topic: reference
 ---
-title: NSEMailAccount SaveEMailAccount(NSEMailAccount eMailAccount)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAccount SaveEMailAccount(NSEMailAccount p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2798
-keywords: SaveEMailAccount(NSEMailAccount)
----
+	  
+Updates the existing NSEMailAccount or creates a new NSEMailAccount if the id parameter is 0
+	  
+**Parameters**:
+ - **eMailAccount** The NSEMailAccount to save.
 
+**Returns:** New or updated NSEMailAccount
 
-Updates the existing EMailAccount or creates a new EMailAccount if the id parameter is empty
-
-
-
-* **eMailAccount:** The EMailAccount that is saved
-* **Returns:** New or updated EMailAccount
-
+```crmscript
+NSEMail  agent;
+NSEMailAccount thing = agent.CreateDefaultEMailAccount();
+thing = agent.SaveEMailAccount(thing);
+```
 

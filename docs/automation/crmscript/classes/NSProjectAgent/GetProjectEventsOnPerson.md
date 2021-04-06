@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetProjectEventsOnPerson
+title: ProjectEventArray GetProjectEventsOnPerson(Integer personId)
+intellisense: NSProjectAgent.GetProjectEventsOnPerson
+keywords: NSProjectAgent, GetProjectEventsOnPerson
+so.topic: reference
 ---
-title: NSProjectEvent[] GetProjectEventsOnPerson(Integer personId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEvent[] GetProjectEventsOnPerson(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetProjectEventsOnPerson(Integer)
----
-
 
 Gets all project events that belongs to the person specified. The list of events are filtered by the Audience Visibility restrictions set when the project event is created.
 
+**Parameters:**
+ - **personId** Id of the person the project events belong to.
 
+**Returns:** Array of project events
 
-* **personId:** Id of the person the project events belong to.
-* **Returns:** Array of project events
-
+```crmscript
+NSProjectAgent agent;
+Integer personId;
+ProjectEventArray res = agent.GetProjectEventsOnPerson(personId);
+```
 

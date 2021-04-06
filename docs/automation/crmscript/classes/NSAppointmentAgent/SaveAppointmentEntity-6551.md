@@ -1,10 +1,10 @@
 ---
-title: Void SaveAppointmentEntity(NSAppointmentEntity appointmentEntity)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void SaveAppointmentEntity(NSAppointmentEntity p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAppointmentAgent_SaveAppointmentEntity_NSAppointmentEntity_p_0
+title: NSAppointmentAgent.SaveAppointmentEntity(NSAppointmentEntity p_0)
+intellisense: NSAppointmentAgent.SaveAppointmentEntity
 sortOrder: 918
 keywords: SaveAppointmentEntity(NSAppointmentEntity)
+so.topic: reference
 ---
 
 

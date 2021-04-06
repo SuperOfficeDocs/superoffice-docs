@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetIcon
+title: SetIcon(Integer icon)
+intellisense: NSExtAppEntity.SetIcon
+keywords: NSExtAppEntity, GetIcon
+so.topic: reference
 ---
-title: Void SetIcon(Integer Icon)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetIcon(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3383
-keywords: SetIcon(Integer)
----
-
 
 The id of the icon of the external app
 
+**Parameter:** 
+ - **icon** Integer
 
-
-* **Icon:** Integer
-* **Returns:** Void
-
+```crmscript
+NSExtAppEntity thing;
+Integer icon;
+thing.SetIcon(icon);
+```
 

@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetLink
+title: NSLink GetLink(Integer linkId);
+intellisense: NSListAgent.GetLink
+keywords: NSListAgent, GetLink
+so.topic: reference
 ---
-title: NSLink GetLink(Integer linkId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLink GetLink(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetLink(Integer)
----
 
+Gets a NSLink object.
 
-Gets a Link object.
+**Parameters:**
+ - **linkId** The identifier of the NSLink object
 
+**Returns:** NSLink
 
-
-* **linkId:** The identifier of the Link object
-* **Returns:** Link
-
+```crmscript
+NSListAgent agent;
+NSLink thing = agent.GetLink(123);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPriceList_SetPriceListId
+title: SetPriceListId(Integer priceListId)
+intellisense: NSPriceList.SetPriceListId
+keywords: NSPriceList, GetPriceListId
+so.topic: reference
 ---
-title: Void SetPriceListId(Integer PriceListId)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetPriceListId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPriceListId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **priceListId** Integer
 
-
-* **PriceListId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPriceList thing;
+Integer priceListId;
+thing.SetPriceListId(priceListId);
+```
 

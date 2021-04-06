@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetProductDescription
 title: String GetProductDescription()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetProductDescription()
-intellisense: 1
-classref: 1
-keywords: GetProductDescription()
+intellisense: NSLicenseInfo.GetProductDescription
+keywords: NSLicenseInfo, GetProductDescription
+so.topic: reference
 ---
-
 
 Description of type of product
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLicenseInfo thing;
+String productDescription  = thing.GetProductDescription();
+```
 
 

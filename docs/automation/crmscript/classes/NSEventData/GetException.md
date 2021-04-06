@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEventData_GetException
 title: String GetException()
-path: /EJScript/Classes/NSEventData/Member functions/String GetException()
-intellisense: 1
-classref: 1
-sortOrder: 3341
-keywords: GetException()
+intellisense: NSEventData.GetException
+keywords: NSEventData, GetException
+so.topic: reference
 ---
-
 
 String containing error message from handler system if it failed
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEventData thing;
+String exception  = thing.GetException();
+```
 
 

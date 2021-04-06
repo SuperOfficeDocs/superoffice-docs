@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetPaymentType
+title: NSPaymentType GetPaymentType(Integer paymentTypeId);
+intellisense: NSListAgent.GetPaymentType
+keywords: NSListAgent, GetPaymentType
+so.topic: reference
 ---
-title: NSPaymentType GetPaymentType(Integer paymentTypeId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSPaymentType GetPaymentType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPaymentType(Integer)
----
 
+Gets a NSPaymentType object.
 
-Gets a PaymentType object.
+**Parameters:**
+ - **paymentTypeId** The identifier of the NSPaymentType object
 
+**Returns:** NSPaymentType
 
-
-* **paymentTypeId:** The identifier of the PaymentType object
-* **Returns:** PaymentType
-
+```crmscript
+NSListAgent agent;
+NSPaymentType thing = agent.GetPaymentType(123);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_GetUpdatedAssociateId
 title: Integer GetUpdatedAssociateId()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Integer GetUpdatedAssociateId()
-intellisense: 1
-classref: 1
-sortOrder: 2132
-keywords: GetUpdatedAssociateId()
+intellisense: NSCRMScriptEntity.GetUpdatedAssociateId
+keywords: NSCRMScriptEntity, GetUpdatedAssociateId
+so.topic: reference
 ---
-
 
 Last updated by whom
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCRMScriptEntity thing;
+Integer updatedAssociateId  = thing.GetUpdatedAssociateId();
+```
 
 

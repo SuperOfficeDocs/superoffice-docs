@@ -1,9 +1,9 @@
 ---
 description: String getCookie(String name)
-path: /EJScript/Global functions/String getCookie(String name)
-intellisense: 1
+intellisense: Void.getCookie
 langref: 1
 keywords: getCookie(String)
+so.topic: reference
 ---
 
 

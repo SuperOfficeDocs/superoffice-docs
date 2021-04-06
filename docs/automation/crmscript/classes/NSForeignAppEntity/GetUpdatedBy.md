@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignAppEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
+intellisense: NSForeignAppEntity.GetUpdatedBy
+keywords: NSForeignAppEntity, GetUpdatedBy
+so.topic: reference
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
-sortOrder: 3702
-keywords: GetUpdatedBy()
----
-
 
 The person that last updated this foreign application.
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSForeignAppEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
 
 

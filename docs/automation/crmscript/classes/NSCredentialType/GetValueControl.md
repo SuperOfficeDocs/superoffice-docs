@@ -1,21 +1,24 @@
----
+﻿---
+uid: crmscript_ref_NSCredentialType_GetValueControl
 title: Integer GetValueControl()
-path: /EJScript/Classes/NSCredentialType/Member functions/Integer GetValueControl()
-intellisense: 1
-classref: 1
-sortOrder: 2072
-keywords: GetValueControl()
+intellisense: NSCredentialType.GetValueControl
+keywords: NSCredentialType, GetValueControl
+so.topic: reference
 ---
-
 
 Type of control used to display the value.
-* Static=0
-* Edit=1
-* Password=2
-* Link=3
-* Hidden=4
 
+**Returns:** Integer
 
-* **Returns:** Integer
+     - Enum: 0 = Static 
+     - Enum: 1 = Edit 
+     - Enum: 2 = Password 
+     - Enum: 3 = Link 
+     - Enum: 4 = Hidden 
+
+```crmscript
+NSCredentialType thing;
+Integer valueControl  = thing.GetValueControl();
+```
 
 

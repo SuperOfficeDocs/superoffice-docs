@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetConsents
+title: SetConsents(ConsentInfoArray consents)
+intellisense: NSPersonEntity.SetConsents
+keywords: NSPersonEntity, GetConsents
+so.topic: reference
 ---
-title: Void SetConsents(NSConsentInfo[] Consents)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetConsents(NSConsentInfo[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetConsents(NSConsentInfo[])
----
-
 
 The person's available consent information. Missing consents are not deleted. To remove a consent, mark its legalbase as 'WITHDRAWN'
 
+**Parameter:** 
+ - **consents** ConsentInfoArray
 
-
-* **Consents:** ConsentInfoArray
-* **Returns:** ConsentInfoArray
-
+```crmscript
+NSPersonEntity thing;
+ConsentInfoArray consents;
+thing.SetConsents(consents);
+```
 

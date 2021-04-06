@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFavourite_GetAssociateId
 title: Integer GetAssociateId()
-path: /EJScript/Classes/NSFavourite/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
-sortOrder: 3435
-keywords: GetAssociateId()
+intellisense: NSFavourite.GetAssociateId
+keywords: NSFavourite, GetAssociateId
+so.topic: reference
 ---
-
 
 Id of the associate this favourite belongs to.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFavourite thing;
+Integer associateId  = thing.GetAssociateId();
+```
 
 

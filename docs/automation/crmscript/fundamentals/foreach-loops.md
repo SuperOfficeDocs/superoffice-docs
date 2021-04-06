@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_loops_foreach
-description: Loops - foreach
+uid: crmscript_fundamentals_loops_foreach
+title: Loops - foreach
 author:
 so.date:
 keywords:

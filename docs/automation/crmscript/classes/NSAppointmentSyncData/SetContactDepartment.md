@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetContactDepartment
+title: SetContactDepartment(String contactDepartment)
+intellisense: NSAppointmentSyncData.SetContactDepartment
+keywords: NSAppointmentSyncData, GetContactDepartment
+so.topic: reference
 ---
-title: Void SetContactDepartment(String ContactDepartment)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetContactDepartment(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1069
-keywords: SetContactDepartment(String)
----
-
 
 The department of the contact connected to the appointment
 
+**Parameter:** 
+ - **contactDepartment** String
 
-
-* **ContactDepartment:** String
-* **Returns:** String
-
+```crmscript
+NSAppointmentSyncData thing;
+String contactDepartment;
+thing.SetContactDepartment(contactDepartment);
+```
 

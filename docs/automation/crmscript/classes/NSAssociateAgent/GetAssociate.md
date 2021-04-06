@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSAssociateAgent_GetAssociate
+title: NSAssociate GetAssociate(Integer associateId);
+intellisense: NSAssociateAgent.GetAssociate
+keywords: NSAssociateAgent, GetAssociate
+so.topic: reference
 ---
-title: NSAssociate GetAssociate(Integer associateId)
-path: /EJScript/Classes/NSAssociateAgent/Member functions/NSAssociate GetAssociate(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1280
-keywords: GetAssociate(Integer)
----
 
+Gets a NSAssociate object.
 
-Gets a Associate object.
+**Parameters:**
+ - **associateId** The identifier of the NSAssociate object
 
+**Returns:** NSAssociate
 
-
-* **associateId:** The identifier of the Associate object
-* **Returns:** Associate
-
+```crmscript
+NSAssociateAgent agent;
+NSAssociate thing = agent.GetAssociate(123);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_GetRegisteredAssociateId
 title: Integer GetRegisteredAssociateId()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetRegisteredAssociateId()
-intellisense: 1
-classref: 1
-keywords: GetRegisteredAssociateId()
+intellisense: NSSuggestedAppointment.GetRegisteredAssociateId
+keywords: NSSuggestedAppointment, GetRegisteredAssociateId
+so.topic: reference
 ---
-
 
 Registered by whom
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSuggestedAppointment thing;
+Integer registeredAssociateId  = thing.GetRegisteredAssociateId();
+```
 
 

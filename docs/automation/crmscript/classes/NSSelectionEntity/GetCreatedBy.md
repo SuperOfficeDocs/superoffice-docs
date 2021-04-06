@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetCreatedBy
+title: Associate GetCreatedBy()
+intellisense: NSSelectionEntity.GetCreatedBy
+keywords: NSSelectionEntity, GetCreatedBy
+so.topic: reference
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
-keywords: GetCreatedBy()
----
-
 
 Who created the selection
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSSelectionEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
 
 

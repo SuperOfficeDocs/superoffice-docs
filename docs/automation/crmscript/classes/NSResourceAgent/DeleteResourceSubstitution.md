@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSResourceAgent_DeleteResourceSubstitution
 title: Void DeleteResourceSubstitution(String resourceName, String culture)
-path: /EJScript/Classes/NSResourceAgent/Member functions/Void DeleteResourceSubstitution(String p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: DeleteResourceSubstitution(String,String)
+intellisense: NSResourceAgent.DeleteResourceSubstitution
+keywords: NSResourceAgent, DeleteResourceSubstitution
+so.topic: reference
 ---
-
 
 Permanentely delete a resource substitution for one or more cultures
 
+**Parameters:**
+ - **resourceName** The name of the resource, without any brackets
+ - **culture** The .NET culture string; if blank, then ALL substitutions for this resource will be dropped
 
+**Returns:** This method has no return value
 
-* **resourceName:** The name of the resource, without any brackets
-* **culture:** The .NET culture string; if blank, then ALL substitutions for this resource will be dropped
-* **Returns:** This method has no return value
-
+```crmscript
+NSResourceAgent agent;
+String resourceName;
+String culture;
+Void res = agent.DeleteResourceSubstitution(resourceName, culture);
+```
 

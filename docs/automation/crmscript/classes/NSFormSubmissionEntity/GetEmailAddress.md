@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_GetEmailAddress
 title: String GetEmailAddress()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/String GetEmailAddress()
-intellisense: 1
-classref: 1
-sortOrder: 3837
-keywords: GetEmailAddress()
+intellisense: NSFormSubmissionEntity.GetEmailAddress
+keywords: NSFormSubmissionEntity, GetEmailAddress
+so.topic: reference
 ---
-
 
 The email address of the person who submitted
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFormSubmissionEntity thing;
+String emailAddress  = thing.GetEmailAddress();
+```
 
 

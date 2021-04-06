@@ -1,25 +1,29 @@
----
-title: Void SetArchivedState(Integer p0)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetArchivedState(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetArchivedState(Integer)
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetArchivedState
+title: SetArchivedState(QuoteVersionState archivedState)
+intellisense: NSQuoteVersion.SetArchivedState
+keywords: NSQuoteVersion, GetArchivedState
+so.topic: reference
 ---
 
 State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.
 
-* Unknown=0
-* Draft=1
-* DraftNotCalculated=2
-* DraftNeedsApproval=3
-* DraftApproved=4
-* DraftNotApproved=5
-* Sent=6
-* Archived=7
-* Lost=8
-* Sold=9
+**Parameter:** 
+ - **archivedState** QuoteVersionState
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Draft 
+     - Enum: 2 = DraftNotCalculated 
+     - Enum: 3 = DraftNeedsApproval 
+     - Enum: 4 = DraftApproved 
+     - Enum: 5 = DraftNotApproved 
+     - Enum: 6 = Sent 
+     - Enum: 7 = Archived 
+     - Enum: 8 = Lost 
+     - Enum: 9 = Sold 
 
-* **p_0:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteVersion thing;
+QuoteVersionState archivedState;
+thing.SetArchivedState(archivedState);
+```
 

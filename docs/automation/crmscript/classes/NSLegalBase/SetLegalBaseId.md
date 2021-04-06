@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLegalBase_SetLegalBaseId
+title: SetLegalBaseId(Integer legalBaseId)
+intellisense: NSLegalBase.SetLegalBaseId
+keywords: NSLegalBase, GetLegalBaseId
+so.topic: reference
 ---
-title: Void SetLegalBaseId(Integer LegalBaseId)
-path: /EJScript/Classes/NSLegalBase/Member functions/Void SetLegalBaseId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLegalBaseId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **legalBaseId** Integer
 
-
-* **LegalBaseId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSLegalBase thing;
+Integer legalBaseId;
+thing.SetLegalBaseId(legalBaseId);
+```
 

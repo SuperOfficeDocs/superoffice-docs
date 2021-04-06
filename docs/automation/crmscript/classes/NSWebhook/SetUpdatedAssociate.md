@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebhook_SetUpdatedAssociate
+title: SetUpdatedAssociate(Associate updatedAssociate)
+intellisense: NSWebhook.SetUpdatedAssociate
+keywords: NSWebhook, GetUpdatedAssociate
+so.topic: reference
 ---
-title: Void SetUpdatedAssociate(NSAssociate UpdatedAssociate)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetUpdatedAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatedAssociate(NSAssociate)
----
-
 
 The user that last updated the webhook.
 
+**Parameter:** 
+ - **updatedAssociate** Associate
 
-
-* **UpdatedAssociate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSWebhook thing;
+Associate updatedAssociate;
+thing.SetUpdatedAssociate(updatedAssociate);
+```
 

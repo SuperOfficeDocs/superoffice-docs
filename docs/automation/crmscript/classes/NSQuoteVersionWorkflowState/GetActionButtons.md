@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionWorkflowState_GetActionButtons
+title: QuoteVersionButtonStateArray GetActionButtons()
+intellisense: NSQuoteVersionWorkflowState.GetActionButtons
+keywords: NSQuoteVersionWorkflowState, GetActionButtons
+so.topic: reference
 ---
-title: NSQuoteVersionButtonState[] GetActionButtons()
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/NSQuoteVersionButtonState[] GetActionButtons()
-intellisense: 1
-classref: 1
-keywords: GetActionButtons()
----
-
 
 Array of visible buttons with defined actions in the quote verson dialog.
 
+**Returns:** QuoteVersionButtonStateArray
 
 
-* **Returns:** QuoteVersionButtonStateArray
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionButtonStateArray actionButtons  = thing.GetActionButtons();
+```
 
 

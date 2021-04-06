@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAccount_GetOutgoingCredentials
+title: ServiceAuth GetOutgoingCredentials()
+intellisense: NSEMailAccount.GetOutgoingCredentials
+keywords: NSEMailAccount, GetOutgoingCredentials
+so.topic: reference
 ---
-title: NSServiceAuth GetOutgoingCredentials()
-path: /EJScript/Classes/NSEMailAccount/Member functions/NSServiceAuth GetOutgoingCredentials()
-intellisense: 1
-classref: 1
-sortOrder: 2749
-keywords: GetOutgoingCredentials()
----
-
 
 Account credentials for smtp
 
+**Returns:** ServiceAuth
 
 
-* **Returns:** ServiceAuth
+```crmscript
+NSEMailAccount thing;
+ServiceAuth outgoingCredentials  = thing.GetOutgoingCredentials();
+```
 
 

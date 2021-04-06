@@ -1,13 +1,19 @@
----
-title: NSDataRight[][] GetRights()
-path: /EJScript/Classes/NSDataRights/Member functions/NSDataRight[][] GetRights()
-intellisense: 1
-classref: 1
-sortOrder: 2350
-keywords: GetRights()
+﻿---
+uid: crmscript_ref_NSDataRights_GetRights
+title: DataRightArrayArray GetRights()
+intellisense: NSDataRights.GetRights
+keywords: NSDataRights, GetRights
+so.topic: reference
 ---
 
 
-* **Returns:** DataRightArrayArray
+
+**Returns:** DataRightArrayArray
+
+
+```crmscript
+NSDataRights thing;
+DataRightArrayArray rights  = thing.GetRights();
+```
 
 

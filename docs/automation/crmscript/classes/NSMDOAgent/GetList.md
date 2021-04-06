@@ -1,20 +1,27 @@
+﻿---
+uid: crmscript_ref_NSMDOAgent_GetList
+title: MDOListItemArray GetList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
+intellisense: NSMDOAgent.GetList
+keywords: NSMDOAgent, GetList
+so.topic: reference
 ---
-title: NSMDOListItem[] GetList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSMDOListItem[] GetList(String p_0, Bool p_1, String p_2, Bool p_3)
-intellisense: 1
-classref: 1
-keywords: GetList(String,Bool,String,Bool)
----
-
 
 Method to get a MDO list.
 
+**Parameters:**
+ - **name** Conceptual name of the MDO list-
+ - **forceFlatList** Force the list to be flat
+ - **additionalInfo** Additional info to the MDO provider
+ - **onlyHistory** If true, return only history items
 
+**Returns:** Array of MDOListItem
 
-* **name:** Conceptual name of the MDO list-
-* **forceFlatList:** Force the list to be flat
-* **additionalInfo:** Additional info to the MDO provider
-* **onlyHistory:** If true, return only history items
-* **Returns:** Array of MDOListItem
-
+```crmscript
+NSMDOAgent agent;
+String name;
+Bool forceFlatList;
+String additionalInfo;
+Bool onlyHistory;
+MDOListItemArray res = agent.GetList(name, forceFlatList, additionalInfo, onlyHistory);
+```
 

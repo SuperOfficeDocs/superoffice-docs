@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAccount
 title: NSEMailAccount
-path: /EJScript/Classes/NSEMailAccount
-intellisense: 1
-classref: 1
-sortOrder: 2742
+intellisense: Void.NSEMailAccount
+keywords: NSEMailAccount
+so.topic: reference
 ---
 
 Properties for an email account
 
-
-
-
-1. autolist
+1. autolist 
 

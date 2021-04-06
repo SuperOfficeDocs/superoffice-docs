@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSReplicationAgent
 title: NSReplicationAgent
-path: /EJScript/Classes/NSReplicationAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSReplicationAgent
+keywords: NSReplicationAgent
+so.topic: reference
 ---
-
 
 Replication/Travel administration
 
-
-
+```crmscript
+NSReplicationAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

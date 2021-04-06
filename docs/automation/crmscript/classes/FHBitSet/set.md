@@ -1,10 +1,10 @@
 ---
-title: Void set(Integer value)
-path: /EJScript/Classes/FHBitSet/Member functions/Void set(Integer value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_FHBitSet_set_Integer_value
+title: FHBitSet.set(Integer value)
+intellisense: FHBitSet.set
 sortOrder: 337
 keywords: set(Integer)
+so.topic: reference
 ---
 
 This function initializees the bitset from an integer.

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetPriority
+title: SetPriority(TicketPriorityEntity priority)
+intellisense: NSTicketEntity.SetPriority
+keywords: NSTicketEntity, GetPriority
+so.topic: reference
 ---
-title: Void SetPriority(NSTicketPriorityEntity Priority)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetPriority(NSTicketPriorityEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SetPriority(NSTicketPriorityEntity)
----
-
 
 The ticket priority entity which this ticket is connected to
 
+**Parameter:** 
+ - **priority** TicketPriorityEntity
 
-
-* **Priority:** TicketPriorityEntity
-* **Returns:** TicketPriorityEntity
-
+```crmscript
+NSTicketEntity thing;
+TicketPriorityEntity priority;
+thing.SetPriority(priority);
+```
 

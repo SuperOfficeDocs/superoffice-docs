@@ -1,9 +1,9 @@
 ---
-title: Bool notifyEmail(Integer replyTemplateId)
-path: /EJScript/Classes/Ticket/Member functions/Bool notifyEmail(Integer replyTemplateId)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Ticket_notifyEmail_Integer_replyTemplateId
+title: Ticket.notifyEmail(Integer replyTemplateId)
+intellisense: Ticket.notifyEmail
 keywords: notifyEmail(Integer)
+so.topic: reference
 ---
 
 

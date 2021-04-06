@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_SetName
+title: SetName(String name)
+intellisense: NSDiaryViewEntity.SetName
+keywords: NSDiaryViewEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2416
-keywords: SetName(String)
----
-
 
 Name of the DiaryView.
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSDiaryViewEntity thing;
+String name;
+thing.SetName(name);
+```
 

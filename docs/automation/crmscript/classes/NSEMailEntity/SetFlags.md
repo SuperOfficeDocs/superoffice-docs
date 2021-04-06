@@ -1,25 +1,26 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetFlags
+title: SetFlags(Integer flags)
+intellisense: NSEMailEntity.SetFlags
+keywords: NSEMailEntity, GetFlags
+so.topic: reference
 ---
-title: Void SetFlags(Integer Flags)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetFlags(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2981
-keywords: SetFlags(Integer)
----
-
 
 Flag status of this mail (unread, replied, deleted )
 
-* None=0
-* Seen=1
-* Deleted=2
-* Recent=4
-* Flagged=8
-* Draft=16
-* Answered=32
+**Parameter:** 
+ - **flags** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Seen 
+     - Enum: 2 = Deleted 
+     - Enum: 4 = Recent 
+     - Enum: 8 = Flagged 
+     - Enum: 16 = Draft 
+     - Enum: 32 = Answered 
 
-
-* **Flags:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailEntity thing;
+Integer flags;
+thing.SetFlags(flags);
+```
 

@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSAssociate
 title: NSAssociate
-path: /EJScript/Classes/NSAssociate
-intellisense: 1
-classref: 1
-sortOrder: 1252
+intellisense: Void.NSAssociate
+keywords: NSAssociate
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

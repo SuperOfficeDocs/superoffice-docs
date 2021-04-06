@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplate_GetDocumentTemplateId
 title: Integer GetDocumentTemplateId()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Integer GetDocumentTemplateId()
-intellisense: 1
-classref: 1
-sortOrder: 2623
-keywords: GetDocumentTemplateId()
+intellisense: NSDocumentTemplate.GetDocumentTemplateId
+keywords: NSDocumentTemplate, GetDocumentTemplateId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDocumentTemplate thing;
+Integer documentTemplateId  = thing.GetDocumentTemplateId();
+```
 
 

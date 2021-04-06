@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_SetCanRestrictBy
+title: SetCanRestrictBy(Bool canRestrictBy)
+intellisense: NSArchiveColumnInfo.SetCanRestrictBy
+keywords: NSArchiveColumnInfo, GetCanRestrictBy
+so.topic: reference
 ---
-title: Void SetCanRestrictBy(Bool CanRestrictBy)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetCanRestrictBy(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1152
-keywords: SetCanRestrictBy(Bool)
----
-
 
 Can this column be used as a restriction
 
+**Parameter:** 
+ - **canRestrictBy** Bool
 
-
-* **CanRestrictBy:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSArchiveColumnInfo thing;
+Bool canRestrictBy;
+thing.SetCanRestrictBy(canRestrictBy);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAlarmData_SetContactName
+title: SetContactName(String contactName)
+intellisense: NSAlarmData.SetContactName
+keywords: NSAlarmData, GetContactName
+so.topic: reference
 ---
-title: Void SetContactName(String ContactName)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetContactName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 679
-keywords: SetContactName(String)
----
-
 
 Contact name
 
+**Parameter:** 
+ - **contactName** String
 
-
-* **ContactName:** String
-* **Returns:** String
-
+```crmscript
+NSAlarmData thing;
+String contactName;
+thing.SetContactName(contactName);
+```
 

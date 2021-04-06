@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetUpdatedBy
+title: SetUpdatedBy(Associate updatedBy)
+intellisense: NSSaleEntity.SetUpdatedBy
+keywords: NSSaleEntity, GetUpdatedBy
+so.topic: reference
 ---
-title: Void SetUpdatedBy(NSAssociate UpdatedBy)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetUpdatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatedBy(NSAssociate)
----
-
 
 Who updated the sale
 
+**Parameter:** 
+ - **updatedBy** Associate
 
-
-* **UpdatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSSaleEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
 

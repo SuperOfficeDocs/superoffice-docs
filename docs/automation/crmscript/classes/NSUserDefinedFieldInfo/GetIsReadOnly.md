@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetIsReadOnly
 title: Bool GetIsReadOnly()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Bool GetIsReadOnly()
-intellisense: 1
-classref: 1
-keywords: GetIsReadOnly()
+intellisense: NSUserDefinedFieldInfo.GetIsReadOnly
+keywords: NSUserDefinedFieldInfo, GetIsReadOnly
+so.topic: reference
 ---
-
 
 0 = read/write, 1 = readonly (don't combine with mandatory  8-) )
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSUserDefinedFieldInfo thing;
+Bool isReadOnly  = thing.GetIsReadOnly();
+```
 
 

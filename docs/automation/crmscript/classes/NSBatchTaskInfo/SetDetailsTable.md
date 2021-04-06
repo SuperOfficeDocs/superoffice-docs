@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetDetailsTable
+title: SetDetailsTable(Integer detailsTable)
+intellisense: NSBatchTaskInfo.SetDetailsTable
+keywords: NSBatchTaskInfo, GetDetailsTable
+so.topic: reference
 ---
-title: Void SetDetailsTable(Integer DetailsTable)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetDetailsTable(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1391
-keywords: SetDetailsTable(Integer)
----
-
 
 Id of table with more information about the task.
 
+**Parameter:** 
+ - **detailsTable** Integer
 
-
-* **DetailsTable:** Integer
-* **Returns:** Void
-
+```crmscript
+NSBatchTaskInfo thing;
+Integer detailsTable;
+thing.SetDetailsTable(detailsTable);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatPresence_SetPresent
+title: SetPresent(Bool present)
+intellisense: NSChatPresence.SetPresent
+keywords: NSChatPresence, GetPresent
+so.topic: reference
 ---
-title: Void SetPresent(Bool Present)
-path: /EJScript/Classes/NSChatPresence/Member functions/Void SetPresent(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1527
-keywords: SetPresent(Bool)
----
-
 
 Indicates if the user has the chat presence turned on or off
 
+**Parameter:** 
+ - **present** Bool
 
-
-* **Present:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSChatPresence thing;
+Bool present;
+thing.SetPresent(present);
+```
 

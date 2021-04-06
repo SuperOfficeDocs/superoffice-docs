@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetBcc
+title: EMailAddressArray GetBcc()
+intellisense: NSEMailEntity.GetBcc
+keywords: NSEMailEntity, GetBcc
+so.topic: reference
 ---
-title: NSEMailAddress[] GetBcc()
-path: /EJScript/Classes/NSEMailEntity/Member functions/NSEMailAddress[] GetBcc()
-intellisense: 1
-classref: 1
-sortOrder: 2958
-keywords: GetBcc()
----
-
 
 Bcc recipient of e-mail
 
+**Returns:** EMailAddressArray
 
 
-* **Returns:** EMailAddressArray
+```crmscript
+NSEMailEntity thing;
+EMailAddressArray bcc  = thing.GetBcc();
+```
 
 

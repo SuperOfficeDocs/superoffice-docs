@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeTask_GetPriorityId
 title: Integer GetPriorityId()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetPriorityId()
-intellisense: 1
-classref: 1
-keywords: GetPriorityId()
+intellisense: NSMailMergeTask.GetPriorityId
+keywords: NSMailMergeTask, GetPriorityId
+so.topic: reference
 ---
-
 
 Priority of task
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMailMergeTask thing;
+Integer priorityId  = thing.GetPriorityId();
+```
 
 

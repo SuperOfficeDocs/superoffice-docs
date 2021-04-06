@@ -1,17 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSBatchAgent_DeleteBatchTask
 title: Void DeleteBatchTask(Integer batchTaskId)
-path: /EJScript/Classes/NSBatchAgent/Member functions/Void DeleteBatchTask(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1360
-keywords: DeleteBatchTask(Integer)
+intellisense: NSBatchAgent.DeleteBatchTask
+keywords: NSBatchAgent, DeleteBatchTask
+so.topic: reference
 ---
-
 
 Delete a batch task from the database.
 
-
-
-* **batchTaskId:** The batchTask ids to delete.
-
-
+**Parameters:**
+ - **batchTaskId** The batchTask ids to delete.

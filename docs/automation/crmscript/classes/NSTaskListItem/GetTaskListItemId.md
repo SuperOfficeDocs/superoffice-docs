@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTaskListItem_GetTaskListItemId
 title: Integer GetTaskListItemId()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetTaskListItemId()
-intellisense: 1
-classref: 1
-keywords: GetTaskListItemId()
+intellisense: NSTaskListItem.GetTaskListItemId
+keywords: NSTaskListItem, GetTaskListItemId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTaskListItem thing;
+Integer taskListItemId  = thing.GetTaskListItemId();
+```
 
 

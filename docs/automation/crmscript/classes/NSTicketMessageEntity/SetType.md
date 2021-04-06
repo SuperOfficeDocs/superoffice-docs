@@ -1,17 +1,22 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetType
+title: SetType(TicketMessageType type)
+intellisense: NSTicketMessageEntity.SetType
+keywords: NSTicketMessageEntity, GetType
+so.topic: reference
 ---
-title: Void SetType(NSTicketMessageType Type)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetType(NSTicketMessageType p_0)
-intellisense: 1
-classref: 1
-keywords: SetType(NSTicketMessageType)
----
-
 
 The type of the message (plaintext/html).
 
+**Parameter:** 
+ - **type** TicketMessageType
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Plain 
+     - Enum: 2 = Html 
 
-
-* **Type:** TicketMessageType
-* **Returns:** TicketMessageType
-
+```crmscript
+NSTicketMessageEntity thing;
+TicketMessageType type;
+thing.SetType(type);
+```
 

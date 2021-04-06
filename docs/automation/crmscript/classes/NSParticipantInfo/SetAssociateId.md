@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantInfo_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSParticipantInfo.SetAssociateId
+keywords: NSParticipantInfo, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociateId(Integer)
----
-
 
 Associate id of the participant if the participant is an associate (or resource)
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSParticipantInfo thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

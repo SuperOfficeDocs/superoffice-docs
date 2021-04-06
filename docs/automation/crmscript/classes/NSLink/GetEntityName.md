@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLink_GetEntityName
 title: String GetEntityName()
-path: /EJScript/Classes/NSLink/Member functions/String GetEntityName()
-intellisense: 1
-classref: 1
-keywords: GetEntityName()
+intellisense: NSLink.GetEntityName
+keywords: NSLink, GetEntityName
+so.topic: reference
 ---
-
 
 Name of the entity the link points to (The destination/target entity)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLink thing;
+String entityName  = thing.GetEntityName();
+```
 
 

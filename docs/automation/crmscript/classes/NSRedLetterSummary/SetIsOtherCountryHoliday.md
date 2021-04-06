@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRedLetterSummary_SetIsOtherCountryHoliday
+title: SetIsOtherCountryHoliday(Bool isOtherCountryHoliday)
+intellisense: NSRedLetterSummary.SetIsOtherCountryHoliday
+keywords: NSRedLetterSummary, GetIsOtherCountryHoliday
+so.topic: reference
 ---
-title: Void SetIsOtherCountryHoliday(Bool IsOtherCountryHoliday)
-path: /EJScript/Classes/NSRedLetterSummary/Member functions/Void SetIsOtherCountryHoliday(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsOtherCountryHoliday(Bool)
----
-
 
 If true, this day is a holiday in at least one of the countries that has defined associates in the system, but not in the country of the associate whose diary is being scanned.
 
+**Parameter:** 
+ - **isOtherCountryHoliday** Bool
 
-
-* **IsOtherCountryHoliday:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSRedLetterSummary thing;
+Bool isOtherCountryHoliday;
+thing.SetIsOtherCountryHoliday(isOtherCountryHoliday);
+```
 

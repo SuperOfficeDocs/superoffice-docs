@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSSaleAgent_IsNumberValid
 title: Bool IsNumberValid(Integer contactId, String number)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Bool IsNumberValid(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: IsNumberValid(Integer,String)
+intellisense: NSSaleAgent.IsNumberValid
+keywords: NSSaleAgent, IsNumberValid
+so.topic: reference
 ---
-
 
 Checks if the number is unique or required.  The setting is configured from admin under system options.
 
+**Parameters:**
+ - **contactId** SaleId
+ - **number** Number value to check for uniqueness/required
 
+**Returns:** True if the number is valid
 
-* **contactId:** SaleId
-* **number:** Number value to check for uniqueness/required
-* **Returns:** True if the number is valid
-
+```crmscript
+NSSaleAgent agent;
+Integer contactId;
+String number;
+Bool res = agent.IsNumberValid(contactId, number);
+```
 

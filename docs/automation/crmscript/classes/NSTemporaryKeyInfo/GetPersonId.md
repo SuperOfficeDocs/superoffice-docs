@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTemporaryKeyInfo_GetPersonId
 title: Integer GetPersonId()
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
-keywords: GetPersonId()
+intellisense: NSTemporaryKeyInfo.GetPersonId
+keywords: NSTemporaryKeyInfo, GetPersonId
+so.topic: reference
 ---
-
 
 The person id this key is related to. May be null.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTemporaryKeyInfo thing;
+Integer personId  = thing.GetPersonId();
+```
 
 

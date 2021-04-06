@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_SaveQuoteLineConfigurations
+title: QuoteLineConfigurationArray SaveQuoteLineConfigurations(QuoteLineConfigurationArray quoteLineConfigurations)
+intellisense: NSQuoteAgent.SaveQuoteLineConfigurations
+keywords: NSQuoteAgent, SaveQuoteLineConfigurations
+so.topic: reference
 ---
-title: NSQuoteLineConfiguration[] SaveQuoteLineConfigurations(NSQuoteLineConfiguration[] quoteLineConfigurations)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLineConfiguration[] SaveQuoteLineConfigurations(NSQuoteLineConfiguration[] p_0)
-intellisense: 1
-classref: 1
-keywords: SaveQuoteLineConfigurations(NSQuoteLineConfiguration[])
----
-
 
 Save a collection of QuoteLineConfigurations. It is not possible to add a new configurations.
 
+**Parameters:**
+ - **quoteLineConfigurations** The QuoteLineConfigurations to save.
 
+**Returns:** The saved QuoteLineConfigurations.
 
-* **quoteLineConfigurations:** The QuoteLineConfigurations to save.
-* **Returns:** The saved QuoteLineConfigurations.
-
+```crmscript
+NSQuoteAgent agent;
+QuoteLineConfigurationArray quoteLineConfigurations;
+QuoteLineConfigurationArray res = agent.SaveQuoteLineConfigurations(quoteLineConfigurations);
+```
 

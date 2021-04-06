@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetConfig
+title: SetConfig(String config)
+intellisense: NSFormEntity.SetConfig
+keywords: NSFormEntity, GetConfig
+so.topic: reference
 ---
-title: Void SetConfig(String Config)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetConfig(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3807
-keywords: SetConfig(String)
----
-
 
 The JSON-formatted config of this form
 
+**Parameter:** 
+ - **config** String
 
-
-* **Config:** String
-* **Returns:** String
-
+```crmscript
+NSFormEntity thing;
+String config;
+thing.SetConfig(config);
+```
 

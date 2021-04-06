@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateInfo_SetExternalReference
+title: SetExternalReference(String externalReference)
+intellisense: NSTemplateInfo.SetExternalReference
+keywords: NSTemplateInfo, GetExternalReference
+so.topic: reference
 ---
-title: Void SetExternalReference(String ExternalReference)
-path: /EJScript/Classes/NSTemplateInfo/Member functions/Void SetExternalReference(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExternalReference(String)
----
-
 
 Unique key that identifies the document so it can be retrieved
 
+**Parameter:** 
+ - **externalReference** String
 
-
-* **ExternalReference:** String
-* **Returns:** String
-
+```crmscript
+NSTemplateInfo thing;
+String externalReference;
+thing.SetExternalReference(externalReference);
+```
 

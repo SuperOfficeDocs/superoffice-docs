@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPurpose_SetName
+title: SetName(String name)
+intellisense: NSConsentPurpose.SetName
+keywords: NSConsentPurpose, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1693
-keywords: SetName(String)
----
-
 
 Name of consent purpose
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSConsentPurpose thing;
+String name;
+thing.SetName(name);
+```
 

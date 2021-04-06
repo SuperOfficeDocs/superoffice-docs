@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_SaveDefaultValueInfo
+title: ErpSyncDefaultValue SaveDefaultValueInfo(ErpSyncDefaultValue erpSyncDefaultValue)
+intellisense: NSErpSyncAgent.SaveDefaultValueInfo
+keywords: NSErpSyncAgent, SaveDefaultValueInfo
+so.topic: reference
 ---
-title: NSErpSyncDefaultValue SaveDefaultValueInfo(NSErpSyncDefaultValue erpSyncDefaultValue)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncDefaultValue SaveDefaultValueInfo(NSErpSyncDefaultValue p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3204
-keywords: SaveDefaultValueInfo(NSErpSyncDefaultValue)
----
-
 
 Save information about a default value for an ERP field
 
+**Parameters:**
+ - **erpSyncDefaultValue** The id of the ERPfield to save
 
+**Returns:** The newly saved ErpSyncDefaultValue
 
-* **erpSyncDefaultValue:** The id of the ERPfield to save
-* **Returns:** The newly saved ErpSyncDefaultValue
-
+```crmscript
+NSErpSyncAgent agent;
+ErpSyncDefaultValue erpSyncDefaultValue;
+ErpSyncDefaultValue res = agent.SaveDefaultValueInfo(erpSyncDefaultValue);
+```
 

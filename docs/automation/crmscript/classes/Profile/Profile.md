@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_Profile
 title: Profile
-path: /EJScript/Classes/Profile
-intellisense: 1
-classref: 1
+intellisense: Void.Profile
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetVisibility
 title: Integer GetVisibility()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetVisibility()
-intellisense: 1
-classref: 1
-keywords: GetVisibility()
+intellisense: NSSelectionEntity.GetVisibility
+keywords: NSSelectionEntity, GetVisibility
+so.topic: reference
 ---
-
 
 Obsolete, but still maintained denormalization of visiblefor
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectionEntity thing;
+Integer visibility  = thing.GetVisibility();
+```
 
 

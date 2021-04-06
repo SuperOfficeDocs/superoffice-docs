@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncConnectorEntity_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSErpSyncConnectorEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 3241
-keywords: GetDeleted()
+intellisense: NSErpSyncConnectorEntity.GetDeleted
+keywords: NSErpSyncConnectorEntity, GetDeleted
+so.topic: reference
 ---
-
 
 True if the connector is deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSErpSyncConnectorEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

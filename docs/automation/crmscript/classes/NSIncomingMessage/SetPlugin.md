@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSIncomingMessage_SetPlugin
+title: SetPlugin(String plugin)
+intellisense: NSIncomingMessage.SetPlugin
+keywords: NSIncomingMessage, GetPlugin
+so.topic: reference
 ---
-title: Void SetPlugin(String Plugin)
-path: /EJScript/Classes/NSIncomingMessage/Member functions/Void SetPlugin(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3995
-keywords: SetPlugin(String)
----
-
 
 Name of plugin
 
+**Parameter:** 
+ - **plugin** String
 
-
-* **Plugin:** String
-* **Returns:** String
-
+```crmscript
+NSIncomingMessage thing;
+String plugin;
+thing.SetPlugin(plugin);
+```
 

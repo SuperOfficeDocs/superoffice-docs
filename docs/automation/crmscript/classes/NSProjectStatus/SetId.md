@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSProjectStatus_SetId
+title: SetId(Integer id)
+intellisense: NSProjectStatus.SetId
+keywords: NSProjectStatus, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSProjectStatus/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the ProjectStatus
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer ProjectStatus id.
 
+```crmscript
+NSProjectStatus thing;
+thing.SetId(123);
+```
 

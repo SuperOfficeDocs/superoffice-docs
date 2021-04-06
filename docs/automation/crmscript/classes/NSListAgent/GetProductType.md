@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetProductType
+title: NSProductType GetProductType(Integer productTypeId);
+intellisense: NSListAgent.GetProductType
+keywords: NSListAgent, GetProductType
+so.topic: reference
 ---
-title: NSProductType GetProductType(Integer productTypeId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProductType GetProductType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetProductType(Integer)
----
 
+Gets a NSProductType object.
 
-Gets a ProductType object.
+**Parameters:**
+ - **productTypeId** The identifier of the NSProductType object
 
+**Returns:** NSProductType
 
-
-* **productTypeId:** The identifier of the ProductType object
-* **Returns:** ProductType
-
+```crmscript
+NSListAgent agent;
+NSProductType thing = agent.GetProductType(123);
+```
 

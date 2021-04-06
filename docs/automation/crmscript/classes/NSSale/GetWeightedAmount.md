@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetWeightedAmount
 title: Float GetWeightedAmount()
-path: /EJScript/Classes/NSSale/Member functions/Float GetWeightedAmount()
-intellisense: 1
-classref: 1
-keywords: GetWeightedAmount()
+intellisense: NSSale.GetWeightedAmount
+keywords: NSSale, GetWeightedAmount
+so.topic: reference
 ---
-
 
 The weighted amount ( amount *  probability / 100)
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSale thing;
+Float weightedAmount  = thing.GetWeightedAmount();
+```
 
 

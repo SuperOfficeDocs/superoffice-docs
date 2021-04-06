@@ -1,10 +1,10 @@
 ---
-title: Void removeExternalEmails(Integer p0, Integer p1)
-path: /EJScript/Classes/Customer/Member functions/Void removeExternalEmails(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_removeExternalEmails_Integer_p_0_Integer_p_1
+title: Customer.removeExternalEmails(Integer p_0, Integer p_1)
+intellisense: Customer.removeExternalEmails
 sortOrder: 191
 keywords: removeExternalEmails(Integer,Integer)
+so.topic: reference
 ---
 
 

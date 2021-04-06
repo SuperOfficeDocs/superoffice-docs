@@ -1,18 +1,24 @@
----
+﻿---
+uid: crmscript_ref_NSFreeTextAgent_SetMultiWordOperator
 title: Void SetMultiWordOperator(Integer freeTextOperator)
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/Void SetMultiWordOperator(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3876
-keywords: SetMultiWordOperator(Integer)
+intellisense: NSFreeTextAgent.SetMultiWordOperator
+keywords: NSFreeTextAgent, SetMultiWordOperator
+so.topic: reference
 ---
-
 
 Sets the operator used when matching multiple words
 
+**Parameters:**
+ - **freeTextOperator** The operator
+     - Enum: 1 = Contains 
+     - Enum: 2 = StartsWith 
+     - Enum: 3 = ExactMatch 
 
+**Returns:** No return value
 
-* **freeTextOperator:** The operator
-* **Returns:** No return value
-
+```crmscript
+NSFreeTextAgent agent;
+Integer freeTextOperator;
+Void res = agent.SetMultiWordOperator(freeTextOperator);
+```
 

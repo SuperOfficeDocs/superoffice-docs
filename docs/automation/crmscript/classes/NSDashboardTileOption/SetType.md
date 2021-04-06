@@ -1,18 +1,24 @@
+﻿---
+uid: crmscript_ref_NSDashboardTileOption_SetType
+title: SetType(Integer type)
+intellisense: NSDashboardTileOption.SetType
+keywords: NSDashboardTileOption, GetType
+so.topic: reference
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2330
-keywords: SetType(Integer)
----
-
 
 The type of option - integer, list, boolean (checkbox) etc.
 
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = String 
+     - Enum: 2 = Integer 
+     - Enum: 3 = Boolean 
+     - Enum: 4 = List 
 
-
-* **Type:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDashboardTileOption thing;
+Integer type;
+thing.SetType(type);
+```
 

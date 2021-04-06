@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSAudienceAgent_GetAudienceLayoutEntity
+title: NSAudienceLayoutEntity GetAudienceLayoutEntity(Integer audienceLayoutEntityId);
+intellisense: NSAudienceAgent.GetAudienceLayoutEntity
+keywords: NSAudienceAgent, GetAudienceLayoutEntity
+so.topic: reference
 ---
-title: NSAudienceLayoutEntity GetAudienceLayoutEntity(Integer audienceLayoutEntityId)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceLayoutEntity GetAudienceLayoutEntity(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1299
-keywords: GetAudienceLayoutEntity(Integer)
----
 
+Gets a NSAudienceLayoutEntity object.
 
-Gets a AudienceLayoutEntity object.
+**Parameters:**
+ - **audienceLayoutEntityId** The identifier of the NSAudienceLayoutEntity object
 
+**Returns:** NSAudienceLayoutEntity
 
-
-* **audienceLayoutEntityId:** The identifier of the AudienceLayoutEntity object
-* **Returns:** AudienceLayoutEntity
-
+```crmscript
+NSAudienceAgent agent;
+NSAudienceLayoutEntity thing = agent.GetAudienceLayoutEntity(123);
+```
 

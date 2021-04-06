@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSMarketingAgent_DeleteFormEntity
+title: DeleteFormEntity(Integer formEntity);
+intellisense: NSMarketingAgent.DeleteFormEntity
+keywords: NSMarketingAgent, DeleteFormEntity
+so.topic: reference
 ---
-title: Void DeleteFormEntity(Integer formEntityId)
-path: /EJScript/Classes/NSMarketingAgent/Member functions/Void DeleteFormEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteFormEntity(Integer)
----
 
+Deletes the NSFormEntity
+  
+**Parameters:**
+ - **formEntityId** The identity of the FormEntity to delete.
 
-Deletes the FormEntity
-
-
-
-* **formEntityId:** The identity of the FormEntity
-
+```crmscript
+NSMarketingAgent agent;
+agent.DeleteFormEntity(123);
+```
 

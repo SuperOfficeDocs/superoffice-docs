@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSReplicationAgent_GetSatellite
+title: NSSatellite GetSatellite(Integer satelliteId);
+intellisense: NSReplicationAgent.GetSatellite
+keywords: NSReplicationAgent, GetSatellite
+so.topic: reference
 ---
-title: NSSatellite GetSatellite(Integer satelliteId)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSSatellite GetSatellite(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSatellite(Integer)
----
 
+Gets a NSSatellite object.
 
-Gets a Satellite object.
+**Parameters:**
+ - **satelliteId** The identifier of the NSSatellite object
 
+**Returns:** NSSatellite
 
-
-* **satelliteId:** The identifier of the Satellite object
-* **Returns:** Satellite
-
+```crmscript
+NSReplicationAgent agent;
+NSSatellite thing = agent.GetSatellite(123);
+```
 

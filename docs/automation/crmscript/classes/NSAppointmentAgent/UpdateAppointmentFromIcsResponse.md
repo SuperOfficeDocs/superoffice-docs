@@ -1,19 +1,23 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_UpdateAppointmentFromIcsResponse
+title: Bool UpdateAppointmentFromIcsResponse(String emailAddress, Stream icsData)
+intellisense: NSAppointmentAgent.UpdateAppointmentFromIcsResponse
+keywords: NSAppointmentAgent, UpdateAppointmentFromIcsResponse
+so.topic: reference
 ---
-title: Bool UpdateAppointmentFromIcsResponse(String emailAddress, NSStream icsData)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Bool UpdateAppointmentFromIcsResponse(String p_0, NSStream p_1)
-intellisense: 1
-classref: 1
-sortOrder: 825
-keywords: UpdateAppointmentFromIcsResponse(String,NSStream)
----
-
 
 Update the attendance to an appointment based on incoming ICS RSVPs.
 
+**Parameters:**
+ - **emailAddress** The email-address of the person responding to our meeting-request.
+ - **icsData** The iCal ICS RSVP-content in byte-form.
 
+**Returns:** True if successfull.
 
-* **emailAddress:** The email-address of the person responding to our meeting-request.
-* **icsData:** The iCal ICS RSVP-content in byte-form.
-* **Returns:** True if successfull.
-
+```crmscript
+NSAppointmentAgent agent;
+String emailAddress;
+Stream icsData;
+Bool res = agent.UpdateAppointmentFromIcsResponse(emailAddress, icsData);
+```
 

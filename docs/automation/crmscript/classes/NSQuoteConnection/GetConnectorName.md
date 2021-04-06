@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteConnection_GetConnectorName
 title: String GetConnectorName()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetConnectorName()
-intellisense: 1
-classref: 1
-keywords: GetConnectorName()
+intellisense: NSQuoteConnection.GetConnectorName
+keywords: NSQuoteConnection, GetConnectorName
+so.topic: reference
 ---
-
 
 Programmatic name of the Connector plugin that implements this kind of connection
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteConnection thing;
+String connectorName  = thing.GetConnectorName();
+```
 
 

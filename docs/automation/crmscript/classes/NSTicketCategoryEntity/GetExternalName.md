@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_GetExternalName
 title: String GetExternalName()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/String GetExternalName()
-intellisense: 1
-classref: 1
-keywords: GetExternalName()
+intellisense: NSTicketCategoryEntity.GetExternalName
+keywords: NSTicketCategoryEntity, GetExternalName
+so.topic: reference
 ---
-
 
 The external name for this category, used for the customer frontend.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketCategoryEntity thing;
+String externalName  = thing.GetExternalName();
+```
 
 

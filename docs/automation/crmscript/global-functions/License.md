@@ -1,9 +1,9 @@
 ---
 description: License License(String host, String license)
-path: /EJScript/Global functions/License License(String host, String license)
-intellisense: 1
+intellisense: Void.License
 langref: 1
 keywords: License(String,String)
+so.topic: reference
 ---
 
 

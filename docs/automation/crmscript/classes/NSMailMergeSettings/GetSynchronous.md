@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_GetSynchronous
 title: Bool GetSynchronous()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetSynchronous()
-intellisense: 1
-classref: 1
-keywords: GetSynchronous()
+intellisense: NSMailMergeSettings.GetSynchronous
+keywords: NSMailMergeSettings, GetSynchronous
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSMailMergeSettings thing;
+Bool synchronous  = thing.GetSynchronous();
+```
 
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectStatus_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSProjectStatus.SetTooltip
+keywords: NSProjectStatus, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSProjectStatus/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the ProjectStatus list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String ProjectStatus tooltip description.
 
+```crmscript
+NSProjectStatus thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

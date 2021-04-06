@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLocalizedText_SetLocalizedTextId
+title: SetLocalizedTextId(Integer localizedTextId)
+intellisense: NSLocalizedText.SetLocalizedTextId
+keywords: NSLocalizedText, GetLocalizedTextId
+so.topic: reference
 ---
-title: Void SetLocalizedTextId(Integer LocalizedTextId)
-path: /EJScript/Classes/NSLocalizedText/Member functions/Void SetLocalizedTextId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLocalizedTextId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **localizedTextId** Integer
 
-
-* **LocalizedTextId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSLocalizedText thing;
+Integer localizedTextId;
+thing.SetLocalizedTextId(localizedTextId);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetAuthor
+title: SetAuthor(String author)
+intellisense: NSTicket.SetAuthor
+keywords: NSTicket, GetAuthor
+so.topic: reference
 ---
-title: Void SetAuthor(String Author)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetAuthor(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetAuthor(String)
----
-
 
 A string representing the author of the ticket (same as author of first message).
 
+**Parameter:** 
+ - **author** String
 
-
-* **Author:** String
-* **Returns:** String
-
+```crmscript
+NSTicket thing;
+String author;
+thing.SetAuthor(author);
+```
 

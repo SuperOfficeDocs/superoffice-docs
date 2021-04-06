@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentInfo_SetConsentPersonId
+title: SetConsentPersonId(Integer consentPersonId)
+intellisense: NSConsentInfo.SetConsentPersonId
+keywords: NSConsentInfo, GetConsentPersonId
+so.topic: reference
 ---
-title: Void SetConsentPersonId(Integer ConsentPersonId)
-path: /EJScript/Classes/NSConsentInfo/Member functions/Void SetConsentPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1644
-keywords: SetConsentPersonId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **consentPersonId** Integer
 
-
-* **ConsentPersonId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSConsentInfo thing;
+Integer consentPersonId;
+thing.SetConsentPersonId(consentPersonId);
+```
 

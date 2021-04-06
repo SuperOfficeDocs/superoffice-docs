@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent_GenerateNewPasswordForExternalUser
 title: String GenerateNewPasswordForExternalUser(String associateName)
-path: /EJScript/Classes/NSUserAgent/Member functions/String GenerateNewPasswordForExternalUser(String p_0)
-intellisense: 1
-classref: 1
-keywords: GenerateNewPasswordForExternalUser(String)
+intellisense: NSUserAgent.GenerateNewPasswordForExternalUser
+keywords: NSUserAgent, GenerateNewPasswordForExternalUser
+so.topic: reference
 ---
-
 
 Generates a new password for an external user.
 
+**Parameters:**
+ - **associateName** The name of the associate to change the password for.
 
+**Returns:** Returns the generated password.
 
-* **associateName:** The name of the associate to change the password for.
-* **Returns:** Returns the generated password.
-
+```crmscript
+NSUserAgent agent;
+String associateName;
+String res = agent.GenerateNewPasswordForExternalUser(associateName);
+```
 

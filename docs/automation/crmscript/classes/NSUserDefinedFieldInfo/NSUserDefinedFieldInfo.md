@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo
 title: NSUserDefinedFieldInfo
-path: /EJScript/Classes/NSUserDefinedFieldInfo
-intellisense: 1
-classref: 1
+intellisense: Void.NSUserDefinedFieldInfo
+keywords: NSUserDefinedFieldInfo
+so.topic: reference
 ---
-
 
 Return information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.
 
-
-
-
-1. autolist
+1. autolist 
 

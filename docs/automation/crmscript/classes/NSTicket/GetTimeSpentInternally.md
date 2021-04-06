@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetTimeSpentInternally
 title: Integer GetTimeSpentInternally()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetTimeSpentInternally()
-intellisense: 1
-classref: 1
-keywords: GetTimeSpentInternally()
+intellisense: NSTicket.GetTimeSpentInternally
+keywords: NSTicket, GetTimeSpentInternally
+so.topic: reference
 ---
-
 
 The total time (seconds) within the priority's office hours the ticket has been in an open status (configurable), not including current state
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicket thing;
+Integer timeSpentInternally  = thing.GetTimeSpentInternally();
+```
 
 

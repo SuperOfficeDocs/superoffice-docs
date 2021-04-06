@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLocalizedText_SetLanguageId
+title: SetLanguageId(Integer languageId)
+intellisense: NSLocalizedText.SetLanguageId
+keywords: NSLocalizedText, GetLanguageId
+so.topic: reference
 ---
-title: Void SetLanguageId(Integer LanguageId)
-path: /EJScript/Classes/NSLocalizedText/Member functions/Void SetLanguageId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLanguageId(Integer)
----
-
 
 Language id as LCID value
 
+**Parameter:** 
+ - **languageId** Integer
 
-
-* **LanguageId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSLocalizedText thing;
+Integer languageId;
+thing.SetLanguageId(languageId);
+```
 

@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDocumentAgent_GetAppointmentDocuments
+title: DocumentArray GetAppointmentDocuments(Integer appointmentId)
+intellisense: NSDocumentAgent.GetAppointmentDocuments
+keywords: NSDocumentAgent, GetAppointmentDocuments
+so.topic: reference
 ---
-title: NSDocument[] GetAppointmentDocuments(Integer appointmentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetAppointmentDocuments(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2472
-keywords: GetAppointmentDocuments(Integer)
----
-
 
 Get all documents that are linked to the appointment. I.e. the documents that are listed in the appointment dialog.
 
+**Parameters:**
+ - **appointmentId** The appointment id.
 
+**Returns:** Array of documents
 
-* **appointmentId:** The appointment id.
-* **Returns:** Array of documents
-
+```crmscript
+NSDocumentAgent agent;
+Integer appointmentId;
+DocumentArray res = agent.GetAppointmentDocuments(appointmentId);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_CreateDefaultSaleTypeEntity
 title: NSSaleTypeEntity CreateDefaultSaleTypeEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleTypeEntity CreateDefaultSaleTypeEntity()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultSaleTypeEntity()
+intellisense: NSListAgent.CreateDefaultSaleTypeEntity
+keywords: NSListAgent, CreateDefaultSaleTypeEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSSaleTypeEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSSaleTypeEntity with default values.
 
-
-Loading default values into a new SaleTypeEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New SaleTypeEntity with default values
-
+```crmscript
+NSListAgent agent;
+NSSaleTypeEntity thing = agent.CreateDefaultSaleTypeEntity();
+thing = agent.SaveSaleTypeEntity(thing);
+```
 

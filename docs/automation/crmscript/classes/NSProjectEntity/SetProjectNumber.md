@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetProjectNumber
+title: SetProjectNumber(String projectNumber)
+intellisense: NSProjectEntity.SetProjectNumber
+keywords: NSProjectEntity, GetProjectNumber
+so.topic: reference
 ---
-title: Void SetProjectNumber(String ProjectNumber)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetProjectNumber(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectNumber(String)
----
-
 
 Automatically generated number
 
+**Parameter:** 
+ - **projectNumber** String
 
-
-* **ProjectNumber:** String
-* **Returns:** String
-
+```crmscript
+NSProjectEntity thing;
+String projectNumber;
+thing.SetProjectNumber(projectNumber);
+```
 

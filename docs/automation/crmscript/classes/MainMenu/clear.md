@@ -1,10 +1,10 @@
 ---
-title: Void clear()
-path: /EJScript/Classes/MainMenu/Member functions/Void clear()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MainMenu_clear
+title: MainMenu.clear()
+intellisense: MainMenu.clear
 sortOrder: 517
 keywords: clear()
+so.topic: reference
 ---
 
 # Void clear()

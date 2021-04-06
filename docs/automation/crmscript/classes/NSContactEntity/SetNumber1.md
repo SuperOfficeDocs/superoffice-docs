@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetNumber1
+title: SetNumber1(String number1)
+intellisense: NSContactEntity.SetNumber1
+keywords: NSContactEntity, GetNumber1
+so.topic: reference
 ---
-title: Void SetNumber1(String Number1)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetNumber1(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1904
-keywords: SetNumber1(String)
----
-
 
 Alphanumeric user field
 
+**Parameter:** 
+ - **number1** String
 
-
-* **Number1:** String
-* **Returns:** String
-
+```crmscript
+NSContactEntity thing;
+String number1;
+thing.SetNumber1(number1);
+```
 

@@ -1,21 +1,27 @@
+﻿---
+uid: crmscript_ref_NSForeignSystemAgent_AddForeignKey
+title: ForeignKey AddForeignKey(ForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
+intellisense: NSForeignSystemAgent.AddForeignKey
+keywords: NSForeignSystemAgent, AddForeignKey
+so.topic: reference
 ---
-title: NSForeignKey AddForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignKey AddForeignKey(NSForeignKey p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
-sortOrder: 3763
-keywords: AddForeignKey(NSForeignKey,String,String,String)
----
-
 
 Add a new key belonging to the ForeignApp and ForeignDevice specified.
 
+**Parameters:**
+ - **foreignKey** Foreign key to save
+ - **applicationName** The name of the foreign application.
+ - **deviceName** The name of the foreign device.
+ - **deviceIdentifier** The device identifier. Optional if device identifier is not used.
 
+**Returns:** The new or updated ForeignKey
 
-* **foreignKey:** Foreign key to save
-* **applicationName:** The name of the foreign application.
-* **deviceName:** The name of the foreign device.
-* **deviceIdentifier:** The device identifier. Optional if device identifier is not used.
-* **Returns:** The new or updated ForeignKey
-
+```crmscript
+NSForeignSystemAgent agent;
+ForeignKey foreignKey;
+String applicationName;
+String deviceName;
+String deviceIdentifier;
+ForeignKey res = agent.AddForeignKey(foreignKey, applicationName, deviceName, deviceIdentifier);
+```
 

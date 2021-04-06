@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem_GetType
 title: String GetType()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetType()
-intellisense: 1
-classref: 1
-keywords: GetType()
+intellisense: NSMDOListItem.GetType
+keywords: NSMDOListItem, GetType
+so.topic: reference
 ---
-
 
 The type of the ListItem. Custom field.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMDOListItem thing;
+String type  = thing.GetType();
+```
 
 

@@ -1,10 +1,10 @@
 ---
-title: String toJson()
-path: /EJScript/Classes/Map/Member functions/String toJson()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Map_toJson
+title: Map.toJson()
+intellisense: Map.toJson
 sortOrder: 533
 keywords: toJson()
+so.topic: reference
 ---
 
 

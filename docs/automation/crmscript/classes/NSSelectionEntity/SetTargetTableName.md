@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetTargetTableName
+title: SetTargetTableName(String targetTableName)
+intellisense: NSSelectionEntity.SetTargetTableName
+keywords: NSSelectionEntity, GetTargetTableName
+so.topic: reference
 ---
-title: Void SetTargetTableName(String TargetTableName)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetTargetTableName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTargetTableName(String)
----
-
 
 TargetTableName contains the name of the table in lowercase. defines the type of selection members this selection contains. e.g. 'contact', or 'project' or 'sale'
 
+**Parameter:** 
+ - **targetTableName** String
 
-
-* **TargetTableName:** String
-* **Returns:** String
-
+```crmscript
+NSSelectionEntity thing;
+String targetTableName;
+thing.SetTargetTableName(targetTableName);
+```
 

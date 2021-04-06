@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetCompleted
 title: Bool GetCompleted()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Bool GetCompleted()
-intellisense: 1
-classref: 1
-keywords: GetCompleted()
+intellisense: NSSelectionEntity.GetCompleted
+keywords: NSSelectionEntity, GetCompleted
+so.topic: reference
 ---
 
+The Completed state. 
 
-The Completed state.
+**Returns:** Bool
 
 
-
-* **Returns:** Bool
+```crmscript
+NSSelectionEntity thing;
+Bool completed  = thing.GetCompleted();
+```
 
 

@@ -1,17 +1,28 @@
+﻿---
+uid: crmscript_ref_NSReportEntity_SetReportLayout
+title: SetReportLayout(Integer reportLayout)
+intellisense: NSReportEntity.SetReportLayout
+keywords: NSReportEntity, GetReportLayout
+so.topic: reference
 ---
-title: Void SetReportLayout(Integer ReportLayout)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetReportLayout(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetReportLayout(Integer)
----
-
 
 The layout of the report.
 
+**Parameter:** 
+ - **reportLayout** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = List 
+     - Enum: 2 = Label 
+     - Enum: 3 = GroupList 
+     - Enum: 4 = CrossTable 
+     - Enum: 5 = CalendarWeek5 
+     - Enum: 6 = CalendarWeek7 
+     - Enum: 7 = CalendarMonth 
+     - Enum: 8 = Text 
 
-
-* **ReportLayout:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportEntity thing;
+Integer reportLayout;
+thing.SetReportLayout(reportLayout);
+```
 

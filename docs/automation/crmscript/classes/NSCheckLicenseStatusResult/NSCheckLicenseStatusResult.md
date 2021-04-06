@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCheckLicenseStatusResult
 title: NSCheckLicenseStatusResult
-path: /EJScript/Classes/NSCheckLicenseStatusResult
-intellisense: 1
-classref: 1
-sortOrder: 1549
+intellisense: Void.NSCheckLicenseStatusResult
+keywords: NSCheckLicenseStatusResult
+so.topic: reference
 ---
-
 
 Result of CheckLicenseStatus
 
-
-
-
-1. autolist
+1. autolist 
 

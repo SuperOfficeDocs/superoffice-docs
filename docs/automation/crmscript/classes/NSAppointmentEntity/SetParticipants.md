@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetParticipants
+title: SetParticipants(ParticipantInfoArray participants)
+intellisense: NSAppointmentEntity.SetParticipants
+keywords: NSAppointmentEntity, GetParticipants
+so.topic: reference
 ---
-title: Void SetParticipants(NSParticipantInfo[] Participants)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetParticipants(NSParticipantInfo[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1017
-keywords: SetParticipants(NSParticipantInfo[])
----
-
 
 List of id's of the participants to this appointment.
 
+**Parameter:** 
+ - **participants** ParticipantInfoArray
 
-
-* **Participants:** ParticipantInfoArray
-* **Returns:** ParticipantInfoArray
-
+```crmscript
+NSAppointmentEntity thing;
+ParticipantInfoArray participants;
+thing.SetParticipants(participants);
+```
 

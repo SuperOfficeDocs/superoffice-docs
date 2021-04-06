@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSVersionInfo_SetVersionId
+title: SetVersionId(String versionId)
+intellisense: NSVersionInfo.SetVersionId
+keywords: NSVersionInfo, GetVersionId
+so.topic: reference
 ---
-title: Void SetVersionId(String VersionId)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetVersionId(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetVersionId(String)
----
-
 
 The document plugin's version id that uniquely identifies one version of a document. If versioning is not supported, this will be blank. When versioning is supported, blank values imply the latest checked-in version.
 
+**Parameter:** 
+ - **versionId** String
 
-
-* **VersionId:** String
-* **Returns:** String
-
+```crmscript
+NSVersionInfo thing;
+String versionId;
+thing.SetVersionId(versionId);
+```
 

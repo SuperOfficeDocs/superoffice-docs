@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSParticipantSyncData
 title: NSParticipantSyncData
-path: /EJScript/Classes/NSParticipantSyncData
-intellisense: 1
-classref: 1
+intellisense: Void.NSParticipantSyncData
+keywords: NSParticipantSyncData
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

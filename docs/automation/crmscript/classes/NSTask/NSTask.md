@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTask
 title: NSTask
-path: /EJScript/Classes/NSTask
-intellisense: 1
-classref: 1
+intellisense: Void.NSTask
+keywords: NSTask
+so.topic: reference
 ---
-
 
 Type of an appointment
 
-
-
-
-1. autolist
+1. autolist 
 

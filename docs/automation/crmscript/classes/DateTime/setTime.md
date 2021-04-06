@@ -1,10 +1,10 @@
 ---
-title: Void setTime(Time theTime)
-path: /EJScript/Classes/DateTime/Member functions/Void setTime(Time theTime)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DateTime_setTime_Time_theTime
+title: DateTime.setTime(Time theTime)
+intellisense: DateTime.setTime
 sortOrder: 241
 keywords: setTime(Time)
+so.topic: reference
 ---
 
 Sets the time-part of the datetime

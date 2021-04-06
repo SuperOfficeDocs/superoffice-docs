@@ -1,9 +1,9 @@
 ---
-title: Integer GetWeekOfMonth()
-path: /EJScript/Classes/NSRecurrenceYearPattern/Member functions/Integer GetWeekOfMonth()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceYearPattern_GetWeekOfMonth
+title: NSRecurrenceYearPattern.GetWeekOfMonth()
+intellisense: NSRecurrenceYearPattern.GetWeekOfMonth
 keywords: GetWeekOfMonth()
+so.topic: reference
 ---
 
 

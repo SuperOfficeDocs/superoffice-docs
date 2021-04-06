@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_GetCustomMailSubject
 title: String GetCustomMailSubject()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/String GetCustomMailSubject()
-intellisense: 1
-classref: 1
-keywords: GetCustomMailSubject()
+intellisense: NSMailMergeSettings.GetCustomMailSubject
+keywords: NSMailMergeSettings, GetCustomMailSubject
+so.topic: reference
 ---
-
 
 If specified, use this value as default mail subject.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMailMergeSettings thing;
+String customMailSubject  = thing.GetCustomMailSubject();
+```
 
 

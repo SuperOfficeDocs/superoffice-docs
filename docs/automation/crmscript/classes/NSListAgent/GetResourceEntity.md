@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetResourceEntity
+title: NSResourceEntity GetResourceEntity(Integer resourceEntityId);
+intellisense: NSListAgent.GetResourceEntity
+keywords: NSListAgent, GetResourceEntity
+so.topic: reference
 ---
-title: NSResourceEntity GetResourceEntity(Integer resourceEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSResourceEntity GetResourceEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetResourceEntity(Integer)
----
 
+Gets a NSResourceEntity object.
 
-Gets a ResourceEntity object.
+**Parameters:**
+ - **resourceEntityId** The identifier of the NSResourceEntity object
 
+**Returns:** NSResourceEntity
 
-
-* **resourceEntityId:** The identifier of the ResourceEntity object
-* **Returns:** ResourceEntity
-
+```crmscript
+NSListAgent agent;
+NSResourceEntity thing = agent.GetResourceEntity(123);
+```
 

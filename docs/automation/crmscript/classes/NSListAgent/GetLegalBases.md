@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetLegalBases
+title: LegalBaseArray GetLegalBases()
+intellisense: NSListAgent.GetLegalBases
+keywords: NSListAgent, GetLegalBases
+so.topic: reference
 ---
-title: NSLegalBase[] GetLegalBases()
-path: /EJScript/Classes/NSListAgent/Member functions/NSLegalBase[] GetLegalBases()
-intellisense: 1
-classref: 1
-keywords: GetLegalBases()
----
-
 
 Returns all defined bases.
 
 
+**Returns:** An array of all defined bases
 
-* **Returns:** An array of all defined bases
-
+```crmscript
+NSListAgent agent;
+LegalBaseArray res = agent.GetLegalBases();
+```
 

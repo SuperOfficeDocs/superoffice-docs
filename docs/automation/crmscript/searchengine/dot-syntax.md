@@ -1,6 +1,6 @@
 ---
-title: search_engine_dot_syntax
-description: Dot-syntax
+uid: search_engine_dot_syntax
+title: Dot-syntax
 author:
 so.date:
 keywords:

@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_GenericSearch
 title: GenericSearch
-path: /EJScript/Classes/GenericSearch
-intellisense: 1
-classref: 1
+intellisense: Void.GenericSearch
 sortOrder: 361
+so.topic: reference
 ---
 
 

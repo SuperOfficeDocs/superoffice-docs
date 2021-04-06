@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerLanguage_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSCustomerLanguage/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-sortOrder: 2215
-keywords: GetValue()
+intellisense: NSCustomerLanguage.GetValue
+keywords: NSCustomerLanguage, GetValue
+so.topic: reference
 ---
 
+Get the name of the CustomerLanguage.
 
-* **Returns:** String
+**Returns:** String CustomerLanguage name.
 
+```crmscript
+NSCustomerLanguage thing;
+String name = thing.GetValue();
+```
 

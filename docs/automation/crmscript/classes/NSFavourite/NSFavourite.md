@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFavourite
 title: NSFavourite
-path: /EJScript/Classes/NSFavourite
-intellisense: 1
-classref: 1
-sortOrder: 3433
+intellisense: Void.NSFavourite
+keywords: NSFavourite
+so.topic: reference
 ---
-
 
 Favourite carrier.
 
-
-
-
-1. autolist
+1. autolist 
 

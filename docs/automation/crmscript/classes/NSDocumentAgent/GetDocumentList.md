@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDocumentAgent_GetDocumentList
+title: NSDocument[] GetDocumentList(Integer[]  documentIds);
+intellisense: NSDocumentAgent.GetDocumentList
+keywords: NSDocumentAgent, GetDocumentList
+so.topic: reference
 ---
-title: NSDocument[] GetDocumentList(Integer[] p0)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetDocumentList(Integer[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2477
-keywords: GetDocumentList(Integer[])
----
 
-Gets an array of Document objects.
+Gets a vector of Document objects.
 
-* **p0:** IntegerArray of identifiers for Document
-* **Returns:** Array of NSDocument
+**Parameters:**
+ - **documentIds** The identifiers of the NSDocument objects
 
+**Returns:** Vector of NSDocument objects
+
+```crmscript
+Integer[] ids;
+NSDocumentAgent agent;
+agent.GetDocumentList(ids);
+```
 

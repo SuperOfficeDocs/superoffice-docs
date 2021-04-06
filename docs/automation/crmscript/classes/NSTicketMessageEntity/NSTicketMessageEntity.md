@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity
 title: NSTicketMessageEntity
-path: /EJScript/Classes/NSTicketMessageEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSTicketMessageEntity
+keywords: NSTicketMessageEntity
+so.topic: reference
 ---
-
 
 The ticket messages are e-mails, SMS or other messages attached to a ticket (aka request).
 
-
-
-
-1. autolist
+1. autolist 
 

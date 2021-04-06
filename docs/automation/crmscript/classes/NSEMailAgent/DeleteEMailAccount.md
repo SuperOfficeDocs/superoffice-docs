@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_DeleteEMailAccount
+title: DeleteEMailAccount(Integer eMailAccount);
+intellisense: NSEMailAgent.DeleteEMailAccount
+keywords: NSEMailAgent, DeleteEMailAccount
+so.topic: reference
 ---
-title: Void DeleteEMailAccount(Integer eMailAccountId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void DeleteEMailAccount(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2856
-keywords: DeleteEMailAccount(Integer)
----
 
+Deletes the NSEMailAccount
+  
+**Parameters:**
+ - **eMailAccountId** The identity of the EMailAccount to delete.
 
-Deletes the EMailAccount
-
-
-
-* **eMailAccountId:** The identity of the EMailAccount
-
+```crmscript
+NSEMailAgent agent;
+agent.DeleteEMailAccount(123);
+```
 

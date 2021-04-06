@@ -1,9 +1,9 @@
 ---
 description: Integer addChatMessage(Integer sessionId, String message, Integer type, String author, Integer specialType, String specialParams)
-path: /EJScript/Global functions/Integer addChatMessage(Integer sessionId, String message, Integer type, String author, Integer specialType, String specialParams)
-intellisense: 1
+intellisense: Void.addChatMessage
 langref: 1
 keywords: addChatMessage(Integer,String,Integer,String,Integer,String)
+so.topic: reference
 ---
 
 

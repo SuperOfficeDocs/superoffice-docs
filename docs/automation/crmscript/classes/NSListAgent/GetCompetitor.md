@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCompetitor
+title: NSCompetitor GetCompetitor(Integer competitorId);
+intellisense: NSListAgent.GetCompetitor
+keywords: NSListAgent, GetCompetitor
+so.topic: reference
 ---
-title: NSCompetitor GetCompetitor(Integer competitorId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCompetitor GetCompetitor(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetCompetitor(Integer)
----
 
+Gets a NSCompetitor object.
 
-Gets a Competitor object.
+**Parameters:**
+ - **competitorId** The identifier of the NSCompetitor object
 
+**Returns:** NSCompetitor
 
-
-* **competitorId:** The identifier of the Competitor object
-* **Returns:** Competitor
-
+```crmscript
+NSListAgent agent;
+NSCompetitor thing = agent.GetCompetitor(123);
+```
 

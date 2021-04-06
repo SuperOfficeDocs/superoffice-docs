@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSmtpTestResult
 title: NSSmtpTestResult
-path: /EJScript/Classes/NSSmtpTestResult
-intellisense: 1
-classref: 1
+intellisense: Void.NSSmtpTestResult
+keywords: NSSmtpTestResult
+so.topic: reference
 ---
-
 
 Carrier containing information about the result of a SMTP test
 
-
-
-
-1. autolist
+1. autolist 
 

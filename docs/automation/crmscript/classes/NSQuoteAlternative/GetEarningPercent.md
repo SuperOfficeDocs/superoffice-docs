@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_GetEarningPercent
 title: Float GetEarningPercent()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Float GetEarningPercent()
-intellisense: 1
-classref: 1
-keywords: GetEarningPercent()
+intellisense: NSQuoteAlternative.GetEarningPercent
+keywords: NSQuoteAlternative, GetEarningPercent
+so.topic: reference
 ---
-
 
 The earning on this alternative, in percent of total. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSQuoteAlternative thing;
+Float earningPercent  = thing.GetEarningPercent();
+```
 
 

@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetConsentSource
+title: NSConsentSource GetConsentSource(Integer consentSourceId);
+intellisense: NSListAgent.GetConsentSource
+keywords: NSListAgent, GetConsentSource
+so.topic: reference
 ---
-title: NSConsentSource GetConsentSource(Integer consentSourceId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSConsentSource GetConsentSource(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetConsentSource(Integer)
----
 
+Gets a NSConsentSource object.
 
-Gets a ConsentSource object.
+**Parameters:**
+ - **consentSourceId** The identifier of the NSConsentSource object
 
+**Returns:** NSConsentSource
 
-
-* **consentSourceId:** The identifier of the ConsentSource object
-* **Returns:** ConsentSource
-
+```crmscript
+NSListAgent agent;
+NSConsentSource thing = agent.GetConsentSource(123);
+```
 

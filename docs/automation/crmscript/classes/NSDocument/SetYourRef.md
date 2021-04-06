@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocument_SetYourRef
+title: SetYourRef(String yourRef)
+intellisense: NSDocument.SetYourRef
+keywords: NSDocument, GetYourRef
+so.topic: reference
 ---
-title: Void SetYourRef(String YourRef)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetYourRef(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2462
-keywords: SetYourRef(String)
----
-
 
 Your reference
 
+**Parameter:** 
+ - **yourRef** String
 
-
-* **YourRef:** String
-* **Returns:** String
-
+```crmscript
+NSDocument thing;
+String yourRef;
+thing.SetYourRef(yourRef);
+```
 

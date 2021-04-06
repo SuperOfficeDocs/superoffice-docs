@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportEntity_GetPublished
 title: Bool GetPublished()
-path: /EJScript/Classes/NSReportEntity/Member functions/Bool GetPublished()
-intellisense: 1
-classref: 1
-keywords: GetPublished()
+intellisense: NSReportEntity.GetPublished
+keywords: NSReportEntity, GetPublished
+so.topic: reference
 ---
-
 
 Is the report published?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSReportEntity thing;
+Bool published  = thing.GetPublished();
+```
 
 

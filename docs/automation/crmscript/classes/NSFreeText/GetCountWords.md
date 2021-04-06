@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFreeText_GetCountWords
 title: Integer GetCountWords()
-path: /EJScript/Classes/NSFreeText/Member functions/Integer GetCountWords()
-intellisense: 1
-classref: 1
-sortOrder: 3855
-keywords: GetCountWords()
+intellisense: NSFreeText.GetCountWords
+keywords: NSFreeText, GetCountWords
+so.topic: reference
 ---
-
 
 Count of unique search words
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFreeText thing;
+Integer countWords  = thing.GetCountWords();
+```
 
 

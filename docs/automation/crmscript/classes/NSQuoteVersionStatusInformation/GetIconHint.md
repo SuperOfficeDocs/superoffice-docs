@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionStatusInformation_GetIconHint
 title: String GetIconHint()
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/String GetIconHint()
-intellisense: 1
-classref: 1
-keywords: GetIconHint()
+intellisense: NSQuoteVersionStatusInformation.GetIconHint
+keywords: NSQuoteVersionStatusInformation, GetIconHint
+so.topic: reference
 ---
-
 
 Icon hint for the associated message.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersionStatusInformation thing;
+String iconHint  = thing.GetIconHint();
+```
 
 

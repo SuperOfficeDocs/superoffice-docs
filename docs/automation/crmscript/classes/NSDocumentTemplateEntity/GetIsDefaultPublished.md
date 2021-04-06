@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetIsDefaultPublished
 title: Bool GetIsDefaultPublished()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Bool GetIsDefaultPublished()
-intellisense: 1
-classref: 1
-sortOrder: 2652
-keywords: GetIsDefaultPublished()
+intellisense: NSDocumentTemplateEntity.GetIsDefaultPublished
+keywords: NSDocumentTemplateEntity, GetIsDefaultPublished
+so.topic: reference
 ---
-
 
 Published to external persons
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSDocumentTemplateEntity thing;
+Bool isDefaultPublished  = thing.GetIsDefaultPublished();
+```
 
 

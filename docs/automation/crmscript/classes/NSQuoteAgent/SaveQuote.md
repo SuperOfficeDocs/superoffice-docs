@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_SaveQuote
+title: Quote SaveQuote(Quote quote)
+intellisense: NSQuoteAgent.SaveQuote
+keywords: NSQuoteAgent, SaveQuote
+so.topic: reference
 ---
-title: NSQuote SaveQuote(NSQuote quote)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuote SaveQuote(NSQuote p_0)
-intellisense: 1
-classref: 1
-keywords: SaveQuote(NSQuote)
----
-
 
 Saves a Quote
 
+**Parameters:**
+ - **quote** The Quote to save
 
+**Returns:** The saved Quote
 
-* **quote:** The Quote to save
-* **Returns:** The saved Quote
-
+```crmscript
+NSQuoteAgent agent;
+Quote quote;
+Quote res = agent.SaveQuote(quote);
+```
 

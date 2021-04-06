@@ -1,10 +1,10 @@
 ---
-title: Void addTable(String tableName)
-path: /EJScript/Classes/DBWrite/Member functions/Void addTable(String tableName)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DBWrite_addTable_String_tableName
+title: DBWrite.addTable(String tableName)
+intellisense: DBWrite.addTable
 sortOrder: 267
 keywords: addTable(String)
+so.topic: reference
 ---
 
 

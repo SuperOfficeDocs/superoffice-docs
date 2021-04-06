@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetAssociateId
 title: Integer GetAssociateId()
-path: /EJScript/Classes/NSDocument/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
-sortOrder: 2430
-keywords: GetAssociateId()
+intellisense: NSDocument.GetAssociateId
+keywords: NSDocument, GetAssociateId
+so.topic: reference
 ---
-
 
 ID of associate whose diary the appointment is in, REQUIRED
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDocument thing;
+Integer associateId  = thing.GetAssociateId();
+```
 
 

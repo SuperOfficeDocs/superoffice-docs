@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetType
+title: SetType(FormType type)
+intellisense: NSFormEntity.SetType
+keywords: NSFormEntity, GetType
+so.topic: reference
 ---
-title: Void SetType(NSFormType Type)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetType(NSFormType p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3824
-keywords: SetType(NSFormType)
----
-
 
 What kind of form is this? Indicates if this is a normal form or a template
 
+**Parameter:** 
+ - **type** FormType
+     - Enum: 0 = Normal 
+     - Enum: 1 = Template 
 
-
-* **Type:** FormType
-* **Returns:** FormType
-
+```crmscript
+NSFormEntity thing;
+FormType type;
+thing.SetType(type);
+```
 

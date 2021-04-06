@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCsFeatureToggle
 title: NSCsFeatureToggle
-path: /EJScript/Classes/NSCsFeatureToggle
-intellisense: 1
-classref: 1
-sortOrder: 2155
+intellisense: Void.NSCsFeatureToggle
+keywords: NSCsFeatureToggle
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

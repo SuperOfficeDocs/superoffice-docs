@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetCreatedDate
 title: DateTime GetCreatedDate()
-path: /EJScript/Classes/NSAppointment/Member functions/DateTime GetCreatedDate()
-intellisense: 1
-classref: 1
-sortOrder: 721
-keywords: GetCreatedDate()
+intellisense: NSAppointment.GetCreatedDate
+keywords: NSAppointment, GetCreatedDate
+so.topic: reference
 ---
-
 
 Appointment creation date
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSAppointment thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
 
 

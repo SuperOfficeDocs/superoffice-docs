@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetProjectId
 title: Integer GetProjectId()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
-sortOrder: 742
-keywords: GetProjectId()
+intellisense: NSAppointment.GetProjectId
+keywords: NSAppointment, GetProjectId
+so.topic: reference
 ---
-
 
 ID of project referred to, may be 0
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAppointment thing;
+Integer projectId  = thing.GetProjectId();
+```
 
 

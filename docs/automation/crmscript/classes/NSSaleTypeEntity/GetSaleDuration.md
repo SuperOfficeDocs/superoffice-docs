@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_GetSaleDuration
 title: Integer GetSaleDuration()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetSaleDuration()
-intellisense: 1
-classref: 1
-keywords: GetSaleDuration()
+intellisense: NSSaleTypeEntity.GetSaleDuration
+keywords: NSSaleTypeEntity, GetSaleDuration
+so.topic: reference
 ---
-
 
 Expected number of dales from initiation to close of sale
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleTypeEntity thing;
+Integer saleDuration  = thing.GetSaleDuration();
+```
 
 

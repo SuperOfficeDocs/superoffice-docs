@@ -1,10 +1,10 @@
 ---
-title: StringDictionary GetParameterObject()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/StringDictionary GetParameterObject()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSBatchTaskInfo_GetParameterObject
+title: NSBatchTaskInfo.GetParameterObject()
+intellisense: NSBatchTaskInfo.GetParameterObject
 sortOrder: 1384
 keywords: GetParameterObject()
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSWebPanelEntity.GetTooltip
+keywords: NSWebPanelEntity, GetTooltip
+so.topic: reference
 ---
-
 
 The tooltip of the web panel
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSWebPanelEntity thing;
+String tooltip  = thing.GetTooltip();
+```
 
 

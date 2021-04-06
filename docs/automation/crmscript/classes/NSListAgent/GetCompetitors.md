@@ -1,12 +1,10 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCompetitors
+title: CompetitorArray GetCompetitors()
+intellisense: NSListAgent.GetCompetitors
+keywords: NSListAgent, GetCompetitors
+so.topic: reference
 ---
-title: NSCompetitor[] GetCompetitors()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCompetitor[] GetCompetitors()
-intellisense: 1
-classref: 1
-keywords: GetCompetitors()
----
-
 
 Returns all competitors
-
 

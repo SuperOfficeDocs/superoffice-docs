@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetDate
 title: DateTime GetDate()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/DateTime GetDate()
-intellisense: 1
-classref: 1
-sortOrder: 2553
-keywords: GetDate()
+intellisense: NSDocumentEntity.GetDate
+keywords: NSDocumentEntity, GetDate
+so.topic: reference
 ---
-
 
 date + start time planned
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSDocumentEntity thing;
+DateTime date  = thing.GetDate();
+```
 
 

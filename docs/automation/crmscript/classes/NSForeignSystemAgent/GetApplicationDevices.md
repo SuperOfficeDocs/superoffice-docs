@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSForeignSystemAgent_GetApplicationDevices
+title: ForeignDeviceArray GetApplicationDevices(String applicationName)
+intellisense: NSForeignSystemAgent.GetApplicationDevices
+keywords: NSForeignSystemAgent, GetApplicationDevices
+so.topic: reference
 ---
-title: NSForeignDevice[] GetApplicationDevices(String applicationName)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignDevice[] GetApplicationDevices(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3762
-keywords: GetApplicationDevices(String)
----
-
 
 Gets all devices that belong to a foreign application.
 
+**Parameters:**
+ - **applicationName** The foreign application name
 
+**Returns:** Array of ForeignDevices
 
-* **applicationName:** The foreign application name
-* **Returns:** Array of ForeignDevices
-
+```crmscript
+NSForeignSystemAgent agent;
+String applicationName;
+ForeignDeviceArray res = agent.GetApplicationDevices(applicationName);
+```
 

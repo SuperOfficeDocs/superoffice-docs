@@ -1,17 +1,22 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetSelectionType
+title: SetSelectionType(Integer selectionType)
+intellisense: NSSelectionEntity.SetSelectionType
+keywords: NSSelectionEntity, GetSelectionType
+so.topic: reference
 ---
-title: Void SetSelectionType(Integer SelectionType)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetSelectionType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSelectionType(Integer)
----
-
 
 Static/Dynamic/Combined?
 
+**Parameter:** 
+ - **selectionType** Integer
+     - Enum: 0 = Static 
+     - Enum: 1 = Dynamic 
+     - Enum: 2 = Combined 
 
-
-* **SelectionType:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectionEntity thing;
+Integer selectionType;
+thing.SetSelectionType(selectionType);
+```
 

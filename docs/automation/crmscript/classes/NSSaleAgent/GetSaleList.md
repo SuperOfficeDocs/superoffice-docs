@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_GetSaleList
+title: NSSale[] GetSaleList(Integer[]  saleIds);
+intellisense: NSSaleAgent.GetSaleList
+keywords: NSSaleAgent, GetSaleList
+so.topic: reference
 ---
-title: NSSale[] GetSaleList(Integer[] p0)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetSaleList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetSaleList(Integer[])
----
 
-Gets an array of Sale objects.
+Gets a vector of Sale objects.
 
+**Parameters:**
+ - **saleIds** The identifiers of the NSSale objects
 
-* **p0:** IntegerArray of identifiers for Sale
-* **Returns:** Array of NSSale
+**Returns:** Vector of NSSale objects
 
+```crmscript
+Integer[] ids;
+NSSaleAgent agent;
+agent.GetSaleList(ids);
+```
 

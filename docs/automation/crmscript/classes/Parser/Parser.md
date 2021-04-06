@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_Parser
 title: Parser
-path: /EJScript/Classes/Parser
-intellisense: 1
-classref: 1
+intellisense: Void.Parser
+so.topic: reference
 ---
 
 

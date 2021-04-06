@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetPhone
+title: SetPhone(String phone)
+intellisense: NSSaleStakeholder.SetPhone
+keywords: NSSaleStakeholder, GetPhone
+so.topic: reference
 ---
-title: Void SetPhone(String Phone)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetPhone(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPhone(String)
----
-
 
 Phone number
 
+**Parameter:** 
+ - **phone** String
 
-
-* **Phone:** String
-* **Returns:** String
-
+```crmscript
+NSSaleStakeholder thing;
+String phone;
+thing.SetPhone(phone);
+```
 

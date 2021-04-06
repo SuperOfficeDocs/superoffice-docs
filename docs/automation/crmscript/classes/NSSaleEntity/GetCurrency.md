@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetCurrency
+title: Currency GetCurrency()
+intellisense: NSSaleEntity.GetCurrency
+keywords: NSSaleEntity, GetCurrency
+so.topic: reference
 ---
-title: NSCurrency GetCurrency()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSCurrency GetCurrency()
-intellisense: 1
-classref: 1
-keywords: GetCurrency()
----
-
 
 The currency the sale object was sold in
 
+**Returns:** Currency
 
 
-* **Returns:** Currency
+```crmscript
+NSSaleEntity thing;
+Currency currency  = thing.GetCurrency();
+```
 
 

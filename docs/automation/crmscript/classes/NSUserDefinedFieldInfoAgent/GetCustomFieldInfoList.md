@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_GetCustomFieldInfoList
+title: FieldInfoBaseArray GetCustomFieldInfoList(String tableName, Bool includeStandard)
+intellisense: NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList
+keywords: NSUserDefinedFieldInfoAgent, GetCustomFieldInfoList
+so.topic: reference
 ---
-title: NSFieldInfoBase[] GetCustomFieldInfoList(String tableName, Bool includeStandard)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSFieldInfoBase[] GetCustomFieldInfoList(String p_0, Bool p_1)
-intellisense: 1
-classref: 1
-keywords: GetCustomFieldInfoList(String,Bool)
----
-
 
 Return information about all the custom fields (user-defined + extra) on a particular table
 
+**Parameters:**
+ - **tableName** The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc.
+ - **includeStandard** Include standard fields in result. Default false.
 
+**Returns:** Array of user-defined and extra field info in rank order. Describes default values, mandatory, visiblity, labels and choices.
 
-* **tableName:** The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc.
-* **includeStandard:** Include standard fields in result. Default false.
-* **Returns:** Array of user-defined and extra field info in rank order. Describes default values, mandatory, visiblity, labels and choices.
-
+```crmscript
+NSUserDefinedFieldInfoAgent agent;
+String tableName;
+Bool includeStandard;
+FieldInfoBaseArray res = agent.GetCustomFieldInfoList(tableName, includeStandard);
+```
 

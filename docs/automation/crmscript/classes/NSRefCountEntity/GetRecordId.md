@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRefCountEntity_GetRecordId
 title: Integer GetRecordId()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Integer GetRecordId()
-intellisense: 1
-classref: 1
-keywords: GetRecordId()
+intellisense: NSRefCountEntity.GetRecordId
+keywords: NSRefCountEntity, GetRecordId
+so.topic: reference
 ---
-
 
 Record id in target table, used when there are separate counters for each target record
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSRefCountEntity thing;
+Integer recordId  = thing.GetRecordId();
+```
 
 

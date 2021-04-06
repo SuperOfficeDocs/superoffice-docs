@@ -1,10 +1,10 @@
 ---
-title: Bool load(Integer id)
-path: /EJScript/Classes/Category/member functions/Bool load(Integer id)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Category_load_Integer_id
+title: Category.load(Integer id)
+intellisense: Category.load
 sortOrder: 151
 keywords: load(Integer)
+so.topic: reference
 ---
 
 Load object with values from category with given id.

@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSMrMrs_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSMrMrs/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSMrMrs.GetId
+keywords: NSMrMrs, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the MrMrs
 
-* **Returns:** Integer
+**Returns:** Integer MrMrs id.
 
+```crmscript
+NSMrMrs thing;
+Integer id = thing.GetId();
+```
 

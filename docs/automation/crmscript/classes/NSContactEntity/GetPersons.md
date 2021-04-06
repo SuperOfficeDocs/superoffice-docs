@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_GetPersons
+title: PersonArray GetPersons()
+intellisense: NSContactEntity.GetPersons
+keywords: NSContactEntity, GetPersons
+so.topic: reference
 ---
-title: NSPerson[] GetPersons()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSPerson[] GetPersons()
-intellisense: 1
-classref: 1
-sortOrder: 1864
-keywords: GetPersons()
----
-
 
 The persons belonging to the contact.
 
+**Returns:** PersonArray
 
 
-* **Returns:** PersonArray
+```crmscript
+NSContactEntity thing;
+PersonArray persons  = thing.GetPersons();
+```
 
 

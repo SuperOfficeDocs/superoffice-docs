@@ -1,9 +1,9 @@
 ---
-title: Void SetDatabaseVersion(Integer p0)
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Void SetDatabaseVersion(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_SetDatabaseVersion_Integer_p_0
+title: NSSoSystemInfoCarrier.SetDatabaseVersion(Integer p_0)
+intellisense: NSSoSystemInfoCarrier.SetDatabaseVersion
 keywords: SetDatabaseVersion(Integer)
+so.topic: reference
 ---
 
 

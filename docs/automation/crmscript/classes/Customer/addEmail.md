@@ -1,10 +1,10 @@
 ---
-title: Void addEmail(String email, Integer externalRank, Integer extTable, Integer dbiAgentId)
-path: /EJScript/Classes/Customer/Member functions/Void addEmail(String email, Integer externalRank, Integer extTable, Integer dbiAgentId)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_addEmail_String_email_Integer_externalRank_Integer_extTable_Integer_dbiAgentId
+title: Customer.addEmail(String email, Integer externalRank, Integer extTable, Integer dbiAgentId)
+intellisense: Customer.addEmail
 sortOrder: 186
 keywords: addEmail(String,Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

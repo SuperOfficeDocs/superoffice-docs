@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetSaleDate
+title: SetSaleDate(DateTime saleDate)
+intellisense: NSSale.SetSaleDate
+keywords: NSSale, GetSaleDate
+so.topic: reference
 ---
-title: Void SetSaleDate(DateTime SaleDate)
-path: /EJScript/Classes/NSSale/Member functions/Void SetSaleDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleDate(DateTime)
----
-
 
 (expected / lost / won) sales date
 
+**Parameter:** 
+ - **saleDate** DateTime
 
-
-* **SaleDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSSale thing;
+DateTime saleDate;
+thing.SetSaleDate(saleDate);
+```
 

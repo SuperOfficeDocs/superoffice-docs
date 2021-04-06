@@ -1,9 +1,9 @@
 ---
 description: Void printDebug(String debug)
-path: /EJScript/Global functions/Void printDebug(String debug)
-intellisense: 1
+intellisense: Void.printDebug
 langref: 1
 keywords: printDebug(String)
+so.topic: reference
 ---
 
 

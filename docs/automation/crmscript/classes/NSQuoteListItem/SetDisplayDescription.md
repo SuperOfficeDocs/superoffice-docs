@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteListItem_SetDisplayDescription
+title: SetDisplayDescription(String displayDescription)
+intellisense: NSQuoteListItem.SetDisplayDescription
+keywords: NSQuoteListItem, GetDisplayDescription
+so.topic: reference
 ---
-title: Void SetDisplayDescription(String DisplayDescription)
-path: /EJScript/Classes/NSQuoteListItem/Member functions/Void SetDisplayDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDisplayDescription(String)
----
-
 
 Typically used in a tooltip.
 
+**Parameter:** 
+ - **displayDescription** String
 
-
-* **DisplayDescription:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteListItem thing;
+String displayDescription;
+thing.SetDisplayDescription(displayDescription);
+```
 

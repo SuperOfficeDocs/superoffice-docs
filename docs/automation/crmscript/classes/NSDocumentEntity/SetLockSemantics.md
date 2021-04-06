@@ -1,14 +1,22 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_SetLockSemantics
+title: SetLockSemantics(Integer lockSemantics)
+intellisense: NSDocumentEntity.SetLockSemantics
+keywords: NSDocumentEntity, GetLockSemantics
+so.topic: reference
 ---
-title: Void SetLockSemantics(Integer LockSemantics)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetLockSemantics(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2602
-keywords: SetLockSemantics(Integer)
----
 
 
-* **LockSemantics:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **lockSemantics** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Locking 
+     - Enum: 2 = Versioning 
+
+```crmscript
+NSDocumentEntity thing;
+Integer lockSemantics;
+thing.SetLockSemantics(lockSemantics);
+```
 

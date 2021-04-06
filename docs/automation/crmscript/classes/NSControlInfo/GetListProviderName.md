@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSControlInfo_GetListProviderName
 title: String GetListProviderName()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetListProviderName()
-intellisense: 1
-classref: 1
-sortOrder: 2000
-keywords: GetListProviderName()
+intellisense: NSControlInfo.GetListProviderName
+keywords: NSControlInfo, GetListProviderName
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSControlInfo thing;
+String listProviderName  = thing.GetListProviderName();
+```
 
 

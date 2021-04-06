@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetTicketStatus
 title: Integer GetTicketStatus()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetTicketStatus()
-intellisense: 1
-classref: 1
-keywords: GetTicketStatus()
+intellisense: NSTicket.GetTicketStatus
+keywords: NSTicket, GetTicketStatus
+so.topic: reference
 ---
-
 
 User defined ticket status
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicket thing;
+Integer ticketStatus  = thing.GetTicketStatus();
+```
 
 

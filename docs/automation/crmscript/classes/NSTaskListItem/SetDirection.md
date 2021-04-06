@@ -1,15 +1,23 @@
+﻿---
+uid: crmscript_ref_NSTaskListItem_SetDirection
+title: SetDirection(TaskDirection direction)
+intellisense: NSTaskListItem.SetDirection
+keywords: NSTaskListItem, GetDirection
+so.topic: reference
 ---
-title: Void SetDirection(Integer p0)
-path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetDirection(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDirection(Integer)
----
-
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
+**Parameter:** 
+ - **direction** TaskDirection
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Incoming 
+     - Enum: 2 = Outgoing 
+     - Enum: 3 = SaintAll 
 
+```crmscript
+NSTaskListItem thing;
+TaskDirection direction;
+thing.SetDirection(direction);
+```
 
-* **p_0:** Integer
-* **Returns:** Void

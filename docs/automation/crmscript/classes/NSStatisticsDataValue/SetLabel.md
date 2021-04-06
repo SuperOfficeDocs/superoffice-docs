@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatisticsDataValue_SetLabel
+title: SetLabel(String label)
+intellisense: NSStatisticsDataValue.SetLabel
+keywords: NSStatisticsDataValue, GetLabel
+so.topic: reference
 ---
-title: Void SetLabel(String Label)
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/Void SetLabel(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetLabel(String)
----
-
 
 The label for the data value
 
+**Parameter:** 
+ - **label** String
 
-
-* **Label:** String
-* **Returns:** String
-
+```crmscript
+NSStatisticsDataValue thing;
+String label;
+thing.SetLabel(label);
+```
 

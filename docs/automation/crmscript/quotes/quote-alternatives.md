@@ -1,6 +1,6 @@
 ---
-title: crmscript_quote_alternatives
-description: Alternatives and quote lines
+uid: crmscript_quote_alternatives
+title: Alternatives and quote lines
 author:
 so.date:
 keywords:

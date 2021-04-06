@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_SetArchived
+title: SetArchived(Bool archived)
+intellisense: NSEMailSOInfo.SetArchived
+keywords: NSEMailSOInfo, GetArchived
+so.topic: reference
 ---
-title: Void SetArchived(Bool Archived)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetArchived(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3053
-keywords: SetArchived(Bool)
----
-
 
 Is this e-mail archived in SuperOffice
 
+**Parameter:** 
+ - **archived** Bool
 
-
-* **Archived:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSEMailSOInfo thing;
+Bool archived;
+thing.SetArchived(archived);
+```
 

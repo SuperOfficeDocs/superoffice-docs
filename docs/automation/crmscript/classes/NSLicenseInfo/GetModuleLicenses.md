@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetModuleLicenses
+title: ModuleLicenseArray GetModuleLicenses()
+intellisense: NSLicenseInfo.GetModuleLicenses
+keywords: NSLicenseInfo, GetModuleLicenses
+so.topic: reference
 ---
-title: NSModuleLicense[] GetModuleLicenses()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/NSModuleLicense[] GetModuleLicenses()
-intellisense: 1
-classref: 1
-keywords: GetModuleLicenses()
----
-
 
 The module licenses.
 
+**Returns:** ModuleLicenseArray
 
 
-* **Returns:** ModuleLicenseArray
+```crmscript
+NSLicenseInfo thing;
+ModuleLicenseArray moduleLicenses  = thing.GetModuleLicenses();
+```
 
 

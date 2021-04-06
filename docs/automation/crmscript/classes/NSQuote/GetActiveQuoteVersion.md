@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuote_GetActiveQuoteVersion
+title: QuoteVersion GetActiveQuoteVersion()
+intellisense: NSQuote.GetActiveQuoteVersion
+keywords: NSQuote, GetActiveQuoteVersion
+so.topic: reference
 ---
-title: NSQuoteVersion GetActiveQuoteVersion()
-path: /EJScript/Classes/NSQuote/Member functions/NSQuoteVersion GetActiveQuoteVersion()
-intellisense: 1
-classref: 1
-keywords: GetActiveQuoteVersion()
----
-
 
 The active quote version for the quote
 
+**Returns:** QuoteVersion
 
 
-* **Returns:** QuoteVersion
+```crmscript
+NSQuote thing;
+QuoteVersion activeQuoteVersion  = thing.GetActiveQuoteVersion();
+```
 
 

@@ -1,13 +1,19 @@
----
-title: String[] GetValues()
-path: /EJScript/Classes/NSEMailCustomHeader/Member functions/String[] GetValues()
-intellisense: 1
-classref: 1
-sortOrder: 2939
-keywords: GetValues()
+﻿---
+uid: crmscript_ref_NSEMailCustomHeader_GetValues
+title: StringArray GetValues()
+intellisense: NSEMailCustomHeader.GetValues
+keywords: NSEMailCustomHeader, GetValues
+so.topic: reference
 ---
 
 
-* **Returns:** StringArray
+
+**Returns:** StringArray
+
+
+```crmscript
+NSEMailCustomHeader thing;
+StringArray values  = thing.GetValues();
+```
 
 

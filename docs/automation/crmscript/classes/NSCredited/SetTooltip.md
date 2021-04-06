@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCredited_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSCredited.SetTooltip
+keywords: NSCredited, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSCredited/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2100
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the Credited list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String Credited tooltip description.
 
+```crmscript
+NSCredited thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

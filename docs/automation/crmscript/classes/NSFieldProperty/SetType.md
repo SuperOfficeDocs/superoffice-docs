@@ -1,10 +1,10 @@
 ---
-title: Void SetType(String p0)
-path: /EJScript/Classes/NSFieldProperty/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSFieldProperty_SetType_String_p_0
+title: NSFieldProperty.SetType(String p_0)
+intellisense: NSFieldProperty.SetType
 sortOrder: 3606
 keywords: SetType(String)
+so.topic: reference
 ---
 
 

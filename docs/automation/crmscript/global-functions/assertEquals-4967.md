@@ -1,9 +1,9 @@
 ---
 description: Void assertEquals(Integer integer1, Integer integer2)
-path: /EJScript/Global functions/Void assertEquals(Integer integer1, Integer integer2)
-intellisense: 1
+intellisense: Void.assertEquals
 langref: 1
 keywords: assertEquals(Integer,Integer)
+so.topic: reference
 ---
 
 

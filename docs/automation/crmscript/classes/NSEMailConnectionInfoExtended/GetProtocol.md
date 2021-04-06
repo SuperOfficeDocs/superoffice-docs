@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfoExtended_GetProtocol
 title: String GetProtocol()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/String GetProtocol()
-intellisense: 1
-classref: 1
-sortOrder: 2926
-keywords: GetProtocol()
+intellisense: NSEMailConnectionInfoExtended.GetProtocol
+keywords: NSEMailConnectionInfoExtended, GetProtocol
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSEMailConnectionInfoExtended thing;
+String protocol  = thing.GetProtocol();
+```
 
 

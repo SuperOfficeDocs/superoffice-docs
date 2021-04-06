@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetDuration
 title: TimeSpan GetDuration()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/TimeSpan GetDuration()
-intellisense: 1
-classref: 1
-keywords: GetDuration()
+intellisense: NSSuggestedAppointmentEntity.GetDuration
+keywords: NSSuggestedAppointmentEntity, GetDuration
+so.topic: reference
 ---
-
 
 Duration in minutes of suggested appointment
 
+**Returns:** TimeSpan
 
 
-* **Returns:** TimeSpan
+```crmscript
+NSSuggestedAppointmentEntity thing;
+TimeSpan duration  = thing.GetDuration();
+```
 
 

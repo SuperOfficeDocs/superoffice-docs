@@ -1,6 +1,6 @@
 ---
-title: crmscript_debug_development_mode
-description: Debugging CRMScript modules
+uid: crmscript_debug_development_mode
+title: Debugging CRMScript modules
 author:
 so.date:
 keywords:

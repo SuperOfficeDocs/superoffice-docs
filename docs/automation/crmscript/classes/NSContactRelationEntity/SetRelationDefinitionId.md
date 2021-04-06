@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_SetRelationDefinitionId
+title: SetRelationDefinitionId(Integer relationDefinitionId)
+intellisense: NSContactRelationEntity.SetRelationDefinitionId
+keywords: NSContactRelationEntity, GetRelationDefinitionId
+so.topic: reference
 ---
-title: Void SetRelationDefinitionId(Integer RelationDefinitionId)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetRelationDefinitionId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1971
-keywords: SetRelationDefinitionId(Integer)
----
-
 
 Reference to definition
 
+**Parameter:** 
+ - **relationDefinitionId** Integer
 
-
-* **RelationDefinitionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContactRelationEntity thing;
+Integer relationDefinitionId;
+thing.SetRelationDefinitionId(relationDefinitionId);
+```
 

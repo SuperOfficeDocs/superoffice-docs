@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChangedDataItem_GetTablename
 title: String GetTablename()
-path: /EJScript/Classes/NSChangedDataItem/Member functions/String GetTablename()
-intellisense: 1
-classref: 1
-sortOrder: 1509
-keywords: GetTablename()
+intellisense: NSChangedDataItem.GetTablename
+keywords: NSChangedDataItem, GetTablename
+so.topic: reference
 ---
-
 
 Name of table, standardized to lowercase
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSChangedDataItem thing;
+String tablename  = thing.GetTablename();
+```
 
 

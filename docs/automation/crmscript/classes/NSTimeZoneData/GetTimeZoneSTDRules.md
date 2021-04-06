@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTimeZoneData_GetTimeZoneSTDRules
+title: TimeZoneRuleDictionary GetTimeZoneSTDRules()
+intellisense: NSTimeZoneData.GetTimeZoneSTDRules
+keywords: NSTimeZoneData, GetTimeZoneSTDRules
+so.topic: reference
 ---
-title: NSTimeZoneRuleDictionary GetTimeZoneSTDRules()
-path: /EJScript/Classes/NSTimeZoneData/Member functions/NSTimeZoneRuleDictionary GetTimeZoneSTDRules()
-intellisense: 1
-classref: 1
-keywords: GetTimeZoneSTDRules()
----
-
 
 Rules for standard time
 
+**Returns:** TimeZoneRuleDictionary
 
 
-* **Returns:** TimeZoneRuleDictionary
+```crmscript
+NSTimeZoneData thing;
+TimeZoneRuleDictionary timeZoneSTDRules  = thing.GetTimeZoneSTDRules();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSServiceAuth_SetServiceAuthId
+title: SetServiceAuthId(Integer serviceAuthId)
+intellisense: NSServiceAuth.SetServiceAuthId
+keywords: NSServiceAuth, GetServiceAuthId
+so.topic: reference
 ---
-title: Void SetServiceAuthId(Integer ServiceAuthId)
-path: /EJScript/Classes/NSServiceAuth/Member functions/Void SetServiceAuthId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetServiceAuthId(Integer)
----
-
 
 The primary key
 
+**Parameter:** 
+ - **serviceAuthId** Integer
 
-
-* **ServiceAuthId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSServiceAuth thing;
+Integer serviceAuthId;
+thing.SetServiceAuthId(serviceAuthId);
+```
 

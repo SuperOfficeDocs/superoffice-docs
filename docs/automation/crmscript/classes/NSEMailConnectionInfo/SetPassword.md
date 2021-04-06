@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfo_SetPassword
+title: SetPassword(String password)
+intellisense: NSEMailConnectionInfo.SetPassword
+keywords: NSEMailConnectionInfo, GetPassword
+so.topic: reference
 ---
-title: Void SetPassword(String Password)
-path: /EJScript/Classes/NSEMailConnectionInfo/Member functions/Void SetPassword(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2916
-keywords: SetPassword(String)
----
-
 
 Password for the username
 
+**Parameter:** 
+ - **password** String
 
-
-* **Password:** String
-* **Returns:** String
-
+```crmscript
+NSEMailConnectionInfo thing;
+String password;
+thing.SetPassword(password);
+```
 

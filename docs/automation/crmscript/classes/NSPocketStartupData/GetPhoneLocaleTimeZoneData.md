@@ -1,12 +1,19 @@
----
-title: NSTimeZoneData GetPhoneLocaleTimeZoneData()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/NSTimeZoneData GetPhoneLocaleTimeZoneData()
-intellisense: 1
-classref: 1
-keywords: GetPhoneLocaleTimeZoneData()
+﻿---
+uid: crmscript_ref_NSPocketStartupData_GetPhoneLocaleTimeZoneData
+title: TimeZoneData GetPhoneLocaleTimeZoneData()
+intellisense: NSPocketStartupData.GetPhoneLocaleTimeZoneData
+keywords: NSPocketStartupData, GetPhoneLocaleTimeZoneData
+so.topic: reference
 ---
 
 
-* **Returns:** TimeZoneData
+
+**Returns:** TimeZoneData
+
+
+```crmscript
+NSPocketStartupData thing;
+TimeZoneData phoneLocaleTimeZoneData  = thing.GetPhoneLocaleTimeZoneData();
+```
 
 

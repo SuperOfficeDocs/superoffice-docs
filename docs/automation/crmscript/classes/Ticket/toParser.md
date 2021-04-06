@@ -1,9 +1,9 @@
 ---
-title: Void toParser(Parser theParser)
-path: /EJScript/Classes/Ticket/Member functions/Void toParser(Parser theParser)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Ticket_toParser_Parser_theParser
+title: Ticket.toParser(Parser theParser)
+intellisense: Ticket.toParser
 keywords: toParser(Parser)
+so.topic: reference
 ---
 
 

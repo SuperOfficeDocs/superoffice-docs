@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetAssociateId
 title: Integer GetAssociateId()
-path: /EJScript/Classes/NSProject/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
-keywords: GetAssociateId()
+intellisense: NSProject.GetAssociateId
+keywords: NSProject, GetAssociateId
+so.topic: reference
 ---
-
 
 The project owner id (associate id)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProject thing;
+Integer associateId  = thing.GetAssociateId();
+```
 
 

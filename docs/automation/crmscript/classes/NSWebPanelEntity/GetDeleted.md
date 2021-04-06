@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSWebPanelEntity.GetDeleted
+keywords: NSWebPanelEntity, GetDeleted
+so.topic: reference
 ---
-
 
 True if the web panel is marked as deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSWebPanelEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

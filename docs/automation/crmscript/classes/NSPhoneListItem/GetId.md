@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListItem_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSPhoneListItem.GetId
+keywords: NSPhoneListItem, GetId
+so.topic: reference
 ---
-
 
 The contact or person's id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPhoneListItem thing;
+Integer id  = thing.GetId();
+```
 
 

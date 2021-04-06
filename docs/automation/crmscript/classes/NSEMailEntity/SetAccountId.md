@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetAccountId
+title: SetAccountId(Integer accountId)
+intellisense: NSEMailEntity.SetAccountId
+keywords: NSEMailEntity, GetAccountId
+so.topic: reference
 ---
-title: Void SetAccountId(Integer AccountId)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetAccountId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2972
-keywords: SetAccountId(Integer)
----
-
 
 Account Id
 
+**Parameter:** 
+ - **accountId** Integer
 
-
-* **AccountId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailEntity thing;
+Integer accountId;
+thing.SetAccountId(accountId);
+```
 

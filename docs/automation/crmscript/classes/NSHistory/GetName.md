@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSHistory_GetName
 title: String GetName()
-path: /EJScript/Classes/NSHistory/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 3932
-keywords: GetName()
+intellisense: NSHistory.GetName
+keywords: NSHistory, GetName
+so.topic: reference
 ---
-
 
 Name of the history item, for instance contact name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSHistory thing;
+String name  = thing.GetName();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetOrgNrText
 title: String GetOrgNrText()
-path: /EJScript/Classes/NSCountry/Member functions/String GetOrgNrText()
-intellisense: 1
-classref: 1
-sortOrder: 2025
-keywords: GetOrgNrText()
+intellisense: NSCountry.GetOrgNrText
+keywords: NSCountry, GetOrgNrText
+so.topic: reference
 ---
-
 
 Lead text for organisation field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCountry thing;
+String orgNrText  = thing.GetOrgNrText();
+```
 
 

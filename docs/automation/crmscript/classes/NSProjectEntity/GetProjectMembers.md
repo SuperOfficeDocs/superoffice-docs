@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetProjectMembers
+title: ProjectMemberArray GetProjectMembers()
+intellisense: NSProjectEntity.GetProjectMembers
+keywords: NSProjectEntity, GetProjectMembers
+so.topic: reference
 ---
-title: NSProjectMember[] GetProjectMembers()
-path: /EJScript/Classes/NSProjectEntity/Member functions/NSProjectMember[] GetProjectMembers()
-intellisense: 1
-classref: 1
-keywords: GetProjectMembers()
----
-
 
 The persons which are members of the project
 
+**Returns:** ProjectMemberArray
 
 
-* **Returns:** ProjectMemberArray
+```crmscript
+NSProjectEntity thing;
+ProjectMemberArray projectMembers  = thing.GetProjectMembers();
+```
 
 

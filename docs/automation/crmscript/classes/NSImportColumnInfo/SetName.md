@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSImportColumnInfo_SetName
+title: SetName(String name)
+intellisense: NSImportColumnInfo.SetName
+keywords: NSImportColumnInfo, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSImportColumnInfo/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3965
-keywords: SetName(String)
----
-
 
 Name of the column
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSImportColumnInfo thing;
+String name;
+thing.SetName(name);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRoleEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSRoleEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSRoleEntity.GetName
+keywords: NSRoleEntity, GetName
+so.topic: reference
 ---
-
 
 Visible role name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSRoleEntity thing;
+String name  = thing.GetName();
+```
 
 

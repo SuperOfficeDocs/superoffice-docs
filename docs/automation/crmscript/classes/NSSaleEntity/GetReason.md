@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetReason
+title: Reason GetReason()
+intellisense: NSSaleEntity.GetReason
+keywords: NSSaleEntity, GetReason
+so.topic: reference
 ---
-title: NSReason GetReason()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSReason GetReason()
-intellisense: 1
-classref: 1
-keywords: GetReason()
----
-
 
 The sale reason
 
+**Returns:** Reason
 
 
-* **Returns:** Reason
+```crmscript
+NSSaleEntity thing;
+Reason reason  = thing.GetReason();
+```
 
 

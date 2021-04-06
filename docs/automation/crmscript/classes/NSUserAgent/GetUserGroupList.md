@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetUserGroupList
+title: NSUserGroup[] GetUserGroupList(Integer[]  userGroupIds);
+intellisense: NSUserAgent.GetUserGroupList
+keywords: NSUserAgent, GetUserGroupList
+so.topic: reference
 ---
-title: NSUserGroup[] GetUserGroupList(Integer[] p0)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUserGroup[] GetUserGroupList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetUserGroupList(Integer[])
----
 
-Gets an array of UserGroup objects.
+Gets a vector of UserGroup objects.
 
+**Parameters:**
+ - **userGroupIds** The identifiers of the NSUserGroup objects
 
-* **p0:** IntegerArray of identifiers for UserGroup
-* **Returns:** Array of NSUserGroup
+**Returns:** Vector of NSUserGroup objects
 
+```crmscript
+Integer[] ids;
+NSUserAgent agent;
+agent.GetUserGroupList(ids);
+```
 

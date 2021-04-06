@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUser_GetIsPersonRetired
 title: Bool GetIsPersonRetired()
-path: /EJScript/Classes/NSUser/Member functions/Bool GetIsPersonRetired()
-intellisense: 1
-classref: 1
-keywords: GetIsPersonRetired()
+intellisense: NSUser.GetIsPersonRetired
+keywords: NSUser, GetIsPersonRetired
+so.topic: reference
 ---
-
 
 True if the user is retired and should have no rights, not appear in lists, etc.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSUser thing;
+Bool isPersonRetired  = thing.GetIsPersonRetired();
+```
 
 

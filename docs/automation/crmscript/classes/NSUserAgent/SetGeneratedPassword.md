@@ -1,15 +1,12 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_SetGeneratedPassword
+title: String SetGeneratedPassword(Integer associateId)
+intellisense: NSUserAgent.SetGeneratedPassword
+keywords: NSUserAgent, SetGeneratedPassword
+so.topic: reference
 ---
-title: String SetGeneratedPassword(Integer p0)
-path: /EJScript/Classes/NSUserAgent/Member functions/String SetGeneratedPassword(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetGeneratedPassword(Integer)
----
 
 
 
-
-* **associateId
-**
-
-
+**Parameters:**
+ - **associateId** 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetAutoSuggest
+title: SetAutoSuggest(Bool autoSuggest)
+intellisense: NSSuggestedAppointmentEntity.SetAutoSuggest
+keywords: NSSuggestedAppointmentEntity, GetAutoSuggest
+so.topic: reference
 ---
-title: Void SetAutoSuggest(Bool AutoSuggest)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetAutoSuggest(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetAutoSuggest(Bool)
----
-
 
 Should this appointment be auto-suggested
 
+**Parameter:** 
+ - **autoSuggest** Bool
 
-
-* **AutoSuggest:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Bool autoSuggest;
+thing.SetAutoSuggest(autoSuggest);
+```
 

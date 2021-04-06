@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSFindAgent
 title: NSFindAgent
-path: /EJScript/Classes/NSFindAgent
-intellisense: 1
-classref: 1
-sortOrder: 3651
+intellisense: Void.NSFindAgent
+keywords: NSFindAgent
+so.topic: reference
 ---
-
 
 Find functions
 
-
-
+```crmscript
+NSFindAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

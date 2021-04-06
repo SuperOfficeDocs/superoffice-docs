@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSMDOListItem/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSMDOListItem.GetRank
+keywords: NSMDOListItem, GetRank
+so.topic: reference
 ---
-
 
 The rank of the ListItem
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMDOListItem thing;
+Integer rank  = thing.GetRank();
+```
 
 

@@ -1,17 +1,28 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetEntityType
 title: Integer GetEntityType()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetEntityType()
-intellisense: 1
-classref: 1
-sortOrder: 2291
-keywords: GetEntityType()
+intellisense: NSDashboardTile.GetEntityType
+keywords: NSDashboardTile, GetEntityType
+so.topic: reference
 ---
-
 
 The tile entity type
 
+**Returns:** Integer
 
+     - Enum: 0 = None 
+     - Enum: 1 = Company 
+     - Enum: 2 = Project 
+     - Enum: 3 = Sale 
+     - Enum: 4 = Product 
+     - Enum: 5 = Activity 
+     - Enum: 6 = Document 
+     - Enum: 7 = WebPanel 
+     - Enum: 8 = Followup 
 
-* **Returns:** Integer
+```crmscript
+NSDashboardTile thing;
+Integer entityType  = thing.GetEntityType();
+```
 
 

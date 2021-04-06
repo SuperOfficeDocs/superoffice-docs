@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_SetSaleId
+title: SetSaleId(Integer saleId)
+intellisense: NSSaleSummaryItem.SetSaleId
+keywords: NSSaleSummaryItem, GetSaleId
+so.topic: reference
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **saleId** Integer
 
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleSummaryItem thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
 

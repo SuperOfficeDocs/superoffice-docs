@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketInfo_GetOwnerName
 title: String GetOwnerName()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetOwnerName()
-intellisense: 1
-classref: 1
-keywords: GetOwnerName()
+intellisense: NSTicketInfo.GetOwnerName
+keywords: NSTicketInfo, GetOwnerName
+so.topic: reference
 ---
-
 
 The name of the owner which the request was assigned to
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketInfo thing;
+String ownerName  = thing.GetOwnerName();
+```
 
 

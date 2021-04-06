@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_DeleteFromListDefinition
 title: Void DeleteFromListDefinition(Integer id, Integer udListDefinitionId)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteFromListDefinition(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-keywords: DeleteFromListDefinition(Integer,Integer)
+intellisense: NSListAgent.DeleteFromListDefinition
+keywords: NSListAgent, DeleteFromListDefinition
+so.topic: reference
 ---
-
 
 Delete a list item from the specified list defintion
 
+**Parameters:**
+ - **id** The identity of the list item to delete
+ - **udListDefinitionId** The id of the list definition, indicating which list to delete the items from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
 
+**Returns:** This method has no return value
 
-* **id:** The identity of the list item to delete
-* **udListDefinitionId:** The id of the list definition, indicating which list to delete the items from. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **Returns:** This method has no return value
-
+```crmscript
+NSListAgent agent;
+Integer id;
+Integer udListDefinitionId;
+Void res = agent.DeleteFromListDefinition(id, udListDefinitionId);
+```
 

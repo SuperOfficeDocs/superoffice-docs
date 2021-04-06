@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProject_SetType
+title: SetType(String type)
+intellisense: NSProject.SetType
+keywords: NSProject, GetType
+so.topic: reference
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSProject/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetType(String)
----
-
 
 The project type.
 
+**Parameter:** 
+ - **type** String
 
-
-* **Type:** String
-* **Returns:** String
-
+```crmscript
+NSProject thing;
+String type;
+thing.SetType(type);
+```
 

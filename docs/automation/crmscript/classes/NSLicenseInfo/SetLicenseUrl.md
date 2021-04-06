@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetLicenseUrl
+title: SetLicenseUrl(String licenseUrl)
+intellisense: NSLicenseInfo.SetLicenseUrl
+keywords: NSLicenseInfo, GetLicenseUrl
+so.topic: reference
 ---
-title: Void SetLicenseUrl(String LicenseUrl)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetLicenseUrl(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetLicenseUrl(String)
----
-
 
 The url that will provide keycodes for all modules owned by this owner
 
+**Parameter:** 
+ - **licenseUrl** String
 
-
-* **LicenseUrl:** String
-* **Returns:** String
-
+```crmscript
+NSLicenseInfo thing;
+String licenseUrl;
+thing.SetLicenseUrl(licenseUrl);
+```
 

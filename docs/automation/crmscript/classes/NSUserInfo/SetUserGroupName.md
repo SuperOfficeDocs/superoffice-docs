@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserInfo_SetUserGroupName
+title: SetUserGroupName(String userGroupName)
+intellisense: NSUserInfo.SetUserGroupName
+keywords: NSUserInfo, GetUserGroupName
+so.topic: reference
 ---
-title: Void SetUserGroupName(String UserGroupName)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetUserGroupName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserGroupName(String)
----
 
 
-* **UserGroupName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **userGroupName** String
+
+```crmscript
+NSUserInfo thing;
+String userGroupName;
+thing.SetUserGroupName(userGroupName);
+```
 

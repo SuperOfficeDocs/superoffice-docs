@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_SetTimeToLive
+title: SetTimeToLive(Integer timeToLive)
+intellisense: NSPocketNotificationMessage.SetTimeToLive
+keywords: NSPocketNotificationMessage, GetTimeToLive
+so.topic: reference
 ---
-title: Void SetTimeToLive(Integer TimeToLive)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetTimeToLive(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTimeToLive(Integer)
----
-
 
 Specifies how many minutes the message should be valid
 
+**Parameter:** 
+ - **timeToLive** Integer
 
-
-* **TimeToLive:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPocketNotificationMessage thing;
+Integer timeToLive;
+thing.SetTimeToLive(timeToLive);
+```
 

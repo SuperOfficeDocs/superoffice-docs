@@ -1,16 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetSaleTypeList
+title: NSSaleType[] GetSaleTypeList(Integer[]  saleTypeIds);
+intellisense: NSListAgent.GetSaleTypeList
+keywords: NSListAgent, GetSaleTypeList
+so.topic: reference
 ---
-title: NSSaleType[] GetSaleTypeList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleType[] GetSaleTypeList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetSaleTypeList(Integer[])
----
 
-Gets an array of SaleType objects.
+Gets a vector of SaleType objects.
 
+**Parameters:**
+ - **saleTypeIds** The identifiers of the NSSaleType objects
 
+**Returns:** Vector of NSSaleType objects
 
-* **p0:** IntegerArray of identifiers for SaleType
-* **Returns:** Array of NSSaleType
-
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetSaleTypeList(ids);
+```
 

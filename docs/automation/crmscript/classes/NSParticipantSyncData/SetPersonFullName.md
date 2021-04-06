@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetPersonFullName
+title: SetPersonFullName(String personFullName)
+intellisense: NSParticipantSyncData.SetPersonFullName
+keywords: NSParticipantSyncData, GetPersonFullName
+so.topic: reference
 ---
-title: Void SetPersonFullName(String PersonFullName)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPersonFullName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonFullName(String)
----
-
 
 The person's full name localized to the current culture/country.  (internal name used in clients for employees)
 
+**Parameter:** 
+ - **personFullName** String
 
-
-* **PersonFullName:** String
-* **Returns:** String
-
+```crmscript
+NSParticipantSyncData thing;
+String personFullName;
+thing.SetPersonFullName(personFullName);
+```
 

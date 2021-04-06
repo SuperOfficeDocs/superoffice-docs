@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetQuoteAlternatives
+title: QuoteAlternativeArray GetQuoteAlternatives(Integer quoteVersionId)
+intellisense: NSQuoteAgent.GetQuoteAlternatives
+keywords: NSQuoteAgent, GetQuoteAlternatives
+so.topic: reference
 ---
-title: NSQuoteAlternative[] GetQuoteAlternatives(Integer quoteVersionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternative[] GetQuoteAlternatives(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetQuoteAlternatives(Integer)
----
-
 
 Get all quote alternatives for a quote version
 
+**Parameters:**
+ - **quoteVersionId** QuoteVersionId of the revison to get alternatives for.
 
+**Returns:** Array of Quote alternatives
 
-* **quoteVersionId:** QuoteVersionId of the revison to get alternatives for.
-* **Returns:** Array of Quote alternatives
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteVersionId;
+QuoteAlternativeArray res = agent.GetQuoteAlternatives(quoteVersionId);
+```
 

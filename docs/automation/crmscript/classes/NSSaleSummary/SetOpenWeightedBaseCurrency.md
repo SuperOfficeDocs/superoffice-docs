@@ -1,21 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetOpenWeightedBaseCurrency
+title: SetOpenWeightedBaseCurrency(Float openWeightedBaseCurrency)
+intellisense: NSSaleSummary.SetOpenWeightedBaseCurrency
+keywords: NSSaleSummary, GetOpenWeightedBaseCurrency
+so.topic: reference
 ---
-title: Void SetOpenWeightedBaseCurrency(Float OpenWeightedBaseCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetOpenWeightedBaseCurrency(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetOpenWeightedBaseCurrency(Float)
----
 
+Weighted sum for all open within the period in default currency for the installation 
 
-Weighted sum for all open within the period in default currency for the installation
+**Parameter:** 
+ - **openWeightedBaseCurrency** Float
 
-
-    	///
-    
-
-
-
-* **OpenWeightedBaseCurrency:** Float
-* **Returns:** Float
-
+```crmscript
+NSSaleSummary thing;
+Float openWeightedBaseCurrency;
+thing.SetOpenWeightedBaseCurrency(openWeightedBaseCurrency);
+```
 

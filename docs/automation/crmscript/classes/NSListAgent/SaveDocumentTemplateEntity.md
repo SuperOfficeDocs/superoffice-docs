@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveDocumentTemplateEntity
+title: NSDocumentTemplateEntity SaveDocumentTemplateEntity(NSDocumentTemplateEntity documentTemplateEntity);
+intellisense: NSListAgent.SaveDocumentTemplateEntity
+keywords: NSListAgent, SaveDocumentTemplateEntity
+so.topic: reference
 ---
-title: NSDocumentTemplateEntity SaveDocumentTemplateEntity(NSDocumentTemplateEntity documentTemplateEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplateEntity SaveDocumentTemplateEntity(NSDocumentTemplateEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveDocumentTemplateEntity(NSDocumentTemplateEntity)
----
+	  
+Updates the existing NSDocumentTemplateEntity or creates a new NSDocumentTemplateEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **documentTemplateEntity** The NSDocumentTemplateEntity to save.
 
+**Returns:** New or updated NSDocumentTemplateEntity
 
-Updates the existing DocumentTemplateEntity or creates a new DocumentTemplateEntity if the id parameter is empty
-
-
-
-* **documentTemplateEntity:** The DocumentTemplateEntity that is saved
-* **Returns:** New or updated DocumentTemplateEntity
-
+```crmscript
+NSList  agent;
+NSDocumentTemplateEntity thing = agent.CreateDefaultDocumentTemplateEntity();
+thing = agent.SaveDocumentTemplateEntity(thing);
+```
 

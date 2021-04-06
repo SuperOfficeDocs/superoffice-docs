@@ -1,9 +1,9 @@
 ---
-title: Void pushBack(String element)
-path: /EJScript/Classes/Vector/Member functions/Void pushBack(String element)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Vector_pushBack_String_element
+title: Vector.pushBack(String element)
+intellisense: Vector.pushBack
 keywords: pushBack(String)
+so.topic: reference
 ---
 
 

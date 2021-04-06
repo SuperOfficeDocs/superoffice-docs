@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_SetIsActive
+title: SetIsActive(Bool isActive)
+intellisense: NSFieldValueInfo.SetIsActive
+keywords: NSFieldValueInfo, GetIsActive
+so.topic: reference
 ---
-title: Void SetIsActive(Bool IsActive)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetIsActive(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3645
-keywords: SetIsActive(Bool)
----
-
 
 True if the field and operations will be used in the bulk update
 
+**Parameter:** 
+ - **isActive** Bool
 
-
-* **IsActive:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldValueInfo thing;
+Bool isActive;
+thing.SetIsActive(isActive);
+```
 

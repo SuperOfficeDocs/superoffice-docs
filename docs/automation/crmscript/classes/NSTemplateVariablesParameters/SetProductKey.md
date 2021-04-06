@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_SetProductKey
+title: SetProductKey(String productKey)
+intellisense: NSTemplateVariablesParameters.SetProductKey
+keywords: NSTemplateVariablesParameters, GetProductKey
+so.topic: reference
 ---
-title: Void SetProductKey(String ProductKey)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetProductKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetProductKey(String)
----
-
 
 Product key
 
+**Parameter:** 
+ - **productKey** String
 
-
-* **ProductKey:** String
-* **Returns:** String
-
+```crmscript
+NSTemplateVariablesParameters thing;
+String productKey;
+thing.SetProductKey(productKey);
+```
 

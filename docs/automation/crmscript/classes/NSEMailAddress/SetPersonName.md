@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAddress_SetPersonName
+title: SetPersonName(String personName)
+intellisense: NSEMailAddress.SetPersonName
+keywords: NSEMailAddress, GetPersonName
+so.topic: reference
 ---
-title: Void SetPersonName(String PersonName)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetPersonName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2779
-keywords: SetPersonName(String)
----
 
 
-* **PersonName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **personName** String
+
+```crmscript
+NSEMailAddress thing;
+String personName;
+thing.SetPersonName(personName);
+```
 

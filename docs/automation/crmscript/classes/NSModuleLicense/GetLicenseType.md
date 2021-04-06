@@ -1,11 +1,23 @@
----
-title: Integer GetLicenseType()
-path: /EJScript/Classes/NSModuleLicense/Member functions/Integer GetLicenseType()
-intellisense: 1
-classref: 1
-keywords: GetLicenseType()
+﻿---
+uid: crmscript_ref_NSModuleLicense_GetLicenseType
+title: LicenseType GetLicenseType()
+intellisense: NSModuleLicense.GetLicenseType
+keywords: NSModuleLicense, GetLicenseType
+so.topic: reference
 ---
 
+Entire system, per database, or per associate
 
+**Returns:** LicenseType
+
+     - Enum: 0 = Unknown 
+     - Enum: 1 = SiteLicense 
+     - Enum: 2 = SatelliteLicense 
+     - Enum: 3 = UserLicense 
+
+```crmscript
+NSModuleLicense thing;
+LicenseType licenseType  = thing.GetLicenseType();
+```
 
 

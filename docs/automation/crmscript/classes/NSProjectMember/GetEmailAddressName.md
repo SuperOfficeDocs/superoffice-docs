@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectMember_GetEmailAddressName
 title: String GetEmailAddressName()
-path: /EJScript/Classes/NSProjectMember/Member functions/String GetEmailAddressName()
-intellisense: 1
-classref: 1
-keywords: GetEmailAddressName()
+intellisense: NSProjectMember.GetEmailAddressName
+keywords: NSProjectMember, GetEmailAddressName
+so.topic: reference
 ---
-
 
 The e-mail address description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProjectMember thing;
+String emailAddressName  = thing.GetEmailAddressName();
+```
 
 

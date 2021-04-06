@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetPath
 title: String GetPath()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetPath()
-intellisense: 1
-classref: 1
-sortOrder: 3376
-keywords: GetPath()
+intellisense: NSExtAppEntity.GetPath
+keywords: NSExtAppEntity, GetPath
+so.topic: reference
 ---
-
 
 Path where the programfile is located; if empty, PATH is used
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSExtAppEntity thing;
+String path  = thing.GetPath();
+```
 
 

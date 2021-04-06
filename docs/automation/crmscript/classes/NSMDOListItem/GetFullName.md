@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem_GetFullName
 title: String GetFullName()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetFullName()
-intellisense: 1
-classref: 1
-keywords: GetFullName()
+intellisense: NSMDOListItem.GetFullName
+keywords: NSMDOListItem, GetFullName
+so.topic: reference
 ---
-
 
 The name of the ListItem in its context
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMDOListItem thing;
+String fullName  = thing.GetFullName();
+```
 
 

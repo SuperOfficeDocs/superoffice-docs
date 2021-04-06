@@ -1,9 +1,9 @@
 ---
-title: String escape(String chars)
-path: /EJScript/Classes/String/Member functions/String escape(String chars)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_escape_String_chars
+title: String.escape(String chars)
+intellisense: String.escape
 keywords: escape(String)
+so.topic: reference
 ---
 
 

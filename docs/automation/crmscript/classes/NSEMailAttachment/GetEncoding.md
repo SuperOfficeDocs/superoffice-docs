@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAttachment_GetEncoding
 title: String GetEncoding()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/String GetEncoding()
-intellisense: 1
-classref: 1
-sortOrder: 2896
-keywords: GetEncoding()
+intellisense: NSEMailAttachment.GetEncoding
+keywords: NSEMailAttachment, GetEncoding
+so.topic: reference
 ---
-
 
 Content-Transfer-Encoding
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAttachment thing;
+String encoding  = thing.GetEncoding();
+```
 
 

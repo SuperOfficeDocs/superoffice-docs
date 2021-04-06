@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSVisibleFor_SetVisibleId
+title: SetVisibleId(Integer visibleId)
+intellisense: NSVisibleFor.SetVisibleId
+keywords: NSVisibleFor, GetVisibleId
+so.topic: reference
 ---
-title: Void SetVisibleId(Integer VisibleId)
-path: /EJScript/Classes/NSVisibleFor/Member functions/Void SetVisibleId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetVisibleId(Integer)
----
 
 
-* **VisibleId:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **visibleId** Integer
+
+```crmscript
+NSVisibleFor thing;
+Integer visibleId;
+thing.SetVisibleId(visibleId);
+```
 

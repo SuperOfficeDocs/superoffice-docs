@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProductExtraDataField_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSProductExtraDataField.GetValue
+keywords: NSProductExtraDataField, GetValue
+so.topic: reference
 ---
-
 
 Value for the field. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user's computer is set up).
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProductExtraDataField thing;
+String value  = thing.GetValue();
+```
 
 

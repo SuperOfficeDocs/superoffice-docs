@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStageEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSSaleStageEntity.GetRank
+keywords: NSSaleStageEntity, GetRank
+so.topic: reference
 ---
-
 
 Rank order
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleStageEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

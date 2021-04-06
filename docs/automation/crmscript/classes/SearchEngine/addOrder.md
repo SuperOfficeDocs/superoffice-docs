@@ -1,9 +1,9 @@
 ---
-title: Void addOrder(String field, Bool ascending)
-path: /EJScript/Classes/SearchEngine/member functions/Void addOrder(String field, Bool ascending)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_addOrder_String_field_Bool_ascending
+title: SearchEngine.addOrder(String field, Bool ascending)
+intellisense: SearchEngine.addOrder
 keywords: addOrder(String,Bool)
+so.topic: reference
 ---
 
 Adds a restriction to the order on the listing of the database-result

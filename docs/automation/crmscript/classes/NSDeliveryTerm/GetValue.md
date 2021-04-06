@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSDeliveryTerm_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSDeliveryTerm/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-sortOrder: 2368
-keywords: GetValue()
+intellisense: NSDeliveryTerm.GetValue
+keywords: NSDeliveryTerm, GetValue
+so.topic: reference
 ---
 
+Get the name of the DeliveryTerm.
 
-* **Returns:** String
+**Returns:** String DeliveryTerm name.
 
+```crmscript
+NSDeliveryTerm thing;
+String name = thing.GetValue();
+```
 

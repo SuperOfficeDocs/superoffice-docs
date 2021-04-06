@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetDuration
+title: SetDuration(TimeSpan duration)
+intellisense: NSSuggestedAppointmentEntity.SetDuration
+keywords: NSSuggestedAppointmentEntity, GetDuration
+so.topic: reference
 ---
-title: Void SetDuration(TimeSpan Duration)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetDuration(TimeSpan p_0)
-intellisense: 1
-classref: 1
-keywords: SetDuration(TimeSpan)
----
-
 
 Duration in minutes of suggested appointment
 
+**Parameter:** 
+ - **duration** TimeSpan
 
-
-* **Duration:** TimeSpan
-* **Returns:** TimeSpan
-
+```crmscript
+NSSuggestedAppointmentEntity thing;
+TimeSpan duration;
+thing.SetDuration(duration);
+```
 

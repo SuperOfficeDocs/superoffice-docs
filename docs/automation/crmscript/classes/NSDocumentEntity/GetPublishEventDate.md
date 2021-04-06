@@ -1,13 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetPublishEventDate
 title: DateTime GetPublishEventDate()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/DateTime GetPublishEventDate()
-intellisense: 1
-classref: 1
-sortOrder: 2554
-keywords: GetPublishEventDate()
+intellisense: NSDocumentEntity.GetPublishEventDate
+keywords: NSDocumentEntity, GetPublishEventDate
+so.topic: reference
 ---
 
+Publish event date on DocumentEntity.
 
-* **Returns:** DateTime
-
+**Returns:** DateTime
 

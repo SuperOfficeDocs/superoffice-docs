@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProductFamily_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSProductFamily.SetTooltip
+keywords: NSProductFamily, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSProductFamily/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the ProductFamily list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String ProductFamily tooltip description.
 
+```crmscript
+NSProductFamily thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

@@ -1,15 +1,23 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_FindContactOrPersonByEmailName
+title: ContactOrPersonFromEmailArray FindContactOrPersonByEmailName(String name, String emailAddress)
+intellisense: NSEMailAgent.FindContactOrPersonByEmailName
+keywords: NSEMailAgent, FindContactOrPersonByEmailName
+so.topic: reference
 ---
-title: NSContactOrPersonFromEmail[] FindContactOrPersonByEmailName(String name, String emailAddress)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSContactOrPersonFromEmail[] FindContactOrPersonByEmailName(String p_0, String p_1)
-intellisense: 1
-classref: 1
-sortOrder: 2792
-keywords: FindContactOrPersonByEmailName(String,String)
----
 
 
-* **name:** The sender name
-* **emailAddress:** The sender email address
-* **Returns:** Contacts and persons matching emailaddress and name
 
+**Parameters:**
+ - **name** The sender name
+ - **emailAddress** The sender email address
+
+**Returns:** Contacts and persons matching emailaddress and name
+
+```crmscript
+NSEMailAgent agent;
+String name;
+String emailAddress;
+ContactOrPersonFromEmailArray res = agent.FindContactOrPersonByEmailName(name, emailAddress);
+```
 

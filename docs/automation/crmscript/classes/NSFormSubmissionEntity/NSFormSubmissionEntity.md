@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity
 title: NSFormSubmissionEntity
-path: /EJScript/Classes/NSFormSubmissionEntity
-intellisense: 1
-classref: 1
-sortOrder: 3828
+intellisense: Void.NSFormSubmissionEntity
+keywords: NSFormSubmissionEntity
+so.topic: reference
 ---
-
 
 Content of a Form submission
 
-
-
-
-1. autolist
+1. autolist 
 

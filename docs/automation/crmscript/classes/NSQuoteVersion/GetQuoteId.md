@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetQuoteId
 title: Integer GetQuoteId()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetQuoteId()
-intellisense: 1
-classref: 1
-keywords: GetQuoteId()
+intellisense: NSQuoteVersion.GetQuoteId
+keywords: NSQuoteVersion, GetQuoteId
+so.topic: reference
 ---
-
 
 Foreign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteVersion thing;
+Integer quoteId  = thing.GetQuoteId();
+```
 
 

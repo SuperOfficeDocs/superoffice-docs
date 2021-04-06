@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSAudienceAgent_GetMyAudienceLayout
+title: AudienceLayoutEntity GetMyAudienceLayout()
+intellisense: NSAudienceAgent.GetMyAudienceLayout
+keywords: NSAudienceAgent, GetMyAudienceLayout
+so.topic: reference
 ---
-title: NSAudienceLayoutEntity GetMyAudienceLayout()
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceLayoutEntity GetMyAudienceLayout()
-intellisense: 1
-classref: 1
-sortOrder: 1301
-keywords: GetMyAudienceLayout()
----
-
 
 Gets the Audience layout belonging to the currently logged on user.
 
 
+**Returns:** Audience layout entity
 
-* **Returns:** Audience layout entity
-
+```crmscript
+NSAudienceAgent agent;
+AudienceLayoutEntity res = agent.GetMyAudienceLayout();
+```
 

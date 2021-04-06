@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSSelectableMDOListItem.GetDeleted
+keywords: NSSelectableMDOListItem, GetDeleted
+so.topic: reference
 ---
-
 
 The deleted status of the ListItem
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSelectableMDOListItem thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

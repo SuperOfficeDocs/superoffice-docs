@@ -1,20 +1,25 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetRecurringPattern
+title: SetRecurringPattern(Integer recurringPattern)
+intellisense: NSAppointment.SetRecurringPattern
+keywords: NSAppointment, GetRecurringPattern
+so.topic: reference
 ---
-title: Void SetRecurringPattern(Integer RecurringPattern)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetRecurringPattern(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 811
-keywords: SetRecurringPattern(Integer)
----
 
-* Unknown=0
-* Daily=1
-* Weekly=2
-* Monthly=3
-* Yearly=4
-* Custom=5
 
-* **RecurringPattern:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **recurringPattern** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Daily 
+     - Enum: 2 = Weekly 
+     - Enum: 3 = Monthly 
+     - Enum: 4 = Yearly 
+     - Enum: 5 = Custom 
+
+```crmscript
+NSAppointment thing;
+Integer recurringPattern;
+thing.SetRecurringPattern(recurringPattern);
+```
 

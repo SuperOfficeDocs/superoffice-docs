@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_GetRate
 title: Float GetRate()
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Float GetRate()
-intellisense: 1
-classref: 1
-sortOrder: 2180
-keywords: GetRate()
+intellisense: NSCurrencyEntity.GetRate
+keywords: NSCurrencyEntity, GetRate
+so.topic: reference
 ---
-
 
 Exchange rate
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSCurrencyEntity thing;
+Float rate  = thing.GetRate();
+```
 
 

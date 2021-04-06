@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_SetProcessingLog
+title: SetProcessingLog(String processingLog)
+intellisense: NSFormSubmissionEntity.SetProcessingLog
+keywords: NSFormSubmissionEntity, GetProcessingLog
+so.topic: reference
 ---
-title: Void SetProcessingLog(String ProcessingLog)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetProcessingLog(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3845
-keywords: SetProcessingLog(String)
----
-
 
 A log of what happened during processing
 
+**Parameter:** 
+ - **processingLog** String
 
-
-* **ProcessingLog:** String
-* **Returns:** String
-
+```crmscript
+NSFormSubmissionEntity thing;
+String processingLog;
+thing.SetProcessingLog(processingLog);
+```
 

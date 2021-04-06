@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatSession_SetChatSessionId
+title: SetChatSessionId(Integer chatSessionId)
+intellisense: NSChatSession.SetChatSessionId
+keywords: NSChatSession, GetChatSessionId
+so.topic: reference
 ---
-title: Void SetChatSessionId(Integer ChatSessionId)
-path: /EJScript/Classes/NSChatSession/Member functions/Void SetChatSessionId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1532
-keywords: SetChatSessionId(Integer)
----
 
+The primary key (auto-incremented)
 
-Id of the chat session. The value is mandatory.
+**Parameter:** 
+ - **chatSessionId** Integer
 
-
-
-* **ChatSessionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSChatSession thing;
+Integer chatSessionId;
+thing.SetChatSessionId(chatSessionId);
+```
 

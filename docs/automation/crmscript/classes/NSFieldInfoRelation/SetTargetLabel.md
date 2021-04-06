@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoRelation_SetTargetLabel
+title: SetTargetLabel(String targetLabel)
+intellisense: NSFieldInfoRelation.SetTargetLabel
+keywords: NSFieldInfoRelation, GetTargetLabel
+so.topic: reference
 ---
-title: Void SetTargetLabel(String TargetLabel)
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/Void SetTargetLabel(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3542
-keywords: SetTargetLabel(String)
----
-
 
 Display name on target entity.
 
+**Parameter:** 
+ - **targetLabel** String
 
-
-* **TargetLabel:** String
-* **Returns:** String
-
+```crmscript
+NSFieldInfoRelation thing;
+String targetLabel;
+thing.SetTargetLabel(targetLabel);
+```
 

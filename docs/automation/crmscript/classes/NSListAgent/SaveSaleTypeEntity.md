@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveSaleTypeEntity
+title: NSSaleTypeEntity SaveSaleTypeEntity(NSSaleTypeEntity saleTypeEntity);
+intellisense: NSListAgent.SaveSaleTypeEntity
+keywords: NSListAgent, SaveSaleTypeEntity
+so.topic: reference
 ---
-title: NSSaleTypeEntity SaveSaleTypeEntity(NSSaleTypeEntity saleTypeEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleTypeEntity SaveSaleTypeEntity(NSSaleTypeEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveSaleTypeEntity(NSSaleTypeEntity)
----
+	  
+Updates the existing NSSaleTypeEntity or creates a new NSSaleTypeEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **saleTypeEntity** The NSSaleTypeEntity to save.
 
+**Returns:** New or updated NSSaleTypeEntity
 
-Updates the existing SaleTypeEntity or creates a new SaleTypeEntity if the id parameter is empty
-
-
-
-* **saleTypeEntity:** The SaleTypeEntity that is saved
-* **Returns:** New or updated SaleTypeEntity
-
+```crmscript
+NSList  agent;
+NSSaleTypeEntity thing = agent.CreateDefaultSaleTypeEntity();
+thing = agent.SaveSaleTypeEntity(thing);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Void setStringMatrix(StringMatrix sm)
-path: /EJScript/Classes/StatLib/Member functions/Void setStringMatrix(StringMatrix sm)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatLib_setStringMatrix_StringMatrix_sm
+title: StatLib.setStringMatrix(StringMatrix sm)
+intellisense: StatLib.setStringMatrix
 keywords: setStringMatrix(StringMatrix)
+so.topic: reference
 ---
 
 

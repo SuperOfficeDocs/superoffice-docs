@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserInfo_GetUserName
 title: String GetUserName()
-path: /EJScript/Classes/NSUserInfo/Member functions/String GetUserName()
-intellisense: 1
-classref: 1
-keywords: GetUserName()
+intellisense: NSUserInfo.GetUserName
+keywords: NSUserInfo, GetUserName
+so.topic: reference
 ---
-
 
 Initials, also login name, possibly database user name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSUserInfo thing;
+String userName  = thing.GetUserName();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAppointment_GetComment
 title: String GetComment()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/String GetComment()
-intellisense: 1
-classref: 1
-sortOrder: 2880
-keywords: GetComment()
+intellisense: NSEMailAppointment.GetComment
+keywords: NSEMailAppointment, GetComment
+so.topic: reference
 ---
-
 
 Comment attached to the calendar event (accept / reject reason etc.)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAppointment thing;
+String comment  = thing.GetComment();
+```
 
 

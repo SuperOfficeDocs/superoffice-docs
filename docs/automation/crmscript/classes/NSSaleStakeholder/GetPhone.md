@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetPhone
 title: String GetPhone()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetPhone()
-intellisense: 1
-classref: 1
-keywords: GetPhone()
+intellisense: NSSaleStakeholder.GetPhone
+keywords: NSSaleStakeholder, GetPhone
+so.topic: reference
 ---
-
 
 Phone number
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleStakeholder thing;
+String phone  = thing.GetPhone();
+```
 
 

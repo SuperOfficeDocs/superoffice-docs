@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetMessageId
+title: SetMessageId(String messageId)
+intellisense: NSTicketMessageEntity.SetMessageId
+keywords: NSTicketMessageEntity, GetMessageId
+so.topic: reference
 ---
-title: Void SetMessageId(String MessageId)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetMessageId(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetMessageId(String)
----
-
 
 The X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets.
 
+**Parameter:** 
+ - **messageId** String
 
-
-* **MessageId:** String
-* **Returns:** String
-
+```crmscript
+NSTicketMessageEntity thing;
+String messageId;
+thing.SetMessageId(messageId);
+```
 

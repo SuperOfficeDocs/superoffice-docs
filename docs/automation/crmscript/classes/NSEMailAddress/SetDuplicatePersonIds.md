@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAddress_SetDuplicatePersonIds
+title: SetDuplicatePersonIds(IntegerArray duplicatePersonIds)
+intellisense: NSEMailAddress.SetDuplicatePersonIds
+keywords: NSEMailAddress, GetDuplicatePersonIds
+so.topic: reference
 ---
-title: Void SetDuplicatePersonIds(Integer[] DuplicatePersonIds)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetDuplicatePersonIds(Integer[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2775
-keywords: SetDuplicatePersonIds(Integer[])
----
-
 
 All persons with this EmailAddress stored in db is listed here
 
+**Parameter:** 
+ - **duplicatePersonIds** IntegerArray
 
-
-* **DuplicatePersonIds:** IntegerArray
-* **Returns:** Void
-
+```crmscript
+NSEMailAddress thing;
+IntegerArray duplicatePersonIds;
+thing.SetDuplicatePersonIds(duplicatePersonIds);
+```
 

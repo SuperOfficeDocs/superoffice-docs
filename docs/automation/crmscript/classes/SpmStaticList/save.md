@@ -1,9 +1,9 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/SpmStaticList/Member functions/Integer save()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmStaticList_save
+title: SpmStaticList.save()
+intellisense: SpmStaticList.save
 keywords: save()
+so.topic: reference
 ---
 
 

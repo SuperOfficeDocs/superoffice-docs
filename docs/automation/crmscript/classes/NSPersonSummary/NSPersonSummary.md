@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSPersonSummary
 title: NSPersonSummary
-path: /EJScript/Classes/NSPersonSummary
-intellisense: 1
-classref: 1
+intellisense: Void.NSPersonSummary
+keywords: NSPersonSummary
+so.topic: reference
 ---
-
 
 Summary of person, with recent activities, chats, and requests included.
 
-
-
-
-1. autolist
+1. autolist 
 

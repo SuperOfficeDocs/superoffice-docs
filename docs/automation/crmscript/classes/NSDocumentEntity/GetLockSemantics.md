@@ -1,13 +1,22 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetLockSemantics
 title: Integer GetLockSemantics()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Integer GetLockSemantics()
-intellisense: 1
-classref: 1
-sortOrder: 2561
-keywords: GetLockSemantics()
+intellisense: NSDocumentEntity.GetLockSemantics
+keywords: NSDocumentEntity, GetLockSemantics
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+     - Enum: 0 = None 
+     - Enum: 1 = Locking 
+     - Enum: 2 = Versioning 
+
+```crmscript
+NSDocumentEntity thing;
+Integer lockSemantics  = thing.GetLockSemantics();
+```
 
 

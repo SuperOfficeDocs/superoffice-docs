@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncEngineStatus_GetStatusMessage
 title: String GetStatusMessage()
-path: /EJScript/Classes/NSErpSyncEngineStatus/Member functions/String GetStatusMessage()
-intellisense: 1
-classref: 1
-sortOrder: 3278
-keywords: GetStatusMessage()
+intellisense: NSErpSyncEngineStatus.GetStatusMessage
+keywords: NSErpSyncEngineStatus, GetStatusMessage
+so.topic: reference
 ---
-
 
 Current status message from the engine
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpSyncEngineStatus thing;
+String statusMessage  = thing.GetStatusMessage();
+```
 
 

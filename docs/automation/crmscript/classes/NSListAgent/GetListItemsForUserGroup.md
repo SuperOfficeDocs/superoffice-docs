@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetListItemsForUserGroup
+title: SelectableMDOListItemArray GetListItemsForUserGroup(Integer udListDefinitionId, Integer groupId)
+intellisense: NSListAgent.GetListItemsForUserGroup
+keywords: NSListAgent, GetListItemsForUserGroup
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] GetListItemsForUserGroup(Integer udListDefinitionId, Integer groupId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetListItemsForUserGroup(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-keywords: GetListItemsForUserGroup(Integer,Integer)
----
-
 
 List of list items that is visible in the usergroup
 
+**Parameters:**
+ - **udListDefinitionId** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
+ - **groupId** The id of the usergroup
 
+**Returns:** Array of selectable list items
 
-* **udListDefinitionId:** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **groupId:** The id of the usergroup
-* **Returns:** Array of selectable list items
-
+```crmscript
+NSListAgent agent;
+Integer udListDefinitionId;
+Integer groupId;
+SelectableMDOListItemArray res = agent.GetListItemsForUserGroup(udListDefinitionId, groupId);
+```
 

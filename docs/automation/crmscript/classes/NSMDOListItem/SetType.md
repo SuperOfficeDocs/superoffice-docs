@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMDOListItem_SetType
+title: SetType(String type)
+intellisense: NSMDOListItem.SetType
+keywords: NSMDOListItem, GetType
+so.topic: reference
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetType(String)
----
-
 
 The type of the ListItem. Custom field.
 
+**Parameter:** 
+ - **type** String
 
-
-* **Type:** String
-* **Returns:** String
-
+```crmscript
+NSMDOListItem thing;
+String type;
+thing.SetType(type);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetRoleType(Integer p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetRoleType(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_SetRoleType_Integer_p_0
+title: NSSoPrincipalCarrier.SetRoleType(Integer p_0)
+intellisense: NSSoPrincipalCarrier.SetRoleType
 keywords: SetRoleType(Integer)
+so.topic: reference
 ---
 
 

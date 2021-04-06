@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAddressSyncData_GetCounty
 title: String GetCounty()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/String GetCounty()
-intellisense: 1
-classref: 1
-sortOrder: 625
-keywords: GetCounty()
+intellisense: NSAddressSyncData.GetCounty
+keywords: NSAddressSyncData, GetCounty
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSAddressSyncData thing;
+String county  = thing.GetCounty();
+```
 
 

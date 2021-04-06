@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_GetDuration
 title: Integer GetDuration()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetDuration()
-intellisense: 1
-classref: 1
-keywords: GetDuration()
+intellisense: NSSuggestedAppointment.GetDuration
+keywords: NSSuggestedAppointment, GetDuration
+so.topic: reference
 ---
-
 
 Duration in minutes of suggested appointment
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSuggestedAppointment thing;
+Integer duration  = thing.GetDuration();
+```
 
 

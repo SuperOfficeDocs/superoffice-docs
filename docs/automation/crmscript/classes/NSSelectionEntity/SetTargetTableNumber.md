@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetTargetTableNumber
+title: SetTargetTableNumber(Integer targetTableNumber)
+intellisense: NSSelectionEntity.SetTargetTableNumber
+keywords: NSSelectionEntity, GetTargetTableNumber
+so.topic: reference
 ---
-title: Void SetTargetTableNumber(Integer TargetTableNumber)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetTargetTableNumber(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTargetTableNumber(Integer)
----
-
 
 TargetTableNumber defines the type of selection members this selection contains. e.g. the table number for 'contact', or 'project' or 'sale'
 
+**Parameter:** 
+ - **targetTableNumber** Integer
 
-
-* **TargetTableNumber:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectionEntity thing;
+Integer targetTableNumber;
+thing.SetTargetTableNumber(targetTableNumber);
+```
 

@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSPocketAgent_RegisterDeviceForPushNotification
+title: Void RegisterDeviceForPushNotification(PocketDeviceInfo deviceInfo)
+intellisense: NSPocketAgent.RegisterDeviceForPushNotification
+keywords: NSPocketAgent, RegisterDeviceForPushNotification
+so.topic: reference
 ---
-title: Void RegisterDeviceForPushNotification(NSPocketDeviceInfo deviceInfo)
-path: /EJScript/Classes/NSPocketAgent/Member functions/Void RegisterDeviceForPushNotification(NSPocketDeviceInfo p_0)
-intellisense: 1
-classref: 1
-keywords: RegisterDeviceForPushNotification(NSPocketDeviceInfo)
----
-
 
 Register a device that should receive push notifications when notable events occour
 
-
-
-* **deviceInfo:** Properties for the device to register
-
-
+**Parameters:**
+ - **deviceInfo** Properties for the device to register

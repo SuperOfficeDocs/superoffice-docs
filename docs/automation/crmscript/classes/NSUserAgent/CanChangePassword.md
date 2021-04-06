@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent_CanChangePassword
 title: Bool CanChangePassword(Integer associateId)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool CanChangePassword(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: CanChangePassword(Integer)
+intellisense: NSUserAgent.CanChangePassword
+keywords: NSUserAgent, CanChangePassword
+so.topic: reference
 ---
-
 
 Check if the current assoicate can change the password for an associate
 
+**Parameters:**
+ - **associateId** AssociateId of the user to check if password can be changed
 
+**Returns:** True if the associate can change the password
 
-* **associateId:** AssociateId of the user to check if password can be changed
-* **Returns:** True if the associate can change the password
-
+```crmscript
+NSUserAgent agent;
+Integer associateId;
+Bool res = agent.CanChangePassword(associateId);
+```
 

@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_GetUserGroup
+title: UserGroup GetUserGroup()
+intellisense: NSUser.GetUserGroup
+keywords: NSUser, GetUserGroup
+so.topic: reference
 ---
-title: NSUserGroup GetUserGroup()
-path: /EJScript/Classes/NSUser/Member functions/NSUserGroup GetUserGroup()
-intellisense: 1
-classref: 1
-keywords: GetUserGroup()
----
-
 
 The main user group that this user belongs to.
 
+**Returns:** UserGroup
 
 
-* **Returns:** UserGroup
+```crmscript
+NSUser thing;
+UserGroup userGroup  = thing.GetUserGroup();
+```
 
 

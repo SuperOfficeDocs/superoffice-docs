@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_SaveServiceAuth
+title: NSServiceAuth SaveServiceAuth(NSServiceAuth serviceAuth);
+intellisense: NSUserAgent.SaveServiceAuth
+keywords: NSUserAgent, SaveServiceAuth
+so.topic: reference
 ---
-title: NSServiceAuth SaveServiceAuth(NSServiceAuth serviceAuth)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSServiceAuth SaveServiceAuth(NSServiceAuth p_0)
-intellisense: 1
-classref: 1
-keywords: SaveServiceAuth(NSServiceAuth)
----
+	  
+Updates the existing NSServiceAuth or creates a new NSServiceAuth if the id parameter is 0
+	  
+**Parameters**:
+ - **serviceAuth** The NSServiceAuth to save.
 
+**Returns:** New or updated NSServiceAuth
 
-Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is empty
-
-
-
-* **serviceAuth:** The ServiceAuth that is saved
-* **Returns:** New or updated ServiceAuth
-
+```crmscript
+NSUser  agent;
+NSServiceAuth thing = agent.CreateDefaultServiceAuth();
+thing = agent.SaveServiceAuth(thing);
+```
 

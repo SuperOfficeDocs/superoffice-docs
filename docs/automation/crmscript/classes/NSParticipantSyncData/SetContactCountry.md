@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetContactCountry
+title: SetContactCountry(String contactCountry)
+intellisense: NSParticipantSyncData.SetContactCountry
+keywords: NSParticipantSyncData, GetContactCountry
+so.topic: reference
 ---
-title: Void SetContactCountry(String ContactCountry)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetContactCountry(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetContactCountry(String)
----
 
 
-* **ContactCountry:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **contactCountry** String
+
+```crmscript
+NSParticipantSyncData thing;
+String contactCountry;
+thing.SetContactCountry(contactCountry);
+```
 

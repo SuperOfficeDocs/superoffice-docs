@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAddress_SetAddress
+title: SetAddress(String address)
+intellisense: NSEMailAddress.SetAddress
+keywords: NSEMailAddress, GetAddress
+so.topic: reference
 ---
-title: Void SetAddress(String Address)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetAddress(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2771
-keywords: SetAddress(String)
----
 
 
-* **Address:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **address** String
+
+```crmscript
+NSEMailAddress thing;
+String address;
+thing.SetAddress(address);
+```
 

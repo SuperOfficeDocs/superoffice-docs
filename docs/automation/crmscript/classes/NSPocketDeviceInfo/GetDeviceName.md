@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketDeviceInfo_GetDeviceName
 title: String GetDeviceName()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetDeviceName()
-intellisense: 1
-classref: 1
-keywords: GetDeviceName()
+intellisense: NSPocketDeviceInfo.GetDeviceName
+keywords: NSPocketDeviceInfo, GetDeviceName
+so.topic: reference
 ---
-
 
 A friendly display name for the device. Ex: 'Bobbys iPhone 5S'
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPocketDeviceInfo thing;
+String deviceName  = thing.GetDeviceName();
+```
 
 

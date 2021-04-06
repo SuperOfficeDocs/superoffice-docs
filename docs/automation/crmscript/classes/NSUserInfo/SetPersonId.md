@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserInfo_SetPersonId
+title: SetPersonId(Integer personId)
+intellisense: NSUserInfo.SetPersonId
+keywords: NSUserInfo, GetPersonId
+so.topic: reference
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonId(Integer)
----
-
 
 Owning person record
 
+**Parameter:** 
+ - **personId** Integer
 
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserInfo thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
 

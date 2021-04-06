@@ -1,9 +1,9 @@
 ---
 description: Void setPageTitle(String title)
-path: /EJScript/Global functions/Void setPageTitle(String title)
-intellisense: 1
+intellisense: Void.setPageTitle
 langref: 1
 keywords: setPageTitle(String)
+so.topic: reference
 ---
 
 

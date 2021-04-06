@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetProductCategoryKey
+title: SetProductCategoryKey(String productCategoryKey)
+intellisense: NSQuoteLine.SetProductCategoryKey
+keywords: NSQuoteLine, GetProductCategoryKey
+so.topic: reference
 ---
-title: Void SetProductCategoryKey(String ProductCategoryKey)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetProductCategoryKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetProductCategoryKey(String)
----
-
 
 Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.
 
+**Parameter:** 
+ - **productCategoryKey** String
 
-
-* **ProductCategoryKey:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLine thing;
+String productCategoryKey;
+thing.SetProductCategoryKey(productCategoryKey);
+```
 

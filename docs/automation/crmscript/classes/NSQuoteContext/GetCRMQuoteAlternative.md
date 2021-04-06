@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteContext_GetCRMQuoteAlternative
+title: QuoteAlternative GetCRMQuoteAlternative()
+intellisense: NSQuoteContext.GetCRMQuoteAlternative
+keywords: NSQuoteContext, GetCRMQuoteAlternative
+so.topic: reference
 ---
-title: NSQuoteAlternative GetCRMQuoteAlternative()
-path: /EJScript/Classes/NSQuoteContext/Member functions/NSQuoteAlternative GetCRMQuoteAlternative()
-intellisense: 1
-classref: 1
-keywords: GetCRMQuoteAlternative()
----
-
 
 The relevant or current alternative of the quote in the CRM system, if applicable.
 
+**Returns:** QuoteAlternative
 
 
-* **Returns:** QuoteAlternative
+```crmscript
+NSQuoteContext thing;
+QuoteAlternative cRMQuoteAlternative  = thing.GetCRMQuoteAlternative();
+```
 
 

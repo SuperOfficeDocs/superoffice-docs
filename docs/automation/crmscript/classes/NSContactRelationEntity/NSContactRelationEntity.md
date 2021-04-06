@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity
 title: NSContactRelationEntity
-path: /EJScript/Classes/NSContactRelationEntity
-intellisense: 1
-classref: 1
-sortOrder: 1942
+intellisense: Void.NSContactRelationEntity
+keywords: NSContactRelationEntity
+so.topic: reference
 ---
-
 
 Relationship between a (contact/person) and another (contact/person), as described by the RelationDefinition.
 
-
-
-
-1. autolist
+1. autolist 
 

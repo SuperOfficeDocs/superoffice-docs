@@ -1,10 +1,10 @@
 ---
-title: Bool toBool()
-path: /EJScript/Classes/Byte/Member functions/Bool toBool()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Byte_toBool
+title: Byte.toBool()
+intellisense: Byte.toBool
 sortOrder: 135
 keywords: toBool()
+so.topic: reference
 ---
 
 

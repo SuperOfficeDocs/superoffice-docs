@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetEmailAddressName
+title: SetEmailAddressName(String emailAddressName)
+intellisense: NSContact.SetEmailAddressName
+keywords: NSContact, GetEmailAddressName
+so.topic: reference
 ---
-title: Void SetEmailAddressName(String EmailAddressName)
-path: /EJScript/Classes/NSContact/Member functions/Void SetEmailAddressName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1755
-keywords: SetEmailAddressName(String)
----
-
 
 Visible field
 
+**Parameter:** 
+ - **emailAddressName** String
 
-
-* **EmailAddressName:** String
-* **Returns:** String
-
+```crmscript
+NSContact thing;
+String emailAddressName;
+thing.SetEmailAddressName(emailAddressName);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBlobEntity_GetIsZipped
 title: Bool GetIsZipped()
-path: /EJScript/Classes/NSBlobEntity/Member functions/Bool GetIsZipped()
-intellisense: 1
-classref: 1
-sortOrder: 1441
-keywords: GetIsZipped()
+intellisense: NSBlobEntity.GetIsZipped
+keywords: NSBlobEntity, GetIsZipped
+so.topic: reference
 ---
-
 
 Has the data been zipped.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSBlobEntity thing;
+Bool isZipped  = thing.GetIsZipped();
+```
 
 

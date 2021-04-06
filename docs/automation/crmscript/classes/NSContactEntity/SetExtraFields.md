@@ -1,14 +1,22 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetExtraFields
+title: SetExtraFields(Map extras)
+intellisense: NSContactEntity.SetExtraFields
+keywords: NSContactEntity, SetExtraFields
+so.topic: reference
 ---
-title: Void SetExtraFields(Map fields)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetExtraFields(Map p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1897
-keywords: SetExtraFields(Map)
----
 
+Set the extra field values on ContactEntity with a map.
 
-* **fields:** Map
-* **Returns:** Void
+**Parameter:** 
+ - **extras** Map containing extra field values encoded as strings.
 
+```crmscript
+NSContactEntity thing;
+Map extras;
+extras["SuperOffice:1"] = "[I:123]";
+extras["SuperOffice:1"] = "123"; // this will also work, but beware of decimal point variations in different languages
+extras["custom.progid"] = "foobar";
+thing.SetExtraFields(extras);
+```
 

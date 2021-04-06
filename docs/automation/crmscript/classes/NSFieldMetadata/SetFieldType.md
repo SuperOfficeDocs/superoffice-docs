@@ -1,18 +1,27 @@
+﻿---
+uid: crmscript_ref_NSFieldMetadata_SetFieldType
+title: SetFieldType(Integer fieldType)
+intellisense: NSFieldMetadata.SetFieldType
+keywords: NSFieldMetadata, GetFieldType
+so.topic: reference
 ---
-title: Void SetFieldType(Integer FieldType)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetFieldType(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3590
-keywords: SetFieldType(Integer)
----
-
 
 String, int, decimal, etc.
 
+**Parameter:** 
+ - **fieldType** Integer
+     - Enum: 0 = Checkbox 
+     - Enum: 1 = Text 
+     - Enum: 2 = Password 
+     - Enum: 3 = Integer 
+     - Enum: 4 = Double 
+     - Enum: 5 = List 
+     - Enum: 6 = Date 
+     - Enum: 99 = Label 
 
-
-* **FieldType:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFieldMetadata thing;
+Integer fieldType;
+thing.SetFieldType(fieldType);
+```
 

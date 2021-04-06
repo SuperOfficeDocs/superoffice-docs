@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonSummary_GetPerson
+title: Person GetPerson()
+intellisense: NSPersonSummary.GetPerson
+keywords: NSPersonSummary, GetPerson
+so.topic: reference
 ---
-title: NSPerson GetPerson()
-path: /EJScript/Classes/NSPersonSummary/Member functions/NSPerson GetPerson()
-intellisense: 1
-classref: 1
-keywords: GetPerson()
----
-
 
 Simple Person data.
 
+**Returns:** Person
 
 
-* **Returns:** Person
+```crmscript
+NSPersonSummary thing;
+Person person  = thing.GetPerson();
+```
 
 

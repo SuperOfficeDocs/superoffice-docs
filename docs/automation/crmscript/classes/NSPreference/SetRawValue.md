@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreference_SetRawValue
+title: SetRawValue(String rawValue)
+intellisense: NSPreference.SetRawValue
+keywords: NSPreference, GetRawValue
+so.topic: reference
 ---
-title: Void SetRawValue(String RawValue)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetRawValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetRawValue(String)
----
-
 
 Preference value
 
+**Parameter:** 
+ - **rawValue** String
 
-
-* **RawValue:** String
-* **Returns:** String
-
+```crmscript
+NSPreference thing;
+String rawValue;
+thing.SetRawValue(rawValue);
+```
 

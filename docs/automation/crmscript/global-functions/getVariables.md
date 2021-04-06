@@ -1,9 +1,9 @@
 ---
 description: Map getVariables()
-path: /EJScript/Global functions/Map getVariables()
-intellisense: 1
+intellisense: Void.getVariables
 langref: 1
 keywords: getVariables()
+so.topic: reference
 ---
 
 

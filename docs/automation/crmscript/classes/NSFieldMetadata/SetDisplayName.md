@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldMetadata_SetDisplayName
+title: SetDisplayName(String displayName)
+intellisense: NSFieldMetadata.SetDisplayName
+keywords: NSFieldMetadata, GetDisplayName
+so.topic: reference
 ---
-title: Void SetDisplayName(String DisplayName)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetDisplayName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3588
-keywords: SetDisplayName(String)
----
-
 
 Localized field name – shown in the GUI
 
+**Parameter:** 
+ - **displayName** String
 
-
-* **DisplayName:** String
-* **Returns:** String
-
+```crmscript
+NSFieldMetadata thing;
+String displayName;
+thing.SetDisplayName(displayName);
+```
 

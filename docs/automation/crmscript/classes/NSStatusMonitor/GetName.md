@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitor_GetName
 title: String GetName()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSStatusMonitor.GetName
+keywords: NSStatusMonitor, GetName
+so.topic: reference
 ---
-
 
 Name of status monitor
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSStatusMonitor thing;
+String name  = thing.GetName();
+```
 
 

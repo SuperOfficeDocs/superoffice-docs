@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPaymentTerm_SetId
+title: SetId(Integer id)
+intellisense: NSPaymentTerm.SetId
+keywords: NSPaymentTerm, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSPaymentTerm/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the PaymentTerm
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer PaymentTerm id.
 
+```crmscript
+NSPaymentTerm thing;
+thing.SetId(123);
+```
 

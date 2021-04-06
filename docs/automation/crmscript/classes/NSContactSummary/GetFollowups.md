@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactSummary_GetFollowups
+title: ActivitySummaryItemArray GetFollowups()
+intellisense: NSContactSummary.GetFollowups
+keywords: NSContactSummary, GetFollowups
+so.topic: reference
 ---
-title: NSActivitySummaryItem[] GetFollowups()
-path: /EJScript/Classes/NSContactSummary/Member functions/NSActivitySummaryItem[] GetFollowups()
-intellisense: 1
-classref: 1
-sortOrder: 1983
-keywords: GetFollowups()
----
-
 
 Recent follow-ups on contact
 
+**Returns:** ActivitySummaryItemArray
 
 
-* **Returns:** ActivitySummaryItemArray
+```crmscript
+NSContactSummary thing;
+ActivitySummaryItemArray followups  = thing.GetFollowups();
+```
 
 

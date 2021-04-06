@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetIsSubscription
 title: Bool GetIsSubscription()
-path: /EJScript/Classes/NSProduct/Member functions/Bool GetIsSubscription()
-intellisense: 1
-classref: 1
-keywords: GetIsSubscription()
+intellisense: NSProduct.GetIsSubscription
+keywords: NSProduct, GetIsSubscription
+so.topic: reference
 ---
-
 
 Is this a subscription product, sold in repeating intervals/amounts?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSProduct thing;
+Bool isSubscription  = thing.GetIsSubscription();
+```
 
 

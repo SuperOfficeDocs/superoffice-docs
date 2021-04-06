@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_Attachment
 title: Attachment
-path: /EJScript/Classes/Attachment
-intellisense: 1
-classref: 1
+intellisense: Void.Attachment
 sortOrder: 115
+so.topic: reference
 ---
 
 

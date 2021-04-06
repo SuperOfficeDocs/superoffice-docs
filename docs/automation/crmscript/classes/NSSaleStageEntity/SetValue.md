@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStageEntity_SetValue
+title: SetValue(String value)
+intellisense: NSSaleStageEntity.SetValue
+keywords: NSSaleStageEntity, GetValue
+so.topic: reference
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
-
 
 The sale stage
 
+**Parameter:** 
+ - **value** String
 
-
-* **Value:** String
-* **Returns:** String
-
+```crmscript
+NSSaleStageEntity thing;
+String value;
+thing.SetValue(value);
+```
 

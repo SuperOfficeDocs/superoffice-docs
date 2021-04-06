@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSSelectionEntity.GetName
+keywords: NSSelectionEntity, GetName
+so.topic: reference
 ---
-
 
 Name of selection, freetext indexed
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSelectionEntity thing;
+String name  = thing.GetName();
+```
 
 

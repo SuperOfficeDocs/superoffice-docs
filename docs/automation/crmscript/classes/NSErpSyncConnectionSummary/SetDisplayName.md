@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncConnectionSummary_SetDisplayName
+title: SetDisplayName(String displayName)
+intellisense: NSErpSyncConnectionSummary.SetDisplayName
+keywords: NSErpSyncConnectionSummary, GetDisplayName
+so.topic: reference
 ---
-title: Void SetDisplayName(String DisplayName)
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/Void SetDisplayName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3237
-keywords: SetDisplayName(String)
----
-
 
 Connection name shown to user; multi-language support
 
+**Parameter:** 
+ - **displayName** String
 
-
-* **DisplayName:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncConnectionSummary thing;
+String displayName;
+thing.SetDisplayName(displayName);
+```
 

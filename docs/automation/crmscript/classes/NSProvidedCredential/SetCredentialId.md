@@ -1,9 +1,9 @@
 ---
-title: Void SetCredentialId(Integer p0)
-path: /EJScript/Classes/NSProvidedCredential/Member functions/Void SetCredentialId(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSProvidedCredential_SetCredentialId_Integer_p_0
+title: NSProvidedCredential.SetCredentialId(Integer p_0)
+intellisense: NSProvidedCredential.SetCredentialId
 keywords: SetCredentialId(Integer)
+so.topic: reference
 ---
 
 

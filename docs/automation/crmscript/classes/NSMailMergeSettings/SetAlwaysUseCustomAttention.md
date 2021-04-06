@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetAlwaysUseCustomAttention
+title: SetAlwaysUseCustomAttention(Bool alwaysUseCustomAttention)
+intellisense: NSMailMergeSettings.SetAlwaysUseCustomAttention
+keywords: NSMailMergeSettings, GetAlwaysUseCustomAttention
+so.topic: reference
 ---
-title: Void SetAlwaysUseCustomAttention(Bool AlwaysUseCustomAttention)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetAlwaysUseCustomAttention(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetAlwaysUseCustomAttention(Bool)
----
-
 
 Should custom attention always be used? If false, only use custom attention where there is no default.
 
+**Parameter:** 
+ - **alwaysUseCustomAttention** Bool
 
-
-* **AlwaysUseCustomAttention:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSMailMergeSettings thing;
+Bool alwaysUseCustomAttention;
+thing.SetAlwaysUseCustomAttention(alwaysUseCustomAttention);
+```
 

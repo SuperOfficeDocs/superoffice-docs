@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCriteriaInformation_GetRestrictions
+title: ArchiveRestrictionInfoArray GetRestrictions()
+intellisense: NSCriteriaInformation.GetRestrictions
+keywords: NSCriteriaInformation, GetRestrictions
+so.topic: reference
 ---
-title: NSArchiveRestrictionInfo[] GetRestrictions()
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/NSArchiveRestrictionInfo[] GetRestrictions()
-intellisense: 1
-classref: 1
-sortOrder: 2107
-keywords: GetRestrictions()
----
-
 
 Array of ArchiveRestrictionInfo restriction specifications (for the first restrictiongroup if there are more than one group
 
+**Returns:** ArchiveRestrictionInfoArray
 
 
-* **Returns:** ArchiveRestrictionInfoArray
+```crmscript
+NSCriteriaInformation thing;
+ArchiveRestrictionInfoArray restrictions  = thing.GetRestrictions();
+```
 
 

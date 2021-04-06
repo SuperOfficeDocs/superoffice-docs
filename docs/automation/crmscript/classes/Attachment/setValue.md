@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String name, String value)
-path: /EJScript/Classes/Attachment/Member functions/Void setValue(String name, String value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Attachment_setValue_String_name_String_value
+title: Attachment.setValue(String name, String value)
+intellisense: Attachment.setValue
 sortOrder: 128
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 

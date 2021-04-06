@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitor_SetPictureId
+title: SetPictureId(Integer pictureId)
+intellisense: NSStatusMonitor.SetPictureId
+keywords: NSStatusMonitor, GetPictureId
+so.topic: reference
 ---
-title: Void SetPictureId(Integer PictureId)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetPictureId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPictureId(Integer)
----
-
 
 Id of BinaryObject row that contains image for status monitor
 
+**Parameter:** 
+ - **pictureId** Integer
 
-
-* **PictureId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSStatusMonitor thing;
+Integer pictureId;
+thing.SetPictureId(pictureId);
+```
 

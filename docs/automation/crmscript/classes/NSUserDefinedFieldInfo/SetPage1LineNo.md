@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetPage1LineNo
+title: SetPage1LineNo(Integer page1LineNo)
+intellisense: NSUserDefinedFieldInfo.SetPage1LineNo
+keywords: NSUserDefinedFieldInfo, GetPage1LineNo
+so.topic: reference
 ---
-title: Void SetPage1LineNo(Integer Page1LineNo)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetPage1LineNo(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPage1LineNo(Integer)
----
-
 
 Line no on View Page 1, used if MDO flags are OFF. 0 = this field is not visible on page 1
 
+**Parameter:** 
+ - **page1LineNo** Integer
 
-
-* **Page1LineNo:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer page1LineNo;
+thing.SetPage1LineNo(page1LineNo);
+```
 

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveCurrencyEntity
+title: NSCurrencyEntity SaveCurrencyEntity(NSCurrencyEntity currencyEntity);
+intellisense: NSListAgent.SaveCurrencyEntity
+keywords: NSListAgent, SaveCurrencyEntity
+so.topic: reference
 ---
-title: NSCurrencyEntity SaveCurrencyEntity(NSCurrencyEntity currencyEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrencyEntity SaveCurrencyEntity(NSCurrencyEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveCurrencyEntity(NSCurrencyEntity)
----
+	  
+Updates the existing NSCurrencyEntity or creates a new NSCurrencyEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **currencyEntity** The NSCurrencyEntity to save.
 
+**Returns:** New or updated NSCurrencyEntity
 
-Updates the existing CurrencyEntity or creates a new CurrencyEntity if the id parameter is empty
-
-
-
-* **currencyEntity:** The CurrencyEntity that is saved
-* **Returns:** New or updated CurrencyEntity
-
+```crmscript
+NSList  agent;
+NSCurrencyEntity thing = agent.CreateDefaultCurrencyEntity();
+thing = agent.SaveCurrencyEntity(thing);
+```
 

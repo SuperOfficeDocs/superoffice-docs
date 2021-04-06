@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetIsOwnerContact
+title: SetIsOwnerContact(Bool isOwnerContact)
+intellisense: NSContact.SetIsOwnerContact
+keywords: NSContact, GetIsOwnerContact
+so.topic: reference
 ---
-title: Void SetIsOwnerContact(Bool IsOwnerContact)
-path: /EJScript/Classes/NSContact/Member functions/Void SetIsOwnerContact(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1758
-keywords: SetIsOwnerContact(Bool)
----
-
 
 Is the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users.
 
+**Parameter:** 
+ - **isOwnerContact** Bool
 
-
-* **IsOwnerContact:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSContact thing;
+Bool isOwnerContact;
+thing.SetIsOwnerContact(isOwnerContact);
+```
 

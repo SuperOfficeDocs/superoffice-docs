@@ -1,9 +1,9 @@
 ---
-title: Byte[] GetStream()
-path: /EJScript/Classes/NSStream/Member functions/Byte[] GetStream()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSStream_GetStream
+title: NSStream.GetStream()
+intellisense: NSStream.GetStream
 keywords: GetStream()
+so.topic: reference
 ---
 
 

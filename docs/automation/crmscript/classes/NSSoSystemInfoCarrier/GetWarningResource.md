@@ -1,9 +1,9 @@
 ---
-title: String GetWarningResource()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/String GetWarningResource()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetWarningResource
+title: NSSoSystemInfoCarrier.GetWarningResource()
+intellisense: NSSoSystemInfoCarrier.GetWarningResource
 keywords: GetWarningResource()
+so.topic: reference
 ---
 
 

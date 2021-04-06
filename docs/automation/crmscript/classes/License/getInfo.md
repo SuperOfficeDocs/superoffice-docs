@@ -1,10 +1,10 @@
 ---
-title: String getInfo()
-path: /EJScript/Classes/License/Member functions/String getInfo()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_License_getInfo
+title: License.getInfo()
+intellisense: License.getInfo
 sortOrder: 461
 keywords: getInfo()
+so.topic: reference
 ---
 
 

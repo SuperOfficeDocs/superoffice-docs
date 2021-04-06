@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonSummary_GetSales
+title: SaleSummaryItemArray GetSales()
+intellisense: NSPersonSummary.GetSales
+keywords: NSPersonSummary, GetSales
+so.topic: reference
 ---
-title: NSSaleSummaryItem[] GetSales()
-path: /EJScript/Classes/NSPersonSummary/Member functions/NSSaleSummaryItem[] GetSales()
-intellisense: 1
-classref: 1
-keywords: GetSales()
----
-
 
 Recent sales on person
 
+**Returns:** SaleSummaryItemArray
 
 
-* **Returns:** SaleSummaryItemArray
+```crmscript
+NSPersonSummary thing;
+SaleSummaryItemArray sales  = thing.GetSales();
+```
 
 

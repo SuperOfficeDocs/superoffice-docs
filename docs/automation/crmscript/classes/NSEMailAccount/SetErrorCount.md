@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAccount_SetErrorCount
+title: SetErrorCount(Integer errorCount)
+intellisense: NSEMailAccount.SetErrorCount
+keywords: NSEMailAccount, GetErrorCount
+so.topic: reference
 ---
-title: Void SetErrorCount(Integer ErrorCount)
-path: /EJScript/Classes/NSEMailAccount/Member functions/Void SetErrorCount(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2756
-keywords: SetErrorCount(Integer)
----
-
 
 Count of concurring errors of fetching email. Readonly field
 
+**Parameter:** 
+ - **errorCount** Integer
 
-
-* **ErrorCount:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailAccount thing;
+Integer errorCount;
+thing.SetErrorCount(errorCount);
+```
 

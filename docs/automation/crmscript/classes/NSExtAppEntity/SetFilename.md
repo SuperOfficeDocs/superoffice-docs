@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetFilename
+title: SetFilename(String filename)
+intellisense: NSExtAppEntity.SetFilename
+keywords: NSExtAppEntity, GetFilename
+so.topic: reference
 ---
-title: Void SetFilename(String Filename)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetFilename(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3382
-keywords: SetFilename(String)
----
-
 
 Filename of the programfile
 
+**Parameter:** 
+ - **filename** String
 
-
-* **Filename:** String
-* **Returns:** String
-
+```crmscript
+NSExtAppEntity thing;
+String filename;
+thing.SetFilename(filename);
+```
 

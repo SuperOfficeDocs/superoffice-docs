@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetOnCentral
+title: SetOnCentral(Bool onCentral)
+intellisense: NSWebPanelEntity.SetOnCentral
+keywords: NSWebPanelEntity, GetOnCentral
+so.topic: reference
 ---
-title: Void SetOnCentral(Bool OnCentral)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetOnCentral(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetOnCentral(Bool)
----
-
 
 Is the webpanel visible when user is on central database
 
+**Parameter:** 
+ - **onCentral** Bool
 
-
-* **OnCentral:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSWebPanelEntity thing;
+Bool onCentral;
+thing.SetOnCentral(onCentral);
+```
 

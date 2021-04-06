@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetOurRef
 title: String GetOurRef()
-path: /EJScript/Classes/NSDocument/Member functions/String GetOurRef()
-intellisense: 1
-classref: 1
-sortOrder: 2442
-keywords: GetOurRef()
+intellisense: NSDocument.GetOurRef
+keywords: NSDocument, GetOurRef
+so.topic: reference
 ---
-
 
 Our reference, searchable field from freetext search
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocument thing;
+String ourRef  = thing.GetOurRef();
+```
 
 

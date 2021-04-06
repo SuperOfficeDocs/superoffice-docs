@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetAssignedBy
+title: SetAssignedBy(Integer assignedBy)
+intellisense: NSAppointment.SetAssignedBy
+keywords: NSAppointment, GetAssignedBy
+so.topic: reference
 ---
-title: Void SetAssignedBy(Integer AssignedBy)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAssignedBy(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 771
-keywords: SetAssignedBy(Integer)
----
 
+Who (last) assigned this appointment to associate_id?
 
-Who (last) assigned this appointment to associate\_id?
+**Parameter:** 
+ - **assignedBy** Integer
 
-
-
-* **AssignedBy:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointment thing;
+Integer assignedBy;
+thing.SetAssignedBy(assignedBy);
+```
 

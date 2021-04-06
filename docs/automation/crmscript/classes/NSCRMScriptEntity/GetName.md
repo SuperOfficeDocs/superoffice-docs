@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 2135
-keywords: GetName()
+intellisense: NSCRMScriptEntity.GetName
+keywords: NSCRMScriptEntity, GetName
+so.topic: reference
 ---
-
 
 A description of this script
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCRMScriptEntity thing;
+String name  = thing.GetName();
+```
 
 

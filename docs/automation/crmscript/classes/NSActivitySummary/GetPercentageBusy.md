@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSActivitySummary_GetPercentageBusy
 title: Integer GetPercentageBusy()
-path: /EJScript/Classes/NSActivitySummary/Member functions/Integer GetPercentageBusy()
-intellisense: 1
-classref: 1
-sortOrder: 589
-keywords: GetPercentageBusy()
+intellisense: NSActivitySummary.GetPercentageBusy
+keywords: NSActivitySummary, GetPercentageBusy
+so.topic: reference
 ---
-
 
 How much of the active work-day which is booked in appointments.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSActivitySummary thing;
+Integer percentageBusy  = thing.GetPercentageBusy();
+```
 
 

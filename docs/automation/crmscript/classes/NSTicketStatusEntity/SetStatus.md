@@ -1,17 +1,25 @@
+﻿---
+uid: crmscript_ref_NSTicketStatusEntity_SetStatus
+title: SetStatus(TicketBaseStatus status)
+intellisense: NSTicketStatusEntity.SetStatus
+keywords: NSTicketStatusEntity, GetStatus
+so.topic: reference
 ---
-title: Void SetStatus(NSTicketBaseStatus Status)
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/Void SetStatus(NSTicketBaseStatus p_0)
-intellisense: 1
-classref: 1
-keywords: SetStatus(NSTicketBaseStatus)
----
-
 
 The &apos;classic&apos; ticket status. I.e. active/closed/postponed/deleted
 
+**Parameter:** 
+ - **status** TicketBaseStatus
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Active 
+     - Enum: 2 = Closed 
+     - Enum: 3 = Postponed 
+     - Enum: 4 = Deleted 
+     - Enum: 5 = Merged 
 
-
-* **Status:** TicketBaseStatus
-* **Returns:** TicketBaseStatus
-
+```crmscript
+NSTicketStatusEntity thing;
+TicketBaseStatus status;
+thing.SetStatus(status);
+```
 

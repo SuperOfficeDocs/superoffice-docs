@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDayInformationListItem
 title: NSDayInformationListItem
-path: /EJScript/Classes/NSDayInformationListItem
-intellisense: 1
-classref: 1
-sortOrder: 2356
+intellisense: Void.NSDayInformationListItem
+keywords: NSDayInformationListItem
+so.topic: reference
 ---
-
 
 Summary information about the activites and holidaysfor one day
 
-
-
-
-1. autolist
+1. autolist 
 

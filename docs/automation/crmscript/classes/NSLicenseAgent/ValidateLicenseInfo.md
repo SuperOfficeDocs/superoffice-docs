@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSLicenseAgent_ValidateLicenseInfo
+title: LicenseResult ValidateLicenseInfo(ExtendedLicenseInfo licenseInfo)
+intellisense: NSLicenseAgent.ValidateLicenseInfo
+keywords: NSLicenseAgent, ValidateLicenseInfo
+so.topic: reference
 ---
-title: NSLicenseResult ValidateLicenseInfo(NSExtendedLicenseInfo licenseInfo)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseResult ValidateLicenseInfo(NSExtendedLicenseInfo p_0)
-intellisense: 1
-classref: 1
-keywords: ValidateLicenseInfo(NSExtendedLicenseInfo)
----
-
 
 Validate that a license is consistant.
 
-
-
-* **licenseInfo:** License to validate consistancy for
-
-
+**Parameters:**
+ - **licenseInfo** License to validate consistancy for

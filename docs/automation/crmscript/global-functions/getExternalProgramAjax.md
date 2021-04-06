@@ -1,9 +1,9 @@
 ---
 description: String getExternalProgramAjax()
-path: /EJScript/Global functions/String getExternalProgramAjax()
-intellisense: 1
+intellisense: Void.getExternalProgramAjax
 langref: 1
 keywords: getExternalProgramAjax()
+so.topic: reference
 ---
 
 

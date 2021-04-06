@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSRating_SetValue
+title: SetValue(String value)
+intellisense: NSRating.SetValue
+keywords: NSRating, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSRating/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the Rating item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Rating name.
 
+```crmscript
+NSRating thing;
+thing.SetValue("frotz");
+```
 

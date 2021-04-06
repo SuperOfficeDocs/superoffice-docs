@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTabOrder_SetTabOrderId
+title: SetTabOrderId(Integer tabOrderId)
+intellisense: NSTabOrder.SetTabOrderId
+keywords: NSTabOrder, GetTabOrderId
+so.topic: reference
 ---
-title: Void SetTabOrderId(Integer TabOrderId)
-path: /EJScript/Classes/NSTabOrder/Member functions/Void SetTabOrderId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTabOrderId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **tabOrderId** Integer
 
-
-* **TabOrderId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTabOrder thing;
+Integer tabOrderId;
+thing.SetTabOrderId(tabOrderId);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAddressSyncData_SetAddressId
+title: SetAddressId(Integer addressId)
+intellisense: NSAddressSyncData.SetAddressId
+keywords: NSAddressSyncData, GetAddressId
+so.topic: reference
 ---
-title: Void SetAddressId(Integer AddressId)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetAddressId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 632
-keywords: SetAddressId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **addressId** Integer
 
-
-* **AddressId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAddressSyncData thing;
+Integer addressId;
+thing.SetAddressId(addressId);
+```
 

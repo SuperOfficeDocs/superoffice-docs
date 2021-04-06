@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String p0, String p1)
-path: /EJScript/Classes/EabEntry/Member functions/Void setValue(String p_0, String p_1)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_EabEntry_setValue_String_p_0_String_p_1
+title: EabEntry.setValue(String p_0, String p_1)
+intellisense: EabEntry.setValue
 sortOrder: 279
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 Sets the value of the given field in the EabEntry instance.

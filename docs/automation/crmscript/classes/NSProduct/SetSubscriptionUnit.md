@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetSubscriptionUnit
+title: SetSubscriptionUnit(String subscriptionUnit)
+intellisense: NSProduct.SetSubscriptionUnit
+keywords: NSProduct, GetSubscriptionUnit
+so.topic: reference
 ---
-title: Void SetSubscriptionUnit(String SubscriptionUnit)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetSubscriptionUnit(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSubscriptionUnit(String)
----
-
 
 Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit.
 
+**Parameter:** 
+ - **subscriptionUnit** String
 
-
-* **SubscriptionUnit:** String
-* **Returns:** String
-
+```crmscript
+NSProduct thing;
+String subscriptionUnit;
+thing.SetSubscriptionUnit(subscriptionUnit);
+```
 

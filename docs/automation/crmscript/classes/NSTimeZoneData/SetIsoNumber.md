@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTimeZoneData_SetIsoNumber
+title: SetIsoNumber(Integer isoNumber)
+intellisense: NSTimeZoneData.SetIsoNumber
+keywords: NSTimeZoneData, GetIsoNumber
+so.topic: reference
 ---
-title: Void SetIsoNumber(Integer IsoNumber)
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetIsoNumber(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsoNumber(Integer)
----
 
 
-* **IsoNumber:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **isoNumber** Integer
+
+```crmscript
+NSTimeZoneData thing;
+Integer isoNumber;
+thing.SetIsoNumber(isoNumber);
+```
 

@@ -1,17 +1,23 @@
----
-title: Void SetJustification(Integer p0)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetJustification(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetJustification(Integer)
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetJustification
+title: SetJustification(UdefJustification justification)
+intellisense: NSUserDefinedFieldInfo.SetJustification
+keywords: NSUserDefinedFieldInfo, GetJustification
+so.topic: reference
 ---
 
-Justification
-* Default=0
-* Left=1
-* Center=2
-* Right=3
+Justification - 0 = default, left, right, center
 
-* **p_0:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **justification** UdefJustification
+     - Enum: 0 = Default 
+     - Enum: 1 = Left 
+     - Enum: 2 = Center 
+     - Enum: 3 = Right 
+
+```crmscript
+NSUserDefinedFieldInfo thing;
+UdefJustification justification;
+thing.SetJustification(justification);
+```
 

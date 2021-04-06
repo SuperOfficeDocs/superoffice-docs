@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescriptionLine_GetPrefValue
 title: String GetPrefValue()
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/String GetPrefValue()
-intellisense: 1
-classref: 1
-keywords: GetPrefValue()
+intellisense: NSPreferenceDescriptionLine.GetPrefValue
+keywords: NSPreferenceDescriptionLine, GetPrefValue
+so.topic: reference
 ---
-
 
 Possible value
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPreferenceDescriptionLine thing;
+String prefValue  = thing.GetPrefValue();
+```
 
 

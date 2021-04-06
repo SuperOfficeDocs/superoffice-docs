@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetMobilePhone
+title: SetMobilePhone(String mobilePhone)
+intellisense: NSPerson.SetMobilePhone
+keywords: NSPerson, GetMobilePhone
+so.topic: reference
 ---
-title: Void SetMobilePhone(String MobilePhone)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetMobilePhone(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetMobilePhone(String)
----
-
 
 Returns the mobile phone that belong to the contact person.
 
+**Parameter:** 
+ - **mobilePhone** String
 
-
-* **MobilePhone:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String mobilePhone;
+thing.SetMobilePhone(mobilePhone);
+```
 

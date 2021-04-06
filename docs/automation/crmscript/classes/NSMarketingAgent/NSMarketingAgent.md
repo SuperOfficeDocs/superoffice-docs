@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSMarketingAgent
 title: NSMarketingAgent
-path: /EJScript/Classes/NSMarketingAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSMarketingAgent
+keywords: NSMarketingAgent
+so.topic: reference
 ---
-
 
 Agent used for Marketing functions, such as Forms
 
-
-
+```crmscript
+NSMarketingAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

@@ -1,9 +1,9 @@
 ---
-title: Bool isAlpha()
-path: /EJScript/Classes/String/Member functions/Bool isAlpha()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_isAlpha
+title: String.isAlpha()
+intellisense: String.isAlpha
 keywords: isAlpha()
+so.topic: reference
 ---
 
 

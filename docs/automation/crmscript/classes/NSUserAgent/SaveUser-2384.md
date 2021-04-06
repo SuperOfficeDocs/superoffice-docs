@@ -1,9 +1,9 @@
 ---
-title: Void SaveUser(NSUser user)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void SaveUser(NSUser p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSUserAgent_SaveUser_NSUser_p_0
+title: NSUserAgent.SaveUser(NSUser p_0)
+intellisense: NSUserAgent.SaveUser
 keywords: SaveUser(NSUser)
+so.topic: reference
 ---
 
 

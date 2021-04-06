@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnection_SetConnectionId
+title: SetConnectionId(String connectionId)
+intellisense: NSErpConnection.SetConnectionId
+keywords: NSErpConnection, GetConnectionId
+so.topic: reference
 ---
-title: Void SetConnectionId(String ConnectionId)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetConnectionId(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3096
-keywords: SetConnectionId(String)
----
-
 
 The GUID that uniquely identifies this connection; passed to the Connector in every call
 
+**Parameter:** 
+ - **connectionId** String
 
-
-* **ConnectionId:** String
-* **Returns:** String
-
+```crmscript
+NSErpConnection thing;
+String connectionId;
+thing.SetConnectionId(connectionId);
+```
 

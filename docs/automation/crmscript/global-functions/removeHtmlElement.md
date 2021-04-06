@@ -1,9 +1,9 @@
 ---
 description: Void removeHtmlElement(Integer index)
-path: /EJScript/Global functions/Void removeHtmlElement(Integer index)
-intellisense: 1
+intellisense: Void.removeHtmlElement
 langref: 1
 keywords: removeHtmlElement(Integer)
+so.topic: reference
 ---
 
 This function can only be called from a screen definition, it will fail if called from a regular script

@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfoExtended_SetProtocol
+title: SetProtocol(String protocol)
+intellisense: NSEMailConnectionInfoExtended.SetProtocol
+keywords: NSEMailConnectionInfoExtended, GetProtocol
+so.topic: reference
 ---
-title: Void SetProtocol(String Protocol)
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Void SetProtocol(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2932
-keywords: SetProtocol(String)
----
 
 
-* **Protocol:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **protocol** String
+
+```crmscript
+NSEMailConnectionInfoExtended thing;
+String protocol;
+thing.SetProtocol(protocol);
+```
 

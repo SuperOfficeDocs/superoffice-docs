@@ -1,9 +1,9 @@
 ---
-title: Integer GetDatabaseVersion()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Integer GetDatabaseVersion()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetDatabaseVersion
+title: NSSoSystemInfoCarrier.GetDatabaseVersion()
+intellisense: NSSoSystemInfoCarrier.GetDatabaseVersion
 keywords: GetDatabaseVersion()
+so.topic: reference
 ---
 
 

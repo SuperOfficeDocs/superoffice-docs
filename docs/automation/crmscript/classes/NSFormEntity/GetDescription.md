@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSFormEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 3801
-keywords: GetDescription()
+intellisense: NSFormEntity.GetDescription
+keywords: NSFormEntity, GetDescription
+so.topic: reference
 ---
-
 
 Detailed description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFormEntity thing;
+String description  = thing.GetDescription();
+```
 
 

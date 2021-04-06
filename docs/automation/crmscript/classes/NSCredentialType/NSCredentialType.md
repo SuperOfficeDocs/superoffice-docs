@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCredentialType
 title: NSCredentialType
-path: /EJScript/Classes/NSCredentialType
-intellisense: 1
-classref: 1
-sortOrder: 2068
+intellisense: Void.NSCredentialType
+keywords: NSCredentialType
+so.topic: reference
 ---
-
 
 Description of credential type
 
-
-
-
-1. autolist
+1. autolist 
 

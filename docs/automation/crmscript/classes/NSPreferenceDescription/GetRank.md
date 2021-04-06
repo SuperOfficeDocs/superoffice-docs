@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSPreferenceDescription.GetRank
+keywords: NSPreferenceDescription, GetRank
+so.topic: reference
 ---
-
 
 Rank field for ordering sections, and keys within sections
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPreferenceDescription thing;
+Integer rank  = thing.GetRank();
+```
 
 

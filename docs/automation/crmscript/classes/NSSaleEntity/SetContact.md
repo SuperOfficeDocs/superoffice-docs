@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetContact
+title: SetContact(Contact contact)
+intellisense: NSSaleEntity.SetContact
+keywords: NSSaleEntity, GetContact
+so.topic: reference
 ---
-title: Void SetContact(NSContact Contact)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetContact(NSContact p_0)
-intellisense: 1
-classref: 1
-keywords: SetContact(NSContact)
----
-
 
 The contact associated with the sale. It may also be 0 if no contact is associated with the sale.
 
+**Parameter:** 
+ - **contact** Contact
 
-
-* **Contact:** Contact
-* **Returns:** Contact
-
+```crmscript
+NSSaleEntity thing;
+Contact contact;
+thing.SetContact(contact);
+```
 

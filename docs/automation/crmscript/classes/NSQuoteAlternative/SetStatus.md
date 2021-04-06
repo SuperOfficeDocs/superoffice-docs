@@ -1,18 +1,23 @@
----
-title: Void SetStatus(Integer p0)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetStatus(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetStatus(Integer)
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_SetStatus
+title: SetStatus(QuoteStatus status)
+intellisense: NSQuoteAlternative.SetStatus
+keywords: NSQuoteAlternative, GetStatus
+so.topic: reference
 ---
 
 If there was a problem with for instance calculation, this field is set to warning or error.
 
-* Ok=0
-* OkWithInfo=1
-* Warning=2
-* Error=3
+**Parameter:** 
+ - **status** QuoteStatus
+     - Enum: 0 = Ok 
+     - Enum: 1 = OkWithInfo 
+     - Enum: 2 = Warning 
+     - Enum: 3 = Error 
 
-* **Returns:** Void
-
+```crmscript
+NSQuoteAlternative thing;
+QuoteStatus status;
+thing.SetStatus(status);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoShortText_GetFormatMask
 title: String GetFormatMask()
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/String GetFormatMask()
-intellisense: 1
-classref: 1
-sortOrder: 3550
-keywords: GetFormatMask()
+intellisense: NSFieldInfoShortText.GetFormatMask
+keywords: NSFieldInfoShortText, GetFormatMask
+so.topic: reference
 ---
-
 
 Formatting mask, can be whatever the controls understand (currently nothing :-))
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldInfoShortText thing;
+String formatMask  = thing.GetFormatMask();
+```
 
 

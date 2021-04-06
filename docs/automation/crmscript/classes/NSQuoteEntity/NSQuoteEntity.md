@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteEntity
 title: NSQuoteEntity
-path: /EJScript/Classes/NSQuoteEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuoteEntity
+keywords: NSQuoteEntity
+so.topic: reference
 ---
-
 
 Quote methods
 
-
-
-
-1. autolist
+1. autolist 
 

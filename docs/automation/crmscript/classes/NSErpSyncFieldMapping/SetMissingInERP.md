@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_SetMissingInERP
+title: SetMissingInERP(Bool missingInERP)
+intellisense: NSErpSyncFieldMapping.SetMissingInERP
+keywords: NSErpSyncFieldMapping, GetMissingInERP
+so.topic: reference
 ---
-title: Void SetMissingInERP(Bool MissingInERP)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetMissingInERP(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3318
-keywords: SetMissingInERP(Bool)
----
-
 
 This field existed previously, but now the connection no longer supports it. Probably not a good sign, unmap it...
 
+**Parameter:** 
+ - **missingInERP** Bool
 
-
-* **MissingInERP:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSErpSyncFieldMapping thing;
+Bool missingInERP;
+thing.SetMissingInERP(missingInERP);
+```
 

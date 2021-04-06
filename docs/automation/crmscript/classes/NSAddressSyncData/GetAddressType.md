@@ -1,13 +1,25 @@
----
+﻿---
+uid: crmscript_ref_NSAddressSyncData_GetAddressType
 title: Integer GetAddressType()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Integer GetAddressType()
-intellisense: 1
-classref: 1
-sortOrder: 620
-keywords: GetAddressType()
+intellisense: NSAddressSyncData.GetAddressType
+keywords: NSAddressSyncData, GetAddressType
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+     - Enum: 0 = Unknown 
+     - Enum: 1 = ContactPostalAddress 
+     - Enum: 2 = ContactStreetAddress 
+     - Enum: 16387 = PersonPrivateAddress 
+     - Enum: 8196 = QuoteBillingAddress 
+     - Enum: 8197 = QuoteShippingAddress 
+
+```crmscript
+NSAddressSyncData thing;
+Integer addressType  = thing.GetAddressType();
+```
 
 

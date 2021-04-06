@@ -1,10 +1,10 @@
 ---
-title: Bool next()
-path: /EJScript/Classes/Map/Member functions/Bool next()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Map_next
+title: Map.next()
+intellisense: Map.next
 sortOrder: 527
 keywords: next()
+so.topic: reference
 ---
 
 Move internal iterator to next position.

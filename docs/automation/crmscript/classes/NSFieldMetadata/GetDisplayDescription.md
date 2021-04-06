@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldMetadata_GetDisplayDescription
 title: String GetDisplayDescription()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/String GetDisplayDescription()
-intellisense: 1
-classref: 1
-sortOrder: 3581
-keywords: GetDisplayDescription()
+intellisense: NSFieldMetadata.GetDisplayDescription
+keywords: NSFieldMetadata, GetDisplayDescription
+so.topic: reference
 ---
-
 
 Tooltip for the field name.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldMetadata thing;
+String displayDescription  = thing.GetDisplayDescription();
+```
 
 

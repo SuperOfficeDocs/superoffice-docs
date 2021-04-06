@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSLicenseAgent_ChangeSerialNumber
+title: LicenseResult ChangeSerialNumber(String newCompanyName, String newSerialNumber)
+intellisense: NSLicenseAgent.ChangeSerialNumber
+keywords: NSLicenseAgent, ChangeSerialNumber
+so.topic: reference
 ---
-title: NSLicenseResult ChangeSerialNumber(String newCompanyName, String newSerialNumber)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseResult ChangeSerialNumber(String p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: ChangeSerialNumber(String,String)
----
-
 
 Change the new serial number for the installation. Requests a new license from SuperLicense, checks if change is authorized.
 
+**Parameters:**
+ - **newCompanyName** The new company name
+ - **newSerialNumber** New serial number to change to.
 
+**Returns:** License after serial number/name change
 
-* **newCompanyName:** The new company name
-* **newSerialNumber:** New serial number to change to.
-* **Returns:** License after serial number/name change
-
+```crmscript
+NSLicenseAgent agent;
+String newCompanyName;
+String newSerialNumber;
+LicenseResult res = agent.ChangeSerialNumber(newCompanyName, newSerialNumber);
+```
 

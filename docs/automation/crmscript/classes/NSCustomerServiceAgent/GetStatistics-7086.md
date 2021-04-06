@@ -1,10 +1,10 @@
 ---
-title: NSStatisticsDataSet[] GetStatistics(NSStatusScreenPanelType[] functions)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSStatisticsDataSet[] GetStatistics(NSStatusScreenPanelType[] p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSCustomerServiceAgent_GetStatistics_NSStatusScreenPanelType__p_0
+title: NSCustomerServiceAgent.GetStatistics(NSStatusScreenPanelType[] p_0)
+intellisense: NSCustomerServiceAgent.GetStatistics
 sortOrder: 2239
 keywords: GetStatistics(NSStatusScreenPanelType[])
+so.topic: reference
 ---
 
 

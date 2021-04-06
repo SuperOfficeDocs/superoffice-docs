@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_SetChartName
+title: SetChartName(String chartName)
+intellisense: NSDashboardTile.SetChartName
+keywords: NSDashboardTile, GetChartName
+so.topic: reference
 ---
-title: Void SetChartName(String ChartName)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetChartName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2305
-keywords: SetChartName(String)
----
-
 
 The original chart name
 
+**Parameter:** 
+ - **chartName** String
 
-
-* **ChartName:** String
-* **Returns:** String
-
+```crmscript
+NSDashboardTile thing;
+String chartName;
+thing.SetChartName(chartName);
+```
 

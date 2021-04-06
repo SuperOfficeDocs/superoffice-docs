@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRole_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSRole.SetTooltip
+keywords: NSRole, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSRole/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the Role list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String Role tooltip description.
 
+```crmscript
+NSRole thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

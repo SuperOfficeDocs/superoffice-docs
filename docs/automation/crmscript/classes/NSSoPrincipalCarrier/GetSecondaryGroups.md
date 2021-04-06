@@ -1,9 +1,9 @@
 ---
-title: Integer[] GetSecondaryGroups()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer[] GetSecondaryGroups()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetSecondaryGroups
+title: NSSoPrincipalCarrier.GetSecondaryGroups()
+intellisense: NSSoPrincipalCarrier.GetSecondaryGroups
 keywords: GetSecondaryGroups()
+so.topic: reference
 ---
 
 

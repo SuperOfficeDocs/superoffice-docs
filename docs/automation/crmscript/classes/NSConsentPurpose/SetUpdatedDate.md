@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPurpose_SetUpdatedDate
+title: SetUpdatedDate(DateTime updatedDate)
+intellisense: NSConsentPurpose.SetUpdatedDate
+keywords: NSConsentPurpose, GetUpdatedDate
+so.topic: reference
 ---
-title: Void SetUpdatedDate(DateTime UpdatedDate)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetUpdatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1699
-keywords: SetUpdatedDate(DateTime)
----
-
 
 The date the consent purpose was last updated
 
+**Parameter:** 
+ - **updatedDate** DateTime
 
-
-* **UpdatedDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSConsentPurpose thing;
+DateTime updatedDate;
+thing.SetUpdatedDate(updatedDate);
+```
 

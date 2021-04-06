@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_GetOwner
 title: Integer GetOwner()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Integer GetOwner()
-intellisense: 1
-classref: 1
-keywords: GetOwner()
+intellisense: NSSystemEventEntity.GetOwner
+keywords: NSSystemEventEntity, GetOwner
+so.topic: reference
 ---
 
+0, 0, group_id, assoc id (see over)
 
-0, 0, group\_id, assoc id (see over)
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSSystemEventEntity thing;
+Integer owner  = thing.GetOwner();
+```
 
 

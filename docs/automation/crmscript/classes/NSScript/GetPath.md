@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSScript_GetPath
 title: String GetPath()
-path: /EJScript/Classes/NSScript/Member functions/String GetPath()
-intellisense: 1
-classref: 1
-keywords: GetPath()
+intellisense: NSScript.GetPath
+keywords: NSScript, GetPath
+so.topic: reference
 ---
-
 
 Path to script in the hierarchy.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSScript thing;
+String path  = thing.GetPath();
+```
 
 

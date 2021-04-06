@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetVAT
 title: Float GetVAT()
-path: /EJScript/Classes/NSProduct/Member functions/Float GetVAT()
-intellisense: 1
-classref: 1
-keywords: GetVAT()
+intellisense: NSProduct.GetVAT
+keywords: NSProduct, GetVAT
+so.topic: reference
 ---
-
 
 Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI.
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSProduct thing;
+Float vAT  = thing.GetVAT();
+```
 
 

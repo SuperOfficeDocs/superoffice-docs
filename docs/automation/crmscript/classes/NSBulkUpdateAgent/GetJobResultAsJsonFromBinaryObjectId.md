@@ -1,19 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSBulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId
 title: String GetJobResultAsJsonFromBinaryObjectId(String tableName, Integer binaryObjectId)
-path: /EJScript/Classes/NSBulkUpdateAgent/Member functions/String GetJobResultAsJsonFromBinaryObjectId(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
-sortOrder: 1474
-keywords: GetJobResultAsJsonFromBinaryObjectId(String,Integer)
+intellisense: NSBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
+keywords: NSBulkUpdateAgent, GetJobResultAsJsonFromBinaryObjectId
+so.topic: reference
 ---
-
 
 Get result of the batchupdate job
 
+**Parameters:**
+ - **tableName** The name of the table that was updated to show the log from
+ - **binaryObjectId** Which binaryobject id has stored the job result
 
+**Returns:** Result of job as json
 
-* **tableName:** The name of the table that was updated to show the log from
-* **binaryObjectId:** Which binaryobject id has stored the job result
-* **Returns:** Result of job as json
-
+```crmscript
+NSBulkUpdateAgent agent;
+String tableName;
+Integer binaryObjectId;
+String res = agent.GetJobResultAsJsonFromBinaryObjectId(tableName, binaryObjectId);
+```
 

@@ -1,17 +1,24 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetType
 title: Integer GetType()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
-sortOrder: 2294
-keywords: GetType()
+intellisense: NSDashboardTile.GetType
+keywords: NSDashboardTile, GetType
+so.topic: reference
 ---
-
 
 The tile type, what kind of tile this is
 
+**Returns:** Integer
 
+     - Enum: 0 = None 
+     - Enum: 1 = Chart 
+     - Enum: 2 = Web 
+     - Enum: 3 = List 
+     - Enum: 4 = Bignum 
 
-* **Returns:** Integer
+```crmscript
+NSDashboardTile thing;
+Integer type  = thing.GetType();
+```
 
 

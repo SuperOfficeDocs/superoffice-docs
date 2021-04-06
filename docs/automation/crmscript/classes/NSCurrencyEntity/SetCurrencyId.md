@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_SetCurrencyId
+title: SetCurrencyId(Integer currencyId)
+intellisense: NSCurrencyEntity.SetCurrencyId
+keywords: NSCurrencyEntity, GetCurrencyId
+so.topic: reference
 ---
-title: Void SetCurrencyId(Integer CurrencyId)
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Void SetCurrencyId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2186
-keywords: SetCurrencyId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **currencyId** Integer
 
-
-* **CurrencyId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCurrencyEntity thing;
+Integer currencyId;
+thing.SetCurrencyId(currencyId);
+```
 

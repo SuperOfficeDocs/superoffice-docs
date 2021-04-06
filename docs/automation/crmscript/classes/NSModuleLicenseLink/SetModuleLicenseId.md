@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_SetModuleLicenseId
+title: SetModuleLicenseId(Integer moduleLicenseId)
+intellisense: NSModuleLicenseLink.SetModuleLicenseId
+keywords: NSModuleLicenseLink, GetModuleLicenseId
+so.topic: reference
 ---
-title: Void SetModuleLicenseId(Integer ModuleLicenseId)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetModuleLicenseId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetModuleLicenseId(Integer)
----
-
 
 The identifier of the module license
 
+**Parameter:** 
+ - **moduleLicenseId** Integer
 
-
-* **ModuleLicenseId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSModuleLicenseLink thing;
+Integer moduleLicenseId;
+thing.SetModuleLicenseId(moduleLicenseId);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncConnectionSummary_GetDisplayName
 title: String GetDisplayName()
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 3232
-keywords: GetDisplayName()
+intellisense: NSErpSyncConnectionSummary.GetDisplayName
+keywords: NSErpSyncConnectionSummary, GetDisplayName
+so.topic: reference
 ---
-
 
 Connection name shown to user; multi-language support
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpSyncConnectionSummary thing;
+String displayName  = thing.GetDisplayName();
+```
 
 

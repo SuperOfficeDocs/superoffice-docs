@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetConnectionStartupResponse
+title: PluginResponse GetConnectionStartupResponse(Integer quoteConnectionId)
+intellisense: NSQuoteAgent.GetConnectionStartupResponse
+keywords: NSQuoteAgent, GetConnectionStartupResponse
+so.topic: reference
 ---
-title: NSPluginResponse GetConnectionStartupResponse(Integer quoteConnectionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginResponse GetConnectionStartupResponse(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetConnectionStartupResponse(Integer)
----
-
 
 Returns the PluginResponseInfo for the connection initialization. Does not initialize the connection, just returns what happened when initialize was called.
 
+**Parameters:**
+ - **quoteConnectionId** Primary key of the connection
 
+**Returns:** PluginResponseInfo for the connection initialization.
 
-* **quoteConnectionId:** Primary key of the connection
-* **Returns:** PluginResponseInfo for the connection initialization.
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteConnectionId;
+PluginResponse res = agent.GetConnectionStartupResponse(quoteConnectionId);
+```
 

@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerLanguage_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSCustomerLanguage/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-sortOrder: 2213
-keywords: GetId()
+intellisense: NSCustomerLanguage.GetId
+keywords: NSCustomerLanguage, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the CustomerLanguage
 
-* **Returns:** Integer
+**Returns:** Integer CustomerLanguage id.
 
+```crmscript
+NSCustomerLanguage thing;
+Integer id = thing.GetId();
+```
 

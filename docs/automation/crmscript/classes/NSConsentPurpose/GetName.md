@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentPurpose_GetName
 title: String GetName()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 1683
-keywords: GetName()
+intellisense: NSConsentPurpose.GetName
+keywords: NSConsentPurpose, GetName
+so.topic: reference
 ---
-
 
 Name of consent purpose
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentPurpose thing;
+String name  = thing.GetName();
+```
 
 

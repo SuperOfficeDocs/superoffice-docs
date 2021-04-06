@@ -1,23 +1,27 @@
----
-title: Void SetFieldType(Integer p0)
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Void SetFieldType(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3268
-keywords: SetFieldType(Integer)
+﻿---
+uid: crmscript_ref_NSErpSyncDefaultValue_SetFieldType
+title: SetFieldType(FieldMetadataType fieldType)
+intellisense: NSErpSyncDefaultValue.SetFieldType
+keywords: NSErpSyncDefaultValue, GetFieldType
+so.topic: reference
 ---
 
 Field type
 
-* Checkbox=0
-* Text=1
-* Password=2
-* Integer=3
-* Double=4
-* List=5
-* Date=6
-* Label=99	
+**Parameter:** 
+ - **fieldType** FieldMetadataType
+     - Enum: 0 = Checkbox 
+     - Enum: 1 = Text 
+     - Enum: 2 = Password 
+     - Enum: 3 = Integer 
+     - Enum: 4 = Double 
+     - Enum: 5 = List 
+     - Enum: 6 = Date 
+     - Enum: 99 = Label 
 
-* **p0:** Integer
-* **Returns:** Void
+```crmscript
+NSErpSyncDefaultValue thing;
+FieldMetadataType fieldType;
+thing.SetFieldType(fieldType);
+```
 

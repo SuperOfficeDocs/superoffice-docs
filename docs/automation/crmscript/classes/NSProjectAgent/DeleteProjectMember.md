@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_DeleteProjectMember
+title: DeleteProjectMember(Integer projectMember);
+intellisense: NSProjectAgent.DeleteProjectMember
+keywords: NSProjectAgent, DeleteProjectMember
+so.topic: reference
 ---
-title: Void DeleteProjectMember(Integer projectMemberId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Void DeleteProjectMember(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteProjectMember(Integer)
----
 
+Deletes the NSProjectMember
+  
+**Parameters:**
+ - **projectMemberId** The identity of the ProjectMember to delete.
 
-Deletes the ProjectMember
-
-
-
-* **projectMemberId:** The identity of the ProjectMember
-
+```crmscript
+NSProjectAgent agent;
+agent.DeleteProjectMember(123);
+```
 

@@ -1,12 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnection_SetConfigFields
+title: SetConfigFields(StringDictionary configFields)
+intellisense: NSErpConnection.SetConfigFields
+keywords: NSErpConnection, GetConfigFields
+so.topic: reference
 ---
-title: Void SetConfigFields(Map p0)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetConfigFields(Map p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3094
-keywords: SetConfigFields(Map)
----
 
+The config fields needed to establish a connection to the connector
 
+**Parameter:** 
+ - **configFields** StringDictionary
 
+```crmscript
+NSErpConnection thing;
+StringDictionary configFields;
+thing.SetConfigFields(configFields);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_SetVATInfo
+title: SetVATInfo(String vATInfo)
+intellisense: NSQuoteAlternative.SetVATInfo
+keywords: NSQuoteAlternative, GetVATInfo
+so.topic: reference
 ---
-title: Void SetVATInfo(String VATInfo)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetVATInfo(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetVATInfo(String)
----
-
 
 Extra info about VAT that the connector might insert. This field has no business logic in the CRM code, but is available as a merge field in the quote documents.
 
+**Parameter:** 
+ - **vATInfo** String
 
-
-* **VATInfo:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteAlternative thing;
+String vATInfo;
+thing.SetVATInfo(vATInfo);
+```
 

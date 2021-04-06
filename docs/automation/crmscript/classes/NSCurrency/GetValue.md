@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSCurrency_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSCurrency/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-sortOrder: 2173
-keywords: GetValue()
+intellisense: NSCurrency.GetValue
+keywords: NSCurrency, GetValue
+so.topic: reference
 ---
 
+Get the name of the Currency.
 
-* **Returns:** String
+**Returns:** String Currency name.
 
+```crmscript
+NSCurrency thing;
+String name = thing.GetValue();
+```
 

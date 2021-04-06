@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetUserGroup
+title: NSUserGroup GetUserGroup(Integer userGroupId);
+intellisense: NSUserAgent.GetUserGroup
+keywords: NSUserAgent, GetUserGroup
+so.topic: reference
 ---
-title: NSUserGroup GetUserGroup(Integer userGroupId)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUserGroup GetUserGroup(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetUserGroup(Integer)
----
 
+Gets a NSUserGroup object.
 
-Gets a UserGroup object.
+**Parameters:**
+ - **userGroupId** The identifier of the NSUserGroup object
 
+**Returns:** NSUserGroup
 
-
-* **userGroupId:** The identifier of the UserGroup object
-* **Returns:** UserGroup
-
+```crmscript
+NSUserAgent agent;
+NSUserGroup thing = agent.GetUserGroup(123);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetAuthor
 title: String GetAuthor()
-path: /EJScript/Classes/NSTicket/Member functions/String GetAuthor()
-intellisense: 1
-classref: 1
-keywords: GetAuthor()
+intellisense: NSTicket.GetAuthor
+keywords: NSTicket, GetAuthor
+so.topic: reference
 ---
-
 
 A string representing the author of the ticket (same as author of first message).
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicket thing;
+String author  = thing.GetAuthor();
+```
 
 

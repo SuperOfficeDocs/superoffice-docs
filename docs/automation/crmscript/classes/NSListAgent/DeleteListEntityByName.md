@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_DeleteListEntityByName
 title: Void DeleteListEntityByName(String name)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteListEntityByName(String p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteListEntityByName(String)
+intellisense: NSListAgent.DeleteListEntityByName
+keywords: NSListAgent, DeleteListEntityByName
+so.topic: reference
 ---
-
 
 Delete a ListEntity resolved by the provided name.
 
+**Parameters:**
+ - **name** The name of the list to delete.
 
+**Returns:** This method has no return value
 
-* **name:** The name of the list to delete.
-* **Returns:** This method has no return value
-
+```crmscript
+NSListAgent agent;
+String name;
+Void res = agent.DeleteListEntityByName(name);
+```
 

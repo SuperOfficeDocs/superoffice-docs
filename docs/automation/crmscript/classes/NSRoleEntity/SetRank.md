@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_SetRank
+title: SetRank(Integer rank)
+intellisense: NSRoleEntity.SetRank
+keywords: NSRoleEntity, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 Sorting rank of this role in lists
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRoleEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSRoleEntity.SetTooltip
+keywords: NSRoleEntity, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
-
 
 Description of the role.
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSRoleEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

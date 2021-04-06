@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetDoctmplId
 title: Integer GetDoctmplId()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Integer GetDoctmplId()
-intellisense: 1
-classref: 1
-keywords: GetDoctmplId()
+intellisense: NSSuggestedDocumentEntity.GetDoctmplId
+keywords: NSSuggestedDocumentEntity, GetDoctmplId
+so.topic: reference
 ---
-
 
 Type of the suggested document
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSuggestedDocumentEntity thing;
+Integer doctmplId  = thing.GetDoctmplId();
+```
 
 

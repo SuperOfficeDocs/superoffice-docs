@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_SetIconHint
+title: SetIconHint(String iconHint)
+intellisense: NSSelectableMDOListItem.SetIconHint
+keywords: NSSelectableMDOListItem, GetIconHint
+so.topic: reference
 ---
-title: Void SetIconHint(String IconHint)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetIconHint(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetIconHint(String)
----
-
 
 The Icon hint of the ListItem. Custom field.
 
+**Parameter:** 
+ - **iconHint** String
 
-
-* **IconHint:** String
-* **Returns:** String
-
+```crmscript
+NSSelectableMDOListItem thing;
+String iconHint;
+thing.SetIconHint(iconHint);
+```
 

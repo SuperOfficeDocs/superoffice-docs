@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonSummary_GetDocuments
+title: ActivitySummaryItemArray GetDocuments()
+intellisense: NSPersonSummary.GetDocuments
+keywords: NSPersonSummary, GetDocuments
+so.topic: reference
 ---
-title: NSActivitySummaryItem[] GetDocuments()
-path: /EJScript/Classes/NSPersonSummary/Member functions/NSActivitySummaryItem[] GetDocuments()
-intellisense: 1
-classref: 1
-keywords: GetDocuments()
----
-
 
 Recent documents on person
 
+**Returns:** ActivitySummaryItemArray
 
 
-* **Returns:** ActivitySummaryItemArray
+```crmscript
+NSPersonSummary thing;
+ActivitySummaryItemArray documents  = thing.GetDocuments();
+```
 
 

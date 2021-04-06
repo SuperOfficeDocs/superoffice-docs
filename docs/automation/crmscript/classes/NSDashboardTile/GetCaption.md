@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetCaption
 title: String GetCaption()
-path: /EJScript/Classes/NSDashboardTile/Member functions/String GetCaption()
-intellisense: 1
-classref: 1
-sortOrder: 2296
-keywords: GetCaption()
+intellisense: NSDashboardTile.GetCaption
+keywords: NSDashboardTile, GetCaption
+so.topic: reference
 ---
-
 
 The tile caption
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDashboardTile thing;
+String caption  = thing.GetCaption();
+```
 
 

@@ -1,10 +1,10 @@
 ---
-title: String[] GetPluginCapabilities(Integer pluginId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/String[] GetPluginCapabilities(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSDocumentAgent_GetPluginCapabilities_Integer_p_0
+title: NSDocumentAgent.GetPluginCapabilities(Integer p_0)
+intellisense: NSDocumentAgent.GetPluginCapabilities
 sortOrder: 2541
 keywords: GetPluginCapabilities(Integer)
+so.topic: reference
 ---
 
 

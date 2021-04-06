@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_SetListReference
+title: SetListReference(String listReference)
+intellisense: NSErpSyncFieldMapping.SetListReference
+keywords: NSErpSyncFieldMapping, GetListReference
+so.topic: reference
 ---
-title: Void SetListReference(String ListReference)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetListReference(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3316
-keywords: SetListReference(String)
----
-
 
 Field is read-only, for lookup in gui
 
+**Parameter:** 
+ - **listReference** String
 
-
-* **ListReference:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncFieldMapping thing;
+String listReference;
+thing.SetListReference(listReference);
+```
 

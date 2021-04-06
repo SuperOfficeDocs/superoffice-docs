@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_GetDocumentTemplateExtension
 title: String GetDocumentTemplateExtension(Integer documentTemplateId)
-path: /EJScript/Classes/NSListAgent/Member functions/String GetDocumentTemplateExtension(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetDocumentTemplateExtension(Integer)
+intellisense: NSListAgent.GetDocumentTemplateExtension
+keywords: NSListAgent, GetDocumentTemplateExtension
+so.topic: reference
 ---
-
 
 Get the file extension for the document template
 
+**Parameters:**
+ - **documentTemplateId** The primary key of the document template
 
+**Returns:** File name extension including '.': '.doc' or '.xlsx'
 
-* **documentTemplateId:** The primary key of the document template
-* **Returns:** File name extension including '.': '.doc' or '.xlsx'
-
+```crmscript
+NSListAgent agent;
+Integer documentTemplateId;
+String res = agent.GetDocumentTemplateExtension(documentTemplateId);
+```
 

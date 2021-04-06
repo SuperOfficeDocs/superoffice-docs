@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMessageDeliveryStatus_GetStatusDescription
 title: String GetStatusDescription()
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/String GetStatusDescription()
-intellisense: 1
-classref: 1
-keywords: GetStatusDescription()
+intellisense: NSMessageDeliveryStatus.GetStatusDescription
+keywords: NSMessageDeliveryStatus, GetStatusDescription
+so.topic: reference
 ---
-
 
 String describing the current message status.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMessageDeliveryStatus thing;
+String statusDescription  = thing.GetStatusDescription();
+```
 
 

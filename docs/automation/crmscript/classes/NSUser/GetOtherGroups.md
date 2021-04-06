@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_GetOtherGroups
+title: UserGroupArray GetOtherGroups()
+intellisense: NSUser.GetOtherGroups
+keywords: NSUser, GetOtherGroups
+so.topic: reference
 ---
-title: NSUserGroup[] GetOtherGroups()
-path: /EJScript/Classes/NSUser/Member functions/NSUserGroup[] GetOtherGroups()
-intellisense: 1
-classref: 1
-keywords: GetOtherGroups()
----
-
 
 The other groups this user is a member of, apart from the main user group.
 
+**Returns:** UserGroupArray
 
 
-* **Returns:** UserGroupArray
+```crmscript
+NSUser thing;
+UserGroupArray otherGroups  = thing.GetOtherGroups();
+```
 
 

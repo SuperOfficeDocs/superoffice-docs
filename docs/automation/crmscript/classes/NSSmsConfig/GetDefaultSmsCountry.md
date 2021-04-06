@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSmsConfig_GetDefaultSmsCountry
 title: String GetDefaultSmsCountry()
-path: /EJScript/Classes/NSSmsConfig/Member functions/String GetDefaultSmsCountry()
-intellisense: 1
-classref: 1
-keywords: GetDefaultSmsCountry()
+intellisense: NSSmsConfig.GetDefaultSmsCountry
+keywords: NSSmsConfig, GetDefaultSmsCountry
+so.topic: reference
 ---
-
 
 Phone prefix, will default to the current users HomeCountryId.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSmsConfig thing;
+String defaultSmsCountry  = thing.GetDefaultSmsCountry();
+```
 
 

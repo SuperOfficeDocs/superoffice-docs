@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailbox_GetCategoryName
 title: String GetCategoryName()
-path: /EJScript/Classes/NSMailbox/Member functions/String GetCategoryName()
-intellisense: 1
-classref: 1
-keywords: GetCategoryName()
+intellisense: NSMailbox.GetCategoryName
+keywords: NSMailbox, GetCategoryName
+so.topic: reference
 ---
-
 
 The name of the category that the mailbox is connected to
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMailbox thing;
+String categoryName  = thing.GetCategoryName();
+```
 
 

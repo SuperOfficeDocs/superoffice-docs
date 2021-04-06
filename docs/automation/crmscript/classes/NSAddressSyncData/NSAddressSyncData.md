@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSAddressSyncData
 title: NSAddressSyncData
-path: /EJScript/Classes/NSAddressSyncData
-intellisense: 1
-classref: 1
-sortOrder: 615
+intellisense: Void.NSAddressSyncData
+keywords: NSAddressSyncData
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

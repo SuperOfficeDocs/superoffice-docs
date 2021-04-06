@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetSunStop
 title: DateTime GetSunStop()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetSunStop()
-intellisense: 1
-classref: 1
-keywords: GetSunStop()
+intellisense: NSTicketPriorityEntity.GetSunStop
+keywords: NSTicketPriorityEntity, GetSunStop
+so.topic: reference
 ---
-
 
 The work hour stop for Sundays. Note that only the time part of the DateTime is used
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime sunStop  = thing.GetSunStop();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_SetToFullName
+title: SetToFullName(String toFullName)
+intellisense: NSQuotePublishDocuments.SetToFullName
+keywords: NSQuotePublishDocuments, GetToFullName
+so.topic: reference
 ---
-title: Void SetToFullName(String ToFullName)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetToFullName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetToFullName(String)
----
-
 
 The full name of the recipient, taken from the sale's person
 
+**Parameter:** 
+ - **toFullName** String
 
-
-* **ToFullName:** String
-* **Returns:** String
-
+```crmscript
+NSQuotePublishDocuments thing;
+String toFullName;
+thing.SetToFullName(toFullName);
+```
 

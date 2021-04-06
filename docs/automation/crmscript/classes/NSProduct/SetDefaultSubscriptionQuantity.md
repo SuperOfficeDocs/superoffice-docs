@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetDefaultSubscriptionQuantity
+title: SetDefaultSubscriptionQuantity(Float defaultSubscriptionQuantity)
+intellisense: NSProduct.SetDefaultSubscriptionQuantity
+keywords: NSProduct, GetDefaultSubscriptionQuantity
+so.topic: reference
 ---
-title: Void SetDefaultSubscriptionQuantity(Float DefaultSubscriptionQuantity)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetDefaultSubscriptionQuantity(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetDefaultSubscriptionQuantity(Float)
----
-
 
 The default number of SubscriptionUnits to suggest when creating quote lines from this product
 
+**Parameter:** 
+ - **defaultSubscriptionQuantity** Float
 
-
-* **DefaultSubscriptionQuantity:** Float
-* **Returns:** Float
-
+```crmscript
+NSProduct thing;
+Float defaultSubscriptionQuantity;
+thing.SetDefaultSubscriptionQuantity(defaultSubscriptionQuantity);
+```
 

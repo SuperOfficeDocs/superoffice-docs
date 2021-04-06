@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_GetArchived
 title: Bool GetArchived()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Bool GetArchived()
-intellisense: 1
-classref: 1
-sortOrder: 3044
-keywords: GetArchived()
+intellisense: NSEMailSOInfo.GetArchived
+keywords: NSEMailSOInfo, GetArchived
+so.topic: reference
 ---
-
 
 Is this e-mail archived in SuperOffice
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSEMailSOInfo thing;
+Bool archived  = thing.GetArchived();
+```
 
 

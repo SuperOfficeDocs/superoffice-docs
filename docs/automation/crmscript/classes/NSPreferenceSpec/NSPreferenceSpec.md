@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceSpec
 title: NSPreferenceSpec
-path: /EJScript/Classes/NSPreferenceSpec
-intellisense: 1
-classref: 1
+intellisense: Void.NSPreferenceSpec
+keywords: NSPreferenceSpec
+so.topic: reference
 ---
-
 
 Preference specification, consisting of the section name and key name
 
-
-
-
-1. autolist
+1. autolist 
 

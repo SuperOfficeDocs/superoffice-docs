@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetTitle
 title: String GetTitle()
-path: /EJScript/Classes/NSSale/Member functions/String GetTitle()
-intellisense: 1
-classref: 1
-keywords: GetTitle()
+intellisense: NSSale.GetTitle
+keywords: NSSale, GetTitle
+so.topic: reference
 ---
-
 
 Sale heading (short description?)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSale thing;
+String title  = thing.GetTitle();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetCompanyUnique
+title: SetCompanyUnique(Bool companyUnique)
+intellisense: NSSelectionEntity.SetCompanyUnique
+keywords: NSSelectionEntity, GetCompanyUnique
+so.topic: reference
 ---
-title: Void SetCompanyUnique(Bool CompanyUnique)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetCompanyUnique(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetCompanyUnique(Bool)
----
-
 
 Filter out duplicate members based on company?
 
+**Parameter:** 
+ - **companyUnique** Bool
 
-
-* **CompanyUnique:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSSelectionEntity thing;
+Bool companyUnique;
+thing.SetCompanyUnique(companyUnique);
+```
 

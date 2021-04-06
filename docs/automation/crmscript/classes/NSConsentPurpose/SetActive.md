@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPurpose_SetActive
+title: SetActive(Integer active)
+intellisense: NSConsentPurpose.SetActive
+keywords: NSConsentPurpose, GetActive
+so.topic: reference
 ---
-title: Void SetActive(Integer Active)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetActive(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1687
-keywords: SetActive(Integer)
----
-
 
 Is the consent purpose active or not
 
+**Parameter:** 
+ - **active** Integer
 
-
-* **Active:** Integer
-* **Returns:** Void
-
+```crmscript
+NSConsentPurpose thing;
+Integer active;
+thing.SetActive(active);
+```
 

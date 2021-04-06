@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetCreatedByAssociateId
+title: SetCreatedByAssociateId(Integer createdByAssociateId)
+intellisense: NSAppointment.SetCreatedByAssociateId
+keywords: NSAppointment, GetCreatedByAssociateId
+so.topic: reference
 ---
-title: Void SetCreatedByAssociateId(Integer CreatedByAssociateId)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetCreatedByAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 785
-keywords: SetCreatedByAssociateId(Integer)
----
-
 
 Id of the associate that created the appointment
 
+**Parameter:** 
+ - **createdByAssociateId** Integer
 
-
-* **CreatedByAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointment thing;
+Integer createdByAssociateId;
+thing.SetCreatedByAssociateId(createdByAssociateId);
+```
 

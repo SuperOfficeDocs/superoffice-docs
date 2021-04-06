@@ -1,12 +1,19 @@
----
-title: NSReasonStalled GetReasonStalled()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSReasonStalled GetReasonStalled()
-intellisense: 1
-classref: 1
-keywords: GetReasonStalled()
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetReasonStalled
+title: ReasonStalled GetReasonStalled()
+intellisense: NSSaleEntity.GetReasonStalled
+keywords: NSSaleEntity, GetReasonStalled
+so.topic: reference
 ---
 
 
-* **Returns:** ReasonStalled
+
+**Returns:** ReasonStalled
+
+
+```crmscript
+NSSaleEntity thing;
+ReasonStalled reasonStalled  = thing.GetReasonStalled();
+```
 
 

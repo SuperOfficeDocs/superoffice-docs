@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMultiAlarmData_GetPollingInterval
 title: Integer GetPollingInterval()
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/Integer GetPollingInterval()
-intellisense: 1
-classref: 1
-keywords: GetPollingInterval()
+intellisense: NSMultiAlarmData.GetPollingInterval
+keywords: NSMultiAlarmData, GetPollingInterval
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSMultiAlarmData thing;
+Integer pollingInterval  = thing.GetPollingInterval();
+```
 
 

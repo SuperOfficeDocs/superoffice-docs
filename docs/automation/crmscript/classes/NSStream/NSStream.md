@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSStream
 title: NSStream
-path: /EJScript/Classes/NSStream
-intellisense: 1
-classref: 1
+intellisense: Void.NSStream
+so.topic: reference
 ---
 
 

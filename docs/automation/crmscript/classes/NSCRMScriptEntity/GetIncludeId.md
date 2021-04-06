@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_GetIncludeId
 title: String GetIncludeId()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/String GetIncludeId()
-intellisense: 1
-classref: 1
-sortOrder: 2134
-keywords: GetIncludeId()
+intellisense: NSCRMScriptEntity.GetIncludeId
+keywords: NSCRMScriptEntity, GetIncludeId
+so.topic: reference
 ---
-
 
 A unique name used for including this script in another
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCRMScriptEntity thing;
+String includeId  = thing.GetIncludeId();
+```
 
 

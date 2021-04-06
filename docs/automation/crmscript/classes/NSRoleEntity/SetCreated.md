@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_SetCreated
+title: SetCreated(DateTime created)
+intellisense: NSRoleEntity.SetCreated
+keywords: NSRoleEntity, GetCreated
+so.topic: reference
 ---
-title: Void SetCreated(DateTime Created)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetCreated(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetCreated(DateTime)
----
-
 
 Registered when
 
+**Parameter:** 
+ - **created** DateTime
 
-
-* **Created:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSRoleEntity thing;
+DateTime created;
+thing.SetCreated(created);
+```
 

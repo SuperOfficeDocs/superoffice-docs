@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetNumMessages
+title: SetNumMessages(Integer numMessages)
+intellisense: NSTicketEntity.SetNumMessages
+keywords: NSTicketEntity, GetNumMessages
+so.topic: reference
 ---
-title: Void SetNumMessages(Integer NumMessages)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetNumMessages(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetNumMessages(Integer)
----
-
 
 The total number of messages for this request.
 
+**Parameter:** 
+ - **numMessages** Integer
 
-
-* **NumMessages:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicketEntity thing;
+Integer numMessages;
+thing.SetNumMessages(numMessages);
+```
 

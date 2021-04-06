@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_SetIsActive
+title: SetIsActive(Bool isActive)
+intellisense: NSArchiveRestrictionInfo.SetIsActive
+keywords: NSArchiveRestrictionInfo, GetIsActive
+so.topic: reference
 ---
-title: Void SetIsActive(Bool IsActive)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetIsActive(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1230
-keywords: SetIsActive(Bool)
----
-
 
 Is this restriction active?  Inactive restrictions will not influence the generated query
 
+**Parameter:** 
+ - **isActive** Bool
 
-
-* **IsActive:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSArchiveRestrictionInfo thing;
+Bool isActive;
+thing.SetIsActive(isActive);
+```
 

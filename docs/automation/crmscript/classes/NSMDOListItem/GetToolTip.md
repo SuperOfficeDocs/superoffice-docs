@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem_GetToolTip
 title: String GetToolTip()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetToolTip()
-intellisense: 1
-classref: 1
-keywords: GetToolTip()
+intellisense: NSMDOListItem.GetToolTip
+keywords: NSMDOListItem, GetToolTip
+so.topic: reference
 ---
-
 
 The tooltip of the ListItem
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMDOListItem thing;
+String toolTip  = thing.GetToolTip();
+```
 
 

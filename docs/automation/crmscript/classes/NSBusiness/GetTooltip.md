@@ -1,13 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSBusiness_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSBusiness/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 1479
-keywords: GetTooltip()
+intellisense: NSBusiness.GetTooltip
+keywords: NSBusiness, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the Business list item.
 
-* **Returns:** String
+**Returns:** String Business tooltip description.
+
+```crmscript
+NSBusiness thing;
+String descr = thing.GetTooltip();
+```
 
 

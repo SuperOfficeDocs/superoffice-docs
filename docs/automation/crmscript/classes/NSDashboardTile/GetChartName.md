@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetChartName
 title: String GetChartName()
-path: /EJScript/Classes/NSDashboardTile/Member functions/String GetChartName()
-intellisense: 1
-classref: 1
-sortOrder: 2298
-keywords: GetChartName()
+intellisense: NSDashboardTile.GetChartName
+keywords: NSDashboardTile, GetChartName
+so.topic: reference
 ---
-
 
 The original chart name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDashboardTile thing;
+String chartName  = thing.GetChartName();
+```
 
 

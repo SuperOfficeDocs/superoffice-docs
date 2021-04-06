@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent_ChangeOwnPassword
 title: Bool ChangeOwnPassword(String oldPassword, String newPassword)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool ChangeOwnPassword(String p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: ChangeOwnPassword(String,String)
+intellisense: NSUserAgent.ChangeOwnPassword
+keywords: NSUserAgent, ChangeOwnPassword
+so.topic: reference
 ---
-
 
 Change password for a user.
 
+**Parameters:**
+ - **oldPassword** The current password of the user.  Administrators can leave this blank to force a new password upon a user.
+ - **newPassword** The new password for the user
 
+**Returns:** True if the password was successfully changed.
 
-* **oldPassword:** The current password of the user.  Administrators can leave this blank to force a new password upon a user.
-* **newPassword:** The new password for the user
-* **Returns:** True if the password was successfully changed.
-
+```crmscript
+NSUserAgent agent;
+String oldPassword;
+String newPassword;
+Bool res = agent.ChangeOwnPassword(oldPassword, newPassword);
+```
 

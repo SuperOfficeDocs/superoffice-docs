@@ -1,9 +1,9 @@
 ---
-title: Integer saveAsResult(Integer column, Integer ownerId, Integer maxRows)
-path: /EJScript/Classes/StatResult/Member functions/Integer saveAsResult(Integer column, Integer ownerId, Integer maxRows)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatResult_saveAsResult_Integer_column_Integer_ownerId_Integer_maxRows
+title: StatResult.saveAsResult(Integer column, Integer ownerId, Integer maxRows)
+intellisense: StatResult.saveAsResult
 keywords: saveAsResult(Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

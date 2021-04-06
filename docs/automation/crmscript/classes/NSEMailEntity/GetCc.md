@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetCc
+title: EMailAddressArray GetCc()
+intellisense: NSEMailEntity.GetCc
+keywords: NSEMailEntity, GetCc
+so.topic: reference
 ---
-title: NSEMailAddress[] GetCc()
-path: /EJScript/Classes/NSEMailEntity/Member functions/NSEMailAddress[] GetCc()
-intellisense: 1
-classref: 1
-sortOrder: 2959
-keywords: GetCc()
----
-
 
 Cc recipients of e-mail
 
+**Returns:** EMailAddressArray
 
 
-* **Returns:** EMailAddressArray
+```crmscript
+NSEMailEntity thing;
+EMailAddressArray cc  = thing.GetCc();
+```
 
 

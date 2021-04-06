@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetTitle
+title: SetTitle(String title)
+intellisense: NSSale.SetTitle
+keywords: NSSale, GetTitle
+so.topic: reference
 ---
-title: Void SetTitle(String Title)
-path: /EJScript/Classes/NSSale/Member functions/Void SetTitle(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTitle(String)
----
-
 
 Sale heading (short description?)
 
+**Parameter:** 
+ - **title** String
 
-
-* **Title:** String
-* **Returns:** String
-
+```crmscript
+NSSale thing;
+String title;
+thing.SetTitle(title);
+```
 

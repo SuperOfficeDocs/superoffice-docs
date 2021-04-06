@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_SetErrorMessage
+title: SetErrorMessage(String errorMessage)
+intellisense: NSQuotePublishDocuments.SetErrorMessage
+keywords: NSQuotePublishDocuments, GetErrorMessage
+so.topic: reference
 ---
-title: Void SetErrorMessage(String ErrorMessage)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetErrorMessage(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetErrorMessage(String)
----
-
 
 If something went wrong, show this message and do not continue
 
+**Parameter:** 
+ - **errorMessage** String
 
-
-* **ErrorMessage:** String
-* **Returns:** String
-
+```crmscript
+NSQuotePublishDocuments thing;
+String errorMessage;
+thing.SetErrorMessage(errorMessage);
+```
 

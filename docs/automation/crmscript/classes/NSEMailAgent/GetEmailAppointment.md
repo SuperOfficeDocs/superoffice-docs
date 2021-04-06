@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_GetEmailAppointment
+title: EMailAppointment GetEmailAppointment(Integer mailItemId)
+intellisense: NSEMailAgent.GetEmailAppointment
+keywords: NSEMailAgent, GetEmailAppointment
+so.topic: reference
 ---
-title: NSEMailAppointment GetEmailAppointment(Integer mailItemId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAppointment GetEmailAppointment(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2803
-keywords: GetEmailAppointment(Integer)
----
-
 
 Get appointment data contained in the emails iCal attachment
 
+**Parameters:**
+ - **mailItemId** Id identifying the email
 
+**Returns:** Appointment data
 
-* **mailItemId:** Id identifying the email
-* **Returns:** Appointment data
-
+```crmscript
+NSEMailAgent agent;
+Integer mailItemId;
+EMailAppointment res = agent.GetEmailAppointment(mailItemId);
+```
 

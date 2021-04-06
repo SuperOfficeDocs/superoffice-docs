@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetHtmlBody
+title: SetHtmlBody(String htmlBody)
+intellisense: NSTicketMessageEntity.SetHtmlBody
+keywords: NSTicketMessageEntity, GetHtmlBody
+so.topic: reference
 ---
-title: Void SetHtmlBody(String HtmlBody)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetHtmlBody(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetHtmlBody(String)
----
-
 
 The html body for the message (if any).
 
+**Parameter:** 
+ - **htmlBody** String
 
-
-* **HtmlBody:** String
-* **Returns:** String
-
+```crmscript
+NSTicketMessageEntity thing;
+String htmlBody;
+thing.SetHtmlBody(htmlBody);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSForeignDevice_GetCreatedBy
 title: String GetCreatedBy()
-path: /EJScript/Classes/NSForeignDevice/Member functions/String GetCreatedBy()
-intellisense: 1
-classref: 1
-sortOrder: 3719
-keywords: GetCreatedBy()
+intellisense: NSForeignDevice.GetCreatedBy
+keywords: NSForeignDevice, GetCreatedBy
+so.topic: reference
 ---
-
 
 The person that created the device.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSForeignDevice thing;
+String createdBy  = thing.GetCreatedBy();
+```
 
 

@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSRecurrenceDate
 title: NSRecurrenceDate
-path: /EJScript/Classes/NSRecurrenceDate
-intellisense: 1
-classref: 1
+intellisense: Void.NSRecurrenceDate
+so.topic: reference
 ---
 
 

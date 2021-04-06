@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_WeekSchedule
 title: WeekSchedule
-path: /EJScript/Classes/WeekSchedule
-intellisense: 1
-classref: 1
+intellisense: Void.WeekSchedule
+so.topic: reference
 ---
 
 

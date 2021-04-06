@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetHasImage
+title: SetHasImage(Bool hasImage)
+intellisense: NSProjectEntity.SetHasImage
+keywords: NSProjectEntity, GetHasImage
+so.topic: reference
 ---
-title: Void SetHasImage(Bool HasImage)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetHasImage(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetHasImage(Bool)
----
-
 
 True if the project has an image. (This is the image that is displayed in the CRM client)
 
+**Parameter:** 
+ - **hasImage** Bool
 
-
-* **HasImage:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEntity thing;
+Bool hasImage;
+thing.SetHasImage(hasImage);
+```
 

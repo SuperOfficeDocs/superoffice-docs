@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSRecurrenceWeekPattern
 title: NSRecurrenceWeekPattern
-path: /EJScript/Classes/NSRecurrenceWeekPattern
-intellisense: 1
-classref: 1
+intellisense: Void.NSRecurrenceWeekPattern
+so.topic: reference
 ---
 
 

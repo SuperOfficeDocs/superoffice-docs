@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveColumnData_SetLinkHint
+title: SetLinkHint(String linkHint)
+intellisense: NSArchiveColumnData.SetLinkHint
+keywords: NSArchiveColumnData, GetLinkHint
+so.topic: reference
 ---
-title: Void SetLinkHint(String LinkHint)
-path: /EJScript/Classes/NSArchiveColumnData/Member functions/Void SetLinkHint(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1130
-keywords: SetLinkHint(String)
----
 
+The link hint consists of information to construct an actual link; additional information (such as a view context) must be provided by the client, who is also responsible for building the link. The content of the link will generally be one or more ids, such as contact_id=123.
 
-The link hint consists of information to construct an actual link; additional information (such as a view context) must be provided by the client, who is also responsible for building the link. The content of the link will generally be one or more ids, such as contact\_id=123.
+**Parameter:** 
+ - **linkHint** String
 
-
-
-* **LinkHint:** String
-* **Returns:** String
-
+```crmscript
+NSArchiveColumnData thing;
+String linkHint;
+thing.SetLinkHint(linkHint);
+```
 

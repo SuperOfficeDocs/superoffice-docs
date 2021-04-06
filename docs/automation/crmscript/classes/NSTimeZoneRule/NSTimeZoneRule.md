@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneRule
 title: NSTimeZoneRule
-path: /EJScript/Classes/NSTimeZoneRule
-intellisense: 1
-classref: 1
+intellisense: Void.NSTimeZoneRule
+keywords: NSTimeZoneRule
+so.topic: reference
 ---
-
 
 Information about a rule for a TimeZone
 
-
-
-
-1. autolist
+1. autolist 
 

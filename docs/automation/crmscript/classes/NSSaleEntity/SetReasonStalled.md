@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetReasonStalled
+title: SetReasonStalled(ReasonStalled reasonStalled)
+intellisense: NSSaleEntity.SetReasonStalled
+keywords: NSSaleEntity, GetReasonStalled
+so.topic: reference
 ---
-title: Void SetReasonStalled(NSReasonStalled ReasonStalled)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetReasonStalled(NSReasonStalled p_0)
-intellisense: 1
-classref: 1
-keywords: SetReasonStalled(NSReasonStalled)
----
 
 
-* **ReasonStalled:** ReasonStalled
-* **Returns:** ReasonStalled
 
+**Parameter:** 
+ - **reasonStalled** ReasonStalled
+
+```crmscript
+NSSaleEntity thing;
+ReasonStalled reasonStalled;
+thing.SetReasonStalled(reasonStalled);
+```
 

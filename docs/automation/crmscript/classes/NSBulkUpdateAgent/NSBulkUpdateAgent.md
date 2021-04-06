@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSBulkUpdateAgent
 title: NSBulkUpdateAgent
-path: /EJScript/Classes/NSBulkUpdateAgent
-intellisense: 1
-classref: 1
-sortOrder: 1466
+intellisense: Void.NSBulkUpdateAgent
+keywords: NSBulkUpdateAgent
+so.topic: reference
 ---
-
 
 Agent used for bulk update methods
 
-
-
+```crmscript
+NSBulkUpdateAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

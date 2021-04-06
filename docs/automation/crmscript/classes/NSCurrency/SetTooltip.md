@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCurrency_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSCurrency.SetTooltip
+keywords: NSCurrency, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSCurrency/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2175
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the Currency list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String Currency tooltip description.
 
+```crmscript
+NSCurrency thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

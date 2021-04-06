@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMultiAlarmData_GetSilentAfter
 title: Integer GetSilentAfter()
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/Integer GetSilentAfter()
-intellisense: 1
-classref: 1
-keywords: GetSilentAfter()
+intellisense: NSMultiAlarmData.GetSilentAfter
+keywords: NSMultiAlarmData, GetSilentAfter
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSMultiAlarmData thing;
+Integer silentAfter  = thing.GetSilentAfter();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetBuildLabel()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/String GetBuildLabel()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetBuildLabel
+title: NSSoSystemInfoCarrier.GetBuildLabel()
+intellisense: NSSoSystemInfoCarrier.GetBuildLabel
 keywords: GetBuildLabel()
+so.topic: reference
 ---
 
 

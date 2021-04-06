@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSRelationAgent
 title: NSRelationAgent
-path: /EJScript/Classes/NSRelationAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSRelationAgent
+keywords: NSRelationAgent
+so.topic: reference
 ---
-
 
 Contact/Person relations
 
-
-
+```crmscript
+NSRelationAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

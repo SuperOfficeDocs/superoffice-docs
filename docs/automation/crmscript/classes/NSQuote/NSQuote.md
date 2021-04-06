@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuote
 title: NSQuote
-path: /EJScript/Classes/NSQuote
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuote
+keywords: NSQuote
+so.topic: reference
 ---
-
 
 Quote carrier with the active quote version and favorite alternative.
 
-
-
-
-1. autolist
+1. autolist 
 

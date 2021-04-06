@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetActiveDate
+title: SetActiveDate(DateTime activeDate)
+intellisense: NSAppointmentEntity.SetActiveDate
+keywords: NSAppointmentEntity, GetActiveDate
+so.topic: reference
 ---
-title: Void SetActiveDate(DateTime ActiveDate)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetActiveDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 980
-keywords: SetActiveDate(DateTime)
----
-
 
 The date to be used for searching & showing
 
+**Parameter:** 
+ - **activeDate** DateTime
 
-
-* **ActiveDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSAppointmentEntity thing;
+DateTime activeDate;
+thing.SetActiveDate(activeDate);
+```
 

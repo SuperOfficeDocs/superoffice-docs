@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetIsPublished
 title: Bool GetIsPublished()
-path: /EJScript/Classes/NSAppointment/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
-sortOrder: 718
-keywords: GetIsPublished()
+intellisense: NSAppointment.GetIsPublished
+keywords: NSAppointment, GetIsPublished
+so.topic: reference
 ---
-
 
 True if appointment have an entry in published table
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSAppointment thing;
+Bool isPublished  = thing.GetIsPublished();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetUdefIdentity
 title: Integer GetUdefIdentity()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetUdefIdentity()
-intellisense: 1
-classref: 1
-keywords: GetUdefIdentity()
+intellisense: NSUserDefinedFieldInfo.GetUdefIdentity
+keywords: NSUserDefinedFieldInfo, GetUdefIdentity
+so.topic: reference
 ---
-
 
 Unique number used to track field identity across layout changes
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer udefIdentity  = thing.GetUdefIdentity();
+```
 
 

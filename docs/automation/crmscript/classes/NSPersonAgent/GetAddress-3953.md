@@ -1,9 +1,9 @@
 ---
-title: NSLocalizedField[][] GetAddress(Integer p0)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSLocalizedField[][] GetAddress(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSPersonAgent_GetAddress_Integer_p_0
+title: NSPersonAgent.GetAddress(Integer p_0)
+intellisense: NSPersonAgent.GetAddress
 keywords: GetAddress(Integer)
+so.topic: reference
 ---
 
 

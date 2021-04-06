@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetUDefFieldId
+title: SetUDefFieldId(Integer uDefFieldId)
+intellisense: NSUserDefinedFieldInfo.SetUDefFieldId
+keywords: NSUserDefinedFieldInfo, GetUDefFieldId
+so.topic: reference
 ---
-title: Void SetUDefFieldId(Integer UDefFieldId)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetUDefFieldId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUDefFieldId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **uDefFieldId** Integer
 
-
-* **UDefFieldId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer uDefFieldId;
+thing.SetUDefFieldId(uDefFieldId);
+```
 

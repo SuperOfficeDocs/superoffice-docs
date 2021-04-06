@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetStatus
 title: String GetStatus()
-path: /EJScript/Classes/NSProject/Member functions/String GetStatus()
-intellisense: 1
-classref: 1
-keywords: GetStatus()
+intellisense: NSProject.GetStatus
+keywords: NSProject, GetStatus
+so.topic: reference
 ---
-
 
 The projects status
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProject thing;
+String status  = thing.GetStatus();
+```
 
 

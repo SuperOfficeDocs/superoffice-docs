@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSApproveRejectResponse_SetPluginResponse
+title: SetPluginResponse(PluginResponse pluginResponse)
+intellisense: NSApproveRejectResponse.SetPluginResponse
+keywords: NSApproveRejectResponse, GetPluginResponse
+so.topic: reference
 ---
-title: Void SetPluginResponse(NSPluginResponse PluginResponse)
-path: /EJScript/Classes/NSApproveRejectResponse/Member functions/Void SetPluginResponse(NSPluginResponse p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1097
-keywords: SetPluginResponse(NSPluginResponse)
----
-
 
 The response from the operation.
 
+**Parameter:** 
+ - **pluginResponse** PluginResponse
 
-
-* **PluginResponse:** PluginResponse
-* **Returns:** PluginResponse
-
+```crmscript
+NSApproveRejectResponse thing;
+PluginResponse pluginResponse;
+thing.SetPluginResponse(pluginResponse);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetFreeBusy()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetFreeBusy()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAppointmentEntity_GetFreeBusy
+title: NSAppointmentEntity.GetFreeBusy()
+intellisense: NSAppointmentEntity.GetFreeBusy
 sortOrder: 924
 keywords: GetFreeBusy()
+so.topic: reference
 ---
 
 

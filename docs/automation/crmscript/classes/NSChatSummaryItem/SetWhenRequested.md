@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_SetWhenRequested
+title: SetWhenRequested(DateTime whenRequested)
+intellisense: NSChatSummaryItem.SetWhenRequested
+keywords: NSChatSummaryItem, GetWhenRequested
+so.topic: reference
 ---
-title: Void SetWhenRequested(DateTime WhenRequested)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetWhenRequested(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1548
-keywords: SetWhenRequested(DateTime)
----
-
 
 When the session was requested by the customer.
 
+**Parameter:** 
+ - **whenRequested** DateTime
 
-
-* **WhenRequested:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSChatSummaryItem thing;
+DateTime whenRequested;
+thing.SetWhenRequested(whenRequested);
+```
 

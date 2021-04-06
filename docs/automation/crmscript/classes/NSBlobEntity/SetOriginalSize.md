@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBlobEntity_SetOriginalSize
+title: SetOriginalSize(Integer originalSize)
+intellisense: NSBlobEntity.SetOriginalSize
+keywords: NSBlobEntity, GetOriginalSize
+so.topic: reference
 ---
-title: Void SetOriginalSize(Integer OriginalSize)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetOriginalSize(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1463
-keywords: SetOriginalSize(Integer)
----
-
 
 Original size of the binary data, before encryption and/or zipping. This is what the ultimate client will get
 
+**Parameter:** 
+ - **originalSize** Integer
 
-
-* **OriginalSize:** Integer
-* **Returns:** Void
-
+```crmscript
+NSBlobEntity thing;
+Integer originalSize;
+thing.SetOriginalSize(originalSize);
+```
 

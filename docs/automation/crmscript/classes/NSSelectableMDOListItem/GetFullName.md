@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_GetFullName
 title: String GetFullName()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/String GetFullName()
-intellisense: 1
-classref: 1
-keywords: GetFullName()
+intellisense: NSSelectableMDOListItem.GetFullName
+keywords: NSSelectableMDOListItem, GetFullName
+so.topic: reference
 ---
-
 
 The name of the ListItem in its context
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSelectableMDOListItem thing;
+String fullName  = thing.GetFullName();
+```
 
 

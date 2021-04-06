@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfo_SetUserName
+title: SetUserName(String userName)
+intellisense: NSEMailConnectionInfo.SetUserName
+keywords: NSEMailConnectionInfo, GetUserName
+so.topic: reference
 ---
-title: Void SetUserName(String UserName)
-path: /EJScript/Classes/NSEMailConnectionInfo/Member functions/Void SetUserName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2918
-keywords: SetUserName(String)
----
-
 
 Name of user to log in with
 
+**Parameter:** 
+ - **userName** String
 
-
-* **UserName:** String
-* **Returns:** String
-
+```crmscript
+NSEMailConnectionInfo thing;
+String userName;
+thing.SetUserName(userName);
+```
 

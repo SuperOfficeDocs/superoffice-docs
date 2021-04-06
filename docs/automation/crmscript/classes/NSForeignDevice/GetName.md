@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSForeignDevice_GetName
 title: String GetName()
-path: /EJScript/Classes/NSForeignDevice/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 3721
-keywords: GetName()
+intellisense: NSForeignDevice.GetName
+keywords: NSForeignDevice, GetName
+so.topic: reference
 ---
-
 
 Name of device
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSForeignDevice thing;
+String name  = thing.GetName();
+```
 
 

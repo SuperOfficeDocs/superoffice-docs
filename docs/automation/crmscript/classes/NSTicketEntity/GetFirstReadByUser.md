@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetFirstReadByUser
 title: DateTime GetFirstReadByUser()
-path: /EJScript/Classes/NSTicketEntity/Member functions/DateTime GetFirstReadByUser()
-intellisense: 1
-classref: 1
-keywords: GetFirstReadByUser()
+intellisense: NSTicketEntity.GetFirstReadByUser
+keywords: NSTicketEntity, GetFirstReadByUser
+so.topic: reference
 ---
-
 
 The datetime for when the ticket first was read by a user.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicketEntity thing;
+DateTime firstReadByUser  = thing.GetFirstReadByUser();
+```
 
 

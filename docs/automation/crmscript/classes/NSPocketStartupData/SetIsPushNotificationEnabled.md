@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketStartupData_SetIsPushNotificationEnabled
+title: SetIsPushNotificationEnabled(Bool isPushNotificationEnabled)
+intellisense: NSPocketStartupData.SetIsPushNotificationEnabled
+keywords: NSPocketStartupData, GetIsPushNotificationEnabled
+so.topic: reference
 ---
-title: Void SetIsPushNotificationEnabled(Bool IsPushNotificationEnabled)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetIsPushNotificationEnabled(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsPushNotificationEnabled(Bool)
----
-
 
 Is push notification configured and enabled in Netserver
 
+**Parameter:** 
+ - **isPushNotificationEnabled** Bool
 
-
-* **IsPushNotificationEnabled:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSPocketStartupData thing;
+Bool isPushNotificationEnabled;
+thing.SetIsPushNotificationEnabled(isPushNotificationEnabled);
+```
 

@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_Byte
 title: Byte
-path: /EJScript/Classes/Byte
-intellisense: 1
-classref: 1
+intellisense: Void.Byte
 sortOrder: 133
+so.topic: reference
 ---
 
 

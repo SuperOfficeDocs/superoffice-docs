@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetIsBooking
+title: SetIsBooking(Bool isBooking)
+intellisense: NSAppointment.SetIsBooking
+keywords: NSAppointment, GetIsBooking
+so.topic: reference
 ---
-title: Void SetIsBooking(Bool IsBooking)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetIsBooking(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 795
-keywords: SetIsBooking(Bool)
----
-
 
 True if this appointment is a booking.
 
+**Parameter:** 
+ - **isBooking** Bool
 
-
-* **IsBooking:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSAppointment thing;
+Bool isBooking;
+thing.SetIsBooking(isBooking);
+```
 

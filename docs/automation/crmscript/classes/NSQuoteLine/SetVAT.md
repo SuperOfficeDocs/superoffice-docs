@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetVAT
+title: SetVAT(Float vAT)
+intellisense: NSQuoteLine.SetVAT
+keywords: NSQuoteLine, GetVAT
+so.topic: reference
 ---
-title: Void SetVAT(Float VAT)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetVAT(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetVAT(Float)
----
-
 
 Tax/VAT - THIS IS A PERCENTAGE. The connector is responsible for populating this field; the percentage will be used to calculate VAT amounts available as merge fields in the document templates (but amounts are never stored in the database).
 
+**Parameter:** 
+ - **vAT** Float
 
-
-* **VAT:** Float
-* **Returns:** Float
-
+```crmscript
+NSQuoteLine thing;
+Float vAT;
+thing.SetVAT(vAT);
+```
 

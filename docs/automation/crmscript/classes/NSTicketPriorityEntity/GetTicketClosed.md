@@ -1,16 +1,23 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetTicketClosed
+title: TicketPriorityEscalateEvent GetTicketClosed()
+intellisense: NSTicketPriorityEntity.GetTicketClosed
+keywords: NSTicketPriorityEntity, GetTicketClosed
+so.topic: reference
 ---
-title: NSTicketPriorityEscalateEvent GetTicketClosed()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityEscalateEvent GetTicketClosed()
-intellisense: 1
-classref: 1
-keywords: GetTicketClosed()
----
-
 
 This field indicates what to do with the escalation chain when the request is closed
 
+**Returns:** TicketPriorityEscalateEvent
 
+     - Enum: -1 = None 
+     - Enum: 0 = Stop 
+     - Enum: 1 = Continue 
+     - Enum: 2 = Restart 
 
-* **Returns:** TicketPriorityEscalateEvent
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityEscalateEvent ticketClosed  = thing.GetTicketClosed();
+```
 
 

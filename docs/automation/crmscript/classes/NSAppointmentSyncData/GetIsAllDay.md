@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetIsAllDay
 title: Bool GetIsAllDay()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Bool GetIsAllDay()
-intellisense: 1
-classref: 1
-sortOrder: 1041
-keywords: GetIsAllDay()
+intellisense: NSAppointmentSyncData.GetIsAllDay
+keywords: NSAppointmentSyncData, GetIsAllDay
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSAppointmentSyncData thing;
+Bool isAllDay  = thing.GetIsAllDay();
+```
 
 

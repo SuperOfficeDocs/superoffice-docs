@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentSource_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSConsentSource/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 1702
-keywords: GetDeleted()
+intellisense: NSConsentSource.GetDeleted
+keywords: NSConsentSource, GetDeleted
+so.topic: reference
 ---
-
 
 true if the ConsentSource is deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSConsentSource thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

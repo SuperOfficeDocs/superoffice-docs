@@ -1,9 +1,9 @@
 ---
-title: String urlDecode()
-path: /EJScript/Classes/String/Member functions/String urlDecode()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_urlDecode
+title: String.urlDecode()
+intellisense: String.urlDecode
 keywords: urlDecode()
+so.topic: reference
 ---
 
 

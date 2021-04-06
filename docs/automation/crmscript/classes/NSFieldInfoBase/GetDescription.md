@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 3469
-keywords: GetDescription()
+intellisense: NSFieldInfoBase.GetDescription
+keywords: NSFieldInfoBase, GetDescription
+so.topic: reference
 ---
-
 
 Optional tooltip text for this field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldInfoBase thing;
+String description  = thing.GetDescription();
+```
 
 

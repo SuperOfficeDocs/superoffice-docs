@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactSummary_SetDocuments
+title: SetDocuments(ActivitySummaryItemArray documents)
+intellisense: NSContactSummary.SetDocuments
+keywords: NSContactSummary, GetDocuments
+so.topic: reference
 ---
-title: Void SetDocuments(NSActivitySummaryItem[] Documents)
-path: /EJScript/Classes/NSContactSummary/Member functions/Void SetDocuments(NSActivitySummaryItem[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1990
-keywords: SetDocuments(NSActivitySummaryItem[])
----
-
 
 Recent documents on contact
 
+**Parameter:** 
+ - **documents** ActivitySummaryItemArray
 
-
-* **Documents:** ActivitySummaryItemArray
-* **Returns:** ActivitySummaryItemArray
-
+```crmscript
+NSContactSummary thing;
+ActivitySummaryItemArray documents;
+thing.SetDocuments(documents);
+```
 

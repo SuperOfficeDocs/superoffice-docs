@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAttachment_SetFilename
+title: SetFilename(String filename)
+intellisense: NSEMailAttachment.SetFilename
+keywords: NSEMailAttachment, GetFilename
+so.topic: reference
 ---
-title: Void SetFilename(String Filename)
-path: /EJScript/Classes/NSEMailAttachment/Member functions/Void SetFilename(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2903
-keywords: SetFilename(String)
----
-
 
 Filename
 
+**Parameter:** 
+ - **filename** String
 
-
-* **Filename:** String
-* **Returns:** String
-
+```crmscript
+NSEMailAttachment thing;
+String filename;
+thing.SetFilename(filename);
+```
 

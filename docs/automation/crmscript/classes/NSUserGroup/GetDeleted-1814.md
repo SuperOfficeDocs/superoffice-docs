@@ -1,9 +1,9 @@
 ---
-title: Integer GetDeleted()
-path: /EJScript/Classes/NSUserGroup/Member functions/Integer GetDeleted()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSUserGroup_GetDeleted
+title: NSUserGroup.GetDeleted()
+intellisense: NSUserGroup.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

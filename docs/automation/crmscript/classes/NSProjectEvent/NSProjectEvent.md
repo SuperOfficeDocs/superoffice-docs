@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEvent
 title: NSProjectEvent
-path: /EJScript/Classes/NSProjectEvent
-intellisense: 1
-classref: 1
+intellisense: Void.NSProjectEvent
+keywords: NSProjectEvent
+so.topic: reference
 ---
-
 
 A project that is also an event. Used by Audience
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSActivityFilter
 title: NSActivityFilter
-path: /EJScript/Classes/NSActivityFilter
-intellisense: 1
-classref: 1
-sortOrder: 567
+intellisense: Void.NSActivityFilter
+keywords: NSActivityFilter
+so.topic: reference
 ---
-
 
 Activity list filter information.
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetCategory
+title: SetCategory(Integer category)
+intellisense: NSTicket.SetCategory
+keywords: NSTicket, GetCategory
+so.topic: reference
 ---
-title: Void SetCategory(Integer Category)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetCategory(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCategory(Integer)
----
-
 
 The id of the category a ticket is in.
 
+**Parameter:** 
+ - **category** Integer
 
-
-* **Category:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicket thing;
+Integer category;
+thing.SetCategory(category);
+```
 

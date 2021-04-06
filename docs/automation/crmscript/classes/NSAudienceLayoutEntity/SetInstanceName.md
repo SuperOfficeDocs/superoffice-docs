@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAudienceLayoutEntity_SetInstanceName
+title: SetInstanceName(String instanceName)
+intellisense: NSAudienceLayoutEntity.SetInstanceName
+keywords: NSAudienceLayoutEntity, GetInstanceName
+so.topic: reference
 ---
-title: Void SetInstanceName(String InstanceName)
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/Void SetInstanceName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1346
-keywords: SetInstanceName(String)
----
-
 
 Name of the layout instance
 
+**Parameter:** 
+ - **instanceName** String
 
-
-* **InstanceName:** String
-* **Returns:** String
-
+```crmscript
+NSAudienceLayoutEntity thing;
+String instanceName;
+thing.SetInstanceName(instanceName);
+```
 

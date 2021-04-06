@@ -1,13 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetLegalBaseList
+title: NSLegalBase[] GetLegalBaseList(Integer[]  legalBaseIds);
+intellisense: NSListAgent.GetLegalBaseList
+keywords: NSListAgent, GetLegalBaseList
+so.topic: reference
 ---
-title: NSLegalBase[] GetLegalBaseList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLegalBase[] GetLegalBaseList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetLegalBaseList(Integer[])
----
 
+Gets a vector of LegalBase objects.
 
-* **p0:** IntegerArray of identifiers for LegalBase
-* **Returns:** Array of NSLegalBase
+**Parameters:**
+ - **legalBaseIds** The identifiers of the NSLegalBase objects
 
+**Returns:** Vector of NSLegalBase objects
+
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetLegalBaseList(ids);
+```
 

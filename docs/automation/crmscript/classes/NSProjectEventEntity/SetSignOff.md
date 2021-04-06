@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetSignOff
+title: SetSignOff(Bool signOff)
+intellisense: NSProjectEventEntity.SetSignOff
+keywords: NSProjectEventEntity, GetSignOff
+so.topic: reference
 ---
-title: Void SetSignOff(Bool SignOff)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetSignOff(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOff(Bool)
----
-
 
 Is Sign Off functionality enabled?
 
+**Parameter:** 
+ - **signOff** Bool
 
-
-* **SignOff:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEventEntity thing;
+Bool signOff;
+thing.SetSignOff(signOff);
+```
 

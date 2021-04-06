@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetUpdatedCount
+title: SetUpdatedCount(Integer updatedCount)
+intellisense: NSFormEntity.SetUpdatedCount
+keywords: NSFormEntity, GetUpdatedCount
+so.topic: reference
 ---
-title: Void SetUpdatedCount(Integer UpdatedCount)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetUpdatedCount(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3827
-keywords: SetUpdatedCount(Integer)
----
-
 
 Number of updates made to this record
 
+**Parameter:** 
+ - **updatedCount** Integer
 
-
-* **UpdatedCount:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFormEntity thing;
+Integer updatedCount;
+thing.SetUpdatedCount(updatedCount);
+```
 

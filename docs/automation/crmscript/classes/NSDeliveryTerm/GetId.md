@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSDeliveryTerm_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSDeliveryTerm/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-sortOrder: 2366
-keywords: GetId()
+intellisense: NSDeliveryTerm.GetId
+keywords: NSDeliveryTerm, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the DeliveryTerm
 
-* **Returns:** Integer
+**Returns:** Integer DeliveryTerm id.
 
+```crmscript
+NSDeliveryTerm thing;
+Integer id = thing.GetId();
+```
 

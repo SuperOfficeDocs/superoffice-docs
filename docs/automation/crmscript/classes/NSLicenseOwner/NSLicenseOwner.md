@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseOwner
 title: NSLicenseOwner
-path: /EJScript/Classes/NSLicenseOwner
-intellisense: 1
-classref: 1
+intellisense: Void.NSLicenseOwner
+keywords: NSLicenseOwner
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

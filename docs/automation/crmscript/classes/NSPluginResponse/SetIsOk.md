@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPluginResponse_SetIsOk
+title: SetIsOk(Bool isOk)
+intellisense: NSPluginResponse.SetIsOk
+keywords: NSPluginResponse, GetIsOk
+so.topic: reference
 ---
-title: Void SetIsOk(Bool IsOk)
-path: /EJScript/Classes/NSPluginResponse/Member functions/Void SetIsOk(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsOk(Bool)
----
-
 
 Answer to the question / An indication if the operation went well.
 
+**Parameter:** 
+ - **isOk** Bool
 
-
-* **IsOk:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSPluginResponse thing;
+Bool isOk;
+thing.SetIsOk(isOk);
+```
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserInfo_SetRoleName
+title: SetRoleName(String roleName)
+intellisense: NSUserInfo.SetRoleName
+keywords: NSUserInfo, GetRoleName
+so.topic: reference
 ---
-title: Void SetRoleName(String RoleName)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetRoleName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetRoleName(String)
----
 
 
-* **RoleName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **roleName** String
+
+```crmscript
+NSUserInfo thing;
+String roleName;
+thing.SetRoleName(roleName);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_SetFieldName
+title: SetFieldName(String fieldName)
+intellisense: NSQuoteLineConfiguration.SetFieldName
+keywords: NSQuoteLineConfiguration, GetFieldName
+so.topic: reference
 ---
-title: Void SetFieldName(String FieldName)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetFieldName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetFieldName(String)
----
-
 
 The name of the field being configured, from data dictionary
 
+**Parameter:** 
+ - **fieldName** String
 
-
-* **FieldName:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLineConfiguration thing;
+String fieldName;
+thing.SetFieldName(fieldName);
+```
 

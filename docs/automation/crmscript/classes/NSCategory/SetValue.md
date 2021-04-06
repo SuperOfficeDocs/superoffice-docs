@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSCategory_SetValue
+title: SetValue(String value)
+intellisense: NSCategory.SetValue
+keywords: NSCategory, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSCategory/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1497
-keywords: SetValue(String)
----
 
+Set the name of the Category item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Category name.
 
+```crmscript
+NSCategory thing;
+thing.SetValue("frotz");
+```
 

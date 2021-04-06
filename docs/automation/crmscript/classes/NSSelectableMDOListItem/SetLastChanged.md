@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_SetLastChanged
+title: SetLastChanged(DateTime lastChanged)
+intellisense: NSSelectableMDOListItem.SetLastChanged
+keywords: NSSelectableMDOListItem, GetLastChanged
+so.topic: reference
 ---
-title: Void SetLastChanged(DateTime LastChanged)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetLastChanged(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetLastChanged(DateTime)
----
-
 
 Time of last change.
 
+**Parameter:** 
+ - **lastChanged** DateTime
 
-
-* **LastChanged:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSSelectableMDOListItem thing;
+DateTime lastChanged;
+thing.SetLastChanged(lastChanged);
+```
 

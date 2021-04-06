@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectTypeEntity_GetStages
+title: SelectableMDOListItemArray GetStages()
+intellisense: NSProjectTypeEntity.GetStages
+keywords: NSProjectTypeEntity, GetStages
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] GetStages()
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/NSSelectableMDOListItem[] GetStages()
-intellisense: 1
-classref: 1
-keywords: GetStages()
----
-
 
 Stages (project statuses), those associated with this ProjType are selected.
 
+**Returns:** SelectableMDOListItemArray
 
 
-* **Returns:** SelectableMDOListItemArray
+```crmscript
+NSProjectTypeEntity thing;
+SelectableMDOListItemArray stages  = thing.GetStages();
+```
 
 

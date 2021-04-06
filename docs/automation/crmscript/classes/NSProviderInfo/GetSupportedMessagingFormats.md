@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProviderInfo_GetSupportedMessagingFormats
+title: StringArray GetSupportedMessagingFormats()
+intellisense: NSProviderInfo.GetSupportedMessagingFormats
+keywords: NSProviderInfo, GetSupportedMessagingFormats
+so.topic: reference
 ---
-title: String[] GetSupportedMessagingFormats()
-path: /EJScript/Classes/NSProviderInfo/Member functions/String[] GetSupportedMessagingFormats()
-intellisense: 1
-classref: 1
-keywords: GetSupportedMessagingFormats()
----
-
 
 This value can typically be "sms/160", "sms/mms", "smtp/rfc822"
 
+**Returns:** StringArray
 
 
-* **Returns:** StringArray
+```crmscript
+NSProviderInfo thing;
+StringArray supportedMessagingFormats  = thing.GetSupportedMessagingFormats();
+```
 
 

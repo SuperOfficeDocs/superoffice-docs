@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetPrivatePhones
+title: EntityElementArray GetPrivatePhones()
+intellisense: NSPersonEntity.GetPrivatePhones
+keywords: NSPersonEntity, GetPrivatePhones
+so.topic: reference
 ---
-title: NSEntityElement[] GetPrivatePhones()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetPrivatePhones()
-intellisense: 1
-classref: 1
-keywords: GetPrivatePhones()
----
-
 
 Returns a collection of phone numbers that belong to the contact person.
 
+**Returns:** EntityElementArray
 
 
-* **Returns:** EntityElementArray
+```crmscript
+NSPersonEntity thing;
+EntityElementArray privatePhones  = thing.GetPrivatePhones();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetRejectCounter
+title: SetRejectCounter(Integer rejectCounter)
+intellisense: NSAppointmentEntity.SetRejectCounter
+keywords: NSAppointmentEntity, GetRejectCounter
+so.topic: reference
 ---
-title: Void SetRejectCounter(Integer RejectCounter)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetRejectCounter(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1027
-keywords: SetRejectCounter(Integer)
----
-
 
 How many invitees have rejected this appointment
 
+**Parameter:** 
+ - **rejectCounter** Integer
 
-
-* **RejectCounter:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointmentEntity thing;
+Integer rejectCounter;
+thing.SetRejectCounter(rejectCounter);
+```
 

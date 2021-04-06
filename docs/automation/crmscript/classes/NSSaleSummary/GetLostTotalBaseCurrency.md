@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetLostTotalBaseCurrency
 title: Float GetLostTotalBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetLostTotalBaseCurrency()
-intellisense: 1
-classref: 1
-keywords: GetLostTotalBaseCurrency()
+intellisense: NSSaleSummary.GetLostTotalBaseCurrency
+keywords: NSSaleSummary, GetLostTotalBaseCurrency
+so.topic: reference
 ---
-
 
 Summed amount for all lost within the period in default currency for the installation
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSaleSummary thing;
+Float lostTotalBaseCurrency  = thing.GetLostTotalBaseCurrency();
+```
 
 

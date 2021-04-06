@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectMember_GetFirstname
 title: String GetFirstname()
-path: /EJScript/Classes/NSProjectMember/Member functions/String GetFirstname()
-intellisense: 1
-classref: 1
-keywords: GetFirstname()
+intellisense: NSProjectMember.GetFirstname
+keywords: NSProjectMember, GetFirstname
+so.topic: reference
 ---
-
 
 First name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProjectMember thing;
+String firstname  = thing.GetFirstname();
+```
 
 

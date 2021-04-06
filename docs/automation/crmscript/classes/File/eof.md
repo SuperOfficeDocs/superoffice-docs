@@ -1,10 +1,10 @@
 ---
-title: Bool eof()
-path: /EJScript/Classes/File/Member functions/Bool eof()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_File_eof
+title: File.eof()
+intellisense: File.eof
 sortOrder: 342
 keywords: eof()
+so.topic: reference
 ---
 
 

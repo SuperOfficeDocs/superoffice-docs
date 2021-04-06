@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetNonDates
+title: SetNonDates(DateTimeArray nonDates)
+intellisense: NSTicketPriorityEntity.SetNonDates
+keywords: NSTicketPriorityEntity, GetNonDates
+so.topic: reference
 ---
-title: Void SetNonDates(DateTime[] NonDates)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetNonDates(DateTime[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetNonDates(DateTime[])
----
-
 
 Dates which the escalation time should not be running. Note that only the day of the year (day and month) is used. So the year and time part is not used even if this is a DateTime
 
+**Parameter:** 
+ - **nonDates** DateTimeArray
 
-
-* **NonDates:** DateTimeArray
-* **Returns:** DateTimeArray
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTimeArray nonDates;
+thing.SetNonDates(nonDates);
+```
 

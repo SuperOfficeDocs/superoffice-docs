@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldValue_SetCrmFieldKey
+title: SetCrmFieldKey(String crmFieldKey)
+intellisense: NSErpSyncFieldValue.SetCrmFieldKey
+keywords: NSErpSyncFieldValue, GetCrmFieldKey
+so.topic: reference
 ---
-title: Void SetCrmFieldKey(String CrmFieldKey)
-path: /EJScript/Classes/NSErpSyncFieldValue/Member functions/Void SetCrmFieldKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3331
-keywords: SetCrmFieldKey(String)
----
-
 
 The CRM field name, as implemented by the Sync entities
 
+**Parameter:** 
+ - **crmFieldKey** String
 
-
-* **CrmFieldKey:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncFieldValue thing;
+String crmFieldKey;
+thing.SetCrmFieldKey(crmFieldKey);
+```
 

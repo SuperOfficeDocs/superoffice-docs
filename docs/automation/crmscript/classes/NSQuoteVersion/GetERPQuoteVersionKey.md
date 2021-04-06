@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetERPQuoteVersionKey
 title: String GetERPQuoteVersionKey()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetERPQuoteVersionKey()
-intellisense: 1
-classref: 1
-keywords: GetERPQuoteVersionKey()
+intellisense: NSQuoteVersion.GetERPQuoteVersionKey
+keywords: NSQuoteVersion, GetERPQuoteVersionKey
+so.topic: reference
 ---
-
 
 Key in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty).
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersion thing;
+String eRPQuoteVersionKey  = thing.GetERPQuoteVersionKey();
+```
 
 

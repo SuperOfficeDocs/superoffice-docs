@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMDOListItem_SetChildItems
+title: SetChildItems(MDOListItemArray childItems)
+intellisense: NSMDOListItem.SetChildItems
+keywords: NSMDOListItem, GetChildItems
+so.topic: reference
 ---
-title: Void SetChildItems(NSMDOListItem[] ChildItems)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetChildItems(NSMDOListItem[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetChildItems(NSMDOListItem[])
----
-
 
 The child items of the MDOListItem
 
+**Parameter:** 
+ - **childItems** MDOListItemArray
 
-
-* **ChildItems:** MDOListItemArray
-* **Returns:** MDOListItemArray
-
+```crmscript
+NSMDOListItem thing;
+MDOListItemArray childItems;
+thing.SetChildItems(childItems);
+```
 

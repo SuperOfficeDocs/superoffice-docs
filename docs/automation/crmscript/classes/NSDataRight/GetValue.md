@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDataRight_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSDataRight/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-sortOrder: 2345
-keywords: GetValue()
+intellisense: NSDataRight.GetValue
+keywords: NSDataRight, GetValue
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSDataRight thing;
+String value  = thing.GetValue();
+```
 
 

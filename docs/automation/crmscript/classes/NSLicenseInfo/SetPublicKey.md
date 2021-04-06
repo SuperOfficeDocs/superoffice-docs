@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetPublicKey
+title: SetPublicKey(SignedPublicKey publicKey)
+intellisense: NSLicenseInfo.SetPublicKey
+keywords: NSLicenseInfo, GetPublicKey
+so.topic: reference
 ---
-title: Void SetPublicKey(NSSignedPublicKey PublicKey)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetPublicKey(NSSignedPublicKey p_0)
-intellisense: 1
-classref: 1
-keywords: SetPublicKey(NSSignedPublicKey)
----
-
 
 The public key used to verify licenses owned by this owner.
 
+**Parameter:** 
+ - **publicKey** SignedPublicKey
 
-
-* **PublicKey:** SignedPublicKey
-* **Returns:** SignedPublicKey
-
+```crmscript
+NSLicenseInfo thing;
+SignedPublicKey publicKey;
+thing.SetPublicKey(publicKey);
+```
 

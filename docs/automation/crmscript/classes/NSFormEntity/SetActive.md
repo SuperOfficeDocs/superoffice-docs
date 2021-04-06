@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetActive
+title: SetActive(Bool active)
+intellisense: NSFormEntity.SetActive
+keywords: NSFormEntity, GetActive
+so.topic: reference
 ---
-title: Void SetActive(Bool Active)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetActive(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3806
-keywords: SetActive(Bool)
----
-
 
 Indicates if this form is active or not
 
+**Parameter:** 
+ - **active** Bool
 
-
-* **Active:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFormEntity thing;
+Bool active;
+thing.SetActive(active);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_SetArchivedBy
+title: SetArchivedBy(Integer archivedBy)
+intellisense: NSEMailSOInfo.SetArchivedBy
+keywords: NSEMailSOInfo, GetArchivedBy
+so.topic: reference
 ---
-title: Void SetArchivedBy(Integer ArchivedBy)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetArchivedBy(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3055
-keywords: SetArchivedBy(Integer)
----
-
 
 The associate who archived this email
 
+**Parameter:** 
+ - **archivedBy** Integer
 
-
-* **ArchivedBy:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailSOInfo thing;
+Integer archivedBy;
+thing.SetArchivedBy(archivedBy);
+```
 

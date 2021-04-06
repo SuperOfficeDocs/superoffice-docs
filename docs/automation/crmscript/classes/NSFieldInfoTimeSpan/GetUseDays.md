@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoTimeSpan_GetUseDays
 title: Bool GetUseDays()
-path: /EJScript/Classes/NSFieldInfoTimeSpan/Member functions/Bool GetUseDays()
-intellisense: 1
-classref: 1
-sortOrder: 3565
-keywords: GetUseDays()
+intellisense: NSFieldInfoTimeSpan.GetUseDays
+keywords: NSFieldInfoTimeSpan, GetUseDays
+so.topic: reference
 ---
-
 
 Should the time-span be counted in days?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFieldInfoTimeSpan thing;
+Bool useDays  = thing.GetUseDays();
+```
 
 

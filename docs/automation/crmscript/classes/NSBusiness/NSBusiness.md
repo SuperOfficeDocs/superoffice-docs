@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSBusiness
 title: NSBusiness
-path: /EJScript/Classes/NSBusiness
-intellisense: 1
-classref: 1
-sortOrder: 1476
+intellisense: Void.NSBusiness
+keywords: NSBusiness
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

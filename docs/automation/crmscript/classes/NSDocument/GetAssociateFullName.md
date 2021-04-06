@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetAssociateFullName
 title: String GetAssociateFullName()
-path: /EJScript/Classes/NSDocument/Member functions/String GetAssociateFullName()
-intellisense: 1
-classref: 1
-sortOrder: 2435
-keywords: GetAssociateFullName()
+intellisense: NSDocument.GetAssociateFullName
+keywords: NSDocument, GetAssociateFullName
+so.topic: reference
 ---
-
 
 The associate's culture formatted fullname (firstname, middleName and lastname)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocument thing;
+String associateFullName  = thing.GetAssociateFullName();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetBusinessId(Integer p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetBusinessId(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_SetBusinessId_Integer_p_0
+title: NSSoPrincipalCarrier.SetBusinessId(Integer p_0)
+intellisense: NSSoPrincipalCarrier.SetBusinessId
 keywords: SetBusinessId(Integer)
+so.topic: reference
 ---
 
 

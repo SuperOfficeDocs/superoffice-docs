@@ -1,9 +1,9 @@
 ---
-title: Bool GetChangeCompanyCountry()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Bool GetChangeCompanyCountry()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_GetChangeCompanyCountry
+title: NSSelectionMemberEditValues.GetChangeCompanyCountry()
+intellisense: NSSelectionMemberEditValues.GetChangeCompanyCountry
 keywords: GetChangeCompanyCountry()
+so.topic: reference
 ---
 
 

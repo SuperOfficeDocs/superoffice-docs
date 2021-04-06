@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_DeleteErpSyncConnectorEntity
+title: DeleteErpSyncConnectorEntity(Integer erpSyncConnectorEntity);
+intellisense: NSErpSyncAgent.DeleteErpSyncConnectorEntity
+keywords: NSErpSyncAgent, DeleteErpSyncConnectorEntity
+so.topic: reference
 ---
-title: Void DeleteErpSyncConnectorEntity(Integer erpSyncConnectorEntityId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Void DeleteErpSyncConnectorEntity(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3221
-keywords: DeleteErpSyncConnectorEntity(Integer)
----
 
+Deletes the NSErpSyncConnectorEntity
+  
+**Parameters:**
+ - **erpSyncConnectorEntityId** The identity of the ErpSyncConnectorEntity to delete.
 
-Deletes the ErpSyncConnectorEntity
-
-
-
-* **erpSyncConnectorEntityId:** The identity of the ErpSyncConnectorEntity
-
+```crmscript
+NSErpSyncAgent agent;
+agent.DeleteErpSyncConnectorEntity(123);
+```
 

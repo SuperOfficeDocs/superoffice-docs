@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSImportColumnInfo
 title: NSImportColumnInfo
-path: /EJScript/Classes/NSImportColumnInfo
-intellisense: 1
-classref: 1
-sortOrder: 3958
+intellisense: Void.NSImportColumnInfo
+keywords: NSImportColumnInfo
+so.topic: reference
 ---
-
 
 Column info for importlines.
 
-
-
-
-1. autolist
+1. autolist 
 

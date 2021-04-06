@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetContactFullName
 title: String GetContactFullName()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/String GetContactFullName()
-intellisense: 1
-classref: 1
-sortOrder: 1058
-keywords: GetContactFullName()
+intellisense: NSAppointmentSyncData.GetContactFullName
+keywords: NSAppointmentSyncData, GetContactFullName
+so.topic: reference
 ---
-
 
 The entire name of the contact, including department name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointmentSyncData thing;
+String contactFullName  = thing.GetContactFullName();
+```
 
 

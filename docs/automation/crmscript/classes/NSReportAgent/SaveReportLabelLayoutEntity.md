@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSReportAgent_SaveReportLabelLayoutEntity
+title: NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity reportLabelLayoutEntity);
+intellisense: NSReportAgent.SaveReportLabelLayoutEntity
+keywords: NSReportAgent, SaveReportLabelLayoutEntity
+so.topic: reference
 ---
-title: NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity reportLabelLayoutEntity)
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity)
----
+	  
+Updates the existing NSReportLabelLayoutEntity or creates a new NSReportLabelLayoutEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **reportLabelLayoutEntity** The NSReportLabelLayoutEntity to save.
 
+**Returns:** New or updated NSReportLabelLayoutEntity
 
-Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty
-
-
-
-* **reportLabelLayoutEntity:** The ReportLabelLayoutEntity that is saved
-* **Returns:** New or updated ReportLabelLayoutEntity
-
+```crmscript
+NSReport  agent;
+NSReportLabelLayoutEntity thing = agent.CreateDefaultReportLabelLayoutEntity();
+thing = agent.SaveReportLabelLayoutEntity(thing);
+```
 

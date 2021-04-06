@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPurpose_SetFormText
+title: SetFormText(String formText)
+intellisense: NSConsentPurpose.SetFormText
+keywords: NSConsentPurpose, GetFormText
+so.topic: reference
 ---
-title: Void SetFormText(String FormText)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetFormText(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1691
-keywords: SetFormText(String)
----
-
 
 Text for the consent form, the long text to be shown when asking the end-user for this kind of consent
 
+**Parameter:** 
+ - **formText** String
 
-
-* **FormText:** String
-* **Returns:** String
-
+```crmscript
+NSConsentPurpose thing;
+String formText;
+thing.SetFormText(formText);
+```
 

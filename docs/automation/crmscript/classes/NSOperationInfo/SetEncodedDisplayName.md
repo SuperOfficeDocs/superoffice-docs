@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSOperationInfo_SetEncodedDisplayName
+title: SetEncodedDisplayName(String encodedDisplayName)
+intellisense: NSOperationInfo.SetEncodedDisplayName
+keywords: NSOperationInfo, GetEncodedDisplayName
+so.topic: reference
 ---
-title: Void SetEncodedDisplayName(String EncodedDisplayName)
-path: /EJScript/Classes/NSOperationInfo/Member functions/Void SetEncodedDisplayName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetEncodedDisplayName(String)
----
 
 
-* **EncodedDisplayName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **encodedDisplayName** String
+
+```crmscript
+NSOperationInfo thing;
+String encodedDisplayName;
+thing.SetEncodedDisplayName(encodedDisplayName);
+```
 

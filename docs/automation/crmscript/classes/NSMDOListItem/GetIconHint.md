@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem_GetIconHint
 title: String GetIconHint()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetIconHint()
-intellisense: 1
-classref: 1
-keywords: GetIconHint()
+intellisense: NSMDOListItem.GetIconHint
+keywords: NSMDOListItem, GetIconHint
+so.topic: reference
 ---
-
 
 The Icon hint of the ListItem. Custom field.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMDOListItem thing;
+String iconHint  = thing.GetIconHint();
+```
 
 

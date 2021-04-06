@@ -1,10 +1,10 @@
 ---
-title: Void toParser(Parser parser)
-path: /EJScript/Classes/Customer/Member functions/Void toParser(Parser parser)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_toParser_Parser_parser
+title: Customer.toParser(Parser parser)
+intellisense: Customer.toParser
 sortOrder: 193
 keywords: toParser(Parser)
+so.topic: reference
 ---
 
 Fill a Parser object with a Customer's values.

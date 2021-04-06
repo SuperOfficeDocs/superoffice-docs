@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_SetRoleId
+title: SetRoleId(Integer roleId)
+intellisense: NSRoleEntity.SetRoleId
+keywords: NSRoleEntity, GetRoleId
+so.topic: reference
 ---
-title: Void SetRoleId(Integer RoleId)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetRoleId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRoleId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **roleId** Integer
 
-
-* **RoleId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRoleEntity thing;
+Integer roleId;
+thing.SetRoleId(roleId);
+```
 

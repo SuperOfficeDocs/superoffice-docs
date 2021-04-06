@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity_GetOrgNr
 title: String GetOrgNr()
-path: /EJScript/Classes/NSContactEntity/Member functions/String GetOrgNr()
-intellisense: 1
-classref: 1
-sortOrder: 1874
-keywords: GetOrgNr()
+intellisense: NSContactEntity.GetOrgNr
+keywords: NSContactEntity, GetOrgNr
+so.topic: reference
 ---
-
 
 VAT number or similar
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactEntity thing;
+String orgNr  = thing.GetOrgNr();
+```
 
 

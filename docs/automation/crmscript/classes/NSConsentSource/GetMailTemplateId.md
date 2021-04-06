@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentSource_GetMailTemplateId
 title: Integer GetMailTemplateId()
-path: /EJScript/Classes/NSConsentSource/Member functions/Integer GetMailTemplateId()
-intellisense: 1
-classref: 1
-sortOrder: 1704
-keywords: GetMailTemplateId()
+intellisense: NSConsentSource.GetMailTemplateId
+keywords: NSConsentSource, GetMailTemplateId
+so.topic: reference
 ---
-
 
 The mail template to use when automatically sending emails to new persons created with this consent source.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSConsentSource thing;
+Integer mailTemplateId  = thing.GetMailTemplateId();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPriceList_SetValidTo
+title: SetValidTo(DateTime validTo)
+intellisense: NSPriceList.SetValidTo
+keywords: NSPriceList, GetValidTo
+so.topic: reference
 ---
-title: Void SetValidTo(DateTime ValidTo)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetValidTo(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetValidTo(DateTime)
----
-
 
 The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxValue to signal that it doesn't have a specific end date.
 
+**Parameter:** 
+ - **validTo** DateTime
 
-
-* **ValidTo:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSPriceList thing;
+DateTime validTo;
+thing.SetValidTo(validTo);
+```
 

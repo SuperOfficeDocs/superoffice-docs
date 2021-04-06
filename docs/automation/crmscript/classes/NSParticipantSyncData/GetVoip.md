@@ -1,12 +1,19 @@
----
-title: String[] GetVoip()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetVoip()
-intellisense: 1
-classref: 1
-keywords: GetVoip()
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_GetVoip
+title: StringArray GetVoip()
+intellisense: NSParticipantSyncData.GetVoip
+keywords: NSParticipantSyncData, GetVoip
+so.topic: reference
 ---
 
 
-* **Returns:** StringArray
+
+**Returns:** StringArray
+
+
+```crmscript
+NSParticipantSyncData thing;
+StringArray voip  = thing.GetVoip();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetSaleTypeName
 title: String GetSaleTypeName()
-path: /EJScript/Classes/NSSale/Member functions/String GetSaleTypeName()
-intellisense: 1
-classref: 1
-keywords: GetSaleTypeName()
+intellisense: NSSale.GetSaleTypeName
+keywords: NSSale, GetSaleTypeName
+so.topic: reference
 ---
-
 
 The sale's type name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSale thing;
+String saleTypeName  = thing.GetSaleTypeName();
+```
 
 

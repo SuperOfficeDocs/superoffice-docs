@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 2183
-keywords: GetRank()
+intellisense: NSCurrencyEntity.GetRank
+keywords: NSCurrencyEntity, GetRank
+so.topic: reference
 ---
-
 
 Rank order
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCurrencyEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserInfo_GetRoleTooltip
 title: String GetRoleTooltip()
-path: /EJScript/Classes/NSUserInfo/Member functions/String GetRoleTooltip()
-intellisense: 1
-classref: 1
-keywords: GetRoleTooltip()
+intellisense: NSUserInfo.GetRoleTooltip
+keywords: NSUserInfo, GetRoleTooltip
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSUserInfo thing;
+String roleTooltip  = thing.GetRoleTooltip();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetTableRight()
-path: /EJScript/Classes/NSTableRight/Member functions/Integer GetTableRight()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSTableRight_GetTableRight
+title: NSTableRight.GetTableRight()
+intellisense: NSTableRight.GetTableRight
 keywords: GetTableRight()
+so.topic: reference
 ---
 
 

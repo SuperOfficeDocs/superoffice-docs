@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetRegistered
 title: DateTime GetRegistered()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
-keywords: GetRegistered()
+intellisense: NSQuoteVersion.GetRegistered
+keywords: NSQuoteVersion, GetRegistered
+so.topic: reference
 ---
-
 
 Registered when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSQuoteVersion thing;
+DateTime registered  = thing.GetRegistered();
+```
 
 

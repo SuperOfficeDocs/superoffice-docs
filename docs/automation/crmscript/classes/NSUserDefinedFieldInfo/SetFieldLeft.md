@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetFieldLeft
+title: SetFieldLeft(Integer fieldLeft)
+intellisense: NSUserDefinedFieldInfo.SetFieldLeft
+keywords: NSUserDefinedFieldInfo, GetFieldLeft
+so.topic: reference
 ---
-title: Void SetFieldLeft(Integer FieldLeft)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFieldLeft(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetFieldLeft(Integer)
----
-
 
 X pixel coordinate of field
 
+**Parameter:** 
+ - **fieldLeft** Integer
 
-
-* **FieldLeft:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldLeft;
+thing.SetFieldLeft(fieldLeft);
+```
 

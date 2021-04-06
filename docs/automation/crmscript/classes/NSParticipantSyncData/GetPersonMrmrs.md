@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_GetPersonMrmrs
 title: String GetPersonMrmrs()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetPersonMrmrs()
-intellisense: 1
-classref: 1
-keywords: GetPersonMrmrs()
+intellisense: NSParticipantSyncData.GetPersonMrmrs
+keywords: NSParticipantSyncData, GetPersonMrmrs
+so.topic: reference
 ---
 
+e.g. Mrs   sex_title
 
-e.g. Mrs   sex\_title
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSParticipantSyncData thing;
+String personMrmrs  = thing.GetPersonMrmrs();
+```
 
 

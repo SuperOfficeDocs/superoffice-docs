@@ -1,19 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAgent_HasNewMail
 title: Bool HasNewMail(Integer mailItemId, Integer folderId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Bool HasNewMail(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-sortOrder: 2786
-keywords: HasNewMail(Integer,Integer)
+intellisense: NSEMailAgent.HasNewMail
+keywords: NSEMailAgent, HasNewMail
+so.topic: reference
 ---
-
 
 Fast check for new mail in the database
 
+**Parameters:**
+ - **mailItemId** The last known mailitemid
+ - **folderId** The folderId for the folder to check for new mail
 
+**Returns:** Has new mail if true
 
-* **mailItemId:** The last known mailitemid
-* **folderId:** The folderId for the folder to check for new mail
-* **Returns:** Has new mail if true
-
+```crmscript
+NSEMailAgent agent;
+Integer mailItemId;
+Integer folderId;
+Bool res = agent.HasNewMail(mailItemId, folderId);
+```
 

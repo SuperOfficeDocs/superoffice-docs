@@ -1,10 +1,10 @@
 ---
-title: Void sort(String p0, Bool p1)
-path: /EJScript/Classes/Cache/Member functions/Void sort(String p_0, Bool p_1)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Cache_sort_String_p_0_Bool_p_1
+title: Cache.sort(String p_0, Bool p_1)
+intellisense: Cache.sort
 sortOrder: 148
 keywords: sort(String,Bool)
+so.topic: reference
 ---
 
 Sorts the cached data by given field in given order.

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem_SetDocumentId
+title: SetDocumentId(Integer documentId)
+intellisense: NSActivitySummaryItem.SetDocumentId
+keywords: NSActivitySummaryItem, GetDocumentId
+so.topic: reference
 ---
-title: Void SetDocumentId(Integer DocumentId)
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Void SetDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 605
-keywords: SetDocumentId(Integer)
----
-
 
 Document id - 0 if not a document
 
+**Parameter:** 
+ - **documentId** Integer
 
-
-* **p_0:** Integer
-* **Returns:** Void
-
+```crmscript
+NSActivitySummaryItem thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
 

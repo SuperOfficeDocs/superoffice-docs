@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetShowContactTickets
+title: SetShowContactTickets(Integer showContactTickets)
+intellisense: NSPersonEntity.SetShowContactTickets
+keywords: NSPersonEntity, GetShowContactTickets
+so.topic: reference
 ---
-title: Void SetShowContactTickets(Integer ShowContactTickets)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetShowContactTickets(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetShowContactTickets(Integer)
----
-
 
 Should tickets related to the company be shown to this person
 
+**Parameter:** 
+ - **showContactTickets** Integer
 
-
-* **ShowContactTickets:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPersonEntity thing;
+Integer showContactTickets;
+thing.SetShowContactTickets(showContactTickets);
+```
 

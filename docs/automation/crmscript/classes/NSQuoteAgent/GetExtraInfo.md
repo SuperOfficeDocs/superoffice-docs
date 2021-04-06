@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetExtraInfo
+title: ProductExtraDataFieldArray GetExtraInfo(String quoteLineExtraData)
+intellisense: NSQuoteAgent.GetExtraInfo
+keywords: NSQuoteAgent, GetExtraInfo
+so.topic: reference
 ---
-title: NSProductExtraDataField[] GetExtraInfo(String quoteLineExtraData)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProductExtraDataField[] GetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
-keywords: GetExtraInfo(String)
----
-
 
 Converts an xml string into an object representation.
 
+**Parameters:**
+ - **quoteLineExtraData** The extra data as xml.
 
+**Returns:** An object representation on the xml
 
-* **quoteLineExtraData:** The extra data as xml.
-* **Returns:** An object representation on the xml
-
+```crmscript
+NSQuoteAgent agent;
+String quoteLineExtraData;
+ProductExtraDataFieldArray res = agent.GetExtraInfo(quoteLineExtraData);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSignedPublicKey_SetKey
+title: SetKey(DSAParameters key)
+intellisense: NSSignedPublicKey.SetKey
+keywords: NSSignedPublicKey, GetKey
+so.topic: reference
 ---
-title: Void SetKey(NSDSAParameters Key)
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/Void SetKey(NSDSAParameters p_0)
-intellisense: 1
-classref: 1
-keywords: SetKey(NSDSAParameters)
----
-
 
 Public key held by module owner.
 
+**Parameter:** 
+ - **key** DSAParameters
 
-
-* **Key:** DSAParameters
-* **Returns:** DSAParameters
-
+```crmscript
+NSSignedPublicKey thing;
+DSAParameters key;
+thing.SetKey(key);
+```
 

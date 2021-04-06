@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetTaskName
 title: String GetTaskName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetTaskName()
-intellisense: 1
-classref: 1
-sortOrder: 667
-keywords: GetTaskName()
+intellisense: NSAlarmData.GetTaskName
+keywords: NSAlarmData, GetTaskName
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSAlarmData thing;
+String taskName  = thing.GetTaskName();
+```
 
 

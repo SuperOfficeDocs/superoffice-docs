@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUntrustedCredentials_GetSecretValue
 title: String GetSecretValue()
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/String GetSecretValue()
-intellisense: 1
-classref: 1
-keywords: GetSecretValue()
+intellisense: NSUntrustedCredentials.GetSecretValue
+keywords: NSUntrustedCredentials, GetSecretValue
+so.topic: reference
 ---
-
 
 Data stored encrypted in the db. Typically a password. Max 70 characters.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSUntrustedCredentials thing;
+String secretValue  = thing.GetSecretValue();
+```
 
 

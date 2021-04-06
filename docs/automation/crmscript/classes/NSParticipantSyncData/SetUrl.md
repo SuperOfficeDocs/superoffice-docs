@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetUrl
+title: SetUrl(StringArray url)
+intellisense: NSParticipantSyncData.SetUrl
+keywords: NSParticipantSyncData, GetUrl
+so.topic: reference
 ---
-title: Void SetUrl(String[] Url)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetUrl(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetUrl(String[])
----
-
 
 The urls related to this person.
 
+**Parameter:** 
+ - **url** StringArray
 
-
-* **Url:** StringArray
-* **Returns:** StringArray
-
+```crmscript
+NSParticipantSyncData thing;
+StringArray url;
+thing.SetUrl(url);
+```
 

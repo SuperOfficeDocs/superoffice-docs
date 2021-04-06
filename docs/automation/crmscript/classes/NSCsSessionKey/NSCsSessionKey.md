@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCsSessionKey
 title: NSCsSessionKey
-path: /EJScript/Classes/NSCsSessionKey
-intellisense: 1
-classref: 1
-sortOrder: 2161
+intellisense: Void.NSCsSessionKey
+keywords: NSCsSessionKey
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

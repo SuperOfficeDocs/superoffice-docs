@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetSoundEx
+title: SetSoundEx(String soundEx)
+intellisense: NSSelectionEntity.SetSoundEx
+keywords: NSSelectionEntity, GetSoundEx
+so.topic: reference
 ---
-title: Void SetSoundEx(String SoundEx)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetSoundEx(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSoundEx(String)
----
-
 
 What the name sounds like, for duplicate detection
 
+**Parameter:** 
+ - **soundEx** String
 
-
-* **SoundEx:** String
-* **Returns:** String
-
+```crmscript
+NSSelectionEntity thing;
+String soundEx;
+thing.SetSoundEx(soundEx);
+```
 

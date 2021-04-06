@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetTopMargin
 title: Integer GetTopMargin()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetTopMargin()
-intellisense: 1
-classref: 1
-keywords: GetTopMargin()
+intellisense: NSReportLabelLayoutEntity.GetTopMargin
+keywords: NSReportLabelLayoutEntity, GetTopMargin
+so.topic: reference
 ---
-
 
 Top margin in twips
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer topMargin  = thing.GetTopMargin();
+```
 
 

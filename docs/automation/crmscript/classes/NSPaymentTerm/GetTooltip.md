@@ -1,12 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSPaymentTerm_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSPaymentTerm/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSPaymentTerm.GetTooltip
+keywords: NSPaymentTerm, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the PaymentTerm list item.
 
-* **Returns:** String
+**Returns:** String PaymentTerm tooltip description.
+
+```crmscript
+NSPaymentTerm thing;
+String descr = thing.GetTooltip();
+```
 
 

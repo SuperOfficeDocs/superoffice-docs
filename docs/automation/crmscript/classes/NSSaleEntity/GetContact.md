@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetContact
+title: Contact GetContact()
+intellisense: NSSaleEntity.GetContact
+keywords: NSSaleEntity, GetContact
+so.topic: reference
 ---
-title: NSContact GetContact()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSContact GetContact()
-intellisense: 1
-classref: 1
-keywords: GetContact()
----
-
 
 The contact associated with the sale. It may also be 0 if no contact is associated with the sale.
 
+**Returns:** Contact
 
 
-* **Returns:** Contact
+```crmscript
+NSSaleEntity thing;
+Contact contact  = thing.GetContact();
+```
 
 

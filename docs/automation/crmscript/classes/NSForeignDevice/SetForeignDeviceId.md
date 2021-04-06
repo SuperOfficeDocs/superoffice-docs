@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignDevice_SetForeignDeviceId
+title: SetForeignDeviceId(Integer foreignDeviceId)
+intellisense: NSForeignDevice.SetForeignDeviceId
+keywords: NSForeignDevice, GetForeignDeviceId
+so.topic: reference
 ---
-title: Void SetForeignDeviceId(Integer ForeignDeviceId)
-path: /EJScript/Classes/NSForeignDevice/Member functions/Void SetForeignDeviceId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3728
-keywords: SetForeignDeviceId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **foreignDeviceId** Integer
 
-
-* **ForeignDeviceId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSForeignDevice thing;
+Integer foreignDeviceId;
+thing.SetForeignDeviceId(foreignDeviceId);
+```
 

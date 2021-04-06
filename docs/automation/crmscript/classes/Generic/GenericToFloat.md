@@ -1,10 +1,11 @@
 ---
-title: Float GenericToFloat(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/Float GenericToFloat(Generic generic)
-intellisense: 1
+uid: crmscript_ref_Generic_GenericToFloat_Generic_generic
+title: Generic.GenericToFloat(Generic generic)
+intellisense: Generic.GenericToFloat
 langref: 1
 sortOrder: 60
 keywords: GenericToFloat(Generic)
+so.topic: reference
 ---
 
 

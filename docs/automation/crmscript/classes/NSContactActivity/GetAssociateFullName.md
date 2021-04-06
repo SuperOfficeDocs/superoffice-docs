@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactActivity_GetAssociateFullName
 title: String GetAssociateFullName()
-path: /EJScript/Classes/NSContactActivity/Member functions/String GetAssociateFullName()
-intellisense: 1
-classref: 1
-sortOrder: 1774
-keywords: GetAssociateFullName()
+intellisense: NSContactActivity.GetAssociateFullName
+keywords: NSContactActivity, GetAssociateFullName
+so.topic: reference
 ---
-
 
 The contact's owner
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactActivity thing;
+String associateFullName  = thing.GetAssociateFullName();
+```
 
 

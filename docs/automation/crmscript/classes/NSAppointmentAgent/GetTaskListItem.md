@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_GetTaskListItem
+title: NSTaskListItem GetTaskListItem(Integer taskListItemId);
+intellisense: NSAppointmentAgent.GetTaskListItem
+keywords: NSAppointmentAgent, GetTaskListItem
+so.topic: reference
 ---
-title: NSTaskListItem GetTaskListItem(Integer taskListItemId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSTaskListItem GetTaskListItem(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 903
-keywords: GetTaskListItem(Integer)
----
 
+Gets a NSTaskListItem object.
 
-Gets a TaskListItem object.
+**Parameters:**
+ - **taskListItemId** The identifier of the NSTaskListItem object
 
+**Returns:** NSTaskListItem
 
-
-* **taskListItemId:** The identifier of the TaskListItem object
-* **Returns:** TaskListItem
-
+```crmscript
+NSAppointmentAgent agent;
+NSTaskListItem thing = agent.GetTaskListItem(123);
+```
 

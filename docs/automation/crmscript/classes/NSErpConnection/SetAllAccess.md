@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnection_SetAllAccess
+title: SetAllAccess(Bool allAccess)
+intellisense: NSErpConnection.SetAllAccess
+keywords: NSErpConnection, GetAllAccess
+so.topic: reference
 ---
-title: Void SetAllAccess(Bool AllAccess)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetAllAccess(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3092
-keywords: SetAllAccess(Bool)
----
-
 
 Is this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it
 
+**Parameter:** 
+ - **allAccess** Bool
 
-
-* **AllAccess:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSErpConnection thing;
+Bool allAccess;
+thing.SetAllAccess(allAccess);
+```
 

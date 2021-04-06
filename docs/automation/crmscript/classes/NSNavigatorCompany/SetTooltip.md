@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSNavigatorCompany_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSNavigatorCompany.SetTooltip
+keywords: NSNavigatorCompany, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSNavigatorCompany/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the NavigatorCompany list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String NavigatorCompany tooltip description.
 
+```crmscript
+NSNavigatorCompany thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

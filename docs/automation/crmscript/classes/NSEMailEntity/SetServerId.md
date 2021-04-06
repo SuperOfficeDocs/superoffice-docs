@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetServerId
+title: SetServerId(Integer serverId)
+intellisense: NSEMailEntity.SetServerId
+keywords: NSEMailEntity, GetServerId
+so.topic: reference
 ---
-title: Void SetServerId(Integer ServerId)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetServerId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2996
-keywords: SetServerId(Integer)
----
-
 
 Unique id for the e-mail on the server
 
+**Parameter:** 
+ - **serverId** Integer
 
-
-* **ServerId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailEntity thing;
+Integer serverId;
+thing.SetServerId(serverId);
+```
 

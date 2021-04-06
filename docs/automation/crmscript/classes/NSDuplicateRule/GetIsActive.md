@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsActive()
-path: /EJScript/Classes/NSDuplicateRule/Member functions/Bool GetIsActive()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSDuplicateRule_GetIsActive
+title: NSDuplicateRule.GetIsActive()
+intellisense: NSDuplicateRule.GetIsActive
 sortOrder: 2734
 keywords: GetIsActive()
+so.topic: reference
 ---
 
 Indicating if a rule is current active, and should included in the duplicate detection

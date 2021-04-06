@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuote_GetPoNumber
 title: String GetPoNumber()
-path: /EJScript/Classes/NSQuote/Member functions/String GetPoNumber()
-intellisense: 1
-classref: 1
-keywords: GetPoNumber()
+intellisense: NSQuote.GetPoNumber
+keywords: NSQuote, GetPoNumber
+so.topic: reference
 ---
-
 
 Customer's Purchase order number
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuote thing;
+String poNumber  = thing.GetPoNumber();
+```
 
 

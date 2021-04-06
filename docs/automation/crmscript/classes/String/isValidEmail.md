@@ -1,9 +1,9 @@
 ---
-title: Bool isValidEmail()
-path: /EJScript/Classes/String/Member functions/Bool isValidEmail()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_isValidEmail
+title: String.isValidEmail()
+intellisense: String.isValidEmail
 keywords: isValidEmail()
+so.topic: reference
 ---
 
 

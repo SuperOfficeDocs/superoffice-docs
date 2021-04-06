@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetProbability
+title: SetProbability(Integer probability)
+intellisense: NSSaleEntity.SetProbability
+keywords: NSSaleEntity, GetProbability
+so.topic: reference
 ---
-title: Void SetProbability(Integer Probability)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetProbability(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetProbability(Integer)
----
-
 
 Actual probability, may differ from the one in the list
 
+**Parameter:** 
+ - **probability** Integer
 
-
-* **Probability:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleEntity thing;
+Integer probability;
+thing.SetProbability(probability);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_GetMandatory
 title: Bool GetMandatory()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Bool GetMandatory()
-intellisense: 1
-classref: 1
-sortOrder: 3621
-keywords: GetMandatory()
+intellisense: NSFieldValueInfo.GetMandatory
+keywords: NSFieldValueInfo, GetMandatory
+so.topic: reference
 ---
-
 
 True if this is a mandatory field
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFieldValueInfo thing;
+Bool mandatory  = thing.GetMandatory();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetSource
+title: SetSource(Integer source)
+intellisense: NSPersonEntity.SetSource
+keywords: NSPersonEntity, GetSource
+so.topic: reference
 ---
-title: Void SetSource(Integer Source)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetSource(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSource(Integer)
----
-
 
 How did we get this person? For future integration needs
 
+**Parameter:** 
+ - **source** Integer
 
-
-* **Source:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPersonEntity thing;
+Integer source;
+thing.SetSource(source);
+```
 

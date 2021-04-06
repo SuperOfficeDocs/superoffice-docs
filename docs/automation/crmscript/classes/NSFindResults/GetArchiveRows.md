@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFindResults_GetArchiveRows
+title: ArchiveListItemArray GetArchiveRows()
+intellisense: NSFindResults.GetArchiveRows
+keywords: NSFindResults, GetArchiveRows
+so.topic: reference
 ---
-title: NSArchiveListItem[] GetArchiveRows()
-path: /EJScript/Classes/NSFindResults/Member functions/NSArchiveListItem[] GetArchiveRows()
-intellisense: 1
-classref: 1
-sortOrder: 3692
-keywords: GetArchiveRows()
----
-
 
 Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows
 
+**Returns:** ArchiveListItemArray
 
 
-* **Returns:** ArchiveListItemArray
+```crmscript
+NSFindResults thing;
+ArchiveListItemArray archiveRows  = thing.GetArchiveRows();
+```
 
 

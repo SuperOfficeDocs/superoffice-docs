@@ -1,10 +1,11 @@
 ---
-title: Generic[] GenericToArray(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/Generic[] GenericToArray(Generic generic)
-intellisense: 1
+uid: crmscript_ref_Generic_GenericToArray_Generic_generic
+title: Generic.GenericToArray(Generic generic)
+intellisense: Generic.GenericToArray
 langref: 1
 sortOrder: 90
 keywords: GenericToArray(Generic)
+so.topic: reference
 ---
 
 

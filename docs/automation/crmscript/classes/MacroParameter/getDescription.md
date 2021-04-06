@@ -1,10 +1,10 @@
 ---
-title: String getDescription()
-path: /EJScript/Classes/MacroParameter/Member functions/String getDescription()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MacroParameter_getDescription
+title: MacroParameter.getDescription()
+intellisense: MacroParameter.getDescription
 sortOrder: 481
 keywords: getDescription()
+so.topic: reference
 ---
 
 This function returns a longer description of the parameter.

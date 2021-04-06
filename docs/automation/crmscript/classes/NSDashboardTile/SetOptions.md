@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_SetOptions
+title: SetOptions(DashboardTileOptionArray options)
+intellisense: NSDashboardTile.SetOptions
+keywords: NSDashboardTile, GetOptions
+so.topic: reference
 ---
-title: Void SetOptions(NSDashboardTileOption[] Options)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetOptions(NSDashboardTileOption[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2312
-keywords: SetOptions(NSDashboardTileOption[])
----
-
 
 The tile options
 
+**Parameter:** 
+ - **options** DashboardTileOptionArray
 
-
-* **Options:** DashboardTileOptionArray
-* **Returns:** DashboardTileOptionArray
-
+```crmscript
+NSDashboardTile thing;
+DashboardTileOptionArray options;
+thing.SetOptions(options);
+```
 

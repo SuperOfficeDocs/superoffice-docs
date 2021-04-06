@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionWorkflowState_GetUpdatePricesButton
+title: QuoteVersionButtonState GetUpdatePricesButton()
+intellisense: NSQuoteVersionWorkflowState.GetUpdatePricesButton
+keywords: NSQuoteVersionWorkflowState, GetUpdatePricesButton
+so.topic: reference
 ---
-title: NSQuoteVersionButtonState GetUpdatePricesButton()
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/NSQuoteVersionButtonState GetUpdatePricesButton()
-intellisense: 1
-classref: 1
-keywords: GetUpdatePricesButton()
----
-
 
 Information about the action for the update prices button.
 
+**Returns:** QuoteVersionButtonState
 
 
-* **Returns:** QuoteVersionButtonState
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionButtonState updatePricesButton  = thing.GetUpdatePricesButton();
+```
 
 

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveListEntity
+title: NSListEntity SaveListEntity(NSListEntity listEntity);
+intellisense: NSListAgent.SaveListEntity
+keywords: NSListAgent, SaveListEntity
+so.topic: reference
 ---
-title: NSListEntity SaveListEntity(NSListEntity listEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity SaveListEntity(NSListEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveListEntity(NSListEntity)
----
+	  
+Updates the existing NSListEntity or creates a new NSListEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **listEntity** The NSListEntity to save.
 
+**Returns:** New or updated NSListEntity
 
-Updates the existing ListEntity or creates a new ListEntity if the id parameter is empty
-
-
-
-* **listEntity:** The ListEntity that is saved
-* **Returns:** New or updated ListEntity
-
+```crmscript
+NSList  agent;
+NSListEntity thing = agent.CreateDefaultListEntity();
+thing = agent.SaveListEntity(thing);
+```
 

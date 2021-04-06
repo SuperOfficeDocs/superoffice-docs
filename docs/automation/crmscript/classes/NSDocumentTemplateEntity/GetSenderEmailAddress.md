@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetSenderEmailAddress
 title: String GetSenderEmailAddress()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/String GetSenderEmailAddress()
-intellisense: 1
-classref: 1
-sortOrder: 2675
-keywords: GetSenderEmailAddress()
+intellisense: NSDocumentTemplateEntity.GetSenderEmailAddress
+keywords: NSDocumentTemplateEntity, GetSenderEmailAddress
+so.topic: reference
 ---
-
 
 If email template, default senderaddress when template is of type quote email or privacy email.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocumentTemplateEntity thing;
+String senderEmailAddress  = thing.GetSenderEmailAddress();
+```
 
 

@@ -1,17 +1,29 @@
+﻿---
+uid: crmscript_ref_NSReportEntity_SetReportCategory
+title: SetReportCategory(Integer reportCategory)
+intellisense: NSReportEntity.SetReportCategory
+keywords: NSReportEntity, GetReportCategory
+so.topic: reference
 ---
-title: Void SetReportCategory(Integer ReportCategory)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetReportCategory(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetReportCategory(Integer)
----
-
 
 The category of the report.
 
+**Parameter:** 
+ - **reportCategory** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = All 
+     - Enum: 2 = Contact 
+     - Enum: 3 = Project 
+     - Enum: 4 = Sale 
+     - Enum: 5 = Appointment 
+     - Enum: 6 = Selection 
+     - Enum: 7 = Person 
+     - Enum: 8 = Diary 
+     - Enum: 9 = Favorites 
 
-
-* **ReportCategory:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportEntity thing;
+Integer reportCategory;
+thing.SetReportCategory(reportCategory);
+```
 

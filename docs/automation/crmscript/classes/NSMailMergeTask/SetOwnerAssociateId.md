@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeTask_SetOwnerAssociateId
+title: SetOwnerAssociateId(Integer ownerAssociateId)
+intellisense: NSMailMergeTask.SetOwnerAssociateId
+keywords: NSMailMergeTask, GetOwnerAssociateId
+so.topic: reference
 ---
-title: Void SetOwnerAssociateId(Integer OwnerAssociateId)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetOwnerAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwnerAssociateId(Integer)
----
 
+Associate identity of who should be set as owner of the task.  If value is 0, the recipient owner(our contact) will be used.
 
-Associate identity of who should be set as owner of the task.  If value is 0, the recipient `owner(our contact)` will be used.
+**Parameter:** 
+ - **ownerAssociateId** Integer
 
-
-
-* **OwnerAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMailMergeTask thing;
+Integer ownerAssociateId;
+thing.SetOwnerAssociateId(ownerAssociateId);
+```
 

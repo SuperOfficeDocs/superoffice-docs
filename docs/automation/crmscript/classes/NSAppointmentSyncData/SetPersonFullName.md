@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetPersonFullName
+title: SetPersonFullName(String personFullName)
+intellisense: NSAppointmentSyncData.SetPersonFullName
+keywords: NSAppointmentSyncData, GetPersonFullName
+so.topic: reference
 ---
-title: Void SetPersonFullName(String PersonFullName)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetPersonFullName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1084
-keywords: SetPersonFullName(String)
----
-
 
 The full name of the person this appointment belongs to.
 
+**Parameter:** 
+ - **personFullName** String
 
-
-* **PersonFullName:** String
-* **Returns:** String
-
+```crmscript
+NSAppointmentSyncData thing;
+String personFullName;
+thing.SetPersonFullName(personFullName);
+```
 

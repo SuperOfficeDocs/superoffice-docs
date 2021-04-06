@@ -1,17 +1,22 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetStatus
+title: SetStatus(TicketPriorityStatus status)
+intellisense: NSTicketPriorityEntity.SetStatus
+keywords: NSTicketPriorityEntity, GetStatus
+so.topic: reference
 ---
-title: Void SetStatus(NSTicketPriorityStatus Status)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetStatus(NSTicketPriorityStatus p_0)
-intellisense: 1
-classref: 1
-keywords: SetStatus(NSTicketPriorityStatus)
----
-
 
 The status (normal/deleted) of the priority.
 
+**Parameter:** 
+ - **status** TicketPriorityStatus
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Normal 
+     - Enum: 2 = Deleted 
 
-
-* **Status:** TicketPriorityStatus
-* **Returns:** TicketPriorityStatus
-
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityStatus status;
+thing.SetStatus(status);
+```
 

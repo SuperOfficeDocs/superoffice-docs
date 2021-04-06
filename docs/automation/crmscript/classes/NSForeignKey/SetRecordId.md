@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignKey_SetRecordId
+title: SetRecordId(Integer recordId)
+intellisense: NSForeignKey.SetRecordId
+keywords: NSForeignKey, GetRecordId
+so.topic: reference
 ---
-title: Void SetRecordId(Integer RecordId)
-path: /EJScript/Classes/NSForeignKey/Member functions/Void SetRecordId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3745
-keywords: SetRecordId(Integer)
----
-
 
 Record in the referenced table
 
+**Parameter:** 
+ - **recordId** Integer
 
-
-* **RecordId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSForeignKey thing;
+Integer recordId;
+thing.SetRecordId(recordId);
+```
 

@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseResult
 title: NSLicenseResult
-path: /EJScript/Classes/NSLicenseResult
-intellisense: 1
-classref: 1
+intellisense: Void.NSLicenseResult
+keywords: NSLicenseResult
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

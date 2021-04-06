@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersionValidated_SetChangedSale
+title: SetChangedSale(Sale changedSale)
+intellisense: NSQuoteVersionValidated.SetChangedSale
+keywords: NSQuoteVersionValidated, GetChangedSale
+so.topic: reference
 ---
-title: Void SetChangedSale(NSSale ChangedSale)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetChangedSale(NSSale p_0)
-intellisense: 1
-classref: 1
-keywords: SetChangedSale(NSSale)
----
-
 
 If the sale has been changed, the carrier will be added.
 
+**Parameter:** 
+ - **changedSale** Sale
 
-
-* **ChangedSale:** Sale
-* **Returns:** Sale
-
+```crmscript
+NSQuoteVersionValidated thing;
+Sale changedSale;
+thing.SetChangedSale(changedSale);
+```
 

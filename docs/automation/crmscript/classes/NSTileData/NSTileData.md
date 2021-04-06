@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTileData
 title: NSTileData
-path: /EJScript/Classes/NSTileData
-intellisense: 1
-classref: 1
+intellisense: Void.NSTileData
+keywords: NSTileData
+so.topic: reference
 ---
-
 
 Class representing data to be visualized in a dashboard tile.
 
-
-
-
-1. autolist
+1. autolist 
 

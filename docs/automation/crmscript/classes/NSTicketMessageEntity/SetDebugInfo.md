@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetDebugInfo
+title: SetDebugInfo(String debugInfo)
+intellisense: NSTicketMessageEntity.SetDebugInfo
+keywords: NSTicketMessageEntity, GetDebugInfo
+so.topic: reference
 ---
-title: Void SetDebugInfo(String DebugInfo)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetDebugInfo(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDebugInfo(String)
----
-
 
 The debug info for the message.
 
+**Parameter:** 
+ - **debugInfo** String
 
-
-* **DebugInfo:** String
-* **Returns:** String
-
+```crmscript
+NSTicketMessageEntity thing;
+String debugInfo;
+thing.SetDebugInfo(debugInfo);
+```
 

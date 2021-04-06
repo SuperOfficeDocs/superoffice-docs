@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_GetProjectId
 title: Integer GetProjectId()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
-sortOrder: 3049
-keywords: GetProjectId()
+intellisense: NSEMailSOInfo.GetProjectId
+keywords: NSEMailSOInfo, GetProjectId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailSOInfo thing;
+Integer projectId  = thing.GetProjectId();
+```
 
 

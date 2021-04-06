@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProviderInfo_SetName
+title: SetName(String name)
+intellisense: NSProviderInfo.SetName
+keywords: NSProviderInfo, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSProviderInfo/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Unique name of the provider plugin
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSProviderInfo thing;
+String name;
+thing.SetName(name);
+```
 

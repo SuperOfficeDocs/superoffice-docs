@@ -1,9 +1,9 @@
 ---
-title: Integer GetCompanyId()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Integer GetCompanyId()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetCompanyId
+title: NSSoSystemInfoCarrier.GetCompanyId()
+intellisense: NSSoSystemInfoCarrier.GetCompanyId
 keywords: GetCompanyId()
+so.topic: reference
 ---
 
 

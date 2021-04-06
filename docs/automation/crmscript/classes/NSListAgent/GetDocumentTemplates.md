@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetDocumentTemplates
+title: DocumentTemplateArray GetDocumentTemplates()
+intellisense: NSListAgent.GetDocumentTemplates
+keywords: NSListAgent, GetDocumentTemplates
+so.topic: reference
 ---
-title: NSDocumentTemplate[] GetDocumentTemplates()
-path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplate[] GetDocumentTemplates()
-intellisense: 1
-classref: 1
-keywords: GetDocumentTemplates()
----
-
 
 Returns all available document templates
 
 
+**Returns:** Array of DocumentTemplates
 
-* **Returns:** Array of DocumentTemplates
-
+```crmscript
+NSListAgent agent;
+DocumentTemplateArray res = agent.GetDocumentTemplates();
+```
 

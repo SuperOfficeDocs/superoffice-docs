@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSServiceAuth_GetAuthType
 title: String GetAuthType()
-path: /EJScript/Classes/NSServiceAuth/Member functions/String GetAuthType()
-intellisense: 1
-classref: 1
-keywords: GetAuthType()
+intellisense: NSServiceAuth.GetAuthType
+keywords: NSServiceAuth, GetAuthType
+so.topic: reference
 ---
-
 
 The type of authentication, plain-text, OAuth...
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSServiceAuth thing;
+String authType  = thing.GetAuthType();
+```
 
 

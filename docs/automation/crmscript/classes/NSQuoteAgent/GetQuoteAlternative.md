@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetQuoteAlternative
+title: NSQuoteAlternative GetQuoteAlternative(Integer quoteAlternativeId);
+intellisense: NSQuoteAgent.GetQuoteAlternative
+keywords: NSQuoteAgent, GetQuoteAlternative
+so.topic: reference
 ---
-title: NSQuoteAlternative GetQuoteAlternative(Integer quoteAlternativeId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternative GetQuoteAlternative(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetQuoteAlternative(Integer)
----
 
+Gets a NSQuoteAlternative object.
 
-Gets a QuoteAlternative object.
+**Parameters:**
+ - **quoteAlternativeId** The identifier of the NSQuoteAlternative object
 
+**Returns:** NSQuoteAlternative
 
-
-* **quoteAlternativeId:** The identifier of the QuoteAlternative object
-* **Returns:** QuoteAlternative
-
+```crmscript
+NSQuoteAgent agent;
+NSQuoteAlternative thing = agent.GetQuoteAlternative(123);
+```
 

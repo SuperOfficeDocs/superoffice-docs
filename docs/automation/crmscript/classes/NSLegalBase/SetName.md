@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLegalBase_SetName
+title: SetName(String name)
+intellisense: NSLegalBase.SetName
+keywords: NSLegalBase, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSLegalBase/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Name of legal base
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSLegalBase thing;
+String name;
+thing.SetName(name);
+```
 

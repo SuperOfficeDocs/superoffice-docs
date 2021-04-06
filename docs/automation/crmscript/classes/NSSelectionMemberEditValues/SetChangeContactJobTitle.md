@@ -1,9 +1,9 @@
 ---
-title: Void SetChangeContactJobTitle(Bool p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetChangeContactJobTitle(Bool p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_SetChangeContactJobTitle_Bool_p_0
+title: NSSelectionMemberEditValues.SetChangeContactJobTitle(Bool p_0)
+intellisense: NSSelectionMemberEditValues.SetChangeContactJobTitle
 keywords: SetChangeContactJobTitle(Bool)
+so.topic: reference
 ---
 
 

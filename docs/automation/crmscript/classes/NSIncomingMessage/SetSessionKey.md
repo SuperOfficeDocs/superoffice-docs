@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSIncomingMessage_SetSessionKey
+title: SetSessionKey(String sessionKey)
+intellisense: NSIncomingMessage.SetSessionKey
+keywords: NSIncomingMessage, GetSessionKey
+so.topic: reference
 ---
-title: Void SetSessionKey(String SessionKey)
-path: /EJScript/Classes/NSIncomingMessage/Member functions/Void SetSessionKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3996
-keywords: SetSessionKey(String)
----
-
 
 Session key used for threading.
 
+**Parameter:** 
+ - **sessionKey** String
 
-
-* **SessionKey:** String
-* **Returns:** String
-
+```crmscript
+NSIncomingMessage thing;
+String sessionKey;
+thing.SetSessionKey(sessionKey);
+```
 

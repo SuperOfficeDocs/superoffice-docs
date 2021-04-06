@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetIsPublished
 title: Bool GetIsPublished()
-path: /EJScript/Classes/NSProject/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
-keywords: GetIsPublished()
+intellisense: NSProject.GetIsPublished
+keywords: NSProject, GetIsPublished
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSProject thing;
+Bool isPublished  = thing.GetIsPublished();
+```
 
 

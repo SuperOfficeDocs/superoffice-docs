@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChangedData_GetDeletedRecords
+title: ChangedDataItemArray GetDeletedRecords()
+intellisense: NSChangedData.GetDeletedRecords
+keywords: NSChangedData, GetDeletedRecords
+so.topic: reference
 ---
-title: NSChangedDataItem[] GetDeletedRecords()
-path: /EJScript/Classes/NSChangedData/Member functions/NSChangedDataItem[] GetDeletedRecords()
-intellisense: 1
-classref: 1
-sortOrder: 1501
-keywords: GetDeletedRecords()
----
-
 
 Ids of deleted records.
 
+**Returns:** ChangedDataItemArray
 
 
-* **Returns:** ChangedDataItemArray
+```crmscript
+NSChangedData thing;
+ChangedDataItemArray deletedRecords  = thing.GetDeletedRecords();
+```
 
 

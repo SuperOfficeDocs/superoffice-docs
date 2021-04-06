@@ -1,16 +1,25 @@
+﻿---
+uid: crmscript_ref_NSTicketStatusEntity_GetStatus
+title: TicketBaseStatus GetStatus()
+intellisense: NSTicketStatusEntity.GetStatus
+keywords: NSTicketStatusEntity, GetStatus
+so.topic: reference
 ---
-title: NSTicketBaseStatus GetStatus()
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/NSTicketBaseStatus GetStatus()
-intellisense: 1
-classref: 1
-keywords: GetStatus()
----
-
 
 The &apos;classic&apos; ticket status. I.e. active/closed/postponed/deleted
 
+**Returns:** TicketBaseStatus
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Active 
+     - Enum: 2 = Closed 
+     - Enum: 3 = Postponed 
+     - Enum: 4 = Deleted 
+     - Enum: 5 = Merged 
 
-* **Returns:** TicketBaseStatus
+```crmscript
+NSTicketStatusEntity thing;
+TicketBaseStatus status  = thing.GetStatus();
+```
 
 

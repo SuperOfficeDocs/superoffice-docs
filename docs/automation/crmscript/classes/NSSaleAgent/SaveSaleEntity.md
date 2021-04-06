@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_SaveSaleEntity
+title: NSSaleEntity SaveSaleEntity(NSSaleEntity saleEntity);
+intellisense: NSSaleAgent.SaveSaleEntity
+keywords: NSSaleAgent, SaveSaleEntity
+so.topic: reference
 ---
-title: NSSaleEntity SaveSaleEntity(NSSaleEntity saleEntity)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleEntity SaveSaleEntity(NSSaleEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveSaleEntity(NSSaleEntity)
----
+	  
+Updates the existing NSSaleEntity or creates a new NSSaleEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **saleEntity** The NSSaleEntity to save.
 
+**Returns:** New or updated NSSaleEntity
 
-Updates the existing SaleEntity or creates a new SaleEntity if the id parameter is empty
-
-
-
-* **saleEntity:** The SaleEntity that is saved
-* **Returns:** New or updated SaleEntity
-
+```crmscript
+NSSale  agent;
+NSSaleEntity thing = agent.CreateDefaultSaleEntity();
+thing = agent.SaveSaleEntity(thing);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_GetCurrency
 title: String GetCurrency()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/String GetCurrency()
-intellisense: 1
-classref: 1
-keywords: GetCurrency()
+intellisense: NSSaleSummaryItem.GetCurrency
+keywords: NSSaleSummaryItem, GetCurrency
+so.topic: reference
 ---
-
 
 Currency the sale amount is in.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleSummaryItem thing;
+String currency  = thing.GetCurrency();
+```
 
 

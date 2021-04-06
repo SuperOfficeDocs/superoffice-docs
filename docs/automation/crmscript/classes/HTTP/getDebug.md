@@ -1,10 +1,10 @@
 ---
-title: String getDebug()
-path: /EJScript/Classes/HTTP/Member functions/String getDebug()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HTTP_getDebug
+title: HTTP.getDebug()
+intellisense: HTTP.getDebug
 sortOrder: 411
 keywords: getDebug()
+so.topic: reference
 ---
 
 Turn on debug mode by calling `setDebugMode(true)` and get it in String form by calling `getDebug()`.

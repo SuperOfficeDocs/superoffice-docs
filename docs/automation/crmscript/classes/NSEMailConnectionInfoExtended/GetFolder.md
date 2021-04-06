@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfoExtended_GetFolder
 title: String GetFolder()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/String GetFolder()
-intellisense: 1
-classref: 1
-sortOrder: 2924
-keywords: GetFolder()
+intellisense: NSEMailConnectionInfoExtended.GetFolder
+keywords: NSEMailConnectionInfoExtended, GetFolder
+so.topic: reference
 ---
-
 
 Optional folder to set as current after logging in
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailConnectionInfoExtended thing;
+String folder  = thing.GetFolder();
+```
 
 

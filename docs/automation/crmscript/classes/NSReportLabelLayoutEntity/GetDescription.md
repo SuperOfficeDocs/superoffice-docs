@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSReportLabelLayoutEntity.GetDescription
+keywords: NSReportLabelLayoutEntity, GetDescription
+so.topic: reference
 ---
-
 
 Description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSReportLabelLayoutEntity thing;
+String description  = thing.GetDescription();
+```
 
 

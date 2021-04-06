@@ -1,10 +1,10 @@
 ---
-title: NSLocalizedField[][] GetLocalizedAddress()
-path: /EJScript/Classes/NSAddress/Member functions/NSLocalizedField[][] GetLocalizedAddress()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAddress_GetLocalizedAddress
+title: NSAddress.GetLocalizedAddress()
+intellisense: NSAddress.GetLocalizedAddress
 sortOrder: 611
 keywords: GetLocalizedAddress()
+so.topic: reference
 ---
 
 

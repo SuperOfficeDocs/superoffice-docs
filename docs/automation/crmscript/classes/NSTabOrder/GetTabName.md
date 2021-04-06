@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTabOrder_GetTabName
 title: String GetTabName()
-path: /EJScript/Classes/NSTabOrder/Member functions/String GetTabName()
-intellisense: 1
-classref: 1
-keywords: GetTabName()
+intellisense: NSTabOrder.GetTabName
+keywords: NSTabOrder, GetTabName
+so.topic: reference
 ---
-
 
 Name of tab control
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTabOrder thing;
+String tabName  = thing.GetTabName();
+```
 
 

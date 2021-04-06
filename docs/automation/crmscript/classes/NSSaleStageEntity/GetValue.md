@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStageEntity_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSSaleStageEntity.GetValue
+keywords: NSSaleStageEntity, GetValue
+so.topic: reference
 ---
-
 
 The sale stage
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleStageEntity thing;
+String value  = thing.GetValue();
+```
 
 

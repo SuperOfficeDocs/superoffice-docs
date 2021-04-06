@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTileOption_SetListName
+title: SetListName(String listName)
+intellisense: NSDashboardTileOption.SetListName
+keywords: NSDashboardTileOption, GetListName
+so.topic: reference
 ---
-title: Void SetListName(String ListName)
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Void SetListName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2328
-keywords: SetListName(String)
----
-
 
 An MDO list name, used if the type is list and no ListOptions are given
 
+**Parameter:** 
+ - **listName** String
 
-
-* **ListName:** String
-* **Returns:** String
-
+```crmscript
+NSDashboardTileOption thing;
+String listName;
+thing.SetListName(listName);
+```
 

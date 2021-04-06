@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetMessages
+title: TicketMessageArray GetMessages()
+intellisense: NSTicketEntity.GetMessages
+keywords: NSTicketEntity, GetMessages
+so.topic: reference
 ---
-title: NSTicketMessage[] GetMessages()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSTicketMessage[] GetMessages()
-intellisense: 1
-classref: 1
-keywords: GetMessages()
----
-
 
 TicketMessageId,CreatedAt,SLevel and Important for all the messages connected to this ticket. For message body see the TicketMessageEntity or the TicketMessage archive.
 
+**Returns:** TicketMessageArray
 
 
-* **Returns:** TicketMessageArray
+```crmscript
+NSTicketEntity thing;
+TicketMessageArray messages  = thing.GetMessages();
+```
 
 

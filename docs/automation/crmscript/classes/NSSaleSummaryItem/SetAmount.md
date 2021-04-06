@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_SetAmount
+title: SetAmount(Float amount)
+intellisense: NSSaleSummaryItem.SetAmount
+keywords: NSSaleSummaryItem, GetAmount
+so.topic: reference
 ---
-title: Void SetAmount(Float Amount)
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Void SetAmount(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetAmount(Float)
----
-
 
 Total sale amount
 
+**Parameter:** 
+ - **amount** Float
 
-
-* **Amount:** Float
-* **Returns:** Float
-
+```crmscript
+NSSaleSummaryItem thing;
+Float amount;
+thing.SetAmount(amount);
+```
 

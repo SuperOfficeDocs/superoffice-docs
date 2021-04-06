@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetDialInPrefix
+title: SetDialInPrefix(String dialInPrefix)
+intellisense: NSCountry.SetDialInPrefix
+keywords: NSCountry, GetDialInPrefix
+so.topic: reference
 ---
-title: Void SetDialInPrefix(String DialInPrefix)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetDialInPrefix(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2034
-keywords: SetDialInPrefix(String)
----
-
 
 Dial in prefix
 
+**Parameter:** 
+ - **dialInPrefix** String
 
-
-* **DialInPrefix:** String
-* **Returns:** String
-
+```crmscript
+NSCountry thing;
+String dialInPrefix;
+thing.SetDialInPrefix(dialInPrefix);
+```
 

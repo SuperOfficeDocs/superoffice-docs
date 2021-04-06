@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetRepliedAt
+title: SetRepliedAt(DateTime repliedAt)
+intellisense: NSTicketEntity.SetRepliedAt
+keywords: NSTicketEntity, GetRepliedAt
+so.topic: reference
 ---
-title: Void SetRepliedAt(DateTime RepliedAt)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetRepliedAt(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetRepliedAt(DateTime)
----
-
 
 The datetime for when the ticket was replied to. I.e. the first external message added to the ticket.
 
+**Parameter:** 
+ - **repliedAt** DateTime
 
-
-* **RepliedAt:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketEntity thing;
+DateTime repliedAt;
+thing.SetRepliedAt(repliedAt);
+```
 

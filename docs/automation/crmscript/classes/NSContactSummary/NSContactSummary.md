@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSContactSummary
 title: NSContactSummary
-path: /EJScript/Classes/NSContactSummary
-intellisense: 1
-classref: 1
-sortOrder: 1980
+intellisense: Void.NSContactSummary
+keywords: NSContactSummary
+so.topic: reference
 ---
-
 
 Summary of contact with recent activities, chats, and requests included.
 
-
-
-
-1. autolist
+1. autolist 
 

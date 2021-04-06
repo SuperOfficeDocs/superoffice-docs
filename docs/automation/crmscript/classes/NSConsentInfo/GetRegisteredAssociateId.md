@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo_GetRegisteredAssociateId
 title: Integer GetRegisteredAssociateId()
-path: /EJScript/Classes/NSConsentInfo/Member functions/Integer GetRegisteredAssociateId()
-intellisense: 1
-classref: 1
-sortOrder: 1634
-keywords: GetRegisteredAssociateId()
+intellisense: NSConsentInfo.GetRegisteredAssociateId
+keywords: NSConsentInfo, GetRegisteredAssociateId
+so.topic: reference
 ---
-
 
 The ID of the associate who created this record
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSConsentInfo thing;
+Integer registeredAssociateId  = thing.GetRegisteredAssociateId();
+```
 
 

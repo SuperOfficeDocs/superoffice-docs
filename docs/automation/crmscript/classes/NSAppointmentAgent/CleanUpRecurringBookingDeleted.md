@@ -1,13 +1,10 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_CleanUpRecurringBookingDeleted
 title: Integer CleanUpRecurringBookingDeleted()
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Integer CleanUpRecurringBookingDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 829
-keywords: CleanUpRecurringBookingDeleted()
+intellisense: NSAppointmentAgent.CleanUpRecurringBookingDeleted
+keywords: NSAppointmentAgent, CleanUpRecurringBookingDeleted
+so.topic: reference
 ---
-
 
 Deletes all appointments with status BookingDeleted and for in logged user.
-
 

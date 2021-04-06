@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoDecimal_GetPrecision
 title: Integer GetPrecision()
-path: /EJScript/Classes/NSFieldInfoDecimal/Member functions/Integer GetPrecision()
-intellisense: 1
-classref: 1
-sortOrder: 3506
-keywords: GetPrecision()
+intellisense: NSFieldInfoDecimal.GetPrecision
+keywords: NSFieldInfoDecimal, GetPrecision
+so.topic: reference
 ---
-
 
 How many decimals to display
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFieldInfoDecimal thing;
+Integer precision  = thing.GetPrecision();
+```
 
 

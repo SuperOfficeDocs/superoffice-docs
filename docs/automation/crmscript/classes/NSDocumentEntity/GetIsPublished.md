@@ -1,13 +1,12 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetIsPublished
+title: Boolean GetIsPublished()
+intellisense: NSDocumentEntity.GetIsPublished
+keywords: NSDocumentEntity, GetIsPublished
+so.topic: reference
 ---
-title: Bool GetIsPublished()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
-sortOrder: 2551
-keywords: GetIsPublished()
----
 
+Should this DocumentEntity be published and visible to strangers?
 
-Get the Publication is published field
-
+**Returns:** Boolean
 

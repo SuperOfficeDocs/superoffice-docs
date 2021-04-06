@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSNavigatorCompany_SetValue
+title: SetValue(String value)
+intellisense: NSNavigatorCompany.SetValue
+keywords: NSNavigatorCompany, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSNavigatorCompany/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the NavigatorCompany item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String NavigatorCompany name.
 
+```crmscript
+NSNavigatorCompany thing;
+thing.SetValue("frotz");
+```
 

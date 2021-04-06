@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailbox_GetMailInFilterId
 title: Integer GetMailInFilterId()
-path: /EJScript/Classes/NSMailbox/Member functions/Integer GetMailInFilterId()
-intellisense: 1
-classref: 1
-keywords: GetMailInFilterId()
+intellisense: NSMailbox.GetMailInFilterId
+keywords: NSMailbox, GetMailInFilterId
+so.topic: reference
 ---
-
 
 The primary key (auto-incremented)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMailbox thing;
+Integer mailInFilterId  = thing.GetMailInFilterId();
+```
 
 

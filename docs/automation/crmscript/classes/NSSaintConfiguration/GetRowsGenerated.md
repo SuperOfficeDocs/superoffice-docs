@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaintConfiguration_GetRowsGenerated
 title: Integer GetRowsGenerated()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Integer GetRowsGenerated()
-intellisense: 1
-classref: 1
-keywords: GetRowsGenerated()
+intellisense: NSSaintConfiguration.GetRowsGenerated
+keywords: NSSaintConfiguration, GetRowsGenerated
+so.topic: reference
 ---
-
 
 Number of CounterValue rows generated for this entity
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaintConfiguration thing;
+Integer rowsGenerated  = thing.GetRowsGenerated();
+```
 
 

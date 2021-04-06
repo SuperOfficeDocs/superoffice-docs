@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEvent_GetEventDate
 title: DateTime GetEventDate()
-path: /EJScript/Classes/NSProjectEvent/Member functions/DateTime GetEventDate()
-intellisense: 1
-classref: 1
-keywords: GetEventDate()
+intellisense: NSProjectEvent.GetEventDate
+keywords: NSProjectEvent, GetEventDate
+so.topic: reference
 ---
-
 
 Date of the event. Event is not visible after this date.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSProjectEvent thing;
+DateTime eventDate  = thing.GetEventDate();
+```
 
 

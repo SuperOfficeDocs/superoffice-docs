@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFavourite_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSFavourite.SetAssociateId
+keywords: NSFavourite, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSFavourite/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3440
-keywords: SetAssociateId(Integer)
----
-
 
 Id of the associate this favourite belongs to.
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFavourite thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

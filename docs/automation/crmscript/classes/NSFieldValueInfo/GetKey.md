@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_GetKey
 title: String GetKey()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String GetKey()
-intellisense: 1
-classref: 1
-sortOrder: 3630
-keywords: GetKey()
+intellisense: NSFieldValueInfo.GetKey
+keywords: NSFieldValueInfo, GetKey
+so.topic: reference
 ---
-
 
 The unique key on the field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldValueInfo thing;
+String key  = thing.GetKey();
+```
 
 

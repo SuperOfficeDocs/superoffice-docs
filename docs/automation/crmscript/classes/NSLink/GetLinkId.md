@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLink_GetLinkId
 title: Integer GetLinkId()
-path: /EJScript/Classes/NSLink/Member functions/Integer GetLinkId()
-intellisense: 1
-classref: 1
-keywords: GetLinkId()
+intellisense: NSLink.GetLinkId
+keywords: NSLink, GetLinkId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSLink thing;
+Integer linkId  = thing.GetLinkId();
+```
 
 

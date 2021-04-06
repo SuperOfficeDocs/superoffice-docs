@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncConnectionSummary_GetActive
 title: Bool GetActive()
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/Bool GetActive()
-intellisense: 1
-classref: 1
-sortOrder: 3227
-keywords: GetActive()
+intellisense: NSErpSyncConnectionSummary.GetActive
+keywords: NSErpSyncConnectionSummary, GetActive
+so.topic: reference
 ---
-
 
 Is the connection currently active
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSErpSyncConnectionSummary thing;
+Bool active  = thing.GetActive();
+```
 
 

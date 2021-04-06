@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSImportColumnInfo_GetDisplayName
 title: String GetDisplayName()
-path: /EJScript/Classes/NSImportColumnInfo/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 3961
-keywords: GetDisplayName()
+intellisense: NSImportColumnInfo.GetDisplayName
+keywords: NSImportColumnInfo, GetDisplayName
+so.topic: reference
 ---
-
 
 Display name of the column
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSImportColumnInfo thing;
+String displayName  = thing.GetDisplayName();
+```
 
 

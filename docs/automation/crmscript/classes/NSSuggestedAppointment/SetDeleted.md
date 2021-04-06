@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetDeleted
+title: SetDeleted(Integer deleted)
+intellisense: NSSuggestedAppointment.SetDeleted
+keywords: NSSuggestedAppointment, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Integer Deleted)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetDeleted(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeleted(Integer)
----
-
 
 0 -> record is active 1 -> record is 'deleted' and should not be shown in lists
 
+**Parameter:** 
+ - **deleted** Integer
 
-
-* **Deleted:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedAppointment thing;
+Integer deleted;
+thing.SetDeleted(deleted);
+```
 

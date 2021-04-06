@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEntityName
 title: NSEntityName
-path: /EJScript/Classes/NSEntityName
-intellisense: 1
-classref: 1
-sortOrder: 3068
+intellisense: Void.NSEntityName
+keywords: NSEntityName
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

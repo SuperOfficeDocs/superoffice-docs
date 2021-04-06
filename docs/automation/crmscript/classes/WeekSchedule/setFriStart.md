@@ -1,9 +1,9 @@
 ---
-title: Void setFriStart(Time t)
-path: /EJScript/Classes/WeekSchedule/Member functions/Void setFriStart(Time t)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_setFriStart_Time_t
+title: WeekSchedule.setFriStart(Time t)
+intellisense: WeekSchedule.setFriStart
 keywords: setFriStart(Time)
+so.topic: reference
 ---
 
 

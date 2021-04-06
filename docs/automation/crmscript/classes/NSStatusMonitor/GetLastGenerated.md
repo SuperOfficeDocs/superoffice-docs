@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitor_GetLastGenerated
 title: DateTime GetLastGenerated()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/DateTime GetLastGenerated()
-intellisense: 1
-classref: 1
-keywords: GetLastGenerated()
+intellisense: NSStatusMonitor.GetLastGenerated
+keywords: NSStatusMonitor, GetLastGenerated
+so.topic: reference
 ---
-
 
 When was this status last generated (i.e., statusValue rows created)
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSStatusMonitor thing;
+DateTime lastGenerated  = thing.GetLastGenerated();
+```
 
 

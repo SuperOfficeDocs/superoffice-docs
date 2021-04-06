@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSTicketAgent_DeleteTicketEntity
 title: Void DeleteTicketEntity(Integer ticketEntityId)
-path: /EJScript/Classes/NSTicketAgent/Member functions/Void DeleteTicketEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteTicketEntity(Integer)
+intellisense: NSTicketAgent.DeleteTicketEntity
+keywords: NSTicketAgent, DeleteTicketEntity
+so.topic: reference
 ---
-
 
 Delete a ticket
 
+**Parameters:**
+ - **ticketEntityId** The ticket to delete
 
+**Returns:** returns void
 
-* **ticketEntityId:** The ticket to delete
-* **Returns:** returns void
-
+```crmscript
+NSTicketAgent agent;
+Integer ticketEntityId;
+Void res = agent.DeleteTicketEntity(ticketEntityId);
+```
 

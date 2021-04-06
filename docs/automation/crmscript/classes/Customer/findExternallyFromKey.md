@@ -1,10 +1,10 @@
 ---
-title: Integer findExternallyFromKey(Integer table, String key)
-path: /EJScript/Classes/Customer/Member functions/Integer findExternallyFromKey(Integer table, String key)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_findExternallyFromKey_Integer_table_String_key
+title: Customer.findExternallyFromKey(Integer table, String key)
+intellisense: Customer.findExternallyFromKey
 sortOrder: 180
 keywords: findExternallyFromKey(Integer,String)
+so.topic: reference
 ---
 
 Find an external entry based on it's primary key and table id.

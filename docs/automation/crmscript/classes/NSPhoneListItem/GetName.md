@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListItem_GetName
 title: String GetName()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSPhoneListItem.GetName
+keywords: NSPhoneListItem, GetName
+so.topic: reference
 ---
-
 
 The contact or person's name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPhoneListItem thing;
+String name  = thing.GetName();
+```
 
 

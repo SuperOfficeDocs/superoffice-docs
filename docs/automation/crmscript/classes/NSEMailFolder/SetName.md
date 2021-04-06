@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailFolder_SetName
+title: SetName(String name)
+intellisense: NSEMailFolder.SetName
+keywords: NSEMailFolder, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSEMailFolder/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3038
-keywords: SetName(String)
----
-
 
 Name of folder
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSEMailFolder thing;
+String name;
+thing.SetName(name);
+```
 

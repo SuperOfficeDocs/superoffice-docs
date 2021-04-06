@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_GetQuoteLineId
 title: Integer GetQuoteLineId()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetQuoteLineId()
-intellisense: 1
-classref: 1
-keywords: GetQuoteLineId()
+intellisense: NSTemplateVariablesParameters.GetQuoteLineId
+keywords: NSTemplateVariablesParameters, GetQuoteLineId
+so.topic: reference
 ---
-
 
 Quote line id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer quoteLineId  = thing.GetQuoteLineId();
+```
 
 

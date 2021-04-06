@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_SetOperator
+title: SetOperator(String operator)
+intellisense: NSArchiveRestrictionInfo.SetOperator
+keywords: NSArchiveRestrictionInfo, GetOperator
+so.topic: reference
 ---
-title: Void SetOperator(String Operator)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetOperator(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1233
-keywords: SetOperator(String)
----
-
 
 The operator, such as =, etc
 
+**Parameter:** 
+ - **operator** String
 
-
-* **Operator:** String
-* **Returns:** String
-
+```crmscript
+NSArchiveRestrictionInfo thing;
+String operator;
+thing.SetOperator(operator);
+```
 

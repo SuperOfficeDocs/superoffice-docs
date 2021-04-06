@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetFolderName
 title: String GetFolderName()
-path: /EJScript/Classes/NSEMailEntity/Member functions/String GetFolderName()
-intellisense: 1
-classref: 1
-sortOrder: 2967
-keywords: GetFolderName()
+intellisense: NSEMailEntity.GetFolderName
+keywords: NSEMailEntity, GetFolderName
+so.topic: reference
 ---
-
 
 Name of folder the e-mail belongs in
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailEntity thing;
+String folderName  = thing.GetFolderName();
+```
 
 

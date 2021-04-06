@@ -1,17 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSCheckoutInfo_GetState
 title: Integer GetState()
-path: /EJScript/Classes/NSCheckoutInfo/Member functions/Integer GetState()
-intellisense: 1
-classref: 1
-sortOrder: 1561
-keywords: GetState()
+intellisense: NSCheckoutInfo.GetState
+keywords: NSCheckoutInfo, GetState
+so.topic: reference
 ---
-
 
 Checkout state
 
+**Returns:** Integer
 
+     - Enum: 0 = NotCheckedOut 
+     - Enum: 1 = CheckedOutOwn 
+     - Enum: 2 = CheckedOutOther 
+     - Enum: 3 = LockingNotSupported 
 
-* **Returns:** Integer
+```crmscript
+NSCheckoutInfo thing;
+Integer state  = thing.GetState();
+```
 
 

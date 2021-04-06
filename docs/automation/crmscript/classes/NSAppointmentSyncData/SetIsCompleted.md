@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetIsCompleted
+title: SetIsCompleted(Bool isCompleted)
+intellisense: NSAppointmentSyncData.SetIsCompleted
+keywords: NSAppointmentSyncData, GetIsCompleted
+so.topic: reference
 ---
-title: Void SetIsCompleted(Bool IsCompleted)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetIsCompleted(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1078
-keywords: SetIsCompleted(Bool)
----
 
 
-* **IsCompleted:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isCompleted** Bool
+
+```crmscript
+NSAppointmentSyncData thing;
+Bool isCompleted;
+thing.SetIsCompleted(isCompleted);
+```
 

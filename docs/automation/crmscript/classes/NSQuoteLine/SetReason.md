@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetReason
+title: SetReason(String reason)
+intellisense: NSQuoteLine.SetReason
+keywords: NSQuoteLine, GetReason
+so.topic: reference
 ---
-title: Void SetReason(String Reason)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetReason(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetReason(String)
----
-
 
 If QuoteStatus is not OK, then this field contains a localized explanation that the user can be shown.
 
+**Parameter:** 
+ - **reason** String
 
-
-* **Reason:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLine thing;
+String reason;
+thing.SetReason(reason);
+```
 

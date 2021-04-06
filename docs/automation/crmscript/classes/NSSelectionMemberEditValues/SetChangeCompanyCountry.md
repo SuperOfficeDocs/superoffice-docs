@@ -1,9 +1,9 @@
 ---
-title: Void SetChangeCompanyCountry(Bool p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetChangeCompanyCountry(Bool p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_SetChangeCompanyCountry_Bool_p_0
+title: NSSelectionMemberEditValues.SetChangeCompanyCountry(Bool p_0)
+intellisense: NSSelectionMemberEditValues.SetChangeCompanyCountry
 keywords: SetChangeCompanyCountry(Bool)
+so.topic: reference
 ---
 
 

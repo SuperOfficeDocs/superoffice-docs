@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFreeText_SetCountWords
+title: SetCountWords(Integer countWords)
+intellisense: NSFreeText.SetCountWords
+keywords: NSFreeText, GetCountWords
+so.topic: reference
 ---
-title: Void SetCountWords(Integer CountWords)
-path: /EJScript/Classes/NSFreeText/Member functions/Void SetCountWords(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3860
-keywords: SetCountWords(Integer)
----
-
 
 Count of unique search words
 
+**Parameter:** 
+ - **countWords** Integer
 
-
-* **CountWords:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFreeText thing;
+Integer countWords;
+thing.SetCountWords(countWords);
+```
 

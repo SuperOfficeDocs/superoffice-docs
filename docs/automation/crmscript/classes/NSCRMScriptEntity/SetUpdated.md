@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_SetUpdated
+title: SetUpdated(DateTime updated)
+intellisense: NSCRMScriptEntity.SetUpdated
+keywords: NSCRMScriptEntity, GetUpdated
+so.topic: reference
 ---
-title: Void SetUpdated(DateTime Updated)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetUpdated(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2147
-keywords: SetUpdated(DateTime)
----
-
 
 Last updated when
 
+**Parameter:** 
+ - **updated** DateTime
 
-
-* **Updated:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSCRMScriptEntity thing;
+DateTime updated;
+thing.SetUpdated(updated);
+```
 

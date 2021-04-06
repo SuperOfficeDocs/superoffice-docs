@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetQuoteLines
+title: QuoteLineArray GetQuoteLines(Integer quoteAlternativeId)
+intellisense: NSQuoteAgent.GetQuoteLines
+keywords: NSQuoteAgent, GetQuoteLines
+so.topic: reference
 ---
-title: NSQuoteLine[] GetQuoteLines(Integer quoteAlternativeId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine[] GetQuoteLines(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetQuoteLines(Integer)
----
-
 
 Get all QuoteLines from an alternative
 
+**Parameters:**
+ - **quoteAlternativeId** Id of the alternative to return the quotelines for
 
+**Returns:** QuoteLine array
 
-* **quoteAlternativeId:** Id of the alternative to return the quotelines for
-* **Returns:** QuoteLine array
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteAlternativeId;
+QuoteLineArray res = agent.GetQuoteLines(quoteAlternativeId);
+```
 

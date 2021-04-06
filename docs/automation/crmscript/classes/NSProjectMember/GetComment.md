@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectMember_GetComment
 title: String GetComment()
-path: /EJScript/Classes/NSProjectMember/Member functions/String GetComment()
-intellisense: 1
-classref: 1
-keywords: GetComment()
+intellisense: NSProjectMember.GetComment
+keywords: NSProjectMember, GetComment
+so.topic: reference
 ---
-
 
 Comment text on the project membership
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProjectMember thing;
+String comment  = thing.GetComment();
+```
 
 

@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSApproveRejectResponse
 title: NSApproveRejectResponse
-path: /EJScript/Classes/NSApproveRejectResponse
-intellisense: 1
-classref: 1
-sortOrder: 1092
+intellisense: Void.NSApproveRejectResponse
+keywords: NSApproveRejectResponse
+so.topic: reference
 ---
-
 
 ApproveRejectResponse contains a PluginResponse and an appointmentId if the operation created one.
 
-
-
-
-1. autolist
+1. autolist 
 

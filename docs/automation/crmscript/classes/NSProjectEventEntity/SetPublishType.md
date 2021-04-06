@@ -1,13 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetPublishType
+title: SetPublishType(PublishType publishType)
+intellisense: NSProjectEventEntity.SetPublishType
+keywords: NSProjectEventEntity, GetPublishType
+so.topic: reference
 ---
-title: Void SetPublishType(Integer p0)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetPublishType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPublishType(Integer)
----
-
 
 Type of publishing action, 0 = Unknown, 1 = to external persons
 
-* **p_0:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **publishType** PublishType
+     - Enum: 0 = Undefined 
+     - Enum: 1 = External 
+
+```crmscript
+NSProjectEventEntity thing;
+PublishType publishType;
+thing.SetPublishType(publishType);
+```
+

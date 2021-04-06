@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectTypeEntity_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSProjectTypeEntity.GetTooltip
+keywords: NSProjectTypeEntity, GetTooltip
+so.topic: reference
 ---
-
 
 Tooltip or other description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProjectTypeEntity thing;
+String tooltip  = thing.GetTooltip();
+```
 
 

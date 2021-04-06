@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEventData_SetOutputValues
+title: SetOutputValues(StringDictionary outputValues)
+intellisense: NSEventData.SetOutputValues
+keywords: NSEventData, GetOutputValues
+so.topic: reference
 ---
-title: Void SetOutputValues(StringDictionary OutputValues)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetOutputValues(StringDictionary p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3352
-keywords: SetOutputValues(StringDictionary)
----
-
 
 Values sent back to the environment from the event handler
 
+**Parameter:** 
+ - **outputValues** StringDictionary
 
-
-* **OutputValues:** StringDictionary
-* **Returns:** StringDictionary
-
+```crmscript
+NSEventData thing;
+StringDictionary outputValues;
+thing.SetOutputValues(outputValues);
+```
 

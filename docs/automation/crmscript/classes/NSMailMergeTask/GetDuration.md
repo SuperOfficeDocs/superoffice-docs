@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeTask_GetDuration
 title: Integer GetDuration()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetDuration()
-intellisense: 1
-classref: 1
-keywords: GetDuration()
+intellisense: NSMailMergeTask.GetDuration
+keywords: NSMailMergeTask, GetDuration
+so.topic: reference
 ---
-
 
 Duration of task
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMailMergeTask thing;
+Integer duration  = thing.GetDuration();
+```
 
 

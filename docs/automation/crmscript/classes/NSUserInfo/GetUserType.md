@@ -1,12 +1,25 @@
----
+﻿---
+uid: crmscript_ref_NSUserInfo_GetUserType
 title: Integer GetUserType()
-path: /EJScript/Classes/NSUserInfo/Member functions/Integer GetUserType()
-intellisense: 1
-classref: 1
-keywords: GetUserType()
+intellisense: NSUserInfo.GetUserType
+keywords: NSUserInfo, GetUserType
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
+
+```crmscript
+NSUserInfo thing;
+Integer userType  = thing.GetUserType();
+```
 
 

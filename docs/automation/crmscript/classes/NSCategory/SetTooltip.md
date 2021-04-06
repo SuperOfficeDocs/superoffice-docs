@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCategory_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSCategory.SetTooltip
+keywords: NSCategory, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSCategory/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1496
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the Category list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String Category tooltip description.
 
+```crmscript
+NSCategory thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

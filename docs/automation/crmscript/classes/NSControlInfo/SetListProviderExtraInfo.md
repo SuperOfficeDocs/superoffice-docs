@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSControlInfo_SetListProviderExtraInfo
+title: SetListProviderExtraInfo(String listProviderExtraInfo)
+intellisense: NSControlInfo.SetListProviderExtraInfo
+keywords: NSControlInfo, GetListProviderExtraInfo
+so.topic: reference
 ---
-title: Void SetListProviderExtraInfo(String ListProviderExtraInfo)
-path: /EJScript/Classes/NSControlInfo/Member functions/Void SetListProviderExtraInfo(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2006
-keywords: SetListProviderExtraInfo(String)
----
 
 
-* **ListProviderExtraInfo:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **listProviderExtraInfo** String
+
+```crmscript
+NSControlInfo thing;
+String listProviderExtraInfo;
+thing.SetListProviderExtraInfo(listProviderExtraInfo);
+```
 

@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetRating
+title: NSRating GetRating(Integer ratingId);
+intellisense: NSListAgent.GetRating
+keywords: NSListAgent, GetRating
+so.topic: reference
 ---
-title: NSRating GetRating(Integer ratingId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSRating GetRating(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetRating(Integer)
----
 
+Gets a NSRating object.
 
-Gets a Rating object.
+**Parameters:**
+ - **ratingId** The identifier of the NSRating object
 
+**Returns:** NSRating
 
-
-* **ratingId:** The identifier of the Rating object
-* **Returns:** Rating
-
+```crmscript
+NSListAgent agent;
+NSRating thing = agent.GetRating(123);
+```
 

@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveHeadingFromListDefinition
+title: HeadingEntity SaveHeadingFromListDefinition(Integer id, HeadingEntity entity)
+intellisense: NSListAgent.SaveHeadingFromListDefinition
+keywords: NSListAgent, SaveHeadingFromListDefinition
+so.topic: reference
 ---
-title: NSHeadingEntity SaveHeadingFromListDefinition(Integer id, NSHeadingEntity entity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity SaveHeadingFromListDefinition(Integer p_0, NSHeadingEntity p_1)
-intellisense: 1
-classref: 1
-keywords: SaveHeadingFromListDefinition(Integer,NSHeadingEntity)
----
-
 
 Save new heading for list resolved by the provided id.
 
+**Parameters:**
+ - **id** The id of the list to look up.
+ - **entity** The new heading to save
 
+**Returns:** The saved entity.
 
-* **id:** The id of the list to look up.
-* **entity:** The new heading to save
-* **Returns:** The saved entity.
-
+```crmscript
+NSListAgent agent;
+Integer id;
+HeadingEntity entity;
+HeadingEntity res = agent.SaveHeadingFromListDefinition(id, entity);
+```
 

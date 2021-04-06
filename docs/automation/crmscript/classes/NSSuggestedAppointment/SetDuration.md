@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetDuration
+title: SetDuration(Integer duration)
+intellisense: NSSuggestedAppointment.SetDuration
+keywords: NSSuggestedAppointment, GetDuration
+so.topic: reference
 ---
-title: Void SetDuration(Integer Duration)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetDuration(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDuration(Integer)
----
-
 
 Duration in minutes of suggested appointment
 
+**Parameter:** 
+ - **duration** Integer
 
-
-* **Duration:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedAppointment thing;
+Integer duration;
+thing.SetDuration(duration);
+```
 

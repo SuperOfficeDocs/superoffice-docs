@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetQuoteAlternatives
+title: QuoteAlternativeArray GetQuoteAlternatives()
+intellisense: NSQuoteVersion.GetQuoteAlternatives
+keywords: NSQuoteVersion, GetQuoteAlternatives
+so.topic: reference
 ---
-title: NSQuoteAlternative[] GetQuoteAlternatives()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/NSQuoteAlternative[] GetQuoteAlternatives()
-intellisense: 1
-classref: 1
-keywords: GetQuoteAlternatives()
----
-
 
 The QuoteAlternatives for the QuoteVersion
 
+**Returns:** QuoteAlternativeArray
 
 
-* **Returns:** QuoteAlternativeArray
+```crmscript
+NSQuoteVersion thing;
+QuoteAlternativeArray quoteAlternatives  = thing.GetQuoteAlternatives();
+```
 
 

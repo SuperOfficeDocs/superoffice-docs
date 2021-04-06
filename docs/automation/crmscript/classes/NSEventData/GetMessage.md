@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEventData_GetMessage
 title: String GetMessage()
-path: /EJScript/Classes/NSEventData/Member functions/String GetMessage()
-intellisense: 1
-classref: 1
-sortOrder: 3342
-keywords: GetMessage()
+intellisense: NSEventData.GetMessage
+keywords: NSEventData, GetMessage
+so.topic: reference
 ---
-
 
 A message to be presented to the user
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEventData thing;
+String message  = thing.GetMessage();
+```
 
 

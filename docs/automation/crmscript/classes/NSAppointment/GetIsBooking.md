@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetIsBooking
 title: Bool GetIsBooking()
-path: /EJScript/Classes/NSAppointment/Member functions/Bool GetIsBooking()
-intellisense: 1
-classref: 1
-sortOrder: 715
-keywords: GetIsBooking()
+intellisense: NSAppointment.GetIsBooking
+keywords: NSAppointment, GetIsBooking
+so.topic: reference
 ---
-
 
 True if this appointment is a booking.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSAppointment thing;
+Bool isBooking  = thing.GetIsBooking();
+```
 
 

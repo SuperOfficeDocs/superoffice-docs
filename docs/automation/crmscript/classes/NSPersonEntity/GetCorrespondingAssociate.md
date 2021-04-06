@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetCorrespondingAssociate
+title: Associate GetCorrespondingAssociate()
+intellisense: NSPersonEntity.GetCorrespondingAssociate
+keywords: NSPersonEntity, GetCorrespondingAssociate
+so.topic: reference
 ---
-title: NSAssociate GetCorrespondingAssociate()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSAssociate GetCorrespondingAssociate()
-intellisense: 1
-classref: 1
-keywords: GetCorrespondingAssociate()
----
-
 
 The associate corresponding to this person. Will be empty if the person is not a user (internal associate user, external user).
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSPersonEntity thing;
+Associate correspondingAssociate  = thing.GetCorrespondingAssociate();
+```
 
 

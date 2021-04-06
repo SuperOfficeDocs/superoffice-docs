@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetLocalizedTextsByLanguageId
+title: LocalizedTextArray GetLocalizedTextsByLanguageId(Integer languageId)
+intellisense: NSListAgent.GetLocalizedTextsByLanguageId
+keywords: NSListAgent, GetLocalizedTextsByLanguageId
+so.topic: reference
 ---
-title: NSLocalizedText[] GetLocalizedTextsByLanguageId(Integer languageId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLocalizedText[] GetLocalizedTextsByLanguageId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetLocalizedTextsByLanguageId(Integer)
----
-
 
 Gets all localized text belonging to a specific language.
 
+**Parameters:**
+ - **languageId** The LCID number of the language.
 
+**Returns:** Array of LocalizedText objects
 
-* **languageId:** The LCID number of the language.
-* **Returns:** Array of LocalizedText objects
-
+```crmscript
+NSListAgent agent;
+Integer languageId;
+LocalizedTextArray res = agent.GetLocalizedTextsByLanguageId(languageId);
+```
 

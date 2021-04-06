@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_NSAAAMockAgent
 title: NSAAAMockAgent
-path: /EJScript/Classes/NSAAAMockAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSAAAMockAgent
 sortOrder: 8882
+so.topic: reference
 ---
 
 

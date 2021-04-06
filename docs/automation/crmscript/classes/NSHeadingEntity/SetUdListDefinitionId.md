@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSHeadingEntity_SetUdListDefinitionId
+title: SetUdListDefinitionId(Integer udListDefinitionId)
+intellisense: NSHeadingEntity.SetUdListDefinitionId
+keywords: NSHeadingEntity, GetUdListDefinitionId
+so.topic: reference
 ---
-title: Void SetUdListDefinitionId(Integer UdListDefinitionId)
-path: /EJScript/Classes/NSHeadingEntity/Member functions/Void SetUdListDefinitionId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3923
-keywords: SetUdListDefinitionId(Integer)
----
-
 
 The id of the list which this heading belongs to
 
+**Parameter:** 
+ - **udListDefinitionId** Integer
 
-
-* **UdListDefinitionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSHeadingEntity thing;
+Integer udListDefinitionId;
+thing.SetUdListDefinitionId(udListDefinitionId);
+```
 

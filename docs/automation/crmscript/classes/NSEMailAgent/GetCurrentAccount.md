@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_GetCurrentAccount
+title: EMailAccount GetCurrentAccount()
+intellisense: NSEMailAgent.GetCurrentAccount
+keywords: NSEMailAgent, GetCurrentAccount
+so.topic: reference
 ---
-title: NSEMailAccount GetCurrentAccount()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAccount GetCurrentAccount()
-intellisense: 1
-classref: 1
-sortOrder: 2795
-keywords: GetCurrentAccount()
----
-
 
 Get current account (last logged into should normally be current) for logged in associate
 
 
+**Returns:** Id of current account
 
-* **Returns:** Id of current account
-
+```crmscript
+NSEMailAgent agent;
+EMailAccount res = agent.GetCurrentAccount();
+```
 

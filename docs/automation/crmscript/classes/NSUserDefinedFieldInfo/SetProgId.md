@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetProgId
+title: SetProgId(String progId)
+intellisense: NSUserDefinedFieldInfo.SetProgId
+keywords: NSUserDefinedFieldInfo, GetProgId
+so.topic: reference
 ---
-title: Void SetProgId(String ProgId)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetProgId(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetProgId(String)
----
-
 
 Programmatic ID, for use by software that needs to find a particular field. Carried over like udefIdentity across generations. Use a Company.Product.Field format to avoid naming conflicts; the Company name SuperOffice is reserved.
 
+**Parameter:** 
+ - **progId** String
 
-
-* **ProgId:** String
-* **Returns:** String
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+String progId;
+thing.SetProgId(progId);
+```
 

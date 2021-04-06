@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfoExtended_SetUseSSL
+title: SetUseSSL(Bool useSSL)
+intellisense: NSEMailConnectionInfoExtended.SetUseSSL
+keywords: NSEMailConnectionInfoExtended, GetUseSSL
+so.topic: reference
 ---
-title: Void SetUseSSL(Bool UseSSL)
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Void SetUseSSL(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2935
-keywords: SetUseSSL(Bool)
----
-
 
 Use a secure connection with the server
 
+**Parameter:** 
+ - **useSSL** Bool
 
-
-* **UseSSL:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSEMailConnectionInfoExtended thing;
+Bool useSSL;
+thing.SetUseSSL(useSSL);
+```
 

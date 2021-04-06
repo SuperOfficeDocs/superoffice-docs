@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSProductCategory_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSProductCategory/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSProductCategory.GetId
+keywords: NSProductCategory, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the ProductCategory
 
-* **Returns:** Integer
+**Returns:** Integer ProductCategory id.
 
+```crmscript
+NSProductCategory thing;
+Integer id = thing.GetId();
+```
 

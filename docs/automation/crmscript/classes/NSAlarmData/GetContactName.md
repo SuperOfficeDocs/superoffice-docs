@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetContactName
 title: String GetContactName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetContactName()
-intellisense: 1
-classref: 1
-sortOrder: 661
-keywords: GetContactName()
+intellisense: NSAlarmData.GetContactName
+keywords: NSAlarmData, GetContactName
+so.topic: reference
 ---
-
 
 Contact name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAlarmData thing;
+String contactName  = thing.GetContactName();
+```
 
 

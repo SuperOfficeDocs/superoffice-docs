@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLink_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
+intellisense: NSLink.SetExtraInfo
+keywords: NSLink, GetExtraInfo
+so.topic: reference
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSLink/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraInfo(String)
----
-
 
 Extrainfo for link. Use for information that does not have a primary key
 
+**Parameter:** 
+ - **extraInfo** String
 
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+```crmscript
+NSLink thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
 

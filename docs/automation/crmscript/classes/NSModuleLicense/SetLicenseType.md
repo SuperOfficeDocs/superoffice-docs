@@ -1,11 +1,23 @@
+﻿---
+uid: crmscript_ref_NSModuleLicense_SetLicenseType
+title: SetLicenseType(LicenseType licenseType)
+intellisense: NSModuleLicense.SetLicenseType
+keywords: NSModuleLicense, GetLicenseType
+so.topic: reference
 ---
-title: Void SetLicenseType(Integer p0)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetLicenseType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLicenseType(Integer)
----
 
+Entire system, per database, or per associate
 
+**Parameter:** 
+ - **licenseType** LicenseType
+     - Enum: 0 = Unknown 
+     - Enum: 1 = SiteLicense 
+     - Enum: 2 = SatelliteLicense 
+     - Enum: 3 = UserLicense 
 
+```crmscript
+NSModuleLicense thing;
+LicenseType licenseType;
+thing.SetLicenseType(licenseType);
+```
 

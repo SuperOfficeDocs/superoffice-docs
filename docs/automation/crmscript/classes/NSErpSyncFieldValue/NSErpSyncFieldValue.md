@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncFieldValue
 title: NSErpSyncFieldValue
-path: /EJScript/Classes/NSErpSyncFieldValue
-intellisense: 1
-classref: 1
-sortOrder: 3323
+intellisense: Void.NSErpSyncFieldValue
+keywords: NSErpSyncFieldValue
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

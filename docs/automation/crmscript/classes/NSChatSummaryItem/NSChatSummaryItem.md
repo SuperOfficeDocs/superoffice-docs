@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSChatSummaryItem
 title: NSChatSummaryItem
-path: /EJScript/Classes/NSChatSummaryItem
-intellisense: 1
-classref: 1
-sortOrder: 1533
+intellisense: Void.NSChatSummaryItem
+keywords: NSChatSummaryItem
+so.topic: reference
 ---
-
 
 Chat session summary: id, title, created date
 
-
-
-
-1. autolist
+1. autolist 
 

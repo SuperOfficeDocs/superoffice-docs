@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPriceList_GetCurrencyName
 title: String GetCurrencyName()
-path: /EJScript/Classes/NSPriceList/Member functions/String GetCurrencyName()
-intellisense: 1
-classref: 1
-keywords: GetCurrencyName()
+intellisense: NSPriceList.GetCurrencyName
+keywords: NSPriceList, GetCurrencyName
+so.topic: reference
 ---
-
 
 The name to use in the user interface, like perhaps 'US dollar' or '$'
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPriceList thing;
+String currencyName  = thing.GetCurrencyName();
+```
 
 

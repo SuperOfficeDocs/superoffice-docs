@@ -1,11 +1,23 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetDocumentTemplateProperties
+title: StringDictionary GetDocumentTemplateProperties(Integer documentTemplateId, StringArray requestedProperties)
+intellisense: NSListAgent.GetDocumentTemplateProperties
+keywords: NSListAgent, GetDocumentTemplateProperties
+so.topic: reference
 ---
-title: Map GetDocumentTemplateProperties(Integer p0, String[] p1)
-path: /EJScript/Classes/NSListAgent/Member functions/Map GetDocumentTemplateProperties(Integer p_0, String[] p_1)
-intellisense: 1
-classref: 1
-keywords: GetDocumentTemplateProperties(Integer,String[])
----
 
+Get document template properties
 
+**Parameters:**
+ - **documentTemplateId** The primary key id of the document template
+ - **requestedProperties** An array of properties to get the values for
 
+**Returns:** Dictionary of key=value pairs of requested properties
+
+```crmscript
+NSListAgent agent;
+Integer documentTemplateId;
+StringArray requestedProperties;
+StringDictionary res = agent.GetDocumentTemplateProperties(documentTemplateId, requestedProperties);
+```
 

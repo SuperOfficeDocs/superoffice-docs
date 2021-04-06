@@ -1,9 +1,9 @@
 ---
-title: Void setName(String name)
-path: /EJScript/Classes/StatLib/Member functions/Void setName(String name)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatLib_setName_String_name
+title: StatLib.setName(String name)
+intellisense: StatLib.setName
 keywords: setName(String)
+so.topic: reference
 ---
 
 

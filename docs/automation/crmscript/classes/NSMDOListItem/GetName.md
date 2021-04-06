@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem_GetName
 title: String GetName()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSMDOListItem.GetName
+keywords: NSMDOListItem, GetName
+so.topic: reference
 ---
-
 
 The name of the ListItem
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSMDOListItem thing;
+String name  = thing.GetName();
+```
 
 

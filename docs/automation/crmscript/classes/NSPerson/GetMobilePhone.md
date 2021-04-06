@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetMobilePhone
 title: String GetMobilePhone()
-path: /EJScript/Classes/NSPerson/Member functions/String GetMobilePhone()
-intellisense: 1
-classref: 1
-keywords: GetMobilePhone()
+intellisense: NSPerson.GetMobilePhone
+keywords: NSPerson, GetMobilePhone
+so.topic: reference
 ---
-
 
 Returns the mobile phone that belong to the contact person.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPerson thing;
+String mobilePhone  = thing.GetMobilePhone();
+```
 
 

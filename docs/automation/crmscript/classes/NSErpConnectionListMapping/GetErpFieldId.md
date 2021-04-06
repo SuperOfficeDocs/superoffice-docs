@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnectionListMapping_GetErpFieldId
 title: Integer GetErpFieldId()
-path: /EJScript/Classes/NSErpConnectionListMapping/Member functions/Integer GetErpFieldId()
-intellisense: 1
-classref: 1
-sortOrder: 3124
-keywords: GetErpFieldId()
+intellisense: NSErpConnectionListMapping.GetErpFieldId
+keywords: NSErpConnectionListMapping, GetErpFieldId
+so.topic: reference
 ---
-
 
 The id of the field that is using the lists. Readonly
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSErpConnectionListMapping thing;
+Integer erpFieldId  = thing.GetErpFieldId();
+```
 
 

@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSAssociateAgent
 title: NSAssociateAgent
-path: /EJScript/Classes/NSAssociateAgent
-intellisense: 1
-classref: 1
-sortOrder: 1278
+intellisense: Void.NSAssociateAgent
+keywords: NSAssociateAgent
+so.topic: reference
 ---
-
 
 Associate utilities, notes, not user admininstration
 
-
-
+```crmscript
+NSAssociateAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

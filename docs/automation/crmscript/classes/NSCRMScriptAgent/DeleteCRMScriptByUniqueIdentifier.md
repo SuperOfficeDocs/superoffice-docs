@@ -1,18 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptAgent_DeleteCRMScriptByUniqueIdentifier
 title: Void DeleteCRMScriptByUniqueIdentifier(String uniqueIdentifier)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/Void DeleteCRMScriptByUniqueIdentifier(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2123
-keywords: DeleteCRMScriptByUniqueIdentifier(String)
+intellisense: NSCRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
+keywords: NSCRMScriptAgent, DeleteCRMScriptByUniqueIdentifier
+so.topic: reference
 ---
-
 
 Delete the CRMScript
 
+**Parameters:**
+ - **uniqueIdentifier** Global unique reference to script (independent of installation)
 
+**Returns:** This method has no return value
 
-* **uniqueIdentifier:** Global unique reference to script (independent of installation)
-* **Returns:** This method has no return value
-
+```crmscript
+NSCRMScriptAgent agent;
+String uniqueIdentifier;
+Void res = agent.DeleteCRMScriptByUniqueIdentifier(uniqueIdentifier);
+```
 

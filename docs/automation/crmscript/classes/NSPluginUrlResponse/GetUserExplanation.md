@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPluginUrlResponse_GetUserExplanation
 title: String GetUserExplanation()
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/String GetUserExplanation()
-intellisense: 1
-classref: 1
-keywords: GetUserExplanation()
+intellisense: NSPluginUrlResponse.GetUserExplanation
+keywords: NSPluginUrlResponse, GetUserExplanation
+so.topic: reference
 ---
-
 
 A localized explanation to the answer.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPluginUrlResponse thing;
+String userExplanation  = thing.GetUserExplanation();
+```
 
 

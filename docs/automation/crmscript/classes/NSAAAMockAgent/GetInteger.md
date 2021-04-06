@@ -1,10 +1,10 @@
 ---
-title: Integer GetInteger()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Integer GetInteger()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_GetInteger
+title: NSAAAMockAgent.GetInteger()
+intellisense: NSAAAMockAgent.GetInteger
 sortOrder: 8890
 keywords: GetInteger()
+so.topic: reference
 ---
 
 

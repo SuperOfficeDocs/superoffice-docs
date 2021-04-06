@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDocumentAgent_GetPersonDocuments
+title: DocumentArray GetPersonDocuments(Integer personId)
+intellisense: NSDocumentAgent.GetPersonDocuments
+keywords: NSDocumentAgent, GetPersonDocuments
+so.topic: reference
 ---
-title: NSDocument[] GetPersonDocuments(Integer personId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetPersonDocuments(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2480
-keywords: GetPersonDocuments(Integer)
----
-
 
 Get all documents that are linked to the person. I.e. the documents that are listed in the person dialog.
 
+**Parameters:**
+ - **personId** The person id.
 
+**Returns:** Array of documents
 
-* **personId:** The person id.
-* **Returns:** Array of documents
-
+```crmscript
+NSDocumentAgent agent;
+Integer personId;
+DocumentArray res = agent.GetPersonDocuments(personId);
+```
 

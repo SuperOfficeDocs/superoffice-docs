@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetSerialNr
 title: String GetSerialNr()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetSerialNr()
-intellisense: 1
-classref: 1
-keywords: GetSerialNr()
+intellisense: NSLicenseInfo.GetSerialNr
+keywords: NSLicenseInfo, GetSerialNr
+so.topic: reference
 ---
-
 
 Serial number. e.g.: 1010000014.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLicenseInfo thing;
+String serialNr  = thing.GetSerialNr();
+```
 
 

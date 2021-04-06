@@ -1,10 +1,10 @@
 ---
-title: Void setDiscount(Float percent)
-path: /EJScript/Classes/InvoiceEntry/Member functions/Void setDiscount(Float percent)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_InvoiceEntry_setDiscount_Float_percent
+title: InvoiceEntry.setDiscount(Float percent)
+intellisense: InvoiceEntry.setDiscount
 sortOrder: 438
 keywords: setDiscount(Float)
+so.topic: reference
 ---
 
 This method will set the discount of the current InvoiceEntry object with the given

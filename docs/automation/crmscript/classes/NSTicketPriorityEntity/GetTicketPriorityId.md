@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetTicketPriorityId
 title: Integer GetTicketPriorityId()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Integer GetTicketPriorityId()
-intellisense: 1
-classref: 1
-keywords: GetTicketPriorityId()
+intellisense: NSTicketPriorityEntity.GetTicketPriorityId
+keywords: NSTicketPriorityEntity, GetTicketPriorityId
+so.topic: reference
 ---
-
 
 The primary key (auto-incremented)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketPriorityEntity thing;
+Integer ticketPriorityId  = thing.GetTicketPriorityId();
+```
 
 

@@ -1,19 +1,23 @@
+﻿---
+uid: crmscript_ref_NSDatabaseTableAgent_ReadRow
+title: TableRecord ReadRow(String tableName, Integer id)
+intellisense: NSDatabaseTableAgent.ReadRow
+keywords: NSDatabaseTableAgent, ReadRow
+so.topic: reference
 ---
-title: NSTableRecord ReadRow(String tableName, Integer id)
-path: /EJScript/Classes/NSDatabaseTableAgent/Member functions/NSTableRecord ReadRow(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
-sortOrder: 2339
-keywords: ReadRow(String,Integer)
----
-
 
 Read a row from a table
 
+**Parameters:**
+ - **tableName** The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
+ - **id** The id of the row to fetch
 
+**Returns:** The row from the table
 
-* **tableName:** The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y\_aTable
-* **id:** The id of the row to fetch
-* **Returns:** The row from the table
-
+```crmscript
+NSDatabaseTableAgent agent;
+String tableName;
+Integer id;
+TableRecord res = agent.ReadRow(tableName, id);
+```
 

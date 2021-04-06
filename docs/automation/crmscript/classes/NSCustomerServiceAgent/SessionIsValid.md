@@ -1,18 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerServiceAgent_SessionIsValid
 title: Bool SessionIsValid(String csSessionKey)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Bool SessionIsValid(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2224
-keywords: SessionIsValid(String)
+intellisense: NSCustomerServiceAgent.SessionIsValid
+keywords: NSCustomerServiceAgent, SessionIsValid
+so.topic: reference
 ---
-
 
 Check if a CS session is valid
 
+**Parameters:**
+ - **csSessionKey** The CS session key to check
 
+**Returns:** True if there is a valid CS session based on the session key
 
-* **csSessionKey:** The CS session key to check
-* **Returns:** True if there is a valid CS session based on the session key
-
+```crmscript
+NSCustomerServiceAgent agent;
+String csSessionKey;
+Bool res = agent.SessionIsValid(csSessionKey);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSServiceAuth_GetUsername
 title: String GetUsername()
-path: /EJScript/Classes/NSServiceAuth/Member functions/String GetUsername()
-intellisense: 1
-classref: 1
-keywords: GetUsername()
+intellisense: NSServiceAuth.GetUsername
+keywords: NSServiceAuth, GetUsername
+so.topic: reference
 ---
-
 
 The username
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSServiceAuth thing;
+String username  = thing.GetUsername();
+```
 
 

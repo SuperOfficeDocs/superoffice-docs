@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMarketingAgent_CreateDefaultFormSubmissionEntity
 title: NSFormSubmissionEntity CreateDefaultFormSubmissionEntity()
-path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormSubmissionEntity CreateDefaultFormSubmissionEntity()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultFormSubmissionEntity()
+intellisense: NSMarketingAgent.CreateDefaultFormSubmissionEntity
+keywords: NSMarketingAgent, CreateDefaultFormSubmissionEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSFormSubmissionEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSFormSubmissionEntity with default values.
 
-
-Loading default values into a new FormSubmissionEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New FormSubmissionEntity with default values
-
+```crmscript
+NSMarketingAgent agent;
+NSFormSubmissionEntity thing = agent.CreateDefaultFormSubmissionEntity();
+thing = agent.SaveFormSubmissionEntity(thing);
+```
 

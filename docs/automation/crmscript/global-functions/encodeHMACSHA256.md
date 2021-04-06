@@ -1,9 +1,9 @@
 ---
 description: Byte[] encodeHMACSHA256(String key, String value)
-path: /EJScript/Global functions/Byte[] encodeHMACSHA256(String key, String value)
-intellisense: 1
+intellisense: Void.encodeHMACSHA256
 langref: 1
 keywords: encodeHMACSHA256(String,String)
+so.topic: reference
 ---
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBlobEntity_SetBlobId
+title: SetBlobId(Integer blobId)
+intellisense: NSBlobEntity.SetBlobId
+keywords: NSBlobEntity, GetBlobId
+so.topic: reference
 ---
-title: Void SetBlobId(Integer BlobId)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetBlobId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1453
-keywords: SetBlobId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **blobId** Integer
 
-
-* **BlobId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSBlobEntity thing;
+Integer blobId;
+thing.SetBlobId(blobId);
+```
 

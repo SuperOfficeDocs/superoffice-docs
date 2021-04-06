@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_SaveToMailServer
+title: EMailEntity SaveToMailServer(EMailEntity email)
+intellisense: NSEMailAgent.SaveToMailServer
+keywords: NSEMailAgent, SaveToMailServer
+so.topic: reference
 ---
-title: NSEMailEntity SaveToMailServer(NSEMailEntity email)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity SaveToMailServer(NSEMailEntity p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2829
-keywords: SaveToMailServer(NSEMailEntity)
----
-
 
 Save the passed e-mail back to the mail server
 
+**Parameters:**
+ - **email** The e-mail to save
 
+**Returns:** The updated saved entity
 
-* **email:** The e-mail to save
-* **Returns:** The updated saved entity
-
+```crmscript
+NSEMailAgent agent;
+EMailEntity email;
+EMailEntity res = agent.SaveToMailServer(email);
+```
 

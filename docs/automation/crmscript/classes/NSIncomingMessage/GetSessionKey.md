@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSIncomingMessage_GetSessionKey
 title: String GetSessionKey()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetSessionKey()
-intellisense: 1
-classref: 1
-sortOrder: 3990
-keywords: GetSessionKey()
+intellisense: NSIncomingMessage.GetSessionKey
+keywords: NSIncomingMessage, GetSessionKey
+so.topic: reference
 ---
-
 
 Session key used for threading.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSIncomingMessage thing;
+String sessionKey  = thing.GetSessionKey();
+```
 
 

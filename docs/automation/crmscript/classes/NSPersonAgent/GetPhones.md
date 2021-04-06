@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_GetPhones
+title: EntityElementArray GetPhones(Integer personId)
+intellisense: NSPersonAgent.GetPhones
+keywords: NSPersonAgent, GetPhones
+so.topic: reference
 ---
-title: NSEntityElement[] GetPhones(Integer personId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSEntityElement[] GetPhones(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPhones(Integer)
----
-
 
 Returning all phones that belong to a person, ordered by the phone type.
 
+**Parameters:**
+ - **personId** The person id
 
+**Returns:** An array of Phones
 
-* **personId:** The person id
-* **Returns:** An array of Phones
-
+```crmscript
+NSPersonAgent agent;
+Integer personId;
+EntityElementArray res = agent.GetPhones(personId);
+```
 

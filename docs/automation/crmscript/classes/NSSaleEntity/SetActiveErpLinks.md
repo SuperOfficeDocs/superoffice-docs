@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetActiveErpLinks
+title: SetActiveErpLinks(Integer activeErpLinks)
+intellisense: NSSaleEntity.SetActiveErpLinks
+keywords: NSSaleEntity, GetActiveErpLinks
+so.topic: reference
 ---
-title: Void SetActiveErpLinks(Integer ActiveErpLinks)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetActiveErpLinks(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetActiveErpLinks(Integer)
----
-
 
 The number of active erp links
 
+**Parameter:** 
+ - **activeErpLinks** Integer
 
-
-* **ActiveErpLinks:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleEntity thing;
+Integer activeErpLinks;
+thing.SetActiveErpLinks(activeErpLinks);
+```
 

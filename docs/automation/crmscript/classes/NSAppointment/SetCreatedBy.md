@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetCreatedBy
+title: SetCreatedBy(String createdBy)
+intellisense: NSAppointment.SetCreatedBy
+keywords: NSAppointment, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(String CreatedBy)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetCreatedBy(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 784
-keywords: SetCreatedBy(String)
----
-
 
 Who created the appointment. Associate name.
 
+**Parameter:** 
+ - **createdBy** String
 
-
-* **CreatedBy:** String
-* **Returns:** String
-
+```crmscript
+NSAppointment thing;
+String createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

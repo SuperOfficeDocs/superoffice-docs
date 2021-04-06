@@ -1,13 +1,22 @@
----
+﻿---
+uid: crmscript_ref_NSVisibleFor_GetVisibility
 title: Integer GetVisibility()
-path: /EJScript/Classes/NSVisibleFor/Member functions/Integer GetVisibility()
-intellisense: 1
-classref: 1
-keywords: GetVisibility()
+intellisense: NSVisibleFor.GetVisibility
+keywords: NSVisibleFor, GetVisibility
+so.topic: reference
 ---
 
-The visibility of the record - 0=All, 1=Associate, 2=Group
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+     - Enum: 0 = All 
+     - Enum: 1 = Associate 
+     - Enum: 2 = Group 
+
+```crmscript
+NSVisibleFor thing;
+Integer visibility  = thing.GetVisibility();
+```
 
 

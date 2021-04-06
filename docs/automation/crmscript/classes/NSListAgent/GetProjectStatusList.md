@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetProjectStatusList
+title: NSProjectStatus[] GetProjectStatusList(Integer[]  projectStatusIds);
+intellisense: NSListAgent.GetProjectStatusList
+keywords: NSListAgent, GetProjectStatusList
+so.topic: reference
 ---
-title: NSProjectStatus[] GetProjectStatusList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProjectStatus[] GetProjectStatusList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetProjectStatusList(Integer[])
----
 
-Gets an array of ProjectStatus objects.
+Gets a vector of ProjectStatus objects.
 
+**Parameters:**
+ - **projectStatusIds** The identifiers of the NSProjectStatus objects
 
+**Returns:** Vector of NSProjectStatus objects
 
-* **p0:** IntegerArray of identifiers for ProjectStatus
-* **Returns:** Array of NSProjectStatus
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetProjectStatusList(ids);
+```
 

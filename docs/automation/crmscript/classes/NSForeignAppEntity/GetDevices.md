@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignAppEntity_GetDevices
+title: ForeignDeviceArray GetDevices()
+intellisense: NSForeignAppEntity.GetDevices
+keywords: NSForeignAppEntity, GetDevices
+so.topic: reference
 ---
-title: NSForeignDevice[] GetDevices()
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/NSForeignDevice[] GetDevices()
-intellisense: 1
-classref: 1
-sortOrder: 3703
-keywords: GetDevices()
----
-
 
 The devices that belong to this foreign app.
 
+**Returns:** ForeignDeviceArray
 
 
-* **Returns:** ForeignDeviceArray
+```crmscript
+NSForeignAppEntity thing;
+ForeignDeviceArray devices  = thing.GetDevices();
+```
 
 

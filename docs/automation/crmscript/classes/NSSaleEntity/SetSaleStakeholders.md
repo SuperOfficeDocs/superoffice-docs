@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetSaleStakeholders
+title: SetSaleStakeholders(SaleStakeholderArray saleStakeholders)
+intellisense: NSSaleEntity.SetSaleStakeholders
+keywords: NSSaleEntity, GetSaleStakeholders
+so.topic: reference
 ---
-title: Void SetSaleStakeholders(NSSaleStakeholder[] SaleStakeholders)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetSaleStakeholders(NSSaleStakeholder[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleStakeholders(NSSaleStakeholder[])
----
 
 
-* **SaleStakeholders:** SaleStakeholderArray
-* **Returns:** SaleStakeholderArray
 
+**Parameter:** 
+ - **saleStakeholders** SaleStakeholderArray
+
+```crmscript
+NSSaleEntity thing;
+SaleStakeholderArray saleStakeholders;
+thing.SetSaleStakeholders(saleStakeholders);
+```
 

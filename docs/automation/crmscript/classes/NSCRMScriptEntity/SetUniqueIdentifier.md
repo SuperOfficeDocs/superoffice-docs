@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_SetUniqueIdentifier
+title: SetUniqueIdentifier(String uniqueIdentifier)
+intellisense: NSCRMScriptEntity.SetUniqueIdentifier
+keywords: NSCRMScriptEntity, GetUniqueIdentifier
+so.topic: reference
 ---
-title: Void SetUniqueIdentifier(String UniqueIdentifier)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetUniqueIdentifier(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2146
-keywords: SetUniqueIdentifier(String)
----
-
 
 Global unique identifier, accross customers/tenants
 
+**Parameter:** 
+ - **uniqueIdentifier** String
 
-
-* **UniqueIdentifier:** String
-* **Returns:** String
-
+```crmscript
+NSCRMScriptEntity thing;
+String uniqueIdentifier;
+thing.SetUniqueIdentifier(uniqueIdentifier);
+```
 

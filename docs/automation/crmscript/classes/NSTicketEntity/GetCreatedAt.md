@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetCreatedAt
 title: DateTime GetCreatedAt()
-path: /EJScript/Classes/NSTicketEntity/Member functions/DateTime GetCreatedAt()
-intellisense: 1
-classref: 1
-keywords: GetCreatedAt()
+intellisense: NSTicketEntity.GetCreatedAt
+keywords: NSTicketEntity, GetCreatedAt
+so.topic: reference
 ---
-
 
 When the ticket was created.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicketEntity thing;
+DateTime createdAt  = thing.GetCreatedAt();
+```
 
 

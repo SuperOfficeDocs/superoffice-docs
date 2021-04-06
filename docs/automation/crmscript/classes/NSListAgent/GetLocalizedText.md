@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetLocalizedText
+title: NSLocalizedText GetLocalizedText(Integer localizedTextId);
+intellisense: NSListAgent.GetLocalizedText
+keywords: NSListAgent, GetLocalizedText
+so.topic: reference
 ---
-title: NSLocalizedText GetLocalizedText(Integer localizedTextId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLocalizedText GetLocalizedText(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetLocalizedText(Integer)
----
 
+Gets a NSLocalizedText object.
 
-Gets a LocalizedText object.
+**Parameters:**
+ - **localizedTextId** The identifier of the NSLocalizedText object
 
+**Returns:** NSLocalizedText
 
-
-* **localizedTextId:** The identifier of the LocalizedText object
-* **Returns:** LocalizedText
-
+```crmscript
+NSListAgent agent;
+NSLocalizedText thing = agent.GetLocalizedText(123);
+```
 

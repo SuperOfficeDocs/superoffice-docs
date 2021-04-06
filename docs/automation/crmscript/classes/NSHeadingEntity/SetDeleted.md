@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSHeadingEntity_SetDeleted
+title: SetDeleted(Bool deleted)
+intellisense: NSHeadingEntity.SetDeleted
+keywords: NSHeadingEntity, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSHeadingEntity/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3918
-keywords: SetDeleted(Bool)
----
-
 
 True if the heading is marked as deleted
 
+**Parameter:** 
+ - **deleted** Bool
 
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSHeadingEntity thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
 

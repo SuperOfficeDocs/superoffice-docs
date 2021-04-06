@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEvent_GetSignOffTaskEnable
 title: Bool GetSignOffTaskEnable()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Bool GetSignOffTaskEnable()
-intellisense: 1
-classref: 1
-keywords: GetSignOffTaskEnable()
+intellisense: NSProjectEvent.GetSignOffTaskEnable
+keywords: NSProjectEvent, GetSignOffTaskEnable
+so.topic: reference
 ---
-
 
 If true, a task should be created when the external user signs off an event
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSProjectEvent thing;
+Bool signOffTaskEnable  = thing.GetSignOffTaskEnable();
+```
 
 

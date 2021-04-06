@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCredentialUser_SetDisplayValue
+title: SetDisplayValue(String displayValue)
+intellisense: NSCredentialUser.SetDisplayValue
+keywords: NSCredentialUser, GetDisplayValue
+so.topic: reference
 ---
-title: Void SetDisplayValue(String DisplayValue)
-path: /EJScript/Classes/NSCredentialUser/Member functions/Void SetDisplayValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2092
-keywords: SetDisplayValue(String)
----
-
 
 Display value of the user.  This value needs to be applied to the Credential.DisplayValue field.
 
+**Parameter:** 
+ - **displayValue** String
 
-
-* **DisplayValue:** String
-* **Returns:** String
-
+```crmscript
+NSCredentialUser thing;
+String displayValue;
+thing.SetDisplayValue(displayValue);
+```
 

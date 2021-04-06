@@ -1,9 +1,9 @@
 ---
-title: Integer caseCompare(String p0)
-path: /EJScript/Classes/String/Member functions/Integer caseCompare(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_caseCompare_String_p_0
+title: String.caseCompare(String p_0)
+intellisense: String.caseCompare
 keywords: caseCompare(String)
+so.topic: reference
 ---
 
 Compare this string with another String, disregarding case.

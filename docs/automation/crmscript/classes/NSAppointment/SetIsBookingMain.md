@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetIsBookingMain
+title: SetIsBookingMain(Bool isBookingMain)
+intellisense: NSAppointment.SetIsBookingMain
+keywords: NSAppointment, GetIsBookingMain
+so.topic: reference
 ---
-title: Void SetIsBookingMain(Bool IsBookingMain)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetIsBookingMain(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 796
-keywords: SetIsBookingMain(Bool)
----
-
 
 True if this appointment is a booking and current associate is the owner. False if it is a booking and current associate is a participant.
 
+**Parameter:** 
+ - **isBookingMain** Bool
 
-
-* **IsBookingMain:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSAppointment thing;
+Bool isBookingMain;
+thing.SetIsBookingMain(isBookingMain);
+```
 

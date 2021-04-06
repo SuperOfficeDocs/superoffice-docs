@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_SaveSuggestedAppointmentEntity
+title: NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity suggestedAppointmentEntity);
+intellisense: NSAppointmentAgent.SaveSuggestedAppointmentEntity
+keywords: NSAppointmentAgent, SaveSuggestedAppointmentEntity
+so.topic: reference
 ---
-title: NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity suggestedAppointmentEntity)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity p_0)
-intellisense: 1
-classref: 1
-sortOrder: 901
-keywords: SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)
----
+	  
+Updates the existing NSSuggestedAppointmentEntity or creates a new NSSuggestedAppointmentEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **suggestedAppointmentEntity** The NSSuggestedAppointmentEntity to save.
 
+**Returns:** New or updated NSSuggestedAppointmentEntity
 
-Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is empty
-
-
-
-* **suggestedAppointmentEntity:** The SuggestedAppointmentEntity that is saved
-* **Returns:** New or updated SuggestedAppointmentEntity
-
+```crmscript
+NSAppointment  agent;
+NSSuggestedAppointmentEntity thing = agent.CreateDefaultSuggestedAppointmentEntity();
+thing = agent.SaveSuggestedAppointmentEntity(thing);
+```
 

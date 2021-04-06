@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignDevice_SetUpdatedBy
+title: SetUpdatedBy(String updatedBy)
+intellisense: NSForeignDevice.SetUpdatedBy
+keywords: NSForeignDevice, GetUpdatedBy
+so.topic: reference
 ---
-title: Void SetUpdatedBy(String UpdatedBy)
-path: /EJScript/Classes/NSForeignDevice/Member functions/Void SetUpdatedBy(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3730
-keywords: SetUpdatedBy(String)
----
-
 
 The person that last updated this device.
 
+**Parameter:** 
+ - **updatedBy** String
 
-
-* **UpdatedBy:** String
-* **Returns:** String
-
+```crmscript
+NSForeignDevice thing;
+String updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
 

@@ -1,18 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConfigurationAgent_CreateDefaultDiaryViewEntity
 title: NSDiaryViewEntity CreateDefaultDiaryViewEntity()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSDiaryViewEntity CreateDefaultDiaryViewEntity()
-intellisense: 1
-classref: 1
-sortOrder: 1590
-keywords: CreateDefaultDiaryViewEntity()
+intellisense: NSConfigurationAgent.CreateDefaultDiaryViewEntity
+keywords: NSConfigurationAgent, CreateDefaultDiaryViewEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSDiaryViewEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSDiaryViewEntity with default values.
 
-
-Loading default values into a new DiaryViewEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New DiaryViewEntity with default values
-
+```crmscript
+NSConfigurationAgent agent;
+NSDiaryViewEntity thing = agent.CreateDefaultDiaryViewEntity();
+thing = agent.SaveDiaryViewEntity(thing);
+```
 

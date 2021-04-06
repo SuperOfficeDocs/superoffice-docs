@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetAutoeventId
 title: Integer GetAutoeventId()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetAutoeventId()
-intellisense: 1
-classref: 1
-sortOrder: 2655
-keywords: GetAutoeventId()
+intellisense: NSDocumentTemplateEntity.GetAutoeventId
+keywords: NSDocumentTemplateEntity, GetAutoeventId
+so.topic: reference
 ---
-
 
 Which document plugin is responsible for the documents generated from this template
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer autoeventId  = thing.GetAutoeventId();
+```
 
 

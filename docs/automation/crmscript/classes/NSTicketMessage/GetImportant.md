@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketMessage_GetImportant
 title: Bool GetImportant()
-path: /EJScript/Classes/NSTicketMessage/Member functions/Bool GetImportant()
-intellisense: 1
-classref: 1
-keywords: GetImportant()
+intellisense: NSTicketMessage.GetImportant
+keywords: NSTicketMessage, GetImportant
+so.topic: reference
 ---
-
 
 If this message is important or not.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSTicketMessage thing;
+Bool important  = thing.GetImportant();
+```
 
 

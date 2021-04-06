@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProject_SetStatus
+title: SetStatus(String status)
+intellisense: NSProject.SetStatus
+keywords: NSProject, GetStatus
+so.topic: reference
 ---
-title: Void SetStatus(String Status)
-path: /EJScript/Classes/NSProject/Member functions/Void SetStatus(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetStatus(String)
----
-
 
 The projects status
 
+**Parameter:** 
+ - **status** String
 
-
-* **Status:** String
-* **Returns:** String
-
+```crmscript
+NSProject thing;
+String status;
+thing.SetStatus(status);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetRelationId
 title: Integer GetRelationId()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Integer GetRelationId()
-intellisense: 1
-classref: 1
-sortOrder: 1949
-keywords: GetRelationId()
+intellisense: NSContactRelationEntity.GetRelationId
+keywords: NSContactRelationEntity, GetRelationId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSContactRelationEntity thing;
+Integer relationId  = thing.GetRelationId();
+```
 
 

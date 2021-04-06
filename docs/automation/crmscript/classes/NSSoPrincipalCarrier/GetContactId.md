@@ -1,9 +1,9 @@
 ---
-title: Integer GetContactId()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetContactId
+title: NSSoPrincipalCarrier.GetContactId()
+intellisense: NSSoPrincipalCarrier.GetContactId
 keywords: GetContactId()
+so.topic: reference
 ---
 
 

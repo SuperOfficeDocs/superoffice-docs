@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetListEntityByName
+title: ListEntity GetListEntityByName(String name)
+intellisense: NSListAgent.GetListEntityByName
+keywords: NSListAgent, GetListEntityByName
+so.topic: reference
 ---
-title: NSListEntity GetListEntityByName(String name)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity GetListEntityByName(String p_0)
-intellisense: 1
-classref: 1
-keywords: GetListEntityByName(String)
----
-
 
 Gets a ListEntity resolved by the provided name.
 
+**Parameters:**
+ - **name** The name of the list to look up.
 
+**Returns:** A ListEntity or null.
 
-* **name:** The name of the list to look up.
-* **Returns:** A ListEntity or null.
-
+```crmscript
+NSListAgent agent;
+String name;
+ListEntity res = agent.GetListEntityByName(name);
+```
 

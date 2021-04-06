@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSTask_SetValue
+title: SetValue(String value)
+intellisense: NSTask.SetValue
+keywords: NSTask, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSTask/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the Task item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String Task name.
 
+```crmscript
+NSTask thing;
+thing.SetValue("frotz");
+```
 

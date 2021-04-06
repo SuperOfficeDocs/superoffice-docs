@@ -1,9 +1,9 @@
 ---
 description: String getProgramAdmin()
-path: /EJScript/Global functions/String getProgramAdmin()
-intellisense: 1
+intellisense: Void.getProgramAdmin
 langref: 1
 keywords: getProgramAdmin()
+so.topic: reference
 ---
 
 Returns the url of the program module specified after getProgram.

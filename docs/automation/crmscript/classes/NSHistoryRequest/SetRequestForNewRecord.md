@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSHistoryRequest_SetRequestForNewRecord
+title: SetRequestForNewRecord(Bool requestForNewRecord)
+intellisense: NSHistoryRequest.SetRequestForNewRecord
+keywords: NSHistoryRequest, GetRequestForNewRecord
+so.topic: reference
 ---
-title: Void SetRequestForNewRecord(Bool RequestForNewRecord)
-path: /EJScript/Classes/NSHistoryRequest/Member functions/Void SetRequestForNewRecord(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3947
-keywords: SetRequestForNewRecord(Bool)
----
-
 
 Are we requesting insert rights? If true, then EntityorParentId is taken to mean parent id
 
+**Parameter:** 
+ - **requestForNewRecord** Bool
 
-
-* **RequestForNewRecord:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSHistoryRequest thing;
+Bool requestForNewRecord;
+thing.SetRequestForNewRecord(requestForNewRecord);
+```
 

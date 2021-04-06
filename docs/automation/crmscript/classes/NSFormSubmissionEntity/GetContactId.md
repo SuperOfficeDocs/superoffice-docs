@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_GetContactId
 title: Integer GetContactId()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
-sortOrder: 3831
-keywords: GetContactId()
+intellisense: NSFormSubmissionEntity.GetContactId
+keywords: NSFormSubmissionEntity, GetContactId
+so.topic: reference
 ---
-
 
 The optional id of the contact of the person who submitted.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFormSubmissionEntity thing;
+Integer contactId  = thing.GetContactId();
+```
 
 

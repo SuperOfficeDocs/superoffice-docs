@@ -1,17 +1,22 @@
+﻿---
+uid: crmscript_ref_NSAppointment_GetPrivate
+title: AppointmentPrivate GetPrivate()
+intellisense: NSAppointment.GetPrivate
+keywords: NSAppointment, GetPrivate
+so.topic: reference
 ---
-title: Integer GetPrivate()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetPrivate()
-intellisense: 1
-classref: 1
-sortOrder: 741
-keywords: GetPrivate()
----
-
 
 Obsolete, but still maintained field for appointment privacy; denormalization of visiblefor status
-* Public=0
-* PrivateUser=1
-* PrivateGroup=2
 
-* **Private:** Integer
-* **Returns:** Integer
+**Returns:** AppointmentPrivate
+
+     - Enum: 0 = Public 
+     - Enum: 1 = PrivateUser 
+     - Enum: 2 = PrivateGroup 
+
+```crmscript
+NSAppointment thing;
+AppointmentPrivate private  = thing.GetPrivate();
+```
+
+

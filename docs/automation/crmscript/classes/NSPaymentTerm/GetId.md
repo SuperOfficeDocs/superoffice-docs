@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSPaymentTerm_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSPaymentTerm/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSPaymentTerm.GetId
+keywords: NSPaymentTerm, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the PaymentTerm
 
-* **Returns:** Integer
+**Returns:** Integer PaymentTerm id.
 
+```crmscript
+NSPaymentTerm thing;
+Integer id = thing.GetId();
+```
 

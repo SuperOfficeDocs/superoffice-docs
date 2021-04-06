@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPluginUrlResponse_SetUrl
+title: SetUrl(String url)
+intellisense: NSPluginUrlResponse.SetUrl
+keywords: NSPluginUrlResponse, GetUrl
+so.topic: reference
 ---
-title: Void SetUrl(String Url)
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/Void SetUrl(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUrl(String)
----
-
 
 Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce any rules subsequent to opening the requested url.
 
+**Parameter:** 
+ - **url** String
 
-
-* **Url:** String
-* **Returns:** String
-
+```crmscript
+NSPluginUrlResponse thing;
+String url;
+thing.SetUrl(url);
+```
 

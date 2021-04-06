@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetNewTicket
 title: Bool GetNewTicket()
-path: /EJScript/Classes/NSFormEntity/Member functions/Bool GetNewTicket()
-intellisense: 1
-classref: 1
-sortOrder: 3785
-keywords: GetNewTicket()
+intellisense: NSFormEntity.GetNewTicket
+keywords: NSFormEntity, GetNewTicket
+so.topic: reference
 ---
-
 
 Indicates if this form creates a ticket or not
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFormEntity thing;
+Bool newTicket  = thing.GetNewTicket();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetAdminWarningDate
+title: SetAdminWarningDate(DateTime adminWarningDate)
+intellisense: NSLicenseInfo.SetAdminWarningDate
+keywords: NSLicenseInfo, GetAdminWarningDate
+so.topic: reference
 ---
-title: Void SetAdminWarningDate(DateTime AdminWarningDate)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetAdminWarningDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetAdminWarningDate(DateTime)
----
-
 
 When should nagging begin (for instance, during login to SoAdmin)
 
+**Parameter:** 
+ - **adminWarningDate** DateTime
 
-
-* **AdminWarningDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSLicenseInfo thing;
+DateTime adminWarningDate;
+thing.SetAdminWarningDate(adminWarningDate);
+```
 

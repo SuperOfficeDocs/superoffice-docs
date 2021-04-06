@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_GetHtmlBody
 title: String GetHtmlBody()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/String GetHtmlBody()
-intellisense: 1
-classref: 1
-keywords: GetHtmlBody()
+intellisense: NSTicketMessageEntity.GetHtmlBody
+keywords: NSTicketMessageEntity, GetHtmlBody
+so.topic: reference
 ---
-
 
 The html body for the message (if any).
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketMessageEntity thing;
+String htmlBody  = thing.GetHtmlBody();
+```
 
 

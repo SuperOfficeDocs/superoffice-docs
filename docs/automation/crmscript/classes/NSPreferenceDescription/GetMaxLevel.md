@@ -1,15 +1,26 @@
----
-title: Integer GetMaxLevel()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetMaxLevel()
-intellisense: 1
-classref: 1
-keywords: GetMaxLevel()
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_GetMaxLevel
+title: PreferenceLevel GetMaxLevel()
+intellisense: NSPreferenceDescription.GetMaxLevel
+keywords: NSPreferenceDescription, GetMaxLevel
+so.topic: reference
 ---
 
 Lowest allowed setting level, set by user, but not lower than sysMaxLevel
 
+**Returns:** PreferenceLevel
 
+     - Enum: 0 = Undefined 
+     - Enum: 1 = HardDefault 
+     - Enum: 2 = SystemWide 
+     - Enum: 3 = Database 
+     - Enum: 4 = Group 
+     - Enum: 5 = Individual 
+     - Enum: 6 = PC 
 
-* **Returns:** Integer
+```crmscript
+NSPreferenceDescription thing;
+PreferenceLevel maxLevel  = thing.GetMaxLevel();
+```
 
 

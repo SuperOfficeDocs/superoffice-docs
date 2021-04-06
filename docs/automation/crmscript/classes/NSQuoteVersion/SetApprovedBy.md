@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetApprovedBy
+title: SetApprovedBy(Integer approvedBy)
+intellisense: NSQuoteVersion.SetApprovedBy
+keywords: NSQuoteVersion, GetApprovedBy
+so.topic: reference
 ---
-title: Void SetApprovedBy(Integer ApprovedBy)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetApprovedBy(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetApprovedBy(Integer)
----
-
 
 Id of associate who approved (or rejected approval) for this version
 
+**Parameter:** 
+ - **approvedBy** Integer
 
-
-* **ApprovedBy:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteVersion thing;
+Integer approvedBy;
+thing.SetApprovedBy(approvedBy);
+```
 

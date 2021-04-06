@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetForeignAddressLayoutId
 title: Integer GetForeignAddressLayoutId()
-path: /EJScript/Classes/NSCountry/Member functions/Integer GetForeignAddressLayoutId()
-intellisense: 1
-classref: 1
-sortOrder: 2017
-keywords: GetForeignAddressLayoutId()
+intellisense: NSCountry.GetForeignAddressLayoutId
+keywords: NSCountry, GetForeignAddressLayoutId
+so.topic: reference
 ---
-
 
 Foreign address layout of the country
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCountry thing;
+Integer foreignAddressLayoutId  = thing.GetForeignAddressLayoutId();
+```
 
 

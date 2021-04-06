@@ -1,12 +1,19 @@
----
-title: String[] GetGrantedLicenses()
-path: /EJScript/Classes/NSUserInfo/Member functions/String[] GetGrantedLicenses()
-intellisense: 1
-classref: 1
-keywords: GetGrantedLicenses()
+﻿---
+uid: crmscript_ref_NSUserInfo_GetGrantedLicenses
+title: StringArray GetGrantedLicenses()
+intellisense: NSUserInfo.GetGrantedLicenses
+keywords: NSUserInfo, GetGrantedLicenses
+so.topic: reference
 ---
 
 
-* **Returns:** StringArray
+
+**Returns:** StringArray
+
+
+```crmscript
+NSUserInfo thing;
+StringArray grantedLicenses  = thing.GetGrantedLicenses();
+```
 
 

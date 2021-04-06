@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSmtpTestResult_SetErrorMessage
+title: SetErrorMessage(String errorMessage)
+intellisense: NSSmtpTestResult.SetErrorMessage
+keywords: NSSmtpTestResult, GetErrorMessage
+so.topic: reference
 ---
-title: Void SetErrorMessage(String ErrorMessage)
-path: /EJScript/Classes/NSSmtpTestResult/Member functions/Void SetErrorMessage(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetErrorMessage(String)
----
-
 
 If an error occured, this member will contain a description of the error
 
+**Parameter:** 
+ - **errorMessage** String
 
-
-* **ErrorMessage:** String
-* **Returns:** String
-
+```crmscript
+NSSmtpTestResult thing;
+String errorMessage;
+thing.SetErrorMessage(errorMessage);
+```
 

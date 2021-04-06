@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetKanafname
 title: String GetKanafname()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetKanafname()
-intellisense: 1
-classref: 1
-keywords: GetKanafname()
+intellisense: NSPersonEntity.GetKanafname
+keywords: NSPersonEntity, GetKanafname
+so.topic: reference
 ---
-
 
 Kana first name, used in Japanese versions only
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPersonEntity thing;
+String kanafname  = thing.GetKanafname();
+```
 
 

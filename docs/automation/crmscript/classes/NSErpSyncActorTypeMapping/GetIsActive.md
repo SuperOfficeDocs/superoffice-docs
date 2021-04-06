@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncActorTypeMapping_GetIsActive
 title: Bool GetIsActive()
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/Bool GetIsActive()
-intellisense: 1
-classref: 1
-sortOrder: 3162
-keywords: GetIsActive()
+intellisense: NSErpSyncActorTypeMapping.GetIsActive
+keywords: NSErpSyncActorTypeMapping, GetIsActive
+so.topic: reference
 ---
-
 
 Is this sync mapping active
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSErpSyncActorTypeMapping thing;
+Bool isActive  = thing.GetIsActive();
+```
 
 

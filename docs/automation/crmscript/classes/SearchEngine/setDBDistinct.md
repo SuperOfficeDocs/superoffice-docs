@@ -1,9 +1,9 @@
 ---
-title: Void setDBDistinct(Bool p0)
-path: /EJScript/Classes/SearchEngine/member functions/Void setDBDistinct(Bool p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_setDBDistinct_Bool_p_0
+title: SearchEngine.setDBDistinct(Bool p_0)
+intellisense: SearchEngine.setDBDistinct
 keywords: setDBDistinct(Bool)
+so.topic: reference
 ---
 
 

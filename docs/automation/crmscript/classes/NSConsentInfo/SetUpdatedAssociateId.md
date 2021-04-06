@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentInfo_SetUpdatedAssociateId
+title: SetUpdatedAssociateId(Integer updatedAssociateId)
+intellisense: NSConsentInfo.SetUpdatedAssociateId
+keywords: NSConsentInfo, GetUpdatedAssociateId
+so.topic: reference
 ---
-title: Void SetUpdatedAssociateId(Integer UpdatedAssociateId)
-path: /EJScript/Classes/NSConsentInfo/Member functions/Void SetUpdatedAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1657
-keywords: SetUpdatedAssociateId(Integer)
----
-
 
 The ID of the associate who last updated this record
 
+**Parameter:** 
+ - **updatedAssociateId** Integer
 
-
-* **UpdatedAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSConsentInfo thing;
+Integer updatedAssociateId;
+thing.SetUpdatedAssociateId(updatedAssociateId);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetEjAccessLevel()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetEjAccessLevel()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetEjAccessLevel
+title: NSSoPrincipalCarrier.GetEjAccessLevel()
+intellisense: NSSoPrincipalCarrier.GetEjAccessLevel
 keywords: GetEjAccessLevel()
+so.topic: reference
 ---
 
 

@@ -1,18 +1,31 @@
+﻿---
+uid: crmscript_ref_NSImportLine_SetOperation
+title: SetOperation(Integer operation)
+intellisense: NSImportLine.SetOperation
+keywords: NSImportLine, GetOperation
+so.topic: reference
 ---
-title: Void SetOperation(Integer Operation)
-path: /EJScript/Classes/NSImportLine/Member functions/Void SetOperation(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3980
-keywords: SetOperation(Integer)
----
-
 
 Which operation will be used? This is a read-only property
 
+**Parameter:** 
+ - **operation** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = PersonAdded 
+     - Enum: 2 = PersonUpdated 
+     - Enum: 4 = PersonNoChange 
+     - Enum: 8 = ContactAdded 
+     - Enum: 16 = ContactUpdated 
+     - Enum: 32 = ContactNoChange 
+     - Enum: 64 = ProductAdded 
+     - Enum: 128 = ProductUpdated 
+     - Enum: 256 = ProductNoChange 
+     - Enum: 512 = Obs 
+     - Enum: 1024 = ObsERPDuplicate 
 
-
-* **Operation:** Integer
-* **Returns:** Void
-
+```crmscript
+NSImportLine thing;
+Integer operation;
+thing.SetOperation(operation);
+```
 

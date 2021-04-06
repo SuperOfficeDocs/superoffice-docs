@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocument_SetProjectName
+title: SetProjectName(String projectName)
+intellisense: NSDocument.SetProjectName
+keywords: NSDocument, GetProjectName
+so.topic: reference
 ---
-title: Void SetProjectName(String ProjectName)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetProjectName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2461
-keywords: SetProjectName(String)
----
-
 
 Project name
 
+**Parameter:** 
+ - **projectName** String
 
-
-* **ProjectName:** String
-* **Returns:** String
-
+```crmscript
+NSDocument thing;
+String projectName;
+thing.SetProjectName(projectName);
+```
 

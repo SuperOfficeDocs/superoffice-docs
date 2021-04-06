@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeTask_SetDuration
+title: SetDuration(Integer duration)
+intellisense: NSMailMergeTask.SetDuration
+keywords: NSMailMergeTask, GetDuration
+so.topic: reference
 ---
-title: Void SetDuration(Integer Duration)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetDuration(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDuration(Integer)
----
-
 
 Duration of task
 
+**Parameter:** 
+ - **duration** Integer
 
-
-* **Duration:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMailMergeTask thing;
+Integer duration;
+thing.SetDuration(duration);
+```
 

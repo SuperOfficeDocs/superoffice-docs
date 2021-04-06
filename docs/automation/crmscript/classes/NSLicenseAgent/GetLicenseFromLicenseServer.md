@@ -1,15 +1,12 @@
+﻿---
+uid: crmscript_ref_NSLicenseAgent_GetLicenseFromLicenseServer
+title: ExtendedLicenseInfo GetLicenseFromLicenseServer(String ownerName)
+intellisense: NSLicenseAgent.GetLicenseFromLicenseServer
+keywords: NSLicenseAgent, GetLicenseFromLicenseServer
+so.topic: reference
 ---
-title: NSExtendedLicenseInfo GetLicenseFromLicenseServer(String p0)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSExtendedLicenseInfo GetLicenseFromLicenseServer(String p_0)
-intellisense: 1
-classref: 1
-keywords: GetLicenseFromLicenseServer(String)
----
 
 
 
-
-* **ownerName
-**
-
-
+**Parameters:**
+ - **ownerName** 

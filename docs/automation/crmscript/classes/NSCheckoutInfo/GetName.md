@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCheckoutInfo_GetName
 title: String GetName()
-path: /EJScript/Classes/NSCheckoutInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 1562
-keywords: GetName()
+intellisense: NSCheckoutInfo.GetName
+keywords: NSCheckoutInfo, GetName
+so.topic: reference
 ---
-
 
 Name of person who has currently checked out the document; blank if it is not checked out. This property may also be blank if the AssociateId is nonzero; NetServer will retrieve the associates' name as needed.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCheckoutInfo thing;
+String name  = thing.GetName();
+```
 
 

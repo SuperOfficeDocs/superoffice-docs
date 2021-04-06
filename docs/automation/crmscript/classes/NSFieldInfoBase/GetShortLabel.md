@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_GetShortLabel
 title: String GetShortLabel()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/String GetShortLabel()
-intellisense: 1
-classref: 1
-sortOrder: 3472
-keywords: GetShortLabel()
+intellisense: NSFieldInfoBase.GetShortLabel
+keywords: NSFieldInfoBase, GetShortLabel
+so.topic: reference
 ---
-
 
 Short name to be used in Archive headings and on page 1. If blank, the fieldLabel will be used everywhere.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldInfoBase thing;
+String shortLabel  = thing.GetShortLabel();
+```
 
 

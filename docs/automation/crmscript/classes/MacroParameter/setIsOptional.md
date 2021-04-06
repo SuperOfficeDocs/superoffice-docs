@@ -1,10 +1,10 @@
 ---
-title: Void setIsOptional(Bool p0)
-path: /EJScript/Classes/MacroParameter/Member functions/Void setIsOptional(Bool p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MacroParameter_setIsOptional_Bool_p_0
+title: MacroParameter.setIsOptional(Bool p_0)
+intellisense: MacroParameter.setIsOptional
 sortOrder: 490
 keywords: setIsOptional(Bool)
+so.topic: reference
 ---
 
 

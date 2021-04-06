@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCredentialType_GetIsUserNameSupported
 title: Bool GetIsUserNameSupported()
-path: /EJScript/Classes/NSCredentialType/Member functions/Bool GetIsUserNameSupported()
-intellisense: 1
-classref: 1
-sortOrder: 2071
-keywords: GetIsUserNameSupported()
+intellisense: NSCredentialType.GetIsUserNameSupported
+keywords: NSCredentialType, GetIsUserNameSupported
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSCredentialType thing;
+Bool isUserNameSupported  = thing.GetIsUserNameSupported();
+```
 
 

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_SavePriceList
+title: NSPriceList SavePriceList(NSPriceList priceList);
+intellisense: NSQuoteAgent.SavePriceList
+keywords: NSQuoteAgent, SavePriceList
+so.topic: reference
 ---
-title: NSPriceList SavePriceList(NSPriceList priceList)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList SavePriceList(NSPriceList p_0)
-intellisense: 1
-classref: 1
-keywords: SavePriceList(NSPriceList)
----
+	  
+Updates the existing NSPriceList or creates a new NSPriceList if the id parameter is 0
+	  
+**Parameters**:
+ - **priceList** The NSPriceList to save.
 
+**Returns:** New or updated NSPriceList
 
-Updates the existing PriceList or creates a new PriceList if the id parameter is empty
-
-
-
-* **priceList:** The PriceList that is saved
-* **Returns:** New or updated PriceList
-
+```crmscript
+NSQuote  agent;
+NSPriceList thing = agent.CreateDefaultPriceList();
+thing = agent.SavePriceList(thing);
+```
 

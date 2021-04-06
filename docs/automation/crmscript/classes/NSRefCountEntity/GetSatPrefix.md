@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRefCountEntity_GetSatPrefix
 title: Integer GetSatPrefix()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Integer GetSatPrefix()
-intellisense: 1
-classref: 1
-keywords: GetSatPrefix()
+intellisense: NSRefCountEntity.GetSatPrefix
+keywords: NSRefCountEntity, GetSatPrefix
+so.topic: reference
 ---
-
 
 size of prefix for Satellite use of this counter
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSRefCountEntity thing;
+Integer satPrefix  = thing.GetSatPrefix();
+```
 
 

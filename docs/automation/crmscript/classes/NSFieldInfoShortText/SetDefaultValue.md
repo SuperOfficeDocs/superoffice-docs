@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoShortText_SetDefaultValue
+title: SetDefaultValue(String defaultValue)
+intellisense: NSFieldInfoShortText.SetDefaultValue
+keywords: NSFieldInfoShortText, GetDefaultValue
+so.topic: reference
 ---
-title: Void SetDefaultValue(String DefaultValue)
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/Void SetDefaultValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3553
-keywords: SetDefaultValue(String)
----
-
 
 Default string value
 
+**Parameter:** 
+ - **defaultValue** String
 
-
-* **DefaultValue:** String
-* **Returns:** String
-
+```crmscript
+NSFieldInfoShortText thing;
+String defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
 

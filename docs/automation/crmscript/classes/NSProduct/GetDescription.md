@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSProduct/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSProduct.GetDescription
+keywords: NSProduct, GetDescription
+so.topic: reference
 ---
-
 
 The description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProduct thing;
+String description  = thing.GetDescription();
+```
 
 

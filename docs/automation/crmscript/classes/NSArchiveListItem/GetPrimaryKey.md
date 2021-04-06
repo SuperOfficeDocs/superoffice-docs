@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveListItem_GetPrimaryKey
 title: Integer GetPrimaryKey()
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Integer GetPrimaryKey()
-intellisense: 1
-classref: 1
-sortOrder: 1176
-keywords: GetPrimaryKey()
+intellisense: NSArchiveListItem.GetPrimaryKey
+keywords: NSArchiveListItem, GetPrimaryKey
+so.topic: reference
 ---
-
 
 The  primary key for the row
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSArchiveListItem thing;
+Integer primaryKey  = thing.GetPrimaryKey();
+```
 
 

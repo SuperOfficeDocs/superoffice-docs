@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetProjectId
 title: Integer GetProjectId()
-path: /EJScript/Classes/NSSale/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
-keywords: GetProjectId()
+intellisense: NSSale.GetProjectId
+keywords: NSSale, GetProjectId
+so.topic: reference
 ---
-
 
 Optional project reference
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSale thing;
+Integer projectId  = thing.GetProjectId();
+```
 
 

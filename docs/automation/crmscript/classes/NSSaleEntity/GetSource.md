@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetSource
+title: Source GetSource()
+intellisense: NSSaleEntity.GetSource
+keywords: NSSaleEntity, GetSource
+so.topic: reference
 ---
-title: NSSource GetSource()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSSource GetSource()
-intellisense: 1
-classref: 1
-keywords: GetSource()
----
-
 
 The sale source
 
+**Returns:** Source
 
 
-* **Returns:** Source
+```crmscript
+NSSaleEntity thing;
+Source source  = thing.GetSource();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetProjectEventId
 title: Integer GetProjectEventId()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Integer GetProjectEventId()
-intellisense: 1
-classref: 1
-keywords: GetProjectEventId()
+intellisense: NSProjectEventEntity.GetProjectEventId
+keywords: NSProjectEventEntity, GetProjectEventId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectEventEntity thing;
+Integer projectEventId  = thing.GetProjectEventId();
+```
 
 

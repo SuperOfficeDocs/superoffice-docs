@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSMrMrs_SetValue
+title: SetValue(String value)
+intellisense: NSMrMrs.SetValue
+keywords: NSMrMrs, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSMrMrs/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the MrMrs item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String MrMrs name.
 
+```crmscript
+NSMrMrs thing;
+thing.SetValue("frotz");
+```
 

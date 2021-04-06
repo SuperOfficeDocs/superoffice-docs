@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_GetMyOpportunities
+title: SaleArray GetMyOpportunities(Integer count)
+intellisense: NSSaleAgent.GetMyOpportunities
+keywords: NSSaleAgent, GetMyOpportunities
+so.topic: reference
 ---
-title: NSSale[] GetMyOpportunities(Integer count)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetMyOpportunities(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetMyOpportunities(Integer)
----
-
 
 Returning the opportunities (open sales) belonging to the user currently logged on
 
+**Parameters:**
+ - **count** The number of sales that is returned. -1 returns all.
 
+**Returns:** Array of open sales (opportunities).
 
-* **count:** The number of sales that is returned. -1 returns all.
-* **Returns:** Array of open sales (opportunities).
-
+```crmscript
+NSSaleAgent agent;
+Integer count;
+SaleArray res = agent.GetMyOpportunities(count);
+```
 

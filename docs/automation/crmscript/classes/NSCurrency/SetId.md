@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSCurrency_SetId
+title: SetId(Integer id)
+intellisense: NSCurrency.SetId
+keywords: NSCurrency, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSCurrency/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2174
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the Currency
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer Currency id.
 
+```crmscript
+NSCurrency thing;
+thing.SetId(123);
+```
 

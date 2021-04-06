@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_SetCanOrderBy
+title: SetCanOrderBy(Bool canOrderBy)
+intellisense: NSArchiveColumnInfo.SetCanOrderBy
+keywords: NSArchiveColumnInfo, GetCanOrderBy
+so.topic: reference
 ---
-title: Void SetCanOrderBy(Bool CanOrderBy)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetCanOrderBy(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1150
-keywords: SetCanOrderBy(Bool)
----
-
 
 Can this column be used for sorting?
 
+**Parameter:** 
+ - **canOrderBy** Bool
 
-
-* **CanOrderBy:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSArchiveColumnInfo thing;
+Bool canOrderBy;
+thing.SetCanOrderBy(canOrderBy);
+```
 

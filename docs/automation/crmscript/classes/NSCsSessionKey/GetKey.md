@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCsSessionKey_GetKey
 title: String GetKey()
-path: /EJScript/Classes/NSCsSessionKey/Member functions/String GetKey()
-intellisense: 1
-classref: 1
-sortOrder: 2165
-keywords: GetKey()
+intellisense: NSCsSessionKey.GetKey
+keywords: NSCsSessionKey, GetKey
+so.topic: reference
 ---
-
 
 The session key created in the login table
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCsSessionKey thing;
+String key  = thing.GetKey();
+```
 
 

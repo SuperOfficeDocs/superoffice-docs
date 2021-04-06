@@ -1,17 +1,13 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId
+title: UserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo info, Integer selectedListId)
+intellisense: NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
+keywords: NSUserDefinedFieldInfoAgent, SetListTableIdAndUDListDefinitionIdFromSelectedListId
+so.topic: reference
 ---
-title: NSUserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo p0, Integer p1)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo p_0, Integer p_1)
-intellisense: 1
-classref: 1
-keywords: SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)
----
-
 
 Make stuff similar to what happens in the win client
 
-
-
-* **info
-\param** p1 selectedListId
-
-
+**Parameters:**
+ - **info** 
+ - **selectedListId** 

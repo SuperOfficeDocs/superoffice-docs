@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_SetAppointmentId
+title: SetAppointmentId(Integer appointmentId)
+intellisense: NSEMailSOInfo.SetAppointmentId
+keywords: NSEMailSOInfo, GetAppointmentId
+so.topic: reference
 ---
-title: Void SetAppointmentId(Integer AppointmentId)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetAppointmentId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3052
-keywords: SetAppointmentId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **appointmentId** Integer
 
-
-* **AppointmentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailSOInfo thing;
+Integer appointmentId;
+thing.SetAppointmentId(appointmentId);
+```
 

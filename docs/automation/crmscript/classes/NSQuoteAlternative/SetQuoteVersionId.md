@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_SetQuoteVersionId
+title: SetQuoteVersionId(Integer quoteVersionId)
+intellisense: NSQuoteAlternative.SetQuoteVersionId
+keywords: NSQuoteAlternative, GetQuoteVersionId
+so.topic: reference
 ---
-title: Void SetQuoteVersionId(Integer QuoteVersionId)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetQuoteVersionId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetQuoteVersionId(Integer)
----
-
 
 The version that owns this alternative (the chain is Sale 1->1 Quote 1->+ QuoteVersion 1->+ QuoteAlternative.
 
+**Parameter:** 
+ - **quoteVersionId** Integer
 
-
-* **QuoteVersionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteAlternative thing;
+Integer quoteVersionId;
+thing.SetQuoteVersionId(quoteVersionId);
+```
 

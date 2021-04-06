@@ -1,9 +1,9 @@
 ---
-title: String GetProjStatusName()
-path: /EJScript/Classes/NSProjectTypeStatusLink/Member functions/String GetProjStatusName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSProjectTypeStatusLink_GetProjStatusName
+title: NSProjectTypeStatusLink.GetProjStatusName()
+intellisense: NSProjectTypeStatusLink.GetProjStatusName
 keywords: GetProjStatusName()
+so.topic: reference
 ---
 
 

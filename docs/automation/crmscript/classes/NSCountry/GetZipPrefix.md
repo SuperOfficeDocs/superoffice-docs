@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetZipPrefix
 title: String GetZipPrefix()
-path: /EJScript/Classes/NSCountry/Member functions/String GetZipPrefix()
-intellisense: 1
-classref: 1
-sortOrder: 2029
-keywords: GetZipPrefix()
+intellisense: NSCountry.GetZipPrefix
+keywords: NSCountry, GetZipPrefix
+so.topic: reference
 ---
-
 
 Post prefix
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCountry thing;
+String zipPrefix  = thing.GetZipPrefix();
+```
 
 

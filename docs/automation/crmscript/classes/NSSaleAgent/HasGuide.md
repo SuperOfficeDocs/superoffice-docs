@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSSaleAgent_HasGuide
 title: Bool HasGuide(Integer saleId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Bool HasGuide(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: HasGuide(Integer)
+intellisense: NSSaleAgent.HasGuide
+keywords: NSSaleAgent, HasGuide
+so.topic: reference
 ---
-
 
 Does this sale have a sale guide associated with its sale type?
 
+**Parameters:**
+ - **saleId** Sale id
 
+**Returns:** True if the sale has a guide
 
-* **saleId:** Sale id
-* **Returns:** True if the sale has a guide
-
+```crmscript
+NSSaleAgent agent;
+Integer saleId;
+Bool res = agent.HasGuide(saleId);
+```
 

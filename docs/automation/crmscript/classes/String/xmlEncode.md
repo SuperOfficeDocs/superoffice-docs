@@ -1,9 +1,9 @@
 ---
-title: String xmlEncode()
-path: /EJScript/Classes/String/Member functions/String xmlEncode()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_xmlEncode
+title: String.xmlEncode()
+intellisense: String.xmlEncode
 keywords: xmlEncode()
+so.topic: reference
 ---
 
 

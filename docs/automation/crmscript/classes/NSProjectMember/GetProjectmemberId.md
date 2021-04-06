@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectMember_GetProjectmemberId
 title: Integer GetProjectmemberId()
-path: /EJScript/Classes/NSProjectMember/Member functions/Integer GetProjectmemberId()
-intellisense: 1
-classref: 1
-keywords: GetProjectmemberId()
+intellisense: NSProjectMember.GetProjectmemberId
+keywords: NSProjectMember, GetProjectmemberId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectMember thing;
+Integer projectmemberId  = thing.GetProjectmemberId();
+```
 
 

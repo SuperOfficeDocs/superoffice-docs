@@ -1,9 +1,9 @@
 ---
-title: Void SetLabel(String p0)
-path: /EJScript/Classes/NSLocalizedField/Member functions/Void SetLabel(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSLocalizedField_SetLabel_String_p_0
+title: NSLocalizedField.SetLabel(String p_0)
+intellisense: NSLocalizedField.SetLabel
 keywords: SetLabel(String)
+so.topic: reference
 ---
 
 

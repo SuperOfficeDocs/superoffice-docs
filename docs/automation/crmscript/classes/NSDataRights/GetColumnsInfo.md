@@ -1,13 +1,19 @@
----
-title: NSRelationToOwner[] GetColumnsInfo()
-path: /EJScript/Classes/NSDataRights/Member functions/NSRelationToOwner[] GetColumnsInfo()
-intellisense: 1
-classref: 1
-sortOrder: 2352
-keywords: GetColumnsInfo()
+﻿---
+uid: crmscript_ref_NSDataRights_GetColumnsInfo
+title: RelationToOwnerArray GetColumnsInfo()
+intellisense: NSDataRights.GetColumnsInfo
+keywords: NSDataRights, GetColumnsInfo
+so.topic: reference
 ---
 
 
-* **Returns:** RelationToOwnerArray
+
+**Returns:** RelationToOwnerArray
+
+
+```crmscript
+NSDataRights thing;
+RelationToOwnerArray columnsInfo  = thing.GetColumnsInfo();
+```
 
 

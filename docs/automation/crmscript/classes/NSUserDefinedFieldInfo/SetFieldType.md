@@ -1,17 +1,27 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetFieldType
+title: SetFieldType(Integer fieldType)
+intellisense: NSUserDefinedFieldInfo.SetFieldType
+keywords: NSUserDefinedFieldInfo, GetFieldType
+so.topic: reference
 ---
-title: Void SetFieldType(Integer FieldType)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFieldType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetFieldType(Integer)
----
-
 
 Field type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox
 
+**Parameter:** 
+ - **fieldType** Integer
+     - Enum: 1 = Number 
+     - Enum: 2 = ShortText 
+     - Enum: 3 = LongText 
+     - Enum: 4 = Date 
+     - Enum: 5 = UnlimitedDate 
+     - Enum: 6 = Checkbox 
+     - Enum: 7 = List 
+     - Enum: 8 = Decimal 
 
-
-* **FieldType:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldType;
+thing.SetFieldType(fieldType);
+```
 

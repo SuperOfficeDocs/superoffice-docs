@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_SetQuotedProductsId
+title: SetQuotedProductsId(Integer quotedProductsId)
+intellisense: NSQuotePublishDocuments.SetQuotedProductsId
+keywords: NSQuotePublishDocuments, GetQuotedProductsId
+so.topic: reference
 ---
-title: Void SetQuotedProductsId(Integer QuotedProductsId)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetQuotedProductsId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetQuotedProductsId(Integer)
----
-
 
 Quoted products (quote lines or confirmation lines) document, as PDF
 
+**Parameter:** 
+ - **quotedProductsId** Integer
 
-
-* **QuotedProductsId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuotePublishDocuments thing;
+Integer quotedProductsId;
+thing.SetQuotedProductsId(quotedProductsId);
+```
 

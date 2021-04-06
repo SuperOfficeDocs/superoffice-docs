@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetPaymentTerm
+title: NSPaymentTerm GetPaymentTerm(Integer paymentTermId);
+intellisense: NSListAgent.GetPaymentTerm
+keywords: NSListAgent, GetPaymentTerm
+so.topic: reference
 ---
-title: NSPaymentTerm GetPaymentTerm(Integer paymentTermId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSPaymentTerm GetPaymentTerm(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPaymentTerm(Integer)
----
 
+Gets a NSPaymentTerm object.
 
-Gets a PaymentTerm object.
+**Parameters:**
+ - **paymentTermId** The identifier of the NSPaymentTerm object
 
+**Returns:** NSPaymentTerm
 
-
-* **paymentTermId:** The identifier of the PaymentTerm object
-* **Returns:** PaymentTerm
-
+```crmscript
+NSListAgent agent;
+NSPaymentTerm thing = agent.GetPaymentTerm(123);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetLicenseVersion
 title: String GetLicenseVersion()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetLicenseVersion()
-intellisense: 1
-classref: 1
-keywords: GetLicenseVersion()
+intellisense: NSLicenseInfo.GetLicenseVersion
+keywords: NSLicenseInfo, GetLicenseVersion
+so.topic: reference
 ---
-
 
 The url that will provide keycodes for all modules owned by this owner
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLicenseInfo thing;
+String licenseVersion  = thing.GetLicenseVersion();
+```
 
 

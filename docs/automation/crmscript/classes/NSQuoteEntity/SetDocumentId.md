@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteEntity_SetDocumentId
+title: SetDocumentId(Integer documentId)
+intellisense: NSQuoteEntity.SetDocumentId
+keywords: NSQuoteEntity, GetDocumentId
+so.topic: reference
 ---
-title: Void SetDocumentId(Integer DocumentId)
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Void SetDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDocumentId(Integer)
----
-
 
 The ID of the main Quote Document
 
+**Parameter:** 
+ - **documentId** Integer
 
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteEntity thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
 

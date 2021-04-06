@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_SetRestrictEdit
+title: SetRestrictEdit(Bool restrictEdit)
+intellisense: NSQuoteLineConfiguration.SetRestrictEdit
+keywords: NSQuoteLineConfiguration, GetRestrictEdit
+so.topic: reference
 ---
-title: Void SetRestrictEdit(Bool RestrictEdit)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetRestrictEdit(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetRestrictEdit(Bool)
----
-
 
 If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly
 
+**Parameter:** 
+ - **restrictEdit** Bool
 
-
-* **RestrictEdit:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteLineConfiguration thing;
+Bool restrictEdit;
+thing.SetRestrictEdit(restrictEdit);
+```
 

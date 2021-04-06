@@ -1,9 +1,9 @@
 ---
 description: Integer getScreenElementId(Integer index)
-path: /EJScript/Global functions/Integer getScreenElementId(Integer index)
-intellisense: 1
+intellisense: Void.getScreenElementId
 langref: 1
 keywords: getScreenElementId(Integer)
+so.topic: reference
 ---
 
 

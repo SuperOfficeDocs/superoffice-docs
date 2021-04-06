@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTemporaryKeyInfo_GetTargetId
 title: Integer GetTargetId()
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Integer GetTargetId()
-intellisense: 1
-classref: 1
-keywords: GetTargetId()
+intellisense: NSTemporaryKeyInfo.GetTargetId
+keywords: NSTemporaryKeyInfo, GetTargetId
+so.topic: reference
 ---
-
 
 The primary key of the entity this temporary key is for, dependent of dmain
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTemporaryKeyInfo thing;
+Integer targetId  = thing.GetTargetId();
+```
 
 

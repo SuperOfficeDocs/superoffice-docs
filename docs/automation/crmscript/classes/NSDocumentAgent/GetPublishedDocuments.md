@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDocumentAgent_GetPublishedDocuments
+title: DocumentArray GetPublishedDocuments(IntegerArray documentIds)
+intellisense: NSDocumentAgent.GetPublishedDocuments
+keywords: NSDocumentAgent, GetPublishedDocuments
+so.topic: reference
 ---
-title: NSDocument[] GetPublishedDocuments(Integer[] documentIds)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetPublishedDocuments(Integer[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2493
-keywords: GetPublishedDocuments(Integer[])
----
-
 
 Get the published documents from an array of doucment ids.
 
+**Parameters:**
+ - **documentIds** Array of document ids.
 
+**Returns:** Array of Document
 
-* **documentIds:** Array of document ids.
-* **Returns:** Array of Document
-
+```crmscript
+NSDocumentAgent agent;
+IntegerArray documentIds;
+DocumentArray res = agent.GetPublishedDocuments(documentIds);
+```
 

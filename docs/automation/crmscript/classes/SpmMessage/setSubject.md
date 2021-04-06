@@ -1,9 +1,9 @@
 ---
-title: Void setSubject(String subject)
-path: /EJScript/Classes/SpmMessage/Member functions/Void setSubject(String subject)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmMessage_setSubject_String_subject
+title: SpmMessage.setSubject(String subject)
+intellisense: SpmMessage.setSubject
 keywords: setSubject(String)
+so.topic: reference
 ---
 
 

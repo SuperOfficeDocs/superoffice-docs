@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitorPeriods_SetPeriod2
+title: SetPeriod2(Integer period2)
+intellisense: NSStatusMonitorPeriods.SetPeriod2
+keywords: NSStatusMonitorPeriods, GetPeriod2
+so.topic: reference
 ---
-title: Void SetPeriod2(Integer Period2)
-path: /EJScript/Classes/NSStatusMonitorPeriods/Member functions/Void SetPeriod2(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPeriod2(Integer)
----
-
 
 Days in the second period
 
+**Parameter:** 
+ - **period2** Integer
 
-
-* **Period2:** Integer
-* **Returns:** Void
-
+```crmscript
+NSStatusMonitorPeriods thing;
+Integer period2;
+thing.SetPeriod2(period2);
+```
 

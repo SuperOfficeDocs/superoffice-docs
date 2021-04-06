@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetActiveLinks
 title: Integer GetActiveLinks()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Integer GetActiveLinks()
-intellisense: 1
-classref: 1
-keywords: GetActiveLinks()
+intellisense: NSProjectEntity.GetActiveLinks
+keywords: NSProjectEntity, GetActiveLinks
+so.topic: reference
 ---
-
 
 Number of active links to documents, other appointments, and such
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectEntity thing;
+Integer activeLinks  = thing.GetActiveLinks();
+```
 
 

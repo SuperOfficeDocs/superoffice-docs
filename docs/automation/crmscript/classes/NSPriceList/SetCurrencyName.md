@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPriceList_SetCurrencyName
+title: SetCurrencyName(String currencyName)
+intellisense: NSPriceList.SetCurrencyName
+keywords: NSPriceList, GetCurrencyName
+so.topic: reference
 ---
-title: Void SetCurrencyName(String CurrencyName)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetCurrencyName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCurrencyName(String)
----
-
 
 The name to use in the user interface, like perhaps 'US dollar' or '$'
 
+**Parameter:** 
+ - **currencyName** String
 
-
-* **CurrencyName:** String
-* **Returns:** String
-
+```crmscript
+NSPriceList thing;
+String currencyName;
+thing.SetCurrencyName(currencyName);
+```
 

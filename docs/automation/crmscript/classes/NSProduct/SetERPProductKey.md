@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetERPProductKey
+title: SetERPProductKey(String eRPProductKey)
+intellisense: NSProduct.SetERPProductKey
+keywords: NSProduct, GetERPProductKey
+so.topic: reference
 ---
-title: Void SetERPProductKey(String ERPProductKey)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetERPProductKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetERPProductKey(String)
----
-
 
 Reference/foreign key to the product in the given pricelist in the product supplier system, if it exists there.
 
+**Parameter:** 
+ - **eRPProductKey** String
 
-
-* **ERPProductKey:** String
-* **Returns:** String
-
+```crmscript
+NSProduct thing;
+String eRPProductKey;
+thing.SetERPProductKey(eRPProductKey);
+```
 

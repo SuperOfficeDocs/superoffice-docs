@@ -1,10 +1,10 @@
 ---
-title: NSLocalizedField[][] GetAddressByCountry(Integer p0, Integer p1)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSLocalizedField[][] GetAddressByCountry(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSContactAgent_GetAddressByCountry_Integer_p_0_Integer_p_1
+title: NSContactAgent.GetAddressByCountry(Integer p_0, Integer p_1)
+intellisense: NSContactAgent.GetAddressByCountry
 sortOrder: 1821
 keywords: GetAddressByCountry(Integer,Integer)
+so.topic: reference
 ---
 
 

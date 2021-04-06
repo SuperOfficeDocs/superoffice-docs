@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetActivate
 title: DateTime GetActivate()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetActivate()
-intellisense: 1
-classref: 1
-keywords: GetActivate()
+intellisense: NSTicket.GetActivate
+keywords: NSTicket, GetActivate
+so.topic: reference
 ---
-
 
 When the ticket should be activated, if it is postponed.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicket thing;
+DateTime activate  = thing.GetActivate();
+```
 
 

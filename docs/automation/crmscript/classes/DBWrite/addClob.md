@@ -1,10 +1,10 @@
 ---
-title: Void addClob(String name, String value)
-path: /EJScript/Classes/DBWrite/Member functions/Void addClob(String name, String value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DBWrite_addClob_String_name_String_value
+title: DBWrite.addClob(String name, String value)
+intellisense: DBWrite.addClob
 sortOrder: 262
 keywords: addClob(String,String)
+so.topic: reference
 ---
 
 

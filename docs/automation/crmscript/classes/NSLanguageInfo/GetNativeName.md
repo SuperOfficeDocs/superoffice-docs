@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLanguageInfo_GetNativeName
 title: String GetNativeName()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/String GetNativeName()
-intellisense: 1
-classref: 1
-sortOrder: 4004
-keywords: GetNativeName()
+intellisense: NSLanguageInfo.GetNativeName
+keywords: NSLanguageInfo, GetNativeName
+so.topic: reference
 ---
-
 
 The native name of this language (Norsk Bokmål)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLanguageInfo thing;
+String nativeName  = thing.GetNativeName();
+```
 
 

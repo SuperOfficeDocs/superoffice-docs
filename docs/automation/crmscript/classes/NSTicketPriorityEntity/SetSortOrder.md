@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetSortOrder
+title: SetSortOrder(Integer sortOrder)
+intellisense: NSTicketPriorityEntity.SetSortOrder
+keywords: NSTicketPriorityEntity, GetSortOrder
+so.topic: reference
 ---
-title: Void SetSortOrder(Integer SortOrder)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetSortOrder(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSortOrder(Integer)
----
-
 
 Indicates the sort order for this priority. 1 is first, 100 is last
 
+**Parameter:** 
+ - **sortOrder** Integer
 
-
-* **SortOrder:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicketPriorityEntity thing;
+Integer sortOrder;
+thing.SetSortOrder(sortOrder);
+```
 

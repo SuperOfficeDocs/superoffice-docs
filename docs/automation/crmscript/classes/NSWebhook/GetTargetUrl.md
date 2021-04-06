@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebhook_GetTargetUrl
 title: String GetTargetUrl()
-path: /EJScript/Classes/NSWebhook/Member functions/String GetTargetUrl()
-intellisense: 1
-classref: 1
-keywords: GetTargetUrl()
+intellisense: NSWebhook.GetTargetUrl
+keywords: NSWebhook, GetTargetUrl
+so.topic: reference
 ---
-
 
 Destination to POST event info to. URL for webhooks. Id for CRM scripts
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSWebhook thing;
+String targetUrl  = thing.GetTargetUrl();
+```
 
 

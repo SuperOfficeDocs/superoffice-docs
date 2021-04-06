@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetHasBeenPublished
+title: SetHasBeenPublished(Bool hasBeenPublished)
+intellisense: NSUserDefinedFieldInfo.SetHasBeenPublished
+keywords: NSUserDefinedFieldInfo, GetHasBeenPublished
+so.topic: reference
 ---
-title: Void SetHasBeenPublished(Bool HasBeenPublished)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetHasBeenPublished(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetHasBeenPublished(Bool)
----
-
 
 Has the udef field been published?
 
+**Parameter:** 
+ - **hasBeenPublished** Bool
 
-
-* **HasBeenPublished:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Bool hasBeenPublished;
+thing.SetHasBeenPublished(hasBeenPublished);
+```
 

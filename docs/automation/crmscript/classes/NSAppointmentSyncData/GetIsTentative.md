@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetIsTentative
 title: Bool GetIsTentative()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Bool GetIsTentative()
-intellisense: 1
-classref: 1
-sortOrder: 1046
-keywords: GetIsTentative()
+intellisense: NSAppointmentSyncData.GetIsTentative
+keywords: NSAppointmentSyncData, GetIsTentative
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSAppointmentSyncData thing;
+Bool isTentative  = thing.GetIsTentative();
+```
 
 

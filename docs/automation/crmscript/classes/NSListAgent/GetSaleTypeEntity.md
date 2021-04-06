@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetSaleTypeEntity
+title: NSSaleTypeEntity GetSaleTypeEntity(Integer saleTypeEntityId);
+intellisense: NSListAgent.GetSaleTypeEntity
+keywords: NSListAgent, GetSaleTypeEntity
+so.topic: reference
 ---
-title: NSSaleTypeEntity GetSaleTypeEntity(Integer saleTypeEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleTypeEntity GetSaleTypeEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSaleTypeEntity(Integer)
----
 
+Gets a NSSaleTypeEntity object.
 
-Gets a SaleTypeEntity object.
+**Parameters:**
+ - **saleTypeEntityId** The identifier of the NSSaleTypeEntity object
 
+**Returns:** NSSaleTypeEntity
 
-
-* **saleTypeEntityId:** The identifier of the SaleTypeEntity object
-* **Returns:** SaleTypeEntity
-
+```crmscript
+NSListAgent agent;
+NSSaleTypeEntity thing = agent.GetSaleTypeEntity(123);
+```
 

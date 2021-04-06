@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity_GetDeleted
 title: Integer GetDeleted()
-path: /EJScript/Classes/NSContactEntity/Member functions/Integer GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 1843
-keywords: GetDeleted()
+intellisense: NSContactEntity.GetDeleted
+keywords: NSContactEntity, GetDeleted
+so.topic: reference
 ---
-
 
 If nonzero, then this contact is 'deleted' and should generally not be shown
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSContactEntity thing;
+Integer deleted  = thing.GetDeleted();
+```
 
 

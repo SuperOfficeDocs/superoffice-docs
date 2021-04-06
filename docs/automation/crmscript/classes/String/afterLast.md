@@ -1,9 +1,9 @@
 ---
-title: String afterLast(String p0)
-path: /EJScript/Classes/String/Member functions/String afterLast(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_afterLast_String_p_0
+title: String.afterLast(String p_0)
+intellisense: String.afterLast
 keywords: afterLast(String)
+so.topic: reference
 ---
 
 

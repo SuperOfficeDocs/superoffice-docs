@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetEmails
+title: SetEmails(EntityElementArray emails)
+intellisense: NSContactEntity.SetEmails
+keywords: NSContactEntity, GetEmails
+so.topic: reference
 ---
-title: Void SetEmails(NSEntityElement[] Emails)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetEmails(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1896
-keywords: SetEmails(NSEntityElement[])
----
-
 
 The contact's email
 
+**Parameter:** 
+ - **emails** EntityElementArray
 
-
-* **Emails:** EntityElementArray
-* **Returns:** EntityElementArray
-
+```crmscript
+NSContactEntity thing;
+EntityElementArray emails;
+thing.SetEmails(emails);
+```
 

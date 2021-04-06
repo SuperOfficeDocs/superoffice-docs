@@ -1,9 +1,9 @@
 ---
-title: String utf8Decode()
-path: /EJScript/Classes/String/Member functions/String utf8Decode()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_utf8Decode
+title: String.utf8Decode()
+intellisense: String.utf8Decode
 keywords: utf8Decode()
+so.topic: reference
 ---
 
 

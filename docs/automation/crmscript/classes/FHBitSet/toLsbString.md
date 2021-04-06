@@ -1,10 +1,10 @@
 ---
-title: String toLsbString()
-path: /EJScript/Classes/FHBitSet/Member functions/String toLsbString()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_FHBitSet_toLsbString
+title: FHBitSet.toLsbString()
+intellisense: FHBitSet.toLsbString
 sortOrder: 336
 keywords: toLsbString()
+so.topic: reference
 ---
 
 

@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_GetFolderHasNewEMail
+title: Bool GetFolderHasNewEMail(EMailConnectionInfo connectionInfo)
+intellisense: NSEMailAgent.GetFolderHasNewEMail
+keywords: NSEMailAgent, GetFolderHasNewEMail
+so.topic: reference
 ---
-title: Bool GetFolderHasNewEMail(NSEMailConnectionInfo connectionInfo)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Bool GetFolderHasNewEMail(NSEMailConnectionInfo p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2785
-keywords: GetFolderHasNewEMail(NSEMailConnectionInfo)
----
-
 
 Check if folder has received new items since previous access.
 
+**Parameters:**
+ - **connectionInfo** All information needed to connect to the mailserver
 
+**Returns:** True if new mail is available.
 
-* **connectionInfo:** All information needed to connect to the mailserver
-* **Returns:** True if new mail is available.
-
+```crmscript
+NSEMailAgent agent;
+EMailConnectionInfo connectionInfo;
+Bool res = agent.GetFolderHasNewEMail(connectionInfo);
+```
 

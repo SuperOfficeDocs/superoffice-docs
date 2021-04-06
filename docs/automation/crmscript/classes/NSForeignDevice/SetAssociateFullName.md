@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignDevice_SetAssociateFullName
+title: SetAssociateFullName(String associateFullName)
+intellisense: NSForeignDevice.SetAssociateFullName
+keywords: NSForeignDevice, GetAssociateFullName
+so.topic: reference
 ---
-title: Void SetAssociateFullName(String AssociateFullName)
-path: /EJScript/Classes/NSForeignDevice/Member functions/Void SetAssociateFullName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3723
-keywords: SetAssociateFullName(String)
----
-
 
 The person owning the Foreign Device
 
+**Parameter:** 
+ - **associateFullName** String
 
-
-* **AssociateFullName:** String
-* **Returns:** String
-
+```crmscript
+NSForeignDevice thing;
+String associateFullName;
+thing.SetAssociateFullName(associateFullName);
+```
 

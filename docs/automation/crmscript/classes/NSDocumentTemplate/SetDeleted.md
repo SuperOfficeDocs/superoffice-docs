@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplate_SetDeleted
+title: SetDeleted(Integer deleted)
+intellisense: NSDocumentTemplate.SetDeleted
+keywords: NSDocumentTemplate, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Integer Deleted)
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Void SetDeleted(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2636
-keywords: SetDeleted(Integer)
----
-
 
 0 -> record is active 1 -> record is 'deleted' and should not be shown in lists
 
+**Parameter:** 
+ - **deleted** Integer
 
-
-* **Deleted:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDocumentTemplate thing;
+Integer deleted;
+thing.SetDeleted(deleted);
+```
 

@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetPriceList
+title: NSPriceList GetPriceList(Integer priceListId);
+intellisense: NSQuoteAgent.GetPriceList
+keywords: NSQuoteAgent, GetPriceList
+so.topic: reference
 ---
-title: NSPriceList GetPriceList(Integer priceListId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList GetPriceList(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPriceList(Integer)
----
 
+Gets a NSPriceList object.
 
-Gets a PriceList object.
+**Parameters:**
+ - **priceListId** The identifier of the NSPriceList object
 
+**Returns:** NSPriceList
 
-
-* **priceListId:** The identifier of the PriceList object
-* **Returns:** PriceList
-
+```crmscript
+NSQuoteAgent agent;
+NSPriceList thing = agent.GetPriceList(123);
+```
 

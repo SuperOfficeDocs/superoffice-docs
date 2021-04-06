@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_SetDescription
+title: SetDescription(String description)
+intellisense: NSModuleLicenseLink.SetDescription
+keywords: NSModuleLicenseLink, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 The description of the module license
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSModuleLicenseLink thing;
+String description;
+thing.SetDescription(description);
+```
 

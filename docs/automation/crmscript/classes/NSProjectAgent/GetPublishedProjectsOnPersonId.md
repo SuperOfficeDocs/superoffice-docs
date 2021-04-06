@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetPublishedProjectsOnPersonId
+title: ProjectArray GetPublishedProjectsOnPersonId(Integer personId)
+intellisense: NSProjectAgent.GetPublishedProjectsOnPersonId
+keywords: NSProjectAgent, GetPublishedProjectsOnPersonId
+so.topic: reference
 ---
-title: NSProject[] GetPublishedProjectsOnPersonId(Integer personId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject[] GetPublishedProjectsOnPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPublishedProjectsOnPersonId(Integer)
----
-
 
 Get published projects where person  is a member
 
+**Parameters:**
+ - **personId** The person id
 
+**Returns:** Array of project
 
-* **personId:** The person id
-* **Returns:** Array of project
-
+```crmscript
+NSProjectAgent agent;
+Integer personId;
+ProjectArray res = agent.GetPublishedProjectsOnPersonId(personId);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_SetTitle
+title: SetTitle(String title)
+intellisense: NSPocketNotificationMessage.SetTitle
+keywords: NSPocketNotificationMessage, GetTitle
+so.topic: reference
 ---
-title: Void SetTitle(String Title)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetTitle(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTitle(String)
----
-
 
 Title for the notification
 
+**Parameter:** 
+ - **title** String
 
-
-* **Title:** String
-* **Returns:** String
-
+```crmscript
+NSPocketNotificationMessage thing;
+String title;
+thing.SetTitle(title);
+```
 

@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_arrays
-description: Arrays
+uid: crmscript_fundamentals_arrays
+title: Arrays
 author:
 so.date:
 keywords:

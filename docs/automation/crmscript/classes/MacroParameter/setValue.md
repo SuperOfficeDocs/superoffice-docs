@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String p0)
-path: /EJScript/Classes/MacroParameter/Member functions/Void setValue(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MacroParameter_setValue_String_p_0
+title: MacroParameter.setValue(String p_0)
+intellisense: MacroParameter.setValue
 sortOrder: 495
 keywords: setValue(String)
+so.topic: reference
 ---
 
 

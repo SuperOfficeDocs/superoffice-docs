@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSCompetitor_SetId
+title: SetId(Integer id)
+intellisense: NSCompetitor.SetId
+keywords: NSCompetitor, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSCompetitor/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1583
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the Competitor
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer Competitor id.
 
+```crmscript
+NSCompetitor thing;
+thing.SetId(123);
+```
 

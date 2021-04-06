@@ -1,9 +1,9 @@
 ---
-title: String GetSearchName()
-path: /EJScript/Classes/NSProvidedCredential/Member functions/String GetSearchName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSProvidedCredential_GetSearchName
+title: NSProvidedCredential.GetSearchName()
+intellisense: NSProvidedCredential.GetSearchName
 keywords: GetSearchName()
+so.topic: reference
 ---
 
 

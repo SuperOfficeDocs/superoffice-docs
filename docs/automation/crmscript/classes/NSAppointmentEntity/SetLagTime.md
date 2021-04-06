@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetLagTime
+title: SetLagTime(TimeSpan lagTime)
+intellisense: NSAppointmentEntity.SetLagTime
+keywords: NSAppointmentEntity, GetLagTime
+so.topic: reference
 ---
-title: Void SetLagTime(TimeSpan LagTime)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetLagTime(TimeSpan p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1011
-keywords: SetLagTime(TimeSpan)
----
-
 
 as leadtime, but after the end - time blocked for travel etc.
 
+**Parameter:** 
+ - **lagTime** TimeSpan
 
-
-* **LagTime:** TimeSpan
-* **Returns:** TimeSpan
-
+```crmscript
+NSAppointmentEntity thing;
+TimeSpan lagTime;
+thing.SetLagTime(lagTime);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetSaledate
 title: DateTime GetSaledate()
-path: /EJScript/Classes/NSSaleEntity/Member functions/DateTime GetSaledate()
-intellisense: 1
-classref: 1
-keywords: GetSaledate()
+intellisense: NSSaleEntity.GetSaledate
+keywords: NSSaleEntity, GetSaledate
+so.topic: reference
 ---
-
 
 (expected / lost / won) sales date
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSSaleEntity thing;
+DateTime saledate  = thing.GetSaledate();
+```
 
 

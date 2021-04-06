@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTicketEntity
 title: NSTicketEntity
-path: /EJScript/Classes/NSTicketEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSTicketEntity
+keywords: NSTicketEntity
+so.topic: reference
 ---
-
 
 The ticket entity is used for representing a service ticket
 
-
-
-
-1. autolist
+1. autolist 
 

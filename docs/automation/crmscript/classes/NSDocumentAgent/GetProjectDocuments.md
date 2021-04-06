@@ -1,21 +1,27 @@
+﻿---
+uid: crmscript_ref_NSDocumentAgent_GetProjectDocuments
+title: DocumentArray GetProjectDocuments(Integer projectId, DateTime startTime, DateTime endTime, Integer count)
+intellisense: NSDocumentAgent.GetProjectDocuments
+keywords: NSDocumentAgent, GetProjectDocuments
+so.topic: reference
 ---
-title: NSDocument[] GetProjectDocuments(Integer projectId, DateTime startTime, DateTime endTime, Integer count)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetProjectDocuments(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3)
-intellisense: 1
-classref: 1
-sortOrder: 2485
-keywords: GetProjectDocuments(Integer,DateTime,DateTime,Integer)
----
 
+Method that returns a specified number of document appointments within a time range. The document appointments belong to the project specified. 
 
-Method that returns a specified number of document appointments within a time range. The document appointments belong to the project specified.
+**Parameters:**
+ - **projectId** The project id
+ - **startTime** The start of the time interval we want appointments from. This will usually be the current time.
+ - **endTime** The end of the time interval.
+ - **count** The maximum number of appointments that should be returned. -1 means no count restrictions.
 
+**Returns:** Array of Appointments.
 
-
-* **projectId:** The project id
-* **startTime:** The start of the time interval we want appointments from. This will usually be the current time.
-* **endTime:** The end of the time interval.
-* **count:** The maximum number of appointments that should be returned. -1 means no count restrictions.
-* **Returns:** Array of Appointments.
-
+```crmscript
+NSDocumentAgent agent;
+Integer projectId;
+DateTime startTime;
+DateTime endTime;
+Integer count;
+DocumentArray res = agent.GetProjectDocuments(projectId, startTime, endTime, count);
+```
 

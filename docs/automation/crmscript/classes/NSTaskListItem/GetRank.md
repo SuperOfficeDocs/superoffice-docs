@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTaskListItem_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSTaskListItem.GetRank
+keywords: NSTaskListItem, GetRank
+so.topic: reference
 ---
-
 
 Rank order
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTaskListItem thing;
+Integer rank  = thing.GetRank();
+```
 
 

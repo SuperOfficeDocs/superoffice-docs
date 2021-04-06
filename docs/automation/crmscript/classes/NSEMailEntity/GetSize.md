@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetSize
 title: Integer GetSize()
-path: /EJScript/Classes/NSEMailEntity/Member functions/Integer GetSize()
-intellisense: 1
-classref: 1
-sortOrder: 2956
-keywords: GetSize()
+intellisense: NSEMailEntity.GetSize
+keywords: NSEMailEntity, GetSize
+so.topic: reference
 ---
-
 
 Total size of the e-mail
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailEntity thing;
+Integer size  = thing.GetSize();
+```
 
 

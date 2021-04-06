@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCategory
+title: NSCategory GetCategory(Integer categoryId);
+intellisense: NSListAgent.GetCategory
+keywords: NSListAgent, GetCategory
+so.topic: reference
 ---
-title: NSCategory GetCategory(Integer categoryId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCategory GetCategory(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetCategory(Integer)
----
 
+Gets a NSCategory object.
 
-Gets a Category object.
+**Parameters:**
+ - **categoryId** The identifier of the NSCategory object
 
+**Returns:** NSCategory
 
-
-* **categoryId:** The identifier of the Category object
-* **Returns:** Category
-
+```crmscript
+NSListAgent agent;
+NSCategory thing = agent.GetCategory(123);
+```
 

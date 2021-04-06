@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebAppUsage_SetWebAppUsageId
+title: SetWebAppUsageId(Integer webAppUsageId)
+intellisense: NSWebAppUsage.SetWebAppUsageId
+keywords: NSWebAppUsage, GetWebAppUsageId
+so.topic: reference
 ---
-title: Void SetWebAppUsageId(Integer WebAppUsageId)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetWebAppUsageId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetWebAppUsageId(Integer)
----
-
 
 Primary Key
 
+**Parameter:** 
+ - **webAppUsageId** Integer
 
-
-* **WebAppUsageId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWebAppUsage thing;
+Integer webAppUsageId;
+thing.SetWebAppUsageId(webAppUsageId);
+```
 

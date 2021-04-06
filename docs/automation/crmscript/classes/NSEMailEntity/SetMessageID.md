@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetMessageID
+title: SetMessageID(String messageID)
+intellisense: NSEMailEntity.SetMessageID
+keywords: NSEMailEntity, GetMessageID
+so.topic: reference
 ---
-title: Void SetMessageID(String MessageID)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetMessageID(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2989
-keywords: SetMessageID(String)
----
-
 
 Unique id of e-mails
 
+**Parameter:** 
+ - **messageID** String
 
-
-* **MessageID:** String
-* **Returns:** String
-
+```crmscript
+NSEMailEntity thing;
+String messageID;
+thing.SetMessageID(messageID);
+```
 

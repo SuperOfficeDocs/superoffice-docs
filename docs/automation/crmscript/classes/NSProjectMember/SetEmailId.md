@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetEmailId
+title: SetEmailId(Integer emailId)
+intellisense: NSProjectMember.SetEmailId
+keywords: NSProjectMember, GetEmailId
+so.topic: reference
 ---
-title: Void SetEmailId(Integer EmailId)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetEmailId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetEmailId(Integer)
----
-
 
 The person's email address id
 
+**Parameter:** 
+ - **emailId** Integer
 
-
-* **EmailId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectMember thing;
+Integer emailId;
+thing.SetEmailId(emailId);
+```
 

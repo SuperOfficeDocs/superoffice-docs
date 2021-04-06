@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSControlInfo_GetDimension
 title: Integer GetDimension()
-path: /EJScript/Classes/NSControlInfo/Member functions/Integer GetDimension()
-intellisense: 1
-classref: 1
-sortOrder: 1996
-keywords: GetDimension()
+intellisense: NSControlInfo.GetDimension
+keywords: NSControlInfo, GetDimension
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSControlInfo thing;
+Integer dimension  = thing.GetDimension();
+```
 
 

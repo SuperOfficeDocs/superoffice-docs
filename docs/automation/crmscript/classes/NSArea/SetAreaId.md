@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArea_SetAreaId
+title: SetAreaId(Integer areaId)
+intellisense: NSArea.SetAreaId
+keywords: NSArea, GetAreaId
+so.topic: reference
 ---
-title: Void SetAreaId(Integer AreaId)
-path: /EJScript/Classes/NSArea/Member functions/Void SetAreaId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1246
-keywords: SetAreaId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **areaId** Integer
 
-
-* **AreaId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSArea thing;
+Integer areaId;
+thing.SetAreaId(areaId);
+```
 

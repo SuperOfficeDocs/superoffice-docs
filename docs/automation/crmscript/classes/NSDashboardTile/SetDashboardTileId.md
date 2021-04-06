@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_SetDashboardTileId
+title: SetDashboardTileId(Integer dashboardTileId)
+intellisense: NSDashboardTile.SetDashboardTileId
+keywords: NSDashboardTile, GetDashboardTileId
+so.topic: reference
 ---
-title: Void SetDashboardTileId(Integer DashboardTileId)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetDashboardTileId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2307
-keywords: SetDashboardTileId(Integer)
----
-
 
 The tile id
 
+**Parameter:** 
+ - **dashboardTileId** Integer
 
-
-* **DashboardTileId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDashboardTile thing;
+Integer dashboardTileId;
+thing.SetDashboardTileId(dashboardTileId);
+```
 

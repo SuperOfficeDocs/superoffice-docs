@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreference_SetUserPreferenceId
+title: SetUserPreferenceId(Integer userPreferenceId)
+intellisense: NSPreference.SetUserPreferenceId
+keywords: NSPreference, GetUserPreferenceId
+so.topic: reference
 ---
-title: Void SetUserPreferenceId(Integer UserPreferenceId)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetUserPreferenceId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserPreferenceId(Integer)
----
-
 
 The id of the user preference
 
+**Parameter:** 
+ - **userPreferenceId** Integer
 
-
-* **UserPreferenceId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPreference thing;
+Integer userPreferenceId;
+thing.SetUserPreferenceId(userPreferenceId);
+```
 

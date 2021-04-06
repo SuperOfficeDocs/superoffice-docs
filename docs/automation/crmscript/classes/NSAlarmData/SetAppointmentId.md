@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAlarmData_SetAppointmentId
+title: SetAppointmentId(Integer appointmentId)
+intellisense: NSAlarmData.SetAppointmentId
+keywords: NSAlarmData, GetAppointmentId
+so.topic: reference
 ---
-title: Void SetAppointmentId(Integer AppointmentId)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetAppointmentId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 669
-keywords: SetAppointmentId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **appointmentId** Integer
 
-
-* **AppointmentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAlarmData thing;
+Integer appointmentId;
+thing.SetAppointmentId(appointmentId);
+```
 

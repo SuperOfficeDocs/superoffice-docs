@@ -1,15 +1,12 @@
+﻿---
+uid: crmscript_ref_NSPreferenceAgent_SaveTabOrders
+title: Void SaveTabOrders(TabOrderArray tabOrders)
+intellisense: NSPreferenceAgent.SaveTabOrders
+keywords: NSPreferenceAgent, SaveTabOrders
+so.topic: reference
 ---
-title: Void SaveTabOrders(NSTabOrder[] p0)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void SaveTabOrders(NSTabOrder[] p_0)
-intellisense: 1
-classref: 1
-keywords: SaveTabOrders(NSTabOrder[])
----
 
 
 
-
-* **tabOrders
-**
-
-
+**Parameters:**
+ - **tabOrders** 

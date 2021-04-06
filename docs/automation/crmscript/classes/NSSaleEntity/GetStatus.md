@@ -1,16 +1,25 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetStatus
 title: Integer GetStatus()
-path: /EJScript/Classes/NSSaleEntity/Member functions/Integer GetStatus()
-intellisense: 1
-classref: 1
-keywords: GetStatus()
+intellisense: NSSaleEntity.GetStatus
+keywords: NSSaleEntity, GetStatus
+so.topic: reference
 ---
 
+The state of the Sale: Open / Sold / Lost / Stalled
 
-The state of the Sale
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Open 
+     - Enum: 2 = Sold 
+     - Enum: 3 = Lost 
+     - Enum: 4 = Stalled 
+     - Enum: 1000 = SaintAll 
 
-
-* **Returns:** Integer
+```crmscript
+NSSaleEntity thing;
+Integer status  = thing.GetStatus();
+```
 
 

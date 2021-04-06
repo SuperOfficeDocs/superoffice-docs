@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_CreateDefaultCurrencyEntity
 title: NSCurrencyEntity CreateDefaultCurrencyEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrencyEntity CreateDefaultCurrencyEntity()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultCurrencyEntity()
+intellisense: NSListAgent.CreateDefaultCurrencyEntity
+keywords: NSListAgent, CreateDefaultCurrencyEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSCurrencyEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSCurrencyEntity with default values.
 
-
-Loading default values into a new CurrencyEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New CurrencyEntity with default values
-
+```crmscript
+NSListAgent agent;
+NSCurrencyEntity thing = agent.CreateDefaultCurrencyEntity();
+thing = agent.SaveCurrencyEntity(thing);
+```
 

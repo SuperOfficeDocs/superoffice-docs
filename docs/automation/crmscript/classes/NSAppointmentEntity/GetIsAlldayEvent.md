@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetIsAlldayEvent
 title: Bool GetIsAlldayEvent()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetIsAlldayEvent()
-intellisense: 1
-classref: 1
-sortOrder: 927
-keywords: GetIsAlldayEvent()
+intellisense: NSAppointmentEntity.GetIsAlldayEvent
+keywords: NSAppointmentEntity, GetIsAlldayEvent
+so.topic: reference
 ---
-
 
 True if all day event
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSAppointmentEntity thing;
+Bool isAlldayEvent  = thing.GetIsAlldayEvent();
+```
 
 

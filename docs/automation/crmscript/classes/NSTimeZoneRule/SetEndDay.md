@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTimeZoneRule_SetEndDay
+title: SetEndDay(Integer endDay)
+intellisense: NSTimeZoneRule.SetEndDay
+keywords: NSTimeZoneRule, GetEndDay
+so.topic: reference
 ---
-title: Void SetEndDay(Integer EndDay)
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetEndDay(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetEndDay(Integer)
----
-
 
 Custom DST end day, if 0 then parse startRule
 
+**Parameter:** 
+ - **endDay** Integer
 
-
-* **EndDay:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTimeZoneRule thing;
+Integer endDay;
+thing.SetEndDay(endDay);
+```
 

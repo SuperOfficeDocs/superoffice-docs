@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTileData_GetResult
+title: ArchiveListResult GetResult()
+intellisense: NSTileData.GetResult
+keywords: NSTileData, GetResult
+so.topic: reference
 ---
-title: NSArchiveListResult GetResult()
-path: /EJScript/Classes/NSTileData/Member functions/NSArchiveListResult GetResult()
-intellisense: 1
-classref: 1
-keywords: GetResult()
----
-
 
 The result set
 
+**Returns:** ArchiveListResult
 
 
-* **Returns:** ArchiveListResult
+```crmscript
+NSTileData thing;
+ArchiveListResult result  = thing.GetResult();
+```
 
 

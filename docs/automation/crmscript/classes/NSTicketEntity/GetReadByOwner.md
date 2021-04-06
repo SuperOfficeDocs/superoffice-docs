@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetReadByOwner
 title: DateTime GetReadByOwner()
-path: /EJScript/Classes/NSTicketEntity/Member functions/DateTime GetReadByOwner()
-intellisense: 1
-classref: 1
-keywords: GetReadByOwner()
+intellisense: NSTicketEntity.GetReadByOwner
+keywords: NSTicketEntity, GetReadByOwner
+so.topic: reference
 ---
-
 
 The datetime for when the ticket last was read by the owner.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicketEntity thing;
+DateTime readByOwner  = thing.GetReadByOwner();
+```
 
 

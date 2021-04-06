@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetCreatedBy
+title: SetCreatedBy(Integer createdBy)
+intellisense: NSTicket.SetCreatedBy
+keywords: NSTicket, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(Integer CreatedBy)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetCreatedBy(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCreatedBy(Integer)
----
-
 
 The id of the user who created the ticket. 1 (system user) if the ticket was created externally
 
+**Parameter:** 
+ - **createdBy** Integer
 
-
-* **CreatedBy:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicket thing;
+Integer createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSCredited_SetId
+title: SetId(Integer id)
+intellisense: NSCredited.SetId
+keywords: NSCredited, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSCredited/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2099
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the Credited
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer Credited id.
 
+```crmscript
+NSCredited thing;
+thing.SetId(123);
+```
 

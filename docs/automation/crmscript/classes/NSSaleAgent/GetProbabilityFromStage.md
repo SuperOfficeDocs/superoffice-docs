@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSSaleAgent_GetProbabilityFromStage
 title: Integer GetProbabilityFromStage(Integer stageId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Integer GetProbabilityFromStage(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetProbabilityFromStage(Integer)
+intellisense: NSSaleAgent.GetProbabilityFromStage
+keywords: NSSaleAgent, GetProbabilityFromStage
+so.topic: reference
 ---
-
 
 Get the probability percentage for a given sale stage
 
+**Parameters:**
+ - **stageId** Probability list id
 
+**Returns:** Probability percentage
 
-* **stageId:** Probability list id
-* **Returns:** Probability percentage
-
+```crmscript
+NSSaleAgent agent;
+Integer stageId;
+Integer res = agent.GetProbabilityFromStage(stageId);
+```
 

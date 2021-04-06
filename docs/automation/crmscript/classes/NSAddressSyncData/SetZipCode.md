@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAddressSyncData_SetZipCode
+title: SetZipCode(String zipCode)
+intellisense: NSAddressSyncData.SetZipCode
+keywords: NSAddressSyncData, GetZipCode
+so.topic: reference
 ---
-title: Void SetZipCode(String ZipCode)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetZipCode(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 640
-keywords: SetZipCode(String)
----
 
 
-* **ZipCode:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **zipCode** String
+
+```crmscript
+NSAddressSyncData thing;
+String zipCode;
+thing.SetZipCode(zipCode);
+```
 

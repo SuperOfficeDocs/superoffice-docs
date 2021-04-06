@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity_GetKananame
 title: String GetKananame()
-path: /EJScript/Classes/NSContactEntity/Member functions/String GetKananame()
-intellisense: 1
-classref: 1
-sortOrder: 1870
-keywords: GetKananame()
+intellisense: NSContactEntity.GetKananame
+keywords: NSContactEntity, GetKananame
+so.topic: reference
 ---
-
 
 Contact kana name, used in Japanese versions only
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactEntity thing;
+String kananame  = thing.GetKananame();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetTabOrder
+title: SetTabOrder(Integer tabOrder)
+intellisense: NSUserDefinedFieldInfo.SetTabOrder
+keywords: NSUserDefinedFieldInfo, GetTabOrder
+so.topic: reference
 ---
-title: Void SetTabOrder(Integer TabOrder)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetTabOrder(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTabOrder(Integer)
----
-
 
 Tab order value, sets the field processing sequence
 
+**Parameter:** 
+ - **tabOrder** Integer
 
-
-* **TabOrder:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer tabOrder;
+thing.SetTabOrder(tabOrder);
+```
 

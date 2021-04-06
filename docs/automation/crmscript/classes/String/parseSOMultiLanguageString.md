@@ -1,9 +1,9 @@
 ---
-title: String parseSOMultiLanguageString(Integer p0)
-path: /EJScript/Classes/String/Member functions/String parseSOMultiLanguageString(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_parseSOMultiLanguageString_Integer_p_0
+title: String.parseSOMultiLanguageString(Integer p_0)
+intellisense: String.parseSOMultiLanguageString
 keywords: parseSOMultiLanguageString(Integer)
+so.topic: reference
 ---
 
 

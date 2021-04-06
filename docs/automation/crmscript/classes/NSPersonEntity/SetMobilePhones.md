@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetMobilePhones
+title: SetMobilePhones(EntityElementArray mobilePhones)
+intellisense: NSPersonEntity.SetMobilePhones
+keywords: NSPersonEntity, GetMobilePhones
+so.topic: reference
 ---
-title: Void SetMobilePhones(NSEntityElement[] MobilePhones)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetMobilePhones(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetMobilePhones(NSEntityElement[])
----
-
 
 Returns a collection of mobile phone numbers that belong to the contact person.
 
+**Parameter:** 
+ - **mobilePhones** EntityElementArray
 
-
-* **MobilePhones:** EntityElementArray
-* **Returns:** EntityElementArray
-
+```crmscript
+NSPersonEntity thing;
+EntityElementArray mobilePhones;
+thing.SetMobilePhones(mobilePhones);
+```
 

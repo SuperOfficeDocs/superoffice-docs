@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUser_GetRequestSignature
 title: String GetRequestSignature()
-path: /EJScript/Classes/NSUser/Member functions/String GetRequestSignature()
-intellisense: 1
-classref: 1
-keywords: GetRequestSignature()
+intellisense: NSUser.GetRequestSignature
+keywords: NSUser, GetRequestSignature
+so.topic: reference
 ---
-
 
 ej users request signature
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSUser thing;
+String requestSignature  = thing.GetRequestSignature();
+```
 
 

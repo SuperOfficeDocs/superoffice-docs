@@ -1,10 +1,10 @@
 ---
-title: String getStateValue(String stateValue)
-path: /EJScript/Classes/EventData/member functions/String getStateValue(String stateValue)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_EventData_getStateValue_String_stateValue
+title: EventData.getStateValue(String stateValue)
+intellisense: EventData.getStateValue
 sortOrder: 294
 keywords: getStateValue(String)
+so.topic: reference
 ---
 
 This method returns the value of a specified state field (i.e. custom field).

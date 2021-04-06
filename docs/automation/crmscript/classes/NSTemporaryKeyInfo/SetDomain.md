@@ -1,17 +1,26 @@
+﻿---
+uid: crmscript_ref_NSTemporaryKeyInfo_SetDomain
+title: SetDomain(Integer domain)
+intellisense: NSTemporaryKeyInfo.SetDomain
+keywords: NSTemporaryKeyInfo, GetDomain
+so.topic: reference
 ---
-title: Void SetDomain(Integer Domain)
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Void SetDomain(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDomain(Integer)
----
-
 
 The domain for this key. Unknown if key is not valid.
 
+**Parameter:** 
+ - **domain** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = MailingRecipient 
+     - Enum: 2 = FormSubmitterRecipient 
+     - Enum: 3 = ViewTicketInCustomerCenter 
+     - Enum: 4 = LoginCustomerCenter 
+     - Enum: 5 = PublicFaq 
+     - Enum: 6 = ChangePasswordCustomerCenter 
 
-
-* **Domain:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTemporaryKeyInfo thing;
+Integer domain;
+thing.SetDomain(domain);
+```
 

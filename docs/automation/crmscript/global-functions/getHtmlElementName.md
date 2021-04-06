@@ -1,9 +1,9 @@
 ---
 description: String getHtmlElementName(Integer index)
-path: /EJScript/Global functions/String getHtmlElementName(Integer index)
-intellisense: 1
+intellisense: Void.getHtmlElementName
 langref: 1
 keywords: getHtmlElementName(Integer)
+so.topic: reference
 ---
 
 

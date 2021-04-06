@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetFriStart
+title: SetFriStart(DateTime friStart)
+intellisense: NSTicketPriorityEntity.SetFriStart
+keywords: NSTicketPriorityEntity, GetFriStart
+so.topic: reference
 ---
-title: Void SetFriStart(DateTime FriStart)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetFriStart(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetFriStart(DateTime)
----
-
 
 The work hour start for Fridays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **friStart** DateTime
 
-
-* **FriStart:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime friStart;
+thing.SetFriStart(friStart);
+```
 

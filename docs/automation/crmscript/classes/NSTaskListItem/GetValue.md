@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTaskListItem_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSTaskListItem/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSTaskListItem.GetValue
+keywords: NSTaskListItem, GetValue
+so.topic: reference
 ---
-
 
 The list item
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTaskListItem thing;
+String value  = thing.GetValue();
+```
 
 

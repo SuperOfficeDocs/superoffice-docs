@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAppointment
 title: NSEMailAppointment
-path: /EJScript/Classes/NSEMailAppointment
-intellisense: 1
-classref: 1
-sortOrder: 2872
+intellisense: Void.NSEMailAppointment
+keywords: NSEMailAppointment
+so.topic: reference
 ---
-
 
 Information about an email appointment received as iCal data
 
-
-
-
-1. autolist
+1. autolist 
 

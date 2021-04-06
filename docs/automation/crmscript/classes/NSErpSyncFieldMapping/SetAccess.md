@@ -1,18 +1,22 @@
----
-title: Void SetAccess(Integer p0)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetAccess(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3304
-keywords: SetAccess(Integer)
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_SetAccess
+title: SetAccess(FieldAccess access)
+intellisense: NSErpSyncFieldMapping.SetAccess
+keywords: NSErpSyncFieldMapping, GetAccess
+so.topic: reference
 ---
 
 Access restrictions for the field
-* Normal=0
-* Mandatory=1
-* ReadOnly=2
 
-* **p0:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **access** FieldAccess
+     - Enum: 0 = Normal 
+     - Enum: 1 = Mandatory 
+     - Enum: 2 = ReadOnly 
 
+```crmscript
+NSErpSyncFieldMapping thing;
+FieldAccess access;
+thing.SetAccess(access);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSImportColumnInfo_GetLocked
 title: Bool GetLocked()
-path: /EJScript/Classes/NSImportColumnInfo/Member functions/Bool GetLocked()
-intellisense: 1
-classref: 1
-sortOrder: 3960
-keywords: GetLocked()
+intellisense: NSImportColumnInfo.GetLocked
+keywords: NSImportColumnInfo, GetLocked
+so.topic: reference
 ---
-
 
 If true disable the option of choose column
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSImportColumnInfo thing;
+Bool locked  = thing.GetLocked();
+```
 
 

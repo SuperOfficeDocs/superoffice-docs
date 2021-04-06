@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetDbiAgentId
+title: SetDbiAgentId(Integer dbiAgentId)
+intellisense: NSContactEntity.SetDbiAgentId
+keywords: NSContactEntity, GetDbiAgentId
+so.topic: reference
 ---
-title: Void SetDbiAgentId(Integer DbiAgentId)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetDbiAgentId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1889
-keywords: SetDbiAgentId(Integer)
----
-
 
 Integration agent (eJournal)
 
+**Parameter:** 
+ - **dbiAgentId** Integer
 
-
-* **DbiAgentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContactEntity thing;
+Integer dbiAgentId;
+thing.SetDbiAgentId(dbiAgentId);
+```
 

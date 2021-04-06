@@ -1,21 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetOpen
+title: SetOpen(Integer open)
+intellisense: NSSaleSummary.SetOpen
+keywords: NSSaleSummary, GetOpen
+so.topic: reference
 ---
-title: Void SetOpen(Integer Open)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetOpen(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetOpen(Integer)
----
 
+Number of all open within the period 
 
-Number of all open within the period
+**Parameter:** 
+ - **open** Integer
 
-
-    	///
-    
-
-
-
-* **Open:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleSummary thing;
+Integer open;
+thing.SetOpen(open);
+```
 

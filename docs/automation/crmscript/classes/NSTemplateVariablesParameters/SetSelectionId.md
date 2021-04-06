@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_SetSelectionId
+title: SetSelectionId(Integer selectionId)
+intellisense: NSTemplateVariablesParameters.SetSelectionId
+keywords: NSTemplateVariablesParameters, GetSelectionId
+so.topic: reference
 ---
-title: Void SetSelectionId(Integer SelectionId)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetSelectionId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSelectionId(Integer)
----
-
 
 Identifier for a selection
 
+**Parameter:** 
+ - **selectionId** Integer
 
-
-* **SelectionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer selectionId;
+thing.SetSelectionId(selectionId);
+```
 

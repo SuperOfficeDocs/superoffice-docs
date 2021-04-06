@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaintConfiguration_GetPeriod3
 title: Integer GetPeriod3()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Integer GetPeriod3()
-intellisense: 1
-classref: 1
-keywords: GetPeriod3()
+intellisense: NSSaintConfiguration.GetPeriod3
+keywords: NSSaintConfiguration, GetPeriod3
+so.topic: reference
 ---
-
 
 Length of the third counter period
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaintConfiguration thing;
+Integer period3  = thing.GetPeriod3();
+```
 
 

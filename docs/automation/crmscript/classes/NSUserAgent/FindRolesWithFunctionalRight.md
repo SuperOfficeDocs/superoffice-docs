@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_FindRolesWithFunctionalRight
+title: MDOListItemArray FindRolesWithFunctionalRight(String functionalRightName)
+intellisense: NSUserAgent.FindRolesWithFunctionalRight
+keywords: NSUserAgent, FindRolesWithFunctionalRight
+so.topic: reference
 ---
-title: NSMDOListItem[] FindRolesWithFunctionalRight(String functionalRightName)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSMDOListItem[] FindRolesWithFunctionalRight(String p_0)
-intellisense: 1
-classref: 1
-keywords: FindRolesWithFunctionalRight(String)
----
 
+Find all roles with a given functional right. The roles matched must contain the specified functional right. 
 
-Find all roles with a given functional right. The roles matched must contain the specified functional right.
+**Parameters:**
+ - **functionalRightName** Functional right name to search for
 
+**Returns:** Roles that contains the given functional right
 
-
-* **functionalRightName:** Functional right name to search for
-* **Returns:** Roles that contains the given functional right
-
+```crmscript
+NSUserAgent agent;
+String functionalRightName;
+MDOListItemArray res = agent.FindRolesWithFunctionalRight(functionalRightName);
+```
 

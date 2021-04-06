@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArea_GetAreaId
 title: Integer GetAreaId()
-path: /EJScript/Classes/NSArea/Member functions/Integer GetAreaId()
-intellisense: 1
-classref: 1
-sortOrder: 1241
-keywords: GetAreaId()
+intellisense: NSArea.GetAreaId
+keywords: NSArea, GetAreaId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSArea thing;
+Integer areaId  = thing.GetAreaId();
+```
 
 

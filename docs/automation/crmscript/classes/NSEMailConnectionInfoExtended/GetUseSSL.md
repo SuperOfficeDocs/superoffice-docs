@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfoExtended_GetUseSSL
 title: Bool GetUseSSL()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Bool GetUseSSL()
-intellisense: 1
-classref: 1
-sortOrder: 2922
-keywords: GetUseSSL()
+intellisense: NSEMailConnectionInfoExtended.GetUseSSL
+keywords: NSEMailConnectionInfoExtended, GetUseSSL
+so.topic: reference
 ---
-
 
 Use a secure connection with the server
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSEMailConnectionInfoExtended thing;
+Bool useSSL  = thing.GetUseSSL();
+```
 
 

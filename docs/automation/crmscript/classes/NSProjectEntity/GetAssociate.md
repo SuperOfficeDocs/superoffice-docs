@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetAssociate
+title: Associate GetAssociate()
+intellisense: NSProjectEntity.GetAssociate
+keywords: NSProjectEntity, GetAssociate
+so.topic: reference
 ---
-title: NSAssociate GetAssociate()
-path: /EJScript/Classes/NSProjectEntity/Member functions/NSAssociate GetAssociate()
-intellisense: 1
-classref: 1
-keywords: GetAssociate()
----
-
 
 The person that created the project
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSProjectEntity thing;
+Associate associate  = thing.GetAssociate();
+```
 
 

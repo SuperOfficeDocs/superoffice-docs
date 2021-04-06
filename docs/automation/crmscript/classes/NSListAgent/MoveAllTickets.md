@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_MoveAllTickets
 title: Void MoveAllTickets(Integer fromTicketCategoryId, Integer toTicketCategoryId)
-path: /EJScript/Classes/NSListAgent/Member functions/Void MoveAllTickets(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-keywords: MoveAllTickets(Integer,Integer)
+intellisense: NSListAgent.MoveAllTickets
+keywords: NSListAgent, MoveAllTickets
+so.topic: reference
 ---
-
 
 Move all tickets from one ticket category to another
 
+**Parameters:**
+ - **fromTicketCategoryId** The id of the category we want to move tickets from
+ - **toTicketCategoryId** The id of the category we want to move the tickets to
 
+**Returns:** This method has no return value
 
-* **fromTicketCategoryId:** The id of the category we want to move tickets from
-* **toTicketCategoryId:** The id of the category we want to move the tickets to
-* **Returns:** This method has no return value
-
+```crmscript
+NSListAgent agent;
+Integer fromTicketCategoryId;
+Integer toTicketCategoryId;
+Void res = agent.MoveAllTickets(fromTicketCategoryId, toTicketCategoryId);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreference_GetTableName
 title: String GetTableName()
-path: /EJScript/Classes/NSPreference/Member functions/String GetTableName()
-intellisense: 1
-classref: 1
-keywords: GetTableName()
+intellisense: NSPreference.GetTableName
+keywords: NSPreference, GetTableName
+so.topic: reference
 ---
-
 
 For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name of the table which the value reference to.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPreference thing;
+String tableName  = thing.GetTableName();
+```
 
 

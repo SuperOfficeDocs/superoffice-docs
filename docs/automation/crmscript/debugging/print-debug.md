@@ -1,6 +1,6 @@
 ---
-title: crmscript_debug_print_debug
-description: Print debug
+uid: crmscript_debug_print_debug
+title: Print debug
 author:
 so.date:
 keywords:

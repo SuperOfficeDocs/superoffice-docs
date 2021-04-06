@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetFolderName
+title: SetFolderName(String folderName)
+intellisense: NSEMailEntity.SetFolderName
+keywords: NSEMailEntity, GetFolderName
+so.topic: reference
 ---
-title: Void SetFolderName(String FolderName)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetFolderName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2983
-keywords: SetFolderName(String)
----
-
 
 Name of folder the e-mail belongs in
 
+**Parameter:** 
+ - **folderName** String
 
-
-* **FolderName:** String
-* **Returns:** String
-
+```crmscript
+NSEMailEntity thing;
+String folderName;
+thing.SetFolderName(folderName);
+```
 

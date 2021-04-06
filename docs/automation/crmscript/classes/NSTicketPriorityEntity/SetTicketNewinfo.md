@@ -1,17 +1,23 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetTicketNewinfo
+title: SetTicketNewinfo(TicketPriorityEscalateEvent ticketNewinfo)
+intellisense: NSTicketPriorityEntity.SetTicketNewinfo
+keywords: NSTicketPriorityEntity, GetTicketNewinfo
+so.topic: reference
 ---
-title: Void SetTicketNewinfo(NSTicketPriorityEscalateEvent TicketNewinfo)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetTicketNewinfo(NSTicketPriorityEscalateEvent p_0)
-intellisense: 1
-classref: 1
-keywords: SetTicketNewinfo(NSTicketPriorityEscalateEvent)
----
-
 
 This field indicates what to do with the escalation chain when the request gets new info
 
+**Parameter:** 
+ - **ticketNewinfo** TicketPriorityEscalateEvent
+     - Enum: -1 = None 
+     - Enum: 0 = Stop 
+     - Enum: 1 = Continue 
+     - Enum: 2 = Restart 
 
-
-* **TicketNewinfo:** TicketPriorityEscalateEvent
-* **Returns:** TicketPriorityEscalateEvent
-
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityEscalateEvent ticketNewinfo;
+thing.SetTicketNewinfo(ticketNewinfo);
+```
 

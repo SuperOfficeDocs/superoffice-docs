@@ -1,9 +1,9 @@
 ---
-title: Void sendNewTicketMessage(Integer ticketId, Bool onlyToHotLlist)
-path: /EJScript/Classes/Notify/Member functions/Void sendNewTicketMessage(Integer ticketId, Bool onlyToHotLlist)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Notify_sendNewTicketMessage_Integer_ticketId_Bool_onlyToHotLlist
+title: Notify.sendNewTicketMessage(Integer ticketId, Bool onlyToHotLlist)
+intellisense: Notify.sendNewTicketMessage
 keywords: sendNewTicketMessage(Integer,Bool)
+so.topic: reference
 ---
 
 

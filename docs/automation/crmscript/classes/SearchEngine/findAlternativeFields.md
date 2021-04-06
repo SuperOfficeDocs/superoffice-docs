@@ -1,9 +1,9 @@
 ---
-title: String[] findAlternativeFields(String fieldBeginsWith)
-path: /EJScript/Classes/SearchEngine/member functions/String[] findAlternativeFields(String fieldBeginsWith)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_findAlternativeFields_String_fieldBeginsWith
+title: SearchEngine.findAlternativeFields(String fieldBeginsWith)
+intellisense: SearchEngine.findAlternativeFields
 keywords: findAlternativeFields(String)
+so.topic: reference
 ---
 
 

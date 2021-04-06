@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_SetUniqueHash
+title: SetUniqueHash(Integer uniqueHash)
+intellisense: NSArchiveRestrictionInfo.SetUniqueHash
+keywords: NSArchiveRestrictionInfo, GetUniqueHash
+so.topic: reference
 ---
-title: Void SetUniqueHash(Integer UniqueHash)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetUniqueHash(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1236
-keywords: SetUniqueHash(Integer)
----
 
 
-* **UniqueHash:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **uniqueHash** Integer
+
+```crmscript
+NSArchiveRestrictionInfo thing;
+Integer uniqueHash;
+thing.SetUniqueHash(uniqueHash);
+```
 

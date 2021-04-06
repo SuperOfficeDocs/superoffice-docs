@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCurrencyList
+title: NSCurrency[] GetCurrencyList(Integer[]  currencyIds);
+intellisense: NSListAgent.GetCurrencyList
+keywords: NSListAgent, GetCurrencyList
+so.topic: reference
 ---
-title: NSCurrency[] GetCurrencyList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrency[] GetCurrencyList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetCurrencyList(Integer[])
----
 
-Gets an array of Currency objects.
+Gets a vector of Currency objects.
 
+**Parameters:**
+ - **currencyIds** The identifiers of the NSCurrency objects
 
-* **p0:** IntegerArray of identifiers for Currency
-* **Returns:** Array of NSCurrency
+**Returns:** Vector of NSCurrency objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetCurrencyList(ids);
+```
 

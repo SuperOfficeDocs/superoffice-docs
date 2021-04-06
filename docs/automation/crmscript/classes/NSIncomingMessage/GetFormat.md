@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSIncomingMessage_GetFormat
 title: String GetFormat()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetFormat()
-intellisense: 1
-classref: 1
-sortOrder: 3987
-keywords: GetFormat()
+intellisense: NSIncomingMessage.GetFormat
+keywords: NSIncomingMessage, GetFormat
+so.topic: reference
 ---
-
 
 Format of the content
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSIncomingMessage thing;
+String format  = thing.GetFormat();
+```
 
 

@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAgent_RemoveProduct
 title: Void RemoveProduct(Integer productId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void RemoveProduct(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: RemoveProduct(Integer)
+intellisense: NSQuoteAgent.RemoveProduct
+keywords: NSQuoteAgent, RemoveProduct
+so.topic: reference
 ---
-
 
 Removes a product from the database
 
-
-
-* **productId:** The database id of the product to remove
-
-
+**Parameters:**
+ - **productId** The database id of the product to remove

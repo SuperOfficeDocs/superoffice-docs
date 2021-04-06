@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptAgent
 title: NSCRMScriptAgent
-path: /EJScript/Classes/NSCRMScriptAgent
-intellisense: 1
-classref: 1
-sortOrder: 2112
+intellisense: Void.NSCRMScriptAgent
+keywords: NSCRMScriptAgent
+so.topic: reference
 ---
-
 
 Manage and execute CRMScript functions.
 
-
-
+```crmscript
+NSCRMScriptAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

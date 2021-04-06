@@ -1,13 +1,22 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetUserDefinedFields
+title: SetUserDefinedFields(Map udefs)
+intellisense: NSProjectEntity.SetUserDefinedFields
+keywords: NSProjectEntity, SetUserDefinedFields
+so.topic: reference
 ---
-title: Void SetUserDefinedFields(Map fields)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetUserDefinedFields(Map p_0)
-intellisense: 1
-classref: 1
-keywords: SetUserDefinedFields(Map)
----
 
+Set the user-defined fields on the ProjectEntity as a map.
 
-* **fields:** Map
-* **Returns:** Void
+**Parameter:** 
+ - **udefs** Map user defined field values encoded as strings.
 
+```crmscript
+NSProjectEntity thing;
+Map udefs;
+udefs["SuperOffice:1"] = "[I:123]";
+udefs["SuperOffice:1"] = "123"; // this will also work, but beware of decimal point variations in different languages
+udefs["custom.progid"] = "foobar";
+thing.SetUserDefinedFields(udefs);
+```
 

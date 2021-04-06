@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_GetIsMandatory
 title: Bool GetIsMandatory()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Bool GetIsMandatory()
-intellisense: 1
-classref: 1
-sortOrder: 3465
-keywords: GetIsMandatory()
+intellisense: NSFieldInfoBase.GetIsMandatory
+keywords: NSFieldInfoBase, GetIsMandatory
+so.topic: reference
 ---
-
 
 0 = no, 1 = yes (field must be filled out)
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFieldInfoBase thing;
+Bool isMandatory  = thing.GetIsMandatory();
+```
 
 

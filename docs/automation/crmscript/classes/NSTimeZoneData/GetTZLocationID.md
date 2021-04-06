@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneData_GetTZLocationID
 title: Integer GetTZLocationID()
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Integer GetTZLocationID()
-intellisense: 1
-classref: 1
-keywords: GetTZLocationID()
+intellisense: NSTimeZoneData.GetTZLocationID
+keywords: NSTimeZoneData, GetTZLocationID
+so.topic: reference
 ---
-
 
 Timezone location ID
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTimeZoneData thing;
+Integer tZLocationID  = thing.GetTZLocationID();
+```
 
 

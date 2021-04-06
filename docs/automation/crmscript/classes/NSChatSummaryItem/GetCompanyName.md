@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_GetCompanyName
 title: String GetCompanyName()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/String GetCompanyName()
-intellisense: 1
-classref: 1
-sortOrder: 1538
-keywords: GetCompanyName()
+intellisense: NSChatSummaryItem.GetCompanyName
+keywords: NSChatSummaryItem, GetCompanyName
+so.topic: reference
 ---
-
 
 The name of the customers company, if provided
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSChatSummaryItem thing;
+String companyName  = thing.GetCompanyName();
+```
 
 

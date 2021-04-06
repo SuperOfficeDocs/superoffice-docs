@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetDbiLastModified
+title: SetDbiLastModified(DateTime dbiLastModified)
+intellisense: NSPersonEntity.SetDbiLastModified
+keywords: NSPersonEntity, GetDbiLastModified
+so.topic: reference
 ---
-title: Void SetDbiLastModified(DateTime DbiLastModified)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetDbiLastModified(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetDbiLastModified(DateTime)
----
-
 
 When the entry was last modified.
 
+**Parameter:** 
+ - **dbiLastModified** DateTime
 
-
-* **DbiLastModified:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSPersonEntity thing;
+DateTime dbiLastModified;
+thing.SetDbiLastModified(dbiLastModified);
+```
 

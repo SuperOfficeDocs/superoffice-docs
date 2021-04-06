@@ -1,9 +1,9 @@
 ---
 description: String getParserVariableAsCSV(String paramName, Bool forceQuoting)
-path: /EJScript/Global functions/String getParserVariableAsCSV(String paramName, Bool forceQuoting)
-intellisense: 1
+intellisense: Void.getParserVariableAsCSV
 langref: 1
 keywords: getParserVariableAsCSV(String,Bool)
+so.topic: reference
 ---
 
 

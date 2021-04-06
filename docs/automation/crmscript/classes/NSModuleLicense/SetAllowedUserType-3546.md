@@ -1,9 +1,9 @@
 ---
-title: Void SetAllowedUserType(NSUserType p0)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetAllowedUserType(NSUserType p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSModuleLicense_SetAllowedUserType_NSUserType_p_0
+title: NSModuleLicense.SetAllowedUserType(NSUserType p_0)
+intellisense: NSModuleLicense.SetAllowedUserType
 keywords: SetAllowedUserType(NSUserType)
+so.topic: reference
 ---
 
 

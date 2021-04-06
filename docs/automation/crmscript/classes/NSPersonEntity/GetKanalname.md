@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetKanalname
 title: String GetKanalname()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetKanalname()
-intellisense: 1
-classref: 1
-keywords: GetKanalname()
+intellisense: NSPersonEntity.GetKanalname
+keywords: NSPersonEntity, GetKanalname
+so.topic: reference
 ---
-
 
 Kana last name, used in Japanese versions only
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPersonEntity thing;
+String kanalname  = thing.GetKanalname();
+```
 
 

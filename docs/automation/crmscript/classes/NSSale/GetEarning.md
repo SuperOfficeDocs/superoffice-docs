@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetEarning
 title: Float GetEarning()
-path: /EJScript/Classes/NSSale/Member functions/Float GetEarning()
-intellisense: 1
-classref: 1
-keywords: GetEarning()
+intellisense: NSSale.GetEarning
+keywords: NSSale, GetEarning
+so.topic: reference
 ---
-
 
 Earning on sale
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSale thing;
+Float earning  = thing.GetEarning();
+```
 
 

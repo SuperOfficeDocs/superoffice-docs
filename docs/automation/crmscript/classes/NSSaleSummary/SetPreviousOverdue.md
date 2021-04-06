@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetPreviousOverdue
+title: SetPreviousOverdue(Integer previousOverdue)
+intellisense: NSSaleSummary.SetPreviousOverdue
+keywords: NSSaleSummary, GetPreviousOverdue
+so.topic: reference
 ---
-title: Void SetPreviousOverdue(Integer PreviousOverdue)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetPreviousOverdue(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPreviousOverdue(Integer)
----
-
 
 Number of all open sales with date before this period
 
+**Parameter:** 
+ - **previousOverdue** Integer
 
-
-* **PreviousOverdue:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleSummary thing;
+Integer previousOverdue;
+thing.SetPreviousOverdue(previousOverdue);
+```
 

@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_GetNewMail
+title: EMailEnvelopeArray GetNewMail(IntegerArray folders)
+intellisense: NSEMailAgent.GetNewMail
+keywords: NSEMailAgent, GetNewMail
+so.topic: reference
 ---
-title: NSEMailEnvelope[] GetNewMail(Integer[] folders)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEnvelope[] GetNewMail(Integer[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2834
-keywords: GetNewMail(Integer[])
----
 
+Get new email in folder(s) for current associate
 
-Get new email in `folder(s)` for current associate
+**Parameters:**
+ - **folders** List of folder ids to check for new email
 
+**Returns:** The downloaded email envelopes
 
-
-* **folders:** List of folder ids to check for new email
-* **Returns:** The downloaded email envelopes
-
+```crmscript
+NSEMailAgent agent;
+IntegerArray folders;
+EMailEnvelopeArray res = agent.GetNewMail(folders);
+```
 

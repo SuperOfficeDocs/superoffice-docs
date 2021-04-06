@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoDateTime_GetDefaultValue
 title: DateTime GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoDateTime/Member functions/DateTime GetDefaultValue()
-intellisense: 1
-classref: 1
-sortOrder: 3500
-keywords: GetDefaultValue()
+intellisense: NSFieldInfoDateTime.GetDefaultValue
+keywords: NSFieldInfoDateTime, GetDefaultValue
+so.topic: reference
 ---
-
 
 Default Date + time value
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSFieldInfoDateTime thing;
+DateTime defaultValue  = thing.GetDefaultValue();
+```
 
 

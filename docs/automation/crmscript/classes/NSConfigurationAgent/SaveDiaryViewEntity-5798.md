@@ -1,10 +1,10 @@
 ---
-title: Void SaveDiaryViewEntity(NSDiaryViewEntity diaryViewEntity)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/Void SaveDiaryViewEntity(NSDiaryViewEntity p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSConfigurationAgent_SaveDiaryViewEntity_NSDiaryViewEntity_p_0
+title: NSConfigurationAgent.SaveDiaryViewEntity(NSDiaryViewEntity p_0)
+intellisense: NSConfigurationAgent.SaveDiaryViewEntity
 sortOrder: 1625
 keywords: SaveDiaryViewEntity(NSDiaryViewEntity)
+so.topic: reference
 ---
 
 

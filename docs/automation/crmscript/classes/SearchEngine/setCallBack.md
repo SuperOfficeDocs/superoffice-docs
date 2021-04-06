@@ -1,9 +1,9 @@
 ---
-title: Void setCallBack(String functionName)
-path: /EJScript/Classes/SearchEngine/member functions/Void setCallBack(String functionName)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_setCallBack_String_functionName
+title: SearchEngine.setCallBack(String functionName)
+intellisense: SearchEngine.setCallBack
 keywords: setCallBack(String)
+so.topic: reference
 ---
 
 Set an ejscript function as a callback that will be used to convert the values before they are displayed in the grid.

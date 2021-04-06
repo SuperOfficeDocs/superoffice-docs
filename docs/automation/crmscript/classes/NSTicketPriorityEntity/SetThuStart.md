@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetThuStart
+title: SetThuStart(DateTime thuStart)
+intellisense: NSTicketPriorityEntity.SetThuStart
+keywords: NSTicketPriorityEntity, GetThuStart
+so.topic: reference
 ---
-title: Void SetThuStart(DateTime ThuStart)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetThuStart(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetThuStart(DateTime)
----
-
 
 The work hour start for Thursdays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **thuStart** DateTime
 
-
-* **ThuStart:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime thuStart;
+thing.SetThuStart(thuStart);
+```
 

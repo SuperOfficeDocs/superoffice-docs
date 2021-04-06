@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetCreatedDate
 title: DateTime GetCreatedDate()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/DateTime GetCreatedDate()
-intellisense: 1
-classref: 1
-sortOrder: 2552
-keywords: GetCreatedDate()
+intellisense: NSDocumentEntity.GetCreatedDate
+keywords: NSDocumentEntity, GetCreatedDate
+so.topic: reference
 ---
-
 
 Registered when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSDocumentEntity thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
 
 

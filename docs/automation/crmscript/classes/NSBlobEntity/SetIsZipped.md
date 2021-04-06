@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBlobEntity_SetIsZipped
+title: SetIsZipped(Bool isZipped)
+intellisense: NSBlobEntity.SetIsZipped
+keywords: NSBlobEntity, GetIsZipped
+so.topic: reference
 ---
-title: Void SetIsZipped(Bool IsZipped)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetIsZipped(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1461
-keywords: SetIsZipped(Bool)
----
-
 
 Has the data been zipped.
 
+**Parameter:** 
+ - **isZipped** Bool
 
-
-* **IsZipped:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSBlobEntity thing;
+Bool isZipped;
+thing.SetIsZipped(isZipped);
+```
 

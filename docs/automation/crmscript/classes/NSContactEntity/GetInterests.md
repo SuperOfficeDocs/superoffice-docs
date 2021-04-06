@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_GetInterests
+title: SelectableMDOListItemArray GetInterests()
+intellisense: NSContactEntity.GetInterests
+keywords: NSContactEntity, GetInterests
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] GetInterests()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSSelectableMDOListItem[] GetInterests()
-intellisense: 1
-classref: 1
-sortOrder: 1865
-keywords: GetInterests()
----
-
 
 The contact's available and selected interests.
 
+**Returns:** SelectableMDOListItemArray
 
 
-* **Returns:** SelectableMDOListItemArray
+```crmscript
+NSContactEntity thing;
+SelectableMDOListItemArray interests  = thing.GetInterests();
+```
 
 

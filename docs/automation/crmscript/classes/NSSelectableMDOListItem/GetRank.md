@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSSelectableMDOListItem.GetRank
+keywords: NSSelectableMDOListItem, GetRank
+so.topic: reference
 ---
-
 
 The rank of the ListItem
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectableMDOListItem thing;
+Integer rank  = thing.GetRank();
+```
 
 

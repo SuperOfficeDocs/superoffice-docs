@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetHideLabel
 title: Bool GetHideLabel()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Bool GetHideLabel()
-intellisense: 1
-classref: 1
-keywords: GetHideLabel()
+intellisense: NSUserDefinedFieldInfo.GetHideLabel
+keywords: NSUserDefinedFieldInfo, GetHideLabel
+so.topic: reference
 ---
-
 
 Hide the label if 1
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSUserDefinedFieldInfo thing;
+Bool hideLabel  = thing.GetHideLabel();
+```
 
 

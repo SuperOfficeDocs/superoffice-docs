@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetName
+title: SetName(String name)
+intellisense: NSWebPanelEntity.SetName
+keywords: NSWebPanelEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 The name of the web panel
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSWebPanelEntity thing;
+String name;
+thing.SetName(name);
+```
 

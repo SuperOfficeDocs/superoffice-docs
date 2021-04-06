@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAccount_GetErrorCount
 title: Integer GetErrorCount()
-path: /EJScript/Classes/NSEMailAccount/Member functions/Integer GetErrorCount()
-intellisense: 1
-classref: 1
-sortOrder: 2747
-keywords: GetErrorCount()
+intellisense: NSEMailAccount.GetErrorCount
+keywords: NSEMailAccount, GetErrorCount
+so.topic: reference
 ---
-
 
 Count of concurring errors of fetching email. Readonly field
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailAccount thing;
+Integer errorCount  = thing.GetErrorCount();
+```
 
 

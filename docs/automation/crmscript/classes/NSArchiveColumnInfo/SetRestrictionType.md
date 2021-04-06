@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_SetRestrictionType
+title: SetRestrictionType(String restrictionType)
+intellisense: NSArchiveColumnInfo.SetRestrictionType
+keywords: NSArchiveColumnInfo, GetRestrictionType
+so.topic: reference
 ---
-title: Void SetRestrictionType(String RestrictionType)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetRestrictionType(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1163
-keywords: SetRestrictionType(String)
----
-
 
 The data type of the restriction; use this to retrieve the legal operators for the restriction.
 
+**Parameter:** 
+ - **restrictionType** String
 
-
-* **RestrictionType:** String
-* **Returns:** String
-
+```crmscript
+NSArchiveColumnInfo thing;
+String restrictionType;
+thing.SetRestrictionType(restrictionType);
+```
 

@@ -1,12 +1,21 @@
----
-title: NSArea[] GetAreaList(Integer[] p0)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSArea[] GetAreaList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetAreaList(Integer[])
+﻿---
+uid: crmscript_ref_NSReplicationAgent_GetAreaList
+title: NSArea[] GetAreaList(Integer[]  areaIds);
+intellisense: NSReplicationAgent.GetAreaList
+keywords: NSReplicationAgent, GetAreaList
+so.topic: reference
 ---
 
+Gets a vector of Area objects.
 
-* **p0:** IntegerArray of identifiers for Area
-* **Returns:** Array of NSArea
+**Parameters:**
+ - **areaIds** The identifiers of the NSArea objects
+
+**Returns:** Vector of NSArea objects
+
+```crmscript
+Integer[] ids;
+NSReplicationAgent agent;
+agent.GetAreaList(ids);
+```
 

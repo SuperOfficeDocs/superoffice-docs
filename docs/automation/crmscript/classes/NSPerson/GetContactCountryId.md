@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetContactCountryId
 title: Integer GetContactCountryId()
-path: /EJScript/Classes/NSPerson/Member functions/Integer GetContactCountryId()
-intellisense: 1
-classref: 1
-keywords: GetContactCountryId()
+intellisense: NSPerson.GetContactCountryId
+keywords: NSPerson, GetContactCountryId
+so.topic: reference
 ---
-
 
 The persons contact country id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPerson thing;
+Integer contactCountryId  = thing.GetContactCountryId();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectMember_GetMrmrs
 title: String GetMrmrs()
-path: /EJScript/Classes/NSProjectMember/Member functions/String GetMrmrs()
-intellisense: 1
-classref: 1
-keywords: GetMrmrs()
+intellisense: NSProjectMember.GetMrmrs
+keywords: NSProjectMember, GetMrmrs
+so.topic: reference
 ---
-
 
 e.g. Mrs, Dr, Ms.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProjectMember thing;
+String mrmrs  = thing.GetMrmrs();
+```
 
 

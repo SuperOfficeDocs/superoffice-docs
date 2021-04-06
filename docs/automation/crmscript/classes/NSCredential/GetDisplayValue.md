@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCredential_GetDisplayValue
 title: String GetDisplayValue()
-path: /EJScript/Classes/NSCredential/Member functions/String GetDisplayValue()
-intellisense: 1
-classref: 1
-sortOrder: 2051
-keywords: GetDisplayValue()
+intellisense: NSCredential.GetDisplayValue
+keywords: NSCredential, GetDisplayValue
+so.topic: reference
 ---
-
 
 The value displayed to the user. this will typically be the users login name in active directory.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCredential thing;
+String displayValue  = thing.GetDisplayValue();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: String extractHtmlBody(Bool convertBodyToDiv)
-path: /EJScript/Classes/String/Member functions/String extractHtmlBody(Bool convertBodyToDiv)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_extractHtmlBody_Bool_convertBodyToDiv
+title: String.extractHtmlBody(Bool convertBodyToDiv)
+intellisense: String.extractHtmlBody
 keywords: extractHtmlBody(Bool)
+so.topic: reference
 ---
 
 

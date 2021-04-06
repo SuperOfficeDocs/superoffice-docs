@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetUrl
 title: String GetUrl()
-path: /EJScript/Classes/NSProduct/Member functions/String GetUrl()
-intellisense: 1
-classref: 1
-keywords: GetUrl()
+intellisense: NSProduct.GetUrl
+keywords: NSProduct, GetUrl
+so.topic: reference
 ---
-
 
 URL to product information web page.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProduct thing;
+String url  = thing.GetUrl();
+```
 
 

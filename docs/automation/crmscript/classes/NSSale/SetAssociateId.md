@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSSale.SetAssociateId
+keywords: NSSale, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSSale/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociateId(Integer)
----
-
 
 The sale's owner id
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSale thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

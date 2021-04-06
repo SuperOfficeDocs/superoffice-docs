@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetPaperHeight
+title: SetPaperHeight(Integer paperHeight)
+intellisense: NSReportLabelLayoutEntity.SetPaperHeight
+keywords: NSReportLabelLayoutEntity, GetPaperHeight
+so.topic: reference
 ---
-title: Void SetPaperHeight(Integer PaperHeight)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetPaperHeight(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPaperHeight(Integer)
----
-
 
 Paper height in twips
 
+**Parameter:** 
+ - **paperHeight** Integer
 
-
-* **PaperHeight:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer paperHeight;
+thing.SetPaperHeight(paperHeight);
+```
 

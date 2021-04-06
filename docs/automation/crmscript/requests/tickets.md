@@ -1,6 +1,6 @@
 ---
-title: crmscript_tickets
-description: Tickets
+uid: crmscript_tickets
+title: Tickets
 author:
 so.date:
 keywords:

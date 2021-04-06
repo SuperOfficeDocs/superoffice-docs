@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCredentialsGroup_GetDisplayName
 title: String GetDisplayName()
-path: /EJScript/Classes/NSCredentialsGroup/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 2058
-keywords: GetDisplayName()
+intellisense: NSCredentialsGroup.GetDisplayName
+keywords: NSCredentialsGroup, GetDisplayName
+so.topic: reference
 ---
-
 
 The display name of the group to display to the user.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCredentialsGroup thing;
+String displayName  = thing.GetDisplayName();
+```
 
 

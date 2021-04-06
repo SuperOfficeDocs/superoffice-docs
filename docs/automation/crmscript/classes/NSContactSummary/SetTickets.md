@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactSummary_SetTickets
+title: SetTickets(TicketSummaryItemArray tickets)
+intellisense: NSContactSummary.SetTickets
+keywords: NSContactSummary, GetTickets
+so.topic: reference
 ---
-title: Void SetTickets(NSTicketSummaryItem[] Tickets)
-path: /EJScript/Classes/NSContactSummary/Member functions/Void SetTickets(NSTicketSummaryItem[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1993
-keywords: SetTickets(NSTicketSummaryItem[])
----
-
 
 Recent tickets on contact
 
+**Parameter:** 
+ - **tickets** TicketSummaryItemArray
 
-
-* **Tickets:** TicketSummaryItemArray
-* **Returns:** TicketSummaryItemArray
-
+```crmscript
+NSContactSummary thing;
+TicketSummaryItemArray tickets;
+thing.SetTickets(tickets);
+```
 

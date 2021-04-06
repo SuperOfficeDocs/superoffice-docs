@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetFriStop
+title: SetFriStop(DateTime friStop)
+intellisense: NSTicketPriorityEntity.SetFriStop
+keywords: NSTicketPriorityEntity, GetFriStop
+so.topic: reference
 ---
-title: Void SetFriStop(DateTime FriStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetFriStop(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetFriStop(DateTime)
----
-
 
 The work hour stop for Fridays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **friStop** DateTime
 
-
-* **FriStop:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime friStop;
+thing.SetFriStop(friStop);
+```
 

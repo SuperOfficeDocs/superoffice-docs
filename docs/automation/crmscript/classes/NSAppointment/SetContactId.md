@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetContactId
+title: SetContactId(Integer contactId)
+intellisense: NSAppointment.SetContactId
+keywords: NSAppointment, GetContactId
+so.topic: reference
 ---
-title: Void SetContactId(Integer ContactId)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetContactId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 782
-keywords: SetContactId(Integer)
----
-
 
 Contact ID of owning contact, may be 0
 
+**Parameter:** 
+ - **contactId** Integer
 
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointment thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
 

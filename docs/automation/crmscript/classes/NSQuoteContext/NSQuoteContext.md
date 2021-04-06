@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteContext
 title: NSQuoteContext
-path: /EJScript/Classes/NSQuoteContext
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuoteContext
+keywords: NSQuoteContext
+so.topic: reference
 ---
-
 
 The context a quote is created in.
 
-
-
-
-1. autolist
+1. autolist 
 

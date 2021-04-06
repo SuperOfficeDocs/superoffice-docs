@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSmsConfig_SetNsPluginConfig
+title: SetNsPluginConfig(StringDictionary nsPluginConfig)
+intellisense: NSSmsConfig.SetNsPluginConfig
+keywords: NSSmsConfig, GetNsPluginConfig
+so.topic: reference
 ---
-title: Void SetNsPluginConfig(StringDictionary NsPluginConfig)
-path: /EJScript/Classes/NSSmsConfig/Member functions/Void SetNsPluginConfig(StringDictionary p_0)
-intellisense: 1
-classref: 1
-keywords: SetNsPluginConfig(StringDictionary)
----
-
 
 Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password.
 
+**Parameter:** 
+ - **nsPluginConfig** StringDictionary
 
-
-* **NsPluginConfig:** StringDictionary
-* **Returns:** StringDictionary
-
+```crmscript
+NSSmsConfig thing;
+StringDictionary nsPluginConfig;
+thing.SetNsPluginConfig(nsPluginConfig);
+```
 

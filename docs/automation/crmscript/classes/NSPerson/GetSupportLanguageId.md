@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetSupportLanguageId
 title: Integer GetSupportLanguageId()
-path: /EJScript/Classes/NSPerson/Member functions/Integer GetSupportLanguageId()
-intellisense: 1
-classref: 1
-keywords: GetSupportLanguageId()
+intellisense: NSPerson.GetSupportLanguageId
+keywords: NSPerson, GetSupportLanguageId
+so.topic: reference
 ---
-
 
 Support priority ID
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPerson thing;
+Integer supportLanguageId  = thing.GetSupportLanguageId();
+```
 
 

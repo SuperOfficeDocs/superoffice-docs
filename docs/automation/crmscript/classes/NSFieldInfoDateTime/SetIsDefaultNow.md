@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoDateTime_SetIsDefaultNow
+title: SetIsDefaultNow(Bool isDefaultNow)
+intellisense: NSFieldInfoDateTime.SetIsDefaultNow
+keywords: NSFieldInfoDateTime, GetIsDefaultNow
+so.topic: reference
 ---
-title: Void SetIsDefaultNow(Bool IsDefaultNow)
-path: /EJScript/Classes/NSFieldInfoDateTime/Member functions/Void SetIsDefaultNow(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3502
-keywords: SetIsDefaultNow(Bool)
----
-
 
 Should the current date + time be the default?
 
+**Parameter:** 
+ - **isDefaultNow** Bool
 
-
-* **IsDefaultNow:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldInfoDateTime thing;
+Bool isDefaultNow;
+thing.SetIsDefaultNow(isDefaultNow);
+```
 

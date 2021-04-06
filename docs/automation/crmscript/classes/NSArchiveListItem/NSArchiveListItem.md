@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveListItem
 title: NSArchiveListItem
-path: /EJScript/Classes/NSArchiveListItem
-intellisense: 1
-classref: 1
-sortOrder: 1174
+intellisense: Void.NSArchiveListItem
+keywords: NSArchiveListItem
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

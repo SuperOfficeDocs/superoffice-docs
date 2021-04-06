@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEventData_GetBlockExecution
 title: Bool GetBlockExecution()
-path: /EJScript/Classes/NSEventData/Member functions/Bool GetBlockExecution()
-intellisense: 1
-classref: 1
-sortOrder: 3339
-keywords: GetBlockExecution()
+intellisense: NSEventData.GetBlockExecution
+keywords: NSEventData, GetBlockExecution
+so.topic: reference
 ---
-
 
 Whether the context should stop what it is doing, e.g. saving a sale
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSEventData thing;
+Bool blockExecution  = thing.GetBlockExecution();
+```
 
 

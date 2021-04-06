@@ -1,10 +1,10 @@
 ---
-title: String getParam(String p0)
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/String getParam(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ExtraFieldsInfo_getParam_String_p_0
+title: ExtraFieldsInfo.getParam(String p_0)
+intellisense: ExtraFieldsInfo.getParam
 sortOrder: 308
 keywords: getParam(String)
+so.topic: reference
 ---
 
 This function returns the value of the given parameter.

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetMaintenanceDate
 title: DateTime GetMaintenanceDate()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/DateTime GetMaintenanceDate()
-intellisense: 1
-classref: 1
-keywords: GetMaintenanceDate()
+intellisense: NSLicenseInfo.GetMaintenanceDate
+keywords: NSLicenseInfo, GetMaintenanceDate
+so.topic: reference
 ---
-
 
 Expiration date for maintenance. After this date, upgrades should refuse to install.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSLicenseInfo thing;
+DateTime maintenanceDate  = thing.GetMaintenanceDate();
+```
 
 

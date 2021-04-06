@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetPersonFullName
 title: String GetPersonFullName()
-path: /EJScript/Classes/NSDocument/Member functions/String GetPersonFullName()
-intellisense: 1
-classref: 1
-sortOrder: 2443
-keywords: GetPersonFullName()
+intellisense: NSDocument.GetPersonFullName
+keywords: NSDocument, GetPersonFullName
+so.topic: reference
 ---
-
 
 The full name of the person this document belongs to.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocument thing;
+String personFullName  = thing.GetPersonFullName();
+```
 
 

@@ -1,9 +1,9 @@
 ---
 description: Void printBinary(Byte[] bytes)
-path: /EJScript/Global functions/Void printBinary(Byte[] bytes)
-intellisense: 1
+intellisense: Void.printBinary
 langref: 1
 keywords: printBinary(Byte[])
+so.topic: reference
 ---
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoShortText_SetFormatMask
+title: SetFormatMask(String formatMask)
+intellisense: NSFieldInfoShortText.SetFormatMask
+keywords: NSFieldInfoShortText, GetFormatMask
+so.topic: reference
 ---
-title: Void SetFormatMask(String FormatMask)
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/Void SetFormatMask(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3554
-keywords: SetFormatMask(String)
----
-
 
 Formatting mask, can be whatever the controls understand (currently nothing :-))
 
+**Parameter:** 
+ - **formatMask** String
 
-
-* **FormatMask:** String
-* **Returns:** String
-
+```crmscript
+NSFieldInfoShortText thing;
+String formatMask;
+thing.SetFormatMask(formatMask);
+```
 

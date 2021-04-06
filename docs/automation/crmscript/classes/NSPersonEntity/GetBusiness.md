@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetBusiness
+title: Business GetBusiness()
+intellisense: NSPersonEntity.GetBusiness
+keywords: NSPersonEntity, GetBusiness
+so.topic: reference
 ---
-title: NSBusiness GetBusiness()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSBusiness GetBusiness()
-intellisense: 1
-classref: 1
-keywords: GetBusiness()
----
-
 
 Person's business - usually blank. Use Contact.Business instead. Intended for use when individual persons are created. (i.e. when Person.Contact is blank)
 
+**Returns:** Business
 
 
-* **Returns:** Business
+```crmscript
+NSPersonEntity thing;
+Business business  = thing.GetBusiness();
+```
 
 

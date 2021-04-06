@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetDescription
+title: SetDescription(String description)
+intellisense: NSAppointmentEntity.SetDescription
+keywords: NSAppointmentEntity, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 997
-keywords: SetDescription(String)
----
-
 
 Description of the appointment.
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSAppointmentEntity thing;
+String description;
+thing.SetDescription(description);
+```
 

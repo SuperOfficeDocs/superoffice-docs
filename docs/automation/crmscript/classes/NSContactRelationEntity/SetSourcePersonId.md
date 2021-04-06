@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_SetSourcePersonId
+title: SetSourcePersonId(Integer sourcePersonId)
+intellisense: NSContactRelationEntity.SetSourcePersonId
+keywords: NSContactRelationEntity, GetSourcePersonId
+so.topic: reference
 ---
-title: Void SetSourcePersonId(Integer SourcePersonId)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetSourcePersonId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1976
-keywords: SetSourcePersonId(Integer)
----
-
 
 Id of the source person. The value is not mandatory. The person must belong to the source contact.
 
+**Parameter:** 
+ - **sourcePersonId** Integer
 
-
-* **SourcePersonId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContactRelationEntity thing;
+Integer sourcePersonId;
+thing.SetSourcePersonId(sourcePersonId);
+```
 

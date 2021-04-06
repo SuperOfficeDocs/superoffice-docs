@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteConnection_GetQuoteConnectionId
 title: Integer GetQuoteConnectionId()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Integer GetQuoteConnectionId()
-intellisense: 1
-classref: 1
-keywords: GetQuoteConnectionId()
+intellisense: NSQuoteConnection.GetQuoteConnectionId
+keywords: NSQuoteConnection, GetQuoteConnectionId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteConnection thing;
+Integer quoteConnectionId  = thing.GetQuoteConnectionId();
+```
 
 

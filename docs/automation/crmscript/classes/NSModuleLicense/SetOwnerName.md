@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicense_SetOwnerName
+title: SetOwnerName(String ownerName)
+intellisense: NSModuleLicense.SetOwnerName
+keywords: NSModuleLicense, GetOwnerName
+so.topic: reference
 ---
-title: Void SetOwnerName(String OwnerName)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetOwnerName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwnerName(String)
----
-
 
 The name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.
 
+**Parameter:** 
+ - **ownerName** String
 
-
-* **OwnerName:** String
-* **Returns:** String
-
+```crmscript
+NSModuleLicense thing;
+String ownerName;
+thing.SetOwnerName(ownerName);
+```
 

@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoRelation
 title: NSFieldInfoRelation
-path: /EJScript/Classes/NSFieldInfoRelation
-intellisense: 1
-classref: 1
-sortOrder: 3535
+intellisense: Void.NSFieldInfoRelation
+keywords: NSFieldInfoRelation
+so.topic: reference
 ---
-
 
 Relation to other table database field.
 
-
-
-
-1. autolist
+1. autolist 
 

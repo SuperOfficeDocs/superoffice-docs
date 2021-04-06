@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAttachment_GetStream
+title: Stream GetStream()
+intellisense: NSEMailAttachment.GetStream
+keywords: NSEMailAttachment, GetStream
+so.topic: reference
 ---
-title: NSStream GetStream()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/NSStream GetStream()
-intellisense: 1
-classref: 1
-sortOrder: 2893
-keywords: GetStream()
----
-
 
 Binary stream for outgoing attachments. This property will not be populated for existing e-mail items.
 
+**Returns:** Stream
 
 
-* **Returns:** Stream
+```crmscript
+NSEMailAttachment thing;
+Stream stream  = thing.GetStream();
+```
 
 

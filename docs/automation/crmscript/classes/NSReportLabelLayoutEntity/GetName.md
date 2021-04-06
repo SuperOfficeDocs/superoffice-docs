@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSReportLabelLayoutEntity.GetName
+keywords: NSReportLabelLayoutEntity, GetName
+so.topic: reference
 ---
-
 
 Name of the label layout
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSReportLabelLayoutEntity thing;
+String name  = thing.GetName();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer getHour()
-path: /EJScript/Classes/Time/Member functions/Integer getHour()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Time_getHour
+title: Time.getHour()
+intellisense: Time.getHour
 keywords: getHour()
+so.topic: reference
 ---
 
 This function returns the hours of the time as an Integer.

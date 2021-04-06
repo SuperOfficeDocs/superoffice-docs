@@ -1,9 +1,9 @@
 ---
-title: Void addGroup(Integer p0, Bool p1, Bool compareAsNumber)
-path: /EJScript/Classes/StatLib/Member functions/Void addGroup(Integer p_0, Bool p_1, Bool compareAsNumber)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatLib_addGroup_Integer_p_0_Bool_p_1_Bool_compareAsNumber
+title: StatLib.addGroup(Integer p_0, Bool p_1, Bool compareAsNumber)
+intellisense: StatLib.addGroup
 keywords: addGroup(Integer,Bool,Bool)
+so.topic: reference
 ---
 
 

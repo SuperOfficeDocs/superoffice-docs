@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_SetEventmess
+title: SetEventmess(String eventmess)
+intellisense: NSSystemEventEntity.SetEventmess
+keywords: NSSystemEventEntity, GetEventmess
+so.topic: reference
 ---
-title: Void SetEventmess(String Eventmess)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetEventmess(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetEventmess(String)
----
-
 
 Message to be shown, entered by administrator
 
+**Parameter:** 
+ - **eventmess** String
 
-
-* **Eventmess:** String
-* **Returns:** String
-
+```crmscript
+NSSystemEventEntity thing;
+String eventmess;
+thing.SetEventmess(eventmess);
+```
 

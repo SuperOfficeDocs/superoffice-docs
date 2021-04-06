@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSUntrustedCredentials
 title: NSUntrustedCredentials
-path: /EJScript/Classes/NSUntrustedCredentials
-intellisense: 1
-classref: 1
+intellisense: Void.NSUntrustedCredentials
+keywords: NSUntrustedCredentials
+so.topic: reference
 ---
-
 
 Credentials for external authentication.
 
-
-
-
-1. autolist
+1. autolist 
 

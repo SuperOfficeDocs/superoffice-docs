@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLegalBase_SetRank
+title: SetRank(Integer rank)
+intellisense: NSLegalBase.SetRank
+keywords: NSLegalBase, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSLegalBase/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 Rank of this consent source
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSLegalBase thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

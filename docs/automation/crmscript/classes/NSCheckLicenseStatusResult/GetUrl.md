@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCheckLicenseStatusResult_GetUrl
 title: String GetUrl()
-path: /EJScript/Classes/NSCheckLicenseStatusResult/Member functions/String GetUrl()
-intellisense: 1
-classref: 1
-sortOrder: 1553
-keywords: GetUrl()
+intellisense: NSCheckLicenseStatusResult.GetUrl
+keywords: NSCheckLicenseStatusResult, GetUrl
+so.topic: reference
 ---
-
 
 Url to show to the user.  This is relevant when LinkType is 60.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCheckLicenseStatusResult thing;
+String url  = thing.GetUrl();
+```
 
 

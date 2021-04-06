@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_GetConsentPerson
+title: NSConsentPerson GetConsentPerson(Integer consentPersonId);
+intellisense: NSPersonAgent.GetConsentPerson
+keywords: NSPersonAgent, GetConsentPerson
+so.topic: reference
 ---
-title: NSConsentPerson GetConsentPerson(Integer consentPersonId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSConsentPerson GetConsentPerson(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetConsentPerson(Integer)
----
 
+Gets a NSConsentPerson object.
 
-Gets a ConsentPerson object.
+**Parameters:**
+ - **consentPersonId** The identifier of the NSConsentPerson object
 
+**Returns:** NSConsentPerson
 
-
-* **consentPersonId:** The identifier of the ConsentPerson object
-* **Returns:** ConsentPerson
-
+```crmscript
+NSPersonAgent agent;
+NSConsentPerson thing = agent.GetConsentPerson(123);
+```
 

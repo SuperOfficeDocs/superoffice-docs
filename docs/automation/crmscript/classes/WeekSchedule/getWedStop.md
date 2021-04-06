@@ -1,9 +1,9 @@
 ---
-title: Time getWedStop()
-path: /EJScript/Classes/WeekSchedule/Member functions/Time getWedStop()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_getWedStop
+title: WeekSchedule.getWedStop()
+intellisense: WeekSchedule.getWedStop
 keywords: getWedStop()
+so.topic: reference
 ---
 
 

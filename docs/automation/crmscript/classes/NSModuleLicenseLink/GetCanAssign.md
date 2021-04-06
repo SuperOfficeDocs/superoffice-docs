@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_GetCanAssign
 title: Bool GetCanAssign()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Bool GetCanAssign()
-intellisense: 1
-classref: 1
-keywords: GetCanAssign()
+intellisense: NSModuleLicenseLink.GetCanAssign
+keywords: NSModuleLicenseLink, GetCanAssign
+so.topic: reference
 ---
-
 
 Can a specific user assign this module license
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSModuleLicenseLink thing;
+Bool canAssign  = thing.GetCanAssign();
+```
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void writeBinary(Byte[] data)
-path: /EJScript/Classes/File/Member functions/Void writeBinary(Byte[] data)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_File_writeBinary_Byte__data
+title: File.writeBinary(Byte[] data)
+intellisense: File.writeBinary
 sortOrder: 353
 keywords: writeBinary(Byte[])
+so.topic: reference
 ---
 
 Write binary data to file.

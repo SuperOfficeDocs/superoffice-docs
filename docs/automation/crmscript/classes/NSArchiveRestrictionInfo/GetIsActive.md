@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetIsActive
 title: Bool GetIsActive()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Bool GetIsActive()
-intellisense: 1
-classref: 1
-sortOrder: 1212
-keywords: GetIsActive()
+intellisense: NSArchiveRestrictionInfo.GetIsActive
+keywords: NSArchiveRestrictionInfo, GetIsActive
+so.topic: reference
 ---
-
 
 Is this restriction active?  Inactive restrictions will not influence the generated query
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSArchiveRestrictionInfo thing;
+Bool isActive  = thing.GetIsActive();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem_SetDate
+title: SetDate(DateTime date)
+intellisense: NSActivitySummaryItem.SetDate
+keywords: NSActivitySummaryItem, GetDate
+so.topic: reference
 ---
-title: Void SetDate(DateTime Date)
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Void SetDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 603
-keywords: SetDate(DateTime)
----
-
 
 Start/Document date
 
+**Parameter:** 
+ - **date** DateTime
 
-
-* **Date:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSActivitySummaryItem thing;
+DateTime date;
+thing.SetDate(date);
+```
 

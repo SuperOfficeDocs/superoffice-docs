@@ -1,9 +1,9 @@
 ---
-title: String htmlEncode()
-path: /EJScript/Classes/String/Member functions/String htmlEncode()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_htmlEncode
+title: String.htmlEncode()
+intellisense: String.htmlEncode
 keywords: htmlEncode()
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetRealTimeSpentInternally
 title: Integer GetRealTimeSpentInternally()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetRealTimeSpentInternally()
-intellisense: 1
-classref: 1
-keywords: GetRealTimeSpentInternally()
+intellisense: NSTicket.GetRealTimeSpentInternally
+keywords: NSTicket, GetRealTimeSpentInternally
+so.topic: reference
 ---
-
 
 The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicket thing;
+Integer realTimeSpentInternally  = thing.GetRealTimeSpentInternally();
+```
 
 

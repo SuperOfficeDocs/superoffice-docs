@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTimeZoneData_SetTZLocationCities
+title: SetTZLocationCities(String tZLocationCities)
+intellisense: NSTimeZoneData.SetTZLocationCities
+keywords: NSTimeZoneData, GetTZLocationCities
+so.topic: reference
 ---
-title: Void SetTZLocationCities(String TZLocationCities)
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetTZLocationCities(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTZLocationCities(String)
----
-
 
 Cities associated with location
 
+**Parameter:** 
+ - **tZLocationCities** String
 
-
-* **TZLocationCities:** String
-* **Returns:** String
-
+```crmscript
+NSTimeZoneData thing;
+String tZLocationCities;
+thing.SetTZLocationCities(tZLocationCities);
+```
 

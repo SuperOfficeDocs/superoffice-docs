@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoRelation_GetDefaultValue
 title: Integer GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/Integer GetDefaultValue()
-intellisense: 1
-classref: 1
-sortOrder: 3538
-keywords: GetDefaultValue()
+intellisense: NSFieldInfoRelation.GetDefaultValue
+keywords: NSFieldInfoRelation, GetDefaultValue
+so.topic: reference
 ---
-
 
 Default record id.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFieldInfoRelation thing;
+Integer defaultValue  = thing.GetDefaultValue();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetPost1
 title: String GetPost1()
-path: /EJScript/Classes/NSPerson/Member functions/String GetPost1()
-intellisense: 1
-classref: 1
-keywords: GetPost1()
+intellisense: NSPerson.GetPost1
+keywords: NSPerson, GetPost1
+so.topic: reference
 ---
-
 
 Postal address, used in Japanese versions only
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPerson thing;
+String post1  = thing.GetPost1();
+```
 
 

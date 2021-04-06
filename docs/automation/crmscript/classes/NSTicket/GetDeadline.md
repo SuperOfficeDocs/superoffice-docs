@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetDeadline
 title: DateTime GetDeadline()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetDeadline()
-intellisense: 1
-classref: 1
-keywords: GetDeadline()
+intellisense: NSTicket.GetDeadline
+keywords: NSTicket, GetDeadline
+so.topic: reference
 ---
-
 
 Deadline for ticket.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicket thing;
+DateTime deadline  = thing.GetDeadline();
+```
 
 

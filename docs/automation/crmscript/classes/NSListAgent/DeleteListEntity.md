@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_DeleteListEntity
+title: DeleteListEntity(Integer listEntity);
+intellisense: NSListAgent.DeleteListEntity
+keywords: NSListAgent, DeleteListEntity
+so.topic: reference
 ---
-title: Void DeleteListEntity(Integer listEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteListEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteListEntity(Integer)
----
 
+Deletes the NSListEntity
+  
+**Parameters:**
+ - **listEntityId** The identity of the ListEntity to delete.
 
-Deletes the ListEntity
-
-
-
-* **listEntityId:** The identity of the ListEntity
-
+```crmscript
+NSListAgent agent;
+agent.DeleteListEntity(123);
+```
 

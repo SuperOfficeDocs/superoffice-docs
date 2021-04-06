@@ -1,10 +1,10 @@
 ---
-title: Void setInfoMessage(String infoMessage)
-path: /EJScript/Classes/HtmlElement/Member functions/Void setInfoMessage(String infoMessage)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HtmlElement_setInfoMessage_String_infoMessage
+title: HtmlElement.setInfoMessage(String infoMessage)
+intellisense: HtmlElement.setInfoMessage
 sortOrder: 393
 keywords: setInfoMessage(String)
+so.topic: reference
 ---
 
 # Void setInfoMessage(String infoMessage)

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_SetResponse
+title: SetResponse(String response)
+intellisense: NSFormSubmissionEntity.SetResponse
+keywords: NSFormSubmissionEntity, GetResponse
+so.topic: reference
 ---
-title: Void SetResponse(String Response)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetResponse(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3846
-keywords: SetResponse(String)
----
-
 
 The JSON-formatted response from this form
 
+**Parameter:** 
+ - **response** String
 
-
-* **Response:** String
-* **Returns:** String
-
+```crmscript
+NSFormSubmissionEntity thing;
+String response;
+thing.SetResponse(response);
+```
 

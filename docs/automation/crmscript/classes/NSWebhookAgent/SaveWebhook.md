@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSWebhookAgent_SaveWebhook
+title: NSWebhook SaveWebhook(NSWebhook webhook);
+intellisense: NSWebhookAgent.SaveWebhook
+keywords: NSWebhookAgent, SaveWebhook
+so.topic: reference
 ---
-title: NSWebhook SaveWebhook(NSWebhook webhook)
-path: /EJScript/Classes/NSWebhookAgent/Member functions/NSWebhook SaveWebhook(NSWebhook p_0)
-intellisense: 1
-classref: 1
-keywords: SaveWebhook(NSWebhook)
----
+	  
+Updates the existing NSWebhook or creates a new NSWebhook if the id parameter is 0
+	  
+**Parameters**:
+ - **webhook** The NSWebhook to save.
 
+**Returns:** New or updated NSWebhook
 
-Updates the existing Webhook or creates a new Webhook if the id parameter is empty
-
-
-
-* **webhook:** The Webhook that is saved
-* **Returns:** New or updated Webhook
-
+```crmscript
+NSWebhook  agent;
+NSWebhook thing = agent.CreateDefaultWebhook();
+thing = agent.SaveWebhook(thing);
+```
 

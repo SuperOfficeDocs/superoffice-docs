@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtendedLicenseInfo_SetAccumulatedNextCheckDate
+title: SetAccumulatedNextCheckDate(DateTime accumulatedNextCheckDate)
+intellisense: NSExtendedLicenseInfo.SetAccumulatedNextCheckDate
+keywords: NSExtendedLicenseInfo, GetAccumulatedNextCheckDate
+so.topic: reference
 ---
-title: Void SetAccumulatedNextCheckDate(DateTime AccumulatedNextCheckDate)
-path: /EJScript/Classes/NSExtendedLicenseInfo/Member functions/Void SetAccumulatedNextCheckDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3409
-keywords: SetAccumulatedNextCheckDate(DateTime)
----
 
 
-* **AccumulatedNextCheckDate:** DateTime
-* **Returns:** DateTime
 
+**Parameter:** 
+ - **accumulatedNextCheckDate** DateTime
+
+```crmscript
+NSExtendedLicenseInfo thing;
+DateTime accumulatedNextCheckDate;
+thing.SetAccumulatedNextCheckDate(accumulatedNextCheckDate);
+```
 

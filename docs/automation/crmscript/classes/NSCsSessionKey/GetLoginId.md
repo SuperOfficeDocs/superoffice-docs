@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCsSessionKey_GetLoginId
 title: Integer GetLoginId()
-path: /EJScript/Classes/NSCsSessionKey/Member functions/Integer GetLoginId()
-intellisense: 1
-classref: 1
-sortOrder: 2163
-keywords: GetLoginId()
+intellisense: NSCsSessionKey.GetLoginId
+keywords: NSCsSessionKey, GetLoginId
+so.topic: reference
 ---
-
 
 The id of the login row
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCsSessionKey thing;
+Integer loginId  = thing.GetLoginId();
+```
 
 

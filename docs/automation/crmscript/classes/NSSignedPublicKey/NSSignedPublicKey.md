@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSignedPublicKey
 title: NSSignedPublicKey
-path: /EJScript/Classes/NSSignedPublicKey
-intellisense: 1
-classref: 1
+intellisense: Void.NSSignedPublicKey
+keywords: NSSignedPublicKey
+so.topic: reference
 ---
-
 
 Represents all licenses for this owner at this site.
 
-
-
-
-1. autolist
+1. autolist 
 

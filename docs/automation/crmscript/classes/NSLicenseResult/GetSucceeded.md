@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseResult_GetSucceeded
 title: Bool GetSucceeded()
-path: /EJScript/Classes/NSLicenseResult/Member functions/Bool GetSucceeded()
-intellisense: 1
-classref: 1
-keywords: GetSucceeded()
+intellisense: NSLicenseResult.GetSucceeded
+keywords: NSLicenseResult, GetSucceeded
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSLicenseResult thing;
+Bool succeeded  = thing.GetSucceeded();
+```
 
 

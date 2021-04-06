@@ -1,17 +1,25 @@
+﻿---
+uid: crmscript_ref_NSUser_SetType
+title: SetType(Integer type)
+intellisense: NSUser.SetType
+keywords: NSUser, GetType
+so.topic: reference
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSUser/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetType(Integer)
----
 
+User type: 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate 
 
-User type: 1=InternalAssociate, 2=ResourceAssociate, 3=ExternalAssociate, 4=AnonymousAssociate, 5=SystemAssociate
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = InternalAssociate 
+     - Enum: 2 = ResourceAssociate 
+     - Enum: 3 = ExternalAssociate 
+     - Enum: 4 = AnonymousAssociate 
+     - Enum: 5 = SystemAssociate 
 
-
-
-* **Type:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUser thing;
+Integer type;
+thing.SetType(type);
+```
 

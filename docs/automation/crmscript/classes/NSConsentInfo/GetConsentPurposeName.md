@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo_GetConsentPurposeName
 title: String GetConsentPurposeName()
-path: /EJScript/Classes/NSConsentInfo/Member functions/String GetConsentPurposeName()
-intellisense: 1
-classref: 1
-sortOrder: 1638
-keywords: GetConsentPurposeName()
+intellisense: NSConsentInfo.GetConsentPurposeName
+keywords: NSConsentInfo, GetConsentPurposeName
+so.topic: reference
 ---
-
 
 Name of the ConsentPurpose associated with this consent
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentInfo thing;
+String consentPurposeName  = thing.GetConsentPurposeName();
+```
 
 

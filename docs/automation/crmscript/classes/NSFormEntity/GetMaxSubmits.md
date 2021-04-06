@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetMaxSubmits
 title: Integer GetMaxSubmits()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetMaxSubmits()
-intellisense: 1
-classref: 1
-sortOrder: 3792
-keywords: GetMaxSubmits()
+intellisense: NSFormEntity.GetMaxSubmits
+keywords: NSFormEntity, GetMaxSubmits
+so.topic: reference
 ---
-
 
 After this number of submits, the form will become inactive
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFormEntity thing;
+Integer maxSubmits  = thing.GetMaxSubmits();
+```
 
 

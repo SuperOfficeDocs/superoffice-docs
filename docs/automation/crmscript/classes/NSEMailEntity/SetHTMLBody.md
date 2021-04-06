@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetHTMLBody
+title: SetHTMLBody(String hTMLBody)
+intellisense: NSEMailEntity.SetHTMLBody
+keywords: NSEMailEntity, GetHTMLBody
+so.topic: reference
 ---
-title: Void SetHTMLBody(String HTMLBody)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetHTMLBody(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2986
-keywords: SetHTMLBody(String)
----
-
 
 Body formatted in HTML
 
+**Parameter:** 
+ - **hTMLBody** String
 
-
-* **HTMLBody:** String
-* **Returns:** String
-
+```crmscript
+NSEMailEntity thing;
+String hTMLBody;
+thing.SetHTMLBody(hTMLBody);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetPersonId
+title: SetPersonId(Integer personId)
+intellisense: NSSale.SetPersonId
+keywords: NSSale, GetPersonId
+so.topic: reference
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSSale/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonId(Integer)
----
-
 
 The sale's contact persons id
 
+**Parameter:** 
+ - **personId** Integer
 
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSale thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
 

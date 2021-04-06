@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChangedData_SetAddedRecords
+title: SetAddedRecords(ChangedDataItemArray addedRecords)
+intellisense: NSChangedData.SetAddedRecords
+keywords: NSChangedData, GetAddedRecords
+so.topic: reference
 ---
-title: Void SetAddedRecords(NSChangedDataItem[] AddedRecords)
-path: /EJScript/Classes/NSChangedData/Member functions/Void SetAddedRecords(NSChangedDataItem[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1503
-keywords: SetAddedRecords(NSChangedDataItem[])
----
-
 
 Ids of added records.
 
+**Parameter:** 
+ - **addedRecords** ChangedDataItemArray
 
-
-* **AddedRecords:** ChangedDataItemArray
-* **Returns:** ChangedDataItemArray
-
+```crmscript
+NSChangedData thing;
+ChangedDataItemArray addedRecords;
+thing.SetAddedRecords(addedRecords);
+```
 

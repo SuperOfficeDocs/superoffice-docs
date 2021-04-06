@@ -1,12 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSPosition_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSPosition/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSPosition.GetTooltip
+keywords: NSPosition, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the Position list item.
 
-* **Returns:** String
+**Returns:** String Position tooltip description.
+
+```crmscript
+NSPosition thing;
+String descr = thing.GetTooltip();
+```
 
 

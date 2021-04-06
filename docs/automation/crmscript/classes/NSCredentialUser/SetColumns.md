@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCredentialUser_SetColumns
+title: SetColumns(StringArray columns)
+intellisense: NSCredentialUser.SetColumns
+keywords: NSCredentialUser, GetColumns
+so.topic: reference
 ---
-title: Void SetColumns(String[] Columns)
-path: /EJScript/Classes/NSCredentialUser/Member functions/Void SetColumns(String[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2091
-keywords: SetColumns(String[])
----
-
 
 Columns, matching CredentialUsers.Headings
 
+**Parameter:** 
+ - **columns** StringArray
 
-
-* **Columns:** StringArray
-* **Returns:** StringArray
-
+```crmscript
+NSCredentialUser thing;
+StringArray columns;
+thing.SetColumns(columns);
+```
 

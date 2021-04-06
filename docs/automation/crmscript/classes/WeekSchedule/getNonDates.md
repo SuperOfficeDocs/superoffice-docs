@@ -1,9 +1,9 @@
 ---
-title: String getNonDates()
-path: /EJScript/Classes/WeekSchedule/Member functions/String getNonDates()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_getNonDates
+title: WeekSchedule.getNonDates()
+intellisense: WeekSchedule.getNonDates
 keywords: getNonDates()
+so.topic: reference
 ---
 
 

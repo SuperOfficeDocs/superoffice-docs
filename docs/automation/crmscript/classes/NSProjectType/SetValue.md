@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSProjectType_SetValue
+title: SetValue(String value)
+intellisense: NSProjectType.SetValue
+keywords: NSProjectType, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSProjectType/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the ProjectType item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String ProjectType name.
 
+```crmscript
+NSProjectType thing;
+thing.SetValue("frotz");
+```
 

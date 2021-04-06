@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetHasAlarm
 title: Bool GetHasAlarm()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetHasAlarm()
-intellisense: 1
-classref: 1
-sortOrder: 925
-keywords: GetHasAlarm()
+intellisense: NSAppointmentEntity.GetHasAlarm
+keywords: NSAppointmentEntity, GetHasAlarm
+so.topic: reference
 ---
-
 
 Does this appointment have an alarm
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSAppointmentEntity thing;
+Bool hasAlarm  = thing.GetHasAlarm();
+```
 
 

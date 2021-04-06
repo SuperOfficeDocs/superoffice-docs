@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSCRMScriptAgent_DeleteCRMScriptEntity
+title: DeleteCRMScriptEntity(Integer cRMScriptEntity);
+intellisense: NSCRMScriptAgent.DeleteCRMScriptEntity
+keywords: NSCRMScriptAgent, DeleteCRMScriptEntity
+so.topic: reference
 ---
-title: Void DeleteCRMScriptEntity(Integer cRMScriptEntityId)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/Void DeleteCRMScriptEntity(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2124
-keywords: DeleteCRMScriptEntity(Integer)
----
 
+Deletes the NSCRMScriptEntity
+  
+**Parameters:**
+ - **cRMScriptEntityId** The identity of the CRMScriptEntity to delete.
 
-Deletes the CRMScriptEntity
-
-
-
-* **cRMScriptEntityId:** The identity of the CRMScriptEntity
-
+```crmscript
+NSCRMScriptAgent agent;
+agent.DeleteCRMScriptEntity(123);
+```
 

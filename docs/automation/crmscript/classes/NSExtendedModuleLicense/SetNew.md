@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtendedModuleLicense_SetNew
+title: SetNew(ModuleLicense new)
+intellisense: NSExtendedModuleLicense.SetNew
+keywords: NSExtendedModuleLicense, GetNew
+so.topic: reference
 ---
-title: Void SetNew(NSModuleLicense New)
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Void SetNew(NSModuleLicense p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3426
-keywords: SetNew(NSModuleLicense)
----
 
 
-* **New:** ModuleLicense
-* **Returns:** ModuleLicense
 
+**Parameter:** 
+ - **new** ModuleLicense
+
+```crmscript
+NSExtendedModuleLicense thing;
+ModuleLicense new;
+thing.SetNew(new);
+```
 

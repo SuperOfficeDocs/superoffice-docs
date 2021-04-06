@@ -1,10 +1,10 @@
 ---
-title: Void remove()
-path: /EJScript/Classes/Attachment/Member functions/Void remove()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Attachment_remove
+title: Attachment.remove()
+intellisense: Attachment.remove
 sortOrder: 127
 keywords: remove()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 description: Integer getStatusIdFromName(String p0)
-path: /EJScript/Global functions/Integer getStatusIdFromName(String p_0)
-intellisense: 1
+intellisense: Void.getStatusIdFromName
 langref: 1
 keywords: getStatusIdFromName(String)
+so.topic: reference
 ---
 
 

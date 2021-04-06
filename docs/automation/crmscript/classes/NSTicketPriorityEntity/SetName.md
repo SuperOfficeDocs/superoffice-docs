@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetName
+title: SetName(String name)
+intellisense: NSTicketPriorityEntity.SetName
+keywords: NSTicketPriorityEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 The name of the priority.
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSTicketPriorityEntity thing;
+String name;
+thing.SetName(name);
+```
 

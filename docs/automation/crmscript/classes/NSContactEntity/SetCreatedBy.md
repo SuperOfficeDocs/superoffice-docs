@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
+intellisense: NSContactEntity.SetCreatedBy
+keywords: NSContactEntity, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1885
-keywords: SetCreatedBy(NSAssociate)
----
 
+The user that created the contact
 
-The person that created the contact
+**Parameter:** 
+ - **createdBy** Associate
 
-
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSContactEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTask
+title: NSTask GetTask(Integer taskId);
+intellisense: NSListAgent.GetTask
+keywords: NSListAgent, GetTask
+so.topic: reference
 ---
-title: NSTask GetTask(Integer taskId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTask GetTask(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetTask(Integer)
----
 
+Gets a NSTask object.
 
-Gets a Task object.
+**Parameters:**
+ - **taskId** The identifier of the NSTask object
 
+**Returns:** NSTask
 
-
-* **taskId:** The identifier of the Task object
-* **Returns:** Task
-
+```crmscript
+NSListAgent agent;
+NSTask thing = agent.GetTask(123);
+```
 

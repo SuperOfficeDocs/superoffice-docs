@@ -1,6 +1,6 @@
 ---
-title: crmscript_invitations
-description: Meeting invitations
+uid: crmscript_invitations
+title: Meeting invitations
 author:
 so.date:
 keywords:

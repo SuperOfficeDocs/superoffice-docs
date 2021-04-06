@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetName
+title: SetName(String name)
+intellisense: NSContactEntity.SetName
+keywords: NSContactEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1902
-keywords: SetName(String)
----
-
 
 Contact name
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSContactEntity thing;
+String name;
+thing.SetName(name);
+```
 

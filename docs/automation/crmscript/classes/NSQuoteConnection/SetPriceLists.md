@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteConnection_SetPriceLists
+title: SetPriceLists(PriceListArray priceLists)
+intellisense: NSQuoteConnection.SetPriceLists
+keywords: NSQuoteConnection, GetPriceLists
+so.topic: reference
 ---
-title: Void SetPriceLists(NSPriceList[] PriceLists)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetPriceLists(NSPriceList[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetPriceLists(NSPriceList[])
----
-
 
 The PriceLists that this connection offers.
 
+**Parameter:** 
+ - **priceLists** PriceListArray
 
-
-* **PriceLists:** PriceListArray
-* **Returns:** PriceListArray
-
+```crmscript
+NSQuoteConnection thing;
+PriceListArray priceLists;
+thing.SetPriceLists(priceLists);
+```
 

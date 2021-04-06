@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPurpose_SetConsentText
+title: SetConsentText(String consentText)
+intellisense: NSConsentPurpose.SetConsentText
+keywords: NSConsentPurpose, GetConsentText
+so.topic: reference
 ---
-title: Void SetConsentText(String ConsentText)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetConsentText(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1689
-keywords: SetConsentText(String)
----
-
 
 Form text used for the actual checkbox
 
+**Parameter:** 
+ - **consentText** String
 
-
-* **ConsentText:** String
-* **Returns:** String
-
+```crmscript
+NSConsentPurpose thing;
+String consentText;
+thing.SetConsentText(consentText);
+```
 

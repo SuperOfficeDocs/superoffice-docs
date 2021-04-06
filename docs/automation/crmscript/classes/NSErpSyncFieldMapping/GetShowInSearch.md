@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_GetShowInSearch
 title: Bool GetShowInSearch()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Bool GetShowInSearch()
-intellisense: 1
-classref: 1
-sortOrder: 3289
-keywords: GetShowInSearch()
+intellisense: NSErpSyncFieldMapping.GetShowInSearch
+keywords: NSErpSyncFieldMapping, GetShowInSearch
+so.topic: reference
 ---
-
 
 Should this field be shown in searches
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSErpSyncFieldMapping thing;
+Bool showInSearch  = thing.GetShowInSearch();
+```
 
 

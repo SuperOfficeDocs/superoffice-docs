@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetOwnedBy
+title: SetOwnedBy(Integer ownedBy)
+intellisense: NSTicket.SetOwnedBy
+keywords: NSTicket, GetOwnedBy
+so.topic: reference
 ---
-title: Void SetOwnedBy(Integer OwnedBy)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetOwnedBy(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwnedBy(Integer)
----
-
 
 The id of the user who owns the ticket. 1 (system user) if the ticket is unassigned.
 
+**Parameter:** 
+ - **ownedBy** Integer
 
-
-* **OwnedBy:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicket thing;
+Integer ownedBy;
+thing.SetOwnedBy(ownedBy);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Void setSunStart(Time t)
-path: /EJScript/Classes/WeekSchedule/Member functions/Void setSunStart(Time t)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_setSunStart_Time_t
+title: WeekSchedule.setSunStart(Time t)
+intellisense: WeekSchedule.setSunStart
 keywords: setSunStart(Time)
+so.topic: reference
 ---
 
 

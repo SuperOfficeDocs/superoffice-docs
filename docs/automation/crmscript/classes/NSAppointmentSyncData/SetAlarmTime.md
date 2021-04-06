@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetAlarmTime
+title: SetAlarmTime(DateTime alarmTime)
+intellisense: NSAppointmentSyncData.SetAlarmTime
+keywords: NSAppointmentSyncData, GetAlarmTime
+so.topic: reference
 ---
-title: Void SetAlarmTime(DateTime AlarmTime)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetAlarmTime(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1066
-keywords: SetAlarmTime(DateTime)
----
-
 
 Date and time at which to show alarm
 
+**Parameter:** 
+ - **alarmTime** DateTime
 
-
-* **AlarmTime:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSAppointmentSyncData thing;
+DateTime alarmTime;
+thing.SetAlarmTime(alarmTime);
+```
 

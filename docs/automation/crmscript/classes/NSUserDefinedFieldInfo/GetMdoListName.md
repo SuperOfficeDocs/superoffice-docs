@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetMdoListName
 title: String GetMdoListName()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetMdoListName()
-intellisense: 1
-classref: 1
-keywords: GetMdoListName()
+intellisense: NSUserDefinedFieldInfo.GetMdoListName
+keywords: NSUserDefinedFieldInfo, GetMdoListName
+so.topic: reference
 ---
-
 
 MDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSUserDefinedFieldInfo thing;
+String mdoListName  = thing.GetMdoListName();
+```
 
 

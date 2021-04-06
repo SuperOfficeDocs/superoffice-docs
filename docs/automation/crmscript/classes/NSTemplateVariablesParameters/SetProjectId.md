@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_SetProjectId
+title: SetProjectId(Integer projectId)
+intellisense: NSTemplateVariablesParameters.SetProjectId
+keywords: NSTemplateVariablesParameters, GetProjectId
+so.topic: reference
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectId(Integer)
----
-
 
 Identifier for a project
 
+**Parameter:** 
+ - **projectId** Integer
 
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
 

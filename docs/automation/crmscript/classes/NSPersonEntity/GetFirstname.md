@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetFirstname
 title: String GetFirstname()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetFirstname()
-intellisense: 1
-classref: 1
-keywords: GetFirstname()
+intellisense: NSPersonEntity.GetFirstname
+keywords: NSPersonEntity, GetFirstname
+so.topic: reference
 ---
-
 
 First name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPersonEntity thing;
+String firstname  = thing.GetFirstname();
+```
 
 

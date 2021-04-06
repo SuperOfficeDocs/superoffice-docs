@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetActiveLinks
+title: SetActiveLinks(Integer activeLinks)
+intellisense: NSAppointmentEntity.SetActiveLinks
+keywords: NSAppointmentEntity, GetActiveLinks
+so.topic: reference
 ---
-title: Void SetActiveLinks(Integer ActiveLinks)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetActiveLinks(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 981
-keywords: SetActiveLinks(Integer)
----
-
 
 Number of active links to sale, document, appointment.
 
+**Parameter:** 
+ - **activeLinks** Integer
 
-
-* **ActiveLinks:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointmentEntity thing;
+Integer activeLinks;
+thing.SetActiveLinks(activeLinks);
+```
 

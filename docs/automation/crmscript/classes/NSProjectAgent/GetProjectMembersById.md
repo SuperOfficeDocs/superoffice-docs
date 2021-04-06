@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetProjectMembersById
+title: ProjectMemberArray GetProjectMembersById(IntegerArray projectMemberIds)
+intellisense: NSProjectAgent.GetProjectMembersById
+keywords: NSProjectAgent, GetProjectMembersById
+so.topic: reference
 ---
-title: NSProjectMember[] GetProjectMembersById(Integer[] p0)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectMember[] GetProjectMembersById(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetProjectMembersById(Integer[])
----
-
 
 Returns an array of project members
 
+**Parameters:**
+ - **projectMemberIds** 
 
+**Returns:** An array of project members
 
-* **projectMemberIds
-* **Returns:**** An array of project members
-
+```crmscript
+NSProjectAgent agent;
+IntegerArray projectMemberIds;
+ProjectMemberArray res = agent.GetProjectMembersById(projectMemberIds);
+```
 

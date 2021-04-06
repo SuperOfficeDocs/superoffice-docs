@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAddress_GetPersonId
 title: Integer GetPersonId()
-path: /EJScript/Classes/NSEMailAddress/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
-sortOrder: 2765
-keywords: GetPersonId()
+intellisense: NSEMailAddress.GetPersonId
+keywords: NSEMailAddress, GetPersonId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailAddress thing;
+Integer personId  = thing.GetPersonId();
+```
 
 

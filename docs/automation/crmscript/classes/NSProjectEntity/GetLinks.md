@@ -1,12 +1,19 @@
----
-title: NSLink[] GetLinks()
-path: /EJScript/Classes/NSProjectEntity/Member functions/NSLink[] GetLinks()
-intellisense: 1
-classref: 1
-keywords: GetLinks()
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetLinks
+title: LinkArray GetLinks()
+intellisense: NSProjectEntity.GetLinks
+keywords: NSProjectEntity, GetLinks
+so.topic: reference
 ---
 
+List of all elements linked to the project
 
-* **Returns:** LinkArray
+**Returns:** LinkArray
+
+
+```crmscript
+NSProjectEntity thing;
+LinkArray links  = thing.GetLinks();
+```
 
 

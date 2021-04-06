@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder
 title: NSSaleStakeholder
-path: /EJScript/Classes/NSSaleStakeholder
-intellisense: 1
-classref: 1
+intellisense: Void.NSSaleStakeholder
+keywords: NSSaleStakeholder
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

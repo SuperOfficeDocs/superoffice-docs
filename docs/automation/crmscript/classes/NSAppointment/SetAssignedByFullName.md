@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetAssignedByFullName
+title: SetAssignedByFullName(String assignedByFullName)
+intellisense: NSAppointment.SetAssignedByFullName
+keywords: NSAppointment, GetAssignedByFullName
+so.topic: reference
 ---
-title: Void SetAssignedByFullName(String AssignedByFullName)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAssignedByFullName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 772
-keywords: SetAssignedByFullName(String)
----
-
 
 The associate's culture formatted fullname (firstname, middleName and lastname)
 
+**Parameter:** 
+ - **assignedByFullName** String
 
-
-* **AssignedByFullName:** String
-* **Returns:** String
-
+```crmscript
+NSAppointment thing;
+String assignedByFullName;
+thing.SetAssignedByFullName(assignedByFullName);
+```
 

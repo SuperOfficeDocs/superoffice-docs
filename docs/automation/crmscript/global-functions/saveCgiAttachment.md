@@ -1,9 +1,9 @@
 ---
 description: Integer saveCgiAttachment(String p\_varName)
-path: /EJScript/Global functions/Integer saveCgiAttachment(String p_varName)
-intellisense: 1
+intellisense: Void.saveCgiAttachment
 langref: 1
 keywords: saveCgiAttachment(String)
+so.topic: reference
 ---
 
 

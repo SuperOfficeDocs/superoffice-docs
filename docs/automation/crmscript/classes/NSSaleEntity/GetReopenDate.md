@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetReopenDate
 title: DateTime GetReopenDate()
-path: /EJScript/Classes/NSSaleEntity/Member functions/DateTime GetReopenDate()
-intellisense: 1
-classref: 1
-keywords: GetReopenDate()
+intellisense: NSSaleEntity.GetReopenDate
+keywords: NSSaleEntity, GetReopenDate
+so.topic: reference
 ---
-
 
 Date the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSSaleEntity thing;
+DateTime reopenDate  = thing.GetReopenDate();
+```
 
 

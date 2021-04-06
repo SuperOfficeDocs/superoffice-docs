@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_SetDeleted
+title: SetDeleted(Integer deleted)
+intellisense: NSRoleEntity.SetDeleted
+keywords: NSRoleEntity, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Integer Deleted)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetDeleted(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeleted(Integer)
----
-
 
 1 if role has been deleted (we do not actually delete)
 
+**Parameter:** 
+ - **deleted** Integer
 
-
-* **Deleted:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRoleEntity thing;
+Integer deleted;
+thing.SetDeleted(deleted);
+```
 

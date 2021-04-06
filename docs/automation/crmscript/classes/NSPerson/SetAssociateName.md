@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetAssociateName
+title: SetAssociateName(String associateName)
+intellisense: NSPerson.SetAssociateName
+keywords: NSPerson, GetAssociateName
+so.topic: reference
 ---
-title: Void SetAssociateName(String AssociateName)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetAssociateName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociateName(String)
----
-
 
 Name of the person's owner
 
+**Parameter:** 
+ - **associateName** String
 
-
-* **AssociateName:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String associateName;
+thing.SetAssociateName(associateName);
+```
 

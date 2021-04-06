@@ -1,17 +1,28 @@
----
+﻿---
+uid: crmscript_ref_NSContactActivity_GetAction
 title: Integer GetAction()
-path: /EJScript/Classes/NSContactActivity/Member functions/Integer GetAction()
-intellisense: 1
-classref: 1
-sortOrder: 1767
-keywords: GetAction()
+intellisense: NSContactActivity.GetAction
+keywords: NSContactActivity, GetAction
+so.topic: reference
 ---
-
 
 The activity that has occured on this contact.
 
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Created 
+     - Enum: 2 = Updated 
+     - Enum: 4 = NewActivity 
+     - Enum: 8 = ActivityCompleted 
+     - Enum: 16 = PersonAdded 
+     - Enum: 32 = PersonUpdated 
+     - Enum: 64 = DocumentAdded 
+     - Enum: 127 = All 
 
-* **Returns:** Integer
+```crmscript
+NSContactActivity thing;
+Integer action  = thing.GetAction();
+```
 
 

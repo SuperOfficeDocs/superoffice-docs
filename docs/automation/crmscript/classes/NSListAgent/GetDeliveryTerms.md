@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetDeliveryTerms
+title: DeliveryTermArray GetDeliveryTerms()
+intellisense: NSListAgent.GetDeliveryTerms
+keywords: NSListAgent, GetDeliveryTerms
+so.topic: reference
 ---
-title: NSDeliveryTerm[] GetDeliveryTerms()
-path: /EJScript/Classes/NSListAgent/Member functions/NSDeliveryTerm[] GetDeliveryTerms()
-intellisense: 1
-classref: 1
-keywords: GetDeliveryTerms()
----
-
 
 Returns all DeliveryTerms in SuperOffice db.
 
 
+**Returns:** An array of all available DeliveryTerms
 
-* **Returns:** An array of all available DeliveryTerms
-
+```crmscript
+NSListAgent agent;
+DeliveryTermArray res = agent.GetDeliveryTerms();
+```
 

@@ -1,9 +1,9 @@
 ---
-title: String WriteStreamPart(String streamId, String communicationModuleName, String communicationModuleVersion, String communicationModuleData, String streamData)
-path: /EJScript/Classes/NSTrayAppAgent/Member functions/String WriteStreamPart(String p_0, String p_1, String p_2, String p_3, String p_4)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSTrayAppAgent_WriteStreamPart_String_p_0_String_p_1_String_p_2_String_p_3_String_p_4
+title: NSTrayAppAgent.WriteStreamPart(String p_0, String p_1, String p_2, String p_3, String p_4)
+intellisense: NSTrayAppAgent.WriteStreamPart
 keywords: WriteStreamPart(String,String,String,String,String)
+so.topic: reference
 ---
 
 

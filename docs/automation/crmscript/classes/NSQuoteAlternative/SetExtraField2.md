@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_SetExtraField2
+title: SetExtraField2(String extraField2)
+intellisense: NSQuoteAlternative.SetExtraField2
+keywords: NSQuoteAlternative, GetExtraField2
+so.topic: reference
 ---
-title: Void SetExtraField2(String ExtraField2)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetExtraField2(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraField2(String)
----
-
 
 Optional information added by Quote Connector; usable in the quote document merge process
 
+**Parameter:** 
+ - **extraField2** String
 
-
-* **ExtraField2:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteAlternative thing;
+String extraField2;
+thing.SetExtraField2(extraField2);
+```
 

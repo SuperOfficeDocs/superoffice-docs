@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetLeadTime
 title: TimeSpan GetLeadTime()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/TimeSpan GetLeadTime()
-intellisense: 1
-classref: 1
-sortOrder: 978
-keywords: GetLeadTime()
+intellisense: NSAppointmentEntity.GetLeadTime
+keywords: NSAppointmentEntity, GetLeadTime
+so.topic: reference
 ---
-
 
 Time blocked (minutes) BEFORE starttime
 
+**Returns:** TimeSpan
 
 
-* **Returns:** TimeSpan
+```crmscript
+NSAppointmentEntity thing;
+TimeSpan leadTime  = thing.GetLeadTime();
+```
 
 

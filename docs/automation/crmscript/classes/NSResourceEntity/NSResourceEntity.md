@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSResourceEntity
 title: NSResourceEntity
-path: /EJScript/Classes/NSResourceEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSResourceEntity
+keywords: NSResourceEntity
+so.topic: reference
 ---
-
 
 The resource entity contains resource information
 
-
-
-
-1. autolist
+1. autolist 
 

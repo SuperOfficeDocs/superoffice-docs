@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAlarmData_SetTaskName
+title: SetTaskName(String taskName)
+intellisense: NSAlarmData.SetTaskName
+keywords: NSAlarmData, GetTaskName
+so.topic: reference
 ---
-title: Void SetTaskName(String TaskName)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetTaskName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 692
-keywords: SetTaskName(String)
----
 
 
-* **TaskName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **taskName** String
+
+```crmscript
+NSAlarmData thing;
+String taskName;
+thing.SetTaskName(taskName);
+```
 

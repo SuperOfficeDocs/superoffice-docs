@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetColorIndex
+title: SetColorIndex(Integer colorIndex)
+intellisense: NSAppointment.SetColorIndex
+keywords: NSAppointment, GetColorIndex
+so.topic: reference
 ---
-title: Void SetColorIndex(Integer ColorIndex)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetColorIndex(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 780
-keywords: SetColorIndex(Integer)
----
-
 
 Appointment colour, used only in Japanese versions. Western versions take colour from Task
 
+**Parameter:** 
+ - **colorIndex** Integer
 
-
-* **ColorIndex:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointment thing;
+Integer colorIndex;
+thing.SetColorIndex(colorIndex);
+```
 

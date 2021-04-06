@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSIncomingMessage_SetFrom
+title: SetFrom(String from)
+intellisense: NSIncomingMessage.SetFrom
+keywords: NSIncomingMessage, GetFrom
+so.topic: reference
 ---
-title: Void SetFrom(String From)
-path: /EJScript/Classes/NSIncomingMessage/Member functions/Void SetFrom(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3994
-keywords: SetFrom(String)
----
-
 
 Who the message is from.  This can vary from provider to provider and can for SMS typically be a phone number or a string.  This is mail address on the form of an e-mail.
 
+**Parameter:** 
+ - **from** String
 
-
-* **From:** String
-* **Returns:** String
-
+```crmscript
+NSIncomingMessage thing;
+String from;
+thing.SetFrom(from);
+```
 

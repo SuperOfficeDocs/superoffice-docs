@@ -1,9 +1,9 @@
 ---
-title: Integer GetContactPosition()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Integer GetContactPosition()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_GetContactPosition
+title: NSSelectionMemberEditValues.GetContactPosition()
+intellisense: NSSelectionMemberEditValues.GetContactPosition
 keywords: GetContactPosition()
+so.topic: reference
 ---
 
 

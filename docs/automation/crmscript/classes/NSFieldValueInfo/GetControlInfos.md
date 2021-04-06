@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_GetControlInfos
+title: ControlInfoArray GetControlInfos()
+intellisense: NSFieldValueInfo.GetControlInfos
+keywords: NSFieldValueInfo, GetControlInfos
+so.topic: reference
 ---
-title: NSControlInfo[] GetControlInfos()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/NSControlInfo[] GetControlInfos()
-intellisense: 1
-classref: 1
-sortOrder: 3622
-keywords: GetControlInfos()
----
-
 
 Array of the controlinfos
 
+**Returns:** ControlInfoArray
 
 
-* **Returns:** ControlInfoArray
+```crmscript
+NSFieldValueInfo thing;
+ControlInfoArray controlInfos  = thing.GetControlInfos();
+```
 
 

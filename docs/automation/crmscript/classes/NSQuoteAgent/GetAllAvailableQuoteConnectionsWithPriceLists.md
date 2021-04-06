@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
+title: QuoteConnectionArray GetAllAvailableQuoteConnectionsWithPriceLists()
+intellisense: NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists
+keywords: NSQuoteAgent, GetAllAvailableQuoteConnectionsWithPriceLists
+so.topic: reference
 ---
-title: NSQuoteConnection[] GetAllAvailableQuoteConnectionsWithPriceLists()
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteConnection[] GetAllAvailableQuoteConnectionsWithPriceLists()
-intellisense: 1
-classref: 1
-keywords: GetAllAvailableQuoteConnectionsWithPriceLists()
----
-
 
 Get all available connections. Some installed connections may not be available to the user. Includes pricelists for the connection. This is a heavy call
 
 
+**Returns:** List of connections
 
-* **Returns:** List of connections
-
+```crmscript
+NSQuoteAgent agent;
+QuoteConnectionArray res = agent.GetAllAvailableQuoteConnectionsWithPriceLists();
+```
 

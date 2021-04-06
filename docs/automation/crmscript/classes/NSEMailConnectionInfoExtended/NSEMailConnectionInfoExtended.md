@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfoExtended
 title: NSEMailConnectionInfoExtended
-path: /EJScript/Classes/NSEMailConnectionInfoExtended
-intellisense: 1
-classref: 1
-sortOrder: 2920
+intellisense: Void.NSEMailConnectionInfoExtended
+keywords: NSEMailConnectionInfoExtended
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

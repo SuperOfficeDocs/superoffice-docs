@@ -1,9 +1,9 @@
 ---
-title: Void setName(String name)
-path: /EJScript/Classes/SpmCustomerList/Member functions/Void setName(String name)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmCustomerList_setName_String_name
+title: SpmCustomerList.setName(String name)
+intellisense: SpmCustomerList.setName
 keywords: setName(String)
+so.topic: reference
 ---
 
 

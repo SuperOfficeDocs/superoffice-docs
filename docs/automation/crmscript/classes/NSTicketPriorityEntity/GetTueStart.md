@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetTueStart
 title: DateTime GetTueStart()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetTueStart()
-intellisense: 1
-classref: 1
-keywords: GetTueStart()
+intellisense: NSTicketPriorityEntity.GetTueStart
+keywords: NSTicketPriorityEntity, GetTueStart
+so.topic: reference
 ---
-
 
 The work hour start for Tuesdays. Note that only the time part of the DateTime is used
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime tueStart  = thing.GetTueStart();
+```
 
 

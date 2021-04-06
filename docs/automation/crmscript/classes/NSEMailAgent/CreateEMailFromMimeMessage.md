@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_CreateEMailFromMimeMessage
+title: EMailEntity CreateEMailFromMimeMessage(String mimeMessage)
+intellisense: NSEMailAgent.CreateEMailFromMimeMessage
+keywords: NSEMailAgent, CreateEMailFromMimeMessage
+so.topic: reference
 ---
-title: NSEMailEntity CreateEMailFromMimeMessage(String mimeMessage)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity CreateEMailFromMimeMessage(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2814
-keywords: CreateEMailFromMimeMessage(String)
----
-
 
 Get an e-mail based on the provided MIME-message
 
+**Parameters:**
+ - **mimeMessage** string representing a MIME-formatted message
 
+**Returns:** The e-mail
 
-* **mimeMessage:** string representing a MIME-formatted message
-* **Returns:** The e-mail
-
+```crmscript
+NSEMailAgent agent;
+String mimeMessage;
+EMailEntity res = agent.CreateEMailFromMimeMessage(mimeMessage);
+```
 

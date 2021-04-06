@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetDepartmentList
+title: NSDepartment[] GetDepartmentList(Integer[]  departmentIds);
+intellisense: NSListAgent.GetDepartmentList
+keywords: NSListAgent, GetDepartmentList
+so.topic: reference
 ---
-title: NSDepartment[] GetDepartmentList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDepartment[] GetDepartmentList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetDepartmentList(Integer[])
----
 
-Gets an array of Department objects.
+Gets a vector of Department objects.
 
+**Parameters:**
+ - **departmentIds** The identifiers of the NSDepartment objects
 
-* **p0:** IntegerArray of identifiers for Department
-* **Returns:** Array of NSDepartment
+**Returns:** Vector of NSDepartment objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetDepartmentList(ids);
+```
 

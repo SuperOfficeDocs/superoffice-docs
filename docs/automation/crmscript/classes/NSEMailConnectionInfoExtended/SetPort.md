@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfoExtended_SetPort
+title: SetPort(Integer port)
+intellisense: NSEMailConnectionInfoExtended.SetPort
+keywords: NSEMailConnectionInfoExtended, GetPort
+so.topic: reference
 ---
-title: Void SetPort(Integer Port)
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Void SetPort(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2931
-keywords: SetPort(Integer)
----
 
 
-* **Port:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **port** Integer
+
+```crmscript
+NSEMailConnectionInfoExtended thing;
+Integer port;
+thing.SetPort(port);
+```
 

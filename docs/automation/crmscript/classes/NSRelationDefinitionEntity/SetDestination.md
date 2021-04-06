@@ -1,17 +1,23 @@
+﻿---
+uid: crmscript_ref_NSRelationDefinitionEntity_SetDestination
+title: SetDestination(Integer destination)
+intellisense: NSRelationDefinitionEntity.SetDestination
+keywords: NSRelationDefinitionEntity, GetDestination
+so.topic: reference
 ---
-title: Void SetDestination(Integer Destination)
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Void SetDestination(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDestination(Integer)
----
-
 
 The destination of the relation
 
+**Parameter:** 
+ - **destination** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = Contact 
+     - Enum: 2 = Person 
+     - Enum: 3 = Both 
 
-
-* **Destination:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRelationDefinitionEntity thing;
+Integer destination;
+thing.SetDestination(destination);
+```
 

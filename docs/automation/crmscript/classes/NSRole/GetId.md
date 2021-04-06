@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSRole_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSRole/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSRole.GetId
+keywords: NSRole, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the Role
 
-* **Returns:** Integer
+**Returns:** Integer Role id.
 
+```crmscript
+NSRole thing;
+Integer id = thing.GetId();
+```
 

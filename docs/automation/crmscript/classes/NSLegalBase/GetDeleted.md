@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLegalBase_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSLegalBase/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSLegalBase.GetDeleted
+keywords: NSLegalBase, GetDeleted
+so.topic: reference
 ---
-
 
 true if the LegalBase is deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSLegalBase thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetActiveInterests
+title: SetActiveInterests(Integer activeInterests)
+intellisense: NSContactEntity.SetActiveInterests
+keywords: NSContactEntity, GetActiveInterests
+so.topic: reference
 ---
-title: Void SetActiveInterests(Integer ActiveInterests)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetActiveInterests(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1876
-keywords: SetActiveInterests(Integer)
----
-
 
 The number of active interests.
 
+**Parameter:** 
+ - **activeInterests** Integer
 
-
-* **ActiveInterests:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContactEntity thing;
+Integer activeInterests;
+thing.SetActiveInterests(activeInterests);
+```
 

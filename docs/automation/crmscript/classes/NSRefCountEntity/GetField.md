@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRefCountEntity_GetField
 title: String GetField()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/String GetField()
-intellisense: 1
-classref: 1
-keywords: GetField()
+intellisense: NSRefCountEntity.GetField
+keywords: NSRefCountEntity, GetField
+so.topic: reference
 ---
-
 
 Field identifier in string format table.field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSRefCountEntity thing;
+String field  = thing.GetField();
+```
 
 

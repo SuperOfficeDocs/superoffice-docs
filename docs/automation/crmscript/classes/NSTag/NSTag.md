@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTag
 title: NSTag
-path: /EJScript/Classes/NSTag
-intellisense: 1
-classref: 1
+intellisense: Void.NSTag
+keywords: NSTag
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

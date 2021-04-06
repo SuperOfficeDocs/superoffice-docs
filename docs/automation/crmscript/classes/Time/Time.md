@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_Time
 title: Time
-path: /EJScript/Classes/Time
-intellisense: 1
-classref: 1
+intellisense: Void.Time
+so.topic: reference
 ---
 
 

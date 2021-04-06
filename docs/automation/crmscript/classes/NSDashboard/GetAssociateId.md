@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboard_GetAssociateId
 title: Integer GetAssociateId()
-path: /EJScript/Classes/NSDashboard/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
-sortOrder: 2260
-keywords: GetAssociateId()
+intellisense: NSDashboard.GetAssociateId
+keywords: NSDashboard, GetAssociateId
+so.topic: reference
 ---
-
 
 Id of the associate who owns this dashboard
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDashboard thing;
+Integer associateId  = thing.GetAssociateId();
+```
 
 

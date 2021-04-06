@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyCategory(Integer p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetCompanyCategory(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_SetCompanyCategory_Integer_p_0
+title: NSSelectionMemberEditValues.SetCompanyCategory(Integer p_0)
+intellisense: NSSelectionMemberEditValues.SetCompanyCategory
 keywords: SetCompanyCategory(Integer)
+so.topic: reference
 ---
 
 

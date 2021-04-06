@@ -1,9 +1,9 @@
 ---
-title: Integer GetWeekPattern()
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/Integer GetWeekPattern()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceInfo_GetWeekPattern
+title: NSRecurrenceInfo.GetWeekPattern()
+intellisense: NSRecurrenceInfo.GetWeekPattern
 keywords: GetWeekPattern()
+so.topic: reference
 ---
 
 

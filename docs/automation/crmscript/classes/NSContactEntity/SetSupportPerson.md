@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetSupportPerson
+title: SetSupportPerson(Person supportPerson)
+intellisense: NSContactEntity.SetSupportPerson
+keywords: NSContactEntity, GetSupportPerson
+so.topic: reference
 ---
-title: Void SetSupportPerson(NSPerson SupportPerson)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetSupportPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1911
-keywords: SetSupportPerson(NSPerson)
----
 
 
-* **SupportPerson:** Person
-* **Returns:** Person
 
+**Parameter:** 
+ - **supportPerson** Person
+
+```crmscript
+NSContactEntity thing;
+Person supportPerson;
+thing.SetSupportPerson(supportPerson);
+```
 

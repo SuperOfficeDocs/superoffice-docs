@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteVersion_SetDescription
+title: SetDescription(String description)
+intellisense: NSQuoteVersion.SetDescription
+keywords: NSQuoteVersion, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 Description of Version. Potentially longer text description, typically used in a tooltip. Max 2K.
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteVersion thing;
+String description;
+thing.SetDescription(description);
+```
 

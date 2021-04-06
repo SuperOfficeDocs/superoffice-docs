@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetShowInMenuBar
 title: Bool GetShowInMenuBar()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetShowInMenuBar()
-intellisense: 1
-classref: 1
-sortOrder: 3363
-keywords: GetShowInMenuBar()
+intellisense: NSExtAppEntity.GetShowInMenuBar
+keywords: NSExtAppEntity, GetShowInMenuBar
+so.topic: reference
 ---
-
 
 Does the application have a menu bar
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSExtAppEntity thing;
+Bool showInMenuBar  = thing.GetShowInMenuBar();
+```
 
 

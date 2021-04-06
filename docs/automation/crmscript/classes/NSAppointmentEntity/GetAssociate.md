@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetAssociate
+title: Associate GetAssociate()
+intellisense: NSAppointmentEntity.GetAssociate
+keywords: NSAppointmentEntity, GetAssociate
+so.topic: reference
 ---
-title: NSAssociate GetAssociate()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSAssociate GetAssociate()
-intellisense: 1
-classref: 1
-sortOrder: 957
-keywords: GetAssociate()
----
-
 
 The owner of the appointment - the associate whose diary/checklist the appointment is in.
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSAppointmentEntity thing;
+Associate associate  = thing.GetAssociate();
+```
 
 

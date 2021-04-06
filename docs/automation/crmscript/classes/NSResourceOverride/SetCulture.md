@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResourceOverride_SetCulture
+title: SetCulture(String culture)
+intellisense: NSResourceOverride.SetCulture
+keywords: NSResourceOverride, GetCulture
+so.topic: reference
 ---
-title: Void SetCulture(String Culture)
-path: /EJScript/Classes/NSResourceOverride/Member functions/Void SetCulture(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCulture(String)
----
-
 
 .NET-style culture code, such as NB-NO or EN-UK
 
+**Parameter:** 
+ - **culture** String
 
-
-* **Culture:** String
-* **Returns:** String
-
+```crmscript
+NSResourceOverride thing;
+String culture;
+thing.SetCulture(culture);
+```
 

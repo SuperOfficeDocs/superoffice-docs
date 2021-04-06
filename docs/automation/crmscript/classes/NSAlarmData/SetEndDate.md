@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAlarmData_SetEndDate
+title: SetEndDate(DateTime endDate)
+intellisense: NSAlarmData.SetEndDate
+keywords: NSAlarmData, GetEndDate
+so.topic: reference
 ---
-title: Void SetEndDate(DateTime EndDate)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetEndDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 680
-keywords: SetEndDate(DateTime)
----
-
 
 Date + end time planned
 
+**Parameter:** 
+ - **endDate** DateTime
 
-
-* **EndDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSAlarmData thing;
+DateTime endDate;
+thing.SetEndDate(endDate);
+```
 

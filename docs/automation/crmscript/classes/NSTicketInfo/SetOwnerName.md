@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketInfo_SetOwnerName
+title: SetOwnerName(String ownerName)
+intellisense: NSTicketInfo.SetOwnerName
+keywords: NSTicketInfo, GetOwnerName
+so.topic: reference
 ---
-title: Void SetOwnerName(String OwnerName)
-path: /EJScript/Classes/NSTicketInfo/Member functions/Void SetOwnerName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwnerName(String)
----
-
 
 The name of the owner which the request was assigned to
 
+**Parameter:** 
+ - **ownerName** String
 
-
-* **OwnerName:** String
-* **Returns:** String
-
+```crmscript
+NSTicketInfo thing;
+String ownerName;
+thing.SetOwnerName(ownerName);
+```
 

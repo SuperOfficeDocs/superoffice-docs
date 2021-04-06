@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetSaleTypeStageLink
+title: SetSaleTypeStageLink(SaleTypeStageLink saleTypeStageLink)
+intellisense: NSSuggestedAppointmentEntity.SetSaleTypeStageLink
+keywords: NSSuggestedAppointmentEntity, GetSaleTypeStageLink
+so.topic: reference
 ---
-title: Void SetSaleTypeStageLink(NSSaleTypeStageLink SaleTypeStageLink)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetSaleTypeStageLink(NSSaleTypeStageLink p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleTypeStageLink(NSSaleTypeStageLink)
----
-
 
 Sale type and stage link info
 
+**Parameter:** 
+ - **saleTypeStageLink** SaleTypeStageLink
 
-
-* **SaleTypeStageLink:** SaleTypeStageLink
-* **Returns:** SaleTypeStageLink
-
+```crmscript
+NSSuggestedAppointmentEntity thing;
+SaleTypeStageLink saleTypeStageLink;
+thing.SetSaleTypeStageLink(saleTypeStageLink);
+```
 

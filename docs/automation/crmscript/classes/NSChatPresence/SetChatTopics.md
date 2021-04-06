@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatPresence_SetChatTopics
+title: SetChatTopics(IntegerArray chatTopics)
+intellisense: NSChatPresence.SetChatTopics
+keywords: NSChatPresence, GetChatTopics
+so.topic: reference
 ---
-title: Void SetChatTopics(Integer[] ChatTopics)
-path: /EJScript/Classes/NSChatPresence/Member functions/Void SetChatTopics(Integer[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1524
-keywords: SetChatTopics(Integer[])
----
-
 
 An array of ids with chat topics that this user is a member of
 
+**Parameter:** 
+ - **chatTopics** IntegerArray
 
-
-* **ChatTopics:** IntegerArray
-* **Returns:** Void
-
+```crmscript
+NSChatPresence thing;
+IntegerArray chatTopics;
+thing.SetChatTopics(chatTopics);
+```
 

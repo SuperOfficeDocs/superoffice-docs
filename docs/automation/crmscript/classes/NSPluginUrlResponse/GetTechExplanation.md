@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPluginUrlResponse_GetTechExplanation
 title: String GetTechExplanation()
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/String GetTechExplanation()
-intellisense: 1
-classref: 1
-keywords: GetTechExplanation()
+intellisense: NSPluginUrlResponse.GetTechExplanation
+keywords: NSPluginUrlResponse, GetTechExplanation
+so.topic: reference
 ---
-
 
 Always in English
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPluginUrlResponse thing;
+String techExplanation  = thing.GetTechExplanation();
+```
 
 

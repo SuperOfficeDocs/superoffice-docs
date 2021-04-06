@@ -1,16 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneAgent_GetBaseTimeZoneId
 title: Integer GetBaseTimeZoneId()
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Integer GetBaseTimeZoneId()
-intellisense: 1
-classref: 1
-keywords: GetBaseTimeZoneId()
+intellisense: NSTimeZoneAgent.GetBaseTimeZoneId
+keywords: NSTimeZoneAgent, GetBaseTimeZoneId
+so.topic: reference
 ---
-
 
 Get the base timezone id.
 
 
+**Returns:** Returns the base timezone id. Returns 0 if not set.
 
-* **Returns:** Returns the base timezone id. Returns 0 if not set.
-
+```crmscript
+NSTimeZoneAgent agent;
+Integer res = agent.GetBaseTimeZoneId();
+```
 

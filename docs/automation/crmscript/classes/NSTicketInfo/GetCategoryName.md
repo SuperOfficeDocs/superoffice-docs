@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketInfo_GetCategoryName
 title: String GetCategoryName()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetCategoryName()
-intellisense: 1
-classref: 1
-keywords: GetCategoryName()
+intellisense: NSTicketInfo.GetCategoryName
+keywords: NSTicketInfo, GetCategoryName
+so.topic: reference
 ---
-
 
 The name of the category for the request
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketInfo thing;
+String categoryName  = thing.GetCategoryName();
+```
 
 

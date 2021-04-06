@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChatPresence_GetUserId
 title: Integer GetUserId()
-path: /EJScript/Classes/NSChatPresence/Member functions/Integer GetUserId()
-intellisense: 1
-classref: 1
-sortOrder: 1521
-keywords: GetUserId()
+intellisense: NSChatPresence.GetUserId
+keywords: NSChatPresence, GetUserId
+so.topic: reference
 ---
-
 
 The id for the chat user
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSChatPresence thing;
+Integer userId  = thing.GetUserId();
+```
 
 

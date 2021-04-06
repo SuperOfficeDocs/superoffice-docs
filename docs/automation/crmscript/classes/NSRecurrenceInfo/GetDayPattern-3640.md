@@ -1,9 +1,9 @@
 ---
-title: NSRecurrenceDayPattern GetDayPattern()
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/NSRecurrenceDayPattern GetDayPattern()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceInfo_GetDayPattern
+title: NSRecurrenceInfo.GetDayPattern()
+intellisense: NSRecurrenceInfo.GetDayPattern
 keywords: GetDayPattern()
+so.topic: reference
 ---
 
 

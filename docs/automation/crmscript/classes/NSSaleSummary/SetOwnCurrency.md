@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummary_SetOwnCurrency
+title: SetOwnCurrency(String ownCurrency)
+intellisense: NSSaleSummary.SetOwnCurrency
+keywords: NSSaleSummary, GetOwnCurrency
+so.topic: reference
 ---
-title: Void SetOwnCurrency(String OwnCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetOwnCurrency(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwnCurrency(String)
----
-
 
 Default currency for the current user
 
+**Parameter:** 
+ - **ownCurrency** String
 
-
-* **OwnCurrency:** String
-* **Returns:** String
-
+```crmscript
+NSSaleSummary thing;
+String ownCurrency;
+thing.SetOwnCurrency(ownCurrency);
+```
 

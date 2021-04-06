@@ -1,9 +1,9 @@
 ---
-title: Bool GetChangeCompanyBusiness()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Bool GetChangeCompanyBusiness()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_GetChangeCompanyBusiness
+title: NSSelectionMemberEditValues.GetChangeCompanyBusiness()
+intellisense: NSSelectionMemberEditValues.GetChangeCompanyBusiness
 keywords: GetChangeCompanyBusiness()
+so.topic: reference
 ---
 
 

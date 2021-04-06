@@ -1,12 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSTask_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSTask/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSTask.GetTooltip
+keywords: NSTask, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the Task list item.
 
-* **Returns:** String
+**Returns:** String Task tooltip description.
+
+```crmscript
+NSTask thing;
+String descr = thing.GetTooltip();
+```
 
 

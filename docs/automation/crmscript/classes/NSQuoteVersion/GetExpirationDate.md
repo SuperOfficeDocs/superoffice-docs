@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetExpirationDate
 title: DateTime GetExpirationDate()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetExpirationDate()
-intellisense: 1
-classref: 1
-keywords: GetExpirationDate()
+intellisense: NSQuoteVersion.GetExpirationDate
+keywords: NSQuoteVersion, GetExpirationDate
+so.topic: reference
 ---
-
 
 Last date the quote Version is valid, expiration is at midnight end of this day.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSQuoteVersion thing;
+DateTime expirationDate  = thing.GetExpirationDate();
+```
 
 

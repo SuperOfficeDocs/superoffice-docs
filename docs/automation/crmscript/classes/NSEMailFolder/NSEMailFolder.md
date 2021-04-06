@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailFolder
 title: NSEMailFolder
-path: /EJScript/Classes/NSEMailFolder
-intellisense: 1
-classref: 1
-sortOrder: 3026
+intellisense: Void.NSEMailFolder
+keywords: NSEMailFolder
+so.topic: reference
 ---
-
 
 Properties for a mail folder
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetPersonId
+title: SetPersonId(Integer personId)
+intellisense: NSSaleStakeholder.SetPersonId
+keywords: NSSaleStakeholder, GetPersonId
+so.topic: reference
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonId(Integer)
----
-
 
 Person id - Primary key
 
+**Parameter:** 
+ - **personId** Integer
 
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleStakeholder thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
 

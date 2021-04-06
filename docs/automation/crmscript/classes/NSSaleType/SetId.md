@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSSaleType_SetId
+title: SetId(Integer id)
+intellisense: NSSaleType.SetId
+keywords: NSSaleType, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSSaleType/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the SaleType
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer SaleType id.
 
+```crmscript
+NSSaleType thing;
+thing.SetId(123);
+```
 

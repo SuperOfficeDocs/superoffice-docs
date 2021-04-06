@@ -1,9 +1,9 @@
 ---
-title: Void SetRecurrenceId(Integer p0)
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/Void SetRecurrenceId(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceInfo_SetRecurrenceId_Integer_p_0
+title: NSRecurrenceInfo.SetRecurrenceId(Integer p_0)
+intellisense: NSRecurrenceInfo.SetRecurrenceId
 keywords: SetRecurrenceId(Integer)
+so.topic: reference
 ---
 
 

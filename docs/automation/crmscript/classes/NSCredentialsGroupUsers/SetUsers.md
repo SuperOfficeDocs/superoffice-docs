@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCredentialsGroupUsers_SetUsers
+title: SetUsers(CredentialUserArray users)
+intellisense: NSCredentialsGroupUsers.SetUsers
+keywords: NSCredentialsGroupUsers, GetUsers
+so.topic: reference
 ---
-title: Void SetUsers(NSCredentialUser[] Users)
-path: /EJScript/Classes/NSCredentialsGroupUsers/Member functions/Void SetUsers(NSCredentialUser[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2067
-keywords: SetUsers(NSCredentialUser[])
----
-
 
 The list of actual users that can be selected
 
+**Parameter:** 
+ - **users** CredentialUserArray
 
-
-* **Users:** CredentialUserArray
-* **Returns:** CredentialUserArray
-
+```crmscript
+NSCredentialsGroupUsers thing;
+CredentialUserArray users;
+thing.SetUsers(users);
+```
 

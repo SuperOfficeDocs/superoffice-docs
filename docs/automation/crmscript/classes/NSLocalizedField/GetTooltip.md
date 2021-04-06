@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSLocalizedField/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSLocalizedField_GetTooltip
+title: NSLocalizedField.GetTooltip()
+intellisense: NSLocalizedField.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

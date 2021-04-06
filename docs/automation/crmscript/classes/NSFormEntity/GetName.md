@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFormEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSFormEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 3804
-keywords: GetName()
+intellisense: NSFormEntity.GetName
+keywords: NSFormEntity, GetName
+so.topic: reference
 ---
-
 
 The name of this form
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFormEntity thing;
+String name  = thing.GetName();
+```
 
 

@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_SpmCustomerList
 title: SpmCustomerList
-path: /EJScript/Classes/SpmCustomerList
-intellisense: 1
-classref: 1
+intellisense: Void.SpmCustomerList
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_GetName
 title: String GetName()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 1541
-keywords: GetName()
+intellisense: NSChatSummaryItem.GetName
+keywords: NSChatSummaryItem, GetName
+so.topic: reference
 ---
-
 
 The name of customer, if provided
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSChatSummaryItem thing;
+String name  = thing.GetName();
+```
 
 

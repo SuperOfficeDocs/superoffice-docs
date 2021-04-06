@@ -1,16 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_GetUrlEncoding
 title: Integer GetUrlEncoding()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Integer GetUrlEncoding()
-intellisense: 1
-classref: 1
-keywords: GetUrlEncoding()
+intellisense: NSWebPanelEntity.GetUrlEncoding
+keywords: NSWebPanelEntity, GetUrlEncoding
+so.topic: reference
 ---
-
 
 The encoding of the URL
 
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = None 
+     - Enum: 2 = ANSI 
+     - Enum: 3 = Unicode 
 
-* **Returns:** Integer
+```crmscript
+NSWebPanelEntity thing;
+Integer urlEncoding  = thing.GetUrlEncoding();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPurpose_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSConsentPurpose.SetTooltip
+keywords: NSConsentPurpose, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1697
-keywords: SetTooltip(String)
----
-
 
 List item tooltip
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSConsentPurpose thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

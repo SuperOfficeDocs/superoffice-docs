@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaintAgent_CreateDefaultStatusMonitor
 title: NSStatusMonitor CreateDefaultStatusMonitor()
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitor CreateDefaultStatusMonitor()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultStatusMonitor()
+intellisense: NSSaintAgent.CreateDefaultStatusMonitor
+keywords: NSSaintAgent, CreateDefaultStatusMonitor
+so.topic: reference
 ---
+	  
+Set default values into a new NSStatusMonitor.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSStatusMonitor with default values.
 
-
-Loading default values into a new StatusMonitor.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New StatusMonitor with default values
-
+```crmscript
+NSSaintAgent agent;
+NSStatusMonitor thing = agent.CreateDefaultStatusMonitor();
+thing = agent.SaveStatusMonitor(thing);
+```
 

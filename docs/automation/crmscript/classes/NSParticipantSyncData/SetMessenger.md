@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetMessenger
+title: SetMessenger(StringArray messenger)
+intellisense: NSParticipantSyncData.SetMessenger
+keywords: NSParticipantSyncData, GetMessenger
+so.topic: reference
 ---
-title: Void SetMessenger(String[] Messenger)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetMessenger(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetMessenger(String[])
----
 
 
-* **Messenger:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **messenger** StringArray
+
+```crmscript
+NSParticipantSyncData thing;
+StringArray messenger;
+thing.SetMessenger(messenger);
+```
 

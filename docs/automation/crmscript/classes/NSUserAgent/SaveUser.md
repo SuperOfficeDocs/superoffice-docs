@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_SaveUser
+title: NSUser SaveUser(NSUser user);
+intellisense: NSUserAgent.SaveUser
+keywords: NSUserAgent, SaveUser
+so.topic: reference
 ---
-title: NSUser SaveUser(NSUser user)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser SaveUser(NSUser p_0)
-intellisense: 1
-classref: 1
-keywords: SaveUser(NSUser)
----
+	  
+Updates the existing NSUser or creates a new NSUser if the id parameter is 0
+	  
+**Parameters**:
+ - **user** The NSUser to save.
 
+**Returns:** New or updated NSUser
 
-Updates the existing User or creates a new User if the id parameter is empty
-
-
-
-* **user:** The User that is saved
-* **Returns:** New or updated User
-
+```crmscript
+NSUser  agent;
+NSUser thing = agent.CreateDefaultUser();
+thing = agent.SaveUser(thing);
+```
 

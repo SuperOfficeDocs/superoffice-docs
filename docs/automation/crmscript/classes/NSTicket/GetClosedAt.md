@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetClosedAt
 title: DateTime GetClosedAt()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetClosedAt()
-intellisense: 1
-classref: 1
-keywords: GetClosedAt()
+intellisense: NSTicket.GetClosedAt
+keywords: NSTicket, GetClosedAt
+so.topic: reference
 ---
-
 
 When the ticket was closed.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicket thing;
+DateTime closedAt  = thing.GetClosedAt();
+```
 
 

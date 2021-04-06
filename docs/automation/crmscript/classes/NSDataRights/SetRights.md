@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDataRights_SetRights
+title: SetRights(DataRightArrayArray rights)
+intellisense: NSDataRights.SetRights
+keywords: NSDataRights, GetRights
+so.topic: reference
 ---
-title: Void SetRights(NSDataRight[][] Rights)
-path: /EJScript/Classes/NSDataRights/Member functions/Void SetRights(NSDataRight[][] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2354
-keywords: SetRights(NSDataRight[][])
----
 
 
-* **Rights:** DataRightArrayArray
-* **Returns:** DataRightArrayArray
 
+**Parameter:** 
+ - **rights** DataRightArrayArray
+
+```crmscript
+NSDataRights thing;
+DataRightArrayArray rights;
+thing.SetRights(rights);
+```
 

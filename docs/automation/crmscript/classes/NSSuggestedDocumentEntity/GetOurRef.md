@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetOurRef
 title: String GetOurRef()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/String GetOurRef()
-intellisense: 1
-classref: 1
-keywords: GetOurRef()
+intellisense: NSSuggestedDocumentEntity.GetOurRef
+keywords: NSSuggestedDocumentEntity, GetOurRef
+so.topic: reference
 ---
-
 
 Suggested 'our reference'
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSuggestedDocumentEntity thing;
+String ourRef  = thing.GetOurRef();
+```
 
 

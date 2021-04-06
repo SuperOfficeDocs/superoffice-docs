@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetGroupId
 title: Integer GetGroupId()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetGroupId()
-intellisense: 1
-classref: 1
-sortOrder: 2292
-keywords: GetGroupId()
+intellisense: NSDashboardTile.GetGroupId
+keywords: NSDashboardTile, GetGroupId
+so.topic: reference
 ---
-
 
 Id of the associates primary group at storage time
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDashboardTile thing;
+Integer groupId  = thing.GetGroupId();
+```
 
 

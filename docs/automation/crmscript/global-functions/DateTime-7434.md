@@ -1,9 +1,9 @@
 ---
 description: DateTime DateTime(Integer p0, Integer p1, Integer p2,Integer p3,Integer p4,Integer p5)
-path: /EJScript/Global functions/DateTime DateTime(Integer p_0, Integer p_1, Integer p_2,Integer p_3,Integer p_4,Integer p_5)
-intellisense: 1
+intellisense: Void.DateTime
 langref: 1
 keywords: DateTime(Integer,Integer,Integer,Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

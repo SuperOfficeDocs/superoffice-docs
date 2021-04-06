@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSListEntity_SetId
+title: SetId(Integer id)
+intellisense: NSListEntity.SetId
+keywords: NSListEntity, GetId
+so.topic: reference
 ---
-title: Void SetId(Integer Id)
-path: /EJScript/Classes/NSListEntity/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
-
 
 The identity of the list
 
+**Parameter:** 
+ - **id** Integer
 
-
-* **Id:** Integer
-* **Returns:** Void
-
+```crmscript
+NSListEntity thing;
+Integer id;
+thing.SetId(id);
+```
 

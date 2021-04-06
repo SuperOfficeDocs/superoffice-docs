@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatisticsDataValue_SetDescription
+title: SetDescription(String description)
+intellisense: NSStatisticsDataValue.SetDescription
+keywords: NSStatisticsDataValue, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 Tooltip for data value
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSStatisticsDataValue thing;
+String description;
+thing.SetDescription(description);
+```
 

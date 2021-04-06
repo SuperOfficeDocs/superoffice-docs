@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_SetTicketCategories
+title: SetTicketCategories(MDOListItemArray ticketCategories)
+intellisense: NSUser.SetTicketCategories
+keywords: NSUser, GetTicketCategories
+so.topic: reference
 ---
-title: Void SetTicketCategories(NSMDOListItem[] TicketCategories)
-path: /EJScript/Classes/NSUser/Member functions/Void SetTicketCategories(NSMDOListItem[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetTicketCategories(NSMDOListItem[])
----
 
+Request Ticket Categories assigned to the user. 
 
-Request Ticket Categories assigned to the user.
+**Parameter:** 
+ - **ticketCategories** MDOListItemArray
 
-
-
-* **TicketCategories:** MDOListItemArray
-* **Returns:** MDOListItemArray
-
+```crmscript
+NSUser thing;
+MDOListItemArray ticketCategories;
+thing.SetTicketCategories(ticketCategories);
+```
 

@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDictionaryStepInformation
 title: NSDictionaryStepInformation
-path: /EJScript/Classes/NSDictionaryStepInformation
-intellisense: 1
-classref: 1
-sortOrder: 2421
+intellisense: Void.NSDictionaryStepInformation
+keywords: NSDictionaryStepInformation
+so.topic: reference
 ---
-
 
 Information about a dictionary step
 
-
-
-
-1. autolist
+1. autolist 
 

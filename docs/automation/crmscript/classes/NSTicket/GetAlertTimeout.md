@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetAlertTimeout
 title: DateTime GetAlertTimeout()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetAlertTimeout()
-intellisense: 1
-classref: 1
-keywords: GetAlertTimeout()
+intellisense: NSTicket.GetAlertTimeout
+keywords: NSTicket, GetAlertTimeout
+so.topic: reference
 ---
 
+The datetime for when the ticket should jump to the next alert_level.
 
-The datetime for when the ticket should jump to the next alert\_level.
+**Returns:** DateTime
 
 
-
-* **Returns:** DateTime
+```crmscript
+NSTicket thing;
+DateTime alertTimeout  = thing.GetAlertTimeout();
+```
 
 

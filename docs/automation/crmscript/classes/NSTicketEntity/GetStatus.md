@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetStatus
+title: TicketStatusEntity GetStatus()
+intellisense: NSTicketEntity.GetStatus
+keywords: NSTicketEntity, GetStatus
+so.topic: reference
 ---
-title: NSTicketStatusEntity GetStatus()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSTicketStatusEntity GetStatus()
-intellisense: 1
-classref: 1
-keywords: GetStatus()
----
-
 
 The ticket status entity which this ticket is connected to
 
+**Returns:** TicketStatusEntity
 
 
-* **Returns:** TicketStatusEntity
+```crmscript
+NSTicketEntity thing;
+TicketStatusEntity status  = thing.GetStatus();
+```
 
 

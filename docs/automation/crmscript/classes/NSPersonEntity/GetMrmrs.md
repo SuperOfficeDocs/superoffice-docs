@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetMrmrs
 title: String GetMrmrs()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetMrmrs()
-intellisense: 1
-classref: 1
-keywords: GetMrmrs()
+intellisense: NSPersonEntity.GetMrmrs
+keywords: NSPersonEntity, GetMrmrs
+so.topic: reference
 ---
 
+e.g. Mrs   sex_title
 
-e.g. Mrs   sex\_title
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSPersonEntity thing;
+String mrmrs  = thing.GetMrmrs();
+```
 
 

@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent_DeleteCredential
 title: Bool DeleteCredential(Integer userId, String credentialType)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool DeleteCredential(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: DeleteCredential(Integer,String)
+intellisense: NSUserAgent.DeleteCredential
+keywords: NSUserAgent, DeleteCredential
+so.topic: reference
 ---
-
 
 Remove credential of a specific type for a user
 
+**Parameters:**
+ - **userId** Primary key of the user (i.e. associate)
+ - **credentialType** Type of credentials, corresponding to name of plugin and type in the credentials table
 
+**Returns:** True if credential was sucessfully removed.
 
-* **userId:** Primary key of the user (i.e. associate)
-* **credentialType:** Type of credentials, corresponding to name of plugin and type in the credentials table
-* **Returns:** True if credential was sucessfully removed.
-
+```crmscript
+NSUserAgent agent;
+Integer userId;
+String credentialType;
+Bool res = agent.DeleteCredential(userId, credentialType);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEntityName_GetTableDescription
 title: String GetTableDescription()
-path: /EJScript/Classes/NSEntityName/Member functions/String GetTableDescription()
-intellisense: 1
-classref: 1
-sortOrder: 3070
-keywords: GetTableDescription()
+intellisense: NSEntityName.GetTableDescription
+keywords: NSEntityName, GetTableDescription
+so.topic: reference
 ---
-
 
 Name to be used in GUI, preferable a resource string
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEntityName thing;
+String tableDescription  = thing.GetTableDescription();
+```
 
 

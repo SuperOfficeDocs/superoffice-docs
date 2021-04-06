@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionAttachment_GetIncluded
 title: Bool GetIncluded()
-path: /EJScript/Classes/NSQuoteVersionAttachment/Member functions/Bool GetIncluded()
-intellisense: 1
-classref: 1
-keywords: GetIncluded()
+intellisense: NSQuoteVersionAttachment.GetIncluded
+keywords: NSQuoteVersionAttachment, GetIncluded
+so.topic: reference
 ---
-
 
 Will this attachment be included in the next 'Send Quote' operation
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSQuoteVersionAttachment thing;
+Bool included  = thing.GetIncluded();
+```
 
 

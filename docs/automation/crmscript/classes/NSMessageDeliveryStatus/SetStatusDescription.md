@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMessageDeliveryStatus_SetStatusDescription
+title: SetStatusDescription(String statusDescription)
+intellisense: NSMessageDeliveryStatus.SetStatusDescription
+keywords: NSMessageDeliveryStatus, GetStatusDescription
+so.topic: reference
 ---
-title: Void SetStatusDescription(String StatusDescription)
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Void SetStatusDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetStatusDescription(String)
----
-
 
 String describing the current message status.
 
+**Parameter:** 
+ - **statusDescription** String
 
-
-* **StatusDescription:** String
-* **Returns:** String
-
+```crmscript
+NSMessageDeliveryStatus thing;
+String statusDescription;
+thing.SetStatusDescription(statusDescription);
+```
 

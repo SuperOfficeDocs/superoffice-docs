@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternativeRecalculated_SetChanges
+title: SetChanges(ChangedData changes)
+intellisense: NSQuoteAlternativeRecalculated.SetChanges
+keywords: NSQuoteAlternativeRecalculated, GetChanges
+so.topic: reference
 ---
-title: Void SetChanges(NSChangedData Changes)
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/Void SetChanges(NSChangedData p_0)
-intellisense: 1
-classref: 1
-keywords: SetChanges(NSChangedData)
----
-
 
 Tablename/recordid of data changed by this method
 
+**Parameter:** 
+ - **changes** ChangedData
 
-
-* **Changes:** ChangedData
-* **Returns:** ChangedData
-
+```crmscript
+NSQuoteAlternativeRecalculated thing;
+ChangedData changes;
+thing.SetChanges(changes);
+```
 

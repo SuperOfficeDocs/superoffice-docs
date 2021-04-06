@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProject_SetUpdated
+title: SetUpdated(DateTime updated)
+intellisense: NSProject.SetUpdated
+keywords: NSProject, GetUpdated
+so.topic: reference
 ---
-title: Void SetUpdated(DateTime Updated)
-path: /EJScript/Classes/NSProject/Member functions/Void SetUpdated(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdated(DateTime)
----
-
 
 Last updated date
 
+**Parameter:** 
+ - **updated** DateTime
 
-
-* **Updated:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSProject thing;
+DateTime updated;
+thing.SetUpdated(updated);
+```
 

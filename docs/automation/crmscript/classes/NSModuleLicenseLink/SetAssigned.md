@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_SetAssigned
+title: SetAssigned(Bool assigned)
+intellisense: NSModuleLicenseLink.SetAssigned
+keywords: NSModuleLicenseLink, GetAssigned
+so.topic: reference
 ---
-title: Void SetAssigned(Bool Assigned)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetAssigned(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssigned(Bool)
----
-
 
 Is the module license assigned to a given user
 
+**Parameter:** 
+ - **assigned** Bool
 
-
-* **Assigned:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSModuleLicenseLink thing;
+Bool assigned;
+thing.SetAssigned(assigned);
+```
 

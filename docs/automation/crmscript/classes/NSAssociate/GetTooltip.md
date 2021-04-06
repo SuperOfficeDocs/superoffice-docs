@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAssociate_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSAssociate/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 1264
-keywords: GetTooltip()
+intellisense: NSAssociate.GetTooltip
+keywords: NSAssociate, GetTooltip
+so.topic: reference
 ---
-
 
 Tooltip or other description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAssociate thing;
+String tooltip  = thing.GetTooltip();
+```
 
 

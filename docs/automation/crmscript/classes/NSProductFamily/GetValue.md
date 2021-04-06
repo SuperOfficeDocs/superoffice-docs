@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSProductFamily_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSProductFamily/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSProductFamily.GetValue
+keywords: NSProductFamily, GetValue
+so.topic: reference
 ---
 
+Get the name of the ProductFamily.
 
-* **Returns:** String
+**Returns:** String ProductFamily name.
 
+```crmscript
+NSProductFamily thing;
+String name = thing.GetValue();
+```
 

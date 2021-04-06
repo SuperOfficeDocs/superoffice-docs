@@ -1,16 +1,24 @@
----
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_GetScope
 title: Integer GetScope()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Integer GetScope()
-intellisense: 1
-classref: 1
-keywords: GetScope()
+intellisense: NSSystemEventEntity.GetScope
+keywords: NSSystemEventEntity, GetScope
+so.topic: reference
 ---
-
 
 1 = system-wide, 2= database, 3 = group, 4 = user
 
+**Returns:** Integer
 
+     - Enum: 0 = Undefined 
+     - Enum: 1 = SystemWide 
+     - Enum: 2 = Database 
+     - Enum: 3 = Group 
+     - Enum: 4 = User 
 
-* **Returns:** Integer
+```crmscript
+NSSystemEventEntity thing;
+Integer scope  = thing.GetScope();
+```
 
 

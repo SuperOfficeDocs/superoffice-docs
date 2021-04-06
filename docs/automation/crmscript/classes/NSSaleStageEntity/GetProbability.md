@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStageEntity_GetProbability
 title: Integer GetProbability()
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/Integer GetProbability()
-intellisense: 1
-classref: 1
-keywords: GetProbability()
+intellisense: NSSaleStageEntity.GetProbability
+keywords: NSSaleStageEntity, GetProbability
+so.topic: reference
 ---
-
 
 The numeric probability of the sale
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleStageEntity thing;
+Integer probability  = thing.GetProbability();
+```
 
 

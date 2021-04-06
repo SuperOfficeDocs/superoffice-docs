@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSCheckoutInfo_SetState
+title: SetState(Integer state)
+intellisense: NSCheckoutInfo.SetState
+keywords: NSCheckoutInfo, GetState
+so.topic: reference
 ---
-title: Void SetState(Integer State)
-path: /EJScript/Classes/NSCheckoutInfo/Member functions/Void SetState(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1565
-keywords: SetState(Integer)
----
-
 
 Checkout state
 
+**Parameter:** 
+ - **state** Integer
+     - Enum: 0 = NotCheckedOut 
+     - Enum: 1 = CheckedOutOwn 
+     - Enum: 2 = CheckedOutOther 
+     - Enum: 3 = LockingNotSupported 
 
-
-* **State:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCheckoutInfo thing;
+Integer state;
+thing.SetState(state);
+```
 

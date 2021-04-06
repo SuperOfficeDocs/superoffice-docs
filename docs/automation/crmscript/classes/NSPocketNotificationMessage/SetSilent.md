@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_SetSilent
+title: SetSilent(Bool silent)
+intellisense: NSPocketNotificationMessage.SetSilent
+keywords: NSPocketNotificationMessage, GetSilent
+so.topic: reference
 ---
-title: Void SetSilent(Bool Silent)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetSilent(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSilent(Bool)
----
-
 
 Indicates wether or not the message will vibrate/play a sound when delivered
 
+**Parameter:** 
+ - **silent** Bool
 
-
-* **Silent:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSPocketNotificationMessage thing;
+Bool silent;
+thing.SetSilent(silent);
+```
 

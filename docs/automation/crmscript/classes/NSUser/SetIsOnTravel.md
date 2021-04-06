@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_SetIsOnTravel
+title: SetIsOnTravel(Bool isOnTravel)
+intellisense: NSUser.SetIsOnTravel
+keywords: NSUser, GetIsOnTravel
+so.topic: reference
 ---
-title: Void SetIsOnTravel(Bool IsOnTravel)
-path: /EJScript/Classes/NSUser/Member functions/Void SetIsOnTravel(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsOnTravel(Bool)
----
-
 
 True if the user is on travel.
 
+**Parameter:** 
+ - **isOnTravel** Bool
 
-
-* **IsOnTravel:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSUser thing;
+Bool isOnTravel;
+thing.SetIsOnTravel(isOnTravel);
+```
 

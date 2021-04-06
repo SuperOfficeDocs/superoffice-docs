@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoTimeSpan_SetUseMinutes
+title: SetUseMinutes(Bool useMinutes)
+intellisense: NSFieldInfoTimeSpan.SetUseMinutes
+keywords: NSFieldInfoTimeSpan, GetUseMinutes
+so.topic: reference
 ---
-title: Void SetUseMinutes(Bool UseMinutes)
-path: /EJScript/Classes/NSFieldInfoTimeSpan/Member functions/Void SetUseMinutes(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3572
-keywords: SetUseMinutes(Bool)
----
-
 
 Should the time-span be counted in minutes?
 
+**Parameter:** 
+ - **useMinutes** Bool
 
-
-* **UseMinutes:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldInfoTimeSpan thing;
+Bool useMinutes;
+thing.SetUseMinutes(useMinutes);
+```
 

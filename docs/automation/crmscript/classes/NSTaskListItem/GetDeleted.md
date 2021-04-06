@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTaskListItem_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSTaskListItem.GetDeleted
+keywords: NSTaskListItem, GetDeleted
+so.topic: reference
 ---
-
 
 If true, the Task list item is deleted
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSTaskListItem thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

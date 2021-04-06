@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteContext_GetCRMAssociate
+title: Associate GetCRMAssociate()
+intellisense: NSQuoteContext.GetCRMAssociate
+keywords: NSQuoteContext, GetCRMAssociate
+so.topic: reference
 ---
-title: NSAssociate GetCRMAssociate()
-path: /EJScript/Classes/NSQuoteContext/Member functions/NSAssociate GetCRMAssociate()
-intellisense: 1
-classref: 1
-keywords: GetCRMAssociate()
----
-
 
 The associate (salesman) that is logged into the CRM system.
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSQuoteContext thing;
+Associate cRMAssociate  = thing.GetCRMAssociate();
+```
 
 

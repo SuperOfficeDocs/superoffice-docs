@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 973
-keywords: GetDescription()
+intellisense: NSAppointmentEntity.GetDescription
+keywords: NSAppointmentEntity, GetDescription
+so.topic: reference
 ---
-
 
 Description of the appointment.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointmentEntity thing;
+String description  = thing.GetDescription();
+```
 
 

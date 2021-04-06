@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetDeliveryTerm
+title: NSDeliveryTerm GetDeliveryTerm(Integer deliveryTermId);
+intellisense: NSListAgent.GetDeliveryTerm
+keywords: NSListAgent, GetDeliveryTerm
+so.topic: reference
 ---
-title: NSDeliveryTerm GetDeliveryTerm(Integer deliveryTermId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDeliveryTerm GetDeliveryTerm(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetDeliveryTerm(Integer)
----
 
+Gets a NSDeliveryTerm object.
 
-Gets a DeliveryTerm object.
+**Parameters:**
+ - **deliveryTermId** The identifier of the NSDeliveryTerm object
 
+**Returns:** NSDeliveryTerm
 
-
-* **deliveryTermId:** The identifier of the DeliveryTerm object
-* **Returns:** DeliveryTerm
-
+```crmscript
+NSListAgent agent;
+NSDeliveryTerm thing = agent.GetDeliveryTerm(123);
+```
 

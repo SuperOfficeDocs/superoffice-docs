@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetProgressPercent
+title: SetProgressPercent(Integer progressPercent)
+intellisense: NSBatchTaskInfo.SetProgressPercent
+keywords: NSBatchTaskInfo, GetProgressPercent
+so.topic: reference
 ---
-title: Void SetProgressPercent(Integer ProgressPercent)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetProgressPercent(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1400
-keywords: SetProgressPercent(Integer)
----
-
 
 Task progress, in percent of estimated total
 
+**Parameter:** 
+ - **progressPercent** Integer
 
-
-* **ProgressPercent:** Integer
-* **Returns:** Void
-
+```crmscript
+NSBatchTaskInfo thing;
+Integer progressPercent;
+thing.SetProgressPercent(progressPercent);
+```
 

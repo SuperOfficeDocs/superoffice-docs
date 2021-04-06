@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_LocalizedField
 title: LocalizedField
-path: /EJScript/Classes/LocalizedField
-intellisense: 1
-classref: 1
+intellisense: Void.LocalizedField
 sortOrder: 465
+so.topic: reference
 ---
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactSummary_SetChats
+title: SetChats(ChatSummaryItemArray chats)
+intellisense: NSContactSummary.SetChats
+keywords: NSContactSummary, GetChats
+so.topic: reference
 ---
-title: Void SetChats(NSChatSummaryItem[] Chats)
-path: /EJScript/Classes/NSContactSummary/Member functions/Void SetChats(NSChatSummaryItem[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1988
-keywords: SetChats(NSChatSummaryItem[])
----
-
 
 Recent chats with contact
 
+**Parameter:** 
+ - **chats** ChatSummaryItemArray
 
-
-* **Chats:** ChatSummaryItemArray
-* **Returns:** ChatSummaryItemArray
-
+```crmscript
+NSContactSummary thing;
+ChatSummaryItemArray chats;
+thing.SetChats(chats);
+```
 

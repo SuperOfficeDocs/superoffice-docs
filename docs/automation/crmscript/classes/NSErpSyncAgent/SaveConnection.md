@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_SaveConnection
+title: ErpConnection SaveConnection(ErpConnection connection)
+intellisense: NSErpSyncAgent.SaveConnection
+keywords: NSErpSyncAgent, SaveConnection
+so.topic: reference
 ---
-title: NSErpConnection SaveConnection(NSErpConnection connection)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpConnection SaveConnection(NSErpConnection p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3193
-keywords: SaveConnection(NSErpConnection)
----
-
 
 Saves a connection to the database.
 
+**Parameters:**
+ - **connection** The connection to save.
 
+**Returns:** The resulting connection.
 
-* **connection:** The connection to save.
-* **Returns:** The resulting connection.
-
+```crmscript
+NSErpSyncAgent agent;
+ErpConnection connection;
+ErpConnection res = agent.SaveConnection(connection);
+```
 

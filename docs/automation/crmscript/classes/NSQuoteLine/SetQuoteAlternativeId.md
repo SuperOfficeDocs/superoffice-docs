@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetQuoteAlternativeId
+title: SetQuoteAlternativeId(Integer quoteAlternativeId)
+intellisense: NSQuoteLine.SetQuoteAlternativeId
+keywords: NSQuoteLine, GetQuoteAlternativeId
+so.topic: reference
 ---
-title: Void SetQuoteAlternativeId(Integer QuoteAlternativeId)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetQuoteAlternativeId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetQuoteAlternativeId(Integer)
----
-
 
 The alternative this line is part of, the conceptual Parent in CRM database.
 
+**Parameter:** 
+ - **quoteAlternativeId** Integer
 
-
-* **QuoteAlternativeId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteLine thing;
+Integer quoteAlternativeId;
+thing.SetQuoteAlternativeId(quoteAlternativeId);
+```
 

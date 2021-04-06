@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAudienceLayoutEntity_GetInstanceLayout
 title: String GetInstanceLayout()
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/String GetInstanceLayout()
-intellisense: 1
-classref: 1
-sortOrder: 1340
-keywords: GetInstanceLayout()
+intellisense: NSAudienceLayoutEntity.GetInstanceLayout
+keywords: NSAudienceLayoutEntity, GetInstanceLayout
+so.topic: reference
 ---
-
 
 The web part layout as a serialized string
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAudienceLayoutEntity thing;
+String instanceLayout  = thing.GetInstanceLayout();
+```
 
 

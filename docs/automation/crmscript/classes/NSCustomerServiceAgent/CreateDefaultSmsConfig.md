@@ -1,18 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerServiceAgent_CreateDefaultSmsConfig
 title: NSSmsConfig CreateDefaultSmsConfig()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSSmsConfig CreateDefaultSmsConfig()
-intellisense: 1
-classref: 1
-sortOrder: 2234
-keywords: CreateDefaultSmsConfig()
+intellisense: NSCustomerServiceAgent.CreateDefaultSmsConfig
+keywords: NSCustomerServiceAgent, CreateDefaultSmsConfig
+so.topic: reference
 ---
+	  
+Set default values into a new NSSmsConfig.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSSmsConfig with default values.
 
-
-Loading default values into a new SmsConfig.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New SmsConfig with default values
-
+```crmscript
+NSCustomerServiceAgent agent;
+NSSmsConfig thing = agent.CreateDefaultSmsConfig();
+thing = agent.SaveSmsConfig(thing);
+```
 

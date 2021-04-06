@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetListItemsForHeading
+title: SelectableMDOListItemArray GetListItemsForHeading(Integer udListDefinitionId, Integer headingId)
+intellisense: NSListAgent.GetListItemsForHeading
+keywords: NSListAgent, GetListItemsForHeading
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] GetListItemsForHeading(Integer udListDefinitionId, Integer headingId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetListItemsForHeading(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-keywords: GetListItemsForHeading(Integer,Integer)
----
-
 
 List of list items that is selected if under this heading
 
+**Parameters:**
+ - **udListDefinitionId** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
+ - **headingId** The id of the heading
 
+**Returns:** Array of selectable list items
 
-* **udListDefinitionId:** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **headingId:** The id of the heading
-* **Returns:** Array of selectable list items
-
+```crmscript
+NSListAgent agent;
+Integer udListDefinitionId;
+Integer headingId;
+SelectableMDOListItemArray res = agent.GetListItemsForHeading(udListDefinitionId, headingId);
+```
 

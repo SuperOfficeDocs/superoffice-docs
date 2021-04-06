@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetWedStart
+title: SetWedStart(DateTime wedStart)
+intellisense: NSTicketPriorityEntity.SetWedStart
+keywords: NSTicketPriorityEntity, GetWedStart
+so.topic: reference
 ---
-title: Void SetWedStart(DateTime WedStart)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetWedStart(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetWedStart(DateTime)
----
-
 
 The work hour start for Wednesdays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **wedStart** DateTime
 
-
-* **WedStart:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime wedStart;
+thing.SetWedStart(wedStart);
+```
 

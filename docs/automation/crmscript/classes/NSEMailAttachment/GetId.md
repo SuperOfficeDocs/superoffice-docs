@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAttachment_GetId
 title: String GetId()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/String GetId()
-intellisense: 1
-classref: 1
-sortOrder: 2898
-keywords: GetId()
+intellisense: NSEMailAttachment.GetId
+keywords: NSEMailAttachment, GetId
+so.topic: reference
 ---
-
 
 Content-ID
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAttachment thing;
+String id  = thing.GetId();
+```
 
 

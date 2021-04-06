@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetDatabaseSerialNumber
+title: SetDatabaseSerialNumber(String databaseSerialNumber)
+intellisense: NSBatchTaskInfo.SetDatabaseSerialNumber
+keywords: NSBatchTaskInfo, GetDatabaseSerialNumber
+so.topic: reference
 ---
-title: Void SetDatabaseSerialNumber(String DatabaseSerialNumber)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetDatabaseSerialNumber(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1388
-keywords: SetDatabaseSerialNumber(String)
----
-
 
 Serial number of the database the task is to run on.
 
+**Parameter:** 
+ - **databaseSerialNumber** String
 
-
-* **DatabaseSerialNumber:** String
-* **Returns:** String
-
+```crmscript
+NSBatchTaskInfo thing;
+String databaseSerialNumber;
+thing.SetDatabaseSerialNumber(databaseSerialNumber);
+```
 

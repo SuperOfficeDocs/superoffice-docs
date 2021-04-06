@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSDashboardAgent_GetDashboard
+title: NSDashboard GetDashboard(Integer dashboardId);
+intellisense: NSDashboardAgent.GetDashboard
+keywords: NSDashboardAgent, GetDashboard
+so.topic: reference
 ---
-title: NSDashboard GetDashboard(Integer dashboardId)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboard GetDashboard(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2273
-keywords: GetDashboard(Integer)
----
 
+Gets a NSDashboard object.
 
-Gets a Dashboard object.
+**Parameters:**
+ - **dashboardId** The identifier of the NSDashboard object
 
+**Returns:** NSDashboard
 
-
-* **dashboardId:** The identifier of the Dashboard object
-* **Returns:** Dashboard
-
+```crmscript
+NSDashboardAgent agent;
+NSDashboard thing = agent.GetDashboard(123);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo_GetLegalBaseId
 title: Integer GetLegalBaseId()
-path: /EJScript/Classes/NSConsentInfo/Member functions/Integer GetLegalBaseId()
-intellisense: 1
-classref: 1
-sortOrder: 1633
-keywords: GetLegalBaseId()
+intellisense: NSConsentInfo.GetLegalBaseId
+keywords: NSConsentInfo, GetLegalBaseId
+so.topic: reference
 ---
-
 
 Primary key for the LegalBase associated with this consent
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSConsentInfo thing;
+Integer legalBaseId  = thing.GetLegalBaseId();
+```
 
 

@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserValidationResult_GetReason
 title: String GetReason()
-path: /EJScript/Classes/NSUserValidationResult/Member functions/String GetReason()
-intellisense: 1
-classref: 1
-keywords: GetReason()
+intellisense: NSUserValidationResult.GetReason
+keywords: NSUserValidationResult, GetReason
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSUserValidationResult thing;
+String reason  = thing.GetReason();
+```
 
 

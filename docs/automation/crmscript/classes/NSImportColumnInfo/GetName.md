@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSImportColumnInfo_GetName
 title: String GetName()
-path: /EJScript/Classes/NSImportColumnInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 3962
-keywords: GetName()
+intellisense: NSImportColumnInfo.GetName
+keywords: NSImportColumnInfo, GetName
+so.topic: reference
 ---
-
 
 Name of the column
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSImportColumnInfo thing;
+String name  = thing.GetName();
+```
 
 

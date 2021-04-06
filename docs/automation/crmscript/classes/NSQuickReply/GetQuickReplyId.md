@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuickReply_GetQuickReplyId
 title: Integer GetQuickReplyId()
-path: /EJScript/Classes/NSQuickReply/Member functions/Integer GetQuickReplyId()
-intellisense: 1
-classref: 1
-keywords: GetQuickReplyId()
+intellisense: NSQuickReply.GetQuickReplyId
+keywords: NSQuickReply, GetQuickReplyId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuickReply thing;
+Integer quickReplyId  = thing.GetQuickReplyId();
+```
 
 

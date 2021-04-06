@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTileOption_GetName
 title: String GetName()
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 2323
-keywords: GetName()
+intellisense: NSDashboardTileOption.GetName
+keywords: NSDashboardTileOption, GetName
+so.topic: reference
 ---
-
 
 Name of option, usually not visible to users
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDashboardTileOption thing;
+String name  = thing.GetName();
+```
 
 

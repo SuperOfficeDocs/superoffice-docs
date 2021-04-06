@@ -1,10 +1,10 @@
 ---
-title: String getFieldValue(String field)
-path: /EJScript/Classes/HtmlElement/Member functions/String getFieldValue(String field)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HtmlElement_getFieldValue_String_field
+title: HtmlElement.getFieldValue(String field)
+intellisense: HtmlElement.getFieldValue
 sortOrder: 383
 keywords: getFieldValue(String)
+so.topic: reference
 ---
 
 ### String getFieldValue(String field)

@@ -1,9 +1,9 @@
 ---
-title: String getCell(Integer row, Integer column)
-path: /EJScript/Classes/StringMatrix/Member functions/String getCell(Integer row, Integer column)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StringMatrix_getCell_Integer_row_Integer_column
+title: StringMatrix.getCell(Integer row, Integer column)
+intellisense: StringMatrix.getCell
 keywords: getCell(Integer,Integer)
+so.topic: reference
 ---
 
 

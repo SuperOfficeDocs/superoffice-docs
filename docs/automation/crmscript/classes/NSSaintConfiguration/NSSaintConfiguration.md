@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSaintConfiguration
 title: NSSaintConfiguration
-path: /EJScript/Classes/NSSaintConfiguration
-intellisense: 1
-classref: 1
+intellisense: Void.NSSaintConfiguration
+keywords: NSSaintConfiguration
+so.topic: reference
 ---
-
 
 Definition of the three perionds for status monitors and some other settings per saint entity
 
-
-
-
-1. autolist
+1. autolist 
 

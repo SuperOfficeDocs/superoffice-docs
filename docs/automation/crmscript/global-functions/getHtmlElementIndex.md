@@ -1,9 +1,9 @@
 ---
 description: Integer getHtmlElementIndex(String p\_name)
-path: /EJScript/Global functions/Integer getHtmlElementIndex(String p_name)
-intellisense: 1
+intellisense: Void.getHtmlElementIndex
 langref: 1
 keywords: getHtmlElementIndex(String)
+so.topic: reference
 ---
 
 

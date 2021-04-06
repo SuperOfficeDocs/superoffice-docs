@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_GetNotificationEmail
 title: String GetNotificationEmail()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/String GetNotificationEmail()
-intellisense: 1
-classref: 1
-keywords: GetNotificationEmail()
+intellisense: NSTicketCategoryEntity.GetNotificationEmail
+keywords: NSTicketCategoryEntity, GetNotificationEmail
+so.topic: reference
 ---
-
 
 Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketCategoryEntity thing;
+String notificationEmail  = thing.GetNotificationEmail();
+```
 
 

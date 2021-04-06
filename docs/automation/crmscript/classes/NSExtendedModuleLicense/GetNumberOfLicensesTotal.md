@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtendedModuleLicense_GetNumberOfLicensesTotal
 title: Integer GetNumberOfLicensesTotal()
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Integer GetNumberOfLicensesTotal()
-intellisense: 1
-classref: 1
-sortOrder: 3422
-keywords: GetNumberOfLicensesTotal()
+intellisense: NSExtendedModuleLicense.GetNumberOfLicensesTotal
+keywords: NSExtendedModuleLicense, GetNumberOfLicensesTotal
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSExtendedModuleLicense thing;
+Integer numberOfLicensesTotal  = thing.GetNumberOfLicensesTotal();
+```
 
 

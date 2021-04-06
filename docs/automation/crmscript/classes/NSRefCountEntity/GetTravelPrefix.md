@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRefCountEntity_GetTravelPrefix
 title: Integer GetTravelPrefix()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Integer GetTravelPrefix()
-intellisense: 1
-classref: 1
-keywords: GetTravelPrefix()
+intellisense: NSRefCountEntity.GetTravelPrefix
+keywords: NSRefCountEntity, GetTravelPrefix
+so.topic: reference
 ---
-
 
 size of prefix for Travel use of ths counter
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSRefCountEntity thing;
+Integer travelPrefix  = thing.GetTravelPrefix();
+```
 
 

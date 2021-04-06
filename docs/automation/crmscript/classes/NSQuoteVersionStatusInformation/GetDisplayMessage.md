@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionStatusInformation_GetDisplayMessage
 title: String GetDisplayMessage()
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/String GetDisplayMessage()
-intellisense: 1
-classref: 1
-keywords: GetDisplayMessage()
+intellisense: NSQuoteVersionStatusInformation.GetDisplayMessage
+keywords: NSQuoteVersionStatusInformation, GetDisplayMessage
+so.topic: reference
 ---
-
 
 Generated error message for the Quote Version. Will check for errors on quote lines, alternatives and the version itself.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersionStatusInformation thing;
+String displayMessage  = thing.GetDisplayMessage();
+```
 
 

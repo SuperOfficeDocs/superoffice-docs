@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitor_SetDeleted
+title: SetDeleted(Bool deleted)
+intellisense: NSStatusMonitor.SetDeleted
+keywords: NSStatusMonitor, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetDeleted(Bool)
----
-
 
 Deleted flag, 1 if this record is deleted (never from the database)
 
+**Parameter:** 
+ - **deleted** Bool
 
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSStatusMonitor thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
 

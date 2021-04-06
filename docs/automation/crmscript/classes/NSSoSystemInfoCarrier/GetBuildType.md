@@ -1,9 +1,9 @@
 ---
-title: Integer GetBuildType()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Integer GetBuildType()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetBuildType
+title: NSSoSystemInfoCarrier.GetBuildType()
+intellisense: NSSoSystemInfoCarrier.GetBuildType
 keywords: GetBuildType()
+so.topic: reference
 ---
 
 

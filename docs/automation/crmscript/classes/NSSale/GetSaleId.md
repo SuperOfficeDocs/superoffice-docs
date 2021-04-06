@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetSaleId
 title: Integer GetSaleId()
-path: /EJScript/Classes/NSSale/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
-keywords: GetSaleId()
+intellisense: NSSale.GetSaleId
+keywords: NSSale, GetSaleId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSale thing;
+Integer saleId  = thing.GetSaleId();
+```
 
 

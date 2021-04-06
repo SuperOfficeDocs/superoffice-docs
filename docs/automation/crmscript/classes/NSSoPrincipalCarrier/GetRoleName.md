@@ -1,9 +1,9 @@
 ---
-title: String GetRoleName()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/String GetRoleName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetRoleName
+title: NSSoPrincipalCarrier.GetRoleName()
+intellisense: NSSoPrincipalCarrier.GetRoleName
 keywords: GetRoleName()
+so.topic: reference
 ---
 
 

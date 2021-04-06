@@ -1,17 +1,22 @@
+﻿---
+uid: crmscript_ref_NSProductExtraDataField_SetType
+title: SetType(Integer type)
+intellisense: NSProductExtraDataField.SetType
+keywords: NSProductExtraDataField, GetType
+so.topic: reference
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetType(Integer)
----
-
 
 String, url, image. How the value should be interpreted.
 
+**Parameter:** 
+ - **type** Integer
+     - Enum: 0 = String 
+     - Enum: 1 = Url 
+     - Enum: 2 = Image 
 
-
-* **Type:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProductExtraDataField thing;
+Integer type;
+thing.SetType(type);
+```
 

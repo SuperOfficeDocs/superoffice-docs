@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetPersons
+title: SetPersons(PersonArray persons)
+intellisense: NSContactEntity.SetPersons
+keywords: NSContactEntity, GetPersons
+so.topic: reference
 ---
-title: Void SetPersons(NSPerson[] Persons)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetPersons(NSPerson[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1907
-keywords: SetPersons(NSPerson[])
----
-
 
 The persons belonging to the contact.
 
+**Parameter:** 
+ - **persons** PersonArray
 
-
-* **Persons:** PersonArray
-* **Returns:** PersonArray
-
+```crmscript
+NSContactEntity thing;
+PersonArray persons;
+thing.SetPersons(persons);
+```
 

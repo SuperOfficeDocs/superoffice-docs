@@ -1,10 +1,10 @@
 ---
-title: NSStream postAsStream(String p0)
-path: /EJScript/Classes/HTTP/Member functions/NSStream postAsStream(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HTTP_postAsStream_String_p_0
+title: HTTP.postAsStream(String p_0)
+intellisense: HTTP.postAsStream
 sortOrder: 409
 keywords: postAsStream(String)
+so.topic: reference
 ---
 
 Supports both http and https. Returns the result in a NSStream.

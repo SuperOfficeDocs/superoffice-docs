@@ -1,9 +1,9 @@
 ---
 description: Void setParserVariable(String name, String value)
-path: /EJScript/Global functions/Void setParserVariable(String name, String value)
-intellisense: 1
+intellisense: Void.setParserVariable
 langref: 1
 keywords: setParserVariable(String,String)
+so.topic: reference
 ---
 
 

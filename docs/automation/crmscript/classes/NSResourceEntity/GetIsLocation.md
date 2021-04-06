@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSResourceEntity_GetIsLocation
 title: Bool GetIsLocation()
-path: /EJScript/Classes/NSResourceEntity/Member functions/Bool GetIsLocation()
-intellisense: 1
-classref: 1
-keywords: GetIsLocation()
+intellisense: NSResourceEntity.GetIsLocation
+keywords: NSResourceEntity, GetIsLocation
+so.topic: reference
 ---
-
 
 If true the resource is a location
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSResourceEntity thing;
+Bool isLocation  = thing.GetIsLocation();
+```
 
 

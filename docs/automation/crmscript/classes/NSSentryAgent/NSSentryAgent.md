@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSSentryAgent
 title: NSSentryAgent
-path: /EJScript/Classes/NSSentryAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSSentryAgent
+keywords: NSSentryAgent
+so.topic: reference
 ---
-
 
 Data and function right queries
 
-
-
+```crmscript
+NSSentryAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

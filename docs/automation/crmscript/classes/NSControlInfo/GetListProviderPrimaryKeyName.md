@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSControlInfo_GetListProviderPrimaryKeyName
 title: String GetListProviderPrimaryKeyName()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetListProviderPrimaryKeyName()
-intellisense: 1
-classref: 1
-sortOrder: 2001
-keywords: GetListProviderPrimaryKeyName()
+intellisense: NSControlInfo.GetListProviderPrimaryKeyName
+keywords: NSControlInfo, GetListProviderPrimaryKeyName
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSControlInfo thing;
+String listProviderPrimaryKeyName  = thing.GetListProviderPrimaryKeyName();
+```
 
 

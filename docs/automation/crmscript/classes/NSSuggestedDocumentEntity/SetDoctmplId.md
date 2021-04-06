@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_SetDoctmplId
+title: SetDoctmplId(Integer doctmplId)
+intellisense: NSSuggestedDocumentEntity.SetDoctmplId
+keywords: NSSuggestedDocumentEntity, GetDoctmplId
+so.topic: reference
 ---
-title: Void SetDoctmplId(Integer DoctmplId)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetDoctmplId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDoctmplId(Integer)
----
-
 
 Type of the suggested document
 
+**Parameter:** 
+ - **doctmplId** Integer
 
-
-* **DoctmplId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedDocumentEntity thing;
+Integer doctmplId;
+thing.SetDoctmplId(doctmplId);
+```
 

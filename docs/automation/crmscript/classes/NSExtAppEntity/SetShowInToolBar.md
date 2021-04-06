@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetShowInToolBar
+title: SetShowInToolBar(Bool showInToolBar)
+intellisense: NSExtAppEntity.SetShowInToolBar
+keywords: NSExtAppEntity, GetShowInToolBar
+so.topic: reference
 ---
-title: Void SetShowInToolBar(Bool ShowInToolBar)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetShowInToolBar(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3395
-keywords: SetShowInToolBar(Bool)
----
-
 
 Does the webpanel have a toolbar
 
+**Parameter:** 
+ - **showInToolBar** Bool
 
-
-* **ShowInToolBar:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSExtAppEntity thing;
+Bool showInToolBar;
+thing.SetShowInToolBar(showInToolBar);
+```
 

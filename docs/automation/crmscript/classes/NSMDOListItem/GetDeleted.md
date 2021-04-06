@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSMDOListItem/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSMDOListItem.GetDeleted
+keywords: NSMDOListItem, GetDeleted
+so.topic: reference
 ---
-
 
 The deleted status of the ListItem
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSMDOListItem thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneRule_GetEndRulePattern
 title: String GetEndRulePattern()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/String GetEndRulePattern()
-intellisense: 1
-classref: 1
-keywords: GetEndRulePattern()
+intellisense: NSTimeZoneRule.GetEndRulePattern
+keywords: NSTimeZoneRule, GetEndRulePattern
+so.topic: reference
 ---
-
 
 DST end rule, such as 2300 LST-SAT-OCT; limited to rules that we have parse code for; use dayOfMonth etc for custom rules
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTimeZoneRule thing;
+String endRulePattern  = thing.GetEndRulePattern();
+```
 
 

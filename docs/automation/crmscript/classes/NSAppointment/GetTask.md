@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetTask
 title: String GetTask()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetTask()
-intellisense: 1
-classref: 1
-sortOrder: 765
-keywords: GetTask()
+intellisense: NSAppointment.GetTask
+keywords: NSAppointment, GetTask
+so.topic: reference
 ---
-
 
 Task comprises the different types of activities, like “Phone call”, “Meeting” and so on.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointment thing;
+String task  = thing.GetTask();
+```
 
 

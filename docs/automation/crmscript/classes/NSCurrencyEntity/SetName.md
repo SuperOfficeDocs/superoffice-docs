@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_SetName
+title: SetName(String name)
+intellisense: NSCurrencyEntity.SetName
+keywords: NSCurrencyEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2188
-keywords: SetName(String)
----
-
 
 The list item
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSCurrencyEntity thing;
+String name;
+thing.SetName(name);
+```
 

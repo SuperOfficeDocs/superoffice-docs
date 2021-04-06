@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem
 title: NSSaleSummaryItem
-path: /EJScript/Classes/NSSaleSummaryItem
-intellisense: 1
-classref: 1
+intellisense: Void.NSSaleSummaryItem
+keywords: NSSaleSummaryItem
+so.topic: reference
 ---
 
+Sale Summary item 
 
-Sale Summary item
-
-
-
-
-1. autolist
+1. autolist 
 

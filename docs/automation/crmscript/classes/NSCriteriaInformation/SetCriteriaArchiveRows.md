@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCriteriaInformation_SetCriteriaArchiveRows
+title: SetCriteriaArchiveRows(ArchiveListItemArray criteriaArchiveRows)
+intellisense: NSCriteriaInformation.SetCriteriaArchiveRows
+keywords: NSCriteriaInformation, GetCriteriaArchiveRows
+so.topic: reference
 ---
-title: Void SetCriteriaArchiveRows(NSArchiveListItem[] CriteriaArchiveRows)
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/Void SetCriteriaArchiveRows(NSArchiveListItem[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2109
-keywords: SetCriteriaArchiveRows(NSArchiveListItem[])
----
-
 
 Array of archive list items, i.e., the service layer carrier for archive rows. These are the criteria, represented as archive rows.
 
+**Parameter:** 
+ - **criteriaArchiveRows** ArchiveListItemArray
 
-
-* **CriteriaArchiveRows:** ArchiveListItemArray
-* **Returns:** ArchiveListItemArray
-
+```crmscript
+NSCriteriaInformation thing;
+ArchiveListItemArray criteriaArchiveRows;
+thing.SetCriteriaArchiveRows(criteriaArchiveRows);
+```
 

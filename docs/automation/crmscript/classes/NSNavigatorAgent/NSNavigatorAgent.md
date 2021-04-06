@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSNavigatorAgent
 title: NSNavigatorAgent
-path: /EJScript/Classes/NSNavigatorAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSNavigatorAgent
+keywords: NSNavigatorAgent
+so.topic: reference
 ---
-
 
 Navigator stuff.
 
-
-
+```crmscript
+NSNavigatorAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

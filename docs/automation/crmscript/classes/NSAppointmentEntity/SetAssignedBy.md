@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetAssignedBy
+title: SetAssignedBy(Associate assignedBy)
+intellisense: NSAppointmentEntity.SetAssignedBy
+keywords: NSAppointmentEntity, GetAssignedBy
+so.topic: reference
 ---
-title: Void SetAssignedBy(NSAssociate AssignedBy)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetAssignedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-sortOrder: 985
-keywords: SetAssignedBy(NSAssociate)
----
 
+Who assigned this appointment to this user? Whose diary did the appointment come from?
 
-* **AssignedBy:** Associate
-* **Returns:** Associate
+**Parameter:** 
+ - **assignedBy** Associate
 
+```crmscript
+NSAppointmentEntity thing;
+Associate assignedBy;
+thing.SetAssignedBy(assignedBy);
+```
 

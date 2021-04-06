@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetQuoteFromSaleId
+title: Quote GetQuoteFromSaleId(Integer saleId)
+intellisense: NSQuoteAgent.GetQuoteFromSaleId
+keywords: NSQuoteAgent, GetQuoteFromSaleId
+so.topic: reference
 ---
-title: NSQuote GetQuoteFromSaleId(Integer saleId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuote GetQuoteFromSaleId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetQuoteFromSaleId(Integer)
----
-
 
 Get a Quote for a sale
 
+**Parameters:**
+ - **saleId** SaleId of the Quote to get.
 
+**Returns:** The Quote
 
-* **saleId:** SaleId of the Quote to get.
-* **Returns:** The Quote
-
+```crmscript
+NSQuoteAgent agent;
+Integer saleId;
+Quote res = agent.GetQuoteFromSaleId(saleId);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectMember_SetEmailAddress
+title: SetEmailAddress(String emailAddress)
+intellisense: NSProjectMember.SetEmailAddress
+keywords: NSProjectMember, GetEmailAddress
+so.topic: reference
 ---
-title: Void SetEmailAddress(String EmailAddress)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetEmailAddress(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetEmailAddress(String)
----
-
 
 The e-mail address
 
+**Parameter:** 
+ - **emailAddress** String
 
-
-* **EmailAddress:** String
-* **Returns:** String
-
+```crmscript
+NSProjectMember thing;
+String emailAddress;
+thing.SetEmailAddress(emailAddress);
+```
 

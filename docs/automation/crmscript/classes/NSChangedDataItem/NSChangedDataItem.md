@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSChangedDataItem
 title: NSChangedDataItem
-path: /EJScript/Classes/NSChangedDataItem
-intellisense: 1
-classref: 1
-sortOrder: 1506
+intellisense: Void.NSChangedDataItem
+keywords: NSChangedDataItem
+so.topic: reference
 ---
-
 
 Tablename/recordid pair used to refer to records
 
-
-
-
-1. autolist
+1. autolist 
 

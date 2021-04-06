@@ -1,10 +1,10 @@
 ---
-title: Bool isNull()
-path: /EJScript/Classes/Date/Member functions/Bool isNull()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Date_isNull
+title: Date.isNull()
+intellisense: Date.isNull
 sortOrder: 196
 keywords: isNull()
+so.topic: reference
 ---
 
 

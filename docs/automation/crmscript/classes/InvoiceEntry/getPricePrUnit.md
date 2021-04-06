@@ -1,10 +1,10 @@
 ---
-title: String getPricePrUnit()
-path: /EJScript/Classes/InvoiceEntry/Member functions/String getPricePrUnit()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_InvoiceEntry_getPricePrUnit
+title: InvoiceEntry.getPricePrUnit()
+intellisense: InvoiceEntry.getPricePrUnit
 sortOrder: 436
 keywords: getPricePrUnit()
+so.topic: reference
 ---
 
 

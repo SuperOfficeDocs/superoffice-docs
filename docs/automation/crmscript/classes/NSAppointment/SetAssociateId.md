@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSAppointment.SetAssociateId
+keywords: NSAppointment, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 776
-keywords: SetAssociateId(Integer)
----
-
 
 ID of associate whose diary the appointment is in, REQUIRED
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointment thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

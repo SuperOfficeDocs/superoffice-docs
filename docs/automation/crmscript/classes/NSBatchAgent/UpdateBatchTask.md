@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSBatchAgent_UpdateBatchTask
+title: BatchTaskInfo UpdateBatchTask(BatchTaskInfo batchTaskInfo)
+intellisense: NSBatchAgent.UpdateBatchTask
+keywords: NSBatchAgent, UpdateBatchTask
+so.topic: reference
 ---
-title: NSBatchTaskInfo UpdateBatchTask(NSBatchTaskInfo batchTaskInfo)
-path: /EJScript/Classes/NSBatchAgent/Member functions/NSBatchTaskInfo UpdateBatchTask(NSBatchTaskInfo p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1354
-keywords: UpdateBatchTask(NSBatchTaskInfo)
----
-
 
 Update information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.
 
+**Parameters:**
+ - **batchTaskInfo** The updated information to save.
 
+**Returns:** The updated BatchTaskInfo
 
-* **batchTaskInfo:** The updated information to save.
-* **Returns:** The updated BatchTaskInfo
-
+```crmscript
+NSBatchAgent agent;
+BatchTaskInfo batchTaskInfo;
+BatchTaskInfo res = agent.UpdateBatchTask(batchTaskInfo);
+```
 

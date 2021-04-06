@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDocumentAgent_GetPublishedProjectDocuments
+title: DocumentArray GetPublishedProjectDocuments(Integer projectId)
+intellisense: NSDocumentAgent.GetPublishedProjectDocuments
+keywords: NSDocumentAgent, GetPublishedProjectDocuments
+so.topic: reference
 ---
-title: NSDocument[] GetPublishedProjectDocuments(Integer projectId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetPublishedProjectDocuments(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2496
-keywords: GetPublishedProjectDocuments(Integer)
----
-
 
 Get published appointment documents by project id.
 
+**Parameters:**
+ - **projectId** The project id
 
+**Returns:** Array of Appointment
 
-* **projectId:** The project id
-* **Returns:** Array of Appointment
-
+```crmscript
+NSDocumentAgent agent;
+Integer projectId;
+DocumentArray res = agent.GetPublishedProjectDocuments(projectId);
+```
 

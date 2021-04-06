@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_SetCrmDisplayName
+title: SetCrmDisplayName(String crmDisplayName)
+intellisense: NSErpSyncFieldMapping.SetCrmDisplayName
+keywords: NSErpSyncFieldMapping, GetCrmDisplayName
+so.topic: reference
 ---
-title: Void SetCrmDisplayName(String CrmDisplayName)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetCrmDisplayName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3307
-keywords: SetCrmDisplayName(String)
----
-
 
 Display name of CRM field; ignored on Save
 
+**Parameter:** 
+ - **crmDisplayName** String
 
-
-* **CrmDisplayName:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncFieldMapping thing;
+String crmDisplayName;
+thing.SetCrmDisplayName(crmDisplayName);
+```
 

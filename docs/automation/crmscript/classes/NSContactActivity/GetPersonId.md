@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactActivity_GetPersonId
 title: Integer GetPersonId()
-path: /EJScript/Classes/NSContactActivity/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
-sortOrder: 1772
-keywords: GetPersonId()
+intellisense: NSContactActivity.GetPersonId
+keywords: NSContactActivity, GetPersonId
+so.topic: reference
 ---
-
 
 The person id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSContactActivity thing;
+Integer personId  = thing.GetPersonId();
+```
 
 

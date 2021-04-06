@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String p\_cgiVariable, String p\_value)
-path: /EJScript/Classes/HTTP/Member functions/Void setValue(String p_cgiVariable, String p_value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HTTP_setValue_String_p_cgiVariable_String_p_value
+title: HTTP.setValue(String p_cgiVariable, String p_value)
+intellisense: HTTP.setValue
 sortOrder: 418
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 This function add a cgi variable and its according value to the HTTP request.

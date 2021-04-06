@@ -1,9 +1,9 @@
 ---
 description: Byte Byte(Integer value)
-path: /EJScript/Global functions/Byte Byte(Integer value)
-intellisense: 1
+intellisense: Void.Byte
 langref: 1
 keywords: Byte(Integer)
+so.topic: reference
 ---
 
 

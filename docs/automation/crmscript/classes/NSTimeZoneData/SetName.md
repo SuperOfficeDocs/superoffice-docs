@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTimeZoneData_SetName
+title: SetName(String name)
+intellisense: NSTimeZoneData.SetName
+keywords: NSTimeZoneData, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Name associated with the location
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSTimeZoneData thing;
+String name;
+thing.SetName(name);
+```
 

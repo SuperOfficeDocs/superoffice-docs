@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetEmail
 title: String GetEmail()
-path: /EJScript/Classes/NSPerson/Member functions/String GetEmail()
-intellisense: 1
-classref: 1
-keywords: GetEmail()
+intellisense: NSPerson.GetEmail
+keywords: NSPerson, GetEmail
+so.topic: reference
 ---
-
 
 First email on contact person.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPerson thing;
+String email  = thing.GetEmail();
+```
 
 

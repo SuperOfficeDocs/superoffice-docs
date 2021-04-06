@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormSubmissionEntity_SetWhenSubmitted
+title: SetWhenSubmitted(DateTime whenSubmitted)
+intellisense: NSFormSubmissionEntity.SetWhenSubmitted
+keywords: NSFormSubmissionEntity, GetWhenSubmitted
+so.topic: reference
 ---
-title: Void SetWhenSubmitted(DateTime WhenSubmitted)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetWhenSubmitted(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3849
-keywords: SetWhenSubmitted(DateTime)
----
-
 
 The time of the submit.
 
+**Parameter:** 
+ - **whenSubmitted** DateTime
 
-
-* **WhenSubmitted:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSFormSubmissionEntity thing;
+DateTime whenSubmitted;
+thing.SetWhenSubmitted(whenSubmitted);
+```
 

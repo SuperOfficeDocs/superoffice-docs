@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_ExtraFieldsInfo
 title: ExtraFieldsInfo
-path: /EJScript/Classes/ExtraFieldsInfo
-intellisense: 1
-classref: 1
+intellisense: Void.ExtraFieldsInfo
 sortOrder: 301
+so.topic: reference
 ---
 
 With this class you can retrieve meta information about an extra field. The

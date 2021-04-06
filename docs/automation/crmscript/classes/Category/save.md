@@ -1,10 +1,10 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/Category/member functions/Integer save()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Category_save
+title: Category.save()
+intellisense: Category.save
 sortOrder: 152
 keywords: save()
+so.topic: reference
 ---
 
 Saves the category and returns its id.

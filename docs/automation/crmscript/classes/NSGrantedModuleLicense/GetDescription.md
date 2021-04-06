@@ -1,10 +1,10 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSGrantedModuleLicense_GetDescription
+title: NSGrantedModuleLicense.GetDescription()
+intellisense: NSGrantedModuleLicense.GetDescription
 sortOrder: 3889
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

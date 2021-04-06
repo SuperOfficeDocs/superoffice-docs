@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLegalBase_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSLegalBase/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSLegalBase.GetRank
+keywords: NSLegalBase, GetRank
+so.topic: reference
 ---
-
 
 Rank of this consent source
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSLegalBase thing;
+Integer rank  = thing.GetRank();
+```
 
 

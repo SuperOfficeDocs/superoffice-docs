@@ -1,9 +1,9 @@
 ---
 description: Void executeSQLQuery(String sql)
-path: /EJScript/Global functions/Void executeSQLQuery(String sql)
-intellisense: 1
+intellisense: Void.executeSQLQuery
 langref: 1
 keywords: executeSQLQuery(String)
+so.topic: reference
 ---
 
 

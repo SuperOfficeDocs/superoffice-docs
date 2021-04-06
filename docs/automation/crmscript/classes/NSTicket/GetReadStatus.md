@@ -1,16 +1,23 @@
+﻿---
+uid: crmscript_ref_NSTicket_GetReadStatus
+title: TicketReadStatus GetReadStatus()
+intellisense: NSTicket.GetReadStatus
+keywords: NSTicket, GetReadStatus
+so.topic: reference
 ---
-title: NSTicketReadStatus GetReadStatus()
-path: /EJScript/Classes/NSTicket/Member functions/NSTicketReadStatus GetReadStatus()
-intellisense: 1
-classref: 1
-keywords: GetReadStatus()
----
-
 
 Whether the owner has read the ticket or not (red, yellow, green).
 
+**Returns:** TicketReadStatus
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Green 
+     - Enum: 2 = Yellow 
+     - Enum: 3 = Red 
 
-* **Returns:** TicketReadStatus
+```crmscript
+NSTicket thing;
+TicketReadStatus readStatus  = thing.GetReadStatus();
+```
 
 

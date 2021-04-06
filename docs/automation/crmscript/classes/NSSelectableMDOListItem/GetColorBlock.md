@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_GetColorBlock
 title: Integer GetColorBlock()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Integer GetColorBlock()
-intellisense: 1
-classref: 1
-keywords: GetColorBlock()
+intellisense: NSSelectableMDOListItem.GetColorBlock
+keywords: NSSelectableMDOListItem, GetColorBlock
+so.topic: reference
 ---
-
 
 The color indicator of the ListItem color block
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectableMDOListItem thing;
+Integer colorBlock  = thing.GetColorBlock();
+```
 
 

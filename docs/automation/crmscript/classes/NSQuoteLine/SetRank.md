@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetRank
+title: SetRank(Integer rank)
+intellisense: NSQuoteLine.SetRank
+keywords: NSQuoteLine, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 QuoteLines can be re-ordered, so we must track the ordering.
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuoteLine thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

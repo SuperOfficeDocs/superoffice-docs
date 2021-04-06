@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetUrl
+title: SetUrl(String url)
+intellisense: NSProduct.SetUrl
+keywords: NSProduct, GetUrl
+so.topic: reference
 ---
-title: Void SetUrl(String Url)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetUrl(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUrl(String)
----
-
 
 URL to product information web page.
 
+**Parameter:** 
+ - **url** String
 
-
-* **Url:** String
-* **Returns:** String
-
+```crmscript
+NSProduct thing;
+String url;
+thing.SetUrl(url);
+```
 

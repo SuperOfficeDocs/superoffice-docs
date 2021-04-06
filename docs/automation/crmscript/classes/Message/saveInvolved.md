@@ -1,10 +1,10 @@
 ---
-title: Void saveInvolved(String emailAddress)
-path: /EJScript/Classes/Message/Member functions/Void saveInvolved(String emailAddress)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Message_saveInvolved_String_emailAddress
+title: Message.saveInvolved(String emailAddress)
+intellisense: Message.saveInvolved
 sortOrder: 554
 keywords: saveInvolved(String)
+so.topic: reference
 ---
 
 

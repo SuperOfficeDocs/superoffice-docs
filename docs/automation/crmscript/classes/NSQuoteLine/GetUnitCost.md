@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLine_GetUnitCost
 title: Float GetUnitCost()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetUnitCost()
-intellisense: 1
-classref: 1
-keywords: GetUnitCost()
+intellisense: NSQuoteLine.GetUnitCost
+keywords: NSQuoteLine, GetUnitCost
+so.topic: reference
 ---
-
 
 The cost price per unit for this product. May be filled in by connector if it has the Provide-Cost capability.
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSQuoteLine thing;
+Float unitCost  = thing.GetUnitCost();
+```
 
 

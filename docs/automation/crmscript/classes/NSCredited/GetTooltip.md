@@ -1,13 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSCredited_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSCredited/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-sortOrder: 2097
-keywords: GetTooltip()
+intellisense: NSCredited.GetTooltip
+keywords: NSCredited, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the Credited list item.
 
-* **Returns:** String
+**Returns:** String Credited tooltip description.
+
+```crmscript
+NSCredited thing;
+String descr = thing.GetTooltip();
+```
 
 

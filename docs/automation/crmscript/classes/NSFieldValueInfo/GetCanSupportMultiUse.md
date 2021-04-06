@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_GetCanSupportMultiUse
 title: Bool GetCanSupportMultiUse()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Bool GetCanSupportMultiUse()
-intellisense: 1
-classref: 1
-sortOrder: 3617
-keywords: GetCanSupportMultiUse()
+intellisense: NSFieldValueInfo.GetCanSupportMultiUse
+keywords: NSFieldValueInfo, GetCanSupportMultiUse
+so.topic: reference
 ---
-
 
 Can the field support multi use?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFieldValueInfo thing;
+Bool canSupportMultiUse  = thing.GetCanSupportMultiUse();
+```
 
 

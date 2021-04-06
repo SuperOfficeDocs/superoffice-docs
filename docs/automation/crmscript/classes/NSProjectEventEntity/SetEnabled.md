@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetEnabled
+title: SetEnabled(Bool enabled)
+intellisense: NSProjectEventEntity.SetEnabled
+keywords: NSProjectEventEntity, GetEnabled
+so.topic: reference
 ---
-title: Void SetEnabled(Bool Enabled)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetEnabled(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetEnabled(Bool)
----
-
 
 Is the event enabled
 
+**Parameter:** 
+ - **enabled** Bool
 
-
-* **Enabled:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEventEntity thing;
+Bool enabled;
+thing.SetEnabled(enabled);
+```
 

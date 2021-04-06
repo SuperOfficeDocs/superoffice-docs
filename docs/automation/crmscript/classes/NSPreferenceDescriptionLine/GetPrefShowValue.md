@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescriptionLine_GetPrefShowValue
 title: String GetPrefShowValue()
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/String GetPrefShowValue()
-intellisense: 1
-classref: 1
-keywords: GetPrefShowValue()
+intellisense: NSPreferenceDescriptionLine.GetPrefShowValue
+keywords: NSPreferenceDescriptionLine, GetPrefShowValue
+so.topic: reference
 ---
-
 
 Descriptive value, multilang-parsed, to put in list
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPreferenceDescriptionLine thing;
+String prefShowValue  = thing.GetPrefShowValue();
+```
 
 

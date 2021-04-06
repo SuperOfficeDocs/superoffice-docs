@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetReportLabelLayoutId
+title: SetReportLabelLayoutId(Integer reportLabelLayoutId)
+intellisense: NSReportLabelLayoutEntity.SetReportLabelLayoutId
+keywords: NSReportLabelLayoutEntity, GetReportLabelLayoutId
+so.topic: reference
 ---
-title: Void SetReportLabelLayoutId(Integer ReportLabelLayoutId)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetReportLabelLayoutId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetReportLabelLayoutId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **reportLabelLayoutId** Integer
 
-
-* **ReportLabelLayoutId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer reportLabelLayoutId;
+thing.SetReportLabelLayoutId(reportLabelLayoutId);
+```
 

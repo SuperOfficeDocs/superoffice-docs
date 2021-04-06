@@ -1,9 +1,9 @@
 ---
-title: Integer GetHomeCountryId()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetHomeCountryId()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetHomeCountryId
+title: NSSoPrincipalCarrier.GetHomeCountryId()
+intellisense: NSSoPrincipalCarrier.GetHomeCountryId
 keywords: GetHomeCountryId()
+so.topic: reference
 ---
 
 

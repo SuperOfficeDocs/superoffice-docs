@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSLicenseAgent_GetLicenseFromFile
+title: ExtendedLicenseInfo GetLicenseFromFile(String fileContent)
+intellisense: NSLicenseAgent.GetLicenseFromFile
+keywords: NSLicenseAgent, GetLicenseFromFile
+so.topic: reference
 ---
-title: NSExtendedLicenseInfo GetLicenseFromFile(String fileContent)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSExtendedLicenseInfo GetLicenseFromFile(String p_0)
-intellisense: 1
-classref: 1
-keywords: GetLicenseFromFile(String)
----
-
 
 Load a new license from file
 
-
-
-* **fileContent:** Content of the license file as read.
-
-
+**Parameters:**
+ - **fileContent** Content of the license file as read.

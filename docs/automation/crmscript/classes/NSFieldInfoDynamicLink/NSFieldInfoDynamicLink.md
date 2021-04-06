@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoDynamicLink
 title: NSFieldInfoDynamicLink
-path: /EJScript/Classes/NSFieldInfoDynamicLink
-intellisense: 1
-classref: 1
-sortOrder: 3509
+intellisense: Void.NSFieldInfoDynamicLink
+keywords: NSFieldInfoDynamicLink
+so.topic: reference
 ---
 
+Dynamic Link custom database field. Links are resolved indirectly via by CS.
 
-Dynamic Link custom database field.
-
-
-
-
-1. autolist
+1. autolist 
 

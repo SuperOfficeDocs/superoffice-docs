@@ -1,9 +1,9 @@
 ---
-title: Void sendCustomMessage(Integer recipientId, String message)
-path: /EJScript/Classes/Notify/Member functions/Void sendCustomMessage(Integer recipientId, String message)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Notify_sendCustomMessage_Integer_recipientId_String_message
+title: Notify.sendCustomMessage(Integer recipientId, String message)
+intellisense: Notify.sendCustomMessage
 keywords: sendCustomMessage(Integer,String)
+so.topic: reference
 ---
 
 

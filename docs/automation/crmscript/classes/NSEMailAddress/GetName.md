@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAddress_GetName
 title: String GetName()
-path: /EJScript/Classes/NSEMailAddress/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 2769
-keywords: GetName()
+intellisense: NSEMailAddress.GetName
+keywords: NSEMailAddress, GetName
+so.topic: reference
 ---
-
 
 The name on the email address
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAddress thing;
+String name  = thing.GetName();
+```
 
 

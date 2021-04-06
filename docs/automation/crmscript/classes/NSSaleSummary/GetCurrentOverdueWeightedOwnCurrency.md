@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetCurrentOverdueWeightedOwnCurrency
 title: Float GetCurrentOverdueWeightedOwnCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetCurrentOverdueWeightedOwnCurrency()
-intellisense: 1
-classref: 1
-keywords: GetCurrentOverdueWeightedOwnCurrency()
+intellisense: NSSaleSummary.GetCurrentOverdueWeightedOwnCurrency
+keywords: NSSaleSummary, GetCurrentOverdueWeightedOwnCurrency
+so.topic: reference
 ---
-
 
 Weighted sum for all overdue sales within the period in default currency for the current user
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSaleSummary thing;
+Float currentOverdueWeightedOwnCurrency  = thing.GetCurrentOverdueWeightedOwnCurrency();
+```
 
 

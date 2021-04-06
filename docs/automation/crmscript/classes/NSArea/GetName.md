@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArea_GetName
 title: String GetName()
-path: /EJScript/Classes/NSArea/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 1245
-keywords: GetName()
+intellisense: NSArea.GetName
+keywords: NSArea, GetName
+so.topic: reference
 ---
-
 
 Area name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSArea thing;
+String name  = thing.GetName();
+```
 
 

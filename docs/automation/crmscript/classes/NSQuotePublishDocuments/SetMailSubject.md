@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_SetMailSubject
+title: SetMailSubject(String mailSubject)
+intellisense: NSQuotePublishDocuments.SetMailSubject
+keywords: NSQuotePublishDocuments, GetMailSubject
+so.topic: reference
 ---
-title: Void SetMailSubject(String MailSubject)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetMailSubject(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetMailSubject(String)
----
 
+The string that is the mail subject; done by merging the text resource SR_QUOTE_PUBLISH_MAILHEADING with the current template variable values
 
-The string that is the mail subject; done by merging the text resource SR\_QUOTE_PUBLISH\_MAILHEADING with the current template variable values
+**Parameter:** 
+ - **mailSubject** String
 
-
-
-* **MailSubject:** String
-* **Returns:** String
-
+```crmscript
+NSQuotePublishDocuments thing;
+String mailSubject;
+thing.SetMailSubject(mailSubject);
+```
 

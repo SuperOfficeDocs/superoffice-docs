@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_SetDocumentId
+title: SetDocumentId(Integer documentId)
+intellisense: NSTemplateVariablesParameters.SetDocumentId
+keywords: NSTemplateVariablesParameters, GetDocumentId
+so.topic: reference
 ---
-title: Void SetDocumentId(Integer DocumentId)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDocumentId(Integer)
----
-
 
 Identifier for a document
 
+**Parameter:** 
+ - **documentId** Integer
 
-
-* **DocumentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
 

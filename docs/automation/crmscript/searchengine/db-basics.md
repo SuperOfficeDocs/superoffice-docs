@@ -1,6 +1,6 @@
 ---
-title: search_engine_basics
-description: Database basics
+uid: search_engine_basics
+title: Database basics
 author:
 so.date:
 keywords:

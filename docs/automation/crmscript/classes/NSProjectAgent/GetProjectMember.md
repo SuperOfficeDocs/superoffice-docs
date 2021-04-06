@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetProjectMember
+title: NSProjectMember GetProjectMember(Integer projectMemberId);
+intellisense: NSProjectAgent.GetProjectMember
+keywords: NSProjectAgent, GetProjectMember
+so.topic: reference
 ---
-title: NSProjectMember GetProjectMember(Integer projectMemberId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectMember GetProjectMember(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetProjectMember(Integer)
----
 
+Gets a NSProjectMember object.
 
-Gets a ProjectMember object.
+**Parameters:**
+ - **projectMemberId** The identifier of the NSProjectMember object
 
+**Returns:** NSProjectMember
 
-
-* **projectMemberId:** The identifier of the ProjectMember object
-* **Returns:** ProjectMember
-
+```crmscript
+NSProjectAgent agent;
+NSProjectMember thing = agent.GetProjectMember(123);
+```
 

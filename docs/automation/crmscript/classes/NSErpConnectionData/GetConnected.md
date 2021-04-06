@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnectionData_GetConnected
 title: Bool GetConnected()
-path: /EJScript/Classes/NSErpConnectionData/Member functions/Bool GetConnected()
-intellisense: 1
-classref: 1
-sortOrder: 3106
-keywords: GetConnected()
+intellisense: NSErpConnectionData.GetConnected
+keywords: NSErpConnectionData, GetConnected
+so.topic: reference
 ---
-
 
 True if this entity instance has syncronized connection
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSErpConnectionData thing;
+Bool connected  = thing.GetConnected();
+```
 
 

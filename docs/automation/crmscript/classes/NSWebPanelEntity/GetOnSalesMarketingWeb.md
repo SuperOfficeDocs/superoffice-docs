@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_GetOnSalesMarketingWeb
 title: Bool GetOnSalesMarketingWeb()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetOnSalesMarketingWeb()
-intellisense: 1
-classref: 1
-keywords: GetOnSalesMarketingWeb()
+intellisense: NSWebPanelEntity.GetOnSalesMarketingWeb
+keywords: NSWebPanelEntity, GetOnSalesMarketingWeb
+so.topic: reference
 ---
-
 
 Is the webpanel visible when user is on web client
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSWebPanelEntity thing;
+Bool onSalesMarketingWeb  = thing.GetOnSalesMarketingWeb();
+```
 
 

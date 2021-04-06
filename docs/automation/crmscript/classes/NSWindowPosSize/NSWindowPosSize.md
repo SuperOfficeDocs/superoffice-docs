@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSWindowPosSize
 title: NSWindowPosSize
-path: /EJScript/Classes/NSWindowPosSize
-intellisense: 1
-classref: 1
+intellisense: Void.NSWindowPosSize
+keywords: NSWindowPosSize
+so.topic: reference
 ---
-
 
 Window and dialog position and size settings
 
-
-
-
-1. autolist
+1. autolist 
 

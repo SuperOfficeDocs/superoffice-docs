@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetLagTime
 title: TimeSpan GetLagTime()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/TimeSpan GetLagTime()
-intellisense: 1
-classref: 1
-sortOrder: 977
-keywords: GetLagTime()
+intellisense: NSAppointmentEntity.GetLagTime
+keywords: NSAppointmentEntity, GetLagTime
+so.topic: reference
 ---
-
 
 as leadtime, but after the end - time blocked for travel etc.
 
+**Returns:** TimeSpan
 
 
-* **Returns:** TimeSpan
+```crmscript
+NSAppointmentEntity thing;
+TimeSpan lagTime  = thing.GetLagTime();
+```
 
 

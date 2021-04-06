@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetRoleEntity
+title: NSRoleEntity GetRoleEntity(Integer roleEntityId);
+intellisense: NSUserAgent.GetRoleEntity
+keywords: NSUserAgent, GetRoleEntity
+so.topic: reference
 ---
-title: NSRoleEntity GetRoleEntity(Integer roleEntityId)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSRoleEntity GetRoleEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetRoleEntity(Integer)
----
 
+Gets a NSRoleEntity object.
 
-Gets a RoleEntity object.
+**Parameters:**
+ - **roleEntityId** The identifier of the NSRoleEntity object
 
+**Returns:** NSRoleEntity
 
-
-* **roleEntityId:** The identifier of the RoleEntity object
-* **Returns:** RoleEntity
-
+```crmscript
+NSUserAgent agent;
+NSRoleEntity thing = agent.GetRoleEntity(123);
+```
 

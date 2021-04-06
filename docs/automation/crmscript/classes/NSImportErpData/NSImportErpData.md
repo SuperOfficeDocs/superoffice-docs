@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSImportErpData
 title: NSImportErpData
-path: /EJScript/Classes/NSImportErpData
-intellisense: 1
-classref: 1
-sortOrder: 3966
+intellisense: Void.NSImportErpData
+keywords: NSImportErpData
+so.topic: reference
 ---
-
 
 Used to import data into the system. Representing one entity that will be imported.
 
-
-
-
-1. autolist
+1. autolist 
 

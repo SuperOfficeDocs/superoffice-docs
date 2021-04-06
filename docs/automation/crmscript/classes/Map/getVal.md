@@ -1,10 +1,10 @@
 ---
-title: String getVal()
-path: /EJScript/Classes/Map/Member functions/String getVal()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Map_getVal
+title: Map.getVal()
+intellisense: Map.getVal
 sortOrder: 532
 keywords: getVal()
+so.topic: reference
 ---
 
 

@@ -1,28 +1,32 @@
----
-title: Void SetDurationUnit(Integer p0)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetDurationUnit(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDurationUnit(Integer)
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_SetDurationUnit
+title: SetDurationUnit(DurationUnit durationUnit)
+intellisense: NSSaleTypeEntity.SetDurationUnit
+keywords: NSSaleTypeEntity, GetDurationUnit
+so.topic: reference
 ---
 
 Units for the duration (day, week, whatever)
 
-* Unknown=0
-* Second=1
-* Minute=2
-* Hour=3
-* Day=4
-* Week=5
-* Month=6
-* Quarter=7
-* HalfYear=8
-* Year=9
-* Decade=10
-* Century=11
-* Millenium=12
+**Parameter:** 
+ - **durationUnit** DurationUnit
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Second 
+     - Enum: 2 = Minute 
+     - Enum: 3 = Hour 
+     - Enum: 4 = Day 
+     - Enum: 5 = Week 
+     - Enum: 6 = Month 
+     - Enum: 7 = Quarter 
+     - Enum: 8 = HalfYear 
+     - Enum: 9 = Year 
+     - Enum: 10 = Decade 
+     - Enum: 11 = Century 
+     - Enum: 12 = Millenium 
 
-* **p_0:** DurationUnit
-* **Returns:** Void
-
+```crmscript
+NSSaleTypeEntity thing;
+DurationUnit durationUnit;
+thing.SetDurationUnit(durationUnit);
+```
 

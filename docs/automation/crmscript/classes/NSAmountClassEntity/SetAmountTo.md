@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAmountClassEntity_SetAmountTo
+title: SetAmountTo(Float amountTo)
+intellisense: NSAmountClassEntity.SetAmountTo
+keywords: NSAmountClassEntity, GetAmountTo
+so.topic: reference
 ---
-title: Void SetAmountTo(Float AmountTo)
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Void SetAmountTo(Float p_0)
-intellisense: 1
-classref: 1
-sortOrder: 705
-keywords: SetAmountTo(Float)
----
-
 
 Upper limit of this amount class
 
+**Parameter:** 
+ - **amountTo** Float
 
-
-* **AmountTo:** Float
-* **Returns:** Float
-
+```crmscript
+NSAmountClassEntity thing;
+Float amountTo;
+thing.SetAmountTo(amountTo);
+```
 

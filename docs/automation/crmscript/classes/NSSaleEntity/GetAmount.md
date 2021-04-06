@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetAmount
 title: Float GetAmount()
-path: /EJScript/Classes/NSSaleEntity/Member functions/Float GetAmount()
-intellisense: 1
-classref: 1
-keywords: GetAmount()
+intellisense: NSSaleEntity.GetAmount
+keywords: NSSaleEntity, GetAmount
+so.topic: reference
 ---
-
 
 Total sale amount
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSaleEntity thing;
+Float amount  = thing.GetAmount();
+```
 
 

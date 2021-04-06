@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetSaleId
 title: Integer GetSaleId()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
-sortOrder: 744
-keywords: GetSaleId()
+intellisense: NSAppointment.GetSaleId
+keywords: NSAppointment, GetSaleId
+so.topic: reference
 ---
-
 
 Owning sale, if any (may be 0)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAppointment thing;
+Integer saleId  = thing.GetSaleId();
+```
 
 

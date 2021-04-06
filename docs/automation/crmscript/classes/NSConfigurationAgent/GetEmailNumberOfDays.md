@@ -1,13 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSConfigurationAgent_GetEmailNumberOfDays
 title: Integer GetEmailNumberOfDays()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/Integer GetEmailNumberOfDays()
-intellisense: 1
-classref: 1
-sortOrder: 1589
-keywords: GetEmailNumberOfDays()
+intellisense: NSConfigurationAgent.GetEmailNumberOfDays
+keywords: NSConfigurationAgent, GetEmailNumberOfDays
+so.topic: reference
 ---
 
 
-* **Returns:** Number of days in the past for which we are fetching email
 
+
+**Returns:** Number of days in the past for which we are fetching email
+
+```crmscript
+NSConfigurationAgent agent;
+Integer res = agent.GetEmailNumberOfDays();
+```
 

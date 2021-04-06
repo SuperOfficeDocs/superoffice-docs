@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSDashboardAgent_GetDashboardTile
+title: NSDashboardTile GetDashboardTile(Integer dashboardTileId);
+intellisense: NSDashboardAgent.GetDashboardTile
+keywords: NSDashboardAgent, GetDashboardTile
+so.topic: reference
 ---
-title: NSDashboardTile GetDashboardTile(Integer dashboardTileId)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboardTile GetDashboardTile(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2279
-keywords: GetDashboardTile(Integer)
----
 
+Gets a NSDashboardTile object.
 
-Gets a DashboardTile object.
+**Parameters:**
+ - **dashboardTileId** The identifier of the NSDashboardTile object
 
+**Returns:** NSDashboardTile
 
-
-* **dashboardTileId:** The identifier of the DashboardTile object
-* **Returns:** DashboardTile
-
+```crmscript
+NSDashboardAgent agent;
+NSDashboardTile thing = agent.GetDashboardTile(123);
+```
 

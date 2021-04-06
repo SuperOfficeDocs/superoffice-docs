@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetInStock
+title: SetInStock(Float inStock)
+intellisense: NSProduct.SetInStock
+keywords: NSProduct, GetInStock
+so.topic: reference
 ---
-title: Void SetInStock(Float InStock)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetInStock(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetInStock(Float)
----
-
 
 Negative numbers will be interpreted as how many is ordered. Might not be available.
 
+**Parameter:** 
+ - **inStock** Float
 
-
-* **InStock:** Float
-* **Returns:** Float
-
+```crmscript
+NSProduct thing;
+Float inStock;
+thing.SetInStock(inStock);
+```
 

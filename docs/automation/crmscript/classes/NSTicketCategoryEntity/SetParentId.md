@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_SetParentId
+title: SetParentId(Integer parentId)
+intellisense: NSTicketCategoryEntity.SetParentId
+keywords: NSTicketCategoryEntity, GetParentId
+so.topic: reference
 ---
-title: Void SetParentId(Integer ParentId)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetParentId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetParentId(Integer)
----
-
 
 The parent category for this category. -1 if this is a toplevel category.
 
+**Parameter:** 
+ - **parentId** Integer
 
-
-* **ParentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicketCategoryEntity thing;
+Integer parentId;
+thing.SetParentId(parentId);
+```
 

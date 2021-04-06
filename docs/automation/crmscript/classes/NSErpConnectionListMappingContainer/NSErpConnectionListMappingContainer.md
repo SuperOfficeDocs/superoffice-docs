@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnectionListMappingContainer
 title: NSErpConnectionListMappingContainer
-path: /EJScript/Classes/NSErpConnectionListMappingContainer
-intellisense: 1
-classref: 1
-sortOrder: 3134
+intellisense: Void.NSErpConnectionListMappingContainer
+keywords: NSErpConnectionListMappingContainer
+so.topic: reference
 ---
-
 
 Information about all list connections for a connection between CRM and the ERP system.
 
-
-
-
-1. autolist
+1. autolist 
 

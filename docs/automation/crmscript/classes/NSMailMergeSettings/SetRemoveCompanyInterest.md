@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_SetRemoveCompanyInterest
+title: SetRemoveCompanyInterest(Integer removeCompanyInterest)
+intellisense: NSMailMergeSettings.SetRemoveCompanyInterest
+keywords: NSMailMergeSettings, GetRemoveCompanyInterest
+so.topic: reference
 ---
-title: Void SetRemoveCompanyInterest(Integer RemoveCompanyInterest)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetRemoveCompanyInterest(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRemoveCompanyInterest(Integer)
----
-
 
 Remove this company interest on each company recipient.
 
+**Parameter:** 
+ - **removeCompanyInterest** Integer
 
-
-* **RemoveCompanyInterest:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMailMergeSettings thing;
+Integer removeCompanyInterest;
+thing.SetRemoveCompanyInterest(removeCompanyInterest);
+```
 

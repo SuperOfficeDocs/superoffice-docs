@@ -1,16 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSRoleEntity_GetRoleType
 title: Integer GetRoleType()
-path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetRoleType()
-intellisense: 1
-classref: 1
-keywords: GetRoleType()
+intellisense: NSRoleEntity.GetRoleType
+keywords: NSRoleEntity, GetRoleType
+so.topic: reference
 ---
 
+The role type. Note that changing this field has no effect, so treat this as a read-only field. 
 
-The role type. Note that changing this field has no effect, so treat this as a read-only field.
+**Returns:** Integer
 
+     - Enum: 0 = Employee 
+     - Enum: 1 = ExternalUser 
+     - Enum: 2 = Anonymous 
+     - Enum: 3 = System 
 
-
-* **Returns:** Integer
+```crmscript
+NSRoleEntity thing;
+Integer roleType  = thing.GetRoleType();
+```
 
 

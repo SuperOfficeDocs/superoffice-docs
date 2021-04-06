@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetCorrespondingAssociate
+title: SetCorrespondingAssociate(Associate correspondingAssociate)
+intellisense: NSPersonEntity.SetCorrespondingAssociate
+keywords: NSPersonEntity, GetCorrespondingAssociate
+so.topic: reference
 ---
-title: Void SetCorrespondingAssociate(NSAssociate CorrespondingAssociate)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetCorrespondingAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetCorrespondingAssociate(NSAssociate)
----
-
 
 The associate corresponding to this person. Will be empty if the person is not a user (internal associate user, external user).
 
+**Parameter:** 
+ - **correspondingAssociate** Associate
 
-
-* **CorrespondingAssociate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSPersonEntity thing;
+Associate correspondingAssociate;
+thing.SetCorrespondingAssociate(correspondingAssociate);
+```
 

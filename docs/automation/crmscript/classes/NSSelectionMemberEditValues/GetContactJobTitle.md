@@ -1,9 +1,9 @@
 ---
-title: String GetContactJobTitle()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/String GetContactJobTitle()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_GetContactJobTitle
+title: NSSelectionMemberEditValues.GetContactJobTitle()
+intellisense: NSSelectionMemberEditValues.GetContactJobTitle
 keywords: GetContactJobTitle()
+so.topic: reference
 ---
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetGroupId
+title: SetGroupId(Integer groupId)
+intellisense: NSFormEntity.SetGroupId
+keywords: NSFormEntity, GetGroupId
+so.topic: reference
 ---
-title: Void SetGroupId(Integer GroupId)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetGroupId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3814
-keywords: SetGroupId(Integer)
----
-
 
 The group which this form belongs to.
 
+**Parameter:** 
+ - **groupId** Integer
 
-
-* **GroupId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFormEntity thing;
+Integer groupId;
+thing.SetGroupId(groupId);
+```
 

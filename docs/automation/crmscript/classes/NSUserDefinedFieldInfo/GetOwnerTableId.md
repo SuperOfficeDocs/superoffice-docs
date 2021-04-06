@@ -1,9 +1,9 @@
 ---
-title: Integer GetOwnerTableId()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetOwnerTableId()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetOwnerTableId
+title: NSUserDefinedFieldInfo.GetOwnerTableId()
+intellisense: NSUserDefinedFieldInfo.GetOwnerTableId
 keywords: GetOwnerTableId()
+so.topic: reference
 ---
 
 

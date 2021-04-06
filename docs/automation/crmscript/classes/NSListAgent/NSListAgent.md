@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent
 title: NSListAgent
-path: /EJScript/Classes/NSListAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSListAgent
+keywords: NSListAgent
+so.topic: reference
 ---
-
 
 Collection of all services that works with Lists. These are typical lists of data shown in dropdown list, checkbox lists, etc.
 
-
-
+```crmscript
+NSListAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

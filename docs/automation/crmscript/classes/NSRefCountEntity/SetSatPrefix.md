@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRefCountEntity_SetSatPrefix
+title: SetSatPrefix(Integer satPrefix)
+intellisense: NSRefCountEntity.SetSatPrefix
+keywords: NSRefCountEntity, GetSatPrefix
+so.topic: reference
 ---
-title: Void SetSatPrefix(Integer SatPrefix)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetSatPrefix(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSatPrefix(Integer)
----
-
 
 size of prefix for Satellite use of this counter
 
+**Parameter:** 
+ - **satPrefix** Integer
 
-
-* **SatPrefix:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRefCountEntity thing;
+Integer satPrefix;
+thing.SetSatPrefix(satPrefix);
+```
 

@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSMDOListItem
 title: NSMDOListItem
-path: /EJScript/Classes/NSMDOListItem
-intellisense: 1
-classref: 1
+intellisense: Void.NSMDOListItem
+keywords: NSMDOListItem
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

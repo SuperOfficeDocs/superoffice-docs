@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetDescription
+title: SetDescription(String description)
+intellisense: NSProjectEvent.SetDescription
+keywords: NSProjectEvent, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 The event description (i.e. the project text)
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSProjectEvent thing;
+String description;
+thing.SetDescription(description);
+```
 

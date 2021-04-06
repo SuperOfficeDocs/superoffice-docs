@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSPreviewsAgent
 title: NSPreviewsAgent
-path: /EJScript/Classes/NSPreviewsAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSPreviewsAgent
+keywords: NSPreviewsAgent
+so.topic: reference
 ---
-
 
 Get preview strings from a hint
 
-
-
+```crmscript
+NSPreviewsAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

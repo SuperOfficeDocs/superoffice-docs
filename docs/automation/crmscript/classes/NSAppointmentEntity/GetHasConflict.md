@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetHasConflict
 title: Bool GetHasConflict()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetHasConflict()
-intellisense: 1
-classref: 1
-sortOrder: 926
-keywords: GetHasConflict()
+intellisense: NSAppointmentEntity.GetHasConflict
+keywords: NSAppointmentEntity, GetHasConflict
+so.topic: reference
 ---
 
+Does the appointment overlap with another appointment in the user's diary?
 
-* **Returns:** Bool
+**Returns:** Bool
+
+
+```crmscript
+NSAppointmentEntity thing;
+Bool hasConflict  = thing.GetHasConflict();
+```
 
 

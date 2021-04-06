@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSignedPublicKey_GetSignature
 title: String GetSignature()
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/String GetSignature()
-intellisense: 1
-classref: 1
-keywords: GetSignature()
+intellisense: NSSignedPublicKey.GetSignature
+keywords: NSSignedPublicKey, GetSignature
+so.topic: reference
 ---
-
 
 Signature - Base64 encoded value
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSignedPublicKey thing;
+String signature  = thing.GetSignature();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitor_SetOwnerTable
+title: SetOwnerTable(Integer ownerTable)
+intellisense: NSStatusMonitor.SetOwnerTable
+keywords: NSStatusMonitor, GetOwnerTable
+so.topic: reference
 ---
-title: Void SetOwnerTable(Integer OwnerTable)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetOwnerTable(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwnerTable(Integer)
----
-
 
 Id of table that owns the status monitor
 
+**Parameter:** 
+ - **ownerTable** Integer
 
-
-* **OwnerTable:** Integer
-* **Returns:** Void
-
+```crmscript
+NSStatusMonitor thing;
+Integer ownerTable;
+thing.SetOwnerTable(ownerTable);
+```
 

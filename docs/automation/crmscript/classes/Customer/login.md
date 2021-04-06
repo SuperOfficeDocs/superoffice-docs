@@ -1,10 +1,10 @@
 ---
-title: Void login()
-path: /EJScript/Classes/Customer/Member functions/Void login()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_login
+title: Customer.login()
+intellisense: Customer.login
 sortOrder: 188
 keywords: login()
+so.topic: reference
 ---
 
 

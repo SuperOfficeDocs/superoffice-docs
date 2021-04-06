@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetSignOnTaskId
 title: Integer GetSignOnTaskId()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Integer GetSignOnTaskId()
-intellisense: 1
-classref: 1
-keywords: GetSignOnTaskId()
+intellisense: NSProjectEventEntity.GetSignOnTaskId
+keywords: NSProjectEventEntity, GetSignOnTaskId
+so.topic: reference
 ---
-
 
 If not 0, sign on should cause an Activity of this type to be registered
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectEventEntity thing;
+Integer signOnTaskId  = thing.GetSignOnTaskId();
+```
 
 

@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSPosition
 title: NSPosition
-path: /EJScript/Classes/NSPosition
-intellisense: 1
-classref: 1
+intellisense: Void.NSPosition
+keywords: NSPosition
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

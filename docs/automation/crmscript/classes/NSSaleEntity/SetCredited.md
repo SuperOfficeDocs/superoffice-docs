@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetCredited
+title: SetCredited(Credited credited)
+intellisense: NSSaleEntity.SetCredited
+keywords: NSSaleEntity, GetCredited
+so.topic: reference
 ---
-title: Void SetCredited(NSCredited Credited)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetCredited(NSCredited p_0)
-intellisense: 1
-classref: 1
-keywords: SetCredited(NSCredited)
----
-
 
 List of who is to be credited for the sale.
 
+**Parameter:** 
+ - **credited** Credited
 
-
-* **Credited:** Credited
-* **Returns:** Credited
-
+```crmscript
+NSSaleEntity thing;
+Credited credited;
+thing.SetCredited(credited);
+```
 

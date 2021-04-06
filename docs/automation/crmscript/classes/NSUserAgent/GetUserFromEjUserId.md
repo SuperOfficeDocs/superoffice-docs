@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetUserFromEjUserId
+title: UserArray GetUserFromEjUserId(Integer ejUserId)
+intellisense: NSUserAgent.GetUserFromEjUserId
+keywords: NSUserAgent, GetUserFromEjUserId
+so.topic: reference
 ---
-title: NSUser[] GetUserFromEjUserId(Integer ejUserId)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser[] GetUserFromEjUserId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetUserFromEjUserId(Integer)
----
-
 
 Get user from ejUserId - used for eJournal Legacy Support.
 
-
-
-* **ejUserId:** ejUserId -
-
-
+**Parameters:**
+ - **ejUserId** ejUserId - 

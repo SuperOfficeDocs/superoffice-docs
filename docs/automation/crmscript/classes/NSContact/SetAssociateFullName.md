@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetAssociateFullName
+title: SetAssociateFullName(String associateFullName)
+intellisense: NSContact.SetAssociateFullName
+keywords: NSContact, GetAssociateFullName
+so.topic: reference
 ---
-title: Void SetAssociateFullName(String AssociateFullName)
-path: /EJScript/Classes/NSContact/Member functions/Void SetAssociateFullName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1744
-keywords: SetAssociateFullName(String)
----
-
 
 The associate's culture formatted fullname (firstname, middleName and lastname)
 
+**Parameter:** 
+ - **associateFullName** String
 
-
-* **AssociateFullName:** String
-* **Returns:** String
-
+```crmscript
+NSContact thing;
+String associateFullName;
+thing.SetAssociateFullName(associateFullName);
+```
 

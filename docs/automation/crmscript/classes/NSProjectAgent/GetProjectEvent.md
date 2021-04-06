@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetProjectEvent
+title: NSProjectEvent GetProjectEvent(Integer projectEventId);
+intellisense: NSProjectAgent.GetProjectEvent
+keywords: NSProjectAgent, GetProjectEvent
+so.topic: reference
 ---
-title: NSProjectEvent GetProjectEvent(Integer projectEventId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEvent GetProjectEvent(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetProjectEvent(Integer)
----
 
+Gets a NSProjectEvent object.
 
-Gets a ProjectEvent object.
+**Parameters:**
+ - **projectEventId** The identifier of the NSProjectEvent object
 
+**Returns:** NSProjectEvent
 
-
-* **projectEventId:** The identifier of the ProjectEvent object
-* **Returns:** ProjectEvent
-
+```crmscript
+NSProjectAgent agent;
+NSProjectEvent thing = agent.GetProjectEvent(123);
+```
 

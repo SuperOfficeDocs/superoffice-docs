@@ -1,10 +1,10 @@
 ---
-title: Boolean GetIsActive()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Boolean GetIsActive()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetIsActive
+title: NSArchiveRestrictionInfo.GetIsActive()
+intellisense: NSArchiveRestrictionInfo.GetIsActive
 sortOrder: 1213
 keywords: GetIsActive()
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSignedPublicKey_GetSignDate
 title: DateTime GetSignDate()
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/DateTime GetSignDate()
-intellisense: 1
-classref: 1
-keywords: GetSignDate()
+intellisense: NSSignedPublicKey.GetSignDate
+keywords: NSSignedPublicKey, GetSignDate
+so.topic: reference
 ---
-
 
 Date when the the public key was signed. No Timezone.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSSignedPublicKey thing;
+DateTime signDate  = thing.GetSignDate();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetOnSatellite
+title: SetOnSatellite(Bool onSatellite)
+intellisense: NSWebPanelEntity.SetOnSatellite
+keywords: NSWebPanelEntity, GetOnSatellite
+so.topic: reference
 ---
-title: Void SetOnSatellite(Bool OnSatellite)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetOnSatellite(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetOnSatellite(Bool)
----
-
 
 Is the webpanel visible when user is on a satellite
 
+**Parameter:** 
+ - **onSatellite** Bool
 
-
-* **OnSatellite:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSWebPanelEntity thing;
+Bool onSatellite;
+thing.SetOnSatellite(onSatellite);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Bool load(Integer id)
-path: /EJScript/Classes/SpmStaticList/Member functions/Bool load(Integer id)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmStaticList_load_Integer_id
+title: SpmStaticList.load(Integer id)
+intellisense: SpmStaticList.load
 keywords: load(Integer)
+so.topic: reference
 ---
 
 

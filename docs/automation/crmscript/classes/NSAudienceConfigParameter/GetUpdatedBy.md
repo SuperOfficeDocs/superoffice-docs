@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAudienceConfigParameter_GetUpdatedBy
 title: String GetUpdatedBy()
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/String GetUpdatedBy()
-intellisense: 1
-classref: 1
-sortOrder: 1324
-keywords: GetUpdatedBy()
+intellisense: NSAudienceConfigParameter.GetUpdatedBy
+keywords: NSAudienceConfigParameter, GetUpdatedBy
+so.topic: reference
 ---
-
 
 Name of the person that last updated the configuration parameter
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAudienceConfigParameter thing;
+String updatedBy  = thing.GetUpdatedBy();
+```
 
 

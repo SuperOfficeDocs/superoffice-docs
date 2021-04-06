@@ -1,10 +1,10 @@
 ---
-title: Integer getNumItems(Integer p\_group)
-path: /EJScript/Classes/MainMenu/Member functions/Integer getNumItems(Integer p_group)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MainMenu_getNumItems_Integer_p_group
+title: MainMenu.getNumItems(Integer p_group)
+intellisense: MainMenu.getNumItems
 sortOrder: 507
 keywords: getNumItems(Integer)
+so.topic: reference
 ---
 
 # Integer getNumItems(Integer group)

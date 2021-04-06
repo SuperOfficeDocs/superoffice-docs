@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSProductType_SetValue
+title: SetValue(String value)
+intellisense: NSProductType.SetValue
+keywords: NSProductType, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSProductType/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the ProductType item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String ProductType name.
 
+```crmscript
+NSProductType thing;
+thing.SetValue("frotz");
+```
 

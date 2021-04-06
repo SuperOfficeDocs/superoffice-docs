@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_RemoveLicenses
+title: Void RemoveLicenses(Integer associateId)
+intellisense: NSUserAgent.RemoveLicenses
+keywords: NSUserAgent, RemoveLicenses
+so.topic: reference
 ---
-title: Void RemoveLicenses(Integer p0)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void RemoveLicenses(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: RemoveLicenses(Integer)
----
-
 
 Remove all user licenses.
 
-
-
-* **associateId**
-
-
+**Parameters:**
+ - **associateId** 

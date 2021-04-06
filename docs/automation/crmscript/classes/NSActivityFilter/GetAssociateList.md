@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSActivityFilter_GetAssociateList
+title: SelectableMDOListItemArray GetAssociateList()
+intellisense: NSActivityFilter.GetAssociateList
+keywords: NSActivityFilter, GetAssociateList
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] GetAssociateList()
-path: /EJScript/Classes/NSActivityFilter/Member functions/NSSelectableMDOListItem[] GetAssociateList()
-intellisense: 1
-classref: 1
-sortOrder: 572
-keywords: GetAssociateList()
----
-
 
 The list of associates to filter on
 
+**Returns:** SelectableMDOListItemArray
 
 
-* **Returns:** SelectableMDOListItemArray
+```crmscript
+NSActivityFilter thing;
+SelectableMDOListItemArray associateList  = thing.GetAssociateList();
+```
 
 

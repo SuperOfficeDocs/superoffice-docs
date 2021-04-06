@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSImportLine_SetSelected
+title: SetSelected(Bool selected)
+intellisense: NSImportLine.SetSelected
+keywords: NSImportLine, GetSelected
+so.topic: reference
 ---
-title: Void SetSelected(Bool Selected)
-path: /EJScript/Classes/NSImportLine/Member functions/Void SetSelected(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3981
-keywords: SetSelected(Bool)
----
-
 
 True if the entity shall be imported, false if the entity shall be ignored
 
+**Parameter:** 
+ - **selected** Bool
 
-
-* **Selected:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSImportLine thing;
+Bool selected;
+thing.SetSelected(selected);
+```
 

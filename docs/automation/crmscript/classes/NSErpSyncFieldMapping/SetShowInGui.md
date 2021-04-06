@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_SetShowInGui
+title: SetShowInGui(Bool showInGui)
+intellisense: NSErpSyncFieldMapping.SetShowInGui
+keywords: NSErpSyncFieldMapping, GetShowInGui
+so.topic: reference
 ---
-title: Void SetShowInGui(Bool ShowInGui)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetShowInGui(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3319
-keywords: SetShowInGui(Bool)
----
-
 
 Should this field be shown as a (read-only!) field in the CRM Gui
 
+**Parameter:** 
+ - **showInGui** Bool
 
-
-* **ShowInGui:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSErpSyncFieldMapping thing;
+Bool showInGui;
+thing.SetShowInGui(showInGui);
+```
 

@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetBusiness
+title: NSBusiness GetBusiness(Integer businessId);
+intellisense: NSListAgent.GetBusiness
+keywords: NSListAgent, GetBusiness
+so.topic: reference
 ---
-title: NSBusiness GetBusiness(Integer businessId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSBusiness GetBusiness(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetBusiness(Integer)
----
 
+Gets a NSBusiness object.
 
-Gets a Business object.
+**Parameters:**
+ - **businessId** The identifier of the NSBusiness object
 
+**Returns:** NSBusiness
 
-
-* **businessId:** The identifier of the Business object
-* **Returns:** Business
-
+```crmscript
+NSListAgent agent;
+NSBusiness thing = agent.GetBusiness(123);
+```
 

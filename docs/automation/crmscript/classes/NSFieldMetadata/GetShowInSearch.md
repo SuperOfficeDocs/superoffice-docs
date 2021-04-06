@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldMetadata_GetShowInSearch
 title: Bool GetShowInSearch()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Bool GetShowInSearch()
-intellisense: 1
-classref: 1
-sortOrder: 3575
-keywords: GetShowInSearch()
+intellisense: NSFieldMetadata.GetShowInSearch
+keywords: NSFieldMetadata, GetShowInSearch
+so.topic: reference
 ---
-
 
 True if this field is displayed in search result
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSFieldMetadata thing;
+Bool showInSearch  = thing.GetShowInSearch();
+```
 
 

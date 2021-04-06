@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSatellite_SetUpdated
+title: SetUpdated(DateTime updated)
+intellisense: NSSatellite.SetUpdated
+keywords: NSSatellite, GetUpdated
+so.topic: reference
 ---
-title: Void SetUpdated(DateTime Updated)
-path: /EJScript/Classes/NSSatellite/Member functions/Void SetUpdated(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdated(DateTime)
----
-
 
 Last updated when
 
+**Parameter:** 
+ - **updated** DateTime
 
-
-* **Updated:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSSatellite thing;
+DateTime updated;
+thing.SetUpdated(updated);
+```
 

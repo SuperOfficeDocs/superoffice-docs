@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetAttention
 title: String GetAttention()
-path: /EJScript/Classes/NSDocument/Member functions/String GetAttention()
-intellisense: 1
-classref: 1
-sortOrder: 2436
-keywords: GetAttention()
+intellisense: NSDocument.GetAttention
+keywords: NSDocument, GetAttention
+so.topic: reference
 ---
-
 
 Attention/salutation
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocument thing;
+String attention  = thing.GetAttention();
+```
 
 

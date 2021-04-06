@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDashboard
 title: NSDashboard
-path: /EJScript/Classes/NSDashboard
-intellisense: 1
-classref: 1
-sortOrder: 2258
+intellisense: Void.NSDashboard
+keywords: NSDashboard
+so.topic: reference
 ---
-
 
 Dashboard configuration
 
-
-
-
-1. autolist
+1. autolist 
 

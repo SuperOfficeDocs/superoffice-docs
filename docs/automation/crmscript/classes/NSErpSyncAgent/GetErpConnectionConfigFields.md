@@ -1,12 +1,21 @@
+﻿---
+uid: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields
+title: StringDictionary GetErpConnectionConfigFields(Integer erpConnectionId)
+intellisense: NSErpSyncAgent.GetErpConnectionConfigFields
+keywords: NSErpSyncAgent, GetErpConnectionConfigFields
+so.topic: reference
 ---
-title: Map GetErpConnectionConfigFields(Integer p0)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Map GetErpConnectionConfigFields(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3191
-keywords: GetErpConnectionConfigFields(Integer)
----
 
+Returns the config fields for the connection.
 
+**Parameters:**
+ - **erpConnectionId** Primary key of the erp connection
 
+**Returns:** Config Fields
+
+```crmscript
+NSErpSyncAgent agent;
+Integer erpConnectionId;
+StringDictionary res = agent.GetErpConnectionConfigFields(erpConnectionId);
+```
 

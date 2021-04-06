@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactOrPersonFromEmail_SetContactId
+title: SetContactId(Integer contactId)
+intellisense: NSContactOrPersonFromEmail.SetContactId
+keywords: NSContactOrPersonFromEmail, GetContactId
+so.topic: reference
 ---
-title: Void SetContactId(Integer ContactId)
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/Void SetContactId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1930
-keywords: SetContactId(Integer)
----
-
 
 The id of the contact
 
+**Parameter:** 
+ - **contactId** Integer
 
-
-* **ContactId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContactOrPersonFromEmail thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
 

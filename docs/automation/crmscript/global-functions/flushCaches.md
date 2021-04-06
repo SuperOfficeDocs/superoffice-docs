@@ -1,9 +1,9 @@
 ---
 description: Void flushCaches()
-path: /EJScript/Global functions/Void flushCaches()
-intellisense: 1
+intellisense: Void.flushCaches
 langref: 1
 keywords: flushCaches()
+so.topic: reference
 ---
 
 This will flush the caches in NetServer.

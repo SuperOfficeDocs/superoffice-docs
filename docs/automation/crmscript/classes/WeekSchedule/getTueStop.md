@@ -1,9 +1,9 @@
 ---
-title: Time getTueStop()
-path: /EJScript/Classes/WeekSchedule/Member functions/Time getTueStop()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_getTueStop
+title: WeekSchedule.getTueStop()
+intellisense: WeekSchedule.getTueStop
 keywords: getTueStop()
+so.topic: reference
 ---
 
 

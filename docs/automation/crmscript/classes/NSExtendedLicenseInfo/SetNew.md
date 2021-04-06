@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtendedLicenseInfo_SetNew
+title: SetNew(LicenseInfo new)
+intellisense: NSExtendedLicenseInfo.SetNew
+keywords: NSExtendedLicenseInfo, GetNew
+so.topic: reference
 ---
-title: Void SetNew(NSLicenseInfo New)
-path: /EJScript/Classes/NSExtendedLicenseInfo/Member functions/Void SetNew(NSLicenseInfo p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3413
-keywords: SetNew(NSLicenseInfo)
----
 
 
-* **New:** LicenseInfo
-* **Returns:** LicenseInfo
 
+**Parameter:** 
+ - **new** LicenseInfo
+
+```crmscript
+NSExtendedLicenseInfo thing;
+LicenseInfo new;
+thing.SetNew(new);
+```
 

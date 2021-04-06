@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteConnection_SetAllAccess
+title: SetAllAccess(Bool allAccess)
+intellisense: NSQuoteConnection.SetAllAccess
+keywords: NSQuoteConnection, GetAllAccess
+so.topic: reference
 ---
-title: Void SetAllAccess(Bool AllAccess)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetAllAccess(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetAllAccess(Bool)
----
-
 
 Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it.
 
+**Parameter:** 
+ - **allAccess** Bool
 
-
-* **AllAccess:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSQuoteConnection thing;
+Bool allAccess;
+thing.SetAllAccess(allAccess);
+```
 

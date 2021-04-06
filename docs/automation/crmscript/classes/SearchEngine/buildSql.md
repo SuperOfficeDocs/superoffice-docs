@@ -1,9 +1,9 @@
 ---
-title: String buildSql()
-path: /EJScript/Classes/SearchEngine/member functions/String buildSql()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SearchEngine_buildSql
+title: SearchEngine.buildSql()
+intellisense: SearchEngine.buildSql
 keywords: buildSql()
+so.topic: reference
 ---
 
 

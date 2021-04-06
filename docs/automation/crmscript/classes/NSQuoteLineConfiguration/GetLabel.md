@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_GetLabel
 title: String GetLabel()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/String GetLabel()
-intellisense: 1
-classref: 1
-keywords: GetLabel()
+intellisense: NSQuoteLineConfiguration.GetLabel
+keywords: NSQuoteLineConfiguration, GetLabel
+so.topic: reference
 ---
-
 
 Label resource string.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteLineConfiguration thing;
+String label  = thing.GetLabel();
+```
 
 

@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSBlobEntity
 title: NSBlobEntity
-path: /EJScript/Classes/NSBlobEntity
-intellisense: 1
-classref: 1
-sortOrder: 1438
+intellisense: Void.NSBlobEntity
+keywords: NSBlobEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

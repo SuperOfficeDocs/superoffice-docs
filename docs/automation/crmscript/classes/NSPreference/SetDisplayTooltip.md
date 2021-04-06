@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreference_SetDisplayTooltip
+title: SetDisplayTooltip(String displayTooltip)
+intellisense: NSPreference.SetDisplayTooltip
+keywords: NSPreference, GetDisplayTooltip
+so.topic: reference
 ---
-title: Void SetDisplayTooltip(String DisplayTooltip)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetDisplayTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDisplayTooltip(String)
----
-
 
 Display tooltip, populated when asked for. Suitable for binding display-datasource in lists, etc. Formatted using CultureDataFormatter.
 
+**Parameter:** 
+ - **displayTooltip** String
 
-
-* **DisplayTooltip:** String
-* **Returns:** String
-
+```crmscript
+NSPreference thing;
+String displayTooltip;
+thing.SetDisplayTooltip(displayTooltip);
+```
 

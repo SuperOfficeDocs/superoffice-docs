@@ -1,9 +1,9 @@
 ---
-title: DateTime addTimeSpan(DateTime dt, TimeSpan sp)
-path: /EJScript/Classes/YearSchedule/Member functions/DateTime addTimeSpan(DateTime dt, TimeSpan sp)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_YearSchedule_addTimeSpan_DateTime_dt_TimeSpan_sp
+title: YearSchedule.addTimeSpan(DateTime dt, TimeSpan sp)
+intellisense: YearSchedule.addTimeSpan
 keywords: addTimeSpan(DateTime,TimeSpan)
+so.topic: reference
 ---
 
 This function adds a timespan to the current year schedule.

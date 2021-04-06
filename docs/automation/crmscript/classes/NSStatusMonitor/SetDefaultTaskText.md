@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitor_SetDefaultTaskText
+title: SetDefaultTaskText(String defaultTaskText)
+intellisense: NSStatusMonitor.SetDefaultTaskText
+keywords: NSStatusMonitor, GetDefaultTaskText
+so.topic: reference
 ---
-title: Void SetDefaultTaskText(String DefaultTaskText)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetDefaultTaskText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDefaultTaskText(String)
----
-
 
 Default task text for this status
 
+**Parameter:** 
+ - **defaultTaskText** String
 
-
-* **DefaultTaskText:** String
-* **Returns:** String
-
+```crmscript
+NSStatusMonitor thing;
+String defaultTaskText;
+thing.SetDefaultTaskText(defaultTaskText);
+```
 

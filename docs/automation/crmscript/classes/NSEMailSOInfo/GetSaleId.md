@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_GetSaleId
 title: Integer GetSaleId()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
-sortOrder: 3050
-keywords: GetSaleId()
+intellisense: NSEMailSOInfo.GetSaleId
+keywords: NSEMailSOInfo, GetSaleId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailSOInfo thing;
+Integer saleId  = thing.GetSaleId();
+```
 
 

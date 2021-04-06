@@ -1,12 +1,12 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_GetNextProjectStatus
+title: Integer GetNextProjectStatus(Integer projectId)
+intellisense: NSProjectAgent.GetNextProjectStatus
+keywords: NSProjectAgent, GetNextProjectStatus
+so.topic: reference
 ---
-title: Integer GetNextProjectStatus(Integer p0)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Integer GetNextProjectStatus(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetNextProjectStatus(Integer)
----
 
 
-* **projectId**
 
-
+**Parameters:**
+ - **projectId** 

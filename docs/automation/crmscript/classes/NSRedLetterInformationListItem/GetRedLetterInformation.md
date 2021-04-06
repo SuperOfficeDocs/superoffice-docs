@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRedLetterInformationListItem_GetRedLetterInformation
+title: RedLetterSummary GetRedLetterInformation()
+intellisense: NSRedLetterInformationListItem.GetRedLetterInformation
+keywords: NSRedLetterInformationListItem, GetRedLetterInformation
+so.topic: reference
 ---
-title: NSRedLetterSummary GetRedLetterInformation()
-path: /EJScript/Classes/NSRedLetterInformationListItem/Member functions/NSRedLetterSummary GetRedLetterInformation()
-intellisense: 1
-classref: 1
-keywords: GetRedLetterInformation()
----
-
 
 Summary of redletter day information - holiday in own country, and in other countries known to the system.
 
+**Returns:** RedLetterSummary
 
 
-* **Returns:** RedLetterSummary
+```crmscript
+NSRedLetterInformationListItem thing;
+RedLetterSummary redLetterInformation  = thing.GetRedLetterInformation();
+```
 
 

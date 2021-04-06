@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_SetSourceInput
+title: SetSourceInput(String sourceInput)
+intellisense: NSTemplateVariablesParameters.SetSourceInput
+keywords: NSTemplateVariablesParameters, GetSourceInput
+so.topic: reference
 ---
-title: Void SetSourceInput(String SourceInput)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetSourceInput(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSourceInput(String)
----
-
 
 Source string to parse for template variables. Such variables must have delimiters corresponding to the standard for the given generator encoding.Non-text source data (such as the binary content of a .doc file) should be passed in as Base64.
 
+**Parameter:** 
+ - **sourceInput** String
 
-
-* **SourceInput:** String
-* **Returns:** String
-
+```crmscript
+NSTemplateVariablesParameters thing;
+String sourceInput;
+thing.SetSourceInput(sourceInput);
+```
 

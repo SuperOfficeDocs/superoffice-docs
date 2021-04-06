@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetActiveInterests
+title: SetActiveInterests(Integer activeInterests)
+intellisense: NSPerson.SetActiveInterests
+keywords: NSPerson, GetActiveInterests
+so.topic: reference
 ---
-title: Void SetActiveInterests(Integer ActiveInterests)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetActiveInterests(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetActiveInterests(Integer)
----
 
+Number of records in pintr table; select count(*) from pintr pi where pi.person_id = this.person_id == activeInterests is always true
 
-Number of records in pintr table; select count(*) from pintr pi where pi.person\_id = this.person\_id == activeInterests is always true
+**Parameter:** 
+ - **activeInterests** Integer
 
-
-
-* **ActiveInterests:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPerson thing;
+Integer activeInterests;
+thing.SetActiveInterests(activeInterests);
+```
 

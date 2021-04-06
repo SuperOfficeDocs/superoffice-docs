@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetDaysFuture
 title: Integer GetDaysFuture()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Integer GetDaysFuture()
-intellisense: 1
-classref: 1
-keywords: GetDaysFuture()
+intellisense: NSSuggestedAppointmentEntity.GetDaysFuture
+keywords: NSSuggestedAppointmentEntity, GetDaysFuture
+so.topic: reference
 ---
-
 
 How many days into the future the appointment should be scheduled
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Integer daysFuture  = thing.GetDaysFuture();
+```
 
 

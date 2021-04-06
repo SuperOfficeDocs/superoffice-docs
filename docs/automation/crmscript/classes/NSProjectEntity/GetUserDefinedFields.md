@@ -1,12 +1,20 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetUserDefinedFields
 title: Map GetUserDefinedFields()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Map GetUserDefinedFields()
-intellisense: 1
-classref: 1
-keywords: GetUserDefinedFields()
+intellisense: NSProjectEntity.GetUserDefinedFields
+keywords: NSProjectEntity, GetUserDefinedFields
+so.topic: reference
 ---
 
+Get the user-defined fields on the ProjectEntity as a map.
 
-* **Returns:** Map
+**Returns:** Map containing user defined field values by field prog.id.
 
+```crmscript
+NSProjectEntity thing;
+Map udefs = thing.GetUserDefinedFields();
+log( udefs["SuperOffice:1"] ); // "[I:123]" - integer or list item id
+log( udefs["SuperOffice:1:DisplayText"] ); // "bla bla" - list item value
+log( udefs["custom.progid"] ); // "foobar" - string value
+```
 

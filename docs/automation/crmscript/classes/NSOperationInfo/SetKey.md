@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSOperationInfo_SetKey
+title: SetKey(String key)
+intellisense: NSOperationInfo.SetKey
+keywords: NSOperationInfo, GetKey
+so.topic: reference
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSOperationInfo/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetKey(String)
----
 
 
-* **Key:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **key** String
+
+```crmscript
+NSOperationInfo thing;
+String key;
+thing.SetKey(key);
+```
 

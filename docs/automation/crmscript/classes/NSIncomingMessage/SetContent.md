@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSIncomingMessage_SetContent
+title: SetContent(String content)
+intellisense: NSIncomingMessage.SetContent
+keywords: NSIncomingMessage, GetContent
+so.topic: reference
 ---
-title: Void SetContent(String Content)
-path: /EJScript/Classes/NSIncomingMessage/Member functions/Void SetContent(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3992
-keywords: SetContent(String)
----
-
 
 Content, or body, of the message.
 
+**Parameter:** 
+ - **content** String
 
-
-* **Content:** String
-* **Returns:** String
-
+```crmscript
+NSIncomingMessage thing;
+String content;
+thing.SetContent(content);
+```
 

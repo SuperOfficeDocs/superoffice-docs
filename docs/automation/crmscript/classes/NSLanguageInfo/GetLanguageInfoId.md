@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLanguageInfo_GetLanguageInfoId
 title: Integer GetLanguageInfoId()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/Integer GetLanguageInfoId()
-intellisense: 1
-classref: 1
-sortOrder: 4001
-keywords: GetLanguageInfoId()
+intellisense: NSLanguageInfo.GetLanguageInfoId
+keywords: NSLanguageInfo, GetLanguageInfoId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSLanguageInfo thing;
+Integer languageInfoId  = thing.GetLanguageInfoId();
+```
 
 

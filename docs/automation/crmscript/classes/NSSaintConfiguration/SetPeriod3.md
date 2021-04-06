@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaintConfiguration_SetPeriod3
+title: SetPeriod3(Integer period3)
+intellisense: NSSaintConfiguration.SetPeriod3
+keywords: NSSaintConfiguration, GetPeriod3
+so.topic: reference
 ---
-title: Void SetPeriod3(Integer Period3)
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Void SetPeriod3(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPeriod3(Integer)
----
-
 
 Length of the third counter period
 
+**Parameter:** 
+ - **period3** Integer
 
-
-* **Period3:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaintConfiguration thing;
+Integer period3;
+thing.SetPeriod3(period3);
+```
 

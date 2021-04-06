@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetName
 title: String GetName()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 1221
-keywords: GetName()
+intellisense: NSArchiveRestrictionInfo.GetName
+keywords: NSArchiveRestrictionInfo, GetName
+so.topic: reference
 ---
-
 
 The programmatic column name, including any required prefixes
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSArchiveRestrictionInfo thing;
+String name  = thing.GetName();
+```
 
 

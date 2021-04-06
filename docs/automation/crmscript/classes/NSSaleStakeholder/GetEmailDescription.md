@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetEmailDescription
 title: String GetEmailDescription()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetEmailDescription()
-intellisense: 1
-classref: 1
-keywords: GetEmailDescription()
+intellisense: NSSaleStakeholder.GetEmailDescription
+keywords: NSSaleStakeholder, GetEmailDescription
+so.topic: reference
 ---
-
 
 E-mail description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleStakeholder thing;
+String emailDescription  = thing.GetEmailDescription();
+```
 
 

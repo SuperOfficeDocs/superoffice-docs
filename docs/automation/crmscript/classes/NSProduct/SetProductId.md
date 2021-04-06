@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetProductId
+title: SetProductId(Integer productId)
+intellisense: NSProduct.SetProductId
+keywords: NSProduct, GetProductId
+so.topic: reference
 ---
-title: Void SetProductId(Integer ProductId)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetProductId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetProductId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **productId** Integer
 
-
-* **ProductId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProduct thing;
+Integer productId;
+thing.SetProductId(productId);
+```
 

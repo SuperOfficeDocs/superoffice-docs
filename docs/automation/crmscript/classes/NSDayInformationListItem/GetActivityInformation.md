@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDayInformationListItem_GetActivityInformation
+title: ActivitySummary GetActivityInformation()
+intellisense: NSDayInformationListItem.GetActivityInformation
+keywords: NSDayInformationListItem, GetActivityInformation
+so.topic: reference
 ---
-title: NSActivitySummary GetActivityInformation()
-path: /EJScript/Classes/NSDayInformationListItem/Member functions/NSActivitySummary GetActivityInformation()
-intellisense: 1
-classref: 1
-sortOrder: 2359
-keywords: GetActivityInformation()
----
-
 
 Activity information summary - number of free and busy activities.
 
+**Returns:** ActivitySummary
 
 
-* **Returns:** ActivitySummary
+```crmscript
+NSDayInformationListItem thing;
+ActivitySummary activityInformation  = thing.GetActivityInformation();
+```
 
 

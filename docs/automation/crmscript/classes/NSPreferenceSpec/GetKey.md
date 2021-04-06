@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceSpec_GetKey
 title: String GetKey()
-path: /EJScript/Classes/NSPreferenceSpec/Member functions/String GetKey()
-intellisense: 1
-classref: 1
-keywords: GetKey()
+intellisense: NSPreferenceSpec.GetKey
+keywords: NSPreferenceSpec, GetKey
+so.topic: reference
 ---
-
 
 Preference key name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPreferenceSpec thing;
+String key  = thing.GetKey();
+```
 
 

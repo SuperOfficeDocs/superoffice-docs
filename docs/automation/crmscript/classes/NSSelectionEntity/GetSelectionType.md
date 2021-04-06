@@ -1,16 +1,22 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetSelectionType
 title: Integer GetSelectionType()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetSelectionType()
-intellisense: 1
-classref: 1
-keywords: GetSelectionType()
+intellisense: NSSelectionEntity.GetSelectionType
+keywords: NSSelectionEntity, GetSelectionType
+so.topic: reference
 ---
-
 
 Static/Dynamic/Combined?
 
+**Returns:** Integer
 
+     - Enum: 0 = Static 
+     - Enum: 1 = Dynamic 
+     - Enum: 2 = Combined 
 
-* **Returns:** Integer
+```crmscript
+NSSelectionEntity thing;
+Integer selectionType  = thing.GetSelectionType();
+```
 
 

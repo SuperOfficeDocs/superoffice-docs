@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetKananame
+title: SetKananame(String kananame)
+intellisense: NSContact.SetKananame
+keywords: NSContact, GetKananame
+so.topic: reference
 ---
-title: Void SetKananame(String Kananame)
-path: /EJScript/Classes/NSContact/Member functions/Void SetKananame(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1759
-keywords: SetKananame(String)
----
-
 
 Contact kana name, used in Japanese versions only
 
+**Parameter:** 
+ - **kananame** String
 
-
-* **Kananame:** String
-* **Returns:** String
-
+```crmscript
+NSContact thing;
+String kananame;
+thing.SetKananame(kananame);
+```
 

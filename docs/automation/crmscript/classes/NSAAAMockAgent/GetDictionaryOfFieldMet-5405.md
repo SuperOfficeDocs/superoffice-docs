@@ -1,10 +1,10 @@
 ---
-title: NSFieldMetadataDictionary GetDictionaryOfFieldMetadata()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/NSFieldMetadataDictionary GetDictionaryOfFieldMetadata()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_GetDictionaryOfFieldMetadata
+title: NSAAAMockAgent.GetDictionaryOfFieldMetadata()
+intellisense: NSAAAMockAgent.GetDictionaryOfFieldMetadata
 sortOrder: 8893
 keywords: GetDictionaryOfFieldMetadata()
+so.topic: reference
 ---
 
 

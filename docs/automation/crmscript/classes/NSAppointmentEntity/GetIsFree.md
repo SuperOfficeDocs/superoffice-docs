@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetIsFree
 title: Bool GetIsFree()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetIsFree()
-intellisense: 1
-classref: 1
-sortOrder: 928
-keywords: GetIsFree()
+intellisense: NSAppointmentEntity.GetIsFree
+keywords: NSAppointmentEntity, GetIsFree
+so.topic: reference
 ---
-
 
 True if free, false if busy
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSAppointmentEntity thing;
+Bool isFree  = thing.GetIsFree();
+```
 
 

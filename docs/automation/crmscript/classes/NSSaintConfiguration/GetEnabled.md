@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaintConfiguration_GetEnabled
 title: Bool GetEnabled()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Bool GetEnabled()
-intellisense: 1
-classref: 1
-keywords: GetEnabled()
+intellisense: NSSaintConfiguration.GetEnabled
+keywords: NSSaintConfiguration, GetEnabled
+so.topic: reference
 ---
-
 
 On/off switch for Saint functionality for this entity
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSaintConfiguration thing;
+Bool enabled  = thing.GetEnabled();
+```
 
 

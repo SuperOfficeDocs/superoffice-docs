@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSRelationToOwner_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSRelationToOwner/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSRelationToOwner.GetId
+keywords: NSRelationToOwner, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the RelationToOwner
 
-* **Returns:** Integer
+**Returns:** Integer RelationToOwner id.
 
+```crmscript
+NSRelationToOwner thing;
+Integer id = thing.GetId();
+```
 

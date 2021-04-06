@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveAmountClassEntity
+title: NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity amountClassEntity);
+intellisense: NSListAgent.SaveAmountClassEntity
+keywords: NSListAgent, SaveAmountClassEntity
+so.topic: reference
 ---
-title: NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity amountClassEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveAmountClassEntity(NSAmountClassEntity)
----
+	  
+Updates the existing NSAmountClassEntity or creates a new NSAmountClassEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **amountClassEntity** The NSAmountClassEntity to save.
 
+**Returns:** New or updated NSAmountClassEntity
 
-Updates the existing AmountClassEntity or creates a new AmountClassEntity if the id parameter is empty
-
-
-
-* **amountClassEntity:** The AmountClassEntity that is saved
-* **Returns:** New or updated AmountClassEntity
-
+```crmscript
+NSList  agent;
+NSAmountClassEntity thing = agent.CreateDefaultAmountClassEntity();
+thing = agent.SaveAmountClassEntity(thing);
+```
 

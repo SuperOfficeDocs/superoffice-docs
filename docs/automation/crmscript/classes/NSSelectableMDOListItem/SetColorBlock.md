@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_SetColorBlock
+title: SetColorBlock(Integer colorBlock)
+intellisense: NSSelectableMDOListItem.SetColorBlock
+keywords: NSSelectableMDOListItem, GetColorBlock
+so.topic: reference
 ---
-title: Void SetColorBlock(Integer ColorBlock)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetColorBlock(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetColorBlock(Integer)
----
-
 
 The color indicator of the ListItem color block
 
+**Parameter:** 
+ - **colorBlock** Integer
 
-
-* **ColorBlock:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectableMDOListItem thing;
+Integer colorBlock;
+thing.SetColorBlock(colorBlock);
+```
 

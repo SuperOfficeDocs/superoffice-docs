@@ -1,17 +1,24 @@
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_SetScope
+title: SetScope(Integer scope)
+intellisense: NSSystemEventEntity.SetScope
+keywords: NSSystemEventEntity, GetScope
+so.topic: reference
 ---
-title: Void SetScope(Integer Scope)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetScope(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetScope(Integer)
----
-
 
 1 = system-wide, 2= database, 3 = group, 4 = user
 
+**Parameter:** 
+ - **scope** Integer
+     - Enum: 0 = Undefined 
+     - Enum: 1 = SystemWide 
+     - Enum: 2 = Database 
+     - Enum: 3 = Group 
+     - Enum: 4 = User 
 
-
-* **Scope:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSystemEventEntity thing;
+Integer scope;
+thing.SetScope(scope);
+```
 

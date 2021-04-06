@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectAgent_CreateDefaultProjectEntity
 title: NSProjectEntity CreateDefaultProjectEntity()
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEntity CreateDefaultProjectEntity()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultProjectEntity()
+intellisense: NSProjectAgent.CreateDefaultProjectEntity
+keywords: NSProjectAgent, CreateDefaultProjectEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSProjectEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSProjectEntity with default values.
 
-
-Loading default values into a new ProjectEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New ProjectEntity with default values
-
+```crmscript
+NSProjectAgent agent;
+NSProjectEntity thing = agent.CreateDefaultProjectEntity();
+thing = agent.SaveProjectEntity(thing);
+```
 

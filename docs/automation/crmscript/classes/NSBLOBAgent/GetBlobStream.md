@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSBLOBAgent_GetBlobStream
+title: Stream GetBlobStream(Integer blobEntityId)
+intellisense: NSBLOBAgent.GetBlobStream
+keywords: NSBLOBAgent, GetBlobStream
+so.topic: reference
 ---
-title: NSStream GetBlobStream(Integer blobEntityId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSStream GetBlobStream(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1424
-keywords: GetBlobStream(Integer)
----
-
 
 Get the binary object as a stream
 
+**Parameters:**
+ - **blobEntityId** The ID of the BLOB entity object that refers to the binary data
 
+**Returns:** The binary object as a Stream
 
-* **blobEntityId:** The ID of the BLOB entity object that refers to the binary data
-* **Returns:** The binary object as a Stream
-
+```crmscript
+NSBLOBAgent agent;
+Integer blobEntityId;
+Stream res = agent.GetBlobStream(blobEntityId);
+```
 

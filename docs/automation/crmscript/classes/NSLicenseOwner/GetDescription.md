@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseOwner_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSLicenseOwner/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSLicenseOwner.GetDescription
+keywords: NSLicenseOwner, GetDescription
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSLicenseOwner thing;
+String description  = thing.GetDescription();
+```
 
 

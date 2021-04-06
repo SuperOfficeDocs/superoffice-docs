@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSStatisticsDataValue
 title: NSStatisticsDataValue
-path: /EJScript/Classes/NSStatisticsDataValue
-intellisense: 1
-classref: 1
+intellisense: Void.NSStatisticsDataValue
+keywords: NSStatisticsDataValue
+so.topic: reference
 ---
-
 
 This class contains a single data value in a data set, used by CS for Status Screen reports
 
-
-
-
-1. autolist
+1. autolist 
 

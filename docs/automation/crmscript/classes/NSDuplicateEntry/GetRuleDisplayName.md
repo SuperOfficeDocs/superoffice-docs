@@ -1,10 +1,10 @@
 ---
-title: String GetRuleDisplayName()
-path: /EJScript/Classes/NSDuplicateEntry/Member functions/String GetRuleDisplayName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSDuplicateEntry_GetRuleDisplayName
+title: NSDuplicateEntry.GetRuleDisplayName()
+intellisense: NSDuplicateEntry.GetRuleDisplayName
 sortOrder: 2725
 keywords: GetRuleDisplayName()
+so.topic: reference
 ---
 
 

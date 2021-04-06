@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSPhoneListAgent_SetPreferences
+title: Void SetPreferences(PhoneListPreferences preferences)
+intellisense: NSPhoneListAgent.SetPreferences
+keywords: NSPhoneListAgent, SetPreferences
+so.topic: reference
 ---
-title: Void SetPreferences(NSPhoneListPreferences preferences)
-path: /EJScript/Classes/NSPhoneListAgent/Member functions/Void SetPreferences(NSPhoneListPreferences p_0)
-intellisense: 1
-classref: 1
-keywords: SetPreferences(NSPhoneListPreferences)
----
-
 
 Setting Phone List Preferences to the CRM 5 user preferences
 
-
-
-* **preferences:** The preference that is set as user preferences
-
-
+**Parameters:**
+ - **preferences** The preference that is set as user preferences

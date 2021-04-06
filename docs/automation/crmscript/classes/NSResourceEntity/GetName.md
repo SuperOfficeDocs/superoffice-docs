@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSResourceEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSResourceEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSResourceEntity.GetName
+keywords: NSResourceEntity, GetName
+so.topic: reference
 ---
-
 
 Initials, also login name, possibly database user name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSResourceEntity thing;
+String name  = thing.GetName();
+```
 
 

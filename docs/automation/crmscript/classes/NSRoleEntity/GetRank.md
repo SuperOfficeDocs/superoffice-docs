@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRoleEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSRoleEntity.GetRank
+keywords: NSRoleEntity, GetRank
+so.topic: reference
 ---
-
 
 Sorting rank of this role in lists
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSRoleEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

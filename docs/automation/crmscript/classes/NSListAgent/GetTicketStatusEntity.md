@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTicketStatusEntity
+title: NSTicketStatusEntity GetTicketStatusEntity(Integer ticketStatusEntityId);
+intellisense: NSListAgent.GetTicketStatusEntity
+keywords: NSListAgent, GetTicketStatusEntity
+so.topic: reference
 ---
-title: NSTicketStatusEntity GetTicketStatusEntity(Integer ticketStatusEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketStatusEntity GetTicketStatusEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetTicketStatusEntity(Integer)
----
 
+Gets a NSTicketStatusEntity object.
 
-Gets a TicketStatusEntity object.
+**Parameters:**
+ - **ticketStatusEntityId** The identifier of the NSTicketStatusEntity object
 
+**Returns:** NSTicketStatusEntity
 
-
-* **ticketStatusEntityId:** The identifier of the TicketStatusEntity object
-* **Returns:** TicketStatusEntity
-
+```crmscript
+NSListAgent agent;
+NSTicketStatusEntity thing = agent.GetTicketStatusEntity(123);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_GetQuotedProductsId
 title: Integer GetQuotedProductsId()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Integer GetQuotedProductsId()
-intellisense: 1
-classref: 1
-keywords: GetQuotedProductsId()
+intellisense: NSQuotePublishDocuments.GetQuotedProductsId
+keywords: NSQuotePublishDocuments, GetQuotedProductsId
+so.topic: reference
 ---
-
 
 Quoted products (quote lines or confirmation lines) document, as PDF
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuotePublishDocuments thing;
+Integer quotedProductsId  = thing.GetQuotedProductsId();
+```
 
 

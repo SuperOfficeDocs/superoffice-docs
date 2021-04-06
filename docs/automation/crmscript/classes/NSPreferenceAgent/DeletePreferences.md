@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSPreferenceAgent_DeletePreferences
+title: Void DeletePreferences(IntegerArray ids)
+intellisense: NSPreferenceAgent.DeletePreferences
+keywords: NSPreferenceAgent, DeletePreferences
+so.topic: reference
 ---
-title: Void DeletePreferences(Integer[] ids)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void DeletePreferences(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: DeletePreferences(Integer[])
----
-
 
 Delete some preferences by id
 
+**Parameters:**
+ - **ids** The ids of the preference to delete
 
+**Returns:** This method has no return value
 
-* **ids:** The ids of the preference to delete
-* **Returns:** This method has no return value
-
+```crmscript
+NSPreferenceAgent agent;
+IntegerArray ids;
+Void res = agent.DeletePreferences(ids);
+```
 

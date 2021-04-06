@@ -1,17 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerServiceAgent_CheckIfCustomizedTemplates
 title: Bool CheckIfCustomizedTemplates()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Bool CheckIfCustomizedTemplates()
-intellisense: 1
-classref: 1
-sortOrder: 2221
-keywords: CheckIfCustomizedTemplates()
+intellisense: NSCustomerServiceAgent.CheckIfCustomizedTemplates
+keywords: NSCustomerServiceAgent, CheckIfCustomizedTemplates
+so.topic: reference
 ---
-
 
 Checks whether the core html templates are customized
 
 
+**Returns:** True if the templates are customized
 
-* **Returns:** True if the templates are customized
-
+```crmscript
+NSCustomerServiceAgent agent;
+Bool res = agent.CheckIfCustomizedTemplates();
+```
 

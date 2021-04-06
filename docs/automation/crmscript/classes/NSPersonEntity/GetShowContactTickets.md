@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetShowContactTickets
 title: Integer GetShowContactTickets()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetShowContactTickets()
-intellisense: 1
-classref: 1
-keywords: GetShowContactTickets()
+intellisense: NSPersonEntity.GetShowContactTickets
+keywords: NSPersonEntity, GetShowContactTickets
+so.topic: reference
 ---
-
 
 Should tickets related to the company be shown to this person
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPersonEntity thing;
+Integer showContactTickets  = thing.GetShowContactTickets();
+```
 
 

@@ -1,10 +1,10 @@
 ---
-title: String getResponseHeader(String p\_header)
-path: /EJScript/Classes/HTTP/Member functions/String getResponseHeader(String p_header)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HTTP_getResponseHeader_String_p_header
+title: HTTP.getResponseHeader(String p_header)
+intellisense: HTTP.getResponseHeader
 sortOrder: 413
 keywords: getResponseHeader(String)
+so.topic: reference
 ---
 
 This function will get a named HTTP header from the response of the HTTP request.

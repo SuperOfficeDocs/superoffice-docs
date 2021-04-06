@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetProjectType
+title: SetProjectType(ProjectType projectType)
+intellisense: NSProjectEntity.SetProjectType
+keywords: NSProjectEntity, GetProjectType
+so.topic: reference
 ---
-title: Void SetProjectType(NSProjectType ProjectType)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetProjectType(NSProjectType p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectType(NSProjectType)
----
 
+Project type is a list defined by the database admin. for example: 'Large', 'Small', 'Party'...
 
-* **ProjectType:** ProjectType
-* **Returns:** ProjectType
+**Parameter:** 
+ - **projectType** ProjectType
 
+```crmscript
+NSProjectEntity thing;
+ProjectType projectType;
+thing.SetProjectType(projectType);
+```
 

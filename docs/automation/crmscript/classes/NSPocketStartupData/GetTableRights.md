@@ -1,16 +1,39 @@
+﻿---
+uid: crmscript_ref_NSPocketStartupData_GetTableRights
+title: ETableRightArray GetTableRights()
+intellisense: NSPocketStartupData.GetTableRights
+keywords: NSPocketStartupData, GetTableRights
+so.topic: reference
 ---
-title: NSETableRight[] GetTableRights()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/NSETableRight[] GetTableRights()
-intellisense: 1
-classref: 1
-keywords: GetTableRights()
----
-
 
 List of tablerights for logged in user, in the same order as the Tables array parameter
 
+**Returns:** ETableRightArray
 
+     - Enum: 0 = None 
+     - Enum: 1 = Select 
+     - Enum: 2 = Update 
+     - Enum: 4 = Insert 
+     - Enum: 8 = Delete 
+     - Enum: 16 = Filtering 
+     - Enum: 32 = RestrictedUpdate 
+     - Enum: 64 = Unused1 
+     - Enum: 128 = Uninitialized 
+     - Enum: 15 = FULL 
+     - Enum: 38 = WRITE 
+     - Enum: 34 = URU 
+     - Enum: 11 = UDR 
+     - Enum: 3 = UR 
+     - Enum: 7 = URI 
+     - Enum: 1 = R 
+     - Enum: 5 = RI 
+     - Enum: 17 = RF 
+     - Enum: 16 = F 
+     - Enum: 20 = FI 
 
-* **Returns:** ETableRightArray
+```crmscript
+NSPocketStartupData thing;
+ETableRightArray tableRights  = thing.GetTableRights();
+```
 
 

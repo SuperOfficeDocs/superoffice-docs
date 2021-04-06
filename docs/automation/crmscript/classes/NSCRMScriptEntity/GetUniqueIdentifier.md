@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_GetUniqueIdentifier
 title: String GetUniqueIdentifier()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/String GetUniqueIdentifier()
-intellisense: 1
-classref: 1
-sortOrder: 2137
-keywords: GetUniqueIdentifier()
+intellisense: NSCRMScriptEntity.GetUniqueIdentifier
+keywords: NSCRMScriptEntity, GetUniqueIdentifier
+so.topic: reference
 ---
-
 
 Global unique identifier, accross customers/tenants
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCRMScriptEntity thing;
+String uniqueIdentifier  = thing.GetUniqueIdentifier();
+```
 
 

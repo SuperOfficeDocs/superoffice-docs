@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetRegisteredAssociateId
+title: SetRegisteredAssociateId(Integer registeredAssociateId)
+intellisense: NSSuggestedAppointment.SetRegisteredAssociateId
+keywords: NSSuggestedAppointment, GetRegisteredAssociateId
+so.topic: reference
 ---
-title: Void SetRegisteredAssociateId(Integer RegisteredAssociateId)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetRegisteredAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRegisteredAssociateId(Integer)
----
-
 
 Registered by whom
 
+**Parameter:** 
+ - **registeredAssociateId** Integer
 
-
-* **RegisteredAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedAppointment thing;
+Integer registeredAssociateId;
+thing.SetRegisteredAssociateId(registeredAssociateId);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetExtraField2
+title: SetExtraField2(String extraField2)
+intellisense: NSQuoteLine.SetExtraField2
+keywords: NSQuoteLine, GetExtraField2
+so.topic: reference
 ---
-title: Void SetExtraField2(String ExtraField2)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetExtraField2(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraField2(String)
----
-
 
 This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
 
+**Parameter:** 
+ - **extraField2** String
 
-
-* **ExtraField2:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLine thing;
+String extraField2;
+thing.SetExtraField2(extraField2);
+```
 

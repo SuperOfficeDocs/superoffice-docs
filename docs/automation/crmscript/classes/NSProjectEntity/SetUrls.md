@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetUrls
+title: SetUrls(EntityElementArray urls)
+intellisense: NSProjectEntity.SetUrls
+keywords: NSProjectEntity, GetUrls
+so.topic: reference
 ---
-title: Void SetUrls(NSEntityElement[] Urls)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetUrls(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetUrls(NSEntityElement[])
----
-
 
 The project's internet adresses
 
+**Parameter:** 
+ - **urls** EntityElementArray
 
-
-* **Urls:** EntityElementArray
-* **Returns:** EntityElementArray
-
+```crmscript
+NSProjectEntity thing;
+EntityElementArray urls;
+thing.SetUrls(urls);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: String toString()
-path: /EJScript/Classes/Bool/Member functions/String toString()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Bool_toString
+title: Bool.toString()
+intellisense: Bool.toString
 sortOrder: 132
 keywords: toString()
+so.topic: reference
 ---
 
 

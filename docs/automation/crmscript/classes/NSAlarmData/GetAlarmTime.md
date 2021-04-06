@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetAlarmTime
 title: DateTime GetAlarmTime()
-path: /EJScript/Classes/NSAlarmData/Member functions/DateTime GetAlarmTime()
-intellisense: 1
-classref: 1
-sortOrder: 643
-keywords: GetAlarmTime()
+intellisense: NSAlarmData.GetAlarmTime
+keywords: NSAlarmData, GetAlarmTime
+so.topic: reference
 ---
 
 
-* **Returns:** DateTime
+
+**Returns:** DateTime
+
+
+```crmscript
+NSAlarmData thing;
+DateTime alarmTime  = thing.GetAlarmTime();
+```
 
 

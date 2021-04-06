@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSDepartment_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSDepartment/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-sortOrder: 2382
-keywords: GetId()
+intellisense: NSDepartment.GetId
+keywords: NSDepartment, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the Department
 
-* **Returns:** Integer
+**Returns:** Integer Department id.
 
+```crmscript
+NSDepartment thing;
+Integer id = thing.GetId();
+```
 

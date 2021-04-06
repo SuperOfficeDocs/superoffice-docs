@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_GetAssociate
+title: Associate GetAssociate()
+intellisense: NSSuggestedAppointment.GetAssociate
+keywords: NSSuggestedAppointment, GetAssociate
+so.topic: reference
 ---
-title: NSAssociate GetAssociate()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/NSAssociate GetAssociate()
-intellisense: 1
-classref: 1
-keywords: GetAssociate()
----
-
 
 The owner of the suggested activity. Always the same as the sales owner.
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSSuggestedAppointment thing;
+Associate associate  = thing.GetAssociate();
+```
 
 

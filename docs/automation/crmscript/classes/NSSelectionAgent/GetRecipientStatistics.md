@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSelectionAgent_GetRecipientStatistics
+title: RecipientStatistics GetRecipientStatistics(Integer selectionId)
+intellisense: NSSelectionAgent.GetRecipientStatistics
+keywords: NSSelectionAgent, GetRecipientStatistics
+so.topic: reference
 ---
-title: NSRecipientStatistics GetRecipientStatistics(Integer selectionId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSRecipientStatistics GetRecipientStatistics(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetRecipientStatistics(Integer)
----
-
 
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses.
 
+**Parameters:**
+ - **selectionId** The id of the selection to get the statistics for.
 
+**Returns:** Returns a RecipientStatistics object.
 
-* **selectionId:** The id of the selection to get the statistics for.
-* **Returns:** Returns a RecipientStatistics object.
-
+```crmscript
+NSSelectionAgent agent;
+Integer selectionId;
+RecipientStatistics res = agent.GetRecipientStatistics(selectionId);
+```
 

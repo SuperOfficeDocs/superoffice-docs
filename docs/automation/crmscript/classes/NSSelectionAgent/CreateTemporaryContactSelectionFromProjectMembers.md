@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSelectionAgent_CreateTemporaryContactSelectionFromProjectMembers
+title: SelectionEntity CreateTemporaryContactSelectionFromProjectMembers(Integer projectId)
+intellisense: NSSelectionAgent.CreateTemporaryContactSelectionFromProjectMembers
+keywords: NSSelectionAgent, CreateTemporaryContactSelectionFromProjectMembers
+so.topic: reference
 ---
-title: NSSelectionEntity CreateTemporaryContactSelectionFromProjectMembers(Integer projectId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateTemporaryContactSelectionFromProjectMembers(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: CreateTemporaryContactSelectionFromProjectMembers(Integer)
----
-
 
 Creates a temporary selection with members from an existing project.
 
+**Parameters:**
+ - **projectId** The id of the project to add members from.
 
+**Returns:** Returns the newly created SelectionEntity.
 
-* **projectId:** The id of the project to add members from.
-* **Returns:** Returns the newly created SelectionEntity.
-
+```crmscript
+NSSelectionAgent agent;
+Integer projectId;
+SelectionEntity res = agent.CreateTemporaryContactSelectionFromProjectMembers(projectId);
+```
 

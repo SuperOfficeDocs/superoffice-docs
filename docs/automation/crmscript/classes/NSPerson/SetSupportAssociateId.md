@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetSupportAssociateId
+title: SetSupportAssociateId(Integer supportAssociateId)
+intellisense: NSPerson.SetSupportAssociateId
+keywords: NSPerson, GetSupportAssociateId
+so.topic: reference
 ---
-title: Void SetSupportAssociateId(Integer SupportAssociateId)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetSupportAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSupportAssociateId(Integer)
----
-
 
 Our support contact for this person
 
+**Parameter:** 
+ - **supportAssociateId** Integer
 
-
-* **SupportAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPerson thing;
+Integer supportAssociateId;
+thing.SetSupportAssociateId(supportAssociateId);
+```
 

@@ -1,9 +1,9 @@
 ---
-title: Integer[] getAttachments(Integer p\_lang)
-path: /EJScript/Classes/ReplyTemplate/Member functions/Integer[] getAttachments(Integer p_lang)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ReplyTemplate_getAttachments_Integer_p_lang
+title: ReplyTemplate.getAttachments(Integer p_lang)
+intellisense: ReplyTemplate.getAttachments
 keywords: getAttachments(Integer)
+so.topic: reference
 ---
 
 Get all attachment id's belonging to a reply template.

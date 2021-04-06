@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketMessage_GetTicketMessageId
 title: Integer GetTicketMessageId()
-path: /EJScript/Classes/NSTicketMessage/Member functions/Integer GetTicketMessageId()
-intellisense: 1
-classref: 1
-keywords: GetTicketMessageId()
+intellisense: NSTicketMessage.GetTicketMessageId
+keywords: NSTicketMessage, GetTicketMessageId
+so.topic: reference
 ---
-
 
 The primary key (auto-incremented)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketMessage thing;
+Integer ticketMessageId  = thing.GetTicketMessageId();
+```
 
 

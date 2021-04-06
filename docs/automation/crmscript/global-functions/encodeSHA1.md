@@ -1,9 +1,9 @@
 ---
 description: String encodeSHA1(String value)
-path: /EJScript/Global functions/String encodeSHA1(String value)
-intellisense: 1
+intellisense: Void.encodeSHA1
 langref: 1
 keywords: encodeSHA1(String)
+so.topic: reference
 ---
 
 

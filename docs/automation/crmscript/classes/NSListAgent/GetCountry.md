@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCountry
+title: NSCountry GetCountry(Integer countryId);
+intellisense: NSListAgent.GetCountry
+keywords: NSListAgent, GetCountry
+so.topic: reference
 ---
-title: NSCountry GetCountry(Integer countryId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry GetCountry(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetCountry(Integer)
----
 
+Gets a NSCountry object.
 
-Gets a Country object.
+**Parameters:**
+ - **countryId** The identifier of the NSCountry object
 
+**Returns:** NSCountry
 
-
-* **countryId:** The identifier of the Country object
-* **Returns:** Country
-
+```crmscript
+NSListAgent agent;
+NSCountry thing = agent.GetCountry(123);
+```
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSatellite_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
+intellisense: NSSatellite.SetCreatedBy
+keywords: NSSatellite, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSSatellite/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetCreatedBy(NSAssociate)
----
 
 
-* **CreatedBy:** Associate
-* **Returns:** Associate
 
+**Parameter:** 
+ - **createdBy** Associate
+
+```crmscript
+NSSatellite thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

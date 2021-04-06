@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAttachment_GetType
 title: String GetType()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/String GetType()
-intellisense: 1
-classref: 1
-sortOrder: 2899
-keywords: GetType()
+intellisense: NSEMailAttachment.GetType
+keywords: NSEMailAttachment, GetType
+so.topic: reference
 ---
-
 
 Attachment Content-Type
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAttachment thing;
+String type  = thing.GetType();
+```
 
 

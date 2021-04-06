@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketCategoryEntity_SetName
+title: SetName(String name)
+intellisense: NSTicketCategoryEntity.SetName
+keywords: NSTicketCategoryEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 The (short) name of this category. E.g. &apos;support&apos;.
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSTicketCategoryEntity thing;
+String name;
+thing.SetName(name);
+```
 

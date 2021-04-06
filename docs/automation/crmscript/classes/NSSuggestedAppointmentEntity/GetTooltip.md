@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSSuggestedAppointmentEntity.GetTooltip
+keywords: NSSuggestedAppointmentEntity, GetTooltip
+so.topic: reference
 ---
-
 
 Tooltip / description
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSuggestedAppointmentEntity thing;
+String tooltip  = thing.GetTooltip();
+```
 
 

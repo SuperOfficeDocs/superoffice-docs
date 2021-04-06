@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnection_GetMostRecentTimestamp
 title: String GetMostRecentTimestamp()
-path: /EJScript/Classes/NSErpConnection/Member functions/String GetMostRecentTimestamp()
-intellisense: 1
-classref: 1
-sortOrder: 3088
-keywords: GetMostRecentTimestamp()
+intellisense: NSErpConnection.GetMostRecentTimestamp
+keywords: NSErpConnection, GetMostRecentTimestamp
+so.topic: reference
 ---
-
 
 Datetime, transaction number or other identification of the point in time of the most-recently seen actor in the ERP system
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpConnection thing;
+String mostRecentTimestamp  = thing.GetMostRecentTimestamp();
+```
 
 

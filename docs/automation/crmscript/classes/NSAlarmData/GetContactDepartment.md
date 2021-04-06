@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetContactDepartment
 title: String GetContactDepartment()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetContactDepartment()
-intellisense: 1
-classref: 1
-sortOrder: 659
-keywords: GetContactDepartment()
+intellisense: NSAlarmData.GetContactDepartment
+keywords: NSAlarmData, GetContactDepartment
+so.topic: reference
 ---
-
 
 Department
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAlarmData thing;
+String contactDepartment  = thing.GetContactDepartment();
+```
 
 

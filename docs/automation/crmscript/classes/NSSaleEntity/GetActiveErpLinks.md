@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetActiveErpLinks
 title: Integer GetActiveErpLinks()
-path: /EJScript/Classes/NSSaleEntity/Member functions/Integer GetActiveErpLinks()
-intellisense: 1
-classref: 1
-keywords: GetActiveErpLinks()
+intellisense: NSSaleEntity.GetActiveErpLinks
+keywords: NSSaleEntity, GetActiveErpLinks
+so.topic: reference
 ---
-
 
 The number of active erp links
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleEntity thing;
+Integer activeErpLinks  = thing.GetActiveErpLinks();
+```
 
 

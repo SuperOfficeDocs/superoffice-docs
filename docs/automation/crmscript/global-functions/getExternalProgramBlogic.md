@@ -1,9 +1,9 @@
 ---
 description: String getExternalProgramBlogic()
-path: /EJScript/Global functions/String getExternalProgramBlogic()
-intellisense: 1
+intellisense: Void.getExternalProgramBlogic
 langref: 1
 keywords: getExternalProgramBlogic()
+so.topic: reference
 ---
 
 

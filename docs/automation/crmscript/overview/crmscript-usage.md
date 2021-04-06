@@ -1,6 +1,6 @@
 ---
-title: crmscript_uc
-description: What can I do with CRMScript?
+uid: crmscript_uc
+title: What can I do with CRMScript?
 author:
 so.date:
 keywords:

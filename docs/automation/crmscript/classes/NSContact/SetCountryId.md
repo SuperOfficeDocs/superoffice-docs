@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetCountryId
+title: SetCountryId(Integer countryId)
+intellisense: NSContact.SetCountryId
+keywords: NSContact, GetCountryId
+so.topic: reference
 ---
-title: Void SetCountryId(Integer CountryId)
-path: /EJScript/Classes/NSContact/Member functions/Void SetCountryId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1750
-keywords: SetCountryId(Integer)
----
-
 
 Country
 
+**Parameter:** 
+ - **countryId** Integer
 
-
-* **CountryId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContact thing;
+Integer countryId;
+thing.SetCountryId(countryId);
+```
 

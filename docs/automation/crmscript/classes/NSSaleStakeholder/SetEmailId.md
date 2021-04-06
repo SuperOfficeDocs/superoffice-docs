@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetEmailId
+title: SetEmailId(Integer emailId)
+intellisense: NSSaleStakeholder.SetEmailId
+keywords: NSSaleStakeholder, GetEmailId
+so.topic: reference
 ---
-title: Void SetEmailId(Integer EmailId)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetEmailId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetEmailId(Integer)
----
-
 
 E-mail address id - Primary key
 
+**Parameter:** 
+ - **emailId** Integer
 
-
-* **EmailId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleStakeholder thing;
+Integer emailId;
+thing.SetEmailId(emailId);
+```
 

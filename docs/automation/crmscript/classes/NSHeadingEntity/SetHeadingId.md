@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSHeadingEntity_SetHeadingId
+title: SetHeadingId(Integer headingId)
+intellisense: NSHeadingEntity.SetHeadingId
+keywords: NSHeadingEntity, GetHeadingId
+so.topic: reference
 ---
-title: Void SetHeadingId(Integer HeadingId)
-path: /EJScript/Classes/NSHeadingEntity/Member functions/Void SetHeadingId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3919
-keywords: SetHeadingId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **headingId** Integer
 
-
-* **HeadingId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSHeadingEntity thing;
+Integer headingId;
+thing.SetHeadingId(headingId);
+```
 

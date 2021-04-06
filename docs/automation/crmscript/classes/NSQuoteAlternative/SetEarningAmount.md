@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_SetEarningAmount
+title: SetEarningAmount(Float earningAmount)
+intellisense: NSQuoteAlternative.SetEarningAmount
+keywords: NSQuoteAlternative, GetEarningAmount
+so.topic: reference
 ---
-title: Void SetEarningAmount(Float EarningAmount)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetEarningAmount(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetEarningAmount(Float)
----
-
 
 Earning on this alternative, as an absolute amount
 
+**Parameter:** 
+ - **earningAmount** Float
 
-
-* **EarningAmount:** Float
-* **Returns:** Float
-
+```crmscript
+NSQuoteAlternative thing;
+Float earningAmount;
+thing.SetEarningAmount(earningAmount);
+```
 

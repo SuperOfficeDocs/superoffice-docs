@@ -1,10 +1,11 @@
 ---
-title: Integer GenericToInteger(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/Integer GenericToInteger(Generic generic)
-intellisense: 1
+uid: crmscript_ref_Generic_GenericToInteger_Generic_generic
+title: Generic.GenericToInteger(Generic generic)
+intellisense: Generic.GenericToInteger
 langref: 1
 sortOrder: 100
 keywords: GenericToInteger(Generic)
+so.topic: reference
 ---
 
 Explicit downcast from a generic to an Integer. If the generic does not represent the correct type, an exception is thrown. Together with `getTypeName()`, this function can be used to get an explicit typed variable.

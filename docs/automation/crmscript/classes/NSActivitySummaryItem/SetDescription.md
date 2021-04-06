@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem_SetDescription
+title: SetDescription(String description)
+intellisense: NSActivitySummaryItem.SetDescription
+keywords: NSActivitySummaryItem, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 604
-keywords: SetDescription(String)
----
-
 
 The appointment's textbox; document title
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSActivitySummaryItem thing;
+String description;
+thing.SetDescription(description);
+```
 

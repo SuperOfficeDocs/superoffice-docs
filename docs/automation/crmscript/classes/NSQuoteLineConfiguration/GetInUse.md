@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_GetInUse
 title: Bool GetInUse()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Bool GetInUse()
-intellisense: 1
-classref: 1
-keywords: GetInUse()
+intellisense: NSQuoteLineConfiguration.GetInUse
+keywords: NSQuoteLineConfiguration, GetInUse
+so.topic: reference
 ---
-
 
 Should this field be displayed in the GUI?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSQuoteLineConfiguration thing;
+Bool inUse  = thing.GetInUse();
+```
 
 

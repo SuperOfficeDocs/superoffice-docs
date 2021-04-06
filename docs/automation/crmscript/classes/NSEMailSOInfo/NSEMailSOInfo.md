@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailSOInfo
 title: NSEMailSOInfo
-path: /EJScript/Classes/NSEMailSOInfo
-intellisense: 1
-classref: 1
-sortOrder: 3042
+intellisense: Void.NSEMailSOInfo
+keywords: NSEMailSOInfo
+so.topic: reference
 ---
-
 
 Glue between SuperOffice data and an e-mail.
 
-
-
-
-1. autolist
+1. autolist 
 

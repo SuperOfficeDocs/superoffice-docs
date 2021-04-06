@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCheckoutInfo_GetAssociateId
 title: Integer GetAssociateId()
-path: /EJScript/Classes/NSCheckoutInfo/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
-sortOrder: 1560
-keywords: GetAssociateId()
+intellisense: NSCheckoutInfo.GetAssociateId
+keywords: NSCheckoutInfo, GetAssociateId
+so.topic: reference
 ---
-
 
 Id of associate who has currently checked out the document; 0 if it is not checked out,  or is checked out by someone who is not a SuperOffice user
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCheckoutInfo thing;
+Integer associateId  = thing.GetAssociateId();
+```
 
 

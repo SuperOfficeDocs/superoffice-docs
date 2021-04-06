@@ -1,9 +1,9 @@
 ---
-title: String dumpParser()
-path: /EJScript/Classes/StatResult/Member functions/String dumpParser()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatResult_dumpParser
+title: StatResult.dumpParser()
+intellisense: StatResult.dumpParser
 keywords: dumpParser()
+so.topic: reference
 ---
 
 

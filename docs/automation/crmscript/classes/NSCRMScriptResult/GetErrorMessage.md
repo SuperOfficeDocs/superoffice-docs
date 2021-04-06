@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptResult_GetErrorMessage
 title: String GetErrorMessage()
-path: /EJScript/Classes/NSCRMScriptResult/Member functions/String GetErrorMessage()
-intellisense: 1
-classref: 1
-sortOrder: 2152
-keywords: GetErrorMessage()
+intellisense: NSCRMScriptResult.GetErrorMessage
+keywords: NSCRMScriptResult, GetErrorMessage
+so.topic: reference
 ---
-
 
 Contains the error message for a non-valide CRMScript
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCRMScriptResult thing;
+String errorMessage  = thing.GetErrorMessage();
+```
 
 

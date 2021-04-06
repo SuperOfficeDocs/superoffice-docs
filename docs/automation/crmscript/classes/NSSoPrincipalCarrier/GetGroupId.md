@@ -1,9 +1,9 @@
 ---
-title: Integer GetGroupId()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetGroupId()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetGroupId
+title: NSSoPrincipalCarrier.GetGroupId()
+intellisense: NSSoPrincipalCarrier.GetGroupId
 keywords: GetGroupId()
+so.topic: reference
 ---
 
 

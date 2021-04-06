@@ -1,19 +1,25 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SetVisibleForUserGroups
+title: SelectableMDOListItemArray SetVisibleForUserGroups(Integer udListDefinitionId, Integer listItemId, SelectableMDOListItemArray userGroups)
+intellisense: NSListAgent.SetVisibleForUserGroups
+keywords: NSListAgent, SetVisibleForUserGroups
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] SetVisibleForUserGroups(Integer udListDefinitionId, Integer listItemId, NSSelectableMDOListItem[] userGroups)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] SetVisibleForUserGroups(Integer p_0, Integer p_1, NSSelectableMDOListItem[] p_2)
-intellisense: 1
-classref: 1
-keywords: SetVisibleForUserGroups(Integer,Integer,NSSelectableMDOListItem[])
----
-
 
 Update User groups that this list item is visible for
 
+**Parameters:**
+ - **udListDefinitionId** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
+ - **listItemId** The id of the list item
+ - **userGroups** The selectable user groups.
 
+**Returns:** Array of selectable user groups
 
-* **udListDefinitionId:** The id of the list. Negative numbers indicate TableNumber value instead of UDListDefId. e.g. -64 = category.
-* **listItemId:** The id of the list item
-* **userGroups:** The selectable user groups.
-* **Returns:** Array of selectable user groups
-
+```crmscript
+NSListAgent agent;
+Integer udListDefinitionId;
+Integer listItemId;
+SelectableMDOListItemArray userGroups;
+SelectableMDOListItemArray res = agent.SetVisibleForUserGroups(udListDefinitionId, listItemId, userGroups);
+```
 

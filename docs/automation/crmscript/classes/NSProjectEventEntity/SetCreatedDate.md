@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetCreatedDate
+title: SetCreatedDate(DateTime createdDate)
+intellisense: NSProjectEventEntity.SetCreatedDate
+keywords: NSProjectEventEntity, GetCreatedDate
+so.topic: reference
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetCreatedDate(DateTime)
----
-
 
 Registered when
 
+**Parameter:** 
+ - **createdDate** DateTime
 
-
-* **CreatedDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSProjectEventEntity thing;
+DateTime createdDate;
+thing.SetCreatedDate(createdDate);
+```
 

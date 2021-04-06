@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_GetDocTmpl
+title: DocumentTemplate GetDocTmpl()
+intellisense: NSSuggestedDocumentEntity.GetDocTmpl
+keywords: NSSuggestedDocumentEntity, GetDocTmpl
+so.topic: reference
 ---
-title: NSDocumentTemplate GetDocTmpl()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/NSDocumentTemplate GetDocTmpl()
-intellisense: 1
-classref: 1
-keywords: GetDocTmpl()
----
-
 
 Document template
 
+**Returns:** DocumentTemplate
 
 
-* **Returns:** DocumentTemplate
+```crmscript
+NSSuggestedDocumentEntity thing;
+DocumentTemplate docTmpl  = thing.GetDocTmpl();
+```
 
 

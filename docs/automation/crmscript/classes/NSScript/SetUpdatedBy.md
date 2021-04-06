@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSScript_SetUpdatedBy
+title: SetUpdatedBy(String updatedBy)
+intellisense: NSScript.SetUpdatedBy
+keywords: NSScript, GetUpdatedBy
+so.topic: reference
 ---
-title: Void SetUpdatedBy(String UpdatedBy)
-path: /EJScript/Classes/NSScript/Member functions/Void SetUpdatedBy(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatedBy(String)
----
-
 
 Who updated this script
 
+**Parameter:** 
+ - **updatedBy** String
 
-
-* **UpdatedBy:** String
-* **Returns:** String
-
+```crmscript
+NSScript thing;
+String updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
 

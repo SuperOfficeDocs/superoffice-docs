@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_EabEntry
 title: EabEntry
-path: /EJScript/Classes/EabEntry
-intellisense: 1
-classref: 1
+intellisense: Void.EabEntry
 sortOrder: 272
+so.topic: reference
 ---
 
 

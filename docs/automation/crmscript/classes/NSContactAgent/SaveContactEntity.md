@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSContactAgent_SaveContactEntity
+title: NSContactEntity SaveContactEntity(NSContactEntity contactEntity);
+intellisense: NSContactAgent.SaveContactEntity
+keywords: NSContactAgent, SaveContactEntity
+so.topic: reference
 ---
-title: NSContactEntity SaveContactEntity(NSContactEntity contactEntity)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContactEntity SaveContactEntity(NSContactEntity p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1814
-keywords: SaveContactEntity(NSContactEntity)
----
+	  
+Updates the existing NSContactEntity or creates a new NSContactEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **contactEntity** The NSContactEntity to save.
 
+**Returns:** New or updated NSContactEntity
 
-Updates the existing ContactEntity or creates a new ContactEntity if the id parameter is empty
-
-
-
-* **contactEntity:** The ContactEntity that is saved
-* **Returns:** New or updated ContactEntity
-
+```crmscript
+NSContact  agent;
+NSContactEntity thing = agent.CreateDefaultContactEntity();
+thing = agent.SaveContactEntity(thing);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: Bool next()
-path: /EJScript/Classes/GenericSearch/Member functions/Bool next()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_GenericSearch_next
+title: GenericSearch.next()
+intellisense: GenericSearch.next
 sortOrder: 365
 keywords: next()
+so.topic: reference
 ---
 
 

@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSProductFamily_SetId
+title: SetId(Integer id)
+intellisense: NSProductFamily.SetId
+keywords: NSProductFamily, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSProductFamily/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the ProductFamily
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer ProductFamily id.
 
+```crmscript
+NSProductFamily thing;
+thing.SetId(123);
+```
 

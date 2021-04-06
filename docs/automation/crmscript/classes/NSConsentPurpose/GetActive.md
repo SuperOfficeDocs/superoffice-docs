@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentPurpose_GetActive
 title: Integer GetActive()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Integer GetActive()
-intellisense: 1
-classref: 1
-sortOrder: 1676
-keywords: GetActive()
+intellisense: NSConsentPurpose.GetActive
+keywords: NSConsentPurpose, GetActive
+so.topic: reference
 ---
-
 
 Is the consent purpose active or not
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSConsentPurpose thing;
+Integer active  = thing.GetActive();
+```
 
 

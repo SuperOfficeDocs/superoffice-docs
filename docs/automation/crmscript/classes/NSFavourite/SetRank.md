@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFavourite_SetRank
+title: SetRank(Integer rank)
+intellisense: NSFavourite.SetRank
+keywords: NSFavourite, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSFavourite/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3442
-keywords: SetRank(Integer)
----
-
 
 Rank order
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFavourite thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

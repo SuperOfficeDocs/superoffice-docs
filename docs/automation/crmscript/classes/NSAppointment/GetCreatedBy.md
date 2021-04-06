@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment_GetCreatedBy
 title: String GetCreatedBy()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetCreatedBy()
-intellisense: 1
-classref: 1
-sortOrder: 756
-keywords: GetCreatedBy()
+intellisense: NSAppointment.GetCreatedBy
+keywords: NSAppointment, GetCreatedBy
+so.topic: reference
 ---
-
 
 Who created the appointment. Associate name.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAppointment thing;
+String createdBy  = thing.GetCreatedBy();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/User/Member functions/Integer save()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_User_save
+title: User.save()
+intellisense: User.save
 keywords: save()
+so.topic: reference
 ---
 
 

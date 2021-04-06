@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetStakeholderRoleName
 title: String GetStakeholderRoleName()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetStakeholderRoleName()
-intellisense: 1
-classref: 1
-keywords: GetStakeholderRoleName()
+intellisense: NSSaleStakeholder.GetStakeholderRoleName
+keywords: NSSaleStakeholder, GetStakeholderRoleName
+so.topic: reference
 ---
-
 
 Stakeholder role name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleStakeholder thing;
+String stakeholderRoleName  = thing.GetStakeholderRoleName();
+```
 
 

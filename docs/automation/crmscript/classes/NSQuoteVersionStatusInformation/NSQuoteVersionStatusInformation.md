@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionStatusInformation
 title: NSQuoteVersionStatusInformation
-path: /EJScript/Classes/NSQuoteVersionStatusInformation
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuoteVersionStatusInformation
+keywords: NSQuoteVersionStatusInformation
+so.topic: reference
 ---
-
 
 Information about possible button actions for the quote version dialog.
 
-
-
-
-1. autolist
+1. autolist 
 

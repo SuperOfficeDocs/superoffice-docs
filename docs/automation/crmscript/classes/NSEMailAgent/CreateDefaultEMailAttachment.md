@@ -1,18 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailAttachment
 title: NSEMailAttachment CreateDefaultEMailAttachment()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAttachment CreateDefaultEMailAttachment()
-intellisense: 1
-classref: 1
-sortOrder: 2804
-keywords: CreateDefaultEMailAttachment()
+intellisense: NSEMailAgent.CreateDefaultEMailAttachment
+keywords: NSEMailAgent, CreateDefaultEMailAttachment
+so.topic: reference
 ---
+	  
+Set default values into a new NSEMailAttachment.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSEMailAttachment with default values.
 
-
-Loading default values into a new EMailAttachment.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New EMailAttachment with default values
-
+```crmscript
+NSEMailAgent agent;
+NSEMailAttachment thing = agent.CreateDefaultEMailAttachment();
+thing = agent.SaveEMailAttachment(thing);
+```
 

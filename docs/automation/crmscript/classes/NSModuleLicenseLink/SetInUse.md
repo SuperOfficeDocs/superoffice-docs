@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_SetInUse
+title: SetInUse(Integer inUse)
+intellisense: NSModuleLicenseLink.SetInUse
+keywords: NSModuleLicenseLink, GetInUse
+so.topic: reference
 ---
-title: Void SetInUse(Integer InUse)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetInUse(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetInUse(Integer)
----
-
 
 The total number of licenses (of a given license module) that are occupied
 
+**Parameter:** 
+ - **inUse** Integer
 
-
-* **InUse:** Integer
-* **Returns:** Void
-
+```crmscript
+NSModuleLicenseLink thing;
+Integer inUse;
+thing.SetInUse(inUse);
+```
 

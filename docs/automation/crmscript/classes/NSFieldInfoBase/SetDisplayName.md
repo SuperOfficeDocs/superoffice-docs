@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_SetDisplayName
+title: SetDisplayName(String displayName)
+intellisense: NSFieldInfoBase.SetDisplayName
+keywords: NSFieldInfoBase, GetDisplayName
+so.topic: reference
 ---
-title: Void SetDisplayName(String DisplayName)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetDisplayName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3475
-keywords: SetDisplayName(String)
----
-
 
 Label for field. May be multi-lang string encoded.
 
+**Parameter:** 
+ - **displayName** String
 
-
-* **DisplayName:** String
-* **Returns:** String
-
+```crmscript
+NSFieldInfoBase thing;
+String displayName;
+thing.SetDisplayName(displayName);
+```
 

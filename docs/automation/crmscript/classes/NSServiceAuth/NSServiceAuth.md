@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSServiceAuth
 title: NSServiceAuth
-path: /EJScript/Classes/NSServiceAuth
-intellisense: 1
-classref: 1
+intellisense: Void.NSServiceAuth
+keywords: NSServiceAuth
+so.topic: reference
 ---
 
 Properties for service authentication
 
-
-
-
-1. autolist
+1. autolist 
 

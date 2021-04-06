@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSControlInfo_GetLabel
 title: String GetLabel()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetLabel()
-intellisense: 1
-classref: 1
-sortOrder: 1997
-keywords: GetLabel()
+intellisense: NSControlInfo.GetLabel
+keywords: NSControlInfo, GetLabel
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSControlInfo thing;
+String label  = thing.GetLabel();
+```
 
 

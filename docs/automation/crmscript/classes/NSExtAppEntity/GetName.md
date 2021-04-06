@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 3374
-keywords: GetName()
+intellisense: NSExtAppEntity.GetName
+keywords: NSExtAppEntity, GetName
+so.topic: reference
 ---
-
 
 The name of the web panel
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSExtAppEntity thing;
+String name  = thing.GetName();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebAppUsage_SetAggregateBin
+title: SetAggregateBin(Integer aggregateBin)
+intellisense: NSWebAppUsage.SetAggregateBin
+keywords: NSWebAppUsage, GetAggregateBin
+so.topic: reference
 ---
-title: Void SetAggregateBin(Integer AggregateBin)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetAggregateBin(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAggregateBin(Integer)
----
-
 
 ??
 
+**Parameter:** 
+ - **aggregateBin** Integer
 
-
-* **AggregateBin:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWebAppUsage thing;
+Integer aggregateBin;
+thing.SetAggregateBin(aggregateBin);
+```
 

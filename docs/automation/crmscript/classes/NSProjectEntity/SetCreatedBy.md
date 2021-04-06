@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetCreatedBy
+title: SetCreatedBy(Associate createdBy)
+intellisense: NSProjectEntity.SetCreatedBy
+keywords: NSProjectEntity, GetCreatedBy
+so.topic: reference
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetCreatedBy(NSAssociate)
----
-
 
 The person that created the project
 
+**Parameter:** 
+ - **createdBy** Associate
 
-
-* **CreatedBy:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSProjectEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
 

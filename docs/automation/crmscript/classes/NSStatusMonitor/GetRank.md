@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatusMonitor_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSStatusMonitor.GetRank
+keywords: NSStatusMonitor, GetRank
+so.topic: reference
 ---
-
 
 Priority rank, in case more than one status is signalled. Lowest wins
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSStatusMonitor thing;
+Integer rank  = thing.GetRank();
+```
 
 

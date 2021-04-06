@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRelationDefinitionEntity_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSRelationDefinitionEntity.SetTooltip
+keywords: NSRelationDefinitionEntity, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
-
 
 Tooltip or other description
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSRelationDefinitionEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

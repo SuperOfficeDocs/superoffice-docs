@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetEmailId
 title: Integer GetEmailId()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetEmailId()
-intellisense: 1
-classref: 1
-keywords: GetEmailId()
+intellisense: NSSaleStakeholder.GetEmailId
+keywords: NSSaleStakeholder, GetEmailId
+so.topic: reference
 ---
-
 
 E-mail address id - Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleStakeholder thing;
+Integer emailId  = thing.GetEmailId();
+```
 
 

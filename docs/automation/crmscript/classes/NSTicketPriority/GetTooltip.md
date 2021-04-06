@@ -1,12 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSTicketPriority_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSTicketPriority/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSTicketPriority.GetTooltip
+keywords: NSTicketPriority, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the TicketPriority list item.
 
-* **Returns:** String
+**Returns:** String TicketPriority tooltip description.
+
+```crmscript
+NSTicketPriority thing;
+String descr = thing.GetTooltip();
+```
 
 

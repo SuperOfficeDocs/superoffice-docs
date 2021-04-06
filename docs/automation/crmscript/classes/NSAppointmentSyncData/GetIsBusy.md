@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetIsBusy
 title: Bool GetIsBusy()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Bool GetIsBusy()
-intellisense: 1
-classref: 1
-sortOrder: 1043
-keywords: GetIsBusy()
+intellisense: NSAppointmentSyncData.GetIsBusy
+keywords: NSAppointmentSyncData, GetIsBusy
+so.topic: reference
 ---
 
 
-* **Returns:** Bool
+
+**Returns:** Bool
+
+
+```crmscript
+NSAppointmentSyncData thing;
+Bool isBusy  = thing.GetIsBusy();
+```
 
 

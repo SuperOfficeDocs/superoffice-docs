@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContact_GetFormattedAddress
 title: String GetFormattedAddress()
-path: /EJScript/Classes/NSContact/Member functions/String GetFormattedAddress()
-intellisense: 1
-classref: 1
-sortOrder: 1734
-keywords: GetFormattedAddress()
+intellisense: NSContact.GetFormattedAddress
+keywords: NSContact, GetFormattedAddress
+so.topic: reference
 ---
-
 
 The contact's address, formatted with linebreaks and spaces into a single string.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContact thing;
+String formattedAddress  = thing.GetFormattedAddress();
+```
 
 

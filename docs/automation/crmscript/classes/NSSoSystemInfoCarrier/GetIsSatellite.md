@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsSatellite()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Bool GetIsSatellite()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_GetIsSatellite
+title: NSSoSystemInfoCarrier.GetIsSatellite()
+intellisense: NSSoSystemInfoCarrier.GetIsSatellite
 keywords: GetIsSatellite()
+so.topic: reference
 ---
 
 

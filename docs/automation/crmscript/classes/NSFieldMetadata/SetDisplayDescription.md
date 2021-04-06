@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldMetadata_SetDisplayDescription
+title: SetDisplayDescription(String displayDescription)
+intellisense: NSFieldMetadata.SetDisplayDescription
+keywords: NSFieldMetadata, GetDisplayDescription
+so.topic: reference
 ---
-title: Void SetDisplayDescription(String DisplayDescription)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetDisplayDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3587
-keywords: SetDisplayDescription(String)
----
-
 
 Tooltip for the field name.
 
+**Parameter:** 
+ - **displayDescription** String
 
-
-* **DisplayDescription:** String
-* **Returns:** String
-
+```crmscript
+NSFieldMetadata thing;
+String displayDescription;
+thing.SetDisplayDescription(displayDescription);
+```
 

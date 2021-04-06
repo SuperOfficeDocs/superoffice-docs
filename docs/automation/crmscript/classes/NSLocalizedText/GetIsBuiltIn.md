@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLocalizedText_GetIsBuiltIn
 title: Bool GetIsBuiltIn()
-path: /EJScript/Classes/NSLocalizedText/Member functions/Bool GetIsBuiltIn()
-intellisense: 1
-classref: 1
-keywords: GetIsBuiltIn()
+intellisense: NSLocalizedText.GetIsBuiltIn
+keywords: NSLocalizedText, GetIsBuiltIn
+so.topic: reference
 ---
-
 
 1 = this row is populated and maintained by SuperOffice
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSLocalizedText thing;
+Bool isBuiltIn  = thing.GetIsBuiltIn();
+```
 
 

@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_ExtraTable
 title: ExtraTable
-path: /EJScript/Classes/ExtraTable
-intellisense: 1
-classref: 1
+intellisense: Void.ExtraTable
 sortOrder: 316
+so.topic: reference
 ---
 
 A class to access eJournal extra tables - create, edit and delete entries.

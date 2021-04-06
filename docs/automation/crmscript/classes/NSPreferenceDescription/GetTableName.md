@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_GetTableName
 title: String GetTableName()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetTableName()
-intellisense: 1
-classref: 1
-keywords: GetTableName()
+intellisense: NSPreferenceDescription.GetTableName
+keywords: NSPreferenceDescription, GetTableName
+so.topic: reference
 ---
-
 
 If valueType = 5, then TableName contains the table referenced by the preference
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPreferenceDescription thing;
+String tableName  = thing.GetTableName();
+```
 
 

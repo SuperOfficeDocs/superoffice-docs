@@ -1,10 +1,10 @@
 ---
-title: Void setBlockExecution(Bool val)
-path: /EJScript/Classes/EventData/member functions/Void setBlockExecution(Bool val)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_EventData_setBlockExecution_Bool_val
+title: EventData.setBlockExecution(Bool val)
+intellisense: EventData.setBlockExecution
 sortOrder: 295
 keywords: setBlockExecution(Bool)
+so.topic: reference
 ---
 
 # Void setBlockExecution(Bool value)

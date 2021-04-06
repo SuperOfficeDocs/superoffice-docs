@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig_GetRegistered
 title: DateTime GetRegistered()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
-sortOrder: 2195
-keywords: GetRegistered()
+intellisense: NSCustomerCenterConfig.GetRegistered
+keywords: NSCustomerCenterConfig, GetRegistered
+so.topic: reference
 ---
-
 
 Registered when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSCustomerCenterConfig thing;
+DateTime registered  = thing.GetRegistered();
+```
 
 

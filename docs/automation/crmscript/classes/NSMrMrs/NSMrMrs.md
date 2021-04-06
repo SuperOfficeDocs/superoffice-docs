@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSMrMrs
 title: NSMrMrs
-path: /EJScript/Classes/NSMrMrs
-intellisense: 1
-classref: 1
+intellisense: Void.NSMrMrs
+keywords: NSMrMrs
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

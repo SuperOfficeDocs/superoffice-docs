@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyOrgNr(String p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetCompanyOrgNr(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_SetCompanyOrgNr_String_p_0
+title: NSSelectionMemberEditValues.SetCompanyOrgNr(String p_0)
+intellisense: NSSelectionMemberEditValues.SetCompanyOrgNr
 keywords: SetCompanyOrgNr(String)
+so.topic: reference
 ---
 
 

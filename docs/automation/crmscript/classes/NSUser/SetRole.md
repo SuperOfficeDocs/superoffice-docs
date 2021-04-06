@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_SetRole
+title: SetRole(Role role)
+intellisense: NSUser.SetRole
+keywords: NSUser, GetRole
+so.topic: reference
 ---
-title: Void SetRole(NSRole Role)
-path: /EJScript/Classes/NSUser/Member functions/Void SetRole(NSRole p_0)
-intellisense: 1
-classref: 1
-keywords: SetRole(NSRole)
----
-
 
 Users role for role-based security. Determines permissions and access rights for the user.
 
+**Parameter:** 
+ - **role** Role
 
-
-* **Role:** Role
-* **Returns:** Role
-
+```crmscript
+NSUser thing;
+Role role;
+thing.SetRole(role);
+```
 

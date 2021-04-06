@@ -1,9 +1,9 @@
 ---
 description: String getUsername(Integer userId)
-path: /EJScript/Global functions/String getUsername(Integer userId)
-intellisense: 1
+intellisense: Void.getUsername
 langref: 1
 keywords: getUsername(Integer)
+so.topic: reference
 ---
 
 

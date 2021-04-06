@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSViewStateAgent_GetHistories
+title: HistoryArray GetHistories()
+intellisense: NSViewStateAgent.GetHistories
+keywords: NSViewStateAgent, GetHistories
+so.topic: reference
 ---
-title: NSHistory[] GetHistories()
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] GetHistories()
-intellisense: 1
-classref: 1
-keywords: GetHistories()
----
-
 
 Returns all history items that belong to the currently logged in user
 
 
+**Returns:** Array of History items
 
-* **Returns:** Array of History items
-
+```crmscript
+NSViewStateAgent agent;
+HistoryArray res = agent.GetHistories();
+```
 

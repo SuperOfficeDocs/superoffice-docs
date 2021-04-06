@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteEntity_GetAcceptedQuoteAlternativeId
 title: Integer GetAcceptedQuoteAlternativeId()
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Integer GetAcceptedQuoteAlternativeId()
-intellisense: 1
-classref: 1
-keywords: GetAcceptedQuoteAlternativeId()
+intellisense: NSQuoteEntity.GetAcceptedQuoteAlternativeId
+keywords: NSQuoteEntity, GetAcceptedQuoteAlternativeId
+so.topic: reference
 ---
-
 
 The primary key of the Quote Alternative which was finally accepted by the customer. Set when the user is marking a quote as accepted.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteEntity thing;
+Integer acceptedQuoteAlternativeId  = thing.GetAcceptedQuoteAlternativeId();
+```
 
 

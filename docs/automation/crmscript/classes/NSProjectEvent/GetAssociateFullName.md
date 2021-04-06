@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEvent_GetAssociateFullName
 title: String GetAssociateFullName()
-path: /EJScript/Classes/NSProjectEvent/Member functions/String GetAssociateFullName()
-intellisense: 1
-classref: 1
-keywords: GetAssociateFullName()
+intellisense: NSProjectEvent.GetAssociateFullName
+keywords: NSProjectEvent, GetAssociateFullName
+so.topic: reference
 ---
-
 
 Name of the person that ows the event (i.e. project)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProjectEvent thing;
+String associateFullName  = thing.GetAssociateFullName();
+```
 
 

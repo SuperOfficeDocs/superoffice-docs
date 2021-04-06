@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSDocument/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 2438
-keywords: GetDescription()
+intellisense: NSDocument.GetDescription
+keywords: NSDocument, GetDescription
+so.topic: reference
 ---
-
 
 The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocument thing;
+String description  = thing.GetDescription();
+```
 
 

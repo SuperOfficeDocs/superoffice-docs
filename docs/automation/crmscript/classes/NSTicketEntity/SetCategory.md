@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetCategory
+title: SetCategory(TicketCategoryEntity category)
+intellisense: NSTicketEntity.SetCategory
+keywords: NSTicketEntity, GetCategory
+so.topic: reference
 ---
-title: Void SetCategory(NSTicketCategoryEntity Category)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetCategory(NSTicketCategoryEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SetCategory(NSTicketCategoryEntity)
----
-
 
 The ticket category entity which this ticket is connected to
 
+**Parameter:** 
+ - **category** TicketCategoryEntity
 
-
-* **Category:** TicketCategoryEntity
-* **Returns:** TicketCategoryEntity
-
+```crmscript
+NSTicketEntity thing;
+TicketCategoryEntity category;
+thing.SetCategory(category);
+```
 

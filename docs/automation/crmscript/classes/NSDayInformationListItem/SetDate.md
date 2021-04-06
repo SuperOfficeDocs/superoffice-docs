@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDayInformationListItem_SetDate
+title: SetDate(DateTime date)
+intellisense: NSDayInformationListItem.SetDate
+keywords: NSDayInformationListItem, GetDate
+so.topic: reference
 ---
-title: Void SetDate(DateTime Date)
-path: /EJScript/Classes/NSDayInformationListItem/Member functions/Void SetDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2362
-keywords: SetDate(DateTime)
----
-
 
 Date that this item is valid for; there is exactly one item per date, ordered by date.
 
+**Parameter:** 
+ - **date** DateTime
 
-
-* **Date:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSDayInformationListItem thing;
+DateTime date;
+thing.SetDate(date);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/Customer/Member functions/Integer save()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_save
+title: Customer.save()
+intellisense: Customer.save
 sortOrder: 182
 keywords: save()
+so.topic: reference
 ---
 
 Saves the customer. If id is set, then the customer will be updated, otherwise a new customer entry will be created.

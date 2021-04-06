@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSOutgoingMessage_GetFrom
 title: String GetFrom()
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/String GetFrom()
-intellisense: 1
-classref: 1
-keywords: GetFrom()
+intellisense: NSOutgoingMessage.GetFrom
+keywords: NSOutgoingMessage, GetFrom
+so.topic: reference
 ---
-
 
 Who the message is from.  This can vary from provider to provider and can for SMS typically be a phone number or a string.  This is mail address on the form of an e-mail.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSOutgoingMessage thing;
+String from  = thing.GetFrom();
+```
 
 

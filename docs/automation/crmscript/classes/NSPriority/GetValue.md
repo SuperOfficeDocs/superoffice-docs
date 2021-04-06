@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSPriority_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSPriority/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSPriority.GetValue
+keywords: NSPriority, GetValue
+so.topic: reference
 ---
 
+Get the name of the Priority.
 
-* **Returns:** String
+**Returns:** String Priority name.
 
+```crmscript
+NSPriority thing;
+String name = thing.GetValue();
+```
 

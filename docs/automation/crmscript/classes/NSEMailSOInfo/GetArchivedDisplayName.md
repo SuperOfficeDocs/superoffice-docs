@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_GetArchivedDisplayName
 title: String GetArchivedDisplayName()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/String GetArchivedDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 3051
-keywords: GetArchivedDisplayName()
+intellisense: NSEMailSOInfo.GetArchivedDisplayName
+keywords: NSEMailSOInfo, GetArchivedDisplayName
+so.topic: reference
 ---
-
 
 The full name of the associate who archived this email
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailSOInfo thing;
+String archivedDisplayName  = thing.GetArchivedDisplayName();
+```
 
 

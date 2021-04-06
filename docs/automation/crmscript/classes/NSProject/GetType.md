@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetType
 title: String GetType()
-path: /EJScript/Classes/NSProject/Member functions/String GetType()
-intellisense: 1
-classref: 1
-keywords: GetType()
+intellisense: NSProject.GetType
+keywords: NSProject, GetType
+so.topic: reference
 ---
-
 
 The project type.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProject thing;
+String type  = thing.GetType();
+```
 
 

@@ -1,10 +1,10 @@
 ---
-title: DateTime GetDate()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/DateTime GetDate()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_GetDate
+title: NSAAAMockAgent.GetDate()
+intellisense: NSAAAMockAgent.GetDate
 sortOrder: 8886
 keywords: GetDate()
+so.topic: reference
 ---
 
 

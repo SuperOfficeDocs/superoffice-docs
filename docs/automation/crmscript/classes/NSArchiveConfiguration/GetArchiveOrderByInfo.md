@@ -1,13 +1,19 @@
----
-title: NSArchiveOrderByInfo[] GetArchiveOrderByInfo()
-path: /EJScript/Classes/NSArchiveConfiguration/Member functions/NSArchiveOrderByInfo[] GetArchiveOrderByInfo()
-intellisense: 1
-classref: 1
-sortOrder: 1169
-keywords: GetArchiveOrderByInfo()
+﻿---
+uid: crmscript_ref_NSArchiveConfiguration_GetArchiveOrderByInfo
+title: ArchiveOrderByInfoArray GetArchiveOrderByInfo()
+intellisense: NSArchiveConfiguration.GetArchiveOrderByInfo
+keywords: NSArchiveConfiguration, GetArchiveOrderByInfo
+so.topic: reference
 ---
 
 
-* **Returns:** ArchiveOrderByInfoArray
+
+**Returns:** ArchiveOrderByInfoArray
+
+
+```crmscript
+NSArchiveConfiguration thing;
+ArchiveOrderByInfoArray archiveOrderByInfo  = thing.GetArchiveOrderByInfo();
+```
 
 

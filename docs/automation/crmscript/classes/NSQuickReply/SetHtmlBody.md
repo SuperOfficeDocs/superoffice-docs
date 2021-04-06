@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuickReply_SetHtmlBody
+title: SetHtmlBody(String htmlBody)
+intellisense: NSQuickReply.SetHtmlBody
+keywords: NSQuickReply, GetHtmlBody
+so.topic: reference
 ---
-title: Void SetHtmlBody(String HtmlBody)
-path: /EJScript/Classes/NSQuickReply/Member functions/Void SetHtmlBody(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetHtmlBody(String)
----
-
 
 The html body of the quick reply
 
+**Parameter:** 
+ - **htmlBody** String
 
-
-* **HtmlBody:** String
-* **Returns:** String
-
+```crmscript
+NSQuickReply thing;
+String htmlBody;
+thing.SetHtmlBody(htmlBody);
+```
 

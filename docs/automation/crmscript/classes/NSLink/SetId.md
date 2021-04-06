@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLink_SetId
+title: SetId(Integer id)
+intellisense: NSLink.SetId
+keywords: NSLink, GetId
+so.topic: reference
 ---
-title: Void SetId(Integer Id)
-path: /EJScript/Classes/NSLink/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
-
 
 Id of the entity the link points to (The destination/target entity primary key)
 
+**Parameter:** 
+ - **id** Integer
 
-
-* **Id:** Integer
-* **Returns:** Void
-
+```crmscript
+NSLink thing;
+Integer id;
+thing.SetId(id);
+```
 

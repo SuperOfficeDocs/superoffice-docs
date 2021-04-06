@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetOnSatellite
+title: SetOnSatellite(Bool onSatellite)
+intellisense: NSExtAppEntity.SetOnSatellite
+keywords: NSExtAppEntity, GetOnSatellite
+so.topic: reference
 ---
-title: Void SetOnSatellite(Bool OnSatellite)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetOnSatellite(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3387
-keywords: SetOnSatellite(Bool)
----
-
 
 Is the application visible when user is on a satellite
 
+**Parameter:** 
+ - **onSatellite** Bool
 
-
-* **OnSatellite:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSExtAppEntity thing;
+Bool onSatellite;
+thing.SetOnSatellite(onSatellite);
+```
 

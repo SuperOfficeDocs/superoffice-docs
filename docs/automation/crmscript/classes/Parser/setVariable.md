@@ -1,9 +1,9 @@
 ---
-title: Void setVariable(String name, String value)
-path: /EJScript/Classes/Parser/Member functions/Void setVariable(String name, String value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Parser_setVariable_String_name_String_value
+title: Parser.setVariable(String name, String value)
+intellisense: Parser.setVariable
 keywords: setVariable(String,String)
+so.topic: reference
 ---
 
 

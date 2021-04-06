@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSExtendedLicenseInfo
 title: NSExtendedLicenseInfo
-path: /EJScript/Classes/NSExtendedLicenseInfo
-intellisense: 1
-classref: 1
-sortOrder: 3401
+intellisense: Void.NSExtendedLicenseInfo
+keywords: NSExtendedLicenseInfo
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

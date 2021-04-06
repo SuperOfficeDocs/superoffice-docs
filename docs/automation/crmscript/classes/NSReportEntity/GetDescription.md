@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportEntity_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSReportEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSReportEntity.GetDescription
+keywords: NSReportEntity, GetDescription
+so.topic: reference
 ---
-
 
 The description of the report.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSReportEntity thing;
+String description  = thing.GetDescription();
+```
 
 

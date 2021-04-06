@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebAppUsage_SetAssocId
+title: SetAssocId(Integer assocId)
+intellisense: NSWebAppUsage.SetAssocId
+keywords: NSWebAppUsage, GetAssocId
+so.topic: reference
 ---
-title: Void SetAssocId(Integer AssocId)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetAssocId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssocId(Integer)
----
-
 
 Associate Id
 
+**Parameter:** 
+ - **assocId** Integer
 
-
-* **AssocId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWebAppUsage thing;
+Integer assocId;
+thing.SetAssocId(assocId);
+```
 

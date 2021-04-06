@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetPersonId
 title: Integer GetPersonId()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
-keywords: GetPersonId()
+intellisense: NSSaleStakeholder.GetPersonId
+keywords: NSSaleStakeholder, GetPersonId
+so.topic: reference
 ---
-
 
 Person id - Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleStakeholder thing;
+Integer personId  = thing.GetPersonId();
+```
 
 

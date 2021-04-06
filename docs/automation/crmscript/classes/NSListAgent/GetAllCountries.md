@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetAllCountries
+title: CountryArray GetAllCountries(Bool includeDeleted)
+intellisense: NSListAgent.GetAllCountries
+keywords: NSListAgent, GetAllCountries
+so.topic: reference
 ---
-title: NSCountry[] GetAllCountries(Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry[] GetAllCountries(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: GetAllCountries(Bool)
----
-
 
 Returns all available countries a contact or person could belong to.
 
+**Parameters:**
+ - **includeDeleted** Include deleted items in result?
 
+**Returns:** An array of all available countries
 
-* **includeDeleted:** Include deleted items in result?
-* **Returns:** An array of all available countries
-
+```crmscript
+NSListAgent agent;
+Bool includeDeleted;
+CountryArray res = agent.GetAllCountries(includeDeleted);
+```
 

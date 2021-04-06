@@ -1,12 +1,19 @@
----
-title: NSEntityElement[] GetInternetPhones()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetInternetPhones()
-intellisense: 1
-classref: 1
-keywords: GetInternetPhones()
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetInternetPhones
+title: EntityElementArray GetInternetPhones()
+intellisense: NSPersonEntity.GetInternetPhones
+keywords: NSPersonEntity, GetInternetPhones
+so.topic: reference
 ---
 
 
-* **Returns:** EntityElementArray
+
+**Returns:** EntityElementArray
+
+
+```crmscript
+NSPersonEntity thing;
+EntityElementArray internetPhones  = thing.GetInternetPhones();
+```
 
 

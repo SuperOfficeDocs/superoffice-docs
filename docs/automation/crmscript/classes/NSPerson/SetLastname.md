@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetLastname
+title: SetLastname(String lastname)
+intellisense: NSPerson.SetLastname
+keywords: NSPerson, GetLastname
+so.topic: reference
 ---
-title: Void SetLastname(String Lastname)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetLastname(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetLastname(String)
----
-
 
 Last name
 
+**Parameter:** 
+ - **lastname** String
 
-
-* **Lastname:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String lastname;
+thing.SetLastname(lastname);
+```
 

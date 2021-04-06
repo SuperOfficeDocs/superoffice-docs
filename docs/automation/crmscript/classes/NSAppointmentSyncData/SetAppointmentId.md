@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetAppointmentId
+title: SetAppointmentId(Integer appointmentId)
+intellisense: NSAppointmentSyncData.SetAppointmentId
+keywords: NSAppointmentSyncData, GetAppointmentId
+so.topic: reference
 ---
-title: Void SetAppointmentId(Integer AppointmentId)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetAppointmentId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1067
-keywords: SetAppointmentId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **appointmentId** Integer
 
-
-* **AppointmentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointmentSyncData thing;
+Integer appointmentId;
+thing.SetAppointmentId(appointmentId);
+```
 

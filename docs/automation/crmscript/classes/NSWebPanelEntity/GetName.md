@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSWebPanelEntity.GetName
+keywords: NSWebPanelEntity, GetName
+so.topic: reference
 ---
-
 
 The name of the web panel
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSWebPanelEntity thing;
+String name  = thing.GetName();
+```
 
 

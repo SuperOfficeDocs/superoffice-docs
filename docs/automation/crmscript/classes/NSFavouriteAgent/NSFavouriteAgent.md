@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSFavouriteAgent
 title: NSFavouriteAgent
-path: /EJScript/Classes/NSFavouriteAgent
-intellisense: 1
-classref: 1
-sortOrder: 3445
+intellisense: Void.NSFavouriteAgent
+keywords: NSFavouriteAgent
+so.topic: reference
 ---
-
 
 Agent used for retrieveing and setting favourites
 
-
-
+```crmscript
+NSFavouriteAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

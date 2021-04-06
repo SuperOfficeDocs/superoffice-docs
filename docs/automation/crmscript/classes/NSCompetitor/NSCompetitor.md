@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCompetitor
 title: NSCompetitor
-path: /EJScript/Classes/NSCompetitor
-intellisense: 1
-classref: 1
-sortOrder: 1578
+intellisense: Void.NSCompetitor
+keywords: NSCompetitor
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

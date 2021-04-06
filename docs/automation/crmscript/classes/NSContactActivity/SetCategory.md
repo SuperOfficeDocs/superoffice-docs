@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactActivity_SetCategory
+title: SetCategory(String category)
+intellisense: NSContactActivity.SetCategory
+keywords: NSContactActivity, GetCategory
+so.topic: reference
 ---
-title: Void SetCategory(String Category)
-path: /EJScript/Classes/NSContactActivity/Member functions/Void SetCategory(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1787
-keywords: SetCategory(String)
----
-
 
 The contact category.
 
+**Parameter:** 
+ - **category** String
 
-
-* **Category:** String
-* **Returns:** String
-
+```crmscript
+NSContactActivity thing;
+String category;
+thing.SetCategory(category);
+```
 

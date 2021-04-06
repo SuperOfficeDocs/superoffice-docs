@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitor_SetGenerationStart
+title: SetGenerationStart(DateTime generationStart)
+intellisense: NSStatusMonitor.SetGenerationStart
+keywords: NSStatusMonitor, GetGenerationStart
+so.topic: reference
 ---
-title: Void SetGenerationStart(DateTime GenerationStart)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetGenerationStart(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetGenerationStart(DateTime)
----
-
 
 When was the last regeneration started
 
+**Parameter:** 
+ - **generationStart** DateTime
 
-
-* **GenerationStart:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSStatusMonitor thing;
+DateTime generationStart;
+thing.SetGenerationStart(generationStart);
+```
 

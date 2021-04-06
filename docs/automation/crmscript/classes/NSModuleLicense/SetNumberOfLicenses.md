@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicense_SetNumberOfLicenses
+title: SetNumberOfLicenses(Integer numberOfLicenses)
+intellisense: NSModuleLicense.SetNumberOfLicenses
+keywords: NSModuleLicense, GetNumberOfLicenses
+so.topic: reference
 ---
-title: Void SetNumberOfLicenses(Integer NumberOfLicenses)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetNumberOfLicenses(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetNumberOfLicenses(Integer)
----
-
 
 Number of licenses purchased.
 
+**Parameter:** 
+ - **numberOfLicenses** Integer
 
-
-* **NumberOfLicenses:** Integer
-* **Returns:** Void
-
+```crmscript
+NSModuleLicense thing;
+Integer numberOfLicenses;
+thing.SetNumberOfLicenses(numberOfLicenses);
+```
 

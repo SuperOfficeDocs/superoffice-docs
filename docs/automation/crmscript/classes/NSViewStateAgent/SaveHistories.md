@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSViewStateAgent_SaveHistories
+title: HistoryArray SaveHistories(String historyName, HistoryArray history)
+intellisense: NSViewStateAgent.SaveHistories
+keywords: NSViewStateAgent, SaveHistories
+so.topic: reference
 ---
-title: NSHistory[] SaveHistories(String p0, NSHistory[] history)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] SaveHistories(String p_0, NSHistory[] p_1)
-intellisense: 1
-classref: 1
-keywords: SaveHistories(String,NSHistory[])
----
-
 
 Replaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.
 
+**Parameters:**
+ - **historyName** 
+ - **history** Array of new history items to save.
 
+**Returns:** Array of the saved History items
 
-* **historyName
-\param** p1 history: Array of new history items to save.
-* **Returns:** Array of the saved History items
-
+```crmscript
+NSViewStateAgent agent;
+String historyName;
+HistoryArray history;
+HistoryArray res = agent.SaveHistories(historyName, history);
+```
 

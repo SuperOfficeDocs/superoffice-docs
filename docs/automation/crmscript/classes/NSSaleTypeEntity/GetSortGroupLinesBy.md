@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_GetSortGroupLinesBy
 title: Integer GetSortGroupLinesBy()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetSortGroupLinesBy()
-intellisense: 1
-classref: 1
-keywords: GetSortGroupLinesBy()
+intellisense: NSSaleTypeEntity.GetSortGroupLinesBy
+keywords: NSSaleTypeEntity, GetSortGroupLinesBy
+so.topic: reference
 ---
-
 
 Sort group lines by this field
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleTypeEntity thing;
+Integer sortGroupLinesBy  = thing.GetSortGroupLinesBy();
+```
 
 

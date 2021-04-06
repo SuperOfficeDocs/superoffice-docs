@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetSaleName
 title: String GetSaleName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetSaleName()
-intellisense: 1
-classref: 1
-sortOrder: 666
-keywords: GetSaleName()
+intellisense: NSAlarmData.GetSaleName
+keywords: NSAlarmData, GetSaleName
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSAlarmData thing;
+String saleName  = thing.GetSaleName();
+```
 
 

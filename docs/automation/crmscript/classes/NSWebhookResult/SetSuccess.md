@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebhookResult_SetSuccess
+title: SetSuccess(Bool success)
+intellisense: NSWebhookResult.SetSuccess
+keywords: NSWebhookResult, GetSuccess
+so.topic: reference
 ---
-title: Void SetSuccess(Bool Success)
-path: /EJScript/Classes/NSWebhookResult/Member functions/Void SetSuccess(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSuccess(Bool)
----
-
 
 Was call to webhook successful? (200 OK)
 
+**Parameter:** 
+ - **success** Bool
 
-
-* **Success:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSWebhookResult thing;
+Bool success;
+thing.SetSuccess(success);
+```
 

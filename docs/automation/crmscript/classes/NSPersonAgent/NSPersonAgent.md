@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSPersonAgent
 title: NSPersonAgent
-path: /EJScript/Classes/NSPersonAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSPersonAgent
+keywords: NSPersonAgent
+so.topic: reference
 ---
-
 
 Person data services.
 
-
-
+```crmscript
+NSPersonAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

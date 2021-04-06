@@ -1,20 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportEntity_GetReportId
 title: Integer GetReportId()
-path: /EJScript/Classes/NSReportEntity/Member functions/Integer GetReportId()
-intellisense: 1
-classref: 1
-keywords: GetReportId()
+intellisense: NSReportEntity.GetReportId
+keywords: NSReportEntity, GetReportId
+so.topic: reference
 ---
 
+The id of the report. 
 
-The id of the report.
-
-
-    	///
-    
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSReportEntity thing;
+Integer reportId  = thing.GetReportId();
+```
 
 

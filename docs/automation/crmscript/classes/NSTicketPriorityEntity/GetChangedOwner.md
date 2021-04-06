@@ -1,16 +1,23 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetChangedOwner
+title: TicketPriorityEscalateEvent GetChangedOwner()
+intellisense: NSTicketPriorityEntity.GetChangedOwner
+keywords: NSTicketPriorityEntity, GetChangedOwner
+so.topic: reference
 ---
-title: NSTicketPriorityEscalateEvent GetChangedOwner()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityEscalateEvent GetChangedOwner()
-intellisense: 1
-classref: 1
-keywords: GetChangedOwner()
----
-
 
 This field indicates what to do with the escalation chain when the request changes owner (manually)
 
+**Returns:** TicketPriorityEscalateEvent
 
+     - Enum: -1 = None 
+     - Enum: 0 = Stop 
+     - Enum: 1 = Continue 
+     - Enum: 2 = Restart 
 
-* **Returns:** TicketPriorityEscalateEvent
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityEscalateEvent changedOwner  = thing.GetChangedOwner();
+```
 
 

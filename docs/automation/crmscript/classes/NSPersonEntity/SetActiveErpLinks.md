@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetActiveErpLinks
+title: SetActiveErpLinks(Integer activeErpLinks)
+intellisense: NSPersonEntity.SetActiveErpLinks
+keywords: NSPersonEntity, GetActiveErpLinks
+so.topic: reference
 ---
-title: Void SetActiveErpLinks(Integer ActiveErpLinks)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetActiveErpLinks(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetActiveErpLinks(Integer)
----
-
 
 How many active ERP links are there for this person?
 
+**Parameter:** 
+ - **activeErpLinks** Integer
 
-
-* **ActiveErpLinks:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPersonEntity thing;
+Integer activeErpLinks;
+thing.SetActiveErpLinks(activeErpLinks);
+```
 

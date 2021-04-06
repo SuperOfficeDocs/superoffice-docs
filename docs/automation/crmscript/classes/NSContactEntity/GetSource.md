@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity_GetSource
 title: Integer GetSource()
-path: /EJScript/Classes/NSContactEntity/Member functions/Integer GetSource()
-intellisense: 1
-classref: 1
-sortOrder: 1845
-keywords: GetSource()
+intellisense: NSContactEntity.GetSource
+keywords: NSContactEntity, GetSource
+so.topic: reference
 ---
-
 
 How did we get this contact? For future integration needs
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSContactEntity thing;
+Integer source  = thing.GetSource();
+```
 
 

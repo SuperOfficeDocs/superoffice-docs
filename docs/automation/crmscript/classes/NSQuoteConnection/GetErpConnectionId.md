@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteConnection_GetErpConnectionId
 title: Integer GetErpConnectionId()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Integer GetErpConnectionId()
-intellisense: 1
-classref: 1
-keywords: GetErpConnectionId()
+intellisense: NSQuoteConnection.GetErpConnectionId
+keywords: NSQuoteConnection, GetErpConnectionId
+so.topic: reference
 ---
-
 
 The ERP Connection that this Quote connection is an extension of
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteConnection thing;
+Integer erpConnectionId  = thing.GetErpConnectionId();
+```
 
 

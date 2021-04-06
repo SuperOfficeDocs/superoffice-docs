@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetMaxSubmits
+title: SetMaxSubmits(Integer maxSubmits)
+intellisense: NSFormEntity.SetMaxSubmits
+keywords: NSFormEntity, GetMaxSubmits
+so.topic: reference
 ---
-title: Void SetMaxSubmits(Integer MaxSubmits)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetMaxSubmits(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3815
-keywords: SetMaxSubmits(Integer)
----
-
 
 After this number of submits, the form will become inactive
 
+**Parameter:** 
+ - **maxSubmits** Integer
 
-
-* **MaxSubmits:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFormEntity thing;
+Integer maxSubmits;
+thing.SetMaxSubmits(maxSubmits);
+```
 

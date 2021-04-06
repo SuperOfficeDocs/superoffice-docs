@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSForeignKey_GetRecordId
 title: Integer GetRecordId()
-path: /EJScript/Classes/NSForeignKey/Member functions/Integer GetRecordId()
-intellisense: 1
-classref: 1
-sortOrder: 3736
-keywords: GetRecordId()
+intellisense: NSForeignKey.GetRecordId
+keywords: NSForeignKey, GetRecordId
+so.topic: reference
 ---
-
 
 Record in the referenced table
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSForeignKey thing;
+Integer recordId  = thing.GetRecordId();
+```
 
 

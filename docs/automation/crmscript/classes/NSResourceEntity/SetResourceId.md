@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResourceEntity_SetResourceId
+title: SetResourceId(Integer resourceId)
+intellisense: NSResourceEntity.SetResourceId
+keywords: NSResourceEntity, GetResourceId
+so.topic: reference
 ---
-title: Void SetResourceId(Integer ResourceId)
-path: /EJScript/Classes/NSResourceEntity/Member functions/Void SetResourceId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetResourceId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **resourceId** Integer
 
-
-* **ResourceId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSResourceEntity thing;
+Integer resourceId;
+thing.SetResourceId(resourceId);
+```
 

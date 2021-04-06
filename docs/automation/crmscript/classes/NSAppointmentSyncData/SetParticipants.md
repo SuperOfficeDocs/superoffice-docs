@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetParticipants
+title: SetParticipants(ParticipantSyncDataArray participants)
+intellisense: NSAppointmentSyncData.SetParticipants
+keywords: NSAppointmentSyncData, GetParticipants
+so.topic: reference
 ---
-title: Void SetParticipants(NSParticipantSyncData[] Participants)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetParticipants(NSParticipantSyncData[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1082
-keywords: SetParticipants(NSParticipantSyncData[])
----
 
 
-* **Participants:** ParticipantSyncDataArray
-* **Returns:** ParticipantSyncDataArray
 
+**Parameter:** 
+ - **participants** ParticipantSyncDataArray
+
+```crmscript
+NSAppointmentSyncData thing;
+ParticipantSyncDataArray participants;
+thing.SetParticipants(participants);
+```
 

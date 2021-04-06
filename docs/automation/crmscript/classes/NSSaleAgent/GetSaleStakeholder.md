@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_GetSaleStakeholder
+title: NSSaleStakeholder GetSaleStakeholder(Integer saleStakeholderId);
+intellisense: NSSaleAgent.GetSaleStakeholder
+keywords: NSSaleAgent, GetSaleStakeholder
+so.topic: reference
 ---
-title: NSSaleStakeholder GetSaleStakeholder(Integer saleStakeholderId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleStakeholder GetSaleStakeholder(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSaleStakeholder(Integer)
----
 
+Gets a NSSaleStakeholder object.
 
-Gets a SaleStakeholder object.
+**Parameters:**
+ - **saleStakeholderId** The identifier of the NSSaleStakeholder object
 
+**Returns:** NSSaleStakeholder
 
-
-* **saleStakeholderId:** The identifier of the SaleStakeholder object
-* **Returns:** SaleStakeholder
-
+```crmscript
+NSSaleAgent agent;
+NSSaleStakeholder thing = agent.GetSaleStakeholder(123);
+```
 

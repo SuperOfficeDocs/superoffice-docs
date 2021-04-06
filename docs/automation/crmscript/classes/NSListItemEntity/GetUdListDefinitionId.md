@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSListItemEntity_GetUdListDefinitionId
 title: Integer GetUdListDefinitionId()
-path: /EJScript/Classes/NSListItemEntity/Member functions/Integer GetUdListDefinitionId()
-intellisense: 1
-classref: 1
-keywords: GetUdListDefinitionId()
+intellisense: NSListItemEntity.GetUdListDefinitionId
+keywords: NSListItemEntity, GetUdListDefinitionId
+so.topic: reference
 ---
-
 
 The id of the list which this list item belongs to
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSListItemEntity thing;
+Integer udListDefinitionId  = thing.GetUdListDefinitionId();
+```
 
 

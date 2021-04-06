@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_GetAddress
+title: Address GetAddress(Integer personId)
+intellisense: NSPersonAgent.GetAddress
+keywords: NSPersonAgent, GetAddress
+so.topic: reference
 ---
-title: NSAddress GetAddress(Integer personId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSAddress GetAddress(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetAddress(Integer)
----
-
 
 Gets the person's localized address.
 
+**Parameters:**
+ - **personId** The person id
 
+**Returns:** The address as LocalizedField[][].
 
-* **personId:** The person id
-* **Returns:** The address as LocalizedField[][].
-
+```crmscript
+NSPersonAgent agent;
+Integer personId;
+Address res = agent.GetAddress(personId);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetDescription
+title: SetDescription(String description)
+intellisense: NSPerson.SetDescription
+keywords: NSPerson, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
 
+Info text/description on person. 
 
-Info text/description on person.
+**Parameter:** 
+ - **description** String
 
-
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String description;
+thing.SetDescription(description);
+```
 

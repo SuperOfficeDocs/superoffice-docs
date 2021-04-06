@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_SetIsIndexed
+title: SetIsIndexed(Bool isIndexed)
+intellisense: NSFieldInfoBase.SetIsIndexed
+keywords: NSFieldInfoBase, GetIsIndexed
+so.topic: reference
 ---
-title: Void SetIsIndexed(Bool IsIndexed)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetIsIndexed(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3481
-keywords: SetIsIndexed(Bool)
----
-
 
 Is this field indexed? 0 if no, index no. if yes
 
+**Parameter:** 
+ - **isIndexed** Bool
 
-
-* **IsIndexed:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldInfoBase thing;
+Bool isIndexed;
+thing.SetIsIndexed(isIndexed);
+```
 

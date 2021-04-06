@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetSize
+title: SetSize(Integer size)
+intellisense: NSEMailEntity.SetSize
+keywords: NSEMailEntity, GetSize
+so.topic: reference
 ---
-title: Void SetSize(Integer Size)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetSize(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2997
-keywords: SetSize(Integer)
----
-
 
 Total size of the e-mail
 
+**Parameter:** 
+ - **size** Integer
 
-
-* **Size:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailEntity thing;
+Integer size;
+thing.SetSize(size);
+```
 

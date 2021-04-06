@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLanguageInfo_GetEnglishName
 title: String GetEnglishName()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/String GetEnglishName()
-intellisense: 1
-classref: 1
-sortOrder: 4003
-keywords: GetEnglishName()
+intellisense: NSLanguageInfo.GetEnglishName
+keywords: NSLanguageInfo, GetEnglishName
+so.topic: reference
 ---
-
 
 English name of this language (Norwegian)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLanguageInfo thing;
+String englishName  = thing.GetEnglishName();
+```
 
 

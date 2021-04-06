@@ -1,16 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetLocalizedTextList
+title: NSLocalizedText[] GetLocalizedTextList(Integer[]  localizedTextIds);
+intellisense: NSListAgent.GetLocalizedTextList
+keywords: NSListAgent, GetLocalizedTextList
+so.topic: reference
 ---
-title: NSLocalizedText[] GetLocalizedTextList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLocalizedText[] GetLocalizedTextList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetLocalizedTextList(Integer[])
----
 
-Gets an array of LocalizedText objects.
+Gets a vector of LocalizedText objects.
 
+**Parameters:**
+ - **localizedTextIds** The identifiers of the NSLocalizedText objects
 
+**Returns:** Vector of NSLocalizedText objects
 
-* **p0:** IntegerArray of identifiers for LocalizedText
-* **Returns:** Array of NSLocalizedText
-
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetLocalizedTextList(ids);
+```
 

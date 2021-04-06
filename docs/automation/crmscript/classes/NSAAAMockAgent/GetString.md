@@ -1,10 +1,10 @@
 ---
-title: String GetString()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/String GetString()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_GetString
+title: NSAAAMockAgent.GetString()
+intellisense: NSAAAMockAgent.GetString
 sortOrder: 8897
 keywords: GetString()
+so.topic: reference
 ---
 
 

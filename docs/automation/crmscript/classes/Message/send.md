@@ -1,10 +1,10 @@
 ---
-title: Bool send(Vector p\_to, Vector p\_cc, Vector p\_bcc, Integer p\_categoryId)
-path: /EJScript/Classes/Message/Member functions/Bool send(Vector p_to, Vector p_cc, Vector p_bcc, Integer p_categoryId)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Message_send_Vector_p_to_Vector_p_cc_Vector_p_bcc_Integer_p_categoryId
+title: Message.send(Vector p_to, Vector p_cc, Vector p_bcc, Integer p_categoryId)
+intellisense: Message.send
 sortOrder: 542
 keywords: send(Vector,Vector,Vector,Integer)
+so.topic: reference
 ---
 
 Sends an e-mail-version of the message to the main contacts on the parent ticket.

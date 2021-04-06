@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_GetMailSubject
 title: String GetMailSubject()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetMailSubject()
-intellisense: 1
-classref: 1
-keywords: GetMailSubject()
+intellisense: NSQuotePublishDocuments.GetMailSubject
+keywords: NSQuotePublishDocuments, GetMailSubject
+so.topic: reference
 ---
 
+The string that is the mail subject; done by merging the text resource SR_QUOTE_PUBLISH_MAILHEADING with the current template variable values
 
-The string that is the mail subject; done by merging the text resource SR\_QUOTE_PUBLISH\_MAILHEADING with the current template variable values
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSQuotePublishDocuments thing;
+String mailSubject  = thing.GetMailSubject();
+```
 
 

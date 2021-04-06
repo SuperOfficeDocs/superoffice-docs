@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailAppointment_SetSequence
+title: SetSequence(Integer sequence)
+intellisense: NSEMailAppointment.SetSequence
+keywords: NSEMailAppointment, GetSequence
+so.topic: reference
 ---
-title: Void SetSequence(Integer Sequence)
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Void SetSequence(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2888
-keywords: SetSequence(Integer)
----
-
 
 Sequence number in ICS file.
 
+**Parameter:** 
+ - **sequence** Integer
 
-
-* **Sequence:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailAppointment thing;
+Integer sequence;
+thing.SetSequence(sequence);
+```
 

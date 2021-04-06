@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetSuggestedAppointmentId
+title: SetSuggestedAppointmentId(Integer suggestedAppointmentId)
+intellisense: NSSuggestedAppointment.SetSuggestedAppointmentId
+keywords: NSSuggestedAppointment, GetSuggestedAppointmentId
+so.topic: reference
 ---
-title: Void SetSuggestedAppointmentId(Integer SuggestedAppointmentId)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetSuggestedAppointmentId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSuggestedAppointmentId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **suggestedAppointmentId** Integer
 
-
-* **SuggestedAppointmentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedAppointment thing;
+Integer suggestedAppointmentId;
+thing.SetSuggestedAppointmentId(suggestedAppointmentId);
+```
 

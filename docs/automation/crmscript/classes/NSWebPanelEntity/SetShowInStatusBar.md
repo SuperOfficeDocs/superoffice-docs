@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetShowInStatusBar
+title: SetShowInStatusBar(Bool showInStatusBar)
+intellisense: NSWebPanelEntity.SetShowInStatusBar
+keywords: NSWebPanelEntity, GetShowInStatusBar
+so.topic: reference
 ---
-title: Void SetShowInStatusBar(Bool ShowInStatusBar)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetShowInStatusBar(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetShowInStatusBar(Bool)
----
-
 
 Does the webpanel have a status bar
 
+**Parameter:** 
+ - **showInStatusBar** Bool
 
-
-* **ShowInStatusBar:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSWebPanelEntity thing;
+Bool showInStatusBar;
+thing.SetShowInStatusBar(showInStatusBar);
+```
 

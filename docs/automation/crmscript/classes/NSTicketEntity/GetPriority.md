@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetPriority
+title: TicketPriorityEntity GetPriority()
+intellisense: NSTicketEntity.GetPriority
+keywords: NSTicketEntity, GetPriority
+so.topic: reference
 ---
-title: NSTicketPriorityEntity GetPriority()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSTicketPriorityEntity GetPriority()
-intellisense: 1
-classref: 1
-keywords: GetPriority()
----
-
 
 The ticket priority entity which this ticket is connected to
 
+**Returns:** TicketPriorityEntity
 
 
-* **Returns:** TicketPriorityEntity
+```crmscript
+NSTicketEntity thing;
+TicketPriorityEntity priority  = thing.GetPriority();
+```
 
 

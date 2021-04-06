@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetSubscriptionUnit
+title: SetSubscriptionUnit(String subscriptionUnit)
+intellisense: NSQuoteLine.SetSubscriptionUnit
+keywords: NSQuoteLine, GetSubscriptionUnit
+so.topic: reference
 ---
-title: Void SetSubscriptionUnit(String SubscriptionUnit)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetSubscriptionUnit(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSubscriptionUnit(String)
----
-
 
 Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit.
 
+**Parameter:** 
+ - **subscriptionUnit** String
 
-
-* **SubscriptionUnit:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLine thing;
+String subscriptionUnit;
+thing.SetSubscriptionUnit(subscriptionUnit);
+```
 

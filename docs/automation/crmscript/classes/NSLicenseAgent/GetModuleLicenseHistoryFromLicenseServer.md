@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSLicenseAgent_GetModuleLicenseHistoryFromLicenseServer
+title: String GetModuleLicenseHistoryFromLicenseServer(ExtendedLicenseInfo licenseInfo, ExtendedModuleLicense moduleLicense)
+intellisense: NSLicenseAgent.GetModuleLicenseHistoryFromLicenseServer
+keywords: NSLicenseAgent, GetModuleLicenseHistoryFromLicenseServer
+so.topic: reference
 ---
-title: String GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo licenseInfo, NSExtendedModuleLicense moduleLicense)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/String GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo p_0, NSExtendedModuleLicense p_1)
-intellisense: 1
-classref: 1
-keywords: GetModuleLicenseHistoryFromLicenseServer(NSExtendedLicenseInfo,NSExtendedModuleLicense)
----
-
 
 Get details about a license from the license server.
 
+**Parameters:**
+ - **licenseInfo** Description of the license
+ - **moduleLicense** Information about a particular module to get information for.
 
+**Returns:** Information about a particular license module.
 
-* **licenseInfo:** Description of the license
-* **moduleLicense:** Information about a particular module to get information for.
-* **Returns:** Information about a particular license module.
-
+```crmscript
+NSLicenseAgent agent;
+ExtendedLicenseInfo licenseInfo;
+ExtendedModuleLicense moduleLicense;
+String res = agent.GetModuleLicenseHistoryFromLicenseServer(licenseInfo, moduleLicense);
+```
 

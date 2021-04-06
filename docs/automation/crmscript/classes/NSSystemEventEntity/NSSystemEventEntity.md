@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSystemEventEntity
 title: NSSystemEventEntity
-path: /EJScript/Classes/NSSystemEventEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSSystemEventEntity
+keywords: NSSystemEventEntity
+so.topic: reference
 ---
-
 
 Entity for system events
 
-
-
-
-1. autolist
+1. autolist 
 

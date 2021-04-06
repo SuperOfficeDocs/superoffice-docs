@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStageEntity_SetSaleStageId
+title: SetSaleStageId(Integer saleStageId)
+intellisense: NSSaleStageEntity.SetSaleStageId
+keywords: NSSaleStageEntity, GetSaleStageId
+so.topic: reference
 ---
-title: Void SetSaleStageId(Integer SaleStageId)
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/Void SetSaleStageId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleStageId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **saleStageId** Integer
 
-
-* **SaleStageId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleStageEntity thing;
+Integer saleStageId;
+thing.SetSaleStageId(saleStageId);
+```
 

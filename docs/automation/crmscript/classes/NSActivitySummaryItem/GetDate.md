@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem_GetDate
 title: DateTime GetDate()
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/DateTime GetDate()
-intellisense: 1
-classref: 1
-sortOrder: 595
-keywords: GetDate()
+intellisense: NSActivitySummaryItem.GetDate
+keywords: NSActivitySummaryItem, GetDate
+so.topic: reference
 ---
-
 
 Start/Document date
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSActivitySummaryItem thing;
+DateTime date  = thing.GetDate();
+```
 
 

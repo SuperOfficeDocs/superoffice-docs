@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetOnTravel
+title: SetOnTravel(Bool onTravel)
+intellisense: NSExtAppEntity.SetOnTravel
+keywords: NSExtAppEntity, GetOnTravel
+so.topic: reference
 ---
-title: Void SetOnTravel(Bool OnTravel)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetOnTravel(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3388
-keywords: SetOnTravel(Bool)
----
-
 
 Is the application visible when user is on travel
 
+**Parameter:** 
+ - **onTravel** Bool
 
-
-* **OnTravel:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSExtAppEntity thing;
+Bool onTravel;
+thing.SetOnTravel(onTravel);
+```
 

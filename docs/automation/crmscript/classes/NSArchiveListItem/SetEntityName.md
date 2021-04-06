@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveListItem_SetEntityName
+title: SetEntityName(String entityName)
+intellisense: NSArchiveListItem.SetEntityName
+keywords: NSArchiveListItem, GetEntityName
+so.topic: reference
 ---
-title: Void SetEntityName(String EntityName)
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Void SetEntityName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1184
-keywords: SetEntityName(String)
----
-
 
 The entity name of the ArchiveListItem. An ArchiveList may contain rows from different entities.
 
+**Parameter:** 
+ - **entityName** String
 
-
-* **EntityName:** String
-* **Returns:** String
-
+```crmscript
+NSArchiveListItem thing;
+String entityName;
+thing.SetEntityName(entityName);
+```
 

@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSWebhookAgent_DeleteWebhook
+title: DeleteWebhook(Integer webhook);
+intellisense: NSWebhookAgent.DeleteWebhook
+keywords: NSWebhookAgent, DeleteWebhook
+so.topic: reference
 ---
-title: Void DeleteWebhook(Integer webhookId)
-path: /EJScript/Classes/NSWebhookAgent/Member functions/Void DeleteWebhook(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteWebhook(Integer)
----
 
+Deletes the NSWebhook
+  
+**Parameters:**
+ - **webhookId** The identity of the Webhook to delete.
 
-Deletes the Webhook
-
-
-
-* **webhookId:** The identity of the Webhook
-
+```crmscript
+NSWebhookAgent agent;
+agent.DeleteWebhook(123);
+```
 

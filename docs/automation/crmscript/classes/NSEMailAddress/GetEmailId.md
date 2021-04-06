@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAddress_GetEmailId
 title: Integer GetEmailId()
-path: /EJScript/Classes/NSEMailAddress/Member functions/Integer GetEmailId()
-intellisense: 1
-classref: 1
-sortOrder: 2764
-keywords: GetEmailId()
+intellisense: NSEMailAddress.GetEmailId
+keywords: NSEMailAddress, GetEmailId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSEMailAddress thing;
+Integer emailId  = thing.GetEmailId();
+```
 
 

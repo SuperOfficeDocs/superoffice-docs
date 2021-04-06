@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserInfo_SetCanLogon
+title: SetCanLogon(Bool canLogon)
+intellisense: NSUserInfo.SetCanLogon
+keywords: NSUserInfo, GetCanLogon
+so.topic: reference
 ---
-title: Void SetCanLogon(Bool CanLogon)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetCanLogon(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetCanLogon(Bool)
----
 
 
-* **CanLogon:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **canLogon** Bool
+
+```crmscript
+NSUserInfo thing;
+Bool canLogon;
+thing.SetCanLogon(canLogon);
+```
 

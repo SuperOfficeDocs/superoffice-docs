@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAssociate_SetPersonId
+title: SetPersonId(Integer personId)
+intellisense: NSAssociate.SetPersonId
+keywords: NSAssociate, GetPersonId
+so.topic: reference
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSAssociate/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1273
-keywords: SetPersonId(Integer)
----
-
 
 Owning person record
 
+**Parameter:** 
+ - **personId** Integer
 
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAssociate thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
 

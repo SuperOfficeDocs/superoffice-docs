@@ -1,13 +1,19 @@
----
-title: NSPerson GetSupportPerson()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSPerson GetSupportPerson()
-intellisense: 1
-classref: 1
-sortOrder: 1863
-keywords: GetSupportPerson()
+﻿---
+uid: crmscript_ref_NSContactEntity_GetSupportPerson
+title: Person GetSupportPerson()
+intellisense: NSContactEntity.GetSupportPerson
+keywords: NSContactEntity, GetSupportPerson
+so.topic: reference
 ---
 
 
-* **Returns:** Person
+
+**Returns:** Person
+
+
+```crmscript
+NSContactEntity thing;
+Person supportPerson  = thing.GetSupportPerson();
+```
 
 

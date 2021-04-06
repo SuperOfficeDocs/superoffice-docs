@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionInfo_GetValues
+title: StringArray GetValues()
+intellisense: NSArchiveRestrictionInfo.GetValues
+keywords: NSArchiveRestrictionInfo, GetValues
+so.topic: reference
 ---
-title: String[] GetValues()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/String[] GetValues()
-intellisense: 1
-classref: 1
-sortOrder: 1224
-keywords: GetValues()
----
+
+Value(s) to test against
+
+**Returns:** StringArray
 
 
-    Value(s) to test against
-    
-
-
-
-* **Returns:** StringArray
+```crmscript
+NSArchiveRestrictionInfo thing;
+StringArray values  = thing.GetValues();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCsFeatureToggle_GetState
 title: Bool GetState()
-path: /EJScript/Classes/NSCsFeatureToggle/Member functions/Bool GetState()
-intellisense: 1
-classref: 1
-sortOrder: 2157
-keywords: GetState()
+intellisense: NSCsFeatureToggle.GetState
+keywords: NSCsFeatureToggle, GetState
+so.topic: reference
 ---
-
 
 Describes if the feature toggle is turned on or off
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSCsFeatureToggle thing;
+Bool state  = thing.GetState();
+```
 
 

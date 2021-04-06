@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_SaveQuoteAlternative
+title: NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative quoteAlternative);
+intellisense: NSQuoteAgent.SaveQuoteAlternative
+keywords: NSQuoteAgent, SaveQuoteAlternative
+so.topic: reference
 ---
-title: NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative quoteAlternative)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative p_0)
-intellisense: 1
-classref: 1
-keywords: SaveQuoteAlternative(NSQuoteAlternative)
----
+	  
+Updates the existing NSQuoteAlternative or creates a new NSQuoteAlternative if the id parameter is 0
+	  
+**Parameters**:
+ - **quoteAlternative** The NSQuoteAlternative to save.
 
+**Returns:** New or updated NSQuoteAlternative
 
-Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is empty
-
-
-
-* **quoteAlternative:** The QuoteAlternative that is saved
-* **Returns:** New or updated QuoteAlternative
-
+```crmscript
+NSQuote  agent;
+NSQuoteAlternative thing = agent.CreateDefaultQuoteAlternative();
+thing = agent.SaveQuoteAlternative(thing);
+```
 

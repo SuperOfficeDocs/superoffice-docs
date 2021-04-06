@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetGroupIdx
+title: SetGroupIdx(Integer groupIdx)
+intellisense: NSSelectionEntity.SetGroupIdx
+keywords: NSSelectionEntity, GetGroupIdx
+so.topic: reference
 ---
-title: Void SetGroupIdx(Integer GroupIdx)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetGroupIdx(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetGroupIdx(Integer)
----
-
 
 Original primary user group of associate
 
+**Parameter:** 
+ - **groupIdx** Integer
 
-
-* **GroupIdx:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectionEntity thing;
+Integer groupIdx;
+thing.SetGroupIdx(groupIdx);
+```
 

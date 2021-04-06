@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSForeignKey_GetKey
 title: String GetKey()
-path: /EJScript/Classes/NSForeignKey/Member functions/String GetKey()
-intellisense: 1
-classref: 1
-sortOrder: 3738
-keywords: GetKey()
+intellisense: NSForeignKey.GetKey
+keywords: NSForeignKey, GetKey
+so.topic: reference
 ---
-
 
 Subkey (optional)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSForeignKey thing;
+String key  = thing.GetKey();
+```
 
 

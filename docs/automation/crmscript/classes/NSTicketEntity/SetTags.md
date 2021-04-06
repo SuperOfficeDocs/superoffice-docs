@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetTags
+title: SetTags(TagArray tags)
+intellisense: NSTicketEntity.SetTags
+keywords: NSTicketEntity, GetTags
+so.topic: reference
 ---
-title: Void SetTags(NSTag[] Tags)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetTags(NSTag[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetTags(NSTag[])
----
-
 
 An array containing the tags assigned to this request
 
+**Parameter:** 
+ - **tags** TagArray
 
-
-* **Tags:** TagArray
-* **Returns:** TagArray
-
+```crmscript
+NSTicketEntity thing;
+TagArray tags;
+thing.SetTags(tags);
+```
 

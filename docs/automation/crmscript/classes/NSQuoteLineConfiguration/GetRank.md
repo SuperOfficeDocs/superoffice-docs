@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSQuoteLineConfiguration.GetRank
+keywords: NSQuoteLineConfiguration, GetRank
+so.topic: reference
 ---
-
 
 Rank of the field
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteLineConfiguration thing;
+Integer rank  = thing.GetRank();
+```
 
 

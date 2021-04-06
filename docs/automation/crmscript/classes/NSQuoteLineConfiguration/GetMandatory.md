@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_GetMandatory
 title: Bool GetMandatory()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Bool GetMandatory()
-intellisense: 1
-classref: 1
-keywords: GetMandatory()
+intellisense: NSQuoteLineConfiguration.GetMandatory
+keywords: NSQuoteLineConfiguration, GetMandatory
+so.topic: reference
 ---
-
 
 Is this a mandatory field?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSQuoteLineConfiguration thing;
+Bool mandatory  = thing.GetMandatory();
+```
 
 

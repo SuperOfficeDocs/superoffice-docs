@@ -1,9 +1,9 @@
 ---
-title: Void SetWeekday(Integer p0)
-path: /EJScript/Classes/NSRecurrenceYearPattern/Member functions/Void SetWeekday(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceYearPattern_SetWeekday_Integer_p_0
+title: NSRecurrenceYearPattern.SetWeekday(Integer p_0)
+intellisense: NSRecurrenceYearPattern.SetWeekday
 keywords: SetWeekday(Integer)
+so.topic: reference
 ---
 
 

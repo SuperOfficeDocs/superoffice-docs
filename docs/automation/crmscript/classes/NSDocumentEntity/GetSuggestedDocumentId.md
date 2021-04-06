@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetSuggestedDocumentId
 title: Integer GetSuggestedDocumentId()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Integer GetSuggestedDocumentId()
-intellisense: 1
-classref: 1
-sortOrder: 2562
-keywords: GetSuggestedDocumentId()
+intellisense: NSDocumentEntity.GetSuggestedDocumentId
+keywords: NSDocumentEntity, GetSuggestedDocumentId
+so.topic: reference
 ---
-
 
 Suggested guide item that this document is an instance of (Note: NOT valid for appointments, they have their own link)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDocumentEntity thing;
+Integer suggestedDocumentId  = thing.GetSuggestedDocumentId();
+```
 
 

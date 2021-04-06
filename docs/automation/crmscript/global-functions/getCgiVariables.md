@@ -1,9 +1,9 @@
 ---
 description: Map getCgiVariables()
-path: /EJScript/Global functions/Map getCgiVariables()
-intellisense: 1
+intellisense: Void.getCgiVariables
 langref: 1
 keywords: getCgiVariables()
+so.topic: reference
 ---
 
 

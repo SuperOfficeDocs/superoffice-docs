@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSSuggestedAppointment.GetRank
+keywords: NSSuggestedAppointment, GetRank
+so.topic: reference
 ---
-
 
 Rank, controls rank of non-instantiated items in Guide
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSuggestedAppointment thing;
+Integer rank  = thing.GetRank();
+```
 
 

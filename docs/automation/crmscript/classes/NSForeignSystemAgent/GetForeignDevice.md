@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSForeignSystemAgent_GetForeignDevice
+title: NSForeignDevice GetForeignDevice(Integer foreignDeviceId);
+intellisense: NSForeignSystemAgent.GetForeignDevice
+keywords: NSForeignSystemAgent, GetForeignDevice
+so.topic: reference
 ---
-title: NSForeignDevice GetForeignDevice(Integer foreignDeviceId)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignDevice GetForeignDevice(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3759
-keywords: GetForeignDevice(Integer)
----
 
+Gets a NSForeignDevice object.
 
-Gets a ForeignDevice object.
+**Parameters:**
+ - **foreignDeviceId** The identifier of the NSForeignDevice object
 
+**Returns:** NSForeignDevice
 
-
-* **foreignDeviceId:** The identifier of the ForeignDevice object
-* **Returns:** ForeignDevice
-
+```crmscript
+NSForeignSystemAgent agent;
+NSForeignDevice thing = agent.GetForeignDevice(123);
+```
 

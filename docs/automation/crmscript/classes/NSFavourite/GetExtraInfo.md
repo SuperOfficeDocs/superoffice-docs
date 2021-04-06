@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFavourite_GetExtraInfo
 title: String GetExtraInfo()
-path: /EJScript/Classes/NSFavourite/Member functions/String GetExtraInfo()
-intellisense: 1
-classref: 1
-sortOrder: 3438
-keywords: GetExtraInfo()
+intellisense: NSFavourite.GetExtraInfo
+keywords: NSFavourite, GetExtraInfo
+so.topic: reference
 ---
-
 
 Extra information for this favourite.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFavourite thing;
+String extraInfo  = thing.GetExtraInfo();
+```
 
 

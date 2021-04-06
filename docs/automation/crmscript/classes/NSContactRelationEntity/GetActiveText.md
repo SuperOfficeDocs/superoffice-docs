@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetActiveText
 title: String GetActiveText()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/String GetActiveText()
-intellisense: 1
-classref: 1
-sortOrder: 1955
-keywords: GetActiveText()
+intellisense: NSContactRelationEntity.GetActiveText
+keywords: NSContactRelationEntity, GetActiveText
+so.topic: reference
 ---
-
 
 Active text for the relation.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactRelationEntity thing;
+String activeText  = thing.GetActiveText();
+```
 
 

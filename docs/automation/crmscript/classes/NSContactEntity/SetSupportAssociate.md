@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetSupportAssociate
+title: SetSupportAssociate(Associate supportAssociate)
+intellisense: NSContactEntity.SetSupportAssociate
+keywords: NSContactEntity, GetSupportAssociate
+so.topic: reference
 ---
-title: Void SetSupportAssociate(NSAssociate SupportAssociate)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetSupportAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1910
-keywords: SetSupportAssociate(NSAssociate)
----
 
 
-* **SupportAssociate:** Associate
-* **Returns:** Associate
 
+**Parameter:** 
+ - **supportAssociate** Associate
+
+```crmscript
+NSContactEntity thing;
+Associate supportAssociate;
+thing.SetSupportAssociate(supportAssociate);
+```
 

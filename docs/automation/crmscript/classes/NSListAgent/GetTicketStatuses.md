@@ -1,11 +1,10 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTicketStatuses
+title: TicketStatusEntityArray GetTicketStatuses()
+intellisense: NSListAgent.GetTicketStatuses
+keywords: NSListAgent, GetTicketStatuses
+so.topic: reference
 ---
-title: NSTicketStatusEntity[] GetTicketStatuses()
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketStatusEntity[] GetTicketStatuses()
-intellisense: 1
-classref: 1
-keywords: GetTicketStatuses()
----
-
 
 
 

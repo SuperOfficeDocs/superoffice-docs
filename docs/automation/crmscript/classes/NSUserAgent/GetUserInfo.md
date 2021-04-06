@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetUserInfo
+title: NSUserInfo GetUserInfo(Integer userInfoId);
+intellisense: NSUserAgent.GetUserInfo
+keywords: NSUserAgent, GetUserInfo
+so.topic: reference
 ---
-title: NSUserInfo GetUserInfo(Integer userInfoId)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUserInfo GetUserInfo(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetUserInfo(Integer)
----
 
+Gets a NSUserInfo object.
 
-Gets a UserInfo object.
+**Parameters:**
+ - **userInfoId** The identifier of the NSUserInfo object
 
+**Returns:** NSUserInfo
 
-
-* **userInfoId:** The identifier of the UserInfo object
-* **Returns:** UserInfo
-
+```crmscript
+NSUserAgent agent;
+NSUserInfo thing = agent.GetUserInfo(123);
+```
 

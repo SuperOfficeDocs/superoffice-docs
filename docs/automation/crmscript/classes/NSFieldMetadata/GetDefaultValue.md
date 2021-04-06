@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldMetadata_GetDefaultValue
 title: String GetDefaultValue()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/String GetDefaultValue()
-intellisense: 1
-classref: 1
-sortOrder: 3580
-keywords: GetDefaultValue()
+intellisense: NSFieldMetadata.GetDefaultValue
+keywords: NSFieldMetadata, GetDefaultValue
+so.topic: reference
 ---
-
 
 A default value for the field.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldMetadata thing;
+String defaultValue  = thing.GetDefaultValue();
+```
 
 

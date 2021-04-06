@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetUnitListPrice
+title: SetUnitListPrice(Float unitListPrice)
+intellisense: NSQuoteLine.SetUnitListPrice
+keywords: NSQuoteLine, GetUnitListPrice
+so.topic: reference
 ---
-title: Void SetUnitListPrice(Float UnitListPrice)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetUnitListPrice(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetUnitListPrice(Float)
----
-
 
 The standard list price; as given by ERP Connector, OR overridden by user
 
+**Parameter:** 
+ - **unitListPrice** Float
 
-
-* **UnitListPrice:** Float
-* **Returns:** Float
-
+```crmscript
+NSQuoteLine thing;
+Float unitListPrice;
+thing.SetUnitListPrice(unitListPrice);
+```
 

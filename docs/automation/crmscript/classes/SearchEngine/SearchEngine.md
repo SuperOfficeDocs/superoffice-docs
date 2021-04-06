@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_SearchEngine
 title: SearchEngine
-path: /EJScript/Classes/SearchEngine
-intellisense: 1
-classref: 1
+intellisense: Void.SearchEngine
+so.topic: reference
 ---
 
 The SearchEngine is originally made for searching and fetching data from the eJournal database. Thereby its name.

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_SetMinLevel
+title: SetMinLevel(Integer minLevel)
+intellisense: NSPreferenceDescription.SetMinLevel
+keywords: NSPreferenceDescription, GetMinLevel
+so.topic: reference
 ---
-title: Void SetMinLevel(Integer MinLevel)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetMinLevel(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetMinLevel(Integer)
----
-
 
 The minimum (furthest away from User) level this preference can be set for
 
+**Parameter:** 
+ - **minLevel** Integer
 
-
-* **MinLevel:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPreferenceDescription thing;
+Integer minLevel;
+thing.SetMinLevel(minLevel);
+```
 

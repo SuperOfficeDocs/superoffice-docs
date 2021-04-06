@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetRetired
+title: SetRetired(Integer retired)
+intellisense: NSPerson.SetRetired
+keywords: NSPerson, GetRetired
+so.topic: reference
 ---
-title: Void SetRetired(Integer Retired)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetRetired(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRetired(Integer)
----
-
 
 1 = the user is retired and should have no rights, not appear in lists, etc.
 
+**Parameter:** 
+ - **retired** Integer
 
-
-* **Retired:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPerson thing;
+Integer retired;
+thing.SetRetired(retired);
+```
 

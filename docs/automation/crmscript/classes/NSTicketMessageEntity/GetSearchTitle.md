@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_GetSearchTitle
 title: String GetSearchTitle()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/String GetSearchTitle()
-intellisense: 1
-classref: 1
-keywords: GetSearchTitle()
+intellisense: NSTicketMessageEntity.GetSearchTitle
+keywords: NSTicketMessageEntity, GetSearchTitle
+so.topic: reference
 ---
-
 
 A copy of the title of the ticket, for search optimisation and simpler reporting.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketMessageEntity thing;
+String searchTitle  = thing.GetSearchTitle();
+```
 
 

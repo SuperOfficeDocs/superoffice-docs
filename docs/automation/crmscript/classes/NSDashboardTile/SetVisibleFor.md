@@ -1,14 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDashboardTile_SetVisibleFor
+title: SetVisibleFor(VisibleForArray visibleFor)
+intellisense: NSDashboardTile.SetVisibleFor
+keywords: NSDashboardTile, SetVisibleFor
+so.topic: reference
 ---
-title: Void SetVisibleFor(VisibleFor[] fields)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetVisibleFor(VisibleFor[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2315
-keywords: SetVisibleFor(VisibleFor[])
----
 
+Set the usergroups and/or users the DashboardTile item is visible for.
 
-* **fields:** VisibleForArray
-* **Returns:** Void
+**Parameter:** 
+ - **visibleFor** VisibleForArray of one or more users + usergroups.
 
+```crmscript
+NSDashboardTile thing;
+VisibleFor[] visibleFor = thing.GetVisibleFor();
+visibleFor[0].SetVisiblity(1);  // usergroup
+visibleFor[0].SetVisibleId(123); // usergroup id
+thing.SetVisibleFor(visibleFor);
+```
 

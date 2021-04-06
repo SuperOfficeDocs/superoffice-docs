@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignKey_SetUpdatedBy
+title: SetUpdatedBy(String updatedBy)
+intellisense: NSForeignKey.SetUpdatedBy
+keywords: NSForeignKey, GetUpdatedBy
+so.topic: reference
 ---
-title: Void SetUpdatedBy(String UpdatedBy)
-path: /EJScript/Classes/NSForeignKey/Member functions/Void SetUpdatedBy(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3747
-keywords: SetUpdatedBy(String)
----
-
 
 Name of the person that last updated the foreign key
 
+**Parameter:** 
+ - **updatedBy** String
 
-
-* **UpdatedBy:** String
-* **Returns:** String
-
+```crmscript
+NSForeignKey thing;
+String updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
 

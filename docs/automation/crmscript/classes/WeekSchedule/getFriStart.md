@@ -1,9 +1,9 @@
 ---
-title: Time getFriStart()
-path: /EJScript/Classes/WeekSchedule/Member functions/Time getFriStart()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_getFriStart
+title: WeekSchedule.getFriStart()
+intellisense: WeekSchedule.getFriStart
 keywords: getFriStart()
+so.topic: reference
 ---
 
 

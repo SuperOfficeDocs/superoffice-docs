@@ -1,18 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAgent_CreateDefaultEMailSOInfo
 title: NSEMailSOInfo CreateDefaultEMailSOInfo()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailSOInfo CreateDefaultEMailSOInfo()
-intellisense: 1
-classref: 1
-sortOrder: 2838
-keywords: CreateDefaultEMailSOInfo()
+intellisense: NSEMailAgent.CreateDefaultEMailSOInfo
+keywords: NSEMailAgent, CreateDefaultEMailSOInfo
+so.topic: reference
 ---
+	  
+Set default values into a new NSEMailSOInfo.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSEMailSOInfo with default values.
 
-
-Loading default values into a new EMailSOInfo.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New EMailSOInfo with default values
-
+```crmscript
+NSEMailAgent agent;
+NSEMailSOInfo thing = agent.CreateDefaultEMailSOInfo();
+thing = agent.SaveEMailSOInfo(thing);
+```
 

@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtendedLicenseInfo_SetExtendedModuleLicenses
+title: SetExtendedModuleLicenses(ExtendedModuleLicenseArray extendedModuleLicenses)
+intellisense: NSExtendedLicenseInfo.SetExtendedModuleLicenses
+keywords: NSExtendedLicenseInfo, GetExtendedModuleLicenses
+so.topic: reference
 ---
-title: Void SetExtendedModuleLicenses(NSExtendedModuleLicense[] ExtendedModuleLicenses)
-path: /EJScript/Classes/NSExtendedLicenseInfo/Member functions/Void SetExtendedModuleLicenses(NSExtendedModuleLicense[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3412
-keywords: SetExtendedModuleLicenses(NSExtendedModuleLicense[])
----
 
 
-* **ExtendedModuleLicenses:** ExtendedModuleLicenseArray
-* **Returns:** ExtendedModuleLicenseArray
 
+**Parameter:** 
+ - **extendedModuleLicenses** ExtendedModuleLicenseArray
+
+```crmscript
+NSExtendedLicenseInfo thing;
+ExtendedModuleLicenseArray extendedModuleLicenses;
+thing.SetExtendedModuleLicenses(extendedModuleLicenses);
+```
 

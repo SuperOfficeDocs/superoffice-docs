@@ -1,12 +1,19 @@
----
-title: Map GetParameterObject()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Map GetParameterObject()
-intellisense: 1
-classref: 1
-sortOrder: 1375
-keywords: GetParameterObject()
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetParameterObject
+title: StringDictionary GetParameterObject()
+intellisense: NSBatchTaskInfo.GetParameterObject
+keywords: NSBatchTaskInfo, GetParameterObject
+so.topic: reference
 ---
 
+ParameterObject will be serialized to a binary blob and saved in the BinaryObject table. The link to the BinaryObject will be set using DetailsTable and DetailsRecord.
 
+**Returns:** StringDictionary
+
+
+```crmscript
+NSBatchTaskInfo thing;
+StringDictionary parameterObject  = thing.GetParameterObject();
+```
 
 

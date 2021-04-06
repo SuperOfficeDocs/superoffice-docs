@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetUpdatedBy
+title: Associate GetUpdatedBy()
+intellisense: NSDocumentEntity.GetUpdatedBy
+keywords: NSDocumentEntity, GetUpdatedBy
+so.topic: reference
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
-sortOrder: 2569
-keywords: GetUpdatedBy()
----
-
 
 The person that last updated the appointment.
 
+**Returns:** Associate
 
 
-* **Returns:** Associate
+```crmscript
+NSDocumentEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
 
 

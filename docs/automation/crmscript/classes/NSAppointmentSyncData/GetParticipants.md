@@ -1,13 +1,19 @@
----
-title: NSParticipantSyncData[] GetParticipants()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/NSParticipantSyncData[] GetParticipants()
-intellisense: 1
-classref: 1
-sortOrder: 1055
-keywords: GetParticipants()
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetParticipants
+title: ParticipantSyncDataArray GetParticipants()
+intellisense: NSAppointmentSyncData.GetParticipants
+keywords: NSAppointmentSyncData, GetParticipants
+so.topic: reference
 ---
 
 
-* **Returns:** ParticipantSyncDataArray
+
+**Returns:** ParticipantSyncDataArray
+
+
+```crmscript
+NSAppointmentSyncData thing;
+ParticipantSyncDataArray participants  = thing.GetParticipants();
+```
 
 

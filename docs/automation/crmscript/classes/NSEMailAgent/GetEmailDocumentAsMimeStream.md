@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSEMailAgent_GetEmailDocumentAsMimeStream
+title: Stream GetEmailDocumentAsMimeStream(Integer documentId)
+intellisense: NSEMailAgent.GetEmailDocumentAsMimeStream
+keywords: NSEMailAgent, GetEmailDocumentAsMimeStream
+so.topic: reference
 ---
-title: NSStream GetEmailDocumentAsMimeStream(Integer documentId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSStream GetEmailDocumentAsMimeStream(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2845
-keywords: GetEmailDocumentAsMimeStream(Integer)
----
-
 
 Gets a particular document, and tries to parse it, and returns it in MIME/RFC822 format.
 
+**Parameters:**
+ - **documentId** SuperOffice document ID
 
+**Returns:** A document-stream representing the document in MIME/RFC822 format.
 
-* **documentId:** SuperOffice document ID
-* **Returns:** A document-stream representing the document in MIME/RFC822 format.
-
+```crmscript
+NSEMailAgent agent;
+Integer documentId;
+Stream res = agent.GetEmailDocumentAsMimeStream(documentId);
+```
 

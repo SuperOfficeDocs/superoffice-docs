@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectTypeEntity_GetProjTypeId
 title: Integer GetProjTypeId()
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Integer GetProjTypeId()
-intellisense: 1
-classref: 1
-keywords: GetProjTypeId()
+intellisense: NSProjectTypeEntity.GetProjTypeId
+keywords: NSProjectTypeEntity, GetProjTypeId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectTypeEntity thing;
+Integer projTypeId  = thing.GetProjTypeId();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSHeadingEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSHeadingEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 3916
-keywords: GetName()
+intellisense: NSHeadingEntity.GetName
+keywords: NSHeadingEntity, GetName
+so.topic: reference
 ---
-
 
 The visible heading
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSHeadingEntity thing;
+String name  = thing.GetName();
+```
 
 

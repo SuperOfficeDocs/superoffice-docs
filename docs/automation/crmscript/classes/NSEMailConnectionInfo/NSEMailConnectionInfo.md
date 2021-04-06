@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfo
 title: NSEMailConnectionInfo
-path: /EJScript/Classes/NSEMailConnectionInfo
-intellisense: 1
-classref: 1
-sortOrder: 2908
+intellisense: Void.NSEMailConnectionInfo
+keywords: NSEMailConnectionInfo
+so.topic: reference
 ---
-
 
 All information needed to connect to a mailserver
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSRelationToOwner
 title: NSRelationToOwner
-path: /EJScript/Classes/NSRelationToOwner
-intellisense: 1
-classref: 1
+intellisense: Void.NSRelationToOwner
+keywords: NSRelationToOwner
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetCurrencyId
+title: SetCurrencyId(Integer currencyId)
+intellisense: NSCountry.SetCurrencyId
+keywords: NSCountry, GetCurrencyId
+so.topic: reference
 ---
-title: Void SetCurrencyId(Integer CurrencyId)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetCurrencyId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2032
-keywords: SetCurrencyId(Integer)
----
-
 
 Default currency for this country
 
+**Parameter:** 
+ - **currencyId** Integer
 
-
-* **CurrencyId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCountry thing;
+Integer currencyId;
+thing.SetCurrencyId(currencyId);
+```
 

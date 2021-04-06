@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_SetGroupQuoteLinesBy
+title: SetGroupQuoteLinesBy(Integer groupQuoteLinesBy)
+intellisense: NSSaleTypeEntity.SetGroupQuoteLinesBy
+keywords: NSSaleTypeEntity, GetGroupQuoteLinesBy
+so.topic: reference
 ---
-title: Void SetGroupQuoteLinesBy(Integer GroupQuoteLinesBy)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetGroupQuoteLinesBy(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetGroupQuoteLinesBy(Integer)
----
-
 
 Group quote lines by this field
 
+**Parameter:** 
+ - **groupQuoteLinesBy** Integer
 
-
-* **GroupQuoteLinesBy:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleTypeEntity thing;
+Integer groupQuoteLinesBy;
+thing.SetGroupQuoteLinesBy(groupQuoteLinesBy);
+```
 

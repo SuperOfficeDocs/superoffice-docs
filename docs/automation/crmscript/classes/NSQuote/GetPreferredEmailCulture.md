@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuote_GetPreferredEmailCulture
 title: String GetPreferredEmailCulture()
-path: /EJScript/Classes/NSQuote/Member functions/String GetPreferredEmailCulture()
-intellisense: 1
-classref: 1
-keywords: GetPreferredEmailCulture()
+intellisense: NSQuote.GetPreferredEmailCulture
+keywords: NSQuote, GetPreferredEmailCulture
+so.topic: reference
 ---
-
 
 When emails are sent (offer or confirmation), a language can be chosen in the GUI; this field saves the most recent choice and can be used to default the next such choice. Default-default is user's current language
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuote thing;
+String preferredEmailCulture  = thing.GetPreferredEmailCulture();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRelationDefinitionEntity_GetReldefId
 title: Integer GetReldefId()
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Integer GetReldefId()
-intellisense: 1
-classref: 1
-keywords: GetReldefId()
+intellisense: NSRelationDefinitionEntity.GetReldefId
+keywords: NSRelationDefinitionEntity, GetReldefId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSRelationDefinitionEntity thing;
+Integer reldefId  = thing.GetReldefId();
+```
 
 

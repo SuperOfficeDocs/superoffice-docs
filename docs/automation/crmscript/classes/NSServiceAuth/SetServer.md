@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSServiceAuth_SetServer
+title: SetServer(String server)
+intellisense: NSServiceAuth.SetServer
+keywords: NSServiceAuth, GetServer
+so.topic: reference
 ---
-title: Void SetServer(String Server)
-path: /EJScript/Classes/NSServiceAuth/Member functions/Void SetServer(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetServer(String)
----
-
 
 The mail server
 
+**Parameter:** 
+ - **server** String
 
-
-* **Server:** String
-* **Returns:** String
-
+```crmscript
+NSServiceAuth thing;
+String server;
+thing.SetServer(server);
+```
 

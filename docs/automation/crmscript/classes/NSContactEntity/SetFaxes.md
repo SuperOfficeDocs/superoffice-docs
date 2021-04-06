@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetFaxes
+title: SetFaxes(EntityElementArray faxes)
+intellisense: NSContactEntity.SetFaxes
+keywords: NSContactEntity, GetFaxes
+so.topic: reference
 ---
-title: Void SetFaxes(NSEntityElement[] Faxes)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetFaxes(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1898
-keywords: SetFaxes(NSEntityElement[])
----
-
 
 The contact's fax numbers
 
+**Parameter:** 
+ - **faxes** EntityElementArray
 
-
-* **Faxes:** EntityElementArray
-* **Returns:** EntityElementArray
-
+```crmscript
+NSContactEntity thing;
+EntityElementArray faxes;
+thing.SetFaxes(faxes);
+```
 

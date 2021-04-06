@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactSummary_SetFollowups
+title: SetFollowups(ActivitySummaryItemArray followups)
+intellisense: NSContactSummary.SetFollowups
+keywords: NSContactSummary, GetFollowups
+so.topic: reference
 ---
-title: Void SetFollowups(NSActivitySummaryItem[] Followups)
-path: /EJScript/Classes/NSContactSummary/Member functions/Void SetFollowups(NSActivitySummaryItem[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1991
-keywords: SetFollowups(NSActivitySummaryItem[])
----
-
 
 Recent follow-ups on contact
 
+**Parameter:** 
+ - **followups** ActivitySummaryItemArray
 
-
-* **Followups:** ActivitySummaryItemArray
-* **Returns:** ActivitySummaryItemArray
-
+```crmscript
+NSContactSummary thing;
+ActivitySummaryItemArray followups;
+thing.SetFollowups(followups);
+```
 

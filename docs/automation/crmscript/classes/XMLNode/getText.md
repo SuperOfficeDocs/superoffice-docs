@@ -1,9 +1,9 @@
 ---
-title: String getText()
-path: /EJScript/Classes/XMLNode/Member functions/String getText()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_XMLNode_getText
+title: XMLNode.getText()
+intellisense: XMLNode.getText
 keywords: getText()
+so.topic: reference
 ---
 
 Get the text between two tags. For example \<TAG>Returns this text\</TAG>

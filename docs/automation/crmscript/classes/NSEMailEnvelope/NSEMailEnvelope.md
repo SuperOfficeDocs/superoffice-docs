@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEnvelope
 title: NSEMailEnvelope
-path: /EJScript/Classes/NSEMailEnvelope
-intellisense: 1
-classref: 1
-sortOrder: 3000
+intellisense: Void.NSEMailEnvelope
+keywords: NSEMailEnvelope
+so.topic: reference
 ---
-
 
 Limited information about one e-mail.
 
-
-
-
-1. autolist
+1. autolist 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool delete()
-path: /EJScript/Classes/SpmCustomerList/Member functions/Bool delete()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmCustomerList_delete
+title: SpmCustomerList.delete()
+intellisense: SpmCustomerList.delete
 keywords: delete()
+so.topic: reference
 ---
 
 This method will delete the current recipients list. It is not possible to delete a list that currently is in use.

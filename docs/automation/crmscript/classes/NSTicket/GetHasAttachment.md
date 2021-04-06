@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetHasAttachment
 title: Bool GetHasAttachment()
-path: /EJScript/Classes/NSTicket/Member functions/Bool GetHasAttachment()
-intellisense: 1
-classref: 1
-keywords: GetHasAttachment()
+intellisense: NSTicket.GetHasAttachment
+keywords: NSTicket, GetHasAttachment
+so.topic: reference
 ---
-
 
 Boolean indicating if this ticket has one or more attachments.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSTicket thing;
+Bool hasAttachment  = thing.GetHasAttachment();
+```
 
 

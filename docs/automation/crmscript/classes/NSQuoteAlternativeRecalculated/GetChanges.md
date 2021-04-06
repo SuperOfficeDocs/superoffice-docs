@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternativeRecalculated_GetChanges
+title: ChangedData GetChanges()
+intellisense: NSQuoteAlternativeRecalculated.GetChanges
+keywords: NSQuoteAlternativeRecalculated, GetChanges
+so.topic: reference
 ---
-title: NSChangedData GetChanges()
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/NSChangedData GetChanges()
-intellisense: 1
-classref: 1
-keywords: GetChanges()
----
-
 
 Tablename/recordid of data changed by this method
 
+**Returns:** ChangedData
 
 
-* **Returns:** ChangedData
+```crmscript
+NSQuoteAlternativeRecalculated thing;
+ChangedData changes  = thing.GetChanges();
+```
 
 

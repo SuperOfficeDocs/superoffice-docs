@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCompetitor_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSCompetitor.SetTooltip
+keywords: NSCompetitor, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSCompetitor/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1584
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the Competitor list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String Competitor tooltip description.
 
+```crmscript
+NSCompetitor thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

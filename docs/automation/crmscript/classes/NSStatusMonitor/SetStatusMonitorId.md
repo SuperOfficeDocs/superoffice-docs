@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitor_SetStatusMonitorId
+title: SetStatusMonitorId(Integer statusMonitorId)
+intellisense: NSStatusMonitor.SetStatusMonitorId
+keywords: NSStatusMonitor, GetStatusMonitorId
+so.topic: reference
 ---
-title: Void SetStatusMonitorId(Integer StatusMonitorId)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetStatusMonitorId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetStatusMonitorId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **statusMonitorId** Integer
 
-
-* **StatusMonitorId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSStatusMonitor thing;
+Integer statusMonitorId;
+thing.SetStatusMonitorId(statusMonitorId);
+```
 

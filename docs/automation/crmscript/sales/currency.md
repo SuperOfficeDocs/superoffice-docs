@@ -1,6 +1,6 @@
 ---
-title: crmscript_currency
-description: Currency
+uid: crmscript_currency
+title: Currency
 author:
 so.date:
 keywords:

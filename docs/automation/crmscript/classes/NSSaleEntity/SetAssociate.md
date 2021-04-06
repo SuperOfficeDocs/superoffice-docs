@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetAssociate
+title: SetAssociate(Associate associate)
+intellisense: NSSaleEntity.SetAssociate
+keywords: NSSaleEntity, GetAssociate
+so.topic: reference
 ---
-title: Void SetAssociate(NSAssociate Associate)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociate(NSAssociate)
----
-
 
 The sale owner
 
+**Parameter:** 
+ - **associate** Associate
 
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSSaleEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
 

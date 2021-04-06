@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailbox_SetPriorityName
+title: SetPriorityName(String priorityName)
+intellisense: NSMailbox.SetPriorityName
+keywords: NSMailbox, GetPriorityName
+so.topic: reference
 ---
-title: Void SetPriorityName(String PriorityName)
-path: /EJScript/Classes/NSMailbox/Member functions/Void SetPriorityName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPriorityName(String)
----
-
 
 The name of the priority that the mailbox is connected to
 
+**Parameter:** 
+ - **priorityName** String
 
-
-* **PriorityName:** String
-* **Returns:** String
-
+```crmscript
+NSMailbox thing;
+String priorityName;
+thing.SetPriorityName(priorityName);
+```
 

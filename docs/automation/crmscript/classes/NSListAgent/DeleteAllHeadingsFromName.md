@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_DeleteAllHeadingsFromName
 title: Void DeleteAllHeadingsFromName(String name)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteAllHeadingsFromName(String p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteAllHeadingsFromName(String)
+intellisense: NSListAgent.DeleteAllHeadingsFromName
+keywords: NSListAgent, DeleteAllHeadingsFromName
+so.topic: reference
 ---
-
 
 Delete all headings for list resolved by the provided name.
 
+**Parameters:**
+ - **name** The name of the list to look up.
 
+**Returns:** This method has no return value
 
-* **name:** The name of the list to look up.
-* **Returns:** This method has no return value
-
+```crmscript
+NSListAgent agent;
+String name;
+Void res = agent.DeleteAllHeadingsFromName(name);
+```
 

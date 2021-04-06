@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteConnection_SetDisplayDescription
+title: SetDisplayDescription(String displayDescription)
+intellisense: NSQuoteConnection.SetDisplayDescription
+keywords: NSQuoteConnection, GetDisplayDescription
+so.topic: reference
 ---
-title: Void SetDisplayDescription(String DisplayDescription)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetDisplayDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDisplayDescription(String)
----
-
 
 Tooltip/description shown to user; multi-language support. Any other info available that would make an uncertain user chose the right connector. Typically, used for tooltip.
 
+**Parameter:** 
+ - **displayDescription** String
 
-
-* **DisplayDescription:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteConnection thing;
+String displayDescription;
+thing.SetDisplayDescription(displayDescription);
+```
 

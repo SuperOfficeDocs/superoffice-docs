@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_GetEmails
+title: EntityElementArray GetEmails()
+intellisense: NSContactEntity.GetEmails
+keywords: NSContactEntity, GetEmails
+so.topic: reference
 ---
-title: NSEntityElement[] GetEmails()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSEntityElement[] GetEmails()
-intellisense: 1
-classref: 1
-sortOrder: 1858
-keywords: GetEmails()
----
-
 
 The contact's email
 
+**Returns:** EntityElementArray
 
 
-* **Returns:** EntityElementArray
+```crmscript
+NSContactEntity thing;
+EntityElementArray emails  = thing.GetEmails();
+```
 
 

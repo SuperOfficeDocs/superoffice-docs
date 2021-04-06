@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetEnglishName
+title: SetEnglishName(String englishName)
+intellisense: NSCountry.SetEnglishName
+keywords: NSCountry, GetEnglishName
+so.topic: reference
 ---
-title: Void SetEnglishName(String EnglishName)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetEnglishName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2037
-keywords: SetEnglishName(String)
----
-
 
 Name of country in english
 
+**Parameter:** 
+ - **englishName** String
 
-
-* **EnglishName:** String
-* **Returns:** String
-
+```crmscript
+NSCountry thing;
+String englishName;
+thing.SetEnglishName(englishName);
+```
 

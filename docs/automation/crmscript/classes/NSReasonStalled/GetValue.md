@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSReasonStalled_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSReasonStalled/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSReasonStalled.GetValue
+keywords: NSReasonStalled, GetValue
+so.topic: reference
 ---
 
+Get the name of the ReasonStalled.
 
-* **Returns:** String
+**Returns:** String ReasonStalled name.
 
+```crmscript
+NSReasonStalled thing;
+String name = thing.GetValue();
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetSaleTypeName
+title: SetSaleTypeName(String saleTypeName)
+intellisense: NSSale.SetSaleTypeName
+keywords: NSSale, GetSaleTypeName
+so.topic: reference
 ---
-title: Void SetSaleTypeName(String SaleTypeName)
-path: /EJScript/Classes/NSSale/Member functions/Void SetSaleTypeName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleTypeName(String)
----
-
 
 The sale's type name
 
+**Parameter:** 
+ - **saleTypeName** String
 
-
-* **SaleTypeName:** String
-* **Returns:** String
-
+```crmscript
+NSSale thing;
+String saleTypeName;
+thing.SetSaleTypeName(saleTypeName);
+```
 

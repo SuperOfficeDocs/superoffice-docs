@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_GetPerson
+title: NSPerson GetPerson(Integer personId);
+intellisense: NSPersonAgent.GetPerson
+keywords: NSPersonAgent, GetPerson
+so.topic: reference
 ---
-title: NSPerson GetPerson(Integer personId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson GetPerson(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPerson(Integer)
----
 
+Gets a NSPerson object.
 
-Gets a Person object.
+**Parameters:**
+ - **personId** The identifier of the NSPerson object
 
+**Returns:** NSPerson
 
-
-* **personId:** The identifier of the Person object
-* **Returns:** Person
-
+```crmscript
+NSPersonAgent agent;
+NSPerson thing = agent.GetPerson(123);
+```
 

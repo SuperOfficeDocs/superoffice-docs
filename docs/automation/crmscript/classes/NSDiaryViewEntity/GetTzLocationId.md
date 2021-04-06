@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_GetTzLocationId
 title: Integer GetTzLocationId()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Integer GetTzLocationId()
-intellisense: 1
-classref: 1
-sortOrder: 2408
-keywords: GetTzLocationId()
+intellisense: NSDiaryViewEntity.GetTzLocationId
+keywords: NSDiaryViewEntity, GetTzLocationId
+so.topic: reference
 ---
-
 
 Default timezone location for this view
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDiaryViewEntity thing;
+Integer tzLocationId  = thing.GetTzLocationId();
+```
 
 

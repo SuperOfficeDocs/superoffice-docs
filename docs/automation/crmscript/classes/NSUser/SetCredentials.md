@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_SetCredentials
+title: SetCredentials(CredentialArray credentials)
+intellisense: NSUser.SetCredentials
+keywords: NSUser, GetCredentials
+so.topic: reference
 ---
-title: Void SetCredentials(NSCredential[] Credentials)
-path: /EJScript/Classes/NSUser/Member functions/Void SetCredentials(NSCredential[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetCredentials(NSCredential[])
----
-
 
 List of credentials registered for this user. i.e. valid authentication methods.
 
+**Parameter:** 
+ - **credentials** CredentialArray
 
-
-* **Credentials:** CredentialArray
-* **Returns:** CredentialArray
-
+```crmscript
+NSUser thing;
+CredentialArray credentials;
+thing.SetCredentials(credentials);
+```
 

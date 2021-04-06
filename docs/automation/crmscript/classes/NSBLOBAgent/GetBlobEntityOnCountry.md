@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSBLOBAgent_GetBlobEntityOnCountry
+title: BlobEntity GetBlobEntityOnCountry(Integer countryId)
+intellisense: NSBLOBAgent.GetBlobEntityOnCountry
+keywords: NSBLOBAgent, GetBlobEntityOnCountry
+so.topic: reference
 ---
-title: NSBlobEntity GetBlobEntityOnCountry(Integer countryId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSBlobEntity GetBlobEntityOnCountry(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1411
-keywords: GetBlobEntityOnCountry(Integer)
----
-
 
 Gets the blob entity that represents the country flag binary object.
 
+**Parameters:**
+ - **countryId** The country id
 
+**Returns:** BlobEntity object
 
-* **countryId:** The country id
-* **Returns:** BlobEntity object
-
+```crmscript
+NSBLOBAgent agent;
+Integer countryId;
+BlobEntity res = agent.GetBlobEntityOnCountry(countryId);
+```
 

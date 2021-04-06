@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncFieldValue_GetDisplayName
 title: String GetDisplayName()
-path: /EJScript/Classes/NSErpSyncFieldValue/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 3328
-keywords: GetDisplayName()
+intellisense: NSErpSyncFieldValue.GetDisplayName
+keywords: NSErpSyncFieldValue, GetDisplayName
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSErpSyncFieldValue thing;
+String displayName  = thing.GetDisplayName();
+```
 
 

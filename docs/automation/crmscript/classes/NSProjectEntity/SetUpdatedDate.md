@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetUpdatedDate
+title: SetUpdatedDate(DateTime updatedDate)
+intellisense: NSProjectEntity.SetUpdatedDate
+keywords: NSProjectEntity, GetUpdatedDate
+so.topic: reference
 ---
-title: Void SetUpdatedDate(DateTime UpdatedDate)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetUpdatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatedDate(DateTime)
----
-
 
 Last updated date
 
+**Parameter:** 
+ - **updatedDate** DateTime
 
-
-* **UpdatedDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSProjectEntity thing;
+DateTime updatedDate;
+thing.SetUpdatedDate(updatedDate);
+```
 

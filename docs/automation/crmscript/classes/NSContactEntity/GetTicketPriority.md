@@ -1,13 +1,19 @@
----
-title: NSTicketPriority GetTicketPriority()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSTicketPriority GetTicketPriority()
-intellisense: 1
-classref: 1
-sortOrder: 1866
-keywords: GetTicketPriority()
+﻿---
+uid: crmscript_ref_NSContactEntity_GetTicketPriority
+title: TicketPriority GetTicketPriority()
+intellisense: NSContactEntity.GetTicketPriority
+keywords: NSContactEntity, GetTicketPriority
+so.topic: reference
 ---
 
 
-* **Returns:** TicketPriority
+
+**Returns:** TicketPriority
+
+
+```crmscript
+NSContactEntity thing;
+TicketPriority ticketPriority  = thing.GetTicketPriority();
+```
 
 

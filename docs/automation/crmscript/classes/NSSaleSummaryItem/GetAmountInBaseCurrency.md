@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_GetAmountInBaseCurrency
 title: Float GetAmountInBaseCurrency()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Float GetAmountInBaseCurrency()
-intellisense: 1
-classref: 1
-keywords: GetAmountInBaseCurrency()
+intellisense: NSSaleSummaryItem.GetAmountInBaseCurrency
+keywords: NSSaleSummaryItem, GetAmountInBaseCurrency
+so.topic: reference
 ---
-
 
 Sale amount converted to the base currency.
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSSaleSummaryItem thing;
+Float amountInBaseCurrency  = thing.GetAmountInBaseCurrency();
+```
 
 

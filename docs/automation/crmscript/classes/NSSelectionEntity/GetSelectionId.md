@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetSelectionId
 title: Integer GetSelectionId()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetSelectionId()
-intellisense: 1
-classref: 1
-keywords: GetSelectionId()
+intellisense: NSSelectionEntity.GetSelectionId
+keywords: NSSelectionEntity, GetSelectionId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectionEntity thing;
+Integer selectionId  = thing.GetSelectionId();
+```
 
 

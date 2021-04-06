@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfoExtended_GetPort
 title: Integer GetPort()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Integer GetPort()
-intellisense: 1
-classref: 1
-sortOrder: 2923
-keywords: GetPort()
+intellisense: NSEMailConnectionInfoExtended.GetPort
+keywords: NSEMailConnectionInfoExtended, GetPort
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSEMailConnectionInfoExtended thing;
+Integer port  = thing.GetPort();
+```
 
 

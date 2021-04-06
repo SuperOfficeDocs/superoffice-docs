@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncActorTypeMapping_GetErpConnectionId
 title: Integer GetErpConnectionId()
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/Integer GetErpConnectionId()
-intellisense: 1
-classref: 1
-sortOrder: 3165
-keywords: GetErpConnectionId()
+intellisense: NSErpSyncActorTypeMapping.GetErpConnectionId
+keywords: NSErpSyncActorTypeMapping, GetErpConnectionId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSErpSyncActorTypeMapping thing;
+Integer erpConnectionId  = thing.GetErpConnectionId();
+```
 
 

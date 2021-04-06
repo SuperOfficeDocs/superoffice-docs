@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSmtpTestResult_SetSuccess
+title: SetSuccess(Bool success)
+intellisense: NSSmtpTestResult.SetSuccess
+keywords: NSSmtpTestResult, GetSuccess
+so.topic: reference
 ---
-title: Void SetSuccess(Bool Success)
-path: /EJScript/Classes/NSSmtpTestResult/Member functions/Void SetSuccess(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSuccess(Bool)
----
-
 
 True if the test went ok. False if it failed. See the error message for details
 
+**Parameter:** 
+ - **success** Bool
 
-
-* **Success:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSSmtpTestResult thing;
+Bool success;
+thing.SetSuccess(success);
+```
 

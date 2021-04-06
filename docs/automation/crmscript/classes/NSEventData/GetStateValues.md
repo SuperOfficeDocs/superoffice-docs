@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEventData_GetStateValues
 title: StringDictionary GetStateValues()
-path: /EJScript/Classes/NSEventData/Member functions/StringDictionary GetStateValues()
-intellisense: 1
-classref: 1
-sortOrder: 3346
-keywords: GetStateValues()
+intellisense: NSEventData.GetStateValues
+keywords: NSEventData, GetStateValues
+so.topic: reference
 ---
-
 
 Values kept between event handlers
 
+**Returns:** StringDictionary
 
 
-* **Returns:** StringDictionary
+```crmscript
+NSEventData thing;
+StringDictionary stateValues  = thing.GetStateValues();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSCountry/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 2018
-keywords: GetRank()
+intellisense: NSCountry.GetRank
+keywords: NSCountry, GetRank
+so.topic: reference
 ---
-
 
 The rank of the country
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCountry thing;
+Integer rank  = thing.GetRank();
+```
 
 

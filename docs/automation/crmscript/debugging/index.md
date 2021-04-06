@@ -1,6 +1,6 @@
 ---
-title: crmscript_debugging
-description: Debugging
+uid: crmscript_debugging
+title: Debugging
 author:
 so.date:
 keywords:

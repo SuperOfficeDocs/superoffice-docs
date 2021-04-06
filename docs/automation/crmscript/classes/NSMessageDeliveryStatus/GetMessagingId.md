@@ -1,20 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMessageDeliveryStatus_GetMessagingId
 title: Integer GetMessagingId()
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Integer GetMessagingId()
-intellisense: 1
-classref: 1
-keywords: GetMessagingId()
+intellisense: NSMessageDeliveryStatus.GetMessagingId
+keywords: NSMessageDeliveryStatus, GetMessagingId
+so.topic: reference
 ---
 
+Id to the outgoing message table 
 
-Id to the outgoing message table
-
-
-    	///
-    
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSMessageDeliveryStatus thing;
+Integer messagingId  = thing.GetMessagingId();
+```
 
 

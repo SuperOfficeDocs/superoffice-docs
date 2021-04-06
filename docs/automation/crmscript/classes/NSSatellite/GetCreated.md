@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSatellite_GetCreated
 title: DateTime GetCreated()
-path: /EJScript/Classes/NSSatellite/Member functions/DateTime GetCreated()
-intellisense: 1
-classref: 1
-keywords: GetCreated()
+intellisense: NSSatellite.GetCreated
+keywords: NSSatellite, GetCreated
+so.topic: reference
 ---
-
 
 Registered when
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSSatellite thing;
+DateTime created  = thing.GetCreated();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContact_GetEmailAddress
 title: String GetEmailAddress()
-path: /EJScript/Classes/NSContact/Member functions/String GetEmailAddress()
-intellisense: 1
-classref: 1
-sortOrder: 1732
-keywords: GetEmailAddress()
+intellisense: NSContact.GetEmailAddress
+keywords: NSContact, GetEmailAddress
+so.topic: reference
 ---
-
 
 The contact email address
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContact thing;
+String emailAddress  = thing.GetEmailAddress();
+```
 
 

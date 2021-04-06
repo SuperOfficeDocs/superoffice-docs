@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetReceivedAt
+title: SetReceivedAt(DateTime receivedAt)
+intellisense: NSEMailEntity.SetReceivedAt
+keywords: NSEMailEntity, GetReceivedAt
+so.topic: reference
 ---
-title: Void SetReceivedAt(DateTime ReceivedAt)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetReceivedAt(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2993
-keywords: SetReceivedAt(DateTime)
----
-
 
 Received date time
 
+**Parameter:** 
+ - **receivedAt** DateTime
 
-
-* **ReceivedAt:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSEMailEntity thing;
+DateTime receivedAt;
+thing.SetReceivedAt(receivedAt);
+```
 

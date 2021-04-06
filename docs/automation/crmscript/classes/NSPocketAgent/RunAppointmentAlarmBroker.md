@@ -1,12 +1,10 @@
----
+﻿---
+uid: crmscript_ref_NSPocketAgent_RunAppointmentAlarmBroker
 title: Void RunAppointmentAlarmBroker()
-path: /EJScript/Classes/NSPocketAgent/Member functions/Void RunAppointmentAlarmBroker()
-intellisense: 1
-classref: 1
-keywords: RunAppointmentAlarmBroker()
+intellisense: NSPocketAgent.RunAppointmentAlarmBroker
+keywords: NSPocketAgent, RunAppointmentAlarmBroker
+so.topic: reference
 ---
-
 
 Execute the AppointmentAlarmBroker once
-
 

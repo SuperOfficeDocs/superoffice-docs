@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSelectionAgent_GetRecipientStatisticsFromProjectMembers
+title: RecipientStatistics GetRecipientStatisticsFromProjectMembers(Integer projectId)
+intellisense: NSSelectionAgent.GetRecipientStatisticsFromProjectMembers
+keywords: NSSelectionAgent, GetRecipientStatisticsFromProjectMembers
+so.topic: reference
 ---
-title: NSRecipientStatistics GetRecipientStatisticsFromProjectMembers(Integer projectId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSRecipientStatistics GetRecipientStatisticsFromProjectMembers(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetRecipientStatisticsFromProjectMembers(Integer)
----
-
 
 Returns a RecipientStatistics object with a count of addresses, emailaddresses and emailaddresses based on members in a project.
 
+**Parameters:**
+ - **projectId** The id of the project to get the member statistics for.
 
+**Returns:** Returns a RecipientStatistics object.
 
-* **projectId:** The id of the project to get the member statistics for.
-* **Returns:** Returns a RecipientStatistics object.
-
+```crmscript
+NSSelectionAgent agent;
+Integer projectId;
+RecipientStatistics res = agent.GetRecipientStatisticsFromProjectMembers(projectId);
+```
 

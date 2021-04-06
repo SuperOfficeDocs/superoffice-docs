@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_SetCountRows
+title: SetCountRows(Integer countRows)
+intellisense: NSReportLabelLayoutEntity.SetCountRows
+keywords: NSReportLabelLayoutEntity, GetCountRows
+so.topic: reference
 ---
-title: Void SetCountRows(Integer CountRows)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetCountRows(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCountRows(Integer)
----
-
 
 Number of rows
 
+**Parameter:** 
+ - **countRows** Integer
 
-
-* **CountRows:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer countRows;
+thing.SetCountRows(countRows);
+```
 

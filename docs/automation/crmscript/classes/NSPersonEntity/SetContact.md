@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetContact
+title: SetContact(Contact contact)
+intellisense: NSPersonEntity.SetContact
+keywords: NSPersonEntity, GetContact
+so.topic: reference
 ---
-title: Void SetContact(NSContact Contact)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetContact(NSContact p_0)
-intellisense: 1
-classref: 1
-keywords: SetContact(NSContact)
----
 
+The contact the contact person is registered on. This is required unless the 'MandatoryContactOnPerson' preference is set.
 
-The contact the contact person is registered on. This is required.
+**Parameter:** 
+ - **contact** Contact
 
-
-
-* **Contact:** Contact
-* **Returns:** Contact
-
+```crmscript
+NSPersonEntity thing;
+Contact contact;
+thing.SetContact(contact);
+```
 

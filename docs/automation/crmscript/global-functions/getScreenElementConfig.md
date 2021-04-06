@@ -1,9 +1,9 @@
 ---
 description: Map getScreenElementConfig(Integer index)
-path: /EJScript/Global functions/Map getScreenElementConfig(Integer index)
-intellisense: 1
+intellisense: Void.getScreenElementConfig
 langref: 1
 keywords: getScreenElementConfig(Integer)
+so.topic: reference
 ---
 
 

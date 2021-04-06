@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetDeleted
+title: SetDeleted(Integer deleted)
+intellisense: NSContactEntity.SetDeleted
+keywords: NSContactEntity, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Integer Deleted)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetDeleted(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1893
-keywords: SetDeleted(Integer)
----
-
 
 If nonzero, then this contact is 'deleted' and should generally not be shown
 
+**Parameter:** 
+ - **deleted** Integer
 
-
-* **Deleted:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContactEntity thing;
+Integer deleted;
+thing.SetDeleted(deleted);
+```
 

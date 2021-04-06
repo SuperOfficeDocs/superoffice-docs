@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionGroup_GetName
 title: String GetName()
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 1205
-keywords: GetName()
+intellisense: NSArchiveRestrictionGroup.GetName
+keywords: NSArchiveRestrictionGroup, GetName
+so.topic: reference
 ---
-
 
 The name of this criteria group
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSArchiveRestrictionGroup thing;
+String name  = thing.GetName();
+```
 
 

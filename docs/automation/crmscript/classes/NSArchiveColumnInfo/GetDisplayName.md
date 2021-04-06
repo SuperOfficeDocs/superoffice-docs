@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_GetDisplayName
 title: String GetDisplayName()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 1140
-keywords: GetDisplayName()
+intellisense: NSArchiveColumnInfo.GetDisplayName
+keywords: NSArchiveColumnInfo, GetDisplayName
+so.topic: reference
 ---
-
 
 The column name to show, can be a resource identifier string.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSArchiveColumnInfo thing;
+String displayName  = thing.GetDisplayName();
+```
 
 

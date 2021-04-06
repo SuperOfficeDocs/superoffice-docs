@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWindowPosSize_SetWindowPosSizeId
+title: SetWindowPosSizeId(Integer windowPosSizeId)
+intellisense: NSWindowPosSize.SetWindowPosSizeId
+keywords: NSWindowPosSize, GetWindowPosSizeId
+so.topic: reference
 ---
-title: Void SetWindowPosSizeId(Integer WindowPosSizeId)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetWindowPosSizeId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetWindowPosSizeId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **windowPosSizeId** Integer
 
-
-* **WindowPosSizeId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSWindowPosSize thing;
+Integer windowPosSizeId;
+thing.SetWindowPosSizeId(windowPosSizeId);
+```
 

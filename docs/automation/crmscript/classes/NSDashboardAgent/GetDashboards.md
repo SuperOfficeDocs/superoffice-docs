@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDashboardAgent_GetDashboards
+title: DashboardArray GetDashboards(Integer associateId)
+intellisense: NSDashboardAgent.GetDashboards
+keywords: NSDashboardAgent, GetDashboards
+so.topic: reference
 ---
-title: NSDashboard[] GetDashboards(Integer associateId)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboard[] GetDashboards(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2276
-keywords: GetDashboards(Integer)
----
-
 
 Gets all dashboards for an associate
 
+**Parameters:**
+ - **associateId** Associate Id
 
+**Returns:** All the users dashboards
 
-* **associateId:** Associate Id
-* **Returns:** All the users dashboards
-
+```crmscript
+NSDashboardAgent agent;
+Integer associateId;
+DashboardArray res = agent.GetDashboards(associateId);
+```
 

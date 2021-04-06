@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSImportLine_GetValues
+title: StringArray GetValues()
+intellisense: NSImportLine.GetValues
+keywords: NSImportLine, GetValues
+so.topic: reference
 ---
-title: String[] GetValues()
-path: /EJScript/Classes/NSImportLine/Member functions/String[] GetValues()
-intellisense: 1
-classref: 1
-sortOrder: 3978
-keywords: GetValues()
----
-
 
 An array of the values that will be imported on the entity
 
+**Returns:** StringArray
 
 
-* **Returns:** StringArray
+```crmscript
+NSImportLine thing;
+StringArray values  = thing.GetValues();
+```
 
 

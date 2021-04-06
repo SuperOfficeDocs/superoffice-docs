@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSHistory
 title: NSHistory
-path: /EJScript/Classes/NSHistory
-intellisense: 1
-classref: 1
-sortOrder: 3924
+intellisense: Void.NSHistory
+keywords: NSHistory
+so.topic: reference
 ---
-
 
 The usage history of the currently logged in user is represented as History objects.
 
-
-
-
-1. autolist
+1. autolist 
 

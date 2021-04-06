@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPluginResponse_SetChanges
+title: SetChanges(ChangedData changes)
+intellisense: NSPluginResponse.SetChanges
+keywords: NSPluginResponse, GetChanges
+so.topic: reference
 ---
-title: Void SetChanges(NSChangedData Changes)
-path: /EJScript/Classes/NSPluginResponse/Member functions/Void SetChanges(NSChangedData p_0)
-intellisense: 1
-classref: 1
-keywords: SetChanges(NSChangedData)
----
-
 
 Tablename/recordid of data changed by this method, that the client may need to reload
 
+**Parameter:** 
+ - **changes** ChangedData
 
-
-* **Changes:** ChangedData
-* **Returns:** ChangedData
-
+```crmscript
+NSPluginResponse thing;
+ChangedData changes;
+thing.SetChanges(changes);
+```
 

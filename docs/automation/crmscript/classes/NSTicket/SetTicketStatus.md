@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetTicketStatus
+title: SetTicketStatus(Integer ticketStatus)
+intellisense: NSTicket.SetTicketStatus
+keywords: NSTicket, GetTicketStatus
+so.topic: reference
 ---
-title: Void SetTicketStatus(Integer TicketStatus)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetTicketStatus(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTicketStatus(Integer)
----
-
 
 User defined ticket status
 
+**Parameter:** 
+ - **ticketStatus** Integer
 
-
-* **TicketStatus:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicket thing;
+Integer ticketStatus;
+thing.SetTicketStatus(ticketStatus);
+```
 

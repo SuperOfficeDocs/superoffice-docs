@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetRawExtraInfo
 title: String GetRawExtraInfo()
-path: /EJScript/Classes/NSProduct/Member functions/String GetRawExtraInfo()
-intellisense: 1
-classref: 1
-keywords: GetRawExtraInfo()
+intellisense: NSProduct.GetRawExtraInfo
+keywords: NSProduct, GetRawExtraInfo
+so.topic: reference
 ---
-
 
 Read-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProduct thing;
+String rawExtraInfo  = thing.GetRawExtraInfo();
+```
 
 

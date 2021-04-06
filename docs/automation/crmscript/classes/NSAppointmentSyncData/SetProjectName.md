@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_SetProjectName
+title: SetProjectName(String projectName)
+intellisense: NSAppointmentSyncData.SetProjectName
+keywords: NSAppointmentSyncData, GetProjectName
+so.topic: reference
 ---
-title: Void SetProjectName(String ProjectName)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetProjectName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1087
-keywords: SetProjectName(String)
----
-
 
 Project name
 
+**Parameter:** 
+ - **projectName** String
 
-
-* **ProjectName:** String
-* **Returns:** String
-
+```crmscript
+NSAppointmentSyncData thing;
+String projectName;
+thing.SetProjectName(projectName);
+```
 

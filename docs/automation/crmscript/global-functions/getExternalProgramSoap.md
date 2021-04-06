@@ -1,9 +1,9 @@
 ---
 description: String getExternalProgramSoap()
-path: /EJScript/Global functions/String getExternalProgramSoap()
-intellisense: 1
+intellisense: Void.getExternalProgramSoap
 langref: 1
 keywords: getExternalProgramSoap()
+so.topic: reference
 ---
 
 

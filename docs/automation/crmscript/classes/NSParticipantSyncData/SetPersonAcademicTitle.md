@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetPersonAcademicTitle
+title: SetPersonAcademicTitle(String personAcademicTitle)
+intellisense: NSParticipantSyncData.SetPersonAcademicTitle
+keywords: NSParticipantSyncData, GetPersonAcademicTitle
+so.topic: reference
 ---
-title: Void SetPersonAcademicTitle(String PersonAcademicTitle)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPersonAcademicTitle(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonAcademicTitle(String)
----
-
 
 Academic title, populated from Salutation list but can be overwritten with anything at all
 
+**Parameter:** 
+ - **personAcademicTitle** String
 
-
-* **PersonAcademicTitle:** String
-* **Returns:** String
-
+```crmscript
+NSParticipantSyncData thing;
+String personAcademicTitle;
+thing.SetPersonAcademicTitle(personAcademicTitle);
+```
 

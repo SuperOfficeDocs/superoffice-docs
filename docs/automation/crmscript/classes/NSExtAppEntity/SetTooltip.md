@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSExtAppEntity.SetTooltip
+keywords: NSExtAppEntity, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3397
-keywords: SetTooltip(String)
----
-
 
 The tooltip of the web panel
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSExtAppEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

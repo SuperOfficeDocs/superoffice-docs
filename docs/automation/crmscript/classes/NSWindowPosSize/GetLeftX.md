@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWindowPosSize_GetLeftX
 title: Integer GetLeftX()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetLeftX()
-intellisense: 1
-classref: 1
-keywords: GetLeftX()
+intellisense: NSWindowPosSize.GetLeftX
+keywords: NSWindowPosSize, GetLeftX
+so.topic: reference
 ---
-
 
 X of origin, left edge of widget
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWindowPosSize thing;
+Integer leftX  = thing.GetLeftX();
+```
 
 

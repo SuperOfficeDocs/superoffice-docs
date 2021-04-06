@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSRedLetterInformationListItem
 title: NSRedLetterInformationListItem
-path: /EJScript/Classes/NSRedLetterInformationListItem
-intellisense: 1
-classref: 1
+intellisense: Void.NSRedLetterInformationListItem
+keywords: NSRedLetterInformationListItem
+so.topic: reference
 ---
-
 
 Detailed information on red-letter days, including both holidays and other days with their individual texts.
 
-
-
-
-1. autolist
+1. autolist 
 

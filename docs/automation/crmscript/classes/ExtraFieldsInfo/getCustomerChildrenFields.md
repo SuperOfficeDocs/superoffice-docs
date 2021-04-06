@@ -1,10 +1,10 @@
 ---
-title: Void getCustomerChildrenFields()
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/Void getCustomerChildrenFields()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ExtraFieldsInfo_getCustomerChildrenFields
+title: ExtraFieldsInfo.getCustomerChildrenFields()
+intellisense: ExtraFieldsInfo.getCustomerChildrenFields
 sortOrder: 312
 keywords: getCustomerChildrenFields()
+so.topic: reference
 ---
 
 This is a helper function for getting customer relation fields. It is equivalent to calling getChildrenFields(16, 0)

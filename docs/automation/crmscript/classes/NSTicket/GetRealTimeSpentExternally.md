@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetRealTimeSpentExternally
 title: Integer GetRealTimeSpentExternally()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetRealTimeSpentExternally()
-intellisense: 1
-classref: 1
-keywords: GetRealTimeSpentExternally()
+intellisense: NSTicket.GetRealTimeSpentExternally
+keywords: NSTicket, GetRealTimeSpentExternally
+so.topic: reference
 ---
-
 
 The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicket thing;
+Integer realTimeSpentExternally  = thing.GetRealTimeSpentExternally();
+```
 
 

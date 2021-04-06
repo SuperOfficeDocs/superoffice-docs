@@ -1,6 +1,6 @@
 ---
-title: crmscript_fundamentals_if_else
-description: Control - if else and else if
+uid: crmscript_fundamentals_if_else
+title: Control - if else and else if
 author:
 so.date:
 keywords:

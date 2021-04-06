@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetProjectId
+title: SetProjectId(Integer projectId)
+intellisense: NSAppointment.SetProjectId
+keywords: NSAppointment, GetProjectId
+so.topic: reference
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 808
-keywords: SetProjectId(Integer)
----
-
 
 ID of project referred to, may be 0
 
+**Parameter:** 
+ - **projectId** Integer
 
-
-* **ProjectId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointment thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldLeft
 title: Integer GetFieldLeft()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetFieldLeft()
-intellisense: 1
-classref: 1
-keywords: GetFieldLeft()
+intellisense: NSUserDefinedFieldInfo.GetFieldLeft
+keywords: NSUserDefinedFieldInfo, GetFieldLeft
+so.topic: reference
 ---
-
 
 X pixel coordinate of field
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldLeft  = thing.GetFieldLeft();
+```
 
 

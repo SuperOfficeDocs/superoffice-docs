@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCsSessionKey_SetKey
+title: SetKey(String key)
+intellisense: NSCsSessionKey.SetKey
+keywords: NSCsSessionKey, GetKey
+so.topic: reference
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSCsSessionKey/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2166
-keywords: SetKey(String)
----
-
 
 The session key created in the login table
 
+**Parameter:** 
+ - **key** String
 
-
-* **Key:** String
-* **Returns:** String
-
+```crmscript
+NSCsSessionKey thing;
+String key;
+thing.SetKey(key);
+```
 

@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserValidationResult_SetReason
+title: SetReason(String reason)
+intellisense: NSUserValidationResult.SetReason
+keywords: NSUserValidationResult, GetReason
+so.topic: reference
 ---
-title: Void SetReason(String Reason)
-path: /EJScript/Classes/NSUserValidationResult/Member functions/Void SetReason(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetReason(String)
----
 
 
-* **Reason:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **reason** String
+
+```crmscript
+NSUserValidationResult thing;
+String reason;
+thing.SetReason(reason);
+```
 

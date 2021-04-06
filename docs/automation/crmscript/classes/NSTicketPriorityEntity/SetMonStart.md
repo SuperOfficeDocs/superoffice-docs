@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetMonStart
+title: SetMonStart(DateTime monStart)
+intellisense: NSTicketPriorityEntity.SetMonStart
+keywords: NSTicketPriorityEntity, GetMonStart
+so.topic: reference
 ---
-title: Void SetMonStart(DateTime MonStart)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetMonStart(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetMonStart(DateTime)
----
-
 
 The work hour start for Mondays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **monStart** DateTime
 
-
-* **MonStart:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime monStart;
+thing.SetMonStart(monStart);
+```
 

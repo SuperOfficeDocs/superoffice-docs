@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnection_GetDisplayDescription
 title: String GetDisplayDescription()
-path: /EJScript/Classes/NSErpConnection/Member functions/String GetDisplayDescription()
-intellisense: 1
-classref: 1
-sortOrder: 3086
-keywords: GetDisplayDescription()
+intellisense: NSErpConnection.GetDisplayDescription
+keywords: NSErpConnection, GetDisplayDescription
+so.topic: reference
 ---
-
 
 Tooltip/description shown to user; multi-language support
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpConnection thing;
+String displayDescription  = thing.GetDisplayDescription();
+```
 
 

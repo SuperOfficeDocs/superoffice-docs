@@ -1,10 +1,10 @@
 ---
-title: Bool load(Integer id)
-path: /EJScript/Classes/Attachment/Member functions/Bool load(Integer id)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Attachment_load_Integer_id
+title: Attachment.load(Integer id)
+intellisense: Attachment.load
 sortOrder: 119
 keywords: load(Integer)
+so.topic: reference
 ---
 
 

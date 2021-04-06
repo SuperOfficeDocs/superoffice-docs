@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetGraceDate
+title: SetGraceDate(DateTime graceDate)
+intellisense: NSLicenseInfo.SetGraceDate
+keywords: NSLicenseInfo, GetGraceDate
+so.topic: reference
 ---
-title: Void SetGraceDate(DateTime GraceDate)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetGraceDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetGraceDate(DateTime)
----
-
 
 Real expiration date, when the given module actually stops working. Modules that normally update data should switch to read-only mode. Modules that only read anyway, should disable themselves in some other way
 
+**Parameter:** 
+ - **graceDate** DateTime
 
-
-* **GraceDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSLicenseInfo thing;
+DateTime graceDate;
+thing.SetGraceDate(graceDate);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSListEntity_SetListType
+title: SetListType(String listType)
+intellisense: NSListEntity.SetListType
+keywords: NSListEntity, GetListType
+so.topic: reference
 ---
-title: Void SetListType(String ListType)
-path: /EJScript/Classes/NSListEntity/Member functions/Void SetListType(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetListType(String)
----
-
 
 The type of this list, often indicated by the database name, but not necessarily
 
+**Parameter:** 
+ - **listType** String
 
-
-* **ListType:** String
-* **Returns:** String
-
+```crmscript
+NSListEntity thing;
+String listType;
+thing.SetListType(listType);
+```
 

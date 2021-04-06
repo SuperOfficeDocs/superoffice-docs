@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetConsentPurposes
+title: ConsentPurposeArray GetConsentPurposes()
+intellisense: NSListAgent.GetConsentPurposes
+keywords: NSListAgent, GetConsentPurposes
+so.topic: reference
 ---
-title: NSConsentPurpose[] GetConsentPurposes()
-path: /EJScript/Classes/NSListAgent/Member functions/NSConsentPurpose[] GetConsentPurposes()
-intellisense: 1
-classref: 1
-keywords: GetConsentPurposes()
----
-
 
 Returns all defined purposes.
 
 
+**Returns:** An array of all defined purposes
 
-* **Returns:** An array of all defined purposes
-
+```crmscript
+NSListAgent agent;
+ConsentPurposeArray res = agent.GetConsentPurposes();
+```
 

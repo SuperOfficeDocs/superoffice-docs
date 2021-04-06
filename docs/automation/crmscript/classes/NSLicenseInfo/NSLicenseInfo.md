@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo
 title: NSLicenseInfo
-path: /EJScript/Classes/NSLicenseInfo
-intellisense: 1
-classref: 1
+intellisense: Void.NSLicenseInfo
+keywords: NSLicenseInfo
+so.topic: reference
 ---
-
 
 Represents all licenses for this owner at this site.
 
-
-
-
-1. autolist
+1. autolist 
 

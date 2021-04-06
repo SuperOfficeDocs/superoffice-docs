@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_GetSource
 title: String GetSource()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/String GetSource()
-intellisense: 1
-classref: 1
-sortOrder: 2136
-keywords: GetSource()
+intellisense: NSCRMScriptEntity.GetSource
+keywords: NSCRMScriptEntity, GetSource
+so.topic: reference
 ---
-
 
 The script
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCRMScriptEntity thing;
+String source  = thing.GetSource();
+```
 
 

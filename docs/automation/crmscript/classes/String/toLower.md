@@ -1,9 +1,9 @@
 ---
-title: String toLower()
-path: /EJScript/Classes/String/Member functions/String toLower()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_toLower
+title: String.toLower()
+intellisense: String.toLower
 keywords: toLower()
+so.topic: reference
 ---
 
 

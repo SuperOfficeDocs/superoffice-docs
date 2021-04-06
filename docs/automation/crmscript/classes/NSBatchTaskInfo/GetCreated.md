@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetCreated
 title: DateTime GetCreated()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/DateTime GetCreated()
-intellisense: 1
-classref: 1
-sortOrder: 1366
-keywords: GetCreated()
+intellisense: NSBatchTaskInfo.GetCreated
+keywords: NSBatchTaskInfo, GetCreated
+so.topic: reference
 ---
-
 
 Task creation time.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSBatchTaskInfo thing;
+DateTime created  = thing.GetCreated();
+```
 
 

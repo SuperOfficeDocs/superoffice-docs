@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetLabelHeight
+title: SetLabelHeight(Integer labelHeight)
+intellisense: NSUserDefinedFieldInfo.SetLabelHeight
+keywords: NSUserDefinedFieldInfo, GetLabelHeight
+so.topic: reference
 ---
-title: Void SetLabelHeight(Integer LabelHeight)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetLabelHeight(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetLabelHeight(Integer)
----
-
 
 label height in pixels, 0 = 'enough' (from font)
 
+**Parameter:** 
+ - **labelHeight** Integer
 
-
-* **LabelHeight:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer labelHeight;
+thing.SetLabelHeight(labelHeight);
+```
 

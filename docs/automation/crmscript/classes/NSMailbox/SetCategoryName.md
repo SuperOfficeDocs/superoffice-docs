@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailbox_SetCategoryName
+title: SetCategoryName(String categoryName)
+intellisense: NSMailbox.SetCategoryName
+keywords: NSMailbox, GetCategoryName
+so.topic: reference
 ---
-title: Void SetCategoryName(String CategoryName)
-path: /EJScript/Classes/NSMailbox/Member functions/Void SetCategoryName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCategoryName(String)
----
-
 
 The name of the category that the mailbox is connected to
 
+**Parameter:** 
+ - **categoryName** String
 
-
-* **CategoryName:** String
-* **Returns:** String
-
+```crmscript
+NSMailbox thing;
+String categoryName;
+thing.SetCategoryName(categoryName);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSStatisticsDataValue_GetValue
 title: Float GetValue()
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/Float GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSStatisticsDataValue.GetValue
+keywords: NSStatisticsDataValue, GetValue
+so.topic: reference
 ---
-
 
 The value for the data value
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSStatisticsDataValue thing;
+Float value  = thing.GetValue();
+```
 
 

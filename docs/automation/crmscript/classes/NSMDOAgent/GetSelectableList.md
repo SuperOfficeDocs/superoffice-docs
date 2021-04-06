@@ -1,20 +1,27 @@
+﻿---
+uid: crmscript_ref_NSMDOAgent_GetSelectableList
+title: SelectableMDOListItemArray GetSelectableList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
+intellisense: NSMDOAgent.GetSelectableList
+keywords: NSMDOAgent, GetSelectableList
+so.topic: reference
 ---
-title: NSSelectableMDOListItem[] GetSelectableList(String name, Bool forceFlatList, String additionalInfo, Bool onlyHistory)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSSelectableMDOListItem[] GetSelectableList(String p_0, Bool p_1, String p_2, Bool p_3)
-intellisense: 1
-classref: 1
-keywords: GetSelectableList(String,Bool,String,Bool)
----
-
 
 Method to get a Selectable MDO list.
 
+**Parameters:**
+ - **name** Conceptual name of the MDO list.
+ - **forceFlatList** Force the list to be flat
+ - **additionalInfo** Additional info to the MDO provider
+ - **onlyHistory** If true, return only history items
 
+**Returns:** Array of SelectableMDOListItem
 
-* **name:** Conceptual name of the MDO list.
-* **forceFlatList:** Force the list to be flat
-* **additionalInfo:** Additional info to the MDO provider
-* **onlyHistory:** If true, return only history items
-* **Returns:** Array of SelectableMDOListItem
-
+```crmscript
+NSMDOAgent agent;
+String name;
+Bool forceFlatList;
+String additionalInfo;
+Bool onlyHistory;
+SelectableMDOListItemArray res = agent.GetSelectableList(name, forceFlatList, additionalInfo, onlyHistory);
+```
 

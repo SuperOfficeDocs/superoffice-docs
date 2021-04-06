@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSPreferenceAgent_GetPreferenceDescription
+title: NSPreferenceDescription GetPreferenceDescription(Integer preferenceDescriptionId);
+intellisense: NSPreferenceAgent.GetPreferenceDescription
+keywords: NSPreferenceAgent, GetPreferenceDescription
+so.topic: reference
 ---
-title: NSPreferenceDescription GetPreferenceDescription(Integer preferenceDescriptionId)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription GetPreferenceDescription(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetPreferenceDescription(Integer)
----
 
+Gets a NSPreferenceDescription object.
 
-Gets a PreferenceDescription object.
+**Parameters:**
+ - **preferenceDescriptionId** The identifier of the NSPreferenceDescription object
 
+**Returns:** NSPreferenceDescription
 
-
-* **preferenceDescriptionId:** The identifier of the PreferenceDescription object
-* **Returns:** PreferenceDescription
-
+```crmscript
+NSPreferenceAgent agent;
+NSPreferenceDescription thing = agent.GetPreferenceDescription(123);
+```
 

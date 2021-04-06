@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_NSRecurrenceMonthPattern
 title: NSRecurrenceMonthPattern
-path: /EJScript/Classes/NSRecurrenceMonthPattern
-intellisense: 1
-classref: 1
+intellisense: Void.NSRecurrenceMonthPattern
+so.topic: reference
 ---
 
 

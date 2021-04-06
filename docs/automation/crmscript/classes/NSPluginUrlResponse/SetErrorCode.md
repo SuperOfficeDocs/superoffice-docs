@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPluginUrlResponse_SetErrorCode
+title: SetErrorCode(String errorCode)
+intellisense: NSPluginUrlResponse.SetErrorCode
+keywords: NSPluginUrlResponse, GetErrorCode
+so.topic: reference
 ---
-title: Void SetErrorCode(String ErrorCode)
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/Void SetErrorCode(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetErrorCode(String)
----
-
 
 An error code, if available.
 
+**Parameter:** 
+ - **errorCode** String
 
-
-* **ErrorCode:** String
-* **Returns:** String
-
+```crmscript
+NSPluginUrlResponse thing;
+String errorCode;
+thing.SetErrorCode(errorCode);
+```
 

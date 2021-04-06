@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSQuickReply
 title: NSQuickReply
-path: /EJScript/Classes/NSQuickReply
-intellisense: 1
-classref: 1
+intellisense: Void.NSQuickReply
+keywords: NSQuickReply
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

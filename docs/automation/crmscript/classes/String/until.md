@@ -1,9 +1,9 @@
 ---
-title: String until(String s)
-path: /EJScript/Classes/String/Member functions/String until(String s)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_until_String_s
+title: String.until(String s)
+intellisense: String.until
 keywords: until(String)
+so.topic: reference
 ---
 
 

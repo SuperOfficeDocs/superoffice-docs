@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSaleType
 title: NSSaleType
-path: /EJScript/Classes/NSSaleType
-intellisense: 1
-classref: 1
+intellisense: Void.NSSaleType
+keywords: NSSaleType
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

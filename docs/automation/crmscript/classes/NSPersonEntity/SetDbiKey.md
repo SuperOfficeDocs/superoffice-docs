@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetDbiKey
+title: SetDbiKey(String dbiKey)
+intellisense: NSPersonEntity.SetDbiKey
+keywords: NSPersonEntity, GetDbiKey
+so.topic: reference
 ---
-title: Void SetDbiKey(String DbiKey)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetDbiKey(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDbiKey(String)
----
-
 
 The primary key for the integrated entry in the external datasource.
 
+**Parameter:** 
+ - **dbiKey** String
 
-
-* **DbiKey:** String
-* **Returns:** String
-
+```crmscript
+NSPersonEntity thing;
+String dbiKey;
+thing.SetDbiKey(dbiKey);
+```
 

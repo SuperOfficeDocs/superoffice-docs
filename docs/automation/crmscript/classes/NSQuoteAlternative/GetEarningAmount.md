@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_GetEarningAmount
 title: Float GetEarningAmount()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Float GetEarningAmount()
-intellisense: 1
-classref: 1
-keywords: GetEarningAmount()
+intellisense: NSQuoteAlternative.GetEarningAmount
+keywords: NSQuoteAlternative, GetEarningAmount
+so.topic: reference
 ---
-
 
 Earning on this alternative, as an absolute amount
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSQuoteAlternative thing;
+Float earningAmount  = thing.GetEarningAmount();
+```
 
 

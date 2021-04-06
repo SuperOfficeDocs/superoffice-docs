@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnectionData_SetConnectionName
+title: SetConnectionName(String connectionName)
+intellisense: NSErpConnectionData.SetConnectionName
+keywords: NSErpConnectionData, GetConnectionName
+so.topic: reference
 ---
-title: Void SetConnectionName(String ConnectionName)
-path: /EJScript/Classes/NSErpConnectionData/Member functions/Void SetConnectionName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3115
-keywords: SetConnectionName(String)
----
-
 
 The name of the connection
 
+**Parameter:** 
+ - **connectionName** String
 
-
-* **ConnectionName:** String
-* **Returns:** String
-
+```crmscript
+NSErpConnectionData thing;
+String connectionName;
+thing.SetConnectionName(connectionName);
+```
 

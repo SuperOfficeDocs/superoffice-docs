@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLink_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSLink/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSLink.GetDescription
+keywords: NSLink, GetDescription
+so.topic: reference
 ---
-
 
 Link description.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLink thing;
+String description  = thing.GetDescription();
+```
 
 

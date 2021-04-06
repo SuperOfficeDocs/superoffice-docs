@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLineConfiguration_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSQuoteLineConfiguration.SetTooltip
+keywords: NSQuoteLineConfiguration, GetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
-
 
 Tooltip resource string.
 
+**Parameter:** 
+ - **tooltip** String
 
-
-* **Tooltip:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteLineConfiguration thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
 

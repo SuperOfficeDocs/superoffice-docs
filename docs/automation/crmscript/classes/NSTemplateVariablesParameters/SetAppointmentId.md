@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_SetAppointmentId
+title: SetAppointmentId(Integer appointmentId)
+intellisense: NSTemplateVariablesParameters.SetAppointmentId
+keywords: NSTemplateVariablesParameters, GetAppointmentId
+so.topic: reference
 ---
-title: Void SetAppointmentId(Integer AppointmentId)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetAppointmentId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAppointmentId(Integer)
----
-
 
 Identifier for an appointment
 
+**Parameter:** 
+ - **appointmentId** Integer
 
-
-* **AppointmentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer appointmentId;
+thing.SetAppointmentId(appointmentId);
+```
 

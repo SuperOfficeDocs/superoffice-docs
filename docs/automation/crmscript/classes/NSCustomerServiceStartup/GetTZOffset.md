@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerServiceStartup_GetTZOffset
 title: Integer GetTZOffset()
-path: /EJScript/Classes/NSCustomerServiceStartup/Member functions/Integer GetTZOffset()
-intellisense: 1
-classref: 1
-sortOrder: 2253
-keywords: GetTZOffset()
+intellisense: NSCustomerServiceStartup.GetTZOffset
+keywords: NSCustomerServiceStartup, GetTZOffset
+so.topic: reference
 ---
-
 
 The offset in minutes compared with UTC, calculated for DateTime.Now
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCustomerServiceStartup thing;
+Integer tZOffset  = thing.GetTZOffset();
+```
 
 

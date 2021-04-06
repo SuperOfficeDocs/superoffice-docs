@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSProjectType_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSProjectType/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSProjectType.GetValue
+keywords: NSProjectType, GetValue
+so.topic: reference
 ---
 
+Get the name of the ProjectType.
 
-* **Returns:** String
+**Returns:** String ProjectType name.
 
+```crmscript
+NSProjectType thing;
+String name = thing.GetValue();
+```
 

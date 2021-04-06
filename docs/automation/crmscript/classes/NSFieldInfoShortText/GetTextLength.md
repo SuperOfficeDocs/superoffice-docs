@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoShortText_GetTextLength
 title: Integer GetTextLength()
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/Integer GetTextLength()
-intellisense: 1
-classref: 1
-sortOrder: 3548
-keywords: GetTextLength()
+intellisense: NSFieldInfoShortText.GetTextLength
+keywords: NSFieldInfoShortText, GetTextLength
+so.topic: reference
 ---
-
 
 Length (in characters) of a text field, 0 for other types
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFieldInfoShortText thing;
+Integer textLength  = thing.GetTextLength();
+```
 
 

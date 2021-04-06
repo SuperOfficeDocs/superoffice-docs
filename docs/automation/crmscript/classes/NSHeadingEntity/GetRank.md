@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSHeadingEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSHeadingEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 3914
-keywords: GetRank()
+intellisense: NSHeadingEntity.GetRank
+keywords: NSHeadingEntity, GetRank
+so.topic: reference
 ---
 
+Rank order 
 
-Rank order
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSHeadingEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

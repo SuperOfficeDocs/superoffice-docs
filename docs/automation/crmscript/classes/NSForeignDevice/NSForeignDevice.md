@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSForeignDevice
 title: NSForeignDevice
-path: /EJScript/Classes/NSForeignDevice
-intellisense: 1
-classref: 1
-sortOrder: 3712
+intellisense: Void.NSForeignDevice
+keywords: NSForeignDevice
+so.topic: reference
 ---
-
 
 Saves a foreign device belonging to the ForeignDevice and application name specified.
 
-
-
-
-1. autolist
+1. autolist 
 

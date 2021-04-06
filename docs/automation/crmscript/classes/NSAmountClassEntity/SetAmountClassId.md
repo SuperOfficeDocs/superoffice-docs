@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAmountClassEntity_SetAmountClassId
+title: SetAmountClassId(Integer amountClassId)
+intellisense: NSAmountClassEntity.SetAmountClassId
+keywords: NSAmountClassEntity, GetAmountClassId
+so.topic: reference
 ---
-title: Void SetAmountClassId(Integer AmountClassId)
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Void SetAmountClassId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 703
-keywords: SetAmountClassId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **amountClassId** Integer
 
-
-* **AmountClassId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAmountClassEntity thing;
+Integer amountClassId;
+thing.SetAmountClassId(amountClassId);
+```
 

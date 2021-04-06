@@ -1,9 +1,9 @@
 ---
 description: IntegerArray getFavourites(String table)
-path: /EJScript/Global functions/IntegerArray getFavourites(String table)
-intellisense: 1
+intellisense: Void.getFavourites
 langref: 1
 keywords: getFavourites(String)
+so.topic: reference
 ---
 
 

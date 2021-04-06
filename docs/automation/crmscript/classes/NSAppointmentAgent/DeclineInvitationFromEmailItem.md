@@ -1,18 +1,13 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_DeclineInvitationFromEmailItem
 title: Void DeclineInvitationFromEmailItem(Integer emailItemId, String rejectReason)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void DeclineInvitationFromEmailItem(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
-sortOrder: 913
-keywords: DeclineInvitationFromEmailItem(Integer,String)
+intellisense: NSAppointmentAgent.DeclineInvitationFromEmailItem
+keywords: NSAppointmentAgent, DeclineInvitationFromEmailItem
+so.topic: reference
 ---
-
 
 Declining an appointment invitation where no tentative appointments have been created.
 
-
-
-* **emailItemId:** The emailItemId.
-* **rejectReason:** The reason the invitation was rejected.
-
-
+**Parameters:**
+ - **emailItemId** The emailItemId.
+ - **rejectReason** The reason the invitation was rejected.

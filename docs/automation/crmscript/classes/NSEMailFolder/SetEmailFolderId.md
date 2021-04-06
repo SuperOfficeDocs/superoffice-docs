@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailFolder_SetEmailFolderId
+title: SetEmailFolderId(Integer emailFolderId)
+intellisense: NSEMailFolder.SetEmailFolderId
+keywords: NSEMailFolder, GetEmailFolderId
+so.topic: reference
 ---
-title: Void SetEmailFolderId(Integer EmailFolderId)
-path: /EJScript/Classes/NSEMailFolder/Member functions/Void SetEmailFolderId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3036
-keywords: SetEmailFolderId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **emailFolderId** Integer
 
-
-* **EmailFolderId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailFolder thing;
+Integer emailFolderId;
+thing.SetEmailFolderId(emailFolderId);
+```
 

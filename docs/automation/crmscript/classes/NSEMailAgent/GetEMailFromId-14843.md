@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity GetEMailFromId(NSEMailConnectionInfo connectionInfo, Integer messageServerId, Bool lookupAddresses, NSEMailFlags flags, Bool includeAttachments)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity GetEMailFromId(NSEMailConnectionInfo p_0, Integer p_1, Bool p_2, NSEMailFlags p_3, Bool p_4)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSEMailAgent_GetEMailFromId_NSEMailConnectionInfo_p_0_Integer_p_1_Bool_p_2_NSEMailFlags_p_3_Bool_p_4
+title: NSEMailAgent.GetEMailFromId(NSEMailConnectionInfo p_0, Integer p_1, Bool p_2, NSEMailFlags p_3, Bool p_4)
+intellisense: NSEMailAgent.GetEMailFromId
 sortOrder: 2822
 keywords: GetEMailFromId(NSEMailConnectionInfo,Integer,Bool,NSEMailFlags,Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyBusiness(Integer p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetCompanyBusiness(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_SetCompanyBusiness_Integer_p_0
+title: NSSelectionMemberEditValues.SetCompanyBusiness(Integer p_0)
+intellisense: NSSelectionMemberEditValues.SetCompanyBusiness
 keywords: SetCompanyBusiness(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void LotsAStandardParameters(Bool boolArgument, Integer integerArgument, DateTime dateTimeArgument, String stringArgument)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void LotsAStandardParameters(Bool p_0, Integer p_1, DateTime p_2, String p_3)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_LotsAStandardParameters_Bool_p_0_Integer_p_1_DateTime_p_2_String_p_3
+title: NSAAAMockAgent.LotsAStandardParameters(Bool p_0, Integer p_1, DateTime p_2, String p_3)
+intellisense: NSAAAMockAgent.LotsAStandardParameters
 sortOrder: 8912
 keywords: LotsAStandardParameters(Bool,Integer,DateTime,String)
+so.topic: reference
 ---
 
 

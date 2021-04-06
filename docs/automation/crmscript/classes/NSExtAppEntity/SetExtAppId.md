@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetExtAppId
+title: SetExtAppId(Integer extAppId)
+intellisense: NSExtAppEntity.SetExtAppId
+keywords: NSExtAppEntity, GetExtAppId
+so.topic: reference
 ---
-title: Void SetExtAppId(Integer ExtAppId)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetExtAppId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3381
-keywords: SetExtAppId(Integer)
----
-
 
 The identity of the external app
 
+**Parameter:** 
+ - **extAppId** Integer
 
-
-* **ExtAppId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSExtAppEntity thing;
+Integer extAppId;
+thing.SetExtAppId(extAppId);
+```
 

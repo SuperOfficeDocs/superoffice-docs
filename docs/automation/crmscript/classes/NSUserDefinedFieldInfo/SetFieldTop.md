@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_SetFieldTop
+title: SetFieldTop(Integer fieldTop)
+intellisense: NSUserDefinedFieldInfo.SetFieldTop
+keywords: NSUserDefinedFieldInfo, GetFieldTop
+so.topic: reference
 ---
-title: Void SetFieldTop(Integer FieldTop)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFieldTop(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetFieldTop(Integer)
----
-
 
 Y pixel coordinate of field
 
+**Parameter:** 
+ - **fieldTop** Integer
 
-
-* **FieldTop:** Integer
-* **Returns:** Void
-
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldTop;
+thing.SetFieldTop(fieldTop);
+```
 

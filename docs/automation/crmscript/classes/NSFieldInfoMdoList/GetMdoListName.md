@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoMdoList_GetMdoListName
 title: String GetMdoListName()
-path: /EJScript/Classes/NSFieldInfoMdoList/Member functions/String GetMdoListName()
-intellisense: 1
-classref: 1
-sortOrder: 3532
-keywords: GetMdoListName()
+intellisense: NSFieldInfoMdoList.GetMdoListName
+keywords: NSFieldInfoMdoList, GetMdoListName
+so.topic: reference
 ---
-
 
 MDO list name used to populate this list. (Read-only)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldInfoMdoList thing;
+String mdoListName  = thing.GetMdoListName();
+```
 
 

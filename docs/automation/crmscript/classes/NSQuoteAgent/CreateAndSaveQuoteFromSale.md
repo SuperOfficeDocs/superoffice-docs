@@ -1,18 +1,23 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_CreateAndSaveQuoteFromSale
+title: QuoteEntity CreateAndSaveQuoteFromSale(Integer copyFromSaleId, Integer copyToSaleId)
+intellisense: NSQuoteAgent.CreateAndSaveQuoteFromSale
+keywords: NSQuoteAgent, CreateAndSaveQuoteFromSale
+so.topic: reference
 ---
-title: NSQuoteEntity CreateAndSaveQuoteFromSale(Integer copyFromSaleId, Integer copyToSaleId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteEntity CreateAndSaveQuoteFromSale(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-keywords: CreateAndSaveQuoteFromSale(Integer,Integer)
----
-
 
 Creates a copy the active version with connected alternatives and quotelines from another sale.
 
+**Parameters:**
+ - **copyFromSaleId** Id of the sale to copy the active quote from.
+ - **copyToSaleId** Id of the sale to copy the active quote to.
 
+**Returns:** The created Quote
 
-* **copyFromSaleId:** Id of the sale to copy the active quote from.
-* **copyToSaleId:** Id of the sale to copy the active quote to.
-* **Returns:** The created Quote
-
+```crmscript
+NSQuoteAgent agent;
+Integer copyFromSaleId;
+Integer copyToSaleId;
+QuoteEntity res = agent.CreateAndSaveQuoteFromSale(copyFromSaleId, copyToSaleId);
+```
 

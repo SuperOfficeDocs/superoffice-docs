@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoDate_SetDefaultValue
+title: SetDefaultValue(DateTime defaultValue)
+intellisense: NSFieldInfoDate.SetDefaultValue
+keywords: NSFieldInfoDate, GetDefaultValue
+so.topic: reference
 ---
-title: Void SetDefaultValue(DateTime DefaultValue)
-path: /EJScript/Classes/NSFieldInfoDate/Member functions/Void SetDefaultValue(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3495
-keywords: SetDefaultValue(DateTime)
----
-
 
 Default Date value
 
+**Parameter:** 
+ - **defaultValue** DateTime
 
-
-* **DefaultValue:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSFieldInfoDate thing;
+DateTime defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
 

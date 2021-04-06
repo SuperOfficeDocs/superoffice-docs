@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignKey_SetKey
+title: SetKey(String key)
+intellisense: NSForeignKey.SetKey
+keywords: NSForeignKey, GetKey
+so.topic: reference
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSForeignKey/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3744
-keywords: SetKey(String)
----
-
 
 Subkey (optional)
 
+**Parameter:** 
+ - **key** String
 
-
-* **Key:** String
-* **Returns:** String
-
+```crmscript
+NSForeignKey thing;
+String key;
+thing.SetKey(key);
+```
 

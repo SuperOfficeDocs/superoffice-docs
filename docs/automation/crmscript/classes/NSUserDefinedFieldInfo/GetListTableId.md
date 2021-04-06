@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetListTableId
 title: Integer GetListTableId()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetListTableId()
-intellisense: 1
-classref: 1
-keywords: GetListTableId()
+intellisense: NSUserDefinedFieldInfo.GetListTableId
+keywords: NSUserDefinedFieldInfo, GetListTableId
+so.topic: reference
 ---
-
 
 The table ID of the source table for lists: kTableAssoc, kTableContInt or whatever
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer listTableId  = thing.GetListTableId();
+```
 
 

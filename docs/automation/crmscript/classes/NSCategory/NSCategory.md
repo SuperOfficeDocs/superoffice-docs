@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCategory
 title: NSCategory
-path: /EJScript/Classes/NSCategory
-intellisense: 1
-classref: 1
-sortOrder: 1490
+intellisense: Void.NSCategory
+keywords: NSCategory
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

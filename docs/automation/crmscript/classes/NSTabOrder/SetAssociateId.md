@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTabOrder_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSTabOrder.SetAssociateId
+keywords: NSTabOrder, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSTabOrder/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociateId(Integer)
----
-
 
 Associate who owns this tab order
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTabOrder thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

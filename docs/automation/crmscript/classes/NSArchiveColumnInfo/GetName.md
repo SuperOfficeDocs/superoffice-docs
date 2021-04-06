@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveColumnInfo_GetName
 title: String GetName()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 1145
-keywords: GetName()
+intellisense: NSArchiveColumnInfo.GetName
+keywords: NSArchiveColumnInfo, GetName
+so.topic: reference
 ---
-
 
 Unique identity of this column (in this particular context); the name to be used when requesting the column from a provider, setting restrictions or order by criteria
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSArchiveColumnInfo thing;
+String name  = thing.GetName();
+```
 
 

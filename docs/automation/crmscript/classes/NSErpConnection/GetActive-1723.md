@@ -1,10 +1,10 @@
 ---
-title: Integer GetActive()
-path: /EJScript/Classes/NSErpConnection/Member functions/Integer GetActive()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSErpConnection_GetActive
+title: NSErpConnection.GetActive()
+intellisense: NSErpConnection.GetActive
 sortOrder: 3079
 keywords: GetActive()
+so.topic: reference
 ---
 
 

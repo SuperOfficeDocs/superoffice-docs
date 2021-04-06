@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMarketingAgent_CreateDefaultFormEntity
 title: NSFormEntity CreateDefaultFormEntity()
-path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormEntity CreateDefaultFormEntity()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultFormEntity()
+intellisense: NSMarketingAgent.CreateDefaultFormEntity
+keywords: NSMarketingAgent, CreateDefaultFormEntity
+so.topic: reference
 ---
+	  
+Set default values into a new NSFormEntity.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSFormEntity with default values.
 
-
-Loading default values into a new FormEntity.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New FormEntity with default values
-
+```crmscript
+NSMarketingAgent agent;
+NSFormEntity thing = agent.CreateDefaultFormEntity();
+thing = agent.SaveFormEntity(thing);
+```
 

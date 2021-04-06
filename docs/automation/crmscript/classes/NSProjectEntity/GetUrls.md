@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetUrls
+title: EntityElementArray GetUrls()
+intellisense: NSProjectEntity.GetUrls
+keywords: NSProjectEntity, GetUrls
+so.topic: reference
 ---
-title: NSEntityElement[] GetUrls()
-path: /EJScript/Classes/NSProjectEntity/Member functions/NSEntityElement[] GetUrls()
-intellisense: 1
-classref: 1
-keywords: GetUrls()
----
-
 
 The project's internet adresses
 
+**Returns:** EntityElementArray
 
 
-* **Returns:** EntityElementArray
+```crmscript
+NSProjectEntity thing;
+EntityElementArray urls  = thing.GetUrls();
+```
 
 

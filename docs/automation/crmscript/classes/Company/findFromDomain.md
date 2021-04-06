@@ -1,10 +1,10 @@
 ---
-title: Bool findFromDomain(String domain)
-path: /EJScript/Classes/Company/member functions/Bool findFromDomain(String domain)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Company_findFromDomain_String_domain
+title: Company.findFromDomain(String domain)
+intellisense: Company.findFromDomain
 sortOrder: 159
 keywords: findFromDomain(String)
+so.topic: reference
 ---
 
 Find and load company object given a domain.

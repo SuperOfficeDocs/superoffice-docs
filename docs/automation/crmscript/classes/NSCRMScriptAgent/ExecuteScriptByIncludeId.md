@@ -1,19 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptAgent_ExecuteScriptByIncludeId
 title: String ExecuteScriptByIncludeId(String cRMScriptIncludeId, StringDictionary parameters)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/String ExecuteScriptByIncludeId(String p_0, StringDictionary p_1)
-intellisense: 1
-classref: 1
-sortOrder: 2122
-keywords: ExecuteScriptByIncludeId(String,StringDictionary)
+intellisense: NSCRMScriptAgent.ExecuteScriptByIncludeId
+keywords: NSCRMScriptAgent, ExecuteScriptByIncludeId
+so.topic: reference
 ---
 
+Execute a CRMScript with parameters, returning printed output value.
 
-Execute a CRMScript with parameters
+**Parameters:**
+ - **cRMScriptIncludeId** The include id of the CRMScript to validate
+ - **parameters** Parameters passed as variables to the CRMScript
 
+**Returns:** The output produced by the CRMScript
 
-
-* **cRMScriptIncludeId:** The include id of the CRMScript to validate
-* **parameters:** Parameters passed as variables to the CRMScript
-* **Returns:** The output produced by the CRMScript
-
+```crmscript
+NSCRMScriptAgent agent;
+String cRMScriptIncludeId;
+StringDictionary parameters;
+String res = agent.ExecuteScriptByIncludeId(cRMScriptIncludeId, parameters);
+```
 

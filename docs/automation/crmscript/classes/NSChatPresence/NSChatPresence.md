@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSChatPresence
 title: NSChatPresence
-path: /EJScript/Classes/NSChatPresence
-intellisense: 1
-classref: 1
-sortOrder: 1517
+intellisense: Void.NSChatPresence
+keywords: NSChatPresence
+so.topic: reference
 ---
-
 
 Represents presence information for a chat user, bundled with some other useful information
 
-
-
-
-1. autolist
+1. autolist 
 

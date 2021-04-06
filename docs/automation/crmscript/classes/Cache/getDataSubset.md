@@ -1,10 +1,10 @@
 ---
-title: Void getDataSubset(String p0, String p1, String p2)
-path: /EJScript/Classes/Cache/Member functions/Void getDataSubset(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Cache_getDataSubset_String_p_0_String_p_1_String_p_2
+title: Cache.getDataSubset(String p_0, String p_1, String p_2)
+intellisense: Cache.getDataSubset
 sortOrder: 147
 keywords: getDataSubset(String,String,String)
+so.topic: reference
 ---
 
 

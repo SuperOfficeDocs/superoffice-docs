@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSOutgoingMessage_SetContent
+title: SetContent(String content)
+intellisense: NSOutgoingMessage.SetContent
+keywords: NSOutgoingMessage, GetContent
+so.topic: reference
 ---
-title: Void SetContent(String Content)
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/Void SetContent(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetContent(String)
----
-
 
 Content, or body, of the message.
 
+**Parameter:** 
+ - **content** String
 
-
-* **Content:** String
-* **Returns:** String
-
+```crmscript
+NSOutgoingMessage thing;
+String content;
+thing.SetContent(content);
+```
 

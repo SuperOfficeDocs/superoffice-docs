@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPersonAgent_GetMyOwner
+title: Person GetMyOwner()
+intellisense: NSPersonAgent.GetMyOwner
+keywords: NSPersonAgent, GetMyOwner
+so.topic: reference
 ---
-title: NSPerson GetMyOwner()
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson GetMyOwner()
-intellisense: 1
-classref: 1
-keywords: GetMyOwner()
----
-
 
 Get the owner of the logged in person.
 
 
+**Returns:** Person
 
-* **Returns:** Person
-
+```crmscript
+NSPersonAgent agent;
+Person res = agent.GetMyOwner();
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAmountClassEntity_SetAmountFrom
+title: SetAmountFrom(Float amountFrom)
+intellisense: NSAmountClassEntity.SetAmountFrom
+keywords: NSAmountClassEntity, GetAmountFrom
+so.topic: reference
 ---
-title: Void SetAmountFrom(Float AmountFrom)
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Void SetAmountFrom(Float p_0)
-intellisense: 1
-classref: 1
-sortOrder: 704
-keywords: SetAmountFrom(Float)
----
-
 
 Lower limit of this amount class
 
+**Parameter:** 
+ - **amountFrom** Float
 
-
-* **AmountFrom:** Float
-* **Returns:** Float
-
+```crmscript
+NSAmountClassEntity thing;
+Float amountFrom;
+thing.SetAmountFrom(amountFrom);
+```
 

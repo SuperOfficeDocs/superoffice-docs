@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetVisibility
+title: SetVisibility(Integer visibility)
+intellisense: NSSelectionEntity.SetVisibility
+keywords: NSSelectionEntity, GetVisibility
+so.topic: reference
 ---
-title: Void SetVisibility(Integer Visibility)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetVisibility(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetVisibility(Integer)
----
-
 
 Obsolete, but still maintained denormalization of visiblefor
 
+**Parameter:** 
+ - **visibility** Integer
 
-
-* **Visibility:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectionEntity thing;
+Integer visibility;
+thing.SetVisibility(visibility);
+```
 

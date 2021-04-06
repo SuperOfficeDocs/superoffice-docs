@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnectionListMappingContainer_SetErpConnectionId
+title: SetErpConnectionId(Integer erpConnectionId)
+intellisense: NSErpConnectionListMappingContainer.SetErpConnectionId
+keywords: NSErpConnectionListMappingContainer, GetErpConnectionId
+so.topic: reference
 ---
-title: Void SetErpConnectionId(Integer ErpConnectionId)
-path: /EJScript/Classes/NSErpConnectionListMappingContainer/Member functions/Void SetErpConnectionId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3139
-keywords: SetErpConnectionId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **erpConnectionId** Integer
 
-
-* **ErpConnectionId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSErpConnectionListMappingContainer thing;
+Integer erpConnectionId;
+thing.SetErpConnectionId(erpConnectionId);
+```
 

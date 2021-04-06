@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCountry_GetThreeLetterISOCountry
 title: String GetThreeLetterISOCountry()
-path: /EJScript/Classes/NSCountry/Member functions/String GetThreeLetterISOCountry()
-intellisense: 1
-classref: 1
-sortOrder: 2026
-keywords: GetThreeLetterISOCountry()
+intellisense: NSCountry.GetThreeLetterISOCountry
+keywords: NSCountry, GetThreeLetterISOCountry
+so.topic: reference
 ---
 
+Three-letter country-code according to ISO3166 
 
-Three-letter country-code according to ISO3166
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSCountry thing;
+String threeLetterISOCountry  = thing.GetThreeLetterISOCountry();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContact_GetURLName
 title: String GetURLName()
-path: /EJScript/Classes/NSContact/Member functions/String GetURLName()
-intellisense: 1
-classref: 1
-sortOrder: 1740
-keywords: GetURLName()
+intellisense: NSContact.GetURLName
+keywords: NSContact, GetURLName
+so.topic: reference
 ---
-
 
 Visible field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContact thing;
+String uRLName  = thing.GetURLName();
+```
 
 

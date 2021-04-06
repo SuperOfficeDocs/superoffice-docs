@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCurrencies
+title: CurrencyArray GetCurrencies()
+intellisense: NSListAgent.GetCurrencies
+keywords: NSListAgent, GetCurrencies
+so.topic: reference
 ---
-title: NSCurrency[] GetCurrencies()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrency[] GetCurrencies()
-intellisense: 1
-classref: 1
-keywords: GetCurrencies()
----
-
 
 Returns all currencies
 
 
+**Returns:** Array of currencies
 
-* **Returns:** Array of currencies
-
+```crmscript
+NSListAgent agent;
+CurrencyArray res = agent.GetCurrencies();
+```
 

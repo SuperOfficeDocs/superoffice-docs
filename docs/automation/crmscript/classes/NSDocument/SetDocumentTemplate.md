@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocument_SetDocumentTemplate
+title: SetDocumentTemplate(String documentTemplate)
+intellisense: NSDocument.SetDocumentTemplate
+keywords: NSDocument, GetDocumentTemplate
+so.topic: reference
 ---
-title: Void SetDocumentTemplate(String DocumentTemplate)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetDocumentTemplate(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2453
-keywords: SetDocumentTemplate(String)
----
 
 
-* **DocumentTemplate:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **documentTemplate** String
+
+```crmscript
+NSDocument thing;
+String documentTemplate;
+thing.SetDocumentTemplate(documentTemplate);
+```
 

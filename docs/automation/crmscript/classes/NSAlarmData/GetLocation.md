@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAlarmData_GetLocation
 title: String GetLocation()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetLocation()
-intellisense: 1
-classref: 1
-sortOrder: 663
-keywords: GetLocation()
+intellisense: NSAlarmData.GetLocation
+keywords: NSAlarmData, GetLocation
+so.topic: reference
 ---
-
 
 Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAlarmData thing;
+String location  = thing.GetLocation();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetPhonePrivate
+title: SetPhonePrivate(StringArray phonePrivate)
+intellisense: NSParticipantSyncData.SetPhonePrivate
+keywords: NSParticipantSyncData, GetPhonePrivate
+so.topic: reference
 ---
-title: Void SetPhonePrivate(String[] PhonePrivate)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPhonePrivate(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetPhonePrivate(String[])
----
-
 
 Returns a collection of phone numbers that belong to the contact person.
 
+**Parameter:** 
+ - **phonePrivate** StringArray
 
-
-* **PhonePrivate:** StringArray
-* **Returns:** StringArray
-
+```crmscript
+NSParticipantSyncData thing;
+StringArray phonePrivate;
+thing.SetPhonePrivate(phonePrivate);
+```
 

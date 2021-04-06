@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicenseLink_SetUnrestricted
+title: SetUnrestricted(Bool unrestricted)
+intellisense: NSModuleLicenseLink.SetUnrestricted
+keywords: NSModuleLicenseLink, GetUnrestricted
+so.topic: reference
 ---
-title: Void SetUnrestricted(Bool Unrestricted)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetUnrestricted(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetUnrestricted(Bool)
----
-
 
 Is this module license restricted or unrestricted
 
+**Parameter:** 
+ - **unrestricted** Bool
 
-
-* **Unrestricted:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSModuleLicenseLink thing;
+Bool unrestricted;
+thing.SetUnrestricted(unrestricted);
+```
 

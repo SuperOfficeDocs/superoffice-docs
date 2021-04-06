@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProject_SetURL
+title: SetURL(String uRL)
+intellisense: NSProject.SetURL
+keywords: NSProject, GetURL
+so.topic: reference
 ---
-title: Void SetURL(String URL)
-path: /EJScript/Classes/NSProject/Member functions/Void SetURL(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetURL(String)
----
-
 
 URL address
 
+**Parameter:** 
+ - **uRL** String
 
-
-* **URL:** String
-* **Returns:** String
-
+```crmscript
+NSProject thing;
+String uRL;
+thing.SetURL(uRL);
+```
 

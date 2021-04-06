@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_SetRegisteredAssociateId
+title: SetRegisteredAssociateId(Integer registeredAssociateId)
+intellisense: NSCRMScriptEntity.SetRegisteredAssociateId
+keywords: NSCRMScriptEntity, GetRegisteredAssociateId
+so.topic: reference
 ---
-title: Void SetRegisteredAssociateId(Integer RegisteredAssociateId)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetRegisteredAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2144
-keywords: SetRegisteredAssociateId(Integer)
----
-
 
 Registered by whom
 
+**Parameter:** 
+ - **registeredAssociateId** Integer
 
-
-* **RegisteredAssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCRMScriptEntity thing;
+Integer registeredAssociateId;
+thing.SetRegisteredAssociateId(registeredAssociateId);
+```
 

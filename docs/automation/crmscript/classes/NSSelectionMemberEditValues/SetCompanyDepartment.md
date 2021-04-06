@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyDepartment(String p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetCompanyDepartment(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_SetCompanyDepartment_String_p_0
+title: NSSelectionMemberEditValues.SetCompanyDepartment(String p_0)
+intellisense: NSSelectionMemberEditValues.SetCompanyDepartment
 keywords: SetCompanyDepartment(String)
+so.topic: reference
 ---
 
 

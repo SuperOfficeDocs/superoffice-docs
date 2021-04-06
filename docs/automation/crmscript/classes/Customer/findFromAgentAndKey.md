@@ -1,10 +1,10 @@
 ---
-title: Integer findFromAgentAndKey(Integer agent, String key)
-path: /EJScript/Classes/Customer/Member functions/Integer findFromAgentAndKey(Integer agent, String key)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_findFromAgentAndKey_Integer_agent_String_key
+title: Customer.findFromAgentAndKey(Integer agent, String key)
+intellisense: Customer.findFromAgentAndKey
 sortOrder: 181
 keywords: findFromAgentAndKey(Integer,String)
+so.topic: reference
 ---
 
 Finds a customer entry in the database based on the given agent id and external key.

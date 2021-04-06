@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketMessageEntity_SetPerson
+title: SetPerson(Person person)
+intellisense: NSTicketMessageEntity.SetPerson
+keywords: NSTicketMessageEntity, GetPerson
+so.topic: reference
 ---
-title: Void SetPerson(NSPerson Person)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
-keywords: SetPerson(NSPerson)
----
-
 
 If this is an incoming message, this will contain the person
 
+**Parameter:** 
+ - **person** Person
 
-
-* **Person:** Person
-* **Returns:** Person
-
+```crmscript
+NSTicketMessageEntity thing;
+Person person;
+thing.SetPerson(person);
+```
 

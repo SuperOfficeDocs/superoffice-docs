@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String name, String value)
-path: /EJScript/Classes/Category/member functions/Void setValue(String name, String value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Category_setValue_String_name_String_value
+title: Category.setValue(String name, String value)
+intellisense: Category.setValue
 sortOrder: 154
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 Sets the value of the given field for the category.

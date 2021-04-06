@@ -1,10 +1,10 @@
 ---
-title: Bool eof()
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/Bool eof()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ExtraFieldsInfo_eof
+title: ExtraFieldsInfo.eof()
+intellisense: ExtraFieldsInfo.eof
 sortOrder: 303
 keywords: eof()
+so.topic: reference
 ---
 
 This function checks if there are no more fields in the result.

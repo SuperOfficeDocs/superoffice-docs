@@ -1,10 +1,10 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/Company/member functions/Integer save()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Company_save
+title: Company.save()
+intellisense: Company.save
 sortOrder: 162
 keywords: save()
+so.topic: reference
 ---
 
 Saves the object and returns its id.

@@ -1,20 +1,25 @@
----
-title: Integer GetQuoteDocType()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Integer GetQuoteDocType()
-intellisense: 1
-classref: 1
-sortOrder: 2624
-keywords: GetQuoteDocType()
+﻿---
+uid: crmscript_ref_NSDocumentTemplate_GetQuoteDocType
+title: DocTmplQuoteType GetQuoteDocType()
+intellisense: NSDocumentTemplate.GetQuoteDocType
+keywords: NSDocumentTemplate, GetQuoteDocType
+so.topic: reference
 ---
 
 What type of quote document is this.
 
-* None=0
-* MailBody=1
-* MainDocument=2
-* QuoteLines=3
-* ConfirmationMailBody=4
-* ConfirmationLines=5
+**Returns:** DocTmplQuoteType
 
-* **Returns:** Integer
+     - Enum: 0 = None 
+     - Enum: 1 = MailBody 
+     - Enum: 2 = MainDocument 
+     - Enum: 3 = QuoteLines 
+     - Enum: 4 = ConfirmationMailBody 
+     - Enum: 5 = ConfirmationLines 
+
+```crmscript
+NSDocumentTemplate thing;
+DocTmplQuoteType quoteDocType  = thing.GetQuoteDocType();
+```
+
 

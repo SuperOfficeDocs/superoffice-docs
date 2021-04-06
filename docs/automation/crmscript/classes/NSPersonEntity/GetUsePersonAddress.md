@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetUsePersonAddress
 title: Bool GetUsePersonAddress()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Bool GetUsePersonAddress()
-intellisense: 1
-classref: 1
-keywords: GetUsePersonAddress()
+intellisense: NSPersonEntity.GetUsePersonAddress
+keywords: NSPersonEntity, GetUsePersonAddress
+so.topic: reference
 ---
-
 
 True if the person's address should be used as mailing address, instead of the contact's address.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSPersonEntity thing;
+Bool usePersonAddress  = thing.GetUsePersonAddress();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer size()
-path: /EJScript/Classes/Vector/Member functions/Integer size()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Vector_size
+title: Vector.size()
+intellisense: Vector.size
 keywords: size()
+so.topic: reference
 ---
 
 

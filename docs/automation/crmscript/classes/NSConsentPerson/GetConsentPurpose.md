@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPerson_GetConsentPurpose
+title: ConsentPurpose GetConsentPurpose()
+intellisense: NSConsentPerson.GetConsentPurpose
+keywords: NSConsentPerson, GetConsentPurpose
+so.topic: reference
 ---
-title: NSConsentPurpose GetConsentPurpose()
-path: /EJScript/Classes/NSConsentPerson/Member functions/NSConsentPurpose GetConsentPurpose()
-intellisense: 1
-classref: 1
-sortOrder: 1662
-keywords: GetConsentPurpose()
----
-
 
 The consent purpose
 
+**Returns:** ConsentPurpose
 
 
-* **Returns:** ConsentPurpose
+```crmscript
+NSConsentPerson thing;
+ConsentPurpose consentPurpose  = thing.GetConsentPurpose();
+```
 
 

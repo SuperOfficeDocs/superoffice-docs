@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSTicketPriority_SetId
+title: SetId(Integer id)
+intellisense: NSTicketPriority.SetId
+keywords: NSTicketPriority, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSTicketPriority/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the TicketPriority
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer TicketPriority id.
 
+```crmscript
+NSTicketPriority thing;
+thing.SetId(123);
+```
 

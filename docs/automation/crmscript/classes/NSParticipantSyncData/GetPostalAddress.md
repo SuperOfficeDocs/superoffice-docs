@@ -1,12 +1,19 @@
----
-title: NSAddressSyncData GetPostalAddress()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/NSAddressSyncData GetPostalAddress()
-intellisense: 1
-classref: 1
-keywords: GetPostalAddress()
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_GetPostalAddress
+title: AddressSyncData GetPostalAddress()
+intellisense: NSParticipantSyncData.GetPostalAddress
+keywords: NSParticipantSyncData, GetPostalAddress
+so.topic: reference
 ---
 
 
-* **Returns:** AddressSyncData
+
+**Returns:** AddressSyncData
+
+
+```crmscript
+NSParticipantSyncData thing;
+AddressSyncData postalAddress  = thing.GetPostalAddress();
+```
 
 

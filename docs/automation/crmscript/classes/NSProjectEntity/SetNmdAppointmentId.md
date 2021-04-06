@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetNmdAppointmentId
+title: SetNmdAppointmentId(Integer nmdAppointmentId)
+intellisense: NSProjectEntity.SetNmdAppointmentId
+keywords: NSProjectEntity, GetNmdAppointmentId
+so.topic: reference
 ---
-title: Void SetNmdAppointmentId(Integer NmdAppointmentId)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetNmdAppointmentId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetNmdAppointmentId(Integer)
----
-
 
 ID of appointment that "caused" the nextMilestoneDate, can be 0
 
+**Parameter:** 
+ - **nmdAppointmentId** Integer
 
-
-* **NmdAppointmentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectEntity thing;
+Integer nmdAppointmentId;
+thing.SetNmdAppointmentId(nmdAppointmentId);
+```
 

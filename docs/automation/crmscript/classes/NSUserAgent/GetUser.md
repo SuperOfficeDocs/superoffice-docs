@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetUser
+title: NSUser GetUser(Integer userId);
+intellisense: NSUserAgent.GetUser
+keywords: NSUserAgent, GetUser
+so.topic: reference
 ---
-title: NSUser GetUser(Integer userId)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser GetUser(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetUser(Integer)
----
 
+Gets a NSUser object.
 
-Gets a User object.
+**Parameters:**
+ - **userId** The identifier of the NSUser object
 
+**Returns:** NSUser
 
-
-* **userId:** The identifier of the User object
-* **Returns:** User
-
+```crmscript
+NSUserAgent agent;
+NSUser thing = agent.GetUser(123);
+```
 

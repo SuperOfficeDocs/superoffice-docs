@@ -1,17 +1,27 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncActorSummary_GetActorType
 title: Integer GetActorType()
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/Integer GetActorType()
-intellisense: 1
-classref: 1
-sortOrder: 3153
-keywords: GetActorType()
+intellisense: NSErpSyncActorSummary.GetActorType
+keywords: NSErpSyncActorSummary, GetActorType
+so.topic: reference
 ---
-
 
 Actor type
 
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Customer 
+     - Enum: 2 = Supplier 
+     - Enum: 3 = Partner 
+     - Enum: 4 = Person 
+     - Enum: 5 = Project 
+     - Enum: 6 = Employee 
+     - Enum: 7 = Sale 
 
-* **Returns:** Integer
+```crmscript
+NSErpSyncActorSummary thing;
+Integer actorType  = thing.GetActorType();
+```
 
 

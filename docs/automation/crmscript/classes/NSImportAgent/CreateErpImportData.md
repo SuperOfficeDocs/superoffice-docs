@@ -1,21 +1,35 @@
+﻿---
+uid: crmscript_ref_NSImportAgent_CreateErpImportData
+title: ImportErpData CreateErpImportData(ArchiveRestrictionInfoArray restriction, StringArray columns, Integer connectionId, Integer erpActorType)
+intellisense: NSImportAgent.CreateErpImportData
+keywords: NSImportAgent, CreateErpImportData
+so.topic: reference
 ---
-title: NSImportErpData CreateErpImportData(NSArchiveRestrictionInfo[] restriction, String[] columns, Integer connectionId, Integer erpActorType)
-path: /EJScript/Classes/NSImportAgent/Member functions/NSImportErpData CreateErpImportData(NSArchiveRestrictionInfo[] p_0, String[] p_1, Integer p_2, Integer p_3)
-intellisense: 1
-classref: 1
-sortOrder: 3955
-keywords: CreateErpImportData(NSArchiveRestrictionInfo[],String[],Integer,Integer)
----
-
 
 Populates the ImportLines and columnDefs basedfrom erp system
 
+**Parameters:**
+ - **restriction** Archive restrictions.
+ - **columns** Columns.
+ - **connectionId** Connection id for Erp system
+ - **erpActorType** Erp Actor type
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Customer 
+     - Enum: 2 = Supplier 
+     - Enum: 3 = Partner 
+     - Enum: 4 = Person 
+     - Enum: 5 = Project 
+     - Enum: 6 = Employee 
+     - Enum: 7 = Sale 
 
+**Returns:** The ImportLines and ColumnDefs
 
-* **restriction:** Archive restrictions.
-* **columns:** Columns.
-* **connectionId:** Connection id for Erp system
-* **erpActorType:** Erp Actor type
-* **Returns:** The ImportLines and ColumnDefs
-
+```crmscript
+NSImportAgent agent;
+ArchiveRestrictionInfoArray restriction;
+StringArray columns;
+Integer connectionId;
+Integer erpActorType;
+ImportErpData res = agent.CreateErpImportData(restriction, columns, connectionId, erpActorType);
+```
 

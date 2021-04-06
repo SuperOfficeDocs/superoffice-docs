@@ -1,17 +1,23 @@
+﻿---
+uid: crmscript_ref_NSMailMergeTask_SetCompleted
+title: SetCompleted(Integer completed)
+intellisense: NSMailMergeTask.SetCompleted
+keywords: NSMailMergeTask, GetCompleted
+so.topic: reference
 ---
-title: Void SetCompleted(Integer Completed)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetCompleted(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCompleted(Integer)
----
-
 
 Completed status for task
 
+**Parameter:** 
+ - **completed** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 
-
-* **Completed:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMailMergeTask thing;
+Integer completed;
+thing.SetCompleted(completed);
+```
 

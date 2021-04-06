@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem
 title: NSSelectableMDOListItem
-path: /EJScript/Classes/NSSelectableMDOListItem
-intellisense: 1
-classref: 1
+intellisense: Void.NSSelectableMDOListItem
+keywords: NSSelectableMDOListItem
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

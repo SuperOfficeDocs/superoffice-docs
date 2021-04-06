@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailEntity_GetRepliedAt
 title: DateTime GetRepliedAt()
-path: /EJScript/Classes/NSEMailEntity/Member functions/DateTime GetRepliedAt()
-intellisense: 1
-classref: 1
-sortOrder: 2947
-keywords: GetRepliedAt()
+intellisense: NSEMailEntity.GetRepliedAt
+keywords: NSEMailEntity, GetRepliedAt
+so.topic: reference
 ---
-
 
 When this email was replied at
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSEMailEntity thing;
+DateTime repliedAt  = thing.GetRepliedAt();
+```
 
 

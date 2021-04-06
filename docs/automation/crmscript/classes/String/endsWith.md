@@ -1,9 +1,9 @@
 ---
-title: Bool endsWith(String s)
-path: /EJScript/Classes/String/Member functions/Bool endsWith(String s)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_endsWith_String_s
+title: String.endsWith(String s)
+intellisense: String.endsWith
 keywords: endsWith(String)
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicket_GetPriority
 title: Integer GetPriority()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetPriority()
-intellisense: 1
-classref: 1
-keywords: GetPriority()
+intellisense: NSTicket.GetPriority
+keywords: NSTicket, GetPriority
+so.topic: reference
 ---
 
+The reference to the ticket_priority table.
 
-The reference to the ticket\_priority table.
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSTicket thing;
+Integer priority  = thing.GetPriority();
+```
 
 

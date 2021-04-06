@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerServiceAgent
 title: NSCustomerServiceAgent
-path: /EJScript/Classes/NSCustomerServiceAgent
-intellisense: 1
-classref: 1
-sortOrder: 2219
+intellisense: Void.NSCustomerServiceAgent
+keywords: NSCustomerServiceAgent
+so.topic: reference
 ---
-
 
 Agent used for Customer Service methods
 
-
-
+```crmscript
+NSCustomerServiceAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

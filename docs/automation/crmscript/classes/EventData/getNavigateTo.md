@@ -1,10 +1,10 @@
 ---
-title: String getNavigateTo()
-path: /EJScript/Classes/EventData/member functions/String getNavigateTo()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_EventData_getNavigateTo
+title: EventData.getNavigateTo()
+intellisense: EventData.getNavigateTo
 sortOrder: 293
 keywords: getNavigateTo()
+so.topic: reference
 ---
 
 # String getNavigateTo()

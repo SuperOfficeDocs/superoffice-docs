@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSTicketAgent_SanitizeMailContents
+title: StringArray SanitizeMailContents(StringArray contents)
+intellisense: NSTicketAgent.SanitizeMailContents
+keywords: NSTicketAgent, SanitizeMailContents
+so.topic: reference
 ---
-title: String[] SanitizeMailContents(String[] contents)
-path: /EJScript/Classes/NSTicketAgent/Member functions/String[] SanitizeMailContents(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SanitizeMailContents(String[])
----
-
 
 Remove harmful HTML tags and attributes from an email
 
+**Parameters:**
+ - **contents** The email contents to sanitize
 
+**Returns:** The sanitized email contents
 
-* **contents:** The email contents to sanitize
-* **Returns:** The sanitized email contents
-
+```crmscript
+NSTicketAgent agent;
+StringArray contents;
+StringArray res = agent.SanitizeMailContents(contents);
+```
 

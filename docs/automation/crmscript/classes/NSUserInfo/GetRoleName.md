@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserInfo_GetRoleName
 title: String GetRoleName()
-path: /EJScript/Classes/NSUserInfo/Member functions/String GetRoleName()
-intellisense: 1
-classref: 1
-keywords: GetRoleName()
+intellisense: NSUserInfo.GetRoleName
+keywords: NSUserInfo, GetRoleName
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSUserInfo thing;
+String roleName  = thing.GetRoleName();
+```
 
 

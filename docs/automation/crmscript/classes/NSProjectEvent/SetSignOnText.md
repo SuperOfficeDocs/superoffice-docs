@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetSignOnText
+title: SetSignOnText(String signOnText)
+intellisense: NSProjectEvent.SetSignOnText
+keywords: NSProjectEvent, GetSignOnText
+so.topic: reference
 ---
-title: Void SetSignOnText(String SignOnText)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOnText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOnText(String)
----
-
 
 Default text for the activity created when signing on.
 
+**Parameter:** 
+ - **signOnText** String
 
-
-* **SignOnText:** String
-* **Returns:** String
-
+```crmscript
+NSProjectEvent thing;
+String signOnText;
+thing.SetSignOnText(signOnText);
+```
 

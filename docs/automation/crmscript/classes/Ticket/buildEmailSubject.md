@@ -1,9 +1,9 @@
 ---
-title: String buildEmailSubject()
-path: /EJScript/Classes/Ticket/Member functions/String buildEmailSubject()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Ticket_buildEmailSubject
+title: Ticket.buildEmailSubject()
+intellisense: Ticket.buildEmailSubject
 keywords: buildEmailSubject()
+so.topic: reference
 ---
 
 

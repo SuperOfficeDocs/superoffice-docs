@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldValueInfo_SetOperationInfos
+title: SetOperationInfos(OperationInfoArray operationInfos)
+intellisense: NSFieldValueInfo.SetOperationInfos
+keywords: NSFieldValueInfo, GetOperationInfos
+so.topic: reference
 ---
-title: Void SetOperationInfos(NSOperationInfo[] OperationInfos)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetOperationInfos(NSOperationInfo[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3648
-keywords: SetOperationInfos(NSOperationInfo[])
----
-
 
 Array of the available operations for this field
 
+**Parameter:** 
+ - **operationInfos** OperationInfoArray
 
-
-* **OperationInfos:** OperationInfoArray
-* **Returns:** OperationInfoArray
-
+```crmscript
+NSFieldValueInfo thing;
+OperationInfoArray operationInfos;
+thing.SetOperationInfos(operationInfos);
+```
 

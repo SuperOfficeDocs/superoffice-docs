@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAudienceConfigParameter_SetUpdatedDate
+title: SetUpdatedDate(DateTime updatedDate)
+intellisense: NSAudienceConfigParameter.SetUpdatedDate
+keywords: NSAudienceConfigParameter, GetUpdatedDate
+so.topic: reference
 ---
-title: Void SetUpdatedDate(DateTime UpdatedDate)
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/Void SetUpdatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1331
-keywords: SetUpdatedDate(DateTime)
----
-
 
 The date and time the configuration parameter was last updated
 
+**Parameter:** 
+ - **updatedDate** DateTime
 
-
-* **UpdatedDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSAudienceConfigParameter thing;
+DateTime updatedDate;
+thing.SetUpdatedDate(updatedDate);
+```
 

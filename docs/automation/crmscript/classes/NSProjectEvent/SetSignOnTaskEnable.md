@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetSignOnTaskEnable
+title: SetSignOnTaskEnable(Bool signOnTaskEnable)
+intellisense: NSProjectEvent.SetSignOnTaskEnable
+keywords: NSProjectEvent, GetSignOnTaskEnable
+so.topic: reference
 ---
-title: Void SetSignOnTaskEnable(Bool SignOnTaskEnable)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOnTaskEnable(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOnTaskEnable(Bool)
----
-
 
 If true, a task should be created when the external user signs on an event
 
+**Parameter:** 
+ - **signOnTaskEnable** Bool
 
-
-* **SignOnTaskEnable:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEvent thing;
+Bool signOnTaskEnable;
+thing.SetSignOnTaskEnable(signOnTaskEnable);
+```
 

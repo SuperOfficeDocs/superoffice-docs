@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSForeignDevice_SetDeviceIdentifier
+title: SetDeviceIdentifier(String deviceIdentifier)
+intellisense: NSForeignDevice.SetDeviceIdentifier
+keywords: NSForeignDevice, GetDeviceIdentifier
+so.topic: reference
 ---
-title: Void SetDeviceIdentifier(String DeviceIdentifier)
-path: /EJScript/Classes/NSForeignDevice/Member functions/Void SetDeviceIdentifier(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3726
-keywords: SetDeviceIdentifier(String)
----
-
 
 Optional unique id of device (Palm pilot device ID, etc)
 
+**Parameter:** 
+ - **deviceIdentifier** String
 
-
-* **DeviceIdentifier:** String
-* **Returns:** String
-
+```crmscript
+NSForeignDevice thing;
+String deviceIdentifier;
+thing.SetDeviceIdentifier(deviceIdentifier);
+```
 

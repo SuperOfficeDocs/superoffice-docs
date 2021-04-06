@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String field, String value)
-path: /EJScript/Classes/Customer/Member functions/Void setValue(String field, String value)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_setValue_String_field_String_value
+title: Customer.setValue(String field, String value)
+intellisense: Customer.setValue
 sortOrder: 192
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 

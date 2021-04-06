@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicket_SetCustId
+title: SetCustId(Integer custId)
+intellisense: NSTicket.SetCustId
+keywords: NSTicket, GetCustId
+so.topic: reference
 ---
-title: Void SetCustId(Integer CustId)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetCustId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCustId(Integer)
----
-
 
 The reference to the customer. NULL or -1 if ticket is not connected to customer.
 
+**Parameter:** 
+ - **custId** Integer
 
-
-* **CustId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicket thing;
+Integer custId;
+thing.SetCustId(custId);
+```
 

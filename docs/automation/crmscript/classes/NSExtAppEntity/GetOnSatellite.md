@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetOnSatellite
 title: Bool GetOnSatellite()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetOnSatellite()
-intellisense: 1
-classref: 1
-sortOrder: 3360
-keywords: GetOnSatellite()
+intellisense: NSExtAppEntity.GetOnSatellite
+keywords: NSExtAppEntity, GetOnSatellite
+so.topic: reference
 ---
-
 
 Is the application visible when user is on a satellite
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSExtAppEntity thing;
+Bool onSatellite  = thing.GetOnSatellite();
+```
 
 

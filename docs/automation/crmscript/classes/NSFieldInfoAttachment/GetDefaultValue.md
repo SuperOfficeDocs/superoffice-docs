@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoAttachment_GetDefaultValue
 title: Integer GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoAttachment/Member functions/Integer GetDefaultValue()
-intellisense: 1
-classref: 1
-sortOrder: 3457
-keywords: GetDefaultValue()
+intellisense: NSFieldInfoAttachment.GetDefaultValue
+keywords: NSFieldInfoAttachment, GetDefaultValue
+so.topic: reference
 ---
-
 
 Default attachment id value
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFieldInfoAttachment thing;
+Integer defaultValue  = thing.GetDefaultValue();
+```
 
 

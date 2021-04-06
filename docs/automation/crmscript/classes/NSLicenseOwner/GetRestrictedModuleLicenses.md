@@ -1,12 +1,19 @@
----
-title: NSModuleLicenseLink[] GetRestrictedModuleLicenses()
-path: /EJScript/Classes/NSLicenseOwner/Member functions/NSModuleLicenseLink[] GetRestrictedModuleLicenses()
-intellisense: 1
-classref: 1
-keywords: GetRestrictedModuleLicenses()
+﻿---
+uid: crmscript_ref_NSLicenseOwner_GetRestrictedModuleLicenses
+title: ModuleLicenseLinkArray GetRestrictedModuleLicenses()
+intellisense: NSLicenseOwner.GetRestrictedModuleLicenses
+keywords: NSLicenseOwner, GetRestrictedModuleLicenses
+so.topic: reference
 ---
 
 
-* **Returns:** ModuleLicenseLinkArray
+
+**Returns:** ModuleLicenseLinkArray
+
+
+```crmscript
+NSLicenseOwner thing;
+ModuleLicenseLinkArray restrictedModuleLicenses  = thing.GetRestrictedModuleLicenses();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatPresence_SetUserId
+title: SetUserId(Integer userId)
+intellisense: NSChatPresence.SetUserId
+keywords: NSChatPresence, GetUserId
+so.topic: reference
 ---
-title: Void SetUserId(Integer UserId)
-path: /EJScript/Classes/NSChatPresence/Member functions/Void SetUserId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1528
-keywords: SetUserId(Integer)
----
-
 
 The id for the chat user
 
+**Parameter:** 
+ - **userId** Integer
 
-
-* **UserId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSChatPresence thing;
+Integer userId;
+thing.SetUserId(userId);
+```
 

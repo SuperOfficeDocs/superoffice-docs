@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAssociate_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSAssociate/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-sortOrder: 1254
-keywords: GetDeleted()
+intellisense: NSAssociate.GetDeleted
+keywords: NSAssociate, GetDeleted
+so.topic: reference
 ---
-
 
 If true, the user is retired and should have no rights, not appear in lists, etc.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSAssociate thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

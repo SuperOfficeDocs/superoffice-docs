@@ -1,10 +1,10 @@
 ---
-title: String getBase64()
-path: /EJScript/Classes/Attachment/Member functions/String getBase64()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Attachment_getBase64
+title: Attachment.getBase64()
+intellisense: Attachment.getBase64
 sortOrder: 123
 keywords: getBase64()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Time getSatStop()
-path: /EJScript/Classes/WeekSchedule/Member functions/Time getSatStop()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_getSatStop
+title: WeekSchedule.getSatStop()
+intellisense: WeekSchedule.getSatStop
 keywords: getSatStop()
+so.topic: reference
 ---
 
 

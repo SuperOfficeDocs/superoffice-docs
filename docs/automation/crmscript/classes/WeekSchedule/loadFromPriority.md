@@ -1,9 +1,9 @@
 ---
-title: Void loadFromPriority(Integer p\_id)
-path: /EJScript/Classes/WeekSchedule/Member functions/Void loadFromPriority(Integer p_id)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_WeekSchedule_loadFromPriority_Integer_p_id
+title: WeekSchedule.loadFromPriority(Integer p_id)
+intellisense: WeekSchedule.loadFromPriority
 keywords: loadFromPriority(Integer)
+so.topic: reference
 ---
 
 

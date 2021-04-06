@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRefCountEntity_GetUnique
 title: Bool GetUnique()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Bool GetUnique()
-intellisense: 1
-classref: 1
-keywords: GetUnique()
+intellisense: NSRefCountEntity.GetUnique
+keywords: NSRefCountEntity, GetUnique
+so.topic: reference
 ---
-
 
 Check that entered value is unique
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSRefCountEntity thing;
+Bool unique  = thing.GetUnique();
+```
 
 

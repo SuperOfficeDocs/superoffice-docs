@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEntityName_SetTableDescription
+title: SetTableDescription(String tableDescription)
+intellisense: NSEntityName.SetTableDescription
+keywords: NSEntityName, GetTableDescription
+so.topic: reference
 ---
-title: Void SetTableDescription(String TableDescription)
-path: /EJScript/Classes/NSEntityName/Member functions/Void SetTableDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3072
-keywords: SetTableDescription(String)
----
-
 
 Name to be used in GUI, preferable a resource string
 
+**Parameter:** 
+ - **tableDescription** String
 
-
-* **TableDescription:** String
-* **Returns:** String
-
+```crmscript
+NSEntityName thing;
+String tableDescription;
+thing.SetTableDescription(tableDescription);
+```
 

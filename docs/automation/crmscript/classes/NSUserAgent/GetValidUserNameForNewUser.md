@@ -1,16 +1,12 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_GetValidUserNameForNewUser
+title: String GetValidUserNameForNewUser(User user)
+intellisense: NSUserAgent.GetValidUserNameForNewUser
+keywords: NSUserAgent, GetValidUserNameForNewUser
+so.topic: reference
 ---
-title: String GetValidUserNameForNewUser(NSUser p0)
-path: /EJScript/Classes/NSUserAgent/Member functions/String GetValidUserNameForNewUser(NSUser p_0)
-intellisense: 1
-classref: 1
-keywords: GetValidUserNameForNewUser(NSUser)
----
-
 
 Generates a valid username for an unsaved user
 
-
-
-* **user**
-
-
+**Parameters:**
+ - **user** 

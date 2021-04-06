@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSIncomingMessage
 title: NSIncomingMessage
-path: /EJScript/Classes/NSIncomingMessage
-intellisense: 1
-classref: 1
-sortOrder: 3984
+intellisense: Void.NSIncomingMessage
+keywords: NSIncomingMessage
+so.topic: reference
 ---
-
 
 Details about a message to be sent
 
-
-
-
-1. autolist
+1. autolist 
 

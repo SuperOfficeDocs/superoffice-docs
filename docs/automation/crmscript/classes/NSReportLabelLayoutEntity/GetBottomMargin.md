@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetBottomMargin
 title: Integer GetBottomMargin()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetBottomMargin()
-intellisense: 1
-classref: 1
-keywords: GetBottomMargin()
+intellisense: NSReportLabelLayoutEntity.GetBottomMargin
+keywords: NSReportLabelLayoutEntity, GetBottomMargin
+so.topic: reference
 ---
-
 
 Bottom margin in twips
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer bottomMargin  = thing.GetBottomMargin();
+```
 
 

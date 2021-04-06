@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEvent_SetSignOff
+title: SetSignOff(Bool signOff)
+intellisense: NSProjectEvent.SetSignOff
+keywords: NSProjectEvent, GetSignOff
+so.topic: reference
 ---
-title: Void SetSignOff(Bool SignOff)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOff(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSignOff(Bool)
----
-
 
 If true, it is possible to sign off the event.
 
+**Parameter:** 
+ - **signOff** Bool
 
-
-* **SignOff:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSProjectEvent thing;
+Bool signOff;
+thing.SetSignOff(signOff);
+```
 

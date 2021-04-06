@@ -1,10 +1,10 @@
 ---
-title: String GetVersion()
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/String GetVersion()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSGrantedModuleLicense_GetVersion
+title: NSGrantedModuleLicense.GetVersion()
+intellisense: NSGrantedModuleLicense.GetVersion
 sortOrder: 3894
 keywords: GetVersion()
+so.topic: reference
 ---
 
 

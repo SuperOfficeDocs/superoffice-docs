@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetName
+title: SetName(String name)
+intellisense: NSBatchTaskInfo.SetName
+keywords: NSBatchTaskInfo, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1396
-keywords: SetName(String)
----
-
 
 Name of the task.
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSBatchTaskInfo thing;
+String name;
+thing.SetName(name);
+```
 

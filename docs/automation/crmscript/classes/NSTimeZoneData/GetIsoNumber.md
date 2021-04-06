@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneData_GetIsoNumber
 title: Integer GetIsoNumber()
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Integer GetIsoNumber()
-intellisense: 1
-classref: 1
-keywords: GetIsoNumber()
+intellisense: NSTimeZoneData.GetIsoNumber
+keywords: NSTimeZoneData, GetIsoNumber
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSTimeZoneData thing;
+Integer isoNumber  = thing.GetIsoNumber();
+```
 
 

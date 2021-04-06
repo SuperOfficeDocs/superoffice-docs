@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetPriorityName
+title: SetPriorityName(String priorityName)
+intellisense: NSAppointment.SetPriorityName
+keywords: NSAppointment, GetPriorityName
+so.topic: reference
 ---
-title: Void SetPriorityName(String PriorityName)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetPriorityName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 805
-keywords: SetPriorityName(String)
----
-
 
 Name of the appointments priority
 
+**Parameter:** 
+ - **priorityName** String
 
-
-* **PriorityName:** String
-* **Returns:** String
-
+```crmscript
+NSAppointment thing;
+String priorityName;
+thing.SetPriorityName(priorityName);
+```
 

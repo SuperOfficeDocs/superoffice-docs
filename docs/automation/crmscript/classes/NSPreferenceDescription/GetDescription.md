@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSPreferenceDescription.GetDescription
+keywords: NSPreferenceDescription, GetDescription
+so.topic: reference
 ---
-
 
 Description of preference, multi-language parsed
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPreferenceDescription thing;
+String description  = thing.GetDescription();
+```
 
 

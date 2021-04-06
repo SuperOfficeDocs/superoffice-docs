@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetCountryId
 title: Integer GetCountryId()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetCountryId()
-intellisense: 1
-classref: 1
-keywords: GetCountryId()
+intellisense: NSSaleStakeholder.GetCountryId
+keywords: NSSaleStakeholder, GetCountryId
+so.topic: reference
 ---
-
 
 Country id - primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleStakeholder thing;
+Integer countryId  = thing.GetCountryId();
+```
 
 

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSMarketingAgent_SaveFormSubmissionEntity
+title: NSFormSubmissionEntity SaveFormSubmissionEntity(NSFormSubmissionEntity formSubmissionEntity);
+intellisense: NSMarketingAgent.SaveFormSubmissionEntity
+keywords: NSMarketingAgent, SaveFormSubmissionEntity
+so.topic: reference
 ---
-title: NSFormSubmissionEntity SaveFormSubmissionEntity(NSFormSubmissionEntity formSubmissionEntity)
-path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormSubmissionEntity SaveFormSubmissionEntity(NSFormSubmissionEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveFormSubmissionEntity(NSFormSubmissionEntity)
----
+	  
+Updates the existing NSFormSubmissionEntity or creates a new NSFormSubmissionEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **formSubmissionEntity** The NSFormSubmissionEntity to save.
 
+**Returns:** New or updated NSFormSubmissionEntity
 
-Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty
-
-
-
-* **formSubmissionEntity:** The FormSubmissionEntity that is saved
-* **Returns:** New or updated FormSubmissionEntity
-
+```crmscript
+NSMarketing  agent;
+NSFormSubmissionEntity thing = agent.CreateDefaultFormSubmissionEntity();
+thing = agent.SaveFormSubmissionEntity(thing);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebhook_GetWebhookId
 title: Integer GetWebhookId()
-path: /EJScript/Classes/NSWebhook/Member functions/Integer GetWebhookId()
-intellisense: 1
-classref: 1
-keywords: GetWebhookId()
+intellisense: NSWebhook.GetWebhookId
+keywords: NSWebhook, GetWebhookId
+so.topic: reference
 ---
-
 
 Primary Key. Unique id for this webhook.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWebhook thing;
+Integer webhookId  = thing.GetWebhookId();
+```
 
 

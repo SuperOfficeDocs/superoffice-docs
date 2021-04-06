@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTileOption_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 2321
-keywords: GetDescription()
+intellisense: NSDashboardTileOption.GetDescription
+keywords: NSDashboardTileOption, GetDescription
+so.topic: reference
 ---
-
 
 Option description, visible to users
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDashboardTileOption thing;
+String description  = thing.GetDescription();
+```
 
 

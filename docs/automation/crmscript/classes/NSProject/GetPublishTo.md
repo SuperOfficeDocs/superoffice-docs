@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetPublishTo
 title: DateTime GetPublishTo()
-path: /EJScript/Classes/NSProject/Member functions/DateTime GetPublishTo()
-intellisense: 1
-classref: 1
-keywords: GetPublishTo()
+intellisense: NSProject.GetPublishTo
+keywords: NSProject, GetPublishTo
+so.topic: reference
 ---
-
 
 Publication valid to (inclusive)
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSProject thing;
+DateTime publishTo  = thing.GetPublishTo();
+```
 
 

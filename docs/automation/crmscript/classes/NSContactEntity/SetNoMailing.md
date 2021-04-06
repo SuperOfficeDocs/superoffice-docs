@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetNoMailing
+title: SetNoMailing(Bool noMailing)
+intellisense: NSContactEntity.SetNoMailing
+keywords: NSContactEntity, GetNoMailing
+so.topic: reference
 ---
-title: Void SetNoMailing(Bool NoMailing)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetNoMailing(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1903
-keywords: SetNoMailing(Bool)
----
-
 
 Spam filter. Indicates if this contact should retrieve advertising.
 
+**Parameter:** 
+ - **noMailing** Bool
 
-
-* **NoMailing:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSContactEntity thing;
+Bool noMailing;
+thing.SetNoMailing(noMailing);
+```
 

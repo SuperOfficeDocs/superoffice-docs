@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetDbiLastSyncronized
 title: DateTime GetDbiLastSyncronized()
-path: /EJScript/Classes/NSPersonEntity/Member functions/DateTime GetDbiLastSyncronized()
-intellisense: 1
-classref: 1
-keywords: GetDbiLastSyncronized()
+intellisense: NSPersonEntity.GetDbiLastSyncronized
+keywords: NSPersonEntity, GetDbiLastSyncronized
+so.topic: reference
 ---
-
 
 Last external syncronization.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSPersonEntity thing;
+DateTime dbiLastSyncronized  = thing.GetDbiLastSyncronized();
+```
 
 

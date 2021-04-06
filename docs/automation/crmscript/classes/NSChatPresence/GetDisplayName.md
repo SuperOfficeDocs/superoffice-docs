@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSChatPresence_GetDisplayName
 title: String GetDisplayName()
-path: /EJScript/Classes/NSChatPresence/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 1523
-keywords: GetDisplayName()
+intellisense: NSChatPresence.GetDisplayName
+keywords: NSChatPresence, GetDisplayName
+so.topic: reference
 ---
-
 
 The display name of the chat user
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSChatPresence thing;
+String displayName  = thing.GetDisplayName();
+```
 
 

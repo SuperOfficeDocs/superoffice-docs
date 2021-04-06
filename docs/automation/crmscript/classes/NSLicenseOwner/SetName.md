@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseOwner_SetName
+title: SetName(String name)
+intellisense: NSLicenseOwner.SetName
+keywords: NSLicenseOwner, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSLicenseOwner/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 The name of the license owner
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSLicenseOwner thing;
+String name;
+thing.SetName(name);
+```
 

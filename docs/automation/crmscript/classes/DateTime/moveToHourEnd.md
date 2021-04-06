@@ -1,10 +1,10 @@
 ---
-title: DateTime moveToHourEnd()
-path: /EJScript/Classes/DateTime/Member functions/DateTime moveToHourEnd()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DateTime_moveToHourEnd
+title: DateTime.moveToHourEnd()
+intellisense: DateTime.moveToHourEnd
 sortOrder: 218
 keywords: moveToHourEnd()
+so.topic: reference
 ---
 
 Moves the datetime to the end of the current hour. Returns a reference to itself.

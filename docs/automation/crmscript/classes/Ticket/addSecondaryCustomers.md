@@ -1,9 +1,9 @@
 ---
-title: Void addSecondaryCustomers(Vector ids)
-path: /EJScript/Classes/Ticket/Member functions/Void addSecondaryCustomers(Vector ids)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Ticket_addSecondaryCustomers_Vector_ids
+title: Ticket.addSecondaryCustomers(Vector ids)
+intellisense: Ticket.addSecondaryCustomers
 keywords: addSecondaryCustomers(Vector)
+so.topic: reference
 ---
 
 Add seconday customers to the ticket.

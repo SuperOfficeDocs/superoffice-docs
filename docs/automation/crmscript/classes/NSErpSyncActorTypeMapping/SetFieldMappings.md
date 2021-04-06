@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncActorTypeMapping_SetFieldMappings
+title: SetFieldMappings(ErpSyncFieldMappingArray fieldMappings)
+intellisense: NSErpSyncActorTypeMapping.SetFieldMappings
+keywords: NSErpSyncActorTypeMapping, GetFieldMappings
+so.topic: reference
 ---
-title: Void SetFieldMappings(NSErpSyncFieldMapping[] FieldMappings)
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/Void SetFieldMappings(NSErpSyncFieldMapping[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3174
-keywords: SetFieldMappings(NSErpSyncFieldMapping[])
----
-
 
 Array of individual field mappings; explicitly map to empty CrmFieldKey to indicate non-sync
 
+**Parameter:** 
+ - **fieldMappings** ErpSyncFieldMappingArray
 
-
-* **FieldMappings:** ErpSyncFieldMappingArray
-* **Returns:** ErpSyncFieldMappingArray
-
+```crmscript
+NSErpSyncActorTypeMapping thing;
+ErpSyncFieldMappingArray fieldMappings;
+thing.SetFieldMappings(fieldMappings);
+```
 

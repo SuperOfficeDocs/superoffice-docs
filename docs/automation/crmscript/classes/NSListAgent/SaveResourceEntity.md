@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveResourceEntity
+title: NSResourceEntity SaveResourceEntity(NSResourceEntity resourceEntity);
+intellisense: NSListAgent.SaveResourceEntity
+keywords: NSListAgent, SaveResourceEntity
+so.topic: reference
 ---
-title: NSResourceEntity SaveResourceEntity(NSResourceEntity resourceEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSResourceEntity SaveResourceEntity(NSResourceEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveResourceEntity(NSResourceEntity)
----
+	  
+Updates the existing NSResourceEntity or creates a new NSResourceEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **resourceEntity** The NSResourceEntity to save.
 
+**Returns:** New or updated NSResourceEntity
 
-Updates the existing ResourceEntity or creates a new ResourceEntity if the id parameter is empty
-
-
-
-* **resourceEntity:** The ResourceEntity that is saved
-* **Returns:** New or updated ResourceEntity
-
+```crmscript
+NSList  agent;
+NSResourceEntity thing = agent.CreateDefaultResourceEntity();
+thing = agent.SaveResourceEntity(thing);
+```
 

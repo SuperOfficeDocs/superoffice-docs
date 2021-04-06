@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuote_SetSaleId
+title: SetSaleId(Integer saleId)
+intellisense: NSQuote.SetSaleId
+keywords: NSQuote, GetSaleId
+so.topic: reference
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSQuote/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleId(Integer)
----
-
 
 The foreign key to the corresponding sale
 
+**Parameter:** 
+ - **saleId** Integer
 
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSQuote thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
 

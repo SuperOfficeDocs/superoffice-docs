@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetCompanyName
+title: SetCompanyName(String companyName)
+intellisense: NSLicenseInfo.SetCompanyName
+keywords: NSLicenseInfo, GetCompanyName
+so.topic: reference
 ---
-title: Void SetCompanyName(String CompanyName)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetCompanyName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCompanyName(String)
----
-
 
 Name of the database owner company.
 
+**Parameter:** 
+ - **companyName** String
 
-
-* **CompanyName:** String
-* **Returns:** String
-
+```crmscript
+NSLicenseInfo thing;
+String companyName;
+thing.SetCompanyName(companyName);
+```
 

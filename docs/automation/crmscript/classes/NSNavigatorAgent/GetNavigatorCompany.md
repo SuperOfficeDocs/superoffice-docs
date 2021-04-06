@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSNavigatorAgent_GetNavigatorCompany
+title: NSNavigatorCompany GetNavigatorCompany(Integer navigatorCompanyId);
+intellisense: NSNavigatorAgent.GetNavigatorCompany
+keywords: NSNavigatorAgent, GetNavigatorCompany
+so.topic: reference
 ---
-title: NSNavigatorCompany GetNavigatorCompany(Integer navigatorCompanyId)
-path: /EJScript/Classes/NSNavigatorAgent/Member functions/NSNavigatorCompany GetNavigatorCompany(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetNavigatorCompany(Integer)
----
 
+Gets a NSNavigatorCompany object.
 
-Gets a NavigatorCompany object.
+**Parameters:**
+ - **navigatorCompanyId** The identifier of the NSNavigatorCompany object
 
+**Returns:** NSNavigatorCompany
 
-
-* **navigatorCompanyId:** The identifier of the NavigatorCompany object
-* **Returns:** NavigatorCompany
-
+```crmscript
+NSNavigatorAgent agent;
+NSNavigatorCompany thing = agent.GetNavigatorCompany(123);
+```
 

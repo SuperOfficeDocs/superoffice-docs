@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_GetLinks
+title: LinkArray GetLinks()
+intellisense: NSDocumentEntity.GetLinks
+keywords: NSDocumentEntity, GetLinks
+so.topic: reference
 ---
-title: NSLink[] GetLinks()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/NSLink[] GetLinks()
-intellisense: 1
-classref: 1
-sortOrder: 2572
-keywords: GetLinks()
----
-
 
 List of all elements linked to the document.
 
+**Returns:** LinkArray
 
 
-* **Returns:** LinkArray
+```crmscript
+NSDocumentEntity thing;
+LinkArray links  = thing.GetLinks();
+```
 
 

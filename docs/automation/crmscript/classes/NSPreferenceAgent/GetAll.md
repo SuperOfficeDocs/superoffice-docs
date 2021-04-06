@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSPreferenceAgent_GetAll
+title: PreferenceDescriptionArray GetAll()
+intellisense: NSPreferenceAgent.GetAll
+keywords: NSPreferenceAgent, GetAll
+so.topic: reference
 ---
-title: NSPreferenceDescription[] GetAll()
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription[] GetAll()
-intellisense: 1
-classref: 1
-keywords: GetAll()
----
-
 
 Gets a list of all PreferenceDescriptions in the system.
 
 
+**Returns:** All PreferenceDescriptions in the system
 
-* **Returns:** All PreferenceDescriptions in the system
-
+```crmscript
+NSPreferenceAgent agent;
+PreferenceDescriptionArray res = agent.GetAll();
+```
 

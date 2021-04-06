@@ -1,10 +1,10 @@
 ---
-title: Void SetAlldayEvent(Integer p0)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAlldayEvent(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAppointment_SetAlldayEvent_Integer_p_0
+title: NSAppointment.SetAlldayEvent(Integer p_0)
+intellisense: NSAppointment.SetAlldayEvent
 sortOrder: 769
 keywords: SetAlldayEvent(Integer)
+so.topic: reference
 ---
 
 

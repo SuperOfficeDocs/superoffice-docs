@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetOurCurrency
+title: Currency GetOurCurrency()
+intellisense: NSListAgent.GetOurCurrency
+keywords: NSListAgent, GetOurCurrency
+so.topic: reference
 ---
-title: NSCurrency GetOurCurrency()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrency GetOurCurrency()
-intellisense: 1
-classref: 1
-keywords: GetOurCurrency()
----
-
 
 Gets the Our currency object if currency is enabled
 
 
+**Returns:** Our currency
 
-* **Returns:** Our currency
-
+```crmscript
+NSListAgent agent;
+Currency res = agent.GetOurCurrency();
+```
 

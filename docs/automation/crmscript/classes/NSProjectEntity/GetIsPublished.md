@@ -1,12 +1,12 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetIsPublished
+title: Boolean GetIsPublished()
+intellisense: NSProjectEntity.GetIsPublished
+keywords: NSProjectEntity, GetIsPublished
+so.topic: reference
 ---
-title: Bool GetIsPublished()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
-keywords: GetIsPublished()
----
 
+Should this ProjectEntity be published and visible to strangers?
 
-Get the Publication is published field
-
+**Returns:** Boolean
 

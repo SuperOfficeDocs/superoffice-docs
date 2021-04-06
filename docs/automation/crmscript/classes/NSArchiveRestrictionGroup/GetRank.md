@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveRestrictionGroup_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 1202
-keywords: GetRank()
+intellisense: NSArchiveRestrictionGroup.GetRank
+keywords: NSArchiveRestrictionGroup, GetRank
+so.topic: reference
 ---
-
 
 Rank order within this CriteriaModel
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSArchiveRestrictionGroup thing;
+Integer rank  = thing.GetRank();
+```
 
 

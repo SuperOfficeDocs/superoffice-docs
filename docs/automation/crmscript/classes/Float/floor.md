@@ -1,10 +1,10 @@
 ---
-title: Integer floor()
-path: /EJScript/Classes/Float/Member functions/Integer floor()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Float_floor
+title: Float.floor()
+intellisense: Float.floor
 sortOrder: 358
 keywords: floor()
+so.topic: reference
 ---
 
 Returns the integer floor of the float.

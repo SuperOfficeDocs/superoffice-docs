@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBlobEntity_SetIsEncrypted
+title: SetIsEncrypted(Bool isEncrypted)
+intellisense: NSBlobEntity.SetIsEncrypted
+keywords: NSBlobEntity, GetIsEncrypted
+so.topic: reference
 ---
-title: Void SetIsEncrypted(Bool IsEncrypted)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetIsEncrypted(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1460
-keywords: SetIsEncrypted(Bool)
----
-
 
 Has the data been encrypted.
 
+**Parameter:** 
+ - **isEncrypted** Bool
 
-
-* **IsEncrypted:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSBlobEntity thing;
+Bool isEncrypted;
+thing.SetIsEncrypted(isEncrypted);
+```
 

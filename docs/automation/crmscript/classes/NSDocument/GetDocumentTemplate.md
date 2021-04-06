@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetDocumentTemplate
 title: String GetDocumentTemplate()
-path: /EJScript/Classes/NSDocument/Member functions/String GetDocumentTemplate()
-intellisense: 1
-classref: 1
-sortOrder: 2439
-keywords: GetDocumentTemplate()
+intellisense: NSDocument.GetDocumentTemplate
+keywords: NSDocument, GetDocumentTemplate
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSDocument thing;
+String documentTemplate  = thing.GetDocumentTemplate();
+```
 
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetDescription
+title: SetDescription(String description)
+intellisense: NSBatchTaskInfo.SetDescription
+keywords: NSBatchTaskInfo, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1389
-keywords: SetDescription(String)
----
-
 
 Description of the task.
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSBatchTaskInfo thing;
+String description;
+thing.SetDescription(description);
+```
 

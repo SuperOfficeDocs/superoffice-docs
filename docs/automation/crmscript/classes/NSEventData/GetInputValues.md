@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEventData_GetInputValues
 title: StringDictionary GetInputValues()
-path: /EJScript/Classes/NSEventData/Member functions/StringDictionary GetInputValues()
-intellisense: 1
-classref: 1
-sortOrder: 3344
-keywords: GetInputValues()
+intellisense: NSEventData.GetInputValues
+keywords: NSEventData, GetInputValues
+so.topic: reference
 ---
-
 
 Environment values sent to the event handler
 
+**Returns:** StringDictionary
 
 
-* **Returns:** StringDictionary
+```crmscript
+NSEventData thing;
+StringDictionary inputValues  = thing.GetInputValues();
+```
 
 

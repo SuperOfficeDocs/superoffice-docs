@@ -1,9 +1,9 @@
 ---
 description: String getSessionVariable(String name)
-path: /EJScript/Global functions/String getSessionVariable(String name)
-intellisense: 1
+intellisense: Void.getSessionVariable
 langref: 1
 keywords: getSessionVariable(String)
+so.topic: reference
 ---
 
 

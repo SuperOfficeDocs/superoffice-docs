@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnectionListMappingContainer_SetErpConnectionName
+title: SetErpConnectionName(String erpConnectionName)
+intellisense: NSErpConnectionListMappingContainer.SetErpConnectionName
+keywords: NSErpConnectionListMappingContainer, GetErpConnectionName
+so.topic: reference
 ---
-title: Void SetErpConnectionName(String ErpConnectionName)
-path: /EJScript/Classes/NSErpConnectionListMappingContainer/Member functions/Void SetErpConnectionName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3140
-keywords: SetErpConnectionName(String)
----
-
 
 The name of the erp connection
 
+**Parameter:** 
+ - **erpConnectionName** String
 
-
-* **ErpConnectionName:** String
-* **Returns:** String
-
+```crmscript
+NSErpConnectionListMappingContainer thing;
+String erpConnectionName;
+thing.SetErpConnectionName(erpConnectionName);
+```
 

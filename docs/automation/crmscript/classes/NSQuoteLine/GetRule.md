@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLine_GetRule
 title: String GetRule()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetRule()
-intellisense: 1
-classref: 1
-keywords: GetRule()
+intellisense: NSQuoteLine.GetRule
+keywords: NSQuoteLine, GetRule
+so.topic: reference
 ---
-
 
 The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteLine thing;
+String rule  = thing.GetRule();
+```
 
 

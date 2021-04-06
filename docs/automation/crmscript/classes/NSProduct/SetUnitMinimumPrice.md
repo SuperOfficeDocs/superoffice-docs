@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetUnitMinimumPrice
+title: SetUnitMinimumPrice(Float unitMinimumPrice)
+intellisense: NSProduct.SetUnitMinimumPrice
+keywords: NSProduct, GetUnitMinimumPrice
+so.topic: reference
 ---
-title: Void SetUnitMinimumPrice(Float UnitMinimumPrice)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetUnitMinimumPrice(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetUnitMinimumPrice(Float)
----
-
 
 The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this.
 
+**Parameter:** 
+ - **unitMinimumPrice** Float
 
-
-* **UnitMinimumPrice:** Float
-* **Returns:** Float
-
+```crmscript
+NSProduct thing;
+Float unitMinimumPrice;
+thing.SetUnitMinimumPrice(unitMinimumPrice);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactOrPersonFromEmail_SetSortName
+title: SetSortName(String sortName)
+intellisense: NSContactOrPersonFromEmail.SetSortName
+keywords: NSContactOrPersonFromEmail, GetSortName
+so.topic: reference
 ---
-title: Void SetSortName(String SortName)
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/Void SetSortName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1935
-keywords: SetSortName(String)
----
-
 
 If person ? The person name, else contact name
 
+**Parameter:** 
+ - **sortName** String
 
-
-* **SortName:** String
-* **Returns:** String
-
+```crmscript
+NSContactOrPersonFromEmail thing;
+String sortName;
+thing.SetSortName(sortName);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateInfo_SetDescription
+title: SetDescription(String description)
+intellisense: NSTemplateInfo.SetDescription
+keywords: NSTemplateInfo, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSTemplateInfo/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 Document description, shown as a tooltip or in some extended description area
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSTemplateInfo thing;
+String description;
+thing.SetDescription(description);
+```
 

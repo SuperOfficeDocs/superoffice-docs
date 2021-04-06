@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetAppointmentId
 title: Integer GetAppointmentId()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Integer GetAppointmentId()
-intellisense: 1
-classref: 1
-sortOrder: 940
-keywords: GetAppointmentId()
+intellisense: NSAppointmentEntity.GetAppointmentId
+keywords: NSAppointmentEntity, GetAppointmentId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAppointmentEntity thing;
+Integer appointmentId  = thing.GetAppointmentId();
+```
 
 

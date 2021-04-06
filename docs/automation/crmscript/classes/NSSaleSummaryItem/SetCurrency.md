@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleSummaryItem_SetCurrency
+title: SetCurrency(String currency)
+intellisense: NSSaleSummaryItem.SetCurrency
+keywords: NSSaleSummaryItem, GetCurrency
+so.topic: reference
 ---
-title: Void SetCurrency(String Currency)
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Void SetCurrency(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCurrency(String)
----
-
 
 Currency the sale amount is in.
 
+**Parameter:** 
+ - **currency** String
 
-
-* **Currency:** String
-* **Returns:** String
-
+```crmscript
+NSSaleSummaryItem thing;
+String currency;
+thing.SetCurrency(currency);
+```
 

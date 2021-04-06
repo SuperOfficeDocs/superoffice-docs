@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_GetName
 title: String GetName()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 2411
-keywords: GetName()
+intellisense: NSDiaryViewEntity.GetName
+keywords: NSDiaryViewEntity, GetName
+so.topic: reference
 ---
-
 
 Name of the DiaryView.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDiaryViewEntity thing;
+String name  = thing.GetName();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSContactEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-sortOrder: 1869
-keywords: GetDescription()
+intellisense: NSContactEntity.GetDescription
+keywords: NSContactEntity, GetDescription
+so.topic: reference
 ---
 
+Description of the contact. Usually shown as a postit note.
 
-Description of the contact
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSContactEntity thing;
+String description  = thing.GetDescription();
+```
 
 

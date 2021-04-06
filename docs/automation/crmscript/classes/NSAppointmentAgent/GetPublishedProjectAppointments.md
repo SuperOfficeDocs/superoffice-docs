@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_GetPublishedProjectAppointments
+title: AppointmentArray GetPublishedProjectAppointments(Integer projectId)
+intellisense: NSAppointmentAgent.GetPublishedProjectAppointments
+keywords: NSAppointmentAgent, GetPublishedProjectAppointments
+so.topic: reference
 ---
-title: NSAppointment[] GetPublishedProjectAppointments(Integer projectId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetPublishedProjectAppointments(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 870
-keywords: GetPublishedProjectAppointments(Integer)
----
-
 
 Get published appointments by project id.
 
+**Parameters:**
+ - **projectId** The project id
 
+**Returns:** Array of Appointment
 
-* **projectId:** The project id
-* **Returns:** Array of Appointment
-
+```crmscript
+NSAppointmentAgent agent;
+Integer projectId;
+AppointmentArray res = agent.GetPublishedProjectAppointments(projectId);
+```
 

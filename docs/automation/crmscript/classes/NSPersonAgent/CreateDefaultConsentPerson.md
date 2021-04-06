@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonAgent_CreateDefaultConsentPerson
 title: NSConsentPerson CreateDefaultConsentPerson()
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSConsentPerson CreateDefaultConsentPerson()
-intellisense: 1
-classref: 1
-keywords: CreateDefaultConsentPerson()
+intellisense: NSPersonAgent.CreateDefaultConsentPerson
+keywords: NSPersonAgent, CreateDefaultConsentPerson
+so.topic: reference
 ---
+	  
+Set default values into a new NSConsentPerson.
+NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+	  
+**Returns:** A new NSConsentPerson with default values.
 
-
-Loading default values into a new ConsentPerson.
-		  NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-
-
-* **Returns:** New ConsentPerson with default values
-
+```crmscript
+NSPersonAgent agent;
+NSConsentPerson thing = agent.CreateDefaultConsentPerson();
+thing = agent.SaveConsentPerson(thing);
+```
 

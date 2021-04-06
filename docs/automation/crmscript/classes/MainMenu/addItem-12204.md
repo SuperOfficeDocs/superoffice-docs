@@ -1,10 +1,10 @@
 ---
-title: Void addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target, String iconUrl)
-path: /EJScript/Classes/MainMenu/Member functions/Void addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target, String iconUrl)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MainMenu_addItem_String_label_String_url_Integer_group_Integer_position_String_onClick_String_itemId_String_target_String_iconUrl
+title: MainMenu.addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target, String iconUrl)
+intellisense: MainMenu.addItem
 sortOrder: 516
 keywords: addItem(String,String,Integer,Integer,String,String,String,String)
+so.topic: reference
 ---
 
 ### Void addItem(String label, String url, Integer group, Integer position, String onClick, String itemId, String target, String iconUrl)

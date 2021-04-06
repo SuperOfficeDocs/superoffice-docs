@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSBusiness_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSBusiness/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-sortOrder: 1480
-keywords: GetValue()
+intellisense: NSBusiness.GetValue
+keywords: NSBusiness, GetValue
+so.topic: reference
 ---
 
+Get the name of the Business.
 
-* **Returns:** String
+**Returns:** String Business name.
 
+```crmscript
+NSBusiness thing;
+String name = thing.GetValue();
+```
 

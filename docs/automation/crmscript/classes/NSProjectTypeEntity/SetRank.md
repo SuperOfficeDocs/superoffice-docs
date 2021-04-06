@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectTypeEntity_SetRank
+title: SetRank(Integer rank)
+intellisense: NSProjectTypeEntity.SetRank
+keywords: NSProjectTypeEntity, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 Rank order
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSProjectTypeEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

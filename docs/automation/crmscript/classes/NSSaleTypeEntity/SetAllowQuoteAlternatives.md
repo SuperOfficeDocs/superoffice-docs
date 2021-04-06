@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_SetAllowQuoteAlternatives
+title: SetAllowQuoteAlternatives(Bool allowQuoteAlternatives)
+intellisense: NSSaleTypeEntity.SetAllowQuoteAlternatives
+keywords: NSSaleTypeEntity, GetAllowQuoteAlternatives
+so.topic: reference
 ---
-title: Void SetAllowQuoteAlternatives(Bool AllowQuoteAlternatives)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetAllowQuoteAlternatives(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetAllowQuoteAlternatives(Bool)
----
-
 
 Can quotes linked to sales of this type, have multiple Alternatives
 
+**Parameter:** 
+ - **allowQuoteAlternatives** Bool
 
-
-* **AllowQuoteAlternatives:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSSaleTypeEntity thing;
+Bool allowQuoteAlternatives;
+thing.SetAllowQuoteAlternatives(allowQuoteAlternatives);
+```
 

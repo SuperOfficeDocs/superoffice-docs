@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_SetFieldName
+title: SetFieldName(String fieldName)
+intellisense: NSFieldInfoBase.SetFieldName
+keywords: NSFieldInfoBase, GetFieldName
+so.topic: reference
 ---
-title: Void SetFieldName(String FieldName)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetFieldName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3476
-keywords: SetFieldName(String)
----
 
+Database name or prog-id: 'x_foobar' or 'SuperOffice:2'.
 
-Database name or prog-id: 'x\_foobar' or 'SuperOffice:2'.
+**Parameter:** 
+ - **fieldName** String
 
-
-
-* **FieldName:** String
-* **Returns:** String
-
+```crmscript
+NSFieldInfoBase thing;
+String fieldName;
+thing.SetFieldName(fieldName);
+```
 

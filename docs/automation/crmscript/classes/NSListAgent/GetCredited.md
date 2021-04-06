@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCredited
+title: NSCredited GetCredited(Integer creditedId);
+intellisense: NSListAgent.GetCredited
+keywords: NSListAgent, GetCredited
+so.topic: reference
 ---
-title: NSCredited GetCredited(Integer creditedId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCredited GetCredited(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetCredited(Integer)
----
 
+Gets a NSCredited object.
 
-Gets a Credited object.
+**Parameters:**
+ - **creditedId** The identifier of the NSCredited object
 
+**Returns:** NSCredited
 
-
-* **creditedId:** The identifier of the Credited object
-* **Returns:** Credited
-
+```crmscript
+NSListAgent agent;
+NSCredited thing = agent.GetCredited(123);
+```
 

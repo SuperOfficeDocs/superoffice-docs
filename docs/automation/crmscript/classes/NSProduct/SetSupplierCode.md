@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetSupplierCode
+title: SetSupplierCode(String supplierCode)
+intellisense: NSProduct.SetSupplierCode
+keywords: NSProduct, GetSupplierCode
+so.topic: reference
 ---
-title: Void SetSupplierCode(String SupplierCode)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetSupplierCode(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSupplierCode(String)
----
-
 
 Suppliers part code/number or other key-like field
 
+**Parameter:** 
+ - **supplierCode** String
 
-
-* **SupplierCode:** String
-* **Returns:** String
-
+```crmscript
+NSProduct thing;
+String supplierCode;
+thing.SetSupplierCode(supplierCode);
+```
 

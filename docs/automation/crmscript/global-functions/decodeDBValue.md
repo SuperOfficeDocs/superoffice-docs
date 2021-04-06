@@ -1,9 +1,9 @@
 ---
 description: String decodeDBValue(String p\_dbValue)
-path: /EJScript/Global functions/String decodeDBValue(String p_dbValue)
-intellisense: 1
+intellisense: Void.decodeDBValue
 langref: 1
 keywords: decodeDBValue(String)
+so.topic: reference
 ---
 
 

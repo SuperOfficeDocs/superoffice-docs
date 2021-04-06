@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveCountry
+title: Country SaveCountry(Country country)
+intellisense: NSListAgent.SaveCountry
+keywords: NSListAgent, SaveCountry
+so.topic: reference
 ---
-title: NSCountry SaveCountry(NSCountry country)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry SaveCountry(NSCountry p_0)
-intellisense: 1
-classref: 1
-keywords: SaveCountry(NSCountry)
----
-
 
 Saves a country
 
+**Parameters:**
+ - **country** The country to save
 
+**Returns:** The country that is saved
 
-* **country:** The country to save
-* **Returns:** The country that is saved
-
+```crmscript
+NSListAgent agent;
+Country country;
+Country res = agent.SaveCountry(country);
+```
 

@@ -1,18 +1,24 @@
+﻿---
+uid: crmscript_ref_NSErpConnectionData_SetCrmActorType
+title: SetCrmActorType(Integer crmActorType)
+intellisense: NSErpConnectionData.SetCrmActorType
+keywords: NSErpConnectionData, GetCrmActorType
+so.topic: reference
 ---
-title: Void SetCrmActorType(Integer CrmActorType)
-path: /EJScript/Classes/NSErpConnectionData/Member functions/Void SetCrmActorType(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3116
-keywords: SetCrmActorType(Integer)
----
-
 
 The crm actor type which these fields belongs to
 
+**Parameter:** 
+ - **crmActorType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Contact 
+     - Enum: 2 = Person 
+     - Enum: 3 = Project 
+     - Enum: 4 = Sale 
 
-
-* **CrmActorType:** Integer
-* **Returns:** Void
-
+```crmscript
+NSErpConnectionData thing;
+Integer crmActorType;
+thing.SetCrmActorType(crmActorType);
+```
 

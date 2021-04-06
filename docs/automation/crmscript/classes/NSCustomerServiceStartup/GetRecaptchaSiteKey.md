@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerServiceStartup_GetRecaptchaSiteKey
 title: String GetRecaptchaSiteKey()
-path: /EJScript/Classes/NSCustomerServiceStartup/Member functions/String GetRecaptchaSiteKey()
-intellisense: 1
-classref: 1
-sortOrder: 2254
-keywords: GetRecaptchaSiteKey()
+intellisense: NSCustomerServiceStartup.GetRecaptchaSiteKey
+keywords: NSCustomerServiceStartup, GetRecaptchaSiteKey
+so.topic: reference
 ---
-
 
 A global recaptcha site key, used with the google recaptcha component. This value is taken from the web.config file
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSCustomerServiceStartup thing;
+String recaptchaSiteKey  = thing.GetRecaptchaSiteKey();
+```
 
 

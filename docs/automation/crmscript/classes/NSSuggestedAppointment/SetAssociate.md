@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetAssociate
+title: SetAssociate(Associate associate)
+intellisense: NSSuggestedAppointment.SetAssociate
+keywords: NSSuggestedAppointment, GetAssociate
+so.topic: reference
 ---
-title: Void SetAssociate(NSAssociate Associate)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociate(NSAssociate)
----
-
 
 The owner of the suggested activity. Always the same as the sales owner.
 
+**Parameter:** 
+ - **associate** Associate
 
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSSuggestedAppointment thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
 

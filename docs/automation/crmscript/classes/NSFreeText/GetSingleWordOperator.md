@@ -1,17 +1,22 @@
----
+﻿---
+uid: crmscript_ref_NSFreeText_GetSingleWordOperator
 title: Integer GetSingleWordOperator()
-path: /EJScript/Classes/NSFreeText/Member functions/Integer GetSingleWordOperator()
-intellisense: 1
-classref: 1
-sortOrder: 3858
-keywords: GetSingleWordOperator()
+intellisense: NSFreeText.GetSingleWordOperator
+keywords: NSFreeText, GetSingleWordOperator
+so.topic: reference
 ---
-
 
 Starts with, contains or exact match
 
+**Returns:** Integer
 
+     - Enum: 1 = Contains 
+     - Enum: 2 = StartsWith 
+     - Enum: 3 = ExactMatch 
 
-* **Returns:** Integer
+```crmscript
+NSFreeText thing;
+Integer singleWordOperator  = thing.GetSingleWordOperator();
+```
 
 

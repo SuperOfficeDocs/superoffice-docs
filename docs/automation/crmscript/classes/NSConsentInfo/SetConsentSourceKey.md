@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentInfo_SetConsentSourceKey
+title: SetConsentSourceKey(String consentSourceKey)
+intellisense: NSConsentInfo.SetConsentSourceKey
+keywords: NSConsentInfo, GetConsentSourceKey
+so.topic: reference
 ---
-title: Void SetConsentSourceKey(String ConsentSourceKey)
-path: /EJScript/Classes/NSConsentInfo/Member functions/Void SetConsentSourceKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1649
-keywords: SetConsentSourceKey(String)
----
-
 
 Key of the ConsentSource associated with this consent
 
+**Parameter:** 
+ - **consentSourceKey** String
 
-
-* **ConsentSourceKey:** String
-* **Returns:** String
-
+```crmscript
+NSConsentInfo thing;
+String consentSourceKey;
+thing.SetConsentSourceKey(consentSourceKey);
+```
 

@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig
 title: NSCustomerCenterConfig
-path: /EJScript/Classes/NSCustomerCenterConfig
-intellisense: 1
-classref: 1
-sortOrder: 2193
+intellisense: Void.NSCustomerCenterConfig
+keywords: NSCustomerCenterConfig
+so.topic: reference
 ---
-
 
 Contains configuration when displaying the Customer Center
 
-
-
-
-1. autolist
+1. autolist 
 

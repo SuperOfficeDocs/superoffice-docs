@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSTask_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSTask/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSTask.GetId
+keywords: NSTask, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the Task
 
-* **Returns:** Integer
+**Returns:** Integer Task id.
 
+```crmscript
+NSTask thing;
+Integer id = thing.GetId();
+```
 

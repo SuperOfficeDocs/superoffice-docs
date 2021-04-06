@@ -1,10 +1,10 @@
 ---
-title: Void setErrorMessage(String errormessage)
-path: /EJScript/Classes/HtmlElement/Member functions/Void setErrorMessage(String errormessage)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_HtmlElement_setErrorMessage_String_errormessage
+title: HtmlElement.setErrorMessage(String errormessage)
+intellisense: HtmlElement.setErrorMessage
 sortOrder: 390
 keywords: setErrorMessage(String)
+so.topic: reference
 ---
 
 # Void setErrorMessage(String errorMessage)

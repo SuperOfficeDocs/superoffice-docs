@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetKanalname
+title: SetKanalname(String kanalname)
+intellisense: NSPersonEntity.SetKanalname
+keywords: NSPersonEntity, GetKanalname
+so.topic: reference
 ---
-title: Void SetKanalname(String Kanalname)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetKanalname(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetKanalname(String)
----
-
 
 Kana last name, used in Japanese versions only
 
+**Parameter:** 
+ - **kanalname** String
 
-
-* **Kanalname:** String
-* **Returns:** String
-
+```crmscript
+NSPersonEntity thing;
+String kanalname;
+thing.SetKanalname(kanalname);
+```
 

@@ -1,9 +1,9 @@
 ---
 description: Void assertEquals(String string1, String string2)
-path: /EJScript/Global functions/Void assertEquals(String string1, String string2)
-intellisense: 1
+intellisense: Void.assertEquals
 langref: 1
 keywords: assertEquals(String,String)
+so.topic: reference
 ---
 
 

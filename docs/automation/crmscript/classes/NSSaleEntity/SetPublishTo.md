@@ -1,13 +1,13 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetPublishTo
+title: SetPublishTo(DateTime publishTo)
+intellisense: NSSaleEntity.SetPublishTo
+keywords: NSSaleEntity, SetPublishTo
+so.topic: reference
 ---
-title: Void SetPublishTo(DateTime fields)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetPublishTo(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetPublishTo(DateTime)
----
 
+Set the publish to date on SaleEntity. After this date the event is no longer visible.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishTo** DateTime
 

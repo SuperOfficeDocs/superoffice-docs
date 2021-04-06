@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDashboard_SetTiles
+title: SetTiles(DashboardTileArray tiles)
+intellisense: NSDashboard.SetTiles
+keywords: NSDashboard, GetTiles
+so.topic: reference
 ---
-title: Void SetTiles(NSDashboardTile[] Tiles)
-path: /EJScript/Classes/NSDashboard/Member functions/Void SetTiles(NSDashboardTile[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2269
-keywords: SetTiles(NSDashboardTile[])
----
-
 
 The tiles associated with this dashboard
 
+**Parameter:** 
+ - **tiles** DashboardTileArray
 
-
-* **Tiles:** DashboardTileArray
-* **Returns:** DashboardTileArray
-
+```crmscript
+NSDashboard thing;
+DashboardTileArray tiles;
+thing.SetTiles(tiles);
+```
 

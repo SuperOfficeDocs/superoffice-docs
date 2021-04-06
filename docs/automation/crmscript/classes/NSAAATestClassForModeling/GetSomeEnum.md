@@ -1,10 +1,10 @@
 ---
-title: Integer GetSomeEnum()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Integer GetSomeEnum()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAATestClassForModeling_GetSomeEnum
+title: NSAAATestClassForModeling.GetSomeEnum()
+intellisense: NSAAATestClassForModeling.GetSomeEnum
 sortOrder: 8924
 keywords: GetSomeEnum()
+so.topic: reference
 ---
 
 

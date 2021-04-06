@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetMotherId
+title: SetMotherId(Integer motherId)
+intellisense: NSAppointmentEntity.SetMotherId
+keywords: NSAppointmentEntity, GetMotherId
+so.topic: reference
 ---
-title: Void SetMotherId(Integer MotherId)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetMotherId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1016
-keywords: SetMotherId(Integer)
----
 
+ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc_id != reg_id then this is an assigned appointment, indicated vt type = kBooking
 
-ID of mother appointment; self if booking master, master ID if booking slave, 0 if normal appointment. However, if 0 and assoc\_id != reg\_id then this is an assigned appointment, indicated vt type = kBooking
+**Parameter:** 
+ - **motherId** Integer
 
-
-
-* **MotherId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointmentEntity thing;
+Integer motherId;
+thing.SetMotherId(motherId);
+```
 

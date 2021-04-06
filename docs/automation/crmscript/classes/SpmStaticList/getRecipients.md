@@ -1,9 +1,9 @@
 ---
-title: Map getRecipients()
-path: /EJScript/Classes/SpmStaticList/Member functions/Map getRecipients()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmStaticList_getRecipients
+title: SpmStaticList.getRecipients()
+intellisense: SpmStaticList.getRecipients
 keywords: getRecipients()
+so.topic: reference
 ---
 
 

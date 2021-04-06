@@ -1,16 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSArchiveAgent
 title: NSArchiveAgent
-path: /EJScript/Classes/NSArchiveAgent
-intellisense: 1
-classref: 1
-sortOrder: 1098
+intellisense: Void.NSArchiveAgent
+keywords: NSArchiveAgent
+so.topic: reference
 ---
-
 
 ArchiveList functions of all kinds
 
-
-
+```crmscript
+NSArchiveAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

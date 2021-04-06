@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_SaveQuoteVersion
+title: QuoteVersion SaveQuoteVersion(QuoteVersion quoteVersion)
+intellisense: NSQuoteAgent.SaveQuoteVersion
+keywords: NSQuoteAgent, SaveQuoteVersion
+so.topic: reference
 ---
-title: NSQuoteVersion SaveQuoteVersion(NSQuoteVersion quoteVersion)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersion SaveQuoteVersion(NSQuoteVersion p_0)
-intellisense: 1
-classref: 1
-keywords: SaveQuoteVersion(NSQuoteVersion)
----
-
 
 Saves a quote version
 
+**Parameters:**
+ - **quoteVersion** The quote version to save
 
+**Returns:** The saved quote version
 
-* **quoteVersion:** The quote version to save
-* **Returns:** The saved quote version
-
+```crmscript
+NSQuoteAgent agent;
+QuoteVersion quoteVersion;
+QuoteVersion res = agent.SaveQuoteVersion(quoteVersion);
+```
 

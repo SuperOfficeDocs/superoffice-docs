@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCriteriaInformation_GetCriteriaArchiveColumns
+title: ArchiveColumnInfoArray GetCriteriaArchiveColumns()
+intellisense: NSCriteriaInformation.GetCriteriaArchiveColumns
+keywords: NSCriteriaInformation, GetCriteriaArchiveColumns
+so.topic: reference
 ---
-title: NSArchiveColumnInfo[] GetCriteriaArchiveColumns()
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/NSArchiveColumnInfo[] GetCriteriaArchiveColumns()
-intellisense: 1
-classref: 1
-sortOrder: 2104
-keywords: GetCriteriaArchiveColumns()
----
-
 
 Array of ColumnInfo column specifications
 
+**Returns:** ArchiveColumnInfoArray
 
 
-* **Returns:** ArchiveColumnInfoArray
+```crmscript
+NSCriteriaInformation thing;
+ArchiveColumnInfoArray criteriaArchiveColumns  = thing.GetCriteriaArchiveColumns();
+```
 
 

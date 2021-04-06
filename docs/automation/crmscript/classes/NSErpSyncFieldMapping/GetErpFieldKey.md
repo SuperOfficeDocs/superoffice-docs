@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_GetErpFieldKey
 title: String GetErpFieldKey()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/String GetErpFieldKey()
-intellisense: 1
-classref: 1
-sortOrder: 3302
-keywords: GetErpFieldKey()
+intellisense: NSErpSyncFieldMapping.GetErpFieldKey
+keywords: NSErpSyncFieldMapping, GetErpFieldKey
+so.topic: reference
 ---
-
 
 The ERP field key
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpSyncFieldMapping thing;
+String erpFieldKey  = thing.GetErpFieldKey();
+```
 
 

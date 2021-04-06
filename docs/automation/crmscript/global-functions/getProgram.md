@@ -1,9 +1,9 @@
 ---
 description: String getProgram(Integer progId)
-path: /EJScript/Global functions/String getProgram(Integer progId)
-intellisense: 1
+intellisense: Void.getProgram
 langref: 1
 keywords: getProgram(Integer)
+so.topic: reference
 ---
 
 

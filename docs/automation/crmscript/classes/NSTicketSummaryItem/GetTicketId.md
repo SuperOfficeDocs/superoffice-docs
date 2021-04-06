@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketSummaryItem_GetTicketId
 title: Integer GetTicketId()
-path: /EJScript/Classes/NSTicketSummaryItem/Member functions/Integer GetTicketId()
-intellisense: 1
-classref: 1
-keywords: GetTicketId()
+intellisense: NSTicketSummaryItem.GetTicketId
+keywords: NSTicketSummaryItem, GetTicketId
+so.topic: reference
 ---
-
 
 The primary key (auto-incremented)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketSummaryItem thing;
+Integer ticketId  = thing.GetTicketId();
+```
 
 

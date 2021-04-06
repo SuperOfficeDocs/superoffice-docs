@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment_SetTaskId
+title: SetTaskId(Integer taskId)
+intellisense: NSSuggestedAppointment.SetTaskId
+keywords: NSSuggestedAppointment, GetTaskId
+so.topic: reference
 ---
-title: Void SetTaskId(Integer TaskId)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetTaskId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTaskId(Integer)
----
-
 
 Type of the suggested appointment
 
+**Parameter:** 
+ - **taskId** Integer
 
-
-* **TaskId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedAppointment thing;
+Integer taskId;
+thing.SetTaskId(taskId);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetRegisteredAssociateId
 title: Integer GetRegisteredAssociateId()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetRegisteredAssociateId()
-intellisense: 1
-classref: 1
-keywords: GetRegisteredAssociateId()
+intellisense: NSQuoteVersion.GetRegisteredAssociateId
+keywords: NSQuoteVersion, GetRegisteredAssociateId
+so.topic: reference
 ---
-
 
 Registered by whom
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSQuoteVersion thing;
+Integer registeredAssociateId  = thing.GetRegisteredAssociateId();
+```
 
 

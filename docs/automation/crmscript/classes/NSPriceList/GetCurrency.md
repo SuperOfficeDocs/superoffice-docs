@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPriceList_GetCurrency
 title: String GetCurrency()
-path: /EJScript/Classes/NSPriceList/Member functions/String GetCurrency()
-intellisense: 1
-classref: 1
-keywords: GetCurrency()
+intellisense: NSPriceList.GetCurrency
+keywords: NSPriceList, GetCurrency
+so.topic: reference
 ---
-
 
 The iso currency code, like 'USD' or 'NOK'.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPriceList thing;
+String currency  = thing.GetCurrency();
+```
 
 

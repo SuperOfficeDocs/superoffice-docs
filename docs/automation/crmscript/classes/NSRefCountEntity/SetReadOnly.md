@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRefCountEntity_SetReadOnly
+title: SetReadOnly(Bool readOnly)
+intellisense: NSRefCountEntity.SetReadOnly
+keywords: NSRefCountEntity, GetReadOnly
+so.topic: reference
 ---
-title: Void SetReadOnly(Bool ReadOnly)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetReadOnly(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetReadOnly(Bool)
----
-
 
 Target field is read only in GUI
 
+**Parameter:** 
+ - **readOnly** Bool
 
-
-* **ReadOnly:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSRefCountEntity thing;
+Bool readOnly;
+thing.SetReadOnly(readOnly);
+```
 

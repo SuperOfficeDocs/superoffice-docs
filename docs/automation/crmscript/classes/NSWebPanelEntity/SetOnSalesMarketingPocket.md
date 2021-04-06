@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingPocket
+title: SetOnSalesMarketingPocket(Bool onSalesMarketingPocket)
+intellisense: NSWebPanelEntity.SetOnSalesMarketingPocket
+keywords: NSWebPanelEntity, GetOnSalesMarketingPocket
+so.topic: reference
 ---
-title: Void SetOnSalesMarketingPocket(Bool OnSalesMarketingPocket)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetOnSalesMarketingPocket(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetOnSalesMarketingPocket(Bool)
----
-
 
 Is the webpanel visible when user is on pocket client
 
+**Parameter:** 
+ - **onSalesMarketingPocket** Bool
 
-
-* **OnSalesMarketingPocket:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSWebPanelEntity thing;
+Bool onSalesMarketingPocket;
+thing.SetOnSalesMarketingPocket(onSalesMarketingPocket);
+```
 

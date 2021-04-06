@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_SetDataRights
+title: SetDataRights(DataRights dataRights)
+intellisense: NSRoleEntity.SetDataRights
+keywords: NSRoleEntity, GetDataRights
+so.topic: reference
 ---
-title: Void SetDataRights(NSDataRights DataRights)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetDataRights(NSDataRights p_0)
-intellisense: 1
-classref: 1
-keywords: SetDataRights(NSDataRights)
----
-
 
 Data rights matrix - defines role's access to data owned by current user, users in same group, and other users.
 
+**Parameter:** 
+ - **dataRights** DataRights
 
-
-* **DataRights:** DataRights
-* **Returns:** DataRights
-
+```crmscript
+NSRoleEntity thing;
+DataRights dataRights;
+thing.SetDataRights(dataRights);
+```
 

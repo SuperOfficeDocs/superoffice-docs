@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSTaskListItem
 title: NSTaskListItem
-path: /EJScript/Classes/NSTaskListItem
-intellisense: 1
-classref: 1
+intellisense: Void.NSTaskListItem
+keywords: NSTaskListItem
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

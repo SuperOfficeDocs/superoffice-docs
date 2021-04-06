@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactOrPersonFromEmail_GetContactName
 title: String GetContactName()
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/String GetContactName()
-intellisense: 1
-classref: 1
-sortOrder: 1924
-keywords: GetContactName()
+intellisense: NSContactOrPersonFromEmail.GetContactName
+keywords: NSContactOrPersonFromEmail, GetContactName
+so.topic: reference
 ---
-
 
 The contact name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactOrPersonFromEmail thing;
+String contactName  = thing.GetContactName();
+```
 
 

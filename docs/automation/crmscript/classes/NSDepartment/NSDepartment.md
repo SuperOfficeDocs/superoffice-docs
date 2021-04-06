@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSDepartment
 title: NSDepartment
-path: /EJScript/Classes/NSDepartment
-intellisense: 1
-classref: 1
-sortOrder: 2380
+intellisense: Void.NSDepartment
+keywords: NSDepartment
+so.topic: reference
 ---
-
 
 a.k.a. User Group
 
-
-
-
-1. autolist
+1. autolist 
 

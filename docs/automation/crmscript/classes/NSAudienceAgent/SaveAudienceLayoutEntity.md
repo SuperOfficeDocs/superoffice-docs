@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSAudienceAgent_SaveAudienceLayoutEntity
+title: NSAudienceLayoutEntity SaveAudienceLayoutEntity(NSAudienceLayoutEntity audienceLayoutEntity);
+intellisense: NSAudienceAgent.SaveAudienceLayoutEntity
+keywords: NSAudienceAgent, SaveAudienceLayoutEntity
+so.topic: reference
 ---
-title: NSAudienceLayoutEntity SaveAudienceLayoutEntity(NSAudienceLayoutEntity audienceLayoutEntity)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceLayoutEntity SaveAudienceLayoutEntity(NSAudienceLayoutEntity p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1302
-keywords: SaveAudienceLayoutEntity(NSAudienceLayoutEntity)
----
+	  
+Updates the existing NSAudienceLayoutEntity or creates a new NSAudienceLayoutEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **audienceLayoutEntity** The NSAudienceLayoutEntity to save.
 
+**Returns:** New or updated NSAudienceLayoutEntity
 
-Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is empty
-
-
-
-* **audienceLayoutEntity:** The AudienceLayoutEntity that is saved
-* **Returns:** New or updated AudienceLayoutEntity
-
+```crmscript
+NSAudience  agent;
+NSAudienceLayoutEntity thing = agent.CreateDefaultAudienceLayoutEntity();
+thing = agent.SaveAudienceLayoutEntity(thing);
+```
 

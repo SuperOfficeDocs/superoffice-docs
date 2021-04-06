@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_SetName
+title: SetName(String name)
+intellisense: NSSuggestedDocumentEntity.SetName
+keywords: NSSuggestedDocumentEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Item name, visible in Guide
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSSuggestedDocumentEntity thing;
+String name;
+thing.SetName(name);
+```
 

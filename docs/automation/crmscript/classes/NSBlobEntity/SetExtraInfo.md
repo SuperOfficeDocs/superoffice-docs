@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBlobEntity_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
+intellisense: NSBlobEntity.SetExtraInfo
+keywords: NSBlobEntity, GetExtraInfo
+so.topic: reference
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1459
-keywords: SetExtraInfo(String)
----
-
 
 Extra information, spare field, can be used for anything that makes sense. Should not refer to any particular context, that is something for the BinaryObjectLInk
 
+**Parameter:** 
+ - **extraInfo** String
 
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+```crmscript
+NSBlobEntity thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
 

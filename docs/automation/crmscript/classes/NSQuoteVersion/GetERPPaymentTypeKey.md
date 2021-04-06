@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetERPPaymentTypeKey
 title: String GetERPPaymentTypeKey()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetERPPaymentTypeKey()
-intellisense: 1
-classref: 1
-keywords: GetERPPaymentTypeKey()
+intellisense: NSQuoteVersion.GetERPPaymentTypeKey
+keywords: NSQuoteVersion, GetERPPaymentTypeKey
+so.topic: reference
 ---
-
 
 Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: 'Invoice'.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersion thing;
+String eRPPaymentTypeKey  = thing.GetERPPaymentTypeKey();
+```
 
 

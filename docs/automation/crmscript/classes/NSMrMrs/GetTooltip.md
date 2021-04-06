@@ -1,12 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSMrMrs_GetTooltip
 title: String GetTooltip()
-path: /EJScript/Classes/NSMrMrs/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
-keywords: GetTooltip()
+intellisense: NSMrMrs.GetTooltip
+keywords: NSMrMrs, GetTooltip
+so.topic: reference
 ---
 
+Get the tooltip description for the MrMrs list item.
 
-* **Returns:** String
+**Returns:** String MrMrs tooltip description.
+
+```crmscript
+NSMrMrs thing;
+String descr = thing.GetTooltip();
+```
 
 

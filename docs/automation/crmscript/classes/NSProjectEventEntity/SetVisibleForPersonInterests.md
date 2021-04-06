@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_SetVisibleForPersonInterests
+title: SetVisibleForPersonInterests(MDOListItemArray visibleForPersonInterests)
+intellisense: NSProjectEventEntity.SetVisibleForPersonInterests
+keywords: NSProjectEventEntity, GetVisibleForPersonInterests
+so.topic: reference
 ---
-title: Void SetVisibleForPersonInterests(NSMDOListItem[] VisibleForPersonInterests)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetVisibleForPersonInterests(NSMDOListItem[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetVisibleForPersonInterests(NSMDOListItem[])
----
-
 
 Array of person interests (MDO table "persint") that this event is visible for.
 
+**Parameter:** 
+ - **visibleForPersonInterests** MDOListItemArray
 
-
-* **VisibleForPersonInterests:** MDOListItemArray
-* **Returns:** MDOListItemArray
-
+```crmscript
+NSProjectEventEntity thing;
+MDOListItemArray visibleForPersonInterests;
+thing.SetVisibleForPersonInterests(visibleForPersonInterests);
+```
 

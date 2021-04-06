@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_GetSubGroup
 title: String GetSubGroup()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetSubGroup()
-intellisense: 1
-classref: 1
-keywords: GetSubGroup()
+intellisense: NSPreferenceDescription.GetSubGroup
+keywords: NSPreferenceDescription, GetSubGroup
+so.topic: reference
 ---
-
 
 Keys that share a value (including NULL) in this field are shown together; a visual spacer is shown between groups
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPreferenceDescription thing;
+String subGroup  = thing.GetSubGroup();
+```
 
 

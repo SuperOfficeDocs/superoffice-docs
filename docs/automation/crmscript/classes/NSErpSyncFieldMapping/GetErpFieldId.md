@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_GetErpFieldId
 title: Integer GetErpFieldId()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Integer GetErpFieldId()
-intellisense: 1
-classref: 1
-sortOrder: 3293
-keywords: GetErpFieldId()
+intellisense: NSErpSyncFieldMapping.GetErpFieldId
+keywords: NSErpSyncFieldMapping, GetErpFieldId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSErpSyncFieldMapping thing;
+Integer erpFieldId  = thing.GetErpFieldId();
+```
 
 

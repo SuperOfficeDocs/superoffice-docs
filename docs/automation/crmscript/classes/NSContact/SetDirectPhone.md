@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetDirectPhone
+title: SetDirectPhone(String directPhone)
+intellisense: NSContact.SetDirectPhone
+keywords: NSContact, GetDirectPhone
+so.topic: reference
 ---
-title: Void SetDirectPhone(String DirectPhone)
-path: /EJScript/Classes/NSContact/Member functions/Void SetDirectPhone(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1753
-keywords: SetDirectPhone(String)
----
-
 
 The contacts phone
 
+**Parameter:** 
+ - **directPhone** String
 
-
-* **DirectPhone:** String
-* **Returns:** String
-
+```crmscript
+NSContact thing;
+String directPhone;
+thing.SetDirectPhone(directPhone);
+```
 

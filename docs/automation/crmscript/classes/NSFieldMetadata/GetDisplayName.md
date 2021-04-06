@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFieldMetadata_GetDisplayName
 title: String GetDisplayName()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
-sortOrder: 3582
-keywords: GetDisplayName()
+intellisense: NSFieldMetadata.GetDisplayName
+keywords: NSFieldMetadata, GetDisplayName
+so.topic: reference
 ---
-
 
 Localized field name – shown in the GUI
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSFieldMetadata thing;
+String displayName  = thing.GetDisplayName();
+```
 
 

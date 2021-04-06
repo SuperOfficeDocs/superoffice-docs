@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProject_SetPublishTo
+title: SetPublishTo(DateTime publishTo)
+intellisense: NSProject.SetPublishTo
+keywords: NSProject, GetPublishTo
+so.topic: reference
 ---
-title: Void SetPublishTo(DateTime PublishTo)
-path: /EJScript/Classes/NSProject/Member functions/Void SetPublishTo(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetPublishTo(DateTime)
----
-
 
 Publication valid to (inclusive)
 
+**Parameter:** 
+ - **publishTo** DateTime
 
-
-* **PublishTo:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSProject thing;
+DateTime publishTo;
+thing.SetPublishTo(publishTo);
+```
 

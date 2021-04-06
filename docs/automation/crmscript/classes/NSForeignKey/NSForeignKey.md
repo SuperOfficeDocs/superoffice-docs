@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSForeignKey
 title: NSForeignKey
-path: /EJScript/Classes/NSForeignKey
-intellisense: 1
-classref: 1
-sortOrder: 3732
+intellisense: Void.NSForeignKey
+keywords: NSForeignKey
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

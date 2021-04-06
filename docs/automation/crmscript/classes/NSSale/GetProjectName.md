@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSale_GetProjectName
 title: String GetProjectName()
-path: /EJScript/Classes/NSSale/Member functions/String GetProjectName()
-intellisense: 1
-classref: 1
-keywords: GetProjectName()
+intellisense: NSSale.GetProjectName
+keywords: NSSale, GetProjectName
+so.topic: reference
 ---
-
 
 Project name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSale thing;
+String projectName  = thing.GetProjectName();
+```
 
 

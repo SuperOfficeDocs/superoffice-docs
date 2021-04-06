@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketSummaryItem_SetRegistered
+title: SetRegistered(DateTime registered)
+intellisense: NSTicketSummaryItem.SetRegistered
+keywords: NSTicketSummaryItem, GetRegistered
+so.topic: reference
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSTicketSummaryItem/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetRegistered(DateTime)
----
-
 
 When the ticket was created.
 
+**Parameter:** 
+ - **registered** DateTime
 
-
-* **Registered:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketSummaryItem thing;
+DateTime registered;
+thing.SetRegistered(registered);
+```
 

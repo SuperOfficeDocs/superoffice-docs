@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketStartupData_SetNotificationsCount
+title: SetNotificationsCount(Integer notificationsCount)
+intellisense: NSPocketStartupData.SetNotificationsCount
+keywords: NSPocketStartupData, GetNotificationsCount
+so.topic: reference
 ---
-title: Void SetNotificationsCount(Integer NotificationsCount)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetNotificationsCount(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetNotificationsCount(Integer)
----
-
 
 Number of new invitations
 
+**Parameter:** 
+ - **notificationsCount** Integer
 
-
-* **NotificationsCount:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPocketStartupData thing;
+Integer notificationsCount;
+thing.SetNotificationsCount(notificationsCount);
+```
 

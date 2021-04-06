@@ -1,10 +1,10 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/Message/Member functions/Integer save()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Message_save
+title: Message.save()
+intellisense: Message.save
 sortOrder: 547
 keywords: save()
+so.topic: reference
 ---
 
 Saves the message and returns the database id.

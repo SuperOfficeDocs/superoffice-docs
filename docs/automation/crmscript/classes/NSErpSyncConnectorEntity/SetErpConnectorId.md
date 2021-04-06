@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncConnectorEntity_SetErpConnectorId
+title: SetErpConnectorId(Integer erpConnectorId)
+intellisense: NSErpSyncConnectorEntity.SetErpConnectorId
+keywords: NSErpSyncConnectorEntity, GetErpConnectorId
+so.topic: reference
 ---
-title: Void SetErpConnectorId(Integer ErpConnectorId)
-path: /EJScript/Classes/NSErpSyncConnectorEntity/Member functions/Void SetErpConnectorId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3247
-keywords: SetErpConnectorId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **erpConnectorId** Integer
 
-
-* **ErpConnectorId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSErpSyncConnectorEntity thing;
+Integer erpConnectorId;
+thing.SetErpConnectorId(erpConnectorId);
+```
 

@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSDocumentAgent_GetDocumentStreamFromEntity
+title: Stream GetDocumentStreamFromEntity(DocumentEntity documentEntity)
+intellisense: NSDocumentAgent.GetDocumentStreamFromEntity
+keywords: NSDocumentAgent, GetDocumentStreamFromEntity
+so.topic: reference
 ---
-title: NSStream GetDocumentStreamFromEntity(NSDocumentEntity documentEntity)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream GetDocumentStreamFromEntity(NSDocumentEntity p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2516
-keywords: GetDocumentStreamFromEntity(NSDocumentEntity)
----
-
 
 Get the document as a stream
 
+**Parameters:**
+ - **documentEntity** The document entity object that refers to the binary data (document)
 
+**Returns:** The document as a Stream
 
-* **documentEntity:** The document entity object that refers to the binary data (document)
-* **Returns:** The document as a Stream
-
+```crmscript
+NSDocumentAgent agent;
+DocumentEntity documentEntity;
+Stream res = agent.GetDocumentStreamFromEntity(documentEntity);
+```
 

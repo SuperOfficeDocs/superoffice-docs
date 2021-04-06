@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSLocalizedField/Member functions/String GetName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSLocalizedField_GetName
+title: NSLocalizedField.GetName()
+intellisense: NSLocalizedField.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

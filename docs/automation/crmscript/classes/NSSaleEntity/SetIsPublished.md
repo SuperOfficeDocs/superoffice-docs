@@ -1,13 +1,13 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetIsPublished
+title: SetIsPublished(Boolean isPublished)
+intellisense: NSSaleEntity.IsPublished
+keywords: NSSaleEntity, IsPublished
+so.topic: reference
 ---
-title: Void SetIsPublished()
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetIsPublished()
-intellisense: 1
-classref: 1
-keywords: SetIsPublished()
----
 
+Should this SaleEntity be published and visible to strangers?
 
-* **fields:** Bool
-* **Returns:** Void
-
+**Parameter:** 
+ - **isPublished** Boolean.
 

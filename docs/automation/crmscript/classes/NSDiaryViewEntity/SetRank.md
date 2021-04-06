@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDiaryViewEntity_SetRank
+title: SetRank(Integer rank)
+intellisense: NSDiaryViewEntity.SetRank
+keywords: NSDiaryViewEntity, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2417
-keywords: SetRank(Integer)
----
-
 
 DiaryView rank.
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDiaryViewEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

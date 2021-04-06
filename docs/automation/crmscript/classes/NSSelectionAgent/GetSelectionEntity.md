@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSSelectionAgent_GetSelectionEntity
+title: NSSelectionEntity GetSelectionEntity(Integer selectionEntityId);
+intellisense: NSSelectionAgent.GetSelectionEntity
+keywords: NSSelectionAgent, GetSelectionEntity
+so.topic: reference
 ---
-title: NSSelectionEntity GetSelectionEntity(Integer selectionEntityId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity GetSelectionEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSelectionEntity(Integer)
----
 
+Gets a NSSelectionEntity object.
 
-Gets a SelectionEntity object.
+**Parameters:**
+ - **selectionEntityId** The identifier of the NSSelectionEntity object
 
+**Returns:** NSSelectionEntity
 
-
-* **selectionEntityId:** The identifier of the SelectionEntity object
-* **Returns:** SelectionEntity
-
+```crmscript
+NSSelectionAgent agent;
+NSSelectionEntity thing = agent.GetSelectionEntity(123);
+```
 

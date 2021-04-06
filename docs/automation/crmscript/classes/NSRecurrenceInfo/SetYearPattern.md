@@ -1,9 +1,9 @@
 ---
-title: Void SetYearPattern(Integer p0)
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/Void SetYearPattern(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceInfo_SetYearPattern_Integer_p_0
+title: NSRecurrenceInfo.SetYearPattern(Integer p_0)
+intellisense: NSRecurrenceInfo.SetYearPattern
 keywords: SetYearPattern(Integer)
+so.topic: reference
 ---
 
 

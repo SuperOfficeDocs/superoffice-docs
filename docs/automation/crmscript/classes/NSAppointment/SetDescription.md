@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetDescription
+title: SetDescription(String description)
+intellisense: NSAppointment.SetDescription
+keywords: NSAppointment, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 788
-keywords: SetDescription(String)
----
-
 
 The appointment's textbox; holds a descriptive text about the appointment. Filled out by the user.
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSAppointment thing;
+String description;
+thing.SetDescription(description);
+```
 

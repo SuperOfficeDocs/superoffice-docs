@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAssociate_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSAssociate.SetAssociateId
+keywords: NSAssociate, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSAssociate/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1266
-keywords: SetAssociateId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAssociate thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

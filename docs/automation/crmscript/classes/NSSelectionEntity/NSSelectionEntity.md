@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSelectionEntity
 title: NSSelectionEntity
-path: /EJScript/Classes/NSSelectionEntity
-intellisense: 1
-classref: 1
+intellisense: Void.NSSelectionEntity
+keywords: NSSelectionEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

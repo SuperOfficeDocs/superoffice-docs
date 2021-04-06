@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFreeText_SetOccurrences
+title: SetOccurrences(Integer occurrences)
+intellisense: NSFreeText.SetOccurrences
+keywords: NSFreeText, GetOccurrences
+so.topic: reference
 ---
-title: Void SetOccurrences(Integer Occurrences)
-path: /EJScript/Classes/NSFreeText/Member functions/Void SetOccurrences(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3864
-keywords: SetOccurrences(Integer)
----
-
 
 Total count of search words
 
+**Parameter:** 
+ - **occurrences** Integer
 
-
-* **Occurrences:** Integer
-* **Returns:** Void
-
+```crmscript
+NSFreeText thing;
+Integer occurrences;
+thing.SetOccurrences(occurrences);
+```
 

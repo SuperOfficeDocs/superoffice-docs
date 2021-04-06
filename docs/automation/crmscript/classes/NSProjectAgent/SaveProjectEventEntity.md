@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_SaveProjectEventEntity
+title: NSProjectEventEntity SaveProjectEventEntity(NSProjectEventEntity projectEventEntity);
+intellisense: NSProjectAgent.SaveProjectEventEntity
+keywords: NSProjectAgent, SaveProjectEventEntity
+so.topic: reference
 ---
-title: NSProjectEventEntity SaveProjectEventEntity(NSProjectEventEntity projectEventEntity)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEventEntity SaveProjectEventEntity(NSProjectEventEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveProjectEventEntity(NSProjectEventEntity)
----
+	  
+Updates the existing NSProjectEventEntity or creates a new NSProjectEventEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **projectEventEntity** The NSProjectEventEntity to save.
 
+**Returns:** New or updated NSProjectEventEntity
 
-Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is empty
-
-
-
-* **projectEventEntity:** The ProjectEventEntity that is saved
-* **Returns:** New or updated ProjectEventEntity
-
+```crmscript
+NSProject  agent;
+NSProjectEventEntity thing = agent.CreateDefaultProjectEventEntity();
+thing = agent.SaveProjectEventEntity(thing);
+```
 

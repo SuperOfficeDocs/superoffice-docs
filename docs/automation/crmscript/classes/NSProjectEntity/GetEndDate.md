@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetEndDate
 title: DateTime GetEndDate()
-path: /EJScript/Classes/NSProjectEntity/Member functions/DateTime GetEndDate()
-intellisense: 1
-classref: 1
-keywords: GetEndDate()
+intellisense: NSProjectEntity.GetEndDate
+keywords: NSProjectEntity, GetEndDate
+so.topic: reference
 ---
-
 
 Planned end date for project, inhertied from type and later editable
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSProjectEntity thing;
+DateTime endDate  = thing.GetEndDate();
+```
 
 

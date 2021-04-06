@@ -1,9 +1,9 @@
 ---
 description: String getDefaultElementConfig(Integer type, String table, String language)
-path: /EJScript/Global functions/String getDefaultElementConfig(Integer type, String table, String language)
-intellisense: 1
+intellisense: Void.getDefaultElementConfig
 langref: 1
 keywords: getDefaultElementConfig(Integer,String,String)
+so.topic: reference
 ---
 
 

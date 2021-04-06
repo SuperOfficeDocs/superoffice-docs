@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSSuggestedAppointment
 title: NSSuggestedAppointment
-path: /EJScript/Classes/NSSuggestedAppointment
-intellisense: 1
-classref: 1
+intellisense: Void.NSSuggestedAppointment
+keywords: NSSuggestedAppointment
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

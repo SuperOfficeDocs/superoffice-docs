@@ -1,9 +1,9 @@
 ---
-title: String htmlDecode()
-path: /EJScript/Classes/String/Member functions/String htmlDecode()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_htmlDecode
+title: String.htmlDecode()
+intellisense: String.htmlDecode
 keywords: htmlDecode()
+so.topic: reference
 ---
 
 

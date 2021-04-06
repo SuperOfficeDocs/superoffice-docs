@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPriceList_GetName
 title: String GetName()
-path: /EJScript/Classes/NSPriceList/Member functions/String GetName()
-intellisense: 1
-classref: 1
-keywords: GetName()
+intellisense: NSPriceList.GetName
+keywords: NSPriceList, GetName
+so.topic: reference
 ---
-
 
 Name of this pricelist to use in the user interface.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPriceList thing;
+String name  = thing.GetName();
+```
 
 

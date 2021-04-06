@@ -1,14 +1,13 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetIsPublished
+title: SetIsPublished(Boolean isPublished)
+intellisense: NSAppointmentEntity.IsPublished
+keywords: NSAppointmentEntity, IsPublished
+so.topic: reference
 ---
-title: Void SetIsPublished()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetIsPublished()
-intellisense: 1
-classref: 1
-sortOrder: 1009
-keywords: SetIsPublished()
----
 
+Should this AppointmentEntity be published and visible to strangers?
 
-* **fields:** Bool
-* **Returns:** Void
-
+**Parameter:** 
+ - **isPublished** Boolean.
 

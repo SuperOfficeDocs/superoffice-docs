@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatisticsDataSet_GetValues
+title: StatisticsDataValueArray GetValues()
+intellisense: NSStatisticsDataSet.GetValues
+keywords: NSStatisticsDataSet, GetValues
+so.topic: reference
 ---
-title: NSStatisticsDataValue[] GetValues()
-path: /EJScript/Classes/NSStatisticsDataSet/Member functions/NSStatisticsDataValue[] GetValues()
-intellisense: 1
-classref: 1
-keywords: GetValues()
----
-
 
 Values in this set
 
+**Returns:** StatisticsDataValueArray
 
 
-* **Returns:** StatisticsDataValueArray
+```crmscript
+NSStatisticsDataSet thing;
+StatisticsDataValueArray values  = thing.GetValues();
+```
 
 

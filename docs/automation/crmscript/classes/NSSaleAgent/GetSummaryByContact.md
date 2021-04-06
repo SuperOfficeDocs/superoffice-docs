@@ -1,17 +1,14 @@
+﻿---
+uid: crmscript_ref_NSSaleAgent_GetSummaryByContact
+title: SaleSummary GetSummaryByContact(Integer contactId, DateTime fromDate, DateTime toDate)
+intellisense: NSSaleAgent.GetSummaryByContact
+keywords: NSSaleAgent, GetSummaryByContact
+so.topic: reference
 ---
-title: NSSaleSummary GetSummaryByContact(Integer p0, DateTime p1, DateTime p2)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleSummary GetSummaryByContact(Integer p_0, DateTime p_1, DateTime p_2)
-intellisense: 1
-classref: 1
-keywords: GetSummaryByContact(Integer,DateTime,DateTime)
----
 
 
 
-
-* **contactId
-\param** p1 fromDate
-* **toDate
-**
-
-
+**Parameters:**
+ - **contactId** 
+ - **fromDate** 
+ - **toDate** 

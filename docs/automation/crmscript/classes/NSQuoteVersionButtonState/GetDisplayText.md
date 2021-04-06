@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionButtonState_GetDisplayText
 title: String GetDisplayText()
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/String GetDisplayText()
-intellisense: 1
-classref: 1
-keywords: GetDisplayText()
+intellisense: NSQuoteVersionButtonState.GetDisplayText
+keywords: NSQuoteVersionButtonState, GetDisplayText
+so.topic: reference
 ---
-
 
 Text to be displayed on the button
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersionButtonState thing;
+String displayText  = thing.GetDisplayText();
+```
 
 

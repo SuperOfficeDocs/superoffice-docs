@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_DeleteProjectStatus
 title: Void DeleteProjectStatus(Integer projectStatusId)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteProjectStatus(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteProjectStatus(Integer)
+intellisense: NSListAgent.DeleteProjectStatus
+keywords: NSListAgent, DeleteProjectStatus
+so.topic: reference
 ---
-
 
 Deletes a project status
 
+**Parameters:**
+ - **projectStatusId** The project status id to delete
 
+**Returns:** No return
 
-* **projectStatusId:** The project status id to delete
-* **Returns:** No return
-
+```crmscript
+NSListAgent agent;
+Integer projectStatusId;
+Void res = agent.DeleteProjectStatus(projectStatusId);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSStatusMonitor_SetRank
+title: SetRank(Integer rank)
+intellisense: NSStatusMonitor.SetRank
+keywords: NSStatusMonitor, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 Priority rank, in case more than one status is signalled. Lowest wins
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSStatusMonitor thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

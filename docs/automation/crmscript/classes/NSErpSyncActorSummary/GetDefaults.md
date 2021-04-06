@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpSyncActorSummary_GetDefaults
 title: String GetDefaults()
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/String GetDefaults()
-intellisense: 1
-classref: 1
-sortOrder: 3154
-keywords: GetDefaults()
+intellisense: NSErpSyncActorSummary.GetDefaults
+keywords: NSErpSyncActorSummary, GetDefaults
+so.topic: reference
 ---
-
 
 A summary of fields that have defaults/rules for link creation
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpSyncActorSummary thing;
+String defaults  = thing.GetDefaults();
+```
 
 

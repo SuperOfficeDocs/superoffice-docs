@@ -1,10 +1,10 @@
 ---
-title: Void setSourceConnection(String p0, String p1, String p2, String p3, String p4)
-path: /EJScript/Classes/DbConverter/Member functions/Void setSourceConnection(String p_0, String p_1, String p_2, String p_3, String p_4)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_DbConverter_setSourceConnection_String_p_0_String_p_1_String_p_2_String_p_3_String_p_4
+title: DbConverter.setSourceConnection(String p_0, String p_1, String p_2, String p_3, String p_4)
+intellisense: DbConverter.setSourceConnection
 sortOrder: 248
 keywords: setSourceConnection(String,String,String,String,String)
+so.topic: reference
 ---
 
 

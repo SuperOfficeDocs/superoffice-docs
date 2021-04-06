@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTimeZoneRule_GetStartDay
 title: Integer GetStartDay()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Integer GetStartDay()
-intellisense: 1
-classref: 1
-keywords: GetStartDay()
+intellisense: NSTimeZoneRule.GetStartDay
+keywords: NSTimeZoneRule, GetStartDay
+so.topic: reference
 ---
-
 
 Custom DST start day, if 0 then parse startRule
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTimeZoneRule thing;
+Integer startDay  = thing.GetStartDay();
+```
 
 

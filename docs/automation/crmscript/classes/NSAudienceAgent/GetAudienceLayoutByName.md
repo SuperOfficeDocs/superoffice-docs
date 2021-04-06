@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSAudienceAgent_GetAudienceLayoutByName
+title: AudienceLayoutEntity GetAudienceLayoutByName(String layoutName)
+intellisense: NSAudienceAgent.GetAudienceLayoutByName
+keywords: NSAudienceAgent, GetAudienceLayoutByName
+so.topic: reference
 ---
-title: NSAudienceLayoutEntity GetAudienceLayoutByName(String layoutName)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceLayoutEntity GetAudienceLayoutByName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1298
-keywords: GetAudienceLayoutByName(String)
----
-
 
 Gets an Audience layout by it's instance name
 
+**Parameters:**
+ - **layoutName** Name of the Audience layout instance
 
+**Returns:** Audience layout entity
 
-* **layoutName:** Name of the Audience layout instance
-* **Returns:** Audience layout entity
-
+```crmscript
+NSAudienceAgent agent;
+String layoutName;
+AudienceLayoutEntity res = agent.GetAudienceLayoutByName(layoutName);
+```
 

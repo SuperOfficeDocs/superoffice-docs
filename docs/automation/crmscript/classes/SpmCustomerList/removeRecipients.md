@@ -1,9 +1,9 @@
 ---
-title: Void removeRecipients()
-path: /EJScript/Classes/SpmCustomerList/Member functions/Void removeRecipients()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_SpmCustomerList_removeRecipients
+title: SpmCustomerList.removeRecipients()
+intellisense: SpmCustomerList.removeRecipients
 keywords: removeRecipients()
+so.topic: reference
 ---
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseInfo_SetModuleLicenses
+title: SetModuleLicenses(ModuleLicenseArray moduleLicenses)
+intellisense: NSLicenseInfo.SetModuleLicenses
+keywords: NSLicenseInfo, GetModuleLicenses
+so.topic: reference
 ---
-title: Void SetModuleLicenses(NSModuleLicense[] ModuleLicenses)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetModuleLicenses(NSModuleLicense[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetModuleLicenses(NSModuleLicense[])
----
-
 
 The module licenses.
 
+**Parameter:** 
+ - **moduleLicenses** ModuleLicenseArray
 
-
-* **ModuleLicenses:** ModuleLicenseArray
-* **Returns:** ModuleLicenseArray
-
+```crmscript
+NSLicenseInfo thing;
+ModuleLicenseArray moduleLicenses;
+thing.SetModuleLicenses(moduleLicenses);
+```
 

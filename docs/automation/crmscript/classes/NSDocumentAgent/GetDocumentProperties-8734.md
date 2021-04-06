@@ -1,10 +1,10 @@
 ---
-title: StringDictionary GetDocumentProperties(Integer documentId, String[] requestedProperties)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/StringDictionary GetDocumentProperties(Integer p_0, String[] p_1)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSDocumentAgent_GetDocumentProperties_Integer_p_0_String__p_1
+title: NSDocumentAgent.GetDocumentProperties(Integer p_0, String[] p_1)
+intellisense: NSDocumentAgent.GetDocumentProperties
 sortOrder: 2542
 keywords: GetDocumentProperties(Integer,String[])
+so.topic: reference
 ---
 
 

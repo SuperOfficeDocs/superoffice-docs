@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_SetLoadTemplateFromPlugin
+title: SetLoadTemplateFromPlugin(Integer loadTemplateFromPlugin)
+intellisense: NSDocumentTemplateEntity.SetLoadTemplateFromPlugin
+keywords: NSDocumentTemplateEntity, GetLoadTemplateFromPlugin
+so.topic: reference
 ---
-title: Void SetLoadTemplateFromPlugin(Integer LoadTemplateFromPlugin)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetLoadTemplateFromPlugin(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2690
-keywords: SetLoadTemplateFromPlugin(Integer)
----
-
 
 Which document plugin is responsible for this template's contents
 
+**Parameter:** 
+ - **loadTemplateFromPlugin** Integer
 
-
-* **LoadTemplateFromPlugin:** Integer
-* **Returns:** Void
-
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer loadTemplateFromPlugin;
+thing.SetLoadTemplateFromPlugin(loadTemplateFromPlugin);
+```
 

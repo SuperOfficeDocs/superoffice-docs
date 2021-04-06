@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContact_GetCity
 title: String GetCity()
-path: /EJScript/Classes/NSContact/Member functions/String GetCity()
-intellisense: 1
-classref: 1
-sortOrder: 1728
-keywords: GetCity()
+intellisense: NSContact.GetCity
+keywords: NSContact, GetCity
+so.topic: reference
 ---
-
 
 City corresponding to zip code
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContact thing;
+String city  = thing.GetCity();
+```
 
 

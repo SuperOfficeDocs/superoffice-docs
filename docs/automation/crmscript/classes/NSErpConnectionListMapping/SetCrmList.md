@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpConnectionListMapping_SetCrmList
+title: SetCrmList(MDOListItem crmList)
+intellisense: NSErpConnectionListMapping.SetCrmList
+keywords: NSErpConnectionListMapping, GetCrmList
+so.topic: reference
 ---
-title: Void SetCrmList(NSMDOListItem CrmList)
-path: /EJScript/Classes/NSErpConnectionListMapping/Member functions/Void SetCrmList(NSMDOListItem p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3129
-keywords: SetCrmList(NSMDOListItem)
----
-
 
 The SuperOffice listItem
 
+**Parameter:** 
+ - **crmList** MDOListItem
 
-
-* **CrmList:** MDOListItem
-* **Returns:** MDOListItem
-
+```crmscript
+NSErpConnectionListMapping thing;
+MDOListItem crmList;
+thing.SetCrmList(crmList);
+```
 

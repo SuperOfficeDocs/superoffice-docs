@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEntity_SetCc
+title: SetCc(EMailAddressArray cc)
+intellisense: NSEMailEntity.SetCc
+keywords: NSEMailEntity, GetCc
+so.topic: reference
 ---
-title: Void SetCc(NSEMailAddress[] Cc)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetCc(NSEMailAddress[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2977
-keywords: SetCc(NSEMailAddress[])
----
-
 
 Cc recipients of e-mail
 
+**Parameter:** 
+ - **cc** EMailAddressArray
 
-
-* **Cc:** EMailAddressArray
-* **Returns:** EMailAddressArray
-
+```crmscript
+NSEMailEntity thing;
+EMailAddressArray cc;
+thing.SetCc(cc);
+```
 

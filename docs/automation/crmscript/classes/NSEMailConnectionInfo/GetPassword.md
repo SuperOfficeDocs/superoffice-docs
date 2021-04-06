@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailConnectionInfo_GetPassword
 title: String GetPassword()
-path: /EJScript/Classes/NSEMailConnectionInfo/Member functions/String GetPassword()
-intellisense: 1
-classref: 1
-sortOrder: 2912
-keywords: GetPassword()
+intellisense: NSEMailConnectionInfo.GetPassword
+keywords: NSEMailConnectionInfo, GetPassword
+so.topic: reference
 ---
-
 
 Password for the username
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailConnectionInfo thing;
+String password  = thing.GetPassword();
+```
 
 

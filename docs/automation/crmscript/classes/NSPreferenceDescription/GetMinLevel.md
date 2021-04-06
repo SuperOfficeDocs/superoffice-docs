@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPreferenceDescription_GetMinLevel
 title: Integer GetMinLevel()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetMinLevel()
-intellisense: 1
-classref: 1
-keywords: GetMinLevel()
+intellisense: NSPreferenceDescription.GetMinLevel
+keywords: NSPreferenceDescription, GetMinLevel
+so.topic: reference
 ---
-
 
 The minimum (furthest away from User) level this preference can be set for
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSPreferenceDescription thing;
+Integer minLevel  = thing.GetMinLevel();
+```
 
 

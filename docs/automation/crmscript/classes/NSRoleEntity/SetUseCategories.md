@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRoleEntity_SetUseCategories
+title: SetUseCategories(Integer useCategories)
+intellisense: NSRoleEntity.SetUseCategories
+keywords: NSRoleEntity, GetUseCategories
+so.topic: reference
 ---
-title: Void SetUseCategories(Integer UseCategories)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetUseCategories(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUseCategories(Integer)
----
-
 
 Apply role category membership to users
 
+**Parameter:** 
+ - **useCategories** Integer
 
-
-* **UseCategories:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRoleEntity thing;
+Integer useCategories;
+thing.SetUseCategories(useCategories);
+```
 

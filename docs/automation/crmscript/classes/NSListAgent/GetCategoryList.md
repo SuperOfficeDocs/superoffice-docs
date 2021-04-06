@@ -1,15 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetCategoryList
+title: NSCategory[] GetCategoryList(Integer[]  categoryIds);
+intellisense: NSListAgent.GetCategoryList
+keywords: NSListAgent, GetCategoryList
+so.topic: reference
 ---
-title: NSCategory[] GetCategoryList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCategory[] GetCategoryList(Integer[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetCategoryList(Integer[])
----
 
-Gets an array of Category objects.
+Gets a vector of Category objects.
 
+**Parameters:**
+ - **categoryIds** The identifiers of the NSCategory objects
 
-* **p0:** IntegerArray of identifiers for Category
-* **Returns:** Array of NSCategory
+**Returns:** Vector of NSCategory objects
 
+```crmscript
+Integer[] ids;
+NSListAgent agent;
+agent.GetCategoryList(ids);
+```
 

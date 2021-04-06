@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_SetPhoneId
+title: SetPhoneId(Integer phoneId)
+intellisense: NSSaleStakeholder.SetPhoneId
+keywords: NSSaleStakeholder, GetPhoneId
+so.topic: reference
 ---
-title: Void SetPhoneId(Integer PhoneId)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetPhoneId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPhoneId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **phoneId** Integer
 
-
-* **PhoneId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSaleStakeholder thing;
+Integer phoneId;
+thing.SetPhoneId(phoneId);
+```
 

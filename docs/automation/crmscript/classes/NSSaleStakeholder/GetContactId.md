@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleStakeholder_GetContactId
 title: Integer GetContactId()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
-keywords: GetContactId()
+intellisense: NSSaleStakeholder.GetContactId
+keywords: NSSaleStakeholder, GetContactId
+so.topic: reference
 ---
-
 
 Contact ID of person or contact who is the sale stakeholder
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSaleStakeholder thing;
+Integer contactId  = thing.GetContactId();
+```
 
 

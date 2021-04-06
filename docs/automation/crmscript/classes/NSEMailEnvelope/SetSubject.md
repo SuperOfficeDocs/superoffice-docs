@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEnvelope_SetSubject
+title: SetSubject(String subject)
+intellisense: NSEMailEnvelope.SetSubject
+keywords: NSEMailEnvelope, GetSubject
+so.topic: reference
 ---
-title: Void SetSubject(String Subject)
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Void SetSubject(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3024
-keywords: SetSubject(String)
----
-
 
 Subject of the e-mail
 
+**Parameter:** 
+ - **subject** String
 
-
-* **Subject:** String
-* **Returns:** String
-
+```crmscript
+NSEMailEnvelope thing;
+String subject;
+thing.SetSubject(subject);
+```
 

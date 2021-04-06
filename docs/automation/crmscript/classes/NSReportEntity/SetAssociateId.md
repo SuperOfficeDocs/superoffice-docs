@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSReportEntity_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSReportEntity.SetAssociateId
+keywords: NSReportEntity, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociateId(Integer)
----
-
 
 The owner of the report.
 
+**Parameter:** 
+ - **associateId** Integer
 
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSReportEntity thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

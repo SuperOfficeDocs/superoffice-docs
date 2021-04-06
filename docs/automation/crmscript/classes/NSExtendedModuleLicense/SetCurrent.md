@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtendedModuleLicense_SetCurrent
+title: SetCurrent(ModuleLicense current)
+intellisense: NSExtendedModuleLicense.SetCurrent
+keywords: NSExtendedModuleLicense, GetCurrent
+so.topic: reference
 ---
-title: Void SetCurrent(NSModuleLicense Current)
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Void SetCurrent(NSModuleLicense p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3425
-keywords: SetCurrent(NSModuleLicense)
----
 
 
-* **Current:** ModuleLicense
-* **Returns:** ModuleLicense
 
+**Parameter:** 
+ - **current** ModuleLicense
+
+```crmscript
+NSExtendedModuleLicense thing;
+ModuleLicense current;
+thing.SetCurrent(current);
+```
 

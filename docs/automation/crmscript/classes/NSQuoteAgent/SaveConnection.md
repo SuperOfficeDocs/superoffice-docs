@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_SaveConnection
+title: QuoteConnection SaveConnection(QuoteConnection connection)
+intellisense: NSQuoteAgent.SaveConnection
+keywords: NSQuoteAgent, SaveConnection
+so.topic: reference
 ---
-title: NSQuoteConnection SaveConnection(NSQuoteConnection connection)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteConnection SaveConnection(NSQuoteConnection p_0)
-intellisense: 1
-classref: 1
-keywords: SaveConnection(NSQuoteConnection)
----
-
 
 Saves a connection to the database.
 
+**Parameters:**
+ - **connection** The connection to save.
 
+**Returns:** The resulting connection.
 
-* **connection:** The connection to save.
-* **Returns:** The resulting connection.
-
+```crmscript
+NSQuoteAgent agent;
+QuoteConnection connection;
+QuoteConnection res = agent.SaveConnection(connection);
+```
 

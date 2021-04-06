@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAmountClassEntity_GetAmountClassId
 title: Integer GetAmountClassId()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Integer GetAmountClassId()
-intellisense: 1
-classref: 1
-sortOrder: 698
-keywords: GetAmountClassId()
+intellisense: NSAmountClassEntity.GetAmountClassId
+keywords: NSAmountClassEntity, GetAmountClassId
+so.topic: reference
 ---
-
 
 Primary key
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAmountClassEntity thing;
+Integer amountClassId  = thing.GetAmountClassId();
+```
 
 

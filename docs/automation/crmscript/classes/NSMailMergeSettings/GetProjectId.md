@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeSettings_GetProjectId
 title: Integer GetProjectId()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
-keywords: GetProjectId()
+intellisense: NSMailMergeSettings.GetProjectId
+keywords: NSMailMergeSettings, GetProjectId
+so.topic: reference
 ---
-
 
 Identity of project to use as source for recipients.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSMailMergeSettings thing;
+Integer projectId  = thing.GetProjectId();
+```
 
 

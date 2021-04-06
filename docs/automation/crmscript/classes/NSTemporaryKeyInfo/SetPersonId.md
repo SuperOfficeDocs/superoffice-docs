@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemporaryKeyInfo_SetPersonId
+title: SetPersonId(Integer personId)
+intellisense: NSTemporaryKeyInfo.SetPersonId
+keywords: NSTemporaryKeyInfo, GetPersonId
+so.topic: reference
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonId(Integer)
----
-
 
 The person id this key is related to. May be null.
 
+**Parameter:** 
+ - **personId** Integer
 
-
-* **PersonId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTemporaryKeyInfo thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
 

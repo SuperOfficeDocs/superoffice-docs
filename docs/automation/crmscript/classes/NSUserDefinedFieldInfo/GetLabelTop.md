@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetLabelTop
 title: Integer GetLabelTop()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetLabelTop()
-intellisense: 1
-classref: 1
-keywords: GetLabelTop()
+intellisense: NSUserDefinedFieldInfo.GetLabelTop
+keywords: NSUserDefinedFieldInfo, GetLabelTop
+so.topic: reference
 ---
-
 
 Y pixel coordinate of label
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer labelTop  = thing.GetLabelTop();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void quote(String quoteString)
-path: /EJScript/Classes/String/Member functions/Void quote(String quoteString)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_quote_String_quoteString
+title: String.quote(String quoteString)
+intellisense: String.quote
 keywords: quote(String)
+so.topic: reference
 ---
 
 This function will quote the String with the quoteString.  Each line of the String will start with quoteString, after calling quote.

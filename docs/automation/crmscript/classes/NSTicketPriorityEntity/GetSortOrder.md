@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetSortOrder
 title: Integer GetSortOrder()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Integer GetSortOrder()
-intellisense: 1
-classref: 1
-keywords: GetSortOrder()
+intellisense: NSTicketPriorityEntity.GetSortOrder
+keywords: NSTicketPriorityEntity, GetSortOrder
+so.topic: reference
 ---
-
 
 Indicates the sort order for this priority. 1 is first, 100 is last
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketPriorityEntity thing;
+Integer sortOrder  = thing.GetSortOrder();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetSourcePersonName
 title: String GetSourcePersonName()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/String GetSourcePersonName()
-intellisense: 1
-classref: 1
-sortOrder: 1961
-keywords: GetSourcePersonName()
+intellisense: NSContactRelationEntity.GetSourcePersonName
+keywords: NSContactRelationEntity, GetSourcePersonName
+so.topic: reference
 ---
-
 
 Name of the source person.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactRelationEntity thing;
+String sourcePersonName  = thing.GetSourcePersonName();
+```
 
 

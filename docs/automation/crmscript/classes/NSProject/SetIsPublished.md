@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProject_SetIsPublished
+title: SetIsPublished(Bool isPublished)
+intellisense: NSProject.SetIsPublished
+keywords: NSProject, GetIsPublished
+so.topic: reference
 ---
-title: Void SetIsPublished(Bool IsPublished)
-path: /EJScript/Classes/NSProject/Member functions/Void SetIsPublished(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetIsPublished(Bool)
----
 
 
-* **IsPublished:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **isPublished** Bool
+
+```crmscript
+NSProject thing;
+Bool isPublished;
+thing.SetIsPublished(isPublished);
+```
 

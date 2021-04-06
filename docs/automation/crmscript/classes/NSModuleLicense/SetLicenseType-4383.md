@@ -1,9 +1,9 @@
 ---
-title: Void SetLicenseType(NSLicenseType LicenseType)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetLicenseType(NSLicenseType p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSModuleLicense_SetLicenseType_NSLicenseType_p_0
+title: NSModuleLicense.SetLicenseType(NSLicenseType p_0)
+intellisense: NSModuleLicense.SetLicenseType
 keywords: SetLicenseType(NSLicenseType)
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWindowPosSize_GetHeight
 title: Integer GetHeight()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetHeight()
-intellisense: 1
-classref: 1
-keywords: GetHeight()
+intellisense: NSWindowPosSize.GetHeight
+keywords: NSWindowPosSize, GetHeight
+so.topic: reference
 ---
-
 
 The height of the widget
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWindowPosSize thing;
+Integer height  = thing.GetHeight();
+```
 
 

@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSPersonAgent_Undelete
 title: Void Undelete(Integer id)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void Undelete(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: Undelete(Integer)
+intellisense: NSPersonAgent.Undelete
+keywords: NSPersonAgent, Undelete
+so.topic: reference
 ---
-
 
 This entity supports Soft Delete. Call this method to Undelete a previously soft-deleted record
 
+**Parameters:**
+ - **id** The primary key of the entity to undelete
 
+**Returns:** This method has no return value
 
-* **id:** The primary key of the entity to undelete
-* **Returns:** This method has no return value
-
+```crmscript
+NSPersonAgent agent;
+Integer id;
+Void res = agent.Undelete(id);
+```
 

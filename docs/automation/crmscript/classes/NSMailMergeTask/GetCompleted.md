@@ -1,16 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSMailMergeTask_GetCompleted
 title: Integer GetCompleted()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
-keywords: GetCompleted()
+intellisense: NSMailMergeTask.GetCompleted
+keywords: NSMailMergeTask, GetCompleted
+so.topic: reference
 ---
-
 
 Completed status for task
 
+**Returns:** Integer
 
+     - Enum: 0 = Unknown 
+     - Enum: 1 = NotStarted 
+     - Enum: 2 = Started 
+     - Enum: 3 = Completed 
 
-* **Returns:** Integer
+```crmscript
+NSMailMergeTask thing;
+Integer completed  = thing.GetCompleted();
+```
 
 

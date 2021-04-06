@@ -1,9 +1,9 @@
 ---
-title: String getField(Integer column)
-path: /EJScript/Classes/StatResult/Member functions/String getField(Integer column)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_StatResult_getField_Integer_column
+title: StatResult.getField(Integer column)
+intellisense: StatResult.getField
 keywords: getField(Integer)
+so.topic: reference
 ---
 
 Will return the field at the given column at the current row.

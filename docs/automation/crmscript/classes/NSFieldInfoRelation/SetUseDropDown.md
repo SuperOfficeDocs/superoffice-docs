@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoRelation_SetUseDropDown
+title: SetUseDropDown(Bool useDropDown)
+intellisense: NSFieldInfoRelation.SetUseDropDown
+keywords: NSFieldInfoRelation, GetUseDropDown
+so.topic: reference
 ---
-title: Void SetUseDropDown(Bool UseDropDown)
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/Void SetUseDropDown(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3544
-keywords: SetUseDropDown(Bool)
----
-
 
 Show as dropdown list on target?
 
+**Parameter:** 
+ - **useDropDown** Bool
 
-
-* **UseDropDown:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFieldInfoRelation thing;
+Bool useDropDown;
+thing.SetUseDropDown(useDropDown);
+```
 

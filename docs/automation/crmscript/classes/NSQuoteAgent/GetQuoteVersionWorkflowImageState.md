@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_GetQuoteVersionWorkflowImageState
+title: QuoteVersionButtonState GetQuoteVersionWorkflowImageState(Integer quoteVersionId)
+intellisense: NSQuoteAgent.GetQuoteVersionWorkflowImageState
+keywords: NSQuoteAgent, GetQuoteVersionWorkflowImageState
+so.topic: reference
 ---
-title: NSQuoteVersionButtonState GetQuoteVersionWorkflowImageState(Integer quoteVersionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersionButtonState GetQuoteVersionWorkflowImageState(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetQuoteVersionWorkflowImageState(Integer)
----
-
 
 Get state icon and name for the Quote version dialog header.
 
+**Parameters:**
+ - **quoteVersionId** Id of the quote version to get the version state for.
 
+**Returns:** Image and state name information
 
-* **quoteVersionId:** Id of the quote version to get the version state for.
-* **Returns:** Image and state name information
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteVersionId;
+QuoteVersionButtonState res = agent.GetQuoteVersionWorkflowImageState(quoteVersionId);
+```
 

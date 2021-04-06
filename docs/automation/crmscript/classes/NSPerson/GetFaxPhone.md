@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPerson_GetFaxPhone
 title: String GetFaxPhone()
-path: /EJScript/Classes/NSPerson/Member functions/String GetFaxPhone()
-intellisense: 1
-classref: 1
-keywords: GetFaxPhone()
+intellisense: NSPerson.GetFaxPhone
+keywords: NSPerson, GetFaxPhone
+so.topic: reference
 ---
-
 
 Returns the fax phone that belong to the contact person.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPerson thing;
+String faxPhone  = thing.GetFaxPhone();
+```
 
 

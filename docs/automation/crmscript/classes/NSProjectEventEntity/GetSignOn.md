@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEventEntity_GetSignOn
 title: Bool GetSignOn()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Bool GetSignOn()
-intellisense: 1
-classref: 1
-keywords: GetSignOn()
+intellisense: NSProjectEventEntity.GetSignOn
+keywords: NSProjectEventEntity, GetSignOn
+so.topic: reference
 ---
-
 
 Is Sign On functionality enabled
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSProjectEventEntity thing;
+Bool signOn  = thing.GetSignOn();
+```
 
 

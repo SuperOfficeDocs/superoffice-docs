@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSFavourite_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSFavourite/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-sortOrder: 3436
-keywords: GetRank()
+intellisense: NSFavourite.GetRank
+keywords: NSFavourite, GetRank
+so.topic: reference
 ---
-
 
 Rank order
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSFavourite thing;
+Integer rank  = thing.GetRank();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_SetSatStart
+title: SetSatStart(DateTime satStart)
+intellisense: NSTicketPriorityEntity.SetSatStart
+keywords: NSTicketPriorityEntity, GetSatStart
+so.topic: reference
 ---
-title: Void SetSatStart(DateTime SatStart)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetSatStart(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetSatStart(DateTime)
----
-
 
 The work hour start for Saturdays. Note that only the time part of the DateTime is used
 
+**Parameter:** 
+ - **satStart** DateTime
 
-
-* **SatStart:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime satStart;
+thing.SetSatStart(satStart);
+```
 

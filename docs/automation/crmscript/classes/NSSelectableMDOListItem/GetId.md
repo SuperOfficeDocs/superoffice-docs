@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSSelectableMDOListItem.GetId
+keywords: NSSelectableMDOListItem, GetId
+so.topic: reference
 ---
-
 
 The Id of the ListItem
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSSelectableMDOListItem thing;
+Integer id  = thing.GetId();
+```
 
 

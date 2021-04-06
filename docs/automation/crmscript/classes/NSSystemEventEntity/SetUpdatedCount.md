@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSystemEventEntity_SetUpdatedCount
+title: SetUpdatedCount(Integer updatedCount)
+intellisense: NSSystemEventEntity.SetUpdatedCount
+keywords: NSSystemEventEntity, GetUpdatedCount
+so.topic: reference
 ---
-title: Void SetUpdatedCount(Integer UpdatedCount)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetUpdatedCount(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetUpdatedCount(Integer)
----
-
 
 Number of updates made to this record
 
+**Parameter:** 
+ - **updatedCount** Integer
 
-
-* **UpdatedCount:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSystemEventEntity thing;
+Integer updatedCount;
+thing.SetUpdatedCount(updatedCount);
+```
 

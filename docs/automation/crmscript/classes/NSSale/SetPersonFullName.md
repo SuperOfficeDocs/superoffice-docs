@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSale_SetPersonFullName
+title: SetPersonFullName(String personFullName)
+intellisense: NSSale.SetPersonFullName
+keywords: NSSale, GetPersonFullName
+so.topic: reference
 ---
-title: Void SetPersonFullName(String PersonFullName)
-path: /EJScript/Classes/NSSale/Member functions/Void SetPersonFullName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonFullName(String)
----
-
 
 The name of the person this sale belongs to.
 
+**Parameter:** 
+ - **personFullName** String
 
-
-* **PersonFullName:** String
-* **Returns:** String
-
+```crmscript
+NSSale thing;
+String personFullName;
+thing.SetPersonFullName(personFullName);
+```
 

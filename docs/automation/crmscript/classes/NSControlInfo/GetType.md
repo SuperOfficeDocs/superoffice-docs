@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSControlInfo_GetType
 title: String GetType()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetType()
-intellisense: 1
-classref: 1
-sortOrder: 2002
-keywords: GetType()
+intellisense: NSControlInfo.GetType
+keywords: NSControlInfo, GetType
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSControlInfo thing;
+String type  = thing.GetType();
+```
 
 

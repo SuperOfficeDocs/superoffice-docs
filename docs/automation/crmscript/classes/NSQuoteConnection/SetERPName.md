@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteConnection_SetERPName
+title: SetERPName(String eRPName)
+intellisense: NSQuoteConnection.SetERPName
+keywords: NSQuoteConnection, GetERPName
+so.topic: reference
 ---
-title: Void SetERPName(String ERPName)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetERPName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetERPName(String)
----
-
 
 Name of the ERP system (programmatic).
 
+**Parameter:** 
+ - **eRPName** String
 
-
-* **ERPName:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteConnection thing;
+String eRPName;
+thing.SetERPName(eRPName);
+```
 

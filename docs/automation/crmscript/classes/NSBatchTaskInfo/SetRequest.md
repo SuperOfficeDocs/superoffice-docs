@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetRequest
+title: SetRequest(String request)
+intellisense: NSBatchTaskInfo.SetRequest
+keywords: NSBatchTaskInfo, GetRequest
+so.topic: reference
 ---
-title: Void SetRequest(String Request)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetRequest(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1401
-keywords: SetRequest(String)
----
-
 
 Maps to the request field in the batchtask table.
 
+**Parameter:** 
+ - **request** String
 
-
-* **Request:** String
-* **Returns:** String
-
+```crmscript
+NSBatchTaskInfo thing;
+String request;
+thing.SetRequest(request);
+```
 

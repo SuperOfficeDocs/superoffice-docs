@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResourceEntity_SetLocationAddress
+title: SetLocationAddress(String locationAddress)
+intellisense: NSResourceEntity.SetLocationAddress
+keywords: NSResourceEntity, GetLocationAddress
+so.topic: reference
 ---
-title: Void SetLocationAddress(String LocationAddress)
-path: /EJScript/Classes/NSResourceEntity/Member functions/Void SetLocationAddress(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetLocationAddress(String)
----
-
 
 Address of location, if this is a resource that is a location
 
+**Parameter:** 
+ - **locationAddress** String
 
-
-* **LocationAddress:** String
-* **Returns:** String
-
+```crmscript
+NSResourceEntity thing;
+String locationAddress;
+thing.SetLocationAddress(locationAddress);
+```
 

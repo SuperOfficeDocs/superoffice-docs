@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo_GetLegalBaseName
 title: String GetLegalBaseName()
-path: /EJScript/Classes/NSConsentInfo/Member functions/String GetLegalBaseName()
-intellisense: 1
-classref: 1
-sortOrder: 1642
-keywords: GetLegalBaseName()
+intellisense: NSConsentInfo.GetLegalBaseName
+keywords: NSConsentInfo, GetLegalBaseName
+so.topic: reference
 ---
-
 
 Name of the LegalBase associated with this consent
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentInfo thing;
+String legalBaseName  = thing.GetLegalBaseName();
+```
 
 

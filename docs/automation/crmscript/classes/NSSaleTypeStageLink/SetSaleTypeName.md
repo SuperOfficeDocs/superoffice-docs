@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleTypeName(String p0)
-path: /EJScript/Classes/NSSaleTypeStageLink/Member functions/Void SetSaleTypeName(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSaleTypeStageLink_SetSaleTypeName_String_p_0
+title: NSSaleTypeStageLink.SetSaleTypeName(String p_0)
+intellisense: NSSaleTypeStageLink.SetSaleTypeName
 keywords: SetSaleTypeName(String)
+so.topic: reference
 ---
 
 

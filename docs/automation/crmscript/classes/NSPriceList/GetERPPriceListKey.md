@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPriceList_GetERPPriceListKey
 title: String GetERPPriceListKey()
-path: /EJScript/Classes/NSPriceList/Member functions/String GetERPPriceListKey()
-intellisense: 1
-classref: 1
-keywords: GetERPPriceListKey()
+intellisense: NSPriceList.GetERPPriceListKey
+keywords: NSPriceList, GetERPPriceListKey
+so.topic: reference
 ---
-
 
 The key that uniquely identifies this pricelist in the ERP system
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPriceList thing;
+String eRPPriceListKey  = thing.GetERPPriceListKey();
+```
 
 

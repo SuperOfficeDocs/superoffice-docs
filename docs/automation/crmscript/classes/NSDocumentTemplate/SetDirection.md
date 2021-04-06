@@ -1,13 +1,23 @@
+﻿---
+uid: crmscript_ref_NSDocumentTemplate_SetDirection
+title: SetDirection(DocTmplDirection direction)
+intellisense: NSDocumentTemplate.SetDirection
+keywords: NSDocumentTemplate, GetDirection
+so.topic: reference
 ---
-title: Void SetDirection(Integer p0)
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Void SetDirection(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2637
-keywords: SetDirection(Integer)
----
-
 
 1 = incoming, 2 = outgoing, see EAppntDirection
 
+**Parameter:** 
+ - **direction** DocTmplDirection
+     - Enum: 0 = Unknown 
+     - Enum: 1 = Incoming 
+     - Enum: 2 = Outgoing 
+     - Enum: 3 = SaintAll 
+
+```crmscript
+NSDocumentTemplate thing;
+DocTmplDirection direction;
+thing.SetDirection(direction);
+```
 

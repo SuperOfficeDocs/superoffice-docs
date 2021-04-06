@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketDeviceInfo_GetPocketVersion
 title: String GetPocketVersion()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetPocketVersion()
-intellisense: 1
-classref: 1
-keywords: GetPocketVersion()
+intellisense: NSPocketDeviceInfo.GetPocketVersion
+keywords: NSPocketDeviceInfo, GetPocketVersion
+so.topic: reference
 ---
-
 
 What version of Pocket CRM this device is running. Ex: '8.0.37'
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPocketDeviceInfo thing;
+String pocketVersion  = thing.GetPocketVersion();
+```
 
 

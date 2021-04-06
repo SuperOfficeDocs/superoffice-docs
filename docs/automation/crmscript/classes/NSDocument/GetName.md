@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocument_GetName
 title: String GetName()
-path: /EJScript/Classes/NSDocument/Member functions/String GetName()
-intellisense: 1
-classref: 1
-sortOrder: 2441
-keywords: GetName()
+intellisense: NSDocument.GetName
+keywords: NSDocument, GetName
+so.topic: reference
 ---
-
 
 File name
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocument thing;
+String name  = thing.GetName();
+```
 
 

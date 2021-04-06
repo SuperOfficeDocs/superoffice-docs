@@ -1,13 +1,12 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetIsPublished
+title: Boolean GetIsPublished()
+intellisense: NSAppointmentEntity.GetIsPublished
+keywords: NSAppointmentEntity, GetIsPublished
+so.topic: reference
 ---
-title: Bool GetIsPublished()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
-sortOrder: 930
-keywords: GetIsPublished()
----
 
+Should this AppointmentEntity be published and visible to strangers?
 
-Get the Publication is published field
-
+**Returns:** Boolean
 

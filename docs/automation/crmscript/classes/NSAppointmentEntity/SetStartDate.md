@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_SetStartDate
+title: SetStartDate(DateTime startDate)
+intellisense: NSAppointmentEntity.SetStartDate
+keywords: NSAppointmentEntity, GetStartDate
+so.topic: reference
 ---
-title: Void SetStartDate(DateTime StartDate)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetStartDate(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1030
-keywords: SetStartDate(DateTime)
----
-
 
 date + start time planned
 
+**Parameter:** 
+ - **startDate** DateTime
 
-
-* **StartDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSAppointmentEntity thing;
+DateTime startDate;
+thing.SetStartDate(startDate);
+```
 

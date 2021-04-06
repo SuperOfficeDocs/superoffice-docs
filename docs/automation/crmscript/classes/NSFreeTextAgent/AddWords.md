@@ -1,18 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSFreeTextAgent_AddWords
 title: Void AddWords(String stopWords)
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/Void AddWords(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3872
-keywords: AddWords(String)
+intellisense: NSFreeTextAgent.AddWords
+keywords: NSFreeTextAgent, AddWords
+so.topic: reference
 ---
-
 
 Adds the words in the string to the stop word list
 
+**Parameters:**
+ - **stopWords** The stop words to add
 
+**Returns:** This method has no return value
 
-* **stopWords:** The stop words to add
-* **Returns:** This method has no return value
-
+```crmscript
+NSFreeTextAgent agent;
+String stopWords;
+Void res = agent.AddWords(stopWords);
+```
 

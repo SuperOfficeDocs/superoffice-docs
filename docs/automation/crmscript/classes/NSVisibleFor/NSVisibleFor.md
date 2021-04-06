@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSVisibleFor
 title: NSVisibleFor
-path: /EJScript/Classes/NSVisibleFor
-intellisense: 1
-classref: 1
+intellisense: Void.NSVisibleFor
+keywords: NSVisibleFor
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

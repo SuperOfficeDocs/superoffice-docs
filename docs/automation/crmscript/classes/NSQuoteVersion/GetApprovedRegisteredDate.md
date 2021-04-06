@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersion_GetApprovedRegisteredDate
 title: DateTime GetApprovedRegisteredDate()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetApprovedRegisteredDate()
-intellisense: 1
-classref: 1
-keywords: GetApprovedRegisteredDate()
+intellisense: NSQuoteVersion.GetApprovedRegisteredDate
+keywords: NSQuoteVersion, GetApprovedRegisteredDate
+so.topic: reference
 ---
-
 
 When was approval granted or rejected
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSQuoteVersion thing;
+DateTime approvedRegisteredDate  = thing.GetApprovedRegisteredDate();
+```
 
 

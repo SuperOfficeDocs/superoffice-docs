@@ -1,9 +1,9 @@
 ---
 description: Void exitWithMessage(String p0)
-path: /EJScript/Global functions/Void exitWithMessage(String p_0)
-intellisense: 1
+intellisense: Void.exitWithMessage
 langref: 1
 keywords: exitWithMessage(String)
+so.topic: reference
 ---
 
 

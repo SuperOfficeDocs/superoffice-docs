@@ -1,10 +1,10 @@
 ---
-title: Integer getType()
-path: /EJScript/Classes/EventData/member functions/Integer getType()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_EventData_getType
+title: EventData.getType()
+intellisense: EventData.getType
 sortOrder: 288
 keywords: getType()
+so.topic: reference
 ---
 
 # Integer getType()

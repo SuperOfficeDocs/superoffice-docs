@@ -1,17 +1,18 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_DeleteAppointmentEntity
+title: DeleteAppointmentEntity(Integer appointmentEntity);
+intellisense: NSAppointmentAgent.DeleteAppointmentEntity
+keywords: NSAppointmentAgent, DeleteAppointmentEntity
+so.topic: reference
 ---
-title: Void DeleteAppointmentEntity(Integer appointmentEntityId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void DeleteAppointmentEntity(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 915
-keywords: DeleteAppointmentEntity(Integer)
----
 
+Deletes the NSAppointmentEntity
+  
+**Parameters:**
+ - **appointmentEntityId** The identity of the AppointmentEntity to delete.
 
-Deletes the AppointmentEntity
-
-
-
-* **appointmentEntityId:** The identity of the AppointmentEntity
-
+```crmscript
+NSAppointmentAgent agent;
+agent.DeleteAppointmentEntity(123);
+```
 

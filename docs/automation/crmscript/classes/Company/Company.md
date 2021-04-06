@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_Company
 title: Company
-path: /EJScript/Classes/Company
-intellisense: 1
-classref: 1
+intellisense: Void.Company
 sortOrder: 155
+so.topic: reference
 ---
 
 Class for representing a company

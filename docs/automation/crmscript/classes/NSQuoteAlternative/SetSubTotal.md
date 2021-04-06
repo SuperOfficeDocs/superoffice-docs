@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_SetSubTotal
+title: SetSubTotal(Float subTotal)
+intellisense: NSQuoteAlternative.SetSubTotal
+keywords: NSQuoteAlternative, GetSubTotal
+so.topic: reference
 ---
-title: Void SetSubTotal(Float SubTotal)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetSubTotal(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetSubTotal(Float)
----
-
 
 Value to help the user interface, is computed by summing the totalprice of the quotelines, and NOT by summing their subtotals
 
+**Parameter:** 
+ - **subTotal** Float
 
-
-* **SubTotal:** Float
-* **Returns:** Float
-
+```crmscript
+NSQuoteAlternative thing;
+Float subTotal;
+thing.SetSubTotal(subTotal);
+```
 

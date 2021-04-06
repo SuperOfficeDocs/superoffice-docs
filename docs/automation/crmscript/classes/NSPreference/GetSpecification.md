@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreference_GetSpecification
+title: PreferenceSpec GetSpecification()
+intellisense: NSPreference.GetSpecification
+keywords: NSPreference, GetSpecification
+so.topic: reference
 ---
-title: NSPreferenceSpec GetSpecification()
-path: /EJScript/Classes/NSPreference/Member functions/NSPreferenceSpec GetSpecification()
-intellisense: 1
-classref: 1
-keywords: GetSpecification()
----
-
 
 Preference specification, consisting of the section name and key name
 
+**Returns:** PreferenceSpec
 
 
-* **Returns:** PreferenceSpec
+```crmscript
+NSPreference thing;
+PreferenceSpec specification  = thing.GetSpecification();
+```
 
 

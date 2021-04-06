@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetShowInAddressBar
 title: Bool GetShowInAddressBar()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetShowInAddressBar()
-intellisense: 1
-classref: 1
-sortOrder: 3362
-keywords: GetShowInAddressBar()
+intellisense: NSExtAppEntity.GetShowInAddressBar
+keywords: NSExtAppEntity, GetShowInAddressBar
+so.topic: reference
 ---
-
 
 Does the webpanel have an address bar
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSExtAppEntity thing;
+Bool showInAddressBar  = thing.GetShowInAddressBar();
+```
 
 

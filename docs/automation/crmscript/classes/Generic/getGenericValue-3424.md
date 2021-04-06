@@ -1,10 +1,11 @@
 ---
-title: Generic getGenericValue(String name)
-path: /EJScript/Classes/Generic/Member functions/Generic getGenericValue(String name)
-intellisense: 1
+uid: crmscript_ref_Generic_getGenericValue_String_name
+title: Generic.getGenericValue(String name)
+intellisense: Generic.getGenericValue
 langref: 1
 sortOrder: 80
 keywords: getGenericValue(String)
+so.topic: reference
 ---
 
 

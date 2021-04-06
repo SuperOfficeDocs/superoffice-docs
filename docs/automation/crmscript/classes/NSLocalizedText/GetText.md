@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLocalizedText_GetText
 title: String GetText()
-path: /EJScript/Classes/NSLocalizedText/Member functions/String GetText()
-intellisense: 1
-classref: 1
-keywords: GetText()
+intellisense: NSLocalizedText.GetText
+keywords: NSLocalizedText, GetText
+so.topic: reference
 ---
-
 
 The text string itself
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSLocalizedText thing;
+String text  = thing.GetText();
+```
 
 

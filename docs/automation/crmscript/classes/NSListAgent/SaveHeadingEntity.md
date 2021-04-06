@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSListAgent_SaveHeadingEntity
+title: NSHeadingEntity SaveHeadingEntity(NSHeadingEntity headingEntity);
+intellisense: NSListAgent.SaveHeadingEntity
+keywords: NSListAgent, SaveHeadingEntity
+so.topic: reference
 ---
-title: NSHeadingEntity SaveHeadingEntity(NSHeadingEntity headingEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity SaveHeadingEntity(NSHeadingEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveHeadingEntity(NSHeadingEntity)
----
+	  
+Updates the existing NSHeadingEntity or creates a new NSHeadingEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **headingEntity** The NSHeadingEntity to save.
 
+**Returns:** New or updated NSHeadingEntity
 
-Updates the existing HeadingEntity or creates a new HeadingEntity if the id parameter is empty
-
-
-
-* **headingEntity:** The HeadingEntity that is saved
-* **Returns:** New or updated HeadingEntity
-
+```crmscript
+NSList  agent;
+NSHeadingEntity thing = agent.CreateDefaultHeadingEntity();
+thing = agent.SaveHeadingEntity(thing);
+```
 

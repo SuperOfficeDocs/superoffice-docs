@@ -1,9 +1,9 @@
 ---
 description: String getProgramHelp()
-path: /EJScript/Global functions/String getProgramHelp()
-intellisense: 1
+intellisense: Void.getProgramHelp
 langref: 1
 keywords: getProgramHelp()
+so.topic: reference
 ---
 
 

@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSaintAgent_GetStatusMonitor
+title: StatusMonitor GetStatusMonitor(Integer id)
+intellisense: NSSaintAgent.GetStatusMonitor
+keywords: NSSaintAgent, GetStatusMonitor
+so.topic: reference
 ---
-title: NSStatusMonitor GetStatusMonitor(Integer id)
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitor GetStatusMonitor(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetStatusMonitor(Integer)
----
-
 
 Get a single status monitor based on its identity
 
+**Parameters:**
+ - **id** Identity of status monitor
 
+**Returns:** The requested status monitor
 
-* **id:** Identity of status monitor
-* **Returns:** The requested status monitor
-
+```crmscript
+NSSaintAgent agent;
+Integer id;
+StatusMonitor res = agent.GetStatusMonitor(id);
+```
 

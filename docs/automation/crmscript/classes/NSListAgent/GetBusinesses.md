@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetBusinesses
+title: BusinessArray GetBusinesses()
+intellisense: NSListAgent.GetBusinesses
+keywords: NSListAgent, GetBusinesses
+so.topic: reference
 ---
-title: NSBusiness[] GetBusinesses()
-path: /EJScript/Classes/NSListAgent/Member functions/NSBusiness[] GetBusinesses()
-intellisense: 1
-classref: 1
-keywords: GetBusinesses()
----
-
 
 Returns all available businesses that a contact could have.
 
 
+**Returns:** An array of all available businesses
 
-* **Returns:** An array of all available businesses
-
+```crmscript
+NSListAgent agent;
+BusinessArray res = agent.GetBusinesses();
+```
 

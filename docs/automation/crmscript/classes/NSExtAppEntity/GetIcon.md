@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetIcon
 title: Integer GetIcon()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Integer GetIcon()
-intellisense: 1
-classref: 1
-sortOrder: 3368
-keywords: GetIcon()
+intellisense: NSExtAppEntity.GetIcon
+keywords: NSExtAppEntity, GetIcon
+so.topic: reference
 ---
-
 
 The id of the icon of the external app
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSExtAppEntity thing;
+Integer icon  = thing.GetIcon();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteLine_GetERPQuoteLineKey
 title: String GetERPQuoteLineKey()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetERPQuoteLineKey()
-intellisense: 1
-classref: 1
-keywords: GetERPQuoteLineKey()
+intellisense: NSQuoteLine.GetERPQuoteLineKey
+keywords: NSQuoteLine, GetERPQuoteLineKey
+so.topic: reference
 ---
-
 
 The foreign key to the quoteline in ERP system (if it has such a representation).
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteLine thing;
+String eRPQuoteLineKey  = thing.GetERPQuoteLineKey();
+```
 
 

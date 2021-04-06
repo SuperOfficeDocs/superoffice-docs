@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetBaseCurrency
 title: String GetBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/String GetBaseCurrency()
-intellisense: 1
-classref: 1
-keywords: GetBaseCurrency()
+intellisense: NSSaleSummary.GetBaseCurrency
+keywords: NSSaleSummary, GetBaseCurrency
+so.topic: reference
 ---
-
 
 Default currency for the installation
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSSaleSummary thing;
+String baseCurrency  = thing.GetBaseCurrency();
+```
 
 

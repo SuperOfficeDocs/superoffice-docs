@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetRequest
 title: String GetRequest()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetRequest()
-intellisense: 1
-classref: 1
-sortOrder: 1381
-keywords: GetRequest()
+intellisense: NSBatchTaskInfo.GetRequest
+keywords: NSBatchTaskInfo, GetRequest
+so.topic: reference
 ---
-
 
 Maps to the request field in the batchtask table.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSBatchTaskInfo thing;
+String request  = thing.GetRequest();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_GetDate
 title: DateTime GetDate()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/DateTime GetDate()
-intellisense: 1
-classref: 1
-keywords: GetDate()
+intellisense: NSPocketNotificationMessage.GetDate
+keywords: NSPocketNotificationMessage, GetDate
+so.topic: reference
 ---
-
 
 If the message is about some event happening at a specific date and time
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSPocketNotificationMessage thing;
+DateTime date  = thing.GetDate();
+```
 
 

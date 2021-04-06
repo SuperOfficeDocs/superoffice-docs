@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyName(String p0)
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Void SetCompanyName(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoSystemInfoCarrier_SetCompanyName_String_p_0
+title: NSSoSystemInfoCarrier.SetCompanyName(String p_0)
+intellisense: NSSoSystemInfoCarrier.SetCompanyName
 keywords: SetCompanyName(String)
+so.topic: reference
 ---
 
 

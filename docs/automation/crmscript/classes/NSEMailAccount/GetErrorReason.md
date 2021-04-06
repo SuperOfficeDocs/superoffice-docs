@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAccount_GetErrorReason
 title: String GetErrorReason()
-path: /EJScript/Classes/NSEMailAccount/Member functions/String GetErrorReason()
-intellisense: 1
-classref: 1
-sortOrder: 2751
-keywords: GetErrorReason()
+intellisense: NSEMailAccount.GetErrorReason
+keywords: NSEMailAccount, GetErrorReason
+so.topic: reference
 ---
-
 
 Reason/Error message. Readonly field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEMailAccount thing;
+String errorReason  = thing.GetErrorReason();
+```
 
 

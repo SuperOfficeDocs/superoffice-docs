@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketInfo_SetCategoryName
+title: SetCategoryName(String categoryName)
+intellisense: NSTicketInfo.SetCategoryName
+keywords: NSTicketInfo, GetCategoryName
+so.topic: reference
 ---
-title: Void SetCategoryName(String CategoryName)
-path: /EJScript/Classes/NSTicketInfo/Member functions/Void SetCategoryName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetCategoryName(String)
----
-
 
 The name of the category for the request
 
+**Parameter:** 
+ - **categoryName** String
 
-
-* **CategoryName:** String
-* **Returns:** String
-
+```crmscript
+NSTicketInfo thing;
+String categoryName;
+thing.SetCategoryName(categoryName);
+```
 

@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetPosition
+title: Position GetPosition()
+intellisense: NSPersonEntity.GetPosition
+keywords: NSPersonEntity, GetPosition
+so.topic: reference
 ---
-title: NSPosition GetPosition()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSPosition GetPosition()
-intellisense: 1
-classref: 1
-keywords: GetPosition()
----
-
 
 The position. This is a predefined SuperOffice value, different from Title
 
+**Returns:** Position
 
 
-* **Returns:** Position
+```crmscript
+NSPersonEntity thing;
+Position position  = thing.GetPosition();
+```
 
 

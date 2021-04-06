@@ -1,15 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSUserAgent
 title: NSUserAgent
-path: /EJScript/Classes/NSUserAgent
-intellisense: 1
-classref: 1
+intellisense: Void.NSUserAgent
+keywords: NSUserAgent
+so.topic: reference
 ---
-
 
 User administration
 
-
-
+```crmscript
+NSUserAgent agent;
+agent.callMethod(arg1, arg2);
+```
 
 1. autolist
 

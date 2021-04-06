@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetResponse
 title: String GetResponse()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetResponse()
-intellisense: 1
-classref: 1
-sortOrder: 1382
-keywords: GetResponse()
+intellisense: NSBatchTaskInfo.GetResponse
+keywords: NSBatchTaskInfo, GetResponse
+so.topic: reference
 ---
-
 
 Maps to the response field in the batchtask table.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSBatchTaskInfo thing;
+String response  = thing.GetResponse();
+```
 
 

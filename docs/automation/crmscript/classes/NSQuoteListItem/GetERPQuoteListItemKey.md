@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteListItem_GetERPQuoteListItemKey
 title: String GetERPQuoteListItemKey()
-path: /EJScript/Classes/NSQuoteListItem/Member functions/String GetERPQuoteListItemKey()
-intellisense: 1
-classref: 1
-keywords: GetERPQuoteListItemKey()
+intellisense: NSQuoteListItem.GetERPQuoteListItemKey
+keywords: NSQuoteListItem, GetERPQuoteListItemKey
+so.topic: reference
 ---
-
 
 Primary key for the item.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteListItem thing;
+String eRPQuoteListItemKey  = thing.GetERPQuoteListItemKey();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProjectEntity_SetAssociate
+title: SetAssociate(Associate associate)
+intellisense: NSProjectEntity.SetAssociate
+keywords: NSProjectEntity, GetAssociate
+so.topic: reference
 ---
-title: Void SetAssociate(NSAssociate Associate)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
-keywords: SetAssociate(NSAssociate)
----
-
 
 The person that created the project
 
+**Parameter:** 
+ - **associate** Associate
 
-
-* **Associate:** Associate
-* **Returns:** Associate
-
+```crmscript
+NSProjectEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
 

@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArea_GetNumberOfUsers
 title: Integer GetNumberOfUsers()
-path: /EJScript/Classes/NSArea/Member functions/Integer GetNumberOfUsers()
-intellisense: 1
-classref: 1
-sortOrder: 1244
-keywords: GetNumberOfUsers()
+intellisense: NSArea.GetNumberOfUsers
+keywords: NSArea, GetNumberOfUsers
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSArea thing;
+Integer numberOfUsers  = thing.GetNumberOfUsers();
+```
 
 

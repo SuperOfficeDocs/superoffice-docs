@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetHeading
+title: SetHeading(String heading)
+intellisense: NSSaleEntity.SetHeading
+keywords: NSSaleEntity, GetHeading
+so.topic: reference
 ---
-title: Void SetHeading(String Heading)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetHeading(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetHeading(String)
----
-
 
 Sale heading (short description?)
 
+**Parameter:** 
+ - **heading** String
 
-
-* **Heading:** String
-* **Returns:** String
-
+```crmscript
+NSSaleEntity thing;
+String heading;
+thing.SetHeading(heading);
+```
 

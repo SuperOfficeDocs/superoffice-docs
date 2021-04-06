@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetPhoneDirect
+title: SetPhoneDirect(StringArray phoneDirect)
+intellisense: NSParticipantSyncData.SetPhoneDirect
+keywords: NSParticipantSyncData, GetPhoneDirect
+so.topic: reference
 ---
-title: Void SetPhoneDirect(String[] PhoneDirect)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPhoneDirect(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetPhoneDirect(String[])
----
 
 
-* **PhoneDirect:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **phoneDirect** StringArray
+
+```crmscript
+NSParticipantSyncData thing;
+StringArray phoneDirect;
+thing.SetPhoneDirect(phoneDirect);
+```
 

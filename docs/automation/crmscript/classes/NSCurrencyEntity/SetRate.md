@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCurrencyEntity_SetRate
+title: SetRate(Float rate)
+intellisense: NSCurrencyEntity.SetRate
+keywords: NSCurrencyEntity, GetRate
+so.topic: reference
 ---
-title: Void SetRate(Float Rate)
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Void SetRate(Float p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2190
-keywords: SetRate(Float)
----
-
 
 Exchange rate
 
+**Parameter:** 
+ - **rate** Float
 
-
-* **Rate:** Float
-* **Returns:** Float
-
+```crmscript
+NSCurrencyEntity thing;
+Float rate;
+thing.SetRate(rate);
+```
 

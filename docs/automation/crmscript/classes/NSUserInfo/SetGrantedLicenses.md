@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUserInfo_SetGrantedLicenses
+title: SetGrantedLicenses(StringArray grantedLicenses)
+intellisense: NSUserInfo.SetGrantedLicenses
+keywords: NSUserInfo, GetGrantedLicenses
+so.topic: reference
 ---
-title: Void SetGrantedLicenses(String[] GrantedLicenses)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetGrantedLicenses(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetGrantedLicenses(String[])
----
 
 
-* **GrantedLicenses:** StringArray
-* **Returns:** StringArray
 
+**Parameter:** 
+ - **grantedLicenses** StringArray
+
+```crmscript
+NSUserInfo thing;
+StringArray grantedLicenses;
+thing.SetGrantedLicenses(grantedLicenses);
+```
 

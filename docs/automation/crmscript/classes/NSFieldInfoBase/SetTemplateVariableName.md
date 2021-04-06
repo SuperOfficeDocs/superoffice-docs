@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFieldInfoBase_SetTemplateVariableName
+title: SetTemplateVariableName(String templateVariableName)
+intellisense: NSFieldInfoBase.SetTemplateVariableName
+keywords: NSFieldInfoBase, GetTemplateVariableName
+so.topic: reference
 ---
-title: Void SetTemplateVariableName(String TemplateVariableName)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetTemplateVariableName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3486
-keywords: SetTemplateVariableName(String)
----
-
 
 Template variable name: 'cs01', 'cl02' etc. Null for extra fields.
 
+**Parameter:** 
+ - **templateVariableName** String
 
-
-* **TemplateVariableName:** String
-* **Returns:** String
-
+```crmscript
+NSFieldInfoBase thing;
+String templateVariableName;
+thing.SetTemplateVariableName(templateVariableName);
+```
 

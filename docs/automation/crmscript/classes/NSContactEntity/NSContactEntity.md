@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity
 title: NSContactEntity
-path: /EJScript/Classes/NSContactEntity
-intellisense: 1
-classref: 1
-sortOrder: 1830
+intellisense: Void.NSContactEntity
+keywords: NSContactEntity
+so.topic: reference
 ---
-
 
 The Contact Service. The service implements all services working with the Contact object
 
-
-
-
-1. autolist
+1. autolist 
 

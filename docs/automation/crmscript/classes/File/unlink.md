@@ -1,10 +1,10 @@
 ---
-title: Bool unlink()
-path: /EJScript/Classes/File/Member functions/Bool unlink()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_File_unlink
+title: File.unlink()
+intellisense: File.unlink
 sortOrder: 345
 keywords: unlink()
+so.topic: reference
 ---
 
 This function will delete the file.

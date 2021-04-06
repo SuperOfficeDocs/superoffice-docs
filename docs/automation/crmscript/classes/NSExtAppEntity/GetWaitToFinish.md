@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetWaitToFinish
 title: Bool GetWaitToFinish()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetWaitToFinish()
-intellisense: 1
-classref: 1
-sortOrder: 3366
-keywords: GetWaitToFinish()
+intellisense: NSExtAppEntity.GetWaitToFinish
+keywords: NSExtAppEntity, GetWaitToFinish
+so.topic: reference
 ---
-
 
 True if the application shall wait for fininsh event
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSExtAppEntity thing;
+Bool waitToFinish  = thing.GetWaitToFinish();
+```
 
 

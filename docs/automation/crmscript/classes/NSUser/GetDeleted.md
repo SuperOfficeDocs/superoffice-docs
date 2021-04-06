@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUser_GetDeleted
 title: Bool GetDeleted()
-path: /EJScript/Classes/NSUser/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
-keywords: GetDeleted()
+intellisense: NSUser.GetDeleted
+keywords: NSUser, GetDeleted
+so.topic: reference
 ---
-
 
 If true, the user is retired and should have no rights, not appear in lists, etc.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSUser thing;
+Bool deleted  = thing.GetDeleted();
+```
 
 

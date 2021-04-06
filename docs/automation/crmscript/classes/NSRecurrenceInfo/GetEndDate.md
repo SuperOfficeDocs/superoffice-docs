@@ -1,9 +1,9 @@
 ---
-title: DateTime GetEndDate()
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/DateTime GetEndDate()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceInfo_GetEndDate
+title: NSRecurrenceInfo.GetEndDate()
+intellisense: NSRecurrenceInfo.GetEndDate
 keywords: GetEndDate()
+so.topic: reference
 ---
 
 

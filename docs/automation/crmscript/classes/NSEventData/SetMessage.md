@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEventData_SetMessage
+title: SetMessage(String message)
+intellisense: NSEventData.SetMessage
+keywords: NSEventData, GetMessage
+so.topic: reference
 ---
-title: Void SetMessage(String Message)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetMessage(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3350
-keywords: SetMessage(String)
----
-
 
 A message to be presented to the user
 
+**Parameter:** 
+ - **message** String
 
-
-* **Message:** String
-* **Returns:** String
-
+```crmscript
+NSEventData thing;
+String message;
+thing.SetMessage(message);
+```
 

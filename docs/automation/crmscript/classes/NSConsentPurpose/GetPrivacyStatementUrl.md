@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSConsentPurpose_GetPrivacyStatementUrl
 title: String GetPrivacyStatementUrl()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/String GetPrivacyStatementUrl()
-intellisense: 1
-classref: 1
-sortOrder: 1685
-keywords: GetPrivacyStatementUrl()
+intellisense: NSConsentPurpose.GetPrivacyStatementUrl
+keywords: NSConsentPurpose, GetPrivacyStatementUrl
+so.topic: reference
 ---
-
 
 Url referencing the actual privacy statement
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSConsentPurpose thing;
+String privacyStatementUrl  = thing.GetPrivacyStatementUrl();
+```
 
 

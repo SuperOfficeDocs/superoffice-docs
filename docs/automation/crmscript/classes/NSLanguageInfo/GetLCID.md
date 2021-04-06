@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLanguageInfo_GetLCID
 title: Integer GetLCID()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/Integer GetLCID()
-intellisense: 1
-classref: 1
-sortOrder: 4002
-keywords: GetLCID()
+intellisense: NSLanguageInfo.GetLCID
+keywords: NSLanguageInfo, GetLCID
+so.topic: reference
 ---
-
 
 Language/culture id as a numeric .NET code
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSLanguageInfo thing;
+Integer lCID  = thing.GetLCID();
+```
 
 

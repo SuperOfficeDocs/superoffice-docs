@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_GetPerson
+title: Person GetPerson()
+intellisense: NSUser.GetPerson
+keywords: NSUser, GetPerson
+so.topic: reference
 ---
-title: NSPerson GetPerson()
-path: /EJScript/Classes/NSUser/Member functions/NSPerson GetPerson()
-intellisense: 1
-classref: 1
-keywords: GetPerson()
----
-
 
 The person associated with this user. Detailed information about the user
 
+**Returns:** Person
 
 
-* **Returns:** Person
+```crmscript
+NSUser thing;
+Person person  = thing.GetPerson();
+```
 
 

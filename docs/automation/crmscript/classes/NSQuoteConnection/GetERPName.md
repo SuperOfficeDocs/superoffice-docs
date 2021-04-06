@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteConnection_GetERPName
 title: String GetERPName()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetERPName()
-intellisense: 1
-classref: 1
-keywords: GetERPName()
+intellisense: NSQuoteConnection.GetERPName
+keywords: NSQuoteConnection, GetERPName
+so.topic: reference
 ---
-
 
 Name of the ERP system (programmatic).
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteConnection thing;
+String eRPName  = thing.GetERPName();
+```
 
 

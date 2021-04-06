@@ -1,10 +1,10 @@
 ---
-title: Bool getBitNo(Integer number)
-path: /EJScript/Classes/FHBitSet/Member functions/Bool getBitNo(Integer number)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_FHBitSet_getBitNo_Integer_number
+title: FHBitSet.getBitNo(Integer number)
+intellisense: FHBitSet.getBitNo
 sortOrder: 334
 keywords: getBitNo(Integer)
+so.topic: reference
 ---
 
 This function returns true if a specified bit is set, false if not.

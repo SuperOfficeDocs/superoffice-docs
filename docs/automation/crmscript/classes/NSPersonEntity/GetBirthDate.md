@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetBirthDate
 title: DateTime GetBirthDate()
-path: /EJScript/Classes/NSPersonEntity/Member functions/DateTime GetBirthDate()
-intellisense: 1
-classref: 1
-keywords: GetBirthDate()
+intellisense: NSPersonEntity.GetBirthDate
+keywords: NSPersonEntity, GetBirthDate
+so.topic: reference
 ---
-
 
 The Person birth date as Date
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSPersonEntity thing;
+DateTime birthDate  = thing.GetBirthDate();
+```
 
 

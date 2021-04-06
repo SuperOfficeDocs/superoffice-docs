@@ -1,10 +1,10 @@
 ---
-title: Bool isNull()
-path: /EJScript/Classes/Float/Member functions/Bool isNull()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Float_isNull
+title: Float.isNull()
+intellisense: Float.isNull
 sortOrder: 356
 keywords: isNull()
+so.topic: reference
 ---
 
 

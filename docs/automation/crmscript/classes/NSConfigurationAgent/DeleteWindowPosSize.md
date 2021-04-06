@@ -1,17 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSConfigurationAgent_DeleteWindowPosSize
 title: Void DeleteWindowPosSize(Integer windowPosSizeId)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/Void DeleteWindowPosSize(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1624
-keywords: DeleteWindowPosSize(Integer)
+intellisense: NSConfigurationAgent.DeleteWindowPosSize
+keywords: NSConfigurationAgent, DeleteWindowPosSize
+so.topic: reference
 ---
-
 
 Deletes a window and dialog position and size setting.
 
-
-
-* **windowPosSizeId:** Id of the window and dialog position and size settings item.
-
-
+**Parameters:**
+ - **windowPosSizeId** Id of the window and dialog position and size settings item.

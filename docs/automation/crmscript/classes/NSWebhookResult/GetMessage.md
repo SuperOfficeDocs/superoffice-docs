@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebhookResult_GetMessage
 title: String GetMessage()
-path: /EJScript/Classes/NSWebhookResult/Member functions/String GetMessage()
-intellisense: 1
-classref: 1
-keywords: GetMessage()
+intellisense: NSWebhookResult.GetMessage
+keywords: NSWebhookResult, GetMessage
+so.topic: reference
 ---
-
 
 Headers and body of response from webhook
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSWebhookResult thing;
+String message  = thing.GetMessage();
+```
 
 

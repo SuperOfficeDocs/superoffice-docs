@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_GetIcon
 title: Integer GetIcon()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Integer GetIcon()
-intellisense: 1
-classref: 1
-keywords: GetIcon()
+intellisense: NSWebPanelEntity.GetIcon
+keywords: NSWebPanelEntity, GetIcon
+so.topic: reference
 ---
-
 
 The icon of the webpanel
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWebPanelEntity thing;
+Integer icon  = thing.GetIcon();
+```
 
 

@@ -1,21 +1,23 @@
+﻿---
+uid: crmscript_ref_NSAppointment_SetBookingType
+title: SetBookingType(Integer bookingType)
+intellisense: NSAppointment.SetBookingType
+keywords: NSAppointment, GetBookingType
+so.topic: reference
 ---
-title: Void SetBookingType(Integer BookingType)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetBookingType(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 778
-keywords: SetBookingType(Integer)
----
-
 
 The type of booking the appointment represents
 
-* Unknown=0
-* None=1
-* Owner=2
-* Participant=3
+**Parameter:** 
+ - **bookingType** Integer
+     - Enum: 0 = Unknown 
+     - Enum: 1 = None 
+     - Enum: 2 = Owner 
+     - Enum: 3 = Participant 
 
-* **BookingType:** Integer
-* **Returns:** Void
-
+```crmscript
+NSAppointment thing;
+Integer bookingType;
+thing.SetBookingType(bookingType);
+```
 

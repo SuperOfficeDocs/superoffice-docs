@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTile_GetDashboardTileId
 title: Integer GetDashboardTileId()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetDashboardTileId()
-intellisense: 1
-classref: 1
-sortOrder: 2290
-keywords: GetDashboardTileId()
+intellisense: NSDashboardTile.GetDashboardTileId
+keywords: NSDashboardTile, GetDashboardTileId
+so.topic: reference
 ---
-
 
 The tile id
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSDashboardTile thing;
+Integer dashboardTileId  = thing.GetDashboardTileId();
+```
 
 

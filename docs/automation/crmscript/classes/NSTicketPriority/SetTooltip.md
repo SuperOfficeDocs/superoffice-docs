@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketPriority_SetTooltip
+title: SetTooltip(String tooltip)
+intellisense: NSTicketPriority.SetTooltip
+keywords: NSTicketPriority, SetTooltip
+so.topic: reference
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSTicketPriority/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetTooltip(String)
----
 
+Set the tooltip description for the TicketPriority list item.
 
-* **tooltip:** String
-* **Returns:** Void
+**Parameter:** 
+ - **tooltip** String TicketPriority tooltip description.
 
+```crmscript
+NSTicketPriority thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
 

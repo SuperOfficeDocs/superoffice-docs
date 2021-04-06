@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSHistoryRequest_GetEntityName
 title: String GetEntityName()
-path: /EJScript/Classes/NSHistoryRequest/Member functions/String GetEntityName()
-intellisense: 1
-classref: 1
-sortOrder: 3944
-keywords: GetEntityName()
+intellisense: NSHistoryRequest.GetEntityName
+keywords: NSHistoryRequest, GetEntityName
+so.topic: reference
 ---
-
 
 Name of entity to get history for
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSHistoryRequest thing;
+String entityName  = thing.GetEntityName();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteLine_SetSubscriptionQuantity
+title: SetSubscriptionQuantity(Float subscriptionQuantity)
+intellisense: NSQuoteLine.SetSubscriptionQuantity
+keywords: NSQuoteLine, GetSubscriptionQuantity
+so.topic: reference
 ---
-title: Void SetSubscriptionQuantity(Float SubscriptionQuantity)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetSubscriptionQuantity(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetSubscriptionQuantity(Float)
----
-
 
 The default number of SubscriptionUnits to suggest when creating quote lines from this product
 
+**Parameter:** 
+ - **subscriptionQuantity** Float
 
-
-* **SubscriptionQuantity:** Float
-* **Returns:** Float
-
+```crmscript
+NSQuoteLine thing;
+Float subscriptionQuantity;
+thing.SetSubscriptionQuantity(subscriptionQuantity);
+```
 

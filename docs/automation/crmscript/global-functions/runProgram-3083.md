@@ -1,9 +1,9 @@
 ---
 description: String runProgram(String p\_cmd)
-path: /EJScript/Global functions/String runProgram(String p_cmd)
-intellisense: 1
+intellisense: Void.runProgram
 langref: 1
 keywords: runProgram(String)
+so.topic: reference
 ---
 
 

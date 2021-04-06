@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSignedPublicKey_SetExpiryDate
+title: SetExpiryDate(DateTime expiryDate)
+intellisense: NSSignedPublicKey.SetExpiryDate
+keywords: NSSignedPublicKey, GetExpiryDate
+so.topic: reference
 ---
-title: Void SetExpiryDate(DateTime ExpiryDate)
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/Void SetExpiryDate(DateTime p_0)
-intellisense: 1
-classref: 1
-keywords: SetExpiryDate(DateTime)
----
-
 
 Date when the signature expires. No Timezone.
 
+**Parameter:** 
+ - **expiryDate** DateTime
 
-
-* **ExpiryDate:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSSignedPublicKey thing;
+DateTime expiryDate;
+thing.SetExpiryDate(expiryDate);
+```
 

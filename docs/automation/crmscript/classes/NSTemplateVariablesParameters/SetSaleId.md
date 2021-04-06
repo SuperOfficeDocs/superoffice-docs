@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTemplateVariablesParameters_SetSaleId
+title: SetSaleId(Integer saleId)
+intellisense: NSTemplateVariablesParameters.SetSaleId
+keywords: NSTemplateVariablesParameters, GetSaleId
+so.topic: reference
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleId(Integer)
----
-
 
 Identifier for a sale
 
+**Parameter:** 
+ - **saleId** Integer
 
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
 

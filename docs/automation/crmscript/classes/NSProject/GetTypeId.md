@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetTypeId
 title: Integer GetTypeId()
-path: /EJScript/Classes/NSProject/Member functions/Integer GetTypeId()
-intellisense: 1
-classref: 1
-keywords: GetTypeId()
+intellisense: NSProject.GetTypeId
+keywords: NSProject, GetTypeId
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSProject thing;
+Integer typeId  = thing.GetTypeId();
+```
 
 

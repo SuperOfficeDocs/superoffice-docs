@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleTypeEntity_GetIsAutoAdvance
 title: Bool GetIsAutoAdvance()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetIsAutoAdvance()
-intellisense: 1
-classref: 1
-keywords: GetIsAutoAdvance()
+intellisense: NSSaleTypeEntity.GetIsAutoAdvance
+keywords: NSSaleTypeEntity, GetIsAutoAdvance
+so.topic: reference
 ---
-
 
 Does the sale stage advance automatically, when the last guided activity in a stage is completed?
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSaleTypeEntity thing;
+Bool isAutoAdvance  = thing.GetIsAutoAdvance();
+```
 
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtAppEntity_GetParameters
 title: String GetParameters()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetParameters()
-intellisense: 1
-classref: 1
-sortOrder: 3375
-keywords: GetParameters()
+intellisense: NSExtAppEntity.GetParameters
+keywords: NSExtAppEntity, GetParameters
+so.topic: reference
 ---
 
+<template variable> <other template variable>
 
-\<template variable> \<other template variable>
+**Returns:** String
 
 
-
-* **Returns:** String
+```crmscript
+NSExtAppEntity thing;
+String parameters  = thing.GetParameters();
+```
 
 

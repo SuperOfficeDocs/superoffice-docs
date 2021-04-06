@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProject_GetTextId
 title: Integer GetTextId()
-path: /EJScript/Classes/NSProject/Member functions/Integer GetTextId()
-intellisense: 1
-classref: 1
-keywords: GetTextId()
+intellisense: NSProject.GetTextId
+keywords: NSProject, GetTextId
+so.topic: reference
 ---
-
 
 The id of the description
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProject thing;
+Integer textId  = thing.GetTextId();
+```
 
 

@@ -1,9 +1,9 @@
 ---
-title: String xmlDecode()
-path: /EJScript/Classes/String/Member functions/String xmlDecode()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_String_xmlDecode
+title: String.xmlDecode()
+intellisense: String.xmlDecode
 keywords: xmlDecode()
+so.topic: reference
 ---
 
 XML decode the string

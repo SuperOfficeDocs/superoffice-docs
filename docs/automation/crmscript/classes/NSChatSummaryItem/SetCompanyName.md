@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSChatSummaryItem_SetCompanyName
+title: SetCompanyName(String companyName)
+intellisense: NSChatSummaryItem.SetCompanyName
+keywords: NSChatSummaryItem, GetCompanyName
+so.topic: reference
 ---
-title: Void SetCompanyName(String CompanyName)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetCompanyName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1543
-keywords: SetCompanyName(String)
----
-
 
 The name of the customers company, if provided
 
+**Parameter:** 
+ - **companyName** String
 
-
-* **CompanyName:** String
-* **Returns:** String
-
+```crmscript
+NSChatSummaryItem thing;
+String companyName;
+thing.SetCompanyName(companyName);
+```
 

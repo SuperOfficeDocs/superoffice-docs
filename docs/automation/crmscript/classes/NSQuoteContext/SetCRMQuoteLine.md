@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteContext_SetCRMQuoteLine
+title: SetCRMQuoteLine(QuoteLine cRMQuoteLine)
+intellisense: NSQuoteContext.SetCRMQuoteLine
+keywords: NSQuoteContext, GetCRMQuoteLine
+so.topic: reference
 ---
-title: Void SetCRMQuoteLine(NSQuoteLine CRMQuoteLine)
-path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetCRMQuoteLine(NSQuoteLine p_0)
-intellisense: 1
-classref: 1
-keywords: SetCRMQuoteLine(NSQuoteLine)
----
-
 
 The relevant or current quote line of the quote in the CRM system, if applicable.
 
+**Parameter:** 
+ - **cRMQuoteLine** QuoteLine
 
-
-* **CRMQuoteLine:** QuoteLine
-* **Returns:** QuoteLine
-
+```crmscript
+NSQuoteContext thing;
+QuoteLine cRMQuoteLine;
+thing.SetCRMQuoteLine(cRMQuoteLine);
+```
 

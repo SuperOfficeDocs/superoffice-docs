@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_SetDestinationContactId
+title: SetDestinationContactId(Integer destinationContactId)
+intellisense: NSContactRelationEntity.SetDestinationContactId
+keywords: NSContactRelationEntity, GetDestinationContactId
+so.topic: reference
 ---
-title: Void SetDestinationContactId(Integer DestinationContactId)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetDestinationContactId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1966
-keywords: SetDestinationContactId(Integer)
----
-
 
 Id of the destination contact. The value is mandatory.
 
+**Parameter:** 
+ - **destinationContactId** Integer
 
-
-* **DestinationContactId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSContactRelationEntity thing;
+Integer destinationContactId;
+thing.SetDestinationContactId(destinationContactId);
+```
 

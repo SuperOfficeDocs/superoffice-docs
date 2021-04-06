@@ -1,17 +1,22 @@
----
+﻿---
+uid: crmscript_ref_NSFieldMetadata_GetAccess
 title: Integer GetAccess()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Integer GetAccess()
-intellisense: 1
-classref: 1
-sortOrder: 3576
-keywords: GetAccess()
+intellisense: NSFieldMetadata.GetAccess
+keywords: NSFieldMetadata, GetAccess
+so.topic: reference
 ---
-
 
 Access restrictions on the field
 
+**Returns:** Integer
 
+     - Enum: 0 = Normal 
+     - Enum: 1 = Mandatory 
+     - Enum: 2 = ReadOnly 
 
-* **Returns:** Integer
+```crmscript
+NSFieldMetadata thing;
+Integer access  = thing.GetAccess();
+```
 
 

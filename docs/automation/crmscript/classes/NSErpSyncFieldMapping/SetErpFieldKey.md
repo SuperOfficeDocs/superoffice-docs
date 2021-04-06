@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldMapping_SetErpFieldKey
+title: SetErpFieldKey(String erpFieldKey)
+intellisense: NSErpSyncFieldMapping.SetErpFieldKey
+keywords: NSErpSyncFieldMapping, GetErpFieldKey
+so.topic: reference
 ---
-title: Void SetErpFieldKey(String ErpFieldKey)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetErpFieldKey(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3313
-keywords: SetErpFieldKey(String)
----
-
 
 The ERP field key
 
+**Parameter:** 
+ - **erpFieldKey** String
 
-
-* **ErpFieldKey:** String
-* **Returns:** String
-
+```crmscript
+NSErpSyncFieldMapping thing;
+String erpFieldKey;
+thing.SetErpFieldKey(erpFieldKey);
+```
 

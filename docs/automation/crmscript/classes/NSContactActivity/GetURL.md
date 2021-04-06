@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactActivity_GetURL
 title: String GetURL()
-path: /EJScript/Classes/NSContactActivity/Member functions/String GetURL()
-intellisense: 1
-classref: 1
-sortOrder: 1779
-keywords: GetURL()
+intellisense: NSContactActivity.GetURL
+keywords: NSContactActivity, GetURL
+so.topic: reference
 ---
-
 
 URL address
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactActivity thing;
+String uRL  = thing.GetURL();
+```
 
 

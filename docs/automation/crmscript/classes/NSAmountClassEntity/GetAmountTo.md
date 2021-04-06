@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAmountClassEntity_GetAmountTo
 title: Float GetAmountTo()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Float GetAmountTo()
-intellisense: 1
-classref: 1
-sortOrder: 697
-keywords: GetAmountTo()
+intellisense: NSAmountClassEntity.GetAmountTo
+keywords: NSAmountClassEntity, GetAmountTo
+so.topic: reference
 ---
-
 
 Upper limit of this amount class
 
+**Returns:** Float
 
 
-* **Returns:** Float
+```crmscript
+NSAmountClassEntity thing;
+Float amountTo  = thing.GetAmountTo();
+```
 
 

@@ -1,18 +1,21 @@
+﻿---
+uid: crmscript_ref_NSArchiveAgent_GetGroupAssociateIds
+title: IntegerArray GetGroupAssociateIds(IntegerArray groupIds)
+intellisense: NSArchiveAgent.GetGroupAssociateIds
+keywords: NSArchiveAgent, GetGroupAssociateIds
+so.topic: reference
 ---
-title: Integer[] GetGroupAssociateIds(Integer[] groupIds)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/Integer[] GetGroupAssociateIds(Integer[] p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1100
-keywords: GetGroupAssociateIds(Integer[])
----
-
 
 Returns the  associate ids that belongs to the given groups
 
+**Parameters:**
+ - **groupIds** Array of group ids
 
+**Returns:** Array of associate ids
 
-* **groupIds:** Array of group ids
-* **Returns:** Array of associate ids
-
+```crmscript
+NSArchiveAgent agent;
+IntegerArray groupIds;
+IntegerArray res = agent.GetGroupAssociateIds(groupIds);
+```
 

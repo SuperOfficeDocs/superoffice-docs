@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProjectEntity_GetNmdAppointmentId
 title: Integer GetNmdAppointmentId()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Integer GetNmdAppointmentId()
-intellisense: 1
-classref: 1
-keywords: GetNmdAppointmentId()
+intellisense: NSProjectEntity.GetNmdAppointmentId
+keywords: NSProjectEntity, GetNmdAppointmentId
+so.topic: reference
 ---
-
 
 ID of appointment that "caused" the nextMilestoneDate, can be 0
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSProjectEntity thing;
+Integer nmdAppointmentId  = thing.GetNmdAppointmentId();
+```
 
 

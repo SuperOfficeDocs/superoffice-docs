@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSExtendedModuleLicense_GetNumberOfLicensesFree
 title: Integer GetNumberOfLicensesFree()
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Integer GetNumberOfLicensesFree()
-intellisense: 1
-classref: 1
-sortOrder: 3418
-keywords: GetNumberOfLicensesFree()
+intellisense: NSExtendedModuleLicense.GetNumberOfLicensesFree
+keywords: NSExtendedModuleLicense, GetNumberOfLicensesFree
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSExtendedModuleLicense thing;
+Integer numberOfLicensesFree  = thing.GetNumberOfLicensesFree();
+```
 
 

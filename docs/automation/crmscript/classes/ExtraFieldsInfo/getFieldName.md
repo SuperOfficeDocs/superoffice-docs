@@ -1,10 +1,10 @@
 ---
-title: String getFieldName()
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/String getFieldName()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ExtraFieldsInfo_getFieldName
+title: ExtraFieldsInfo.getFieldName()
+intellisense: ExtraFieldsInfo.getFieldName
 sortOrder: 306
 keywords: getFieldName()
+so.topic: reference
 ---
 
 This function returns the field name of the current field.

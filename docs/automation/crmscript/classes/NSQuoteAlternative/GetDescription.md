@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_GetDescription
 title: String GetDescription()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
-keywords: GetDescription()
+intellisense: NSQuoteAlternative.GetDescription
+keywords: NSQuoteAlternative, GetDescription
+so.topic: reference
 ---
-
 
 The tool-tip to use in the user interface (on the tab, for instance).
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteAlternative thing;
+String description  = thing.GetDescription();
+```
 
 

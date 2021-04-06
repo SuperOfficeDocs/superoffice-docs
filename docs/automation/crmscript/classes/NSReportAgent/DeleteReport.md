@@ -1,17 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSReportAgent_DeleteReport
 title: Bool DeleteReport(Integer reportId)
-path: /EJScript/Classes/NSReportAgent/Member functions/Bool DeleteReport(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteReport(Integer)
+intellisense: NSReportAgent.DeleteReport
+keywords: NSReportAgent, DeleteReport
+so.topic: reference
 ---
-
 
 Delete the report with the given id
 
+**Parameters:**
+ - **reportId** The id of the report to delete
 
+**Returns:** Delete ok?
 
-* **reportId:** The id of the report to delete
-* **Returns:** Delete ok?
-
+```crmscript
+NSReportAgent agent;
+Integer reportId;
+Bool res = agent.DeleteReport(reportId);
+```
 

@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_GetSelectionCategory
+title: SelectionCategory GetSelectionCategory()
+intellisense: NSSelectionEntity.GetSelectionCategory
+keywords: NSSelectionEntity, GetSelectionCategory
+so.topic: reference
 ---
-title: NSSelectionCategory GetSelectionCategory()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/NSSelectionCategory GetSelectionCategory()
-intellisense: 1
-classref: 1
-keywords: GetSelectionCategory()
----
-
 
 Selection category type (list item)
 
+**Returns:** SelectionCategory
 
 
-* **Returns:** SelectionCategory
+```crmscript
+NSSelectionEntity thing;
+SelectionCategory selectionCategory  = thing.GetSelectionCategory();
+```
 
 

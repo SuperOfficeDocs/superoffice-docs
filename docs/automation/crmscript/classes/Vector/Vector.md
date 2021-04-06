@@ -1,8 +1,8 @@
 ---
+uid: crmscript_ref_Vector
 title: Vector
-path: /EJScript/Classes/Vector
-intellisense: 1
-classref: 1
+intellisense: Void.Vector
+so.topic: reference
 ---
 
 

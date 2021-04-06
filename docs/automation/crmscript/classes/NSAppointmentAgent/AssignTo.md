@@ -1,20 +1,29 @@
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_AssignTo
+title: AppointmentEntity AssignTo(Integer appointmentId, ParticipantInfo participant, Integer updateMode)
+intellisense: NSAppointmentAgent.AssignTo
+keywords: NSAppointmentAgent, AssignTo
+so.topic: reference
 ---
-title: NSAppointmentEntity AssignTo(Integer appointmentId, NSParticipantInfo p1, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentEntity AssignTo(Integer p_0, NSParticipantInfo p_1, Integer p_2)
-intellisense: 1
-classref: 1
-sortOrder: 872
-keywords: AssignTo(Integer,NSParticipantInfo,Integer)
----
-
 
 Assigning an appointment to another person.
 
+**Parameters:**
+ - **appointmentId** The appointmentId. Both master and child record ids are accepted.
+ - **participant** 
+ - **updateMode** Update mode for a recurring appointment.
+     - Enum: 0 = Unknown 
+     - Enum: 1 = OnlyThis 
+     - Enum: 2 = ThisAndForward 
+     - Enum: 9 = StopRecurrence 
 
+**Returns:** Updated AppointmentEntity
 
-* **appointmentId:** The appointmentId. Both master and child record ids are accepted.
-* **participant
-\param** p2 updateMode: Update mode for a recurring appointment.
-* **Returns:** Updated AppointmentEntity
-
+```crmscript
+NSAppointmentAgent agent;
+Integer appointmentId;
+ParticipantInfo participant;
+Integer updateMode;
+AppointmentEntity res = agent.AssignTo(appointmentId, participant, updateMode);
+```
 

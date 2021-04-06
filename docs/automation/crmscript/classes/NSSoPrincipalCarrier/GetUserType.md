@@ -1,9 +1,9 @@
 ---
-title: Integer GetUserType()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetUserType()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSoPrincipalCarrier_GetUserType
+title: NSSoPrincipalCarrier.GetUserType()
+intellisense: NSSoPrincipalCarrier.GetUserType
 keywords: GetUserType()
+so.topic: reference
 ---
 
 

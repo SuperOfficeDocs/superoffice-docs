@@ -1,10 +1,10 @@
 ---
-title: Void SetTableRight(NSTableRight p0)
-path: /EJScript/Classes/NSCarrier/Member functions/Void SetTableRight(NSTableRight p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSCarrier_SetTableRight_NSTableRight_p_0
+title: NSCarrier.SetTableRight(NSTableRight p_0)
+intellisense: NSCarrier.SetTableRight
 sortOrder: 1489
 keywords: SetTableRight(NSTableRight)
+so.topic: reference
 ---
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSRelationDefinitionEntity_GetPassiveText
 title: String GetPassiveText()
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/String GetPassiveText()
-intellisense: 1
-classref: 1
-keywords: GetPassiveText()
+intellisense: NSRelationDefinitionEntity.GetPassiveText
+keywords: NSRelationDefinitionEntity, GetPassiveText
+so.topic: reference
 ---
-
 
 Text used in passive direction
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSRelationDefinitionEntity thing;
+String passiveText  = thing.GetPassiveText();
+```
 
 

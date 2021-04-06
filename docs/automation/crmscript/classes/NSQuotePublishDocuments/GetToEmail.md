@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuotePublishDocuments_GetToEmail
 title: String GetToEmail()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetToEmail()
-intellisense: 1
-classref: 1
-keywords: GetToEmail()
+intellisense: NSQuotePublishDocuments.GetToEmail
+keywords: NSQuotePublishDocuments, GetToEmail
+so.topic: reference
 ---
-
 
 The email address of the recipient, taken from the sale's person
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuotePublishDocuments thing;
+String toEmail  = thing.GetToEmail();
+```
 
 

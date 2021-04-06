@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBlobEntity_GetMimeType
 title: String GetMimeType()
-path: /EJScript/Classes/NSBlobEntity/Member functions/String GetMimeType()
-intellisense: 1
-classref: 1
-sortOrder: 1452
-keywords: GetMimeType()
+intellisense: NSBlobEntity.GetMimeType
+keywords: NSBlobEntity, GetMimeType
+so.topic: reference
 ---
-
 
 Mime type, describing the technical type (image/jpeg) of the data
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSBlobEntity thing;
+String mimeType  = thing.GetMimeType();
+```
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void getTicketChildrenFields()
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/Void getTicketChildrenFields()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_ExtraFieldsInfo_getTicketChildrenFields
+title: ExtraFieldsInfo.getTicketChildrenFields()
+intellisense: ExtraFieldsInfo.getTicketChildrenFields
 sortOrder: 314
 keywords: getTicketChildrenFields()
+so.topic: reference
 ---
 
 This is a helper function for getting ticket relation fields. It is equivalent to calling getChildrenFields(18, 0)

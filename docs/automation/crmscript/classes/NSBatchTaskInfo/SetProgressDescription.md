@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetProgressDescription
+title: SetProgressDescription(String progressDescription)
+intellisense: NSBatchTaskInfo.SetProgressDescription
+keywords: NSBatchTaskInfo, GetProgressDescription
+so.topic: reference
 ---
-title: Void SetProgressDescription(String ProgressDescription)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetProgressDescription(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1399
-keywords: SetProgressDescription(String)
----
-
 
 Descriptive text for the current stage
 
+**Parameter:** 
+ - **progressDescription** String
 
-
-* **ProgressDescription:** String
-* **Returns:** String
-
+```crmscript
+NSBatchTaskInfo thing;
+String progressDescription;
+thing.SetProgressDescription(progressDescription);
+```
 

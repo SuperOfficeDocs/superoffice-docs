@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSReasonSold_SetValue
+title: SetValue(String value)
+intellisense: NSReasonSold.SetValue
+keywords: NSReasonSold, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSReasonSold/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the ReasonSold item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String ReasonSold name.
 
+```crmscript
+NSReasonSold thing;
+thing.SetValue("frotz");
+```
 

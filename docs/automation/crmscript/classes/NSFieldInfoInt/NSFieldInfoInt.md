@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoInt
 title: NSFieldInfoInt
-path: /EJScript/Classes/NSFieldInfoInt
-intellisense: 1
-classref: 1
-sortOrder: 3513
+intellisense: Void.NSFieldInfoInt
+keywords: NSFieldInfoInt
+so.topic: reference
 ---
-
 
 Integer custom database field.
 
-
-
-
-1. autolist
+1. autolist 
 

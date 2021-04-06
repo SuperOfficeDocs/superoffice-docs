@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketNotificationMessage_SetUrl
+title: SetUrl(String url)
+intellisense: NSPocketNotificationMessage.SetUrl
+keywords: NSPocketNotificationMessage, GetUrl
+so.topic: reference
 ---
-title: Void SetUrl(String Url)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetUrl(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetUrl(String)
----
-
 
 An url associated with the notification that will be handled by Pocket
 
+**Parameter:** 
+ - **url** String
 
-
-* **Url:** String
-* **Returns:** String
-
+```crmscript
+NSPocketNotificationMessage thing;
+String url;
+thing.SetUrl(url);
+```
 

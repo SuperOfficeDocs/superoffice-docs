@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFavourite_SetExtraInfo
+title: SetExtraInfo(String extraInfo)
+intellisense: NSFavourite.SetExtraInfo
+keywords: NSFavourite, GetExtraInfo
+so.topic: reference
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSFavourite/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3441
-keywords: SetExtraInfo(String)
----
-
 
 Extra information for this favourite.
 
+**Parameter:** 
+ - **extraInfo** String
 
-
-* **ExtraInfo:** String
-* **Returns:** String
-
+```crmscript
+NSFavourite thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
 

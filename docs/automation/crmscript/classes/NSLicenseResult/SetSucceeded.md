@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSLicenseResult_SetSucceeded
+title: SetSucceeded(Bool succeeded)
+intellisense: NSLicenseResult.SetSucceeded
+keywords: NSLicenseResult, GetSucceeded
+so.topic: reference
 ---
-title: Void SetSucceeded(Bool Succeeded)
-path: /EJScript/Classes/NSLicenseResult/Member functions/Void SetSucceeded(Bool p_0)
-intellisense: 1
-classref: 1
-keywords: SetSucceeded(Bool)
----
 
 
-* **Succeeded:** Bool
-* **Returns:** Bool
 
+**Parameter:** 
+ - **succeeded** Bool
+
+```crmscript
+NSLicenseResult thing;
+Bool succeeded;
+thing.SetSucceeded(succeeded);
+```
 

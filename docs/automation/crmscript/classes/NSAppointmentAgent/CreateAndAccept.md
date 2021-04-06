@@ -1,18 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentAgent_CreateAndAccept
 title: Void CreateAndAccept(Integer emailItemId, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void CreateAndAccept(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
-sortOrder: 911
-keywords: CreateAndAccept(Integer,Integer)
+intellisense: NSAppointmentAgent.CreateAndAccept
+keywords: NSAppointmentAgent, CreateAndAccept
+so.topic: reference
 ---
-
 
 Creating an appointment from an emailItem invitation and accepting it.
 
-
-
-* **emailItemId:** The emailItemId
-* **updateMode:** Update mode for a recurring appointment.
-
-
+**Parameters:**
+ - **emailItemId** The emailItemId
+ - **updateMode** Update mode for a recurring appointment.
+     - Enum: 0 = Unknown 
+     - Enum: 1 = OnlyThis 
+     - Enum: 2 = ThisAndForward 
+     - Enum: 9 = StopRecurrence 

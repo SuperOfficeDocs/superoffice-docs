@@ -1,16 +1,18 @@
----
+﻿---
+uid: crmscript_ref_NSListAgent_GetPluginList
 title: StringDictionary GetPluginList()
-path: /EJScript/Classes/NSListAgent/Member functions/StringDictionary GetPluginList()
-intellisense: 1
-classref: 1
-keywords: GetPluginList()
+intellisense: NSListAgent.GetPluginList
+keywords: NSListAgent, GetPluginList
+so.topic: reference
 ---
-
 
 Get a list of installed document plugins
 
 
+**Returns:** Dictionary mapping plugin id=plugin name
 
-* **Returns:** Dictionary mapping plugin id=plugin name
-
+```crmscript
+NSListAgent agent;
+StringDictionary res = agent.GetPluginList();
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSActivitySummaryItem_GetRegistered
 title: DateTime GetRegistered()
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
-sortOrder: 596
-keywords: GetRegistered()
+intellisense: NSActivitySummaryItem.GetRegistered
+keywords: NSActivitySummaryItem, GetRegistered
+so.topic: reference
 ---
-
 
 Registered date
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSActivitySummaryItem thing;
+DateTime registered  = thing.GetRegistered();
+```
 
 

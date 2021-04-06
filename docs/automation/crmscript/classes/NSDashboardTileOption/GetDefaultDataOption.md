@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDashboardTileOption_GetDefaultDataOption
 title: Bool GetDefaultDataOption()
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Bool GetDefaultDataOption()
-intellisense: 1
-classref: 1
-sortOrder: 2318
-keywords: GetDefaultDataOption()
+intellisense: NSDashboardTileOption.GetDefaultDataOption
+keywords: NSDashboardTileOption, GetDefaultDataOption
+so.topic: reference
 ---
-
 
 True if this option only applies to the default data source, not selections
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSDashboardTileOption thing;
+Bool defaultDataOption  = thing.GetDefaultDataOption();
+```
 
 

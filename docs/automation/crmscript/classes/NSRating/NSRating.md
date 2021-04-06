@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSRating
 title: NSRating
-path: /EJScript/Classes/NSRating
-intellisense: 1
-classref: 1
+intellisense: Void.NSRating
+keywords: NSRating
+so.topic: reference
 ---
-
 
 Sale Stage with probability percent.
 
-
-
-
-1. autolist
+1. autolist 
 

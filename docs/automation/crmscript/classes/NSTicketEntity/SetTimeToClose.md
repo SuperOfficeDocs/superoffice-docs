@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketEntity_SetTimeToClose
+title: SetTimeToClose(Integer timeToClose)
+intellisense: NSTicketEntity.SetTimeToClose
+keywords: NSTicketEntity, GetTimeToClose
+so.topic: reference
 ---
-title: Void SetTimeToClose(Integer TimeToClose)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetTimeToClose(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetTimeToClose(Integer)
----
-
 
 The time (minutes) between when the ticket was created and when it was closed. Calculated based on priority&apos;s timeframe.
 
+**Parameter:** 
+ - **timeToClose** Integer
 
-
-* **TimeToClose:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTicketEntity thing;
+Integer timeToClose;
+thing.SetTimeToClose(timeToClose);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetDeleted
+title: SetDeleted(Bool deleted)
+intellisense: NSExtAppEntity.SetDeleted
+keywords: NSExtAppEntity, GetDeleted
+so.topic: reference
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3379
-keywords: SetDeleted(Bool)
----
-
 
 True if the application is marked as deleted
 
+**Parameter:** 
+ - **deleted** Bool
 
-
-* **Deleted:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSExtAppEntity thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
 

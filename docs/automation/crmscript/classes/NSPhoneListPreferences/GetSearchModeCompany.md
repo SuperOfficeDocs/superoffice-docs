@@ -1,16 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListPreferences_GetSearchModeCompany
 title: Integer GetSearchModeCompany()
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Integer GetSearchModeCompany()
-intellisense: 1
-classref: 1
-keywords: GetSearchModeCompany()
+intellisense: NSPhoneListPreferences.GetSearchModeCompany
+keywords: NSPhoneListPreferences, GetSearchModeCompany
+so.topic: reference
 ---
-
 
 The Company name search type, e.g. BeginsWith, Contains, Endswith, Matches
 
+**Returns:** Integer
 
+     - Enum: 0 = Exact 
+     - Enum: 1 = BeginsWith 
+     - Enum: 2 = EndsWith 
+     - Enum: 3 = Contains 
 
-* **Returns:** Integer
+```crmscript
+NSPhoneListPreferences thing;
+Integer searchModeCompany  = thing.GetSearchModeCompany();
+```
 
 

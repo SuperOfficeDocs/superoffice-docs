@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetTasks
+title: TaskArray GetTasks()
+intellisense: NSListAgent.GetTasks
+keywords: NSListAgent, GetTasks
+so.topic: reference
 ---
-title: NSTask[] GetTasks()
-path: /EJScript/Classes/NSListAgent/Member functions/NSTask[] GetTasks()
-intellisense: 1
-classref: 1
-keywords: GetTasks()
----
-
 
 Returns all appointment tasks
 
 
+**Returns:** An array of all available tasks
 
-* **Returns:** An array of all available tasks
-
+```crmscript
+NSListAgent agent;
+TaskArray res = agent.GetTasks();
+```
 

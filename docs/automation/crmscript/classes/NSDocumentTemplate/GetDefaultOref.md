@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplate_GetDefaultOref
 title: String GetDefaultOref()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/String GetDefaultOref()
-intellisense: 1
-classref: 1
-sortOrder: 2630
-keywords: GetDefaultOref()
+intellisense: NSDocumentTemplate.GetDefaultOref
+keywords: NSDocumentTemplate, GetDefaultOref
+so.topic: reference
 ---
-
 
 Processed via tag substitution to give document reference
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSDocumentTemplate thing;
+String defaultOref  = thing.GetDefaultOref();
+```
 
 

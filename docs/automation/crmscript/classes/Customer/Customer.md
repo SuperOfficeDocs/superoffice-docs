@@ -1,9 +1,9 @@
 ---
+uid: crmscript_ref_Customer
 title: Customer
-path: /EJScript/Classes/Customer
-intellisense: 1
-classref: 1
+intellisense: Void.Customer
 sortOrder: 170
+so.topic: reference
 ---
 
 

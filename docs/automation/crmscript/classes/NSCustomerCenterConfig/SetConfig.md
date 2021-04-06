@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCustomerCenterConfig_SetConfig
+title: SetConfig(String config)
+intellisense: NSCustomerCenterConfig.SetConfig
+keywords: NSCustomerCenterConfig, GetConfig
+so.topic: reference
 ---
-title: Void SetConfig(String Config)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetConfig(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2203
-keywords: SetConfig(String)
----
-
 
 A JSON-formatted config
 
+**Parameter:** 
+ - **config** String
 
-
-* **Config:** String
-* **Returns:** String
-
+```crmscript
+NSCustomerCenterConfig thing;
+String config;
+thing.SetConfig(config);
+```
 

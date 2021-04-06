@@ -1,9 +1,9 @@
 ---
 description: Integer getAgentScheduleId(String name)
-path: /EJScript/Global functions/Integer getAgentScheduleId(String name)
-intellisense: 1
+intellisense: Void.getAgentScheduleId
 langref: 1
 keywords: getAgentScheduleId(String)
+so.topic: reference
 ---
 
 

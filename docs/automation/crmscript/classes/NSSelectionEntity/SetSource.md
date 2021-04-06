@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSelectionEntity_SetSource
+title: SetSource(Integer source)
+intellisense: NSSelectionEntity.SetSource
+keywords: NSSelectionEntity, GetSource
+so.topic: reference
 ---
-title: Void SetSource(Integer Source)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetSource(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetSource(Integer)
----
-
 
 How did we get this selection? For future integration needs
 
+**Parameter:** 
+ - **source** Integer
 
-
-* **Source:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSelectionEntity thing;
+Integer source;
+thing.SetSource(source);
+```
 

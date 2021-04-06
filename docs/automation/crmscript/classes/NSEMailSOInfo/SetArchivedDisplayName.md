@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_SetArchivedDisplayName
+title: SetArchivedDisplayName(String archivedDisplayName)
+intellisense: NSEMailSOInfo.SetArchivedDisplayName
+keywords: NSEMailSOInfo, GetArchivedDisplayName
+so.topic: reference
 ---
-title: Void SetArchivedDisplayName(String ArchivedDisplayName)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetArchivedDisplayName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3056
-keywords: SetArchivedDisplayName(String)
----
-
 
 The full name of the associate who archived this email
 
+**Parameter:** 
+ - **archivedDisplayName** String
 
-
-* **ArchivedDisplayName:** String
-* **Returns:** String
-
+```crmscript
+NSEMailSOInfo thing;
+String archivedDisplayName;
+thing.SetArchivedDisplayName(archivedDisplayName);
+```
 

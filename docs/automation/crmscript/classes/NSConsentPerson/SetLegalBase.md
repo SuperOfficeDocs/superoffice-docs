@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPerson_SetLegalBase
+title: SetLegalBase(LegalBase legalBase)
+intellisense: NSConsentPerson.SetLegalBase
+keywords: NSConsentPerson, GetLegalBase
+so.topic: reference
 ---
-title: Void SetLegalBase(NSLegalBase LegalBase)
-path: /EJScript/Classes/NSConsentPerson/Member functions/Void SetLegalBase(NSLegalBase p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1670
-keywords: SetLegalBase(NSLegalBase)
----
-
 
 The legal base
 
+**Parameter:** 
+ - **legalBase** LegalBase
 
-
-* **LegalBase:** LegalBase
-* **Returns:** LegalBase
-
+```crmscript
+NSConsentPerson thing;
+LegalBase legalBase;
+thing.SetLegalBase(legalBase);
+```
 

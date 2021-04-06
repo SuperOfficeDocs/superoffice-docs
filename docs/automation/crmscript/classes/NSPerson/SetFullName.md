@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetFullName
+title: SetFullName(String fullName)
+intellisense: NSPerson.SetFullName
+keywords: NSPerson, GetFullName
+so.topic: reference
 ---
-title: Void SetFullName(String FullName)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetFullName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetFullName(String)
----
 
+Get the persons full name (internal name used in clients for employees). 
 
-Get the persons full name (internal name used in clients for employees).
+**Parameter:** 
+ - **fullName** String
 
-
-
-* **FullName:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String fullName;
+thing.SetFullName(fullName);
+```
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUserDefinedFieldInfo_GetFieldLabel
 title: String GetFieldLabel()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetFieldLabel()
-intellisense: 1
-classref: 1
-keywords: GetFieldLabel()
+intellisense: NSUserDefinedFieldInfo.GetFieldLabel
+keywords: NSUserDefinedFieldInfo, GetFieldLabel
+so.topic: reference
 ---
-
 
 The label (lead text)
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSUserDefinedFieldInfo thing;
+String fieldLabel  = thing.GetFieldLabel();
+```
 
 

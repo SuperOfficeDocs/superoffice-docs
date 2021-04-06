@@ -1,18 +1,20 @@
+﻿---
+uid: crmscript_ref_NSContactAgent_GetContact
+title: NSContact GetContact(Integer contactId);
+intellisense: NSContactAgent.GetContact
+keywords: NSContactAgent, GetContact
+so.topic: reference
 ---
-title: NSContact GetContact(Integer contactId)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContact GetContact(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1803
-keywords: GetContact(Integer)
----
 
+Gets a NSContact object.
 
-Gets a Contact object.
+**Parameters:**
+ - **contactId** The identifier of the NSContact object
 
+**Returns:** NSContact
 
-
-* **contactId:** The identifier of the Contact object
-* **Returns:** Contact
-
+```crmscript
+NSContactAgent agent;
+NSContact thing = agent.GetContact(123);
+```
 

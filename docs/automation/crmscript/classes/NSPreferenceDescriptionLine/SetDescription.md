@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPreferenceDescriptionLine_SetDescription
+title: SetDescription(String description)
+intellisense: NSPreferenceDescriptionLine.SetDescription
+keywords: NSPreferenceDescriptionLine, GetDescription
+so.topic: reference
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetDescription(String)
----
-
 
 Description of preference value, multi-language parsed
 
+**Parameter:** 
+ - **description** String
 
-
-* **Description:** String
-* **Returns:** String
-
+```crmscript
+NSPreferenceDescriptionLine thing;
+String description;
+thing.SetDescription(description);
+```
 

@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetRank
+title: SetRank(Integer rank)
+intellisense: NSCountry.SetRank
+keywords: NSCountry, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2043
-keywords: SetRank(Integer)
----
-
 
 The rank of the country
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSCountry thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

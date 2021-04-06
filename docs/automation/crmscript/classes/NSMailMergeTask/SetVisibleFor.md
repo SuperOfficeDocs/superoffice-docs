@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMailMergeTask_SetVisibleFor
+title: SetVisibleFor(VisibleFor visibleFor)
+intellisense: NSMailMergeTask.SetVisibleFor
+keywords: NSMailMergeTask, GetVisibleFor
+so.topic: reference
 ---
-title: Void SetVisibleFor(NSVisibleFor VisibleFor)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetVisibleFor(NSVisibleFor p_0)
-intellisense: 1
-classref: 1
-keywords: SetVisibleFor(NSVisibleFor)
----
-
 
 Who the task should be visible for
 
+**Parameter:** 
+ - **visibleFor** VisibleFor
 
-
-* **VisibleFor:** VisibleFor
-* **Returns:** VisibleFor
-
+```crmscript
+NSMailMergeTask thing;
+VisibleFor visibleFor;
+thing.SetVisibleFor(visibleFor);
+```
 

@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_GetDetailsRecord
 title: Integer GetDetailsRecord()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Integer GetDetailsRecord()
-intellisense: 1
-classref: 1
-sortOrder: 1369
-keywords: GetDetailsRecord()
+intellisense: NSBatchTaskInfo.GetDetailsRecord
+keywords: NSBatchTaskInfo, GetDetailsRecord
+so.topic: reference
 ---
-
 
 Record Id of a row in the DetailsTable containing more info about the task.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSBatchTaskInfo thing;
+Integer detailsRecord  = thing.GetDetailsRecord();
+```
 
 

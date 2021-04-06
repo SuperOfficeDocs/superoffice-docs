@@ -1,10 +1,10 @@
 ---
-title: Void SetLength(Integer p0)
-path: /EJScript/Classes/NSFieldProperty/Member functions/Void SetLength(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSFieldProperty_SetLength_Integer_p_0
+title: NSFieldProperty.SetLength(Integer p_0)
+intellisense: NSFieldProperty.SetLength
 sortOrder: 3605
 keywords: SetLength(Integer)
+so.topic: reference
 ---
 
 

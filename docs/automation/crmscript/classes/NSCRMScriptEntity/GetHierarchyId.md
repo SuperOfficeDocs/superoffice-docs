@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSCRMScriptEntity_GetHierarchyId
 title: Integer GetHierarchyId()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Integer GetHierarchyId()
-intellisense: 1
-classref: 1
-sortOrder: 2130
-keywords: GetHierarchyId()
+intellisense: NSCRMScriptEntity.GetHierarchyId
+keywords: NSCRMScriptEntity, GetHierarchyId
+so.topic: reference
 ---
-
 
 The script is inside this hierarchy folder
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSCRMScriptEntity thing;
+Integer hierarchyId  = thing.GetHierarchyId();
+```
 
 

@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSResolvedUser_GetUser
+title: User GetUser()
+intellisense: NSResolvedUser.GetUser
+keywords: NSResolvedUser, GetUser
+so.topic: reference
 ---
-title: NSUser GetUser()
-path: /EJScript/Classes/NSResolvedUser/Member functions/NSUser GetUser()
-intellisense: 1
-classref: 1
-keywords: GetUser()
----
-
 
 The resolved User instance.
 
+**Returns:** User
 
 
-* **Returns:** User
+```crmscript
+NSResolvedUser thing;
+User user  = thing.GetUser();
+```
 
 

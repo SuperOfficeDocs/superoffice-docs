@@ -1,10 +1,10 @@
 ---
-title: String getKey()
-path: /EJScript/Classes/Map/Member functions/String getKey()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Map_getKey
+title: Map.getKey()
+intellisense: Map.getKey
 sortOrder: 531
 keywords: getKey()
+so.topic: reference
 ---
 
 

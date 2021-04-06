@@ -1,13 +1,23 @@
+﻿---
+uid: crmscript_ref_NSPocketAgent_GetPocketStartupData
+title: PocketStartupData GetPocketStartupData(StringArray tables, DateTime currentClientTime)
+intellisense: NSPocketAgent.GetPocketStartupData
+keywords: NSPocketAgent, GetPocketStartupData
+so.topic: reference
 ---
-title: NSPocketStartupData GetPocketStartupData(String[] tables)
-path: /EJScript/Classes/NSPocketAgent/Member functions/NSPocketStartupData GetPocketStartupData(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: GetPocketStartupData(String[])
----
 
 
-* **tables:** Tables to check for license
-* **Returns:** Startup data for pocket
 
+**Parameters:**
+ - **tables** Tables to check for license
+ - **currentClientTime** Current time on the client, used for overdue sale lookup having correct timezone relative to client
+
+**Returns:** Startup data for pocket
+
+```crmscript
+NSPocketAgent agent;
+StringArray tables;
+DateTime currentClientTime;
+PocketStartupData res = agent.GetPocketStartupData(tables, currentClientTime);
+```
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetAlldayEvent()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetAlldayEvent()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAppointment_GetAlldayEvent
+title: NSAppointment.GetAlldayEvent()
+intellisense: NSAppointment.GetAlldayEvent
 sortOrder: 726
 keywords: GetAlldayEvent()
+so.topic: reference
 ---
 
 

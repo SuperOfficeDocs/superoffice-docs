@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSRelationToOwner_SetValue
+title: SetValue(String value)
+intellisense: NSRelationToOwner.SetValue
+keywords: NSRelationToOwner, SetValue
+so.topic: reference
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSRelationToOwner/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetValue(String)
----
 
+Set the name of the RelationToOwner item.
 
-* **value:** String
-* **Returns:** Void
+**Parameter:** 
+ - **value** String RelationToOwner name.
 
+```crmscript
+NSRelationToOwner thing;
+thing.SetValue("frotz");
+```
 

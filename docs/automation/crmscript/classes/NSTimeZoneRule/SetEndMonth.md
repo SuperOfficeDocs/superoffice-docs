@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTimeZoneRule_SetEndMonth
+title: SetEndMonth(Integer endMonth)
+intellisense: NSTimeZoneRule.SetEndMonth
+keywords: NSTimeZoneRule, GetEndMonth
+so.topic: reference
 ---
-title: Void SetEndMonth(Integer EndMonth)
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetEndMonth(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetEndMonth(Integer)
----
-
 
 Custom DST end month, if 0 then parse startRule
 
+**Parameter:** 
+ - **endMonth** Integer
 
-
-* **EndMonth:** Integer
-* **Returns:** Void
-
+```crmscript
+NSTimeZoneRule thing;
+Integer endMonth;
+thing.SetEndMonth(endMonth);
+```
 

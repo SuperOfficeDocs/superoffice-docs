@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleEntity_GetNextDueDate
 title: DateTime GetNextDueDate()
-path: /EJScript/Classes/NSSaleEntity/Member functions/DateTime GetNextDueDate()
-intellisense: 1
-classref: 1
-keywords: GetNextDueDate()
+intellisense: NSSaleEntity.GetNextDueDate
+keywords: NSSaleEntity, GetNextDueDate
+so.topic: reference
 ---
-
 
 Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSSaleEntity thing;
+DateTime nextDueDate  = thing.GetNextDueDate();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteVersionButtonState_GetImageHint
 title: String GetImageHint()
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/String GetImageHint()
-intellisense: 1
-classref: 1
-keywords: GetImageHint()
+intellisense: NSQuoteVersionButtonState.GetImageHint
+keywords: NSQuoteVersionButtonState, GetImageHint
+so.topic: reference
 ---
-
 
 Image to be shown
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteVersionButtonState thing;
+String imageHint  = thing.GetImageHint();
+```
 
 

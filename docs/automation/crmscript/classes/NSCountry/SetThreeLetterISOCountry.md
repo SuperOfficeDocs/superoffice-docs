@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSCountry_SetThreeLetterISOCountry
+title: SetThreeLetterISOCountry(String threeLetterISOCountry)
+intellisense: NSCountry.SetThreeLetterISOCountry
+keywords: NSCountry, GetThreeLetterISOCountry
+so.topic: reference
 ---
-title: Void SetThreeLetterISOCountry(String ThreeLetterISOCountry)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetThreeLetterISOCountry(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2044
-keywords: SetThreeLetterISOCountry(String)
----
 
+Three-letter country-code according to ISO3166 
 
-Three-letter country-code according to ISO3166
+**Parameter:** 
+ - **threeLetterISOCountry** String
 
-
-
-* **ThreeLetterISOCountry:** String
-* **Returns:** String
-
+```crmscript
+NSCountry thing;
+String threeLetterISOCountry;
+thing.SetThreeLetterISOCountry(threeLetterISOCountry);
+```
 

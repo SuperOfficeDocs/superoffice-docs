@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSTask_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSTask/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSTask.GetValue
+keywords: NSTask, GetValue
+so.topic: reference
 ---
 
+Get the name of the Task.
 
-* **Returns:** String
+**Returns:** String Task name.
 
+```crmscript
+NSTask thing;
+String name = thing.GetValue();
+```
 

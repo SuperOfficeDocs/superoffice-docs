@@ -1,17 +1,25 @@
+﻿---
+uid: crmscript_ref_NSUserAgent_CreateDefaultRoleEntityFromType
+title: RoleEntity CreateDefaultRoleEntityFromType(Integer type)
+intellisense: NSUserAgent.CreateDefaultRoleEntityFromType
+keywords: NSUserAgent, CreateDefaultRoleEntityFromType
+so.topic: reference
 ---
-title: NSRoleEntity CreateDefaultRoleEntityFromType(Integer type)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSRoleEntity CreateDefaultRoleEntityFromType(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: CreateDefaultRoleEntityFromType(Integer)
----
-
 
 Create a new role entity of the specified role type. The role type cannot be changed after the entity is created.
 
+**Parameters:**
+ - **type** Type of role (Employee/External/Anonymous/System)
+     - Enum: 0 = Employee 
+     - Enum: 1 = ExternalUser 
+     - Enum: 2 = Anonymous 
+     - Enum: 3 = System 
 
+**Returns:** A blank role.
 
-* **type:** Type of role (Employee/External/Anonymous/System)
-* **Returns:** A blank role.
-
+```crmscript
+NSUserAgent agent;
+Integer type;
+RoleEntity res = agent.CreateDefaultRoleEntityFromType(type);
+```
 

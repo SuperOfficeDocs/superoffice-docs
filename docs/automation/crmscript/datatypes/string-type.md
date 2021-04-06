@@ -1,6 +1,6 @@
 ---
-title: crmscript_datatypes_string
-description: String data type
+uid: crmscript_datatypes_string
+title: String data type
 author:
 so.date:
 keywords:

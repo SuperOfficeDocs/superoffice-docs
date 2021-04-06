@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSmsConfig_GetNsPluginConfig
 title: StringDictionary GetNsPluginConfig()
-path: /EJScript/Classes/NSSmsConfig/Member functions/StringDictionary GetNsPluginConfig()
-intellisense: 1
-classref: 1
-keywords: GetNsPluginConfig()
+intellisense: NSSmsConfig.GetNsPluginConfig
+keywords: NSSmsConfig, GetNsPluginConfig
+so.topic: reference
 ---
-
 
 Configuration settings provided by the SMS provider. Typically contains newline-delimited settings such as username and password.
 
+**Returns:** StringDictionary
 
 
-* **Returns:** StringDictionary
+```crmscript
+NSSmsConfig thing;
+StringDictionary nsPluginConfig  = thing.GetNsPluginConfig();
+```
 
 

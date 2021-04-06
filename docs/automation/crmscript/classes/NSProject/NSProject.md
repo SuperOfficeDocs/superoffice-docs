@@ -1,14 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSProject
 title: NSProject
-path: /EJScript/Classes/NSProject
-intellisense: 1
-classref: 1
+intellisense: Void.NSProject
+keywords: NSProject
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

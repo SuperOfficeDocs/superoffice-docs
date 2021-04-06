@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_SetDbiAgentId
+title: SetDbiAgentId(Integer dbiAgentId)
+intellisense: NSPersonEntity.SetDbiAgentId
+keywords: NSPersonEntity, GetDbiAgentId
+so.topic: reference
 ---
-title: Void SetDbiAgentId(Integer DbiAgentId)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetDbiAgentId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetDbiAgentId(Integer)
----
-
 
 Integration agent (eJournal)
 
+**Parameter:** 
+ - **dbiAgentId** Integer
 
-
-* **DbiAgentId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSPersonEntity thing;
+Integer dbiAgentId;
+thing.SetDbiAgentId(dbiAgentId);
+```
 

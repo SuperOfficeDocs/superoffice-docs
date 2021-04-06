@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetRetired
 title: Bool GetRetired()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Bool GetRetired()
-intellisense: 1
-classref: 1
-keywords: GetRetired()
+intellisense: NSPersonEntity.GetRetired
+keywords: NSPersonEntity, GetRetired
+so.topic: reference
 ---
-
 
 True if the user is retired and should have no rights, not appear in lists, etc.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSPersonEntity thing;
+Bool retired  = thing.GetRetired();
+```
 
 

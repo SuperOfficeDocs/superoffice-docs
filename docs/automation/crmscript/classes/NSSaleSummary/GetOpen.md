@@ -1,20 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSaleSummary_GetOpen
 title: Integer GetOpen()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Integer GetOpen()
-intellisense: 1
-classref: 1
-keywords: GetOpen()
+intellisense: NSSaleSummary.GetOpen
+keywords: NSSaleSummary, GetOpen
+so.topic: reference
 ---
 
+Number of all open within the period 
 
-Number of all open within the period
-
-
-    	///
-    
+**Returns:** Integer
 
 
-
-* **Returns:** Integer
+```crmscript
+NSSaleSummary thing;
+Integer open  = thing.GetOpen();
+```
 
 

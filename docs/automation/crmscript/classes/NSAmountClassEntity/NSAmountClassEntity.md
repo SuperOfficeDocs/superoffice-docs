@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSAmountClassEntity
 title: NSAmountClassEntity
-path: /EJScript/Classes/NSAmountClassEntity
-intellisense: 1
-classref: 1
-sortOrder: 693
+intellisense: Void.NSAmountClassEntity
+keywords: NSAmountClassEntity
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

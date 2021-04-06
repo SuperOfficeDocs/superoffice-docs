@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSLicenseInfo_GetNextCheckDate
 title: DateTime GetNextCheckDate()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/DateTime GetNextCheckDate()
-intellisense: 1
-classref: 1
-keywords: GetNextCheckDate()
+intellisense: NSLicenseInfo.GetNextCheckDate
+keywords: NSLicenseInfo, GetNextCheckDate
+so.topic: reference
 ---
-
 
 When should the system next check with the license issuer
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSLicenseInfo thing;
+DateTime nextCheckDate  = thing.GetNextCheckDate();
+```
 
 

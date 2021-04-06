@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicense_SetExtraFlags
+title: SetExtraFlags(Integer extraFlags)
+intellisense: NSModuleLicense.SetExtraFlags
+keywords: NSModuleLicense, GetExtraFlags
+so.topic: reference
 ---
-title: Void SetExtraFlags(Integer ExtraFlags)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetExtraFlags(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraFlags(Integer)
----
-
 
 Unspecified extra flags of license, part of checksum. Value=1 means this a 'user plan'; such licenses cause the admin gui to switch to radiobutton view
 
+**Parameter:** 
+ - **extraFlags** Integer
 
-
-* **ExtraFlags:** Integer
-* **Returns:** Void
-
+```crmscript
+NSModuleLicense thing;
+Integer extraFlags;
+thing.SetExtraFlags(extraFlags);
+```
 

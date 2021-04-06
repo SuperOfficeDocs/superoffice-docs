@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRefCountEntity_SetCurrentValue
+title: SetCurrentValue(Integer currentValue)
+intellisense: NSRefCountEntity.SetCurrentValue
+keywords: NSRefCountEntity, GetCurrentValue
+so.topic: reference
 ---
-title: Void SetCurrentValue(Integer CurrentValue)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetCurrentValue(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetCurrentValue(Integer)
----
-
 
 Current value of counter
 
+**Parameter:** 
+ - **currentValue** Integer
 
-
-* **CurrentValue:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRefCountEntity thing;
+Integer currentValue;
+thing.SetCurrentValue(currentValue);
+```
 

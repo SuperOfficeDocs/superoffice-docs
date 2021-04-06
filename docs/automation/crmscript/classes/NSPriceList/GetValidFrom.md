@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPriceList_GetValidFrom
 title: DateTime GetValidFrom()
-path: /EJScript/Classes/NSPriceList/Member functions/DateTime GetValidFrom()
-intellisense: 1
-classref: 1
-keywords: GetValidFrom()
+intellisense: NSPriceList.GetValidFrom
+keywords: NSPriceList, GetValidFrom
+so.topic: reference
 ---
-
 
 The date (inclusive) the pricelist start to be valid. This can be DateTime.MinValue to signal that it doesn't have a specific start date.
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSPriceList thing;
+DateTime validFrom  = thing.GetValidFrom();
+```
 
 

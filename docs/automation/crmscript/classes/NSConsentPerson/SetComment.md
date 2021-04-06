@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSConsentPerson_SetComment
+title: SetComment(String comment)
+intellisense: NSConsentPerson.SetComment
+keywords: NSConsentPerson, GetComment
+so.topic: reference
 ---
-title: Void SetComment(String Comment)
-path: /EJScript/Classes/NSConsentPerson/Member functions/Void SetComment(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1666
-keywords: SetComment(String)
----
-
 
 Comment regarding this specific consent
 
+**Parameter:** 
+ - **comment** String
 
-
-* **Comment:** String
-* **Returns:** String
-
+```crmscript
+NSConsentPerson thing;
+String comment;
+thing.SetComment(comment);
+```
 

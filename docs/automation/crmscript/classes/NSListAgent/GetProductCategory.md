@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetProductCategory
+title: NSProductCategory GetProductCategory(Integer productCategoryId);
+intellisense: NSListAgent.GetProductCategory
+keywords: NSListAgent, GetProductCategory
+so.topic: reference
 ---
-title: NSProductCategory GetProductCategory(Integer productCategoryId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProductCategory GetProductCategory(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetProductCategory(Integer)
----
 
+Gets a NSProductCategory object.
 
-Gets a ProductCategory object.
+**Parameters:**
+ - **productCategoryId** The identifier of the NSProductCategory object
 
+**Returns:** NSProductCategory
 
-
-* **productCategoryId:** The identifier of the ProductCategory object
-* **Returns:** ProductCategory
-
+```crmscript
+NSListAgent agent;
+NSProductCategory thing = agent.GetProductCategory(123);
+```
 

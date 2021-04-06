@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSDocument_SetOurRef
+title: SetOurRef(String ourRef)
+intellisense: NSDocument.SetOurRef
+keywords: NSDocument, GetOurRef
+so.topic: reference
 ---
-title: Void SetOurRef(String OurRef)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetOurRef(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2457
-keywords: SetOurRef(String)
----
-
 
 Our reference, searchable field from freetext search
 
+**Parameter:** 
+ - **ourRef** String
 
-
-* **OurRef:** String
-* **Returns:** String
-
+```crmscript
+NSDocument thing;
+String ourRef;
+thing.SetOurRef(ourRef);
+```
 

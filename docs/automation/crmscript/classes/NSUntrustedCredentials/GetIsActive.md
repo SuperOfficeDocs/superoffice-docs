@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSUntrustedCredentials_GetIsActive
 title: Bool GetIsActive()
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/Bool GetIsActive()
-intellisense: 1
-classref: 1
-keywords: GetIsActive()
+intellisense: NSUntrustedCredentials.GetIsActive
+keywords: NSUntrustedCredentials, GetIsActive
+so.topic: reference
 ---
-
 
 Is this credentials currently active.
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSUntrustedCredentials thing;
+Bool isActive  = thing.GetIsActive();
+```
 
 

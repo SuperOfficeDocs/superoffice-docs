@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSSelectionAgent_SaveSelectionEntity
+title: NSSelectionEntity SaveSelectionEntity(NSSelectionEntity selectionEntity);
+intellisense: NSSelectionAgent.SaveSelectionEntity
+keywords: NSSelectionAgent, SaveSelectionEntity
+so.topic: reference
 ---
-title: NSSelectionEntity SaveSelectionEntity(NSSelectionEntity selectionEntity)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity SaveSelectionEntity(NSSelectionEntity p_0)
-intellisense: 1
-classref: 1
-keywords: SaveSelectionEntity(NSSelectionEntity)
----
+	  
+Updates the existing NSSelectionEntity or creates a new NSSelectionEntity if the id parameter is 0
+	  
+**Parameters**:
+ - **selectionEntity** The NSSelectionEntity to save.
 
+**Returns:** New or updated NSSelectionEntity
 
-Updates the existing SelectionEntity or creates a new SelectionEntity if the id parameter is empty
-
-
-
-* **selectionEntity:** The SelectionEntity that is saved
-* **Returns:** New or updated SelectionEntity
-
+```crmscript
+NSSelection  agent;
+NSSelectionEntity thing = agent.CreateDefaultSelectionEntity();
+thing = agent.SaveSelectionEntity(thing);
+```
 

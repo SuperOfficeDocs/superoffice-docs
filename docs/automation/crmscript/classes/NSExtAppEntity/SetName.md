@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtAppEntity_SetName
+title: SetName(String name)
+intellisense: NSExtAppEntity.SetName
+keywords: NSExtAppEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3384
-keywords: SetName(String)
----
-
 
 The name of the web panel
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSExtAppEntity thing;
+String name;
+thing.SetName(name);
+```
 

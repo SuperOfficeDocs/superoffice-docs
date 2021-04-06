@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebAppUsage_GetAggregateCount
 title: Integer GetAggregateCount()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Integer GetAggregateCount()
-intellisense: 1
-classref: 1
-keywords: GetAggregateCount()
+intellisense: NSWebAppUsage.GetAggregateCount
+keywords: NSWebAppUsage, GetAggregateCount
+so.topic: reference
 ---
-
 
 Number of times the specific soprotocol is accessed
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWebAppUsage thing;
+Integer aggregateCount  = thing.GetAggregateCount();
+```
 
 

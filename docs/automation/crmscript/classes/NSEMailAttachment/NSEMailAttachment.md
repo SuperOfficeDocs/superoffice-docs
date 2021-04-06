@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSEMailAttachment
 title: NSEMailAttachment
-path: /EJScript/Classes/NSEMailAttachment
-intellisense: 1
-classref: 1
-sortOrder: 2890
+intellisense: Void.NSEMailAttachment
+keywords: NSEMailAttachment
+so.topic: reference
 ---
-
 
 Information about an attachment
 
-
-
-
-1. autolist
+1. autolist 
 

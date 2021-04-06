@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketStatusEntity_GetTicketStatusId
 title: Integer GetTicketStatusId()
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/Integer GetTicketStatusId()
-intellisense: 1
-classref: 1
-keywords: GetTicketStatusId()
+intellisense: NSTicketStatusEntity.GetTicketStatusId
+keywords: NSTicketStatusEntity, GetTicketStatusId
+so.topic: reference
 ---
-
 
 The primary key (auto-incremented)
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketStatusEntity thing;
+Integer ticketStatusId  = thing.GetTicketStatusId();
+```
 
 

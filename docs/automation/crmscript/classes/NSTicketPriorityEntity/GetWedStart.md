@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketPriorityEntity_GetWedStart
 title: DateTime GetWedStart()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetWedStart()
-intellisense: 1
-classref: 1
-keywords: GetWedStart()
+intellisense: NSTicketPriorityEntity.GetWedStart
+keywords: NSTicketPriorityEntity, GetWedStart
+so.topic: reference
 ---
-
 
 The work hour start for Wednesdays. Note that only the time part of the DateTime is used
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime wedStart  = thing.GetWedStart();
+```
 
 

@@ -1,17 +1,22 @@
----
+﻿---
+uid: crmscript_ref_NSFreeText_GetMultiWordOperator
 title: Integer GetMultiWordOperator()
-path: /EJScript/Classes/NSFreeText/Member functions/Integer GetMultiWordOperator()
-intellisense: 1
-classref: 1
-sortOrder: 3856
-keywords: GetMultiWordOperator()
+intellisense: NSFreeText.GetMultiWordOperator
+keywords: NSFreeText, GetMultiWordOperator
+so.topic: reference
 ---
-
 
 Starts with, contains or exact match
 
+**Returns:** Integer
 
+     - Enum: 1 = Contains 
+     - Enum: 2 = StartsWith 
+     - Enum: 3 = ExactMatch 
 
-* **Returns:** Integer
+```crmscript
+NSFreeText thing;
+Integer multiWordOperator  = thing.GetMultiWordOperator();
+```
 
 

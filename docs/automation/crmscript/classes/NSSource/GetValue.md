@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSSource_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSSource/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-keywords: GetValue()
+intellisense: NSSource.GetValue
+keywords: NSSource, GetValue
+so.topic: reference
 ---
 
+Get the name of the Source.
 
-* **Returns:** String
+**Returns:** String Source name.
 
+```crmscript
+NSSource thing;
+String name = thing.GetValue();
+```
 

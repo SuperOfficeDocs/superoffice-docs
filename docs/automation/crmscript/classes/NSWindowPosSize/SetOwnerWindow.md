@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSWindowPosSize_SetOwnerWindow
+title: SetOwnerWindow(String ownerWindow)
+intellisense: NSWindowPosSize.SetOwnerWindow
+keywords: NSWindowPosSize, GetOwnerWindow
+so.topic: reference
 ---
-title: Void SetOwnerWindow(String OwnerWindow)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetOwnerWindow(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetOwnerWindow(String)
----
-
 
 The dialog, panel or whatever that owns this record
 
+**Parameter:** 
+ - **ownerWindow** String
 
-
-* **OwnerWindow:** String
-* **Returns:** String
-
+```crmscript
+NSWindowPosSize thing;
+String ownerWindow;
+thing.SetOwnerWindow(ownerWindow);
+```
 

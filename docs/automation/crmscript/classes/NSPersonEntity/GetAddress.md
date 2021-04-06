@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPersonEntity_GetAddress
+title: Address GetAddress()
+intellisense: NSPersonEntity.GetAddress
+keywords: NSPersonEntity, GetAddress
+so.topic: reference
 ---
-title: NSAddress GetAddress()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSAddress GetAddress()
-intellisense: 1
-classref: 1
-keywords: GetAddress()
----
-
 
 Structure holding formatted address data. The layout of the array structure indicates the layout of the localized address.
 
+**Returns:** Address
 
 
-* **Returns:** Address
+```crmscript
+NSPersonEntity thing;
+Address address  = thing.GetAddress();
+```
 
 

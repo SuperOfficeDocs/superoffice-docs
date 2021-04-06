@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSaleEntity_SetSaleText
+title: SetSaleText(String saleText)
+intellisense: NSSaleEntity.SetSaleText
+keywords: NSSaleEntity, GetSaleText
+so.topic: reference
 ---
-title: Void SetSaleText(String SaleText)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetSaleText(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetSaleText(String)
----
-
 
 Text describing the sale
 
+**Parameter:** 
+ - **saleText** String
 
-
-* **SaleText:** String
-* **Returns:** String
-
+```crmscript
+NSSaleEntity thing;
+String saleText;
+thing.SetSaleText(saleText);
+```
 

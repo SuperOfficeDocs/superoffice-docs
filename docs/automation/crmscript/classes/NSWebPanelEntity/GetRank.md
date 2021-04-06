@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSWebPanelEntity_GetRank
 title: Integer GetRank()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
-keywords: GetRank()
+intellisense: NSWebPanelEntity.GetRank
+keywords: NSWebPanelEntity, GetRank
+so.topic: reference
 ---
-
 
 The rank of the web panel
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSWebPanelEntity thing;
+Integer rank  = thing.GetRank();
+```
 
 

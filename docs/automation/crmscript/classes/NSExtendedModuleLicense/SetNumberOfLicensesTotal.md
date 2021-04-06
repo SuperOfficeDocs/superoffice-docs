@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesTotal
+title: SetNumberOfLicensesTotal(Integer numberOfLicensesTotal)
+intellisense: NSExtendedModuleLicense.SetNumberOfLicensesTotal
+keywords: NSExtendedModuleLicense, GetNumberOfLicensesTotal
+so.topic: reference
 ---
-title: Void SetNumberOfLicensesTotal(Integer NumberOfLicensesTotal)
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Void SetNumberOfLicensesTotal(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3432
-keywords: SetNumberOfLicensesTotal(Integer)
----
 
 
-* **NumberOfLicensesTotal:** Integer
-* **Returns:** Void
 
+**Parameter:** 
+ - **numberOfLicensesTotal** Integer
+
+```crmscript
+NSExtendedModuleLicense thing;
+Integer numberOfLicensesTotal;
+thing.SetNumberOfLicensesTotal(numberOfLicensesTotal);
+```
 

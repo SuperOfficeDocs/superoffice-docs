@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSUser_GetLicenseOwners
+title: LicenseOwnerArray GetLicenseOwners()
+intellisense: NSUser.GetLicenseOwners
+keywords: NSUser, GetLicenseOwners
+so.topic: reference
 ---
-title: NSLicenseOwner[] GetLicenseOwners()
-path: /EJScript/Classes/NSUser/Member functions/NSLicenseOwner[] GetLicenseOwners()
-intellisense: 1
-classref: 1
-keywords: GetLicenseOwners()
----
-
 
 The restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user
 
+**Returns:** LicenseOwnerArray
 
 
-* **Returns:** LicenseOwnerArray
+```crmscript
+NSUser thing;
+LicenseOwnerArray licenseOwners  = thing.GetLicenseOwners();
+```
 
 

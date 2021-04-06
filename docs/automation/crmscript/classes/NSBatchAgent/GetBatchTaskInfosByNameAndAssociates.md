@@ -1,19 +1,23 @@
+﻿---
+uid: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByNameAndAssociates
+title: BatchTaskInfoArray GetBatchTaskInfosByNameAndAssociates(String name, IntegerArray associateIds)
+intellisense: NSBatchAgent.GetBatchTaskInfosByNameAndAssociates
+keywords: NSBatchAgent, GetBatchTaskInfosByNameAndAssociates
+so.topic: reference
 ---
-title: NSBatchTaskInfo[] GetBatchTaskInfosByNameAndAssociates(String name, Integer[] associateIds)
-path: /EJScript/Classes/NSBatchAgent/Member functions/NSBatchTaskInfo[] GetBatchTaskInfosByNameAndAssociates(String p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
-sortOrder: 1357
-keywords: GetBatchTaskInfosByNameAndAssociates(String,Integer[])
----
-
 
 Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.
 
+**Parameters:**
+ - **name** Batchtask definition name.
+ - **associateIds** Array of associate id's.
 
+**Returns:** Returns an array of BatchTaskInfo.
 
-* **name:** Batchtask definition name.
-* **associateIds:** Array of associate id's.
-* **Returns:** Returns an array of BatchTaskInfo.
-
+```crmscript
+NSBatchAgent agent;
+String name;
+IntegerArray associateIds;
+BatchTaskInfoArray res = agent.GetBatchTaskInfosByNameAndAssociates(name, associateIds);
+```
 

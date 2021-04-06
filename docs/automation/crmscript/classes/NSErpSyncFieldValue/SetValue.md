@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSErpSyncFieldValue_SetValue
+title: SetValue(String value)
+intellisense: NSErpSyncFieldValue.SetValue
+keywords: NSErpSyncFieldValue, GetValue
+so.topic: reference
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSErpSyncFieldValue/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3336
-keywords: SetValue(String)
----
 
 
-* **Value:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **value** String
+
+```crmscript
+NSErpSyncFieldValue thing;
+String value;
+thing.SetValue(value);
+```
 

@@ -1,12 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSReasonStalled_GetId
 title: Integer GetId()
-path: /EJScript/Classes/NSReasonStalled/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
-keywords: GetId()
+intellisense: NSReasonStalled.GetId
+keywords: NSReasonStalled, GetId
+so.topic: reference
 ---
 
+Get the primary key (id) for the ReasonStalled
 
-* **Returns:** Integer
+**Returns:** Integer ReasonStalled id.
 
+```crmscript
+NSReasonStalled thing;
+Integer id = thing.GetId();
+```
 

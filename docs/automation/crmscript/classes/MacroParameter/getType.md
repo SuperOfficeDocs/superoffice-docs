@@ -1,10 +1,10 @@
 ---
-title: String getType()
-path: /EJScript/Classes/MacroParameter/Member functions/String getType()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_MacroParameter_getType
+title: MacroParameter.getType()
+intellisense: MacroParameter.getType
 sortOrder: 485
 keywords: getType()
+so.topic: reference
 ---
 
 This function returns the type of the parameter.

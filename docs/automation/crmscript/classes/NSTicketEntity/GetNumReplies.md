@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketEntity_GetNumReplies
 title: Integer GetNumReplies()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetNumReplies()
-intellisense: 1
-classref: 1
-keywords: GetNumReplies()
+intellisense: NSTicketEntity.GetNumReplies
+keywords: NSTicketEntity, GetNumReplies
+so.topic: reference
 ---
-
 
 The number of replies (messages) to the customer for this request.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSTicketEntity thing;
+Integer numReplies  = thing.GetNumReplies();
+```
 
 

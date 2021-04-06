@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSEventData_GetNavigateTo
 title: String GetNavigateTo()
-path: /EJScript/Classes/NSEventData/Member functions/String GetNavigateTo()
-intellisense: 1
-classref: 1
-sortOrder: 3343
-keywords: GetNavigateTo()
+intellisense: NSEventData.GetNavigateTo
+keywords: NSEventData, GetNavigateTo
+so.topic: reference
 ---
-
 
 Where the context should naviate afterwards
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSEventData thing;
+String navigateTo  = thing.GetNavigateTo();
+```
 
 

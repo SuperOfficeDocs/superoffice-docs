@@ -1,9 +1,9 @@
 ---
-title: Bool GetChangeCompanyOurContact()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Bool GetChangeCompanyOurContact()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSSelectionMemberEditValues_GetChangeCompanyOurContact
+title: NSSelectionMemberEditValues.GetChangeCompanyOurContact()
+intellisense: NSSelectionMemberEditValues.GetChangeCompanyOurContact
 keywords: GetChangeCompanyOurContact()
+so.topic: reference
 ---
 
 

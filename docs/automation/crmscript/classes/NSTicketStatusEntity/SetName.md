@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTicketStatusEntity_SetName
+title: SetName(String name)
+intellisense: NSTicketStatusEntity.SetName
+keywords: NSTicketStatusEntity, GetName
+so.topic: reference
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetName(String)
----
-
 
 Name of user defined ticket status
 
+**Parameter:** 
+ - **name** String
 
-
-* **Name:** String
-* **Returns:** String
-
+```crmscript
+NSTicketStatusEntity thing;
+String name;
+thing.SetName(name);
+```
 

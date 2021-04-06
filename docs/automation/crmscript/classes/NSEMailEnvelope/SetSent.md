@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailEnvelope_SetSent
+title: SetSent(DateTime sent)
+intellisense: NSEMailEnvelope.SetSent
+keywords: NSEMailEnvelope, GetSent
+so.topic: reference
 ---
-title: Void SetSent(DateTime Sent)
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Void SetSent(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3021
-keywords: SetSent(DateTime)
----
-
 
 When was the e-mail sent
 
+**Parameter:** 
+ - **sent** DateTime
 
-
-* **Sent:** DateTime
-* **Returns:** DateTime
-
+```crmscript
+NSEMailEnvelope thing;
+DateTime sent;
+thing.SetSent(sent);
+```
 

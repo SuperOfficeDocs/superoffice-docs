@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetDepartment
+title: NSDepartment GetDepartment(Integer departmentId);
+intellisense: NSListAgent.GetDepartment
+keywords: NSListAgent, GetDepartment
+so.topic: reference
 ---
-title: NSDepartment GetDepartment(Integer departmentId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDepartment GetDepartment(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetDepartment(Integer)
----
 
+Gets a NSDepartment object.
 
-Gets a Department object.
+**Parameters:**
+ - **departmentId** The identifier of the NSDepartment object
 
+**Returns:** NSDepartment
 
-
-* **departmentId:** The identifier of the Department object
-* **Returns:** Department
-
+```crmscript
+NSListAgent agent;
+NSDepartment thing = agent.GetDepartment(123);
+```
 

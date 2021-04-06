@@ -1,9 +1,9 @@
 ---
 description: Byte[] simpleTwoWay(Byte[] data)
-path: /EJScript/Global functions/Byte[] simpleTwoWay(Byte[] data)
-intellisense: 1
+intellisense: Void.simpleTwoWay
 langref: 1
 keywords: simpleTwoWay(Byte[])
+so.topic: reference
 ---
 
 

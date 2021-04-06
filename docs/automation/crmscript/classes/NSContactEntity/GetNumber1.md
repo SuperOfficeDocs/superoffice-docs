@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactEntity_GetNumber1
 title: String GetNumber1()
-path: /EJScript/Classes/NSContactEntity/Member functions/String GetNumber1()
-intellisense: 1
-classref: 1
-sortOrder: 1872
-keywords: GetNumber1()
+intellisense: NSContactEntity.GetNumber1
+keywords: NSContactEntity, GetNumber1
+so.topic: reference
 ---
-
 
 Alphanumeric user field
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSContactEntity thing;
+String number1  = thing.GetNumber1();
+```
 
 

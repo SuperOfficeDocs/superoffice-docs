@@ -1,9 +1,9 @@
 ---
-title: Void SetDescriptionStyleHint(String p0)
-path: /EJScript/Classes/NSRecurrenceDate/Member functions/Void SetDescriptionStyleHint(String p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSRecurrenceDate_SetDescriptionStyleHint_String_p_0
+title: NSRecurrenceDate.SetDescriptionStyleHint(String p_0)
+intellisense: NSRecurrenceDate.SetDescriptionStyleHint
 keywords: SetDescriptionStyleHint(String)
+so.topic: reference
 ---
 
 

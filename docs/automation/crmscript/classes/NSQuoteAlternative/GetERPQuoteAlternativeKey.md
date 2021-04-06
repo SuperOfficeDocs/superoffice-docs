@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAlternative_GetERPQuoteAlternativeKey
 title: String GetERPQuoteAlternativeKey()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/String GetERPQuoteAlternativeKey()
-intellisense: 1
-classref: 1
-keywords: GetERPQuoteAlternativeKey()
+intellisense: NSQuoteAlternative.GetERPQuoteAlternativeKey
+keywords: NSQuoteAlternative, GetERPQuoteAlternativeKey
+so.topic: reference
 ---
-
 
 Key that identifies this alternative in the ERP system, if it exists there.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSQuoteAlternative thing;
+String eRPQuoteAlternativeKey  = thing.GetERPQuoteAlternativeKey();
+```
 
 

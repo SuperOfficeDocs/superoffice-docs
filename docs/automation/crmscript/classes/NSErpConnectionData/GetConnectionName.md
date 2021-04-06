@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSErpConnectionData_GetConnectionName
 title: String GetConnectionName()
-path: /EJScript/Classes/NSErpConnectionData/Member functions/String GetConnectionName()
-intellisense: 1
-classref: 1
-sortOrder: 3113
-keywords: GetConnectionName()
+intellisense: NSErpConnectionData.GetConnectionName
+keywords: NSErpConnectionData, GetConnectionName
+so.topic: reference
 ---
-
 
 The name of the connection
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSErpConnectionData thing;
+String connectionName  = thing.GetConnectionName();
+```
 
 

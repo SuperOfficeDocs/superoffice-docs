@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSFieldInfoLongText
 title: NSFieldInfoLongText
-path: /EJScript/Classes/NSFieldInfoLongText
-intellisense: 1
-classref: 1
-sortOrder: 3517
+intellisense: Void.NSFieldInfoLongText
+keywords: NSFieldInfoLongText
+so.topic: reference
 ---
-
 
 Long Text custom database field.
 
-
-
-
-1. autolist
+1. autolist 
 

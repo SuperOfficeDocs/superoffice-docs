@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAudienceLayoutEntity_GetInstanceName
 title: String GetInstanceName()
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/String GetInstanceName()
-intellisense: 1
-classref: 1
-sortOrder: 1341
-keywords: GetInstanceName()
+intellisense: NSAudienceLayoutEntity.GetInstanceName
+keywords: NSAudienceLayoutEntity, GetInstanceName
+so.topic: reference
 ---
-
 
 Name of the layout instance
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSAudienceLayoutEntity thing;
+String instanceName  = thing.GetInstanceName();
+```
 
 

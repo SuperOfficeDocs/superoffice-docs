@@ -1,18 +1,23 @@
----
+﻿---
+uid: crmscript_ref_NSQuoteAgent_CanConnectorProvideCapability
 title: Bool CanConnectorProvideCapability(Integer quoteConnectionId, String capabilityName)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Bool CanConnectorProvideCapability(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
-keywords: CanConnectorProvideCapability(Integer,String)
+intellisense: NSQuoteAgent.CanConnectorProvideCapability
+keywords: NSQuoteAgent, CanConnectorProvideCapability
+so.topic: reference
 ---
-
 
 Can the connector provide the capability
 
+**Parameters:**
+ - **quoteConnectionId** Primary key of the connection
+ - **capabilityName** Capability name
 
+**Returns:** Capability name
 
-* **quoteConnectionId:** Primary key of the connection
-* **capabilityName:** Capability name
-* **Returns:** Capability name
-
+```crmscript
+NSQuoteAgent agent;
+Integer quoteConnectionId;
+String capabilityName;
+Bool res = agent.CanConnectorProvideCapability(quoteConnectionId, capabilityName);
+```
 

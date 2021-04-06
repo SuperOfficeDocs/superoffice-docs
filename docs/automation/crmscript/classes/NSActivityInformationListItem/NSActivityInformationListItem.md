@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSActivityInformationListItem
 title: NSActivityInformationListItem
-path: /EJScript/Classes/NSActivityInformationListItem
-intellisense: 1
-classref: 1
-sortOrder: 579
+intellisense: Void.NSActivityInformationListItem
+keywords: NSActivityInformationListItem
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

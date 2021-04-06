@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSBatchTaskInfo_SetAssociateId
+title: SetAssociateId(Integer associateId)
+intellisense: NSBatchTaskInfo.SetAssociateId
+keywords: NSBatchTaskInfo, GetAssociateId
+so.topic: reference
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1385
-keywords: SetAssociateId(Integer)
----
 
+ Task owner. If it is a System task, AssociateId = 0.
 
-Task owner. If it is a System task, AssociateId = 0.
+**Parameter:** 
+ - **associateId** Integer
 
-
-
-* **AssociateId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSBatchTaskInfo thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
 

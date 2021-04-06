@@ -1,12 +1,12 @@
+﻿---
+uid: crmscript_ref_NSProjectAgent_OfferAutoNextStatusOnApppointmentCompleted
+title: Bool OfferAutoNextStatusOnApppointmentCompleted(Integer appointmentId)
+intellisense: NSProjectAgent.OfferAutoNextStatusOnApppointmentCompleted
+keywords: NSProjectAgent, OfferAutoNextStatusOnApppointmentCompleted
+so.topic: reference
 ---
-title: Bool OfferAutoNextStatusOnApppointmentCompleted(Integer p0)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Bool OfferAutoNextStatusOnApppointmentCompleted(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: OfferAutoNextStatusOnApppointmentCompleted(Integer)
----
 
 
-* **appointmentId**
 
-
+**Parameters:**
+ - **appointmentId** 

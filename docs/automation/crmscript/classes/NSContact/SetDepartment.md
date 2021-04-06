@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContact_SetDepartment
+title: SetDepartment(String department)
+intellisense: NSContact.SetDepartment
+keywords: NSContact, GetDepartment
+so.topic: reference
 ---
-title: Void SetDepartment(String Department)
-path: /EJScript/Classes/NSContact/Member functions/Void SetDepartment(String p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1752
-keywords: SetDepartment(String)
----
-
 
 Department
 
+**Parameter:** 
+ - **department** String
 
-
-* **Department:** String
-* **Returns:** String
-
+```crmscript
+NSContact thing;
+String department;
+thing.SetDepartment(department);
+```
 

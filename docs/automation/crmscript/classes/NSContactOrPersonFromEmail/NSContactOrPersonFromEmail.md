@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSContactOrPersonFromEmail
 title: NSContactOrPersonFromEmail
-path: /EJScript/Classes/NSContactOrPersonFromEmail
-intellisense: 1
-classref: 1
-sortOrder: 1918
+intellisense: Void.NSContactOrPersonFromEmail
+keywords: NSContactOrPersonFromEmail
+so.topic: reference
 ---
 
 
 
-
-
-
-1. autolist
+1. autolist 
 

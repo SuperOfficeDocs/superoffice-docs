@@ -1,12 +1,19 @@
----
-title: String[] GetMessenger()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetMessenger()
-intellisense: 1
-classref: 1
-keywords: GetMessenger()
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_GetMessenger
+title: StringArray GetMessenger()
+intellisense: NSParticipantSyncData.GetMessenger
+keywords: NSParticipantSyncData, GetMessenger
+so.topic: reference
 ---
 
 
-* **Returns:** StringArray
+
+**Returns:** StringArray
+
+
+```crmscript
+NSParticipantSyncData thing;
+StringArray messenger  = thing.GetMessenger();
+```
 
 

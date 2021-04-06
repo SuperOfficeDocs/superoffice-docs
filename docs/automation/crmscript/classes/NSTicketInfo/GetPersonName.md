@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTicketInfo_GetPersonName
 title: String GetPersonName()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetPersonName()
-intellisense: 1
-classref: 1
-keywords: GetPersonName()
+intellisense: NSTicketInfo.GetPersonName
+keywords: NSTicketInfo, GetPersonName
+so.topic: reference
 ---
-
 
 The name of the person/customer connected to the ticket
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSTicketInfo thing;
+String personName  = thing.GetPersonName();
+```
 
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteEntity_SetOrderComment
+title: SetOrderComment(String orderComment)
+intellisense: NSQuoteEntity.SetOrderComment
+keywords: NSQuoteEntity, GetOrderComment
+so.topic: reference
 ---
-title: Void SetOrderComment(String OrderComment)
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Void SetOrderComment(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetOrderComment(String)
----
-
 
 A comment that is intended for the Invoice, Order, Packing list and similar stages - AFTER the quote has become an order and goes to ERP for processing
 
+**Parameter:** 
+ - **orderComment** String
 
-
-* **OrderComment:** String
-* **Returns:** String
-
+```crmscript
+NSQuoteEntity thing;
+String orderComment;
+thing.SetOrderComment(orderComment);
+```
 

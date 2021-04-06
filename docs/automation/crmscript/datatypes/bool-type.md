@@ -1,6 +1,6 @@
 ---
-title: crmscript_datatypes_bool
-description: Bool data type
+uid: crmscript_datatypes_bool
+title: Bool data type
 author:
 so.date:
 keywords:

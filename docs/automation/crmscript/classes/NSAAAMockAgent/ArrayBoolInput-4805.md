@@ -1,10 +1,10 @@
 ---
-title: Void ArrayBoolInput(NSBoolean[] boolArrayArgument)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void ArrayBoolInput(NSBoolean[] p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSAAAMockAgent_ArrayBoolInput_NSBoolean__p_0
+title: NSAAAMockAgent.ArrayBoolInput(NSBoolean[] p_0)
+intellisense: NSAAAMockAgent.ArrayBoolInput
 sortOrder: 8900
 keywords: ArrayBoolInput(NSBoolean[])
+so.topic: reference
 ---
 
 

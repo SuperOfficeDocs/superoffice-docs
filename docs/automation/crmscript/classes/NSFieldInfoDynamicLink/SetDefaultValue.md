@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultValue(Integer DefaultValue)
-path: /EJScript/Classes/NSFieldInfoDynamicLink/Member functions/Void SetDefaultValue(Integer p_0)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_NSFieldInfoDynamicLink_SetDefaultValue_Integer_p_0
+title: NSFieldInfoDynamicLink.SetDefaultValue(Integer p_0)
+intellisense: NSFieldInfoDynamicLink.SetDefaultValue
 sortOrder: 3512
 keywords: SetDefaultValue(Integer)
+so.topic: reference
 ---
 
 

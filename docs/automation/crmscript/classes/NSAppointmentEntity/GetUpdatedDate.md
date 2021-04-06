@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentEntity_GetUpdatedDate
 title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
-sortOrder: 938
-keywords: GetUpdatedDate()
+intellisense: NSAppointmentEntity.GetUpdatedDate
+keywords: NSAppointmentEntity, GetUpdatedDate
+so.topic: reference
 ---
-
 
 Updated date
 
+**Returns:** DateTime
 
 
-* **Returns:** DateTime
+```crmscript
+NSAppointmentEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
 
 

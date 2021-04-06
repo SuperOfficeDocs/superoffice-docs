@@ -1,13 +1,17 @@
----
+﻿---
+uid: crmscript_ref_NSDepartment_GetValue
 title: String GetValue()
-path: /EJScript/Classes/NSDepartment/Member functions/String GetValue()
-intellisense: 1
-classref: 1
-sortOrder: 2384
-keywords: GetValue()
+intellisense: NSDepartment.GetValue
+keywords: NSDepartment, GetValue
+so.topic: reference
 ---
 
+Get the name of the Department.
 
-* **Returns:** String
+**Returns:** String Department name.
 
+```crmscript
+NSDepartment thing;
+String name = thing.GetValue();
+```
 

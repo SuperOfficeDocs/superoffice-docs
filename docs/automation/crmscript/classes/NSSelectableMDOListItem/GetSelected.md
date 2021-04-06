@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSSelectableMDOListItem_GetSelected
 title: Bool GetSelected()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Bool GetSelected()
-intellisense: 1
-classref: 1
-keywords: GetSelected()
+intellisense: NSSelectableMDOListItem.GetSelected
+keywords: NSSelectableMDOListItem, GetSelected
+so.topic: reference
 ---
-
 
 True if the ListItem is selected
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSSelectableMDOListItem thing;
+Bool selected  = thing.GetSelected();
+```
 
 

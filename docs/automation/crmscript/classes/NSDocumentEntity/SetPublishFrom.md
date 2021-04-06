@@ -1,14 +1,13 @@
+﻿---
+uid: crmscript_ref_NSDocumentEntity_SetPublishFrom
+title: SetPublishFrom(DateTime publishFrom)
+intellisense: NSDocumentEntity.SetPublishFrom
+keywords: NSDocumentEntity, SetPublishFrom
+so.topic: reference
 ---
-title: Void SetPublishFrom(DateTime fields)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetPublishFrom(DateTime p_0)
-intellisense: 1
-classref: 1
-sortOrder: 2608
-keywords: SetPublishFrom(DateTime)
----
 
+Set the publish from date on a DocumentEntity.
 
-* **fields:** DateTime
-* **Returns:** Void
-
+**Parameter:** 
+ - **publishFrom** DateTime.
 

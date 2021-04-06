@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSReplicationAgent_GetArea
+title: NSArea GetArea(Integer areaId);
+intellisense: NSReplicationAgent.GetArea
+keywords: NSReplicationAgent, GetArea
+so.topic: reference
 ---
-title: NSArea GetArea(Integer areaId)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSArea GetArea(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetArea(Integer)
----
 
+Gets a NSArea object.
 
-Gets a Area object.
+**Parameters:**
+ - **areaId** The identifier of the NSArea object
 
+**Returns:** NSArea
 
-
-* **areaId:** The identifier of the Area object
-* **Returns:** Area
-
+```crmscript
+NSReplicationAgent agent;
+NSArea thing = agent.GetArea(123);
+```
 

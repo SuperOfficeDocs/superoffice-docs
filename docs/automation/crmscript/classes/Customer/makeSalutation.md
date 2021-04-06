@@ -1,10 +1,10 @@
 ---
-title: String makeSalutation()
-path: /EJScript/Classes/Customer/Member functions/String makeSalutation()
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Customer_makeSalutation
+title: Customer.makeSalutation()
+intellisense: Customer.makeSalutation
 sortOrder: 185
 keywords: makeSalutation()
+so.topic: reference
 ---
 
 Create a salutation greeting the customer. Can be used in the beginning of a document or email.

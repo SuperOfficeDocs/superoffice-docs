@@ -1,14 +1,19 @@
+﻿---
+uid: crmscript_ref_NSContactEntity_SetTicketPriority
+title: SetTicketPriority(TicketPriority ticketPriority)
+intellisense: NSContactEntity.SetTicketPriority
+keywords: NSContactEntity, GetTicketPriority
+so.topic: reference
 ---
-title: Void SetTicketPriority(NSTicketPriority TicketPriority)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetTicketPriority(NSTicketPriority p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1912
-keywords: SetTicketPriority(NSTicketPriority)
----
 
 
-* **TicketPriority:** TicketPriority
-* **Returns:** TicketPriority
 
+**Parameter:** 
+ - **ticketPriority** TicketPriority
+
+```crmscript
+NSContactEntity thing;
+TicketPriority ticketPriority;
+thing.SetTicketPriority(ticketPriority);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedDocumentEntity_SetProjectTypeStatusLink
+title: SetProjectTypeStatusLink(ProjectTypeStatusLink projectTypeStatusLink)
+intellisense: NSSuggestedDocumentEntity.SetProjectTypeStatusLink
+keywords: NSSuggestedDocumentEntity, GetProjectTypeStatusLink
+so.topic: reference
 ---
-title: Void SetProjectTypeStatusLink(NSProjectTypeStatusLink ProjectTypeStatusLink)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetProjectTypeStatusLink(NSProjectTypeStatusLink p_0)
-intellisense: 1
-classref: 1
-keywords: SetProjectTypeStatusLink(NSProjectTypeStatusLink)
----
-
 
 Project type and project status link info
 
+**Parameter:** 
+ - **projectTypeStatusLink** ProjectTypeStatusLink
 
-
-* **ProjectTypeStatusLink:** ProjectTypeStatusLink
-* **Returns:** ProjectTypeStatusLink
-
+```crmscript
+NSSuggestedDocumentEntity thing;
+ProjectTypeStatusLink projectTypeStatusLink;
+thing.SetProjectTypeStatusLink(projectTypeStatusLink);
+```
 

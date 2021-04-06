@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSTileData_SetColumns
+title: SetColumns(ArchiveColumnInfoArray columns)
+intellisense: NSTileData.SetColumns
+keywords: NSTileData, GetColumns
+so.topic: reference
 ---
-title: Void SetColumns(NSArchiveColumnInfo[] Columns)
-path: /EJScript/Classes/NSTileData/Member functions/Void SetColumns(NSArchiveColumnInfo[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetColumns(NSArchiveColumnInfo[])
----
-
 
 Column information
 
+**Parameter:** 
+ - **columns** ArchiveColumnInfoArray
 
-
-* **Columns:** ArchiveColumnInfoArray
-* **Returns:** ArchiveColumnInfoArray
-
+```crmscript
+NSTileData thing;
+ArchiveColumnInfoArray columns;
+thing.SetColumns(columns);
+```
 

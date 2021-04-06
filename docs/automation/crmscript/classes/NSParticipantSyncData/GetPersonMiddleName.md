@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_GetPersonMiddleName
 title: String GetPersonMiddleName()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetPersonMiddleName()
-intellisense: 1
-classref: 1
-keywords: GetPersonMiddleName()
+intellisense: NSParticipantSyncData.GetPersonMiddleName
+keywords: NSParticipantSyncData, GetPersonMiddleName
+so.topic: reference
 ---
-
 
 Middle name or 'van' etc.
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSParticipantSyncData thing;
+String personMiddleName  = thing.GetPersonMiddleName();
+```
 
 

@@ -1,18 +1,21 @@
----
+﻿---
+uid: crmscript_ref_NSFreeTextAgent_SetAutoEnableTravelAreas
 title: Void SetAutoEnableTravelAreas(Bool autoEnable)
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/Void SetAutoEnableTravelAreas(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3874
-keywords: SetAutoEnableTravelAreas(Bool)
+intellisense: NSFreeTextAgent.SetAutoEnableTravelAreas
+keywords: NSFreeTextAgent, SetAutoEnableTravelAreas
+so.topic: reference
 ---
-
 
 Automatically enable freetext search for new travel areas? true or false
 
+**Parameters:**
+ - **autoEnable** If true, auto enable
 
+**Returns:** This method has no return value
 
-* **autoEnable:** If true, auto enable
-* **Returns:** This method has no return value
-
+```crmscript
+NSFreeTextAgent agent;
+Bool autoEnable;
+Void res = agent.SetAutoEnableTravelAreas(autoEnable);
+```
 

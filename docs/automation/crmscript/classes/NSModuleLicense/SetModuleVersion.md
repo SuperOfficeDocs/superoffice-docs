@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSModuleLicense_SetModuleVersion
+title: SetModuleVersion(String moduleVersion)
+intellisense: NSModuleLicense.SetModuleVersion
+keywords: NSModuleLicense, GetModuleVersion
+so.topic: reference
 ---
-title: Void SetModuleVersion(String ModuleVersion)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetModuleVersion(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetModuleVersion(String)
----
-
 
 Version string for this module
 
+**Parameter:** 
+ - **moduleVersion** String
 
-
-* **ModuleVersion:** String
-* **Returns:** String
-
+```crmscript
+NSModuleLicense thing;
+String moduleVersion;
+thing.SetModuleVersion(moduleVersion);
+```
 

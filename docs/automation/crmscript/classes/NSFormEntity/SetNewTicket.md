@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSFormEntity_SetNewTicket
+title: SetNewTicket(Bool newTicket)
+intellisense: NSFormEntity.SetNewTicket
+keywords: NSFormEntity, GetNewTicket
+so.topic: reference
 ---
-title: Void SetNewTicket(Bool NewTicket)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetNewTicket(Bool p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3817
-keywords: SetNewTicket(Bool)
----
-
 
 Indicates if this form creates a ticket or not
 
+**Parameter:** 
+ - **newTicket** Bool
 
-
-* **NewTicket:** Bool
-* **Returns:** Bool
-
+```crmscript
+NSFormEntity thing;
+Bool newTicket;
+thing.SetNewTicket(newTicket);
+```
 

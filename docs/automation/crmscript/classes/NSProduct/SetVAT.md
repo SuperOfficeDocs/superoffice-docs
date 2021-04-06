@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSProduct_SetVAT
+title: SetVAT(Float vAT)
+intellisense: NSProduct.SetVAT
+keywords: NSProduct, GetVAT
+so.topic: reference
 ---
-title: Void SetVAT(Float VAT)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetVAT(Float p_0)
-intellisense: 1
-classref: 1
-keywords: SetVAT(Float)
----
-
 
 Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI.
 
+**Parameter:** 
+ - **vAT** Float
 
-
-* **VAT:** Float
-* **Returns:** Float
-
+```crmscript
+NSProduct thing;
+Float vAT;
+thing.SetVAT(vAT);
+```
 

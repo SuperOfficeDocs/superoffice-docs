@@ -1,16 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRedLetterDetails_GetOtherCountryDayTexts
+title: StringArray GetOtherCountryDayTexts()
+intellisense: NSRedLetterDetails.GetOtherCountryDayTexts
+keywords: NSRedLetterDetails, GetOtherCountryDayTexts
+so.topic: reference
 ---
-title: String[] GetOtherCountryDayTexts()
-path: /EJScript/Classes/NSRedLetterDetails/Member functions/String[] GetOtherCountryDayTexts()
-intellisense: 1
-classref: 1
-keywords: GetOtherCountryDayTexts()
----
-
 
 Red letter day texts for other countries than the associates' own country
 
+**Returns:** StringArray
 
 
-* **Returns:** StringArray
+```crmscript
+NSRedLetterDetails thing;
+StringArray otherCountryDayTexts  = thing.GetOtherCountryDayTexts();
+```
 
 

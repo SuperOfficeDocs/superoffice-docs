@@ -1,13 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetContactFullName
+title: SetContactFullName(String contactFullName)
+intellisense: NSParticipantSyncData.SetContactFullName
+keywords: NSParticipantSyncData, GetContactFullName
+so.topic: reference
 ---
-title: Void SetContactFullName(String ContactFullName)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetContactFullName(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetContactFullName(String)
----
 
 
-* **ContactFullName:** String
-* **Returns:** String
 
+**Parameter:** 
+ - **contactFullName** String
+
+```crmscript
+NSParticipantSyncData thing;
+String contactFullName;
+thing.SetContactFullName(contactFullName);
+```
 

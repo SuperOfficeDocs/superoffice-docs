@@ -1,17 +1,20 @@
+﻿---
+uid: crmscript_ref_NSListAgent_GetSaleStageEntity
+title: NSSaleStageEntity GetSaleStageEntity(Integer saleStageEntityId);
+intellisense: NSListAgent.GetSaleStageEntity
+keywords: NSListAgent, GetSaleStageEntity
+so.topic: reference
 ---
-title: NSSaleStageEntity GetSaleStageEntity(Integer saleStageEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleStageEntity GetSaleStageEntity(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: GetSaleStageEntity(Integer)
----
 
+Gets a NSSaleStageEntity object.
 
-Gets a SaleStageEntity object.
+**Parameters:**
+ - **saleStageEntityId** The identifier of the NSSaleStageEntity object
 
+**Returns:** NSSaleStageEntity
 
-
-* **saleStageEntityId:** The identifier of the SaleStageEntity object
-* **Returns:** SaleStageEntity
-
+```crmscript
+NSListAgent agent;
+NSSaleStageEntity thing = agent.GetSaleStageEntity(123);
+```
 

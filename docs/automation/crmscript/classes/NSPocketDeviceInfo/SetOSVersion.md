@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPocketDeviceInfo_SetOSVersion
+title: SetOSVersion(String oSVersion)
+intellisense: NSPocketDeviceInfo.SetOSVersion
+keywords: NSPocketDeviceInfo, GetOSVersion
+so.topic: reference
 ---
-title: Void SetOSVersion(String OSVersion)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetOSVersion(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetOSVersion(String)
----
-
 
 The operating system version. Ex: 'iOS v10.2'
 
+**Parameter:** 
+ - **oSVersion** String
 
-
-* **OSVersion:** String
-* **Returns:** String
-
+```crmscript
+NSPocketDeviceInfo thing;
+String oSVersion;
+thing.SetOSVersion(oSVersion);
+```
 

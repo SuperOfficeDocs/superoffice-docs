@@ -1,16 +1,18 @@
+﻿---
+uid: crmscript_ref_NSQuoteAgent_DeleteProduct
+title: DeleteProduct(Integer product);
+intellisense: NSQuoteAgent.DeleteProduct
+keywords: NSQuoteAgent, DeleteProduct
+so.topic: reference
 ---
-title: Void DeleteProduct(Integer productId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void DeleteProduct(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: DeleteProduct(Integer)
----
 
+Deletes the NSProduct
+  
+**Parameters:**
+ - **productId** The identity of the Product to delete.
 
-Deletes the Product
-
-
-
-* **productId:** The identity of the Product
-
+```crmscript
+NSQuoteAgent agent;
+agent.DeleteProduct(123);
+```
 

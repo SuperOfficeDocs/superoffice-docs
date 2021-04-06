@@ -1,15 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSLink
 title: NSLink
-path: /EJScript/Classes/NSLink
-intellisense: 1
-classref: 1
+intellisense: Void.NSLink
+keywords: NSLink
+so.topic: reference
 ---
-
 
 Links two entities (contacts/projects/sales/URLs) together.
 
-
-
-
-1. autolist
+1. autolist 
 

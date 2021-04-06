@@ -1,12 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSOperationInfo_GetKey
 title: String GetKey()
-path: /EJScript/Classes/NSOperationInfo/Member functions/String GetKey()
-intellisense: 1
-classref: 1
-keywords: GetKey()
+intellisense: NSOperationInfo.GetKey
+keywords: NSOperationInfo, GetKey
+so.topic: reference
 ---
 
 
-* **Returns:** String
+
+**Returns:** String
+
+
+```crmscript
+NSOperationInfo thing;
+String key  = thing.GetKey();
+```
 
 

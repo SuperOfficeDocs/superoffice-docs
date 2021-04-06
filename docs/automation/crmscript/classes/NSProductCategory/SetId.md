@@ -1,13 +1,18 @@
+﻿---
+uid: crmscript_ref_NSProductCategory_SetId
+title: SetId(Integer id)
+intellisense: NSProductCategory.SetId
+keywords: NSProductCategory, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSProductCategory/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the ProductCategory
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer ProductCategory id.
 
+```crmscript
+NSProductCategory thing;
+thing.SetId(123);
+```
 

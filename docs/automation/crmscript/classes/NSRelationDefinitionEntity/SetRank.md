@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSRelationDefinitionEntity_SetRank
+title: SetRank(Integer rank)
+intellisense: NSRelationDefinitionEntity.SetRank
+keywords: NSRelationDefinitionEntity, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
 
+Rank order 
 
-Rank order
+**Parameter:** 
+ - **rank** Integer
 
-
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSRelationDefinitionEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

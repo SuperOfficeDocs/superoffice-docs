@@ -1,13 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSArea_GetNumberOfLogins
 title: Integer GetNumberOfLogins()
-path: /EJScript/Classes/NSArea/Member functions/Integer GetNumberOfLogins()
-intellisense: 1
-classref: 1
-sortOrder: 1243
-keywords: GetNumberOfLogins()
+intellisense: NSArea.GetNumberOfLogins
+keywords: NSArea, GetNumberOfLogins
+so.topic: reference
 ---
 
 
-* **Returns:** Integer
+
+**Returns:** Integer
+
+
+```crmscript
+NSArea thing;
+Integer numberOfLogins  = thing.GetNumberOfLogins();
+```
 
 

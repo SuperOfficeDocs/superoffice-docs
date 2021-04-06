@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSVersionInfo_SetExternalReference
+title: SetExternalReference(String externalReference)
+intellisense: NSVersionInfo.SetExternalReference
+keywords: NSVersionInfo, GetExternalReference
+so.topic: reference
 ---
-title: Void SetExternalReference(String ExternalReference)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetExternalReference(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetExternalReference(String)
----
-
 
 The document plugin's key that uniquely identifies a document; stored in the externalReference field of the document table
 
+**Parameter:** 
+ - **externalReference** String
 
-
-* **ExternalReference:** String
-* **Returns:** String
-
+```crmscript
+NSVersionInfo thing;
+String externalReference;
+thing.SetExternalReference(externalReference);
+```
 

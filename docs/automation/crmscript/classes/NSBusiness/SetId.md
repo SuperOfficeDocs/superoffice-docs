@@ -1,14 +1,18 @@
+﻿---
+uid: crmscript_ref_NSBusiness_SetId
+title: SetId(Integer id)
+intellisense: NSBusiness.SetId
+keywords: NSBusiness, SetId
+so.topic: reference
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSBusiness/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 1481
-keywords: SetId(Integer)
----
 
+Set the primary key (id) for the Business
 
-* **id:** Integer
-* **Returns:** Void
+**Parameter:** 
+ - **id** Integer Business id.
 
+```crmscript
+NSBusiness thing;
+thing.SetId(123);
+```
 

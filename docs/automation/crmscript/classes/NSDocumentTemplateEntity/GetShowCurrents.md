@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSDocumentTemplateEntity_GetShowCurrents
 title: Bool GetShowCurrents()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Bool GetShowCurrents()
-intellisense: 1
-classref: 1
-sortOrder: 2654
-keywords: GetShowCurrents()
+intellisense: NSDocumentTemplateEntity.GetShowCurrents
+keywords: NSDocumentTemplateEntity, GetShowCurrents
+so.topic: reference
 ---
-
 
 True if when using this template there should be shown a place for editing current choices of person, compant, sale, project etc
 
+**Returns:** Bool
 
 
-* **Returns:** Bool
+```crmscript
+NSDocumentTemplateEntity thing;
+Bool showCurrents  = thing.GetShowCurrents();
+```
 
 

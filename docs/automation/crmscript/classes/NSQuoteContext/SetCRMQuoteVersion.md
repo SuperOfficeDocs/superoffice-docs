@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSQuoteContext_SetCRMQuoteVersion
+title: SetCRMQuoteVersion(QuoteVersion cRMQuoteVersion)
+intellisense: NSQuoteContext.SetCRMQuoteVersion
+keywords: NSQuoteContext, GetCRMQuoteVersion
+so.topic: reference
 ---
-title: Void SetCRMQuoteVersion(NSQuoteVersion CRMQuoteVersion)
-path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetCRMQuoteVersion(NSQuoteVersion p_0)
-intellisense: 1
-classref: 1
-keywords: SetCRMQuoteVersion(NSQuoteVersion)
----
-
 
 The relevant or current revision of the quote in the CRM system, if applicable.
 
+**Parameter:** 
+ - **cRMQuoteVersion** QuoteVersion
 
-
-* **CRMQuoteVersion:** QuoteVersion
-* **Returns:** QuoteVersion
-
+```crmscript
+NSQuoteContext thing;
+QuoteVersion cRMQuoteVersion;
+thing.SetCRMQuoteVersion(cRMQuoteVersion);
+```
 

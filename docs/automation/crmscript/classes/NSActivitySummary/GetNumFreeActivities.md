@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSActivitySummary_GetNumFreeActivities
 title: Integer GetNumFreeActivities()
-path: /EJScript/Classes/NSActivitySummary/Member functions/Integer GetNumFreeActivities()
-intellisense: 1
-classref: 1
-sortOrder: 588
-keywords: GetNumFreeActivities()
+intellisense: NSActivitySummary.GetNumFreeActivities
+keywords: NSActivitySummary, GetNumFreeActivities
+so.topic: reference
 ---
-
 
 Number of activites of the type 'free'. Sales and documents are not activites in this case, only diary appointments and tasks.
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSActivitySummary thing;
+Integer numFreeActivities  = thing.GetNumFreeActivities();
+```
 
 

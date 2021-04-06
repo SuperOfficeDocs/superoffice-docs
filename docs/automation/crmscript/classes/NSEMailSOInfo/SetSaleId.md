@@ -1,18 +1,19 @@
+﻿---
+uid: crmscript_ref_NSEMailSOInfo_SetSaleId
+title: SetSaleId(Integer saleId)
+intellisense: NSEMailSOInfo.SetSaleId
+keywords: NSEMailSOInfo, GetSaleId
+so.topic: reference
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
-sortOrder: 3059
-keywords: SetSaleId(Integer)
----
-
 
 Primary key
 
+**Parameter:** 
+ - **saleId** Integer
 
-
-* **SaleId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSEMailSOInfo thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
 

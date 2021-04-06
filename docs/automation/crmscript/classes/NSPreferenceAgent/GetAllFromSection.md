@@ -1,17 +1,21 @@
+﻿---
+uid: crmscript_ref_NSPreferenceAgent_GetAllFromSection
+title: PreferenceDescriptionArray GetAllFromSection(String section)
+intellisense: NSPreferenceAgent.GetAllFromSection
+keywords: NSPreferenceAgent, GetAllFromSection
+so.topic: reference
 ---
-title: NSPreferenceDescription[] GetAllFromSection(String section)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription[] GetAllFromSection(String p_0)
-intellisense: 1
-classref: 1
-keywords: GetAllFromSection(String)
----
-
 
 Gets all PreferenceDescription-items in the specified section
 
+**Parameters:**
+ - **section** The PreferenceDescription-section
 
+**Returns:** All PreferenceDescriptions found.
 
-* **section:** The PreferenceDescription-section
-* **Returns:** All PreferenceDescriptions found.
-
+```crmscript
+NSPreferenceAgent agent;
+String section;
+PreferenceDescriptionArray res = agent.GetAllFromSection(section);
+```
 

@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSPerson_SetPost2
+title: SetPost2(String post2)
+intellisense: NSPerson.SetPost2
+keywords: NSPerson, GetPost2
+so.topic: reference
 ---
-title: Void SetPost2(String Post2)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetPost2(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPost2(String)
----
-
 
 Postal address, used in Japanese versions only
 
+**Parameter:** 
+ - **post2** String
 
-
-* **Post2:** String
-* **Returns:** String
-
+```crmscript
+NSPerson thing;
+String post2;
+thing.SetPost2(post2);
+```
 

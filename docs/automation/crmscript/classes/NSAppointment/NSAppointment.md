@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSAppointment
 title: NSAppointment
-path: /EJScript/Classes/NSAppointment
-intellisense: 1
-classref: 1
-sortOrder: 711
+intellisense: Void.NSAppointment
+keywords: NSAppointment
+so.topic: reference
 ---
-
 
 Simple read-only appointment data.
 
-
-
-
-1. autolist
+1. autolist 
 

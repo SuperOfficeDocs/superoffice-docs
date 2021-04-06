@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSProduct_GetPriceUnit
 title: String GetPriceUnit()
-path: /EJScript/Classes/NSProduct/Member functions/String GetPriceUnit()
-intellisense: 1
-classref: 1
-keywords: GetPriceUnit()
+intellisense: NSProduct.GetPriceUnit
+keywords: NSProduct, GetPriceUnit
+so.topic: reference
 ---
-
 
 What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSProduct thing;
+String priceUnit  = thing.GetPriceUnit();
+```
 
 

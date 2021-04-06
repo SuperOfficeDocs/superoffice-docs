@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSPhoneListItem_GetPersonDirectPhone
 title: String GetPersonDirectPhone()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetPersonDirectPhone()
-intellisense: 1
-classref: 1
-keywords: GetPersonDirectPhone()
+intellisense: NSPhoneListItem.GetPersonDirectPhone
+keywords: NSPhoneListItem, GetPersonDirectPhone
+so.topic: reference
 ---
-
 
 Person Direct Phone
 
+**Returns:** String
 
 
-* **Returns:** String
+```crmscript
+NSPhoneListItem thing;
+String personDirectPhone  = thing.GetPersonDirectPhone();
+```
 
 

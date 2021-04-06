@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSSuggestedAppointmentEntity_SetRank
+title: SetRank(Integer rank)
+intellisense: NSSuggestedAppointmentEntity.SetRank
+keywords: NSSuggestedAppointmentEntity, GetRank
+so.topic: reference
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetRank(Integer)
----
-
 
 Rank, controls rank of non-instantiated items in Guide
 
+**Parameter:** 
+ - **rank** Integer
 
-
-* **Rank:** Integer
-* **Returns:** Void
-
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
 

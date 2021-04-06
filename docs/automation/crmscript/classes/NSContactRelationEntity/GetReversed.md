@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSContactRelationEntity_GetReversed
 title: Integer GetReversed()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Integer GetReversed()
-intellisense: 1
-classref: 1
-sortOrder: 1950
-keywords: GetReversed()
+intellisense: NSContactRelationEntity.GetReversed
+keywords: NSContactRelationEntity, GetReversed
+so.topic: reference
 ---
-
 
 Is direction reversed relative to definition
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSContactRelationEntity thing;
+Integer reversed  = thing.GetReversed();
+```
 
 

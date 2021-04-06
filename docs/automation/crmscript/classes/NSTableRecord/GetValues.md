@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSTableRecord_GetValues
 title: StringDictionary GetValues()
-path: /EJScript/Classes/NSTableRecord/Member functions/StringDictionary GetValues()
-intellisense: 1
-classref: 1
-keywords: GetValues()
+intellisense: NSTableRecord.GetValues
+keywords: NSTableRecord, GetValues
+so.topic: reference
 ---
 
+Values for the row, where the first string is the column name (e.g. x_number), and the second string is the value formatted as a DB-value, e.g. [I:42]
 
-Values for the row, where the first string is the column name (e.g. x\_number), and the second string is the value formatted as a DB-value, e.g. [I:42]
+**Returns:** StringDictionary
 
 
-
-* **Returns:** StringDictionary
+```crmscript
+NSTableRecord thing;
+StringDictionary values  = thing.GetValues();
+```
 
 

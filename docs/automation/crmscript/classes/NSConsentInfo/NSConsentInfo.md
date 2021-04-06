@@ -1,16 +1,12 @@
----
+﻿---
+uid: crmscript_ref_NSConsentInfo
 title: NSConsentInfo
-path: /EJScript/Classes/NSConsentInfo
-intellisense: 1
-classref: 1
-sortOrder: 1626
+intellisense: Void.NSConsentInfo
+keywords: NSConsentInfo
+so.topic: reference
 ---
-
 
 Consent information for a give person. Consents are for a particular Purpose, and may be withdrawn (see LegalBase).
 
-
-
-
-1. autolist
+1. autolist 
 

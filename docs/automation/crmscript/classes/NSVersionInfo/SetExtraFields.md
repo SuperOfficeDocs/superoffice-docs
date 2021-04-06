@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSVersionInfo_SetExtraFields
+title: SetExtraFields(StringArray extraFields)
+intellisense: NSVersionInfo.SetExtraFields
+keywords: NSVersionInfo, GetExtraFields
+so.topic: reference
 ---
-title: Void SetExtraFields(String[] ExtraFields)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetExtraFields(String[] p_0)
-intellisense: 1
-classref: 1
-keywords: SetExtraFields(String[])
----
 
+Private metadata, owned by the document plugin. This set of metadata is related directly to the version that  this VersioNinfo structure describes; metadata related to the document as a whole is retrieved using the SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData method.  The string should be formatted like a query string, i.e., name1=value1&amp;name2=value2... - this format, instead of a string/string dictionary avoids serialization problems, even though it is somewhat less efficient
 
-Private metadata, owned by the document plugin. This set of metadata is related directly to the version that  this VersioNinfo structure describes; metadata related to the document as a whole is retrieved using the SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData method.  The string should be formatted like a query string, i.e., name1=value1&name2=value2... - this format, instead of a string/string dictionary avoids serialization problems, even though it is somewhat less efficient
+**Parameter:** 
+ - **extraFields** StringArray
 
-
-
-* **ExtraFields:** StringArray
-* **Returns:** StringArray
-
+```crmscript
+NSVersionInfo thing;
+StringArray extraFields;
+thing.SetExtraFields(extraFields);
+```
 

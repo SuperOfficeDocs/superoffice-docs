@@ -1,9 +1,9 @@
 ---
 description: DateTime DateTime(String p0)
-path: /EJScript/Global functions/DateTime DateTime(String p_0)
-intellisense: 1
+intellisense: Void.DateTime
 langref: 1
 keywords: DateTime(String)
+so.topic: reference
 ---
 
 

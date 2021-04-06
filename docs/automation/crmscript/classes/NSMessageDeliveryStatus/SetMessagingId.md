@@ -1,21 +1,19 @@
+﻿---
+uid: crmscript_ref_NSMessageDeliveryStatus_SetMessagingId
+title: SetMessagingId(Integer messagingId)
+intellisense: NSMessageDeliveryStatus.SetMessagingId
+keywords: NSMessageDeliveryStatus, GetMessagingId
+so.topic: reference
 ---
-title: Void SetMessagingId(Integer MessagingId)
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Void SetMessagingId(Integer p_0)
-intellisense: 1
-classref: 1
-keywords: SetMessagingId(Integer)
----
 
+Id to the outgoing message table 
 
-Id to the outgoing message table
+**Parameter:** 
+ - **messagingId** Integer
 
-
-    	///
-    
-
-
-
-* **MessagingId:** Integer
-* **Returns:** Void
-
+```crmscript
+NSMessageDeliveryStatus thing;
+Integer messagingId;
+thing.SetMessagingId(messagingId);
+```
 

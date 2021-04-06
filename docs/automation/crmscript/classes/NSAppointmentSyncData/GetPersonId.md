@@ -1,17 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSAppointmentSyncData_GetPersonId
 title: Integer GetPersonId()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
-sortOrder: 1052
-keywords: GetPersonId()
+intellisense: NSAppointmentSyncData.GetPersonId
+keywords: NSAppointmentSyncData, GetPersonId
+so.topic: reference
 ---
-
 
 Person ID of person the appointment is with, may be 0
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSAppointmentSyncData thing;
+Integer personId  = thing.GetPersonId();
+```
 
 

@@ -1,16 +1,19 @@
----
+﻿---
+uid: crmscript_ref_NSReportLabelLayoutEntity_GetPaperWidth
 title: Integer GetPaperWidth()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetPaperWidth()
-intellisense: 1
-classref: 1
-keywords: GetPaperWidth()
+intellisense: NSReportLabelLayoutEntity.GetPaperWidth
+keywords: NSReportLabelLayoutEntity, GetPaperWidth
+so.topic: reference
 ---
-
 
 Paper width in twips
 
+**Returns:** Integer
 
 
-* **Returns:** Integer
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer paperWidth  = thing.GetPaperWidth();
+```
 
 

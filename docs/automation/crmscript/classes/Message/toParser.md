@@ -1,10 +1,10 @@
 ---
-title: Void toParser(Parser parser)
-path: /EJScript/Classes/Message/Member functions/Void toParser(Parser parser)
-intellisense: 1
-classref: 1
+uid: crmscript_ref_Message_toParser_Parser_parser
+title: Message.toParser(Parser parser)
+intellisense: Message.toParser
 sortOrder: 559
 keywords: toParser(Parser)
+so.topic: reference
 ---
 
 

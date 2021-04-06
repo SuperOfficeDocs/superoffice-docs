@@ -1,17 +1,19 @@
+﻿---
+uid: crmscript_ref_NSParticipantSyncData_SetPersonCountry
+title: SetPersonCountry(String personCountry)
+intellisense: NSParticipantSyncData.SetPersonCountry
+keywords: NSParticipantSyncData, GetPersonCountry
+so.topic: reference
 ---
-title: Void SetPersonCountry(String PersonCountry)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPersonCountry(String p_0)
-intellisense: 1
-classref: 1
-keywords: SetPersonCountry(String)
----
-
 
 The country this contact person is located in.
 
+**Parameter:** 
+ - **personCountry** String
 
-
-* **PersonCountry:** String
-* **Returns:** String
-
+```crmscript
+NSParticipantSyncData thing;
+String personCountry;
+thing.SetPersonCountry(personCountry);
+```
 
