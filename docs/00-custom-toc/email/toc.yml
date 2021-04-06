@@ -1,0 +1,45 @@
+items:
+- name: MailLink
+  items:
+  - name: Changes in 7.1
+    href: ../../email/maillink/changes-in-7-1.md
+  - name: Debug
+    href: ../../email/maillink/debug.md
+- name: SuperOffice for Outlook
+  href: ../../email/superoffice-for-outlook/index.md
+  items:
+  - name: Requirements
+    href: ../../email/superoffice-for-outlook/requirements.md
+  - name: Deploy centrally
+    href: ../../email/superoffice-for-outlook/deploy-centrally.md
+  - name: Deploy office add in
+    href: ../../email/superoffice-for-outlook/deploy-office-add-in.md
+- name: Mailgun
+  href: ../../email/mailgun/index.md
+  items:
+  - name: Performance
+    href: ../../email/mailgun/amount-speed.md
+  - name: Reasons to customize
+    href: ../../email/mailgun/reasons-to-customize.md
+  - name: Security
+    href: ../../email/mailgun/security.md
+  - name: Sub-processor info
+    href: ../../email/mailgun/sub-processor-info.md
+  - name: DKIM
+    href: ../../email/mailgun/dkim/index.md
+    items:
+    - name: Order key
+      href: ../../email/mailgun/dkim/order-key.md
+    - name: Set up
+      href: ../../email/mailgun/dkim/set-up.md
+    - name: Change US to EU
+      href: ../../email/mailgun/dkim/change-us-to-eu.md
+  - name: SPF
+    href: ../../email/mailgun/spf/index.md
+    items:
+    - name: Set up
+      href: ../../email/mailgun/spf/set-up.md
+- name: Mailkit
+  href: ../../email/mailkit.md
+- name: Curl
+  href: ../../email/curl.md

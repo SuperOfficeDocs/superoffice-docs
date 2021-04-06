@@ -1,0 +1,59 @@
+  items:
+# Import and export TBD
+  - name: License
+    href: ../../license/index.md
+    items:
+    - name: User plans
+      href: ../../license/user-plans.md
+    - name: Expander services
+      href: ../../license/expander-services/index.md
+      items:
+      - name: Tool box
+        href: ../../license/expander-services/tool-box.md
+  - name: User preferences
+    href: ../../admin/user-preferences/index.md
+    items:
+    - name: Add prefdesc
+      href: ../../admin/user-preferences/add-prefdesc.md
+    - name: Reference
+      items:
+      - name: Appointment dialog
+        href: ../../admin/user-preferences/reference/appointment-dialog.md
+      - name: Associates
+        href: ../../admin/user-preferences/reference/associates.md
+      - name: Cripple
+        href: ../../admin/user-preferences/reference/cripple.md
+      - name: Defaults
+        href: ../../admin/user-preferences/reference/defaults.md
+      - name: Diary view
+        href: ../../admin/user-preferences/reference/diary-view.md
+      - name: Field labels
+        href: ../../admin/user-preferences/reference/field-labels.md
+      - name: Field replication
+        href: ../../admin/user-preferences/reference/field-replication.md
+      - name: Filter
+        href: ../../admin/user-preferences/reference/filter.md
+      - name: Find contact
+        href: ../../admin/user-preferences/reference/find-contact.md
+      - name: FreeText
+        href: ../../admin/user-preferences/reference/freetext.md
+      - name: Functions
+        href: ../../admin/user-preferences/reference/functions.md
+      - name: Mail
+        href: ../../admin/user-preferences/reference/mail.md
+      - name: NetServices
+        href: ../../admin/user-preferences/reference/netservices.md
+      - name: Numbering
+        href: ../../admin/user-preferences/reference/numbering.md
+      - name: Phone
+        href: ../../admin/user-preferences/reference/phone.md
+      - name: Scripting
+        href: ../../admin/user-preferences/reference/scripting.md
+      - name: Sorting
+        href: ../../admin/user-preferences/reference/sorting.md
+      - name: System
+        href: ../../admin/user-preferences/reference/system.md
+      - name: Travel
+        href: ../../admin/user-preferences/reference/travel.md
+      - name: Visual
+        href: ../../admin/user-preferences/reference/visual.md

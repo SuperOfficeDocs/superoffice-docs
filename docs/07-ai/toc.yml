@@ -1,9 +1,0 @@
-items:
-- name: Introduction
-  href: ../ai-services/index.md
-- name: Configuration AI
-  href: ../ai-services/configuration-ai/index.md
-  items:
-  - name: Getting started
-    href: ../ai-services/configuration-ai/getting-started.md
-# Chat TBD

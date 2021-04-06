@@ -1,0 +1,98 @@
+items:
+- name: Overview
+  href: ../../identity-management/index.md
+- name: Federated ID and identity providers
+  href: ../../identity-management/federated-id-and-identity-providers.md
+- name: ID transfer tickets
+  href: ../../identity-management/id-transfer-tickets.md
+- name: Multi-factor authentication
+  href: ../../identity-management/multi-factor-authentication.md
+- name: Single sign-on
+  href: ../../identity-management/single-sign-on/index.md
+  items:
+  - name: Onsite SSO
+    href: ../../identity-management/single-sign-on/onsite-sso.md
+- name: SuperID
+  href: ../../identity-management/superid/idp-and-doc-handling.md
+  items:
+  - name: Sign-in services
+    href: ../../identity-management/superid/sign-in-services.md
+  - name: User accounts and passwords
+    href: ../../identity-management/superid/user-accounts-and-passwords.md
+  - name: Primary tenant
+    href: ../../identity-management/superid/primary-tenant.md
+  - name: IDP and doc handling
+    href: ../../identity-management/superid/idp-and-doc-handling.md
+  - name: SuperID WebTools MailLink pocket
+    href: ../../identity-management/superid/superid-webtools-maillink-pocket.md
+  - name: Known challenges
+    href: ../../identity-management/superid/known-challenges.md
+  - name: Terms and conditions
+    href: ../../identity-management/superid/terms-and-conditions.md
+  - name: How-to
+    items:
+    - name: Federated sign-in guide
+      href: ../../identity-management/superid/howto/federated-sign-in-guide.md
+    - name: Check IDP domain
+      href: ../../identity-management/superid/howto/check-idp-domain.md
+    - name: Register IDP
+      href: ../../identity-management/superid/howto/register-idp.md
+    - name: Map IDP usernames
+      href: ../../identity-management/superid/howto/map-idp-usernames.md
+    - name: Complete user transition
+      href: ../../identity-management/superid/howto/complete-user-transition.md
+- name: User
+  href: ../../identity-management/user/add-user-in-admin-client.md
+  items:
+  - name: Add user in admin client
+    href: ../../identity-management/user/add-user-in-admin-client.md
+  - name: Enforce password policy
+    href: ../../identity-management/user/enforce-password-policy.md
+  - name: Reset password
+    href: ../../identity-management/user/reset-password.md
+  - name: Send welcome emails
+    href: ../../identity-management/user/send-welcome-emails.md
+- name: Active Directory
+  href: ../../identity-management/ad/index.md
+  items:
+  - name: Set up AD auth
+    href: ../../identity-management/ad/set-up-ad-auth.md
+  - name: Mapping so user to AD in version 7.1
+    href: ../../identity-management/ad/mapping-so-user-to-ad-v-7-1.md
+- name: SCIM
+  href: ../../identity-management/scim/index.md
+  items:
+  - name: Sign in to SCIM
+    href: ../../identity-management/scim/sign-in-to-scim.md
+  - name: Identity Management Gateway
+    href: ../../identity-management/scim/identity-management-gw.md
+  - name: SCIM rules
+    href: ../../identity-management/scim/scim-rules.md
+  - name: User provisioning
+    href: ../../identity-management/scim/user-provisioning.md
+    items:
+    - name: Add SCIM rule
+      href: ../../identity-management/scim/provisioning/add-scim-rule.md
+    - name: Activate deactivate rules
+      href: ../../identity-management/scim/provisioning/activate-deactivate-rules.md
+    - name: Preview sync
+      href: ../../identity-management/scim/provisioning/preview-sync.md
+    - name: Sync company
+      href: ../../identity-management/scim/provisioning/sync-company.md
+    - name: Sync user
+      href: ../../identity-management/scim/provisioning/sync-user.md
+    - name: Restart sync
+      href: ../../identity-management/scim/provisioning/restart-sync.md
+  - name: Setup
+    href: ../../identity-management/scim/setup/setup-guide.md
+    items:
+    - name: Setup guide
+      href: ../../identity-management/scim/setup/setup-guide.md
+    - name: Create Azure enterprise app
+      href: ../../identity-management/scim/setup/create-azure-enterprise-app.md
+    - name: Enable auto sync
+      href: ../../identity-management/scim/setup/enable-auto-sync.md
+    - name: Get SCIM config
+      href: ../../identity-management/scim/setup/get-scim-config.md
+    - name: Get sync error messages
+      href: ../../identity-management/scim/setup/get-sync-error-messages.md

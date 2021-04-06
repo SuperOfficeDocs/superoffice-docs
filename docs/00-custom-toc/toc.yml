@@ -1,32 +1,34 @@
+### YamlMime:ManagedReference
 items:
 - name: Admin
-  href: ../06-admin/toc.yml
+  href: admin/toc.yml
+  topicHref: ../admin/index.md
 - name: Setup
-  href: ../01-setup/toc.yml
+  href: setup/toc.yml
 - name: AI services
-  href: ../07-ai/toc.yml
+  href: ai/toc.yml
 # Will apps be included in API toc?
 - name: Apps
-  href: ../02-apps/toc.yml
+  href: apps/toc.yml
 # Will authentication be included in API toc?
 - name: Authentication
   items:
   - name: Cookies
     href: ../authentication/cookies.md
 - name: Automation
-  href: ../04-automation/toc.yml
+  href: automation/toc.yml
 # TBD: chat, company and contact, custom fields, dashboards
 - name: Diary
-  href: ../08-diary/toc.yml
+  href: diary/toc.yml
 - name: Documents
-  href: ../09-documents/toc.yml
+  href: documents/toc.yml
 - name: Email
-  href: ../10-email/toc.yml
+  href: email/toc.yml
 # TBD environment
 - name: Identity management
-  href: ../03-im/toc.yml
+  href: im/toc.yml
 - name: Online
-  href: ../1990-online/toc.yml
+  href: online/toc.yml
 - name: Mirroring
   href: ../mirroring/index.md
   items:
@@ -57,14 +59,14 @@ items:
   - name: Create WFC
     href: ../mirroring/create-wfc.md
 - name: Mobile
-  href: ../11-mobile/toc.yml
+  href: mobile/toc.yml
 - name: Privacy
-  href: ../13-privacy/toc.yml
+  href: privacy/toc.yml
 # TBD project, quote, sale, saint
 # Reports currently under documents (just 1 page)
 # only 1 page for search - goes to Service toc for now
 - name: Service
-  href: ../05-service/toc.yml
+  href: service/toc.yml
 # Travel goes into database for now (set in build docs, keep lines here!)
 - name: Travel
   href: ../travel/index.md
@@ -72,4 +74,4 @@ items:
   - name: Create an update prototype
     href: ../travel/create-update-prototype.md
 - name: WebTools
-  href: ../12-webtools/toc.yml
+  href: webtools/toc.yml

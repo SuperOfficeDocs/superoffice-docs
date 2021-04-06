@@ -1,0 +1,122 @@
+items:
+  - name: Standard
+    href: ../../apps/standard.md
+  - name: Custom
+    href: ../../apps/custom.md
+  - name: Client ID  and secret
+    href: ../../apps/client-id-secret.md
+  - name: Requirements
+    href: ../../apps/requirements/index.md
+    items:
+    - name: Business
+      href: ../../apps/requirements/business.md
+    - name: Design
+      href: ../../apps/requirements/design.md
+    - name: Localization
+      href: ../../apps/requirements/localization.md
+    - name: Marketing
+      href: ../../apps/requirements/marketing.md
+    - name: Security
+      href: ../../apps/requirements/security.md
+    - name: Technical
+      href: ../../apps/requirements/technical.md
+  - name: Best practices
+    href: ../../apps/best-practices.md
+  - name: Getting started
+    href: ../../apps/getting-started/overview.md
+    items:
+    - name: App environment
+      href: ../../apps/getting-started/app-envir.md
+      items:
+      - name: Hosting
+        href: ../../apps/getting-started/hosting.md
+      - name: Run website on IIS localhost
+        href: ../../apps/getting-started/run-website-on-iis-localhost.md
+    - name: Models
+      href: ../../apps/getting-started/models.md
+    - name: User contexts
+      href: ../../apps/getting-started/user-contexts.md
+    - name: Building apps
+      href: ../../apps/getting-started/building-apps.md
+      items:
+      - name: Get access to SOD
+        href: ../../apps/getting-started/get-access-to-sod.md
+      - name: Get app keys
+        href: ../../apps/getting-started/get-app-keys.md
+    - name: Integration points
+      href: ../../apps/getting-started/integration-points.md
+    - name: What API to use?
+      href: ../../apps/getting-started/what-api-to-use.md
+  - name: Tenant status
+    href: ../../apps/tenant-status/index.md
+    items:
+    - name: Online tenant status
+      href: ../../apps/tenant-status/online-tenant-status.md
+    - name: Check status
+      href: ../../apps/tenant-status/check-status.md
+    - name: Manage status changes
+      href: ../../apps/tenant-status/manage-status-changes.md
+    - name: Get notifications
+      href: ../../apps/tenant-status/get-notifications.md
+    - name: Notifications example
+      href: ../../apps/tenant-status/notifications-example.md
+  - name: Provisioning
+    href: ../../apps/provisioning/index.md
+    items:
+    - name: Consent
+      href: ../../apps/provisioning/consent.md
+    - name: Get consent
+      href: ../../apps/provisioning/get-consent.md
+    - name: Approval sequence
+      href: ../../apps/provisioning/approval-sequence.md
+    - name: Example
+      href: ../../apps/provisioning/example.md
+  - name: Redirects
+    href: ../../apps/redirects/index.md
+    items:
+    - name: Endpoint types
+      href: ../../apps/redirects/endpoint-types.md
+    - name: Add and update
+      href: ../../apps/redirects/add-update.md
+  - name: Manage
+    items:
+    - name: Update app
+      href: ../../apps/manage/update-app.md
+    - name: Revoke app
+      href: ../../apps/manage/revoke-app.md
+  - name: Activate
+    href: ../../apps/activate/index.md
+    items:
+    - name: Checklist
+      href: ../../apps/activate/checklist.md
+    - name: Validate app
+      href: ../../apps/activate/validate-app.md
+    - name: Activate custom app
+      href: ../../apps/activate/activate-custom-app.md
+  - name: App store
+    href: ../../apps/app-store.md
+  - name: Certification
+    href: ../../apps/certification/index.md
+    items:
+    - name: Checklist
+      href: ../../apps/certification/checklist.md
+    - name: Certify app
+      href: ../../apps/certification/certify-app.md
+    - name: Initial Watchcom evaluation
+      items:
+      - name: About the test
+        href: ../../apps/certification/initial-watchcom-eval.md
+      - name: How to pass the test
+        href: ../../apps/certification/secure-app.md
+      - name: Watchcom testimonials
+        href: ../../apps/certification/watchcom-testimonials.md
+  - name: Publish
+    items:
+    - name: Get listed
+      href: ../../apps/publish/get-listed.md
+    - name: Publish standard app
+      href: ../../apps/publish/publish-standard-app.md
+    - name: Beta period
+      href: ../../apps/publish/beta-period.md
+    - name: How to get noticed
+      href: ../../apps/publish/how-to-get-noticed.md

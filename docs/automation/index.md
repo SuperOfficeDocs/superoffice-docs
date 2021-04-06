@@ -5,4 +5,4 @@ author: {github-id}             # Your GitHub alias.
 keywords:
 ---
 
-# Automation PLACEHOLDER
+# Automation
