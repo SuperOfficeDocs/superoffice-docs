@@ -1,5 +1,5 @@
 items:
 - name: NetServer Core
-  href: core/index.md
+  href: core/
 - name: NetServer Services
-  href: services/index.md
+  href: services/

@@ -13,7 +13,7 @@ returns a JSON object representing Contact 123.
 
 adds a new list item to the Category list.
 
-[Download Web API Swagger File](Swagger-v1-REST.json)
+### [Download Web API Swagger File](Swagger-v1-REST.zip)
 
 ## Agents Web API
 
@@ -27,7 +27,7 @@ returns a JSON object representing Contact 123.
 
 adds a new list item to the Category list (assuming the list item entity parameter has been properly initialized).
 
-[Download Agent Swagger file](Swagger-v1-Agents.json)
+### [Download Agent Swagger file](Swagger-v1-Agents.zip)
 
 The REST API is not as complete as the Agents API, but it should cover the most common use cases, and be easier to use and navigate.
 

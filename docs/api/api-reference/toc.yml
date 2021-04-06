@@ -10,12 +10,11 @@ items:
   - name: SOAP Services
     href: soap/index.md
 - name: NetServer
-  items:
-  - name: Core
-    href: netserver/core/index.md
-  - name: Services
-    href: netserver/services/index.md
+  href: netserver/
+  topicHref: netserver/index.md
 - name: Web Application
-  href: web/index.md
+  href: web/
+  topicHref: web/index.md
 - name: WebAPI Client
-  href: webapi/index.md
+  href: webapi/
+  topicHref: webapi/index.md

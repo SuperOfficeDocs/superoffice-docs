@@ -45,10 +45,21 @@ items:
       href: ../bulk-operations/bulk-update/index.md
     - name: Mass Operations
       href: ../bulk-operations/mass-operations/index.md
+      items:
+      - name: Delete
+        href: ../bulk-operations/mass-operations/delete.md
+      - name: Insert
+        href: ../bulk-operations/mass-operations/insert.md
+      - name: Truncate
+        href: ../bulk-operations/mass-operations/truncate.md
+      - name: Upsert
+        href: ../bulk-operations/mass-operations/upsert.md
+      - name: Protected Tables
+        href: ../bulk-operations/mass-operations/protected-tables.md
   - name: Search APIs
     items:
     - name: Find Selection API
-      href: ../search/new-selection/new-selection.md
+      href: ../search/find-selection/new-selection/new-selection.md
     - name: Archive Providers
       href: ../archive-providers/index.md
       items:
@@ -57,4 +68,27 @@ items:
       - name: Perform query
         href: ../archive-providers/how-to-query.md
       - name: Aggregation
-        href: data-aggregation
+        href: ../archive-providers/data-aggregation.md
+      - name: Aggregation with GroupBy
+        href: ../archive-providers/aggregate-groupby.md
+      - name: Nested Aggregate Functions
+        href: ../archive-providers/nested-aggregate-functions.md
+    - name: Archive Provider Architecture
+      href: ../archive-providers/architecture.md
+      items:
+      - name: Interfaces
+        href: ../archive-providers/interfaces.md
+      - name: Data classes
+        href: ../archive-providers/data-class.md
+      - name: Client usage scenarios
+        href: ../archive-providers/scenarios.md
+      - name: Provider metadata
+        href: ../archive-providers/metadata.md
+      - name: Providers
+        href: ../archive-providers/providers.md
+      - name: Extenders
+        href: ../archive-providers/extenders.md
+      - name: Joiners
+        href: ../archive-providers/joiners.md
+      - name: Base and helper classes
+        href: ../archive-providers/base-and-helper-classes.md

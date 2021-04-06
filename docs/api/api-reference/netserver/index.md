@@ -1,1 +1,5 @@
 # NetServer API Placeholder
+
+NetServer is a multi-tiered data access library library for the SuperOffice database. Whether deploying a solution to a local SuperOffice database installation or operating in a distributed environment, NetServer exposes an array of application programming interface (API) approaches to facilitate a wide range of solution implementations. Although the terrain is vast and complex, and at first sight, be can somewhat intimidating, the NetServer API tailors to a wide variety of developers by layering the architecture in various intuitive abstractions. 
+
+When writing code that executes on a PC within a local network or domain, use the [NetServer Core API](https://www.nuget.org/packages/SuperOffice.NetServer.Core) for optimal performance. If there is every a change the application will need to operate in a distributing fashion, i.e. connect to SuperOffice NetServer web services, then use the [NetServer Services API](https://www.nuget.org/packages/SuperOffice.NetServer.Services) for optimal flexibility.
