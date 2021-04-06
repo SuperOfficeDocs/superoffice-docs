@@ -132,7 +132,7 @@ Good luck!
 
 <!-- Referenced links -->
 [1]: ../overview/what-is-crmscript.md
-[2]: ../classes/searchengine/searchengine.md
+[2]: ../api-reference/classes/searchengine/searchengine.md
 [3]: dot-syntax.md
 
 <!-- Referenced images -->

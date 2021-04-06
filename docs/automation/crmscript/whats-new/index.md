@@ -18,6 +18,6 @@ New HTTP class functions to easily send documents and attachments in a POST requ
 * [HTTP.addBinaryData][3]
 
 <!-- Referenced links -->
-[1]: ../classes/http/addattachmentdata.md
-[2]: ../classes/http/adddocumentdata.md
-[3]: ../classes/http/addbinarydata.md
+[1]: ../api-reference/classes/http/addattachmentdata.md
+[2]: ../api-reference/classes/http/adddocumentdata.md
+[3]: ../api-reference/classes/http/addbinarydata.md
