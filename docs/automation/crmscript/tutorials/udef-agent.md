@@ -1,5 +1,5 @@
 ---
-uid: udef_tutorial
+uid: crmscript_udef_tutorial
 title: User-defined fields
 author:
 so.date:
