@@ -11,3 +11,9 @@ A comment that is intended for the Invoice, Order, Packing list and similar stag
 **Parameter:** 
  - **orderComment** String
 
+```crmscript
+NSQuoteEntity thing;
+String orderComment;
+thing.SetOrderComment(orderComment);
+```
+

@@ -11,3 +11,9 @@ Total size of the e-mail
 **Parameter:** 
  - **size** Integer
 
+```crmscript
+NSEMailEntity thing;
+Integer size;
+thing.SetSize(size);
+```
+

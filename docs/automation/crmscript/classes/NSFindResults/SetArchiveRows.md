@@ -11,3 +11,9 @@ Array of archive list items, i.e., the service layer carrier for archive rows. T
 **Parameter:** 
  - **archiveRows** ArchiveListItemArray
 
+```crmscript
+NSFindResults thing;
+ArchiveListItemArray archiveRows;
+thing.SetArchiveRows(archiveRows);
+```
+

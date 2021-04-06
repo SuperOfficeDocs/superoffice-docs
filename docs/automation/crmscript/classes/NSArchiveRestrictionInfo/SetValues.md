@@ -11,3 +11,9 @@ Value(s) to test against
 **Parameter:** 
  - **values** StringArray
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+StringArray values;
+thing.SetValues(values);
+```
+

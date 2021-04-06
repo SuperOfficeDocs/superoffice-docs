@@ -11,3 +11,9 @@ The selected operation to execute on this field
 **Parameter:** 
  - **currentOperationType** String
 
+```crmscript
+NSFieldValueInfo thing;
+String currentOperationType;
+thing.SetCurrentOperationType(currentOperationType);
+```
+

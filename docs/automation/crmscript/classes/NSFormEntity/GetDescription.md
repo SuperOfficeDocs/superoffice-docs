@@ -11,3 +11,9 @@ Detailed description
 **Returns:** String
 
 
+```crmscript
+NSFormEntity thing;
+String description  = thing.GetDescription();
+```
+
+

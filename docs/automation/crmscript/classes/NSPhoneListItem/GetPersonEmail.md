@@ -11,3 +11,9 @@ The address itself
 **Returns:** String
 
 
+```crmscript
+NSPhoneListItem thing;
+String personEmail  = thing.GetPersonEmail();
+```
+
+

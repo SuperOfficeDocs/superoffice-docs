@@ -11,3 +11,9 @@ True if appointment have an entry in published table
 **Parameter:** 
  - **isPublished** Bool
 
+```crmscript
+NSAppointment thing;
+Bool isPublished;
+thing.SetIsPublished(isPublished);
+```
+

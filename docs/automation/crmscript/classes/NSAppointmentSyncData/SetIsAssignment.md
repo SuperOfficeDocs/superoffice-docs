@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isAssignment** Bool
 
+```crmscript
+NSAppointmentSyncData thing;
+Bool isAssignment;
+thing.SetIsAssignment(isAssignment);
+```
+

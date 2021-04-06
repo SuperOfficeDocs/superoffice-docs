@@ -11,3 +11,9 @@ When the session was accepted by a user.
 **Parameter:** 
  - **whenStarted** DateTime
 
+```crmscript
+NSChatSessionEntity thing;
+DateTime whenStarted;
+thing.SetWhenStarted(whenStarted);
+```
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **encodedDisplayName** String
 
+```crmscript
+NSOperationInfo thing;
+String encodedDisplayName;
+thing.SetEncodedDisplayName(encodedDisplayName);
+```
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSDataRight thing;
+String description;
+thing.SetDescription(description);
+```
+

@@ -11,3 +11,8 @@ Set the name of the Credited item.
 **Parameter:** 
  - **value** String Credited name.
 
+```crmscript
+NSCredited thing;
+thing.SetValue("frotz");
+```
+

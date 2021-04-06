@@ -11,3 +11,9 @@ Last updated
 **Parameter:** 
  - **updatedDate** DateTime
 
+```crmscript
+NSSaleEntity thing;
+DateTime updatedDate;
+thing.SetUpdatedDate(updatedDate);
+```
+

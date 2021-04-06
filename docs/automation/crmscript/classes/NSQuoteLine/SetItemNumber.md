@@ -11,3 +11,9 @@ Norwegian: «Postnummer». Specific numbers from some hierarchy, for instance '1
 **Parameter:** 
  - **itemNumber** String
 
+```crmscript
+NSQuoteLine thing;
+String itemNumber;
+thing.SetItemNumber(itemNumber);
+```
+

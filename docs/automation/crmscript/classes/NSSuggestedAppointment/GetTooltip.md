@@ -11,3 +11,9 @@ Tooltip / description
 **Returns:** String
 
 
+```crmscript
+NSSuggestedAppointment thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

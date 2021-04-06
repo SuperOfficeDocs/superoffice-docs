@@ -11,3 +11,9 @@ Name of legal base
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSLegalBase thing;
+String name;
+thing.SetName(name);
+```
+

@@ -11,3 +11,9 @@ The work hour stop for Tuesdays. Note that only the time part of the DateTime is
 **Parameter:** 
  - **tueStop** DateTime
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime tueStop;
+thing.SetTueStop(tueStop);
+```
+

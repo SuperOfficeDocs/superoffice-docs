@@ -11,3 +11,9 @@ Postit text record id.
 **Returns:** Integer
 
 
+```crmscript
+NSSelectionEntity thing;
+Integer postitTextId  = thing.GetPostitTextId();
+```
+
+

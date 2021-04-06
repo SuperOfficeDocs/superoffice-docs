@@ -11,3 +11,9 @@ TotalPrice  = SubTotal - DiscountAmount or TotalPrice = (UnitCost * Quantity) + 
 **Parameter:** 
  - **totalPrice** Float
 
+```crmscript
+NSQuoteLine thing;
+Float totalPrice;
+thing.SetTotalPrice(totalPrice);
+```
+

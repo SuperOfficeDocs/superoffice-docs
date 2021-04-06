@@ -11,3 +11,9 @@ Owner of the selection
 **Returns:** Associate
 
 
+```crmscript
+NSSelectionEntity thing;
+Associate associate  = thing.GetAssociate();
+```
+
+

@@ -11,3 +11,9 @@ Database name or prog-id: 'x_foobar' or 'SuperOffice:2'.
 **Returns:** String
 
 
+```crmscript
+NSFieldInfoBase thing;
+String fieldName  = thing.GetFieldName();
+```
+
+

@@ -11,3 +11,9 @@ First name
 **Parameter:** 
  - **firstname** String
 
+```crmscript
+NSPerson thing;
+String firstname;
+thing.SetFirstname(firstname);
+```
+

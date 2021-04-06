@@ -11,3 +11,9 @@ Id of associate who actually entered the approval; might be different from Appro
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteVersion thing;
+Integer approvedRegisteredBy  = thing.GetApprovedRegisteredBy();
+```
+
+

@@ -11,3 +11,9 @@ How many decimals to display
 **Returns:** Integer
 
 
+```crmscript
+NSFieldInfoDecimal thing;
+Integer precision  = thing.GetPrecision();
+```
+
+

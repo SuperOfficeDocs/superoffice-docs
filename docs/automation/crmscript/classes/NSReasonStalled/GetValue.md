@@ -10,3 +10,8 @@ Get the name of the ReasonStalled.
 
 **Returns:** String ReasonStalled name.
 
+```crmscript
+NSReasonStalled thing;
+String name = thing.GetValue();
+```
+

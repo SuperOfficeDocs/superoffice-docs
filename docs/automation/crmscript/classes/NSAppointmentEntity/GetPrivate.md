@@ -14,3 +14,9 @@ The confidentiality of appointments is shown as different types of “private”
      - Enum: 1 = PrivateUser 
      - Enum: 2 = PrivateGroup 
 
+```crmscript
+NSAppointmentEntity thing;
+Integer private  = thing.GetPrivate();
+```
+
+

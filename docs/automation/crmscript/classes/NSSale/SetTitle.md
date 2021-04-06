@@ -11,3 +11,9 @@ Sale heading (short description?)
 **Parameter:** 
  - **title** String
 
+```crmscript
+NSSale thing;
+String title;
+thing.SetTitle(title);
+```
+

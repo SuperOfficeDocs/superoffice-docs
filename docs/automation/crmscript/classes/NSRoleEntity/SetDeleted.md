@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **deleted** Integer
 
+```crmscript
+NSRoleEntity thing;
+Integer deleted;
+thing.SetDeleted(deleted);
+```
+

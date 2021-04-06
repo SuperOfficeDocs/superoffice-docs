@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **listProviderPrimaryKeyName** String
 
+```crmscript
+NSControlInfo thing;
+String listProviderPrimaryKeyName;
+thing.SetListProviderPrimaryKeyName(listProviderPrimaryKeyName);
+```
+

@@ -11,3 +11,9 @@ Maps to the response field in the batchtask table.
 **Parameter:** 
  - **response** String
 
+```crmscript
+NSBatchTaskInfo thing;
+String response;
+thing.SetResponse(response);
+```
+

@@ -11,3 +11,9 @@ A field for putting VATInfo you need to show in the final quoteDocument, like th
 **Parameter:** 
  - **vATInfo** String
 
+```crmscript
+NSProduct thing;
+String vATInfo;
+thing.SetVATInfo(vATInfo);
+```
+

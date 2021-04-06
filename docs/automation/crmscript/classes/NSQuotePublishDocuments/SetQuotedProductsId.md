@@ -11,3 +11,9 @@ Quoted products (quote lines or confirmation lines) document, as PDF
 **Parameter:** 
  - **quotedProductsId** Integer
 
+```crmscript
+NSQuotePublishDocuments thing;
+Integer quotedProductsId;
+thing.SetQuotedProductsId(quotedProductsId);
+```
+

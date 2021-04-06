@@ -11,3 +11,9 @@ The description for this reply template.
 **Returns:** String
 
 
+```crmscript
+NSReplyTemplate thing;
+String description  = thing.GetDescription();
+```
+
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **documentTemplateId** Integer
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer documentTemplateId;
+thing.SetDocumentTemplateId(documentTemplateId);
+```
+

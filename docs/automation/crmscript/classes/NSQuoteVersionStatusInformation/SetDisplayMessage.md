@@ -11,3 +11,9 @@ Generated error message for the Quote Version. Will check for errors on quote li
 **Parameter:** 
  - **displayMessage** String
 
+```crmscript
+NSQuoteVersionStatusInformation thing;
+String displayMessage;
+thing.SetDisplayMessage(displayMessage);
+```
+

@@ -11,3 +11,9 @@ The actual tab order
 **Parameter:** 
  - **order** String
 
+```crmscript
+NSTabOrder thing;
+String order;
+thing.SetOrder(order);
+```
+

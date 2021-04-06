@@ -11,3 +11,9 @@ Phone prefix, will default to the current users HomeCountryId.
 **Parameter:** 
  - **defaultSmsCountry** String
 
+```crmscript
+NSSmsConfig thing;
+String defaultSmsCountry;
+thing.SetDefaultSmsCountry(defaultSmsCountry);
+```
+

@@ -11,3 +11,9 @@ Right margin in twips
 **Parameter:** 
  - **rightMargin** Integer
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer rightMargin;
+thing.SetRightMargin(rightMargin);
+```
+

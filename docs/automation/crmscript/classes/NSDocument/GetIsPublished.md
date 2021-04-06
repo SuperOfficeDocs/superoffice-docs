@@ -11,3 +11,9 @@ True if document have an entry in published table
 **Returns:** Bool
 
 
+```crmscript
+NSDocument thing;
+Bool isPublished  = thing.GetIsPublished();
+```
+
+

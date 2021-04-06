@@ -11,3 +11,9 @@ The column name to show, can be a resource identifier string.
 **Parameter:** 
  - **displayName** String
 
+```crmscript
+NSArchiveColumnInfo thing;
+String displayName;
+thing.SetDisplayName(displayName);
+```
+

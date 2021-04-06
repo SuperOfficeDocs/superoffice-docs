@@ -11,3 +11,9 @@ True if this is a mandatory field
 **Parameter:** 
  - **mandatory** Bool
 
+```crmscript
+NSFieldValueInfo thing;
+Bool mandatory;
+thing.SetMandatory(mandatory);
+```
+

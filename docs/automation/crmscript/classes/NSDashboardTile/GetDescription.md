@@ -11,3 +11,9 @@ The tile description
 **Returns:** String
 
 
+```crmscript
+NSDashboardTile thing;
+String description  = thing.GetDescription();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **pollingInterval** Integer
 
+```crmscript
+NSMultiAlarmData thing;
+Integer pollingInterval;
+thing.SetPollingInterval(pollingInterval);
+```
+

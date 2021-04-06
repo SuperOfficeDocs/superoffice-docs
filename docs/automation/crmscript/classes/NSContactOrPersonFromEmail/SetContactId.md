@@ -11,3 +11,9 @@ The id of the contact
 **Parameter:** 
  - **contactId** Integer
 
+```crmscript
+NSContactOrPersonFromEmail thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
+

@@ -15,3 +15,9 @@ Type for sending email meeting invitation. Not an invitation type template = 0, 
      - Enum: 2 = Changed 
      - Enum: 3 = Cancelled 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+DocTmplInvitationType invitationDocType;
+thing.SetInvitationDocType(invitationDocType);
+```
+

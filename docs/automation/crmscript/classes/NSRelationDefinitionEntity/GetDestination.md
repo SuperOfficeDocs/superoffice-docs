@@ -15,3 +15,9 @@ The destination of the relation
      - Enum: 2 = Person 
      - Enum: 3 = Both 
 
+```crmscript
+NSRelationDefinitionEntity thing;
+Integer destination  = thing.GetDestination();
+```
+
+

@@ -20,3 +20,9 @@ The activity that has occured on this contact.
      - Enum: 64 = DocumentAdded 
      - Enum: 127 = All 
 
+```crmscript
+NSContactActivity thing;
+Integer action;
+thing.SetAction(action);
+```
+

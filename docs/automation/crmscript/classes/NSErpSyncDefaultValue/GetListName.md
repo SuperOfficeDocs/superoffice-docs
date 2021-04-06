@@ -11,3 +11,9 @@ The ERP list name, if the field has a list of values supplied by the ERP Connect
 **Returns:** String
 
 
+```crmscript
+NSErpSyncDefaultValue thing;
+String listName  = thing.GetListName();
+```
+
+

@@ -11,3 +11,9 @@ Text describing the sale
 **Returns:** String
 
 
+```crmscript
+NSSaleEntity thing;
+String saleText  = thing.GetSaleText();
+```
+
+

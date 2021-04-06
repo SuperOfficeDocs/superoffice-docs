@@ -11,3 +11,9 @@ Name of the appointments priority
 **Returns:** String
 
 
+```crmscript
+NSAppointment thing;
+String priorityName  = thing.GetPriorityName();
+```
+
+

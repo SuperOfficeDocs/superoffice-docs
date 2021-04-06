@@ -11,3 +11,9 @@ How did we get this selection? For future integration needs
 **Parameter:** 
  - **source** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer source;
+thing.SetSource(source);
+```
+

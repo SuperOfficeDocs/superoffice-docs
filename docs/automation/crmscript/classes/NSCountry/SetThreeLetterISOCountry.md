@@ -11,3 +11,9 @@ Three-letter country-code according to ISO3166
 **Parameter:** 
  - **threeLetterISOCountry** String
 
+```crmscript
+NSCountry thing;
+String threeLetterISOCountry;
+thing.SetThreeLetterISOCountry(threeLetterISOCountry);
+```
+

@@ -11,3 +11,9 @@ If true, it is possible to sign on the event.
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEvent thing;
+Bool signOn  = thing.GetSignOn();
+```
+
+

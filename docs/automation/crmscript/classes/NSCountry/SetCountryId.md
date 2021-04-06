@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **countryId** Integer
 
+```crmscript
+NSCountry thing;
+Integer countryId;
+thing.SetCountryId(countryId);
+```
+

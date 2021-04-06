@@ -11,3 +11,9 @@ Column information
 **Returns:** ArchiveColumnInfoArray
 
 
+```crmscript
+NSTileData thing;
+ArchiveColumnInfoArray columns  = thing.GetColumns();
+```
+
+

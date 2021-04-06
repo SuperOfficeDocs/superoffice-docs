@@ -11,3 +11,9 @@ Format of the content
 **Returns:** String
 
 
+```crmscript
+NSIncomingMessage thing;
+String format  = thing.GetFormat();
+```
+
+

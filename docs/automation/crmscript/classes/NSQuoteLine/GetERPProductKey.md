@@ -11,3 +11,9 @@ Foreign key of product+pricelist this line is based on. Can be blank since the Q
 **Returns:** String
 
 
+```crmscript
+NSQuoteLine thing;
+String eRPProductKey  = thing.GetERPProductKey();
+```
+
+

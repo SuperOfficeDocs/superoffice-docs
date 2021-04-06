@@ -11,3 +11,9 @@ The projects description
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSProject thing;
+String description;
+thing.SetDescription(description);
+```
+

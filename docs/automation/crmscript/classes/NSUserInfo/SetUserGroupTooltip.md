@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **userGroupTooltip** String
 
+```crmscript
+NSUserInfo thing;
+String userGroupTooltip;
+thing.SetUserGroupTooltip(userGroupTooltip);
+```
+

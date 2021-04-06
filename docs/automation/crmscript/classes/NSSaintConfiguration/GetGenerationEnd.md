@@ -11,3 +11,9 @@ When was the last regeneration finished
 **Returns:** DateTime
 
 
+```crmscript
+NSSaintConfiguration thing;
+DateTime generationEnd  = thing.GetGenerationEnd();
+```
+
+

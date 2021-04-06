@@ -11,3 +11,9 @@ Enable ticket submission in offline mode
 **Parameter:** 
  - **ticketEnabled** Bool
 
+```crmscript
+NSChatTopicEntity thing;
+Bool ticketEnabled;
+thing.SetTicketEnabled(ticketEnabled);
+```
+

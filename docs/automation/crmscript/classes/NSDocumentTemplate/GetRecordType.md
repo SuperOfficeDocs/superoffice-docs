@@ -21,3 +21,9 @@ so.topic: reference
      - Enum: 8 = MergeFinal 
      - Enum: 9 = SavedReport 
 
+```crmscript
+NSDocumentTemplate thing;
+DocTmplType recordType  = thing.GetRecordType();
+```
+
+

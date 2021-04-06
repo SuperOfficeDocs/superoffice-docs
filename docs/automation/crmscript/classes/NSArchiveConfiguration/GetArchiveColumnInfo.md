@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** ArchiveColumnInfoArray
 
 
+```crmscript
+NSArchiveConfiguration thing;
+ArchiveColumnInfoArray archiveColumnInfo  = thing.GetArchiveColumnInfo();
+```
+
+

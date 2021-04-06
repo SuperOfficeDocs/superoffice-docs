@@ -11,3 +11,9 @@ Directory set to current when loading the application, if different from applica
 **Parameter:** 
  - **workdir** String
 
+```crmscript
+NSExtAppEntity thing;
+String workdir;
+thing.SetWorkdir(workdir);
+```
+

@@ -11,3 +11,9 @@ The ERP fields that should be displayed
 **Parameter:** 
  - **erpFields** FieldMetadataArray
 
+```crmscript
+NSErpConnectionData thing;
+FieldMetadataArray erpFields;
+thing.SetErpFields(erpFields);
+```
+

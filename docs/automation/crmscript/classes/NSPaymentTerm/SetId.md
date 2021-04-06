@@ -11,3 +11,8 @@ Set the primary key (id) for the PaymentTerm
 **Parameter:** 
  - **id** Integer PaymentTerm id.
 
+```crmscript
+NSPaymentTerm thing;
+thing.SetId(123);
+```
+

@@ -11,3 +11,9 @@ Id of the history item, for instance a contact id. Represents the history table'
 **Parameter:** 
  - **id** Integer
 
+```crmscript
+NSHistory thing;
+Integer id;
+thing.SetId(id);
+```
+

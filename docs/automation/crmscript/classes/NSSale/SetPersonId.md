@@ -11,3 +11,9 @@ The sale's contact persons id
 **Parameter:** 
  - **personId** Integer
 
+```crmscript
+NSSale thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
+

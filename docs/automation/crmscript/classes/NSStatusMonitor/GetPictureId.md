@@ -11,3 +11,9 @@ Id of BinaryObject row that contains image for status monitor
 **Returns:** Integer
 
 
+```crmscript
+NSStatusMonitor thing;
+Integer pictureId  = thing.GetPictureId();
+```
+
+

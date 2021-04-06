@@ -14,3 +14,9 @@ Access restrictions on the field
      - Enum: 1 = Mandatory 
      - Enum: 2 = ReadOnly 
 
+```crmscript
+NSFieldMetadata thing;
+Integer access  = thing.GetAccess();
+```
+
+

@@ -11,3 +11,9 @@ City corresponding to zip code
 **Parameter:** 
  - **city** String
 
+```crmscript
+NSContact thing;
+String city;
+thing.SetCity(city);
+```
+

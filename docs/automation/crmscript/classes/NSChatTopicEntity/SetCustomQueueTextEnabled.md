@@ -11,3 +11,9 @@ Use the custom queue message text
 **Parameter:** 
  - **customQueueTextEnabled** Bool
 
+```crmscript
+NSChatTopicEntity thing;
+Bool customQueueTextEnabled;
+thing.SetCustomQueueTextEnabled(customQueueTextEnabled);
+```
+

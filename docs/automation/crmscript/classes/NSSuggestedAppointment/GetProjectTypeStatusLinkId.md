@@ -11,3 +11,9 @@ Link to projectTypeStatusLink, the anchor for project guide items. Either this O
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer projectTypeStatusLinkId  = thing.GetProjectTypeStatusLinkId();
+```
+
+

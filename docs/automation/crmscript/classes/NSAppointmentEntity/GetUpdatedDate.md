@@ -11,3 +11,9 @@ Updated date
 **Returns:** DateTime
 
 
+```crmscript
+NSAppointmentEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
+
+

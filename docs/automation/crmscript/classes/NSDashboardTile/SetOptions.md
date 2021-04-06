@@ -11,3 +11,9 @@ The tile options
 **Parameter:** 
  - **options** DashboardTileOptionArray
 
+```crmscript
+NSDashboardTile thing;
+DashboardTileOptionArray options;
+thing.SetOptions(options);
+```
+

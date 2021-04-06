@@ -11,3 +11,9 @@ Is this credentials currently active.
 **Returns:** Bool
 
 
+```crmscript
+NSUntrustedCredentials thing;
+Bool isActive  = thing.GetIsActive();
+```
+
+

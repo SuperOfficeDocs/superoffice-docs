@@ -11,3 +11,9 @@ The list item
 **Returns:** String
 
 
+```crmscript
+NSDocumentTemplate thing;
+String name  = thing.GetName();
+```
+
+

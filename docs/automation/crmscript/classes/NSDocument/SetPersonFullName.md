@@ -11,3 +11,9 @@ The full name of the person this document belongs to.
 **Parameter:** 
  - **personFullName** String
 
+```crmscript
+NSDocument thing;
+String personFullName;
+thing.SetPersonFullName(personFullName);
+```
+

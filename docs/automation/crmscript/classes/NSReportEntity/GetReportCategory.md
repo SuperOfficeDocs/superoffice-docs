@@ -21,3 +21,9 @@ The category of the report.
      - Enum: 8 = Diary 
      - Enum: 9 = Favorites 
 
+```crmscript
+NSReportEntity thing;
+Integer reportCategory  = thing.GetReportCategory();
+```
+
+

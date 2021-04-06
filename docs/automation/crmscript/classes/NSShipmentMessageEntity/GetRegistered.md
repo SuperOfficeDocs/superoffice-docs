@@ -11,3 +11,9 @@ Registered when
 **Returns:** DateTime
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+DateTime registered  = thing.GetRegistered();
+```
+
+

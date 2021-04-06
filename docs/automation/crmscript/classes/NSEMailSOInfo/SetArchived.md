@@ -11,3 +11,9 @@ Is this e-mail archived in SuperOffice
 **Parameter:** 
  - **archived** Bool
 
+```crmscript
+NSEMailSOInfo thing;
+Bool archived;
+thing.SetArchived(archived);
+```
+

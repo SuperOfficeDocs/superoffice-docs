@@ -11,3 +11,9 @@ The primary key of the target table, that matches the keys specified in the data
 **Parameter:** 
  - **primaryKey** Integer
 
+```crmscript
+NSUpsertRowStatus thing;
+Integer primaryKey;
+thing.SetPrimaryKey(primaryKey);
+```
+

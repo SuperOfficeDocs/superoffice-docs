@@ -11,3 +11,9 @@ The hostname or IP address for the customer.
 **Returns:** String
 
 
+```crmscript
+NSChatSessionEntity thing;
+String customerHost  = thing.GetCustomerHost();
+```
+
+

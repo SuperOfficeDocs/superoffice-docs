@@ -11,3 +11,9 @@ The name of the connection
 **Parameter:** 
  - **connectionName** String
 
+```crmscript
+NSErpConnectionData thing;
+String connectionName;
+thing.SetConnectionName(connectionName);
+```
+

@@ -11,3 +11,9 @@ Owning contact ID
 **Returns:** Integer
 
 
+```crmscript
+NSPerson thing;
+Integer contactId  = thing.GetContactId();
+```
+
+

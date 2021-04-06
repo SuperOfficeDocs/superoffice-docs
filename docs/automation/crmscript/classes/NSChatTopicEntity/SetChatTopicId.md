@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Parameter:** 
  - **chatTopicId** Integer
 
+```crmscript
+NSChatTopicEntity thing;
+Integer chatTopicId;
+thing.SetChatTopicId(chatTopicId);
+```
+

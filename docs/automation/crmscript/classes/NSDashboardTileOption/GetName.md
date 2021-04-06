@@ -11,3 +11,9 @@ Name of option, usually not visible to users
 **Returns:** String
 
 
+```crmscript
+NSDashboardTileOption thing;
+String name  = thing.GetName();
+```
+
+

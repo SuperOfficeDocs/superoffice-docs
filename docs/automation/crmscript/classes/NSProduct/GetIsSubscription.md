@@ -11,3 +11,9 @@ Is this a subscription product, sold in repeating intervals/amounts?
 **Returns:** Bool
 
 
+```crmscript
+NSProduct thing;
+Bool isSubscription  = thing.GetIsSubscription();
+```
+
+

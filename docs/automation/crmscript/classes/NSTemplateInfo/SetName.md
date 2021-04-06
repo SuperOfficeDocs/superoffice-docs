@@ -11,3 +11,9 @@ Name of the document, shown in lists etc to the user
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSTemplateInfo thing;
+String name;
+thing.SetName(name);
+```
+

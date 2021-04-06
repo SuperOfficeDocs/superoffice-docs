@@ -11,3 +11,9 @@ The value of the resource in the given culture
 **Returns:** String
 
 
+```crmscript
+NSResourceOverride thing;
+String resourceValue  = thing.GetResourceValue();
+```
+
+

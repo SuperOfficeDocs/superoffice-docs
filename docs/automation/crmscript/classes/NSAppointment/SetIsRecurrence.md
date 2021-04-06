@@ -11,3 +11,9 @@ True if the appointment is part of a recurring pattern.
 **Parameter:** 
  - **isRecurrence** Bool
 
+```crmscript
+NSAppointment thing;
+Bool isRecurrence;
+thing.SetIsRecurrence(isRecurrence);
+```
+

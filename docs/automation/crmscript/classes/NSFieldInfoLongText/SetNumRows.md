@@ -11,3 +11,9 @@ Number of lines of text to show. Text area height.
 **Parameter:** 
  - **numRows** Integer
 
+```crmscript
+NSFieldInfoLongText thing;
+Integer numRows;
+thing.SetNumRows(numRows);
+```
+

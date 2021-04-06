@@ -11,3 +11,9 @@ Set the tooltip description for the Competitor list item.
 **Parameter:** 
  - **tooltip** String Competitor tooltip description.
 
+```crmscript
+NSCompetitor thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

@@ -11,3 +11,9 @@ TargetTableName contains the name of the table in lowercase. defines the type of
 **Parameter:** 
  - **targetTableName** String
 
+```crmscript
+NSSelectionEntity thing;
+String targetTableName;
+thing.SetTargetTableName(targetTableName);
+```
+

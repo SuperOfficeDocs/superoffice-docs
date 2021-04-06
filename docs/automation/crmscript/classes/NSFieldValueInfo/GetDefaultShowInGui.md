@@ -11,3 +11,9 @@ Default show in Gui?
 **Returns:** Bool
 
 
+```crmscript
+NSFieldValueInfo thing;
+Bool defaultShowInGui  = thing.GetDefaultShowInGui();
+```
+
+

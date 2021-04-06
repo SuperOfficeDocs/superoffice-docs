@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSRoleEntity thing;
+Integer roleId  = thing.GetRoleId();
+```
+
+

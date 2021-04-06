@@ -11,3 +11,9 @@ This value can typically be "sms/160", "sms/mms", "smtp/rfc822"
 **Returns:** StringArray
 
 
+```crmscript
+NSProviderInfo thing;
+StringArray supportedMessagingFormats  = thing.GetSupportedMessagingFormats();
+```
+
+

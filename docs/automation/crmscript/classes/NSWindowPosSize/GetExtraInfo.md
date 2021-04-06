@@ -11,3 +11,9 @@ Extra information - show state, or whatever is required
 **Returns:** String
 
 
+```crmscript
+NSWindowPosSize thing;
+String extraInfo  = thing.GetExtraInfo();
+```
+
+

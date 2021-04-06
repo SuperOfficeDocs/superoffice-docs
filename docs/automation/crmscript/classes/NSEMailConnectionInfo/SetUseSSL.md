@@ -11,3 +11,9 @@ Use a secure connection with the server
 **Parameter:** 
  - **useSSL** Bool
 
+```crmscript
+NSEMailConnectionInfo thing;
+Bool useSSL;
+thing.SetUseSSL(useSSL);
+```
+

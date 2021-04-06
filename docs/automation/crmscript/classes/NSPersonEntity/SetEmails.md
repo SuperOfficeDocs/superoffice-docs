@@ -11,3 +11,9 @@ A collection of the person's emails
 **Parameter:** 
  - **emails** EntityElementArray
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray emails;
+thing.SetEmails(emails);
+```
+

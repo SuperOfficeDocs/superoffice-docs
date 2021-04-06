@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** ReasonSold
 
 
+```crmscript
+NSSaleEntity thing;
+ReasonSold reasonSold  = thing.GetReasonSold();
+```
+
+

@@ -11,3 +11,9 @@ Key that identifies this alternative in the ERP system, if it exists there.
 **Returns:** String
 
 
+```crmscript
+NSQuoteAlternative thing;
+String eRPQuoteAlternativeKey  = thing.GetERPQuoteAlternativeKey();
+```
+
+

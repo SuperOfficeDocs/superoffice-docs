@@ -11,3 +11,9 @@ Recent sales on person
 **Parameter:** 
  - **sales** SaleSummaryItemArray
 
+```crmscript
+NSPersonSummary thing;
+SaleSummaryItemArray sales;
+thing.SetSales(sales);
+```
+

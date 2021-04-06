@@ -11,3 +11,9 @@ List of valid entities, the associated record is selected in the list, used reco
 **Parameter:** 
  - **suggestedRecords** MDOListItemArray
 
+```crmscript
+NSRefCountEntity thing;
+MDOListItemArray suggestedRecords;
+thing.SetSuggestedRecords(suggestedRecords);
+```
+

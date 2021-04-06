@@ -11,3 +11,9 @@ Text shown as confirmation text before accepting sign on.
 **Parameter:** 
  - **signOnConfirmationText** String
 
+```crmscript
+NSProjectEvent thing;
+String signOnConfirmationText;
+thing.SetSignOnConfirmationText(signOnConfirmationText);
+```
+

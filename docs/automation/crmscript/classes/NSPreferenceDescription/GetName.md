@@ -11,3 +11,9 @@ Multi-language name
 **Returns:** String
 
 
+```crmscript
+NSPreferenceDescription thing;
+String name  = thing.GetName();
+```
+
+

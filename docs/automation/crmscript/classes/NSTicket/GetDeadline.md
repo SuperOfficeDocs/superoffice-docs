@@ -11,3 +11,9 @@ Deadline for ticket.
 **Returns:** DateTime
 
 
+```crmscript
+NSTicket thing;
+DateTime deadline  = thing.GetDeadline();
+```
+
+

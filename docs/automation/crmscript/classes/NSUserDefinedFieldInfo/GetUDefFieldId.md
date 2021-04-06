@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer uDefFieldId  = thing.GetUDefFieldId();
+```
+
+

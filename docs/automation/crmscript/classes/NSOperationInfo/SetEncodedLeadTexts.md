@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **encodedLeadTexts** StringArray
 
+```crmscript
+NSOperationInfo thing;
+StringArray encodedLeadTexts;
+thing.SetEncodedLeadTexts(encodedLeadTexts);
+```
+

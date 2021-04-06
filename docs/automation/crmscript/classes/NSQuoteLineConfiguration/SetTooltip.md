@@ -11,3 +11,9 @@ Tooltip resource string.
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSQuoteLineConfiguration thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

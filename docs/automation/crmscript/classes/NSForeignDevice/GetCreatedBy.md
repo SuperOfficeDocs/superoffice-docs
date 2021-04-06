@@ -11,3 +11,9 @@ The person that created the device.
 **Returns:** String
 
 
+```crmscript
+NSForeignDevice thing;
+String createdBy  = thing.GetCreatedBy();
+```
+
+

@@ -11,3 +11,9 @@ Description of the role.
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSRoleEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

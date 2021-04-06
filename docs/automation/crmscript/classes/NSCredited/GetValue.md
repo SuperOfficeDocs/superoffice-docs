@@ -10,3 +10,8 @@ Get the name of the Credited.
 
 **Returns:** String Credited name.
 
+```crmscript
+NSCredited thing;
+String name = thing.GetValue();
+```
+

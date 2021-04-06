@@ -11,3 +11,9 @@ The contact or person's name
 **Returns:** String
 
 
+```crmscript
+NSPhoneListItem thing;
+String name  = thing.GetName();
+```
+
+

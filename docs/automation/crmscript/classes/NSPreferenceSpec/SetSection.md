@@ -11,3 +11,9 @@ Preference section name
 **Parameter:** 
  - **section** String
 
+```crmscript
+NSPreferenceSpec thing;
+String section;
+thing.SetSection(section);
+```
+

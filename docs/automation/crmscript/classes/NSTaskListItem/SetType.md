@@ -22,3 +22,9 @@ so.topic: reference
      - Enum: 9 = Report 
      - Enum: 10 = SaintAll 
 
+```crmscript
+NSTaskListItem thing;
+TaskType type;
+thing.SetType(type);
+```
+

@@ -11,3 +11,8 @@ Set the name of the CustomerLanguage item.
 **Parameter:** 
  - **value** String CustomerLanguage name.
 
+```crmscript
+NSCustomerLanguage thing;
+thing.SetValue("frotz");
+```
+

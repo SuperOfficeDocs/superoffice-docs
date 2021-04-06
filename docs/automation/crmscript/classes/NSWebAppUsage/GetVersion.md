@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSWebAppUsage thing;
+Integer version  = thing.GetVersion();
+```
+
+

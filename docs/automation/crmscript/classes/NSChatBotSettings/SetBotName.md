@@ -11,3 +11,9 @@ Chatbot name
 **Parameter:** 
  - **botName** String
 
+```crmscript
+NSChatBotSettings thing;
+String botName;
+thing.SetBotName(botName);
+```
+

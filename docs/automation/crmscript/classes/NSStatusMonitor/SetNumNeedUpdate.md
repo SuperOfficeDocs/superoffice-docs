@@ -11,3 +11,9 @@ Number of targets that had this status, but have their needsUpdate bit set due t
 **Parameter:** 
  - **numNeedUpdate** Integer
 
+```crmscript
+NSStatusMonitor thing;
+Integer numNeedUpdate;
+thing.SetNumNeedUpdate(numNeedUpdate);
+```
+

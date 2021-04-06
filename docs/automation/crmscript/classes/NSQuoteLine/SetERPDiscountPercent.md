@@ -11,3 +11,9 @@ The discount the system calculates based on customer / quantity / whatever. Can 
 **Parameter:** 
  - **eRPDiscountPercent** Float
 
+```crmscript
+NSQuoteLine thing;
+Float eRPDiscountPercent;
+thing.SetERPDiscountPercent(eRPDiscountPercent);
+```
+

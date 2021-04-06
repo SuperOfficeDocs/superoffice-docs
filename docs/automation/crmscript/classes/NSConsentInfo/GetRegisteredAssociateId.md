@@ -11,3 +11,9 @@ The ID of the associate who created this record
 **Returns:** Integer
 
 
+```crmscript
+NSConsentInfo thing;
+Integer registeredAssociateId  = thing.GetRegisteredAssociateId();
+```
+
+

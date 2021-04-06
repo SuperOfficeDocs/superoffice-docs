@@ -10,3 +10,8 @@ Get the name of the Task.
 
 **Returns:** String Task name.
 
+```crmscript
+NSTask thing;
+String name = thing.GetValue();
+```
+

@@ -11,3 +11,9 @@ Last updated by whom
 **Parameter:** 
  - **updatedAssociateId** Integer
 
+```crmscript
+NSShipmentMessageBlockEntity thing;
+Integer updatedAssociateId;
+thing.SetUpdatedAssociateId(updatedAssociateId);
+```
+

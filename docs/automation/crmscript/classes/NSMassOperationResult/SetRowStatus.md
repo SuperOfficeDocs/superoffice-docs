@@ -11,3 +11,9 @@ Array of statuses and primary keys for all rows that were specified. Populated i
 **Parameter:** 
  - **rowStatus** UpsertRowStatusArray
 
+```crmscript
+NSMassOperationResult thing;
+UpsertRowStatusArray rowStatus;
+thing.SetRowStatus(rowStatus);
+```
+

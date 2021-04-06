@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **owner** Integer
 
+```crmscript
+NSSystemEventEntity thing;
+Integer owner;
+thing.SetOwner(owner);
+```
+

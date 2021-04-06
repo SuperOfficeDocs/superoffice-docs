@@ -11,3 +11,9 @@ A localized explanation to the answer.
 **Parameter:** 
  - **userExplanation** String
 
+```crmscript
+NSQuoteVersionValidated thing;
+String userExplanation;
+thing.SetUserExplanation(userExplanation);
+```
+

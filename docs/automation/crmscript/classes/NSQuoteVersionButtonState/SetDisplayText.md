@@ -11,3 +11,9 @@ Text to be displayed on the button
 **Parameter:** 
  - **displayText** String
 
+```crmscript
+NSQuoteVersionButtonState thing;
+String displayText;
+thing.SetDisplayText(displayText);
+```
+

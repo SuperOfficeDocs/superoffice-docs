@@ -11,3 +11,9 @@ Name of the feature toggle
 **Returns:** String
 
 
+```crmscript
+NSCsFeatureToggle thing;
+String name  = thing.GetName();
+```
+
+

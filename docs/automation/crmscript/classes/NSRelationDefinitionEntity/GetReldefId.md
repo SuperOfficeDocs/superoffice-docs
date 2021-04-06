@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSRelationDefinitionEntity thing;
+Integer reldefId  = thing.GetReldefId();
+```
+
+

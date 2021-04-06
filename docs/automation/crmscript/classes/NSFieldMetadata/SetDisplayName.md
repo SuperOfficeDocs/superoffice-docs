@@ -11,3 +11,9 @@ Localized field name – shown in the GUI
 **Parameter:** 
  - **displayName** String
 
+```crmscript
+NSFieldMetadata thing;
+String displayName;
+thing.SetDisplayName(displayName);
+```
+

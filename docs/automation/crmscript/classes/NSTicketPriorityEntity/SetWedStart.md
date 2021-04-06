@@ -11,3 +11,9 @@ The work hour start for Wednesdays. Note that only the time part of the DateTime
 **Parameter:** 
  - **wedStart** DateTime
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime wedStart;
+thing.SetWedStart(wedStart);
+```
+

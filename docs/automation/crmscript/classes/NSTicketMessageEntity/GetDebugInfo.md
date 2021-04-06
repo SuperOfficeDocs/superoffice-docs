@@ -11,3 +11,9 @@ The debug info for the message.
 **Returns:** String
 
 
+```crmscript
+NSTicketMessageEntity thing;
+String debugInfo  = thing.GetDebugInfo();
+```
+
+

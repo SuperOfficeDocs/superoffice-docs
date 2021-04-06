@@ -11,3 +11,9 @@ The discount for the line, in percent. Both ‘DiscountPercent’ and ‘Discoun
 **Returns:** Float
 
 
+```crmscript
+NSQuoteLine thing;
+Float discountPercent  = thing.GetDiscountPercent();
+```
+
+

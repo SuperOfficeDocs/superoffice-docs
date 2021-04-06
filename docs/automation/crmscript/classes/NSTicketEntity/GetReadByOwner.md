@@ -11,3 +11,9 @@ The datetime for when the ticket last was read by the owner.
 **Returns:** DateTime
 
 
+```crmscript
+NSTicketEntity thing;
+DateTime readByOwner  = thing.GetReadByOwner();
+```
+
+

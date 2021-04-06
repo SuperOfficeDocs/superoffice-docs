@@ -11,3 +11,9 @@ Category of sale type, copied to sale
 **Returns:** Integer
 
 
+```crmscript
+NSSaleTypeEntity thing;
+Integer saleTypeCatId  = thing.GetSaleTypeCatId();
+```
+
+

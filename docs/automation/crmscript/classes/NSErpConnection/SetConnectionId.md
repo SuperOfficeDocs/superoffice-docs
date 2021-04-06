@@ -11,3 +11,9 @@ The GUID that uniquely identifies this connection; passed to the Connector in ev
 **Parameter:** 
  - **connectionId** String
 
+```crmscript
+NSErpConnection thing;
+String connectionId;
+thing.SetConnectionId(connectionId);
+```
+

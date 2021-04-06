@@ -11,3 +11,9 @@ The projects status
 **Returns:** String
 
 
+```crmscript
+NSProject thing;
+String status  = thing.GetStatus();
+```
+
+

@@ -11,3 +11,9 @@ If 1, the SignOff task should be created as an Assigned task, triggering the inv
 **Parameter:** 
  - **signOffTriggersAssign** Bool
 
+```crmscript
+NSProjectEventEntity thing;
+Bool signOffTriggersAssign;
+thing.SetSignOffTriggersAssign(signOffTriggersAssign);
+```
+

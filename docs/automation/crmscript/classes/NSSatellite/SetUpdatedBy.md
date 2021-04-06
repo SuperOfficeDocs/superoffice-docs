@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **updatedBy** Associate
 
+```crmscript
+NSSatellite thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
+

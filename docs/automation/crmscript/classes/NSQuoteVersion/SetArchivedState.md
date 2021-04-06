@@ -21,3 +21,9 @@ State that this quote version had, right before it was changed to Archived; in t
      - Enum: 8 = Lost 
      - Enum: 9 = Sold 
 
+```crmscript
+NSQuoteVersion thing;
+QuoteVersionState archivedState;
+thing.SetArchivedState(archivedState);
+```
+

@@ -11,3 +11,9 @@ Optional external primary key for the row
 **Parameter:** 
  - **externalKey** String
 
+```crmscript
+NSImportLine thing;
+String externalKey;
+thing.SetExternalKey(externalKey);
+```
+

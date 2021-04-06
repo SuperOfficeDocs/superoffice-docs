@@ -15,3 +15,9 @@ Status information for the quote version.
      - Enum: 2 = Warning 
      - Enum: 3 = Error 
 
+```crmscript
+NSQuoteVersionStatusInformation thing;
+Integer status;
+thing.SetStatus(status);
+```
+

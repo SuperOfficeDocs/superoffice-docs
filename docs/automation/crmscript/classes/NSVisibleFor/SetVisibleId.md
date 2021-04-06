@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **visibleId** Integer
 
+```crmscript
+NSVisibleFor thing;
+Integer visibleId;
+thing.SetVisibleId(visibleId);
+```
+

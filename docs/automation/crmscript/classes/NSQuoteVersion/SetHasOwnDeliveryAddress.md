@@ -11,3 +11,9 @@ The delivery address is not the same as the contact's Street address
 **Parameter:** 
  - **hasOwnDeliveryAddress** Bool
 
+```crmscript
+NSQuoteVersion thing;
+Bool hasOwnDeliveryAddress;
+thing.SetHasOwnDeliveryAddress(hasOwnDeliveryAddress);
+```
+

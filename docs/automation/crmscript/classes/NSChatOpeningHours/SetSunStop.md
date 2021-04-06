@@ -11,3 +11,9 @@ When opening hours stop on Sundays. Only time-part is used.
 **Parameter:** 
  - **sunStop** TimeSpan
 
+```crmscript
+NSChatOpeningHours thing;
+TimeSpan sunStop;
+thing.SetSunStop(sunStop);
+```
+

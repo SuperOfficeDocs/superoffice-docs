@@ -11,3 +11,9 @@ The id of the connection
 **Returns:** Integer
 
 
+```crmscript
+NSErpConnectionData thing;
+Integer erpConnectionId  = thing.GetErpConnectionId();
+```
+
+

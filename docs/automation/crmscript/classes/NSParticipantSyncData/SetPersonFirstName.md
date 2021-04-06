@@ -11,3 +11,9 @@ First name
 **Parameter:** 
  - **personFirstName** String
 
+```crmscript
+NSParticipantSyncData thing;
+String personFirstName;
+thing.SetPersonFirstName(personFirstName);
+```
+

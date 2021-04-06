@@ -11,3 +11,9 @@ The date/time the membership the selection last changed. Dynamic: change of crit
 **Returns:** DateTime
 
 
+```crmscript
+NSSelectionEntity thing;
+DateTime lastMembershipChange  = thing.GetLastMembershipChange();
+```
+
+

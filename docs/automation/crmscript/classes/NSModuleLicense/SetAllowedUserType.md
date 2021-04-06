@@ -17,3 +17,9 @@ Allowed associate type for user licenses: internal(0), external(4).
      - Enum: 4 = AnonymousAssociate 
      - Enum: 5 = SystemAssociate 
 
+```crmscript
+NSModuleLicense thing;
+Integer allowedUserType;
+thing.SetAllowedUserType(allowedUserType);
+```
+

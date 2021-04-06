@@ -11,3 +11,9 @@ Owning contact ID
 **Returns:** Integer
 
 
+```crmscript
+NSPreviewMailing thing;
+Integer contactId  = thing.GetContactId();
+```
+
+

@@ -11,3 +11,9 @@ If true, then there is no licenseNumber limit on how many of these modules may b
 **Returns:** Bool
 
 
+```crmscript
+NSModuleLicense thing;
+Bool unrestricted  = thing.GetUnrestricted();
+```
+
+

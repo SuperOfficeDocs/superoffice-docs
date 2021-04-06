@@ -11,3 +11,9 @@ If email template, default senderaddress when template is of type quote email or
 **Parameter:** 
  - **senderEmailAddress** String
 
+```crmscript
+NSDocumentTemplateEntity thing;
+String senderEmailAddress;
+thing.SetSenderEmailAddress(senderEmailAddress);
+```
+

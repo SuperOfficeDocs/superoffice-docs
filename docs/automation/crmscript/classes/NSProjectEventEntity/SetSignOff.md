@@ -11,3 +11,9 @@ Is Sign Off functionality enabled?
 **Parameter:** 
  - **signOff** Bool
 
+```crmscript
+NSProjectEventEntity thing;
+Bool signOff;
+thing.SetSignOff(signOff);
+```
+

@@ -11,3 +11,9 @@ ProjectMember Type Id - from the ProjectMemberType list.
 **Parameter:** 
  - **projectMemberTypeId** Integer
 
+```crmscript
+NSProjectMember thing;
+Integer projectMemberTypeId;
+thing.SetProjectMemberTypeId(projectMemberTypeId);
+```
+

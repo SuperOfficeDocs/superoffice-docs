@@ -11,3 +11,9 @@ Indicates if the resolved person was created or not.
 **Returns:** Bool
 
 
+```crmscript
+NSResolvedUser thing;
+Bool personCreated  = thing.GetPersonCreated();
+```
+
+

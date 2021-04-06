@@ -11,3 +11,9 @@ The descriptiong for this topic.
 **Returns:** String
 
 
+```crmscript
+NSChatTopicEntity thing;
+String description  = thing.GetDescription();
+```
+
+

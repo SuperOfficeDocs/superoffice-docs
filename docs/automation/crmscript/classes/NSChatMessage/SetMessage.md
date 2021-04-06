@@ -11,3 +11,9 @@ The message.
 **Parameter:** 
  - **message** String
 
+```crmscript
+NSChatMessage thing;
+String message;
+thing.SetMessage(message);
+```
+

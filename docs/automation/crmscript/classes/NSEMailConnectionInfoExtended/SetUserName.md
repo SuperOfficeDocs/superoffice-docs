@@ -11,3 +11,9 @@ Name of user to log in with
 **Parameter:** 
  - **userName** String
 
+```crmscript
+NSEMailConnectionInfoExtended thing;
+String userName;
+thing.SetUserName(userName);
+```
+

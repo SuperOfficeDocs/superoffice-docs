@@ -11,3 +11,9 @@ Custom data for Pocket, in JSON format
 **Returns:** String
 
 
+```crmscript
+NSPocketStartupData thing;
+String customData  = thing.GetCustomData();
+```
+
+

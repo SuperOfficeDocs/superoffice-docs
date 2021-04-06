@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSBlobEntity thing;
+Integer blobId  = thing.GetBlobId();
+```
+
+

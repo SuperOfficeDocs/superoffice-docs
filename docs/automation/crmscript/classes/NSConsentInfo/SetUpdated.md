@@ -11,3 +11,9 @@ When this consent record was last updated
 **Parameter:** 
  - **updated** DateTime
 
+```crmscript
+NSConsentInfo thing;
+DateTime updated;
+thing.SetUpdated(updated);
+```
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Address
 
 
+```crmscript
+NSContactEntity thing;
+Address address  = thing.GetAddress();
+```
+
+

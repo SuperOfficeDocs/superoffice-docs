@@ -11,3 +11,9 @@ Language id as LCID value
 **Returns:** Integer
 
 
+```crmscript
+NSLocalizedText thing;
+Integer languageId  = thing.GetLanguageId();
+```
+
+

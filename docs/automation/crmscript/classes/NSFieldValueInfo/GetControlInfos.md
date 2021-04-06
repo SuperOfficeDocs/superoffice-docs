@@ -11,3 +11,9 @@ Array of the controlinfos
 **Returns:** ControlInfoArray
 
 
+```crmscript
+NSFieldValueInfo thing;
+ControlInfoArray controlInfos  = thing.GetControlInfos();
+```
+
+

@@ -11,3 +11,9 @@ Icon hint, which should resolve to an icon that is compatible in size with a sta
 **Returns:** String
 
 
+```crmscript
+NSCommandInfo thing;
+String iconHint  = thing.GetIconHint();
+```
+
+

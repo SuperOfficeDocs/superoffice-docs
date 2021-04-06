@@ -11,3 +11,9 @@ Phone number
 **Returns:** String
 
 
+```crmscript
+NSProjectMember thing;
+String phone  = thing.GetPhone();
+```
+
+

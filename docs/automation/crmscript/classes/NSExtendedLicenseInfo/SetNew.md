@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **new** LicenseInfo
 
+```crmscript
+NSExtendedLicenseInfo thing;
+LicenseInfo new;
+thing.SetNew(new);
+```
+

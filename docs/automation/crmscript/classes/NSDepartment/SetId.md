@@ -11,3 +11,8 @@ Set the primary key (id) for the Department
 **Parameter:** 
  - **id** Integer Department id.
 
+```crmscript
+NSDepartment thing;
+thing.SetId(123);
+```
+

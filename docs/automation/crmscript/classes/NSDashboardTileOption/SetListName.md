@@ -11,3 +11,9 @@ An MDO list name, used if the type is list and no ListOptions are given
 **Parameter:** 
  - **listName** String
 
+```crmscript
+NSDashboardTileOption thing;
+String listName;
+thing.SetListName(listName);
+```
+

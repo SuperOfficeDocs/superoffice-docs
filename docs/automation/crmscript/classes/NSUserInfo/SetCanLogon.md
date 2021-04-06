@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **canLogon** Bool
 
+```crmscript
+NSUserInfo thing;
+Bool canLogon;
+thing.SetCanLogon(canLogon);
+```
+

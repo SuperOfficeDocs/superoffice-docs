@@ -11,3 +11,9 @@ Settings for the chat widget
 **Parameter:** 
  - **widget** ChatWidgetSettings
 
+```crmscript
+NSChatTopicEntity thing;
+ChatWidgetSettings widget;
+thing.SetWidget(widget);
+```
+

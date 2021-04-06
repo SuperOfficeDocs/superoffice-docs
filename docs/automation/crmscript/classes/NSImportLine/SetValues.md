@@ -11,3 +11,9 @@ An array of the values that will be imported on the entity
 **Parameter:** 
  - **values** StringArray
 
+```crmscript
+NSImportLine thing;
+StringArray values;
+thing.SetValues(values);
+```
+

@@ -11,3 +11,9 @@ Cities associated with location
 **Parameter:** 
  - **tZLocationCities** String
 
+```crmscript
+NSTimeZoneData thing;
+String tZLocationCities;
+thing.SetTZLocationCities(tZLocationCities);
+```
+

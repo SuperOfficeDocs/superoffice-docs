@@ -15,3 +15,9 @@ The type of booking the appointment represents
      - Enum: 2 = Owner 
      - Enum: 3 = Participant 
 
+```crmscript
+NSAlarmData thing;
+Integer bookingType;
+thing.SetBookingType(bookingType);
+```
+

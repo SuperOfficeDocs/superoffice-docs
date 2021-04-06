@@ -11,3 +11,9 @@ Number of active links to sale, document, appointment.
 **Returns:** Integer
 
 
+```crmscript
+NSSaleEntity thing;
+Integer activeLinks  = thing.GetActiveLinks();
+```
+
+

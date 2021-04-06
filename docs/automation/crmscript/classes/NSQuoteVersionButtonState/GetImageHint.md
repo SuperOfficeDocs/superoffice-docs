@@ -11,3 +11,9 @@ Image to be shown
 **Returns:** String
 
 
+```crmscript
+NSQuoteVersionButtonState thing;
+String imageHint  = thing.GetImageHint();
+```
+
+

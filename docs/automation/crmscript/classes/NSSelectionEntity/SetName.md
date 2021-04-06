@@ -11,3 +11,9 @@ Name of selection, freetext indexed
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSSelectionEntity thing;
+String name;
+thing.SetName(name);
+```
+

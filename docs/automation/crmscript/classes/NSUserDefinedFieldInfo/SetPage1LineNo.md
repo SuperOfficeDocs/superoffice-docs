@@ -11,3 +11,9 @@ Line no on View Page 1, used if MDO flags are OFF. 0 = this field is not visible
 **Parameter:** 
  - **page1LineNo** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer page1LineNo;
+thing.SetPage1LineNo(page1LineNo);
+```
+

@@ -11,3 +11,9 @@ Name of the person's owner
 **Parameter:** 
  - **associateName** String
 
+```crmscript
+NSPerson thing;
+String associateName;
+thing.SetAssociateName(associateName);
+```
+

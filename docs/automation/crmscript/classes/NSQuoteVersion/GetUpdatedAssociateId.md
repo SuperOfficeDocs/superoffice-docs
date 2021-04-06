@@ -11,3 +11,9 @@ Last updated by whom
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteVersion thing;
+Integer updatedAssociateId  = thing.GetUpdatedAssociateId();
+```
+
+

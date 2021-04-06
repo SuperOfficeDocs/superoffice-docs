@@ -11,3 +11,9 @@ The sale owner
 **Parameter:** 
  - **associate** Associate
 
+```crmscript
+NSSaleEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
+

@@ -11,3 +11,9 @@ The name of the module owner, not visible in GUI but used in the code. OwnerName
 **Returns:** String
 
 
+```crmscript
+NSModuleLicense thing;
+String ownerName  = thing.GetOwnerName();
+```
+
+

@@ -11,3 +11,9 @@ The number of links clicked in the mailing.
 **Parameter:** 
  - **linkClicks** Integer
 
+```crmscript
+NSPreviewMailing thing;
+Integer linkClicks;
+thing.SetLinkClicks(linkClicks);
+```
+

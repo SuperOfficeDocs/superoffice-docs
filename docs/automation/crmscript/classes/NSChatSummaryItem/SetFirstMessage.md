@@ -11,3 +11,9 @@ A copy of the first message in the chat session
 **Parameter:** 
  - **firstMessage** String
 
+```crmscript
+NSChatSummaryItem thing;
+String firstMessage;
+thing.SetFirstMessage(firstMessage);
+```
+

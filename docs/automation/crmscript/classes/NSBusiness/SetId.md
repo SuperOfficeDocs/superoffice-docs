@@ -11,3 +11,8 @@ Set the primary key (id) for the Business
 **Parameter:** 
  - **id** Integer Business id.
 
+```crmscript
+NSBusiness thing;
+thing.SetId(123);
+```
+

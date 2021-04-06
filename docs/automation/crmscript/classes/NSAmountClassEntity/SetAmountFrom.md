@@ -11,3 +11,9 @@ Lower limit of this amount class
 **Parameter:** 
  - **amountFrom** Float
 
+```crmscript
+NSAmountClassEntity thing;
+Float amountFrom;
+thing.SetAmountFrom(amountFrom);
+```
+

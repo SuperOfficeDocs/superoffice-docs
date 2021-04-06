@@ -11,3 +11,9 @@ The cost price per unit for this product. May be filled in by connector if it ha
 **Parameter:** 
  - **unitCost** Float
 
+```crmscript
+NSQuoteLine thing;
+Float unitCost;
+thing.SetUnitCost(unitCost);
+```
+

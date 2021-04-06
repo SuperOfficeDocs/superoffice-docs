@@ -11,3 +11,9 @@ The title/subject of the created ticket
 **Parameter:** 
  - **title** String
 
+```crmscript
+NSTicketInfo thing;
+String title;
+thing.SetTitle(title);
+```
+

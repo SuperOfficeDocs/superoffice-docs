@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **defaultTask** Integer
 
+```crmscript
+NSStatusMonitor thing;
+Integer defaultTask;
+thing.SetDefaultTask(defaultTask);
+```
+

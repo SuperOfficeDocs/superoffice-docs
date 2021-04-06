@@ -11,3 +11,9 @@ Last updated when
 **Returns:** DateTime
 
 
+```crmscript
+NSForeignKey thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
+
+

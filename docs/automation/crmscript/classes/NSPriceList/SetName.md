@@ -11,3 +11,9 @@ Name of this pricelist to use in the user interface.
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSPriceList thing;
+String name;
+thing.SetName(name);
+```
+

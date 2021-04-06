@@ -11,3 +11,9 @@ Number of times the specific soprotocol is accessed
 **Parameter:** 
  - **aggregateCount** Integer
 
+```crmscript
+NSWebAppUsage thing;
+Integer aggregateCount;
+thing.SetAggregateCount(aggregateCount);
+```
+

@@ -11,3 +11,9 @@ Does this sale type have a guide attached
 **Parameter:** 
  - **hasGuide** Bool
 
+```crmscript
+NSSaleTypeEntity thing;
+Bool hasGuide;
+thing.SetHasGuide(hasGuide);
+```
+

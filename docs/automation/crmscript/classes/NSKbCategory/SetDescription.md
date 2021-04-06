@@ -11,3 +11,9 @@ The description of this category.
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSKbCategory thing;
+String description;
+thing.SetDescription(description);
+```
+

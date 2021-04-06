@@ -11,3 +11,9 @@ Sale type and stage link info.
 **Returns:** SaleTypeStageLink
 
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+SaleTypeStageLink saleTypeStageLink  = thing.GetSaleTypeStageLink();
+```
+
+

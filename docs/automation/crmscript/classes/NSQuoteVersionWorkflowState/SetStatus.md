@@ -11,3 +11,9 @@ Status information for the Quote Version.
 **Parameter:** 
  - **status** QuoteVersionStatusInformation
 
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionStatusInformation status;
+thing.SetStatus(status);
+```
+

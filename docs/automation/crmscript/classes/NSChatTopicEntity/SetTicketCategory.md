@@ -11,3 +11,9 @@ Category on ticket created from off-line request
 **Parameter:** 
  - **ticketCategory** TicketCategory
 
+```crmscript
+NSChatTopicEntity thing;
+TicketCategory ticketCategory;
+thing.SetTicketCategory(ticketCategory);
+```
+

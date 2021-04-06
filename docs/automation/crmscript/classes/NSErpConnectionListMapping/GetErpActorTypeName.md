@@ -11,3 +11,9 @@ The actorType belonging to the ListMapping
 **Returns:** String
 
 
+```crmscript
+NSErpConnectionListMapping thing;
+String erpActorTypeName  = thing.GetErpActorTypeName();
+```
+
+

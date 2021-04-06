@@ -11,3 +11,9 @@ Last login date
 **Returns:** DateTime
 
 
+```crmscript
+NSUser thing;
+DateTime lastlogin  = thing.GetLastlogin();
+```
+
+

@@ -11,3 +11,9 @@ The associate owning this person (similar to contact.Associate) - usually blank.
 **Returns:** Associate
 
 
+```crmscript
+NSPersonEntity thing;
+Associate associate  = thing.GetAssociate();
+```
+
+

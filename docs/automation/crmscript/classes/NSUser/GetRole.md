@@ -11,3 +11,9 @@ Users role for role-based security. Determines permissions and access rights for
 **Returns:** Role
 
 
+```crmscript
+NSUser thing;
+Role role  = thing.GetRole();
+```
+
+

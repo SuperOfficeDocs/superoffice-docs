@@ -11,3 +11,9 @@ The person's available and selected interests.
 **Parameter:** 
  - **interests** SelectableMDOListItemArray
 
+```crmscript
+NSPersonEntity thing;
+SelectableMDOListItemArray interests;
+thing.SetInterests(interests);
+```
+

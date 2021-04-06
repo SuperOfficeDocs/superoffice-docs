@@ -11,3 +11,9 @@ The child items of the MDOListItem
 **Parameter:** 
  - **childItems** MDOListItemArray
 
+```crmscript
+NSMDOListItem thing;
+MDOListItemArray childItems;
+thing.SetChildItems(childItems);
+```
+

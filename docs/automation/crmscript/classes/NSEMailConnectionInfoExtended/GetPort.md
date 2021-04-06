@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSEMailConnectionInfoExtended thing;
+Integer port  = thing.GetPort();
+```
+
+

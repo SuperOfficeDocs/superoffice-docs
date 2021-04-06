@@ -11,3 +11,9 @@ Paper width in twips
 **Returns:** Integer
 
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer paperWidth  = thing.GetPaperWidth();
+```
+
+

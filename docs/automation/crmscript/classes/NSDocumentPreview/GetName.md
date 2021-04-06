@@ -11,3 +11,9 @@ The documents name
 **Returns:** String
 
 
+```crmscript
+NSDocumentPreview thing;
+String name  = thing.GetName();
+```
+
+

@@ -11,3 +11,9 @@ Description of Version. Potentially longer text description, typically used in a
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSQuoteVersion thing;
+String description;
+thing.SetDescription(description);
+```
+

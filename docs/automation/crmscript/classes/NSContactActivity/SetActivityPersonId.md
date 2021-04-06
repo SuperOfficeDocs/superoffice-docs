@@ -11,3 +11,9 @@ Id of the person causing the activity.
 **Parameter:** 
  - **activityPersonId** Integer
 
+```crmscript
+NSContactActivity thing;
+Integer activityPersonId;
+thing.SetActivityPersonId(activityPersonId);
+```
+

@@ -11,3 +11,9 @@ How many active ERP links are there for this person?
 **Returns:** Integer
 
 
+```crmscript
+NSPerson thing;
+Integer activeErpLinks  = thing.GetActiveErpLinks();
+```
+
+

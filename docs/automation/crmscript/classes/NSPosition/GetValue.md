@@ -10,3 +10,8 @@ Get the name of the Position.
 
 **Returns:** String Position name.
 
+```crmscript
+NSPosition thing;
+String name = thing.GetValue();
+```
+

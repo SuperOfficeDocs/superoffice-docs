@@ -11,3 +11,9 @@ List of all elements linked to the project
 **Parameter:** 
  - **links** LinkArray
 
+```crmscript
+NSProjectEntity thing;
+LinkArray links;
+thing.SetLinks(links);
+```
+

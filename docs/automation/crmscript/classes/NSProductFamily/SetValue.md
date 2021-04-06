@@ -11,3 +11,8 @@ Set the name of the ProductFamily item.
 **Parameter:** 
  - **value** String ProductFamily name.
 
+```crmscript
+NSProductFamily thing;
+thing.SetValue("frotz");
+```
+

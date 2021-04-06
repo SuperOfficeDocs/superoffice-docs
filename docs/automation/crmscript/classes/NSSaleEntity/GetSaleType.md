@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** SaleType
 
 
+```crmscript
+NSSaleEntity thing;
+SaleType saleType  = thing.GetSaleType();
+```
+
+

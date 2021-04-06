@@ -11,3 +11,9 @@ Array of column definitions
 **Parameter:** 
  - **columnInfos** ImportColumnInfoArray
 
+```crmscript
+NSImportErpData thing;
+ImportColumnInfoArray columnInfos;
+thing.SetColumnInfos(columnInfos);
+```
+

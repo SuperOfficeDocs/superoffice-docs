@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isBusy** Bool
 
+```crmscript
+NSAppointmentSyncData thing;
+Bool isBusy;
+thing.SetIsBusy(isBusy);
+```
+

@@ -11,3 +11,9 @@ The contact's address, formatted with linebreaks and spaces into a single string
 **Parameter:** 
  - **formattedAddress** String
 
+```crmscript
+NSContact thing;
+String formattedAddress;
+thing.SetFormattedAddress(formattedAddress);
+```
+

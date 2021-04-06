@@ -11,3 +11,9 @@ Title
 **Returns:** String
 
 
+```crmscript
+NSPersonEntity thing;
+String title  = thing.GetTitle();
+```
+
+

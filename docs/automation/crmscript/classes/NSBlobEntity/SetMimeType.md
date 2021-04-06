@@ -11,3 +11,9 @@ Mime type, describing the technical type (image/jpeg) of the data
 **Parameter:** 
  - **mimeType** String
 
+```crmscript
+NSBlobEntity thing;
+String mimeType;
+thing.SetMimeType(mimeType);
+```
+

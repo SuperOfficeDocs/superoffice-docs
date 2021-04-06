@@ -11,3 +11,9 @@ If true the event is enabled (visible)
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEvent thing;
+Bool enabled  = thing.GetEnabled();
+```
+
+

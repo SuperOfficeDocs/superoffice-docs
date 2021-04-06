@@ -15,3 +15,9 @@ Justification - 0 = default, left, right, center
      - Enum: 2 = Center 
      - Enum: 3 = Right 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+UdefJustification justification;
+thing.SetJustification(justification);
+```
+

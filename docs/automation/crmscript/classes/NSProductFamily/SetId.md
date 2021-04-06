@@ -11,3 +11,8 @@ Set the primary key (id) for the ProductFamily
 **Parameter:** 
  - **id** Integer ProductFamily id.
 
+```crmscript
+NSProductFamily thing;
+thing.SetId(123);
+```
+

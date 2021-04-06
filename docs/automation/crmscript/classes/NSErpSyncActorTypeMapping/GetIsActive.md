@@ -11,3 +11,9 @@ Is this sync mapping active
 **Returns:** Bool
 
 
+```crmscript
+NSErpSyncActorTypeMapping thing;
+Bool isActive  = thing.GetIsActive();
+```
+
+

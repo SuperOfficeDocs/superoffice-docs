@@ -11,3 +11,9 @@ A summary of fields that have mappings to or from the ERP system
 **Parameter:** 
  - **mappings** String
 
+```crmscript
+NSErpSyncActorSummary thing;
+String mappings;
+thing.SetMappings(mappings);
+```
+

@@ -11,3 +11,9 @@ Last name
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String lastname  = thing.GetLastname();
+```
+
+

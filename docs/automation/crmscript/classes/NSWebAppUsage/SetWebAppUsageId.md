@@ -11,3 +11,9 @@ Primary Key
 **Parameter:** 
  - **webAppUsageId** Integer
 
+```crmscript
+NSWebAppUsage thing;
+Integer webAppUsageId;
+thing.SetWebAppUsageId(webAppUsageId);
+```
+

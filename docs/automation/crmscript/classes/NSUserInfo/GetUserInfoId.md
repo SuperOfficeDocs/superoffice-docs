@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSUserInfo thing;
+Integer userInfoId  = thing.GetUserInfoId();
+```
+
+

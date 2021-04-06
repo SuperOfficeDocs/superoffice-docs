@@ -11,3 +11,9 @@ The list item
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSProjectTypeEntity thing;
+String name;
+thing.SetName(name);
+```
+

@@ -11,3 +11,9 @@ Is timezone enabled
 **Parameter:** 
  - **timezoneEnabled** Bool
 
+```crmscript
+NSCustomerServiceStartup thing;
+Bool timezoneEnabled;
+thing.SetTimezoneEnabled(timezoneEnabled);
+```
+

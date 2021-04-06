@@ -11,3 +11,9 @@ Template to use for alerts.
 **Parameter:** 
  - **alertTemplate** ReplyTemplate
 
+```crmscript
+NSChatTopicEntity thing;
+ReplyTemplate alertTemplate;
+thing.SetAlertTemplate(alertTemplate);
+```
+

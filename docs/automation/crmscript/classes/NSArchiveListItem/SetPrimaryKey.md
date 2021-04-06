@@ -11,3 +11,9 @@ The  primary key for the row
 **Parameter:** 
  - **primaryKey** Integer
 
+```crmscript
+NSArchiveListItem thing;
+Integer primaryKey;
+thing.SetPrimaryKey(primaryKey);
+```
+

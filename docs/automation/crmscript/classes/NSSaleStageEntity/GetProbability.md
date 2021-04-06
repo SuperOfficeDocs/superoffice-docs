@@ -11,3 +11,9 @@ The numeric probability of the sale
 **Returns:** Integer
 
 
+```crmscript
+NSSaleStageEntity thing;
+Integer probability  = thing.GetProbability();
+```
+
+

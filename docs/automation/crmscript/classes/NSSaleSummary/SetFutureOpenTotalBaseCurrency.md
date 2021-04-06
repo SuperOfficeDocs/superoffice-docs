@@ -11,3 +11,9 @@ Summed amount for all Future Pipe/All open sales with date after the period in d
 **Parameter:** 
  - **futureOpenTotalBaseCurrency** Float
 
+```crmscript
+NSSaleSummary thing;
+Float futureOpenTotalBaseCurrency;
+thing.SetFutureOpenTotalBaseCurrency(futureOpenTotalBaseCurrency);
+```
+

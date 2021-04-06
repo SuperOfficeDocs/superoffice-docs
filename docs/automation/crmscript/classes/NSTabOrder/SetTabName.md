@@ -11,3 +11,9 @@ Name of tab control
 **Parameter:** 
  - **tabName** String
 
+```crmscript
+NSTabOrder thing;
+String tabName;
+thing.SetTabName(tabName);
+```
+

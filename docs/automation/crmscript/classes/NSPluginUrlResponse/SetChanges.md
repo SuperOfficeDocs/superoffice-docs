@@ -11,3 +11,9 @@ Tablename/recordid of data changed by this method, that the client may need to r
 **Parameter:** 
  - **changes** ChangedData
 
+```crmscript
+NSPluginUrlResponse thing;
+ChangedData changes;
+thing.SetChanges(changes);
+```
+

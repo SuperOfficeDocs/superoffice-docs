@@ -11,3 +11,9 @@ Headings in which to list the different users.
 **Returns:** StringArray
 
 
+```crmscript
+NSCredentialsGroupUsers thing;
+StringArray headings  = thing.GetHeadings();
+```
+
+

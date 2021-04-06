@@ -11,3 +11,9 @@ Tablename/recordid of data changed by this method
 **Returns:** ChangedData
 
 
+```crmscript
+NSQuoteAlternativeRecalculated thing;
+ChangedData changes  = thing.GetChanges();
+```
+
+

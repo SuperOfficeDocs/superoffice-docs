@@ -11,3 +11,9 @@ If 0, the signOn Activity should go into the persons Our Contact; if not 0, this
 **Returns:** Integer
 
 
+```crmscript
+NSProjectEvent thing;
+Integer signOnPersonId  = thing.GetSignOnPersonId();
+```
+
+

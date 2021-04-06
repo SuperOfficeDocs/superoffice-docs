@@ -11,3 +11,9 @@ Password for the username
 **Returns:** String
 
 
+```crmscript
+NSEMailConnectionInfo thing;
+String password  = thing.GetPassword();
+```
+
+

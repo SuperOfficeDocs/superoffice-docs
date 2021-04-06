@@ -11,3 +11,9 @@ Rank of the field
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSQuoteLineConfiguration thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

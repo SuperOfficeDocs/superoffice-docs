@@ -11,3 +11,9 @@ Whether open on Saturdays.
 **Returns:** Bool
 
 
+```crmscript
+NSChatOpeningHours thing;
+Bool satEnabled  = thing.GetSatEnabled();
+```
+
+

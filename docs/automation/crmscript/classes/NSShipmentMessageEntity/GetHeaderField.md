@@ -11,3 +11,9 @@ Extra header fields added to mail. Must be formatted correctly
 **Returns:** String
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+String headerField  = thing.GetHeaderField();
+```
+
+

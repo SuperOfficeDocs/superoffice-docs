@@ -11,3 +11,9 @@ Returns a collection of phone numbers that belong to the contact person.
 **Returns:** StringArray
 
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray phonePrivate  = thing.GetPhonePrivate();
+```
+
+

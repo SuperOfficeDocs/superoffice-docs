@@ -11,3 +11,9 @@ A document may also be connected to a sale, so you see the document on the compa
 **Returns:** Sale
 
 
+```crmscript
+NSDocumentEntity thing;
+Sale sale  = thing.GetSale();
+```
+
+

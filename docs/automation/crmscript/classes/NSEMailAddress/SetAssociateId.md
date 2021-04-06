@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSEMailAddress thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

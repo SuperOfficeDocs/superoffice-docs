@@ -11,3 +11,9 @@ Label for the field
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSProductExtraDataField thing;
+String name;
+thing.SetName(name);
+```
+

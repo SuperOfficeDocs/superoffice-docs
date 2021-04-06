@@ -11,3 +11,9 @@ The suppliers' code or part number for this product. Is stored here if the user 
 **Returns:** String
 
 
+```crmscript
+NSQuoteLine thing;
+String supplierCode  = thing.GetSupplierCode();
+```
+
+

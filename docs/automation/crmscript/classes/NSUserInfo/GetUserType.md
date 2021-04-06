@@ -17,3 +17,9 @@ so.topic: reference
      - Enum: 4 = AnonymousAssociate 
      - Enum: 5 = SystemAssociate 
 
+```crmscript
+NSUserInfo thing;
+Integer userType  = thing.GetUserType();
+```
+
+

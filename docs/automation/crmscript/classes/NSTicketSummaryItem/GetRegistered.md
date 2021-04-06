@@ -11,3 +11,9 @@ When the ticket was created.
 **Returns:** DateTime
 
 
+```crmscript
+NSTicketSummaryItem thing;
+DateTime registered  = thing.GetRegistered();
+```
+
+

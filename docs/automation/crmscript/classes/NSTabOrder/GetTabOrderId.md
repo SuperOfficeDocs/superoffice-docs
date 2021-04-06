@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSTabOrder thing;
+Integer tabOrderId  = thing.GetTabOrderId();
+```
+
+

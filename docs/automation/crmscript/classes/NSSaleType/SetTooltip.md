@@ -11,3 +11,9 @@ Set the tooltip description for the SaleType list item.
 **Parameter:** 
  - **tooltip** String SaleType tooltip description.
 
+```crmscript
+NSSaleType thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

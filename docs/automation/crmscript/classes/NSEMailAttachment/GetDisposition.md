@@ -11,3 +11,9 @@ Content-Disposition
 **Returns:** String
 
 
+```crmscript
+NSEMailAttachment thing;
+String disposition  = thing.GetDisposition();
+```
+
+

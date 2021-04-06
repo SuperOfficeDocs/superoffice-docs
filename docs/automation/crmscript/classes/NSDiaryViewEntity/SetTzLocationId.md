@@ -11,3 +11,9 @@ Default timezone location for this view
 **Parameter:** 
  - **tzLocationId** Integer
 
+```crmscript
+NSDiaryViewEntity thing;
+Integer tzLocationId;
+thing.SetTzLocationId(tzLocationId);
+```
+

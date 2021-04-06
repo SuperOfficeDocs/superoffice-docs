@@ -11,3 +11,9 @@ Tooltip or other description
 **Returns:** String
 
 
+```crmscript
+NSAmountClassEntity thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

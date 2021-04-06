@@ -11,3 +11,9 @@ Tooltip text, anything you want; shown when the cursor hovers over the line in t
 **Parameter:** 
  - **moduleTooltip** String
 
+```crmscript
+NSModuleLicense thing;
+String moduleTooltip;
+thing.SetModuleTooltip(moduleTooltip);
+```
+

@@ -11,3 +11,9 @@ Contact ID of person or contact who is the sale stakeholder
 **Parameter:** 
  - **contactId** Integer
 
+```crmscript
+NSSaleStakeholder thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
+

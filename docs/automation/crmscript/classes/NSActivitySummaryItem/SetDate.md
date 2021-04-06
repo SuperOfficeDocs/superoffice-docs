@@ -11,3 +11,9 @@ Start/Document date
 **Parameter:** 
  - **date** DateTime
 
+```crmscript
+NSActivitySummaryItem thing;
+DateTime date;
+thing.SetDate(date);
+```
+

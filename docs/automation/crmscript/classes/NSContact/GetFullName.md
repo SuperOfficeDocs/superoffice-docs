@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSContact thing;
+String fullName  = thing.GetFullName();
+```
+
+

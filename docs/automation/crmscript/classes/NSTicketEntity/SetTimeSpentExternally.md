@@ -11,3 +11,9 @@ The total time (seconds) within the priority's office hours the ticket has been 
 **Parameter:** 
  - **timeSpentExternally** Integer
 
+```crmscript
+NSTicketEntity thing;
+Integer timeSpentExternally;
+thing.SetTimeSpentExternally(timeSpentExternally);
+```
+

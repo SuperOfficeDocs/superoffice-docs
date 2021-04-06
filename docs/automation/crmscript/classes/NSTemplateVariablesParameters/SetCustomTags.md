@@ -11,3 +11,9 @@ Array with custom tags and values. Array may be of unlimited height, but need to
 **Parameter:** 
  - **customTags** StringArrayArray
 
+```crmscript
+NSTemplateVariablesParameters thing;
+StringArrayArray customTags;
+thing.SetCustomTags(customTags);
+```
+

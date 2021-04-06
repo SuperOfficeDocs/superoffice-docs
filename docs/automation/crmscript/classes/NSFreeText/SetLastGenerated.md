@@ -11,3 +11,9 @@ Last time search has been generated
 **Parameter:** 
  - **lastGenerated** DateTime
 
+```crmscript
+NSFreeText thing;
+DateTime lastGenerated;
+thing.SetLastGenerated(lastGenerated);
+```
+

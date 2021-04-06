@@ -11,3 +11,9 @@ List of who is to be credited for the sale.
 **Returns:** Credited
 
 
+```crmscript
+NSSaleEntity thing;
+Credited credited  = thing.GetCredited();
+```
+
+

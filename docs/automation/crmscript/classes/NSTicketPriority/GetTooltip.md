@@ -10,3 +10,9 @@ Get the tooltip description for the TicketPriority list item.
 
 **Returns:** String TicketPriority tooltip description.
 
+```crmscript
+NSTicketPriority thing;
+String descr = thing.GetTooltip();
+```
+
+

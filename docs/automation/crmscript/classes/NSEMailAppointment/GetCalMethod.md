@@ -20,3 +20,9 @@ Method field stored in ICS file.
      - Enum: 7 = Reply 
      - Enum: 8 = Request 
 
+```crmscript
+NSEMailAppointment thing;
+Integer calMethod  = thing.GetCalMethod();
+```
+
+

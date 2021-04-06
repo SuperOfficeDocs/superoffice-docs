@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isBuiltin** Bool
 
+```crmscript
+NSPreferenceDescriptionLine thing;
+Bool isBuiltin;
+thing.SetIsBuiltin(isBuiltin);
+```
+

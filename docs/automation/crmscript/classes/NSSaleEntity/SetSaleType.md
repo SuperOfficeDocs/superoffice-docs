@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **saleType** SaleType
 
+```crmscript
+NSSaleEntity thing;
+SaleType saleType;
+thing.SetSaleType(saleType);
+```
+

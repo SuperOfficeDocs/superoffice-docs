@@ -11,3 +11,9 @@ Sale heading (short description?)
 **Returns:** String
 
 
+```crmscript
+NSAppointmentSyncData thing;
+String saleName  = thing.GetSaleName();
+```
+
+

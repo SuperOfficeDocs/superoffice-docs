@@ -11,3 +11,9 @@ Set the tooltip description for the Currency list item.
 **Parameter:** 
  - **tooltip** String Currency tooltip description.
 
+```crmscript
+NSCurrency thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

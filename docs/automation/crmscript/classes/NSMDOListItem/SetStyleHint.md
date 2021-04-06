@@ -11,3 +11,9 @@ Style hint indicating, information such as background color etc. Custom field.
 **Parameter:** 
  - **styleHint** String
 
+```crmscript
+NSMDOListItem thing;
+String styleHint;
+thing.SetStyleHint(styleHint);
+```
+

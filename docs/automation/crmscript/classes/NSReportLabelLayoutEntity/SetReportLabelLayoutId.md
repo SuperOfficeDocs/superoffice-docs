@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **reportLabelLayoutId** Integer
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer reportLabelLayoutId;
+thing.SetReportLabelLayoutId(reportLabelLayoutId);
+```
+

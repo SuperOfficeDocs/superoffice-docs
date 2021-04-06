@@ -11,3 +11,9 @@ When the session was ended.
 **Parameter:** 
  - **whenEnded** DateTime
 
+```crmscript
+NSChatSessionEntity thing;
+DateTime whenEnded;
+thing.SetWhenEnded(whenEnded);
+```
+

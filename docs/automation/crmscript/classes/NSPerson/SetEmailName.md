@@ -11,3 +11,9 @@ E-mail description
 **Parameter:** 
  - **emailName** String
 
+```crmscript
+NSPerson thing;
+String emailName;
+thing.SetEmailName(emailName);
+```
+

@@ -11,3 +11,9 @@ Id of the DiaryView
 **Parameter:** 
  - **diaryViewId** Integer
 
+```crmscript
+NSDiaryViewEntity thing;
+Integer diaryViewId;
+thing.SetDiaryViewId(diaryViewId);
+```
+

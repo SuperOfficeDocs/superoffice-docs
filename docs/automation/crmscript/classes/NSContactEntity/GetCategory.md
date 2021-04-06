@@ -11,3 +11,9 @@ The category that is set on the company. The GUI forces the user to enter a cate
 **Returns:** Category
 
 
+```crmscript
+NSContactEntity thing;
+Category category  = thing.GetCategory();
+```
+
+

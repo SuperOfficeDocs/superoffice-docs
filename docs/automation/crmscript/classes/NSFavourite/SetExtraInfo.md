@@ -11,3 +11,9 @@ Extra information for this favourite.
 **Parameter:** 
  - **extraInfo** String
 
+```crmscript
+NSFavourite thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
+

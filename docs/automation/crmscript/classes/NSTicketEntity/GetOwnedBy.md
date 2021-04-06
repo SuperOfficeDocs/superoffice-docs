@@ -11,3 +11,9 @@ The associate who owns this ticket
 **Returns:** Associate
 
 
+```crmscript
+NSTicketEntity thing;
+Associate ownedBy  = thing.GetOwnedBy();
+```
+
+

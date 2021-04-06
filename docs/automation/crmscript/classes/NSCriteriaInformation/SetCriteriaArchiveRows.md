@@ -11,3 +11,9 @@ Array of archive list items, i.e., the service layer carrier for archive rows. T
 **Parameter:** 
  - **criteriaArchiveRows** ArchiveListItemArray
 
+```crmscript
+NSCriteriaInformation thing;
+ArchiveListItemArray criteriaArchiveRows;
+thing.SetCriteriaArchiveRows(criteriaArchiveRows);
+```
+

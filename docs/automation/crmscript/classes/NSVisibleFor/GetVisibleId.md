@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSVisibleFor thing;
+Integer visibleId  = thing.GetVisibleId();
+```
+
+

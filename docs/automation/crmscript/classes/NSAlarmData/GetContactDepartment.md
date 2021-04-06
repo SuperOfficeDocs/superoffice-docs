@@ -11,3 +11,9 @@ Department
 **Returns:** String
 
 
+```crmscript
+NSAlarmData thing;
+String contactDepartment  = thing.GetContactDepartment();
+```
+
+

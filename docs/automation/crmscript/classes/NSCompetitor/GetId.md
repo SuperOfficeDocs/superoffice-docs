@@ -10,3 +10,8 @@ Get the primary key (id) for the Competitor
 
 **Returns:** Integer Competitor id.
 
+```crmscript
+NSCompetitor thing;
+Integer id = thing.GetId();
+```
+

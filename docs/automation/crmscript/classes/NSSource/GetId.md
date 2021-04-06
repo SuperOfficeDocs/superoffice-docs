@@ -10,3 +10,8 @@ Get the primary key (id) for the Source
 
 **Returns:** Integer Source id.
 
+```crmscript
+NSSource thing;
+Integer id = thing.GetId();
+```
+

@@ -11,3 +11,9 @@ Academic title, populated from Salutation list but can be overwritten with anyth
 **Parameter:** 
  - **personAcademicTitle** String
 
+```crmscript
+NSParticipantSyncData thing;
+String personAcademicTitle;
+thing.SetPersonAcademicTitle(personAcademicTitle);
+```
+

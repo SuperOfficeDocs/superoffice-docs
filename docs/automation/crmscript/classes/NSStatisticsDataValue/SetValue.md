@@ -11,3 +11,9 @@ The value for the data value
 **Parameter:** 
  - **value** Float
 
+```crmscript
+NSStatisticsDataValue thing;
+Float value;
+thing.SetValue(value);
+```
+

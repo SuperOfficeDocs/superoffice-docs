@@ -11,3 +11,9 @@ Deleted equal to true means that this is a user group that no longer can be sele
 **Returns:** Bool
 
 
+```crmscript
+NSUserGroup thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

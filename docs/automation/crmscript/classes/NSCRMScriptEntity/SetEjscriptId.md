@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **ejscriptId** Integer
 
+```crmscript
+NSCRMScriptEntity thing;
+Integer ejscriptId;
+thing.SetEjscriptId(ejscriptId);
+```
+

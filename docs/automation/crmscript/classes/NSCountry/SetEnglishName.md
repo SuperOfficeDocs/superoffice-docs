@@ -11,3 +11,9 @@ Name of country in english
 **Parameter:** 
  - **englishName** String
 
+```crmscript
+NSCountry thing;
+String englishName;
+thing.SetEnglishName(englishName);
+```
+

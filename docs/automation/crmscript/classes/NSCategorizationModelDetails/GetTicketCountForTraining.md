@@ -11,3 +11,9 @@ Number of tickets used to train the model
 **Returns:** Integer
 
 
+```crmscript
+NSCategorizationModelDetails thing;
+Integer ticketCountForTraining  = thing.GetTicketCountForTraining();
+```
+
+

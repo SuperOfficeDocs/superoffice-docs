@@ -11,3 +11,9 @@ Headings in which to list the different users.
 **Parameter:** 
  - **headings** StringArray
 
+```crmscript
+NSCredentialsGroupUsers thing;
+StringArray headings;
+thing.SetHeadings(headings);
+```
+

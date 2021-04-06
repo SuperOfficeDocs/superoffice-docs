@@ -11,3 +11,9 @@ A JSON-formatted config
 **Parameter:** 
  - **config** String
 
+```crmscript
+NSCustomerCenterConfig thing;
+String config;
+thing.SetConfig(config);
+```
+

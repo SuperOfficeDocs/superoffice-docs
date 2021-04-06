@@ -11,3 +11,9 @@ The label (lead text)
 **Parameter:** 
  - **fieldLabel** String
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+String fieldLabel;
+thing.SetFieldLabel(fieldLabel);
+```
+

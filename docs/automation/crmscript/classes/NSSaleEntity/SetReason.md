@@ -11,3 +11,9 @@ The sale reason
 **Parameter:** 
  - **reason** Reason
 
+```crmscript
+NSSaleEntity thing;
+Reason reason;
+thing.SetReason(reason);
+```
+

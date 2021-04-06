@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **suggestedDocumentId** Integer
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+Integer suggestedDocumentId;
+thing.SetSuggestedDocumentId(suggestedDocumentId);
+```
+

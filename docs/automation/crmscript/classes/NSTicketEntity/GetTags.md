@@ -11,3 +11,9 @@ An array containing the tags assigned to this request
 **Returns:** TagArray
 
 
+```crmscript
+NSTicketEntity thing;
+TagArray tags  = thing.GetTags();
+```
+
+

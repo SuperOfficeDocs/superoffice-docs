@@ -11,3 +11,9 @@ The template list item
 **Returns:** String
 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+String name  = thing.GetName();
+```
+
+

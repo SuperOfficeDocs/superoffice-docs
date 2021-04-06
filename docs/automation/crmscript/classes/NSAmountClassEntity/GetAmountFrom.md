@@ -11,3 +11,9 @@ Lower limit of this amount class
 **Returns:** Float
 
 
+```crmscript
+NSAmountClassEntity thing;
+Float amountFrom  = thing.GetAmountFrom();
+```
+
+

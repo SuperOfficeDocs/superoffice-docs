@@ -11,3 +11,9 @@ Red letter day texts for other countries than the associates' own country
 **Parameter:** 
  - **otherCountryDayTexts** StringArray
 
+```crmscript
+NSRedLetterDetails thing;
+StringArray otherCountryDayTexts;
+thing.SetOtherCountryDayTexts(otherCountryDayTexts);
+```
+

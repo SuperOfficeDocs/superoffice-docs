@@ -11,3 +11,9 @@ The country this contact is located in. The country a contact is saved with, aff
 **Parameter:** 
  - **country** String
 
+```crmscript
+NSParticipantSyncData thing;
+String country;
+thing.SetCountry(country);
+```
+

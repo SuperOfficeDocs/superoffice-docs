@@ -11,3 +11,9 @@ TargetTableNumber defines the type of selection members this selection contains.
 **Parameter:** 
  - **targetTableNumber** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer targetTableNumber;
+thing.SetTargetTableNumber(targetTableNumber);
+```
+

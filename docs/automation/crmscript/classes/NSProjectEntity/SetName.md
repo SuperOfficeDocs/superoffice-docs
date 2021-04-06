@@ -11,3 +11,9 @@ Project name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSProjectEntity thing;
+String name;
+thing.SetName(name);
+```
+

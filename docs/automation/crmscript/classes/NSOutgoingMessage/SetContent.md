@@ -11,3 +11,9 @@ Content, or body, of the message.
 **Parameter:** 
  - **content** String
 
+```crmscript
+NSOutgoingMessage thing;
+String content;
+thing.SetContent(content);
+```
+

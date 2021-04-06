@@ -11,3 +11,9 @@ When this email was replied at
 **Parameter:** 
  - **repliedAt** DateTime
 
+```crmscript
+NSEMailEntity thing;
+DateTime repliedAt;
+thing.SetRepliedAt(repliedAt);
+```
+

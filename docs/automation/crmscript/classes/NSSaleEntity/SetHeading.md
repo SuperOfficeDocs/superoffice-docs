@@ -11,3 +11,9 @@ Sale heading (short description?)
 **Parameter:** 
  - **heading** String
 
+```crmscript
+NSSaleEntity thing;
+String heading;
+thing.SetHeading(heading);
+```
+

@@ -11,3 +11,9 @@ Is this field indexed? 0 if no, index no. if yes
 **Parameter:** 
  - **isIndexed** Bool
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Bool isIndexed;
+thing.SetIsIndexed(isIndexed);
+```
+

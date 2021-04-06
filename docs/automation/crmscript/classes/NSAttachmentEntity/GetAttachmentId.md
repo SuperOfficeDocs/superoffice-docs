@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Returns:** Integer
 
 
+```crmscript
+NSAttachmentEntity thing;
+Integer attachmentId  = thing.GetAttachmentId();
+```
+
+

@@ -11,3 +11,9 @@ Sale type and stage link info
 **Parameter:** 
  - **saleTypeStageLink** SaleTypeStageLink
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+SaleTypeStageLink saleTypeStageLink;
+thing.SetSaleTypeStageLink(saleTypeStageLink);
+```
+

@@ -11,3 +11,9 @@ The name of the priority.
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSTicketPriorityEntity thing;
+String name;
+thing.SetName(name);
+```
+

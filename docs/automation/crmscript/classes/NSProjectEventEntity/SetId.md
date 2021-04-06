@@ -11,3 +11,9 @@ Id of the external event
 **Parameter:** 
  - **id** Integer
 
+```crmscript
+NSProjectEventEntity thing;
+Integer id;
+thing.SetId(id);
+```
+

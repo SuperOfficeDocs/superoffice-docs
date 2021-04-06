@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **archiveColumnInfo** ArchiveColumnInfoArray
 
+```crmscript
+NSArchiveConfiguration thing;
+ArchiveColumnInfoArray archiveColumnInfo;
+thing.SetArchiveColumnInfo(archiveColumnInfo);
+```
+

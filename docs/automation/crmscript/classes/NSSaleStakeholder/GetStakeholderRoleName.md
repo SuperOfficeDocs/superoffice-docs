@@ -11,3 +11,9 @@ Stakeholder role name
 **Returns:** String
 
 
+```crmscript
+NSSaleStakeholder thing;
+String stakeholderRoleName  = thing.GetStakeholderRoleName();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+Integer uniqueHash  = thing.GetUniqueHash();
+```
+
+

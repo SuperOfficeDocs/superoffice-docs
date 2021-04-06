@@ -11,3 +11,9 @@ Name of folder the e-mail belongs in
 **Returns:** String
 
 
+```crmscript
+NSEMailEntity thing;
+String folderName  = thing.GetFolderName();
+```
+
+

@@ -11,3 +11,9 @@ Is this module license restricted or unrestricted
 **Parameter:** 
  - **unrestricted** Bool
 
+```crmscript
+NSModuleLicenseLink thing;
+Bool unrestricted;
+thing.SetUnrestricted(unrestricted);
+```
+

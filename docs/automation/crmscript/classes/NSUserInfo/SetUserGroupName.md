@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **userGroupName** String
 
+```crmscript
+NSUserInfo thing;
+String userGroupName;
+thing.SetUserGroupName(userGroupName);
+```
+

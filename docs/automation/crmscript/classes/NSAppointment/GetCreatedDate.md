@@ -11,3 +11,9 @@ Appointment creation date
 **Returns:** DateTime
 
 
+```crmscript
+NSAppointment thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
+
+

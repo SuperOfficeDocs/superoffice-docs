@@ -11,3 +11,9 @@ The debug info for the message.
 **Parameter:** 
  - **debugInfo** String
 
+```crmscript
+NSTicketMessageEntity thing;
+String debugInfo;
+thing.SetDebugInfo(debugInfo);
+```
+

@@ -10,3 +10,9 @@ Get the tooltip description for the CustomerLanguage list item.
 
 **Returns:** String CustomerLanguage tooltip description.
 
+```crmscript
+NSCustomerLanguage thing;
+String descr = thing.GetTooltip();
+```
+
+

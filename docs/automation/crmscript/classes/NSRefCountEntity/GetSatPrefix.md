@@ -11,3 +11,9 @@ size of prefix for Satellite use of this counter
 **Returns:** Integer
 
 
+```crmscript
+NSRefCountEntity thing;
+Integer satPrefix  = thing.GetSatPrefix();
+```
+
+

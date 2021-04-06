@@ -11,3 +11,9 @@ The actual rows, according to the paging info, of the result. See RowCount for a
 **Returns:** ArchiveListItemArray
 
 
+```crmscript
+NSArchiveListResult thing;
+ArchiveListItemArray rows  = thing.GetRows();
+```
+
+

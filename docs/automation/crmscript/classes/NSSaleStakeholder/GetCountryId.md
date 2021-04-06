@@ -11,3 +11,9 @@ Country id - primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSaleStakeholder thing;
+Integer countryId  = thing.GetCountryId();
+```
+
+

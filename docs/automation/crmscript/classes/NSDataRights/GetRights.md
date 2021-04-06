@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** DataRightArrayArray
 
 
+```crmscript
+NSDataRights thing;
+DataRightArrayArray rights  = thing.GetRights();
+```
+
+

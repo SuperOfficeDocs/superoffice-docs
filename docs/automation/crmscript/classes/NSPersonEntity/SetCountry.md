@@ -11,3 +11,9 @@ The country this contact person is located in.
 **Parameter:** 
  - **country** Country
 
+```crmscript
+NSPersonEntity thing;
+Country country;
+thing.SetCountry(country);
+```
+

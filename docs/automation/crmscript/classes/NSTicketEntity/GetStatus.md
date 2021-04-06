@@ -11,3 +11,9 @@ The ticket status entity which this ticket is connected to
 **Returns:** TicketStatusEntity
 
 
+```crmscript
+NSTicketEntity thing;
+TicketStatusEntity status  = thing.GetStatus();
+```
+
+

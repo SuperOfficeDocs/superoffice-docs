@@ -11,3 +11,9 @@ The description of the field
 **Returns:** String
 
 
+```crmscript
+NSFieldValueInfo thing;
+String encodedDisplayDescription  = thing.GetEncodedDisplayDescription();
+```
+
+

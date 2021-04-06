@@ -11,3 +11,9 @@ The id of the folder in which this reply template is located. NULL or -1 if this
 **Returns:** Integer
 
 
+```crmscript
+NSReplyTemplate thing;
+Integer folderId  = thing.GetFolderId();
+```
+
+

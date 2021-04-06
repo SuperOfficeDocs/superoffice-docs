@@ -11,3 +11,9 @@ The user that created the contact
 **Parameter:** 
  - **createdBy** Associate
 
+```crmscript
+NSContactEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

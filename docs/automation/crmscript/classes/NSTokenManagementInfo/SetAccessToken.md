@@ -11,3 +11,9 @@ Access token
 **Parameter:** 
  - **accessToken** String
 
+```crmscript
+NSTokenManagementInfo thing;
+String accessToken;
+thing.SetAccessToken(accessToken);
+```
+

@@ -11,3 +11,9 @@ Id of the associate this favourite belongs to.
 **Returns:** Integer
 
 
+```crmscript
+NSFavourite thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **retired** Integer
 
+```crmscript
+NSPerson thing;
+Integer retired;
+thing.SetRetired(retired);
+```
+

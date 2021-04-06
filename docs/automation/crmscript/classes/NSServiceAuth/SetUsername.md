@@ -11,3 +11,9 @@ The username
 **Parameter:** 
  - **username** String
 
+```crmscript
+NSServiceAuth thing;
+String username;
+thing.SetUsername(username);
+```
+

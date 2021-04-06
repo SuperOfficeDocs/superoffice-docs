@@ -11,3 +11,9 @@ List of participants in the iCal file - first one being the organizer
 **Parameter:** 
  - **participants** StringArray
 
+```crmscript
+NSEMailAppointment thing;
+StringArray participants;
+thing.SetParticipants(participants);
+```
+

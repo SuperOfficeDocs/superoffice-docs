@@ -11,3 +11,9 @@ The contact associated with the appointment.
 **Parameter:** 
  - **contactName** String
 
+```crmscript
+NSAppointmentSyncData thing;
+String contactName;
+thing.SetContactName(contactName);
+```
+

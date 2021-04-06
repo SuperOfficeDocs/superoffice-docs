@@ -11,3 +11,9 @@ Programmatic ID, for use by software that needs to find a particular field. Carr
 **Parameter:** 
  - **progId** String
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+String progId;
+thing.SetProgId(progId);
+```
+

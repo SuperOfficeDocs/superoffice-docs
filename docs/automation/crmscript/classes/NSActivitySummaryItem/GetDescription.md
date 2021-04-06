@@ -11,3 +11,9 @@ The appointment's textbox; document title
 **Returns:** String
 
 
+```crmscript
+NSActivitySummaryItem thing;
+String description  = thing.GetDescription();
+```
+
+

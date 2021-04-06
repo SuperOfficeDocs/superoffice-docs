@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **phoneDirect** StringArray
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray phoneDirect;
+thing.SetPhoneDirect(phoneDirect);
+```
+

@@ -11,3 +11,9 @@ The phone id
 **Returns:** Integer
 
 
+```crmscript
+NSProjectMember thing;
+Integer phoneId  = thing.GetPhoneId();
+```
+
+

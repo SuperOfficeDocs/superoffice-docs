@@ -11,3 +11,9 @@ The recalculated QuoteAlternative
 **Returns:** QuoteAlternative
 
 
+```crmscript
+NSQuoteAlternativeRecalculated thing;
+QuoteAlternative changedQuoteAlternative  = thing.GetChangedQuoteAlternative();
+```
+
+

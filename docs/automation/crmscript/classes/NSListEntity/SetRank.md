@@ -11,3 +11,9 @@ The rank of the list
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSListEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

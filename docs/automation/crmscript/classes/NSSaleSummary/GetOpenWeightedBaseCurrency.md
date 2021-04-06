@@ -11,3 +11,9 @@ Weighted sum for all open within the period in default currency for the installa
 **Returns:** Float
 
 
+```crmscript
+NSSaleSummary thing;
+Float openWeightedBaseCurrency  = thing.GetOpenWeightedBaseCurrency();
+```
+
+

@@ -11,3 +11,9 @@ Summary of redletter day information - holiday in own country, and in other coun
 **Parameter:** 
  - **redLetterInformation** RedLetterSummary
 
+```crmscript
+NSRedLetterInformationListItem thing;
+RedLetterSummary redLetterInformation;
+thing.SetRedLetterInformation(redLetterInformation);
+```
+

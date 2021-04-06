@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **contact** Contact
 
+```crmscript
+NSSatellite thing;
+Contact contact;
+thing.SetContact(contact);
+```
+

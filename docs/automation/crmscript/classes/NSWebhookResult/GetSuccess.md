@@ -11,3 +11,9 @@ Was call to webhook successful? (200 OK)
 **Returns:** Bool
 
 
+```crmscript
+NSWebhookResult thing;
+Bool success  = thing.GetSuccess();
+```
+
+

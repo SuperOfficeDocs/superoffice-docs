@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSale thing;
+Integer saleId  = thing.GetSaleId();
+```
+
+

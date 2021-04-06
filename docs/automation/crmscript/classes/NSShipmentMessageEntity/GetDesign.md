@@ -11,3 +11,9 @@ Will contain the design part of a message. The format will vary based on the typ
 **Returns:** String
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+String design  = thing.GetDesign();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **restrictedModuleLicenses** ModuleLicenseLinkArray
 
+```crmscript
+NSLicenseOwner thing;
+ModuleLicenseLinkArray restrictedModuleLicenses;
+thing.SetRestrictedModuleLicenses(restrictedModuleLicenses);
+```
+

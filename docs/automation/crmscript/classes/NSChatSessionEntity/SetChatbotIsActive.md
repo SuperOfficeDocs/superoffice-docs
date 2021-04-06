@@ -11,3 +11,9 @@ Indicates that a chatbot is active on the session. This will cause bot triggers 
 **Parameter:** 
  - **chatbotIsActive** Bool
 
+```crmscript
+NSChatSessionEntity thing;
+Bool chatbotIsActive;
+thing.SetChatbotIsActive(chatbotIsActive);
+```
+

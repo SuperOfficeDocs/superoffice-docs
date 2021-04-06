@@ -11,3 +11,9 @@ The time of the submit.
 **Returns:** DateTime
 
 
+```crmscript
+NSFormSubmissionEntity thing;
+DateTime whenSubmitted  = thing.GetWhenSubmitted();
+```
+
+

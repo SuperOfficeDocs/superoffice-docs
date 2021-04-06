@@ -11,3 +11,9 @@ Name of entity to get history for
 **Returns:** String
 
 
+```crmscript
+NSHistoryRequest thing;
+String entityName  = thing.GetEntityName();
+```
+
+

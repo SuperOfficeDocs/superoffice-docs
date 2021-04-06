@@ -11,3 +11,9 @@ The URL where the connector is located and can be called
 **Returns:** String
 
 
+```crmscript
+NSErpSyncConnectorEntity thing;
+String uRL  = thing.GetURL();
+```
+
+

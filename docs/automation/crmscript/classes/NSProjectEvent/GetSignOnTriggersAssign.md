@@ -11,3 +11,9 @@ If true, the sign on task should be created as an Assigned task, triggering the 
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEvent thing;
+Bool signOnTriggersAssign  = thing.GetSignOnTriggersAssign();
+```
+
+

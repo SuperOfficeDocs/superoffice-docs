@@ -11,3 +11,9 @@ Return value, may be blank.
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSReturnInfo thing;
+String value;
+thing.SetValue(value);
+```
+

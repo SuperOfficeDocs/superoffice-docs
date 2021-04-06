@@ -11,3 +11,9 @@ If specified, register a task on recipients using properties from this object.
 **Returns:** MailMergeTask
 
 
+```crmscript
+NSMailMergeSettings thing;
+MailMergeTask taskEntity  = thing.GetTaskEntity();
+```
+
+

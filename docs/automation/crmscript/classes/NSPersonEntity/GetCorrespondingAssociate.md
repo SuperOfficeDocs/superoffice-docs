@@ -11,3 +11,9 @@ The associate corresponding to this person. Will be empty if the person is not a
 **Returns:** Associate
 
 
+```crmscript
+NSPersonEntity thing;
+Associate correspondingAssociate  = thing.GetCorrespondingAssociate();
+```
+
+

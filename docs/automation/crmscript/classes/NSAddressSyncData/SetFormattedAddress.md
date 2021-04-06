@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **formattedAddress** String
 
+```crmscript
+NSAddressSyncData thing;
+String formattedAddress;
+thing.SetFormattedAddress(formattedAddress);
+```
+

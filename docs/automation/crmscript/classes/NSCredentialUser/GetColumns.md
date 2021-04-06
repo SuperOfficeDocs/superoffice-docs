@@ -11,3 +11,9 @@ Columns, matching CredentialUsers.Headings
 **Returns:** StringArray
 
 
+```crmscript
+NSCredentialUser thing;
+StringArray columns  = thing.GetColumns();
+```
+
+

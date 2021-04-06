@@ -11,3 +11,9 @@ e.g. Mrs   sex_title
 **Parameter:** 
  - **personMrmrs** String
 
+```crmscript
+NSParticipantSyncData thing;
+String personMrmrs;
+thing.SetPersonMrmrs(personMrmrs);
+```
+

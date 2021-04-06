@@ -11,3 +11,9 @@ Whether this screen chooser is enabled or not
 **Returns:** Bool
 
 
+```crmscript
+NSTriggerScriptEntity thing;
+Bool enabled  = thing.GetEnabled();
+```
+
+

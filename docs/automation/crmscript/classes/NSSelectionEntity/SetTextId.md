@@ -11,3 +11,9 @@ Description text record id
 **Parameter:** 
  - **textId** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer textId;
+thing.SetTextId(textId);
+```
+

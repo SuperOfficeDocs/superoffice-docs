@@ -11,3 +11,9 @@ Previous model information
 **Parameter:** 
  - **previousModel** CategorizationModelDetails
 
+```crmscript
+NSCategorizationStatusResponse thing;
+CategorizationModelDetails previousModel;
+thing.SetPreviousModel(previousModel);
+```
+

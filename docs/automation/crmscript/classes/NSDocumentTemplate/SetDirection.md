@@ -15,3 +15,9 @@ so.topic: reference
      - Enum: 2 = Outgoing 
      - Enum: 3 = SaintAll 
 
+```crmscript
+NSDocumentTemplate thing;
+DocTmplDirection direction;
+thing.SetDirection(direction);
+```
+

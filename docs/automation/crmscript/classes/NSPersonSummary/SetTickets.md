@@ -11,3 +11,9 @@ Recent tickets on person
 **Parameter:** 
  - **tickets** TicketSummaryItemArray
 
+```crmscript
+NSPersonSummary thing;
+TicketSummaryItemArray tickets;
+thing.SetTickets(tickets);
+```
+

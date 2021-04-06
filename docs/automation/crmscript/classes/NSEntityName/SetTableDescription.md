@@ -11,3 +11,9 @@ Name to be used in GUI, preferable a resource string
 **Parameter:** 
  - **tableDescription** String
 
+```crmscript
+NSEntityName thing;
+String tableDescription;
+thing.SetTableDescription(tableDescription);
+```
+

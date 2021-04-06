@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSAppointmentSyncData thing;
+Integer appointmentId  = thing.GetAppointmentId();
+```
+
+

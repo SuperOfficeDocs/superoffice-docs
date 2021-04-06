@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **accumulatedNextCheckDate** DateTime
 
+```crmscript
+NSExtendedLicenseInfo thing;
+DateTime accumulatedNextCheckDate;
+thing.SetAccumulatedNextCheckDate(accumulatedNextCheckDate);
+```
+

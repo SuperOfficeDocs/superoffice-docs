@@ -11,3 +11,9 @@ The consent purpose
 **Parameter:** 
  - **consentPurpose** ConsentPurpose
 
+```crmscript
+NSConsentPerson thing;
+ConsentPurpose consentPurpose;
+thing.SetConsentPurpose(consentPurpose);
+```
+

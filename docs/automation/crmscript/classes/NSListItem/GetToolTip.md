@@ -11,3 +11,9 @@ Description
 **Returns:** String
 
 
+```crmscript
+NSListItem thing;
+String toolTip  = thing.GetToolTip();
+```
+
+

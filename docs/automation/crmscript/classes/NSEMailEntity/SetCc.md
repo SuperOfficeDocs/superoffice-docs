@@ -11,3 +11,9 @@ Cc recipients of e-mail
 **Parameter:** 
  - **cc** EMailAddressArray
 
+```crmscript
+NSEMailEntity thing;
+EMailAddressArray cc;
+thing.SetCc(cc);
+```
+

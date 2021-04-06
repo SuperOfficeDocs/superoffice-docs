@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **updatedBy** Associate
 
+```crmscript
+NSContactRelationEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
+

@@ -11,3 +11,9 @@ To recipients of e-mail
 **Returns:** EMailAddressArray
 
 
+```crmscript
+NSEMailEnvelope thing;
+EMailAddressArray to  = thing.GetTo();
+```
+
+

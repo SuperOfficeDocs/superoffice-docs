@@ -11,3 +11,9 @@ The document Id that uniquely identifies the document within the SuperOffice dat
 **Parameter:** 
  - **documentId** Integer
 
+```crmscript
+NSVersionInfo thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
+

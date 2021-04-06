@@ -11,3 +11,9 @@ A friendly display name for the device. Ex: 'Bobbys iPhone 5S'
 **Parameter:** 
  - **deviceName** String
 
+```crmscript
+NSPocketDeviceInfo thing;
+String deviceName;
+thing.SetDeviceName(deviceName);
+```
+

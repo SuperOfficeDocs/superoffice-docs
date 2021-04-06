@@ -11,3 +11,9 @@ Should we only create one task on each company? If false, separate tasks will be
 **Returns:** Bool
 
 
+```crmscript
+NSMailMergeTask thing;
+Bool singleEntryOnEachCompany  = thing.GetSingleEntryOnEachCompany();
+```
+
+

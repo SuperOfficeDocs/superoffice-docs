@@ -11,3 +11,9 @@ The person id this key is related to. May be null.
 **Returns:** Integer
 
 
+```crmscript
+NSTemporaryKeyInfo thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

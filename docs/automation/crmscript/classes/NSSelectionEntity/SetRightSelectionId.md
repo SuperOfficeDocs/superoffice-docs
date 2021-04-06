@@ -11,3 +11,9 @@ RightSelectionId  is used in combination with LeftSelectionId and CombinationTyp
 **Parameter:** 
  - **rightSelectionId** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer rightSelectionId;
+thing.SetRightSelectionId(rightSelectionId);
+```
+

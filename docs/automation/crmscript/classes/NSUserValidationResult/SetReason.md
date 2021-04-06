@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **reason** String
 
+```crmscript
+NSUserValidationResult thing;
+String reason;
+thing.SetReason(reason);
+```
+

@@ -11,3 +11,9 @@ The active quote version for the quote
 **Returns:** QuoteVersion
 
 
+```crmscript
+NSQuote thing;
+QuoteVersion activeQuoteVersion  = thing.GetActiveQuoteVersion();
+```
+
+

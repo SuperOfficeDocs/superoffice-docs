@@ -11,3 +11,9 @@ The mimetype of the stream
 **Returns:** String
 
 
+```crmscript
+NSDocumentPreview thing;
+String type  = thing.GetType();
+```
+
+

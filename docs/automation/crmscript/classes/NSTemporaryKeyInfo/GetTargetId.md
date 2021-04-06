@@ -11,3 +11,9 @@ The primary key of the entity this temporary key is for, dependent of dmain
 **Returns:** Integer
 
 
+```crmscript
+NSTemporaryKeyInfo thing;
+Integer targetId  = thing.GetTargetId();
+```
+
+

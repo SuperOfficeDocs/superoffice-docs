@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSForeignAppEntity thing;
+Integer foreignAppId  = thing.GetForeignAppId();
+```
+
+

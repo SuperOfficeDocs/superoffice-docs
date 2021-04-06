@@ -11,3 +11,9 @@ True if you want to search for Persons by their lastname.
 **Parameter:** 
  - **searchLastname** Bool
 
+```crmscript
+NSPhoneListPreferences thing;
+Bool searchLastname;
+thing.SetSearchLastname(searchLastname);
+```
+

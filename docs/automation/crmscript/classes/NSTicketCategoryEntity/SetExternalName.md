@@ -11,3 +11,9 @@ The external name for this category, used for the customer frontend.
 **Parameter:** 
  - **externalName** String
 
+```crmscript
+NSTicketCategoryEntity thing;
+String externalName;
+thing.SetExternalName(externalName);
+```
+

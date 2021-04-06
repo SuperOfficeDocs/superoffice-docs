@@ -11,3 +11,9 @@ Is this a milestone activity
 **Parameter:** 
  - **isMilestone** Bool
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Bool isMilestone;
+thing.SetIsMilestone(isMilestone);
+```
+

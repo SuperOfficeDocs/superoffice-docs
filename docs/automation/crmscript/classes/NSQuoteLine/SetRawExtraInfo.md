@@ -11,3 +11,9 @@ Read-only extra information in plain text, supplied by QuoteConnector, used by a
 **Parameter:** 
  - **rawExtraInfo** String
 
+```crmscript
+NSQuoteLine thing;
+String rawExtraInfo;
+thing.SetRawExtraInfo(rawExtraInfo);
+```
+

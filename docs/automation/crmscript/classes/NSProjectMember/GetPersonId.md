@@ -11,3 +11,9 @@ The person's id - primary key
 **Returns:** Integer
 
 
+```crmscript
+NSProjectMember thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

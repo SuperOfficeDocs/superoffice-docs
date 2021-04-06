@@ -11,3 +11,9 @@ The associate who created this ticket
 **Returns:** Associate
 
 
+```crmscript
+NSTicketEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
+
+

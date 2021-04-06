@@ -11,3 +11,9 @@ The associate's name
 **Parameter:** 
  - **associateName** String
 
+```crmscript
+NSAppointment thing;
+String associateName;
+thing.SetAssociateName(associateName);
+```
+

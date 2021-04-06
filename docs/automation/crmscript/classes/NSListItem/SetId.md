@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **id** Integer
 
+```crmscript
+NSListItem thing;
+Integer id;
+thing.SetId(id);
+```
+

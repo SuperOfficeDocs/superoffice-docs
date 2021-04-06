@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSSelectionEntity thing;
+Integer includePerson  = thing.GetIncludePerson();
+```
+
+

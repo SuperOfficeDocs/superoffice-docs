@@ -11,3 +11,9 @@ The contact or person's id
 **Parameter:** 
  - **id** Integer
 
+```crmscript
+NSPhoneListItem thing;
+Integer id;
+thing.SetId(id);
+```
+

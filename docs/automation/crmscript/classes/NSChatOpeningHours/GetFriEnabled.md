@@ -11,3 +11,9 @@ Whether open on Fridays.
 **Returns:** Bool
 
 
+```crmscript
+NSChatOpeningHours thing;
+Bool friEnabled  = thing.GetFriEnabled();
+```
+
+

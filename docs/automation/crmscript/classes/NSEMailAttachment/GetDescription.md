@@ -11,3 +11,9 @@ Name/description
 **Returns:** String
 
 
+```crmscript
+NSEMailAttachment thing;
+String description  = thing.GetDescription();
+```
+
+

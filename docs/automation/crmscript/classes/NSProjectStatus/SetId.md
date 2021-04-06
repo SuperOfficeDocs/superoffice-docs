@@ -11,3 +11,8 @@ Set the primary key (id) for the ProjectStatus
 **Parameter:** 
  - **id** Integer ProjectStatus id.
 
+```crmscript
+NSProjectStatus thing;
+thing.SetId(123);
+```
+

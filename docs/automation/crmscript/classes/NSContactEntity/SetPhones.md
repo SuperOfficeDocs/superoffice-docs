@@ -11,3 +11,9 @@ The contact's phone numbers
 **Parameter:** 
  - **phones** EntityElementArray
 
+```crmscript
+NSContactEntity thing;
+EntityElementArray phones;
+thing.SetPhones(phones);
+```
+

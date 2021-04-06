@@ -11,3 +11,9 @@ Owner of the selection
 **Parameter:** 
  - **associate** Associate
 
+```crmscript
+NSSelectionEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
+

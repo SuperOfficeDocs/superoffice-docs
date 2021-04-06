@@ -11,3 +11,9 @@ Filename of the programfile
 **Parameter:** 
  - **filename** String
 
+```crmscript
+NSExtAppEntity thing;
+String filename;
+thing.SetFilename(filename);
+```
+

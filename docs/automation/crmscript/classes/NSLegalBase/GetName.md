@@ -11,3 +11,9 @@ Name of legal base
 **Returns:** String
 
 
+```crmscript
+NSLegalBase thing;
+String name  = thing.GetName();
+```
+
+

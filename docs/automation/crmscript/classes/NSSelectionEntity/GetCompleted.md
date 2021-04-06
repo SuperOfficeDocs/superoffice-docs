@@ -11,3 +11,9 @@ The Completed state.
 **Returns:** Bool
 
 
+```crmscript
+NSSelectionEntity thing;
+Bool completed  = thing.GetCompleted();
+```
+
+

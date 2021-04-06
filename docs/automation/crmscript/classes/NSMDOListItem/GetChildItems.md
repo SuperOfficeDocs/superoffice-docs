@@ -11,3 +11,9 @@ The child items of the MDOListItem
 **Returns:** MDOListItemArray
 
 
+```crmscript
+NSMDOListItem thing;
+MDOListItemArray childItems  = thing.GetChildItems();
+```
+
+

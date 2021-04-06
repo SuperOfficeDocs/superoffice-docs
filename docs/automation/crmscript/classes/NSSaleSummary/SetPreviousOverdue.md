@@ -11,3 +11,9 @@ Number of all open sales with date before this period
 **Parameter:** 
  - **previousOverdue** Integer
 
+```crmscript
+NSSaleSummary thing;
+Integer previousOverdue;
+thing.SetPreviousOverdue(previousOverdue);
+```
+

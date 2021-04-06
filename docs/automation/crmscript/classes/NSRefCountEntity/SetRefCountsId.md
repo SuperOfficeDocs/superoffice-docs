@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **refCountsId** Integer
 
+```crmscript
+NSRefCountEntity thing;
+Integer refCountsId;
+thing.SetRefCountsId(refCountsId);
+```
+

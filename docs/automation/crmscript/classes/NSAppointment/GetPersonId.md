@@ -11,3 +11,9 @@ Person ID of person the appointment is with, may be 0
 **Returns:** Integer
 
 
+```crmscript
+NSAppointment thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

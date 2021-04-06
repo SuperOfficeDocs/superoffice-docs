@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **new** ModuleLicense
 
+```crmscript
+NSExtendedModuleLicense thing;
+ModuleLicense new;
+thing.SetNew(new);
+```
+

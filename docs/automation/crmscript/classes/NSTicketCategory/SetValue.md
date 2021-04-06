@@ -11,3 +11,8 @@ Set the name of the TicketCategory item.
 **Parameter:** 
  - **value** String TicketCategory name.
 
+```crmscript
+NSTicketCategory thing;
+thing.SetValue("frotz");
+```
+

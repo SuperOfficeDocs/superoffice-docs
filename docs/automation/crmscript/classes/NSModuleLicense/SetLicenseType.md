@@ -15,3 +15,9 @@ Entire system, per database, or per associate
      - Enum: 2 = SatelliteLicense 
      - Enum: 3 = UserLicense 
 
+```crmscript
+NSModuleLicense thing;
+LicenseType licenseType;
+thing.SetLicenseType(licenseType);
+```
+

@@ -11,3 +11,9 @@ International prefix
 **Returns:** String
 
 
+```crmscript
+NSCountry thing;
+String interAreaPrefix  = thing.GetInterAreaPrefix();
+```
+
+

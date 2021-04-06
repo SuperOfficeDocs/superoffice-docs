@@ -11,3 +11,9 @@ Does this project type have a guide attached
 **Returns:** Bool
 
 
+```crmscript
+NSProjectTypeEntity thing;
+Bool hasGuide  = thing.GetHasGuide();
+```
+
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **appointmentId** Integer
 
+```crmscript
+NSEMailSOInfo thing;
+Integer appointmentId;
+thing.SetAppointmentId(appointmentId);
+```
+

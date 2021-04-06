@@ -11,3 +11,9 @@ Identity of project to use as source for recipients.
 **Returns:** Integer
 
 
+```crmscript
+NSMailMergeSettings thing;
+Integer projectId  = thing.GetProjectId();
+```
+
+

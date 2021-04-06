@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSCRMScriptEntity thing;
+Integer ejscriptId  = thing.GetEjscriptId();
+```
+
+

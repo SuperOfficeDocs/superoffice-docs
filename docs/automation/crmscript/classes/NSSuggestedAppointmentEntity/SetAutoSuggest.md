@@ -11,3 +11,9 @@ Should this appointment be auto-suggested
 **Parameter:** 
  - **autoSuggest** Bool
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Bool autoSuggest;
+thing.SetAutoSuggest(autoSuggest);
+```
+

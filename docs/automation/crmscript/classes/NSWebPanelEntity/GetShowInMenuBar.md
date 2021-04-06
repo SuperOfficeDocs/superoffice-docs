@@ -11,3 +11,9 @@ Does the webpanel have a menu bar
 **Returns:** Bool
 
 
+```crmscript
+NSWebPanelEntity thing;
+Bool showInMenuBar  = thing.GetShowInMenuBar();
+```
+
+

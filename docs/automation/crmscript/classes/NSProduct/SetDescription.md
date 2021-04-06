@@ -11,3 +11,9 @@ The description to use, with potentially several lines. Will be used as tool-tip
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSProduct thing;
+String description;
+thing.SetDescription(description);
+```
+

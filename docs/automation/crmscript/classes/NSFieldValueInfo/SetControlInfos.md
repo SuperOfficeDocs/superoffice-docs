@@ -11,3 +11,9 @@ Array of the controlinfos
 **Parameter:** 
  - **controlInfos** ControlInfoArray
 
+```crmscript
+NSFieldValueInfo thing;
+ControlInfoArray controlInfos;
+thing.SetControlInfos(controlInfos);
+```
+

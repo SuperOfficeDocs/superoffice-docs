@@ -11,3 +11,9 @@ An appointment may also be connected to a sale, so you see the appointment on th
 **Parameter:** 
  - **sale** Sale
 
+```crmscript
+NSAppointmentEntity thing;
+Sale sale;
+thing.SetSale(sale);
+```
+

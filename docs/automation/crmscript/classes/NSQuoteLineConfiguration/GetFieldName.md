@@ -11,3 +11,9 @@ The name of the field being configured, from data dictionary
 **Returns:** String
 
 
+```crmscript
+NSQuoteLineConfiguration thing;
+String fieldName  = thing.GetFieldName();
+```
+
+

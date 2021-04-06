@@ -11,3 +11,9 @@ Either a List id to an id from a connector provided list, or, if the connection 
 **Parameter:** 
  - **productTypeKey** String
 
+```crmscript
+NSQuoteLine thing;
+String productTypeKey;
+thing.SetProductTypeKey(productTypeKey);
+```
+

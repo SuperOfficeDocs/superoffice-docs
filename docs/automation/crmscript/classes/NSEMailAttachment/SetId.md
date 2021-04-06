@@ -11,3 +11,9 @@ Content-ID
 **Parameter:** 
  - **id** String
 
+```crmscript
+NSEMailAttachment thing;
+String id;
+thing.SetId(id);
+```
+

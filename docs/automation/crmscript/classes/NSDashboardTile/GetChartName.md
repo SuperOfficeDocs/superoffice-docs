@@ -11,3 +11,9 @@ The original chart name
 **Returns:** String
 
 
+```crmscript
+NSDashboardTile thing;
+String chartName  = thing.GetChartName();
+```
+
+

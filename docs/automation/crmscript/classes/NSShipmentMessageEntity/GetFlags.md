@@ -16,3 +16,9 @@ Identifies if HTML or plain message is included in message.
      - Enum: 4 = Sms 
      - Enum: 8 = Document 
 
+```crmscript
+NSShipmentMessageEntity thing;
+Integer flags  = thing.GetFlags();
+```
+
+

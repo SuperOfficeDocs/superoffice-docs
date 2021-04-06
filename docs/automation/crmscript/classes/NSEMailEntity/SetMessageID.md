@@ -11,3 +11,9 @@ Unique id of e-mails
 **Parameter:** 
  - **messageID** String
 
+```crmscript
+NSEMailEntity thing;
+String messageID;
+thing.SetMessageID(messageID);
+```
+

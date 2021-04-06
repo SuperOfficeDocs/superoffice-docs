@@ -11,3 +11,9 @@ The tooltip of the ListItem
 **Parameter:** 
  - **toolTip** String
 
+```crmscript
+NSSelectableMDOListItem thing;
+String toolTip;
+thing.SetToolTip(toolTip);
+```
+

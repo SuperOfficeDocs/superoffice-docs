@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** EMailAttachmentArray
 
 
+```crmscript
+NSEMailEntity thing;
+EMailAttachmentArray attachments  = thing.GetAttachments();
+```
+
+

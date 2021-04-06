@@ -11,3 +11,9 @@ If person ? The person name, else contact name
 **Parameter:** 
  - **sortName** String
 
+```crmscript
+NSContactOrPersonFromEmail thing;
+String sortName;
+thing.SetSortName(sortName);
+```
+

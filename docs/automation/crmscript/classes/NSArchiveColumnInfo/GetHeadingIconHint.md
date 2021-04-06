@@ -11,3 +11,9 @@ Icon hint for the archive heading only. If this is a nonempty string, the archiv
 **Returns:** String
 
 
+```crmscript
+NSArchiveColumnInfo thing;
+String headingIconHint  = thing.GetHeadingIconHint();
+```
+
+

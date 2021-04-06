@@ -11,3 +11,9 @@ Rank order
 **Returns:** Integer
 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer rank  = thing.GetRank();
+```
+
+

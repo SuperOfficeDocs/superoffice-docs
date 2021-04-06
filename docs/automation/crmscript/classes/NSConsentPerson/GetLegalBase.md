@@ -11,3 +11,9 @@ The legal base
 **Returns:** LegalBase
 
 
+```crmscript
+NSConsentPerson thing;
+LegalBase legalBase  = thing.GetLegalBase();
+```
+
+

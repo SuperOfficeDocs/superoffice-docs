@@ -14,3 +14,9 @@ Defines what kind of message this is.
      - Enum: 1 = Bounce 
      - Enum: 2 = OutboxFailed 
 
+```crmscript
+NSTicketMessageEntity thing;
+TicketMessageCategory messageCategory  = thing.GetMessageCategory();
+```
+
+

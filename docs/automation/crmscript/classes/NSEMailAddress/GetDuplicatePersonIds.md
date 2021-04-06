@@ -11,3 +11,9 @@ All persons with this EmailAddress stored in db is listed here
 **Returns:** IntegerArray
 
 
+```crmscript
+NSEMailAddress thing;
+IntegerArray duplicatePersonIds  = thing.GetDuplicatePersonIds();
+```
+
+

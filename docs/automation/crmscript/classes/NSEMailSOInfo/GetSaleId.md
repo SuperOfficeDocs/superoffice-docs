@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSEMailSOInfo thing;
+Integer saleId  = thing.GetSaleId();
+```
+
+

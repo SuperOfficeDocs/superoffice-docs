@@ -28,3 +28,9 @@ Enum indicating if it is a special message, such as an URL redirection, etc.
      - Enum: 16 = BotMessage 
      - Enum: 17 = Options 
 
+```crmscript
+NSChatMessage thing;
+ChatMessageSpecialType specialType;
+thing.SetSpecialType(specialType);
+```
+

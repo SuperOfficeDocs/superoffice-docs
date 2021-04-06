@@ -11,3 +11,9 @@ The key that uniquely identifies this pricelist in the ERP system
 **Parameter:** 
  - **eRPPriceListKey** String
 
+```crmscript
+NSPriceList thing;
+String eRPPriceListKey;
+thing.SetERPPriceListKey(eRPPriceListKey);
+```
+

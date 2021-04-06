@@ -11,3 +11,9 @@ The X-Message-Id header value from the email. Used for threading, i.e. connectin
 **Returns:** String
 
 
+```crmscript
+NSTicketMessageEntity thing;
+String messageId  = thing.GetMessageId();
+```
+
+

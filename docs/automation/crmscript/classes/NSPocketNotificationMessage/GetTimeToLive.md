@@ -11,3 +11,9 @@ Specifies how many minutes the message should be valid
 **Returns:** Integer
 
 
+```crmscript
+NSPocketNotificationMessage thing;
+Integer timeToLive  = thing.GetTimeToLive();
+```
+
+

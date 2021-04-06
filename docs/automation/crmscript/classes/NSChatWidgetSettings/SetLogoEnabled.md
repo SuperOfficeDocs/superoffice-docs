@@ -11,3 +11,9 @@ Indicates if the logo should be shown in the widget
 **Parameter:** 
  - **logoEnabled** Bool
 
+```crmscript
+NSChatWidgetSettings thing;
+Bool logoEnabled;
+thing.SetLogoEnabled(logoEnabled);
+```
+

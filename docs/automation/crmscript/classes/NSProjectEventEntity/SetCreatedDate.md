@@ -11,3 +11,9 @@ Registered when
 **Parameter:** 
  - **createdDate** DateTime
 
+```crmscript
+NSProjectEventEntity thing;
+DateTime createdDate;
+thing.SetCreatedDate(createdDate);
+```
+

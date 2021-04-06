@@ -11,3 +11,9 @@ Exchange unit scale (0.01, 0.1, 1, 10, 100 etc)
 **Parameter:** 
  - **units** Float
 
+```crmscript
+NSCurrencyEntity thing;
+Float units;
+thing.SetUnits(units);
+```
+

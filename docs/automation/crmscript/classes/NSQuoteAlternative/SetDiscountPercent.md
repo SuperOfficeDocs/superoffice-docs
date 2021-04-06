@@ -11,3 +11,9 @@ The discount the sales rep specifies, in percent. Both the two ‘DiscountPercen
 **Parameter:** 
  - **discountPercent** Float
 
+```crmscript
+NSQuoteAlternative thing;
+Float discountPercent;
+thing.SetDiscountPercent(discountPercent);
+```
+

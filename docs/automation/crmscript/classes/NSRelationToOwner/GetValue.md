@@ -10,3 +10,8 @@ Get the name of the RelationToOwner.
 
 **Returns:** String RelationToOwner name.
 
+```crmscript
+NSRelationToOwner thing;
+String name = thing.GetValue();
+```
+

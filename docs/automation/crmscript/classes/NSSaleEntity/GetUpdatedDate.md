@@ -11,3 +11,9 @@ Last updated
 **Returns:** DateTime
 
 
+```crmscript
+NSSaleEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
+
+

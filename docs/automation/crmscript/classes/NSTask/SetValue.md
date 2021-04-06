@@ -11,3 +11,8 @@ Set the name of the Task item.
 **Parameter:** 
  - **value** String Task name.
 
+```crmscript
+NSTask thing;
+thing.SetValue("frotz");
+```
+

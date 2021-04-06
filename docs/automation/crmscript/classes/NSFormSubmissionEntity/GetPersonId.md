@@ -11,3 +11,9 @@ The optional id of the person who submitted.
 **Returns:** Integer
 
 
+```crmscript
+NSFormSubmissionEntity thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

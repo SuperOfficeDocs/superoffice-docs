@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSVisibleFor thing;
+String displayValue  = thing.GetDisplayValue();
+```
+
+

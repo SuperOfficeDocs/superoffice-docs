@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **protocol** String
 
+```crmscript
+NSEMailConnectionInfoExtended thing;
+String protocol;
+thing.SetProtocol(protocol);
+```
+

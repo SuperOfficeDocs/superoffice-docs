@@ -11,3 +11,9 @@ Length (in characters) of a text field, 0 for other types
 **Returns:** Integer
 
 
+```crmscript
+NSFieldInfoShortText thing;
+Integer textLength  = thing.GetTextLength();
+```
+
+

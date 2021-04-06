@@ -11,3 +11,9 @@ Person's business - usually blank. Use Contact.Business instead. Intended for us
 **Parameter:** 
  - **business** Business
 
+```crmscript
+NSPersonEntity thing;
+Business business;
+thing.SetBusiness(business);
+```
+

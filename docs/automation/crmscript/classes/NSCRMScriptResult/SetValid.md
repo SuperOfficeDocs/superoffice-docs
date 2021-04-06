@@ -11,3 +11,9 @@ True if the CRMScript was successfully validated. If false, see the error messag
 **Parameter:** 
  - **valid** Bool
 
+```crmscript
+NSCRMScriptResult thing;
+Bool valid;
+thing.SetValid(valid);
+```
+

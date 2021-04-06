@@ -11,3 +11,9 @@ If true, then this field cannot be set readwrite or mandatory: It's bound to be 
 **Returns:** Bool
 
 
+```crmscript
+NSQuoteLineConfiguration thing;
+Bool restrictEdit  = thing.GetRestrictEdit();
+```
+
+

@@ -11,3 +11,9 @@ Date that this item is valid for; there is exactly one item per date, ordered by
 **Parameter:** 
  - **date** DateTime
 
+```crmscript
+NSRedLetterInformationListItem thing;
+DateTime date;
+thing.SetDate(date);
+```
+

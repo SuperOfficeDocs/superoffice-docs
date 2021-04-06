@@ -11,3 +11,9 @@ Programmatic name of the column to order by, semantically the same as the Archiv
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSArchiveOrderByInfo thing;
+String name;
+thing.SetName(name);
+```
+

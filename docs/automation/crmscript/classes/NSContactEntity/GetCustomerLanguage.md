@@ -11,3 +11,9 @@ customerlanguage
 **Returns:** CustomerLanguage
 
 
+```crmscript
+NSContactEntity thing;
+CustomerLanguage customerLanguage  = thing.GetCustomerLanguage();
+```
+
+

@@ -11,3 +11,9 @@ First name
 **Parameter:** 
  - **personFirstname** String
 
+```crmscript
+NSTicket thing;
+String personFirstname;
+thing.SetPersonFirstname(personFirstname);
+```
+

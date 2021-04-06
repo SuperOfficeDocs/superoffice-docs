@@ -11,3 +11,9 @@ Kana first name, used in Japanese versions only
 **Returns:** String
 
 
+```crmscript
+NSPersonEntity thing;
+String kanafname  = thing.GetKanafname();
+```
+
+

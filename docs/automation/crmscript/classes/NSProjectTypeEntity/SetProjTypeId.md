@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **projTypeId** Integer
 
+```crmscript
+NSProjectTypeEntity thing;
+Integer projTypeId;
+thing.SetProjTypeId(projTypeId);
+```
+

@@ -10,3 +10,9 @@ Get the tooltip description for the Category list item.
 
 **Returns:** String Category tooltip description.
 
+```crmscript
+NSCategory thing;
+String descr = thing.GetTooltip();
+```
+
+

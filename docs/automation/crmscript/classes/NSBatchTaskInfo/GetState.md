@@ -19,3 +19,9 @@ BatchTaskState of the task.
      - Enum: 6 = SucceededManualCleanup 
      - Enum: 99999 = All 
 
+```crmscript
+NSBatchTaskInfo thing;
+Integer state  = thing.GetState();
+```
+
+

@@ -11,3 +11,9 @@ This a simple field for adding information that the Connector can provide, and t
 **Parameter:** 
  - **extraField4** String
 
+```crmscript
+NSProduct thing;
+String extraField4;
+thing.SetExtraField4(extraField4);
+```
+

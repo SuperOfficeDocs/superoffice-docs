@@ -11,3 +11,9 @@ The name of the dictionary step (from attribute, not class name)
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSDictionaryStepInformation thing;
+String name;
+thing.SetName(name);
+```
+

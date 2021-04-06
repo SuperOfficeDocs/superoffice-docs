@@ -11,3 +11,9 @@ Offline message shown in widget
 **Returns:** String
 
 
+```crmscript
+NSChatWidgetSettings thing;
+String offlineMessage  = thing.GetOfflineMessage();
+```
+
+

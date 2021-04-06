@@ -11,3 +11,9 @@ Id of the associate who owns this account
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSEMailAccount thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

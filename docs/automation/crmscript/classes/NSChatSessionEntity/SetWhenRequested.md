@@ -11,3 +11,9 @@ When the session was requested by the customer.
 **Parameter:** 
  - **whenRequested** DateTime
 
+```crmscript
+NSChatSessionEntity thing;
+DateTime whenRequested;
+thing.SetWhenRequested(whenRequested);
+```
+

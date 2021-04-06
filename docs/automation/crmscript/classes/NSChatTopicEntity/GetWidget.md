@@ -11,3 +11,9 @@ Settings for the chat widget
 **Returns:** ChatWidgetSettings
 
 
+```crmscript
+NSChatTopicEntity thing;
+ChatWidgetSettings widget  = thing.GetWidget();
+```
+
+

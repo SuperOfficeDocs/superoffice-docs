@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** LicenseInfo
 
 
+```crmscript
+NSExtendedLicenseInfo thing;
+LicenseInfo current  = thing.GetCurrent();
+```
+
+

@@ -11,3 +11,9 @@ The (short) name of this category. E.g. &apos;support&apos;.
 **Returns:** String
 
 
+```crmscript
+NSTicket thing;
+String categoryName  = thing.GetCategoryName();
+```
+
+

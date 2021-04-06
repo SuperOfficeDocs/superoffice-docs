@@ -11,3 +11,8 @@ Set the primary key (id) for the Role
 **Parameter:** 
  - **id** Integer Role id.
 
+```crmscript
+NSRole thing;
+thing.SetId(123);
+```
+

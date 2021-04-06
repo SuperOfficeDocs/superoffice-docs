@@ -11,3 +11,9 @@ The contact category.
 **Parameter:** 
  - **category** String
 
+```crmscript
+NSContactActivity thing;
+String category;
+thing.SetCategory(category);
+```
+

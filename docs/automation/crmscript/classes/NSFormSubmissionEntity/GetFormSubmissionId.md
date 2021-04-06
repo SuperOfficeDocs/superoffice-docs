@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSFormSubmissionEntity thing;
+Integer formSubmissionId  = thing.GetFormSubmissionId();
+```
+
+

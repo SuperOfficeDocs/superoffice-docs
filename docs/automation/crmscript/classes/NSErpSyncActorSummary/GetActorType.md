@@ -19,3 +19,9 @@ Actor type
      - Enum: 6 = Employee 
      - Enum: 7 = Sale 
 
+```crmscript
+NSErpSyncActorSummary thing;
+Integer actorType  = thing.GetActorType();
+```
+
+

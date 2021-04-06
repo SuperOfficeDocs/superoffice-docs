@@ -11,3 +11,9 @@ If something went wrong, show this message and do not continue
 **Returns:** String
 
 
+```crmscript
+NSQuotePublishDocuments thing;
+String errorMessage  = thing.GetErrorMessage();
+```
+
+

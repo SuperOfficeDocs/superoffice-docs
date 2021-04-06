@@ -11,3 +11,9 @@ The table that is the owning entity
 **Returns:** Integer
 
 
+```crmscript
+NSSaintConfiguration thing;
+Integer ownerTable  = thing.GetOwnerTable();
+```
+
+

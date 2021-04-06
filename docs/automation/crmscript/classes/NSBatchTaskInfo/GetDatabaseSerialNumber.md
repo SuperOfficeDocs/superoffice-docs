@@ -11,3 +11,9 @@ Serial number of the database the task is to run on.
 **Returns:** String
 
 
+```crmscript
+NSBatchTaskInfo thing;
+String databaseSerialNumber  = thing.GetDatabaseSerialNumber();
+```
+
+

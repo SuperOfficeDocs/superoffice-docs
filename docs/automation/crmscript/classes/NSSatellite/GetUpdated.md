@@ -11,3 +11,9 @@ Last updated when
 **Returns:** DateTime
 
 
+```crmscript
+NSSatellite thing;
+DateTime updated  = thing.GetUpdated();
+```
+
+

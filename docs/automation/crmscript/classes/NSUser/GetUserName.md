@@ -11,3 +11,9 @@ User name, a.k.a. Login name. This might be an e-mail address.
 **Returns:** String
 
 
+```crmscript
+NSUser thing;
+String userName  = thing.GetUserName();
+```
+
+

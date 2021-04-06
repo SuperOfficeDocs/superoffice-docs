@@ -11,3 +11,9 @@ Is this a sent e-mail (not new)
 **Parameter:** 
  - **isSent** Bool
 
+```crmscript
+NSEMailEntity thing;
+Bool isSent;
+thing.SetIsSent(isSent);
+```
+

@@ -21,3 +21,9 @@ The different types of appointment, if the appointment is supposed to be shown i
      - Enum: 8 = MergeDraft 
      - Enum: 9 = MergeFinal 
 
+```crmscript
+NSAppointment thing;
+Integer type;
+thing.SetType(type);
+```
+

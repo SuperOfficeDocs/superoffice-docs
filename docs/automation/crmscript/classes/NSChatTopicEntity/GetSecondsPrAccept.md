@@ -11,3 +11,9 @@ The average number of seconds per accept for this topic.
 **Returns:** Integer
 
 
+```crmscript
+NSChatTopicEntity thing;
+Integer secondsPrAccept  = thing.GetSecondsPrAccept();
+```
+
+

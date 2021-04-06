@@ -11,3 +11,9 @@ Who the task should be visible for
 **Parameter:** 
  - **visibleFor** VisibleFor
 
+```crmscript
+NSMailMergeTask thing;
+VisibleFor visibleFor;
+thing.SetVisibleFor(visibleFor);
+```
+

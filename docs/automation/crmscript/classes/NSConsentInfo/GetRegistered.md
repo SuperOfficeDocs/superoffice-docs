@@ -11,3 +11,9 @@ When this consent record was created
 **Returns:** DateTime
 
 
+```crmscript
+NSConsentInfo thing;
+DateTime registered  = thing.GetRegistered();
+```
+
+

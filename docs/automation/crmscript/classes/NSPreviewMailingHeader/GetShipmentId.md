@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSPreviewMailingHeader thing;
+Integer shipmentId  = thing.GetShipmentId();
+```
+
+

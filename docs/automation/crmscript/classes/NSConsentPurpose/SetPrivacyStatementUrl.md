@@ -11,3 +11,9 @@ Url referencing the actual privacy statement
 **Parameter:** 
  - **privacyStatementUrl** String
 
+```crmscript
+NSConsentPurpose thing;
+String privacyStatementUrl;
+thing.SetPrivacyStatementUrl(privacyStatementUrl);
+```
+

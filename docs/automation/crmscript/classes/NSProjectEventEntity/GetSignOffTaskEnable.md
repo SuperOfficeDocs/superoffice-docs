@@ -11,3 +11,9 @@ If not 0, a task should be created when the external user Signs Off an event
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEventEntity thing;
+Bool signOffTaskEnable  = thing.GetSignOffTaskEnable();
+```
+
+

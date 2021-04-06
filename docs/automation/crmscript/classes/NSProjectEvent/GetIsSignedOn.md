@@ -11,3 +11,9 @@ True if the current user is signed on to the event (i.e. is project member)
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEvent thing;
+Bool isSignedOn  = thing.GetIsSignedOn();
+```
+
+

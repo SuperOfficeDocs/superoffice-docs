@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **eMail** StringArray
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray eMail;
+thing.SetEMail(eMail);
+```
+

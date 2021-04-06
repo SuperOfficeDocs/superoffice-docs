@@ -11,3 +11,9 @@ The alert level for this chat session.
 **Parameter:** 
  - **alertLevel** Integer
 
+```crmscript
+NSChatSessionEntity thing;
+Integer alertLevel;
+thing.SetAlertLevel(alertLevel);
+```
+

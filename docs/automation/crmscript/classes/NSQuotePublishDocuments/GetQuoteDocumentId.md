@@ -11,3 +11,9 @@ Quote document, as PDF; may be zero if there is no document specified for the ve
 **Returns:** Integer
 
 
+```crmscript
+NSQuotePublishDocuments thing;
+Integer quoteDocumentId  = thing.GetQuoteDocumentId();
+```
+
+

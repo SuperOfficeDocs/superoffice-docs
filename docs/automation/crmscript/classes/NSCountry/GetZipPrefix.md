@@ -11,3 +11,9 @@ Post prefix
 **Returns:** String
 
 
+```crmscript
+NSCountry thing;
+String zipPrefix  = thing.GetZipPrefix();
+```
+
+

@@ -11,3 +11,9 @@ The user that created the person object
 **Returns:** Associate
 
 
+```crmscript
+NSPersonEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
+
+

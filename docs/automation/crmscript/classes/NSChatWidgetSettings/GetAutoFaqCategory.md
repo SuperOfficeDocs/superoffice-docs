@@ -11,3 +11,9 @@ Root folder for FAQ suggestions
 **Returns:** KbCategory
 
 
+```crmscript
+NSChatWidgetSettings thing;
+KbCategory autoFaqCategory  = thing.GetAutoFaqCategory();
+```
+
+

@@ -11,3 +11,9 @@ Max age of data when generating db's based on this area
 **Returns:** Integer
 
 
+```crmscript
+NSArea thing;
+Integer maxDataAge  = thing.GetMaxDataAge();
+```
+
+

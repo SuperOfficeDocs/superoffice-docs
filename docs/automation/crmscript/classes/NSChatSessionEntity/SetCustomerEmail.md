@@ -11,3 +11,9 @@ The email address of the customer, if provided
 **Parameter:** 
  - **customerEmail** String
 
+```crmscript
+NSChatSessionEntity thing;
+String customerEmail;
+thing.SetCustomerEmail(customerEmail);
+```
+

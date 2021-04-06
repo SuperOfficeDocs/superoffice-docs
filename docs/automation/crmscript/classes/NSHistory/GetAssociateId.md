@@ -11,3 +11,9 @@ Owner of history list
 **Returns:** Integer
 
 
+```crmscript
+NSHistory thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

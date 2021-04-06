@@ -24,3 +24,9 @@ What is the origin of this ticket
      - Enum: 11 = Chat 
      - Enum: 12 = Form 
 
+```crmscript
+NSTicketEntity thing;
+TicketOrigin origin;
+thing.SetOrigin(origin);
+```
+

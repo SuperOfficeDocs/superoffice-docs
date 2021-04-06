@@ -11,3 +11,9 @@ Number of licenses purchased.
 **Parameter:** 
  - **numberOfLicenses** Integer
 
+```crmscript
+NSModuleLicense thing;
+Integer numberOfLicenses;
+thing.SetNumberOfLicenses(numberOfLicenses);
+```
+

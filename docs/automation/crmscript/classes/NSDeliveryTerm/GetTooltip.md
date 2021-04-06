@@ -10,3 +10,9 @@ Get the tooltip description for the DeliveryTerm list item.
 
 **Returns:** String DeliveryTerm tooltip description.
 
+```crmscript
+NSDeliveryTerm thing;
+String descr = thing.GetTooltip();
+```
+
+

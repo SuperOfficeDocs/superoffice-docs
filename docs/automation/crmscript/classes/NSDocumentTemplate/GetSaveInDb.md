@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSDocumentTemplate thing;
+Integer saveInDb  = thing.GetSaveInDb();
+```
+
+

@@ -11,3 +11,9 @@ The module licenses.
 **Parameter:** 
  - **moduleLicenses** ModuleLicenseArray
 
+```crmscript
+NSLicenseInfo thing;
+ModuleLicenseArray moduleLicenses;
+thing.SetModuleLicenses(moduleLicenses);
+```
+

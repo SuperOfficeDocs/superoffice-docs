@@ -11,3 +11,9 @@ The name of the provider for the Mailings tab, if relevant; this string will con
 **Returns:** String
 
 
+```crmscript
+NSSelectionEntity thing;
+String mailingsProviderName  = thing.GetMailingsProviderName();
+```
+
+

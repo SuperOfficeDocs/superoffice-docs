@@ -10,3 +10,8 @@ Get the primary key (id) for the NavigatorCompany
 
 **Returns:** Integer NavigatorCompany id.
 
+```crmscript
+NSNavigatorCompany thing;
+Integer id = thing.GetId();
+```
+

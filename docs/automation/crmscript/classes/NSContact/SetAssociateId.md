@@ -11,3 +11,9 @@ Our contact
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSContact thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

@@ -11,3 +11,9 @@ Actual probability, may differ from the one in the list
 **Parameter:** 
  - **probability** Integer
 
+```crmscript
+NSSale thing;
+Integer probability;
+thing.SetProbability(probability);
+```
+

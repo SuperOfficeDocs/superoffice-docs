@@ -11,3 +11,9 @@ The username used to log onto the mail account
 **Parameter:** 
  - **username** String
 
+```crmscript
+NSMailboxEntity thing;
+String username;
+thing.SetUsername(username);
+```
+

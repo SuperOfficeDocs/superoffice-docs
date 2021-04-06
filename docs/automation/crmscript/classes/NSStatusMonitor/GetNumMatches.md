@@ -11,3 +11,9 @@ Number of targets that have this status, this should be the number of rows in St
 **Returns:** Integer
 
 
+```crmscript
+NSStatusMonitor thing;
+Integer numMatches  = thing.GetNumMatches();
+```
+
+

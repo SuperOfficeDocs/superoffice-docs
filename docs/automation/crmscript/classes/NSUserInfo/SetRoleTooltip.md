@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **roleTooltip** String
 
+```crmscript
+NSUserInfo thing;
+String roleTooltip;
+thing.SetRoleTooltip(roleTooltip);
+```
+

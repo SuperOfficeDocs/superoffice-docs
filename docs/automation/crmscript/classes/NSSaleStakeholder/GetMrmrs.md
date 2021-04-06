@@ -11,3 +11,9 @@ e.g. Mrs, Mr, Ms, Dr.
 **Returns:** String
 
 
+```crmscript
+NSSaleStakeholder thing;
+String mrmrs  = thing.GetMrmrs();
+```
+
+

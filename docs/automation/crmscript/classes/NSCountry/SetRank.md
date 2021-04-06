@@ -11,3 +11,9 @@ The rank of the country
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSCountry thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

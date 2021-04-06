@@ -11,3 +11,9 @@ Appoinmtments preferred timezone location.
 **Parameter:** 
  - **preferredTZLocation** Integer
 
+```crmscript
+NSAppointmentEntity thing;
+Integer preferredTZLocation;
+thing.SetPreferredTZLocation(preferredTZLocation);
+```
+

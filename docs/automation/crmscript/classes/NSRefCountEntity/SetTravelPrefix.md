@@ -11,3 +11,9 @@ size of prefix for Travel use of ths counter
 **Parameter:** 
  - **travelPrefix** Integer
 
+```crmscript
+NSRefCountEntity thing;
+Integer travelPrefix;
+thing.SetTravelPrefix(travelPrefix);
+```
+

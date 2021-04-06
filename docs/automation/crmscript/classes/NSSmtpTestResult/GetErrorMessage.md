@@ -11,3 +11,9 @@ If an error occured, this member will contain a description of the error
 **Returns:** String
 
 
+```crmscript
+NSSmtpTestResult thing;
+String errorMessage  = thing.GetErrorMessage();
+```
+
+

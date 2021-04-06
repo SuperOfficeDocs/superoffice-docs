@@ -11,3 +11,9 @@ The sales representative for the person that matches the request.
 **Returns:** Person
 
 
+```crmscript
+NSSalesActivity thing;
+Person salesRep  = thing.GetSalesRep();
+```
+
+

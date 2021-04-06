@@ -11,3 +11,9 @@ Name of header
 **Returns:** String
 
 
+```crmscript
+NSEMailCustomHeader thing;
+String name  = thing.GetName();
+```
+
+

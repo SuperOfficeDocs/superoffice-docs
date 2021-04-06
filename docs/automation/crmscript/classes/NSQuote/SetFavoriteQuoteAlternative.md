@@ -11,3 +11,9 @@ The favorite quote alternative for the quote and active quote version.
 **Parameter:** 
  - **favoriteQuoteAlternative** QuoteAlternative
 
+```crmscript
+NSQuote thing;
+QuoteAlternative favoriteQuoteAlternative;
+thing.SetFavoriteQuoteAlternative(favoriteQuoteAlternative);
+```
+

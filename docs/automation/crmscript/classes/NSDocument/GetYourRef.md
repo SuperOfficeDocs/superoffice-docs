@@ -11,3 +11,9 @@ Your reference
 **Returns:** String
 
 
+```crmscript
+NSDocument thing;
+String yourRef  = thing.GetYourRef();
+```
+
+

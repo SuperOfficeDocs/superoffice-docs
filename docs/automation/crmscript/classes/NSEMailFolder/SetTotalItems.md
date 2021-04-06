@@ -11,3 +11,9 @@ Total number of messages in the folder
 **Parameter:** 
  - **totalItems** Integer
 
+```crmscript
+NSEMailFolder thing;
+Integer totalItems;
+thing.SetTotalItems(totalItems);
+```
+

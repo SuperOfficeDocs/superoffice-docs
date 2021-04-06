@@ -11,3 +11,9 @@ Line item number, NOR: «Postnummer». Specific numbers from some hierarchy, for
 **Returns:** String
 
 
+```crmscript
+NSProduct thing;
+String itemNumber  = thing.GetItemNumber();
+```
+
+

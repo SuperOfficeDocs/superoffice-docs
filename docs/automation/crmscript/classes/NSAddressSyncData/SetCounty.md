@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **county** String
 
+```crmscript
+NSAddressSyncData thing;
+String county;
+thing.SetCounty(county);
+```
+

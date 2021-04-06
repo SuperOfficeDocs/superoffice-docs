@@ -11,3 +11,9 @@ Contact ID of person who is the project member
 **Parameter:** 
  - **contactId** Integer
 
+```crmscript
+NSProjectMember thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
+

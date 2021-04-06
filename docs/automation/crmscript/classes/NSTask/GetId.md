@@ -10,3 +10,8 @@ Get the primary key (id) for the Task
 
 **Returns:** Integer Task id.
 
+```crmscript
+NSTask thing;
+Integer id = thing.GetId();
+```
+

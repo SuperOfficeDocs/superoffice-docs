@@ -11,3 +11,9 @@ The key in the ERP system that identifies this sale's Order, as transferred and 
 **Returns:** String
 
 
+```crmscript
+NSQuote thing;
+String eRPOrderKey  = thing.GetERPOrderKey();
+```
+
+

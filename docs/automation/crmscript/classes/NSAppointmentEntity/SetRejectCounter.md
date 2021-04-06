@@ -11,3 +11,9 @@ How many invitees have rejected this appointment
 **Parameter:** 
  - **rejectCounter** Integer
 
+```crmscript
+NSAppointmentEntity thing;
+Integer rejectCounter;
+thing.SetRejectCounter(rejectCounter);
+```
+

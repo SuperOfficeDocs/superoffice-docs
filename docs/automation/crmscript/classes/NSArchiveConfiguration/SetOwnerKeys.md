@@ -11,3 +11,9 @@ The actual ownership information for the configuration that was retrieved
 **Parameter:** 
  - **ownerKeys** String
 
+```crmscript
+NSArchiveConfiguration thing;
+String ownerKeys;
+thing.SetOwnerKeys(ownerKeys);
+```
+

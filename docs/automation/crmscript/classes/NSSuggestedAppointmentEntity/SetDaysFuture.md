@@ -11,3 +11,9 @@ How many days into the future the appointment should be scheduled
 **Parameter:** 
  - **daysFuture** Integer
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Integer daysFuture;
+thing.SetDaysFuture(daysFuture);
+```
+

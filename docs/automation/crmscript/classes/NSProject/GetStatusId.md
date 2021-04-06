@@ -11,3 +11,9 @@ The projects status id
 **Returns:** Integer
 
 
+```crmscript
+NSProject thing;
+Integer statusId  = thing.GetStatusId();
+```
+
+

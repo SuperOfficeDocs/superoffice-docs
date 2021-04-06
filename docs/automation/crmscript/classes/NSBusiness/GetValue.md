@@ -10,3 +10,8 @@ Get the name of the Business.
 
 **Returns:** String Business name.
 
+```crmscript
+NSBusiness thing;
+String name = thing.GetValue();
+```
+

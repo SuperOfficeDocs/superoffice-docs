@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **taskListItemId** Integer
 
+```crmscript
+NSTaskListItem thing;
+Integer taskListItemId;
+thing.SetTaskListItemId(taskListItemId);
+```
+

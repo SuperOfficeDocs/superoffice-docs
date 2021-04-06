@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isVisibleForCategories** Bool
 
+```crmscript
+NSProjectEventEntity thing;
+Bool isVisibleForCategories;
+thing.SetIsVisibleForCategories(isVisibleForCategories);
+```
+

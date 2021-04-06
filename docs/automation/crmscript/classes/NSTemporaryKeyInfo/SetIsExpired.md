@@ -11,3 +11,9 @@ Whether the key is expired or not.
 **Parameter:** 
  - **isExpired** Bool
 
+```crmscript
+NSTemporaryKeyInfo thing;
+Bool isExpired;
+thing.SetIsExpired(isExpired);
+```
+

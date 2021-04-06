@@ -11,3 +11,9 @@ The business that the contact is associated with. The GUI forces the user to ent
 **Parameter:** 
  - **contactBusiness** String
 
+```crmscript
+NSParticipantSyncData thing;
+String contactBusiness;
+thing.SetContactBusiness(contactBusiness);
+```
+

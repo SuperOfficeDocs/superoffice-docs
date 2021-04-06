@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **emailFolderId** Integer
 
+```crmscript
+NSEMailFolder thing;
+Integer emailFolderId;
+thing.SetEmailFolderId(emailFolderId);
+```
+

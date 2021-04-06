@@ -11,3 +11,9 @@ Record id in target table, used when there are separate counters for each target
 **Parameter:** 
  - **recordId** Integer
 
+```crmscript
+NSRefCountEntity thing;
+Integer recordId;
+thing.SetRecordId(recordId);
+```
+

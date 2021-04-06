@@ -11,3 +11,9 @@ Automatically generated number
 **Parameter:** 
  - **projectNumber** String
 
+```crmscript
+NSProject thing;
+String projectNumber;
+thing.SetProjectNumber(projectNumber);
+```
+

@@ -11,3 +11,9 @@ The identity of the external app
 **Parameter:** 
  - **extAppId** Integer
 
+```crmscript
+NSExtAppEntity thing;
+Integer extAppId;
+thing.SetExtAppId(extAppId);
+```
+

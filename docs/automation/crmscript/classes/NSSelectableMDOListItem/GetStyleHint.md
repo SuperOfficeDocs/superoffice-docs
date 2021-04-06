@@ -11,3 +11,9 @@ Style hint indicating, information such as background color etc. Custom field.
 **Returns:** String
 
 
+```crmscript
+NSSelectableMDOListItem thing;
+String styleHint  = thing.GetStyleHint();
+```
+
+

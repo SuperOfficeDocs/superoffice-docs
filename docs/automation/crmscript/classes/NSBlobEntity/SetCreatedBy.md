@@ -11,3 +11,9 @@ The person that first created the document. The property is read-only.
 **Parameter:** 
  - **createdBy** Associate
 
+```crmscript
+NSBlobEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

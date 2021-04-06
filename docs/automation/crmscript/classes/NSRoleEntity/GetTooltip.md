@@ -11,3 +11,9 @@ Description of the role.
 **Returns:** String
 
 
+```crmscript
+NSRoleEntity thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

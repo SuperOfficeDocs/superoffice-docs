@@ -11,3 +11,9 @@ Count of rows, independent of paging. If you order up page 1 with page size 50, 
 **Parameter:** 
  - **rowCount** Integer
 
+```crmscript
+NSArchiveListResult thing;
+Integer rowCount;
+thing.SetRowCount(rowCount);
+```
+

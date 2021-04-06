@@ -10,3 +10,9 @@ Get the tooltip description for the Competitor list item.
 
 **Returns:** String Competitor tooltip description.
 
+```crmscript
+NSCompetitor thing;
+String descr = thing.GetTooltip();
+```
+
+

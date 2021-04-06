@@ -11,3 +11,9 @@ Content-Transfer-Encoding
 **Parameter:** 
  - **encoding** String
 
+```crmscript
+NSEMailAttachment thing;
+String encoding;
+thing.SetEncoding(encoding);
+```
+

@@ -11,3 +11,9 @@ Most Find entities support saving the search as a Dynamic Selection: this bool i
 **Returns:** Bool
 
 
+```crmscript
+NSSelectionForFind thing;
+Bool canSaveAsSelection  = thing.GetCanSaveAsSelection();
+```
+
+

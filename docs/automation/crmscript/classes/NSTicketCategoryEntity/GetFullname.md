@@ -11,3 +11,9 @@ The fullname (compiled from parents&apos; names) for this category. E.g. &apos;n
 **Returns:** String
 
 
+```crmscript
+NSTicketCategoryEntity thing;
+String fullname  = thing.GetFullname();
+```
+
+

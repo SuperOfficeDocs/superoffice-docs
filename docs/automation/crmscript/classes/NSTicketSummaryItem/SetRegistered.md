@@ -11,3 +11,9 @@ When the ticket was created.
 **Parameter:** 
  - **registered** DateTime
 
+```crmscript
+NSTicketSummaryItem thing;
+DateTime registered;
+thing.SetRegistered(registered);
+```
+

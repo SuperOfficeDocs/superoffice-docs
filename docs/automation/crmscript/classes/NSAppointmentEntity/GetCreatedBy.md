@@ -11,3 +11,9 @@ The associate that first created the appointment. The property is read-only.
 **Returns:** Associate
 
 
+```crmscript
+NSAppointmentEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
+
+

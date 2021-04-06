@@ -11,3 +11,9 @@ Parent table
 **Parameter:** 
  - **parentId** Integer
 
+```crmscript
+NSHierarchyEntity thing;
+Integer parentId;
+thing.SetParentId(parentId);
+```
+

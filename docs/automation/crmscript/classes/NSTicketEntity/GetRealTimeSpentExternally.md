@@ -11,3 +11,9 @@ The total time (seconds) within 24x7 the ticket has been in a external waiting s
 **Returns:** Integer
 
 
+```crmscript
+NSTicketEntity thing;
+Integer realTimeSpentExternally  = thing.GetRealTimeSpentExternally();
+```
+
+

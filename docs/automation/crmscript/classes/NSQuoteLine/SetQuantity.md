@@ -11,3 +11,9 @@ How many units; this is a decimal field since you might want to offer fractional
 **Parameter:** 
  - **quantity** Float
 
+```crmscript
+NSQuoteLine thing;
+Float quantity;
+thing.SetQuantity(quantity);
+```
+

@@ -11,3 +11,9 @@ Name of the ERP system (programmatic).
 **Returns:** String
 
 
+```crmscript
+NSQuoteConnection thing;
+String eRPName  = thing.GetERPName();
+```
+
+

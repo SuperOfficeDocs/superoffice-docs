@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Area
 
 
+```crmscript
+NSSatellite thing;
+Area area  = thing.GetArea();
+```
+
+

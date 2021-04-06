@@ -11,3 +11,9 @@ Owning person record
 **Returns:** Integer
 
 
+```crmscript
+NSUserInfo thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

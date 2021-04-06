@@ -11,3 +11,9 @@ Date when the the public key was signed. No Timezone.
 **Parameter:** 
  - **signDate** DateTime
 
+```crmscript
+NSSignedPublicKey thing;
+DateTime signDate;
+thing.SetSignDate(signDate);
+```
+

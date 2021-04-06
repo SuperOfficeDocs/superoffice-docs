@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSModuleLicenseLink thing;
+String prerequisiteModuleName  = thing.GetPrerequisiteModuleName();
+```
+
+

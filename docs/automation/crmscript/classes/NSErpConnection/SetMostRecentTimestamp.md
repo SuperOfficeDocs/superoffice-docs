@@ -11,3 +11,9 @@ Datetime, transaction number or other identification of the point in time of the
 **Parameter:** 
  - **mostRecentTimestamp** String
 
+```crmscript
+NSErpConnection thing;
+String mostRecentTimestamp;
+thing.SetMostRecentTimestamp(mostRecentTimestamp);
+```
+

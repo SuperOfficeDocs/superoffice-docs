@@ -11,3 +11,9 @@ The customer consented when starting the session
 **Parameter:** 
  - **customerConsented** Bool
 
+```crmscript
+NSChatSessionEntity thing;
+Bool customerConsented;
+thing.SetCustomerConsented(customerConsented);
+```
+

@@ -11,3 +11,9 @@ The projects status
 **Parameter:** 
  - **status** String
 
+```crmscript
+NSProject thing;
+String status;
+thing.SetStatus(status);
+```
+

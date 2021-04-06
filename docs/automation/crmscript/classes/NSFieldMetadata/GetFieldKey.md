@@ -11,3 +11,9 @@ Internal key/name of the field. Used as the key in the ConnectionConfigField val
 **Returns:** String
 
 
+```crmscript
+NSFieldMetadata thing;
+String fieldKey  = thing.GetFieldKey();
+```
+
+

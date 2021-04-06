@@ -11,3 +11,9 @@ Values in this set
 **Returns:** StatisticsDataValueArray
 
 
+```crmscript
+NSStatisticsDataSet thing;
+StatisticsDataValueArray values  = thing.GetValues();
+```
+
+

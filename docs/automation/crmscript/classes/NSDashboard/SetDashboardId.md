@@ -11,3 +11,9 @@ The dashboard id
 **Parameter:** 
  - **dashboardId** Integer
 
+```crmscript
+NSDashboard thing;
+Integer dashboardId;
+thing.SetDashboardId(dashboardId);
+```
+

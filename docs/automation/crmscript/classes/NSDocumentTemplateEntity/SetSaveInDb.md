@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **saveInDb** Integer
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer saveInDb;
+thing.SetSaveInDb(saveInDb);
+```
+

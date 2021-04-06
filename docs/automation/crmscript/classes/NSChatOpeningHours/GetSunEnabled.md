@@ -11,3 +11,9 @@ Whether open on Sundays.
 **Returns:** Bool
 
 
+```crmscript
+NSChatOpeningHours thing;
+Bool sunEnabled  = thing.GetSunEnabled();
+```
+
+

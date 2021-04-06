@@ -11,3 +11,9 @@ The total time (seconds) within 24x7 the ticket has been in an open status (conf
 **Parameter:** 
  - **realTimeSpentInternally** Integer
 
+```crmscript
+NSTicket thing;
+Integer realTimeSpentInternally;
+thing.SetRealTimeSpentInternally(realTimeSpentInternally);
+```
+

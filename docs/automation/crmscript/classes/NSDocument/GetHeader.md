@@ -11,3 +11,9 @@ Visible document name
 **Returns:** String
 
 
+```crmscript
+NSDocument thing;
+String header  = thing.GetHeader();
+```
+
+

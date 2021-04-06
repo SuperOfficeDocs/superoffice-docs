@@ -11,3 +11,9 @@ Default string value
 **Parameter:** 
  - **defaultValue** String
 
+```crmscript
+NSFieldInfoShortText thing;
+String defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
+

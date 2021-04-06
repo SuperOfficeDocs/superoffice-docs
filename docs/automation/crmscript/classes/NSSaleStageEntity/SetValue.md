@@ -11,3 +11,9 @@ The sale stage
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSSaleStageEntity thing;
+String value;
+thing.SetValue(value);
+```
+

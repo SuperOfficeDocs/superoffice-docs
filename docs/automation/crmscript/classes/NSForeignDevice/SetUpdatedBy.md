@@ -11,3 +11,9 @@ The person that last updated this device.
 **Parameter:** 
  - **updatedBy** String
 
+```crmscript
+NSForeignDevice thing;
+String updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
+

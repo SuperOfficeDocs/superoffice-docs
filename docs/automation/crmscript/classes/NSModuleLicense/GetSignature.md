@@ -11,3 +11,9 @@ Signature that verifies that this row is correctly transferred from SuperLicense
 **Returns:** String
 
 
+```crmscript
+NSModuleLicense thing;
+String signature  = thing.GetSignature();
+```
+
+

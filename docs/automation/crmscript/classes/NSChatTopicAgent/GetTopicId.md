@@ -11,3 +11,9 @@ The reference to the associated chat topic.
 **Returns:** Integer
 
 
+```crmscript
+NSChatTopicAgent thing;
+Integer topicId  = thing.GetTopicId();
+```
+
+

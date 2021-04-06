@@ -11,3 +11,9 @@ Contact name
 **Returns:** String
 
 
+```crmscript
+NSAlarmData thing;
+String contactName  = thing.GetContactName();
+```
+
+

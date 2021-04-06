@@ -11,3 +11,9 @@ If this message is important or not.
 **Returns:** Bool
 
 
+```crmscript
+NSTicketMessage thing;
+Bool important  = thing.GetImportant();
+```
+
+

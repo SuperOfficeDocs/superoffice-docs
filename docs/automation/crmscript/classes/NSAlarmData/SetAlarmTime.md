@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **alarmTime** DateTime
 
+```crmscript
+NSAlarmData thing;
+DateTime alarmTime;
+thing.SetAlarmTime(alarmTime);
+```
+

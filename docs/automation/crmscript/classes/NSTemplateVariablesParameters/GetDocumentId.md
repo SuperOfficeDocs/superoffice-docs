@@ -11,3 +11,9 @@ Identifier for a document
 **Returns:** Integer
 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer documentId  = thing.GetDocumentId();
+```
+
+

@@ -11,3 +11,9 @@ DST start rule, such as 0200 1ST-SUN-APR; limited to rules that we have parse co
 **Parameter:** 
  - **startRulePattern** String
 
+```crmscript
+NSTimeZoneRule thing;
+String startRulePattern;
+thing.SetStartRulePattern(startRulePattern);
+```
+

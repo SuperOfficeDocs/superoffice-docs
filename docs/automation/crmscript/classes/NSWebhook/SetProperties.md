@@ -11,3 +11,9 @@ Custom values to inject into JSON body of webhook call.
 **Parameter:** 
  - **properties** StringObjectDictionary
 
+```crmscript
+NSWebhook thing;
+StringObjectDictionary properties;
+thing.SetProperties(properties);
+```
+

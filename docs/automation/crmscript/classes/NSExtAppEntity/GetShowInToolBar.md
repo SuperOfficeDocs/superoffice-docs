@@ -11,3 +11,9 @@ Does the webpanel have a toolbar
 **Returns:** Bool
 
 
+```crmscript
+NSExtAppEntity thing;
+Bool showInToolBar  = thing.GetShowInToolBar();
+```
+
+

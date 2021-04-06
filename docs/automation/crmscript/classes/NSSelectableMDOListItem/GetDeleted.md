@@ -11,3 +11,9 @@ The deleted status of the ListItem
 **Returns:** Bool
 
 
+```crmscript
+NSSelectableMDOListItem thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

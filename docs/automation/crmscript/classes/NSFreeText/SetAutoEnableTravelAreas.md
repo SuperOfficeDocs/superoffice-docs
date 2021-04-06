@@ -11,3 +11,9 @@ Automatically enable freetext search for new travel areas
 **Parameter:** 
  - **autoEnableTravelAreas** Bool
 
+```crmscript
+NSFreeText thing;
+Bool autoEnableTravelAreas;
+thing.SetAutoEnableTravelAreas(autoEnableTravelAreas);
+```
+

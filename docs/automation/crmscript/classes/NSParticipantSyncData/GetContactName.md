@@ -11,3 +11,9 @@ Contact name
 **Returns:** String
 
 
+```crmscript
+NSParticipantSyncData thing;
+String contactName  = thing.GetContactName();
+```
+
+

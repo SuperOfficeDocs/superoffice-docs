@@ -11,3 +11,9 @@ Does the appointment overlap with another appointment in the user's diary?
 **Returns:** Bool
 
 
+```crmscript
+NSAppointmentEntity thing;
+Bool hasConflict  = thing.GetHasConflict();
+```
+
+

@@ -11,3 +11,9 @@ ID of plugin that stores this template, so it can be retrieved
 **Parameter:** 
  - **pluginId** Integer
 
+```crmscript
+NSTemplateInfo thing;
+Integer pluginId;
+thing.SetPluginId(pluginId);
+```
+

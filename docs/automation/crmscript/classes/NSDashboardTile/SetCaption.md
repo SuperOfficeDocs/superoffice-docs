@@ -11,3 +11,9 @@ The tile caption
 **Parameter:** 
  - **caption** String
 
+```crmscript
+NSDashboardTile thing;
+String caption;
+thing.SetCaption(caption);
+```
+

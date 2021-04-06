@@ -11,3 +11,9 @@ The name, if relevant, of the Archive Provider that will deliver the Shadow rows
 **Returns:** String
 
 
+```crmscript
+NSSelectionEntity thing;
+String shadowProviderName  = thing.GetShadowProviderName();
+```
+
+

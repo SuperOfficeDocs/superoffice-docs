@@ -11,3 +11,9 @@ Name shown in the list
 **Parameter:** 
  - **displayName** String
 
+```crmscript
+NSErpSyncConnectorEntity thing;
+String displayName;
+thing.SetDisplayName(displayName);
+```
+

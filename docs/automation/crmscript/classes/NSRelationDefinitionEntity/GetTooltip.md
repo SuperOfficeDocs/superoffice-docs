@@ -11,3 +11,9 @@ Tooltip or other description
 **Returns:** String
 
 
+```crmscript
+NSRelationDefinitionEntity thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

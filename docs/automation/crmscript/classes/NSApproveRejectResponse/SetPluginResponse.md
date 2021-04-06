@@ -11,3 +11,9 @@ The response from the operation.
 **Parameter:** 
  - **pluginResponse** PluginResponse
 
+```crmscript
+NSApproveRejectResponse thing;
+PluginResponse pluginResponse;
+thing.SetPluginResponse(pluginResponse);
+```
+

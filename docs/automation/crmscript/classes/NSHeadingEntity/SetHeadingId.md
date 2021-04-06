@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **headingId** Integer
 
+```crmscript
+NSHeadingEntity thing;
+Integer headingId;
+thing.SetHeadingId(headingId);
+```
+

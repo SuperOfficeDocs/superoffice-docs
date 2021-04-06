@@ -11,3 +11,9 @@ Tooltip for the field name.
 **Parameter:** 
  - **displayDescription** String
 
+```crmscript
+NSFieldMetadata thing;
+String displayDescription;
+thing.SetDisplayDescription(displayDescription);
+```
+

@@ -11,3 +11,9 @@ ConsentPerson ID
 **Returns:** Integer
 
 
+```crmscript
+NSConsentPerson thing;
+Integer consentPersonId  = thing.GetConsentPersonId();
+```
+
+

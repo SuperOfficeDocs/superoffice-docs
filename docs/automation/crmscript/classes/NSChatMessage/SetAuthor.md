@@ -11,3 +11,9 @@ The author of the message.
 **Parameter:** 
  - **author** String
 
+```crmscript
+NSChatMessage thing;
+String author;
+thing.SetAuthor(author);
+```
+

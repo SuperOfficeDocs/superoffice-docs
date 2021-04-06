@@ -11,3 +11,9 @@ Ticket priority ID
 **Parameter:** 
  - **ticketPriorityId** Integer
 
+```crmscript
+NSPerson thing;
+Integer ticketPriorityId;
+thing.SetTicketPriorityId(ticketPriorityId);
+```
+

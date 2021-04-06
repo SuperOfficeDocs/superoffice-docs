@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **mainHeading** String
 
+```crmscript
+NSSelectionEntity thing;
+String mainHeading;
+thing.SetMainHeading(mainHeading);
+```
+

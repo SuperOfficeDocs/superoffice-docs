@@ -11,3 +11,9 @@ Descriptive value, multilang-parsed, to put in list
 **Parameter:** 
  - **prefShowValue** String
 
+```crmscript
+NSPreferenceDescriptionLine thing;
+String prefShowValue;
+thing.SetPrefShowValue(prefShowValue);
+```
+

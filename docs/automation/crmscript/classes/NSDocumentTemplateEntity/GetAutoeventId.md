@@ -11,3 +11,9 @@ Which document plugin is responsible for the documents generated from this templ
 **Returns:** Integer
 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer autoeventId  = thing.GetAutoeventId();
+```
+
+

@@ -11,3 +11,9 @@ If the message is about some event happening at a specific date and time
 **Returns:** DateTime
 
 
+```crmscript
+NSPocketNotificationMessage thing;
+DateTime date  = thing.GetDate();
+```
+
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **prefDescLineId** Integer
 
+```crmscript
+NSPreferenceDescriptionLine thing;
+Integer prefDescLineId;
+thing.SetPrefDescLineId(prefDescLineId);
+```
+

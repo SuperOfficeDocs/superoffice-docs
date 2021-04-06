@@ -11,3 +11,9 @@ Registered when
 **Parameter:** 
  - **registered** DateTime
 
+```crmscript
+NSTriggerScriptEntity thing;
+DateTime registered;
+thing.SetRegistered(registered);
+```
+

@@ -11,3 +11,9 @@ Support priority ID
 **Parameter:** 
  - **supportLanguageId** Integer
 
+```crmscript
+NSPerson thing;
+Integer supportLanguageId;
+thing.SetSupportLanguageId(supportLanguageId);
+```
+

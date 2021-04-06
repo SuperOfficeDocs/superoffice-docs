@@ -11,3 +11,9 @@ Current message status
 **Parameter:** 
  - **status** Integer
 
+```crmscript
+NSMessageDeliveryStatus thing;
+Integer status;
+thing.SetStatus(status);
+```
+

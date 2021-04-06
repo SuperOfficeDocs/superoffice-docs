@@ -11,3 +11,9 @@ True if the application is marked as deleted
 **Returns:** Bool
 
 
+```crmscript
+NSExtAppEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

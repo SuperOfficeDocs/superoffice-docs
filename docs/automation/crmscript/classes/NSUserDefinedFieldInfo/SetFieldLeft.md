@@ -11,3 +11,9 @@ X pixel coordinate of field
 **Parameter:** 
  - **fieldLeft** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldLeft;
+thing.SetFieldLeft(fieldLeft);
+```
+

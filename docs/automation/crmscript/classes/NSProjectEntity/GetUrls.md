@@ -11,3 +11,9 @@ The project's internet adresses
 **Returns:** EntityElementArray
 
 
+```crmscript
+NSProjectEntity thing;
+EntityElementArray urls  = thing.GetUrls();
+```
+
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **languageInfoId** Integer
 
+```crmscript
+NSLanguageInfo thing;
+Integer languageInfoId;
+thing.SetLanguageInfoId(languageInfoId);
+```
+

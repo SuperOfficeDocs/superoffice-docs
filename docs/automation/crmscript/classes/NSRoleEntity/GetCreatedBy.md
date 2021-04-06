@@ -11,3 +11,9 @@ Created by user
 **Returns:** Associate
 
 
+```crmscript
+NSRoleEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
+
+

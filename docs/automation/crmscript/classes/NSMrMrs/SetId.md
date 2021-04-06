@@ -11,3 +11,8 @@ Set the primary key (id) for the MrMrs
 **Parameter:** 
  - **id** Integer MrMrs id.
 
+```crmscript
+NSMrMrs thing;
+thing.SetId(123);
+```
+

@@ -11,3 +11,9 @@ Describes if the feature toggle is turned on or off
 **Returns:** Bool
 
 
+```crmscript
+NSCsFeatureToggle thing;
+Bool state  = thing.GetState();
+```
+
+

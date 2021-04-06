@@ -11,3 +11,9 @@ Tooltip / description
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

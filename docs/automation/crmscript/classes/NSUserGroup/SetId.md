@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **id** Integer
 
+```crmscript
+NSUserGroup thing;
+Integer id;
+thing.SetId(id);
+```
+

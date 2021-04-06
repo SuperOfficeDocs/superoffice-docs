@@ -11,3 +11,9 @@ Name of the entity the link points to (The destination/target entity)
 **Returns:** String
 
 
+```crmscript
+NSLink thing;
+String entityName  = thing.GetEntityName();
+```
+
+

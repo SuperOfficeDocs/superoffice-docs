@@ -11,3 +11,9 @@ One Erp listItem id
 **Returns:** String
 
 
+```crmscript
+NSErpCrmListItemMapping thing;
+String erpListItemId  = thing.GetErpListItemId();
+```
+
+

@@ -11,3 +11,9 @@ Sequence number in ICS file.
 **Parameter:** 
  - **sequence** Integer
 
+```crmscript
+NSEMailAppointment thing;
+Integer sequence;
+thing.SetSequence(sequence);
+```
+

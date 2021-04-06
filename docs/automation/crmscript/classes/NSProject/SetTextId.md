@@ -11,3 +11,9 @@ The id of the description
 **Parameter:** 
  - **textId** Integer
 
+```crmscript
+NSProject thing;
+Integer textId;
+thing.SetTextId(textId);
+```
+

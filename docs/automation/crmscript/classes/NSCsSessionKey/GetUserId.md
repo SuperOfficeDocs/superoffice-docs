@@ -11,3 +11,9 @@ The ejuser id owning this session key
 **Returns:** Integer
 
 
+```crmscript
+NSCsSessionKey thing;
+Integer userId  = thing.GetUserId();
+```
+
+

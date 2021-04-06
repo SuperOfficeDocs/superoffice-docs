@@ -11,3 +11,9 @@ Length of the third counter period
 **Returns:** Integer
 
 
+```crmscript
+NSSaintConfiguration thing;
+Integer period3  = thing.GetPeriod3();
+```
+
+

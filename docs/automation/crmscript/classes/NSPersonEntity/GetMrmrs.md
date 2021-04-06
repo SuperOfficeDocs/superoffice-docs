@@ -11,3 +11,9 @@ e.g. Mrs   sex_title
 **Returns:** String
 
 
+```crmscript
+NSPersonEntity thing;
+String mrmrs  = thing.GetMrmrs();
+```
+
+

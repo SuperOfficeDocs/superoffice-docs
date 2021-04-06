@@ -11,3 +11,9 @@ The iso language code of the language the user is using in the crm system. Use t
 **Parameter:** 
  - **userLanguageCode** String
 
+```crmscript
+NSQuoteContext thing;
+String userLanguageCode;
+thing.SetUserLanguageCode(userLanguageCode);
+```
+

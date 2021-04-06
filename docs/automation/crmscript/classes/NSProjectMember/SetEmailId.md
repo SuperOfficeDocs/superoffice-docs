@@ -11,3 +11,9 @@ The person's email address id
 **Parameter:** 
  - **emailId** Integer
 
+```crmscript
+NSProjectMember thing;
+Integer emailId;
+thing.SetEmailId(emailId);
+```
+

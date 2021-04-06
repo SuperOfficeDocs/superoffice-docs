@@ -10,3 +10,9 @@ Get the tooltip description for the RelationToOwner list item.
 
 **Returns:** String RelationToOwner tooltip description.
 
+```crmscript
+NSRelationToOwner thing;
+String descr = thing.GetTooltip();
+```
+
+

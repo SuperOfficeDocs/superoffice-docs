@@ -11,3 +11,9 @@ Y pixel coordinate of label
 **Parameter:** 
  - **labelTop** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer labelTop;
+thing.SetLabelTop(labelTop);
+```
+

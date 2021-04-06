@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **internetPhones** EntityElementArray
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray internetPhones;
+thing.SetInternetPhones(internetPhones);
+```
+

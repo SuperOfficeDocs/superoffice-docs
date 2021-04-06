@@ -11,3 +11,9 @@ Quote alternative id
 **Returns:** Integer
 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer quoteAlternativeId  = thing.GetQuoteAlternativeId();
+```
+
+

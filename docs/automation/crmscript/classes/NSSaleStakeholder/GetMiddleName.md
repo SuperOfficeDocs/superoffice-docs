@@ -11,3 +11,9 @@ Middle name or 'van' etc.
 **Returns:** String
 
 
+```crmscript
+NSSaleStakeholder thing;
+String middleName  = thing.GetMiddleName();
+```
+
+

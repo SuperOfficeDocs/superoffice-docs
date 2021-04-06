@@ -11,3 +11,9 @@ The ID of the associate who last updated this record
 **Parameter:** 
  - **updatedAssociateId** Integer
 
+```crmscript
+NSConsentInfo thing;
+Integer updatedAssociateId;
+thing.SetUpdatedAssociateId(updatedAssociateId);
+```
+

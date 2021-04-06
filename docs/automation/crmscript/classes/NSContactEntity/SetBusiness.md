@@ -11,3 +11,9 @@ The business that the contact is associated with. The GUI forces the user to ent
 **Parameter:** 
  - **business** Business
 
+```crmscript
+NSContactEntity thing;
+Business business;
+thing.SetBusiness(business);
+```
+

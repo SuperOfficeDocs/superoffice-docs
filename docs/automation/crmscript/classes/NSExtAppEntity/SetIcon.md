@@ -11,3 +11,9 @@ The id of the icon of the external app
 **Parameter:** 
  - **icon** Integer
 
+```crmscript
+NSExtAppEntity thing;
+Integer icon;
+thing.SetIcon(icon);
+```
+

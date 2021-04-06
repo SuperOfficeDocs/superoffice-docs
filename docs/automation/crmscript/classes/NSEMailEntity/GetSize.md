@@ -11,3 +11,9 @@ Total size of the e-mail
 **Returns:** Integer
 
 
+```crmscript
+NSEMailEntity thing;
+Integer size  = thing.GetSize();
+```
+
+

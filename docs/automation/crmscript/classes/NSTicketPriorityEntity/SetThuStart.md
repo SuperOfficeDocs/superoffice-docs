@@ -11,3 +11,9 @@ The work hour start for Thursdays. Note that only the time part of the DateTime 
 **Parameter:** 
  - **thuStart** DateTime
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime thuStart;
+thing.SetThuStart(thuStart);
+```
+

@@ -11,3 +11,9 @@ Number of times the specific soprotocol is accessed
 **Returns:** Integer
 
 
+```crmscript
+NSWebAppUsage thing;
+Integer aggregateCount  = thing.GetAggregateCount();
+```
+
+

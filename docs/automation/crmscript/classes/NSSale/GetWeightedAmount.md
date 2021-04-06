@@ -11,3 +11,9 @@ The weighted amount ( amount *  probability / 100)
 **Returns:** Float
 
 
+```crmscript
+NSSale thing;
+Float weightedAmount  = thing.GetWeightedAmount();
+```
+
+

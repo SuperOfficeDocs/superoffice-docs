@@ -19,3 +19,9 @@ String, int, decimal, etc.
      - Enum: 6 = Date 
      - Enum: 99 = Label 
 
+```crmscript
+NSFieldMetadata thing;
+Integer fieldType;
+thing.SetFieldType(fieldType);
+```
+

@@ -11,3 +11,9 @@ Reference to foregin application (device type)
 **Returns:** Integer
 
 
+```crmscript
+NSForeignDevice thing;
+Integer foreignAppId  = thing.GetForeignAppId();
+```
+
+

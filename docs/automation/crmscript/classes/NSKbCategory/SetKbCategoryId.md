@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Parameter:** 
  - **kbCategoryId** Integer
 
+```crmscript
+NSKbCategory thing;
+Integer kbCategoryId;
+thing.SetKbCategoryId(kbCategoryId);
+```
+

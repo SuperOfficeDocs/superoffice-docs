@@ -11,3 +11,9 @@ Include recipients that are marked with stop
 **Returns:** Bool
 
 
+```crmscript
+NSMailMergeSettings thing;
+Bool includeStoppedRecipients  = thing.GetIncludeStoppedRecipients();
+```
+
+

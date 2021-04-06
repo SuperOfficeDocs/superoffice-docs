@@ -11,3 +11,9 @@ The resolved PersonEntity instance.
 **Parameter:** 
  - **person** PersonEntity
 
+```crmscript
+NSResolvedPerson thing;
+PersonEntity person;
+thing.SetPerson(person);
+```
+

@@ -11,3 +11,9 @@ If set, specifies a module license needed before this license can be granted
 **Returns:** String
 
 
+```crmscript
+NSModuleLicense thing;
+String prerequisiteModuleName  = thing.GetPrerequisiteModuleName();
+```
+
+

@@ -11,3 +11,9 @@ Unspecified extra flags of license, part of checksum. Value=1 means this a 'user
 **Parameter:** 
  - **extraFlags** Integer
 
+```crmscript
+NSModuleLicense thing;
+Integer extraFlags;
+thing.SetExtraFlags(extraFlags);
+```
+

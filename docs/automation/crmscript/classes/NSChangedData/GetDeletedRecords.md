@@ -11,3 +11,9 @@ Ids of deleted records.
 **Returns:** ChangedDataItemArray
 
 
+```crmscript
+NSChangedData thing;
+ChangedDataItemArray deletedRecords  = thing.GetDeletedRecords();
+```
+
+

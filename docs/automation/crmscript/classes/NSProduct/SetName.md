@@ -11,3 +11,9 @@ The name to use in the user interface.
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSProduct thing;
+String name;
+thing.SetName(name);
+```
+

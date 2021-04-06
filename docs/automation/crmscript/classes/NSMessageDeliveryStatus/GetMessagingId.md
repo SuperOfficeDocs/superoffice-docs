@@ -11,3 +11,9 @@ Id to the outgoing message table
 **Returns:** Integer
 
 
+```crmscript
+NSMessageDeliveryStatus thing;
+Integer messagingId  = thing.GetMessagingId();
+```
+
+

@@ -11,3 +11,9 @@ Number of all lost within the period
 **Parameter:** 
  - **lost** Integer
 
+```crmscript
+NSSaleSummary thing;
+Integer lost;
+thing.SetLost(lost);
+```
+

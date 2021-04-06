@@ -11,3 +11,9 @@ Can the field support multi use?
 **Parameter:** 
  - **canSupportMultiUse** Bool
 
+```crmscript
+NSFieldValueInfo thing;
+Bool canSupportMultiUse;
+thing.SetCanSupportMultiUse(canSupportMultiUse);
+```
+

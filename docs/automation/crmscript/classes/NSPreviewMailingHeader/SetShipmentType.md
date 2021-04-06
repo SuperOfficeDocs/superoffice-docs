@@ -11,3 +11,9 @@ The list item
 **Parameter:** 
  - **shipmentType** String
 
+```crmscript
+NSPreviewMailingHeader thing;
+String shipmentType;
+thing.SetShipmentType(shipmentType);
+```
+

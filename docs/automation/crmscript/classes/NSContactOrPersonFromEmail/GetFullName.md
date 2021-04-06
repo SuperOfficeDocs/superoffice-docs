@@ -11,3 +11,9 @@ The person fullname
 **Returns:** String
 
 
+```crmscript
+NSContactOrPersonFromEmail thing;
+String fullName  = thing.GetFullName();
+```
+
+

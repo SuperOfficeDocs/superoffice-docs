@@ -11,3 +11,9 @@ A unique name used for including this script in another
 **Parameter:** 
  - **includeId** String
 
+```crmscript
+NSCRMScriptEntity thing;
+String includeId;
+thing.SetIncludeId(includeId);
+```
+

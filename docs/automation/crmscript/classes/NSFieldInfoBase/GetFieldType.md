@@ -27,3 +27,9 @@ What sort of data does this field contain. 1 = int, 2 = short text, ...
      - Enum: 14 = DynamicLink 
      - Enum: 15 = ListText 
 
+```crmscript
+NSFieldInfoBase thing;
+Integer fieldType  = thing.GetFieldType();
+```
+
+

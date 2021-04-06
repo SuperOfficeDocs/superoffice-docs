@@ -11,3 +11,8 @@ Set the primary key (id) for the Credited
 **Parameter:** 
  - **id** Integer Credited id.
 
+```crmscript
+NSCredited thing;
+thing.SetId(123);
+```
+

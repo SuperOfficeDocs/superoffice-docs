@@ -11,3 +11,9 @@ Where the context should naviate afterwards
 **Returns:** String
 
 
+```crmscript
+NSEventData thing;
+String navigateTo  = thing.GetNavigateTo();
+```
+
+

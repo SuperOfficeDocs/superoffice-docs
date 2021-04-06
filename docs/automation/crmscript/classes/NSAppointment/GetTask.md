@@ -11,3 +11,9 @@ Task comprises the different types of activities, like “Phone call”, “Meet
 **Returns:** String
 
 
+```crmscript
+NSAppointment thing;
+String task  = thing.GetTask();
+```
+
+

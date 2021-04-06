@@ -19,3 +19,9 @@ The actor type (ERP side)
      - Enum: 6 = Employee 
      - Enum: 7 = Sale 
 
+```crmscript
+NSErpSyncActorTypeMapping thing;
+ErpActorType actorTypeErp  = thing.GetActorTypeErp();
+```
+
+

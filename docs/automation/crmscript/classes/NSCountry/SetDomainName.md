@@ -11,3 +11,9 @@ Domain name of the country
 **Parameter:** 
  - **domainName** String
 
+```crmscript
+NSCountry thing;
+String domainName;
+thing.SetDomainName(domainName);
+```
+

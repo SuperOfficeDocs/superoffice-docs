@@ -11,3 +11,9 @@ Associate Id
 **Returns:** Integer
 
 
+```crmscript
+NSWebAppUsage thing;
+Integer assocId  = thing.GetAssocId();
+```
+
+

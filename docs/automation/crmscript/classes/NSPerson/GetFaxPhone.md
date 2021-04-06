@@ -11,3 +11,9 @@ Returns the fax phone that belong to the contact person.
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String faxPhone  = thing.GetFaxPhone();
+```
+
+

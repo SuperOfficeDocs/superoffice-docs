@@ -11,3 +11,9 @@ Tooltip/description shown to user; multi-language support
 **Parameter:** 
  - **displayDescription** String
 
+```crmscript
+NSErpSyncConnectionSummary thing;
+String displayDescription;
+thing.SetDisplayDescription(displayDescription);
+```
+

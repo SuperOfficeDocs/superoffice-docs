@@ -11,3 +11,9 @@ GUID for video meeting in central services – this is set when we create meetin
 **Returns:** String
 
 
+```crmscript
+NSAppointmentEntity thing;
+String centralserviceVideomeetId  = thing.GetCentralserviceVideomeetId();
+```
+
+

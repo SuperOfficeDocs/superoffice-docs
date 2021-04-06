@@ -11,3 +11,9 @@ Rank of the field
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteLineConfiguration thing;
+Integer rank  = thing.GetRank();
+```
+
+

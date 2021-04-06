@@ -11,3 +11,9 @@ Contact category
 **Parameter:** 
  - **contactCategory** String
 
+```crmscript
+NSContactOrPersonFromEmail thing;
+String contactCategory;
+thing.SetContactCategory(contactCategory);
+```
+

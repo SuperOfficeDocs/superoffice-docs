@@ -11,3 +11,9 @@ The type of the ListItem. Custom field.
 **Parameter:** 
  - **type** String
 
+```crmscript
+NSMDOListItem thing;
+String type;
+thing.SetType(type);
+```
+

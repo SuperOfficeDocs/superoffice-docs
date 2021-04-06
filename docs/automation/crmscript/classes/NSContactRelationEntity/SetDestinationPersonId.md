@@ -11,3 +11,9 @@ Id of the destination person. The value is not mandatory. The person must belong
 **Parameter:** 
  - **destinationPersonId** Integer
 
+```crmscript
+NSContactRelationEntity thing;
+Integer destinationPersonId;
+thing.SetDestinationPersonId(destinationPersonId);
+```
+

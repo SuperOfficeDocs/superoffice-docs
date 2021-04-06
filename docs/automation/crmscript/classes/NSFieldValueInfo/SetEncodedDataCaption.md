@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **encodedDataCaption** String
 
+```crmscript
+NSFieldValueInfo thing;
+String encodedDataCaption;
+thing.SetEncodedDataCaption(encodedDataCaption);
+```
+

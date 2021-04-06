@@ -11,3 +11,9 @@ The maximum discount in percent of total, if set, on quotes linked to sales of t
 **Parameter:** 
  - **maxDiscountPercent** Integer
 
+```crmscript
+NSSaleTypeEntity thing;
+Integer maxDiscountPercent;
+thing.SetMaxDiscountPercent(maxDiscountPercent);
+```
+

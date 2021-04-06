@@ -11,3 +11,9 @@ Our support contact for this person
 **Parameter:** 
  - **supportAssociateId** Integer
 
+```crmscript
+NSPerson thing;
+Integer supportAssociateId;
+thing.SetSupportAssociateId(supportAssociateId);
+```
+

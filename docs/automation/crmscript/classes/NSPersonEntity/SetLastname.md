@@ -11,3 +11,9 @@ Last name
 **Parameter:** 
  - **lastname** String
 
+```crmscript
+NSPersonEntity thing;
+String lastname;
+thing.SetLastname(lastname);
+```
+

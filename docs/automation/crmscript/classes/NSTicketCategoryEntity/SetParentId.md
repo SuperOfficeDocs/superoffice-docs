@@ -11,3 +11,9 @@ The parent category for this category. -1 if this is a toplevel category.
 **Parameter:** 
  - **parentId** Integer
 
+```crmscript
+NSTicketCategoryEntity thing;
+Integer parentId;
+thing.SetParentId(parentId);
+```
+

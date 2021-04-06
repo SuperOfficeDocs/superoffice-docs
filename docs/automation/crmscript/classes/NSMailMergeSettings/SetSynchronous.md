@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **synchronous** Bool
 
+```crmscript
+NSMailMergeSettings thing;
+Bool synchronous;
+thing.SetSynchronous(synchronous);
+```
+

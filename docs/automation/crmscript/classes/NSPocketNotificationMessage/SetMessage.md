@@ -11,3 +11,9 @@ The notification message body
 **Parameter:** 
  - **message** String
 
+```crmscript
+NSPocketNotificationMessage thing;
+String message;
+thing.SetMessage(message);
+```
+

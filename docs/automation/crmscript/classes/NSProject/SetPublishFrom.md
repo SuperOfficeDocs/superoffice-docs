@@ -11,3 +11,9 @@ Publication valid from (inclusive)
 **Parameter:** 
  - **publishFrom** DateTime
 
+```crmscript
+NSProject thing;
+DateTime publishFrom;
+thing.SetPublishFrom(publishFrom);
+```
+

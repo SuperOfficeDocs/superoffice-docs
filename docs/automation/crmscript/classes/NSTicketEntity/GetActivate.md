@@ -11,3 +11,9 @@ When the ticket should be activated, if it is postponed.
 **Returns:** DateTime
 
 
+```crmscript
+NSTicketEntity thing;
+DateTime activate  = thing.GetActivate();
+```
+
+

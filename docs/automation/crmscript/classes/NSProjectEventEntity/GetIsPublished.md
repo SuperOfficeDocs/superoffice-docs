@@ -11,3 +11,9 @@ Publish to external users? When true, the event/project information is visible t
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEventEntity thing;
+Bool isPublished  = thing.GetIsPublished();
+```
+
+

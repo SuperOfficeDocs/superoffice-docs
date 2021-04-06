@@ -11,3 +11,9 @@ Whether open on Wednesdays.
 **Returns:** Bool
 
 
+```crmscript
+NSChatOpeningHours thing;
+Bool wedEnabled  = thing.GetWedEnabled();
+```
+
+

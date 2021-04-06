@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer deleted  = thing.GetDeleted();
+```
+
+

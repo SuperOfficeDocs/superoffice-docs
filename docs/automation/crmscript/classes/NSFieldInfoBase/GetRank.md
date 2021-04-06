@@ -11,3 +11,9 @@ Tab order, ranking within the custom fields.
 **Returns:** Integer
 
 
+```crmscript
+NSFieldInfoBase thing;
+Integer rank  = thing.GetRank();
+```
+
+

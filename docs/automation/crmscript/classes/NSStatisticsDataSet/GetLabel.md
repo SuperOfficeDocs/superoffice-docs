@@ -11,3 +11,9 @@ The label for the data set
 **Returns:** String
 
 
+```crmscript
+NSStatisticsDataSet thing;
+String label  = thing.GetLabel();
+```
+
+

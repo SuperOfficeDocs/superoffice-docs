@@ -11,3 +11,9 @@ Determines if a training is running, finished or unavailable
 **Returns:** String
 
 
+```crmscript
+NSCategorizationStatusResponse thing;
+String status  = thing.GetStatus();
+```
+
+

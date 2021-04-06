@@ -11,3 +11,9 @@ MDO list name used to populate this list. (Read-only - derived from TargetTable)
 **Parameter:** 
  - **mdoListName** String
 
+```crmscript
+NSFieldInfoRelation thing;
+String mdoListName;
+thing.SetMdoListName(mdoListName);
+```
+

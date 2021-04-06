@@ -11,3 +11,9 @@ Type of the suggested appointment
 **Parameter:** 
  - **taskId** Integer
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer taskId;
+thing.SetTaskId(taskId);
+```
+

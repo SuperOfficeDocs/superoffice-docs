@@ -10,3 +10,8 @@ Get the name of the DeliveryType.
 
 **Returns:** String DeliveryType name.
 
+```crmscript
+NSDeliveryType thing;
+String name = thing.GetValue();
+```
+

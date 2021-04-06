@@ -11,3 +11,9 @@ The appointment's textbox; document title
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSActivitySummaryItem thing;
+String description;
+thing.SetDescription(description);
+```
+

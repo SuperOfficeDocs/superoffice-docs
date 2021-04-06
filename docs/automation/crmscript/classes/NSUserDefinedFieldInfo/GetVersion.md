@@ -11,3 +11,9 @@ Definition version number; ALL fields get new version whenever layout is updated
 **Returns:** Integer
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer version  = thing.GetVersion();
+```
+
+

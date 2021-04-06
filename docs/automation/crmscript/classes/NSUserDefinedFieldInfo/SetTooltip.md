@@ -11,3 +11,9 @@ Optional tooltip text for this field
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

@@ -11,3 +11,9 @@ True if the user is a manager for this topic
 **Returns:** Bool
 
 
+```crmscript
+NSChatTopicAgent thing;
+Bool canManage  = thing.GetCanManage();
+```
+
+

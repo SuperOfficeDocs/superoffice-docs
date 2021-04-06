@@ -11,3 +11,9 @@ The server port
 **Parameter:** 
  - **port** Integer
 
+```crmscript
+NSServiceAuth thing;
+Integer port;
+thing.SetPort(port);
+```
+

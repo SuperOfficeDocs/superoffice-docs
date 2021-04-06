@@ -11,3 +11,9 @@ Tooltip/description of the DiaryView
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSDiaryViewEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

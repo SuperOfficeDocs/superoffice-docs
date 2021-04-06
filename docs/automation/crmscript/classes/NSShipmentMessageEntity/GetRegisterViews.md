@@ -11,3 +11,9 @@ Register message views?
 **Returns:** Bool
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+Bool registerViews  = thing.GetRegisterViews();
+```
+
+

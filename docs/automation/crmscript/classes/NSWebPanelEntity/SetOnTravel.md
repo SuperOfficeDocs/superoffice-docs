@@ -11,3 +11,9 @@ Is the webpanel visible when user is on travel
 **Parameter:** 
  - **onTravel** Bool
 
+```crmscript
+NSWebPanelEntity thing;
+Bool onTravel;
+thing.SetOnTravel(onTravel);
+```
+

@@ -11,3 +11,9 @@ Rank order
 **Returns:** Integer
 
 
+```crmscript
+NSTaskListItem thing;
+Integer rank  = thing.GetRank();
+```
+
+

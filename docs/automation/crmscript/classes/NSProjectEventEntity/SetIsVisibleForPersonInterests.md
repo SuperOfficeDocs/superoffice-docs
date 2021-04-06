@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isVisibleForPersonInterests** Bool
 
+```crmscript
+NSProjectEventEntity thing;
+Bool isVisibleForPersonInterests;
+thing.SetIsVisibleForPersonInterests(isVisibleForPersonInterests);
+```
+

@@ -15,3 +15,9 @@ A bitmask of flags.
      - Enum: 2 = Default 
      - Enum: 4 = AlertSchedule 
 
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityFlags flags;
+thing.SetFlags(flags);
+```
+

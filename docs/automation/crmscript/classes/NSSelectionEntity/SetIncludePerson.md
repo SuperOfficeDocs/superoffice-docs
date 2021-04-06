@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **includePerson** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer includePerson;
+thing.SetIncludePerson(includePerson);
+```
+

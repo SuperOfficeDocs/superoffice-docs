@@ -11,3 +11,9 @@ Identifier for a project
 **Parameter:** 
  - **projectId** Integer
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
+

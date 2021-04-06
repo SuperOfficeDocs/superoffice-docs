@@ -11,3 +11,9 @@ User name
 **Returns:** String
 
 
+```crmscript
+NSAssociate thing;
+String userName  = thing.GetUserName();
+```
+
+

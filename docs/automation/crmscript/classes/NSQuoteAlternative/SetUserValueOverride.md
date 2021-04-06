@@ -17,3 +17,9 @@ Has the pre-calculated (from ERP) price information been overridden, and how. If
      - Enum: 4 = EarningPercent 
      - Enum: 5 = EarningAmount 
 
+```crmscript
+NSQuoteAlternative thing;
+ValueOverride userValueOverride;
+thing.SetUserValueOverride(userValueOverride);
+```
+

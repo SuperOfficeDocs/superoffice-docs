@@ -11,3 +11,9 @@ Description of the country's flag image. (This is the country flag that is displ
 **Returns:** String
 
 
+```crmscript
+NSCountry thing;
+String imageDescription  = thing.GetImageDescription();
+```
+
+

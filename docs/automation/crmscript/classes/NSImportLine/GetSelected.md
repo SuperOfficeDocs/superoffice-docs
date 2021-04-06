@@ -11,3 +11,9 @@ True if the entity shall be imported, false if the entity shall be ignored
 **Returns:** Bool
 
 
+```crmscript
+NSImportLine thing;
+Bool selected  = thing.GetSelected();
+```
+
+

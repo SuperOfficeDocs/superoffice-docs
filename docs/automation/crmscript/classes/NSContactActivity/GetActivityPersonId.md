@@ -11,3 +11,9 @@ Id of the person causing the activity.
 **Returns:** Integer
 
 
+```crmscript
+NSContactActivity thing;
+Integer activityPersonId  = thing.GetActivityPersonId();
+```
+
+

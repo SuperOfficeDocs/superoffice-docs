@@ -11,3 +11,9 @@ The iso currency code, like 'USD' or 'NOK'.
 **Returns:** String
 
 
+```crmscript
+NSPriceList thing;
+String currency  = thing.GetCurrency();
+```
+
+

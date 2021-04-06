@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSOperationInfo thing;
+String key  = thing.GetKey();
+```
+
+

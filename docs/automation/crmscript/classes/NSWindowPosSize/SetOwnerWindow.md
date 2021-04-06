@@ -11,3 +11,9 @@ The dialog, panel or whatever that owns this record
 **Parameter:** 
  - **ownerWindow** String
 
+```crmscript
+NSWindowPosSize thing;
+String ownerWindow;
+thing.SetOwnerWindow(ownerWindow);
+```
+

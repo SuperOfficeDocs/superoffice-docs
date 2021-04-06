@@ -11,3 +11,9 @@ The associate's culture formatted formalname (firstname, middleName and lastname
 **Returns:** String
 
 
+```crmscript
+NSAlarmData thing;
+String formalName  = thing.GetFormalName();
+```
+
+

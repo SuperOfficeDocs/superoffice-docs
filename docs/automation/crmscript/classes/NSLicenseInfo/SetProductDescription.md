@@ -11,3 +11,9 @@ Description of type of product
 **Parameter:** 
  - **productDescription** String
 
+```crmscript
+NSLicenseInfo thing;
+String productDescription;
+thing.SetProductDescription(productDescription);
+```
+

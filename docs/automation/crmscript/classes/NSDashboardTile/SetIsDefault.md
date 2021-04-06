@@ -11,3 +11,9 @@ True if this is one of the default tiles
 **Parameter:** 
  - **isDefault** Bool
 
+```crmscript
+NSDashboardTile thing;
+Bool isDefault;
+thing.SetIsDefault(isDefault);
+```
+

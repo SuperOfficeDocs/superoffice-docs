@@ -11,3 +11,9 @@ Icon hint corresponding to the display name; this icon hint is used in the confi
 **Parameter:** 
  - **iconHint** String
 
+```crmscript
+NSArchiveColumnInfo thing;
+String iconHint;
+thing.SetIconHint(iconHint);
+```
+

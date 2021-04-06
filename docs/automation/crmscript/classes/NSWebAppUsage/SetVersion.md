@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **version** Integer
 
+```crmscript
+NSWebAppUsage thing;
+Integer version;
+thing.SetVersion(version);
+```
+

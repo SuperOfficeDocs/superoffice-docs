@@ -11,3 +11,9 @@ The name of the ListItem
 **Returns:** String
 
 
+```crmscript
+NSSelectableMDOListItem thing;
+String name  = thing.GetName();
+```
+
+

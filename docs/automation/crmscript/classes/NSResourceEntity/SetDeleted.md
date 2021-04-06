@@ -11,3 +11,9 @@ If true, the resource is deleted.
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSResourceEntity thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

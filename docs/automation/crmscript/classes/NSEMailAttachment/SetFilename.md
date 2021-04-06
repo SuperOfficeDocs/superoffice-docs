@@ -11,3 +11,9 @@ Filename
 **Parameter:** 
  - **filename** String
 
+```crmscript
+NSEMailAttachment thing;
+String filename;
+thing.SetFilename(filename);
+```
+

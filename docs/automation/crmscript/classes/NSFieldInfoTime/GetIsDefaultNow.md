@@ -11,3 +11,9 @@ Should the current date + time be the default?
 **Returns:** Bool
 
 
+```crmscript
+NSFieldInfoTime thing;
+Bool isDefaultNow  = thing.GetIsDefaultNow();
+```
+
+

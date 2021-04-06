@@ -11,3 +11,9 @@ The script
 **Parameter:** 
  - **source** String
 
+```crmscript
+NSCRMScriptEntity thing;
+String source;
+thing.SetSource(source);
+```
+

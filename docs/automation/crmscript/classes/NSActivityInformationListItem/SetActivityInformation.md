@@ -11,3 +11,9 @@ Activity information summary - number of free and busy activities.
 **Parameter:** 
  - **activityInformation** ActivitySummary
 
+```crmscript
+NSActivityInformationListItem thing;
+ActivitySummary activityInformation;
+thing.SetActivityInformation(activityInformation);
+```
+

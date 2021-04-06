@@ -11,3 +11,9 @@ Visible field
 **Parameter:** 
  - **emailAddressName** String
 
+```crmscript
+NSContact thing;
+String emailAddressName;
+thing.SetEmailAddressName(emailAddressName);
+```
+

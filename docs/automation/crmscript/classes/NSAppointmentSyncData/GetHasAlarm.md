@@ -11,3 +11,9 @@ Does this appointment have an alarm
 **Returns:** Bool
 
 
+```crmscript
+NSAppointmentSyncData thing;
+Bool hasAlarm  = thing.GetHasAlarm();
+```
+
+

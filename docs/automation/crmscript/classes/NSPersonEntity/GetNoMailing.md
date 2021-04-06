@@ -11,3 +11,9 @@ Spam filter. Indicates if this person should retrieve advertising.
 **Returns:** Bool
 
 
+```crmscript
+NSPersonEntity thing;
+Bool noMailing  = thing.GetNoMailing();
+```
+
+

@@ -11,3 +11,9 @@ Name of plugin that handles this webhook. 'webhook' for webhooks, which are hand
 **Returns:** String
 
 
+```crmscript
+NSWebhook thing;
+String type  = thing.GetType();
+```
+
+

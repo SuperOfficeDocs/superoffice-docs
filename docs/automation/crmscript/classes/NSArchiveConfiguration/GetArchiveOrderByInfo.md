@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** ArchiveOrderByInfoArray
 
 
+```crmscript
+NSArchiveConfiguration thing;
+ArchiveOrderByInfoArray archiveOrderByInfo  = thing.GetArchiveOrderByInfo();
+```
+
+

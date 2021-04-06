@@ -11,3 +11,9 @@ List of id's of the participants to this appointment.
 **Returns:** ParticipantInfoArray
 
 
+```crmscript
+NSAppointmentEntity thing;
+ParticipantInfoArray participants  = thing.GetParticipants();
+```
+
+

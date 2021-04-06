@@ -11,3 +11,9 @@ The username
 **Returns:** String
 
 
+```crmscript
+NSServiceAuth thing;
+String username  = thing.GetUsername();
+```
+
+

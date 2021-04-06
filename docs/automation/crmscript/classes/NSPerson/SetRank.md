@@ -11,3 +11,9 @@ Display sort sequence for default sort order
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSPerson thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

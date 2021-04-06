@@ -11,3 +11,9 @@ Number of updates made to this record
 **Returns:** Integer
 
 
+```crmscript
+NSSystemEventEntity thing;
+Integer updatedCount  = thing.GetUpdatedCount();
+```
+
+

@@ -15,3 +15,9 @@ The encoding of the URL
      - Enum: 2 = ANSI 
      - Enum: 3 = Unicode 
 
+```crmscript
+NSWebPanelEntity thing;
+Integer urlEncoding;
+thing.SetUrlEncoding(urlEncoding);
+```
+

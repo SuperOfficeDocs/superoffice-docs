@@ -11,3 +11,9 @@ The name of the ListItem
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSMDOListItem thing;
+String name;
+thing.SetName(name);
+```
+

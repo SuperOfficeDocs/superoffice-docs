@@ -11,3 +11,9 @@ Licenses the user/installation must have if this reference is to be shown. Comma
 **Returns:** String
 
 
+```crmscript
+NSPreferenceDescription thing;
+String requiredLicense  = thing.GetRequiredLicense();
+```
+
+

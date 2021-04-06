@@ -11,3 +11,9 @@ Additional key/value properties to include in the message
 **Returns:** StringDictionary
 
 
+```crmscript
+NSPocketNotificationMessage thing;
+StringDictionary extraValues  = thing.GetExtraValues();
+```
+
+

@@ -11,3 +11,9 @@ Use a multi-line text area?
 **Returns:** Bool
 
 
+```crmscript
+NSFieldInfoLongText thing;
+Bool useTextArea  = thing.GetUseTextArea();
+```
+
+

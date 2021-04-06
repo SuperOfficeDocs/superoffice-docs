@@ -11,3 +11,9 @@ The name of the ListItem in its context
 **Returns:** String
 
 
+```crmscript
+NSMDOListItem thing;
+String fullName  = thing.GetFullName();
+```
+
+

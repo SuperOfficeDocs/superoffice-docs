@@ -11,3 +11,9 @@ Get formal name for a person, as used in labels. (Full name + person title + aca
 **Parameter:** 
  - **personFormalName** String
 
+```crmscript
+NSParticipantSyncData thing;
+String personFormalName;
+thing.SetPersonFormalName(personFormalName);
+```
+

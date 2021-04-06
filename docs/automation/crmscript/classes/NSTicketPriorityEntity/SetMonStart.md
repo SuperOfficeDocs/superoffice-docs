@@ -11,3 +11,9 @@ The work hour start for Mondays. Note that only the time part of the DateTime is
 **Parameter:** 
  - **monStart** DateTime
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime monStart;
+thing.SetMonStart(monStart);
+```
+

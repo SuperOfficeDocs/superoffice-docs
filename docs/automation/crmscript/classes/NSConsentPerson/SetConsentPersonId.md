@@ -11,3 +11,9 @@ ConsentPerson ID
 **Parameter:** 
  - **consentPersonId** Integer
 
+```crmscript
+NSConsentPerson thing;
+Integer consentPersonId;
+thing.SetConsentPersonId(consentPersonId);
+```
+

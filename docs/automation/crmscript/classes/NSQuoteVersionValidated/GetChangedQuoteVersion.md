@@ -11,3 +11,9 @@ The validated QuoteVersion
 **Returns:** QuoteVersion
 
 
+```crmscript
+NSQuoteVersionValidated thing;
+QuoteVersion changedQuoteVersion  = thing.GetChangedQuoteVersion();
+```
+
+

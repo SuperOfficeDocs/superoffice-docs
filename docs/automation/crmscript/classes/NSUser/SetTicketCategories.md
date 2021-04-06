@@ -11,3 +11,9 @@ Request Ticket Categories assigned to the user.
 **Parameter:** 
  - **ticketCategories** MDOListItemArray
 
+```crmscript
+NSUser thing;
+MDOListItemArray ticketCategories;
+thing.SetTicketCategories(ticketCategories);
+```
+

@@ -11,3 +11,9 @@ The datetime for when the ticket first was read by a user.
 **Returns:** DateTime
 
 
+```crmscript
+NSTicketEntity thing;
+DateTime firstReadByUser  = thing.GetFirstReadByUser();
+```
+
+

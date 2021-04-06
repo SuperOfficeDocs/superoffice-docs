@@ -11,3 +11,9 @@ Attention/salutation
 **Returns:** String
 
 
+```crmscript
+NSDocumentEntity thing;
+String attention  = thing.GetAttention();
+```
+
+

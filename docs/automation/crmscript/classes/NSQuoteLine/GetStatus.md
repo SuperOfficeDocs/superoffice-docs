@@ -15,3 +15,9 @@ If there was a problem with for instance calculation, this field is set to warni
      - Enum: 2 = Warning 
      - Enum: 3 = Error 
 
+```crmscript
+NSQuoteLine thing;
+QuoteStatus status  = thing.GetStatus();
+```
+
+

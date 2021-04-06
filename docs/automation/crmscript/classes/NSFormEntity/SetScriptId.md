@@ -11,3 +11,9 @@ The CRMScript Macro which will be run when the form is submitted.
 **Parameter:** 
  - **scriptId** Integer
 
+```crmscript
+NSFormEntity thing;
+Integer scriptId;
+thing.SetScriptId(scriptId);
+```
+

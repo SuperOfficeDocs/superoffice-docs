@@ -11,3 +11,9 @@ The work hour start for Saturdays. Note that only the time part of the DateTime 
 **Parameter:** 
  - **satStart** DateTime
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime satStart;
+thing.SetSatStart(satStart);
+```
+

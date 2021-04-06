@@ -11,3 +11,9 @@ Is the application visible when user is on central database
 **Parameter:** 
  - **onCentral** Bool
 
+```crmscript
+NSExtAppEntity thing;
+Bool onCentral;
+thing.SetOnCentral(onCentral);
+```
+

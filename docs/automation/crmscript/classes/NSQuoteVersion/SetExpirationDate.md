@@ -11,3 +11,9 @@ Last date the quote Version is valid, expiration is at midnight end of this day.
 **Parameter:** 
  - **expirationDate** DateTime
 
+```crmscript
+NSQuoteVersion thing;
+DateTime expirationDate;
+thing.SetExpirationDate(expirationDate);
+```
+

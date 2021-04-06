@@ -11,3 +11,9 @@ True if this entity instance has syncronized connection
 **Returns:** Bool
 
 
+```crmscript
+NSErpConnectionData thing;
+Bool connected  = thing.GetConnected();
+```
+
+

@@ -11,3 +11,9 @@ Number of rows deleted / zeroed
 **Returns:** Integer
 
 
+```crmscript
+NSMassOperationResult thing;
+Integer deletes  = thing.GetDeletes();
+```
+
+

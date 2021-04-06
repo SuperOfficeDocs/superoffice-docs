@@ -11,3 +11,9 @@ The unique nick name for this user. Used in Service as an alias, similar to Name
 **Parameter:** 
  - **nickName** String
 
+```crmscript
+NSUser thing;
+String nickName;
+thing.SetNickName(nickName);
+```
+

@@ -11,3 +11,9 @@ Country
 **Parameter:** 
  - **countryId** Integer
 
+```crmscript
+NSProjectMember thing;
+Integer countryId;
+thing.SetCountryId(countryId);
+```
+

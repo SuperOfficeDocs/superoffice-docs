@@ -11,3 +11,9 @@ The from-address used when this ticket got created, e.g. by email
 **Returns:** String
 
 
+```crmscript
+NSTicketEntity thing;
+String fromAddress  = thing.GetFromAddress();
+```
+
+

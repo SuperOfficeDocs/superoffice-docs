@@ -11,3 +11,9 @@ Same as time_to_close, but not calculated based on priority.
 **Parameter:** 
  - **realTimeToClose** Integer
 
+```crmscript
+NSTicketEntity thing;
+Integer realTimeToClose;
+thing.SetRealTimeToClose(realTimeToClose);
+```
+

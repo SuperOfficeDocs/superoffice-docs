@@ -11,3 +11,9 @@ Stakeholde role list id - Primary key
 **Parameter:** 
  - **stakeholderRoleId** Integer
 
+```crmscript
+NSSaleStakeholder thing;
+Integer stakeholderRoleId;
+thing.SetStakeholderRoleId(stakeholderRoleId);
+```
+

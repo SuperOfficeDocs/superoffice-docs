@@ -11,3 +11,9 @@ Tooltip text for CRM field; ignored on Save
 **Returns:** String
 
 
+```crmscript
+NSErpSyncFieldMapping thing;
+String crmDisplayTooltip  = thing.GetCrmDisplayTooltip();
+```
+
+

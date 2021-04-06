@@ -10,3 +10,8 @@ Get the primary key (id) for the Department
 
 **Returns:** Integer Department id.
 
+```crmscript
+NSDepartment thing;
+Integer id = thing.GetId();
+```
+

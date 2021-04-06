@@ -20,3 +20,9 @@ Method stored in the associated iCal appointment. Indicates if the iCal data is 
      - Enum: 7 = Reply 
      - Enum: 8 = Request 
 
+```crmscript
+NSEMailEntity thing;
+Integer calMethod  = thing.GetCalMethod();
+```
+
+

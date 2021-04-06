@@ -11,3 +11,9 @@ The name of this criteria group
 **Returns:** String
 
 
+```crmscript
+NSArchiveRestrictionGroup thing;
+String name  = thing.GetName();
+```
+
+

@@ -11,3 +11,9 @@ Tooltip for this consent source
 **Returns:** String
 
 
+```crmscript
+NSConsentSource thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

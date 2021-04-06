@@ -11,3 +11,9 @@ The mail template to use when automatically sending emails to new persons create
 **Parameter:** 
  - **mailTemplateId** Integer
 
+```crmscript
+NSConsentSource thing;
+Integer mailTemplateId;
+thing.SetMailTemplateId(mailTemplateId);
+```
+

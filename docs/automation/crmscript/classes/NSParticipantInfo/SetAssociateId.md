@@ -11,3 +11,9 @@ Associate id of the participant if the participant is an associate (or resource)
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSParticipantInfo thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

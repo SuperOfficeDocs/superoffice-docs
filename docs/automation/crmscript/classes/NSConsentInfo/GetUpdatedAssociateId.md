@@ -11,3 +11,9 @@ The ID of the associate who last updated this record
 **Returns:** Integer
 
 
+```crmscript
+NSConsentInfo thing;
+Integer updatedAssociateId  = thing.GetUpdatedAssociateId();
+```
+
+

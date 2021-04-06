@@ -11,3 +11,9 @@ The tooltip of the country
 **Returns:** String
 
 
+```crmscript
+NSCountry thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

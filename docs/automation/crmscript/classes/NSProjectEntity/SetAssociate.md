@@ -11,3 +11,9 @@ The person that created the project
 **Parameter:** 
  - **associate** Associate
 
+```crmscript
+NSProjectEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
+

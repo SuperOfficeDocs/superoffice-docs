@@ -11,3 +11,9 @@ The CRMscript code for this event handler
 **Parameter:** 
  - **source** String
 
+```crmscript
+NSTriggerScriptEntity thing;
+String source;
+thing.SetSource(source);
+```
+

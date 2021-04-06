@@ -11,3 +11,9 @@ The selection that defines the data filter/restrictions
 **Parameter:** 
  - **selectionId** Integer
 
+```crmscript
+NSDashboardTile thing;
+Integer selectionId;
+thing.SetSelectionId(selectionId);
+```
+

@@ -11,3 +11,9 @@ Id of the item's owner (Associate id)
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSPerson thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

@@ -14,3 +14,9 @@ so.topic: reference
      - Enum: 1 = Locking 
      - Enum: 2 = Versioning 
 
+```crmscript
+NSDocumentEntity thing;
+Integer lockSemantics  = thing.GetLockSemantics();
+```
+
+

@@ -11,3 +11,9 @@ The label for the data value
 **Returns:** String
 
 
+```crmscript
+NSStatisticsDataValue thing;
+String label  = thing.GetLabel();
+```
+
+

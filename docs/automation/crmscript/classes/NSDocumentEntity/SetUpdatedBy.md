@@ -11,3 +11,9 @@ The person that last updated the appointment.
 **Parameter:** 
  - **updatedBy** Associate
 
+```crmscript
+NSDocumentEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
+

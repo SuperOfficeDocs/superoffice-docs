@@ -11,3 +11,9 @@ Contact department
 **Returns:** String
 
 
+```crmscript
+NSProjectMember thing;
+String contactDepartment  = thing.GetContactDepartment();
+```
+
+

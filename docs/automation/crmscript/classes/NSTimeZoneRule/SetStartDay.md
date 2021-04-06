@@ -11,3 +11,9 @@ Custom DST start day, if 0 then parse startRule
 **Parameter:** 
  - **startDay** Integer
 
+```crmscript
+NSTimeZoneRule thing;
+Integer startDay;
+thing.SetStartDay(startDay);
+```
+

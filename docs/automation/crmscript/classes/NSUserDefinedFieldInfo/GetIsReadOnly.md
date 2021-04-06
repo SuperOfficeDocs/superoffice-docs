@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Bool isReadOnly  = thing.GetIsReadOnly();
+```
+
+

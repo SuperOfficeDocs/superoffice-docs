@@ -11,3 +11,9 @@ A short description, suitable for display in a popup menu or dropdown list of ve
 **Parameter:** 
  - **displayText** String
 
+```crmscript
+NSVersionInfo thing;
+String displayText;
+thing.SetDisplayText(displayText);
+```
+

@@ -11,3 +11,9 @@ Domestic address layout of the country
 **Parameter:** 
  - **domesticAddressLayoutId** Integer
 
+```crmscript
+NSCountry thing;
+Integer domesticAddressLayoutId;
+thing.SetDomesticAddressLayoutId(domesticAddressLayoutId);
+```
+

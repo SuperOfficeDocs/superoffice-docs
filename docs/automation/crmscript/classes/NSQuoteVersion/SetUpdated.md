@@ -11,3 +11,9 @@ Last updated when
 **Parameter:** 
  - **updated** DateTime
 
+```crmscript
+NSQuoteVersion thing;
+DateTime updated;
+thing.SetUpdated(updated);
+```
+

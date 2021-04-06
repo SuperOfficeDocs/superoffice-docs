@@ -11,3 +11,9 @@ The person's full name localized to the current culture/country.  (internal name
 **Parameter:** 
  - **fullName** String
 
+```crmscript
+NSPersonEntity thing;
+String fullName;
+thing.SetFullName(fullName);
+```
+

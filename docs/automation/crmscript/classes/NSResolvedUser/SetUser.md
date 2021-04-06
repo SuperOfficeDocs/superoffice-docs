@@ -11,3 +11,9 @@ The resolved User instance.
 **Parameter:** 
  - **user** User
 
+```crmscript
+NSResolvedUser thing;
+User user;
+thing.SetUser(user);
+```
+

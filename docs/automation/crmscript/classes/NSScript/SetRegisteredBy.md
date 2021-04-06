@@ -11,3 +11,9 @@ Who created this script
 **Parameter:** 
  - **registeredBy** String
 
+```crmscript
+NSScript thing;
+String registeredBy;
+thing.SetRegisteredBy(registeredBy);
+```
+

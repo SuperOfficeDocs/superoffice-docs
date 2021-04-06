@@ -11,3 +11,9 @@ Read-only field, If valueType = 5, and TableName is UDList, then UserdefinedLIst
 **Returns:** Integer
 
 
+```crmscript
+NSPreferenceDescription thing;
+Integer userDefinedListId  = thing.GetUserDefinedListId();
+```
+
+

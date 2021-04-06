@@ -11,3 +11,9 @@ True if all day event
 **Parameter:** 
  - **isDefaultAlldayEvent** Bool
 
+```crmscript
+NSTaskListItem thing;
+Bool isDefaultAlldayEvent;
+thing.SetIsDefaultAlldayEvent(isDefaultAlldayEvent);
+```
+

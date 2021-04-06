@@ -11,3 +11,9 @@ Recent documents on person
 **Parameter:** 
  - **documents** ActivitySummaryItemArray
 
+```crmscript
+NSPersonSummary thing;
+ActivitySummaryItemArray documents;
+thing.SetDocuments(documents);
+```
+

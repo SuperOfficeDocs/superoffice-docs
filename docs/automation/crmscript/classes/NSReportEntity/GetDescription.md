@@ -11,3 +11,9 @@ The description of the report.
 **Returns:** String
 
 
+```crmscript
+NSReportEntity thing;
+String description  = thing.GetDescription();
+```
+
+

@@ -11,3 +11,9 @@ Tooltip for this consent source
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSLegalBase thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

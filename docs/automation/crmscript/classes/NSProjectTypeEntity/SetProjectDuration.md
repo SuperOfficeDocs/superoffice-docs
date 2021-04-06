@@ -11,3 +11,9 @@ Expected duration of project, in given units
 **Parameter:** 
  - **projectDuration** Integer
 
+```crmscript
+NSProjectTypeEntity thing;
+Integer projectDuration;
+thing.SetProjectDuration(projectDuration);
+```
+

@@ -16,3 +16,9 @@ Type of control used to display the value.
      - Enum: 3 = Link 
      - Enum: 4 = Hidden 
 
+```crmscript
+NSCredentialType thing;
+Integer valueControl  = thing.GetValueControl();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **phoneLocaleTimeZoneData** TimeZoneData
 
+```crmscript
+NSPocketStartupData thing;
+TimeZoneData phoneLocaleTimeZoneData;
+thing.SetPhoneLocaleTimeZoneData(phoneLocaleTimeZoneData);
+```
+

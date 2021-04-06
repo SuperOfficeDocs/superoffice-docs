@@ -11,3 +11,9 @@ Id of associate who approved (or rejected approval) for this version
 **Parameter:** 
  - **approvedBy** Integer
 
+```crmscript
+NSQuoteVersion thing;
+Integer approvedBy;
+thing.SetApprovedBy(approvedBy);
+```
+

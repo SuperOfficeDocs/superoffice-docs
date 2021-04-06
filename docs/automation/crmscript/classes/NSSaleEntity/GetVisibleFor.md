@@ -10,3 +10,8 @@ Return the usergroups and/or users the SaleEntity item is visible for.
 
 **Returns:** Visible for array.
 
+```crmscript
+NSSaleEntity thing;
+VisibleFor[] visibleFor = thing.GetVisibleFor();
+```
+

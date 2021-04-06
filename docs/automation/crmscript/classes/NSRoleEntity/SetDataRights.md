@@ -11,3 +11,9 @@ Data rights matrix - defines role's access to data owned by current user, users 
 **Parameter:** 
  - **dataRights** DataRights
 
+```crmscript
+NSRoleEntity thing;
+DataRights dataRights;
+thing.SetDataRights(dataRights);
+```
+

@@ -11,3 +11,9 @@ Primary key for the LegalBase associated with this consent
 **Parameter:** 
  - **legalBaseId** Integer
 
+```crmscript
+NSConsentInfo thing;
+Integer legalBaseId;
+thing.SetLegalBaseId(legalBaseId);
+```
+

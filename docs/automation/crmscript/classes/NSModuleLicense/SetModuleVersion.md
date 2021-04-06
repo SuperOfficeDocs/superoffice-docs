@@ -11,3 +11,9 @@ Version string for this module
 **Parameter:** 
  - **moduleVersion** String
 
+```crmscript
+NSModuleLicense thing;
+String moduleVersion;
+thing.SetModuleVersion(moduleVersion);
+```
+

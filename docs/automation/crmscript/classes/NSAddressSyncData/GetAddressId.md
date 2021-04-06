@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSAddressSyncData thing;
+Integer addressId  = thing.GetAddressId();
+```
+
+

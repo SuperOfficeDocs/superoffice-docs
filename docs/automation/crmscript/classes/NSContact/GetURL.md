@@ -11,3 +11,9 @@ The internet address to this contact
 **Returns:** String
 
 
+```crmscript
+NSContact thing;
+String uRL  = thing.GetURL();
+```
+
+

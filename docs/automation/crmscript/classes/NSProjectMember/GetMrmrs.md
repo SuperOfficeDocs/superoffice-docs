@@ -11,3 +11,9 @@ e.g. Mrs, Dr, Ms.
 **Returns:** String
 
 
+```crmscript
+NSProjectMember thing;
+String mrmrs  = thing.GetMrmrs();
+```
+
+

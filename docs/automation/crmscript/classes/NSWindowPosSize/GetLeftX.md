@@ -11,3 +11,9 @@ X of origin, left edge of widget
 **Returns:** Integer
 
 
+```crmscript
+NSWindowPosSize thing;
+Integer leftX  = thing.GetLeftX();
+```
+
+

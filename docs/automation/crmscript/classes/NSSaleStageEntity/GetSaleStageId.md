@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSaleStageEntity thing;
+Integer saleStageId  = thing.GetSaleStageId();
+```
+
+

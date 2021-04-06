@@ -11,3 +11,9 @@ The tooltip of the ListItem
 **Parameter:** 
  - **toolTip** String
 
+```crmscript
+NSTag thing;
+String toolTip;
+thing.SetToolTip(toolTip);
+```
+

@@ -11,3 +11,9 @@ Should this appointment be auto-suggested
 **Parameter:** 
  - **autoSuggest** Integer
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer autoSuggest;
+thing.SetAutoSuggest(autoSuggest);
+```
+

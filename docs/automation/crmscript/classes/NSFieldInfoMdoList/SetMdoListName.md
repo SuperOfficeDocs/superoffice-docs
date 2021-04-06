@@ -11,3 +11,9 @@ MDO list name used to populate this list. (Read-only)
 **Parameter:** 
  - **mdoListName** String
 
+```crmscript
+NSFieldInfoMdoList thing;
+String mdoListName;
+thing.SetMdoListName(mdoListName);
+```
+

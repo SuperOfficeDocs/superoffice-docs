@@ -10,3 +10,9 @@ Get the tooltip description for the Role list item.
 
 **Returns:** String Role tooltip description.
 
+```crmscript
+NSRole thing;
+String descr = thing.GetTooltip();
+```
+
+

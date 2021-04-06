@@ -11,3 +11,9 @@ Dial in prefix
 **Returns:** String
 
 
+```crmscript
+NSCountry thing;
+String dialInPrefix  = thing.GetDialInPrefix();
+```
+
+

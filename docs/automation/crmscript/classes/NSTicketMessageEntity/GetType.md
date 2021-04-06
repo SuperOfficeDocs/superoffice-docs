@@ -14,3 +14,9 @@ The type of the message (plaintext/html).
      - Enum: 1 = Plain 
      - Enum: 2 = Html 
 
+```crmscript
+NSTicketMessageEntity thing;
+TicketMessageType type  = thing.GetType();
+```
+
+

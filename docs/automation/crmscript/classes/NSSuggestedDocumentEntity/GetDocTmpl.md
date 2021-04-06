@@ -11,3 +11,9 @@ Document template
 **Returns:** DocumentTemplate
 
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+DocumentTemplate docTmpl  = thing.GetDocTmpl();
+```
+
+

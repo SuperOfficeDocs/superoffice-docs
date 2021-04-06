@@ -11,3 +11,9 @@ The url
 **Returns:** String
 
 
+```crmscript
+NSWebPanelEntity thing;
+String url  = thing.GetUrl();
+```
+
+

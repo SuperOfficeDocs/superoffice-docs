@@ -11,3 +11,9 @@ Event key, predefined in code
 **Parameter:** 
  - **eventkey** String
 
+```crmscript
+NSSystemEventEntity thing;
+String eventkey;
+thing.SetEventkey(eventkey);
+```
+

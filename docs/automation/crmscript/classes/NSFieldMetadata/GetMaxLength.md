@@ -11,3 +11,9 @@ Maximum length for strings, if set. 0 means no restriction. (Though sooner or la
 **Returns:** Integer
 
 
+```crmscript
+NSFieldMetadata thing;
+Integer maxLength  = thing.GetMaxLength();
+```
+
+

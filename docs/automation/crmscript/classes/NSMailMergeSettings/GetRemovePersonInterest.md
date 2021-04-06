@@ -11,3 +11,9 @@ Remove this person interest on each person recipient.
 **Returns:** Integer
 
 
+```crmscript
+NSMailMergeSettings thing;
+Integer removePersonInterest  = thing.GetRemovePersonInterest();
+```
+
+

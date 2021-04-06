@@ -11,3 +11,9 @@ When the task should start
 **Returns:** DateTime
 
 
+```crmscript
+NSMailMergeTask thing;
+DateTime startDate  = thing.GetStartDate();
+```
+
+

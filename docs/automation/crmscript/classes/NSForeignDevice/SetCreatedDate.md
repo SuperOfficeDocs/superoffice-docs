@@ -11,3 +11,9 @@ Registered when
 **Parameter:** 
  - **createdDate** DateTime
 
+```crmscript
+NSForeignDevice thing;
+DateTime createdDate;
+thing.SetCreatedDate(createdDate);
+```
+

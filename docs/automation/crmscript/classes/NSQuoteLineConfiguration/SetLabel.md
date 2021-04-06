@@ -11,3 +11,9 @@ Label resource string.
 **Parameter:** 
  - **label** String
 
+```crmscript
+NSQuoteLineConfiguration thing;
+String label;
+thing.SetLabel(label);
+```
+

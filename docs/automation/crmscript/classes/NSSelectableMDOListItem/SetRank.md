@@ -11,3 +11,9 @@ The rank of the ListItem
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSSelectableMDOListItem thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

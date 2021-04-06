@@ -11,3 +11,9 @@ Display name of CRM field; ignored on Save
 **Returns:** String
 
 
+```crmscript
+NSErpSyncFieldMapping thing;
+String crmDisplayName  = thing.GetCrmDisplayName();
+```
+
+

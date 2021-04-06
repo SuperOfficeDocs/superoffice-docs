@@ -11,3 +11,9 @@ Event key, predefined in code
 **Returns:** String
 
 
+```crmscript
+NSSystemEventEntity thing;
+String eventkey  = thing.GetEventkey();
+```
+
+

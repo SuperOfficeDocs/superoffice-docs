@@ -11,3 +11,9 @@ Possible value
 **Parameter:** 
  - **prefValue** String
 
+```crmscript
+NSPreferenceDescriptionLine thing;
+String prefValue;
+thing.SetPrefValue(prefValue);
+```
+

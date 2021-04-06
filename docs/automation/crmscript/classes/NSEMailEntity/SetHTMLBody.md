@@ -11,3 +11,9 @@ Body formatted in HTML
 **Parameter:** 
  - **hTMLBody** String
 
+```crmscript
+NSEMailEntity thing;
+String hTMLBody;
+thing.SetHTMLBody(hTMLBody);
+```
+

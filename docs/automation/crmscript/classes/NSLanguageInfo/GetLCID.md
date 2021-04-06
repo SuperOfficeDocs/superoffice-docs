@@ -11,3 +11,9 @@ Language/culture id as a numeric .NET code
 **Returns:** Integer
 
 
+```crmscript
+NSLanguageInfo thing;
+Integer lCID  = thing.GetLCID();
+```
+
+

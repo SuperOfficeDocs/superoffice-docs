@@ -11,3 +11,9 @@ ID of associate whose diary the appointment is in, REQUIRED
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSDocument thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

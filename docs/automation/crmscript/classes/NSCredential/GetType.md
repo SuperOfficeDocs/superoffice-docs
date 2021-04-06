@@ -11,3 +11,9 @@ Description of credential type
 **Returns:** CredentialType
 
 
+```crmscript
+NSCredential thing;
+CredentialType type  = thing.GetType();
+```
+
+

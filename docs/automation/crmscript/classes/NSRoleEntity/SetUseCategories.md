@@ -11,3 +11,9 @@ Apply role category membership to users
 **Parameter:** 
  - **useCategories** Integer
 
+```crmscript
+NSRoleEntity thing;
+Integer useCategories;
+thing.SetUseCategories(useCategories);
+```
+

@@ -11,3 +11,9 @@ Account credentials for smtp
 **Parameter:** 
  - **outgoingCredentials** ServiceAuth
 
+```crmscript
+NSEMailAccount thing;
+ServiceAuth outgoingCredentials;
+thing.SetOutgoingCredentials(outgoingCredentials);
+```
+

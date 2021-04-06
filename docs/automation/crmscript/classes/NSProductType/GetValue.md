@@ -10,3 +10,8 @@ Get the name of the ProductType.
 
 **Returns:** String ProductType name.
 
+```crmscript
+NSProductType thing;
+String name = thing.GetValue();
+```
+

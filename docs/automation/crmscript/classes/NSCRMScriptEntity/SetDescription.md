@@ -11,3 +11,9 @@ Optional description of what this script is used for.
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSCRMScriptEntity thing;
+String description;
+thing.SetDescription(description);
+```
+

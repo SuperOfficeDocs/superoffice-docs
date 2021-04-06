@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **blobId** Integer
 
+```crmscript
+NSBlobEntity thing;
+Integer blobId;
+thing.SetBlobId(blobId);
+```
+

@@ -11,3 +11,9 @@ A short string used as unique id to access this form
 **Parameter:** 
  - **formKey** String
 
+```crmscript
+NSFormEntity thing;
+String formKey;
+thing.SetFormKey(formKey);
+```
+

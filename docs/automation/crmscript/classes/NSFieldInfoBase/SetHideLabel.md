@@ -11,3 +11,9 @@ Hide the label if 1
 **Parameter:** 
  - **hideLabel** Bool
 
+```crmscript
+NSFieldInfoBase thing;
+Bool hideLabel;
+thing.SetHideLabel(hideLabel);
+```
+

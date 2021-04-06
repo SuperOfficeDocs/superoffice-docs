@@ -11,3 +11,9 @@ Name of person who has currently checked out the document; blank if it is not ch
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSCheckoutInfo thing;
+String name;
+thing.SetName(name);
+```
+

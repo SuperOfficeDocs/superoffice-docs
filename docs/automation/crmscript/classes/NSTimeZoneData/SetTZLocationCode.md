@@ -11,3 +11,9 @@ Code associated with location
 **Parameter:** 
  - **tZLocationCode** String
 
+```crmscript
+NSTimeZoneData thing;
+String tZLocationCode;
+thing.SetTZLocationCode(tZLocationCode);
+```
+

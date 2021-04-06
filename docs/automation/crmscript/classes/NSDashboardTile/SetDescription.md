@@ -11,3 +11,9 @@ The tile description
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSDashboardTile thing;
+String description;
+thing.SetDescription(description);
+```
+

@@ -11,3 +11,9 @@ Body formatted in plain text
 **Returns:** String
 
 
+```crmscript
+NSEMailEntity thing;
+String plainBody  = thing.GetPlainBody();
+```
+
+

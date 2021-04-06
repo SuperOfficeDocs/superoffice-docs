@@ -11,3 +11,9 @@ Indicates if the folder is subscribed to
 **Parameter:** 
  - **subscribed** Bool
 
+```crmscript
+NSEMailFolder thing;
+Bool subscribed;
+thing.SetSubscribed(subscribed);
+```
+

@@ -25,3 +25,9 @@ The appointment status for this participant.
      - Enum: 12 = AssignmentSeen 
      - Enum: 13 = AssignmentDeclined 
 
+```crmscript
+NSParticipantSyncData thing;
+Integer participantStatus  = thing.GetParticipantStatus();
+```
+
+

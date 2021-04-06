@@ -11,3 +11,9 @@ Previous model information
 **Returns:** CategorizationModelDetails
 
 
+```crmscript
+NSCategorizationStatusResponse thing;
+CategorizationModelDetails previousModel  = thing.GetPreviousModel();
+```
+
+

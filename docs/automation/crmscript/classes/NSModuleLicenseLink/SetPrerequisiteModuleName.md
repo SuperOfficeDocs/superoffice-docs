@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **prerequisiteModuleName** String
 
+```crmscript
+NSModuleLicenseLink thing;
+String prerequisiteModuleName;
+thing.SetPrerequisiteModuleName(prerequisiteModuleName);
+```
+

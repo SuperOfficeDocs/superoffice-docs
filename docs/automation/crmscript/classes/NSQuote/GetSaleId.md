@@ -11,3 +11,9 @@ The foreign key to the corresponding sale
 **Returns:** Integer
 
 
+```crmscript
+NSQuote thing;
+Integer saleId  = thing.GetSaleId();
+```
+
+

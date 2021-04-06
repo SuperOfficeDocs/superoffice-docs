@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **createdBy** Associate
 
+```crmscript
+NSSatellite thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

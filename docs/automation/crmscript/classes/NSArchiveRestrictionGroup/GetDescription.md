@@ -11,3 +11,9 @@ Description of group
 **Returns:** String
 
 
+```crmscript
+NSArchiveRestrictionGroup thing;
+String description  = thing.GetDescription();
+```
+
+

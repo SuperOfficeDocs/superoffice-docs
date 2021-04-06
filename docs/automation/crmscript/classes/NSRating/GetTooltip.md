@@ -10,3 +10,9 @@ Get the tooltip description for the Rating list item.
 
 **Returns:** String Rating tooltip description.
 
+```crmscript
+NSRating thing;
+String descr = thing.GetTooltip();
+```
+
+

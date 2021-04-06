@@ -11,3 +11,9 @@ The fullname (compiled from parents&apos; names) for this category. E.g. &apos;n
 **Parameter:** 
  - **categoryFullname** String
 
+```crmscript
+NSTicket thing;
+String categoryFullname;
+thing.SetCategoryFullname(categoryFullname);
+```
+

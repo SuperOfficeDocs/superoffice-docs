@@ -11,3 +11,9 @@ Enable post chat form
 **Parameter:** 
  - **postFormEnabled** Bool
 
+```crmscript
+NSChatWidgetSettings thing;
+Bool postFormEnabled;
+thing.SetPostFormEnabled(postFormEnabled);
+```
+

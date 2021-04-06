@@ -11,3 +11,9 @@ The actual text, max 2047 significant characters even though it is stored as a l
 **Parameter:** 
  - **appointmentText** String
 
+```crmscript
+NSAlarmData thing;
+String appointmentText;
+thing.SetAppointmentText(appointmentText);
+```
+

@@ -10,3 +10,8 @@ Get the primary key (id) for the ReasonSold
 
 **Returns:** Integer ReasonSold id.
 
+```crmscript
+NSReasonSold thing;
+Integer id = thing.GetId();
+```
+

@@ -11,3 +11,9 @@ The visible display value for an archive cell. It is always a string, and other 
 **Parameter:** 
  - **displayValue** String
 
+```crmscript
+NSArchiveColumnData thing;
+String displayValue;
+thing.SetDisplayValue(displayValue);
+```
+

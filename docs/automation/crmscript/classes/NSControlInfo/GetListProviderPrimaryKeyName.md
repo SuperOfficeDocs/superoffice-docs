@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSControlInfo thing;
+String listProviderPrimaryKeyName  = thing.GetListProviderPrimaryKeyName();
+```
+
+

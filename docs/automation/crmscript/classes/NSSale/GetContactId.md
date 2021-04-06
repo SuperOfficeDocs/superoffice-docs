@@ -11,3 +11,9 @@ Optional contact reference
 **Returns:** Integer
 
 
+```crmscript
+NSSale thing;
+Integer contactId  = thing.GetContactId();
+```
+
+

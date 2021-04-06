@@ -11,3 +11,9 @@ Typically used in a tooltip.
 **Returns:** String
 
 
+```crmscript
+NSQuoteListItem thing;
+String displayDescription  = thing.GetDisplayDescription();
+```
+
+

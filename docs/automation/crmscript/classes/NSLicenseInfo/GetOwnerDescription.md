@@ -11,3 +11,9 @@ Human-readable description of owner, shown in GUI, default language. Additional 
 **Returns:** String
 
 
+```crmscript
+NSLicenseInfo thing;
+String ownerDescription  = thing.GetOwnerDescription();
+```
+
+

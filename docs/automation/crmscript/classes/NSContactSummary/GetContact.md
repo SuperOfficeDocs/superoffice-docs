@@ -11,3 +11,9 @@ Simple Contact data.
 **Returns:** Contact
 
 
+```crmscript
+NSContactSummary thing;
+Contact contact  = thing.GetContact();
+```
+
+

@@ -11,3 +11,9 @@ The length, in bytes, of the binary data AS STORED after any encryption and/or z
 **Returns:** Integer
 
 
+```crmscript
+NSBlobEntity thing;
+Integer blobSize  = thing.GetBlobSize();
+```
+
+

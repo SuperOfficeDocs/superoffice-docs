@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **listProviderName** String
 
+```crmscript
+NSControlInfo thing;
+String listProviderName;
+thing.SetListProviderName(listProviderName);
+```
+

@@ -11,3 +11,9 @@ Name or description for the privacy statement
 **Parameter:** 
  - **privacyStatementDesc** String
 
+```crmscript
+NSConsentPurpose thing;
+String privacyStatementDesc;
+thing.SetPrivacyStatementDesc(privacyStatementDesc);
+```
+

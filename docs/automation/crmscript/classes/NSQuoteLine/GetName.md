@@ -11,3 +11,9 @@ The name of the product. Is stored here if the user changes the value from the p
 **Returns:** String
 
 
+```crmscript
+NSQuoteLine thing;
+String name  = thing.GetName();
+```
+
+

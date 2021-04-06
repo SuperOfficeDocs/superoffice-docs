@@ -10,3 +10,8 @@ Get the name of the ProjectType.
 
 **Returns:** String ProjectType name.
 
+```crmscript
+NSProjectType thing;
+String name = thing.GetValue();
+```
+

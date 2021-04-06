@@ -11,3 +11,9 @@ Registered when
 **Parameter:** 
  - **created** DateTime
 
+```crmscript
+NSSatellite thing;
+DateTime created;
+thing.SetCreated(created);
+```
+

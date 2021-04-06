@@ -11,3 +11,9 @@ Unique number used to track field identity across layout changes
 **Returns:** Integer
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer udefIdentity  = thing.GetUdefIdentity();
+```
+
+

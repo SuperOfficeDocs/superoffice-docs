@@ -14,3 +14,9 @@ Obsolete, but still maintained field for appointment privacy; denormalization of
      - Enum: 1 = PrivateUser 
      - Enum: 2 = PrivateGroup 
 
+```crmscript
+NSAppointment thing;
+AppointmentPrivate private;
+thing.SetPrivate(private);
+```
+

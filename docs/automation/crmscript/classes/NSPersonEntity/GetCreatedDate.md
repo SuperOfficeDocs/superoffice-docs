@@ -11,3 +11,9 @@ Registered date
 **Returns:** DateTime
 
 
+```crmscript
+NSPersonEntity thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
+
+

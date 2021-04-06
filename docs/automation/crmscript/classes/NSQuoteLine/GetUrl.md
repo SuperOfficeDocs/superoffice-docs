@@ -11,3 +11,9 @@ A url to the product info. Can be empty. Is stored here if the user changes the 
 **Returns:** String
 
 
+```crmscript
+NSQuoteLine thing;
+String url  = thing.GetUrl();
+```
+
+

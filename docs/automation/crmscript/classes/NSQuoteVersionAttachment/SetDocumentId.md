@@ -11,3 +11,9 @@ Link to document
 **Parameter:** 
  - **documentId** Integer
 
+```crmscript
+NSQuoteVersionAttachment thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
+

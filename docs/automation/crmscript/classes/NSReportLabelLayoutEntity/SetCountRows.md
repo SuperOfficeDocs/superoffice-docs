@@ -11,3 +11,9 @@ Number of rows
 **Parameter:** 
  - **countRows** Integer
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer countRows;
+thing.SetCountRows(countRows);
+```
+

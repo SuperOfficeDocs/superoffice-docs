@@ -11,3 +11,9 @@ The displayvalues to be set on this field on this bulkupdate, used to resolve wh
 **Parameter:** 
  - **displayValues** StringArray
 
+```crmscript
+NSFieldValueInfo thing;
+StringArray displayValues;
+thing.SetDisplayValues(displayValues);
+```
+

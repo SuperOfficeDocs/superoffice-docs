@@ -10,3 +10,8 @@ Get the name of the TicketPriority.
 
 **Returns:** String TicketPriority name.
 
+```crmscript
+NSTicketPriority thing;
+String name = thing.GetValue();
+```
+

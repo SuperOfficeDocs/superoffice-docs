@@ -11,3 +11,9 @@ Is the definition dirty, ie., ALL values are invalid until a recalculation; this
 **Returns:** Bool
 
 
+```crmscript
+NSStatusMonitor thing;
+Bool needsUpdate  = thing.GetNeedsUpdate();
+```
+
+

@@ -11,3 +11,9 @@ Binary stream for outgoing attachments. This property will not be populated for 
 **Parameter:** 
  - **stream** Stream
 
+```crmscript
+NSEMailAttachment thing;
+Stream stream;
+thing.SetStream(stream);
+```
+

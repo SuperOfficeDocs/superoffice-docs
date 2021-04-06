@@ -23,3 +23,9 @@ Action for the button
      - Enum: 11 = GetOrderState 
      - Enum: 12 = UpdatePrices 
 
+```crmscript
+NSQuoteVersionButtonState thing;
+Integer action;
+thing.SetAction(action);
+```
+

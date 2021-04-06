@@ -11,3 +11,9 @@ Name of organisation that sources and maintains this TypicalSearch. Allows for b
 **Parameter:** 
  - **source** String
 
+```crmscript
+NSTypicalSearches thing;
+String source;
+thing.SetSource(source);
+```
+

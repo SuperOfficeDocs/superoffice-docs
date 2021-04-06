@@ -11,3 +11,9 @@ The total time (seconds) within 24x7 hours the ticket has been in a queue status
 **Parameter:** 
  - **realTimeSpentQueue** Integer
 
+```crmscript
+NSTicketEntity thing;
+Integer realTimeSpentQueue;
+thing.SetRealTimeSpentQueue(realTimeSpentQueue);
+```
+

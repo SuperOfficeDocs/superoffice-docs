@@ -11,3 +11,9 @@ The tile id
 **Parameter:** 
  - **dashboardTileId** Integer
 
+```crmscript
+NSDashboardTile thing;
+Integer dashboardTileId;
+thing.SetDashboardTileId(dashboardTileId);
+```
+

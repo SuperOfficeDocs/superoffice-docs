@@ -11,3 +11,9 @@ The person that last updated the project
 **Returns:** Associate
 
 
+```crmscript
+NSProjectEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
+
+

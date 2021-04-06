@@ -11,3 +11,9 @@ Document data
 **Returns:** Stream
 
 
+```crmscript
+NSDocumentPreview thing;
+Stream stream  = thing.GetStream();
+```
+
+

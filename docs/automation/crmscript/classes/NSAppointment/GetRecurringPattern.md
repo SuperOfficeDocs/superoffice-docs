@@ -17,3 +17,9 @@ so.topic: reference
      - Enum: 4 = Yearly 
      - Enum: 5 = Custom 
 
+```crmscript
+NSAppointment thing;
+Integer recurringPattern  = thing.GetRecurringPattern();
+```
+
+

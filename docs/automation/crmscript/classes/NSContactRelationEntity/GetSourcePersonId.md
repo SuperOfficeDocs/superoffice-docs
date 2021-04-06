@@ -11,3 +11,9 @@ Id of the source person. The value is not mandatory. The person must belong to t
 **Returns:** Integer
 
 
+```crmscript
+NSContactRelationEntity thing;
+Integer sourcePersonId  = thing.GetSourcePersonId();
+```
+
+

@@ -11,3 +11,9 @@ The actual text, max 2047 significant characters even though it is stored as a l
 **Parameter:** 
  - **postit** String
 
+```crmscript
+NSSaleEntity thing;
+String postit;
+thing.SetPostit(postit);
+```
+

@@ -11,3 +11,9 @@ Optional collection of sub criteria, usually null but set for Saint counter fiel
 **Returns:** ArchiveRestrictionInfoArray
 
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+ArchiveRestrictionInfoArray subRestrictions  = thing.GetSubRestrictions();
+```
+
+

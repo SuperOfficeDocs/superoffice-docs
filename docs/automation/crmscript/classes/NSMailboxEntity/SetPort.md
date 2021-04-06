@@ -11,3 +11,9 @@ The port used to connect to the server
 **Parameter:** 
  - **port** Integer
 
+```crmscript
+NSMailboxEntity thing;
+Integer port;
+thing.SetPort(port);
+```
+

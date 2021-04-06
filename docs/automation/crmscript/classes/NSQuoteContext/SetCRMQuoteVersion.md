@@ -11,3 +11,9 @@ The relevant or current revision of the quote in the CRM system, if applicable.
 **Parameter:** 
  - **cRMQuoteVersion** QuoteVersion
 
+```crmscript
+NSQuoteContext thing;
+QuoteVersion cRMQuoteVersion;
+thing.SetCRMQuoteVersion(cRMQuoteVersion);
+```
+

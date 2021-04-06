@@ -11,3 +11,9 @@ Last updated when
 **Parameter:** 
  - **updatedDate** DateTime
 
+```crmscript
+NSForeignDevice thing;
+DateTime updatedDate;
+thing.SetUpdatedDate(updatedDate);
+```
+

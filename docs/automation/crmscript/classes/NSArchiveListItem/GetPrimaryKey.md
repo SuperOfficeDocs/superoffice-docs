@@ -11,3 +11,9 @@ The  primary key for the row
 **Returns:** Integer
 
 
+```crmscript
+NSArchiveListItem thing;
+Integer primaryKey  = thing.GetPrimaryKey();
+```
+
+

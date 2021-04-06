@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSRefCountEntity thing;
+Integer refCountsId  = thing.GetRefCountsId();
+```
+
+

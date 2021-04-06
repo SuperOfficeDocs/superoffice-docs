@@ -11,3 +11,9 @@ Always in English
 **Returns:** String
 
 
+```crmscript
+NSPluginUrlResponse thing;
+String techExplanation  = thing.GetTechExplanation();
+```
+
+

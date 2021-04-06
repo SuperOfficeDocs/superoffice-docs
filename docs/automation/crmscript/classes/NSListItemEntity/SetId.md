@@ -11,3 +11,9 @@ The identity of the list item
 **Parameter:** 
  - **id** Integer
 
+```crmscript
+NSListItemEntity thing;
+Integer id;
+thing.SetId(id);
+```
+

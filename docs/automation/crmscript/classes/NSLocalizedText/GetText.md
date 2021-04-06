@@ -11,3 +11,9 @@ The text string itself
 **Returns:** String
 
 
+```crmscript
+NSLocalizedText thing;
+String text  = thing.GetText();
+```
+
+

@@ -11,3 +11,9 @@ This field existed previously, but now the connection no longer supports it. Pro
 **Returns:** Bool
 
 
+```crmscript
+NSErpSyncFieldMapping thing;
+Bool missingInERP  = thing.GetMissingInERP();
+```
+
+

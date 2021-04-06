@@ -11,3 +11,9 @@ Description of group
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSArchiveRestrictionGroup thing;
+String description;
+thing.SetDescription(description);
+```
+

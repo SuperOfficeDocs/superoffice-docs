@@ -11,3 +11,9 @@ Display tooltip, populated when asked for. Suitable for binding display-datasour
 **Parameter:** 
  - **displayTooltip** String
 
+```crmscript
+NSPreference thing;
+String displayTooltip;
+thing.SetDisplayTooltip(displayTooltip);
+```
+

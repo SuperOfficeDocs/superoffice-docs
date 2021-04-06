@@ -10,3 +10,8 @@ Get the name of the Department.
 
 **Returns:** String Department name.
 
+```crmscript
+NSDepartment thing;
+String name = thing.GetValue();
+```
+

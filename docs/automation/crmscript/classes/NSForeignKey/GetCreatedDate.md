@@ -11,3 +11,9 @@ Registered when
 **Returns:** DateTime
 
 
+```crmscript
+NSForeignKey thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
+
+

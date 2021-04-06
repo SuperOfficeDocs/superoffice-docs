@@ -11,3 +11,9 @@ The id of the login row
 **Returns:** Integer
 
 
+```crmscript
+NSCsSessionKey thing;
+Integer loginId  = thing.GetLoginId();
+```
+
+

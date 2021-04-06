@@ -11,3 +11,9 @@ The work hour start for Fridays. Note that only the time part of the DateTime is
 **Parameter:** 
  - **friStart** DateTime
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime friStart;
+thing.SetFriStart(friStart);
+```
+

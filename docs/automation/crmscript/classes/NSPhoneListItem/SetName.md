@@ -11,3 +11,9 @@ The contact or person's name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSPhoneListItem thing;
+String name;
+thing.SetName(name);
+```
+

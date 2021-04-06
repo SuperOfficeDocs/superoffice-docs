@@ -11,3 +11,9 @@ True if it supports the config parameters to the sending methods
 **Returns:** Bool
 
 
+```crmscript
+NSProviderInfo thing;
+Bool supportsConfig  = thing.GetSupportsConfig();
+```
+
+

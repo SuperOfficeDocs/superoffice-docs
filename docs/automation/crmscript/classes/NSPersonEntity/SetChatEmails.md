@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **chatEmails** EntityElementArray
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray chatEmails;
+thing.SetChatEmails(chatEmails);
+```
+

@@ -11,3 +11,9 @@ The contact's available and selected interests.
 **Returns:** SelectableMDOListItemArray
 
 
+```crmscript
+NSContactEntity thing;
+SelectableMDOListItemArray interests  = thing.GetInterests();
+```
+
+

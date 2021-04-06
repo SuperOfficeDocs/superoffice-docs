@@ -11,3 +11,9 @@ Country of invoice address, typically copied from contact record
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteVersion thing;
+Integer invoiceCountryId  = thing.GetInvoiceCountryId();
+```
+
+

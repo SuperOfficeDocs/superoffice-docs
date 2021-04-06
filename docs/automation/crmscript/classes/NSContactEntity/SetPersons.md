@@ -11,3 +11,9 @@ The persons belonging to the contact.
 **Parameter:** 
  - **persons** PersonArray
 
+```crmscript
+NSContactEntity thing;
+PersonArray persons;
+thing.SetPersons(persons);
+```
+

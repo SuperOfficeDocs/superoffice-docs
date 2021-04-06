@@ -11,3 +11,9 @@ The base color of the widget
 **Parameter:** 
  - **color** String
 
+```crmscript
+NSChatWidgetSettings thing;
+String color;
+thing.SetColor(color);
+```
+

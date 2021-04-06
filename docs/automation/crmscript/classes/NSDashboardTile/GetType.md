@@ -16,3 +16,9 @@ The tile type, what kind of tile this is
      - Enum: 3 = List 
      - Enum: 4 = Bignum 
 
+```crmscript
+NSDashboardTile thing;
+Integer type  = thing.GetType();
+```
+
+

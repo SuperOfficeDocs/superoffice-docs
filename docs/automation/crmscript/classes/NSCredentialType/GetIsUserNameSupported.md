@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSCredentialType thing;
+Bool isUserNameSupported  = thing.GetIsUserNameSupported();
+```
+
+

@@ -11,3 +11,9 @@ First name
 **Returns:** String
 
 
+```crmscript
+NSTicket thing;
+String personFirstname  = thing.GetPersonFirstname();
+```
+
+

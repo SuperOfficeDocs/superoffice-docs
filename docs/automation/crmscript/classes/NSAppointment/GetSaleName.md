@@ -11,3 +11,9 @@ Heading of Owning sale, if any. (may be blank)
 **Returns:** String
 
 
+```crmscript
+NSAppointment thing;
+String saleName  = thing.GetSaleName();
+```
+
+

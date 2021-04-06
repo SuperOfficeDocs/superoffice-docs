@@ -11,3 +11,9 @@ Should the status be visualized (active) in the client
 **Returns:** Bool
 
 
+```crmscript
+NSStatusMonitor thing;
+Bool isVisual  = thing.GetIsVisual();
+```
+
+

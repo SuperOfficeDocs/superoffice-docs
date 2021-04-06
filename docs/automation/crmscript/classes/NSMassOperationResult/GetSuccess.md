@@ -11,3 +11,9 @@ Did the operation succeed
 **Returns:** Bool
 
 
+```crmscript
+NSMassOperationResult thing;
+Bool success  = thing.GetSuccess();
+```
+
+

@@ -18,3 +18,9 @@ Flag status of this mail (unread, replied, deleted )
      - Enum: 16 = Draft 
      - Enum: 32 = Answered 
 
+```crmscript
+NSEMailEntity thing;
+Integer flags  = thing.GetFlags();
+```
+
+

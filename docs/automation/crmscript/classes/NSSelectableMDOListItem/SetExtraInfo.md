@@ -11,3 +11,9 @@ Extra information added to the ListItem. Could be information such as sort order
 **Parameter:** 
  - **extraInfo** String
 
+```crmscript
+NSSelectableMDOListItem thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
+

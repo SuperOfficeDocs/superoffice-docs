@@ -11,3 +11,9 @@ Id of table with more information about the task.
 **Returns:** Integer
 
 
+```crmscript
+NSBatchTaskInfo thing;
+Integer detailsTable  = thing.GetDetailsTable();
+```
+
+

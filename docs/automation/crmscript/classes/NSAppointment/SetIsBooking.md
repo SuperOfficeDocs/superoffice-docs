@@ -11,3 +11,9 @@ True if this appointment is a booking.
 **Parameter:** 
  - **isBooking** Bool
 
+```crmscript
+NSAppointment thing;
+Bool isBooking;
+thing.SetIsBooking(isBooking);
+```
+

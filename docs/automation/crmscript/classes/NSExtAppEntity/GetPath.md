@@ -11,3 +11,9 @@ Path where the programfile is located; if empty, PATH is used
 **Returns:** String
 
 
+```crmscript
+NSExtAppEntity thing;
+String path  = thing.GetPath();
+```
+
+

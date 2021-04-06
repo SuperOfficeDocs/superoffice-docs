@@ -11,3 +11,9 @@ When should nagging begin (for instance, during login to SoAdmin)
 **Parameter:** 
  - **adminWarningDate** DateTime
 
+```crmscript
+NSLicenseInfo thing;
+DateTime adminWarningDate;
+thing.SetAdminWarningDate(adminWarningDate);
+```
+

@@ -11,3 +11,9 @@ The filtering From date
 **Parameter:** 
  - **fromDate** DateTime
 
+```crmscript
+NSActivityFilter thing;
+DateTime fromDate;
+thing.SetFromDate(fromDate);
+```
+

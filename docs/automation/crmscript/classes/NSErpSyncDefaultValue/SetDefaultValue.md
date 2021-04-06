@@ -11,3 +11,9 @@ Default value, stored using CultureDataFormatter format if it is not a string
 **Parameter:** 
  - **defaultValue** String
 
+```crmscript
+NSErpSyncDefaultValue thing;
+String defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
+

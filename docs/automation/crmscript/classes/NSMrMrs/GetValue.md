@@ -10,3 +10,8 @@ Get the name of the MrMrs.
 
 **Returns:** String MrMrs name.
 
+```crmscript
+NSMrMrs thing;
+String name = thing.GetValue();
+```
+

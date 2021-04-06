@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **postalAddress** AddressSyncData
 
+```crmscript
+NSParticipantSyncData thing;
+AddressSyncData postalAddress;
+thing.SetPostalAddress(postalAddress);
+```
+

@@ -11,3 +11,9 @@ The name of the person/customer connected to the ticket
 **Parameter:** 
  - **personName** String
 
+```crmscript
+NSTicketInfo thing;
+String personName;
+thing.SetPersonName(personName);
+```
+

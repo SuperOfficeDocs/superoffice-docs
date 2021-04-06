@@ -11,3 +11,9 @@ The config fields needed to establish a connection to the connector
 **Returns:** StringDictionary
 
 
+```crmscript
+NSErpConnection thing;
+StringDictionary configFields  = thing.GetConfigFields();
+```
+
+

@@ -11,3 +11,9 @@ Left margin in twips
 **Returns:** Integer
 
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer leftMargin  = thing.GetLeftMargin();
+```
+
+

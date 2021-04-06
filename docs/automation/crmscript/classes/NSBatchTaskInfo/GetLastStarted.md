@@ -11,3 +11,9 @@ When was the task last started.
 **Returns:** DateTime
 
 
+```crmscript
+NSBatchTaskInfo thing;
+DateTime lastStarted  = thing.GetLastStarted();
+```
+
+

@@ -11,3 +11,9 @@ UserGroup name
 **Returns:** String
 
 
+```crmscript
+NSUserGroup thing;
+String value  = thing.GetValue();
+```
+
+

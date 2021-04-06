@@ -11,3 +11,9 @@ The default value to be set, can be blank
 **Parameter:** 
  - **firstSyncDefaultValue** String
 
+```crmscript
+NSErpSyncDefaultValue thing;
+String firstSyncDefaultValue;
+thing.SetFirstSyncDefaultValue(firstSyncDefaultValue);
+```
+

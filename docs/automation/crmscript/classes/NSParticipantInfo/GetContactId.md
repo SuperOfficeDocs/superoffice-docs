@@ -11,3 +11,9 @@ Contact id of the participant if the participant is an associate or person
 **Returns:** Integer
 
 
+```crmscript
+NSParticipantInfo thing;
+Integer contactId  = thing.GetContactId();
+```
+
+

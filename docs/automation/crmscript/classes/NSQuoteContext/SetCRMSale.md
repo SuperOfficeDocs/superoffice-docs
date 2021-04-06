@@ -11,3 +11,9 @@ The sale the quote is registered in the CRM system.
 **Parameter:** 
  - **cRMSale** Sale
 
+```crmscript
+NSQuoteContext thing;
+Sale cRMSale;
+thing.SetCRMSale(cRMSale);
+```
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **typeId** Integer
 
+```crmscript
+NSProject thing;
+Integer typeId;
+thing.SetTypeId(typeId);
+```
+

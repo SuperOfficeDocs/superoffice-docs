@@ -11,3 +11,9 @@ Unspecified extra flags of license, part of checksum
 **Returns:** Integer
 
 
+```crmscript
+NSLicenseInfo thing;
+Integer extraFlags  = thing.GetExtraFlags();
+```
+
+

@@ -11,3 +11,9 @@ Whether open on Mondays.
 **Returns:** Bool
 
 
+```crmscript
+NSChatOpeningHours thing;
+Bool monEnabled  = thing.GetMonEnabled();
+```
+
+

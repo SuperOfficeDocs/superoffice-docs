@@ -11,3 +11,9 @@ The total number of messages for this request.
 **Returns:** Integer
 
 
+```crmscript
+NSTicket thing;
+Integer numMessages  = thing.GetNumMessages();
+```
+
+

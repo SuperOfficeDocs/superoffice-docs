@@ -11,3 +11,9 @@ The work hour start for Sundays. Note that only the time part of the DateTime is
 **Parameter:** 
  - **sunStart** DateTime
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime sunStart;
+thing.SetSunStart(sunStart);
+```
+

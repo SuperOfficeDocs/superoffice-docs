@@ -10,3 +10,8 @@ Get the primary key (id) for the SaleType
 
 **Returns:** Integer SaleType id.
 
+```crmscript
+NSSaleType thing;
+Integer id = thing.GetId();
+```
+

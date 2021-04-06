@@ -11,3 +11,9 @@ The id of the s_shipment that is used to send the response mails
 **Parameter:** 
  - **responseShipmentId** Integer
 
+```crmscript
+NSFormEntity thing;
+Integer responseShipmentId;
+thing.SetResponseShipmentId(responseShipmentId);
+```
+

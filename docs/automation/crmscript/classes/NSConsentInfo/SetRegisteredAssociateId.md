@@ -11,3 +11,9 @@ The ID of the associate who created this record
 **Parameter:** 
  - **registeredAssociateId** Integer
 
+```crmscript
+NSConsentInfo thing;
+Integer registeredAssociateId;
+thing.SetRegisteredAssociateId(registeredAssociateId);
+```
+

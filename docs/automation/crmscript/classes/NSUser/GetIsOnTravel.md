@@ -11,3 +11,9 @@ True if the user is on travel.
 **Returns:** Bool
 
 
+```crmscript
+NSUser thing;
+Bool isOnTravel  = thing.GetIsOnTravel();
+```
+
+

@@ -11,3 +11,9 @@ Contact category
 **Returns:** String
 
 
+```crmscript
+NSContactOrPersonFromEmail thing;
+String contactCategory  = thing.GetContactCategory();
+```
+
+

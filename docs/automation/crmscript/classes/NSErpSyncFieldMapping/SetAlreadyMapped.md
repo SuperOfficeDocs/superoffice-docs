@@ -11,3 +11,9 @@ Is this ERPField already mapped in some other connection? If so, then it cannot 
 **Parameter:** 
  - **alreadyMapped** Bool
 
+```crmscript
+NSErpSyncFieldMapping thing;
+Bool alreadyMapped;
+thing.SetAlreadyMapped(alreadyMapped);
+```
+

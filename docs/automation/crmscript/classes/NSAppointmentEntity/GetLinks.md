@@ -11,3 +11,9 @@ List of all elements linked to the appointment.
 **Returns:** LinkArray
 
 
+```crmscript
+NSAppointmentEntity thing;
+LinkArray links  = thing.GetLinks();
+```
+
+

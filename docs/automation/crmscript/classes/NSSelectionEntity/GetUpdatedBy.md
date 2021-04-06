@@ -11,3 +11,9 @@ Who last modified the selection
 **Returns:** Associate
 
 
+```crmscript
+NSSelectionEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
+
+

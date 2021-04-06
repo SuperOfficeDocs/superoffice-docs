@@ -11,3 +11,9 @@ When was the e-mail sent
 **Parameter:** 
  - **sent** DateTime
 
+```crmscript
+NSEMailEnvelope thing;
+DateTime sent;
+thing.SetSent(sent);
+```
+

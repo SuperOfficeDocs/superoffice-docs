@@ -17,3 +17,9 @@ The status of the ticket. I.e. active/closed/postponed/deleted
      - Enum: 4 = Deleted 
      - Enum: 5 = Merged 
 
+```crmscript
+NSTicketEntity thing;
+TicketBaseStatus baseStatus  = thing.GetBaseStatus();
+```
+
+

@@ -11,3 +11,9 @@ Count of concurring errors of fetching email. Readonly field
 **Returns:** Integer
 
 
+```crmscript
+NSEMailAccount thing;
+Integer errorCount  = thing.GetErrorCount();
+```
+
+

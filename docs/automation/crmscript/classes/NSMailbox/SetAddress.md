@@ -11,3 +11,9 @@ The address associated with this mailbox (used as FROM: address when sending ema
 **Parameter:** 
  - **address** String
 
+```crmscript
+NSMailbox thing;
+String address;
+thing.SetAddress(address);
+```
+

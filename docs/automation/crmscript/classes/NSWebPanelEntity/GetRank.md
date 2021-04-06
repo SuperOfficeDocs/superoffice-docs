@@ -11,3 +11,9 @@ The rank of the web panel
 **Returns:** Integer
 
 
+```crmscript
+NSWebPanelEntity thing;
+Integer rank  = thing.GetRank();
+```
+
+

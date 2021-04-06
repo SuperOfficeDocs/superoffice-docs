@@ -11,3 +11,9 @@ Descriptive messages; errors, etc.
 **Returns:** String
 
 
+```crmscript
+NSExportArchiveResult thing;
+String message  = thing.GetMessage();
+```
+
+

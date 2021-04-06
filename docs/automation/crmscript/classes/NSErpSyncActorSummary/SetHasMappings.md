@@ -11,3 +11,9 @@ Does this actor type have field mappings
 **Parameter:** 
  - **hasMappings** Bool
 
+```crmscript
+NSErpSyncActorSummary thing;
+Bool hasMappings;
+thing.SetHasMappings(hasMappings);
+```
+

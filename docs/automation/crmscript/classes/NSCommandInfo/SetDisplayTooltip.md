@@ -11,3 +11,9 @@ Tooltip string associate with the command - can be a literal or a tooltip hint.
 **Parameter:** 
  - **displayTooltip** String
 
+```crmscript
+NSCommandInfo thing;
+String displayTooltip;
+thing.SetDisplayTooltip(displayTooltip);
+```
+

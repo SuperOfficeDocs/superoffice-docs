@@ -11,3 +11,9 @@ Is the webpanel visible when user is on web client
 **Parameter:** 
  - **onSalesMarketingWeb** Bool
 
+```crmscript
+NSWebPanelEntity thing;
+Bool onSalesMarketingWeb;
+thing.SetOnSalesMarketingWeb(onSalesMarketingWeb);
+```
+

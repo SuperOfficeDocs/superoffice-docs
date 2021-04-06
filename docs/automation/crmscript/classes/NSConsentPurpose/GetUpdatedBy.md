@@ -11,3 +11,9 @@ The associate that last updated the consent purpose
 **Returns:** Associate
 
 
+```crmscript
+NSConsentPurpose thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
+
+

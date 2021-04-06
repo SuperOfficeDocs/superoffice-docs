@@ -19,3 +19,9 @@ Result of CheckLicenseStatus
      - Enum: 100 = ProblemWithLicense 
      - Enum: 5000 = UnknownError 
 
+```crmscript
+NSCheckLicenseStatusResult thing;
+Integer licenseStatus;
+thing.SetLicenseStatus(licenseStatus);
+```
+

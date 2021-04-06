@@ -11,3 +11,9 @@ Array og QuoteVersions connected to the quote.
 **Returns:** QuoteVersionArray
 
 
+```crmscript
+NSQuoteEntity thing;
+QuoteVersionArray quoteVersions  = thing.GetQuoteVersions();
+```
+
+

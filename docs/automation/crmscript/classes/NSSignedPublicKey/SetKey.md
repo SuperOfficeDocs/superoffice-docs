@@ -11,3 +11,9 @@ Public key held by module owner.
 **Parameter:** 
  - **key** DSAParameters
 
+```crmscript
+NSSignedPublicKey thing;
+DSAParameters key;
+thing.SetKey(key);
+```
+

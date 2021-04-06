@@ -11,3 +11,9 @@ The relevant or current alternative of the quote in the CRM system, if applicabl
 **Returns:** QuoteAlternative
 
 
+```crmscript
+NSQuoteContext thing;
+QuoteAlternative cRMQuoteAlternative  = thing.GetCRMQuoteAlternative();
+```
+
+

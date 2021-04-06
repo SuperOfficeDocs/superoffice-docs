@@ -11,3 +11,9 @@ Description of the authentication type.  This value is used in a list of authent
 **Returns:** String
 
 
+```crmscript
+NSCredentialType thing;
+String description  = thing.GetDescription();
+```
+
+

@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSLocalizedText thing;
+Integer localizedTextId  = thing.GetLocalizedTextId();
+```
+
+

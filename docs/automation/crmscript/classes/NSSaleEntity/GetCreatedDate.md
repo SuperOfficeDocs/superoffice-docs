@@ -11,3 +11,9 @@ Registered date
 **Returns:** DateTime
 
 
+```crmscript
+NSSaleEntity thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
+
+

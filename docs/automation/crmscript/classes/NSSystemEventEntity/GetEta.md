@@ -11,3 +11,9 @@ Estimated Time of Arrival, i.e., when will this event finish?
 **Returns:** DateTime
 
 
+```crmscript
+NSSystemEventEntity thing;
+DateTime eta  = thing.GetEta();
+```
+
+

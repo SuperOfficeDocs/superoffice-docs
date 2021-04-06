@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSShipmentMessageBlockEntity thing;
+Integer shipmentMessageBlockId  = thing.GetShipmentMessageBlockId();
+```
+
+

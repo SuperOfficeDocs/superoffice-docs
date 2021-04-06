@@ -11,3 +11,9 @@ Any message from the method, including timing data
 **Returns:** String
 
 
+```crmscript
+NSMassOperationResult thing;
+String message  = thing.GetMessage();
+```
+
+

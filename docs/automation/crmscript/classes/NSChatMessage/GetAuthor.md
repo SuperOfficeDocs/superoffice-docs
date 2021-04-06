@@ -11,3 +11,9 @@ The author of the message.
 **Returns:** String
 
 
+```crmscript
+NSChatMessage thing;
+String author  = thing.GetAuthor();
+```
+
+

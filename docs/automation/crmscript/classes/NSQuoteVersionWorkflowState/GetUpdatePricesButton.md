@@ -11,3 +11,9 @@ Information about the action for the update prices button.
 **Returns:** QuoteVersionButtonState
 
 
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionButtonState updatePricesButton  = thing.GetUpdatePricesButton();
+```
+
+

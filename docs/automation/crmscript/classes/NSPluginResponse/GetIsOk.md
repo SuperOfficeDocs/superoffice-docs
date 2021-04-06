@@ -11,3 +11,9 @@ Answer to the question / An indication if the operation went well.
 **Returns:** Bool
 
 
+```crmscript
+NSPluginResponse thing;
+Bool isOk  = thing.GetIsOk();
+```
+
+

@@ -11,3 +11,9 @@ True if the user is a manager for this topic
 **Parameter:** 
  - **canManage** Bool
 
+```crmscript
+NSChatTopicAgent thing;
+Bool canManage;
+thing.SetCanManage(canManage);
+```
+

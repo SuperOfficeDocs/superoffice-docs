@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSErpSyncDefaultValue thing;
+Integer erpFieldId  = thing.GetErpFieldId();
+```
+
+

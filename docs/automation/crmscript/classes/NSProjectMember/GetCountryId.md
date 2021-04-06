@@ -11,3 +11,9 @@ Country
 **Returns:** Integer
 
 
+```crmscript
+NSProjectMember thing;
+Integer countryId  = thing.GetCountryId();
+```
+
+

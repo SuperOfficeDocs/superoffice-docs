@@ -11,3 +11,9 @@ The data type of the restriction; use this to retrieve the legal operators for t
 **Returns:** String
 
 
+```crmscript
+NSArchiveColumnInfo thing;
+String restrictionType  = thing.GetRestrictionType();
+```
+
+

@@ -11,3 +11,9 @@ Extra info about VAT that the connector might insert. This field has no business
 **Parameter:** 
  - **vATInfo** String
 
+```crmscript
+NSQuoteAlternative thing;
+String vATInfo;
+thing.SetVATInfo(vATInfo);
+```
+

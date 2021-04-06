@@ -11,3 +11,9 @@ The alternative that is considered most likely to be accepted. Used to calculate
 **Parameter:** 
  - **likelyQuoteAlternativeId** Integer
 
+```crmscript
+NSQuoteVersion thing;
+Integer likelyQuoteAlternativeId;
+thing.SetLikelyQuoteAlternativeId(likelyQuoteAlternativeId);
+```
+

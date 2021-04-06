@@ -11,3 +11,9 @@ Length of the second counter period
 **Returns:** Integer
 
 
+```crmscript
+NSSaintConfiguration thing;
+Integer period2  = thing.GetPeriod2();
+```
+
+

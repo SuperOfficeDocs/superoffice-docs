@@ -11,3 +11,9 @@ Active text
 **Returns:** String
 
 
+```crmscript
+NSRelationDefinitionEntity thing;
+String name  = thing.GetName();
+```
+
+

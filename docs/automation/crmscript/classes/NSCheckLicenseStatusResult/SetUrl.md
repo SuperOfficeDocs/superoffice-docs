@@ -11,3 +11,9 @@ Url to show to the user.  This is relevant when LinkType is 60.
 **Parameter:** 
  - **url** String
 
+```crmscript
+NSCheckLicenseStatusResult thing;
+String url;
+thing.SetUrl(url);
+```
+

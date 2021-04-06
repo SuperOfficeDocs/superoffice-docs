@@ -11,3 +11,9 @@ Custom HTTP Headers to add to webhook requests.
 **Returns:** StringDictionary
 
 
+```crmscript
+NSWebhook thing;
+StringDictionary headers  = thing.GetHeaders();
+```
+
+

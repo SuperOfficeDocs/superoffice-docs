@@ -11,3 +11,9 @@ Connection name shown to user; multi-language support
 **Returns:** String
 
 
+```crmscript
+NSErpConnection thing;
+String displayName  = thing.GetDisplayName();
+```
+
+

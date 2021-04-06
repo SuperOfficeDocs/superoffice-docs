@@ -11,3 +11,9 @@ Id of record, should never be 0
 **Parameter:** 
  - **recordId** Integer
 
+```crmscript
+NSChangedDataItem thing;
+Integer recordId;
+thing.SetRecordId(recordId);
+```
+

@@ -11,3 +11,9 @@ Name of the project this project member belongs to.
 **Returns:** String
 
 
+```crmscript
+NSProjectMember thing;
+String projectName  = thing.GetProjectName();
+```
+
+

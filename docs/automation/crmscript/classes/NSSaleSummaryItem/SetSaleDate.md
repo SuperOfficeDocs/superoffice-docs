@@ -11,3 +11,9 @@ Expected sales date
 **Parameter:** 
  - **saleDate** DateTime
 
+```crmscript
+NSSaleSummaryItem thing;
+DateTime saleDate;
+thing.SetSaleDate(saleDate);
+```
+

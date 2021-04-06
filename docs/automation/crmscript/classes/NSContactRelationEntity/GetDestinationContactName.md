@@ -11,3 +11,9 @@ Name of the destination contact.
 **Returns:** String
 
 
+```crmscript
+NSContactRelationEntity thing;
+String destinationContactName  = thing.GetDestinationContactName();
+```
+
+

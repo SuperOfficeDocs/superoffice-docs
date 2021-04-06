@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **zipCode** String
 
+```crmscript
+NSAddressSyncData thing;
+String zipCode;
+thing.SetZipCode(zipCode);
+```
+

@@ -11,3 +11,9 @@ Owning contact ID
 **Parameter:** 
  - **contactId** Integer
 
+```crmscript
+NSPerson thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
+

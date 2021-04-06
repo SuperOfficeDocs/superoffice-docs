@@ -11,3 +11,9 @@ True if the user should receive notifications for this topic
 **Returns:** Bool
 
 
+```crmscript
+NSChatTopicAgent thing;
+Bool canNotify  = thing.GetCanNotify();
+```
+
+

@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSContactRelationEntity thing;
+Integer relationId  = thing.GetRelationId();
+```
+
+

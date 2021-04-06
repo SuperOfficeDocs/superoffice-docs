@@ -11,3 +11,9 @@ Glue between SuperOffice data and an e-mail.
 **Parameter:** 
  - **eMailSOInfo** EMailSOInfo
 
+```crmscript
+NSEMailEnvelope thing;
+EMailSOInfo eMailSOInfo;
+thing.SetEMailSOInfo(eMailSOInfo);
+```
+

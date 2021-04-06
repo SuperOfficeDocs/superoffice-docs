@@ -11,3 +11,9 @@ If specified, use this value as default mail subject.
 **Parameter:** 
  - **customMailSubject** String
 
+```crmscript
+NSMailMergeSettings thing;
+String customMailSubject;
+thing.SetCustomMailSubject(customMailSubject);
+```
+

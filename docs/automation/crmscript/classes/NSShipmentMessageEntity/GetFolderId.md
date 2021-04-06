@@ -11,3 +11,9 @@ The folder which this message belongs to. -1 indicates that the message is on th
 **Returns:** Integer
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+Integer folderId  = thing.GetFolderId();
+```
+
+

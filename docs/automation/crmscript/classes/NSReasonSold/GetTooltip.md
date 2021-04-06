@@ -10,3 +10,9 @@ Get the tooltip description for the ReasonSold list item.
 
 **Returns:** String ReasonSold tooltip description.
 
+```crmscript
+NSReasonSold thing;
+String descr = thing.GetTooltip();
+```
+
+

@@ -11,3 +11,9 @@ Id of the associate that created the appointment
 **Parameter:** 
  - **createdByAssociateId** Integer
 
+```crmscript
+NSAppointment thing;
+Integer createdByAssociateId;
+thing.SetCreatedByAssociateId(createdByAssociateId);
+```
+

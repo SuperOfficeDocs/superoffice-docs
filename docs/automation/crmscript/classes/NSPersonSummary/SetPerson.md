@@ -11,3 +11,9 @@ Simple Person data.
 **Parameter:** 
  - **person** Person
 
+```crmscript
+NSPersonSummary thing;
+Person person;
+thing.SetPerson(person);
+```
+

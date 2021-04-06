@@ -11,3 +11,9 @@ Name of the layout instance
 **Returns:** String
 
 
+```crmscript
+NSAudienceLayoutEntity thing;
+String instanceName  = thing.GetInstanceName();
+```
+
+

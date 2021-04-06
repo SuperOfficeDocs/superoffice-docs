@@ -11,3 +11,9 @@ A copy of the title of the ticket, for search optimisation and simpler reporting
 **Returns:** String
 
 
+```crmscript
+NSTicketMessageEntity thing;
+String searchTitle  = thing.GetSearchTitle();
+```
+
+

@@ -11,3 +11,9 @@ Optional extra data, in XML format, for configuring the connector. Connector-spe
 **Returns:** String
 
 
+```crmscript
+NSQuoteConnection thing;
+String extraData  = thing.GetExtraData();
+```
+
+

@@ -11,3 +11,9 @@ Time the training finished
 **Returns:** DateTime
 
 
+```crmscript
+NSCategorizationModelDetails thing;
+DateTime modelBuiltDateTime  = thing.GetModelBuiltDateTime();
+```
+
+

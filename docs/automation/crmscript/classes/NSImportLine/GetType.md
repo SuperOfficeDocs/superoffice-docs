@@ -15,3 +15,9 @@ Which entity type will be created? This is a read-only property
      - Enum: 2 = Contact 
      - Enum: 4 = Product 
 
+```crmscript
+NSImportLine thing;
+Integer type  = thing.GetType();
+```
+
+

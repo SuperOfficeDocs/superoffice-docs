@@ -11,3 +11,9 @@ Extra information on the history item, e.g. The Associate Type for an associate 
 **Parameter:** 
  - **itemInfo** String
 
+```crmscript
+NSHistory thing;
+String itemInfo;
+thing.SetItemInfo(itemInfo);
+```
+

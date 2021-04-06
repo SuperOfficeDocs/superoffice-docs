@@ -11,3 +11,9 @@ Summed amount for all overdue sales within the period in default currency for th
 **Parameter:** 
  - **currentOverdueTotalBaseCurrency** Float
 
+```crmscript
+NSSaleSummary thing;
+Float currentOverdueTotalBaseCurrency;
+thing.SetCurrentOverdueTotalBaseCurrency(currentOverdueTotalBaseCurrency);
+```
+

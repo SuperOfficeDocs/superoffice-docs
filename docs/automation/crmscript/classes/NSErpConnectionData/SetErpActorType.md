@@ -19,3 +19,9 @@ The erp actor type which these fields belongs to
      - Enum: 6 = Employee 
      - Enum: 7 = Sale 
 
+```crmscript
+NSErpConnectionData thing;
+Integer erpActorType;
+thing.SetErpActorType(erpActorType);
+```
+

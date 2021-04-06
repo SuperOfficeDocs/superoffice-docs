@@ -11,3 +11,9 @@ The identity of the web panel
 **Returns:** Integer
 
 
+```crmscript
+NSWebPanelEntity thing;
+Integer webPanelId  = thing.GetWebPanelId();
+```
+
+

@@ -11,3 +11,9 @@ The persons company name
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String contactName  = thing.GetContactName();
+```
+
+

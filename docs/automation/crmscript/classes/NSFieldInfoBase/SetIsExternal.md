@@ -11,3 +11,9 @@ Should this field be shown to external users via customer center?
 **Parameter:** 
  - **isExternal** Bool
 
+```crmscript
+NSFieldInfoBase thing;
+Bool isExternal;
+thing.SetIsExternal(isExternal);
+```
+

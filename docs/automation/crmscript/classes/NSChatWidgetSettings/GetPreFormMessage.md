@@ -11,3 +11,9 @@ Message to be shown in a pre-chat
 **Returns:** String
 
 
+```crmscript
+NSChatWidgetSettings thing;
+String preFormMessage  = thing.GetPreFormMessage();
+```
+
+

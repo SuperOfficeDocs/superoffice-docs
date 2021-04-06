@@ -11,3 +11,9 @@ ID of entity to get history for, or parent entity id if requesting insert rights
 **Parameter:** 
  - **entityOrParentId** Integer
 
+```crmscript
+NSHistoryRequest thing;
+Integer entityOrParentId;
+thing.SetEntityOrParentId(entityOrParentId);
+```
+

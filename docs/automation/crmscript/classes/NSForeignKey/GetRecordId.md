@@ -11,3 +11,9 @@ Record in the referenced table
 **Returns:** Integer
 
 
+```crmscript
+NSForeignKey thing;
+Integer recordId  = thing.GetRecordId();
+```
+
+

@@ -11,3 +11,9 @@ The owner of the suggested activity. Always the same as the sales owner.
 **Parameter:** 
  - **associate** Associate
 
+```crmscript
+NSSuggestedAppointment thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
+

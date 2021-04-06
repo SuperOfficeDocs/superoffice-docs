@@ -11,3 +11,9 @@ Name of target table: 'contact', 'y_equipment'
 **Parameter:** 
  - **targetTable** String
 
+```crmscript
+NSFieldInfoRelation thing;
+String targetTable;
+thing.SetTargetTable(targetTable);
+```
+

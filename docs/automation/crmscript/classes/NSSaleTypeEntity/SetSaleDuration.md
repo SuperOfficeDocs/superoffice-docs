@@ -11,3 +11,9 @@ Expected number of dales from initiation to close of sale
 **Parameter:** 
  - **saleDuration** Integer
 
+```crmscript
+NSSaleTypeEntity thing;
+Integer saleDuration;
+thing.SetSaleDuration(saleDuration);
+```
+

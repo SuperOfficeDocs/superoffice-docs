@@ -11,3 +11,9 @@ Who created the selection
 **Returns:** Associate
 
 
+```crmscript
+NSSelectionEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
+
+

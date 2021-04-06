@@ -11,3 +11,9 @@ The document plugin's key that uniquely identifies a document; stored in the ext
 **Returns:** String
 
 
+```crmscript
+NSVersionInfo thing;
+String externalReference  = thing.GetExternalReference();
+```
+
+

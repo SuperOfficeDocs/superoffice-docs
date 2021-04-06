@@ -11,3 +11,9 @@ True if the heading is marked as deleted
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSHeadingEntity thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

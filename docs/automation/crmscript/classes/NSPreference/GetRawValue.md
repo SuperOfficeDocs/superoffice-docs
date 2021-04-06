@@ -11,3 +11,9 @@ Preference value
 **Returns:** String
 
 
+```crmscript
+NSPreference thing;
+String rawValue  = thing.GetRawValue();
+```
+
+

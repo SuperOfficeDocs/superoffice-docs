@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSHistory thing;
+Integer historyId  = thing.GetHistoryId();
+```
+
+

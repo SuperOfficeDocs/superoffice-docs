@@ -11,3 +11,9 @@ The name of the report
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSReportEntity thing;
+String name;
+thing.SetName(name);
+```
+

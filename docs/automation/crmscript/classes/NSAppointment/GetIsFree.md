@@ -11,3 +11,9 @@ True if free, false if busy
 **Returns:** Bool
 
 
+```crmscript
+NSAppointment thing;
+Bool isFree  = thing.GetIsFree();
+```
+
+

@@ -10,3 +10,8 @@ Get the primary key (id) for the CustomerLanguage
 
 **Returns:** Integer CustomerLanguage id.
 
+```crmscript
+NSCustomerLanguage thing;
+Integer id = thing.GetId();
+```
+

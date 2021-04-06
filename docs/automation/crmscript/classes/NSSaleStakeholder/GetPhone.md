@@ -11,3 +11,9 @@ Phone number
 **Returns:** String
 
 
+```crmscript
+NSSaleStakeholder thing;
+String phone  = thing.GetPhone();
+```
+
+

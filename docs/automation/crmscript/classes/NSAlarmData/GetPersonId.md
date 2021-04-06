@@ -11,3 +11,9 @@ Person ID of person the appointment is with, may be 0
 **Returns:** Integer
 
 
+```crmscript
+NSAlarmData thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

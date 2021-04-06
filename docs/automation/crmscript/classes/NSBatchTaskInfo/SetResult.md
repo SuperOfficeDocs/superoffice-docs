@@ -11,3 +11,9 @@ Maps to the result field in the batchtask table.
 **Parameter:** 
  - **result** String
 
+```crmscript
+NSBatchTaskInfo thing;
+String result;
+thing.SetResult(result);
+```
+

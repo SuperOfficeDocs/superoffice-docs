@@ -11,3 +11,8 @@ Set the name of the NavigatorCompany item.
 **Parameter:** 
  - **value** String NavigatorCompany name.
 
+```crmscript
+NSNavigatorCompany thing;
+thing.SetValue("frotz");
+```
+

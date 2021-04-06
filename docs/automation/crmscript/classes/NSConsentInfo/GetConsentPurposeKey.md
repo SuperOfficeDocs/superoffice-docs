@@ -11,3 +11,9 @@ Key of the ConsentPurpose associated with this consent
 **Returns:** String
 
 
+```crmscript
+NSConsentInfo thing;
+String consentPurposeKey  = thing.GetConsentPurposeKey();
+```
+
+

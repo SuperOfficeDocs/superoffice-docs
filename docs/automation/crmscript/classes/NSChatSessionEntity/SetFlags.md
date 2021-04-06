@@ -13,3 +13,9 @@ Various flags for the chat session
      - Enum: 0 = CustomerIsTyping 
      - Enum: 1 = UserIsTyping 
 
+```crmscript
+NSChatSessionEntity thing;
+ChatSessionFlags flags;
+thing.SetFlags(flags);
+```
+

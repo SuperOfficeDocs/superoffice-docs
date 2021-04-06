@@ -11,3 +11,9 @@ Sale identity to set on task
 **Parameter:** 
  - **saleId** Integer
 
+```crmscript
+NSMailMergeTask thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
+

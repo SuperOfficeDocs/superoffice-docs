@@ -11,3 +11,9 @@ The associate that first created the SystemEvent.
 **Parameter:** 
  - **activatedBy** Associate
 
+```crmscript
+NSSystemEventEntity thing;
+Associate activatedBy;
+thing.SetActivatedBy(activatedBy);
+```
+

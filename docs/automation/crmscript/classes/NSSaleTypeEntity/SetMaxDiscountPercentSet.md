@@ -11,3 +11,9 @@ Is there a limit, in percent, to the total discount on quotes linked to sales of
 **Parameter:** 
  - **maxDiscountPercentSet** Bool
 
+```crmscript
+NSSaleTypeEntity thing;
+Bool maxDiscountPercentSet;
+thing.SetMaxDiscountPercentSet(maxDiscountPercentSet);
+```
+

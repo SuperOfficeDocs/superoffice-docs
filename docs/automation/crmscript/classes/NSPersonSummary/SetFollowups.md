@@ -11,3 +11,9 @@ Recent follow-ups on person
 **Parameter:** 
  - **followups** ActivitySummaryItemArray
 
+```crmscript
+NSPersonSummary thing;
+ActivitySummaryItemArray followups;
+thing.SetFollowups(followups);
+```
+

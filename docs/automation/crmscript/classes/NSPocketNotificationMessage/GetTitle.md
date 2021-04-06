@@ -11,3 +11,9 @@ Title for the notification
 **Returns:** String
 
 
+```crmscript
+NSPocketNotificationMessage thing;
+String title  = thing.GetTitle();
+```
+
+

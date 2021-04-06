@@ -11,3 +11,9 @@ The (decrypted) password or token
 **Parameter:** 
  - **password** String
 
+```crmscript
+NSServiceAuth thing;
+String password;
+thing.SetPassword(password);
+```
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **uDefFieldId** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer uDefFieldId;
+thing.SetUDefFieldId(uDefFieldId);
+```
+

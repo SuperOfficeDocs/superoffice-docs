@@ -11,3 +11,9 @@ The JSON-formatted recipe of this form
 **Returns:** String
 
 
+```crmscript
+NSFormEntity thing;
+String recipe  = thing.GetRecipe();
+```
+
+

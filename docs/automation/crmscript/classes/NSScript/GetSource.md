@@ -11,3 +11,9 @@ The script
 **Returns:** String
 
 
+```crmscript
+NSScript thing;
+String source  = thing.GetSource();
+```
+
+

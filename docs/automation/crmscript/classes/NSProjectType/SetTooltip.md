@@ -11,3 +11,9 @@ Set the tooltip description for the ProjectType list item.
 **Parameter:** 
  - **tooltip** String ProjectType tooltip description.
 
+```crmscript
+NSProjectType thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

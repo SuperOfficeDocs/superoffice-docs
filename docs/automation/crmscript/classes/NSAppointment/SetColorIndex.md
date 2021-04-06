@@ -11,3 +11,9 @@ Appointment colour, used only in Japanese versions. Western versions take colour
 **Parameter:** 
  - **colorIndex** Integer
 
+```crmscript
+NSAppointment thing;
+Integer colorIndex;
+thing.SetColorIndex(colorIndex);
+```
+

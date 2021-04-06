@@ -11,3 +11,9 @@ Who updated this script
 **Parameter:** 
  - **updatedBy** String
 
+```crmscript
+NSScript thing;
+String updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
+

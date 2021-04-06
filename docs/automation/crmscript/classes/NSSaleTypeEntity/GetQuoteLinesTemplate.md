@@ -11,3 +11,9 @@ The template that this sale type should use when producing the product lines off
 **Returns:** Integer
 
 
+```crmscript
+NSSaleTypeEntity thing;
+Integer quoteLinesTemplate  = thing.GetQuoteLinesTemplate();
+```
+
+

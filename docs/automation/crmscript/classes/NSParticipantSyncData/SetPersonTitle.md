@@ -11,3 +11,9 @@ Title
 **Parameter:** 
  - **personTitle** String
 
+```crmscript
+NSParticipantSyncData thing;
+String personTitle;
+thing.SetPersonTitle(personTitle);
+```
+

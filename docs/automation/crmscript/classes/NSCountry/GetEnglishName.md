@@ -11,3 +11,9 @@ Name of country in english
 **Returns:** String
 
 
+```crmscript
+NSCountry thing;
+String englishName  = thing.GetEnglishName();
+```
+
+

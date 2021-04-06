@@ -11,3 +11,9 @@ The list of actual users that can be selected
 **Parameter:** 
  - **users** CredentialUserArray
 
+```crmscript
+NSCredentialsGroupUsers thing;
+CredentialUserArray users;
+thing.SetUsers(users);
+```
+

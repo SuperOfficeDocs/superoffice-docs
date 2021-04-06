@@ -11,3 +11,9 @@ Offline text shown in widget header
 **Returns:** String
 
 
+```crmscript
+NSChatWidgetSettings thing;
+String offlineHeader  = thing.GetOfflineHeader();
+```
+
+

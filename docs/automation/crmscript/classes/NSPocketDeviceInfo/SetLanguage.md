@@ -11,3 +11,9 @@ The language which this device will receive notifications translated in
 **Parameter:** 
  - **language** String
 
+```crmscript
+NSPocketDeviceInfo thing;
+String language;
+thing.SetLanguage(language);
+```
+

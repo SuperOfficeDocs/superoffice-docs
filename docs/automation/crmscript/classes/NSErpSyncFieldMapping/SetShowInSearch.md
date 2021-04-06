@@ -11,3 +11,9 @@ Should this field be shown in searches
 **Parameter:** 
  - **showInSearch** Bool
 
+```crmscript
+NSErpSyncFieldMapping thing;
+Bool showInSearch;
+thing.SetShowInSearch(showInSearch);
+```
+

@@ -11,3 +11,9 @@ Attachment Content-Type
 **Parameter:** 
  - **type** String
 
+```crmscript
+NSEMailAttachment thing;
+String type;
+thing.SetType(type);
+```
+

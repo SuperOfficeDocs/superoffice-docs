@@ -11,3 +11,9 @@ The associate who archived this email
 **Returns:** Integer
 
 
+```crmscript
+NSEMailSOInfo thing;
+Integer archivedBy  = thing.GetArchivedBy();
+```
+
+

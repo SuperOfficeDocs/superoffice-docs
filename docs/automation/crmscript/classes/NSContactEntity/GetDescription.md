@@ -11,3 +11,9 @@ Description of the contact. Usually shown as a postit note.
 **Returns:** String
 
 
+```crmscript
+NSContactEntity thing;
+String description  = thing.GetDescription();
+```
+
+

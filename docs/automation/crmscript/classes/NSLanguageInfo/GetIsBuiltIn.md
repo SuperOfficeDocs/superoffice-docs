@@ -11,3 +11,9 @@ Has this row been inserted by SuperOffice priming data
 **Returns:** Bool
 
 
+```crmscript
+NSLanguageInfo thing;
+Bool isBuiltIn  = thing.GetIsBuiltIn();
+```
+
+

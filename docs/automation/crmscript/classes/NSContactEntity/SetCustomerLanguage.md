@@ -11,3 +11,9 @@ customerlanguage
 **Parameter:** 
  - **customerLanguage** CustomerLanguage
 
+```crmscript
+NSContactEntity thing;
+CustomerLanguage customerLanguage;
+thing.SetCustomerLanguage(customerLanguage);
+```
+

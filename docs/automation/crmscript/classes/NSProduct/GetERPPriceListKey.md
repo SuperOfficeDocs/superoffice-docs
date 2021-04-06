@@ -11,3 +11,9 @@ Foreign key to the price list that this product is a part of, or the primary key
 **Returns:** String
 
 
+```crmscript
+NSProduct thing;
+String eRPPriceListKey  = thing.GetERPPriceListKey();
+```
+
+

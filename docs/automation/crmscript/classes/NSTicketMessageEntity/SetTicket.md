@@ -11,3 +11,9 @@ The connected ticket
 **Parameter:** 
  - **ticket** Ticket
 
+```crmscript
+NSTicketMessageEntity thing;
+Ticket ticket;
+thing.SetTicket(ticket);
+```
+

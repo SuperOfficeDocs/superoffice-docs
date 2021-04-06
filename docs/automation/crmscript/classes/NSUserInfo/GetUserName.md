@@ -11,3 +11,9 @@ Initials, also login name, possibly database user name
 **Returns:** String
 
 
+```crmscript
+NSUserInfo thing;
+String userName  = thing.GetUserName();
+```
+
+

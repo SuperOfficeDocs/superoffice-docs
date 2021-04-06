@@ -11,3 +11,9 @@ The unique key on the field
 **Returns:** String
 
 
+```crmscript
+NSFieldValueInfo thing;
+String key  = thing.GetKey();
+```
+
+

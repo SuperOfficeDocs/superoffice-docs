@@ -11,3 +11,9 @@ Contact this session is connected to - could be empty if we don't know exactly.
 **Returns:** Contact
 
 
+```crmscript
+NSChatSessionEntity thing;
+Contact contact  = thing.GetContact();
+```
+
+

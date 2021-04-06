@@ -11,3 +11,9 @@ Can this column be used as a restriction
 **Parameter:** 
  - **canRestrictBy** Bool
 
+```crmscript
+NSArchiveColumnInfo thing;
+Bool canRestrictBy;
+thing.SetCanRestrictBy(canRestrictBy);
+```
+

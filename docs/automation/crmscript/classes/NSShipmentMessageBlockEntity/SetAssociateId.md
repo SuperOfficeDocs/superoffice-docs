@@ -11,3 +11,9 @@ The associate that owns this block
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSShipmentMessageBlockEntity thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

@@ -11,3 +11,9 @@ If true the resource is a location
 **Parameter:** 
  - **isLocation** Bool
 
+```crmscript
+NSResourceEntity thing;
+Bool isLocation;
+thing.SetIsLocation(isLocation);
+```
+

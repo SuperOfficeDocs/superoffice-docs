@@ -11,3 +11,9 @@ The mail server
 **Returns:** String
 
 
+```crmscript
+NSServiceAuth thing;
+String server  = thing.GetServer();
+```
+
+

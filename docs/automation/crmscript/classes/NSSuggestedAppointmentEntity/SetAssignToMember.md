@@ -11,3 +11,9 @@ Should this appointment be assigned to project member
 **Parameter:** 
  - **assignToMember** Bool
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Bool assignToMember;
+thing.SetAssignToMember(assignToMember);
+```
+

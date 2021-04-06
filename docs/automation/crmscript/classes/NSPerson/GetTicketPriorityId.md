@@ -11,3 +11,9 @@ Ticket priority ID
 **Returns:** Integer
 
 
+```crmscript
+NSPerson thing;
+Integer ticketPriorityId  = thing.GetTicketPriorityId();
+```
+
+

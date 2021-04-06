@@ -17,3 +17,9 @@ Importance of the e-mail
      - Enum: 4 = Low 
      - Enum: 5 = Lowest 
 
+```crmscript
+NSEMailEnvelope thing;
+Integer priority  = thing.GetPriority();
+```
+
+

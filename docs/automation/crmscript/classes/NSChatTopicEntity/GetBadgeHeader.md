@@ -11,3 +11,9 @@ The badge header of the chat topic
 **Returns:** String
 
 
+```crmscript
+NSChatTopicEntity thing;
+String badgeHeader  = thing.GetBadgeHeader();
+```
+
+

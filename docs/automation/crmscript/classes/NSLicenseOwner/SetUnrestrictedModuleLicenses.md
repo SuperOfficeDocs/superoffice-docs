@@ -11,3 +11,9 @@ The unrestricted module licenses that this license owner
 **Parameter:** 
  - **unrestrictedModuleLicenses** ModuleLicenseLinkArray
 
+```crmscript
+NSLicenseOwner thing;
+ModuleLicenseLinkArray unrestrictedModuleLicenses;
+thing.SetUnrestrictedModuleLicenses(unrestrictedModuleLicenses);
+```
+

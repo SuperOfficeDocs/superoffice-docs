@@ -11,3 +11,9 @@ Set the tooltip description for the Role list item.
 **Parameter:** 
  - **tooltip** String Role tooltip description.
 
+```crmscript
+NSRole thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

@@ -11,3 +11,9 @@ The user that last updated the webhook.
 **Returns:** Associate
 
 
+```crmscript
+NSWebhook thing;
+Associate updatedAssociate  = thing.GetUpdatedAssociate();
+```
+
+

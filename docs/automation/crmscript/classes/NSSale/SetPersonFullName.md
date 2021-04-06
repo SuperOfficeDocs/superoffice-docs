@@ -11,3 +11,9 @@ The name of the person this sale belongs to.
 **Parameter:** 
  - **personFullName** String
 
+```crmscript
+NSSale thing;
+String personFullName;
+thing.SetPersonFullName(personFullName);
+```
+

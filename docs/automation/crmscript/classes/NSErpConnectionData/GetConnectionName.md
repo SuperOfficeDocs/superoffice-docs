@@ -11,3 +11,9 @@ The name of the connection
 **Returns:** String
 
 
+```crmscript
+NSErpConnectionData thing;
+String connectionName  = thing.GetConnectionName();
+```
+
+

@@ -11,3 +11,9 @@ E-mail description
 **Returns:** String
 
 
+```crmscript
+NSSaleStakeholder thing;
+String emailDescription  = thing.GetEmailDescription();
+```
+
+

@@ -11,3 +11,9 @@ ID of mother appointment; self if booking master, master ID if booking slave, 0 
 **Returns:** Integer
 
 
+```crmscript
+NSAppointmentEntity thing;
+Integer motherId  = thing.GetMotherId();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSDataRight thing;
+String value;
+thing.SetValue(value);
+```
+

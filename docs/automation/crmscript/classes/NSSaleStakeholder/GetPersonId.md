@@ -11,3 +11,9 @@ Person id - Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSaleStakeholder thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

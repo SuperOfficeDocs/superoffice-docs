@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSTriggerScriptEntity thing;
+Integer screenChooserId  = thing.GetScreenChooserId();
+```
+
+

@@ -11,3 +11,9 @@ Identifier for a selection
 **Returns:** Integer
 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer selectionId  = thing.GetSelectionId();
+```
+
+

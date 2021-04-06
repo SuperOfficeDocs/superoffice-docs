@@ -10,3 +10,8 @@ Get the primary key (id) for the TicketCategory
 
 **Returns:** Integer TicketCategory id.
 
+```crmscript
+NSTicketCategory thing;
+Integer id = thing.GetId();
+```
+

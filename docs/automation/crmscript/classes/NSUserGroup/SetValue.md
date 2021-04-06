@@ -11,3 +11,9 @@ UserGroup name
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSUserGroup thing;
+String value;
+thing.SetValue(value);
+```
+

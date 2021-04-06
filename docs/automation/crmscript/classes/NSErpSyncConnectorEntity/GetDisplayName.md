@@ -11,3 +11,9 @@ Name shown in the list
 **Returns:** String
 
 
+```crmscript
+NSErpSyncConnectorEntity thing;
+String displayName  = thing.GetDisplayName();
+```
+
+

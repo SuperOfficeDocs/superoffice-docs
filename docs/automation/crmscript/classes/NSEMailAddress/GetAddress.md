@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSEMailAddress thing;
+String address  = thing.GetAddress();
+```
+
+

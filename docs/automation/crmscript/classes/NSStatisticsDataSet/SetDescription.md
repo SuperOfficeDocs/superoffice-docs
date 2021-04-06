@@ -11,3 +11,9 @@ Tooltip for data value
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSStatisticsDataSet thing;
+String description;
+thing.SetDescription(description);
+```
+

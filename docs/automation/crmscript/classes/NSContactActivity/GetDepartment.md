@@ -11,3 +11,9 @@ Department
 **Returns:** String
 
 
+```crmscript
+NSContactActivity thing;
+String department  = thing.GetDepartment();
+```
+
+

@@ -11,3 +11,9 @@ The name of the module, not visible in GUI but used in the code. This must be in
 **Returns:** String
 
 
+```crmscript
+NSModuleLicense thing;
+String moduleName  = thing.GetModuleName();
+```
+
+

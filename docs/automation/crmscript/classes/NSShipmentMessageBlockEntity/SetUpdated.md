@@ -11,3 +11,9 @@ Last updated when
 **Parameter:** 
  - **updated** DateTime
 
+```crmscript
+NSShipmentMessageBlockEntity thing;
+DateTime updated;
+thing.SetUpdated(updated);
+```
+

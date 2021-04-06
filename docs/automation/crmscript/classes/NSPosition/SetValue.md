@@ -11,3 +11,8 @@ Set the name of the Position item.
 **Parameter:** 
  - **value** String Position name.
 
+```crmscript
+NSPosition thing;
+thing.SetValue("frotz");
+```
+

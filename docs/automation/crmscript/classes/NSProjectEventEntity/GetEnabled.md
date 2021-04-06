@@ -11,3 +11,9 @@ Is the event enabled
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEventEntity thing;
+Bool enabled  = thing.GetEnabled();
+```
+
+

@@ -11,3 +11,9 @@ The color indicator of the ListItem color block
 **Parameter:** 
  - **colorBlock** Integer
 
+```crmscript
+NSMDOListItem thing;
+Integer colorBlock;
+thing.SetColorBlock(colorBlock);
+```
+

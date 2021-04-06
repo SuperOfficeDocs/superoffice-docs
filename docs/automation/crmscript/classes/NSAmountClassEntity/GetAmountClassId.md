@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSAmountClassEntity thing;
+Integer amountClassId  = thing.GetAmountClassId();
+```
+
+

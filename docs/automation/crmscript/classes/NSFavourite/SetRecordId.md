@@ -11,3 +11,9 @@ Id of the record this favourite belongs to.
 **Parameter:** 
  - **recordId** Integer
 
+```crmscript
+NSFavourite thing;
+Integer recordId;
+thing.SetRecordId(recordId);
+```
+

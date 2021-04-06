@@ -11,3 +11,9 @@ Serial number. e.g.: 1010000014.
 **Parameter:** 
  - **serialNr** String
 
+```crmscript
+NSLicenseInfo thing;
+String serialNr;
+thing.SetSerialNr(serialNr);
+```
+

@@ -11,3 +11,9 @@ Recent sales on person
 **Returns:** SaleSummaryItemArray
 
 
+```crmscript
+NSPersonSummary thing;
+SaleSummaryItemArray sales  = thing.GetSales();
+```
+
+

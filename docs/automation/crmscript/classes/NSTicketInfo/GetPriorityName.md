@@ -11,3 +11,9 @@ The name of the priority for the request
 **Returns:** String
 
 
+```crmscript
+NSTicketInfo thing;
+String priorityName  = thing.GetPriorityName();
+```
+
+

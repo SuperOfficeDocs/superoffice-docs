@@ -11,3 +11,9 @@ Description of credential type
 **Parameter:** 
  - **type** CredentialType
 
+```crmscript
+NSCredential thing;
+CredentialType type;
+thing.SetType(type);
+```
+

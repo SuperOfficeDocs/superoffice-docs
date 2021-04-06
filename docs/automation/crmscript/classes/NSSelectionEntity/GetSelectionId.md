@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSelectionEntity thing;
+Integer selectionId  = thing.GetSelectionId();
+```
+
+

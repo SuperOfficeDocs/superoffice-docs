@@ -11,3 +11,9 @@ Should tickets related to the company be shown to this person
 **Returns:** Integer
 
 
+```crmscript
+NSPersonEntity thing;
+Integer showContactTickets  = thing.GetShowContactTickets();
+```
+
+

@@ -11,3 +11,9 @@ The position. This is a predefined SuperOffice value, different from Title
 **Returns:** String
 
 
+```crmscript
+NSParticipantSyncData thing;
+String personPosition  = thing.GetPersonPosition();
+```
+
+

@@ -11,3 +11,9 @@ Id of BinaryObject row that contains image for status monitor
 **Parameter:** 
  - **pictureId** Integer
 
+```crmscript
+NSStatusMonitor thing;
+Integer pictureId;
+thing.SetPictureId(pictureId);
+```
+

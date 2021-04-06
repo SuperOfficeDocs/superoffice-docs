@@ -11,3 +11,9 @@ The string that is the content of the mail body; this is the result of merging t
 **Returns:** String
 
 
+```crmscript
+NSQuotePublishDocuments thing;
+String mailBody  = thing.GetMailBody();
+```
+
+

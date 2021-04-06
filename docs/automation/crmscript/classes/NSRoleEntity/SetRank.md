@@ -11,3 +11,9 @@ Sorting rank of this role in lists
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSRoleEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

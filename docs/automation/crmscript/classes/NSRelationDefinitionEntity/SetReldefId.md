@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **reldefId** Integer
 
+```crmscript
+NSRelationDefinitionEntity thing;
+Integer reldefId;
+thing.SetReldefId(reldefId);
+```
+

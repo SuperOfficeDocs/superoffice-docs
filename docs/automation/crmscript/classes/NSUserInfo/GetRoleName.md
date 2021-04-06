@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSUserInfo thing;
+String roleName  = thing.GetRoleName();
+```
+
+

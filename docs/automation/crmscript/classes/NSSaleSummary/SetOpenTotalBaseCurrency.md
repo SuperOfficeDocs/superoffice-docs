@@ -11,3 +11,9 @@ Summed amount for all open within the period in default currency for the install
 **Parameter:** 
  - **openTotalBaseCurrency** Float
 
+```crmscript
+NSSaleSummary thing;
+Float openTotalBaseCurrency;
+thing.SetOpenTotalBaseCurrency(openTotalBaseCurrency);
+```
+

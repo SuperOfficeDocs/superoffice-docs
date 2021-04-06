@@ -11,3 +11,9 @@ Set the tooltip description for the NavigatorCompany list item.
 **Parameter:** 
  - **tooltip** String NavigatorCompany tooltip description.
 
+```crmscript
+NSNavigatorCompany thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

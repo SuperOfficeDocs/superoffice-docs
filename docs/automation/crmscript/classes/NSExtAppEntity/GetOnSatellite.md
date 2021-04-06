@@ -11,3 +11,9 @@ Is the application visible when user is on a satellite
 **Returns:** Bool
 
 
+```crmscript
+NSExtAppEntity thing;
+Bool onSatellite  = thing.GetOnSatellite();
+```
+
+

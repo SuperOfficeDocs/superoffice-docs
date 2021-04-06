@@ -11,3 +11,9 @@ Description text record id
 **Returns:** Integer
 
 
+```crmscript
+NSSelectionEntity thing;
+Integer textId  = thing.GetTextId();
+```
+
+

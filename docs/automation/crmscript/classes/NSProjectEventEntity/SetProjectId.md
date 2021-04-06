@@ -11,3 +11,9 @@ The projectId for the project this projectEvent belongs to
 **Parameter:** 
  - **projectId** Integer
 
+```crmscript
+NSProjectEventEntity thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
+

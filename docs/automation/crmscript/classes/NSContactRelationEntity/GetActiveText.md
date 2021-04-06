@@ -11,3 +11,9 @@ Active text for the relation.
 **Returns:** String
 
 
+```crmscript
+NSContactRelationEntity thing;
+String activeText  = thing.GetActiveText();
+```
+
+

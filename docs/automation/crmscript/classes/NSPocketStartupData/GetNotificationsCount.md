@@ -11,3 +11,9 @@ Number of new invitations
 **Returns:** Integer
 
 
+```crmscript
+NSPocketStartupData thing;
+Integer notificationsCount  = thing.GetNotificationsCount();
+```
+
+

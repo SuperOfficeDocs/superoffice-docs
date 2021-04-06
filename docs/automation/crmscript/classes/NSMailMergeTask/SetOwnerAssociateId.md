@@ -11,3 +11,9 @@ Associate identity of who should be set as owner of the task.  If value is 0, th
 **Parameter:** 
  - **ownerAssociateId** Integer
 
+```crmscript
+NSMailMergeTask thing;
+Integer ownerAssociateId;
+thing.SetOwnerAssociateId(ownerAssociateId);
+```
+

@@ -10,3 +10,8 @@ Get the name of the Reason.
 
 **Returns:** String Reason name.
 
+```crmscript
+NSReason thing;
+String name = thing.GetValue();
+```
+

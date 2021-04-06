@@ -11,3 +11,9 @@ A description of this script
 **Returns:** String
 
 
+```crmscript
+NSCRMScriptEntity thing;
+String name  = thing.GetName();
+```
+
+

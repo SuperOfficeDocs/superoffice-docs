@@ -11,3 +11,9 @@ Recent chats with person
 **Returns:** ChatSummaryItemArray
 
 
+```crmscript
+NSPersonSummary thing;
+ChatSummaryItemArray chats  = thing.GetChats();
+```
+
+

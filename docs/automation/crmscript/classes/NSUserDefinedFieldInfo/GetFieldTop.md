@@ -11,3 +11,9 @@ Y pixel coordinate of field
 **Returns:** Integer
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldTop  = thing.GetFieldTop();
+```
+
+

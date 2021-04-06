@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **selectionId** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer selectionId;
+thing.SetSelectionId(selectionId);
+```
+

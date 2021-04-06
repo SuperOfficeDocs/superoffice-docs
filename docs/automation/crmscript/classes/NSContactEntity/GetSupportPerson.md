@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Person
 
 
+```crmscript
+NSContactEntity thing;
+Person supportPerson  = thing.GetSupportPerson();
+```
+
+

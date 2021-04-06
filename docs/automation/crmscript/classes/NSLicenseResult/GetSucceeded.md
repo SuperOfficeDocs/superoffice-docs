@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSLicenseResult thing;
+Bool succeeded  = thing.GetSucceeded();
+```
+
+

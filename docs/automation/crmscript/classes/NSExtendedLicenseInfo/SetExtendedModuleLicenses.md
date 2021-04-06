@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **extendedModuleLicenses** ExtendedModuleLicenseArray
 
+```crmscript
+NSExtendedLicenseInfo thing;
+ExtendedModuleLicenseArray extendedModuleLicenses;
+thing.SetExtendedModuleLicenses(extendedModuleLicenses);
+```
+

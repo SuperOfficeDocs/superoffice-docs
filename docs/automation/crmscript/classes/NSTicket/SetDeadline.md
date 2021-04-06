@@ -11,3 +11,9 @@ Deadline for ticket.
 **Parameter:** 
  - **deadline** DateTime
 
+```crmscript
+NSTicket thing;
+DateTime deadline;
+thing.SetDeadline(deadline);
+```
+

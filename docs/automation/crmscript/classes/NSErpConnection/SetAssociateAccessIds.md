@@ -11,3 +11,9 @@ Array of ids containing associates that will have access to this connection.
 **Parameter:** 
  - **associateAccessIds** IntegerArray
 
+```crmscript
+NSErpConnection thing;
+IntegerArray associateAccessIds;
+thing.SetAssociateAccessIds(associateAccessIds);
+```
+

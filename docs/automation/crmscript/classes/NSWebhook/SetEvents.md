@@ -11,3 +11,9 @@ Array of event names that trigger this webhook: ['contact.created', 'sale.change
 **Parameter:** 
  - **events** StringArray
 
+```crmscript
+NSWebhook thing;
+StringArray events;
+thing.SetEvents(events);
+```
+

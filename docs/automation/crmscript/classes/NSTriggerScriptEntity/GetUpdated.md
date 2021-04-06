@@ -11,3 +11,9 @@ Last updated when
 **Returns:** DateTime
 
 
+```crmscript
+NSTriggerScriptEntity thing;
+DateTime updated  = thing.GetUpdated();
+```
+
+

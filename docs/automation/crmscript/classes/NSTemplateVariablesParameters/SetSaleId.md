@@ -11,3 +11,9 @@ Identifier for a sale
 **Parameter:** 
  - **saleId** Integer
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
+

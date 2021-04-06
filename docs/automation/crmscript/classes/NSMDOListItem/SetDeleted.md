@@ -11,3 +11,9 @@ The deleted status of the ListItem
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSMDOListItem thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

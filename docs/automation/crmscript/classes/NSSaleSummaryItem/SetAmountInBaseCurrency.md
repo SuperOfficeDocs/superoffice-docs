@@ -11,3 +11,9 @@ Sale amount converted to the base currency.
 **Parameter:** 
  - **amountInBaseCurrency** Float
 
+```crmscript
+NSSaleSummaryItem thing;
+Float amountInBaseCurrency;
+thing.SetAmountInBaseCurrency(amountInBaseCurrency);
+```
+

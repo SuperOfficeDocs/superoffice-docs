@@ -11,3 +11,9 @@ Is Sign On functionality enabled
 **Parameter:** 
  - **signOn** Bool
 
+```crmscript
+NSProjectEventEntity thing;
+Bool signOn;
+thing.SetSignOn(signOn);
+```
+

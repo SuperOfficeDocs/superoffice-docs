@@ -11,3 +11,9 @@ Optional contact reference
 **Parameter:** 
  - **contactId** Integer
 
+```crmscript
+NSSale thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
+

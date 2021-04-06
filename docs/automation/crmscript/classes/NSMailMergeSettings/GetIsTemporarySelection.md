@@ -11,3 +11,9 @@ If true, the selection is a temporary selection that can be deleted later.
 **Returns:** Bool
 
 
+```crmscript
+NSMailMergeSettings thing;
+Bool isTemporarySelection  = thing.GetIsTemporarySelection();
+```
+
+

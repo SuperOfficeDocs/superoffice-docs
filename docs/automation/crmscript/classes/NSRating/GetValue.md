@@ -10,3 +10,8 @@ Get the name of the Rating.
 
 **Returns:** String Rating name.
 
+```crmscript
+NSRating thing;
+String name = thing.GetValue();
+```
+

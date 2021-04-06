@@ -11,3 +11,9 @@ Expiration date for maintenance. After this date, upgrades should refuse to inst
 **Returns:** DateTime
 
 
+```crmscript
+NSLicenseInfo thing;
+DateTime maintenanceDate  = thing.GetMaintenanceDate();
+```
+
+

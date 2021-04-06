@@ -11,3 +11,9 @@ Arbitrary description string
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSVersionInfo thing;
+String description;
+thing.SetDescription(description);
+```
+

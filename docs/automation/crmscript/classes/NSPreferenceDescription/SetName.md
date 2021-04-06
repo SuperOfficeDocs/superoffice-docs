@@ -11,3 +11,9 @@ Multi-language name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSPreferenceDescription thing;
+String name;
+thing.SetName(name);
+```
+

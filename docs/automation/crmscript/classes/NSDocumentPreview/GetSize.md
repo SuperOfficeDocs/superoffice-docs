@@ -11,3 +11,9 @@ Size of the stream
 **Returns:** Integer
 
 
+```crmscript
+NSDocumentPreview thing;
+Integer size  = thing.GetSize();
+```
+
+

@@ -16,3 +16,9 @@ Status if this appointment is in the process of being assigned to someone else
      - Enum: 12 = Seen 
      - Enum: 13 = Declined 
 
+```crmscript
+NSAppointment thing;
+Integer assignmentStatus;
+thing.SetAssignmentStatus(assignmentStatus);
+```
+

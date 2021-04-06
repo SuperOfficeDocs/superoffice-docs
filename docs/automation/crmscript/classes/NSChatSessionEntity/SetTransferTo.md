@@ -11,3 +11,9 @@ User agent that has a pending transfer of the chat session
 **Parameter:** 
  - **transferTo** Associate
 
+```crmscript
+NSChatSessionEntity thing;
+Associate transferTo;
+thing.SetTransferTo(transferTo);
+```
+

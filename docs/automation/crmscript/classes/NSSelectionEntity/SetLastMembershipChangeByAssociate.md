@@ -11,3 +11,9 @@ Associate that last changed the selection membership (static members, dynamic cr
 **Parameter:** 
  - **lastMembershipChangeByAssociate** Associate
 
+```crmscript
+NSSelectionEntity thing;
+Associate lastMembershipChangeByAssociate;
+thing.SetLastMembershipChangeByAssociate(lastMembershipChangeByAssociate);
+```
+

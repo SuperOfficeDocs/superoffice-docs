@@ -11,3 +11,9 @@ When was the e-mail sent
 **Returns:** DateTime
 
 
+```crmscript
+NSEMailEntity thing;
+DateTime sent  = thing.GetSent();
+```
+
+

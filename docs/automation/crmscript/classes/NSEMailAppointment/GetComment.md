@@ -11,3 +11,9 @@ Comment attached to the calendar event (accept / reject reason etc.)
 **Returns:** String
 
 
+```crmscript
+NSEMailAppointment thing;
+String comment  = thing.GetComment();
+```
+
+

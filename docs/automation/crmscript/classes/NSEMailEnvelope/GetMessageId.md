@@ -11,3 +11,9 @@ Unique id of e-mails
 **Returns:** String
 
 
+```crmscript
+NSEMailEnvelope thing;
+String messageId  = thing.GetMessageId();
+```
+
+

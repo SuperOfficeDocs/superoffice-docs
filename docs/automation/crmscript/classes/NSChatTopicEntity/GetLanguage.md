@@ -11,3 +11,9 @@ Customer language used in this topic. Optional.
 **Returns:** CustomerLanguage
 
 
+```crmscript
+NSChatTopicEntity thing;
+CustomerLanguage language  = thing.GetLanguage();
+```
+
+

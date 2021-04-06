@@ -11,3 +11,9 @@ The Id of the Audience layout
 **Parameter:** 
  - **audienceLayoutId** Integer
 
+```crmscript
+NSAudienceLayoutEntity thing;
+Integer audienceLayoutId;
+thing.SetAudienceLayoutId(audienceLayoutId);
+```
+

@@ -11,3 +11,8 @@ Set the name of the RelationToOwner item.
 **Parameter:** 
  - **value** String RelationToOwner name.
 
+```crmscript
+NSRelationToOwner thing;
+thing.SetValue("frotz");
+```
+

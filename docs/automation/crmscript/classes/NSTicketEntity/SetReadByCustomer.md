@@ -11,3 +11,9 @@ The datetime for when the ticket was read by the customer.
 **Parameter:** 
  - **readByCustomer** DateTime
 
+```crmscript
+NSTicketEntity thing;
+DateTime readByCustomer;
+thing.SetReadByCustomer(readByCustomer);
+```
+

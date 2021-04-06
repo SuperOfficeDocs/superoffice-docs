@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **aggregateBin** Integer
 
+```crmscript
+NSWebAppUsage thing;
+Integer aggregateBin;
+thing.SetAggregateBin(aggregateBin);
+```
+

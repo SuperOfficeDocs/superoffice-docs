@@ -11,3 +11,9 @@ The tooltip for the typical search (multilingual)
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSTypicalSearch thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

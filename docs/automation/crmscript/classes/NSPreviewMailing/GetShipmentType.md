@@ -11,3 +11,9 @@ The list item
 **Returns:** String
 
 
+```crmscript
+NSPreviewMailing thing;
+String shipmentType  = thing.GetShipmentType();
+```
+
+

@@ -11,3 +11,9 @@ If not 0, sign off should cause an Activity of this type to be registered
 **Returns:** Integer
 
 
+```crmscript
+NSProjectEventEntity thing;
+Integer signOffTaskId  = thing.GetSignOffTaskId();
+```
+
+

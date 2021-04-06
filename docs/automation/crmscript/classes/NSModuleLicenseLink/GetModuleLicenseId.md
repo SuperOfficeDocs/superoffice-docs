@@ -11,3 +11,9 @@ The identifier of the module license
 **Returns:** Integer
 
 
+```crmscript
+NSModuleLicenseLink thing;
+Integer moduleLicenseId  = thing.GetModuleLicenseId();
+```
+
+

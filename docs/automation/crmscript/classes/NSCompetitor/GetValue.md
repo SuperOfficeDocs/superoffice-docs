@@ -10,3 +10,8 @@ Get the name of the Competitor.
 
 **Returns:** String Competitor name.
 
+```crmscript
+NSCompetitor thing;
+String name = thing.GetValue();
+```
+

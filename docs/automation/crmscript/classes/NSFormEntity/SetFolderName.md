@@ -11,3 +11,9 @@ The name of the folder for this form
 **Parameter:** 
  - **folderName** String
 
+```crmscript
+NSFormEntity thing;
+String folderName;
+thing.SetFolderName(folderName);
+```
+

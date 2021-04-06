@@ -11,3 +11,9 @@ The SuperOffice listItem
 **Returns:** MDOListItem
 
 
+```crmscript
+NSErpConnectionListMapping thing;
+MDOListItem crmList  = thing.GetCrmList();
+```
+
+

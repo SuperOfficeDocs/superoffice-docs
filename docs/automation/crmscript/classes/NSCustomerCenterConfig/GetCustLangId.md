@@ -11,3 +11,9 @@ The customer language which this config belongs to. 0 indicates that the config 
 **Returns:** Integer
 
 
+```crmscript
+NSCustomerCenterConfig thing;
+Integer custLangId  = thing.GetCustLangId();
+```
+
+

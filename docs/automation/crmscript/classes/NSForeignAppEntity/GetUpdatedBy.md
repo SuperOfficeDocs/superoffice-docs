@@ -11,3 +11,9 @@ The person that last updated this foreign application.
 **Returns:** Associate
 
 
+```crmscript
+NSForeignAppEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
+
+

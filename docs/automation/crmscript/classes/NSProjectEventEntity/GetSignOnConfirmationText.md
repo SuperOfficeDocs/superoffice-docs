@@ -11,3 +11,9 @@ Text shown as confirmation text before accepting sign on.
 **Returns:** String
 
 
+```crmscript
+NSProjectEventEntity thing;
+String signOnConfirmationText  = thing.GetSignOnConfirmationText();
+```
+
+

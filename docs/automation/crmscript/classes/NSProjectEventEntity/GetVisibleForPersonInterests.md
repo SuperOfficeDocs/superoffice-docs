@@ -11,3 +11,9 @@ Array of person interests (MDO table "persint") that this event is visible for.
 **Returns:** MDOListItemArray
 
 
+```crmscript
+NSProjectEventEntity thing;
+MDOListItemArray visibleForPersonInterests  = thing.GetVisibleForPersonInterests();
+```
+
+

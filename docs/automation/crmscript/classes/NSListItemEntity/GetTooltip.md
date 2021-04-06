@@ -11,3 +11,9 @@ The tooltip of the list item
 **Returns:** String
 
 
+```crmscript
+NSListItemEntity thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

@@ -11,3 +11,9 @@ Short welcome message when user initiates a chat
 **Returns:** String
 
 
+```crmscript
+NSChatWidgetSettings thing;
+String welcomeTitle  = thing.GetWelcomeTitle();
+```
+
+

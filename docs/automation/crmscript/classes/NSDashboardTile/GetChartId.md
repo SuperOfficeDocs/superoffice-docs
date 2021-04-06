@@ -11,3 +11,9 @@ The original chart Id
 **Returns:** String
 
 
+```crmscript
+NSDashboardTile thing;
+String chartId  = thing.GetChartId();
+```
+
+

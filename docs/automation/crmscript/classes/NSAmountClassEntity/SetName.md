@@ -11,3 +11,9 @@ The list item
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSAmountClassEntity thing;
+String name;
+thing.SetName(name);
+```
+

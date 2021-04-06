@@ -11,3 +11,9 @@ Is the report published?
 **Returns:** Bool
 
 
+```crmscript
+NSReportEntity thing;
+Bool published  = thing.GetPublished();
+```
+
+

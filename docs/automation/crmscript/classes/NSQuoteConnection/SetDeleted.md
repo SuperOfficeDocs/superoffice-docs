@@ -11,3 +11,9 @@ If set, then this is a row that has been 'deleted'; we do not physically delete 
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSQuoteConnection thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

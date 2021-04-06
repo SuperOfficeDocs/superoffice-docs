@@ -20,3 +20,9 @@ ID of owning table (contact, person, project) - this is not the actual tableNumb
      - Enum: 13 = Document 
      - Enum: 14 = None 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer type  = thing.GetType();
+```
+
+

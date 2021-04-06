@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSWindowPosSize thing;
+Integer windowPosSizeId  = thing.GetWindowPosSizeId();
+```
+
+

@@ -16,3 +16,9 @@ The type of notification this is
      - Enum: 3 = YesNoQuestion 
      - Enum: 4 = ShowWebPage 
 
+```crmscript
+NSPocketNotificationMessage thing;
+Integer type  = thing.GetType();
+```
+
+

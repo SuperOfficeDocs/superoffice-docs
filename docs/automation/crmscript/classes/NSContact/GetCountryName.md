@@ -11,3 +11,9 @@ Name of country in installed language
 **Returns:** String
 
 
+```crmscript
+NSContact thing;
+String countryName  = thing.GetCountryName();
+```
+
+

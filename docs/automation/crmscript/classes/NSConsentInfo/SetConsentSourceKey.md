@@ -11,3 +11,9 @@ Key of the ConsentSource associated with this consent
 **Parameter:** 
  - **consentSourceKey** String
 
+```crmscript
+NSConsentInfo thing;
+String consentSourceKey;
+thing.SetConsentSourceKey(consentSourceKey);
+```
+

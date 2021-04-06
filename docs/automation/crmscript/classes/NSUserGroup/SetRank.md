@@ -11,3 +11,9 @@ Rank order
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSUserGroup thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

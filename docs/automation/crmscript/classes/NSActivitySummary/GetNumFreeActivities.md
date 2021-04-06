@@ -11,3 +11,9 @@ Number of activites of the type 'free'. Sales and documents are not activites in
 **Returns:** Integer
 
 
+```crmscript
+NSActivitySummary thing;
+Integer numFreeActivities  = thing.GetNumFreeActivities();
+```
+
+

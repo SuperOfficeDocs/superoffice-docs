@@ -11,3 +11,9 @@ Default text for the activity created when signing on.
 **Returns:** String
 
 
+```crmscript
+NSProjectEvent thing;
+String signOnText  = thing.GetSignOnText();
+```
+
+

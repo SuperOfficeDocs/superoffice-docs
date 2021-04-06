@@ -11,3 +11,9 @@ Item name, visible in Guide
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+String name;
+thing.SetName(name);
+```
+

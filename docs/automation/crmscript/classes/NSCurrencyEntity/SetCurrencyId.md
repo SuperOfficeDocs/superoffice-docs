@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **currencyId** Integer
 
+```crmscript
+NSCurrencyEntity thing;
+Integer currencyId;
+thing.SetCurrencyId(currencyId);
+```
+

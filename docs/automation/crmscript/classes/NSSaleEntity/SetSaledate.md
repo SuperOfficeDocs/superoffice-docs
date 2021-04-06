@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **saledate** DateTime
 
+```crmscript
+NSSaleEntity thing;
+DateTime saledate;
+thing.SetSaledate(saledate);
+```
+

@@ -11,3 +11,9 @@ True if the template is in use in a project or sales guide
 **Returns:** Bool
 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Bool isInUseInGuides  = thing.GetIsInUseInGuides();
+```
+
+

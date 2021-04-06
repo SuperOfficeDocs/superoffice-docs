@@ -11,3 +11,9 @@ Set the tooltip description for the Reason list item.
 **Parameter:** 
  - **tooltip** String Reason tooltip description.
 
+```crmscript
+NSReason thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

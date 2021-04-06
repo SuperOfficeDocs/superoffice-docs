@@ -15,3 +15,9 @@ The Sale completed state. The completed state is either Started or Completed. No
      - Enum: 2 = Started 
      - Enum: 3 = Completed 
 
+```crmscript
+NSSaleEntity thing;
+Integer completed;
+thing.SetCompleted(completed);
+```
+

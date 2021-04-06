@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSStatusMonitor thing;
+Integer statusMonitorId  = thing.GetStatusMonitorId();
+```
+
+

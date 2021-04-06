@@ -20,3 +20,9 @@ Domain seperating the different hierarchy
      - Enum: 7 = ExternalDocumentRelatedToSpmMessage 
      - Enum: 8 = Dashboards 
 
+```crmscript
+NSHierarchyEntity thing;
+Integer domain  = thing.GetDomain();
+```
+
+

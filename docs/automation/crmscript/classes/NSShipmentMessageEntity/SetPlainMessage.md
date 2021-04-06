@@ -11,3 +11,9 @@ Plain message text of this message
 **Parameter:** 
  - **plainMessage** String
 
+```crmscript
+NSShipmentMessageEntity thing;
+String plainMessage;
+thing.SetPlainMessage(plainMessage);
+```
+

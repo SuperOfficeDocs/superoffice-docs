@@ -11,3 +11,9 @@ The person that matches the request.
 **Returns:** Person
 
 
+```crmscript
+NSSalesActivity thing;
+Person requestedPerson  = thing.GetRequestedPerson();
+```
+
+

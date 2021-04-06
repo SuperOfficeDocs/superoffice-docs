@@ -11,3 +11,9 @@ True if the participant has been sent an email or should be sent an email
 **Returns:** Bool
 
 
+```crmscript
+NSParticipantInfo thing;
+Bool sendEmail  = thing.GetSendEmail();
+```
+
+

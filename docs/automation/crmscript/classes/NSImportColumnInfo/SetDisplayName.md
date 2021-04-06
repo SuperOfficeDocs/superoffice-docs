@@ -11,3 +11,9 @@ Display name of the column
 **Parameter:** 
  - **displayName** String
 
+```crmscript
+NSImportColumnInfo thing;
+String displayName;
+thing.SetDisplayName(displayName);
+```
+

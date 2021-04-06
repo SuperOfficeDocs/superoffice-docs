@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer documentTemplateId  = thing.GetDocumentTemplateId();
+```
+
+

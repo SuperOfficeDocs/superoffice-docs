@@ -11,3 +11,9 @@ The persons contact country id
 **Parameter:** 
  - **contactCountryId** Integer
 
+```crmscript
+NSPerson thing;
+Integer contactCountryId;
+thing.SetContactCountryId(contactCountryId);
+```
+

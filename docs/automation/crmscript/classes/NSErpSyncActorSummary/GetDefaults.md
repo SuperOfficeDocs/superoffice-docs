@@ -11,3 +11,9 @@ A summary of fields that have defaults/rules for link creation
 **Returns:** String
 
 
+```crmscript
+NSErpSyncActorSummary thing;
+String defaults  = thing.GetDefaults();
+```
+
+

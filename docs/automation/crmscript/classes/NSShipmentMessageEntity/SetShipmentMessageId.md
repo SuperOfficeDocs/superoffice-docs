@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **shipmentMessageId** Integer
 
+```crmscript
+NSShipmentMessageEntity thing;
+Integer shipmentMessageId;
+thing.SetShipmentMessageId(shipmentMessageId);
+```
+

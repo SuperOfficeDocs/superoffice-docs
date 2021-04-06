@@ -11,3 +11,9 @@ Expected sales date
 **Returns:** DateTime
 
 
+```crmscript
+NSSaleSummaryItem thing;
+DateTime saleDate  = thing.GetSaleDate();
+```
+
+

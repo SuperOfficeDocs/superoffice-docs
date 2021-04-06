@@ -10,3 +10,8 @@ Return the usergroups and/or users the DashboardTile item is visible for.
 
 **Returns:** Visible for array.
 
+```crmscript
+NSDashboardTile thing;
+VisibleFor[] visibleFor = thing.GetVisibleFor();
+```
+

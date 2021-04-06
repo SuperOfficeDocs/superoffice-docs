@@ -11,3 +11,9 @@ The projects description
 **Returns:** String
 
 
+```crmscript
+NSProject thing;
+String description  = thing.GetDescription();
+```
+
+

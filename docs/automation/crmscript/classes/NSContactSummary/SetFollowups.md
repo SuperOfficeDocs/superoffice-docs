@@ -11,3 +11,9 @@ Recent follow-ups on contact
 **Parameter:** 
  - **followups** ActivitySummaryItemArray
 
+```crmscript
+NSContactSummary thing;
+ActivitySummaryItemArray followups;
+thing.SetFollowups(followups);
+```
+

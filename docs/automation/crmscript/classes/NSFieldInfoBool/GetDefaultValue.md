@@ -11,3 +11,9 @@ Default boolean value
 **Returns:** Bool
 
 
+```crmscript
+NSFieldInfoBool thing;
+Bool defaultValue  = thing.GetDefaultValue();
+```
+
+

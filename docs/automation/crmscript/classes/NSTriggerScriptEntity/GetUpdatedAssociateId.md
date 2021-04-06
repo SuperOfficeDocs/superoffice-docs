@@ -11,3 +11,9 @@ Last updated by whom
 **Returns:** Integer
 
 
+```crmscript
+NSTriggerScriptEntity thing;
+Integer updatedAssociateId  = thing.GetUpdatedAssociateId();
+```
+
+

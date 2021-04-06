@@ -11,3 +11,9 @@ Values kept between event handlers
 **Returns:** StringDictionary
 
 
+```crmscript
+NSEventData thing;
+StringDictionary stateValues  = thing.GetStateValues();
+```
+
+

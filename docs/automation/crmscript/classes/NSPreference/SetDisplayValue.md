@@ -11,3 +11,9 @@ Display value, populated when asked for. Suitable for binding display-datasource
 **Parameter:** 
  - **displayValue** String
 
+```crmscript
+NSPreference thing;
+String displayValue;
+thing.SetDisplayValue(displayValue);
+```
+

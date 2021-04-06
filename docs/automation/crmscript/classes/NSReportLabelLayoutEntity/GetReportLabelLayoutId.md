@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer reportLabelLayoutId  = thing.GetReportLabelLayoutId();
+```
+
+

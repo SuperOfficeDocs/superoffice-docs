@@ -11,3 +11,9 @@ The appointment recurrence.
 **Returns:** RecurrenceInfo
 
 
+```crmscript
+NSAppointmentEntity thing;
+RecurrenceInfo recurrence  = thing.GetRecurrence();
+```
+
+

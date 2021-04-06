@@ -11,3 +11,9 @@ The list item
 **Returns:** String
 
 
+```crmscript
+NSSaleTypeEntity thing;
+String name  = thing.GetName();
+```
+
+

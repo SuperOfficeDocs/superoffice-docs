@@ -17,3 +17,9 @@ The &apos;classic&apos; ticket status. I.e. active/closed/postponed/deleted
      - Enum: 4 = Deleted 
      - Enum: 5 = Merged 
 
+```crmscript
+NSTicketStatusEntity thing;
+TicketBaseStatus status;
+thing.SetStatus(status);
+```
+

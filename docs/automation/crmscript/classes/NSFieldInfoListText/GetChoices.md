@@ -11,3 +11,9 @@ List of items to choose from.
 **Returns:** StringArray
 
 
+```crmscript
+NSFieldInfoListText thing;
+StringArray choices  = thing.GetChoices();
+```
+
+

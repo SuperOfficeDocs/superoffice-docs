@@ -11,3 +11,9 @@ Returns a collection of fax numbers that belong to the contact person.
 **Returns:** StringArray
 
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray phoneFax  = thing.GetPhoneFax();
+```
+
+

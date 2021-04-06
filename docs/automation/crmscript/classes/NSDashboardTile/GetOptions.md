@@ -11,3 +11,9 @@ The tile options
 **Returns:** DashboardTileOptionArray
 
 
+```crmscript
+NSDashboardTile thing;
+DashboardTileOptionArray options  = thing.GetOptions();
+```
+
+

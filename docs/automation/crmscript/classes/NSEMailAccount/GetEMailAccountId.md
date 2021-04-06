@@ -11,3 +11,9 @@ The account primary key
 **Returns:** Integer
 
 
+```crmscript
+NSEMailAccount thing;
+Integer eMailAccountId  = thing.GetEMailAccountId();
+```
+
+

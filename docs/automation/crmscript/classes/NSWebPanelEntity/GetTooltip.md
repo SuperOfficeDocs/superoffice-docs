@@ -11,3 +11,9 @@ The tooltip of the web panel
 **Returns:** String
 
 
+```crmscript
+NSWebPanelEntity thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

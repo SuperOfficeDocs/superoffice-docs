@@ -11,3 +11,9 @@ Format of content
 **Parameter:** 
  - **format** String
 
+```crmscript
+NSOutgoingMessage thing;
+String format;
+thing.SetFormat(format);
+```
+

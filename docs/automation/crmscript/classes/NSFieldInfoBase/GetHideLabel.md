@@ -11,3 +11,9 @@ Hide the label if 1
 **Returns:** Bool
 
 
+```crmscript
+NSFieldInfoBase thing;
+Bool hideLabel  = thing.GetHideLabel();
+```
+
+

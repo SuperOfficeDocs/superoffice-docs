@@ -11,3 +11,9 @@ Resource ID
 **Returns:** Integer
 
 
+```crmscript
+NSLocalizedText thing;
+Integer resourceId  = thing.GetResourceId();
+```
+
+

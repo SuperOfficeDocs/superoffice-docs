@@ -11,3 +11,9 @@ The list item
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSTaskListItem thing;
+String value;
+thing.SetValue(value);
+```
+

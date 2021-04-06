@@ -11,3 +11,9 @@ Comment text on the project membership
 **Parameter:** 
  - **comment** String
 
+```crmscript
+NSProjectMember thing;
+String comment;
+thing.SetComment(comment);
+```
+

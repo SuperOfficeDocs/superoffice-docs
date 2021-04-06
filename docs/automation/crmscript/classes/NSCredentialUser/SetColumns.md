@@ -11,3 +11,9 @@ Columns, matching CredentialUsers.Headings
 **Parameter:** 
  - **columns** StringArray
 
+```crmscript
+NSCredentialUser thing;
+StringArray columns;
+thing.SetColumns(columns);
+```
+

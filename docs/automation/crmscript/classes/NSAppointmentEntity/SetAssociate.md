@@ -11,3 +11,9 @@ The owner of the appointment - the associate whose diary/checklist the appointme
 **Parameter:** 
  - **associate** Associate
 
+```crmscript
+NSAppointmentEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
+

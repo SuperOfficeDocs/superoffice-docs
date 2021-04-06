@@ -11,3 +11,9 @@ Id of the associate who owns this tile
 **Returns:** Integer
 
 
+```crmscript
+NSDashboardTile thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

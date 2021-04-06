@@ -11,3 +11,9 @@ Configuration settings provided by the SMS provider. Typically contains newline-
 **Returns:** StringDictionary
 
 
+```crmscript
+NSSmsConfig thing;
+StringDictionary nsPluginConfig  = thing.GetNsPluginConfig();
+```
+
+

@@ -11,3 +11,9 @@ Estimated or actual sent time (depends on status)
 **Returns:** DateTime
 
 
+```crmscript
+NSPreviewMailing thing;
+DateTime sendingTime  = thing.GetSendingTime();
+```
+
+

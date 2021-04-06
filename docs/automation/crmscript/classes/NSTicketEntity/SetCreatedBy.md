@@ -11,3 +11,9 @@ The associate who created this ticket
 **Parameter:** 
  - **createdBy** Associate
 
+```crmscript
+NSTicketEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

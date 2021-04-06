@@ -11,3 +11,9 @@ The Person birth date as Date
 **Returns:** DateTime
 
 
+```crmscript
+NSPersonEntity thing;
+DateTime birthDate  = thing.GetBirthDate();
+```
+
+

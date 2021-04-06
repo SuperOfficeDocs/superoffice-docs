@@ -11,3 +11,9 @@ Title
 **Returns:** String
 
 
+```crmscript
+NSParticipantSyncData thing;
+String personTitle  = thing.GetPersonTitle();
+```
+
+

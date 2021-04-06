@@ -11,3 +11,9 @@ Is hidden from UI
 **Parameter:** 
  - **isHidden** Bool
 
+```crmscript
+NSModuleLicenseLink thing;
+Bool isHidden;
+thing.SetIsHidden(isHidden);
+```
+

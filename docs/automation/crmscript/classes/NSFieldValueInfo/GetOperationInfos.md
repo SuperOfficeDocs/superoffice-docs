@@ -11,3 +11,9 @@ Array of the available operations for this field
 **Returns:** OperationInfoArray
 
 
+```crmscript
+NSFieldValueInfo thing;
+OperationInfoArray operationInfos  = thing.GetOperationInfos();
+```
+
+

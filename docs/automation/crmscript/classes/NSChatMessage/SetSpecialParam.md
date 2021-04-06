@@ -11,3 +11,9 @@ Special parameter for the special_type.
 **Parameter:** 
  - **specialParam** String
 
+```crmscript
+NSChatMessage thing;
+String specialParam;
+thing.SetSpecialParam(specialParam);
+```
+

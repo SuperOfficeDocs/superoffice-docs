@@ -11,3 +11,9 @@ Either a List id to an id from a connector provided list, or, if the connection 
 **Parameter:** 
  - **eRPPaymentTermsKey** String
 
+```crmscript
+NSQuoteVersion thing;
+String eRPPaymentTermsKey;
+thing.SetERPPaymentTermsKey(eRPPaymentTermsKey);
+```
+

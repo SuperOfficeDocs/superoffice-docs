@@ -11,3 +11,9 @@ Returns a collection of fax numbers that belong to the contact person.
 **Parameter:** 
  - **faxes** EntityElementArray
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray faxes;
+thing.SetFaxes(faxes);
+```
+

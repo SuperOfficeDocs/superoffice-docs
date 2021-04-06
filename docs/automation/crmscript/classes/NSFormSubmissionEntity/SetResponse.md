@@ -11,3 +11,9 @@ The JSON-formatted response from this form
 **Parameter:** 
  - **response** String
 
+```crmscript
+NSFormSubmissionEntity thing;
+String response;
+thing.SetResponse(response);
+```
+

@@ -11,3 +11,9 @@ Department
 **Returns:** String
 
 
+```crmscript
+NSParticipantSyncData thing;
+String contactDepartment  = thing.GetContactDepartment();
+```
+
+

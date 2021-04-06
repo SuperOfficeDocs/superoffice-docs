@@ -11,3 +11,9 @@ Dateof the event; publishing/visibility dates are in Publish, and restrictions a
 **Parameter:** 
  - **eventDate** DateTime
 
+```crmscript
+NSProjectEventEntity thing;
+DateTime eventDate;
+thing.SetEventDate(eventDate);
+```
+

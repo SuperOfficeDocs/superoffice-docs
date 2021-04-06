@@ -11,3 +11,9 @@ The Id of the ListItem
 **Parameter:** 
  - **id** Integer
 
+```crmscript
+NSSelectableMDOListItem thing;
+Integer id;
+thing.SetId(id);
+```
+

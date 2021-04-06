@@ -11,3 +11,9 @@ Id of associate who has currently checked out the document; 0 if it is not check
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSCheckoutInfo thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

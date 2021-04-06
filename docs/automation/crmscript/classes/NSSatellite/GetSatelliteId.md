@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSatellite thing;
+Integer satelliteId  = thing.GetSatelliteId();
+```
+
+

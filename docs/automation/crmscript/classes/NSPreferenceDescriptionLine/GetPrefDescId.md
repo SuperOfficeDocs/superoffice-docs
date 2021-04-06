@@ -11,3 +11,9 @@ Preference description (parent)
 **Returns:** Integer
 
 
+```crmscript
+NSPreferenceDescriptionLine thing;
+Integer prefDescId  = thing.GetPrefDescId();
+```
+
+

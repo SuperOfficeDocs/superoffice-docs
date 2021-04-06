@@ -10,3 +10,8 @@ Get the primary key (id) for the ProductFamily
 
 **Returns:** Integer ProductFamily id.
 
+```crmscript
+NSProductFamily thing;
+Integer id = thing.GetId();
+```
+

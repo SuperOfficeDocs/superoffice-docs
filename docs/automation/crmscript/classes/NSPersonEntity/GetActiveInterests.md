@@ -11,3 +11,9 @@ The number of active interests.
 **Returns:** Integer
 
 
+```crmscript
+NSPersonEntity thing;
+Integer activeInterests  = thing.GetActiveInterests();
+```
+
+

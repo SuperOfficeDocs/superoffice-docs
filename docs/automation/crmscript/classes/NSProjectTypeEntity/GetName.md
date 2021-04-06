@@ -11,3 +11,9 @@ The list item
 **Returns:** String
 
 
+```crmscript
+NSProjectTypeEntity thing;
+String name  = thing.GetName();
+```
+
+

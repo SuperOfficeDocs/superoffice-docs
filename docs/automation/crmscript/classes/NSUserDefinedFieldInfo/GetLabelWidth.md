@@ -11,3 +11,9 @@ label width in pixels, 0 = 'enough' (from font)
 **Returns:** Integer
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer labelWidth  = thing.GetLabelWidth();
+```
+
+

@@ -11,3 +11,9 @@ Person's business - usually blank. Use Contact.Business instead. Intended for us
 **Returns:** Business
 
 
+```crmscript
+NSPersonEntity thing;
+Business business  = thing.GetBusiness();
+```
+
+

@@ -10,3 +10,9 @@ Get the tooltip description for the Priority list item.
 
 **Returns:** String Priority tooltip description.
 
+```crmscript
+NSPriority thing;
+String descr = thing.GetTooltip();
+```
+
+

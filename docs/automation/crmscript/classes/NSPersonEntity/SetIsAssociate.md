@@ -11,3 +11,9 @@ Checks if the person object is an associate. The property is read-only.
 **Parameter:** 
  - **isAssociate** Bool
 
+```crmscript
+NSPersonEntity thing;
+Bool isAssociate;
+thing.SetIsAssociate(isAssociate);
+```
+

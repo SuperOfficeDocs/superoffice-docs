@@ -11,3 +11,9 @@ Kana last name, used in Japanese versions only
 **Parameter:** 
  - **kanalname** String
 
+```crmscript
+NSPerson thing;
+String kanalname;
+thing.SetKanalname(kanalname);
+```
+

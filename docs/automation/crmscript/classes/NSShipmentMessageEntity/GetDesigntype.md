@@ -14,3 +14,9 @@ Enum containing the type of the design
      - Enum: 1 = SOEditor 
      - Enum: 2 = Unlayer 
 
+```crmscript
+NSShipmentMessageEntity thing;
+DesignType designtype  = thing.GetDesigntype();
+```
+
+

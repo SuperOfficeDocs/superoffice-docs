@@ -11,3 +11,9 @@ The date and time the Audience layout was last updated
 **Parameter:** 
  - **updatedDate** DateTime
 
+```crmscript
+NSAudienceLayoutEntity thing;
+DateTime updatedDate;
+thing.SetUpdatedDate(updatedDate);
+```
+

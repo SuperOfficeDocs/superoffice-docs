@@ -11,3 +11,9 @@ Tooltip or other description
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSUser thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

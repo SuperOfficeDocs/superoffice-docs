@@ -11,3 +11,9 @@ Person id of the participant if the participant is a person
 **Returns:** Integer
 
 
+```crmscript
+NSParticipantInfo thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

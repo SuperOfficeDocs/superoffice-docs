@@ -11,3 +11,9 @@ ID of project referred to, may be 0
 **Parameter:** 
  - **projectId** Integer
 
+```crmscript
+NSAppointment thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
+

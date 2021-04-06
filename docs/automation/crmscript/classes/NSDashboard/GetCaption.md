@@ -11,3 +11,9 @@ The caption for this dashboard
 **Returns:** String
 
 
+```crmscript
+NSDashboard thing;
+String caption  = thing.GetCaption();
+```
+
+

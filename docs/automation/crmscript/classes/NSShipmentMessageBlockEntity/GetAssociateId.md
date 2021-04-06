@@ -11,3 +11,9 @@ The associate that owns this block
 **Returns:** Integer
 
 
+```crmscript
+NSShipmentMessageBlockEntity thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

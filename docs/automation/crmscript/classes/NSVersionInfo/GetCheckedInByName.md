@@ -11,3 +11,9 @@ Name (nicely formatted) of the user/person who performed the checkin
 **Returns:** String
 
 
+```crmscript
+NSVersionInfo thing;
+String checkedInByName  = thing.GetCheckedInByName();
+```
+
+

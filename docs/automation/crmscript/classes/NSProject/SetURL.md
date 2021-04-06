@@ -11,3 +11,9 @@ URL address
 **Parameter:** 
  - **uRL** String
 
+```crmscript
+NSProject thing;
+String uRL;
+thing.SetURL(uRL);
+```
+

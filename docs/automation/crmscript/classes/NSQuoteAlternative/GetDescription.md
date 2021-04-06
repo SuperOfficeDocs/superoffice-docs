@@ -11,3 +11,9 @@ The tool-tip to use in the user interface (on the tab, for instance).
 **Returns:** String
 
 
+```crmscript
+NSQuoteAlternative thing;
+String description  = thing.GetDescription();
+```
+
+

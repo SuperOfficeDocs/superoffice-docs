@@ -11,3 +11,9 @@ Set the tooltip description for the Source list item.
 **Parameter:** 
  - **tooltip** String Source tooltip description.
 
+```crmscript
+NSSource thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

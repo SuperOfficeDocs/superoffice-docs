@@ -11,3 +11,9 @@ Registered date
 **Parameter:** 
  - **registered** DateTime
 
+```crmscript
+NSSaleSummaryItem thing;
+DateTime registered;
+thing.SetRegistered(registered);
+```
+

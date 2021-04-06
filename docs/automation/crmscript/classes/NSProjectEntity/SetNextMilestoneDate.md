@@ -11,3 +11,9 @@ Calculated date, reflects date of closest non-complete future milestone activity
 **Parameter:** 
  - **nextMilestoneDate** DateTime
 
+```crmscript
+NSProjectEntity thing;
+DateTime nextMilestoneDate;
+thing.SetNextMilestoneDate(nextMilestoneDate);
+```
+

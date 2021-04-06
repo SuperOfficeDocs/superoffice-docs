@@ -11,3 +11,9 @@ Name of the person that created the foreign key
 **Parameter:** 
  - **createdBy** String
 
+```crmscript
+NSForeignKey thing;
+String createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

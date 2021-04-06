@@ -11,3 +11,9 @@ Product key
 **Returns:** String
 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+String productKey  = thing.GetProductKey();
+```
+
+

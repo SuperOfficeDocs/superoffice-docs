@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSAddressSyncData thing;
+String address3  = thing.GetAddress3();
+```
+
+

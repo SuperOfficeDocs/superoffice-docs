@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSHeadingEntity thing;
+Integer headingId  = thing.GetHeadingId();
+```
+
+

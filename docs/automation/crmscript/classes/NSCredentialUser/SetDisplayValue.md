@@ -11,3 +11,9 @@ Display value of the user.  This value needs to be applied to the Credential.Dis
 **Parameter:** 
  - **displayValue** String
 
+```crmscript
+NSCredentialUser thing;
+String displayValue;
+thing.SetDisplayValue(displayValue);
+```
+

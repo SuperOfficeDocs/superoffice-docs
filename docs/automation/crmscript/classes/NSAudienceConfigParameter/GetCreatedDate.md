@@ -11,3 +11,9 @@ The date and time the configuration parameter was created
 **Returns:** DateTime
 
 
+```crmscript
+NSAudienceConfigParameter thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
+
+

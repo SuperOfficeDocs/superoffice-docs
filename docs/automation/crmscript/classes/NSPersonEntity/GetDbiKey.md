@@ -11,3 +11,9 @@ The primary key for the integrated entry in the external datasource.
 **Returns:** String
 
 
+```crmscript
+NSPersonEntity thing;
+String dbiKey  = thing.GetDbiKey();
+```
+
+

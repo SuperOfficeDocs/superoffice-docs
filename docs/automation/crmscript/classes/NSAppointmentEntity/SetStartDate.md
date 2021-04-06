@@ -11,3 +11,9 @@ date + start time planned
 **Parameter:** 
  - **startDate** DateTime
 
+```crmscript
+NSAppointmentEntity thing;
+DateTime startDate;
+thing.SetStartDate(startDate);
+```
+

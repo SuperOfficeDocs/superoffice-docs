@@ -11,3 +11,9 @@ Link to saleTypeStageLink, the anchor for sale guide items. Either this OR proje
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer saleTypeStageLinkId  = thing.GetSaleTypeStageLinkId();
+```
+
+

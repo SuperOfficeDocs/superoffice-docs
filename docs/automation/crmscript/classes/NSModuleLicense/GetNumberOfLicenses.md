@@ -11,3 +11,9 @@ Number of licenses purchased.
 **Returns:** Integer
 
 
+```crmscript
+NSModuleLicense thing;
+Integer numberOfLicenses  = thing.GetNumberOfLicenses();
+```
+
+

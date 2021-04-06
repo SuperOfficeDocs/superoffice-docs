@@ -11,3 +11,9 @@ When opening hours stop on Fridays. Only time-part is used.
 **Parameter:** 
  - **friStop** TimeSpan
 
+```crmscript
+NSChatOpeningHours thing;
+TimeSpan friStop;
+thing.SetFriStop(friStop);
+```
+

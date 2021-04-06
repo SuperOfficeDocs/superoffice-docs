@@ -11,3 +11,9 @@ Array of individual field mappings; explicitly map to empty CrmFieldKey to indic
 **Returns:** ErpSyncFieldMappingArray
 
 
+```crmscript
+NSErpSyncActorTypeMapping thing;
+ErpSyncFieldMappingArray fieldMappings  = thing.GetFieldMappings();
+```
+
+

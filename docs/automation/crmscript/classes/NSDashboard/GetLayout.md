@@ -18,3 +18,9 @@ The dashboard layout, how the tiles are organized on the screen
      - Enum: 5 = ThreeTSplit 
      - Enum: 7 = Four 
 
+```crmscript
+NSDashboard thing;
+Integer layout  = thing.GetLayout();
+```
+
+

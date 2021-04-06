@@ -11,3 +11,9 @@ A newer invitation exists
 **Returns:** Bool
 
 
+```crmscript
+NSEMailAppointment thing;
+Bool superseded  = thing.GetSuperseded();
+```
+
+

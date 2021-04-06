@@ -11,3 +11,9 @@ UDefFieldId this field had in the previous version, 0 = field is new in this ver
 **Returns:** Integer
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer lastVersionId  = thing.GetLastVersionId();
+```
+
+

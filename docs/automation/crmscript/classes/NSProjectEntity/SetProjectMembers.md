@@ -11,3 +11,9 @@ The persons which are members of the project
 **Parameter:** 
  - **projectMembers** ProjectMemberArray
 
+```crmscript
+NSProjectEntity thing;
+ProjectMemberArray projectMembers;
+thing.SetProjectMembers(projectMembers);
+```
+

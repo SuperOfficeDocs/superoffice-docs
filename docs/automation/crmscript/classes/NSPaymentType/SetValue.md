@@ -11,3 +11,8 @@ Set the name of the PaymentType item.
 **Parameter:** 
  - **value** String PaymentType name.
 
+```crmscript
+NSPaymentType thing;
+thing.SetValue("frotz");
+```
+

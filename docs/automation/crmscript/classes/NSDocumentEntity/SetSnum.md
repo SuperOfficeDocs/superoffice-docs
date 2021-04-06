@@ -11,3 +11,9 @@ The sequence number allocated from refcount on used template when creating the d
 **Parameter:** 
  - **snum** Integer
 
+```crmscript
+NSDocumentEntity thing;
+Integer snum;
+thing.SetSnum(snum);
+```
+

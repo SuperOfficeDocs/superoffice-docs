@@ -11,3 +11,9 @@ Tooltip or other description
 **Returns:** String
 
 
+```crmscript
+NSAssociate thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

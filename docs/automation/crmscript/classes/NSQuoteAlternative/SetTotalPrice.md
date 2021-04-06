@@ -11,3 +11,9 @@ Sum of the QuoteLines.TotalPrice - AlternativeDiscount or QuoteLines.TotalCost +
 **Parameter:** 
  - **totalPrice** Float
 
+```crmscript
+NSQuoteAlternative thing;
+Float totalPrice;
+thing.SetTotalPrice(totalPrice);
+```
+

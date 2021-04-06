@@ -11,3 +11,8 @@ Set the name of the Department item.
 **Parameter:** 
  - **value** String Department name.
 
+```crmscript
+NSDepartment thing;
+thing.SetValue("frotz");
+```
+

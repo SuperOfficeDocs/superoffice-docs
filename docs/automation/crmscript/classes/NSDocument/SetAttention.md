@@ -11,3 +11,9 @@ Attention/salutation
 **Parameter:** 
  - **attention** String
 
+```crmscript
+NSDocument thing;
+String attention;
+thing.SetAttention(attention);
+```
+

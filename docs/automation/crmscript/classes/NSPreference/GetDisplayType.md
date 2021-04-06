@@ -27,3 +27,9 @@ Display type, populated when asked for.
      - Enum: 14 = Password 
      - Enum: 15 = MultiLineText 
 
+```crmscript
+NSPreference thing;
+Integer displayType  = thing.GetDisplayType();
+```
+
+

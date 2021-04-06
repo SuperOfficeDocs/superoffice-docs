@@ -11,3 +11,9 @@ Parent sale
 **Returns:** Integer
 
 
+```crmscript
+NSSaleStakeholder thing;
+Integer saleId  = thing.GetSaleId();
+```
+
+

@@ -11,3 +11,9 @@ This a simple field for adding information that the Connector can provide, and t
 **Returns:** String
 
 
+```crmscript
+NSQuoteLine thing;
+String extraField4  = thing.GetExtraField4();
+```
+
+

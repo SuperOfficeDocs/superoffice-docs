@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **projectId** Integer
 
+```crmscript
+NSEMailSOInfo thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
+

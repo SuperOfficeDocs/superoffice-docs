@@ -11,3 +11,9 @@ If 1, the SignOn task should be created as an Assigned task, triggering the invi
 **Parameter:** 
  - **signOnTriggersAssign** Bool
 
+```crmscript
+NSProjectEventEntity thing;
+Bool signOnTriggersAssign;
+thing.SetSignOnTriggersAssign(signOnTriggersAssign);
+```
+

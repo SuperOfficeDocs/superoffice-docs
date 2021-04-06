@@ -11,3 +11,9 @@ Project name
 **Returns:** String
 
 
+```crmscript
+NSAlarmData thing;
+String projectName  = thing.GetProjectName();
+```
+
+

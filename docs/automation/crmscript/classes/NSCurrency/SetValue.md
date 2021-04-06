@@ -11,3 +11,8 @@ Set the name of the Currency item.
 **Parameter:** 
  - **value** String Currency name.
 
+```crmscript
+NSCurrency thing;
+thing.SetValue("frotz");
+```
+

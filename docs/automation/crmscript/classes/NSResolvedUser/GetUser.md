@@ -11,3 +11,9 @@ The resolved User instance.
 **Returns:** User
 
 
+```crmscript
+NSResolvedUser thing;
+User user  = thing.GetUser();
+```
+
+

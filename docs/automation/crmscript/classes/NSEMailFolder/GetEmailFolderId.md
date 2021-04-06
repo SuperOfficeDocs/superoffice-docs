@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSEMailFolder thing;
+Integer emailFolderId  = thing.GetEmailFolderId();
+```
+
+

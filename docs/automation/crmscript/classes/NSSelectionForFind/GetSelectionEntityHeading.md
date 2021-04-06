@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSSelectionForFind thing;
+String selectionEntityHeading  = thing.GetSelectionEntityHeading();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** StringArray
 
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray phoneDirect  = thing.GetPhoneDirect();
+```
+
+

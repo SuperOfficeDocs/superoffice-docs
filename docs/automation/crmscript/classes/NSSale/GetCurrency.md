@@ -11,3 +11,9 @@ Currency the sale was made in.
 **Returns:** String
 
 
+```crmscript
+NSSale thing;
+String currency  = thing.GetCurrency();
+```
+
+

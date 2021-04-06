@@ -16,3 +16,9 @@ so.topic: reference
      - Enum: 3 = Group 
      - Enum: 4 = User 
 
+```crmscript
+NSSystemEventEntity thing;
+Integer scope;
+thing.SetScope(scope);
+```
+

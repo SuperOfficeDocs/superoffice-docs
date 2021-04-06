@@ -11,3 +11,9 @@ An array of Import lines
 **Parameter:** 
  - **importLines** ImportLineArray
 
+```crmscript
+NSImportErpData thing;
+ImportLineArray importLines;
+thing.SetImportLines(importLines);
+```
+

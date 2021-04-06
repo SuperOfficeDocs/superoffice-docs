@@ -11,3 +11,9 @@ Source string to parse for template variables. Such variables must have delimite
 **Returns:** String
 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+String sourceInput  = thing.GetSourceInput();
+```
+
+

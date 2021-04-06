@@ -11,3 +11,9 @@ Document data
 **Parameter:** 
  - **stream** Stream
 
+```crmscript
+NSDocumentPreview thing;
+Stream stream;
+thing.SetStream(stream);
+```
+

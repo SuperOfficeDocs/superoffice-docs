@@ -11,3 +11,9 @@ Name of header
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSEMailCustomHeader thing;
+String name;
+thing.SetName(name);
+```
+

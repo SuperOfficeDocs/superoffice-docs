@@ -11,3 +11,9 @@ The name of this category.
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSKbCategory thing;
+String name;
+thing.SetName(name);
+```
+

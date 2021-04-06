@@ -11,3 +11,9 @@ Filter out duplicate members based on company?
 **Returns:** Bool
 
 
+```crmscript
+NSSelectionEntity thing;
+Bool companyUnique  = thing.GetCompanyUnique();
+```
+
+

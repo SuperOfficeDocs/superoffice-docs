@@ -11,3 +11,9 @@ Code associated with location
 **Returns:** String
 
 
+```crmscript
+NSTimeZoneData thing;
+String tZLocationCode  = thing.GetTZLocationCode();
+```
+
+

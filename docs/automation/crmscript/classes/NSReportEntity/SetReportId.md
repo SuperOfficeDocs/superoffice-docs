@@ -11,3 +11,9 @@ The id of the report.
 **Parameter:** 
  - **reportId** Integer
 
+```crmscript
+NSReportEntity thing;
+Integer reportId;
+thing.SetReportId(reportId);
+```
+

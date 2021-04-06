@@ -11,3 +11,9 @@ Rank order
 **Returns:** Integer
 
 
+```crmscript
+NSUser thing;
+Integer rank  = thing.GetRank();
+```
+
+

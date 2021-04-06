@@ -11,3 +11,9 @@ Does the webpanel have a toolbar
 **Parameter:** 
  - **showInToolBar** Bool
 
+```crmscript
+NSWebPanelEntity thing;
+Bool showInToolBar;
+thing.SetShowInToolBar(showInToolBar);
+```
+

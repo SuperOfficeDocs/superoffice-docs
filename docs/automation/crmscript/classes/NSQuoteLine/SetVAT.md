@@ -11,3 +11,9 @@ Tax/VAT - THIS IS A PERCENTAGE. The connector is responsible for populating this
 **Parameter:** 
  - **vAT** Float
 
+```crmscript
+NSQuoteLine thing;
+Float vAT;
+thing.SetVAT(vAT);
+```
+

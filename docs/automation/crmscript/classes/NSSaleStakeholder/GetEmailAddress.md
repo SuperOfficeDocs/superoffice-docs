@@ -11,3 +11,9 @@ E-mail address
 **Returns:** String
 
 
+```crmscript
+NSSaleStakeholder thing;
+String emailAddress  = thing.GetEmailAddress();
+```
+
+

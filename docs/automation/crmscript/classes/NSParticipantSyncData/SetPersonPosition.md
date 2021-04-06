@@ -11,3 +11,9 @@ The position. This is a predefined SuperOffice value, different from Title
 **Parameter:** 
  - **personPosition** String
 
+```crmscript
+NSParticipantSyncData thing;
+String personPosition;
+thing.SetPersonPosition(personPosition);
+```
+

@@ -16,3 +16,9 @@ The actor type (CRM side)
      - Enum: 3 = Project 
      - Enum: 4 = Sale 
 
+```crmscript
+NSErpSyncActorTypeMapping thing;
+CrmActorType actorTypeCrm  = thing.GetActorTypeCrm();
+```
+
+

@@ -11,3 +11,9 @@ The name of the module license
 **Returns:** String
 
 
+```crmscript
+NSModuleLicenseLink thing;
+String name  = thing.GetName();
+```
+
+

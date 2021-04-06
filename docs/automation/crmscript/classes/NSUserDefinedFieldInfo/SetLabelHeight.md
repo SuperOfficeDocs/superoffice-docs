@@ -11,3 +11,9 @@ label height in pixels, 0 = 'enough' (from font)
 **Parameter:** 
  - **labelHeight** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer labelHeight;
+thing.SetLabelHeight(labelHeight);
+```
+

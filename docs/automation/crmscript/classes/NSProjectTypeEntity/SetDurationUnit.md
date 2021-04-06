@@ -24,3 +24,9 @@ Units for the duration
      - Enum: 11 = Century 
      - Enum: 12 = Millenium 
 
+```crmscript
+NSProjectTypeEntity thing;
+DurationUnit durationUnit;
+thing.SetDurationUnit(durationUnit);
+```
+

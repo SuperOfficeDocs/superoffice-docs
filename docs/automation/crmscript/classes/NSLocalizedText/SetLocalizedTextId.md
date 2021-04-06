@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **localizedTextId** Integer
 
+```crmscript
+NSLocalizedText thing;
+Integer localizedTextId;
+thing.SetLocalizedTextId(localizedTextId);
+```
+

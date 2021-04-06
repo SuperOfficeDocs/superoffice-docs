@@ -11,3 +11,9 @@ The tooltip hint is either a text to be shown (after resource tag substitution),
 **Parameter:** 
  - **tooltipHint** String
 
+```crmscript
+NSArchiveColumnData thing;
+String tooltipHint;
+thing.SetTooltipHint(tooltipHint);
+```
+

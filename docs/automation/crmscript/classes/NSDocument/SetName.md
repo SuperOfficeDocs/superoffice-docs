@@ -11,3 +11,9 @@ File name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSDocument thing;
+String name;
+thing.SetName(name);
+```
+

@@ -11,3 +11,9 @@ Automatically generated number
 **Returns:** String
 
 
+```crmscript
+NSProjectEntity thing;
+String projectNumber  = thing.GetProjectNumber();
+```
+
+

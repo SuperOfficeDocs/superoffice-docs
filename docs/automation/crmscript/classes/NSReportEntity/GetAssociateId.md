@@ -11,3 +11,9 @@ The owner of the report.
 **Returns:** Integer
 
 
+```crmscript
+NSReportEntity thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

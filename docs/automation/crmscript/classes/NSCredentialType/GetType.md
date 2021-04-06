@@ -11,3 +11,9 @@ Type of credentials, corresponding to name of plugin and type in the credentials
 **Returns:** String
 
 
+```crmscript
+NSCredentialType thing;
+String type  = thing.GetType();
+```
+
+

@@ -11,3 +11,9 @@ Does the webpanel have a status bar
 **Parameter:** 
  - **showInStatusBar** Bool
 
+```crmscript
+NSWebPanelEntity thing;
+Bool showInStatusBar;
+thing.SetShowInStatusBar(showInStatusBar);
+```
+

@@ -11,3 +11,9 @@ The discount for the line, in whatever currency the sale is in. Both ‘Discount
 **Parameter:** 
  - **discountAmount** Float
 
+```crmscript
+NSQuoteLine thing;
+Float discountAmount;
+thing.SetDiscountAmount(discountAmount);
+```
+

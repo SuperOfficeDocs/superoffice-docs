@@ -11,3 +11,9 @@ The person that last updated the projectevent
 **Parameter:** 
  - **updatedBy** Associate
 
+```crmscript
+NSProjectEventEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
+

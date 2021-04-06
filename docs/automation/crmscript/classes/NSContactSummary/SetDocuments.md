@@ -11,3 +11,9 @@ Recent documents on contact
 **Parameter:** 
  - **documents** ActivitySummaryItemArray
 
+```crmscript
+NSContactSummary thing;
+ActivitySummaryItemArray documents;
+thing.SetDocuments(documents);
+```
+

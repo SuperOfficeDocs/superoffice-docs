@@ -11,3 +11,9 @@ Contact name
 **Returns:** String
 
 
+```crmscript
+NSTicketMessage thing;
+String contactName  = thing.GetContactName();
+```
+
+

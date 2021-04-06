@@ -11,3 +11,9 @@ Who the message is from.  This can vary from provider to provider and can for SM
 **Parameter:** 
  - **from** String
 
+```crmscript
+NSIncomingMessage thing;
+String from;
+thing.SetFrom(from);
+```
+

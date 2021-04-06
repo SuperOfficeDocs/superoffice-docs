@@ -11,3 +11,9 @@ A longer description for the product. Is stored here if the user changes the val
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSQuoteLine thing;
+String description;
+thing.SetDescription(description);
+```
+

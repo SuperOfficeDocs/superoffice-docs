@@ -11,3 +11,9 @@ Negative numbers will be interpreted as how many is ordered. Might not be availa
 **Returns:** Float
 
 
+```crmscript
+NSProduct thing;
+Float inStock  = thing.GetInStock();
+```
+
+

@@ -11,3 +11,9 @@ The name of the list item
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSListItemEntity thing;
+String name;
+thing.SetName(name);
+```
+

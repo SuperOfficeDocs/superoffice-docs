@@ -11,3 +11,9 @@ First email on contact person.
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String email  = thing.GetEmail();
+```
+
+

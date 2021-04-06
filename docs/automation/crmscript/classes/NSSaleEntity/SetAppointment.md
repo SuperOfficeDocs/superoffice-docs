@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **appointment** Appointment
 
+```crmscript
+NSSaleEntity thing;
+Appointment appointment;
+thing.SetAppointment(appointment);
+```
+

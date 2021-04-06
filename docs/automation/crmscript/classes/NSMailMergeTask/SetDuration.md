@@ -11,3 +11,9 @@ Duration of task
 **Parameter:** 
  - **duration** Integer
 
+```crmscript
+NSMailMergeTask thing;
+Integer duration;
+thing.SetDuration(duration);
+```
+

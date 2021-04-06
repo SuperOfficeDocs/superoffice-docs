@@ -11,3 +11,9 @@ The name of the customers company, if provided
 **Parameter:** 
  - **customerCompanyName** String
 
+```crmscript
+NSChatSessionEntity thing;
+String customerCompanyName;
+thing.SetCustomerCompanyName(customerCompanyName);
+```
+

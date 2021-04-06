@@ -11,3 +11,9 @@ Project identity to set on task
 **Returns:** Integer
 
 
+```crmscript
+NSMailMergeTask thing;
+Integer projectId  = thing.GetProjectId();
+```
+
+

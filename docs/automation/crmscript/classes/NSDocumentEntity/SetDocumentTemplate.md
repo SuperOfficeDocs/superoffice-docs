@@ -11,3 +11,9 @@ The template type of the document.
 **Parameter:** 
  - **documentTemplate** DocumentTemplate
 
+```crmscript
+NSDocumentEntity thing;
+DocumentTemplate documentTemplate;
+thing.SetDocumentTemplate(documentTemplate);
+```
+

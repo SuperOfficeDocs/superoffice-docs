@@ -11,3 +11,9 @@ The time of the last sync
 **Returns:** DateTime
 
 
+```crmscript
+NSErpSyncConnectionSummary thing;
+DateTime lastSync  = thing.GetLastSync();
+```
+
+

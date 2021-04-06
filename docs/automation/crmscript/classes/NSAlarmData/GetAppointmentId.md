@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSAlarmData thing;
+Integer appointmentId  = thing.GetAppointmentId();
+```
+
+

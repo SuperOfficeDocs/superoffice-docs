@@ -11,3 +11,9 @@ When the entry was last modified.
 **Parameter:** 
  - **dbiLastModified** DateTime
 
+```crmscript
+NSContactEntity thing;
+DateTime dbiLastModified;
+thing.SetDbiLastModified(dbiLastModified);
+```
+

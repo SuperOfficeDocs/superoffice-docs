@@ -11,3 +11,9 @@ Reason/Error message. Readonly field
 **Returns:** String
 
 
+```crmscript
+NSEMailAccount thing;
+String errorReason  = thing.GetErrorReason();
+```
+
+

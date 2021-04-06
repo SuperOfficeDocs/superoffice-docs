@@ -11,3 +11,9 @@ Recent tickets on contact
 **Parameter:** 
  - **tickets** TicketSummaryItemArray
 
+```crmscript
+NSContactSummary thing;
+TicketSummaryItemArray tickets;
+thing.SetTickets(tickets);
+```
+

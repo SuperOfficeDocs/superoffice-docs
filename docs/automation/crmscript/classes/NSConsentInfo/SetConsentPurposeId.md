@@ -11,3 +11,9 @@ Primary key for the ConsentPurpose associated with this consent
 **Parameter:** 
  - **consentPurposeId** Integer
 
+```crmscript
+NSConsentInfo thing;
+Integer consentPurposeId;
+thing.SetConsentPurposeId(consentPurposeId);
+```
+

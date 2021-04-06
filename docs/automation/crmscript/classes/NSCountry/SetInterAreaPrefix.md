@@ -11,3 +11,9 @@ International prefix
 **Parameter:** 
  - **interAreaPrefix** String
 
+```crmscript
+NSCountry thing;
+String interAreaPrefix;
+thing.SetInterAreaPrefix(interAreaPrefix);
+```
+

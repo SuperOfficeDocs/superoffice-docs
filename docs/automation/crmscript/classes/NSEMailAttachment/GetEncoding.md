@@ -11,3 +11,9 @@ Content-Transfer-Encoding
 **Returns:** String
 
 
+```crmscript
+NSEMailAttachment thing;
+String encoding  = thing.GetEncoding();
+```
+
+

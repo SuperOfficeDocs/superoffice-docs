@@ -11,3 +11,9 @@ Person ID of person the appointment is with, may be 0
 **Parameter:** 
  - **personId** Integer
 
+```crmscript
+NSParticipantSyncData thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
+

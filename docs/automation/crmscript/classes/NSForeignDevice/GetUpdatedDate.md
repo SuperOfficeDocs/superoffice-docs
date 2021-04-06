@@ -11,3 +11,9 @@ Last updated when
 **Returns:** DateTime
 
 
+```crmscript
+NSForeignDevice thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
+
+

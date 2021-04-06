@@ -11,3 +11,9 @@ A field for a long description of this template
 **Returns:** String
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+String longDescription  = thing.GetLongDescription();
+```
+
+

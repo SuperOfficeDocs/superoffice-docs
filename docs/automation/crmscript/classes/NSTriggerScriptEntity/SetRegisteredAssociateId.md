@@ -11,3 +11,9 @@ Registered by whom
 **Parameter:** 
  - **registeredAssociateId** Integer
 
+```crmscript
+NSTriggerScriptEntity thing;
+Integer registeredAssociateId;
+thing.SetRegisteredAssociateId(registeredAssociateId);
+```
+

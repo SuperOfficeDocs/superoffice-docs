@@ -11,3 +11,9 @@ Human-readable description of module, shown in GUI, default language. Additional
 **Parameter:** 
  - **moduleDescription** String
 
+```crmscript
+NSModuleLicense thing;
+String moduleDescription;
+thing.SetModuleDescription(moduleDescription);
+```
+

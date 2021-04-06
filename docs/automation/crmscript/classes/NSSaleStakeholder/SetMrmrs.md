@@ -11,3 +11,9 @@ e.g. Mrs, Mr, Ms, Dr.
 **Parameter:** 
  - **mrmrs** String
 
+```crmscript
+NSSaleStakeholder thing;
+String mrmrs;
+thing.SetMrmrs(mrmrs);
+```
+

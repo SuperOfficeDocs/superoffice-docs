@@ -11,3 +11,9 @@ What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五
 **Parameter:** 
  - **priceUnit** String
 
+```crmscript
+NSProduct thing;
+String priceUnit;
+thing.SetPriceUnit(priceUnit);
+```
+

@@ -11,3 +11,9 @@ Set the tooltip description for the Business list item.
 **Parameter:** 
  - **tooltip** String Business tooltip description.
 
+```crmscript
+NSBusiness thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

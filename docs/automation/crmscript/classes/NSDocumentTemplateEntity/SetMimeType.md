@@ -11,3 +11,9 @@ The mime type
 **Parameter:** 
  - **mimeType** String
 
+```crmscript
+NSDocumentTemplateEntity thing;
+String mimeType;
+thing.SetMimeType(mimeType);
+```
+

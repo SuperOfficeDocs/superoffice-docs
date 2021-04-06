@@ -11,3 +11,9 @@ True if the person's address should be used as mailing address, instead of the c
 **Returns:** Bool
 
 
+```crmscript
+NSPersonEntity thing;
+Bool usePersonAddress  = thing.GetUsePersonAddress();
+```
+
+

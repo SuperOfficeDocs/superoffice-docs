@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** TicketPriority
 
 
+```crmscript
+NSPersonEntity thing;
+TicketPriority ticketPriority  = thing.GetTicketPriority();
+```
+
+

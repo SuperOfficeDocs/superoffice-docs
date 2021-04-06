@@ -11,3 +11,9 @@ Password for the username
 **Parameter:** 
  - **password** String
 
+```crmscript
+NSEMailConnectionInfo thing;
+String password;
+thing.SetPassword(password);
+```
+

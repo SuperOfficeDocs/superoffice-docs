@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **customerLanguage** CustomerLanguage
 
+```crmscript
+NSPersonEntity thing;
+CustomerLanguage customerLanguage;
+thing.SetCustomerLanguage(customerLanguage);
+```
+

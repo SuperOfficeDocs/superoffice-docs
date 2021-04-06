@@ -11,3 +11,9 @@ The suggested text of the new appointment
 **Parameter:** 
  - **text** String
 
+```crmscript
+NSSuggestedAppointment thing;
+String text;
+thing.SetText(text);
+```
+

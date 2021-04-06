@@ -11,3 +11,9 @@ Is the consent purpose active or not
 **Returns:** Integer
 
 
+```crmscript
+NSConsentPurpose thing;
+Integer active  = thing.GetActive();
+```
+
+

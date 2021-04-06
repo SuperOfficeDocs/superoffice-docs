@@ -11,3 +11,9 @@ The url
 **Parameter:** 
  - **url** String
 
+```crmscript
+NSWebPanelEntity thing;
+String url;
+thing.SetUrl(url);
+```
+

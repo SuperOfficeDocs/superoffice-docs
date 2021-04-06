@@ -11,3 +11,9 @@ True if the ListItem is selected
 **Returns:** Bool
 
 
+```crmscript
+NSSelectableMDOListItem thing;
+Bool selected  = thing.GetSelected();
+```
+
+

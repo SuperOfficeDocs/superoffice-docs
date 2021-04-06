@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Associate
 
 
+```crmscript
+NSContactRelationEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
+
+

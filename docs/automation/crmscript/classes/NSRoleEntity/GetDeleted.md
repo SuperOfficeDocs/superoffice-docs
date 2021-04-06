@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSRoleEntity thing;
+Integer deleted  = thing.GetDeleted();
+```
+
+

@@ -11,3 +11,8 @@ Set the primary key (id) for the Source
 **Parameter:** 
  - **id** Integer Source id.
 
+```crmscript
+NSSource thing;
+thing.SetId(123);
+```
+

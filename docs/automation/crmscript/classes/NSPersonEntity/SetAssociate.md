@@ -11,3 +11,9 @@ The associate owning this person (similar to contact.Associate) - usually blank.
 **Parameter:** 
  - **associate** Associate
 
+```crmscript
+NSPersonEntity thing;
+Associate associate;
+thing.SetAssociate(associate);
+```
+

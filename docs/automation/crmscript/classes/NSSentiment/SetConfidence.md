@@ -11,3 +11,9 @@ Sentiment analysis confidence, where available. 0 = no idea, 100 = perfectly con
 **Parameter:** 
  - **confidence** Integer
 
+```crmscript
+NSSentiment thing;
+Integer confidence;
+thing.SetConfidence(confidence);
+```
+

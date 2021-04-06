@@ -11,3 +11,9 @@ Indicates if this is a MDO list
 **Parameter:** 
  - **isMDOList** Bool
 
+```crmscript
+NSListEntity thing;
+Bool isMDOList;
+thing.SetIsMDOList(isMDOList);
+```
+

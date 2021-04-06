@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isAllDay** Bool
 
+```crmscript
+NSAppointmentSyncData thing;
+Bool isAllDay;
+thing.SetIsAllDay(isAllDay);
+```
+

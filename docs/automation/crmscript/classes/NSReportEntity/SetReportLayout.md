@@ -20,3 +20,9 @@ The layout of the report.
      - Enum: 7 = CalendarMonth 
      - Enum: 8 = Text 
 
+```crmscript
+NSReportEntity thing;
+Integer reportLayout;
+thing.SetReportLayout(reportLayout);
+```
+

@@ -11,3 +11,9 @@ If there was a problem, this field contains a localized explanation of the probl
 **Returns:** String
 
 
+```crmscript
+NSQuoteVersion thing;
+String reason  = thing.GetReason();
+```
+
+

@@ -11,3 +11,9 @@ The iconhint of the field
 **Returns:** String
 
 
+```crmscript
+NSFieldValueInfo thing;
+String iconHint  = thing.GetIconHint();
+```
+
+

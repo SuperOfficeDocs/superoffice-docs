@@ -11,3 +11,9 @@ The sale's type id
 **Returns:** Integer
 
 
+```crmscript
+NSSale thing;
+Integer saleTypeId  = thing.GetSaleTypeId();
+```
+
+

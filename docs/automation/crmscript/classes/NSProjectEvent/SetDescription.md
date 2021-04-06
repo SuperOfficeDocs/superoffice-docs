@@ -11,3 +11,9 @@ The event description (i.e. the project text)
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSProjectEvent thing;
+String description;
+thing.SetDescription(description);
+```
+

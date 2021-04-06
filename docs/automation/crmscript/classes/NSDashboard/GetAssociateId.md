@@ -11,3 +11,9 @@ Id of the associate who owns this dashboard
 **Returns:** Integer
 
 
+```crmscript
+NSDashboard thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

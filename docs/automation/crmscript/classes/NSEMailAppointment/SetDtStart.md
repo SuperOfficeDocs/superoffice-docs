@@ -11,3 +11,9 @@ Start date/time in ICS file.
 **Parameter:** 
  - **dtStart** DateTime
 
+```crmscript
+NSEMailAppointment thing;
+DateTime dtStart;
+thing.SetDtStart(dtStart);
+```
+

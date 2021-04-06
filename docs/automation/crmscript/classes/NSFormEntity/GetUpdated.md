@@ -11,3 +11,9 @@ Last updated when
 **Returns:** DateTime
 
 
+```crmscript
+NSFormEntity thing;
+DateTime updated  = thing.GetUpdated();
+```
+
+

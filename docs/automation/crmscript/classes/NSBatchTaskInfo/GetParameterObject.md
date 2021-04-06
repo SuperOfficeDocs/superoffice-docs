@@ -11,3 +11,9 @@ ParameterObject will be serialized to a binary blob and saved in the BinaryObjec
 **Returns:** StringDictionary
 
 
+```crmscript
+NSBatchTaskInfo thing;
+StringDictionary parameterObject  = thing.GetParameterObject();
+```
+
+

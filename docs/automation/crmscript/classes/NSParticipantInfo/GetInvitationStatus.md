@@ -21,3 +21,9 @@ The participant status for the appointment
      - Enum: 9 = Declined 
      - Enum: 10 = Cancelled 
 
+```crmscript
+NSParticipantInfo thing;
+Integer invitationStatus  = thing.GetInvitationStatus();
+```
+
+

@@ -11,3 +11,9 @@ X pixel coordinate of field
 **Returns:** Integer
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldLeft  = thing.GetFieldLeft();
+```
+
+

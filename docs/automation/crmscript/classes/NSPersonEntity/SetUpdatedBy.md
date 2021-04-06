@@ -11,3 +11,9 @@ The person that last updated the person object
 **Parameter:** 
  - **updatedBy** Associate
 
+```crmscript
+NSPersonEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
+

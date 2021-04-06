@@ -11,3 +11,9 @@ Settings for chatbot: trigger script ids to run on bot events
 **Returns:** ChatBotSettings
 
 
+```crmscript
+NSChatTopicEntity thing;
+ChatBotSettings botSettings  = thing.GetBotSettings();
+```
+
+

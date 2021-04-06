@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSLink thing;
+Integer linkId  = thing.GetLinkId();
+```
+
+

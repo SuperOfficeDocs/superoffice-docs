@@ -11,3 +11,9 @@ If true, this day is a holiday in at least one of the countries that has defined
 **Returns:** Bool
 
 
+```crmscript
+NSRedLetterSummary thing;
+Bool isOtherCountryHoliday  = thing.GetIsOtherCountryHoliday();
+```
+
+

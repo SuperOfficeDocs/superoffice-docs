@@ -11,3 +11,9 @@ Who last changed the membership
 **Returns:** Integer
 
 
+```crmscript
+NSSelectionEntity thing;
+Integer lastMembershipChangeBy  = thing.GetLastMembershipChangeBy();
+```
+
+

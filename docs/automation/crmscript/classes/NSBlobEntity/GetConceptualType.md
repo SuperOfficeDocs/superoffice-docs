@@ -11,3 +11,9 @@ The type, for instance PHOTO, PERSONPHOTO, or whatever, that is descriptive of w
 **Returns:** String
 
 
+```crmscript
+NSBlobEntity thing;
+String conceptualType  = thing.GetConceptualType();
+```
+
+

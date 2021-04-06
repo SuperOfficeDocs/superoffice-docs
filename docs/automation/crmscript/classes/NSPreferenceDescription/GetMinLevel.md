@@ -11,3 +11,9 @@ The minimum (furthest away from User) level this preference can be set for
 **Returns:** Integer
 
 
+```crmscript
+NSPreferenceDescription thing;
+Integer minLevel  = thing.GetMinLevel();
+```
+
+

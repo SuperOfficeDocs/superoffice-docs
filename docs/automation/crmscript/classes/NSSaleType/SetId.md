@@ -11,3 +11,8 @@ Set the primary key (id) for the SaleType
 **Parameter:** 
  - **id** Integer SaleType id.
 
+```crmscript
+NSSaleType thing;
+thing.SetId(123);
+```
+

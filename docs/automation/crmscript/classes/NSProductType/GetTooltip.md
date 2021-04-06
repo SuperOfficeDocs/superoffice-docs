@@ -10,3 +10,9 @@ Get the tooltip description for the ProductType list item.
 
 **Returns:** String ProductType tooltip description.
 
+```crmscript
+NSProductType thing;
+String descr = thing.GetTooltip();
+```
+
+

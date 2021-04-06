@@ -11,3 +11,9 @@ Link description.
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSLink thing;
+String description;
+thing.SetDescription(description);
+```
+

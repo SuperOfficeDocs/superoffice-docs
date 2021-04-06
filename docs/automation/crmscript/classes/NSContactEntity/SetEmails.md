@@ -11,3 +11,9 @@ The contact's email
 **Parameter:** 
  - **emails** EntityElementArray
 
+```crmscript
+NSContactEntity thing;
+EntityElementArray emails;
+thing.SetEmails(emails);
+```
+

@@ -11,3 +11,9 @@ Count of unique search words
 **Parameter:** 
  - **countWords** Integer
 
+```crmscript
+NSFreeText thing;
+Integer countWords;
+thing.SetCountWords(countWords);
+```
+

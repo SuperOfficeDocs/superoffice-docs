@@ -11,3 +11,9 @@ The block definition. Normally this will be a json structure
 **Parameter:** 
  - **block** String
 
+```crmscript
+NSShipmentMessageBlockEntity thing;
+String block;
+thing.SetBlock(block);
+```
+

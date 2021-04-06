@@ -11,3 +11,9 @@ The font used in the widget
 **Parameter:** 
  - **font** String
 
+```crmscript
+NSChatWidgetSettings thing;
+String font;
+thing.SetFont(font);
+```
+

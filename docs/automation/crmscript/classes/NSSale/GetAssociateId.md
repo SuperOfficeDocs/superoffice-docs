@@ -11,3 +11,9 @@ The sale's owner id
 **Returns:** Integer
 
 
+```crmscript
+NSSale thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

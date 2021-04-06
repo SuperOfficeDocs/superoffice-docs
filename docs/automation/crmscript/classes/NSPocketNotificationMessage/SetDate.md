@@ -11,3 +11,9 @@ If the message is about some event happening at a specific date and time
 **Parameter:** 
  - **date** DateTime
 
+```crmscript
+NSPocketNotificationMessage thing;
+DateTime date;
+thing.SetDate(date);
+```
+

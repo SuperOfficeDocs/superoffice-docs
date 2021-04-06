@@ -11,3 +11,9 @@ The name of this chat topic
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSChatTopicEntity thing;
+String name;
+thing.SetName(name);
+```
+

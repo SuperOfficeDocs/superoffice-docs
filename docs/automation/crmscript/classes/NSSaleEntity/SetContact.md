@@ -11,3 +11,9 @@ The contact associated with the sale. It may also be 0 if no contact is associat
 **Parameter:** 
  - **contact** Contact
 
+```crmscript
+NSSaleEntity thing;
+Contact contact;
+thing.SetContact(contact);
+```
+

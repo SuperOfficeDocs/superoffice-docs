@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSystemEventEntity thing;
+Integer systemEventId  = thing.GetSystemEventId();
+```
+
+

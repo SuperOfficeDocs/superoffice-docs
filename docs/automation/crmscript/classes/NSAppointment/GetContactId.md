@@ -11,3 +11,9 @@ Contact ID of owning contact, may be 0
 **Returns:** Integer
 
 
+```crmscript
+NSAppointment thing;
+Integer contactId  = thing.GetContactId();
+```
+
+

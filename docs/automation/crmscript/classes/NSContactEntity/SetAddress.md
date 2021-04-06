@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **address** Address
 
+```crmscript
+NSContactEntity thing;
+Address address;
+thing.SetAddress(address);
+```
+

@@ -11,3 +11,9 @@ The person's available and selected shipment types.
 **Parameter:** 
  - **shipmentTypes** SelectableMDOListItemArray
 
+```crmscript
+NSPersonEntity thing;
+SelectableMDOListItemArray shipmentTypes;
+thing.SetShipmentTypes(shipmentTypes);
+```
+

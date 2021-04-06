@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isCompleted** Bool
 
+```crmscript
+NSAppointmentSyncData thing;
+Bool isCompleted;
+thing.SetIsCompleted(isCompleted);
+```
+

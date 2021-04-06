@@ -11,3 +11,9 @@ The identifier associated with the device that will be used when talking with ve
 **Parameter:** 
  - **pNSHandle** String
 
+```crmscript
+NSPocketDeviceInfo thing;
+String pNSHandle;
+thing.SetPNSHandle(pNSHandle);
+```
+

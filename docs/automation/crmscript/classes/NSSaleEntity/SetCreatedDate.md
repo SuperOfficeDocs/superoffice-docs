@@ -11,3 +11,9 @@ Registered date
 **Parameter:** 
  - **createdDate** DateTime
 
+```crmscript
+NSSaleEntity thing;
+DateTime createdDate;
+thing.SetCreatedDate(createdDate);
+```
+

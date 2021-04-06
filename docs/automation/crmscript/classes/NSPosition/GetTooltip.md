@@ -10,3 +10,9 @@ Get the tooltip description for the Position list item.
 
 **Returns:** String Position tooltip description.
 
+```crmscript
+NSPosition thing;
+String descr = thing.GetTooltip();
+```
+
+

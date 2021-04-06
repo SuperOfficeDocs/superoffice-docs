@@ -15,3 +15,9 @@ The role type. Note that changing this field has no effect, so treat this as a r
      - Enum: 2 = Anonymous 
      - Enum: 3 = System 
 
+```crmscript
+NSRoleEntity thing;
+Integer roleType  = thing.GetRoleType();
+```
+
+

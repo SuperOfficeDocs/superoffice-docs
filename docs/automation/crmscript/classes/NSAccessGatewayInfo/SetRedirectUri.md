@@ -11,3 +11,9 @@ This is the registered redirect_uri for AccessGateway OIDC.
 **Parameter:** 
  - **redirectUri** String
 
+```crmscript
+NSAccessGatewayInfo thing;
+String redirectUri;
+thing.SetRedirectUri(redirectUri);
+```
+

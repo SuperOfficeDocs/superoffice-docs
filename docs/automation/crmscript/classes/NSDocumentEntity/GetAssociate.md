@@ -11,3 +11,9 @@ The owner of the document - the associate whose checklist the document is in.
 **Returns:** Associate
 
 
+```crmscript
+NSDocumentEntity thing;
+Associate associate  = thing.GetAssociate();
+```
+
+

@@ -11,3 +11,9 @@ Quote line id
 **Returns:** Integer
 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer quoteLineId  = thing.GetQuoteLineId();
+```
+
+

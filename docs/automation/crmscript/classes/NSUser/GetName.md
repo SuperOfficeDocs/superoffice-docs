@@ -11,3 +11,9 @@ Initials, UserId - also used as login name for on-site installations. Identifies
 **Returns:** String
 
 
+```crmscript
+NSUser thing;
+String name  = thing.GetName();
+```
+
+

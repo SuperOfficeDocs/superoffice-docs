@@ -11,3 +11,8 @@ Set the primary key (id) for the ProjectType
 **Parameter:** 
  - **id** Integer ProjectType id.
 
+```crmscript
+NSProjectType thing;
+thing.SetId(123);
+```
+

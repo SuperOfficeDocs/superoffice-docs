@@ -11,3 +11,9 @@ The name of the supplier. Is stored here if the user changes the value from the 
 **Returns:** String
 
 
+```crmscript
+NSQuoteLine thing;
+String supplier  = thing.GetSupplier();
+```
+
+

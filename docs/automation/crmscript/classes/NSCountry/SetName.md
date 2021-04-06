@@ -11,3 +11,9 @@ Name of country in installed language
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSCountry thing;
+String name;
+thing.SetName(name);
+```
+

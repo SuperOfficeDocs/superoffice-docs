@@ -11,3 +11,9 @@ Session key used for threading.
 **Parameter:** 
  - **sessionKey** String
 
+```crmscript
+NSIncomingMessage thing;
+String sessionKey;
+thing.SetSessionKey(sessionKey);
+```
+

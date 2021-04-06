@@ -11,3 +11,9 @@ How many days into the future the appointment should be scheduled
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer daysFuture  = thing.GetDaysFuture();
+```
+
+

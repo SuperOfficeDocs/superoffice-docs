@@ -11,3 +11,9 @@ Number of attachments in the message
 **Returns:** Integer
 
 
+```crmscript
+NSTicketMessage thing;
+Integer numAttachments  = thing.GetNumAttachments();
+```
+
+

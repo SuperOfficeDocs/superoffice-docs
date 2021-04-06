@@ -11,3 +11,9 @@ When opening hours stop on Wednesday. Only time-part is used.
 **Returns:** TimeSpan
 
 
+```crmscript
+NSChatOpeningHours thing;
+TimeSpan wedStop  = thing.GetWedStop();
+```
+
+

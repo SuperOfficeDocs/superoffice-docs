@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSPhoneListItem thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

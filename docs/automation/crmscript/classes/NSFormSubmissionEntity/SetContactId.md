@@ -11,3 +11,9 @@ The optional id of the contact of the person who submitted.
 **Parameter:** 
  - **contactId** Integer
 
+```crmscript
+NSFormSubmissionEntity thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
+

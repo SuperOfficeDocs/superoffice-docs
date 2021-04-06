@@ -11,3 +11,9 @@ Alarm lead time.
 **Returns:** TimeSpan
 
 
+```crmscript
+NSAppointment thing;
+TimeSpan alarmLeadTime  = thing.GetAlarmLeadTime();
+```
+
+

@@ -11,3 +11,9 @@ The project type.
 **Parameter:** 
  - **type** String
 
+```crmscript
+NSProject thing;
+String type;
+thing.SetType(type);
+```
+

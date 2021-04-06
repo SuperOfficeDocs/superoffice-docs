@@ -11,3 +11,9 @@ A way to set the order of the fields. Lowest value will be displayed first/over 
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSFieldMetadata thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

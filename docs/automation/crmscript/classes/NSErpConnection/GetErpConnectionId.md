@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSErpConnection thing;
+Integer erpConnectionId  = thing.GetErpConnectionId();
+```
+
+

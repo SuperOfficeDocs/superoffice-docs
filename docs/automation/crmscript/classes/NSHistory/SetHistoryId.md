@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **historyId** Integer
 
+```crmscript
+NSHistory thing;
+Integer historyId;
+thing.SetHistoryId(historyId);
+```
+

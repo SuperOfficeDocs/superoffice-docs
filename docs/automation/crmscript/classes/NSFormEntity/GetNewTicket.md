@@ -11,3 +11,9 @@ Indicates if this form creates a ticket or not
 **Returns:** Bool
 
 
+```crmscript
+NSFormEntity thing;
+Bool newTicket  = thing.GetNewTicket();
+```
+
+

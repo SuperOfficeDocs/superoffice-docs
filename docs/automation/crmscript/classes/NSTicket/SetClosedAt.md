@@ -11,3 +11,9 @@ When the ticket was closed.
 **Parameter:** 
  - **closedAt** DateTime
 
+```crmscript
+NSTicket thing;
+DateTime closedAt;
+thing.SetClosedAt(closedAt);
+```
+

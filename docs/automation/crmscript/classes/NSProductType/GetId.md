@@ -10,3 +10,8 @@ Get the primary key (id) for the ProductType
 
 **Returns:** Integer ProductType id.
 
+```crmscript
+NSProductType thing;
+Integer id = thing.GetId();
+```
+

@@ -11,3 +11,9 @@ The owner of the appointment - the associate whose diary/checklist the appointme
 **Parameter:** 
  - **associateFullName** String
 
+```crmscript
+NSAppointment thing;
+String associateFullName;
+thing.SetAssociateFullName(associateFullName);
+```
+

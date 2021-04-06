@@ -11,3 +11,9 @@ Identity of document to be used as merge draft.
 **Parameter:** 
  - **documentId** Integer
 
+```crmscript
+NSMailMergeSettings thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
+

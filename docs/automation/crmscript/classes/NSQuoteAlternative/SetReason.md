@@ -11,3 +11,9 @@ If there was a problem, this field contains a localized explanation of the probl
 **Parameter:** 
  - **reason** String
 
+```crmscript
+NSQuoteAlternative thing;
+String reason;
+thing.SetReason(reason);
+```
+

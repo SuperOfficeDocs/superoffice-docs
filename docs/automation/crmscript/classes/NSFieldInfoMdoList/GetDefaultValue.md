@@ -11,3 +11,9 @@ Default list item id
 **Returns:** Integer
 
 
+```crmscript
+NSFieldInfoMdoList thing;
+Integer defaultValue  = thing.GetDefaultValue();
+```
+
+

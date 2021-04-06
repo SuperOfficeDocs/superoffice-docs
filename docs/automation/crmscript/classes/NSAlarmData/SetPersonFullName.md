@@ -11,3 +11,9 @@ The associate's culture formatted fullname (firstname, middleName and lastname)
 **Parameter:** 
  - **personFullName** String
 
+```crmscript
+NSAlarmData thing;
+String personFullName;
+thing.SetPersonFullName(personFullName);
+```
+

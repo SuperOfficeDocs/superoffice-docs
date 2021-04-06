@@ -11,3 +11,9 @@ Message text to show in post chat form
 **Returns:** String
 
 
+```crmscript
+NSChatWidgetSettings thing;
+String postFormMessage  = thing.GetPostFormMessage();
+```
+
+

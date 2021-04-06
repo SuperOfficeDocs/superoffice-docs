@@ -11,3 +11,9 @@ Extra information (area id for prototype rebuild, etc)
 **Parameter:** 
  - **extraInfo** Integer
 
+```crmscript
+NSSystemEventEntity thing;
+Integer extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
+

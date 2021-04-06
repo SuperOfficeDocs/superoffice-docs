@@ -11,3 +11,9 @@ Maps to the startcount field in the batchtask table.
 **Returns:** Integer
 
 
+```crmscript
+NSBatchTaskInfo thing;
+Integer startCount  = thing.GetStartCount();
+```
+
+

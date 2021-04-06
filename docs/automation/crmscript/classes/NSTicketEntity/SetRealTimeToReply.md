@@ -11,3 +11,9 @@ Same as time_to_reply, but not calculated based on priority.
 **Parameter:** 
  - **realTimeToReply** Integer
 
+```crmscript
+NSTicketEntity thing;
+Integer realTimeToReply;
+thing.SetRealTimeToReply(realTimeToReply);
+```
+

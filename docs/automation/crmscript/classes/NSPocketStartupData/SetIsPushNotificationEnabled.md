@@ -11,3 +11,9 @@ Is push notification configured and enabled in Netserver
 **Parameter:** 
  - **isPushNotificationEnabled** Bool
 
+```crmscript
+NSPocketStartupData thing;
+Bool isPushNotificationEnabled;
+thing.SetIsPushNotificationEnabled(isPushNotificationEnabled);
+```
+

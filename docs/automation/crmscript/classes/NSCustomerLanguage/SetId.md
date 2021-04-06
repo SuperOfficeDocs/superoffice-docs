@@ -11,3 +11,8 @@ Set the primary key (id) for the CustomerLanguage
 **Parameter:** 
  - **id** Integer CustomerLanguage id.
 
+```crmscript
+NSCustomerLanguage thing;
+thing.SetId(123);
+```
+

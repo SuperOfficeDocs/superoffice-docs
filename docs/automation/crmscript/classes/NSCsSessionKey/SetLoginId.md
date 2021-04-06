@@ -11,3 +11,9 @@ The id of the login row
 **Parameter:** 
  - **loginId** Integer
 
+```crmscript
+NSCsSessionKey thing;
+Integer loginId;
+thing.SetLoginId(loginId);
+```
+

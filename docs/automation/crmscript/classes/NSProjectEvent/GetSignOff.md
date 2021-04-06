@@ -11,3 +11,9 @@ If true, it is possible to sign off the event.
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEvent thing;
+Bool signOff  = thing.GetSignOff();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** SelectableMDOListItemArray
 
 
+```crmscript
+NSDiaryViewEntity thing;
+SelectableMDOListItemArray associateList  = thing.GetAssociateList();
+```
+
+

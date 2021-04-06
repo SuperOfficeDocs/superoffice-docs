@@ -11,3 +11,9 @@ The contact's owner
 **Parameter:** 
  - **associateFullName** String
 
+```crmscript
+NSContactActivity thing;
+String associateFullName;
+thing.SetAssociateFullName(associateFullName);
+```
+

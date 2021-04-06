@@ -11,3 +11,9 @@ List of all elements linked to the sale.
 **Parameter:** 
  - **links** LinkArray
 
+```crmscript
+NSSaleEntity thing;
+LinkArray links;
+thing.SetLinks(links);
+```
+

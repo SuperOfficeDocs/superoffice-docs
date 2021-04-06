@@ -11,3 +11,8 @@ Set the name of the Priority item.
 **Parameter:** 
  - **value** String Priority name.
 
+```crmscript
+NSPriority thing;
+thing.SetValue("frotz");
+```
+

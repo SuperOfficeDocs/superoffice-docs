@@ -11,3 +11,9 @@ The earning, in percent. Both ‘EarningAmount and ‘EarningPercent shall be fi
 **Parameter:** 
  - **earningPercent** Float
 
+```crmscript
+NSQuoteLine thing;
+Float earningPercent;
+thing.SetEarningPercent(earningPercent);
+```
+

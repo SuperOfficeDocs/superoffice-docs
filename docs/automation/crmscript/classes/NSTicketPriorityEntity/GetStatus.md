@@ -14,3 +14,9 @@ The status (normal/deleted) of the priority.
      - Enum: 1 = Normal 
      - Enum: 2 = Deleted 
 
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityStatus status  = thing.GetStatus();
+```
+
+

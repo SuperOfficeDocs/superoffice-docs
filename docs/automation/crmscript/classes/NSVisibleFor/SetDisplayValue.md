@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **displayValue** String
 
+```crmscript
+NSVisibleFor thing;
+String displayValue;
+thing.SetDisplayValue(displayValue);
+```
+

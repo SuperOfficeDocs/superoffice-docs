@@ -11,3 +11,9 @@ E-mail address id - Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSaleStakeholder thing;
+Integer emailId  = thing.GetEmailId();
+```
+
+

@@ -11,3 +11,9 @@ The earning, in whatever currency the sale is in. Both ‘EarningAmount and ‘E
 **Returns:** Float
 
 
+```crmscript
+NSQuoteLine thing;
+Float earningAmount  = thing.GetEarningAmount();
+```
+
+

@@ -11,3 +11,9 @@ Whether or not the specified connection is available. Typically, without network
 **Returns:** Bool
 
 
+```crmscript
+NSQuoteConnection thing;
+Bool isAvailable  = thing.GetIsAvailable();
+```
+
+

@@ -11,3 +11,9 @@ Name of the task.
 **Returns:** String
 
 
+```crmscript
+NSBatchTaskInfo thing;
+String name  = thing.GetName();
+```
+
+

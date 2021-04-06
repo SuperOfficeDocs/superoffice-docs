@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isoNumber** Integer
 
+```crmscript
+NSTimeZoneData thing;
+Integer isoNumber;
+thing.SetIsoNumber(isoNumber);
+```
+

@@ -11,3 +11,9 @@ The JSON-formatted config of this form
 **Returns:** String
 
 
+```crmscript
+NSFormEntity thing;
+String config  = thing.GetConfig();
+```
+
+

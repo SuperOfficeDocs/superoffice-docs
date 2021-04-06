@@ -11,3 +11,9 @@ Default Time value
 **Parameter:** 
  - **defaultValue** DateTime
 
+```crmscript
+NSFieldInfoTime thing;
+DateTime defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
+

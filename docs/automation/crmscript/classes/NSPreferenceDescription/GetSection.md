@@ -11,3 +11,9 @@ Preference section name
 **Returns:** String
 
 
+```crmscript
+NSPreferenceDescription thing;
+String section  = thing.GetSection();
+```
+
+

@@ -11,3 +11,9 @@ Actual phone number as eneterd by the user
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String contactFax  = thing.GetContactFax();
+```
+
+

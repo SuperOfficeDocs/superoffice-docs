@@ -11,3 +11,9 @@ Whether inbound emails can reopen requests with this status or not
 **Returns:** Bool
 
 
+```crmscript
+NSTicketStatusEntity thing;
+Bool noEmailReopen  = thing.GetNoEmailReopen();
+```
+
+

@@ -11,3 +11,9 @@ Has the data been encrypted.
 **Parameter:** 
  - **isEncrypted** Bool
 
+```crmscript
+NSBlobEntity thing;
+Bool isEncrypted;
+thing.SetIsEncrypted(isEncrypted);
+```
+

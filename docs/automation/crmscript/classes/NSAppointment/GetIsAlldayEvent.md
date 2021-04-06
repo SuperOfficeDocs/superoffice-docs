@@ -11,3 +11,9 @@ True if all day event
 **Returns:** Bool
 
 
+```crmscript
+NSAppointment thing;
+Bool isAlldayEvent  = thing.GetIsAlldayEvent();
+```
+
+

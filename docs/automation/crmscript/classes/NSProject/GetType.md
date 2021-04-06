@@ -11,3 +11,9 @@ The project type.
 **Returns:** String
 
 
+```crmscript
+NSProject thing;
+String type  = thing.GetType();
+```
+
+

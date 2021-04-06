@@ -11,3 +11,9 @@ Text describing task
 **Returns:** String
 
 
+```crmscript
+NSMailMergeTask thing;
+String description  = thing.GetDescription();
+```
+
+

@@ -11,3 +11,9 @@ Any message from the method, including timing data
 **Parameter:** 
  - **message** String
 
+```crmscript
+NSMassOperationResult thing;
+String message;
+thing.SetMessage(message);
+```
+

@@ -11,3 +11,9 @@ Size of the stream
 **Parameter:** 
  - **size** Integer
 
+```crmscript
+NSDocumentPreview thing;
+Integer size;
+thing.SetSize(size);
+```
+

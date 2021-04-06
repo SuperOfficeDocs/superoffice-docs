@@ -11,3 +11,9 @@ Name of the database owner company.
 **Parameter:** 
  - **companyName** String
 
+```crmscript
+NSLicenseInfo thing;
+String companyName;
+thing.SetCompanyName(companyName);
+```
+

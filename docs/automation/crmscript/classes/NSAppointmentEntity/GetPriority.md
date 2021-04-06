@@ -11,3 +11,9 @@ It's possible to give appointments different priorities. All the different prior
 **Returns:** Priority
 
 
+```crmscript
+NSAppointmentEntity thing;
+Priority priority  = thing.GetPriority();
+```
+
+

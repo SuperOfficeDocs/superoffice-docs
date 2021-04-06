@@ -11,3 +11,9 @@ The tiles associated with this dashboard
 **Returns:** DashboardTileArray
 
 
+```crmscript
+NSDashboard thing;
+DashboardTileArray tiles  = thing.GetTiles();
+```
+
+

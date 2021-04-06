@@ -11,3 +11,9 @@ How many units have been delivered - updated by ERP system.
 **Returns:** Float
 
 
+```crmscript
+NSQuoteLine thing;
+Float deliveredQuantity  = thing.GetDeliveredQuantity();
+```
+
+

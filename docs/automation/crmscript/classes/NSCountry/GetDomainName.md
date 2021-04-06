@@ -11,3 +11,9 @@ Domain name of the country
 **Returns:** String
 
 
+```crmscript
+NSCountry thing;
+String domainName  = thing.GetDomainName();
+```
+
+

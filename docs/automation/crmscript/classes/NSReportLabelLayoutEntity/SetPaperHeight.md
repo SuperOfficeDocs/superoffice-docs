@@ -11,3 +11,9 @@ Paper height in twips
 **Parameter:** 
  - **paperHeight** Integer
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer paperHeight;
+thing.SetPaperHeight(paperHeight);
+```
+

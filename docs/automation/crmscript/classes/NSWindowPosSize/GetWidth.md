@@ -11,3 +11,9 @@ The width of the widget
 **Returns:** Integer
 
 
+```crmscript
+NSWindowPosSize thing;
+Integer width  = thing.GetWidth();
+```
+
+

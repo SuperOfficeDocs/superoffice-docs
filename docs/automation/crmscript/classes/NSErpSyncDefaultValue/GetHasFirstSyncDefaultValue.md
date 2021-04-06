@@ -11,3 +11,9 @@ Should a default value be set on first sync
 **Returns:** Bool
 
 
+```crmscript
+NSErpSyncDefaultValue thing;
+Bool hasFirstSyncDefaultValue  = thing.GetHasFirstSyncDefaultValue();
+```
+
+

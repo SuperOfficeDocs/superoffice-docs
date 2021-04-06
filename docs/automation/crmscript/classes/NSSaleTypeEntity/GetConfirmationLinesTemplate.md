@@ -11,3 +11,9 @@ The template that this sale type should use when producing the order confirmatio
 **Returns:** Integer
 
 
+```crmscript
+NSSaleTypeEntity thing;
+Integer confirmationLinesTemplate  = thing.GetConfirmationLinesTemplate();
+```
+
+

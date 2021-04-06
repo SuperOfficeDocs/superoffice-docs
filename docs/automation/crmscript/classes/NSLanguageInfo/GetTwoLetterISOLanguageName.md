@@ -11,3 +11,9 @@ ISO 2-letter abbreviation
 **Returns:** String
 
 
+```crmscript
+NSLanguageInfo thing;
+String twoLetterISOLanguageName  = thing.GetTwoLetterISOLanguageName();
+```
+
+

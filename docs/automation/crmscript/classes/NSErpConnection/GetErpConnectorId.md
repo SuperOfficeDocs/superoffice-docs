@@ -11,3 +11,9 @@ The connector that this connection should call
 **Returns:** Integer
 
 
+```crmscript
+NSErpConnection thing;
+Integer erpConnectorId  = thing.GetErpConnectorId();
+```
+
+

@@ -11,3 +11,9 @@ Identification of user in the foreign system.  This value needs to be applied to
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSCredentialUser thing;
+String value;
+thing.SetValue(value);
+```
+

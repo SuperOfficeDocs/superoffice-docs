@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **suggestedAppointmentId** Integer
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Integer suggestedAppointmentId;
+thing.SetSuggestedAppointmentId(suggestedAppointmentId);
+```
+

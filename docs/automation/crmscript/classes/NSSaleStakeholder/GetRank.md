@@ -11,3 +11,9 @@ Rank in list of stakeholders
 **Returns:** Integer
 
 
+```crmscript
+NSSaleStakeholder thing;
+Integer rank  = thing.GetRank();
+```
+
+

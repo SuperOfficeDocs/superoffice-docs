@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSLegalBase thing;
+Integer legalBaseId  = thing.GetLegalBaseId();
+```
+
+

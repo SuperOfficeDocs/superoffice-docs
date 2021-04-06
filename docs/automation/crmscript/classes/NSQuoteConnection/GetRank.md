@@ -11,3 +11,9 @@ Rank order
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteConnection thing;
+Integer rank  = thing.GetRank();
+```
+
+

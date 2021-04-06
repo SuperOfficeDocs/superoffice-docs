@@ -11,3 +11,9 @@ SMS version of this message
 **Parameter:** 
  - **smsMessage** String
 
+```crmscript
+NSShipmentMessageEntity thing;
+String smsMessage;
+thing.SetSmsMessage(smsMessage);
+```
+

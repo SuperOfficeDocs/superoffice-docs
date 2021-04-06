@@ -11,3 +11,9 @@ Array of visible buttons with defined actions in the quote verson dialog.
 **Returns:** QuoteVersionButtonStateArray
 
 
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionButtonStateArray actionButtons  = thing.GetActionButtons();
+```
+
+

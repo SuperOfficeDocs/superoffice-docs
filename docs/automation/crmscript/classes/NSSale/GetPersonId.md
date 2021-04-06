@@ -11,3 +11,9 @@ The sale's contact persons id
 **Returns:** Integer
 
 
+```crmscript
+NSSale thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

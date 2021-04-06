@@ -11,3 +11,9 @@ Relative to TemplatePath
 **Returns:** String
 
 
+```crmscript
+NSDocumentTemplate thing;
+String filename  = thing.GetFilename();
+```
+
+

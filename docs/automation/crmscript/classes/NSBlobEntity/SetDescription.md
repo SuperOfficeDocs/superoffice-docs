@@ -11,3 +11,9 @@ A description that is entered by the user, and visible to the user
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSBlobEntity thing;
+String description;
+thing.SetDescription(description);
+```
+

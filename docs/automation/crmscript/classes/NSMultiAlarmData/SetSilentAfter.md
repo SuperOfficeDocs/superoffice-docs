@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **silentAfter** Integer
 
+```crmscript
+NSMultiAlarmData thing;
+Integer silentAfter;
+thing.SetSilentAfter(silentAfter);
+```
+

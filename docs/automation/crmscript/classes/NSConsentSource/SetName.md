@@ -11,3 +11,9 @@ Name of consent source
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSConsentSource thing;
+String name;
+thing.SetName(name);
+```
+

@@ -10,3 +10,8 @@ Get the name of the Role.
 
 **Returns:** String Role name.
 
+```crmscript
+NSRole thing;
+String name = thing.GetValue();
+```
+

@@ -11,3 +11,9 @@ How much of the active work-day which is booked in appointments.
 **Parameter:** 
  - **percentageBusy** Integer
 
+```crmscript
+NSActivitySummary thing;
+Integer percentageBusy;
+thing.SetPercentageBusy(percentageBusy);
+```
+

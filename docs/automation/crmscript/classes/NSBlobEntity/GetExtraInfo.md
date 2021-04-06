@@ -11,3 +11,9 @@ Extra information, spare field, can be used for anything that makes sense. Shoul
 **Returns:** String
 
 
+```crmscript
+NSBlobEntity thing;
+String extraInfo  = thing.GetExtraInfo();
+```
+
+

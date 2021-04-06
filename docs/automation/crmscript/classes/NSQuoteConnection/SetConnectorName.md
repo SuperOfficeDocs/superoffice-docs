@@ -11,3 +11,9 @@ Programmatic name of the Connector plugin that implements this kind of connectio
 **Parameter:** 
  - **connectorName** String
 
+```crmscript
+NSQuoteConnection thing;
+String connectorName;
+thing.SetConnectorName(connectorName);
+```
+

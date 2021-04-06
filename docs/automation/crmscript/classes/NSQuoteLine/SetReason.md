@@ -11,3 +11,9 @@ If QuoteStatus is not OK, then this field contains a localized explanation that 
 **Parameter:** 
  - **reason** String
 
+```crmscript
+NSQuoteLine thing;
+String reason;
+thing.SetReason(reason);
+```
+

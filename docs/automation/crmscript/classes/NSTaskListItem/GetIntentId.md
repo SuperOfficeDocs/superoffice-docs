@@ -11,3 +11,9 @@ Link to the intention of this kind of task (used by SAINT)
 **Returns:** Integer
 
 
+```crmscript
+NSTaskListItem thing;
+Integer intentId  = thing.GetIntentId();
+```
+
+

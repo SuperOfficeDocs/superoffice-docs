@@ -11,3 +11,9 @@ The name of the project this appointment belong to. Blank if no project is conne
 **Parameter:** 
  - **projectName** String
 
+```crmscript
+NSAppointment thing;
+String projectName;
+thing.SetProjectName(projectName);
+```
+

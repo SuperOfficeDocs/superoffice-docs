@@ -11,3 +11,9 @@ True if the ListItem is hidden
 **Parameter:** 
  - **hidden** Bool
 
+```crmscript
+NSSelectableMDOListItem thing;
+Bool hidden;
+thing.SetHidden(hidden);
+```
+

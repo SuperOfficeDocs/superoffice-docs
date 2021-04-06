@@ -11,3 +11,9 @@ An url associated with the notification that will be handled by Pocket
 **Parameter:** 
  - **url** String
 
+```crmscript
+NSPocketNotificationMessage thing;
+String url;
+thing.SetUrl(url);
+```
+

@@ -11,3 +11,9 @@ The sale's owner
 **Returns:** String
 
 
+```crmscript
+NSSale thing;
+String associateFullName  = thing.GetAssociateFullName();
+```
+
+

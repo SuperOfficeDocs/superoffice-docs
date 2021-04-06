@@ -11,3 +11,9 @@ Earning on sale
 **Returns:** Float
 
 
+```crmscript
+NSSale thing;
+Float earning  = thing.GetEarning();
+```
+
+

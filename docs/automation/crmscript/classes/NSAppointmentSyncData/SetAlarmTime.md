@@ -11,3 +11,9 @@ Date and time at which to show alarm
 **Parameter:** 
  - **alarmTime** DateTime
 
+```crmscript
+NSAppointmentSyncData thing;
+DateTime alarmTime;
+thing.SetAlarmTime(alarmTime);
+```
+

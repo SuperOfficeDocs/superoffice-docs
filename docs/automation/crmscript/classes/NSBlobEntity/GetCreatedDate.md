@@ -11,3 +11,9 @@ Registered when
 **Returns:** DateTime
 
 
+```crmscript
+NSBlobEntity thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
+
+

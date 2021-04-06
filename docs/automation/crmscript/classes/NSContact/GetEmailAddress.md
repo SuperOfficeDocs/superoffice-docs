@@ -11,3 +11,9 @@ The contact email address
 **Returns:** String
 
 
+```crmscript
+NSContact thing;
+String emailAddress  = thing.GetEmailAddress();
+```
+
+

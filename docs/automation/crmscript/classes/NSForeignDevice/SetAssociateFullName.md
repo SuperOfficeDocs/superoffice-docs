@@ -11,3 +11,9 @@ The person owning the Foreign Device
 **Parameter:** 
  - **associateFullName** String
 
+```crmscript
+NSForeignDevice thing;
+String associateFullName;
+thing.SetAssociateFullName(associateFullName);
+```
+

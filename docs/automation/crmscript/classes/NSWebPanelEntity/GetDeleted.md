@@ -11,3 +11,9 @@ True if the web panel is marked as deleted
 **Returns:** Bool
 
 
+```crmscript
+NSWebPanelEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

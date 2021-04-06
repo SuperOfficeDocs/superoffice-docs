@@ -15,3 +15,9 @@ An integer indicating if new messages should have the &apos;close request&apos; 
      - Enum: 2 = Closed 
      - Enum: 3 = Postponed 
 
+```crmscript
+NSTicketCategoryEntity thing;
+TicketCategoryClosingStatus msgClosingStatus;
+thing.SetMsgClosingStatus(msgClosingStatus);
+```
+

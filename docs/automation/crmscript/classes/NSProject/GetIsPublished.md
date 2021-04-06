@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSProject thing;
+Bool isPublished  = thing.GetIsPublished();
+```
+
+

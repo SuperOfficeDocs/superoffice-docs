@@ -11,3 +11,9 @@ Is the webpanel visible when user is on pocket client
 **Parameter:** 
  - **onSalesMarketingPocket** Bool
 
+```crmscript
+NSExtAppEntity thing;
+Bool onSalesMarketingPocket;
+thing.SetOnSalesMarketingPocket(onSalesMarketingPocket);
+```
+

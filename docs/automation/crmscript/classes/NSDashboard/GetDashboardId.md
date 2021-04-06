@@ -11,3 +11,9 @@ The dashboard id
 **Returns:** Integer
 
 
+```crmscript
+NSDashboard thing;
+Integer dashboardId  = thing.GetDashboardId();
+```
+
+

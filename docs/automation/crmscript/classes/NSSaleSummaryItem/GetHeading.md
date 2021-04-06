@@ -11,3 +11,9 @@ Sale heading (short description?)
 **Returns:** String
 
 
+```crmscript
+NSSaleSummaryItem thing;
+String heading  = thing.GetHeading();
+```
+
+

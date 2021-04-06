@@ -11,3 +11,9 @@ True if free, false if busy
 **Parameter:** 
  - **isDefaultFree** Bool
 
+```crmscript
+NSTaskListItem thing;
+Bool isDefaultFree;
+thing.SetIsDefaultFree(isDefaultFree);
+```
+

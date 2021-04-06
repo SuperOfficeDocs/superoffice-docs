@@ -11,3 +11,9 @@ The person associated with this user. Detailed information about the user
 **Returns:** Person
 
 
+```crmscript
+NSUser thing;
+Person person  = thing.GetPerson();
+```
+
+

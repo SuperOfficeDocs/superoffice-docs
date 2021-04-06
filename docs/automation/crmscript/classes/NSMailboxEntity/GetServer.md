@@ -11,3 +11,9 @@ The email server to connect to
 **Returns:** String
 
 
+```crmscript
+NSMailboxEntity thing;
+String server  = thing.GetServer();
+```
+
+

@@ -11,3 +11,9 @@ If true, it is possible to sign on the event.
 **Parameter:** 
  - **signOn** Bool
 
+```crmscript
+NSProjectEvent thing;
+Bool signOn;
+thing.SetSignOn(signOn);
+```
+

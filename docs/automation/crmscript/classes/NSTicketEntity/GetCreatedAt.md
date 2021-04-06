@@ -11,3 +11,9 @@ When the ticket was created.
 **Returns:** DateTime
 
 
+```crmscript
+NSTicketEntity thing;
+DateTime createdAt  = thing.GetCreatedAt();
+```
+
+

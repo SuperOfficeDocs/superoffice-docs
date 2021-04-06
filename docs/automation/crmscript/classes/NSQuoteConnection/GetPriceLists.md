@@ -11,3 +11,9 @@ The PriceLists that this connection offers.
 **Returns:** PriceListArray
 
 
+```crmscript
+NSQuoteConnection thing;
+PriceListArray priceLists  = thing.GetPriceLists();
+```
+
+

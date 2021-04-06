@@ -11,3 +11,9 @@ A string representing the author of the message. Could be a user&apos;s name, or
 **Parameter:** 
  - **author** String
 
+```crmscript
+NSTicketMessageEntity thing;
+String author;
+thing.SetAuthor(author);
+```
+

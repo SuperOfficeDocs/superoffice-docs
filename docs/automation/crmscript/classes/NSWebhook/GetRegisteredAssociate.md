@@ -11,3 +11,9 @@ The user that created the webhook.
 **Returns:** Associate
 
 
+```crmscript
+NSWebhook thing;
+Associate registeredAssociate  = thing.GetRegisteredAssociate();
+```
+
+

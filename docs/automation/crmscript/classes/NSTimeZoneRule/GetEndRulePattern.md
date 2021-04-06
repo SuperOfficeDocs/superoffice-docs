@@ -11,3 +11,9 @@ DST end rule, such as 2300 LST-SAT-OCT; limited to rules that we have parse code
 **Returns:** String
 
 
+```crmscript
+NSTimeZoneRule thing;
+String endRulePattern  = thing.GetEndRulePattern();
+```
+
+

@@ -11,3 +11,9 @@ The alias for the customer.
 **Parameter:** 
  - **customerAlias** String
 
+```crmscript
+NSChatSessionEntity thing;
+String customerAlias;
+thing.SetCustomerAlias(customerAlias);
+```
+

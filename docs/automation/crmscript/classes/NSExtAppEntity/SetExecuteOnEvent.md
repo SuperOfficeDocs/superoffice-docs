@@ -16,3 +16,9 @@ Events that cause automatic execution of this app
      - Enum: 3 = LocalUpdate 
      - Enum: 16384 = Wait 
 
+```crmscript
+NSExtAppEntity thing;
+ExecuteOnEvent executeOnEvent;
+thing.SetExecuteOnEvent(executeOnEvent);
+```
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** ParticipantSyncDataArray
 
 
+```crmscript
+NSAppointmentSyncData thing;
+ParticipantSyncDataArray participants  = thing.GetParticipants();
+```
+
+

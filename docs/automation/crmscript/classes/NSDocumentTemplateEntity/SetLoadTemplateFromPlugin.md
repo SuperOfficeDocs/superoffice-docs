@@ -11,3 +11,9 @@ Which document plugin is responsible for this template's contents
 **Parameter:** 
  - **loadTemplateFromPlugin** Integer
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer loadTemplateFromPlugin;
+thing.SetLoadTemplateFromPlugin(loadTemplateFromPlugin);
+```
+

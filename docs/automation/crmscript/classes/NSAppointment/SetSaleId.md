@@ -11,3 +11,9 @@ Owning sale, if any (may be 0)
 **Parameter:** 
  - **saleId** Integer
 
+```crmscript
+NSAppointment thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
+

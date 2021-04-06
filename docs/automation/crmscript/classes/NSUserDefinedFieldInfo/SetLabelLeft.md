@@ -11,3 +11,9 @@ X pixel coordinate of label
 **Parameter:** 
  - **labelLeft** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer labelLeft;
+thing.SetLabelLeft(labelLeft);
+```
+

@@ -11,3 +11,9 @@ Department
 **Returns:** String
 
 
+```crmscript
+NSTicketMessage thing;
+String contactDepartment  = thing.GetContactDepartment();
+```
+
+

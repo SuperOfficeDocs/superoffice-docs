@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **saleName** String
 
+```crmscript
+NSAlarmData thing;
+String saleName;
+thing.SetSaleName(saleName);
+```
+

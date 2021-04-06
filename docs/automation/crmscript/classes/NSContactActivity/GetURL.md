@@ -11,3 +11,9 @@ URL address
 **Returns:** String
 
 
+```crmscript
+NSContactActivity thing;
+String uRL  = thing.GetURL();
+```
+
+

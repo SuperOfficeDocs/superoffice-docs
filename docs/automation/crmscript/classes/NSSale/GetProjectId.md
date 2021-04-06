@@ -11,3 +11,9 @@ Optional project reference
 **Returns:** Integer
 
 
+```crmscript
+NSSale thing;
+Integer projectId  = thing.GetProjectId();
+```
+
+

@@ -11,3 +11,9 @@ The urls related to this person.
 **Parameter:** 
  - **url** StringArray
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray url;
+thing.SetUrl(url);
+```
+

@@ -11,3 +11,9 @@ Sort order, indexed so it can used for sorting in the query
 **Returns:** Integer
 
 
+```crmscript
+NSHistory thing;
+Integer rank  = thing.GetRank();
+```
+
+

@@ -11,3 +11,9 @@ The child items of the SelectableMDOListItem
 **Parameter:** 
  - **childItems** SelectableMDOListItemArray
 
+```crmscript
+NSSelectableMDOListItem thing;
+SelectableMDOListItemArray childItems;
+thing.SetChildItems(childItems);
+```
+

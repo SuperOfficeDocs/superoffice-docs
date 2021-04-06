@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSCustomerCenterConfig thing;
+Integer custConfigId  = thing.GetCustConfigId();
+```
+
+

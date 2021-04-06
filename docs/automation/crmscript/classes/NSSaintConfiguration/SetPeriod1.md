@@ -11,3 +11,9 @@ Length of the first counter period
 **Parameter:** 
  - **period1** Integer
 
+```crmscript
+NSSaintConfiguration thing;
+Integer period1;
+thing.SetPeriod1(period1);
+```
+

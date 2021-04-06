@@ -11,3 +11,9 @@ True if the application shall wait for fininsh event
 **Parameter:** 
  - **waitToFinish** Bool
 
+```crmscript
+NSExtAppEntity thing;
+Bool waitToFinish;
+thing.SetWaitToFinish(waitToFinish);
+```
+

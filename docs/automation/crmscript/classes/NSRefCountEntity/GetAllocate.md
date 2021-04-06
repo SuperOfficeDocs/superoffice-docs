@@ -11,3 +11,9 @@ Allocate numbers automatically
 **Returns:** Bool
 
 
+```crmscript
+NSRefCountEntity thing;
+Bool allocate  = thing.GetAllocate();
+```
+
+

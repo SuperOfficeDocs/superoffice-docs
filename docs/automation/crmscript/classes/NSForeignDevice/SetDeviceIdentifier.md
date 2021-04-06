@@ -11,3 +11,9 @@ Optional unique id of device (Palm pilot device ID, etc)
 **Parameter:** 
  - **deviceIdentifier** String
 
+```crmscript
+NSForeignDevice thing;
+String deviceIdentifier;
+thing.SetDeviceIdentifier(deviceIdentifier);
+```
+

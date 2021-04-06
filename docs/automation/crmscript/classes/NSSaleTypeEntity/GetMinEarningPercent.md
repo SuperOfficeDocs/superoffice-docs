@@ -11,3 +11,9 @@ The minimum earning in percent of total, if set, on quotes linked to sales of th
 **Returns:** Integer
 
 
+```crmscript
+NSSaleTypeEntity thing;
+Integer minEarningPercent  = thing.GetMinEarningPercent();
+```
+
+

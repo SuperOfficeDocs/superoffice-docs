@@ -11,3 +11,9 @@ The template list item
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSDocumentTemplateEntity thing;
+String name;
+thing.SetName(name);
+```
+

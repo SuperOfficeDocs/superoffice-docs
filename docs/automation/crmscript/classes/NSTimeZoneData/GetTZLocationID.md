@@ -11,3 +11,9 @@ Timezone location ID
 **Returns:** Integer
 
 
+```crmscript
+NSTimeZoneData thing;
+Integer tZLocationID  = thing.GetTZLocationID();
+```
+
+

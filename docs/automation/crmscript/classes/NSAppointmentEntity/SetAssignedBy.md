@@ -11,3 +11,9 @@ Who assigned this appointment to this user? Whose diary did the appointment come
 **Parameter:** 
  - **assignedBy** Associate
 
+```crmscript
+NSAppointmentEntity thing;
+Associate assignedBy;
+thing.SetAssignedBy(assignedBy);
+```
+

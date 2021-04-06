@@ -11,3 +11,9 @@ The name of this form
 **Returns:** String
 
 
+```crmscript
+NSFormEntity thing;
+String name  = thing.GetName();
+```
+
+

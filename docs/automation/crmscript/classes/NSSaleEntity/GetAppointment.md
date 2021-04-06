@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Appointment
 
 
+```crmscript
+NSSaleEntity thing;
+Appointment appointment  = thing.GetAppointment();
+```
+
+

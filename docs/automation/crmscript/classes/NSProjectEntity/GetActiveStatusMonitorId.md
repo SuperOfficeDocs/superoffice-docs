@@ -11,3 +11,9 @@ Active status monitor identity with the lowest rank for project
 **Returns:** Integer
 
 
+```crmscript
+NSProjectEntity thing;
+Integer activeStatusMonitorId  = thing.GetActiveStatusMonitorId();
+```
+
+

@@ -10,3 +10,9 @@ Get the tooltip description for the PaymentTerm list item.
 
 **Returns:** String PaymentTerm tooltip description.
 
+```crmscript
+NSPaymentTerm thing;
+String descr = thing.GetTooltip();
+```
+
+

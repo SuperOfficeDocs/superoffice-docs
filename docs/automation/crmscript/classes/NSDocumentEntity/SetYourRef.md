@@ -11,3 +11,9 @@ Your reference
 **Parameter:** 
  - **yourRef** String
 
+```crmscript
+NSDocumentEntity thing;
+String yourRef;
+thing.SetYourRef(yourRef);
+```
+

@@ -11,3 +11,9 @@ The sender of the SMS messages. This text will appear on the recipient's mobile 
 **Returns:** String
 
 
+```crmscript
+NSSmsConfig thing;
+String nsPluginSender  = thing.GetNsPluginSender();
+```
+
+

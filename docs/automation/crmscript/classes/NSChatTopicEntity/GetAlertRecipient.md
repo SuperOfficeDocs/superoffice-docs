@@ -11,3 +11,9 @@ The recipient(s) for the alert template
 **Returns:** String
 
 
+```crmscript
+NSChatTopicEntity thing;
+String alertRecipient  = thing.GetAlertRecipient();
+```
+
+

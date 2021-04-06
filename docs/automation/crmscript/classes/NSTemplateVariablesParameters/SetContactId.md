@@ -11,3 +11,9 @@ Identifier for a contact
 **Parameter:** 
  - **contactId** Integer
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
+

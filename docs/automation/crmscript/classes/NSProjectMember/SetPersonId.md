@@ -11,3 +11,9 @@ The person's id - primary key
 **Parameter:** 
  - **personId** Integer
 
+```crmscript
+NSProjectMember thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
+

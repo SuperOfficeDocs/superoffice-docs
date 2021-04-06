@@ -11,3 +11,9 @@ The associate's culture formatted fullname (firstname, middleName and lastname)
 **Parameter:** 
  - **associateFullName** String
 
+```crmscript
+NSDocument thing;
+String associateFullName;
+thing.SetAssociateFullName(associateFullName);
+```
+

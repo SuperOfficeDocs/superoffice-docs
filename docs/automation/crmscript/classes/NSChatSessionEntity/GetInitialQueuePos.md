@@ -11,3 +11,9 @@ The initial queue pos (i.e. the number of pending sessions + 1) when the session
 **Returns:** Integer
 
 
+```crmscript
+NSChatSessionEntity thing;
+Integer initialQueuePos  = thing.GetInitialQueuePos();
+```
+
+

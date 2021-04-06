@@ -11,3 +11,9 @@ The alert level for the ticket. Matches the level value of the ticket_alert tabl
 **Parameter:** 
  - **alertLevel** Integer
 
+```crmscript
+NSTicket thing;
+Integer alertLevel;
+thing.SetAlertLevel(alertLevel);
+```
+

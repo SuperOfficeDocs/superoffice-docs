@@ -10,3 +10,9 @@ Get the tooltip description for the Task list item.
 
 **Returns:** String Task tooltip description.
 
+```crmscript
+NSTask thing;
+String descr = thing.GetTooltip();
+```
+
+

@@ -11,3 +11,9 @@ The name of the Archive Provider to use when working with this selection; this i
 **Returns:** String
 
 
+```crmscript
+NSSelectionForFind thing;
+String providerName  = thing.GetProviderName();
+```
+
+

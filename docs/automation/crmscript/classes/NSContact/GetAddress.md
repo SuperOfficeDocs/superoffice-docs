@@ -11,3 +11,9 @@ Contact address as  a list of LocalizedFieldList objects. Used to store localize
 **Returns:** Address
 
 
+```crmscript
+NSContact thing;
+Address address  = thing.GetAddress();
+```
+
+

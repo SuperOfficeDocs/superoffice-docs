@@ -25,3 +25,9 @@ Sending/stopped/failed etc.
      - Enum: 12 = PopulateError 
      - Enum: 13 = TooManyRecipients 
 
+```crmscript
+NSPreviewMailingHeader thing;
+ShipmentStatus status  = thing.GetStatus();
+```
+
+

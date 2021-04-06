@@ -11,3 +11,9 @@ The person that created the project
 **Returns:** Associate
 
 
+```crmscript
+NSProjectEntity thing;
+Associate associate  = thing.GetAssociate();
+```
+
+

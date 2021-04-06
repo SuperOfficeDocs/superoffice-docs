@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSTicketMessage thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

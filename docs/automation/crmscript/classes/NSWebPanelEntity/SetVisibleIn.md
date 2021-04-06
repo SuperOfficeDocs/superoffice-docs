@@ -82,3 +82,9 @@ The webpanel is visible in
      - Enum: 69 = CompanyCardTask 
      - Enum: 70 = ProjectCardTask 
 
+```crmscript
+NSWebPanelEntity thing;
+Integer visibleIn;
+thing.SetVisibleIn(visibleIn);
+```
+

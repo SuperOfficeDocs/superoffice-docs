@@ -11,3 +11,9 @@ Should the field be shown in the first-sync GUI; independent of whether a defaul
 **Returns:** Bool
 
 
+```crmscript
+NSErpSyncDefaultValue thing;
+Bool promptUser  = thing.GetPromptUser();
+```
+
+

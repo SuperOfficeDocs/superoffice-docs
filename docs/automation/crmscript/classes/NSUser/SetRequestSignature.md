@@ -11,3 +11,9 @@ ej users request signature
 **Parameter:** 
  - **requestSignature** String
 
+```crmscript
+NSUser thing;
+String requestSignature;
+thing.SetRequestSignature(requestSignature);
+```
+

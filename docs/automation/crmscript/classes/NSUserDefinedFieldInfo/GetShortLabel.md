@@ -11,3 +11,9 @@ Short name to be used in Archive headings and on page 1. If blank, the fieldLabe
 **Returns:** String
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+String shortLabel  = thing.GetShortLabel();
+```
+
+

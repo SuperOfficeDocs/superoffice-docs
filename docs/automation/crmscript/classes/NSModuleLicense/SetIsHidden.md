@@ -11,3 +11,9 @@ If true, then this module should not appear in GUI and is not assignable by user
 **Parameter:** 
  - **isHidden** Bool
 
+```crmscript
+NSModuleLicense thing;
+Bool isHidden;
+thing.SetIsHidden(isHidden);
+```
+

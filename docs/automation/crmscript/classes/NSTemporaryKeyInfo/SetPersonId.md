@@ -11,3 +11,9 @@ The person id this key is related to. May be null.
 **Parameter:** 
  - **personId** Integer
 
+```crmscript
+NSTemporaryKeyInfo thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
+

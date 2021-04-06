@@ -11,3 +11,9 @@ Rank order
 **Returns:** Integer
 
 
+```crmscript
+NSCurrencyEntity thing;
+Integer rank  = thing.GetRank();
+```
+
+

@@ -11,3 +11,9 @@ The actual rows, according to the paging info, of the result. See RowCount for a
 **Parameter:** 
  - **rows** ArchiveListItemArray
 
+```crmscript
+NSArchiveListResult thing;
+ArchiveListItemArray rows;
+thing.SetRows(rows);
+```
+

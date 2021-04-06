@@ -11,3 +11,9 @@ The rank of the web panel
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSWebPanelEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

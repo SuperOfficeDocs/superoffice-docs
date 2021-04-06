@@ -11,3 +11,9 @@ Display text name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSListItem thing;
+String name;
+thing.SetName(name);
+```
+

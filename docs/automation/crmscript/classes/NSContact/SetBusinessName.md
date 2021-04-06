@@ -11,3 +11,9 @@ The business list item name
 **Parameter:** 
  - **businessName** String
 
+```crmscript
+NSContact thing;
+String businessName;
+thing.SetBusinessName(businessName);
+```
+

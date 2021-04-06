@@ -17,3 +17,9 @@ The state of the Sale: Open / Sold / Lost / Stalled
      - Enum: 4 = Stalled 
      - Enum: 1000 = SaintAll 
 
+```crmscript
+NSSaleEntity thing;
+Integer status;
+thing.SetStatus(status);
+```
+

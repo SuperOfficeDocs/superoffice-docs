@@ -11,3 +11,9 @@ Time the training finished
 **Parameter:** 
  - **modelBuiltDateTime** DateTime
 
+```crmscript
+NSCategorizationModelDetails thing;
+DateTime modelBuiltDateTime;
+thing.SetModelBuiltDateTime(modelBuiltDateTime);
+```
+

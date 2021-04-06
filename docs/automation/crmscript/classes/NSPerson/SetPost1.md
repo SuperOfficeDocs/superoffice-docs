@@ -11,3 +11,9 @@ Postal address, used in Japanese versions only
 **Parameter:** 
  - **post1** String
 
+```crmscript
+NSPerson thing;
+String post1;
+thing.SetPost1(post1);
+```
+

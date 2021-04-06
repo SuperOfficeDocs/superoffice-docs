@@ -11,3 +11,9 @@ Property setting a unique id indicating if this is a person or contact
 **Returns:** String
 
 
+```crmscript
+NSPhoneListItem thing;
+String uniqueId  = thing.GetUniqueId();
+```
+
+

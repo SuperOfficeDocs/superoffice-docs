@@ -11,3 +11,9 @@ The sales description
 **Returns:** String
 
 
+```crmscript
+NSSale thing;
+String description  = thing.GetDescription();
+```
+
+

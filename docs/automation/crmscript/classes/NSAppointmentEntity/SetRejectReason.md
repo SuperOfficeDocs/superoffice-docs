@@ -11,3 +11,9 @@ Why was this booking or assignment rejected, the RejectReason list is a source o
 **Parameter:** 
  - **rejectReason** String
 
+```crmscript
+NSAppointmentEntity thing;
+String rejectReason;
+thing.SetRejectReason(rejectReason);
+```
+

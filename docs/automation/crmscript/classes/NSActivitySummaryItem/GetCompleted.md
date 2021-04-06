@@ -15,3 +15,9 @@ The Completed state. NotStarted(1) or Completed(3)
      - Enum: 2 = Started 
      - Enum: 3 = Completed 
 
+```crmscript
+NSActivitySummaryItem thing;
+Integer completed  = thing.GetCompleted();
+```
+
+

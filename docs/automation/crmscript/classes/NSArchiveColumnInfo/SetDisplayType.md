@@ -11,3 +11,9 @@ Type of column, so that the archive knows how to display it (actual display valu
 **Parameter:** 
  - **displayType** String
 
+```crmscript
+NSArchiveColumnInfo thing;
+String displayType;
+thing.SetDisplayType(displayType);
+```
+

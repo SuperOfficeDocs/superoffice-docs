@@ -11,3 +11,9 @@ The datetime for when the ticket was replied to. I.e. the first external message
 **Parameter:** 
  - **repliedAt** DateTime
 
+```crmscript
+NSTicket thing;
+DateTime repliedAt;
+thing.SetRepliedAt(repliedAt);
+```
+

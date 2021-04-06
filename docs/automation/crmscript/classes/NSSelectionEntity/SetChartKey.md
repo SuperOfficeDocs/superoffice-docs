@@ -11,3 +11,9 @@ ID/key of the last-used chart tile on this selection
 **Parameter:** 
  - **chartKey** String
 
+```crmscript
+NSSelectionEntity thing;
+String chartKey;
+thing.SetChartKey(chartKey);
+```
+

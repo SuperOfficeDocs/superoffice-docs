@@ -11,3 +11,9 @@ If true, the connection has been deleted and should not be shown to the users.
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSErpConnection thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

@@ -11,3 +11,9 @@ Original primary user group of associate
 **Returns:** Integer
 
 
+```crmscript
+NSSelectionEntity thing;
+Integer groupIdx  = thing.GetGroupIdx();
+```
+
+

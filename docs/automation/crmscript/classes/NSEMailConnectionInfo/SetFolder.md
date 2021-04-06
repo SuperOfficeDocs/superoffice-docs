@@ -11,3 +11,9 @@ Optional folder to set as current after logging in
 **Parameter:** 
  - **folder** String
 
+```crmscript
+NSEMailConnectionInfo thing;
+String folder;
+thing.SetFolder(folder);
+```
+

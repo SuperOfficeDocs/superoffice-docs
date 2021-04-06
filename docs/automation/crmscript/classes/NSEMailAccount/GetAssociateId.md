@@ -11,3 +11,9 @@ Id of the associate who owns this account
 **Returns:** Integer
 
 
+```crmscript
+NSEMailAccount thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

@@ -11,3 +11,8 @@ Set the name of the Rating item.
 **Parameter:** 
  - **value** String Rating name.
 
+```crmscript
+NSRating thing;
+thing.SetValue("frotz");
+```
+

@@ -11,3 +11,9 @@ The e-mail address
 **Parameter:** 
  - **emailAddress** String
 
+```crmscript
+NSProjectMember thing;
+String emailAddress;
+thing.SetEmailAddress(emailAddress);
+```
+

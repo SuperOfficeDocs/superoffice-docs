@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **filterScreenHeading** String
 
+```crmscript
+NSSelectionForFind thing;
+String filterScreenHeading;
+thing.SetFilterScreenHeading(filterScreenHeading);
+```
+

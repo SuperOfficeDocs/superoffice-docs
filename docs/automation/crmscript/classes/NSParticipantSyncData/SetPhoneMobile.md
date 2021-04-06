@@ -11,3 +11,9 @@ Returns a collection of mobile phone numbers that belong to the contact person.
 **Parameter:** 
  - **phoneMobile** StringArray
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray phoneMobile;
+thing.SetPhoneMobile(phoneMobile);
+```
+

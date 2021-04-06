@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSUserInfo thing;
+Bool canLogon  = thing.GetCanLogon();
+```
+
+

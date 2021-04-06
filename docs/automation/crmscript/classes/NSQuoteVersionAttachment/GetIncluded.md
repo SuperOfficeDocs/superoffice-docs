@@ -11,3 +11,9 @@ Will this attachment be included in the next 'Send Quote' operation
 **Returns:** Bool
 
 
+```crmscript
+NSQuoteVersionAttachment thing;
+Bool included  = thing.GetIncluded();
+```
+
+

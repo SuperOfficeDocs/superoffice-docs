@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSEMailEntity thing;
+Integer emailItemId  = thing.GetEmailItemId();
+```
+
+

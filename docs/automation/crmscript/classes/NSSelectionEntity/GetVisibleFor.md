@@ -10,3 +10,8 @@ Return the usergroups and/or users the SelectionEntity item is visible for.
 
 **Returns:** Visible for array.
 
+```crmscript
+NSSelectionEntity thing;
+VisibleFor[] visibleFor = thing.GetVisibleFor();
+```
+

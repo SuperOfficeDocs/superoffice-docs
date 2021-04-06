@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **numberOfUsers** Integer
 
+```crmscript
+NSArea thing;
+Integer numberOfUsers;
+thing.SetNumberOfUsers(numberOfUsers);
+```
+

@@ -11,3 +11,9 @@ The relevant or current quote line of the quote in the CRM system, if applicable
 **Parameter:** 
  - **cRMQuoteLine** QuoteLine
 
+```crmscript
+NSQuoteContext thing;
+QuoteLine cRMQuoteLine;
+thing.SetCRMQuoteLine(cRMQuoteLine);
+```
+

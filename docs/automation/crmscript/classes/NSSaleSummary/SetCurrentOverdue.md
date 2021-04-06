@@ -11,3 +11,9 @@ Number of all overdue sales within the period
 **Parameter:** 
  - **currentOverdue** Integer
 
+```crmscript
+NSSaleSummary thing;
+Integer currentOverdue;
+thing.SetCurrentOverdue(currentOverdue);
+```
+

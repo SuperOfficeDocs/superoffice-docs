@@ -11,3 +11,9 @@ Owning associate id for the DiaryView.
 **Parameter:** 
  - **assocId** Integer
 
+```crmscript
+NSDiaryViewEntity thing;
+Integer assocId;
+thing.SetAssocId(assocId);
+```
+

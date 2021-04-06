@@ -11,3 +11,9 @@ If true, the sign off task should be created as an Assigned task, triggering the
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEvent thing;
+Bool signOffTriggersAssign  = thing.GetSignOffTriggersAssign();
+```
+
+

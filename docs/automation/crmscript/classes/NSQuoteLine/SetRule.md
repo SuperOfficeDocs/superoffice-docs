@@ -11,3 +11,9 @@ The names of one or more calculation rules that are in effect for this line, com
 **Parameter:** 
  - **rule** String
 
+```crmscript
+NSQuoteLine thing;
+String rule;
+thing.SetRule(rule);
+```
+

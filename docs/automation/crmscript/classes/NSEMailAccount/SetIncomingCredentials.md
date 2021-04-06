@@ -11,3 +11,9 @@ Account credentials for imap
 **Parameter:** 
  - **incomingCredentials** ServiceAuth
 
+```crmscript
+NSEMailAccount thing;
+ServiceAuth incomingCredentials;
+thing.SetIncomingCredentials(incomingCredentials);
+```
+

@@ -11,3 +11,9 @@ Selection category type (list item)
 **Returns:** SelectionCategory
 
 
+```crmscript
+NSSelectionEntity thing;
+SelectionCategory selectionCategory  = thing.GetSelectionCategory();
+```
+
+

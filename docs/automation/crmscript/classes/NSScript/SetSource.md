@@ -11,3 +11,9 @@ The script
 **Parameter:** 
  - **source** String
 
+```crmscript
+NSScript thing;
+String source;
+thing.SetSource(source);
+```
+

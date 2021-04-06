@@ -11,3 +11,9 @@ Contact name
 **Returns:** String
 
 
+```crmscript
+NSContactEntity thing;
+String name  = thing.GetName();
+```
+
+

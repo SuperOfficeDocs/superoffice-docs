@@ -11,3 +11,9 @@ Earning as percent of total
 **Returns:** Float
 
 
+```crmscript
+NSSaleEntity thing;
+Float earningPercent  = thing.GetEarningPercent();
+```
+
+

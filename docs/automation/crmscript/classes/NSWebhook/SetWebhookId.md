@@ -11,3 +11,9 @@ Primary Key. Unique id for this webhook.
 **Parameter:** 
  - **webhookId** Integer
 
+```crmscript
+NSWebhook thing;
+Integer webhookId;
+thing.SetWebhookId(webhookId);
+```
+

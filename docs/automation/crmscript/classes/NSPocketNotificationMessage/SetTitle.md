@@ -11,3 +11,9 @@ Title for the notification
 **Parameter:** 
  - **title** String
 
+```crmscript
+NSPocketNotificationMessage thing;
+String title;
+thing.SetTitle(title);
+```
+

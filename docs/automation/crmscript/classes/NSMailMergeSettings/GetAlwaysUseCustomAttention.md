@@ -11,3 +11,9 @@ Should custom attention always be used? If false, only use custom attention wher
 **Returns:** Bool
 
 
+```crmscript
+NSMailMergeSettings thing;
+Bool alwaysUseCustomAttention  = thing.GetAlwaysUseCustomAttention();
+```
+
+

@@ -11,3 +11,9 @@ Total sale amount
 **Returns:** Float
 
 
+```crmscript
+NSSale thing;
+Float amount  = thing.GetAmount();
+```
+
+

@@ -11,3 +11,9 @@ Number of overdued sales for current user
 **Returns:** Integer
 
 
+```crmscript
+NSPocketStartupData thing;
+Integer overdueSalesCount  = thing.GetOverdueSalesCount();
+```
+
+

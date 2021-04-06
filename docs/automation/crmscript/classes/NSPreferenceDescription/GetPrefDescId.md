@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSPreferenceDescription thing;
+Integer prefDescId  = thing.GetPrefDescId();
+```
+
+

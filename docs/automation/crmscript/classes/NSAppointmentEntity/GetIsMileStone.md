@@ -11,3 +11,9 @@ Is this appointment a milestone?
 **Returns:** Bool
 
 
+```crmscript
+NSAppointmentEntity thing;
+Bool isMileStone  = thing.GetIsMileStone();
+```
+
+

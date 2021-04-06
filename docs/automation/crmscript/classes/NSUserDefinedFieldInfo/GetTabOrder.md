@@ -11,3 +11,9 @@ Tab order value, sets the field processing sequence
 **Returns:** Integer
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer tabOrder  = thing.GetTabOrder();
+```
+
+

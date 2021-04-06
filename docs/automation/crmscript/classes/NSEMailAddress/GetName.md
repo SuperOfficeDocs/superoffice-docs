@@ -11,3 +11,9 @@ The name on the email address
 **Returns:** String
 
 
+```crmscript
+NSEMailAddress thing;
+String name  = thing.GetName();
+```
+
+

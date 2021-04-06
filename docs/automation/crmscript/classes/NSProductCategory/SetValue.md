@@ -11,3 +11,8 @@ Set the name of the ProductCategory item.
 **Parameter:** 
  - **value** String ProductCategory name.
 
+```crmscript
+NSProductCategory thing;
+thing.SetValue("frotz");
+```
+

@@ -11,3 +11,9 @@ The sale stage
 **Returns:** String
 
 
+```crmscript
+NSSaleStageEntity thing;
+String value  = thing.GetValue();
+```
+
+

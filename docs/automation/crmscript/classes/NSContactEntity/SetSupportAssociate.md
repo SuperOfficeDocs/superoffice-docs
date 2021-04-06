@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **supportAssociate** Associate
 
+```crmscript
+NSContactEntity thing;
+Associate supportAssociate;
+thing.SetSupportAssociate(supportAssociate);
+```
+

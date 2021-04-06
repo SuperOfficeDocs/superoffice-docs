@@ -11,3 +11,9 @@ Text for the consent form, the long text to be shown when asking the end-user fo
 **Returns:** String
 
 
+```crmscript
+NSConsentPurpose thing;
+String formText  = thing.GetFormText();
+```
+
+

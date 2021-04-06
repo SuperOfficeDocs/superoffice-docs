@@ -11,3 +11,9 @@ The time of the activity. If more than one activity has occured on the contact, 
 **Returns:** DateTime
 
 
+```crmscript
+NSContactActivity thing;
+DateTime actionTime  = thing.GetActionTime();
+```
+
+

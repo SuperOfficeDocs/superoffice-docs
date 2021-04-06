@@ -11,3 +11,9 @@ Add this person interest to each person recipient.
 **Returns:** Integer
 
 
+```crmscript
+NSMailMergeSettings thing;
+Integer addPersonInterest  = thing.GetAddPersonInterest();
+```
+
+

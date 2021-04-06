@@ -11,3 +11,9 @@ Our reference, searchable field from freetext search
 **Parameter:** 
  - **ourRef** String
 
+```crmscript
+NSDocumentEntity thing;
+String ourRef;
+thing.SetOurRef(ourRef);
+```
+

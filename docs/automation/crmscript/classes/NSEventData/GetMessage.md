@@ -11,3 +11,9 @@ A message to be presented to the user
 **Returns:** String
 
 
+```crmscript
+NSEventData thing;
+String message  = thing.GetMessage();
+```
+
+

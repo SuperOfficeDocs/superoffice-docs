@@ -11,3 +11,9 @@ The rank of the application
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSExtAppEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

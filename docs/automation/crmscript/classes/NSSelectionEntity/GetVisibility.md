@@ -11,3 +11,9 @@ Obsolete, but still maintained denormalization of visiblefor
 **Returns:** Integer
 
 
+```crmscript
+NSSelectionEntity thing;
+Integer visibility  = thing.GetVisibility();
+```
+
+

@@ -11,3 +11,9 @@ Number of CounterValue rows generated for this entity
 **Returns:** Integer
 
 
+```crmscript
+NSSaintConfiguration thing;
+Integer rowsGenerated  = thing.GetRowsGenerated();
+```
+
+

@@ -11,3 +11,9 @@ Number of overdued sales for current user
 **Parameter:** 
  - **overdueSalesCount** Integer
 
+```crmscript
+NSPocketStartupData thing;
+Integer overdueSalesCount;
+thing.SetOverdueSalesCount(overdueSalesCount);
+```
+

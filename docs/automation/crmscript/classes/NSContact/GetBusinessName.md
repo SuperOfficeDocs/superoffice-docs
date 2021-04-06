@@ -11,3 +11,9 @@ The business list item name
 **Returns:** String
 
 
+```crmscript
+NSContact thing;
+String businessName  = thing.GetBusinessName();
+```
+
+

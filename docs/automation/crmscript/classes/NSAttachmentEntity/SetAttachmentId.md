@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Parameter:** 
  - **attachmentId** Integer
 
+```crmscript
+NSAttachmentEntity thing;
+Integer attachmentId;
+thing.SetAttachmentId(attachmentId);
+```
+

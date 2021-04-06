@@ -11,3 +11,9 @@ Name of user defined ticket status
 **Returns:** String
 
 
+```crmscript
+NSTicketStatusEntity thing;
+String name  = thing.GetName();
+```
+
+

@@ -11,3 +11,9 @@ Summed amount for all lost within the period in default currency for the current
 **Parameter:** 
  - **lostTotalOwnCurrency** Float
 
+```crmscript
+NSSaleSummary thing;
+Float lostTotalOwnCurrency;
+thing.SetLostTotalOwnCurrency(lostTotalOwnCurrency);
+```
+

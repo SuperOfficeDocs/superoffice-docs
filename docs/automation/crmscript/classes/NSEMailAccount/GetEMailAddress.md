@@ -11,3 +11,9 @@ The account (from) address
 **Returns:** String
 
 
+```crmscript
+NSEMailAccount thing;
+String eMailAddress  = thing.GetEMailAddress();
+```
+
+

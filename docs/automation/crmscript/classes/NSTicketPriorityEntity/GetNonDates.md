@@ -11,3 +11,9 @@ Dates which the escalation time should not be running. Note that only the day of
 **Returns:** DateTimeArray
 
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTimeArray nonDates  = thing.GetNonDates();
+```
+
+

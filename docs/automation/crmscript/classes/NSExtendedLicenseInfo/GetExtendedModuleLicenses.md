@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** ExtendedModuleLicenseArray
 
 
+```crmscript
+NSExtendedLicenseInfo thing;
+ExtendedModuleLicenseArray extendedModuleLicenses  = thing.GetExtendedModuleLicenses();
+```
+
+

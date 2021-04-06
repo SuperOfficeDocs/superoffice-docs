@@ -11,3 +11,9 @@ The native name of this language (Norsk Bokmål)
 **Parameter:** 
  - **nativeName** String
 
+```crmscript
+NSLanguageInfo thing;
+String nativeName;
+thing.SetNativeName(nativeName);
+```
+

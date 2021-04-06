@@ -11,3 +11,9 @@ Generated full tooltip for the Quote Version. Will check for errors on quote lin
 **Parameter:** 
  - **displayTooltip** String
 
+```crmscript
+NSQuoteVersionStatusInformation thing;
+String displayTooltip;
+thing.SetDisplayTooltip(displayTooltip);
+```
+

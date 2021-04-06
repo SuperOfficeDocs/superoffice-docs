@@ -11,3 +11,9 @@ Arbitrary description string
 **Returns:** String
 
 
+```crmscript
+NSVersionInfo thing;
+String description  = thing.GetDescription();
+```
+
+

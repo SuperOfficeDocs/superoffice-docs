@@ -11,3 +11,9 @@ Id of the item's owner (Associate id)
 **Returns:** Integer
 
 
+```crmscript
+NSPerson thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

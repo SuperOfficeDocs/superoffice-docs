@@ -11,3 +11,9 @@ date + start time planned
 **Returns:** DateTime
 
 
+```crmscript
+NSAlarmData thing;
+DateTime startTime  = thing.GetStartTime();
+```
+
+

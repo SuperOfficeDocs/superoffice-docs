@@ -11,3 +11,9 @@ Number of records in pintr table; select count(*) from pintr pi where pi.person_
 **Parameter:** 
  - **activeInterests** Integer
 
+```crmscript
+NSPerson thing;
+Integer activeInterests;
+thing.SetActiveInterests(activeInterests);
+```
+

@@ -22,3 +22,9 @@ A bitmask representing flags for this category.
      - Enum: 256 = NotifyMembers 
      - Enum: 512 = AcceptWhenReplying 
 
+```crmscript
+NSTicketCategoryEntity thing;
+TicketCategoryFlags flags;
+thing.SetFlags(flags);
+```
+

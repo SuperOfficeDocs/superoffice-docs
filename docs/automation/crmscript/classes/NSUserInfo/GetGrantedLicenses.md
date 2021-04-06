@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** StringArray
 
 
+```crmscript
+NSUserInfo thing;
+StringArray grantedLicenses  = thing.GetGrantedLicenses();
+```
+
+

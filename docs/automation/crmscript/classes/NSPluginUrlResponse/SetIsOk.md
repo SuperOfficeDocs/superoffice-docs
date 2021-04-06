@@ -11,3 +11,9 @@ Answer to the question / An indication if the operation went well.
 **Parameter:** 
  - **isOk** Bool
 
+```crmscript
+NSPluginUrlResponse thing;
+Bool isOk;
+thing.SetIsOk(isOk);
+```
+

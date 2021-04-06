@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** SelectableMDOListItemArray
 
 
+```crmscript
+NSArchiveConfiguration thing;
+SelectableMDOListItemArray archiveEntityInfo  = thing.GetArchiveEntityInfo();
+```
+
+

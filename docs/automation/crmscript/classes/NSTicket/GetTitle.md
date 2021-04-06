@@ -11,3 +11,9 @@ The title of the ticket.
 **Returns:** String
 
 
+```crmscript
+NSTicket thing;
+String title  = thing.GetTitle();
+```
+
+

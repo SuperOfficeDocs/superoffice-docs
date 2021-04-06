@@ -11,3 +11,9 @@ The programmatic column name, including any required prefixes
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+String name;
+thing.SetName(name);
+```
+

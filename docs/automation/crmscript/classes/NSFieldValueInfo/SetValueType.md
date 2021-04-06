@@ -11,3 +11,9 @@ Describes the expected value array
 **Parameter:** 
  - **valueType** String
 
+```crmscript
+NSFieldValueInfo thing;
+String valueType;
+thing.SetValueType(valueType);
+```
+

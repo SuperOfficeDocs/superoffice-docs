@@ -11,3 +11,9 @@ URL to product information web page.
 **Returns:** String
 
 
+```crmscript
+NSProduct thing;
+String url  = thing.GetUrl();
+```
+
+

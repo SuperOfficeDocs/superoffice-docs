@@ -11,3 +11,9 @@ Summed amount for all sold within the period in default currency for the current
 **Parameter:** 
  - **soldTotalOwnCurrency** Float
 
+```crmscript
+NSSaleSummary thing;
+Float soldTotalOwnCurrency;
+thing.SetSoldTotalOwnCurrency(soldTotalOwnCurrency);
+```
+

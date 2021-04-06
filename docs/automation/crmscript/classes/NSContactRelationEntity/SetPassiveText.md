@@ -11,3 +11,9 @@ Passive text for the relation.
 **Parameter:** 
  - **passiveText** String
 
+```crmscript
+NSContactRelationEntity thing;
+String passiveText;
+thing.SetPassiveText(passiveText);
+```
+

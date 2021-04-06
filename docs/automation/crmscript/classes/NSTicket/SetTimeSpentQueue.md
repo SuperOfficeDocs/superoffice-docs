@@ -11,3 +11,9 @@ The total time (seconds) within the priority's office hours the ticket has been 
 **Parameter:** 
  - **timeSpentQueue** Integer
 
+```crmscript
+NSTicket thing;
+Integer timeSpentQueue;
+thing.SetTimeSpentQueue(timeSpentQueue);
+```
+

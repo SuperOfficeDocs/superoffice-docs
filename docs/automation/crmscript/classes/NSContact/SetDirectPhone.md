@@ -11,3 +11,9 @@ The contacts phone
 **Parameter:** 
  - **directPhone** String
 
+```crmscript
+NSContact thing;
+String directPhone;
+thing.SetDirectPhone(directPhone);
+```
+

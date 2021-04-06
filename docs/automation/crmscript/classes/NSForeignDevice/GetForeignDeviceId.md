@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSForeignDevice thing;
+Integer foreignDeviceId  = thing.GetForeignDeviceId();
+```
+
+

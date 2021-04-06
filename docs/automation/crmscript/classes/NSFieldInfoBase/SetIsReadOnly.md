@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isReadOnly** Bool
 
+```crmscript
+NSFieldInfoBase thing;
+Bool isReadOnly;
+thing.SetIsReadOnly(isReadOnly);
+```
+

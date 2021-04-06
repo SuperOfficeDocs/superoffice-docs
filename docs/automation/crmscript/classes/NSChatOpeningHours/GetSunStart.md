@@ -11,3 +11,9 @@ When opening hours start on Sundays. Only time-part is used.
 **Returns:** TimeSpan
 
 
+```crmscript
+NSChatOpeningHours thing;
+TimeSpan sunStart  = thing.GetSunStart();
+```
+
+

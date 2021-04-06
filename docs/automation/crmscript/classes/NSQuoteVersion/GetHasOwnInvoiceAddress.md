@@ -11,3 +11,9 @@ The quote has an address for Invoicing. This will typically be copied from the c
 **Returns:** Bool
 
 
+```crmscript
+NSQuoteVersion thing;
+Bool hasOwnInvoiceAddress  = thing.GetHasOwnInvoiceAddress();
+```
+
+

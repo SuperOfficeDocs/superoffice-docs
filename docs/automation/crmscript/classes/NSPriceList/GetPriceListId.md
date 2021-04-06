@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSPriceList thing;
+Integer priceListId  = thing.GetPriceListId();
+```
+
+

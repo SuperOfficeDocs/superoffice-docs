@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **messageId** Integer
 
+```crmscript
+NSPreviewMailing thing;
+Integer messageId;
+thing.SetMessageId(messageId);
+```
+

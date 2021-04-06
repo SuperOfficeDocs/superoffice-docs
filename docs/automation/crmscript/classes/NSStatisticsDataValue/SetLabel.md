@@ -11,3 +11,9 @@ The label for the data value
 **Parameter:** 
  - **label** String
 
+```crmscript
+NSStatisticsDataValue thing;
+String label;
+thing.SetLabel(label);
+```
+

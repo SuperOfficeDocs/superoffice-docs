@@ -11,3 +11,9 @@ List of all possible competitors.
 **Parameter:** 
  - **competitor** Competitor
 
+```crmscript
+NSSaleEntity thing;
+Competitor competitor;
+thing.SetCompetitor(competitor);
+```
+

@@ -11,3 +11,9 @@ The address itself
 **Parameter:** 
  - **personEmail** String
 
+```crmscript
+NSPhoneListItem thing;
+String personEmail;
+thing.SetPersonEmail(personEmail);
+```
+

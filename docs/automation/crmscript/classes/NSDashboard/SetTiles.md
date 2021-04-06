@@ -11,3 +11,9 @@ The tiles associated with this dashboard
 **Parameter:** 
  - **tiles** DashboardTileArray
 
+```crmscript
+NSDashboard thing;
+DashboardTileArray tiles;
+thing.SetTiles(tiles);
+```
+

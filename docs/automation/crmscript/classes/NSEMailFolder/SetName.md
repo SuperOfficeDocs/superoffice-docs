@@ -11,3 +11,9 @@ Name of folder
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSEMailFolder thing;
+String name;
+thing.SetName(name);
+```
+

@@ -11,3 +11,9 @@ Detailed description
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSFormEntity thing;
+String description;
+thing.SetDescription(description);
+```
+

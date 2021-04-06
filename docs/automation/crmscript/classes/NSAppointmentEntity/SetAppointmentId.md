@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **appointmentId** Integer
 
+```crmscript
+NSAppointmentEntity thing;
+Integer appointmentId;
+thing.SetAppointmentId(appointmentId);
+```
+

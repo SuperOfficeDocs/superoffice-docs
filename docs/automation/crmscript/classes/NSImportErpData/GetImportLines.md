@@ -11,3 +11,9 @@ An array of Import lines
 **Returns:** ImportLineArray
 
 
+```crmscript
+NSImportErpData thing;
+ImportLineArray importLines  = thing.GetImportLines();
+```
+
+

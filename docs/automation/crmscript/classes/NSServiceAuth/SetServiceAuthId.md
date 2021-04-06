@@ -11,3 +11,9 @@ The primary key
 **Parameter:** 
  - **serviceAuthId** Integer
 
+```crmscript
+NSServiceAuth thing;
+Integer serviceAuthId;
+thing.SetServiceAuthId(serviceAuthId);
+```
+

@@ -11,3 +11,9 @@ The ERP list name, if the field has a list of values supplied by the ERP Connect
 **Parameter:** 
  - **erpListName** String
 
+```crmscript
+NSErpConnectionListMapping thing;
+String erpListName;
+thing.SetErpListName(erpListName);
+```
+

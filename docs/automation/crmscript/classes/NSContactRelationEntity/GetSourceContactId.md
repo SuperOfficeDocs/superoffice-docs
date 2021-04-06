@@ -11,3 +11,9 @@ Id of the source contact. The value is mandatory.
 **Returns:** Integer
 
 
+```crmscript
+NSContactRelationEntity thing;
+Integer sourceContactId  = thing.GetSourceContactId();
+```
+
+

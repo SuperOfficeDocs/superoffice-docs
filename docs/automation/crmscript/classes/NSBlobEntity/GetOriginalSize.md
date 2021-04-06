@@ -11,3 +11,9 @@ Original size of the binary data, before encryption and/or zipping. This is what
 **Returns:** Integer
 
 
+```crmscript
+NSBlobEntity thing;
+Integer originalSize  = thing.GetOriginalSize();
+```
+
+

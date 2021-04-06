@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **contactId** Integer
 
+```crmscript
+NSContactActivity thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
+

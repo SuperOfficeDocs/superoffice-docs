@@ -11,3 +11,9 @@ The owner of the mother appointment - the associate whose diary/checklist the mo
 **Returns:** Associate
 
 
+```crmscript
+NSAppointmentEntity thing;
+Associate motherAssociate  = thing.GetMotherAssociate();
+```
+
+

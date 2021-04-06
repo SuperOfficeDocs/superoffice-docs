@@ -11,3 +11,9 @@ The earning on this alternative, in percent of total. The Percentage is given in
 **Returns:** Float
 
 
+```crmscript
+NSQuoteAlternative thing;
+Float earningPercent  = thing.GetEarningPercent();
+```
+
+

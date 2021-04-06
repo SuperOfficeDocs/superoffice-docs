@@ -11,3 +11,9 @@ The date and time the Audience layout was last updated
 **Returns:** DateTime
 
 
+```crmscript
+NSAudienceLayoutEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
+
+

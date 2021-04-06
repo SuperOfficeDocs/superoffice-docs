@@ -11,3 +11,9 @@ The document plugin's version id that uniquely identifies one version of a docum
 **Parameter:** 
  - **versionId** String
 
+```crmscript
+NSVersionInfo thing;
+String versionId;
+thing.SetVersionId(versionId);
+```
+

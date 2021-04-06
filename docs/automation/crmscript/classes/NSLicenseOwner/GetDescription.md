@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSLicenseOwner thing;
+String description  = thing.GetDescription();
+```
+
+

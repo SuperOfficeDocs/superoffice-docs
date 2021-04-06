@@ -11,3 +11,9 @@ The main user group that this user belongs to.
 **Returns:** UserGroup
 
 
+```crmscript
+NSUser thing;
+UserGroup userGroup  = thing.GetUserGroup();
+```
+
+

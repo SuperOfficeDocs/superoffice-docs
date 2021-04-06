@@ -11,3 +11,8 @@ Set the primary key (id) for the SelectionCategory
 **Parameter:** 
  - **id** Integer SelectionCategory id.
 
+```crmscript
+NSSelectionCategory thing;
+thing.SetId(123);
+```
+

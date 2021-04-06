@@ -11,3 +11,9 @@ The account primary key
 **Parameter:** 
  - **accountId** Integer
 
+```crmscript
+NSSyncUserAccount thing;
+Integer accountId;
+thing.SetAccountId(accountId);
+```
+

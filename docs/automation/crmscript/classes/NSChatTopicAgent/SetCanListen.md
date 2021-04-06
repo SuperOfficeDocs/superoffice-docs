@@ -11,3 +11,9 @@ True of a user can listen in on this topic
 **Parameter:** 
  - **canListen** Bool
 
+```crmscript
+NSChatTopicAgent thing;
+Bool canListen;
+thing.SetCanListen(canListen);
+```
+

@@ -17,3 +17,9 @@ User type - 1 = internal user, 2 = resource, 3 = external user, 4 = anonymous, 5
      - Enum: 4 = AnonymousAssociate 
      - Enum: 5 = SystemAssociate 
 
+```crmscript
+NSAssociate thing;
+Integer type  = thing.GetType();
+```
+
+

@@ -11,3 +11,9 @@ Suggested guide item that this document is an instance of (Note: NOT valid for a
 **Returns:** Integer
 
 
+```crmscript
+NSDocumentEntity thing;
+Integer suggestedDocumentId  = thing.GetSuggestedDocumentId();
+```
+
+

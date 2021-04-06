@@ -11,3 +11,8 @@ Set the primary key (id) for the DeliveryType
 **Parameter:** 
  - **id** Integer DeliveryType id.
 
+```crmscript
+NSDeliveryType thing;
+thing.SetId(123);
+```
+

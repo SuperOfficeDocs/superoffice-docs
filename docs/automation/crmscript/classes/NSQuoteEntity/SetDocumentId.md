@@ -11,3 +11,9 @@ The ID of the main Quote Document
 **Parameter:** 
  - **documentId** Integer
 
+```crmscript
+NSQuoteEntity thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
+

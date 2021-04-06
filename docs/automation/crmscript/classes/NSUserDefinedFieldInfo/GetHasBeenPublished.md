@@ -11,3 +11,9 @@ Has the udef field been published?
 **Returns:** Bool
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Bool hasBeenPublished  = thing.GetHasBeenPublished();
+```
+
+

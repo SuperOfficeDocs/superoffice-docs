@@ -11,3 +11,9 @@ Value to help the user interface, is computed by summing the totalprice of the q
 **Parameter:** 
  - **subTotal** Float
 
+```crmscript
+NSQuoteAlternative thing;
+Float subTotal;
+thing.SetSubTotal(subTotal);
+```
+

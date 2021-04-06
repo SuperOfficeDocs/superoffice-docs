@@ -11,3 +11,9 @@ Tooltip text for ERP field; ignored on Save
 **Returns:** String
 
 
+```crmscript
+NSErpSyncFieldMapping thing;
+String erpDisplayTooltip  = thing.GetErpDisplayTooltip();
+```
+
+

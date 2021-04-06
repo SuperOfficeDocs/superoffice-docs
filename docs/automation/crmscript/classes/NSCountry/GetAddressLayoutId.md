@@ -11,3 +11,9 @@ Address layout of the country
 **Returns:** Integer
 
 
+```crmscript
+NSCountry thing;
+Integer addressLayoutId  = thing.GetAddressLayoutId();
+```
+
+

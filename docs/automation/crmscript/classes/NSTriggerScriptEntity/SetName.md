@@ -11,3 +11,9 @@ Optional description of what this script is used for.
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSTriggerScriptEntity thing;
+String name;
+thing.SetName(name);
+```
+

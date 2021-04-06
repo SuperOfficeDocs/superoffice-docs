@@ -11,3 +11,9 @@ Comment for relation
 **Parameter:** 
  - **comment** String
 
+```crmscript
+NSContactRelationEntity thing;
+String comment;
+thing.SetComment(comment);
+```
+

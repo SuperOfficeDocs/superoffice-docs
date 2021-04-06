@@ -11,3 +11,9 @@ Is this restriction active?  Inactive restrictions will not influence the genera
 **Parameter:** 
  - **isActive** Bool
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+Bool isActive;
+thing.SetIsActive(isActive);
+```
+

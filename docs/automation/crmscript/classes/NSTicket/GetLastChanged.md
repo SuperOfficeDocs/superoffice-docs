@@ -11,3 +11,9 @@ The last time the ticket was modified.
 **Returns:** DateTime
 
 
+```crmscript
+NSTicket thing;
+DateTime lastChanged  = thing.GetLastChanged();
+```
+
+

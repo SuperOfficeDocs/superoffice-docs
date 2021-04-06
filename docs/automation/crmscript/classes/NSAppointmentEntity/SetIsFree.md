@@ -11,3 +11,9 @@ True if free, false if busy
 **Parameter:** 
  - **isFree** Bool
 
+```crmscript
+NSAppointmentEntity thing;
+Bool isFree;
+thing.SetIsFree(isFree);
+```
+

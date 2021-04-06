@@ -11,3 +11,9 @@ The username of the associate owning the account
 **Returns:** String
 
 
+```crmscript
+NSSyncUserAccount thing;
+String associateName  = thing.GetAssociateName();
+```
+
+

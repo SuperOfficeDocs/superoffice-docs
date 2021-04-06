@@ -11,3 +11,9 @@ A string representing the author of the ticket (same as author of first message)
 **Parameter:** 
  - **author** String
 
+```crmscript
+NSTicketEntity thing;
+String author;
+thing.SetAuthor(author);
+```
+

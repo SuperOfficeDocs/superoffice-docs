@@ -11,3 +11,9 @@ A document may also be connected to a project, so you see the document both on t
 **Returns:** Project
 
 
+```crmscript
+NSDocumentEntity thing;
+Project project  = thing.GetProject();
+```
+
+

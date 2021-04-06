@@ -11,3 +11,8 @@ Set the primary key (id) for the PaymentType
 **Parameter:** 
  - **id** Integer PaymentType id.
 
+```crmscript
+NSPaymentType thing;
+thing.SetId(123);
+```
+

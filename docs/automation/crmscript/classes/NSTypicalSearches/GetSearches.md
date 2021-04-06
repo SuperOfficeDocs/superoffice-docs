@@ -11,3 +11,9 @@ The TypicalSearch structures (including criteria) to import
 **Returns:** TypicalSearchArray
 
 
+```crmscript
+NSTypicalSearches thing;
+TypicalSearchArray searches  = thing.GetSearches();
+```
+
+

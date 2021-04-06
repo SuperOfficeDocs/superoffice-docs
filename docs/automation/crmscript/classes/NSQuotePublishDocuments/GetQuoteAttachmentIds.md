@@ -11,3 +11,9 @@ Array of id's of any attachments (standard + custom for this version)
 **Returns:** IntegerArray
 
 
+```crmscript
+NSQuotePublishDocuments thing;
+IntegerArray quoteAttachmentIds  = thing.GetQuoteAttachmentIds();
+```
+
+

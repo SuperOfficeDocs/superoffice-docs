@@ -11,3 +11,9 @@ The user that last updated the contact
 **Returns:** Associate
 
 
+```crmscript
+NSContactEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
+
+

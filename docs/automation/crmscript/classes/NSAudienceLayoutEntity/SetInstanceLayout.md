@@ -11,3 +11,9 @@ The web part layout as a serialized string
 **Parameter:** 
  - **instanceLayout** String
 
+```crmscript
+NSAudienceLayoutEntity thing;
+String instanceLayout;
+thing.SetInstanceLayout(instanceLayout);
+```
+

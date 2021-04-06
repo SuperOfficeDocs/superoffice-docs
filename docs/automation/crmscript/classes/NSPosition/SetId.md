@@ -11,3 +11,8 @@ Set the primary key (id) for the Position
 **Parameter:** 
  - **id** Integer Position id.
 
+```crmscript
+NSPosition thing;
+thing.SetId(123);
+```
+

@@ -19,3 +19,9 @@ Field type
      - Enum: 6 = Date 
      - Enum: 99 = Label 
 
+```crmscript
+NSErpSyncDefaultValue thing;
+FieldMetadataType fieldType  = thing.GetFieldType();
+```
+
+

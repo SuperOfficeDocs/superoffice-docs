@@ -11,3 +11,9 @@ The work hour stop for Wednesdays. Note that only the time part of the DateTime 
 **Returns:** DateTime
 
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime wedStop  = thing.GetWedStop();
+```
+
+

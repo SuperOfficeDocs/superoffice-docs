@@ -11,3 +11,9 @@ True if this option only applies to the default data source, not selections
 **Returns:** Bool
 
 
+```crmscript
+NSDashboardTileOption thing;
+Bool defaultDataOption  = thing.GetDefaultDataOption();
+```
+
+

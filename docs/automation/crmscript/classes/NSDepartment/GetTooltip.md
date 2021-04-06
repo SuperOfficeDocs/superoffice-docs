@@ -10,3 +10,9 @@ Get the tooltip description for the Department list item.
 
 **Returns:** String Department tooltip description.
 
+```crmscript
+NSDepartment thing;
+String descr = thing.GetTooltip();
+```
+
+

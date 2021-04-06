@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** TimeZoneData
 
 
+```crmscript
+NSPocketStartupData thing;
+TimeZoneData baseLocaleTimeZoneData  = thing.GetBaseLocaleTimeZoneData();
+```
+
+

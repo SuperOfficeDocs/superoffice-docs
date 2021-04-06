@@ -11,3 +11,9 @@ The session key created in the login table
 **Parameter:** 
  - **key** String
 
+```crmscript
+NSCsSessionKey thing;
+String key;
+thing.SetKey(key);
+```
+

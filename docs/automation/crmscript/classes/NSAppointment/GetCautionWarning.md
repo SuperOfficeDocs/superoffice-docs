@@ -17,3 +17,9 @@ Status field to indicate appointments that have some sort of problem
      - Enum: 4 = IncomingRecurrenceChangeNotSupported 
      - Enum: 5 = ExternalParticipantsDateTimeMismatch 
 
+```crmscript
+NSAppointment thing;
+AppointmentCautionWarning cautionWarning  = thing.GetCautionWarning();
+```
+
+

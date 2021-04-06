@@ -11,3 +11,9 @@ Associate Id
 **Parameter:** 
  - **assocId** Integer
 
+```crmscript
+NSWebAppUsage thing;
+Integer assocId;
+thing.SetAssocId(assocId);
+```
+

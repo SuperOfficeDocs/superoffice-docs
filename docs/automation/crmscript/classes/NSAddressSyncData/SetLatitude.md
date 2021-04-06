@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **latitude** Float
 
+```crmscript
+NSAddressSyncData thing;
+Float latitude;
+thing.SetLatitude(latitude);
+```
+

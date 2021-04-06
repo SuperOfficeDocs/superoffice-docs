@@ -11,3 +11,9 @@ Key used for access verification
 **Parameter:** 
  - **accessKey** String
 
+```crmscript
+NSShipmentMessageEntity thing;
+String accessKey;
+thing.SetAccessKey(accessKey);
+```
+

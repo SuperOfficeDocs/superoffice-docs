@@ -11,3 +11,9 @@ The last time a session was accepted from the inside for this topic.
 **Parameter:** 
  - **lastAccept** DateTime
 
+```crmscript
+NSChatTopicEntity thing;
+DateTime lastAccept;
+thing.SetLastAccept(lastAccept);
+```
+

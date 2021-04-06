@@ -11,3 +11,9 @@ Form text used for the actual checkbox
 **Returns:** String
 
 
+```crmscript
+NSConsentPurpose thing;
+String consentText  = thing.GetConsentText();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **columnsInfo** RelationToOwnerArray
 
+```crmscript
+NSDataRights thing;
+RelationToOwnerArray columnsInfo;
+thing.SetColumnsInfo(columnsInfo);
+```
+

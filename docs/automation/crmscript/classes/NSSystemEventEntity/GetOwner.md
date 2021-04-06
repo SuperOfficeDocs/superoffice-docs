@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSSystemEventEntity thing;
+Integer owner  = thing.GetOwner();
+```
+
+

@@ -11,3 +11,9 @@ Template variable name
 **Returns:** String
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+String templateVariableName  = thing.GetTemplateVariableName();
+```
+
+

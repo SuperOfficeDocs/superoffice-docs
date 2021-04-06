@@ -10,3 +10,8 @@ Get the primary key (id) for the MrMrs
 
 **Returns:** Integer MrMrs id.
 
+```crmscript
+NSMrMrs thing;
+Integer id = thing.GetId();
+```
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **deleted** Integer
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer deleted;
+thing.SetDeleted(deleted);
+```
+

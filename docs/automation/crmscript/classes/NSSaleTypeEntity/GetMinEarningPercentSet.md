@@ -11,3 +11,9 @@ Is there a limit, in earning as percent of total, on quotes linked to sales of t
 **Returns:** Bool
 
 
+```crmscript
+NSSaleTypeEntity thing;
+Bool minEarningPercentSet  = thing.GetMinEarningPercentSet();
+```
+
+

@@ -11,3 +11,9 @@ Sort group lines by this field
 **Returns:** Integer
 
 
+```crmscript
+NSSaleTypeEntity thing;
+Integer sortGroupLinesBy  = thing.GetSortGroupLinesBy();
+```
+
+

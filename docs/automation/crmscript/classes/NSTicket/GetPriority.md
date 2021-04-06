@@ -11,3 +11,9 @@ The reference to the ticket_priority table.
 **Returns:** Integer
 
 
+```crmscript
+NSTicket thing;
+Integer priority  = thing.GetPriority();
+```
+
+

@@ -11,3 +11,9 @@ Is the connection currently active
 **Parameter:** 
  - **active** Bool
 
+```crmscript
+NSErpSyncConnectionSummary thing;
+Bool active;
+thing.SetActive(active);
+```
+

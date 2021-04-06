@@ -11,3 +11,9 @@ User agent handling this session
 **Parameter:** 
  - **user** Associate
 
+```crmscript
+NSChatSessionEntity thing;
+Associate user;
+thing.SetUser(user);
+```
+

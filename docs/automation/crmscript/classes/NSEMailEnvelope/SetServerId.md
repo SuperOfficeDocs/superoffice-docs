@@ -11,3 +11,9 @@ Unique id for the e-mail on the server
 **Parameter:** 
  - **serverId** Integer
 
+```crmscript
+NSEMailEnvelope thing;
+Integer serverId;
+thing.SetServerId(serverId);
+```
+

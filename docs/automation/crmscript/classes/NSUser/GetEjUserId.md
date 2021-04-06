@@ -11,3 +11,9 @@ ID of the ej user record corresponding to this associate; 0 for associates that 
 **Returns:** Integer
 
 
+```crmscript
+NSUser thing;
+Integer ejUserId  = thing.GetEjUserId();
+```
+
+

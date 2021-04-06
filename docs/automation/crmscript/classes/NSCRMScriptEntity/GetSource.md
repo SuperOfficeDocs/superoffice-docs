@@ -11,3 +11,9 @@ The script
 **Returns:** String
 
 
+```crmscript
+NSCRMScriptEntity thing;
+String source  = thing.GetSource();
+```
+
+

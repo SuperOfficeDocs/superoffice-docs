@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **projectEventId** Integer
 
+```crmscript
+NSProjectEventEntity thing;
+Integer projectEventId;
+thing.SetProjectEventId(projectEventId);
+```
+

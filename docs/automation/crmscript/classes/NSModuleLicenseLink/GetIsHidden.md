@@ -11,3 +11,9 @@ Is hidden from UI
 **Returns:** Bool
 
 
+```crmscript
+NSModuleLicenseLink thing;
+Bool isHidden  = thing.GetIsHidden();
+```
+
+

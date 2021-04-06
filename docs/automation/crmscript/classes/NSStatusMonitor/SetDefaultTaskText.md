@@ -11,3 +11,9 @@ Default task text for this status
 **Parameter:** 
  - **defaultTaskText** String
 
+```crmscript
+NSStatusMonitor thing;
+String defaultTaskText;
+thing.SetDefaultTaskText(defaultTaskText);
+```
+

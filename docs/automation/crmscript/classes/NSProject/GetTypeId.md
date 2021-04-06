@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSProject thing;
+Integer typeId  = thing.GetTypeId();
+```
+
+

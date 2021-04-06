@@ -11,3 +11,9 @@ Probability of sale succeess in percent (0-100)
 **Returns:** Integer
 
 
+```crmscript
+NSSaleSummaryItem thing;
+Integer probability  = thing.GetProbability();
+```
+
+

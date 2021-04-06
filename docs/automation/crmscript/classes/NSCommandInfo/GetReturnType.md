@@ -17,3 +17,9 @@ Declaration of what kind of return type the execution of this command will give.
      - Enum: 4 = Other 
      - Enum: 5 = URL 
 
+```crmscript
+NSCommandInfo thing;
+Integer returnType  = thing.GetReturnType();
+```
+
+

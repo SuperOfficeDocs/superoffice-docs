@@ -11,3 +11,9 @@ Is the webpanel visible when user is on central database
 **Returns:** Bool
 
 
+```crmscript
+NSWebPanelEntity thing;
+Bool onCentral  = thing.GetOnCentral();
+```
+
+

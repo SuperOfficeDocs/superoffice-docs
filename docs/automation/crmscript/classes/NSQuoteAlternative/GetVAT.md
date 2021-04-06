@@ -11,3 +11,9 @@ Tax/VAT - THIS IS AN AMOUNT, available as a merge field in the quote document. T
 **Returns:** Float
 
 
+```crmscript
+NSQuoteAlternative thing;
+Float vAT  = thing.GetVAT();
+```
+
+

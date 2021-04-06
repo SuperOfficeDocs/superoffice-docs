@@ -11,3 +11,9 @@ Accuracy of the trained model
 **Returns:** Float
 
 
+```crmscript
+NSCategorizationModelDetails thing;
+Float accuracy  = thing.GetAccuracy();
+```
+
+

@@ -11,3 +11,9 @@ Returns the direct phone that belong to the contact person.
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String directPhone  = thing.GetDirectPhone();
+```
+
+

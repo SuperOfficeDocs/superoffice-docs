@@ -11,3 +11,9 @@ If the sale has been changed, the carrier will be added.
 **Parameter:** 
  - **changedSale** Sale
 
+```crmscript
+NSQuoteVersionValidated thing;
+Sale changedSale;
+thing.SetChangedSale(changedSale);
+```
+

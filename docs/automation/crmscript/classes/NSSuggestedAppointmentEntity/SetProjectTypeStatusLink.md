@@ -11,3 +11,9 @@ Project type and project status link info
 **Parameter:** 
  - **projectTypeStatusLink** ProjectTypeStatusLink
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+ProjectTypeStatusLink projectTypeStatusLink;
+thing.SetProjectTypeStatusLink(projectTypeStatusLink);
+```
+

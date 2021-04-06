@@ -11,3 +11,9 @@ The internet address to this contact
 **Parameter:** 
  - **uRL** String
 
+```crmscript
+NSContact thing;
+String uRL;
+thing.SetURL(uRL);
+```
+

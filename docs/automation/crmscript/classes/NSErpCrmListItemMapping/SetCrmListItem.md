@@ -11,3 +11,9 @@ One mapped SuperOffice listItem
 **Parameter:** 
  - **crmListItem** MDOListItem
 
+```crmscript
+NSErpCrmListItemMapping thing;
+MDOListItem crmListItem;
+thing.SetCrmListItem(crmListItem);
+```
+

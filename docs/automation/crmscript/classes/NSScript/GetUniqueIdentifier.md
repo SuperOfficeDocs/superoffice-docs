@@ -11,3 +11,9 @@ Global unique identifier, accross customers/tenants
 **Returns:** String
 
 
+```crmscript
+NSScript thing;
+String uniqueIdentifier  = thing.GetUniqueIdentifier();
+```
+
+

@@ -11,3 +11,9 @@ Name of plugin
 **Parameter:** 
  - **plugin** String
 
+```crmscript
+NSIncomingMessage thing;
+String plugin;
+thing.SetPlugin(plugin);
+```
+

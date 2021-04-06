@@ -11,3 +11,9 @@ The date to be used for searching & showing
 **Returns:** DateTime
 
 
+```crmscript
+NSAppointmentEntity thing;
+DateTime activeDate  = thing.GetActiveDate();
+```
+
+

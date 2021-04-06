@@ -11,3 +11,9 @@ Person id of the associate owning this window setting
 **Parameter:** 
  - **personId** Integer
 
+```crmscript
+NSWindowPosSize thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
+

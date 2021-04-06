@@ -11,3 +11,9 @@ Id of the created follow up.
 **Parameter:** 
  - **createdAppointmentId** Integer
 
+```crmscript
+NSApproveRejectResponse thing;
+Integer createdAppointmentId;
+thing.SetCreatedAppointmentId(createdAppointmentId);
+```
+

@@ -11,3 +11,9 @@ Should this field be shown as a (read-only!) field in the CRM Gui
 **Parameter:** 
  - **showInGui** Bool
 
+```crmscript
+NSErpSyncFieldMapping thing;
+Bool showInGui;
+thing.SetShowInGui(showInGui);
+```
+

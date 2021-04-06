@@ -14,3 +14,9 @@ Starts with, contains or exact match
      - Enum: 2 = StartsWith 
      - Enum: 3 = ExactMatch 
 
+```crmscript
+NSFreeText thing;
+Integer multiWordOperator  = thing.GetMultiWordOperator();
+```
+
+

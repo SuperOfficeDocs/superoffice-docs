@@ -11,3 +11,9 @@ Does this sale type have a guide attached
 **Returns:** Bool
 
 
+```crmscript
+NSSaleTypeEntity thing;
+Bool hasGuide  = thing.GetHasGuide();
+```
+
+

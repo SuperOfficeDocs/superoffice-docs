@@ -17,3 +17,9 @@ What is the status of this submission
      - Enum: 4 = Processed 
      - Enum: 5 = Failed 
 
+```crmscript
+NSFormSubmissionEntity thing;
+FormSubmissionStatus status  = thing.GetStatus();
+```
+
+

@@ -11,3 +11,9 @@ Contains the message headers, like To, Cc, Bcc information, or custom headers
 **Parameter:** 
  - **messageHeaders** TicketMessageHeaderArray
 
+```crmscript
+NSTicketMessageEntity thing;
+TicketMessageHeaderArray messageHeaders;
+thing.SetMessageHeaders(messageHeaders);
+```
+

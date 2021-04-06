@@ -11,3 +11,9 @@ The group which this form belongs to.
 **Parameter:** 
  - **groupId** Integer
 
+```crmscript
+NSFormEntity thing;
+Integer groupId;
+thing.SetGroupId(groupId);
+```
+

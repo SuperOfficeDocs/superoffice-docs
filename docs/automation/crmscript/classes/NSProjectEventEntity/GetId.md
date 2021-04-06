@@ -11,3 +11,9 @@ Id of the external event
 **Returns:** Integer
 
 
+```crmscript
+NSProjectEventEntity thing;
+Integer id  = thing.GetId();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **canCreatePerson** Bool
 
+```crmscript
+NSCredentialType thing;
+Bool canCreatePerson;
+thing.SetCanCreatePerson(canCreatePerson);
+```
+

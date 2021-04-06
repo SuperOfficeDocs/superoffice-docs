@@ -11,3 +11,9 @@ The title of the typical search (multilingual)
 **Parameter:** 
  - **title** String
 
+```crmscript
+NSTypicalSearch thing;
+String title;
+thing.SetTitle(title);
+```
+

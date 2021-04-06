@@ -11,3 +11,9 @@ Rank/Version number, starts at 1
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteVersion thing;
+Integer rank  = thing.GetRank();
+```
+
+

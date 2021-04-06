@@ -11,3 +11,9 @@ Default currency for this country
 **Parameter:** 
  - **currencyId** Integer
 
+```crmscript
+NSCountry thing;
+Integer currencyId;
+thing.SetCurrencyId(currencyId);
+```
+

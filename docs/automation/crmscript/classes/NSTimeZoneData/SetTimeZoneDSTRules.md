@@ -11,3 +11,9 @@ Rules for daylight savings time
 **Parameter:** 
  - **timeZoneDSTRules** TimeZoneRuleDictionary
 
+```crmscript
+NSTimeZoneData thing;
+TimeZoneRuleDictionary timeZoneDSTRules;
+thing.SetTimeZoneDSTRules(timeZoneDSTRules);
+```
+

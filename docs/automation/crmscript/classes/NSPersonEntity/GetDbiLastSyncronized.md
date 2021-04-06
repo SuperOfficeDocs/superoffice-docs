@@ -11,3 +11,9 @@ Last external syncronization.
 **Returns:** DateTime
 
 
+```crmscript
+NSPersonEntity thing;
+DateTime dbiLastSyncronized  = thing.GetDbiLastSyncronized();
+```
+
+

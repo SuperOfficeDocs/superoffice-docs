@@ -11,3 +11,9 @@ Text used in passive direction
 **Returns:** String
 
 
+```crmscript
+NSRelationDefinitionEntity thing;
+String passiveText  = thing.GetPassiveText();
+```
+
+

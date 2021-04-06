@@ -11,3 +11,9 @@ Recent sales on contact
 **Parameter:** 
  - **sales** SaleSummaryItemArray
 
+```crmscript
+NSContactSummary thing;
+SaleSummaryItemArray sales;
+thing.SetSales(sales);
+```
+

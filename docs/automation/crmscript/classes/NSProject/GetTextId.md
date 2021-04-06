@@ -11,3 +11,9 @@ The id of the description
 **Returns:** Integer
 
 
+```crmscript
+NSProject thing;
+Integer textId  = thing.GetTextId();
+```
+
+

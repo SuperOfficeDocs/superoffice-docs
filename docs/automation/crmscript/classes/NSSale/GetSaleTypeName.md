@@ -11,3 +11,9 @@ The sale's type name
 **Returns:** String
 
 
+```crmscript
+NSSale thing;
+String saleTypeName  = thing.GetSaleTypeName();
+```
+
+

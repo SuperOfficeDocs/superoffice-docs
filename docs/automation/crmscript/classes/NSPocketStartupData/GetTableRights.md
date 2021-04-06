@@ -31,3 +31,9 @@ List of tablerights for logged in user, in the same order as the Tables array pa
      - Enum: 16 = F 
      - Enum: 20 = FI 
 
+```crmscript
+NSPocketStartupData thing;
+ETableRightArray tableRights  = thing.GetTableRights();
+```
+
+

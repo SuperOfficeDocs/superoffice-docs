@@ -11,3 +11,9 @@ Name of the table this favourite belongs to.
 **Parameter:** 
  - **tableName** String
 
+```crmscript
+NSFavourite thing;
+String tableName;
+thing.SetTableName(tableName);
+```
+

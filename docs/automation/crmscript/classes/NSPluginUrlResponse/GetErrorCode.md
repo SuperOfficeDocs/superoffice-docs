@@ -11,3 +11,9 @@ An error code, if available.
 **Returns:** String
 
 
+```crmscript
+NSPluginUrlResponse thing;
+String errorCode  = thing.GetErrorCode();
+```
+
+

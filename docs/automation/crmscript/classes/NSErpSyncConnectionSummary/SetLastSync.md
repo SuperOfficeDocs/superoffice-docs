@@ -11,3 +11,9 @@ The time of the last sync
 **Parameter:** 
  - **lastSync** DateTime
 
+```crmscript
+NSErpSyncConnectionSummary thing;
+DateTime lastSync;
+thing.SetLastSync(lastSync);
+```
+

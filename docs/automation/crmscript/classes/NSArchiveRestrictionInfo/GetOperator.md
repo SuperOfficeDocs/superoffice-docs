@@ -11,3 +11,9 @@ The operator, such as =, etc
 **Returns:** String
 
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+String operator  = thing.GetOperator();
+```
+
+

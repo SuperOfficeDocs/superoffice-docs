@@ -11,3 +11,9 @@ Registered when
 **Parameter:** 
  - **registered** DateTime
 
+```crmscript
+NSQuoteVersion thing;
+DateTime registered;
+thing.SetRegistered(registered);
+```
+

@@ -11,3 +11,9 @@ Hostname or ip to server to connect to. Custom ports may be specified by adding 
 **Returns:** String
 
 
+```crmscript
+NSEMailConnectionInfo thing;
+String serverName  = thing.GetServerName();
+```
+
+

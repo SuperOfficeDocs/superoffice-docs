@@ -11,3 +11,9 @@ Link description.
 **Returns:** String
 
 
+```crmscript
+NSLink thing;
+String description  = thing.GetDescription();
+```
+
+

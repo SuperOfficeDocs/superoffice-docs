@@ -11,3 +11,9 @@ The id of the prefdesc this preference is connected to
 **Parameter:** 
  - **prefDescId** Integer
 
+```crmscript
+NSPreference thing;
+Integer prefDescId;
+thing.SetPrefDescId(prefDescId);
+```
+

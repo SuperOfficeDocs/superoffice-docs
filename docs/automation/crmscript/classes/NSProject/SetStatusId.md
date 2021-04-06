@@ -11,3 +11,9 @@ The projects status id
 **Parameter:** 
  - **statusId** Integer
 
+```crmscript
+NSProject thing;
+Integer statusId;
+thing.SetStatusId(statusId);
+```
+

@@ -11,3 +11,9 @@ The consent source
 **Returns:** ConsentSource
 
 
+```crmscript
+NSConsentPerson thing;
+ConsentSource consentSource  = thing.GetConsentSource();
+```
+
+

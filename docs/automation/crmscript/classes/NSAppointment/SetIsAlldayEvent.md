@@ -11,3 +11,9 @@ True if all day event
 **Parameter:** 
  - **isAlldayEvent** Bool
 
+```crmscript
+NSAppointment thing;
+Bool isAlldayEvent;
+thing.SetIsAlldayEvent(isAlldayEvent);
+```
+

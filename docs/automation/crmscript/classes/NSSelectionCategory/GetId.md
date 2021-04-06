@@ -10,3 +10,8 @@ Get the primary key (id) for the SelectionCategory
 
 **Returns:** Integer SelectionCategory id.
 
+```crmscript
+NSSelectionCategory thing;
+Integer id = thing.GetId();
+```
+

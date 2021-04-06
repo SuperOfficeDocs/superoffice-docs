@@ -11,3 +11,9 @@ Appointment information
 **Parameter:** 
  - **appointment** Appointment
 
+```crmscript
+NSEMailAppointment thing;
+Appointment appointment;
+thing.SetAppointment(appointment);
+```
+

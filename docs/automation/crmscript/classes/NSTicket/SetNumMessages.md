@@ -11,3 +11,9 @@ The total number of messages for this request.
 **Parameter:** 
  - **numMessages** Integer
 
+```crmscript
+NSTicket thing;
+Integer numMessages;
+thing.SetNumMessages(numMessages);
+```
+

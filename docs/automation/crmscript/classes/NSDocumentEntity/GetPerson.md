@@ -11,3 +11,9 @@ A document may also be connected to a person; this must be a contact person regi
 **Returns:** Person
 
 
+```crmscript
+NSDocumentEntity thing;
+Person person  = thing.GetPerson();
+```
+
+

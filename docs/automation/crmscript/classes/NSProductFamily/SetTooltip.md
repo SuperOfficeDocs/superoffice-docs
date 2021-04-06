@@ -11,3 +11,9 @@ Set the tooltip description for the ProductFamily list item.
 **Parameter:** 
  - **tooltip** String ProductFamily tooltip description.
 
+```crmscript
+NSProductFamily thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

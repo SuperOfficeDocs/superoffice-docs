@@ -11,3 +11,9 @@ Person id - Primary key
 **Parameter:** 
  - **personId** Integer
 
+```crmscript
+NSSaleStakeholder thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
+

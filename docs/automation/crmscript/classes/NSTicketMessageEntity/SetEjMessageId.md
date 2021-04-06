@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Parameter:** 
  - **ejMessageId** Integer
 
+```crmscript
+NSTicketMessageEntity thing;
+Integer ejMessageId;
+thing.SetEjMessageId(ejMessageId);
+```
+

@@ -11,3 +11,9 @@ The visible heading
 **Returns:** String
 
 
+```crmscript
+NSHeadingEntity thing;
+String name  = thing.GetName();
+```
+
+

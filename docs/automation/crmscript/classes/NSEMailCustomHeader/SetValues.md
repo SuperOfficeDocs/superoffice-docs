@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **values** StringArray
 
+```crmscript
+NSEMailCustomHeader thing;
+StringArray values;
+thing.SetValues(values);
+```
+

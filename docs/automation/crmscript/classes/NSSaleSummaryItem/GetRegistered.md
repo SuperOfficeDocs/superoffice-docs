@@ -11,3 +11,9 @@ Registered date
 **Returns:** DateTime
 
 
+```crmscript
+NSSaleSummaryItem thing;
+DateTime registered  = thing.GetRegistered();
+```
+
+

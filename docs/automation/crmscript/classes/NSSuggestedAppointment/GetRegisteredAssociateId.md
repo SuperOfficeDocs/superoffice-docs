@@ -11,3 +11,9 @@ Registered by whom
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer registeredAssociateId  = thing.GetRegisteredAssociateId();
+```
+
+

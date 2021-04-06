@@ -11,3 +11,9 @@ The time (minutes) between when the ticket was created and when it was replied t
 **Returns:** Integer
 
 
+```crmscript
+NSTicketEntity thing;
+Integer timeToReply  = thing.GetTimeToReply();
+```
+
+

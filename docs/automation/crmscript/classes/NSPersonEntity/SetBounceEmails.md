@@ -11,3 +11,9 @@ Email addresses with a positive bounce counter.
 **Parameter:** 
  - **bounceEmails** StringArray
 
+```crmscript
+NSPersonEntity thing;
+StringArray bounceEmails;
+thing.SetBounceEmails(bounceEmails);
+```
+

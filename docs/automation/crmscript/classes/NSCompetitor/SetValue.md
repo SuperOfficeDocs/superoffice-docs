@@ -11,3 +11,8 @@ Set the name of the Competitor item.
 **Parameter:** 
  - **value** String Competitor name.
 
+```crmscript
+NSCompetitor thing;
+thing.SetValue("frotz");
+```
+

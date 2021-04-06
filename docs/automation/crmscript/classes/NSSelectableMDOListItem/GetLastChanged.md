@@ -11,3 +11,9 @@ Time of last change.
 **Returns:** DateTime
 
 
+```crmscript
+NSSelectableMDOListItem thing;
+DateTime lastChanged  = thing.GetLastChanged();
+```
+
+

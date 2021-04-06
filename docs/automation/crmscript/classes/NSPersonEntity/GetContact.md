@@ -11,3 +11,9 @@ The contact the contact person is registered on. This is required unless the 'Ma
 **Returns:** Contact
 
 
+```crmscript
+NSPersonEntity thing;
+Contact contact  = thing.GetContact();
+```
+
+

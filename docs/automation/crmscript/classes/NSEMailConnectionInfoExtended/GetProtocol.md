@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSEMailConnectionInfoExtended thing;
+String protocol  = thing.GetProtocol();
+```
+
+

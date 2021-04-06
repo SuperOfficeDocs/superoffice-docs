@@ -11,3 +11,9 @@ The total number of module licenses. In other words the number of free license a
 **Returns:** Integer
 
 
+```crmscript
+NSModuleLicenseLink thing;
+Integer total  = thing.GetTotal();
+```
+
+

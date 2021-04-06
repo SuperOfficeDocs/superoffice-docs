@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **unitListPrice** Float
 
+```crmscript
+NSProduct thing;
+Float unitListPrice;
+thing.SetUnitListPrice(unitListPrice);
+```
+

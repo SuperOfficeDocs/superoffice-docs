@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **associateList** SelectableMDOListItemArray
 
+```crmscript
+NSDiaryViewEntity thing;
+SelectableMDOListItemArray associateList;
+thing.SetAssociateList(associateList);
+```
+

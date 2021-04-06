@@ -11,3 +11,9 @@ The name on the email address
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSEMailAddress thing;
+String name;
+thing.SetName(name);
+```
+

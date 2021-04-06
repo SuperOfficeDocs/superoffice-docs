@@ -11,3 +11,9 @@ Registered by whom
 **Returns:** Integer
 
 
+```crmscript
+NSTriggerScriptEntity thing;
+Integer registeredAssociateId  = thing.GetRegisteredAssociateId();
+```
+
+

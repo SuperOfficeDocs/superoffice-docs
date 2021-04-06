@@ -11,3 +11,9 @@ Who updated this script
 **Returns:** String
 
 
+```crmscript
+NSScript thing;
+String updatedBy  = thing.GetUpdatedBy();
+```
+
+

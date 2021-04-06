@@ -11,3 +11,9 @@ A default value for the field.
 **Parameter:** 
  - **defaultValue** String
 
+```crmscript
+NSFieldMetadata thing;
+String defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
+

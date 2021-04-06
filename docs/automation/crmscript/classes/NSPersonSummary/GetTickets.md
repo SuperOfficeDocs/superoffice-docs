@@ -11,3 +11,9 @@ Recent tickets on person
 **Returns:** TicketSummaryItemArray
 
 
+```crmscript
+NSPersonSummary thing;
+TicketSummaryItemArray tickets  = thing.GetTickets();
+```
+
+

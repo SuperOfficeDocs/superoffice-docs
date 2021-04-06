@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **grantedLicenses** StringArray
 
+```crmscript
+NSUserInfo thing;
+StringArray grantedLicenses;
+thing.SetGrantedLicenses(grantedLicenses);
+```
+

@@ -11,3 +11,9 @@ Specify duration of the event
 **Parameter:** 
  - **duration** TimeSpan
 
+```crmscript
+NSPocketNotificationMessage thing;
+TimeSpan duration;
+thing.SetDuration(duration);
+```
+

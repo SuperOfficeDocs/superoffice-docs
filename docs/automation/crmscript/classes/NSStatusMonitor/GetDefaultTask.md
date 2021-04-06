@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSStatusMonitor thing;
+Integer defaultTask  = thing.GetDefaultTask();
+```
+
+

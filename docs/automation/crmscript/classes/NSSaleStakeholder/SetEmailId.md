@@ -11,3 +11,9 @@ E-mail address id - Primary key
 **Parameter:** 
  - **emailId** Integer
 
+```crmscript
+NSSaleStakeholder thing;
+Integer emailId;
+thing.SetEmailId(emailId);
+```
+

@@ -10,3 +10,8 @@ Return the usergroups and/or users the AppointmentEntity item is visible for.
 
 **Returns:** Visible for array.
 
+```crmscript
+NSAppointmentEntity thing;
+VisibleFor[] visibleFor = thing.GetVisibleFor();
+```
+

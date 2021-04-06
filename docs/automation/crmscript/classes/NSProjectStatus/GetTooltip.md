@@ -10,3 +10,9 @@ Get the tooltip description for the ProjectStatus list item.
 
 **Returns:** String ProjectStatus tooltip description.
 
+```crmscript
+NSProjectStatus thing;
+String descr = thing.GetTooltip();
+```
+
+

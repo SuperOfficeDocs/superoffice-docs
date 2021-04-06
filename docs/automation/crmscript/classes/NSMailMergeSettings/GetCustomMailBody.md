@@ -11,3 +11,9 @@ If specified, use this value as default mail body.
 **Returns:** String
 
 
+```crmscript
+NSMailMergeSettings thing;
+String customMailBody  = thing.GetCustomMailBody();
+```
+
+

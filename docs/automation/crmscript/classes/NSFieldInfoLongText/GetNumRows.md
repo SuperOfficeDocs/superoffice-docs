@@ -11,3 +11,9 @@ Number of lines of text to show. Text area height.
 **Returns:** Integer
 
 
+```crmscript
+NSFieldInfoLongText thing;
+Integer numRows  = thing.GetNumRows();
+```
+
+

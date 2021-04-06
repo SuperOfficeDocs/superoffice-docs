@@ -11,3 +11,9 @@ Name of the person that created the Audience layout
 **Parameter:** 
  - **createdBy** Associate
 
+```crmscript
+NSAudienceLayoutEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

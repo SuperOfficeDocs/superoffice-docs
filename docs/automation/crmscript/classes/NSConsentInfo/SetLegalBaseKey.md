@@ -11,3 +11,9 @@ Key for the LegalBase associated with this consent
 **Parameter:** 
  - **legalBaseKey** String
 
+```crmscript
+NSConsentInfo thing;
+String legalBaseKey;
+thing.SetLegalBaseKey(legalBaseKey);
+```
+

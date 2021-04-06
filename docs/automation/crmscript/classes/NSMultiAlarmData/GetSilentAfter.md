@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSMultiAlarmData thing;
+Integer silentAfter  = thing.GetSilentAfter();
+```
+
+

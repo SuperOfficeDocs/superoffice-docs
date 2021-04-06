@@ -11,3 +11,9 @@ Array of restrictiongroups, including the default first group of restrictions
 **Parameter:** 
  - **restrictionGroups** ArchiveRestrictionGroupArray
 
+```crmscript
+NSCriteriaInformation thing;
+ArchiveRestrictionGroupArray restrictionGroups;
+thing.SetRestrictionGroups(restrictionGroups);
+```
+

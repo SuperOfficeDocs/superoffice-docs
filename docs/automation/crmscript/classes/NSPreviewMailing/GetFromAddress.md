@@ -11,3 +11,9 @@ Email address to put in the From header of the messages
 **Returns:** String
 
 
+```crmscript
+NSPreviewMailing thing;
+String fromAddress  = thing.GetFromAddress();
+```
+
+

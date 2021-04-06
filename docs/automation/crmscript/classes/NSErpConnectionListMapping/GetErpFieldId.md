@@ -11,3 +11,9 @@ The id of the field that is using the lists. Readonly
 **Returns:** Integer
 
 
+```crmscript
+NSErpConnectionListMapping thing;
+Integer erpFieldId  = thing.GetErpFieldId();
+```
+
+

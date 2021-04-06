@@ -11,3 +11,9 @@ The contact or person's id
 **Returns:** Integer
 
 
+```crmscript
+NSPhoneListItem thing;
+Integer id  = thing.GetId();
+```
+
+

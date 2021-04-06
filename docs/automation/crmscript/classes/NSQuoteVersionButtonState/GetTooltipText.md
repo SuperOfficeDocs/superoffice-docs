@@ -11,3 +11,9 @@ The tooltip for the button
 **Returns:** String
 
 
+```crmscript
+NSQuoteVersionButtonState thing;
+String tooltipText  = thing.GetTooltipText();
+```
+
+

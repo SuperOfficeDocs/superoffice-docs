@@ -11,3 +11,9 @@ Date/time the customer read the mailing.
 **Parameter:** 
  - **opened** DateTime
 
+```crmscript
+NSPreviewMailing thing;
+DateTime opened;
+thing.SetOpened(opened);
+```
+

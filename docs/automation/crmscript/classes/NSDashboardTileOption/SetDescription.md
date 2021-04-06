@@ -11,3 +11,9 @@ Option description, visible to users
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSDashboardTileOption thing;
+String description;
+thing.SetDescription(description);
+```
+

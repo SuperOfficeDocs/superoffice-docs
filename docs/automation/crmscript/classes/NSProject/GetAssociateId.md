@@ -11,3 +11,9 @@ The project owner id (associate id)
 **Returns:** Integer
 
 
+```crmscript
+NSProject thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

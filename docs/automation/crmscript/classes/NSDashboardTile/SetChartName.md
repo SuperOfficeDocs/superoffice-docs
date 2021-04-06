@@ -11,3 +11,9 @@ The original chart name
 **Parameter:** 
  - **chartName** String
 
+```crmscript
+NSDashboardTile thing;
+String chartName;
+thing.SetChartName(chartName);
+```
+

@@ -11,3 +11,9 @@ Two-letter country-code according to ISO3166
 **Returns:** String
 
 
+```crmscript
+NSCountry thing;
+String twoLetterISOCountry  = thing.GetTwoLetterISOCountry();
+```
+
+

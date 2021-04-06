@@ -11,3 +11,9 @@ Link to a follow-up activity, created when this quote version was sent to the cu
 **Parameter:** 
  - **followupId** Integer
 
+```crmscript
+NSQuoteVersion thing;
+Integer followupId;
+thing.SetFollowupId(followupId);
+```
+

@@ -11,3 +11,9 @@ Number of rows updated
 **Returns:** Integer
 
 
+```crmscript
+NSMassOperationResult thing;
+Integer updates  = thing.GetUpdates();
+```
+
+

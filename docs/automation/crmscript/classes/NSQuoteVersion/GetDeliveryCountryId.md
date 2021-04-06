@@ -11,3 +11,9 @@ Country of delivery address, typically copied from the contact record
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteVersion thing;
+Integer deliveryCountryId  = thing.GetDeliveryCountryId();
+```
+
+

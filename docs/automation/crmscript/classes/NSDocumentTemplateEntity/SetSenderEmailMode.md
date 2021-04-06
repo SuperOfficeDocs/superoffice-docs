@@ -15,3 +15,9 @@ If email template, when DocType is Privacy or quote email, it is possible to mak
      - Enum: 2 = UseSupportContact 
      - Enum: 3 = UseLoggedInUser 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+SenderMailMode senderEmailMode;
+thing.SetSenderEmailMode(senderEmailMode);
+```
+

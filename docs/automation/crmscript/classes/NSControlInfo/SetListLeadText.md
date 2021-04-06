@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **listLeadText** String
 
+```crmscript
+NSControlInfo thing;
+String listLeadText;
+thing.SetListLeadText(listLeadText);
+```
+

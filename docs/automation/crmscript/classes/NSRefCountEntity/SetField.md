@@ -11,3 +11,9 @@ Field identifier in string format table.field
 **Parameter:** 
  - **field** String
 
+```crmscript
+NSRefCountEntity thing;
+String field;
+thing.SetField(field);
+```
+

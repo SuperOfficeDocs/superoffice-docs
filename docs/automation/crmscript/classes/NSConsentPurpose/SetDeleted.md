@@ -11,3 +11,9 @@ true if the ConsentPurpose is deleted
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSConsentPurpose thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

@@ -11,3 +11,9 @@ Dictionary of column name - column data items. Each column data item contains a 
 **Parameter:** 
  - **columnData** ColumnDataDictionary
 
+```crmscript
+NSArchiveListItem thing;
+ColumnDataDictionary columnData;
+thing.SetColumnData(columnData);
+```
+

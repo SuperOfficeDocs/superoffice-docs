@@ -11,3 +11,9 @@ Who created to sale
 **Parameter:** 
  - **createdBy** Associate
 
+```crmscript
+NSSaleEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

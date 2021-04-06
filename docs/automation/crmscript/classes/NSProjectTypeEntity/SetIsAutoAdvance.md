@@ -11,3 +11,9 @@ Does the project status advance automatically, when the last guided activity in 
 **Parameter:** 
  - **isAutoAdvance** Bool
 
+```crmscript
+NSProjectTypeEntity thing;
+Bool isAutoAdvance;
+thing.SetIsAutoAdvance(isAutoAdvance);
+```
+

@@ -11,3 +11,9 @@ Bcc recipient of e-mail
 **Returns:** EMailAddressArray
 
 
+```crmscript
+NSEMailEntity thing;
+EMailAddressArray bcc  = thing.GetBcc();
+```
+
+

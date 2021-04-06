@@ -11,3 +11,9 @@ Path to script in the hierarchy.
 **Parameter:** 
  - **path** String
 
+```crmscript
+NSScript thing;
+String path;
+thing.SetPath(path);
+```
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **saleId** Integer
 
+```crmscript
+NSSaleSummaryItem thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
+

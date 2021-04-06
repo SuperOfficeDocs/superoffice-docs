@@ -11,3 +11,9 @@ Contains the error message for a non-valide CRMScript
 **Parameter:** 
  - **errorMessage** String
 
+```crmscript
+NSCRMScriptResult thing;
+String errorMessage;
+thing.SetErrorMessage(errorMessage);
+```
+

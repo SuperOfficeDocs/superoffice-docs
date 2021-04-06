@@ -11,3 +11,9 @@ QuoteLines can be re-ordered, so we must track the ordering.
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteLine thing;
+Integer rank  = thing.GetRank();
+```
+
+

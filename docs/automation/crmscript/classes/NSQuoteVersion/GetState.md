@@ -21,3 +21,9 @@ Current state of this quote version.
      - Enum: 8 = Lost 
      - Enum: 9 = Sold 
 
+```crmscript
+NSQuoteVersion thing;
+QuoteVersionState state  = thing.GetState();
+```
+
+

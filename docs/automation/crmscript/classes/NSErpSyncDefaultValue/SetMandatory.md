@@ -11,3 +11,9 @@ Should the user be forced to set a value (the Erp Connector may declare fields m
 **Parameter:** 
  - **mandatory** Bool
 
+```crmscript
+NSErpSyncDefaultValue thing;
+Bool mandatory;
+thing.SetMandatory(mandatory);
+```
+

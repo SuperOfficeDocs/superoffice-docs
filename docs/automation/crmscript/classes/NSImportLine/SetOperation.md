@@ -23,3 +23,9 @@ Which operation will be used? This is a read-only property
      - Enum: 512 = Obs 
      - Enum: 1024 = ObsERPDuplicate 
 
+```crmscript
+NSImportLine thing;
+Integer operation;
+thing.SetOperation(operation);
+```
+

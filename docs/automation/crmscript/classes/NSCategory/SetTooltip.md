@@ -11,3 +11,9 @@ Set the tooltip description for the Category list item.
 **Parameter:** 
  - **tooltip** String Category tooltip description.
 
+```crmscript
+NSCategory thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

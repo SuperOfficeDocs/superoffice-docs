@@ -11,3 +11,9 @@ ID of appointment that "caused" the nextMilestoneDate, can be 0
 **Returns:** Integer
 
 
+```crmscript
+NSProjectEntity thing;
+Integer nmdAppointmentId  = thing.GetNmdAppointmentId();
+```
+
+

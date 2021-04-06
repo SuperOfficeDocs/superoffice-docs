@@ -11,3 +11,9 @@ Credentials are valid from this date.
 **Parameter:** 
  - **validFrom** DateTime
 
+```crmscript
+NSUntrustedCredentials thing;
+DateTime validFrom;
+thing.SetValidFrom(validFrom);
+```
+

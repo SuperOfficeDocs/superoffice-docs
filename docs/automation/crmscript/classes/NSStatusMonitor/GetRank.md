@@ -11,3 +11,9 @@ Priority rank, in case more than one status is signalled. Lowest wins
 **Returns:** Integer
 
 
+```crmscript
+NSStatusMonitor thing;
+Integer rank  = thing.GetRank();
+```
+
+

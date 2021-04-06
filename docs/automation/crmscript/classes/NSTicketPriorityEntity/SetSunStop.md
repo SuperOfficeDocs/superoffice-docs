@@ -11,3 +11,9 @@ The work hour stop for Sundays. Note that only the time part of the DateTime is 
 **Parameter:** 
  - **sunStop** DateTime
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime sunStop;
+thing.SetSunStop(sunStop);
+```
+

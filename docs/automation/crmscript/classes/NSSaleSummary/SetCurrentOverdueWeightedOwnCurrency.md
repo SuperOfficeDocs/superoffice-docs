@@ -11,3 +11,9 @@ Weighted sum for all overdue sales within the period in default currency for the
 **Parameter:** 
  - **currentOverdueWeightedOwnCurrency** Float
 
+```crmscript
+NSSaleSummary thing;
+Float currentOverdueWeightedOwnCurrency;
+thing.SetCurrentOverdueWeightedOwnCurrency(currentOverdueWeightedOwnCurrency);
+```
+

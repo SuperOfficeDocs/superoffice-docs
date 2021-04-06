@@ -11,3 +11,9 @@ Who updated the sale
 **Parameter:** 
  - **updatedBy** Associate
 
+```crmscript
+NSSaleEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
+

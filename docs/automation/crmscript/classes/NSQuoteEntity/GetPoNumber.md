@@ -11,3 +11,9 @@ Customer's Purchase order number
 **Returns:** String
 
 
+```crmscript
+NSQuoteEntity thing;
+String poNumber  = thing.GetPoNumber();
+```
+
+

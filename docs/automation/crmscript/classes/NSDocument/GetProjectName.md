@@ -11,3 +11,9 @@ Project name
 **Returns:** String
 
 
+```crmscript
+NSDocument thing;
+String projectName  = thing.GetProjectName();
+```
+
+

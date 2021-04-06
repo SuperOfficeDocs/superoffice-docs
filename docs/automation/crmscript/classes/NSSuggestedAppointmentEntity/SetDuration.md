@@ -11,3 +11,9 @@ Duration in minutes of suggested appointment
 **Parameter:** 
  - **duration** TimeSpan
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+TimeSpan duration;
+thing.SetDuration(duration);
+```
+

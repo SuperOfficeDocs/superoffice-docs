@@ -11,3 +11,9 @@ Summaries of the configuration of the actors configured for this connection
 **Parameter:** 
  - **actors** ErpSyncActorSummaryArray
 
+```crmscript
+NSErpSyncConnectionSummary thing;
+ErpSyncActorSummaryArray actors;
+thing.SetActors(actors);
+```
+

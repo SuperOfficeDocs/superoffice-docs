@@ -10,3 +10,9 @@ Get the tooltip description for the Currency list item.
 
 **Returns:** String Currency tooltip description.
 
+```crmscript
+NSCurrency thing;
+String descr = thing.GetTooltip();
+```
+
+

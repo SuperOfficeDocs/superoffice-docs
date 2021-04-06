@@ -11,3 +11,9 @@ Do not escape HTML in field when displaying contents.
 **Parameter:** 
  - **isHtml** Bool
 
+```crmscript
+NSFieldInfoShortText thing;
+Bool isHtml;
+thing.SetIsHtml(isHtml);
+```
+

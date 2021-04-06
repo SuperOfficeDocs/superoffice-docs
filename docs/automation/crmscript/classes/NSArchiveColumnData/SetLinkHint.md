@@ -11,3 +11,9 @@ The link hint consists of information to construct an actual link; additional in
 **Parameter:** 
  - **linkHint** String
 
+```crmscript
+NSArchiveColumnData thing;
+String linkHint;
+thing.SetLinkHint(linkHint);
+```
+

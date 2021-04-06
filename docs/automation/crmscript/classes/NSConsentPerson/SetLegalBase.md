@@ -11,3 +11,9 @@ The legal base
 **Parameter:** 
  - **legalBase** LegalBase
 
+```crmscript
+NSConsentPerson thing;
+LegalBase legalBase;
+thing.SetLegalBase(legalBase);
+```
+

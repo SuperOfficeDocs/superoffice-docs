@@ -11,3 +11,9 @@ date + start time planned
 **Returns:** DateTime
 
 
+```crmscript
+NSDocumentEntity thing;
+DateTime date  = thing.GetDate();
+```
+
+

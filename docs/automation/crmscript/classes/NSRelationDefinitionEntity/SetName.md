@@ -11,3 +11,9 @@ Active text
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSRelationDefinitionEntity thing;
+String name;
+thing.SetName(name);
+```
+

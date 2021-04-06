@@ -11,3 +11,9 @@ The name of the configuration parameter
 **Returns:** String
 
 
+```crmscript
+NSAudienceConfigParameter thing;
+String name  = thing.GetName();
+```
+
+

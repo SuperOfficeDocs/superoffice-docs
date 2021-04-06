@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **screenChooserId** Integer
 
+```crmscript
+NSTriggerScriptEntity thing;
+Integer screenChooserId;
+thing.SetScreenChooserId(screenChooserId);
+```
+

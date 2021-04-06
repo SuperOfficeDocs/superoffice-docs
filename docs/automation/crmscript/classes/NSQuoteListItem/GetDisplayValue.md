@@ -11,3 +11,9 @@ List item text to display.
 **Returns:** String
 
 
+```crmscript
+NSQuoteListItem thing;
+String displayValue  = thing.GetDisplayValue();
+```
+
+

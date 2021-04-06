@@ -14,3 +14,9 @@ Static/Dynamic/Combined?
      - Enum: 1 = Dynamic 
      - Enum: 2 = Combined 
 
+```crmscript
+NSSelectionEntity thing;
+Integer selectionType;
+thing.SetSelectionType(selectionType);
+```
+

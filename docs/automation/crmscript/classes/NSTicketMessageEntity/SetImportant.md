@@ -11,3 +11,9 @@ If this message is important or not.
 **Parameter:** 
  - **important** Bool
 
+```crmscript
+NSTicketMessageEntity thing;
+Bool important;
+thing.SetImportant(important);
+```
+

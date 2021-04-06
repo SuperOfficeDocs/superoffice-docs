@@ -11,3 +11,8 @@ Set the name of the Role item.
 **Parameter:** 
  - **value** String Role name.
 
+```crmscript
+NSRole thing;
+thing.SetValue("frotz");
+```
+

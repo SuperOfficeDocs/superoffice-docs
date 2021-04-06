@@ -11,3 +11,9 @@ The date (inclusive) the pricelist start to be valid. This can be DateTime.MinVa
 **Returns:** DateTime
 
 
+```crmscript
+NSPriceList thing;
+DateTime validFrom  = thing.GetValidFrom();
+```
+
+

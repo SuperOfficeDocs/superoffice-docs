@@ -11,3 +11,9 @@ Deadline to add if escalated (minutes)
 **Parameter:** 
  - **deadline** Integer
 
+```crmscript
+NSTicketPriorityEntity thing;
+Integer deadline;
+thing.SetDeadline(deadline);
+```
+

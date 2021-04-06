@@ -11,3 +11,9 @@ Indicates if this is the default set of criteria for an entity
 **Returns:** Integer
 
 
+```crmscript
+NSTypicalSearch thing;
+Integer isEntityDefault  = thing.GetIsEntityDefault();
+```
+
+

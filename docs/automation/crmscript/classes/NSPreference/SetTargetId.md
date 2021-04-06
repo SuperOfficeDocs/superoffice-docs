@@ -11,3 +11,9 @@ The id of the target row. The table it points at is specified by the preference 
 **Parameter:** 
  - **targetId** Integer
 
+```crmscript
+NSPreference thing;
+Integer targetId;
+thing.SetTargetId(targetId);
+```
+

@@ -11,3 +11,9 @@ Contact name
 **Returns:** String
 
 
+```crmscript
+NSPreviewMailing thing;
+String contactName  = thing.GetContactName();
+```
+
+

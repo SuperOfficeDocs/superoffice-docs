@@ -15,3 +15,9 @@ Completed status for task
      - Enum: 2 = Started 
      - Enum: 3 = Completed 
 
+```crmscript
+NSMailMergeTask thing;
+Integer completed;
+thing.SetCompleted(completed);
+```
+

@@ -11,3 +11,9 @@ The name of the mail sorter used when the email was imported. Note: We must use 
 **Returns:** String
 
 
+```crmscript
+NSTicketMessageEntity thing;
+String mailSorter  = thing.GetMailSorter();
+```
+
+

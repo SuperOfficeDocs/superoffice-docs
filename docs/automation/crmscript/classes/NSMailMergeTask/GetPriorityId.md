@@ -11,3 +11,9 @@ Priority of task
 **Returns:** Integer
 
 
+```crmscript
+NSMailMergeTask thing;
+Integer priorityId  = thing.GetPriorityId();
+```
+
+

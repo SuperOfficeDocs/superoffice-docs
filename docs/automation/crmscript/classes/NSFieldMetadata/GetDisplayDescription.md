@@ -11,3 +11,9 @@ Tooltip for the field name.
 **Returns:** String
 
 
+```crmscript
+NSFieldMetadata thing;
+String displayDescription  = thing.GetDisplayDescription();
+```
+
+

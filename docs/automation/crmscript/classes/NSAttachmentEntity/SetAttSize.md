@@ -11,3 +11,9 @@ The size (in bytes) for the attachment.
 **Parameter:** 
  - **attSize** Integer
 
+```crmscript
+NSAttachmentEntity thing;
+Integer attSize;
+thing.SetAttSize(attSize);
+```
+

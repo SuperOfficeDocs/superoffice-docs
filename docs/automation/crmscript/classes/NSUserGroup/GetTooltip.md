@@ -11,3 +11,9 @@ Tooltip or other description
 **Returns:** String
 
 
+```crmscript
+NSUserGroup thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

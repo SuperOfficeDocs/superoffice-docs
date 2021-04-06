@@ -11,3 +11,9 @@ True if this appointment is a booking.
 **Returns:** Bool
 
 
+```crmscript
+NSAppointment thing;
+Bool isBooking  = thing.GetIsBooking();
+```
+
+

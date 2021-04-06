@@ -11,3 +11,9 @@ The product code / article number in the product supplier system.
 **Returns:** String
 
 
+```crmscript
+NSProduct thing;
+String code  = thing.GetCode();
+```
+
+

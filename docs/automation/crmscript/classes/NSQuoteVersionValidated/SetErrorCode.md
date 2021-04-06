@@ -11,3 +11,9 @@ An error code, if available.
 **Parameter:** 
  - **errorCode** String
 
+```crmscript
+NSQuoteVersionValidated thing;
+String errorCode;
+thing.SetErrorCode(errorCode);
+```
+

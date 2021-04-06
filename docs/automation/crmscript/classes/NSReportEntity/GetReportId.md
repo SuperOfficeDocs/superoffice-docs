@@ -11,3 +11,9 @@ The id of the report.
 **Returns:** Integer
 
 
+```crmscript
+NSReportEntity thing;
+Integer reportId  = thing.GetReportId();
+```
+
+

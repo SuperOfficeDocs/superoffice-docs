@@ -11,3 +11,9 @@ Country
 **Parameter:** 
  - **countryId** Integer
 
+```crmscript
+NSPerson thing;
+Integer countryId;
+thing.SetCountryId(countryId);
+```
+

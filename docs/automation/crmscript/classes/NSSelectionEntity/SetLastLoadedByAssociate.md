@@ -11,3 +11,9 @@ Associate that last looked at the selection members; only date (not time) is val
 **Parameter:** 
  - **lastLoadedByAssociate** Associate
 
+```crmscript
+NSSelectionEntity thing;
+Associate lastLoadedByAssociate;
+thing.SetLastLoadedByAssociate(lastLoadedByAssociate);
+```
+

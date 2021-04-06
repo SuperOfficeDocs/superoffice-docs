@@ -16,3 +16,9 @@ Actiona taken for row
      - Enum: 4 = Deleted 
      - Enum: 5 = ColumnsZeroed 
 
+```crmscript
+NSUpsertRowStatus thing;
+Integer action;
+thing.SetAction(action);
+```
+

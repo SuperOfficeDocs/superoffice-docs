@@ -11,3 +11,9 @@ The user that owns this contact.
 **Returns:** Associate
 
 
+```crmscript
+NSContactEntity thing;
+Associate associate  = thing.GetAssociate();
+```
+
+

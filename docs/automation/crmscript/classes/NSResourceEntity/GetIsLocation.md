@@ -11,3 +11,9 @@ If true the resource is a location
 **Returns:** Bool
 
 
+```crmscript
+NSResourceEntity thing;
+Bool isLocation  = thing.GetIsLocation();
+```
+
+

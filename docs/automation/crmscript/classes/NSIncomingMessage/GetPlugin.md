@@ -11,3 +11,9 @@ Name of plugin
 **Returns:** String
 
 
+```crmscript
+NSIncomingMessage thing;
+String plugin  = thing.GetPlugin();
+```
+
+

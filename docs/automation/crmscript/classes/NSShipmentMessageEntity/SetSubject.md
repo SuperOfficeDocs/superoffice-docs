@@ -11,3 +11,9 @@ The mail subject field of the message
 **Parameter:** 
  - **subject** String
 
+```crmscript
+NSShipmentMessageEntity thing;
+String subject;
+thing.SetSubject(subject);
+```
+

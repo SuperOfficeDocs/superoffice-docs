@@ -11,3 +11,9 @@ Is this connection accessible to everyone?  If not, then the QuoteConnectionAcce
 **Returns:** Bool
 
 
+```crmscript
+NSQuoteConnection thing;
+Bool allAccess  = thing.GetAllAccess();
+```
+
+

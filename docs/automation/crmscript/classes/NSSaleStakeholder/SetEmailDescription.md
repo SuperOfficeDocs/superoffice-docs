@@ -11,3 +11,9 @@ E-mail description
 **Parameter:** 
  - **emailDescription** String
 
+```crmscript
+NSSaleStakeholder thing;
+String emailDescription;
+thing.SetEmailDescription(emailDescription);
+```
+

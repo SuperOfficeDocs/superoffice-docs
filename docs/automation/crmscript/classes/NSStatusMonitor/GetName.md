@@ -11,3 +11,9 @@ Name of status monitor
 **Returns:** String
 
 
+```crmscript
+NSStatusMonitor thing;
+String name  = thing.GetName();
+```
+
+

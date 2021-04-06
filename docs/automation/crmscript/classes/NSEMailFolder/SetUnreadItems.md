@@ -11,3 +11,9 @@ Number of unread messages in the folder
 **Parameter:** 
  - **unreadItems** Integer
 
+```crmscript
+NSEMailFolder thing;
+Integer unreadItems;
+thing.SetUnreadItems(unreadItems);
+```
+

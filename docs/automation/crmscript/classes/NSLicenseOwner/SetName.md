@@ -11,3 +11,9 @@ The name of the license owner
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSLicenseOwner thing;
+String name;
+thing.SetName(name);
+```
+

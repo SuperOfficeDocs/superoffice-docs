@@ -11,3 +11,9 @@ Area name
 **Returns:** String
 
 
+```crmscript
+NSArea thing;
+String name  = thing.GetName();
+```
+
+

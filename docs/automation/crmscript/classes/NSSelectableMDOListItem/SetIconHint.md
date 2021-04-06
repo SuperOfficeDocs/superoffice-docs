@@ -11,3 +11,9 @@ The Icon hint of the ListItem. Custom field.
 **Parameter:** 
  - **iconHint** String
 
+```crmscript
+NSSelectableMDOListItem thing;
+String iconHint;
+thing.SetIconHint(iconHint);
+```
+

@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSConsentSource thing;
+Integer consentSourceId  = thing.GetConsentSourceId();
+```
+
+

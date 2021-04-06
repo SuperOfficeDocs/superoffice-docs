@@ -11,3 +11,9 @@ The mail server
 **Parameter:** 
  - **server** String
 
+```crmscript
+NSServiceAuth thing;
+String server;
+thing.SetServer(server);
+```
+

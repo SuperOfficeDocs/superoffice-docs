@@ -10,3 +10,8 @@ Get the primary key (id) for the ProjectType
 
 **Returns:** Integer ProjectType id.
 
+```crmscript
+NSProjectType thing;
+Integer id = thing.GetId();
+```
+

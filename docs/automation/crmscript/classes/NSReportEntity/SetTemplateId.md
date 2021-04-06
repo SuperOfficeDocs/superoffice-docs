@@ -11,3 +11,9 @@ The id of report template.
 **Parameter:** 
  - **templateId** Integer
 
+```crmscript
+NSReportEntity thing;
+Integer templateId;
+thing.SetTemplateId(templateId);
+```
+

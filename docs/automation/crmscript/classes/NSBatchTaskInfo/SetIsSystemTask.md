@@ -11,3 +11,9 @@ If IsSystemTask is true, the task is not initiated by an associate.
 **Parameter:** 
  - **isSystemTask** Bool
 
+```crmscript
+NSBatchTaskInfo thing;
+Bool isSystemTask;
+thing.SetIsSystemTask(isSystemTask);
+```
+

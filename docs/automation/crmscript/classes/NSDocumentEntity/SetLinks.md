@@ -11,3 +11,9 @@ List of all elements linked to the document.
 **Parameter:** 
  - **links** LinkArray
 
+```crmscript
+NSDocumentEntity thing;
+LinkArray links;
+thing.SetLinks(links);
+```
+

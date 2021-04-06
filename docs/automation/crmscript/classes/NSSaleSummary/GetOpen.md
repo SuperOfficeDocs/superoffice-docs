@@ -11,3 +11,9 @@ Number of all open within the period
 **Returns:** Integer
 
 
+```crmscript
+NSSaleSummary thing;
+Integer open  = thing.GetOpen();
+```
+
+

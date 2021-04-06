@@ -11,3 +11,9 @@ The contact's internet adresses
 **Returns:** EntityElementArray
 
 
+```crmscript
+NSContactEntity thing;
+EntityElementArray urls  = thing.GetUrls();
+```
+
+

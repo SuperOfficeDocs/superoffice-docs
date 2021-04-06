@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **areaId** Integer
 
+```crmscript
+NSArea thing;
+Integer areaId;
+thing.SetAreaId(areaId);
+```
+

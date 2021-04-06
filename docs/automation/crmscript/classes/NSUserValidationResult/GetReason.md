@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSUserValidationResult thing;
+String reason  = thing.GetReason();
+```
+
+

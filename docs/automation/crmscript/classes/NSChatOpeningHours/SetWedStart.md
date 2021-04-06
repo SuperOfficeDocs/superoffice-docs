@@ -11,3 +11,9 @@ When opening hours start on Wednesdays. Only time-part is used.
 **Parameter:** 
  - **wedStart** TimeSpan
 
+```crmscript
+NSChatOpeningHours thing;
+TimeSpan wedStart;
+thing.SetWedStart(wedStart);
+```
+

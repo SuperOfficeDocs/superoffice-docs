@@ -11,3 +11,9 @@ Link hint for the row, indicating things like navigation links that can be prese
 **Parameter:** 
  - **linkHint** String
 
+```crmscript
+NSArchiveListItem thing;
+String linkHint;
+thing.SetLinkHint(linkHint);
+```
+

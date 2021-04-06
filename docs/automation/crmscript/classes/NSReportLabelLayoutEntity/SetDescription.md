@@ -11,3 +11,9 @@ Description
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+String description;
+thing.SetDescription(description);
+```
+

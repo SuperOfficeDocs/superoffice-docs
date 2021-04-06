@@ -11,3 +11,9 @@ Reply template to merge with messages posted in this category
 **Returns:** Integer
 
 
+```crmscript
+NSTicketCategoryEntity thing;
+Integer replyTemplate  = thing.GetReplyTemplate();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSPreferenceDescription thing;
+Bool isBuiltin  = thing.GetIsBuiltin();
+```
+
+

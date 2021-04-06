@@ -11,3 +11,9 @@ The Icon hint of the ListItem. Custom field.
 **Parameter:** 
  - **iconHint** String
 
+```crmscript
+NSMDOListItem thing;
+String iconHint;
+thing.SetIconHint(iconHint);
+```
+

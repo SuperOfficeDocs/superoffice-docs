@@ -11,3 +11,9 @@ Does the application have a menu bar
 **Returns:** Bool
 
 
+```crmscript
+NSExtAppEntity thing;
+Bool showInMenuBar  = thing.GetShowInMenuBar();
+```
+
+

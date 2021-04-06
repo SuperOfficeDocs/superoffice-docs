@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **userInfoId** Integer
 
+```crmscript
+NSUserInfo thing;
+Integer userInfoId;
+thing.SetUserInfoId(userInfoId);
+```
+

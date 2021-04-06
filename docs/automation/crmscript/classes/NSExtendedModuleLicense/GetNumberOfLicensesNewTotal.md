@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSExtendedModuleLicense thing;
+Integer numberOfLicensesNewTotal  = thing.GetNumberOfLicensesNewTotal();
+```
+
+

@@ -11,3 +11,9 @@ Tooltip/description shown to user; multi-language support. Any other info availa
 **Returns:** String
 
 
+```crmscript
+NSQuoteConnection thing;
+String displayDescription  = thing.GetDisplayDescription();
+```
+
+

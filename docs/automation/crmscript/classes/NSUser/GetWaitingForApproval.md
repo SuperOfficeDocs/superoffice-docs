@@ -11,3 +11,9 @@ The user is waiting for an administrator to approve/grant her/him access.
 **Returns:** Bool
 
 
+```crmscript
+NSUser thing;
+Bool waitingForApproval  = thing.GetWaitingForApproval();
+```
+
+

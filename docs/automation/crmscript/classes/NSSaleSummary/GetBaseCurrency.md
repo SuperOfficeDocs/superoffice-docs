@@ -11,3 +11,9 @@ Default currency for the installation
 **Returns:** String
 
 
+```crmscript
+NSSaleSummary thing;
+String baseCurrency  = thing.GetBaseCurrency();
+```
+
+

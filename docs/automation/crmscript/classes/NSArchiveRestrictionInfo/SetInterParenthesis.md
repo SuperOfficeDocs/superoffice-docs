@@ -11,3 +11,9 @@ Get or set the parenthesis (if any) associated with this restriction. Positive v
 **Parameter:** 
  - **interParenthesis** Integer
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+Integer interParenthesis;
+thing.SetInterParenthesis(interParenthesis);
+```
+

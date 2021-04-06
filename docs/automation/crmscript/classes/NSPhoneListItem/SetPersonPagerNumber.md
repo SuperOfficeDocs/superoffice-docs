@@ -11,3 +11,9 @@ Actual phone number as eneterd by the user
 **Parameter:** 
  - **personPagerNumber** String
 
+```crmscript
+NSPhoneListItem thing;
+String personPagerNumber;
+thing.SetPersonPagerNumber(personPagerNumber);
+```
+

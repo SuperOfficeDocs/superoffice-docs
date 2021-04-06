@@ -11,3 +11,9 @@ date + start time planned
 **Returns:** DateTime
 
 
+```crmscript
+NSAppointmentSyncData thing;
+DateTime startDate  = thing.GetStartDate();
+```
+
+

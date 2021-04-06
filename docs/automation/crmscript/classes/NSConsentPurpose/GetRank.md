@@ -11,3 +11,9 @@ Rank of this consent source
 **Returns:** Integer
 
 
+```crmscript
+NSConsentPurpose thing;
+Integer rank  = thing.GetRank();
+```
+
+

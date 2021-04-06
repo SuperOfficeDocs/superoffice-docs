@@ -11,3 +11,9 @@ The name of the ListItem
 **Returns:** String
 
 
+```crmscript
+NSTag thing;
+String name  = thing.GetName();
+```
+
+

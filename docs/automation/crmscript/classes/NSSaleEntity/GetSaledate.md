@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** DateTime
 
 
+```crmscript
+NSSaleEntity thing;
+DateTime saledate  = thing.GetSaledate();
+```
+
+

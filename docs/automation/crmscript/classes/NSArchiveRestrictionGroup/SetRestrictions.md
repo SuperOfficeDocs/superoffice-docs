@@ -11,3 +11,9 @@ Array of ArchiveRestrictionInfo restriction specifications
 **Parameter:** 
  - **restrictions** ArchiveRestrictionInfoArray
 
+```crmscript
+NSArchiveRestrictionGroup thing;
+ArchiveRestrictionInfoArray restrictions;
+thing.SetRestrictions(restrictions);
+```
+

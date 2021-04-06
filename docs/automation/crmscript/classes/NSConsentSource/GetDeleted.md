@@ -11,3 +11,9 @@ true if the ConsentSource is deleted
 **Returns:** Bool
 
 
+```crmscript
+NSConsentSource thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

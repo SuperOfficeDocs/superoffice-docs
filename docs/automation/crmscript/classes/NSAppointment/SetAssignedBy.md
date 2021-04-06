@@ -11,3 +11,9 @@ Who (last) assigned this appointment to associate_id?
 **Parameter:** 
  - **assignedBy** Integer
 
+```crmscript
+NSAppointment thing;
+Integer assignedBy;
+thing.SetAssignedBy(assignedBy);
+```
+

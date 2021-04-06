@@ -11,3 +11,9 @@ Foreign key to CRM quote (the conceptual parent). Owning Quote of this Quote Ver
 **Parameter:** 
  - **quoteId** Integer
 
+```crmscript
+NSQuoteVersion thing;
+Integer quoteId;
+thing.SetQuoteId(quoteId);
+```
+

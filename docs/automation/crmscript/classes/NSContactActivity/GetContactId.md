@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSContactActivity thing;
+Integer contactId  = thing.GetContactId();
+```
+
+

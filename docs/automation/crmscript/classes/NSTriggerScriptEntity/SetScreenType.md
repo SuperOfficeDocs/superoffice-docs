@@ -108,3 +108,9 @@ Event id that triggers script.  See EventHandlerType enum.
      - Enum: 1112 = SalesAfterSaveSelectionMember 
      - Enum: 1113 = SalesAfterSaveQuoteLine 
 
+```crmscript
+NSTriggerScriptEntity thing;
+Integer screenType;
+thing.SetScreenType(screenType);
+```
+

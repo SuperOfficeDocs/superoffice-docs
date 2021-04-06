@@ -11,3 +11,9 @@ The number of ongoing chats this users has now
 **Parameter:** 
  - **ongoingChats** Integer
 
+```crmscript
+NSChatPresence thing;
+Integer ongoingChats;
+thing.SetOngoingChats(ongoingChats);
+```
+

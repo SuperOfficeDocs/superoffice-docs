@@ -11,3 +11,9 @@ If valueType = 5, then TableName contains the table referenced by the preference
 **Returns:** String
 
 
+```crmscript
+NSPreferenceDescription thing;
+String tableName  = thing.GetTableName();
+```
+
+

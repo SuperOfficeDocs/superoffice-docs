@@ -16,3 +16,9 @@ The type of option - integer, list, boolean (checkbox) etc.
      - Enum: 3 = Boolean 
      - Enum: 4 = List 
 
+```crmscript
+NSDashboardTileOption thing;
+Integer type  = thing.GetType();
+```
+
+

@@ -11,3 +11,9 @@ Last updated by whom
 **Parameter:** 
  - **updatedAssociateId** Integer
 
+```crmscript
+NSTriggerScriptEntity thing;
+Integer updatedAssociateId;
+thing.SetUpdatedAssociateId(updatedAssociateId);
+```
+

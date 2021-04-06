@@ -108,3 +108,9 @@ The type of event we are triggered by
      - Enum: 1112 = SalesAfterSaveSelectionMember 
      - Enum: 1113 = SalesAfterSaveQuoteLine 
 
+```crmscript
+NSEventData thing;
+Integer type  = thing.GetType();
+```
+
+

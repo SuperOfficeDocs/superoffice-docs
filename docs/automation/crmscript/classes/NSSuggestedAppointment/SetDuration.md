@@ -11,3 +11,9 @@ Duration in minutes of suggested appointment
 **Parameter:** 
  - **duration** Integer
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer duration;
+thing.SetDuration(duration);
+```
+

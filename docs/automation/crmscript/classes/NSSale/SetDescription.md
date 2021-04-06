@@ -11,3 +11,9 @@ The sales description
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSSale thing;
+String description;
+thing.SetDescription(description);
+```
+

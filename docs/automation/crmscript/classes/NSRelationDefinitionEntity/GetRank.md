@@ -11,3 +11,9 @@ Rank order
 **Returns:** Integer
 
 
+```crmscript
+NSRelationDefinitionEntity thing;
+Integer rank  = thing.GetRank();
+```
+
+

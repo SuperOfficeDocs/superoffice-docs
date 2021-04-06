@@ -11,3 +11,9 @@ Information about the user if this person is a user.  If IsAssociate (e.g. is us
 **Parameter:** 
  - **userInfo** UserInfo
 
+```crmscript
+NSPersonEntity thing;
+UserInfo userInfo;
+thing.SetUserInfo(userInfo);
+```
+

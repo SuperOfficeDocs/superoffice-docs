@@ -11,3 +11,9 @@ Reference to definition
 **Parameter:** 
  - **relationDefinitionId** Integer
 
+```crmscript
+NSContactRelationEntity thing;
+Integer relationDefinitionId;
+thing.SetRelationDefinitionId(relationDefinitionId);
+```
+

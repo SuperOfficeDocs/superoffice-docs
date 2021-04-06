@@ -11,3 +11,9 @@ The persons contact department
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String contactDepartment  = thing.GetContactDepartment();
+```
+
+

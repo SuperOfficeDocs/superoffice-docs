@@ -11,3 +11,9 @@ The current downloaded version of this typical search
 **Returns:** Integer
 
 
+```crmscript
+NSTypicalSearch thing;
+Integer versionNumber  = thing.GetVersionNumber();
+```
+
+

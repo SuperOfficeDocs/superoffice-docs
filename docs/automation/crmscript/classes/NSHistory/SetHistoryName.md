@@ -11,3 +11,9 @@ The name of the history list, for instance contact. Represents the history table
 **Parameter:** 
  - **historyName** String
 
+```crmscript
+NSHistory thing;
+String historyName;
+thing.SetHistoryName(historyName);
+```
+

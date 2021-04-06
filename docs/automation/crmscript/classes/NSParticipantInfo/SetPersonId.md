@@ -11,3 +11,9 @@ Person id of the participant if the participant is a person
 **Parameter:** 
  - **personId** Integer
 
+```crmscript
+NSParticipantInfo thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
+

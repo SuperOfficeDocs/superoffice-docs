@@ -15,3 +15,9 @@ Checkout state
      - Enum: 2 = CheckedOutOther 
      - Enum: 3 = LockingNotSupported 
 
+```crmscript
+NSCheckoutInfo thing;
+Integer state;
+thing.SetState(state);
+```
+

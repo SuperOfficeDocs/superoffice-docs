@@ -11,3 +11,9 @@ Context for the executing task.
 **Parameter:** 
  - **context** String
 
+```crmscript
+NSBatchTaskInfo thing;
+String context;
+thing.SetContext(context);
+```
+

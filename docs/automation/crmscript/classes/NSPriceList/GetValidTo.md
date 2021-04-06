@@ -11,3 +11,9 @@ The date (inclusive) the pricelist ends to be valid. This can be DateTime.MaxVal
 **Returns:** DateTime
 
 
+```crmscript
+NSPriceList thing;
+DateTime validTo  = thing.GetValidTo();
+```
+
+

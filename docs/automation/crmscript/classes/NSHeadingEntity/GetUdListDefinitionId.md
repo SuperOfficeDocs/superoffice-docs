@@ -11,3 +11,9 @@ The id of the list which this heading belongs to
 **Returns:** Integer
 
 
+```crmscript
+NSHeadingEntity thing;
+Integer udListDefinitionId  = thing.GetUdListDefinitionId();
+```
+
+

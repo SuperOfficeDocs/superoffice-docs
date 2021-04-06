@@ -11,3 +11,8 @@ Set the name of the Reason item.
 **Parameter:** 
  - **value** String Reason name.
 
+```crmscript
+NSReason thing;
+thing.SetValue("frotz");
+```
+

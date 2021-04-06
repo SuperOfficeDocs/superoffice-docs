@@ -11,3 +11,9 @@ Cities associated with location
 **Returns:** String
 
 
+```crmscript
+NSTimeZoneData thing;
+String tZLocationCities  = thing.GetTZLocationCities();
+```
+
+

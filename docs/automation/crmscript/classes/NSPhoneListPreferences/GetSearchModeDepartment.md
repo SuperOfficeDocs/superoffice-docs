@@ -15,3 +15,9 @@ The Department search type, e.g. BeginsWith, Contains, Endswith, Matches
      - Enum: 2 = EndsWith 
      - Enum: 3 = Contains 
 
+```crmscript
+NSPhoneListPreferences thing;
+Integer searchModeDepartment  = thing.GetSearchModeDepartment();
+```
+
+

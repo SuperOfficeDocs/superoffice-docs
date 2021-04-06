@@ -18,3 +18,9 @@ Lowest allowed setting level, set by SuperOffice
      - Enum: 5 = Individual 
      - Enum: 6 = PC 
 
+```crmscript
+NSPreferenceDescription thing;
+PreferenceLevel sysMaxLevel;
+thing.SetSysMaxLevel(sysMaxLevel);
+```
+

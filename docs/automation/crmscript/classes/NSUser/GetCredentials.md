@@ -11,3 +11,9 @@ List of credentials registered for this user. i.e. valid authentication methods.
 **Returns:** CredentialArray
 
 
+```crmscript
+NSUser thing;
+CredentialArray credentials  = thing.GetCredentials();
+```
+
+

@@ -24,3 +24,9 @@ Units for the duration (day, week, whatever)
      - Enum: 11 = Century 
      - Enum: 12 = Millenium 
 
+```crmscript
+NSSaleTypeEntity thing;
+DurationUnit durationUnit  = thing.GetDurationUnit();
+```
+
+

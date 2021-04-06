@@ -11,3 +11,9 @@ as leadtime, but after the end - time blocked for travel etc.
 **Returns:** TimeSpan
 
 
+```crmscript
+NSAppointmentEntity thing;
+TimeSpan lagTime  = thing.GetLagTime();
+```
+
+

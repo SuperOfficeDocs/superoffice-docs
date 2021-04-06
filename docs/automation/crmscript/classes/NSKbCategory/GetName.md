@@ -11,3 +11,9 @@ The name of this category.
 **Returns:** String
 
 
+```crmscript
+NSKbCategory thing;
+String name  = thing.GetName();
+```
+
+

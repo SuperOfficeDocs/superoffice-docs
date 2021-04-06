@@ -11,3 +11,9 @@ True if the user is retired and should have no rights, not appear in lists, etc.
 **Parameter:** 
  - **retired** Bool
 
+```crmscript
+NSPersonEntity thing;
+Bool retired;
+thing.SetRetired(retired);
+```
+

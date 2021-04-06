@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSLanguageInfo thing;
+Integer languageInfoId  = thing.GetLanguageInfoId();
+```
+
+

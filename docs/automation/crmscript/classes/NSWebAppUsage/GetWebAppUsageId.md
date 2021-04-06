@@ -11,3 +11,9 @@ Primary Key
 **Returns:** Integer
 
 
+```crmscript
+NSWebAppUsage thing;
+Integer webAppUsageId  = thing.GetWebAppUsageId();
+```
+
+

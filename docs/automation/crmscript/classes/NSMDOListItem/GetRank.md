@@ -11,3 +11,9 @@ The rank of the ListItem
 **Returns:** Integer
 
 
+```crmscript
+NSMDOListItem thing;
+Integer rank  = thing.GetRank();
+```
+
+

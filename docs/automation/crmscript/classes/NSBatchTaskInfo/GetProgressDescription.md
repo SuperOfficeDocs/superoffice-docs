@@ -11,3 +11,9 @@ Descriptive text for the current stage
 **Returns:** String
 
 
+```crmscript
+NSBatchTaskInfo thing;
+String progressDescription  = thing.GetProgressDescription();
+```
+
+

@@ -11,3 +11,9 @@ Non standard e-mail headers
 **Parameter:** 
  - **customHeaderList** EMailCustomHeaderArray
 
+```crmscript
+NSEMailEntity thing;
+EMailCustomHeaderArray customHeaderList;
+thing.SetCustomHeaderList(customHeaderList);
+```
+

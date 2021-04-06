@@ -11,3 +11,8 @@ Set the name of the Source item.
 **Parameter:** 
  - **value** String Source name.
 
+```crmscript
+NSSource thing;
+thing.SetValue("frotz");
+```
+

@@ -11,3 +11,9 @@ The rank of the application
 **Returns:** Integer
 
 
+```crmscript
+NSExtAppEntity thing;
+Integer rank  = thing.GetRank();
+```
+
+

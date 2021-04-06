@@ -11,3 +11,9 @@ Id to the previous outgoing message related to this one. Used from message threa
 **Parameter:** 
  - **parentMessagingId** Integer
 
+```crmscript
+NSOutgoingMessage thing;
+Integer parentMessagingId;
+thing.SetParentMessagingId(parentMessagingId);
+```
+

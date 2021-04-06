@@ -11,3 +11,9 @@ Number of emails sent at the current time.
 **Parameter:** 
  - **numSent** Integer
 
+```crmscript
+NSPreviewMailingHeader thing;
+Integer numSent;
+thing.SetNumSent(numSent);
+```
+

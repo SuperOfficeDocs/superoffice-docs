@@ -11,3 +11,9 @@ Date the sale is to be reopened; valid only for status=stalled. Not necessarily 
 **Returns:** DateTime
 
 
+```crmscript
+NSSaleEntity thing;
+DateTime reopenDate  = thing.GetReopenDate();
+```
+
+

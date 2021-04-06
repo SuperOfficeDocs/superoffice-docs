@@ -10,3 +10,8 @@ Get the name of the Source.
 
 **Returns:** String Source name.
 
+```crmscript
+NSSource thing;
+String name = thing.GetValue();
+```
+

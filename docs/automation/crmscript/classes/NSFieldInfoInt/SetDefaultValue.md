@@ -11,3 +11,9 @@ Default integer value
 **Parameter:** 
  - **defaultValue** Integer
 
+```crmscript
+NSFieldInfoInt thing;
+Integer defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
+

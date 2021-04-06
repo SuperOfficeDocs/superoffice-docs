@@ -11,3 +11,9 @@ String key that can be used to uniquely retrieve the panel; particularly useful 
 **Returns:** String
 
 
+```crmscript
+NSWebPanelEntity thing;
+String progId  = thing.GetProgId();
+```
+
+

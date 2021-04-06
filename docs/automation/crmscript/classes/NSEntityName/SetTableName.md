@@ -11,3 +11,9 @@ The name of the table in the database
 **Parameter:** 
  - **tableName** String
 
+```crmscript
+NSEntityName thing;
+String tableName;
+thing.SetTableName(tableName);
+```
+

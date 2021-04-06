@@ -13,3 +13,9 @@ Indicator that this document template has a functional role, related to privacy/
      - Enum: 0 = None 
      - Enum: 1 = PersonRegistered 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+DocTmplPrivacyType privacyDocType;
+thing.SetPrivacyDocType(privacyDocType);
+```
+

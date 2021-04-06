@@ -11,3 +11,9 @@ The total time (seconds) within the priority's office hours the ticket has been 
 **Returns:** Integer
 
 
+```crmscript
+NSTicket thing;
+Integer timeSpentExternally  = thing.GetTimeSpentExternally();
+```
+
+

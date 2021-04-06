@@ -11,3 +11,9 @@ Item name, visible in Guide
 **Returns:** String
 
 
+```crmscript
+NSSuggestedAppointment thing;
+String name  = thing.GetName();
+```
+
+

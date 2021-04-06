@@ -11,3 +11,9 @@ Current model information
 **Parameter:** 
  - **currentModel** CategorizationModelDetails
 
+```crmscript
+NSCategorizationStatusResponse thing;
+CategorizationModelDetails currentModel;
+thing.SetCurrentModel(currentModel);
+```
+

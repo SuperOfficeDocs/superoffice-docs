@@ -11,3 +11,9 @@ The connected ticket
 **Returns:** Ticket
 
 
+```crmscript
+NSTicketMessageEntity thing;
+Ticket ticket  = thing.GetTicket();
+```
+
+

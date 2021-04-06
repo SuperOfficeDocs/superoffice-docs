@@ -11,3 +11,9 @@ True if deleted
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

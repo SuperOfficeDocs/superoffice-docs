@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **addressId** Integer
 
+```crmscript
+NSAddressSyncData thing;
+Integer addressId;
+thing.SetAddressId(addressId);
+```
+

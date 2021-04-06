@@ -11,3 +11,9 @@ Connection name shown to user; multi-language support. The name of the connector
 **Returns:** String
 
 
+```crmscript
+NSQuoteConnection thing;
+String displayName  = thing.GetDisplayName();
+```
+
+

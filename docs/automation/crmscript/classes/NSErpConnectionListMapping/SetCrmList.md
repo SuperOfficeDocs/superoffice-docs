@@ -11,3 +11,9 @@ The SuperOffice listItem
 **Parameter:** 
  - **crmList** MDOListItem
 
+```crmscript
+NSErpConnectionListMapping thing;
+MDOListItem crmList;
+thing.SetCrmList(crmList);
+```
+

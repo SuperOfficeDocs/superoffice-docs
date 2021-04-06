@@ -11,3 +11,9 @@ Number of recipients that opened the email.
 **Returns:** Integer
 
 
+```crmscript
+NSPreviewMailingHeader thing;
+Integer numOpened  = thing.GetNumOpened();
+```
+
+

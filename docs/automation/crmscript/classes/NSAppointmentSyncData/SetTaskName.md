@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **taskName** String
 
+```crmscript
+NSAppointmentSyncData thing;
+String taskName;
+thing.SetTaskName(taskName);
+```
+

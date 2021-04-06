@@ -11,3 +11,9 @@ The phone number of the customer, if provided
 **Parameter:** 
  - **customerPhone** String
 
+```crmscript
+NSChatSessionEntity thing;
+String customerPhone;
+thing.SetCustomerPhone(customerPhone);
+```
+

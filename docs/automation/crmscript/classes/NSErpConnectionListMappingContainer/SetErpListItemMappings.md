@@ -11,3 +11,9 @@ Array of ErpConnectionListMapping
 **Parameter:** 
  - **erpListItemMappings** ErpConnectionListMappingArray
 
+```crmscript
+NSErpConnectionListMappingContainer thing;
+ErpConnectionListMappingArray erpListItemMappings;
+thing.SetErpListItemMappings(erpListItemMappings);
+```
+

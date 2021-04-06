@@ -11,3 +11,9 @@ The ticket status entity which this ticket is connected to
 **Parameter:** 
  - **status** TicketStatusEntity
 
+```crmscript
+NSTicketEntity thing;
+TicketStatusEntity status;
+thing.SetStatus(status);
+```
+

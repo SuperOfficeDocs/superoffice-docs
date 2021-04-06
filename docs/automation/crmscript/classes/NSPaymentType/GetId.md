@@ -10,3 +10,8 @@ Get the primary key (id) for the PaymentType
 
 **Returns:** Integer PaymentType id.
 
+```crmscript
+NSPaymentType thing;
+Integer id = thing.GetId();
+```
+

@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Returns:** Integer
 
 
+```crmscript
+NSMailboxEntity thing;
+Integer mailInFilterId  = thing.GetMailInFilterId();
+```
+
+

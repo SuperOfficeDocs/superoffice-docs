@@ -11,3 +11,9 @@ Identifier for an appointment
 **Returns:** Integer
 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer appointmentId  = thing.GetAppointmentId();
+```
+
+

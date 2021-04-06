@@ -11,3 +11,9 @@ The name of the contact/company connected to the ticket
 **Parameter:** 
  - **contactName** String
 
+```crmscript
+NSTicketInfo thing;
+String contactName;
+thing.SetContactName(contactName);
+```
+

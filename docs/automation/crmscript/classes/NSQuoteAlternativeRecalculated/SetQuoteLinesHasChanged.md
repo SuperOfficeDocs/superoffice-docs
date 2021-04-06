@@ -11,3 +11,9 @@ If true any of the quotelines for the alternative has been changed.
 **Parameter:** 
  - **quoteLinesHasChanged** Bool
 
+```crmscript
+NSQuoteAlternativeRecalculated thing;
+Bool quoteLinesHasChanged;
+thing.SetQuoteLinesHasChanged(quoteLinesHasChanged);
+```
+

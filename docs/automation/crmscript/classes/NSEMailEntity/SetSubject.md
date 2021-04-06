@@ -11,3 +11,9 @@ Subject of the e-mail
 **Parameter:** 
  - **subject** String
 
+```crmscript
+NSEMailEntity thing;
+String subject;
+thing.SetSubject(subject);
+```
+

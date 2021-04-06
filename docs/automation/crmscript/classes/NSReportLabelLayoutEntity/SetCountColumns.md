@@ -11,3 +11,9 @@ Number og columns
 **Parameter:** 
  - **countColumns** Integer
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer countColumns;
+thing.SetCountColumns(countColumns);
+```
+

@@ -11,3 +11,9 @@ When was the e-mail sent
 **Returns:** DateTime
 
 
+```crmscript
+NSEMailEnvelope thing;
+DateTime sent  = thing.GetSent();
+```
+
+

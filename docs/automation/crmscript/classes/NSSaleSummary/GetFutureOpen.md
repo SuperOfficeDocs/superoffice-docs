@@ -11,3 +11,9 @@ Number of all Future Pipe/All open sales with date after the period
 **Returns:** Integer
 
 
+```crmscript
+NSSaleSummary thing;
+Integer futureOpen  = thing.GetFutureOpen();
+```
+
+

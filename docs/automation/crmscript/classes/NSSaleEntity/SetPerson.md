@@ -11,3 +11,9 @@ A sale may also be connected to a person - this must be a contact person registe
 **Parameter:** 
  - **person** Person
 
+```crmscript
+NSSaleEntity thing;
+Person person;
+thing.SetPerson(person);
+```
+

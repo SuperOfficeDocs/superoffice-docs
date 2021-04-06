@@ -11,3 +11,9 @@ End date/time in ICS file.
 **Parameter:** 
  - **dtEnd** DateTime
 
+```crmscript
+NSEMailAppointment thing;
+DateTime dtEnd;
+thing.SetDtEnd(dtEnd);
+```
+

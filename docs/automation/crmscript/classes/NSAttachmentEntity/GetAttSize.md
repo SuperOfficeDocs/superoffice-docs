@@ -11,3 +11,9 @@ The size (in bytes) for the attachment.
 **Returns:** Integer
 
 
+```crmscript
+NSAttachmentEntity thing;
+Integer attSize  = thing.GetAttSize();
+```
+
+

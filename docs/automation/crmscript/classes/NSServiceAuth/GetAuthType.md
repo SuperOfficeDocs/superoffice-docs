@@ -11,3 +11,9 @@ The type of authentication, plain-text, OAuth...
 **Returns:** String
 
 
+```crmscript
+NSServiceAuth thing;
+String authType  = thing.GetAuthType();
+```
+
+

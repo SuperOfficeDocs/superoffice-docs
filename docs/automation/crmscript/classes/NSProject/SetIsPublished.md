@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isPublished** Bool
 
+```crmscript
+NSProject thing;
+Bool isPublished;
+thing.SetIsPublished(isPublished);
+```
+

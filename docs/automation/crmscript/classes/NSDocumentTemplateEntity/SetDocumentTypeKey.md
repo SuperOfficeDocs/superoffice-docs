@@ -11,3 +11,9 @@ The document type to use when creating a blank document. Plugin-specific. Used w
 **Parameter:** 
  - **documentTypeKey** Integer
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer documentTypeKey;
+thing.SetDocumentTypeKey(documentTypeKey);
+```
+

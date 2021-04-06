@@ -11,3 +11,9 @@ The urls related to this person.
 **Returns:** EntityElementArray
 
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray urls  = thing.GetUrls();
+```
+
+

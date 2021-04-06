@@ -11,3 +11,9 @@ The ticket priority entity which this ticket is connected to
 **Parameter:** 
  - **priority** TicketPriorityEntity
 
+```crmscript
+NSTicketEntity thing;
+TicketPriorityEntity priority;
+thing.SetPriority(priority);
+```
+

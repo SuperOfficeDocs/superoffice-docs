@@ -11,3 +11,9 @@ Bottom margin in twips
 **Parameter:** 
  - **bottomMargin** Integer
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer bottomMargin;
+thing.SetBottomMargin(bottomMargin);
+```
+

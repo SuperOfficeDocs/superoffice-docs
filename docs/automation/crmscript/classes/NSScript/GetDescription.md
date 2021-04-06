@@ -11,3 +11,9 @@ Optional description of what this script is used for.
 **Returns:** String
 
 
+```crmscript
+NSScript thing;
+String description  = thing.GetDescription();
+```
+
+

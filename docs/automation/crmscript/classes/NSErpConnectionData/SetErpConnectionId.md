@@ -11,3 +11,9 @@ The id of the connection
 **Parameter:** 
  - **erpConnectionId** Integer
 
+```crmscript
+NSErpConnectionData thing;
+Integer erpConnectionId;
+thing.SetErpConnectionId(erpConnectionId);
+```
+

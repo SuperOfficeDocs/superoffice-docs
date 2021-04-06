@@ -11,3 +11,9 @@ The descriptiong for this topic.
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSChatTopicEntity thing;
+String description;
+thing.SetDescription(description);
+```
+

@@ -11,3 +11,9 @@ The values to be set on this field on this bulkupdate
 **Returns:** StringArray
 
 
+```crmscript
+NSFieldValueInfo thing;
+StringArray values  = thing.GetValues();
+```
+
+

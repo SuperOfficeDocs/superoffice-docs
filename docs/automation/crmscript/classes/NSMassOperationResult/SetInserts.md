@@ -11,3 +11,9 @@ Number of rows inserted
 **Parameter:** 
  - **inserts** Integer
 
+```crmscript
+NSMassOperationResult thing;
+Integer inserts;
+thing.SetInserts(inserts);
+```
+

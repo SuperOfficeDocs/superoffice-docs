@@ -11,3 +11,9 @@ Currency the sale amount is in.
 **Parameter:** 
  - **currency** String
 
+```crmscript
+NSSaleSummaryItem thing;
+String currency;
+thing.SetCurrency(currency);
+```
+

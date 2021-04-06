@@ -11,3 +11,9 @@ When was approval granted or rejected
 **Parameter:** 
  - **approvedRegisteredDate** DateTime
 
+```crmscript
+NSQuoteVersion thing;
+DateTime approvedRegisteredDate;
+thing.SetApprovedRegisteredDate(approvedRegisteredDate);
+```
+

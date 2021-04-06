@@ -11,3 +11,9 @@ Department
 **Parameter:** 
  - **contactDepartment** String
 
+```crmscript
+NSParticipantSyncData thing;
+String contactDepartment;
+thing.SetContactDepartment(contactDepartment);
+```
+

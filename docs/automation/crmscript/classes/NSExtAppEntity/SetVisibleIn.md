@@ -82,3 +82,9 @@ The application is visible in
      - Enum: 69 = CompanyCardTask 
      - Enum: 70 = ProjectCardTask 
 
+```crmscript
+NSExtAppEntity thing;
+Integer visibleIn;
+thing.SetVisibleIn(visibleIn);
+```
+

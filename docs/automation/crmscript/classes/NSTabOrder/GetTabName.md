@@ -11,3 +11,9 @@ Name of tab control
 **Returns:** String
 
 
+```crmscript
+NSTabOrder thing;
+String tabName  = thing.GetTabName();
+```
+
+

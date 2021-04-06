@@ -11,3 +11,9 @@ date + start time planned
 **Parameter:** 
  - **startTime** DateTime
 
+```crmscript
+NSAlarmData thing;
+DateTime startTime;
+thing.SetStartTime(startTime);
+```
+

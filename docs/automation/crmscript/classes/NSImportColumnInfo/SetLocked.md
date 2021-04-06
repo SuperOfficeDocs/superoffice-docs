@@ -11,3 +11,9 @@ If true disable the option of choose column
 **Parameter:** 
  - **locked** Bool
 
+```crmscript
+NSImportColumnInfo thing;
+Bool locked;
+thing.SetLocked(locked);
+```
+

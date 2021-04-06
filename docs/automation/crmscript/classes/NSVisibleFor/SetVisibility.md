@@ -14,3 +14,9 @@ so.topic: reference
      - Enum: 1 = Associate 
      - Enum: 2 = Group 
 
+```crmscript
+NSVisibleFor thing;
+Integer visibility;
+thing.SetVisibility(visibility);
+```
+

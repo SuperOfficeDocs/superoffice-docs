@@ -11,3 +11,9 @@ The folder which this form belongs to. -1 indicates that the shipment is on the 
 **Parameter:** 
  - **folderId** Integer
 
+```crmscript
+NSFormEntity thing;
+Integer folderId;
+thing.SetFolderId(folderId);
+```
+

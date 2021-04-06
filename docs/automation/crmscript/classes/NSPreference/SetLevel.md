@@ -18,3 +18,9 @@ Preference level, using the standard enumerated type. Undefined is returned for 
      - Enum: 5 = Individual 
      - Enum: 6 = PC 
 
+```crmscript
+NSPreference thing;
+PreferenceLevel level;
+thing.SetLevel(level);
+```
+

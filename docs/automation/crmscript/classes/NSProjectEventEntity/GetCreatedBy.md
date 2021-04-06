@@ -11,3 +11,9 @@ The person that created the projectevent
 **Returns:** Associate
 
 
+```crmscript
+NSProjectEventEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
+
+

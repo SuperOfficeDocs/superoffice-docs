@@ -11,3 +11,9 @@ The minimum price this salesman can offer to his customer. This might be cost pr
 **Parameter:** 
  - **unitMinimumPrice** Float
 
+```crmscript
+NSProduct thing;
+Float unitMinimumPrice;
+thing.SetUnitMinimumPrice(unitMinimumPrice);
+```
+

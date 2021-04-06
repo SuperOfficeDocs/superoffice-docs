@@ -11,3 +11,9 @@ True if the connector is deleted
 **Returns:** Bool
 
 
+```crmscript
+NSErpSyncConnectorEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

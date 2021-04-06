@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSArea thing;
+Integer areaId  = thing.GetAreaId();
+```
+
+

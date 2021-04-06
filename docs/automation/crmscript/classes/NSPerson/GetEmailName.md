@@ -11,3 +11,9 @@ E-mail description
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String emailName  = thing.GetEmailName();
+```
+
+

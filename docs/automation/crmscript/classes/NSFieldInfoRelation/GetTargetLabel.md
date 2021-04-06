@@ -11,3 +11,9 @@ Display name on target entity.
 **Returns:** String
 
 
+```crmscript
+NSFieldInfoRelation thing;
+String targetLabel  = thing.GetTargetLabel();
+```
+
+

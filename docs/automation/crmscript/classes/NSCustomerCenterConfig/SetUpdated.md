@@ -11,3 +11,9 @@ Last updated when
 **Parameter:** 
  - **updated** DateTime
 
+```crmscript
+NSCustomerCenterConfig thing;
+DateTime updated;
+thing.SetUpdated(updated);
+```
+

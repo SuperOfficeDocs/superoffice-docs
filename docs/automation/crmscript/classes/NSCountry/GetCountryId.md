@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSCountry thing;
+Integer countryId  = thing.GetCountryId();
+```
+
+

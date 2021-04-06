@@ -11,3 +11,9 @@ Set the tooltip description for the Department list item.
 **Parameter:** 
  - **tooltip** String Department tooltip description.
 
+```crmscript
+NSDepartment thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

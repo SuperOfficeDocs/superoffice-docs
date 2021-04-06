@@ -11,3 +11,9 @@ The foreign key to the corresponding sale
 **Parameter:** 
  - **saleId** Integer
 
+```crmscript
+NSQuote thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
+

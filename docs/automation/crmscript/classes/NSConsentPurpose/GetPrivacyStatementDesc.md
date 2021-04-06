@@ -11,3 +11,9 @@ Name or description for the privacy statement
 **Returns:** String
 
 
+```crmscript
+NSConsentPurpose thing;
+String privacyStatementDesc  = thing.GetPrivacyStatementDesc();
+```
+
+

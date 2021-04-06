@@ -11,3 +11,9 @@ Spare ID, not yet in use
 **Returns:** Integer
 
 
+```crmscript
+NSWindowPosSize thing;
+Integer extraId  = thing.GetExtraId();
+```
+
+

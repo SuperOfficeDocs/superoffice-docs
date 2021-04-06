@@ -11,3 +11,8 @@ Set the primary key (id) for the TicketPriority
 **Parameter:** 
  - **id** Integer TicketPriority id.
 
+```crmscript
+NSTicketPriority thing;
+thing.SetId(123);
+```
+

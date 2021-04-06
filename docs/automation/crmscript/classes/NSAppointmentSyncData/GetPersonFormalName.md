@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSAppointmentSyncData thing;
+String personFormalName  = thing.GetPersonFormalName();
+```
+
+

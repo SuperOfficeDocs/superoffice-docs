@@ -11,3 +11,9 @@ Your reference
 **Parameter:** 
  - **yourRef** String
 
+```crmscript
+NSDocument thing;
+String yourRef;
+thing.SetYourRef(yourRef);
+```
+

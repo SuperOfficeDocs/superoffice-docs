@@ -11,3 +11,9 @@ The contact's internet adresses
 **Returns:** StringArray
 
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray contactUrl  = thing.GetContactUrl();
+```
+
+

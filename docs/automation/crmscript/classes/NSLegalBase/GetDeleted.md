@@ -11,3 +11,9 @@ true if the LegalBase is deleted
 **Returns:** Bool
 
 
+```crmscript
+NSLegalBase thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

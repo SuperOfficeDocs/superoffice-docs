@@ -11,3 +11,8 @@ Set the primary key (id) for the ProductType
 **Parameter:** 
  - **id** Integer ProductType id.
 
+```crmscript
+NSProductType thing;
+thing.SetId(123);
+```
+

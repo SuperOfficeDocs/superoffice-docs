@@ -11,3 +11,9 @@ Date when the signature expires. No Timezone.
 **Parameter:** 
  - **expiryDate** DateTime
 
+```crmscript
+NSSignedPublicKey thing;
+DateTime expiryDate;
+thing.SetExpiryDate(expiryDate);
+```
+

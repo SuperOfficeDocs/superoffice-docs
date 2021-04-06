@@ -11,3 +11,9 @@ The displayname of the field
 **Returns:** String
 
 
+```crmscript
+NSFieldValueInfo thing;
+String encodedDisplayName  = thing.GetEncodedDisplayName();
+```
+
+

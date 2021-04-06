@@ -11,3 +11,9 @@ Values sent back to the environment from the event handler
 **Parameter:** 
  - **outputValues** StringDictionary
 
+```crmscript
+NSEventData thing;
+StringDictionary outputValues;
+thing.SetOutputValues(outputValues);
+```
+

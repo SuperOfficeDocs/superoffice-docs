@@ -11,3 +11,9 @@ SMS version of this message
 **Returns:** String
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+String smsMessage  = thing.GetSmsMessage();
+```
+
+

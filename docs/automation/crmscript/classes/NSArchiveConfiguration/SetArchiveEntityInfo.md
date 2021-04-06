@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **archiveEntityInfo** SelectableMDOListItemArray
 
+```crmscript
+NSArchiveConfiguration thing;
+SelectableMDOListItemArray archiveEntityInfo;
+thing.SetArchiveEntityInfo(archiveEntityInfo);
+```
+

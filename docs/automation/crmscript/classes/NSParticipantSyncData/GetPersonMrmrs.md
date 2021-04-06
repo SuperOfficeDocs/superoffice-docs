@@ -11,3 +11,9 @@ e.g. Mrs   sex_title
 **Returns:** String
 
 
+```crmscript
+NSParticipantSyncData thing;
+String personMrmrs  = thing.GetPersonMrmrs();
+```
+
+

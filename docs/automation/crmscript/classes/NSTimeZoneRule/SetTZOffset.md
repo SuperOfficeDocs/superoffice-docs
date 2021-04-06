@@ -11,3 +11,9 @@ Number of minutes bias relative to UTC time
 **Parameter:** 
  - **tZOffset** Integer
 
+```crmscript
+NSTimeZoneRule thing;
+Integer tZOffset;
+thing.SetTZOffset(tZOffset);
+```
+

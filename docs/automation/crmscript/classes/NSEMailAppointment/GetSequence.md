@@ -11,3 +11,9 @@ Sequence number in ICS file.
 **Returns:** Integer
 
 
+```crmscript
+NSEMailAppointment thing;
+Integer sequence  = thing.GetSequence();
+```
+
+

@@ -11,3 +11,9 @@ The Id of the ListItem
 **Returns:** Integer
 
 
+```crmscript
+NSTag thing;
+Integer id  = thing.GetId();
+```
+
+

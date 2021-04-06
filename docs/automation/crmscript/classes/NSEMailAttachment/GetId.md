@@ -11,3 +11,9 @@ Content-ID
 **Returns:** String
 
 
+```crmscript
+NSEMailAttachment thing;
+String id  = thing.GetId();
+```
+
+

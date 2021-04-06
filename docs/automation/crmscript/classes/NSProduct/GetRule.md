@@ -11,3 +11,9 @@ The names of one or more calculation rules that are in effect for this line, com
 **Returns:** String
 
 
+```crmscript
+NSProduct thing;
+String rule  = thing.GetRule();
+```
+
+

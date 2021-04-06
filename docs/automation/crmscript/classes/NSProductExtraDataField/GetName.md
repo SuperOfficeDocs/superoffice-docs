@@ -11,3 +11,9 @@ Label for the field
 **Returns:** String
 
 
+```crmscript
+NSProductExtraDataField thing;
+String name  = thing.GetName();
+```
+
+

@@ -11,3 +11,9 @@ Describes the expected value array
 **Returns:** String
 
 
+```crmscript
+NSFieldValueInfo thing;
+String valueType  = thing.GetValueType();
+```
+
+

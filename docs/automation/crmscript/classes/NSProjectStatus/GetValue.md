@@ -10,3 +10,8 @@ Get the name of the ProjectStatus.
 
 **Returns:** String ProjectStatus name.
 
+```crmscript
+NSProjectStatus thing;
+String name = thing.GetValue();
+```
+

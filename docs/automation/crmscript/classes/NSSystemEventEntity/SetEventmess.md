@@ -11,3 +11,9 @@ Message to be shown, entered by administrator
 **Parameter:** 
  - **eventmess** String
 
+```crmscript
+NSSystemEventEntity thing;
+String eventmess;
+thing.SetEventmess(eventmess);
+```
+

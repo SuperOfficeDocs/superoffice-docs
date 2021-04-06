@@ -11,3 +11,9 @@ The offset in minutes compared with UTC, calculated for DateTime.Now
 **Parameter:** 
  - **tZOffset** Integer
 
+```crmscript
+NSCustomerServiceStartup thing;
+Integer tZOffset;
+thing.SetTZOffset(tZOffset);
+```
+

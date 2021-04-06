@@ -11,3 +11,9 @@ Description of the status monitor
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSStatusMonitor thing;
+String description;
+thing.SetDescription(description);
+```
+

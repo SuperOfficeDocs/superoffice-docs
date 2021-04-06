@@ -11,3 +11,9 @@ Number of minutes we shall override the assignment if a customer sends consecuti
 **Parameter:** 
  - **assignmentLag** Integer
 
+```crmscript
+NSTicketCategoryEntity thing;
+Integer assignmentLag;
+thing.SetAssignmentLag(assignmentLag);
+```
+

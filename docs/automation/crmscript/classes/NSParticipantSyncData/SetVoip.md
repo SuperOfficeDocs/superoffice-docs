@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **voip** StringArray
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray voip;
+thing.SetVoip(voip);
+```
+

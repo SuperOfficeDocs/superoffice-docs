@@ -11,3 +11,9 @@ True if when using this template there should be shown a place for editing curre
 **Returns:** Bool
 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Bool showCurrents  = thing.GetShowCurrents();
+```
+
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **selectionId** Integer
 
+```crmscript
+NSSelectionForFind thing;
+Integer selectionId;
+thing.SetSelectionId(selectionId);
+```
+

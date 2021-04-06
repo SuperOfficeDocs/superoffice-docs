@@ -11,3 +11,9 @@ VAT number or similar
 **Parameter:** 
  - **orgNr** String
 
+```crmscript
+NSContactEntity thing;
+String orgNr;
+thing.SetOrgNr(orgNr);
+```
+

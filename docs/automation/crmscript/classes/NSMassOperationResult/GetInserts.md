@@ -11,3 +11,9 @@ Number of rows inserted
 **Returns:** Integer
 
 
+```crmscript
+NSMassOperationResult thing;
+Integer inserts  = thing.GetInserts();
+```
+
+

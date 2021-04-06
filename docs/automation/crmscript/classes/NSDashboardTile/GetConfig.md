@@ -11,3 +11,9 @@ The tile config
 **Returns:** String
 
 
+```crmscript
+NSDashboardTile thing;
+String config  = thing.GetConfig();
+```
+
+

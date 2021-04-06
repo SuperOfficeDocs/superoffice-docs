@@ -11,3 +11,9 @@ Stages (project statuses), those associated with this ProjType are selected.
 **Returns:** SelectableMDOListItemArray
 
 
+```crmscript
+NSProjectTypeEntity thing;
+SelectableMDOListItemArray stages  = thing.GetStages();
+```
+
+

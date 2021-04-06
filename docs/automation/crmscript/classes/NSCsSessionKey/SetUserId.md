@@ -11,3 +11,9 @@ The ejuser id owning this session key
 **Parameter:** 
  - **userId** Integer
 
+```crmscript
+NSCsSessionKey thing;
+Integer userId;
+thing.SetUserId(userId);
+```
+

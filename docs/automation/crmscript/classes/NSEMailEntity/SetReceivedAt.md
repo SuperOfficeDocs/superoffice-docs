@@ -11,3 +11,9 @@ Received date time
 **Parameter:** 
  - **receivedAt** DateTime
 
+```crmscript
+NSEMailEntity thing;
+DateTime receivedAt;
+thing.SetReceivedAt(receivedAt);
+```
+

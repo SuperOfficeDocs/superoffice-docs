@@ -11,3 +11,9 @@ The name of the owner which the request was assigned to
 **Parameter:** 
  - **ownerName** String
 
+```crmscript
+NSTicketInfo thing;
+String ownerName;
+thing.SetOwnerName(ownerName);
+```
+

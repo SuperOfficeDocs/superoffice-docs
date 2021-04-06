@@ -18,3 +18,9 @@ The domain for this key. Unknown if key is not valid.
      - Enum: 5 = PublicFaq 
      - Enum: 6 = ChangePasswordCustomerCenter 
 
+```crmscript
+NSTemporaryKeyInfo thing;
+Integer domain;
+thing.SetDomain(domain);
+```
+

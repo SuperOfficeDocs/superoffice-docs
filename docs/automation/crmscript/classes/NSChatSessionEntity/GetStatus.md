@@ -23,3 +23,9 @@ Enum indicating the status for the session (pending, active, closed, etc).
      - Enum: 10 = RequestPosted 
      - Enum: 11 = ClosedFromQueue 
 
+```crmscript
+NSChatSessionEntity thing;
+ChatSessionStatus status  = thing.GetStatus();
+```
+
+

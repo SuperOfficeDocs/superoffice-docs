@@ -11,3 +11,9 @@ Expected duration of project, in given units
 **Returns:** Integer
 
 
+```crmscript
+NSProjectTypeEntity thing;
+Integer projectDuration  = thing.GetProjectDuration();
+```
+
+

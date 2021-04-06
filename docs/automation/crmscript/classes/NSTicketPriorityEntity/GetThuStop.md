@@ -11,3 +11,9 @@ The work hour stop for Thursdays. Note that only the time part of the DateTime i
 **Returns:** DateTime
 
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime thuStop  = thing.GetThuStop();
+```
+
+

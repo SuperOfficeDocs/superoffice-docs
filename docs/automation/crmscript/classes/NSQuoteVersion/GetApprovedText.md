@@ -11,3 +11,9 @@ Text with comments on why approval was granted (or rejected)
 **Returns:** String
 
 
+```crmscript
+NSQuoteVersion thing;
+String approvedText  = thing.GetApprovedText();
+```
+
+

@@ -11,3 +11,9 @@ Show as dropdown list on target?
 **Returns:** Bool
 
 
+```crmscript
+NSFieldInfoRelation thing;
+Bool useDropDown  = thing.GetUseDropDown();
+```
+
+

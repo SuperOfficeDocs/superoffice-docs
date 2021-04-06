@@ -11,3 +11,9 @@ The project owner id (associate id)
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSProject thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

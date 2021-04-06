@@ -11,3 +11,9 @@ The account primary key
 **Parameter:** 
  - **eMailAccountId** Integer
 
+```crmscript
+NSEMailAccount thing;
+Integer eMailAccountId;
+thing.SetEMailAccountId(eMailAccountId);
+```
+

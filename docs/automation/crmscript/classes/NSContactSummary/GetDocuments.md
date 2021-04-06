@@ -11,3 +11,9 @@ Recent documents on contact
 **Returns:** ActivitySummaryItemArray
 
 
+```crmscript
+NSContactSummary thing;
+ActivitySummaryItemArray documents  = thing.GetDocuments();
+```
+
+

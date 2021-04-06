@@ -11,3 +11,9 @@ Values for the row, where the first string is the column name (e.g. x_number), a
 **Returns:** StringDictionary
 
 
+```crmscript
+NSTableRecord thing;
+StringDictionary values  = thing.GetValues();
+```
+
+

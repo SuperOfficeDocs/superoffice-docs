@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEventEntity thing;
+Bool isVisibleForPersonInterests  = thing.GetIsVisibleForPersonInterests();
+```
+
+

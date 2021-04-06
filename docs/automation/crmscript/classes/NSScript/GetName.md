@@ -11,3 +11,9 @@ A description of this script
 **Returns:** String
 
 
+```crmscript
+NSScript thing;
+String name  = thing.GetName();
+```
+
+

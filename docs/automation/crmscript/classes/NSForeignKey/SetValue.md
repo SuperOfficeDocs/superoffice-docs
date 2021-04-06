@@ -11,3 +11,9 @@ Key value
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSForeignKey thing;
+String value;
+thing.SetValue(value);
+```
+

@@ -11,3 +11,9 @@ Script id to run when new messages received from customer.
 **Returns:** Integer
 
 
+```crmscript
+NSChatBotSettings thing;
+Integer botMessageReceivedScriptId  = thing.GetBotMessageReceivedScriptId();
+```
+
+

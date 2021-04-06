@@ -11,3 +11,9 @@ The sale's owner
 **Parameter:** 
  - **associateFullName** String
 
+```crmscript
+NSSale thing;
+String associateFullName;
+thing.SetAssociateFullName(associateFullName);
+```
+

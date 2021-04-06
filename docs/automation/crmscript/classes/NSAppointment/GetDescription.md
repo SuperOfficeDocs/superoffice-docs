@@ -11,3 +11,9 @@ The appointment's textbox; holds a descriptive text about the appointment. Fille
 **Returns:** String
 
 
+```crmscript
+NSAppointment thing;
+String description  = thing.GetDescription();
+```
+
+

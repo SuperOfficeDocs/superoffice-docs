@@ -11,3 +11,9 @@ The ID of the database column this field corresponds to
 **Parameter:** 
  - **columnId** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer columnId;
+thing.SetColumnId(columnId);
+```
+

@@ -11,3 +11,9 @@ Default show in selector?
 **Returns:** Bool
 
 
+```crmscript
+NSFieldValueInfo thing;
+Bool defaultShowInSelector  = thing.GetDefaultShowInSelector();
+```
+
+

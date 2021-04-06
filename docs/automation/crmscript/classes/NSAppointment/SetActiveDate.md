@@ -11,3 +11,9 @@ The date to be used for searching & showing
 **Parameter:** 
  - **activeDate** DateTime
 
+```crmscript
+NSAppointment thing;
+DateTime activeDate;
+thing.SetActiveDate(activeDate);
+```
+

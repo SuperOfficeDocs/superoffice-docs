@@ -11,3 +11,9 @@ A description of this script
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSCRMScriptEntity thing;
+String name;
+thing.SetName(name);
+```
+

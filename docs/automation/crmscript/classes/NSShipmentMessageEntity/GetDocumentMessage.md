@@ -11,3 +11,9 @@ The SM document used as template for this mailing
 **Returns:** Integer
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+Integer documentMessage  = thing.GetDocumentMessage();
+```
+
+

@@ -11,3 +11,9 @@ Type of the suggested document
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+Integer doctmplId  = thing.GetDoctmplId();
+```
+
+

@@ -15,3 +15,9 @@ Which field in ticket we count time spent on (queue, internal, external)
      - Enum: 2 = Externally 
      - Enum: 3 = Queue 
 
+```crmscript
+NSTicketStatusEntity thing;
+TicketStatusTimeCounter timeCounter  = thing.GetTimeCounter();
+```
+
+

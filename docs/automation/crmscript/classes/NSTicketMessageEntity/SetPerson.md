@@ -11,3 +11,9 @@ If this is an incoming message, this will contain the person
 **Parameter:** 
  - **person** Person
 
+```crmscript
+NSTicketMessageEntity thing;
+Person person;
+thing.SetPerson(person);
+```
+

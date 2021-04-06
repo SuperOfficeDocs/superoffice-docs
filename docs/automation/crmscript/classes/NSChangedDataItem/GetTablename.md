@@ -11,3 +11,9 @@ Name of table, standardized to lowercase
 **Returns:** String
 
 
+```crmscript
+NSChangedDataItem thing;
+String tablename  = thing.GetTablename();
+```
+
+

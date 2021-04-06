@@ -11,3 +11,9 @@ Foreign address layout of the country
 **Parameter:** 
  - **foreignAddressLayoutId** Integer
 
+```crmscript
+NSCountry thing;
+Integer foreignAddressLayoutId;
+thing.SetForeignAddressLayoutId(foreignAddressLayoutId);
+```
+

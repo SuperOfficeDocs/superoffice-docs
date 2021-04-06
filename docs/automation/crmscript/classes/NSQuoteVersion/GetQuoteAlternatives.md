@@ -11,3 +11,9 @@ The QuoteAlternatives for the QuoteVersion
 **Returns:** QuoteAlternativeArray
 
 
+```crmscript
+NSQuoteVersion thing;
+QuoteAlternativeArray quoteAlternatives  = thing.GetQuoteAlternatives();
+```
+
+

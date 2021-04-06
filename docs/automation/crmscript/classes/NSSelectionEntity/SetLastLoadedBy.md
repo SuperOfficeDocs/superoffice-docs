@@ -11,3 +11,9 @@ Who last loaded this selection
 **Parameter:** 
  - **lastLoadedBy** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer lastLoadedBy;
+thing.SetLastLoadedBy(lastLoadedBy);
+```
+

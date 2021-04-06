@@ -11,3 +11,9 @@ The name of the web panel
 **Returns:** String
 
 
+```crmscript
+NSExtAppEntity thing;
+String name  = thing.GetName();
+```
+
+

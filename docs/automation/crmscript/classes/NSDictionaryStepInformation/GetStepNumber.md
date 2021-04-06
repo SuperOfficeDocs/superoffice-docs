@@ -11,3 +11,9 @@ Generation number of step
 **Returns:** Integer
 
 
+```crmscript
+NSDictionaryStepInformation thing;
+Integer stepNumber  = thing.GetStepNumber();
+```
+
+

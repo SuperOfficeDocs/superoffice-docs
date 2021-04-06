@@ -11,3 +11,9 @@ Type of deployment
 **Returns:** Integer
 
 
+```crmscript
+NSLicenseInfo thing;
+Integer deploymentType  = thing.GetDeploymentType();
+```
+
+

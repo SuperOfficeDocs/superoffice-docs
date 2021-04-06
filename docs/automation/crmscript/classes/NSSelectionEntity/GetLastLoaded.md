@@ -11,3 +11,9 @@ The date/time this selection was last loaded (selectionentity fetched)
 **Returns:** DateTime
 
 
+```crmscript
+NSSelectionEntity thing;
+DateTime lastLoaded  = thing.GetLastLoaded();
+```
+
+

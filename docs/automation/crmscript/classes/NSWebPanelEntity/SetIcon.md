@@ -11,3 +11,9 @@ The icon of the webpanel
 **Parameter:** 
  - **icon** Integer
 
+```crmscript
+NSWebPanelEntity thing;
+Integer icon;
+thing.SetIcon(icon);
+```
+

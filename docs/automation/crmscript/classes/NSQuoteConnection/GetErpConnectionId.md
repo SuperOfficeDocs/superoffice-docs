@@ -11,3 +11,9 @@ The ERP Connection that this Quote connection is an extension of
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteConnection thing;
+Integer erpConnectionId  = thing.GetErpConnectionId();
+```
+
+

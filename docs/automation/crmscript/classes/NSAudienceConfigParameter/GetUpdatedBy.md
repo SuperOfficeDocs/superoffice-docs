@@ -11,3 +11,9 @@ Name of the person that last updated the configuration parameter
 **Returns:** String
 
 
+```crmscript
+NSAudienceConfigParameter thing;
+String updatedBy  = thing.GetUpdatedBy();
+```
+
+

@@ -11,3 +11,9 @@ The department of the contact connected to the appointment
 **Parameter:** 
  - **contactDepartment** String
 
+```crmscript
+NSAppointmentSyncData thing;
+String contactDepartment;
+thing.SetContactDepartment(contactDepartment);
+```
+

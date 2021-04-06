@@ -11,3 +11,9 @@ e.g. Mrs, Dr, Ms.
 **Parameter:** 
  - **mrmrs** String
 
+```crmscript
+NSProjectMember thing;
+String mrmrs;
+thing.SetMrmrs(mrmrs);
+```
+

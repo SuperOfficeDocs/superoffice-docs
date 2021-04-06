@@ -11,3 +11,9 @@ E-mail address
 **Parameter:** 
  - **emailAddress** String
 
+```crmscript
+NSSaleStakeholder thing;
+String emailAddress;
+thing.SetEmailAddress(emailAddress);
+```
+

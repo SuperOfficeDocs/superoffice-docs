@@ -11,3 +11,9 @@ Always in English
 **Parameter:** 
  - **techExplanation** String
 
+```crmscript
+NSPluginResponse thing;
+String techExplanation;
+thing.SetTechExplanation(techExplanation);
+```
+

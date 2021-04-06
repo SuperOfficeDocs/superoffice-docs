@@ -11,3 +11,9 @@ The name to use in the user interface, like perhaps 'US dollar' or '$'
 **Returns:** String
 
 
+```crmscript
+NSPriceList thing;
+String currencyName  = thing.GetCurrencyName();
+```
+
+

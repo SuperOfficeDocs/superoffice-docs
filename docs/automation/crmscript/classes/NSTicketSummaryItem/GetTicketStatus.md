@@ -11,3 +11,9 @@ User defined ticket status
 **Returns:** Integer
 
 
+```crmscript
+NSTicketSummaryItem thing;
+Integer ticketStatus  = thing.GetTicketStatus();
+```
+
+

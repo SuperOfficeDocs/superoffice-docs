@@ -11,3 +11,9 @@ If nonzero, then this contact is 'deleted' and should generally not be shown
 **Parameter:** 
  - **deleted** Integer
 
+```crmscript
+NSContactEntity thing;
+Integer deleted;
+thing.SetDeleted(deleted);
+```
+

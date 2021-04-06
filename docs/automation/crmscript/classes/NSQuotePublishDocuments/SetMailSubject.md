@@ -11,3 +11,9 @@ The string that is the mail subject; done by merging the text resource SR_QUOTE_
 **Parameter:** 
  - **mailSubject** String
 
+```crmscript
+NSQuotePublishDocuments thing;
+String mailSubject;
+thing.SetMailSubject(mailSubject);
+```
+

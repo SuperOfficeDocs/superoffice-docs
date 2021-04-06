@@ -11,3 +11,9 @@ Array of ColumnInfo column specifications
 **Returns:** ArchiveColumnInfoArray
 
 
+```crmscript
+NSCriteriaInformation thing;
+ArchiveColumnInfoArray criteriaArchiveColumns  = thing.GetCriteriaArchiveColumns();
+```
+
+

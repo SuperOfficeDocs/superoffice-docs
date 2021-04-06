@@ -11,3 +11,9 @@ Id of the task.
 **Returns:** Integer
 
 
+```crmscript
+NSBatchTaskInfo thing;
+Integer id  = thing.GetId();
+```
+
+

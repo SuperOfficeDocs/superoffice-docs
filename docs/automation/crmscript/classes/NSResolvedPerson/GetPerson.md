@@ -11,3 +11,9 @@ The resolved PersonEntity instance.
 **Returns:** PersonEntity
 
 
+```crmscript
+NSResolvedPerson thing;
+PersonEntity person  = thing.GetPerson();
+```
+
+

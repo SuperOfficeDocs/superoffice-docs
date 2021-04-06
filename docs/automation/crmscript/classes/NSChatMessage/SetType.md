@@ -15,3 +15,9 @@ The type of the message.
      - Enum: 2 = ToUser 
      - Enum: 3 = Special 
 
+```crmscript
+NSChatMessage thing;
+ChatMessageType type;
+thing.SetType(type);
+```
+

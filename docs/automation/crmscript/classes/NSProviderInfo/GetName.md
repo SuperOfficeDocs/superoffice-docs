@@ -11,3 +11,9 @@ Unique name of the provider plugin
 **Returns:** String
 
 
+```crmscript
+NSProviderInfo thing;
+String name  = thing.GetName();
+```
+
+

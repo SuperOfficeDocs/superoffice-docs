@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Contact
 
 
+```crmscript
+NSSatellite thing;
+Contact contact  = thing.GetContact();
+```
+
+

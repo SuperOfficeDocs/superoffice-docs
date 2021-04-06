@@ -11,3 +11,9 @@ The category list item name
 **Returns:** String
 
 
+```crmscript
+NSContact thing;
+String categoryName  = thing.GetCategoryName();
+```
+
+

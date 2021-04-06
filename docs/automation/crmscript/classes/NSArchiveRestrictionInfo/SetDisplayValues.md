@@ -11,3 +11,9 @@ Display representation of value(s) - list ID's are decoded to display texts, oth
 **Parameter:** 
  - **displayValues** StringArray
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+StringArray displayValues;
+thing.SetDisplayValues(displayValues);
+```
+

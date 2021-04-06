@@ -11,3 +11,9 @@ Check that entered value is unique
 **Parameter:** 
  - **unique** Bool
 
+```crmscript
+NSRefCountEntity thing;
+Bool unique;
+thing.SetUnique(unique);
+```
+

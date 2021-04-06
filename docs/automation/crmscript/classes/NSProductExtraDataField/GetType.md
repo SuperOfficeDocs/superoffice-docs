@@ -14,3 +14,9 @@ String, url, image. How the value should be interpreted.
      - Enum: 1 = Url 
      - Enum: 2 = Image 
 
+```crmscript
+NSProductExtraDataField thing;
+Integer type  = thing.GetType();
+```
+
+

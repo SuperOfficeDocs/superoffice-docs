@@ -11,3 +11,9 @@ Identity of selection to use as source for recipients.
 **Returns:** Integer
 
 
+```crmscript
+NSMailMergeSettings thing;
+Integer selectionId  = thing.GetSelectionId();
+```
+
+

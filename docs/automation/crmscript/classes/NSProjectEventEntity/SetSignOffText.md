@@ -11,3 +11,9 @@ Default text for the activity created when signing off.
 **Parameter:** 
  - **signOffText** String
 
+```crmscript
+NSProjectEventEntity thing;
+String signOffText;
+thing.SetSignOffText(signOffText);
+```
+

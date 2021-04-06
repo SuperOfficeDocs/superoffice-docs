@@ -11,3 +11,9 @@ The date that this version was checked in and became official
 **Parameter:** 
  - **checkedInDate** DateTime
 
+```crmscript
+NSVersionInfo thing;
+DateTime checkedInDate;
+thing.SetCheckedInDate(checkedInDate);
+```
+

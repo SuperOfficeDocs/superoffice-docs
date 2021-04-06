@@ -11,3 +11,9 @@ If a document was used as the message this is the document ID.
 **Returns:** Integer
 
 
+```crmscript
+NSPreviewMailingHeader thing;
+Integer documentMessageId  = thing.GetDocumentMessageId();
+```
+
+

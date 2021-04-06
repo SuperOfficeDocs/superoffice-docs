@@ -11,3 +11,9 @@ A sale may also be connected to a project, so you see the sale both on the compa
 **Returns:** Project
 
 
+```crmscript
+NSSaleEntity thing;
+Project project  = thing.GetProject();
+```
+
+

@@ -11,3 +11,9 @@ Display name, shown in menus, command lists and similar GUI elements.
 **Parameter:** 
  - **displayName** String
 
+```crmscript
+NSCommandInfo thing;
+String displayName;
+thing.SetDisplayName(displayName);
+```
+

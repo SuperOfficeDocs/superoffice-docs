@@ -11,3 +11,9 @@ Default decimal (double precision) value
 **Returns:** Float
 
 
+```crmscript
+NSFieldInfoDecimal thing;
+Float defaultValue  = thing.GetDefaultValue();
+```
+
+

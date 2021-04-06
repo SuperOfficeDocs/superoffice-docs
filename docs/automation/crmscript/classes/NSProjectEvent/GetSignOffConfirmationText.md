@@ -11,3 +11,9 @@ Text shown as confirmation text before accepting sign off.
 **Returns:** String
 
 
+```crmscript
+NSProjectEvent thing;
+String signOffConfirmationText  = thing.GetSignOffConfirmationText();
+```
+
+

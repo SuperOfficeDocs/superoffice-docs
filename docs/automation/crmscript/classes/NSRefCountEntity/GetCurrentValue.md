@@ -11,3 +11,9 @@ Current value of counter
 **Returns:** Integer
 
 
+```crmscript
+NSRefCountEntity thing;
+Integer currentValue  = thing.GetCurrentValue();
+```
+
+

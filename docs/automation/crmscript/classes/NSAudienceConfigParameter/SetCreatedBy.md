@@ -11,3 +11,9 @@ Name of the person that created the configuration parameter
 **Parameter:** 
  - **createdBy** String
 
+```crmscript
+NSAudienceConfigParameter thing;
+String createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

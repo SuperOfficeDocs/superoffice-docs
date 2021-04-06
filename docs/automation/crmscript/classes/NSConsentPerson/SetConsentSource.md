@@ -11,3 +11,9 @@ The consent source
 **Parameter:** 
  - **consentSource** ConsentSource
 
+```crmscript
+NSConsentPerson thing;
+ConsentSource consentSource;
+thing.SetConsentSource(consentSource);
+```
+

@@ -11,3 +11,9 @@ The display name of the group to display to the user.
 **Returns:** String
 
 
+```crmscript
+NSCredentialsGroup thing;
+String displayName  = thing.GetDisplayName();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Float
 
 
+```crmscript
+NSProduct thing;
+Float unitListPrice  = thing.GetUnitListPrice();
+```
+
+

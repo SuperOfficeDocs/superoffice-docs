@@ -11,3 +11,9 @@ When the message was posted.
 **Returns:** DateTime
 
 
+```crmscript
+NSTicketMessageEntity thing;
+DateTime createdAt  = thing.GetCreatedAt();
+```
+
+

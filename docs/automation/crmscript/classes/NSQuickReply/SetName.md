@@ -11,3 +11,9 @@ The short name of the quick reply
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSQuickReply thing;
+String name;
+thing.SetName(name);
+```
+

@@ -11,3 +11,9 @@ The script is inside this hierarchy folder
 **Returns:** Integer
 
 
+```crmscript
+NSCRMScriptEntity thing;
+Integer hierarchyId  = thing.GetHierarchyId();
+```
+
+

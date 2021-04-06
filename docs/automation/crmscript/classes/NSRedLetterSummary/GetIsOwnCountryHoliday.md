@@ -11,3 +11,9 @@ If true, this day is a holiday in the country of the given associate.
 **Returns:** Bool
 
 
+```crmscript
+NSRedLetterSummary thing;
+Bool isOwnCountryHoliday  = thing.GetIsOwnCountryHoliday();
+```
+
+

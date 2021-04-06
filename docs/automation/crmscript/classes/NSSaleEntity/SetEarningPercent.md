@@ -11,3 +11,9 @@ Earning as percent of total
 **Parameter:** 
  - **earningPercent** Float
 
+```crmscript
+NSSaleEntity thing;
+Float earningPercent;
+thing.SetEarningPercent(earningPercent);
+```
+

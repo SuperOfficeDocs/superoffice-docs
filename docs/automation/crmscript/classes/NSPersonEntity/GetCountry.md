@@ -11,3 +11,9 @@ The country this contact person is located in.
 **Returns:** Country
 
 
+```crmscript
+NSPersonEntity thing;
+Country country  = thing.GetCountry();
+```
+
+

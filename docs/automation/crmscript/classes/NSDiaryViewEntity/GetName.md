@@ -11,3 +11,9 @@ Name of the DiaryView.
 **Returns:** String
 
 
+```crmscript
+NSDiaryViewEntity thing;
+String name  = thing.GetName();
+```
+
+

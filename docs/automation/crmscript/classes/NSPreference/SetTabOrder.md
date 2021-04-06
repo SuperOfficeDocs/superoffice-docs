@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **tabOrder** TabOrder
 
+```crmscript
+NSPreference thing;
+TabOrder tabOrder;
+thing.SetTabOrder(tabOrder);
+```
+

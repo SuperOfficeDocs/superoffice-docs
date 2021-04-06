@@ -11,3 +11,9 @@ Last logout date
 **Returns:** DateTime
 
 
+```crmscript
+NSUser thing;
+DateTime lastlogout  = thing.GetLastlogout();
+```
+
+

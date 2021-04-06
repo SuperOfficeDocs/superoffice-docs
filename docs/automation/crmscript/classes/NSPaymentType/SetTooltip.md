@@ -11,3 +11,9 @@ Set the tooltip description for the PaymentType list item.
 **Parameter:** 
  - **tooltip** String PaymentType tooltip description.
 
+```crmscript
+NSPaymentType thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

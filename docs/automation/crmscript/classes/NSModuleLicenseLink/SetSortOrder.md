@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **sortOrder** Integer
 
+```crmscript
+NSModuleLicenseLink thing;
+Integer sortOrder;
+thing.SetSortOrder(sortOrder);
+```
+

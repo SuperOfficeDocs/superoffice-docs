@@ -10,3 +10,8 @@ Get the name of the ReasonSold.
 
 **Returns:** String ReasonSold name.
 
+```crmscript
+NSReasonSold thing;
+String name = thing.GetValue();
+```
+

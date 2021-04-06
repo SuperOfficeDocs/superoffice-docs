@@ -11,3 +11,9 @@ The name of the category for the request
 **Parameter:** 
  - **categoryName** String
 
+```crmscript
+NSTicketInfo thing;
+String categoryName;
+thing.SetCategoryName(categoryName);
+```
+

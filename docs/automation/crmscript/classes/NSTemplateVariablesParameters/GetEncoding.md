@@ -25,3 +25,9 @@ Encoding of source string. Non-text formats such as MsWord or Excel should be Ba
      - Enum: 12 = OpenDocument 
      - Enum: 13 = OpenDocumentXml 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer encoding  = thing.GetEncoding();
+```
+
+

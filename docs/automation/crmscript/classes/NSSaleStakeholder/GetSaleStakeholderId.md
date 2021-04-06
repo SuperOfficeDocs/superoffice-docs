@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSaleStakeholder thing;
+Integer saleStakeholderId  = thing.GetSaleStakeholderId();
+```
+
+

@@ -11,3 +11,9 @@ Date + end time planned
 **Parameter:** 
  - **endDate** DateTime
 
+```crmscript
+NSAppointment thing;
+DateTime endDate;
+thing.SetEndDate(endDate);
+```
+

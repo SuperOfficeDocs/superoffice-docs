@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **contactId** Integer
 
+```crmscript
+NSEMailAddress thing;
+Integer contactId;
+thing.SetContactId(contactId);
+```
+

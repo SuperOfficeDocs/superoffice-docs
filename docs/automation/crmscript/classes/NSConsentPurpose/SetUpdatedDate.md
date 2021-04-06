@@ -11,3 +11,9 @@ The date the consent purpose was last updated
 **Parameter:** 
  - **updatedDate** DateTime
 
+```crmscript
+NSConsentPurpose thing;
+DateTime updatedDate;
+thing.SetUpdatedDate(updatedDate);
+```
+

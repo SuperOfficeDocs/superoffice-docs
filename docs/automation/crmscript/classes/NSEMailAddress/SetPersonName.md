@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **personName** String
 
+```crmscript
+NSEMailAddress thing;
+String personName;
+thing.SetPersonName(personName);
+```
+

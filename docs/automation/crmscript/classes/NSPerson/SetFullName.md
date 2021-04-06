@@ -11,3 +11,9 @@ Get the persons full name (internal name used in clients for employees).
 **Parameter:** 
  - **fullName** String
 
+```crmscript
+NSPerson thing;
+String fullName;
+thing.SetFullName(fullName);
+```
+

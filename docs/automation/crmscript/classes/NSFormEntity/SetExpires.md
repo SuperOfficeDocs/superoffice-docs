@@ -11,3 +11,9 @@ After this datetime, the form will become inactive
 **Parameter:** 
  - **expires** DateTime
 
+```crmscript
+NSFormEntity thing;
+DateTime expires;
+thing.SetExpires(expires);
+```
+

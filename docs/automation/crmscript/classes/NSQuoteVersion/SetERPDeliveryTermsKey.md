@@ -11,3 +11,9 @@ Either a List id to an id from a connector provided list, or, if the connection 
 **Parameter:** 
  - **eRPDeliveryTermsKey** String
 
+```crmscript
+NSQuoteVersion thing;
+String eRPDeliveryTermsKey;
+thing.SetERPDeliveryTermsKey(eRPDeliveryTermsKey);
+```
+

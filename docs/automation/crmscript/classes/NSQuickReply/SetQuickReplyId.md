@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **quickReplyId** Integer
 
+```crmscript
+NSQuickReply thing;
+Integer quickReplyId;
+thing.SetQuickReplyId(quickReplyId);
+```
+

@@ -11,3 +11,9 @@ Array of all the list item mappings
 **Returns:** ErpCrmListItemMappingArray
 
 
+```crmscript
+NSErpConnectionListMapping thing;
+ErpCrmListItemMappingArray erpCrmListItemMappings  = thing.GetErpCrmListItemMappings();
+```
+
+

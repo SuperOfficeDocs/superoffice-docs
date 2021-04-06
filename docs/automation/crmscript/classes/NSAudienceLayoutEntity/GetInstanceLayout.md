@@ -11,3 +11,9 @@ The web part layout as a serialized string
 **Returns:** String
 
 
+```crmscript
+NSAudienceLayoutEntity thing;
+String instanceLayout  = thing.GetInstanceLayout();
+```
+
+

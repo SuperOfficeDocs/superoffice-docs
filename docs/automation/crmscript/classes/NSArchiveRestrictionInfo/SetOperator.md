@@ -11,3 +11,9 @@ The operator, such as =, etc
 **Parameter:** 
  - **operator** String
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+String operator;
+thing.SetOperator(operator);
+```
+

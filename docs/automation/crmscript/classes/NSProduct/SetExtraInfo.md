@@ -11,3 +11,9 @@ Extra information, supplied by QuoteConnector, used by a future dynamic GUI exte
 **Parameter:** 
  - **extraInfo** ProductExtraDataFieldArray
 
+```crmscript
+NSProduct thing;
+ProductExtraDataFieldArray extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
+

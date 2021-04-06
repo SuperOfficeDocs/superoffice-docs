@@ -11,3 +11,9 @@ Indicates if the user has the chat presence turned on or off
 **Returns:** Bool
 
 
+```crmscript
+NSChatPresence thing;
+Bool present  = thing.GetPresent();
+```
+
+

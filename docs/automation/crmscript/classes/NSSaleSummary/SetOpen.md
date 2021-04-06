@@ -11,3 +11,9 @@ Number of all open within the period
 **Parameter:** 
  - **open** Integer
 
+```crmscript
+NSSaleSummary thing;
+Integer open;
+thing.SetOpen(open);
+```
+

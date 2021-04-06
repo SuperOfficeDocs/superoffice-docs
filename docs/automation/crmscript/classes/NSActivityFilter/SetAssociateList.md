@@ -11,3 +11,9 @@ The list of associates to filter on
 **Parameter:** 
  - **associateList** SelectableMDOListItemArray
 
+```crmscript
+NSActivityFilter thing;
+SelectableMDOListItemArray associateList;
+thing.SetAssociateList(associateList);
+```
+

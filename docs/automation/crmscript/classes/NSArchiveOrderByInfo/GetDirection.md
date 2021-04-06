@@ -13,3 +13,9 @@ Direction to order.
      - Enum: 0 = ASC 
      - Enum: 1 = DESC 
 
+```crmscript
+NSArchiveOrderByInfo thing;
+Integer direction  = thing.GetDirection();
+```
+
+

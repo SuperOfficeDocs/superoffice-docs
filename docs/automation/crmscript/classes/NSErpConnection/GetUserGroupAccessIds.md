@@ -11,3 +11,9 @@ Array of ids containing usergroups that will have access to this connection.
 **Returns:** IntegerArray
 
 
+```crmscript
+NSErpConnection thing;
+IntegerArray userGroupAccessIds  = thing.GetUserGroupAccessIds();
+```
+
+

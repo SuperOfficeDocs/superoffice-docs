@@ -11,3 +11,9 @@ The original chart Id
 **Parameter:** 
  - **chartId** String
 
+```crmscript
+NSDashboardTile thing;
+String chartId;
+thing.SetChartId(chartId);
+```
+

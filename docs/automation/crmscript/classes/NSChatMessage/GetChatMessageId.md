@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Returns:** Integer
 
 
+```crmscript
+NSChatMessage thing;
+Integer chatMessageId  = thing.GetChatMessageId();
+```
+
+

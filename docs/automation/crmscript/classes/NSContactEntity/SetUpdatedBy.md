@@ -11,3 +11,9 @@ The user that last updated the contact
 **Parameter:** 
  - **updatedBy** Associate
 
+```crmscript
+NSContactEntity thing;
+Associate updatedBy;
+thing.SetUpdatedBy(updatedBy);
+```
+

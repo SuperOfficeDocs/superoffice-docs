@@ -11,3 +11,9 @@ Suggested 'header'
 **Returns:** String
 
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+String header  = thing.GetHeader();
+```
+
+

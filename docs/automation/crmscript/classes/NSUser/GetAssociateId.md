@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSUser thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

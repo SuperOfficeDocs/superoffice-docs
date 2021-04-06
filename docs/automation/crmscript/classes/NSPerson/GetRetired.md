@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSPerson thing;
+Integer retired  = thing.GetRetired();
+```
+
+

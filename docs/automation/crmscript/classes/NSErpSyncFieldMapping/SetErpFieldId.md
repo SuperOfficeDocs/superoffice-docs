@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **erpFieldId** Integer
 
+```crmscript
+NSErpSyncFieldMapping thing;
+Integer erpFieldId;
+thing.SetErpFieldId(erpFieldId);
+```
+

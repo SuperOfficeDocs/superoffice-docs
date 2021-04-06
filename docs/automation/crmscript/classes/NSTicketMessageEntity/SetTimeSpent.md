@@ -11,3 +11,9 @@ The time spent (minutes) for this message.
 **Parameter:** 
  - **timeSpent** Integer
 
+```crmscript
+NSTicketMessageEntity thing;
+Integer timeSpent;
+thing.SetTimeSpent(timeSpent);
+```
+

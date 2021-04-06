@@ -11,3 +11,9 @@ Start date for subscription, as offered
 **Parameter:** 
  - **subscriptionStart** DateTime
 
+```crmscript
+NSQuoteLine thing;
+DateTime subscriptionStart;
+thing.SetSubscriptionStart(subscriptionStart);
+```
+

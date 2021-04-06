@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **foreignAppId** Integer
 
+```crmscript
+NSForeignAppEntity thing;
+Integer foreignAppId;
+thing.SetForeignAppId(foreignAppId);
+```
+

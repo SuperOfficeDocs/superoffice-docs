@@ -11,3 +11,8 @@ Set the primary key (id) for the Task
 **Parameter:** 
  - **id** Integer Task id.
 
+```crmscript
+NSTask thing;
+thing.SetId(123);
+```
+

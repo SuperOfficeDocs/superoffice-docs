@@ -11,3 +11,9 @@ A unique name used for including this script in another
 **Returns:** String
 
 
+```crmscript
+NSScript thing;
+String includeId  = thing.GetIncludeId();
+```
+
+

@@ -11,3 +11,9 @@ Actual probability, may differ from the one in the list
 **Returns:** Integer
 
 
+```crmscript
+NSSaleEntity thing;
+Integer probability  = thing.GetProbability();
+```
+
+

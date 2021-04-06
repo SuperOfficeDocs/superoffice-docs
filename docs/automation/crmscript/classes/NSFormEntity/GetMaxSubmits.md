@@ -11,3 +11,9 @@ After this number of submits, the form will become inactive
 **Returns:** Integer
 
 
+```crmscript
+NSFormEntity thing;
+Integer maxSubmits  = thing.GetMaxSubmits();
+```
+
+

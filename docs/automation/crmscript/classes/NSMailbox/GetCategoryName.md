@@ -11,3 +11,9 @@ The name of the category that the mailbox is connected to
 **Returns:** String
 
 
+```crmscript
+NSMailbox thing;
+String categoryName  = thing.GetCategoryName();
+```
+
+

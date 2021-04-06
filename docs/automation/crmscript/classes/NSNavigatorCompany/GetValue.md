@@ -10,3 +10,8 @@ Get the name of the NavigatorCompany.
 
 **Returns:** String NavigatorCompany name.
 
+```crmscript
+NSNavigatorCompany thing;
+String name = thing.GetValue();
+```
+

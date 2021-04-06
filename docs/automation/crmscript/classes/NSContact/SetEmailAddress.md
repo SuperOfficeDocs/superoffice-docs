@@ -11,3 +11,9 @@ The contact email address
 **Parameter:** 
  - **emailAddress** String
 
+```crmscript
+NSContact thing;
+String emailAddress;
+thing.SetEmailAddress(emailAddress);
+```
+

@@ -11,3 +11,9 @@ The key values given in the incoming 'data' parameter to the Upsert call, in the
 **Returns:** StringArray
 
 
+```crmscript
+NSUpsertRowStatus thing;
+StringArray rowKeys  = thing.GetRowKeys();
+```
+
+

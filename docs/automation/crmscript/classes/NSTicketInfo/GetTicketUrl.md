@@ -11,3 +11,9 @@ A URL leading directly to the created request. This is a URL ment to be used by 
 **Returns:** String
 
 
+```crmscript
+NSTicketInfo thing;
+String ticketUrl  = thing.GetTicketUrl();
+```
+
+

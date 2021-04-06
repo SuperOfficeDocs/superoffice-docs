@@ -11,3 +11,9 @@ Days in the first period
 **Returns:** Integer
 
 
+```crmscript
+NSStatusMonitorPeriods thing;
+Integer period1  = thing.GetPeriod1();
+```
+
+

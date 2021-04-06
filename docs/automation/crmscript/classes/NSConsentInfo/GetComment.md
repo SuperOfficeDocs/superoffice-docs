@@ -11,3 +11,9 @@ Comment regarding this specific consent
 **Returns:** String
 
 
+```crmscript
+NSConsentInfo thing;
+String comment  = thing.GetComment();
+```
+
+

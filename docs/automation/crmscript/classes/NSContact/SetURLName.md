@@ -11,3 +11,9 @@ Visible field
 **Parameter:** 
  - **uRLName** String
 
+```crmscript
+NSContact thing;
+String uRLName;
+thing.SetURLName(uRLName);
+```
+

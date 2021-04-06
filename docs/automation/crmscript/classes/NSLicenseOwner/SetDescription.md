@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSLicenseOwner thing;
+String description;
+thing.SetDescription(description);
+```
+

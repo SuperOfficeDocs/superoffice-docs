@@ -11,3 +11,9 @@ Project the session is connectedto - could be empty if we don't know exactly.
 **Returns:** Project
 
 
+```crmscript
+NSChatSessionEntity thing;
+Project project  = thing.GetProject();
+```
+
+

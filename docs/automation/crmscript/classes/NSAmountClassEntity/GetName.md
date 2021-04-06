@@ -11,3 +11,9 @@ The list item
 **Returns:** String
 
 
+```crmscript
+NSAmountClassEntity thing;
+String name  = thing.GetName();
+```
+
+

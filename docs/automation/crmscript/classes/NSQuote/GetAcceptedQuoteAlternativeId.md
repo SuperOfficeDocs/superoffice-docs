@@ -11,3 +11,9 @@ The primary key of the Quote Alternative which was finally accepted by the custo
 **Returns:** Integer
 
 
+```crmscript
+NSQuote thing;
+Integer acceptedQuoteAlternativeId  = thing.GetAcceptedQuoteAlternativeId();
+```
+
+

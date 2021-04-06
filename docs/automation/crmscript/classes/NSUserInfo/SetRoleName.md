@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **roleName** String
 
+```crmscript
+NSUserInfo thing;
+String roleName;
+thing.SetRoleName(roleName);
+```
+

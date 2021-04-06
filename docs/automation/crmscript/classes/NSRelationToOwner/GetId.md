@@ -10,3 +10,8 @@ Get the primary key (id) for the RelationToOwner
 
 **Returns:** Integer RelationToOwner id.
 
+```crmscript
+NSRelationToOwner thing;
+Integer id = thing.GetId();
+```
+

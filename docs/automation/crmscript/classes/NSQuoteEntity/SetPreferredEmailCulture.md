@@ -11,3 +11,9 @@ When emails are sent (offer or confirmation), a language can be chosen in the GU
 **Parameter:** 
  - **preferredEmailCulture** String
 
+```crmscript
+NSQuoteEntity thing;
+String preferredEmailCulture;
+thing.SetPreferredEmailCulture(preferredEmailCulture);
+```
+

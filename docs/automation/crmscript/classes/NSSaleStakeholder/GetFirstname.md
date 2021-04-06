@@ -11,3 +11,9 @@ First name
 **Returns:** String
 
 
+```crmscript
+NSSaleStakeholder thing;
+String firstname  = thing.GetFirstname();
+```
+
+

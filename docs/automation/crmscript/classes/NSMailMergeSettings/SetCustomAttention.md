@@ -11,3 +11,9 @@ Custom value for attention.
 **Parameter:** 
  - **customAttention** String
 
+```crmscript
+NSMailMergeSettings thing;
+String customAttention;
+thing.SetCustomAttention(customAttention);
+```
+

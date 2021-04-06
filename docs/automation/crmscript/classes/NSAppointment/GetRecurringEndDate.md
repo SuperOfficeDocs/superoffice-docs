@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** DateTime
 
 
+```crmscript
+NSAppointment thing;
+DateTime recurringEndDate  = thing.GetRecurringEndDate();
+```
+
+

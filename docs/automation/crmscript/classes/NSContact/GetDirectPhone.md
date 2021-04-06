@@ -11,3 +11,9 @@ The contacts phone
 **Returns:** String
 
 
+```crmscript
+NSContact thing;
+String directPhone  = thing.GetDirectPhone();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **contactCountry** String
 
+```crmscript
+NSParticipantSyncData thing;
+String contactCountry;
+thing.SetContactCountry(contactCountry);
+```
+

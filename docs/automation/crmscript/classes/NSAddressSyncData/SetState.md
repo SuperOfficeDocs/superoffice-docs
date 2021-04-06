@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **state** String
 
+```crmscript
+NSAddressSyncData thing;
+String state;
+thing.SetState(state);
+```
+

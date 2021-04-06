@@ -11,3 +11,9 @@ Indicates if this form creates a ticket or not
 **Parameter:** 
  - **newTicket** Bool
 
+```crmscript
+NSFormEntity thing;
+Bool newTicket;
+thing.SetNewTicket(newTicket);
+```
+

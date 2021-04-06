@@ -11,3 +11,9 @@ If true, the user is retired and should have no rights, not appear in lists, etc
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSAssociate thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

@@ -11,3 +11,9 @@ On/off switch for Saint functionality for this entity
 **Parameter:** 
  - **enabled** Bool
 
+```crmscript
+NSSaintConfiguration thing;
+Bool enabled;
+thing.SetEnabled(enabled);
+```
+

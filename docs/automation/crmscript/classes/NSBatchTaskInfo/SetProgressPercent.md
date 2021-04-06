@@ -11,3 +11,9 @@ Task progress, in percent of estimated total
 **Parameter:** 
  - **progressPercent** Integer
 
+```crmscript
+NSBatchTaskInfo thing;
+Integer progressPercent;
+thing.SetProgressPercent(progressPercent);
+```
+

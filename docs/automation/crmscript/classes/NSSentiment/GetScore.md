@@ -11,3 +11,9 @@ Sentiment score, -100 = very unhappy, 100 = very happy, 0 = no idea (not recogni
 **Returns:** Integer
 
 
+```crmscript
+NSSentiment thing;
+Integer score  = thing.GetScore();
+```
+
+

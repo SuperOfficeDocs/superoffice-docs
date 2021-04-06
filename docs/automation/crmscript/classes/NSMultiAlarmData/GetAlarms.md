@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** AlarmDataArray
 
 
+```crmscript
+NSMultiAlarmData thing;
+AlarmDataArray alarms  = thing.GetAlarms();
+```
+
+

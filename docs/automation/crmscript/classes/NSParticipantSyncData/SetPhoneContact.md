@@ -11,3 +11,9 @@ Returns a collection of office phone numbers that belong to the contact person.
 **Parameter:** 
  - **phoneContact** StringArray
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray phoneContact;
+thing.SetPhoneContact(phoneContact);
+```
+

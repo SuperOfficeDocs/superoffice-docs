@@ -11,3 +11,9 @@ Name of user to log in with
 **Returns:** String
 
 
+```crmscript
+NSEMailConnectionInfoExtended thing;
+String userName  = thing.GetUserName();
+```
+
+

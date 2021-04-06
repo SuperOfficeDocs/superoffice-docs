@@ -10,3 +10,8 @@ Get the name of the ProductFamily.
 
 **Returns:** String ProductFamily name.
 
+```crmscript
+NSProductFamily thing;
+String name = thing.GetValue();
+```
+

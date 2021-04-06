@@ -11,3 +11,9 @@ English name of this language (Norwegian)
 **Parameter:** 
  - **englishName** String
 
+```crmscript
+NSLanguageInfo thing;
+String englishName;
+thing.SetEnglishName(englishName);
+```
+

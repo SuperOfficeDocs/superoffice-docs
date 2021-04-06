@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSDataRight thing;
+String description  = thing.GetDescription();
+```
+
+

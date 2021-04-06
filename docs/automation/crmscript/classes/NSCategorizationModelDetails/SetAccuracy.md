@@ -11,3 +11,9 @@ Accuracy of the trained model
 **Parameter:** 
  - **accuracy** Float
 
+```crmscript
+NSCategorizationModelDetails thing;
+Float accuracy;
+thing.SetAccuracy(accuracy);
+```
+

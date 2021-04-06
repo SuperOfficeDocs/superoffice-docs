@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **foreignDeviceId** Integer
 
+```crmscript
+NSForeignDevice thing;
+Integer foreignDeviceId;
+thing.SetForeignDeviceId(foreignDeviceId);
+```
+

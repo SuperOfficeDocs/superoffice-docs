@@ -10,3 +10,9 @@ Get the tooltip description for the Source list item.
 
 **Returns:** String Source tooltip description.
 
+```crmscript
+NSSource thing;
+String descr = thing.GetTooltip();
+```
+
+

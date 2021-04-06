@@ -11,3 +11,9 @@ Comma separated list of addresses to notify when requests are redelegated to (un
 **Parameter:** 
  - **notificationEmail** String
 
+```crmscript
+NSTicketCategoryEntity thing;
+String notificationEmail;
+thing.SetNotificationEmail(notificationEmail);
+```
+

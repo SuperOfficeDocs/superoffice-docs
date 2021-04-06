@@ -11,3 +11,9 @@ List to use for populating dropdown or listbox
 **Parameter:** 
  - **uDListDefinitionId** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer uDListDefinitionId;
+thing.SetUDListDefinitionId(uDListDefinitionId);
+```
+

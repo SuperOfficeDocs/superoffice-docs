@@ -11,3 +11,9 @@ Person Private Phone
 **Returns:** String
 
 
+```crmscript
+NSPhoneListItem thing;
+String personPrivatePhone  = thing.GetPersonPrivatePhone();
+```
+
+

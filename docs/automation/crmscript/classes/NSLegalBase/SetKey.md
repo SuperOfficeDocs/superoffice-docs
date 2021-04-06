@@ -11,3 +11,9 @@ The key used to uniquely identify this legal base
 **Parameter:** 
  - **key** String
 
+```crmscript
+NSLegalBase thing;
+String key;
+thing.SetKey(key);
+```
+

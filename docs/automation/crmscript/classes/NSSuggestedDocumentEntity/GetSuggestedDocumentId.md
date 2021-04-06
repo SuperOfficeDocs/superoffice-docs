@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+Integer suggestedDocumentId  = thing.GetSuggestedDocumentId();
+```
+
+

@@ -11,3 +11,9 @@ First email on contact person.
 **Parameter:** 
  - **email** String
 
+```crmscript
+NSPerson thing;
+String email;
+thing.SetEmail(email);
+```
+

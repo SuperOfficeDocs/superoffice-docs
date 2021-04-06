@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **fullName** String
 
+```crmscript
+NSContact thing;
+String fullName;
+thing.SetFullName(fullName);
+```
+

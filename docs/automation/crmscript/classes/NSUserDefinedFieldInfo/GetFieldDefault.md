@@ -11,3 +11,9 @@ Optional default value for String fields
 **Returns:** String
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+String fieldDefault  = thing.GetFieldDefault();
+```
+
+

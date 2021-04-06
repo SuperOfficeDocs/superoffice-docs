@@ -11,3 +11,9 @@ Description of the appointment.
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSAppointmentEntity thing;
+String description;
+thing.SetDescription(description);
+```
+

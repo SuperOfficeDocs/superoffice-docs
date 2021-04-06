@@ -11,3 +11,8 @@ Set the primary key (id) for the TicketCategory
 **Parameter:** 
  - **id** Integer TicketCategory id.
 
+```crmscript
+NSTicketCategory thing;
+thing.SetId(123);
+```
+

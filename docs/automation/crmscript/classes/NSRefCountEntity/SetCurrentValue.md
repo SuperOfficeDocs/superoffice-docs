@@ -11,3 +11,9 @@ Current value of counter
 **Parameter:** 
  - **currentValue** Integer
 
+```crmscript
+NSRefCountEntity thing;
+Integer currentValue;
+thing.SetCurrentValue(currentValue);
+```
+

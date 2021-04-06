@@ -11,3 +11,9 @@ To recipients of e-mail
 **Parameter:** 
  - **to** EMailAddressArray
 
+```crmscript
+NSEMailEntity thing;
+EMailAddressArray to;
+thing.SetTo(to);
+```
+

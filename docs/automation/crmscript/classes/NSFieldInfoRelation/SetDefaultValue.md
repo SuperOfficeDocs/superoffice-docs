@@ -11,3 +11,9 @@ Default record id.
 **Parameter:** 
  - **defaultValue** Integer
 
+```crmscript
+NSFieldInfoRelation thing;
+Integer defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
+

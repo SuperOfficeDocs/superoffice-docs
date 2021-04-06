@@ -11,3 +11,9 @@ This entry contains a reference to the parent category. NULL or -1 if this is a 
 **Returns:** Integer
 
 
+```crmscript
+NSKbCategory thing;
+Integer parentId  = thing.GetParentId();
+```
+
+

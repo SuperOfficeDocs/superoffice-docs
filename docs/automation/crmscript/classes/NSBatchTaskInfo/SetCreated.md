@@ -11,3 +11,9 @@ Task creation time.
 **Parameter:** 
  - **created** DateTime
 
+```crmscript
+NSBatchTaskInfo thing;
+DateTime created;
+thing.SetCreated(created);
+```
+

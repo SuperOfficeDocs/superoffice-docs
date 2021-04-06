@@ -11,3 +11,9 @@ Style hint for the row, for instance 'retired' for associates or 'private' for a
 **Parameter:** 
  - **styleHint** String
 
+```crmscript
+NSArchiveListItem thing;
+String styleHint;
+thing.SetStyleHint(styleHint);
+```
+

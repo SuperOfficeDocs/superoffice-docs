@@ -11,3 +11,9 @@ This carrier is currently not used
 **Parameter:** 
  - **dummy** String
 
+```crmscript
+NSCategoryGuess thing;
+String dummy;
+thing.SetDummy(dummy);
+```
+

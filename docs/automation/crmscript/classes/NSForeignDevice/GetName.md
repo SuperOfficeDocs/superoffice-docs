@@ -11,3 +11,9 @@ Name of device
 **Returns:** String
 
 
+```crmscript
+NSForeignDevice thing;
+String name  = thing.GetName();
+```
+
+

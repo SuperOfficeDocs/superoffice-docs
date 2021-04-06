@@ -11,3 +11,9 @@ If true, do the merge task, but use current user as target, instead of selection
 **Parameter:** 
  - **testOnly** Bool
 
+```crmscript
+NSMailMergeSettings thing;
+Bool testOnly;
+thing.SetTestOnly(testOnly);
+```
+

@@ -27,3 +27,9 @@ so.topic: reference
      - Enum: 14 = Password 
      - Enum: 15 = MultiLineText 
 
+```crmscript
+NSPreferenceDescription thing;
+Integer valueType  = thing.GetValueType();
+```
+
+

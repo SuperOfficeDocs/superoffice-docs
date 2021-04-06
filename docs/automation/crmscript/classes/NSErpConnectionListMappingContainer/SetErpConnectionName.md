@@ -11,3 +11,9 @@ The name of the erp connection
 **Parameter:** 
  - **erpConnectionName** String
 
+```crmscript
+NSErpConnectionListMappingContainer thing;
+String erpConnectionName;
+thing.SetErpConnectionName(erpConnectionName);
+```
+

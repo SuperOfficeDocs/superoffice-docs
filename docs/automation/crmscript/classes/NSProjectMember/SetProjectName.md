@@ -11,3 +11,9 @@ Name of the project this project member belongs to.
 **Parameter:** 
  - **projectName** String
 
+```crmscript
+NSProjectMember thing;
+String projectName;
+thing.SetProjectName(projectName);
+```
+

@@ -11,3 +11,9 @@ Type of the suggested appointment
 **Returns:** Task
 
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Task type  = thing.GetType();
+```
+
+

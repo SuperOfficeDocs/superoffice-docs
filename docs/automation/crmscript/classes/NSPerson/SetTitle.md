@@ -11,3 +11,9 @@ Title
 **Parameter:** 
  - **title** String
 
+```crmscript
+NSPerson thing;
+String title;
+thing.SetTitle(title);
+```
+

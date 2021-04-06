@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** StringArray
 
 
+```crmscript
+NSEMailCustomHeader thing;
+StringArray values  = thing.GetValues();
+```
+
+

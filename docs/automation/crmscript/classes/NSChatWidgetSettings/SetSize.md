@@ -13,3 +13,9 @@ Chat widget size: normal or large.
      - Enum: 0 = Normal 
      - Enum: 1 = Large 
 
+```crmscript
+NSChatWidgetSettings thing;
+Integer size;
+thing.SetSize(size);
+```
+

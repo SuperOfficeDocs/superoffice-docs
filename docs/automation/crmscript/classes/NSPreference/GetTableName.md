@@ -11,3 +11,9 @@ For DisplayType=PrefDescValueType.ListTableRef, TableName will contain the name 
 **Returns:** String
 
 
+```crmscript
+NSPreference thing;
+String tableName  = thing.GetTableName();
+```
+
+

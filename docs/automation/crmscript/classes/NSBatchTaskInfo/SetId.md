@@ -11,3 +11,9 @@ Id of the task.
 **Parameter:** 
  - **id** Integer
 
+```crmscript
+NSBatchTaskInfo thing;
+Integer id;
+thing.SetId(id);
+```
+

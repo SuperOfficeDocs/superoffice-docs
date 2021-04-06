@@ -11,3 +11,9 @@ Relative to TemplatePath, or extref for other document plugins. i.e URL or full 
 **Parameter:** 
  - **filename** String
 
+```crmscript
+NSDocumentTemplateEntity thing;
+String filename;
+thing.SetFilename(filename);
+```
+

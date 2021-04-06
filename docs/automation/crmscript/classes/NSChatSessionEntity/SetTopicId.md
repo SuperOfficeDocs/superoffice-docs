@@ -11,3 +11,9 @@ The reference to the associated chat topic.
 **Parameter:** 
  - **topicId** Integer
 
+```crmscript
+NSChatSessionEntity thing;
+Integer topicId;
+thing.SetTopicId(topicId);
+```
+

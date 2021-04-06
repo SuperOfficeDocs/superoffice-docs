@@ -11,3 +11,9 @@ Last external syncronization.
 **Parameter:** 
  - **dbiLastSyncronized** DateTime
 
+```crmscript
+NSContactEntity thing;
+DateTime dbiLastSyncronized;
+thing.SetDbiLastSyncronized(dbiLastSyncronized);
+```
+

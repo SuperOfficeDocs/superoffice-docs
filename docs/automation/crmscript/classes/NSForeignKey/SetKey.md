@@ -11,3 +11,9 @@ Subkey (optional)
 **Parameter:** 
  - **key** String
 
+```crmscript
+NSForeignKey thing;
+String key;
+thing.SetKey(key);
+```
+

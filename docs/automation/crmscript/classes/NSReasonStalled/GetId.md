@@ -10,3 +10,8 @@ Get the primary key (id) for the ReasonStalled
 
 **Returns:** Integer ReasonStalled id.
 
+```crmscript
+NSReasonStalled thing;
+Integer id = thing.GetId();
+```
+

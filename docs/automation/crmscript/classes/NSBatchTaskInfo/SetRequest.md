@@ -11,3 +11,9 @@ Maps to the request field in the batchtask table.
 **Parameter:** 
  - **request** String
 
+```crmscript
+NSBatchTaskInfo thing;
+String request;
+thing.SetRequest(request);
+```
+

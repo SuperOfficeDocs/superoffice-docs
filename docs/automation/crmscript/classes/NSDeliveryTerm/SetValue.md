@@ -11,3 +11,8 @@ Set the name of the DeliveryTerm item.
 **Parameter:** 
  - **value** String DeliveryTerm name.
 
+```crmscript
+NSDeliveryTerm thing;
+thing.SetValue("frotz");
+```
+

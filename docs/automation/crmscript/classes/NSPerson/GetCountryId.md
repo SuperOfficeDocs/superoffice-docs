@@ -11,3 +11,9 @@ Country
 **Returns:** Integer
 
 
+```crmscript
+NSPerson thing;
+Integer countryId  = thing.GetCountryId();
+```
+
+

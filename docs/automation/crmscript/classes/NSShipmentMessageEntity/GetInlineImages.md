@@ -11,3 +11,9 @@ Should images be included inline?
 **Returns:** Bool
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+Bool inlineImages  = thing.GetInlineImages();
+```
+
+

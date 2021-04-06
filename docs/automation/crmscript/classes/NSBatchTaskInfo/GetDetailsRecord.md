@@ -11,3 +11,9 @@ Record Id of a row in the DetailsTable containing more info about the task.
 **Returns:** Integer
 
 
+```crmscript
+NSBatchTaskInfo thing;
+Integer detailsRecord  = thing.GetDetailsRecord();
+```
+
+

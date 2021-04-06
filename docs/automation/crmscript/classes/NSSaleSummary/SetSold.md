@@ -11,3 +11,9 @@ Number of all sold within the period
 **Parameter:** 
  - **sold** Integer
 
+```crmscript
+NSSaleSummary thing;
+Integer sold;
+thing.SetSold(sold);
+```
+

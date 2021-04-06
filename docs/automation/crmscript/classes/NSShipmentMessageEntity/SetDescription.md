@@ -11,3 +11,9 @@ Describes this message
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSShipmentMessageEntity thing;
+String description;
+thing.SetDescription(description);
+```
+

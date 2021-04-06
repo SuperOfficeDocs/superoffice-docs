@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **quoteAlternativeId** Integer
 
+```crmscript
+NSQuoteAlternative thing;
+Integer quoteAlternativeId;
+thing.SetQuoteAlternativeId(quoteAlternativeId);
+```
+

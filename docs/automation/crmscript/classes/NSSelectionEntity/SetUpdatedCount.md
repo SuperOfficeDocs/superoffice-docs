@@ -11,3 +11,9 @@ Number of updates made to this record
 **Parameter:** 
  - **updatedCount** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer updatedCount;
+thing.SetUpdatedCount(updatedCount);
+```
+

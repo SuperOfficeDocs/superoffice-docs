@@ -11,3 +11,9 @@ The list of groups to filter on
 **Returns:** SelectableMDOListItemArray
 
 
+```crmscript
+NSActivityFilter thing;
+SelectableMDOListItemArray groupList  = thing.GetGroupList();
+```
+
+

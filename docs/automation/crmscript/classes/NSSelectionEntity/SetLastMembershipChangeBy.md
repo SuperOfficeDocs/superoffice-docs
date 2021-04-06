@@ -11,3 +11,9 @@ Who last changed the membership
 **Parameter:** 
  - **lastMembershipChangeBy** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer lastMembershipChangeBy;
+thing.SetLastMembershipChangeBy(lastMembershipChangeBy);
+```
+

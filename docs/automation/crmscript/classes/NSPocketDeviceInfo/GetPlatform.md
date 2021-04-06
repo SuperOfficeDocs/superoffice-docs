@@ -17,3 +17,9 @@ What platform does this device belong to
      - Enum: 4 = AppleAdHoc 
      - Enum: 5 = GoogleDeveloper 
 
+```crmscript
+NSPocketDeviceInfo thing;
+Integer platform  = thing.GetPlatform();
+```
+
+

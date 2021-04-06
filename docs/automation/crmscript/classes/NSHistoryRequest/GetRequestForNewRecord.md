@@ -11,3 +11,9 @@ Are we requesting insert rights? If true, then EntityorParentId is taken to mean
 **Returns:** Bool
 
 
+```crmscript
+NSHistoryRequest thing;
+Bool requestForNewRecord  = thing.GetRequestForNewRecord();
+```
+
+

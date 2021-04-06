@@ -11,3 +11,8 @@ Set the name of the SaleType item.
 **Parameter:** 
  - **value** String SaleType name.
 
+```crmscript
+NSSaleType thing;
+thing.SetValue("frotz");
+```
+

@@ -11,3 +11,9 @@ The person's email address id
 **Returns:** Integer
 
 
+```crmscript
+NSProjectMember thing;
+Integer emailId  = thing.GetEmailId();
+```
+
+

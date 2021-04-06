@@ -10,3 +10,9 @@ Get the tooltip description for the Business list item.
 
 **Returns:** String Business tooltip description.
 
+```crmscript
+NSBusiness thing;
+String descr = thing.GetTooltip();
+```
+
+

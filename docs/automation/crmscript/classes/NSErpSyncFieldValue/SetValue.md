@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSErpSyncFieldValue thing;
+String value;
+thing.SetValue(value);
+```
+

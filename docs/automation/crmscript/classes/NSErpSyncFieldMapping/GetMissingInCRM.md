@@ -11,3 +11,9 @@ This field existed previously, but now CRM no longer supports it (udef change?).
 **Returns:** Bool
 
 
+```crmscript
+NSErpSyncFieldMapping thing;
+Bool missingInCRM  = thing.GetMissingInCRM();
+```
+
+

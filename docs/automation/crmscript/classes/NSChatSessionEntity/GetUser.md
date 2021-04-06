@@ -11,3 +11,9 @@ User agent handling this session
 **Returns:** Associate
 
 
+```crmscript
+NSChatSessionEntity thing;
+Associate user  = thing.GetUser();
+```
+
+

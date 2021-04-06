@@ -11,3 +11,9 @@ Our support contact for this person
 **Returns:** Integer
 
 
+```crmscript
+NSPerson thing;
+Integer supportAssociateId  = thing.GetSupportAssociateId();
+```
+
+

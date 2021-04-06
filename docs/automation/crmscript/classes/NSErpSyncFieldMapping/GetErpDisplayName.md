@@ -11,3 +11,9 @@ Display name of ERP field; ignored on Save
 **Returns:** String
 
 
+```crmscript
+NSErpSyncFieldMapping thing;
+String erpDisplayName  = thing.GetErpDisplayName();
+```
+
+

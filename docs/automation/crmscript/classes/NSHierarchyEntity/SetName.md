@@ -11,3 +11,9 @@ Name of this hierarchy folder.
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSHierarchyEntity thing;
+String name;
+thing.SetName(name);
+```
+

@@ -11,3 +11,9 @@ The full name of the recipient, taken from the sale's person
 **Parameter:** 
  - **toFullName** String
 
+```crmscript
+NSQuotePublishDocuments thing;
+String toFullName;
+thing.SetToFullName(toFullName);
+```
+

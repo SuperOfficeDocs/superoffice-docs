@@ -11,3 +11,9 @@ The changed QuoteAlternatives
 **Parameter:** 
  - **changedQuoteAlternatives** QuoteAlternativeRecalculatedArray
 
+```crmscript
+NSQuoteVersionValidated thing;
+QuoteAlternativeRecalculatedArray changedQuoteAlternatives;
+thing.SetChangedQuoteAlternatives(changedQuoteAlternatives);
+```
+

@@ -11,3 +11,9 @@ The entity name of the ArchiveListItem. An ArchiveList may contain rows from dif
 **Parameter:** 
  - **entityName** String
 
+```crmscript
+NSArchiveListItem thing;
+String entityName;
+thing.SetEntityName(entityName);
+```
+

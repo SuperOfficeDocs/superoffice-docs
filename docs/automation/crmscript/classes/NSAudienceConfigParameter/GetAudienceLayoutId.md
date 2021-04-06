@@ -11,3 +11,9 @@ The id of the Audience layout this configuration setting belongs to
 **Returns:** Integer
 
 
+```crmscript
+NSAudienceConfigParameter thing;
+Integer audienceLayoutId  = thing.GetAudienceLayoutId();
+```
+
+

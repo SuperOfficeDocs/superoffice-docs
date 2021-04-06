@@ -10,3 +10,8 @@ Get the name of the CustomerLanguage.
 
 **Returns:** String CustomerLanguage name.
 
+```crmscript
+NSCustomerLanguage thing;
+String name = thing.GetValue();
+```
+

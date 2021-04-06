@@ -10,3 +10,8 @@ Get the name of the Currency.
 
 **Returns:** String Currency name.
 
+```crmscript
+NSCurrency thing;
+String name = thing.GetValue();
+```
+

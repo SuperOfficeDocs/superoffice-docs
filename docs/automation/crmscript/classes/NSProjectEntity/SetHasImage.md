@@ -11,3 +11,9 @@ True if the project has an image. (This is the image that is displayed in the CR
 **Parameter:** 
  - **hasImage** Bool
 
+```crmscript
+NSProjectEntity thing;
+Bool hasImage;
+thing.SetHasImage(hasImage);
+```
+

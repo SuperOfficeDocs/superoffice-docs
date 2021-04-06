@@ -14,3 +14,9 @@ Get or set the inter-restriction operator that describes how this restriction is
      - Enum: 1 = And 
      - Enum: 2 = Or 
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+Integer interOperator;
+thing.SetInterOperator(interOperator);
+```
+

@@ -11,3 +11,9 @@ Specify duration of the event
 **Returns:** TimeSpan
 
 
+```crmscript
+NSPocketNotificationMessage thing;
+TimeSpan duration  = thing.GetDuration();
+```
+
+

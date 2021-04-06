@@ -11,3 +11,9 @@ Last updated date
 **Parameter:** 
  - **updatedDate** DateTime
 
+```crmscript
+NSProjectEntity thing;
+DateTime updatedDate;
+thing.SetUpdatedDate(updatedDate);
+```
+

@@ -11,3 +11,9 @@ The cost price. Might not be given, use Decimal.MinValue to signal this.
 **Returns:** Float
 
 
+```crmscript
+NSProduct thing;
+Float unitCost  = thing.GetUnitCost();
+```
+
+

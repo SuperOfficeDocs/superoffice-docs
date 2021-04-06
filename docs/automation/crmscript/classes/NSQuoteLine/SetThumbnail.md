@@ -11,3 +11,9 @@ A small image of the product, typically used to show in a list. Base64 encoded p
 **Parameter:** 
  - **thumbnail** String
 
+```crmscript
+NSQuoteLine thing;
+String thumbnail;
+thing.SetThumbnail(thumbnail);
+```
+

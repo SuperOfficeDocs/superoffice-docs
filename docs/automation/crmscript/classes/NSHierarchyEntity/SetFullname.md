@@ -11,3 +11,9 @@ The full name of this category, i.e. Foo/bar/test.
 **Parameter:** 
  - **fullname** String
 
+```crmscript
+NSHierarchyEntity thing;
+String fullname;
+thing.SetFullname(fullname);
+```
+

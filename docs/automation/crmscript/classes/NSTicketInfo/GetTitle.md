@@ -11,3 +11,9 @@ The title/subject of the created ticket
 **Returns:** String
 
 
+```crmscript
+NSTicketInfo thing;
+String title  = thing.GetTitle();
+```
+
+

@@ -11,3 +11,9 @@ The companies that match the request
 **Returns:** ContactArray
 
 
+```crmscript
+NSSalesActivity thing;
+ContactArray requestedContacts  = thing.GetRequestedContacts();
+```
+
+

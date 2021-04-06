@@ -10,3 +10,8 @@ Get the name of the SelectionCategory.
 
 **Returns:** String SelectionCategory name.
 
+```crmscript
+NSSelectionCategory thing;
+String name = thing.GetValue();
+```
+

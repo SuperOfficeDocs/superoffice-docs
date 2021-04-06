@@ -11,3 +11,9 @@ Should the time-span be counted in hours?
 **Returns:** Bool
 
 
+```crmscript
+NSFieldInfoTimeSpan thing;
+Bool useHours  = thing.GetUseHours();
+```
+
+

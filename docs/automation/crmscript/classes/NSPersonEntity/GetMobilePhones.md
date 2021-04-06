@@ -11,3 +11,9 @@ Returns a collection of mobile phone numbers that belong to the contact person.
 **Returns:** EntityElementArray
 
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray mobilePhones  = thing.GetMobilePhones();
+```
+
+

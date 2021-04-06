@@ -11,3 +11,9 @@ Values for the row, where the first string is the column name (e.g. x_number), a
 **Parameter:** 
  - **values** StringDictionary
 
+```crmscript
+NSTableRecord thing;
+StringDictionary values;
+thing.SetValues(values);
+```
+

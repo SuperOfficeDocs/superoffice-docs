@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **satelliteId** Integer
 
+```crmscript
+NSSatellite thing;
+Integer satelliteId;
+thing.SetSatelliteId(satelliteId);
+```
+

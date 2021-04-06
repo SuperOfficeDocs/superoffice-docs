@@ -11,3 +11,9 @@ Set the tooltip description for the SelectionCategory list item.
 **Parameter:** 
  - **tooltip** String SelectionCategory tooltip description.
 
+```crmscript
+NSSelectionCategory thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

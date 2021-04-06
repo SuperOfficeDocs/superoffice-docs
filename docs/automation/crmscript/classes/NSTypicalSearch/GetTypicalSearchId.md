@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSTypicalSearch thing;
+Integer typicalSearchId  = thing.GetTypicalSearchId();
+```
+
+

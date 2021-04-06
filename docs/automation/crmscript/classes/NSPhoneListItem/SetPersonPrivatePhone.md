@@ -11,3 +11,9 @@ Person Private Phone
 **Parameter:** 
  - **personPrivatePhone** String
 
+```crmscript
+NSPhoneListItem thing;
+String personPrivatePhone;
+thing.SetPersonPrivatePhone(personPrivatePhone);
+```
+

@@ -11,3 +11,9 @@ Possible value
 **Returns:** String
 
 
+```crmscript
+NSPreferenceDescriptionLine thing;
+String prefValue  = thing.GetPrefValue();
+```
+
+

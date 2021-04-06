@@ -11,3 +11,9 @@ Rank field for ordering sections, and keys within sections
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSPreferenceDescription thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

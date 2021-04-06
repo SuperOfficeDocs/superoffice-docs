@@ -11,3 +11,9 @@ Phone number
 **Parameter:** 
  - **phone** String
 
+```crmscript
+NSProjectMember thing;
+String phone;
+thing.SetPhone(phone);
+```
+

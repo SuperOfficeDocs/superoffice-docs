@@ -11,3 +11,9 @@ Id of associate who actually entered the approval; might be different from Appro
 **Parameter:** 
  - **approvedRegisteredBy** Integer
 
+```crmscript
+NSQuoteVersion thing;
+Integer approvedRegisteredBy;
+thing.SetApprovedRegisteredBy(approvedRegisteredBy);
+```
+

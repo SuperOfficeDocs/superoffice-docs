@@ -11,3 +11,9 @@ Planned end date for project, inhertied from type and later editable
 **Parameter:** 
  - **endDate** DateTime
 
+```crmscript
+NSProjectEntity thing;
+DateTime endDate;
+thing.SetEndDate(endDate);
+```
+

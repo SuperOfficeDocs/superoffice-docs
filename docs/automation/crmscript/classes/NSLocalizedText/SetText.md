@@ -11,3 +11,9 @@ The text string itself
 **Parameter:** 
  - **text** String
 
+```crmscript
+NSLocalizedText thing;
+String text;
+thing.SetText(text);
+```
+

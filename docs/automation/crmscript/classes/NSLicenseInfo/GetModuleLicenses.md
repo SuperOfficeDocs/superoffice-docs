@@ -11,3 +11,9 @@ The module licenses.
 **Returns:** ModuleLicenseArray
 
 
+```crmscript
+NSLicenseInfo thing;
+ModuleLicenseArray moduleLicenses  = thing.GetModuleLicenses();
+```
+
+

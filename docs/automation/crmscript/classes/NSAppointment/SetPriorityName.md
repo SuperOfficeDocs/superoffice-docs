@@ -11,3 +11,9 @@ Name of the appointments priority
 **Parameter:** 
  - **priorityName** String
 
+```crmscript
+NSAppointment thing;
+String priorityName;
+thing.SetPriorityName(priorityName);
+```
+

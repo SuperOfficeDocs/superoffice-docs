@@ -11,3 +11,9 @@ The ticket category entity which this ticket is connected to
 **Returns:** TicketCategoryEntity
 
 
+```crmscript
+NSTicketEntity thing;
+TicketCategoryEntity category  = thing.GetCategory();
+```
+
+

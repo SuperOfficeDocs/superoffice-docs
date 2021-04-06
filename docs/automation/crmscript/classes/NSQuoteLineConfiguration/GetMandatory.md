@@ -11,3 +11,9 @@ Is this a mandatory field?
 **Returns:** Bool
 
 
+```crmscript
+NSQuoteLineConfiguration thing;
+Bool mandatory  = thing.GetMandatory();
+```
+
+

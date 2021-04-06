@@ -11,3 +11,9 @@ The standard list price; as given by ERP Connector, OR overridden by user
 **Parameter:** 
  - **unitListPrice** Float
 
+```crmscript
+NSQuoteLine thing;
+Float unitListPrice;
+thing.SetUnitListPrice(unitListPrice);
+```
+

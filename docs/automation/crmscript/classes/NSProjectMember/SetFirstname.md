@@ -11,3 +11,9 @@ First name
 **Parameter:** 
  - **firstname** String
 
+```crmscript
+NSProjectMember thing;
+String firstname;
+thing.SetFirstname(firstname);
+```
+

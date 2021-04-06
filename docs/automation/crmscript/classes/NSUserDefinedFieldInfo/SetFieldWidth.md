@@ -11,3 +11,9 @@ field width in pixels, 0 = 'enough' (from font)
 **Parameter:** 
  - **fieldWidth** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldWidth;
+thing.SetFieldWidth(fieldWidth);
+```
+

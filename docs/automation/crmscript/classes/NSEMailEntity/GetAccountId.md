@@ -11,3 +11,9 @@ Account Id
 **Returns:** Integer
 
 
+```crmscript
+NSEMailEntity thing;
+Integer accountId  = thing.GetAccountId();
+```
+
+

@@ -15,3 +15,9 @@ This field indicates what to do with the escalation chain when the request is ch
      - Enum: 1 = Continue 
      - Enum: 2 = Restart 
 
+```crmscript
+NSTicketPriorityEntity thing;
+TicketPriorityEscalateEvent ticketChangedPriority;
+thing.SetTicketChangedPriority(ticketChangedPriority);
+```
+

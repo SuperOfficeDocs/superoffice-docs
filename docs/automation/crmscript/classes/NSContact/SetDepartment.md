@@ -11,3 +11,9 @@ Department
 **Parameter:** 
  - **department** String
 
+```crmscript
+NSContact thing;
+String department;
+thing.SetDepartment(department);
+```
+

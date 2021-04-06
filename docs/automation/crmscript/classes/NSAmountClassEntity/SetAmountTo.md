@@ -11,3 +11,9 @@ Upper limit of this amount class
 **Parameter:** 
  - **amountTo** Float
 
+```crmscript
+NSAmountClassEntity thing;
+Float amountTo;
+thing.SetAmountTo(amountTo);
+```
+

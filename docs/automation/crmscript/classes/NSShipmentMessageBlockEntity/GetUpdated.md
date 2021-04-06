@@ -11,3 +11,9 @@ Last updated when
 **Returns:** DateTime
 
 
+```crmscript
+NSShipmentMessageBlockEntity thing;
+DateTime updated  = thing.GetUpdated();
+```
+
+

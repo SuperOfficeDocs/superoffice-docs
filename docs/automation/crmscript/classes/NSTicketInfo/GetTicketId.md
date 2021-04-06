@@ -11,3 +11,9 @@ The id of the created ticket
 **Returns:** Integer
 
 
+```crmscript
+NSTicketInfo thing;
+Integer ticketId  = thing.GetTicketId();
+```
+
+

@@ -11,3 +11,9 @@ Document description, shown as a tooltip or in some extended description area
 **Returns:** String
 
 
+```crmscript
+NSTemplateInfo thing;
+String description  = thing.GetDescription();
+```
+
+

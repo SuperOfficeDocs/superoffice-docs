@@ -11,3 +11,9 @@ Indicates if this is a custom list or a standard list
 **Returns:** Bool
 
 
+```crmscript
+NSListEntity thing;
+Bool isCustomList  = thing.GetIsCustomList();
+```
+
+

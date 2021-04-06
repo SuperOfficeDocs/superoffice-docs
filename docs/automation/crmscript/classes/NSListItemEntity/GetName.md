@@ -11,3 +11,9 @@ The name of the list item
 **Returns:** String
 
 
+```crmscript
+NSListItemEntity thing;
+String name  = thing.GetName();
+```
+
+

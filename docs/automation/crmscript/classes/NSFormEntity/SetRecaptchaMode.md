@@ -14,3 +14,9 @@ What is the state of the recaptcha configuration? This is a read-only member
      - Enum: 1 = GlobalKeysExist 
      - Enum: 2 = KeysNeeded 
 
+```crmscript
+NSFormEntity thing;
+Integer recaptchaMode;
+thing.SetRecaptchaMode(recaptchaMode);
+```
+

@@ -11,3 +11,9 @@ Array of id's of any attachments (standard + custom for this version)
 **Parameter:** 
  - **quoteAttachmentIds** IntegerArray
 
+```crmscript
+NSQuotePublishDocuments thing;
+IntegerArray quoteAttachmentIds;
+thing.SetQuoteAttachmentIds(quoteAttachmentIds);
+```
+

@@ -11,3 +11,9 @@ The persons contact organization number
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String contactOrgNr  = thing.GetContactOrgNr();
+```
+
+

@@ -11,3 +11,9 @@ The actual text, max 2047 significant characters even though it is stored as a l
 **Returns:** String
 
 
+```crmscript
+NSDocumentEntity thing;
+String description  = thing.GetDescription();
+```
+
+

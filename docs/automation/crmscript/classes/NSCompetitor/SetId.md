@@ -11,3 +11,8 @@ Set the primary key (id) for the Competitor
 **Parameter:** 
  - **id** Integer Competitor id.
 
+```crmscript
+NSCompetitor thing;
+thing.SetId(123);
+```
+

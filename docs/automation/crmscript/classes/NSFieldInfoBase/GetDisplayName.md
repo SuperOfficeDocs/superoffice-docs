@@ -11,3 +11,9 @@ Label for field. May be multi-lang string encoded.
 **Returns:** String
 
 
+```crmscript
+NSFieldInfoBase thing;
+String displayName  = thing.GetDisplayName();
+```
+
+

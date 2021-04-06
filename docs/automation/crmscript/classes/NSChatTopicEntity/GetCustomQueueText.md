@@ -11,3 +11,9 @@ A text to be used in the queue message in the chat widget. Usage is controlled b
 **Returns:** String
 
 
+```crmscript
+NSChatTopicEntity thing;
+String customQueueText  = thing.GetCustomQueueText();
+```
+
+

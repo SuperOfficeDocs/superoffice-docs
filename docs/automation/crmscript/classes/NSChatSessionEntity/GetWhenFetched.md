@@ -11,3 +11,9 @@ The last time the customer&apos;s client refetched the data. Used to detect &apo
 **Returns:** DateTime
 
 
+```crmscript
+NSChatSessionEntity thing;
+DateTime whenFetched  = thing.GetWhenFetched();
+```
+
+

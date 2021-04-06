@@ -11,3 +11,9 @@ Total sale amount
 **Parameter:** 
  - **amount** Float
 
+```crmscript
+NSSaleEntity thing;
+Float amount;
+thing.SetAmount(amount);
+```
+

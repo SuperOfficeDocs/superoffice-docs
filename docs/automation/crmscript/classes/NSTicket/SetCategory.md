@@ -11,3 +11,9 @@ The id of the category a ticket is in.
 **Parameter:** 
  - **category** Integer
 
+```crmscript
+NSTicket thing;
+Integer category;
+thing.SetCategory(category);
+```
+

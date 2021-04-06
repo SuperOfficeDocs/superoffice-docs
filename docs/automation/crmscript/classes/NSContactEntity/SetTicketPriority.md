@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **ticketPriority** TicketPriority
 
+```crmscript
+NSContactEntity thing;
+TicketPriority ticketPriority;
+thing.SetTicketPriority(ticketPriority);
+```
+

@@ -11,3 +11,9 @@ Description
 **Returns:** String
 
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+String description  = thing.GetDescription();
+```
+
+

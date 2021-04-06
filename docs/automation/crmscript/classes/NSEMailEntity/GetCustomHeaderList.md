@@ -11,3 +11,9 @@ Non standard e-mail headers
 **Returns:** EMailCustomHeaderArray
 
 
+```crmscript
+NSEMailEntity thing;
+EMailCustomHeaderArray customHeaderList  = thing.GetCustomHeaderList();
+```
+
+

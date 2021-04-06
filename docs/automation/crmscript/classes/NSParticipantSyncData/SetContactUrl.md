@@ -11,3 +11,9 @@ The contact's internet adresses
 **Parameter:** 
  - **contactUrl** StringArray
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray contactUrl;
+thing.SetContactUrl(contactUrl);
+```
+

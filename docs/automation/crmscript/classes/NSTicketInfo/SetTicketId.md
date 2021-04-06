@@ -11,3 +11,9 @@ The id of the created ticket
 **Parameter:** 
  - **ticketId** Integer
 
+```crmscript
+NSTicketInfo thing;
+Integer ticketId;
+thing.SetTicketId(ticketId);
+```
+

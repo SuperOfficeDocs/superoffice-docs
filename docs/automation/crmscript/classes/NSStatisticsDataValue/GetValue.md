@@ -11,3 +11,9 @@ The value for the data value
 **Returns:** Float
 
 
+```crmscript
+NSStatisticsDataValue thing;
+Float value  = thing.GetValue();
+```
+
+

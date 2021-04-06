@@ -11,3 +11,9 @@ The version that owns this alternative (the chain is Sale 1->1 Quote 1->+ QuoteV
 **Parameter:** 
  - **quoteVersionId** Integer
 
+```crmscript
+NSQuoteAlternative thing;
+Integer quoteVersionId;
+thing.SetQuoteVersionId(quoteVersionId);
+```
+

@@ -11,3 +11,9 @@ The CRM field name, as implemented by the Sync entities
 **Parameter:** 
  - **crmFieldKey** String
 
+```crmscript
+NSErpSyncFieldValue thing;
+String crmFieldKey;
+thing.SetCrmFieldKey(crmFieldKey);
+```
+

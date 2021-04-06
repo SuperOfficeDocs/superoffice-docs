@@ -11,3 +11,9 @@ Total count of search words
 **Returns:** Integer
 
 
+```crmscript
+NSFreeText thing;
+Integer occurrences  = thing.GetOccurrences();
+```
+
+

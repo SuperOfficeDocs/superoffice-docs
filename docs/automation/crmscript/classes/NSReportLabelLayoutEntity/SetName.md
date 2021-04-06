@@ -11,3 +11,9 @@ Name of the label layout
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+String name;
+thing.SetName(name);
+```
+

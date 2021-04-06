@@ -11,3 +11,9 @@ True if the list item is marked as deleted
 **Returns:** Bool
 
 
+```crmscript
+NSListEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

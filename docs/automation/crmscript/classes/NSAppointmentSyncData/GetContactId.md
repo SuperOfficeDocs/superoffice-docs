@@ -11,3 +11,9 @@ The contacts identifier
 **Returns:** Integer
 
 
+```crmscript
+NSAppointmentSyncData thing;
+Integer contactId  = thing.GetContactId();
+```
+
+

@@ -11,3 +11,9 @@ A global recaptcha site key, used with the google recaptcha component. This valu
 **Parameter:** 
  - **recaptchaSiteKey** String
 
+```crmscript
+NSCustomerServiceStartup thing;
+String recaptchaSiteKey;
+thing.SetRecaptchaSiteKey(recaptchaSiteKey);
+```
+

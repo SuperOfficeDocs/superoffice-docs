@@ -11,3 +11,9 @@ If true, then any TypicalSearch records in the database that are NOT referenced 
 **Returns:** Bool
 
 
+```crmscript
+NSTypicalSearches thing;
+Bool deleteLeftovers  = thing.GetDeleteLeftovers();
+```
+
+

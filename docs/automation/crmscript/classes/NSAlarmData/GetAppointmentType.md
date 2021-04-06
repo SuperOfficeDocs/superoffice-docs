@@ -21,3 +21,9 @@ where=no start time,note,docin, docout
      - Enum: 8 = MergeDraft 
      - Enum: 9 = MergeFinal 
 
+```crmscript
+NSAlarmData thing;
+Integer appointmentType  = thing.GetAppointmentType();
+```
+
+

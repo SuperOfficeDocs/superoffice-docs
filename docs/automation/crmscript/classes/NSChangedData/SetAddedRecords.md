@@ -11,3 +11,9 @@ Ids of added records.
 **Parameter:** 
  - **addedRecords** ChangedDataItemArray
 
+```crmscript
+NSChangedData thing;
+ChangedDataItemArray addedRecords;
+thing.SetAddedRecords(addedRecords);
+```
+

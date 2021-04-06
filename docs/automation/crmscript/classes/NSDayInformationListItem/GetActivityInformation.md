@@ -11,3 +11,9 @@ Activity information summary - number of free and busy activities.
 **Returns:** ActivitySummary
 
 
+```crmscript
+NSDayInformationListItem thing;
+ActivitySummary activityInformation  = thing.GetActivityInformation();
+```
+
+

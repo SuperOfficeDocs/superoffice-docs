@@ -11,3 +11,9 @@ File name
 **Returns:** String
 
 
+```crmscript
+NSDocument thing;
+String name  = thing.GetName();
+```
+
+

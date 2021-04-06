@@ -11,3 +11,9 @@ The color indicator of the ListItem color block
 **Returns:** Integer
 
 
+```crmscript
+NSSelectableMDOListItem thing;
+Integer colorBlock  = thing.GetColorBlock();
+```
+
+

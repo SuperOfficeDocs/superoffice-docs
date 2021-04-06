@@ -11,3 +11,9 @@ When should the system next check with the license issuer
 **Returns:** DateTime
 
 
+```crmscript
+NSLicenseInfo thing;
+DateTime nextCheckDate  = thing.GetNextCheckDate();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **rights** DataRightArrayArray
 
+```crmscript
+NSDataRights thing;
+DataRightArrayArray rights;
+thing.SetRights(rights);
+```
+

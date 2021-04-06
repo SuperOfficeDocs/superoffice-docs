@@ -11,3 +11,9 @@ An appointment may also be connected to a person; this must be a contact person 
 **Parameter:** 
  - **person** Person
 
+```crmscript
+NSAppointmentEntity thing;
+Person person;
+thing.SetPerson(person);
+```
+

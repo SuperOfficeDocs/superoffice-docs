@@ -11,3 +11,9 @@ The list item
 **Returns:** String
 
 
+```crmscript
+NSTaskListItem thing;
+String value  = thing.GetValue();
+```
+
+

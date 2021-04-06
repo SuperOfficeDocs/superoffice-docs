@@ -11,3 +11,9 @@ Project status is a list defined by the database administrator. Different status
 **Returns:** ProjectStatus
 
 
+```crmscript
+NSProjectEntity thing;
+ProjectStatus projectStatus  = thing.GetProjectStatus();
+```
+
+

@@ -11,3 +11,9 @@ The projectmembers type name: 'secretary', 'member', etc.
 **Returns:** String
 
 
+```crmscript
+NSProjectMember thing;
+String projectMemberTypeName  = thing.GetProjectMemberTypeName();
+```
+
+

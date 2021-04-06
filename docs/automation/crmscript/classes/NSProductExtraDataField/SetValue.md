@@ -11,3 +11,9 @@ Value for the field. If type is string, it can contain formatspecifiers (use thi
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSProductExtraDataField thing;
+String value;
+thing.SetValue(value);
+```
+

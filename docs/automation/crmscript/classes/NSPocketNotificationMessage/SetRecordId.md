@@ -11,3 +11,9 @@ If the message is about some specific database record, this could be its primary
 **Parameter:** 
  - **recordId** Integer
 
+```crmscript
+NSPocketNotificationMessage thing;
+Integer recordId;
+thing.SetRecordId(recordId);
+```
+

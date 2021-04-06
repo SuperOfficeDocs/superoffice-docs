@@ -11,3 +11,9 @@ Earning on this alternative, as an absolute amount
 **Returns:** Float
 
 
+```crmscript
+NSQuoteAlternative thing;
+Float earningAmount  = thing.GetEarningAmount();
+```
+
+

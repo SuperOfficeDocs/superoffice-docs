@@ -11,3 +11,9 @@ Should the time-span be counted in days?
 **Returns:** Bool
 
 
+```crmscript
+NSFieldInfoTimeSpan thing;
+Bool useDays  = thing.GetUseDays();
+```
+
+

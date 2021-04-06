@@ -11,3 +11,9 @@ Rank, controls rank of non-instantiated items in Guide
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer rank  = thing.GetRank();
+```
+
+

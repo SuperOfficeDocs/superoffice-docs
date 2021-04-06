@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** AddressSyncData
 
 
+```crmscript
+NSParticipantSyncData thing;
+AddressSyncData postalAddress  = thing.GetPostalAddress();
+```
+
+

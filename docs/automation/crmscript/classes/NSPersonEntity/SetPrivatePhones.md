@@ -11,3 +11,9 @@ Returns a collection of phone numbers that belong to the contact person.
 **Parameter:** 
  - **privatePhones** EntityElementArray
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray privatePhones;
+thing.SetPrivatePhones(privatePhones);
+```
+

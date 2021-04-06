@@ -11,3 +11,9 @@ Currency the sale was made in.
 **Parameter:** 
  - **currency** String
 
+```crmscript
+NSSale thing;
+String currency;
+thing.SetCurrency(currency);
+```
+

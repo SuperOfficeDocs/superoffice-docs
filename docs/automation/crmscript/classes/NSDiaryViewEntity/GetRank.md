@@ -11,3 +11,9 @@ DiaryView rank.
 **Returns:** Integer
 
 
+```crmscript
+NSDiaryViewEntity thing;
+Integer rank  = thing.GetRank();
+```
+
+

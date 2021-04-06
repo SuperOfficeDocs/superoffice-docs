@@ -11,3 +11,9 @@ Name of device
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSForeignDevice thing;
+String name;
+thing.SetName(name);
+```
+

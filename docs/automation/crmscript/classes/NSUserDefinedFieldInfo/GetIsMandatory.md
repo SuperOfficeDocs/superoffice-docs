@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Bool isMandatory  = thing.GetIsMandatory();
+```
+
+

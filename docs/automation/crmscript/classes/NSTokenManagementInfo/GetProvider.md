@@ -11,3 +11,9 @@ The provider these tokens belong to
 **Returns:** String
 
 
+```crmscript
+NSTokenManagementInfo thing;
+String provider  = thing.GetProvider();
+```
+
+

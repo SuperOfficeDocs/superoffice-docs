@@ -11,3 +11,9 @@ Value(s) to test against
 **Returns:** StringArray
 
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+StringArray values  = thing.GetValues();
+```
+
+

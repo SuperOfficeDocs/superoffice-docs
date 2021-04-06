@@ -11,3 +11,9 @@ Stakeholder role name
 **Parameter:** 
  - **stakeholderRoleName** String
 
+```crmscript
+NSSaleStakeholder thing;
+String stakeholderRoleName;
+thing.SetStakeholderRoleName(stakeholderRoleName);
+```
+

@@ -11,3 +11,9 @@ Parent project - the project this project member belongs to.
 **Returns:** Integer
 
 
+```crmscript
+NSProjectMember thing;
+Integer projectId  = thing.GetProjectId();
+```
+
+

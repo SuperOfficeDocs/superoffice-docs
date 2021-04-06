@@ -11,3 +11,9 @@ The primary person that this ticket is connected to
 **Returns:** Person
 
 
+```crmscript
+NSTicketEntity thing;
+Person person  = thing.GetPerson();
+```
+
+

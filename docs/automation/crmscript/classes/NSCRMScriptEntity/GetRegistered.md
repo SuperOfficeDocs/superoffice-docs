@@ -11,3 +11,9 @@ Registered when
 **Returns:** DateTime
 
 
+```crmscript
+NSCRMScriptEntity thing;
+DateTime registered  = thing.GetRegistered();
+```
+
+

@@ -11,3 +11,9 @@ The person that created the foreign application.
 **Returns:** Associate
 
 
+```crmscript
+NSForeignAppEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
+
+

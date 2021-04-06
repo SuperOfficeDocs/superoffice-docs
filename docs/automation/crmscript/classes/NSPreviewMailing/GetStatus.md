@@ -23,3 +23,9 @@ Status for sending to this particular recipient
      - Enum: 10 = Complained 
      - Enum: 11 = TooManyBounces 
 
+```crmscript
+NSPreviewMailing thing;
+ShipmentAddrStatus status  = thing.GetStatus();
+```
+
+

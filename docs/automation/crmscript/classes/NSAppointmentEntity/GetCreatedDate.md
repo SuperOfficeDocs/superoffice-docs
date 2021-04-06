@@ -11,3 +11,9 @@ Registered date
 **Returns:** DateTime
 
 
+```crmscript
+NSAppointmentEntity thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
+
+

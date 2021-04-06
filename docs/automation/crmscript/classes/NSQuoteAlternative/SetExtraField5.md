@@ -11,3 +11,9 @@ Optional information added by Quote Connector; usable in the quote document merg
 **Parameter:** 
  - **extraField5** String
 
+```crmscript
+NSQuoteAlternative thing;
+String extraField5;
+thing.SetExtraField5(extraField5);
+```
+

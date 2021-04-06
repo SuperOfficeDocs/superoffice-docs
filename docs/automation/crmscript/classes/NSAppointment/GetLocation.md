@@ -11,3 +11,9 @@ Location for appointment, defaulted from invited resource of type place and othe
 **Returns:** String
 
 
+```crmscript
+NSAppointment thing;
+String location  = thing.GetLocation();
+```
+
+

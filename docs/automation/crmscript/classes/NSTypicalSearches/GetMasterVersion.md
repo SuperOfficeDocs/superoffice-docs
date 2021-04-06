@@ -11,3 +11,9 @@ The master version number in this update, at least the highest of those in the s
 **Returns:** Integer
 
 
+```crmscript
+NSTypicalSearches thing;
+Integer masterVersion  = thing.GetMasterVersion();
+```
+
+

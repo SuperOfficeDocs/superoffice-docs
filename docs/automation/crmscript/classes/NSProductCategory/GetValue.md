@@ -10,3 +10,8 @@ Get the name of the ProductCategory.
 
 **Returns:** String ProductCategory name.
 
+```crmscript
+NSProductCategory thing;
+String name = thing.GetValue();
+```
+

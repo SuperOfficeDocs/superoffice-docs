@@ -11,3 +11,9 @@ An appointment may also be connected to a person; this must be a contact person 
 **Returns:** Person
 
 
+```crmscript
+NSAppointmentEntity thing;
+Person person  = thing.GetPerson();
+```
+
+

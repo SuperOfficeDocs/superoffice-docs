@@ -11,3 +11,9 @@ Primary key for the item.
 **Returns:** String
 
 
+```crmscript
+NSQuoteListItem thing;
+String eRPQuoteListItemKey  = thing.GetERPQuoteListItemKey();
+```
+
+

@@ -11,3 +11,9 @@ Set the tooltip description for the RelationToOwner list item.
 **Parameter:** 
  - **tooltip** String RelationToOwner tooltip description.
 
+```crmscript
+NSRelationToOwner thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

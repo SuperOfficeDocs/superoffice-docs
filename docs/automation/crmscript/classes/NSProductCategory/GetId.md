@@ -10,3 +10,8 @@ Get the primary key (id) for the ProductCategory
 
 **Returns:** Integer ProductCategory id.
 
+```crmscript
+NSProductCategory thing;
+Integer id = thing.GetId();
+```
+

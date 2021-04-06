@@ -17,3 +17,9 @@ so.topic: reference
      - Enum: 8196 = QuoteBillingAddress 
      - Enum: 8197 = QuoteShippingAddress 
 
+```crmscript
+NSAddressSyncData thing;
+Integer addressType  = thing.GetAddressType();
+```
+
+

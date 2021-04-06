@@ -11,3 +11,9 @@ Person Direct Phone
 **Parameter:** 
  - **personDirectPhone** String
 
+```crmscript
+NSPhoneListItem thing;
+String personDirectPhone;
+thing.SetPersonDirectPhone(personDirectPhone);
+```
+

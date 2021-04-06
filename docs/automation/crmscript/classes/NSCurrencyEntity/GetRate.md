@@ -11,3 +11,9 @@ Exchange rate
 **Returns:** Float
 
 
+```crmscript
+NSCurrencyEntity thing;
+Float rate  = thing.GetRate();
+```
+
+

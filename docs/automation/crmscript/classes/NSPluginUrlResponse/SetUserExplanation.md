@@ -11,3 +11,9 @@ A localized explanation to the answer.
 **Parameter:** 
  - **userExplanation** String
 
+```crmscript
+NSPluginUrlResponse thing;
+String userExplanation;
+thing.SetUserExplanation(userExplanation);
+```
+

@@ -11,3 +11,9 @@ The sale rating
 **Returns:** Rating
 
 
+```crmscript
+NSSaleEntity thing;
+Rating rating  = thing.GetRating();
+```
+
+

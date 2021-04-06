@@ -11,3 +11,9 @@ URL address
 **Returns:** String
 
 
+```crmscript
+NSProject thing;
+String uRL  = thing.GetURL();
+```
+
+

@@ -14,3 +14,9 @@ Default video-meeting status for meetings created in SuperOffice CRM.
      - Enum: 1 = VideoMeetingOn 
      - Enum: 2 = VideoMeetingOff 
 
+```crmscript
+NSTaskListItem thing;
+Integer defaultVideomeetingStatus;
+thing.SetDefaultVideomeetingStatus(defaultVideomeetingStatus);
+```
+

@@ -11,3 +11,9 @@ The projectmembers type name: 'secretary', 'member', etc.
 **Parameter:** 
  - **projectMemberTypeName** String
 
+```crmscript
+NSProjectMember thing;
+String projectMemberTypeName;
+thing.SetProjectMemberTypeName(projectMemberTypeName);
+```
+

@@ -11,3 +11,9 @@ The documents name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSDocumentPreview thing;
+String name;
+thing.SetName(name);
+```
+

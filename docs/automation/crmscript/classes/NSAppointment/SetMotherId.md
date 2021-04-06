@@ -11,3 +11,9 @@ ID of mother appointment; self if booking master, master ID if booking slave, 0 
 **Parameter:** 
  - **motherId** Integer
 
+```crmscript
+NSAppointment thing;
+Integer motherId;
+thing.SetMotherId(motherId);
+```
+

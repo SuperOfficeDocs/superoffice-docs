@@ -15,3 +15,9 @@ Document Completed state. This is the part of the Status property.
      - Enum: 2 = Started 
      - Enum: 3 = Completed 
 
+```crmscript
+NSDocumentEntity thing;
+Integer completed;
+thing.SetCompleted(completed);
+```
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **quoteVersionId** Integer
 
+```crmscript
+NSQuoteVersion thing;
+Integer quoteVersionId;
+thing.SetQuoteVersionId(quoteVersionId);
+```
+

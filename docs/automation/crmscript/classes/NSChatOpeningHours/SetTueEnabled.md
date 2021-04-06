@@ -11,3 +11,9 @@ Whether open on Tuesdays.
 **Parameter:** 
  - **tueEnabled** Bool
 
+```crmscript
+NSChatOpeningHours thing;
+Bool tueEnabled;
+thing.SetTueEnabled(tueEnabled);
+```
+

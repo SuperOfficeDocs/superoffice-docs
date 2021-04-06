@@ -11,3 +11,9 @@ Max value (if type 1); list table ID (if type 5)
 **Returns:** Integer
 
 
+```crmscript
+NSPreferenceDescription thing;
+Integer maxValue  = thing.GetMaxValue();
+```
+
+

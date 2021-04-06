@@ -11,3 +11,9 @@ The account status (Disabled or...) Readonly field
 **Parameter:** 
  - **accountStatus** Integer
 
+```crmscript
+NSEMailAccount thing;
+Integer accountStatus;
+thing.SetAccountStatus(accountStatus);
+```
+

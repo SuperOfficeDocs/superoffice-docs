@@ -11,3 +11,9 @@ Suggested 'our reference'
 **Parameter:** 
  - **ourRef** String
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+String ourRef;
+thing.SetOurRef(ourRef);
+```
+

@@ -11,3 +11,9 @@ Name of the selected provider, i.e. CM, Compaya SMS (cpsms.dk), Intelecom SMS, P
 **Parameter:** 
  - **netServerSmsProvider** String
 
+```crmscript
+NSSmsConfig thing;
+String netServerSmsProvider;
+thing.SetNetServerSmsProvider(netServerSmsProvider);
+```
+

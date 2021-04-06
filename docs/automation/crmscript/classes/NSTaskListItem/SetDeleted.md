@@ -11,3 +11,9 @@ If true, the Task list item is deleted
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSTaskListItem thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

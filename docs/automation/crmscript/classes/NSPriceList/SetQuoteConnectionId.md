@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **quoteConnectionId** Integer
 
+```crmscript
+NSPriceList thing;
+Integer quoteConnectionId;
+thing.SetQuoteConnectionId(quoteConnectionId);
+```
+

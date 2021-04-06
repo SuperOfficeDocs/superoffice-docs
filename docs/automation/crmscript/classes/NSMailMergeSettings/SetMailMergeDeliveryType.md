@@ -18,3 +18,9 @@ How the merged document is delivered to the recipients.
      - Enum: 5 = Xml 
      - Enum: 6 = XmlFax 
 
+```crmscript
+NSMailMergeSettings thing;
+Integer mailMergeDeliveryType;
+thing.SetMailMergeDeliveryType(mailMergeDeliveryType);
+```
+

@@ -11,3 +11,9 @@ Optional complete ArchiveColumnInfo for this restriction; in that case, ColumnIn
 **Parameter:** 
  - **columnInfo** ArchiveColumnInfo
 
+```crmscript
+NSArchiveRestrictionInfo thing;
+ArchiveColumnInfo columnInfo;
+thing.SetColumnInfo(columnInfo);
+```
+

@@ -11,3 +11,9 @@ Descriptive messages; errors, etc.
 **Parameter:** 
  - **message** String
 
+```crmscript
+NSExportArchiveResult thing;
+String message;
+thing.SetMessage(message);
+```
+

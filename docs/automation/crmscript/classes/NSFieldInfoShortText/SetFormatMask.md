@@ -11,3 +11,9 @@ Formatting mask, can be whatever the controls understand (currently nothing :-))
 **Parameter:** 
  - **formatMask** String
 
+```crmscript
+NSFieldInfoShortText thing;
+String formatMask;
+thing.SetFormatMask(formatMask);
+```
+

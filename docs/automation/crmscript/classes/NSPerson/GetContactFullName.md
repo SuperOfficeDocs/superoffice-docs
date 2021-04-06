@@ -11,3 +11,9 @@ Company full name + department
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String contactFullName  = thing.GetContactFullName();
+```
+
+

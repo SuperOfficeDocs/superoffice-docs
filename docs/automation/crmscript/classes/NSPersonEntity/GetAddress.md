@@ -11,3 +11,9 @@ Structure holding formatted address data. The layout of the array structure indi
 **Returns:** Address
 
 
+```crmscript
+NSPersonEntity thing;
+Address address  = thing.GetAddress();
+```
+
+

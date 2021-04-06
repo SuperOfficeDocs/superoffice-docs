@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer suggestedAppointmentId  = thing.GetSuggestedAppointmentId();
+```
+
+

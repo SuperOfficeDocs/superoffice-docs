@@ -11,3 +11,9 @@ The ID of the database column this field corresponds to
 **Returns:** Integer
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer columnId  = thing.GetColumnId();
+```
+
+

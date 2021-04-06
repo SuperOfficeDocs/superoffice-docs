@@ -11,3 +11,9 @@ Customer's Purchase order number
 **Parameter:** 
  - **poNumber** String
 
+```crmscript
+NSQuote thing;
+String poNumber;
+thing.SetPoNumber(poNumber);
+```
+

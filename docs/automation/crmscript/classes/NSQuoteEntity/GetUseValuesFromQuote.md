@@ -11,3 +11,9 @@ If true, then the Earning, Earning_Percent and Amount fields are populated from 
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteEntity thing;
+Integer useValuesFromQuote  = thing.GetUseValuesFromQuote();
+```
+
+

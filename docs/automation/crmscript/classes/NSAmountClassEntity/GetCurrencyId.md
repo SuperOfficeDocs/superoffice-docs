@@ -11,3 +11,9 @@ Currency the limits in this amount class refer to. Mixing currencies between cla
 **Returns:** Integer
 
 
+```crmscript
+NSAmountClassEntity thing;
+Integer currencyId  = thing.GetCurrencyId();
+```
+
+

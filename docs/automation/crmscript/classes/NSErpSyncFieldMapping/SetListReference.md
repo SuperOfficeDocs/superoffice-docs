@@ -11,3 +11,9 @@ Field is read-only, for lookup in gui
 **Parameter:** 
  - **listReference** String
 
+```crmscript
+NSErpSyncFieldMapping thing;
+String listReference;
+thing.SetListReference(listReference);
+```
+

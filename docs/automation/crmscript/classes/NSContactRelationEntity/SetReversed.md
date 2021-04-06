@@ -11,3 +11,9 @@ Is direction reversed relative to definition
 **Parameter:** 
  - **reversed** Integer
 
+```crmscript
+NSContactRelationEntity thing;
+Integer reversed;
+thing.SetReversed(reversed);
+```
+

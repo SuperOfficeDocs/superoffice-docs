@@ -11,3 +11,9 @@ The persons contact department
 **Parameter:** 
  - **contactDepartment** String
 
+```crmscript
+NSPerson thing;
+String contactDepartment;
+thing.SetContactDepartment(contactDepartment);
+```
+

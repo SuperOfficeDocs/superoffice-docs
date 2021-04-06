@@ -11,3 +11,9 @@ Name of foreign application
 **Returns:** String
 
 
+```crmscript
+NSForeignAppEntity thing;
+String name  = thing.GetName();
+```
+
+

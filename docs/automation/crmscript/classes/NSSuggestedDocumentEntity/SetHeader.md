@@ -11,3 +11,9 @@ Suggested 'header'
 **Parameter:** 
  - **header** String
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+String header;
+thing.SetHeader(header);
+```
+

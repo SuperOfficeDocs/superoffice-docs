@@ -11,3 +11,9 @@ The date and time when to start this shipment
 **Returns:** DateTime
 
 
+```crmscript
+NSPreviewMailingHeader thing;
+DateTime startDate  = thing.GetStartDate();
+```
+
+

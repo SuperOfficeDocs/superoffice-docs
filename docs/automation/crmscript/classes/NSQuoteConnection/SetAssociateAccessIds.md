@@ -11,3 +11,9 @@ Array of ids containing associates that will have access to this connection.
 **Parameter:** 
  - **associateAccessIds** IntegerArray
 
+```crmscript
+NSQuoteConnection thing;
+IntegerArray associateAccessIds;
+thing.SetAssociateAccessIds(associateAccessIds);
+```
+

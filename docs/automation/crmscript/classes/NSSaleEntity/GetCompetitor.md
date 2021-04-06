@@ -11,3 +11,9 @@ List of all possible competitors.
 **Returns:** Competitor
 
 
+```crmscript
+NSSaleEntity thing;
+Competitor competitor  = thing.GetCompetitor();
+```
+
+

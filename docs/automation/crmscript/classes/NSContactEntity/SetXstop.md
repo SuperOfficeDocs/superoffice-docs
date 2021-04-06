@@ -11,3 +11,9 @@ STOP flag
 **Parameter:** 
  - **xstop** Bool
 
+```crmscript
+NSContactEntity thing;
+Bool xstop;
+thing.SetXstop(xstop);
+```
+

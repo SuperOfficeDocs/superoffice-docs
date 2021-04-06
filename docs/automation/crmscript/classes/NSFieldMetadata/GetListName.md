@@ -11,3 +11,9 @@ MDO List provider name for list fields
 **Returns:** String
 
 
+```crmscript
+NSFieldMetadata thing;
+String listName  = thing.GetListName();
+```
+
+

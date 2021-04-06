@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **saleStageId** Integer
 
+```crmscript
+NSSaleStageEntity thing;
+Integer saleStageId;
+thing.SetSaleStageId(saleStageId);
+```
+

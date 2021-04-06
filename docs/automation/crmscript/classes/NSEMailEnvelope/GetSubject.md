@@ -11,3 +11,9 @@ Subject of the e-mail
 **Returns:** String
 
 
+```crmscript
+NSEMailEnvelope thing;
+String subject  = thing.GetSubject();
+```
+
+

@@ -11,3 +11,9 @@ Recent sales on contact
 **Returns:** SaleSummaryItemArray
 
 
+```crmscript
+NSContactSummary thing;
+SaleSummaryItemArray sales  = thing.GetSales();
+```
+
+

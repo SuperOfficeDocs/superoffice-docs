@@ -11,3 +11,9 @@ The name of the credentials to be displayed in the user interface.  This will ty
 **Parameter:** 
  - **displayType** String
 
+```crmscript
+NSCredentialType thing;
+String displayType;
+thing.SetDisplayType(displayType);
+```
+

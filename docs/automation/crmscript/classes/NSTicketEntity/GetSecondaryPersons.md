@@ -11,3 +11,9 @@ The secondary persons this ticket is connected to
 **Returns:** PersonArray
 
 
+```crmscript
+NSTicketEntity thing;
+PersonArray secondaryPersons  = thing.GetSecondaryPersons();
+```
+
+

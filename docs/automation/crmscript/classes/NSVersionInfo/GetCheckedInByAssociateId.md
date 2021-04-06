@@ -11,3 +11,9 @@ Associate id of the user who performed the checkin
 **Returns:** Integer
 
 
+```crmscript
+NSVersionInfo thing;
+Integer checkedInByAssociateId  = thing.GetCheckedInByAssociateId();
+```
+
+

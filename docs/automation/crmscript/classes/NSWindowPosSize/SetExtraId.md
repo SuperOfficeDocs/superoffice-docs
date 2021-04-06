@@ -11,3 +11,9 @@ Spare ID, not yet in use
 **Parameter:** 
  - **extraId** Integer
 
+```crmscript
+NSWindowPosSize thing;
+Integer extraId;
+thing.SetExtraId(extraId);
+```
+

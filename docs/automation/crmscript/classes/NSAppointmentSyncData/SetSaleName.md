@@ -11,3 +11,9 @@ Sale heading (short description?)
 **Parameter:** 
  - **saleName** String
 
+```crmscript
+NSAppointmentSyncData thing;
+String saleName;
+thing.SetSaleName(saleName);
+```
+

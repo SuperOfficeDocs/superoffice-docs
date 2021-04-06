@@ -11,3 +11,9 @@ Alphanumeric user field
 **Returns:** String
 
 
+```crmscript
+NSContactEntity thing;
+String number1  = thing.GetNumber1();
+```
+
+

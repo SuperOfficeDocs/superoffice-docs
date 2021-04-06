@@ -13,3 +13,9 @@ What kind of form is this? Indicates if this is a normal form or a template
      - Enum: 0 = Normal 
      - Enum: 1 = Template 
 
+```crmscript
+NSFormEntity thing;
+FormType type;
+thing.SetType(type);
+```
+

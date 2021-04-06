@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **saleStakeholderId** Integer
 
+```crmscript
+NSSaleStakeholder thing;
+Integer saleStakeholderId;
+thing.SetSaleStakeholderId(saleStakeholderId);
+```
+

@@ -11,3 +11,9 @@ Who did the e-mail originate from
 **Parameter:** 
  - **from** EMailAddress
 
+```crmscript
+NSEMailEnvelope thing;
+EMailAddress from;
+thing.SetFrom(from);
+```
+

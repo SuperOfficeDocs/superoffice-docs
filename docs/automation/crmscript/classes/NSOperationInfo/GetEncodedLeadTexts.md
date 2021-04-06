@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** StringArray
 
 
+```crmscript
+NSOperationInfo thing;
+StringArray encodedLeadTexts  = thing.GetEncodedLeadTexts();
+```
+
+

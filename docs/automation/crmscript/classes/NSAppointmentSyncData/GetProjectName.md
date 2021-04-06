@@ -11,3 +11,9 @@ Project name
 **Returns:** String
 
 
+```crmscript
+NSAppointmentSyncData thing;
+String projectName  = thing.GetProjectName();
+```
+
+

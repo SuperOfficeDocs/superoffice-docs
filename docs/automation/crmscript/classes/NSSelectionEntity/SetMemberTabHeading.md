@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **memberTabHeading** String
 
+```crmscript
+NSSelectionEntity thing;
+String memberTabHeading;
+thing.SetMemberTabHeading(memberTabHeading);
+```
+

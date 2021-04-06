@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSEMailSOInfo thing;
+Integer appointmentId  = thing.GetAppointmentId();
+```
+
+

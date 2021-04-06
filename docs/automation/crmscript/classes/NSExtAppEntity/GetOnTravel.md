@@ -11,3 +11,9 @@ Is the application visible when user is on travel
 **Returns:** Bool
 
 
+```crmscript
+NSExtAppEntity thing;
+Bool onTravel  = thing.GetOnTravel();
+```
+
+

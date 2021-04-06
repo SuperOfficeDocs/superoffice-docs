@@ -11,3 +11,9 @@ The person that carried out the activity on the contact.
 **Returns:** String
 
 
+```crmscript
+NSContactActivity thing;
+String activityPersonName  = thing.GetActivityPersonName();
+```
+
+

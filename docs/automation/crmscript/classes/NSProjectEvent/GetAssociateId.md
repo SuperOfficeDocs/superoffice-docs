@@ -11,3 +11,9 @@ Id of the person that ows the event (i.e. project)
 **Returns:** Integer
 
 
+```crmscript
+NSProjectEvent thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

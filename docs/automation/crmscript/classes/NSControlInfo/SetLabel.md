@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **label** String
 
+```crmscript
+NSControlInfo thing;
+String label;
+thing.SetLabel(label);
+```
+

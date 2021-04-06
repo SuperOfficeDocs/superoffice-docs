@@ -11,3 +11,9 @@ Indicate if the button should be enabled or disabled
 **Returns:** Bool
 
 
+```crmscript
+NSQuoteVersionButtonState thing;
+Bool enabled  = thing.GetEnabled();
+```
+
+

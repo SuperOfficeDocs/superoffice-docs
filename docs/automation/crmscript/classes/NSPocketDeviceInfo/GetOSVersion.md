@@ -11,3 +11,9 @@ The operating system version. Ex: 'iOS v10.2'
 **Returns:** String
 
 
+```crmscript
+NSPocketDeviceInfo thing;
+String oSVersion  = thing.GetOSVersion();
+```
+
+

@@ -11,3 +11,9 @@ The persons belonging to the contact.
 **Returns:** PersonArray
 
 
+```crmscript
+NSContactEntity thing;
+PersonArray persons  = thing.GetPersons();
+```
+
+

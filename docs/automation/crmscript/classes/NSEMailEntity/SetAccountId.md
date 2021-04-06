@@ -11,3 +11,9 @@ Account Id
 **Parameter:** 
  - **accountId** Integer
 
+```crmscript
+NSEMailEntity thing;
+Integer accountId;
+thing.SetAccountId(accountId);
+```
+

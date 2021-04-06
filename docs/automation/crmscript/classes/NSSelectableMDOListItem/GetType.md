@@ -11,3 +11,9 @@ The type of the ListItem. Custom field.
 **Returns:** String
 
 
+```crmscript
+NSSelectableMDOListItem thing;
+String type  = thing.GetType();
+```
+
+

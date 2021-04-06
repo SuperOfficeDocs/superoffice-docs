@@ -11,3 +11,9 @@ The result set
 **Parameter:** 
  - **result** ArchiveListResult
 
+```crmscript
+NSTileData thing;
+ArchiveListResult result;
+thing.SetResult(result);
+```
+

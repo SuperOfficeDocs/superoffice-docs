@@ -11,3 +11,9 @@ The project owner
 **Parameter:** 
  - **associateFullName** String
 
+```crmscript
+NSProject thing;
+String associateFullName;
+thing.SetAssociateFullName(associateFullName);
+```
+

@@ -11,3 +11,9 @@ The envelope of the email this email is a reply to, if it exists
 **Returns:** EMailEnvelope
 
 
+```crmscript
+NSEMailEntity thing;
+EMailEnvelope inReplyTo  = thing.GetInReplyTo();
+```
+
+

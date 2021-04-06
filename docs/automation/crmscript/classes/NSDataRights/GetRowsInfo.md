@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** EntityNameArray
 
 
+```crmscript
+NSDataRights thing;
+EntityNameArray rowsInfo  = thing.GetRowsInfo();
+```
+
+

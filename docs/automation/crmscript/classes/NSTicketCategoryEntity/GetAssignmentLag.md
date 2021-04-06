@@ -11,3 +11,9 @@ Number of minutes we shall override the assignment if a customer sends consecuti
 **Returns:** Integer
 
 
+```crmscript
+NSTicketCategoryEntity thing;
+Integer assignmentLag  = thing.GetAssignmentLag();
+```
+
+

@@ -16,3 +16,9 @@ Fields required to start a chat
      - Enum: 4 = Company 
      - Enum: 8 = Phone 
 
+```crmscript
+NSChatWidgetSettings thing;
+WidgetRequiredFields requiredFields  = thing.GetRequiredFields();
+```
+
+

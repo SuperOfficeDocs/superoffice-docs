@@ -11,3 +11,9 @@ Collect consent to store from user
 **Parameter:** 
  - **collectConsent** Bool
 
+```crmscript
+NSChatTopicEntity thing;
+Bool collectConsent;
+thing.SetCollectConsent(collectConsent);
+```
+

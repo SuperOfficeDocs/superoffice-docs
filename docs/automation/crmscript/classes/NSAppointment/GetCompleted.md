@@ -15,3 +15,9 @@ The Completed state.
      - Enum: 2 = Started 
      - Enum: 3 = Completed 
 
+```crmscript
+NSAppointment thing;
+Integer completed  = thing.GetCompleted();
+```
+
+

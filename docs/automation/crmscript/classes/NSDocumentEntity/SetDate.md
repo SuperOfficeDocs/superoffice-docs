@@ -11,3 +11,9 @@ date + start time planned
 **Parameter:** 
  - **date** DateTime
 
+```crmscript
+NSDocumentEntity thing;
+DateTime date;
+thing.SetDate(date);
+```
+

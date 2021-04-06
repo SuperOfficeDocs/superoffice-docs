@@ -11,3 +11,9 @@ Refresh token
 **Returns:** String
 
 
+```crmscript
+NSTokenManagementInfo thing;
+String refreshToken  = thing.GetRefreshToken();
+```
+
+

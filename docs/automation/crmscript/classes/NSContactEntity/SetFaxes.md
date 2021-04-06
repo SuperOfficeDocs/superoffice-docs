@@ -11,3 +11,9 @@ The contact's fax numbers
 **Parameter:** 
  - **faxes** EntityElementArray
 
+```crmscript
+NSContactEntity thing;
+EntityElementArray faxes;
+thing.SetFaxes(faxes);
+```
+

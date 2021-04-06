@@ -11,3 +11,9 @@ Opening hours settings
 **Parameter:** 
  - **openingHours** ChatOpeningHours
 
+```crmscript
+NSChatTopicEntity thing;
+ChatOpeningHours openingHours;
+thing.SetOpeningHours(openingHours);
+```
+

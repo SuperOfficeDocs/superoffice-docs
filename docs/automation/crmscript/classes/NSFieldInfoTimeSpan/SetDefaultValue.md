@@ -11,3 +11,9 @@ Default Timespan value - number of minutes.
 **Parameter:** 
  - **defaultValue** Integer
 
+```crmscript
+NSFieldInfoTimeSpan thing;
+Integer defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
+

@@ -11,3 +11,9 @@ Enable pre-chat form for anonymous users
 **Returns:** Bool
 
 
+```crmscript
+NSChatWidgetSettings thing;
+Bool preFormEnabled  = thing.GetPreFormEnabled();
+```
+
+

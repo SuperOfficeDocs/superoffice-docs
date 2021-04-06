@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSSaleTypeEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

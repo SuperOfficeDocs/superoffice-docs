@@ -11,3 +11,9 @@ The numeric probability of the sale
 **Parameter:** 
  - **probability** Integer
 
+```crmscript
+NSSaleStageEntity thing;
+Integer probability;
+thing.SetProbability(probability);
+```
+

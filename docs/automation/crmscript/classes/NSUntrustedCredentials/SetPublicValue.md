@@ -11,3 +11,9 @@ Data stored unencrypted in the db.  Typically server and or username. Max 238 ch
 **Parameter:** 
  - **publicValue** String
 
+```crmscript
+NSUntrustedCredentials thing;
+String publicValue;
+thing.SetPublicValue(publicValue);
+```
+

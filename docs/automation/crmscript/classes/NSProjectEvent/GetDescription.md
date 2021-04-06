@@ -11,3 +11,9 @@ The event description (i.e. the project text)
 **Returns:** String
 
 
+```crmscript
+NSProjectEvent thing;
+String description  = thing.GetDescription();
+```
+
+

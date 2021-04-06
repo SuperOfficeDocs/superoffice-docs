@@ -11,3 +11,9 @@ The contact associated with the document. It may also be null if no contact is a
 **Returns:** Contact
 
 
+```crmscript
+NSDocumentEntity thing;
+Contact contact  = thing.GetContact();
+```
+
+

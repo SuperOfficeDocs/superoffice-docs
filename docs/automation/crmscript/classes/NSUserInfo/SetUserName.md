@@ -11,3 +11,9 @@ Initials, also login name, possibly database user name
 **Parameter:** 
  - **userName** String
 
+```crmscript
+NSUserInfo thing;
+String userName;
+thing.SetUserName(userName);
+```
+

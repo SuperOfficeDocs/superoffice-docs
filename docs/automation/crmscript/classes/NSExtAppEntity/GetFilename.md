@@ -11,3 +11,9 @@ Filename of the programfile
 **Returns:** String
 
 
+```crmscript
+NSExtAppEntity thing;
+String filename  = thing.GetFilename();
+```
+
+

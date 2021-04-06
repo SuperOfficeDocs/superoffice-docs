@@ -11,3 +11,9 @@ Is the webpanel visible when user is on a satellite
 **Returns:** Bool
 
 
+```crmscript
+NSWebPanelEntity thing;
+Bool onSatellite  = thing.GetOnSatellite();
+```
+
+

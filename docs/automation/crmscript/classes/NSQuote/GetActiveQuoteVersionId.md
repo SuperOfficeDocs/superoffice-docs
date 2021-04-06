@@ -11,3 +11,9 @@ The primary key of the Quote Version that is currently active. (The active versi
 **Returns:** Integer
 
 
+```crmscript
+NSQuote thing;
+Integer activeQuoteVersionId  = thing.GetActiveQuoteVersionId();
+```
+
+

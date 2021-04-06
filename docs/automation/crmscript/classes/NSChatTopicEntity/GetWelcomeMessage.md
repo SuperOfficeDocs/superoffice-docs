@@ -11,3 +11,9 @@ The welcome message sent to the customer when the chat session starts.
 **Returns:** String
 
 
+```crmscript
+NSChatTopicEntity thing;
+String welcomeMessage  = thing.GetWelcomeMessage();
+```
+
+

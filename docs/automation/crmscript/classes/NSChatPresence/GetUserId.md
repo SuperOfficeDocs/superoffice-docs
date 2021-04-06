@@ -11,3 +11,9 @@ The id for the chat user
 **Returns:** Integer
 
 
+```crmscript
+NSChatPresence thing;
+Integer userId  = thing.GetUserId();
+```
+
+

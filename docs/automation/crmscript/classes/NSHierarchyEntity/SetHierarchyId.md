@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Parameter:** 
  - **hierarchyId** Integer
 
+```crmscript
+NSHierarchyEntity thing;
+Integer hierarchyId;
+thing.SetHierarchyId(hierarchyId);
+```
+

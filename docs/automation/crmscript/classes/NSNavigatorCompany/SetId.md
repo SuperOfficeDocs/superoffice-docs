@@ -11,3 +11,8 @@ Set the primary key (id) for the NavigatorCompany
 **Parameter:** 
  - **id** Integer NavigatorCompany id.
 
+```crmscript
+NSNavigatorCompany thing;
+thing.SetId(123);
+```
+

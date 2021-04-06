@@ -11,3 +11,9 @@ Description of type of product
 **Returns:** String
 
 
+```crmscript
+NSLicenseInfo thing;
+String productDescription  = thing.GetProductDescription();
+```
+
+

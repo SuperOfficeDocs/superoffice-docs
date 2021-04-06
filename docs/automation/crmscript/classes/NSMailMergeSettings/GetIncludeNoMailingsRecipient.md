@@ -11,3 +11,9 @@ Include recipients that are marked with NoMailings
 **Returns:** Bool
 
 
+```crmscript
+NSMailMergeSettings thing;
+Bool includeNoMailingsRecipient  = thing.GetIncludeNoMailingsRecipient();
+```
+
+

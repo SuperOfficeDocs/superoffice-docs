@@ -10,3 +10,9 @@ Get the tooltip description for the ProjectType list item.
 
 **Returns:** String ProjectType tooltip description.
 
+```crmscript
+NSProjectType thing;
+String descr = thing.GetTooltip();
+```
+
+

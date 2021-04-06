@@ -11,3 +11,9 @@ Used to store additional information for the delivery systems.
 **Parameter:** 
  - **extraInfo** String
 
+```crmscript
+NSMailMergeSettings thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
+

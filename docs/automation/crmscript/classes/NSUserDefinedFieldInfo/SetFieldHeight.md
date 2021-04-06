@@ -11,3 +11,9 @@ field height in pixels, 0 = 'enough' (from font)
 **Parameter:** 
  - **fieldHeight** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldHeight;
+thing.SetFieldHeight(fieldHeight);
+```
+

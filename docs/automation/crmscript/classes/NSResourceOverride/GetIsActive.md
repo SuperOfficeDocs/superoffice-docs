@@ -11,3 +11,9 @@ Is this override active
 **Returns:** Bool
 
 
+```crmscript
+NSResourceOverride thing;
+Bool isActive  = thing.GetIsActive();
+```
+
+

@@ -11,3 +11,9 @@ The alternative this line is part of, the conceptual Parent in CRM database.
 **Parameter:** 
  - **quoteAlternativeId** Integer
 
+```crmscript
+NSQuoteLine thing;
+Integer quoteAlternativeId;
+thing.SetQuoteAlternativeId(quoteAlternativeId);
+```
+

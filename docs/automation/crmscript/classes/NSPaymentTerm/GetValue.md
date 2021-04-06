@@ -10,3 +10,8 @@ Get the name of the PaymentTerm.
 
 **Returns:** String PaymentTerm name.
 
+```crmscript
+NSPaymentTerm thing;
+String name = thing.GetValue();
+```
+

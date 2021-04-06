@@ -11,3 +11,9 @@ Name of the history item, for instance contact name
 **Returns:** String
 
 
+```crmscript
+NSHistory thing;
+String name  = thing.GetName();
+```
+
+

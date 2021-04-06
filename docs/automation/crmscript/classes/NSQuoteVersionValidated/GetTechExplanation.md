@@ -11,3 +11,9 @@ Always in English
 **Returns:** String
 
 
+```crmscript
+NSQuoteVersionValidated thing;
+String techExplanation  = thing.GetTechExplanation();
+```
+
+

@@ -29,3 +29,9 @@ The type of the text string, e.g. Field label, Udef label, etc.
      - Enum: 24 = UdefDocumentLabel 
      - Enum: 41 = PushNotificationText 
 
+```crmscript
+NSLocalizedText thing;
+Integer type  = thing.GetType();
+```
+
+

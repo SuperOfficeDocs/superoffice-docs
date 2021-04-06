@@ -11,3 +11,9 @@ Environment values sent to the event handler
 **Parameter:** 
  - **inputValues** StringDictionary
 
+```crmscript
+NSEventData thing;
+StringDictionary inputValues;
+thing.SetInputValues(inputValues);
+```
+

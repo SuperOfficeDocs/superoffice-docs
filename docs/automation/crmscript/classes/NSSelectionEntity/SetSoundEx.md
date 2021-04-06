@@ -11,3 +11,9 @@ What the name sounds like, for duplicate detection
 **Parameter:** 
  - **soundEx** String
 
+```crmscript
+NSSelectionEntity thing;
+String soundEx;
+thing.SetSoundEx(soundEx);
+```
+

@@ -11,3 +11,9 @@ The rank of the list
 **Returns:** Integer
 
 
+```crmscript
+NSListEntity thing;
+Integer rank  = thing.GetRank();
+```
+
+

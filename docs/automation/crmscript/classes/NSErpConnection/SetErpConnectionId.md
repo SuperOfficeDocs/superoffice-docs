@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **erpConnectionId** Integer
 
+```crmscript
+NSErpConnection thing;
+Integer erpConnectionId;
+thing.SetErpConnectionId(erpConnectionId);
+```
+

@@ -11,3 +11,9 @@ Should value changes in ERP be automatically transferred to CRM
 **Parameter:** 
  - **syncToCrm** Bool
 
+```crmscript
+NSErpSyncFieldMapping thing;
+Bool syncToCrm;
+thing.SetSyncToCrm(syncToCrm);
+```
+

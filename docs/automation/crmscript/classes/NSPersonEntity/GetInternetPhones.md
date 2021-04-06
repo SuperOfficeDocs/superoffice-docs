@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** EntityElementArray
 
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray internetPhones  = thing.GetInternetPhones();
+```
+
+

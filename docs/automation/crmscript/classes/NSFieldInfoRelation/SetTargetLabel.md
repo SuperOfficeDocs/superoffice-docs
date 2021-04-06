@@ -11,3 +11,9 @@ Display name on target entity.
 **Parameter:** 
  - **targetLabel** String
 
+```crmscript
+NSFieldInfoRelation thing;
+String targetLabel;
+thing.SetTargetLabel(targetLabel);
+```
+

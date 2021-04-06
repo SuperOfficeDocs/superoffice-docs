@@ -11,3 +11,9 @@ Does the sale stage advance automatically, when the last guided activity in a st
 **Parameter:** 
  - **isAutoAdvance** Bool
 
+```crmscript
+NSSaleTypeEntity thing;
+Bool isAutoAdvance;
+thing.SetIsAutoAdvance(isAutoAdvance);
+```
+

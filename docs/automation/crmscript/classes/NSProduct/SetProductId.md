@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **productId** Integer
 
+```crmscript
+NSProduct thing;
+Integer productId;
+thing.SetProductId(productId);
+```
+

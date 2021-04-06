@@ -11,3 +11,9 @@ Last logout date
 **Parameter:** 
  - **lastlogout** DateTime
 
+```crmscript
+NSUser thing;
+DateTime lastlogout;
+thing.SetLastlogout(lastlogout);
+```
+

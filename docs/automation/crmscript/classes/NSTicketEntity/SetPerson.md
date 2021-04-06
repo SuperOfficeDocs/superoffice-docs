@@ -11,3 +11,9 @@ The primary person that this ticket is connected to
 **Parameter:** 
  - **person** Person
 
+```crmscript
+NSTicketEntity thing;
+Person person;
+thing.SetPerson(person);
+```
+

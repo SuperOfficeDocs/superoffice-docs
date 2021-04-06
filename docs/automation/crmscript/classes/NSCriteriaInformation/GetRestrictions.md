@@ -11,3 +11,9 @@ Array of ArchiveRestrictionInfo restriction specifications (for the first restri
 **Returns:** ArchiveRestrictionInfoArray
 
 
+```crmscript
+NSCriteriaInformation thing;
+ArchiveRestrictionInfoArray restrictions  = thing.GetRestrictions();
+```
+
+

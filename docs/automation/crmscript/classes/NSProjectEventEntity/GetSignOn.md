@@ -11,3 +11,9 @@ Is Sign On functionality enabled
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEventEntity thing;
+Bool signOn  = thing.GetSignOn();
+```
+
+

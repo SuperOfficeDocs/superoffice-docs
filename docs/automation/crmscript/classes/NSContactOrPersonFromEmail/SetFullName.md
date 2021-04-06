@@ -11,3 +11,9 @@ The person fullname
 **Parameter:** 
  - **fullName** String
 
+```crmscript
+NSContactOrPersonFromEmail thing;
+String fullName;
+thing.SetFullName(fullName);
+```
+

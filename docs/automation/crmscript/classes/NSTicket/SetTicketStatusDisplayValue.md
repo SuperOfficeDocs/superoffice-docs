@@ -11,3 +11,9 @@ Get the display name of the ticket status.
 **Parameter:** 
  - **ticketStatusDisplayValue** String
 
+```crmscript
+NSTicket thing;
+String ticketStatusDisplayValue;
+thing.SetTicketStatusDisplayValue(ticketStatusDisplayValue);
+```
+

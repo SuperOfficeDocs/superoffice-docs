@@ -11,3 +11,9 @@ Include recipients that are marked as retired
 **Parameter:** 
  - **includeRetiredRecipients** Bool
 
+```crmscript
+NSMailMergeSettings thing;
+Bool includeRetiredRecipients;
+thing.SetIncludeRetiredRecipients(includeRetiredRecipients);
+```
+

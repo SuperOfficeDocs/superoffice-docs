@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Returns:** Integer
 
 
+```crmscript
+NSReplyTemplate thing;
+Integer replyTemplateId  = thing.GetReplyTemplateId();
+```
+
+

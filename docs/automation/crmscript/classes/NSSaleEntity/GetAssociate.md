@@ -11,3 +11,9 @@ The sale owner
 **Returns:** Associate
 
 
+```crmscript
+NSSaleEntity thing;
+Associate associate  = thing.GetAssociate();
+```
+
+

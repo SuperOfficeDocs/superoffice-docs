@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSProjectEntity thing;
+Integer projectId  = thing.GetProjectId();
+```
+
+

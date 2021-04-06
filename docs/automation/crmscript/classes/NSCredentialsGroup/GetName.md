@@ -11,3 +11,9 @@ This is the full name of the group as needed to discover the users within the gr
 **Returns:** String
 
 
+```crmscript
+NSCredentialsGroup thing;
+String name  = thing.GetName();
+```
+
+

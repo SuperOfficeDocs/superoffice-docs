@@ -11,3 +11,9 @@ How many selectionmembers (for progress bar calculations) - estimate, -1 (or 429
 **Returns:** Integer
 
 
+```crmscript
+NSSelectionEntity thing;
+Integer memberCount  = thing.GetMemberCount();
+```
+
+

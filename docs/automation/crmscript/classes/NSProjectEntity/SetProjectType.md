@@ -11,3 +11,9 @@ Project type is a list defined by the database admin. for example: 'Large', 'Sma
 **Parameter:** 
  - **projectType** ProjectType
 
+```crmscript
+NSProjectEntity thing;
+ProjectType projectType;
+thing.SetProjectType(projectType);
+```
+

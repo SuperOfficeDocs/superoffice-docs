@@ -11,3 +11,9 @@ An appointment may also be connected to a project, so you see the appointment bo
 **Parameter:** 
  - **project** Project
 
+```crmscript
+NSAppointmentEntity thing;
+Project project;
+thing.SetProject(project);
+```
+

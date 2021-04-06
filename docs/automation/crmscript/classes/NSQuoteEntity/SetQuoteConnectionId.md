@@ -11,3 +11,9 @@ The connection in the CRM system to where this quote came from. Identifies the E
 **Parameter:** 
  - **quoteConnectionId** Integer
 
+```crmscript
+NSQuoteEntity thing;
+Integer quoteConnectionId;
+thing.SetQuoteConnectionId(quoteConnectionId);
+```
+

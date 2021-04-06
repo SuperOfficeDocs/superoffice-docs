@@ -11,3 +11,9 @@ Parent sale
 **Parameter:** 
  - **saleId** Integer
 
+```crmscript
+NSSaleStakeholder thing;
+Integer saleId;
+thing.SetSaleId(saleId);
+```
+

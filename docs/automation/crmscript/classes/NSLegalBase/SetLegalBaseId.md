@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **legalBaseId** Integer
 
+```crmscript
+NSLegalBase thing;
+Integer legalBaseId;
+thing.SetLegalBaseId(legalBaseId);
+```
+

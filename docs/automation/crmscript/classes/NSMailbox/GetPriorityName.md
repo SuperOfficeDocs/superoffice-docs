@@ -11,3 +11,9 @@ The name of the priority that the mailbox is connected to
 **Returns:** String
 
 
+```crmscript
+NSMailbox thing;
+String priorityName  = thing.GetPriorityName();
+```
+
+

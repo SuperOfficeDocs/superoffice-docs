@@ -11,3 +11,9 @@ The sale reason
 **Returns:** Reason
 
 
+```crmscript
+NSSaleEntity thing;
+Reason reason  = thing.GetReason();
+```
+
+

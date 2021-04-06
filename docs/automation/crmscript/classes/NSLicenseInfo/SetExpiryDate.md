@@ -11,3 +11,9 @@ Expiration date, 0 = forever
 **Parameter:** 
  - **expiryDate** DateTime
 
+```crmscript
+NSLicenseInfo thing;
+DateTime expiryDate;
+thing.SetExpiryDate(expiryDate);
+```
+

@@ -11,3 +11,9 @@ Name of user defined ticket status
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSTicketStatusEntity thing;
+String name;
+thing.SetName(name);
+```
+

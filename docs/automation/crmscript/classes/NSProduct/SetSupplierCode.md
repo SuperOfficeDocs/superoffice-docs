@@ -11,3 +11,9 @@ Suppliers part code/number or other key-like field
 **Parameter:** 
  - **supplierCode** String
 
+```crmscript
+NSProduct thing;
+String supplierCode;
+thing.SetSupplierCode(supplierCode);
+```
+

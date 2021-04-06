@@ -11,3 +11,9 @@ Optional tooltip text for this field
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSFieldInfoBase thing;
+String description;
+thing.SetDescription(description);
+```
+

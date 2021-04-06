@@ -11,3 +11,9 @@ Describes the shipment
 **Parameter:** 
  - **shipmentDescription** String
 
+```crmscript
+NSPreviewMailingHeader thing;
+String shipmentDescription;
+thing.SetShipmentDescription(shipmentDescription);
+```
+

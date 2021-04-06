@@ -14,3 +14,9 @@ The securitylevel of the ticket.
      - Enum: 1 = Internal 
      - Enum: 2 = External 
 
+```crmscript
+NSTicket thing;
+TicketSecurityLevel slevel;
+thing.SetSlevel(slevel);
+```
+

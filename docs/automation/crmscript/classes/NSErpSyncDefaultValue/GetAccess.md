@@ -14,3 +14,9 @@ Access restrictions for the field
      - Enum: 1 = Mandatory 
      - Enum: 2 = ReadOnly 
 
+```crmscript
+NSErpSyncDefaultValue thing;
+FieldAccess access  = thing.GetAccess();
+```
+
+

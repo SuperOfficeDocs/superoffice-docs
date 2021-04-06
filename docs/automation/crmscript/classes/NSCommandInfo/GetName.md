@@ -11,3 +11,9 @@ The programmatic name of the command, uniquely identifying this command for the 
 **Returns:** String
 
 
+```crmscript
+NSCommandInfo thing;
+String name  = thing.GetName();
+```
+
+

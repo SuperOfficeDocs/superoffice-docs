@@ -11,3 +11,9 @@ Foreign key of quote (if available). The key in the ERP system that identifies t
 **Returns:** String
 
 
+```crmscript
+NSQuote thing;
+String eRPQuoteKey  = thing.GetERPQuoteKey();
+```
+
+

@@ -11,3 +11,9 @@ Indicates wether or not the message will vibrate/play a sound when delivered
 **Returns:** Bool
 
 
+```crmscript
+NSPocketNotificationMessage thing;
+Bool silent  = thing.GetSilent();
+```
+
+

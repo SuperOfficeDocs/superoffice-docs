@@ -11,3 +11,8 @@ Set the primary key (id) for the DeliveryTerm
 **Parameter:** 
  - **id** Integer DeliveryTerm id.
 
+```crmscript
+NSDeliveryTerm thing;
+thing.SetId(123);
+```
+

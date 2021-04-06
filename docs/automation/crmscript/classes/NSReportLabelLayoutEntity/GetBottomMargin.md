@@ -11,3 +11,9 @@ Bottom margin in twips
 **Returns:** Integer
 
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer bottomMargin  = thing.GetBottomMargin();
+```
+
+

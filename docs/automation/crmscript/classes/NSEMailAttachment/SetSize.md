@@ -11,3 +11,9 @@ Size of attachment
 **Parameter:** 
  - **size** Integer
 
+```crmscript
+NSEMailAttachment thing;
+Integer size;
+thing.SetSize(size);
+```
+

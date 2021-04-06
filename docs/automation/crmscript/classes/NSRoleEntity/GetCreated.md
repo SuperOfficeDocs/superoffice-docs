@@ -11,3 +11,9 @@ Registered when
 **Returns:** DateTime
 
 
+```crmscript
+NSRoleEntity thing;
+DateTime created  = thing.GetCreated();
+```
+
+

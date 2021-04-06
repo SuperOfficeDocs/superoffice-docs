@@ -11,3 +11,8 @@ Set the name of the PaymentTerm item.
 **Parameter:** 
  - **value** String PaymentTerm name.
 
+```crmscript
+NSPaymentTerm thing;
+thing.SetValue("frotz");
+```
+

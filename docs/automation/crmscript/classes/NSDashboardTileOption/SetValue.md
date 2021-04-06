@@ -11,3 +11,9 @@ The value, encoded as string, Id:Name of list item if type is list
 **Parameter:** 
  - **value** String
 
+```crmscript
+NSDashboardTileOption thing;
+String value;
+thing.SetValue(value);
+```
+

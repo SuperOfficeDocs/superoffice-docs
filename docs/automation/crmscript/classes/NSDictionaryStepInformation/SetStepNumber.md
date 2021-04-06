@@ -11,3 +11,9 @@ Generation number of step
 **Parameter:** 
  - **stepNumber** Integer
 
+```crmscript
+NSDictionaryStepInformation thing;
+Integer stepNumber;
+thing.SetStepNumber(stepNumber);
+```
+

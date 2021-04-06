@@ -11,3 +11,9 @@ Rank, controls rank of non-instantiated items in Guide
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

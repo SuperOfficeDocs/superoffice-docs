@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSSuggestedAppointmentEntity thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

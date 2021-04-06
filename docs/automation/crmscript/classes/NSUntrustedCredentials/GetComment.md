@@ -11,3 +11,9 @@ Description of credentials. Max 255 characters.
 **Returns:** String
 
 
+```crmscript
+NSUntrustedCredentials thing;
+String comment  = thing.GetComment();
+```
+
+

@@ -11,3 +11,9 @@ Last updated when
 **Returns:** DateTime
 
 
+```crmscript
+NSBlobEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
+
+

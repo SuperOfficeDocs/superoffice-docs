@@ -11,3 +11,9 @@ Company full name + department
 **Parameter:** 
  - **contactFullName** String
 
+```crmscript
+NSPerson thing;
+String contactFullName;
+thing.SetContactFullName(contactFullName);
+```
+

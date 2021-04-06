@@ -11,3 +11,9 @@ Remove this company interest on each company recipient.
 **Returns:** Integer
 
 
+```crmscript
+NSMailMergeSettings thing;
+Integer removeCompanyInterest  = thing.GetRemoveCompanyInterest();
+```
+
+

@@ -11,3 +11,9 @@ The number of replies (messages) to the customer for this request.
 **Returns:** Integer
 
 
+```crmscript
+NSTicket thing;
+Integer numReplies  = thing.GetNumReplies();
+```
+
+

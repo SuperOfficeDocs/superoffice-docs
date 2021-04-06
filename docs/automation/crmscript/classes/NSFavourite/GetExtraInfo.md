@@ -11,3 +11,9 @@ Extra information for this favourite.
 **Returns:** String
 
 
+```crmscript
+NSFavourite thing;
+String extraInfo  = thing.GetExtraInfo();
+```
+
+

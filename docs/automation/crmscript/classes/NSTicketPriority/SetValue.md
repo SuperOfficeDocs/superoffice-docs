@@ -11,3 +11,8 @@ Set the name of the TicketPriority item.
 **Parameter:** 
  - **value** String TicketPriority name.
 
+```crmscript
+NSTicketPriority thing;
+thing.SetValue("frotz");
+```
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isBuiltIn** Bool
 
+```crmscript
+NSLocalizedText thing;
+Bool isBuiltIn;
+thing.SetIsBuiltIn(isBuiltIn);
+```
+

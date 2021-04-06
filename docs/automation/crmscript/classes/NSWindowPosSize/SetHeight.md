@@ -11,3 +11,9 @@ The height of the widget
 **Parameter:** 
  - **height** Integer
 
+```crmscript
+NSWindowPosSize thing;
+Integer height;
+thing.SetHeight(height);
+```
+

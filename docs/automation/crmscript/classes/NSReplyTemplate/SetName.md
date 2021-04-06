@@ -11,3 +11,9 @@ The name for this reply template.
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSReplyTemplate thing;
+String name;
+thing.SetName(name);
+```
+

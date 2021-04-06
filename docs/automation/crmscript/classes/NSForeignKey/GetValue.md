@@ -11,3 +11,9 @@ Key value
 **Returns:** String
 
 
+```crmscript
+NSForeignKey thing;
+String value  = thing.GetValue();
+```
+
+

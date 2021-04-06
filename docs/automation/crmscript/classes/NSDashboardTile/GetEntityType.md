@@ -20,3 +20,9 @@ The tile entity type
      - Enum: 7 = WebPanel 
      - Enum: 8 = Followup 
 
+```crmscript
+NSDashboardTile thing;
+Integer entityType  = thing.GetEntityType();
+```
+
+

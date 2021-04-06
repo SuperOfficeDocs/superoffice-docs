@@ -11,3 +11,9 @@ Is the connection deleted
 **Returns:** Bool
 
 
+```crmscript
+NSErpSyncConnectionSummary thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

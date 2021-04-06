@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **parameters** String
 
+```crmscript
+NSExtAppEntity thing;
+String parameters;
+thing.SetParameters(parameters);
+```
+

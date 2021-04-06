@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **linkId** Integer
 
+```crmscript
+NSLink thing;
+Integer linkId;
+thing.SetLinkId(linkId);
+```
+

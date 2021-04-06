@@ -11,3 +11,9 @@ Flags associated with the folder
 **Parameter:** 
  - **flags** String
 
+```crmscript
+NSEMailFolder thing;
+String flags;
+thing.SetFlags(flags);
+```
+

@@ -11,3 +11,9 @@ Name/description
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSEMailAttachment thing;
+String description;
+thing.SetDescription(description);
+```
+

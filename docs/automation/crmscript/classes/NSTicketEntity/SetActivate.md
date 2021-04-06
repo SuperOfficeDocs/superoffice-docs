@@ -11,3 +11,9 @@ When the ticket should be activated, if it is postponed.
 **Parameter:** 
  - **activate** DateTime
 
+```crmscript
+NSTicketEntity thing;
+DateTime activate;
+thing.SetActivate(activate);
+```
+

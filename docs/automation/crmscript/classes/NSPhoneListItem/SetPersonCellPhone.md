@@ -11,3 +11,9 @@ Person Cell Phone
 **Parameter:** 
  - **personCellPhone** String
 
+```crmscript
+NSPhoneListItem thing;
+String personCellPhone;
+thing.SetPersonCellPhone(personCellPhone);
+```
+

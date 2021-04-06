@@ -11,3 +11,9 @@ The width specification, if the column info has been extended with GUI-based inf
 **Returns:** String
 
 
+```crmscript
+NSArchiveColumnInfo thing;
+String width  = thing.GetWidth();
+```
+
+

@@ -11,3 +11,9 @@ TicketMessageId,CreatedAt,SLevel and Important for all the messages connected to
 **Returns:** TicketMessageArray
 
 
+```crmscript
+NSTicketEntity thing;
+TicketMessageArray messages  = thing.GetMessages();
+```
+
+

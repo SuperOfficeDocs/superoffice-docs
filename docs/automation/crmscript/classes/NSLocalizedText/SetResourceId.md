@@ -11,3 +11,9 @@ Resource ID
 **Parameter:** 
  - **resourceId** Integer
 
+```crmscript
+NSLocalizedText thing;
+Integer resourceId;
+thing.SetResourceId(resourceId);
+```
+

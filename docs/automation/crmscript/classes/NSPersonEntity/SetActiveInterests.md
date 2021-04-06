@@ -11,3 +11,9 @@ The number of active interests.
 **Parameter:** 
  - **activeInterests** Integer
 
+```crmscript
+NSPersonEntity thing;
+Integer activeInterests;
+thing.SetActiveInterests(activeInterests);
+```
+

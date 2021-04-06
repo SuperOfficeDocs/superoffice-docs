@@ -11,3 +11,9 @@ Last updated when
 **Parameter:** 
  - **updated** DateTime
 
+```crmscript
+NSCRMScriptEntity thing;
+DateTime updated;
+thing.SetUpdated(updated);
+```
+

@@ -11,3 +11,9 @@ Contains the user notify time in minutes
 **Parameter:** 
  - **warnNewChatMinutes** Integer
 
+```crmscript
+NSChatTopicEntity thing;
+Integer warnNewChatMinutes;
+thing.SetWarnNewChatMinutes(warnNewChatMinutes);
+```
+

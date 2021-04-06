@@ -11,3 +11,9 @@ Optional, additional information meant for further processing. This member is ig
 **Parameter:** 
  - **additionalInfo** String
 
+```crmscript
+NSReturnInfo thing;
+String additionalInfo;
+thing.SetAdditionalInfo(additionalInfo);
+```
+

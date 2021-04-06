@@ -11,3 +11,9 @@ The ERP field key
 **Returns:** String
 
 
+```crmscript
+NSErpSyncDefaultValue thing;
+String erpFieldKey  = thing.GetErpFieldKey();
+```
+
+

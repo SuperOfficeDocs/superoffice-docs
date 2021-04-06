@@ -11,3 +11,9 @@ Description of preference, multi-language parsed
 **Returns:** String
 
 
+```crmscript
+NSPreferenceDescription thing;
+String description  = thing.GetDescription();
+```
+
+

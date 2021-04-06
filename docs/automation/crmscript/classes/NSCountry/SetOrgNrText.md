@@ -11,3 +11,9 @@ Lead text for organisation field
 **Parameter:** 
  - **orgNrText** String
 
+```crmscript
+NSCountry thing;
+String orgNrText;
+thing.SetOrgNrText(orgNrText);
+```
+

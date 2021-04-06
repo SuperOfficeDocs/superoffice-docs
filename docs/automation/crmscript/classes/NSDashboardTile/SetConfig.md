@@ -11,3 +11,9 @@ The tile config
 **Parameter:** 
  - **config** String
 
+```crmscript
+NSDashboardTile thing;
+String config;
+thing.SetConfig(config);
+```
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **personId** Integer
 
+```crmscript
+NSPreviewMailingHeader thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
+

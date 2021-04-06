@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **personId** Integer
 
+```crmscript
+NSPersonEntity thing;
+Integer personId;
+thing.SetPersonId(personId);
+```
+

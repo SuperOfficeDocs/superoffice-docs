@@ -11,3 +11,9 @@ The actual ownership information for the configuration that was retrieved
 **Returns:** String
 
 
+```crmscript
+NSArchiveConfiguration thing;
+String ownerKeys  = thing.GetOwnerKeys();
+```
+
+

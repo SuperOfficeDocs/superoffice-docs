@@ -11,3 +11,9 @@ Simple Person data.
 **Returns:** Person
 
 
+```crmscript
+NSPersonSummary thing;
+Person person  = thing.GetPerson();
+```
+
+

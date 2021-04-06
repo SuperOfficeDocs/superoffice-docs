@@ -11,3 +11,9 @@ The account (from) address
 **Parameter:** 
  - **eMailAddress** String
 
+```crmscript
+NSEMailAccount thing;
+String eMailAddress;
+thing.SetEMailAddress(eMailAddress);
+```
+

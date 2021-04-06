@@ -11,3 +11,9 @@ The Id of the Audience layout
 **Returns:** Integer
 
 
+```crmscript
+NSAudienceLayoutEntity thing;
+Integer audienceLayoutId  = thing.GetAudienceLayoutId();
+```
+
+

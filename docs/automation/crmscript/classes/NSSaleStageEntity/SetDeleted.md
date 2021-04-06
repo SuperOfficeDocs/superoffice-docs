@@ -11,3 +11,9 @@ If true, the Sale stage is deleted
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSSaleStageEntity thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

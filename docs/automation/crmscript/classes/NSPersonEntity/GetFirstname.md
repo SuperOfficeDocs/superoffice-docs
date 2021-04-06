@@ -11,3 +11,9 @@ First name
 **Returns:** String
 
 
+```crmscript
+NSPersonEntity thing;
+String firstname  = thing.GetFirstname();
+```
+
+

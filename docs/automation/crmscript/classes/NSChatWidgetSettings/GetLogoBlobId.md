@@ -11,3 +11,9 @@ Blob id that contains logo image
 **Returns:** Integer
 
 
+```crmscript
+NSChatWidgetSettings thing;
+Integer logoBlobId  = thing.GetLogoBlobId();
+```
+
+

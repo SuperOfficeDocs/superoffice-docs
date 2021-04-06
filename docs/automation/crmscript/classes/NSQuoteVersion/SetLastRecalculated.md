@@ -11,3 +11,9 @@ When this version was last subjected to a total recalculation. This field must b
 **Parameter:** 
  - **lastRecalculated** DateTime
 
+```crmscript
+NSQuoteVersion thing;
+DateTime lastRecalculated;
+thing.SetLastRecalculated(lastRecalculated);
+```
+

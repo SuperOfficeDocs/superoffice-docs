@@ -11,3 +11,9 @@ The list of groups to filter on
 **Parameter:** 
  - **groupList** SelectableMDOListItemArray
 
+```crmscript
+NSActivityFilter thing;
+SelectableMDOListItemArray groupList;
+thing.SetGroupList(groupList);
+```
+

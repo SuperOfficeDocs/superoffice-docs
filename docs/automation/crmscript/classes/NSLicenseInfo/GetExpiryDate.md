@@ -11,3 +11,9 @@ Expiration date, 0 = forever
 **Returns:** DateTime
 
 
+```crmscript
+NSLicenseInfo thing;
+DateTime expiryDate  = thing.GetExpiryDate();
+```
+
+

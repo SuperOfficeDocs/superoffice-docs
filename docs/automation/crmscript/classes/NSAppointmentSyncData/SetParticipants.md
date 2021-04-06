@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **participants** ParticipantSyncDataArray
 
+```crmscript
+NSAppointmentSyncData thing;
+ParticipantSyncDataArray participants;
+thing.SetParticipants(participants);
+```
+

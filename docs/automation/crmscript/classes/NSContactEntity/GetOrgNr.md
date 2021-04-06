@@ -11,3 +11,9 @@ VAT number or similar
 **Returns:** String
 
 
+```crmscript
+NSContactEntity thing;
+String orgNr  = thing.GetOrgNr();
+```
+
+

@@ -11,3 +11,9 @@ Published to external persons
 **Returns:** Bool
 
 
+```crmscript
+NSTaskListItem thing;
+Bool isDefaultPublished  = thing.GetIsDefaultPublished();
+```
+
+

@@ -16,3 +16,9 @@ Required field when creating ticket in offline mode
      - Enum: 4 = Company 
      - Enum: 8 = Phone 
 
+```crmscript
+NSChatWidgetSettings thing;
+WidgetRequiredFields offlineFields  = thing.GetOfflineFields();
+```
+
+

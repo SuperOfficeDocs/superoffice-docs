@@ -11,3 +11,9 @@ The project's internet adresses
 **Parameter:** 
  - **urls** EntityElementArray
 
+```crmscript
+NSProjectEntity thing;
+EntityElementArray urls;
+thing.SetUrls(urls);
+```
+

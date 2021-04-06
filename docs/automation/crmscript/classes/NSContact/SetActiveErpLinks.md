@@ -11,3 +11,9 @@ The number of active erp links
 **Parameter:** 
  - **activeErpLinks** Integer
 
+```crmscript
+NSContact thing;
+Integer activeErpLinks;
+thing.SetActiveErpLinks(activeErpLinks);
+```
+

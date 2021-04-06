@@ -11,3 +11,9 @@ Middle name or 'van' etc.
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String middleName  = thing.GetMiddleName();
+```
+
+

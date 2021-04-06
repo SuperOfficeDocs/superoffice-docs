@@ -11,3 +11,9 @@ The CRMscript code for this event handler
 **Returns:** String
 
 
+```crmscript
+NSTriggerScriptEntity thing;
+String source  = thing.GetSource();
+```
+
+

@@ -11,3 +11,9 @@ Phone number
 **Parameter:** 
  - **phone** String
 
+```crmscript
+NSSaleStakeholder thing;
+String phone;
+thing.SetPhone(phone);
+```
+

@@ -11,3 +11,9 @@ Sub-items, if any.
 **Returns:** HierarchyEntityArray
 
 
+```crmscript
+NSHierarchyEntity thing;
+HierarchyEntityArray children  = thing.GetChildren();
+```
+
+

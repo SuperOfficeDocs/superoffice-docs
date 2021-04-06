@@ -11,3 +11,9 @@ Contact kana name, used in Japanese versions only
 **Parameter:** 
  - **kananame** String
 
+```crmscript
+NSContactEntity thing;
+String kananame;
+thing.SetKananame(kananame);
+```
+

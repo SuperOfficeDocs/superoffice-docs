@@ -11,3 +11,9 @@ Middle name or 'van' etc.
 **Parameter:** 
  - **middleName** String
 
+```crmscript
+NSPerson thing;
+String middleName;
+thing.SetMiddleName(middleName);
+```
+

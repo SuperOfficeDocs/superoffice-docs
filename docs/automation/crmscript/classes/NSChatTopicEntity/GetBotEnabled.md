@@ -11,3 +11,9 @@ Enable chatbot on this topic. Run the trigger scripts on bot events.
 **Returns:** Bool
 
 
+```crmscript
+NSChatTopicEntity thing;
+Bool botEnabled  = thing.GetBotEnabled();
+```
+
+

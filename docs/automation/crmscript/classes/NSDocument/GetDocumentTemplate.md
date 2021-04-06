@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSDocument thing;
+String documentTemplate  = thing.GetDocumentTemplate();
+```
+
+

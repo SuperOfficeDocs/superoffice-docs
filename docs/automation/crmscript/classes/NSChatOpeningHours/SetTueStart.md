@@ -11,3 +11,9 @@ When opening hours start on Tuesdays. Only time-part is used.
 **Parameter:** 
  - **tueStart** TimeSpan
 
+```crmscript
+NSChatOpeningHours thing;
+TimeSpan tueStart;
+thing.SetTueStart(tueStart);
+```
+

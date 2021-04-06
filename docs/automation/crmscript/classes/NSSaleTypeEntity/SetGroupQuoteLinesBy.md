@@ -11,3 +11,9 @@ Group quote lines by this field
 **Parameter:** 
  - **groupQuoteLinesBy** Integer
 
+```crmscript
+NSSaleTypeEntity thing;
+Integer groupQuoteLinesBy;
+thing.SetGroupQuoteLinesBy(groupQuoteLinesBy);
+```
+

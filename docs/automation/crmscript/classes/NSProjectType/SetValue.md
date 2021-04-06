@@ -11,3 +11,8 @@ Set the name of the ProjectType item.
 **Parameter:** 
  - **value** String ProjectType name.
 
+```crmscript
+NSProjectType thing;
+thing.SetValue("frotz");
+```
+

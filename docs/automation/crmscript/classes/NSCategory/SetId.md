@@ -11,3 +11,8 @@ Set the primary key (id) for the Category
 **Parameter:** 
  - **id** Integer Category id.
 
+```crmscript
+NSCategory thing;
+thing.SetId(123);
+```
+

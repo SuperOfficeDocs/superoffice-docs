@@ -11,3 +11,9 @@ The unique key on the field
 **Parameter:** 
  - **key** String
 
+```crmscript
+NSFieldValueInfo thing;
+String key;
+thing.SetKey(key);
+```
+

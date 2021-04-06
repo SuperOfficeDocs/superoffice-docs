@@ -11,3 +11,9 @@ Publication valid from (inclusive)
 **Returns:** DateTime
 
 
+```crmscript
+NSProjectEventEntity thing;
+DateTime publishFrom  = thing.GetPublishFrom();
+```
+
+

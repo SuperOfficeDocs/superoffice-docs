@@ -11,3 +11,9 @@ Short message displayed as long as the request is in queue or active
 **Parameter:** 
  - **welcomeMessage** String
 
+```crmscript
+NSChatWidgetSettings thing;
+String welcomeMessage;
+thing.SetWelcomeMessage(welcomeMessage);
+```
+

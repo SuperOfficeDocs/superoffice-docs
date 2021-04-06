@@ -11,3 +11,9 @@ The email address of the person who submitted
 **Parameter:** 
  - **emailAddress** String
 
+```crmscript
+NSFormSubmissionEntity thing;
+String emailAddress;
+thing.SetEmailAddress(emailAddress);
+```
+

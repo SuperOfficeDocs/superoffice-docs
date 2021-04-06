@@ -11,3 +11,9 @@ True if the ListItem is selected
 **Parameter:** 
  - **selected** Bool
 
+```crmscript
+NSSelectableMDOListItem thing;
+Bool selected;
+thing.SetSelected(selected);
+```
+

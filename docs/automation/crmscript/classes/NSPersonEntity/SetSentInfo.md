@@ -11,3 +11,9 @@ Has information on username/password been sent (ejournal)
 **Parameter:** 
  - **sentInfo** Integer
 
+```crmscript
+NSPersonEntity thing;
+Integer sentInfo;
+thing.SetSentInfo(sentInfo);
+```
+

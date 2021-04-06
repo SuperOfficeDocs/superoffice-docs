@@ -11,3 +11,9 @@ MDO List provider name for list fields
 **Parameter:** 
  - **listName** String
 
+```crmscript
+NSFieldMetadata thing;
+String listName;
+thing.SetListName(listName);
+```
+

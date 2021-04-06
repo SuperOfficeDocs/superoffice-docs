@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSAmountClassEntity thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

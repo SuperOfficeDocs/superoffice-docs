@@ -11,3 +11,9 @@ Name of the layout instance
 **Parameter:** 
  - **instanceName** String
 
+```crmscript
+NSAudienceLayoutEntity thing;
+String instanceName;
+thing.SetInstanceName(instanceName);
+```
+

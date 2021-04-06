@@ -11,3 +11,9 @@ Can this column be used for sorting?
 **Returns:** Bool
 
 
+```crmscript
+NSArchiveColumnInfo thing;
+Bool canOrderBy  = thing.GetCanOrderBy();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isMandatory** Bool
 
+```crmscript
+NSFieldInfoBase thing;
+Bool isMandatory;
+thing.SetIsMandatory(isMandatory);
+```
+

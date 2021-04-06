@@ -11,3 +11,9 @@ The message.
 **Returns:** String
 
 
+```crmscript
+NSChatMessage thing;
+String message  = thing.GetMessage();
+```
+
+

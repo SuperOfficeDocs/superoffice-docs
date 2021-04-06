@@ -11,3 +11,9 @@ Last updated by user
 **Returns:** Associate
 
 
+```crmscript
+NSRoleEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
+
+

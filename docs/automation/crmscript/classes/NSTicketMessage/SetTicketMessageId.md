@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Parameter:** 
  - **ticketMessageId** Integer
 
+```crmscript
+NSTicketMessage thing;
+Integer ticketMessageId;
+thing.SetTicketMessageId(ticketMessageId);
+```
+

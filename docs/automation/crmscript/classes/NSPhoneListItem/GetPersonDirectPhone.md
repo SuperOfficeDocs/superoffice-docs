@@ -11,3 +11,9 @@ Person Direct Phone
 **Returns:** String
 
 
+```crmscript
+NSPhoneListItem thing;
+String personDirectPhone  = thing.GetPersonDirectPhone();
+```
+
+

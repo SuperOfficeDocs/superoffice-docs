@@ -11,3 +11,9 @@ The sale rating
 **Parameter:** 
  - **rating** Rating
 
+```crmscript
+NSSaleEntity thing;
+Rating rating;
+thing.SetRating(rating);
+```
+

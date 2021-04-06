@@ -11,3 +11,9 @@ What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五
 **Returns:** String
 
 
+```crmscript
+NSProduct thing;
+String quantityUnit  = thing.GetQuantityUnit();
+```
+
+

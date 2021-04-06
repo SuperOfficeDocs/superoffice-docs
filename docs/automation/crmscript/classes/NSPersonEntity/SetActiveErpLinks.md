@@ -11,3 +11,9 @@ How many active ERP links are there for this person?
 **Parameter:** 
  - **activeErpLinks** Integer
 
+```crmscript
+NSPersonEntity thing;
+Integer activeErpLinks;
+thing.SetActiveErpLinks(activeErpLinks);
+```
+

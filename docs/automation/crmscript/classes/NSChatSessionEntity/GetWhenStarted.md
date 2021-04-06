@@ -11,3 +11,9 @@ When the session was accepted by a user.
 **Returns:** DateTime
 
 
+```crmscript
+NSChatSessionEntity thing;
+DateTime whenStarted  = thing.GetWhenStarted();
+```
+
+

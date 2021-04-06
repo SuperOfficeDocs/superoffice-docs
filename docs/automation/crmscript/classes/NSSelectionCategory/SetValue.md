@@ -11,3 +11,8 @@ Set the name of the SelectionCategory item.
 **Parameter:** 
  - **value** String SelectionCategory name.
 
+```crmscript
+NSSelectionCategory thing;
+thing.SetValue("frotz");
+```
+

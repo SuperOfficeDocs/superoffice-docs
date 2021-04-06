@@ -11,3 +11,9 @@ Earning on sale
 **Parameter:** 
  - **earning** Float
 
+```crmscript
+NSSaleEntity thing;
+Float earning;
+thing.SetEarning(earning);
+```
+

@@ -11,3 +11,9 @@ Associate who owns this tab order
 **Returns:** Integer
 
 
+```crmscript
+NSTabOrder thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

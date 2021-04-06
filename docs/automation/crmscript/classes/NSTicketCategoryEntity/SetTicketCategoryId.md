@@ -11,3 +11,9 @@ The id of the ticket category. (primary key)
 **Parameter:** 
  - **ticketCategoryId** Integer
 
+```crmscript
+NSTicketCategoryEntity thing;
+Integer ticketCategoryId;
+thing.SetTicketCategoryId(ticketCategoryId);
+```
+

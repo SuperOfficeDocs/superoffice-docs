@@ -11,3 +11,9 @@ The column tooltip, used in the column list and in the column headings
 **Parameter:** 
  - **displayTooltip** String
 
+```crmscript
+NSArchiveColumnInfo thing;
+String displayTooltip;
+thing.SetDisplayTooltip(displayTooltip);
+```
+

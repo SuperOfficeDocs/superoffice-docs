@@ -11,3 +11,9 @@ Sub-items, if any.
 **Parameter:** 
  - **children** HierarchyEntityArray
 
+```crmscript
+NSHierarchyEntity thing;
+HierarchyEntityArray children;
+thing.SetChildren(children);
+```
+

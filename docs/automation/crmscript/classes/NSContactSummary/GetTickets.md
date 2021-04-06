@@ -11,3 +11,9 @@ Recent tickets on contact
 **Returns:** TicketSummaryItemArray
 
 
+```crmscript
+NSContactSummary thing;
+TicketSummaryItemArray tickets  = thing.GetTickets();
+```
+
+

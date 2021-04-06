@@ -11,3 +11,9 @@ Lowest possible unique number for active sessions for user. User for color index
 **Returns:** Integer
 
 
+```crmscript
+NSChatSessionEntity thing;
+Integer rank  = thing.GetRank();
+```
+
+

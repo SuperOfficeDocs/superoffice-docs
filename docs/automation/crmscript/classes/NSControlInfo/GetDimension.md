@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSControlInfo thing;
+Integer dimension  = thing.GetDimension();
+```
+
+

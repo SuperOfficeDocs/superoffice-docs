@@ -11,3 +11,9 @@ Who created to sale
 **Returns:** Associate
 
 
+```crmscript
+NSSaleEntity thing;
+Associate createdBy  = thing.GetCreatedBy();
+```
+
+

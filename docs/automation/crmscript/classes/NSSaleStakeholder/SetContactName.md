@@ -11,3 +11,9 @@ Contact name
 **Parameter:** 
  - **contactName** String
 
+```crmscript
+NSSaleStakeholder thing;
+String contactName;
+thing.SetContactName(contactName);
+```
+

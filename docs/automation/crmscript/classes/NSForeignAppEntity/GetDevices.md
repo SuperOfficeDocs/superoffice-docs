@@ -11,3 +11,9 @@ The devices that belong to this foreign app.
 **Returns:** ForeignDeviceArray
 
 
+```crmscript
+NSForeignAppEntity thing;
+ForeignDeviceArray devices  = thing.GetDevices();
+```
+
+

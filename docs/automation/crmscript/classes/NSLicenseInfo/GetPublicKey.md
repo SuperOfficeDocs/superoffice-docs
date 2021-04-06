@@ -11,3 +11,9 @@ The public key used to verify licenses owned by this owner.
 **Returns:** SignedPublicKey
 
 
+```crmscript
+NSLicenseInfo thing;
+SignedPublicKey publicKey  = thing.GetPublicKey();
+```
+
+

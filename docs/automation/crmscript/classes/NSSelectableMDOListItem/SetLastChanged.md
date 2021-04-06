@@ -11,3 +11,9 @@ Time of last change.
 **Parameter:** 
  - **lastChanged** DateTime
 
+```crmscript
+NSSelectableMDOListItem thing;
+DateTime lastChanged;
+thing.SetLastChanged(lastChanged);
+```
+

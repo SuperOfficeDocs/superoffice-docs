@@ -11,3 +11,9 @@ The primary key
 **Returns:** Integer
 
 
+```crmscript
+NSServiceAuth thing;
+Integer serviceAuthId  = thing.GetServiceAuthId();
+```
+
+

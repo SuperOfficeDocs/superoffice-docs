@@ -11,3 +11,9 @@ Name of the person that ows the event (i.e. project)
 **Returns:** String
 
 
+```crmscript
+NSProjectEvent thing;
+String associateFullName  = thing.GetAssociateFullName();
+```
+
+

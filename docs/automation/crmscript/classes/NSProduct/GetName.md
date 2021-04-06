@@ -11,3 +11,9 @@ The name to use in the user interface.
 **Returns:** String
 
 
+```crmscript
+NSProduct thing;
+String name  = thing.GetName();
+```
+
+

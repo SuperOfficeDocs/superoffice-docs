@@ -11,3 +11,9 @@ Blank when not a video meeting. Filled with Join Meeting URL when created.
 **Parameter:** 
  - **joinVideomeetUrl** String
 
+```crmscript
+NSAppointment thing;
+String joinVideomeetUrl;
+thing.SetJoinVideomeetUrl(joinVideomeetUrl);
+```
+

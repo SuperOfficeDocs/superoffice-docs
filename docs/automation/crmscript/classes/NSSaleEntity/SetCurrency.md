@@ -11,3 +11,9 @@ The currency the sale object was sold in
 **Parameter:** 
  - **currency** Currency
 
+```crmscript
+NSSaleEntity thing;
+Currency currency;
+thing.SetCurrency(currency);
+```
+

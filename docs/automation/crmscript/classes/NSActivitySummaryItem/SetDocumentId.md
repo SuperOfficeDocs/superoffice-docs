@@ -11,3 +11,9 @@ Document id - 0 if not a document
 **Parameter:** 
  - **documentId** Integer
 
+```crmscript
+NSActivitySummaryItem thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
+

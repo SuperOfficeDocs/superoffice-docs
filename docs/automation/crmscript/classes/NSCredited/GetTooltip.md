@@ -10,3 +10,9 @@ Get the tooltip description for the Credited list item.
 
 **Returns:** String Credited tooltip description.
 
+```crmscript
+NSCredited thing;
+String descr = thing.GetTooltip();
+```
+
+

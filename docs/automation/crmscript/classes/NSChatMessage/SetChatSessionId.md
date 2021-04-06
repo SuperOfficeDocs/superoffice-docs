@@ -11,3 +11,9 @@ The reference to the associated chat session.
 **Parameter:** 
  - **chatSessionId** Integer
 
+```crmscript
+NSChatMessage thing;
+Integer chatSessionId;
+thing.SetChatSessionId(chatSessionId);
+```
+

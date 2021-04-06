@@ -11,3 +11,9 @@ The password used to log into the mail account. This is hidden when reading
 **Returns:** String
 
 
+```crmscript
+NSMailboxEntity thing;
+String password  = thing.GetPassword();
+```
+
+

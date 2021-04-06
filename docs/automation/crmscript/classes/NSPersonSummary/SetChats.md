@@ -11,3 +11,9 @@ Recent chats with person
 **Parameter:** 
  - **chats** ChatSummaryItemArray
 
+```crmscript
+NSPersonSummary thing;
+ChatSummaryItemArray chats;
+thing.SetChats(chats);
+```
+

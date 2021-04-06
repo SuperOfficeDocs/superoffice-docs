@@ -11,3 +11,9 @@ Default attachment id value
 **Parameter:** 
  - **defaultValue** Integer
 
+```crmscript
+NSFieldInfoAttachment thing;
+Integer defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
+

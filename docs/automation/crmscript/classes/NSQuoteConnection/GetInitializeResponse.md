@@ -11,3 +11,9 @@ Status and Error message when the system called the connector Initialize method.
 **Returns:** PluginResponse
 
 
+```crmscript
+NSQuoteConnection thing;
+PluginResponse initializeResponse  = thing.GetInitializeResponse();
+```
+
+

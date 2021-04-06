@@ -11,3 +11,9 @@ If true, a task should be created when the external user signs on an event
 **Parameter:** 
  - **signOnTaskEnable** Bool
 
+```crmscript
+NSProjectEvent thing;
+Bool signOnTaskEnable;
+thing.SetSignOnTaskEnable(signOnTaskEnable);
+```
+

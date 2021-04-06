@@ -11,3 +11,9 @@ Signature - Base64 encoded value
 **Returns:** String
 
 
+```crmscript
+NSSignedPublicKey thing;
+String signature  = thing.GetSignature();
+```
+
+

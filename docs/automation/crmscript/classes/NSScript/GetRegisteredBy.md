@@ -11,3 +11,9 @@ Who created this script
 **Returns:** String
 
 
+```crmscript
+NSScript thing;
+String registeredBy  = thing.GetRegisteredBy();
+```
+
+

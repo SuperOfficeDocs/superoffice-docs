@@ -17,3 +17,9 @@ How to combine the two selections when SelectionType = Combined.
      - Enum: 4 = XOR 
      - Enum: 5 = Union 
 
+```crmscript
+NSSelectionEntity thing;
+Integer selectionUnionType;
+thing.SetSelectionUnionType(selectionUnionType);
+```
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **culture** String
 
+```crmscript
+NSResourceOverride thing;
+String culture;
+thing.SetCulture(culture);
+```
+

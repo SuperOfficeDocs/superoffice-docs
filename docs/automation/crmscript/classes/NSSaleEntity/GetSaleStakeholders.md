@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** SaleStakeholderArray
 
 
+```crmscript
+NSSaleEntity thing;
+SaleStakeholderArray saleStakeholders  = thing.GetSaleStakeholders();
+```
+
+

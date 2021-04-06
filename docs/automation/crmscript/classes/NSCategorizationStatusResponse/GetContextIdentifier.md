@@ -11,3 +11,9 @@ Contextidentifier to identify customer
 **Returns:** String
 
 
+```crmscript
+NSCategorizationStatusResponse thing;
+String contextIdentifier  = thing.GetContextIdentifier();
+```
+
+

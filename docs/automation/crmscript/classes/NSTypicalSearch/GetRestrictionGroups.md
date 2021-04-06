@@ -11,3 +11,9 @@ The restrictions (can be multiple groups) that make up the TypicalSearch
 **Returns:** ArchiveRestrictionGroupArray
 
 
+```crmscript
+NSTypicalSearch thing;
+ArchiveRestrictionGroupArray restrictionGroups  = thing.GetRestrictionGroups();
+```
+
+

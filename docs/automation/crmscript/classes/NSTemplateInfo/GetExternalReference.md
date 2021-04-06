@@ -11,3 +11,9 @@ Unique key that identifies the document so it can be retrieved
 **Returns:** String
 
 
+```crmscript
+NSTemplateInfo thing;
+String externalReference  = thing.GetExternalReference();
+```
+
+

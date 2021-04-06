@@ -11,3 +11,9 @@ Ticket the session is connected to - could be empty if we don't know exactly.
 **Returns:** Ticket
 
 
+```crmscript
+NSChatSessionEntity thing;
+Ticket ticket  = thing.GetTicket();
+```
+
+

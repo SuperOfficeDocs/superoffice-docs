@@ -11,3 +11,9 @@ Integration agent (eJournal)
 **Returns:** Integer
 
 
+```crmscript
+NSContactEntity thing;
+Integer dbiAgentId  = thing.GetDbiAgentId();
+```
+
+

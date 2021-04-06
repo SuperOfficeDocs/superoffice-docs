@@ -11,3 +11,9 @@ When the session was ended.
 **Parameter:** 
  - **whenEnded** DateTime
 
+```crmscript
+NSChatSummaryItem thing;
+DateTime whenEnded;
+thing.SetWhenEnded(whenEnded);
+```
+

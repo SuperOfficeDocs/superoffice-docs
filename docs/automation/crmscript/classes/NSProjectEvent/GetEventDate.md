@@ -11,3 +11,9 @@ Date of the event. Event is not visible after this date.
 **Returns:** DateTime
 
 
+```crmscript
+NSProjectEvent thing;
+DateTime eventDate  = thing.GetEventDate();
+```
+
+

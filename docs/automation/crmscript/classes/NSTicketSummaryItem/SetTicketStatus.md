@@ -11,3 +11,9 @@ User defined ticket status
 **Parameter:** 
  - **ticketStatus** Integer
 
+```crmscript
+NSTicketSummaryItem thing;
+Integer ticketStatus;
+thing.SetTicketStatus(ticketStatus);
+```
+

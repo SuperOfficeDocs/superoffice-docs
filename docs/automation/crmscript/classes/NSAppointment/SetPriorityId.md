@@ -11,3 +11,9 @@ Link to priority list
 **Parameter:** 
  - **priorityId** Integer
 
+```crmscript
+NSAppointment thing;
+Integer priorityId;
+thing.SetPriorityId(priorityId);
+```
+

@@ -11,3 +11,9 @@ Contains the manager notify time in minutes
 **Returns:** Integer
 
 
+```crmscript
+NSChatTopicEntity thing;
+Integer warnManagerNewChatMinutes  = thing.GetWarnManagerNewChatMinutes();
+```
+
+

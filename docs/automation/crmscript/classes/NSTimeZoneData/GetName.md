@@ -11,3 +11,9 @@ Name associated with the location
 **Returns:** String
 
 
+```crmscript
+NSTimeZoneData thing;
+String name  = thing.GetName();
+```
+
+

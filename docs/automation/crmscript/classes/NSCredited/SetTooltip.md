@@ -11,3 +11,9 @@ Set the tooltip description for the Credited list item.
 **Parameter:** 
  - **tooltip** String Credited tooltip description.
 
+```crmscript
+NSCredited thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

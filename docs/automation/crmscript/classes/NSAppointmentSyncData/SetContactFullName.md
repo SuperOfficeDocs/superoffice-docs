@@ -11,3 +11,9 @@ The entire name of the contact, including department name
 **Parameter:** 
  - **contactFullName** String
 
+```crmscript
+NSAppointmentSyncData thing;
+String contactFullName;
+thing.SetContactFullName(contactFullName);
+```
+

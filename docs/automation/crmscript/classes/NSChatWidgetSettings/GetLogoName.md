@@ -11,3 +11,9 @@ filename/description of logo (from blob)
 **Returns:** String
 
 
+```crmscript
+NSChatWidgetSettings thing;
+String logoName  = thing.GetLogoName();
+```
+
+

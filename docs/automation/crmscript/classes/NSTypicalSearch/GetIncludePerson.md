@@ -11,3 +11,9 @@ For selection-of-company: state of the Include Main Contact checkbox
 **Returns:** Integer
 
 
+```crmscript
+NSTypicalSearch thing;
+Integer includePerson  = thing.GetIncludePerson();
+```
+
+

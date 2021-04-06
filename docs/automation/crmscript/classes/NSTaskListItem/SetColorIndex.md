@@ -36,3 +36,9 @@ JAP
      - Enum: 23 = RedAlt2 
      - Enum: 24 = RedAlt3 
 
+```crmscript
+NSTaskListItem thing;
+Integer colorIndex;
+thing.SetColorIndex(colorIndex);
+```
+

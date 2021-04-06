@@ -11,3 +11,9 @@ Summed amount for all sold within the period in default currency for the install
 **Returns:** Float
 
 
+```crmscript
+NSSaleSummary thing;
+Float soldTotalBaseCurrency  = thing.GetSoldTotalBaseCurrency();
+```
+
+

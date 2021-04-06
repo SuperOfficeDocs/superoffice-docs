@@ -11,3 +11,9 @@ The language ISO code for the widget language
 **Returns:** String
 
 
+```crmscript
+NSChatWidgetSettings thing;
+String languageIsoCode  = thing.GetLanguageIsoCode();
+```
+
+

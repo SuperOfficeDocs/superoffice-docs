@@ -11,3 +11,9 @@ String describing the current message status.
 **Parameter:** 
  - **statusDescription** String
 
+```crmscript
+NSMessageDeliveryStatus thing;
+String statusDescription;
+thing.SetStatusDescription(statusDescription);
+```
+

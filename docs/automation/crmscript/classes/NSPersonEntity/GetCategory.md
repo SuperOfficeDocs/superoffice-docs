@@ -11,3 +11,9 @@ Person's category. Usually null. Refer to the Contact.Category instead.  Intende
 **Returns:** Category
 
 
+```crmscript
+NSPersonEntity thing;
+Category category  = thing.GetCategory();
+```
+
+

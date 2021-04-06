@@ -11,3 +11,9 @@ A log of what happened during processing
 **Returns:** String
 
 
+```crmscript
+NSFormSubmissionEntity thing;
+String processingLog  = thing.GetProcessingLog();
+```
+
+

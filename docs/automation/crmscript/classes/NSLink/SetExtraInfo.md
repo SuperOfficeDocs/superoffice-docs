@@ -11,3 +11,9 @@ Extrainfo for link. Use for information that does not have a primary key
 **Parameter:** 
  - **extraInfo** String
 
+```crmscript
+NSLink thing;
+String extraInfo;
+thing.SetExtraInfo(extraInfo);
+```
+

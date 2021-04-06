@@ -11,3 +11,9 @@ Rank in list of stakeholders
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSSaleStakeholder thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

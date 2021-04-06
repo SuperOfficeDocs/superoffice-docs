@@ -11,3 +11,9 @@ Published to external persons
 **Parameter:** 
  - **isDefaultPublished** Bool
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Bool isDefaultPublished;
+thing.SetIsDefaultPublished(isDefaultPublished);
+```
+

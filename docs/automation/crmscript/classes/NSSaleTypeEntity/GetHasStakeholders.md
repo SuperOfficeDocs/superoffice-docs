@@ -11,3 +11,9 @@ Does this sale type have stakeholders
 **Returns:** Bool
 
 
+```crmscript
+NSSaleTypeEntity thing;
+Bool hasStakeholders  = thing.GetHasStakeholders();
+```
+
+

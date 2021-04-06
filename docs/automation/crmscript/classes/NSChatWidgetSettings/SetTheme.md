@@ -13,3 +13,9 @@ Predefined themes for the chat widget
      - Enum: 0 = Classic 
      - Enum: 1 = Modern 
 
+```crmscript
+NSChatWidgetSettings thing;
+Integer theme;
+thing.SetTheme(theme);
+```
+

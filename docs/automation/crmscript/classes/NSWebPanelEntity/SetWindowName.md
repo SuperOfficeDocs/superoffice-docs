@@ -11,3 +11,9 @@ The window which the URL address is to open in (webpanel only)
 **Parameter:** 
  - **windowName** String
 
+```crmscript
+NSWebPanelEntity thing;
+String windowName;
+thing.SetWindowName(windowName);
+```
+

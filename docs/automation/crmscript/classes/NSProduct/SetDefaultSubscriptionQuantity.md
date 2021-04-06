@@ -11,3 +11,9 @@ The default number of SubscriptionUnits to suggest when creating quote lines fro
 **Parameter:** 
  - **defaultSubscriptionQuantity** Float
 
+```crmscript
+NSProduct thing;
+Float defaultSubscriptionQuantity;
+thing.SetDefaultSubscriptionQuantity(defaultSubscriptionQuantity);
+```
+

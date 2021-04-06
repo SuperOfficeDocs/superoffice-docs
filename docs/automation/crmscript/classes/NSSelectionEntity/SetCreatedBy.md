@@ -11,3 +11,9 @@ Who created the selection
 **Parameter:** 
  - **createdBy** Associate
 
+```crmscript
+NSSelectionEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

@@ -21,3 +21,9 @@ Is this a normal document or a mail-merge or report?
      - Enum: 8 = MergeDraft 
      - Enum: 9 = MergeFinal 
 
+```crmscript
+NSDocumentEntity thing;
+Integer type;
+thing.SetType(type);
+```
+

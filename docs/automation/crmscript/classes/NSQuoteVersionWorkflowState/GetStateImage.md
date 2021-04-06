@@ -11,3 +11,9 @@ Information about the state image for the current quote version.
 **Returns:** QuoteVersionButtonState
 
 
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionButtonState stateImage  = thing.GetStateImage();
+```
+
+

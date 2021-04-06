@@ -11,3 +11,9 @@ The datetime when this email was archived
 **Parameter:** 
  - **archivedAt** DateTime
 
+```crmscript
+NSEMailSOInfo thing;
+DateTime archivedAt;
+thing.SetArchivedAt(archivedAt);
+```
+

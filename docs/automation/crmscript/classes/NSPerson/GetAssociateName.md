@@ -11,3 +11,9 @@ Name of the person's owner
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String associateName  = thing.GetAssociateName();
+```
+
+

@@ -11,3 +11,9 @@ The QuoteAlternatives for the QuoteVersion
 **Parameter:** 
  - **quoteAlternatives** QuoteAlternativeArray
 
+```crmscript
+NSQuoteVersion thing;
+QuoteAlternativeArray quoteAlternatives;
+thing.SetQuoteAlternatives(quoteAlternatives);
+```
+

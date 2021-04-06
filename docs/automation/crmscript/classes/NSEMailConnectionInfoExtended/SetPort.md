@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **port** Integer
 
+```crmscript
+NSEMailConnectionInfoExtended thing;
+Integer port;
+thing.SetPort(port);
+```
+

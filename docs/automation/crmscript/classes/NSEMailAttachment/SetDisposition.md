@@ -11,3 +11,9 @@ Content-Disposition
 **Parameter:** 
  - **disposition** String
 
+```crmscript
+NSEMailAttachment thing;
+String disposition;
+thing.SetDisposition(disposition);
+```
+

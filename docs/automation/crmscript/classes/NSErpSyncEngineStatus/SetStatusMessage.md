@@ -11,3 +11,9 @@ Current status message from the engine
 **Parameter:** 
  - **statusMessage** String
 
+```crmscript
+NSErpSyncEngineStatus thing;
+String statusMessage;
+thing.SetStatusMessage(statusMessage);
+```
+

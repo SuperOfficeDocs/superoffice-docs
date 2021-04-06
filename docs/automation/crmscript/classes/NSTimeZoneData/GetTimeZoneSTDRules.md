@@ -11,3 +11,9 @@ Rules for standard time
 **Returns:** TimeZoneRuleDictionary
 
 
+```crmscript
+NSTimeZoneData thing;
+TimeZoneRuleDictionary timeZoneSTDRules  = thing.GetTimeZoneSTDRules();
+```
+
+

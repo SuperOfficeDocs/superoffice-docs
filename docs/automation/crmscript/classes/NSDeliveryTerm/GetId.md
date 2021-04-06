@@ -10,3 +10,8 @@ Get the primary key (id) for the DeliveryTerm
 
 **Returns:** Integer DeliveryTerm id.
 
+```crmscript
+NSDeliveryTerm thing;
+Integer id = thing.GetId();
+```
+

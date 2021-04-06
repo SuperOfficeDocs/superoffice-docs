@@ -11,3 +11,9 @@ User name
 **Parameter:** 
  - **userName** String
 
+```crmscript
+NSAssociate thing;
+String userName;
+thing.SetUserName(userName);
+```
+

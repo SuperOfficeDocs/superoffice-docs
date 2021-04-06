@@ -11,3 +11,9 @@ List options given directly, not via MDO list name
 **Returns:** MDOListItemArray
 
 
+```crmscript
+NSDashboardTileOption thing;
+MDOListItemArray listItems  = thing.GetListItems();
+```
+
+

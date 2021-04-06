@@ -11,3 +11,9 @@ Id of the last element an activity was found on. I.e. AppointmentId, ContactId, 
 **Returns:** Integer
 
 
+```crmscript
+NSContactActivity thing;
+Integer actionId  = thing.GetActionId();
+```
+
+

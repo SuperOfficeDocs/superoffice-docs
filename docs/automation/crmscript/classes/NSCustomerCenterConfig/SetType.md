@@ -13,3 +13,9 @@ What kind of data is in this row
      - Enum: 0 = Style 
      - Enum: 1 = Options 
 
+```crmscript
+NSCustomerCenterConfig thing;
+Integer type;
+thing.SetType(type);
+```
+

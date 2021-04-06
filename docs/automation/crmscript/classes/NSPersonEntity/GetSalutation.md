@@ -11,3 +11,9 @@ Academic title, populated from Salutation list but can be overwritten with anyth
 **Returns:** String
 
 
+```crmscript
+NSPersonEntity thing;
+String salutation  = thing.GetSalutation();
+```
+
+

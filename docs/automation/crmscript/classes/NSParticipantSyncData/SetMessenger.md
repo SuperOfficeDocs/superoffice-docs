@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **messenger** StringArray
 
+```crmscript
+NSParticipantSyncData thing;
+StringArray messenger;
+thing.SetMessenger(messenger);
+```
+

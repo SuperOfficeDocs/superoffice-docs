@@ -11,3 +11,9 @@ Private metadata, owned by the document plugin. This set of metadata is related 
 **Returns:** StringArray
 
 
+```crmscript
+NSVersionInfo thing;
+StringArray extraFields  = thing.GetExtraFields();
+```
+
+

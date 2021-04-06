@@ -11,3 +11,9 @@ The account primary key
 **Returns:** Integer
 
 
+```crmscript
+NSSyncUserAccount thing;
+Integer accountId  = thing.GetAccountId();
+```
+
+

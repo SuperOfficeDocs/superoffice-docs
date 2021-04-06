@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSArea thing;
+Integer numberOfUsers  = thing.GetNumberOfUsers();
+```
+
+

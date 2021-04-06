@@ -11,3 +11,9 @@ Opening hours settings
 **Returns:** ChatOpeningHours
 
 
+```crmscript
+NSChatTopicEntity thing;
+ChatOpeningHours openingHours  = thing.GetOpeningHours();
+```
+
+

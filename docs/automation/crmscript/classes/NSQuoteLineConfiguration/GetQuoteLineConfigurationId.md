@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSQuoteLineConfiguration thing;
+Integer quoteLineConfigurationId  = thing.GetQuoteLineConfigurationId();
+```
+
+

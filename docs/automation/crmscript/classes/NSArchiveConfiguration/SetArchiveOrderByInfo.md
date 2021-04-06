@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **archiveOrderByInfo** ArchiveOrderByInfoArray
 
+```crmscript
+NSArchiveConfiguration thing;
+ArchiveOrderByInfoArray archiveOrderByInfo;
+thing.SetArchiveOrderByInfo(archiveOrderByInfo);
+```
+

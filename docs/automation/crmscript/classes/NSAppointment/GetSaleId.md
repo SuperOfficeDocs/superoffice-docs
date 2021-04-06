@@ -11,3 +11,9 @@ Owning sale, if any (may be 0)
 **Returns:** Integer
 
 
+```crmscript
+NSAppointment thing;
+Integer saleId  = thing.GetSaleId();
+```
+
+

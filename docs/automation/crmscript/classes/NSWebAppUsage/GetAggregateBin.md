@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Integer
 
 
+```crmscript
+NSWebAppUsage thing;
+Integer aggregateBin  = thing.GetAggregateBin();
+```
+
+

@@ -11,3 +11,9 @@ Custom DST end day, if 0 then parse startRule
 **Returns:** Integer
 
 
+```crmscript
+NSTimeZoneRule thing;
+Integer endDay  = thing.GetEndDay();
+```
+
+

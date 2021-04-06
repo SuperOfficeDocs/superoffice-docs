@@ -11,3 +11,8 @@ Set the name of the Business item.
 **Parameter:** 
  - **value** String Business name.
 
+```crmscript
+NSBusiness thing;
+thing.SetValue("frotz");
+```
+

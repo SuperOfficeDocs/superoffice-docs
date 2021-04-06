@@ -11,3 +11,9 @@ The minimum price this line can be sold for (to limit discounting). Will come fr
 **Returns:** Float
 
 
+```crmscript
+NSQuoteLine thing;
+Float unitMinimumPrice  = thing.GetUnitMinimumPrice();
+```
+
+

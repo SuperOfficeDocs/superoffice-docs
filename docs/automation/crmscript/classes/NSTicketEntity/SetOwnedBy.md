@@ -11,3 +11,9 @@ The associate who owns this ticket
 **Parameter:** 
  - **ownedBy** Associate
 
+```crmscript
+NSTicketEntity thing;
+Associate ownedBy;
+thing.SetOwnedBy(ownedBy);
+```
+

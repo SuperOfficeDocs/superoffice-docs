@@ -11,3 +11,9 @@ The associate's name
 **Returns:** String
 
 
+```crmscript
+NSAppointment thing;
+String associateName  = thing.GetAssociateName();
+```
+
+

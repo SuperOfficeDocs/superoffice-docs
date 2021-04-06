@@ -11,3 +11,9 @@ Use agent photo and name when chatting
 **Parameter:** 
  - **showAgentPhoto** Bool
 
+```crmscript
+NSChatWidgetSettings thing;
+Bool showAgentPhoto;
+thing.SetShowAgentPhoto(showAgentPhoto);
+```
+

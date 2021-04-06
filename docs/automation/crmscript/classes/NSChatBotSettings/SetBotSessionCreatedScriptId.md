@@ -11,3 +11,9 @@ Script id to run on new session.
 **Parameter:** 
  - **botSessionCreatedScriptId** Integer
 
+```crmscript
+NSChatBotSettings thing;
+Integer botSessionCreatedScriptId;
+thing.SetBotSessionCreatedScriptId(botSessionCreatedScriptId);
+```
+

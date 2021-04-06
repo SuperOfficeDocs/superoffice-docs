@@ -11,3 +11,9 @@ Allow blank  as a valid value
 **Returns:** Bool
 
 
+```crmscript
+NSRefCountEntity thing;
+Bool allowBlank  = thing.GetAllowBlank();
+```
+
+

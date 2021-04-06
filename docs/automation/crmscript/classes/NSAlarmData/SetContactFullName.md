@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **contactFullName** String
 
+```crmscript
+NSAlarmData thing;
+String contactFullName;
+thing.SetContactFullName(contactFullName);
+```
+

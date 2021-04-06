@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSOutgoingMessage thing;
+String suggestedSessionKey  = thing.GetSuggestedSessionKey();
+```
+
+

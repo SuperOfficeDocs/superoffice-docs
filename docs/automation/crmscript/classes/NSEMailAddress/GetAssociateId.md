@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSEMailAddress thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

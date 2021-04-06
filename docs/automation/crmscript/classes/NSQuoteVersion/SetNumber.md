@@ -11,3 +11,9 @@ A quote number that the user (or ERP connector) can fill out.
 **Parameter:** 
  - **number** String
 
+```crmscript
+NSQuoteVersion thing;
+String number;
+thing.SetNumber(number);
+```
+

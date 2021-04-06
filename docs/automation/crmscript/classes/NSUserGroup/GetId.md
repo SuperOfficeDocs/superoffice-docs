@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSUserGroup thing;
+Integer id  = thing.GetId();
+```
+
+

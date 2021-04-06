@@ -11,3 +11,9 @@ Initials, also login name, possibly database user name
 **Parameter:** 
  - **createdByName** String
 
+```crmscript
+NSTicket thing;
+String createdByName;
+thing.SetCreatedByName(createdByName);
+```
+

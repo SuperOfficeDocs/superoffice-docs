@@ -10,3 +10,9 @@ Get the tooltip description for the TicketCategory list item.
 
 **Returns:** String TicketCategory tooltip description.
 
+```crmscript
+NSTicketCategory thing;
+String descr = thing.GetTooltip();
+```
+
+

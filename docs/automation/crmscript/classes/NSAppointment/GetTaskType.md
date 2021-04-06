@@ -22,3 +22,9 @@ The different task types of the appointment, if the activity is an appointment, 
      - Enum: 9 = Report 
      - Enum: 10 = SaintAll 
 
+```crmscript
+NSAppointment thing;
+Integer taskType  = thing.GetTaskType();
+```
+
+

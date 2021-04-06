@@ -11,3 +11,9 @@ Request Ticket Categories assigned to the user.
 **Returns:** MDOListItemArray
 
 
+```crmscript
+NSUser thing;
+MDOListItemArray ticketCategories  = thing.GetTicketCategories();
+```
+
+

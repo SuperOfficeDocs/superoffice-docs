@@ -11,3 +11,9 @@ Project name
 **Parameter:** 
  - **projectName** String
 
+```crmscript
+NSAlarmData thing;
+String projectName;
+thing.SetProjectName(projectName);
+```
+

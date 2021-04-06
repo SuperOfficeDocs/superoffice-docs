@@ -11,3 +11,9 @@ Preference key name
 **Parameter:** 
  - **key** String
 
+```crmscript
+NSPreferenceDescription thing;
+String key;
+thing.SetKey(key);
+```
+

@@ -11,3 +11,9 @@ String containing error message from handler system if it failed
 **Parameter:** 
  - **exception** String
 
+```crmscript
+NSEventData thing;
+String exception;
+thing.SetException(exception);
+```
+

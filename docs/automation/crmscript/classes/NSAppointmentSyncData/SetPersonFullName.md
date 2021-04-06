@@ -11,3 +11,9 @@ The full name of the person this appointment belongs to.
 **Parameter:** 
  - **personFullName** String
 
+```crmscript
+NSAppointmentSyncData thing;
+String personFullName;
+thing.SetPersonFullName(personFullName);
+```
+

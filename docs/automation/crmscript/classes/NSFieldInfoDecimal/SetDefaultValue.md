@@ -11,3 +11,9 @@ Default decimal (double precision) value
 **Parameter:** 
  - **defaultValue** Float
 
+```crmscript
+NSFieldInfoDecimal thing;
+Float defaultValue;
+thing.SetDefaultValue(defaultValue);
+```
+

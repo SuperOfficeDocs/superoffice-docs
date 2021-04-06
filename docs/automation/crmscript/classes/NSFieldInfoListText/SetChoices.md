@@ -11,3 +11,9 @@ List of items to choose from.
 **Parameter:** 
  - **choices** StringArray
 
+```crmscript
+NSFieldInfoListText thing;
+StringArray choices;
+thing.SetChoices(choices);
+```
+

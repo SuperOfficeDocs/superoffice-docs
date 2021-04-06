@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **roleId** Integer
 
+```crmscript
+NSRoleEntity thing;
+Integer roleId;
+thing.SetRoleId(roleId);
+```
+

@@ -11,3 +11,9 @@ External reference for document plugin to resolve document identity (Notes ID, e
 **Returns:** String
 
 
+```crmscript
+NSDocumentEntity thing;
+String externalRef  = thing.GetExternalRef();
+```
+
+

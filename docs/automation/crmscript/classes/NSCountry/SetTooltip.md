@@ -11,3 +11,9 @@ The tooltip of the country
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSCountry thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

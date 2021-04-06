@@ -11,3 +11,9 @@ The tile caption
 **Returns:** String
 
 
+```crmscript
+NSDashboardTile thing;
+String caption  = thing.GetCaption();
+```
+
+

@@ -11,3 +11,9 @@ Get the full name for the primary person (customer)
 **Returns:** String
 
 
+```crmscript
+NSTicket thing;
+String personFullname  = thing.GetPersonFullname();
+```
+
+

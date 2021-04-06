@@ -11,3 +11,9 @@ Tooltip or other description
 **Returns:** String
 
 
+```crmscript
+NSTaskListItem thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

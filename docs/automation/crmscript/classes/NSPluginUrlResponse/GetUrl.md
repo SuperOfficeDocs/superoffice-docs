@@ -11,3 +11,9 @@ Url that the GUI should navigato to/open, if non-blank. The GUI cannot enforce a
 **Returns:** String
 
 
+```crmscript
+NSPluginUrlResponse thing;
+String url  = thing.GetUrl();
+```
+
+

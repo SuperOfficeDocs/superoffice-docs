@@ -11,3 +11,9 @@ What is the intention of this document (used by SAINT)
 **Parameter:** 
  - **intentId** Integer
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Integer intentId;
+thing.SetIntentId(intentId);
+```
+

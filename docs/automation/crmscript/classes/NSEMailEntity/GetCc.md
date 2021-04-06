@@ -11,3 +11,9 @@ Cc recipients of e-mail
 **Returns:** EMailAddressArray
 
 
+```crmscript
+NSEMailEntity thing;
+EMailAddressArray cc  = thing.GetCc();
+```
+
+

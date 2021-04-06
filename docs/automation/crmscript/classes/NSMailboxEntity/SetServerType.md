@@ -21,3 +21,9 @@ Enum indicating the protocol to use (POP/IMAP).
      - Enum: 8 = Mailgun 
      - Enum: 9 = ImapOAuth 
 
+```crmscript
+NSMailboxEntity thing;
+MailboxType serverType;
+thing.SetServerType(serverType);
+```
+

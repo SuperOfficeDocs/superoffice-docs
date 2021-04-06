@@ -11,3 +11,9 @@ Target field is read only in GUI
 **Returns:** Bool
 
 
+```crmscript
+NSRefCountEntity thing;
+Bool readOnly  = thing.GetReadOnly();
+```
+
+

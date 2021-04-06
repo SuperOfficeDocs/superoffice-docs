@@ -16,3 +16,9 @@ so.topic: reference
      - Enum: 4 = adminGUI 
      - Enum: 8 = CRMGUI 
 
+```crmscript
+NSPreferenceDescription thing;
+Integer accessFlags;
+thing.SetAccessFlags(accessFlags);
+```
+

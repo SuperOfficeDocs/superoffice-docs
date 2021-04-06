@@ -11,3 +11,9 @@ Y of origin, upper edge of widget
 **Parameter:** 
  - **upperY** Integer
 
+```crmscript
+NSWindowPosSize thing;
+Integer upperY;
+thing.SetUpperY(upperY);
+```
+

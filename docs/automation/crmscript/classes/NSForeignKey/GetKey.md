@@ -11,3 +11,9 @@ Subkey (optional)
 **Returns:** String
 
 
+```crmscript
+NSForeignKey thing;
+String key  = thing.GetKey();
+```
+
+

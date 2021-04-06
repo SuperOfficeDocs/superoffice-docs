@@ -18,3 +18,9 @@ Lowest allowed setting level, set by user, but not lower than sysMaxLevel
      - Enum: 5 = Individual 
      - Enum: 6 = PC 
 
+```crmscript
+NSPreferenceDescription thing;
+PreferenceLevel maxLevel;
+thing.SetMaxLevel(maxLevel);
+```
+

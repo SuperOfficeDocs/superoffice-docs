@@ -11,3 +11,9 @@ Processed via tag substitution to give document reference
 **Returns:** String
 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+String defaultOref  = thing.GetDefaultOref();
+```
+
+

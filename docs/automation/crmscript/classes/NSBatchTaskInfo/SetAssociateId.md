@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSBatchTaskInfo thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

@@ -11,3 +11,9 @@ Returns a collection of pagers that belong to the contact person.
 **Parameter:** 
  - **otherPhones** EntityElementArray
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray otherPhones;
+thing.SetOtherPhones(otherPhones);
+```
+

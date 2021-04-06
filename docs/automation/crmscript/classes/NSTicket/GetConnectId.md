@@ -11,3 +11,9 @@ If a ticket is connected to another ticket, this field is set to the id of the &
 **Returns:** Integer
 
 
+```crmscript
+NSTicket thing;
+Integer connectId  = thing.GetConnectId();
+```
+
+

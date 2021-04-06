@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **documentId** Integer
 
+```crmscript
+NSDocument thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
+

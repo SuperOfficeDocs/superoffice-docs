@@ -11,3 +11,9 @@ English name of this language (Norwegian)
 **Returns:** String
 
 
+```crmscript
+NSLanguageInfo thing;
+String englishName  = thing.GetEnglishName();
+```
+
+

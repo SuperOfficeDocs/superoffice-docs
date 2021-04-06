@@ -11,3 +11,9 @@ Name of the LegalBase associated with this consent
 **Returns:** String
 
 
+```crmscript
+NSConsentInfo thing;
+String legalBaseName  = thing.GetLegalBaseName();
+```
+
+

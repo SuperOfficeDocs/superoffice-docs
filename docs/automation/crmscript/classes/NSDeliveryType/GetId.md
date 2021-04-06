@@ -10,3 +10,8 @@ Get the primary key (id) for the DeliveryType
 
 **Returns:** Integer DeliveryType id.
 
+```crmscript
+NSDeliveryType thing;
+Integer id = thing.GetId();
+```
+

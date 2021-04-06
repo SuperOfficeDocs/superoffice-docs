@@ -11,3 +11,9 @@ The name of the event (i.e. the project name)
 **Returns:** String
 
 
+```crmscript
+NSProjectEvent thing;
+String eventName  = thing.GetEventName();
+```
+
+

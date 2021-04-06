@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **area** Area
 
+```crmscript
+NSSatellite thing;
+Area area;
+thing.SetArea(area);
+```
+

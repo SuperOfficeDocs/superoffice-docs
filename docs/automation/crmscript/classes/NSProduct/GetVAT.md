@@ -11,3 +11,9 @@ Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice p
 **Returns:** Float
 
 
+```crmscript
+NSProduct thing;
+Float vAT  = thing.GetVAT();
+```
+
+

@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSCurrencyEntity thing;
+Integer currencyId  = thing.GetCurrencyId();
+```
+
+

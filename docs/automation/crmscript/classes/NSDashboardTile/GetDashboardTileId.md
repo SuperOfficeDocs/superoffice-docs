@@ -11,3 +11,9 @@ The tile id
 **Returns:** Integer
 
 
+```crmscript
+NSDashboardTile thing;
+Integer dashboardTileId  = thing.GetDashboardTileId();
+```
+
+

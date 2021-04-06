@@ -11,3 +11,9 @@ Identifier for a person
 **Returns:** Integer
 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

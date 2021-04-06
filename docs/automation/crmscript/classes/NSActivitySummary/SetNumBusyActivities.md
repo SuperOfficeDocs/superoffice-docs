@@ -11,3 +11,9 @@ Number of activites and tasks in the diary that are of type 'busy'. Sales and do
 **Parameter:** 
  - **numBusyActivities** Integer
 
+```crmscript
+NSActivitySummary thing;
+Integer numBusyActivities;
+thing.SetNumBusyActivities(numBusyActivities);
+```
+

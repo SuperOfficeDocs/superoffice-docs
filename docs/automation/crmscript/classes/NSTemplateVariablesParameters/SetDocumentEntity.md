@@ -11,3 +11,9 @@ Custom document entity to use for data retrieval. Useful for unsaved data.  Docu
 **Parameter:** 
  - **documentEntity** DocumentEntity
 
+```crmscript
+NSTemplateVariablesParameters thing;
+DocumentEntity documentEntity;
+thing.SetDocumentEntity(documentEntity);
+```
+

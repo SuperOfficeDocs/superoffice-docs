@@ -11,3 +11,9 @@ Sale the session is connected to - could be empty if we don't know exactly.
 **Returns:** Sale
 
 
+```crmscript
+NSChatSessionEntity thing;
+Sale sale  = thing.GetSale();
+```
+
+

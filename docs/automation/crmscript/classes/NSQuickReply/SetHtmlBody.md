@@ -11,3 +11,9 @@ The html body of the quick reply
 **Parameter:** 
  - **htmlBody** String
 
+```crmscript
+NSQuickReply thing;
+String htmlBody;
+thing.SetHtmlBody(htmlBody);
+```
+

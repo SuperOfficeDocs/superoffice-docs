@@ -11,3 +11,9 @@ An array of ids with chat topics that this user is a member of
 **Returns:** IntegerArray
 
 
+```crmscript
+NSChatPresence thing;
+IntegerArray chatTopics  = thing.GetChatTopics();
+```
+
+

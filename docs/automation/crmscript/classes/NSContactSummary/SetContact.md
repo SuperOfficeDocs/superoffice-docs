@@ -11,3 +11,9 @@ Simple Contact data.
 **Parameter:** 
  - **contact** Contact
 
+```crmscript
+NSContactSummary thing;
+Contact contact;
+thing.SetContact(contact);
+```
+

@@ -11,3 +11,9 @@ The mime type
 **Returns:** String
 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+String mimeType  = thing.GetMimeType();
+```
+
+

@@ -11,3 +11,8 @@ Set the name of the DeliveryType item.
 **Parameter:** 
  - **value** String DeliveryType name.
 
+```crmscript
+NSDeliveryType thing;
+thing.SetValue("frotz");
+```
+

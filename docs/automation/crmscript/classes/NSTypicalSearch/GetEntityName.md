@@ -11,3 +11,9 @@ The name of the entity the typical search links to
 **Returns:** String
 
 
+```crmscript
+NSTypicalSearch thing;
+String entityName  = thing.GetEntityName();
+```
+
+

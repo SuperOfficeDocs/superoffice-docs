@@ -11,3 +11,9 @@ Does the webpanel have an address bar
 **Returns:** Bool
 
 
+```crmscript
+NSExtAppEntity thing;
+Bool showInAddressBar  = thing.GetShowInAddressBar();
+```
+
+

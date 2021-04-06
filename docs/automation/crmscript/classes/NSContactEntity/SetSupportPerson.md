@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **supportPerson** Person
 
+```crmscript
+NSContactEntity thing;
+Person supportPerson;
+thing.SetSupportPerson(supportPerson);
+```
+

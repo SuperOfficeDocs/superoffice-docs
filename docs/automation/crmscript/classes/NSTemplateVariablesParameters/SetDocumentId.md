@@ -11,3 +11,9 @@ Identifier for a document
 **Parameter:** 
  - **documentId** Integer
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer documentId;
+thing.SetDocumentId(documentId);
+```
+

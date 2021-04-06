@@ -10,3 +10,8 @@ Get the name of the Priority.
 
 **Returns:** String Priority name.
 
+```crmscript
+NSPriority thing;
+String name = thing.GetValue();
+```
+

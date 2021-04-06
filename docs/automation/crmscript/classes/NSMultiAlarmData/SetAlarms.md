@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **alarms** AlarmDataArray
 
+```crmscript
+NSMultiAlarmData thing;
+AlarmDataArray alarms;
+thing.SetAlarms(alarms);
+```
+

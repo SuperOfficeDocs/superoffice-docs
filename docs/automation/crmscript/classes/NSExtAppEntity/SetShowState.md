@@ -18,3 +18,9 @@ The application is shown in which state Minimized, Maximized or Restored
      - Enum: 1024 = StatusBar 
      - Enum: 2048 = MenuBar 
 
+```crmscript
+NSExtAppEntity thing;
+Integer showState;
+thing.SetShowState(showState);
+```
+

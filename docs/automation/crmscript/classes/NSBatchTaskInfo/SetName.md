@@ -11,3 +11,9 @@ Name of the task.
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSBatchTaskInfo thing;
+String name;
+thing.SetName(name);
+```
+

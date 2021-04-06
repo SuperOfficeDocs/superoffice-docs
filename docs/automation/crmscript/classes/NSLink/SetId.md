@@ -11,3 +11,9 @@ Id of the entity the link points to (The destination/target entity primary key)
 **Parameter:** 
  - **id** Integer
 
+```crmscript
+NSLink thing;
+Integer id;
+thing.SetId(id);
+```
+

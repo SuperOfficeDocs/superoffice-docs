@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **custConfigId** Integer
 
+```crmscript
+NSCustomerCenterConfig thing;
+Integer custConfigId;
+thing.SetCustConfigId(custConfigId);
+```
+

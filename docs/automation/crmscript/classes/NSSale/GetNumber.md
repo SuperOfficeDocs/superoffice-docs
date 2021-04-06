@@ -11,3 +11,9 @@ Alphanumeric user field
 **Returns:** String
 
 
+```crmscript
+NSSale thing;
+String number  = thing.GetNumber();
+```
+
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **shipmentId** Integer
 
+```crmscript
+NSPreviewMailing thing;
+Integer shipmentId;
+thing.SetShipmentId(shipmentId);
+```
+

@@ -11,3 +11,9 @@ Description of this pricelist , will be used as tool-tip in the user interface.
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSPriceList thing;
+String description;
+thing.SetDescription(description);
+```
+

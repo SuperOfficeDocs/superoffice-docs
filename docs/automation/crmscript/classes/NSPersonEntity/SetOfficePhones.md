@@ -11,3 +11,9 @@ Returns a collection of office phone numbers that belong to the contact person.
 **Parameter:** 
  - **officePhones** EntityElementArray
 
+```crmscript
+NSPersonEntity thing;
+EntityElementArray officePhones;
+thing.SetOfficePhones(officePhones);
+```
+

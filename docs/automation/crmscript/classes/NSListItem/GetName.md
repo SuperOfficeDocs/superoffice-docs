@@ -11,3 +11,9 @@ Display text name
 **Returns:** String
 
 
+```crmscript
+NSListItem thing;
+String name  = thing.GetName();
+```
+
+

@@ -11,3 +11,9 @@ Field1=right&Field2=right, etc. of any fields that have non-standard field acces
 **Returns:** String
 
 
+```crmscript
+NSQuoteLine thing;
+String rights  = thing.GetRights();
+```
+
+

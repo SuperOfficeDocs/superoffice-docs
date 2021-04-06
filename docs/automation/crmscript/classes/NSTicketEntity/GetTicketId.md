@@ -11,3 +11,9 @@ The primary key (auto-incremented)
 **Returns:** Integer
 
 
+```crmscript
+NSTicketEntity thing;
+Integer ticketId  = thing.GetTicketId();
+```
+
+

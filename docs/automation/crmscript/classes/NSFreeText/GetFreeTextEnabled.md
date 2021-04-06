@@ -11,3 +11,9 @@ True if freetext search enabled
 **Returns:** Bool
 
 
+```crmscript
+NSFreeText thing;
+Bool freeTextEnabled  = thing.GetFreeTextEnabled();
+```
+
+

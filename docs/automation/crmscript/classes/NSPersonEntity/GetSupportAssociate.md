@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Associate
 
 
+```crmscript
+NSPersonEntity thing;
+Associate supportAssociate  = thing.GetSupportAssociate();
+```
+
+

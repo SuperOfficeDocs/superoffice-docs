@@ -11,3 +11,9 @@ The id of the user preference
 **Parameter:** 
  - **userPreferenceId** Integer
 
+```crmscript
+NSPreference thing;
+Integer userPreferenceId;
+thing.SetUserPreferenceId(userPreferenceId);
+```
+

@@ -11,3 +11,9 @@ Whether the context should stop what it is doing, e.g. saving a sale
 **Returns:** Bool
 
 
+```crmscript
+NSEventData thing;
+Bool blockExecution  = thing.GetBlockExecution();
+```
+
+

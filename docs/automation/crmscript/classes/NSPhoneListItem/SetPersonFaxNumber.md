@@ -11,3 +11,9 @@ Actual phone number as eneterd by the user
 **Parameter:** 
  - **personFaxNumber** String
 
+```crmscript
+NSPhoneListItem thing;
+String personFaxNumber;
+thing.SetPersonFaxNumber(personFaxNumber);
+```
+

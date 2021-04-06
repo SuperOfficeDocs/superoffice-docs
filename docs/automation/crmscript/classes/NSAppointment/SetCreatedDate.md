@@ -11,3 +11,9 @@ Appointment creation date
 **Parameter:** 
  - **createdDate** DateTime
 
+```crmscript
+NSAppointment thing;
+DateTime createdDate;
+thing.SetCreatedDate(createdDate);
+```
+

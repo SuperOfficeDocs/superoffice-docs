@@ -11,3 +11,9 @@ Is the list active (as opposed to being worked on, suddenly canceled, etc.
 **Returns:** Bool
 
 
+```crmscript
+NSPriceList thing;
+Bool isActive  = thing.GetIsActive();
+```
+
+

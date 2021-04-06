@@ -11,3 +11,9 @@ The (short) name of this category. E.g. &apos;support&apos;.
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSTicketCategoryEntity thing;
+String name;
+thing.SetName(name);
+```
+

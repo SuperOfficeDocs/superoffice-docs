@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** DateTime
 
 
+```crmscript
+NSAlarmData thing;
+DateTime alarmTime  = thing.GetAlarmTime();
+```
+
+

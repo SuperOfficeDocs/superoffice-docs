@@ -11,3 +11,9 @@ The id of the person
 **Returns:** Integer
 
 
+```crmscript
+NSContactOrPersonFromEmail thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

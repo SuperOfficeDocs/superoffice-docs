@@ -11,3 +11,9 @@ Is this a read only field?
 **Returns:** Bool
 
 
+```crmscript
+NSQuoteLineConfiguration thing;
+Bool editable  = thing.GetEditable();
+```
+
+

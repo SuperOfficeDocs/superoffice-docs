@@ -11,3 +11,9 @@ The person's available consent information. Missing consents are not deleted. To
 **Returns:** ConsentInfoArray
 
 
+```crmscript
+NSPersonEntity thing;
+ConsentInfoArray consents  = thing.GetConsents();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** Bool
 
 
+```crmscript
+NSExtendedLicenseInfo thing;
+Bool canBeActivated  = thing.GetCanBeActivated();
+```
+
+

@@ -11,3 +11,9 @@ Reference/foreign key to the product in the given pricelist in the product suppl
 **Returns:** String
 
 
+```crmscript
+NSProduct thing;
+String eRPProductKey  = thing.GetERPProductKey();
+```
+
+

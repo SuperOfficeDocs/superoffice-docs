@@ -10,3 +10,8 @@ Get the primary key (id) for the Position
 
 **Returns:** Integer Position id.
 
+```crmscript
+NSPosition thing;
+Integer id = thing.GetId();
+```
+

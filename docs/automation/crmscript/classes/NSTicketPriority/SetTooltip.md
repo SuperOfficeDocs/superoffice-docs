@@ -11,3 +11,9 @@ Set the tooltip description for the TicketPriority list item.
 **Parameter:** 
  - **tooltip** String TicketPriority tooltip description.
 
+```crmscript
+NSTicketPriority thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

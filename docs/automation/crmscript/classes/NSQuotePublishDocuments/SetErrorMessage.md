@@ -11,3 +11,9 @@ If something went wrong, show this message and do not continue
 **Parameter:** 
  - **errorMessage** String
 
+```crmscript
+NSQuotePublishDocuments thing;
+String errorMessage;
+thing.SetErrorMessage(errorMessage);
+```
+

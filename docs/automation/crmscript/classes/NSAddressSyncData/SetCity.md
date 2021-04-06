@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **city** String
 
+```crmscript
+NSAddressSyncData thing;
+String city;
+thing.SetCity(city);
+```
+

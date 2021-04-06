@@ -10,3 +10,8 @@ Get the primary key (id) for the Credited
 
 **Returns:** Integer Credited id.
 
+```crmscript
+NSCredited thing;
+Integer id = thing.GetId();
+```
+

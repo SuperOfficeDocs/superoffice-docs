@@ -11,3 +11,9 @@ The content_id of this attachment, used for inline images
 **Returns:** String
 
 
+```crmscript
+NSAttachmentEntity thing;
+String contentId  = thing.GetContentId();
+```
+
+

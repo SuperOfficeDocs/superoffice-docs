@@ -11,3 +11,9 @@ True if this attachment is inlined in the html_body.
 **Returns:** Bool
 
 
+```crmscript
+NSAttachmentEntity thing;
+Bool inlineImage  = thing.GetInlineImage();
+```
+
+

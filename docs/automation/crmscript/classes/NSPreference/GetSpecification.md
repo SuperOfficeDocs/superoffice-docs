@@ -11,3 +11,9 @@ Preference specification, consisting of the section name and key name
 **Returns:** PreferenceSpec
 
 
+```crmscript
+NSPreference thing;
+PreferenceSpec specification  = thing.GetSpecification();
+```
+
+

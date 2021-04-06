@@ -16,3 +16,9 @@ The crm actor type which these fields belongs to
      - Enum: 3 = Project 
      - Enum: 4 = Sale 
 
+```crmscript
+NSErpConnectionData thing;
+Integer crmActorType;
+thing.SetCrmActorType(crmActorType);
+```
+

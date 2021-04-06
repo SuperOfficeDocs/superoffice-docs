@@ -11,3 +11,9 @@ Display text for link.
 **Parameter:** 
  - **linkName** String
 
+```crmscript
+NSFieldInfoDynamicLink thing;
+String linkName;
+thing.SetLinkName(linkName);
+```
+

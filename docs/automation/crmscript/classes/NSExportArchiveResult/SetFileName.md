@@ -11,3 +11,9 @@ The path to the output file created, if it exists. Will be an empty string if no
 **Parameter:** 
  - **fileName** String
 
+```crmscript
+NSExportArchiveResult thing;
+String fileName;
+thing.SetFileName(fileName);
+```
+

@@ -11,3 +11,9 @@ The associate that is the user agent.
 **Returns:** Associate
 
 
+```crmscript
+NSChatTopicAgent thing;
+Associate user  = thing.GetUser();
+```
+
+

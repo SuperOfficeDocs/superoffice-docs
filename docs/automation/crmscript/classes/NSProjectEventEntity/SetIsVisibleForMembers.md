@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isVisibleForMembers** Bool
 
+```crmscript
+NSProjectEventEntity thing;
+Bool isVisibleForMembers;
+thing.SetIsVisibleForMembers(isVisibleForMembers);
+```
+

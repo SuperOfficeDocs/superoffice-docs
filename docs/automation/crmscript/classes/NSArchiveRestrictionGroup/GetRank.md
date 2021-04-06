@@ -11,3 +11,9 @@ Rank order within this CriteriaModel
 **Returns:** Integer
 
 
+```crmscript
+NSArchiveRestrictionGroup thing;
+Integer rank  = thing.GetRank();
+```
+
+

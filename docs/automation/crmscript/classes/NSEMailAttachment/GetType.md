@@ -11,3 +11,9 @@ Attachment Content-Type
 **Returns:** String
 
 
+```crmscript
+NSEMailAttachment thing;
+String type  = thing.GetType();
+```
+
+

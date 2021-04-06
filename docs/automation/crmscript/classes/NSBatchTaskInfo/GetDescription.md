@@ -11,3 +11,9 @@ Description of the task.
 **Returns:** String
 
 
+```crmscript
+NSBatchTaskInfo thing;
+String description  = thing.GetDescription();
+```
+
+

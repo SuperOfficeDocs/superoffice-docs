@@ -11,3 +11,9 @@ Real expiration date, when the given module actually stops working. Modules that
 **Parameter:** 
  - **graceDate** DateTime
 
+```crmscript
+NSLicenseInfo thing;
+DateTime graceDate;
+thing.SetGraceDate(graceDate);
+```
+

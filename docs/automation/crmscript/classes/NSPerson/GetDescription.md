@@ -11,3 +11,9 @@ Info text/description on person.
 **Returns:** String
 
 
+```crmscript
+NSPerson thing;
+String description  = thing.GetDescription();
+```
+
+

@@ -11,3 +11,9 @@ Who updated the sale
 **Returns:** Associate
 
 
+```crmscript
+NSSaleEntity thing;
+Associate updatedBy  = thing.GetUpdatedBy();
+```
+
+

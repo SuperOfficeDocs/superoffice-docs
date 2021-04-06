@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSAlarmData thing;
+String contactFullName  = thing.GetContactFullName();
+```
+
+

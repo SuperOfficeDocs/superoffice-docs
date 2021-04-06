@@ -11,3 +11,9 @@ Name to identify this webhook. Does not have to be unique.
 **Returns:** String
 
 
+```crmscript
+NSWebhook thing;
+String name  = thing.GetName();
+```
+
+

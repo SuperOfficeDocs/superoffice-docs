@@ -11,3 +11,9 @@ Key used to authenticate the session.
 **Returns:** String
 
 
+```crmscript
+NSChatSessionEntity thing;
+String sessionKey  = thing.GetSessionKey();
+```
+
+

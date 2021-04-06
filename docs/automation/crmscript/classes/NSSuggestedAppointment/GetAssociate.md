@@ -11,3 +11,9 @@ The owner of the suggested activity. Always the same as the sales owner.
 **Returns:** Associate
 
 
+```crmscript
+NSSuggestedAppointment thing;
+Associate associate  = thing.GetAssociate();
+```
+
+

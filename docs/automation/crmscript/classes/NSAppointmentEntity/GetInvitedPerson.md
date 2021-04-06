@@ -11,3 +11,9 @@ If the appointment is a booking, the invited persons may be your associates, but
 **Returns:** Person
 
 
+```crmscript
+NSAppointmentEntity thing;
+Person invitedPerson  = thing.GetInvitedPerson();
+```
+
+

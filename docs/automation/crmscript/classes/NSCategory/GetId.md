@@ -10,3 +10,8 @@ Get the primary key (id) for the Category
 
 **Returns:** Integer Category id.
 
+```crmscript
+NSCategory thing;
+Integer id = thing.GetId();
+```
+

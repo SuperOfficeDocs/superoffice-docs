@@ -10,3 +10,8 @@ Get the primary key (id) for the Role
 
 **Returns:** Integer Role id.
 
+```crmscript
+NSRole thing;
+Integer id = thing.GetId();
+```
+

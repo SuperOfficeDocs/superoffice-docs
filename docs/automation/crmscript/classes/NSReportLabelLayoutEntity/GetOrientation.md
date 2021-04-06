@@ -14,3 +14,9 @@ Paper orientation: 1=portrait, 2=landscape
      - Enum: 1 = Portrait 
      - Enum: 2 = Landscape 
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer orientation  = thing.GetOrientation();
+```
+
+

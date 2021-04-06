@@ -11,3 +11,9 @@ Number of recipients that resulted in a bounce.
 **Returns:** Integer
 
 
+```crmscript
+NSPreviewMailingHeader thing;
+Integer numBounced  = thing.GetNumBounced();
+```
+
+

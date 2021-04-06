@@ -11,3 +11,9 @@ The name of the report
 **Returns:** String
 
 
+```crmscript
+NSReportEntity thing;
+String name  = thing.GetName();
+```
+
+

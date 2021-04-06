@@ -11,3 +11,9 @@ True if the email signature should be added in bottom of mail if this an email t
 **Parameter:** 
  - **includeSignature** Bool
 
+```crmscript
+NSDocumentTemplateEntity thing;
+Bool includeSignature;
+thing.SetIncludeSignature(includeSignature);
+```
+

@@ -16,3 +16,9 @@ An integer indicating the delegation method for this category.
      - Enum: 3 = Unfair 
      - Enum: 4 = Not 
 
+```crmscript
+NSTicketCategoryEntity thing;
+TicketCategoryDelegateMethod delegateMethod  = thing.GetDelegateMethod();
+```
+
+

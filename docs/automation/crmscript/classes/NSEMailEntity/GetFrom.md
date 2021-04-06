@@ -11,3 +11,9 @@ Who did the e-mail originate from
 **Returns:** EMailAddress
 
 
+```crmscript
+NSEMailEntity thing;
+EMailAddress from  = thing.GetFrom();
+```
+
+

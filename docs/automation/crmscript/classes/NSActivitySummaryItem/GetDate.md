@@ -11,3 +11,9 @@ Start/Document date
 **Returns:** DateTime
 
 
+```crmscript
+NSActivitySummaryItem thing;
+DateTime date  = thing.GetDate();
+```
+
+

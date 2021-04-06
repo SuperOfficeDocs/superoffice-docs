@@ -17,3 +17,9 @@ The role this document plays in the Quote system, if any
      - Enum: 4 = ConfirmationMailBody 
      - Enum: 5 = ConfirmationLines 
 
+```crmscript
+NSDocumentTemplateEntity thing;
+DocTmplQuoteType quoteDocType;
+thing.SetQuoteDocType(quoteDocType);
+```
+

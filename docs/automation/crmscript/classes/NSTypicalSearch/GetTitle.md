@@ -11,3 +11,9 @@ The title of the typical search (multilingual)
 **Returns:** String
 
 
+```crmscript
+NSTypicalSearch thing;
+String title  = thing.GetTitle();
+```
+
+

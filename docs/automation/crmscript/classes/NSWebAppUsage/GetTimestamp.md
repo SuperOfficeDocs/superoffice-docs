@@ -11,3 +11,9 @@ Which day the usage was logged
 **Returns:** DateTime
 
 
+```crmscript
+NSWebAppUsage thing;
+DateTime timestamp  = thing.GetTimestamp();
+```
+
+

@@ -11,3 +11,9 @@ Boolean indicating if this ticket has one or more attachments.
 **Parameter:** 
  - **hasAttachment** Bool
 
+```crmscript
+NSTicketEntity thing;
+Bool hasAttachment;
+thing.SetHasAttachment(hasAttachment);
+```
+

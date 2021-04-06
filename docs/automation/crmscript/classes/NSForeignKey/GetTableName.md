@@ -11,3 +11,9 @@ Table name, transformed to and from numeric table id by the service layer
 **Returns:** String
 
 
+```crmscript
+NSForeignKey thing;
+String tableName  = thing.GetTableName();
+```
+
+

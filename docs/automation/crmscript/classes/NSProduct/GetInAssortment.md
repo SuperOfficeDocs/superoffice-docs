@@ -11,3 +11,9 @@ True for products that should currently be offered, false when the product is di
 **Returns:** Bool
 
 
+```crmscript
+NSProduct thing;
+Bool inAssortment  = thing.GetInAssortment();
+```
+
+

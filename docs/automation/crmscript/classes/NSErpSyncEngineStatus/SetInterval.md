@@ -11,3 +11,9 @@ The interval for each iteration of the sync engine
 **Parameter:** 
  - **interval** TimeSpan
 
+```crmscript
+NSErpSyncEngineStatus thing;
+TimeSpan interval;
+thing.SetInterval(interval);
+```
+

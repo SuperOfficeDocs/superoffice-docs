@@ -11,3 +11,9 @@ true if the country is deleted
 **Parameter:** 
  - **deleted** Bool
 
+```crmscript
+NSCountry thing;
+Bool deleted;
+thing.SetDeleted(deleted);
+```
+

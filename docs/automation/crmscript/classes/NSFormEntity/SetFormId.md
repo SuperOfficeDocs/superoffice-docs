@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **formId** Integer
 
+```crmscript
+NSFormEntity thing;
+Integer formId;
+thing.SetFormId(formId);
+```
+

@@ -11,3 +11,9 @@ The id of the list which this list item belongs to
 **Parameter:** 
  - **udListDefinitionId** Integer
 
+```crmscript
+NSListItemEntity thing;
+Integer udListDefinitionId;
+thing.SetUdListDefinitionId(udListDefinitionId);
+```
+

@@ -11,3 +11,9 @@ The table ID of the source table for lists: kTableAssoc, kTableContInt or whatev
 **Parameter:** 
  - **listTableId** Integer
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer listTableId;
+thing.SetListTableId(listTableId);
+```
+

@@ -11,3 +11,9 @@ The contact associated with the appointment. It may also be null if no contact i
 **Returns:** Contact
 
 
+```crmscript
+NSAppointmentEntity thing;
+Contact contact  = thing.GetContact();
+```
+
+

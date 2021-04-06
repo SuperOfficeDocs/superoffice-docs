@@ -17,3 +17,9 @@ What type of quote document is this.
      - Enum: 4 = ConfirmationMailBody 
      - Enum: 5 = ConfirmationLines 
 
+```crmscript
+NSDocumentTemplate thing;
+DocTmplQuoteType quoteDocType;
+thing.SetQuoteDocType(quoteDocType);
+```
+

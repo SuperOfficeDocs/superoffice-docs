@@ -11,3 +11,9 @@ The type of this list, often indicated by the database name, but not necessarily
 **Returns:** String
 
 
+```crmscript
+NSListEntity thing;
+String listType  = thing.GetListType();
+```
+
+

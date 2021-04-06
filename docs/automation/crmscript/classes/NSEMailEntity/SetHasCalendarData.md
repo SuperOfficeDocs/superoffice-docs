@@ -11,3 +11,9 @@ If this email contains exactly one iCal appointment
 **Parameter:** 
  - **hasCalendarData** Bool
 
+```crmscript
+NSEMailEntity thing;
+Bool hasCalendarData;
+thing.SetHasCalendarData(hasCalendarData);
+```
+

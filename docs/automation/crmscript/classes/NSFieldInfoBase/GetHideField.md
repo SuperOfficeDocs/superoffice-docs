@@ -11,3 +11,9 @@ Hide the field from the UI. Only allow API access.
 **Returns:** Bool
 
 
+```crmscript
+NSFieldInfoBase thing;
+Bool hideField  = thing.GetHideField();
+```
+
+

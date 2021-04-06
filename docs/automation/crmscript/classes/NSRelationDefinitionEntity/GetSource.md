@@ -15,3 +15,9 @@ The source of the relation
      - Enum: 2 = Person 
      - Enum: 3 = Both 
 
+```crmscript
+NSRelationDefinitionEntity thing;
+Integer source  = thing.GetSource();
+```
+
+

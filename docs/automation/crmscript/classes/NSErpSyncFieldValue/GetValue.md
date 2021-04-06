@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSErpSyncFieldValue thing;
+String value  = thing.GetValue();
+```
+
+

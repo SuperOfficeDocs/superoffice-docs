@@ -11,3 +11,9 @@ Enable transcript of chat session
 **Returns:** Bool
 
 
+```crmscript
+NSChatWidgetSettings thing;
+Bool postTranscriptEnabled  = thing.GetPostTranscriptEnabled();
+```
+
+

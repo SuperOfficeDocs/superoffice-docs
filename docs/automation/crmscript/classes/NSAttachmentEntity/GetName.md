@@ -11,3 +11,9 @@ The filename for the attachment.
 **Returns:** String
 
 
+```crmscript
+NSAttachmentEntity thing;
+String name  = thing.GetName();
+```
+
+

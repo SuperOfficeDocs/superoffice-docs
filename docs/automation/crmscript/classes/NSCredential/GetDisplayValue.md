@@ -11,3 +11,9 @@ The value displayed to the user. this will typically be the users login name in 
 **Returns:** String
 
 
+```crmscript
+NSCredential thing;
+String displayValue  = thing.GetDisplayValue();
+```
+
+

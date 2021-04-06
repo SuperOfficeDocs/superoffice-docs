@@ -10,3 +10,8 @@ Get the name of the SaleType.
 
 **Returns:** String SaleType name.
 
+```crmscript
+NSSaleType thing;
+String name = thing.GetValue();
+```
+

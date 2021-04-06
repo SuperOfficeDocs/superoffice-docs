@@ -11,3 +11,9 @@ The full name of this category, i.e. Foo/bar/test.
 **Returns:** String
 
 
+```crmscript
+NSKbCategory thing;
+String fullname  = thing.GetFullname();
+```
+
+

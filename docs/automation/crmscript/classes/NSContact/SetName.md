@@ -11,3 +11,9 @@ Contact name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSContact thing;
+String name;
+thing.SetName(name);
+```
+

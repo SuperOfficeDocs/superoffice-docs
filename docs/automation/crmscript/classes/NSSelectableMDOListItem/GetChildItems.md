@@ -11,3 +11,9 @@ The child items of the SelectableMDOListItem
 **Returns:** SelectableMDOListItemArray
 
 
+```crmscript
+NSSelectableMDOListItem thing;
+SelectableMDOListItemArray childItems  = thing.GetChildItems();
+```
+
+

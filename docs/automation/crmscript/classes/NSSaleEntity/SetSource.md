@@ -11,3 +11,9 @@ The sale source
 **Parameter:** 
  - **source** Source
 
+```crmscript
+NSSaleEntity thing;
+Source source;
+thing.SetSource(source);
+```
+

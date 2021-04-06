@@ -11,3 +11,9 @@ Id of the destination person. The value is not mandatory. The person must belong
 **Returns:** Integer
 
 
+```crmscript
+NSContactRelationEntity thing;
+Integer destinationPersonId  = thing.GetDestinationPersonId();
+```
+
+

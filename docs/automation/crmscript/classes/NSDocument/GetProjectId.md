@@ -11,3 +11,9 @@ ID of project referred to, may be 0
 **Returns:** Integer
 
 
+```crmscript
+NSDocument thing;
+Integer projectId  = thing.GetProjectId();
+```
+
+

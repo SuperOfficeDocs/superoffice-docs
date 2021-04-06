@@ -11,3 +11,9 @@ Name of culture to be used for culture-sensitive data, such as dates or multi-la
 **Parameter:** 
  - **cultureName** String
 
+```crmscript
+NSTemplateVariablesParameters thing;
+String cultureName;
+thing.SetCultureName(cultureName);
+```
+

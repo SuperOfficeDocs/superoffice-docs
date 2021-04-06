@@ -11,3 +11,9 @@ The server port
 **Returns:** Integer
 
 
+```crmscript
+NSServiceAuth thing;
+Integer port  = thing.GetPort();
+```
+
+

@@ -11,3 +11,9 @@ The ID of the main Quote Document
 **Returns:** Integer
 
 
+```crmscript
+NSQuote thing;
+Integer documentId  = thing.GetDocumentId();
+```
+
+

@@ -11,3 +11,9 @@ Identifier for a selection
 **Parameter:** 
  - **selectionId** Integer
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer selectionId;
+thing.SetSelectionId(selectionId);
+```
+

@@ -11,3 +11,9 @@ The name of this chat topic
 **Returns:** String
 
 
+```crmscript
+NSChatTopicEntity thing;
+String name  = thing.GetName();
+```
+
+

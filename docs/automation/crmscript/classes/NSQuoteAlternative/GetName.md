@@ -11,3 +11,9 @@ Name of Alternative. Shown in tab in user interface, intentionally kept short
 **Returns:** String
 
 
+```crmscript
+NSQuoteAlternative thing;
+String name  = thing.GetName();
+```
+
+

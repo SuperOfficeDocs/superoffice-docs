@@ -11,3 +11,9 @@ Exchange rate
 **Parameter:** 
  - **rate** Float
 
+```crmscript
+NSCurrencyEntity thing;
+Float rate;
+thing.SetRate(rate);
+```
+

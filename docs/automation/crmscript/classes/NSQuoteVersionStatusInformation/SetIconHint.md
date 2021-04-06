@@ -11,3 +11,9 @@ Icon hint for the associated message.
 **Parameter:** 
  - **iconHint** String
 
+```crmscript
+NSQuoteVersionStatusInformation thing;
+String iconHint;
+thing.SetIconHint(iconHint);
+```
+

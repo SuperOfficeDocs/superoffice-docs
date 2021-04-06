@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **listProviderExtraInfo** String
 
+```crmscript
+NSControlInfo thing;
+String listProviderExtraInfo;
+thing.SetListProviderExtraInfo(listProviderExtraInfo);
+```
+

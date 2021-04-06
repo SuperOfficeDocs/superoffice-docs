@@ -11,3 +11,9 @@ The connector that this connection should call
 **Parameter:** 
  - **erpConnectorId** Integer
 
+```crmscript
+NSErpConnection thing;
+Integer erpConnectorId;
+thing.SetErpConnectorId(erpConnectorId);
+```
+

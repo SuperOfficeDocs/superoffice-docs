@@ -11,3 +11,9 @@ Filename
 **Returns:** String
 
 
+```crmscript
+NSEMailAttachment thing;
+String filename  = thing.GetFilename();
+```
+
+

@@ -11,3 +11,9 @@ The number of active erp links
 **Returns:** Integer
 
 
+```crmscript
+NSProjectEntity thing;
+Integer activeErpLinks  = thing.GetActiveErpLinks();
+```
+
+

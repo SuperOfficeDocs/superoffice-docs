@@ -11,3 +11,8 @@ Set the primary key (id) for the ReasonStalled
 **Parameter:** 
  - **id** Integer ReasonStalled id.
 
+```crmscript
+NSReasonStalled thing;
+thing.SetId(123);
+```
+

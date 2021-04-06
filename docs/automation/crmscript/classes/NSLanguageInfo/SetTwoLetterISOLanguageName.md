@@ -11,3 +11,9 @@ ISO 2-letter abbreviation
 **Parameter:** 
  - **twoLetterISOLanguageName** String
 
+```crmscript
+NSLanguageInfo thing;
+String twoLetterISOLanguageName;
+thing.SetTwoLetterISOLanguageName(twoLetterISOLanguageName);
+```
+

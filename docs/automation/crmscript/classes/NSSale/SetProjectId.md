@@ -11,3 +11,9 @@ Optional project reference
 **Parameter:** 
  - **projectId** Integer
 
+```crmscript
+NSSale thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
+

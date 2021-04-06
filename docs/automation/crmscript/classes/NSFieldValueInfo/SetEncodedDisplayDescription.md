@@ -11,3 +11,9 @@ The description of the field
 **Parameter:** 
  - **encodedDisplayDescription** String
 
+```crmscript
+NSFieldValueInfo thing;
+String encodedDisplayDescription;
+thing.SetEncodedDisplayDescription(encodedDisplayDescription);
+```
+

@@ -11,3 +11,9 @@ The user associated with this category.
 **Parameter:** 
  - **categoryMaster** Integer
 
+```crmscript
+NSTicketCategoryEntity thing;
+Integer categoryMaster;
+thing.SetCategoryMaster(categoryMaster);
+```
+

@@ -11,3 +11,9 @@ The name of the project this appointment belong to. Blank if no project is conne
 **Returns:** String
 
 
+```crmscript
+NSAppointment thing;
+String projectName  = thing.GetProjectName();
+```
+
+

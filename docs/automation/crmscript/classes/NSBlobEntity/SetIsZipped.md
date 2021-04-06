@@ -11,3 +11,9 @@ Has the data been zipped.
 **Parameter:** 
  - **isZipped** Bool
 
+```crmscript
+NSBlobEntity thing;
+Bool isZipped;
+thing.SetIsZipped(isZipped);
+```
+

@@ -11,3 +11,9 @@ True if the test went ok. False if it failed. See the error message for details
 **Parameter:** 
  - **success** Bool
 
+```crmscript
+NSSmtpTestResult thing;
+Bool success;
+thing.SetSuccess(success);
+```
+

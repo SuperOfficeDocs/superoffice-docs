@@ -11,3 +11,9 @@ Free field, can be used by the module owner (example: host domain, for eJournal)
 **Returns:** String
 
 
+```crmscript
+NSModuleLicense thing;
+String extraInfo  = thing.GetExtraInfo();
+```
+
+

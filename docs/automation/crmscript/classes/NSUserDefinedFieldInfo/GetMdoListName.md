@@ -11,3 +11,9 @@ MDO list name used to populate this list. Derived from UDListDefinitionId and Li
 **Returns:** String
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+String mdoListName  = thing.GetMdoListName();
+```
+
+

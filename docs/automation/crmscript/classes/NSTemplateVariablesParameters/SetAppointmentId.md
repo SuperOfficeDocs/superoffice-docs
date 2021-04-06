@@ -11,3 +11,9 @@ Identifier for an appointment
 **Parameter:** 
  - **appointmentId** Integer
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer appointmentId;
+thing.SetAppointmentId(appointmentId);
+```
+

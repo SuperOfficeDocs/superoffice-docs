@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **freetextEnabeled** Bool
 
+```crmscript
+NSArea thing;
+Bool freetextEnabeled;
+thing.SetFreetextEnabeled(freetextEnabeled);
+```
+

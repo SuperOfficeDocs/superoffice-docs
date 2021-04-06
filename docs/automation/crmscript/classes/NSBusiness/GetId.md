@@ -10,3 +10,8 @@ Get the primary key (id) for the Business
 
 **Returns:** Integer Business id.
 
+```crmscript
+NSBusiness thing;
+Integer id = thing.GetId();
+```
+

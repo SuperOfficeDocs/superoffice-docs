@@ -10,3 +10,8 @@ Get the name of the DeliveryTerm.
 
 **Returns:** String DeliveryTerm name.
 
+```crmscript
+NSDeliveryTerm thing;
+String name = thing.GetValue();
+```
+

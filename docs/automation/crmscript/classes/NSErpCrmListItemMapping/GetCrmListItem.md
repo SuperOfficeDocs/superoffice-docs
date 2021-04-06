@@ -11,3 +11,9 @@ One mapped SuperOffice listItem
 **Returns:** MDOListItem
 
 
+```crmscript
+NSErpCrmListItemMapping thing;
+MDOListItem crmListItem  = thing.GetCrmListItem();
+```
+
+

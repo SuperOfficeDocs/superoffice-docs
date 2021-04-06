@@ -11,3 +11,9 @@ Created by user
 **Parameter:** 
  - **createdBy** Associate
 
+```crmscript
+NSRoleEntity thing;
+Associate createdBy;
+thing.SetCreatedBy(createdBy);
+```
+

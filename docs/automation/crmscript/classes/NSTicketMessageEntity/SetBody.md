@@ -11,3 +11,9 @@ The textbody for the message.
 **Parameter:** 
  - **body** String
 
+```crmscript
+NSTicketMessageEntity thing;
+String body;
+thing.SetBody(body);
+```
+

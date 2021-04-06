@@ -11,3 +11,9 @@ ID of the ej user record corresponding to this associate; 0 for associates that 
 **Parameter:** 
  - **ejUserId** Integer
 
+```crmscript
+NSUserInfo thing;
+Integer ejUserId;
+thing.SetEjUserId(ejUserId);
+```
+

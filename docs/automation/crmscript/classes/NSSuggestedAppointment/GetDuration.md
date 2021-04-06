@@ -11,3 +11,9 @@ Duration in minutes of suggested appointment
 **Returns:** Integer
 
 
+```crmscript
+NSSuggestedAppointment thing;
+Integer duration  = thing.GetDuration();
+```
+
+

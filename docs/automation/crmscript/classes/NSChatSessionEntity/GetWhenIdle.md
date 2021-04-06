@@ -11,3 +11,9 @@ The last time anyone sent a message for this session.
 **Returns:** DateTime
 
 
+```crmscript
+NSChatSessionEntity thing;
+DateTime whenIdle  = thing.GetWhenIdle();
+```
+
+

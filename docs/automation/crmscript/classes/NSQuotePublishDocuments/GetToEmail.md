@@ -11,3 +11,9 @@ The email address of the recipient, taken from the sale's person
 **Returns:** String
 
 
+```crmscript
+NSQuotePublishDocuments thing;
+String toEmail  = thing.GetToEmail();
+```
+
+

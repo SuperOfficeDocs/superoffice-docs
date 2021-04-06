@@ -11,3 +11,9 @@ Custom DST start month, if 0 then parse startRule
 **Returns:** Integer
 
 
+```crmscript
+NSTimeZoneRule thing;
+Integer startMonth  = thing.GetStartMonth();
+```
+
+

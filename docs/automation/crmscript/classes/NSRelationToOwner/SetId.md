@@ -11,3 +11,8 @@ Set the primary key (id) for the RelationToOwner
 **Parameter:** 
  - **id** Integer RelationToOwner id.
 
+```crmscript
+NSRelationToOwner thing;
+thing.SetId(123);
+```
+

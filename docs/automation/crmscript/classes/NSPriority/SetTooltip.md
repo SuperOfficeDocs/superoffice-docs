@@ -11,3 +11,9 @@ Set the tooltip description for the Priority list item.
 **Parameter:** 
  - **tooltip** String Priority tooltip description.
 
+```crmscript
+NSPriority thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

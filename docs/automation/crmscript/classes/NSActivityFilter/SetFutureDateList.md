@@ -11,3 +11,9 @@ The list of future date selections. This is a static MDO list with standard valu
 **Parameter:** 
  - **futureDateList** MDOListItemArray
 
+```crmscript
+NSActivityFilter thing;
+MDOListItemArray futureDateList;
+thing.SetFutureDateList(futureDateList);
+```
+

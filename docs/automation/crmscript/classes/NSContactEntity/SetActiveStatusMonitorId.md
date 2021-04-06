@@ -11,3 +11,9 @@ Active status monitor identity with the lowest rank for contact
 **Parameter:** 
  - **activeStatusMonitorId** Integer
 
+```crmscript
+NSContactEntity thing;
+Integer activeStatusMonitorId;
+thing.SetActiveStatusMonitorId(activeStatusMonitorId);
+```
+

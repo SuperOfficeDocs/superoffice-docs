@@ -11,3 +11,9 @@ The SoProtocol(ViewState)
 **Parameter:** 
  - **viewState** String
 
+```crmscript
+NSWebAppUsage thing;
+String viewState;
+thing.SetViewState(viewState);
+```
+

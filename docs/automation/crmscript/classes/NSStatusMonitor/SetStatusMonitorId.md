@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **statusMonitorId** Integer
 
+```crmscript
+NSStatusMonitor thing;
+Integer statusMonitorId;
+thing.SetStatusMonitorId(statusMonitorId);
+```
+

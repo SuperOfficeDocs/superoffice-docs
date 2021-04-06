@@ -11,3 +11,9 @@ Indicates if this form is active or not
 **Parameter:** 
  - **active** Bool
 
+```crmscript
+NSFormEntity thing;
+Bool active;
+thing.SetActive(active);
+```
+

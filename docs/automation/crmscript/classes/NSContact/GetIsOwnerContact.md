@@ -11,3 +11,9 @@ Is the contact an owner contact.  This means that all persons on this contact ca
 **Returns:** Bool
 
 
+```crmscript
+NSContact thing;
+Bool isOwnerContact  = thing.GetIsOwnerContact();
+```
+
+

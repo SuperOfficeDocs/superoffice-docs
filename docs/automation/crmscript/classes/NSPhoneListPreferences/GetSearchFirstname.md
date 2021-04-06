@@ -11,3 +11,9 @@ True if you want to search for Persons by their firstname.
 **Returns:** Bool
 
 
+```crmscript
+NSPhoneListPreferences thing;
+Bool searchFirstname  = thing.GetSearchFirstname();
+```
+
+

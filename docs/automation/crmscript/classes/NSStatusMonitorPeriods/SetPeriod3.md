@@ -11,3 +11,9 @@ Days in the third period
 **Parameter:** 
  - **period3** Integer
 
+```crmscript
+NSStatusMonitorPeriods thing;
+Integer period3;
+thing.SetPeriod3(period3);
+```
+

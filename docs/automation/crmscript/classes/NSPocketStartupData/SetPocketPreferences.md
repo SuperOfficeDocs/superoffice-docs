@@ -11,3 +11,9 @@ All Pocket specific preferences, including WebPanels defined by the user in Pock
 **Parameter:** 
  - **pocketPreferences** PreferenceArray
 
+```crmscript
+NSPocketStartupData thing;
+PreferenceArray pocketPreferences;
+thing.SetPocketPreferences(pocketPreferences);
+```
+

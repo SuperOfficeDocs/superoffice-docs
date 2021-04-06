@@ -11,3 +11,9 @@ The content type for the attachment (e.g. &apos;applaction/octet-stream&apos; or
 **Returns:** String
 
 
+```crmscript
+NSAttachmentEntity thing;
+String contentType  = thing.GetContentType();
+```
+
+

@@ -11,3 +11,9 @@ The description of the module license
 **Parameter:** 
  - **description** String
 
+```crmscript
+NSModuleLicenseLink thing;
+String description;
+thing.SetDescription(description);
+```
+

@@ -11,3 +11,9 @@ The email server to connect to
 **Parameter:** 
  - **server** String
 
+```crmscript
+NSMailboxEntity thing;
+String server;
+thing.SetServer(server);
+```
+

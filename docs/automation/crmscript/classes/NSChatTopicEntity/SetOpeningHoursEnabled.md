@@ -11,3 +11,9 @@ Whether to use opening hours or not.
 **Parameter:** 
  - **openingHoursEnabled** Bool
 
+```crmscript
+NSChatTopicEntity thing;
+Bool openingHoursEnabled;
+thing.SetOpeningHoursEnabled(openingHoursEnabled);
+```
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** CustomerLanguage
 
 
+```crmscript
+NSPersonEntity thing;
+CustomerLanguage customerLanguage  = thing.GetCustomerLanguage();
+```
+
+

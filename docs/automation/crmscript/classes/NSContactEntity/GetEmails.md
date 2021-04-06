@@ -11,3 +11,9 @@ The contact's email
 **Returns:** EntityElementArray
 
 
+```crmscript
+NSContactEntity thing;
+EntityElementArray emails  = thing.GetEmails();
+```
+
+

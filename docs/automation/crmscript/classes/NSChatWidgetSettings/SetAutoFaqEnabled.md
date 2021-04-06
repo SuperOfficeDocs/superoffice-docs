@@ -11,3 +11,9 @@ Enable automatic FAQ suggestions
 **Parameter:** 
  - **autoFaqEnabled** Bool
 
+```crmscript
+NSChatWidgetSettings thing;
+Bool autoFaqEnabled;
+thing.SetAutoFaqEnabled(autoFaqEnabled);
+```
+

@@ -11,3 +11,9 @@ Is this sync mapping active
 **Parameter:** 
  - **isActive** Bool
 
+```crmscript
+NSErpSyncActorTypeMapping thing;
+Bool isActive;
+thing.SetIsActive(isActive);
+```
+

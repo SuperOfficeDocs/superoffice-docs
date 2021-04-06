@@ -11,3 +11,9 @@ The tooltip of the ListItem
 **Returns:** String
 
 
+```crmscript
+NSSelectableMDOListItem thing;
+String toolTip  = thing.GetToolTip();
+```
+
+

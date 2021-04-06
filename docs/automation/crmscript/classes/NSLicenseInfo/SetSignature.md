@@ -11,3 +11,9 @@ Signature of all non-zero-amount moduleLicense rows referring to this owner
 **Parameter:** 
  - **signature** String
 
+```crmscript
+NSLicenseInfo thing;
+String signature;
+thing.SetSignature(signature);
+```
+

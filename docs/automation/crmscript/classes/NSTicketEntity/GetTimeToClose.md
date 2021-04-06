@@ -11,3 +11,9 @@ The time (minutes) between when the ticket was created and when it was closed. C
 **Returns:** Integer
 
 
+```crmscript
+NSTicketEntity thing;
+Integer timeToClose  = thing.GetTimeToClose();
+```
+
+

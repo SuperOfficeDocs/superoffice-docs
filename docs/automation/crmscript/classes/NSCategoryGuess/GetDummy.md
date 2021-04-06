@@ -11,3 +11,9 @@ This carrier is currently not used
 **Returns:** String
 
 
+```crmscript
+NSCategoryGuess thing;
+String dummy  = thing.GetDummy();
+```
+
+

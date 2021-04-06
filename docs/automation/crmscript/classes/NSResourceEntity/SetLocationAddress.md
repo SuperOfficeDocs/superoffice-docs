@@ -11,3 +11,9 @@ Address of location, if this is a resource that is a location
 **Parameter:** 
  - **locationAddress** String
 
+```crmscript
+NSResourceEntity thing;
+String locationAddress;
+thing.SetLocationAddress(locationAddress);
+```
+

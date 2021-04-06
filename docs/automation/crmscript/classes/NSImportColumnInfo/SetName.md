@@ -11,3 +11,9 @@ Name of the column
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSImportColumnInfo thing;
+String name;
+thing.SetName(name);
+```
+

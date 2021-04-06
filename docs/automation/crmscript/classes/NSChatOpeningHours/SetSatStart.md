@@ -11,3 +11,9 @@ When opening hours start on Saturdays. Only time-part is used.
 **Parameter:** 
  - **satStart** TimeSpan
 
+```crmscript
+NSChatOpeningHours thing;
+TimeSpan satStart;
+thing.SetSatStart(satStart);
+```
+

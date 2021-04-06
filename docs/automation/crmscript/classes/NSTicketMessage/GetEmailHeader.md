@@ -11,3 +11,9 @@ The email header is saved in this field as raw text
 **Returns:** String
 
 
+```crmscript
+NSTicketMessage thing;
+String emailHeader  = thing.GetEmailHeader();
+```
+
+

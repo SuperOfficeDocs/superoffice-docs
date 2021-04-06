@@ -11,3 +11,9 @@ Contact name
 **Returns:** String
 
 
+```crmscript
+NSDocument thing;
+String contactName  = thing.GetContactName();
+```
+
+

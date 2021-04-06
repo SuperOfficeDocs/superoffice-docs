@@ -21,3 +21,9 @@ Status if this appointment represents an invitation
      - Enum: 9 = Declined 
      - Enum: 10 = Cancelled 
 
+```crmscript
+NSAppointmentEntity thing;
+Integer invitationStatus  = thing.GetInvitationStatus();
+```
+
+

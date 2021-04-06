@@ -11,3 +11,9 @@ The tooltip for the typical search (multilingual)
 **Returns:** String
 
 
+```crmscript
+NSTypicalSearch thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

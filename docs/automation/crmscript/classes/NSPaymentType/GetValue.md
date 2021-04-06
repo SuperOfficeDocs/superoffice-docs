@@ -10,3 +10,8 @@ Get the name of the PaymentType.
 
 **Returns:** String PaymentType name.
 
+```crmscript
+NSPaymentType thing;
+String name = thing.GetValue();
+```
+

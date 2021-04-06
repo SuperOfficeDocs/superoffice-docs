@@ -11,3 +11,9 @@ Last updated by whom
 **Returns:** Integer
 
 
+```crmscript
+NSCustomerCenterConfig thing;
+Integer updatedAssociateId  = thing.GetUpdatedAssociateId();
+```
+
+

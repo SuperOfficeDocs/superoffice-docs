@@ -11,3 +11,9 @@ Our contact
 **Returns:** Integer
 
 
+```crmscript
+NSContactActivity thing;
+Integer associateId  = thing.GetAssociateId();
+```
+
+

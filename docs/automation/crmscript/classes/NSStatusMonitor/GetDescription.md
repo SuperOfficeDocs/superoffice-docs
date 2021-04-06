@@ -11,3 +11,9 @@ Description of the status monitor
 **Returns:** String
 
 
+```crmscript
+NSStatusMonitor thing;
+String description  = thing.GetDescription();
+```
+
+

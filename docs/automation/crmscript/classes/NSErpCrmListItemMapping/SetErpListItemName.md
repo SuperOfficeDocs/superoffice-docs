@@ -11,3 +11,9 @@ One Erp listItem id
 **Parameter:** 
  - **erpListItemName** String
 
+```crmscript
+NSErpCrmListItemMapping thing;
+String erpListItemName;
+thing.SetErpListItemName(erpListItemName);
+```
+

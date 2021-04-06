@@ -11,3 +11,9 @@ A value the salesmen use to quickly find the correct product. Is stored here if 
 **Returns:** String
 
 
+```crmscript
+NSQuoteLine thing;
+String code  = thing.GetCode();
+```
+
+

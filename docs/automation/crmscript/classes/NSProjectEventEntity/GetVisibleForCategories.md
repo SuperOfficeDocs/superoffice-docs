@@ -11,3 +11,9 @@ Array of categories that the event is visible for. MDO Table "category".
 **Returns:** MDOListItemArray
 
 
+```crmscript
+NSProjectEventEntity thing;
+MDOListItemArray visibleForCategories  = thing.GetVisibleForCategories();
+```
+
+

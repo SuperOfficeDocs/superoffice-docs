@@ -11,3 +11,9 @@ The character which is used to delimit folder levels on the server
 **Returns:** String
 
 
+```crmscript
+NSEMailFolder thing;
+String delimiter  = thing.GetDelimiter();
+```
+
+

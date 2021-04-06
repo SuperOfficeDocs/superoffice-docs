@@ -11,3 +11,9 @@ Document template
 **Parameter:** 
  - **docTmpl** DocumentTemplate
 
+```crmscript
+NSSuggestedDocumentEntity thing;
+DocumentTemplate docTmpl;
+thing.SetDocTmpl(docTmpl);
+```
+

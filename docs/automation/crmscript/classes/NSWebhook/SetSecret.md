@@ -11,3 +11,9 @@ Shared secret key used for generating SHA256 HMAC signature, so that receiver ca
 **Parameter:** 
  - **secret** String
 
+```crmscript
+NSWebhook thing;
+String secret;
+thing.SetSecret(secret);
+```
+

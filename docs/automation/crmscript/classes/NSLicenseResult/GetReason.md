@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** String
 
 
+```crmscript
+NSLicenseResult thing;
+String reason  = thing.GetReason();
+```
+
+

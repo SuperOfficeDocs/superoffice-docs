@@ -11,3 +11,9 @@ Identifier for a contact
 **Returns:** Integer
 
 
+```crmscript
+NSTemplateVariablesParameters thing;
+Integer contactId  = thing.GetContactId();
+```
+
+

@@ -11,3 +11,9 @@ Who created the appointment. Full name.
 **Parameter:** 
  - **createdByFullName** String
 
+```crmscript
+NSAppointment thing;
+String createdByFullName;
+thing.SetCreatedByFullName(createdByFullName);
+```
+

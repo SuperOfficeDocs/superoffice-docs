@@ -11,3 +11,9 @@ Header text to show in post chat form
 **Parameter:** 
  - **postFormHeader** String
 
+```crmscript
+NSChatWidgetSettings thing;
+String postFormHeader;
+thing.SetPostFormHeader(postFormHeader);
+```
+

@@ -11,3 +11,9 @@ Does this appointment have an alarm
 **Parameter:** 
  - **hasAlarm** Bool
 
+```crmscript
+NSAppointmentEntity thing;
+Bool hasAlarm;
+thing.SetHasAlarm(hasAlarm);
+```
+

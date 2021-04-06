@@ -11,3 +11,9 @@ If true, the user is retired and should have no rights, not appear in lists, etc
 **Returns:** Bool
 
 
+```crmscript
+NSUserInfo thing;
+Bool deleted  = thing.GetDeleted();
+```
+
+

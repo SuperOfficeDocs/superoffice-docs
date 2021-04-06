@@ -11,3 +11,9 @@ Min value (if type 1); list extra id (if type 5)
 **Returns:** Integer
 
 
+```crmscript
+NSPreferenceDescription thing;
+Integer minValue  = thing.GetMinValue();
+```
+
+

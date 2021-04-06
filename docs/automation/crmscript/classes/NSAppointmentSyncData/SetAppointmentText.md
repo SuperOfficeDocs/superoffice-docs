@@ -11,3 +11,9 @@ The appointment's textbox; holds a descriptive text about the appointment. Fille
 **Parameter:** 
  - **appointmentText** String
 
+```crmscript
+NSAppointmentSyncData thing;
+String appointmentText;
+thing.SetAppointmentText(appointmentText);
+```
+

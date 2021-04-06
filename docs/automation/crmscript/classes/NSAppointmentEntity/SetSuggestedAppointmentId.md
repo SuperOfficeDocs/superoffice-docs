@@ -11,3 +11,9 @@ Suggested guide item that this appointment is an instance of (Note: NOT VALID fo
 **Parameter:** 
  - **suggestedAppointmentId** Integer
 
+```crmscript
+NSAppointmentEntity thing;
+Integer suggestedAppointmentId;
+thing.SetSuggestedAppointmentId(suggestedAppointmentId);
+```
+

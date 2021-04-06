@@ -11,3 +11,9 @@ Type of deployment
 **Parameter:** 
  - **deploymentType** Integer
 
+```crmscript
+NSLicenseInfo thing;
+Integer deploymentType;
+thing.SetDeploymentType(deploymentType);
+```
+

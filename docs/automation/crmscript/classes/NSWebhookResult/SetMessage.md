@@ -11,3 +11,9 @@ Headers and body of response from webhook
 **Parameter:** 
  - **message** String
 
+```crmscript
+NSWebhookResult thing;
+String message;
+thing.SetMessage(message);
+```
+

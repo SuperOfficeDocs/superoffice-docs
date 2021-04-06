@@ -11,3 +11,9 @@ First name
 **Parameter:** 
  - **firstname** String
 
+```crmscript
+NSSaleStakeholder thing;
+String firstname;
+thing.SetFirstname(firstname);
+```
+

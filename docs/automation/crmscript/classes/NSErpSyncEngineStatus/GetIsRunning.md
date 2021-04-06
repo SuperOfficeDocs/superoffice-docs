@@ -11,3 +11,9 @@ Is the engine currently running
 **Returns:** Bool
 
 
+```crmscript
+NSErpSyncEngineStatus thing;
+Bool isRunning  = thing.GetIsRunning();
+```
+
+

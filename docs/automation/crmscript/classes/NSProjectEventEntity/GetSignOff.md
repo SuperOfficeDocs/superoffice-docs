@@ -11,3 +11,9 @@ Is Sign Off functionality enabled?
 **Returns:** Bool
 
 
+```crmscript
+NSProjectEventEntity thing;
+Bool signOff  = thing.GetSignOff();
+```
+
+

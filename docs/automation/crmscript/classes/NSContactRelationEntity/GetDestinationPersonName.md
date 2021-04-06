@@ -11,3 +11,9 @@ Name of the destination person.
 **Returns:** String
 
 
+```crmscript
+NSContactRelationEntity thing;
+String destinationPersonName  = thing.GetDestinationPersonName();
+```
+
+

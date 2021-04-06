@@ -11,3 +11,9 @@ Id of the BatchTask created. <=0 if no BatchTask was created.
 **Parameter:** 
  - **batchTaskId** Integer
 
+```crmscript
+NSExportArchiveResult thing;
+Integer batchTaskId;
+thing.SetBatchTaskId(batchTaskId);
+```
+

@@ -11,3 +11,9 @@ The key used to refer to this purpose, like #Process, #Emarketing etc.
 **Returns:** String
 
 
+```crmscript
+NSConsentPurpose thing;
+String key  = thing.GetKey();
+```
+
+

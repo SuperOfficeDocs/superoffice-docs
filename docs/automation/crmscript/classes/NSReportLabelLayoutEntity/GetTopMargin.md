@@ -11,3 +11,9 @@ Top margin in twips
 **Returns:** Integer
 
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+Integer topMargin  = thing.GetTopMargin();
+```
+
+

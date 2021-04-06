@@ -11,3 +11,9 @@ List item tooltip
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSConsentPurpose thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

@@ -11,3 +11,9 @@ The username used to log onto the mail account
 **Returns:** String
 
 
+```crmscript
+NSMailboxEntity thing;
+String username  = thing.GetUsername();
+```
+
+

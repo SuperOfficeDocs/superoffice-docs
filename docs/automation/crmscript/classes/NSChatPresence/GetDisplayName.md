@@ -11,3 +11,9 @@ The display name of the chat user
 **Returns:** String
 
 
+```crmscript
+NSChatPresence thing;
+String displayName  = thing.GetDisplayName();
+```
+
+

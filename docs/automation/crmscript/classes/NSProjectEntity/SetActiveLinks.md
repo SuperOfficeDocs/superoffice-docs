@@ -11,3 +11,9 @@ Number of active links to documents, other appointments, and such
 **Parameter:** 
  - **activeLinks** Integer
 
+```crmscript
+NSProjectEntity thing;
+Integer activeLinks;
+thing.SetActiveLinks(activeLinks);
+```
+

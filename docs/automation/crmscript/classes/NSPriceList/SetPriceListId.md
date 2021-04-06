@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **priceListId** Integer
 
+```crmscript
+NSPriceList thing;
+Integer priceListId;
+thing.SetPriceListId(priceListId);
+```
+

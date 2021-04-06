@@ -11,3 +11,9 @@ The unrestricted module licenses that this license owner
 **Returns:** ModuleLicenseLinkArray
 
 
+```crmscript
+NSLicenseOwner thing;
+ModuleLicenseLinkArray unrestrictedModuleLicenses  = thing.GetUnrestrictedModuleLicenses();
+```
+
+

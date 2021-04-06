@@ -11,3 +11,9 @@ DiaryView rank.
 **Parameter:** 
  - **rank** Integer
 
+```crmscript
+NSDiaryViewEntity thing;
+Integer rank;
+thing.SetRank(rank);
+```
+

@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **amountClassId** Integer
 
+```crmscript
+NSAmountClassEntity thing;
+Integer amountClassId;
+thing.SetAmountClassId(amountClassId);
+```
+

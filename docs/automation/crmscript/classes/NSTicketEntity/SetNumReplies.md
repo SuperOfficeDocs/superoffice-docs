@@ -11,3 +11,9 @@ The number of replies (messages) to the customer for this request.
 **Parameter:** 
  - **numReplies** Integer
 
+```crmscript
+NSTicketEntity thing;
+Integer numReplies;
+thing.SetNumReplies(numReplies);
+```
+

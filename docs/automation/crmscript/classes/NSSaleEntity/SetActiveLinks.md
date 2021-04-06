@@ -11,3 +11,9 @@ Number of active links to sale, document, appointment.
 **Parameter:** 
  - **activeLinks** Integer
 
+```crmscript
+NSSaleEntity thing;
+Integer activeLinks;
+thing.SetActiveLinks(activeLinks);
+```
+

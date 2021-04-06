@@ -11,3 +11,9 @@ If a document was used as the message this is the document ID.
 **Parameter:** 
  - **documentMessageId** Integer
 
+```crmscript
+NSPreviewMailing thing;
+Integer documentMessageId;
+thing.SetDocumentMessageId(documentMessageId);
+```
+

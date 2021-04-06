@@ -11,3 +11,9 @@ Key in the ERP system that uniquely identifies this Version within the ERP syste
 **Returns:** String
 
 
+```crmscript
+NSQuoteVersion thing;
+String eRPQuoteVersionKey  = thing.GetERPQuoteVersionKey();
+```
+
+

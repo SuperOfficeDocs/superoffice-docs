@@ -11,3 +11,9 @@ Primary group membership, see UserGroupLink for secondary memberships
 **Parameter:** 
  - **groupIdx** Integer
 
+```crmscript
+NSAssociate thing;
+Integer groupIdx;
+thing.SetGroupIdx(groupIdx);
+```
+

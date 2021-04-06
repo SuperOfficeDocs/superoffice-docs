@@ -11,3 +11,9 @@ True if this field is displayed in search result
 **Returns:** Bool
 
 
+```crmscript
+NSFieldMetadata thing;
+Bool showInSearch  = thing.GetShowInSearch();
+```
+
+

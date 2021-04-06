@@ -11,3 +11,9 @@ Time blocked (minutes) BEFORE starttime
 **Parameter:** 
  - **leadTime** TimeSpan
 
+```crmscript
+NSAppointmentEntity thing;
+TimeSpan leadTime;
+thing.SetLeadTime(leadTime);
+```
+

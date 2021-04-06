@@ -11,3 +11,9 @@ The country this contact is located in. The country a contact is saved with, aff
 **Parameter:** 
  - **country** Country
 
+```crmscript
+NSContactEntity thing;
+Country country;
+thing.SetCountry(country);
+```
+

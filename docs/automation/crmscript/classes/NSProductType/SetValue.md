@@ -11,3 +11,8 @@ Set the name of the ProductType item.
 **Parameter:** 
  - **value** String ProductType name.
 
+```crmscript
+NSProductType thing;
+thing.SetValue("frotz");
+```
+

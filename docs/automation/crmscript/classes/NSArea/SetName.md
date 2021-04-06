@@ -11,3 +11,9 @@ Area name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSArea thing;
+String name;
+thing.SetName(name);
+```
+

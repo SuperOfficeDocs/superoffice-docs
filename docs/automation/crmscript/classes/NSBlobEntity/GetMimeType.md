@@ -11,3 +11,9 @@ Mime type, describing the technical type (image/jpeg) of the data
 **Returns:** String
 
 
+```crmscript
+NSBlobEntity thing;
+String mimeType  = thing.GetMimeType();
+```
+
+

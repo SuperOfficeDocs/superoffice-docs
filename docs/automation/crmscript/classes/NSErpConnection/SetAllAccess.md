@@ -11,3 +11,9 @@ Is this connection accessible to everyone?  If not, then the ErpConnectionAccess
 **Parameter:** 
  - **allAccess** Bool
 
+```crmscript
+NSErpConnection thing;
+Bool allAccess;
+thing.SetAllAccess(allAccess);
+```
+

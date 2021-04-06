@@ -11,3 +11,9 @@ Id of the project that represents the event
 **Parameter:** 
  - **projectId** Integer
 
+```crmscript
+NSProjectEvent thing;
+Integer projectId;
+thing.SetProjectId(projectId);
+```
+

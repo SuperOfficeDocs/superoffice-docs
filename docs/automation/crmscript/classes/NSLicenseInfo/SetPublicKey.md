@@ -11,3 +11,9 @@ The public key used to verify licenses owned by this owner.
 **Parameter:** 
  - **publicKey** SignedPublicKey
 
+```crmscript
+NSLicenseInfo thing;
+SignedPublicKey publicKey;
+thing.SetPublicKey(publicKey);
+```
+

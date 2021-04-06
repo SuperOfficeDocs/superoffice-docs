@@ -19,3 +19,9 @@ Field type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox
      - Enum: 7 = List 
      - Enum: 8 = Decimal 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+Integer fieldType;
+thing.SetFieldType(fieldType);
+```
+

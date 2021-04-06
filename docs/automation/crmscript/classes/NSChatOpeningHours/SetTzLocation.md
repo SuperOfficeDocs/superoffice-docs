@@ -11,3 +11,9 @@ Timezone used for the opening hours (start/stop times) for this topic.
 **Parameter:** 
  - **tzLocation** TimeZoneData
 
+```crmscript
+NSChatOpeningHours thing;
+TimeZoneData tzLocation;
+thing.SetTzLocation(tzLocation);
+```
+

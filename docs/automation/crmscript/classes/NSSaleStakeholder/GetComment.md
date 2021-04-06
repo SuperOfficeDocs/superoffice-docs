@@ -11,3 +11,9 @@ Optional comment text
 **Returns:** String
 
 
+```crmscript
+NSSaleStakeholder thing;
+String comment  = thing.GetComment();
+```
+
+

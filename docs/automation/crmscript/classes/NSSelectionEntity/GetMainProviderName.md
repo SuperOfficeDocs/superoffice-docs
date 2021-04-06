@@ -11,3 +11,9 @@ The name of the Archive Provider that will deliver the content of the archive - 
 **Returns:** String
 
 
+```crmscript
+NSSelectionEntity thing;
+String mainProviderName  = thing.GetMainProviderName();
+```
+
+

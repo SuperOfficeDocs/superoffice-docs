@@ -11,3 +11,9 @@ The other groups this user is a member of, apart from the main user group.
 **Returns:** UserGroupArray
 
 
+```crmscript
+NSUser thing;
+UserGroupArray otherGroups  = thing.GetOtherGroups();
+```
+
+

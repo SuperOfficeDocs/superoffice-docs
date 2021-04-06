@@ -11,3 +11,9 @@ Value to help the user interface, is equal to 'Quantity * ListPrice'
 **Parameter:** 
  - **subTotal** Float
 
+```crmscript
+NSQuoteLine thing;
+Float subTotal;
+thing.SetSubTotal(subTotal);
+```
+

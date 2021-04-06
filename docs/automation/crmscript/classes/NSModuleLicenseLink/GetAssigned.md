@@ -11,3 +11,9 @@ Is the module license assigned to a given user
 **Returns:** Bool
 
 
+```crmscript
+NSModuleLicenseLink thing;
+Bool assigned  = thing.GetAssigned();
+```
+
+

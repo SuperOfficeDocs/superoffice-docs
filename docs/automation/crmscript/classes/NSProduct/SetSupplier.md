@@ -11,3 +11,9 @@ In SuperOffice, an id from the contact table, when saved as an ERP cache, the na
 **Parameter:** 
  - **supplier** String
 
+```crmscript
+NSProduct thing;
+String supplier;
+thing.SetSupplier(supplier);
+```
+

@@ -11,3 +11,9 @@ The number of licenses that are free to be assigned
 **Parameter:** 
  - **free** Integer
 
+```crmscript
+NSModuleLicenseLink thing;
+Integer free;
+thing.SetFree(free);
+```
+

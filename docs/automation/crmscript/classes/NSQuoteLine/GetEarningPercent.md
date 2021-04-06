@@ -11,3 +11,9 @@ The earning, in percent. Both ‘EarningAmount and ‘EarningPercent shall be fi
 **Returns:** Float
 
 
+```crmscript
+NSQuoteLine thing;
+Float earningPercent  = thing.GetEarningPercent();
+```
+
+

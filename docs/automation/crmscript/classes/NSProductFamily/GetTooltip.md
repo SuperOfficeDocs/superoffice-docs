@@ -10,3 +10,9 @@ Get the tooltip description for the ProductFamily list item.
 
 **Returns:** String ProductFamily tooltip description.
 
+```crmscript
+NSProductFamily thing;
+String descr = thing.GetTooltip();
+```
+
+

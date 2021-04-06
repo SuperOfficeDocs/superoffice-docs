@@ -11,3 +11,9 @@ Description of the project image if it exists. (This is the image that is displa
 **Returns:** String
 
 
+```crmscript
+NSProjectEntity thing;
+String imageDescription  = thing.GetImageDescription();
+```
+
+

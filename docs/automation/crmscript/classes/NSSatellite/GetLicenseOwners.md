@@ -11,3 +11,9 @@ The restricted and unrestricted module licenses grouped by license owner. These 
 **Returns:** LicenseOwnerArray
 
 
+```crmscript
+NSSatellite thing;
+LicenseOwnerArray licenseOwners  = thing.GetLicenseOwners();
+```
+
+

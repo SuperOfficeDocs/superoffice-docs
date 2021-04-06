@@ -11,3 +11,9 @@ This is the actuall value of the credentials.  This will typically be the passwo
 **Returns:** String
 
 
+```crmscript
+NSCredential thing;
+String value  = thing.GetValue();
+```
+
+

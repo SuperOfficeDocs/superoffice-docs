@@ -11,3 +11,9 @@ Visible field
 **Returns:** String
 
 
+```crmscript
+NSProject thing;
+String uRLName  = thing.GetURLName();
+```
+
+

@@ -11,3 +11,9 @@ URL to product information web page.
 **Parameter:** 
  - **url** String
 
+```crmscript
+NSProduct thing;
+String url;
+thing.SetUrl(url);
+```
+

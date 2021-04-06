@@ -11,3 +11,9 @@ Last updated when
 **Returns:** DateTime
 
 
+```crmscript
+NSContactRelationEntity thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
+
+

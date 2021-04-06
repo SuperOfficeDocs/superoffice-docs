@@ -11,3 +11,9 @@ The sale's owner id
 **Parameter:** 
  - **associateId** Integer
 
+```crmscript
+NSSale thing;
+Integer associateId;
+thing.SetAssociateId(associateId);
+```
+

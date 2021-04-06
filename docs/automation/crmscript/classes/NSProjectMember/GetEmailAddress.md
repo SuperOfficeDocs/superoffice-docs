@@ -11,3 +11,9 @@ The e-mail address
 **Returns:** String
 
 
+```crmscript
+NSProjectMember thing;
+String emailAddress  = thing.GetEmailAddress();
+```
+
+

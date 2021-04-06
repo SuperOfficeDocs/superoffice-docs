@@ -11,3 +11,9 @@ Red letter day text details, all the texts related to the given day.
 **Returns:** RedLetterDetails
 
 
+```crmscript
+NSRedLetterInformationListItem thing;
+RedLetterDetails redLetterDetails  = thing.GetRedLetterDetails();
+```
+
+

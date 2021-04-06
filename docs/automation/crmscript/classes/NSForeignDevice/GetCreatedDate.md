@@ -11,3 +11,9 @@ Registered when
 **Returns:** DateTime
 
 
+```crmscript
+NSForeignDevice thing;
+DateTime createdDate  = thing.GetCreatedDate();
+```
+
+

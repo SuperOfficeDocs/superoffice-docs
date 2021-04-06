@@ -11,3 +11,9 @@ True if you want to search for Departments where your colleagues work.
 **Parameter:** 
  - **searchDepartment** Bool
 
+```crmscript
+NSPhoneListPreferences thing;
+Bool searchDepartment;
+thing.SetSearchDepartment(searchDepartment);
+```
+

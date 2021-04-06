@@ -11,3 +11,9 @@ Name of the label layout
 **Returns:** String
 
 
+```crmscript
+NSReportLabelLayoutEntity thing;
+String name  = thing.GetName();
+```
+
+

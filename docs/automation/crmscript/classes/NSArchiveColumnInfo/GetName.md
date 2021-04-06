@@ -11,3 +11,9 @@ Unique identity of this column (in this particular context); the name to be used
 **Returns:** String
 
 
+```crmscript
+NSArchiveColumnInfo thing;
+String name  = thing.GetName();
+```
+
+

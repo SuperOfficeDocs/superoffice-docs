@@ -11,3 +11,9 @@ A strictly ascending number used for sorting categories when they are listed.
 **Returns:** Integer
 
 
+```crmscript
+NSKbCategory thing;
+Integer sortOrder  = thing.GetSortOrder();
+```
+
+

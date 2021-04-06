@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **relationId** Integer
 
+```crmscript
+NSContactRelationEntity thing;
+Integer relationId;
+thing.SetRelationId(relationId);
+```
+

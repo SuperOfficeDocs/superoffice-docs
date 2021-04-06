@@ -11,3 +11,9 @@ The sale's type name
 **Parameter:** 
  - **saleTypeName** String
 
+```crmscript
+NSSale thing;
+String saleTypeName;
+thing.SetSaleTypeName(saleTypeName);
+```
+

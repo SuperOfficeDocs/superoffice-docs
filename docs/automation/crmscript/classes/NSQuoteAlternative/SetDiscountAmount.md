@@ -11,3 +11,9 @@ The discount the sales rep specifies, in whatever currency the sale is in. Both 
 **Parameter:** 
  - **discountAmount** Float
 
+```crmscript
+NSQuoteAlternative thing;
+Float discountAmount;
+thing.SetDiscountAmount(discountAmount);
+```
+

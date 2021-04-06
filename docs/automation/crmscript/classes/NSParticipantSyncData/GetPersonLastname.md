@@ -11,3 +11,9 @@ Last name
 **Returns:** String
 
 
+```crmscript
+NSParticipantSyncData thing;
+String personLastname  = thing.GetPersonLastname();
+```
+
+

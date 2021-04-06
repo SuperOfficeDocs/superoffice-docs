@@ -11,3 +11,9 @@ Stages, those associated with this SaleType are selected.
 **Returns:** SelectableMDOListItemArray
 
 
+```crmscript
+NSSaleTypeEntity thing;
+SelectableMDOListItemArray stages  = thing.GetStages();
+```
+
+

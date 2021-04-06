@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **tabOrderId** Integer
 
+```crmscript
+NSTabOrder thing;
+Integer tabOrderId;
+thing.SetTabOrderId(tabOrderId);
+```
+

@@ -11,3 +11,9 @@ The date the version was sent to the customer.
 **Returns:** DateTime
 
 
+```crmscript
+NSQuoteVersion thing;
+DateTime sentDate  = thing.GetSentDate();
+```
+
+

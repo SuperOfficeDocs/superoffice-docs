@@ -11,3 +11,9 @@ Values sent back to the environment from the event handler
 **Returns:** StringDictionary
 
 
+```crmscript
+NSEventData thing;
+StringDictionary outputValues  = thing.GetOutputValues();
+```
+
+

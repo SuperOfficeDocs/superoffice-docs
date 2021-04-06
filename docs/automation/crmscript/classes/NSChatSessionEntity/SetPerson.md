@@ -11,3 +11,9 @@ Customer person in this session - could be empty if we don't know exactly.
 **Parameter:** 
  - **person** Person
 
+```crmscript
+NSChatSessionEntity thing;
+Person person;
+thing.SetPerson(person);
+```
+

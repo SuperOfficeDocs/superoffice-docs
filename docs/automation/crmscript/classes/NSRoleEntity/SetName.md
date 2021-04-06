@@ -11,3 +11,9 @@ Visible role name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSRoleEntity thing;
+String name;
+thing.SetName(name);
+```
+

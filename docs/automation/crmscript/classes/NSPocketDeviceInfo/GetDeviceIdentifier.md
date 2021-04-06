@@ -11,3 +11,9 @@ A unique identifier of this device. This value should always be the same for the
 **Returns:** String
 
 
+```crmscript
+NSPocketDeviceInfo thing;
+String deviceIdentifier  = thing.GetDeviceIdentifier();
+```
+
+

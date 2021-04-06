@@ -11,3 +11,9 @@ The total number of licenses (of a given license module) that are occupied
 **Returns:** Integer
 
 
+```crmscript
+NSModuleLicenseLink thing;
+Integer inUse  = thing.GetInUse();
+```
+
+

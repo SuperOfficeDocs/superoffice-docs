@@ -11,3 +11,9 @@ Subject to use if document template is an email.
 **Parameter:** 
  - **emailSubject** String
 
+```crmscript
+NSDocumentTemplateEntity thing;
+String emailSubject;
+thing.SetEmailSubject(emailSubject);
+```
+

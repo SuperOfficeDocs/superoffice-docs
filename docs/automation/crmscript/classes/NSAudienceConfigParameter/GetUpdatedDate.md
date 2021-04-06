@@ -11,3 +11,9 @@ The date and time the configuration parameter was last updated
 **Returns:** DateTime
 
 
+```crmscript
+NSAudienceConfigParameter thing;
+DateTime updatedDate  = thing.GetUpdatedDate();
+```
+
+

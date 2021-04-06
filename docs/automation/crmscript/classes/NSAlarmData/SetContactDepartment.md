@@ -11,3 +11,9 @@ Department
 **Parameter:** 
  - **contactDepartment** String
 
+```crmscript
+NSAlarmData thing;
+String contactDepartment;
+thing.SetContactDepartment(contactDepartment);
+```
+

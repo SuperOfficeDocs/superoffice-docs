@@ -11,3 +11,9 @@ Done (0=false, 1=true). Status implies changes in which fields are shown in GUI,
 **Parameter:** 
  - **completed** Bool
 
+```crmscript
+NSProjectEntity thing;
+Bool completed;
+thing.SetCompleted(completed);
+```
+

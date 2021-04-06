@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **quoteLineConfigurationId** Integer
 
+```crmscript
+NSQuoteLineConfiguration thing;
+Integer quoteLineConfigurationId;
+thing.SetQuoteLineConfigurationId(quoteLineConfigurationId);
+```
+

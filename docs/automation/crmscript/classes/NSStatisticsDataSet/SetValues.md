@@ -11,3 +11,9 @@ Values in this set
 **Parameter:** 
  - **values** StatisticsDataValueArray
 
+```crmscript
+NSStatisticsDataSet thing;
+StatisticsDataValueArray values;
+thing.SetValues(values);
+```
+

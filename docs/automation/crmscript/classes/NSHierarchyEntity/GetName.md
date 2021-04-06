@@ -11,3 +11,9 @@ Name of this hierarchy folder.
 **Returns:** String
 
 
+```crmscript
+NSHierarchyEntity thing;
+String name  = thing.GetName();
+```
+
+

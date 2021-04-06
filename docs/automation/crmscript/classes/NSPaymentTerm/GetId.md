@@ -10,3 +10,8 @@ Get the primary key (id) for the PaymentTerm
 
 **Returns:** Integer PaymentTerm id.
 
+```crmscript
+NSPaymentTerm thing;
+Integer id = thing.GetId();
+```
+

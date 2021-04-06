@@ -11,3 +11,9 @@ List item tooltip
 **Returns:** String
 
 
+```crmscript
+NSConsentPurpose thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

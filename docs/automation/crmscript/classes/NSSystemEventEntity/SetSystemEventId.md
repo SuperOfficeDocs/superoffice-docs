@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **systemEventId** Integer
 
+```crmscript
+NSSystemEventEntity thing;
+Integer systemEventId;
+thing.SetSystemEventId(systemEventId);
+```
+

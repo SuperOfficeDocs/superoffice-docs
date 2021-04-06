@@ -11,3 +11,9 @@ Appointment information
 **Returns:** Appointment
 
 
+```crmscript
+NSEMailAppointment thing;
+Appointment appointment  = thing.GetAppointment();
+```
+
+

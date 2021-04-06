@@ -10,3 +10,9 @@ Get the tooltip description for the SaleType list item.
 
 **Returns:** String SaleType tooltip description.
 
+```crmscript
+NSSaleType thing;
+String descr = thing.GetTooltip();
+```
+
+

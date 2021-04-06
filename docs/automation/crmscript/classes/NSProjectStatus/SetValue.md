@@ -11,3 +11,8 @@ Set the name of the ProjectStatus item.
 **Parameter:** 
  - **value** String ProjectStatus name.
 
+```crmscript
+NSProjectStatus thing;
+thing.SetValue("frotz");
+```
+

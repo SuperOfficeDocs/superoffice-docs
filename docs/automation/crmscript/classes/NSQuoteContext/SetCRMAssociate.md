@@ -11,3 +11,9 @@ The associate (salesman) that is logged into the CRM system.
 **Parameter:** 
  - **cRMAssociate** Associate
 
+```crmscript
+NSQuoteContext thing;
+Associate cRMAssociate;
+thing.SetCRMAssociate(cRMAssociate);
+```
+

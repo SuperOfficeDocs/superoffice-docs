@@ -11,3 +11,8 @@ Set the name of the MrMrs item.
 **Parameter:** 
  - **value** String MrMrs name.
 
+```crmscript
+NSMrMrs thing;
+thing.SetValue("frotz");
+```
+

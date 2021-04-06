@@ -11,3 +11,9 @@ Is this column visible to the user in configuration dialogs etc
 **Returns:** Bool
 
 
+```crmscript
+NSArchiveColumnInfo thing;
+Bool isVisible  = thing.GetIsVisible();
+```
+
+

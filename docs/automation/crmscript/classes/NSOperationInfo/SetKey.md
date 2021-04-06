@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **key** String
 
+```crmscript
+NSOperationInfo thing;
+String key;
+thing.SetKey(key);
+```
+

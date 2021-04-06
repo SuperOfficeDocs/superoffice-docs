@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **phoneId** Integer
 
+```crmscript
+NSSaleStakeholder thing;
+Integer phoneId;
+thing.SetPhoneId(phoneId);
+```
+

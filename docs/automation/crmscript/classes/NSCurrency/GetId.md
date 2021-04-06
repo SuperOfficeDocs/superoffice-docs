@@ -10,3 +10,8 @@ Get the primary key (id) for the Currency
 
 **Returns:** Integer Currency id.
 
+```crmscript
+NSCurrency thing;
+Integer id = thing.GetId();
+```
+

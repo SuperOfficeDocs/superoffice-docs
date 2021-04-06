@@ -11,3 +11,9 @@ Set the tooltip description for the Rating list item.
 **Parameter:** 
  - **tooltip** String Rating tooltip description.
 
+```crmscript
+NSRating thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

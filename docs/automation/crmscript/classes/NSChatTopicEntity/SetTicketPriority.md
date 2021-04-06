@@ -11,3 +11,9 @@ Priority on ticket created from off-line request
 **Parameter:** 
  - **ticketPriority** TicketPriority
 
+```crmscript
+NSChatTopicEntity thing;
+TicketPriority ticketPriority;
+thing.SetTicketPriority(ticketPriority);
+```
+

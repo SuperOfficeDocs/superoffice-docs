@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSTaskListItem thing;
+Integer taskListItemId  = thing.GetTaskListItemId();
+```
+
+

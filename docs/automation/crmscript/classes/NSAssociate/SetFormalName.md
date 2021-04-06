@@ -11,3 +11,9 @@ The associate's culture formatted formalname (firstname, middleName and lastname
 **Parameter:** 
  - **formalName** String
 
+```crmscript
+NSAssociate thing;
+String formalName;
+thing.SetFormalName(formalName);
+```
+

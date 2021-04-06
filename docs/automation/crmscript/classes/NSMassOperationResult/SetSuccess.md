@@ -11,3 +11,9 @@ Did the operation succeed
 **Parameter:** 
  - **success** Bool
 
+```crmscript
+NSMassOperationResult thing;
+Bool success;
+thing.SetSuccess(success);
+```
+

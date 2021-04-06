@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **reasonStalled** ReasonStalled
 
+```crmscript
+NSSaleEntity thing;
+ReasonStalled reasonStalled;
+thing.SetReasonStalled(reasonStalled);
+```
+

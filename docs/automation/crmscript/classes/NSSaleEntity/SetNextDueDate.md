@@ -11,3 +11,9 @@ Next due date, this is a denormalization of 'closest future activity date, or mo
 **Parameter:** 
  - **nextDueDate** DateTime
 
+```crmscript
+NSSaleEntity thing;
+DateTime nextDueDate;
+thing.SetNextDueDate(nextDueDate);
+```
+

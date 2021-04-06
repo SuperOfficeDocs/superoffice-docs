@@ -11,3 +11,9 @@ Set the tooltip description for the MrMrs list item.
 **Parameter:** 
  - **tooltip** String MrMrs tooltip description.
 
+```crmscript
+NSMrMrs thing;
+String descr = "something new";
+thing.SetTooltip(descr);
+```
+

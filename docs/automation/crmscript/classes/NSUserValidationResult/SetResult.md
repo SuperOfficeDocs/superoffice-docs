@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **result** Bool
 
+```crmscript
+NSUserValidationResult thing;
+Bool result;
+thing.SetResult(result);
+```
+

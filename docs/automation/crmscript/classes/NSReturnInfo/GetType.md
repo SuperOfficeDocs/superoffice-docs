@@ -17,3 +17,9 @@ How is the return value to be understood by the caller
      - Enum: 4 = Other 
      - Enum: 5 = URL 
 
+```crmscript
+NSReturnInfo thing;
+Integer type  = thing.GetType();
+```
+
+

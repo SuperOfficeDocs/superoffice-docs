@@ -11,3 +11,9 @@ Primary key
 **Returns:** Integer
 
 
+```crmscript
+NSPersonEntity thing;
+Integer personId  = thing.GetPersonId();
+```
+
+

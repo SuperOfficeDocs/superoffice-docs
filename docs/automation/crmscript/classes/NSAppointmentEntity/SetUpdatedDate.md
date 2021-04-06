@@ -11,3 +11,9 @@ Updated date
 **Parameter:** 
  - **updatedDate** DateTime
 
+```crmscript
+NSAppointmentEntity thing;
+DateTime updatedDate;
+thing.SetUpdatedDate(updatedDate);
+```
+

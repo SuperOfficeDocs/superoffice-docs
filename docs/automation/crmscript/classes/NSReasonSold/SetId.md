@@ -11,3 +11,8 @@ Set the primary key (id) for the ReasonSold
 **Parameter:** 
  - **id** Integer ReasonSold id.
 
+```crmscript
+NSReasonSold thing;
+thing.SetId(123);
+```
+

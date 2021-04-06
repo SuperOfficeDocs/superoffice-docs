@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isInvitation** Bool
 
+```crmscript
+NSAppointmentSyncData thing;
+Bool isInvitation;
+thing.SetIsInvitation(isInvitation);
+```
+

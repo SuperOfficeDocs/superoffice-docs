@@ -11,3 +11,9 @@ If the restriction data type is 'list', this property contains the name of the S
 **Returns:** String
 
 
+```crmscript
+NSArchiveColumnInfo thing;
+String restrictionListName  = thing.GetRestrictionListName();
+```
+
+

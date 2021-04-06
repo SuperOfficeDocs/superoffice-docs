@@ -11,3 +11,9 @@ The table that is the owning entity
 **Parameter:** 
  - **ownerTable** Integer
 
+```crmscript
+NSSaintConfiguration thing;
+Integer ownerTable;
+thing.SetOwnerTable(ownerTable);
+```
+

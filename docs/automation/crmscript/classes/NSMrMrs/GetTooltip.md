@@ -10,3 +10,9 @@ Get the tooltip description for the MrMrs list item.
 
 **Returns:** String MrMrs tooltip description.
 
+```crmscript
+NSMrMrs thing;
+String descr = thing.GetTooltip();
+```
+
+

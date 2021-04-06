@@ -11,3 +11,9 @@ Can a specific user assign this module license
 **Returns:** Bool
 
 
+```crmscript
+NSModuleLicenseLink thing;
+Bool canAssign  = thing.GetCanAssign();
+```
+
+

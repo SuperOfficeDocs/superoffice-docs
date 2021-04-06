@@ -11,3 +11,9 @@ The sale source
 **Returns:** Source
 
 
+```crmscript
+NSSaleEntity thing;
+Source source  = thing.GetSource();
+```
+
+

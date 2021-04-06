@@ -11,3 +11,9 @@ A copy of the last message in the chat session
 **Returns:** String
 
 
+```crmscript
+NSChatSessionEntity thing;
+String lastMessage  = thing.GetLastMessage();
+```
+
+

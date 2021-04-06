@@ -11,3 +11,9 @@ Describes the shipment
 **Returns:** String
 
 
+```crmscript
+NSPreviewMailingHeader thing;
+String shipmentDescription  = thing.GetShipmentDescription();
+```
+
+

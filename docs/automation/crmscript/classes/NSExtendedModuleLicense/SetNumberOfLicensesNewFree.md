@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **numberOfLicensesNewFree** Integer
 
+```crmscript
+NSExtendedModuleLicense thing;
+Integer numberOfLicensesNewFree;
+thing.SetNumberOfLicensesNewFree(numberOfLicensesNewFree);
+```
+

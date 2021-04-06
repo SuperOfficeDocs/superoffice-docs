@@ -11,3 +11,9 @@ The tooltip to be shown in some gui with details on the module license
 **Returns:** String
 
 
+```crmscript
+NSModuleLicenseLink thing;
+String tooltip  = thing.GetTooltip();
+```
+
+

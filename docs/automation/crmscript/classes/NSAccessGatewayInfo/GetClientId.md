@@ -11,3 +11,9 @@ This is the registered client_id for AccessGateway OIDC
 **Returns:** String
 
 
+```crmscript
+NSAccessGatewayInfo thing;
+String clientId  = thing.GetClientId();
+```
+
+

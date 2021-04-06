@@ -11,3 +11,9 @@ True if this appointment is a booking and current associate is the owner. False 
 **Returns:** Bool
 
 
+```crmscript
+NSAppointment thing;
+Bool isBookingMain  = thing.GetIsBookingMain();
+```
+
+

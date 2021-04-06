@@ -11,3 +11,9 @@ Text describing the sale
 **Parameter:** 
  - **saleText** String
 
+```crmscript
+NSSaleEntity thing;
+String saleText;
+thing.SetSaleText(saleText);
+```
+

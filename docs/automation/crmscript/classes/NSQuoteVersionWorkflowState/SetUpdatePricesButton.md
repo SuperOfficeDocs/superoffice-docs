@@ -11,3 +11,9 @@ Information about the action for the update prices button.
 **Parameter:** 
  - **updatePricesButton** QuoteVersionButtonState
 
+```crmscript
+NSQuoteVersionWorkflowState thing;
+QuoteVersionButtonState updatePricesButton;
+thing.SetUpdatePricesButton(updatePricesButton);
+```
+

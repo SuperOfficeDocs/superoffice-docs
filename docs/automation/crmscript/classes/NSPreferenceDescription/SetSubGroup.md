@@ -11,3 +11,9 @@ Keys that share a value (including NULL) in this field are shown together; a vis
 **Parameter:** 
  - **subGroup** String
 
+```crmscript
+NSPreferenceDescription thing;
+String subGroup;
+thing.SetSubGroup(subGroup);
+```
+

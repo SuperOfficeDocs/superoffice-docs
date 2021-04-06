@@ -11,3 +11,9 @@ Add this company interest to each company recipient.
 **Parameter:** 
  - **addCompanyInterest** Integer
 
+```crmscript
+NSMailMergeSettings thing;
+Integer addCompanyInterest;
+thing.SetAddCompanyInterest(addCompanyInterest);
+```
+

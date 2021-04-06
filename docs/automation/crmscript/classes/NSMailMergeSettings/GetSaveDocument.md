@@ -11,3 +11,9 @@ Should we save a reference to the merge document on each recipient.
 **Returns:** Bool
 
 
+```crmscript
+NSMailMergeSettings thing;
+Bool saveDocument  = thing.GetSaveDocument();
+```
+
+

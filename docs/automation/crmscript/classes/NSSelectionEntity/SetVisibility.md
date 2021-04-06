@@ -11,3 +11,9 @@ Obsolete, but still maintained denormalization of visiblefor
 **Parameter:** 
  - **visibility** Integer
 
+```crmscript
+NSSelectionEntity thing;
+Integer visibility;
+thing.SetVisibility(visibility);
+```
+

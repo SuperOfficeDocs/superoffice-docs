@@ -11,3 +11,9 @@ Number of columns that should be visible simultanously.
 **Parameter:** 
  - **visibleColumns** Integer
 
+```crmscript
+NSDiaryViewEntity thing;
+Integer visibleColumns;
+thing.SetVisibleColumns(visibleColumns);
+```
+

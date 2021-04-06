@@ -11,3 +11,8 @@ Set the primary key (id) for the Currency
 **Parameter:** 
  - **id** Integer Currency id.
 
+```crmscript
+NSCurrency thing;
+thing.SetId(123);
+```
+

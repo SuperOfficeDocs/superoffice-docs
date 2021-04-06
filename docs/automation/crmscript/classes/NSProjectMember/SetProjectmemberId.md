@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **projectmemberId** Integer
 
+```crmscript
+NSProjectMember thing;
+Integer projectmemberId;
+thing.SetProjectmemberId(projectmemberId);
+```
+

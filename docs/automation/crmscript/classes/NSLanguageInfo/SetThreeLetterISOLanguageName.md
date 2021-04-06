@@ -11,3 +11,9 @@ ISO 3-letter abbreviation
 **Parameter:** 
  - **threeLetterISOLanguageName** String
 
+```crmscript
+NSLanguageInfo thing;
+String threeLetterISOLanguageName;
+thing.SetThreeLetterISOLanguageName(threeLetterISOLanguageName);
+```
+

@@ -11,3 +11,9 @@ Script id to register/unregister chatbot. 0 if there is no bot
 **Parameter:** 
  - **botRegisterScriptId** Integer
 
+```crmscript
+NSChatBotSettings thing;
+Integer botRegisterScriptId;
+thing.SetBotRegisterScriptId(botRegisterScriptId);
+```
+

@@ -11,3 +11,9 @@ Description
 **Parameter:** 
  - **toolTip** String
 
+```crmscript
+NSListItem thing;
+String toolTip;
+thing.SetToolTip(toolTip);
+```
+

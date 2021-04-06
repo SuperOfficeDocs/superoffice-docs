@@ -11,3 +11,9 @@ Number of all sold within the period
 **Returns:** Integer
 
 
+```crmscript
+NSSaleSummary thing;
+Integer sold  = thing.GetSold();
+```
+
+

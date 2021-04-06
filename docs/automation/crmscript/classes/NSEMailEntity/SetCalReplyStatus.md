@@ -15,3 +15,9 @@ Reply status stored in calendar data for the ical method is REPLY
      - Enum: 2 = Declined 
      - Enum: 3 = Tentative 
 
+```crmscript
+NSEMailEntity thing;
+Integer calReplyStatus;
+thing.SetCalReplyStatus(calReplyStatus);
+```
+

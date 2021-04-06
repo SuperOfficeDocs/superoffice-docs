@@ -11,3 +11,9 @@ e.g. Mrs   sex_title
 **Parameter:** 
  - **mrmrs** String
 
+```crmscript
+NSPersonEntity thing;
+String mrmrs;
+thing.SetMrmrs(mrmrs);
+```
+

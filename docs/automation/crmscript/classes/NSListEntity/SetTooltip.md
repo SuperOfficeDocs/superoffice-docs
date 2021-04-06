@@ -11,3 +11,9 @@ The tooltip of the list
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSListEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

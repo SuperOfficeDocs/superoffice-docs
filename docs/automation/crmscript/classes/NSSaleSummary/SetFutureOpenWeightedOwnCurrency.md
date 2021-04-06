@@ -11,3 +11,9 @@ Weighted sum for all Future Pipe/All open sales with date after the period in de
 **Parameter:** 
  - **futureOpenWeightedOwnCurrency** Float
 
+```crmscript
+NSSaleSummary thing;
+Float futureOpenWeightedOwnCurrency;
+thing.SetFutureOpenWeightedOwnCurrency(futureOpenWeightedOwnCurrency);
+```
+

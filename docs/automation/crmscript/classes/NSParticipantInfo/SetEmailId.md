@@ -11,3 +11,9 @@ The email id of the email belonging to the appointment record belonging to this 
 **Parameter:** 
  - **emailId** Integer
 
+```crmscript
+NSParticipantInfo thing;
+Integer emailId;
+thing.SetEmailId(emailId);
+```
+

@@ -11,3 +11,9 @@ The label (lead text)
 **Returns:** String
 
 
+```crmscript
+NSUserDefinedFieldInfo thing;
+String fieldLabel  = thing.GetFieldLabel();
+```
+
+

@@ -11,3 +11,9 @@ A sale may also be connected to a person - this must be a contact person registe
 **Returns:** Person
 
 
+```crmscript
+NSSaleEntity thing;
+Person person  = thing.GetPerson();
+```
+
+

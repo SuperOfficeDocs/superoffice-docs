@@ -11,3 +11,9 @@ The name of customer, if provided
 **Returns:** String
 
 
+```crmscript
+NSChatSessionEntity thing;
+String customerName  = thing.GetCustomerName();
+```
+
+

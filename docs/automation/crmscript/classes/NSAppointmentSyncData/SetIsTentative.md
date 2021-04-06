@@ -11,3 +11,9 @@ so.topic: reference
 **Parameter:** 
  - **isTentative** Bool
 
+```crmscript
+NSAppointmentSyncData thing;
+Bool isTentative;
+thing.SetIsTentative(isTentative);
+```
+

@@ -11,3 +11,9 @@ Default currency for the current user
 **Parameter:** 
  - **ownCurrency** String
 
+```crmscript
+NSSaleSummary thing;
+String ownCurrency;
+thing.SetOwnCurrency(ownCurrency);
+```
+

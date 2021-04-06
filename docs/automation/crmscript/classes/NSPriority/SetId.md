@@ -11,3 +11,8 @@ Set the primary key (id) for the Priority
 **Parameter:** 
  - **id** Integer Priority id.
 
+```crmscript
+NSPriority thing;
+thing.SetId(123);
+```
+

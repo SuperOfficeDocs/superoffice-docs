@@ -11,3 +11,9 @@ True if you want to search for Companies by their name.
 **Returns:** Bool
 
 
+```crmscript
+NSPhoneListPreferences thing;
+Bool searchCompany  = thing.GetSearchCompany();
+```
+
+

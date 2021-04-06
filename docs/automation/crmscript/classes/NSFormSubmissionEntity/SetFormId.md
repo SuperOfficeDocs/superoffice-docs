@@ -11,3 +11,9 @@ The id of the parent form.
 **Parameter:** 
  - **formId** Integer
 
+```crmscript
+NSFormSubmissionEntity thing;
+Integer formId;
+thing.SetFormId(formId);
+```
+

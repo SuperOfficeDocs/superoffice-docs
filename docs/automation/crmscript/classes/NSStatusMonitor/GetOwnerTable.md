@@ -11,3 +11,9 @@ Id of table that owns the status monitor
 **Returns:** Integer
 
 
+```crmscript
+NSStatusMonitor thing;
+Integer ownerTable  = thing.GetOwnerTable();
+```
+
+

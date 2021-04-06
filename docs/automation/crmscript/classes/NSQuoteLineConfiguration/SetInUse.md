@@ -11,3 +11,9 @@ Should this field be displayed in the GUI?
 **Parameter:** 
  - **inUse** Bool
 
+```crmscript
+NSQuoteLineConfiguration thing;
+Bool inUse;
+thing.SetInUse(inUse);
+```
+

@@ -11,3 +11,9 @@ Initials, also login name, possibly database user name
 **Parameter:** 
  - **name** String
 
+```crmscript
+NSAssociate thing;
+String name;
+thing.SetName(name);
+```
+

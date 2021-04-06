@@ -11,3 +11,9 @@ The tooltip of the web panel
 **Parameter:** 
  - **tooltip** String
 
+```crmscript
+NSExtAppEntity thing;
+String tooltip;
+thing.SetTooltip(tooltip);
+```
+

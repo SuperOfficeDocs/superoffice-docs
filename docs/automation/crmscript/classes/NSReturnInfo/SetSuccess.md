@@ -11,3 +11,9 @@ id the call succeed. A successful call may still return a message or other retur
 **Parameter:** 
  - **success** Bool
 
+```crmscript
+NSReturnInfo thing;
+Bool success;
+thing.SetSuccess(success);
+```
+

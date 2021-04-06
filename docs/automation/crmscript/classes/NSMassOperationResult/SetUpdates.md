@@ -11,3 +11,9 @@ Number of rows updated
 **Parameter:** 
  - **updates** Integer
 
+```crmscript
+NSMassOperationResult thing;
+Integer updates;
+thing.SetUpdates(updates);
+```
+

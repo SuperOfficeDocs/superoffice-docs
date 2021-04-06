@@ -11,3 +11,9 @@ Primary key
 **Parameter:** 
  - **quoteConnectionId** Integer
 
+```crmscript
+NSQuoteConnection thing;
+Integer quoteConnectionId;
+thing.SetQuoteConnectionId(quoteConnectionId);
+```
+

@@ -11,3 +11,9 @@ The id of the user who owns the ticket. 1 (system user) if the ticket is unassig
 **Returns:** Integer
 
 
+```crmscript
+NSTicket thing;
+Integer ownedBy  = thing.GetOwnedBy();
+```
+
+

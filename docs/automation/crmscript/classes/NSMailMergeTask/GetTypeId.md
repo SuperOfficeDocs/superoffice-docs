@@ -11,3 +11,9 @@ Type identity to set on task
 **Returns:** Integer
 
 
+```crmscript
+NSMailMergeTask thing;
+Integer typeId  = thing.GetTypeId();
+```
+
+

@@ -11,3 +11,9 @@ so.topic: reference
 **Returns:** ModuleLicenseLinkArray
 
 
+```crmscript
+NSLicenseOwner thing;
+ModuleLicenseLinkArray restrictedModuleLicenses  = thing.GetRestrictedModuleLicenses();
+```
+
+

@@ -11,3 +11,9 @@ HTML formatted text of this message
 **Returns:** String
 
 
+```crmscript
+NSShipmentMessageEntity thing;
+String htmlMessage  = thing.GetHtmlMessage();
+```
+
+

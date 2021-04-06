@@ -11,3 +11,9 @@ Name of consent purpose
 **Returns:** String
 
 
+```crmscript
+NSConsentPurpose thing;
+String name  = thing.GetName();
+```
+
+

@@ -11,3 +11,9 @@ The work hour sstop for Mondays. Note that only the time part of the DateTime is
 **Returns:** DateTime
 
 
+```crmscript
+NSTicketPriorityEntity thing;
+DateTime monStop  = thing.GetMonStop();
+```
+
+

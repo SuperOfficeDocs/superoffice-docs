@@ -11,3 +11,9 @@ True if this in use by one or more udfields
 **Returns:** Bool
 
 
+```crmscript
+NSListEntity thing;
+Bool inUseByUserDefinedFields  = thing.GetInUseByUserDefinedFields();
+```
+
+

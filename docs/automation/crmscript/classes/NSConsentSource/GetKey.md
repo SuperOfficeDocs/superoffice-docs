@@ -11,3 +11,9 @@ The key used to uniquely identify this consent source
 **Returns:** String
 
 
+```crmscript
+NSConsentSource thing;
+String key  = thing.GetKey();
+```
+
+

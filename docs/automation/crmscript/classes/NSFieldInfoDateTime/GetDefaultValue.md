@@ -11,3 +11,9 @@ Default Date + time value
 **Returns:** DateTime
 
 
+```crmscript
+NSFieldInfoDateTime thing;
+DateTime defaultValue  = thing.GetDefaultValue();
+```
+
+

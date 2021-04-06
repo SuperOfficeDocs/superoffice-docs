@@ -11,3 +11,9 @@ The phone id
 **Parameter:** 
  - **phoneId** Integer
 
+```crmscript
+NSProjectMember thing;
+Integer phoneId;
+thing.SetPhoneId(phoneId);
+```
+

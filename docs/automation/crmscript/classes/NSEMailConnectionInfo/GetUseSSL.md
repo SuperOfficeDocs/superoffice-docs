@@ -11,3 +11,9 @@ Use a secure connection with the server
 **Returns:** Bool
 
 
+```crmscript
+NSEMailConnectionInfo thing;
+Bool useSSL  = thing.GetUseSSL();
+```
+
+
