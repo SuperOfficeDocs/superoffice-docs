@@ -45,4 +45,4 @@ During approval, the customer's administrator should accept the following change
 [1]: approval-sequence.md
 [2]: ../getting-started/app-envir.md
 [3]: ../getting-started/user-contexts.md
-[4]: ../../mirroring/index.md
+[4]: ../../mirroring/overview.md

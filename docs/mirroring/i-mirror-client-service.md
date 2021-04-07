@@ -120,7 +120,7 @@ You can choose to override any of the methods of the base class. For example, t
 Partner code can use this call when it needs to adjust its data, remove indexes, or perform other preparatory functions.
 
 <!-- Referenced links -->
-[1]: index.md
+[1]: overview.md
 [2]: mirroring-task.md
 
 <!-- Referenced images -->

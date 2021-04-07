@@ -46,5 +46,5 @@ The **hardware** requirements are reduced to what the interface actually needs (
 Databases and applications of the interface usually don't need any special backup, because the data is transient and kept primarily in the cloud (SuperOffice CRM Online) and in ERP.
 
 <!-- Referenced links -->
-[1]: index.md
+[1]: overview.md
 [2]: https://online.superoffice.com/appstore/superoffice-as/database-mirroring-service

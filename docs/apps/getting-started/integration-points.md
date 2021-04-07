@@ -50,7 +50,7 @@ These services are either an independent application or augment an existing appl
 [3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/soap/reference/index.md
 [4]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/web-api/rest/reference/index.md
 [5]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/overview/what-is-crmscript.md
-[6]: ../../mirroring/index.md
+[6]: ../../mirroring/overview.md
 [7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/erp-connectors/index.md
 [8]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/quote-connectors/index.md
 

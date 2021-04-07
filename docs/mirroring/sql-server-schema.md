@@ -61,5 +61,5 @@ This might happen if a customer creates an extra table containing a character fi
 4. The client code supplied by SuperOffice will react by dropping the table in the mirror database, creating it with the new schema, and request a full repopulation.
 
 <!-- Referenced links -->
-[1]: index.md
+[1]: overview.md
 [3]: mirroring-task.md

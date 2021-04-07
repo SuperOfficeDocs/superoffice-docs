@@ -1,11 +1,10 @@
 ---
-title: about_crm_online
+uid: crm_online
+title: About CRM Online
 description: About CRM Online
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: concept               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud              # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
@@ -24,7 +23,7 @@ Our partners also deliver a growing number of apps, modules, and integrations to
 
 ## Technology platform
 
-SuperOffice CRM Online is based on the standard core product SuperOffice CRM web client. The user interface is similar to the one that comes out of the package when installing Sales & Marketing web, and has minor features added, such as links to SOLO (standard for all users) and a web panel for support.
+SuperOffice CRM Online is based on the standard core product SuperOffice CRM web client. The user interface is similar to the one that comes out of the package when installing Sales & Marketing web and has minor features added, such as links to SOLO (standard for all users) and a web panel for support.
 
 From version 8 we introduce our new software in the Online marked first.
 
