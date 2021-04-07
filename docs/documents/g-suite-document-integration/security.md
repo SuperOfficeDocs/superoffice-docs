@@ -45,7 +45,7 @@ Documents are created in Google Drive by the service-account (owner), but users 
 > [!NOTE]
 > This is an example of custom setup and is not supported by SuperOffice, but can be achieved by configuring your G Suite access permissions and is supervised and managed by the customer themselves.
 
-> [!WARN]
+> [!WARNING]
 > Items with any link sharing option can be published on the web, and potentially be a risk that other people can get access to it.
 
 Documents created via SuperOffice which are hosted in Google Drive will be given a default-permission that is "accessible to anyone in the Google G Suite" domain.  

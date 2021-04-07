@@ -49,7 +49,7 @@ Create a tablespace with a descriptive name such as `SuperOffice_DATA` and creat
 
 You now have to create the user who is going to be the owner of all tables used by SuperOffice.
 
-> [!WARN]
+> [!WARNING]
 > If you delete this user after SuperOffice is installed, all SuperOffice data will be deleted.
 
 1. Set the following values on the **General** tab:

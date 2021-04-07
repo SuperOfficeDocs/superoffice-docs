@@ -17,7 +17,7 @@ so.client: online             # online, web, win, pocket, or mobile
 
 ## IDP authentication
 
-> [!WARN]
+> [!WARNING]
 > Your SuperOffice Online tenant must use IDP authentication
 
 * Read more about [How to configure IDP for SuperID][1]
