@@ -435,7 +435,7 @@ t.save();
 
 ## Delete tickets
 
-> [!WARN]
+> [!WARNING]
 > In general, we don't recommend deleting requests. It is usually preferable to add a comment and/or tag and mark it as closed.
 
 Deleting a ticket will also delete all messages and attachments linked to it!

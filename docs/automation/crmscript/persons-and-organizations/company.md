@@ -15,7 +15,7 @@ The **Company** CRMScript class represents the following entities:
 * SuperOffice UI: company
 * Database table: contact
 
-> [!WARN]
+> [!WARNING]
 > The **company** database table is unrelated to the **Company** CRMScript class. The table should have 1 row only, containing information about licenses and the owner of the SuperOffice database. Changing the **company** table will make it **impossible to sign in** for all users. The only fix is to restore the database from backup.
 
 ## Create and update companies

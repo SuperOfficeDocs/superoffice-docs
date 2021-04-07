@@ -110,7 +110,7 @@ print(u.hasTicketAccess(42,1).toString());
 
 The **activeuser** table holds info about currently signed-in users. Use it to look up who is signed in, at what location, and so on.
 
-> [!WARN]
+> [!WARNING]
 > Changing this table **might prevent users from signing in!** Fixing it requires intervention by SuperOffice support. Consider it a read-only table!
 
 ## Parser variables
