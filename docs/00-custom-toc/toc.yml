@@ -30,34 +30,7 @@ items:
 - name: Online
   href: online/toc.yml
 - name: Mirroring
-  href: ../mirroring/overview.md
-  items:
-  - name: Getting started
-    href: ../mirroring/getting-started.md
-  - name: Scenarios
-    href: ../mirroring/scenarios.md
-  - name: Requirements
-    href: ../mirroring/requirements.md
-  - name: Conceptual overview 2016
-    href: ../mirroring/conceptual-overview-2016.md
-  - name: Mirroring task
-    href: ../mirroring/mirroring-task.md
-  - name: SQL server schema
-    href: ../mirroring/sql-server-schema.md
-  - name: How to
-    items:
-    - name: Sync manually
-      href: ../mirroring/sync-manually.md
-    - name: Force resync
-      href: ../mirroring/force-resync.md
-    - name: Track changes
-      href: ../mirroring/track-changes.md
-    - name: Skip tables
-      href: ../mirroring/skip-tables.md
-  - name: IMirrorClientService interface
-    href: ../mirroring/i-mirror-client-service.md
-  - name: Create WFC
-    href: ../mirroring/create-wfc.md
+  href: mirroring/toc.yml
 - name: Mobile
   href: mobile/toc.yml
 - name: Privacy
