@@ -29,7 +29,7 @@ The [SuperOffice Identity Manager][1] gives administrators access to a wizard w
 <!-- Referenced links -->
 [1]: identity-management-gw.md
 [2]: ../superid/user-accounts-and-passwords.md
-[3]: index.md
+[3]: overview.md
 [4]: scim-rules.md
 
 <!-- Referenced images -->

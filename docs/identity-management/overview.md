@@ -1,12 +1,16 @@
 ---
-title: identity_management       
-description: All you need to know about identity management in SuperOffice CRM Online.                   
+uid: identity_management
+title: Identity management
+description: All you need to know about identity management in SuperOffice CRM Online.
 author: frodeb@superoffice.com
+so.date:
+so.topic: concept
 keywords:
 ---
+
 # Introduction to SuperOffice identity management
 
-All you need to know about identity management in SuperOffice CRM Online. Creating new user accounts; resetting passwords; federated IDs; identity providers; single sign-on; automatic user provisioning with SCIM, and what's the fuzz about SuperID?
+All you need to know about identity management in SuperOffice CRM Online: Creating new user accounts; resetting passwords; federated IDs; identity providers; single sign-on; automatic user provisioning with SCIM; and what's the fuzz about SuperID?
 
 We have been moving customers to [SuperID][1] for a while to standardize sign-in services and modernize the platform. It also strengthens security and resolves some of the username/password issues we have experienced in the past.
 
@@ -30,7 +34,7 @@ The trusted 3rd party is the **identity provider** (IdP). When accessing a new
 **SCIM -** a common language used to describe what an identity is and how to handle it. With SuperOffice you can use SCIM to automate user provisioning from Azure AD.
 
 <!-- Referenced links -->
-[1]: superid/index.md
+[1]: superid/overview.md
 [2]: superid/sign-in-services.md
 [3]: federated-id-and-identity-providers.md
 [4]: superid/primary-tenant.md

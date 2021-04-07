@@ -36,6 +36,6 @@ All tenants in CRM Online are **not eligible to use** the [**password policy** 
 You must, therefore, have access to this new user's email to verify the user before you can use it and sign in.
 
 <!-- Referenced links -->
-[1]: index.md
+[1]: overview.md
 [2]: ../user/reset-password.md
 [3]: ../user/enforce-password-policy.md

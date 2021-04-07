@@ -58,7 +58,7 @@ Does the user's browser session **have an active session** from the identity pro
 [2]: map-idp-usernames.md
 [3]: register-idp.md
 [4]: complete-user-transition.md
-[5]: ../index.md
+[5]: ../overview.md
 [6]: ../../user/add-user-in-admin-client.md
 [7]: ../../user/reset-password.md
 [8]: ../../user/index.md

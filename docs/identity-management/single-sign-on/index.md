@@ -50,4 +50,4 @@ Note that this is not the same as using the same username and password to sign i
 <!-- Referenced links -->
 [1]: ../federated-id-and-identity-providers.md
 [2]: onsite-sso.md
-[3]: ../superid/index.md
+[3]: ../superid/overview.md

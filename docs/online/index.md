@@ -1,9 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: about_crm_online # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: About CRM Online # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: about_crm_online
+description: About CRM Online
 author: {github-id}             # Your GitHub alias.
 keywords:
 so.topic: concept               # article, howto, reference, concept, guide
@@ -48,4 +45,4 @@ We offer more than one way of signing in - and [the Identity Management section]
 [2]: system-requirements.md
 [3]: https://community.superoffice.com/en/customer/learn/settings-maintenance/general/users/install-web-tools/
 [4]: https://community.superoffice.com/en/customer/learn/standard/account/
-[5]: ../identity-management/index.md
+[5]: ../identity-management/overview.md

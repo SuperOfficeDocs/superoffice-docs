@@ -1,6 +1,6 @@
 items:
 - name: Overview
-  href: ../../identity-management/index.md
+  href: ../../identity-management/overview.md
 - name: Federated ID and identity providers
   href: ../../identity-management/federated-id-and-identity-providers.md
 - name: ID transfer tickets
@@ -60,7 +60,7 @@ items:
   - name: Mapping so user to AD in version 7.1
     href: ../../identity-management/ad/mapping-so-user-to-ad-v-7-1.md
 - name: SCIM
-  href: ../../identity-management/scim/index.md
+  href: ../../identity-management/scim/overview.md
   items:
   - name: Sign in to SCIM
     href: ../../identity-management/scim/sign-in-to-scim.md

@@ -52,6 +52,6 @@ To use federated sign-in, [register your domain name][3] (so the sign-in servic
 * The user is signed in to the correct site (pick site if the user is connected to multiple sites).
 
 <!-- Referenced links -->
-[1]: index.md
+[1]: overview.md
 [2]: ../federated-id-and-identity-providers.md
 [3]: howto/register-idp.md
