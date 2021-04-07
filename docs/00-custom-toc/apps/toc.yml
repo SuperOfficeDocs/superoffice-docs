@@ -89,6 +89,8 @@ items:
     items:
     - name: Checklist
       href: ../../apps/activate/checklist.md
+    - name: Helper for private applications
+      href: ../../apps/activate/helper-application.md
     - name: Validate app
       href: ../../apps/activate/validate-app.md
     - name: Activate custom app
