@@ -36,4 +36,3 @@ Our built-in database is Sybase 12 but is locked to the SuperOffice CRM client a
 <!-- Referenced links -->
 [1]: http://www.microsoft.com/
 [2]: create-update-prototype.md
-

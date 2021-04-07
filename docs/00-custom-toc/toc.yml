@@ -69,7 +69,7 @@ items:
   href: service/toc.yml
 # Travel goes into database for now (set in build docs, keep lines here!)
 - name: Travel
-  href: ../travel/index.md
+  href: ../travel/overview.md
   items:
   - name: Create an update prototype
     href: ../travel/create-update-prototype.md
