@@ -29,9 +29,9 @@ The **environment** sub-domain is unique to each [application environment:][1
 
 | Environment | Sub-domain |
 |-------------|------------|
-| Development | sod |
-| Stage | qaonline |
-| Production | online |
+| Development | sod        |
+| Stage       | qaonline   |
+| Production  | online     |
 
 ## Example excerpt
 
