@@ -17,7 +17,8 @@ so.client: online               # online, web, win, pocket, or mobile
 
 Each customer is responsible for their data and must explicitly approve each and every application that shall have access to their database in the production environment.
 
-External consultants **MAY NOT** approve access to a customer's production database!
+> [!CAUTION]
+> External consultants **MAY NOT** approve access to a customer's production database!
 
 1. Send the administrator to the authorization endpoint and [authenticate the user][1].
 
