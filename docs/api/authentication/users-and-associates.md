@@ -1,8 +1,8 @@
 ---
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
+uid: users_and_associates
 # Mandatory fields.
-title: users_and_associates       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+title: Users and Associates       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Users and associates  # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords: database
@@ -23,7 +23,7 @@ There are several different types of users.
 
 * External users have type=4. These users cannot log in to the client and do not have diaries containing appointments. They can log in to NetServer and access information there, but their access is usually restricted to their own company and to projects that they are members of. External users have access to published information - in other words, the internal users determine what the external users can see.
 
-* Anonymous users have type=7. Anonymous users can be anyone. They cannot log into the client. They must use the NetServer API to access the database. The site must have an Expander Collaboration license to enable anonymous users.
+* Anonymous users (are **obsolete since v9**) have type=7. Anonymous users can be anyone. They cannot log into the client. They must use the NetServer API to access the database. The site must have an Expander Collaboration license to enable anonymous users.
 
 * System users have type=13. System users are used for integrating different systems. System users cannot log in to the client. They must use the NetServer API. System users by-pass the security checks, allowing full access to all data in SuperOffice. The site must have an Expander Collaboration license.
 

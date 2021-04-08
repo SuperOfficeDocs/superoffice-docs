@@ -111,7 +111,7 @@ items:
       - name: Interfaces
         href: ../archive-providers/interfaces.md
       - name: Data classes
-        href: ../archive-providers/data-class.md
+        href: ../archive-providers/data-classes.md
       - name: Client usage scenarios
         href: ../archive-providers/scenarios.md
       - name: Provider metadata
