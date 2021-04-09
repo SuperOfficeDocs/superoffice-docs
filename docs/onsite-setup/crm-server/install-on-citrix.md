@@ -54,7 +54,9 @@ The Ribbon components on the other hand are more complicated since they need to 
 **Office 2016:**
 
 ```text
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\SuperOfficeOfficeRibbons HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\SuperOfficeRibbons
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\SuperOfficeOfficeRibbons
+
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\SuperOfficeRibbons
 ```
 
 > [!NOTE]
@@ -63,13 +65,17 @@ HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\Supe
 **Office 2013:**
 
 ```text
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeOfficeRibbons HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeRibbons
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeOfficeRibbons 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeRibbons
 ```
 
 **Office 2010:**
 
 ```text
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeOfficeRibbons HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeRibbons
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeOfficeRibbons 
+
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeRibbons
 ```
 
 If you don’t want to have Ribbons installed for all users, you can delete these registry keys and enter their values into a login script that adds this for only those of your users that should have MailLink available.
