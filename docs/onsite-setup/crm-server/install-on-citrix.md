@@ -13,7 +13,7 @@ so.envir: onsite              # cloud or onsite
 # Install on Citrix/Terminal server
 
 > [!NOTE]
-> Our web tools up to version 7.5 sr2 and 8.0 SR1 will store the user information in Isolated Storage and not the roaming profile, this means users who log on and off where this location is wiped will have to log in again.
+> Our WebTools up to version 7.5 SR2 and 8.0 SR1 will store the user information in Isolated Storage and not the roaming profile, this means users who log on and off where this location is wiped will have to log in again.
 
 When you install something on a Citrix/Terminal server, you must do this as an administrator (or someone with administrative privileges). Otherwise, you won’t be allowed to install.
 
@@ -54,7 +54,7 @@ The Ribbon components on the other hand are more complicated since they need to 
 **Office 2016:**
 
 ```text
-HKEY\_LOCAL\_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Office\\16.0\\User Settings\\SuperOfficeOfficeRibbons HKEY\_LOCAL\_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Office\\16.0\\User Settings\\SuperOfficeRibbons
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\SuperOfficeOfficeRibbons HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\SuperOfficeRibbons
 ```
 
 > [!NOTE]
@@ -63,13 +63,13 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Office\\16.0\\User Setti
 **Office 2013:**
 
 ```text
-HKEY\_LOCAL\_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Office\\15.0\\User Settings\\SuperOfficeOfficeRibbons HKEY\_LOCAL\_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Office\\15.0\\User Settings\\SuperOfficeRibbons
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeOfficeRibbons HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeRibbons
 ```
 
 **Office 2010:**
 
 ```text
-HKEY\_LOCAL\_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Office\\14.0\\User Settings\\SuperOfficeOfficeRibbons HKEY\_LOCAL\_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Office\\14.0\\User Settings\\SuperOfficeRibbons
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeOfficeRibbons HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeRibbons
 ```
 
 If you don’t want to have Ribbons installed for all users, you can delete these registry keys and enter their values into a login script that adds this for only those of your users that should have MailLink available.
@@ -96,7 +96,7 @@ To stop this from happening you have to activate a registry key named **UseBorde
 3. Execute this file for every user on the Citrix/Terminal server. You have to log out and back in to let it work.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265 <!-- Moved to ADO 11900 -->
+[1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265 
 
 <!-- Referenced links -->
 [img1]: media/imagepcfj.png
