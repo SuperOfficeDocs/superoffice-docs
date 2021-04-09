@@ -3,6 +3,7 @@ items:
   href: ../../automation/crmscript-intro.md
 - name: Event model
   href: ../../automation/event-model/index.md
+  expanded: true
   items:
   - name: Email filter
     href: ../../automation/event-model/email-filter.md
@@ -14,6 +15,7 @@ items:
     href: ../../automation/event-model/saving-a-request.md
 - name: Trigger
   href: ../../automation/trigger/index.md
+  expanded: true
   items:
   - name: Create trigger macro
     href: ../../automation/trigger/create-trigger-macro.md
@@ -27,6 +29,7 @@ items:
   href: ../../automation/trigger-scripts/index.md
 - name: Webhook
   href: ../../automation/webhook/index.md
+  expanded: true
   items:
   - name: Add msg to ticket with github webhook
     href: ../../automation/webhook/add-msg-to-ticket-with-github-webhook.md

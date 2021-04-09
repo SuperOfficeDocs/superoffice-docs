@@ -1,6 +1,7 @@
 items:
 - name: Cloud document integrations
   href: ../../documents/cloud-document-integrations.md
+  expanded: true
   items:
   - name: Configure cloud document handling
     href: ../../documents/configure-cloud-document-handling.md
@@ -36,6 +37,7 @@ items:
   href: ../../reports/parameters.md
 - name: Ribbons
   href: ../../documents/ribbons/index.md
+  expanded: true
   items:
   - name: Enable debug
     href: ../../documents/ribbons/enable-debug.md
@@ -43,6 +45,7 @@ items:
     href: ../../documents/ribbons/troubleshooting.md
 - name: Templates
   href: ../../documents/templates/index.md
+  expanded: true
   items:
   - name: Variables
     items:

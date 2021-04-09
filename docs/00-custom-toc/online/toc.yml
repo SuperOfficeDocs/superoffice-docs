@@ -8,6 +8,7 @@ items:
 - name: Version history
   href: ../../online/version-history.md
 - name: Test environment
+  expanded: true
   items:
   - name: Caution
     href: ../../online/test-environment/copy-database-caution.md

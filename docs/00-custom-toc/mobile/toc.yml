@@ -3,6 +3,7 @@ items:
   href: ../../mobile/index.md
 - name: Superoffice mobile
   href: ../../mobile/superoffice-mobile/index.md
+  expanded: true
   items:
   - name: Security
     href: ../../mobile/superoffice-mobile/security.md
@@ -12,6 +13,7 @@ items:
     href: ../../mobile/superoffice-mobile/faq.md
 - name: Pocket CRM
   href: ../../mobile/pocket-crm/index.md
+  expanded: true
   items:
   - name: Client requirements
     href: ../../mobile/pocket-crm/client-requirements.md

@@ -1,3 +1,4 @@
 items:
-- name: cust
+- name: Docs
   href: 00-custom-toc/toc.yml
+  expanded: true

@@ -1,5 +1,6 @@
 items:
 - name: MailLink
+  expanded: true
   items:
   - name: Changes in 7.1
     href: ../../email/maillink/changes-in-7-1.md
@@ -7,6 +8,7 @@ items:
     href: ../../email/maillink/debug.md
 - name: SuperOffice for Outlook
   href: ../../email/superoffice-for-outlook/index.md
+  expanded: true
   items:
   - name: Requirements
     href: ../../email/superoffice-for-outlook/requirements.md
@@ -16,6 +18,7 @@ items:
     href: ../../email/superoffice-for-outlook/deploy-office-add-in.md
 - name: Mailgun
   href: ../../email/mailgun/index.md
+  expanded: true
   items:
   - name: Performance
     href: ../../email/mailgun/amount-speed.md

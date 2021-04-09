@@ -1,6 +1,7 @@
 items:
 - name: Video meeting
   href: ../../video-meeting/index.md
+  expanded: true
   items:
   - name: Pre-requisites
     href: ../../video-meeting/index.md

@@ -128,4 +128,4 @@ To view which users are assigned sign-on rights to which areas, click the **View
 [1]: ../update-prototype.md
 
 <!-- Referenced images -->
-[img1]: media/area-definition-dialog.md
+[img1]: media/area-definition-dialog.png
