@@ -12,7 +12,7 @@ Merge with reply template int the settings of the submitted category id.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - Vector To-recipient(s) in e-mail

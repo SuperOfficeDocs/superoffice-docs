@@ -10,7 +10,7 @@ Class for representing and sending emails.
 
 
 
-###Example code:###
+## Example
 
 
     Email e;

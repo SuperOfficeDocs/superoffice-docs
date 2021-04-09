@@ -12,7 +12,7 @@ This function will add the given number of seconds to the currently set timespan
 
 
 
-###Parameter:###
+## Parameters
 
 
 - num: Number of seconds to add to the timespan

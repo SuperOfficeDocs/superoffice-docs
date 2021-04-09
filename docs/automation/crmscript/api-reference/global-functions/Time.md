@@ -12,7 +12,7 @@ Parse string and create a Time object
 
 
 
-###Format:###
+## Format
     HH:MM:SS
 
 

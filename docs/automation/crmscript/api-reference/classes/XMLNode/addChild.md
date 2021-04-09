@@ -12,7 +12,7 @@ Add one node as a child node of the current node.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - node: The node to be added
@@ -21,7 +21,7 @@ Add one node as a child node of the current node.
 
 
 
-###Example:###
+## Example
     
     XMLNode xml = XMLNode("root");
     xml.setName("Root");

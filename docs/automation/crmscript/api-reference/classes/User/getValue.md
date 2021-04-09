@@ -12,7 +12,7 @@ Gets the value of a given column.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - String with column name
@@ -20,7 +20,7 @@ Gets the value of a given column.
 
 
 
-###Possible values:###
+## Values
 
 
  - id: Integer, The primary key (auto-incremented)

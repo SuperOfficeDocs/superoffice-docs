@@ -11,7 +11,7 @@ Adds num minutes to the time and returns the datetime.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - num: the number of minutes to add.

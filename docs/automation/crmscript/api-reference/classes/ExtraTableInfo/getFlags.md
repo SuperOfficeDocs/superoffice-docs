@@ -9,9 +9,8 @@ so.topic: reference
 
 Will return the flags for this extra table.
 
+## Flags
 
-
-###Available flags:###
 FlagHidden: 0
 FlagDeleted: 8
 

@@ -11,9 +11,7 @@ This function returns the type of the parameter.
 
 It is used for displaying correct control in form.
 
-
-
-###The following types are available:###
+## Available types
 
 
  - AnchorLine

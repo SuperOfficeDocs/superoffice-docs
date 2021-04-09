@@ -9,10 +9,7 @@ so.topic: reference
 
 Retrieves the value of the given field in the category.
 
-
-
-###Available fields are:###
-
+## Available fields
 
  - id: The id of the category.
  - parent: The id of the parent category.
@@ -23,23 +20,13 @@ Retrieves the value of the given field in the category.
  - children: A comma separated list of children ids.
  - notificationEmail: The value of the email Notification field
 
-
-
-
-###Parameter:###
-
+## Parameters
 
  - field: The field to get.
 
-
-
-
-###Example code:###
-
+## Example
 
     Category c;
     
     c.load(2);
     print(c.getValue("name"));
-
-

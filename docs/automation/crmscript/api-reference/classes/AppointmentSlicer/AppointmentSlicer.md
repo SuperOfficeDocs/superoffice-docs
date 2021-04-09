@@ -10,7 +10,7 @@ This class is used to slice appointments into single entities which are within a
 
 
 
-###Example code:###
+## Example
 
 
     AppointmentSlicer a;

@@ -12,7 +12,7 @@ This function will return the ISO week day (Monday is 0).
 
 
 
-###Example:###
+## Example
     
     Date d;
     

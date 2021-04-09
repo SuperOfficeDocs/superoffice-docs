@@ -16,7 +16,7 @@ The arrayName will become the name of the array in the JSONBuilder. This is usef
 
 
 
-###Example code:###
+## Example
 
     SearchEngine se;
     se.addFields("sale", "sale_id,heading,amount");

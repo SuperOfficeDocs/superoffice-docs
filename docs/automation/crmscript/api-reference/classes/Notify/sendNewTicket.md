@@ -12,7 +12,7 @@ This method will send a notification about a new request according to the user's
 
 
 
-###Parameter:###
+## Parameters
 
 
  - ticketId: the id of the ticket to notify about

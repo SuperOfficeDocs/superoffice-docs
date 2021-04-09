@@ -9,10 +9,7 @@ so.topic: reference
 
 Returns the value of the given field of the customer.
 
-
-
-###The following fields are available:###
-
+## Available fields
 
  - id
  - name The name of the customer.
@@ -41,7 +38,7 @@ Returns the value of the given field of the customer.
 
 
 
-###Example code:###
+## Example
 
 
     Customer c;

@@ -12,7 +12,7 @@ This method will send a custom notification to a user.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - recipientId: the id of the user to notifiy

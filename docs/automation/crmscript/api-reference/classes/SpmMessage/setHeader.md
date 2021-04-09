@@ -13,7 +13,7 @@ If you need to include additional email headers, they should be added here. You 
 
 
 
-###Example:###
+## Example
     Header1: Value1
     Header2: Value2
     

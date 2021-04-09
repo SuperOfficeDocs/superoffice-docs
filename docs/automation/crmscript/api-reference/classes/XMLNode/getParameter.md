@@ -10,7 +10,7 @@ Get a parameter (attribute) from the node with a given name.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - name: the key to get value of
@@ -19,7 +19,7 @@ Get a parameter (attribute) from the node with a given name.
 
 
 
-###Example:###
+## Example
     
     XMLNode xml = XMLNode("root");
     xml.setName("Root");

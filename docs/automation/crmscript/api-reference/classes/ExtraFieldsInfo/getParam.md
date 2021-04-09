@@ -9,10 +9,9 @@ so.topic: reference
 
 This function returns the value of the given parameter.
 
+## Parameters
 
-
-###The following parameters are available for the various field types:###
-
+The following parameters are available for the various field types:
 
  - Available for all types:
      - <b>"defaultNow"</b> - use current time and date as default value

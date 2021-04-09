@@ -10,7 +10,7 @@ This function generates and returns a hash from a specified key-value pair using
 
 
 
-###Example code:###
+## Example
 
 
     String s = "Hello world!";

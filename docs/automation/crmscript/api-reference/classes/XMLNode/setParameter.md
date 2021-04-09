@@ -10,7 +10,7 @@ Sets a parameter with name and value. A node can have any number of parameters b
 
 
 
-###Parameters:###
+## Parameters
 
 
  - name: Parameter name
@@ -20,7 +20,7 @@ Sets a parameter with name and value. A node can have any number of parameters b
 
 
 
-###Example:###
+## Example
     
     XMLNode xml = XMLNode("root");
     xml.setName("Root");

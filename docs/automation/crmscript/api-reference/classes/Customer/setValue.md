@@ -54,7 +54,7 @@ so.topic: reference
 
 
 
-###Parameters:###
+## Parameters
 
 
  - field: The field to set.
@@ -63,7 +63,7 @@ so.topic: reference
 
 
 
-###Example code:###
+## Example
 
 
     Customer c;

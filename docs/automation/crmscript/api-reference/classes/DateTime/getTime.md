@@ -12,7 +12,7 @@ This function returns the time-part of the datetime as a Time-object.
 
 
 
-###Example:###
+## Example
     
     DateTime d;
     

@@ -9,10 +9,9 @@ so.topic: reference
 
 This functions returns an array with description of all ejscript functions defined in the system.
 
+## Values
 
-
-
-###The inner array contains the following values:###
+The inner array contains the following values:
 
 0 - class name
 1 - return type

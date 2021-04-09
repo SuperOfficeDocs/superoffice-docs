@@ -11,7 +11,7 @@ Dumps the attachment file to output.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - Bool: If true, this will tell the browser to download the file, and not attempt to display it.

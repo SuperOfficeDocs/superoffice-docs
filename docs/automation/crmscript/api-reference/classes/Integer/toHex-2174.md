@@ -11,7 +11,7 @@ This function returns the given integer as a hexadecimal representation of the i
 
 
 
-###Parameter:###
+## Parameters
 
 
  - p0: The integer to convert to hex.

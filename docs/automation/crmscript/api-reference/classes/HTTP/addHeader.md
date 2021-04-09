@@ -13,7 +13,7 @@ Adds a new header. The new header will be placed after other existing headers.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - p\_name: name of header
@@ -22,7 +22,7 @@ Adds a new header. The new header will be placed after other existing headers.
 
 
 
-###Example code:###
+## Example
 
 
     HTTP h;

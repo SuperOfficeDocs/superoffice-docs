@@ -11,7 +11,7 @@ Sets the tag name of the node.
 
 
 
-###Example:###
+## Example
     
     XMLNode xml = XMLNode("root");
     xml.setName("Root");

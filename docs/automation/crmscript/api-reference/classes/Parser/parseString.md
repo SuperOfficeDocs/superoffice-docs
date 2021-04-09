@@ -12,7 +12,7 @@ Parse a text and return the result.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - stringToParse The string containing the text to parse.

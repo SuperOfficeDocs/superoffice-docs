@@ -8,7 +8,7 @@ so.topic: reference
 
 
 
-###Example:###
+## Example
     
     Timer timer;
     timer.start();

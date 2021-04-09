@@ -11,7 +11,7 @@ Find and load company object given a domain.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - domain of the company

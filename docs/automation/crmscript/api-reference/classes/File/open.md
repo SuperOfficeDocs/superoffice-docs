@@ -9,10 +9,7 @@ so.topic: reference
 
 Opens the file to be available for other method calls.
 
-
-
-###Available modes:###
-
+## Available modes
 
  - r or rb: Open file for reading.
  - w or wb: Truncate to zero length or create file for writing.

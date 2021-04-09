@@ -11,15 +11,12 @@ Gets a String with the value of a given column.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - String colName
 
-
-
-
-###Possible colNames:###
+## Possible colNames
 
 
  - id: Integer, The primary key (auto-incremented)
@@ -44,7 +41,7 @@ Returns a string value of the given column.
 
 
 
-###Example code:###
+## Example
 
 
     Company c;

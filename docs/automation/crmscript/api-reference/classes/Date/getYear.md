@@ -12,7 +12,7 @@ This function will return the year of this date.
 
 
 
-###Example:###
+## Example
     
     Date d;
     

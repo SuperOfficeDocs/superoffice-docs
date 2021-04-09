@@ -11,7 +11,7 @@ Returns the integer floor of the float.
 
 
 
-###Example code:###
+## Example
 
 
     Float f = Float("13.456");
@@ -22,7 +22,7 @@ Returns the integer floor of the float.
 
 
 
-###Prints:###
+**Output:**
 
 "13"
 

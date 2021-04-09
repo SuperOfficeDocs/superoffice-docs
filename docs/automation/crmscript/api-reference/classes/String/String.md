@@ -12,7 +12,7 @@ Constructor can take a string, and returns a string.
 
 
 
-###Example code:###
+## Example
 
 
     String s = "47882255";

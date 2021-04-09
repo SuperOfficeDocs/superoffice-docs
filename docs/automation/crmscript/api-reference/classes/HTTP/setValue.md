@@ -11,7 +11,7 @@ This function add a cgi variable and its according value to the HTTP request.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - p\_cgiVariable: The variable to set
@@ -20,7 +20,7 @@ This function add a cgi variable and its according value to the HTTP request.
 
 
 
-###Example code:###
+## Example
 
 
     HTTP h;

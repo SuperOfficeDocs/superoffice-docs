@@ -11,9 +11,7 @@ Uses regexp pattern on the String object. Support for subexpressions are also pr
 The regexp is caseinsensitiv.
 
 
-
-
-###For instance:###
+## Example
 
 
     String s;
@@ -27,7 +25,8 @@ The regexp is caseinsensitiv.
 
 
 
-###Interpretation of the returned array:###
+## Interpretation of the returned array
+
 No matches will result an array with 0 length.
 res[0] will point to the entire matched string.
 res[1 ... n-1] will point to the matches of the subexpressions.

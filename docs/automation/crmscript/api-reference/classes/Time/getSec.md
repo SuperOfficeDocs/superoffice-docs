@@ -11,7 +11,7 @@ This function returns the seconds of the time as an Integer.
 
 
 
-###Example:###
+## Example
     
     Time t;
     t.setHour(10);

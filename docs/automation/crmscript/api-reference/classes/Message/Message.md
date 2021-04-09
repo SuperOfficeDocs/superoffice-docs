@@ -12,7 +12,7 @@ Class for representing an eJournal ticket message.
 
 
 
-###Example code:###
+## Example
 
 
     Message m;

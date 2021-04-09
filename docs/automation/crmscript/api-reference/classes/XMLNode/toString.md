@@ -10,7 +10,7 @@ Creates a string containing the XMLNode as a formated as a string. Child nodes a
 
 
 
-###Parameter:###
+## Parameters
 
 
  - indent: the text with a given number of spaces.

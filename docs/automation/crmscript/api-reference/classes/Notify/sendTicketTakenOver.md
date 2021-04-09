@@ -12,7 +12,7 @@ This method will send a notification to the users about a ticket being taken ove
 
 
 
-###Parameter:###
+## Parameters
 
 
  - ticketId: the id of the ticket to be notified about

@@ -12,7 +12,7 @@ Class for representing a customer.
 
 
 
-###Example code:###
+## Example
 
 
     Customer c;

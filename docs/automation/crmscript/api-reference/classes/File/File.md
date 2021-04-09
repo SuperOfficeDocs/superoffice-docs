@@ -12,7 +12,7 @@ Use open before you call any other methods.
 
 
 
-###Example code:###
+## Example
 
 
     File f;

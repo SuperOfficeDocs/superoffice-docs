@@ -11,7 +11,7 @@ Returns the last error message.
 
 
 
-###Example code:###
+## Example
 
 
     HTTP h;

@@ -14,17 +14,13 @@ This function returns a LSB (Least Significant Byte first) string representation
 
 
 
-###Example:###
+## Example
     
     FHBitSet fh;
     
     fh.set(44);
     print(fh.toLsbString());
-    
 
+**Output:**
 
-
-###Prints:###
 00000000000000000000000000101100
-
-

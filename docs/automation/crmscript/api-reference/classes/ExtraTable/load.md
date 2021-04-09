@@ -11,7 +11,7 @@ Loads the extra table entry with the given id
 
 
 
-###Parameter:###
+## Parameters
 
 
  - id: Id of the extra table entry you want to load.
@@ -21,7 +21,7 @@ Returns true if the entry was found and loaded.
 
 
 
-###Example code:###
+## Example
 
 
     ExtraTable ex;

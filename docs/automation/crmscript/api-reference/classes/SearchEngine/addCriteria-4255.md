@@ -12,7 +12,7 @@ Adds a criteria on a function of a database-field to the database query.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - p0: field, The field to make a restiction on

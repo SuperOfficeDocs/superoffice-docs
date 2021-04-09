@@ -13,7 +13,7 @@ Remove all external emails from a given source (extTable). This method is used w
 
 
 
-###Parameters:###
+## Parameters
 
 
  - emails from these extTables will be removed.

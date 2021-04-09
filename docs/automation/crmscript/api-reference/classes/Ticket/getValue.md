@@ -12,15 +12,14 @@ Get the value of given column name as a String
 
 
 
-###Parameter:###
+## Parameters
 
 
  - colName: The name of the wanted column.
 
+## Values
 
-
-
-###Possible values are the extrafields on the ticket and the following:###
+Possible values are the extrafields on the ticket and the following:
 
 
  - id

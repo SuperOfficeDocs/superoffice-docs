@@ -13,7 +13,7 @@ This function will try to lookup a Customer entry in the database based on the c
 
 
 
-###Parameter:###
+## Parameters
 
 
  - cellphone: The cellphone to lookup.

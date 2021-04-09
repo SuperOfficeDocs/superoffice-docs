@@ -10,7 +10,7 @@ With this class you can retrieve meta information about an extra table. The clas
 
 
 
-###Example code:###
+## Example
 
 
     ExtraTableInfo e;

@@ -10,7 +10,7 @@ Parse a text, and return the evaluated result from a RETURN statement inside the
 
 
 
-###Parameter:###
+## Parameters
 
 
  - stringToParse The string to parse.

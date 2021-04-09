@@ -9,9 +9,9 @@ so.topic: reference
 
 This function returns the descriptive name (not the database name) of the current field.
 
+## Example
 
-
-###Example that prints all names of extra fields:###
+This code prints all names of extra fields:
 
     ExtraFieldsInfo e;
     

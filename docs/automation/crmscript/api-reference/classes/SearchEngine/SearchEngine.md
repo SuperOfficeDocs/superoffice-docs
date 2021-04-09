@@ -9,19 +9,23 @@ The SearchEngine is originally made for searching and fetching data from the eJo
 Has later been extended with features for inserting and updating rows.
 The SearchEngine is a tool for building up sql-queries, by adding fields, criteria and data.
 
-###The fields must be given on the following form:###
+The fields must be given on the following form
+
 starttablename.fieldname, for example "ticket.title"
 
 
-###For tables that have foreign keys to other tables, you can reach them with the following notation:###
+For tables that have foreign keys to other tables, you can reach them with the following notation
+
 starttablename.fieldname.fieldname
 
 
-###For example the firstname of the primary customer of a ticket is:###
+For example the firstname of the primary customer of a ticket is:
+
 "ticket.cust\_id.firstname".
 
 
-###The company name of the primary customer of a ticket is:###
+The company name of the primary customer of a ticket is:
+
 "ticket.cust\_id.company.name".
 
 Make sure that all fields you use start with the same table, for example ticket, or else you will recieve a big join that you probably do not want.
@@ -31,7 +35,8 @@ table1.(table2->field2a).field2b Where field2a is field in table2 that has a for
 
 
 
-###An example:###
+## Example
+
     "ticket.(ticket_customers->ticket_id).cust_id"
     
 

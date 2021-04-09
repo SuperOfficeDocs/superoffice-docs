@@ -12,7 +12,8 @@ This method will do a faq search, using the same search engine as the customer p
 
 
 
-###Category parser array:###
+## Category parser array
+
 faq.categoryId - the id of the matching category
 faq.categoryName - the name of the matching category
 faq.categoryLink - a url to the customer pages to the matching category
@@ -21,7 +22,8 @@ faq.categoryScore - the score of the matching category, given in percentage with
 
 
 
-###Entry parser array:###
+## Entry parser array
+
 faq.entryId - the id of the matching entry
 faq.entryName - the name of the matching entry
 faq.entryLink - a url to the customer pages to the matching entry
@@ -38,7 +40,8 @@ faq.entryScore - the score of the matching entry, given in percentage with 2 dec
 
 
 
-###Access codes:###
+## Access codes
+
       AccessPrivate = 1
       AccessInternal = 2
       AccessRegisteredCustomers = 3

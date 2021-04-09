@@ -11,7 +11,7 @@ This function initializees the bitset from an integer.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - value: This integer is used to initialize the bitset.
@@ -20,7 +20,7 @@ This function initializees the bitset from an integer.
 
 
 
-###Example:###
+## Example
     
     FHBitSet fh;
     

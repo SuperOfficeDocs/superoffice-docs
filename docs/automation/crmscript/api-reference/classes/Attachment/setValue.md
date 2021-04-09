@@ -28,7 +28,7 @@ The current implementation supports the following values for the name parameter.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - name: Name of the parameter to write

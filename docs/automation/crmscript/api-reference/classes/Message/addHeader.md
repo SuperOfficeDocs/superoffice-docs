@@ -12,7 +12,7 @@ The headers will be shown at the view request page, listed at the message.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - Type of header as a String, examples are To, Cc, SMS, Bcc

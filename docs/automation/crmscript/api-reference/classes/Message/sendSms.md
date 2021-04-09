@@ -11,7 +11,7 @@ Sends an sms-version of the message to the numbers in the vector.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - Vector to The numbers to send the message to

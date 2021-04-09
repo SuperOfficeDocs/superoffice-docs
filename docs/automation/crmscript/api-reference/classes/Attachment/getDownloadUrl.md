@@ -11,7 +11,7 @@ Construct an download url for the attachment. There are two kinds of urls first 
 
 
 
-###Parameters:###
+## Parameters
 
 
  - external: Is the url to be used by a customer or an user.

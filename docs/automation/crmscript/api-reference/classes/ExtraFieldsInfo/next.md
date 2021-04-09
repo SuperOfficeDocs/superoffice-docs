@@ -10,8 +10,9 @@ so.topic: reference
 This function moves to the next field in the result.
 
 
+## Usage
 
-###A common usage is in the increment section in a for loop:###
+A common usage is in the increment section in a for-loop:
 
 
     ExtraFieldsInfo efi;

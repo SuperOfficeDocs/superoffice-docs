@@ -11,7 +11,7 @@ Turn on debug mode to record debug output and get the output by calling `getDebu
 
 
 
-###Parameters:###
+## Parameters
 
 
 - Bool - true to turn debug on, false to turn it off

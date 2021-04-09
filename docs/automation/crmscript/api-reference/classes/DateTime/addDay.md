@@ -11,7 +11,7 @@ Adds num days to the date and returns datetime object.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - num: the number of days to add.

@@ -12,7 +12,7 @@ The JSONBuilder class simplifies building JSON hierarchies. The result will be a
 
 
 
-###Example code:###
+## Example
 
 
     JSONBuilder jb;

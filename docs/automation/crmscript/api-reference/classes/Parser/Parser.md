@@ -9,10 +9,7 @@ so.topic: reference
 The Parser class is a template engine. A Parser instance can set template variable values, then parse a formatted string containing template variable placeholders to replace their values.
 
 
-
-
-
-###Parser example:###
+## Example
     
     Parser p;
     p.setVariable("firstName", "Jack");

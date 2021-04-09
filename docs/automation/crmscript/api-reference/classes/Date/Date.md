@@ -12,7 +12,7 @@ The default date is now.
 
 
 
-###Example code:###
+## Example
 
 
     Date d;

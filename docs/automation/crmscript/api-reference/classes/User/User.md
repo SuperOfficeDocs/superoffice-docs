@@ -11,7 +11,7 @@ Class for representing a user.
 
 
 
-###Example code:###
+## Example
 
 
     User u;

@@ -34,7 +34,7 @@ The following formats are available. Single or in composition.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - format: A specification of the wanted format

@@ -12,7 +12,7 @@ Writes a SessionObject entry to the database.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - p\_name: entry name. May be empty, in which case the id of the first row will be used.

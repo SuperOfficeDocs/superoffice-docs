@@ -10,7 +10,7 @@ This function adds a week schedule to the year schedule.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - ws: Add this weekschedule to the yearschedule.

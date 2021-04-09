@@ -10,7 +10,7 @@ Parse an JSON document and generate a tree of XMLNode's.
 
 
 
-###Example code:###
+## Example
 
 
     String jsonString = "{\"menu\": {\"liste\": [ \"1\", \"2\", \"3\", true, 123, 1.23 ],\"id\": \"file\",\"value\": \"File\",\"tall\": 1.234567,\"sant\": true,\"usant\": false,\"tom\": null,\"popup\": {\"menuitem\": [{\"value\": \"New\", \"onclick\": \"CreateNewDoc()\"},{\"value\": \"Open\", \"onclick\": \"OpenDoc()\"},{\"value\": \"Close\", \"onclick\": \"CloseDoc()\"}]}}}";
@@ -20,9 +20,7 @@ Parse an JSON document and generate a tree of XMLNode's.
     
     /*
 
-
-
-###For example the following JSON document:###
+For example the following JSON document:
 
 
     {"menu": {
@@ -43,9 +41,7 @@ Parse an JSON document and generate a tree of XMLNode's.
     }}
     
 
-
-
-###Is converted to:###
+**Is converted to:**
 
 \<root type="object">
   \<menu type="object">

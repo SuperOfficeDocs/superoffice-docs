@@ -13,7 +13,7 @@ Returns the difference in number of seconds between the input-parameter and the 
 
 
 
-###Parameter:###
+## Parameters
 
 
  - otherDateTime: The datetime to subtract

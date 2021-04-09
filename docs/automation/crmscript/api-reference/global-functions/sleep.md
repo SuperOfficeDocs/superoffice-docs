@@ -14,7 +14,7 @@ Useful in some cpu intensive loops to maintain a responsive system.
 
 
 
-###Example:###
+## Example
     sleep(01); //sleeps for about one tenth of a second.
     
 

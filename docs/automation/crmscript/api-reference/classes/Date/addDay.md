@@ -12,7 +12,7 @@ The original object will be modified, and a copy is returned.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - num: Number of days to add/subtract(if negative num)

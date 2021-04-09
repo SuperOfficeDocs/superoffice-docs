@@ -12,7 +12,7 @@ The default datetime is now.
 
 
 
-###Example code:###
+## Example
 
 
     DateTime d;

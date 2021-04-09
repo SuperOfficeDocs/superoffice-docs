@@ -11,7 +11,7 @@ Returns a string representation of the Float, with "decimals" number of decimals
 
 
 
-###Parameter:###
+## Parameters
 
 
  - decimals: number of decimals

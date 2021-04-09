@@ -12,7 +12,7 @@ This function will write a message to the logfile.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - message: The message to log.

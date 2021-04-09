@@ -12,7 +12,7 @@ Returns false if the integer is zero, otherwise true.
 
 
 
-###Example:###
+## Example
     
     Integer i = 3;
     print(i.toBool().toString());

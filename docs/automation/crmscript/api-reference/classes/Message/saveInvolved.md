@@ -13,7 +13,7 @@ This function saves the email address a recipient of the message.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - email address

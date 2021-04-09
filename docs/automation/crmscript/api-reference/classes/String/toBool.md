@@ -14,7 +14,7 @@ The function returns false if the string is "0" or "False".
 
 
 
-###Example:###
+## Example
     
     String s = "1";
     s.toBool();

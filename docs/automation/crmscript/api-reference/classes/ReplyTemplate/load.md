@@ -10,7 +10,7 @@ This function loads a reply template to the object.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - Reply Template ID
@@ -20,7 +20,7 @@ Returns true if Reply Template with given ID loaded successfully
 
 
 
-###Languages:###
+## Languages
 
 Norwegian = 0,
 English = 1,

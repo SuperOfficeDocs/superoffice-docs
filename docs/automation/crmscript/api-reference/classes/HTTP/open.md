@@ -11,7 +11,7 @@ This function opens an url and returns the result as a Byte array.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - p\_url: The url to open. http://.....
@@ -19,7 +19,7 @@ This function opens an url and returns the result as a Byte array.
 
 
 
-###Example code:###
+## Example
 
 
     HTTP h;

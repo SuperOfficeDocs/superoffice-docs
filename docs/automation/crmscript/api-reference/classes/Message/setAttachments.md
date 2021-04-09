@@ -13,7 +13,7 @@ This function connects the attachments to the message.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - Vector ids The ids of the attachements

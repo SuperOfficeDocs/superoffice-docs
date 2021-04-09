@@ -12,7 +12,7 @@ A class for representing fields (Used by Company::set/getAddress() functions).
 
 
 
-###Example code:###
+## Example
 
 
     Company c;

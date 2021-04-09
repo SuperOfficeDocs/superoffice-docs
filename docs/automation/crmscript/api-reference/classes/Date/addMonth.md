@@ -14,7 +14,7 @@ The original object will be modified, and a copy is returned.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - num: Number of months to add/subtract

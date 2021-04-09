@@ -11,7 +11,7 @@ The method will give a string representation of the DateTime object.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - Integer representing the mode of the string representation. See below for the available modes
@@ -21,9 +21,8 @@ The method will give a string representation of the DateTime object.
 
 Returns the string representation of the DateTime object
 
+## Modes
 
-
-###Modes:###
     0: modeNewDate,          1998-01-12
     1: modeNew2Min,          1998-01-12 11:23
     2: modeNew2Sec,         1998-01-12 11:23:15
@@ -42,9 +41,7 @@ Returns the string representation of the DateTime object
     15: modeDateFirst,        18.08.2004 10.17
     16: modeSlash2Min        18/08/2004 10.17
 
-
-
-###Languages:###
+## Languages
     Norwegian = 0,
     English = 1,
     German = 2,

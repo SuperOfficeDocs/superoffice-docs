@@ -13,7 +13,7 @@ Get the value of the specifed field.
 
 
 
-###The following fields are available:###
+## Available fields
 
 
  - messageId the id which this invoice entry is connected to
@@ -28,7 +28,7 @@ Get the value of the specifed field.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - field: Name of the field which contains the value

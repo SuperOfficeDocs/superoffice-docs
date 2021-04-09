@@ -11,7 +11,7 @@ Get the text between two tags. For example \<TAG>Returns this text\</TAG>
 
 
 
-###Example:###
+## Example
     
     XMLNode xml = XMLNode("root");
     xml.setName("Root");

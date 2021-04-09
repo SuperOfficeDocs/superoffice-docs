@@ -11,7 +11,7 @@ This function returns the value for the given key.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - key: The key to return the value for.

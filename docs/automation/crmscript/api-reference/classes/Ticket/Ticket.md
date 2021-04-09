@@ -11,7 +11,7 @@ Class for representing an eJournal Ticket.
 
 
 
-###Example code:###
+## Example
 
 
     Ticket t;

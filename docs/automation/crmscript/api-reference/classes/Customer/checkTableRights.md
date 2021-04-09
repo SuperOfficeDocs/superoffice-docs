@@ -19,7 +19,7 @@ tableRight might be:
 
 
 
-###Example code:###
+## Example
 
 
     Customer c;

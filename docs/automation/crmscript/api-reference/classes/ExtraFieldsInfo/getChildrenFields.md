@@ -15,10 +15,7 @@ If you want all extra fields pointing to the extra table with id 5, you'd call g
 
 If you want all extra fields of type Dat you'd call getChildrenFields(3, 0)
 
-
-
-
-###Types can be:###
+## Types
 
 Integer                   =  1
 Text (long)              =  2

@@ -12,7 +12,7 @@ A Vector constructor that converts an IntegerArray into a Vector.
 
 
 
-###Parameter:###
+## Parameters
 
 
 - values: IntegerArray of values to be converted

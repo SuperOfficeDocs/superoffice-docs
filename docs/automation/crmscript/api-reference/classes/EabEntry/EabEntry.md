@@ -12,7 +12,7 @@ This class enables you to read and write entries from the email address book. It
 
 
 
-###Example code:###
+## Example
 
 
     EabEntry e;

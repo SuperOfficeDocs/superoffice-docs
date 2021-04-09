@@ -12,7 +12,7 @@ Get difference between two given times. The function returns a timespan.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - from: Count from this date

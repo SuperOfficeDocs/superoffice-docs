@@ -12,7 +12,7 @@ This class is used to handle eJournal attachments.
 
 
 
-###Example code:###
+## Example
 
 
     Attachment a;

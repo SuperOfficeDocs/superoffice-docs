@@ -13,7 +13,7 @@ Returns the current date and time.
 
 
 
-###Example:###
+## Example
     
     print(getCurrentDateTime().toString());
     

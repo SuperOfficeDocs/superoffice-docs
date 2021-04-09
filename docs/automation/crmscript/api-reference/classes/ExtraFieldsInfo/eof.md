@@ -9,10 +9,9 @@ so.topic: reference
 
 This function checks if there are no more fields in the result.
 
+## Usage
 
-
-###A common usage is in the condition section in a for loop:###
-
+A common usage is in the condition section in a for-loop:
 
     ExtraFieldsInfo efi;
     

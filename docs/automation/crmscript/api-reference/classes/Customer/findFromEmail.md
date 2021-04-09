@@ -13,7 +13,7 @@ This function will try to lookup a Customer entry in the primary database based 
 
 
 
-###Parameter:###
+## Parameters
 
 
  - email: The address to look up. Has to be address alone ("alias@domain").

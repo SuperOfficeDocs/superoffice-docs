@@ -11,7 +11,7 @@ This function returns the value of the given parameter.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - name: Name of the parameter you want the value of

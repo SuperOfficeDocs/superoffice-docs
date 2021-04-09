@@ -10,7 +10,7 @@ Return the number of values for the given variable in the Parser instance.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - name The name of the variable.

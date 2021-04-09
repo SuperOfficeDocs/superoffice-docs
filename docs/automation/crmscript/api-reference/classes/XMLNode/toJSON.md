@@ -19,7 +19,7 @@ Legal types are: object, array, string, number, bool and null.
 
 
 
-###Example:###
+## Example
     
     XMLNode xml = XMLNode("root");
     xMenu.setParameter("type", "object");
@@ -39,7 +39,7 @@ Legal types are: object, array, string, number, bool and null.
 
 
 
-###Returns:###
+## Returns
 
 
     {

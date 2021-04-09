@@ -13,7 +13,7 @@ This function loads many fields of the message to the input parser.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - Parser parser. The parser that the message values is loaded into.
@@ -22,7 +22,7 @@ This function loads many fields of the message to the input parser.
 The fields will be loaded as: message.value
 
 
-###The fields loaded are:###
+## Fields that are loaded
 
 
  - message.id, The id of the message

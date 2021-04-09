@@ -12,7 +12,7 @@ This function will return the month as a number between 1 and 12.
 
 
 
-###Example:###
+## Example
     
     Date d;
     print(d.toString()); 2015-07-10

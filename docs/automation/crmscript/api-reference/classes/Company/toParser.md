@@ -11,7 +11,7 @@ This function puts a lot of fields into the input parser.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - Parser parser: The parser to put the field-value-pairs to.
@@ -19,8 +19,7 @@ This function puts a lot of fields into the input parser.
 
 
 
-###The following fields will be loaded:###
-
+## Fields that will be loaded
 
  - company.id: The id
  - company.name: The name

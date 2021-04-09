@@ -13,9 +13,7 @@ Deprecated in 7.1.
 
 Extract a value from the license key.
 
-
-
-###The following values are available:###
+## Values
 
 users - The number of users.
 simUsers - The number of simultanious users.

@@ -11,7 +11,7 @@ Load object with values from category with given id.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - id: The id of the category to load.
@@ -21,7 +21,7 @@ Returns true if the category exists, otherwise false.
 
 
 
-###Example code:###
+## Example
 
 
     Category c;

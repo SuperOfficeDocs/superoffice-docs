@@ -17,7 +17,7 @@ Thsi function ssets the hour of the time.
 
 
 
-###Example:###
+## Example
     
     Time t;
     t.setHour(10);

@@ -15,7 +15,7 @@ This functipn sets the minutes of the time.
 
 
 
-###Example:###
+## Example
     
     Time t;
     t.setHour(10);

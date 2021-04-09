@@ -13,7 +13,7 @@ This function will search all external datasources for a Customer matching the g
 
 
 
-###Parameter:###
+## Parameters
 
 
  - email: The email address ("alias@domain").

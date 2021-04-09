@@ -12,7 +12,7 @@ This function sets the dates that are inactive.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - dates: A comma separated string of dates that are not "active".

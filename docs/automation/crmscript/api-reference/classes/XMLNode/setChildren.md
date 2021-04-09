@@ -10,7 +10,7 @@ Set an array of XMLNodes as the children of the current node.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - children: Array of child nodes.
@@ -19,7 +19,7 @@ Set an array of XMLNodes as the children of the current node.
 
 
 
-###Example:###
+## Example
     
     XMLNode xml = XMLNode("root");
     xml.setName("Root");

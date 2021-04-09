@@ -12,7 +12,7 @@ This function generates and returns a hash from a specified value using the SHA1
 
 
 
-###Example code:###
+## Example
 
 
     String s = "Hello world!";

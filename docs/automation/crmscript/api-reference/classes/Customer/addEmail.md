@@ -15,7 +15,7 @@ This functions is used to add an email to a customer usually in database integra
 
 
 
-###Parameters:###
+## Parameters
 
 
  - email: Email address

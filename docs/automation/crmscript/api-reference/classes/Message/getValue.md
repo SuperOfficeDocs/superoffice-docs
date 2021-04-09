@@ -11,7 +11,7 @@ Returns the value of column colName as String.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - String column name of the value

@@ -11,7 +11,7 @@ Loads the customer with the given id.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - id: The id of the customer to load.
@@ -21,7 +21,7 @@ Returns true if the customer exists, otherwise false.
 
 
 
-###Example code:###
+## Example
 
 
     Customer c;

@@ -10,7 +10,7 @@ This function will add the given number of days to the currently set timespan.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - num: Number of days to add to the timespan

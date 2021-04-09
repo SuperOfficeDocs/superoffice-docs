@@ -11,7 +11,7 @@ This function will convert the current byte to a heaxadecimal representation of 
 
 
 
-###Parameter:###
+## Parameters
 
 
  - "p\_padding": The number of padding zeroes

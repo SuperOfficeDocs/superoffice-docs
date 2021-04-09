@@ -11,7 +11,7 @@ Returns the integer round of the float
 
 
 
-###Example code:###
+## Example
 
 
     Float f = Float("13.79");
@@ -22,7 +22,7 @@ Returns the integer round of the float
 
 
 
-###Prints:###
+**Output:**
 
 "14"
 

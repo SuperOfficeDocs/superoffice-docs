@@ -13,7 +13,7 @@ This method will set a field of the current InvoiceEntry object with the given v
 
 
 
-###The following fields are available:###
+## Available fields
 
 
  - messageId the id of the message which this invoice entry is connected to
@@ -28,7 +28,7 @@ This method will set a field of the current InvoiceEntry object with the given v
 
 
 
-###Parameters:###
+## Parameters
 
 
  - field: on of the above field

@@ -13,7 +13,7 @@ Returns salutation string.
 
 
 
-###Example code:###
+## Example
 
 
     Customer c;

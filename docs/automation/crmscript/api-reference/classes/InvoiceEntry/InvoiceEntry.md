@@ -10,7 +10,7 @@ This class represent invoice entries. You will be able to create new or modify e
 
 
 
-###Example code:###
+## Example
 
 
     InvoiceEntry i;

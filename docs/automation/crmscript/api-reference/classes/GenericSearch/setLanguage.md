@@ -10,10 +10,7 @@ so.topic: reference
 
 Set what language to use when showing display fields.
 
-
-
-
-###At the time of writing the following values are defined:###
+## Values
 
 Norwegian = 0
 English = 1

@@ -11,7 +11,7 @@ This function sets the value of a given field if it exists.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - fieldname: Name of field to set
@@ -20,7 +20,7 @@ This function sets the value of a given field if it exists.
 
 
 
-###Example code:###
+## Example
 
 
     ExtraTable ex;

@@ -9,9 +9,7 @@ so.topic: reference
 
 This function will set the type of the parameter.
 
-
-
-###The following types are available:###
+## Available types
 
 
  - AnchorLine

@@ -11,7 +11,7 @@ Method should return true if it is possible to convert string to integer. If str
 
 
 
-###Example:###
+## Example
     //Returns true
     printLine(String("123").isNumber().toString());
     //Returns true, conversion to Integer will return 123

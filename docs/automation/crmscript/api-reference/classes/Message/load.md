@@ -11,7 +11,7 @@ Load message with given id, returns true if successful or false if not successfu
 
 
 
-###Parameter:###
+## Parameters
 
 
  - Integer id of message

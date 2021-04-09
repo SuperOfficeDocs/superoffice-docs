@@ -12,7 +12,7 @@ Class used for accessing and changing a ticket category.
 
 
 
-###Example code:###
+## Example
 
 
     Category c;

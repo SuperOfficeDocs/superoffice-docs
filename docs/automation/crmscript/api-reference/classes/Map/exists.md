@@ -13,7 +13,7 @@ Checks if the given key exists in the map.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - key: The key to check

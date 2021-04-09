@@ -10,7 +10,7 @@ Set the text between two tags.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - text: The text between two tags
@@ -19,7 +19,7 @@ Set the text between two tags.
 
 
 
-###Example:###
+## Example
     
     XMLNode xml = XMLNode("root");
     xml.setName("Root");

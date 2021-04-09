@@ -9,10 +9,7 @@ so.topic: reference
 
 Get the value of the given field in the EabEntry instance.
 
-
-
-###The following fields are available:###
-
+## Available fields
 
  - name
  - email
@@ -27,7 +24,7 @@ Get the value of the given field in the EabEntry instance.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - p0: The name of the field.
@@ -36,7 +33,7 @@ Get the value of the given field in the EabEntry instance.
 
 
 
-###Example code:###
+## Example
 
 
     EabEntry eab;

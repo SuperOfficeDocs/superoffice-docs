@@ -11,7 +11,7 @@ Sets the value of column colName to the given value
 
 
 
-###Parameters:###
+## Parameters
 
 
  - String column name of the value
@@ -20,7 +20,7 @@ Sets the value of column colName to the given value
 
 
 
-###Possible columns:###
+## Possible columns
 
 
  - id: Integer, The primary key (auto-incremented)

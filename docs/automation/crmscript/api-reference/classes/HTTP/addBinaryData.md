@@ -13,7 +13,7 @@ doing that. Normally, you also want to add a Content-Type header, indicating wha
 
 
 
-###Parameter:###
+## Parameters
 
 
  - p_binaryData: An array of Bytes containing the binary data you want to apply to the request body
@@ -21,7 +21,7 @@ doing that. Normally, you also want to add a Content-Type header, indicating wha
 
 
 
-###Example code:###
+## Example
 
 
     #setLanguageLevel 3;

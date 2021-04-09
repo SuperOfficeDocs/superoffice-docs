@@ -13,7 +13,7 @@ Adds an appointment to the class.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - id: The id of the appointment (can be retrieved later)

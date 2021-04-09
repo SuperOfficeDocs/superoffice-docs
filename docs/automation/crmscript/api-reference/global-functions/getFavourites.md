@@ -12,7 +12,7 @@ Returns an array containing the ids of all favourites in the given table.
 
 
 
-###Parameter:###
+## Parameters
 
 
 - table: Name of table

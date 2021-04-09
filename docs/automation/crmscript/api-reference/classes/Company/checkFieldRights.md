@@ -18,7 +18,7 @@ fieldRight might be:
 
 
 
-###Example code:###
+## Example
 
 
     Company c;

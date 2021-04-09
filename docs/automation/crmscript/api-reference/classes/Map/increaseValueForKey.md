@@ -13,7 +13,7 @@ This function will add the given float to the value of the given key.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - p0: the key
@@ -22,7 +22,7 @@ This function will add the given float to the value of the given key.
 
 
 
-###Example code:###
+## Example
 
 
     Map m;

@@ -11,7 +11,7 @@ Adds num seconds to the time and returns the datetime.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - num: the number of seconds to add.

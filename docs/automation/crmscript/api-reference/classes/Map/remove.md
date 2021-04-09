@@ -11,7 +11,7 @@ Will remove the element with the given key.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - key: the key matching the element to remove

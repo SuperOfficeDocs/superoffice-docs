@@ -8,7 +8,7 @@ so.topic: reference
 
 Returns the value of the specified header name.
 
-###Example code:###
+## Example
 
 
     String method = getHttpHeader("REQUEST-METHOD");
@@ -16,7 +16,7 @@ Returns the value of the specified header name.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - ACCEPT-*

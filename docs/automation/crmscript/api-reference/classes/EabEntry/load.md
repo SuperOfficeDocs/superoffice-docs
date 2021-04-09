@@ -11,7 +11,7 @@ Load an entry from the address book with the specified id. Returns true if load 
 
 
 
-###Parameter:###
+## Parameters
 
 
  - p0: id of the entry to load.
@@ -19,7 +19,7 @@ Load an entry from the address book with the specified id. Returns true if load 
 
 
 
-###Example code:###
+## Example
 
 
     EabEntry eab;

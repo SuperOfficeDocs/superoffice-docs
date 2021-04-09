@@ -10,7 +10,7 @@ Returns the Reply template html body, in the language given by language
 
 
 
-###Parameter:###
+## Parameters
 
 
  - language as an integer, see below
@@ -18,7 +18,7 @@ Returns the Reply template html body, in the language given by language
 
 
 
-###Languages:###
+## Languages
 
 Norwegian = 0,
 English = 1,

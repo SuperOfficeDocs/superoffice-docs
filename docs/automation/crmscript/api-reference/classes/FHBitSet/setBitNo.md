@@ -9,19 +9,13 @@ so.topic: reference
 
 This function sets a specific bit.
 
-
-
-###Parameters:###
+## Parameters
 
 
  - number: Index of the bit to set
  - val: Value to set this bit to - (True/False - 1/0)
 
-
-
-
-
-###Example:###
+## Example
     
     FHBitSet fh;
     
@@ -31,9 +25,6 @@ This function sets a specific bit.
     print(fh.toLsbString());
     
 
+**Output:**
 
-
-###Prints:###
 00000000000000001000000000000000
-
-

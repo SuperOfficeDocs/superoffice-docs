@@ -11,7 +11,7 @@ Load object with values from company with given id.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - id of the company
@@ -21,7 +21,7 @@ Returns a boolean of the load result, true if successfully loaded.
 
 
 
-###Example code:###
+## Example
 
 
     Company c;

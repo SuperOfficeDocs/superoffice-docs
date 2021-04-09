@@ -14,7 +14,7 @@ to override the Content-Type, be sure to set a Content-Type header **after** doi
 The method will return true if the attachment was found, else false.
 
 
-###Parameter:###
+## Parameters
 
 
  - p_attachmentId: The id of the Service attachment you want to upload
@@ -22,7 +22,7 @@ The method will return true if the attachment was found, else false.
 
 
 
-###Example code:###
+## Example
 
 
     #setLanguageLevel 3;

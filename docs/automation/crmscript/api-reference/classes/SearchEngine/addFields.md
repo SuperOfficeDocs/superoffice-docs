@@ -12,7 +12,7 @@ This method is a shortcut to add multiple fields to a query. The method will add
 
 
 
-###Example code:###
+## Example
 
     addFields("ticket", "id,title,category.fullname,cust_id.fullName");
 

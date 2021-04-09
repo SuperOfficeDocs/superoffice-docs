@@ -13,7 +13,7 @@ This function saves the recipients of the messages. Even if they are not custome
 
 
 
-###Parameter:###
+## Parameters
 
 
  - Vector emailAdresses to save

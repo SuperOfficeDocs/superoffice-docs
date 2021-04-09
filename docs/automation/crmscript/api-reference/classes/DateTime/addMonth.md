@@ -11,7 +11,7 @@ Adds num months to the date and returns datetime object.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - num: The number of months to add

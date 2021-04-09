@@ -15,7 +15,7 @@ This function sets the seconds of the time.
 
 
 
-###Example:###
+## Example
     
     Time t;
     t.setHour(10);

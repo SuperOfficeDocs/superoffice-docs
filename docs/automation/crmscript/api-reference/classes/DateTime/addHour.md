@@ -11,7 +11,7 @@ Adds num hours to the time and returns the datetime.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - num: the number of hours to add.

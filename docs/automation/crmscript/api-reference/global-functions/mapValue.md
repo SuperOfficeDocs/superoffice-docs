@@ -12,7 +12,7 @@ This function allocates a new map and maps the given value to the string "value"
 
 
 
-###Parameters:###
+## Parameters
 
 
 - value: String

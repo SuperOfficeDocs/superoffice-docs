@@ -12,7 +12,7 @@ Returns the Reply template subject, in the language given by language. The reply
 
 
 
-###Parameter:###
+## Parameters
 
 
  - language as an integer, see below
@@ -20,7 +20,7 @@ Returns the Reply template subject, in the language given by language. The reply
 
 
 
-###Languages:###
+## Languages
 
 Norwegian = 0,
 English = 1,

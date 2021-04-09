@@ -9,9 +9,9 @@ so.topic: reference
 
 This function returns the field name of the current field.
 
+## Example
 
-
-###Example that prints all field names of extra fields:###
+This code prints all field names of extra fields:
 
 
     ExtraFieldsInfo e;

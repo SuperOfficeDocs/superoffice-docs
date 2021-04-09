@@ -13,7 +13,7 @@ This function allows you to set parameter values that is sent to the external DB
 
 
 
-###Parameters:###
+## Parameters
 
 
  - name: The name of the parameter - for instance "resultSet.size"

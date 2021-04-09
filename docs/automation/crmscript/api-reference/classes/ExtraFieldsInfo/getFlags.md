@@ -9,9 +9,9 @@ so.topic: reference
 
 Returns the flags for the current extra field.
 
+These can be accessed by wrapping the returned Integer in a FHBitSet.
 
-
-###These can be accessed by wrapping the returned Integer in a FHBitSet. Example:###
+## Example
 
 --
 
@@ -23,9 +23,7 @@ Returns the flags for the current extra field.
 
 --
 
-
-
-###The flags are:###
+## Flags
 
 0  = The field is searchable
 1  = The field is public (external)
@@ -48,5 +46,3 @@ Returns the flags for the current extra field.
 18 = The field is not shown anywhere
 19 = The field is indexed
 20 = The field is viewed in relational searches
-
-

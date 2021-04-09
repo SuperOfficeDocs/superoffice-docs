@@ -9,10 +9,7 @@ so.topic: reference
 
 Sets the value of the given field for the category.
 
-
-
-###The available fields are:###
-
+## Available fields
 
  - parent: The id of the parent category.
  - name: The name of the category.
@@ -20,25 +17,15 @@ Sets the value of the given field for the category.
  - categoryMaster: The id of the category master.
  - notificationEmail: The value of the email notification field
 
-
-
-
-###Parameters:###
-
+## Parameters
 
  - name: The name of the field to set.
  - value: The value to set.
 
-
-
-
-###Example code:###
-
+## Example
 
     Category c;
     
     c.load(2);
     c.setValue("name", "Test");
     print(c.getValue("name"));
-
-

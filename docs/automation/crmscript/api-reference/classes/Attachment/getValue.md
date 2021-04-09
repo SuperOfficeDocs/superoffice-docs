@@ -26,7 +26,7 @@ The current implementation supports the following values as the name parameter.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - name: Value to receive

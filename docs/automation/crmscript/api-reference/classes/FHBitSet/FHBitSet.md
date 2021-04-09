@@ -12,7 +12,7 @@ This class is used to represent and manipulate a 32 bit bitset.
 
 
 
-###Example code:###
+## Example
 
 
     FHBitSet fh;

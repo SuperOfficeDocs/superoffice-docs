@@ -11,7 +11,7 @@ This function is used for integrating data from external systems.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - agent: Id of the agent, registered in the "Settings/DBI" section of eJournal.

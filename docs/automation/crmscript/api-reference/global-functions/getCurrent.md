@@ -12,7 +12,7 @@ Get the value of the given key from the map of values common to all of the Super
 
 
 
-###Parameter:###
+## Parameters
 
 
 - key: string key

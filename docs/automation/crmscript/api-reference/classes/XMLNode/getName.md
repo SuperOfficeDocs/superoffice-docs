@@ -13,7 +13,7 @@ Gets the name of the xml tag.
 
 
 
-###Example:###
+## Example
     
     XMLNode xml = XMLNode("root");
     xml.setName("Root");

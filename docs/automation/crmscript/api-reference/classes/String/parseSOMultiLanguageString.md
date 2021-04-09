@@ -13,12 +13,15 @@ These strings are typically used in SuperOffice list and description data.
 
 
 
-###String example from PrefDesc table:###
+## Example
+
+String from PrefDesc table:
+
 US:"Location and size";GE:"Position und Größe";NO:"Posisjon og størrelse"
 
 
 
-###Parameter:###
+## Parameters
 
 
  - language - the follwoing languages are available:

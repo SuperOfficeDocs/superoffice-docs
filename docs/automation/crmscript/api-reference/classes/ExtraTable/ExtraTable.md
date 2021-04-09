@@ -10,7 +10,7 @@ A class to access eJournal extra tables - create, edit and delete entries.
 
 
 
-###Example code:###
+## Example
 
 
     ExtraTable e;

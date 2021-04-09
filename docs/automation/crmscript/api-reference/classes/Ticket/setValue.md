@@ -13,17 +13,15 @@ Obs: For this to actually affect the ticket, you will have to use the function `
 
 
 
-###Parameter:###
+## Parameters
 
 
  - colName
  - value: A String representation of the value to set
 
+## Values
 
-
-
-###Possible values are the extrafields on the ticket and the following:###
-
+Possible values are the extrafields on the ticket and the following:
 
  - title
  - category: the category id

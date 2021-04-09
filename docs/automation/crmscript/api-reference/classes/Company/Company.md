@@ -10,7 +10,7 @@ Class for representing a company
 
 
 
-###Example code:###
+## Example
 
 
     Company c;

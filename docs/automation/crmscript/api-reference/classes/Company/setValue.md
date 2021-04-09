@@ -13,16 +13,13 @@ Sets a value in a column of a company.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - String column name
  - String value that should be stored
 
-
-
-
-###Possible column names:###
+## Possible column names
 
 
  - id: Integer, The primary key (auto-incremented)
@@ -50,7 +47,7 @@ Sets a value in a column of a company.
 
 
 
-###Example code:###
+## Example
 
 
     Company c;

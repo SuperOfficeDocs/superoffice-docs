@@ -10,7 +10,7 @@ Returns the Reply template SMS body, in the language given by language id.
 
 
 
-###Parameter:###
+## Parameters
 
 
  - language as an integer

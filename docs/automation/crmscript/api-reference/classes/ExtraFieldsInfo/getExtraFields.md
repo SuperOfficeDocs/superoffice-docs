@@ -12,7 +12,7 @@ This method will get extrafields related to the given table. Using this method w
 
 
 
-###Example:###
+## Example
     
     ExtraFieldsInfo e;
     

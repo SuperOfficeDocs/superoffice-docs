@@ -13,7 +13,7 @@ Sets the formatted address for a company
 
 
 
-###Parameters:###
+## Parameters
 
 
  - p0: The new address

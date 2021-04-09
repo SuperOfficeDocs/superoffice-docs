@@ -11,7 +11,7 @@ Supports both http and https. Returns the result in a NSStream.
 
 
 
-###Example code:###
+## Example
 
 
     HTTP h;

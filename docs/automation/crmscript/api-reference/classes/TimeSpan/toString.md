@@ -25,7 +25,8 @@ If the timespan is set to have ie 0 days, 10 hours, and 5 minutes, then toString
 
 
 
-###Language:###
+## Language
+
 Norwegian = 0
 English = 1
 

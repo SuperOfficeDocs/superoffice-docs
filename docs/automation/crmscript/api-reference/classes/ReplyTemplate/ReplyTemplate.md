@@ -9,7 +9,7 @@ This class represents a reply template.
 
 
 
-###Example code:###
+## Example
 
 
     ReplyTemplate rt;

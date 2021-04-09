@@ -17,7 +17,7 @@ Returns a float from a string representation of a number.
 
 
 
-###Example:###
+## Example
     
     String s = "150,3";
     s.toFloat();

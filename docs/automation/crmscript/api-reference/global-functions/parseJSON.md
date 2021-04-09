@@ -14,7 +14,7 @@ NOTE: This function has a bug. Empty arrays will still return one child. We reco
 
 
 
-###Example code:###
+## Example
 
 
     String jsonString = "{\"menu\": {\"liste\": [ \"1\", \"2\", \"3\", true, 123, 1.23 ],\"id\": \"file\",\"value\": \"File\",\"tall\": 1.234567,\"sant\": true,\"usant\": false,\"tom\": null,\"popup\": {\"menuitem\": [{\"value\": \"New\", \"onclick\": \"CreateNewDoc()\"},{\"value\": \"Open\", \"onclick\": \"OpenDoc()\"},{\"value\": \"Close\", \"onclick\": \"CloseDoc()\"}]}}}";
@@ -24,9 +24,7 @@ NOTE: This function has a bug. Empty arrays will still return one child. We reco
     
     /*
 
-
-
-###For example the following JSON document:###
+For example the following JSON document:
 
 
     {"menu": {
@@ -47,9 +45,7 @@ NOTE: This function has a bug. Empty arrays will still return one child. We reco
     }}
     
 
-
-
-###Is converted to:###
+**Is converted to:**
 
 \<root type="object">
   \<menu type="object">

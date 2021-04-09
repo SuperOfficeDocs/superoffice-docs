@@ -22,7 +22,9 @@ Will send the given messages just like the forward ticket functionality in the G
 
 
 
-###The recepients string matrix is formatted like this:###
+## Format
+
+The recepients string matrix is formatted like this:
 
 To | John Doe \<john.doe@john.doe>
 Cc | jane Doe \<jane.doe@jane.doe>

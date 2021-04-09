@@ -18,10 +18,7 @@ The index can be retrieved with `getHtmlElementIndex(elementName)`.
 * **index:** The index of the element
 * **Returns:** An integer defining the type of the element
 
-
-
-
-###Types are:###
+## Types
 
 -- Simple elements
 TypeAnchorLine = 1,

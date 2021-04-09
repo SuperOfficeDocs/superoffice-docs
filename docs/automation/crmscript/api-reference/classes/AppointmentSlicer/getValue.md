@@ -9,10 +9,7 @@ so.topic: reference
 
 Returns the value for the given field for the appointment pointed to by the internal iterator.
 
-
-
-###Available field values are:###
-
+## Available field values
 
  - id
  - date: The date for the appointment
@@ -20,12 +17,6 @@ Returns the value for the given field for the appointment pointed to by the inte
  - stop
  - title
 
-
-
-
-###Parameters:###
-
+## Parameters
 
  - field: The field to get the value for
-
-

@@ -12,7 +12,7 @@ Reload mailings selections and schedule to send again immediately. Used when you
 
 
 
-###Parameters:###
+## Parameters
 
 
 - shipmentId

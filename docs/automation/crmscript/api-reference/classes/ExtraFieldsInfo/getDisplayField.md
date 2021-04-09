@@ -12,7 +12,7 @@ This function returns the display field of the current field. The display field 
 
 
 
-###Example:###
+## Example
     
     ExtraFieldsInfo e;
     

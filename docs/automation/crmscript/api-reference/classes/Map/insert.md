@@ -11,7 +11,7 @@ Insert a new key-value pair in the map. This function will reset the internal it
 
 
 
-###Parameters:###
+## Parameters
 
 
  - key: The key.
@@ -22,7 +22,7 @@ From version 7.1 the function will return a reference to itself, allowing you to
 
 
 
-###Example code:###
+## Example
 
 
     Map().insert("foo", "bar").insert("Super", "Office");

@@ -11,7 +11,7 @@ Sets the value of the given field in the email instance.
 
 
 
-###The following fields are available:###
+## Available fields
 
 
  - from: The from address.
@@ -34,7 +34,7 @@ For multiple recipients, call setValue multiple times, once for each recipient.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - name: The name of the field.

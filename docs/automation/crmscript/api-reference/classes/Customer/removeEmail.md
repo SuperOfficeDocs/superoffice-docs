@@ -13,7 +13,7 @@ This function will remove the email-address from the customer. For the action to
 
 
 
-###Parameter:###
+## Parameters
 
 
  - email: The email address you want to remove from the customer.

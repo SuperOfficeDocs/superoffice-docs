@@ -12,7 +12,7 @@ Class used to retrieve the result of an url
 
 
 
-###Example code:###
+## Example
 
 
     HTTP h;

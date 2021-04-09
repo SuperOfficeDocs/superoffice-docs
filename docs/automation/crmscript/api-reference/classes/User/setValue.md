@@ -10,7 +10,7 @@ Sets a value in a given column.
 
 
 
-###Parameters:###
+## Parameters
 
 
  - String with column name
@@ -19,7 +19,7 @@ Sets a value in a given column.
 
 
 
-###Possible values:###
+## Values
 
 
  - id: Integer, The primary key (auto-incremented)
@@ -72,7 +72,8 @@ TicketActivated             = 4,
 
 
 
-###The different access flags:###
+## Access flags
+
     AccessNone                   = 0 (value 0),
     AccessListOthers             = 0 (bit number 1),
     AccessReadOthers             = 1,
@@ -104,7 +105,8 @@ TicketActivated             = 4,
 
 
 
-###The User flags:###
+## User flags
+
 None                            = 0,
     UseLastCategory                 = 1,
     DefaultTicketClose              = 2,

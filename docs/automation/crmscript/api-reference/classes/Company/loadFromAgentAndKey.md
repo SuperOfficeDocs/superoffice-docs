@@ -13,7 +13,7 @@ This function will load a company (possibly overwriting existing values) from th
 
 
 
-###Parameters:###
+## Parameters
 
 
  - agent: The id of the agent that "owns" this company.

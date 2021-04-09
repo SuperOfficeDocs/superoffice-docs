@@ -14,7 +14,7 @@ This function will return the day of month.
 
 
 
-###Example:###
+## Example
     
     Date d;
     print(d.toString()); 2015-07-10
