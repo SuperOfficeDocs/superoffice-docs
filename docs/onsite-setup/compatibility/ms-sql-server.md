@@ -15,7 +15,7 @@ so.envir: onsite                # cloud or onsite
 
 # Tested Microsoft SQL Server
 
-SuperOffice CRM has officially been tested on MS SQL Server 2012, 2014, 2016, 2017 and 2019.
+SuperOffice CRM has officially been tested on MS SQL Server versions listed below.
 
 | SQL Server | Server version | ODBC driver | Driver version |
 |------------|----------------|-------------|----------------|
