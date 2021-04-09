@@ -37,7 +37,7 @@ ServerSetup can be installed silently without using the user interface. All func
 | /P | Program folder. Full path for program folder |
 | /A | Archive folder. Full path for archive folder |
 | /T | Template folder. Full path for template folder, this is optional, default is folder named Templates in archive path |
-| /S| | Source folder. Full path for the *SuperOffice CRM* folder of the CD image, usually located beside the ServerSetup directory |
+| /S| Source folder. Full path for the *SuperOffice CRM* folder of the CD image, usually located beside the ServerSetup directory |
 | /F | Export file. Full path for database export file, only on upgrade with database. Do export is true if /F has a value. |
 | /B | Backup done. True or false, default is false |
 | /D | ODBC name |

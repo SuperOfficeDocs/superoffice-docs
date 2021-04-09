@@ -20,17 +20,17 @@ Full-text indexing is a database capability, and needs to be supported and enabl
 > [!TIP]
 > Contact your database vendor for information on how to enable this on your database.
 
-Service (formerly known as eJournal) has had this functionality available since version 4.7. From CRM 7, this functionality is now also available on some fields in Sales & Marketing win and web client.
+Service (formerly known as eJournal) has had this functionality available since version 4.7. From CRM 7, this functionality is now also available on some fields in Sales & Marketing Win and Web client.
 
 If full-text search is enabled on the database, it will use special search syntax when searching for the following entities:
 
-**in Service:**
+**In Service:**
 
 * Request content (title and message text)
 * Knowledge base FAQ articles
 * Quick search field, when searching request titles
 
-**in Sales & Marketing:**
+**In Sales & Marketing:**
 
 * All long text fields like appointment text, yellow notes, descriptions. Note: This is not a replacement of our full-text search, since it only works on specific fields, as part of the structured search system (Find)
 
