@@ -3,6 +3,7 @@ items:
   href:  index.md
 - name: Getting started
   href:  getting-started/index.md
+  expanded: true
   items:
   - name: Architecture
     href:  getting-started/architecture.md
@@ -22,6 +23,7 @@ items:
     href:  getting-started/debug.md
 - name: Pagebuilder
   href:  pagebuilder/index.md
+  expanded: true
   items:
   - name: Data binding
     href: pagebuilder/data-binding.md
@@ -61,6 +63,7 @@ items:
           href: pagebuilder/config/howto/add-custom-control.md
   - name: Data handlers
     href: pagebuilder/datahandlers/index.md
+    expanded: true
     items:
     - name: Use builtin data handler
       href: pagebuilder/datahandlers/use-builtin-datahandler.md
@@ -70,6 +73,7 @@ items:
       href: pagebuilder/datahandlers/idatahandler.md
   - name: Usercontrols
     href: pagebuilder/usercontrols/index.md
+    expanded: true
     items:
       - name: Mdolists
         href: pagebuilder/usercontrols/mdolists/index.md

@@ -10,6 +10,7 @@ items:
 - name: Sop and superstate
   href: sop-and-superstate.md
 - name: How to...
+  expanded: true
   items:
   - name: Create appointment
     href: create-appointment.md

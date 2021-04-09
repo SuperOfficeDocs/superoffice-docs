@@ -1,5 +1,6 @@
 ---
-title: crmscript_ui
+uid: ui
+title: User interface
 description: UI interaction and customization
 author:
 so.date:
@@ -7,78 +8,4 @@ keywords:
 so.topic: concept
 ---
 
-# UI interaction and customization
-
-A guide to interacting with and customizing the SuperOffice UI through CRMScript.
-
-## Screen events and hook scripts
-
-* [Screen events][1] represent steps in the process of loading Service screens.
-
-* *Hook scripts* are event-driven CRMScripts that do stuff at a specific point during loading.
-
-## Extra menus and button scripts
-
-* [Extra menus][2] let you make something easily available in SuperOffice Service. For example, a button that takes the user directly to a specific screen or a menu option that triggers a script.
-
-* [Button scripts][3] are CRMScripts that are referenced by their **includeId** and run when the user clicks a custom button.
-
-## Custom screens (bLogic)
-
-**bLogic** is a system for [designing screens][4] and displaying content in SuperOffice Service.
-
-Custom screens are based on a set of [screen elements][5] (controls) such as text, date, grid, and CRMScript.
-
-There are 3 types of screen elements:
-
-* [View elements][6]: display info (read-only)
-* [Form elements][7]: create user interaction with input fields
-* [Group elements][8]: create a hierarchy of elements and determine the layout of the screen
-
-These are listed in the [element reference][9].
-
-With scripts, you can:
-
-* process the form data of a screen - for example, to create a request or send an email
-
-* construct and modify a screen that requires a more dynamic layout - for example, to add an element only if the customer is of a specific category
-
-## Screen choosers
-
-[Screen choosers][10] are CRMScripts that redirect to a custom screen (or perform other actions before loading a standard screen).
-
-## URL parameters
-
-[URL parameters][11] let you control SuperOffice Service using simple HTTP commands.
-
-## Web panels
-
-[Web panels][12] let you add webpages inside SuperOffice CRM.
-
-## SOProtocol
-
-[SOProtocol][13] is a standard for defining URL short-cuts to SuperOffice entities. It lets you control the user interface without scripting and send users directly to the entry in question.
-
-## Classes
-
-* [EventData][14]
-* [HtmlElement][15]
-* [MainMenu][16]
-
-<!-- Referenced links -->
-[1]: service-ui/screen-events.md
-[2]: service-ui/extra-menus.md
-[3]: service-ui/button-scripts.md
-[4]: service-ui/custom-screens/index.md
-[5]: service-ui/custom-screens/add-screen-element.md
-[6]: service-ui/custom-screens/view-elements.md
-[7]: service-ui/custom-screens/form-elements.md
-[8]: service-ui/custom-screens/layout-elements.md
-[9]: service-ui/blogic-screen-elements/index.md
-[10]: service-ui/screen-choosers.md
-[11]: service-ui/url-parameters.md
-[12]: web-panels/index.md
-[13]: soprotocol/index.md
-[14]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/eventdata/eventdata.md
-[15]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/htmlelement/htmlelement.md
-[16]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/mainmenu/mainmenu.md
+# PLACEHOLDER
