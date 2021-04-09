@@ -15,7 +15,7 @@ so.envir:
 # Database tables by [name](index.md) | **number** 
 
 > [!NOTE]
-> Most table numbers are fixed, but could be different between databases - depends on whether there are custom 3rd party tables.
+> Table numbers could be different between databases - depends on whether there are custom 3rd party tables. You must reference the sequence table column `TableNumber` to be certain.
 
 | Number | Name | Description |
 |----|-----|----|
