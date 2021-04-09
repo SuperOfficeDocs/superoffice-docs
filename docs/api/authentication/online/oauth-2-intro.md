@@ -57,5 +57,5 @@ The user does not authenticate directly with an online application itself. OAuth
 * **OAuth doesn’t allow federated single sign-on**
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/overview.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/provisioning/get-consent.md
+[1]: ../../../../superoffice-docs/docs/apps/overview.md
+[2]: ../../../../superoffice-docs/docs/apps/provisioning/get-consent.md

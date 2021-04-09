@@ -22,7 +22,6 @@ NetServer contains several [authentication plugins][1], for as many different wa
 * Username+password (SuperOffice user, not AD)
 * Windows/AD user, who is a person (not System, Guest, and so on)
 * Impersonation identity
-* Anonymous identity
 * Username+password, matched against Windows/AD
 * Windows/AD user, who is not a person
 

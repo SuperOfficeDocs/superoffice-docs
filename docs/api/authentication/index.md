@@ -2,7 +2,7 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
 # Mandatory fields.
-uid: superoffice-authentication
+uid: superoffice-authentication-overview
 description: Overview of SuperOffice API authentication.
 author: AnthonyYates             # Your GitHub alias.
 so.date: 05.08.2018

@@ -17,7 +17,7 @@ To understand how OpenID Connect (OIDC) works, we’ll review basic concepts suc
 
 ![OpenID Connect][img1]
 
-**OICD terminology:**
+**OIDC terminology:**
 
 | SuperOffice term | Role | OpenID Connect term |
 |------------------|------|---------------------|
@@ -76,7 +76,7 @@ The hybrid flow offers more flexibility with this token flow, but it’s **less 
 <!-- Referenced links -->
 [1]: ../oauth-2-intro.md
 [2]: iframe-idp-auth.md
-[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/overview.md
+[3]: ../../../../../superoffice-docs/docs/apps/overview.md
 [4]: endpoints.md
 [5]: ../id-token.md
 [6]: ../jwt-intro.md

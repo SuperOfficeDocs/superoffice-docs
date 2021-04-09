@@ -84,7 +84,7 @@ Making a ticket string acceptable wherever a user name is requested is a way to 
 The ticket stub is timestamped and valid for 6 hours (in the database). Every time a ticket is used, it is renewed to the full 6 hours. We also log a bit about how it was used and you can have as many tickets as you want. We cache them and do not issue new ones every time you ask, this keeps the number of tickets at a manageable level
 Expired tickets cannot be renewed. They will be deleted in due course (typically when you use a valid ticket, we fire off a thread to clean up)
 
-Stored in the Credentials table. We no longer use the Associate.reserved is removed. This table is already used for storing outgoing credentials – such as mail server logins for CRM.Web, in 6.x.  In 7 we introduce incoming credentials (password, SID) and tickets as types. Custom plugins can add their own information.
+Stored in the Credentials table. We no longer use the Associate.reserved is removed. This table is already used for storing outgoing credentials – such as mail server logins for `CRM.Web`, in 6.x.  In 7 we introduce incoming credentials (password, SID) and tickets as types. Custom plugins can add their own information.
 
 ## Credentials table
 
