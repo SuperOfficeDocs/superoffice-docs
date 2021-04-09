@@ -89,16 +89,16 @@ The preferred bandwidth for the web servers is 1 Mbit/sec for all installations 
 
 ### IMAP
 
-* Port 143 or 993 (SSL) must be open between the Sales & Marketing web server and the mail server
+* Port 143 or 993 (SSL) must be opened between the Sales & Marketing web server and the mail server
 
 ### SMTP
 
-* Port 25 or 465 (SSL) must be open between the Sales & Marketing web server and the mail server
+* Port 25 or 465 (SSL) must be opened between the Sales & Marketing web server and the mail server
 
 ### Requisites
 
-* **Microsoft .NET v 4.8 from 8.5 R05 and 9**
-* Microsoft .NET v 4.7.1 from 8.3 R04
+* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and 9**
+* Microsoft .NET v 4.7.1 from SuperOffice 8.3 R04
 * Microsoft .NET v 4.5.1 (as a web download)
 * Windows communication foundation (on both the server running Sales & Marketing web and the server running NetServer web services)
 * Local administrator rights (installation)

@@ -30,7 +30,7 @@ These apply to computers running the Sales, Marketing, and Service clients.
 
 * Microsoft Windows 10, minimum Anniversary update
 * Microsoft Windows 8.1 (32bit) or (64bit)
-* Mac - web client only
+* Mac - Web client only
 
 SuperOffice CRM Web will run on Mac, though with some limitations: cross table reports not supported.
 
@@ -74,6 +74,8 @@ Windows operating system only
 
 ## SuperOffice Ribbons
 
+Windows operating system only
+
 * Microsoft Office 2019
 * Microsoft Office 2016
 * Microsoft Office 2013
@@ -81,16 +83,16 @@ Windows operating system only
 
 ## WebTools
 
-To run WebTools with Web Extensions and MailLink, the client is required to have Microsoft .Net Framework 4.5.1 (full).
+To run WebTools with Web Extensions and MailLink, the client is required to have Microsoft .Net Framework 4.7.2 for WebTools 12.0 and newer. For WebTools 11.7 and older the client needs .Net Framework 4.5.1.
 
 ### TSL
 
-If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8.0 SR1 to avoid using TLS 1.0. NetServer used by Pocket CRM still needs TLS 1.0 up till version 8.0.32 (R14) client, released August 15th, 2016.
+If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8.0 SR1 to avoid using TLS 1.0. NetServer used by Pocket CRM still needs TLS 1.0 up until version 8.0.32 (R14) client, released August 15th, 2016.
 
-## Requisites installed by client installer
+## Requisites installed by the client installer
 
-* **Microsoft .NET v 4.8 from 8.5 R05**
-* Microsoft .NET v 4.7.1 from 8.3 R04
+* **Microsoft .NET v 4.8 from SuperOffice 8.5 R05**
+* Microsoft .NET v 4.7.1 from SuperOffice 8.3 R04
 * Microsoft .NET v 4.5.1 (as a web download)
 
 * VSTO 2010 runtime (32bit or 64bit) for Ribbons on MS Office 2010 / 2013 / 2016 / 2019
