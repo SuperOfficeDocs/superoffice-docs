@@ -22,7 +22,7 @@ Standard [applications][1] are owned by, operated by, and the responsibility of 
 All applications begin in our [sandbox environment][2]. Standard applications must pass our [certification][3] and [security evaluation][4] by Watchcom. After that, you may list your application in our App Store.
 
 <!-- Referenced links -->
-[1]: index.md
+[1]: overview.md
 [2]: getting-started/app-envir.md
 [3]: certification/index.md
 [4]: certification/secure-app.md

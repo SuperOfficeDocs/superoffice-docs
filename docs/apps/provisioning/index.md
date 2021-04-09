@@ -36,5 +36,5 @@ If you don't offer automatic provisioning from day 1, be prepared to do so soon 
 Manual provisioning might introduce potential errors. You also run the risk of the customer never getting the application going.
 
 <!-- Referenced links -->
-[1]: ../index.md
+[1]: ../overview.md
 [2]: ../tenant-status/index.md

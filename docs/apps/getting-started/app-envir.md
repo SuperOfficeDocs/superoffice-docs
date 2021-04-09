@@ -90,7 +90,7 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 [5]: overview.md
 [6]: ../tenant-status/index.md
 [7]: ../app-store.md
-[8]: ../index.md
+[8]: ../overview.md
 [9]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/federated-auth.md
 [10]: ../client-id-secret.md
 [11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/certificates/index.md
