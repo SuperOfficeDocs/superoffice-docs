@@ -11,6 +11,8 @@ The config fields needed to establish a connection to the connector
 **Parameter:** 
  - **configFields** StringDictionary
 
+* **Returns:** StringDictionary
+
 ```crmscript
 NSErpConnection thing;
 StringDictionary configFields;

@@ -19,5 +19,3 @@ This function will return the iso week number, from 1 to 53.
     Date d;
     String s = d.getWeek().toString();
     print(s); 28
-
-

@@ -19,6 +19,8 @@ Contains all mapped ErpActorType for this CrmActorType
      - Enum: 6 = Employee 
      - Enum: 7 = Sale 
 
+* **Returns:** ErpActorTypeArray
+
 ```crmscript
 NSErpConnectionData thing;
 ErpActorTypeArray erpActorTypes;
