@@ -14,6 +14,7 @@ items:
     href: ../../identity-management/single-sign-on/onsite-sso.md
 - name: SuperID
   href: ../../identity-management/superid/idp-and-doc-handling.md
+  expanded: true
   items:
   - name: Sign-in services
     href: ../../identity-management/superid/sign-in-services.md
@@ -43,6 +44,7 @@ items:
       href: ../../identity-management/superid/howto/complete-user-transition.md
 - name: User
   href: ../../identity-management/user/add-user-in-admin-client.md
+  expanded: true
   items:
   - name: Add user in admin client
     href: ../../identity-management/user/add-user-in-admin-client.md
@@ -54,6 +56,7 @@ items:
     href: ../../identity-management/user/send-welcome-emails.md
 - name: Active Directory
   href: ../../identity-management/ad/index.md
+  expanded: true
   items:
   - name: Set up AD auth
     href: ../../identity-management/ad/set-up-ad-auth.md
@@ -61,6 +64,7 @@ items:
     href: ../../identity-management/ad/mapping-so-user-to-ad-v-7-1.md
 - name: SCIM
   href: ../../identity-management/scim/overview.md
+  expanded: true
   items:
   - name: Sign in to SCIM
     href: ../../identity-management/scim/sign-in-to-scim.md

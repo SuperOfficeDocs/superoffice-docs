@@ -1,7 +1,9 @@
 items:
 - name: Install onsite
+  expanded: true
   items:
   - name: Pre-requisites
+    expanded: true
     items:
     - name: System requirements
       href: ../../onsite-setup/system-requirements.md
@@ -97,6 +99,7 @@ items:
       href: ../../onsite-setup/service/install-manually.md
     - name: Install Service
 - name: Upgrade onsite
+  expanded: true
   items:
   - name: To version 8.0
     items:
@@ -119,6 +122,7 @@ items:
     href: ../../onsite-setup/upgrade/upgrade-to-8-1.md
 - name: Migrate to online
   href: ../../onsite-setup/migrate/index.md
+  expanded: true
   items:
   - name: System requirements
     href: ../../online/system-requirements.md
@@ -128,6 +132,7 @@ items:
     href: ../../onsite-setup/migrate/run-omt.md
 - name: Config
   href: ../../onsite-setup/config-and-ini/index.md
+  expanded: true
   items:
   - name: How to find the superoffice.ini file
     href: ../../onsite-setup/win-client/find-superoffice-ini-file.md

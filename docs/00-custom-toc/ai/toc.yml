@@ -3,6 +3,7 @@ items:
   href: ../../ai-services/index.md
 - name: Configuration AI
   href: ../../ai-services/configuration-ai/index.md
+  expanded: true
   items:
   - name: Getting started
     href: ../../ai-services/configuration-ai/getting-started.md
