@@ -1,0 +1,56 @@
+---
+title: schedule
+description:   
+author: {github-id}             # Your GitHub alias.
+keywords:
+so.date:
+so.topic: howto
+so.envir: onsite
+so.client: win
+---
+
+# Schedule tasks for travel gateway
+
+> [!NOTE]
+> You must not close the Gateway program. If you do, the activities will not be performed until you start the program again.
+
+To add a new activity to be run automatically:
+
+1. Run SuperOffice Travel Gateway if it isn’t already running (start the SOTrvGate.exe file located in the SuperOffice program files folder).
+
+2. Click **New** to open the dialog where you specify what SuperOffice Travel Gateway should do.
+
+3. In the **Type** field, select the activity from the list. You can choose from these options:
+
+    * Sign On (obsolete)
+    * Sign Off (obsolete)
+    * Read updates
+    * Write updates
+    * Generate Prototype
+    * Read updates from all users
+    * Write updates to all users
+    * Generate Prototypes for all areas
+    * Execute program/batch file
+    * Create signal file
+    * Remote Travel Server
+    * Regenerate all counters
+    * Regenerate all statuses
+    * Synchronize with ERP
+
+    [View descriptions of each type][1]
+
+4. Under **Scheduling**, you can choose from the following options:
+
+    * Immediately after the preceding task
+    * Interval (all combinations of time and date)
+    * When signal file exists
+
+5. Click **OK** to return to the main Gateway window. Once an activity has been performed, the date is automatically changed to the next scheduled time.
+
+6. Once you have made the required changes, you need to reset the execution status back to **Active** so that SuperOffice Travel Gateway can perform the activities.
+
+> [!NOTE]
+> If you choose to schedule with signal files, the activity starts when it finds a signal file. Once the activity has finished running, the signal file is deleted. The *Signal.dat* file should be created in SO\_Arc where the gateway is looking for it.
+
+<!-- Referenced links -->
+[1]: activity-types.md

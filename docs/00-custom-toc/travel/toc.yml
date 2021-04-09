@@ -1,0 +1,56 @@
+items:
+- name: Overview
+  href: ../../travel/overview.md
+- name: Number allocation
+  href: ../../travel/number-allocation.md
+- name: How to activate travel
+  href: ../../travel/activate.md
+- name: What is an update prototype?
+  href: ../../travel/update-prototype.md
+- name: Database options
+  items:
+  - name: Built-in
+    items:
+    - name: Set up
+      href: ../../travel/built-in/set-up.md
+    - name: Create prototype
+      href: ../../travel/built-in/create-prototype.md
+  - name: SQL Express
+    items:
+    - name: Set up
+      href: ../../travel/sql-express/set-up.md
+    - name: Create prototype
+      href: ../../travel/sql-express/create-prototype.md
+  - name: Sybase
+    items:
+    - name: Set up
+      href: ../../travel/sybase/set-up.md
+    - name: Create prototype
+      href: ../../travel/sybase/create-prototype.md
+- name: Travel gateway
+  href: ../../travel/travel-gateway/overview.md
+  items:
+  - name: SuperOffice Remote Travel Server
+    href: ../../travel/travel-gateway/sorts.md
+  - name: Install service
+    href: ../../travel/travel-gateway/install.md
+  - name: Schedule tasks
+    href: ../../travel/travel-gateway/schedule.md
+  - name: Activity types
+    href: ../../travel/travel-gateway/activity-types.md
+  - name: Troubleshooting
+    href: ../../travel/travel-gateway/troubleshooting.md
+- name: Area management
+  href: ../../travel/area-management/overview.md
+  items:
+  - name: Terminology
+    href: ../../travel/area-management/terminology.md
+  - name: Set up
+    href: ../../travel/area-management/set-up.md
+- name: Satellite
+  href: ../../travel/satellite/overview.md
+  items:
+  - name: Set up
+    href: ../../travel/satellite/set-up.md
+  - name: Trouble shooting
+    href: ../../travel/satellite/troubleshooting.md

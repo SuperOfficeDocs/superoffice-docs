@@ -1,24 +1,24 @@
 ---
-title: create_update_prototype
-description:                 
+uid: create_prototype_sql_express
+title: Create prototype for SQL Express
+description: Create a prototype for SQL Express
 author: {github-id}             # Your GitHub alias.
 keywords:
-so.topic: howto             # article, howto, reference, concept, guide
-so.envir: onsite                # cloud or onsite
-so.client: win               # online, web, win, pocket, or mobile
+so.date:
+so.topic: howto
+so.envir: onsite
+so.client: win
 ---
 
-# Create an update prototype
+# Create prototype for SQL Express
 
-The local update is based on an update prototype, which is a copy of the central database and contains the same information that the central database contained when the update prototype was generated. It is much quicker and more efficient to copy a single file than to copy data from a complex database (by a factor of 50 or more). With the prototype as an intermediary, the local update is performed more rapidly.
+The computer used to generate a prototype must have a full SQL server or SQL Express installed.
 
-The computer used to generate a prototype must have a full SQL server or SQL Express installed. The SuperOffice.ini file in the program folder must have two additional configuration settings to generate a prototype. The SuperOffice.ini file for the users going on travel in addition needs the `Local_datasource` setting.
+The *SuperOffice.ini* file in the program folder must have 2 additional configuration settings to generate a prototype. The *SuperOffice.ini* file for the users going on travel also needs the `Local_datasource` setting.
 
-Make sure you start SOAdmin.exe elevated (as administrator) the first time you try to generate a prototype.
+Make sure you start SOAdmin.exe elevated (as administrator) the first time you try to generate a prototype. From 7.0 SR1, we no longer create separate AreaX ODBC datasources during prototype generation. This means you are no longer required to be local administrator to generate a prototype.
 
-## Configuration
-
-### Paths and configuration variables
+## Paths and configuration variables
 
 The prototype is generated on a database server, and the actual database file must reside on the same server. If the archivepath file store and the database server run on different computers, the prototype will have to be created on the database server and not the archivepath file server – this is how SQL Server works.
 

@@ -40,11 +40,7 @@ items:
 # only 1 page for search - goes to Service toc for now
 - name: Service
   href: service/toc.yml
-# Travel goes into database for now (set in build docs, keep lines here!)
 - name: Travel
-  href: ../travel/overview.md
-  items:
-  - name: Create an update prototype
-    href: ../travel/create-update-prototype.md
+  href: travel/toc.yml
 - name: WebTools
   href: webtools/toc.yml

@@ -1,0 +1,29 @@
+---
+title: Create prototype for Sybase
+uid: create_prototype
+description: Create prototype for Sybase
+author: {github-id}             # Your GitHub alias.
+keywords:
+so.date:
+so.topic: howto
+so.envir: onsite
+so.client: win
+---
+
+# Create prototype for Sybase
+
+To set up an update prototype for Sybase, you need to set up an Area data source on the computer where the prototype is generated. This will in most cases be the same computer where the Travel Gateway is running.
+
+![1][img1]
+
+![2][img2]
+
+When this data source is set up, you may now generate the prototype.
+
+Clients need to have the Sybase client installed. SOLoader.exe will set up the local data source for the client.
+
+<!-- Referenced links -->
+
+<!-- Referenced images -->
+[img1]: media/crm5sybaseodbcprototype1.jpg
+[img2]: media/crm5sybaseodbcprototype2.jpg
