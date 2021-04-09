@@ -8,7 +8,7 @@ items:
     href: ../authentication/online/index.md
     items:
     - name: OpenID Connect / OAuth 2.0
-      href: ../authentication/online/index.md
+      href: ../authentication/online/oidc/index.md
       items:
       - name: Authorization Code Flow
         href: ../authentication/online/oidc/auth-code-flow.md
