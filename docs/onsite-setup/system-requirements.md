@@ -18,7 +18,7 @@ so.envir: onsite                # cloud or onsite
 Use this overview to get to the specific requirements.
 
 > [!TIP]
-> Also consider info in the security and deployment sections when installing or upgrading to SuperOffice CRM 8 and 9.
+> Also consider info in the [Security and deployment][12] sections when installing or upgrading to SuperOffice CRM 8 and 9.
 
 ## Requirements
 
@@ -49,3 +49,4 @@ Use this overview to get to the specific requirements.
 [9]: compatibility/browser.md
 [10]: compatibility/ms-office.md
 [11]: compatibility/database.md
+[12]: security/secure-deployment-guide.md

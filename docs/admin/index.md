@@ -12,9 +12,9 @@ keywords:
 The Admin client in Web is used for Sales & Marketing administration.
 
 > [!NOTE]
-> With SuperOffice 8 and 9 all onsite customers must install the Web client to use the Maintenance and settings client.
+> With SuperOffice 8 and 9 all onsite customers must install the Web client to use the Maintenance and Settings client.
 
-### Available admin help files
+### Available Admin help files
 
 * [Licenses][1]
 * [User configuration][2]
@@ -26,17 +26,20 @@ The Admin client in Web is used for Sales & Marketing administration.
 * [Import][8]
 * [Fields][9]
 
-## The Windows Admin app
+## The Windows Maintenance and Settings client
 
 Used for Windows client settings, replication, scripting, advanced import, options/SoLoader.
 
-To distribute Windows client software from third-party vendors you may use the [Options - SOLoader][11]
+To distribute Windows client software from third-party vendors you may use the [Options - SOLoader][11].
 
-[Replication][12] with Travel, area management, and satellite is only available in the Windows Client Settings.
+[Replication][12] with Travel, Area management, and Satellite is only available in the Windows Maintenance and Settings client.
 
-More [advanced imports][13] to fields not available in the web client, like to partner-defined tables created with our SODictionarySDK.
+More [advanced imports][13] to fields not available in the Web client, like to partner-defined tables created with our SODictionarySDK.
 
-Also [scripts][14] available in the Windows client only may be enabled in the Windows admin only.
+Also [scripts][14] available in the Windows client only may be enabled in the Windows Admin only.
+
+> [!NOTE]
+> Due to the SuperOffice 9 is distributed with Web client only, SuperOffice Maintenance and Settings client for SuperOffice 9 contains only the Import section.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap03%2FLicences_screen.htm

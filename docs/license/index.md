@@ -13,7 +13,7 @@ so.client:                    # online, web, win, pocket, or mobile
 The license system has its own set of tables
 
 * [ModuleOwner][1] – an issuer of licenses.
-  * Initially only one row (SuperOffice).
+  * Initially only one row (SuperOffice)
   * Contains global expiration dates
 * [ModuleLicense][2] – one row per license
   * More than you see, some licenses are hidden from the GUI
@@ -21,7 +21,7 @@ The license system has its own set of tables
 
 ## License assignment
 
-[LicenseAssocLink][3] – assigns one particular `moduleLicense` to a certain associate. That is how Marekv becomes a User and a Windows client user; this would be 2 records.
+[LicenseAssocLink][3] – assigns one particular `moduleLicense` to a certain associate. That is how John becomes a User and a Windows client user; this would be 2 records.
 
 The sum of licenses assigned to any particular module is limited to the number in `moduleLicense`.
 A new license set from SuperLicense will not be accepted if more than the acquired number is already assigned.

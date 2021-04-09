@@ -15,7 +15,7 @@ so.topic: reference              # article, howto, reference, concept, guide
 These pages describe the user-preferences used in SuperOffice.
 
 > [!NOTE]
-> Many of these preferences control important system functions, and changing the values or adding a new preference value may cause the SuperOffice application or specific functionality (like travel or area management) to stop working. **Be very careful when changing these preferences.**
+> Many of these preferences control important system functions, and changing the values or adding a new preference value may cause the SuperOffice application or specific functionality (like Travel or Area management) to stop working. **Be very careful when changing these preferences.**
 
 Preferences are stored in the `UserPreference` table in the database.
 
@@ -53,7 +53,7 @@ The meaning of the `owner_id` depends on the `deflevel` value.
 
 | `deflevel` | `owner_id` |
 |---|---|
-| 1 | 0 |
+| 1 | 0 |
 | 2 | 0 |
 | 3 | satellite ID (`travelcurrent_id`) |
 | 4 | `usergroup_id` |
