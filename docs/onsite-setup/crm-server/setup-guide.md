@@ -85,7 +85,7 @@ A warning will be given when installing prerequisites if the installation of the
 
 The reason is the prerequisites installation program on the installation package contains only the bootstrapper for the .Net installation and not the entire setup program (approx 2.5 MB vs 250MB).
 
-### Automatic update of clients
+### Automatic update of clients (for SuperOffice Windows client only)
 
 In the last screen of ServerSetup, **Installation is complete**, you can select to use an automated update for client installations.
 

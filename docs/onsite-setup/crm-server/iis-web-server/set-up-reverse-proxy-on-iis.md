@@ -25,7 +25,7 @@ Our recommended deployment scenario uses Reverse proxy on the DMZ server to acce
 **Preparations:**
 
 * An internal site installed in the Internal Server Network
-* A public site in the DMZ available from the Internet (see [Scenario #2][1]
+* A public site in the DMZ available from the Internet (see [Scenario #2][1])
 
 ## Reverse Proxy on DMZ server
 

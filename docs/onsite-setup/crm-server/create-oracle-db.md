@@ -64,7 +64,7 @@ You now have to create the user who is going to be the owner of all tables used 
 | Status | Unlocked |
 
 > [!NOTE]
-> You may call the CRM7 user anything you want, this is just an example. Also, you may no longer use CRM7myd or any variation of this as a password for the system user.
+> You may call the CRM7 user anything you want, this is just an example. 
 
 2. Move to the **Roles/Privileges** tab and grant the following roles:
 
@@ -73,7 +73,7 @@ You now have to create the user who is going to be the owner of all tables used 
 
 ### Set Open Cursors
 
-The maximum number of Open Cursors depends on the memory available. To run CRM 7, Open Cursors must be at least 1000.
+The maximum number of Open Cursors depends on the memory available. To run SuperOffice, Open Cursors must be at least 1000.
 
 To set the number of open cursors: `OPEN_CURSORS = 1000`
 
@@ -122,7 +122,7 @@ All Oracle users created by SuperOffice will have Default and Temporary tablespa
 The configuration program reads Default and Temp TableSpace names from *SUPEROFFICE.INI*
 
 ```text
-\[Oracle\]
+[Oracle]
 DefaultTableSpace=USERS
 TemporaryTableSpace=TEMP
 ```
