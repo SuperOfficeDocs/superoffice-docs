@@ -1,6 +1,6 @@
 items:
 - name: Introduction
-  href: ../index.md
+  href: ../overview.md
 - name: Getting started
   href: ../getting-started/index.md
   items:
