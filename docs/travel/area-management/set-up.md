@@ -15,10 +15,15 @@ The best way to visualize how to define areas within your company is to "define 
 
 **Available associates** are all users that have been defined as employees in the **Users** panel in the Admin client. They are listed in the **Area Definition** dialog and can be assigned log-in access rights.
 
-A user can only be assigned to one area at the time, but more than one user could have log-in rights rights to an area. You can actually have log-in rights to an area where your own data is not included, but this is not recommended.
+![Area definition dialog][img1]
 
-* When you assign a user to an area, they are moved from the **Available associates** list to the **Included associates** list.
-* When you assign access rights to that user, they move from the **Included associates** list to the **Assigned associates** list.
+> [!NOTE]
+> There are 2 lists called **Available associates**. The top one is used when assigning users to an area. The bottom one is used when setting access rights.
+
+A user can only be assigned to one area at a time, but more than one user could have log-in rights to an area. You can actually have log-in rights to an area where your own data is not included, but this is not recommended.
+
+* When you assign a user to an area, they are moved from the top **Available associates** list to the **Included associates** list.
+* When you assign access rights to that user, they move from the bottom **Available associates** list to the **Assigned associates** list.
 
 In the scenarios below, the areas of user A and user B contain only their data respectively, while user C's area contains not only the data of user C but also the data of user A and user B.
 
@@ -41,7 +46,9 @@ Before you begin the area definition, you should:
 
 3. In the **Area Definition** dialog, enter a descriptive name for the area into the **Area Name** field.
 
-4. Highlight the user and click the arrows to move them to the desired list.
+4. Highlight the user and click the right arrows to move them to the desired list.
+
+    Use the top lists to assign users to an area. Use the bottom lists to set access rights.
 
 5. Click **OK** to save. You return to the **Area Management** dialog where the new area now is listed in **Defined Areas**.
 
@@ -54,13 +61,13 @@ Before you begin the area definition, you should:
 
 1. In the **Area Definition** dialog, enter *area A* into the **Area Name** field.
 
-2. Highlight *User A* and click the left arrow to the *left* of the **Available associates** list.
+2. Highlight *User A* in the top **Available associates** list and click the *right* arrow next to the list.
 
-    User A is now listed as included associate.
+    User A is now listed as an included associate.
 
-3. Highlight *User A* and click the left arrow to the *right* of the **Available associates** list.
+3. Highlight *User A* in the bottom **Available associates** list and click the *right* arrow next to the list.
 
-    User A is now listed as assigned associate.
+    User A is now listed as an assigned associate.
 
 4. Click **OK** to save.
 
@@ -82,7 +89,7 @@ Repeat steps 1-4 to define the area for user B / area B.
 
 ### 2 users including the data belonging to 2 other users
 
-If we use the example with the salespersons Peter, Paul, Marie and Lynne as a starting point, we will now define an area for Peter and Paul including Peter’s, Paul’s, Marie’s and Lynne’s data.
+If we use the example with the sales-persons Peter, Paul, Marie, and Lynne as a starting point, we will now define an area for Peter and Paul including Peter’s, Paul’s, Marie’s, and Lynne’s data.
 
 1. In the **Area Definition** dialog, enter *Customer Group California* into the **Area Name** field.
 
@@ -119,3 +126,6 @@ To view which users are assigned sign-on rights to which areas, click the **View
 
 <!-- Referenced links -->
 [1]: ../update-prototype.md
+
+<!-- Referenced images -->
+[img1]: media/area-definition-dialog.md
