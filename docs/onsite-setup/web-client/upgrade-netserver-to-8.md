@@ -20,15 +20,15 @@ These are the recommended steps for upgrading from SuperOffice 7 NetServer to S
 ## Before you begin
 
 * Considered the [security][1]
-* Upgrade your database to version 8.0 using [Serversetup.exe][2]
+* Upgrade your database to version 8 using [Serversetup.exe][2]
 
-If SuperOffice 7 Web runs on Remote NetServer, it is possible to merge CS NetServer and S&M web NetServer for a more lean administration.
+If SuperOffice 7 Web runs on Remote NetServer, it is possible to merge Service NetServer and S&M Web NetServer for a more lean administration.
 
 [!include[ALT](../includes/warn-upgrade-all-to-same-version.md)]
 
 ## Upgrade
 
-1. See [system requirements][3] for SuperOffice8 NetServer
+1. See [system requirements][3] for SuperOffice 8 NetServer
 2. Download and unzip the Web installer package on your server
 3. Run the Web installer
 

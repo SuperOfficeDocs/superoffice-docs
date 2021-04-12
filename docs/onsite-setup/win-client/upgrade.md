@@ -29,7 +29,7 @@ Make sure the [system requirements][8] for the computer are met.
 
 ## Step 2 - Install correct ODBC driver if needed
 
-### Oracle ODBC driver, Microsoft Native Client or Microsoft **SQL Server driver
+### Oracle ODBC driver, Microsoft Native Client or Microsoft SQL Server driver
 
 **Oracle:** If you want to use Oracles 11g, you need to install the Oracle client drivers on each client first. Oracle 10g may run on the Microsoft version of the Oracle driver.
 
