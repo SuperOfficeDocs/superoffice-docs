@@ -1,15 +1,19 @@
 ---
-title: provisioning       
+title: provisioning
 description: Provisioning
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
+so.date:
 keywords:
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Provisioning
 
 Applications that compliment SuperOffice with additional functionality generally need to (automatically) set up a presence inside SuperOffice. This initialization step is referred to as provisioning your application in SuperOffice.
 
-When the customer clicks **I approve,** it should automatically set up your [application][1]. This is accomplished by a [tenant administrator][2] user installing the application and interacting with its provisioning routines:
+When the customer clicks **I approve,** it should automatically set up your application. This is accomplished by a tenant administrator user installing the application and interacting with its provisioning routines:
 
 1. The user successfully signs into SuperID, is then forward to the application's installation pages, and the application begins to use the administrative credentials it received from SuperID to access and set up the tenant via the APIs.
 2. The application creates whatever it needs to exist and function inside SuperOffice (such as web panels, buttons, lists, and list items).
@@ -36,5 +40,3 @@ If you don't offer automatic provisioning from day 1, be prepared to do so soon 
 Manual provisioning might introduce potential errors. You also run the risk of the customer never getting the application going.
 
 <!-- Referenced links -->
-[1]: ../overview.md
-[2]: ../tenant-status/index.md

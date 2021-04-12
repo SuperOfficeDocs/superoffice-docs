@@ -29,7 +29,7 @@ In stage, an application must prove it can withstand a high degree of traffic wi
 
 ## Production
 
-This is the public space where SuperOffice CRM Online and all [deployed applications][5] reside. That means both standard applications published to the App Store and custom applications activated on a customer's [tenant][6].
+This is the public space where SuperOffice CRM Online and all [deployed applications][5] reside. That means both standard applications published to the App Store and custom applications activated on a customer's [tenant][10].
 
 ## Why different environments?
 
@@ -47,6 +47,13 @@ The development and stage environments are essentially isolated copies of produc
 * [SuperID][9] (URL to the SuperOffice federated authentication provider)
 * SuperOffice Certificate ID (certificate thumbprint identifier)
 * Customer tenants
+
+You will most likely be connecting to the free test tenant in SOD when you develop your application.
+
+In the SOD tenant, you get a new blank database. However, if you plan to create customizations based on a customer's own settings such as list items and user-defined fields, you probably need access to [production data][12].
+
+> [!NOTE]
+> For security reasons, we don't want production data in the SOD environment.
 
 ## Environment dependencies
 
@@ -84,13 +91,12 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 [3]: ../activate/index.md
 [4]: ../certification/index.md
 [5]: building-apps.md
-[6]: ../tenant-status/index.md
 [7]: ../app-store.md
 [8]: ../overview.md
 [9]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/federated-auth.md
 [10]: ../terminology.md
 [11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/certificates/index.md
-
+[12]: ../../online/test-environment/production-test-tenant.md
 <!-- Referenced images -->
 [img1]: media/online-environments-sidebyside-650.png
 [img2]: media/online-environments-settings-sidebyside2-650.png
