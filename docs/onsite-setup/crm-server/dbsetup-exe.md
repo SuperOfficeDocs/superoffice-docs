@@ -50,7 +50,7 @@ Please note that upgrades may only be done to versions known by the SuperOffice 
 
 ## Kill a database, any version from 4.5 and up
 
-Kill a database according to its DatabaseModel-specified content, from version 4.5 and up. Data and dictionary tables are removed, including partner-defined tables and CS extra tables. Database users (obsolete functionality!) are not touched. If you have no backup, the database is gone for good.
+Kill a database according to its DatabaseModel-specified content, from version 4.5 and up. Data and dictionary tables are removed, including partner-defined tables and Service extra tables. Database users (obsolete functionality!) are not touched. If you have no backup, the database is gone for good.
 
 Any table not specified in the database's model/dictionary will be left untouched.
 

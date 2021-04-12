@@ -15,7 +15,7 @@ so.client: online               # online, web, win, pocket, or mobile
 
 # SQL Server schema for database mirroring
 
-Microsoft SQL Server physical schemas are used on both the SuperOffice CRM Online and partner ends. This makes the mirroring independent of various functional complexities, such as dictionaries (CRM, CS extra tables).
+Microsoft SQL Server physical schemas are used on both the SuperOffice CRM Online and partner ends. This makes the mirroring independent of various functional complexities, such as dictionaries (CRM, Service extra tables).
 
 All tables **except** a blacklist will be [mirrored][1]. This is (at least initially) a fixed set. Because the physical schema is used, we don't distinguish between *dictionary* and *normal* tables. There is also no distinction between tables belonging to Sales, Service, extra-tables in Service, or any partner-defined tables that might appear in the future.
 
