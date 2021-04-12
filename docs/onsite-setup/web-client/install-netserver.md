@@ -13,13 +13,13 @@ so.envir: onsite                # cloud or onsite
 so.client: web              # online, web, win, pocket, or mobile
 ---
 
-# Install NetServer / web services
+# Install NetServer / Web services
 
 Netserver is always installed, but for some scenarios, we recommend it is installed as remote web services.
 
 ## Before you begin
 
-* Download the web installer package
+* Download the Web installer package
 
 ## Install
 
@@ -27,7 +27,7 @@ Netserver is always installed, but for some scenarios, we recommend it is instal
 
 2. To start the installation, you need to accept the License agreement.
 
-3. Specify the SuperOffice 8 Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to chose a name that correlates to the type of installation.
+3. Specify the SuperOffice Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to chose a name that correlates to the type of installation.
 
 4. Select the second setup type if you want to split SuperOffice Web and SuperOffice NetServer into two separate installations, either because you want to install them on different servers or just want to split the application.
 
@@ -55,8 +55,11 @@ Netserver is always installed, but for some scenarios, we recommend it is instal
 
 15. Click **Next** on the following sections until you get to the **Finish** button. Click it to create the configuration file. Choose **Encrypt configuration** to encrypt the system user name and password in the *web.config* file. Click **Finish**.
 
-16. SuperOffice product configuration for Reporter is opened. Click **Next** on the welcome screen.
+16. SuperOffice [product configuration for Reporter][1] is opened. Click **Next** on the welcome screen.
 
 17. A 32-bit ODBC system data source must be available on the server where SuperOffice NetServer is running. Add the name of the ODBC, and include the database prefix, typically CRM7.
 
 18. Click **Finish** to finalize the installation.
+
+<!-- Referenced links -->
+ [1]: set-up-web-and-report.md
