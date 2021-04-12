@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: get_consent_for_tenant       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Obtain consent to access a customer's tenant # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Get consent for a customer's tenant
+uid: get_consent_for_tenant
+description: How to obtain consent to access a customer's tenant
+author: {github-id}
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Obtain consent to access a customer's tenant
@@ -30,7 +26,7 @@ Each customer is responsible for their data and must explicitly approve each and
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/auth-user.md
-[2]: index.md
+[2]: consent.md
 
 <!-- Referenced images -->
-[img1]: media/superid_approve.png
+[img1]: media/superid-approve.png

@@ -1,7 +1,7 @@
 ---
 title: Terminology
 uid: terminology
-description: Online application terms - client ID, client secret, application model
+description: Online application terms - client ID, client secret, application model, tenant
 author: {github-id}
 keywords: credentials
 so.topic: concept
@@ -48,5 +48,10 @@ External applications are hidden integrations where most or all interaction happ
 
 Hybrid applications can, as the name suggests, have some UI components inside SuperOffice CRM Online and can operate or be configured on a partner web portal. The majority of applications are hybrids.
 
+## Tenant
+
+A specific SuperOffice installation registered for a specific customer. In other words, the unique combination of customersite/custid. Each application environment ([SOD, stage, production][2] has its own set of tenants.
+
 <!-- Referenced links -->
 [1]: getting-started/user-contexts.md
+[2]: getting-started/app-envir.md

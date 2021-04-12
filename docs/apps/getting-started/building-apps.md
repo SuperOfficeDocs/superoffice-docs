@@ -24,7 +24,7 @@ To develop applications in our SOD environment is free. Required licenses apply 
 1. Register as a developer to get access to our [environment][1]
 
     * signs you up for a developer user account
-    * creates a test [tenant][2] in SOD (can be shared by multiple developers within a company)
+    * creates a test [tenant][3] in SOD (can be shared by multiple developers within a company)
 
 2. Register your application idea to get your [client ID and client secret (token)][3]
 
@@ -49,6 +49,7 @@ To develop applications in our SOD environment is free. Required licenses apply 
     * **custom application**: [activate][9] for one specific customer's database
 
     ![custapp-publishing.jpg][img3]
+
 ### Upgrade
 
 We take precautions to ensure that no individual upgrade plan compromises data or the availability of services for any customers. This includes informing you about new versions, what's changing, and when it's deployed - with the opportunity to test and update your own offerings in line with the SuperOffice CRM Online services.
@@ -99,7 +100,6 @@ Creating an application for the SuperOffice App Store is not something to take l
 
 <!-- Referenced links -->
 [1]: app-envir.md
-[2]: ../tenant-status/index.md
 [3]: ../terminology.md
 [4]: ../redirects/index.md
 [6]: ../certification/certify-app.md

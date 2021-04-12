@@ -1,20 +1,44 @@
 ---
-title: provisioning       
+title: provisioning
 description: Provisioning
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
+so.date:
 keywords:
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Provisioning
 
 Applications that compliment SuperOffice with additional functionality generally need to (automatically) set up a presence inside SuperOffice. This initialization step is referred to as provisioning your application in SuperOffice.
 
-When the customer clicks **I approve,** it should automatically set up your [application][1]. This is accomplished by a [tenant administrator][2] user installing the application and interacting with its provisioning routines:
+## What is provisioning?
+
+When the customer clicks **I approve,** it should automatically set up your application. This is accomplished by a tenant administrator user installing the application and interacting with its provisioning routines:
 
 1. The user successfully signs into SuperID, is then forward to the application's installation pages, and the application begins to use the administrative credentials it received from SuperID to access and set up the tenant via the APIs.
 2. The application creates whatever it needs to exist and function inside SuperOffice (such as web panels, buttons, lists, and list items).
 
 Provisioning a partner application may involve configuration or settings in both SuperOffice and the other partner service depending on what the application actually does.
+
+## Example
+
+1. A customer sees your application in the App Store and would like to know more.
+
+2. They click the **Sign up** button and is forwarded to your website where they may read more and select to either **Try** or **Buy** your application.
+    * This page should explain what your application does and what will happen when the customer chooses to try or buy, that way they don't have to approve anything before they know what happens.
+
+3. When **Try** or **Buy** is clicked, a small application (called SuperPartner Connect in this video) may be used that will ask the customer access to read contact information from their CRM Online tenant which you may use to automatically fill out the information you need to provision.
+    * This way the customer does not have to fill out information like their company name, address, and so on.
+
+4. When you have the information you need, then the **Try or buy** button will call the application's authorize dialog.
+
+5. When the customer clicks **Approve** it should automatically set up your app for the customer. Do remember to make sure visibility of example web panels is set to **Everyone**.
+
+![x][img1]
+
+This example was presented at Expander World 2016. See also the full presentation from Expander world 2016 here: [Online Application Lifecycle presentation][1].
 
 ## Automatic or manual provisioning?
 
@@ -36,5 +60,7 @@ If you don't offer automatic provisioning from day 1, be prepared to do so soon 
 Manual provisioning might introduce potential errors. You also run the risk of the customer never getting the application going.
 
 <!-- Referenced links -->
-[1]: ../overview.md
-[2]: ../tenant-status/index.md
+[1]: https://community.superoffice.com/en/content/resources/expander-world-resources/expander-world-2016/
+
+<!-- Referenced images -->
+[img1]: media/appstoreprovisioning.png

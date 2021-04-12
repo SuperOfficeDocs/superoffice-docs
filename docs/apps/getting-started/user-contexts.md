@@ -32,7 +32,7 @@ Applications are **not allowed to directly ask users for their credentials**, a
 
 All applications that run as background tasks, without user interaction, must receive a [system user token][2] and use the [system-user flow][3] for interacting with our web services. None of the [OpenID Connect flow][4]s are supported.
 
-The system user has unlimited access to the [tenant][5] and is not restricted by functional rights or data rights.
+The system user has unlimited access to the [tenant][6] and is not restricted by functional rights or data rights.
 
 **Requirements:**
 
@@ -48,6 +48,5 @@ See also [application models terminology][6] and the [system user MVC example][7
 [2]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/system-user/system-user-token.md
 [3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/system-user/system-user-flow.md
 [4]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/oidc/index.md
-[5]: ../tenant-status/index.md
 [6]: ../terminology.md
 [7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/minimal-csharp-app/overview.md

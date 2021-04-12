@@ -43,7 +43,7 @@ When it is time to develop your application idea, you have 3 options:
 
 <!-- Referenced links -->
 [2]: standard.md
-[3]: tenant-status/index.md
+[3]: terminology.md
 [4]: getting-started/app-envir.md
 [5]: activate/index.md
 [6]: activate/activate-custom-app.md

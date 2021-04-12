@@ -66,14 +66,10 @@ items:
   href: ../../apps/provisioning/index.md
   expanded: true
   items:
-  - name: Consent
+  - name: What is consent?
     href: ../../apps/provisioning/consent.md
   - name: Get consent
     href: ../../apps/provisioning/get-consent.md
-  - name: Approval sequence
-    href: ../../apps/provisioning/approval-sequence.md
-  - name: Example
-    href: ../../apps/provisioning/example.md
 - name: Redirects
   href: ../../apps/redirects/index.md
   expanded: true

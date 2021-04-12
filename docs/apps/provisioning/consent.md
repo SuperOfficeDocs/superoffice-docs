@@ -1,28 +1,39 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: provisioning_consent       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Consent # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Consent to app
+uid: provisioning_consent
+description: Consent
+author: {github-id}
 keywords:
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Consent
 
-During the provisioning of your application, the customer's administrator **must** [authorize the application][1]. This is done to secure each customer tenant in the online environment, and **it is a requirement**, not optional.
+During the [provisioning][5] of your application, the customer's administrator **must** authorize the application. This is done to secure each customer tenant in the online environment and **it is a requirement**, not optional.
 
 > [!NOTE]
 > Only a tenant user with administrator rights is allowed to approve online applications, both for standard and custom application types.
 
-The tenant administrative user must sign in to SuperID and approve the application to establish an **authorization record** between the application and the tenant. If this option is unavailable to you, a [strict hand-shake flow][1] must be implemented.
+The tenant administrative user must sign in to SuperID and approve the application to establish an **authorization record** between the application and the tenant. If this option is unavailable to you, a strict hand-shake flow must be implemented.
 
 The SuperOffice Operation Center stores information about when the application was authorized and which user clicked **I approve**.
+
+## Tenant approval sequence (hand-shake)
+
+No one **may** ask for a customer's username and password to gain access to the tenant's resources. Everyone must adhere to the following authorization sequence.
+
+![Authorization sequence][img1]
+
+### Post-approval
+
+The user who approved the application appears in the App Store with the date the application was added.
+
+![image5n4c.png][img2]
+
+> [!NOTE]
+> A customer's administrator may authorize the application by clicking a link that includes your client ID. This will show the [consent dialog][6] for the application and as an administrator, they may click **I approve**.
 
 ## Is consent a one-time action?
 
@@ -42,7 +53,12 @@ During approval, the customer's administrator should accept the following change
 > to: full access to everything in a customer database
 
 <!-- Referenced links -->
-[1]: approval-sequence.md
 [2]: ../getting-started/app-envir.md
 [3]: ../getting-started/user-contexts.md
 [4]: ../../mirroring/overview.md
+[5]: index.md
+[6]: get-consent.md
+
+<!-- Referenced images -->
+[img1]: media/appvendorconsultants.png
+[img2]: media/image5n4c.png
