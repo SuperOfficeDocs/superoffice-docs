@@ -7,3 +7,16 @@ items:
   href: ../soprotocol/toc.yml
 - name: Web panels
   href: ../web-panels/toc.yml
+- name: Design
+  href: ../design/overview.md
+  items:
+  - name: Whitespace
+    href: ../design/whitespace.md
+  - name: Information hinting
+    href: ../design/info-hinting.md
+  - name: Readiness to hand
+    href: ../design/readiness-to-hand.md
+  - name: Error removal
+    href: ../design/error-removal.md
+  - name: Reading list
+    href: ../design/reading-list.md
