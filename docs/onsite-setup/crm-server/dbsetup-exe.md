@@ -44,7 +44,7 @@ Upgrade a database from 8.0 or later with new any changes up to this build, by u
 
 Any version from 8.0 and up is supported.
 
-Please note that upgrades may only be done to versions known by the SuperOffice license system (SuperLicense), but there are no limitations on how many times you may upgrade the same serialnumber (for testing).
+Please note that upgrades may only be done to versions known by the SuperOffice license system (SuperLicense), but there are no limitations on how many times you may upgrade the same serial number (for testing).
 
 *Include "In development" steps - this will import also dictionary steps marked as "In Development".*
 
@@ -60,7 +60,7 @@ Create a new database; you will need an Internet connection and valid license in
 
 If you are running an international enterprise, unicode is necessary to be able to mix languages between Western Europe, Eastern Europe, and Asia.
 
-Some preferences that ServerSetup writes during installation will not be written, for example, E-mail client and client autoupdate.
+Some preferences that ServerSetup writes during installation will not be written, for example, E-mail client and client auto-update.
 
 Load or re-load initial data into an 8.1+ database
 
@@ -137,7 +137,7 @@ The user name must be a valid employee or system user, not just a database user.
 
 Run consistency checks on the target database; and fix what problems may be fixed automatically.
 
-![Consistency checks available][5]
+![Consistency checks available][img2]
 
 When you press \[Start\] you will be presented with a choice of checks to run, and estimates of the size of each check.
 
@@ -151,8 +151,8 @@ Here you may run and fix problems found in the database:
 * ActiveLinks on Appointment, Sale and Document.
 * VisibleFor on Appointment, Sale, Selection
 * ContactId vs PersonId on Appointment - when the Contact\_id on the appointment refers to a different contact than the person you will get the "jumping activity syndrome" where clicking the activity archive automatically refers you to another company card. Running this option will fix this problem.
-* Many/many releation on Assoc\_id - UserGroup and Associate\_id - role\_id
-* Many/many releation on Associate\_id - role\_id
+* Many/many relation on Assoc\_id - UserGroup and Associate\_id - role\_id
+* Many/many relation on Associate\_id - role\_id
 * Person: Update persons rank pr contact\_id - import will not calculate rank correctly so this will fix it.
 * Projectmember: rank (per person\_id)
 * StatusDef: Rank
