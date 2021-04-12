@@ -69,4 +69,4 @@ We also provide [.NET helper libraries][7], which you can download.
 [4]: index.md
 [5]: ../superid-token.md
 [6]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
-[7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/assets/downloads.md
+[7]: ../../../assets/downloads.md

@@ -244,13 +244,13 @@ Read more about each platform API in the SDK documentation.
 [5]: https://community.superoffice.com/documentation/SDK/SO.Application/html/top_home.htm
 [6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/top_home.htm
 [8]: ../authentication/online/federated-auth.md
-[11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/soap/reference/index.md
-[12]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/ns-web-services/what-is-netserver-part-2.md
-[13]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/ns-web-services/what-is-netserver-part-1.md
-[15]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/automation/webhook/index.md
-[17]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/web-api/rest/reference/index.md
-[18]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/index.md
-[19]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/index.md
+[11]: ../netserver/services/reference/index.md
+[12]: ../netserver/what-is-netserver-part-2.md
+[13]: ../netserver/what-is-netserver-part-1.md
+[15]: ../netserver/webhooks/index.md
+[17]: ../api-reference/webapi/index.md
+[18]: ../api-reference/netserver/core/index.md
+[19]: ../api-reference/netserver/services/index.md
 [20]: https://community.superoffice.com/en/developer/forum/
 [21]: mailto:sdk@superoffice.com
 
