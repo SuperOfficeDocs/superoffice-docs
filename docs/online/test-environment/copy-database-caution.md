@@ -1,13 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: copy_database_caution       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Community users and your test database # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: copy_database_caution
+description: Community users and your test database
 author: Margrethe Romnes
 so.date:  10.31.2017
 keywords:
-so.topic: article          # article, howto, reference, concept, guide
+so.topic: concept
 
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
@@ -20,7 +17,7 @@ Those of you attending Expander World 2017, most likely heard our warnings about
 
 We are aware that some use their SuperOffice production serial number on more than one database, and if you are one of those please read the rest of this blog post.
 
-Each SuperOffice database send information to us, that is both On-site from version 8.0 and CRM Online, as part of our Terms of Service. This is both statistical and user information, and by clicking **Accept** on this dialog, we regularly receive information from your database regarding users and use.
+Each SuperOffice database sends information to us, that is both On-site from version 8.0 and CRM Online, as part of our Terms of Service. This is both statistical and user information, and by clicking **Accept** on this dialog, we regularly receive information from your database regarding users and use.
 
 ![x][img1]
 

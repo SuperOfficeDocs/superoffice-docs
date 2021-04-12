@@ -23,13 +23,13 @@ Use the email address generated from SuperOffice Online and use this to directly
 
 Mail sent from SuperOffice Service / SuperOffice Mailings to your customer:
 
-![1-out-hi][img1] <!-- https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/1-out-hi.mp4 -->
+![1-out-hi][img1]
 
 ### In
 
 Mail sent from your customer to your SuperOffice Service:
 
-![1-in-hi][img2] <!-- https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/1-in-hi.mp4 -->
+![1-in-hi][img2]
 
 ### PROS
 
@@ -59,25 +59,25 @@ When using Mailgun as the sending email service, and sending it as someone else
 
  Mail sent from SuperOffice Service / SuperOffice Mailings to your customer, using your own domain as sender address:
 
-![2-out-nospf-hi][img4] <!-- https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2-out-nospf_hi.mp4 -->
+![2-out-nospf-hi][img4]
 
 ### Out (with SPF)
 
 Mail sent from SuperOffice Service / SuperOffice Mailings to your customer, using your own domain as the sender address, and have set up an SPF record:
 
-![2-out-spf-hi][img5] <!-- https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2-out-spf_hi.mp4 -->
+![2-out-spf-hi][img5]
 
 ### Out (with DKIM)
 
 Mail sent from SuperOffice Service / SuperOffice Mailings to your customer, using your own domain as the sender address, and have set up a DKIM record:
 
-![2-out-dkim-hi][img6] <!-- https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2-out-dkim_hi.mp4 -->
+![2-out-dkim-hi][img6]
 
 ### In
 
 Mail sent from your customer to your SuperOffice Service:
 
-![2-in-hi][img7] <!-- https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/2-in-hi.mp4 -->
+![2-in-hi][img7]
 
 ### Pros
 
@@ -147,3 +147,5 @@ It is a good idea to allow (whitelist) access to your own SMTP server from our O
 [img6]: media/2-out-dkim-hi.gif
 [img7]: media/2-in-hi.gif
 [img8]: media/guidelines.png
+
+<!-- FYI: MP4 videos were available at https://community.superoffice.com/contentassets/183219b0a1434aaaad2f0dd12ec84345/ -->

@@ -99,7 +99,7 @@ To stop this from happening you have to activate a registry key named **UseBorde
 3. Execute this file for every user on the Citrix/Terminal server. You have to log out and back in to let it work.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265 
+[1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265 <!-- workitem=11900 -->
 
 <!-- Referenced links -->
 [img1]: media/imagepcfj.png

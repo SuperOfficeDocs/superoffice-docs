@@ -13,7 +13,7 @@ so.client: online               # online, web, win, pocket, or mobile
 
 ## Overview
 
-SuperOffice CRM Online is our cloud offering. It gives you the freedom to access your CRM data – and be available – anywhere, everywhere and always. You can work from your office, from home, from a customer's office or from a hotel. In the cloud, you are always upgraded to the latest version.
+SuperOffice CRM Online is our cloud offering. It gives you the freedom to access your CRM data – and be available – anywhere, everywhere, and always. You can work from your office, from home, from a customer's office, or from a hotel. In the cloud, you are always upgraded to the latest version.
 
 We take care of the hosting, back-ups, upgrades, security, and everything necessary to keep your solution available in the cloud. This gives you more time to focus on your business and less time to worry about IT operations. Your data is stored in our data center with world-class reliability and security.
 
@@ -29,7 +29,7 @@ From version 8 we introduce our new software in the Online marked first.
 
 SuperOffice CRM Online is accessed through any [supported browser][2] and our [web tools][3] may be installed on your computer to get your email and documents integrated with SuperOffice.
 
-On the server side, the system runs on Windows web servers with a Microsoft SQL database. Web servers are resilient; they are all set up in an active/passive cluster. Several servers handle other services, such as file storage and batchtask service.
+On the server side, the system runs on Windows web servers with a Microsoft SQL database. Web servers are resilient; they are all set up in an active/passive cluster. Several servers handle other services, such as file storage and batch-task service.
 
 ### Sign-in services
 
