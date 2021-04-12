@@ -17,5 +17,5 @@ NetServer Services layer provides the facility of calling web-services in the ap
 
 <!-- Referenced links -->
 [1]: add-web-reference.md
-[2]: ../../../soap/make-soap-call-crm6.md
-[3]: ../../../soap/make-soap-call-crm7.md
+[2]: ../make-soap-call-crm6.md
+[3]: ../make-soap-call-crm7.md
