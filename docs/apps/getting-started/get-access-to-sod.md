@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: get_access_to_sod       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:  Get access to the sandbox environment # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
-keywords:
-so.topic: howto           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+title: Get access to SOD
+uid: get_access_to_sod
+description:  Get access to the sandbox environment
+author: {github-id}
+keywords: sod
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Get access to the sandbox environment
@@ -37,10 +33,11 @@ Your 1st step to building an application for SuperOffice CRM Online is to regist
 
 The SOD tenant can be shared by multiple developers within a company. However, you need separate, personal accounts for signing in. You can [create additional users][4] in the SuperOffice CRM Online Admin module.
 
-**Next step:** Register your application idea
+**Next step:** [Register your application idea][5]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/developer/create-apps/resources/developer-registration/
 [2]: ../tenant-status/index.md
-[3]:app-envir.md
+[3]: app-envir.md
 [4]: ../../identity-management/user/add-user-in-admin-client.md
+[5]: get-app-keys.md

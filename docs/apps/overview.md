@@ -1,11 +1,21 @@
 ---
-title: apps       
-description: About SuperOffice CRM Online apps
+title: Applications
+uid: apps
+description: About SuperOffice CRM Online applications
 author: {github-id}             # Your GitHub alias.
 keywords:
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # About SuperOffice CRM Online apps
+
+SuperOffice CRM Online has great extensibility points that allow vendors to create complimentary applications in and around SuperOffice.
+
+While a great standalone CRM solution, SuperOffice becomes better with complimentary applications.
+
+## What are applications?
 
 An application for SuperOffice CRM Online expands the CRM solution to resolve relevant business needs and lets you extend the capabilities of SuperOffice.
 
@@ -16,6 +26,14 @@ You can think of an application as a link to another cloud service. The link all
 If you use the APIs, which you will have to use to communicate with the database, it is an application!
 
 All SuperOffice CRM Online applications get a [unique ID][1] to identify each integration within our environment.
+
+## SuperOffice CRM Online web client at a glance
+
+* An online platform serving thousands of customers
+* Distributed and federated platform service
+* Client-side JavaScript
+* CRM integrations limited to web panels and database access
+* Customer Service integrations can be almost everything you want
 
 ## Ways your application can extend SuperOffice
 
@@ -38,9 +56,9 @@ Applications are either developed by SuperOffice or one of our partners. The cre
 
 Standard and custom applications can incorporate the following external-facing integrations:
 
-* Database Mirroring
-* ERP Sync Connector
-* Quote Connector
+* [Database Mirroring][6]
+* [ERP Sync Connector][7]
+* [Quote Connector][8]
 
 These integration types are referred to as Integration Services.
 
@@ -54,3 +72,6 @@ Applications are either [built to fit many][4] and available in the SuperOffice 
 [3]: provisioning/index.md
 [4]: standard.md
 [5]: custom.md
+[6]: ../mirroring/overview.md
+[7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/erp-connectors/index.md
+[8]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/quote-connectors/index.md

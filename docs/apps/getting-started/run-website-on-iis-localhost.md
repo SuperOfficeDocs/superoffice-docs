@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: run_website_on_iis_localhost       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Run a website on your machine, IIS localhost # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
-keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+title: Run website on IIS localhost
+uid: run_website_on_iis_localhost
+description: Run a website on your machine, IIS localhost
+author: {github-id}
+keywords: IIS
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Run a website on your machine, IIS localhost

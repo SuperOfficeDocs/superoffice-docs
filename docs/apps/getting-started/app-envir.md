@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: app_envir       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: About application environments # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Application environment
+uid: app_envir
+description: About application environments
+author: {github-id}
 keywords: sod,stage
-so.topic: concept         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Application environments
@@ -87,7 +83,7 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 [2]: ../publish/get-listed.md
 [3]: ../activate/index.md
 [4]: ../certification/index.md
-[5]: overview.md
+[5]: building-apps.md
 [6]: ../tenant-status/index.md
 [7]: ../app-store.md
 [8]: ../overview.md

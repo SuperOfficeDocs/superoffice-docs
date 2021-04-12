@@ -1,21 +1,23 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: getting_started       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Building apps for SuperOffice # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Getting started
+uid: apps_get_started
+description: Getting started building apps for SuperOffice
+author: {github-id}
 keywords:
-so.topic: concept            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: getting-started
+so.envir: cloud
+so.client: online
 ---
 
 # Building apps for SuperOffice
 
-When creating an application for SuperOffice CRM Online, you need to learn about our APIs and follow our implementation guide.
+When creating an application for SuperOffice CRM Online, there are several key elements that all partners must understand. Explore our documentation to learn about security, authentication, validation, development environment, provisioning, and application models.
+
+Partners building applications for SuperOffice CRM Online must be comfortable with **federated authentication**. All applications must use **SuperID** for authenticating users.
+
+![soap-onboarding.jpg][img1]
+
+To develop applications in our SOD environment is free. Required licenses apply only in production (live).
 
 ## Workflow from a developer's perspective
 
@@ -38,9 +40,15 @@ When creating an application for SuperOffice CRM Online, you need to learn abou
 
 5. Deploy your application
 
+    Your new standard or custom application has been developed and tested and is now ready to be put to work.
+
     * **standard application:** [launch in the App Store][8]
+
+    ![stdapp-publishing.jpg][img2]
+
     * **custom application**: [activate][9] for one specific customer's database
 
+    ![custapp-publishing.jpg][img3]
 ### Upgrade
 
 We take precautions to ensure that no individual upgrade plan compromises data or the availability of services for any customers. This includes informing you about new versions, what's changing, and when it's deployed - with the opportunity to test and update your own offerings in line with the SuperOffice CRM Online services.
@@ -100,3 +108,8 @@ Creating an application for the SuperOffice App Store is not something to take l
 [9]: ../activate/activate-custom-app.md
 [10]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/native-app-quickstart.md
 [11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/auth-code-flow-quickstart.md
+
+<!-- Referenced images -->
+[img1]: media/soap-onboarding.jpg
+[img2]: media/stdapp-publishing.jpg
+[img3]: media/custapp-publishing.jpg

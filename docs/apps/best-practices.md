@@ -4,7 +4,7 @@ title: Best practices
 description: Best practices for SuperOffice CRM Online apps
 author: Margrethe Romnes
 keywords:
-so.topic: reference
+so.topic: howto
 so.envir: cloud
 so.client: online
 ---
