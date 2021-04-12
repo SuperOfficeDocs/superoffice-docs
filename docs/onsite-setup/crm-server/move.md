@@ -70,10 +70,10 @@ If you do not have access to the new database server from the old database serve
 
 If you just change the name/address, you need to refresh *SuperOffice.mst* file with the new server information
 
-1. Navigate to the SuperOffice server folder.
-2. Run the *SoCreateMST.exe* (`C:\[SuperOffice Server_adress]\`)
+1. Navigate to the SuperOffice Server folder.
+2. Run the *SoCreateMST.exe*
 3. Press **Load file**.
-4. Navigate to SuperOffice.mst package (*SuperOffice.mst* file can be found in the *Client* folder on the server: `C:\[SuperOffice Server_adress]\Client\SuperOffice.mst`).
+4. Navigate to SuperOffice.mst package (*SuperOffice.mst* file can be found in the *Client* folder on the server: `C:\[SuperOffice Server adress]\Client\SuperOffice.mst`).
 5. Save the new .Mst file.
 
 All clients must be uninstalled, then run SuperOffice8.exe from the *server\\client* folder.
@@ -95,7 +95,7 @@ Run SuperOffice Product configuration and update the information either for the 
 
 2. Download and install **SuperOffice Web services / NetServer**, which is the second option when installing SuperOffice Web client. This is used by Service to connect to the database.
 
-3. Stop the current Service and the eJournal schedule service running the old server. As an extra precaution, edit the config file in the program folder and type "frozen" on a separate line at the bottom. Service will stop working on the old site.
+3. Stop the current Service and the eJschedule service running the old server. As an extra precaution, edit the config file in the program folder and type "frozen" on a separate line at the bottom. Service will stop working on the old site.
 
 You will need to manually change settings inside the database tables called **Config** and **Registry**.
 
@@ -134,7 +134,7 @@ You will need to manually change settings inside the database tables called **Co
 
 8. Inside the database there will be a lot of absolute URLs, pointing to attachments like pictures. To update the database you may run the following queries, replace oldUrl and newUrl with your paths.
 
-[!CAUTION]
+> [!CAUTION]
 > Remember to do a backup before you run queries directly on your database.
 
 ```text
