@@ -17,9 +17,9 @@ With the SuperOffice Travel Gateway, you can automate the tasks that the system 
 
 ## Using SuperOffice Travel Gateway
 
-SuperOffice Travel Gateway can be used both centrally and locally, by users with user-level 0 and by Travel users. A user can be logged in to both SuperOffice SIX and SuperOffice Travel Gateway simultaneously.
+SuperOffice Travel Gateway can be used both centrally and locally, by users with user-level 0 and by Travel users. A user can be logged in to both SuperOffice CRM and SuperOffice Travel Gateway simultaneously.
 
-The Gateway program is **SOTRVGATE.EXE** and is installed on the network in the SuperOffice program folder. The file can be copied manually to your local program folder.
+The Gateway program is **SOTRVGATE.EXE** and is installed in the SuperOffice Server program folder. The file can be copied manually to your local program folder.
 
 To use the program:
 
@@ -38,9 +38,9 @@ To use the program:
 
 ## Travel gateway as a service
 
-Using SuperOffice Travel Gateway, you can automate the tasks that the system administrator usually performs in connection with Travel, by specifying that a process should run automatically at a particular time. From 6.3 SR1 this is now set up as a service.
+Using SuperOffice Travel Gateway, you can automate the tasks that the system administrator usually performs in connection with Travel, by specifying that a process should run automatically at a particular time. 
 
-To install the travel gateway service, run the SuperOffice7.exe file from the Server\\Client folder to install travel gateway as a service. [Install manually][1] if the client installer fails.
+To install the Travel gateway service, run the SuperOffice client installation file from the Server\\Client folder. [Install manually][1] if the client installer fails.
 
 ## Start the service
 

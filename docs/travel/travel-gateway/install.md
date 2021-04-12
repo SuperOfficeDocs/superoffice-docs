@@ -9,14 +9,14 @@ so.envir: onsite
 so.client: win
 ---
 
-# Manual install of travel gateway service
+# Manual install of Travel gateway service
 
 The **SoTraGateService.exe** file may be run manually from the command prompt to install the service.
 
 | Parameter | Explanation |
 |---|---|
 | install | Will install the Travel Gateway Service, but not start it. |
-| uninstall | Uninstalls the travel gateway service. You must exit from Control Panel/Services to complete the uninstallation. |
+| uninstall | Uninstalls the Travel gateway service. You must exit from Control Panel/Services to complete the uninstallation. |
 | souser | Changes the SuperOffice user that executes the tasks. Must be a system user. |
 
 **Additional parameters for install:**
@@ -26,7 +26,7 @@ The **SoTraGateService.exe** file may be run manually from the command prompt to
 3. SuperOffice user name
 4. SuperOffice password
 
-Example: `SoTraGateService.exe install ".\Administrator" "password" "CRM5" "CRM5myd"`
+Example: `SoTraGateService.exe install ".\Administrator" "password" "CRM7" "CRM7myd"`
 
 **Additional parameters for souser:**
 

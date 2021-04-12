@@ -11,15 +11,15 @@ so.client: win
 
 # Activity types for scheduling
 
-* **Sign On** – OBSOLETE from 6.3 SR1 we do this for each task there. The gateway can remain open permanently. If the program is not signed on, the sign-on is done automatically when an activity runs.
+* **Log in** – OBSOLETE, we do this for each task there. The gateway can remain open permanently. If the program is not signed on, the sign-on is done automatically when an activity runs.
 
-* **Sign Off** – OBSOLETE from 6.3 SR1 we do this for each task there. If you want Gateway to sign off once a task has completed. Gateway doesn’t need to be signed on permanently.
+* **Log out** – OBSOLETE, we do this for each task there. If you want Gateway to sign off once a task has completed. Gateway doesn’t need to be signed on permanently.
 
-* **Read updates** – when you want to specify that SuperOffice SIX should read updates (UP files) residing in a particular user’s Travel folder on the server.
+* **Read updates** – when you want to specify that SuperOffice CRM should read updates (UP files) residing in a particular user’s Travel folder on the server.
 
-* **Write updates** – when you want SuperOffice SIX to create an update log (DWN file) for a specified user.
+* **Write updates** – when you want SuperOffice CRM  to create an update log (DWN file) for a specified user.
 
-* **Generate Prototype** – when you want to generate a new prototype for a particular area. It is a good idea to run this outside normal office hours because local updates cannot be run while the prototype is being generated.
+* **Generate new Prototype** – when you want to generate a new prototype for a particular area. It is a good idea to run this outside normal office hours because local updates cannot be run while the prototype is being generated.
 
 * **Read updates from all users** – when you want to read in all UP-files residing in users’ Travel folders on the server.
 
@@ -37,4 +37,4 @@ so.client: win
 
 * **Regenerate all statuses** – automatically regenerate all statuses (SAINT)
 
-* **Synchronize with ERP** – If you are running ERP sync you need this task for the synchronization to run. This will perform one complete synchronization cycle against any linked ERP system
+* **Synchronize with ERP** – If you are running ERP sync you need this task for the synchronization to run. This will perform one complete synchronization cycle against any linked ERP system.
