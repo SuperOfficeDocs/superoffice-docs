@@ -145,7 +145,7 @@ When a user clicks **Install SuperOffice Maps**, the application checks to see i
 [4]: super-office-devnet-online-login.md
 [5]: system-user-service-console.md
 [6]: web-config.md
-[7]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/client-id-secret.md
+[7]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/terminology.md
 [8]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/redirects/index.md
 [9]: scenarios.md
 

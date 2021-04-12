@@ -115,7 +115,7 @@ If you have any issues with the sample, please post an issue on the [repo issues
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tenants/index.md
 [2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/get-app-keys.md
-[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/client-id-secret.md
+[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/terminology.md
 [4]: index.md
 [5]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/auth-code-flow.md
 [6]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/update-app.md
