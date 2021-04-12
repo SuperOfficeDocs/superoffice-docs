@@ -75,7 +75,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 17. Click **Next** on the following sections until you get to the **Finish** button. Click it to create the configuration file. Choose **Encrypt configuration** to encrypt the system user name and password in the *web.config* file. Click **Finish**.
 
-18. SuperOffice product configuration for Reporter is opened. Click **Next** on the welcome screen.
+18. SuperOffice [product configuration for Reporter][9] is opened. Click **Next** on the welcome screen.
 
 19. A 32-bit ODBC system data source must be available on the server where SuperOffice NetServer is running. Add the name of the ODBC, and include the database prefix, typically CRM7.
 
@@ -90,3 +90,4 @@ The server where you install SuperOffice Web needs to have an internet connectio
 [6]: ../service/set-up-guide.md
 [7]: ../security/deployment-scenarios.md
 [8]: https://license.superoffice.com/
+[9]: set-up-web-and-report.md

@@ -54,7 +54,7 @@ Check the rights on the Web temporary path folder (location is found in the [we
 <!-- Location of the temporary folder for streaming files.
 This path must resolve to the same location for farms/clusters. -->
 
-<add key="TemporaryPath" value="C:\\temp-path" />
+<add key="TemporaryPath" value="C:\temp-path" />
 ```
 
 <!-- Referenced links -->
