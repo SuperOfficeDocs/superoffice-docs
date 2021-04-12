@@ -13,9 +13,9 @@ so.envir: onsite             # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Upgrade to 8.1
+# Upgrade to SuperOffice 8.1 - 8.5
 
-From this version, it is required that both Sales and Service are located on the same domain, as seen from the browser. This is because the authentication is done only by Sales.
+From SuperOFfice 8.1, it is required that both Sales and Service are located on the same domain, as seen from the browser. This is because the authentication is done only by Sales.
 
 When upgrading to 8.1, you must decide which domain should be the primary domain where both Sales and Service should be located, as seen from the browser. In our examples, we use `socrm.myorganization.com/sales` and `socrm.myorganization.com/service`.
 
@@ -54,7 +54,7 @@ From 8.1 this preference will tell all clients where the Sales Web client is ins
 
 ## Upgrade to 8.1 when using the old Sales domain
 
-![Move Service to Sales web client domain][6]
+![Move Service to Sales web client domain][img6]
 
 1. Run **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database to 8.1.
 

@@ -46,9 +46,9 @@ Read more about running the installer and installing the client under [Install W
 ### How to find "Server\\Client folder" on server
 
 Since you are upgrading the client on a computer, there is information you can use to find the location for the installer program - by navigating through the current files you already have.
-(if this is changed by your administrator or IT - you need to ask them where to fin it).
+(If this is changed by your administrator or IT - you need to ask them where to fin it).
 
-1. Open SuperOffice.ini to find centralpath (where the server installation is):
+1. Open SuperOffice.ini to find Centralpath (where the server installation is):
     1. [Locate and open SuperOffice.ini][7].
     2. Copy the address after `"Centralpath="`
 
