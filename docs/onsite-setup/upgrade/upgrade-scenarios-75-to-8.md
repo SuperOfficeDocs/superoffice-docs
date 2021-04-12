@@ -21,7 +21,7 @@ so.envir: onsite            # cloud or onsite
 | SuperOffice 7.5 Server,<br> SuperOffice 7.5 Web, and/or<br> SuperOffice 7.5 Windows Clients | Upgrade Win + Web or Web |
 | SuperOffice 7.5 Server,<br> SuperOffice 7.5 Customer Service, and/or<br> SuperOffice 7.5 Windows Clients | Upgrade CS or CS + Windows Client |
 | SuperOffice 7.5 Server,<br> SuperOffice 7.5 Customer Service,<br> SuperOffice 7.5 Web, and/or<br> SuperOffice 7.5 Windows Clients | Upgrade Win + Web + CS or Web + CS |
-| SuperOffice 7.0 or<br>7.1 Server | Upgrade 7.0 or 7.1 SuperOffice |
+| SuperOffice 7.0 or 7.1 Server | Upgrade 7.0 or 7.1 SuperOffice |
 
 > [!NOTE]
 > SuperOffice 8 requires a "full stack" of all main components.<br>If you run an older version then you must upgrade to SuperOffice 7.5 first.<br>The Pocket Server 7 is not needed for SuperOffice 8. Uninstall Pocket Server 7 after the upgrade if it is installed.
@@ -79,7 +79,7 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, and/or SuperOffice 7.5
 1. [Upgrade CRM Server][1]
 2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice 8 Windows App")
 3. [Upgrade SuperOffice 7.5 NetServer to SuperOffice 8 NetServer][5]
-    * If Service runs on Remote NetServer: It it possible to merge CS NetServer and Web NetServer for a more lean administration
+    * If CS runs on Remote NetServer: It it possible to merge CS NetServer and Web NetServer for a more lean administration
 4. [Upgrade SuperOffice 7.5 CS to SuperOffice 8 Service][6]
 5. [Install SuperOffice 8 Web][3]
 
@@ -90,14 +90,14 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, and/or SuperOffice 7.5
 SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, SuperOffice 7.5 Web, and/or SuperOffice 7.5 Windows Clients
 
 > [!NOTE]
-> SuperOffice 8.1 requires that Web and Service (CS) are [installed in the same domain][7]
+> SuperOffice 8.1 requires that Web and Service (CS) are [installed in the same domain][7].
 
 **Actions:**
 
 1. [Upgrade CRM Server][1]
 2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice 8 Windows App")
 3. [Upgrade Netserver][5]
-    * If Service runs on Remote NetServer: It is possible to merge CS NetServer and Web NetServer for a more lean administration
+    * If CS runs on Remote NetServer: It is possible to merge CS NetServer and Web NetServer for a more lean administration
 4. [Upgrade SuperOffice 7 CS to SuperOffice 8 Service][6]
 5. [Upgrade Web][3]
 
