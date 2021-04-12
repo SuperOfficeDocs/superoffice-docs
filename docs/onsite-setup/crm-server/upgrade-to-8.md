@@ -42,11 +42,11 @@ To complete a normal SuperOffice 8 server installation, you need to install ALL:
 
 1. CRM Server
 2. NetServer
-3. CRM.Web
+3. SuperOffice Web
 4. Customer Service
-5. CRM.Win
+5. SuperOffice Win
 
-CRM.web, Customer Service, and Pocket CRM can all use a single NetServer or a separate NetServer for each.
+SuperOffice Web, Customer Service, and Pocket CRM can all use a single NetServer or a separate NetServer for each.
 
 If the customer is to use windows clients locally on one or more computers, windows client installation is needed.
 
