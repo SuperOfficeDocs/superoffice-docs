@@ -1,16 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: check_tenant_status       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: check_tenant_status
+description: 
+author: {github-id}
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Check tenant status
@@ -35,4 +30,4 @@ Each tenant has a status page where you can check its state to ensure your appli
 
 <!-- Referenced links -->
 [1]: ../getting-started/app-envir.md
-[2]: online-tenant-status.md
+[2]: status-page.md

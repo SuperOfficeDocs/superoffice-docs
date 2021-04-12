@@ -1,21 +1,22 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: online_tenant_status       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Online tenant status # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
-keywords:
-so.topic: reference           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+title: online_status_page
+description: Online tenant status page
+author: {github-id}
+keywords: status, monitor
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
-# Online tenant status
+# Status page
 
-Each [tenant][1] has a status page where you can [check its state][2] to ensure your application remains stable and responds accordingly. The URL is environment specific and contains the context identifier.
+The information listed by [the state API][2]:
+
+* context identifier
+* endpoint
+* functional state
+* whether the tenant is running
+* when the tenant information expires
 
 ```javascript
 {
@@ -88,5 +89,5 @@ Link to more information about API version details. Example:
 ```
 
 <!-- Referenced links -->
-[1]: index.md
+[1]: ../terminology.md
 [2]: check-status.md

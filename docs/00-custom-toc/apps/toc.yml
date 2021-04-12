@@ -52,16 +52,16 @@ items:
   href: ../../apps/tenant-status/index.md
   expanded: true
   items:
-  - name: Online tenant status
-    href: ../../apps/tenant-status/online-tenant-status.md
-  - name: Check status
+  - name: Status page
+    href: ../../apps/tenant-status/status-page.md
+  - name: How to check status
     href: ../../apps/tenant-status/check-status.md
-  - name: Manage status changes
-    href: ../../apps/tenant-status/manage-status-changes.md
-  - name: Get notifications
+  - name: Notifications
+    href: ../../apps/tenant-status/notifications.md
+  - name: Register to get notifications
     href: ../../apps/tenant-status/get-notifications.md
-  - name: Notifications example
-    href: ../../apps/tenant-status/notifications-example.md
+  - name: Parse notifications
+    href: ../../apps/tenant-status/parse-notifications.md
 - name: Provisioning
   href: ../../apps/provisioning/index.md
   expanded: true
