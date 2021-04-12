@@ -11,15 +11,15 @@ so.client: win
 
 # Travel
 
-SuperOffice Travel is a sub-system of SuperOffice CRM that enables you to take the CRM database with you and run it locally on a computer, without being connected to the network and the main database.
+SuperOffice Travel is a sub-system of SuperOffice Win client that enables you to take the CRM database with you and run it locally on a computer, without being connected to the network and the main database.
 
 ![1][img1]
 
 When you have used the Travel version and made changes in the local database, you can update the main database so that these changes become available to other users.
 
-To be able to use travel you need to prepare the database and set up the client.
+To be able to use Travel you need to prepare the database and set up the client.
 
-Remote travel now has 2 new features to make it even simpler for you remote travel users to get the information they need:
+Remote travel has two features to make it even simpler for remote travel users to get the information they need:
 
 * SuperOffice Remote Travel
 * SuperOffice Remote Travel Server (SORTS)
@@ -27,7 +27,7 @@ Remote travel now has 2 new features to make it even simpler for you remote trav
 To use SuperOffice without being connected to the network, associates must first perform a local update to transfer information from the central database to a local database. The local update is based on an **update prototype**, which is a copy of the central database and contains the same information that the central database contains when the update prototype is generated. Changes after the prototype was generated will be transferred bit by bit, so the prototype should be regularly generated.
 
 > [!NOTE]
-> Before you may use travel, an administrator must activate it and assign rights to your user and create a prototype.
+> Before you may use travel, an administrator must activate it and assign rights to your user and create a Travel prototype.
 
 ## Database types
 
@@ -42,31 +42,26 @@ If you're running an earlier version, your central database type determines the 
 
 | Central database type | MS SQL Express travel database | Sybase travel database (requires a Sybase license) | Built-in travel database |
 |---|---|---|---|
-| Microsoft SQL 2008 Server | | X | X |
-| Microsoft SQL 2005 Server | From 6.2 we support SQL Express 2005 only | X | X |
+| MS SQL 2008 R2 and newer | X | X | X |
 | Oracle | | X | X |
-
-If you're not running 6.2 or higher you have to use the default built-in database engine or Sybase Adaptive Server Anywhere as your travel database.
 
 ### Built-in database
 
-If you choose the built-in database then we set it all up for you automatically. Sybase 12 is used as built-in from 7.0 SR1.
+If you choose the built-in database then we set it all up for you automatically. Sybase 12 is used as built-in Travel database.
 
 ### SQL Express
 
-To use SQL Express you must first download and installed SQL Express from [www.microsoft.com][1].
+To use MS SQL Express you must first download and installed MS SQL Express from [www.microsoft.com][1].
 
-* SQL Express 2012 is supported from 7.0 SR3
-* SQL Express 2008 is supported from 7.0 SR1
 
 > [!NOTE]
 > The version installed on the computer generating the [prototype][2] must be compatible with the version the travel users are running locally.
 
-The travel client needs an ODBC datasource, which could be called **SOTravel**. You just need to add `Name = SOTravel` and `Servername = .\SQLExpress`
+The Travel client needs an ODBC datasource, which could be called **SOTravel**. You just need to add `Name = SOTravel` and `Servername = .\SQLExpress`
 
 Add `Local_datapath=ODBC:SOTravel` to the *SuperOffice.ini* file in *c:\\program files\\superoffice\\superoffice* windows.
 
-If you have any problems going on travel after the prototype is generated, make sure you start SOCRM.exe once elevated (as administrator) and do the local update. This is to make sure SuperOffice has sufficient rights to make the changes needed to use SQL Express.
+If you have any problems going on Travel after the prototype is generated, make sure you start SOCRM.exe once elevated (as administrator) and do the local update. This is to make sure SuperOffice has sufficient rights to make the changes needed to use SQL Express.
 
 ### Sybase SQL Anywhere 12
 
