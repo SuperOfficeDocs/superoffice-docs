@@ -36,14 +36,14 @@ SuperOffice 7 Server and SuperOffice 7 Windows Clients.
 
 For all scenarios where the customer does not have Customer Service already installed and configured:
 
-* Find SMTP server to use, and make sure relaying from Service server is enabled
-* Set DNS record ready for Service (support.company.com)
-* Setup of the first mailbox in Service (to be able to handle bounces)
+* Find SMTP server to use, and make sure relaying from CS server is enabled
+* Set DNS record ready for CS (support.company.com)
+* Setup of the first mailbox in CS (to be able to handle bounces)
 
 **Steps:**
 
 1. [Upgrade CRM Server][1]
-2. [Upgrade Windows Clients][2]  (only if you are going to use "SuperOffice 8 Windows client")
+2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice 8 Windows client")
 3. [Install SuperOffice 8 Web][3]
 4. [Install SuperOffice 8 Service][4]
 
@@ -57,14 +57,14 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Web, and/or SuperOffice 7.5 Windows Clie
 
 For all scenarios where the customer does not have Customer Service already installed and configured:
 
-* Find SMTP server to use, and make sure relaying from Service server is enabled
-* Set DNS record ready for Service (support.company.com)
-* Setup of the first mailbox in Service (to be able to handle bounces)
+* Find SMTP server to use, and make sure relaying from CS server is enabled
+* Set DNS record ready for CS (support.company.com)
+* Setup of the first mailbox in CS (to be able to handle bounces)
 
 **Steps:**
 
 1. [Upgrade CRM Server][1]
-2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice8 Windows App")
+2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice 8 Windows App")
 3. [Upgrade CRM Web][3]
 4. [Install Service][4]
 
@@ -77,11 +77,11 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, and/or SuperOffice 7.5
 **Steps:**
 
 1. [Upgrade CRM Server][1]
-2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice8 Windows App")
-3. [Upgrade SuperOffice7.5 NetServer to SuperOffice8 NetServer][5]
-    * If Service runs on Remote NetServer: It it possible to merge Service NetServer and Web NetServer for a more lean administration
-4. [Upgrade SuperOffice7.5 Service to SuperOffice8 Service][6]
-5. [Install SuperOffice8 Web][3]
+2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice 8 Windows App")
+3. [Upgrade SuperOffice 7.5 NetServer to SuperOffice 8 NetServer][5]
+    * If Service runs on Remote NetServer: It it possible to merge CS NetServer and Web NetServer for a more lean administration
+4. [Upgrade SuperOffice 7.5 CS to SuperOffice 8 Service][6]
+5. [Install SuperOffice 8 Web][3]
 
 ## Upgrade Win + Web + CS or Web + CS
 
@@ -95,10 +95,10 @@ SuperOffice 7.5 Server, SuperOffice 7.5 Customer Service, SuperOffice 7.5 Web, a
 **Actions:**
 
 1. [Upgrade CRM Server][1]
-2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice8 Windows App")
+2. [Upgrade Windows Clients][2] (only if you are going to use "SuperOffice 8 Windows App")
 3. [Upgrade Netserver][5]
-    * If Service runs on Remote NetServer: It is possible to merge Service NetServer and Web NetServer for a more lean administration
-4. [Upgrade SuperOffice7 Service to SuperOffice8 Service][6]
+    * If Service runs on Remote NetServer: It is possible to merge CS NetServer and Web NetServer for a more lean administration
+4. [Upgrade SuperOffice 7 CS to SuperOffice 8 Service][6]
 5. [Upgrade Web][3]
 
 ## Upgrade 7.0 or 7.1 SuperOffice
