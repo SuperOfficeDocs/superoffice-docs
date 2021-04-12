@@ -159,7 +159,7 @@ To use the connection, we create an instance of the `SoConnection` using the `Co
 The `newConn` variable may contain an `SoConnection` object, or it may contain a sub-class of `SoConnection`. The factory controls what sort of object is returned. The factory is configured using the *app.config* file.
 
 <!-- Referenced links -->
-[1]: ../osql/index.md
+[1]: ../netserver/osql/index.md
 
 <!-- Referenced images -->
 [img1]: media/image001.jpg

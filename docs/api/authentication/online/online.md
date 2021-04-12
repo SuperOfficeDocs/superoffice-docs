@@ -241,4 +241,4 @@ The response contains the token type, access token, expiration in seconds, and i
 
 <!-- Referenced images -->
 [img1]: media/oauth-code-flow.png
-[img2]: media/jwt.png
+[img2]: media/id-token.png

@@ -52,4 +52,4 @@ In the **Role** window of the SOAdmin, you can set data rights for the anonymous
 To run the above code without any exception, we need to make sure that the anonymous users are allowed to read the company data object which belongs to other associates. An exception will be thrown if its data rights are set to "None".
 
 <!-- Referenced links -->
-[1]: ../services/agents/index.md
+[1]: ../netserver/services/agents/index.md

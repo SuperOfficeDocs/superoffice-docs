@@ -91,6 +91,6 @@ An [agent][1] contains a set of methods corresponding to SOAP calls. These metho
 * How to make SOAP calls [with CRM 7][3]
 
 <!-- Referenced links -->
-[1]: ../services/agents/index.md
+[1]: ../netserver/services/agents/index.md
 [2]: ../soap/make-soap-call-crm6.md
 [3]: ../soap/make-soap-call-crm7.md

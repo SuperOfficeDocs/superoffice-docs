@@ -197,7 +197,7 @@ It exposes properties that represent the fields in the table, as well as diction
 The fields support composition using SQL-like methods: `c.ContactId.Equal( S.Parameter(1234) )` or `c.Name.Like( S.Parameter( "SuperOffice%") )`
 
 <!-- Referenced links -->
-[1]: ../osql/index.md
-[2]: ../rows/index.md
-[3]: ../entities/index.md
-[4]: ../archive-providers/index.md
+[1]: ../netserver/osql/index.md
+[2]: ../netserver/rows/index.md
+[3]: ../netserver/entities/index.md
+[4]: ../netserver/archive-providers/index.md

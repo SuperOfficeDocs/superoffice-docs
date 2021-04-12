@@ -79,10 +79,10 @@ Further reading about online API's:
 
 * [REST](../api-reference/restful/index.md)
 * [SOAP](../api-reference/soap/index.md)
-* [Webhooks](../webhooks/index.md)
+* [Webhooks](../netserver/webhooks/index.md)
 
 **Integration Services:**
 
-* [ERP Connectors](../erp-connectors/index.md)
-* [Quote Connectors](../quote-connectors/index.md)
-* [Database Mirroring](https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/mirroring/index.md)
+* [ERP Connectors](../netserver/erp-connectors/index.md)
+* [Quote Connectors](../netserver/quote-connectors/index.md)
+* [Database Mirroring](../../../superoffice-docs/docs/mirroring/overview.md)
