@@ -11,7 +11,7 @@ so.client: win
 
 # Area Management
 
-> ![NOTE]
+> [!NOTE]
 > Requires a separate license
 
 Area Management is a function which allows segmenting of the central database for individual users or group of users. Segmenting the database means dividing it into areas.

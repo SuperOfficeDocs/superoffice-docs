@@ -10,7 +10,8 @@ so.client: win
 
 # Satellite
 
-Requires a separate license and [area management][1].
+> [!NOTE]
+> Requires a separate license and [area management][1].
 
 ## Overview
 
@@ -42,8 +43,7 @@ A Satellite database is similar to an Remote Travel user in terms of synchronizi
 
 S1 is the name of the directory which SuperOffice uses to store "net change files" between the Satellite and the central database.  
 In the directory/folder SO\_ARC on the server, the directory/folder S1 tracks all incoming log files from the Satellite, and stores new log files from the server to be sent to the Satellite.  
-In the directory/folder SO\_ARC on the regional server, the directory/folder S1 tracks all incoming log files from the central database, and stores  
-new log files from the Satellite to be sent to the central database.
+In the directory/folder SO\_ARC on the regional server, the directory/folder S1 tracks all incoming log files from the central database, and stores new log files from the Satellite to be sent to the central database.
 
 <!-- Referenced links -->
 [1]: ../area-management/overview.md
