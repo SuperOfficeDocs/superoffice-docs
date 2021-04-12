@@ -13,7 +13,7 @@ so.envir: onsite             # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Upgrade to SuperOffice 8.1 - 8.5
+# Upgrade to SuperOffice 8.1 and newer
 
 From SuperOffice 8.1, it is required that both Sales and Service are located on the same domain, as seen from the browser. This is because the authentication is done only by Sales.
 
@@ -48,9 +48,9 @@ From 8.1 this preference will tell all clients where the Sales Web client is ins
 
 5. Start Web client to verify it runs correct. Go to Settings and Maintenance and set the new preference **System - Base URL for Web client**.
 
-6. Edit config file found in the Service root folder and point nsEndPoint to the **new Web clients services URL**.
+6. Edit config file found in the Service root folder and point nsEndPoint to the **new Web client services URL**.
 
-7. Run **Upgrade.exe** (as administrator) located in *Service programfolder\\bin*. The upgrade.exe will among other updates also update the config file found in the Service program folder with the new Services endpoint, **Services84**.
+7. Run **Upgrade.exe** (as administrator) located in *Service programfolder\\bin*. The upgrade.exe will among other also update the config file found in the Service program folder with the new Services endpoint, **Services84**.
 
 ## Upgrade to 8.1 when using the old Sales domain
 
@@ -58,7 +58,7 @@ From 8.1 this preference will tell all clients where the Sales Web client is ins
 
 1. Run **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database to 8.1.
 
-2. Run **SuperOffice Web client** **Setup.exe** to upgrade SuperOffice Sales web client to 8.1. Remember to tick **Expose Netserver Webservices** if Service should use the same web services as the web client.
+2. Run **SuperOffice Web client** **Setup.exe** to upgrade SuperOffice Sales web client to 8.1. Remember to tick **Expose Netserver Webservices** if Service should use the same web services as the Web client.
 
 3. Start the Web client and set the new Web Base URL preference in Settings and Maintenance client.
 
