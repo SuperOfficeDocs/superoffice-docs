@@ -3,7 +3,7 @@ As long as the user has been assigned travel rights in SOAdmin and an [update p
 As long as you're logging in to the local database on travel, the icon will look like this: ![travel open][img2]
 
 <!-- Referenced links -->
-[1]: update-prototype.md
+[1]: ../update-prototype.md
 
 <!-- Referenced images -->
 [img1]: ../media/travelicon.jpg

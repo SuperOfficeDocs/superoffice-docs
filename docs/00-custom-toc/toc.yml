@@ -2,7 +2,7 @@
 items:
 - name: Admin
   href: admin/toc.yml
-  topicHref: ../admin/index.md
+  topicHref: ../admin/overview.md
 - name: Setup
   href: setup/toc.yml
 - name: AI services
