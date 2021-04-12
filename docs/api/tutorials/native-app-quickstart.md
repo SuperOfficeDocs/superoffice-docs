@@ -133,7 +133,7 @@ var queryResult = GetData(string.Concat(webApiUrl, uri), "Bearer", result.Access
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tenants/index.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/get-app-keys.md
+[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/get-app-keys.md
 [3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/terminology.md
 [4]: https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp
 

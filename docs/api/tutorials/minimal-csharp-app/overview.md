@@ -139,8 +139,8 @@ When a user clicks **Install SuperOffice Maps**, the application checks to see i
 * If not, the application redirects to the SuperID login page.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/certificates/configure.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/run-website-on-iis-localhost.md
+[1]: ../../authentication/online/certificates/configure.md
+[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/run-website-on-iis-localhost.md
 [3]: partner-db-library.md
 [4]: super-office-devnet-online-login.md
 [5]: system-user-service-console.md

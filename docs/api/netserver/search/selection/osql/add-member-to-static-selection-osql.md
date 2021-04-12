@@ -14,7 +14,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # How to add members to a static selection using OSQL
 
-[!include[import OSQL namespaces](../../../includes/using-osql.md)]
+[!include[import OSQL namespaces](../../../../includes/using-osql.md)]
 
 At this level of the NetServer, you need to have a very good understanding of the SuperOffice database so you create the correct table info objects to insert or update the database table.
 

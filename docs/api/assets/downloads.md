@@ -42,7 +42,7 @@ These examples assume you understand what SuperOffice CRM Online is, and that 
 [PartnerSystemUserService.zip][7], 14 Feb 2020, Size: 0.00mb
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/building-apps.md
+[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/building-apps.md
 [2]: https://github.com/SuperOffice/SuperOffice.DevNet.Online
 [3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/mirroring/index.md
 [4]: downloads/php-exampleappv2.zip

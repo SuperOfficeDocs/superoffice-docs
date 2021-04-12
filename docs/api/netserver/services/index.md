@@ -62,7 +62,7 @@ Your application is not allowed to place .net assemblies in a tenant web applica
 [2]: carriers/index.md
 [3]: ../../authentication/session-handling/create-session.md
 [4]: ../../authentication/session-handling/suspend-session.md
-[5]: ../../../../superoffice-docs/docs/apps/getting-started/what-api-to-use.md
+[5]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/what-api-to-use.md
 [6]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 [7]: ../../api-reference/restful/rest/index.md
 [8]: ../../api-reference/restful/agent/index.md

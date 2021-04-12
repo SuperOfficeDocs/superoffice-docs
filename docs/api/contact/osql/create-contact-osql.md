@@ -14,7 +14,7 @@ so.topic: howto            # article, howto, reference, concept, guide
 
 # Create a contact through OSQL
 
-[!include[import OSQL namespaces](../../netserver/includes/using-osql.md)]
+[!include[import OSQL namespaces](../../includes/using-osql.md)]
 
 The following example shows how we could create a contact using OSQL.
 
