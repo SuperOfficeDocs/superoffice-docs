@@ -17,7 +17,7 @@ so.envir: onsite              # cloud or onsite
 
 From SuperOffice 8.1 both SuperOffice Web and Service must run on the same root domain. It will be easier to create Application Routing Routing rules (ARR) if you do the manual installation and place Service in a sub application.
 
-Installing SuperOffice Sales web client and Service on the same domain under different applications requires some manual steps for Service.
+Installing SuperOffice Web client and Service on the same domain under different applications requires some manual steps for Service.
 
 ## Install Service
 
@@ -79,7 +79,7 @@ After completing the ejTermSetup you may start up `https://socrm.myorganization.
 
 If Service is installed in a sub-folder of the domain named service, then
 
-`select \* from crm7.registry where reg_id = 109`
+`select * from crm7.registry where reg_id = 109`
 
 should have value */service/*
 

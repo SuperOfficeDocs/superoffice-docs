@@ -194,7 +194,7 @@ In version **8.5 R06**, we have rewritten the CRMScript triggers in Sales to use
 
 As a consequence, you must verify that this communication system is working when upgrading. Otherwise, CRMScript triggers from Sales will stop working. Specifically, this means:
 
-* Make sure the authentication keys are present and equal, in all config files (web.config(s) and config.
+* Make sure the authentication keys are present and equal, in all config files (web.config(s) and config).
 * Make sure your network topology allows HTTP(s) communication from the NetServer installation to the Service installation.
 
 > [!CAUTION]
@@ -211,9 +211,9 @@ These applications in turn will perform tasks like importing email, sending emai
 1. Open the **Control panel**
 2. Choose **Administrative tools**
 3. Click **Services**
-4. Click the appropriate **eJournal Scheduler \<sitename>** for your site.
+4. Click the appropriate **ejSchedule \<sitename>** for your site.
 5. Select **Start Service**
-6. To start the service at boot, right-click **eJournal Scheduler**, select **Properties** and make sure **Startup type** is set to **Automatic**.
+6. To start the service at boot, right-click **ejSchedule**, select **Properties** and make sure **Startup type** is set to **Automatic**.
 7. Click **Start** to start the service
 
 You are now ready to log in and use Service by opening your client browser and go to *\[Hostname\]/scripts/ticket.fcgi*

@@ -24,7 +24,7 @@ so.envir: onsite            # cloud or onsite
 | SuperOffice 7.0 or<br>7.1 Server | Upgrade 7.0 or 7.1 SuperOffice |
 
 > [!NOTE]
-> SuperOffice 8 requires a "full stack" of all main components.<br>If you run an older version then you must upgrade to SuperOffice 7.5 first.<br>The Pocket Server.7 is not needed for SuperOffice 8. Uninstall Pocket Server.7 after the upgrade if it is installed.
+> SuperOffice 8 requires a "full stack" of all main components.<br>If you run an older version then you must upgrade to SuperOffice 7.5 first.<br>The Pocket Server 7 is not needed for SuperOffice 8. Uninstall Pocket Server 7 after the upgrade if it is installed.
 
 ## Upgrade Windows Client
 
