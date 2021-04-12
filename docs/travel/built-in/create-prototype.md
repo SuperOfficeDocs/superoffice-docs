@@ -14,7 +14,7 @@ so.client: win
 
 To generate an update prototype from the Admin client:
 
-1. Open the **Replication** screen in the Maintenance client.
+1. Open the **Replication** screen in the Admin client.
 
 2. Click the **Generate prototype** button on the right of the screen.
 

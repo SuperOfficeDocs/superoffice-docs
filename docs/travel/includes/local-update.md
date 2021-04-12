@@ -1,6 +1,6 @@
-As long as the user has been assigned travel rights in SOAdmin and an [update prototype][1] has been generated, the user may now perform a local update by clicking the travel icon in the navigator: ![travel icon][img1].
+As long as the user has been assigned travel rights in SuperOffice Admin and an [update prototype][1] has been generated, the user may now perform a local update by clicking the Travel icon in the navigator: ![travel icon][img1].
 
-As long as you're logging in to the local database on travel, the icon will look like this: ![travel open][img2]
+As long as you are logging in to the local database on Travel, the icon will look like this: ![travel open][img2]
 
 <!-- Referenced links -->
 [1]: ../update-prototype.md

@@ -51,7 +51,7 @@ If you choose the built-in database then we set it all up for you automatically.
 
 ### SQL Express
 
-To use MS SQL Express you must first download and installed MS SQL Express from [www.microsoft.com][1].
+To use MS SQL Express you must first download and install MS SQL Express from [www.microsoft.com][1].
 
 
 > [!NOTE]
