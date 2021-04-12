@@ -26,7 +26,7 @@ items:
 - name: Best practices
   href: ../../apps/best-practices.md
 - name: Getting started
-  href: ../../apps/getting-started/overview.md
+  href: ../../apps/getting-started/building-apps.md
   expanded: true
   items:
   - name: App environment
@@ -36,12 +36,9 @@ items:
       href: ../../apps/getting-started/hosting.md
     - name: Run website on IIS localhost
       href: ../../apps/getting-started/run-website-on-iis-localhost.md
-  - name: Models
-    href: ../../apps/getting-started/models.md
   - name: User contexts
     href: ../../apps/getting-started/user-contexts.md
   - name: Building apps
-    href: ../../apps/getting-started/building-apps.md
     items:
     - name: Get access to SOD
       href: ../../apps/getting-started/get-access-to-sod.md
@@ -132,4 +129,4 @@ items:
   - name: Beta period
     href: ../../apps/publish/beta-period.md
   - name: How to get noticed
-    href: ../../apps/publish/how-to-get-noticed.md
+    href: ../../apps/publish/get-noticed.md

@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: security_requirements       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Security requirements # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+uid: security_requirements
+title: Security requirements
+description: Security requirements
+author: {github-id}
 keywords: certification
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # Security requirements
@@ -30,7 +26,7 @@ If needed, we may go back in time to see when and by who an operation was perfor
 
 * The application must use [federated authentication][7]. Applications must ensure the quality of service is not jeopardized for any of our customers.
 * Web panels added by the application must authorize the user before any data is shown (seamless single sign-on)
-* Use SuperID and a [system user][8]; don't send username and password.
+* Use SuperID and a system user; don't send username and password.
 * Ensure all cookies have the **HttpOnly** flag set, setting **secure** is recommended.
 * Partner applications are not allowed to store any user credential authentication information.
   * Setting **ConfigFile.Services.ApplicationToken** in code is forbidden.
@@ -80,7 +76,6 @@ Always keep in mind the [OWASP top ten list][13].
 [5]: ../custom.md
 [6]: ../activate/validate-app.md
 [7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/federated-auth.md
-[8]: ../getting-started/models.md
 [9]: ../terminology.md
 [10]: ../getting-started/user-contexts.md
 [11]: ../redirects/index.md

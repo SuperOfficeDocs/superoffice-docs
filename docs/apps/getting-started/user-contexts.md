@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: user_contexts       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: User contexts # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: User contexts
+uid: user_contexts
+description: User contexts
+author: {github-id}
 keywords:
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # User contexts
@@ -45,7 +41,7 @@ The system user has unlimited access to the [tenant][5] and is not restricted by
 * No UI elements in SuperOffice
 * Runs as a service
 
-See also [application models][6] and the [system user MVC example][7].
+See also [application models terminology][6] and the [system user MVC example][7].
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/federated-auth.md
@@ -53,5 +49,5 @@ See also [application models][6] and the [system user MVC example][7].
 [3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/system-user/system-user-flow.md
 [4]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/oidc/index.md
 [5]: ../tenant-status/index.md
-[6]: models.md
+[6]: ../terminology.md
 [7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/minimal-csharp-app/overview.md

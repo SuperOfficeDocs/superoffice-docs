@@ -1,12 +1,13 @@
 ---
-title: what_api_to_use
+title: What API to use?
+uid: what_api_to_use
 description: What API to use?
 author: Tony Yates
 so.date: 09.13.2018
 keywords:
 so.topic: concept
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # What API to use?
@@ -17,7 +18,7 @@ I generally respond with we support both SOAP and REST web services. And then th
 
 Our REST and SOAP APIs have different authentication and data access techniques, and which one you chose depends on the type of integration you are building. This article highlights some of the differences of each regarding SuperOffice and aims to clarify which API you should use.
 
-## API Comparison
+## API comparison
 
 Before continuing, let me just state that I am well-aware that comparing REST and SOAP can be like [comparing apples to oranges][1], but it is the most common way people **in general** discuss web service APIs.
 
@@ -41,9 +42,9 @@ SuperOffice proxies are easier in that they manage the details for you. The powe
 
 Thankfully [these are shared on github][5], as with example applications that demonstrate how they are used.
 
-## Authentication Scenarios
+## Authentication scenarios
 
-### Prerequisite
+### Pre-requisite
 
 Before authentication, regardless if it is **interactive** (*user*) or **non-interactive** (*server-to-server*) authentication, an application must be granted access to a tenant's web service endpoints.
 
@@ -166,10 +167,10 @@ Applications that use OAuth2/OpenID Connect to authenticate users via the [Autho
 
 To use a refresh token, the application must issue a POST request to the **tokens** endpoint with the following details:
 
-* client id
-* client
-* redirect\_uri
-* grant\_type specified as `refresh_token`
+* client ID
+* client secret
+* redirect URI
+* grant type specified as `refresh_token`
 * the actual refresh token
 
 An example POST request:

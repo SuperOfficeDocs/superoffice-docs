@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: integration_points       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: SuperOffice Online integration points # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+uid: integration_points
+title: Integration points
+description: SuperOffice Online integration points
+author: {github-id}
 keywords:
-so.topic: concept            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # SuperOffice Online integration points
@@ -38,7 +34,7 @@ Anything a consultant can do inside the SuperOffice Admin application, any appli
 
 ## Integration services
 
-These services are either an independent application or augment an existing application.
+These services are either independent applications or augment an existing application.
 
 * [Database Mirroring Service][6]
 * [ERPSync Connector Service][7]
