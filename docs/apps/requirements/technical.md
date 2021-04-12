@@ -82,4 +82,4 @@ You may continue to use web services from an earlier release until we announce E
 <!-- Referenced links -->
 [1]: ../redirects/index.md
 [2]: ../getting-started/app-envir.md
-[3]: ../client-id-secret.md
+[3]: ../terminology.md

@@ -49,7 +49,7 @@ These integration types are referred to as Integration Services.
 Applications are either [built to fit many][4] and available in the SuperOffice App Store or [one-off customization][5] for your company or a customer's company only.
 
 <!-- Referenced links -->
-[1]: client-id-secret.md
+[1]: terminology.md
 [2]: getting-started/hosting.md
 [3]: provisioning/index.md
 [4]: standard.md

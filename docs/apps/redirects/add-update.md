@@ -39,6 +39,6 @@ All changes to whitelisted URLs have to go through SuperOffice.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/developer/create-apps/resources/change-application/
-[2]: ../client-id-secret.md
+[2]: ../terminology.md
 [3]: ../getting-started/app-envir.md
 [4]: ../provisioning/get-consent.md

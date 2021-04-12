@@ -92,7 +92,7 @@ Creating an application for the SuperOffice App Store is not something to take l
 <!-- Referenced links -->
 [1]: app-envir.md
 [2]: ../tenant-status/index.md
-[3]: ../client-id-secret.md
+[3]: ../terminology.md
 [4]: ../redirects/index.md
 [6]: ../certification/certify-app.md
 [7]: ../activate/validate-app.md

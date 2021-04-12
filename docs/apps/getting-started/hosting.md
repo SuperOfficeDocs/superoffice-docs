@@ -28,6 +28,6 @@ Before you get to authorization, you must sign up to get your unique [client IDs
 <!-- Referenced links -->
 [1]: ../provisioning/index.md
 [3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/certificates/validate-security-tokens.md
-[4]: ../client-id-secret.md
+[4]: ../terminology.md
 [5]: ../redirects/index.md
 [6]: get-app-keys.md
