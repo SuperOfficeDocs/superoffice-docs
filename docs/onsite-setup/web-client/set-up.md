@@ -19,24 +19,22 @@ SuperOffice CRM Web and Service must be installed on the same hostname from vers
 
 The server where you install SuperOffice Web needs to have an internet connection and access to our Licence server on [https://license.superoffice.com][8].
 
-* Install the SuperOffice CRM server to set up or upgrade the database.
-* A SuperOffice 8 CRM server database must be available, to install see [CRM Server][1].
+* Install the SuperOffice CRM Server to set up or upgrade the database.
+* A SuperOffice database must be available, to install see [CRM Server][1].
 * NetServer Web Services may be installed separately to use with [Customer Service][2] and [Pocket CRM][3].
-
 * Consider the [security][4] of your upcoming installation.
-* Instal the CRM Server so the database is set up using ServerSetup.exe.
 * Prepare the [web server][5].
 * Have an IIS website where you want to install SuperOffice. If you do not have the site set up, using the [Service installer][6] will create it for you.
 
 ## Install
 
-**Download the web installer package, extract the contents and run setup.exe.**
+**Download the Web installer package, extract the content and run setup.exe.**
 
 1. Upon launching the installer, you might be prompted to install some prerequisites, install these by clicking the "Install" button.
 
 2. To start the installation you need to accept the license agreement.
 
-3. Specify the SuperOffice 8 Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to chose a name that correlates to the type of installation.
+3. Specify the SuperOffice Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to chose a name that correlates to the type of installation.
 
 4. Select the first option if you want to install both SuperOffice Web and SuperOffice NetServer on the same application. Select the second setup type if you want to split SuperOffice Web and SuperOffice NetServer into two separate installations, either because you want to install them on different servers or just want to split the application. Please note our [recommended scenario (#2)][7] does not require you to split web and NetServer web services.
 
