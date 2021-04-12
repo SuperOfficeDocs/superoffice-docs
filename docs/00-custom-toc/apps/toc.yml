@@ -6,7 +6,7 @@ items:
 - name: Custom
   href: ../../apps/custom.md
 - name: Client ID  and secret
-  href: ../../apps/client-id-secret.md
+  href: ../../apps/terminology.md
 - name: Requirements
   href: ../../apps/requirements/index.md
   expanded: true
