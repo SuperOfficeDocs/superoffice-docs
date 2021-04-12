@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: app_best_practices       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Best practices for SuperOffice CRM Online apps # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+uid: app_best_practices
+title: Best practices
+description: Best practices for SuperOffice CRM Online apps
+author: Margrethe Romnes
 keywords:
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # Best practices for SuperOffice CRM Online apps
@@ -92,5 +88,5 @@ Read about [effective visual design][6].
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/ff4a90073a04400e44e20739bcc99d827b856203/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
 [4]: https://community.superoffice.com/en/developer/create-apps/resources/change-application/
 [5]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/certificates/validate-security-tokens.md
-[6]: https://community.superoffice.com/en/content/content/client-sdk/practical-design-hints/
+[6]: https://github.com/SuperOfficeDocs/user-interface/blob/main/docs/design/overview.md
 [7]: https://community.superoffice.com/en/developer/forum/rooms/superoffice-product-api-group/crm-online-application/
