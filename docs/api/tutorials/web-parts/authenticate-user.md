@@ -97,7 +97,7 @@ Using the `Authenticate` method of the `SoSession` class, we try to authenticate
 
 <!-- Referenced links -->
 [1]: ../../authentication/auth-and-soap-calls.md
-[2]: ../../soap/make-soap-call-crm7.md
+[2]: ../../netserver/services/make-soap-call-crm7.md
 [3]: display-open-sales-for-user.md
 
 <!-- Referenced images -->

@@ -148,7 +148,7 @@ In the code, we have first set the `WebPartManager`’s display mode to catalog 
 
 <!-- Referenced links -->
 [1]: authenticate-user.md
-[2]: ../../search/iarchiveagent/iarchiveagent.md
+[2]: ../../netserver/search/iarchiveagent/iarchiveagent.md
 
 <!-- Referenced images -->
 [img1]: media/image003.jpg
