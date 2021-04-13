@@ -1,17 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: call_script_in_cs_with_ajax       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Using Ajax to call scripts in Customer Service # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: call_script_in_cs_with_ajax
+description: Using Ajax to call scripts in Customer Service
 author: Simen Mostuen Iversen
 so.date: 03.31.2014
 keywords: customer center
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: tutorial
 ---
 
 # Using Ajax to call scripts in Customer Service

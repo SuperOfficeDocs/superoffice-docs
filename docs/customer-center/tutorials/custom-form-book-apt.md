@@ -1,14 +1,10 @@
 ---
 title: custom_form_book_appointment
 description: Custom form in Customer Centre to book an appointment
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 09.15.2011
 keywords:
-so.topic: tutorial              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: tutorial
 ---
 
 # Custom form - book appointment

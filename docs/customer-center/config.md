@@ -1,23 +1,17 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: customer_senter_config       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Customer center configuration # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Configuration
+uid: customer_senter_config
+description: Customer center configuration
+author: {github-id}
 keywords:
-so.topic: reference           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
 ---
 
 # Customer center configuration
 
-The templates in the customer care center are also built up using the [parser variables][1]. Simple changes can be done using the parser variables, but if you are to do more advanced changes, you should consider using ejScript which is far more powerful, and can coexist with parser variables.
+The templates in the customer care center are also built up using the [parser variables][1]. Simple changes can be done using the parser variables, but if you are to do more advanced changes, you should consider using CRMScript which is far more powerful and can coexist with parser variables.
 
-The Customer Center is built up of different templates. Below is a list of the templates and the parser variables available, you can learn how to edit the templates [on this page][2].
+The Customer Center is built up of different [templates][2].
 
 ## Common parser variables
 
@@ -63,19 +57,19 @@ This is the template used when adding a message to an existing request. The foll
 * Company
 * Customer
 
-In addition the following parser variables are available:
+In addition, the following parser variables are available:
 
 * "mailCc" will hold the cc mail addresses when doing a post
 * "message" will hold the message when doing a post
 * "attachments" will hold the attachment ids when doing a post
 * changeCust.html
 
-This is the template used when a customer changes his/hew own information. The following parser variables are available:
+This is the template used when a customer changes their information. The following parser variables are available:
 
 * Company
 * Customer
 
-In addition the following parser variables are available:
+In addition, the following parser variables are available:
 
 "cellphone" contains the value in the cellphone field
 
@@ -102,7 +96,7 @@ In addition the following parser variables are available:
 
 This is a special template. The framework.html is the framework that will surround all the other templates. In this way, you do not need to style all the other templates.
 
-You can use the same parser variables in this file as with the other files. It is actually the chosen action which determines what is available here, so only use parser variables that you are certain will exist.
+You can use the same parser variables in this file as with the other files. It is actually the chosen action that determines what is available here, so only use parser variables that you are certain will exist.
 
 Pay attention to the parser command %INCLUDE\_VAR:contentFile%. As explained earlier, each chosen action will result in a parser variable called "contentFile". This parser variable will contain the name of the template matching the action. The command INCLUDE\_VAR will simply insert this file into the framework.html file.
 
@@ -290,8 +284,7 @@ This template is displayed when viewing a FAQ category. The following parser var
 * Company (if authenticated)
 * Customer (if authenticated)
 
-"entry.answerPlainBr" contains all the answer sections for entries in the current category. All newlines will be replaced by the   
-tag. All URLs will be made clickable and opened in a new window (array).
+"entry.answerPlainBr" contains all the answer sections for entries in the current category. All newlines will be replaced by the tag. All URLs will be made clickable and opened in a new window (array).
 
 "entry.answerPlain", same as above except that newlines will not be modified.
 
@@ -386,4 +379,4 @@ No other than the standard parser variables are available.
 
 <!-- Referenced links -->
 [1]: ../reply-templates/index.md
-[2]: edit-template.md
+[2]: templates.md

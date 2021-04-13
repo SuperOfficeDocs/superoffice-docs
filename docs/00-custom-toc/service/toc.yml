@@ -41,24 +41,28 @@ items:
   items:
   - name: Config
     href: ../../customer-center/config.md
-  - name: Edit template
-    href: ../../customer-center/edit-template.md
+  - name: Templates
+    href: ../../customer-center/templates.md
   - name: Inline CRMSCript
     href: ../../customer-center/inline-crmscript.md
   - name: Access script
     href: ../../customer-center/access-script.md
-  - name: Call script in Service with AJAX
-    href: ../../customer-center/call-script-in-cs-with-ajax.md
-  - name: Display KAM picture
-    href: ../../customer-center/display-kam-picture.md
-  - name: Embed chat widget on external site
-    href: ../../customer-center/embed-chat-widget-on-external-site.md
+  - name: Create web forms with special templates
+    href: ../../customer-center/create-webform-with-template.md
+  - name: Update extra table
+    href: ../../customer-center/update-extra-table.md
   - name: Tutorials
     items:
     - name: Custom form - book appointment
       href: ../../customer-center/tutorials/custom-form-book-apt.md
     - name: Custom form - edit customer
       href: ../../customer-center/tutorials/custom-form-edit-customer.md
+    - name: Call script in Service with AJAX
+      href: ../../customer-center/tutorials/call-script-in-cs-with-ajax.md
+    - name: Display KAM picture
+      href: ../../customer-center/tutorials/display-kam-picture.md
+    - name: Embed chat widget on external site
+      href: ../../customer-center/tutorials/embed-chat-widget.md
 - name: Google reCaptcha in forms
   href: ../../marketing/forms/recaptcha.md
 - name: Expand quick search

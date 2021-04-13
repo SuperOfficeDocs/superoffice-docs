@@ -4,7 +4,7 @@ description: Get person image and display in the customer center
 author: {github-id}             # Your GitHub alias.
 so.date: 06.24.2016
 keywords:
-so.topic: howto
+so.topic: tutorial
 ---
 
 # How to display the key account manager's picture

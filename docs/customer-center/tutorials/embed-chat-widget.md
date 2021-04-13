@@ -1,16 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: embed_chat_widget_on_external_site       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Embed chat widget on external site # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: Michel Krohn-Dale       # Your GitHub alias.
+title: Embed chat widget
+uid: embed_chat_widget_on_external_site
+description: Embed chat widget on external site
+author: Michel Krohn-Dale
 keywords: 
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: tutorial
 ---
 
 # Embed chat widget on external site
@@ -29,16 +23,16 @@ For each chat channel that you configure in your system, we generate a unique sc
 
 Let’s expand this a bit with a real-life scenario:
 
-Your customer has an external website that allows their customers to log in and they want to add SuperOffice chat to this page. This website exists outside our eco-system, so you know that our authentication mechanism will not work, but you would prefer that customers would not have to manually fill out the pre-chat form as they already have authenticated.
+Your customer has an external website that allows their customers to log in and they want to add SuperOffice chat to this page. This website exists outside our ecosystem, so you know that our authentication mechanism will not work, but you would prefer that customers would not have to manually fill out the pre-chat form as they already have authenticated.
 
 ## How to solve this?
 
-It is possible to expand the script tag with data-attributes to pass values into the pre-chat form. The following four attributes are supported:
+It is possible to expand the script tag with data-attributes to pass values into the pre-chat form. The following 4 attributes are supported:
 
-* Name: **data-customerName**\="John Rowling"
-* Email: **data-customerEmail**\="john@mailinator.com"
-* Phone: **data-customerPhone**\="‪12345678"
-* Company: **data-companyName**\="Liberty Inc"
+* Name: **data-customerName** = "John Rowling"
+* Email: **data-customerEmail** ="john@mailinator.com"
+* Phone: **data-customerPhone** = "‪12345678"
+* Company: **data-companyName** = "Liberty Inc"
 
 The contextual page might have these values available as either local Javascript variables, cookie values, or URL parameters. Therefore, it should be possible to use the following syntax:
 
@@ -46,7 +40,7 @@ The contextual page might have these values available as either local Javascript
 * `data-customerName="url:someParameter"`: Get the value from the URL parameter named "someParameter"
 * `data-customerName="variable:someVar"`: Get the value from the Javascript variable named "someVar" ("window.someVar")
 
-All four fields supports this syntax.
+All 4 fields support this syntax.
 
 This would now give you, for example, a newly expanded script tag using information from the cookie.
 

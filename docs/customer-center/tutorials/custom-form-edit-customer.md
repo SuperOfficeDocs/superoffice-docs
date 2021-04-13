@@ -1,14 +1,10 @@
 ---
 title: custom_form_edit_customer
 description: Custom form in Customer Centre to edit a customer
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 09.15.2011
 keywords:
-so.topic: tutorial              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: tutorial
 ---
 
 # Custom form - edit customer
@@ -17,7 +13,7 @@ This tutorial shows you how to create a custom form in the Customer Care Center 
 
 By default, we have a page in the customer care center allowing the customer to change his/her name, password, and any extra fields, such as an address or interest flags used for subscriptions to eMarketing messages. In many cases, our standard page will suffice. However, if you need something a bit more customized, here is an example of how to create another page in the customer care center, allowing the customer to modify "something" :-)
 
-Most pages in the customer care center use the simplified Parser-language. In this scenario, I will rather use a CRMScript created from within Service. This also allows me to edit the script without having to access the disk on the Service server.
+Most pages in the customer care center use the simplified parser-language. In this scenario, I will rather use a CRMScript created from within Service. This also allows me to edit the script without having to access the disk on the Service server.
 
 You can execute any script in eJournal from the customer care center, given that you have the id and the key for the script. The URL should be `.../bin/customer.exe?action=safeParse&includeId=the-include-id&key=the-key` where the-include-id and the-key are values you specify when creating the CRMScript.
 

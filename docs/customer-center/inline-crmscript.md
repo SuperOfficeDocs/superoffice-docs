@@ -1,7 +1,8 @@
 ---
-title: inline_crmscript
+title: Inline CRMScript
+uid: inline_crmscript
 description: Inline CRMScript
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 09.15.2011
 keywords:
 so.topic: concept

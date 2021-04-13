@@ -1,7 +1,8 @@
 ---
-title: access_crmscript
+title: Accessing the script
+uid: access_crmscript
 description: Accessing the script from the Customer Centre
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 09.15.2011
 keywords:
 so.topic: howto
@@ -25,7 +26,7 @@ As you can see, there are some important parameters to customer.exe:
 
 * Optionally, you can include `withFrame=1`. This will make the page a part of the Customer Centre default visual look by placing the returned contents inside *framework.html*, just like the other Customer Centre pages.
 
-Additionally, you can include any parameters of your choice in the URL. You can retrieve them inside your ejScript by calling the `getCgiVariable` method. This method will also retrieve any fields sent to this script by any form POST methods, which is what we will use for our custom form.
+Additionally, you can include any parameters of your choice in the URL. You can retrieve them inside your CRMScript by calling the `getCgiVariable` method. This method will also retrieve any fields sent to this script by any form POST methods, which is what we will use for our custom form.
 
 <!-- Referenced images -->
 [img3]: media/image003.gif

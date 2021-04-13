@@ -4,6 +4,7 @@ description: Customer Centre
 author: {github-id}             # Your GitHub alias.
 so.date: 09.15.2011
 keywords:
+so.topic: concept
 ---
 
 # Customer Centre
@@ -19,6 +20,14 @@ Web forms, in contrast to Windows program’s dialogs, are stateless. This means
 ![x][img5]
 
 As explained, the processes executed on the server (the black box) in this drawing are not connected in any way. Whatever state-like information we want to keep through this pipeline must be a part of the blue or red lines (the form posts and HTML pages returned).
+
+## How do I sort messages in the Customer Center?
+
+It is not possible to do it on the site. To sort requests on Customer Center, you need to perform the actions directly on the SuperOffice database under the CONFIG table.
+
+1. Start the database utility (for example, Microsoft SQL Management Studio).
+2. Locate the SuperOffice database and CONFIG table.
+3. Under the "Flags" you can add 128 to the number that is already there from before (for example, 68 +128 = 196).
 
 <!-- Referenced images -->
 [img5]: media/image005.jpg
