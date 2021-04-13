@@ -1,11 +1,12 @@
 ---
-title: mirroring_intro
+title: Introduction
+uid: mirroring_intro
 description: Database Mirroring Service for SuperOffice CRM Online
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: concept               # article, howto, reference, concept, guide
-so.envir: cloud             # cloud or onsite
-so.client: online             # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 
@@ -116,7 +117,7 @@ The Mirroring Task sends the SuperOffice signed token with every call so that t
 [2]: mirroring-task.md
 [3]: ../apps/terminology.md
 [4]: ../apps/overview.md
-[5]: i-mirror-client-service.md
+[5]: getting-started/i-mirror-client-service.md
 [6]: sql-server-schema.md
 [8]: ../apps/custom.md
 [9]: ../apps/provisioning/get-consent.md

@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: sync_mirror_manually       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to manually initiate synchronization of a mirrored database # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Sync manually (debug)
+uid: sync_mirror_manually
+description: How to manually initiate synchronization of a mirrored database
+author: {github-id}
 keywords:
-so.topic: howto                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # How to manually initiate synchronization of a mirrored database
@@ -54,5 +50,5 @@ If this process fails for any reason, `ResolveConnection()` will not be called a
 > Because there is no GUI to check data in a mirror, **SQL Server Management Studio** must be used. Generally, it should be possible to do `select * from <sometable>` in both the customer table and the mirror, and get the same result.
 
 <!-- Referenced links -->
-[1]: ../apps/redirects/index.md
-[2]: mirroring-task.md
+[1]: ../../apps/redirects/index.md
+[2]: ../mirroring-task.md

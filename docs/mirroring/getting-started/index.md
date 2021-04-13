@@ -1,17 +1,13 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: mirroring_getting_started       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Getting started with database mirroring # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Getting started
+uid: mirroring_getting_started
+description: Getting started with database mirroring
 author: Tony Yates
 so.date: 04.20.2016
 keywords:
-so.topic: guide             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: guide
+so.envir: cloud
+so.client: online
 ---
 
 # Getting started with database mirroring
@@ -46,7 +42,7 @@ Backup/restore is a special case. If the sequence of events is mirror – backup
 
 ## Restrictions
 
-It does not make business sense to provide a complete database mirror to partner applications. Not only might this incur unnecessary stress between systems, we prevent access to sensitive customer data that simply doesn't belong in any other domain, such as area and travel tables, search criteria and operators, dbi agent information and windows positions. A complete list of tables both replicated and not replicated with reason is listed in the <a href="../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>.
+It does not make business sense to provide a complete database mirror to partner applications. Not only might this incur unnecessary stress between systems, we prevent access to sensitive customer data that simply doesn't belong in any other domain, such as area and travel tables, search criteria and operators, dbi agent information and windows positions. A complete list of tables both replicated and not replicated with reason is listed in the <a href="../../assets/downloads/mirroredtables.docx" download>Mirrored Tables document</a>.
 
 If you believe you have a great case for an application, navigate to the [application registration page][1] (for existing partners) and get started today! If you are not yet an online application partner, get started today by filling our [developer registration form][6].
 

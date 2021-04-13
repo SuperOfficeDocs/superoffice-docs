@@ -1,22 +1,18 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: mirroring_conceptual_overview_2016       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Conceptual overview of database mirroring # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Conceptual overview
+uid: mirroring_conceptual_overview_2016
+description: Conceptual overview of database mirroring
 author: Tony Yates
 so.date: 04.20.2016
 keywords:
-so.topic: concept               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Conceptual overview
 
-Imagine you are an on-line application vendor who has created the world's best trending software. You have created an application that can scan a database, mine it for patterns, and display trend reports. It would be nearly impossible to do this effectively with only web services.
+Imagine you are an online application vendor who has created the world's best trending software. You have created an application that can scan a database, mine it for patterns, and display trend reports. It would be nearly impossible to do this effectively with only web services.
 
 ![x][img1]
 
@@ -38,7 +34,7 @@ The Mirroring Task is the responsibility of SuperOffice. It represents the backg
 
 Partners must create and host the web service that receives the data. Their web service must implement the IMirroringClient interface. The IMirrorClientService interface is responsible for establishing a trusted connection, receiving the data, and performing the actual mirroring, such as provisioning of tables and performing schema updates.
 
-Implementation Overview
+## Implementation Overview
 
 SuperOffice starts the process by sending the partner web service a security token that contains a tenant's context identifier and timestamp. It's up to the IMirroringClientService Authenticate method to validate the security token and respond with its ApplicationToken and timestamp. SuperOffice in turn validates the partner's response to establish a two-way trust.
 

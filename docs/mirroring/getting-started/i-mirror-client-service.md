@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: i_mirror_client_service       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: IMirrorClientService interface # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: IMirrorClientService
+uid: i_mirror_client_service
+description: IMirrorClientService interface
+author: {github-id}
 keywords:
-so.topic: reference      # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # IMirrorClientService interface
@@ -120,8 +116,8 @@ You can choose to override any of the methods of the base class. For example, t
 Partner code can use this call when it needs to adjust its data, remove indexes, or perform other preparatory functions.
 
 <!-- Referenced links -->
-[1]: overview.md
-[2]: mirroring-task.md
+[1]: ../overview.md
+[2]: ../mirroring-task.md
 
 <!-- Referenced images -->
 [img1]: media/imirroringclientservice.png

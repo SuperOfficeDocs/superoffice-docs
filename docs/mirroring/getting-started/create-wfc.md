@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: create_mirroring_wfc       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Get your mirroring service up and running in 10 minutes or less using NuGet # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Create WFC
+uid: create_mirroring_wfc
+description: Get your mirroring service up and running in 10 minutes or less using NuGet
+author: {github-id}
 keywords:
-so.topic: guide            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Get your mirroring service up and running in 10 minutes or less using NuGet
@@ -117,7 +113,7 @@ Remember to specify this URL as the Database Mirror URL, not the Redirect URL.
 
 <!-- Referenced links -->
 [1]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
-[2]: mirroring-task.md
+[2]: ../mirroring-task.md
 
 <!-- Referenced images -->
 [img1]: media/createwcfservice.png

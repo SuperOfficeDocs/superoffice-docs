@@ -1,23 +1,19 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: force_mirroring_resync       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Force mirroring re-sync in production database # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Force resync in prod
+uid: force_mirroring_resync
+description: Force mirroring re-synchronization in a production database
+author: {github-id}
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Force mirroring re-sync in a production database
 
 You have set up database mirroring and data was synchronizing as expected, but now it seems to have stopped. What do you do?
 
-There is no GUI to check data in a mirror, so you must use SQL Server Management Studio to inspect the tables. Generally, it should be possible to do `select * from <sometable>` in both the customer table and the mirror, and get the same result.
+There is no GUI to check data in a mirror, so you must use SQL Server Management Studio to inspect the tables. Generally, it should be possible to do `select * from <sometable>` in both the customer table and the mirror and get the same result.
 
 If you notice that some tables are not updating as expected, it might be time to force a resynchronization.
 
@@ -41,6 +37,6 @@ This procedure is intended for a live system. If you want to debug mirroring in 
 2. Shortly thereafter (the next mirroring cycle), the [Mirroring Task][3] will send an authentication request, which your client must respond to. After successful authentication, SuperOffice will begin to deliver periodic updates to your mirroring service.
 
 <!-- Referenced links -->
-[1]: sync-manually.md
+[1]: getting-started/sync-manually.md
 [2]: ../apps/provisioning/get-consent.md
 [3]: mirroring-task.md
