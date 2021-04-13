@@ -36,7 +36,7 @@ items:
   - name: TxtLocal
     href: ../../service/sms/txtlocal.md
 - name: Customer center
-  href: ../../customer-center/index.md
+  href: ../../customer-center/overview.md
   expanded: true
   items:
   - name: Config

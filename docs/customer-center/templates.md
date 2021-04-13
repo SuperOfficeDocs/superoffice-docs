@@ -80,5 +80,5 @@ To use the category drop-down, you enter the following into the right templates:
 <!-- Referenced links -->
 [1]: config.md
 [2]: create-webform-with-template.md
-[3]: index.md
+[3]: overview.md
 [4]: update-extra-table.md
