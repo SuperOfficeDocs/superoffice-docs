@@ -1,8 +1,6 @@
 items:
 - name: Overview
   href: ../../travel/overview.md
-- name: Number allocation
-  href: ../../travel/number-allocation.md
 - name: How to activate travel
   href: ../../travel/activate.md
 - name: What is an update prototype?

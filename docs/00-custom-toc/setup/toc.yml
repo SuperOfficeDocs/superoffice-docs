@@ -58,7 +58,7 @@ items:
         href: ../../onsite-setup/crm-server/iis-web-server/prepare.md
       - name: Set up reverse proxy on iis
         href: ../../onsite-setup/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
-    - name: Database (one of)
+    - name: Database
       items:
       - name: Create MS SQL Server database
         href: ../../onsite-setup/crm-server/create-ms-sql-server-db.md
@@ -101,7 +101,7 @@ items:
   items:
   - name: To version 8.0
     items:
-    - name: Upgrade scenarios 75 to 8
+    - name: Upgrade scenarios 7.5 to 8
       href: ../../onsite-setup/upgrade/upgrade-scenarios-75-to-8.md
     - name: CRM Server
       href: ../../onsite-setup/crm-server/upgrade-to-8.md
@@ -169,6 +169,6 @@ items:
 - name: Version history
   items:
   - name: Onsite
-    href: ../../online/version-history.md
-  - name: Online
     href: ../../onsite-setup/version-history.md
+  - name: Online
+    href: ../../online/version-history.md
