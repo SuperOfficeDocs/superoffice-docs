@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: configure_pocket_onsite       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Pocket CRM config # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Configure
+uid: configure_pocket_onsite
+description: Pocket CRM config
+author: {github-id}
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-so.client: pocket         # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: pocket
 ---
 
 # Pocket CRM configuration
@@ -61,7 +57,7 @@ Both iOS and Android have default support for encrypting all content if a pin co
 [https://www.apple.com/business/docs/iOS\_Security\_Guide.pdf][3]
 [https://source.android.com/security/encryption/full-disk][4]
 
-## Expose NetServer to Internet
+## Expose NetServer to internet
 
 To connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from the internet. If you have a [setup with remote NetServer on internal network and SuperOffice Web in DMZ][5], that means only Web server part is available on the internet.
 

@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: install_pocket_online       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to install and configure the CRM Pocket client # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Install - online
+uid: install_pocket_online
+description: How to install and configure the CRM Pocket client
+author: {github-id}
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud              # cloud or onsite
-so.client: pocket            # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: pocket
 ---
 
 # How to install and configure the CRM Pocket client

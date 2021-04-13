@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: install_pocket_onsite       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Pocket CRM installation # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Install - onsite
+uid: install_pocket_onsite
+description: Pocket CRM installation
+author: {github-id}
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-so.client: pocket         # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: pocket
 ---
 
 # Pocket CRM installation
@@ -52,11 +48,11 @@ Open a browser and enter the domain name address to the remote NetServer install
 
 ![x][img1]
 
-Clients installed on mobile phones uses this address to communicate. This server address (URL) must be reachable from the mobile phones (from the internet)
+Clients installed on mobile phones uses this address to communicate. This server address (URL) must be reachable from the mobile phones (from the internet).
 
 ## Assign Pocket license
 
-This step is necessary only if you have Onsite Buy license type. For Onsite Subscription all users have the Pocket license included in the license plan. All Pocket CRM users need a Pocket CRM license. Admin needs to set this in the Admin client > users:
+This step is necessary only if you have an Onsite Buy license type. For Onsite Subscription all users have the Pocket license included in the license plan. All Pocket CRM users need a Pocket CRM license. Admin needs to set this in the Admin client > users:
 
 ![x][img2]
 
@@ -76,7 +72,7 @@ Open the installed application on your mobile.
 
 The first time you start the App, you will be asked to configure what type of environment your SuperOffice server is using.
 
-Choose \[SuperOffice CRM\].
+Choose **SuperOffice CRM**.
 
 ![x][img3]
 
@@ -88,7 +84,7 @@ Your administrator should know where to find this URL.
 
 You can set this URL either by typing the address manually or by clicking a SOProtocol link on the device:
 
-* To make it easier to configure the URL for Pocket CRM it is recommended that the installation address, *http://pocket.mydomain.com/pocketcrm/services80/* is sent as an SO protocol to the end-user using SMS or email which is accessible on the device you are to connect to.
+* To make it easier to configure the URL for Pocket CRM it is recommended that the installation address, `http://pocket.mydomain.com/pocketcrm/services80/` is sent as an SO protocol to the end-user using SMS or email which is accessible on the device you are to connect to.
 
 You can send a predefined email with this URL by clicking "Pocket CRM settings" from the SuperOffice Web client:
 

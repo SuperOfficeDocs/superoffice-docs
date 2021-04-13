@@ -8,7 +8,7 @@ items:
   - name: Security
     href: ../../mobile/superoffice-mobile/security.md
   - name: System requirements
-    href: ../../mobile/superoffice-mobile/system-requirements.md
+    href: ../../mobile/superoffice-mobile/client-requirements.md
   - name: FAQ
     href: ../../mobile/superoffice-mobile/faq.md
 - name: Pocket CRM
@@ -32,4 +32,4 @@ items:
     - name: Upgrade to 8
       href: ../../mobile/pocket-crm/upgrade-to-8.md
     - name: ZIP compression on REST API
-      href: ../../mobile/pocket-crm/zip-on-rest.md
+      href: ../../mobile/pocket-crm/compression.md

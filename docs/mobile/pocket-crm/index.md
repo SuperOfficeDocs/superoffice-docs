@@ -1,8 +1,10 @@
 ---
-title: pocket_crm
-description:
-author: {github-id} # Your GitHub alias.
+title: Introduction
+uid: pocket_crm
+description: Introduction to SuperOffice pocket CRM
+author: {github-id}
 keywords:
+so.topic: concept
 ---
 
 # Your office in your pocket!
@@ -13,7 +15,7 @@ Apps are distributed via the respective OS' app store channels.
 
 ## Key benefits
 
-Install the Pocket CRM app to access the SuperOffice database when you are out and about. No matter where you are, you can view and update all your CRM data, including appointments, documents, email and email attachments, future sales, delayed sales, sale statuses, projects, project members, selections, your diary, and your colleagues' diaries. And all in real-time! Install the Pocket CRM app on your mobile phone, tablet or other supported devices.
+Install the Pocket CRM app to access the SuperOffice database when you are out and about. No matter where you are, you can view and update all your CRM data, including appointments, documents, email and email attachments, future sales, delayed sales, sale statuses, projects, project members, selections, your diary, and your colleagues' diaries. And all in real-time! Install the Pocket CRM app on your mobile phone, tablet, or other supported devices.
 
 * Use and update customer data
 
@@ -23,7 +25,7 @@ Install the Pocket CRM app to access the SuperOffice database when you are out a
 
 * View development in projects.
 
-* Gives you access to your company's SuperOffice database, when you need it, whenever you are.
+* Gives you access to your company's SuperOffice database, when you need it, wherever you are.
 
 * Keeps you up-to-date with your appointments: you can respond to invitations and receive replies from your contacts instantly.
 

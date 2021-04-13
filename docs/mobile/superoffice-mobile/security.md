@@ -1,13 +1,11 @@
 ---
-title: security
-description:   
-author: {github-id}             # Your GitHub alias.
+title: Security
+description: Mobile CRM security in CRM Online
+author: {github-id}
 keywords:
-so.topic: cocept             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: online
+so.client: mobile
 ---
 
 # Mobile CRM security in CRM Online
@@ -35,7 +33,7 @@ Mobile CRM is using the built-in encryption features of the platform it is runni
 
 ### Communication to CRM Online
 
-Mobile CRM communicates to CRM Online over HTTPS / TLS, just as our web client.
+Mobile CRM communicates to CRM Online over HTTPS/TLS, just as our web client.
 
 It accesses the CRM Online tenants NetServer Web API (endpoint), which is based on REST (architecture) and uses [OAuth][4] for authentication.
 
@@ -51,7 +49,7 @@ The Mobile CRM also has:
 
 * 1-way communication from Google and Apple: Push notifications (-> Mobile CRM, not sending, only receiving)
 
-If IdP is set up towards users user account, the user will be forwarded to the IdP service to validate the user.
+If IdP is set up towards user's user account, the user will be forwarded to the IdP service to validate the user.
 
 ## Server-side security
 
@@ -71,7 +69,7 @@ The trusted 3rd party is the identity provider (IdP).
 
 ## SuperID and sign-in
 
-SuperOffice identity provider [SuperID][7], handling federation with other systems on behalf of all clients in Online (TrayApp/WebTools/MailLink, Pocket/Mobile, Crm.web, AppStore apps, etc.), has very good support for [OpenID Connect][8].
+SuperOffice identity provider [SuperID][7], handling federation with other systems on behalf of all clients in Online (TrayApp/WebTools/MailLink, Pocket/Mobile, Crm.web, AppStore apps, and so on), has very good support for [OpenID Connect][8].
 
 * We use industry-standard [OAuth 2.0][4] access tokens and refresh tokens representing a user signed in to an application.
 * The access token is valid for 1 hour. The refresh token is valid for several years.
@@ -94,7 +92,7 @@ Customers who use Citrix and Office 365 often have a set-up where Azure AD Authe
 * Login with Google will support the new Google security policy for mobile apps
 * Users using IdP (Google / MS365), the IdP admin can retract token authorization (expire)
 
-## Prefereces
+## Preferences
 
 In SuperOffice Admin - Preferences - Global preferences:
 
@@ -105,15 +103,17 @@ In SuperOffice Admin - Preferences - Global preferences:
 
 ## Config
 
-As Mobile CRM can be used for both onsite installation and online tenants, the app needs to know which authentication service to use (CRM Online: True/False). There are 3 initial ways to set Mobile CRM to connect to CRM Online:
+As Mobile CRM can be used for both onsite installation and online tenants, the app needs to know which authentication service to use (CRM Online: True/False).
 
-* User select: User choice in Mobile CRM on first initial start of the app
+There are 3 initial ways to set Mobile CRM to connect to CRM Online:
+
+* User select: User choice in Mobile CRM on the first initial start of the app
 
 * soprotocol: The soprotocol is used to automatically configure Mobile CRM to connect to CRM Online.
 
-* QR-code: scan a QR-code in Web-client, using the Mobile CRM app.
+* QR-code: scan a QR-code in web-client, using the Mobile CRM app.
 
-This will redirect the user to the CRM Online login page for authentication. The user will here need to authenticate to log in. Log in with the same e-mail address and password you use for the SuperOffice CRM Online and you are ready to use SuperOffice Pocket CRM
+This will redirect the user to the CRM Online login page for authentication. The user will here need to authenticate to log in. Log in with the same email address and password you use for the SuperOffice CRM Online and you are ready to use SuperOffice Pocket CRM
 
 ![x][img3]
 

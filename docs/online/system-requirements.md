@@ -90,5 +90,5 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 [1]: https://www3.superoffice.com/DownloadService/
 [2]: https://online.superoffice.com/appstore/superoffice-as/superoffice-for-outlook
 [3]: ../mobile/pocket-crm/system-requirements.md
-[4]: ../mobile/superoffice-mobile/system-requirements.md
+[4]: ../mobile/superoffice-mobile/client-requirements.md
 [5]: ../webtools/system-requirements.md
