@@ -20,8 +20,8 @@ items:
 # TBD: chat, company and contact, custom fields, dashboards
 - name: Diary
   href: diary/toc.yml
-- name: Documents
-  href: documents/toc.yml
+- name: Document
+  href: document/toc.yml
 - name: Email
   href: email/toc.yml
 # TBD environment

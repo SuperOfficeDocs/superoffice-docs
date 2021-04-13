@@ -32,5 +32,5 @@ Let's look at how SuperID changes how you use and set up identity providers and 
 * [Office 365 integration][2] must be set up manually for the time being, but self-service is planned for upcoming releases.
 
 <!-- Referenced links -->
-[1]: ../../documents/g-suite-document-integration/set-up.md
-[2]: ../../documents/office-365-document-integration/set-up.md
+[1]: ../../document/cloud-document-integration/g-suite/set-up.md
+[2]: ../../document/cloud-document-integration/office-365/set-up.md
