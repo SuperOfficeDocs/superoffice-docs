@@ -1,5 +1,5 @@
 items:
-- name: Install onsite
+- name: Install Onsite
   expanded: true
   items:
   - name: Pre-requisites
@@ -56,7 +56,7 @@ items:
       items:
       - name: Prepare
         href: ../../onsite-setup/crm-server/iis-web-server/prepare.md
-      - name: Set up reverse proxy on iis
+      - name: Set up reverse proxy on IIS
         href: ../../onsite-setup/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
     - name: Database
       items:
@@ -73,7 +73,7 @@ items:
       - name: Install on Citrix or Terminal server
         href: ../../onsite-setup/crm-server/install-on-citrix.md
         items:
-        - name: Considerations for MailLink, Ribbons, and Web Extensions
+        - name: Considerations for WebTools and Ribbons
           href: ../../onsite-setup/crm-server/deploy-on-citrix.md
   - name: Install Windows client
     items:
@@ -96,7 +96,7 @@ items:
       href: ../../onsite-setup/service/set-up-guide.md
     - name: Install manually
       href: ../../onsite-setup/service/install-manually.md
-- name: Upgrade onsite
+- name: Upgrade Onsite
   expanded: true
   items:
   - name: To version 8.0
@@ -118,7 +118,7 @@ items:
       href: ../../onsite-setup/win-client/upgrade.md
   - name: To version 8.1
     href: ../../onsite-setup/upgrade/upgrade-to-8-1.md
-- name: Migrate to online
+- name: Migrate to Online
   href: ../../onsite-setup/migrate/index.md
   expanded: true
   items:
@@ -132,7 +132,7 @@ items:
   href: ../../onsite-setup/config-and-ini/index.md
   expanded: true
   items:
-  - name: How to find the superoffice.ini file
+  - name: How to find the SuperOffice.ini
     href: ../../onsite-setup/win-client/find-superoffice-ini-file.md
   - name: DBSetup
     href: ../../onsite-setup/crm-server/dbsetup-exe.md
