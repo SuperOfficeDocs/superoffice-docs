@@ -19,7 +19,11 @@ Your application needs to provide one of the following authorization header type
 
 ## SOTicket authentication
 
-**Content:** Authorization header with the SuperOffice **SOTICKET** token, and **SO-AppToken** header:
+**Content:** 
+
+Authorization header with the SuperOffice **SOTICKET** token.
+
+**SO-AppToken** header, which is the client_secret, also known as the application secret.
 
 **Example:**
 
