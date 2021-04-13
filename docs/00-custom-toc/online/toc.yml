@@ -3,18 +3,16 @@ items:
   href: ../../online/overview.md
 - name: System requirements
   href: ../../online/system-requirements.md
-- name: Security enhancements
-  href: ../../online/security-enhancements.md
+- name: Security
+  href: ../../online/security.md
 - name: Version history
   href: ../../online/version-history.md
 - name: Test environment
+  href: ../../online/test-environment/index.md
   expanded: true
   items:
-  - name: Caution
-    href: ../../online/test-environment/copy-database-caution.md
-  - name: Production test tenant
-    href: ../../online/test-environment/production-test-tenant.md
+
   - name: Clone to test environment
-    href: ../../online/test-environment/clone-to-test-envir.md
+    href: ../../online/test-environment/clone-to.md
   - name: Replace test environment
-    href: ../../online/test-environment/replace-test-envir.md
+    href: ../../online/test-environment/replace.md
