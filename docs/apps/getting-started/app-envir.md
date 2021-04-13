@@ -96,7 +96,7 @@ Both the REST and SOAP `base URL` endpoints are included as **claims** in the Op
 [9]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/federated-auth.md
 [10]: ../terminology.md
 [11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/certificates/index.md
-[12]: ../../online/test-environment/production-test-tenant.md
+[12]: ../../online/test-environment/index.md
 <!-- Referenced images -->
 [img1]: media/online-environments-sidebyside-650.png
 [img2]: media/online-environments-settings-sidebyside2-650.png

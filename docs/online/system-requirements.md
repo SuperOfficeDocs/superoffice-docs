@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: online_system_requirements # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: System requirements for SuperOffice CRM Online # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Requirements
+uid: online_system_requirements
+description: System requirements for SuperOffice CRM Online
+author: {github-id}
 keywords:
-so.topic: reference             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud                 # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # System requirements for SuperOffice CRM Online

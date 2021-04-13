@@ -1,21 +1,17 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: online_version_history       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: SuperOffice CRM Online Version History # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Version history
+uid: online_version_history
+description: SuperOffice CRM Online version history
+author: {github-id}
 keywords:
-so.topic: reference           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # SuperOffice CRM Online version history
 
-An overview of CRM Online Releases, with Release number, Build number and Release Date.
+An overview of CRM Online Releases, with Release number, Build number, and Release Date.
 
 It does not contain Red Alerts or [Onsite release versions][1].
 
@@ -108,10 +104,10 @@ It does not contain Red Alerts or [Onsite release versions][1].
 | 9.2 R01 - (2020.10.20-03) | 20.10.2020 |
 | 9.2 R02 - (2020.11.12-02) | 12.11.2020 |
 | 9.2 R03 - (2020.12.15-04) | 01.12.2020 |
-| 9.2 R04 - (2021.01.14-04)	| 19.01.2021 |
-| 9.2 R05 - (2021.02.03-13)	| 09.02.2021 |
-| 9.2 R06 - (2021.03.04-01)	| 09.03.2021 |
-| 9.2 R07 - (2021.03.25-08)	| 29.03.2021 |
+| 9.2 R04 - (2021.01.14-04) | 19.01.2021 |
+| 9.2 R05 - (2021.02.03-13) | 09.02.2021 |
+| 9.2 R06 - (2021.03.04-01) | 09.03.2021 |
+| 9.2 R07 - (2021.03.25-08) | 29.03.2021 |
 
 <!-- Referenced links -->
 [1]: ../onsite-setup/version-history.md
