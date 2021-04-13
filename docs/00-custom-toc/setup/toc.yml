@@ -132,7 +132,7 @@ items:
   href: ../../onsite-setup/config-and-ini/index.md
   expanded: true
   items:
-  - name: How to find the SuperOffice.ini
+  - name: How to find SuperOffice.ini
     href: ../../onsite-setup/win-client/find-superoffice-ini-file.md
   - name: DBSetup
     href: ../../onsite-setup/crm-server/dbsetup-exe.md
