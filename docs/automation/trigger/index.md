@@ -1,9 +1,11 @@
 ---
-title: trigger       
+title: Triggers 
+uid: trigger
 description: Introduction to triggers 
 author: Simen Mostuen Iversen
 so.date: 06.06.2019
 keywords:
+so.topic: concept
 ---
 
 # Triggers

@@ -1,20 +1,16 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: win_script_event_system       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Win Script and Event system -  Aborting a Save sequence # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Win Script and event system
+uid: win_script_event_system
+description: Win Script and event system - aborting a save sequence
 author: Conrad Weyns
 so.date: 10.28.2019
 keywords:
-so.topic: article              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: win
 ---
 
-# Win Script and Event system: Aborting a Save sequence
+# Win Script and event system: aborting a save sequence
 
 8.5 R07 should be out soon. You will then be able to abort a Save Model sequence on the Current system.
 

@@ -1,17 +1,18 @@
 ---
-title: event_model_mailbox_after_save
+title: Mailbox after save
+uid: event_model_mailbox_after_save
 description: CRMScript event model - Mailbox event, execute after message is saved
 so.author:
 so.date:
 keywords:
+so.topic: reference
 ---
 
 # Mailbox event, execute after message is saved
 
-This is an ejScript you can add under the menu System design on the screen
-System Script.
+This is a CRMScript you can add under the menu **System design** in the screen **System Script**.
 
-Here you can add ejScript code that will be executed for all mailboxes after the mail has been processed by any email filters (except scripts to be executed for the filter) and saved to the system. The script will be executed before any notifications and email-filter scripts are run. The call sequence can be described like this:
+Here you can add CRMScript code that will be executed for all mailboxes after the mail has been processed by any email filters (except scripts to be executed for the filter) and saved to the system. The script will be executed before any notifications and email-filter scripts are run. The call sequence can be described like this:
 
 1. Get emails from the mail server
 2. Analyze email

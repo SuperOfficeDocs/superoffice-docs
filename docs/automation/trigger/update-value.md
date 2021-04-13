@@ -1,17 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: update_value_trigger       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Update values before save trigger # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Update values before save
+uid: update_value_trigger
+description: Update values before save trigger
 author: Simen Mostuen Iversen
 so.date: 06.06.2019
-keywords: automation
-so.topic: howto                       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+keywords: automation,before save
+so.topic: howto
 ---
 
 # Update values

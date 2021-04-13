@@ -1,17 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: create_trigger_macro       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Creating a trigger - Macro # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Creating a trigger - Macro
+uid: create_trigger_macro
+description: Creating a trigger - Macro
 author: Simen Mostuen Iversen
 so.date: 06.06.2019
 keywords: automation
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
 ---
 
 # Creating a trigger :: Macro

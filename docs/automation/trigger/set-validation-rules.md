@@ -1,17 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: set_validation_rules_in_trigger       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: What if I want to specify what to validate? # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Set validation rule
+uid: set_validation_rules_in_trigger
+description: What if I want to specify what to validate?
 author: Simen Mostuen Iversen
 so.date: 06.06.2019
-keywords: automation
-so.topic: howto                       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+keywords: automation,validate,contact
+so.topic: howto
 ---
 
 # What if I want to specify what to validate?

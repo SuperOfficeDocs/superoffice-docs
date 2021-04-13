@@ -1,16 +1,18 @@
 ---
-title: event_model_mailbox_before_save
+uid: event_model_mailbox_before_save
+title: Mailbox before save
 description: CRMScript event model - Mailbox event, execute before message is saved
 so.author:
 so.date:
-keywords:
+keywords: 
+so.topic: reference
 ---
 
 # Mailbox event, execute before message is saved
 
-This is a CRMScript you can add under the menu System design in the screen System Script.
+This is a CRMScript you can add under the menu **System design** in the screen **System Script**.
 
-Here you can add ejScript code that will be run for all mailboxes before the mail is taken by any mail filter, and also before it is saved.
+Here you can add CRMScript code that will be run for all mailboxes before the mail is taken by any mail filter, and also before it is saved.
 
 [!include[ALT](../includes/get-set-variable.md)]
 

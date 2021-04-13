@@ -31,7 +31,9 @@ items:
   href: ../../automation/webhook/index.md
   expanded: true
   items:
-  - name: Add msg to ticket with github webhook
-    href: ../../automation/webhook/add-msg-to-ticket-with-github-webhook.md
+  - name: Tutorials
+    items:
+    - name: Add msg to ticket with GitHub webhook
+      href: ../../automation/webhook/tutorials/add-msg-to-ticket/index.md
 - name: Win script and event system
   href: ../../automation/windows/win-script-event-system.md

@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: cookies       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Cookies overview # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
-keywords:
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+title: cookies
+description: Cookies overview
+author: {github-id}
+keywords: security
+so.topic: reference
+so.date:
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
@@ -53,7 +49,7 @@ Cookies used by the Service client both in Online and Onsite deployment.
 | Cookie name | Type | Usage | Description |
 |---|---|---|---|
 | SoCrmCurrentUserCulture | string | Service | Number and date format selected in GUI |
-| SuperOffice\_Service\_menuCollapsed | boolean | Service | Used to control if Navigator menu should be collapsed |
+| SuperOffice_Service_menuCollapsed | boolean | Service | Used to control if Navigator menu should be collapsed |
 | ckCsrfToken | string | Service | Used by CKEditor for CSRF protection |
 | crmUrl | url | Service | Storing URL to CRM client |
 | key | string | Service | Authentication |
@@ -87,8 +83,8 @@ Cookies used by the Service client both in Online and Onsite deployment.
 | debug.resize | boolean | Service | Used for debugging option in Service |
 | debug.ejscript | boolean | Service | Used for debugging option in Service |
 | debug.unlockPackages | boolean | Service | Used for debugging option in Service |
-| debug\_seconds | number | Service | Used for debugging option in Service |
-| slowdb\_seconds | number | Service | Used for debugging option in Service |
+| debug_seconds | number | Service | Used for debugging option in Service |
+| slowdb_seconds | number | Service | Used for debugging option in Service |
 | debug.debugId | number | Service | Used for debugging option in Service |
 | debug.stackTraceFilter | number | Service | Used for debugging option in Service |
 | debug.logHttpRequest | boolean | Service | Used for debugging option in Service |
