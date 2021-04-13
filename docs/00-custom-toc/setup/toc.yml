@@ -142,17 +142,17 @@ items:
     href: ../../onsite-setup/win-client/command-line-switches.md
   - name: Files
     items:
-    - name: Remotetravel.ini
+    - name: RemoteTravel.ini
       href: ../../onsite-setup/config-and-ini/remotetravel-ini.md
     - name: Service config
       href: ../../onsite-setup/config-and-ini/service-config.md
-    - name: Sotables .ini
+    - name: SoTables.ini
       href: ../../onsite-setup/config-and-ini/sotables-ini.md
-    - name: Souser.ini
+    - name: SoUser.ini
       href: ../../onsite-setup/config-and-ini/souser-ini.md
-    - name: Superoffice.config
+    - name: SuperOffice.config
       href: ../../onsite-setup/config-and-ini/superoffice-config.md
-    - name: Superoffice.ini
+    - name: SuperOffice.ini
       href: ../../onsite-setup/config-and-ini/superoffice-ini.md
     - name: Username.ini
       href: ../../onsite-setup/config-and-ini/username-ini.md

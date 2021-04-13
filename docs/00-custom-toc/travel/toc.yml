@@ -1,7 +1,7 @@
 items:
 - name: Overview
   href: ../../travel/overview.md
-- name: How to activate travel
+- name: How to activate Travel
   href: ../../travel/activate.md
 - name: What is an update prototype?
   href: ../../travel/update-prototype.md
@@ -14,7 +14,7 @@ items:
       href: ../../travel/built-in/set-up.md
     - name: Create prototype
       href: ../../travel/built-in/create-prototype.md
-  - name: SQL Express
+  - name: MS SQL Express
     items:
     - name: Set up
       href: ../../travel/sql-express/set-up.md
