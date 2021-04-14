@@ -36,7 +36,6 @@ Use this overview to get to the specific requirements.
 * [Microsoft Office][10]
 * [Database][11]
 
-
 <!-- Referenced links -->
 [1]: crm-server/system-requirements.md
 [2]: web-client/system-requirements.md

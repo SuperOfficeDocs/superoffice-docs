@@ -32,7 +32,7 @@ These requirements are specific to onsite installations of SuperOffice. They sup
 
 Business card scanner will work with all SuperOffice versions, both Onsite and Online. It requires the Pocket CRM client to be configured against NetServer (no Pocket server).
 
-## Which Services end point to use?
+## Which Services end-point to use?
 
 [!include[Services end points table](../../onsite-setup/includes/services-end-points.md)]
 

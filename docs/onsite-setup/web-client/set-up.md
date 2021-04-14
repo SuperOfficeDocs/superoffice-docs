@@ -84,7 +84,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
 <!-- Referenced links -->
 [1]: ../crm-server/setup-guide.md
 [2]: ../service/set-up-guide.md
-[3]: ../../mobile/pocket-crm/install-onsite.md
+[3]: ../../mobile/pocket-crm/deploy.md
 [4]: ../security/secure-deployment-guide.md
 [5]: ../crm-server/iis-web-server/prepare.md
 [6]: ../service/set-up-guide.md
