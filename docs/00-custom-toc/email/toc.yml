@@ -1,5 +1,6 @@
 items:
 - name: MailLink
+  href: ../../email/maillink/index.md
   expanded: true
   items:
   - name: Changes in 7.1

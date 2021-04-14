@@ -1,19 +1,17 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: troubleshooting_webtools       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Troubleshooting Web Tools # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Troubleshooting
+uid: troubleshooting_webtools
+description: Troubleshooting Web Tools
+author: {github-id}
 keywords:
-so.topic: article        # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Troubleshooting Web Tools
+
+By understanding how SuperOffice Web Tools works, it is easier to troubleshoot issues and to have a common ground when reporting and discussing wishes and issues.
 
 ## I'm running single sign-on, but the credential window pops up many times
 

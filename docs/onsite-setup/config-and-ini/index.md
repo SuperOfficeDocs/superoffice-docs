@@ -56,7 +56,7 @@ Here's an overview of where you may find the different log files and how you ena
 [4]: ../win-client/command-line-switches.md
 [5]: ../web-client/debug.md
 [6]: web-config.md
-[7]: ../../webtools/diagnostics.md
+[7]: ../../webtools/debug.md
 [8]: ../../email/maillink/debug.md
 [9]: ../../document/ribbons/enable-debug.md
 [10]: ../../service/log-files.md

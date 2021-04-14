@@ -5,8 +5,6 @@ set SuperOfficeWebUrl=https://socrm.myorganization.com/sales
 set SuperOfficeServiceURL=https://socrm.myorganization.com/service
 set SuperOfficeOwnerContactName=Licence owner name
 
- 
-
 IF NOT EXIST "%appdata%\soconfig\" (
 GOTO CREATEDIR
 )

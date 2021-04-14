@@ -1,25 +1,21 @@
 items:
-- name: Background
-  href: ../../webtools/background.md
-- name: System requirements
-  href: ../../webtools/system-requirements.md
+- name: Overview
+  href: ../../webtools/overview.md
 - name: Technical overview
   href: ../../webtools/technical-overview.md
-- name: Deploy
-  href: ../../webtools/deploy.md
-- name: Proxy
-  href: ../../webtools/proxy.md
-- name: Upgrade
-  href: ../../webtools/upgrade.md
+- name: System requirements
+  href: ../../webtools/system-requirements.md
+- name: Set up
+  items:
+  - name: Install (user)
+    href: ../../webtools/install.md
+  - name: Deploy (admin)
+    href: ../../webtools/deploy.md
+  - name: Configure
+    href: ../../webtools/config.md
+  - name: Upgrade
+    href: ../../webtools/upgrade.md
 - name: Troubleshooting
   href: ../../webtools/troubleshooting.md
-  items:
-  - name: Diagnostics
-    href: ../../webtools/diagnostics.md
-  - name: Debug on mac
-    href: ../../webtools/debug-on-mac.md
-- name: Doclink
-  href: ../../webtools/doclink/index.md
-  items:
-  - name: Registry entries
-    href: ../../webtools/doclink/registry-entries.md
+- name: Debug
+  href: ../../webtools/debug.md

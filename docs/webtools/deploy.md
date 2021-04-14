@@ -1,130 +1,130 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: deploy_webtools       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Web Tools deployment # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Deploy
+uid: deploy_webtools
+description: Web Tools deployment in a restricted environment
+author: {github-id}
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client:
 ---
 
-# Web Tools deployment
+# Web Tools deployment in a restricted environment
 
-For technical overview of SuperOffice Web Tools please see this [blog post][1].
+Currently, the best way of distributing Web Tools is by deploying the pre-requisites and allowing users to [install Web Tools themselves][4]. This method will utilize the built-in update functionality.
 
-## How to deploy Web Tools in a restricted environment
+However, there are companies where users are not allowed to install software on their devices at all. Those companies need to deploy the pre-requisites and the MSI files using their preferred deployment strategy. Updates must be manually handled by the company and deployed through their solution.
 
-Currently the best way of distributing Web Tools is by deploying the prerequisites and allowing users to install Web Tools themselves. The installation of Web Tools does not require administrative privileges (but the installation of prerequisites does). This method will utilize the built-in update functionality.
+If Web Tools are already installed, or if you for other reasons wish to configure it, it is possible to use **SoConfig** files for the initial setup:
 
-Nevertheless, there are companies where users are not allowed to install software on their devices at all. Deploymentwise they need to deploy the prerequisites and the msi files using their preferred deployment strategy. Furthermore, updates must be manually handled by the company and deployed through their solution.
+![Example of a SoConfig file][img1]
 
-## Install prerequisites
+When deploying through GPO or other alternatives, executing the *SoConfig* file during the log-on process will set up Web Tools for the user. The site will not be added again if it has already been added.
 
-Please note the installation of the Web Tools does not require administrative privileges but the Prerequisites do.If you are not the administrator, you get Web Tools installed in *c:\\users\\\<yourname>\\appdata\\local\\SuperOffice*. To install on *C:/Program files*, you need to be the local administrator.
+> [!NOTE]
+> If you are not the administrator, you get Web Tools installed in *c:\\users\\\<yourname>\\appdata\\local\\SuperOffice*. To install on *C:/Program files*, you need to be the local administrator.
 
-The following libraries need to be installed before any SuperOffice plugins are installed:
+## Overview
+
+1. Extract required files from the Web Tools installer.
+2. Distribute the MSI files (using GPO or SCCM tools) to all machines that are going to use it.
+3. Auto-configure the URL and Settings using a script.
+
+The following MSI files must be deployed to every SuperOffice user (AD group all SuperOffice users):
+
+* SoCrossTableInstaller.msi (component for viewing cross-table reports)
+* SuperOffice.MailLink.Setup.msi (add-in for Microsoft Outlook)
+* SuperOffice.Web.Extensions.msi (document-handling plugin for SuperOffice)
+
+## Pre-requisites
+
+* Username in SuperOffice must be the same as in ActiveDirectory (sAMAccountName).
+* SuperOffice needs to be configured to use Active Directory as the authentication method for all users.
+* SuperOffice WEB needs to be configured to use Windows Authentication on the website.
+* We also recommend to [disable the Web Tools upgrade dialog][2].
+* Blocking applications must be closed.
+* Libraries must be installed **before any SuperOffice plugins are installed**.
+
+**Required libraries:**
 
 * Microsoft .NET framework 4.5.1 (Full) or higher
 * VSTO 2010 runtime (32bit or 64bit) for Ribbons on Office 2007 and higher
 * Visual C++ 2017 runtime for x86 (version 14.14.26429.4)
 
-## Deploy SuperOffice Web Tools
-
-We can divide the problem into two areas:
-
-1. To distribute the MSI files to all machines that are going to use it.
-2. Auto-configure the URL and Settings using a script.
-
-The following MSIs need to be deployed to every SuperOffice user (AD group all SuperOffice users):
-
-* SoCrossTableInstaller.msi (component for viewing cross-table reports)
-* SuperOffice.MailLink.Setup.msi (Add-in for Microsoft Outlook)
-* SuperOffice.Web.Extensions.msi (Document Handling plugin for SuperOffice)
-
-These MSI files are pushed out using GPO or SCCM tools.
-
-### Pre-requirements in SuperOffice
-
-* Username in SuperOffice must be the same as in ActiveDirectory (sAMAccountName)
-* SuperOffice needs to be configured to use Active Directory as authentication method for all users.
-* SuperOffice WEB needs to be configured to use Windows Authentication on website.
-* We also recommend to [disable the Web Tools upgrade dialog][2].
-
-## SuperOffice 8.1 and later
-
-Since SuperOffice 8.1 the Web Tools installer is no longer distributed with SuperOffice Web installation but is available on the [Download Service][3].
-
-### How to extract required files from the Web Tools installer
-
-* Download the Web Tools installer from the Download or from inside SuperOffice Web - Download menu.
-* Extract Mail Link and Web Extensions installers out of Web Tools installer: `SuperOffice.Web.Tools.exe /k /d C:\Temp`
-* Run `SuperOffice.MailLink.Setup.exe` and do not finish the installation. While keeping the installer on-screen, go to the *%temp%* folder, locate a folder where the installer unpacked the MailLink files and copy the *SuperOffice.MailLink.Setup.msi* out of it. After the installer is finished it will remove all of these files from the *%temp%* folder, including the msi, therefore it is important to copy the msi out of the temp folder.
-* Do the same for `SuperOffice.Web.Extensions.exe` to obtain *SuperOffice.Web.Extensions.msi*.
-
-Since SuperOffice 8.3 MailLink is now a separate downloadable installer (the latest version) available on the Download Service so customers wishing to upgrade or extract MSI only MailLink can do so.
-
-* To get *SoCrossTableInstaller.msi*, download CrossTable viewer from inside SuperOffice Web - Download menu and follow the same procedure as with the MailLink to get the msi from the *%temp%* folder during CrossTable viewer installation.
-
-## How to deploy and configure MSI files
-
-1. Install all MSI packages with a help of the `InstallWebTools.cmd` script (see below). It also copies the SuperOfficeWebToolConfiguration.cmd script to the Start menu for all users and removes the default Web Extensions link.
-
-2. Edit the script (see below) `SuperOfficeWebToolConfiguration.cmd` with correct settings:
-
-```text
-set SuperOfficeWebUrl=https://socrm.myorganization.com/sales
-set SuperOfficeServiceURL=https://socrm.myorganization.com/service
-set SuperOfficeOwnerContactName=Licence owner name
-```
-
-3. Restart target computer.
-
-### Example Scripts
-
-Save the below in Notepad or another text editor and save as *InstallWebTools.cmd*.
-
-#### InstallWebTools.cmd
-
-```text
-@echo off
-msiexec /i SoCrossTableInstaller.msi /qn /norestart
-msiexec /i SuperOffice.MailLink.Setup.msi /qn /norestart
-msiexec /i SuperOffice.Web.Extensions.msi /qn /norestart
-xcopy SuperOfficeWebToolConfiguration.cmd "%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Startup" /Y
-del "%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Startup\SuperOffice CRM.Web Extensions.lnk"
-```
-
-Save the below in Notepad or another text editor and save as *SuperOfficeWebToolConfiguration.cmd*.
-
-#### SuperOfficeWebToolConfiguration.cmd
-
-[!include[ALT](./includes/SuperOfficeWebToolConfiguration.md)]
+> [!NOTE]
+> You need administrative privileges to install the required libraries.
 
 ## Blocking applications
 
-There are several applications which need to be closed when MailLink and Web Extensions are being installed.
+There are several applications that need to be closed when MailLink and Web Extensions are being installed. Make sure all of these are switched off when you deploy Web Tools.
 
-For the MailLink the blocking applications are:
+> [!WARNING]
+> Do not run Outlook.exe as administrator (then you do not run it as "your own local user") and that will not work for MailLink.
+
+**For MailLink, close:**
 
 * Outlook
 * SuperOffice CRM Win client
 * SoEventServer
 
-For the Web Extensions the blocking applications is:
+**For Web Extensions, close:**
 
 * SuperOffice TrayApp Client
 
-Make sure all of these are switched off when you deploy Web Tools.
+## Step 1: Extract required files from the Web Tools installer
 
-> [!WARNING]
-> Do not run Outlook.exe as administrator (then you do not run it as "your own local user") and that will not work for MailLink.
+You need to extract *SoCrossTableInstaller.msi*, *SuperOffice.MailLink.Setup.msi*, and *SuperOffice.Web.Extensions.msi*.
+
+1. Download the Web Tools installer from the [Download Service][3] or from inside the SuperOffice Web **Download** menu.
+
+2. Extract Mail Link and Web Extensions installers out of Web Tools installer:
+
+    `SuperOffice.Web.Tools.exe /k /d C:\Temp`
+
+3. Run `SuperOffice.MailLink.Setup.exe` but don't finish the installation. While keeping the installer on-screen:
+
+    1. Go to the *%temp%* folder.
+    2. Locate a folder where the installer unpacked the MailLink files.
+    3. Copy the *SuperOffice.MailLink.Setup.msi* file out of it.
+
+4. Run `SuperOffice.Web.Extensions.exe` as above to obtain *SuperOffice.Web.Extensions.msi*.
+
+5. To get *SoCrossTableInstaller.msi*, download CrossTable viewer from inside the SuperOffice Web **Download** menu and follow the same procedure as with MailLink to get the MSI from the *%temp%* folder during CrossTable viewer installation.
+
+> [!TIP]
+> Because MailLink is a separate downloadable installer (the latest version) available on the Download Service, customers wishing to upgrade or extract MSI only MailLink can do so.
+
+## Steps 2-3: Deploy and configure MSI files
+
+1. Install all MSI packages with a help of the **InstallWebTools.cmd** script (see below). It also copies the **SuperOfficeWebToolConfiguration.cmd** script to the **Start** menu for all users and removes the default Web Extensions link.
+
+2. Edit *SuperOfficeWebToolConfiguration.cmd* with correct settings:
+
+    ```bat
+    set SuperOfficeWebUrl=https://socrm.myorganization.com/sales
+    set SuperOfficeServiceURL=https://socrm.myorganization.com/service
+    set SuperOfficeOwnerContactName=Licence owner name
+    ```
+
+3. Restart the target computer.
+
+### InstallWebTools.cmd
+
+Copy the below code-lines to Notepad or another text editor and save as *InstallWebTools.cmd*.
+
+[!code-batchfile[cmd](includes/InstallWebTools.cmd)]
+
+### SuperOfficeWebToolConfiguration.cmd
+
+Copy the below code-lines to Notepad or another text editor and save as *SuperOfficeWebToolConfiguration.cmd*.
+
+[!code-batchfile[cmd](includes/SuperOfficeWebToolConfiguration.cmd)]
 
 <!-- Referenced links -->
 [1]: index.md
 [2]: upgrade.md
 [3]: https://www3.superoffice.com/DownloadService/
+[4]: install.md
+
+<!-- Referenced images -->
+[img1]: media/11033-21660.jpg
