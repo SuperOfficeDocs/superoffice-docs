@@ -1,36 +1,36 @@
 items:
 - name: Cloud document integrations
-  href: ../../document/cloud-document-integration/index.md
+  href: ../../document/cloud/index.md
   expanded: true
   items:
   - name: Configure cloud document handling
-    href: ../../document/cloud-document-integration/configure.md
+    href: ../../document/cloud/configure.md
   - name: Set up cloud document integration
-    href: ../../document/cloud-document-integration/set-up.md
+    href: ../../document/cloud/set-up.md
   - name: G suite document integration
-    href: ../../document/cloud-document-integration/g-suite/index.md
+    href: ../../document/cloud/g-suite/index.md
     items:
     - name: Requirements
-      href: ../../document/cloud-document-integration/g-suite/requirements.md
+      href: ../../document/cloud/g-suite/requirements.md
     - name: Security
-      href: ../../document/cloud-document-integration/g-suite/security.md
+      href: ../../document/cloud/g-suite/security.md
     - name: Quick start
-      href: ../../document/cloud-document-integration/g-suite/getting-started.md
+      href: ../../document/cloud/g-suite/getting-started.md
     - name: Set up
-      href: ../../document/cloud-document-integration/g-suite/set-up.md
+      href: ../../document/cloud/g-suite/set-up.md
   - name: Office 365 document integration
-    href: ../../document/cloud-document-integration/office-365/index.md
+    href: ../../document/cloud/office-365/index.md
     items:
     - name: Requirements
-      href: ../../document/cloud-document-integration/office-365/requirements.md
+      href: ../../document/cloud/office-365/requirements.md
     - name: Security
-      href: ../../document/cloud-document-integration/office-365/security.md
+      href: ../../document/cloud/office-365/security.md
     - name: Prepare SharePoint for set up
-      href: ../../document/cloud-document-integration/office-365/prepare-sharepoint.md
+      href: ../../document/cloud/office-365/prepare-sharepoint.md
     - name: Set up
-      href: ../../document/cloud-document-integration/office-365/set-up.md
+      href: ../../document/cloud/office-365/set-up.md
     - name: Troubleshooting
-      href: ../../document/cloud-document-integration/office-365/troubleshooting.md
+      href: ../../document/cloud/office-365/troubleshooting.md
 - name: ODF
   href: ../../document/odf.md
 - name: Report parameters
