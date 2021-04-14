@@ -10,11 +10,6 @@ items:
 # Will apps be included in API toc?
 - name: Apps
   href: apps/toc.yml
-# Will authentication be included in API toc?
-- name: Authentication
-  items:
-  - name: Cookies
-    href: ../authentication/cookies.md
 - name: Automation
   href: automation/toc.yml
 # TBD: chat, company and contact, custom fields, dashboards
