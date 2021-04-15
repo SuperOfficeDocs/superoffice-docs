@@ -37,7 +37,7 @@ Before you start the replacement, take a close look at the *Database Size* under
 
     ![Replace1.PNG][img4]
 
-5. To reduce the risk of sending emails from the test environment we by default invalidate all email addresses. Invalidate email address will take **jenny@company.com** and change to **jenny\_company.com@mailinator.com**. You may specify another email domain, **default is mailinator.com**.
+5. To reduce the risk of sending emails from the test environment we by default invalidate all email addresses. Invalidate email address will take **jenny@company.com** and change to **jenny_company.com@mailinator.com**. You may specify another email domain, **default is mailinator.com**.
 
     ![Replace2.PNG][img5]
 
@@ -61,7 +61,7 @@ Before you start the replacement, take a close look at the *Database Size* under
 
     ![Replace7.PNG][img10]
 
-11. Now when you click **Confirm*. the process starts. This may take a lot of time and the first step is time-consuming, see [list of steps][3].
+11. Now when you click **Confirm** the process starts. This may take a lot of time and the first step is time-consuming, see [list of steps][3].
 
     ![image9vgqg.png][img11]
 
