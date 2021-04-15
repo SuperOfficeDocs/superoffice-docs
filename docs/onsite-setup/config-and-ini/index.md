@@ -12,7 +12,7 @@ so.envir: onsite
 
 ## .ini versus .config
 
-The SuperOffice web client uses **web.config** to specify database connection details. SuperOffice windows client uses **superoffice.config**, in addition to **superoffice.ini**.
+The SuperOffice Web client uses **web.config** to specify database connection details. SuperOffice Windows client uses **superoffice.config**, in addition to **superoffice.ini**.
 
 **superoffice.config** is a NetServer config file in the same place as *superoffice.ini* (also found in the same way, if you come in via COM).
 
@@ -76,7 +76,7 @@ The same credentials are used to access NetServer Web Services.
 The following steps are recommended to increase security:
 
 * Deactivate the default system user in the SoAdmin client.
-* Create a new pair of database- and system users specifically for Sales and Marketing Web and Customer Service.
+* Create a new pair of database and system users specifically for Sales and Marketing Web and Service.
 
 <!-- Referenced links -->
 [1]: ../win-client/debug.md
