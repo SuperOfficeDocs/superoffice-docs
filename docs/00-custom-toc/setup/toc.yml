@@ -12,7 +12,7 @@ items:
         href: ../../onsite-setup/crm-server/requirements.md
       - name: IIS web server
         href: ../../onsite-setup/crm-server/iis-web-server/requirements.md
-      - name: Web and win client
+      - name: Web and Win client
         href: ../../onsite-setup/web-client/requirements.md
     - name: Compatibility
       href: ../../onsite-setup/compatibility/index.md
