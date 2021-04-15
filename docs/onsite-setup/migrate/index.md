@@ -1,11 +1,11 @@
 ---
 title: migration_guide
 description: Migrate to SuperOffice CRM Online
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: guide                # article, howto, reference, concept, guide
+so.topic: guide 
 so.envir: onsite              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.client:
 ---
 
 # Migrate to Online

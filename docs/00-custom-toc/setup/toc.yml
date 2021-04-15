@@ -6,14 +6,14 @@ items:
     expanded: true
     items:
     - name: System requirements
-      href: ../../onsite-setup/system-requirements.md
+      href: ../../onsite-setup/requirements.md
       items:
       - name: CRM Server
-        href: ../../onsite-setup/crm-server/system-requirements.md
-      - name: Web client
-        href: ../../onsite-setup/web-client/system-requirements.md
-      - name: Windows client
-        href: ../../onsite-setup/win-client/system-requirements.md
+        href: ../../onsite-setup/crm-server/requirements.md
+      - name: IIS web server
+        href: ../../onsite-setup/crm-server/iis-web-server/requirements.md
+      - name: Web and win client
+        href: ../../onsite-setup/web-client/requirements.md
     - name: Compatibility
       href: ../../onsite-setup/compatibility/index.md
       items:
@@ -52,7 +52,6 @@ items:
   - name: Set up servers and database
     items:
     - name: IIS web server
-      href: ../../onsite-setup/crm-server/iis-web-server/index.md
       items:
       - name: Prepare
         href: ../../onsite-setup/crm-server/iis-web-server/prepare.md
@@ -122,8 +121,6 @@ items:
   href: ../../onsite-setup/migrate/index.md
   expanded: true
   items:
-  - name: System requirements
-    href: ../../online/system-requirements.md
   - name: Service mailboxes
     href: ../../onsite-setup/migrate/service-mailboxes.md
   - name: Run OMT
@@ -167,8 +164,4 @@ items:
   - name: Windows client
     href: ../../onsite-setup/win-client/debug.md
 - name: Version history
-  items:
-  - name: Onsite
-    href: ../../onsite-setup/version-history.md
-  - name: Online
-    href: ../../online/version-history.md
+  href: ../../onsite-setup/version-history.md

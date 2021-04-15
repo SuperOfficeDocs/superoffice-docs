@@ -1,16 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: crm_server_setup_guide # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: CRM Server setup guide # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: crm_server_setup_guide
+description: CRM Server setup guide
+author: {github-id}
 keywords:
-so.topic: guide                 # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: guide  
+so.envir: onsite
+# so.client:
 ---
 
 # CRM Server setup guide
@@ -110,7 +105,7 @@ In a new installation, only the main language is used for most of the translated
 If you are upgrading from an earlier version of SuperOffice, make sure to select the same main language as in the last installation, or you risk getting a mix of languages in the database/program.
 
 <!-- Referenced links -->
-[2]: system-requirements.md
+[2]: requirements.md
 [3]: iis-web-server/prepare.md
 [4]: ../compatibility/database.md
 [5]: create-oracle-db.md

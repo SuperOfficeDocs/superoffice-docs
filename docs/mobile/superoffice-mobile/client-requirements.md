@@ -39,4 +39,4 @@ Office documents need supported viewer software installed on the device.
 The mobile app uses the same components as SuperOffice inbox in Web. See [web server requirements][1].
 
 <!-- Referenced links -->
-[1]: ../../onsite-setup/web-client/system-requirements.md
+[1]: ../../onsite-setup/web-client/requirements.md

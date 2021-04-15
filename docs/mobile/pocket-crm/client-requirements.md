@@ -54,4 +54,4 @@ Pocket CRM receives the result of the process and proceeds past the login screen
 
 <!--Referenced links-->
 [1]: https://community.superoffice.com/en/customer/inspiration/articlestandard-crm/pocket-crm-app-end-of-life-for-the-microsoft-windows-10-mobile-phone/
-[2]: ../../onsite-setup/web-client/system-requirements.md
+[2]: ../../onsite-setup/web-client/requirements.md

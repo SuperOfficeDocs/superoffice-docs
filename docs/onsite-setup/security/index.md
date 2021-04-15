@@ -1,7 +1,7 @@
 ---
 title: onsite_security
 description: Security and deployment
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.topic: reference
 so.envir: onsite

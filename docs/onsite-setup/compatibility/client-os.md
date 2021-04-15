@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: tested_client_os         # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Tested client OS   # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Tested client OS
+uid: tested_client_os
+description: Tested client OS
+author: {github-id}
 keywords:
-so.topic: reference            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                    # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: onsite
+# so.client:
 ---
 
 # Tested client operating systems
@@ -32,7 +28,7 @@ Want to know if a newly released OS is compatible? Check the [compatibility rep
 | Windows 7 x86 SP2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] |
 
 > [!NOTE]
-> Windows 10 is supported from Windows 10 Anniversary Update (version 1607).<br>Windows 7 SP1 and SP2 have reached end of support 14th January 2020.
+> Windows 10 is supported from Windows 10 Anniversary Update (version 1607).<br>Windows 7 SP1 and SP2 have reached the end of support on 14th January 2020.
 
 ## Mac
 

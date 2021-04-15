@@ -1,16 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: prepare_iis # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Prepare iis web server # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: prepare_iis
+description: Prepare iis web server
+author: {github-id}
 keywords:
-so.topic: howto                 # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+# so.client:
 ---
 
 # Prepare web server
@@ -27,7 +22,7 @@ SuperOffice uses Windows Communication Foundation (WCF). This means WCF must be 
 **If not:**
 
 1. Go to the Control Panel > Programs and click **Turn Windows features on or off**.
-1. Then go to the **Role** for IIS and install ASP.Net support using **Add Role Services**.
+2. Then go to the **Role** for IIS and install ASP.Net support using **Add Role Services**.
 
 ![asp][img1]
 
@@ -53,20 +48,20 @@ Plus any authentication methods that you wish to use.
 3. Start **Internet Information Services (IIS) Manager**.
 4. Click the server name and double click **ISAPI and CGI Restrictions**.
 
-![IIS][img3]
+    ![IIS][img3]
 
 5. Click **Edit Feature Settings..** and check **Allow unspecified CGI modules**.
 
-![Allow unspecified CGI modules][img4]
+    ![Allow unspecified CGI modules][img4]
 
-If you do not want to **Allow unspecified CGI modules** it is also possible to use "Add..." to add each CGI file separately. This, however, requires you to make sure any new CGI files from Customer Service is added here.
+    If you do not want to **Allow unspecified CGI modules** it is also possible to use "Add..." to add each CGI file separately. This, however, requires you to make sure any new CGI files from Customer Service is added here.
 
 6. Click **Add...**, navigate to the *\[Service installation\]\\www\\scripts* folder and add one by one all .exe files in this folder. For each write some description and tick **Allow extension path** to execute.
 
 ![add cgi][img5]
 
 <!-- Referenced links -->
-[1]: ../system-requirements.md
+[1]: requirements.md
 
 <!-- Referenced images -->
 [img1]: ../media/asp.png

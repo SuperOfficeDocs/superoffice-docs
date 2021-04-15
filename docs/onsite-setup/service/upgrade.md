@@ -1,16 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: upgrade_service          # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Upgrade SuperOffice Customer Service to SuperOffice Service # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: upgrade_service
+description: Upgrade SuperOffice Customer Service to SuperOffice Service
+author: {github-id}
 keywords: 
-so.topic: guide                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: guide
+so.envir: onsite
+# so.client:
 ---
 
 # Upgrade SuperOffice Customer Service to SuperOffice Service
@@ -95,7 +90,7 @@ The attachment folder can potentially have hundreds of thousands of files, which
 <!-- Referenced links -->
 [1]: ../crm-server/upgrade-to-8.md
 [2]: ../web-client/upgrade-to-8.md
-[3]: ../crm-server/system-requirements.md
+[3]: ../crm-server/requirements.md
 
 <!-- Referenced images -->
 [img1]: media/upgradeservice.png

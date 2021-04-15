@@ -1,11 +1,11 @@
 ---
 title: enable_debug_of_reporter
 description: Enable debug for Web Reporter
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-so.envir: onsite             # cloud or onsite
-so.client: web                # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: web
 ---
 
 # Enable debug for Web Reporter

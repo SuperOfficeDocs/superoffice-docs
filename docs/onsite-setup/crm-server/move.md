@@ -1,16 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: move_crm_server       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Move SuperOffice CRM Server # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: move_crm_server      
+description: Move SuperOffice CRM Server
+author: {github-id}
 keywords:
 so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: onsite
+# so.client:
 ---
 
 # Move SuperOffice CRM Server

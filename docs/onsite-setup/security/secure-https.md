@@ -1,14 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: secure_https_config # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Securing HTTPS configuration on Windows Server # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: secure_https_config
+description: Securing HTTPS configuration on Windows Server
+author: {github-id}
 keywords: security
 so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
 so.envir: onsite               # cloud or onsite
 so.client: web               # online, web, win, pocket, or mobile
 ---

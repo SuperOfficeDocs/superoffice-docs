@@ -1,11 +1,11 @@
 ---
 title: online_migration_tool
 description: Running the Online Migration Tool (OMT)
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: howto                # article, howto, reference, concept, guide
+so.topic: howto
 so.envir: onsite              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.client:
 ---
 
 # Running the Online Migration Tool

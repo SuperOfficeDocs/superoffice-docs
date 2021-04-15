@@ -3,8 +3,8 @@ title: set_up_web_client
 description: Install SuperOffice Web
 author: {github-id} # Your GitHub alias.
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-so.envir: onsite                # cloud or onsite
+so.topic: howto
+so.envir: onsite
 so.client: web              # online, web, win, pocket, or mobile
 ---
 

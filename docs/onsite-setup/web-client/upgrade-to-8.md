@@ -1,16 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: upgrade_web_client_to_8 # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Upgrade SuperOffice Web to version 8 # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: upgrade_web_client_to_8
+description: Upgrade SuperOffice Web to version 8
+author: {github-id}
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: web
 ---
 
 # Upgrade SuperOffice Web
@@ -19,7 +14,7 @@ These are the recommended steps for upgrading from SuperOffice 7 Web to SuperOff
 
 ## Before you begin
 
-* Check the [system requirements](system-requirements.md) for SuperOffice 8 Web.
+* Check the [system requirements][3] for SuperOffice 8 Web.
 * [Upgrade your database][1] to version 8.1 using ServerSetup.exe.
 * If using remote NetServer for Web: [upgrade the NetServer][2] used by Web to version 8.1.
 * Download and unzip the Web installer package on your server.
@@ -70,4 +65,5 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 <!-- Referenced links -->
 [1]: ../crm-server/upgrade-to-8.md
 [2]: upgrade-to-8.md
+[3]: requirements.md
 [4]: ../security/deployment-scenarios.md

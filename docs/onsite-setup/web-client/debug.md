@@ -1,23 +1,18 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: debug_web_client       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Debug Web client # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: debug_web_client
+description: Debug Web client
+author: {github-id}
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: web
 ---
 
 # Debug Web client
 
 Enable debug for Sales & Marketing Web client or Remote WebServices. When locating problems in Sales & Marketing Web client, Service, Pocket CRM, or any other tool that use SuperOffice Remote WebServices (NetServer).
 
-You can enable the debugging in a SuperOffice application which configures Web installation and/or NetServer and is called Product Configurator. There are two ways how you can start it - from the Windows Start menu and directly from the installation directory.
+You can enable the debugging in a SuperOffice application that configures Web installation and/or NetServer and is called Product Configurator. There are two ways how you can start it - from the Windows Start menu and directly from the installation directory.
 
 ## From the Start menu
 

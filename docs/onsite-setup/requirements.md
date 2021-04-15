@@ -1,0 +1,80 @@
+---
+title: Requirements
+uid: onsite_system_requirements
+description: System requirements - onsite
+author: {github-id}
+keywords:
+so.topic: reference
+so.envir: onsite
+# so.client:
+---
+
+# System requirements - Onsite
+
+Use this overview to get to the specific requirements.
+
+> [!TIP]
+> Also consider info in the [Security and deployment][12] sections when installing or upgrading to SuperOffice CRM 8 and 9.
+
+## Requirements
+
+* [CRM Server][1]
+* [IIS web server][3]
+* [Web client][2]
+* [Win client][2]
+* [Pocket CRM host][4] and [device][5]
+* [SuperOffice mobile][6]
+
+## Microsoft .NET
+
+### Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and 9
+
+The installer will handle the installation of .NET 4.8 for you, but some clients may like to pre-install it themselves.
+
+Windows 10 May 2019 Update comes with .NET 4.8 included.
+
+### Microsoft .NET v 4.7.1 required from SuperOffice 8.3 R04
+
+This requirement applies to:
+
+* All client computers that will run our Windows client
+* All servers running our web-based software (Sales & Marketing Web, NetServer, Service)
+* The server hosting SuperOffice CRM Server (ServerSetup) to be able to run ServerSetup and *DBSetup.exe*
+
+SuperOffice WebTools (Web Extensions and MailLink) will not have this requirement yet. They will continue to run on .Net 4.5.1. This means that our CRM Online customers are not affected by this change for now.
+
+There are 2 main reasons for this change:
+
+* Security patches are no longer shipped by Microsoft on .NET 4.5.x.
+* New versions of our developing tools need this to enable us to be more productive.
+
+Please note:
+
+* .NET 4.7.1 has already been pushed with Windows Update for a while and is preinstalled from Windows 10 Fall Creators Update (version 1709) and newer.
+* .NET 4.7.1 is supported by Windows 7 SP1 or newer as Client OS, except Windows 8.0. Windows 8.0 is no longer supported by Microsoft. Windows 10 is supported from Windows 10 Anniversary Update (version 1607).
+* .NET 4.7.1 is supported by Windows Server 2008 R2 SP1 or newer as Server OS.
+
+See: [.NET system requirements][13]
+
+## Compatibility
+
+* [Server OS][7]
+* [Client OS][8]
+* [Browser][9]
+* [Microsoft Office][10]
+* [Database][11]
+
+<!-- Referenced links -->
+[1]: crm-server/requirements.md
+[2]: web-client/requirements.md
+[3]: crm-server/iis-web-server/requirements.md
+[4]: ../mobile/pocket-crm/system-requirements.md
+[5]: ../mobile/pocket-crm/client-requirements.md
+[6]: ../mobile/superoffice-mobile/client-requirements.md
+[7]: compatibility/server-os.md
+[8]: compatibility/client-os.md
+[9]: compatibility/browser.md
+[10]: compatibility/ms-office.md
+[11]: compatibility/database.md
+[12]: security/secure-deployment-guide.md
+[13]: https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements

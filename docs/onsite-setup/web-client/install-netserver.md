@@ -1,21 +1,16 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: install_ns_web_services       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: install_ns_web_services
+description:
+author: {github-id}
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: web
 ---
 
-# Install NetServer / Web services
+# Install NetServer / web services
 
-Netserver is always installed, but for some scenarios, we recommend it is installed as remote web services.
+NetServer is always installed, but for some scenarios, we recommend it is installed as remote web services.
 
 ## Before you begin
 
@@ -25,13 +20,13 @@ Netserver is always installed, but for some scenarios, we recommend it is instal
 
 1. Upon launching the installer, you might be prompted to install some prerequisites, install these by clicking the **Install** button.
 
-2. To start the installation, you need to accept the License agreement.
+2. To start the installation, you need to accept the license agreement.
 
 3. Specify the SuperOffice Web Application name and select the destination folder where you want to install it. If you chose to split the installation into one SuperOffice Web and one SuperOffice NetServer installation it is recommended to chose a name that correlates to the type of installation.
 
 4. Select the second setup type if you want to split SuperOffice Web and SuperOffice NetServer into two separate installations, either because you want to install them on different servers or just want to split the application.
 
-5. In the next dialog select the first option to install NetServer application server with Web Services.
+5. In the next dialog select the first option to install the NetServer application server with Web Services.
 
 6. In the next dialog select the website and/or virtual directory for your installation and specify a name for the new virtual directory, by default it will take the name you wrote in the dialog from step 3. We recommend you chose a name that correlates to the type of installation, like *SuperOfficeNetServer*.
 

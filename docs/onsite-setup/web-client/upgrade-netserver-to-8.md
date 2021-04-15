@@ -1,16 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: upgrade_netserver_to_8       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Upgrade SuperOffice 7 NetServer to SuperOffice 8 NetServer # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: upgrade_netserver_to_8
+description: Upgrade SuperOffice 7 NetServer to SuperOffice 8 NetServer
+author: {github-id}
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: web
 ---
 
 # Upgrade SuperOffice 7 NetServer to SuperOffice 8 NetServer
@@ -35,4 +30,4 @@ If SuperOffice 7 Web runs on Remote NetServer, it is possible to merge Service 
 <!-- Referenced links -->
 [1]: ../security/index.md
 [2]: ../crm-server/setup-guide.md
-[3]: system-requirements.md
+[3]: requirements.md

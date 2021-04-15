@@ -1,21 +1,19 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: web_client_system_requirements # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: System requirements for SuperOffice Web client # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Client requirements
+uid: client_requirements
+description: Client requirements for SuperOffice Web and Win
+author: {github-id}
 keywords:
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                # cloud or onsite
-so.client: web                  # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: onsite
+so.client: web
 ---
 
-# System requirements for SuperOffice Web client
+# Client requirements for SuperOffice Web and Win
 
 These apply to computers running the Sales, Marketing, and Service clients.
+
+[!include[Warning legacy](../includes/warn-win-client-discontinued.md)]
 
 ## Processor
 
@@ -32,7 +30,8 @@ These apply to computers running the Sales, Marketing, and Service clients.
 * Microsoft Windows 8.1 (32bit) or (64bit)
 * Mac - Web client only
 
-SuperOffice CRM Web will run on Mac, though with some limitations: cross table reports not supported.
+> [!NOTE]
+> SuperOffice CRM Web will run on Mac, though with some limitations: cross table reports not supported.
 
 ## Network
 
@@ -89,6 +88,15 @@ To run WebTools with Web Extensions and MailLink, the client is required to have
 
 If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8.0 SR1 to avoid using TLS 1.0. NetServer used by Pocket CRM still needs TLS 1.0 up until version 8.0.32 (R14) client, released August 15th, 2016.
 
+## Database - Travel (Win only)
+
+* Microsoft SQL Server 2014 Express
+* Microsoft SQL Server 2008/2008 R2 Express
+* Sybase 12 (Built-in or Standalone)
+
+> [!NOTE]
+> For Microsoft SQL Server, the computer generating the prototype must support the client's version of SQL Express.
+
 ## Requisites installed by the client installer
 
 * **Microsoft .NET v 4.8 from SuperOffice 8.5 R05**
@@ -100,12 +108,12 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 * Reporter runtime (version 9.0.30729.17)
 
 > [!NOTE]
-> When running SuperOffice in a Citrix and Terminal server environments where users share the memory, actual requirements and product functionality may vary based on your system configuration.
+> When running SuperOffice in Citrix and Terminal-server environments where users share the memory, actual requirements, and product functionality may vary based on your system configuration.
 
-### Microsoft .NET v 4.8 from SuperOffice 8.5 R05 and 9
+[Read more about Microsoft .NET requirements][1]
 
-[!include[.NET v 4.8 required](../includes/req-dotnet-4-8.md)]
+> [!TIP]
+> Enable Clear Type Text on all clients running the CRM Win app for the best user experience.
 
-### Microsoft .NET v 4.7.1 required from SuperOffice 8.3 R04
-
-[!include[.NET v 4.8 required](../includes/req-dotnet-4-7-1.md)]
+<!-- Referenced links -->
+[1]: ../requirements.md

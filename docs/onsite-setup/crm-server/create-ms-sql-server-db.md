@@ -1,16 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: create_sql_server_db     # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Create new Microsoft SQL Server database for SuperOffice onsite # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: create_sql_server_db    
+description: Create new Microsoft SQL Server database for SuperOffice onsite
+author: {github-id}
 keywords: database
-so.topic: howto                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto 
+so.envir: onsite
+# so.client:
 ---
 
 # Create new Microsoft SQL Server database
