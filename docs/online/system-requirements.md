@@ -11,7 +11,7 @@ so.client: online
 
 # System requirements for SuperOffice CRM Online
 
-CRM Online is the same as our web client, but since our strategy is to deliver news on our Online platform first, the system requirements may change for this platform first.
+CRM Online is the same as our Web client, but since our strategy is to deliver news on our Online platform first, the System requirements may change for this platform first.
 
 ## Operating systems
 
@@ -68,7 +68,7 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 [View in app store][2]
 
 > [!NOTE]
-> Windows only:<br>Mobile phone users must have the latest version of iOS (13) or Android (10), and use the Outlook App (The Chrome Mobile Version of OWA does not support Outlook Add-ins).<br>Outlook desktop app users must have version 2001 and newer of Outlook, to be able to use Send and Archive (due to missing APIs in older versions).
+> Windows only:<br>Mobile phone users must have the latest version of iOS (13) or Android (10), and use the Outlook App (the Chrome Mobile Version of OWA does not support Outlook Add-ins).<br>Outlook desktop app users must have version 2001 and newer of Outlook, to be able to use Send and Archive (due to missing APIs in older versions).
 
 ## Mobile applications
 

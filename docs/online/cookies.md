@@ -19,7 +19,7 @@ Cookies specific to SuperOffice Online deployment.
 
 | Cookie name | Type | Usage | Description |
 |---|---|---|---|
-| OnlineLogin | string | Online login | Session handling in login page load balancer |
+| OnlineLogin | string | Online&nbsp;login | Session handling in login page load balancer |
 | SOOnline | string | Online login | Session state for Online login |
 | SoAuth.Xsrf | string | Online login | Anti-forgery token for Online login |
 | SoContextHints | string | Online login | Online login |

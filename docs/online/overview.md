@@ -23,11 +23,11 @@ Our partners also deliver a growing number of apps, modules, and integrations to
 
 ## Technology platform
 
-SuperOffice CRM Online is based on the standard core product SuperOffice CRM web client. The user interface is similar to the one that comes out of the package when installing Sales & Marketing web and has minor features added, such as links to SOLO (standard for all users) and a web panel for support.
+SuperOffice CRM Online is based on the standard core product SuperOffice CRM Web client. The user interface is similar to the one that comes out of the package when installing Sales & Marketing web and has minor features added, such as links to SOLO (standard for all users) and a web panel for support.
 
 From version 8, we introduce our new software in the online marked first.
 
-SuperOffice CRM Online is accessed through any [supported browser][2] and our [web tools][3] may be installed on your computer to get your email and documents integrated with SuperOffice.
+SuperOffice CRM Online is accessed through any [supported browser][2] and our [WebTools][3] may be installed on your computer to get your email and documents integrated with SuperOffice.
 
 On the server-side, the system runs on Windows web servers with a Microsoft SQL database. Web servers are resilient; they are all set up in an active/passive cluster. Several servers handle other services, such as file storage and batch-task service.
 
