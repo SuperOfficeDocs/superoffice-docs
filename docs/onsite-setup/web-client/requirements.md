@@ -73,7 +73,7 @@ Windows operating system only
 
 ## SuperOffice Ribbons
 
-Windows operating system only
+SuperOffice Win client only
 
 * Microsoft Office 2019
 * Microsoft Office 2016
@@ -90,8 +90,7 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 
 ## Database - Travel (Win only)
 
-* Microsoft SQL Server 2014 Express
-* Microsoft SQL Server 2008/2008 R2 Express
+* Microsoft SQL Server Express
 * Sybase 12 (Built-in or Standalone)
 
 > [!NOTE]
