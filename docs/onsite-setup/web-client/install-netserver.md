@@ -57,4 +57,4 @@ NetServer is always installed, but for some scenarios, we recommend it is instal
 18. Click **Finish** to finalize the installation.
 
 <!-- Referenced links -->
- [1]: set-up-web-and-report.md
+[1]: ../reporter/config.md

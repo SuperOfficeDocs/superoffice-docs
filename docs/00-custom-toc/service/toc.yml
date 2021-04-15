@@ -10,6 +10,8 @@ items:
   items:
   - name: System templates
     href: ../../reply-templates/system-templates.md
+- name: Report parameters
+  href: ../../service/reports/parameters.md
 - name: Debug automated tasks
   href: ../../service/debug-automated-tasks.md
 - name: Config

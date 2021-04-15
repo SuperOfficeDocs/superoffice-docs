@@ -90,4 +90,4 @@ The server where you install SuperOffice Web needs to have an internet connectio
 [6]: ../service/set-up-guide.md
 [7]: ../security/deployment-scenarios.md
 [8]: https://license.superoffice.com/
-[9]: set-up-web-and-report.md
+[9]: ../reporter/config.md

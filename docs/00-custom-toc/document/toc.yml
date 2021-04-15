@@ -33,8 +33,6 @@ items:
       href: ../../document/cloud/office-365/troubleshooting.md
 - name: ODF
   href: ../../document/odf.md
-- name: Report parameters
-  href: ../../reports/parameters.md
 - name: Ribbons
   href: ../../document/ribbons/index.md
   expanded: true

@@ -1,19 +1,20 @@
 ---
-title: set_up_reverse_proxy_iis
+title: Set up a reverse proxy
+uid: set_up_reverse_proxy_iis
 description: Setting up a Reverse proxy on IIS8 for SuperOffice onsite
 author: {github-id}
 keywords: security
-so.topic: howto 
+so.topic: howto
 so.envir: online
-so.client: web                 # online, web, win, pocket, or mobile
+so.client: web
 ---
 
 # Setting up a Reverse proxy on IIS8
 
-Our recommended deployment scenario uses Reverse proxy on the DMZ server to access the internal server where SuperOffice Sales and Service are installed.
+Our recommended deployment scenario uses a Reverse proxy on the DMZ server to access the internal server where SuperOffice Sales and Service are installed.
 
 > [!NOTE]
-> SuperOffice 8.1 requires that our clients are located on the same domain as seen from the users browser. This means `service.myorganization.com` and `crm.myorganization.com` from version 8.1 must be `socrm.myorganization.com/service` and `socrm.myorganization.com/sales`. It is not required to put Service in a subfolder, but it makes generating the URL rewrite rules a lot easier.
+> SuperOffice 8.1 requires that our clients are located on the same domain as seen from the user's browser. This means `service.myorganization.com` and `crm.myorganization.com` from version 8.1 must be `socrm.myorganization.com/service` and `socrm.myorganization.com/sales`. It is not required to put Service in a subfolder, but it makes generating the URL rewrite rules a lot easier.
 
 **Platform:** Windows Server 2012 R2 Standard
 
@@ -97,11 +98,11 @@ Add an outbound rule for the location header:
 
 1. Add rule
 
-![x][img11]
+    ![x][img11]
 
 2. Enter the following values:
 
-![x][img12]
+    ![x][img12]
 
 * Name: **Rewrite location**
 * Matching scope: **Server variable**
@@ -153,7 +154,7 @@ Or update directly in the database table called `<prefix>.config` - fields `cg
 
 Note - running on HTTPS
 
-SuperOffice Service may not use NetServer web services running on HTTPS, this means you have to use a nsEndPoint address in Service config file that use http:// and not https://
+SuperOffice Service may not use NetServer web services running on HTTPS, this means you have to use a nsEndPoint address in Service config file that uses HTTP and not HTTPS
 
 ```html
 [More info](javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$plhFullWidthContentArea$propMainBody$ctl00$ctl38$ctl00$btnBanner", "", false, "", "javascript:%20return%20false;", false, true)) "More info")

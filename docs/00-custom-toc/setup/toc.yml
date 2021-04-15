@@ -56,7 +56,7 @@ items:
       - name: Prepare
         href: ../../onsite-setup/crm-server/iis-web-server/prepare.md
       - name: Set up reverse proxy on IIS
-        href: ../../onsite-setup/crm-server/iis-web-server/set-up-reverse-proxy-on-iis.md
+        href: ../../onsite-setup/crm-server/iis-web-server/set-up-reverse-proxy.md
     - name: Database
       items:
       - name: Create MS SQL Server database
@@ -85,8 +85,8 @@ items:
     items:
     - name: Install Web client
       href: ../../onsite-setup/web-client/set-up.md
-    - name: Set up Web Reports
-      href: ../../onsite-setup/web-client/set-up-web-and-report.md
+    - name: Configure Web Reports
+      href: ../../onsite-setup/reporter/config.md
     - name: Install NetServer web services
       href: ../../onsite-setup/web-client/install-netserver.md
   - name: Install SuperOffice Service
@@ -159,8 +159,10 @@ items:
   items:
   - name: Web client
     href: ../../onsite-setup/web-client/debug.md
-  - name: Reporter
-    href: ../../onsite-setup/web-client/debug-reporter.md
+  - name: Reporter log
+    href: ../../onsite-setup/reporter/debug.md
+  - name: Reporter error messages
+    href: ../../onsite-setup/reporter/troubleshooting.md
   - name: Windows client
     href: ../../onsite-setup/win-client/debug.md
 - name: Version history

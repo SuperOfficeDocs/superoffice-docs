@@ -1,9 +1,10 @@
 ---
-title: reports_parameters
+title: Parameters for reports
+uid: reports_parameters
 description: Parameters for reports
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 04.29.2020
-
+so.topic: reference
 keywords:
 ---
 
