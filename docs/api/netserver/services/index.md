@@ -1,6 +1,7 @@
 ---
-title: services       
-description: SuperOffice NetServer services
+uid: netserver-web-services-overview
+title: NetServer web services       
+description: SuperOffice NetServer web services
 author: {github-id}             # Your GitHub alias.
 so.date:
 keywords:
@@ -30,7 +31,7 @@ A session retrieves data regarding the currently logged-in user and keeps them i
 
 Each tenant exposes NetServer web services for all clients, including SuperOffice Web, PocketCRM, and partner application clients. The web services are bundled in your Expander Services subscription.
 
-![OnlineArrangement.png][img1]
+![netserver-web-service][img1]
 
 ## Service-orientated data access
 
@@ -68,4 +69,4 @@ Your application is not allowed to place .net assemblies in a tenant web applica
 [8]: ../../api-reference/restful/agent/index.md
 
 <!-- Referenced images -->
-[img1]: media/onlinearrangement.png
+[img1]: media/netserver-web-services.png
