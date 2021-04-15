@@ -29,7 +29,7 @@ so.client: online
 | 11 | Clone Azure Templates from CustSOURCE on | Copy templates from source to target. |
 | 12 | Provision Mail Service | All mailboxes used by Service are deleted and replaced with one single test email account for this domain. |
 | 13 | Disable Scheduled Tasks | Any schedule tasks that have been active on the source will by default be set to disabled. Read more about scheduled tasks in the [admin help file][1] |
-| 14 | Recycle customer | Recycle the target | |
+| 14 | Recycle customer | Recycle the target |
 | 15 | Change the serial number to Test Env - COMPANYNAME/SERIALNUMBER | We need to change the serial number and owner company to match that of the test tenant. License information. |
 | 16 | Set SuperId Tenant State to *In migration* | |
 | 17 | Assign user plans | Assign user plans to the users that should be allowed to log in to the test environment.|
