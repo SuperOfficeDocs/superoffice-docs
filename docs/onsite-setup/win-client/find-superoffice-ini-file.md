@@ -8,7 +8,7 @@ so.envir: onsite
 so.client: win               # online, web, win, pocket, or mobile
 ---
 
-# How to find SUPEROFFICE.INI
+# How to find SuperOffice.ini
 
 1. To find the configuration file for SuperOffice (*SuperOffice.ini*), right-click the SuperOffice icon on the desktop or in the start-menu, and choose **Properties**.
 

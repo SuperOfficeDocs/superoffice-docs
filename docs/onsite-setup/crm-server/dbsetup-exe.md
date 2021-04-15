@@ -22,7 +22,7 @@ DbSetup/ServerSetup will create all tables, both SuperOffice and Service. Also, 
 
 DbSetup will export & import all standard tables & fields for both products.
 
-DbSetup does not see extra tables and extra fields. We will have a separate solution for that. Service has its own dictionary and way of specifying extension fields and tables. The C++ code is not very fond of dynamically-changing tables and we have chosen to "not go there" in this first release.
+DbSetup does not see extra tables and extra fields. We will have a separate solution for that. Service has its own dictionary and way of specifying extension fields and tables. The C++ code is not very fond of dynamically-changing tables and we have chosen to "not go there".
 
 The new "dynamic" archive provider in NetServer does see these fields & tables. NetServer is inherently designed to be more flexible, so it sees all the new fields and tables with no problems.  However, the web service APIs are still fairly static, and transporting new data there presents a challenge. On the main entities, this is solved using the existing name/value extrafields dictionary.
 
@@ -32,7 +32,7 @@ Make a copy of an existing 8.1+ database on another database server. The source 
 
 The new database can be on any supported server type for that kind of database (you should not rebuild a Travel database to Oracle, for instance, since that is not a supported server for local Travel databases). The new database will be in Unicode unless the database server only supports ANSI.
 
-This operation is like an Export followed by an Import and is implemented that way internally, in parallel
+This operation is like an Export followed by an Import and is implemented that way internally, in parallel.
 
 If you use Service, please see below.
 
@@ -56,11 +56,11 @@ Any table not specified in the database's model/dictionary will be left untouche
 
 Create a new database; you will need an Internet connection and valid license information. Any existing database on the given data source will be deleted. The database will use Unicode string storage unless the server is capable of ANSI only.
 
-If you are running an international enterprise, unicode is necessary to be able to mix languages between Western Europe, Eastern Europe, and Asia.
+If you are running an international enterprise, Unicode is necessary to be able to mix languages between Western Europe, Eastern Europe, and Asia.
 
 Some preferences that ServerSetup writes during installation will not be written, for example, E-mail client and client auto-update.
 
-Load or re-load initial data into an 8.1+ database
+## Load or re-load initial data into an 8.1+ database
 
 Import or update the basic (initial) data in an existing database. You can choose which section to import from the dropdown list, which shows sections defined in your [SoTables.ini][1] file.
 
@@ -113,7 +113,7 @@ Create or update the freetext index on an existing 8.1+ database. The same funct
 
 ## Rebuild SAINT counters and statuses (8.1+)
 
-Perform a total rebuild of the SAINT counters, and subsequently the SAINT status flags. Depending on the number of contacts, project, appointments, sales, and Intent list entries, this can be a fairly lengthy process.
+Perform a total rebuild of the SAINT counters, and subsequently the SAINT status flags. Depending on the number of contacts, project, appointments, sales, and intent list entries, this can be a fairly lengthy process.
 
 This task may also be automated by using the Travel gateway service.
 
@@ -173,8 +173,8 @@ Parameters also correspond to the GUI. Parameters are separated by spaces and al
 | Command | Param count | Parameters |
 |---------|:-----------:|------------|
 | REBUILD | 9 | Source DSN, user, password and prefix (remember ODBC: for ODBC databases), target DSN, user, password, prefix, and A for Ansi or U for Unicode |
-| UPGRADE70 | 16 | DSN, User, Password, Prefix, A for Ansi/ U for unicode target, \[Contact name, Country id, First name, Last name, User id, Password, Serialnumber\] |
-| CREATE7 | | |
+| UPGRADE70 | 4 | DSN, user, password, and prefix |
+| CREATE7 |16 | DSN, User, Password, Prefix, A for Ansi/ U for unicode target, \[Contact name, Country id, First name, Last name, User id, Password, Serialnumber\] |
 | IMPORTINITIAL | 5 | DSN, user, password, prefix, name of section in SOTABLES.INI to import tables for |
 | FREETEXTINDEX | 4 | DSN, user, password, and prefix |
 | KILLDATABASE | 4 | DSN, user, password, and prefix |
