@@ -19,7 +19,7 @@ You will be able to access all [tenants][2] you have access to. If you want to r
 
 ![imaget39w.png][img1]
 
-Before you start the replacement, take a close look at the **Database Size*. under **Metered Services.*. The database size will influence how long some of the steps in the process take, and in this first version, we do not give feedback on how long each task's takes.
+Before you start the replacement, take a close look at the *Database Size* under *Metered Services*. The database size will influence how long some of the steps in the process will take, and in this first version, we do not give feedback on how long each task takes.
 
 ## Start the process to replace test environment
 
@@ -33,11 +33,11 @@ Before you start the replacement, take a close look at the **Database Size*. und
 
     ![imageclhp.png][img3]
 
-4. Assign users that should have access to the test environment. It will automatically add those who have a login
+4. Assign users that should have access to the test environment. It will automatically add those who have a login.
 
     ![Replace1.PNG][img4]
 
-5. To reduce the risk of sending emails from the test environment we by default invalidate all email addresses.Invalidate email address will take **jenny@company.com** and change to **jenny\_company.com@mailinator.com**You may specify another email domain, **default is mailinator.com**.
+5. To reduce the risk of sending emails from the test environment we by default invalidate all email addresses. Invalidate email address will take **jenny@company.com** and change to **jenny\_company.com@mailinator.com**. You may specify another email domain, **default is mailinator.com**.
 
     ![Replace2.PNG][img5]
 
