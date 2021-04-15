@@ -13,7 +13,8 @@ so.envir: onsite
 
 ## Requisites
 
-* [Microsoft .Net Framework 4.5.1][1] (as a web download)
+* [Microsoft .Net Framework 4.7.2][3] for WebTools 12.0 and newer. 
+* [Microsoft .Net Framework 4.5.1][1] for WebTools 11.7 and older.
 * VSTO 2010 runtime (32bit or 64bit) for Ribbons
 * Visual C++ 2017 runtime for x86 (version 14.14.26429.4)
 
@@ -56,3 +57,4 @@ But let’s say there is a problem/bug that is fixed in the 8.3 release. The cus
 <!-- Referenced links -->
 [1]: https://www.microsoft.com/en-US/download/details.aspx?id=40779
 [2]: deploy.md
+[3]: https://support.microsoft.com/en-us/topic/microsoft-net-framework-4-7-2-offline-installer-for-windows-05a72734-2127-a15d-50cf-daf56d5faec2
