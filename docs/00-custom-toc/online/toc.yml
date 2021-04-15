@@ -9,11 +9,12 @@ items:
   href: ../../online/security.md
 - name: Version history
   href: ../../online/version-history.md
+- name: Migrate to Online
+  href: ../../online/migrate/index.md
 - name: Test environment
   href: ../../online/test-environment/index.md
   expanded: true
   items:
-
   - name: Clone to test environment
     href: ../../online/test-environment/clone-to.md
   - name: Replace test environment

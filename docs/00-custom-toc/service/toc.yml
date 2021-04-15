@@ -12,6 +12,10 @@ items:
   items:
   - name: Location
     href: ../../service/attachments/location.md
+- name: Mailboxes
+  items:
+  - name: Migrate
+    href: ../../service/mailboxes/migrate.md
 - name: Reply templates
   href: ../../reply-templates/index.md
   expanded: true

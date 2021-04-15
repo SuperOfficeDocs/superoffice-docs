@@ -109,14 +109,6 @@ items:
       href: ../../onsite-setup/win-client/upgrade.md
   - name: To version 8.1
     href: ../../onsite-setup/upgrade/upgrade-to-8-1.md
-- name: Migrate to Online
-  href: ../../onsite-setup/migrate/index.md
-  expanded: true
-  items:
-  - name: Service mailboxes
-    href: ../../onsite-setup/migrate/service-mailboxes.md
-  - name: Run OMT
-    href: ../../onsite-setup/migrate/run-omt.md
 - name: Config
   href: ../../onsite-setup/config-and-ini/index.md
   expanded: true

@@ -114,7 +114,7 @@ Windows Registry Editor Version 5.00
 
 #### Upgrade of Web Extensions on Citrix-server
 
-After teh upgrade of WebTools on the server remember to remove Web Extensions startup from  `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` again.
+After the upgrade of WebTools on the server remember to remove Web Extensions startup from  `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` again.
 
 ### How to change the language of MailLink
 
