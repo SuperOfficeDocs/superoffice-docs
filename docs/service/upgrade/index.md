@@ -1,5 +1,6 @@
 ---
-title: upgrade_service
+title: Upgrade
+uid: upgrade_service
 description: Upgrade SuperOffice Customer Service to SuperOffice Service
 author: {github-id}
 keywords: 
@@ -20,7 +21,7 @@ These are the recommended steps for upgrading SuperOffice Service / Customer Ser
 * [Upgrade the NetServer][2] used by Customer Service
 * Download and unzip the Service installer package on your server
 
-[!include[ALT](../includes/warn-upgrade-all-to-same-version.md)]
+[!include[ALT](../../includes/warn-upgrade-all-to-same-version.md)]
 
 **Using remote NetServer WebServices?**
 
@@ -40,11 +41,11 @@ You need IIS version 7.5 or a patched version of 7.0. The Microsoft implementati
 ![x][img1]
 
 > [!NOTE]
-> When the installer finishes, you will need to run the upgrade.exe command. This must be done after every Customer Service upgrade, and the particulars for upgrading from version 7.5 to version 8.0 is explained in the next section.
+> When the installer finishes, you will need to run the upgrade.exe command. This must be done after every Customer Service upgrade, and the particulars for upgrading from version 7.5 to version 8.0 are explained in the next section.
 
 ### Customer center
 
-When upgrading Service to a new version, your current Customer center templates will be copied to a new folder called *templates\_date\_time*.
+When upgrading Service to a new version, your current Customer center templates will be copied to a new folder called *templates_date_time*.
 
 If you have made customizations to the customer center, you will need to update the current templates folder which will have the new optimizations, but the standard design.
 
@@ -57,7 +58,7 @@ When the installer is done upgrading the files to version 8.0, you need to run t
 
 1. Run cmd.exe from the start menu.
     * Make sure the upgrade.exe process is run with elevated/admin rights!
-    * You may have to start cmd.exe with a right-click on a short cut and select run as administrator to achieve this.
+    * You may have to start cmd.exe with a right-click on a shortcut and select run as administrator to achieve this.
 2. Navigate to the *bin* directory in the Customer Service installation folder to find and start upgrade.exe.
 3. The upgrade.exe program will ask you some questions of which there are 3 main new areas of interest: website name, FastCGI, and attachments (described below).
 4. Flush the cache: Navigate to `http://your-site/scripts/rms.exe?action=debug` and click **Flush caches** at the bottom.
@@ -66,7 +67,7 @@ When the installer is done upgrading the files to version 8.0, you need to run t
 
 ### The website name
 
-Upgrade will ask you for the IIS site name and will check to see if it exists. This is not the same as the domain name - it is the name of the site in IIS manager.
+Upgrade will ask you for the IIS site name and will check to see if it exists. This is not the same as the domain name - it is the name of the site in the IIS manager.
 
 ### FastCGI
 
@@ -88,9 +89,9 @@ Upgrade.exe will want to remap attachment files to sub-folders and this might t
 The attachment folder can potentially have hundreds of thousands of files, which might make it inefficient and difficult to browse manually with a file manager, and we will now store them in sub-directories with a maximum of 10.000 files in each. Which folder each file is allocated to depends on the file ID number, the first 10.000 numbers go into the first folder, and so on. This means that there may be less than 10.000 files in any attachment sub-folder if some of the IDs are not in use or if an attachment was deleted. You can opt to delay moving the attachments if you expect it to take a lot of time, so you can unfreeze your Customer Service site quicker. Run upgrade.exe later to complete this process.
 
 <!-- Referenced links -->
-[1]: ../crm-server/upgrade-to-8.md
-[2]: ../web-client/upgrade-to-8.md
-[3]: ../crm-server/requirements.md
+[1]: ../../onsite-setup/crm-server/upgrade-to-8.md
+[2]: ../../onsite-setup/web-client/upgrade-to-8.md
+[3]: ../../onsite-setup/crm-server/requirements.md
 
 <!-- Referenced images -->
 [img1]: media/upgradeservice.png

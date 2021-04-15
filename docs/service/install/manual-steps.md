@@ -1,5 +1,6 @@
 ---
-title: install_service_manually
+title: Manual steps
+uid: install_service_manually
 description: Manual steps to install Service
 author: {github-id}
 keywords:
@@ -10,7 +11,7 @@ so.envir: onsite
 
 # Manual steps to install Service
 
-From SuperOffice 8.1 both SuperOffice Web and Service must run on the same root domain. It will be easier to create Application Routing Routing rules (ARR) if you do the manual installation and place Service in a sub application.
+From SuperOffice 8.1 both SuperOffice Web and Service must run on the same root domain. It will be easier to create Application Routing Routing rules (ARR) if you do the manual installation and place Service in a sub-application.
 
 Installing SuperOffice Web client and Service on the same domain under different applications requires some manual steps for Service.
 
@@ -22,7 +23,7 @@ If the website is created, then you may create the application first, and just p
 
 ![x][img1]
 
-Run the SuperOffice.CustomerService.exe to install the software on the server, default location is *c:\\superoffice*.
+Run the SuperOffice.CustomerService.exe to install the software on the server, the default location is *c:\\superoffice*.
 
 ![x][img2]
 
@@ -34,7 +35,7 @@ Either set up a new application under `socrm.myorganization.com` for Service or 
 
 ![x][img4]
 
-Below service you also need to add two applications, one for scripts which points to *Customer Service\\www\\scripts* folder. Make sure it use the same application pool as the Service application.
+Below service, you also need to add 2 applications, one for scripts which points to *Customer Service\\www\\scripts* folder. Make sure it uses the same application pool as the Service application.
 
 ![x][img5]
 
@@ -44,7 +45,7 @@ And one application for csplugins pointing to *\\customer service\\www\\csplugin
 
 ## Make sure NetServer is available first
 
-You need remote web services / NetServer installed on the same domain, in this example we have used `socrm.myorganization.com/netserver`. This is installed by using the [web installer][1] to the Sales web client, and in the product configurator tick the **Expose Netserver WebServices** on the Security chapter.
+You need remote web services / NetServer installed on the same domain, in this example, we have used `socrm.myorganization.com/netserver`. This is installed by using the [web installer][1] to the Sales web client, and in the product configurator, tick the **Expose Netserver WebServices** on the Security chapter.
 
 Browse to `http://socrm.myorganization.com/Sales/Remote/Services84/Contact.svc` to verify before the ejTermSetup.exe is run to prime the database for Service.
 
@@ -58,21 +59,21 @@ Now run ejTermSetup found in the Bin folder, when asked for Hostname give the pa
 
 ![x][img9]
 
-When ejtermsetup later asks for **The full HTTP Path to your server (for URLs)** then just use the hostname without sub application, like `http://socrm.myorganization.com`. It will in most cases default to the correct URL.
+When ejtermsetup later asks for **The full HTTP Path to your server (for URLs)**, then just use the hostname without sub-application, like `http://socrm.myorganization.com`. It will in most cases default to the correct URL.
 
-When asked for the **NetServer URL** you give the URL for NetServer created on the same domain. Note: Service does not support https connection to NetServer, so only http is allowed.
+When asked for the **NetServer URL** you give the URL for NetServer created on the same domain. Note: Service does not support HTTPS connection to NetServer, so only HTTP is allowed.
 
-From SuperOffice 8.1, all authentication for all clients will be done by the web client, and after successfully authenticating a session key is stored in browser cookie. This is why Sales and Service must be installed on the same domain.
+From SuperOffice 8.1, all authentication for all clients will be done by the web client, and after successfully authenticating a session key is stored in a browser cookie. This is why Sales and Service must be installed on the same domain.
 
 ![x][img10]
 
-After completing the ejTermSetup you may start up `https://socrm.myorganization.com/service/scripts/rms.fcgi` (or.exe) - note that if your screen is completely missing pictures, then it's the `reg_id=109` that has a wrong value.
+After completing the ejTermSetup you may start `https://socrm.myorganization.com/service/scripts/rms.fcgi` (or.exe) - note that if your screen is completely missing pictures, then it's the `reg_id=109` that has a wrong value.
 
 ![x][img11]
 
 ## Verify the database registry and config table values
 
-If Service is installed in a sub-folder of the domain named service, then
+If Service is installed in a sub-folder of the domain named *service*, then
 
 `select * from crm7.registry where reg_id = 109`
 
@@ -85,7 +86,7 @@ should have value */service/*
 ![x][img13]
 
 <!-- Referenced links -->
-[1]: ../web-client/upgrade-netserver-to-8.md
+[1]: ../../onsite-setup/web-client/upgrade-netserver-to-8.md
 
 <!-- Referenced images -->
 [img1]: media/add-application-1.png

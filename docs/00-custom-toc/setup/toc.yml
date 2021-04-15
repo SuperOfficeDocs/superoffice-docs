@@ -89,12 +89,6 @@ items:
       href: ../../onsite-setup/reporter/config.md
     - name: Install NetServer web services
       href: ../../onsite-setup/web-client/install-netserver.md
-  - name: Install SuperOffice Service
-    items:
-    - name: Set up guide
-      href: ../../onsite-setup/service/set-up-guide.md
-    - name: Install manually
-      href: ../../onsite-setup/service/install-manually.md
 - name: Upgrade Onsite
   expanded: true
   items:
@@ -111,8 +105,6 @@ items:
       href: ../../onsite-setup/web-client/upgrade-to-8.md
     - name: NetServer
       href: ../../onsite-setup/web-client/upgrade-netserver-to-8.md
-    - name: Service
-      href: ../../onsite-setup/service/upgrade.md
     - name: Windows client
       href: ../../onsite-setup/win-client/upgrade.md
   - name: To version 8.1

@@ -111,4 +111,4 @@ If you are upgrading from an earlier version of SuperOffice, make sure to select
 [5]: create-oracle-db.md
 [6]: create-ms-sql-server-db.md
 [7]: ../win-client/prepare-server.md
-[8]: ../service/set-up-guide.md
+[8]: ../../service/install/index.md

@@ -1,12 +1,12 @@
 ---
 title: configure_sso_in_iis_onsite
 description: Configure single sign-on in IIS onsite
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-so.envir: onsite              # cloud or onsite
-so.client: web                # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: web
 ---
 
 # Single sign-on
@@ -110,7 +110,7 @@ Steps to configure in the *web.config* file:
 4. Apply the configuration changes related to bindings and WindowsAuth.
 
 <!-- Referenced links -->
-[1]: ../../onsite-setup/service/set-up-guide.md
+[1]: ../../service/install/index.md
 
 <!-- Referenced images -->
 [img1]: media/imagegb896.png

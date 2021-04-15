@@ -1,4 +1,12 @@
 items:
+- name: Install
+  items:
+  - name: Set-up guide
+    href: ../../service/install/index.md
+  - name: Install manually
+    href: ../../service/install/manual-steps.md
+- name: Upgrade
+  href: ../../service/upgrade/index.md
 - name: Attachments
   expanded: true
   items:

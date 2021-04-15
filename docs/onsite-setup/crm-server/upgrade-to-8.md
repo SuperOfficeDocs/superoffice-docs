@@ -31,7 +31,7 @@ SuperOffice CRM onsite is scalable, flexible, and simple to use. The biggest ben
 
 * Since version 8, we now require ALL server components needed to be installed in all scenarios.
 
-[!include[ALT](../includes/warn-upgrade-all-to-same-version.md)]
+[!include[ALT](../../includes/warn-upgrade-all-to-same-version.md)]
 
 To complete a normal SuperOffice 8 server installation, you need to install ALL:
 

@@ -111,7 +111,7 @@ SuperOffice 7.0 or 7.1 Server
 [1]: ../crm-server/upgrade-to-8.md
 [2]: ../win-client/upgrade.md
 [3]: ../web-client/upgrade-to-8.md
-[4]: ../service/set-up-guide.md
+[4]: ../../service/install/index.md
 [5]: ../web-client/upgrade-netserver-to-8.md
-[6]: ../service/upgrade.md
+[6]: ../../service/upgrade/index.md
 [7]: upgrade-to-8-1.md

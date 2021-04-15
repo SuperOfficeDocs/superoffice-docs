@@ -86,5 +86,5 @@ In most scenarios, this should be 2 (SuperOffice having ID 1), but in some older
 Takes no parameters, but when not commented out it sets Service in maintenance. Valuable when you want to avoid having users logging/being logged in when you have scheduled/announced an update/maintenance. Always remember to remove this or comment it out after you have completed your maintenance.
 
 <!-- Referenced links -->
-[1]: ../service/upgrade.md
+[1]: ../../service/upgrade/index.md
 [2]: ../security/deployment-scenarios.md

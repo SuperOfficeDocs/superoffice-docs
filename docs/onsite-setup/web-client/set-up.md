@@ -24,7 +24,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
 * NetServer Web Services may be installed separately to use with [Customer Service][2] and [Pocket CRM][3].
 * Consider the [security][4] of your upcoming installation.
 * Prepare the [web server][5].
-* Have an IIS website where you want to install SuperOffice. If you do not have the site set up, using the [Service installer][6] will create it for you.
+* Have an IIS website where you want to install SuperOffice. If you do not have the site set up, using the [Service installer][2] will create it for you.
 
 ## Install
 
@@ -83,11 +83,10 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 <!-- Referenced links -->
 [1]: ../crm-server/setup-guide.md
-[2]: ../service/set-up-guide.md
+[2]: ../../service/install/index.md
 [3]: ../../mobile/pocket-crm/deploy.md
 [4]: ../security/secure-deployment-guide.md
 [5]: ../crm-server/iis-web-server/prepare.md
-[6]: ../service/set-up-guide.md
 [7]: ../security/deployment-scenarios.md
 [8]: https://license.superoffice.com/
 [9]: ../reporter/config.md

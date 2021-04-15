@@ -1,18 +1,19 @@
 ---
-title: service_setup_guide
+title: Set-up guide
+uid: install_service
 description: Service set-up guide
 author: {github-id}
-keywords:
+keywords: install
 so.topic: guide
 so.envir: onsite
 # so.client:
 ---
 
-# Service setup guide
+# Service set-up guide
 
 From SuperOffice 8 you also need to install Service which is used by mailings inside both Sales & Marketing and Service.
 
-A typical first-time installation of SuperOffice Customer Service on Windows 2012 server using IIS web server and Microsoft SQL server 2014. There is no client install necessary outside of a supported web client like Internet Explorer, as this is a web-based application.
+A typical first-time installation of SuperOffice Customer Service on Windows 2012 server using an IIS web server and Microsoft SQL server 2014. There is no client install necessary outside of a supported web client like Internet Explorer, as this is a web-based application.
 
 ## Prepare
 
@@ -20,11 +21,11 @@ A typical first-time installation of SuperOffice Customer Service on Windows 201
 
 A domain name like `socrm.myorganization.com` must be created and registered in the DNS for SuperOffice Customer Service and CRM Web to be able to run.
 
-Default installation of Service does not allow you to install it in a sub application. With SuperOffice 8.1 both Sale and Service must be installed on the same root domain. It will be easier to create Application Routing Routing rules (ARR) if you do the manual installation and place Service in a sub application.
+The default installation of Service does not allow you to install it in a sub-application. With SuperOffice 8.1 both Sale and Service must be installed on the same root domain. It will be easier to create Application Routing Routing rules (ARR) if you do the manual installation and place Service in a sub-application.
 
 ### Email server
 
-SuperOffice Customer Service requires access to an email server to work, using either POP3 or IMAP to retrieve emails, and SMTP to send emails. MAPI can also be used (Exchange), but requires additional licenses. Any email account on Exchange servers can be configured to use POP3/IMAP instead of the standard MAPI protocol.
+SuperOffice Customer Service requires access to an email server to work, using either POP3 or IMAP to retrieve emails, and SMTP to send emails. MAPI can also be used (Exchange) but requires additional licenses. Any email account on Exchange servers can be configured to use POP3/IMAP instead of the standard MAPI protocol.
 
 It is important that the email server allows "relaying", allowing SuperOffice Service to send emails "outside" the domain. Please be sure that any firewalls must be configured to allow this type of communication.
 
@@ -32,7 +33,7 @@ It is important that the email server allows "relaying", allowing SuperOffice Se
 
 Where on the network should SuperOffice Service be located?
 
-For security reasons, the SuperOffice Service solution, like all other Internet-connected servers, should be placed in a DMZ (de-militarized zone) or Secure Server Net. A DMZ is a zone in the firewall which is protected against breaches from the outside and inside of the firewall. As long as the solution is on the same LAN as the email server, no configurations in the Firewall is necessary. If there are firewalls between SuperOffice Service and the email server, the firewall must be configured as described below.
+For security reasons, the SuperOffice Service solution, like all other Internet-connected servers, should be placed in a DMZ (de-militarized zone) or Secure Server Net. A DMZ is a zone in the firewall which is protected against breaches from the outside and inside of the firewall. As long as the solution is on the same LAN as the email server, no configurations in the Firewall are necessary. If there are firewalls between SuperOffice Service and the email server, the firewall must be configured as described below.
 
 **NetServer:**
 
@@ -215,7 +216,7 @@ You are now ready to log in and use Service by opening your client browser and g
 
 <!-- Referenced links -->
 [1]: HTTPs://community.superoffice.com/en/product-releases/
-[2]: install-manually.md
+[2]: manual-steps.md
 
 <!-- Referenced images -->
 [img1]: media/image.png
