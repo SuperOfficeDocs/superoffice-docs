@@ -95,6 +95,6 @@ This advanced configuration has to be tweaked manually in the SuperOffice.config
 
 <!-- Referenced links -->
 [2]: https://www.microsoft.com/en-us/download/details.aspx?id=55984
-[3]: ../win-client/debug.md
+[3]: ../debug/win-client.md
 [4]: ../win-client/command-line-switches.md
 [5]: ../../identity-management/ad/mapping-so-user-to-ad-v-7-1.md

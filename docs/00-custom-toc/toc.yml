@@ -3,8 +3,6 @@ items:
 - name: Admin
   href: admin/toc.yml
   topicHref: ../admin/overview.md
-- name: Setup
-  href: setup/toc.yml
 - name: AI services
   href: ai/toc.yml
 # Will apps be included in API toc?
@@ -24,6 +22,8 @@ items:
   href: im/toc.yml
 - name: Online
   href: online/toc.yml
+- name: Onsite
+  href: onsite/toc.yml
 - name: Mirroring
   href: mirroring/toc.yml
 - name: Mobile

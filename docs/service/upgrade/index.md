@@ -89,8 +89,8 @@ Upgrade.exe will want to remap attachment files to sub-folders and this might t
 The attachment folder can potentially have hundreds of thousands of files, which might make it inefficient and difficult to browse manually with a file manager, and we will now store them in sub-directories with a maximum of 10.000 files in each. Which folder each file is allocated to depends on the file ID number, the first 10.000 numbers go into the first folder, and so on. This means that there may be less than 10.000 files in any attachment sub-folder if some of the IDs are not in use or if an attachment was deleted. You can opt to delay moving the attachments if you expect it to take a lot of time, so you can unfreeze your Customer Service site quicker. Run upgrade.exe later to complete this process.
 
 <!-- Referenced links -->
-[1]: ../../onsite/crm-server/upgrade-to-8.md
-[2]: ../../onsite/web-client/upgrade-to-8.md
+[1]: ../../onsite/upgrade/75-to-8/crm-server.md
+[2]: ../../onsite/upgrade/75-to-8/web-client.md
 [3]: ../../onsite/requirements/crm-server.md
 
 <!-- Referenced images -->

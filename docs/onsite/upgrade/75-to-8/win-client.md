@@ -1,28 +1,29 @@
 ---
-title: upgrade_win_client      
-description: Upgrade Windows Client
+title: Upgrade Windows client
+uid: upgrade_win_client_to_8
+description: Upgrade Windows client
 author: {github-id}
 keywords:
-so.topic: howto             # article, howto, reference, concept, guide
+so.topic: howto
 so.envir: onsite
-so.client: win               # online, web, win, pocket, or mobile
+so.client: win
 ---
 
-# How to upgrade SuperOffice 7 Windows Clients / SuperOffice 8 Windows App
+# How to upgrade SuperOffice 7 Windows clients to SuperOffice 8 Windows App
 
-## Step 1 - Check the system requirements for the SuperOffice 8 Windows App
+## Before you begin
 
-In SuperOffice 8 the user needs a Windows App license to be able to log in to the Windows client. Read more in the [Help-file][1].
+Check the system requirements for the SuperOffice 8 Windows App. In SuperOffice 8 the user needs a Windows App license to be able to log in to the Windows client. Read more in the [Help-file][1].
 
-The Maintenance and settings is only accessible from the [Admin client web][3].
+Maintenance and settings is only accessible from the [Admin client web][3].
 
-Some settings for Travel / Remote Travel (Replication), Windows client scripting is configured from the [Admin client windows][3]. Here you also find a section called *Options* where you can set automatic update of SuperOffice client. Check this option if you want the SuperOffice client to be updated automatically when a new version becomes available. Read more in the [Help-file][2].
+Some settings for Travel / Remote Travel (Replication), Windows client scripting is configured from the [Admin client windows][3]. Here you also find a section called *Options* where you can set automatic updates of SuperOffice client. Check this option if you want the SuperOffice client to be updated automatically when a new version becomes available. Read more in the [Help-file][2].
 
 Make sure the [system requirements][8] for the computer are met.
 
 [Prerequisites][5] are installed during the upgrade of the client.
 
-## Step 2 - Install correct ODBC driver if needed
+## Step 1 - Install correct ODBC driver if needed
 
 ### Oracle ODBC driver, Microsoft Native Client or Microsoft SQL Server driver
 
@@ -32,18 +33,18 @@ Make sure the [system requirements][8] for the computer are met.
 
 **Microsoft SQL Server driver:** Most current Windows operating systems have SQL Server driver pre-installed and is ready to use.
 
-## Step 3 - Run SuperOffice8.exe to start the installation
+## Step 2 - Run SuperOffice8.exe to start the installation
 
-To install the client - run the MSI Installer **SuperOffice8.exe** found in the *Server\\Client* folder.
+To install the client - run the MSI Installer **SuperOffice8.exe** found in the *Server\Client* folder.
 
 Read more about running the installer and installing the client under [Install Windows client][6].
 
-### How to find "Server\\Client folder" on server
+### How to find "Server\Client folder" on the server
 
 Since you are upgrading the client on a computer, there is information you can use to find the location for the installer program - by navigating through the current files you already have.
 (If this is changed by your administrator or IT - you need to ask them where to fin it).
 
-1. Open SuperOffice.ini to find Centralpath (where the server installation is):
+1. Open SuperOffice.ini to find **Centralpath** (where the server installation is):
     1. [Locate and open SuperOffice.ini][7].
     2. Copy the address after `"Centralpath="`
 
@@ -51,27 +52,29 @@ Since you are upgrading the client on a computer, there is information you can u
 
 2. Open the file path to where the server installation is - in file explorer
 
-    1. Open the Run dialog (open it either from the Windows start-menu, choose **Run** or press ![Windows-key + R][img2].
+    1. Open the Run dialog (open it either from the Windows Start menu, choose **Run** or press Windows-key + R.
     2. Paste or write the address for CentralPath and click **OK**.
 
     ![run_centralpath][img3]
 
-3. Find the folder *Client* on server and run **SuperOffice8.exe**
+3. Find the folder *Client* on the server and run **SuperOffice8.exe**
 
-## Step 4 - Start SuperOffice
+## Step 3 - Start SuperOffice
 
 You may now start SuperOffice by clicking *START > All Programs > SuperOffice*
+
+[Back to upgrade overview][9]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap07%2FAssociates.htm
 [2]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
-[3]: ../../admin/overview.md
-[5]: ../crm-server/setup-guide.md
-[6]: install.md
-[7]: find-superoffice-ini-file.md
-[8]: ../requirements/web-client.md
+[3]: ../../../admin/overview.md
+[5]: ../../crm-server/setup-guide.md
+[6]: ../../win-client/install.md
+[7]: ../../win-client/find-superoffice-ini-file.md
+[8]: ../../requirements/web-client.md
+[9]: index.md
 
 <!-- Referenced images -->
 [img1]: media/superoffice-ini-centralpath.png
-[img2]: media/keyboard-windows-run.png
 [img3]: media/run-centralpath.png

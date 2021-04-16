@@ -95,20 +95,26 @@ items:
   - name: To version 8.0
     items:
     - name: Upgrade scenarios 7.5 to 8
-      href: ../../onsite/upgrade/upgrade-scenarios-75-to-8.md
+      href: ../../onsite/upgrade/75-to-8/index.md
     - name: CRM Server
-      href: ../../onsite/crm-server/upgrade-to-8.md
-      items:
-      - name: Move to new server
-        href: ../../onsite/crm-server/move.md
+      href: ../../onsite/upgrade/75-to-8/crm-server.md
     - name: Web client
-      href: ../../onsite/web-client/upgrade-to-8.md
+      href: ../../onsite/upgrade/75-to-8/web-client.md
     - name: NetServer
-      href: ../../onsite/web-client/upgrade-netserver-to-8.md
+      href: ../../onsite/upgrade/75-to-8/netserver.md
     - name: Windows client
-      href: ../../onsite/win-client/upgrade.md
+      href: ../../onsite/upgrade/75-to-8/win-client.md
   - name: To version 8.1
-    href: ../../onsite/upgrade/upgrade-to-8-1.md
+    href: ../../onsite/upgrade/to-81/index.md
+    items:
+    - name: Using old Service domain
+      href: ../../onsite/upgrade/to-81/using-old-service-domain.md
+    - name: Using old Sales domain
+      href: ../../onsite/upgrade/to-81/using-old-sales-domain.md
+    - name: Using new domains
+      href: ../../onsite/upgrade/to-81/using-new-domains.md
+    - name: Move CMR Server
+      href: ../../onsite/upgrade/to-81/move-crm-server.md
 - name: Config
   href: ../../onsite/config/index.md
   expanded: true
@@ -142,12 +148,12 @@ items:
 - name: Debug
   items:
   - name: Web client
-    href: ../../onsite/web-client/debug.md
+    href: ../../onsite/debug/web-client.md
   - name: Reporter log
     href: ../../onsite/reporter/debug.md
   - name: Reporter error messages
     href: ../../onsite/reporter/troubleshooting.md
   - name: Windows client
-    href: ../../onsite/win-client/debug.md
+    href: ../../onsite/debug/win-client.md
 - name: Version history
   href: ../../onsite/version-history.md

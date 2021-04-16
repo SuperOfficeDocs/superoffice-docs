@@ -79,11 +79,11 @@ The following steps are recommended to increase security:
 * Create a new pair of database and system users specifically for Sales and Marketing Web and Service.
 
 <!-- Referenced links -->
-[1]: ../win-client/debug.md
+[1]: ../debug/win-client.md
 [2]: souser-ini.md
 [3]: superoffice-config.md
 [4]: ../win-client/command-line-switches.md
-[5]: ../web-client/debug.md
+[5]: ../debug/web-client.md
 [6]: web-config.md
 [7]: ../../webtools/debug.md
 [8]: ../../email/maillink/debug.md

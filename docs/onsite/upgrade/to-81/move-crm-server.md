@@ -1,9 +1,10 @@
 ---
-title: move_crm_server      
+title: Move CRM Server
+uid: move_crm_server
 description: Move SuperOffice CRM Server
 author: {github-id}
-keywords:
-so.topic: howto              # article, howto, reference, concept, guide
+keywords: upgrade
+so.topic: howto
 so.envir: onsite
 # so.client:
 ---
@@ -19,11 +20,11 @@ When you move SuperOffice CRM Server, there are essentially several parts that m
 2. Install **prerequisites** on this computer if needed.
 
 3. Run **Install the SuperOffice CRM Server**
-    * Choose the correct location and when asked to Select ODBC datasource you pick the one that points to your production database. The server setup will notice that this is an existing database and tell you that it will be used "**As is**".
+    * Choose the correct location and when asked to select ODBC datasource, you pick the one that points to your production database. The server setup will notice that this is an existing database and tell you that it will be used **As is**.
 
-## SuperOffice document archive (so\_arc)
+## SuperOffice document archive (so_arc)
 
-Use file copy to copy the so\_arc with sub-folders from the old location to the new location. The new location must be updated in both *SuperOffice.ini* and *web.config* so both SuperOffice windows clients and web clients will keep access to their documents and templates.
+Use file copy to copy the so_arc with sub-folders from the old location to the new location. The new location must be updated in both *SuperOffice.ini* and *web.config* so both SuperOffice windows clients and web clients will keep access to their documents and templates.
 
 ### Change details
 
@@ -33,27 +34,27 @@ There are also other 4 places where you will need to make a change to the new SO
 
 1. In the *SuperOffice.ini* file (Archivepath line) found in SuperOffice Server installation’s folder.
 
-![imageoa6c9.png][img4]
+    ![imageoa6c9.png][img4]
 
-![imagei4ebl.png][img5]
+    ![imagei4ebl.png][img5]
 
 2. In *SuperOffice.ini* file (Archivepath line) on all computers which have SuperOffice Windows application installed.
 
-![image7byzr.png][img6]
+    ![image7byzr.png][img6]
 
-![imageitfv.png][img7]
+    ![imageitfv.png][img7]
 
 3. In SuperOffice Web application's Product configuration, Document archive section, Archive path location.
 
-![image3bdb8.png][img8]
+    ![image3bdb8.png][img8]
 
-![imageitk5g.png][img9]
+    ![imageitk5g.png][img9]
 
 4. Finally you want to create a new .mst file and remove the old one so that all the new SuperOffice Windows application installations will automatically have the correct SO Arc reference.
 
-![imagep6lxc.png][img10]
+    ![imagep6lxc.png][img10]
 
-![image3omzh.png][img1]
+    ![image3omzh.png][img1]
 
 ## SuperOffice database on Microsoft SQL Server or Oracle
 
@@ -69,11 +70,11 @@ If you just change the name/address, you need to refresh *SuperOffice.mst* fil
 2. Run the *SoCreateMST.exe*
 3. Press **Load file**.
 4. Navigate to SuperOffice.mst package (*SuperOffice.mst* file can be found in the *Client* folder on the server: `C:\[SuperOffice Server adress]\Client\SuperOffice.mst`).
-5. Save the new .Mst file.
+5. Save the new MST file.
 
 All clients must be uninstalled, then run SuperOffice8.exe from the *server\\client* folder.
 
-## SuperOffice Web and SuperOffice Web services / NetServer
+## SuperOffice Web and SuperOffice web services / NetServer
 
 Run SuperOffice Product configuration and update the information either for the Database settings or Document Archive.
 
@@ -85,8 +86,8 @@ Run SuperOffice Product configuration and update the information either for the 
 
 1. Download and run the **SuperOffice.CustomerService.exe** to install on the new server.
 
-> [!WARNING]
-> Do NOT run ejTermSetup.exe since you already have Service installed.
+    > [!WARNING]
+    > Do NOT run ejTermSetup.exe since you already have Service installed.
 
 2. Download and install **SuperOffice Web services / NetServer**, which is the second option when installing SuperOffice Web client. This is used by Service to connect to the database.
 
@@ -113,21 +114,27 @@ You will need to manually change settings inside the database tables called **Co
 
 **Changing hostname also:**
 
-1. In the Windows registry there is the key that is identical to the hostname that you are running Service on. Make sure it matches new hostname.  The key is: HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\SuperOffice Customer Service.
+1. In the Windows registry there is a key that is identical to the hostname that you are running Service on. Make sure it matches the new hostname. The key is HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\SuperOffice Customer Service.
+
 2. Edit the Service website hostname in IIS.
+
 3. Open the database, go to the config table, and edit all the fields containing the old hostname.
+
 4. Open the crontab.txt file, and edit locations containing the old hostname.
 
-4. Copy the Customer Service directory in the old environment over to the new environment. Under this directory you will by default find all of the directories that belong to Service, like attachments, templates and the Customer center.
+5. Copy the Customer Service directory in the old environment over to the new environment. Under this directory, you will by default find all of the directories that belong to Service, like attachments, templates, and the Customer center.
 
-5. In the root directory you find a **config** file, open this in Notepad or another simple text editor. The **dbDatabase** points to the name of current ODBC source, create a new ODBC connection (32bit) on the new server with the same name that points to the SuperOffice [database][2].
+6. In the root directory you find a **config** file, open this in Notepad or another simple text editor. The **dbDatabase** points to the name of the current ODBC source, create a new ODBC connection (32bit) on the new server with the same name that points to the SuperOffice [database][2].
 
-6. Change or verify that the path in **nsEndPoint** points to the new Netserver Web service you set up above. Note: Service supports only http connection to Netserver, https is not supported.
+7. Change or verify that the path in **nsEndPoint** points to the new NetServer web service you set up above.
 
-7. Remove "frozen" from config file, so Service will work again.
+    > [!NOTE]
+    > Service supports only HTTP connection to NetServer, HTTPS is not supported.
+
+8. Remove "frozen" from the config file, so Service will work again.
     * Sometimes it may be advantageous to run `C:\SuperOffice\Customer Service\bin\upgrade.exe -d <hostname>` after this move.
 
-8. Inside the database there will be a lot of absolute URLs, pointing to attachments like pictures. To update the database you may run the following queries, replace oldUrl and newUrl with your paths.
+9. Inside the database there will be a lot of absolute URLs, pointing to attachments like pictures. To update the database you may run the following queries, replace oldUrl and newUrl with your paths.
 
 > [!CAUTION]
 > Remember to do a backup before you run queries directly on your database.
@@ -146,20 +153,24 @@ update crm7.KB_ENTRY set answer = replace(answer,'/scripts/customer.exe/getAttac
 ```
 
 > [!NOTE]
-> The last 2 queries will set the current URLs in FAQ texts if Service have been moved manually to a service sub-folder as described [here][3]. Make sure you use the correct extension, customer.fcgi or customer.exe.
+> The last 2 queries will set the current URLs in FAQ texts if Service has been moved manually to a service sub-folder as described [here][3]. Make sure you use the correct extension, customer.fcgi, or customer.exe.
 
 ## Links in eMarketing messages
 
 All the eMarketing messages sent out before the move will contain links pointing to the old site. There are 2 issues with it:
 
-* When sending out a link, it will have an absolute URL, for example: `http://cs.mydomain.com/scripts/customer.fcgi?action=...`, so if you move Service to another domain or subfolder, that URL will not be available any more. <br>To prevent loss of images and attachments in the sent mailings you need to make a redirect on the IIS from the old site to the new hostname. This way images and attachment links are redirected just fine, so mailings don't look crippled in the mail client of the recipient.
+* When sending out a link, it will have an absolute URL, for example: `http://cs.mydomain.com/scripts/customer.fcgi?action=...`, so if you move Service to another domain or subfolder, that URL will not be available anymore.
 
-* The second issue is with tracked links. A tracked link (also including the unsubscribe link) contains a hashed string which is based on the Customer Center domain. Even if you set up a redirect to catch old URLs, then it will be executed by Service but it will fail on the hash test.<br>A workaround is to leave the Customer Center on the old URL running, at least till the messages with the tracked links become irrelevant.
+    To prevent loss of images and attachments in the sent mailings you need to make a redirect on the IIS from the old site to the new hostname. This way images and attachment links are redirected just fine, so mailings don't look crippled in the mail client of the recipient.
+
+* The second issue is with tracked links. A tracked link (also including the unsubscribe link) contains a hashed string that is based on the Customer Center domain. Even if you set up a redirect to catch old URLs, then it will be executed by Service but it will fail on the hash test.
+
+    A workaround is to leave the Customer Center on the old URL running, at least till the messages with the tracked links become irrelevant.
 
 <!-- Referenced links -->
-[1]: dbsetup-exe.md
-[2]: ../../service/install/index.md
-[3]: ../../service/install/manual-steps.md
+[1]: ../../crm-server/dbsetup-exe.md
+[2]: ../../../service/install/index.md
+[3]: ../../../service/install/manual-steps.md
 
 <!-- Referenced images -->
 [img1]: media/image3omzh.png

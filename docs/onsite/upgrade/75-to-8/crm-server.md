@@ -1,10 +1,11 @@
 ---
-title: upgrade_crm_server_to_8
+title: Upgrade CRM Server
+uid: upgrade_crm_server_to_8
 description: Upgrade CRM Server to version 8
 author: {github-id}
 keywords:
 so.topic: howto 
-so.envir: onsite             # cloud or onsite
+so.envir: onsite
 # so.client:
 ---
 
@@ -12,10 +13,10 @@ so.envir: onsite             # cloud or onsite
 
 SuperOffice CRM onsite is scalable, flexible, and simple to use. The biggest benefit of an onsite installation is that you can control the CRM software, in-house.
 
-**SuperOffice 8.0 is major sized technical upgrade.** This means that:
+**SuperOffice 8.0 is a major-sized technical upgrade.** This means that:
 
 * Database will be upgraded (not a rebuild).
-* New version of web services. Note that old version back to Services73 are available.
+* New version of web services. Note that old versions back to Services73 are available.
 * Check with your 3.rd party vendor if their modules are 8 ready.
 * All travelers must be in.
 * All Satellites must be re-generated after the upgrade.
@@ -27,11 +28,11 @@ SuperOffice CRM onsite is scalable, flexible, and simple to use. The biggest ben
 > [!NOTE]
 > If you have used SuperOffice for a long time and renamed labels inside the product, there is a fix in SuperOffice 7.5 SR1 that will move the labels to the correct new database table.
 
-* The CRM server must be installed before you install any one of our clients (Win, Web, Service, Pocket), this is where you set up the database and it will also create client setup for using the Windows App.
+* The CRM server must be installed before you install any one of our clients (Win, Web, Service, Pocket), this is where you set up the database and it will also create a client setup for using the Windows App.
 
 * Since version 8, we now require ALL server components needed to be installed in all scenarios.
 
-[!include[ALT](../../includes/warn-upgrade-all-to-same-version.md)]
+[!include[ALT](../../../includes/warn-upgrade-all-to-same-version.md)]
 
 To complete a normal SuperOffice 8 server installation, you need to install ALL:
 
@@ -51,7 +52,7 @@ If the customer is to use windows clients locally on one or more computers, wind
 > All active travel users and satellites MUST come home before you upgrade to 8. **ServerSetup will not upgrade if there are active satellites or travel users.**
 
 1. On all satellites, tell travel users to do a homecoming.
-2. On all satellites, write update (up-file) to central.
+2. On all satellites, write updates (up-file) to central.
 3. STOP working on the satellite, all changes after this are lost!
 4. Centrally, tell all travel users to do a homecoming.
 5. Centrally, read in all update files from satellites.
@@ -75,4 +76,9 @@ If you uncheck the checkbox, only new standard reports will be installed, the ex
 
 Standard reports can be imported later with the program SoRepImp.exe or StdRepImp.exe (in the folder STDReportFiles on the CD) in the  All or just some reports can then be selected.
 
-Standard reports can also be imported with DbSetup.exe, there are sections in *Sotables.ini* for Importing of the new standard reports, and for importing all.
+Standard reports can also be imported with DbSetup.exe, there are sections in *Sotables.ini* for Importing the new standard reports, and for importing all.
+
+[Back to upgrade overview][1]
+
+<!-- Referenced links -->
+[1]: index.md
