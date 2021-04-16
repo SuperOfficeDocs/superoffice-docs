@@ -1,11 +1,12 @@
 ---
-title: set_up_web_client
+title: Install SuperOffice Web
+uid: set_up_web_client
 description: Install SuperOffice Web
-author: {github-id} # Your GitHub alias.
+author: {github-id}
 keywords:
 so.topic: howto
 so.envir: onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.client: web
 ---
 
 # Install SuperOffice Web
@@ -82,11 +83,11 @@ The server where you install SuperOffice Web needs to have an internet connectio
 20. Click **Finish"** to finalize the installation.
 
 <!-- Referenced links -->
-[1]: ../crm-server/setup-guide.md
-[2]: ../../service/install/index.md
-[3]: ../../mobile/pocket-crm/deploy.md
-[4]: ../security/secure-deployment-guide.md
-[5]: ../crm-server/iis-web-server/prepare.md
-[7]: ../security/deployment-scenarios.md
+[1]: ../guide.md
+[2]: ../../../service/install/index.md
+[3]: ../../../mobile/pocket-crm/deploy.md
+[4]: ../../security/secure-deployment-guide.md
+[5]: ../iis/index.md
+[7]: ../../security/deployment-scenarios.md
 [8]: https://license.superoffice.com/
-[9]: ../reporter/config.md
+[9]: ../../reporter/config.md

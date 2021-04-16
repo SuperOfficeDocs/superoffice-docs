@@ -86,7 +86,7 @@ should have value */service/*
 ![x][img13]
 
 <!-- Referenced links -->
-[1]: ../../onsite/web-client/install-netserver.md
+[1]: ../../onsite/install/netserver/index.md
 
 <!-- Referenced images -->
 [img1]: media/add-application-1.png

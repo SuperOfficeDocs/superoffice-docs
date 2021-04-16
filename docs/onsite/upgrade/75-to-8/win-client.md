@@ -69,9 +69,9 @@ You may now start SuperOffice by clicking *START > All Programs > SuperOffice*
 [1]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap07%2FAssociates.htm
 [2]: https://community.superoffice.com/Documentation/Help/EN/CRM/9.2/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
 [3]: ../../../admin/overview.md
-[5]: ../../crm-server/setup-guide.md
-[6]: ../../win-client/install.md
-[7]: ../../win-client/find-superoffice-ini-file.md
+[5]: ../../install/guide.md
+[6]: ../../install/win-client/index.md
+[7]: ../../config/index.md
 [8]: ../../requirements/web-client.md
 [9]: index.md
 

@@ -168,7 +168,7 @@ All the eMarketing messages sent out before the move will contain links pointing
     A workaround is to leave the Customer Center on the old URL running, at least till the messages with the tracked links become irrelevant.
 
 <!-- Referenced links -->
-[1]: ../../crm-server/dbsetup-exe.md
+[1]: ../../install/database/dbsetup-exe.md
 [2]: ../../../service/install/index.md
 [3]: ../../../service/install/manual-steps.md
 

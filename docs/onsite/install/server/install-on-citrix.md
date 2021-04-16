@@ -1,14 +1,15 @@
 ---
-title: install_on_citrix
+title: Install on Citrix/Terminal server
+uid: install_on_citrix
 description: Install on Citrix/Terminal server
 author: {github-id}
 keywords:
-so.topic: article
-so.envir: onsite              # cloud or onsite
+so.topic: howto
+so.envir: onsite
 # so.client:
 ---
 
-# Install on Citrix/Terminal server
+# Install on a Citrix or Terminal server
 
 > [!NOTE]
 > Our WebTools up to version 7.5 SR2 and 8.0 SR1 will store the user information in Isolated Storage and not the roaming profile, this means users who log on and off where this location is wiped will have to log in again.
@@ -43,7 +44,7 @@ The first thing to check for if this situation happens is if there are any setti
 
 If you have previous registrations, you need to write a simple login-script that deletes these settings for every user that logs on to the Citrix/Terminal Server.
 
-The next step to start troubleshooting is the way the Ribbons and MailLink add-ins are registered with Microsoft Office. This is also a place where a few things can go really wrong.
+The next step to start troubleshooting is the way the Ribbons and MailLink add-ins are registered with Microsoft Office. This is also a place where a few things can go very wrong.
 
 First of all, the Outlook Addin itself is only an Addin, not a Ribbon. An Addin can be registered in a machine context, and is therefore written to the `HKEY_LOCAL_MACHINE`  registry hive (`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`). This will mostly work without too many problems, but be aware of the same issues with previous user-context registrations (`HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`) overwriting the one written by the installer.
 
@@ -75,6 +76,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\Supe
 
 If you don’t want to have Ribbons installed for all users, you can delete these registry keys and enter their values into a login script that adds this for only those of your users that should have MailLink available.
 
+> [!NOTE]
+> If you are deploying MailLink/Ribbons in a Citrix or Terminal Server to some but not all users, [read this][2].
+
 ## Web Extensions issue on Citrix/Terminal server
 
 In some situations, you can experience that Web Extensions leave a permanent "shadow" and block programs running behind it.
@@ -98,6 +102,7 @@ To stop this from happening you have to activate a registry key named **UseBorde
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/product-releases/bugs-wishes/product-issue/?bid=58265 <!-- workitem=11900 -->
+[2]: deploy-on-citrix.md
 
 <!-- Referenced links -->
 [img1]: media/imagepcfj.png

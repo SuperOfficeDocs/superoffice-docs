@@ -1,5 +1,6 @@
 ---
-title: install_ns_web_services
+title: Install NetServer
+uid: install_ns_web_services
 description:
 author: {github-id}
 keywords:
@@ -57,4 +58,4 @@ NetServer is always installed, but for some scenarios, we recommend it is instal
 18. Click **Finish** to finalize the installation.
 
 <!-- Referenced links -->
-[1]: ../reporter/config.md
+[1]: ../../reporter/config.md

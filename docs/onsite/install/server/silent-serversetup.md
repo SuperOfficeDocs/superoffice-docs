@@ -1,10 +1,11 @@
 ---
-title: silent_serversetup      
+title: Silent install of ServerSetup
+uid: silent_serversetup
 description: Silent install of ServerSetup
 author: {github-id}
 keywords:
-so.topic: reference              # article, howto, reference, concept, guide
-so.envir: onsite               # cloud or onsite
+so.topic: reference
+so.envir: onsite
 # so.client:
 ---
 
@@ -16,7 +17,7 @@ ServerSetup can be installed silently without using the user interface. All func
 
 **Upgrade:**
 
-`/I UPGA /L US /A c:\so_arc /W Word2007 /E Outlook2007 /P c:\installationpath  /D odbc /US dbuser /PW dbpassword /PR dbprefix`
+`/I UPGA /L US /A c:\so_arc /W Word2007 /E Outlook2007 /P c:\installationpath /D odbc /US dbuser /PW dbpassword /PR dbprefix`
 
 **New installation:**
 
@@ -27,13 +28,13 @@ ServerSetup can be installed silently without using the user interface. All func
 | Argument | Description |
 |:--------:|-------------|
 | /L | Main language. Used for the database and the ClientSetup's configuration files. (if an error happens the GUI may show) ex.: /L US |
-| /I | Setup type. One of: NA UPGA (New all/Upgrade from 8.0 or 8.1 all) |
-| /AU | Auto update folder. Full path for client setup files |
-| /P | Program folder. Full path for program folder |
-| /A | Archive folder. Full path for archive folder |
-| /T | Template folder. Full path for template folder, this is optional, default is folder named Templates in archive path |
-| /S| Source folder. Full path for the *SuperOffice CRM* folder of the CD image, usually located beside the ServerSetup directory |
-| /F | Export file. Full path for database export file, only on upgrade with database. Do export is true if /F has a value. |
+| /I | Setup type. NA or UPGA (New all/Upgrade from 8.0 or 8.1 all) |
+| /AU | Auto-update folder. The full path for client setup files |
+| /P | Program folder. The full path for program folder |
+| /A | Archive folder. The full path for archive folder |
+| /T | Template folder. The full path for the template folder (optional), default is the *Templates* folder in archive path |
+| /S| Source folder. The full path for the *SuperOffice CRM* folder of the CD image, usually located beside the ServerSetup directory |
+| /F | Export file. The full path for database export file, only on upgrade with a database. Do export is true if /F has a value. |
 | /B | Backup done. True or false, default is false |
 | /D | ODBC name |
 | /US | Username for database |
@@ -43,12 +44,12 @@ ServerSetup can be installed silently without using the user interface. All func
 | /SN | SerialNumber for new installation |
 | /CN | CompanyName for new installation |
 | /CI | CountryId for new installation |
-| /FN | First name for first user |
-| /LN | Last name for first user |
-| /UN | Username for first user |
-| /UP | Password for first user |
-| /LP | Userplan for first user |
+| /FN | First name for the first user |
+| /LN | Last name for the first user |
+| /UN | Username for the first user |
+| /UP | Password for the first user |
+| /LP | User plan for the first user |
 | /SU | Systemuser name for SuperOffice |
 | /SP | Systemuser password for SuperOffice |
-| /E | E-mail client (Outlook2007, Notes, Other. Outlook2007 is default) |
+| /E | Email client (Outlook2007, Notes, Other. Outlook2007 is default) |
 | /W | Word processor (Word2007) |

@@ -32,7 +32,7 @@ After upgrading to a newer version of SuperOffice, if you experience strange beh
 ![x][img1]
 
 <!-- Referenced links -->
-[1]: ../onsite/web-client/install-netserver.md
+[1]: ../onsite/install/netserver/index.md
 [2]: ../onsite/debug/web-client.md
 
 <!-- Referenced images -->

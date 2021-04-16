@@ -1,5 +1,5 @@
 ---
-title: Prepare
+title: Prepare IIS
 uid: prepare_iis
 description: Prepare IIS web server
 author: {github-id}
@@ -69,8 +69,8 @@ Plus any authentication methods that you wish to use.
 [1]: ../../requirements/iis.md
 
 <!-- Referenced images -->
-[img1]: ../media/asp.png
-[img2]: ../media/metabase.png
-[img3]: ../media/isapi-cgi-restricitons-1.png
-[img4]: ../media/isapi-cgi-restricitons-2.png
-[img5]: ../media/add-cgi.png
+[img1]: media/asp.png
+[img2]: media/metabase.png
+[img3]: media/isapi-cgi-restricitons-1.png
+[img4]: media/isapi-cgi-restricitons-2.png
+[img5]: media/add-cgi.png

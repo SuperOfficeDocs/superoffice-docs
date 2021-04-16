@@ -1,16 +1,17 @@
 ---
-title: sql_server_full_text_search
+title: Full-text search
+uid: sql_server_full_text_search
 description: SQL server native full-text search
 author: {github-id}
 keywords: database
-so.topic: howto              # article, howto, reference, concept, guide
-so.envir: onsite             # cloud or onsite
+so.topic: howto
+so.envir: onsite
 # so.client:
 ---
 
 # SQL server native full-text search
 
-Full-text indexing is a database capability, and needs to be supported and enabled in the database.
+Full-text indexing is a database capability and needs to be supported and enabled in the database.
 
 > [!TIP]
 > Contact your database vendor for information on how to enable this on your database.
@@ -19,17 +20,20 @@ Service (formerly known as eJournal) has had this functionality available since 
 
 If full-text search is enabled on the database, it will use special search syntax when searching for the following entities:
 
-**In Service:**
+## In Service
 
 * Request content (title and message text)
 * Knowledge base FAQ articles
 * Quick search field, when searching request titles
 
-**In Sales & Marketing:**
+## In Sales & Marketing
 
-* All long text fields like appointment text, yellow notes, descriptions. Note: This is not a replacement of our full-text search, since it only works on specific fields, as part of the structured search system (Find)
+All long text fields like appointment text, yellow notes, descriptions.
 
-The new full-text search functionality works in a different way than ordinary (much slower) text search, and there are some differences in search behavior. Using the classic text search the database would match against any record that contains your text query anywhere. With the new full-text search capability, the text is portioned into words, and the words need to match – a part of a word will not match.
+> [!NOTE]
+> This is not a replacement for our full-text search, since it only works on specific fields, as part of the structured search system (Find)
+
+The new full-text search functionality works differently than ordinary (much slower) text search, and there are some differences in search behavior. Using the classic text search the database would match against any record that contains your text query anywhere. With the new full-text search capability, the text is portioned into words, and the words need to match – a part of a word will not match.
 
 This table illustrates the different search behavior when searching for "enigma":
 
@@ -45,11 +49,11 @@ To get full-text search capability, you need to enable the Microsoft Indexing Se
 
 | Table | Fields |
 |-------|--------|
-| message | search\_title, body, html\_body |
+| message | search_title, body, html_body |
 | ticket | title |
-| kb\_entry | title, question, answer, keywords |
+| kb_entry | title, question, answer, keywords |
 | text | text |
 
 ## Turn on full-text search on an existing database
 
-Dbsetup will detect if full-text search is set up or not. If you have turned on the full-text search on an existing database, you have to do a rebuild of the database to get the functionality working.
+**Dbsetup** will detect if full-text search is set up or not. If you have turned on the full-text search on an existing database, you have to do a rebuild of the database to get the functionality working.

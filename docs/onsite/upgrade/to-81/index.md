@@ -29,7 +29,7 @@ From 8.1 this preference will tell all clients where the Sales Web client is ins
 ![x][img3]
 
 <!-- Referenced links -->
-[1]: ../../crm-server/iis-web-server/set-up-reverse-proxy.md
+[1]: ../../install/iis/reverse-proxy.md
 [2]: move-crm-server.md
 
 <!-- Referenced images -->

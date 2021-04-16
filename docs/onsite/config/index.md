@@ -24,6 +24,20 @@ The SERVER and DATABASE are dictated by the ODBC source in the *superoffice.ini*
 
 The database user and password go the other way, from superoffice.config to both NetServer and the C++ code.
 
+## How to find SuperOffice.ini
+
+1. To find the configuration file for SuperOffice (*SuperOffice.ini*), right-click the SuperOffice icon on the desktop or in the start-menu, and choose **Properties**.
+
+2. In the window the opens up - click **Open File Location**.
+
+    ![Open_File_Location][1]
+
+    A file explorer window will open - and you will see the SuperOffice program files.
+
+3. Find the file *SuperOffice.ini*, and open this file.
+
+    ![SuperOffice_ini][2]
+
 ## SuperOffice Web
 
 [Enable debug log (Web)][5]
@@ -82,7 +96,7 @@ The following steps are recommended to increase security:
 [1]: ../debug/win-client.md
 [2]: souser-ini.md
 [3]: superoffice-config.md
-[4]: ../win-client/command-line-switches.md
+[4]: ../command-line-switches.md
 [5]: ../debug/web-client.md
 [6]: web-config.md
 [7]: ../../webtools/debug.md
@@ -91,3 +105,7 @@ The following steps are recommended to increase security:
 [10]: ../../service/log-files.md
 [11]: service-config.md
 [12]: ../../service/debug-automated-tasks.md
+
+<!-- Referenced images -->
+[1]: media/open-file-location.jpg
+[2]: media/superoffice-ini.jpg

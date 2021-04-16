@@ -1,10 +1,11 @@
 ---
-title: deploy_maillink_ribbons_webextensions_on_citrix
+title: Deploy MailLink/Ribbons
+uid: deploy_maillink_ribbons_webextensions_on_citrix
 description: Deploy MailLink/Ribbons in a Citrix or Terminal Server environment
 author: {github-id}
 keywords:
 so.topic: howto
-so.envir: onsite              # cloud or onsite
+so.envir: onsite
 # so.client:
 ---
 

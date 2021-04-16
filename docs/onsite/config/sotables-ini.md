@@ -53,7 +53,7 @@ If you need to reuse a privacy key later, in another table you may use variables
 ![x][img1]
 
 <!-- Referenced links -->
-[1]: ../crm-server/dbsetup-exe.md
+[1]: ../install/database/dbsetup-exe.md
 [2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/dictionary/howto-make-db-changes.md
 
 <!-- Referenced links -->

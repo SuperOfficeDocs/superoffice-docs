@@ -1,11 +1,12 @@
 ---
-title: command_line_switches      
+title: Command line and registry switches
+uid: command_line_switches
 description: Command line and registry switches
 author: {github-id}
 keywords:
-so.topic: reference             # article, howto, reference, concept, guide
-so.envir: onsite         # cloud or onsite
-so.client: win              # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: onsite
+so.client: win
 ---
 
 # Command line and registry switches

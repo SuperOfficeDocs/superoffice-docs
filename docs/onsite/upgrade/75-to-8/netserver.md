@@ -32,6 +32,6 @@ If SuperOffice 7 Web runs on Remote NetServer, it is possible to merge Service 
 
 <!-- Referenced links -->
 [1]: ../../security/index.md
-[2]: ../../crm-server/setup-guide.md
+[2]: ../../install/guide.md
 [3]: ../../requirements/web-client.md
 [4]: index.md

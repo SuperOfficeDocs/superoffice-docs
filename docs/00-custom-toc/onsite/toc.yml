@@ -33,62 +33,60 @@ items:
         - name: Oracle
           href: ../../onsite/compatibility/oracle.md
     - name: Security
-      href: ../../onsite//security/index.md
+      href: ../../onsite/security/index.md
       items:
       - name: Secure deployment guide
-        href: ../../onsite//security/secure-deployment-guide.md
+        href: ../../onsite/security/secure-deployment-guide.md
       - name: Deployment scenarios
-        href: ../../onsite//security/deployment-scenarios.md
+        href: ../../onsite/security/deployment-scenarios.md
       - name: Network firewall config
-        href: ../../onsite//security/network-firewall-config.md
+        href: ../../onsite/security/network-firewall-config.md
       - name: Set up EMET
-        href: ../../onsite//security/set-up-emet.md
+        href: ../../onsite/security/set-up-emet.md
       - name: Set up ModSecurity
-        href: ../../onsite//security/set-up-modsecurity.md
+        href: ../../onsite/security/set-up-modsecurity.md
       - name: Secure HTTPS
-        href: ../../onsite//security/secure-https.md
+        href: ../../onsite/security/secure-https.md
   - name: Setup guide
-    href: ../../onsite/crm-server/setup-guide.md
-  - name: Set up servers and database
+    expanded: true
+    href: ../../onsite/install/guide.md
     items:
     - name: IIS web server
+      href: ../../onsite/install/iis/index.md
       items:
-      - name: Prepare
-        href: ../../onsite/crm-server/iis-web-server/prepare.md
       - name: Set up reverse proxy on IIS
-        href: ../../onsite/crm-server/iis-web-server/set-up-reverse-proxy.md
+        href: ../../onsite/install/iis/reverse-proxy.md
     - name: Database
+      href: ../../onsite/install/database/create-ms-sql-server-db.md
       items:
       - name: Create MS SQL Server database
-        href: ../../onsite/crm-server/create-ms-sql-server-db.md
+        href: ../../onsite/install/database/create-ms-sql-server-db.md
       - name: Create Oracle database
-        href: ../../onsite/crm-server/create-oracle-db.md
+        href: ../../onsite/install/database/create-oracle-db.md
       - name: SQL server full-text search
-        href: ../../onsite/crm-server/sql-server-full-text-search.md
-    - name: Install SuperOffice server (options)
+        href: ../../onsite/install/database/sql-server-full-text-search.md
+    - name: Install SuperOffice server
+      href: ../../onsite/install/server/index.md
       items:
-      - name: Silent instal
-        href: ../../onsite/crm-server/silent-serversetup.md
+      - name: Silent install
+        href: ../../onsite/install/server/silent-serversetup.md
       - name: Install on Citrix or Terminal server
-        href: ../../onsite/crm-server/install-on-citrix.md
+        href: ../../onsite/install/server/install-on-citrix.md
         items:
         - name: Considerations for WebTools and Ribbons
-          href: ../../onsite/crm-server/deploy-on-citrix.md
+          href: ../../onsite/install/server/deploy-on-citrix.md
   - name: Install Windows client
+    href: ../../onsite/install/win-client/index.md
     items:
-    - name: Prepare
-      href: ../../onsite/win-client/prepare-server.md
-    - name: Install Windows client (v8 only)
-      href: ../../onsite/win-client/install.md
-    - name: Install Reporter Studio and Travel Gateway (v9 only)
+    - name: Prepare server
+      href: ../../onsite/install/win-client/prepare-server.md
   - name: Install SuperOffice Web
+    href: ../../onsite/install/web-client/index.md
     items:
-    - name: Install Web client
-      href: ../../onsite/web-client/set-up.md
     - name: Configure Web Reports
       href: ../../onsite/reporter/config.md
     - name: Install NetServer web services
-      href: ../../onsite/web-client/install-netserver.md
+      href: ../../onsite/install/netserver/index.md
 - name: Upgrade Onsite
   expanded: true
   items:
@@ -119,14 +117,12 @@ items:
   href: ../../onsite/config/index.md
   expanded: true
   items:
-  - name: How to find SuperOffice.ini
-    href: ../../onsite/win-client/find-superoffice-ini-file.md
   - name: DBSetup
-    href: ../../onsite/crm-server/dbsetup-exe.md
+    href: ../../onsite/install/database/dbsetup-exe.md
   - name: Batch task server
-    href: ../../onsite/web-client/batch-task-server.md
+    href: ../../onsite/batch-task-server.md
   - name: Command line switches
-    href: ../../onsite/win-client/command-line-switches.md
+    href: ../../onsite/command-line-switches.md
   - name: Files
     items:
     - name: RemoteTravel.ini
