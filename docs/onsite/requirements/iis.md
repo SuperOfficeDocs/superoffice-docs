@@ -68,4 +68,4 @@ The preferred bandwidth for the web servers is 1 Mbit/sec for all installations 
 [Read more about Microsoft .NET requirements][1]
 
 <!-- Referenced links -->
-[1]: ../../requirements.md
+[1]: index.md

@@ -115,4 +115,4 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 > Enable Clear Type Text on all clients running the CRM Win app for the best user experience.
 
 <!-- Referenced links -->
-[1]: ../requirements.md
+[1]: index.md

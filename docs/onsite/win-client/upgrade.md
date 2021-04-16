@@ -69,7 +69,7 @@ You may now start SuperOffice by clicking *START > All Programs > SuperOffice*
 [5]: ../crm-server/setup-guide.md
 [6]: install.md
 [7]: find-superoffice-ini-file.md
-[8]: ../web-client/requirements.md
+[8]: ../requirements/web-client.md
 
 <!-- Referenced images -->
 [img1]: media/superoffice-ini-centralpath.png

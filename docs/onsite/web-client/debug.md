@@ -115,7 +115,7 @@ See also [Diagnostics][2] section of the *web.config* page.
 
 <!-- Referenced links -->
 [1]: ../security/deployment-scenarios.md
-[2]: ../config-and-ini/web-config.md
+[2]: ../config/web-config.md
 
 <!-- Referenced images -->
 [img1]: media/image0sx5s.png

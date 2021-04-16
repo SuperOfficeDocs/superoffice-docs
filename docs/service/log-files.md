@@ -32,8 +32,8 @@ After upgrading to a newer version of SuperOffice, if you experience strange beh
 ![x][img1]
 
 <!-- Referenced links -->
-[1]: ../onsite-setup/web-client/upgrade-netserver-to-8.md
-[2]: ../onsite-setup/web-client/debug.md
+[1]: ../onsite/web-client/upgrade-netserver-to-8.md
+[2]: ../onsite/web-client/debug.md
 
 <!-- Referenced images -->
 [img1]: media/actiondebug.png

@@ -105,7 +105,7 @@ In a new installation, only the main language is used for most of the translated
 If you are upgrading from an earlier version of SuperOffice, make sure to select the same main language as in the last installation, or you risk getting a mix of languages in the database/program.
 
 <!-- Referenced links -->
-[2]: requirements.md
+[2]: ../requirements/crm-server.md
 [3]: iis-web-server/prepare.md
 [4]: ../compatibility/database.md
 [5]: create-oracle-db.md

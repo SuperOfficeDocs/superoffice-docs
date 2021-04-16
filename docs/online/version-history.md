@@ -110,4 +110,4 @@ It does not contain Red Alerts or [Onsite release versions][1].
 | 9.2 R07 - (2021.03.25-08) | 29.03.2021 |
 
 <!-- Referenced links -->
-[1]: ../onsite-setup/version-history.md
+[1]: ../onsite/version-history.md

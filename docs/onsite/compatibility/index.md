@@ -119,7 +119,7 @@ Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 
 <a href="../../assets/downloads/compatibility/sql-server-2016.xlsx" download>Click to download report</a>
 
 <!-- Referenced links -->
-[1]: ../requirements.md
+[1]: ../requirements/index.md
 
 <!-- Referenced images -->
 [img1]: media/mac-os-big-sur.jpg

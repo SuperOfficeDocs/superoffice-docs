@@ -65,5 +65,5 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 <!-- Referenced links -->
 [1]: ../crm-server/upgrade-to-8.md
 [2]: upgrade-to-8.md
-[3]: requirements.md
+[3]: ../requirements/index.md
 [4]: ../security/deployment-scenarios.md

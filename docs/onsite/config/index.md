@@ -8,7 +8,7 @@ so.topic: concept
 so.envir: onsite
 ---
 
-# Config and ini files
+# Config and INI files
 
 ## .ini versus .config
 

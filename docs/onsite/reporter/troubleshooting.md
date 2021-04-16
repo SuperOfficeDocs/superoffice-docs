@@ -29,7 +29,7 @@ This path must resolve to the same location for farms/clusters. -->
 ```
 
 <!-- Referenced links -->
-[1]: ../config-and-ini/web-config.md
+[1]: ../config/web-config.md
 
 <!-- Referenced images -->
 [img4]: media/allow-log-on-locally.png

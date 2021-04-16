@@ -71,7 +71,7 @@ Yet to be completed, please submit your experiences
 Read section [Mail logging][1]
 
 <!-- Referenced links -->
-[1]: ../onsite-setup/web-client/debug.md
+[1]: ../onsite/web-client/debug.md
 [2]: https://cs.superoffice.com/scripts/customer.fcgi?_sf=0&custSessionKey=&customerLang=en&noCookies=true&action=viewKbEntry&id=166
 [3]: https://cs.superoffice.com/
 

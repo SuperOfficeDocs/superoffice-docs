@@ -66,7 +66,7 @@ Plus any authentication methods that you wish to use.
 ![add cgi][img5]
 
 <!-- Referenced links -->
-[1]: requirements.md
+[1]: ../../requirements/iis.md
 
 <!-- Referenced images -->
 [img1]: ../media/asp.png

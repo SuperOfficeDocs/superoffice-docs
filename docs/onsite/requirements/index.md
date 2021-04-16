@@ -65,16 +65,16 @@ See: [.NET system requirements][13]
 * [Database][11]
 
 <!-- Referenced links -->
-[1]: crm-server/requirements.md
-[2]: web-client/requirements.md
-[3]: crm-server/iis-web-server/requirements.md
-[4]: ../mobile/pocket-crm/system-requirements.md
-[5]: ../mobile/pocket-crm/client-requirements.md
-[6]: ../mobile/superoffice-mobile/client-requirements.md
-[7]: compatibility/server-os.md
-[8]: compatibility/client-os.md
-[9]: compatibility/browser.md
-[10]: compatibility/ms-office.md
-[11]: compatibility/database.md
-[12]: security/secure-deployment-guide.md
+[1]: crm-server.md
+[2]: web-client.md
+[3]: iis.md
+[4]: ../../mobile/pocket-crm/system-requirements.md
+[5]: ../../mobile/pocket-crm/client-requirements.md
+[6]: ../../mobile/superoffice-mobile/client-requirements.md
+[7]: ../compatibility/server-os.md
+[8]: ../compatibility/client-os.md
+[9]: ../compatibility/browser.md
+[10]: ../compatibility/ms-office.md
+[11]: ../compatibility/database.md
+[12]: ../security/secure-deployment-guide.md
 [13]: https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements

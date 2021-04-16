@@ -6,148 +6,148 @@ items:
     expanded: true
     items:
     - name: System requirements
-      href: ../../onsite-setup/requirements.md
+      href: ../../onsite/requirements/index.md
       items:
       - name: CRM Server
-        href: ../../onsite-setup/crm-server/requirements.md
+        href: ../../onsite/requirements/crm-server.md
       - name: IIS web server
-        href: ../../onsite-setup/crm-server/iis-web-server/requirements.md
+        href: ../../onsite/requirements/iis.md
       - name: Web and Win client
-        href: ../../onsite-setup/web-client/requirements.md
+        href: ../../onsite/requirements/web-client.md
     - name: Compatibility
-      href: ../../onsite-setup/compatibility/index.md
+      href: ../../onsite/compatibility/index.md
       items:
       - name: Server OS
-        href: ../../onsite-setup/compatibility/server-os.md
+        href: ../../onsite/compatibility/server-os.md
       - name: Client OS
-        href: ../../onsite-setup/compatibility/client-os.md
+        href: ../../onsite/compatibility/client-os.md
       - name: Browser
-        href: ../../onsite-setup/compatibility/browser.md
+        href: ../../onsite/compatibility/browser.md
       - name: MS Office
-        href: ../../onsite-setup/compatibility/ms-office.md
+        href: ../../onsite/compatibility/ms-office.md
       - name: Database
-        href: ../../onsite-setup/compatibility/database.md
+        href: ../../onsite/compatibility/database.md
         items:
         - name: MS SQL Server
-          href: ../../onsite-setup/compatibility/ms-sql-server.md
+          href: ../../onsite/compatibility/ms-sql-server.md
         - name: Oracle
-          href: ../../onsite-setup/compatibility/oracle.md
+          href: ../../onsite/compatibility/oracle.md
     - name: Security
-      href: ../../onsite-setup//security/index.md
+      href: ../../onsite//security/index.md
       items:
       - name: Secure deployment guide
-        href: ../../onsite-setup//security/secure-deployment-guide.md
+        href: ../../onsite//security/secure-deployment-guide.md
       - name: Deployment scenarios
-        href: ../../onsite-setup//security/deployment-scenarios.md
+        href: ../../onsite//security/deployment-scenarios.md
       - name: Network firewall config
-        href: ../../onsite-setup//security/network-firewall-config.md
+        href: ../../onsite//security/network-firewall-config.md
       - name: Set up EMET
-        href: ../../onsite-setup//security/set-up-emet.md
+        href: ../../onsite//security/set-up-emet.md
       - name: Set up ModSecurity
-        href: ../../onsite-setup//security/set-up-modsecurity.md
+        href: ../../onsite//security/set-up-modsecurity.md
       - name: Secure HTTPS
-        href: ../../onsite-setup//security/secure-https.md
+        href: ../../onsite//security/secure-https.md
   - name: Setup guide
-    href: ../../onsite-setup/crm-server/setup-guide.md
+    href: ../../onsite/crm-server/setup-guide.md
   - name: Set up servers and database
     items:
     - name: IIS web server
       items:
       - name: Prepare
-        href: ../../onsite-setup/crm-server/iis-web-server/prepare.md
+        href: ../../onsite/crm-server/iis-web-server/prepare.md
       - name: Set up reverse proxy on IIS
-        href: ../../onsite-setup/crm-server/iis-web-server/set-up-reverse-proxy.md
+        href: ../../onsite/crm-server/iis-web-server/set-up-reverse-proxy.md
     - name: Database
       items:
       - name: Create MS SQL Server database
-        href: ../../onsite-setup/crm-server/create-ms-sql-server-db.md
+        href: ../../onsite/crm-server/create-ms-sql-server-db.md
       - name: Create Oracle database
-        href: ../../onsite-setup/crm-server/create-oracle-db.md
+        href: ../../onsite/crm-server/create-oracle-db.md
       - name: SQL server full-text search
-        href: ../../onsite-setup/crm-server/sql-server-full-text-search.md
+        href: ../../onsite/crm-server/sql-server-full-text-search.md
     - name: Install SuperOffice server (options)
       items:
       - name: Silent instal
-        href: ../../onsite-setup/crm-server/silent-serversetup.md
+        href: ../../onsite/crm-server/silent-serversetup.md
       - name: Install on Citrix or Terminal server
-        href: ../../onsite-setup/crm-server/install-on-citrix.md
+        href: ../../onsite/crm-server/install-on-citrix.md
         items:
         - name: Considerations for WebTools and Ribbons
-          href: ../../onsite-setup/crm-server/deploy-on-citrix.md
+          href: ../../onsite/crm-server/deploy-on-citrix.md
   - name: Install Windows client
     items:
     - name: Prepare
-      href: ../../onsite-setup/win-client/prepare-server.md
+      href: ../../onsite/win-client/prepare-server.md
     - name: Install Windows client (v8 only)
-      href: ../../onsite-setup/win-client/install.md
+      href: ../../onsite/win-client/install.md
     - name: Install Reporter Studio and Travel Gateway (v9 only)
   - name: Install SuperOffice Web
     items:
     - name: Install Web client
-      href: ../../onsite-setup/web-client/set-up.md
+      href: ../../onsite/web-client/set-up.md
     - name: Configure Web Reports
-      href: ../../onsite-setup/reporter/config.md
+      href: ../../onsite/reporter/config.md
     - name: Install NetServer web services
-      href: ../../onsite-setup/web-client/install-netserver.md
+      href: ../../onsite/web-client/install-netserver.md
 - name: Upgrade Onsite
   expanded: true
   items:
   - name: To version 8.0
     items:
     - name: Upgrade scenarios 7.5 to 8
-      href: ../../onsite-setup/upgrade/upgrade-scenarios-75-to-8.md
+      href: ../../onsite/upgrade/upgrade-scenarios-75-to-8.md
     - name: CRM Server
-      href: ../../onsite-setup/crm-server/upgrade-to-8.md
+      href: ../../onsite/crm-server/upgrade-to-8.md
       items:
       - name: Move to new server
-        href: ../../onsite-setup/crm-server/move.md
+        href: ../../onsite/crm-server/move.md
     - name: Web client
-      href: ../../onsite-setup/web-client/upgrade-to-8.md
+      href: ../../onsite/web-client/upgrade-to-8.md
     - name: NetServer
-      href: ../../onsite-setup/web-client/upgrade-netserver-to-8.md
+      href: ../../onsite/web-client/upgrade-netserver-to-8.md
     - name: Windows client
-      href: ../../onsite-setup/win-client/upgrade.md
+      href: ../../onsite/win-client/upgrade.md
   - name: To version 8.1
-    href: ../../onsite-setup/upgrade/upgrade-to-8-1.md
+    href: ../../onsite/upgrade/upgrade-to-8-1.md
 - name: Config
-  href: ../../onsite-setup/config-and-ini/index.md
+  href: ../../onsite/config/index.md
   expanded: true
   items:
   - name: How to find SuperOffice.ini
-    href: ../../onsite-setup/win-client/find-superoffice-ini-file.md
+    href: ../../onsite/win-client/find-superoffice-ini-file.md
   - name: DBSetup
-    href: ../../onsite-setup/crm-server/dbsetup-exe.md
+    href: ../../onsite/crm-server/dbsetup-exe.md
   - name: Batch task server
-    href: ../../onsite-setup/web-client/batch-task-server.md
+    href: ../../onsite/web-client/batch-task-server.md
   - name: Command line switches
-    href: ../../onsite-setup/win-client/command-line-switches.md
+    href: ../../onsite/win-client/command-line-switches.md
   - name: Files
     items:
     - name: RemoteTravel.ini
-      href: ../../onsite-setup/config-and-ini/remotetravel-ini.md
+      href: ../../onsite/config/remotetravel-ini.md
     - name: Service config
-      href: ../../onsite-setup/config-and-ini/service-config.md
+      href: ../../onsite/config/service-config.md
     - name: SoTables.ini
-      href: ../../onsite-setup/config-and-ini/sotables-ini.md
+      href: ../../onsite/config/sotables-ini.md
     - name: SoUser.ini
-      href: ../../onsite-setup/config-and-ini/souser-ini.md
+      href: ../../onsite/config/souser-ini.md
     - name: SuperOffice.config
-      href: ../../onsite-setup/config-and-ini/superoffice-config.md
+      href: ../../onsite/config/superoffice-config.md
     - name: SuperOffice.ini
-      href: ../../onsite-setup/config-and-ini/superoffice-ini.md
+      href: ../../onsite/config/superoffice-ini.md
     - name: Username.ini
-      href: ../../onsite-setup/config-and-ini/username-ini.md
+      href: ../../onsite/config/username-ini.md
     - name: Web.config
-      href: ../../onsite-setup/config-and-ini/web-config.md
+      href: ../../onsite/config/web-config.md
 - name: Debug
   items:
   - name: Web client
-    href: ../../onsite-setup/web-client/debug.md
+    href: ../../onsite/web-client/debug.md
   - name: Reporter log
-    href: ../../onsite-setup/reporter/debug.md
+    href: ../../onsite/reporter/debug.md
   - name: Reporter error messages
-    href: ../../onsite-setup/reporter/troubleshooting.md
+    href: ../../onsite/reporter/troubleshooting.md
   - name: Windows client
-    href: ../../onsite-setup/win-client/debug.md
+    href: ../../onsite/win-client/debug.md
 - name: Version history
-  href: ../../onsite-setup/version-history.md
+  href: ../../onsite/version-history.md

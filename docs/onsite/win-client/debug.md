@@ -93,6 +93,6 @@ See also [Diagnostics][3] section of the *web.config* page.
 [!include[ALT](../includes/turn-off-logging.md)]
 
 <!-- Referenced links -->
-[1]: ../config-and-ini/superoffice-ini.md
-[2]: ../config-and-ini/superoffice-config.md
-[3]: ../config-and-ini/web-config.md
+[1]: ../config/superoffice-ini.md
+[2]: ../config/superoffice-config.md
+[3]: ../config/web-config.md

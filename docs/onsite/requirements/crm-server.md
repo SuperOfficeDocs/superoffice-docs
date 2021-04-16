@@ -48,4 +48,4 @@ See also requirements for [IIS][2].
 
 <!-- Referenced links -->
 [1]: ../compatibility/database.md
-[2]: iis-web-server/requirements.md
+[2]: iis.md
