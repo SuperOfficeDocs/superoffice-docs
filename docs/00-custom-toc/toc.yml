@@ -5,9 +5,9 @@ items:
   topicHref: ../admin/overview.md
 - name: AI services
   href: ai/toc.yml
-# Will apps be included in API toc?
 - name: Apps
-  href: apps/toc.yml
+  href: ../apps/toc.yml
+  expanded: true
 - name: Automation
   href: automation/toc.yml
 # TBD: chat, company and contact, custom fields, dashboards

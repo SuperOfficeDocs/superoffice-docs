@@ -57,7 +57,7 @@ items:
       - name: Set up reverse proxy on IIS
         href: ../../onsite/install/iis/reverse-proxy.md
     - name: Database
-      href: ../../onsite/install/database/create-ms-sql-server-db.md
+      href: ../../onsite/install/database/index.md
       items:
       - name: Create MS SQL Server database
         href: ../../onsite/install/database/create-ms-sql-server-db.md

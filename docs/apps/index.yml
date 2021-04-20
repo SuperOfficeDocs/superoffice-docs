@@ -1,0 +1,220 @@
+### YamlMime:Category
+
+title: Applications
+summary: Applications
+brand: devdocs
+
+metadata:
+  title: Applications
+  description: Applications
+  so.product: crmonline
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 03.30.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "Requirements"
+      itemType: reference
+      url: requirements/index.md
+    # Card
+    - title: "Mirroring"
+      itemType: overview
+      url: ../online/mirroring.yml
+    # Card
+    - title: "Online tenant status"
+      itemType: reference
+      url: tenant-status/index.md
+   # Card
+    - title: "What API to use?"
+      itemType: reference
+      url: getting-started/what-api-to-use.md
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+    # Card
+      - title: Introduction
+        summary: ""
+        links:
+        - text: What is an application?
+          itemType: concept
+          url: overview.md
+        - text: Terminology
+          itemType: reference
+          url: terminology.md
+        - text: User contexts
+          itemType: concept
+          url: getting-started/user-contexts.md
+        - text: Integration points
+          itemType: concept
+          url: getting-started/integration-points.md
+    # Card
+      - title: Tenant status
+        summary: ""
+        links:
+        - text: What is tenant status?
+          itemType: concept
+          url: tenant-status/index.md
+        - text: The status page
+          itemType: concept
+          url: tenant-status/status-page.md
+        - text: Check status
+          itemType: how-to-guide
+          url: tenant-status/check-status.md
+        - text: Notifications
+          itemType: concept
+          url: tenant-status/notifications.md
+        - text: Get notifications
+          itemType: how-to-guide
+          url: tenant-status/get-notifications.md
+        - text: Parse notifications
+          itemType: how-to-guide
+          url: tenant-status/parse-notifications.md
+    # Card
+      - title: Provisioning
+        summary: ""
+        links:
+        - text: What is provisioning?
+          itemType: concept
+          url: provisioning/index.md
+        - text: What is consent?
+          itemType: concept
+          url: provisioning/consent.md
+        - text: Get consent
+          itemType: how-to-guide
+          url: provisioning/get-consent.md
+        - text: Approval sequence
+          itemType: reference
+          url: provisioning/consent.md
+    # Card
+      - title: Building applications
+        summary: ""
+        links:
+        - text: Getting started
+          itemType: overview
+          url: getting-started/building-apps.md
+        - text: Get access to SOD
+          itemType: how-to-guide
+          url: getting-started/get-access-to-sod.md
+        - text: Get app keys
+          itemType: how-to-guide
+          url: getting-started/get-app-keys.md
+        - text: Best practices
+          itemType: reference
+          url: best-practices.md
+        - text: What API to use?
+          itemType: reference
+          url: getting-started/what-api-to-use.md
+        - text: Hosting
+          itemType: concept
+          url: getting-started/hosting.md
+        - text: Run website on IIS localhost
+          itemType: how-to-guide
+          url: getting-started/run-website-on-iis-localhost.md
+    # Card
+      - title: Standard applications
+        summary: ""
+        links:
+        - text: What is a standard application?
+          itemType: concept
+          url: standard.md
+        - text: The SuperOffice app store
+          itemType: concept
+          url: app-store.md
+        - text: Certification
+          itemType: concept
+          url: certification/index.md
+        - text: Checklist
+          itemType: reference
+          url: certification/checklist.md
+        - text: Certify your app
+          itemType: how-to-guide
+          url: certification/certify-app.md
+        - text: Initial Watchcom evaluation
+          itemType: concept
+          url: certification/initial-watchcom-eval.md
+        - text: How to pass the test
+          itemType: how-to-guide
+          url: certification/secure-app.md
+        - text: Get listed
+          itemType: how-to-guide
+          url: publish/get-listed.md
+        - text: Publish your standard application
+          itemType: how-to-guide
+          url: publish/publish-standard-app.md
+        - text: Beta period
+          itemType: concept
+          url: publish/beta-period.md
+    # Card
+      - title: Custom applications
+        summary: ""
+        links:
+        - text: What is a custom (private) application?
+          itemType: concept
+          url: custom.md
+        - text: What is validation?
+          itemType: concept
+          url: activate/index.md
+        - text: Checklist
+          itemType: reference
+          url: activate/checklist.md
+        - text: Validate your application
+          itemType: how-to-guide
+          url: activate/validate-app.md
+        - text: Activate your custom application
+          itemType: how-to-guide
+          url: activate/activate-custom-app.md
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: "" # < 60 chars (optional)
+      summary: "" # < 160 chars (optional)
+      items:
+      # Card
+      - title: Requirements
+        links:
+        - text: Business
+          url: requirements/business.md
+        - text: Design
+          url: requirements/design.md
+        - text: Localization
+          url: requirements/localization.md
+        - text: Marketing
+          url: requirements/marketing.md
+        - text: Security
+          url: requirements/security.md
+        - text: Technical
+          url: requirements/technical.md
+      # Card
+      - title: Redirects
+        links:
+        - text: What is a redirect?
+          url: redirects/index.md
+        - text: Endpoint types
+          url: redirects/endpoint-types.md
+        - text: Add and update redirects
+          url: redirects/add-update.md
+      # Card
+      - title: How to...
+        links:
+        - text: Update an application
+          url: manage/update-app.md
+        - text: Revoke an application
+          url: manage/revoke-app.md
+        - text: Get access to SOD
+          url: getting-started/get-access-to-sod.md
+        - text: Get application keys
+          url: getting-started/get-app-keys.md
+
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
