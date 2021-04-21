@@ -1,0 +1,168 @@
+### YamlMime:SubCategory
+
+title: CRMScript
+summary: CRMScript
+
+metadata:
+  title: CRMScript
+  description: CRMScript
+  ms.topic: landing-page
+  ms.date: 03.28.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about CRMScript
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: What is CRMSCript?
+          url: ../../crmscript/docs/overview/what-is-crmscript.md
+        - text: SuperOffice view of the world
+          url: ../../crmscript/docs/overview/domain.md
+        - text: What can I do with CRMScript?
+          url: ../../crmscript/docs/overview/crmscript-usage.md
+  # Card
+  - title: Getting started
+    linkLists:
+      - linkListType: get-started
+        links:
+        - text: Getting started
+          url: ../../crmscript/docs/overview/getting-started.md
+        - text: How do I create and run CRMScripts?
+          url: ../../crmscript/docs/overview/envir-and-tools.md
+  # Card
+  - title: Fundamentals 1
+    linkLists:
+      - linkListType: learn
+        links:
+        - text: Code structure
+          url: ../../crmscript/docs/fundamentals/syntax.md
+        - text: Reserved words
+          url: ../../crmscript/docs/fundamentals/reserved.md
+        - text: Variables
+          url: ../../crmscript/docs/fundamentals/variables.md
+        - text: Operators
+          url: ../../crmscript/docs/fundamentals/operators.md
+        - text: Intro to data types
+          url: ../../crmscript/docs/fundamentals/datatypes-intro.md
+        - text: Functions
+          url: ../../crmscript/docs/fundamentals/functions.md
+        - text: Structs
+          url: ../../crmscript/docs/fundamentals/structs.md
+        - text: Arrays
+          url: ../../crmscript/docs/fundamentals/arrays.md
+        - text: Write output
+          url: ../../crmscript/docs/fundamentals/output.md
+  # Card
+  - title: Fundamentals 2 - control and loops
+    linkLists:
+      - linkListType: learn
+        links:
+        - text: Conditions
+          url: ../../crmscript/docs/fundamentals/conditions.md
+        - text: Try catch
+          url: ../../crmscript/docs/fundamentals/try-catch.md
+        - text: For loops
+          url: ../../crmscript/docs/fundamentals/for-loops.md
+        - text: Foreach loops
+          url: ../../crmscript/docs/fundamentals/foreach-loops.md
+        - text: While loops
+          url: ../../crmscript/docs/fundamentals/while-loops.md
+        - text: Break and continue
+          url: ../../crmscript/docs/fundamentals/loop-control.md
+  # Card
+  - title: Data types
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Bool
+          url: ../../crmscript/docs/datatypes/bool-type.md
+        - text: Integer
+          url: ../../crmscript/docs/datatypes/integer-type.md
+        - text: Float
+          url: ../../crmscript/docs/datatypes/float-type.md
+        - text: Map
+          url: ../../crmscript/docs/datatypes/map-type.md
+        - text: String
+          url: ../../crmscript/docs/datatypes/string-type.md
+        - text: Date
+          url: ../../crmscript/docs/datatypes/date-type.md
+        - text: Time
+          url: ../../crmscript/docs/datatypes/time-type.md
+        - text: DateTime
+          url: ../../crmscript/docs/datatypes/datetime-type.md
+        - text: Generic
+          url: ../../crmscript/docs/datatypes/generic-type.md
+   # Card
+  - title: Code quality
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Intro
+            url: ../../crmscript/docs/code-quality/index.md
+          - text: Coding conventions
+            url: ../../crmscript/docs/code-quality/coding-conventions.md
+          - text: Best practices
+            url: ../../crmscript/docs/code-quality/best-practices.md
+          - text: Intellisense
+            url: ../../crmscript/docs/code-quality/intellisense.md
+  # Card
+  - title: Debugging
+    linkLists:
+      - linkListType: concept
+        links:
+            - text: Built in debugger
+              url: ../../crmscript/docs/debugging/built-in-debugger.md
+            - text: Log messages
+              url: ../../crmscript/docs/debugging/log-messages.md
+            - text: Print debug
+              url: ../../crmscript/docs/debugging/print-debug.md
+            - text: Development mode
+              url: ../../crmscript/docs/debugging/development-mode.md
+            - text: Using trace
+              url: ../../crmscript/docs/debugging/using-trace.md
+            - text: Helper functions for logging
+              url: ../../crmscript/docs/debugging/helper-functions-for-logging.md
+            - text: Troubleshooting
+              url: ../../crmscript/docs/debugging/troubleshooting.md
+  # Card
+  - title: Tutorials
+    linkLists:
+      - linkListType: tutorial
+        links:
+        - text: Script-based selections
+          url: ../../crmscript/docs/tutorials/script-based-selections.md
+        - text: Udef agent
+          url: ../../crmscript/docs/tutorials/udef-agent.md
+        - text: Build custom rest API methods
+          url: ../../crmscript/docs/persons-and-organizations/build-custom-rest-api-methods.md
+  # Card
+  - title: Chatbot
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Intro
+          url: ../../crmscript/docs/chatbot/index.md
+        - text: Registration
+          url: ../../crmscript/docs/chatbot/registration.md
+        - text: Chat sessions
+          url: ../../crmscript/docs/chatbot/sessions.md
+        - text: Messages
+          url: ../../crmscript/docs/chatbot/messages.md
+        - text: Script reference
+          url: ../../crmscript/docs/chatbot/reference.md
+  # Card
+  - title: API reference
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: Classes
+          url: ../../crmscript/docs/api-reference/classes/attachment/Attachment.md
+        - text: Global functions
+          url: ../../crmscript/docs/api-reference/global-functions/bool.md
+        - text: Trigger scripts
+          url: ../../crmscript/docs/api-reference/trigger-scripts/ChatNewSession.md
+        # FYI we're linking to a specific file rather than index because these folders don't have an index.md
