@@ -1,0 +1,55 @@
+### YamlMime:SubCategory
+
+title: Authentication Options
+summary: List of SuperOffice authentication options.
+
+metadata:
+  title: Authentication Options
+  description: List of SuperOffice authentication options.
+  ms.topic: landing-page
+  ms.date: 4.20.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Onsite authentication
+    linkLists:
+      - linkListType: learn
+        links:
+        - text: Overview
+          url: overview.md
+      - linkListType: get-started
+        links:
+          - text: NetServer Core
+            url: overview.md#netserver-core--service-proxy-authentication-using-sosession
+          - text: NetServer Custom Proxies
+            url: overview.md#netserver-web-service-custom-proxies
+          - text: REST WebApi
+            url: overview.md#superoffice-rest--webapi-web-services
+          - text: COM API
+            url: overview.md#com
+  # Card
+  - title: Online authentication
+    linkLists:
+      - linkListType: learn
+        links:
+        - text: SuperOffice Online and SuperID
+          url: online/online.md
+      - linkListType: concept
+        links:
+          - text: OpenID Connect
+            url: online/oidc/index.md
+          - text: Authorization code flow
+            url: online/oidc/auth-code-flow.md
+          - text: Hybrid Flow
+            url: online/oidc/hybrid-flow.md
+          - text: Implicit Flow
+            url: online/oidc/implicit-flow.md
+          - text: Native Apps
+            url: online/oidc/native-apps.md
+      - linkListType: learn
+        links:
+          - text: System User (Backchannel)
+            url: online/system-user/system-user-flow.md

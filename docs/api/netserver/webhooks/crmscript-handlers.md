@@ -1,7 +1,7 @@
 ---
 # Mandatory fields.
-title: webhook_crmscript_event
-uid: webhooks_crmscript
+title: CRMScript event handlers
+uid: webhooks_crmscript_event_handlers
 description: CRMScript hooks
 author:
 so.date:
@@ -13,7 +13,7 @@ so.topic: reference         # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# CrmScript Webhooks
+# CrmScript webhooks event handlers
 
 Webhooks can also target CRMScripts, not just URLs on the internet. The webhook will call your CRMScript directly, passing the ID and changed values to the script as parameters.
 

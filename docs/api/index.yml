@@ -1,0 +1,249 @@
+### YamlMime:Category
+
+title: SuperOffice APIs
+summary: Overview of the platform, including guidance for both online and onsite integrations.
+brand: devdocs
+
+metadata:
+  title: Learn SuperOffice APIs
+  description: SuperOffice Application Programming Interfaces.
+  so.product: dotnet
+  so.topic: hub-page
+  so.collection: collection
+  author: AnthonyYates
+  so.author: anthonyyates
+  so.date: 28/3/2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "Introduction to SuperOffice APIs."
+      itemType: get-started
+      url: getting-started/index.md
+    # Card
+    - title: "Online vs Onsite Extensibility"
+      itemType: overview
+      url: getting-started/online-vs-onsite.md
+    # Card
+    - title: "Authentication overview."
+      itemType: overview
+      url: authentication/overview.md
+    # Card
+    - title: "Learn NetServer."
+      itemType: learn
+      url: netserver/what-is-netserver.md
+    # Card
+    - title: "Learn Bulk Operations"
+      itemType: learn
+      url: netserver/bulk-operations/index.md 
+    # Card
+    - title: "Use the APIs to search"
+      itemType: learn
+      url: netserver/search/find-selection/index.md
+    # Card
+    - title: "NetServer API Reference"
+      itemType: reference
+      url: api-reference/netserver/index.md
+    # Card
+    - title: "RESTful API Reference"
+      itemType: reference
+      url: api-reference/restful/index.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "NetServer: inside and out." # < 60 chars (optional)
+  summary: "A data access layer for building all your SuperOffice integrations and applications: web, mobile, desktop, IoT, and more."
+  items:
+    # Card
+    - title: Understanding NetServer
+      summary: Learn about NetServer Core
+      links:
+        - text: NetServer fundamentals
+          itemType: concept
+          url: netserver/what-is-netserver.md
+        - text: SuperOffice WebApi client
+          itemType: get-started
+          url: https://www.nuget.org/packages/SuperOffice.WebApi
+        - text: SuperOffice WebApi client API reference
+          itemType: reference
+          url: api-reference/webapi/index.md
+        - text: SOAP API Reference
+          itemType: reference
+          url: api-reference/soap/index.md
+    # Card
+    - title: NetServer Core concepts
+      summary: Learn the fundamental of NetServer Core
+      links:
+        - url: netserver/overview.md
+          itemType: overview
+          text: NetServer overview
+        - url: netserver/what-is-netserver.md
+          itemType: concept
+          text: What is NetServer
+        - url: netserver/entities/index.md
+          itemType: overview
+          text: NetServer Entities
+        - url: netserver/rows/index.md
+          itemType: overview
+          text: NetServer Rows
+        - url: netserver/osql/index.md
+          itemType: overview
+          text: NetServer OSQL
+     # Card
+    - title: NetServer Services concepts
+      summary: Learn the fundamentals of NetServer Services
+      links:
+        - text: NetServer Services overview
+          itemType: concept
+          url: netserver/services/index.md
+        - text: Service Agents
+          itemType: concept
+          url: netserver/services/agents/index.md
+        - text: NetServer Carriers
+          itemType: concept
+          url: netserver/services/carriers/index.md
+    # Card
+    - title: NetServer Search options
+      summary: Start searching with NetServer
+      links:
+        - text: Using Find API
+          itemType: how-to-guide
+          url: netserver/search/find-selection/index.md
+        - text: Using Archive Providers
+          itemType: overview
+          url: netserver/search/index.md
+      # footerLink (optional)
+      footerLink:
+        url: https://community.superoffice.com
+        text: All architecture guides
+
+# tools section (optional)
+## Languages: C#, VB, F#, 
+tools:
+  title: Common API reference sections # < 60 chars (optional)
+  summary: "Shortcut links to reference information."
+  items:
+    # Card
+    - title: "NetServer core"
+      imageSrc: https://docs.superoffice.com/media/logos/netserver_core.svg
+      url: api-reference/netserver/core/index.md
+    # Card
+    - title: "NetServer services"
+      imageSrc: https://docs.superoffice.com/media/logos/netserver_services.svg
+      url: api-reference/netserver/services/index.md
+    # Card
+    - title: "Archive Provider Listing"
+      imageSrc: https://docs.superoffice.com/media/logos/netserver_archive_providers.svg
+      url: netserver/archive-providers/reference/index.md
+    # Card
+    - title: "MDO Provider Listing"
+      imageSrc: https://docs.superoffice.com/media/logos/netserver_archive_providers.svg
+      url: netserver/mdo-providers/reference/index.md
+
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: Sample Applications # < 60 chars (optional)
+      summary: "Get up and running quickly with our sample applications." # < 160 chars (optional)
+      items:
+      # Card
+      - title: ASP.NET
+        links:
+          - text: .NET Core 3.1 Razor Pages App
+            url: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
+          - text: .NET Core 3.1 / .NET Framework Console (OIDC Native App)
+            url: https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp
+          - text: ASP.NET Core 2.0
+            url: https://github.com/SuperOffice/devnet-oidc-aspnet-core-20
+          - text: ASP.NET Framework WebForms Owin
+            url: https://github.com/SuperOffice/devnet-oidc-webforms-owin
+          - text: SuperOffice.WebApi Samples
+            url: https://github.com/SuperOffice/SuperOffice.WebApi-Samples
+       # Card
+      - title: Plugin Helper Applications
+        links:
+          - text: Service Chatbot
+            url: https://github.com/SuperOffice/devnet-crmscript-chatbot
+          - text: Database Mirroring
+            url: https://github.com/SuperOffice/devnet-database-mirroring
+          - text: NetServer service scripting generator
+            url: https://github.com/SuperOffice/devnet-netserver-script-event-generator
+          - text: NetServer Sentry
+            url: https://github.com/SuperOffice/devnet-netserver-sentry
+          - text: NetServer Document plugin
+            url: https://github.com/SuperOffice/devnet-document-plugin
+      # Card
+      - title: Utilities
+        links:
+          - text: Web Panel - CrossMessaging Library and Sample
+            url: https://github.com/SuperOffice/DevNet/tree/master/CrossMessaging
+          - text: Visual Studio Code Extension for CRMScripts
+            url: https://github.com/SuperOffice/vscode-crmscript
+          - text: Continuous Database Utility
+            url: https://github.com/SuperOffice/DevNet/tree/master/ContinuousDatabase
+      # Card
+      - title: NodeJs Applications
+        links:
+          - text: NodeJs and ExpressJs
+            url: https://github.com/SuperOffice/node-express-convert-certs-and-sys-token
+          - text: Electron Application
+            url: https://github.com/SuperOffice/devnet-electron-appauth
+      # Card
+      - title: Python and PHP
+        links:
+          - text: Python System User
+            url: https://github.com/SuperOffice/devnet-python-system-user
+          - text: PHP System User
+            url: https://github.com/SuperOffice/devnet-php-oidc-soap
+      # Card
+      - title: Angular 
+        links:
+          - text: SPA (OIDC and webhooks)
+            url: https://github.com/SuperOffice/devnet-angular-openid-rest
+
+    - title: API and language reference # < 60 chars (optional)
+      summary: Search the NetServer API and language reference documentation. # < 160 chars (optional)
+      items:
+        # Card
+      - title: "NetServer Core API reference"
+        summary: API reference documentation for NetServer Core
+        url: api-reference/netserver/core/index.md
+      # Card
+      - title: "NetServer Services API reference"
+        summary: API reference documentation for NetServer Services
+        url: api-reference/netserver/services/index.md
+      # Card
+      - title: "RESTful REST API reference"
+        summary: API reference documentation for REST endpoints
+        url: api-reference/restful/rest/index.md
+      # Card
+      - title: "RESTful AGENT API reference"
+        summary: API reference documentation for AGENT REST endpoints
+        url: api-reference/restful/agent/index.md
+      # Card
+      - title: "SOAP API reference"
+        summary: API reference documentation for SOAP endpoints
+        url: api-reference/soap/index.md
+      # Card
+      - title: "Web Application API"
+        summary: API reference documentation for Web Application
+        url: api-reference/web/index.md
+      # Card
+      - title: "WebApi Client API"
+        summary: API reference documentation for nuget package SuperOffice.WebApi
+        url: api-reference/webapi/index.md
+       # Card
+      - title: "IApplication COM API"
+        summary: API reference for windows client IApplication interface
+        url: https://community.superoffice.com/documentation/SDK/SO.COM.IApplication/index.html
+       # Card
+      - title: "IDatabase COM API"
+        summary: API reference for windows client IDatabase interface
+        url: https://community.superoffice.com/documentation/SDK/SO.COM.IDatabase/index.html
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
