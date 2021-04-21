@@ -64,7 +64,7 @@ conceptualContent:
       links:
         - text: NetServer fundamentals
           itemType: concept
-          url: netserver/what-is-netserver.md
+          url: netserver/index.md
         - text: SuperOffice WebApi client
           itemType: get-started
           url: https://www.nuget.org/packages/SuperOffice.WebApi
@@ -78,7 +78,7 @@ conceptualContent:
     - title: NetServer Core concepts
       summary: Learn the fundamental of NetServer Core
       links:
-        - url: netserver/overview.md
+        - url: netserver/index.md
           itemType: overview
           text: NetServer overview
         - url: netserver/what-is-netserver.md
