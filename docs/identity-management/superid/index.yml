@@ -1,0 +1,81 @@
+### YamlMime:SubCategory
+
+title: SuperID
+summary: ""
+
+metadata:
+  title: SuperID
+  description: ""
+  ms.topic: landing-page
+  ms.date: 03.28.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about SuperID
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: What is SuperID?
+          url: overview.md
+        - text: Sign-in services
+          url: sign-in-services.md
+        - text: User accounts and passwords
+          url: user-accounts-and-passwords.md
+
+  # Card
+  - title: Federated sign-in guide
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Overview
+          url: howto/federated-sign-in-guide.md
+        - text: Check IdP domain
+          url: howto/check-idp-domain.md
+        - text: Register IdP
+          url: howto/register-idp.md
+        - text: Map IdP usernames
+          url: howto/map-idp-usernames.md
+        - text: Complete user transition
+          url: howto/complete-user-transition.md
+  # Card
+  - title: Identity providers
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Check IDP domain
+          url: howto/check-idp-domain.md
+        - text: Register IDP
+          url: howto/register-idp.md
+        - text: Map IDP usernames
+          url: howto/map-idp-usernames.md
+      - linkListType: concept
+        links:
+        - text: IdP and document handling
+          url: idp-and-doc-handling.md
+  # Card
+  - title: Reference
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: Terms and conditions
+          url: terms-and-conditions.md
+        - text: Known challenges
+          url: known-challenges.md
+      - linkListType: concept
+        links:
+        - text: Primary tenant
+          url: primary-tenant.md
+  # Card
+  - title: Integrations
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: WebTools
+          url: superid-webtools-maillink-pocket.md
+        - text: MailLink
+          url: superid-webtools-maillink-pocket.md
+        - text: Pocket CRM
+          url: superid-webtools-maillink-pocket.md

@@ -1,0 +1,11 @@
+items:
+- name: Introduction
+  href: index.md
+- name: GDPR for app developer
+  href: gdpr-for-app-developer.md
+- name: Consent management
+  href: consent-management.md
+- name: E-marketing consent
+  href: e-marketing-consent.md
+- name: Soft-delete
+  href: soft-delete.md

@@ -1,0 +1,129 @@
+### YamlMime:Category
+
+title: Identity Management
+summary: Identity Management
+brand: devdocs
+
+metadata:
+  title: Identity Management
+  description: Identity Management
+  so.product: superid
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 03.26.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "SuperID"
+      itemType: overview
+      url: superid/index.yml
+    # Card
+    - title: "System for Cross-domain Identity Management (SCIM)"
+      itemType: overview
+      url: scim/index.yml
+    # Card
+    - title: "Authentication"
+      itemType: overview
+      url: ../../../data-access/docs/authentication/overview.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+    # Card
+    - title: Introduction
+      summary: ""
+      links:
+        - url: overview.md
+          itemType: concept
+          text: Intro
+        - url: federated-id-and-identity-providers.md
+          itemType: concept
+          text: Federated ID and identity providers
+        - url: multi-factor-authentication.md
+          itemType: concept
+          text: Multi-factor authentication
+        - url: single-sign-on/index.md
+          itemType: concept
+          text: Single sign-on
+    # Card
+    - title: User admin
+      summary: ""
+      links:
+        - url: user/add-user-in-admin-client.md
+          itemType: how-to-guide
+          text: Add user in admin client
+        - url: user/enforce-password-policy.md
+          itemType: how-to-guide
+          text: Enforce password policy
+        - url: user/reset-password.md
+          itemType: how-to-guide
+          text: Reset password
+        - url: user/send-welcome-emails.md
+          itemType: how-to-guide
+          text: Send welcome emails
+    # Card
+    - title: SuperID
+      summary: ""
+      links:
+        - url: superid/index.yml
+          itemType: concept
+          text: Intro
+        - url: superid/sign-in-services.md
+          itemType: concept
+          text: Sign-in services
+        - url: superid/howto/federated-sign-in-guide.md
+          itemType: how-to-guide
+          text: Federated sign-in guide
+    # Card
+    - title: SCIM
+      summary: "System for Cross-domain Identity Management (SCIM)"
+      links: 
+        - url: scim/overview.md
+          itemType: concept
+          text: What is SCIM?
+        - url: scim/user-provisioning.md
+          itemType: concept
+          text: What is user provisioning?
+        - url: scim/sign-in-to-scim.md
+          itemType: how-to-guide
+          text: How to sign in to SCIM
+        - url: scim/setup/setup-guide.md
+          itemType: get-started
+          text: Set-up guide
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: Resources # < 60 chars (optional)
+      summary: "System requirements, compatibility, config, and debug" # < 160 chars (optional)
+      items:
+      # Card
+      - title: Active Directory
+        links:
+        - url: ad/index.md
+          text: Intro
+        - url: ad/set-up-ad-auth.md
+          text: Set up AD authentication
+        - url: ad/mapping-so-user-to-ad-v-7-1.md
+          text: Mapping so user to AD in version 7.1
+      # Card
+      - title: OAuth 2.0
+        links:
+        - url: ../../../data-access/docs/authentication/online/oauth-2-intro.md
+          text: Intro
+      # Card
+      - title: Credentials
+        links:
+        - url: ../../../data-access/docs/authentication/credentials-table.md
+          text: The credentials database table
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

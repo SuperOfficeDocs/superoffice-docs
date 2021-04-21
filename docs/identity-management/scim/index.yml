@@ -1,0 +1,73 @@
+### YamlMime:SubCategory
+
+title: SCIM
+summary: System for Cross-domain Identity Management
+
+metadata:
+  title: SCIM
+  description: System for Cross-domain Identity Management
+  ms.topic: landing-page
+  ms.date: 03.27.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about SCIM
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: What is SCIM?
+          url: overview.md
+      - linkListType: overview
+        links:
+        - text: Identity Management Gateway
+          url: identity-management-gw.md
+      - linkListType: overview
+        links:
+        - text: SCIM rules
+          url: scim-rules.md
+      - linkListType: how-to-guide
+        links:
+        - text: Sign in to SCIM
+          url: sign-in-to-scim.md
+
+  # Card
+  - title: User provisioning
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is user provisioning?
+            url: user-provisioning.md
+      - linkListType: how-to-guide
+        links:
+          - text: Add SCIM rule 
+            url: provisioning/add-scim-rule.md
+          - text: Activate and deactivate rules
+            url: provisioning/activate-deactivate-rules.md
+          - text: Preview sync
+            url: provisioning/preview-sync.md
+          - text: Sync company
+            url: provisioning/sync-company.md
+          - text: Sync user
+            url: provisioning/sync-user.md
+          - text: Restart sync
+            url: provisioning/restart-sync.md
+  # Card
+  - title: How to set up SCIM
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Set-up guide
+            url: setup/setup-guide.md
+      - linkListType: how-to-guide
+        links:
+          - text: Create Azure enterprise app
+            url: setup/create-azure-enterprise-app.md
+          - text: Enable auto-sync
+            url: setup/enable-auto-sync.md
+          - text: Get SCIM config
+            url: setup/get-scim-config.md
+          - text: Get synchronization error messages
+            url: setup/get-sync-error-messages.md

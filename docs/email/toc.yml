@@ -1,0 +1,55 @@
+items:
+- name: Email
+  topicHref: index.yml
+  expanded: true
+  items:
+  - name: MailLink
+    href: maillink/index.md
+    expanded: true
+    items:
+    - name: Changes in 7.1
+      href: maillink/changes-in-7-1.md
+    - name: Debug
+      href: maillink/debug.md
+  - name: SuperOffice for Outlook
+    href: superoffice-for-outlook/index.md
+    expanded: true
+    items:
+    - name: Requirements
+      href: superoffice-for-outlook/requirements.md
+    - name: Deploy centrally
+      href: superoffice-for-outlook/deploy-centrally.md
+    - name: Deploy office add in
+      href: superoffice-for-outlook/deploy-office-add-in.md
+  - name: Mailgun
+    href: mailgun/index.yml
+    expanded: true
+    items:
+    - name: overview
+      href: mailgun/overview.md
+    - name: Performance
+      href: mailgun/amount-speed.md
+    - name: Reasons to customize
+      href: mailgun/reasons-to-customize.md
+    - name: Security
+      href: mailgun/security.md
+    - name: Sub-processor info
+      href: mailgun/sub-processor-info.md
+    - name: DKIM
+      href: mailgun/dkim/index.md
+      items:
+      - name: Order key
+        href: mailgun/dkim/order-key.md
+      - name: Set up
+        href: mailgun/dkim/set-up.md
+      - name: Change US to EU
+        href: mailgun/dkim/change-us-to-eu.md
+    - name: SPF
+      href: mailgun/spf/index.md
+      items:
+      - name: Set up
+        href: mailgun/spf/set-up.md
+  - name: Mailkit
+    href: mailkit.md
+  - name: Curl
+    href: curl.md

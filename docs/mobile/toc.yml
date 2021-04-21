@@ -1,0 +1,37 @@
+items:
+- name: Mobile
+  topicHref: index.yml
+  expanded: true
+  items:
+  - name: Introduction
+    href: overview.md
+  - name: Superoffice mobile
+    expanded: true
+    items:
+    - name: Client requirements
+      href: superoffice-mobile/client-requirements.md
+    - name: Install
+      href: superoffice-mobile/install.md
+    - name: Security
+      href: superoffice-mobile/security.md
+    - name: FAQ
+      href: superoffice-mobile/faq.md
+  - name: Pocket CRM
+    expanded: true
+    items:
+    - name: Install
+      href: pocket-crm/install.md
+    - name: Client requirements
+      href: pocket-crm/client-requirements.md
+    - name: For Web (onsite)
+      items:
+      - name: System requirements
+        href: pocket-crm/system-requirements.md
+      - name: Deployment guide
+        href: pocket-crm/deploy.md
+      - name: Config
+        href: pocket-crm/configure.md
+      - name: Upgrade to 8
+        href: pocket-crm/upgrade-to-8.md
+      - name: ZIP compression on REST API
+        href: pocket-crm/compression.md

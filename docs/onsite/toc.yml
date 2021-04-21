@@ -1,0 +1,159 @@
+items:
+- name: Onsite
+  topicHref: index.yml
+  expanded: true
+  items:
+  - name: Install Onsite
+    expanded: true
+    items:
+    - name: Pre-requisites
+      expanded: true
+      items:
+      - name: System requirements
+        href: requirements/index.md
+        items:
+        - name: CRM Server
+          href: requirements/crm-server.md
+        - name: IIS web server
+          href: requirements/iis.md
+        - name: Web and Win client
+          href: requirements/web-client.md
+      - name: Compatibility
+        href: compatibility/index.md
+        items:
+        - name: Server OS
+          href: compatibility/server-os.md
+        - name: Client OS
+          href: compatibility/client-os.md
+        - name: Browser
+          href: compatibility/browser.md
+        - name: MS Office
+          href: compatibility/ms-office.md
+        - name: Database
+          href: compatibility/database.md
+          items:
+          - name: MS SQL Server
+            href: compatibility/ms-sql-server.md
+          - name: Oracle
+            href: compatibility/oracle.md
+      - name: Security
+        href: security/index.md
+        items:
+        - name: Secure deployment guide
+          href: security/secure-deployment-guide.md
+        - name: Deployment scenarios
+          href: security/deployment-scenarios.md
+        - name: Network firewall config
+          href: security/network-firewall-config.md
+        - name: Set up EMET
+          href: security/set-up-emet.md
+        - name: Set up ModSecurity
+          href: security/set-up-modsecurity.md
+        - name: Secure HTTPS
+          href: security/secure-https.md
+    - name: Setup guide
+      expanded: true
+      href: install/guide.md
+      items:
+      - name: IIS web server
+        href: install/iis/index.md
+        items:
+        - name: Set up reverse proxy on IIS
+          href: install/iis/reverse-proxy.md
+      - name: Database
+        href: install/database/index.md
+        items:
+        - name: Create MS SQL Server database
+          href: install/database/create-ms-sql-server-db.md
+        - name: Create Oracle database
+          href: install/database/create-oracle-db.md
+        - name: SQL server full-text search
+          href: install/database/sql-server-full-text-search.md
+      - name: Install SuperOffice server
+        href: install/server/index.md
+        items:
+        - name: Silent install
+          href: install/server/silent-serversetup.md
+        - name: Install on Citrix or Terminal server
+          href: install/server/install-on-citrix.md
+          items:
+          - name: Considerations for WebTools and Ribbons
+            href: install/server/deploy-on-citrix.md
+    - name: Install Windows client
+      href: install/win-client/index.md
+      items:
+      - name: Prepare server
+        href: install/win-client/prepare-server.md
+    - name: Install SuperOffice Web
+      href: install/web-client/index.md
+      items:
+      - name: Configure Web Reports
+        href: reporter/config.md
+      - name: Install NetServer web services
+        href: install/netserver/index.md
+  - name: Upgrade Onsite
+    expanded: true
+    items:
+    - name: To version 8.0
+      items:
+      - name: Upgrade scenarios 7.5 to 8
+        href: upgrade/75-to-8/index.md
+      - name: CRM Server
+        href: upgrade/75-to-8/crm-server.md
+      - name: Web client
+        href: upgrade/75-to-8/web-client.md
+      - name: NetServer
+        href: upgrade/75-to-8/netserver.md
+      - name: Windows client
+        href: upgrade/75-to-8/win-client.md
+    - name: To version 8.1
+      href: upgrade/to-81/index.md
+      items:
+      - name: Using old Service domain
+        href: upgrade/to-81/using-old-service-domain.md
+      - name: Using old Sales domain
+        href: upgrade/to-81/using-old-sales-domain.md
+      - name: Using new domains
+        href: upgrade/to-81/using-new-domains.md
+      - name: Move CMR Server
+        href: upgrade/to-81/move-crm-server.md
+  - name: Config
+    href: config/index.md
+    expanded: true
+    items:
+    - name: DBSetup
+      href: install/database/dbsetup-exe.md
+    - name: Batch task server
+      href: batch-task-server.md
+    - name: Command line switches
+      href: command-line-switches.md
+    - name: Files
+      items:
+      - name: RemoteTravel.ini
+        href: config/remotetravel-ini.md
+      - name: Service config
+        href: config/service-config.md
+      - name: SoTables.ini
+        href: config/sotables-ini.md
+      - name: SoUser.ini
+        href: config/souser-ini.md
+      - name: SuperOffice.config
+        href: config/superoffice-config.md
+      - name: SuperOffice.ini
+        href: config/superoffice-ini.md
+      - name: Username.ini
+        href: config/username-ini.md
+      - name: Web.config
+        href: config/web-config.md
+  - name: Debug
+    items:
+    - name: Web client
+      href: debug/web-client.md
+    - name: Reporter log
+      href: reporter/debug.md
+    - name: Reporter error messages
+      href: reporter/troubleshooting.md
+    - name: Windows client
+      href: debug/win-client.md
+  - name: Version history
+    href: version-history.md

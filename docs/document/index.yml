@@ -1,0 +1,137 @@
+### YamlMime:Category
+
+title: Document
+summary: ""
+brand: devdocs
+
+metadata:
+  title: Document
+  description: ""
+  so.product: cloud documents
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 03.29.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "Office 365 document integration"
+      itemType: overview
+      url: cloud/office-365/index.md
+    # Card
+    - title: "G-suite document integration"
+      itemType: overview
+      url: cloud/g-suite/index.md
+    # Card
+    - title: "Template variable reference"
+      itemType: reference
+      url: templates/variables/from-company-card.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+    # Card
+      - title: Cloud document integrations
+        summary: ""
+        links:
+          - url: cloud/index.md
+            itemType: overview
+            text: Intro
+          - url: cloud/configure.md
+            itemType: how-to-guide
+            text: Configure cloud document handling
+          - url: cloud/set-up.md
+            itemType: how-to-guide
+            text: Set up cloud document integration
+    # Card
+      - title: Office 365 document integration
+        summary: ""
+        links:
+        - url: cloud/office-365/index.md
+          itemType: concept
+          text: Intro
+        - url: cloud/office-365/requirements.md
+          itemType: reference
+          text: Requirements
+        - url: cloud/office-365/security.md
+          itemType: reference
+          text: Security
+        - url: cloud/office-365/prepare-sharepoint.md
+          itemType: how-to-guide
+          text: Prepare SharePoint for set-up
+        - url: cloud/office-365/set-up.md
+          itemType: how-to-guide
+          text: Set up
+        - url: cloud/office-365/troubleshooting.md
+          itemType: how-to-guide
+          text: Troubleshooting
+    # Card
+      - title: G-suite document integration
+        summary: ""
+        links:
+        - url: cloud/g-suite/index.md
+          itemType: concept
+          text: Intro
+        - url: cloud/g-suite/requirements.md
+          itemType: reference
+          text: Requirements
+        - url: cloud/g-suite/security.md
+          itemType: reference
+          text: Security
+        - url: cloud/g-suite/set-up.md
+          itemType: how-to-guide
+          text: Set up
+        - url: cloud/g-suite/getting-started.md
+          itemType: get-started
+          text: Quick-start
+    # Card
+      - title: Document templates
+        summary: ""
+        links:
+        - url: templates/index.md
+          itemType: concept
+          text: Intro
+        - url: templates/quote/index.md
+          itemType: concept
+          text: Quote documents
+        - url: templates/troubleshooting.md
+          itemType: how-to-guide
+          text: Troubleshooting
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: "" # < 60 chars (optional)
+      summary: "" # < 160 chars (optional)
+      items:
+      # Card
+      - title: ODF
+        links:
+        - url: odf.md
+          text: Intro
+
+      # Card
+      - title: Reports
+        links:
+        - url: ../service/reports/parameters.md
+          text: Parameters
+
+      # Card
+      - title: Ribbons
+        links:
+        - url: ribbons/index.md
+          text: Intro
+        - url: ribbons/enable-debug.md
+          text: Enable debug
+        - url: ribbons/troubleshooting.md
+          text: Troubleshooting
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

@@ -1,0 +1,64 @@
+### YamlMime:SubCategory
+
+title: Database mirroring
+summary: Database mirroring
+
+metadata:
+  title: Database mirroring
+  description: Database mirroring
+  ms.topic: landing-page
+  ms.date: 03.27.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about mirroring
+    linkLists:
+      - linkListType: learn
+        links:
+        - text: What is mirroring?
+          url: overview.md
+        - text: Conceptual overview
+          url: conceptual-overview-2016.md
+        - text: Mirroring task
+          url: mirroring-task.md
+        - text: Change tracking
+          url: change-tracking.md
+        - text: Skip tables (blacklist)
+          url: skip-tables.md
+  # Card
+  - title: Getting started
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Where to begin
+            url: getting-started/index.md
+          - text: Create WFC
+            url: getting-started/create-wfc.md
+      - linkListType: reference
+        links:
+          - text: IMirrorClientService interface
+            url: getting-started/i-mirror-client-service.md
+  # Card
+  - title: How to...
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Sync manually (debug)
+            url: getting-started/sync-manually.md
+          - text: Force re-synchronization
+            url: force-resync.md
+
+  # Card
+  - title: Reference
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Scenarios
+            url: scenarios.md
+          - text: Requirements
+            url: requirements.md
+          - text: SQL server schema
+            url: sql-server-schema.md

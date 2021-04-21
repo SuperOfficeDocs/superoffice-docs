@@ -1,0 +1,77 @@
+### YamlMime:SubCategory
+
+title: Mobile
+summary: Mobile
+
+metadata:
+  title: Mobile
+  description: Mobile
+  ms.topic: landing-page
+  ms.date: 04.14.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Getting started
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Introduction
+          url: overview.md
+      - linkListType: how-to-guide
+        links:
+        - text: Install SuperOffice Mobile (v.9.1 and newer)
+          url: superoffice-mobile/install.md
+        - text: Install Pocket CRM (v.8x and older)
+          url: pocket-crm/install.md
+
+  # Card
+  - title: SuperOffice Mobile
+    linkLists:
+      - linkListType: learn
+        links:
+        - text: Client requirements
+          url: superoffice-mobile/client-requirements.md
+        - text: Security
+          url: superoffice-mobile/security.md
+        - text: FAQ
+          url: superoffice-mobile/faq.md
+      - linkListType: how-to-guide
+        links:
+        - text: Install
+          url: superoffice-mobile/install.md
+  # Card
+  - title: Pocket CRM
+    linkLists:
+      - linkListType: learn
+        links:
+        - text: Client requirements
+          url: pocket-crm/client-requirements.md
+        - text: System requirements
+          url: pocket-crm/system-requirements.md
+      - linkListType: how-to-guide
+        links:
+        - text: Install
+          url: pocket-crm/install.md
+        - text: Deployment guide
+          url: pocket-crm/deploy.md
+        - text: Config
+          url: pocket-crm/configure.md
+        - text: Upgrade to 8
+          url: pocket-crm/upgrade-to-8.md
+        - text: ZIP compression on REST API
+          url: pocket-crm/compression.md
+
+  # Card
+  - title: Requirements
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: SuperOffice Mobile client
+          url: superoffice-mobile/client-requirements.md
+        - text: Pocket CRM client
+          url: pocket-crm/client-requirements.md
+        - text: Pocket CRM server
+          url: pocket-crm/system-requirements.md

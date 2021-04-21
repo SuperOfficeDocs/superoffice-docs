@@ -1,0 +1,65 @@
+### YamlMime:SubCategory
+
+title: Customer center
+summary: Customer center
+
+metadata:
+  title: Customer center
+  description: Customer center
+  ms.topic: landing-page
+  ms.date: 03.27.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about the customer center
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: What is the customer center?
+          url: overview.md
+      - linkListType: concept
+        links:
+        - text: Config
+          url: config.md
+        - text: Templates
+          url: templates.md
+  # Card
+  - title: Customization
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Inline CRMSCript
+          url: inline-crmscript.md
+        - text: Access script
+          url: access-script.md
+        - text: Create web forms with special templates
+          url: create-webform-with-template.md
+  # Card
+  - title: How to ...
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Update extra table
+          url: update-extra-table.md
+        - text: Sort messages in the Customer Center
+          url: overview.md
+        - text: Create drop-down for category
+          url: templates.md
+  # Card
+  - title: Tutorials
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Custom form - book appointment
+            url: tutorials/custom-form-book-apt.md
+          - text: Custom form - edit customer
+            url: tutorials/custom-form-edit-customer.md
+          - text: Call script in Service with AJAX
+            url: tutorials/call-script-in-cs-with-ajax.md
+          - text: Display KAM picture
+            url: tutorials/display-kam-picture.md
+          - text: Embed chat widget on external site
+            url: tutorials/embed-chat-widget.md

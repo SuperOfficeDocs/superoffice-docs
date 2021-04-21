@@ -1,0 +1,62 @@
+### YamlMime:SubCategory
+
+title: Mailgun
+summary: Mailgun
+
+metadata:
+  title: Mailgun
+  description: Mailgun
+  ms.topic: landing-page
+  ms.date: 03.28.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Mail service alternatives
+    linkLists:
+      - linkListType: overview
+        links:
+        - text: Scenarios
+          url: overview.md
+        - text: Reasons to customize
+          url: reasons-to-customize.md
+  # Card
+  - title: DKIM
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: What is the purpose of DKIM record?
+          url:  dkim/index.md
+      - linkListType: how-to-guide
+        links:
+        - text: Request DKIM key for eu.mailgun.org
+          url: dkim/order-key.md
+        - text: How to set up a DKIM Record
+          url: dkim/set-up.md
+        - text: How to change DKIM from US to EU
+          url: dkim/change-us-to-eu.md
+  # Card
+  - title: SPF
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: What is SPF?
+            url: spf/index.md
+      - linkListType: how-to-guide
+        links:
+          - text: How to set up SPF Record
+            url: spf/set-up.md
+  # Card
+  - title: Reference
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: Performance
+          url: amount-speed.md
+        - text: Security
+          url: security.md
+        - text: Sub-processor info
+          url: sub-processor-info.md
+

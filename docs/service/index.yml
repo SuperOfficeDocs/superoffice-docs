@@ -1,0 +1,93 @@
+### YamlMime:Category
+
+title: Service
+summary: Service
+brand: devdocs
+
+metadata:
+  title: Service
+  description: Service
+  so.product: service
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 03.26.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "Service set-up guide (onsite)"
+      itemType: how-to-guide
+      url: install/index.md
+    # Card
+    - title: "Upgrade (onsite)"
+      itemType: how-to-guide
+      url: upgrade/index.md
+    # Card
+    - title: "Customer center"
+      itemType: overview
+      url: ../customer-center/index.yml
+
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: "" # < 60 chars (optional)
+      summary: "" # < 160 chars (optional)
+      items:
+      # Card
+      - title: Attachments
+        links:
+          - url: attachments/location.md
+            text: Location of
+      
+      # Card
+      - title: Reply templates
+        links:
+        - url: ../reply-templates/index.md
+          text: Intro
+        - url: ../reply-templates/system-templates.md
+          text: System templates
+      # Card
+      - title: SMS plugins
+        links:
+        - url: sms/index.md
+          text: Intro
+        - url: sms/cm.md
+          text: CM
+        - url: sms/compaya.md
+          text: Compaya
+        - url: sms/intelecom.md
+          text: Intelecom
+        - url: sms/pswincom.md
+          text: PSWinCom
+        - url: sms/smsteknik.md
+          text: SMSTeknik
+        - url: sms/twilio.md
+          text: Twilio
+        - url: sms/txtlocal.md
+          text: TxtLocal
+      # Card
+      - title: Integration
+        links:
+        - url: set-up-facebook-integration.md
+          text: Set up Facebook integration
+        - url: ../marketing/forms/recaptcha.md
+          text: Google reCaptcha in forms
+    # Card
+      - title: Reports
+        links:
+        - url: reports/parameters.md
+          text: Parameters
+    # Card
+      - title: Troubleshooting
+        links:
+        - url: debug-automated-tasks.md
+          text: Debug automated tasks
+
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

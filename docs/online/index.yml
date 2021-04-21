@@ -1,0 +1,179 @@
+### YamlMime:Category
+
+title: SuperOffice cloud documentation
+summary: Cloud-based CRM platform that helps you build long-term customer relationships
+brand: devdocs
+
+metadata:
+  title: Learn SuperOffice Online
+  description: SuperOffice cloud.
+  so.product: dotnet
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 04.09.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "System requirements"
+      itemType: reference
+      url: system-requirements.md
+    # Card
+    - title: "Email and communications"
+      itemType: overview
+      url: ../email/index.yml
+    # Card
+    - title: "Document management"
+      itemType: overview
+      url: ../document/index.yml
+    # Card
+    - title: "SuperOffice mobile"
+      itemType: learn
+      url: ../mobile/index.yml
+    # Card
+    - title: "Video meetings"
+      itemType: learn
+      url: ../video-meeting/index.md
+    # Card
+    - title: "Customer Service"
+      itemType: overview
+      url: ../service/index.yml
+    # Card
+    - title: "Identity management"
+      itemType: overview
+      url: ../identity-management/index.yml
+    # Card
+    - title: "Database mirroring"
+      itemType: overview
+      url: ../mirroring/index.yml
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+    # Card
+    - title: Migrate to CRM online
+      summary: Take SuperOffice to the cloud
+      links:
+        - url: migrate/index.md
+          itemType: overview
+          text: "Migration guide"
+        - url: system-requirements.md
+          itemType: reference
+          text: System requirements for SuperOffice CRM Online
+        - url: ../service/mailboxes/migrate.md
+          itemType: concept
+          text: "Migrating Service mailboxes"
+    # Card
+    - title: Identity management
+      summary: ""
+      links:
+        - url: ../identity-management/index.yml
+          itemType: overview
+          text: Overview
+        - url: ../identity-management/superid/index.yml
+          itemType: overview
+          text: SuperID
+        - url: ../identity-management/scim/index.yml
+          itemType: overview
+          text: SCIM
+        - text: "Authentication"
+          itemType: overview
+          url: ../authentication/index.yml
+        - text: Reset password
+          itemType: how-to-guide
+          url: ../identity-management/user/reset-password.md
+    # Card
+    - title: Develop NetServer apps
+      summary: Start developing integrations with NetServer
+      links:
+        - text: Overview
+          itemType: overview
+          url: ../apps/index.yml
+        - text: Getting started
+          itemType: get-started
+          url: ../apps/getting-started/building-apps.md
+        - text: Get access to SOD
+          itemType: how-to-guide
+          url: ../apps/getting-started/get-access-to-sod.md
+        - text: Get application keys
+          itemType: how-to-guide
+          url: ../apps/getting-started/get-app-keys.md
+        - text: "Requirements"
+          itemType: reference
+          url: ../apps/requirements/index.md
+        - text: Best practices
+          itemType: reference
+          url: ../apps/best-practices.md
+        - text: Integration points
+          itemType: concept
+          url: ../apps/getting-started/integration-points.md
+        - text: What API to use?
+          itemType: reference
+          url: ../apps/getting-started/what-api-to-use.md
+        - text: Download the NuGet package
+          itemType: download
+          url: https://www.nuget.org/profiles/SuperOffice
+    # Card
+    - title: Online integrations
+      summary: ""
+      links:
+        - text: Test environments
+          itemType: concept
+          url: test-environment/index.md
+        - text: App store
+          itemType: overview
+          url: https://online.superoffice.com/appstore
+        - text: Database mirroring
+          itemType: overview
+          url: ../mirroring/index.yml
+        - text: Office 365 document integration
+          itemType: concept
+          url: ../document/cloud/office-365/index.md
+        - text: G-suite document integration
+          itemType: concept
+          url: ../document/cloud/g-suite/index.md
+
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: "You may also be interested in" # < 60 chars (optional)
+      summary: "" # < 160 chars (optional)
+      items:
+      # Card
+      - title: Sign-in
+        links:
+        - url: ../identity-management/federated-id-and-identity-providers.md
+          text: Federated ID and identity providers
+        - url: ../identity-management/multi-factor-authentication.md
+          text: Multi-factor authentication
+        - url: ../identity-management/single-sign-on/index.md
+          text: Single sign-on
+      # Card
+      - title: Continuous online release schedule
+        links:
+          - text: What's new in latest release
+            url: https://community.superoffice.com/en/product-releases/release-notes/whats-new-document/
+          - text: Current release schedule 
+            url: https://community.superoffice.com/en/product-releases/release-notes/
+      # Card
+      - title: Reference
+        links:
+          - url: ../document/templates/variables/from-company-card.md
+            text: Template variable reference
+          - url: cookies.md
+            text: Cookies
+      - title: Monitoring
+        links:
+          - text: Check online tenant status
+            url: ../apps/tenant-status/check-status.md
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

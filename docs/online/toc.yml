@@ -1,0 +1,33 @@
+items:
+- name: SuperOffice CRM Online
+  href: index.yml
+  expanded: true
+  items:
+  - name: Introduction
+    href: overview.md
+  - name: System requirements
+    href: system-requirements.md
+  - name: Cookies
+    href: cookies.md
+  - name: Security
+    href: security.md
+  - name: Version history
+    href: version-history.md
+  - name: Migrate to Online
+    href: migrate/index.md
+  - name: Test environment
+    href: test-environment/index.md
+    expanded: true
+    items:
+    - name: Clone to test environment
+      href: test-environment/clone-to.md
+    - name: Replace test environment
+      href: test-environment/replace.md
+- name: Identity Management
+  href: ../identity-management/toc.yml
+  topicHref: ../identity-management/index.yml
+  expanded: true
+- name: Mirroring
+  href: ../mirroring/toc.yml
+  topicHref: ../mirroring/index.yml
+  expanded: true

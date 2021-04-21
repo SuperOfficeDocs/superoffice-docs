@@ -1,0 +1,44 @@
+items:
+- name: Pre-requisites
+  href: index.md
+  expanded: true
+- name: Use
+  expanded: true
+  items:
+  - name: Create video meeting
+    href: create-video-meeting.md
+  - name: Join video meeting
+    href: join-video-meeting.md
+- name: Config
+  expanded: true
+  items: 
+  - name: Configure video meetings
+    href: configure-video-meetings.md
+  - name: Connect provider
+    href: connect-provider.md
+  - name: Disconnect provider
+    href: disconnect-provider.md
+- name: Authenticate
+  expanded: true
+  items:
+  - name: Zoom
+    href: zoom/auth.md
+  - name: Webex
+    href: webex/auth.md
+  - name: Google
+    href: google-meet/auth.md
+  - name: Microsoft Teams
+    href: ms-teams/auth.md
+  - name: Jitsi
+    href: jitsi/auth.md
+- name: Uninstall
+  expanded: true
+  items:
+  - name: Zoom
+    href: zoom/uninstall.md
+  - name: Webex
+    href: webex/uninstall.md
+  - name: Google
+    href: google-meet/uninstall.md
+  - name: Microsoft Teams
+    href: ms-teams/uninstall.md

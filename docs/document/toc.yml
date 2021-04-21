@@ -1,0 +1,104 @@
+items:
+- name: Document
+  topicHref: index.yml
+  expanded: true
+  items:
+  - name: Cloud document integrations
+    href: cloud/index.md
+    expanded: true
+    items:
+    - name: Configure cloud document handling
+      href: cloud/configure.md
+    - name: Set up cloud document integration
+      href: cloud/set-up.md
+    - name: G suite document integration
+      href: cloud/g-suite/index.md
+      items:
+      - name: Requirements
+        href: cloud/g-suite/requirements.md
+      - name: Security
+        href: cloud/g-suite/security.md
+      - name: Quick start
+        href: cloud/g-suite/getting-started.md
+      - name: Set up
+        href: cloud/g-suite/set-up.md
+    - name: Office 365 document integration
+      href: cloud/office-365/index.md
+      items:
+      - name: Requirements
+        href: cloud/office-365/requirements.md
+      - name: Security
+        href: cloud/office-365/security.md
+      - name: Prepare SharePoint for set up
+        href: cloud/office-365/prepare-sharepoint.md
+      - name: Set up
+        href: cloud/office-365/set-up.md
+      - name: Troubleshooting
+        href: cloud/office-365/troubleshooting.md
+  - name: ODF
+    href: odf.md
+  - name: Ribbons
+    href: ribbons/index.md
+    expanded: true
+    items:
+    - name: Enable debug
+      href: ribbons/enable-debug.md
+    - name: Troubleshooting
+      href: ribbons/troubleshooting.md
+  - name: Templates
+    href: templates/index.md
+    expanded: true
+    items:
+    - name: Variables
+      items:
+      - name: For appointments
+        href: templates/variables/for-appointments.md
+      - name: For ical
+        href: templates/variables/for-ical.md
+      - name: For int address
+        href: templates/variables/for-int-address.md
+      - name: For mail gateway
+        href: templates/variables/for-mail-gateway.md
+      - name: For pocket
+        href: templates/variables/for-pocket.md
+      - name: For quote alternative
+        href: templates/variables/for-quote-alternative.md
+      - name: For quote info
+        href: templates/variables/for-quote-info.md
+      - name: For quote line
+        href: templates/variables/for-quote-line.md
+      - name: For quote line with subscription
+        href: templates/variables/for-quote-line-with-subscription.md
+      - name: For sales
+        href: templates/variables/for-sales.md
+      - name: For selected contact
+        href: templates/variables/for-selected-contact.md
+      - name: For selections
+        href: templates/variables/for-selections.md
+      - name: For sender contact dialog
+        href: templates/variables/for-sender-contact-dialog.md
+      - name: For service
+        href: templates/variables/for-service.md
+      - name: For web app
+        href: templates/variables/for-web-app.md
+      - name: From company card
+        href: templates/variables/from-company-card.md
+      - name: From doc dialog or system
+        href: templates/variables/from-doc-dialog-or-system.md
+      - name: From project card
+        href: templates/variables/from-project-card.md
+      - name: From senders company card
+        href: templates/variables/from-senders-company-card.md
+      - name: Misc
+        href: templates/variables/misc.md
+    - name: Quote
+      href: templates/quote/index.md
+      items:
+      - name: Add template variables
+        href: templates/quote/add-template-var.md
+      - name: Language and  culture
+        href: templates/quote/lang-culture.md
+      - name: Mergefields
+        href: templates/quote/mergefields.md
+    - name: Troubleshooting
+      href: templates/troubleshooting.md

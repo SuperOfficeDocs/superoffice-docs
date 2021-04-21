@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- name: Admin
+  href: ../admin/toc.yml
+  topicHref: ../admin/overview.md
+- name: AI services
+  href: ../ai-services/toc.yml
+- name: Apps
+  href: ../apps/toc.yml
+  expanded: true
+- name: Automation
+  href: ../automation/toc.yml
+# TBD: chat, company and contact, custom fields, dashboards
+- name: Diary
+  href: ../diary/toc.yml
+- name: Document
+  href: ../document/toc.yml
+- name: Email
+  href: ../email/toc.yml
+# TBD environment
+- name: Online
+  href: ../online/toc.yml
+- name: Onsite
+  href: ../onsite/toc.yml
+- name: Mobile
+  href: ../mobile/toc.yml
+- name: Security
+  href: ../security/toc.yml
+# TBD project, quote, sale, saint
+- name: Service
+  href: ../service/toc.yml
+- name: Travel
+  href: ../travel/toc.yml
+- name: WebTools
+  href: ../webtools/toc.yml

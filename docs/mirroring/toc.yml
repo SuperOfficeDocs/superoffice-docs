@@ -1,0 +1,29 @@
+items:
+- name: Overview
+  href: overview.md
+- name: Scenarios
+  href: scenarios.md
+- name: Requirements
+  href: requirements.md
+- name: Deep-dive and implementation overview
+  href: conceptual-overview-2016.md
+- name: Mirroring task
+  href: mirroring-task.md
+- name: Change tracking
+  href: change-tracking.md
+- name: Blacklist tables
+  href: skip-tables.md
+- name: SQL server schema
+  href: sql-server-schema.md
+- name: Getting started
+  href: getting-started/index.md
+  expanded: true
+  items:
+  - name: Create WFC
+    href: getting-started/create-wfc.md
+  - name: Sync manually (debug)
+    href: getting-started/sync-manually.md
+  - name: IMirrorClientService interface
+    href: getting-started/i-mirror-client-service.md
+- name: How to force resync
+  href: force-resync.md
