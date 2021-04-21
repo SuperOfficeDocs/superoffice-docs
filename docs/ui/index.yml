@@ -1,0 +1,171 @@
+### YamlMime:Category
+
+title: User interface
+summary: User interface
+brand: devdocs
+
+metadata:
+  title: User interface
+  description: User interface
+  so.product: superid
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 03.28.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "Web application reference"
+      itemType: reference
+      url: web-application/overview.md
+    # Card
+    - title: "Custom screens"
+      itemType: overview
+      url: service-ui/index.yml
+    # Card
+    - title: "bLogic screen element reference"
+      itemType: reference
+      url: service-ui/blogic-screen-elements/index.md
+    # Card
+    - title: "URL parameters"
+      itemType: reference
+      url: service-ui/url-parameters.md
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+    # Card
+    - title: Web panels
+      summary: ""
+      links:
+      - url: web-panels/index.md
+        itemType: concept
+        text: Overview
+      - url: web-panels/add-web-panel.md
+        itemType: how-to-guide
+        text: Add a web panel
+      - url: web-panels/url-encoding.md
+        itemType: how-to-guide
+        text: URL encoding
+      - url: web-panels/passing-data.md
+        itemType: how-to-guide
+        text: Pass data with template variables
+      - url: web-panels/create-link-to.md
+        itemType: how-to-guide
+        text: Create link to
+      - url: web-panels/detect-superoffice.md
+        itemType: how-to-guide
+        text: Detect running inside SuperOffice
+    # Card
+    - title: SOProtocol
+      summary: ""
+      links:
+      - url: soprotocol/index.md
+        itemType: concept
+        text: Overview
+      - url: soprotocol/navigation-points.md
+        itemType: concept
+        text: Navigation points
+      - url: soprotocol/page-control-and-cache.md
+        itemType: concept
+        text: Page control and cache
+      - url: soprotocol/query-strings.md
+        itemType: concept
+        text: Query strings
+      - url: soprotocol/sop-and-superstate.md
+        itemType: concept
+        text: Sop and superstate
+      - url: soprotocol/in-crmscript.md
+        itemType: concept
+        text: In CRMScript
+      - url: soprotocol/used-in-webpanels-web.md
+        itemType: concept
+        text: In web panels (Web)
+      - url: soprotocol/get-contact.md
+        itemType: how-to-guide
+        text: How to get a contact
+    # Card
+    - title: Custom screens
+      summary: ""
+      links:
+        - url: service-ui/custom-screens/index.md
+          itemType: concept
+          text: Intro
+        - url: service-ui/custom-screens/blogic-query-syntax.md
+          itemType: concept
+          text: bLogic query syntax
+        - url: service-ui/custom-screens/layout-elements.md
+          itemType: concept
+          text: Layout elements
+        - url: service-ui/custom-screens/view-elements.md
+          itemType: concept
+          text: View elements
+        - url: service-ui/custom-screens/form-elements.md
+          itemType: concept
+          text: Form elements
+        - url: service-ui/custom-screens/add-screen-element.md
+          itemType: how-to-guide
+          text: How to add a screen element
+        - url: service-ui/blogic-screen-elements/index.md
+          itemType: reference
+          text: Element reference
+    # Card
+    - title: Web application
+      summary: ""
+      links:
+      - url: web-application/index.yml
+        itemType: concept
+        text: Overview
+      - url: web-application/getting-started/architecture.md
+        itemType: concept
+        text: Architecture
+      - url:  web-application/pagebuilder/index.md
+        itemType: concept
+        text: PageBuilder
+      - url: web-application/getting-started/index.md
+        itemType: get-started
+        text: Getting started
+      - url: web-application/getting-started/change-system-config.md
+        itemType: how-to-guide
+        text: Change system config
+      - url: web-application/getting-started/change-page-config.md
+        itemType: how-to-guide
+        text: Change page config
+      - url: web-application/getting-started/debug.md
+        itemType: how-to-guide
+        text: Debug
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: "" # < 60 chars (optional)
+      summary: "" # < 160 chars (optional)
+      items:
+      # Card
+      - title: Events
+        links:
+        - url: service-ui/screen-events.md
+          text: Screen events
+        - url: ../../superoffice-docs/docs/automation/event-model/index.md
+          text: Event model
+        - url: ../../superoffice-docs/docs/automation/trigger-scripts/index.md
+          text: Trigger scripts
+      # Card
+      - title: Screen choosers
+        links:
+        - url: service-ui/screen-choosers.md
+          text: Intro
+      # Card
+      - title: Extra menus
+        links:
+        - url: service-ui/extra-menus.md
+          text: Intro
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

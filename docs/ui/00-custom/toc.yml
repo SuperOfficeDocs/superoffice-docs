@@ -1,9 +1,15 @@
 items:
 - name: Web application
   href: ../web-application/toc.yml
+  expanded: true
+  topicHref: ../web-application/index.yml
 - name: Service UI
   href: ../service-ui/toc.yml
+  expanded: true
+  topicHref: ../service-ui/index.yml
 - name: SOProtocol
   href: ../soprotocol/toc.yml
+  expanded: true
 - name: Web panels
   href: ../web-panels/toc.yml
+  expanded: true

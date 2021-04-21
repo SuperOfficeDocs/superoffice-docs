@@ -1,0 +1,51 @@
+### YamlMime:SubCategory
+
+title: Custom screens with bLogic
+summary: ""
+
+metadata:
+  title: Custom screens  with bLogic
+  description: ""
+  ms.topic: landing-page
+  ms.date: 03.28.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about custom screens
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: What are custom screens?
+          url: custom-screens/index.md
+        - text: bLogic query syntax
+          url: custom-screens/blogic-query-syntax.md
+  # Card
+  - title: Element walk-through
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Layout elements
+          url: custom-screens/layout-elements.md
+        - text: View elements
+          url: custom-screens/view-elements.md
+        - text: Form elements
+          url: custom-screens/form-elements.md
+        - text: Form elements per entity
+          url: custom-screens/form-elements-per-entity.md
+  # Card
+  - title: Tutorials
+    linkLists:
+      - linkListType: tutorial
+        links:
+        - text: Custom database and UI
+          url: tutorials/custom-db-and-ui.md
+  # Card
+  - title: Reference
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: bLogic screen elements
+          url: blogic-screen-elements/index.md

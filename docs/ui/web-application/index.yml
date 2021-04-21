@@ -1,0 +1,147 @@
+### YamlMime:SubCategory
+
+title: Web GUI .Net API
+summary: ""
+
+metadata:
+  title: Web GUI .Net API
+  description: ""
+  ms.topic: landing-page
+  ms.date: 03.28.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about Web GUI .Net API
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Intro
+          url: overview.md
+        - text: Getting started
+          url: getting-started/index.md
+        - text: Model view controller pattern
+          url: model-view-controller-pattern/mvc-article.md
+        - text: Architecture
+          url: getting-started/architecture.md
+        - text: SOML
+          url: pagebuilder/config/soml.md
+        - text: Folder structure
+          url: getting-started/folder-structure.md
+        - text: Clientconfigurationprovider
+          url: getting-started/clientconfigurationprovider.md
+  # Card
+  - title: PageBuilder
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Intro
+          url: pagebuilder/index.md
+        - text: Data binding
+          url: pagebuilder/data-binding.md
+        - text: Data handlers
+          url: pagebuilder/datahandlers/index.md
+        - text: SuperState
+          url: pagebuilder/superstate/index.md
+        - text: User controls
+          url: pagebuilder/usercontrols/index.md
+        - text: Config
+          url: pagebuilder/config/index.md
+        - text: Merge files and actions
+          url: pagebuilder/config/merge-files-and-actions.md
+        - text: Object mapping
+          url: pagebuilder/config/object-mapping.md
+  # Card
+  - title: PageBuilder config
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Page
+          url: pagebuilder/config/page.md
+        - text: Panel
+          url: pagebuilder/config/panel.md
+        - text: Card
+          url: pagebuilder/config/card.md
+        - text: View
+          url: pagebuilder/config/view.md
+        - text: SoApplicationConfiguration
+          url: pagebuilder/config/soapplicationconfiguration.md
+        - text: SoArchiveControlLinkInfoTypes
+          url: pagebuilder/config/soarchivecontrollinkinfotypes.md
+    # Card
+  - title: User controls
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: MDOLists
+          url: pagebuilder/usercontrols/mdolists/index.md
+        - text: SoArchiveControl
+          url: pagebuilder/usercontrols/soarchivecontrol/index.md
+        - text: SoLabel
+          url: pagebuilder/usercontrols/solabel/add-label.md
+        - text: SoListBox
+          url: pagebuilder/usercontrols/solistbox/data-binding.md
+        - text: SoTextBox
+          url: pagebuilder/usercontrols/sotextbox/add-textbox.md
+  # Card
+  - title: Develop
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - text: Set up custom folder
+          url: getting-started/set-up-custom-folder.md
+        - text: Change system config
+          url: getting-started/change-system-config.md
+        - text: Change page config
+          url: getting-started/change-page-config.md
+        - text: Custom Ajax methods
+          url: custom-ajax-methods.md
+        - text: DCF
+          url: getting-started/dcf.md
+        - text: Debug
+          url: getting-started/debug.md
+  # Card
+  - title: Tutorials
+    linkLists:
+      - linkListType: tutorial
+        links:
+        - text: Ajax create followup
+          url: tutorials/ajax-create-followup/ajax-create-followup.md
+        - text: ASP.Net appointment with login
+          url: tutorials/aspnet-appointment-with-login/index.md
+        - text: Custom page with standard controls.md
+          url: tutorials/cust-page-std-controls.md/index.md
+        - text: Custom archive control
+          url: tutorials/custom-archive-control/index.md
+        - text: Navigator button opens contact's selected project
+          url: tutorials/navbutton-contacts-selected-project/index.md
+        - text: Sale foreignkeys
+          url: tutorials/sale-foreignkeys/index.md
+        - text: Validate fields
+          url: tutorials/validation/validate-fields.md
+        - text: Validation
+          url: tutorials/validation/validation.md
+  # Card
+  - title: Reference
+    linkLists:
+      - linkListType: reference
+        links:
+        - text: Web GUI .Net API reference
+          url: ../../../data-access/docs/api-reference/webapi/index.md
+  # Card
+  - title: More
+    linkLists:
+      - linkListType: concept
+        links:
+        - text: Globalization
+          url: globalization.md
+        - text: Strategic goals
+          url: strategic-goals.md
+        - text: Technical info
+          url: technical-info.md
+        - text: Master and content pages
+          url: pagebuilder/master-and-content-pages.md
+        - text: Rights system
+          url: pagebuilder/rights-system.md
