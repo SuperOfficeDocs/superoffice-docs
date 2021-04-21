@@ -1,4 +1,5 @@
 items:
 - name: Database
-  href: 00-custom-toc/toc.yml
+  href: 00-custom/toc.yml
+  expanded: true
 

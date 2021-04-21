@@ -3,6 +3,7 @@ items:
   href: ../overview.md
 - name: Getting started
   href: ../getting-started/index.md
+  expanded: true
   items:
   - name: Overview
     href: ../getting-started/overview.md
@@ -38,10 +39,9 @@ items:
   - name: Structure
     href: ../dictionary/structure-method.md
 - name: Travel
-  href: ../travel/index.md
-  items:
-  - name: Transaction log
-    href: ../travel/transaction-log.md
+  href: ../../../superoffice-docs/docs/travel/toc.yml
+  topicHref: ../../../superoffice-docs/docs/travel/overview.md
+  expanded: true
 - name: Reference
   href: ../tables/toc.yml
   topicHref: ../tables/index.md

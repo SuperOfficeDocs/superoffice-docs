@@ -1,0 +1,124 @@
+### YamlMime:Category
+
+title: Database
+summary: Database
+brand: devdocs
+
+metadata:
+  title: Database
+  description: Database
+  so.product: superid
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 03.26.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: "Database"
+      itemType: overview
+      url: getting-started/index.md
+    # Card
+    - title: "Mirroring"
+      itemType: overview
+      url: ../../superoffice-docs/docs/mirroring/index.yml
+    # Card
+    - title: "Table reference"
+      itemType: reference
+      url: tables/index.md
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "Get SuperOffice up and running" # < 60 chars (optional)
+  summary: "Regardless of whether this is your first installation or an upgrade, security is essential."
+  items:
+    # Card
+      - title: Introduction
+        summary: Get an overview of the SuperOffice Database and learn the basic elements that you need to get started.
+        links:
+          - url: getting-started/overview.md
+            itemType: overview
+            text: Overview
+          - url: getting-started/so-view-of-the-world.md
+            itemType: concept
+            text: SuperOffice view of the world
+          - url: getting-started/main-tables.md
+            itemType: concept
+            text: Main tables
+          - url: getting-started/special-tables.md
+            itemType: concept
+            text: Special tables
+          - url: getting-started/naming-conventions.md
+            itemType: concept
+            text: Naming conventions
+          - url: getting-started/table-id-sequence.md
+            itemType: concept
+            text: Table ID sequence
+    # Card
+      - title: Dictionary
+        summary: Continuous Database Development
+        links:
+        - url: dictionary/index.md
+          itemType: concept
+          text: Dictionary
+        - url: dictionary/dictionary-steps.md
+          itemType: concept
+          text: Dictionary steps
+        - url: dictionary/howto-make-db-changes.md
+          itemType: concept
+          text: How to make database changes
+        - url: dictionary/imp-file-format.md
+          itemType: reference
+          text: Imp file format
+    # Card
+      - title: Mirroring
+        summary: ""
+        links:
+        - url: ../../superoffice-docs/docs/mirroring/overview.md
+          itemType: concept
+          text: What is mirroring?
+        - url: ../../superoffice-docs/docs/mirroring/requirements.md
+          itemType: reference
+          text: Requirements
+        - url: ../../superoffice-docs/docs/mirroring/getting-started/index.md
+          itemType: how-to-guide
+          text: Where to begin
+        - url: ../../superoffice-docs/docs/mirroring/force-resync.md
+          itemType: how-to-guide
+          text: How to force resync
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: "" # < 60 chars (optional)
+      summary: "" # < 160 chars (optional)
+      items:
+      # Card
+      - title: Security
+        links:
+        - url: security/index.md
+          text: Intro
+        - url: security/single-database-user.md
+          text: Single database user
+      # Card
+      - title: Travel
+        links:
+        - url: ../../superoffice-docs/docs/travel/overview.md
+          text: Intro
+      # Card
+      - title: Changes
+        links:
+        - url: whats-new/Whats New in 9.8.7717.1401.md
+          text: What's new in 9.8.7717.1401
+        - url: whats-new/changes-81.md
+          text: What's new in 8.1
+        - url: whats-new/changes-75-80.md
+          text: What's new from 7.5 to 8.1
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
