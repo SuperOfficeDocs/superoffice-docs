@@ -1,8 +1,9 @@
 ---
+uid: webhook_receiving_notification
 # Mandatory fields.
-title: webhook_notification
-description: Webhook notification
-author: Tony Yates
+title: Receiving notifications
+description: Webhook notifications
+author: AnthonyYates
 so.date: 04.06.2018
 keywords:
 so.topic: reference             # article, howto, reference, concept, guide
@@ -12,7 +13,7 @@ so.topic: reference             # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Webhook notification
+# Receiving notifications
 
 Now that webhooks have been created and saved in SuperOffice, notifications can be sent out when an event occurs. A webhook notification is referred to as a `WebhookPayload`, and contains the following properties:
 
@@ -67,6 +68,7 @@ Fields names that appear in a notification `Changes` property are the names of t
 ## WebhookPayload headers
 
 | Header name | Description |
+|-------------|-------------|
 | X-SuperOffice-Event | The event name (contact.created, project.changed) |
 | X-SuperOffice-EventId | A GUID that uniquely identifies this event. |
 | X-SuperOffice-Retry | The number of retries this webhook has been tried to be sent. |
@@ -79,11 +81,11 @@ There are 3 attempts to send a webhook payload during a single cycle. If the fir
 The EventID is the same for each attempt, however, if the HTTP request fails to receive a 200 response for 3 attempts, then the event is discarded, and the webhook `consecutive_errors` count is incremented. When the next consecutive attempt is sent, it will be a new EventID.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tables/appointment.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tables/associate.md
-[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tables/contact.md
-[4]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tables/person.md
-[5]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tables/project.md
-[6]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tables/projectmember.md
-[7]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tables/sale.md
-[8]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tables/salestakeholder.md
+[1]: ../../../../database/docs/tables/appointment.md
+[2]: ../../../../database/docs/tables/associate.md
+[3]: ../../../../database/docs/tables/contact.md
+[4]: ../../../../database/docs/tables/person.md
+[5]: ../../../../database/docs/tables/project.md
+[6]: ../../../../database/docs/tables/projectmember.md
+[7]: ../../../../database/docs/tables/sale.md
+[8]: ../../../../database/docs/tables/salestakeholder.md

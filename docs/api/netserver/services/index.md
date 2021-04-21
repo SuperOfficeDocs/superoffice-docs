@@ -29,7 +29,7 @@ A session retrieves data regarding the currently logged-in user and keeps them i
 
 ## Architecture
 
-Each tenant exposes NetServer web services for all clients, including SuperOffice Web, PocketCRM, and partner application clients. The web services are bundled in your Expander Services subscription.
+Each installation and online tenant expose NetServer web services for all clients, including SuperOffice Web, PocketCRM, and partner application clients. The web services are bundled in your Expander Services subscription.
 
 ![netserver-web-service][img1]
 
@@ -45,7 +45,7 @@ Which API is right for your situation? Read [Online Development - What API to Us
 
 ### Web service proxies
 
-For SOAP-based clients, NetServer .NET assemblies use a service agent pattern to work with business entities used by clients to access the service endpoints. These are available as [NuGet packages][4]
+For SOAP-based clients, NetServer .NET assemblies use a service agent pattern to work with business entities used by clients to access the service endpoints. These are available as [NuGet packages][6]
 
 ## Calling web services
 
@@ -63,7 +63,7 @@ Your application is not allowed to place .net assemblies in a tenant web applica
 [2]: carriers/index.md
 [3]: ../../authentication/session-handling/create-session.md
 [4]: ../../authentication/session-handling/suspend-session.md
-[5]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/what-api-to-use.md
+[5]: ../../../../superoffice-docs/docs/apps/getting-started/what-api-to-use.md
 [6]: https://www.nuget.org/packages/SuperOffice.NetServer.Services
 [7]: ../../api-reference/restful/rest/index.md
 [8]: ../../api-reference/restful/agent/index.md

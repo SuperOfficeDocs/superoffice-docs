@@ -16,9 +16,9 @@ so.client: online               # online, web, win, pocket, or mobile
 
 # What is NetServer
 
-This article, the first of a planned two-part series, will cover the basic overview of NetServer API, as well as dive into the different aspects of NetServers service offerings.
+This article is an overview of the NetServer API, as well as dive into the different aspects of NetServers service offerings.
 
-## Introduction
+## Birds-eye view
 
 In a nutshell, NetServer is a layered, factory-driven library that enables developers to conduct Create, Read, Update and Delete (CRUD) operations to the SuperOffice database, and more. Whether deploying a solution to a local SuperOffice database installation or operating in a distributed environment, NetServer exposes an array of application programming interface (API) approaches to facilitate a wide range of solution implementations. Although the terrain is vast and complex, and at first sight, be can somewhat intimidating, the NetServer API tailors to a wide variety of developers by layering the architecture in various intuitive abstractions. In this article, I will guide you through the various regions of NetServer, show you the attractions, as well as point out the areas to avoid.
 
@@ -80,7 +80,11 @@ When DefaultMode is set to "Remote", a significantly different data path is used
 
 ### Code Example
 
+<<<<<<< HEAD:docs/netserver/what-is-netserver.md
 So, what does all of this look like in code? **Figure Three** shows: creating a session with the [SOAP proxies](https://www.nuget.org/packages/SuperOffice.NetServer.Services) to create ContactAgent - to communicate with the Contact web service, using the ContactAgent to create and save a new ContactEntity.
+=======
+So, what does all of this look like in code? **Figure Three** shows: creating a session for credentials, using the AgentFactory to create ContactAgent - to communicate with the Contact web service, using the ContactAgent to create and save a new ContactEntity.
+>>>>>>> misc-changes:docs/netserver/what-is-netserver-part-1.md
 
 using (SuperOffice.SoSession session = SuperOffice.SoSession.Authenticate("user", "password"))
 
@@ -89,23 +93,46 @@ using (SuperOffice.SoSession session = SuperOffice.SoSession.Authenticate("user"
 {
     SuperOffice.Services.ContactAgent contactAgent = new SuperOffice.Services.ContactAgent();
     ContactEntity contactEntity = contactAgent.CreateDefaultContactEntity();
+<<<<<<< HEAD:docs/netserver/what-is-netserver.md
     contactEntity.Name = "Supra Inc.";
+=======
+
+>>>>>>> misc-changes:docs/netserver/what-is-netserver-part-1.md
 // ... populate contact properties
     contactAgent.SaveContactEntity(contactEntity);
 }
 ```
 
+<<<<<<< HEAD:docs/netserver/what-is-netserver.md
 Whether targeting a local or remote database, an SoSession is the object that maintains a user's principal. In the case of remote calls, the SoSession.SoPrincipal.SoIdentity property is used to construct an SoCredentialsHeader object, which gets serialized and passed in the SOAP header for authentication and authorization in the remote web service. See the [Authentication](../authentication/overview.md) section for more information about authentication.
 
 All action operations are facilitated through that Agent derived type.
 
+=======
+Whether operating a local or remote database, an SoSession is the object that maintains a user's credentials. In the case of remote calls, the SoSession.SoPrincipal.SoIdentity property is users to construct an SoCredentialsHeader object, which gets serialized and passed in the SOAP header for authentication and authorization in the remote web service.
+
+All action operations are facilitated through that Agent derived type.
+
+**Limitations:**
+
+There may be more limitations not mentioned here, but I'll note the top four limitations I noticed in the SuperOffice.Services layer.
+
+Although nothing can be done about this one, a major limitation to the service layer is of course performance. Either way you go, local or remote, the data must traverse multiple wrappers. The only way around this one is to have a bigger network pipe.
+
+One more obvious limitation of the SuperOffice.Services layer is the lack of asynchronous methods. Every call made to the web service is synchronous.
+
+>>>>>>> misc-changes:docs/netserver/what-is-netserver-part-1.md
 ### Alternative .NET Solutions
 
 There are two immediate alternatives to using the SuperOffice.Services.dll for .Net developers. The first, and easiest, is to simply add a Service Reference to the specific web service and make calls through that proxy. The second alternative is to use Microsoft's SVCUTIL tool to generate a client proxy for each web service your interesting in, such as Appointment.svc or Contact.svc.
 
 Both alternatives generate method stubs to make asynchronous calls, however, there are still system limitations imposed when making more than two simultaneous calls. To remedy that you'll need to look further into how the .Net framework manages connections. The following configuration snippet allows you to configure your application to allow more than two, the default, simultaneous connections. Otherwise, when there are more than two, they are queued and executed synchronously.
 
+<<<<<<< HEAD:docs/netserver/what-is-netserver.md
 **Example connectionManagement section:**
+=======
+**FExample connectionManagement section:**
+>>>>>>> misc-changes:docs/netserver/what-is-netserver-part-1.md
 
 ```xml
 <configuration>
@@ -129,6 +156,85 @@ Both alternatives generate method stubs to make asynchronous calls, however, the
 
 For Java developers, although no thorough explanation that details how to create a proxy class for Java clients exists here. There is, however, an excellent section explaining just that on Sun's website, see [Creating Web Service Clients][3]. When it comes to authentication and authorization, each web request requires an SoCredentialsHeader element. In that element is a Ticket element. Because the ticket is a composite of data, it can be tricky to generate one correctly. When consuming .NET web services from other platforms, like Java and PHP, there is additional complexity as well. For example, the ticket ay needs to be prepacked with the UTF-8 Byte Order Mark (BOM).
 
+<<<<<<< HEAD:docs/netserver/what-is-netserver.md
+=======
+## Service Layer Authentication
+
+There are two scenarios when calling NetServer web services, and each demands a unique way to authenticate method calls. As implicitly explained above, the two scenarios are: calling NetServer web service through the SuperOffice.Services layer, and when calling the web services directly.
+
+### SuperOffice.Services Layer Authentication
+
+When using SuperOffice.Services.dll, authentication occurs exactly the same as when writing RDB and HDB routines - using the SoSession class. The following code snippet demonstrates how to authenticate using the SoSession class.
+
+```csharp
+SuperOffice.SoSession session = SuperOffice.SoSession.Authenticate("user", "password")
+
+// ... Do Stuff ...
+
+session.Dispose();
+
+// ... or ...
+
+using (SuperOffice.SoSession session = SuperOffice.SoSession.Authenticate("user", "password"))
+
+{
+
+// ... Do Stuff ...
+
+}
+```
+
+SoSession exposes only static (VB Shared) methods to authenticate a user and has four overloads to facilitate multiple scenarios.
+
+SoSession also has a very handy cache-type functionality. The following code shows how, once you have authenticated, you can suspend the current SoSession. Subsequent methods can begin by checking the MySession string for a value, and if not null or empty, submit the value in the continue method to begin more authenticated NetServer method calls.
+
+**Using SoSession Suspend and Continue methods:**
+
+```csharp
+SoSession session = null;
+
+string username = "JR";
+
+string password = "";
+
+privatestring mySession = string.Empty;
+
+public string MySession
+
+{
+
+    get { return mySession; }
+
+    set { mySession = value; }
+
+}
+
+public void SetContactInfo()
+
+{
+
+    if (string.IsNullOrEmpty(MySession))
+
+        session = SoSession.Authenticate(username, password);
+
+    else
+
+        session = SoSession.Continue(MySession);
+
+    ContactAgent ca = new ContactAgent();
+
+    ContactEntity ce = ca.GetContactEntity(3);
+
+    // set properties on the ContactEntity
+
+    ca.SaveContactEntity(ce);
+
+    MySession = session.Suspend();
+
+}
+```
+
+>>>>>>> misc-changes:docs/netserver/what-is-netserver-part-1.md
 ### Direct Web Service Authentication
 
 When calling a NetServer web service directly, first instantiate a proxy object, for example, the service object itself (Contact, Appointment, or Project), then set the SoCredentials property. Finally, make calls against the service to save or retrieve data.
@@ -224,7 +330,11 @@ SoCredentials is an object representation of the SoCredentialsHeader element, wh
 <soap:Envelope>
 ```
 
+<<<<<<< HEAD:docs/netserver/what-is-netserver.md
 Regarding NetServer services authentication, probably the most important thing to do first is to determine how you intend to leverage the web services provided by NetServer. Will you decide to use the [SOAP proxies](https://www.nuget.org/packages/SuperOffice.NetServer.Services) in your project, create your own client proxy or use the [REST](../api-reference/restful/index.md) endpoints and implement all of the functionality yourself? Either way, the service-oriented aspects of NetServer web services provide many means to an end.
+=======
+Regarding NetServer services authentication, probably the most important thing to do first is to determine how you intend to leverage the web services provided by NetServer. Will you decide to use what has already been created for you, and include the SuperOffice.Services.dll in your project, or will you use some other means to create your own client proxy and implement all of the functionality yourself? Either way, the service-oriented aspects of NetServer web services provide many means to an end.
+>>>>>>> misc-changes:docs/netserver/what-is-netserver-part-1.md
 
 ## Relational Database Layer
 
@@ -388,6 +498,7 @@ The following figure displays a summary of performance using the different objec
 
 ![x][img4]
 
+<<<<<<< HEAD:docs/netserver/what-is-netserver.md
 ## Objectified SQL
 
 OSQL is the lowest layer of the NetServer API that provides a programmatic query language for reading and writing data to and from a SuperOffice database. It’s the objectified equivalent to writing database Structured Query Language (SQL) and is the most performing of all NetServer API layers. You can think of it as the SuperOffice Database Interface (SODBIF).
@@ -397,20 +508,40 @@ Read more about OSQL on the [Objectified SQL](osql/index.md) page.
 ## Conclusion
 
 This has been a high-level view of NetServer. As you can see, there is a vast difference between the different approaches. Be aware though that, just because one layer took longer to complete than the other, it does not any one layer should be ignored. Each query type has its place in the development world when used judiciously.
+=======
+## Conclusion
 
-<!-- Referenced links -->
-[1]: what-is-netserver-part-1.md
-[2]: https://msdn.microsoft.com/en-us/library/aa347733(v=vs.110).aspx
-[3]: http://java.sun.com/developer/technicalArticles/J2EE/j2ee_ws/index.html#use
-[4]: what-is-netserver-part-2.md
+This article covered a high-level view of NetServer as a whole, as well as a thorough introduction to the NetServer SuperOffice.Services offerings. It also presented an introduction into Entities and Rows, explaining what about each is unique, what about each is similar, and when it's best to use which. The final article of this series will provide a thorough introduction to OSQL, and talk about when and how objectified SQL is used best.
 
-<!-- Referenced images -->
-[img1]: media/netserverhilevelview.png
-[img2]: media/sm-serviceinterfaces.png
-[img3]: media/servicedatapath-sm.png
+As you can see, there is a vast difference between the different approaches. Be aware though that just because one took longer to complete than the other, it does not mean it should not be used. Each query type has its place in the development world when used judiciously.
 
 <!-- Referenced images -->
 [img1]: media/netserverhilevelview.png
 [img2]: media/persontableinfo.gif
 [img3]: media/personrowsobject.gif
 [img4]: media/contactchart.png
+
+>>>>>>> misc-changes:docs/netserver/what-is-netserver-part-1.md
+
+<!-- Referenced links -->
+[1]: what-is-netserver-part-1.md
+[2]: https://msdn.microsoft.com/en-us/library/aa347733(v=vs.110).aspx
+[3]: http://java.sun.com/developer/technicalArticles/J2EE/j2ee_ws/index.html#use
+<<<<<<< HEAD:docs/netserver/what-is-netserver.md
+[4]: what-is-netserver-part-2.md
+=======
+>>>>>>> misc-changes:docs/netserver/what-is-netserver-part-1.md
+
+<!-- Referenced images -->
+[img1]: media/netserverhilevelview.png
+[img2]: media/sm-serviceinterfaces.png
+[img3]: media/servicedatapath-sm.png
+<<<<<<< HEAD:docs/netserver/what-is-netserver.md
+
+<!-- Referenced images -->
+[img1]: media/netserverhilevelview.png
+[img2]: media/persontableinfo.gif
+[img3]: media/personrowsobject.gif
+[img4]: media/contactchart.png
+=======
+>>>>>>> misc-changes:docs/netserver/what-is-netserver-part-1.md

@@ -1,8 +1,9 @@
 ---
 # Mandatory fields.
-title: webhook_subscription       
+uid: webhook_subscription       
+title: Webhook subscription 
 description: Webhook subscription 
-author: Tony Yates
+author: AnthonyYates
 so.date: 04.06.2018
 keywords: automation
 so.topic: howto                # article, howto, reference, concept, guide
