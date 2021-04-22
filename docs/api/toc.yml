@@ -4,7 +4,7 @@ items:
 - name: Onsite vs. Online Development
   href: getting-started/online-vs-onsite.md
 - name: NetServer fundamentals
-  href: netserver/overview.md
+  href: netserver/index.md
 - name: What is NetServer
   href: netserver/what-is-netserver.md
 - name: Authentication
@@ -100,9 +100,9 @@ items:
     href: netserver/services/carriers/index.md
     items:
     - name: Read-only Carriers
-      href: netserver/services/carriers/read-only-carriers.md
+      href: netserver/services/carriers/index.md
     - name: Entity carriers
-      href: netserver/services/carriers/read-only-carriers.md
+      href: netserver/services/carriers/index.md#entity-carriers
   - name: Service Agents
     href: netserver/services/agents/index.md
   - name: Service Script Engine
@@ -264,7 +264,7 @@ items:
 - name: Search APIs
   items:
   - name: Find Selection API
-    href: netserver/search/find-selection/new-selection/new-selection.md
+    href: netserver/search/find-selection/index.md
   - name: Archive provider fundamentals
     href: netserver/archive-providers/index.md
     items:
@@ -356,7 +356,7 @@ items:
     - name: Sale stakeholder events
       href: netserver/webhooks/reference/sale-stakeholder-events.md
     - name: Test events
-      href: netserver/webhooks/reference/test-events.md
+      href: netserver/webhooks/reference/test-event.md
     - name: Ticket events
       href: netserver/webhooks/reference/ticket-events.md
 - name: Plug-ins

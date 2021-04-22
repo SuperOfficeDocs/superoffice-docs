@@ -85,7 +85,7 @@ Having multiple services that share the same carrier objects is a scenario that 
 
 <!-- Referenced links -->
 [1]: http://www.hightech.ir/SeeSharp/Proxy-Code-Generation-In-Visual-Studio
-[2]: agents/agent-pattern.md
+[2]: agents/index.md
 [3]: ../../authentication/auth-and-soap-calls.md
 [4]: wrapped-or-unwrapped-proxy.md
 

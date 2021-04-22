@@ -36,7 +36,7 @@ The following related problems will not be addressed in this design:
 
 The source of the Typical Searches is the “ACME AS” installation in SOD, Cust21128. In this installation there is a Search Category called “Typical Search”, which is used to mark Dynamic Selections that are to be considered Typical Searches.
 
-![Selection Typical Search](../../media/selection-typical-search.png)
+![Selection Typical Search](../media/selection-typical-search.png)
 
 The intention is that Product Owners will be responsible for adding or changing these Selections in the ACME AS installation. Towards the end of a sprint someone (initially a developer) will then run the TypicalSearchExporter, a command-line utility that creates a file with all the searches. This file becomes part of the distributed fileset. Finally, an import/update function in the fileset updates the individual customer database.
 

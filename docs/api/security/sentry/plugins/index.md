@@ -32,7 +32,7 @@ The diagram shows what happens when your client code causes a database access.
 * [Sentry plugin with an extra (custom) table][3]
 
 <!-- Referenced links -->
-[1]: ../../../osql/index.md
+[1]: ../../../netserver/osql/index.md
 [2]: create-sentry-plugin.md
 [3]: tutorial-sentry-plugin-with-ext-table.md
 

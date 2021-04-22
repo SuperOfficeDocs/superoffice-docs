@@ -75,7 +75,7 @@ Returned columns represent each primary entity and all of their available column
 
 Property definitions are listed later in this section, however, note that the ExtraInfo property when selecting RestrictionColumns specified the field datatype. This is important because not all data types support the same operators. and ExtraInfo is used to obtain what operators are supported for the field.
 
-![Selection Criteria](../../media/selection-search-criteria.png)
+![Selection Criteria](../media/selection-search-criteria.png)
 
 #### JSON query results
 
