@@ -40,8 +40,11 @@ items:
     href: ../dictionary/structure-method.md
 - name: Travel
   href: ../../../superoffice-docs/docs/travel/toc.yml
-  topicHref: ../../../superoffice-docs/docs/travel/overview.md
+  topicHref: ../travel/index.md
   expanded: true
+  items:
+  - name: Transaction log
+    href: ../travel/transaction-log.md
 - name: Reference
   href: ../tables/toc.yml
   topicHref: ../tables/index.md

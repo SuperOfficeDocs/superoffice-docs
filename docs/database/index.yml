@@ -20,13 +20,17 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   items:
     # Card
-    - title: "Database"
+    - title: "Introduction"
       itemType: overview
       url: getting-started/index.md
     # Card
     - title: "Mirroring"
       itemType: overview
       url: ../../superoffice-docs/docs/mirroring/index.yml
+    # Card
+    - title: Test environment
+      itemType: overview
+      url: ../../superoffice-docs/docs/online/test-environment/index.md
     # Card
     - title: "Table reference"
       itemType: reference
@@ -35,8 +39,8 @@ highlightedContent:
 # conceptualContent section (optional)
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-  title: "Get SuperOffice up and running" # < 60 chars (optional)
-  summary: "Regardless of whether this is your first installation or an upgrade, security is essential."
+  title: "" # < 60 chars (optional)
+  summary: ""
   items:
     # Card
       - title: Introduction
@@ -62,7 +66,7 @@ conceptualContent:
             text: Table ID sequence
     # Card
       - title: Dictionary
-        summary: Continuous Database Development
+        summary: Continuous Database Development (CD)
         links:
         - url: dictionary/index.md
           itemType: concept
@@ -78,7 +82,7 @@ conceptualContent:
           text: Imp file format
     # Card
       - title: Mirroring
-        summary: ""
+        summary: "Database mirroring"
         links:
         - url: ../../superoffice-docs/docs/mirroring/overview.md
           itemType: concept
@@ -92,33 +96,75 @@ conceptualContent:
         - url: ../../superoffice-docs/docs/mirroring/force-resync.md
           itemType: how-to-guide
           text: How to force resync
+    # Card
+      - title: Onsite installation
+        summary: "The central database must be running on either Microsoft SQL Server or Oracle before you start the server installer."
+        links:
+        - text: Overview
+          itemType: overview
+          url: ../../superoffice-docs/docs/onsite/install/database/index.md
+        - text: Create MS SQL Server database
+          itemType: how-to-guide
+          url: ../../superoffice-docs/docs/onsite/install/database/create-ms-sql-server-db.md
+        - text: Create Oracle database
+          itemType: how-to-guide
+          url: ../../superoffice-docs/docs/onsite/install/database/create-oracle-db.md
+        - text: SQL server full-text search
+          itemType: concept
+          url: ../../superoffice-docs/docs/onsite/install/database/sql-server-full-text-search.md
+        - text: DBSetup
+          itemType: concept
+          url: ../../superoffice-docs/docs/onsite/install/database/dbsetup-exe.md
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
   sections: 
-    - title: "" # < 60 chars (optional)
+    - title: "You may also be interested in:" # < 60 chars (optional)
       summary: "" # < 160 chars (optional)
       items:
       # Card
       - title: Security
         links:
-        - url: security/index.md
-          text: Intro
-        - url: security/single-database-user.md
-          text: Single database user
+        - text: Overview
+          url: security/index.md
+        - text: Single database user
+          url: security/single-database-user.md
+        - text: Create CRM7 user
+          url: ../../superoffice-docs/docs/onsite/install/database/create-oracle-db.md#creating-the-crm7-user
       # Card
+      - title: Database compatibility
+        links:
+        - text: Overview
+          url: ../../superoffice-docs/docs/onsite/compatibility/database.md
+        - text: MS SQL Server
+          url: ../../superoffice-docs/docs/onsite/compatibility/ms-sql-server.md
+        - text: Oracle
+          url: ../../superoffice-docs/docs/onsite/compatibility/oracle.md
+    # Card
       - title: Travel
         links:
-        - url: ../../superoffice-docs/docs/travel/overview.md
-          text: Intro
+        - text: Intro
+          url: ../../superoffice-docs/docs/travel/overview.md
+        - text: How to activate Travel
+          url: ../../superoffice-docs/docs/travel/activate.md
+        - text: What is an update prototype?
+          url: ../../superoffice-docs/docs/travel/update-prototype.md
+        - text: Travel gateway
+          url: ../../superoffice-docs/docs/travel/travel-gateway/overview.md
+        - text: Area management
+          url: ../../superoffice-docs/docs/travel/area-management/overview.md
+        - text: Satellite
+          url: ../../superoffice-docs/docs/travel/satellite/overview.md
       # Card
       - title: Changes
         links:
-        - url: whats-new/Whats New in 9.8.7717.1401.md
-          text: What's new in 9.8.7717.1401
-        - url: whats-new/changes-81.md
-          text: What's new in 8.1
-        - url: whats-new/changes-75-80.md
-          text: What's new from 7.5 to 8.1
+        - text: What's new in 9.8.7717.1401
+          url: whats-new/Whats New in 9.8.7717.1401.md
+        - text: What's new in 8.1
+          url: whats-new/changes-81.md
+        - text: What's new from 7.5 to 8.1
+          url: whats-new/changes-75-80.md
+        - text: Onsite version history
+          url: ../../superoffice-docs/docs/onsite/version-history.md
   # footer (optional)
-  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://docs.superoffice.com/contribute)."

@@ -3,17 +3,15 @@ title: database
 description: SuperOffice database documentation
 author: {github-id}
 keywords:
-so.topic: generic                # article, howto, reference, concept, guide
+so.topic: generic
 so.date: 05.11.2016
-
-# Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Expander SDK: database documentation
 
-This documentation describes the internal SuperOffice database. It also explains the naming-conventions and how the individual database tables are related to each other.
+This documentation describes the internal SuperOffice database. It also explains the naming conventions and how the individual database tables are related to each other.
 
 After reading this section, you should have a good understanding of the product's database structure and be able to access, edit, and insert new records into the SuperOffice database.
 

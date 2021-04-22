@@ -1,21 +1,18 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: transaction_log       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Transaction log - keeping track of changes # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
-keywords: 
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+title: Transaction log
+uid: transaction_log
+description: Transaction log - keeping track of changes
+author: {github-id}
+so.date:
+keywords: database,travel
+so.topic: concept
+so.envir: onsite
+so.client: win
 ---
 
 # Transaction log - keeping track of changes
 
-SuperOffice has a database-independent synchronization mechanism. It is used by Satellite replication system and by the Travel system.
+SuperOffice has a database-independent synchronization mechanism. It is used by the Satellite replication system and by the Travel system.
 
 All changes to tables are recorded in a special transaction log table with timestamps showing when the change happened.
 
@@ -23,11 +20,11 @@ The replication system can then look at what has changed since the previous sync
 
 ## All changes are logged
 
-When you create/modify/delete a row, the change is logged in the travel transaction log, so that travelers and satellites can be synchronized.
+When you create/modify/delete a row, the change is logged in the travel transaction log so that travelers and satellites can be synchronized.
 
 Let’s take a look at what was stored in the log when we create the project *Client SDK Work*.
 
-First we need the project ID for the project we created:
+First, we need the project ID for the project we created:
 
 ```SQL
 SELECT project_id FROM project WHERE name='Client SDK Work'
@@ -68,9 +65,9 @@ First, we see the project being created (`table=11`, `type=4352`). Then the text
 
 You might also see the user-def table having a record inserted (`table=142`, `type=4352`)
 
-This table is very useful if you want to monitor updates to the database or replicate changes to another system. You create a database trigger to replicate changes. SuperOffice does not use triggers or stored-procs because of its database independence. There is nothing to prevent you from adding your own, as long as they do not affect SuperOffice’s access to the tables. Adding constraints or throwing exceptions at SuperOffice will cause the CRM client to stop working.
+This table is very useful if you want to monitor updates to the database or replicate changes to another system. You create a database trigger to replicate changes. SuperOffice does not use triggers or stored procedures because of its database independence. There is nothing to prevent you from adding your own, as long as they do not affect SuperOffice’s access to the tables. Adding constraints or throwing exceptions at SuperOffice will cause the CRM client to stop working.
 
-When a traveler returns, all his updates are added to the end of the transaction log, but the timestamps are maintained. The timestamps should be kept in UTC/GMT time - same as the registered and updated fields on the records themselves. This makes conflict resolution easier to handle.
+When a traveler returns, all his updates are added to the end of the transaction log, but the timestamps are maintained. The timestamps should be kept in UTC/GMT - the same as the registered and updated fields on the records themselves. This makes conflict resolution easier to handle.
 
 If there are two concurrent updates, then the last update wins. This is rarely a problem in practice since people tend to "own" a subset of the data that only they modify.
 

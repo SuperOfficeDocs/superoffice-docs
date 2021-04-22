@@ -11,11 +11,11 @@ SuperOffice 8.1 changed the dictionary structure to allow more flexible evolutio
 
 ## Introduction
 
-Long gone are the days when software is built using a fixed aterfall approach of establishing product requirements, designing software architecture, coding an implementation, verifying results and finally entering the maintenance mode.
+Long gone are the days when software is built using a fixed waterfall approach of establishing product requirements, designing software architecture, coding an implementation, verifying results, and finally entering the maintenance mode.
 
 Nearly all software projects these days have adopted agile methodologies that take an iterative approach; where there are no permanent requirements and instead the incremental evolutionary product lifecycle is the standard.
 
-Unlike most software applications upgrade paths, which simply replace existing application files, deploying database structural changes is hard, because the data in the tables cannot be thrown away when a new structure is deployed. Harder still, are changes that require both structural and data changes. Another problem is maintaining the change logs of specific software versions and associated database versions. There is no easy way of documenting which software versions depend on which database schema version.
+Unlike most software applications upgrade paths, which simply replace existing application files, deploying database structural changes is hard, because the data in the tables cannot be thrown away when a new structure is deployed. Harder still, are changes that require both structural and data changes. Another problem is maintaining the change-logs of specific software versions and associated database versions. There is no easy way of documenting which software versions depend on which database schema version.
 
 Therefore, based on principles set forth by *evolutionary database design*, **Continuous Database** (CD) is the latest SuperOffice process for instrumenting incremental changes toward the SuperOffice database that enables changes in a continuous way.
 

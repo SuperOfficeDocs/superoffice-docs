@@ -1,24 +1,24 @@
 ---
-title: travel       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: travel
+description: Travel
+author: {github-id}
 keywords:
 ---
 
 # About using Travel function or Corporate version
 
-SuperOffice makes it possible to update databases in different locations using transaction logs. This functionality is sold under the names Travel, Satellite and Area Management.
+SuperOffice makes it possible to update databases in different locations using transaction logs. This functionality is sold under the names Travel, Satellite,and Area Management.
 
 The logs are updated when a SuperOffice user changes data. They will not be automatically updated by the database when inserting, updating, or deleting from outside SuperOffice.
 
 > [!NOTE]
-> They are updated when data manipulation is done through SuperCOM, SuperOffice OleDB provider, or NetServer to SuperOffice. We therefore recommend that you use our tools to make updates to the database.
+> They are updated when data manipulation is done through SuperCOM, SuperOffice OleDB provider, or NetServer to SuperOffice. We, therefore, recommend that you use our tools to make updates to the database.
 
 ## Purpose of the log
 
 The table `traveltransactionlog` (`crm7.traveltransactionlog` in ODBC databases, also referred to as the "log") is used to keep track of all updates, that is, insertions, deletions, and changes to all data records in SuperOffice.  It is used by the update functions in Travel (local update, async update, central update) and Satellite (up, down files) to determine what to send.
 
-The log contains one record for each change.  The record does not actually contain the data that was changed, only a reference to the table and record id of the changed record.
+The log contains one record for each change. The record does not actually contain the data that was changed, only a reference to the table and record id of the changed record.
 
 ## Prefix on travel
 
