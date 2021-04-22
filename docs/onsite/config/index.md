@@ -104,7 +104,7 @@ The following steps are recommended to increase security:
 [9]: ../../document/ribbons/enable-debug.md
 [10]: ../../service/log-files.md
 [11]: service-config.md
-[12]: ../../service/debug-automated-tasks.md
+[12]: ../../service/automated-tasks/index.md
 
 <!-- Referenced images -->
 [1]: media/open-file-location.jpg

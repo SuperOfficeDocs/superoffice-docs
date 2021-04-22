@@ -12,10 +12,13 @@ items:
   - name: Upgrade
     href: upgrade/index.md
   - name: Attachments
+    href: attachments/index.md
     expanded: true
     items:
-    - name: Location
-      href: attachments/location.md
+    - name: Update location
+      href: attachments/update-location.md
+    - name: Split locations
+      href: attachments/split-location.md
   - name: Mailboxes
     items:
     - name: Migrate
@@ -28,8 +31,23 @@ items:
       href: ../reply-templates/system-templates.md
   - name: Report parameters
     href: reports/parameters.md
-  - name: Debug automated tasks
-    href: debug-automated-tasks.md
+  - name: Automated tasks
+    href: automated-tasks/index.md
+    items:
+    - name: dbi
+      href: automated-tasks/dbi.md
+    - name: ejournalCron
+      href: automated-tasks/ejournalcron.md
+    - name: ejOutbox
+      href: automated-tasks/ejoutbox.md
+    - name: ejSender
+      href: automated-tasks/ejsender.md
+    - name: ejTermSetup
+      href: automated-tasks/ejtermsetup.md
+    - name: importMail
+      href: automated-tasks/importmail.md
+    - name: upgrade
+      href: automated-tasks/upgrade.md
   - name: Config
     items:
     - name: FAQ

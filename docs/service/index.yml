@@ -42,9 +42,12 @@ additionalContent:
       # Card
       - title: Attachments
         links:
-          - url: attachments/location.md
-            text: Location of
-      
+          - text: Overview
+            url: attachments/index.md
+          - text: Update location
+            url: attachments/update-location.md
+          - text: Split location
+            url: attachments/split-location.md
       # Card
       - title: Reply templates
         links:
@@ -84,10 +87,28 @@ additionalContent:
         - url: reports/parameters.md
           text: Parameters
     # Card
-      - title: Troubleshooting
+      - title: Automated tasks
         links:
-        - url: debug-automated-tasks.md
-          text: Debug automated tasks
-
+        - text: dbi
+          url: automated-tasks/dbi.md
+        - text: ejournalCron
+          url: automated-tasks/ejournalcron.md
+        - text: ejOutbox
+          url: automated-tasks/ejoutbox.md
+        - text: ejSender
+          url: automated-tasks/ejsender.md
+        - text: ejTermSetup
+          url: automated-tasks/ejtermsetup.md
+        - text: importMail
+          url: automated-tasks/importmail.md
+        - text: upgrade
+          url: automated-tasks/upgrade.md
+    # Card
+      - title: More
+        links:
+        - text: cURL mail
+          url: ../email/curl.md
+        - text: Service log files
+          url: log-files.md
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
