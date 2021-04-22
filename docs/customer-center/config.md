@@ -19,9 +19,9 @@ The following parser variables are common for all the templates:
 
 "AuthProgramAll" contains the URL used for accessing this page, with the session key added
 
-"AuthProgramUnderscore" contains the path to customer.exe with the session key and any cgi variables starting with underscore
+"AuthProgramUnderscore" contains the path to customer.exe with the session key and any CGI variables starting with an underscore
 
-"AuthProgram" contains the same as AuthProgramUnderscore, except that it does not pay attention to cgi variables with underscore
+"AuthProgram" contains the same as AuthProgramUnderscore, except that it does not pay attention to CGI variables with an underscore
 
 "CustSessionKey" contains the session key
 
@@ -31,13 +31,13 @@ The following parser variables are common for all the templates:
 
 "faq" contains true of the FAQ module is available
 
-"WwwRoot" contains the subdirectory which Customer Service might be installed to. Normally this will just be
+"WwwRoot" contains the subdirectory that Customer Service might be installed to. Normally this will just be
 
 "/", but if installed in a subdirectory you must pay attention to this when referencing for example the graphic files.
 
 "GfxRoot" contains the virtual path to the graphic files
 
-"GfxPath" contains the virtual path to the language dependent graphic files. This variable pays attention to the language of the customer
+"GfxPath" contains the virtual path to the language-dependent graphic files. This variable pays attention to the language of the customer
 
 "config.browser" contains the browser type used
 
@@ -71,13 +71,13 @@ This is the template used when a customer changes their information. The followi
 
 In addition, the following parser variables are available:
 
-"cellphone" contains the value in the cellphone field
+"cellphone" contains the value in the `cellphone` field
 
-"phone" contains the value in the phone field
+"phone" contains the value in the `phone` field
 
-"lastname" contains the value in the lastname field
+"lastname" contains the value in the `lastname` field
 
-"firstname" contains the value in the firstname field
+"firstname" contains the value in the `firstname` field
 
 ## doneRegister.html
 
@@ -130,25 +130,25 @@ This template is used to display one single request.
 * Customer
 * Ticket
 
-"message.attachmentsAlt" is an array containing complete HTML code for displaying all attachments for a single message. That means that each element in the array contains all the attachments for this message. Attachment will be displayed in a new window if clicked.
+"message.attachmentsAlt" is an array containing complete HTML code for displaying all attachments for a single message. That means that each element in the array contains all the attachments for this message. The attachment will be displayed in a new window if clicked.
 
 "message.attachments" contains the same as the above, except that the attachment will be opened in the same window.
 
 ## listTickets.html
 
-This template is used to list all the request which the customer has access to.
+This template is used to list all the requests that the customer has access to.
 
 * Ticket
 
-In addition the following parser variables are available:
+In addition, the following parser variables are available:
 
-"pageNumbers" is an array which contains the number of each page. This is convenient to use in conjunction with %ROWSTART%%ROWEND% to print the page selector.
+"pageNumbers" is an array that contains the number of each page. This is convenient to use in conjunction with %ROWSTART%%ROWEND% to print the page selector.
 
-"nextPage" indicates that there exist a next page. If this parser variable is missing, there is no next page. The value of the variable is "true" when there is a next page
+"nextPage" indicates that there is a next page. If this parser variable is missing, there is no next page. The value of the variable is "true" when there is a next page
 
 "prevPage", same as above, but in the opposite direction
 
-"direction" will contain the sort order. When clicking a column header you can sort on this column. Clicking again will reverse the order. "direction" will contain "asc" or "desc" depending on the direction, or empty if no direction is selected. See also "orderBy" bellow.
+"direction" will contain the sort order. When clicking a column header you can sort on this column. Clicking again will reverse the order. "direction" will contain "asc" or "desc" depending on the direction, or empty if no direction is selected. See also "orderBy" below.
 
 "searchText" will contain the text searched for. Will be empty if no search has been done.
 
@@ -156,11 +156,11 @@ In addition the following parser variables are available:
 
 This should be set in the URL for this page, and the parser variable "filterBy" will contain this value so you can use them in other URLs. Legal values are "open", "own" and "closed".
 
-"orderBy" will contain the "order by" clauses used, so you can preserve the order in other URLs. The value should be set in the URL to make the customer care center use the order for the request list. The field should be separated with comma. Legal values are "status", "id", "title", "created", "category",
+"orderBy" will contain the "order by" clauses used, so you can preserve the order in other URLs. The value should be set in the URL to make the customer care center use the order for the request list. The field should be separated with a comma. Legal values are "status", "id", "title", "created", "category",
 
-"priority". At the end of the list you should append the direction.
+"priority". At the end of the list, you should append the direction.
 
-"pageLength" will contain the number of request in each page. This should be set in the URL, and the parser variable will contain the chosen length.
+"pageLength" will contain the number of requests in each page. This should be set in the URL, and the parser variable will contain the chosen length.
 
 "numPages" contains the total number of pages.
 
@@ -205,7 +205,7 @@ This template contains the new request screen. The following parser variables ar
 
 "category.id" contains the id of the external categories (array)
 
-"category.parentId" contains the partent id of the external categories (array)
+"category.parentId" contains the parent ID of the external categories (array)
 
 "category.selected" contains "selected" for those elements in the category array that are selected
 
@@ -219,11 +219,11 @@ This template contains the new request screen. The following parser variables ar
 
 "mailCc" contains the value of the CC field (if existing)
 
-"attachments" contains the id of the attachments
+"attachments" contains the ID of the attachments
 
 ## noAccess.html
 
-This template is displayed if trying to access a screen that the customer do not have access for (for example trying to view a request that he/she does not own).
+This template is displayed if trying to access a screen that the customer does not have access to (for example trying to view a request that he/she does not own).
 
 The following parser variables are available:
 
@@ -269,11 +269,11 @@ This template is displayed when a customer has posted a new request. The followi
 
 "category.id" contains the id of the external categories (array)
 
-"category.parentId" contains the partent id of the external categories (array)
+"category.parentId" contains the parent ID of the external categories (array)
 
 "category.selected" contains "selected" for those elements in the category array that are selected
 
-"ticket.id" contains the id of the new request
+"ticket.id" contains the ID of the new request
 
 "message" contains the message text of the new request
 
@@ -304,13 +304,13 @@ This template is displayed when viewing a FAQ category. The following parser var
 
 "entry.id" contains the id of the entry (array)
 
-"category.description" contains the description of the next level of sub categories (array)
+"category.description" contains the description of the next level of sub-categories (array)
 
-"category.name" contains the name of the next level of sub categories (array)
+"category.name" contains the name of the next level of sub-categories (array)
 
-"category.id" contains the id of the next level of sub categories (array)
+"category.id" contains the id of the next level of sub-categories (array)
 
-"depth" indicates which category depth you are on, where top category is 0
+"depth" indicates which category depth you are on, where the top category is 0
 
 "categoryId" contains the id of the current category
 
@@ -329,7 +329,7 @@ This template is displayed when viewing a FAQ entry. The following parser variab
 
 "entry.questionParsed" contains a parsed version of the entry. This is only available if the system is
 
-configured to allow parsing of FAQ. This is controlled in the Registry table by setting "value" to 0 where reg\_id= 64.
+configured to allow parsing of a FAQ. This is controlled in the Registry table by setting "value" to 0 where reg\_id= 64.
 
 "entry.answer" contains the answer part of the entry
 
@@ -351,7 +351,7 @@ This template is used to display entries and categories that match a search done
 
 "searchString" contains the text that the customer searched for
 
-"category.score" is a number between 0 and 100, indicating how good match this is (array)
+"category.score" is a number between 0 and 100, indicating how good a match this is (array)
 
 "category.description" contains the description of the category (array)
 
@@ -361,7 +361,7 @@ This template is used to display entries and categories that match a search done
 
 "category.id" contains the id of the category (array)
 
-"entry.score" is a number between 0 and 100, indicating how good match this is (array)
+"entry.score" is a number between 0 and 100, indicating how good a match this is (array)
 
 "entry.question" contains the question part of the entry (array)
 

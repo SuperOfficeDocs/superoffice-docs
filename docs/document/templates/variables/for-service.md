@@ -1,13 +1,13 @@
 ---
-title: variables_for_service
+title: Variables for service
+uid: variables_for_service
 description: Variables for SuperOffice Service
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: reference        # article, howto, reference, concept, guide
+so.topic: reference
 so.date: 03.23.2021
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir: 
+# so.client: 
 ---
 
 # Variables for SuperOffice Service
