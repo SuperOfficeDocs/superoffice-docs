@@ -86,7 +86,7 @@ conceptualContent:
           text: SCIM
         - text: "Authentication"
           itemType: overview
-          url: ../authentication/index.yml
+          url: ../../../data-access/docs/authentication/index.yml
         - text: Reset password
           itemType: how-to-guide
           url: ../identity-management/user/reset-password.md
