@@ -1,26 +1,18 @@
 ---
-title: Transaction log
-uid: transaction_log
-description: Transaction log - keeping track of changes
+title: Query the transaction log
+uid: query_transaction_log
+description: How to query the transaction log - keeping track of changes
 author: {github-id}
 so.date:
 keywords: database,travel
-so.topic: concept
+so.topic: howto
 so.envir: onsite
 so.client: win
 ---
 
-# Transaction log - keeping track of changes
+# All changes are logged
 
-SuperOffice has a database-independent synchronization mechanism. It is used by the Satellite replication system and by the Travel system.
-
-All changes to tables are recorded in a special transaction log table with timestamps showing when the change happened.
-
-The replication system can then look at what has changed since the previous sync and copy the affected records to the Satellite or Remote Travel system.
-
-## All changes are logged
-
-When you create/modify/delete a row, the change is logged in the travel transaction log so that travelers and satellites can be synchronized.
+When you create/modify/delete a row, the change is logged in the [travel transaction log][2] so that travelers and satellites can be synchronized.
 
 Let’s take a look at what was stored in the log when we create the project *Client SDK Work*.
 
@@ -83,6 +75,7 @@ When the user leaves on travel, his transactions are logged in a separate range 
 
 <!-- Referenced links -->
 [1]: ../tables/traveltransactionlog.md
+[2]: index.md
 
 <!-- Referenced images -->
 [img1]: media/transactionlog.png

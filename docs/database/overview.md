@@ -37,12 +37,15 @@ It is also important to know basic SQL.
 
 ## Topics
 
-* [Data dictionary](dictionary/index.md)
+* [Data dictionary][3]
 * [Getting started][2]
-* [Security](security/index.md)
-* [Travel](travel/index.md)
+* [Security][4]
+* [Travel transaction log][5]
 * [What's new][1]
 
 <!-- Referenced links -->
 [1]: whats-new/index.md
 [2]: getting-started/index.md
+[3]: dictionary/index.md
+[4]: security/index.md
+[5]: transaction-log/index.md
