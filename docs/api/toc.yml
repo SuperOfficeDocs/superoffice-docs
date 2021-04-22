@@ -366,7 +366,15 @@ items:
   - name: ERP Connector
     href: netserver/erp-connectors/index.md
     items:
-    - name: Architecture  
+    - name: Terminology
+      href: netserver/erp-connectors/terminology.md
+    - name: ERP Sync Engine
+      href: netserver/erp-connectors/sync-operation.md
+    - name: Automatic field mapping
+      href: netserver/erp-connectors/automatic-field-mapping.md
+    - name: ERP Sync client
+      href: netserver/erp-connectors/client-gui.md
+    - name: Architecture
       href: netserver/erp-connectors/architecture/index.md
       items:
       - name: Sync Service
@@ -377,17 +385,23 @@ items:
         href: netserver/erp-connectors/architecture/wcf-host.md
       - name: Multi-hosting
         href: netserver/erp-connectors/architecture/wcf.md#multi-hosting
-    - name: Setting up ERP Sync
+    - name: Working with ERP Sync
       href: netserver/erp-connectors/getting-started.md
       items:
       - name: Configure ERP Sync connection
         href: netserver/erp-connectors/setup-connection.md
       - name: Show fields in GUI and search
-        href: netserver/erp-connectors/search-and-gui/show-fields.md
+        href: netserver/erp-connectors/search/show-fields.md
       - name: Setup ERP field mapping
         href: netserver/erp-connectors/setup-mapping.md
       - name: Setup default values
         href: netserver/erp-connectors/setup-defaults.md
+      - name: Setup field ranking
+        href: netserver/erp-connectors/ranking-fields.md
+      - name: Importing from ERP Sync
+        href: netserver/erp-connectors/import.md
+      - name: Company walk-through
+        href: netserver/erp-connectors/tutorial.md
     - name: API
       href: netserver/erp-connectors/api/index.md
       items:
@@ -401,7 +415,16 @@ items:
         href: netserver/erp-connectors/api/pluginresponseinfo.md
       - name: Field value formats and conventions
         href: netserver/erp-connectors/api/field-value-formats-and-conventions.md
-  
+    - name: How-to search for actors
+      href: netserver/erp-connectors/search/index.md
+      items:
+      - name: Search operators
+        href: netserver/erp-connectors/search/search-operators.md
+    - name: Helper classes
+      href: netserver/erp-connectors/helpers.md
+    - name: Sample ERP Sync connector
+      href: netserver/erp-connectors/sample.md
+    
   - name: Sentry plug-in
     href: security/sentry/plugins/index.md
     items:

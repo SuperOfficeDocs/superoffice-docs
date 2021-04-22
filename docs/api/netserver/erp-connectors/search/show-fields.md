@@ -33,23 +33,9 @@ Example of setting up mapping for the available ERP fields. Available actor type
 
 The **Show In Search** checkbox tells us which ERP Actor properties to display in the **Advanced Search** dialog in SuperOffice.
 
-## Ranking fields
-
-![08][img3]
-
-This will affect the order fields are displayed in search results and/or the SuperOffice GUI (for "Show In ERP Tab" fields).
-
-![09][img4]
-
-Example of a company card where three different fields are marked with "Show In ERP Tab"
-
-The order of the fields as shown in the **Ranking** dialog in SuperOffice.
-
 <!-- Referenced links -->
 [1]: ../set-up-mapping.md
 
 <!-- Referenced images -->
 [img1]: ../media/image007.png
 [img2]: media/image002.png
-[img3]: media/image008.jpg
-[img4]: media/image009.png

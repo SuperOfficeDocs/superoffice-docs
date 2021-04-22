@@ -1,7 +1,8 @@
 ---
 # Mandatory fields.
-title: erp_connector_helpers       # (Required) Very important for SEO.
-description: ERP connector Helper methods and classes # (Required) Important for SEO.
+uid: erp_connector_helpers
+title: Helper classes        # (Required) Very important for SEO.
+description: ERP connector Helper classes # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016
 keywords:
@@ -12,7 +13,7 @@ so.topic: concept     # article, howto, reference, concept, guide
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Helper methods and classes
+# Helper classes
 
 By referencing `SuperOffice.ErpSync.Contract` in your sync connector, you can take advantage of various helper classes and methods to make creating a connector a bit easier.
 

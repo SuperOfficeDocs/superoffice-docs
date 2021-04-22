@@ -217,7 +217,7 @@ We do not delete information from the ERP system, just because we have stopped s
 
 <!-- Referenced links -->
 [1]: set-up-connection.md
-[2]: import-from-erp.md
+[2]: import.md
 
 <!-- Referenced images -->
 [img1]: media/connecting.png

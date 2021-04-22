@@ -1,6 +1,7 @@
 ---
 # Mandatory fields.
-title: erp_import       # (Required) Very important for SEO.
+uid: import_from_erp       # (Required) Very important for SEO.
+title: Importing from ERP       # (Required) Very important for SEO.
 description: Importing from ERP # (Required) Important for SEO.
 author: {github-id}             # Your GitHub alias.
 so.date: 05.11.2016

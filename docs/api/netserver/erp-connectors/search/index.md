@@ -14,7 +14,7 @@ so.topic: concept     # article, howto, reference, concept, guide
 
 # Search in ERP
 
-There are 2 ways of searching for ERP actors:
+There are 2 ways to search for ERP actors:
 
 * A *simple search* that is driven by a search string and returns a set of fields
 * A *criteria-driven search* where the user is present with a **Find Dialog** where various criteria – offered by the connector – can be filled in
