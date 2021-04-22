@@ -384,7 +384,7 @@ items:
       - name: WCF Host
         href: netserver/erp-connectors/architecture/wcf-host.md
       - name: Multi-hosting
-        href: netserver/erp-connectors/architecture/wcf.md#multi-hosting
+        href: netserver/erp-connectors/architecture/wcf-host.md#multi-hosting
     - name: Working with ERP Sync
       href: netserver/erp-connectors/getting-started.md
       items:
