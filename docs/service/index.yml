@@ -28,10 +28,114 @@ highlightedContent:
       itemType: how-to-guide
       url: upgrade/index.md
     # Card
+    - title: "Migrate"
+      itemType: how-to-guide
+      url: ../online/migrate/index.md
+    # Card
     - title: "Customer center"
       itemType: overview
       url: ../customer-center/index.yml
 
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+    # Card
+    - title: Reply templates
+      summary: ""
+      links:
+      - text: Intro
+        itemType: concept
+        url: ../reply-templates/index.md
+      - text: Standard fields
+        itemType: reference
+        url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics%2FTemplate_variables.html
+      - text: System templates
+        itemType: concept
+        url: ../reply-templates/system-templates.md
+      - text: Create new template
+        itemType: how-to-guide
+        url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics%2Fdocument.replyTemplates.newReplyTemplate.html
+      - text: Using CRMScript
+        itemType: how-to-guide
+        url: ../../../crmscript/docs/parser-and-templates/reply-template.md
+      - text: CRMScript template engine
+        itemType: concept
+        url: ../../../crmscript/docs/parser-and-templates/parser.md
+      - text: Database table
+        itemType: reference
+        url: ../../../database/docs/tables/reply-template.md
+    # Card
+    - title: Customer center
+      summary: ""
+      links:
+      - text: What is the customer center?
+        itemType: concept
+        url: ../customer-center/overview.md
+      - text: Config
+        itemType: reference
+        url: ../customer-center/config.md
+      - text: Templates
+        itemType: reference
+        url: ../customer-center/  templates.md
+    # Card
+    - title: Automated tasks
+      summary: ""
+      links:
+      - text: Intro
+        itemType: concept
+        url: automated-tasks/index.md
+      - text: dbi
+        itemType: reference
+        url: automated-tasks/dbi.md
+      - text: ejournalCron
+        itemType: reference
+        url: automated-tasks/ejournalcron.md
+      - text: ejOutbox
+        itemType: reference
+        url: automated-tasks/ejoutbox.md
+      - text: ejSender
+        itemType: reference
+        url: automated-tasks/ejsender.md
+      - text: ejTermSetup
+        itemType: reference
+        url: automated-tasks/ejtermsetup.md
+      - text: importMail
+        itemType: reference
+        url: automated-tasks/importmail.md
+      - text: upgrade
+        itemType: reference
+        url: automated-tasks/upgrade.md
+    # Card
+    - title: SMS plugins
+      summary: ""
+      links:
+      - url: sms/index.md
+        itemType: concept
+        text: Intro
+      - url: sms/cm.md
+        itemType: how-to-guide
+        text: CM
+      - url: sms/compaya.md
+        itemType: how-to-guide
+        text: Compaya
+      - url: sms/intelecom.md
+        itemType: how-to-guide
+        text: Intelecom
+      - url: sms/pswincom.md
+        itemType: how-to-guide
+        text: PSWinCom
+      - url: sms/smsteknik.md
+        itemType: how-to-guide
+        text: SMSTeknik
+      - url: sms/twilio.md
+        itemType: how-to-guide
+        text: Twilio
+      - url: sms/txtlocal.md
+        itemType: how-to-guide
+        text: TxtLocal
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
@@ -49,61 +153,18 @@ additionalContent:
           - text: Split location
             url: attachments/split-location.md
       # Card
-      - title: Reply templates
-        links:
-        - url: ../reply-templates/index.md
-          text: Intro
-        - url: ../reply-templates/system-templates.md
-          text: System templates
-      # Card
-      - title: SMS plugins
-        links:
-        - url: sms/index.md
-          text: Intro
-        - url: sms/cm.md
-          text: CM
-        - url: sms/compaya.md
-          text: Compaya
-        - url: sms/intelecom.md
-          text: Intelecom
-        - url: sms/pswincom.md
-          text: PSWinCom
-        - url: sms/smsteknik.md
-          text: SMSTeknik
-        - url: sms/twilio.md
-          text: Twilio
-        - url: sms/txtlocal.md
-          text: TxtLocal
-      # Card
-      - title: Integration
+      - title: Integrations
         links:
         - url: set-up-facebook-integration.md
           text: Set up Facebook integration
         - url: ../marketing/forms/recaptcha.md
           text: Google reCaptcha in forms
-    # Card
+      # Card
       - title: Reports
         links:
         - url: reports/parameters.md
           text: Parameters
-    # Card
-      - title: Automated tasks
-        links:
-        - text: dbi
-          url: automated-tasks/dbi.md
-        - text: ejournalCron
-          url: automated-tasks/ejournalcron.md
-        - text: ejOutbox
-          url: automated-tasks/ejoutbox.md
-        - text: ejSender
-          url: automated-tasks/ejsender.md
-        - text: ejTermSetup
-          url: automated-tasks/ejtermsetup.md
-        - text: importMail
-          url: automated-tasks/importmail.md
-        - text: upgrade
-          url: automated-tasks/upgrade.md
-    # Card
+      # Card
       - title: More
         links:
         - text: cURL mail
@@ -111,4 +172,4 @@ additionalContent:
         - text: Service log files
           url: log-files.md
   # footer (optional)
-  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://docs.superoffice.com/contribute)."

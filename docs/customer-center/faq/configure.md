@@ -1,31 +1,24 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: config_faq # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Configure FAQ entries # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id} # Your GitHub alias.
+title: config_faq
+description: Configure FAQ entries
+author: {github-id}
 keywords:
-so.topic: howto # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir: # cloud or onsite
-# so.client: # online, web, win, pocket, or mobile
+so.topic: howto
 ---
 
 # Configure FAQ entries
 
-To enable the comment field inside the Customer Center for your FAQ entries, you need to change REGISTRY table in SuperOffice CRM database.
+To enable the comment field inside the Customer Center for your FAQ entries, you need to change the REGISTRY table in the SuperOffice CRM database.
 
 > [!NOTE]
-> It is not recommend make changes directly on database without a backup available. If you make a mistake, this backup must be restored.
+> It is not recommended to make changes directly on the database without a backup available. If you make a mistake, this backup must be restored.
 
 To enable comments:
 
 1. Run the following query first: `select * from crm7.registry where reg_id in (198, 199)`
 If nothing is returned by this query, first go to your Customer center and FAQs and the registry keys will be populated.
 
-![x][img1]
+    ![x][img1]
 
 2. Now you can change comment field access. Below are possible options:
     * 0 = none
@@ -39,11 +32,11 @@ If nothing is returned by this query, first go to your Customer center and FAQs 
 > [!NOTE]
 > If you use SuperOffice Online you need to contact [support][1].
 
-## More access controll on FAQ entries
+## More access control on FAQ entries
 
-By default, you may specify that a FAQ or a folder of FAQs may be accessed by to everyone, to registered customers, to internal users or private.
+By default, you may specify that a FAQ or a folder of FAQs may be accessed by everyone, registered customers, internal users, or private.
 
-You may also control access to a FAQ folder by adding a small script that is evaluated in the "Access Control" under Setup FAQ folder. This script has access to all data for the logged in contact, and contact person's name and must return the value "1" in order for access to be granted to the folder.
+You may also control access to a FAQ folder by adding a small script that is evaluated in the "Access Control" under Setup FAQ folder. This script has access to all data for the logged-in contact, and contact person's name and must return the value "1" for access to be granted to the folder.
 
 **To return a value in the scripting language as used syntax:**
 
@@ -89,5 +82,5 @@ For example, a boolean field is created on the customer, called `x_access`. When
 [1]: http://support.superoffice.com/
 
 <!-- Referenced images -->
-[img1]: media/reg_id198_199.png
+[img1]: media/regid-198-199.png
 [img2]: media/comments.png

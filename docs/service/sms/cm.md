@@ -1,13 +1,10 @@
 ---
-title: cm_sms_plugin
+title: CM
+uid: cm_sms_plugin
 description: Configuration of CM NetServer SMS plugin
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: howto                 # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
 ---
 
 # Configuration of CM NetServer SMS Plugin

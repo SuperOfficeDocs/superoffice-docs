@@ -1,16 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: intelecom_sms_plugin       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Intelecom NetServer SMS plugin # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Intelecom
+uid: intelecom_sms_plugin
+description: Intelecom NetServer SMS plugin
+author: {github-id}
 keywords:
-so.topic: howto                 # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
 ---
 
 # Intelecom
@@ -42,14 +36,14 @@ From version 7.1 SR1 of NetServer, the SupeOffice.Messaging.Intelecom.dll is inc
 Under configuration, add and replace serviceId, username and password with the information you have from Intelecom:
 
 ```xml
- <appSettings>
-   <add key="intele_serviceId" value="" />
-   <add key="intele_username" value="" />
-   <add key="intele_password" value="" />
-   <add key="intele_ClientSettingsProvider.ServiceUri" value="" />
-   <add key="intele_NoSmsSession" value="" />
-   <add key="intele_noStatusReport" value="" />
- </appSettings>
+<appSettings>
+  <add key="intele_serviceId" value="" />
+  <add key="intele_username" value="" />
+  <add key="intele_password" value="" />
+  <add key="intele_ClientSettingsProvider.ServiceUri" value="" />
+  <add key="intele_NoSmsSession" value="" />
+  <add key="intele_noStatusReport" value="" />
+</appSettings>
 ```
 
 Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
@@ -70,13 +64,13 @@ Under configuration -> system.serviceModel -> bindings, add:
 
 ```xml
 <basicHttpBinding>
-  <binding name="SMSGatewaySoapBinding" closeTimeout="00:01:00" openTimeout="00:01:00" receiveTimeout="00:10:00" sendTimeout="00:01:00" allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard" maxBufferSize="65536" maxBufferPoolSize="524288" maxReceivedMessageSize="65536" messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">  
-    <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384" maxBytesPerRead="4096" maxNameTableCharCount="16384" />  
-    <security mode="None">  
-      <transport clientCredentialType="None" proxyCredentialType="None" realm="" />
-      <message clientCredentialType="UserName" algorithmSuite="Default" />
-    </security>
-  </binding>
+  <binding name="SMSGatewaySoapBinding" closeTimeout="00:01:00" openTimeout="00:01:00" receiveTimeout="00:10:00" sendTimeout="00:01:00" allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard" maxBufferSize="65536" maxBufferPoolSize="524288" maxReceivedMessageSize="65536" messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">  
+    <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384" maxBytesPerRead="4096" maxNameTableCharCount="16384" />  
+    <security mode="None">  
+      <transport clientCredentialType="None" proxyCredentialType="None" realm="" />
+      <message clientCredentialType="UserName" algorithmSuite="Default" />
+    </security>
+  </binding>
 </basicHttpBinding>
 ```
 

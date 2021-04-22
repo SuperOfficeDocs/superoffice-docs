@@ -1,8 +1,10 @@
 ---
-title: reply_templates       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: Reply templates
+uid: reply_templates
+description: Reply templates in SuperOffice Service
+author: {github-id}
 keywords:
+so.topic: concept
 ---
 
 # Service reply templates
@@ -47,18 +49,18 @@ Each incoming email box can be configured to send an automatic answer back to th
 * Ticket
 * Config
 
-In addition, you have a parser variable called "ticket.lastMessage" which will contain the last message on the request, normally the text the customer wrote.
+In addition, you have a parser variable called `ticket.lastMessage` which will contain the last message on the request, normally the text the customer wrote.
 
 ### Email filter
 
-Here you have the possibility to send a reply template to the customer or to another email address. The following parser variables are available:
+Here you may send a reply template to the customer or another email address. The following parser variables are available:
 
 * Company
 * Customer
 * Ticket
 * Config
 
-In addition, you can extract anything from the email using [Find regular expressions][4], and those matches will be available as parser variables (see the help for syntax).
+You can also extract anything from the email using [Find regular expressions][4], and those matches will be available as parser variables (see the help for syntax).
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics%2Fdocument.replyTemplates.newReplyTemplate.html

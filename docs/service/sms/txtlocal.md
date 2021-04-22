@@ -1,16 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: txtlocal_sms_plugin       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Configuration of TxtLocal NetServer SMS plugin # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: TxtLocal 
+uid: txtlocal_sms_plugin
+description: Configuration of TxtLocal NetServer SMS plugin
+author: {github-id}
 keywords:
-so.topic: howto                 # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
 ---
 
 # Configuration of TxtLocal NetServer SMS Plugin
@@ -39,7 +33,7 @@ The file SupeOffice.Messaging. TxtLocal.dll must be copied manually to the NetSe
 
 Under configuration, add and replace username and password with the information you have from CM:
 
-```xml
+```XML
 <appSettings>
   <!-- Web service URL -->
   <add key="txtlocal_url" value="http://www.textlocal.com/sendsmspost.php" />

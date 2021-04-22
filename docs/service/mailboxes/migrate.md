@@ -1,5 +1,6 @@
 ---
-title: migration_guide_mailboxes
+title: Migrate
+uid: migration_guide_mailboxes
 description: Migrate to SuperOffice CRM Online with Service mailboxes
 author: {github-id}
 keywords:
@@ -33,7 +34,7 @@ Also! If you choose to use your old email addresses, you might need to add an [S
 
 **Why?**
 
-The purpose of an SPF record is to prevent spammers from sending messages with forged From addresses at your domain. Without the SPF record, you risk having some emails from your customers ending up as spam.
+The purpose of an SPF record is to prevent spammers from sending messages with forged From-addresses in your domain. Without the SPF record, you risk having some emails from your customers ending up as spam.
 
 **How?**
 

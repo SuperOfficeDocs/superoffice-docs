@@ -1,7 +1,7 @@
 ---
 title: dbi
 uid: automated_task_dbi
-description: Automated tasks in Service -dbi
+description: Automated tasks in Service - dbi
 author: {github-id}
 keywords: service
 so.topic: reference

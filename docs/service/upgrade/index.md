@@ -45,13 +45,13 @@ You need IIS version 7.5 or a patched version of 7.0. The Microsoft implementati
 
 ### Customer center
 
-When upgrading Service to a new version, your current Customer center templates will be copied to a new folder called *templates_date_time*.
+When upgrading Service to a new version, your current [Customer center templates][4] will be copied to a new folder called *templates_date_time*.
 
 If you have made customizations to the customer center, you will need to update the current templates folder which will have the new optimizations, but the standard design.
 
 ## Step 2 - Run upgrade.exe to update the database
 
-When the installer is done upgrading the files to version 8.0, you need to run the command upgrade.exe from a shell prompt.
+When the installer is done upgrading the files to version 8.0, you need to run the command [upgrade.exe][5] from a shell prompt.
 
 > [!NOTE]
 > The command **upgrade.exe must always be run after an upgrade** as it might perform configuration or data transformation tasks. There is no harm in running upgrade.exe more than once as it will keep tabs on what is done already and what is not.<br>It must be run **with elevated/admin rights**, or you might get errors during the upgrade process because upgrade.exe may not be allowed to do certain changes to the system.
@@ -92,6 +92,8 @@ The attachment folder can potentially have hundreds of thousands of files, which
 [1]: ../../onsite/upgrade/75-to-8/crm-server.md
 [2]: ../../onsite/upgrade/75-to-8/web-client.md
 [3]: ../../onsite/requirements/crm-server.md
+[4]: ../../customer-center/templates.md
+[5]: ../automated-tasks/upgrade.md
 
 <!-- Referenced images -->
 [img1]: media/upgradeservice.png

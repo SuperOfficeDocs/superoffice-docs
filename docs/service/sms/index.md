@@ -1,21 +1,23 @@
 ---
-title: sms       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: SMS plugins
+uid: service_sms
+description: NetServer SMS plugins for SuperOffice Service
+author: {github-id}
 keywords:
+so.topic: concept
 ---
 
 # SMS plugins
 
 ## Customer Service settings for NetServer SMS plugins
 
-You could use the Messaging agent with CRMScript to send SMS from your scripts using your plugin (or any other plugin), without changing any settings in Customer Service, but if you want Customer Service to use your SMS plugin for any SMS sent during request handling and notifications, you need to set it up.
+You could use the Messaging agent with [CRMScript][3] to send SMS from your scripts using your plugin (or any other plugin), without changing any settings in Customer Service, but if you want Customer Service to use your SMS plugin for any SMS sent during request handling and notifications, you need to set it up.
 
 The following information applies to all SMS plugins.
 
 ## Add an SMS inbox for incoming SMS
 
-You can do this in Settings/E-mail/New SMS mailbox. This is where settings like category for incoming SMS messages are configured. This must be set up even though the plugin only supports outgoing SMS.
+You can do this in Settings/E-mail/New SMS mailbox. This is where settings like the category for incoming SMS messages are configured. This must be set up even though the plugin only supports outgoing SMS.
 
 ![x][img1]
 
@@ -35,7 +37,7 @@ Configure a sender as well. The sender can be whatever the SMS provider allows, 
 
 ## Testing the service
 
-To test that the service is set up correctly, you can create a new request, add an SMS recipient and wait for the SMS service to send the message (within a minute or two).
+To test that the service is set up correctly, you can create a new request, add an SMS recipient and wait for the SMS service to send the message (within a minute or 2).
 
 It is also possible to test using a simple CRMScript that connects directly to the SMS service using NetServer.
 
@@ -51,14 +53,33 @@ messages.pushBack(msg);
 NSMessageDeliveryStatus[] receipts = agent.SendMessages("MySmsPluginName", messages);
 ```
 
-This method of sending will not create any entries in the **Settings/E-mail/SMS outbox** pane, and the SMS will be sent immediately to NetServer and not when ejournalcron.exe runs (usually once every minute).
+This method of sending will not create any entries in the **Settings/E-mail/SMS outbox** pane, and the SMS will be sent immediately to NetServer and not when [ejournalcron.exe][2] runs (usually once every minute).
 
 ## How to use
 
 You may read more about how to use the SMS plugins in the [help file][1]. The information in the help file applies to all SMS plugins.
 
+## Available plugins
+
+* [CM][4]
+* [Compaya][5]
+* [Intelcom][6]
+* [PSWinCom][7]
+* [SMSTeknik][8]
+* [Twilio][9]
+* [TxtLocal][10]
+
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=Service%2Ftopics%2Fadmin.editInfo.sms.html
+[2]: ../automated-tasks/ejournalcron.md
+[3]: ../../../../crmscript/docs/index.yml
+[4]: cm.md
+[5]: compaya.md
+[6]: intelecom.md
+[7]: pswincom.md
+[8]: smsteknik.md
+[9]: twilio.md
+[10]: txtlocal.md
 
 <!-- Referenced images -->
 [img1]: media/newsmsinbox.png

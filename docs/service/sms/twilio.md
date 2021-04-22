@@ -1,16 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: twilio_sms_plugin       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Twilio NetServer SMS plugin # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Twilio
+uid: twilio_sms_plugin
+description: Twilio NetServer SMS plugin
+author: {github-id}
 keywords:
-so.topic: howto                 # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
 ---
 
 # Twilio

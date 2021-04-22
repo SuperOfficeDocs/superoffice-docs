@@ -1,16 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: pswincom_sms_plugin       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: PSWinCom NetServer SMS plugin # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: PSWinCom
+uid: pswincom_sms_plugin
+description: PSWinCom NetServer SMS plugin
+author: {github-id}
 keywords:
-so.topic: howto                 # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
 ---
 
 # PSWinCom
@@ -41,20 +35,20 @@ From version 7.1 SR1 of NetServer, the *SupeOffice.Messaging.PSWinCom.dll* is in
 Under configuration, add and replace username and password with the information you have from PSWinCom:
 
 ```xml
- <appSettings>  
-    <add key="pswin_username" value=""/>
-    <add key="pswin_password" value=""/>
-    <add key="pswin_seriesStart" value=""/>
-    <add key="pswin_seriesEnd" value=""/>
-    <add key="pswin_noStatusReport" value=""/>
-    <add key="pswin_NoSmsSession" value=""/>
+ <appSettings>
+   <add key="pswin_username" value=""/>
+   <add key="pswin_password" value=""/>
+   <add key="pswin_seriesStart" value=""/>
+   <add key="pswin_seriesEnd" value=""/>
+   <add key="pswin_noStatusReport" value=""/>
+   <add key="pswin_NoSmsSession" value=""/>
  </appSettings>
 ```
 
 Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
 
 ```xml
- <add key="PSWinCom" value="SuperOffice.Messaging.PSWinCom.dll" />
+<add key="PSWinCom" value="SuperOffice.Messaging.PSWinCom.dll" />
 ```
 
 Under configuration -> system.serviceModel add:

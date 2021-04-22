@@ -1,13 +1,10 @@
 ---
-title: compaya_sms_plugin
+title: Compaya
+uid: compaya_sms_plugin
 description: Compaya NetServer SMS plugin
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: howto                 # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
 ---
 
 # Compaya
@@ -40,12 +37,12 @@ Under configuration, add and replace username and password with the information 
 
 ```xml
 <appSettings>
-  <!-- Web service URL -->
-  <add key="compaya_url" value="http://www.cpsms.dk/sms/" />
-  <!-- Specify the username to your SMS account, string (required) -->
-  <add key="compaya_username" value="[Username]" />
-  <!-- Specify the password to your SMS account, string (required) -->
-  <add key="compaya_password" value="[Password]" />
+  <!-- Web service URL -->
+  <add key="compaya_url" value="http://www.cpsms.dk/sms/" />
+  <!-- Specify the username to your SMS account, string (required) -->
+  <add key="compaya_username" value="[Username]" />
+  <!-- Specify the password to your SMS account, string (required) -->
+  <add key="compaya_password" value="[Password]" />
 </appSettings>
 ```
 

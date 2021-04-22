@@ -51,7 +51,7 @@ items:
   - name: Config
     items:
     - name: FAQ
-      href: config-faq.md
+      href: ../customer-center/faq/configure.md
     - name: Set up Facebook integration
     href: set-up-facebook-integration.md
   - name: SMS
