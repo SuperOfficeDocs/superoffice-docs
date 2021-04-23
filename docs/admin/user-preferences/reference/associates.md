@@ -1,16 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: pref_associates       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Preference section Associates # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Associates
+uid: pref_associates
+description: Preference section Associates
+author: {github-id}
 keywords: database
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
 ---
 
 # Preference section Associates
@@ -21,7 +15,7 @@ so.topic: reference              # article, howto, reference, concept, guide
 SELECT * FROM UserPreference WHERE prefsection='Associates'
 ```
 
-Associate preferences like which radiobutton did I select the last time I used this dialog/control
+Associate preferences like which radio-button did I select the last time I used this dialog/control
 or which item did I select last time I used this drop-down list.
 
 | Preference | Description | Default | Control type | Access |
