@@ -77,7 +77,7 @@ To obtain a Bearer access token, you'll need a registered application that can g
 [2]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-REST-Search.htm
 [3]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-Authentication-Authentication.htm
 [4]: https://www.base64encode.org/
-[5]: https://community.superoffice.com/en/developer/create-apps/resources/developer-registration/
+[5]: https://community.superoffice.com/register-as-developer
 [6]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/helper-application.md
 
 <!-- Referenced images -->

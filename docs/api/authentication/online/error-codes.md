@@ -175,5 +175,5 @@ Ensure your web project contains the following files from the sample project `Su
 * PartnerHttpContext.cs
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/resources/change-application/
+[1]: https://community.superoffice.com/change-application
 [2]: certificates/configure.md
