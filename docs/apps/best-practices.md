@@ -86,7 +86,7 @@ Read about [effective visual design][6].
 [1]: tenant-status/status-page.md
 [2]: tenant-status/check-status.md
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/ff4a90073a04400e44e20739bcc99d827b856203/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
-[4]: https://community.superoffice.com/en/developer/create-apps/resources/change-application/
+[4]: https://community.superoffice.com/change-application
 [5]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/certificates/validate-security-tokens.md
 [6]: https://github.com/SuperOfficeDocs/user-interface/blob/main/docs/design/overview.md
 [7]: https://community.superoffice.com/en/developer/forum/rooms/superoffice-product-api-group/crm-online-application/

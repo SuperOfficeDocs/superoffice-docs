@@ -38,7 +38,7 @@ All changes to whitelisted URLs have to go through SuperOffice.
 > If you add database mirroring or webhooks, the tenant administrator must [renew the consent][4] to your application. **Users will be locked out from when the change happens until the consent has been given.**
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/resources/change-application/
+[1]: https://community.superoffice.com/change-application
 [2]: ../terminology.md
 [3]: ../getting-started/app-envir.md
 [4]: ../provisioning/get-consent.md
