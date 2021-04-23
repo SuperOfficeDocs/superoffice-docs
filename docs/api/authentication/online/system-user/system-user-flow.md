@@ -39,8 +39,8 @@ High-level intro to system user flow for non-interactive server-to-server commun
 5. Let the application go about its business chatting with the SuperOffice web services using the ticket as credentials.
 
 <!-- Referenced links -->
-[1]: ../federated-auth.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/redirects/index.md
+[1]: ../../../../../superoffice-docs/docs/apps/provisioning/consent.md
+[2]: ../../../../../superoffice-docs/docs/apps/redirects/index.md
 [3]: ../certificates/validate-security-tokens.md
 [4]: ../id-token.md
 [5]: ../oidc/claims-scope.md

@@ -13,11 +13,53 @@ so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---
 
-# How to validate JWT security tokens
+# How to validate security tokens
+
+Security token validation is an important step to ensure the token has not been compromised between SuperOffice sending it and you receiving it.
+
+There are a few cases when validation is required:
+
+1. Validate the id_token issued during OpenID Connect authentication.
+2. Validate the token returned from System-User flow.
+3. Validate the token returned from the legacy application login (pre-OpenID Connect support).
+
+Performing validation is a straight forward process that, validating a response that was signed by SuperOffice with a private certificate, only requires the public SuperOffice certificate.
+
+There are a couple options to perform the actual validation:
+
+1. Orchestrate the validation code yourself.
+   1. May or may not require physical SuperOffice certificates, i.e. can use the [OpenID Connect metadata endpoint][8] to get required information.
+2. Use [SuperOffice.Online.Core][6] nuget package for .NET Framework
+   1. This required SuperOffice certificates.
+3. Use [SuperOffice.WebApi][9] nuget package written for .NET Standard 2.0
+   1. This uses the [OpenID Connect metadata endpoint][8].
+
+## Using SuperOffice.WebApi
+
+This nuget package contains two validation classes, one for the two main validation case:
+
+1. OpenID Connect validation: `JwtTokenHandler`
+2. SystemUser Flow validation: `SystemUserTokenHandler`
+
+There are two different token handlers because they do have slightly different implementations. The main difference is that the OpenID Connect `ValidationParameters.ValidAudience` uses the applications client_id parameter, and the SystemUser's `ValidationParameters.ValidAudience` is the database serial number. The latter requires additional processing to extract the database serial number from the token.
+
+```csharp
+var tokenHandler = new JwtTokenHandler(clientId, httpClient, onlineEnvironment);
+TokenValidationResult result = await tokenHandler.ValidateAsync("{id_token}");
+
+```
+
+```csharp
+var tokenHandler = new SystemUserTokenHandler(httpClient, onlineEnvironment);
+TokenValidationResult result = await tokenHandler.ValidateAsync("{system_user_result}");
+
+```
+
+## Using SuperOffice.Online.Core
 
 Lets' take a look at what the simplest possible security token validation might look like.
 
-All security token responses are Base64 encoded strings of either a [SAML][1] or [JWT][2] token. We **strongly recommend that you use JWT** tokens and not SAML!
+All security token responses are Base64 encoded strings of either a [JWT][2] or legacy [SAML][1] token. We **strongly recommend that you use JWT** tokens and not SAML!
 
 The main class for processing tokens is `SuperIdTokenHandler` in the *SuperOffice.SuperID.Client* DLL.
 
@@ -70,3 +112,5 @@ We also provide [.NET helper libraries][7], which you can download.
 [5]: ../superid-token.md
 [6]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
 [7]: ../../../assets/downloads.md
+[8]: ../oidc/metadata-document.md
+[9]: https://www.nuget.org/packages/SuperOffice.WebApi

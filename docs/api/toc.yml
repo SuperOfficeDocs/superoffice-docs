@@ -28,6 +28,17 @@ items:
         href: authentication/online/oidc/native-apps.md
     - name: System User (back-channel)
       href: authentication/online/system-user/system-user-flow.md
+    - name: Certificates
+      href: authentication/online/certificates/index.md
+      items:
+      - name: Add SuperOffice Certificates
+        href: authentication/online/certificates/add-certificate-snap-in.md
+      - name: Configure certificates
+        href: authentication/online/certificates/configure.md
+      - name: Override certificate resolver
+        href: authentication/online/certificates/override-resolver.md
+      - name: Validate tokens
+        href: authentication/online/certificates/validate-security-tokens.md
   - name: Onsite Authentication
     href: authentication/overview.md
 - name: Configuration
