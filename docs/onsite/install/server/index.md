@@ -56,3 +56,5 @@ If you are upgrading from an earlier version of SuperOffice, make sure to select
 
 <!-- Referenced links -->
 [1]: ../../requirements/crm-server.md
+[2]: silent-serversetup.md
+[3]: install-on-citrix.md

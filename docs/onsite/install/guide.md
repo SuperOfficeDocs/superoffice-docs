@@ -63,7 +63,7 @@ For Win app users, this folder must be shared, the user must be able to create a
 <!-- Referenced links -->
 [1]: iis/index.md
 [2]: database/index.md
-[3]: win-client/prepare-server.md
+[3]: win-client/prepare-client.md
 [4]: ../../service/install/index.md
 [5]: server/index.md
 [6]: win-client/index.md

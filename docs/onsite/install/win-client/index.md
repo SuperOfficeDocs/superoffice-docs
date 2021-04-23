@@ -62,7 +62,7 @@ After the installation is completed both Mail Link and Windows client are instal
 [2]: ../../compatibility/browser.md
 [3]: ../../compatibility/ms-sql-server.md
 [4]: ../../compatibility/oracle.md
-[5]: prepare-server.md
+[5]: prepare-client.md
 
 <!-- Referenced images -->
 [img1]: media/crm-8-win-install1.png
