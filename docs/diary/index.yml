@@ -34,6 +34,34 @@ conceptualContent:
   title: "" # < 60 chars (optional)
   summary: ""
   items:
+  # Card
+    - title: Learn the essentials
+      summary: ""
+      links:
+      - text: Register activities in the diary
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/standard/diary/
+      - text: Create a follow-up
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/standard/diary/register-an-appointment/
+      - text: Invite participants
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/standard/diary/invite-your-colleagues/
+
+    # Card
+    - title: Videos
+      summary: ""
+      links:
+      - text: Add appointment to project
+        itemType: video
+        url: https://www.youtube.com/watch?v=YQr5B5IU7XY
+      - text: Create and join video meeting
+        itemType: video
+        url: https://www.youtube.com/watch?v=XDg_k086TRA
+      - text: Manage your tasks and optimize your schedule
+        itemType: video
+        url: https://www.youtube.com/watch?v=w4ywpuX2SPM
+
     # Card
     - title: Configuration options
       summary: ""
