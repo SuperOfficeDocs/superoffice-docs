@@ -1,0 +1,205 @@
+### YamlMime:Category
+
+title: Security
+summary: Security
+brand: devdocs
+
+metadata:
+  title: Security
+  description: Security
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 04.23.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Reset password
+      itemType: how-to-guide
+      url: ../identity-management/user/reset-password.md
+    # Card
+    - title: "Identity management"
+      itemType: overview
+      url: ../identity-management/index.yml
+    # Card
+    - title: "SuperID"
+      itemType: overview
+      url: ../identity-management/superid/index.yml
+    # Card
+    - title: "System for Cross-domain Identity Management (SCIM)"
+      itemType: overview
+      url: ../identity-management/scim/index.yml
+    # Card
+    - title: "Authentication"
+      itemType: overview
+      url: ../../../data-access/docs/authentication/overview.md
+    # Card
+    - title: OAuth 2.0
+      itemType: concept
+      url: ../../../data-access/docs/authentication/online/oauth-2-intro.md
+    # Card
+    - title: OpenID Connect
+      itemType: concept
+      url: ../../../data-access/docs/online/oidc/index.md
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+    # Card
+    - title: Sign-in services
+      summary: ""
+      links:
+        - text: Federated ID and identity providers
+          itemType: concept
+          url: ../identity-management/federated-id-and-identity-providers.md
+        - text: Multi-factor authentication
+          itemType: concept
+          url: ../identity-management/multi-factor-authentication.md
+        - text: Single sign-on
+          itemType: concept
+          url: ../identity-management/single-sign-on/index.md
+        - text: User accounts and role-based access control
+          itemType: concept
+          url: ../identity-management/user/index.md
+        - text: Enforce password policy
+          itemType: how-to-guide
+          url: ../identity/management/user/enforce-password-policy.md
+    # Card
+    - title: Privacy
+      summary: "General Data Protection Regulation (GDPR)"
+      links:
+      - text: Introduction
+        itemType: concept
+        url: ../privacy/index.md
+      - text: Consent management
+        itemType: concept
+        url: ../privacy/consent-management.md
+      - text: E-marketing consent
+        itemType: concept
+        url: ../privacy/e-marketing-consent.md
+      - text: Soft-delete
+        itemType: concept
+        url: ../privacy/soft-delete.md
+    # Card
+    - title: Online applications
+      summary: ""
+      links:
+      - text: Security requirements
+        itemType: reference
+        url: ../apps/requirements/security.md
+      - text: Checklist
+        itemType: reference
+        url: ../apps/certification/checklist.md
+      - text: Certification
+        itemType: concept
+        url: ../apps/certification/index.md
+      - text: Watchcom evaluation
+        itemType: concept
+        url: ../apps/certification/initial-watchcom-eval.md
+      - text: Obtain consent to access a customer's tenant
+        itemType: how-to-guide
+        url: ../apps/provisioning/get-consent.md
+      - text: GDPR for app developer
+        itemType: concept
+        url: ../privacy/gdpr-for-app-developer.md
+    # Card
+    - title: Online authentication
+      summary: ""
+      links:
+      - text: SuperOffice Online and SuperID
+        itemType: concept
+        url: ../../../data-access/docs/online/online.md
+      - text: OpenID Connect
+        itemType: concept
+        url: ../../../data-access/docs/online/oidc/index.md
+      - text: Authorization code flow
+        itemType: concept
+        url: ../../../data-access/docs/online/oidc/auth-code-flow.md
+      - text: Hybrid Flow
+        itemType: concept
+        url: ../../../data-access/docs/online/oidc/hybrid-flow.md
+      - text: Implicit Flow
+        itemType: concept
+        url: ../../../data-access/docs/online/oidc/implicit-flow.md
+      - text: Native Apps
+        itemType: concept
+        url: ../../../data-access/docs/online/oidc/native-apps.md
+      - text: System User (Back-channel)
+        itemType: concept
+        url: ../../../data-access/docs/online/system-user/system-user-flow.md
+    # Card
+    - title: Onsite deployment
+      summary: Security in onsite SuperOffice installations
+      links:
+      - text: Intro
+        itemType: overview
+        url: ../onsite/security/index.md
+      - text: Secure deployment guide
+        itemType: how-to-guide
+        url: ../onsite/security/secure-deployment-guide.md
+      - text: Deployment scenarios
+        itemType: deploy
+        url: ../onsite/security/deployment-scenarios.md
+      - text: Network and firewall config
+        itemType: reference
+        url: ../onsite/security/network-firewall-config.md
+      - text: Securing HTTPS configuration
+        itemType: how-to-guide
+        url: ../onsite/security/secure-https.md
+      - text: Set up EMET
+        itemType: how-to-guide
+        url: ../onsite/security/set-up-emet.md
+      - text: Set up ModSecurity
+        itemType: how-to-guide
+        url: ../onsite/security/set-up-modsecurity.md
+# Card with summary style
+additionalContent:
+  # Supports up to 3 sections
+  sections: 
+    - title: "" # < 60 chars (optional)
+      summary: "" # < 160 chars (optional)
+      items:
+      # Card
+      - title: Security measures in...
+        links:
+        - text: CMR Online
+          url: ../online/security.md
+        - text: SuperOffice Mobile
+          url: ../mobile/superoffice-mobile/security.md
+        - text: Mailgun
+          url: ../email/mailgun/security.md
+        - text: Web application
+          url: ../../../user-interface/docs/web-application/technical-info.md#security
+        - text: Pagebuilder (sentry rights)
+          url: ../../../user-interface/docs/web-application/pagebuilder/rights-system.md
+      # Card
+      - title: Database
+        links:
+        - text: The credentials database table
+          url: ../../../data-access/docs/authentication/credentials-table.md
+        - text: Single database user
+          url: ../../../database/docs/security/single-database-user.md
+        - text: Mirroring blacklisted tables
+          url: ../mirroring/skip-tables.md
+      # Card
+      - title: Documents
+        links:
+        - text: G-suite documents
+          url: ../document/cloud/g-suite/security.md
+        - text: Office-365 documents
+          url: ../document/cloud/office-365/security.md
+      # Card
+      - title: Cookies
+        links:
+        - text: Cookies
+          url: ../online/cookies.md
+  # footer (optional)
+  footer: "Contribute to NetServer docs. Read our [contributor guide](https://docs.superoffice.com/contribute)."

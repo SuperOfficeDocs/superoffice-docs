@@ -79,7 +79,7 @@ conceptualContent:
         url: ../customer-center/config.md
       - text: Templates
         itemType: reference
-        url: ../customer-center/  templates.md
+        url: ../customer-center/templates.md
     # Card
     - title: Automated tasks
       summary: ""
