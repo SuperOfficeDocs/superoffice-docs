@@ -170,7 +170,7 @@ additionalContent:
       # Card
       - title: Security measures in...
         links:
-        - text: CMR Online
+        - text: CRM Online
           url: ../online/security.md
         - text: SuperOffice Mobile
           url: ../mobile/superoffice-mobile/security.md

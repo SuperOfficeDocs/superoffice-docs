@@ -72,7 +72,7 @@ This is both incoming and outgoing. For example, one request (ticket) cannot hav
 
 ## Mobile applications
 
-* [Pocket CMR][3]
+* [Pocket CRM][3]
 * [SuperOffice Mobile][4]
 
 ## WebTools

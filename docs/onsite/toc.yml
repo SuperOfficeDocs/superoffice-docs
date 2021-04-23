@@ -115,7 +115,7 @@ items:
         href: upgrade/to-81/using-old-sales-domain.md
       - name: Using new domains
         href: upgrade/to-81/using-new-domains.md
-      - name: Move CMR Server
+      - name: Move CRM Server
         href: upgrade/to-81/move-crm-server.md
   - name: Config
     href: config/index.md
