@@ -1,1 +1,1 @@
-[Register](https://community.superoffice.com/en/developer/create-apps/resources/developer-registration/)
+[Register](https://community.superoffice.com/register-as-developer)
