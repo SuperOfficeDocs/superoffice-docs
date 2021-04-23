@@ -8,8 +8,10 @@ items:
 - name: What is NetServer
   href: netserver/what-is-netserver.md
 - name: Authentication
-  href: authentication/overview.md
+  href: authentication/index.yml
   items: 
+  - name: Overview
+    href: authentication/overview.md
   - name: Online Authentication
     href: authentication/online/online.md
     items:
