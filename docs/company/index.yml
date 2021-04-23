@@ -1,0 +1,146 @@
+### YamlMime:Category
+
+title: Company
+summary: Company
+brand: devdocs
+
+metadata:
+  title: Company
+  description: "Organizations"
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 04.23.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: User-help pages
+      itemType: reference
+      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap03/Companies.htm
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+  # Card
+    - title: Learn the essentials
+      summary: ""
+      links:
+      - text: Why adding companies and contacts to CRM is important
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/standard/contacts/
+      - text: How to add a company
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/standard/contacts/how-to-enter-contacts/
+      - text: How to search for companies
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/standard/contacts/how-to-search-for-information/
+
+    # Card
+    - title: Videos
+      summary: ""
+      links:
+      - text: How to import customer contacts
+        itemType: video
+        url: https://www.youtube.com/watch?v=dVkCfpOkNl8
+      - text: How to group information
+        itemType: video
+        url: https://www.youtube.com/watch?v=a3AC64pheok
+      - text: How to filter information
+        itemType: video
+        url: https://www.youtube.com/watch?v=HYYI4ZCl4S4
+
+    # Card
+    - title: Configuration options
+      summary: ""
+      links:
+        - text: User preferences
+          itemType: reference
+          url: ../admin/user-preferences/index.md
+
+    # Card
+    - title: UI options
+      summary: ""
+      links:
+      - text: Web panels
+        itemType: overview
+        url: ../../../user-interface/docs/web-panels/index.md
+      - text: SoProtocol - create company
+        itemType: how-to-guide
+        url: ../../../user-interface/docs/soprotocol/create-contact.md
+      - text: SoProtocol - get company
+        itemType: how-to-guide
+        url: ../../../user-interface/docs/soprotocol/get-contact.md
+      - text: SoProtocol - edit company
+        itemType: how-to-guide
+        url: ../../../user-interface/docs/soprotocol/edit-contact.md
+
+    # Card
+    - title: Data options
+      summary: ""
+      links:
+      - text: Custom fields
+        itemType: overview
+        url: ../../../data-access/docs/custom-fields/index.md
+
+    # Card
+    - title: Actions options
+      summary: ""
+      links:
+      - text: Overview
+        itemType: overview
+        url: ../automation/index.yml
+      - text: Triggers
+        itemType: concept
+        url: ../automation/trigger/index.md
+      - text: Webhooks
+        itemType: reference
+        url: ../../../data-access/docs/netserver/webhooks/reference/contact-events.md
+
+    # Card
+    - title: API options
+      summary: ""
+      links:
+      - text: CRMScript
+        itemType: concept
+        url: ../../../crmscript/docs/persons-and-organizations/customer.md
+      - text: Raw SQL
+        itemType: how-to-guide
+        url: ../../../data-access/docs/contact/sql/create-contact-sql.md
+      - text: OSQL
+        itemType: how-to-guide
+        url: ../../../data-access/docs/contact/osql/create-contact-osql.md
+      - text: Row
+        itemType: how-to-guide
+        url: ../../../data-access/docs/contact/row/create-contact-row.md
+      - text: Entity
+        itemType: how-to-guide
+        url: ../../../data-access/docs/contact/entity/create-contact-entity.md
+      - text: REST
+        itemType: how-to-guide
+        url: ../../../data-access/docs/contact/services/create-contact-services.md
+
+    # Card
+    - title: Database options
+      summary: ""
+      links:
+      - text: Contact table
+        itemType: reference
+        url: ../../../database/docs/tables/contact.md
+      - text: Person table
+        itemType: reference
+        url: ../../../database/docs/tables/person.md
+      - text: Associate table
+        itemType: reference
+        url: ../../../database/docs/tables/associate.md
+      - text: Address table
+        itemType: reference
+        url: ../../../database/docs/tables/address.md
