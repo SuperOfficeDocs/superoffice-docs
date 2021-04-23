@@ -46,7 +46,7 @@ highlightedContent:
     # Card
     - title: OpenID Connect
       itemType: concept
-      url: ../../../data-access/docs/online/oidc/index.md
+      url: ../../../data-access/docs/authentication/online/oidc/index.md
 # conceptualContent section (optional)
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -71,7 +71,7 @@ conceptualContent:
           url: ../identity-management/user/index.md
         - text: Enforce password policy
           itemType: how-to-guide
-          url: ../identity/management/user/enforce-password-policy.md
+          url: ../identity-management/user/enforce-password-policy.md
     # Card
     - title: Privacy
       summary: "General Data Protection Regulation (GDPR)"
@@ -116,25 +116,25 @@ conceptualContent:
       links:
       - text: SuperOffice Online and SuperID
         itemType: concept
-        url: ../../../data-access/docs/online/online.md
+        url: ../../../data-access/docs/authentication/online/online.md
       - text: OpenID Connect
         itemType: concept
-        url: ../../../data-access/docs/online/oidc/index.md
+        url: ../../../data-access/docs/authentication/online/oidc/index.md
       - text: Authorization code flow
         itemType: concept
-        url: ../../../data-access/docs/online/oidc/auth-code-flow.md
+        url: ../../../data-access/docs/authentication/online/oidc/auth-code-flow.md
       - text: Hybrid Flow
         itemType: concept
-        url: ../../../data-access/docs/online/oidc/hybrid-flow.md
+        url: ../../../data-access/docs/authentication/online/oidc/hybrid-flow.md
       - text: Implicit Flow
         itemType: concept
-        url: ../../../data-access/docs/online/oidc/implicit-flow.md
+        url: ../../../data-access/docs/authentication/online/oidc/implicit-flow.md
       - text: Native Apps
         itemType: concept
-        url: ../../../data-access/docs/online/oidc/native-apps.md
+        url: ../../../data-access/docs/authentication/online/oidc/native-apps.md
       - text: System User (Back-channel)
         itemType: concept
-        url: ../../../data-access/docs/online/system-user/system-user-flow.md
+        url: ../../../data-access/docs/authentication/online/system-user/system-user-flow.md
     # Card
     - title: Onsite deployment
       summary: Security in onsite SuperOffice installations
