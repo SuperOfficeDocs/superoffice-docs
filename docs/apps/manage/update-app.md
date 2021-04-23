@@ -40,5 +40,5 @@ When you release a new version of your application, your App Store listing can i
 > If you add database mirroring or webhooks, the tenant administrator must renew the consent to your application. **Users will be locked out from when the change happens until the consent has been given.**
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/resources/update-app-store-listing/
+[1]: https://community.superoffice.com/update-application-listing
 [2]: https://community.superoffice.com/en/developer/create-apps/resources/change-application/
