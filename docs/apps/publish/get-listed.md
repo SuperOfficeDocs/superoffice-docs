@@ -44,5 +44,5 @@ You can submit information for the App Store listing anytime during the certific
 <!-- Referenced links -->
 [1]: ../certification/certify-app.md
 [2]: ../requirements/marketing.md
-[3]: https://community.superoffice.com/en/developer/create-apps/resources/new-app-store-listing/
+[3]: https://community.superoffice.com/new-application-listing
 [4]: publish-standard-app.md
