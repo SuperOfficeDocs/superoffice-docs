@@ -1,0 +1,119 @@
+### YamlMime:Category
+
+title: Diary (Appointment)
+summary: Diary (Appointment)
+brand: devdocs
+
+metadata:
+  title: Diary (Appointment)
+  description: Contains details pertaining to appointments, activities, and sales.
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 04.23.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: Video meetings
+      itemType: overview
+      url: ../video-meeting/index.md
+    # Card
+    - title: User-help pages
+      itemType: reference
+      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/index.htm#t=StandardCRM%2Fchap06%2FDiary.htm
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+    # Card
+    - title: Configuration options
+      summary: ""
+      links:
+        - text: User preference AppointmentDialog
+          itemType: reference
+          url: ../admin/user-preferences/reference/appointment-dialog.md
+        - text: User preference DiaryView
+          itemType: reference
+          url: ../admin/user-preferences/reference/diary-view.md
+        - text: List Follow-up type
+          itemType: how-to-guide
+          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap08%2FAdding_items_to_the_Follow-up_-_Type_list.htm
+
+    # Card
+    - title: UI options
+      summary: ""
+      links:
+      - text: Web panels
+        itemType: overview
+        url: ../../../user-interface/docs/web-panels/index.md
+      - text: SoProtocol - create appointment
+        itemType: how-to-guide
+        url: ../../../user-interface/docs/soprotocol/create-appointment.md
+      - text: SoProtocol - open appointment dialog
+        itemType: how-to-guide
+        url: ../../:./user-interface/docs/soprotocol/open-appointment-dialog.md
+
+    # Card
+    - title: Data options
+      summary: ""
+      links:
+      - text: Custom fields
+        itemType: overview
+        url: ../../../data-access/docs/custom-fields/index.md
+
+    # Card
+    - title: Actions options
+      summary: ""
+      links:
+      - text: Overview
+        itemType: overview
+        url: ../automation/index.yml
+      - text: Triggers
+        itemType: concept
+        url: ../automation/trigger/index.md
+
+    # Card
+    - title: API options
+      summary: ""
+      links:
+      - text: CRMScript
+        itemType: concept
+        url: ../../../crmscript/docs/follow-ups/index.md
+      - text: Raw SQL
+        itemType: how-to-guide
+        url: ../../../data-access/docs/diary/sql/create-apt-sql.md
+      - text: OSQL
+        itemType: how-to-guide
+        url: ../../../data-access/docs/diary/osql/create-apt-osql.md
+      - text: Row
+        itemType: how-to-guide
+        url: ../../../data-access/docs/diary/row/create-apt-row.md
+      - text: Entity
+        itemType: how-to-guide
+        url: ../../../data-access/docs/diary/entity/create-apt-entity.md
+      - text: REST
+        itemType: how-to-guide
+        url: ../../../data-access/docs/diary/services/create-apt-services.md
+      - text: Archive (search)
+        itemType: how-to-guide
+        url: ../../../data-access/docs/diary/archive/invitation-archive.md
+
+    # Card
+    - title: Database options
+      summary: ""
+      links:
+      - text: Appointment table
+        itemType: reference
+        url: ../../../database/docs/tables/appointment.md
+      - text: DiaryView table
+        itemType: reference
+        url: ../../../database/docs/tables/diaryview.md
