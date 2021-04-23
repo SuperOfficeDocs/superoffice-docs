@@ -51,7 +51,7 @@ The preferred way to use a system user token is demonstrated in the [System Cons
 
 <!-- Referenced links -->
 [1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/system-user/sign-system-user-token.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/certificates/validate-security-tokens.md
+[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/validate-security-tokens.md
 [3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/system-user/system-user-token.md
 [4]: system-user-service-console.md
 

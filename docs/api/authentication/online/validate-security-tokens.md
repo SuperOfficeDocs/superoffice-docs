@@ -2,8 +2,9 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
 # Mandatory fields.
-title: validate_security_tokens       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to validate JWT security tokens # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+uid: validate_security_tokens       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+title: Validate security tokens
+description: How to validate security tokens # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
 keywords: certificates,jwt
 so.topic: howto           # article, howto, reference, concept, guide
@@ -107,10 +108,10 @@ We also provide [.NET helper libraries][7], which you can download.
 <!-- Referenced links -->
 [1]: http://saml.xml.org/saml-specifications
 [2]: https://tools.ietf.org/html/rfc7519
-[3]: override-resolver.md
-[4]: index.md
-[5]: ../superid-token.md
+[3]: certificates/override-resolver.md
+[4]: certificates/index.md
+[5]: superid-token.md
 [6]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
-[7]: ../../../assets/downloads.md
-[8]: ../oidc/metadata-document.md
+[7]: ../../assets/downloads.md
+[8]: oidc/metadata-document.md
 [9]: https://www.nuget.org/packages/SuperOffice.WebApi

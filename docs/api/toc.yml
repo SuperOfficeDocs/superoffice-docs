@@ -18,8 +18,10 @@ items:
     - name: OpenID Connect / OAuth 2.0
       href: authentication/online/oidc/index.md
       items:
-      - name: Authorization Code Flow
+      - name: OpenID Connect metadata document
         href: authentication/online/oidc/auth-code-flow.md
+      - name: Authorization Code Flow
+        href: authentication/online/oidc/metadata-document.md
       - name: Hybrid Flow
         href: authentication/online/oidc/hybrid-flow.md
       - name: Implicit Flow
@@ -28,6 +30,8 @@ items:
         href: authentication/online/oidc/native-apps.md
     - name: System User (back-channel)
       href: authentication/online/system-user/system-user-flow.md
+    - name: Token Validation
+      href: authentication/online/validate-security-tokens.md
     - name: Certificates
       href: authentication/online/certificates/index.md
       items:
@@ -37,8 +41,6 @@ items:
         href: authentication/online/certificates/configure.md
       - name: Override certificate resolver
         href: authentication/online/certificates/override-resolver.md
-      - name: Validate tokens
-        href: authentication/online/certificates/validate-security-tokens.md
   - name: Onsite Authentication
     href: authentication/overview.md
 - name: Configuration

@@ -41,7 +41,7 @@ High-level intro to system user flow for non-interactive server-to-server commun
 <!-- Referenced links -->
 [1]: ../../../../../superoffice-docs/docs/apps/provisioning/consent.md
 [2]: ../../../../../superoffice-docs/docs/apps/redirects/index.md
-[3]: ../certificates/validate-security-tokens.md
+[3]: ../validate-security-tokens.md
 [4]: ../id-token.md
 [5]: ../oidc/claims-scope.md
 [6]: system-user-token.md

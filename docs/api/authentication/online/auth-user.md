@@ -53,4 +53,4 @@ This procedure uses an [Implicit Flow][1] request. The **client ID** is necessar
 [2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/terminology.md
 [3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/redirects/index.md
 [4]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/app-envir.md
-[5]: certificates/validate-security-tokens.md
+[5]: validate-security-tokens.md
