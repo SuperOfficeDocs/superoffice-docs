@@ -42,5 +42,5 @@ After signing up for a developer account, you need to register your application 
 **Next step:** Create an MVC application at your redirection endpoint and implement your chosen authorization flow.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/resources/application-registration/
+[1]: https://community.superoffice.com/application-registration
 [2]: app-envir.md

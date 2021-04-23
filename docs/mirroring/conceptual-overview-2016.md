@@ -68,7 +68,7 @@ If an older original is restored from backup, then the mirror should be thrown a
 ![x][img4]
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/developer/create-apps/resources/application-registration/
+[1]: https://community.superoffice.com/application-registration
 [2]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/system-user/sign-system-user-token.md
 
 <!-- Referenced images -->
