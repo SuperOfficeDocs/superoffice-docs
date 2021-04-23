@@ -216,7 +216,7 @@ It removes the link record from the SuperOffice database, which stops the connec
 We do not delete information from the ERP system, just because we have stopped sync with SuperOffice.
 
 <!-- Referenced links -->
-[1]: set-up-connection.md
+[1]: setup-connection.md
 [2]: import.md
 
 <!-- Referenced images -->

@@ -34,7 +34,7 @@ Data carriers (or just *carriers*) are object types that transfer data between E
 * The **ERP Actor data carrier** describes company/person/project data
 
 <!-- Referenced links -->
-[1]: ../architecture/wfc.md
+[1]: ../architecture/wcf-host.md
 [2]: ierpconnector.md
 [3]: field-meta-data-carrier.md
 [4]: erp-actor-carrier.md

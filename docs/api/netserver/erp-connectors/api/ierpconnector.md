@@ -57,4 +57,4 @@ This connector would be compiled into a DLL, and then exposed to the web using [
 
 <!-- Referenced links -->
 [1]: erp-actor-carrier.md
-[2]: ../architecture/wfc.md
+[2]: ../architecture/wcf-host.md

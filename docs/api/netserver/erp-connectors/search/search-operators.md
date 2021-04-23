@@ -104,4 +104,4 @@ The `IsMatchDateTime` method takes an optional parameter of type `DateTimeOperat
 * DateAndTime_IgnoreSeconds
 
 <!-- Referenced links -->
-[1]: search.md
+[1]: index.md

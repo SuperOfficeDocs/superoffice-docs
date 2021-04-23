@@ -34,7 +34,7 @@ Example of setting up mapping for the available ERP fields. Available actor type
 The **Show In Search** checkbox tells us which ERP Actor properties to display in the **Advanced Search** dialog in SuperOffice.
 
 <!-- Referenced links -->
-[1]: ../set-up-mapping.md
+[1]: ../setup-mapping.md
 
 <!-- Referenced images -->
 [img1]: ../media/image007.png

@@ -14,6 +14,6 @@ The web-client also uses the Dynamic Client Foundation (DCF) on top of the web s
 
 The major components in the Web GUI are:
 
-* The [page builder framework](../../../../user-interface/docs/web-application/index.md) used in CRM.web. This means the config files for the framework and the many components and interfaces that the PageBuilder uses.
+* The [page builder framework](../../../../user-interface/docs/web-application/index.yml) used in CRM.web. This means the config files for the framework and the many components and interfaces that the PageBuilder uses.
 * The page, panel, card and archive components used to render the pages.
 * The AJAX libraries that integrate the web front end with the web server.
