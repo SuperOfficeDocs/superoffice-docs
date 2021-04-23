@@ -114,7 +114,7 @@ It does not contain Red Alerts or [CRM Online release versions][1].
 | 9.2 R04 | (Onsite skipped) | | |
 | 9.2 R05 | (Onsite skipped) | | |
 | 9.2 R06 | (Onsite skipped) | | |
-| 9.2 R07 | | 13.04.2021 | 2021.04.13-01|
+| 9.2 R07 | | | |
 
 <!-- Referenced links -->
 [1]: ../online/version-history.md
