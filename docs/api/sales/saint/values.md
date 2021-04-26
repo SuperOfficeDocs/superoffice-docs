@@ -1,11 +1,10 @@
 ---
-title: saint_values
+title: SAIN values
+uid: saint_values
 description: SAINT values
 author: {github-id}
 keywords:
-so.topic: concept          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: concept
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

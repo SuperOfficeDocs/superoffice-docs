@@ -1,0 +1,57 @@
+items:
+- name: Overview
+  href: overview.md
+- name: Invitations
+  href: invitations.md
+- name: Recurring appointments
+  href: recurring-appointments.md
+- name: Web services
+  href: services/create-apt-services.md
+  items:
+  - name: Create appointment
+    href: services/create-apt-services.md
+  - name: Create recurring appointment
+    href: services/create-recurring-appointment-services.md
+  - name: Create invitation
+    href: services/create-invitation-services.md
+  - name: Get invitations
+    href: services/get-invitations-services.md
+  - name: Accept invitation
+    href: services/accept-invitation-services.md
+- name: Entities
+  href: entity/create-apt-entity.md
+  items:
+  - name: Create appointment
+    href: entity/create-apt-entity.md
+  - name: Create appointment (in entity)
+    href: entity/create-apt-entity-in-entity.md
+  - name: Create appointment (in collection)
+    href: entity/create-apt-entity-in-collection.md
+  - name: Create recurring appointment
+    href: entity/create-recurring-appointment-entity.md
+  - name: Create invitation
+    href: entity/create-invitation-entity.md
+  - name: Accept invitation
+    href: entity/accept-invitation-entity.md
+- name: Rows
+  href: row/create-apt-row.md
+  items:
+  - name: Create appointment (Row)
+    href: row/create-apt-row.md
+  - name: Create appointment (Rows)
+    href: row/create-apt-rows.md
+- name: Objectified SQL
+  href: osql/create-apt-osql.md
+  items:
+  - name: Create appointment
+    href: osql/create-apt-osql.md
+- name: Raw SQL
+  href: sql/accept-invitation-sql.md
+  items:
+  - name: Create appointment
+    href: sql/create-apt-sql.md
+  - name: Create invitation
+    href: sql/create-invitation-sql.md
+  - name: Accept invitation
+    href: sql/accept-invitation-sql.md
+

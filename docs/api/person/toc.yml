@@ -1,0 +1,52 @@
+items:
+- name: Overview
+  href: overview.md
+- name: Web services
+  href: services/get-persons-ipersonagent.md
+  items:
+  - name: Get persons IContactAgent
+    href: services/get-persons-icontactagent.md
+  - name: Get persons IPersonAgent
+    href: services/get-persons-ipersonagent.md
+  - name: Update person
+    href: services/update-person-services.md
+  - name: Get person image (REST)
+    href: services/get-person-image-rest.md
+  - name: Update person image (REST)
+    href: services/update-person-image-rest.md
+  - name: Display person image (ImageUtility)
+    href: services/display-person-image-ws.md
+  - name: Display image from BLOB table
+    href: services/display-image-from-blob-table-services.md
+- name: Entities
+  href: entity/get-persons-from-contact-entities.md
+  items:
+  - name: Get persons from contact
+    href: entity/get-persons-from-contact-entities.md
+  - name: Update person entity
+    href: entity/update-person-entity.md
+  - name: Display image from BLOB table
+    href: entity/display-image-from-blob-table-entity.md
+- name: Rows
+  href: row/get-persons-from-contact-rows.md
+  items:
+  - name: Get persons from contact
+    href: row/get-persons-from-contact-rows.md
+  - name: Update person
+    href: row/update-person-rows.md
+- name: Objectified SQL
+  href: osql/get-persons-from-contact-sodatareader.md
+  items:
+  - name: Get persons from contact (sodatareader)
+    href: osql/get-persons-from-contact-sodatareader.md
+  - name: Update person
+    href: osql/update-person-osql.md
+- name: Raw SQL
+  href: sql/add-person-picture-blobs-sql.md
+  items:
+  - name: Get persons from contact
+    href: sql/get-persons-from-contact-sql.md
+  - name: Update person
+    href: sql/update-person-sql.md
+  - name: Add person picture BLOBs
+    href: sql/add-person-picture-blobs-sql.md

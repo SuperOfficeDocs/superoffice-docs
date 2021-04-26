@@ -1,11 +1,10 @@
 ---
-title: saint_counters
+title: Counters
+uid: saint_counters
 description: SAINT counters
 author: {github-id}
 keywords:
-so.topic: concept          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: concept
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
@@ -15,7 +14,7 @@ so.topic: concept          # article, howto, reference, concept, guide
 SAINT counters are updated automatically as you do things.
 
 * When SAINT is enabled, whenever a contact or a project is created, a bunch of counter rows are created.
-* Whenever an appointment, document or sale is created, then the corresponding counter rows are updated.
+* Whenever an appointment, document, or sale is created, then the corresponding counter rows are updated.
 
 ## Example
 
@@ -62,9 +61,9 @@ SELECT * FROM countervalue where project_id =47 and sale_status in (1,2,4) and a
 * [statusdef table][3]
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/countervalue.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/statusvalue.md
-[3]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/statusdef.md
+[1]: ../../../database/docs/tables/countervalue.md
+[2]: ../../../database/docs/tables/statusvalue.md
+[3]: ../../../database/docs/tables/statusdef.md
 
 <!-- Referenced images -->
 [img1]: media/countervalue-table.png

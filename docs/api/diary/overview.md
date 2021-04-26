@@ -1,7 +1,8 @@
 ---
-title: diary      
+title: Diary
+uid: diary_ns_overview
 description: Diary
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic: concept

@@ -1,13 +1,11 @@
 ---
-# Mandatory fields.
-title: saint       # (Required) Very important for SEO.
-description: Saint
-author: {github-id}             # Your GitHub alias.
+title: SAINT
+uid: saint
+description: Sales intelligence SAINT
+author: {github-id}
 keywords: sale
 so.date: 05.11.2016
-so.topic: concept               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: concept
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

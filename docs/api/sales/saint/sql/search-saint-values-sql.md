@@ -1,11 +1,10 @@
 ---
-title: search_saint_values
+title: Search values
+uid: search_saint_values
 description: Searches on Saint values
 author: {github-id}
 keywords:
-so.topic: howto          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
@@ -69,7 +68,7 @@ SELECT * FROM CounterValue WHERE contact_id > 0 AND record_type = 5  AND direct
 * [countervalue table][1]
 
 <!-- Referenced links -->
-[1]:  https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/countervalue.md
+[1]:  ../../../database/docs/tables/countervalue.md
 
 <!-- Referenced images -->
 [img1]: ../media/countervalues-more.png

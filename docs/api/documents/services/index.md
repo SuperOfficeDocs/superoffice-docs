@@ -1,5 +1,6 @@
 ---
-title: document_services       
+title: Document services
+uid: document_services
 description: Document services
 author: Tony Yates
 so.date: 06.11.2008

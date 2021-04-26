@@ -1,0 +1,27 @@
+items:
+- name: Web services
+  href: services/index.md
+  items:
+  - name: Create
+    href: services/create.md
+  - name: Download
+    href: services/download.md
+  - name: Update
+    href: services/update.md
+  - name: Configure access
+    href: services/configure-access.md
+- name: Agents WebApi
+  href: agents-web-api/add-document-template.md
+  items:
+  - name: Add document template
+    href: agents-web-api/add-document-template.md
+  - name: Generate document
+    href: agents-web-api/generate-document.md
+- name: REST
+  href: rest/add-document-template.md
+  items:
+  - name: Add document template
+    href: rest/add-document-template.md
+  - name: Generate document
+    href: rest/generate-document.md
+

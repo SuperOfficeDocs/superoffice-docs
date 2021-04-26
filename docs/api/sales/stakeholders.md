@@ -1,11 +1,10 @@
 ---
-title: sale_stakeholders
+title: Stakeholders
+uid: sale_stakeholders
 description: Sale stakeholders
 author: {github-id}
 keywords: database
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: concept
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
