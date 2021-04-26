@@ -123,16 +123,16 @@ conceptualContent:
         url: ../../../data-access/docs/person/sql/update-person-sql.md
       - text: OSQL
         itemType: how-to-guide
-        url: ../../../data-access/docs/person/osql/update-person-osql
+        url: ../../../data-access/docs/person/osql/update-person-osql.md
       - text: Row
         itemType: how-to-guide
-        url: ../../../data-access/docs/person/row/update-person-rows
+        url: ../../../data-access/docs/person/row/update-person-rows.md
       - text: Entity
         itemType: how-to-guide
-        url: ../../../data-access/docs/person/entity/update-person-entity
+        url: ../../../data-access/docs/person/entity/update-person-entity.md
       - text: REST
         itemType: how-to-guide
-        url: ../../../data-access/docs/person/services/update-person-services
+        url: ../../../data-access/docs/person/services/update-person-services.md
 
     # Card
     - title: Database options

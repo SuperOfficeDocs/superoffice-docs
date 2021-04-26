@@ -8,5 +8,5 @@ items:
     expanded: true
   - name: API options
     href: ../../../data-access/docs/diary/toc.yml
-    topicHref: ../../../data-access/docs/diary/index.md
+    topicHref: ../../../data-access/docs/diary/overview.md
     expanded: true
