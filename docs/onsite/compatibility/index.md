@@ -26,6 +26,7 @@ We have tested WebTools for Mac 11.4.7460.1008 on MacOS Big Sur. We’ve conduct
 
 ![safari14.jpg][img2]
 
+
 We have tested SuperOffice 9.1 R03 Web and Service with Safari 14 browser on MacOS Big Sur. We’ve conducted the test on Big Sur Beta release as the final RTM is not yet released. We found several UI-related bugs both in Web and Service clients and logged in TFS (Web: 75607, 75606, 75608, Service: 75360, 75309). None of them are considered critical, hence we conclude the test as **Passed**. The report was made on September 29th 2020.
 
 <a href="../../assets/downloads/compatibility/safari14_bigsur.xlsx" download>Click to download report</a>
@@ -110,9 +111,9 @@ The objective of the test was to verify that SQL Express 2016m which is normally
 
 <a href="../../assets/downloads/compatibility/sql-server-2016-express.xlsx" download>Click to download report</a>
 
-![microsoft-sql.png][img13]
-
 ## SQL Server 2016
+
+![microsoft-sql.png][img13]
 
 Microsoft SQL Server 2016 has been tested successfully with SuperOffice 7.5 SR2 and SuperOffice 8.0 SR1, for all clients (Win, Web, CS, and Pocket) The report was made on March 8th 2016 using SQL Server 2016 version 13.0.1000.281 / CTP 3.3.
 
