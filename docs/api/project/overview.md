@@ -1,11 +1,10 @@
 ---
-title: add_project
+title: Add project
+uid: add_project
 description: Adding a project
 author: {github-id}
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

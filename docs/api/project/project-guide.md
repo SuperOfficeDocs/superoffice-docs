@@ -1,11 +1,10 @@
 ---
-title: project_guide
+title: Project guide
+uid: project_guide
 description: Guided project
 author: {github-id}
 keywords:
-so.topic: concept             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: concept
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
@@ -40,7 +39,7 @@ SELECT * FROM projStatus WHERE projstatus_id = (SELECT status_idx FROM project W
 
 ![ProjectStatusCurrent][img3]
 
-The different stages defined for a projects different statuses is found in the ProjectTypeStatusLink table:
+The different stages defined for a project's different statuses are found in the `ProjectTypeStatusLink` table:
 
 ```SQL
 SELECT * FROM projecttypestatuslink WHERE projtype_id = (SELECT type_idx FROM project WHERE project_id = 29)
@@ -57,7 +56,7 @@ SELECT * FROM PROJSTATUS WHERE ProjStatus_id IN
 
 ![ProjStatus][img5]
 
-The different tasks defined for a projects different statuses is found in the ProjectTypeStatusLink table:
+The different tasks defined for a projects different statuses is found in the `ProjectTypeStatusLink` table:
 
 ```SQL
 SELECT * FROM suggestedappointment WHERE projectTypeStatusLinkId = 2
@@ -65,7 +64,7 @@ SELECT * FROM suggestedappointment WHERE projectTypeStatusLinkId = 2
 
 ![SuggestedAppointment][img6]
 
-The different tasks defined for a projects different statuses is found in the ProjectTypeStatusLink table:
+The different tasks defined for a project's different statuses are found in the `ProjectTypeStatusLink` table:
 
 ```SQL
 SELECT * FROM suggesteddocument WHERE projectTypeStatusLinkId = 2
