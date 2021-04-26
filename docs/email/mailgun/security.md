@@ -83,7 +83,7 @@ In order not to face the blacklisting problem we recommend to **follow suggesti
 
 * [15 Tips to Avoid Email Blacklisting][8]
 
-Read more about blacklisting at [sendgrid.com][9]
+Read more about blacklisting at [sendgrid.com][9].
 
 ## Blocklist
 
@@ -103,13 +103,13 @@ In many cases, this can be caused by the fact that the recipient’s mail server
 
 Creating a mailing in SuperOffice Online, you define a sender address ('from:'). You can use any email address for this, as there are no restrictions. Let's say you are using a sender email address, which has the domain (email ending)"@yourdomain.com". When the mailing reaches the recipient mail server it sees that the mailing is sent from `customer.suocrm.com` domain. This can cause your newsletter to be identified as Spam.
 
-Read more about spam at [Wikipedia][10]
+Read more about spam at [Wikipedia][10].
 
 ### Spamtrap
 
  Spam traps are email addresses that may or may not exist and are used to judge your sender's reputation. The term "trap" refers to how these types of addresses are scattered throughout the internet to catch people either not using proper list building practices, harvesting emails, purchasing lists from a third party, or marketers who have poor list hygiene (whether they know it or not). "Honeypot" or "Planted" Traps email addresses have been intentionally created to trap spammers searching the millions of websites on the Internet for any address they can find. These traps are never published and do not belong to a real person thus could never "opt-in" to any list since it is impossible for the address to initiate, respond or give consent to having received an email of any kind. They are used by anti-spam groups to catch spammers, monitor and collect spam. If you send an email to one of these traps, you will get exposed for using illegal marketing practices and you will get blacklisted which will seriously harm both your delivery and your reputation.
 
-Read more about spam traps at [Wikipedia][11]
+Read more about spam traps at [Wikipedia][11].
 
 ### Spam complaint
 
@@ -137,7 +137,7 @@ There isn't a way to stop email addresses from being spoofed. Anyone can spoof a
 
 To help prevent this, we recommend authenticating mail sent from your domain in two ways: by adding a digital signature to your messages that conform to the DomainKeys Identified Mail (DKIM) standard, and by creating SPF records.
 
-Read more about spoofing as [Wikipedia][12]
+Read more about spoofing on [Wikipedia][12].
 
 ## Phishing attacks
 
@@ -145,22 +145,23 @@ Phishing attacks depend on sending an email that pretends to be from a trusted 
 
 Spear Phishing: Spear phishing is a specific type of phishing attack targeted at a single individual inside an organization where the payoff for a successful breach is particularly high.
 
-Read more about Phishing attacks on [Valimail.com][13]
+Read more about Phishing attacks on [Valimail.com][13].
 
 ## DDOS attacks
 
-DDOS (denial-of-service) attacks are in the category of an email bomb, which is a form of net abuse consisting of sending huge volumes of email to an address in an attempt to overflow the mailbox or overwhelm the server where the email address is hosted in a denial-of-service attack  
-Read more about DDOS in [Wikipedia][14]
+DDOS (denial-of-service) attacks are in the category of an email bomb, which is a form of net abuse consisting of sending huge volumes of email to an address in an attempt to overflow the mailbox or overwhelm the server where the email address is hosted in a denial-of-service attack.
+
+Read more about DDOS in [Wikipedia][14].
 
 ## Limits and best practices
 
 ### Generally
 
-Unfortunately, even by having a perfectly functional mail system with all the above tools enforced you will not be 100% safe from the bad guys out there. Not all servers are using all three tools shown above. It is enough to look at the table shown in Wikipedia to see how that is possible: `http://en.wikipedia.org/wiki/Comparison_of_mail_servers`
+Unfortunately, even by having a perfectly functional mail system with all the above tools enforced you will not be 100% safe from the bad guys out there. Not all servers are using all three tools shown above. It is enough to look at the table shown in Wikipedia to see how that is possible: `http://en.wikipedia.org/wiki/Comparison_of_mail_servers`.
 
 Furthermore, there are some limits that you should always consider when dealing with SPF and DKIM:
 
-As already said above DKIM alone does not grant in any way that the sender server is allowed to send outgoing mail for the specific domain  
+As already said above DKIM alone does not grant in any way that the sender server is allowed to send outgoing mail for the specific domain.
 SPF is powerless with messages forged in a shared hosting scenario, as all the mail will appear as the same coming IP.
 
 ### For CRM Online
