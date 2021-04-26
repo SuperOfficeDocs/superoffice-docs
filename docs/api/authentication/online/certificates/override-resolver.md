@@ -79,7 +79,7 @@ This operation will fail if the token is not SAML or if the certificate is missi
 
 
 <!-- Referenced links -->
-[1]: validate-security-tokens.md
+[1]: ../../tokens/validate-security-tokens.md
 [2]: index.md
-[3]: ../superid-token.md
-[4]: override-resolver.md
+[3]: ../../tokens/superid-token.md
+[4]: ../../tokens/jwt-intro.md

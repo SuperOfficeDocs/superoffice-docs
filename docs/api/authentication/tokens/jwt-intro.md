@@ -99,12 +99,12 @@ Read more: [access tokens][4], [refresh tokens][5], [system user tokens][6], [be
 
 <!-- Referenced links -->
 [1]: https://tools.ietf.org/html/rfc7519
-[2]: oidc/claims-reference.md
+[2]: ../online/oidc/claims-reference.md
 [3]: id-token.md
 [4]: access-token.md
 [5]: refresh-token.md
-[6]: system-user/system-user-token.md
-[7]: auth-header-types.md
+[6]: ../online/system-user/system-user-token.md
+[7]:../online/auth-header-types.md
 
 <!-- Referenced images -->
 [img1]: media/id-token.png

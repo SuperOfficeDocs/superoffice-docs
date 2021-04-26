@@ -53,13 +53,13 @@ You will receive the system user token in the [JWT claim][6], or `id_token`.
 It is up to the application to securely store the system user token.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/overview.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/tenant-status/index.md
+[1]: ../../../../../superoffice-docs/docs/apps/overview.md
+[2]: ../../../../../superoffice-docs/docs/apps/tenant-status/index.md
 [3]: system-user-flow.md
 [4]: get-system-user-ticket.md
 [5]: system-user-ticket.md
-[6]: ../superid-token.md
-[7]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/provisioning/get-consent.md
+[6]: ../../tokens/superid-token.md
+[7]: ../../../../../superoffice-docs/docs/apps/provisioning/get-consent.md
 
 <!-- Referenced images -->
 [img1]: media/non-interactive-token-flow.jpg

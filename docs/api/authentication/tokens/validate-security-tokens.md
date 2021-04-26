@@ -108,10 +108,10 @@ We also provide [.NET helper libraries][7], which you can download.
 <!-- Referenced links -->
 [1]: http://saml.xml.org/saml-specifications
 [2]: https://tools.ietf.org/html/rfc7519
-[3]: certificates/override-resolver.md
-[4]: certificates/index.md
+[3]: ../online/certificates/override-resolver.md
+[4]: ../online/certificates/index.md
 [5]: superid-token.md
 [6]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Core
 [7]: ../../assets/downloads.md
-[8]: oidc/metadata-document.md
+[8]: ../online/oidc/metadata-document.md
 [9]: https://www.nuget.org/packages/SuperOffice.WebApi

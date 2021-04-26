@@ -30,5 +30,5 @@ The console uses a **System.Threading.Timer** to mimic a long-running service t
 Other than the console window, there is not GUI for this application. The console window will display only those log messages that indicate the process steps.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/system-user/system-user-token.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/superid-token.md
+[1]: ../../authentication/online/system-user/system-user-token.md
+[2]: ../../authentication/tokens/superid-token.md
