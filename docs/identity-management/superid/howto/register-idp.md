@@ -1,12 +1,12 @@
 ---
 title: register_idp
 description: Register identity provider (domain name)
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
-so.topic: guide                      # article, howto, reference, concept, guide
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Register identity provider (domain name)
@@ -89,30 +89,22 @@ You can find additional domains in your Azure Active Directory under **Custom d
 
 * Repeat the process outlined on this page with the new domain name.
 
-**To register a sub-domain:**
-
-* Submit the form below and we will add it manually. For example, for our main domain `SuperOffice.**com**`, we have a sub-domain `SuperOffice.**no**`.
-
-**To register a custom domain name:**
-
-* Submit the form below and we will add it manually. For example, for our main domain `SuperOffice.com`, we have a custom domain `suocrm.com`
-
-![image9lq1a.png][img9]
+**To register a sub-domain name or custom domain name:**
 
 1. [Register identity provider][1]
-2. Your primary domain will be registered in SuperID
-3. Fill out the form for subdomains and custom domain names
-4. We will manually add those subdomains and custom domain names
-5. Repeat the process for other top-level domain
+2. Your primary domain will be registered in SuperID.
+3. Fill out the [form for sub-domains and custom domain names][5].
+4. We will manually add those subdomains and custom domain names.
+5. Repeat the process for other top-level domain.
 
-> [!NOTE]
-> If you do not use a custom domain name or subdomain name for your UPN/SuperOffice usernames, you do not need to fill out the form for subdomains and custom domain names.
+![image9lq1a.png][img9]
 
 <!-- Referenced links -->
 [1]: map-idp-usernames.md
 [2]: https://id.superoffice.com/identityprovider/register
 [3]: complete-user-transition.md
 [4]: https://docs.microsoft.com/en-us/azure/active-directory/enterprise-users/domains-manage/
+[5]: https://community.superoffice.com/en/technical/forms/register-sub-idp/
 
 <!-- Referenced images -->
 [img1]: media/choose-idp.png
