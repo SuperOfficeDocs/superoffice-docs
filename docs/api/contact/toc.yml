@@ -1,0 +1,61 @@
+items:
+- name: Overview
+  href: overview.md
+- name: Interests
+  href: interests.md
+- name: Web services
+  href: services/create-contact-services.md
+  items:
+  - name: Create contact
+    href: services/create-contact-services.md
+  - name: Create contact (REST)
+    href: services/create-contact-rest.md
+  - name: Create contact WebApi agents
+    href: services/create-contact-webapi-agents.md
+  - name: Get contact
+    href: services/get-contact-via-services-layer.md
+  - name: Get all contacts (REST)
+    href: services/get-all-contacts-rest.md
+  - name: List interests for contact
+    href: services/list-interests-for-contact-services.md
+  - name: Set interest on/off
+    href: services/set-interest-on-off-services.md
+- name: Entities
+  href: entity/create-contact-entity.md
+  items:
+  - name: Create contact
+    href: entity/create-contact-entity.md
+  - name: Create contact (in entity)
+    href: entity/create-contact-entity-in-entity.md
+  - name: Create contact (in collection)
+    href: entity/create-contact-entity-in-collection.md
+  - name: Get contact
+    href: entity/get-contact-via-entities-layer.md
+  - name: Get interests for contact
+    href: entity/get-interests-for-contact-entity.md
+  - name: Set interest on/off
+    href: entity/set-interest-on-off-entity.md
+- name: Rows
+  href: row/add-new-contact-interest.md
+  items:
+  - name: Create contact (Row)
+    href: row/create-contact-row.md
+  - name: Create contact (Rows)
+    href: row/create-contact-rows.md
+  - name: Add new contact interest
+    href: row/add-new-contact-interest.md
+- name: Objectified SQL
+  href: osql/create-contact-osql.md
+  items:
+  - name: Create contact
+    href: osql/create-contact-osql.md
+
+- name: Raw SQL
+  href: sql/create-contact-sql.md
+  items:
+  - name: Create contact
+    href: sql/create-contact-sql.md
+  - name: Get contact details
+    href: sql/get-contact-details-sql.md
+  - name: Get interests
+    href: sql/get-interests-sql.md
