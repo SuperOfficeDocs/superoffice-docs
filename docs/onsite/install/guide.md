@@ -60,6 +60,10 @@ For Win app users, this folder must be shared, the user must be able to create a
 
 * [Guide][8]
 
+## Install Service
+
+* [Guide][9]
+
 <!-- Referenced links -->
 [1]: iis/index.md
 [2]: database/index.md
@@ -69,3 +73,4 @@ For Win app users, this folder must be shared, the user must be able to create a
 [6]: win-client/index.md
 [7]: web-client/index.md
 [8]: netserver/index.md
+[9]: ../../service/install/index.html#install-service
