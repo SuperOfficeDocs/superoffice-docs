@@ -1,11 +1,10 @@
 ---
-title: get_contact_by_saint_value
+title: Get contact by vale 
+uid: get_contact_by_saint_value
 description: Search for a contact with a given saint value
 author: {github-id}
 keywords:
-so.topic: howto          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
