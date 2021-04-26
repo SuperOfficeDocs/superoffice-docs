@@ -22,27 +22,39 @@ and one selection for where to store the file created based on this template: **
 
 This will store the template in the O365 cloud or Google cloud, and when the user uses this template - the document created will also be saved in the O365 or Google cloud and opened with Google Drive or Word Online.
 
-1. Open SuperOffice Admin, go to Lists, choose **Document - Template**
+Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
 
-![x][img1]
+![imageh3map.png][img1]
+
+1. Open SuperOffice Admin, go to Lists, choose **Document - Template**
 
 2. Click **Add**.
 
-3. Add template file
+3. Add template file:
 
-    * Enter a name
-    * Set **Store template in** to either "Google" or "Office365"
-    * Choose the source of the new template
-    * Click **Save**
+    * Enter a name.
+    * Set **Store template in** to either "Google" or "Office365".
+    * Choose the source of the new template (create, upload, or copy).
+    * Click **Save**.
 
-![x][img2]
+    ![x][img2]
 
-4. Choose where to store document created by this template
+4. Optionally edit the template name, if required, and click **Edit** to edit the template file itself.
 
-    * Set **Document stored in** to either  "Google" or "Office365"
-    * Click **Save**
+5. Enter the required information in the **Details** and **Languages** tabs:
 
-![x][img3]
+    * Select **Direction** (outgoing or incoming)
+    * Choose where to store document created by this template: set **Document stored in** to either  "Google" or "Office365".
+    * Enter a value in the **Our reference (default)** field using [template variables][1]. For example `auth` for the sender’s first and last names.
+    * Optionally, enter a description.
+
+    ![x][img3]
+
+6. Click **Save**. The Document template is now available in the CRM client:
+
+![imagedmnmi.png][img4]
+
+![image6r9sc.png][img5]
 
 ## Considerations
 
@@ -86,7 +98,12 @@ All documents written in SuperOffice will be stored in the provider's cloud if t
 
 * Moving existing templates to or from SuperOffice and O365 SharePoint can be performed in the Admin client
 
+<!-- Referenced links -->
+[1]: ../templates/index.md
+
 <!-- Referenced images -->
-[img1]: media/template1.png
+[img1]: media/imageh3map.png
 [img2]: media/template3.png
 [img3]: media/template3b.png
+[img4]: media/imagedmnmi.png
+[img5]: media/image6r9sc.png

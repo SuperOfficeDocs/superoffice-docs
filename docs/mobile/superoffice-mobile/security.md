@@ -23,6 +23,7 @@ Mobile CRM uses local caching to speed up data access – this data is stored lo
 ### Local storage
 
 Mobile CRM saves data that is accessed in a local SQLite database. This is for all data that is shown in the Mobile CRM application, except documents.
+
 Data that the user does not have access to is not saved. The data is initially saved forever but is periodically updated when accessed again.
 All local data is erased if Mobile CRM is removed from the device, reconfigured to a new installation, or if a new user logs in.
 Both [iOS][1] and [Android][2] have default support for encrypting all content if a pin code or password is used to lock the device.

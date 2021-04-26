@@ -85,6 +85,10 @@ You may want to set a new primary domain name for your Azure AD organization. Wh
 
 You can find additional domains in your Azure Active Directory under **Custom domain names**.
 
+![10][img10]
+
+![11][img11]
+
 **To register another top-level domain name:**
 
 * Repeat the process outlined on this page with the new domain name.
@@ -95,7 +99,7 @@ You can find additional domains in your Azure Active Directory under **Custom d
 2. Your primary domain will be registered in SuperID.
 3. Fill out the [form for sub-domains and custom domain names][5].
 4. We will manually add those subdomains and custom domain names.
-5. Repeat the process for other top-level domain.
+5. Repeat the process for other top-level domains.
 
 ![image9lq1a.png][img9]
 
@@ -116,3 +120,5 @@ You can find additional domains in your Azure Active Directory under **Custom d
 [img7]: media/confirmation.png
 [img8]: media/signin-domain.png
 [img9]: media/register-subdomains.png
+[img10]: media/image3awzj.png
+[img11]: media/imagesw25.png
