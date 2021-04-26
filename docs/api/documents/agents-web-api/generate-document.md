@@ -1,12 +1,10 @@
 ---
-# Mandatory fields.
-title: generate_document       # (Required) Very important for SEO.
-description: Generate a document # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Generate document
+uid: generate_document
+description: Generate a document
+author: {github-id}
 keywords: document,webapi,agents
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: soarc_document_plugin       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to create a managed document plugin # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: SO_Arc document plugin
+uid: soarc_document_plugin
+description: How to create a managed document plugin
 author: Tony Yates
 so.date: 06.03.2006
 keywords:
-so.topic: howto                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite             # cloud or onsite
+so.topic: howto
+so.envir: onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
