@@ -1,0 +1,70 @@
+### YamlMime:SubCategory
+
+title: Cloud document integrations
+summary: ""
+
+metadata:
+  title: Cloud document integrations
+  description: ""
+  ms.topic: landing-page
+  ms.date: 04.26.2021
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+
+  # Card
+  - title: Learn about cloud integrations
+    linkLists:
+      - linkListType: learn
+        links:
+          - text: Introduction
+            url: overview.md
+      - linkListType: how-to-guide
+        links:
+          - text: Set up cloud document integration
+            url: set-up.md
+          - text: Configure cloud document handling
+            url: configure.md
+
+  # Card
+  - title: G-suite document integration
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Introduction
+            url: g-suite/index.md
+          - text: Security
+            url: g-suite/security.md
+      - linkListType: reference
+        links:
+          - text: Requirements
+            url: g-suite/requirements.md
+      - linkListType: how-to-guide
+        links:
+          - text: Quick start
+            url: g-suite/getting-started.md
+          - text: Set up
+            url: g-suite/set-up.md
+
+# Card
+  - title: Office 365 document integration
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Introduction
+            url: office-365/index.md
+          - text: Security
+            url: office-365/security.md
+      - linkListType: reference
+        links:
+          - text: Requirements
+            url: office-365/requirements.md
+      - linkListType: how-to-guide
+        links:
+          - text: Prepare SharePoint for set-up
+            url: office-365/prepare-sharepoint.md
+          - text: Set up
+            url: office-365/set-up.md
+          - text: Troubleshooting
+            url: office-365/troubleshooting.md

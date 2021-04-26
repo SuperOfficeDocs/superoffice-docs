@@ -20,12 +20,20 @@ highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   items:
     # Card
-    - title: "Office 365 document integration"
+    - title: "Web Tools"
+      itemType: overview
+      url: ../webtools/overview.md
+    # Card
+    - title: "Cloud integrations"
       itemType: overview
       url: cloud/office-365/index.md
     # Card
-    - title: "G-suite document integration"
-      itemType: overview
+    - title: "Office 365"
+      itemType: concept
+      url: cloud/office-365/index.md
+    # Card
+    - title: "G-suite"
+      itemType: concept
       url: cloud/g-suite/index.md
     # Card
     - title: "Template variable reference"
@@ -38,73 +46,103 @@ conceptualContent:
   title: "" # < 60 chars (optional)
   summary: ""
   items:
+# Card
+    - title: Learn the essentials
+      summary: ""
+      links:
+      - text: Create a document
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/standard/documents/create-a-document/
+      - text: Create a follow-up
+        itemType: how-to-guide
+        url: https://community.superoffice.com/en/customer/learn/standard/documents/install-web-tools/
+
     # Card
-      - title: Cloud document integrations
-        summary: ""
-        links:
-          - url: cloud/index.md
-            itemType: overview
-            text: Intro
-          - url: cloud/configure.md
-            itemType: how-to-guide
-            text: Configure cloud document handling
-          - url: cloud/set-up.md
-            itemType: how-to-guide
-            text: Set up cloud document integration
+    - title: Videos
+      summary: ""
+      links:
+      - text: Create a document and link it to your project
+        itemType: video
+        url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
+      - text: Document management
+        itemType: video
+        url: https://www.youtube.com/watch?v=IUhlGOwXp0o
+      - text: Edit document template
+        itemType: video
+        url: https://www.youtube.com/watch?v=FnhcmjP-TgE
+
     # Card
-      - title: Office 365 document integration
-        summary: ""
-        links:
-        - url: cloud/office-365/index.md
-          itemType: concept
-          text: Intro
-        - url: cloud/office-365/requirements.md
+    - title: Configuration options
+      summary: ""
+      links:
+        - text: User preferences
           itemType: reference
-          text: Requirements
-        - url: cloud/office-365/security.md
-          itemType: reference
-          text: Security
-        - url: cloud/office-365/prepare-sharepoint.md
+          url: ../admin/user-preferences/index.md
+        - text: List Document template
           itemType: how-to-guide
-          text: Prepare SharePoint for set-up
-        - url: cloud/office-365/set-up.md
-          itemType: how-to-guide
-          text: Set up
-        - url: cloud/office-365/troubleshooting.md
-          itemType: how-to-guide
-          text: Troubleshooting
+          url: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/chap08/Document_template.htm
+
     # Card
-      - title: G-suite document integration
-        summary: ""
-        links:
-        - url: cloud/g-suite/index.md
-          itemType: concept
-          text: Intro
-        - url: cloud/g-suite/requirements.md
-          itemType: reference
-          text: Requirements
-        - url: cloud/g-suite/security.md
-          itemType: reference
-          text: Security
-        - url: cloud/g-suite/set-up.md
-          itemType: how-to-guide
-          text: Set up
-        - url: cloud/g-suite/getting-started.md
-          itemType: get-started
-          text: Quick-start
+    - title: UI options
+      summary: ""
+      links:
+      - text: Web panels
+        itemType: overview
+        url: ../../../user-interface/docs/web-panels/index.md
+      - text: SoProtocol - open dialog
+        itemType: how-to-guide
+        url: ../../../user-interface/docs/soprotocol/open-dialog.md
+
     # Card
-      - title: Document templates
-        summary: ""
-        links:
-        - url: templates/index.md
-          itemType: concept
-          text: Intro
-        - url: templates/quote/index.md
-          itemType: concept
-          text: Quote documents
-        - url: templates/troubleshooting.md
-          itemType: how-to-guide
-          text: Troubleshooting
+    - title: Data options
+      summary: ""
+      links:
+      - text: Custom fields
+        itemType: overview
+        url: ../../../data-access/docs/custom-fields/index.md
+
+    # Card
+    - title: Actions options
+      summary: ""
+      links:
+      - text: Overview
+        itemType: overview
+        url: ../automation/index.yml
+      - text: Triggers
+        itemType: concept
+        url: ../automation/trigger/index.md
+
+    # Card
+    - title: API options
+      summary: ""
+      links:
+      - text: CRMScript
+        itemType: concept
+        url: ../../../crmscript/docs/documents/index.md
+      - text: REST
+        itemType: how-to-guide
+        url: ../../../data-access/docs/documents/rest/generate-document.md
+      - text: Agents WebApi
+        itemType: how-to-guide
+        url: ../../../data-access/docs/documents/agents-web-api/generate-document.md
+      - text: Services
+        itemType: how-to-guide
+        url: ../../../data-access/docs/documents/services/index.md
+      - text: SO_Arc document plugin
+        itemType: how-to-guide
+        url: ../../../data-access/docs/documents/plugins/soarc-document-plugin.md
+
+    # Card
+    - title: Database options
+      summary: ""
+      links:
+      - text: Document table
+        itemType: reference
+        url: ../../../database/docs/tables/document.md
+      - text: DocTmpl table
+        itemType: reference
+        url: ../../../database/docs/tables/doctmpl.md
+
 # Card with summary style
 additionalContent:
   # Supports up to 3 sections
@@ -112,6 +150,16 @@ additionalContent:
     - title: "" # < 60 chars (optional)
       summary: "" # < 160 chars (optional)
       items:
+      # Card
+      - title: Document templates
+        links:
+        - url: templates/index.md
+          text: Intro
+        - url: templates/quote/index.md
+          text: Quote documents
+        - url: templates/troubleshooting.md
+          text: Troubleshooting
+
       # Card
       - title: ODF
         links:
@@ -133,5 +181,6 @@ additionalContent:
           text: Enable debug
         - url: ribbons/troubleshooting.md
           text: Troubleshooting
+
   # footer (optional)
-  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
+  footer: "Contribute to NetServer docs. Read our [contributor guide](../../../contribution/index.yml)."

@@ -94,4 +94,4 @@ You may also check the domain name via G Suite Toolbox Dig (Google MX record lo
 [4]: http://www.google.com/accounts/UpdateAccountRecoveryOptions
 [5]: https://toolbox.googleapps.com/apps/dig/
 [6]: https://online.superoffice.com/
-[7]: ../index.md
+[7]: ../overview.md

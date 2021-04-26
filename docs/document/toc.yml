@@ -1,10 +1,9 @@
 items:
 - name: Document
-  topicHref: index.yml
   expanded: true
   items:
   - name: Cloud document integrations
-    href: cloud/index.md
+    href: cloud/overview.md
     expanded: true
     items:
     - name: Configure cloud document handling
@@ -102,3 +101,6 @@ items:
         href: templates/quote/mergefields.md
     - name: Troubleshooting
       href: templates/troubleshooting.md
+  - name: API options
+    href: ../../../data-access/docs/documents/toc.yml
+    expanded: true
