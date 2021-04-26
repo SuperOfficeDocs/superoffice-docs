@@ -54,4 +54,4 @@ Authorization: Bearer 8A:Cust12345.AGYA...MgA2ADcANQA5AA==
 > Available only to SuperOffice CRM Online. Not supported for onsite.
 
 <!-- Referenced links -->
-[1]: access-token.md
+[1]: ../tokens/access-token.md

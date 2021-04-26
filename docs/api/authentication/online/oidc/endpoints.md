@@ -50,9 +50,9 @@ The end session endpoint can be used to trigger single sign-out (see [spec][6].
 The JSON Web Key Set (JWKS) is a set of keys which contains the public keys used to verify any JSON Web Token (JWT) issued by the SuperID.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/app-envir.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/provisioning/get-consent.md
-[3]: ../id-token.md
-[4]: ../access-token.md
-[5]: ../refresh-token.md
+[1]: ../../../../../superoffice-docs/docs/apps/getting-started/app-envir.md
+[2]: ../../../../../superoffice-docs/docs/apps/provisioning/get-consent.md
+[3]: ../../tokens/id-token.md
+[4]: ../../tokens/access-token.md
+[5]: ../../tokens/refresh-token.md
 [6]: https://openid.net/specs/openid-connect-session-1_0.html#RPLogout

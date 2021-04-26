@@ -125,9 +125,9 @@ There are two types of Authorization Code Flow. The standard as described below,
 | `id_token` | JSON Web Token or JWT, which consists of a Header, Payload, and Signature. The claims in the token form part of the payload. |
 
 <!-- Referenced links -->
-[1]: ../id-token.md
-[3]: ../access-token.md
-[4]: ../refresh-token.md
+[1]: ../../tokens/id-token.md
+[3]: ../../tokens/access-token.md
+[4]: ../../tokens/refresh-token.md
 [5]: https://tools.ietf.org/html/rfc7636
 [6]: endpoints.md
 

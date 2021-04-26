@@ -76,16 +76,16 @@ The hybrid flow offers more flexibility with this token flow, but it’s **less 
 <!-- Referenced links -->
 [1]: ../oauth-2-intro.md
 [2]: iframe-idp-auth.md
-[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/overview.md
+[3]: ../../../../../superoffice-docs/docs/apps/overview.md
 [4]: endpoints.md
-[5]: ../id-token.md
-[6]: ../jwt-intro.md
+[5]: ../../tokens/id-token.md
+[6]: ../../tokens/jwt-intro.md
 [7]: claims-scope.md
 [8]: auth-code-flow.md
 [9]: implicit-flow.md
 [10]: hybrid-flow.md
-[11]: ../access-token.md
-[12]: ../refresh-token.md
+[11]: ../../tokens/access-token.md
+[12]: ../../tokens/refresh-token.md
 
 <!-- Referenced images -->
 [img1]: media/keyplayers.jpg

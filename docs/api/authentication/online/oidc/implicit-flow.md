@@ -93,7 +93,7 @@ The client application can validate the ID token, and use the access token and t
 
 <!-- Referenced links -->
 [1]: endpoints.md
-[2]: ../id-token.md
+[2]: ../../tokens/id-token.md
 [3]: claims-scope.md
-[4]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/redirects/index.md
-[5]: ../access-token.md
+[4]: ../../../../../superoffice-docs/docs/apps/redirects/index.md
+[5]: ../../tokens/access-token.md

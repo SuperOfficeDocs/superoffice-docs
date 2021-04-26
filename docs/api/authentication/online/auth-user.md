@@ -50,7 +50,7 @@ This procedure uses an [Implicit Flow][1] request. The **client ID** is necessar
 
 <!-- Referenced links -->
 [1]: oidc/implicit-flow.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/terminology.md
-[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/redirects/index.md
-[4]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/app-envir.md
-[5]: validate-security-tokens.md
+[2]: ../../../../superoffice-docs/docs/apps/terminology.md
+[3]: ../../../../superoffice-docs/docs/apps/redirects/index.md
+[4]: ../../../../superoffice-docs/docs/apps/getting-started/app-envir.md
+[5]: ../tokens/validate-security-tokens.md
