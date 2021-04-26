@@ -73,4 +73,4 @@ For Win app users, this folder must be shared, the user must be able to create a
 [6]: win-client/index.md
 [7]: web-client/index.md
 [8]: netserver/index.md
-[9]: ../../service/install/index.html#install-service
+[9]: ../../service/install/index.md#install-service
