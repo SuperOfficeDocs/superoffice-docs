@@ -20,26 +20,27 @@ Feedback from customers that leads to the need for customization is related main
 ## Some customers question the fact that data (emails) are stored temporarily in the US
 
 Most of our customers are located in Europe, and we use mailservers located in Europe when sending from the domain smtp.eu.mailgun.org.
-The default Mailgun service for customers is localted in EU. 
+The default Mailgun service for customers is located in EU. 
 
->[!Note]
-If you checked the mails that are sent and noticed the IP address in the header, ie.  141.193.32.154.
-Using https://www.iplocation.net/ip-lookup to lookup the IP it reports it to be located in US. They expected it to be located in Germany, what is the reason for this?
+> [!Note]
+> If you checked the mails that are sent and noticed the IP address in the header, ie.  141.193.32.154.
+> Using https://www.iplocation.net/ip-lookup to lookup the IP it reports it to be located in US. They expected it to be located in Germany, what is the reason for this?
 >
->Our EU infrastructure is located at the AWS datacenter in Frankfurt, Germany (including the dedicated IPs). However, AWS advertises all their IPs from the same two ASNs. BYOIP process does all the registration of those IPs in the US, but the IPs themselves are advertised on border devices in Frankfurt. As a result, many lookups will only show this US registration data, leading to the false assumption that the IPs themselves are located in the EU. So, while the DNS may show the registration within the US, the actual turrets are housed within the EU.
+> Our EU infrastructure is located at the AWS datacenter in Frankfurt, Germany (including the dedicated IPs). However, AWS advertises all their IPs from the same two ASNs. BYOIP process does all the registration of those IPs in the US, but the IPs themselves are advertised on border devices in Frankfurt. As a result, many lookups will only show this US registration data, leading to the false assumption that the IPs themselves are located in the EU. So, while the DNS may show the registration within the US, the actual turrets are housed within the EU.
 
 Customers who still use Mailgun service in the US:
 
 For a few older customers who already are set up to use Mailgun service in the US, and has not been moved automatically due to their technical setup, can change to EU by contacting support.
 Data is processed and stored outside EU and even if Mailgun Inc is Privacy Shield compliant and have signed a DPA with SuperOffice, and they object on a principal basis.
 
->In 2020 the European Court of Justice made a ruling that says the EU-US Privacy Shield (the agreement between the EU and the US that should ensure safe transfer of personal data from the EU to the US), is now illegal. This is now known as the Schrems II ruling.
+> [!TIP]
+> In 2020 the European Court of Justice made a ruling that says the EU-US Privacy Shield (the agreement between the EU and the US that should ensure safe transfer of personal data from the EU to the US), is now illegal. This is now known as the Schrems II ruling.
 >
->The SuperOffice CRM mailing feature is using an American cloud service provider; Mailgun Inc. for distributing mass-emails and for email-correspondence related to customer service tickets. This service has been protected by the Privacy Shield agreement which no longer is valid (after 2020).
-Mailgun Inc. however also provides a Datacenter located in EU and we have move all our customers to this location. This was done as automatic as possible and without any cost on your part. By doing this, the SuperOffice CRM Online solution is fully GDPR compliant and satisfies all requirements for privacy data protection set out by this regulation.
+> The SuperOffice CRM mailing feature is using an American cloud service provider; Mailgun Inc. for distributing mass-emails and for email-correspondence related to customer service tickets. This service has been protected by the Privacy Shield agreement which no longer is valid (after 2020).
+> Mailgun Inc. however also provides a Datacenter located in EU and we have move all our customers to this location. This was done as automatic as possible and without any cost on your part. By doing this, the SuperOffice CRM Online solution is fully GDPR compliant and satisfies all requirements for privacy data protection set out by this regulation.
 If you need more information about the Schrems II ruling, we suggest you search your national Data Protection authority website for additional information.
 >
->For those customers who have set up a DKIM towards Mailguns datacenter located in US, to be GDPR complient you need to set up a new DKIM towards the datacenter located in EU as soon as possible.
+> For those customers who have set up a DKIM towards Mailgun's datacenter located in US, to be GDPR compliant you need to set up a new DKIM towards the datacenter located in EU as soon as possible.
 
 
 ## Some customers are not happy with some security risk involved in using this kind of mailing service (SPF, DKIM)
