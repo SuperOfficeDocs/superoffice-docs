@@ -1,0 +1,190 @@
+items:
+- name: Overview
+  href: overview.md
+- name: Compatibility
+  href: compatibility.md
+- name: Config
+  href: config.md
+- name: Error codes
+  href: error-codes.md
+- name: Field types
+  href: field-types.md
+- name: Notification types
+  href: notification-types.md
+- name: API reference (ports)
+  href: ports/index.md
+  items:
+  - name: Admin
+    href: ports/admin/index.md
+    items:
+    - name: CheckAgentVersion
+      href: ports/admin/checkAgentVersion.md
+    - name: GetAgent
+      href: ports/admin/getAgent.md
+    - name: GetErrorMessage
+      href: ports/admin/getErrorMessage.md
+    - name: GetModulePaths
+      href: ports/admin/getModulePaths.md
+    - name: GetTag
+      href: ports/admin/getTag.md
+    - name: GetUser
+      href: ports/admin/getUser.md
+    - name: GetUserById
+      href: ports/admin/getUserById.md
+    - name: GetUsers
+      href: ports/admin/getUsers.md
+    - name: SetUser
+      href: ports/admin/setUser.md
+  - name: Customer (center)
+    href: ports/customer/index.md
+    items:
+    - name: Addattachment
+      href: ports/customer/addattachment.md
+    - name: Addmessage
+      href: ports/customer/addmessage.md
+    - name: Checkpassword
+      href: ports/customer/checkpassword.md
+    - name: Closeticket
+      href: ports/customer/closeticket.md
+    - name: Deleteattachment
+      href: ports/customer/deleteattachment.md
+    - name: Faqfindentries
+      href: ports/customer/faqfindentries.md
+    - name: Faqfindentries2
+      href: ports/customer/faqfindentries2.md
+    - name: Faqgetcategory
+      href: ports/customer/faqgetcategory.md
+    - name: Faqgetentry
+      href: ports/customer/faqgetentry.md
+    - name: Faqgetgroupenties
+      href: ports/customer/faqgetgroupenties.md
+    - name: Faqgetmostpopularentries
+      href: ports/customer/faqgetmostpopularentries.md
+    - name: Faqgetmostreadentries
+      href: ports/customer/faqgetmostreadentries.md
+    - name: Faqscoreentry
+      href: ports/customer/faqscoreentry.md
+    - name: Findtickets
+      href: ports/customer/findtickets.md
+    - name: Getattachment
+      href: ports/customer/getattachment.md
+    - name: Getcategories
+      href: ports/customer/getcategories.md
+    - name: Getcategory
+      href: ports/customer/getcategory.md
+    - name: Getcompany
+      href: ports/customer/getcompany.md
+    - name: Getcustlangcategories
+      href: ports/customer/getcustlangcategories.md
+    - name: Getcustomer
+      href: ports/customer/getcustomer.md
+    - name: Geterrormessage
+      href: ports/customer/geterrormessage.md
+    - name: Getextrafields
+      href: ports/customer/getextrafields.md
+    - name: Getlanguages
+      href: ports/customer/getlanguages.md
+    - name: Getmessage
+      href: ports/customer/getmessage.md
+    - name: Getpriorities
+      href: ports/customer/getpriorities.md
+    - name: Getticket
+      href: ports/customer/getticket.md
+    - name: Login
+      href: ports/customer/login.md
+    - name: Loginascustomer
+      href: ports/customer/loginascustomer.md
+    - name: Logout
+      href: ports/customer/logout.md
+    - name: Newcustomer
+      href: ports/customer/newcustomer.md
+    - name: Newticket
+      href: ports/customer/newticket.md
+    - name: Sendpassword
+      href: ports/customer/sendpassword.md
+    - name: Setcustomer
+      href: ports/customer/setcustomer.md
+  - name: Ticket
+    href: ports/ticket/index.md
+    items:
+    - name: Addattachment
+      href: ports/ticket/addattachment.md
+    - name: Addmessage
+      href: ports/ticket/addmessage.md
+    - name: Addmessage2
+      href: ports/ticket/addmessage2.md
+    - name: Addmessage3
+      href: ports/ticket/addmessage3.md
+    - name: Allocusernotifications
+      href: ports/ticket/allocusernotifications.md
+    - name: Deleteextratablerow
+      href: ports/ticket/deleteextratablerow.md
+    - name: Editmessage
+      href: ports/ticket/editmessage.md
+    - name: Executescript
+      href: ports/ticket/executescript.md
+    - name: Findcompanies
+      href: ports/ticket/findcompanies.md
+    - name: Findcustomerfromemail
+      href: ports/ticket/findcustomerfromemail.md
+    - name: Findcustomers
+      href: ports/ticket/findcustomers.md
+    - name: Findtickets
+      href: ports/ticket/findtickets.md
+    - name: Finduser
+      href: ports/ticket/finduser.md
+    - name: Getactiveticketsstatus
+      href: ports/ticket/getactiveticketsstatus.md
+    - name: Getattachment
+      href: ports/ticket/getattachment.md
+    - name: Getcategories
+      href: ports/ticket/getcategories.md
+    - name: Getcompany
+      href: ports/ticket/getcompany.md
+    - name: Getcustomer
+      href: ports/ticket/getcustomer.md
+    - name: Getextrafields
+      href: ports/ticket/getextrafields.md
+    - name: Getextratable
+      href: ports/ticket/getextratable.md
+    - name: Getextratables
+      href: ports/ticket/getextratables.md
+    - name: Getmessage
+      href: ports/ticket/getmessage.md
+    - name: Getpriorities
+      href: ports/ticket/getpriorities.md
+    - name: Getreplytemplate
+      href: ports/ticket/getreplytemplate.md
+    - name: Getreplytemplatefolders
+      href: ports/ticket/getreplytemplatefolders.md
+    - name: Getreplytemplates
+      href: ports/ticket/getreplytemplates.md
+    - name: Getticket
+      href: ports/ticket/getticket.md
+    - name: Getusernotifications
+      href: ports/ticket/getusernotifications.md
+    - name: Insertintoextratable
+      href: ports/ticket/insertintoextratable.md
+    - name: Login
+      href: ports/ticket/login.md
+    - name: Loginasuser
+      href: ports/ticket/loginasuser.md
+    - name: Logout
+      href: ports/ticket/logout.md
+    - name: Newcompany
+      href: ports/ticket/newcompany.md
+    - name: Newcustomer
+      href: ports/ticket/newcustomer.md
+    - name: Newticket
+      href: ports/ticket/newticket.md
+    - name: Queryextratable
+      href: ports/ticket/queryextratable.md
+    - name: Setcompany
+      href: ports/ticket/setcompany.md
+    - name: Setcustomer
+      href: ports/ticket/setcustomer.md
+    - name: Setticket
+      href: ports/ticket/setticket.md
+    - name: Setuseridletime
+      href: ports/ticket/setuseridletime.md
+  

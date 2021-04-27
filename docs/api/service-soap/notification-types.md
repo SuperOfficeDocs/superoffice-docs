@@ -1,11 +1,14 @@
 ---
-title: services_soap_notifications
+title: Notification types
+uid: services_soap_notifications
 description: Services SOAP interface notifications
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
 ---
+
+# Notification types
 
 The following is a list of all types of notification and their numerical representation:
 

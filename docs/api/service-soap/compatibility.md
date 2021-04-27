@@ -1,7 +1,8 @@
 ---
-title: services_soap_compatibility
+title: Compatibility
+uid: services_soap_compatibility
 description: Services SOAP interface compatibility (interoperability)
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

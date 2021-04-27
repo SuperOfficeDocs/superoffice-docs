@@ -1,7 +1,8 @@
 ---
-title: services_soap_field_types
+title: Field types
+uid: services_soap_field_types
 description: Services SOAP interface field types
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

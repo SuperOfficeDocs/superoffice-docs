@@ -1,7 +1,8 @@
 ---
-title: services_soap_error_codes
+title: Error codes
+uid: services_soap_error_codes
 description: Services SOAP interface error codes
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
