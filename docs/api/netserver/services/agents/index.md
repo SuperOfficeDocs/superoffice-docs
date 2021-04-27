@@ -89,4 +89,4 @@ Through a given agent you can manipulate a carrier.
 
 <!-- Referenced links -->
 [1]: ../carriers/index.md
-[2]: ../../api-reference/netserver/services/SuperOffice.CRM.Services.yml
+[2]: ../../../api-reference/netserver/services/SuperOffice.CRM.Services.yml

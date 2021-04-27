@@ -107,4 +107,4 @@ Read more: [access tokens][4], [refresh tokens][5], [system user tokens][6], [be
 [7]:../online/auth-header-types.md
 
 <!-- Referenced images -->
-[img1]: media/id-token.png
+[img1]: ../media/id-token.png

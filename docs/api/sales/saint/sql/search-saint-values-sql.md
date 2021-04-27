@@ -68,7 +68,7 @@ SELECT * FROM CounterValue WHERE contact_id > 0 AND record_type = 5  AND direct
 * [countervalue table][1]
 
 <!-- Referenced links -->
-[1]:  ../../../database/docs/tables/countervalue.md
+[1]:  ../../../../../database/docs/tables/countervalue.md
 
 <!-- Referenced images -->
 [img1]: ../media/countervalues-more.png

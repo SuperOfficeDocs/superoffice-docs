@@ -39,7 +39,7 @@ The relations are one-to-one mostly. At this level, the database structure isnâ€
 So putting together a project display is just a matter of reading the right record, and then following the relations arrows out to the right tables.
 
 <!-- Referenced links -->
-[1]: ../lists/mdo-lists.md
+[1]: ../netserver/lists/mdo-lists.md
 
 <!-- Referenced images -->
 [img1]: media/so-project.gif
