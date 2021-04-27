@@ -5,7 +5,7 @@ items:
   items:
   - name: Introduction
     href: overview.md
-  - name: Superoffice mobile
+  - name: Superoffice Mobile
     expanded: true
     items:
     - name: Client requirements

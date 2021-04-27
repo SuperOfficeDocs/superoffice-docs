@@ -91,7 +91,7 @@ Mail sent from your customer to your SuperOffice Service:
 ### Cons
 
 * Other users of Mailgun (incl. CRM Online customer) can spoof this email address, even with SPF
-  * See details in section "Security and best practices".
+  * See details in section [Security and best practices][3].
 * Require to administer and setup of mail forwarding on your local mail account for incoming emails
 * Require DNS entry for SPF (cumbersome)
 * Requires registration, (administration) and DNS entry for DKIM (cumbersome)

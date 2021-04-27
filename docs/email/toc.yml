@@ -25,7 +25,7 @@ items:
     href: mailgun/index.yml
     expanded: true
     items:
-    - name: overview
+    - name: Overview
       href: mailgun/overview.md
     - name: Performance
       href: mailgun/amount-speed.md

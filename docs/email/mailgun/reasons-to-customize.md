@@ -19,11 +19,29 @@ Feedback from customers that leads to the need for customization is related main
 
 ## Some customers question the fact that data (emails) are stored temporarily in the US
 
-Customers do not like this because:
+Most of our customers are located in Europe, and we use mailservers located in Europe when sending from the domain smtp.eu.mailgun.org.
+The default Mailgun service for customers is located in EU. 
 
-Data is processed and stored outside the EU and even if Mailgun Inc is Privacy Shield compliant and has signed a DPA with SuperOffice, and they object on a principal basis.
+> [!Note]
+> If you checked the mails that are sent and noticed the IP address in the header, ie.  141.193.32.154.
+> Using https://www.iplocation.net/ip-lookup to lookup the IP it reports it to be located in US. They expected it to be located in Germany, what is the reason for this?
+>
+> Our EU infrastructure is located at the AWS datacenter in Frankfurt, Germany (including the dedicated IPs). However, AWS advertises all their IPs from the same two ASNs. BYOIP process does all the registration of those IPs in the US, but the IPs themselves are advertised on border devices in Frankfurt. As a result, many lookups will only show this US registration data, leading to the false assumption that the IPs themselves are located in the EU. So, while the DNS may show the registration within the US, the actual turrets are housed within the EU.
 
-What can we do to mitigate this? The default Mailgun service for new customers is now located in the EU. For older customers who already are set up to use Mailgun service in the US, can later this year change to EU.
+Customers who still use Mailgun service in the US:
+
+For a few older customers who already are set up to use Mailgun service in the US, and has not been moved automatically due to their technical setup, can change to EU by contacting support.
+Data is processed and stored outside EU and even if Mailgun Inc is Privacy Shield compliant and have signed a DPA with SuperOffice, and they object on a principal basis.
+
+> [!TIP]
+> In 2020 the European Court of Justice made a ruling that says the EU-US Privacy Shield (the agreement between the EU and the US that should ensure safe transfer of personal data from the EU to the US), is now illegal. This is now known as the Schrems II ruling.
+>
+> The SuperOffice CRM mailing feature is using an American cloud service provider; Mailgun Inc. for distributing mass-emails and for email-correspondence related to customer service tickets. This service has been protected by the Privacy Shield agreement which no longer is valid (after 2020).
+> Mailgun Inc. however also provides a Datacenter located in EU and we have move all our customers to this location. This was done as automatic as possible and without any cost on your part. By doing this, the SuperOffice CRM Online solution is fully GDPR compliant and satisfies all requirements for privacy data protection set out by this regulation.
+If you need more information about the Schrems II ruling, we suggest you search your national Data Protection authority website for additional information.
+>
+> For those customers who have set up a DKIM towards Mailgun's datacenter located in US, to be GDPR compliant you need to set up a new DKIM towards the datacenter located in EU as soon as possible.
+
 
 ## Some customers are not happy with some security risk involved in using this kind of mailing service (SPF, DKIM)
 
@@ -31,7 +49,7 @@ Customers do not like this because:
 
 SPF does not provide 100% security for the authenticity of outgoing emails. It does not prevent another crooked Mailgun customer to manipulate an email-senders address. The way mailing services (in general, not only Mailgun) are designed to perform and provide scalability and economies of scale, makes it currently not possible to close this vulnerability. It might not be a big issue, but some of our professional customers are aware of this and do not accept the risk. So we have to find another solution.
 
-## What can we do to mitigate this?
+What can we do to mitigate this?
 
 Let’s look at the possible ways we can change the setup to meet the arguments.
 
@@ -43,11 +61,11 @@ This change will affect where the emails are processed and stored, and if the ne
 
 ### The best solution for using email together with SuperOffice Online is to use the email addresses we supply as part of the mailing-service
 
-In our product, the customer can create addresses such as "info@companyname.suocrm.com" and "support@companyname.suocrm.com". If the customer accepts that replies to customer inquiries or mailings originate from these addresses, then there is no need to configure SPF and little risk of being caught by spam filters. You can still publish your own info@companyname.no address, but set it up to be forwarded to the address we supply. The end customer will experience that the reply is originating from another address than the one they sent to, but this should be of little concern.
+In our product, the customer can create addresses such as info@companyname.suocrm.com and support@companyname.suocrm.com. If the customer accepts that replies to customer inquiries or mailings originate from these addresses, then there is no need to configure SPF and little risk of being caught by spam filters. You can still publish your own info@companyname.no address, but set it up to be forwarded to the address we supply. The end customer will experience that the reply is originating from another address than the one they sent to, but this should be of little concern.
 
-See the option "ALTERNATIVE 1: CRM Online email service only"
+See the option [ALTERNATIVE 1: CRM Online email service only][1].
 
-Using any mailing service always represents some kind of trade-off. Changing to a private email-server does not necessary makes things perfect
+Using any mailing service always represents some kind of trade-off. Changing to a private email-server does not necessary makes things perfect.
 
 ## Be aware
 
@@ -77,3 +95,6 @@ Let’s remind ourselves and our customers why the Mailgun – service does a go
 * You handle the volumes of sending your emails
 * You handle the blacklisting of your IP address (email reputation management)
 * Do require you to administer and setup of mail forwarding to Mailgun on your local mail account for incoming emails (for example, bounce) and/or maintenance of "reply to" / "from" in your outgoing emails need to match your setup of how you plan to get your customers response emails back into SuperOffice Service via Mailgun.
+
+<!-- Referenced links -->
+[1]: overview.md
