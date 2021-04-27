@@ -14,9 +14,6 @@ so.client: online               # online, web, win, pocket, or mobile
 You need a system user ticket to perform non-interactive REST API calls. To get the ticket, you periodically invoke the web service endpoint and present your system user token.
 
 The [system user token][1] is embedded in the [SuperIdToken][2] that you received when you [validated][3] the JWT security token from the initial authentication.
-
-<a href="../../../assets/downloads/system-user-node-sample.zip" download>Click to download sample</a>
-
 ## Pre-requisites
 
 * [Client secret][5] (application is registered)
