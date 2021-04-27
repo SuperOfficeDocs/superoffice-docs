@@ -99,12 +99,12 @@ I want to thank Jose Aparicio (Scarp) for kicking off the experimentation, and c
 
 ## Downloads
 
-* <a href="../../assets/downloads/installdocplugin.bat.txt" download>InstallDocPlugin.bat.txt</a>
-* <a href="../../assets/downloads/soarcdocumentplugin.net.zip" download>SoArcDocumentPlugin.Net.zip</a>
-* <a href="../../assets/downloads/soarcdocumentplugin.net-7.5.zip" download>SoArcDocumentPlugin.Net(7.5).zip</a>
-* <a href="../../assets/downloads/documentplugins-winweb-7.5.zip" download>DocumentPlugins-WinWeb-7.5.zip</a>
-* <a href="../../assets/downloads/superoffice.testdocplugin-v8.zip" download>SuperOffice.TestDocPlugin-v8.zip</a>
-* <a href="../../assets/downloads/superoffice.testdocplugin_withcheckincheckout.zip" download>SuperOffice.TestDocPlugin-v8SR3.zip (with CheckInCheckOutLocking)</a>
+* [InstallDocPlugin.bat.txt](../../assets/downloads/InstallDocPlugin.bat.txt)
+* [SoArcDocumentPlugin.net.zip](../../assets/downloads/soarcdocumentplugin.net.zip)
+* [SoArcDocumentPlugin.Net(7.5).zip](../../assets/downloads/soarcdocumentplugin.net-7.5.zip)
+* [DocumentPlugins-WinWeb-7.5.zip](../../assets/downloads/documentplugins-winweb-7.5.zip)
+* [SuperOffice.TestDocPlugin-v8.zip](../../assets/downloads/superoffice.testdocplugin-v8.zip)
+* [SuperOffice.TestDocPlugin-v8SR3.zip (with CheckInCheckOutLocking)](../../assets/downloads/superoffice.testdocplugin_withcheckincheckout.zip)
 
 <!-- Referenced links -->
 

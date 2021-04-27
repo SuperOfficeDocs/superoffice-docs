@@ -63,11 +63,11 @@ Each connection will have to be able to inform ERP Sync about which actor types 
 * [Rank fields][5]
 
 <!-- Referenced links -->
-[1]: set-up-connection.md
-[2]:
-[3]: set-up-mapping.md
-[4]: set-up-defaults.md
-[5]:
+[1]: setup-connection.md
+[2]: client-gui.md
+[3]: setup-mapping.md
+[4]: setup-defaults.md
+[5]: ranking-fields.md
 
 <!-- Referenced images -->
 [img1]: media/sync-connector-plugin.png

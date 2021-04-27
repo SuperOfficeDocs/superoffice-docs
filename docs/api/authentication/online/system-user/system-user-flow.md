@@ -45,7 +45,7 @@ High-level intro to system user flow for non-interactive server-to-server commun
 [4]: ../../tokens/id-token.md
 [5]: ../oidc/claims-scope.md
 [6]: system-user-token.md
-[7]: ../superid-token.md
+[7]: ../../tokens/superid-token.md
 [8]: get-system-user-ticket.md
 
 <!-- Referenced images -->

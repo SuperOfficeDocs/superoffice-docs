@@ -200,7 +200,7 @@ Listed below are the different aspects of NetServer core APIs.
 * Entities: High-level business model classes that abstract multiple table joins.
 * Archive and MDO Providers: provide complex search capabilities across the entire database.
 
-[The highest level of NetServer][13] data access is the service-orientated architecture and consists of:
+The highest level of NetServer data access is the service-orientated architecture and consists of:
 
 * Web service endpoints based on WCF **SOAP** and **REST**ful WebAPI: IIS application used by SuperOffice Web and PocketCRM.
 * Web service proxies: Service agent pattern .NET assemblies used by clients to access the service endpoints.
@@ -245,8 +245,7 @@ Read more about each platform API in the SDK documentation.
 [6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/top_home.htm
 [8]: ../authentication/online/federated-auth.md
 [11]: ../netserver/services/reference/index.md
-[12]: ../netserver/what-is-netserver-part-2.md
-[13]: ../netserver/what-is-netserver-part-1.md
+[12]: ../netserver/what-is-netserver.md
 [15]: ../netserver/webhooks/index.md
 [17]: ../api-reference/webapi/index.md
 [18]: ../api-reference/netserver/core/index.md

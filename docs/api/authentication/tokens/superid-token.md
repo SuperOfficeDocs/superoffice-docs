@@ -53,7 +53,7 @@ public class SuperIdToken
 The **SuperIdToken** data type is located in the `SuperOffice.SuperID.Client.Tokens` namespace in the SuperOffice.Online.Core assembly.
 
 <!-- Referenced links -->
-[1]: auth-user-legacy.md
-[2]: auth-user.md
-[3]: oidc/claims-reference.md
-[4]: oauth-2-intro.md
+[1]: ../online/auth-user-legacy.md
+[2]: ../online/auth-user.md
+[3]: ../online/oidc/claims-reference.md
+[4]: ../online/oauth-2-intro.md

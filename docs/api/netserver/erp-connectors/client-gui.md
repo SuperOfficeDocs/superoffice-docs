@@ -35,7 +35,7 @@ GUI operations are beyond the scope here, but for understanding’s sake, we hav
   ![ALT][img4]
 
 <!-- Referenced links -->
-[1]: ../default-values.md
+[1]: default-values.md
 
 <!-- Referenced images -->
 [img1]: media/image011.png
