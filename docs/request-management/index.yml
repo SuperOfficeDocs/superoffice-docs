@@ -1,0 +1,194 @@
+### YamlMime:Category
+
+title: Requests
+summary: Requests is the main feature of SuperOffice Service. This is where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. 
+brand: devdocs
+
+metadata:
+  title: Requests
+  description: This is where you manage requests and enquiries that are in the system. You can also create internal and external requests, respond to incoming enquiries and obtain an overview of the statuses of all requests in the system. 
+  so.product: superoffice
+  so.topic: hub-page
+  so.collection: collection
+  author: Bergfrid Dias
+  so.author: digitaldiina
+  so.date: 04.27.2021
+
+# highlightedContent section (optional)
+# Maximum of 8 items
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  items:
+    # Card
+    - title: User-help pages
+      itemType: reference
+      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/Service/topics/ticket.html
+
+# conceptualContent section (optional)
+conceptualContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+  title: "" # < 60 chars (optional)
+  summary: ""
+  items:
+  # Card
+    - title: Learn the essentials
+      summary: ""
+      links:
+      - text: Request management
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/service/requests/
+      - text: How to reply to customers
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/service/requests/how-to-handle-a-request/
+      - text: Step-by-step request handling
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/service/requests/how-to-handle-requests-step-by-step/
+      - text: How to archive emails as requests
+        itemType: learn
+        url: https://community.superoffice.com/en/customer/learn/service/create/how-to-archive-emails-as-requests/
+
+    # Card
+    - title: Videos
+      summary: ""
+      links:
+      - text: How to manage customer requests
+        itemType: video
+        url: https://www.youtube.com/watch?v=2mRyStK5xPs
+      - text: How to register contact in Service
+        itemType: video
+        url: https://www.youtube.com/watch?v=lm-O4iwIX0I
+      - text: How to set up categories
+        itemType: video
+        url: https://www.youtube.com/watch?v=BMfdOQhm6mg
+      - text: How to register request from incoming call
+        itemType: video
+        url: https://www.youtube.com/watch?v=S4kihuWHZGY
+
+    # Card
+    - title: Configuration options
+      summary: ""
+      links:
+        - text: User preferences
+          itemType: reference
+          url: ../admin/user-preferences/index.md
+        - text: Category
+          itemType: how-to-guide
+          url: https://community.superoffice.com/documentation/help/en/CRM/9.2/UserHelp/Service/topics/admin.listCategories.html
+        - text: Priority
+          itemType: how-to-guide
+          url: https://community.superoffice.com/documentation/help/en/CRM/9.2/UserHelp/Service/topics/admin.listPriorities.html
+        - text: Request status
+          itemType: how-to-guide
+          url: https://community.superoffice.com/documentation/help/en/CRM/9.2/UserHelp/Service/topics/admin.listTicketStatuses.html
+        - text: Email
+          itemType: how-to-guide
+          url: https://community.superoffice.com/documentation/help/en/CRM/9.2/UserHelp/Service/topics/admin.listFilters.html
+        - text: SOAP ports
+          itemType: how-to-guide
+          url: https://community.superoffice.com/documentation/help/en/CRM/9.2/UserHelp/Service/topics/admin.soapConf.html
+
+    # Card
+    - title: UI options
+      summary: ""
+      links:
+      - text: Web panels
+        itemType: overview
+        url: ../../../user-interface/docs/web-panels/index.md
+      - text: SoProtocol
+        itemType: concept
+        url: ../../../user-interface/docs/soprotocol/index.md
+      - text: System design
+        itemType: how-to-guide
+        url: https://community.superoffice.com/documentation/help/en/CRM/9.2/UserHelp/Service/topics/blogic.html
+      - text: bLogic messages
+        itemType: reference
+        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/messages.md
+      - text: bLogic select message
+        itemType: reference
+        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/select-message.md
+      - text: bLogic select reply template
+        itemType: reference
+        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/select-reply-template.md
+      - text: bLogic ticket status
+        itemType: reference
+        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/ticket-status.md
+      - text: bLogic select ticket status
+        itemType: reference
+        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/select-ticket-status.md
+      - text: bLogic select request status
+        itemType: reference
+        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/select-request-status.md
+
+    # Card
+    - title: Data options
+      summary: ""
+      links:
+      - text: Custom fields
+        itemType: overview
+        url: ../../../data-access/docs/custom-fields/overview.md
+      - text: How to add user-defined fields
+        itemType: video
+        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+
+    # Card
+    - title: Actions options
+      summary: ""
+      links:
+      - text: Overview
+        itemType: overview
+        url: ../automation/index.yml
+      - text: Triggers
+        itemType: concept
+        url: ../automation/trigger/index.md
+      - text: Mailbox before save event
+        itemType: concept
+        url: ../automation/event-model/mailbox-before-save.md
+      - text: Mailbox after save event
+        itemType: concept
+        url: ../automation/event-model/mailbox-after-save.md
+      - text: Saving a request event
+        itemType: concept
+        url: ../automation/event-model/saving-a-request.md
+      - text: Webhooks - ticket events
+        itemType: reference
+        url: ../../../data-access/docs/netserver/webhooks/reference/ticket-events.md
+
+    # Card
+    - title: API options
+      summary: ""
+      links:
+      - text: CRMScript
+        itemType: concept
+        url: ../../../crmscript/docs/requests/index.md
+      - text: REST
+        itemType: reference
+        url: ../../../data-access/docs/api-reference/restful/rest/Ticket/index.md
+      - text: SOAP (services88)
+        itemType: reference
+        url: ../../../data-access/docs/api-reference/soap/Services88/Ticket.index.md
+      - text: SOAP (ticket port)
+        itemType: reference
+        url: ../../../data-access/docs/service-soap/ports/ticket/index.md
+
+    # Card
+    - title: Database options
+      summary: ""
+      links:
+      - text: Ticket table
+        itemType: reference
+        url: ../../../database/docs/tables/ticket.md
+      - text: Ticket type table
+        itemType: reference
+        url: ../../../database/docs/tables/ticket-type.md
+      - text: Ticket status table
+        itemType: reference
+        url: ../../../database/docs/tables/ticket-status.md
+      - text: Ticket priority table
+        itemType: reference
+        url: ../../../database/docs/tables/ticket-priority.md
+      - text: Reply template table
+        itemType: reference
+        url: ../../../database/docs/tables/reply-template.md
+      - text: Message table
+        itemType: reference
+        url: ../../../database/docs/tables/message.md
