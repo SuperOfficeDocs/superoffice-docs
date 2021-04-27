@@ -1,13 +1,11 @@
 ---
-# Mandatory fields.
-title: find_contact_by_udef       # (Required) Very important for SEO.
-description: Find a contact using a udef field # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Find contact by udef
+uid: find_contact_by_udef
+description: Find a contact using a user-defined field
+author: {github-id}
 so.date: 06.24.2016
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

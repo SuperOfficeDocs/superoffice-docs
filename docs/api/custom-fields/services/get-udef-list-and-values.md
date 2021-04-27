@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: get_udef_list_and_values_services       # (Required) Very important for SEO.
-description: How to display all user-defined fields using services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Get all user-defined fields
+uid: get_udef_list_and_values_services
+description: How to display all user-defined fields using services
+author: {github-id}
 so.date: 06.24.2016
 keywords: api-services
-so.topic: howto         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to display all user-defined fields

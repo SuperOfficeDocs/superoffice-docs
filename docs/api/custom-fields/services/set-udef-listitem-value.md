@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: set_udef_listitem_value_ws       # (Required) Very important for SEO.
-description: How to set a user-defined list item on a Udef field using services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: 
+uid: set_udef_listitem_value_ws
+description: How to set a user-defined list item on a Udef field using services
+author: {github-id}
 so.date:
 keywords: api-services
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to set a user-defined list item on a Udef field (services)

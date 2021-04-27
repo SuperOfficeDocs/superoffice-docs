@@ -1,5 +1,6 @@
 ---
-title: using_udefhelper
+title: UDEFHelper class
+uid: using_udefhelper
 description: How to use the UDFHelper class
 author: Tony Yates
 so.date: 01.17.2007

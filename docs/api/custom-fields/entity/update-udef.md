@@ -1,13 +1,11 @@
 ---
-# Mandatory fields.
-title: update_udef_entity       # (Required) Very important for SEO.
-description: How to update a Udef field # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Update user-defined field
+uid: update_udef_entity
+description: How to update a user-defined field
+author: {github-id}
 so.date:
 keywords: udefhelper
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

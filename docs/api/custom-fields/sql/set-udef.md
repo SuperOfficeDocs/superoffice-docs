@@ -1,5 +1,6 @@
 ---
-title: set_udef
+title: Set a user-defined field
+uid: set_udef_sql
 description: Set a user-defined field
 author:
 so.date:
@@ -49,7 +50,7 @@ INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "pre
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110406, 1164134228, 8, 4608, 13, 35, 39)
 ```
 
-**Udef large record - no field level log here because it is a new record:**
+**Udef large record - no field-level log here because it is a new record:**
 
 ```SQL
 INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "prev_record_id", "type", "associate_id", "tablenumber", "record_id") VALUES (110407, 1164134228, 8, 4352, 13, 36, 39)

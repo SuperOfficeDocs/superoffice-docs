@@ -1,5 +1,6 @@
 ---
-title: ns_class_udefhelper
+title: UDFHelper class and UDFInfo struct source
+uid: ns_class_udefhelper
 description: The definitive NetServer user-defined field lookup class
 author: Tony Yates
 so.date: 01.17.2007

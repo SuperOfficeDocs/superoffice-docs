@@ -1,5 +1,6 @@
 ---
-title: get_udef_field_value
+title: Get value of user-defined field
+uid: get_udef_field_value
 description: How to get the value of a user-defined field in NetServer
 author: Tony Yates
 so.date: 01.17.2007

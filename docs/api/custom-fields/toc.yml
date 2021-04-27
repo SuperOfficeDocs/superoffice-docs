@@ -1,0 +1,30 @@
+items:
+- name: Overview
+  href: overview.md
+- name: Web services
+  href: services/set-udef-listitem-value.md
+  items:
+  - name: Set udef list-item value
+    href: services/set-udef-listitem-value.md
+  - name: Get udef list and values
+    href: services/get-udef-list-and-values.md
+  - name: Find contact by udef
+    href: services/find-contact-by-udef.md
+- name: Entities
+  href: entity/get-udef-field-value.md
+  items:
+  - name: Set udef list-item value
+    href: entity/set-udef-listitem-value.md
+  - name: Get udef value
+    href: entity/get-udef-field-value.md
+  - name: Update udef
+    href: entity/update-udef.md
+  - name: Using UDFHelper
+    href: entity/using-udefhelper.md
+  - name: UDFHelper class
+    href: entity/udefhelper-class.md
+- name: SQL
+  href: sql/set-udef.md
+  items:
+  - name: Set udef
+    href: sql/set-udef.md

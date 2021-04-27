@@ -1,7 +1,8 @@
 ---
-title: custom_fields       
+title: Custom fields
+uid: custom_fields
 description: Custom fields
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: udef
 so.topic: concept
 ---
@@ -113,7 +114,7 @@ The **column ID** is the dictionary ID of the table and field used for storing t
 
 ## Column offset
 
-What is column offset? Column offset is the sequential place of the column in the table. This is zero-based number. For example:
+What is column offset? Column offset is the sequential place of the column in the table. This is a zero-based number. For example:
 
 **This is a visual representation of a table:**
 
@@ -140,13 +141,13 @@ Given this information, we can determine that the column identity values for the
 * [udappntsmall Table][7]
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/udeffield.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/udcontactsmall.md
-[3]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/udpersonsmall.md
-[4]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/udprojectsmall.md
-[5]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/udsalesmall.md
-[6]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/uddocsmall.md
-[7]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/udappntsmall.md
+[1]: ../../../database/docs/tables/udeffield.md
+[2]: ../../../database/docs/tables/udcontactsmall.md
+[3]: ../../../database/docs/tables/udpersonsmall.md
+[4]: ../../../database/docs/tables/udprojectsmall.md
+[5]: ../../../database/docs/tables/udsalesmall.md
+[6]: ../../../database/docs/tables/uddocsmall.md
+[7]: ../../../database/docs/tables/udappntsmall.md
 
 <!-- Referenced images -->
 [img1]: media/udef-field.png

@@ -1,12 +1,11 @@
 ---
-title: set_udef_listitem_value_entity
+title: Set user-defined list item value
+uid: set_udef_listitem_value_entity
 description: How to set a user-defined list item on a Udef field using entities
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: udefhelper
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
@@ -25,7 +24,7 @@ The following screenshot shows how the application displays the list of values f
 
 [!code-csharp[CS](includes/populate-listbox-entity.cs)]
 
-The above code segment shows how the population of the list box is done. To get the list items, the base class for the list table should be identified. This is retrieved with the `ListTableId` property of the udef field. Based on that ID, the `Task` table is identified as the base class for getting the list items.
+The above code segment shows how the population of the list box is done. To get the list items, the base class for the list table should be identified. This is retrieved with the `ListTableId` property of the user-defined field. Based on that ID, the `Task` table is identified as the base class for getting the list items.
 
 As shown below, the `TaskRows` are retrieved for the given table ID using the `GetFromCustomSearch` method of the `TaskRow` entity. Next, we have set the collection as the data source for the list box.
 
@@ -35,7 +34,7 @@ As shown below, the `TaskRows` are retrieved for the given table ID using the `G
 
 [!code-csharp[CS](includes/set-udef-entity.cs)]
 
-We have used the `SetValue` method of the `UdefHelper` of the contact to set the selected value. This method accepts the `progId`, which is used to refer a particular field, and the value to set as the updated value for the field.
+We have used the `SetValue` method of the `UdefHelper` of the contact to set the selected value. This method accepts the `progId`, which is used to refer to a particular field, and the value to set as the updated value for the field.
 
 Next, the `Save` method of the `Contact` entity is used to update the contact entity.
 
