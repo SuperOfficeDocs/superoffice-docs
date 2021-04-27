@@ -1,12 +1,12 @@
 ### YamlMime:Category
 
-title: Project
-summary: Projects and project guides
+title: Custom fields
+summary: User-defined fields, extra tables, and extra fields
 brand: devdocs
 
 metadata:
-  title: Project
-  description: "Project and project guides"
+  title: Custom fields
+  description: User-defined fields, extra tables, and extra fields
   so.product: superoffice
   so.topic: hub-page
   so.collection: collection
@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: User-help pages
       itemType: reference
-      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap05/Project.htm
+      url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/Service/topics/blogic.listExtraTables.html
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -34,26 +34,23 @@ conceptualContent:
     - title: Learn the essentials
       summary: ""
       links:
-      - text: Organize files and activities in projects
+      - text: How to create a user-defined field
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/projects/
-      - text: Create project
+        url: hhttps://community.superoffice.com/en/customer/learn/settings-maintenance/marketing/how-to-create-a-user-defined-field/
+      - text: How to create an extra field (Service)
         itemType: learn
-        url: https://community.superoffice.com/en/customer/learn/standard/projects/how-to-create-a-project/
+        url: https://community.superoffice.com/en/customer/learn/settings-maintenance/marketing/how-to-set-up-an-extra-field-for-a-contact/
 
     # Card
     - title: Videos
       summary: ""
       links:
-      - text: How to add project member to projet
+      - text: How to add a user-defined field
         itemType: video
-        url: https://www.youtube.com/watch?v=IaCy_2xwG6c
-      - text: How to link document to project
+        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+      - text: How to filter information
         itemType: video
-        url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
-      - text: How to add appointment to project
-        itemType: video
-        url: https://www.youtube.com/watch?v=YQr5B5IU7XY&t=1s
+        url: https://www.youtube.com/watch?v=HYYI4ZCl4S4&t=29s
 
     # Card
     - title: Configuration options
@@ -79,6 +76,9 @@ conceptualContent:
       - text: SoProtocol
         itemType: concept
         url: ../../../user-interface/docs/soprotocol/index.md
+      - text: bLogic - select extra field
+        itemType: reference
+        url: ../../../user-interface/docs/service-ui/blogic-screen-elements/select-extra-field.md
 
     # Card
     - title: Data options
@@ -87,9 +87,6 @@ conceptualContent:
       - text: Custom fields
         itemType: overview
         url: ../../../data-access/docs/custom-fields/overview.md
-      - text: How to add user-defined fields
-        itemType: video
-        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
 
     # Card
     - title: Actions options
@@ -101,12 +98,6 @@ conceptualContent:
       - text: Triggers
         itemType: concept
         url: ../automation/trigger/index.md
-      - text: Webhooks - project events
-        itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/project-events.md
-      - text: Webhooks - project member events
-        itemType: reference
-        url: ../../../data-access/docs/netserver/webhooks/reference/project-member-events.md
 
     # Card
     - title: API options
@@ -114,24 +105,36 @@ conceptualContent:
       links:
       - text: CRMScript
         itemType: concept
-        url: ../../../crmscript/docs/projects/index.md
-      - text: NetServer
-        itemType: overview
-        url: ../../../data-access/docs/project/overview.md
+        url: ../../../crmscript/docs/custom-database/index.md
+      - text: Web services
+        itemType: how-to-guide
+        url: ../../../data-access/docs/custom-fields/services/set-udef-listitem-value.md
+      - text: Entities
+        itemType: how-to-guide
+        url: ../../../data-access/docs/custom-fields/entity/set-udef-listitem-value.md
+      - text: Raw SQL
+        itemType: how-to-guide
+        url: ../../../data-access/docs/custom-fields/sql/set-udef.md
 
     # Card
     - title: Database options
       summary: ""
       links:
-      - text: Project table
+      - text: Udeffield table
         itemType: reference
-        url: ../../../database/docs/tables/project.md
-      - text: Project member table
+        url: ../../../database/docs/tables/udeffield.md
+      - text: udpersonsmall table
         itemType: reference
-        url: ../../../database/docs/tables/projectmember.md
-      - text: Projstatus table
+        url: ../../../database/docs/tables/udpersonsmall.md
+      - text: udpersonlarge table
         itemType: reference
-        url: ../../../database/docs/tables/projstatus.md
-      - text: Projtype table
+        url: ../../../database/docs/tables/udpersonlarge.md
+      - text: udlist table
         itemType: reference
-        url: ../../../database/docs/tables/projtype.md
+        url: ../../../database/docs/tables/udlist.md
+      - text: extra_tables table
+        itemType: reference
+        url: ../../../database/docs/tables/extra-tables.md
+      - text: extra_fields table
+        itemType: reference
+        url: ../../../database/docs/tables/extra-fields.md

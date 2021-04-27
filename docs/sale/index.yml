@@ -101,7 +101,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/index.md
+        url: ../../../data-access/docs/custom-fields/overview.md
       - text: How to add user-defined fields
         itemType: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM

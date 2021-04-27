@@ -89,7 +89,7 @@ conceptualContent:
       links:
       - text: Custom fields
         itemType: overview
-        url: ../../../data-access/docs/custom-fields/index.md
+        url: ../../../data-access/docs/custom-fields/overview.md
 
     # Card
     - title: Actions options
