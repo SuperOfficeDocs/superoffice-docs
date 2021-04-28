@@ -44,9 +44,9 @@ The system user has unlimited access to the [tenant][6] and is not restricted by
 See also [application models terminology][6] and the [system user MVC example][7].
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/federated-auth.md
-[2]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/system-user/system-user-token.md
-[3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/system-user/system-user-flow.md
-[4]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/oidc/index.md
+[1]: ../../../../data-access/docs/authentication/online/federated-auth.md
+[2]: ../../../../data-access/docs/authentication/online/system-user/system-user-token.md
+[3]: ../../../../data-access/docs/authentication/online/system-user/system-user-flow.md
+[4]: ../../../../data-access/docs/authentication/online/oidc/index.md
 [6]: ../terminology.md
-[7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/minimal-csharp-app/overview.md
+[7]: ../../../../data-access/docs/tutorials/minimal-csharp-app/overview.md

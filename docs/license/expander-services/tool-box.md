@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: tool_box       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Expander Services toolbox - contents and usage # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Toolbox
+uid: tool_box
+description: Expander Services toolbox - contents and usage
+author: {github-id}
 keywords:
-so.topic: concept         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Expander Services toolbox - contents and usage
@@ -81,7 +77,7 @@ Software partners of SuperOffice typically use the SDK when developing standard 
 As your needs grow, so the capabilities of your CRM solution can expand.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/overview/what-is-crmscript.md
+[1]: ../../../../crmscript/docs/overview/what-is-crmscript.md
 [2]: ../../automation/trigger/index.md
 [3]: index.md
 [4]: ../user-plans.md

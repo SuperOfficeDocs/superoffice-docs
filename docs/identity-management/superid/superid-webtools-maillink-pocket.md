@@ -42,5 +42,5 @@ Let's look at how SuperID changes authentication for WebTools, MailLink, and Poc
 * Double-clicking the WebTools owl icon will send the user to the tenant. If the user is not signed in, the user will be redirected back to the sign-in dialog, must click **Next**, and then possibly authenticate to sign in.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/oauth-2-intro.md
+[1]: ../../../../data-access/docs/authentication/online/oauth-2-intro.md
 [2]: https://tools.ietf.org/html/rfc5282

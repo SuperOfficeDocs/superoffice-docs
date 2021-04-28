@@ -73,5 +73,5 @@ Applications are either [built to fit many][4] and available in the SuperOffice 
 [4]: standard.md
 [5]: custom.md
 [6]: ../mirroring/overview.md
-[7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/erp-connectors/index.md
-[8]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/quote-connectors/index.md
+[7]: ../../../data-access/docs/netserver/erp-connectors/index.md
+[8]: ../../../data-access/docs/netserver/quote-connectors/index.md

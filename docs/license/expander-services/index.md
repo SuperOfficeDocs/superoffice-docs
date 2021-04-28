@@ -1,7 +1,8 @@
 ---
-title: expander_services       
+title: Expander Services
+uid: expander_services
 description: Expander Services
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.topic: concept
 keywords:
 ---
@@ -61,7 +62,7 @@ Application developers get access to Expander Services [when registering][9]. Cu
 
 <!-- Referenced links -->
 [1]: tool-box.md
-[2]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/overview/what-is-crmscript.md
+[2]: ../../../../crmscript/docs/overview/what-is-crmscript.md
 [3]: https://www.superoffice.com/pricing/
 [4]: ../../apps/terminology.md
 [5]: ../../apps/custom.md

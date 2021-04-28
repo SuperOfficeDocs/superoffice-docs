@@ -38,6 +38,6 @@ Individual `moduleLicense` rows are also signed and all rows are also hash-check
 Hackers can hack the DLLs, but not make a keycode generator that works with un-hacked code.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/ModuleOwner.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/ModuleLicense.md
-[3]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/LicenseAssocLink.md
+[1]: ../../../database/docs/tables/ModuleOwner.md
+[2]: ../../../database/docs/tables/ModuleLicense.md
+[3]: ../../../database/docs/tables/LicenseAssocLink.md

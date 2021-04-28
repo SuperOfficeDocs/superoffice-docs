@@ -51,4 +51,4 @@ With some minor tweaks, you can get better data quality by forcing the user inpu
 We often recommend the customers to use as much standard functionality as possible, but there are certain things that you'd want to customize - and luckily, we have triggers for that.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/fundamentals/syntax.md
+[1]: ../../../../crmscript/docs/fundamentals/syntax.md

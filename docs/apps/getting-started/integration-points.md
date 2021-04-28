@@ -43,12 +43,12 @@ These services are either independent applications or augment an existing applic
 <!-- Referenced links -->
 [1]: ../provisioning/index.md
 [2]: ../../automation/webhook/index.md
-[3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/soap/reference/index.md
-[4]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/web-api/rest/reference/index.md
-[5]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/overview/what-is-crmscript.md
+[3]: ../../../../data-access/docs/api-reference/soap/index.md
+[4]: ../../../../data-access/docs/api-reference/restful/rest/index.md
+[5]: ../../../../crmscript/docs/overview/what-is-crmscript.md
 [6]: ../../mirroring/overview.md
-[7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/erp-connectors/index.md
-[8]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/quote-connectors/index.md
+[7]: ../../../../data-access/docs/netserver/erp-connectors/index.md
+[8]: ../../../../data-access/docs/netserver/quote-connectors/index.md
 
 <!-- Referenced images -->
 [img1]: media/imagejcbmo.png

@@ -297,8 +297,8 @@ In this section, you add the [Reverse proxy][4] override if you want to export l
 [3]: ../security/deployment-scenarios.md
 [4]: ../install/iis/reverse-proxy.md
 [5]: https://blogs.technet.microsoft.com/askds/2008/06/13/understanding-kerberos-double-hop/
-[7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/scripting/basic-scripting.md
-[8]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/web-api/rest/index.md
+[7]: ../../../../data-access/docs/services/scripting/basic-scripting.md
+[8]: ../../../../data-access/docs/api-reference/restful/rest/index.md
 [9]: https://online.superoffice.com/AppStore/superoffice-as/superoffice-gmail-link
 [10]: http://msdn.microsoft.com/en-us/library/1xtk877y(VS.80).aspx
 

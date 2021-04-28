@@ -60,4 +60,4 @@ if(orgNr.isEmpty()) {
 
 <!-- Referenced links -->
 [1]: ../license/expander-services/index.md
-[2]: https://github.com/superofficedocs/crmscript/blob/main/docs/overview/getting-started.md
+[2]: ../../../crmscript/docs/overview/getting-started.md

@@ -54,7 +54,7 @@ If you need to reuse a privacy key later, in another table you may use variables
 
 <!-- Referenced links -->
 [1]: ../install/database/dbsetup-exe.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/dictionary/howto-make-db-changes.md
+[2]: ../../../../database/docs/dictionary/howto-make-db-changes.md
 
 <!-- Referenced links -->
 [img1]:media/primaryforeignkey.png

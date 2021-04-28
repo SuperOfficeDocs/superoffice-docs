@@ -106,8 +106,8 @@ Creating an application for the SuperOffice App Store is not something to take l
 [7]: ../activate/validate-app.md
 [8]: ../publish/get-listed.md
 [9]: ../activate/activate-custom-app.md
-[10]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/native-app-quickstart.md
-[11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/auth-code-flow-quickstart.md
+[10]: ../../../../data-access/docs/tutorials/native-app-quickstart.md
+[11]: ../../../../data-access/docs/tutorials/auth-code-flow-quickstart.md
 
 <!-- Referenced images -->
 [img1]: media/soap-onboarding.jpg
