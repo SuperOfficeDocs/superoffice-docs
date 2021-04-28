@@ -1,6 +1,14 @@
 items:
 - name: API Reference
   href: ../getting-started/index.md
+- name: CRMScript Reference
+  items:
+  - name: Classes
+    href: ../../crmscript/docs/api-reference/classes/index.md
+  - name: Global functions
+    href: ../../crmscript/docs/api-reference/global-functions/index.md
+  - name: Trigger scripts
+    href: ../../crmscript/docs/api-reference/trigger-scripts/index.md
 - name: Web Services
   items:
   - name: RESTful REST Services
