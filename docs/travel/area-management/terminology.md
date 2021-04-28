@@ -2,7 +2,7 @@
 uid: area_management_terminology
 title: terminology
 description: Area Management definitions
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: concept
@@ -14,7 +14,7 @@ so.client: win
 
 To fully understand how Area Management works, you should read the definitions below. The fields can be found in the dialog boxes Area Management and Area Definition.
 
-* **Defined Areas:** Displays the name of the area which is defined.
+* **Defined Areas:** Displays the name of the area that is defined.
 
 * **Area Name:** The name of an area. The area defines both data selection and sign-on access rights. These do not necessarily cover the same employees.
 

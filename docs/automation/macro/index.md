@@ -1,7 +1,7 @@
 ---
-title: macro       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: macro
+description:
+author: {github-id}
 keywords:
 ---
 

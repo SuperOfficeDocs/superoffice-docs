@@ -1,8 +1,10 @@
 ---
-title: admin       
-description: Admin          
-author: {github-id}             # Your GitHub alias.
+title: Admin
+uid: admin
+description: Admin
+author: {github-id}
 keywords:
+so.date:
 ---
 
 # Admin
@@ -14,7 +16,7 @@ The Admin client in Web is used for Sales & Marketing administration.
 > [!NOTE]
 > With SuperOffice 8 and 9 all onsite customers must install the Web client to use the Maintenance and Settings client.
 
-### Available Admin help files
+### Available help files
 
 * [Licenses][1]
 * [User configuration][2]
@@ -39,7 +41,7 @@ More [advanced imports][13] to fields not available in the Web client, like to p
 Also [scripts][14] available in the Windows client only may be enabled in the Windows Admin only.
 
 > [!NOTE]
-> Due to the SuperOffice 9 is distributed with Web client only, SuperOffice Maintenance and Settings client for SuperOffice 9 contains only the Import section.
+> Due to the SuperOffice 9 is distributed with the Web client only, SuperOffice Maintenance and Settings client for SuperOffice 9 contains only the Import section.
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap03%2FLicences_screen.htm

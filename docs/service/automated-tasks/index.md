@@ -6,7 +6,7 @@ author: {github-id}
 keywords: service
 so.topic: concept
 so.envir: onsite
-# so.client: 
+# so.client:
 ---
 
 # Automated tasks in Service

@@ -1,7 +1,7 @@
 ---
-title: selection       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: selection
+description:
+author: {github-id}
 keywords:
 ---
 

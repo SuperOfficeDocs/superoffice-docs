@@ -43,9 +43,9 @@ When you have the Product configuration application open:
 
 In a generic troubleshooting case you are interested to see errors in Web/NetServer, then add a tick next to **Log error** and click through the wizard.
 
-SuperOffice Inbox and Pocket CRM uses NetServer service to send emails. If you want to troubleshoot email sending or receiving via the NetServer, add a tick next to **Log e-mail** and in the field next to this option define where the log files should be created. Logging will create 2 files - one for incoming emails (communication with IMAP server) and one for outgoing emails (communication with SMTP server). This is not a debug log for MailLink.
+SuperOffice Inbox and Pocket CRM use NetServer service to send emails. If you want to troubleshoot email sending or receiving via the NetServer, add a tick next to **Log e-mail** and in the field next to this option define where the log files should be created. Logging will create 2 files - one for incoming emails (communication with IMAP server) and one for outgoing emails (communication with SMTP server). This is not a debug log for MailLink.
 
-## How do I find the location of Web/NetServer log file without kicking out SuperOffice users from the session?
+## How do I find the location of Web client/NetServer log file without kicking out SuperOffice users from the session?
 
 If you know that the debugging has been enabled and you just want to find a location of the file without making all users log out from the session, you can do it directly in the config file. Find a *.config* file of the component you are debugging and in the `<Diagnostics>` section `<add key="LogFolder" value="C:\Log">` will store the path to the log file.
 

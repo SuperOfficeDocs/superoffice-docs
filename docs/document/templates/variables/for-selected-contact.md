@@ -1,9 +1,9 @@
 ---
 title: variables_for_selected_contact
 description: Variables for a selected contact
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: reference               # article, howto, reference, concept, guide
+so.topic: reference
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile

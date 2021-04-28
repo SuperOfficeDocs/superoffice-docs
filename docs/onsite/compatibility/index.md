@@ -107,7 +107,7 @@ SuperOffice MacLink has been tested successfully on MacOS Sierra. No issues were
 
 ![sqlexpress.png][img12]
 
-The objective of the test was to verify that SQL Express 2016m which is normally used as a Travel DB for CRM clients, also can be used as the main DB for the CRM clients. DB Compatibility test for SuperOffice version 8.0 SR2 [Win, Web, CS) was carried out. Please note that this database version has limitations and may not suit your needs. The report was made on July 29th 2016.
+The objective of the test was to verify that SQL Express 2016m, which is normally used as a Travel DB for CRM clients, also can be used as the main DB for the CRM clients. DB Compatibility test for SuperOffice version 8.0 SR2 [Win, Web, CS) was carried out. Please note that this database version has limitations and may not suit your needs. The report was made on July 29th 2016.
 
 <a href="../../assets/downloads/compatibility/sql-server-2016-express.xlsx" download>Click to download report</a>
 

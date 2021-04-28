@@ -59,13 +59,13 @@ Under configuration -> SuperOffice -> Factory -> DynamicLoad add:
 Under configuration -> system.serviceModel add:
 
 ```xml
-<client>  
-      <endpoint address="https://www.smsteknik.se/webservices/SendSMSws1/Service.asmx"  
+<client>
+      <endpoint address="https://www.smsteknik.se/webservices/SendSMSws1/Service.asmx"
           binding="basicHttpBinding" bindingConfiguration="SendSMSSoap"
           contract="SMSTeknikGW.SendSMSSoap" name="SendSMSSoap" />
 </client>
 ```
-  
+
 Under configuration -> system.serviceModel -> bindings, add:
 
 ```xml

@@ -1,10 +1,9 @@
 ---
 title: user_accounts_roles
 description: SuperOffice CRM Online enforces role-based access control, and each user must have a unique ID to sign in.
-author: {frodeb@superoffice.com}             # Your GitHub alias.
+author: {frodeb@superoffice.com}
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
-
+so.topic:
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile

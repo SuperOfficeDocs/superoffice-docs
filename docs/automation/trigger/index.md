@@ -1,7 +1,7 @@
 ---
-title: Triggers 
+title: Triggers
 uid: trigger
-description: Introduction to triggers 
+description: Introduction to triggers
 author: Simen Mostuen Iversen
 so.date: 06.06.2019
 keywords:
@@ -46,7 +46,7 @@ You can create a script or a macro. A script will allow you to do more while a m
 
 Macros are a simpler way of creating automation and validations, although it has some restrictions that can only be done by scripting. And unless you are cautious, scripting could potentially damage the data in your system - so I advice you to test a lot before enabling the trigger for everyone.
 
-With some minor tweaks, you can get better data quality by forcing the user input values that help out your day-to-day activities, and you will be able to automate some of the processes and calculations which could save you huge amounts of time.
+With some minor tweaks, you can get better data quality by forcing the user input values that help out your day-to-day activities, and you will be able to automate some of the processes and calculations, which could save you huge amounts of time.
 
 We often recommend the customers to use as much standard functionality as possible, but there are certain things that you'd want to customize - and luckily, we have triggers for that.
 

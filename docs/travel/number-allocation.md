@@ -2,7 +2,7 @@
 uid: travel_number_allocation
 title: Travel number allocation
 description: Travel number allocation
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: concept

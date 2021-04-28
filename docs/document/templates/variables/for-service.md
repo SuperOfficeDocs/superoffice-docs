@@ -6,8 +6,8 @@ author: {github-id}
 keywords:
 so.topic: reference
 so.date: 03.23.2021
-# so.envir: 
-# so.client: 
+# so.envir:
+# so.client:
 ---
 
 # Variables for SuperOffice Service

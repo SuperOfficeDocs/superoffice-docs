@@ -2,7 +2,7 @@
 uid: troubleshooting_satellite
 title: Troubleshoot satellite
 description: If you have problems with satellite management
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: travel satellite
 so.topic: howto
 so.envir: onsite
@@ -13,8 +13,7 @@ so.client: win
 
 ## Problems with satellite generation
 
-The most common problem with a Satellite generation is not enough disk space on the hard disk. Free up disk space and try again.  
-
+The most common problem with a Satellite generation is not enough disk space on the hard disk. Free up disk space and try again.
 ## Problem viewing all company employees in the Our contact field
 
 If you have not included the user's name in the Satellite area definition who is the Our Contact for the Home Company in the central database, the total number of employees in the company will not display in the Our Contact pop-up field in the Satellite database. Only the Satellite's own employees are listed.

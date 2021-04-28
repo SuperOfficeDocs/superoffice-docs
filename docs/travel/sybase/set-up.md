@@ -1,7 +1,7 @@
 ---
 title: set_up_sybase_travel
 description:  Sybase as Travel database
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: travel
 so.topic: howto
 so.date:

@@ -3,7 +3,7 @@ title: SQL Server schema
 uid: mirroring_sql_server_schema
 description: SQL Server schema for database mirroring
 author: {github-id}
-keywords: 
+keywords:
 so.topic: concept
 so.envir: cloud
 so.client: online

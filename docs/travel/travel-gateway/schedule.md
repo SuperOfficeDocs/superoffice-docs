@@ -1,7 +1,7 @@
 ---
 title: schedule
-description:   
-author: {github-id}             # Your GitHub alias.
+description:
+author: {github-id}
 keywords:
 so.date:
 so.topic: howto

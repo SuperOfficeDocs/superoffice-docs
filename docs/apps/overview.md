@@ -2,7 +2,7 @@
 title: Applications
 uid: apps
 description: About SuperOffice CRM Online applications
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.topic: concept
 so.envir: cloud

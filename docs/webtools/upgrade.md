@@ -54,7 +54,7 @@ Now below `</Documents>` add the following new
 
 the value must be the same version as the DLL files in the MSI.
 
-If the value is blank we check against the current version installed on the server. So if you have installed SuperOffice 8.0 SR5 but do not want your clients to be asked to upgrade if they have installed Web Tools 8.0 SR2 you may set 8.0.6004.1310 in WebToolVersion value and the clients will only be prompted to upgrade if they are using a version older than 8.0.6004.1310. If they are using an older version but do not want to upgrade, they may tick the checkbox so it does not ask again. This information is stored in a persistent cookie which lasts till the next server update.
+If the value is blank we check against the current version installed on the server. So if you have installed SuperOffice 8.0 SR5 but do not want your clients to be asked to upgrade if they have installed Web Tools 8.0 SR2 you may set 8.0.6004.1310 in WebToolVersion value and the clients will only be prompted to upgrade if they are using a version older than 8.0.6004.1310. If they are using an older version but do not want to upgrade, they may tick the checkbox so it does not ask again. This information is stored in a persistent cookie that lasts till the next server update.
 
 Just one reminder:
 

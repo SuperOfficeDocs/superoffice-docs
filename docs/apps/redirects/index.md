@@ -1,7 +1,7 @@
 ---
-title: redirects       
+title: redirects
 description: Redirection endpoints
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: callback
 ---
 

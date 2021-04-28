@@ -31,7 +31,8 @@ The new "dynamic" archive provider in NetServer does see these fields & tables. 
 
 Make a copy of an existing 8.1+ database on another database server. The source database will not be changed.
 
-The new database can be on any supported server type for that kind of database (you should not rebuild a Travel database to Oracle, for instance, since that is not a supported server for local Travel databases). The new database will be in Unicode unless the database server only supports ANSI.
+The new database can be on any supported server type for that kind of database (you should not rebuild a Travel database to Oracle, for instance since
+ that is not a supported server for local Travel databases). The new database will be in Unicode unless the database server only supports ANSI.
 
 This operation is like an Export followed by an Import and is implemented that way internally, in parallel.
 

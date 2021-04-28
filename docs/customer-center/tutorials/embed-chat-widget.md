@@ -3,7 +3,7 @@ title: Embed chat widget
 uid: embed_chat_widget_on_external_site
 description: Embed chat widget on external site
 author: Michel Krohn-Dale
-keywords: 
+keywords:
 so.topic: tutorial
 ---
 

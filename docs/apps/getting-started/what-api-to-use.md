@@ -20,11 +20,11 @@ Our REST and SOAP APIs have different authentication and data access techniques,
 
 ## API comparison
 
-Before continuing, let me just state that I am well-aware that comparing REST and SOAP can be like [comparing apples to oranges][1], but it is the most common way people **in general** discuss web service APIs.
+Before continuing, let me just state that I am well aware that comparing REST and SOAP can be like [comparing apples to oranges][1], but it is the most common way people **in general** discuss web service APIs.
 
 SOAP is historically known to be a robust enterprise-ready option for performing remote invocations using XML. Its verbosity, however, carries a heavy toll on network traffic and lost its commercial appeal in recent years.
 
-REST is best known for building fast responsive JSON-based online applications. While REST supports XML exchanges, RESTful APIs normally send JavaScript Object Notation (JSON) data which is more light-weight and therefore faster.
+REST is best known for building fast responsive JSON-based online applications. While REST supports XML exchanges, RESTful APIs normally send JavaScript Object Notation (JSON) data, which is more lightweight and therefore faster.
 
 With [REST][2], API consumers simply use URLs to access SuperOffice resources and exchange JSON data.
 
@@ -97,7 +97,7 @@ Therefore the results of an interactive authentication for a normal user are ver
 
 Once authenticated, the interactive user is redirected to the applications `redirect_url` and the application can provision anything necessary for that user, and/or redirect the user back to SuperOffice.
 
-It’s not uncommon for users to interactively sign-in to an app when it is exposed in SuperOffice through a web panel. In that case, and when using OAuth 2.0, include the `<uctx>` template variable in the web panel URL to get the customer's context identifier and include that in the endpoint.
+It’s not uncommon for users to interactively sign in to an app when it is exposed in SuperOffice through a web panel. In that case, and when using OAuth 2.0, include the `<uctx>` template variable in the web panel URL to get the customer's context identifier and include that in the endpoint.
 
 `https://sod.superoffice.com/login/{contextIdentifier}/oauth/authorize?...`
 
@@ -107,7 +107,7 @@ It’s not uncommon for users to interactively sign-in to an app when it is expo
 
 This will ensure the web panel application provides the user with a seamless SSO experience.
 
-**Normal users** are every-day users employed by the company that licenses SuperOffice, and use it to help accomplish their daily goals. **System users** are special accounts that have unlimited access to SuperOffice data, and are used to perform routine tasks that are not owned by normal users. System accounts used through web services **do not** support impersonation contexts, so they cannot do work on behalf of a normal user.
+**Normal users** are everyday users employed by the company that licenses SuperOffice, and use it to help accomplish their daily goals. **System users** are special accounts that have unlimited access to SuperOffice data, and are used to perform routine tasks that are not owned by normal users. System accounts used through web services **do not** support impersonation contexts, so they cannot do work on behalf of a normal user.
 
 [OpenID Connect][6], which is [popular identity layer][8] built on top of OAuth 2.0, is commonly used by RESTful API consumers and is supported in SuperOffice Online.
 
@@ -129,7 +129,7 @@ SuperOffice does, however, issue refresh tokens, and in that way does support a 
 
 ## Interactive Scenario
 
-Interactive authentication is facilitated by the [SuperOffice Online sign-in page][7]. There really isn’t much more that can be said here that hasn’t already been discussed in the Authentication section above.
+Interactive authentication is facilitated by the [SuperOffice Online sign-in page][7]. There isn’t much more that can be said here that hasn’t already been discussed in the Authentication section above.
 
 ## Non-Interactive Scenario
 
@@ -137,7 +137,7 @@ To conduct true background processing, applications must use the system user **t
 
 When used in a **SOAP** request, the system-user ticket is used as credentials, placed inside each SOAP header as seen in the `ContactAgent.GetContactEntity` method.
 
-```xml
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope namespaces left out for brevity>
   <Contact:ApplicationToken>1234567-1234-9876</Contact:ApplicationToken>
@@ -198,7 +198,7 @@ Authorization: Bearer 8A:Cust12345.abcxyzExample==
 
 Supported in version **Services86** and higher, when used in SOAP requests, the `access_token` is placed in each SOAP header.
 
-```xml
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope namespaces left out for brevity>
   <Contact:ApplicationToken>1234567-1234-9876</Contact:ApplicationToken>

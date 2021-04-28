@@ -1,7 +1,7 @@
 ---
-title: zapier       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: zapier
+description:
+author: {github-id}
 keywords:
 ---
 

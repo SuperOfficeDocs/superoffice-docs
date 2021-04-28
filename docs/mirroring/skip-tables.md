@@ -45,8 +45,8 @@ Content-Type: application/json; charset=utf-8
 using (PreferenceAgent prefAgent = new PreferenceAgent())
 {
   var preference = prefAgent.CreateDefaultPreference();
-  preference.Specification = new PreferenceSpec() 
-  { 
+  preference.Specification = new PreferenceSpec()
+  {
     Section = "Mirroring",
     Key = "SkipTable"
   };

@@ -1,7 +1,7 @@
 ---
-title: dashboards       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: dashboards
+description:
+author: {github-id}
 keywords:
 ---
 

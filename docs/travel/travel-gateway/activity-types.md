@@ -1,7 +1,7 @@
 ---
 uid: activity_types
 description: Activity types for scheduling
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: reference
@@ -13,7 +13,7 @@ so.client: win
 
 * **Log in** – OBSOLETE, we do this for each task there. The gateway can remain open permanently. If the program is not signed on, the sign-on is done automatically when an activity runs.
 
-* **Log out** – OBSOLETE, we do this for each task there. If you want Gateway to sign off once a task has completed. Gateway doesn’t need to be signed on permanently.
+* **Log out** – OBSOLETE, we do this for each task there. If you want Gateway to sign off once a task has been completed. Gateway doesn’t need to be signed on permanently.
 
 * **Read updates** – when you want to specify that SuperOffice CRM should read updates (UP files) residing in a particular user’s Travel folder on the server.
 
@@ -31,7 +31,7 @@ so.client: win
 
 * **Create signal file** – when you want to create a file named SIGNAL.DAT in a specified folder. This option is used to initiate a further instance of SuperOffice Travel Gateway.
 
-* **Remote Travel Server** – runs Remote Travel Server, which is the program that receives and processes the lists of required documents created by Remote Travel Client (on the local PC). For example, you can specify that Remote Travel Client should retrieve all documents for a particular company. On the server-side a search is run which corresponds to the client’s specified criteria and finds which documents should actually be transferred. Clearly, Remote Travel Server should be run just before or just after you have read or written updates for Remote Travel users. There is no comparable function serving the satellites.
+* **Remote Travel Server** – runs Remote Travel Server, which is the program that receives and processes the lists of required documents created by Remote Travel Client (on the local PC). For example, you can specify that Remote Travel Client should retrieve all documents for a particular company. On the server-side, a search is run that corresponds to the client’s specified criteria and finds which documents should be transferred. Remote Travel Server should be run just before or just after you have read or written updates for Remote Travel users. There is no comparable function serving the satellites.
 
 * **Regenerate all counters** – automatically regenerate all counters (SAINT)
 

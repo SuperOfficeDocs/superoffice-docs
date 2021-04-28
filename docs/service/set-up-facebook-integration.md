@@ -1,13 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: set_up_facebook_integration_for_service       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Set up Facebook integration for Service # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: set_up_facebook_integration_for_service
+description: Set up Facebook integration for Service
+author: {github-id}
 keywords:
-so.topic: howto                # article, howto, reference, concept, guide
-
+so.topic: howto
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
@@ -18,7 +14,7 @@ so.topic: howto                # article, howto, reference, concept, guide
 With the integration, you will be able to import messages and comments from page wall as requests in Customer Service. You will also be able to reply to these messages/comments, and they will be posted back on Facebook.
 
 > [!WARNING]
-> **Facebook integration and Cambridge Analytica:** Facebook is currently making changes to their API after the Cambridge Analytica scandal. This means that the Facebook integration that is part of our tests is no longer working, and for any customer/partner who have not used this in a while or try to set it up now. We are unsure if and how it affects sites that have been in use all the time. Read more in this [forum post][1].
+> **Facebook integration and Cambridge Analytica:** Facebook is currently making changes to their API after the Cambridge Analytica scandal. This means that the Facebook integration that is part of our tests is no longer working, and for any customer/partner who has not used this in a while or try to set it up now. We are unsure if and how it affects sites that have been in use all the time. Read more in this [forum post][1].
 
 ## Before you begin
 
@@ -29,7 +25,7 @@ Screens may differ, but if you experience problems, please contact our [support]
 
 ## Create an application on Facebook
 
-First, you will need to create an application on Facebook with the user you want to retrieve messages from, or the owner of the page.
+First, you will need to create an application on Facebook with the user you want to retrieve messages from or the owner of the page.
 
 1. Go to [http://developers.facebook.com/apps][5] (make sure you are signed in to Facebook) or click **apps** from developers.facebook.com.
 
@@ -39,29 +35,29 @@ First, you will need to create an application on Facebook with the user you want
 
 4. Under category choose **Apps for Pages**
 
-![x][img6]
+    ![x][img6]
 
 5. After you click **Create App ID** you will be redirected to the **Add Product,** but move up to **Settings**.
 
-![x][img7]
+    ![x][img7]
 
     * Add Platform:
 
-![x][img8]
+    ![x][img8]
 
     * Choose Website:
 
-![x][img9]
+    ![x][img9]
 
     * Add a Site URL:
       * Customer Service installation **with** FastCgi: `Https://support.yourdomain.com/scripts/admin.fcgi?action=registerFacebook`
       * Customer Service installation **without** FastCgi: `https://support.yourdomain.com/scripts/admin.exe?action=registerFacebook`
 
-![x][img10]
+    ![x][img10]
 
 6. When you are done you will need to make your app available, this is done under **App Review** and change it to *Yes*.
 
-![x][img11]
+    ![x][img11]
 
 > [!NOTE]
 > **The site URLs must be available on the internet since Facebook will be pushing changes to this URL.** And the URLs must be running on HTTPS since we are using WebHooks and Facebook will only allow this via the secure protocol.
@@ -86,23 +82,23 @@ You need to configure Service to retrieve messages from Facebook using the appli
 
 1. Go to Settings->E-mail and click the **New Facebook application** icon.
 
-![x][img2]
+    ![x][img2]
 
 2. Enter the **Application ID** and **Page ID** which you noted earlier.
 
-![x][img3]
+    ![x][img3]
 
 3. Fill in the rest of the information and click **OK**.
 
 4. You will now be redirected to Facebook, where it will ask for some permission for the application you created.
 
-![x][img4]
+    ![x][img4]
 
-5. You will now be asked for the Client secret which is the same as the App Secret from your Facebook application. Click **OK**.
+5. You will now be asked for the Client secret that is the same as the App Secret from your Facebook application. Click **OK**.
 
 6. When done you will see your Facebook account together with the other mailboxes.
 
-By default, the integration will start to import messages the time when you add the App Secret on the mail box. Old posts on your page will not be added.
+By default, the integration will start to import messages the time when you add the App Secret to the mailbox. Old posts on your page will not be added.
 
 > [!TIP]
 > To manually post messages to Facebook, add Facebook as one of the recipients on a ticket.
@@ -117,14 +113,14 @@ By default, the integration will start to import messages the time when you add 
 
 If you receive this error after you have added Application ID and Page ID inside Customer Service:
 
-* Verify that the site URL you gave in your Facebook application is correct and points to your Customer Service installation:. The URL should included `admin.fcgi?` if Service has FastCGI; `admin.exe?`without.
+* Verify that the site URL you gave in your Facebook application is correct and points to your Customer Service installation: The URL should include `admin.fcgi?` if Service has FastCGI; `admin.exe?` without.
 
 * Verify that the URL is available on the internet. Otherwise, Facebook will not be able to reach it.
 
 * Make sure you are running Service on HTTPS:
 
 [From Facebook documentation:][6]
-New Webhook subscriptions must use a secure HTTPS callback URL as of v2.5. With the next version of the Graph API we will stop sending updates to non-HTTPS callback URLs.
+New Webhook subscriptions must use a secure HTTPS callback URL as of v2.5. With the next version of the Graph API, we will stop sending updates to non-HTTPS callback URLs.
 If you need more information about setting up HTTPS for your callback URL, check out [the Getting Started guide][7] from Let's Encrypt and [the SSL Certificate Installation instructions][8] from Digicert.
 
 <!-- Referenced links -->

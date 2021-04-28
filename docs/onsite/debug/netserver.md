@@ -52,7 +52,7 @@ You can turn on and off logging for NetServer directly in the *Web.config* file.
 <add key="LogToFile" value="True">
 </add>
 
-<!-- Folder (for example UNC path) where the log file is to reside. 
+<!-- Folder (for example UNC path) where the log file is to reside.
      The owner of the process must have access to manipulate files here -->
 <add key="LogFolder" value="C:\Log">
 </add>

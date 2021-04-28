@@ -1,10 +1,9 @@
 ---
 title: reset_password
 description: Reset password
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: howto                      # article, howto, reference, concept, guide
-
+so.topic: howto
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile

@@ -26,10 +26,10 @@ Provisioning a partner application may involve configuration or settings in both
 
 1. A customer sees your application in the App Store and would like to know more.
 
-2. They click the **Sign up** button and is forwarded to your website where they may read more and select to either **Try** or **Buy** your application.
+2. They click the **Sign up** button and are forwarded to your website where they may read more and select to either **Try** or **Buy** your application.
     * This page should explain what your application does and what will happen when the customer chooses to try or buy, that way they don't have to approve anything before they know what happens.
 
-3. When **Try** or **Buy** is clicked, a small application (called SuperPartner Connect in this video) may be used that will ask the customer access to read contact information from their CRM Online tenant which you may use to automatically fill out the information you need to provision.
+3. When **Try** or **Buy** is clicked, a small application (called SuperPartner Connect in this video) may be used that will ask the customer access to read contact information from their CRM Online tenant that you may use to automatically fill out the information you need to provision.
     * This way the customer does not have to fill out information like their company name, address, and so on.
 
 4. When you have the information you need, then the **Try or buy** button will call the application's authorize dialog.

@@ -61,7 +61,7 @@ These keys are for Office 2016, for other Office versions change the path accord
 
 ### Registry scripts to import
 
-Use the following Registry scripts to deploy MailLink/Ribbons to those users/groups that should receive these components.  
+Use the following Registry scripts to deploy MailLink/Ribbons to those users/groups that should receive these components.
 **Remember to substitute the paths with correct filenames for your installation!**
 
 ### The first file is for getting Ribbons installed on 8.0 and newer
@@ -121,12 +121,12 @@ After the upgrade of WebTools on the server remember to remove Web Extensions s
 
 SuperOffice Ribbons use the *HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\16.0\\Common\\LanguageResources\\UIFallback* to determine which language to use (the example is for Office 2016).
 
-Example: In Outlook the language is Norwegian, but the SuperOffice Ribbon is in German language.
+Example: In Outlook the language is Norwegian, but the SuperOffice Ribbon is in the German language.
 
 Registry can have these values 0;1031;1033;1044;1043;1030;1053
 SuperOffice will choose the first valid value and if you have this language pack installed the SuperOffice Ribbon will be shown in this language.
 
-In this example, this is 1031 and that is the code for German language. Norwegian is 1044.
+In this example, this is 1031 and that is the code for the German language. Norwegian is 1044.
 
 You can find [here][2] a full list of languages.
 

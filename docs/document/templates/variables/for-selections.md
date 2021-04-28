@@ -2,11 +2,11 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
 
 # Mandatory fields.
-title: variables_for_selections       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Variables for selections # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: variables_for_selections
+description: Variables for selections
+author: {github-id}
 keywords:
-so.topic: reference        # article, howto, reference, concept, guide
+so.topic: reference
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile

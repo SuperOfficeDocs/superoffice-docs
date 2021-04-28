@@ -1,7 +1,7 @@
 ---
 title: superid
 description: SuperID
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: superid
 so.topic: concept
 # so.envir:                     # cloud or onsite

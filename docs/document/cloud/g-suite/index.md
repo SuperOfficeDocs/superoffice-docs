@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 uid: g_suite_document_integration
 description: G Suite document integration
 author: {github-id}
@@ -36,13 +36,13 @@ The integration consists of four main components:
 * Google G Suite subscription
 * Google G Suite "Service account" with Google Drive
 
-To ensure the security and integrity of the documents stored in Google Drive, SuperOffice will store all documents on a single Google G Suite Account (the service-account and "owner" of the document-archive).
+To ensure the security and integrity of the documents stored in Google Drive, SuperOffice will store all documents on a single Google G Suite Account (the service account and "owner" of the document archive).
 
-While not required, SuperOffice recommends that a dedicated Google-account is set up and used for this purpose.
+While not required, SuperOffice recommends that a dedicated Google account is set up and used for this purpose.
 
 For SuperOffice Online to be able to use Google G Suite for storage, SuperOffice must first be authorized to access data stored in the organization’s Google Drive.
 
-The authorization process will grant rights to an app registered with Google G Suite called "SuperOffice". This is the SuperOffice Federation Gateway which handles secure communication between Google G Suite, SuperOffice Online, and other parties (like SuperOffice Mail Link).
+The authorization process will grant rights to an app registered with Google G Suite called "SuperOffice". This is the SuperOffice Federation Gateway that handles secure communication between Google G Suite, SuperOffice Online, and other parties (like SuperOffice Mail Link).
 
 Read the [technical description][7].
 
@@ -83,9 +83,9 @@ You may also check the domain name via G Suite Toolbox Dig (Google MX record lo
 2. Type in the email address, click **Next**.
 
 * If your browser already has an active Google session - it will re-use this session to log you automatically in.
-* If your browser has no active Google session - it will re-direct you to Google for authentication before logging you into CRM Online.
+* If your browser has no active Google session - it will redirect you to Google for authentication before logging you into CRM Online.
 
-"Forgot password" feature is now handled by Google - since Google is activated as the authentication method for this site.
+The **Forgot password** feature is now handled by Google - since Google is activated as the authentication method for this site.
 
 <!-- Referenced links -->
 [1]: https://online.superoffice.com/AppStore/Image?imageId=16&applicationId=15

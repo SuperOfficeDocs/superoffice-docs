@@ -1,7 +1,7 @@
 ---
-title: import_export       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: import_export
+description:
+author: {github-id}
 keywords:
 ---
 

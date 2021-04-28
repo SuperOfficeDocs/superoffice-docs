@@ -1,10 +1,10 @@
 ---
 title: map_idp_usernames
 description: Update SuperOffice username to match IdP username
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.topic:
 keywords:
-so.topic: guide                 # article, howto, reference, concept, guide
+so.topic: guide
 so.envir: cloud           # cloud or onsite
 so.client: online              # online, web, win, pocket, or mobile
 ---

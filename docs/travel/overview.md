@@ -1,7 +1,7 @@
 ---
-title: travel       
+title: travel
 description: Travel
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: concept

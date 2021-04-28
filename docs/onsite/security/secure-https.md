@@ -3,7 +3,7 @@ title: secure_https_config
 description: Securing HTTPS configuration on Windows Server
 author: {github-id}
 keywords: security
-so.topic: howto              # article, howto, reference, concept, guide
+so.topic: howto
 so.envir: onsite               # cloud or onsite
 so.client: web               # online, web, win, pocket, or mobile
 ---

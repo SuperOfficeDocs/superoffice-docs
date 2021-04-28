@@ -1,7 +1,7 @@
 ---
-title: privacy       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: privacy
+description:
+author: {github-id}
 keywords:
 ---
 

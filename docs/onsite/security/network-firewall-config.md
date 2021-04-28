@@ -3,7 +3,7 @@ title: network_and_firewall_config
 description: Network and firewall configuration for SuperOffice onsite
 author: {github-id}
 keywords: security
-so.topic:        
+so.topic:
 so.envir: onsite
 so.client: web                  # online, web, win, pocket, or mobile
 ---
@@ -29,11 +29,11 @@ SuperOffice consists of several components, which need to be fitted into your co
 * Web server
 * SuperOffice client (Windows or web)
 
-We recommend placing all the servers (Database server, file server, NetServer/webserver) into a block of the network, which is segregated from the clients and the DMZ, and only used for internal servers. This allows us to implement firewall rules that only allow necessary traffic between clients and servers, minimizing the potential attack surface.
+We recommend placing all the servers (Database server, file server, NetServer/webserver) into a block of the network, which is segregated from the clients and the DMZ and only used for internal servers. This allows us to implement firewall rules that only allow necessary traffic between clients and servers, minimizing the potential attack surface.
 
 The Web client is the most secure option, as it limits the connections between the client network and the server network by communicating over HTTP(S) only.
 
-Some of the server components needs to make outbound connections depending on which components are in use and what functionality is needed. For instance, the NetServer needs to be able to communicate out through the firewall on port 80 (HTTP) and 443 (HTTPS). To ensure that only web traffic is communicated using these ports, an application protocol-aware firewall between the internal server network and the Internet may be used to detect suspicious traffic leaving the NetServer and is recommended to be able to detect attacks, and in the worst case, compromises.
+Some of the server components need to make outbound connections depending on which components are in use and what functionality is needed. For instance, the NetServer needs to be able to communicate out through the firewall on ports 80 (HTTP) and 443 (HTTPS). To ensure that only web traffic is communicated using these ports, an application protocol-aware firewall between the internal server network and the Internet may be used to detect suspicious traffic leaving the NetServer and is recommended to be able to detect attacks, and in the worst case, compromises.
 
 We also recommend placing a Web Application Firewall (WAF) such as the open-source [ModSecurity][1] on a proxy server in front of the NetServer. The role of this server is to detect and/or stop any incoming web attacks. This provides your organization with another layer of protection and a source of information should you become subject to a cyber attack.
 

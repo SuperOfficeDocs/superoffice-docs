@@ -1,5 +1,5 @@
 ---
-title: deployment_scenarios 
+title: deployment_scenarios
 description: Deployment scenarios SuperOffice onsite
 author: {github-id}
 keywords: security
@@ -23,7 +23,8 @@ In this scenario, SuperOffice is available from any location when connected to t
 Instead of making the NetServer directly accessible from the Internet we recommend placing a reverse proxy in the DMZ to forward traffic to and from the Web Server. This proxy server isolates the Web Server from the Internet and allows us to inspect and filter web traffic to and from the Web Server using a web application firewall.
 
 > [!NOTE]
-> The main advantage of this setup compared to scenario 1 is that we can avoid exposing the database and other services on the NetServer server (such as RDP or SMB) to the DMZ. If an attacker can compromise another server in the DMZ, the possibility that Web / NetServer or the database is compromised as a result of this is greatly reduced, since the inner firewall should only accept HTTP connections from the reverse proxy to the Web Server.
+> The main advantage of this setup compared to scenario 1 is that we can avoid exposing the database and other services on the NetServer server (such as RDP or SMB) to the DMZ. If an attacker can compromise another server in the DMZ, the possibility that Web / NetServer or the database is compromised as a result of this is greatly reduced since
+ the inner firewall should only accept HTTP connections from the reverse proxy to the Web Server.
 
 ![Click to enlarge image][img2]
 

@@ -183,7 +183,7 @@ Since we’re not in Office Store, we have to do this manually:
 
         * Title: Custom apps
         * Web Site Address: `https://[your_domain_name].sharepoint.com/sites/apps/`
-        * Administrator: [any admin/currently logged in user]
+        * Administrator: [any admin/currently logged-in user]
         * Server Resource Quota: 20
 
     The App Catalog is now being created – and available to be used within about 5 minutes

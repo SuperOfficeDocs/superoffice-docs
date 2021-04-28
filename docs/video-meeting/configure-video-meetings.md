@@ -1,9 +1,9 @@
 ---
 title: configure_video_meetings
 description: How to configure video meetings in SuperOffice
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: howto             # article, howto, reference, concept, guide
+so.topic: howto
 so.envir: cloud               # cloud or onsite
 so.client: online             # online, web, win, pocket, or mobile
 ---

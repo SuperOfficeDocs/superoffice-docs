@@ -27,7 +27,7 @@ so.envir: onsite
     * Stop the current service and add "frozen" to the config file located in the old Service program folder.
     * Update database table Config and Registry with the new paths.
     * Copy/move attachments/templates and customer center folders from the old installation to the new.
-    * Run queries to update the absolute URLs which will be found in the database.
+    * Run queries to update the absolute URLs that will be found in the database.
     * Consider if a redirect should be added so customers using old URLs will be redirected correctly to the new.
     * Run `upgrade.exe -d newdomain` to make sure Service is upgraded to 8.1 as well.
 

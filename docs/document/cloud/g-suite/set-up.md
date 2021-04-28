@@ -79,7 +79,7 @@ If successful, you should be brought to a page that shows you information about 
 
 ## Step 3 – Connect Google G Suite and SuperOffice CRM Online
 
-To connect Google G Suite and CRM Online - you may use standard setup (Root folder in Drive) or choose to specify where in the Drive folder structure to store the templates and documents.  
+To connect Google G Suite and CRM Online - you may use standard setup (Root folder in Drive) or choose to specify where in the Drive folder structure to store the templates and documents.
 You may also choose if you want to use SuperOffice standard folder rights (Access to all in `<customerdomain.com>`), or use inherited folder rights by choosing "Use inherited permission".
 
 > [!NOTE]

@@ -1,10 +1,9 @@
 ---
 title: get_listed_in_appstorespaces
 description: Submit app description (form)
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: howto             # article, howto, reference, concept, guide
-
+so.topic: howto
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile

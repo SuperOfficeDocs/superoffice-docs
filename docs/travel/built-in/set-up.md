@@ -1,7 +1,7 @@
 ---
 title: set_up_built_in_travel
 description: Built-in as travel database
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: travel
 so.date:
 so.topic: howto
@@ -26,7 +26,7 @@ You may add `LocalDbEngineParam=''` to the *SuperOffice.ini* file. If this param
 
 ## Manual setup
 
-The local archivepath defaults to the logged in user's application data folder:
+The local archivepath defaults to the logged-in user's application data folder:
 
 ```text
 local_archivepath=C:\Documents and Settings\USER\Local Settings\Application Data\SuperOffice\SO_LOCAL

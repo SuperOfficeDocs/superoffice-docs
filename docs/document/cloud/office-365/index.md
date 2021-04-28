@@ -55,8 +55,7 @@ The integration consists of these main components:
 
 The authorization process will grant rights to an app registered with Microsoft Office36SharePoint called *SuperOffice SharePoint App*. The SuperOffice Federation Gateway handles secure communication between SuperOffice SharePoint App located in Microsoft Office365 SharePoint, SuperOffice Online, and other parties (like SuperOffice MailLink).
 
-**Step 1** is needed for setting up SharePoint to be able to use SharePoint’s document management features so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and Office365 services all in one place. The site collection created within this step will also be used for adding the SuperOffice SharePoint app.  
-
+**Step 1** is needed for setting up SharePoint to be able to use SharePoint’s document management features so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and Office365 services all in one place. The site collection created within this step will also be used for adding the SuperOffice SharePoint app.
 * If this is not a service you plan to use - you may skip step 1.7 ("template" folders and read access of root folder is enough)
 
 **Step 2** is needed for creating new blank documents, spreadsheets, and presentations in SuperOffice CRM Admin's **Add template** > **Create a new template** (from a SharePoint template).

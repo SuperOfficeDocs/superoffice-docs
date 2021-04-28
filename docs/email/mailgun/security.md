@@ -1,13 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: mailgun_security       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: mailgun_security
+description:
+author: {github-id}
 keywords: email
-so.topic: reference              # article, howto, reference, concept, guide
-
+so.topic: reference
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
@@ -107,7 +103,7 @@ Read more about spam at [Wikipedia][10].
 
 ### Spamtrap
 
- Spam traps are email addresses that may or may not exist and are used to judge your sender's reputation. The term "trap" refers to how these types of addresses are scattered throughout the internet to catch people either not using proper list building practices, harvesting emails, purchasing lists from a third party, or marketers who have poor list hygiene (whether they know it or not). "Honeypot" or "Planted" Traps email addresses have been intentionally created to trap spammers searching the millions of websites on the Internet for any address they can find. These traps are never published and do not belong to a real person thus could never "opt-in" to any list since it is impossible for the address to initiate, respond or give consent to having received an email of any kind. They are used by anti-spam groups to catch spammers, monitor and collect spam. If you send an email to one of these traps, you will get exposed for using illegal marketing practices and you will get blacklisted which will seriously harm both your delivery and your reputation.
+ Spam traps are email addresses that may or may not exist and are used to judge your sender's reputation. The term "trap" refers to how these types of addresses are scattered throughout the internet to catch people either not using proper list building practices, harvesting emails, purchasing lists from a third party, or marketers who have poor list hygiene (whether they know it or not). "Honeypot" or "Planted" Traps email addresses have been intentionally created to trap spammers searching the millions of websites on the Internet for any address they can find. These traps are never published and do not belong to a real person thus could never "opt-in" to any list since it is impossible for the address to initiate, respond or give consent to having received an email of any kind. They are used by anti-spam groups to catch spammers, monitor and collect spam. If you send an email to one of these traps, you will get exposed for using illegal marketing practices and you will get blacklisted, which will seriously harm both your delivery and your reputation.
 
 Read more about spam traps at [Wikipedia][11].
 
@@ -166,7 +162,7 @@ SPF is powerless with messages forged in a shared hosting scenario, as all the 
 
 ### For CRM Online
 
-Adding an SPF record to use CRM Online’s email service (com: mailgun.org, eu: eu.mailgun.org), will the policy only to all non-Mailgun email servers since there is at this point not possible to distinguish between users of this email service on IP address (they all users the same one). Do note, combining SPF with DKIM will be adequate to distinguish your domain, due to the fact each customer uses its own domain key.  
+Adding an SPF record to use CRM Online’s email service (com: mailgun.org, eu: eu.mailgun.org), will the policy only to all non-Mailgun email servers since there is at this point not possible to distinguish between users of this email service on IP address (they all users the same one). Do note, combining SPF with DKIM will be adequate to distinguish your domain, due to the fact each customer uses its own domain key.
 Again, this technology relies upon the receiver's email server to use the tools…
 
 ## Read more

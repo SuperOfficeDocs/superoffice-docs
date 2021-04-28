@@ -13,7 +13,7 @@ so.envir: onsite
 
 ## Requisites
 
-* [Microsoft .Net Framework 4.7.2][3] for WebTools 12.0 and newer. 
+* [Microsoft .Net Framework 4.7.2][3] for WebTools 12.0 and newer.
 * [Microsoft .Net Framework 4.5.1][1] for WebTools 11.7 and older.
 * VSTO 2010 runtime (32bit or 64bit) for Ribbons
 * Visual C++ 2017 runtime for x86 (version 14.14.26429.4)
@@ -38,7 +38,7 @@ To store Web Extensions configuration, we use folder *%localappdata%\\SuperOffic
 ### SuperOffice 8.2 R06 (8.2.6689) and newer
 
 * SuperOffice Windows users can install the latest WebTools from the [Download Service][4] without worrying about compatibility.
-* Both Windows and Web installations use a new build of WebTools which ships **without** NetServer.
+* Both Windows and Web installations use a new build of WebTools that ships **without** NetServer.
 
 ### SuperOffice 8.1 and SuperOffice 8.2 up to 8.2 R04 (8.2.6642)
 

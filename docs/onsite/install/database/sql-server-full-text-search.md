@@ -31,7 +31,8 @@ If full-text search is enabled on the database, it will use special search synta
 All long text fields like appointment text, yellow notes, descriptions.
 
 > [!NOTE]
-> This is not a replacement for our full-text search, since it only works on specific fields, as part of the structured search system (Find)
+> This is not a replacement for our full-text search since
+ it only works on specific fields, as part of the structured search system (Find)
 
 The new full-text search functionality works differently than ordinary (much slower) text search, and there are some differences in search behavior. Using the classic text search the database would match against any record that contains your text query anywhere. With the new full-text search capability, the text is portioned into words, and the words need to match – a part of a word will not match.
 

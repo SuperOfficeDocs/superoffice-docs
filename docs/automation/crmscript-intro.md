@@ -2,7 +2,7 @@
 title: About CRMScripts
 uid: crmscript_intro
 description: About CRMScripts
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.topic: concept
 so.date:

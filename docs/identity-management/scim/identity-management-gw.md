@@ -1,9 +1,9 @@
 ---
 title: identity_management_gw
 description: The Identity Management Gateway Architecture, User interface, and Pre-requisites
-author:  # Your GitHub alias.
+author:
 keywords: Identity, Management, Gateway, Architecture, SuperId, 
-so.topic:               reference        # article, howto, reference, concept, guide
+so.topic:               reference
 so.date:
 so.envir:  cloud
 so.client: online
@@ -25,7 +25,7 @@ The Identity Manager is a clean, web-based user interface for SCIM identity mana
 
 ### Configurations tab
 
-* **User Sync Rules** pane - the rules wizard  
+* **User Sync Rules** pane - the rules wizard
 * **SCIM users** pane - a list of users that _can_ be synchronized
 * **Preview** pane - details for the currently selected user
 

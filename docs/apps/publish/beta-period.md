@@ -1,10 +1,9 @@
 ---
 title: beta_period
 description: Beta period for standard apps
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: App Store
-so.topic: concept          # article, howto, reference, concept, guide
-
+so.topic: concept
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile

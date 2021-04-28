@@ -11,7 +11,7 @@ so.envir: onsite
 
 # Service set-up guide
 
-From SuperOffice 8 you also need to install Service which is used by mailings inside both Sales & Marketing and Service.
+From SuperOffice 8 you also need to install Service, which is used by mailings inside both Sales & Marketing and Service.
 
 A typical first-time installation of SuperOffice Customer Service on Windows 2012 server using an IIS web server and Microsoft SQL server 2014. There is no client install necessary outside of a supported web client like Internet Explorer, as this is a web-based application.
 
@@ -27,13 +27,13 @@ The default installation of Service does not allow you to install it in a sub-ap
 
 SuperOffice Customer Service requires access to an email server to work, using either POP3 or IMAP to retrieve emails, and SMTP to send emails. MAPI can also be used (Exchange) but requires additional licenses. Any email account on Exchange servers can be configured to use POP3/IMAP instead of the standard MAPI protocol.
 
-It is important that the email server allows "relaying", allowing SuperOffice Service to send emails "outside" the domain. Please be sure that any firewalls must be configured to allow this type of communication.
+The email server **must** allow "relaying", allowing SuperOffice Service to send emails "outside" the domain. Please be sure that any firewalls must be configured to allow this type of communication.
 
 ### Network location
 
 Where on the network should SuperOffice Service be located?
 
-For security reasons, the SuperOffice Service solution, like all other Internet-connected servers, should be placed in a DMZ (de-militarized zone) or Secure Server Net. A DMZ is a zone in the firewall which is protected against breaches from the outside and inside of the firewall. As long as the solution is on the same LAN as the email server, no configurations in the Firewall are necessary. If there are firewalls between SuperOffice Service and the email server, the firewall must be configured as described below.
+For security reasons, the SuperOffice Service solution, like all other Internet-connected servers, should be placed in a DMZ (demilitarized zone) or Secure Server Net. A DMZ is a zone in the firewall that is protected against breaches from the outside and inside of the firewall. As long as the solution is on the same LAN as the email server, no configurations in the Firewall are necessary. If there are firewalls between SuperOffice Service and the email server, the firewall must be configured as described below.
 
 **NetServer:**
 
@@ -134,8 +134,8 @@ Enter the URL for the NetServer installed for this Service installation.
 
 **SuperOffice CRM administrator user:**
 
-Here you must enter a user which has NetServer administrator rights. This user will be used to create a NetServer system user, which will be used by the Service application. If you have just run the server setup, you configured a first user there, and you should use that one.
-  
+Here you must enter a user that has NetServer administrator rights. This user will be used to create a NetServer system user, which will be used by the Service application. If you have just run the server setup, you configured a first user there, and you should use that one.
+
 **Password for this user:**
 
 The password for this CRM administrator user. After pressing "enter" you may have to wait.
@@ -143,29 +143,29 @@ The password for this CRM administrator user. After pressing "enter" you may hav
 **Basepath:**
 
 This is where the application is installed. Normally there should be no reason to use anything but the default value, as this is picked up from the installer.
-  
+
 **Login name of existing CRM user:**
 
 If you have an upgraded pre-seven CRM database, you must connect the first Customer Service user to an existing CRM user. Enter his/her username here.
-  
+
 **Email for the first user/administrator email:**
 
 If the first user does not have an email address, you must enter it here.
-  
+
 **Default email:**
 
 This is the default email address, which will be used when sending emails. This should be an email address of a mailbox that is intended to be imported into Customer Service.
-  
+
 **SMTP hostname:**
 
 The address of your SMTP address, which will be used to send emails
-**  
+**
 SMTP port:** The port number used by your SMTP server. This is normally 25.
-  
+
 **Cgi-bin path:**
 
 The path to the *cgi-bin* folder on the web server when accessed using HTTP. If you let the installer set up the IIS site, you can use the default value.
-  
+
 **HTTP path:**
 
 The full HTTP path to your server, except the cgi-bin part. If you let the installer set up the IIS site and you entered the same under "hostname", you can use the default value.
@@ -180,7 +180,7 @@ If you start the service, the application will begin to import and send emails a
 
 #### From 8.4
 
-From version **8.4 R04**, Service needs to know NetServer's symmetric keys which are used to encrypt traffic from NetServer to Service. This is used to enable NetServer to call Service.
+From version **8.4 R04**, Service needs to know NetServer's symmetric keys, which are used to encrypt traffic from NetServer to Service. This is used to enable NetServer to call Service.
 
 When prompted:
 

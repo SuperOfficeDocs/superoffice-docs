@@ -25,7 +25,7 @@ These requirements are specific to onsite installations of SuperOffice. They sup
 
 ### TLS
 
-* The site must allow TLS 1.0 if you are running on a Pocket CRM version lower than 8.0.32 which was released August 15th 2016.
+* The site must allow TLS 1.0 if you are running on a Pocket CRM version lower than 8.0.32, which was released August 15th 2016.
 * From August 15th, 2016 we added support for TLS 1.2 communication protocols between device and server.
 
 ## Business card scanner

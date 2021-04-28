@@ -1,10 +1,10 @@
 ---
 title: user_accounts_and_passwords
 description:  User accounts and passwords
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
-keywords:  
-so.topic: concept                      # article, howto, reference, concept, guide
+keywords:
+so.topic: concept
 so.envir: cloud          # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---

@@ -1,10 +1,10 @@
 ---
 title: sign_in_services
 description: Sign-in services
-author:              # Your GitHub alias.
+author:
 keywords: SuperID
 so.date:
-so.topic: concept                    # article, howto, reference, concept, guide
+so.topic: concept
 so.envir: cloud                 # cloud or onsite
 so.client: online                 # online, web, win, pocket, or mobile
 ---

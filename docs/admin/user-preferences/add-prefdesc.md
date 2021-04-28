@@ -1,13 +1,10 @@
 ---
-title: add_user_preferences
+title: Add user preference
+uid: add_user_preferences
 description: Add your own user preferences
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: database
 so.topic: howto
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Add your own preferences
@@ -17,7 +14,7 @@ It's possible to add your own preferences to the database so they appear as they
 | ValueType | Description |
 |-----------|-------------|
 | 4 | It would find a list of the allowed values in `PrefDescLine` with the `prefdescline.prefdesc_id=prefdesc.prefdesc_id`|
-| 5 | maxvalue points to the table number of the list in question. Like 2 for associate |
+| 5 | The `maxlevel` value points to the table number of the list in question. Like 2 for associate |
 | 0 | A heading, like if you want to add your own preference section named "My own preference" preferences, you add the following (use HakonClient to insert) |
 
 ```SQL
@@ -32,7 +29,7 @@ insert into prefdesc (prefsection, prefkey, name, valuetype, maxlevel, sysmaxlev
 
 **Accessflags** here is what makes it appear in the different clients.
 
-So, if `accessflags = 15`, then it should appear in (wizardmode)1 + (General admin) 2 +  (admin client) 4 + (CRM client) 8
+So, if `accessflags = 15`, then it should appear in (wizardmode) 1 + (General admin) 2 +  (admin client) 4 + (CRM client) 8
 
 These are the preferences in SOAdmin:
 

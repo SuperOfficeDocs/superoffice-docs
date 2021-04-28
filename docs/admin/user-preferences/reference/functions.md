@@ -1,16 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: pref_functions       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Preference section Functions # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Functions
+uid: pref_functions
+description: Preference section Functions
+author: {github-id}
 keywords: database
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
 ---
 
 # Preference section Functions
@@ -21,7 +15,7 @@ so.topic: reference              # article, howto, reference, concept, guide
 SELECT * FROM UserPreference WHERE prefsection='Functions'
 ```
 
-The Functions section contains a variety of preferences which affect the SuperOffice client behavior in small but useful ways.
+The Functions section contains a variety of preferences that affect the SuperOffice client behavior in small but useful ways.
 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
@@ -32,10 +26,10 @@ The Functions section contains a variety of preferences which affect the SuperOf
 | CapitalFirstLetterCompanyName | Should the first letter in every word in the company name automatically be converted to a capital letter? | YES | Bool | Admin, Crm, Admin users, Wizard |
 | CapitalFirstLetterPersonName | Should the first letter in every word in the contact name automatically be converted to a capital letter? | YES | Bool | Admin, Crm, Admin users, Wizard |
 | DisableContactDogEar | Removes the corner tabs on the Company card if there are too many companies (more than this number) | | Bool | Admin, Admin users, Wizard |
-| DisableDelKey | If YES, the user has to use the menu in order to delete a company, project or selection | YES | Bool | Admin, Admin users, Wizard |
+| DisableDelKey | If YES, the user has to use the menu to delete a company, project, or selection | YES | Bool | Admin, Admin users, Wizard |
 | DisplayDateFormatInLists | Specifies the date format used in section tabs| (ex. dd.mm.yyyy hh:mm). | computer's regional settings for short date format | Text | Wizard |
 | EditIfVisible | Allows other users to add and remove members from any selection visible to the user | | Bool | Admin, Admin users, Wizard |
-| EnableBackgroundDocumentCheck | Documents on the Activities section tab can be checked in the background.<br>The availability of a specified document plug-in and of each individual document is checked. This may happen at the cost of server capacity.<br>Alternatively, documents are checked when the user enables the right-click menu. It will then take longer for a document to open, since it first has to be checked. | ON | Bool | Admin, Admin users, Wizard |
+| EnableBackgroundDocumentCheck | Documents on the Activities section tab can be checked in the background.<br>The availability of a specified document plug-in and of each individual document is checked. This may happen at the cost of server capacity.<br>Alternatively, documents are checked when the user enables the right-click menu. It will then take longer for a document to open since it first has to be checked. | ON | Bool | Admin, Admin users, Wizard |
 | FilterBookingSlaves | Filter out invitations for everyone except the person making the invitation, to avoid duplicates in the list. | | Bool | Admin, Crm, Admin users, Wizard |
 | ForceConfirmation | Always displays confirmation dialog when deleting | | Bool | Admin, Admin users, Wizard |
 | GetAdvanceDays | Number of days ahead to display tasks in the checklist. | 21 days | Number | Admin, Crm, Admin users, Wizard |
@@ -54,7 +48,7 @@ The Functions section contains a variety of preferences which affect the SuperOf
 | ShowTipNumber | Next tip of the day to be displayed. | | Number | Wizard |
 | ShowTipsAtStart | Should a tip of the day be displayed every time a user logs in to SuperOffice. | YES | Bool | Admin, Crm, Admin users, Wizard |
 | ShowToDo | Shows tasks in the checklist | | Bool | Wizard |
-| UseCaseOnTemplateVariables | The template variables used in, for instance, documents and addresses are output in lower case and get the text exactly as stored in the database by default.<br>Setting this preference will change the text to uppercase for all or just the first letter, depending how the template variable is input. | NO | Bool | Admin, Admin users, Wizard |
+| UseCaseOnTemplateVariables | The template variables used in, for instance, documents and addresses are output in lower case and get the text exactly as stored in the database by default.<br>Setting this preference will change the text to uppercase for all or just the first letter, depending on how the template variable is input. | NO | Bool | Admin, Admin users, Wizard |
 | UseMiddleName | Enables the use of middle names in the Contact dialog | | Bool | Admin, Admin users, Wizard |
 | ShowProgressInfo | Should a progress dialog be displayed on the Travel Gateway when active tasks are running? | YES | Bool | Admin, Admin users, Wizard |
 | IdAllocationBatchSize | How many records should be inserted into the database during an import before they are committed? | | Number | Admin, Admin users, Wizard |

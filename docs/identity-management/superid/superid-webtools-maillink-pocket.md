@@ -1,10 +1,9 @@
 ---
 title: authentication_with_webtools_maillink_and_pocket
 description: Authentication with WebTools, MailLink, and Pocket
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: OAuth 2.0
-so.topic: concept      # article, howto, reference, concept, guide
-
+so.topic: concept
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile

@@ -1,12 +1,12 @@
 ---
-title: Split locations 
+title: Split locations
 uid: split_attachment_locations
 description: Splitting SuperOffice Service attachments to multiple locations
 author: {github-id}
 keywords:
 so.topic: howto
 so.envir: onsite
-# so.client: 
+# so.client:
 ---
 
 # Splitting attachment locations

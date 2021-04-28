@@ -1,11 +1,10 @@
 ---
 title: singel_sign_on
 description: Single sign-on
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: SSO
-so.topic: concept                      # article, howto, reference, concept, guide
-
+so.topic: concept
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile

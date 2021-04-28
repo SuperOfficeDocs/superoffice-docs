@@ -1,7 +1,7 @@
 ---
 title: SuperOffice AI Services - categorization
 description: SuperOffice AI Services - categorization
-author: AnthonyYates             # Your GitHub alias.
+author: AnthonyYates
 keywords: AI
 so.topic: concept
 

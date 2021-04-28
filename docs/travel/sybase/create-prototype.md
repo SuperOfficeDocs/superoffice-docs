@@ -2,7 +2,7 @@
 title: Create prototype for Sybase
 uid: create_prototype
 description: Create prototype for Sybase
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: howto

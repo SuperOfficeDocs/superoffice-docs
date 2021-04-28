@@ -35,7 +35,7 @@ Either set up a new application under `socrm.myorganization.com` for Service or 
 
 ![x][img4]
 
-Below service, you also need to add 2 applications, one for scripts which points to *Customer Service\\www\\scripts* folder. Make sure it uses the same application pool as the Service application.
+Below service, you also need to add 2 applications, one for scripts, which points to the *Customer Service\\www\\scripts* folder. Make sure it uses the same application pool as the Service application.
 
 ![x][img5]
 

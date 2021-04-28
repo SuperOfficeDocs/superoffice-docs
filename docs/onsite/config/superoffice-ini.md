@@ -1,9 +1,9 @@
 ---
 title: superoffice_ini
 description: SuperOffice.ini
-author: {github-id} # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: reference # article, howto, reference, concept, guide
+so.topic: reference
 # so.envir: # cloud or onsite
 # so.client:# online, web, win, pocket, or mobile
 ---
@@ -36,7 +36,7 @@ Description of the Database and Archive connections.
 | Datapath= | ODBC source used by the S&M windows client. Defines the location of the database. |
 | Local\_DataPath= | Defines the location of the local database when on Travel. Not needed if a built-in database is used. |
 | GlobalPrefix= | If you use another prefix than the default CRM7. |
-| GlobalTravelPrefix= | If this is set, all clients that will either do local updates or generate a protoype must have this prefix set. |
+| GlobalTravelPrefix= | If this is set, all clients that will either do local updates or generate a prototype must have this prefix set. |
 | CRMCaption= | You may set your own caption so it's easier to separate which version you're logged in to if you are running several installations on your computer. |
 | SOCachePath= | SOCachePath will default to the user’s local settings folder rather than the Windows directory if the SOCACHE folder does not exist in WINDOWS already. |
 | templatepath= | Defines where templates are located. Not needed, if not set defaults to SO\_ARC\\Template |
@@ -120,7 +120,7 @@ In the central SuperOffice.ini file. Used to define how the default client is se
 | Parameter | Description |
 |-----------|-------------|
 | PrefLang | This is the suggested language when installing a new client. PrefLang=NO will suggest that you install a new client workstation with Norwegian language files. This may be overridden during setup. |
-| PrefMailClient | This is the suggested mail client used on new clients. Options are: <br>Outlook2007 – MS Outlook 2007 and newer<br>Notes – Notes Mail Link<br>Other – the default mail client/simple mapi solution. Note – Simple Mapi is ANSI compatible only (ref Microsoft) |
+| PrefMailClient | This is the suggested mail client used on new clients. Options are: <br>Outlook2007 – MS Outlook 2007 and newer<br>Notes – Notes Mail Link<br>Other – the default mail client/Simple Mapi solution. Note – Simple Mapi is ANSI compatible only (ref Microsoft) |
 | PrefWordProcessor | Default editor to use. Options are:<br>Word2007 – Microsoft Word 2007 and newer<br>RTF – all other editors. Note - when you double click a document with this extension in Windows explorer it should open the editor you want to use.|
 
 ## \[ServerSetup installation\]

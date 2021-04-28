@@ -23,8 +23,7 @@ The Gateway program is **SOTRVGATE.EXE** and is installed in the SuperOffice Se
 
 To use the program:
 
-1. Double-click SOTRVGATE.EXE (you can also create a shortcut to the file) to log in to the program. This dialog box appears:  
-
+1. Double-click SOTRVGATE.EXE (you can also create a shortcut to the file) to log in to the program. This dialog box appears:
     ![1][img1]
 
 2. Enter your user ID and password and click **OK**.
@@ -38,8 +37,7 @@ To use the program:
 
 ## Travel gateway as a service
 
-Using SuperOffice Travel Gateway, you can automate the tasks that the system administrator usually performs in connection with Travel, by specifying that a process should run automatically at a particular time. 
-
+Using SuperOffice Travel Gateway, you can automate the tasks that the system administrator usually performs in connection with Travel, by specifying that a process should run automatically at a particular time.
 To install the Travel gateway service, run the SuperOffice client installation file from the Server\\Client folder. [Install manually][1] if the client installer fails.
 
 ## Start the service

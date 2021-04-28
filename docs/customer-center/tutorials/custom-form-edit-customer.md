@@ -36,7 +36,7 @@ if (getCgiVariable("ok") != "")
   theCustomer.setValue("firstname", getCgiVariable("firstname"));
   theCustomer.setValue("lastname", getCgiVariable("lastname"));
   theCustomer.setValue("x_address", getCgiVariable("address"));
-  theCustomer.save();  
+  theCustomer.save();
   print("Information saved!");
 }
 else
@@ -56,7 +56,7 @@ else
 %EJSCRIPT_END%
 ```
 
-Notice how the body is not in "core" CRMScript syntax, but rather in our "embedded CRMSript" format, which resembles PHP, ASP, and so on. As you can see, this is a format which by default is HTML, but which allows you to embed CRMScript between <% and %>. The first and last lines define the beginning and end of this embedded language section.
+Notice how the body is not in "core" CRMScript syntax, but rather in our "embedded CRMSript" format, which resembles PHP, ASP, and so on. As you can see, this is a format that by default is HTML, but that allows you to embed CRMScript between <% and %>. The first and last lines define the beginning and end of this embedded language section.
 
 You can execute this script from your customer care center with the following URL. Note that for this particular scenario, I have added an extra field, `x_address`, to the `customer` table.
 

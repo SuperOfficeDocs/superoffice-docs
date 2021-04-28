@@ -57,8 +57,7 @@ Message <input type "text" name="message" size="45" value="">
 
 **%-tags in message.alterbody:**
 
-`%%customer.firstname%%` inserts the form value customer.firstname into the message body  
-
+`%%customer.firstname%%` inserts the form value customer.firstname into the message body
 `%%customer.email%%` inserts the form value customer.email into the message body
 
 `%%foobar%%` inserts the form value foobar into the message body

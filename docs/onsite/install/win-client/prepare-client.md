@@ -35,7 +35,7 @@ Win Admin client uses a mix of ODBC and ADO.NET connections. For example, protot
 
 Import in Win Admin is the only place that can benefit from SQL Native client driver with bulk copy capabilities. In other parts using ODBC the difference in performance between SQL Native Client and Microsoft ODBC Driver is insignificant.
 
-On SQL Server we are using the .NET version of the bulk copy functionality which is just as fast as the ODBC.
+On SQL Server we are using the .NET version of the bulk copy functionality, which is just as fast as the ODBC.
 SORT.exe, SORTS.exe, SoTrvGate.exe, Reporter Studio - these use ODBC.
 
 ### DBSetup
@@ -44,7 +44,7 @@ DBSetup uses a mix of ODBC and ADO.NET connections. ODBC in DBsetup is mainly fo
 
 ### Web client / NetServer
 
-NetServer uses ADO.NET connection only. The Web client doesn't have its own database connection and uses NetServer to connect to a database and so\_arc. The only part of a Web client which has its own connection is Web Reporter and it uses an ODBC connection.
+NetServer uses ADO.NET connection only. The Web client doesn't have its own database connection and uses NetServer to connect to a database and so\_arc. The only part of a Web client that has its own connection is Web Reporter and it uses an ODBC connection.
 
 ### Service
 

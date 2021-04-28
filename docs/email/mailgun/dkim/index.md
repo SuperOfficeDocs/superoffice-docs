@@ -1,7 +1,7 @@
 ---
-title: dkim       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: dkim
+description:
+author: {github-id}
 keywords:
 ---
 
@@ -24,7 +24,7 @@ Not all receiving mail servers support the DKIM standard.
 ## Why is it Important?
 
 You can help prevent [spoofing][3] by adding a digital signature to outgoing message headers using the DKIM standard.
-  
+
 This additional layer of trustability is achieved by an implementation of the standard public/private key signing process. The owners of the domain add a DNS entry with the public DKIM key, which will be used by receivers to verify that the message DKIM signature is correct, while on the sender side the server will sign the entitled mail messages with the corresponding private key. Recipient servers can then retrieve the public key to decrypt incoming headers and verify that the message really comes from your domain and hasn't been changed along the way.
 
 Not all receiving mail servers support the DKIM standard.

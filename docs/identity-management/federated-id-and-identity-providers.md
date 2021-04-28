@@ -1,10 +1,10 @@
 ---
 title: federated_id_and_identity_providers
 description: Federated ID and identity providers
-author:              # Your GitHub alias.
+author:
 so.date:
 keywords: 
-so.topic: concept                   # article, howto, reference, concept, guide\
+so.topic: concept                   \
 so.envir: cloud                # cloud or onsite
 so.client: online                # online, web, win, pocket, or mobile
 ---
@@ -43,7 +43,7 @@ Other ways of achieving this can be to use:
 * **Microsoft Hybrid Identity:** able to connect local AD
   * [microsoft.com - what-is-azure-ad-connect][3]
   * [microsoft.com - what-is-hybrid-identity][4]
-    * If you don't have a Microsoft365 subscription, you probably need Azure AD Premium P1 or higher.  
+    * If you don't have a Microsoft365 subscription, you probably need Azure AD Premium P1 or higher.
         Consult Microsoft for cost and other considerations for setting up a Hybrid Identity.
 * **Google Cloud Directory Sync**: sync from another system to Google
 

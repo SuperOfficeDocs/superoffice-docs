@@ -1,10 +1,10 @@
 ---
 title: known_challanges_with_superid
 description: Known challenges with SuperID
-author:    # Your GitHub alias.
+author:
 so.date:
 keywords: 
-so.topic: reference                     # article, howto, reference, concept, guide
+so.topic: reference
 so.envir: cloud               # cloud or onsite
 so.client: online                 # online, web, win, pocket, or mobile
 ---

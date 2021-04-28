@@ -1,13 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: pref_visual       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Preference section Visual # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: pref_visual
+description: Preference section Visual
+author: {github-id}
 keywords: database
-so.topic: reference              # article, howto, reference, concept, guide
-
+so.topic: reference
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
@@ -25,12 +21,12 @@ Visual effects - these don't affect the functionality of the client, but how inf
 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
-| AcademicTitle | Use academic title for persons. | NO | Bool | Admin, Admin users, Wizard |
+| AcademicTitle | Use an academic title for persons. | NO | Bool | Admin, Admin users, Wizard |
 | AnimatePanels | Enables animation when switching screens | | Bool | Wizard |
 | CalendarPos | Where should the calendar appear.<br>0 = at the top of the Navigator<br>1 = in the top right-hand corner. | 1 | Bool | Wizard |
 | FilterCompletedFromTodo | Filter: Removes completed activities from the checklist | | Bool | Admin, Crm, Admin users, Wizard |
-| FilterShowRedLimit | Percentage below which 'Shows x out of y' is red in archives | 10 | Number | Admin, Crm, Admin users, Wizard |
-| FilterShowYellowLimit | Percentage below which 'Shows x out of y' is yellow in archives | 40 | Number | Admin, Crm, Admin users, Wizard |
+| FilterShowRedLimit | Percentage below that 'Shows x out of y' is red in archives | 10 | Number | Admin, Crm, Admin users, Wizard |
+| FilterShowYellowLimit | Percentage below that 'Shows x out of y' is yellow in archives | 40 | Number | Admin, Crm, Admin users, Wizard |
 | FrameType | Which frame type to use in edit fields | | Text | Wizard |
 | HistorySize | The maximum number of elements in a history list | | Number | Admin, Crm, Admin users, Wizard |
 | JpegQuality | Quality parameter for JPEG compression of stored images, from 0 to 100; 100 is best,<br>Setting high values will result in sharper images, at the cost of storage space in the database and loading times. | 40 | Number | Admin, Crm, Admin users, Wizard |

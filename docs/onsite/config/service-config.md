@@ -1,9 +1,9 @@
 ---
 title: service_config
 description: Service config
-author: {github-id} # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: reference # article, howto, reference, concept, guide
+so.topic: reference
 so.envir: onsite # cloud or onsite
 # so.client: # online, web, win, pocket, or mobile
 ---

@@ -4,7 +4,7 @@ description: Guide to federated sign-in
 author: Bergfrid Dias
 so.date:
 keywords:
-so.topic: guide                     # article, howto, reference, concept, guide
+so.topic: guide
 so.envir: cloud          # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---

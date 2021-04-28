@@ -1,10 +1,9 @@
 ---
 title: config categorization AI Services
 description: How to setup and configure Categorization AI Service
-author: AnthonyYates             # Your GitHub alias.
+author: AnthonyYates
 keywords: AI
-so.topic: guide,howto   # article, howto, reference, concept, guide
-
+so.topic: guide,howto
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 so.client: online                # online, web, win, pocket, or mobile
@@ -85,7 +84,7 @@ When a request selection has been chosen, the **Analyze Requests** button is ena
     * If you get an error here, you will need to train the dataset again based upon the feedback in the error message.
 
 Here are some examples of the different feedback you can get for the latest training:
-  
+
 ![x][img12]
 
 In case of errors and other experiences - we would like to get your input and feedback. Please post your experiences on the Pilot Forum.

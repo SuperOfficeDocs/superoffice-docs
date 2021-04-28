@@ -1,10 +1,10 @@
 ---
-title: souser_ini      
+title: souser_ini
 description: SOUser.ini
 author: {github-id}
 keywords:
-so.topic: reference         # article, howto, reference, concept, guide
-# so.envir:     
+so.topic: reference
+# so.envir:
 # so.client:
 ---
 

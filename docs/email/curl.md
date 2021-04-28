@@ -4,8 +4,8 @@ description: cURL mail
 author: {github-id}
 keywords: email
 so.topic: concept
-# so.envir: 
-# so.client: 
+# so.envir:
+# so.client:
 ---
 
 # cURL mail

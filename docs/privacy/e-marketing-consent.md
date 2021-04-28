@@ -1,13 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: gdpr_emarketing_consent       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: GDRP consent for e-marketing # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: gdpr_emarketing_consent
+description: GDRP consent for e-marketing
+author: {github-id}
 keywords:
-so.topic: concept              # article, howto, reference, concept, guide
-
+so.topic: concept
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile

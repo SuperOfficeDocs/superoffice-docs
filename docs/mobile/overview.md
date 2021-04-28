@@ -31,6 +31,7 @@ SuperOffice Mobile (v. 9.1 and newer) and Pocket CRM (v. 8.x and older) are free
 
 * You can stay up-to-date with projects.
 
-* Better customer satisfaction, since you can deal with enquiries instantly.
+* Better customer satisfaction since
+ you can deal with enquiries instantly.
 
 * Save valuable time and increase data quality by updating information while you are on a visit, instead of having to wait until you return to the office.

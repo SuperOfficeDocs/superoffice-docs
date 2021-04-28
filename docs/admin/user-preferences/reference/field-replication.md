@@ -1,16 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: pref_fieldreplication       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Preference section FieldReplication # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: FieldReplication
+uid: pref_fieldreplication
+description: Preference section FieldReplication
+author: {github-id}
 keywords: database
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
 ---
 
 # Preference section FieldReplication
@@ -21,7 +15,7 @@ so.topic: reference              # article, howto, reference, concept, guide
 SELECT * FROM UserPreference WHERE prefsection='FieldReplication'
 ```
 
-Enables replication of user-defined fields at field level instead of record level. This ensures that field changes for the customer are retained, but may affect the performance of the replication process. This will affect the size of UP/DWN files and how conflicts are handled by the travel system.
+Enables replication of user-defined fields at field level instead of at record level. This ensures that field changes for the customer are retained, but may affect the performance of the replication process. This will affect the size of UP/DWN files and how conflicts are handled by the travel system.
 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|

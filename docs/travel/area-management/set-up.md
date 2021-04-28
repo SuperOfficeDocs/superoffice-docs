@@ -2,16 +2,16 @@
 title: Set up Area Management
 uid: set_up_area_management
 description: How to set up Area Management
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: howto             # article, howto, reference, concept, guide
+so.topic: howto
 so.envir: onsite
 so.client: win
 ---
 
 # Set up Area Management
 
-The best way to visualize how to define areas within your company is to "define the users from the bottom up", starting by defining areas that contain only one user's data and then defining the areas which contain more than one user's data.
+The best way to visualize how to define areas within your company is to "define the users from the bottom up", starting by defining areas that contain only one user's data and then defining the areas that contain more than one user's data.
 
 **Available associates** are all users that have been defined as employees in the **Users** panel in the Admin client. They are listed in the **Area Definition** dialog and can be assigned log-in access rights.
 

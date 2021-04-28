@@ -14,4 +14,4 @@ We currently do not support adding the App to a "Site Collection". The folder ne
 
 ## Default access permission on documents
 
-Documents created via SuperOffice which are hosted in SharePoint will be given a default-permission based upon what access rights are set on the SharePoint folder.
+Documents created via SuperOffice that are hosted in SharePoint will be given a default-permission based upon what access rights are set on the SharePoint folder.

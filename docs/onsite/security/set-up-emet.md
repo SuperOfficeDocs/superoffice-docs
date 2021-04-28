@@ -22,14 +22,14 @@ The following changes should be made to the settings:
 * Set the **Quick Profile Name** setting to *Maximum Security Settings*.
 * Check that the **System Status** box shows the same settings as the screenshot below.
 
-Next we want to use EMET to protect some more applications than those that are protected by default. Depending on which sort of server this is, different settings should be applied. There are setting files available on the website that will protect SuperOffice executables. There are 2 different files at the moment:
+Next, we want to use EMET to protect some more applications than those that are protected by default. Depending on which sort of server this is, different settings should be applied. There are setting files available on the website that will protect SuperOffice executables. There are 2 different files at the moment:
 
 * *emet\_config\_CS\_v0.2.xml*
 * *emet\_config\_superoffice\_general\_including\_netserver\_v0.1.xml*
 
 This is because Customer Service is packaged into executables and all of these need to be configured to be protected by EMET, the first file addresses this. The second file can be used on web servers in general including the NetServer. It configures EMET to protect IIS in addition to all the default EMET protection rules.
 
-To import the EMET configuration file, simply select **Import** from the menu and choose the XML file configuration file. If there are any errors, it is most likely because EMET did not find the SuperOffice installation at the path that was set in the XML file. To fix this, edit the XML configuration file and make sure that the paths match the installation path of you SuperOffice installation.
+To import the EMET configuration file, simply select **Import** from the menu and choose the XML file configuration file. If there are any errors, it is most likely because EMET did not find the SuperOffice installation at the path that was set in the XML file. To fix this, edit the XML configuration file and make sure that the paths match the installation path of your SuperOffice installation.
 
 ![Import the EMET configuration file][img2]
 
@@ -37,7 +37,7 @@ After setting up the rules, the applications must be restarted for the protectio
 
 ![Running processes][img3]
 
-Repeat this process for the servers that are involved in the SuperOffice installation, for example, file server, database server, NetServer and proxy server.
+Repeat this process for the servers that are involved in the SuperOffice installation, for example, file server, database server, NetServer, and proxy server.
 
 <!-- Referenced links -->
 [1]: https://technet.microsoft.com/en-us/security/jj653751

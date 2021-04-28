@@ -1,13 +1,9 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: deploy_superoffice_for_outlook_centrally       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Centralized deployment # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: deploy_superoffice_for_outlook_centrally
+description: Centralized deployment
+author: {github-id}
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
+so.topic: howto
 # Optional fields. Don't forget to remove # if you need a field.
 so.envir: cloud              # cloud or onsite
 so.client: online            # online, web, win, pocket, or mobile

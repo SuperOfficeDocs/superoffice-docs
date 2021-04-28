@@ -1,7 +1,7 @@
 ---
 title: spf
 description:
-author: {github-id} # Your GitHub alias.
+author: {github-id}
 keywords:
 ---
 

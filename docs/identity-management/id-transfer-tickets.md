@@ -1,10 +1,10 @@
 ---
 title: id_transfer_tickets
 description: Tickets and identity transfers
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: authentication, user
-so.topic: concept             # article, howto, reference, concept, guide
+so.topic: concept
 so.envir: onsite            # cloud or onsite
 so.client: web              # online, web, win, pocket, or mobile
 ---

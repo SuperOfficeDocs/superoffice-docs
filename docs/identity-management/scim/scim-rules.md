@@ -1,10 +1,10 @@
 ---
 title: scim_rules
 description: SCIM rules
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: SCIM
-so.topic: concepts                      # article, howto, reference, concept, guide
+so.topic: concepts
 so.envir: cloud             # cloud or onsite
 so.client: online             # online, web, win, pocket, or mobile
 ---

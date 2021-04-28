@@ -1,7 +1,7 @@
 ---
-title: app_requirements       
+title: app_requirements
 description: Online application requirements and guidelines
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 ---
 

@@ -44,7 +44,7 @@ or
 (we will use the relative path to Root or the SuperOffice Archive  `/SuperOffice_Archive/Template/` for our setup)
 
 A virtual site or sub-site for the template folder will typically have an address of URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_Archive/` **(not supported)**
-or  
+or
 URL: `https://[your domain-name].sharepoint.com/sites/superoffice/SuperOffice_Archive/Forms/AllItems.aspx?id=%2Fsites%2Fsuperoffice%2FSuperOffice_Archive%2FTemplate/` **(not supported)**
 
 ### Document Center

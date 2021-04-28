@@ -14,7 +14,7 @@ This guide will explain how to prepare IDP login for SharePoint integration.
 
 ## Make sure all users use the correct username
 
-To be able to use Office 365 for authentication, the users' SuperOffice username needs to be the same for both systems.  
+To be able to use Office 365 for authentication, the users' SuperOffice username needs to be the same for both systems.
 The O365 username (User Principal Name, UPN) is managed by your Office 365 Azure Active Directory. Update SuperOffice Admin with this username in the username field.
 
 > [!NOTE]

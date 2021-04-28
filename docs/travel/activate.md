@@ -1,7 +1,7 @@
 ---
 title: activate_travel
 description: How to activate travel function
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: howto

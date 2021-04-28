@@ -1,9 +1,9 @@
 ---
 title: video_meeting_intro
 description: Video Meetings for SuperOffice
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
+so.topic:
 so.envir: cloud               # cloud or onsite
 so.client: online             # online, web, win, pocket, or mobile
 ---

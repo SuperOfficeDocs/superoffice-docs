@@ -1,10 +1,10 @@
 ---
-title: sotables_ini      
+title: sotables_ini
 description: SoTables.ini
 author: {github-id}
 keywords:
-so.topic: reference             # article, howto, reference, concept, guide
-# so.envir:     
+so.topic: reference
+# so.envir:
 # so.client:
 ---
 

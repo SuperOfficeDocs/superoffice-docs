@@ -1,7 +1,7 @@
 ---
-title: chat       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: chat
+description:
+author: {github-id}
 keywords:
 ---
 

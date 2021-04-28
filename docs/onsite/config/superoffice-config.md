@@ -1,9 +1,9 @@
 ---
-title: superoffice_config      
+title: superoffice_config
 description: SuperOffice.config
 author: {github-id}
 keywords:
-so.topic: reference            # article, howto, reference, concept, guide
+so.topic: reference
 so.envir: onsite             # cloud or onsite
 so.client: win              # online, web, win, pocket, or mobile
 ---

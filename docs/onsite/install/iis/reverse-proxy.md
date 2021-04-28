@@ -29,41 +29,43 @@ Install Web Server (IIS) using the **Add roles and Features Wizard** from the Se
 
 ![Add roles and features wizard][img1]
 
-Open the IIS Manager on the server level and on the right hand side under Actions select Get New Web Platform Components.
+Open the IIS Manager on the server level and on the right side under Actions select Get New Web Platform Components.
 
 ![2018-10-17_16-31-02.png][img2]
 
-Download and install the Web Platform Installer which is an extension to the IIS Manager console.
+Download and install the Web Platform Installer, which is an extension to the IIS Manager console.
 
 ![blobid0.png][img3]
 
-Run it, select Products tab and find **Application Request Routing 3.0**. This will allow the server to function as a reverse proxy, proxying requests coming from users, to the NetServer.
+Run it, select the **Products** tab and find **Application Request Routing 3.0**. This will allow the server to function as a reverse proxy, proxying requests coming from users to the NetServer.
 
 ![Application Request Routing 3.0][img4]
 
 ### Changes in Reverse proxy
 
 1. Open up Application Request Routing Cache on the root node of the IIS server.
+
 2. Click **Server proxy settings** on the right-hand menu.
+
 3. Uncheck **Reverse rewrite host in response headers**.
 
-![x][img5]
+    ![x][img5]
 
 4. Click **Apply**.
 
 From 8.1 we require our products (Sales and Service) to be installed on the same domain since authentication is only done by the Sales web client.
 
-To set up support for your SuperOffice installation, we recommend setting up one site for SuperOffice Service and SuperOffice Sales web client. The site is just an empty shell which is not serving any content itself, but is only redirecting requests to the correct place. To illustrate, a potential setup could have SuperOffice Service at **socrm.myorganization.com/service** and SuperOffice CRM at **socrm.myorganization.com/sales**.
+To set up support for your SuperOffice installation, we recommend setting up one site for SuperOffice Service and SuperOffice Sales web client. The site is just an empty shell, which is not serving any content itself but is only redirecting requests to the correct place. To illustrate, a potential setup could have SuperOffice Service at **socrm.myorganization.com/service** and SuperOffice CRM at **socrm.myorganization.com/sales**.
 
 Set up the site as follows:
 
 * Right-click the **Sites** folder in the **Connections** pane in IIS manager and click **Add website**.
 * Give the site a descriptive name. If the site will redirect SuperOffice Service requests, name it **SuperOffice Service**.
 * Set the **physical path** to an empty folder, for instance, create a folder at *C:\\SuperOfficeService*.
-* Leave the binding type to **HTTP** for now and choose the correct IP-address you want the webserver to listen on.
+* Leave the binding type to **HTTP** for now and choose the correct IP address you want the webserver to listen on.
 * Enter the hostname that the site should respond to, for instance, `socrm.myorganization.com`
 
-For each site we need to set up some URL-rewrite rules so that the requests hitting our proxy server will be redirected to the correct place. If both clients are installed on the same IIS site internally then we only need one rule set up.
+For each site, we need to set up some URL-rewrite rules so that the requests hitting our proxy server will be redirected to the correct place. If both clients are installed on the same IIS site internally then we only need one rule set up.
 
 Select the site and click **URL Rewrite**.
 
@@ -73,7 +75,7 @@ Select **Add Rule(s)** from the action pane on the right and add a **Reverse Pro
 
 ![Add reverse proxy rule][img7]
 
-In the **Add Reverse Proxy Rules** dialog, enter the DNS hostname of the internal server that is hosting SuperOffice. For instance, when setting up proxy rules for SuperOffice where both Sale and Service is installed internally on the same site `socrm.INTERNAL.myorganization.com`, then  add `socrm.INTERNAL.myorganization.com` in the Server name of the rule. Uncheck the **Enable SSL Offloading box** and click **OK**.
+In the **Add Reverse Proxy Rules** dialog, enter the DNS hostname of the internal server that is hosting SuperOffice. For instance, when setting up proxy rules for SuperOffice where both Sale and Service is installed internally on the same site `socrm.INTERNAL.myorganization.com`, then add `socrm.INTERNAL.myorganization.com` in the Server name of the rule. Uncheck the **Enable SSL Offloading box** and click **OK**.
 
 ![x][img8]
 
@@ -87,7 +89,7 @@ The final rules should look something like this:
 
 ![x][img10]
 
-Note that the CRM rule does not allow HTTPS in the **Action URL**, this should be changed when setting up HTTPS for the servers, but for now we can keep it at HTTP. Try browsing to the proxy server and to see if the rules are working properly. In my case I would browse to the following URLs. Note that only HTTP has been set up:
+Note that the CRM rule does not allow HTTPS in the **Action URL**, this should be changed when setting up HTTPS for the servers, but for now, we can keep it at HTTP. Try browsing to the proxy server and to see if the rules are working properly. In my case, I would browse to the following URLs. Note that only HTTP has been set up:
 
 ```text
 http://socrm.myorganization.com/Sales
@@ -114,7 +116,7 @@ Add an outbound rule for the location header:
 
 ## Application pool settings
 
-To make sure the WCF services are working correctly, you have to change some settings in the application pool. Right click on the application pool and click on advanced settings. Under the category **General** you will find an option called **.NET CLR Version**. Change this option to **No Managed Code** in the drop-down menu.
+To make sure the WCF services are working correctly, you have to change some settings in the application pool. Right-click on the application pool and click on advanced settings. Under the category **General** you will find an option called **.NET CLR Version**. Change this option to **No Managed Code** in the drop-down menu.
 
 ### No Managed Code
 

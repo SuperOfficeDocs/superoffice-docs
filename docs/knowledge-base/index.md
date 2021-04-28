@@ -1,7 +1,7 @@
 ---
-title: knowledge_base       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: knowledge_base
+description:
+author: {github-id}
 keywords:
 ---
 

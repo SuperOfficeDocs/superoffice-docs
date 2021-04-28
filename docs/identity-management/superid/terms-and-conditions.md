@@ -1,10 +1,10 @@
 ---
 title: superid_terms_and_conditions
 description: SuperID terms and conditions
-author:             # Your GitHub alias.
+author:
 keywords: SuperID
 so.date:
-so.topic: reference                   # article, howto, reference, concept, guide
+so.topic: reference
 so.envir: cloud               # cloud or onsite
 so.client: online              # online, web, win, pocket, or mobile
 ---

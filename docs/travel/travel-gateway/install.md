@@ -1,7 +1,7 @@
 ---
 title: install travel gateway
 description: Manual install of travel gateway service
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: howto

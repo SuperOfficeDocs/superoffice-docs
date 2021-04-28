@@ -3,7 +3,7 @@ title: Upgrade
 uid: upgrade_service
 description: Upgrade SuperOffice Customer Service to SuperOffice Service
 author: {github-id}
-keywords: 
+keywords:
 so.topic: guide
 so.envir: onsite
 # so.client:
@@ -47,7 +47,7 @@ You need IIS version 7.5 or a patched version of 7.0. The Microsoft implementati
 
 When upgrading Service to a new version, your current [Customer center templates][4] will be copied to a new folder called *templates_date_time*.
 
-If you have made customizations to the customer center, you will need to update the current templates folder which will have the new optimizations, but the standard design.
+If you have made customizations to the customer center, you will need to update the current templates folder, which will have the new optimizations, but the standard design.
 
 ## Step 2 - Run upgrade.exe to update the database
 
@@ -72,7 +72,7 @@ Upgrade will ask you for the IIS site name and will check to see if it exists. T
 ### FastCGI
 
 > [!CAUTION]
-> **We recommend you run Customer Service using FastCGI technology.** FastCGI is more efficient and will increase application responsiveness and decrease server load. It requires some additional IIS settings be done and upgrade.exe will attempt to do this for you. If upgrade.exe encounters problems with your IIS version or administrative privileges, it will try to warn you and offer to abort the upgrade process so you can fix the issue and re-run upgrade.exe. The upgrade.exe program will also tell you if your IIS needs a Microsoft patch or hotfix, and print some URLs of where to download it if necessary.
+> **We recommend you run Customer Service using FastCGI technology.** FastCGI is more efficient and will increase application responsiveness and decrease server load. It requires some additional IIS settings to be done and upgrade.exe will attempt to do this for you. If upgrade.exe encounters problems with your IIS version or administrative privileges, it will try to warn you and offer to abort the upgrade process so you can fix the issue and re-run upgrade.exe. The upgrade.exe program will also tell you if your IIS needs a Microsoft patch or hotfix, and print some URLs of where to download it if necessary.
 
 When using FastCGI, the webserver does not need to start a new process for each request. The process is instead alive in memory for a while retaining some of its data and only needing to process a lot of initialization logic once and not for each request. This significantly improves responsiveness and decreases server load.
 

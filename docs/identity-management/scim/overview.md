@@ -2,10 +2,10 @@
 uid: scim_intro
 title: SCIM intro
 description: What is SCIM? Why use SCIM?
-author:              # Your GitHub alias.
+author:
 so.date:
 keywords: SCIM
-so.topic: concept                    # article, howto, reference, concept, guide
+so.topic: concept
 so.envir:  cloud                   # cloud or onsite
 so.client:  online                  # online, web, win, pocket, or mobile
 ---

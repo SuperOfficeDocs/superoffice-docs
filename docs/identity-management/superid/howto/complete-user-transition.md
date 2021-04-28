@@ -1,10 +1,9 @@
 ---
 title: complete_user_transition
 description: Complete user account transition from password to federated login
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: guide                 # article, howto, reference, concept, guide
-
+so.topic: guide
 # Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
@@ -27,7 +26,7 @@ The 1st time an existing password user tries to sign in after an [identity provi
 ## First sign-in with Microsoft or Google
 
 1. The user must **sign in with the old SuperOffice password** to prove their identity.
-  
+
     ![Sign in][img1]
 
     ![Use the old password][img2]

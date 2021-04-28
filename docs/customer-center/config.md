@@ -9,7 +9,7 @@ so.topic: reference
 
 # Customer center configuration
 
-The templates in the customer care center are also built up using the [parser variables][1]. Simple changes can be done using the parser variables, but if you are to do more advanced changes, you should consider using CRMScript which is far more powerful and can coexist with parser variables.
+The templates in the customer care center are also built up using the [parser variables][1]. Simple changes can be done using the parser variables, but if you are to do more advanced changes, you should consider using CRMScript, which is far more powerful and can coexist with parser variables.
 
 The Customer Center is built up of different [templates][2].
 

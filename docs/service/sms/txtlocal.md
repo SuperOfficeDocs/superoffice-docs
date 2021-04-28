@@ -1,5 +1,5 @@
 ---
-title: TxtLocal 
+title: TxtLocal
 uid: txtlocal_sms_plugin
 description: Configuration of TxtLocal NetServer SMS plugin
 author: {github-id}

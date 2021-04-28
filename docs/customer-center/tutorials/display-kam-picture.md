@@ -1,7 +1,7 @@
 ---
 title: display_kam_picture
 description: Get person image and display in the customer center
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 06.24.2016
 keywords:
 so.topic: tutorial

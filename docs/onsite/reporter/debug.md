@@ -11,7 +11,7 @@ so.client: web
 
 # Enable debug for Web Reporter
 
-Debug logging for Reporter in Web can be enabled in *SoReporter.Executer.exe.config* file which is located in *\<Web installation>\bin\Reporter* folder.
+Debug logging for Reporter in Web can be enabled in *SoReporter.Executer.exe.config* file, which is located in *\<Web installation>\bin\Reporter* folder.
 
 Go to `<system.diagnostics>` section and uncomment the following lines:
 

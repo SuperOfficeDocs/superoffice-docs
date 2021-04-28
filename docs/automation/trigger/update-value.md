@@ -26,12 +26,12 @@ EventData ed = getEventData();
 // Fetch the current Project ID
 String projectId = ed.getInputValue("ProjectEntity.ProjectId");
 
-/* 
+/*
   Use the SearchEngine class to summarize all the sales connected to the current project
-  
+
   If you expect a larger amount of rows in return, please add a limit so that you won't stress the application/database too much. Doing several queries where you return 50 000 rows would lower the performance of your solution.
 
-  An example is to set a limit to 1000 rows: 
+  An example is to set a limit to 1000 rows:
   se.setLimit(1000);
 */
 

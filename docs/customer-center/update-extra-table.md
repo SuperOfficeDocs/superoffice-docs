@@ -10,7 +10,7 @@ so.envir: onsite
 
 # Update an extra table from the Customer Center
 
-Writing to extra tables from the Customer center is done by using the parser functions extraTableUpdate and extraTableInsert. The functions take the table ID and the values to write as parameters. In addition `extraTableUpdate` takes the ID of the row which is to be updated.
+Writing to extra tables from the Customer center is done by using the parser functions extraTableUpdate and extraTableInsert. The functions take the table ID and the values to write as parameters. In addition `extraTableUpdate` takes the ID of the row that is to be updated.
 
 ## Example extraTableUpdate
 

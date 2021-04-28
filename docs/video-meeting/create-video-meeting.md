@@ -1,9 +1,9 @@
 ---
 title: create_video_meeting
 description: How to create a video meeting
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: howto             # article, howto, reference, concept, guide
+so.topic: howto
 so.envir: cloud              # cloud or onsite
 so.client: online            # online, web, win, pocket, or mobile
 ---

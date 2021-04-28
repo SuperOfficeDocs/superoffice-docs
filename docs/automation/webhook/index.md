@@ -1,7 +1,7 @@
 ---
 title: Webhooks
 description: SuperOffice Webhooks
-author: 
+author:
 so.date:
 keywords: automation
 so.topic: concept

@@ -1,7 +1,7 @@
 ---
-title: app_validation       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: app_validation
+description:
+author: {github-id}
 keywords:
 ---
 

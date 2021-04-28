@@ -1,10 +1,10 @@
 ---
-title: username_ini      
+title: username_ini
 description: Username.ini
 author: {github-id}
 keywords:
-so.topic: reference           # article, howto, reference, concept, guide
-# so.envir:     
+so.topic: reference
+# so.envir:
 # so.client:
 ---
 

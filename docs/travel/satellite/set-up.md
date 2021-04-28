@@ -2,7 +2,7 @@
 title: Set up Satellite
 uid: set_up_satellite
 description: How to set up Satellite
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: travel, satellite
 so.topic: howto
 so.envir: onsite
@@ -19,7 +19,7 @@ Satellite is accessed via the Replication screen.
 
 * Consider how many Satellite companies you need. Each Satellite is owned by a company in the central database. Such companies are called **Satellite Companies**.
 
-* Decide which users belong in each Satellite by assigning them login rights in the area which defines the Satellite. Users who are not assigned login rights for any Satellite continue to be users on the central database
+* Decide which users belong in each Satellite by assigning them log-in rights in the area that defines the Satellite. Users who are not assigned login rights for any Satellite continue to be users on the central database
 
 ## Steps
 

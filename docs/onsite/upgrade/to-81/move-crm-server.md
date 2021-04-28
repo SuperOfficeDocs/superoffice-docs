@@ -38,7 +38,7 @@ There are also other 4 places where you will need to make a change to the new SO
 
     ![imagei4ebl.png][img5]
 
-2. In *SuperOffice.ini* file (Archivepath line) on all computers which have SuperOffice Windows application installed.
+2. In *SuperOffice.ini* file (Archivepath line) on all computers that have SuperOffice Windows application installed.
 
     ![image7byzr.png][img6]
 
@@ -108,9 +108,9 @@ You will need to manually change settings inside the database tables called **Co
 | 284 | the ImageResizer executable |
 | 22 | the ejOutbox executable |
 | 1 | the ejSender executable |
-| 245 | the program which performs AD authentication |
+| 245 | the program that performs AD authentication |
 | 40 | the LogPath in Service |
-| 109 |  www folder, if Service is installed in a sub application called Service, then value here would be set to /Service/ |
+| 109 |  www folder, if Service is installed in a sub-application called Service, then value here would be set to /Service/ |
 
 **Changing hostname also:**
 

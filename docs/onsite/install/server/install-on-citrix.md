@@ -42,11 +42,11 @@ This means that if a previous installation of SuperOffice 6.3 was installed, you
 
 The first thing to check for if this situation happens is if there are any settings in the user context (`HKEY_CURRENT_USER\SOFTWARE\SuperOffice\Mail\Senders\OutlookSender`) to resolve which COM Component should be instantiated to start MailLink.
 
-If you have previous registrations, you need to write a simple login-script that deletes these settings for every user that logs on to the Citrix/Terminal Server.
+If you have previous registrations, you need to write a simple login script that deletes these settings for every user that logs on to the Citrix/Terminal Server.
 
 The next step to start troubleshooting is the way the Ribbons and MailLink add-ins are registered with Microsoft Office. This is also a place where a few things can go very wrong.
 
-First of all, the Outlook Addin itself is only an Addin, not a Ribbon. An Addin can be registered in a machine context, and is therefore written to the `HKEY_LOCAL_MACHINE`  registry hive (`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`). This will mostly work without too many problems, but be aware of the same issues with previous user-context registrations (`HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`) overwriting the one written by the installer.
+First of all, the Outlook Addin itself is only an Addin, not a Ribbon. An Addin can be registered in a machine context and is therefore written to the `HKEY_LOCAL_MACHINE`  registry hive (`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`). This will mostly work without too many problems, but be aware of the same issues with previous user-context registrations (`HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins\SuperOffice.OutlookAddin`) overwriting the one written by the installer.
 
 The Ribbon components on the other hand are more complicated since they need to be registered in a user context. For Office 2010 and newer `HKEY_LOCAL_MACHINE`  can be used, but this will not work with Office 2007 without a patch. To make sure that every user gets these Ribbons, Microsoft Office has a system where you can tell Office to create some registry settings in the user context when you are about to start any Office application. This is the mechanism we’ve used to make sure every user gets the correct Ribbons when they log on. The registry propagation system uses a set of registry keys describing what to create that can be found here (for a 64-bit machine):
 
@@ -63,14 +63,14 @@ HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\16.0\User Settings\Supe
 **Office 2013:**
 
 ```text
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeOfficeRibbons 
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeOfficeRibbons
 HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\15.0\User Settings\SuperOfficeRibbons
 ```
 
 **Office 2010:**
 
 ```text
-HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeOfficeRibbons 
+HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeOfficeRibbons
 HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Office\14.0\User Settings\SuperOfficeRibbons
 ```
 

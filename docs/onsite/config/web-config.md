@@ -1,9 +1,9 @@
 ---
-title: web_config      
+title: web_config
 description: Web.config
 author: {github-id}
 keywords:
-so.topic: reference            # article, howto, reference, concept, guide
+so.topic: reference
 so.envir: onsite            # cloud or onsite
 # so.client:
 ---
@@ -12,7 +12,7 @@ so.envir: onsite            # cloud or onsite
 
 Used by web, remote web services, service.
 
-The *web.config* file is an XML file that can be changed as needed, but we recommend running the SuperOffice Web Configurator which is installed by the [web client][1]. Administrators can use configuration files to set policies that affect how applications run on their computers. Read more on [MSDN][2].
+The *web.config* file is an XML file that can be changed as needed, but we recommend running the SuperOffice Web Configurator, which is installed by the [web client][1]. Administrators can use configuration files to set policies that affect how applications run on their computers. Read more on [MSDN][2].
 
 There are some SuperOffice specific sections, defined under the SuperOffice sectionGroup.
 
@@ -27,7 +27,7 @@ There are some SuperOffice specific sections, defined under the SuperOffice sect
 | Cryptography | Cryptographic options, see table below. Note: change any of these keys at your own peril |
 | Sentry | Ignore the Sentry mechanism, everything will be allowed (default 'False')<br>Relates to the Sentry system in SuperOffice. |
 
-The sentry system can be thought of as the traffic cop, controlling access to the data in the database. Each object in NetServer has an associated sentry which is responsible for enforcing rules such as "private appointments are visible only to its owner". Sentry rules focus on ownership, group membership and user-level access.
+The sentry system can be thought of as the traffic cop, controlling access to the data in the database. Each object in NetServer has an associated sentry that is responsible for enforcing rules such as "private appointments are visible only to its owner". Sentry rules focus on ownership, group membership, and user-level access.
 
 ### The *Cryptography* section is used for encrypting and decrypting user credentials
 
@@ -58,7 +58,7 @@ Configuration of mail parameters when using the SuperOffice Inbox. This is also 
 |-----------|-------------|
 | Reader | The Key used for mail reader - default MailKit from 8.1, used to be EasyMail |
 | Sender | The Key used for mail sender - default MailKit from 8.1, used to be EasyMail |
-| NumberOfDaysToDownload | Change how many days to past we should download and store emails. Defaults to 180 day |
+| NumberOfDaysToDownload | Change how many days to past we should download and store emails. Defaults to 180 days |
 
 SuperOffice Inbox downloads emails from your mailbox and stores them in the SuperOffice database.
 If you want to change how many days to past we should download and store emails, you can add the following key `<add key="NumberOfDaysToDownload" value="XX" />` in Mail section:
@@ -85,7 +85,7 @@ Settings related to logging.
 
 | Parameter | Description |
 |-----------|-------------|
-| EnableScaffolding | Boolean value determines whether to log verbose, detailed, information. Default off, only turn on for extended debugging and do turn this off later. |
+| EnableScaffolding | Boolean value determines whether to log verbose, detailed, information. Default off, only turn on for extended debugging, and do turn this off later. |
 | EnableStackTracing | Should stack traces be collected by various events |
 | LogError | Boolean value determines whether to log all error messages. Default = True |
 | LogFailureAudit | Boolean value determines whether to log when an access failure occurs/failed authentications (default 'True') |
@@ -126,7 +126,7 @@ The *Session* section relates to the lifetime of a NetServer communication ses
 
 * HttpContext: Recommended in ASP.NET applications. Added to prevent ASP.NET thread switches from changing identities in the middle of an ASP.net request.
 
-* Context: Session is stored in a context static manner. For further reference, see System.ContextStaticAttribute.
+* Context: The session is stored in a context static manner. For further reference, see System.ContextStaticAttribute.
 
 * PartnerHttpContext: Helper class for SuperOffice.DevNet.Online.Login
 
@@ -148,15 +148,15 @@ The *Database* section relates to location and database-vendor-specific settin
 
 | Parameter | Description |
 |-----------|-------------|
-| DynamicLoadedDataBaseDriver | String representing the location of the driver file. |
-| DynamicLoadedDataBaseDriverPolicy | String representing the location of the policy file. |
-| DynamicLoadedConnectionType | String representing the connection type. |
+| DynamicLoadedDataBaseDriver | A string representing the location of the driver file. |
+| DynamicLoadedDataBaseDriverPolicy | A string representing the location of the policy file. |
+| DynamicLoadedConnectionType | A string representing the connection type. |
 
 The *Explicit* section relates to employee and partner access to the SuperOffice database.
 
 | Parameter | Description |
 |-----------|-------------|
-| CommonDBConnection | Boolean value determining what authentication mechanism to use when authenticating a user.<br>If this value is "True", DBUser and DBPassword are used in the database connection.  Otherwise, the credentials provided in the authentication (for example **SoSession** class) will be used.  "True" is default for server (for example like web) applications and "False" is default for client (for example like Windows forms) applications. |
+| CommonDBConnection | Boolean value determining what authentication mechanism to use when authenticating a user.<br>If this value is "True", DBUser and DBPassword are used in the database connection.  Otherwise, the credentials provided in the authentication (for example **SoSession** class) will be used.  "True" is the default for server (for example, web) applications, and "False" is the default for client (for example like Windows forms) applications. |
 | DBPassword | String value representing the DBUser database password. |
 | DBUser | String value representing a database username with access privileges. |
 | EmployeeAllowed | Boolean value determining whether an employee is permitted access. |
@@ -194,7 +194,7 @@ The Documents section exposes seven settings related to SuperOffice documents. I
 You can have more than one ArchivePath in your Web installation. You need to edit *web.config* and add more Archive Paths under the Documents section:
 
 ```xml
-<Documents>  
+<Documents>
 <!-- Location of SO\_ARC -->
   <add key="ArchivePath" value="E:\\SuperOffice\\SO\_ARC" />
   <add key="ArchivePath2" value="E:\\SuperOffice\\SO\_ARC2" />
