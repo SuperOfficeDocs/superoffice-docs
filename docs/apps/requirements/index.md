@@ -1,5 +1,6 @@
 ---
-title: app_requirements
+title: Requirements
+uid: app_requirements
 description: Online application requirements and guidelines
 author: {github-id}
 keywords:

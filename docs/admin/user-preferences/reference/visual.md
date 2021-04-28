@@ -1,12 +1,10 @@
 ---
-title: pref_visual
+title: Visual
+uid: pref_visual
 description: Preference section Visual
 author: {github-id}
 keywords: database
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Preference section Visual

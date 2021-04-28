@@ -1,12 +1,12 @@
 ---
-title: business_requirements
+title: Business requirements
+uid: business_requirements
 description: Business requirements
 author: {github-id}
 keywords: certification
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Business requirements
@@ -29,7 +29,7 @@ Any application for SuperOffice CRM Online must indicate what it wants to achiev
 
 ## Documentation
 
-Proper product documentation will help the user help themself.
+Proper product documentation will help the user help themselves.
 
 ### Requirements
 

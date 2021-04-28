@@ -4,9 +4,8 @@ description: How to setup and configure Categorization AI Service
 author: AnthonyYates
 keywords: AI
 so.topic: guide,howto
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-so.client: online                # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # How to setup and configure Categorization AI Service
@@ -55,16 +54,18 @@ The Machine-learning categorization service is enabled in Settings and Maintenan
 
 ## Step 2 - Choose the selection of request to use for analysis
 
+> [!NOTE]
+> You must have created a selection of the request in the Sales client before continuing. See step 1 above.
+
 1. Open Settings and Maintenance.
 
 2. Click **AI services** in the menu.
 
 3. Under **Categorization**, choose the selection of requests to teach the system.
 
-4. Click the drop-down to select item.
+4. Click the drop-down to select an item.
 
-5. Search for the selection-name to choose it.
-    * Note: you need to have created a selection of the request in the Sales client. See step 1 above.
+5. Search for the name of the selection to choose it.
 
     ![x][img10]
 
@@ -97,7 +98,7 @@ In case of errors and other experiences - we would like to get your input and fe
 
 ## Step 5 - Done
 
-The setup is complete. New requests will be analyzed to indentify if there is a suggested category for them.
+The setup is complete. New requests will be analyzed to identify if there is a suggested category for them.
 
 When the users navigate to a request, there will be a link if there is a suggested category, in the request footer with the text: Suggested category: "category/name". When a user clicks the link, the request will be updated with the suggested category, and the suggestion link disappears. If there is no suggested category by the AI - there will not be a suggestion link.
 
@@ -106,8 +107,8 @@ When the users navigate to a request, there will be a link if there is a sugges
 1. Open Settings and Maintenance.
 2. Click AI services in the menu.
 3. Under **Categorization**, click the dropdown for "select item".
-4. Search for the selection-name to choose it.
-5. Click **Analyze Requests** button to start the analysis.
+4. Search for the name of the selection to choose it.
+5. Click the **Analyze Requests** button to start the analysis.
 
 <!-- Referenced links -->
 

@@ -1,12 +1,12 @@
 ---
-title: add_update_redirect
+title: Add or update redirect
+uid: add_update_redirect
 description: Add or update redirection endpoints
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Add or update redirection endpoints

@@ -1,12 +1,12 @@
 ---
-title: validation_checklist
+title: Validation checklist
+uid: validation_checklist
 description: Validation checklist
 author: {github-id}
 keywords: custom app
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Validation checklist

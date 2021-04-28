@@ -1,5 +1,6 @@
 ---
-title: activate_custom_app
+title: Activate a custom application
+uid: activate_custom_app
 description: Activate custom application
 author: {github-id}
 keywords:
@@ -31,7 +32,7 @@ The first-time activation is usually initiated by the application developer.
 
 In some special cases, we allow one-off applications to be used by multiple production tenants. For example:
 
-* The application was developed on a test-tenant in the production environment and is ready to go live
+* The application was developed on a test tenant in the production environment and is ready to go live
 * The application will be used by multiple subsidiaries within the same company
 
 This is usually initiated by the customer.

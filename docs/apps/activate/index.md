@@ -1,6 +1,7 @@
 ---
-title: app_validation
-description:
+title: Validation
+uid: app_validation
+description: About our validation process for custom apps
 author: {github-id}
 keywords:
 ---

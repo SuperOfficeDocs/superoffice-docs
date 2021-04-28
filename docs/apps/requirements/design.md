@@ -1,12 +1,12 @@
 ---
-title: design_requirements
+title: Design requirements
+uid: design_requirements
 description: Requirements for user UI and design
 author: {github-id}
 keywords: certification
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Requirements for user UI and design
@@ -21,7 +21,7 @@ These requirements are not applicable if the application has no user interaction
 
 ## Requirements
 
-* The GUI of your application must adopt the graphical look from SuperOffice CRM when your application adds web-panels or other visual interfaces directly in the SuperOffice application.
+* The GUI of your application must adopt the graphical look from SuperOffice CRM when your application adds web panels or other visual interfaces directly in the SuperOffice application.
 
 ## Guidance
 

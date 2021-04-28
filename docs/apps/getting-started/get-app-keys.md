@@ -11,7 +11,7 @@ so.client: online
 
 # Get application keys
 
-After signing up for a developer account, you need to register your application idea to get your own unique client ID and client secret so you can start coding.
+After signing up for a developer account, you need to register your application idea to get your unique client ID and client secret so you can start coding.
 
 ## Required info
 

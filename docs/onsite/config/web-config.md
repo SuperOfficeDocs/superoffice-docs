@@ -39,7 +39,7 @@ The sentry system can be thought of as the traffic cop, controlling access to th
 ### ActiveDirectoryCredentialPlugin
 
 > [!CAUTION]
-> To find and import Active Directory users NetServer WebServices need to be in the Active Directory domain. This is why we recommend [scenario 2][3] with [reverse proxy][4] so you do not expose it to the DMZ.
+> To find and import Active Directory users NetServer web services need to be in the Active Directory domain. This is why we recommend [scenario 2][3] with [reverse proxy][4] so you do not expose it to the DMZ.
 
 | Parameter | Description |
 |-----------|-------------|
@@ -265,7 +265,7 @@ In this section, you add the [Reverse proxy][4] override if you want to export l
 
 | Parameter | Description |
 |-----------|-------------|
-| AllowWebServiceRequests | Permit requests to web services.  Default True from 8.1  |
+| AllowWebServiceRequests | Permit requests to web services. Default True from 8.1  |
 | WrapExceptions | Check if NetServer shall wrap and serialize exceptions, or leave it up to the communication carrier (i.e. WCF) |
 | RemoveInvalidXMLText | If we should remove UTF-8 characters that are not valid XML. The Text table is the only place where this filter is active. |
 

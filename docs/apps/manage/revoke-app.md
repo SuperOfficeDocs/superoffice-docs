@@ -1,12 +1,12 @@
 ---
-title: revoke_app
+title: Revoke app
+uid: revoke_app
 description: Revoke access given to an app
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Revoke access given to an app

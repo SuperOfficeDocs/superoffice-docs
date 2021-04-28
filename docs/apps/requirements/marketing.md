@@ -1,18 +1,18 @@
 ---
-title: marketing_requirements
+title: Marketing requirements
+uid: marketing_requirements
 description: Marketing requirements
 author: {github-id}
 keywords: certification
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Marketing requirements
 
 Naming your application is important because it helps customers understand what your application does.
-For customers to find your application, to understand what it does and why they should download it, it is important that you provide good descriptions and images.
+For customers to find your application, to understand what it does and why they should download it, you need to provide good descriptions and images.
 
 ## Requirements
 
@@ -104,11 +104,11 @@ It should always be your first choice. If, for some reason, this can’t be used
 
 ![imagezwdb.png][img3]
 
-Always place our logo on a clear, white space to ensure visibility and impace. This minimum clear space is equal to the height of an uppercase 'O'.
+Always place our logo on a clear, white space to ensure visibility and influence. This minimum clear space is equal to the height of an uppercase 'O'.
 
 ![image6tlbw.png][img4]
 
-The logo can be placed on a green and very dark backgrounds.
+The logo can be placed on green and very dark backgrounds.
 
 Please note this logo is a **negative version**, which means the background color shows through the eyes.
 

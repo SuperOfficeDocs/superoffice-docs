@@ -1,12 +1,12 @@
 ---
-title: watchcom_testimonials
+title: Testimonials
+uid: watchcom_testimonials
 description: what our published partners say about the security audit
 author: {github-id}
 keywords:
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Testimonials

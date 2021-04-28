@@ -11,7 +11,7 @@ so.client: web
 
 # Debug Web client
 
-Enable debug for Sales & Marketing Web client or Remote WebServices. When locating problems in Sales & Marketing Web client, Service, Pocket CRM, or any other tool that use SuperOffice Remote WebServices (NetServer).
+Enable debug for Sales & Marketing Web client or Remote web services. When locating problems in Sales & Marketing Web client, Service, Pocket CRM, or any other tool that use SuperOffice Remote web services (NetServer).
 
 You can enable the debugging in a SuperOffice application that configures Web installation and/or NetServer and is called Product Configurator. There are 2 ways how you can start it - from the Windows Start menu and directly from the installation directory.
 

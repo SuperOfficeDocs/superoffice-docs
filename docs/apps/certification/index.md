@@ -1,6 +1,7 @@
 ---
-title: app_certification
-description:
+title: Certification
+uid: app_certification
+description: About our certification process for standard apps
 author: {github-id}
 keywords:
 ---
@@ -9,7 +10,7 @@ keywords:
 
 We require all standard applications to comply with our requirements before they are launched in the App Store.
 
-All [standard applications][1] have to go through certification and Watchcom security testing.If your application is one-off customization, we offer a simplified, light-weight testing program called [validation][2].We run the initial certification tests in SOD before we move your application to Stage. In the [stage environment][3], we repeat the tests and also [bring in Watchcom to evaluate your security][4]. Only when your application is secure and conforms to our requirements is it transferred to the production environment and marketplace.
+All [standard applications][1] have to go through certification and Watchcom security testing. If your application is one-off customization, we offer a simplified, lightweight testing program called [validation][2]. We run the initial certification tests in SOD before we move your application to Stage. In the [stage environment][3], we repeat the tests and also [bring in Watchcom to evaluate your security][4]. Only when your application is secure and conforms to our requirements is it transferred to the production environment and marketplace.
 
 ## Why do you test my application?
 

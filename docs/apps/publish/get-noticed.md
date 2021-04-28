@@ -1,6 +1,6 @@
 ---
-uid: how_to_get_noticed
 title: How to get noticed
+uid: how_to_get_noticed
 description: How to get noticed in the App Store
 author: {github-id}
 keywords:
@@ -11,9 +11,9 @@ so.client: online
 
 # How to get noticed in the App Store
 
-Catching customers' attention and interest becomes harder as the applications in the SuperOffice App Store grow in number.
+Catching the customers' attention and interest becomes harder as the applications in the SuperOffice App Store grow in number.
 
-Your App Store entry aims to trigger the interest, and your own webshop needs to secure the purchase. This means that you sit in the driver's seat for how you want your company, your application, and your services to be presented.
+Your App Store entry aims to trigger the interest, and your webshop needs to secure the purchase. This means that you sit in the driver's seat for how you want your company, your application, and your services to be presented.
 
 ## Stand out and be understood
 
@@ -36,9 +36,9 @@ A lot of this will depend upon how you present your application in the App Store
 
 Ask customers to rate your application We all look for recommendations and references when we make a purchase.
 
-You can include customer statements in the text and/or links to your own customer reference pages if you have one.
+You can include customer statements in the text and/or links to your customer-reference page if you have one.
 
-In the future, we will make it possible for customers to review and rate your application in the SuperOffice market place.
+In the future, we will make it possible for customers to review and rate your application in the SuperOffice marketplace.
 
 <!-- Referenced links -->
 [1]: ../provisioning/index.md

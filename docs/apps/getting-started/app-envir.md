@@ -50,7 +50,7 @@ The development and stage environments are essentially isolated copies of produc
 
 You will most likely be connecting to the free test tenant in SOD when you develop your application.
 
-In the SOD tenant, you get a new blank database. However, if you plan to create customizations based on a customer's own settings such as list items and user-defined fields, you probably need access to [production data][12].
+In the SOD tenant, you get a new blank database. However, if you plan to create customizations based on a customer's settings such as list items and user-defined fields, you probably need access to [production data][12].
 
 > [!NOTE]
 > For security reasons, we don't want production data in the SOD environment.

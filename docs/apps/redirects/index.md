@@ -1,5 +1,6 @@
 ---
-title: redirects
+title: Redirects
+uid: redirects
 description: Redirection endpoints
 author: {github-id}
 keywords: callback

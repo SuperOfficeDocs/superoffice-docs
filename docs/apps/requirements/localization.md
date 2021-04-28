@@ -1,12 +1,12 @@
 ---
-title: localization_requirements
+title: Localization requirements
+uid: localization_requirements
 description:  Requirements for localization and language support
 author: {github-id}
 keywords: certification
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Requirements for localization and language support

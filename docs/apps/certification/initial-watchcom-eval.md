@@ -1,12 +1,12 @@
 ---
-title: initial_watchcom_eval
+title: Watchcom initial security evaluation
+uid: initial_watchcom_eval
 description: About Watchcom initial security evaluation
 author: {github-id}
 keywords:
 so.topic: concept
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # About Watchcom initial security evaluation
@@ -54,7 +54,7 @@ Watchcom’s expert penetration testers will make a limited manual audit of the 
 
 ### Audit information security
 
-Design, architecture, infrastructure and data storage will be audited to make sure that customer data, and data belonging to SuperOffice, is properly protected.
+Design, architecture, infrastructure, and data storage will be audited to make sure that customer data, and data belonging to SuperOffice, is properly protected.
 
 ## Does it cost anything?
 

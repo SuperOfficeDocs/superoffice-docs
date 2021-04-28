@@ -1,12 +1,12 @@
 ---
-title: redirect_endpoint_types
+title: Endpoint types
+uid: redirect_endpoint_types
 description: Types of redirection endpoints
 author: {github-id}
 keywords: URL
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Types of redirection endpoints

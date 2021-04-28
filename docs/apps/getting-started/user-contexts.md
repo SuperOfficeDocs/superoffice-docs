@@ -30,7 +30,7 @@ Applications are **not allowed to directly ask users for their credentials**, a
 
 ## System user (non-interactive)
 
-All applications that run as background tasks, without user interaction, must receive a [system user token][2] and use the [system-user flow][3] for interacting with our web services. None of the [OpenID Connect flow][4]s are supported.
+All applications that run as background tasks, without user interaction, must receive a [system user token][2] and use the [system-user flow][3] for interacting with our web services. None of the [OpenID Connect flows][4] are supported.
 
 The system user has unlimited access to the [tenant][6] and is not restricted by functional rights or data rights.
 

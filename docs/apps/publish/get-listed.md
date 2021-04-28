@@ -1,12 +1,12 @@
 ---
-title: get_listed_in_appstorespaces
+title: Get listed
+uid: get_listed_in_appstore
 description: Submit app description (form)
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Submit app description (form)
@@ -34,7 +34,7 @@ You can submit information for the App Store listing anytime during the certific
 
 **Process:**
 
-1. [Submit applidation entry description][3] (form).
+1. [Submit an application entry description][3] (form).
 2. Review your listing in the SOD. App Store.
 3. Fix issues if necessary.
 

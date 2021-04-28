@@ -1,12 +1,12 @@
 ---
-title: beta_period
+title: Beta period
+uid: beta_period
 description: Beta period for standard apps
 author: {github-id}
 keywords: App Store
 so.topic: concept
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Beta period for standard apps
@@ -43,4 +43,4 @@ Customers running the application must be informed about the beta status.
 <!-- Referenced links -->
 [1]: ../standard.md
 [2]: ../requirements/index.md
-[2]: ../custom.md
+[3]: ../custom.md

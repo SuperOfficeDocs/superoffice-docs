@@ -55,7 +55,7 @@ We recommend using the same NetServer for both CRM Web and Service for a more l
 
 12. In the **Document Settings** section you need to enter the **Archive Path** to the folder you created in the SuperOffice CRM Server installation. You also need a temporary path. We recommend you add an impersonate user with sufficient rights to read and write to both SO_Arc and the temp area. Check the **Impersonate User** checkbox and fill in the credentials for a user with access to the file server where the SuperOffice Archive (SO_ARC) is located. Validate and click **Next**.
 
-13. Leave the **Security** section as is. Tick **Expose NetServer WebServices** to use the NetServer WebServices with Service.
+13. Leave the **Security** section as is. Tick **Expose NetServer web services** to use the NetServer web services with Service.
 
 14. In the **Globalization** section, choose your country in the **Application country code** if it exists. If not, choose English.
 

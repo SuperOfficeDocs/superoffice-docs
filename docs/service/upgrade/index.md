@@ -23,7 +23,7 @@ These are the recommended steps for upgrading SuperOffice Service / Customer Ser
 
 [!include[ALT](../../includes/warn-upgrade-all-to-same-version.md)]
 
-**Using remote NetServer WebServices?**
+**Using remote NetServer web services?**
 
 We recommend using the same NetServer for both CRM Web and Service for a more lean administration.
 

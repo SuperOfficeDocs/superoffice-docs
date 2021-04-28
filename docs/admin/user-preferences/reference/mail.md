@@ -1,12 +1,10 @@
 ---
-title: pref_mail
+title: Mail
+uid: pref_mail
 description: Preference section Mail
 author: {github-id}
 keywords: database
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Preference section Mail
@@ -21,17 +19,17 @@ Email synchronization and mail sending and receiving. These preferences control 
 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|
-| AddressSeparator | Use this character to delimit email addresses. | ';'  | Text | Admin, Crm, Admin users, Wizard |
-| ArchiveAppointments | Always proposes archiving appointments you send from SuperOffice by email.<br>This means that, by default, you will be asked if you want to archive all appointments sent by email. | | Bool | Admin, Admin users, Wizard |
-| ArchiveDocuments | Always proposes archiving documents you send from SuperOffice by email. This means that, by default, you will be asked if you want to archive all documents sent by email. | | Bool | Admin, Admin users, Wizard |
-| ArchiveForwards | Always proposes archiving email forwarded from SuperOffice.<br>This means that, by default, you will be asked if you want to archive all email you forward. | | Bool | Admin, Admin users, Wizard |
-| ArchiveReplies | Always proposes archiving replies to emails that are archived in SuperOffice. This means that, by default, you will be asked if you want to archive all email you reply to. | | Bool | Admin, Admin users, Wizard |
-| ArchiveSentMsg | Always proposes archiving email created in SuperOffice. This means that, by default, you will be asked if you want to archive all email you create. | | Bool | Admin, Admin users, Wizard |
-| ArchiveToAssocs | Always proposes archiving email written internally to your associates using SuperOffice. This means that, by default, you will be asked if you want to archive all email sent to associates. | | Bool | Admin, Admin users, Wizard |
+| AddressSeparator | Use this character to delimit email addresses. | ';' | Text | Admin, Crm, Admin users, Wizard |
+| ArchiveAppointments | Always proposes archiving appointments you send from SuperOffice by email.<br>By default, you will be asked if you want to archive all appointments sent by email. | | Bool | Admin, Admin users, Wizard |
+| ArchiveDocuments | Always proposes archiving documents you send from SuperOffice by email. By default, you will be asked if you want to archive all documents sent by email. | | Bool | Admin, Admin users, Wizard |
+| ArchiveForwards | Always proposes archiving email forwarded from SuperOffice.<br>By default, you will be asked if you want to archive all emails you forward. | | Bool | Admin, Admin users, Wizard |
+| ArchiveReplies | Always proposes archiving replies to emails that are archived in SuperOffice. By default, you will be asked if you want to archive all emails you reply to. | | Bool | Admin, Admin users, Wizard |
+| ArchiveSentMsg | Always proposes archiving email created in SuperOffice. By default, you will be asked if you want to archive all emails you create. | | Bool | Admin, Admin users, Wizard |
+| ArchiveToAssocs | Always proposes archiving email written internally to your associates using SuperOffice. By default, you will be asked if you want to archive all emails sent to associates. | | Bool | Admin, Admin users, Wizard |
 | AttachiCal | Attach an iCalendar file to email invitations. iCalendar is a standard format for exchanging calendar and schedule information. | Yes | Bool | Admin, Admin users, Wizard |
 | BookingAssociatesSubList | Preference used to remember the setup/status of the list | | Number | Wizard |
 | CloseAfterArchive | Close the email after it has been archived from SuperOffice | YES | Bool | Admin, Admin users, Wizard |
-| CreateExtUserSubject | Header used in email sent when generating external users. | | Text | Admin, Admin users, Wizard |
+| CreateExtUserSubject | Header used in emails sent when generating external users. | | Text | Admin, Admin users, Wizard |
 | DocSender | E-mail client used to send documents in SuperOffice. | | List | Admin, Admin users, Wizard |
 | FaxSender | Fax plug-in used to send faxes from SuperOffice | | List | Admin, Admin users, Wizard |
 | MailSender | E-mail client used to send email in SuperOffice | | List | Admin, Admin users, Wizard |

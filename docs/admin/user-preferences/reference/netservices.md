@@ -1,13 +1,11 @@
 ---
-title: pref_netservices
+title: NetServices
+uid: pref_netservices
 uid: prefNetServices
-description: Preference section 'NetServices'
+description: Preference section NetServices
 author: {github-id}
 keywords: database
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Preference section: NetServices
@@ -18,7 +16,7 @@ so.topic: reference
 SELECT * FROM UserPreference WHERE prefsection='NetServices'
 ```
 
-SuperOffice web services settings are used by the web-panel to automatically display information from SuperOffice when the user logs on.
+SuperOffice web services settings are used by the web panel to automatically display information from SuperOffice when the user logs on.
 
 | Preference | Description | Default | Control type | Access |
 |---|---|---|---|---|

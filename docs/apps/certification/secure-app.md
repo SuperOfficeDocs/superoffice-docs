@@ -1,12 +1,12 @@
 ---
-title: secure_app
+title: Pass Watchcom test
+uid: secure_app
 description: Pass Watchcom initial security evaluation
 author: {github-id}
 keywords:
-so.topic: guide
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud   # cloud or onsite
-so.client: online   # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Pass Watchcom initial security evaluation
@@ -33,8 +33,8 @@ We may send you multiple sets of keys at the same time. You will **not** be abl
 
 5. We prepare a _Handover_ document and send it to Watchcom. It explains:
 
-    * what does the application add?
-    * how does the application work with SuperOffice?
+    * What does the application add?
+    * How does the application work with SuperOffice?
 
 6. Our Watchcom contact will get in touch with your certification contact to schedule a date and time for testing. [Read more about the test scope][4].
 

@@ -4,10 +4,8 @@ description: SuperOffice AI Services - categorization
 author: AnthonyYates
 keywords: AI
 so.topic: concept
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-so.client: online                # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Categorization

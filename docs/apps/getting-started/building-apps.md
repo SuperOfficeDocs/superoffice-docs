@@ -21,24 +21,24 @@ To develop applications in our SOD environment is free. Required licenses apply 
 
 ## Workflow from a developer's perspective
 
-1. Register as a developer to get access to our [environment][1]
+1. Register as a developer to get access to our [environment][1].
 
-    * signs you up for a developer user account
-    * creates a test [tenant][3] in SOD (can be shared by multiple developers within a company)
+    * Signs you up for a developer user account.
+    * Creates a test [tenant][3] in SOD (can be shared by multiple developers within a company).
 
-2. Register your application idea to get your [client ID and client secret (token)][3]
+2. Register your application idea to get your [client ID and client secret (token)][3].
 
-    * it's essential that you provide us with your [redirect URLs][4] at this point
-    * you receive a unique set of keys to identify your application and certificates for authentication
+    * It's essential that you provide us with your [redirect URLs][4] at this point.
+    * You receive a unique set of keys to identify your application and certificates for authentication.
 
-3. Develop your application
+3. Develop your application.
 
-4. Test your application
+4. Test your application.
 
     * **standard application**: [get certified][6] and pass the security evaluation
     * **custom application**: [get validated][7]
 
-5. Deploy your application
+5. Deploy your application.
 
     Your new standard or custom application has been developed and tested and is now ready to be put to work.
 
@@ -52,7 +52,7 @@ To develop applications in our SOD environment is free. Required licenses apply 
 
 ### Upgrade
 
-We take precautions to ensure that no individual upgrade plan compromises data or the availability of services for any customers. This includes informing you about new versions, what's changing, and when it's deployed - with the opportunity to test and update your own offerings in line with the SuperOffice CRM Online services.
+We take precautions to ensure that no individual upgrade plan compromises data or the availability of services for any customers. This includes informing you about new versions, what's changing, and when it's deployed - with the opportunity to test and update your offerings in line with the SuperOffice CRM Online services.
 
 ## Preferred technology stack
 

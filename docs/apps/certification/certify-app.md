@@ -1,12 +1,12 @@
 ---
-title: start_certification
+title: Start certification
+uid: start_certification
 description: Submit standard app for certification
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Submit standard app for certification
@@ -20,7 +20,7 @@ Your standard application is almost ready. Before we go live, we need to ensure 
 
 ## Required info
 
-* Name of application
+* Name of the application
 * Client ID in our SOD environment
 * Certification contact
 * List of endpoints

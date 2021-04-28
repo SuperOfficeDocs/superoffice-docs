@@ -11,7 +11,7 @@ so.client: web
 # SuperOffice Batch Task Server
 
 > [!NOTE]
-> If you are running SuperOffice Sales & Markting Web with remote NetServer web services, this must be set up on the server running NetServer WebServices.
+> If you are running SuperOffice Sales & Marketing Web with remote NetServer web services, this must be set up on the server running NetServer web services.
 
 First introduced in SuperOffice Web version 6.3, background computing plays an important role that accomplishes long-running tasks in the background while allowing the user to continue working without being affected. Since 7.0 the Batch Tasks are configured to run in the IIS process instead of outside. The standard *web.config* file declares:
 

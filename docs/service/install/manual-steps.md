@@ -45,7 +45,7 @@ And one application for csplugins pointing to *\\customer service\\www\\csplugin
 
 ## Make sure NetServer is available first
 
-You need remote web services / NetServer installed on the same domain, in this example, we have used `socrm.myorganization.com/netserver`. This is installed by using the [web installer][1] to the Sales web client, and in the product configurator, tick the **Expose Netserver WebServices** on the Security chapter.
+You need remote web services / NetServer installed on the same domain, in this example, we have used `socrm.myorganization.com/netserver`. This is installed by using the [web installer][1] to the Sales web client, and in the product configurator, tick the **Expose Netserver web services** on the Security chapter.
 
 Browse to `http://socrm.myorganization.com/Sales/Remote/Services84/Contact.svc` to verify before the ejTermSetup.exe is run to prime the database for Service.
 

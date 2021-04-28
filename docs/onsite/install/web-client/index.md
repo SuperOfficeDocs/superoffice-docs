@@ -66,7 +66,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
     <add key="ArchivePath2" value="E:\SuperOffice\SO_ARC2" />
     ```
 
-13. On the **Security**, click to generate keys for the Symmetric key and Symmetric secret text. The **Expose NetServer WebServices** is ticked by default, this allows you to use the NetServer WebServices with Service.
+13. On the **Security**, click to generate keys for the Symmetric key and Symmetric secret text. The **Expose NetServer web services** is ticked by default, this allows you to use the NetServer web services with Service.
 
 14. In **AD integration**, you may add information about your Active Directory where you want to pick users from. Note that the user added needs read rights to pick up the users.
 
