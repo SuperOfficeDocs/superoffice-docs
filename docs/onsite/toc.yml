@@ -1,6 +1,5 @@
 items:
 - name: Onsite
-  topicHref: index.yml
   expanded: true
   items:
   - name: Install Onsite
@@ -55,6 +54,8 @@ items:
       expanded: true
       href: install/guide.md
       items:
+      - name: Prepare CRM Server
+        href: install/server/prepare.md
       - name: IIS web server
         href: install/iis/index.md
         items:

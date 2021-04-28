@@ -53,3 +53,12 @@ ServerSetup can be installed silently without using the user interface. All func
 | /SP | Systemuser password for SuperOffice |
 | /E | Email client (Outlook2007, Notes, Other. Outlook2007 is default) |
 | /W | Word processor (Word2007) |
+
+***
+
+[Previous][11] | [Next][12] | [Back to guide][13]
+
+<!-- Referenced links-->
+[11]: ../../../service/install/index.md
+[12]: ../web-client/index.md
+[13]: ../guide.md

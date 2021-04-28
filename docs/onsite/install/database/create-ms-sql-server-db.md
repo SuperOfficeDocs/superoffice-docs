@@ -24,6 +24,13 @@ Are you going to run SuperOffice on a Microsoft SQL Server, follow these steps t
 
 Please refer to the manufacturers' web pages for more information.
 
+***
+
+[Previous][11] | [Next][12] | [Back to guide][13]
+
 <!-- Referenced links -->
 [1]: https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017
 [2]: sql-server-full-text-search.md
+[11]: ../iis/index.md
+[12]: ../../../service/install/index.md
+[13]: ../guide.md

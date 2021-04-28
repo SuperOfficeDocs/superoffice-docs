@@ -59,6 +59,12 @@ Even though we now have a common database, there are still Service entities that
 
 In MSSQL, create a user, which has **dbowner** access (and not sysadmin access) to the database. Make sure that the **CRM7** schema or the database schema your database is set up with, is set for this user on the database.
 
+***
+
+[Previous][11] | [Next][12] | [Back to guide][13]
+
+***
+
 ## Install Service
 
 ### Prerequisites
@@ -79,13 +85,13 @@ The installer will copy the necessary files to the Service program folder.
 
 4. You also have the option of installing and overwriting the customer web templates, or leave your own customized one in place (if you have done customizations). If you choose to install/overwrite the templates, the installer will attempt to make a backup copy. For new installations, always leave this field checked.
 
-5. Let the installer  create an IIS site based on the hostname you entered. If the IIS website it already available on the webserver then you need to uncheck the **Create IIS website**.
+5. Let the installer  create an IIS site based on the hostname you entered. If the IIS website is already available on the web server then you need to uncheck the **Create IIS website**.
 
 ### Configure startup data
 
-You need to configure some startup data that is specific to your installation – among else you need to specify the mail server to use, default from address, the company name, the ODBC database user, NetServer system users and a few other things.
+You need to configure some startup data that is specific to your installation – among else you need to specify the mail server to use, default from address, the company name, the ODBC database user, NetServer system users, and a few other things.
 
-1. Start cmd.exe as an administrator from the start menu and navigate to your installation directory, and then to the sub directory */bin* under that.
+1. Start cmd.exe as an administrator from the start menu and navigate to your installation directory, and then to the sub-directory */bin* under that.
 2. Run the application **ejtermsetup.exe**, and you will be prompted for the necessary settings (see below).
 3. When ejtermsetup.exe is done, it will tell you that your installation is ready to run and the address where it should be available in a web browser. You can log in with the administrator user you entered earlier, and start configuring the system.
 
@@ -93,11 +99,14 @@ You need to configure some startup data that is specific to your installation �
 
 **Choose system language:**
 
-Customer Service will use this language to prime the database with different things that are not multi-language (for example the default system templates, priorities and so on). You will not be able to changes this later.
+Customer Service will use this language to prime the database with different things that are not multi-language (for example the default system templates, priorities, and so on). You will not be able to changes this later.
 
 **Hostname:**
 
-This should be the hostname which application will be access on. Normally this is the same as the DNS address you entered when installing Customer Service. Note - this is where you may add hostname/applicationname if you have followed the steps for [manual installation][2].
+This should be the hostname that the application will be accessed on. Normally this is the same as the DNS address you entered when installing Customer Service.
+
+> [!NOTE]
+> This is where you may add hostname/applicationname if you have followed the steps for [manual installation][2].
 
 **What is your name:**
 
@@ -105,7 +114,7 @@ Enter your name here. This is only used for information about who has installed 
 
 **What database system will you use:**
 
-Choose the database type which your database is running on.
+Choose the database type that your database is running on.
 
 **Username:**
 
@@ -113,7 +122,7 @@ This is the same username as you used in the ODBC setup.
 
 **Password:**
 
-This is the same password as you used in the ODBC setup.
+This is the same password that you used in the ODBC setup.
 
 **DSN:**
 
@@ -145,7 +154,7 @@ If the first user does not have an email address, you must enter it here.
   
 **Default email:**
 
-This is the default email address which will be used when sending emails. This should be an email address of a mail box that is intended to be imported into Customer Service.
+This is the default email address, which will be used when sending emails. This should be an email address of a mailbox that is intended to be imported into Customer Service.
   
 **SMTP hostname:**
 
@@ -155,7 +164,7 @@ SMTP port:** The port number used by your SMTP server. This is normally 25.
   
 **Cgi-bin path:**
 
-The path to the cgi-bin folder on the web server when accessed using HTTP. If you let the installer set up the IIS site, you can use the default value.
+The path to the *cgi-bin* folder on the web server when accessed using HTTP. If you let the installer set up the IIS site, you can use the default value.
   
 **HTTP path:**
 
@@ -167,7 +176,7 @@ Enable this option if your Service Server installation is online on the Internet
 
 **Do  you want to start the ejScheduler service:**
 
-If you start the service, the application will begin to import and send email as soon as you configure it. The service is also used for all background processes, like escalating request, sending alerts and so forth. If you answer "no" here, the service will still be installed and enabled, but not started. That means it will start when you boot the system if you do not disable it. You can go to service management to start the service when you are ready.
+If you start the service, the application will begin to import and send emails as soon as you configure it. The service is also used for all background processes, like escalating requests, sending alerts, and so forth. If you answer "no" here, the service will still be installed and enabled, but not started. That means it will start when you boot the system if you do not disable it. You can go to service management to start the service when you are ready.
 
 #### From 8.4
 
@@ -214,9 +223,17 @@ These applications in turn will perform tasks like importing email, sending emai
 
 You are now ready to log in and use Service by opening your client browser and go to *\[Hostname\]/scripts/ticket.fcgi*
 
+***
+
+[Previous][14] | [Back to guide][13]
+
 <!-- Referenced links -->
 [1]: HTTPs://community.superoffice.com/en/product-releases/
 [2]: manual-steps.md
+[11]: ../../onsite/install/database/index.md
+[12]: ../../onsite/install/server/index.md
+[13]: ../../onsite/install/guide.md
+[14]: ../../onsite/install/netserver/index.md
 
 <!-- Referenced images -->
 [img1]: media/image.png

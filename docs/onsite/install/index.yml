@@ -1,11 +1,11 @@
 ### YamlMime:SubCategory
 
 title: SuperOffice installation
-summary: ""
+summary: "How to prepare the servers and database and how to install CRMServer, the Web and Windows clients, NetServer, and Service"
 
 metadata:
   title: SuperOffice installation
-  description: ""
+  description: "How to prepare the servers and database and how to install CRMServer, the Web and Windows clients, NetServer, and Service"
   ms.topic: landing-page
   ms.date: 04.16.2021
 
@@ -18,12 +18,18 @@ landingContent:
     linkLists:
       - linkListType: learn
         links:
-          - url: ../security/deployment-scenarios.md
-            text: Deployment scenarios
-          - url: guide.md
-            text: Setup guide
+          - text: Deployment scenarios
+            url: ../security/deployment-scenarios.md
           - text: Federated sign-in
             url: ../../identity-management/superid/howto/federated-sign-in-guide.md
+
+  # Card
+  - title: Start
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Step-by-step set-up guide
+            url: guide.md
 
   # Card
   - title: Database
@@ -46,16 +52,6 @@ landingContent:
           url: database/sql-server-full-text-search.md
 
   # Card
-  - title: IIS web server
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-        - url: iis/index.md
-          text: Prepare server
-        - url: iis/reverse-proxy.md
-          text: Set up reverse proxy
-
-  # Card
   - title: CRM server
     linkLists:
       - linkListType: how-to-guide
@@ -72,8 +68,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-        - url: web-client/index.md
-          text: Install Web client
+        - text: Install Web client
+          url: web-client/index.md
         - text: Install NetServer
           url: server/silent-serversetup.md
         - text: Configure Web Reports
@@ -83,21 +79,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-        - url: ../../service/install/index.md
-          text: Install Service
-  # Card
-  - title: More
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-        - url: ../../webtools/install.md
-          text: Install WebTools
-        - url: ../../webtools/deploy.md
-          text: Deploy WebTools
-        - text: Deploy Pocket CRM
-          url: ../../mobile/pocket-crm/deploy.md
-        - text: Set up Active Directory authentication
-          url: ../../identity-management/ad/set-up-ad-auth.md
+        - text: Install Service
+          url: ../../service/install/index.md
 
   # Card
   - title: Security
@@ -136,6 +119,7 @@ landingContent:
         text: WebTools
       - url: ../../mobile/pocket-crm/system-requirements.md
         text: Pocket CRM
+
   # Card
   - title: Compatibility
     linkLists:
@@ -153,6 +137,17 @@ landingContent:
         text: Browser
       - url: ../compatibility/ms-office.md
         text: MS Office
+
+    # Card
+  - title: IIS web server
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+        - url: iis/index.md
+          text: Prepare server
+        - url: iis/reverse-proxy.md
+          text: Set up reverse proxy
+
   # Card
   - title: Config and INI files
     linkLists:
@@ -176,12 +171,24 @@ landingContent:
         text: Username.ini
       - url: ../config/web-config.md
         text: Web.config
-  # Card
-  - title: Reference
+
+    # Card
+  - title: More
     linkLists:
-    - linkListType: reference
-      links:
-      - text: Release notes
-        url: https://community.superoffice.com/en/product-releases/release-notes/whats-new-documents/
-      - url: ../version-history.md
-        text: Version history
+      - linkListType: how-to-guide
+        links:
+        - text: Install WebTools
+          url: ../../webtools/install.md
+        - text: Deploy WebTools
+          url: ../../webtools/deploy.md
+        - text: Deploy Pocket CRM
+          url: ../../mobile/pocket-crm/deploy.md
+        - text: Set up Active Directory authentication
+          url: ../../identity-management/ad/set-up-ad-auth.md
+      - linkListType: reference
+        links:
+        - text: Release notes
+          url: https://community.superoffice.com/en/product-releases/release-notes/whats-new-documents/
+        - text: Version history
+          url: ../version-history.md
+

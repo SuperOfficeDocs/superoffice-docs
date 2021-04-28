@@ -65,8 +65,15 @@ Plus any authentication methods that you wish to use.
 
 ![add cgi][img5]
 
+***
+
+[Previous][11] | [Next][12] | [Back to guide][13]
+
 <!-- Referenced links -->
 [1]: ../../requirements/iis.md
+[11]: ../server/prepare.md
+[12]: ../database/index.md
+[13]: ../guide.md
 
 <!-- Referenced images -->
 [img1]: media/asp.png

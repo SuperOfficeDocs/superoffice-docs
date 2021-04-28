@@ -39,8 +39,15 @@ When we describe how to set up the SQL database on your server, we will focus on
 
 The more powerful the SQL Server computer is, the faster SuperOffice CRM will perform. This of course will depend on the amount of users this SQL server is going to serve.
 
+***
+
+[Previous][11] | [Next][12] | [Back to guide][13]
+
 <!-- Referenced links -->
 [1]: ../../compatibility/index.md
 [4]: ../../compatibility/database.md
 [5]: create-oracle-db.md
 [6]: create-ms-sql-server-db.md
+[11]: ../iis/index.md
+[12]: ../../../service/install/index.md
+[13]: ../guide.md
