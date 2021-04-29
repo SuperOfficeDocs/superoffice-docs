@@ -40,7 +40,7 @@ items:
     href: ../dictionary/structure-method.md
 - name: Travel
   href: ../../../superoffice-docs/docs/travel/toc.yml
-  topicHref: ../../../superoffice-docs/docs/travel/overview.md
+  topicHref: ../../../superoffice-docs/docs/travel/index.md
   expanded: true
 - name: Reference
   href: ../tables/toc.yml

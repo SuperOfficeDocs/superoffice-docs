@@ -144,17 +144,17 @@ additionalContent:
       - title: Travel
         links:
         - text: Intro
-          url: ../../superoffice-docs/docs/travel/overview.md
+          url: ../../superoffice-docs/docs/travel/index.md
         - text: How to activate Travel
           url: ../../superoffice-docs/docs/travel/activate.md
         - text: What is an update prototype?
           url: ../../superoffice-docs/docs/travel/update-prototype.md
         - text: Travel gateway
-          url: ../../superoffice-docs/docs/travel/travel-gateway/overview.md
+          url: ../../superoffice-docs/docs/travel/travel-gateway/index.md
         - text: Area management
-          url: ../../superoffice-docs/docs/travel/area-management/overview.md
+          url: ../../superoffice-docs/docs/travel/area-management/index.md
         - text: Satellite
-          url: ../../superoffice-docs/docs/travel/satellite/overview.md
+          url: ../../superoffice-docs/docs/travel/satellite/index.md
       # Card
       - title: Changes
         links:
