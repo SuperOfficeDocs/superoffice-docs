@@ -1,5 +1,6 @@
 ---
-title: event_model
+title: Event model
+uid: event_model
 description: CRMScript event model
 so.author:
 so.date:

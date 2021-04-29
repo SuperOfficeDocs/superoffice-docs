@@ -11,7 +11,7 @@ so.client: online
 
 # Notifications
 
-Notifications ensure that vendors are aware when the state of their customers changes, for example their SuperOffice subscription, and that they know when tenants are unable to respond to requests.
+Notifications ensure that vendors are aware when the states of their customers change, for example, their SuperOffice subscription and that they know when tenants are unable to respond to requests.
 
 When SuperOffice upgrades a tenant, for example, SuperOffice looks at each application approved by the tenant and sends out a notification to each one to indicate that the tenant is about to be upgraded. This provides the application an opportunity to know when a tenant going to be unavailable and why communications with that tenant cease until further notice.
 

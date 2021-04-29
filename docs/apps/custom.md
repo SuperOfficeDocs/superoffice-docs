@@ -30,8 +30,8 @@ Custom applications require a subscription to [Expander Services][7] to get acce
 * Create custom screens to fit your specific processes
 * Create tailored workflows and automation with CRMScript
 * Create custom integrations that link your SuperOffice CRM Online solution with another system
-  * either a totally new integration to a solution you currently use and that is specific to you
-  * or a customized version of a standard application available in the App Store
+  * either a **new** integration to a solution you currently use and that is specific to you
+  * or a **customized version** of a standard application available in the App Store
 
 Also, you can make extra tables and custom screens available to users of the Sales and Marketing [user plans][8] through web panels.
 

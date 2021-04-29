@@ -11,7 +11,7 @@ so.client: online
 
 # The App Store marketplace
 
-The SuperOffice App Store is where SuperOffice customers find and buy applications that expand their CRM solution to solve relevant business needs.
+The SuperOffice App Store is where SuperOffice customers find and buy applications that expand their CRM solutions to solve relevant business needs.
 
 Customers can browse the store to find a range of applications made available from both SuperOffice and our partners.
 

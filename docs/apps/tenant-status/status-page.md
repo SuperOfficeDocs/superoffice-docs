@@ -1,5 +1,6 @@
 ---
-title: online_status_page
+title: Status page
+uid: online_status_page
 description: Online tenant status page
 author: {github-id}
 keywords: status, monitor
@@ -55,7 +56,7 @@ For example, `https://``**sod2**``.superoffice.com:443/Cust00000` may shift to `
 | ProvisioningFailed (8) | Provisioning has failed.  |
 | Deleting (10) | We are in the process of deleting the customer.  Expect the customer to be deleted shortly. |
 | DeleteFailed (11) | Deleting the customer failed.  Expect the customer to be deleted in a while. |
-| MigrationPending (12) | This is a new migration to online that has not yet completed.  Expect the customer to be running at a later time.  Customers are often in state MigrationPending for days or weeks. |
+| MigrationPending (12) | This is a new migration to online that has not yet been completed.  Expect the customer to be running at a later time.  Customers are often in state MigrationPending for days or weeks. |
 
 ## IsRunning
 

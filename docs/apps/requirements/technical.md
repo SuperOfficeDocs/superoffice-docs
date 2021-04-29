@@ -1,12 +1,12 @@
 ---
-title: technical_requirements
+title: Technical reqirements
+uid: technical_requirements
 description: Technical requirements
 author: {github-id}
 keywords: certification
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Technical requirements
@@ -21,17 +21,17 @@ The setup is the first experience your customer has with your application. **Ea
 
 ## Requirements
 
-* You must have a **running application** at a specified [redirect URL][1] that is able to process a request containing one or more security tokens. The supported security token format is JWT.
-  * Must be done before your first attempt at authentication.
+* You must have a **running application** at a specified [redirect URL][1] that can process a request containing one or more security tokens. The supported security token format is JWT.
+  * Must be done before you attempt to authenticate.
 * The application must have at least 1 callback URL to orchestrate user management when SuperOffice redirects a successfully authenticated user installing, or setting up your application.
 * Application management: Customers need to be able to manage their applications, including access to **uninstall**.
 
 ### Availability
 
-* SuperOffice AS and out hosting center guarantee a 99.8% percent availability, your systems need to be up and running in accordance with **SLA**.
+* SuperOffice AS and our hosting center guarantee a 99.8% percent availability, your systems need to be up and running according to **SLA**.
 * The amount of **load** is our biggest concern. Don't enforce so much load on the system so the system becomes unavailable for other users.
   * We will be monitoring traffic
-* Ensure that all system data is automatically backed up on a regular basis.
+* Ensure that all system data is automatically backed up regularly.
   * Ensure that **backups** are properly protected via physical security or encryption when they are stored, as well as when they are moved across the network. This includes remote backups and cloud services.
 
 ### Performance

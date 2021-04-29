@@ -33,7 +33,7 @@ You must implement a [polling service][1] that periodically checks for the lates
   * Both you and SuperOffice are required to log network communications.
   * You may be required to provide your log files for security analysis at any time.
 
-* Deny network traffic over non-secured connections.
+* Deny network traffic over un-secure connections.
 
 * **Establish secure coding practices** appropriate to the programming language and development environment being used.
 

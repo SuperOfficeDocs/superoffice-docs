@@ -11,7 +11,7 @@ so.client: online
 
 # Parse notifications
 
-It's important that the application take advantage of these notifications to ensure their environments are kept up-to-date with the status of SuperOffice CRM Online tenants.
+The application **must** take advantage of these notifications to ensure their environments are kept up-to-date with the status of SuperOffice CRM Online tenants.
 
 While there are several ways to accomplish processing [tenant status changes notification][1], the following is a short example of what that might look like using .NET and C#.
 

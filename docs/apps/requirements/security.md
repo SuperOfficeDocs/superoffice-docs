@@ -13,7 +13,7 @@ so.client: online
 
 It is paramount that you keep data secure. Security is our topmost concern.
 
-If needed, we may go back in time to see when and by who an operation was performed.
+If needed, we may go back in time to see when and by whom an operation was performed.
 
 ## Requirements
 
@@ -49,7 +49,7 @@ If needed, we may go back in time to see when and by who an operation was perfor
   * Run the redirect URL through Qualys SSL Labs, SSL Server tests, and aim for an A.
   * You must support TLS 1.2.
   * We will not accept any sites where SSL 2.0 or 3.0 is supported.
-* Any code must run with SSL in your own cloud.
+* Any code must run with SSL in your cloud.
   * We will not host any partner application on `online.superoffice.com`
   * SuperOffice CRM Online requires that all applications support a secure SSL environment.
 * Maintain separate environments for production and non-production systems (development). Developers should not have unmonitored access to production environments.
@@ -60,7 +60,7 @@ If needed, we may go back in time to see when and by who an operation was perfor
 * Logs should be detailed and include info such as event source, date, user, timestamp, source addresses, destination addresses.
 * Logs should be minimum kept for 3 months.
   * Ensure that all systems that store logs have adequate storage space for the logs generated.
-* On a regular basis, review logs to identify anomalies or abnormal events.
+* Regularly review logs to identify anomalies or abnormal events.
 
 ## Guidance
 

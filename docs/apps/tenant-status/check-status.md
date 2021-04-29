@@ -1,6 +1,7 @@
 ---
-title: check_tenant_status
-description: 
+title: Check tenant status
+uid: check_tenant_status
+description: Each tenant has a status page where you can check its state to ensure your application remains stable and responds accordingly.
 author: {github-id}
 keywords:
 so.topic: howto
