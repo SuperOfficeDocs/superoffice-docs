@@ -1,8 +1,7 @@
 ---
-title: search
-description:
-author: {github-id}
-keywords:
+title: Welcome to SuperOffice Docs
+description: Placeholder landing page
+so.date: 05.29.2021
 ---
 
-# PLACEHOLDER
+[!include[placeholder](../../includes/default-index.md)]

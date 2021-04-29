@@ -1,6 +1,6 @@
 items:
 - name: Overview
-  href: overview.md
+  href: index.md
 - name: How to activate Travel
   href: activate.md
 - name: What is an update prototype?
@@ -27,7 +27,7 @@ items:
     - name: Create prototype
       href: sybase/create-prototype.md
 - name: Travel gateway
-  href: travel-gateway/overview.md
+  href: travel-gateway/index.md
   expanded: true
   items:
   - name: SuperOffice Remote Travel Server
@@ -41,7 +41,7 @@ items:
   - name: Troubleshooting
     href: travel-gateway/troubleshooting.md
 - name: Area management
-  href: area-management/overview.md
+  href: area-management/index.md
   expanded: true
   items:
   - name: Terminology
@@ -49,7 +49,7 @@ items:
   - name: Set up
     href: area-management/set-up.md
 - name: Satellite
-  href: satellite/overview.md
+  href: satellite/index.md
   expanded: true
   items:
   - name: Set up

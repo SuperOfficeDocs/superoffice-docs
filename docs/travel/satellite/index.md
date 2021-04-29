@@ -46,7 +46,7 @@ In the directory/folder SO_ARC on the server, the directory/folder S1 tracks all
 In the directory/folder SO_ARC on the regional server, the directory/folder S1 tracks all incoming log files from the central database, and stores new log files from the Satellite to be sent to the central database.
 
 <!-- Referenced links -->
-[1]: ../area-management/overview.md
+[1]: ../area-management/index.md
 [2]: ../update-prototype.md
 
 <!-- Referenced images -->

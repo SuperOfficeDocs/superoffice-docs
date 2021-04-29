@@ -1,11 +1,12 @@
 ---
-title: auth_webex
+title: Authenticate
+uid: auth_webex
 description: How to authenticate and authorize Webex Meetings
 author: {github-id}
 keywords:
 so.topic: howto
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Authenticate and authorize Webex Meetings
@@ -35,11 +36,11 @@ This is step 5 in [connecting your provider][1]. It is provider-specific.
 
     ![image1jawz.png][img5]
 
-3. Webex Meetings has some additional configurations, only password is required: set your own random password and click **Save**.
+3. Webex Meetings has some additional configurations, only a password is required: set your random password and click **Save**.
 
     ![imageezby.png][img6]
 
-If it says "Connected to Webex. Logged in as xxx and connected to custxxxx", and password is filled under **Set Configurations**, you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
+If it says "Connected to Webex. Logged in as xxx, connected to custxxxx", and password filled under **Set Configurations**, you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
 
 <!-- Referenced links -->
 [1]: ../connect-provider.md

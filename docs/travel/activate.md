@@ -44,4 +44,4 @@ Before users can go on travel, you need to create an [update prototype][1], eith
 
 <!-- Referenced links -->
 [1]: update-prototype.md
-[2]: travel-gateway/overview.md
+[2]: travel-gateway/index.md

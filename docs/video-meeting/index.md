@@ -1,11 +1,12 @@
 ---
-title: video_meeting_intro
+title: Introduction
+uid: video_meeting_intro
 description: Video Meetings for SuperOffice
 author: {github-id}
 keywords:
-so.topic:
-so.envir: cloud               # cloud or onsite
-so.client: online             # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Video Meetings for SuperOffice
@@ -14,7 +15,7 @@ so.client: online             # online, web, win, pocket, or mobile
 
 * Use CRM Online
 
-* You need an SuperOffice admin account during setup
+* You need a SuperOffice admin account during setup
 
 * An account at the video provider, for example, Zoom Pro
 

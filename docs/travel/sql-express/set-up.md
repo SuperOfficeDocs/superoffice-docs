@@ -1,5 +1,6 @@
 ---
-title: set_up_sql_express_travel
+title: Set up
+uid: set_up_sql_express_travel
 description: MSDE / SQL express as travel database
 author: {github-id}
 keywords: travel
@@ -35,5 +36,5 @@ If you want to change the location of the local document archive, you need to ed
 MS SQL Express requires `ProtoClientPath` (and `ProtoServerPath`) set. If the client is not going to make a prototype, you only need to add `ProtoClientPath=` under the **SuperOffice** section in *SuperOffice.ini*.
 
 <!-- Referenced links -->
-[1]: ../overview.md
+[1]: ../index.md
 [2]: ../activate.md

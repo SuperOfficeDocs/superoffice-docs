@@ -1,15 +1,15 @@
 items:
 - name: WebTools
-  href: overview.md
   expanded: true
   items:
   - name: Overview
-    href: overview.md
+    href: index.md
   - name: Technical overview
     href: technical-overview.md
   - name: System requirements
     href: system-requirements.md
   - name: Set up
+    expanded: true
     items:
     - name: Install (user)
       href: install.md

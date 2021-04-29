@@ -1,11 +1,12 @@
 ---
-title: auth_google
+title: Authenticate
+uid: auth_google
 description: How to authenticate and authorize Google
 author: {github-id}
 keywords:
 so.topic: howto
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Authenticate and authorize Google

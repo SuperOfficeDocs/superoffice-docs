@@ -5,4 +5,4 @@ author: {github-id}
 keywords:
 ---
 
-# PLACEHOLDER
+[!include[placeholder](../includes/default-index.md)]

@@ -1,14 +1,15 @@
 ---
-title: uninstall_google
+title: Uninstall
+uid: uninstall_google
 description: How to uninstall video provider
 author: {github-id}
 keywords:
 so.topic: howto
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
-# How to uninstall the Google video provider
+# How to uninstall the Google video provider
 
 Uninstalling the Google Meet video meeting service:
 

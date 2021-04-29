@@ -22,7 +22,7 @@ highlightedContent:
     # Card
     - title: "Web Tools"
       itemType: overview
-      url: ../webtools/overview.md
+      url: ../webtools/index.md
     # Card
     - title: "Cloud integrations"
       itemType: overview

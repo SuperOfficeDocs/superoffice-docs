@@ -1,11 +1,12 @@
 ---
-title: auth_jitsi
+title: Authenticate
+uid: auth_jitsi
 description: How to authenticate and authorize Zoom
 author: {github-id}
 keywords:
 so.topic: howto
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Authenticate and authorize Jitsi Meet

@@ -61,6 +61,6 @@ Satellite is accessed via the Replication screen.
 6. When the satellite is regenerated, a message is displayed indicating that the generation was successful. Click **OK**.
 
 <!-- Referenced links -->
-[1]: ../area-management/overview.md
+[1]: ../area-management/index.md
 
 <!-- Referenced images -->

@@ -1,18 +1,19 @@
 ---
-title: auth_zoom
+title: Authenticate
+uid: auth_zoom
 description: How to authenticate and authorize Zoom
 author: {github-id}
 keywords:
 so.topic: howto
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Authenticate and authorize Zoom
 
 This is step 5 in [connecting your provider][1]. It is provider-specific.
 
-1. Click link "configure your video-provider" if needed:
+1. Click **configure your video-provider** if needed:
 
     ![imaged2zr2.png][img1]
 
@@ -22,11 +23,11 @@ This is step 5 in [connecting your provider][1]. It is provider-specific.
 
     ![imagecxj9r.png][img3]
 
-3. Zoom has one additional configuration required: set your own random password and click **Save**.
+3. Zoom has one additional configuration required: set your random password and click **Save**.
 
     ![7y][img4]
 
-If it says "Connected to Zoom. Logged in as xxx and connected to custxxxx", and password is filled under **Set Configurations**, you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
+If it says "Connected to Zoom. Logged in as xxx, connected to custxxxx", and password filled under **Set Configurations**, you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
 
 <!-- Referenced links -->
 [1]: ../connect-provider.md
