@@ -83,15 +83,15 @@ These parameters can be set using the **Oracle Enterprise Manager Console**.
 
 | Parameter | Value |
 |-----------|-------|
-| Open\_cursors | 1000 |
-| Shared\_pool\_size | 9000000 |
-| Db\_block\_size | 4096 |
-| Db\_block\_buffer | 200  Db\_block\_size |
-| Log\_buffer | 32768 |
-| Dml\_locks | 250 |
-| Sort\_area\_size | 65536 |
+| Open_cursors | 1000 |
+| Shared_pool_size | 9000000 |
+| Db_block_size | 4096 |
+| Db_block_buffer | 200  Db_block_size |
+| Log_buffer | 32768 |
+| Dml_locks | 250 |
+| Sort_area_size | 65536 |
 | Processes | 150|
-| Db\_file\_multiblock\_readcount | 16 |
+| Db_file_multiblock_readcount | 16 |
 
 > [!NOTE]
 > `Db_block_size` can only be set when the database is created.

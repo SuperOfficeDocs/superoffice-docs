@@ -44,7 +44,7 @@ DBSetup uses a mix of ODBC and ADO.NET connections. ODBC in DBsetup is mainly fo
 
 ### Web client / NetServer
 
-NetServer uses ADO.NET connection only. The Web client doesn't have its own database connection and uses NetServer to connect to a database and so\_arc. The only part of a Web client that has its own connection is Web Reporter and it uses an ODBC connection.
+NetServer uses ADO.NET connection only. The Web client doesn't have its own database connection and uses NetServer to connect to a database and so_arc. The only part of a Web client that has its own connection is Web Reporter and it uses an ODBC connection.
 
 ### Service
 

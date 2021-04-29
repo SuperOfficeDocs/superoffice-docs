@@ -13,9 +13,9 @@ so.envir: onsite
 
 ## Pre-requisites
 
-Web Tools currently uses .NET framework 4.5, which will be installed if it is not detected on the system.
+Web Tools currently uses .NET Framework 4.5, which will be installed if it is not detected on the system.
 
-Administrative privileges are not required for the user. If you are not the administrator, you get Web Tools installed in *c:\\users\\\<yourname>\\appdata\\local\\SuperOffice*.
+Administrative privileges are not required for the user. If you are not the administrator, you get Web Tools installed in *c:\users\<yourname>\appdata\local\SuperOffice*.
 
 ## Download and install
 

@@ -37,7 +37,7 @@ There are 3 different types of databases that may be used as a travel database:
 * SQL Express
 * Sybase SQL Anywhere 12
 
-From CRM 7 SR1, you may choose type of travel database independent on what type of database your central database is running.
+From CRM 7 SR1, you may choose the type of travel database independent of what type of database your central database is running.
 If you're running an earlier version, your central database type determines the kind of travel database type you may use:
 
 | Central database type | MS SQL Express travel database | Sybase travel database (requires a Sybase license) | Built-in travel database |
@@ -47,19 +47,18 @@ If you're running an earlier version, your central database type determines the 
 
 ### Built-in database
 
-If you choose the built-in database then we set it all up for you automatically. Sybase 12 is used as built-in Travel database.
+If you choose the built-in database then we set it all up for you automatically. Sybase 12 is used as the built-in Travel database.
 
 ### SQL Express
 
 To use MS SQL Express you must first download and install MS SQL Express from [www.microsoft.com][1].
-
 
 > [!NOTE]
 > The version installed on the computer generating the [prototype][2] must be compatible with the version the travel users are running locally.
 
 The Travel client needs an ODBC datasource, which could be called **SOTravel**. You just need to add `Name = SOTravel` and `Servername = .\SQLExpress`
 
-Add `Local_datapath=ODBC:SOTravel` to the *SuperOffice.ini* file in *c:\\program files\\superoffice\\superoffice* windows.
+Add `Local_datapath=ODBC:SOTravel` to the *SuperOffice.ini* file in *c:\program files\superoffice\superoffice* windows.
 
 If you have any problems going on Travel after the prototype is generated, make sure you start SOCRM.exe once elevated (as administrator) and do the local update. This is to make sure SuperOffice has sufficient rights to make the changes needed to use SQL Express.
 

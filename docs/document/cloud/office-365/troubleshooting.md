@@ -55,13 +55,13 @@ There is no support in the SuperOffice Office365 SharePoint integration for usin
 
 ### During login to CRM Online with O365 authentication activated (N/A for SuperId with IDP)
 
-* "We were unable to log you in through Office 365. Error: access\_denied."
+* "We were unable to log you in through Office 365. Error: access_denied."
 
 ![x][img2]
 
 This is due to users does not have sufficient read access to the SharePoint Group area where the Integration App is, and/or users do not have sufficient read access to the SharePoint root area
 
-### During upload of new templates or creating new documents in SharePoint
+### During the upload of new templates or creating new documents in SharePoint
 
 #### Error saving document
 
@@ -109,7 +109,7 @@ This is due to users does not have sufficient read access to the SharePoint Gro
 
 3. Correct document library name and folder names
 
-If the document library name or folder name has changes or was you submitted the wrong values during setup, make sure paths are relative to the root, and correct.
+If the document library name or folder name has any changes or was you submitted the wrong values during setup, make sure paths are relative to the root, and correct.
 
 ## (Re-)Adding trust to the app (c)
 
@@ -123,7 +123,7 @@ Admin > Admin centers > SharePoint > site collections > Open the web Site Addres
 
 ## Check permissions (d)
 
-**Check permissions** under **Site Permissions** can also be helpful in making sure users have access.
+**Check permissions** under **Site Permissions** can also be helpful to sure users have access.
 
 ### Error when creating a document in CRM Online
 

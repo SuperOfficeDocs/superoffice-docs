@@ -30,7 +30,7 @@ You will need to set up and properly configure the correct version of SuperOffic
 > [!NOTE]
 > Web and Pocket can share NetServer if the Web client does **not** have IIS authentication. The Pocket client does not support AD authentication. Pocket version 8 does not support IIS schemas.
 
-Common issues are the configuration of document archive (SO\_ARC) and email server setting. You can verify your NetServer installation using SuperOffice Web. The Pocket CRM client is installed on phones that access this server over the internet and must be able to reach this server host. The address for NetServer URL will be like this:  `http://servername.youcompany.com/NetServer/sevices80/`
+Common issues are the configuration of document archive (SO_ARC) and email server setting. You can verify your NetServer installation using SuperOffice Web. The Pocket CRM client is installed on phones that access this server over the internet and must be able to reach this server host. The address for NetServer URL will be like this:  `http://servername.youcompany.com/NetServer/sevices80/`
 
 > [!NOTE]
 > Do not use space or national characters. Use lowercase a-z characters and/or numbers 0-9.
@@ -49,7 +49,7 @@ Open a browser and enter the domain name address to the remote NetServer install
 
 Clients installed on mobile phones uses this address to communicate. This server address (URL) must be reachable from the mobile phones (from the internet).
 
-## Step 2: assign Pocket license
+## Step 2: assign a Pocket license
 
 > [!NOTE]
 > This step is necessary **only if you have an Onsite Buy license type**. For Onsite Subscription, all users have the Pocket license included in the license plan.

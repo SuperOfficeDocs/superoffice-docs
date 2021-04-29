@@ -29,15 +29,15 @@ The supported arguments you can use in the command line are:
 
 Example:
 
-"c:\\soscripts\\archived\_document.vbs" {documentId} {contactId}
+"c:\soscripts\archived_document.vbs" {documentId} {contactId}
 
 The command must be enclosed in quotes if it contains spaces.
 
 ### Q: When I navigate to a company in the SuperOffice client, this company is not in my history list in Mail Link
 
-A: The SuperOffice client caches its history lists and persist it when closing the application. Since MailLink talks directly to NetServer, MailLink is unaware of the locally cached history list in the SuperOffice client.
+A: The SuperOffice client caches its history lists and persists them when closing the application. Since MailLink talks directly to NetServer, MailLink is unaware of the locally cached history list in the SuperOffice client.
 
 Update 19.09.2013: In 7.1 SR2 the windows and web client update the history list in the database more frequently.
 ### Q: I have configured SuperOffice to run with the /iniPath argument. How do I make Mail Link use this?
 
-A: There is no longer an implicit connection between the SuperOffice client and Mail Link. MailLink is unaware of which IniPath you have used to start the client. You have however, the possibility to configure MailLink to start with a given IniPath. This is a registry setting stored in the MailLink registry. The key is called UseIniPathForWindowsClient and should be your iniPath argument excluding "/iniPath=".  Be aware of the following: When using lookup sender, we use soprotocol in the interaction. SoProtocol might point to the wrong database when using iniPath. Note that Outlook must be restarted after you have done this change in the registry.
+A: There is no longer an implicit connection between the SuperOffice client and Mail Link. MailLink is unaware of which IniPath you have used to start the client. You have, however, the possibility to configure MailLink to start with a given IniPath. This is a registry setting stored in the MailLink registry. The key is called UseIniPathForWindowsClient and should be your iniPath argument excluding "/iniPath=".  Be aware of the following: When using lookup sender, we use soprotocol in the interaction. SoProtocol might point to the wrong database when using iniPath. Note that Outlook must be restarted after you have done this change in the registry.

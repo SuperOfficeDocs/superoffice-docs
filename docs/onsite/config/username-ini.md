@@ -1,11 +1,10 @@
 ---
-title: username_ini
+title: Username.ini
+uid: username_ini
 description: Username.ini
 author: {github-id}
 keywords:
 so.topic: reference
-# so.envir:
-# so.client:
 ---
 
 # Username.ini
@@ -16,7 +15,7 @@ so.topic: reference
 
 ![x][img1]
 
-*Username.ini* is created by the SuperOffice CRM - Remote travel client, and all settings under My Documents, Other Documents, and Exclude list are written to this file. The file is stored in *%localappdata%\\SuperOffice* and when the travel user syncs it is copied to the central archive *\\SO\_Arc\\Wishlist* folder.
+*Username.ini* is created by the SuperOffice CRM - Remote travel client, and all settings under My Documents, Other Documents, and Exclude list are written to this file. The file is stored in *%localappdata%\SuperOffice* and when the travel user syncs it is copied to the central archive *SO_Arc\Wishlist* folder.
 
 ![x][img2]
 

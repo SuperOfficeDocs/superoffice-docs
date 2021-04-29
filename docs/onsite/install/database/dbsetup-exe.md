@@ -68,7 +68,7 @@ Import or update the basic (initial) data in an existing database. You can choos
 
 Priming data that are part of the standard set provided by SuperOffice are no longer packaged as individual files; this function is only intended for adding new data specific to a customer or partner feature. **The old impfiles may contain old data and importing it to an upgraded database may overwrite data that have been updated with a dictionary step during database upgrade.**
 
-If you leave the dropdown list blank it will just re-calculate the sequence next\_id, see next operation.
+If you leave the dropdown list blank it will just re-calculate the sequence next_id, see next operation.
 
 ## Recalculate the Sequence table
 
@@ -141,25 +141,25 @@ Run consistency checks on the target database; and fix what problems may be fixe
 
 ![Consistency checks available][img2]
 
-When you press \[Start\] you will be presented with a choice of checks to run, and estimates of the size of each check.
+When you press **Start** you will be presented with a choice of checks to run, and estimates of the size of each check.
 
 Here you may run and fix problems found in the database:
 
-* Clean phone numbers - will remove wrong values stored in the database, like InterAreaPrefix (0), DialInCode (like +47) and so on
+* Clean phone numbers - will remove wrong values stored in the database, like InterAreaPrefix (0), DialInCode (like +47), and so on
 * Reset all external user licenses
 * Module License Hashes
 * Update Phone's SearchPhone field
 * ActiveInterests count on Contact and Person.
-* ActiveLinks on Appointment, Sale and Document.
+* ActiveLinks on Appointment, Sale, and Document.
 * VisibleFor on Appointment, Sale, Selection
-* ContactId vs PersonId on Appointment - when the Contact\_id on the appointment refers to a different contact than the person you will get the "jumping activity syndrome" where clicking the activity archive automatically refers you to another company card. Running this option will fix this problem.
-* Many/many relation on Assoc\_id - UserGroup and Associate\_id - role\_id
-* Many/many relation on Associate\_id - role\_id
-* Person: Update persons rank pr contact\_id - import will not calculate rank correctly so this will fix it.
-* Projectmember: rank (per person\_id)
+* ContactId vs PersonId on Appointment - when the Contact_id on the appointment refers to a different contact than the person you will get the "jumping activity syndrome" where clicking the activity archive automatically refers you to another company card. Running this option will fix this problem.
+* Many/many relation on Assoc_id - UserGroup and Associate_id - role_id
+* Many/many relation on Associate_id - role_id
+* Person: Update persons rank pr contact_id - import will not calculate rank correctly so this will fix it.
+* Projectmember: rank (per person_id)
 * StatusDef: Rank
-* DiaryView: Rank (per assoc\_id)
-* DiaryViewRow: Rank (per assoc\_id)
+* DiaryView: Rank (per assoc_id)
+* DiaryViewRow: Rank (per assoc_id)
 * Rank: MDO List Tables
 * Sale: ContactId vs PersonId
 * SelectionMember: ContactId vs PersonId
@@ -178,8 +178,8 @@ Parameters also correspond to the GUI. Parameters are separated by spaces and al
 |---------|:-----------:|------------|
 | REBUILD | 9 | Source DSN, user, password and prefix (remember ODBC: for ODBC databases), target DSN, user, password, prefix, and A for Ansi or U for Unicode |
 | UPGRADE70 | 4 | DSN, user, password, and prefix |
-| CREATE7 |16 | DSN, User, Password, Prefix, A for Ansi/ U for unicode target, \[Contact name, Country id, First name, Last name, User id, Password, Serialnumber\] |
-| IMPORTINITIAL | 5 | DSN, user, password, prefix, name of section in SOTABLES.INI to import tables for |
+| CREATE7 |16 | DSN, User, Password, Prefix, A for Ansi/ U for unicode target, [Contact name, Country id, First name, Last name, User ID, Password, Serialnumber] |
+| IMPORTINITIAL | 5 | DSN, user, password, prefix, name of the section in SOTABLES.INI to import tables for |
 | FREETEXTINDEX | 4 | DSN, user, password, and prefix |
 | KILLDATABASE | 4 | DSN, user, password, and prefix |
 | MAINTENANCE | | |
@@ -206,8 +206,8 @@ Parameters also correspond to the GUI. Parameters are separated by spaces and al
 * saleVisibleFor
 * selectionVisibleFor
 * appointmentContactPersonId
-* linkassoc\_idUserGroup\_id
-* linkassociate\_idrole\_id
+* linkassoc_idUserGroup_id
+* linkassociate_idrole_id
 * personRank
 * projectmemberRank
 * statusdefRank
@@ -221,9 +221,9 @@ An error message is given if the supplied command line has the wrong command or 
 
 ## DBSetup Database log file
 
-Since SuperOffice 8.1 is DBSetup able to create a Database.log file, which contains detailed and valuable database debugging information. To get this file you need to have the \[Error\] section in SuperOffice.ini in the SuperOffice Server folder (where DBsetup.exe resides) and also specify the location of the log file (without the Logpath the Database.log file won't be created).
+Since SuperOffice 8.1 is DBSetup able to create a Database.log file, which contains detailed and valuable database debugging information. To get this file you need to have the [Error] section in SuperOffice.ini in the SuperOffice Server folder (where DBsetup.exe resides) and also specify the location of the log file (without the Logpath the Database.log file won't be created).
 
-Example of the \[Error\] section in SuperOffice.ini in SuperOffice Server folder:
+Example of the [Error] section in SuperOffice.ini in SuperOffice Server folder:
 
 ```text
 [Error]
@@ -234,12 +234,12 @@ Truncate=1
 Logpath=e:\SuperOffice\SOError.log
 ```
 
-If you run DBSetup now, it will create 2 log files in *E:\\SuperOffice*. One standard SOError.log file and one SOError.Database.log file with database debug information.
+If you run DBSetup now, it will create 2 log files in *E:\SuperOffice*. One standard SOError.log file and one SOError.Database.log file with database debug information.
 
-The Database.log file is also generated by ServerSetup when a database upgrade happens and goes into the same place that *so\_log.txt* does unless specified otherwise by the LogPath in the \[Error\] section.
+The Database.log file is also generated by ServerSetup when a database upgrade happens and goes into the same place that *so_log.txt* does unless specified otherwise by the LogPath in the [Error] section.
 
 > [!NOTE]
-> If you are using DBSetup to rebuild or move a database, you MUST run \<service installfolder>\\bin\\Upgrade.exe after to set the Service fields values correct.<br>NULL Values (may be used on some fields made in Service): DBsetup does not have the data structures/flags required to carry this additional information. So, when doing a rebuild/import of a database that contains NULL values (some Service tables do), those will be changed into the nearest-to-empty value for that type - empty string, number 0, and so on.
+> If you are using DBSetup to rebuild or move a database, you MUST run `<service installfolder>\bin\Upgrade.exe` after to set the Service fields values correct.<br>NULL Values (may be used on some fields made in Service): DBsetup does not have the data structures/flags required to carry this additional information. So, when doing a rebuild/import of a database that contains NULL values (some Service tables do), those will be changed into the nearest-to-empty value for that type - empty string, number 0, and so on.
 
 <!-- Referenced links -->
 [1]: ../../config/sotables-ini.md

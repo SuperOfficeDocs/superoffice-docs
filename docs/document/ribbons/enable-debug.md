@@ -11,7 +11,7 @@ so.client: win
 
 # Enable debug for Ribbons
 
-As with Mail Link, Ribbons logs to *%AppData%\\SuperOffice* folder. It logs to the *Ribbons.log* file by default.
+As with Mail Link, Ribbons logs to *%AppData%\SuperOffice* folder. It logs to the *Ribbons.log* file by default.
 
 You may also specify the location for the log file by setting the logpath in [SuperOffice.ini][1].
 

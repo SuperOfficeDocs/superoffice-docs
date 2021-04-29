@@ -33,8 +33,8 @@ Email synchronization and mail sending and receiving. These preferences control 
 | DocSender | E-mail client used to send documents in SuperOffice. | | List | Admin, Admin users, Wizard |
 | FaxSender | Fax plug-in used to send faxes from SuperOffice | | List | Admin, Admin users, Wizard |
 | MailSender | E-mail client used to send email in SuperOffice | | List | Admin, Admin users, Wizard |
-| EnableMailSync | Enables synchronisation between the SuperOffice inbox and your external email program | | Bool | Admin, Crm, Admin users, Wizard |
-| FirstMailSync | Number of seconds until first synchronisation on startup | | Number | Admin, Crm, Admin users, Wizard |
+| EnableMailSync | Enables synchronization between the SuperOffice inbox and your external email program | | Bool | Admin, Crm, Admin users, Wizard |
+| FirstMailSync | Number of seconds until the first synchronization on startup | | Number | Admin, Crm, Admin users, Wizard |
 | ForceConfirmationEmailInvit | Displays a confirmation dialog before invitations are sent by email. | No | Bool | Admin, Admin users, Wizard |
 | ImapServerName | Name of the IMAP4 Mail server used by SuperOffice. Enter the DNS name or the IP address (e.g. mail.server.com or 10.0.0.100) | | Text | Admin, Admin users, Wizard |
 | ImapServerPort | The port number your mail server uses to access email using the IMAP protocol. | 143 | Number | Admin, Admin users, Wizard |
@@ -43,7 +43,7 @@ Email synchronization and mail sending and receiving. These preferences control 
 | IsFaxInstalled | Is there a fax plugin installed in the email client that allows faxes to be sent by email? This option enables certain aspects of fax functionality. | YES | Bool | Admin, Crm, Admin users, Wizard |
 | MailGatewayDisplayName | The display name of the SuperOffice Mail Gateway's email address | | Text | Admin, Admin users, Wizard |
 | MailGatewayMailAddress | The SuperOffice Mail Gateway's email address | | Text | Admin, Admin users, Wizard |
-| MailSmtpAuthorize | The SMTP server requires authentication before you can send email. | NO | Bool | Admin, Admin users, Wizard |
+| MailSmtpAuthorize | The SMTP server requires authentication before you can send an email. | NO | Bool | Admin, Admin users, Wizard |
 | MailSyncTimer | Number of seconds between each synchronization | | Number | Admin, Crm, Admin users, Wizard |
 | MarkAsReadInPreview | Marks the email as read once it has been displayed in the preview pane. If you set this to No, you need to open the email before it is marked as read. | NO | Bool | Admin, Admin users, Wizard |
 | NameDeleted | Specifies the name of the IMAP folder that contains your deleted email. | Deleted items | Text | Admin, Admin users, Wizard |
@@ -54,8 +54,8 @@ Email synchronization and mail sending and receiving. These preferences control 
 | NotifyExtPersonByMail | Notifies a contact by email when invited to an appointment | | Bool | Admin, Admin users, Wizard |
 | NotifyOnlineUsers | Users who are logged on will be notified about changes to invitations | | Bool | Wizard |
 | RemoveAfterArchive | Deletes the email from your inbox after you have archived it in SuperOffice | NO | Bool | Admin, Admin users, Wizard |
-| SaveLogonInfo | Saves an encrypted version of your user name and password for the email server in the database. This saves you having to enter your user name and password each time you want to access your inbox. | NO | Bool | Admin, Admin users, Wizard |
-| SendFaxPrefix | Format for fax numbers to be sent by email. &lt;faxs&gt; is the fax number and &lt;name&gt; is the company name, e.g. FAX:&lt;name&gt;@&lt;faxs&gt; produces FAX:SuperOffice ASA@22517001 | | Text | Admin, Admin users, Wizard |
+| SaveLogonInfo | Saves an encrypted version of your user name and password for the email server in the database. This saves you from having to enter your user name and password each time you want to access your inbox. | NO | Bool | Admin, Admin users, Wizard |
+| SendFaxPrefix | Format for fax numbers to be sent by email. `<faxs>` is the fax number and `<name>` is the company name. For example, `FAX:<name>@<faxs>` produces FAX:SuperOffice ASA@22517001 | | Text | Admin, Admin users, Wizard |
 | SendFaxProtocol | Protocol used by your email server to send a fax. | FAX | Text | Admin, Crm, Admin users, Wizard |
 | SmtpServerName | Name of the SMTP Mail server used by SuperOffice. Enter the DNS name or the IP address (e.g. mail.server.com or 10.0.0.100) | | Text | Admin, Admin users, Wizard |
 | SmtpServerPass | If you want to use a different password from the one you use to log in to your IMAP server, you can enter it here. | | Text | Admin, Admin users, Wizard |
@@ -63,6 +63,6 @@ Email synchronization and mail sending and receiving. These preferences control 
 | SmtpServerUser | If you want to use a different user name from the one you use to log in to your IMAP server, you can enter it here. | |Text | Admin, Admin users, Wizard |
 | Timeout | Number of seconds that SuperOffice will wait for the mail server to finish processing a request. If you experience problems with slow response times from your mail server, you should increase this value to 30 seconds or more. | 15 seconds | Number | Admin, Admin users, Wizard |
 | UseMapiReaderAnyway | Use the SuperOffice inbox even if other email integrations are installed | NO | Bool | Wizard |
-| UseSoMailBody | Use "mail.htm" as body of new emails. The file is looked for in "so\_arc\\username\\mail.htm" and if not found in "so\_arc\\template\\mail.htm" | | | |
+| UseSoMailBody | Use *mail.htm* as body of new emails. The file is looked for in *so_arc\username* and if not found in *so_arc\template* | | | |
 | MoveDeletedToDeletedItems | If enabled emails that get deleted are moved to the deleted items folder | | | |
 | SaveSentInSentItems | If enabled sent emails are saved in the sent items folder | | | |

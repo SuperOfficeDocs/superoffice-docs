@@ -33,7 +33,7 @@ This example shows it was Office 2007 missing SO Ribbons. The solution is to ins
 
 ## Check the log-files
 
-Both SO Ribbons and MailLink write to log files in the folder *%APPDATA%\\SuperOffice*
+Both SO Ribbons and MailLink write to log files in the folder *%APPDATA%\SuperOffice*
 
 <!-- Referenced images -->
 [img1]: media/vsto1.png

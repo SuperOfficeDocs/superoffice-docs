@@ -64,10 +64,10 @@ You can execute this script from your customer care center with the following UR
 
 ## Add to left menu
 
-If you want to, you can add this item to the left menu of the customer care center. To do this, you will have to edit framework.md (in *c:\\ejournal\\templates\\en\\customer\\*) to add this item. You only want this screen for logged in customers, which means you will add something like this to your framework.md:
+If you want to, you can add this item to the left menu of the customer care center. To do this, you will have to edit *framework.md* (in *c:\ejournal\templates\en\customer*) to add this item. You only want this screen for logged in customers, which means you will add something like this to your *framework.md*:
 
 ```html
-<tr><td nowrap class="menuItemTd" ><a onmouseenter="imageFocus(this, true);" onmouseout="imageFocus(this, false);" class="menuItemA" href="%AuthProgram%&action=safeParse&includeId=change-customer-address&key=test&withFrame=1"><img border="0" class="menuItemImg" src="%WwwRoot%/graphics/customer/list\_tickets%list\_tickets\_suffix%.gif">Custom form</a></td></tr>
+<tr><td nowrap class="menuItemTd" ><a onmouseenter="imageFocus(this, true);" onmouseout="imageFocus(this, false);" class="menuItemA" href="%AuthProgram%&action=safeParse&includeId=change-customer-address&key=test&withFrame=1"><img border="0" class="menuItemImg" src="%WwwRoot%/graphics/customer/list_tickets%list_tickets_suffix%.gif">Custom form</a></td></tr>
 ```
 
 It's just a copy of another menu line with the modified URL. You probably want to change the icon. This is how it looks:

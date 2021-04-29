@@ -61,7 +61,7 @@ Set up the site as follows:
 
 * Right-click the **Sites** folder in the **Connections** pane in IIS manager and click **Add website**.
 * Give the site a descriptive name. If the site will redirect SuperOffice Service requests, name it **SuperOffice Service**.
-* Set the **physical path** to an empty folder, for instance, create a folder at *C:\\SuperOfficeService*.
+* Set the **physical path** to an empty folder, for instance, create a folder at *C:\SuperOfficeService*.
 * Leave the binding type to **HTTP** for now and choose the correct IP address you want the webserver to listen on.
 * Enter the hostname that the site should respond to, for instance, `socrm.myorganization.com`
 
@@ -108,8 +108,8 @@ Add an outbound rule for the location header:
 
 * Name: **Rewrite location**
 * Matching scope: **Server variable**
-* Variable name: **RESPONSE\_LOCATION**
-* Pattern: **(https?)://socrm.INTERNAL.myorganization.com(.\*)**
+* Variable name: **RESPONSE_LOCATION**
+* Pattern: **(https?)://socrm.INTERNAL.myorganization.com(.*)**
 * Action: **Rewrite**
 * Action properties:  **{R:1}://socrm.myorganization.com{R:2}**
 * Replace existing server variable must be **checked**
@@ -126,7 +126,7 @@ This option is for applications that do not use the .NET framework. Since the Ap
 
 ## Web Tools
 
-To make Web Tools go through our proxy, we need to edit the *web.config* file of SuperOffice. In the `<client>` section, change the key **UrlHostOverride** to point to the hostname of the proxyserver.
+To make Web Tools go through our proxy, we need to edit the *web.config* file of SuperOffice. In the `<client>` section, change the key **UrlHostOverride** to point to the hostname of the proxy server.
 
 ![x][img14]
 
@@ -156,7 +156,7 @@ Or update directly in the database table called `<prefix>.config` - fields `cg
 
 Note - running on HTTPS
 
-SuperOffice Service may not use NetServer web services running on HTTPS, this means you have to use a nsEndPoint address in Service config file that uses HTTP and not HTTPS
+SuperOffice Service may not use NetServer web services running on HTTPS, this means you have to use an nsEndPoint address in the Service config file that uses HTTP and not HTTPS
 
 ```html
 [More info](javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$plhFullWidthContentArea$propMainBody$ctl00$ctl38$ctl00$btnBanner", "", false, "", "javascript:%20return%20false;", false, true)) "More info")
@@ -164,7 +164,7 @@ SuperOffice Service may not use NetServer web services running on HTTPS, this me
 
 ### Note regarding upgrades
 
-To make sure later updates of Service runs successfully on the Internal web server, add a new registry key below *HKey\_Locale\_Machine\\Software\\Wow6432Node\\SuperOffice* Customer Service on the Internal webserver. This key should have the same string values as the internal site (basePath and instanceId), but the name of the key should be the same as the external website (proxy URL).
+To make sure later updates of Service runs successfully on the Internal web server, add a new registry key below *HKey_Locale_MachineSoftware\Wow6432Node\SuperOffice* Customer Service on the Internal webserver. This key should have the same string values as the internal site (basePath and instanceId), but the name of the key should be the same as the external website (proxy URL).
 
 ![x][img18]
 

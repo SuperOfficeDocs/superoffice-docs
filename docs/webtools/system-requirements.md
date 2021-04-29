@@ -22,13 +22,13 @@ so.envir: onsite
 
 ### MailLink
 
-MailLink stores its configuration in *%appdata%* folder under *SuperOffice\\MailLink*. This folder is part of a roaming profile so the MailLink configuration is not forgotten when the user signs out and back in again.
+MailLink stores its configuration in the *%appdata%* folder under *SuperOffice\MailLink*. This folder is part of a roaming profile so the MailLink configuration is not forgotten when the user signs out and back in again.
 
 ### Web Extensions
 
 It is necessary to make sure Web Extensions is set to automatically start when a user signs in.
 
-To store Web Extensions configuration, we use folder *%localappdata%\\SuperOffice\\SuperOffice Web Extensions*.
+To store Web Extensions configuration, we use folder *%localappdata%\SuperOffice\SuperOffice Web Extensions*.
 
 > [!NOTE]
 > The installation of the WebTools does not require administrative privileges, but the prerequisites do. For more information, see the [Web Tools installation documentation][2].

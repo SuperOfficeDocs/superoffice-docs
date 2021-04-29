@@ -96,17 +96,15 @@ In addition the following parser variables are available:
 
 This is a special template. The framework.html is the framework that will surround all the other templates. In this way, you do not need to style all the other templates.
 
-You can use the same parser variables in this file as with the other files. It is actually the chosen action that determines what is available here, so only use parser variables that you are certain will exist.
+You can use the same parser variables in this file as with the other files. It is the chosen action that determines what is available here, so only use parser variables that you are certain will exist.
 
-Pay attention to the parser command %INCLUDE\_VAR:contentFile%. As explained earlier, each chosen action will result in a parser variable called "contentFile". This parser variable will contain the name of the template matching the action. The command INCLUDE\_VAR will simply insert this file into the framework.html file.
+Pay attention to the parser command `%INCLUDE_VAR:contentFile%`. As explained earlier, each chosen action will result in a parser variable called **contentFile**. This parser variable will contain the name of the template matching the action. The command `INCLUDE_VAR` will simply insert this file into the *framework.html* file.
 
 ## listSimilarKbEntries.html
 
 This template is used to list similar FAQ entries when using the wiki functionality of the FAQ.
 
-The FAQ entry hits are placed in the following parser variables. This is an array, so you must use
-
-%ROWSTART% and %ROWEND% to loop over them.
+The FAQ entry hits are placed in the following parser variables. This is an array, so you must use `%ROWSTART%` and `%ROWEND%` to loop over them.
 
 "kbEntry.url" contains the URL to the FAQ entry in HTML format (so no need to add the tag), with the correct name
 
@@ -124,7 +122,7 @@ In addition the following parser variables are available:
 
 This template is used to display one single request.
 
-* Message, but not that this will be an array, so you need to use %ROWSTART% and %ROWEND% to loop over them.
+* Message, but not that this will be an array, so you need to use `%ROWSTART%` and `%ROWEND%` to loop over them.
 * Message where is the number of the message starting from 0. This makes each message accessible as a single parser object.
 * Company
 * Customer
@@ -142,7 +140,7 @@ This template is used to list all the requests that the customer has access to.
 
 In addition, the following parser variables are available:
 
-"pageNumbers" is an array that contains the number of each page. This is convenient to use in conjunction with %ROWSTART%%ROWEND% to print the page selector.
+"pageNumbers" is an array that contains the number of each page. This is convenient to use in conjunction with `%ROWSTART%%ROWEND%` to print the page selector.
 
 "nextPage" indicates that there is a next page. If this parser variable is missing, there is no next page. The value of the variable is "true" when there is a next page
 
@@ -154,13 +152,13 @@ In addition, the following parser variables are available:
 
 "filterBy" will contain the filtering value. It is possible to reduce the request shown by filtering them.
 
-This should be set in the URL for this page, and the parser variable "filterBy" will contain this value so you can use them in other URLs. Legal values are "open", "own" and "closed".
+This should be set in the URL for this page, and the parser variable `filterBy` will contain this value so you can use them in other URLs. Legal values are "open", "own" and "closed".
 
 "orderBy" will contain the "order by" clauses used, so you can preserve the order in other URLs. The value should be set in the URL to make the customer care center use the order for the request list. The field should be separated with a comma. Legal values are "status", "id", "title", "created", "category",
 
 "priority". At the end of the list, you should append the direction.
 
-"pageLength" will contain the number of requests in each page. This should be set in the URL, and the parser variable will contain the chosen length.
+"pageLength" will contain the number of requests on each page. This should be set in the URL, and the parser variable will contain the chosen length.
 
 "numPages" contains the total number of pages.
 
@@ -254,7 +252,7 @@ This template is displayed when a customer is trying to register. The following 
 
 ## sendPassword.html
 
-This template is displayed when the customer has clicked the "Forgotten password" button. No other than the standard variables are available.
+This template is displayed when the customer has clicked the **Forgotten password** button. No other than the standard variables are available.
 
 ## ticketPosted.html
 
@@ -296,7 +294,7 @@ This template is displayed when viewing a FAQ category. The following parser var
 
 "entry.questionParsed", same as above, except that the question is run through the parser
 
-"entry.question", same as "entry.questionHtml", except that newlines and tabs are removed, and the lines are chopped at 70 characters length. In addition the question is checked with the legal HTML tags configured in the system (other tags will be removed).
+"entry.question", same as `entry.questionHtml`, except that newlines and tabs are removed, and the lines are chopped at 70 characters length. In addition, the question is checked with the legal HTML tags configured in the system (other tags will be removed).
 
 "entry.link" contains the link to the entry (array)
 
@@ -329,7 +327,7 @@ This template is displayed when viewing a FAQ entry. The following parser variab
 
 "entry.questionParsed" contains a parsed version of the entry. This is only available if the system is
 
-configured to allow parsing of a FAQ. This is controlled in the Registry table by setting "value" to 0 where reg\_id= 64.
+configured to allow parsing of a FAQ. This is controlled in the Registry table by setting "value" to 0 where reg_id= 64.
 
 "entry.answer" contains the answer part of the entry
 
@@ -337,7 +335,7 @@ configured to allow parsing of a FAQ. This is controlled in the Registry table b
 
 "entry.answerPlainBr" contains the same as above, except that all newlines will be converted to the HTML tag
 
-"entry.answerParsed" contains a parsed version of the entry. This is only available if the system is configured to allow parsing of FAQ. This is controlled in the Registry table by setting "value" to 0 where reg\_id= 64.
+"entry.answerParsed" contains a parsed version of the entry. This is only available if the system is configured to allow parsing of the FAQ. This is controlled in the Registry table by setting "value" to 0 where reg_id= 64.
 
 "entry.title" contains the title of the entry
 

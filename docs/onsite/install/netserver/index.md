@@ -41,9 +41,9 @@ NetServer is always installed, but for some scenarios, we recommend it is instal
 
 11. In the `Database settings` section fill in the fields to configure your connection to the database. Click the **Test connection** to be sure that the configuration is correct. The user here must be a database system user. When it works, click **Next**.
 
-12. In the `Document Settings` section you need to enter the **Archive Path** to the folder you created in the SuperOffice CRM Server installation. You also need a temporary path. If you need the application to impersonate a user, check the **Impersonate User** checkbox and fill in the credentials for a user with access to the file server where the SuperOffice Archive (SO\_ARC) is located. Validate and click **Next**.
+12. In the `Document Settings` section you need to enter the **Archive Path** to the folder you created in the SuperOffice CRM Server installation. You also need a temporary path. If you need the application to impersonate a user, check the **Impersonate User** checkbox and fill in the credentials for a user with access to the file server where the SuperOffice Archive (SO_ARC) is located. Validate and click **Next**.
 
-    * **Impersonate user:** We recommend using the Impersonate user to give access to both the temporary area and document area (so\_arc).<br>If you choose to not use the recommended setting, then the application pool identity must be given sufficient rights.
+    * **Impersonate user:** We recommend using the Impersonate user to give access to both the temporary area and document area (so_arc).<br>If you choose to not use the recommended setting, then the application pool identity must be given sufficient rights.
 
 13. Leave the `Security` section as is.
 

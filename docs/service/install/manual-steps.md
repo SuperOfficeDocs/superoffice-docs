@@ -19,11 +19,11 @@ Installing SuperOffice Web client and Service on the same domain under different
 
 If the IIS website is not created, first run the installer for Service (SuperOffice.CustomerService.exe) which is the only installer from SuperOffice that will also create the IIS websites.
 
-If the website is created, then you may create the application first, and just point the path to the default location for Customer Service: *c:\\superoffice*
+If the website is created, then you may create the application first, and just point the path to the default location for Customer Service: *c:superoffice*
 
 ![x][img1]
 
-Run the SuperOffice.CustomerService.exe to install the software on the server, the default location is *c:\\superoffice*.
+Run the SuperOffice.CustomerService.exe to install the software on the server, the default location is *c:\superoffice*.
 
 ![x][img2]
 
@@ -31,15 +31,15 @@ If you upgrade an existing site, do not tick the Create IIS website since it wil
 
 ![x][img3]
 
-Either set up a new application under `socrm.myorganization.com` for Service or edit the one you created earlier. Point the physical path to the *Customer service\\www\\doc* folder, in this example it would be *c:\\SuperOffice\\Customer Service\\www\\doc* folder
+Either set up a new application under `socrm.myorganization.com` for Service or edit the one you created earlier. Point the physical path to the *Customer service\www\doc* folder, in this example, it would be *c:\SuperOffice\Customer Service\www\doc* folder
 
 ![x][img4]
 
-Below service, you also need to add 2 applications, one for scripts, which points to the *Customer Service\\www\\scripts* folder. Make sure it uses the same application pool as the Service application.
+Below service, you also need to add 2 applications, one for scripts, which points to the *Customer Service\www\scripts* folder. Make sure it uses the same application pool as the Service application.
 
 ![x][img5]
 
-And one application for csplugins pointing to *\\customer service\\www\\csplugins*
+And one application for csplugins pointing to *\customer service\www\csplugins*
 
 ![x][img6]
 

@@ -38,12 +38,12 @@ To use the program:
 ## Travel gateway as a service
 
 Using SuperOffice Travel Gateway, you can automate the tasks that the system administrator usually performs in connection with Travel, by specifying that a process should run automatically at a particular time.
-To install the Travel gateway service, run the SuperOffice client installation file from the Server\\Client folder. [Install manually][1] if the client installer fails.
+To install the Travel gateway service, run the SuperOffice client installation file from the Server\Client folder. [Install manually][1] if the client installer fails.
 
 ## Start the service
 
 > [!NOTE]
-> The Log on as user MUST have full access rights to SO\_ARC, so if this is not on the local computer you need to set up another Log on as user. This user must also be granted **Log on as a service rights**.
+> The Log on as user MUST have full access rights to SO_ARC, so if this is not on the local computer you need to set up another Log on as user. This user must also be granted **Log on as a service rights**.
 
 1. Go to Control panel - Administrative tools - Local services and locate the new *SuperOffice Travel gateway* service. It is not yet started and is currently set up to Log on as "Local System account".
 
@@ -55,7 +55,7 @@ The program [SoTrvGate.exe][2] is still used to set up tasks to be executed. Not
 
 ## Automatic login
 
-The SOTrvGate.exe takes username and password as parameter so you may create a shortcut to SOTrvGate.exe
+The SOTrvGate.exe takes username and password as parameters so you may create a shortcut to SOTrvGate.exe
 
 <!-- Referenced links -->
 [1]: install.md

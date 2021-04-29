@@ -31,7 +31,7 @@ You must provide a **unique application name** for the App Store listing.
   * single or double quotes ‘’ "
 * Generic terms must be prefixed, for example with your own company name, or add "for SuperOffice".
 
-  * \[Partner Name\] Visual Reports
+  * [Partner Name] Visual Reports
   * Visual Reports **for SuperOffice**
 
 Don't worry too much if your "ideal" name is taken. Categories, descriptions, images, and other tools in the store will be more important.

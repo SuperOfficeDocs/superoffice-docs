@@ -11,7 +11,7 @@ so.envir: onsite
 
 # Prepare web server
 
-SuperOffice uses Windows Communication Foundation (WCF). This means WCF must be installed on the same server as the NetServer web services is installed.
+SuperOffice uses Windows Communication Foundation (WCF). This means WCF must be installed on the same server as the NetServer web services are installed.
 
 ## Preparing IIS for NetServer web services
 
@@ -61,7 +61,7 @@ Plus any authentication methods that you wish to use.
 
     If you do not want to **Allow unspecified CGI modules** it is also possible to use "Add..." to add each CGI file separately. This, however, requires you to make sure any new CGI files from Customer Service are added here.
 
-6. Click **Add...**, navigate to the *\[Service installation\]\\www\\scripts* folder and add one by one all .exe files in this folder. For each write some description and tick **Allow extension path** to execute.
+6. Click **Add...**, navigate to the *[Service installation]\www\scripts* folder, and add one by one all .exe files in this folder. For each, write some description and tick **Allow extension path** to execute.
 
 ![add cgi][img5]
 

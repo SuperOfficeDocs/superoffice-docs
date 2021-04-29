@@ -11,7 +11,7 @@ so.envir: onsite
 # Creating web forms using special templates in Service
 
 1. Create a template for the webform under the templates directory in Service.
-Example: *C:\\SuperOffice\\Customer Service\\templates\\special\\mytemplate.html*
+Example: *C:\SuperOffice\Customer Service\templates\special\mytemplate.html*
 
 2. Access the template from the www browser using the following address *.../scripts/customer.exe?action=spec...*
 

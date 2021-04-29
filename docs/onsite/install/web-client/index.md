@@ -55,7 +55,7 @@ The server where you install SuperOffice Web needs to have an internet connectio
 
 12. In the **Document Archive** section you need to enter the **Archive Path** to the folder you created in the SuperOffice CRM Server installation. You also need a Temporary Path.
 
-    * Make sure the Temporary Part is a local path, not UNC path, otherwise you can get performance issues or errors while working with documents. **We recommend you add an impersonate user with sufficient rights to read and write to both SO\_Arc and the temp area.** Check the **Impersonate User** checkbox and fill in the credentials for a user with access to the file server where the SuperOffice Archive (SO\_ARC) is located. Validate and click **Next**.
+    * Make sure the Temporary Part is a local path, not a UNC path, otherwise you can get performance issues or errors while working with documents. **We recommend you add an impersonate user with sufficient rights to read and write to both SO_Arc and the temp area.** Check the **Impersonate User** checkbox and fill in the credentials for a user with access to the file server where the SuperOffice Archive (SO_ARC) is located. Validate and click **Next**.
 
     * More than one archivepath? You need to edit *web.config* and add more Archive Paths under the Documents section:
 

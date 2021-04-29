@@ -93,7 +93,7 @@ Settings related to logging.
 | LoggedServices | List of services to be logged; default blank means all, otherwise a comma-separated list of service names (without the Agent suffix, for instance: BLOB, Appointment) |
 | LogInformation | Log general information. This includes successful SQL's passed to the database. Only permit this option while debugging a bug. This will be a severe performance hit! (default 'False') |
 | LogLongQueries | Should long-running queries be logged in textual form to a special file? default false |
-| LogLongQueriesAsXML | Should long-running queries be logged to a special file (Query\_year.month.day.log) in XML serialized format, for later analysis and reruns using the QueryWorkbench tool |
+| LogLongQueriesAsXML | Should long-running queries be logged to a special file (Query_year.month.day.log) in XML serialized format, for later analysis and reruns using the QueryWorkbench tool |
 | LogMail | Log mail server communication |
 | LogMailFolder | Folder to output mail logs. Note that the owner of the process needs to have access to manipulate files in this folder |
 | LogServiceCalls | Should calls to the service layer be logged? |
@@ -126,7 +126,7 @@ The *Session* section relates to the lifetime of a NetServer communication ses
 
 * HttpContext: Recommended in ASP.NET applications. Added to prevent ASP.NET thread switches from changing identities in the middle of an ASP.net request.
 
-* Context: The session is stored in a context static manner. For further reference, see System.ContextStaticAttribute.
+* Context: The session is stored in a context-static manner. For further reference, see System.ContextStaticAttribute.
 
 * PartnerHttpContext: Helper class for SuperOffice.DevNet.Online.Login
 
@@ -181,12 +181,12 @@ The Documents section exposes seven settings related to SuperOffice documents. I
 |-----------|-------------|
 | ArchiveDomain | String value representing the ArchiveUsers domain name. |
 | ArchivePassword | String value representing the password of the ImpersonateUser. |
-| ArchivePath | String value representing the path to the SO\_ARC directory. The default template path is calculated from this folder if not set. |
+| ArchivePath | String value representing the path to the SO_ARC directory. The default template path is calculated from this folder if not set. |
 | ArchiveUser | String value representing the ArchiveUsers domain name. |
 | ArchiveDomain | String value representing the domain of the user to impersonate with |
 | BufferSize | Integer value representing the internal buffer size in KB. The default buffer size is 32KB. |
-| ImpersonateUser | True if impersonate is turned on. If So\_arc is located on a different server in the domain you need to turn this on. The impersonate user will also be used to write filestreams to the temp area during document |
-| TemplatePath | String value representing the UNC path of template folder. (Optional) - if not set defaults to archivepath + \\Template |
+| ImpersonateUser | True if impersonate is turned on. If So_arc is located on a different server in the domain you need to turn this on. The impersonate user will also be used to write filestreams to the temp area during document |
+| TemplatePath | String value representing the UNC path of template folder. (Optional) - if not set defaults to the archivepath + \Template |
 | TemporaryPath | Temporary folder for working with documents. String value representing the temp directory for streaming files (must resolve to the same location for farms/clusters). |
 
 ### More than one ArchivePath
@@ -195,9 +195,9 @@ You can have more than one ArchivePath in your Web installation. You need to edi
 
 ```xml
 <Documents>
-<!-- Location of SO\_ARC -->
-  <add key="ArchivePath" value="E:\\SuperOffice\\SO\_ARC" />
-  <add key="ArchivePath2" value="E:\\SuperOffice\\SO\_ARC2" />
+<!-- Location of SO_ARC -->
+  <add key="ArchivePath" value="E:\SuperOffice\SO_ARC" />
+  <add key="ArchivePath2" value="E:\SuperOffice\SO_ARC2" />
 ```
 
 You can add more alternative archive paths, like ArchivePath3, ArchivePath4,...
@@ -232,7 +232,7 @@ This section is used to specify whether an application is working locally or r
 | Parameter | Description |
 |-----------|-------------|
 | EnableScripting | Turn on or off the use of scripts |
-| ScriptPath | Path to the scripts. Defaults to \\script if not set. |
+| ScriptPath | Path to the scripts. Defaults to *\script* if not set. |
 | TimeoutLimit | Time in milliseconds allowed for the script to use. Default 20 sec. |
 | MaxTimeouts | Integer value representing the number of timeouts the script is allowed before it is disabled. Default 5. Default = 5 |
 

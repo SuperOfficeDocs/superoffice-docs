@@ -51,7 +51,7 @@ if (getParserVariable("ticket.new.category") != getParserVariable("ticket.old.ca
 * timeToClose
 * realTimeToClose
 * timeToReply
-* m\_realTimeToReply
+* m_realTimeToReply
 * createdBy
 * author
 * ownedBy

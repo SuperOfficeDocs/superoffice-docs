@@ -30,14 +30,16 @@ Ensure you meet the [prerequisites][3] and read the [security considerations][7]
 
 * During set-up, some details must be collected. These details will be used as parameters for setting the new configurations for your SuperOffice CRM Online site.
   * Your SuperOffice Online customer-specific URL, Cust ID (found in the browser URL while logged into SuperOffice Online), for instance, `http://online.superoffice.com/cust8123/`
-  * **Write down the number of the "cust"-part of the URL as "Cust ID"**
 
-* To create new content types (see step 2), you need the SharePoint settings to **allow user to run custom scripts** activated < 24 h. before setup. You may perform the other steps in the meantime / create new content types at a later time.
+  > [!NOTE]
+  > Write down the number of the "cust"-part of the URL as "Cust ID"
+
+* To create new content types (see step 2), you need the SharePoint settings to **allow user to run custom scripts** activated < 24 h. before setup. You may perform the other steps in the meantime or create new content types at a later time.
 
 * How to activate Custom Script:
 
-1. Go to SharePoint admin center > settings tab > Custom Script section >
-2. Set settings to "Allow users to run custom script on self-service created sites"
+1. Go to SharePoint admin center > settings tab > Custom Script section.
+2. Set settings to "Allow users to run custom script on self-service created sites".
 
 ![x][img3]
 
@@ -55,7 +57,7 @@ For more information:
 
     ![x][img6]
 
-2. Go to SharePoint under "Microsoft 365 admin center" -> Admin centers
+2. Go to SharePoint under "Microsoft 365 admin center" -> Admin centers.
 
     ![image18cb.png][img7]
 
@@ -63,7 +65,8 @@ For more information:
 
     ![imagesgm93.png][img8]
 
-    **Write down this URL as "SharePoint domain name URL="**
+    > [!NOTE]
+    > Write down this URL as "SharePoint domain name URL=".
 
     Example: `SharePoint domain name URL=https://[your_domain_name].sharepoint.com`
 
@@ -71,7 +74,7 @@ For more information:
 
     ![x][img9]
 
-5. Open **Site contents** from the menu
+5. Open **Site contents** from the menu.
 
     ![imagetrxas.png][img10]
 
@@ -79,11 +82,12 @@ For more information:
     1. Click **New** and choose **Document library**.
     2. Enter a name for your document library. **Example:** `SuperOffice_Archive`
 
-    **Write down this name as "SO Archive Document Library Name="**
+    > [!NOTE]
+    > Write down this name as "SO Archive Document Library Name="
 
     This is the name of the document library. It will be the relative path of your document library to the root folder: `https://[your_domain_name].sharepoint.com _SuperOffice_Archive/`
 
-    Example: "SO Archive Document Library Name=/SuperOffice\_Archive/"
+    Example: "SO Archive Document Library Name=/SuperOffice_Archive/"
 
     Make sure the document library exists on Root of SharePoint, and have correct access rights (minimum "Edit" ) for your users before continuing.
 
@@ -91,11 +95,12 @@ For more information:
     1. Click **New** and choose **Folder**.
     1. Enter a name for your template folder. For example, *Template*
 
-    **Write down this name as "Template Folder Name="**
+    > [!NOTE]
+    > Write down this name as "Template Folder Name="
 
     ![imageujv6m.png][img11]
 
-    Folder for templates, created inside the SuperOffice Document library For example, *Template Folder Name=Template*
+    Folder for templates, created inside the SuperOffice Document library. For example, *Template Folder Name=Template*
 
     Make sure the folder exists, and have correct access rights for your users before continuing.
 
@@ -103,7 +108,7 @@ For more information:
 
 For creating new blank documents, spreadsheets, and presentations in SuperOffice CRM Admin (from a SharePoint template), we need to define several content types in SharePoint.
 
-To create new content types, you need the SharePoint settings to "allow user to run custom scripts" activated < 24 h. before setup. You may perform the next steps in the meantime / create content types at a later time if you prefer.
+To create new content types, you need the SharePoint settings to "allow user to run custom scripts" activated < 24 h. before setup. You may perform the next steps in the meantime or create content types at a later time if you prefer.
 
 This selection will fail if SuperOffice 'content types' are not set up in SharePoint:
 
@@ -161,7 +166,7 @@ Confirm whether the settings are configured to "Allow users from running custom 
 2. Go to SharePoint admin center > settings tab > Custom Script section >
 confirm whether the settings are configured to "Allow users from running custom script".
 
-    * Set them to "Allow users to run custom script" to see the outcome. The SharePoint settings "Allow user to run custom scripts" can take < 24 h. before activated. You may perform the other steps in the meantime / create the content types at a later time.
+    * Set them to "Allow users to run custom script" to see the outcome. The SharePoint settings "Allow user to run custom scripts" can take < 24 h. before activated. You may perform the other steps in the meantime or create the content types at a later time.
 
 ## Step 3 – Adding the SuperOffice Integrator App in Office365 SharePoint
 
@@ -239,13 +244,14 @@ To turn on the Microsoft 365 SharePoint integration for your CRMOnline tenant, s
 * "SO Archive Document Library Name"
 * "SO Template Folder Name"
 
-**NOTE!** Once we receive the form submission, we will activate the feature as soon as we are able to, and the feature will then be ready to use the following day. (Your site must be ‘recycled’ to get the new configurations)
+> [!NOTE]
+> Once we receive the form submission, we will activate the feature as soon as possible, and the feature will then be ready to use the following day. (Your site must be recycled to get the new configurations.)
 
 **Use [this form][17] for submitting the details to us.**
 
 You will get a notification from SuperOffice R&D Services when the Microsoft 365 SharePoint integration is activated.
 
-When it is ready to use, you may continue to set up the templates, to make use of the Microsoft 365 SharePoint integration (as described in [this article][1])
+When it is ready to use, you may [continue to set up the templates][1], to make use of the Microsoft 365 SharePoint integration.
 
 <!-- Referenced links -->
 [1]: ../configure.md

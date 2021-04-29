@@ -24,10 +24,10 @@ Cookies specific to SuperOffice Online deployment.
 | SoAuth.Xsrf | string | Online login | Anti-forgery token for Online login |
 | SoContextHints | string | Online login | Online login |
 | SoOnlineAuth | string | Online login | Online login - login session |
-| SoRT\_custXXXXX | string | Online login | Online login |
-| SoRT\_global | string | Online login | Online login |
-| ai\_session | string | Online env. | Application Insights monitoring of the system - anonymized data for monitoring Online systems |
-| ai\_user | string | Online env. | Application Insights monitoring of the system - anonymized data for monitoring Online systems |
+| SoRT_custXXXXX | string | Online login | Online login |
+| SoRT_global | string | Online login | Online login |
+| ai_session | string | Online env. | Application Insights monitoring of the system - anonymized data for monitoring Online systems |
+| ai_user | string | Online env. | Application Insights monitoring of the system - anonymized data for monitoring Online systems |
 
 ## Sales & Marketing
 
@@ -35,7 +35,7 @@ Cookies used by Sales & Marketing client both in Online and Onsite deployment.
 
 | Cookie name | Type | Usage | Description |
 |---|---|---|---|
-| ASP.NET\_SessionId | string | CRM | Used to identify the user's session on the server |
+| ASP.NET_SessionId | string | CRM | Used to identify the user's session on the server |
 | FirstDayOfWeek | number | CRM | Used to set Sunday or Monday as the first day of the week |
 | SoWtt | string | CRM | CRM Client Signal R session |
 | XSRF-TOKEN | string | CRM | Prevent cross-site request forgery |
@@ -58,7 +58,7 @@ Cookies used by the Service client both in Online and Onsite deployment.
 | userId | number | Service | Authentication |
 | sessionId | number | Chat | Storing ongoing chat session with customer |
 | sessionKey | string | Chat | Storing ongoing chat session with customer |
-| custSessionKey | string | Customer Centre, Chat\*, Forms\* | Authentication |
+| custSessionKey | string | Customer Centre, Chat*, Forms* | Authentication |
 | customerLang | string | Customer Centre | Which language to show pages in |
 | debug.debugSessionId | number | Service | Used for debugging option in Service |
 | debug.stageScripts | boolean | Service | Used for debugging option in Service |

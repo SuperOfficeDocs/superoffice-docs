@@ -1,12 +1,10 @@
 ---
-title: check_idp_domain
+title: Check IdP domain
+uid: check_idp_domain
 description: Can I use my domain for federated sign-in?
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Can I use my domain for federated sign-in?
@@ -42,7 +40,7 @@ This tool supports Microsoft domains only.
     https://login.microsoftonline.com/YOURDOMAIN/.well-known/openid-configuration
     ```
 
-2. If the answer includes **authorization\_endpoint** or similar you should be good to go! For example:
+2. If the answer includes **authorization_endpoint** or similar you should be good to go! For example:
 
     ```text
     "authorization_endpoint":"https://login.microsoftonline.com/8e414aee-d6e1-4d13-98c8-d3876cd2b05/oauth2/authorize"
@@ -50,7 +48,7 @@ This tool supports Microsoft domains only.
 
 ![orlok][img2]
 
-**"error":"invalid\_tenant"** indicates this will not work for a Microsoft account
+**"error":"invalid_tenant"** indicates this will not work for a Microsoft account
 
 ![orlerror][img3]
 

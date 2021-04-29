@@ -31,7 +31,7 @@ Check out the [system requirements][2].
 
 After Web Tools have finished starting up, it will resume incomplete tasks.
 
-The tasks files are stored in *%localappdata%\\SuperOffice\\SuperOffice 7 Web Extensions\\Tasks*. One task consists of a task file and a directory with the same name. This directory will contain the document during editing/reading.
+The tasks files are stored in *%localappdata%SuperOffice\SuperOffice 7 Web Extensions\Tasks*. One task consists of a task file and a directory with the same name. This directory will contain the document during editing/reading.
 
 ## Document editing
 

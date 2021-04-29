@@ -74,18 +74,18 @@ Windows Registry Editor Version 5.00
 "Description"="SuperOffice Ribbon for Microsoft Office Excel 2007"
 "CommandLineSafe"=dword:00000001
 "LoadBehavior"=dword:00000003
-"Manifest"="M:\\Program Files\\SuperOffice\\SuperOffice Windows\\Ribbons\\SuperOffice.Ribbon.Excel.vsto|vstolocal"
+"Manifest"="M:\Program Files\SuperOffice\SuperOffice Windows\Ribbons\SuperOffice.Ribbon.Excel.vsto|vstolocal"
 
 [HKEY_CURRENT_USER\Software\Microsoft\Office\PowerPoint\Addins\SuperOfficeRibbon-PowerPoint]
 "CommandLineSafe"=dword:00000001
-"Manifest"="M:\\Program Files\\SuperOffice\\SuperOffice Windows\\Ribbons\\SuperOffice.Ribbon.PowerPoint.vsto|vstolocal"
+"Manifest"="M:\Program Files\SuperOffice\SuperOffice Windows\Ribbons\SuperOffice.Ribbon.PowerPoint.vsto|vstolocal"
 "FriendlyName"="SuperOffice Ribbon"
 "Description"="SuperOffice Ribbon for Microsoft PowerPoint 2007"
 "LoadBehavior"=dword:00000003
 
 [HKEY_CURRENT_USER\Software\Microsoft\Office\Word\Addins\SuperOfficeRibbon-Word]
 "LoadBehavior"=dword:00000003
-"Manifest"="M:\\Program Files\\SuperOffice\\SuperOffice Windows\\Ribbons\\SuperOffice.Ribbon.Word.vsto|vstolocal"
+"Manifest"="M:\Program Files\SuperOffice\SuperOffice Windows\Ribbons\SuperOffice.Ribbon.Word.vsto|vstolocal"
 "FriendlyName"="SuperOffice Ribbon"
 "Description"="SuperOffice Ribbon for Microsoft Word 2007"
 "CommandLineSafe"=dword:00000001
@@ -100,7 +100,7 @@ Windows Registry Editor Version 5.00
 "Description"="A link between Outlook and SuperOffice for storing mails and attachments"
 "FriendlyName"="SuperOffice Ribbon"
 "LoadBehavior"=dword:00000003
-"Manifest"="M:\\Program Files\\SuperOffice\\SuperOffice Windows\\MailLink\\SuperOfficeRibbon-Outlook.vsto|vstolocal"
+"Manifest"="M:\Program Files\SuperOffice\SuperOffice Windows\MailLink\SuperOfficeRibbon-Outlook.vsto|vstolocal"
 ```
 
 ### Web Extensions
@@ -119,7 +119,7 @@ After the upgrade of WebTools on the server remember to remove Web Extensions s
 
 ### How to change the language of MailLink
 
-SuperOffice Ribbons use the *HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\16.0\\Common\\LanguageResources\\UIFallback* to determine which language to use (the example is for Office 2016).
+SuperOffice Ribbons use the *HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\LanguageResources\UIFallback* to determine which language to use (the example is for Office 2016).
 
 Example: In Outlook the language is Norwegian, but the SuperOffice Ribbon is in the German language.
 

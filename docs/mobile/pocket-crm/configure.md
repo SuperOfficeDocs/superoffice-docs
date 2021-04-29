@@ -54,16 +54,16 @@ All local data is erased if Pocket is reconfigured to a new installation, or if 
 
 Both iOS and Android have default support for encrypting all content if a pin code or password is used to lock the device.
 
-[https://www.apple.com/business/docs/iOS\_Security\_Guide.pdf][3]
-[https://source.android.com/security/encryption/full-disk][4]
+[www.apple.com/business/docs/iOS_Security_Guide.pdf][3]
+[source.android.com/security/encryption/full-disk][4]
 
 ## Expose NetServer to internet
 
-To connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from the internet. If you have a [setup with remote NetServer on internal network and SuperOffice Web in DMZ][5], that means only Web server part is available on the internet.
+To connect Pocket CRM to NetServer's web services, NetServer needs to be accessible from the internet. If you have a [setup with remote NetServer on an internal network and SuperOffice Web in DMZ][5], that means only Web server part is available on the internet.
 
 A solution is to use [Reverse proxy][7] to make also NetServer available on the internet.
 
-Installing a second NetServer in DMZ and connecting it via web services to the remote NetServer on internal LAN is not supported. The NetServer in DMZ will demand direct access to so\_arc and Pocket CRM using this setup will fail to save pictures and documents.
+Installing a second NetServer in DMZ and connecting it via web services to the remote NetServer on internal LAN is not supported. The NetServer in DMZ will demand direct access to so_arc and Pocket CRM using this setup will fail to save pictures and documents.
 
 ## Custom Pocket configuration URL
 
@@ -80,7 +80,7 @@ Example:
 > [!NOTE]
 > The template files we use to generate the email with Pocket configuration sent to users use two template variables:
 
-* `{pccu}` variable always points to *\<CRM.web installation>\\PocketConfiguration.aspx* and is not configurable.
+* `{pccu}` variable always points to *\<CRM.web installation>\PocketConfiguration.aspx* and is not configurable.
     The reason this is not a direct configuration link for the Pocket client (soprotocol scheme), is that a lot of users experienced problems on Android, where mail clients did not handle the custom protocol link correctly
     The custom protocol redirect/configuration URL that PocketConfiguration.aspx uses, is attempted retrieved from CRM.web installation *web.config*.
 

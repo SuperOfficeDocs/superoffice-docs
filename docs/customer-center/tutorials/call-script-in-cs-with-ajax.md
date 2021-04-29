@@ -52,7 +52,7 @@ print(output);
 
 That's all we had to do in Customer Service, now we just need to create the page we want to view in the Customer Centre.
 
-Go to where you've installed your Customer Service, go into the *Customer Service folder\\templates\\your language\\customer*
+Go to where you've installed your Customer Service, go into the *Customer Service folder\templates\your language\customer*
 
 Now, if you haven't done this already, create a *specialForm* folder and inside create an empty HTML document.
 

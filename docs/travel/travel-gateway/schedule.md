@@ -1,6 +1,7 @@
 ---
-title: schedule
-description:
+title: Schedule
+uid: schedule
+description: Schedule tasks for Travel gateway
 author: {github-id}
 keywords:
 so.date:
@@ -50,7 +51,7 @@ To add a new activity to be run automatically:
 6. If the Travel Gateway is not running as a service, once you have made the required changes, you need to reset the execution status back to **Active** so that SuperOffice Travel Gateway can perform the activities.
 
 > [!NOTE]
-> If you choose to schedule with signal files, the activity starts when it finds a signal file. Once the activity has finished running, the signal file is deleted. The *Signal.dat* file should be created in SO\_Arc where the gateway is looking for it.
+> If you choose to schedule with signal files, the activity starts when it finds a signal file. Once the activity has finished running, the signal file is deleted. The *Signal.dat* file should be created in SO_Arc where the gateway is looking for it.
 
 <!-- Referenced links -->
 [1]: activity-types.md

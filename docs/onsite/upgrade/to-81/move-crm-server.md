@@ -28,7 +28,7 @@ Use file copy to copy the so_arc with sub-folders from the old location to the n
 
 ### Change details
 
-All SuperOffice Windows users and the impersonate user used in SuperOffice Web configuration must have full control rights for SO Arc folder in the new location.
+All SuperOffice Windows users and the impersonate user used in SuperOffice Web configuration must have full control rights for the SO_Arc folder in the new location.
 
 There are also other 4 places where you will need to make a change to the new SO Arc folder reference for the installation to work.
 
@@ -64,15 +64,15 @@ If you do not have access to the new database server from the old database serve
 
 ## SuperOffice Win clients must be updated
 
-If you just change the name/address, you need to refresh *SuperOffice.mst* file with the new server information
+If you just change the name/address, you need to refresh the *SuperOffice.mst* file with the new server information
 
 1. Navigate to the SuperOffice Server folder.
 2. Run the *SoCreateMST.exe*
 3. Press **Load file**.
-4. Navigate to SuperOffice.mst package (*SuperOffice.mst* file can be found in the *Client* folder on the server: `C:\[SuperOffice Server adress]\Client\SuperOffice.mst`).
+4. Navigate to SuperOffice.mst package (*SuperOffice.mst* file can be found in the *Client* folder on the server: `C:\[SuperOffice Server address]\Client\SuperOffice.mst`).
 5. Save the new MST file.
 
-All clients must be uninstalled, then run SuperOffice8.exe from the *server\\client* folder.
+All clients must be uninstalled, then run SuperOffice8.exe from the *server\client* folder.
 
 ## SuperOffice Web and SuperOffice web services / NetServer
 
@@ -97,12 +97,12 @@ You will need to manually change settings inside the database tables called **Co
 
 **In the config table:**
 
-* Make sure all paths are updated correctly to the new location: *text\_path*, *attachment\_path*, *template\_path* and *warning*.
-* Verify the correct URLs to *cgi\_url* (the external URL) and *cgi\_url\_internal*.
+* Make sure all paths are updated correctly to the new location: *text_path*, *attachment_path*, *template_path* and *warning*.
+* Verify the correct URLs to *cgi_url* (the external URL) and *cgi_url_internal*.
 
 **In the registry table:**
 
-| Reg\_id | Path to |
+| Reg_id | Path to |
 |---------|---------|
 | 131 | the DBI executable |
 | 284 | the ImageResizer executable |
@@ -114,7 +114,7 @@ You will need to manually change settings inside the database tables called **Co
 
 **Changing hostname also:**
 
-1. In the Windows registry there is a key that is identical to the hostname that you are running Service on. Make sure it matches the new hostname. The key is HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Wow6432Node\\SuperOffice Customer Service.
+1. In the Windows registry there is a key that is identical to the hostname that you are running Service on. Make sure it matches the new hostname. The key is HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\SuperOffice Customer Service.
 
 2. Edit the Service website hostname in IIS.
 

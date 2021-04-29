@@ -22,12 +22,12 @@ If Web Tools are already installed, or if you for other reasons wish to configur
 When deploying through GPO or other alternatives, executing the *SoConfig* file during the log-on process will set up Web Tools for the user. The site will not be added again if it has already been added.
 
 > [!NOTE]
-> If you are not the administrator, you get Web Tools installed in *c:\\users\\\<yourname>\\appdata\\local\\SuperOffice*. To install on *C:/Program files*, you need to be the local administrator.
+> If you are not the administrator, you get Web Tools installed in *c:\users\\\<yourname>\appdata\local\SuperOffice*. To install on *C:/Program files*, you need to be the local administrator.
 
 ## Overview
 
 1. Extract required files from the Web Tools installer.
-2. Distribute the MSI files (using GPO or SCCM tools) to all machines that are going to use it.
+2. Distribute the MSI files (using GPO or SCCM tools) to all machines that are going to use WebTools.
 3. Auto-configure the URL and Settings using a script.
 
 The following MSI files must be deployed to every SuperOffice user (AD group all SuperOffice users):
