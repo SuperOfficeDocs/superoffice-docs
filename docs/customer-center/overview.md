@@ -1,5 +1,6 @@
 ---
-title: customer_center
+title: Customer Centre
+uid: Customer_center
 description: Customer Centre
 author: {github-id}
 so.date: 09.15.2011

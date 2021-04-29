@@ -10,7 +10,7 @@ so.envir: onsite
 
 # Customer center templates
 
-The templates are located inside the *Templates* directory in your Service install directory. Inside this directory, there can be a number of folders, each containing templates for the different customer languages. Inside the language directory, there should be only one directory called *customer*, unless you have made any custom directories. This is where the templates are stored. To edit one, you simply open it in a text editor.
+The templates are located inside the *Templates* directory in your Service install directory. Inside this directory, there can be multiple folders, each containing templates for the different customer languages. Inside the language directory, there should be only one directory called *customer*, unless you have made any custom directories. This is where the templates are stored. To edit one, you simply open it in a text editor.
 
 What the various templates do is described on [Customer Center Configuration][1] page.
 
@@ -18,7 +18,7 @@ The templates are composed of normal HTML code and some tags that are understood
 
 All templates can be customized to your own wishes and you should be safe when just editing the HTML code and preserving the parser variables. If you are certain that you do not need a parser variable you can remove it. Parser variables can also be moved to other places in the template to fix the order of information.
 
-The template called framework.html is the base template. This acts like a frame in normal HTML, except that it actually does not use frames. All other templates are displayed inside this, so the framework.html will form a border around them. Hence, graphical changes you want to be exposed on every customer page should go here. All the other templates are linked to one action.
+The template called framework.html is the base template. This acts like a frame in normal HTML, except that it does not use frames. All other templates are displayed inside this, so the framework.html will form a border around them. Hence, graphical changes you want to be exposed on every customer page should go here. All the other templates are linked to one action.
 
 You should be able to understand what the different parser variables do by looking at the various templates and the result they produce, but this document will go through some of the important constructions.
 
@@ -41,7 +41,7 @@ The `<test>` statement can either be a parser variable only (if it is located th
 %ROWEND%
 ```
 
-This construction will loop over a set of parser variables. You can see an example of this in use in listTickets.html, which lists all requests for a customer. Loops can not be nested. Be aware that the `%ROWSTART%` and `%ROWEND%` tags have to be placed at the beginning of a line with no spaces or tabs before it.
+This construction will loop over a set of parser variables. You can see an example of this in use in *listTickets.html*, which lists all requests for a customer. Loops can not be nested. Be aware that the `%ROWSTART%` and `%ROWEND%` tags have to be placed at the beginning of a line with no spaces or tabs before it.
 
 Two important global parser variables are `%GfxPath%` which gives the base path to the graphic directory. Example:
 
@@ -55,7 +55,7 @@ Two important global parser variables are `%GfxPath%` which gives the base path 
 <a href="%Program%?action=registerCust">Register</a>
 ```
 
-The other variables should be self-explaining if you study the templates. Be ware that all parser variables will not be accessible in every template. To see the defined variables for a template, you can use the special debug variables `%PARSER_TREE%` at the bottom of a template file. This will print out all the variables to your browser when access through the customer module. This is especially useful when you want to explicitly call an extra field defined in Service. If you for example make an extra field in the request table, you have to manually code the template to show these in the customer pages.
+The other variables should be self-explaining if you study the templates. Be aware that all parser variables will not be accessible in every template. To see the defined variables for a template, you can use the special debug variables `%PARSER_TREE%` at the bottom of a template file. This will print out all the variables to your browser when access through the customer module. This is especially useful when you want to explicitly call an extra field defined in Service. If you for example make an extra field in the request table, you have to manually code the template to show these in the customer pages.
 
 You can also create your own custom templates, which for example can make a request in Service based on information from the web page. The following described how to make such templates.
 

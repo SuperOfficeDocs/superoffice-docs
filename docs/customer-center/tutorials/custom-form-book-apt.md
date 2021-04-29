@@ -1,5 +1,6 @@
 ---
-title: custom_form_book_appointment
+title: Custom form - book appointment
+uid: custom_form_book_appointment
 description: Custom form in Customer Centre to book an appointment
 author: {github-id}
 so.date: 09.15.2011

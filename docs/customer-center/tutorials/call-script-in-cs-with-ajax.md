@@ -1,5 +1,6 @@
 ---
-title: call_script_in_cs_with_ajax
+title: Using Ajax to call scripts
+uid: call_script_in_cs_with_ajax
 description: Using Ajax to call scripts in Customer Service
 author: Simen Mostuen Iversen
 so.date: 03.31.2014
@@ -54,7 +55,7 @@ That's all we had to do in Customer Service, now we just need to create the page
 
 Go to where you've installed your Customer Service, go into the *Customer Service folder\templates\your language\customer*
 
-Now, if you haven't done this already, create a *specialForm* folder and inside create an empty HTML document.
+Now, if you haven't done this already, create a folder called *specialForm* and inside create an empty HTML document.
 
 ![specialForm][img4]
 
@@ -80,7 +81,7 @@ Now the more advanced part comes into play:
 
 [!code-html[HTML](includes/call-script-in-cs.html?range=20-25)]
 
-Are just two variables. It's important to check if the URL actually contains the correct `includeId` and `key`.
+Are just two variables. It's important to check if the URL contains the correct `includeId` and `key`.
 
 [!code-html[HTML](includes/call-script-in-cs.html?range=27-41)]
 
@@ -88,7 +89,7 @@ This function starts the event listener. It makes sure that when the script has 
 
 [!code-html[HTML](includes/call-script-in-cs.html?range=43-51)]
 
-This is the jQuery part, which executes when there's been a change in the groups drop-down. Here it will use the URL we set earlier, and insert the group id we got from the drop-down and send to our script. If you want more attributes to send, just insert them like this `M$name=Ola`:
+This is the jQuery part, which executes when there's been a change in the groups drop-down. Here it will use the URL we set earlier, and insert the group ID we got from the drop-down and send to our script. If you want more attributes to send, just insert them like this `M$name=Ola`:
 
 ```html
 xmlhttp.send("groupId=" + $('#groups').val() + "&name=Ola");

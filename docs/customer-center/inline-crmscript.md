@@ -14,7 +14,7 @@ so.topic: concept
 
 ![x][img1]
 
-The leading `%EJSCRIPT_START%` and matching `%EJSCRIPT_END%` tell the Parser that what is between is inline CRMScript. If you want to, you can also have plain HTML outside these tags. Immediately inside these tags, we are in Parser-mode, which means we will output everything directly, but also look for Parser-variables, such as `%customer.name%`. When we encounter a `<%`, we switch into ejscript mode, which we keep until we see an `%>`. This is completely analogous to PHP’s `""`. In this mode, we will execute the CRMScript, and you use `print()` to output HTML code. Note: you can have many CRMScript-blocks in the document, and they will be merged before parsing and execution. This means that you can start a loop in one block, then switch back to HTML-mode to print a lot of stuff, and then switch back to CRMScript-mode to finish the loop:
+The leading `%EJSCRIPT_START%` and matching `%EJSCRIPT_END%` tell the Parser that what is between is inline CRMScript. If you want to, you can also have plain HTML outside these tags. Immediately inside these tags, we are in Parser-mode, which means we will output everything directly, but also look for parser variables, such as `%customer.name%`. When we encounter a `<%`, we switch into **ejscript** mode, which we keep until we see an `%>`. This is completely analogous to PHP’s `""`. In this mode, we will execute the CRMScript, and you use `print()` to output HTML code. Note: you can have many CRMScript-blocks in the document, and they will be merged before parsing and execution. This means that you can start a loop in one block, then switch back to HTML-mode to print a lot of stuff, and then switch back to CRMScript-mode to finish the loop:
 
 ![x][img2]
 

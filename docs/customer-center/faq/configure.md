@@ -1,5 +1,6 @@
 ---
-title: config_faq
+title: Configure FAQ entries
+uid: config_faq
 description: Configure FAQ entries
 author: {github-id}
 keywords:

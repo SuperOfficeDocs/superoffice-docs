@@ -10,8 +10,9 @@ so.envir: onsite
 
 # Creating web forms using special templates in Service
 
-1. Create a template for the webform under the templates directory in Service.
-Example: *C:\SuperOffice\Customer Service\templates\special\mytemplate.html*
+1. Create a template for the web form under the templates directory in Service.
+
+    Example: *C:\SuperOffice\Customer Service\templates\special\mytemplate.html*
 
 2. Access the template from the www browser using the following address *.../scripts/customer.exe?action=spec...*
 
@@ -38,9 +39,9 @@ Last Name <input type="text" name="customer.lastname" size="45" value="">
 <br>
 Email <input type="text" name="customer.email" size="45" value="">
 <br>
-Message <input type "text" name="message" size="45" value="">
+Message <input type="text" name="message" size="45" value="">
 
-<input type="hidden" name="message.alterbody" value="This is a example webform created at %%whenposted%% by %%customer.firstname%% %%customer.lastname%% with email address %%customer.email%% Message from this person: %%message%%">
+<input type="hidden" name="message.alterbody" value="This is a example web form created at %%whenposted%% by %%customer.firstname%% %%customer.lastname%% with email address %%customer.email%% Message from this person: %%message%%">
 
 <input type="hidden" name="oktemplate" value="special/ok.html">
 
@@ -51,25 +52,25 @@ Message <input type "text" name="message" size="45" value="">
 
 **Description of %-tags:**
 
-`%datetimenow%` inserts current date into the html page
+`%datetimenow%` inserts the current date into the HTML page
 
-`%program%` inserts the program location e.g /scripts/customer
+`%program%` inserts the program location, for example, /scripts/customer
 
 **%-tags in message.alterbody:**
 
-`%%customer.firstname%%` inserts the form value customer.firstname into the message body
-`%%customer.email%%` inserts the form value customer.email into the message body
+`%%customer.firstname%%` inserts the form value `customer.firstname` into the message body
+`%%customer.email%%` inserts the form value `customer.email` into the message body
 
 `%%foobar%%` inserts the form value foobar into the message body
 
-**To create a request in Service,set the following values:**
+**To create a request in Service, set the following values:**
 
 ```html
 "ticket.title" title of request
-"ticket.category" which category to insert ticket to (number, not name)
-"message.body" body of message in request (not used if message.alterbody exists)
-"message.alterbody" if you wish to insert values from form in message use this also, remember to use an empty "message.body"
-"message.author" author of message
+"ticket.category" which category to insert the ticket to (number, not name)
+"message.body" body of the message in request (not used if message.alterbody exists)
+"message.alterbody" if you wish to insert values from form in message use this also, remember to use an empty message.body
+"message.author" author of the message
 ```
 
 **To connect a request to a user, set the following values:**
@@ -85,5 +86,5 @@ optional
 "customer.note"
 "customer.username"
 "customer.password"
-"customer.extra.xxx" where xxx is an extrafield on the customertable
+"customer.extra.xxx" where xxx is an extra-field on the customer table
 ```
