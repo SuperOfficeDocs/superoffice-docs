@@ -17,7 +17,7 @@ Which of these customization tools you use will depend on your requirements, the
 
 ## What's inside Expander Services?
 
-### CRMScript: Customize your own workflows and automations
+### CRMScript: Customize your workflows and automations
 
 [CRMScript][1] is a highly flexible **scripting language** embedded in SuperOffice CRM. It allows you to create different automations and workflows to fit the ways your business works.
 

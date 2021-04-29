@@ -1,12 +1,10 @@
 ---
-title: user_accounts_roles
+title: User accounts and role-based access control
+uid: user_accounts_roles
 description: SuperOffice CRM Online enforces role-based access control, and each user must have a unique ID to sign in.
 author: {frodeb@superoffice.com}
 keywords:
-so.topic:
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
 ---
 
 # User accounts and role-based access control

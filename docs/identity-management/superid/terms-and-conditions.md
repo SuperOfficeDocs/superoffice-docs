@@ -1,12 +1,13 @@
 ---
-title: superid_terms_and_conditions
+title: Terms and conditions
+uid: superid_terms_and_conditions
 description: SuperID terms and conditions
 author:
 keywords: SuperID
 so.date:
 so.topic: reference
-so.envir: cloud               # cloud or onsite
-so.client: online              # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # SuperID terms and conditions
@@ -26,7 +27,7 @@ All authentication features are moved from the local onsite tenant to SuperID.
 > [!NOTE]
 > The **set new password** feature of SuperID requires users to validate their authentication through 2-step email verification.
 
-All tenants in CRM Online are **not eligible to use** the [**password policy** preferences][3] in SuperOffice Admin, as this is not used when using either SuperID or your IdP service for authentication.
+All tenants in CRM Online are **not eligible to use** the [password policy preferences][3] in SuperOffice Admin, as this is not used when using either SuperID or your IdP service for authentication.
 
 ## User creation
 

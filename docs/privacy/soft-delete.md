@@ -16,7 +16,7 @@ Of course, insiders will know that the story is a little bit more nuanced. If yo
 
 GDPR provides us with the necessary motivation to do something about this. Two complementary functions are coming in 8.3: the **soft delete** and the **deep delete**. Both are important, and together they give us a much more consistent, user-friendly, and GDPR-compliant story.
 
-**Soft delete** means that instead of deleting a record physically from the database, we just mark it as deleted. We do that by setting a new field, **deletedDate**, to the moment of deletion (in UTC time). Rows that have NULL or our beginning-of-time value (which for reasons I won’t go into is 1.1.1760) are considered active; rows that have a different date are considered deleted.
+**Soft delete** means that instead of deleting a record physically from the database, we just mark it as deleted. We do that by setting a new field, **deletedDate**, to the moment of deletion (in UTC). Rows that have NULL or our beginning-of-time value (which for reasons I won’t go into is 1.1.1760) are considered active; rows that have a different date are considered deleted.
 
 The considering is done by very low-level code in NetServer and in the Windows codebase, which catches every query going into the database. Whenever application code searches for a record in the person table, this code will appendAND (deletedDate IS NULL OR deletedDate = 1.1.1760)to the query (for each table that has soft-delete). As a result, such rows disappear from the results and are never given back to the application – which in practice is the same as deleting them.
 
@@ -40,4 +40,4 @@ Database Mirroring and Travel will both replicate the soft delete as the **updat
 
 To summarize: for the person and contact tables, a **delete** through any API becomes an update to a date field; and any **select** automatically gets conditions that make such rows disappear. A background process will periodically clean up soft-deleted records that are too old.
 
-For users, it means that delete operations can be undone. For DBAs the deep delete means a more consistent database. And for lawyers, the threat of GDPR non-compliance becomes smaller. What could be better?
+For users, it means that delete operations can be undone. For DBAs, the deep delete means a more consistent database. And for lawyers, the threat of GDPR non-compliance becomes smaller. What could be better?

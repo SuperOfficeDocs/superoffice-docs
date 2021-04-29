@@ -1,12 +1,13 @@
 ---
-title: user_accounts_and_passwords
+title: User accounts and passwords
+uid: user_accounts_and_passwords
 description:  User accounts and passwords
 author: {github-id}
 so.date:
 keywords:
 so.topic: concept
-so.envir: cloud          # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # User accounts and passwords

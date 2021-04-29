@@ -1,12 +1,10 @@
 ---
-title: add_user_in_admin_client
+title: Add a user
+uid: add_user_in_admin_client
 description: Add a user in the Admin client
 author: Bergfrid Dias
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Add a user in the Admin client
@@ -29,9 +27,11 @@ Administrators can add users one by one in the Admin client.
     * Assign groups and a [role][2]].
 
     * Select the licenses (user plans) you want to assign.
+
         ![Add user ][img1]
 
 4. Click **Save**. Users will receive an invitation email in their inbox and need to click the activation link to enable the account.
+
     ![invite google][img2]
     ![invite o365][img3]
 

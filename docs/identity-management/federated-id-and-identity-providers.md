@@ -1,12 +1,13 @@
 ---
-title: federated_id_and_identity_providers
+title: Federated ID and identity providers
+uid: federated_id_and_identity_providers
 description: Federated ID and identity providers
 author:
 so.date:
 keywords: 
-so.topic: concept                   \
-so.envir: cloud                # cloud or onsite
-so.client: online                # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Federated ID and identity providers

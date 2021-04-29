@@ -1,12 +1,10 @@
 ---
-title: send_welcome_emails
+title: Send welcome emails
+uid: send_welcome_emails
 description: Send welcome emails to new users
 author: Bergfrid Dias
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Send welcome emails to new users
@@ -20,8 +18,11 @@ Enable automatic welcome emails from SuperOffice **if you don't plan to handle i
 ### ...to users added in the Admin client
 
 1. Sign in to the SuperOffice Admin client.
+
 2. Go to the **Preferences** page and select the **Global preferences** tab.
+
 3. Scroll down to the **System** settings group and set **Send login emails to new users** to *Yes*.
+
 4. Click **Save**.
 
     ![Send welcome email - admin client][img1]
@@ -29,6 +30,7 @@ Enable automatic welcome emails from SuperOffice **if you don't plan to handle i
 ### ...to SCIM users
 
 1. Sign in to the [SuperOffice Identity Manager][1].
+
 2. Turn on the **Send Welcome Email** setting in the upper right corner.
 
     ![Send welcome email - SCIM][img2]

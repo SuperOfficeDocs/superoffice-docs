@@ -1,12 +1,12 @@
 ---
-title: gdpr
+title: GDPR for app developers
+uid: gdpr_developers
 description: GDPR for app developers
 author: {github-id}
 keywords:
 so.topic: guide
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # GDPR for app developers

@@ -1,12 +1,12 @@
 ---
-title: multi_factor_authentication
+title: MFA
+uid: multi_factor_authentication
 description:  Multi-factor authentication
 author: {github-id}
 so.date:
 keywords: MFA,2FA
 so.topic: concept
-# so.envir: cloud               # cloud or onsite
-so.client: online                    # online, web, win, pocket, or mobile
+so.client: online
 ---
 
 # Multi-factor authentication

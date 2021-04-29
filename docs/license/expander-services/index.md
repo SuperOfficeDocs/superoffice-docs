@@ -21,7 +21,7 @@ Expander Services is a **subscription-based** license available to all customers
 
 When you subscribe to Expander Services, you get access to the following [tools][1]:
 
-* [CRMScript][2]: Customize your own workflows and automation
+* [CRMScript][2]: Customize your workflows and automation
 * Extra tables: Add new tables to the database and increase your flexibility
 * Custom screens: Create new screens in Service to support your specific processes
 * SuperOffice APIs: Create customizations by using developers' tools

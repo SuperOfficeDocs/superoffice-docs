@@ -1,12 +1,13 @@
 ---
-title: sign_in_services
+title: Sign-in services
+uid: sign_in_services
 description: Sign-in services
 author:
 keywords: SuperID
 so.date:
 so.topic: concept
-so.envir: cloud                 # cloud or onsite
-so.client: online                 # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Sign-in services
@@ -45,11 +46,11 @@ To use federated sign-in, [register your domain name][3] (so the sign-in servic
 
 **Sign-in sequence:**
 
-* The user opens **online.superoffice.com** in a browser and enters their email address or username.
-* The username is inspected and forwarded to **id.superoffice.com**.
-* The user is verified by **delegating authenticating to Microsoft or Google**.
-  * SuperID receives and **stores the sign-in session**.
-* The user is signed in to the correct site (pick site if the user is connected to multiple sites).
+1. The user opens `online.superoffice.com` in a browser and enters their email address or username.
+2. The username is inspected and forwarded to `id.superoffice.com`.
+3. The user is verified by **delegating authenticating to Microsoft or Google**.
+4. SuperID receives and **stores the sign-in session**.
+5. The user is signed in to the correct site (pick site if the user is connected to multiple sites).
 
 <!-- Referenced links -->
 [1]: overview.md

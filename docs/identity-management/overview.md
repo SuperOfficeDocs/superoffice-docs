@@ -29,7 +29,7 @@ The sign-in service determines **how** you get access to SuperOffice CRM Onlin
 
 The trusted 3rd party is the **identity provider** (IdP). When accessing a new service, you have probably been presented with **Sign in with Facebook** or **Sign in with Google** as an alternative to creating a new user account. For you as a user, this means that you can **use your existing account** to sign in to multiple services - fewer passwords to remember.
 
-**Password hash -** we never store actual passwords, not even the encrypted version of them, in the CRM database or SuperID. Instead, we store a hash - an encrypted value that we **can use to validate a password**. We calculate the hash based on an industry-standard algorithm and store the random-looking string of characters. The transformation from a human-readable entered password to hash is a **one-way operation**: we can't reconstruct the password, so resetting a password means to generate a new hash for a new password.
+**Password hash -** we never store actual passwords, not even the encrypted version of them, in the CRM database or SuperID. Instead, we store a hash - an encrypted value that we **can use to validate a password**. We calculate the hash based on an industry-standard algorithm and store the random-looking string of characters. The transformation from a human-readable entered password to a hash is a **one-way operation**: we can't reconstruct the password, so resetting a password means generating a new hash for a new password.
 
 **SCIM -** a common language used to describe what an identity is and how to handle it. With SuperOffice you can use SCIM to automate user provisioning from Azure AD.
 

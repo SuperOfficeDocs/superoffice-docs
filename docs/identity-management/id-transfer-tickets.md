@@ -1,12 +1,13 @@
 ---
-title: id_transfer_tickets
+title: Tickets and identity transfers
+uid: id_transfer_tickets
 description: Tickets and identity transfers
 author: {github-id}
 so.date:
 keywords: authentication, user
 so.topic: concept
-so.envir: onsite            # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.envir: onsite
+so.client: web
 ---
 
 # Tickets and identity transfers
@@ -65,7 +66,7 @@ Expired tickets cannot be renewed. They will be deleted in due course (typically
 
 ## Credential storage
 
-* The database table Credentials is already used for storing outgoing credentials - such as mail server logins for CRM.Web. In 7 we introduce incoming credentials (password, SID) and tickets as types. Custom plugins can add their own information.
+* The database table Credentials is already used for storing outgoing credentials - such as mail server logins for CRM.Web. In 7 we introduce incoming credentials (password, SID) and tickets as types. Custom plugins can add their information.
 
 * There are checksums to prevent tampering.
 

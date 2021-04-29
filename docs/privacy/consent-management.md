@@ -1,15 +1,15 @@
 ---
-title: gdpr_consent
+title: GDPR consent management
+uid: gdpr_consent
 description: GDRP consent management
 author: {github-id}
 keywords:
 so.topic: concept
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
-# GDRP consent management
+# GDPR consent management
 
 To meet the GDPR requirements for documenting consents, we provide the Consent Management feature in SuperOffice CRM.
 

@@ -1,11 +1,10 @@
 ---
-title: superid
+title: SuperID
+uid: superid
 description: SuperID
 author: {github-id}
 keywords: superid
 so.topic: concept
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # SuperID

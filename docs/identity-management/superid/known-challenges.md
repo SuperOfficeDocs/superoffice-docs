@@ -1,12 +1,13 @@
 ---
-title: known_challanges_with_superid
+title: Known challenges
+uid: known_challanges_with_superid
 description: Known challenges with SuperID
 author:
 so.date:
 keywords: 
 so.topic: reference
-so.envir: cloud               # cloud or onsite
-so.client: online                 # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Known challenges with SuperID
@@ -17,7 +18,7 @@ We currently see some challenges where users are unable to sign in after migrati
 
 **Problem:**
 
-A user might have multiple email addresses on their person record. Only 1 of these will become the new SuperID username. Sometimes migration picks the wrong email address.
+A user might have multiple email addresses on their `person` record. Only 1 of these will become the new SuperID username. Sometimes migration picks the wrong email address.
 
 **Solution:**
 

@@ -1,12 +1,12 @@
 ---
-title: user_plans
+title:  User plans
+uid: user_plans
 description: SuperOffice user plans and subscriptions
 author: {github-id}
 keywords:
 so.topic: concept
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # SuperOffice user plans and subscriptions
@@ -61,18 +61,18 @@ For those who need everything. Includes all 4 feature sets.
 * [Expander Services][5]
 * [Calendar synchronization][6]
 
-## How does user plans affect my app?
+## How do user plans affect my app?
 
 A customer can choose 1 of the following billing periods for their CRM solution:
 
 * once a month
-* every 3 months
+* very 3 months
 * every 6 months
 * annually
 
 The contract period is for 12 months. After the first 12 months, they are automatically renewed for another billing period, according to their choice.
 
-A customer can combine plans that best fit their needs. They can also add or change user plans later on.
+Customers can combine plans that best fit their needs. They can also add or change user plans later on.
 
 You should keep this flexibility in mind when integrating with specific features and deciding your pricing model.
 

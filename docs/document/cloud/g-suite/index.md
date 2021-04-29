@@ -1,5 +1,5 @@
 ---
-title:
+title: G Suite
 uid: g_suite_document_integration
 description: G Suite document integration
 author: {github-id}

@@ -1,11 +1,12 @@
 ---
-title: changes_7_licensing
+title: Licensing
+uid: changes_7_licensing
 description: Changes in SuperOffice 7 - Licensing
 author: {github-id}
 keywords: database
 so.topic: reference
-so.envir:             # cloud or onsite
-so.client:                    # online, web, win, pocket, or mobile
+so.envir:
+so.client:
 ---
 
 # Licensing
@@ -34,7 +35,7 @@ The private key is a closely guarded secret and without it, you cannot make a ke
 
 Individual `moduleLicense` rows are also signed and all rows are also hash-checked to make tampering harder.
 
-**Summary:** You touch them, they stop working. SoAdmin / NetServer can edit them, no-one else.
+**Summary:** You touch them, they stop working. SoAdmin and NetServer can edit them, no one else.
 Hackers can hack the DLLs, but not make a keycode generator that works with un-hacked code.
 
 <!-- Referenced links -->

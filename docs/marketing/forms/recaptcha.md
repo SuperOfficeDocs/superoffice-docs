@@ -1,12 +1,10 @@
 ---
-title: recaptcha
+title: Google reCaptcha in Forms
+uid: recaptcha
 description: Google reCaptcha in Forms
 author: {github-id}
 keywords:
 so.topic:
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Google reCaptcha in Forms
@@ -18,13 +16,13 @@ reCaptcha is found in Form - Fields - add element - Form elements:
 ![imagehkoheq.png][img1]
 
 > [!NOTE]
-> It is only possible to add one reCaptcha per form.
+> It is only possible to add 1 reCaptcha per form.
 
 When the element is added you can decide how you'll use the Site and Secret keys:
 
 ## SuperOffice Online
 
-In SuperOffice Online we, by default, provide you with our default keys. If you do not want to set up your own reCaptcha profile and do not need the statistics, you do not need to fill in anything to the Site key and Secret key. This way the reCaptcha element will work out-of-the-box using our predefined set of keys protecting your form from robots.
+In SuperOffice Online we, by default, provide you with our default keys. If you do not want to set up your reCaptcha profile and do not need the statistics, you do not need to fill in anything to the Site key and Secret key. This way the reCaptcha element will work out-of-the-box using our predefined set of keys protecting your form from robots.
 
 If you are interested in the reCaptcha statistics, you can make your reCaptcha profile (see below) and enter your Site key and Secret key. Statistics provide information like Requests passed & failed, Average Score, Sessions completed, Average Response Time (for more info see [https://www.google.com/recaptcha/admin][1].
 
@@ -32,7 +30,7 @@ If you are interested in the reCaptcha statistics, you can make your reCaptcha p
 
 ## SuperOffice Onsite
 
-For SuperOffice Onsite you need to make your own reCaptcha profile and get your Site and Secret key. If you do not want to enter the keys every time to the reCaptcha form element, you can specify them in the *web.config* file for the NetServer used by Service. Then you do not need to give the keys for each form you create.
+For SuperOffice Onsite you need to make your reCaptcha profile and get your Site and Secret key. If you do not want to enter the keys every time to the reCaptcha form element, you can specify them in the *web.config* file for the NetServer used by Service. Then you do not need to give the keys for each form you create.
 
 For reCaptcha to work in an Onsite installation, the NetServer needs to have access to the Google verification URL (see below). This is used to verify the reCaptcha attempt.
 

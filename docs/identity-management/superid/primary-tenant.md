@@ -1,12 +1,13 @@
 ---
-title: primary_tenant
+title: Primary tenant
+uid: primary_tenant
 description: Primary tenant
 author: {github-id}
 so.date:
 keywords: 
 so.topic: concept
-so.envir: cloud           # cloud or onsite
-so.client: online             # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Primary tenant
@@ -16,7 +17,11 @@ Let's look at what happens to user accounts in a multi-tenant scenario.
 In a multi-tenant scenario, 1 of the tenants is designated as the **primary tenant**. The primary tenant is commonly the **1st or oldest tenant**.
 
 > [!WARNING]
-> **Changing a person's username in the primary tenant will change the SuperID username!**<br>The change is applied to each tenant the next time the person signs in to that tenant.<br>It is not possible to change the username from any other tenant.
+> **Changing a person's username in the primary tenant will change the SuperID username!**
+>
+> The change is applied to each tenant the next time the person signs in to that tenant.
+>
+> It is not possible to change the username from any other tenant.
 
 ## Before SuperID
 
