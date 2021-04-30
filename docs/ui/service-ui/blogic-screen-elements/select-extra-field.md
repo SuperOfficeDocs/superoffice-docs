@@ -39,4 +39,4 @@ For example, a date, the ID in a drop-down menu, or a text value.
 The flags of the extra field (such as **cannot be empty**) are used to specify the behavior of the field.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/custom-database/extra-fields.md
+[1]: ../../../../crmscript/docs/custom-database/extra-fields.md

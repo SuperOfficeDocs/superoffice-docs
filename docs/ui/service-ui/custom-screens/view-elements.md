@@ -260,7 +260,7 @@ Void element_setFieldValue(String field, Map map) {
 [3]: ../blogic-screen-elements/br.md
 [4]: ../blogic-screen-elements/hr.md
 [5]: ../blogic-screen-elements/info-fields-2.md
-[6]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/parser-and-templates/parser.md
+[6]: ../../../../crmscript/docs/parser-and-templates/parser.md
 [7]: ../blogic-screen-elements/parser-code.md
 [8]: ../blogic-screen-elements/data-table.md
 [9]: ../blogic-screen-elements/static-grid.md

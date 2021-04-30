@@ -29,4 +29,4 @@ Sets the selected `DateTime`. The value must be formatted in a standard way, for
 Returns the date as a string formatted as **YYYY-MM-DD HH:MI:SS**.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/datatypes/datetime-type.md
+[1]: ../../../../crmscript/docs/datatypes/datetime-type.md

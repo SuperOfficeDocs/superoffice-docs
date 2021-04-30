@@ -80,6 +80,6 @@ With scripts, you can:
 [11]: url-parameters.md
 [12]: ../web-panels/index.md
 [13]: ../soprotocol/index.md
-[14]: https://github.com/superofficedocs/crmscript/blob/main/docs/api-reference/classes/eventdata/eventdata.md
-[15]: https://github.com/superofficedocs/crmscript/blob/main/docs/api-reference/classes/htmlelement/htmlelement.md
-[16]: https://github.com/superofficedocs/crmscript/blob/main/docs/api-reference/classes/mainmenu/mainmenu.md
+[14]: ../../../crmscript/docs/api-reference/classes/eventdata/eventdata.md
+[15]: ../../../crmscript/docs/api-reference/classes/htmlelement/htmlelement.md
+[16]: ../../../crmscript/docs/api-reference/classes/mainmenu/mainmenu.md

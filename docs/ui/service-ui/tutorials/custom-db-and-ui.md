@@ -244,8 +244,8 @@ url = ticket.exe?action=listTicket&ticketId=
 > Read more about [web panels][6] and [URL parameters][7].
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/crmscript/blob/main/docs/custom-database/extra-tables.md
-[2]: https://github.com/superofficedocs/crmscript/blob/maion/docs/classes/mainmenu/mainmenu.md
+[1]: ../../../../crmscript/docs/custom-database/extra-tables.md
+[2]: ../../../../crmscript/docs/api-reference/classes/mainmenu/mainmenu.md
 [3]: ../screen-choosers.md
 [4]: ../custom-screens/index.md
 [5]: ../custom-screens/add-screen-element.md

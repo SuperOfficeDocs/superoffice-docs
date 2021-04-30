@@ -49,6 +49,6 @@ The following example shows how a function right can be used.
 The function rights are applied to user roles. In the above code, `hide-sale` means that the users belonging to a role that has the functional right *Hidesale* enabled will not be able to see the **Sale** dialog in the GUI.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/sentry/index.md
+[1]: ../../../../data-access/docs/security/sentry/index.md
 
 <!-- Referenced images -->

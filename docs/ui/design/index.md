@@ -29,6 +29,6 @@ so.client:
 [4]: readiness-to-hand.md
 [5]: error-removal.md
 [6]: reading-list.md
-[7]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/best-practices.md
+[7]: ../../../superoffice-docs/docs/apps/best-practices.md
 
 <!-- Referenced images -->
