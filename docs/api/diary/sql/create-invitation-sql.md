@@ -128,7 +128,7 @@ UPDATE CRM."countervalue" SET "CounterValue_id" = 16595, "contact_id" = 13, "per
 [Appointment table][1]
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/appointment.md
+[1]: ../../../../database/docs/tables/appointment.md
 
 <!-- Referenced images -->
 [img1]: media/invitation-dlg.png

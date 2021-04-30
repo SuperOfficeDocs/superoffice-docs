@@ -78,7 +78,7 @@ If you change the start-time for a single appointment, the rule is not affected.
 * [recurrencerule table][1]
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/recurrencerule.md
+[1]: ../../../database/docs/tables/recurrencerule.md
 
 <!-- Referenced images -->
 [img1]: media/repeat-dialog.gif

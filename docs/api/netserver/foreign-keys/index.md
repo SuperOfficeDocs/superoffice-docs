@@ -93,9 +93,9 @@ using(SoSession.Authenticate("SAL1" , ""))
 * [foreignkey table][3]
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/foreignapp.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/foreigndevice.md
-[3]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/foreignkey.md
+[1]: ../../../../database/docs/tables/foreignapp.md
+[2]: ../../../../database/docs/tables/foreigndevice.md
+[3]: ../../../../database/docs/tables/foreignkey.md
 
 <!-- Referenced images -->
 [img1]: media/foreign-keys.gif

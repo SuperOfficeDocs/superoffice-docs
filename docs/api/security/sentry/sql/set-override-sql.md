@@ -47,4 +47,4 @@ registered_associate_id,updated,updated_associate_id,updatedCount) values (8,5,5
 > The number in red (`userpreference_id`) has to be updated to a free number in the next unallocated number in the `userpreference` table.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/userpreference.md
+[1]: ../../../../../database/docs/tables/userpreference.md

@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: error_codes       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Problems with application authorization, tokens, and certificate # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Error code
+uid: error_codes
+description: Problems with application authorization, tokens, and certificate
+author: {github-id}
 keywords:
-so.topic: reference            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # Error codes
@@ -25,7 +21,7 @@ Description of error codes related to authorizing an application and working wit
 |:----:|-------|-------------|
 | 0 | NoError | |
 | 1 | Revoked | Application's access to the tenant has been revoked |
-| 2 | InvalidRedirectUrl | The redirect URL your used is not registered in SuperOffice operation center on the app -  you need to whitelist the redirect URL on [your app registration][1].<br>This is usually shown in an error message **Authorization error: InvalidRedirectUrl (2)** |
+| 2 | InvalidRedirectUrl | The redirect URL you used is not registered in the SuperOffice operation center on the app -  you need to whitelist the redirect URL on [your app registration][1].<br>This is usually shown in an error message **Authorization error: InvalidRedirectUrl (2)** |
 | 3 | Expired | The application authorization on this tenant has expired |
 | 4 | Denied | The applications access to this tenant has been denied |
 | 5 | NeedsReapproval | Authorization needs to be re-approved |

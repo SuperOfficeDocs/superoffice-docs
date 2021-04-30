@@ -88,9 +88,9 @@ You don't *have* to encode every value. Internally, NetServer does accept un-enc
 SuperOffice does not support [webhooks][6] or travel transaction logging for extra tables, however, all other table changes do send out appropriate webhook notifications to subscribers, row by row. Each change is also added to [travel transaction log][3] table.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/system-user/index.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/index.md
-[3]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/index.md
+[1]: ../../../authentication/online/system-user/index.md
+[2]: ../../../../../database/docs/index.yml
+[3]: ../../../../../database/docs/tables/index.md
 [4]: protected-tables.md
 [5]: ../../globalization-and-localization/culture/culturedataformatter.md
 [6]: ../../webhooks/index.md

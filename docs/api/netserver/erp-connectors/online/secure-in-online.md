@@ -42,7 +42,7 @@ The way the infrastructure works is as follows:
 So what is an application identifier? An application identifier is a unique ID that represents an application in the SuperOffice Online App Store. There are standard apps that use ERP Connectors, and there are custom apps that use ERP Connectors as well. Both types of App Store applications have a unique application identifier associated with each one.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/mirroring/index.md
+[1]: ../../../../../superoffice-docs/docs/mirroring/index.yml
 [2]: https://en.wikipedia.org/wiki/Public_key_infrastructure
 
 <!-- Referenced images -->

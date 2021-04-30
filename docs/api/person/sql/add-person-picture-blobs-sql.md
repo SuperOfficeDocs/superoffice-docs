@@ -47,5 +47,5 @@ INSERT INTO CRM."traveltransactionlog" ("traveltransactionlog_id", "ttime", "pre
 ```
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/binaryobject.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/binaryobjectlink.md
+[1]: ../../../../database/docs/tables/binaryobject.md
+[2]: ../../../../database/docs/tables/binaryobjectlink.md

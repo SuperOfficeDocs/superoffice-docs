@@ -62,9 +62,9 @@ To summarize in diagram form:
 * [relationtarget table][4]
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/relationdefinition.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/relations.md
-[4]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/relationtarget.md
+[1]: ../../../../database/docs/tables/relationdefinition.md
+[2]: ../../../../database/docs/tables/relations.md
+[4]: ../../../../database/docs/tables/relationtarget.md
 
 <!-- Referenced images -->
 [img1]: media/screencap4.png

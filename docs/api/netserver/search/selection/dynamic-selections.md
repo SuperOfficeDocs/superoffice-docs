@@ -75,13 +75,13 @@ The search criteria tables are also used when defining extra fields in the **Fin
 * [selection table][7]
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/contact.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/sales/saint/counters.md
-[3]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/searchcriteria.md
-[4]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/searchcriteriagroup.md
-[5]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/searchcriterion.md
-[6]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/searchcriterionvalue.md
-[7]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/selection.md
+[1]: ../../../../../database/docs/tables/contact.md
+[2]: ../../../sales/saint/counters.md
+[3]: ../../../../../database/docs/tables/searchcriteria.md
+[4]: ../../../../../database/docs/tables/searchcriteriagroup.md
+[5]: ../../../../../database/docs/tables/searchcriterion.md
+[6]: ../../../../../database/docs/tables/searchcriterionvalue.md
+[7]: ../../../../../database/docs/tables/selection.md
 
 <!-- Referenced images -->
 [img1]: media/dynsel-card.png

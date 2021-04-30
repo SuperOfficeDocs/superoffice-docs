@@ -75,7 +75,7 @@ This will give the correctly filtered set of names from the list, ordered by hea
 List items that are hidden from the user will be removed from the result by the database using the `UserGroupLink` join.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/usergrouplink.md
+[1]: ../../../../../database/docs/tables/usergrouplink.md
 
 <!-- Referenced images -->
 [img1]: media/select-category-1.gif

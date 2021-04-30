@@ -92,7 +92,7 @@ SELECT * FROM associate WHERE type = 1
 Resources do not have logins or usergroup membership.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/OWNERCONTACTLINK.md
+[1]: ../../../database/docs/tables/ownercontactlink.md
 
 <!-- Referenced images -->
 [img1]: media/assoc-table.png

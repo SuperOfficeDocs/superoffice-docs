@@ -25,7 +25,7 @@ The OAuth 2.0 spec refers to the user as a **resource owner**. Any application 
 
 ### Client
 
-This is [your application][1] acting on behalf of the user or accessing the user's data. Needs to [obtain permission][2] before accessing the user's account.
+This is your application acting on behalf of the user or accessing the user's data. Needs to [obtain permission][2] before accessing the user's account.
 
 ### Authorization server
 
@@ -57,5 +57,4 @@ The user does not authenticate directly with an online application itself. OAuth
 * **OAuth doesn’t allow federated single sign-on**
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/overview.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/provisioning/get-consent.md
+[2]: ../../../../superoffice-docs/docs/apps/provisioning/get-consent.md

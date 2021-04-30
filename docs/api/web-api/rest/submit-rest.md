@@ -40,4 +40,4 @@ SO-AppToken: f2398a3a7wer3759d4b220e9a9c94321
 ```
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/system-user/get-system-user-ticket.md
+[1]: ../../../superoffice-docs/docs/authentication/system-user/get-system-user-ticket.md

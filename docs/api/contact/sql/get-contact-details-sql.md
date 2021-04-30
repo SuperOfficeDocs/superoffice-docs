@@ -91,8 +91,8 @@ AND a.atype_idx = 2
 ![x][img4]
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/phone.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/address.md
+[1]: ../../../../database/docs/tables/phone.md
+[2]: ../../../../database/docs/tables/address.md
 
 <!-- Referenced images -->
 [img1]: media/select-contact2.gif

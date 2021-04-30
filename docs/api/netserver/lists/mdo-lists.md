@@ -56,7 +56,7 @@ The result is a set of list names, filtered via the user's group membership. Ite
 > Because a user may be a member of more than one usergroup we have to join against the [UserGroupLink][1] table.<br>Items that are visible to more than one group will be returned twice. Use `SELECT DISTINCT` to filter the duplicates out.
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/usergrouplink.md
+[1]: ../../../../database/docs/tables/usergrouplink.md
 
 <!-- Referenced images -->
 [img1]: media/mdo-grouplinks.gif

@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: oidc_metadata_document       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: OpenID Connect metadata document # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Metadata document
+uid: oidc_metadata_document
+description: OpenID Connect metadata document
+author: {github-id}
 keywords: oidc,authentication
-so.topic: concept             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # OpenID Connect metadata document
@@ -38,4 +34,4 @@ The **environment** sub-domain is unique to each [application environment:][1
 [!include[ALT](./includes/oidc-metadata.md)]
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/app-envir.md
+[1]: ../../../../../superoffice-docs/docs/apps/getting-started/app-envir.md

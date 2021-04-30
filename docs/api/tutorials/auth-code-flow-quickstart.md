@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: auth_code_flow_quickstart       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: ASP.NET web application quickstart # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: ASP.NET web application quick-start
+uid: auth_code_flow_quickstart
+description: ASP.NET web application quickstart
+author: {github-id}
 keywords: oidc, razor page
-so.topic: guide              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: guide
+so.envir: cloud
+so.client: online
 ---
 
 # ASP.NET web application quick-start
@@ -21,7 +17,7 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
 
 * You must have a basic understanding of [OpenID Connect][4]. This example uses the [Authorization Code][5] flow.
 
-* You have a [tenant][1] with a user for testing sign-in.
+* You have a [tenant][3] with a user for testing sign-in.
 
 * You have [registered your application][2] with the following options:
   * OpenID Connect Authorization Code flow
@@ -33,7 +29,9 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
     * Optionally, disable SSL, then the default URL is `http://localhost:54238/callback`
 
 > [!NOTE]
-> If you have **already registered your application**, replace the default URLs in the project property page (seen below) with your registered redirect URLs.<br>Alternatively, send instructions to SuperOffice by [filling in the update form][6] to add these URLs to your application definition.
+> If you have **already registered your application**, replace the default URLs in the project property page (seen below) with your registered redirect URLs.
+>
+> Alternatively, send instructions to SuperOffice by [filling in the update form][6] to add these URLs to your application definition.
 
 * you have received a unique application [client ID and secret][3]
 
@@ -49,13 +47,13 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
 
     ![image8z7wl.png][2]
 
-3. In the *appSettings.json* file, enter the **Environment**, **ClientId** and **ClientSecret** settings. The environment setting pertains to SuperOffice [online environment][8] where the application will be operating. The options are: sod, stage, or online.
+3. In the *appSettings.json* file, enter the **Environment**, **ClientId** and **ClientSecret** settings. The environment setting pertains to SuperOffice [online environment][8] where the application will be operating. The options are sod, stage, or online.
 
     * The ClientId and ClientSecret refer to the [application identifiers][3] used by OpenID Connect.
 
         ![image4oqhj.png][img3]
 
-    * These settings populate the OpenID Connect configuration options during the application's initialization, and are defined in the *Startup.cs* file.
+    * These settings populate the OpenID Connect configuration options during the application's initialization and are defined in the *Startup.cs* file.
 
         ![imagetudj9.png][img4]
 
@@ -80,7 +78,7 @@ A quick-start guide for getting you up and running with an ASP.NET Core Razor Pa
 
 6. Click the **Login** or **Contacts** link. The browser navigates to the SuperOffice SuperID sign-in page.
 
-7. At this point, if you have multiple tenants, a list of available tenants appear. Choose **a tenant** to grant access to your application.
+7. At this point, if you have multiple tenants, a list of available tenants is shown. Choose **a tenant** to grant access to your application.
 
     ![imageanls.png][img9]
 
@@ -113,14 +111,13 @@ The *SoHttpRestClient.cs* file is an `HttpClient` helper class to make REST req
 If you have any issues with the sample, please post an issue on the [repo issues page][10].
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tenants/index.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/get-app-keys.md
-[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/terminology.md
+[2]: ../../../superoffice-docs/docs/apps/getting-started/get-app-keys.md
+[3]: ../../../superoffice-docs/docs/apps/terminology.md
 [4]: index.md
-[5]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/auth-code-flow.md
-[6]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/manage/update-app.md
+[5]: ../authentication/online/oidc/auth-code-flow.md
+[6]: ../../../superoffice-docs/docs/apps/manage/update-app.md
 [7]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi
-[8]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/app-envir.md
+[8]: ../../../superoffice-docs/docs/apps/getting-started/app-envir.md
 [10]: https://github.com/SuperOffice/devnet-oidc-razor-pages-webapi/issues
 
 <!-- Referenced images -->

@@ -128,5 +128,5 @@ Upsert can be asked to return a **row-by-row** status: for each row you get back
 <!-- reference links -->
 
 [1]: insert.md
-[2]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/contact.md
-[3]: https://github.com/SuperOfficeDocs/database/blob/main/docs/tables/uddocsmall.md
+[2]: ../../../../../database/docs/tables/contact.md
+[3]: ../../../../../database/docs/tables/uddocsmall.md

@@ -27,7 +27,7 @@ The console uses a **System.Threading.Timer** to mimic a long-running service t
 2. The query gets all customers who are marked as Active. For each active customer, the service exchanges that customer's system user token for a system user ticket.
 3. With the new ticket, the service established a tenant database context and then authenticates the system user using the system user ticket.
 
-Other than the console window, there is not GUI for this application. The console window will display only those log messages that indicate the process steps.
+Other than the console window, there is no GUI for this application. The console window will display only those log messages that indicate the process steps.
 
 <!-- Referenced links -->
 [1]: ../../authentication/online/system-user/system-user-token.md

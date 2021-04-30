@@ -54,9 +54,9 @@ This sequence represents a common scenario where a service exists that communica
 3. User is redirected to SuperID with client ID for authentication.
 4. User is successfully authenticated and redirected to the partner applications redirect URL.
 5. Partner application receives SuperID request and JWT token. Validated using certificates.
-6. Partner application processes/configures user and stored system user token in the database.
+6. Partner application processes or configures user and stored system user token in the database.
 7. Partner service polls database for new tenant user tokens.
-8. Partner service signs user token with its private key and sends to SuperID for exchange of system user ticket.
+8. Partner service signs user token with its private key and sends it to SuperID for exchange of system user ticket.
 9. Partner service validates system user token using certificates.
 10. Partner service calls tenant web services using a system user ticket.
 
@@ -64,7 +64,7 @@ This sequence represents a common scenario where a service exists that communica
 
 <!-- Referenced links -->
 [1]: overview.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/authentication/system-user/system-user-token.md
+[2]: ../../authentication/online/system-user/system-user-token.md
 
 <!-- Referenced images -->
 [img1]: media/image005.png

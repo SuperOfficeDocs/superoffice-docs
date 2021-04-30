@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: native_app_quickstart       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Native console application quick-start # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Native console application quick-start
+uid: native_app_quickstart
+description: Native console application quick-start
+author: {github-id}
 keywords:
-so.topic: guide       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: guide
+so.envir: cloud
+so.client: online
 ---
 
 # Native console application quick-start
@@ -19,7 +15,7 @@ A quick-start guide for getting you up and running with a native console applica
 
 ## Before you begin
 
-* you have a [tenant][1] with a user for testing sign-on
+* you have a [tenant][3] with a user for testing sign-on
 
 * you have [registered your application][2] with the following options:
   * OpenID Connect native app flow
@@ -66,7 +62,7 @@ A quick-start guide for getting you up and running with a native console applica
 
     ![x][img8]
 
-9. The console application continues and dumps the contents of the response, including the `id_token`, `claims` and `access_token`.
+9. The console application continues and dumps the contents of the response, including the `id_token`, `claims`, and `access_token`.
 
     ![image6agno.png][img9]
 
@@ -105,9 +101,8 @@ var associateid = result.User.Claims.Where(c => c.Type.Contains("associateid")).
 Build up the search URL using a combination of the `webApiUrl` and the web service version URI to invoke an OData query against an archive provider search.
 
 ```csharp
-// search the tenant for the companyId and personId of the logged in associate
+// search the tenant for the companyId and personId of the logged-in associate
 // build up the OData query to perform a search using the InternalUsers archive provider
-// https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-InternalUsersArchiveProvider.htm
 
 var uri = $"v1/Archive/InternalUsers?$entities=all&$select=contactId,personId&$filter=associateDbId eq {associateid}";
 
@@ -132,9 +127,8 @@ var queryResult = GetData(string.Concat(webApiUrl, uri), "Bearer", result.Access
 ```
 
 <!-- Referenced links -->
-[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/tenants/index.md
-[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/get-app-keys.md
-[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/terminology.md
+[2]: ../../../superoffice-docs/docs/apps/getting-started/get-app-keys.md
+[3]: ../../../superoffice-docs/docs/apps/terminology.md
 [4]: https://github.com/SuperOffice/SuperOffice.DevNet.OpenIDConnectNativeApp
 
 <!-- Referenced images -->
