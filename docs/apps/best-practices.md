@@ -88,5 +88,5 @@ Read about [effective visual design][6].
 [3]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/blob/master/Source/SuperOffice.DevNet.Online.Provisioning/WebPanelHelper.cs#L335
 [4]: https://community.superoffice.com/change-application
 [5]: ../../../data-access/docs/authentication/tokens/validate-security-tokens.md
-[6]: ../../../user-interface/docs/design/overview.md
+[6]: ../../../user-interface/docs/design/index.md
 [7]: https://community.superoffice.com/en/developer/forum/rooms/superoffice-product-api-group/crm-online-application/
