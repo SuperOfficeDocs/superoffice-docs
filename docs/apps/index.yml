@@ -101,7 +101,7 @@ conceptualContent:
         links:
         - text: Getting started
           itemType: overview
-          url: getting-started/building-apps.md
+          url: getting-started/index.md
         - text: Get access to SOD
           itemType: how-to-guide
           url: getting-started/get-access-to-sod.md
@@ -150,7 +150,7 @@ conceptualContent:
           url: publish/get-listed.md
         - text: Publish your standard application
           itemType: how-to-guide
-          url: publish/publish-standard-app.md
+          url: publish/index.md
         - text: Beta period
           itemType: concept
           url: publish/beta-period.md

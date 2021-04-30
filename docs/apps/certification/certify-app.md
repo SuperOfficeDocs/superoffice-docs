@@ -50,4 +50,4 @@ Your standard application is almost ready. Before we go live, we need to ensure 
 [1]: checklist.md
 [2]: https://community.superoffice.com/certify-application
 [3]: secure-app.md
-[4]: ../publish/publish-standard-app.md
+[4]: ../publish/index.md

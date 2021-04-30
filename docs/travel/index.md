@@ -1,5 +1,6 @@
 ---
-title: travel
+title: Travel
+uid: travel
 description: Travel
 author: {github-id}
 keywords:

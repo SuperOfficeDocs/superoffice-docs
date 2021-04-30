@@ -7,7 +7,7 @@ keywords:
 so.topic: getting-started
 so.envir: cloud
 so.client: online
----
+--- 
 
 # Building apps for SuperOffice
 

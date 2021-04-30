@@ -99,7 +99,7 @@ conceptualContent:
           url: ../apps/index.yml
         - text: Getting started
           itemType: get-started
-          url: ../apps/getting-started/building-apps.md
+          url: ../apps/getting-started/index.md
         - text: Get access to SOD
           itemType: how-to-guide
           url: ../apps/getting-started/get-access-to-sod.md

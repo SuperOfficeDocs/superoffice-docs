@@ -30,7 +30,7 @@ items:
   - name: Best practices
     href: best-practices.md
   - name: Getting started
-    href: getting-started/building-apps.md
+    href: getting-started/index.md
     expanded: true
     items:
     - name: App environment
@@ -125,7 +125,7 @@ items:
     - name: Get listed
       href: publish/get-listed.md
     - name: Publish standard app
-      href: publish/publish-standard-app.md
+      href: publish/index.md
     - name: Beta period
       href: publish/beta-period.md
     - name: How to get noticed

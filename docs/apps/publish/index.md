@@ -7,7 +7,7 @@ keywords:
 so.topic: howto
 so.envir: cloud
 so.client: online
----
+--- 
 
 # Publish standard app in CRM Online environment
 
