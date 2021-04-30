@@ -45,7 +45,7 @@ These services are either independent applications or augment an existing applic
 [2]: ../../automation/webhook/index.md
 [3]: ../../../../data-access/docs/api-reference/soap/index.md
 [4]: ../../../../data-access/docs/api-reference/restful/rest/index.md
-[5]: ../../../../crmscript/docs/overview/what-is-crmscript.md
+[5]: ../../../../crmscript/docs/overview/index.md
 [6]: ../../mirroring/overview.md
 [7]: ../../../../data-access/docs/netserver/erp-connectors/index.md
 [8]: ../../../../data-access/docs/netserver/quote-connectors/index.md

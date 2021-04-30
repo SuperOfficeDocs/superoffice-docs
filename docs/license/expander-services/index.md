@@ -62,7 +62,7 @@ Application developers get access to Expander Services [when registering][9]. Cu
 
 <!-- Referenced links -->
 [1]: tool-box.md
-[2]: ../../../../crmscript/docs/overview/what-is-crmscript.md
+[2]: ../../../../crmscript/docs/overview/index.md
 [3]: https://www.superoffice.com/pricing/
 [4]: ../../apps/terminology.md
 [5]: ../../apps/custom.md

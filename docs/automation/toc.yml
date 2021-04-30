@@ -6,7 +6,7 @@ items:
   - name: CRMScript
     href: ../../../crmscript/docs/00-custom/toc.yml
     expanded: true
-    topicHref: ../../../crmscript/docs/overview/what-is-crmscript.md
+    topicHref: ../../../crmscript/docs/overview/index.md
   - name: Event model
     href: event-model/index.md
     expanded: true
