@@ -1,9 +1,14 @@
 ### YamlMime:ManagedReference
-items:
-- name: API reference
-- name: CRMScript classes
-  href: classes/index.md
-- name: CRMScript global functions
-  href: global-functions/index.md
-- name: Trigger scripts
-  href: trigger-scripts/index.md
+- name: CRMScript API reference
+  href: ../index.yml
+  expanded: true
+  items:
+  - name: CRMScript classes
+    href: classes/
+    topicHref: classes/index.md
+  - name: CRMScript global functions
+    href: global-functions/
+    topicHref: global-functions/index.md
+  - name: Trigger scripts
+    href: trigger-scripts/
+    topicHref: trigger-scripts/index.md

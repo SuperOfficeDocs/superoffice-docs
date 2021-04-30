@@ -160,9 +160,8 @@ landingContent:
       - linkListType: reference
         links:
         - text: Classes
-          url: ../../crmscript/docs/api-reference/classes/attachment/Attachment.md
+          url: ../../crmscript/docs/api-reference/classes/index.md
         - text: Global functions
-          url: ../../crmscript/docs/api-reference/global-functions/bool.md
+          url: ../../crmscript/docs/api-reference/global-functions/index.md
         - text: Trigger scripts
-          url: ../../crmscript/docs/api-reference/trigger-scripts/ChatNewSession.md
-        # FYI we're linking to a specific file rather than index because these folders don't have an index.md
+          url: ../../crmscript/docs/api-reference/trigger-scripts/index.md

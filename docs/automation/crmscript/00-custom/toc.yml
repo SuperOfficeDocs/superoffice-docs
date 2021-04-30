@@ -239,11 +239,3 @@ items:
     href: ../chatbot/messages.md
   - name: Script reference
     href: ../chatbot/reference.md
-- name: API reference
-  items:
-  - name: CRMScript classes
-    href: ../api-reference/classes/index.md
-  - name: CRMScript global functions
-    href: ../api-reference/global-functions/index.md
-  - name: Trigger scripts
-    href: ../api-reference/trigger-scripts/index.md
