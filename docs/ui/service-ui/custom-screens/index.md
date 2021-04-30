@@ -1,10 +1,11 @@
 ---
-title: custom_screens
+title: Custom screens
+uid: custom_screens
 description: Custom screens
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Custom screens
@@ -49,7 +50,7 @@ To modify one of the built-in screens, you need to:
 3. Expand **System screens**.
 
 4. Point to the screen you want to copy and then click **Copy screen**.
-    * You new screen is added to the list. It's name is the name of the original screen with the word *copy* added to it.
+    * Your new screen is added to the list. Its name is the name of the original screen with the word *copy* added to it.
 
 ### Edit copy of a screen
 

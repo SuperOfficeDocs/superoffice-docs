@@ -4,9 +4,9 @@ description: Practical design hints
 author: Christian Mogensen
 so.date:
 keywords: design,ui
-so.topic: overview         # article, howto, reference, concept, guide
-so.envir:                     # cloud or onsite
-so.client:                    # online, web, win, pocket, or mobile
+so.topic: overview
+so.envir:
+so.client:
 ---
 
 # Practical design hints

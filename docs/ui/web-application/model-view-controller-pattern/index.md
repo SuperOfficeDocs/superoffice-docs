@@ -1,5 +1,6 @@
 ---
-title: model_view_controller_pattern
+title: Model-view-controller pattern
+uid: model_view_controller_pattern
 description: Web client and the model-view-controller pattern
 author: Tony Yates
 so.date: 02.16.2009
@@ -19,7 +20,7 @@ Many enterprise software applications base their application design on solid pat
 
 ([Image courtesy of Describbles][1])
 
-## SuperOffice Web Client
+## SuperOffice Web client
 
 I remember my first few months working with the SuperOffice Web Client Expander Edition (SWCEE). In many ways, it was as confusing to me as the cartoon shown in Figure One. It took some time to piece together all of the decoupled components, there were many "ah-ha" moments, but it all slowly began to make sense.
 

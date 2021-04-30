@@ -13,3 +13,6 @@ items:
 - name: Web panels
   href: ../web-panels/toc.yml
   expanded: true
+- name: Design
+  href: ../design/toc.yml
+  expanded: true

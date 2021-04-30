@@ -1,15 +1,16 @@
 ---
-title: blogic_elements
+title: Reference
+uid: blogic_elements
 description: Element reference
 author:
 so.date:
-keywords:
+keywords: bLogic
 so.topic: reference
 ---
 
 # Element reference
 
-Screen elements are HTML like elements that can be used in a bLogic screen.
+Screen elements are HTML-like elements that can be used in a bLogic screen.
 
 Screen elements are grouped by type in the UI:
 
@@ -24,7 +25,3 @@ Screen elements are grouped by type in the UI:
 * PinEdit (use CK editor)
 * Send To
 * Table (use Data table)
-
-## Reference
-
-1. autolist

@@ -1,25 +1,17 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: validation_controls_web       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+title: validation_controls_web
 description: Validation controls
- # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: Tony Yates
 so.date: 10.07.2011
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: tutorial
 ---
 
 # Validation controls
 
 The most common question about web client development today is "How do I prevent a save operation on a Sale or Appointment?" The question generally stems from some pretty sophisticated business rules that depend on user-defined fields and the dependency between them.
 
-In this article I'm going to present an easy way to enforce complex business rules, and demonstrate how you can interact with the user and tell them what needs to be done before a save will succeed.
+In this tutorial, I'm going to present an easy way to enforce complex business rules, and demonstrate how you can interact with the user and tell them what needs to be done before a save will succeed.
 
 ## Web client validation
 
@@ -31,11 +23,11 @@ Today there are three well-defined ways to enforce validation. They are:
 
 The JavaScript solution, which I'm not going to talk anymore about in this article, is discussed in further detail [here][1].
 
-NetServer web service event handing, is discussed in further detail in [this article][2], and will not be discussed here.
+NetServer web service event handing is discussed in further detail in [this article][2], and will not be discussed here.
 
-Validation components, which I am going to be discussing in this article, are well documented in the SDK and read more about them reviewing the [documentation covering the ValidationBase class][3].
+Validation components, which I am going to be discussing in this article, are well documented in the SDK, and read more about them reviewing the [documentation covering the ValidationBase class][3].
 
-Probably the most widely used validation component is the MandatoryValidator. The validator component in the code below is used by appending a element as a child in the element declaration.
+Probably the most widely used validation component is the MandatoryValidator. The validator component in the code below is used by appending an element as a child in the element declaration.
 
 `Datasource` is an important element because the data source defined here gets passed into the validator and is used to determine if the control is valid or not.
 
@@ -45,7 +37,7 @@ Probably the most widely used validation component is the MandatoryValidator. Th
 
 This mechanism is used through the web client application to validate every control that requires validation.
 
-The really cool thing about this is that we can use this same means to validate fields that interest us, and interact with the user if something isn't quite right.
+The really cool thing about this is that we can use this same means to validate fields that interest us and interact with the user if something isn't quite right.
 
 So how do we take advantage of this for our own benefit towards complex rule-based validation? We simply create a generic control for accepting a datasource, and creating a validator that will be responsible for validating the datasource of that control.
 
@@ -53,17 +45,17 @@ So how do we take advantage of this for our own benefit towards complex rule-bas
 
 In ASP.NET, control validation is a recursive process. This means that when a page checks its `IsValid` property, the page recursively iterates over, and calls `IsValid` on each and every child control on that page. Each child control on that page will then also recursively iterates over each child control it contains and checks the `IsValid` property for each child control as well.
 
-As each control validates, the validation results of the collective ultimately determines the validation state of the entire page.
+As each control validates, the validation results of the collective ultimately determine the validation state of the entire page.
 
 **Recursive control validation model:**
 
 ![x][img2]
 
-Under many common scenarios, such as wanting to run custom validation on user-defined fields,  it's impossible to append a element because user-defined fields, and their layouts, are dynamic and build at runtime. It's also true when trying to validate child control on a built-in user-control that doesn't have a validation check on a child control value.
+Under many common scenarios, such as wanting to run custom validation on user-defined fields,  it's impossible to append an element because user-defined fields, and their layouts, are dynamic and build at runtime. It's also true when trying to validate child control on a built-in user-control that doesn't have a validation check on a child control value.
 
 ## Enter the code
 
-I will write a simple generic control with the sole purpose of validating a data source, and notify the user if any business rules are violated. The control is not going to display any content to a page.
+I will write a simple generic control with the sole purpose of validating a data source and notify the user if any business rules are violated. The control is not going to display any content to a page.
 
 To get started, open Visual Studio and create a new Class library project and call whatever you like - I called mine ValidationControls. In the project reference the following assemblies:
 
@@ -75,11 +67,11 @@ To get started, open Visual Studio and create a new Class library project and c
 
 ### Class ValidationControl
 
-Rename the Class1 file `ValidationControl` and type in the code shown below. This control is going to be declare in a element in a configuration file. The base class, `ControlBase`, takes care of usual databinding chores and allows me to focus on what I want the control to do.
+Rename the Class1 file `ValidationControl` and type in the code shown below. This control is going to be declared in an element in a configuration file. The base class, `ControlBase`, takes care of usual databinding chores and allows me to focus on what I want the control to do.
 
 In this case, I want the control to output and run a block of JavaScript *if* validation for my control fails for any reason.
 
-I do two things to ensure this validation is only invoked once. First I subscript to the `Page.PreRender` method to output the JavaScript when the control is invalid. Next, I override the default `IsValid` property so as to set a flag telling me this control has already been validated - which happens when the controls `PreRender` method is called.
+I do two things to ensure this validation is only invoked once. First I subscript to the `Page.PreRender` method to output the JavaScript when the control is invalid. Next, I override the default `IsValid` property to set a flag telling me this control has already been validated - which happens when the controls `PreRender` method is called.
 
 The flag ensures the message box is only displayed when a user clicks the Save button and validation fails. If the data source is not valid, the save will not complete, the dialog or panel will stay in edit mode and the message box will display the reason why.
 
@@ -97,7 +89,7 @@ Now create a new class file and call it `ValidationRules`, then write the code b
 
 The purpose of the ValidationRules class is to carry out the validation logic, the business rules, for the page or dialog the ValidationControl is placed on.
 
-The data source defined in the controls SOML declaration is passed into the overridden \_validate method. The value argument is that data source. Although not show in this example, you will need to cast the object to the same datatype as the actual data source.
+The data source defined in the controls SOML declaration is passed into the overridden `_validate` method. The value argument is that data source. Although not shown in this example, you will need to cast the object to the same datatype as the actual data source.
 
 **Listing 3** is an example control element defined in the SoSalePage.config with the data source element pointing to the SaleEntity, which is used to populate all the controls on the Sale page.
 
@@ -137,7 +129,7 @@ Finally, compile the project and place the DLL inside the website *bin* director
 
 This example demonstrates how to validate a SaleEntity on the Sale panel for version 7 and the Sale dialog for 6.
 
-Now go ahead and place the control markup in the `SalePage` configuration somewhere. It's best to place it in a control group that you know is only loaded once for that page, for example the same control group as the header control. Do NOT place it inside any of the tab view control groups.
+Now go ahead and place the control markup in the `SalePage` configuration somewhere. It's best to place it in a control group that you know is only loaded once for that page, for example, the same control group as the header control. Do NOT place it inside any of the tab view control groups.
 
 For SuperOffice 6.3, the best place for this control is in the *SoSalePage.config* file, as the last control element in the following controls element path: ....
 
@@ -167,15 +159,15 @@ If I create my own custom validator to ensure that the last name is also filled 
 
 The custom validator, MandatoryFieldValidator, expects a config element that contains at least one datasource element. Each datasource element must contain one attribute (friendlyname) and one innerText entry to specify the datasource that is mandatory. When the `MandatoryFieldValidator` class is instantiated, the config element is passed into the `Initialize` method and the validator then loops over the datasource elements and populates a Dictionary with the datasources the control is expected to validate.
 
-A valuable takeaway from the code shown below, specifically in the `_validate` method, is the use of the `DataDispatcher`. This is how you get current field values for controls that are displayed in the browser, but not necessarily passed in with the main entity that may have been the datasource of a validator.
+A valuable takeaway from the code shown below, specifically in the `_validate` method, is the use of the `DataDispatcher`. This is how you get current field values for controls that are displayed in the browser but not necessarily passed in with the main entity that may have been the datasource of a validator.
 
-Unfortunately, while the control is instantiated and the `Initialize` method is invoked, the `_validate` method never gets called. The reason is because the `SoNameControl` overrides the Validate method internally and does not rely or invoke any other validators.
+Unfortunately, while the control is instantiated and the `Initialize` method is invoked, the `_validate` method never gets called. The reason is that the `SoNameControl` overrides the Validate method internally and does not rely or invoke any other validators.
 
 **The MandatoryFieldValidator class:**
 
 ![x][img11]
 
-To ensure a last name for a person is specified, we can make use of the validation control in the previous section and add the new MandatoryFieldValidator control to it.
+To ensure that a last name for a person is specified, we can make use of the validation control in the previous section and add the new MandatoryFieldValidator control to it.
 
 **Custom validation of a specific field or property:**
 
@@ -189,7 +181,7 @@ Using the `MandatoryFieldValidator` control, the error message will display the 
 
 ## Conclusion
 
-In this tutorial, I have shown you how to create a control and use it to validate any data source on any given page in the SuperOffice web client, and display a message to the user if necessary.
+In this tutorial, I have shown you how to create a control and use it to validate any data source on any given page in the SuperOffice web client and display a message to the user if necessary.
 
 This technique should be used when you want to add business logic to a page, and need to interact with the user when those business rules do not fulfill the business requirements.
 

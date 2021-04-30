@@ -23,7 +23,7 @@ landingContent:
         - text: Getting started
           url: getting-started/index.md
         - text: Model view controller pattern
-          url: model-view-controller-pattern/mvc-article.md
+          url: model-view-controller-pattern/index.md
         - text: Architecture
           url: getting-started/architecture.md
         - text: SOML
@@ -108,7 +108,7 @@ landingContent:
       - linkListType: tutorial
         links:
         - text: Ajax create followup
-          url: tutorials/ajax-create-followup/ajax-create-followup.md
+          url: tutorials/ajax-create-followup/index.md
         - text: ASP.Net appointment with login
           url: tutorials/aspnet-appointment-with-login/index.md
         - text: Custom page with standard controls.md

@@ -1,7 +1,8 @@
 ---
-title: pagebuilder       
+title: PageBuilder
+uid: pagebuilder
 description: PageBuilder
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic: concept

@@ -1,10 +1,11 @@
 ---
-title: getting_started       
+title: Getting started
+uid: getting_started_webapp
 description: Getting started with customizing the web application
 author: Tony Yates
 so.date: 06.24.2016
 keywords:
-so.topic: generic
+so.topic: concept
 so.client: web
 so.envir: onsite
 ---

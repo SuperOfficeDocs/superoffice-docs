@@ -1,5 +1,6 @@
 ---
-title: usercontrols
+title: UserControls
+uid: usercontrols
 description: UserControls
 author: Tony Yates
 so.date: 06.24.2016

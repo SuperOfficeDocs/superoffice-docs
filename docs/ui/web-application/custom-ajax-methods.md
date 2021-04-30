@@ -75,4 +75,4 @@ You can call any server-side class method using the `AjaxMethodDispatcher`. The 
 [Go to tutorial][1]
 
 <!-- Referenced links -->
-[1]: tutorials/ajax-create-followup/ajax-create-followup.md
+[1]: tutorials/ajax-create-followup/index.md

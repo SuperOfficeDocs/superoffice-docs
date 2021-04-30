@@ -1,9 +1,10 @@
 ---
-title: web_panels
+title: Web panels
+uid: web_panels
 description: Web panels
 author:
 so.date:
-keywords:
+keywords: ui
 so.topic: concept
 ---
 
@@ -23,8 +24,8 @@ The URL of the webpage can contain **template variables**, so that what the page
     * For example, `http://server/page.asp?id=<cuid>` becomes `http://server/page.asp?id=123`
 3. If the new URL is different from the current, a request is sent to the webserver.
 4. The webserver receives the URL.
-5. The webserver computes a new webpage using parameters in the URL.
-6. The webserver returns the webpage.
+5. The web server computes a new webpage using parameters in the URL.
+6. The web server returns the webpage.
 7. The web panel displays the page.
 
 ## Places you can add web panels

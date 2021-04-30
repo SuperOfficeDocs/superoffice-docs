@@ -119,13 +119,13 @@ items:
 - name: Technical info
   href: technical-info.md
 - name: Model view controller pattern
-  href: model-view-controller-pattern/mvc-article.md
+  href: model-view-controller-pattern/index.md
 - name: Custom Ajax methods
   href: custom-ajax-methods.md
 - name: Tutorials
   items:
   - name: Ajax create followup
-    href: tutorials/ajax-create-followup/ajax-create-followup.md
+    href: tutorials/ajax-create-followup/index.md
   - name: Aspnet appointment with login
     href: tutorials/aspnet-appointment-with-login/index.md
   - name: Cust page std controls.md

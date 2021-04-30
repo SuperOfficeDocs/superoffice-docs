@@ -1,5 +1,6 @@
 ---
-title: soprotocol       
+title: SoProtocol
+uid: soprotocol
 description: SoProtocol
 author: Tony Yates
 so.date: 06.24.2016
@@ -39,7 +40,7 @@ For one page there can be a lot of views, but the `soprotocol` tag of each view 
 
 `<http://localhost/SuperOfficeWeb/default.aspx?project.udef>`
 
-The above link opens the project page displaying the **More** (udef) tab. Here, *project* is the soprotocol value set in the panel and *udef* is the soprotocol value set in the view. It generates the following output:
+The above link opens the project page displaying the **More** (udef) tab. Here, *project* is the soprotocol value set in the panel, and *udef* is the soprotocol value set in the view. It generates the following output:
 
 ![01][img1]
 
@@ -64,7 +65,7 @@ In the same config file, if we use duplicate soprotocol values for views, it wil
 To get the SOProtocol link that reflects the current state of the application, use the view page info option available and copy the address.
 
 > [!NOTE]
-> When running SuperOffice in a FireFox browser, we can use the **Copy Shortcut** option on the task button to get the address.
+> When running SuperOffice in a Firefox browser, we can use the **Copy Shortcut** option on the task button to get the address.
 
 ![03][img3]
 

@@ -5,8 +5,6 @@ author: Christian Mogensen
 so.date: 12.09.2011
 keywords: design,ui
 so.topic: concept
-so.envir:                     # cloud or onsite
-so.client:                    # online, web, win, pocket, or mobile
 ---
 
 # Error removal
