@@ -1,6 +1,6 @@
 items:
 - name: Automation
-  topicHref: index.yml
+  href: index.yml
   expanded: true
   items:
   - name: CRMScript
