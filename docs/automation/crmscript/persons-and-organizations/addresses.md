@@ -151,7 +151,7 @@ There are 2 separate groups of fields, 1 for person and 1 for company (contact).
 <!-- Referenced links -->
 [1]: company.md
 [2]: customer.md
-[3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/globalization-and-localization/address/addresshelper.md
+[3]: ../../../data-access/docs/netserver/globalization-and-localization/address/addresshelper.md
 
 <!-- Referenced images -->
 [img1]: media/NSLocalizedAddress.png

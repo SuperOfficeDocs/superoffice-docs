@@ -4,11 +4,7 @@ title: Text
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: overview
 ---
 
-# Text
-
-## An in-depth guide to the CRMScript text features
-
-1. autolist
+# An in-depth guide to the CRMScript text features

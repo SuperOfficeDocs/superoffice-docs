@@ -2,7 +2,7 @@ items:
 - name: Introduction
   items:
   - name: What is CRMSCript?
-    href: ../overview/what-is-crmscript.md
+    href: ../overview/index.md
   - name: SuperOffice view of the world
     href: ../overview/domain.md
   - name: What can I do with CRMScript?
