@@ -19,7 +19,7 @@ landingContent:
       - linkListType: overview
         links:
         - text: What is CRMSCript?
-          url: ../../crmscript/docs/overview/what-is-crmscript.md
+          url: ../../crmscript/docs/overview/index.md
         - text: SuperOffice view of the world
           url: ../../crmscript/docs/overview/domain.md
         - text: What can I do with CRMScript?

@@ -19,7 +19,7 @@ There are 3 ways to customize the database schema:
 
 ## User-defined fields vs. extra fields
 
-SuperOffice CRM and Service were once to 2 separate applications, with different extensibility.
+SuperOffice CRM and Service were once 2 separate applications, with different extensibility.
 User-defined fields (udefs for short) belong in SuperOFfice CRM, while extra tables and extra fields belong in Service.
 
 | Customization      | Managed from   | Visible in  | Limit | Stored in |
@@ -42,7 +42,7 @@ User-defined fields (udefs for short) belong in SuperOFfice CRM, while extra tab
 
 ## API support
 
-You can't customize the database schema via the APIs. It's on the road-map, but for now, you must do this in the SuperOffice Service UI. After setting it up, you can manage the data in them via the APIs.
+You can't customize the database schema via the APIs. It's on the roadmap, but for now, you must do this in the SuperOffice Service UI. After setting it up, you can manage the data in them via the APIs.
 
 <!-- Referenced links -->
 [1]: udef.md
