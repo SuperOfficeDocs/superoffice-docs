@@ -17,12 +17,12 @@ The record definition looks like this:
 | C++ DataType | C++ Name | DB DataType | DB Name |
 |---|---|---|---|
 | Longid  | id        | int      | `traveltransactionlog_id` |
-| date\_t | time      | int      | `ttime` |
+| date_t | time      | int      | `ttime` |
 | longid  | mode      | int      | `prev_record_id` |
 | Ushort  | type      | smallint | `type` |
-| LongId  | assoc\_id | int      | `associate_id` |
+| LongId  | assoc_id | int      | `associate_id` |
 | Ushort  | tabno     | smallint | `tablenumber` |
-| LongId  | rec\_id   | int      | `record_id` |
+| LongId  | rec_id   | int      | `record_id` |
 
 ## Prefix on travel
 
@@ -74,7 +74,7 @@ The logic is:
     end
   end
 
-This functionality is only relevant if you are using [Area Management][2]. Area Management uses the owner associate ID as one of the criteria for determining which area a record belongs to.If the owner ID is changed it might trigger the transfer of that record from one area (satellite) to another, translating an update operation into a delete/insert pair on separate areas.
+This functionality is only relevant if you are using [Area Management][2]. Area Management uses the owner associate ID as one of the criteria for determining which area a record belongs to. If the owner ID is changed it might trigger the transfer of that record from one area (satellite) to another, translating an update operation into a delete/insert pair on separate areas.
 
 The extra `traveltransactionlog` record contains the previous owner ID (which is not available anywhere else) so that the area management system can determine what to do.
 
@@ -87,5 +87,5 @@ The extra `traveltransactionlog` record contains the previous owner ID (which is
 
 <!-- Referenced links -->
 [1]: ../tables/traveltransactionlog.md
-[2]: ../../../superoffice-docs/docs/travel/area-management/overview.md
+[2]: ../../../superoffice-docs/docs/travel/area-management/index.md
 [3]: ../getting-started/table-id-sequence.md
