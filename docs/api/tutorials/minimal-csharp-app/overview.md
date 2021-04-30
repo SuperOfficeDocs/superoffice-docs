@@ -1,7 +1,4 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
 title: minimal_csharp_app_overview       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
 description: Minimal C# application # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
 author: {github-id}             # Your GitHub alias.
