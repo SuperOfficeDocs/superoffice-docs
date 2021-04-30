@@ -37,12 +37,12 @@ These examples assume you understand what SuperOffice CRM Online is, and that 
 
 ## Downloads
 
-[PHP-Example App][4], available on github.
+[PHP-Example App][4], available on GitHub.
 
 [PartnerSystemUserService.zip][7], 14 Feb 2020, Size: 0.00mb
 
 <!-- Referenced links -->
-[1]: ../../../superoffice-docs/docs/apps/getting-started/building-apps.md
+[1]: ../../../superoffice-docs/docs/apps/getting-started/index.md
 [2]: https://github.com/SuperOffice/SuperOffice.DevNet.Online
 [3]: ../../../superoffice-docs/docs/mirroring/overview.md
 [4]: https://github.com/SuperOffice/devnet-php-oidc-soap
