@@ -1,8 +1,10 @@
 ---
-title: cdd       
-description: Continuous Database (CD)                   
-author: {github-id}             # Your GitHub alias.
-keywords:
+title: Continuous Database (CD)
+uid: cdd
+description: Continuous Database (CD)
+author: {github-id}
+keywords: database
+so.topic: concept
 ---
 
 # Data dictionary
@@ -21,20 +23,20 @@ Therefore, based on principles set forth by *evolutionary database design*, **Co
 
 This new process is a way both SuperOffice and third-parties can continuously update a database schema that reflects ever-changing business requirements without ever having to depend on a hardcoded fixed-system again.
 
-* Partners can also develop and deploy their own custom dictionary steps to add their fields and tables to the database.
+* Partners can also develop and deploy their custom dictionary steps to add their fields and tables to the database.
 * Partner changes will not be overwritten or lost when the database is upgraded.
 
 ## Fundamentals
 
-So how does SuperOffice isolate itself from unpredictable database changes? From version 8.1, SuperOffice creates an in-memory model of the database from the one stored in the DatabaseModel table. The model is a direct representation of what tables physically exists in the database. The database model also contains a list of the latest schema changes that have been applied to the database as a list of dictionary steps.
+So how does SuperOffice isolate itself from unpredictable database changes? From version 8.1, SuperOffice creates an in-memory model of the database from the one stored in the `DatabaseModel` table. The model is a direct representation of what tables physically exist in the database. The database model also contains a list of the latest schema changes that have been applied to the database as a list of dictionary steps.
 
-CD defines database variations in two dimensions. Individual features refer to step names. Each feature, or step name, will have individual steps for each version of the feature. Teams can work in-parallel on their features and produce steps in numbered series.
+CD defines database variations in two dimensions. Individual features refer to step names. Each feature, or step name, will have individual steps for each version of the feature. Teams can work in parallel on their features and produce steps in numbered series.
 
 ![x][img1]
 
 SuperOffice CRM demonstrates multiple features being developed in parallel. Even though this is not exposed for customizations by partners, the concept of features being developed in parallel is verified, the same way as if it were partners developing customizations in different versions in parallel. The current version of SuperOffice CRM Online consist of 9 different features with 35+ steps.
 
-For each table, field, index and relation definition in the database model, there is a reference to the dictionary step responsible for its creation, as well as the last step update. This is useful for tracing artifact changes and origin.
+For each table, field, index, and relation definition in the database model, there is a reference to the dictionary step responsible for its creation, as well as the last step update. This is useful for tracing artifact changes and origin.
 
 ## Getting started
 

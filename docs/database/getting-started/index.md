@@ -1,8 +1,10 @@
 ---
-title: db_getting_started       
+title: Getting started
+uid: db_getting_started
 description: Getting started with SuperOffice database
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
+so.topic: overview
 ---
 
 # Getting started
