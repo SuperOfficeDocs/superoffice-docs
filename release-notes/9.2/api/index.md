@@ -1,0 +1,17 @@
+---
+author: SuperOffice AS – Research and Development
+so.date: 04.28
+---
+
+# API changes
+
+* [WebHooks – Include contact_id and person_id in activity.deleted (9.2 R03)][3]
+* [WebHooks – Project member triggers/web hooks (9.2 R03)][3]
+* [Prefix changes on date/time (9.2 R03)][3]
+* [Mass Operations][6]
+* [Chatbot – CRMScript Chatbots (9.2 R08)][8]
+
+<!-- Referenced links-->
+[3]: 9.2-R03-update.md
+[6]: 9.2-R06-update.md
+[8]: 9.2-R08-update.md

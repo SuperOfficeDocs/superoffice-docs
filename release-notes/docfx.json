@@ -1,0 +1,49 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}",
+          "*.{md,yml}"
+        ],
+        "exclude": [
+          "**/includes/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "media/**",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.bmp",
+          "**/*.xlsx",
+          "**/*.zip",
+          "**/*.dll",
+          "**/*.docx",
+          "**/*.pdf",
+          "**/*.pptx",
+          "**/*.app"
+        ]
+      }
+    ],    
+    "dest": "_site",
+    "globalMetadata": {
+      
+    },
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}
