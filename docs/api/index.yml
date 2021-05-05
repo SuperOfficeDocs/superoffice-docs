@@ -209,7 +209,19 @@ additionalContent:
     - title: API and language reference # < 60 chars (optional)
       summary: Search the NetServer API and language reference documentation. # < 160 chars (optional)
       items:
-        # Card
+       # Card
+      - title: "CRMScript Classes reference"
+        summary: CRMScript class reference documentation for Service
+        url: ../../crmscript/docs/api-reference/classes/index.md
+      # Card
+      - title: "CRMScript Functions reference"
+        summary: CRMScript global functions reference documentation for Service
+        url: ../../crmscript/docs/api-reference/global-functions/index.md
+      # Card
+      - title: "CRMScript Triggers reference"
+        summary: CRMScript trigger reference documentation for Service
+        url: ../../crmscript/docs/api-reference/trigger-scripts/index.md
+      # Card
       - title: "NetServer Core API reference"
         summary: API reference documentation for NetServer Core
         url: api-reference/netserver/core/index.md
