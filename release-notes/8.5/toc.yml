@@ -1,0 +1,112 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Standard crm
+  href: standard-crm/index.md
+  items:
+  - name: 8.5 R01 update
+    href: standard-crm/8.5-R01-update.md
+  - name: 8.5 R02 update
+    href: standard-crm/8.5-R02-update.md
+  - name: 8.5 R05 update
+    href: standard-crm/8.5-R05-update.md
+  - name: 8.5 R06 update
+    href: standard-crm/8.5-R06-update.md
+  - name: 8.5 R07 update
+    href: standard-crm/8.5-R07-update.md
+  - name: 8.5 R10 update
+    href: standard-crm/8.5-R10-update.md
+  - name: 8.5 R11 update
+    href: standard-crm/8.5-R11-update.md
+  - name: 8.5 R14 update
+    href: standard-crm/8.5-R14-update.md
+  - name: 8.5 R16 update
+    href: standard-crm/8.5-R16-update.md
+- name: Windows client
+  href: win-client/index.md
+  items:
+  - name: 8.5 R01 update
+    href: win-client/8.5-R01-update.md
+  - name: 8.5 R11 update
+    href: win-client/8.5-R11-update.md
+  - name: 8.5 R16 update
+    href: win-client/8.5-R16-update.md
+- name: Settings and Maintenance
+  href: admin/index.md
+  items:
+  - name: 8.5 R02 update
+    href: admin/8.5-R02-update.md
+  - name: 8.5 R04 update
+    href: admin/8.5-R04-update.md
+  - name: 8.5 R10 update
+    href: admin/8.5-R10-update.md
+  - name: 8.5 R11 update
+    href: admin/8.5-R11-update.md
+  - name: 8.5 R12 update
+    href: admin/8.5-R12-update.md
+  - name: 8.5 R13 update
+    href: admin/8.5-R13-update.md
+- name: Marketing
+  href: marketing/index.md
+  items:
+  - name: 8.5 R02 update
+    href: marketing/8.5-R02-update.md
+  - name: 8.5 R04 update
+    href: marketing/8.5-R04-update.md
+  - name: 8.5 R05 update
+    href: marketing/8.5-R05-update.md
+  - name: 8.5 R08 update
+    href: marketing/8.5-R08-update.md
+  - name: 8.5 R16 update
+    href: marketing/8.5-R16-update.md
+- name: Service
+  href: service/index.md
+  items:
+  - name: 8.5 R01 update
+    href: service/8.5-R01-update.md
+  - name: 8.5 R02 update
+    href: service/8.5-R02-update.md
+  - name: 8.5 R03 update
+    href: service/8.5-R03-update.md
+  - name: 8.5 R04 update
+    href: service/8.5-R04-update.md
+  - name: 8.5 R05 update
+    href: service/8.5-R05-update.md
+  - name: 8.5 R06 update
+    href: service/8.5-R06-update.md
+  - name: 8.5 R07 update
+    href: service/8.5-R07-update.md
+  - name: 8.5 R08 update
+    href: service/8.5-R08-update.md
+  - name: 8.5 R10 update
+    href: service/8.5-R10-update.md
+  - name: 8.5 R11 update
+    href: service/8.5-R11-update.md
+  - name: 8.5 R16 update
+    href: service/8.5-R16-update.md
+- name: Pocket CRM
+  href: pocket-crm/index.md
+  items:
+  - name: 9.0.4 update
+    href: pocket-crm/9.0.4-update.md
+  - name: 9.0.5 update
+    href: pocket-crm/9.0.5-update.md
+  - name: 9.0.7 update
+    href: pocket-crm/9.0.7-update.md
+  - name: 9.0.9 update
+    href: pocket-crm/9.0.9-update.md
+  - name: 9.1.1 update
+    href: pocket-crm/9.1.1-update.md
+  - name: 9.1.4 update
+    href: pocket-crm/9.1.4-update.md
+  - name: 9.1.5 update
+    href: pocket-crm/9.1.5-update.md
+  - name: 9.1.6 update
+    href: pocket-crm/9.1.6-update.md
+- name: Office integrations
+  href: office-integrations/index.md
+  items:
+  - name: 8.5 R11 update
+    href: office-integrations/8.5-R11-update.md
+  - name: 8.5 R14 update
+    href: office-integrations/8.5-R14-update.md
