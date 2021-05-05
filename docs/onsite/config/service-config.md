@@ -47,6 +47,9 @@ Username for connecting to the SuperOffice database.
 
 Password for the username used when connecting to the SuperOffice database.
 
+###  dbDatabase
+Name of the ODBC source for database connection.
+
 ### dbType
 
 Type of database, for example, MSSQL or Oracle.

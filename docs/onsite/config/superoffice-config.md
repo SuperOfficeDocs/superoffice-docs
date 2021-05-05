@@ -14,7 +14,8 @@ Used for NetServer config info for the Win client and MailLink.
 
 ## You will find SuperOffice.config in
 
-a) your SuperOffice server installation folder *[server_inst.-path]\SuperOffice*
+a) your SuperOffice server installation folder *[server_inst]\SuperOffice*
+
 b) and if Windows client is installed: in your locale SuperOffice folder on each of the clients, default: *C:\Program Files\SuperOffice\SuperOffice Windows*. The file will be "copied" (settings are transferred over) from the server's SuperOffice.config / SuperOffice.ini while installing.
 
 ## Application Configuration Files

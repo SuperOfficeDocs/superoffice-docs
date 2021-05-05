@@ -30,13 +30,13 @@ The database user and password go the other way, from superoffice.config to both
 
 2. In the window the opens up - click **Open File Location**.
 
-    ![Open_File_Location][1]
+    ![Open_File_Location][img1]
 
     A file explorer window will open - and you will see the SuperOffice program files.
 
 3. Find the file *SuperOffice.ini*, and open this file.
 
-    ![SuperOffice_ini][2]
+    ![SuperOffice_ini][img2]
 
 ## SuperOffice Web
 
@@ -107,5 +107,5 @@ The following steps are recommended to increase security:
 [12]: ../../service/automated-tasks/index.md
 
 <!-- Referenced images -->
-[1]: media/open-file-location.jpg
-[2]: media/superoffice-ini.jpg
+[img1]: media/open-file-location.jpg
+[img2]: media/superoffice-ini.jpg
