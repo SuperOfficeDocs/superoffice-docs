@@ -79,6 +79,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+        - text: Prepare
+          url: ../../service/install/prepare.md
         - text: Install Service
           url: ../../service/install/index.md
 

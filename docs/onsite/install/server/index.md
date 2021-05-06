@@ -56,12 +56,13 @@ If you are upgrading from an earlier version of SuperOffice, make sure to select
 
 ***
 
-[Previous][11] | [Next][12] | [Back to guide][13]
+[Previous][11] | [Next (Web)][12] | [Next (Win)][14] | [Back to guide][13]
 
 <!-- Referenced links -->
 [1]: ../../requirements/crm-server.md
 [2]: silent-serversetup.md
 [3]: install-on-citrix.md
-[11]: ../../../service/install/index.md
+[11]: ../../../service/install/prepare.md
 [12]: ../web-client/index.md
 [13]: ../guide.md
+[14]: ../win-client/prepare-client.md

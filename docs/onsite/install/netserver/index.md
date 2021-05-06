@@ -64,5 +64,5 @@ NetServer is always installed, but for some scenarios, we recommend it is instal
 <!-- Referenced links -->
 [1]: ../../reporter/config.md
 [11]: ../web-client/index.md
-[12]: ../../../service/install/index.md#install-service
+[12]: ../../../service/install/index.md
 [13]: ../guide.md

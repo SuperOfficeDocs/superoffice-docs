@@ -70,7 +70,7 @@ The impersonation user must exist in Active Directory but does not need to be a 
 
 Steps to configure in the *web.config* file:
 
-1. Configure the installation as SSO
+1. Configure the installation as SSO.
 
 2. Make sure the [symmetricKey and symmetricSecret values are the same between SuperOffice Web and Customer Service config files][1]
 

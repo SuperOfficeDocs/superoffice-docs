@@ -7,6 +7,8 @@ items:
     items:
     - name: Set-up guide
       href: install/index.md
+    - name: Prepare
+      href: install/prepare.md
     - name: Install manually
       href: install/manual-steps.md
   - name: Upgrade

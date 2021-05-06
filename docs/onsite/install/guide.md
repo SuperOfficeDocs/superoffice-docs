@@ -26,9 +26,9 @@ so.envir: onsite
 <!-- Referenced links -->
 [1]: server/prepare.md
 [2]: win-client/prepare-client.md
-[3]: ../../service/install/index.md
+[3]: ../../service/install/prepare.md
 [4]: server/index.md
 [5]: win-client/index.md
 [6]: web-client/index.md
 [7]: netserver/index.md
-[8]: ../../service/install/index.md#install-service
+[8]: ../../service/install/index.md

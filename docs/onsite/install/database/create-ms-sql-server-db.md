@@ -26,11 +26,12 @@ Please refer to the manufacturers' web pages for more information.
 
 ***
 
-[Previous][11] | [Next][12] | [Back to guide][13]
+[Previous][11] | [Next (Web)][12] | [Next (Win)][14] | [Back to guide][13]
 
 <!-- Referenced links -->
 [1]: https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017
 [2]: sql-server-full-text-search.md
 [11]: ../iis/index.md
-[12]: ../../../service/install/index.md
+[12]: ../../../service/install/prepare.md
 [13]: ../guide.md
+[14]: ../win-client/prepare-client.md

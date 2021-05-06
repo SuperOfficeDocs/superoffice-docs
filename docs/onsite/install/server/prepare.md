@@ -27,12 +27,13 @@ so.client:
 
 ***
 
-[Next][12] | [Back to guide][13]
+[Next (Web)][12] | [Next (Win)][14] | [Back to guide][13]
 
 <!-- Referenced links -->
 [1]: ../iis/index.md
 [2]: ../database/index.md
-[12]: ../../../service/install/index.md
+[12]: ../../../service/install/prepare.md
 [13]: ../guide.md
+[14]: ../win-client/prepare-client.md
 
 <!-- Referenced images -->

@@ -62,7 +62,7 @@ Migration Tool uses ADO.NET to connect to the database. It also uses Win client 
 
 <!-- Referenced links -->
 [11]: ../database/index.md
-[12]: ../../../service/install/index.md
+[12]: ../../../service/install/prepare.md
 [13]: ../guide.md
 
 <!-- Referenced images -->
