@@ -38,10 +38,14 @@ items:
     href: ../dictionary/impfilenames-method.md
   - name: Structure
     href: ../dictionary/structure-method.md
-- name: Travel
-  href: ../../../superoffice-docs/docs/travel/toc.yml
-  topicHref: ../../../superoffice-docs/docs/travel/index.md
+- name: Transaction log
+  href: ../transaction-log/index.md
   expanded: true
+  items:
+  - name: Format
+    href: ../transaction-log/format.md
+  - name: Inspecting the log
+    href: ../transaction-log/query-log.md
 - name: Reference
   href: ../tables/toc.yml
   topicHref: ../tables/index.md
