@@ -56,11 +56,3 @@ items:
     href: satellite/set-up.md
   - name: Troubleshooting
     href: satellite/troubleshooting.md
-- name: Transaction log
-  href: ../../../database/docs/transaction-log/index.md
-  expanded: true
-  items:
-  - name: Format
-    href: ../../../database/docs/transaction-log/format.md
-  - name: Inspecting the log
-    href: ../../../database/docs/transaction-log/query-log.md

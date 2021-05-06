@@ -34,7 +34,7 @@ highlightedContent:
     # Card
     - title: "Release notes"
       itemType: whats-new
-      url: https://community.superoffice.com/en/product-releases/release-notes/whats-new-documents/
+      url: ../../release-notes/index.md
 
 # conceptualContent section (optional)
 conceptualContent:

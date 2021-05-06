@@ -29,7 +29,3 @@ items:
 # TBD project, quote, sale, saint
 - name: Service
   href: ../service/toc.yml
-- name: Travel
-  href: ../travel/toc.yml
-- name: WebTools
-  href: ../webtools/toc.yml
