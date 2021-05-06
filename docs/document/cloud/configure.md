@@ -1,5 +1,6 @@
 ---
-title: cloud_document_config
+title: Configure
+uid: cloud_document_config
 description: Configure - Cloud Office document handling
 author: {github-id}
 keywords:
@@ -25,13 +26,9 @@ In standard CRM Online, all templates are stored in CRM Online storage ("SO Arch
 Even with the integration set up - you may still use "SO Archive" for your templates and documents - but then without the benefits of Office365 or G Suite services.
 
 > [!NOTE]
-> There is one selection for where to store the template: **Store template in:** and one selection for where to store the file created based on this template: **Document stored in:**.<br/>For most users, the important choice is **Document stored in:** because this is the criteria for where the document is created, and how it is opened (Word Online / Google Drive).
-
-## How to add a document template in SuperOffice
-VIDEO MISISNG
-
-In this video you will learn how to add a document template in SuperOffice CRM.
-To create a SuperOffice template that will create and store documents in O365 SharePoint / Google Drive, choose 'O365' or 'Google' in "Document stored in:".
+> There is one selection for where to store the template: **Store template in:** and one selection for where to store the file created based on this template: **Document stored in:**.
+>
+> For most users, the important choice is **Document stored in:** because this is the criteria for where the document is created, and how it is opened (Word Online / Google Drive).
 
 ## Create a SuperOffice template for your cloud document integration
 
@@ -123,5 +120,5 @@ All documents written in SuperOffice will be stored in the provider's cloud if t
 [img4]: media/imagedmnmi.png
 [img5]: media/image6r9sc.png
 
-[3]: office-365\set-up.md
-[2]: g-suite\set-up.md
+[3]: office-365/set-up.md
+[2]: g-suite/set-up.md

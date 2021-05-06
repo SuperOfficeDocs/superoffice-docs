@@ -70,6 +70,9 @@ conceptualContent:
       - text: Edit document template
         itemType: video
         url: https://www.youtube.com/watch?v=FnhcmjP-TgE
+      - text: Add document template
+        itemType: video
+        url: https://www.youtube.com/watch?v=XcTN1wZPJGY
 
     # Card
     - title: Configuration options
