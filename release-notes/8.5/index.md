@@ -5,6 +5,8 @@ so.date: 12.18.2020
 
 # What’s new in SuperOffice 8.5
 
+## Summary of highlights
+
 SuperOffice 8.5 – is the current major upgrade of the SuperOffice CRM platform.
 
 Tags is a new main feature and is a powerful tool to search and group requests in SuperOffice Service.
@@ -20,13 +22,13 @@ One of the major new features released in SuperOffice 8.5 has been the ability t
 Several of the main screens in Pocket CRM has been redesigned to offer an easier way to take action, whether that is to call, send a text, an e-mail, update a sale or make an appointment. The information presented has also been made more flexible with options for choosing what works for an individual user.
 
 > [NOTE]
-> **Google is launching a new version of their Chrome web browser**. This new browser contains new and improved security measures that could affect the use of SuperOffice in combination with iframes, cookies for the chat widget, and web forms you use on your websites. Make sure to upgrade to SuperOffice CRM R11 to make sure this new browser is supported by SuperOffice.
+> **Google is launching a new version of their Chrome web browser**. This new browser contains new and improved security measures that could affect the use of SuperOffice in combination with Iframes, cookies for the chat widget, and web forms you use on your websites. Make sure to upgrade to SuperOffice CRM R11 to make sure this new browser is supported by SuperOffice.
 
-Details of the new features in 8.5 are as follows:
+## Details of the new features
 
 * 8.5 R01 Tag your requests
 * 8.5 R02 Pocket CRM, Sales, Marketing, Service, and Settings improvements
-* 8.5 R03 Autosave, request preferences & CRM script triggers
+* 8.5 R03 Auto-save, request preferences & CRM script triggers
 * 8.5 R04 Extra Service field available in CRM and Google reCAPTCHA for forms
 * 8.5 R05 Configuration of Service Customer Centre, new fields in forms
 * 8.5 R06 iOS 13 updates, Service available in Russian, and improved Bulk update
