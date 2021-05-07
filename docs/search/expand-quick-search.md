@@ -16,7 +16,7 @@ Occasionally the need to search for something else arises, whether it be some st
 
 You can even have the quick-search search some remote website if that's what you want.
 
-![x][img1]
+![x -screenshot][img1]
 
 Adding additional search criteria to the quick search is quite possible, and I'll try to explain how you can easily implement it.
 

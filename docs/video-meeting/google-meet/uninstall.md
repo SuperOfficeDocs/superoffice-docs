@@ -15,23 +15,23 @@ Uninstalling the Google Meet video meeting service:
 
 1. Sign in to your [Google account][1] and navigate to Security.
 
-    ![imageqb9db.png][img1]
+    ![imageqb9db.png -screenshot][img1]
 
 2. Click **Manage third-party access**.
 
-    ![image767ll.png][img2]
+    ![image767ll.png -screenshot][img2]
 
 3. Find the SuperOffice VideoMeetings app in the list, click to open it.
 
-    ![imagebwcao.png][img3]
+    ![imagebwcao.png -screenshot][img3]
 
 4. Click **Remove Access**.
 
-    ![imageoicbe.png][img4]
+    ![imageoicbe.png -screenshot][img4]
 
 5. Confirm remove access.
 
-    ![imagef35lq.png][img5]
+    ![imagef35lq.png -screenshot][img5]
 
 <!-- Referenced links -->
 [1]: https://myaccount.google.com/security

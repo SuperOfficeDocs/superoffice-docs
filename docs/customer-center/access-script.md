@@ -12,9 +12,9 @@ so.topic: howto
 
 When you create a script (under **System design > Scripts**), 2 fields allow you to access the script from the Customer Centre: **Include name** and **Key**. They will allow you to identify and authenticate access to the script. The idea is that by knowing these two values, you are allowed to execute the script in the Customer Centre with this URL:
 
-![x][img3]
+![x -screenshot][img3]
 
-![x][img4]
+![x -screenshot][img4]
 
 As you can see, there are some important parameters to customer.exe:
 

@@ -37,31 +37,31 @@ You may enable 2 different log files.
     * Value name = **LogFile**
     * Value data = the full path to a log file where it should write diagnostics.
 
-![x][img1]
+![x -screenshot][img1]
 
 ### Get extra logging from SignalR - ProtocolLogfile
 
 Do the same as for LogFile, but now set name to **ProtocolLogFile**.
 
-![x][img2]
+![x -screenshot][img2]
 
 ### Get a WebTools for Mac log file
 
 1. Click **Go** then **Library**.
 
-    ![imagewukx.png][img4]
+    ![imagewukx.png -screenshot][img4]
 
 2. Navigate to **Application Support** folder then **SuperOffice Web Tools**. Then create a new text file without an extension, call it *debug* and move it to the folder **SuperOffice Web Tools**.Restart WebTools.
 
-    ![imagew1mo6.png][img5]
+    ![imagew1mo6.png -screenshot][img5]
 
 3. Open a **Console**
 
-    ![imagelzq97.png][img6]
+    ![imagelzq97.png -screenshot][img6]
 
 4. In the console dialog search field fill in **SuperOffice** and click **Save**. The information should be saved in the debugging file. If it doesn’t, select all the entries and right-click and click copy then paste it in the debugging file.
 
-    ![imagedo4c.png][img7]
+    ![imagedo4c.png -screenshot][img7]
 
 ## Change the default timeout value - NetworkTimeoutPeriod
 

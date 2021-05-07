@@ -25,7 +25,7 @@ You can sign up to get email notifications for critical SCIM synchronization err
 
 3. Enter a valid email address in the **Email notifications** field and click **Save.**
 
-    ![SCIM email notifications][img1]
+    ![SCIM email notifications -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../sign-in-to-scim.md

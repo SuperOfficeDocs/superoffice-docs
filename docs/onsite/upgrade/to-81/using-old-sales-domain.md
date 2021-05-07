@@ -11,7 +11,7 @@ so.envir: onsite
 
 # Upgrade to 8.1 when using the old Sales domain
 
-![Move Service to Sales web client domain][img6]
+![Move Service to Sales web client domain -screenshot][img6]
 
 1. Run **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database to 8.1.
 
@@ -21,7 +21,7 @@ so.envir: onsite
 
 4. Run **SuperOffice.CustomerService.exe** to install Service software on the same server as Web. You must **untick** the "Create IIS website" or you will get an error since it already exists.
 
-    ![x][img7]
+    ![x -screenshot][img7]
 
 5. Under [Move to new server][2], there are some steps explained to update the database to see the new domain used.
     * Stop the current service and add "frozen" to the config file located in the old Service program folder.

@@ -17,7 +17,7 @@ If you have Customer Service and want to migrate your data to our cloud we will 
 
 Our cloud solution uses its own email service. This provides your company with your own new email addresses. Your new SuperOffice domain name will be based on your company name:
 
-![x][img3]
+![x -screenshot][img3]
 
 ## How does this affect your company?
 

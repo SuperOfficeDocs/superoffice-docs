@@ -13,7 +13,7 @@ so.client: web
 
 After the configuration of the application, the Reporter configuration should start automatically.
 
-![x][img1]
+![x -screenshot][img1]
 
 > [!TIP]
 > You can start the configuration manually by selecting Start > All Programs > SuperOffice > SuperOffice Web > Product Configuration (instance name), where "instance name" is the name of the instance you want to configure (also referred to as the application title).
@@ -27,7 +27,7 @@ The latter will be the case for workgroups or other situations where a domain co
 
 **In the Reporter dialog:**
 
-![x][img2]
+![x -screenshot][img2]
 
 1. Add an ODBC data source and type the name in the ODBC field.
 
@@ -41,7 +41,7 @@ The latter will be the case for workgroups or other situations where a domain co
 
 5. In the SuperOffice Product Configuration Complete dialog, you get a summary of the installation settings you have selected.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
     * You may click **Back** to go back and make any necessary changes.
     * When you are done, click **Finish**.

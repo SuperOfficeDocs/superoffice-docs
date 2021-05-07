@@ -15,7 +15,7 @@ SuperOffice CRM Online is a cloud platform serving thousands of customers. Like 
 
 SuperOffice provides 3 environments: development, stage, and production.
 
-![x][img1]
+![x -screenshot][img1]
 
 All [standard applications][1] must be prepared to operate in at least 2 environments before being [listed in the public App Store][2].
 
@@ -65,7 +65,7 @@ For each application and within each environment, you must define the following 
 * SoFederation Gateway (SuperId)
 * SuperOffice Certificate ID
 
-![x][img2]
+![x -screenshot][img2]
 
 ## Base URL
 

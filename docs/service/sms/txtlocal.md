@@ -21,7 +21,7 @@ In the **Plugin configuration** you add:
 txtlocal_username = txtlocal_password =
 ```
 
-![x][img1]
+![x -screenshot][img1]
 
 Note - do not include the brackets.
 

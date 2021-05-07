@@ -24,7 +24,7 @@ The Gateway program is **SOTRVGATE.EXE** and is installed in the SuperOffice Se
 To use the program:
 
 1. Double-click SOTRVGATE.EXE (you can also create a shortcut to the file) to log in to the program. This dialog box appears:
-    ![1][img1]
+    ![1 -screenshot][img1]
 
 2. Enter your user ID and password and click **OK**.
 

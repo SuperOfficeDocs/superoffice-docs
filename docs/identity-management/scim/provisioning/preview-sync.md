@@ -29,7 +29,7 @@ Open the **Preview** tab.
 
 You can filter, sort, and reorder the information shown in the table.
 
-![Preview screen][img1]
+![Preview screen -screenshot][img1]
 
 ### Info from Azure AD
 
@@ -51,7 +51,7 @@ You can filter, sort, and reorder the information shown in the table.
 
 * To sort the table, click on the column heading you want to sort it by. Clicking the same column multiple times will toggle between ascending and descending sort order.
 
-![sort preview][img2]
+![sort preview -screenshot][img2]
 
 ## Filter users in preview
 
@@ -59,7 +59,7 @@ If you have a lot of users, possibly extending multiple pages, or you want to dr
 
 A filter consists of a string and an operator and is located directly below the column header.
 
-![Preview filter][img3]
+![Preview filter -screenshot][img3]
 
 ### Available operators
 

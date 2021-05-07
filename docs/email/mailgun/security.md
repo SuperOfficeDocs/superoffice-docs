@@ -52,7 +52,7 @@ Postmark runs a [free DMARC aggregation service][3], which will aggregate all of
 
 Upon reception, the receiving mail server checks if there is any existing DMARC policy published in the domain used by the SPF and/or DKIM checks. If one or both the SPF and DKIM checks succeed while still being aligned with the policy set by DMARC, then the check is considered successful, otherwise, it's set as failed. If the check fails, based on the action published by the DMARC policy, different actions are taken:
 
-![x][img1]
+![x -screenshot][img1]
 
 **Read more about DMARC:**
 

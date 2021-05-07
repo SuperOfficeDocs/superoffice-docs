@@ -35,29 +35,29 @@ First, you will need to create an application on Facebook with the user you want
 
 4. Under category choose **Apps for Pages**
 
-    ![x][img6]
+    ![x -screenshot][img6]
 
 5. After you click **Create App ID** you will be redirected to the **Add Product,** but move up to **Settings**.
 
-    ![x][img7]
+    ![x -screenshot][img7]
 
     * Add Platform:
 
-    ![x][img8]
+    ![x -screenshot][img8]
 
     * Choose Website:
 
-    ![x][img9]
+    ![x -screenshot][img9]
 
     * Add a Site URL:
       * Customer Service installation **with** FastCgi: `Https://support.yourdomain.com/scripts/admin.fcgi?action=registerFacebook`
       * Customer Service installation **without** FastCgi: `https://support.yourdomain.com/scripts/admin.exe?action=registerFacebook`
 
-    ![x][img10]
+    ![x -screenshot][img10]
 
 6. When you are done you will need to make your app available, this is done under **App Review** and change it to *Yes*.
 
-    ![x][img11]
+    ![x -screenshot][img11]
 
 > [!NOTE]
 > **The site URLs must be available on the internet since Facebook will be pushing changes to this URL.** And the URLs must be running on HTTPS since we are using WebHooks and Facebook will only allow this via the secure protocol.
@@ -66,7 +66,7 @@ First, you will need to create an application on Facebook with the user you want
 
 This is found under **Dashboard**. If the App secret is hidden, click to show and write it down. You will need these when you authenticate later.
 
-![x][img12]
+![x -screenshot][img12]
 
 Note that the App ID in this screenshot is just an example.
 
@@ -74,7 +74,7 @@ Note that the App ID in this screenshot is just an example.
 
 You also need to provide a **Page ID**. The Page ID can be obtained by Going to the About screen for your page:
 
-![x][img1]
+![x -screenshot][img1]
 
 ## Add new Facebook inbox in Service
 
@@ -82,17 +82,17 @@ You need to configure Service to retrieve messages from Facebook using the appli
 
 1. Go to Settings->E-mail and click the **New Facebook application** icon.
 
-    ![x][img2]
+    ![x -screenshot][img2]
 
 2. Enter the **Application ID** and **Page ID** which you noted earlier.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 3. Fill in the rest of the information and click **OK**.
 
 4. You will now be redirected to Facebook, where it will ask for some permission for the application you created.
 
-    ![x][img4]
+    ![x -screenshot][img4]
 
 5. You will now be asked for the Client secret that is the same as the App Secret from your Facebook application. Click **OK**.
 
@@ -103,7 +103,7 @@ By default, the integration will start to import messages the time when you add 
 > [!TIP]
 > To manually post messages to Facebook, add Facebook as one of the recipients on a ticket.
 
-![x][img5]
+![x -screenshot][img5]
 
 ## Troubleshooting
 

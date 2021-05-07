@@ -19,9 +19,9 @@ The following information applies to all SMS plugins.
 
 You can do this in Settings/E-mail/New SMS mailbox. This is where settings like the category for incoming SMS messages are configured. This must be set up even though the plugin only supports outgoing SMS.
 
-![x][img1]
+![x -screenshot][img1]
 
-![x][img2]
+![x -screenshot][img2]
 
 ## From SuperOffice 8.0 SR3
 
@@ -31,7 +31,7 @@ We have made this easier to set up you no longer need to change the config file 
 
 In Settings/System/SMS tab, set SMS provider to **NetServer plugins** and select your plugin in NetServer module settings.
 
-![x][img3]
+![x -screenshot][img3]
 
 Configure a sender as well. The sender can be whatever the SMS provider allows, like your company name, a short number, or an international telephone number.
 

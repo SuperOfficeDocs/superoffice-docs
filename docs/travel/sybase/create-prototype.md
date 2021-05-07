@@ -14,9 +14,9 @@ so.client: win
 
 To set up an update prototype for Sybase, you need to set up an Area data source on the computer where the prototype is generated. This will in most cases be the same computer where the Travel Gateway is running.
 
-![1][img1]
+![1 -screenshot][img1]
 
-![2][img2]
+![2 -screenshot][img2]
 
 When this data source is set up, you may now generate the prototype.
 

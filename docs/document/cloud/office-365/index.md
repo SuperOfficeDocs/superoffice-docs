@@ -16,11 +16,11 @@ Simply sign in to SuperOffice using your Office365 login details and then open, 
 > [!NOTE]
 > Microsoft has changed their product name for Office 365 to Microsoft 365.
 
-![x][img1]
+![x -screenshot][img1]
 
-![x][img2]
+![x -screenshot][img2]
 
-![imageokq0f.png][img3]
+![imageokq0f.png -screenshot][img3]
 
 Read more details in our App Store: [Office365-integration][1]
 

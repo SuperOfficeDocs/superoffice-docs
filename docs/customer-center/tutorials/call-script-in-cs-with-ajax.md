@@ -18,17 +18,17 @@ In this example, I will create a list of companies that will vary depending on w
 
 The first thing we’ve got to do is to create an extra table with the name `Group` and an extra field `Name`.
 
-![Extra table][img1]
+![Extra table -screenshot][img1]
 
 Then create an extra table relation in the `company` table, to your newly created extra table.
 
-![Extra table relation][img2]
+![Extra table relation -screenshot][img2]
 
 Create some entries in your `Groups` table, mine were IT, Economy, and Sales.
 
 Remember to also connect the businesses you want to the groups you've made. If no one is connected to the extra table you created, then no companies will show in your new solution.
 
-![Table entries][img3]
+![Table entries -screenshot][img3]
 
  Now you’ve got to create your script in Customer Service, and write down the **Include name** and **Key** for later use.
 
@@ -57,7 +57,7 @@ Go to where you've installed your Customer Service, go into the *Customer Servic
 
 Now, if you haven't done this already, create a folder called *specialForm* and inside create an empty HTML document.
 
-![specialForm][img4]
+![specialForm -screenshot][img4]
 
 Then, into your file, add this:
 

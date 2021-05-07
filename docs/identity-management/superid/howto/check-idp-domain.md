@@ -28,7 +28,7 @@ The **G Suite Toolbox** can be used to identify problems with G Suite services. 
     ;ANSWER vg.no. 299 IN MX 5 ALT2.ASPMX.L.GOOGLE.COM.
     ```
 
-![DIG (DNS lookup)][img1]
+![DIG (DNS lookup) -screenshot][img1]
 
 ## Microsoft OpenID record lookup tool
 
@@ -46,11 +46,11 @@ This tool supports Microsoft domains only.
     "authorization_endpoint":"https://login.microsoftonline.com/8e414aee-d6e1-4d13-98c8-d3876cd2b05/oauth2/authorize"
     ```
 
-![orlok][img2]
+![orlok -screenshot][img2]
 
 **"error":"invalid_tenant"** indicates this will not work for a Microsoft account
 
-![orlerror][img3]
+![orlerror -screenshot][img3]
 
 <!-- Referenced links -->
 [1]: https://toolbox.googleapps.com/apps/dig/

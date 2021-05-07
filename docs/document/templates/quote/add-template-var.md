@@ -15,15 +15,15 @@ so.date: 27.06.2014
 
 1. Click **Insert > Quick Parts > Field**.
 
-    ![x][img1]
+    ![x -screenshot][img1]
 
 2. In **Field names**, find MergeField. In **Field properties**, type your field name:
 
-    ![x][img2]
+    ![x -screenshot][img2]
 
 3. Click **OK** and the variable will be inserted in your document:
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 The field used in step 2 is an example only. You can find all template variables in the [reference][1].
 

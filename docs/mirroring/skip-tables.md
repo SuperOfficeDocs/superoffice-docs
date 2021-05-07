@@ -61,7 +61,7 @@ using (PreferenceAgent prefAgent = new PreferenceAgent())
 
 If you require a UI for managing user preferences, consider creating a section that appears in SuperOffice Settings and Maintenance (Admin client).
 
-![imageq9fi.png][img1]
+![imageq9fi.png -screenshot][img1]
 
 ### Add a preference section
 
@@ -71,7 +71,7 @@ Adding a preference **section** makes it available as a selectable list item in 
 2. Set the section property to "Mirroring".
 3. Set the key as a period character (".").
 
-![imagei34k8.png][img2]
+![imagei34k8.png -screenshot][img2]
 
 **REST:**
 
@@ -121,7 +121,7 @@ Adding a preference **setting** makes it available as an optional setting under 
 2. Set the setting section name equal to the preference section name "Mirroring".
 3. Set the key to "SkipTable".
 
-![image03q27.png][img3]
+![image03q27.png -screenshot][img3]
 
 **REST:**
 
@@ -166,7 +166,7 @@ using (PreferenceAgent prefAgent = new PreferenceAgent())
 
 To add and edit the **SkipTable** preference, click **Add** in the **Active settings** panel.
 
-![imagebfi1k.png][img4]
+![imagebfi1k.png -screenshot][img4]
 
 Alternatively, use the code in the previous section to programmatically add the user preference.
 

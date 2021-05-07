@@ -20,7 +20,7 @@ The O365 username (User Principal Name, UPN) is managed by your Office 365 Azure
 > [!NOTE]
 > The Office365 username must be identical to login name in CRM Online:
 
-![imagezj6n.png][img1]
+![imagezj6n.png -screenshot][img1]
 
 You see the UPN username in the O365 admin -> users section: [https://admin.microsoft.com/AdminPortal/Home#/users][2]
 

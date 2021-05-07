@@ -8,9 +8,9 @@ so.topic: concept
 
 # Active Directory
 
-![AD screen][img1]
+![AD screen -screenshot][img1]
 
-![Auth types][img2]
+![Auth types -screenshot][img2]
 
 The user list is already filtered against current users. If you see someone in the list, it means that the AD user is not currently bound to a SuperOffice user.
 
@@ -92,7 +92,7 @@ At the most basic level, what we want to achieve is to carry a set of credential
 
 This involves the client OS, browser, IIS on the web server, our application (incl login page), IIS on the application server, and finally our application on the application server.
 
-![Identity transference][img3]
+![Identity transference -screenshot][img3]
 
 Transfer-of-identity is complicated and dependent on all components. For instance, IE will automatically send your domain credentials to the Intranet Zone only, while Firefox won’t at all.
 
@@ -111,7 +111,7 @@ These do not involve a browser and need to access the Web Services and get work 
 
 ## Single server configuration
 
-![Single server][img4]
+![Single server -screenshot][img4]
 
 IIS Authentication can be used together with Services, but not in a Remote setup: the identity cannot be transferred that many times.  This is an MS design parameter, not changeable.
 

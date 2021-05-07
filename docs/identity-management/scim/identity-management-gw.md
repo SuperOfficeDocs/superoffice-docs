@@ -17,7 +17,7 @@ The **Identity Manager Gateway** is a SCIM connector between Azure AD and SuperO
 
 ## Architecture
 
-![SCIM flow][img1]
+![SCIM flow -screenshot][img1]
 
 ## User interface
 
@@ -29,7 +29,7 @@ The Identity Manager is a clean, web-based user interface for SCIM identity mana
 * **SCIM users** pane - a list of users that _can_ be synchronized
 * **Preview** pane - details for the currently selected user
 
-![SCIM UI configurations tab][img2]
+![SCIM UI configurations tab -screenshot][img2]
 
 ### Preview tab
 
@@ -37,7 +37,7 @@ The Identity Manager is a clean, web-based user interface for SCIM identity mana
 * Number of users synchronized to SuperOffice
 * Name and username of each Azure AD user and the access control-related settings that will be applied to each of them given the current ruleset
 
-![SCIM UI preview tab][img3]
+![SCIM UI preview tab -screenshot][img3]
 
 ### Other settings
 

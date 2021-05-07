@@ -97,7 +97,7 @@ As you can see, the start "**{**" and the end "**}**" tags are placed far apart 
 * Same goes for Excel: The cells containing template variables should otherwise be empty.
 * For Word documents: Turn ON ‘Show/Hide hidden characters' too see if Word has put something inside the template variable:
 
-![x][img2]
+![x -screenshot][img2]
 
 * Is the template variable spelled correctly and is it actually supported? See the [list of all of our supported template variables][1].
 * Note that both Web and Win versions use the same engine for template substitution so the result should be the same no matter where you create the document.
@@ -117,15 +117,15 @@ If this happens, it is most probably another case of generated xml that messes u
 
 This is how a PowerPoint .**pptx** looks after unzipping (the **slide1.xml** is the actual slide 1):
 
-![x][img4]
+![x -screenshot][img4]
 
 Word .**docx** (**document.xml** is the actual document when shown to the user):
 
-![x][img5]
+![x -screenshot][img5]
 
 Excel .**xlsx** (**sheet1.xml** is the actual Sheet 1):
 
-![x][img6]
+![x -screenshot][img6]
 
 <!-- Referenced links -->
 [1]: variables/for-sales.md

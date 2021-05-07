@@ -25,7 +25,7 @@ insert into prefdesc (prefsection, prefkey, name, valuetype, maxlevel, sysmaxlev
 insert into prefdesc (prefsection, prefkey, name, valuetype, maxlevel, sysmaxlevel, accessflags, description) values ('My_own_preference', 'My client preference', 'US:"My client preference";NO:"Min klient preferanse"', 1, 5, 5, 15, 'US:"Preference visible in GUI, may be set by each user (number)";NO:"Synlig i klienten og kan settes pr bruker(nummer)"') 
 ```
 
-![x][img1]
+![x -screenshot][img1]
 
 **Accessflags** here is what makes it appear in the different clients.
 
@@ -33,11 +33,11 @@ So, if `accessflags = 15`, then it should appear in (wizardmode) 1 + (General ad
 
 These are the preferences in SOAdmin:
 
-![x][img2]
+![x -screenshot][img2]
 
 And in the client:
 
-![x][img3]
+![x -screenshot][img3]
 
 <!-- Referenced links -->
 [1]: ../../../../database/docs/tables/prefdesc.md

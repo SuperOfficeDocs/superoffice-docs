@@ -50,7 +50,7 @@ Special data marked as belonging to SuperOffice may be updated in later releases
 > If you set the primary key of a table to 0 then DBSetup, which automatically sets the primary key to the next available value. If you want to set it hard to a specific ID as we do in the `SORPublish` table in the *I_STDReportsNew.imp* file.
 If you need to reuse a privacy key later, in another table you may use variables like `#MyTableEntry_id1`, `#MyTableEntry_id2`, and so on. Then in a later table in the same imp file, you may pick up the value and assign it as a foreignKey.
 
-![x][img1]
+![x -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../install/database/dbsetup-exe.md

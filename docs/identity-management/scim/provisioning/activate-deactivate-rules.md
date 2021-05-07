@@ -35,7 +35,7 @@ You can turn SCIM rules on and off and also rearrange the order in which they ar
 
 4. Click **Save**.
 
-    ![user sync rules][img1]
+    ![user sync rules -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../sign-in-to-scim.md

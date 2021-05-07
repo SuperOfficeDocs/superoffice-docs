@@ -43,7 +43,7 @@ Does the user's browser session **have an active session** from the identity pro
 
 * If **no**, they will be redirected to the provider to sign in
 
-    ![SuperID login][img1]
+    ![SuperID login -screenshot][img1]
 
 ## You might also be interested in
 

@@ -23,7 +23,7 @@ Anything a consultant can do inside the SuperOffice Admin application, any appli
 * preferences
 * re-skinned to customer's brand
 
-![imagejcbmo.png][img1]
+![imagejcbmo.png -screenshot][img1]
 
 ## High-level integration points
 

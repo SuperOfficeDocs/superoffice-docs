@@ -83,7 +83,7 @@ You must provide a **description** of your application with the following inform
 
 **Location of the app icon and screenshots in an app entry:**
 
-![Wireframe showing the location of app icon and screenshot images in an app entry][img1]
+![Wireframe showing the location of app icon and screenshot images in an app entry -screenshot][img1]
 
 We encourage you to include some meaningful screenshots from the application interface. These will show in the slider on the application detail page.
 
@@ -97,22 +97,22 @@ The SuperOffice needs to be either green or white, depending upon the background
 
 Note that the logo should NEVER look blind. If you are using the logo on a colored background, you must use the negative logo.
 
-![imageyiti.png][img22]
+![imageyiti.png -screenshot][img22]
 
 This is our primary logo.
 It should always be your first choice. If, for some reason, this can’t be used – choose another option described below and available from download.
 
-![imagezwdb.png][img3]
+![imagezwdb.png -screenshot][img3]
 
 Always place our logo on a clear, white space to ensure visibility and influence. This minimum clear space is equal to the height of an uppercase 'O'.
 
-![image6tlbw.png][img4]
+![image6tlbw.png -screenshot][img4]
 
 The logo can be placed on green and very dark backgrounds.
 
 Please note this logo is a **negative version**, which means the background color shows through the eyes.
 
-![imagezt0an.png][img5]
+![imagezt0an.png -screenshot][img5]
 
 The SuperOffice green color is:
 

@@ -18,11 +18,11 @@ The jist of it is that whenever we commit code to GitHub, we can optionally incl
 
 So a commit like this:
 
-![x][img1]
+![x -screenshot][img1]
 
 Generates this on the correct ticket:
 
-![x][img2]
+![x -screenshot][img2]
 
 The first step is to create a web service in SuperOffice with a script similar to this:
 
@@ -37,7 +37,7 @@ The next step is to tell GitHub to post JSON to SuperOffice whenever a commit ha
 
 We've set the setting on the GitHub organization level by going to Settings and the WebHooks settings. Create a webhook there that points to the script.
 
-![x][img3]
+![x -screenshot][img3]
 
 The URL looks like this:
 

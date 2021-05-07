@@ -15,7 +15,7 @@ so.client: web
 
 Reporter will use the Impersonate User from Archive domain, archive user, and archive password (web.config), and this user must have access to log on to the server where the web client is running. This user or the group he belongs to must be members of the list **Log on locally** in security policy. If this right is missing we will receive error 87 from Windows.
 
-![x][img4]
+![x -screenshot][img4]
 
 ## All users receive an "Error message: Unable to get file stream." when they try to preview a report
 

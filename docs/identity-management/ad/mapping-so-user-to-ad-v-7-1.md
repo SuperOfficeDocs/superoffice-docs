@@ -17,7 +17,7 @@ This advanced configuration has to be tweaked manually in the SuperOffice.config
 
 The SuperOffice.config is a SuperOffice NetServer .NET Application Configuration file. Always keep a copy of your *SuperOffice.config* file before editing and using a tool like Notepad++ that gives syntax highlighting for XML files is always recommended when editing these files. The editor must be run as administrator when User Account Control (UAC) is enabled.
 
-![image][img1]
+![image -screenshot][img1]
 
 ## Set up ActiveDirectoryCredentialPlugin
 
@@ -32,11 +32,11 @@ The SoAdmin.exe administration client uses user-administration implemented withi
     </sectionGroup>
     ```
 
-    ![image][img2]
+    ![image -screenshot][img2]
 
 2. Add the actual configuration.
 
-    ![image][img3]
+    ![image -screenshot][img3]
 
 | Key | Description |
 |-----|-------------|
@@ -47,11 +47,11 @@ The SoAdmin.exe administration client uses user-administration implemented withi
 
 SuperOffice NetServer uses the Microsoft .NET library **System.DirectoryServices.AccountManagement** when searching Active Directory. The minimum required permissions to Active Directory is Read and List content. The best way to verify that the right permissions are available is to use the ADSI Edit Snap-in to MMC.
 
-![image][img4]
+![image -screenshot][img4]
 
 You can select the root note of Active Directory, Properties, Advanced, and Effective Permissions, select the user that is accessing Active Directory and verify that the user has List content and Read permissions.
 
-![image][img5]
+![image -screenshot][img5]
 
 ## Turn on logging warnings to a file (7.1)
 
@@ -61,15 +61,15 @@ Logging warnings to a file must be turned on to see the warnings produced by Net
 
 1. Make sure that `LogWarning` is turned on:
 
-    ![image][img6]
+    ![image -screenshot][img6]
 
 2. Turn on logging to file in a folder where the logged-in user has write permissions.
 
-    ![image][img7]
+    ![image -screenshot][img7]
 
 If something goes wrong like if an invalid user is specified, a log file with today’s date will be produced.
 
-![image][img8]
+![image -screenshot][img8]
 
 The error message returned from the system will be in this file:
 
@@ -84,7 +84,7 @@ Customers have experienced situations with complex domain infrastructures where 
 
 Limiting users to a particular organization unit can be an example of this.
 
-![image][img9]
+![image -screenshot][img9]
 
 By specifying the full name of this Organization Unit in the SuperOffice.config file, searches will be restricted to this node.
 

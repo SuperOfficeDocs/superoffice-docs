@@ -15,7 +15,7 @@ The best way to visualize how to define areas within your company is to "define 
 
 **Available associates** are all users that have been defined as employees in the **Users** panel in the Admin client. They are listed in the **Area Definition** dialog and can be assigned log-in access rights.
 
-![Area definition dialog][img1]
+![Area definition dialog -screenshot][img1]
 
 > [!NOTE]
 > There are 2 lists called **Available associates**. The top one is used when assigning users to an area. The bottom one is used when setting access rights.

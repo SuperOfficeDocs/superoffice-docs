@@ -29,17 +29,17 @@ You can follow the [general instructions from Microsoft for creating DNS records
 
 1. Go to **Host Records** in the DNS console. The existing SPF record for your Google account is there by default.
 
-    ![x][img1]
+    ![x -screenshot][img1]
 
 2. We want to add `_spf.online.superoffice.com` which contains correct records for both Mailgun clusters (EU and US). Since there only should be one SPF record - we need to combine the existing one with the new. The actual TXT record to add is `"v=spf1 include:_spf.online.superoffice.com ~all"`.
 
     1. Click **Edit.** Update the existing record (text field) with the new combined record.
 
-         ![x][img2]
+         ![x -screenshot][img2]
 
     2. Click **Save** to update the information.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 [!include[ALT](../includes/note-dns-propagation-time.md)]
 
@@ -49,11 +49,11 @@ There are several tools online to use - to test your SPF record. Here we use [M
 
 1. Open the SPF tool:
 
-    ![x][img4]
+    ![x -screenshot][img4]
 
 2. Add your domain (the one that you are going to send our mailings as) and click **SPF Record Lookup**.
 
-    ![x][img5]
+    ![x -screenshot][img5]
 
 3. The result should show that `_spf.online.superoffice.com` is included and pass the test for *allow*.
 

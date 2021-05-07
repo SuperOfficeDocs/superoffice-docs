@@ -11,7 +11,7 @@ so.envir: onsite
 
 # Upgrade to 8.1 when using the old Service domain
 
-![Move Sales web client to Service domain][img4]
+![Move Sales web client to Service domain -screenshot][img4]
 
 1. Run the **SuperOffice SM.win** **SetupExe.exe** installer to upgrade the server and the database to 8.1.
 
@@ -21,7 +21,7 @@ so.envir: onsite
 
 4. Run the **SuperOffice Product Configuration** to connect to the database upgraded in step 1. If you choose to not run separate NetServer web services, make sure you tick the option to expose NetServer web services.
 
-    ![x][img5]
+    ![x -screenshot][img5]
 
 5. Start Web client to verify it runs correctly. Go to Settings and Maintenance and set the new preference **System - Base URL for Web client**.
 

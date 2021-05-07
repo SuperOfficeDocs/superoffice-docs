@@ -16,17 +16,17 @@ This is step 5 in [connecting your provider][1]. It is provider-specific.
 > [!NOTE]
 > You need an MS365 admin account to grant access during setup. If you try to authenticate without an MS365 Admin account, a message will tell you to log in with an admin account:
 
-![imagewf14i.png][img1]
+![imagewf14i.png -screenshot][img1]
 
 1. You will be forwarded to the providers' authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
 
 2. Please accept the integration on behalf of your organization, by setting the checkbox:
 
-    ![imagelm6ei.png][img2]
+    ![imagelm6ei.png -screenshot][img2]
 
 3. After authentication and confirmation are completed, you'll be redirected back to SuperOffice Video Meetings settings.
 
-    ![image0z9pi.png][img3]
+    ![image0z9pi.png -screenshot][img3]
 
     Teams Meetings provider does not have any additional configuration settings.
 

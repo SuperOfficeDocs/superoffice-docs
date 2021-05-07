@@ -28,12 +28,12 @@ Administrators can add users one by one in the Admin client.
 
     * Select the licenses (user plans) you want to assign.
 
-        ![Add user ][img1]
+        ![Add user  -screenshot][img1]
 
 4. Click **Save**. Users will receive an invitation email in their inbox and need to click the activation link to enable the account.
 
-    ![invite google][img2]
-    ![invite o365][img3]
+    ![invite google -screenshot][img2]
+    ![invite o365 -screenshot][img3]
 
 <!-- Referenced links -->
 [1]: ../superid/sign-in-services.md

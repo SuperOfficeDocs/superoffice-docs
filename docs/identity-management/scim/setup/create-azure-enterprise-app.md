@@ -39,7 +39,7 @@ For updated info from Microsoft, see their guide to [build a SCIM endpoint and c
 
 2. Set **Provisioning mode** to **Automatic**.
 
-    ![AAD provisioning panel][img1]
+    ![AAD provisioning panel -screenshot][img1]
 
 ## Configure admin credentials
 
@@ -55,7 +55,7 @@ For updated info from Microsoft, see their guide to [build a SCIM endpoint and c
 
 6. Click **Save.**
 
-![SCIM test connection from AAD][img2]
+![SCIM test connection from AAD -screenshot][img2]
 
 ## Configure mapping
 
@@ -69,7 +69,7 @@ The Azure portal allows mapping to the `id` attribute. However, this is **not**
      4. Set **Matching precedence** to `2`.
      5. Click **OK**.
 
-    ![Mapping external ID][img3]
+    ![Mapping external ID -screenshot][img3]
 
 3. Change the attribute mapping for group objects to match on `objectId` rather than `displayName`:
 
@@ -77,7 +77,7 @@ The Azure portal allows mapping to the `id` attribute. However, this is **not**
     2. Select the **`displayName`** attribute, change **Matching precedence** value to `2`, and click **OK**.
     3. Select the `**objectId**` attribute, enable the **Match objects using this attribute** option, set **Matching precedence** value to `1`, and click **OK**.
 
-    ![Mapping groups][img4]
+    ![Mapping groups -screenshot][img4]
 
 4. Click **Save**.
 
@@ -90,7 +90,7 @@ The Azure portal allows mapping to the `id` attribute. However, this is **not**
 5. Wait for the incremental cycle to complete.
 6. You can now [preview the users][5] in the SuperOffice Identity Manager.
 
-![AAD provisioning settings][img5]
+![AAD provisioning settings -screenshot][img5]
 
 ## Next steps
 

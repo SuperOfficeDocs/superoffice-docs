@@ -20,7 +20,7 @@ Each customer is responsible for their data and must explicitly approve each and
 
 2. The administrator clicks **I approve**. The dialog shows your application name, your company name, and other information relevant to the [consent][2].
 
-    ![Consent][img1]
+    ![Consent -screenshot][img1]
 
 3. Provision the application.
 

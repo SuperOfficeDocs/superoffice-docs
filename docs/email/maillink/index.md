@@ -16,11 +16,11 @@ SuperOffice MailLink (part of SuperOffice WebTools) supports 2 main modes of ope
 
 ## Components
 
-![x][img2]
+![x -screenshot][img2]
 
 The picture was different before 8.3:
 
-![x][img1]
+![x -screenshot][img1]
 
 ## Compatibility
 

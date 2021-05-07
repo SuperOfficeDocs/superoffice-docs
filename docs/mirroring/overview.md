@@ -23,11 +23,11 @@ Using NetServer web services, online applications have virtually unlimited acces
 
 Imagine you are an online application vendor who has created the world's best trending software. You have created an application that can scan a database, mine it for patterns, and display trend reports. It would be nearly impossible to do this effectively with only web services.
 
-![trendsyapp][img1]
+![trendsyapp -screenshot][img1]
 
 ## Primary components
 
-![trendsy][img2]
+![trendsy -screenshot][img2]
 
 ### Registered application
 
@@ -106,7 +106,7 @@ Before transferring any mirrored data, we need to establish a two-way trust. The
 2. The `IMirroringClientService` **Authenticate** method at your end must [validate the security token][10] and then respond with **ApplicationToken** and **timestamp** [signed with a private key][11].
 3. SuperOffice validates the response.
 
-![authenticationsequencediagram][img3]
+![authenticationsequencediagram -screenshot][img3]
 
 There is no user or session concept in the mirroring client, so no session token is ever issued.
 

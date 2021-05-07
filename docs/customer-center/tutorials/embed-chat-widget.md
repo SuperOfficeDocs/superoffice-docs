@@ -50,9 +50,9 @@ This would now give you, for example, a newly expanded script tag using informat
 
 The pre-chat form would automatically populate based on present cookie values:
 
-![how-can-we-help][img1]
+![how-can-we-help -screenshot][img1]
 
-![cookies][img2]
+![cookies -screenshot][img2]
 
 <!-- Referenced images -->
 [img1]: media/how-can-we-help.png

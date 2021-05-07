@@ -37,7 +37,7 @@ This process will automatically set up change tracking on the SuperOffice CRM On
 > [!NOTE]
 > Online customer databases don't keep state or progress indicator for mirroring, and there is no GUI for it either. By design, only the mirror knows the LSN for each table.
 
-![sequence diagram][img1]
+![sequence diagram -screenshot][img1]
 
 ## When does the mirroring task run?
 

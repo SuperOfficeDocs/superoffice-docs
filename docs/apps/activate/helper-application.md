@@ -22,7 +22,7 @@ The biggest hurdles most private applications have, include:
 
 Even private applications must be granted permission to access tenant resources. Therefore, just like when a tenant administrator installs a public application from the SuperOffice App Store, private applications must also perform an interactive login sequence to prompt the user with the **Approval** page.
 
-![AllowScreen.png][img1]
+![AllowScreen.png -screenshot][img1]
 
 This login sequence is expected to be performed by the private application. Historically this step has required that you understand how to create a web application configured to authenticate using OpenID Connect.
 
@@ -56,29 +56,29 @@ First created as an OpenID Connect/PassportJS code sample, the [source code][2] 
 
 All you need to do is navigate to it online and select **Sign In**.
 
-![SignIn.PNG][img2]
+![SignIn.PNG -screenshot][img2]
 
 On the next page, select your target environment and supply your applications `client_id` and `client_secret`, then select **Sign in**.
 
-![SelectEnvironment.PNG][img3]
+![SelectEnvironment.PNG -screenshot][img3]
 
 You are redirected to SuperOffice SuperID for authentication. Enter your username, then select **Next**.
 
-![SuperIDEmail.png][img4]
+![SuperIDEmail.png -screenshot][img4]
 
 Once authentication is successful, one of two things will appear.
 
 If your SuperID user is associated with multiple tenants, you will first be presented with a tenant selection screen. Select the tenant you wish to associate with this `client_id` (private application).
 
-![SelectTenant.png][img5]
+![SelectTenant.png -screenshot][img5]
 
 You are shown the **Allow** page. Select **I approve** to continue.
 
-![AllowScreen.png][img6]
+![AllowScreen.png -screenshot][img6]
 
 Finally, you will be redirected to the DevNet-tokens account page where you may collect the system user token.
 
-![AccountPage.png][img7]
+![AccountPage.png -screenshot][img7]
 
 This application is also useful when you want a fast way to get an access token and, using your favorite REST client, to start making REST calls to your tenant web API REST web services.
 

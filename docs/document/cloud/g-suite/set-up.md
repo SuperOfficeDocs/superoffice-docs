@@ -45,7 +45,7 @@ When Google G Suite integration has been enabled in step 3, all users will be re
 
 Make sure the user's user names in SuperOffice CRM Online is what the user's user name is in Google:
 
-![image58qub.png][img1]
+![image58qub.png -screenshot][img1]
 
 You see the Google user names here: [https://admin.google.com/ac/users][4]
 
@@ -99,19 +99,19 @@ Supply your new Google G Suite Service-account (created in step 4 above)
 
 Click **Continue**.
 
-![image0ox0s.png][img2]
+![image0ox0s.png -screenshot][img2]
 
 If you are not logged into the G Suite account - you will be redirected to do so.
 
 If you have failed to register IDP correctly before this, you may get a warning both "This app has not been verified by google" and "SuperOffice.com wants to access your Google account". You may approve and continue.
 
-![image5avtq.png][img3]
+![image5avtq.png -screenshot][img3]
 
 Either leave settings as is - or change them to your preference.
 
 Click **Configure SuperOffice**.
 
-![imageu3rda.png][img4]
+![imageu3rda.png -screenshot][img4]
 
 If the linking of SuperOffice and Google is successful this will be reported. (If the linking fails - please contact SuperOffice Support.)
 

@@ -11,7 +11,7 @@ so.client: online
 
 # Configure - Cloud Office document handling
 
-The Office365 and G Suite Integration app integrate the Office365 SharePoint’s and Google Drive's document management features with CRM Online so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and Office365 or G Suite services all in one place.
+The Office365 and G Suite Integration apps integrate the Office365 SharePoint’s and Google Drive's document management features with CRM Online so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and Office365 or G Suite services all in one place.
 
 Simply sign in to SuperOffice using your Office365 or Google login details and then open, edit and store documents in Office365 SharePoint or G Suite directly from SuperOffice.
 
@@ -36,7 +36,7 @@ This will store the template in the O365 cloud or Google cloud, and when the use
 
 Templates are displayed as items in the **Document - Template** list and you link a template to SuperOffice CRM by entering it as an item in the list.
 
-![imageh3map.png][img1]
+![imageh3map.png -screenshot -screenshot][img1]
 
 1. Open SuperOffice Admin, go to Lists, choose **Document - Template**
 
@@ -49,7 +49,7 @@ Templates are displayed as items in the **Document - Template** list and you l
     * Choose the source of the new template (create, upload, or copy).
     * Click **Save**.
 
-    ![x][img2]
+    ![x -screenshot -screenshot][img2]
 
 4. Optionally edit the template name, if required, and click **Edit** to edit the template file itself.
 
@@ -60,13 +60,13 @@ Templates are displayed as items in the **Document - Template** list and you l
     * Enter a value in the **Our reference (default)** field using [template variables][1]. For example `auth` for the sender’s first and last names.
     * Optionally, enter a description.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 6. Click **Save**. The Document template is now available in the CRM client:
 
-![imagedmnmi.png][img4]
+![imagedmnmi.png -screenshot -screenshot][img4]
 
-![image6r9sc.png][img5]
+![image6r9sc.png -screenshot -screenshot][img5]
 
 ## Considerations
 

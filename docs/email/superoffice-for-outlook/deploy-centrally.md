@@ -43,28 +43,28 @@ You can use the following additional PowerShell cmdlets to manage the add-ins fo
 2. Open Admin center (and set to use "old" O365 Admin GUI).
 3. Go to *Settings > Services & add-ins*.
 
-![imageefsif.png][img1]
+![imageefsif.png -screenshot][img1]
 
 4. Click **Deploy add-in**, then:
     * Choose add an add-in from the Office Store, or
     * Choose "upload custom app", Copy/paste in this URL to the dialog:
     `https://superofficeforoutlook.superoffice.com/manifest/manifest.xml`
 
-![imageg8a0i.png][img2]
+![imageg8a0i.png -screenshot][img2]
 
 5. Follow the steps and make your selections along the way.
 
-![image9i9x1.png][img3]
+![image9i9x1.png -screenshot][img3]
 
-![imageevshb.png][img4]
+![imageevshb.png -screenshot][img4]
 
-![imagep08e5.png][img5]
+![imagep08e5.png -screenshot][img5]
 
-![image5t4dr.png][img6]
+![image5t4dr.png -screenshot][img6]
 
-![image6dm4b.png][img7]
+![image6dm4b.png -screenshot][img7]
 
-![image2ha3f.png][img8]
+![image2ha3f.png -screenshot][img8]
 
 
 <!-- Referenced links -->

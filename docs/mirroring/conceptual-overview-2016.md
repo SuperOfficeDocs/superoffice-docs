@@ -14,7 +14,7 @@ so.client: online
 
 Imagine you are an online application vendor who has created the world's best trending software. You have created an application that can scan a database, mine it for patterns, and display trend reports. It would be nearly impossible to do this effectively with only web services.
 
-![x][img1]
+![x -screenshot][img1]
 
 SuperOffice Database Mirroring provides a way for online partners to have access to a tenants database. Partners do not get an exact copy of a tenant database, but a subset that contains more than enough data for what partner applications need for offline processing.
 
@@ -30,7 +30,7 @@ The [registered application][1] contains all of the information provided by th
 
 The Mirroring Task is the responsibility of SuperOffice. It represents the background process that transfers data from a tenant database to a partner's registered application. It resides inside OC, and is responsible for provisioning the change tracking in the customer database as necessary.
 
-![x][img2]
+![x -screenshot][img2]
 
 Partners must create and host the web service that receives the data. Their web service must implement the IMirroringClient interface. The IMirrorClientService interface is responsible for establishing a trusted connection, receiving the data, and performing the actual mirroring, such as provisioning of tables and performing schema updates.
 
@@ -38,7 +38,7 @@ Partners must create and host the web service that receives the data. Their web 
 
 SuperOffice starts the process by sending the partner web service a security token that contains a tenant's context identifier and timestamp. It's up to the IMirroringClientService Authenticate method to validate the security token and respond with its ApplicationToken and timestamp. SuperOffice in turn validates the partner's response to establish a two-way trust.
 
-![x][img3]
+![x -screenshot][img3]
 
 There is no user or session concept in the Mirroring Client, so no session token is ever issued. The Mirroring Task will only proceed if it gets a valid response from the Client. The **Mirroring Task sends the SuperOffice signed token with every call so that the Client can validate each call independently**.
 
@@ -65,7 +65,7 @@ This process will automatically set up change tracking on the Online side and cr
 
 If an older original is restored from backup, then the mirror should be thrown away; this is a very rare occurrence. Also note that Mirroring does not run during "maintenance" states, such as Online version upgrades, so backup/restore cycles during a failed upgrade do not trigger a mirror wipe.
 
-![x][img4]
+![x -screenshot][img4]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/application-registration

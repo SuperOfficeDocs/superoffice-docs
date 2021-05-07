@@ -16,7 +16,7 @@ The SuperOffice Archive needs to be a **Document library** and located on the Ro
 
 There is no support for configuring the Office365 integration to use sub-site or a virtual site.
 
-![x][img1]
+![x -screenshot][img1]
 
 (1) = Root
 
@@ -57,7 +57,7 @@ There is no support in the SuperOffice Office365 SharePoint integration for usin
 
 * "We were unable to log you in through Office 365. Error: access_denied."
 
-![x][img2]
+![x -screenshot][img2]
 
 This is due to users does not have sufficient read access to the SharePoint Group area where the Integration App is, and/or users do not have sufficient read access to the SharePoint root area
 
@@ -65,15 +65,15 @@ This is due to users does not have sufficient read access to the SharePoint Gro
 
 #### Error saving document
 
-![imagerlog.png][img3]
+![imagerlog.png -screenshot][img3]
 
 #### No access
 
-![imageqvkbj.png][img4]
+![imageqvkbj.png -screenshot][img4]
 
 #### An error ocurred while saving
 
-![imagela1cd.png][img5]
+![imagela1cd.png -screenshot][img5]
 
 1. Update access rights
 
@@ -85,23 +85,23 @@ This is due to users does not have sufficient read access to the SharePoint Gro
 
     Admin > Admin centers > SharePoint > site collections > Open the web Site Address (...sharepoint.com) > Site contents > Site settings > Users and Permissions > Site Permissions  > Create Group > add users to this group
 
-    ![x][img6]
+    ![x -screenshot][img6]
 
-    ![x][img7]
+    ![x -screenshot][img7]
 
-    ![x][img8]
+    ![x -screenshot][img8]
 
-    ![x][img9]
+    ![x -screenshot][img9]
 
     **Read** for root and the Document library should be enough for the Integration App.
 
-    ![x][img10]
+    ![x -screenshot][img10]
 
     **Modify existing groups:**
 
-    ![x][img11]
+    ![x -screenshot][img11]
 
-    ![x][img12]
+    ![x -screenshot][img12]
 
 2. Check Permissions
 
@@ -117,9 +117,9 @@ If the document library name or folder name has any changes or was you submitted
 
 Admin > Admin centers > SharePoint > site collections > Open the web Site Address (...sharepoint.com) > Site contents > ... for the app > Manage permissions > click **click here to trust it again**:
 
-![x][img13]
+![x -screenshot][img13]
 
-![x][img14]
+![x -screenshot][img14]
 
 ## Check permissions (d)
 
@@ -129,7 +129,7 @@ Admin > Admin centers > SharePoint > site collections > Open the web Site Addres
 
 * "Error saving document..."
 
-![x][img15]
+![x -screenshot][img15]
 
 This is due to users do not have sufficient read access to the SharePoint Root area or 'edit' access to the document library.
 
@@ -149,7 +149,7 @@ from `&scope=&` to `&scope=Web.Write&` and click the **Enter** button to update 
 
 You then see the permissions it asks for are also changing. Now you can click **Trust it**.
 
-![image8ses9u.png][img16]
+![image8ses9u.png -screenshot][img16]
 
 <!-- Referenced images -->
 

@@ -27,19 +27,19 @@ Our recommended deployment scenario uses a Reverse proxy on the DMZ server to ac
 
 Install Web Server (IIS) using the **Add roles and Features Wizard** from the Server Manager Dashboard.
 
-![Add roles and features wizard][img1]
+![Add roles and features wizard -screenshot][img1]
 
 Open the IIS Manager on the server level and on the right side under Actions select Get New Web Platform Components.
 
-![2018-10-17_16-31-02.png][img2]
+![2018-10-17_16-31-02.png -screenshot][img2]
 
 Download and install the Web Platform Installer, which is an extension to the IIS Manager console.
 
-![blobid0.png][img3]
+![blobid0.png -screenshot][img3]
 
 Run it, select the **Products** tab and find **Application Request Routing 3.0**. This will allow the server to function as a reverse proxy, proxying requests coming from users to the NetServer.
 
-![Application Request Routing 3.0][img4]
+![Application Request Routing 3.0 -screenshot][img4]
 
 ### Changes in Reverse proxy
 
@@ -49,7 +49,7 @@ Run it, select the **Products** tab and find **Application Request Routing 3.0*
 
 3. Uncheck **Reverse rewrite host in response headers**.
 
-    ![x][img5]
+    ![x -screenshot][img5]
 
 4. Click **Apply**.
 
@@ -69,25 +69,25 @@ For each site, we need to set up some URL-rewrite rules so that the requests hit
 
 Select the site and click **URL Rewrite**.
 
-![URL Rewrite][img6]
+![URL Rewrite -screenshot][img6]
 
 Select **Add Rule(s)** from the action pane on the right and add a **Reverse Proxy** rule.
 
-![Add reverse proxy rule][img7]
+![Add reverse proxy rule -screenshot][img7]
 
 In the **Add Reverse Proxy Rules** dialog, enter the DNS hostname of the internal server that is hosting SuperOffice. For instance, when setting up proxy rules for SuperOffice where both Sale and Service is installed internally on the same site `socrm.INTERNAL.myorganization.com`, then add `socrm.INTERNAL.myorganization.com` in the Server name of the rule. Uncheck the **Enable SSL Offloading box** and click **OK**.
 
-![x][img8]
+![x -screenshot][img8]
 
 If you only want to expose Sales and this is installed on the internal server under `socrm.INTERNAL.myorganization.com/SuperOffice` then we need to modify the inbound rule to look like the following:
 
-![x][img9]
+![x -screenshot][img9]
 
 Make sure that the proxy server can reach the internal servers and that it can resolve the DNS names that have been defined in the URL-rewrite rules.
 
 The final rules should look something like this:
 
-![x][img10]
+![x -screenshot][img10]
 
 Note that the CRM rule does not allow HTTPS in the **Action URL**, this should be changed when setting up HTTPS for the servers, but for now, we can keep it at HTTP. Try browsing to the proxy server and to see if the rules are working properly. In my case, I would browse to the following URLs. Note that only HTTP has been set up:
 
@@ -100,11 +100,11 @@ Add an outbound rule for the location header:
 
 1. Add rule
 
-    ![x][img11]
+    ![x -screenshot][img11]
 
 2. Enter the following values:
 
-    ![x][img12]
+    ![x -screenshot][img12]
 
 * Name: **Rewrite location**
 * Matching scope: **Server variable**
@@ -122,13 +122,13 @@ To make sure the WCF services are working correctly, you have to change some set
 
 This option is for applications that do not use the .NET framework. Since the App Pool is a proxy to forward requests, the .NET runtime is not needed.
 
-![x][img13]
+![x -screenshot][img13]
 
 ## Web Tools
 
 To make Web Tools go through our proxy, we need to edit the *web.config* file of SuperOffice. In the `<client>` section, change the key **UrlHostOverride** to point to the hostname of the proxy server.
 
-![x][img14]
+![x -screenshot][img14]
 
 ```xml
 <add key="UrlSchemeOverride" value="http" />
@@ -140,9 +140,9 @@ When enabling HTTPS, the value **UrlPortOverride** should be changed to **443** 
 
 Make sure that the **Client** section in the *web.config* file is defined at the top of the file inside the `<configSections>` directive. The screenshots below show what the file should look like.
 
-![x][img15]
+![x -screenshot][img15]
 
-![x][img16]
+![x -screenshot][img16]
 
 If clients are unable to download the web tools client, then you need to allow communication to `https://www3.superoffice.com` which is our Download service.
 
@@ -150,7 +150,7 @@ If clients are unable to download the web tools client, then you need to allow c
 
 The URLs for the Internal and External URL must be updated to match the external address.
 
-![x][img17]
+![x -screenshot][img17]
 
 Or update directly in the database table called `<prefix>.config` - fields `cgi_url` and `cgi_url_internal`.
 
@@ -166,11 +166,11 @@ SuperOffice Service may not use NetServer web services running on HTTPS, this me
 
 To make sure later updates of Service runs successfully on the Internal web server, add a new registry key below *HKey_Locale_MachineSoftware\Wow6432Node\SuperOffice* Customer Service on the Internal webserver. This key should have the same string values as the internal site (basePath and instanceId), but the name of the key should be the same as the external website (proxy URL).
 
-![x][img18]
+![x -screenshot][img18]
 
 Now when upgrading you will provide the external URL when it asks for the domain and it will not fail when it comes to the point where it should start EjScheduler here:
 
-![x][img19]
+![x -screenshot][img19]
 
 ## Using more than one internal webserver to redirect traffic to
 
@@ -182,7 +182,7 @@ To be able to redirect to several internal web services you need to add the foll
 </system.serviceModel>
 ```
 
-![x][img20]
+![x -screenshot][img20]
 
 Multiple site bindings enable multiple base addresses (enables the proxy to forward to multiple hosts).
 

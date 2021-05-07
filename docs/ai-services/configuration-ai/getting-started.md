@@ -26,18 +26,18 @@ The Machine-learning categorization service is enabled in Settings and Maintenan
 2. Create a selection of request to use for analysis:
      * Click either **Find** or **New > Selection**.
 
-    ![x][img2]
+    ![x -screenshot][img2]
 
 3. Create a selection type: Request
     * Either click **Find Request** or choose a selection from **Typical searches**.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 4. Update criteria:
     1. Select your criteria to match the selection for the request you want to use for analysis.
     2. Click **Find**.
 
-    ![x][img4]
+    ![x -screenshot][img4]
 
 5. Save selection
     1. Click **Save as selection**.
@@ -45,9 +45,9 @@ The Machine-learning categorization service is enabled in Settings and Maintenan
     3. Enter a name.
     4. Click **Save**.
 
-    ![x][img6]
+    ![x -screenshot][img6]
 
-    ![x][img7]
+    ![x -screenshot][img7]
 
 > [!NOTE]
 > There is a limit on 5000 requests. If the selection is larger, we only analyze the first 5000 requests.
@@ -67,7 +67,7 @@ The Machine-learning categorization service is enabled in Settings and Maintenan
 
 5. Search for the name of the selection to choose it.
 
-    ![x][img10]
+    ![x -screenshot][img10]
 
 ## Step 3 - Analyze requests
 
@@ -80,13 +80,13 @@ When a request selection has been chosen, the **Analyze Requests** button is ena
 
 2. When the **Latest training** says *successfully trained model*, the "Use AI to suggest categories" checkbox is enabled:
 
-    ![x][img11]
+    ![x -screenshot][img11]
 
     * If you get an error here, you will need to train the dataset again based upon the feedback in the error message.
 
 Here are some examples of the different feedback you can get for the latest training:
 
-![x][img12]
+![x -screenshot][img12]
 
 In case of errors and other experiences - we would like to get your input and feedback. Please post your experiences on the Pilot Forum.
 
@@ -94,7 +94,7 @@ In case of errors and other experiences - we would like to get your input and fe
 
 * Click the checkbox **Use AI to suggest categories** if you want the system to suggest categories.
 
-![x][img13]
+![x -screenshot][img13]
 
 ## Step 5 - Done
 

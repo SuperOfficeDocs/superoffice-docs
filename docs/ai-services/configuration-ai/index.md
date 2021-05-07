@@ -16,7 +16,7 @@ For the system to form an opinion on/learn how to automatically categorize betwe
 
 When the machine has learned how to categorize and the user navigates to a request, there will be a link in the request footer with the text: Suggested category: "category/name". When the user clicks the link, the request will be updated with the suggested category, and the suggestion link disappears.
 
-![x][img1]
+![x -screenshot][img1]
 
 If you meet the [pre-requisites for SuperOffice AI Service][1] you can [configure SuperOffice and start training the system][2].
 

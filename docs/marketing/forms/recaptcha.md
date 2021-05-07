@@ -13,7 +13,7 @@ Since SuperOffice 8.5 R04 we have introduced a new feature in Forms - Google reC
 
 reCaptcha is found in Form - Fields - add element - Form elements:
 
-![imagehkoheq.png][img1]
+![imagehkoheq.png -screenshot][img1]
 
 > [!NOTE]
 > It is only possible to add 1 reCaptcha per form.
@@ -26,7 +26,7 @@ In SuperOffice Online we, by default, provide you with our default keys. If you 
 
 If you are interested in the reCaptcha statistics, you can make your reCaptcha profile (see below) and enter your Site key and Secret key. Statistics provide information like Requests passed & failed, Average Score, Sessions completed, Average Response Time (for more info see [https://www.google.com/recaptcha/admin][1].
 
-![imagehekct.png][img2]
+![imagehekct.png -screenshot][img2]
 
 ## SuperOffice Onsite
 
@@ -63,11 +63,11 @@ To create custom keys, sign in with a Google account to [https://www.google.com
 3. And then the "I'm not a robot" checkbox
 4. Add the domain. Under "domains", you must insert the domain that the Customer Center (customer.fcgi) is running on or a parent domain of that sub-domain.
 
-![imagerlc6j.png][img3]
+![imagerlc6j.png -screenshot][img3]
 
 After you press Submit, your Site key and Secret key will be shown:
 
-![imagehn8rh.png][img4]
+![imagehn8rh.png -screenshot][img4]
 
 <!-- Referenced links -->
 [1]: https://www.google.com/recaptcha/admin

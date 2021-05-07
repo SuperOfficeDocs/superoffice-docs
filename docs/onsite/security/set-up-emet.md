@@ -16,7 +16,7 @@ so.client: web
 
 The installation is straightforward, continue through the install wizard to complete the installation. Once EMET is installed it can be accessed from the lower-right corner. Double-click the icon to open the graphical user interface.
 
-![Click icon in system tray][img1]
+![Click icon in system tray -screenshot][img1]
 
 The following changes should be made to the settings:
 
@@ -32,11 +32,11 @@ This is because Customer Service is packaged into executables and all of these n
 
 To import the EMET configuration file, simply select **Import** from the menu and choose the XML file configuration file. If there are any errors, it is most likely because EMET did not find the SuperOffice installation at the path that was set in the XML file. To fix this, edit the XML configuration file and make sure that the paths match the installation path of your SuperOffice installation.
 
-![Import the EMET configuration file][img2]
+![Import the EMET configuration file -screenshot][img2]
 
 After setting up the rules, the applications must be restarted for the protection mechanisms to take effect. It is recommended to do a reboot of the server to make sure the rules are properly applied. After rebooting, the EMET GUI should show which processes are running EMET in the **Running Processes** list.
 
-![Running processes][img3]
+![Running processes -screenshot][img3]
 
 Repeat this process for the servers that are involved in the SuperOffice installation, for example, file server, database server, NetServer, and proxy server.
 

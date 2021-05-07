@@ -26,7 +26,7 @@ Customers might have emails from either support or marketing that have URLs poin
 
 From 8.1 this preference will tell all clients where the Sales Web client is installed. This means that when an unauthorized user tries to access either Sales web client or Service, they will be automatically forwarded to the URL added to this preference and after successful authentication, they are returned to where they came from.
 
-![x][img3]
+![x -screenshot][img3]
 
 <!-- Referenced links -->
 [1]: ../../install/iis/reverse-proxy.md

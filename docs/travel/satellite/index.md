@@ -15,7 +15,7 @@ so.client: win
 
 ## Overview
 
-![x][img1]
+![x -screenshot][img1]
 
 Satellite is a function that enables you to create your own databases based on the central database.
 

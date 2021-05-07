@@ -27,7 +27,7 @@ You can send larger volumes of emails from SuperOffice Mailing if needed, but th
 
 Example: if you want to send out 160 000 emails, you should first divide them into a few selections and check the number of campaign email volume per month you have in your disposal. There is also a possibility to purchase an extra email package since SuperOffice has a very favorable price to offer:
 
-![MailGun Price][img1]
+![MailGun Price -screenshot][img1]
 
 However, we would recommend our customers that need to send large volumes of emails per month (>50,000 per month) to consider other, more specialized mailing services such as MailChimp, eMarketeer, or other.
 

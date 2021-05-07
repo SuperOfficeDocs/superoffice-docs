@@ -16,7 +16,7 @@ The log file is located at *%appdata%\SuperOffice\MailLink\Log*  (both for Win
 
 In the same folder you can also enable debug log by edit the *log_settings.xml* file, set `<EnableDebug>true</EnableDebug>`
 
-![x][img1]
+![x -screenshot][img1]
 
 <!-- Referenced images -->
 [img1]: media/maillink-enabledebuglog-web.png

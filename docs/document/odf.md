@@ -18,7 +18,7 @@ NetServer supports ODF files natively without the need for any extra configurati
 
 In SuperOffice Web, you should also get the real ODF icons in the document dialog when using ODF files and templates.
 
-![imageghtzm.png][img1]
+![imageghtzm.png -screenshot][img1]
 
 Please note this support has not been highly advertised and is not as tested as our general Microsoft Office file format support. If you encounter errors or issues, please let us know.
 

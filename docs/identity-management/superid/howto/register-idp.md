@@ -28,7 +28,7 @@ Before using a federated sign-in service, you must register the domain with us. 
 
 2. Select your organization's identity provider (Google or Microsoft)
 
-    ![select identity provider][img1]
+    ![select identity provider -screenshot][img1]
 
 ## Initialize and accept setup with your IdP
 
@@ -41,35 +41,35 @@ Before using a federated sign-in service, you must register the domain with us. 
 
 2. Accept the permissions and grant SuperOffice access to read profile information if prompted.
 
-    ![0365signin.png][img2]
+    ![0365signin.png -screenshot][img2]
 
-    ![googlesignin.png][img3]
+    ![googlesignin.png -screenshot][img3]
 
 3. Confirm that all users of this domain should use the identity provider.
 
-    ![image95szq.png][img4]
+    ![image95szq.png -screenshot][img4]
 
 ### For Google
 
 1. Authenticate with a Google account in the domain.
 
-    ![google signin][img5]
+    ![google signin -screenshot][img5]
 
 2. Accept the permissions and grant SuperOffice access to read profile information if prompted.
 
 3. Confirm that all users of this domain should use the identity provider.
 
-    ![image1x2xg.png][img6]
+    ![image1x2xg.png -screenshot][img6]
 
 ## Confirm registration
 
-![imageniwh.png][img7]
+![imageniwh.png -screenshot][img7]
 
 Your organization's domain name is now registered in the SuperOffice environment.
 
 When the user signs in, the domain of the username (the part after the @ sign) will be recognized and the user will be forwarded to the correct IdP to authenticate.
 
-![image62fbl.png][img8]
+![image62fbl.png -screenshot][img8]
 
 Primary domain registration complete!
 
@@ -85,9 +85,9 @@ You may want to set a new primary domain name for your Azure AD organization. Wh
 
 You can find additional domains in your Azure Active Directory under **Custom domain names**.
 
-![10][img10]
+![10 -screenshot][img10]
 
-![11][img11]
+![11 -screenshot][img11]
 
 **To register another top-level domain name:**
 
@@ -101,7 +101,7 @@ You can find additional domains in your Azure Active Directory under **Custom d
 4. We will manually add those subdomains and custom domain names.
 5. Repeat the process for other top-level domains.
 
-![image9lq1a.png][img9]
+![image9lq1a.png -screenshot][img9]
 
 <!-- Referenced links -->
 [1]: map-idp-usernames.md

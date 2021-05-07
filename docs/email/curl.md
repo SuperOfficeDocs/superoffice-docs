@@ -37,7 +37,7 @@ Change the value for `reg_id = 320` in the table registry
 Not using cURL: value = 2
 Using cURL: value = "0"
 
-![x][img1]
+![x -screenshot][img1]
 
 This can be changed either by a SQL statement (requires access to SQL database) or by eJScript (requires access to **System design** and admin role).
 
@@ -49,11 +49,11 @@ How to open the incoming/outgoing log:
 
 1. Open **Mailboxes** by clicking on the wrench -> **E-mail**. Note: only available to Admin users.
 
-    ![x][img2]
+    ![x -screenshot][img2]
 
 2. Click on **Inbox for email** / **Outbox for email**
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
     Here you will see all items not sent or imported yet. (To also see already sent, check "show sent emails" bottom right.)
 
@@ -61,7 +61,7 @@ How to open the incoming/outgoing log:
 
 The status, number of attempts, and last error message + possibly a more comprehensive error description below (big red square in picture) will help determine what has gone wrong sending the email.
 
-![x][img4]
+![x -screenshot][img4]
 
 <!-- Referenced images -->
 [img1]: media/320curl.jpg

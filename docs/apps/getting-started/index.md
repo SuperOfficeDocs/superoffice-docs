@@ -15,7 +15,7 @@ When creating an application for SuperOffice CRM Online, there are several key e
 
 Partners building applications for SuperOffice CRM Online must be comfortable with **federated authentication**. All applications must use **SuperID** for authenticating users.
 
-![soap-onboarding.jpg][img1]
+![soap-onboarding.jpg -screenshot][img1]
 
 To develop applications in our SOD environment is free. Required licenses apply only in production (live).
 
@@ -44,11 +44,11 @@ To develop applications in our SOD environment is free. Required licenses apply 
 
     * **standard application:** [launch in the App Store][8]
 
-    ![stdapp-publishing.jpg][img2]
+    ![stdapp-publishing.jpg -screenshot][img2]
 
     * **custom application**: [activate][9] for one specific customer's database
 
-    ![custapp-publishing.jpg][img3]
+    ![custapp-publishing.jpg -screenshot][img3]
 
 ### Upgrade
 

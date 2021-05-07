@@ -30,7 +30,7 @@ Automatic sync is a powerful tool for when you have set up your mapping.
 
 5. Slide **User sync active** to *on*.
 
-    ![user sync active slider][img1]
+    ![user sync active slider -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: create-azure-enterprise-app.md

@@ -25,7 +25,7 @@ Enable automatic welcome emails from SuperOffice **if you don't plan to handle i
 
 4. Click **Save**.
 
-    ![Send welcome email - admin client][img1]
+    ![Send welcome email - admin client -screenshot][img1]
 
 ### ...to SCIM users
 
@@ -33,7 +33,7 @@ Enable automatic welcome emails from SuperOffice **if you don't plan to handle i
 
 2. Turn on the **Send Welcome Email** setting in the upper right corner.
 
-    ![Send welcome email - SCIM][img2]
+    ![Send welcome email - SCIM -screenshot][img2]
 
 ## Resend welcome email
 
@@ -51,7 +51,7 @@ The sign-in link in the welcome email can only be used once. If the user has not
 
 4. Click the **Task** button and then select **Send welcome email**.
 
-    ![Send welcome email][img3]
+    ![Send welcome email -screenshot][img3]
 
 ### Why has the user not clicked the link in the welcome email yet?
 

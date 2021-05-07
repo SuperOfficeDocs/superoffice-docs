@@ -18,7 +18,7 @@ The [SuperOffice Identity Manager][1] gives administrators access to a wizard w
 
 * The SuperOffice Identity Manager sets the mapping from the SCIM schema to [SuperID user accounts][2]].
 
-![SCIM UI rule example][img1]
+![SCIM UI rule example -screenshot][img1]
 
 ## Tasks
 

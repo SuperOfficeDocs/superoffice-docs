@@ -24,7 +24,7 @@ Customer Service uses [Remote web services][1] and it will have a SuperOffice P
 
 After upgrading to a newer version of SuperOffice, if you experience strange behavior you may need to flush caches. This is done under the debug menu available under `http://<your website>/scripts/ticket.exe?action=debug`
 
-![x][img1]
+![x -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../onsite/install/netserver/index.md

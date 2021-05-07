@@ -32,7 +32,7 @@ When you have the Product configuration application open:
 
 1. Click on the **Diagnostics (1)** section. In the field (2) you can define a path where the log file should be saved. Then add a tick next to the **Display Advanced Settings (3)**, which will let you specify how many details you want in the debugging log file.
 
-    ![image0sx5s.png][img1]
+    ![image0sx5s.png -screenshot][img1]
 
 2. Click **Next** to go through the whole configuration wizard and click **Finish**. Once you finish the wizard, the Report configuration product wizard will start automatically. You can close it if you don’t want to debug reports. Then the log file will be created and errors will start to be logged.
 

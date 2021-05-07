@@ -18,7 +18,7 @@ However, the Customer Centre is also a platform for building more web pages, whi
 
 Web forms, in contrast to Windows program’s dialogs, are stateless. This means that between the initial form is sent to the client (browser), and the filled-out form is sent back to the server, there is no process waiting with all its variables in memory. This means that the form must contain all variables and parameters that are required to process it. If any of the fields contain an illegal value, we need to redisplay the form (with the fields filled out with supplied values) with an error message. Finally, when the form is posted with correct data, we should display a response or redirect the browser to somewhere else. This process can be illustrated like this:
 
-![x][img5]
+![x -screenshot][img5]
 
 As explained, the processes executed on the server (the black box) in this drawing are not connected in any way. Whatever state-like information we want to keep through this pipeline must be a part of the blue or red lines (the form posts and HTML pages returned).
 

@@ -18,7 +18,7 @@ Most pages in the customer care center use the simplified parser language. In th
 
 You can execute any script in eJournal from the customer care center, given that you have the id and the key for the script. The URL should be `.../bin/customer.exe?action=safeParse&includeId=the-include-id&key=the-key` where the-include-id and the-key are values you specify when creating the CRMScript.
 
-![x][img1]
+![x -screenshot][img1]
 
 In this example, I have created a new CRMScript with the following values:
 
@@ -73,9 +73,9 @@ If you want to, you can add this item to the left menu of the customer care cent
 
 It's just a copy of another menu line with the modified URL. You probably want to change the icon. This is how it looks:
 
-![form 1][img2]
+![form 1 -screenshot][img2]
 
-![form 2][img3]
+![form 2 -screenshot][img3]
 
 <!-- Referenced image -->
 [img1]: media/script.jpg

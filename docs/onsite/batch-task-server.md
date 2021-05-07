@@ -15,7 +15,7 @@ so.client: web
 
 First introduced in SuperOffice Web version 6.3, background computing plays an important role that accomplishes long-running tasks in the background while allowing the user to continue working without being affected. Since 7.0 the Batch Tasks are configured to run in the IIS process instead of outside. The standard *web.config* file declares:
 
-![x][img1]
+![x -screenshot][img1]
 
 The tasks are started by the IIS process and run on the web server rather than on a separate batch task service. This has simplified configuration and deployment a lot.
 
@@ -23,7 +23,7 @@ The tasks are started by the IIS process and run on the web server rather than o
 
 The Batch task service is automatically set up during installation of the Sales & Marketing web, you'll find it running under services on the server where IIS is running. The name is the same as the website name + Batch Task Server. If you have more than one web installation, you will find one batch server service for each install.
 
-![x][img2]
+![x -screenshot][img2]
 
 When the server is started, it will instantiate and connect to NetServer using the configuration settings found in the SoBatchService.exe.Config file (see path to executable)
 
@@ -41,7 +41,7 @@ The batch task service is used for time-consuming operations like:
 
 When the batch task server is in use the user will see a small icon in Sales & Marketing web
 
-![x][img3]
+![x -screenshot][img3]
 
 Whenever a task is running the area at the top right next to the free-text search area will show an animated icon of two wheels in motion to indicate that one or more batch tasks are running. Next to the icon, a text will be displayed telling the user who's task is currently running if the user only has one task. If the user has more than one task, this text will display the number of tasks the user has, and the tooltip will display more details about the status and name of the tasks.
 

@@ -29,7 +29,7 @@ You need to enable and set up AD authentication in NetServer:
 
 2. Click on the **AD integration** section.
 
-    ![AD in NS.png][img1]
+    ![AD in NS.png -screenshot][img1]
 
 3. Tick the Enable AD Authentication checkbox
 

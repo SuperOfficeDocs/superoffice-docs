@@ -30,15 +30,15 @@ Where: on the server that is functioning as our reverse proxy
 
 3. Open the Windows Event Viewer to confirm the installation went well.
 
-    ![ModSecurity][img1]
+    ![ModSecurity -screenshot][img1]
 
 4. ModSecurity installs for all IIS sites by default. This may break things so you may want to disable it in the beginning. This can be done in the "Configuration Editor" for each site.
 
-![configurationeditor.jpg][img2]
+![configurationeditor.jpg -screenshot][img2]
 
 Use **iisreset** to make sure changes are applied.
 
-![IISReset][img3]
+![IISReset -screenshot][img3]
 
 ## Configure ModSecurity to function with SuperOffice
 
@@ -52,7 +52,7 @@ By default, the rule-set will trigger some false positives. We are going to disa
 
 3. After doing this we need to activate ModSecurity by changing the `enabled` setting to **True** in the `system.webServer/ModSecurity` section of each website you want ModSecurity to run for. Note that these rules are tuned to work with SuperOffice, they may give a lot of false positives if you run them "as-is" for other websites.
 
-    ![Configuration Editor][img4]
+    ![Configuration Editor -screenshot][img4]
 
 4. Finish the installation by restarting IIS from the command line using **iisreset**.
 
@@ -60,7 +60,7 @@ By default, the rule-set will trigger some false positives. We are going to disa
 
 We should remove this rule’s ID to avoid false positives. In the **Event Viewer**, click on the event and view the **Details** tab. Note the ID of the event and add it to the configuration file we placed at: *C:\Program Files\ModSecurity IIS\owasp_crs\base_rules\modsecurity_crs_70_superoffice.conf*.
 
-![Event viewer information][img5]
+![Event viewer information -screenshot][img5]
 
 <!-- Referenced links -->
 [1]: https://www.modsecurity.org/

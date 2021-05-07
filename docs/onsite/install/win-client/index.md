@@ -33,21 +33,21 @@ Note: If you want to use Oracle you need to install the Oracle client drivers o
 
 It will default install to *C:\Program Files (x86)\SuperOffice*. The default location for SuperOffice temp (SoTemp) is Local.
 
-![x][img1]
+![x -screenshot][img1]
 
 If you choose **Customize**, you may choose where you want to install it and also choose to install additional programs.
 
-![x][img2]
+![x -screenshot][img2]
 
 An **Advanced** installation will give you the option to select additional features and will display the installation wizard for each component.
 
 Both Mail Link and Windows client Advanced installation have Typical and Custom installation types. Custom installation for Windows client allows you to select which languages and additional features will be installed.
 
-![x][img3]
+![x -screenshot][img3]
 
 After the installation is completed both Mail Link and Windows client are installed.
 
-![x][img4]
+![x -screenshot][img4]
 
 ## Related info
 

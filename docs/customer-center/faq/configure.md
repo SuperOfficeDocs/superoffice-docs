@@ -19,7 +19,7 @@ To enable comments:
 1. Run the following query first: `select * from crm7.registry where reg_id in (198, 199)`
 If nothing is returned by this query, first go to your Customer center and FAQs and the registry keys will be populated.
 
-    ![x][img1]
+    ![x -screenshot][img1]
 
 2. Now you can change comment field access. Below are possible options:
     * 0 = none
@@ -28,7 +28,7 @@ If nothing is returned by this query, first go to your Customer center and FAQs 
 
 3. After you enable these settings you will see the comments show up
 
-![x][img2]
+![x -screenshot][img2]
 
 > [!NOTE]
 > If you use SuperOffice Online you need to contact [support][1].

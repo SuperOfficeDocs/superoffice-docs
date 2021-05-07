@@ -22,7 +22,7 @@ twilio_account_sid =
 twilio_auth_token =
 ```
 
-![imagec3rg.png][img1]
+![imagec3rg.png -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: https://www.twilio.com/sms

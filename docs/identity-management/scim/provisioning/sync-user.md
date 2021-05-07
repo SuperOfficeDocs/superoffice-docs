@@ -29,7 +29,7 @@ You can manually synchronize 1 selected user. This is useful when you update SC
 
     * If you are good to go, click **Sync user**. Otherwise, update the SCIM rules, preview again, and sync when OK.
 
-    ![scim preview pane][img1]
+    ![scim preview pane -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../sign-in-to-scim.md

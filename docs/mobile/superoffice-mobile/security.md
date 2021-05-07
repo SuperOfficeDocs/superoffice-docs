@@ -38,7 +38,7 @@ Mobile CRM communicates to CRM Online over HTTPS/TLS, just as our web client.
 
 It accesses the CRM Online tenants NetServer Web API (endpoint), which is based on REST (architecture) and uses [OAuth][4] for authentication.
 
-![x][img1]
+![x -screenshot][img1]
 
 ### Communication to other services
 
@@ -100,7 +100,7 @@ In SuperOffice Admin - Preferences - Global preferences:
 * **Autologout time:** Time in minutes the application can be kept idle in the background before an automatic logout is performed. Default value = 0, means no timeout.
 * **Diable autologin:** Prevent the Mobile CRM client from logging in automatically on startup. Default = No.
 
-![x][img2]
+![x -screenshot][img2]
 
 ## Config
 
@@ -116,7 +116,7 @@ There are 3 initial ways to set Mobile CRM to connect to CRM Online:
 
 This will redirect the user to the CRM Online login page for authentication. The user will here need to authenticate to log in. Log in with the same email address and password you use for the SuperOffice CRM Online and you are ready to use SuperOffice Pocket CRM
 
-![x][img3]
+![x -screenshot][img3]
 
 <!-- Referenced links -->
 [1]:https://www.apple.com/business/docs/iOS_Security_Guide.pdf

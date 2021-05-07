@@ -32,13 +32,13 @@ You can find the username in the **admin>users** section.
 
 Go to [https://admin.microsoft.com/AdminPortal/Home#/users][1]
 
-![UPN O365][img1]
+![UPN O365 -screenshot][img1]
 
 **For Google:**
 
 Go to  [https://admin.google.com/ac/users][2]
 
-![UPN Google][img2]
+![UPN Google -screenshot][img2]
 
 ## Change username in SuperOffice Admin client
 

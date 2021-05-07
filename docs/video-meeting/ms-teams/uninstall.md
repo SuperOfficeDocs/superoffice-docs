@@ -15,7 +15,7 @@ Uninstalling the Teams video meeting service:
 
 1. Sign in to your Microsoft 365 administrator account and navigate to **Settings > Integrated apps**.
 
-    ![imagehz5oq.png][img1]
+    ![imagehz5oq.png -screenshot][img1]
 
 2. Click the link for **Azure Active Directory**
 
@@ -25,7 +25,7 @@ Uninstalling the Teams video meeting service:
 
 5. Click the **Delete** button for the *VideoMeeings* app.
 
-    ![imageo2a0p.png][img2]
+    ![imageo2a0p.png -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: http://marketplace.zoom.us/

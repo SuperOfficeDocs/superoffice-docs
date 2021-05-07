@@ -22,7 +22,7 @@ GDPR imposes strict requirements on the way a business collects, stores, and use
 
 Suffice it to say that a CRM system alone cannot make your business GDPR compliant. GDPR encompasses 3 main areas that every business needs to consider - an understanding of the GDPR itself, and an understanding of the legal aspects of the regulation and how it will affect the way you handle personal data, and finally the systems to keep all your customer data.
 
-![x][img1]
+![x -screenshot][img1]
 
 Your SuperOffice solution is such a system that supports the collection and management of personal data in a secure system.
 
@@ -30,7 +30,7 @@ Your SuperOffice solution is such a system that supports the collection and mana
 
 SuperOffice CRM can support the [8 GDPR privacy rights][1] across the entire personal data lifecycle: from the 1st time you collect a contact’s data and register it in your CRM system, to the point when you no longer need to store it.
 
-![x][img2]
+![x -screenshot][img2]
 
 ## Disclaimer
 

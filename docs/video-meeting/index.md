@@ -44,14 +44,14 @@ so.client: online
 {burl}
 
 **New Meeting - example:**
-![image99xdi.png][img1]
+![image99xdi.png -screenshot][img1]
 
 The Video Meeting URL will be added to the **Location** field if it is left blank.
 
 With SuperOffice Mail Link, the Video Meeting URL is added to the appointment text automatically ("Join meeting: ...")
 With SuperOffice Inbox, you need to update the invitation template.
 
-![imageloql6.png][img2]
+![imageloql6.png -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: create-video-meeting.md

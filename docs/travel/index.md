@@ -14,7 +14,7 @@ so.client: win
 
 SuperOffice Travel is a sub-system of SuperOffice Win client that enables you to take the CRM database with you and run it locally on a computer, without being connected to the network and the main database.
 
-![1][img1]
+![1 -screenshot][img1]
 
 When you have used the Travel version and made changes in the local database, you can update the main database so that these changes become available to other users.
 

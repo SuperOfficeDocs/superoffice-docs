@@ -27,7 +27,7 @@ Check out the [system requirements][2].
 
 ## Starting up Web Tools
 
-![Starting up Web Tools][img3]
+![Starting up Web Tools -screenshot][img3]
 
 After Web Tools have finished starting up, it will resume incomplete tasks.
 
@@ -35,7 +35,7 @@ The tasks files are stored in *%localappdata%SuperOffice\SuperOffice 7 Web Exten
 
 ## Document editing
 
-![Opening up a document in Sales and Marketing][img4]
+![Opening up a document in Sales and Marketing -screenshot][img4]
 
 ## Authentication
 

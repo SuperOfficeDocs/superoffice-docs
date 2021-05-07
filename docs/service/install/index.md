@@ -153,7 +153,7 @@ As a consequence, you must verify that this communication system is working when
 > [!CAUTION]
 > If you use encrypted *web.config* you can't read the Symmetric key values directly. You need to open the SuperOffice Web Product configuration tool, go to the Security section, and copy the keys from there.
 
-![image.png][img1].
+![image.png -screenshot][img1].
 
 ## Start the scheduler
 

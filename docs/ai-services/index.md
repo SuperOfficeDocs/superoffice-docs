@@ -15,7 +15,7 @@ so.client: online
 * Use CRM Online and have [signed up for the SuperOffice AI Pilot Program][1]
 * Complete or Service user plan
 
-![navigator][img1]
+![navigator -screenshot][img1]
 
 ## Available services
 

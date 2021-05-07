@@ -20,7 +20,7 @@ To apply the best practice HTTPS configuration on a Windows server, we can run a
     > [!NOTE]
     > The following must be done with administrator-level access.
 
-    ![Zip file content][img1]
+    ![Zip file content -screenshot][img1]
 
 2. Get a Powershell prompt by typing **powershell**. Then import the NSM Powershell module by entering the following commands:
 
@@ -29,7 +29,7 @@ To apply the best practice HTTPS configuration on a Windows server, we can run a
     & ‘.\\Apply NSM Schannel Policy.ps1’
     ```
 
-    ![Powershell][img2]
+    ![Powershell -screenshot][img2]
 
 3. Follow the instructions and the script will check for compliance with recommended settings, backup existing settings to a registry file, change the settings to comply, and run a final test.
 

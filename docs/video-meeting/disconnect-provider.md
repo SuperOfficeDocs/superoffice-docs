@@ -15,13 +15,13 @@ In the **Video meetings** tab you can disconnect the Zoom video meeti
 
 **To disconnect the video meeting service:**
 
-1. Click the preferences button ![preferences][img1] in the Navigator.
+1. Click the preferences button ![preferences -screenshot][img1] in the Navigator.
 2. Select the **Video meetings** tab.
 3. Click the **Configure** button. A new tab opens.
 4. If a service provider has already been selected, you can click **Disconnect**.
 5. A warning is displayed, click **OK** to continue.
 
-![image67mh.png][img2]
+![image67mh.png -screenshot][img2]
 
 Some providers that you uninstall too. These are:
 

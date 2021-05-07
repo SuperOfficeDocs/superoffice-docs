@@ -15,7 +15,7 @@ This program will process received wishlists from Travel users. A wishlist conta
 
 It is only possible to run the Remote Travel Server through SuperOffice Travel Gateway, and we recommend that it’s run after it should run after each time the update files are read from the travel users, normally once a day.
 
-![sorts][img1]
+![sorts -screenshot][img1]
 
 Based on the received wishlist SORTS will create an output file with a list of documents requested by the remote travel user. The next time the user is using SORT  the output file will be processed, and the missing or newer documents will be copied from the server to the local machine.
 

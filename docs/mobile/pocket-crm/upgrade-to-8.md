@@ -27,11 +27,11 @@ To automatically move users from using Pocket Server to NetServer, you have to m
 
 3. Restart Tomcat. Normally this can be done by restarting **PocketCRM** in Local services.
 
-    ![x][img1]
+    ![x -screenshot][img1]
 
 Now when you navigate to the Pocket configuration screen on your browser, you will see something like this:
 
-![x][img2]
+![x -screenshot][img2]
 
 Pocket users will then be redirected immediately when they restart the Pocket application.
 
@@ -42,7 +42,7 @@ For the Pocket user it is possible to verify the redirection by checking **Task 
 > [!NOTE]
 > Server URLs must end with the correct *ServicesXX* folder.
 
-![x][img3]
+![x -screenshot][img3]
 
 <!-- Referenced images -->
 [img1]: media/pocketservice.jpg

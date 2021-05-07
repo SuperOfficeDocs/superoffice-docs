@@ -36,7 +36,7 @@ Provisioning a partner application may involve configuration or settings in both
 
 5. When the customer clicks **Approve** it should automatically set up your app for the customer. Do remember to make sure visibility of example web panels is set to **Everyone**.
 
-![x][img1]
+![x -screenshot][img1]
 
 This example was presented at Expander World 2016. See also the full presentation from Expander world 2016 here: [Online Application Lifecycle presentation][1].
 

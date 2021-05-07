@@ -285,11 +285,11 @@ In this section, you add the [Reverse proxy][4] override if you want to export l
 
 **MSDN** [Configuration files][10]
 
-![imagef0sx9.png][img1]
+![imagef0sx9.png -screenshot][img1]
 
-![images95t.png][img2]
+![images95t.png -screenshot][img2]
 
-![image7tvjr.png][img3]
+![image7tvjr.png -screenshot][img3]
 
 <!-- Referenced links -->
 [1]: ../install/web-client/index.md

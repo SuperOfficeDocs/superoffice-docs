@@ -41,14 +41,14 @@ Yes, almost. All the customer data, like company, contact, sale, and project are
   * cscu - URL to *customer.fcgi*
   * csbl - URL to *blogic.fcgi*
 
-![imageu533bo.png][img12]
+![imageu533bo.png -screenshot][img12]
 
 * All scheduled tasks have been marked as disabled unless you chose to enable them in the wizard
 * Also - any SuperOffice App Store app that was authorized on your production database will not work in the test environment and you will have to sign up again if you want to use it in the test environment. The authorization/approval for the app to access a specific installation is a one-to-one link.
 
 If you have ERP sync apps in production you should log in to Settings and Maintenance and turn off automatic syncing. Since these apps are not authorized on the test tenant it will not sync, just generate errors.
 
-![imagemvheo.png][img13]
+![imagemvheo.png -screenshot][img13]
 
 > [!NOTE]
 > Any data that was created by the app will still be in your test environment, like the web panels that were automatically set up by the app. You may hide them in the test environment admin under.
@@ -61,7 +61,7 @@ We are aware that some use their SuperOffice production serial number on more th
 
 Each SuperOffice database sends information to us, that is both Onsite from version 8.0 and CRM Online, as part of our Terms of Service. This is both statistical and user information, and by clicking **Accept** on this dialog, we regularly receive information from your database regarding users and use.
 
-![x][img1]
+![x -screenshot][img1]
 
 When this is accepted, we will be updated if you for example retire an associate in your database. Now, if this is the production database and a real user that has been marked as retired, then this is OK. On the other hand, if you have made a copy of your production database, and as a test delete all users or several users, then this will affect you and your colleagues’ login to this community.
 
@@ -72,7 +72,7 @@ Also, we gather user statistics, this is information like how many rows are ther
 
 To turn off these settings, set both preferences to **No**.
 
-![x][img2]
+![x -screenshot][img2]
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/documentation/help/en/crm/9.2/webhelpadmin/index.htm#t=chap08%2FWebpanel.htm&rhsearch=web%20panel&rhsyns=%20

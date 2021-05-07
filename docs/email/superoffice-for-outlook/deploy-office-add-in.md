@@ -19,11 +19,11 @@ This will deploy SuperOffice for Outlook for a single user.
 2. Click **Get it now**.
 3. In the dialog box, confirm that you are signed in to your correct Office 365 user account, then click **Continue**.
 
-![image1ya58.png][img2]
+![image1ya58.png -screenshot][img2]
 
 The deployment is now complete. The SuperOffice add-in for Outlook should now be available from the three dots (More actions) in the right corner of an email.
 
-![imageewib5.png][img3]
+![imageewib5.png -screenshot][img3]
 
 **Read more:**
 

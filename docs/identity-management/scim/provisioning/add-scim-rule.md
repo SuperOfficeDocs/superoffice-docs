@@ -23,7 +23,7 @@ Let's look at how you can add a [SCIM rule][1] to map Azure AD users to SuperOff
 
 2. Click the plus sign (+) in the upper-right corner of the **User sync rules** pane.
 
-    ![add new SCIM rule][img1]
+    ![add new SCIM rule -screenshot][img1]
 
 3. Set which users the rule applies to:
 
@@ -32,7 +32,7 @@ Let's look at how you can add a [SCIM rule][1] to map Azure AD users to SuperOff
     * all users except those in a specific group
 4. Select the settings these users should be mapped to in SuperOffice.
 
-    ![SCIM fallback rule][img2]
+    ![SCIM fallback rule -screenshot][img2]
 
 5. Click **Save**.
 

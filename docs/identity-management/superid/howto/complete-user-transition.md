@@ -27,20 +27,20 @@ The 1st time an existing password user tries to sign in after an [identity provi
 
 1. The user must **sign in with the old SuperOffice password** to prove their identity.
 
-    ![Sign in][img1]
+    ![Sign in -screenshot][img1]
 
-    ![Use the old password][img2]
+    ![Use the old password -screenshot][img2]
 
 2. The user is prompted to **sign in using the identity provider**.
 
-    ![Sign in using identity provider][img3]
+    ![Sign in using identity provider -screenshot][img3]
 
 3. The **user gives consent** to sign in with the identity provider and authenticates. Does the user's browser have an active session from the identity provider?
 
     * If no – the user must sign in to the selected IdP account
     * If yes – the user continues with the selected IdP account
 
-    ![Sign in with Google][img4]
+    ![Sign in with Google -screenshot][img4]
 
 4. The user is signed in and **redirected** to the SuperOffice CRM Online tenant.
 

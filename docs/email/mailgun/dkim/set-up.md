@@ -42,7 +42,7 @@ To make sure no one else, besides your company orders a DKIM key for your domain
 
 1. Go to **Host Records** in the DNS console. The existing records for your Google account are there by default.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 2. We want to add the DKIM record from Mailgun. Click **Add New** to add the new DKIM record.
 
@@ -51,7 +51,7 @@ To make sure no one else, besides your company orders a DKIM key for your domain
     * Add "Address" value ("_v=DKIM1;_ k=rsa; p=XXX..") you received from us (see note above)
     * Choose "txt" as record type
 
-    ![x][img4]
+    ![x -screenshot][img4]
 
 3. Click **Save** to update the information.
 
@@ -80,13 +80,13 @@ Here, we have used [MX Toolbox][7]. "DKIM Record Lookup"
 
 1. Open the DKIM tool:
 
-    ![x][img1]
+    ![x -screenshot][img1]
 
 2. Add your domain name and "DKIM Selector" you received from us, and click **DKIM Lookup**.
 
 3. The result should show the values of your public DKIM key data:
 
-![x][img2]
+![x -screenshot][img2]
 
 ## Verify back to SuperOffice
 

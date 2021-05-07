@@ -15,17 +15,17 @@ This is step 5 in [connecting your provider][1]. It is provider-specific.
 
 1. Click **configure your video-provider** if needed:
 
-    ![imaged2zr2.png][img1]
+    ![imaged2zr2.png -screenshot][img1]
 
 2. You will be forwarded to the providers' authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
 
-    ![imagewvl4y.png][img2]
+    ![imagewvl4y.png -screenshot][img2]
 
-    ![imagecxj9r.png][img3]
+    ![imagecxj9r.png -screenshot][img3]
 
 3. Zoom has one additional configuration required: set your random password and click **Save**.
 
-    ![7y][img4]
+    ![7y -screenshot][img4]
 
 If it says "Connected to Zoom. Logged in as xxx, connected to custxxxx", and password filled under **Set Configurations**, you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
 

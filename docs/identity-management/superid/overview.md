@@ -13,7 +13,7 @@ SuperID is a sign-in service and a federation gateway towards the identity provi
 
 The [SuperID sign-in service][1] has 2 levels - basic and federated. Either with a SuperOffice password or delegated to an [identity provider (IdP)][2].
 
-![Golden key][img1]
+![Golden key -screenshot][img1]
 
 ## How does SuperID change my daily tasks?
 

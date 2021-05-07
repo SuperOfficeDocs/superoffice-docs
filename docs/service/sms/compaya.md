@@ -22,7 +22,7 @@ compaya_username=[username]
 compaya_password=[password]
 ```
 
-![x][img1]
+![x -screenshot][img1]
 
 Note - do not include the brackets.
 

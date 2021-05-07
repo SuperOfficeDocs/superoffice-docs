@@ -22,7 +22,7 @@ cm_serviceId =
 cm_username = cm_password =
 ```
 
-![x][img1]
+![x -screenshot][img1]
 
 Note - do not include the brackets.
 

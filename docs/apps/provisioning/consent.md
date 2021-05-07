@@ -24,13 +24,13 @@ The SuperOffice Operation Center stores information about when the application w
 
 No one **may** ask for a customer's username and password to gain access to the tenant's resources. Everyone must adhere to the following authorization sequence.
 
-![Authorization sequence][img1]
+![Authorization sequence -screenshot][img1]
 
 ### Post-approval
 
 The user who approved the application appears in the App Store with the date the application was added.
 
-![image5n4c.png][img2]
+![image5n4c.png -screenshot][img2]
 
 > [!NOTE]
 > A customer's administrator may authorize the application by clicking a link that includes your client ID. This will show the [consent dialog][6] for the application and as an administrator, they may click **I approve**.

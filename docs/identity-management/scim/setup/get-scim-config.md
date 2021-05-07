@@ -25,7 +25,7 @@ When setting up an Azure enterprise application for SCIM, you need to fetch the 
 
 3. Copy the tenant URL and token from the dialog box.
 
-    ![SCIM sync config][img1]
+    ![SCIM sync config -screenshot][img1]
 
 <!-- Referenced links -->
 [1]: ../sign-in-to-scim.md

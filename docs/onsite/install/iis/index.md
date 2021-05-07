@@ -26,13 +26,13 @@ SuperOffice uses Windows Communication Foundation (WCF). This means WCF must be 
 
 2. Then go to the **Role** for IIS and install ASP.Net support using **Add Role Services**.
 
-![asp][img1]
+![asp -screenshot][img1]
 
 ### Make sure IIS 6 Metabase Compatibility is installed in the correct location
 
 **IIS 6 Metabase Compatibility** must be installed under **IIS 6 Management Compatibility** under **Management Tools**. This is needed in the web installer to choose sites.
 
-![metabase][img2]
+![metabase -screenshot][img2]
 
 Plus any authentication methods that you wish to use.
 
@@ -53,17 +53,17 @@ Plus any authentication methods that you wish to use.
 
 4. Click the server name and double click **ISAPI and CGI Restrictions**.
 
-    ![IIS][img3]
+    ![IIS -screenshot][img3]
 
 5. Click **Edit Feature Settings..** and check **Allow unspecified CGI modules**.
 
-    ![Allow unspecified CGI modules][img4]
+    ![Allow unspecified CGI modules -screenshot][img4]
 
     If you do not want to **Allow unspecified CGI modules** it is also possible to use "Add..." to add each CGI file separately. This, however, requires you to make sure any new CGI files from Customer Service are added here.
 
 6. Click **Add...**, navigate to the *[Service installation]\www\scripts* folder, and add one by one all .exe files in this folder. For each, write some description and tick **Allow extension path** to execute.
 
-![add cgi][img5]
+![add cgi -screenshot][img5]
 
 ***
 

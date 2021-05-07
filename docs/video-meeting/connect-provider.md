@@ -21,19 +21,19 @@ so.client: online
 
 2. Choose the **Video meetings** tab.
 
-    ![imagekb02n.png][img1]
+    ![imagekb02n.png -screenshot][img1]
 
 3. Click **Configure** to start the configuration process. A new web browser window will open.
 
 4. Select a provider. Choose the provider your company uses for video meetings.
 
-    ![provider][img2]
+    ![provider -screenshot][img2]
 
 5. You will be forwarded to the providers' authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
 
 6. Verify configurations is active in SuperOffice. For example, "Your SuperOffice installation is configured with the following meeting service **Zoom**"
 
-    ![imagezo47s.png][img3]
+    ![imagezo47s.png -screenshot][img3]
 
 You may now start using Video Meetings in SuperOffice​!
 

@@ -17,7 +17,7 @@ See also the [SoTables.ini info][1] - but with CDD note that the priming data pr
 
 Since SuperOffice 8.1 DBSetup can create a *Database.log* file.
 
-![Database maintenance client ][img1]
+![Database maintenance client  -screenshot][img1]
 
 DbSetup/ServerSetup will create all tables, both SuperOffice and Service. Also, Service needs to tweak them a little, with its setup program.
 
@@ -139,7 +139,7 @@ The user name must be a valid employee or system user, not just a database user.
 
 Run consistency checks on the target database; and fix what problems may be fixed automatically.
 
-![Consistency checks available][img2]
+![Consistency checks available -screenshot][img2]
 
 When you press **Start** you will be presented with a choice of checks to run, and estimates of the size of each check.
 

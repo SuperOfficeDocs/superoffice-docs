@@ -54,7 +54,7 @@ Service uses both ODBC and NetServer connection.
 
 Migration Tool uses ADO.NET to connect to the database. It also uses Win client to read some information from the SuperOffice database. If Win client is not installed a user will get the following dialog and will have to type in the answers manually.
 
-![Migration Tool][img1]
+![Migration Tool -screenshot][img1]
 
 ***
 

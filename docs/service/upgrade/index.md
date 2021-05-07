@@ -38,7 +38,7 @@ You need IIS version 7.5 or a patched version of 7.0. The Microsoft implementati
 3. Select the particular installation you want to upgrade in the list.
 4. Click next.
 
-![x][img1]
+![x -screenshot][img1]
 
 > [!NOTE]
 > When the installer finishes, you will need to run the upgrade.exe command. This must be done after every Customer Service upgrade, and the particulars for upgrading from version 7.5 to version 8.0 are explained in the next section.
@@ -63,7 +63,7 @@ When the installer is done upgrading the files to version 8.0, you need to run t
 3. The upgrade.exe program will ask you some questions of which there are 3 main new areas of interest: website name, FastCGI, and attachments (described below).
 4. Flush the cache: Navigate to `http://your-site/scripts/rms.exe?action=debug` and click **Flush caches** at the bottom.
 
-![x][img2]
+![x -screenshot][img2]
 
 ### The website name
 

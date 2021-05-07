@@ -48,14 +48,14 @@ Since you are upgrading the client on a computer, there is information you can u
     1. [Locate and open SuperOffice.ini][7].
     2. Copy the address after `"Centralpath="`
 
-    ![superoffice-ini_centralpath][img1]
+    ![superoffice-ini_centralpath -screenshot][img1]
 
 2. Open the file path to where the server installation is - in file explorer
 
     1. Open the Run dialog (open it either from the Windows Start menu, choose **Run** or press Windows-key + R.
     2. Paste or write the address for CentralPath and click **OK**.
 
-    ![run_centralpath][img3]
+    ![run_centralpath -screenshot][img3]
 
 3. Find the folder *Client* on the server and run **SuperOffice8.exe**
 

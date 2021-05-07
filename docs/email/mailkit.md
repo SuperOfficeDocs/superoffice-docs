@@ -36,7 +36,7 @@ On by default on 8.1
 3. Save *web.config*.
 4. Recycle the application pool.
 
-![x][img1]
+![x -screenshot][img1]
 
 ## How to troubleshoot MailKit
 

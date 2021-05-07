@@ -30,14 +30,14 @@ You need to sign in to our Identity Manager to set up and to update the mapping 
 
 2. Sign in with your registered **SuperOffice admin account**.
 
-    ![Sign-in dialog][img1]
+    ![Sign-in dialog -screenshot][img1]
 3. **Pick the Azure AD account** from the IdP. Enter your password if you are not already signed in.
 
-    ![x][img2]
+    ![x -screenshot][img2]
 
     After authentication, the IdP redirects you back to the **Identity Manager start page**.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 <!-- Referenced links -->
 [1]: https://cloudintegration-sod.superoffice.com/app/scim-config

@@ -23,17 +23,17 @@ These steps were documented using Visual Studio 2015.
 
 2. In the **New Project** dialog, expand the **WCF** section and select to create a new **WCF Service Application**.
 
-    ![x][img1]
+    ![x -screenshot][img1]
 
 3. In the **Solution Explorer**, delete the following files: *IService1.cs*, *Service1.svc*, and *Service1.cs*.
 
     Before:
 
-    ![x][img2]
+    ![x -screenshot][img2]
 
     After:
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 ## Install the NuGet package
 
@@ -43,7 +43,7 @@ These steps were documented using Visual Studio 2015.
 
 2. Start the installation by typing: `Install-Package SuperOffice.Crm.Online.Mirroring`
 
-    ![x][img4]
+    ![x -screenshot][img4]
 
 3. Verify that the packages have been added:
 
@@ -52,7 +52,7 @@ These steps were documented using Visual Studio 2015.
     2. Confirm that you have a new assembly references and that the following files have been added to your project: *MirroringClientService.svc*, *MirroringClientService.cs,* and *Private.txt*.
     3. Open the *package.config* file and check that you now have the new Mirroring package and its 2 dependencies. Your package versions may be different, and that is OK.
 
-    ![x][img5]
+    ![x -screenshot][img5]
 
 > [!TIP]
 > During installation, you will see a lot of data scroll by in the NuGet **Package Manager Console**. The Package Manager inspects the `SuperOffice.Crm.Online.Mirroring` package and tries to download and add dependencies to your project.
@@ -66,13 +66,13 @@ These steps were documented using Visual Studio 2015.
 
 These are underlined with red in the following screenshot:
 
-![x][img6]
+![x -screenshot][img6]
 
 ## Update settings in web.config
 
 The functionality in the *MirroringClientService.cs* file helps you resolve a tenant's context identifier to a particular database, create the database if necessary, discover and provide the service's **ApplicationToken**, as well as the private certificate key it must use to sign the token placed in the **AuthenticationResponse** message. However, you must still provide those key pieces of information in the project's *web.config* file.
 
-![x][img7]
+![x -screenshot][img7]
 
 ### appSettings section
 
@@ -86,13 +86,13 @@ The functionality in the *MirroringClientService.cs* file helps you resolve a te
 
 You get the private certificate key for SOD from SuperOffice. **You must provide your own certificates for the stage and production environments.**
 
-![x][img8]
+![x -screenshot][img8]
 
 ### system.serviceModel section
 
 Now present is a binding **ExtendedMaxSize**, because synchronizing database requires a lot of data, and in the services section a new service entry for the mirroring service.
 
-![x][img9]
+![x -screenshot][img9]
 
 ## Expose service to a public secure URL
 
@@ -102,14 +102,14 @@ In the *solution* directory, right-click the *MirroringClientServer.svc* file, t
 
 Assuming everything is correctly in place, you will see the default IIS or IISExpress web service page.
 
-![x][img10]
+![x -screenshot][img10]
 
 Finally, you will want to expose this service to a public HTTPS URL for the [SuperOffice Mirroring Task][2] to access it.
 
 **This will be the URL you must give SuperOffice when registering your application.**
 Remember to specify this URL as the Database Mirror URL, not the Redirect URL.
 
-![x][img11]
+![x -screenshot][img11]
 
 <!-- Referenced links -->
 [1]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring

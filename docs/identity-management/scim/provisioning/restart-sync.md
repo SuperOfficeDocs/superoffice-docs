@@ -22,7 +22,7 @@ If you suspect Azure AD and SuperOffice are out of sync, you might need to resta
 
 2. Click the trashcan icon in the **SCIM Users** pane to clear all synchronized items from the database.
 
-    ![Reset scim sync in SuperOffice tool][img1]
+    ![Reset scim sync in SuperOffice tool -screenshot][img1]
 
 3. After the Azure AD cycle has completed and you see that the **SCIM Users** pane has been repopulated, click **Save** to restore your SCIM rules.
 
@@ -30,13 +30,13 @@ If you suspect Azure AD and SuperOffice are out of sync, you might need to resta
 
 1. Select **Clear current state and start resynchronization** and then click **Save**.
 
-    ![Reset SCIM sync in AAD][img2]
+    ![Reset SCIM sync in AAD -screenshot][img2]
 
-    The **Current Status** changes to *Initial cycle not run*. ![scim user sync started][img3]
+    The **Current Status** changes to *Initial cycle not run*. ![scim user sync started -screenshot][img3]
 
 2. Refresh the **Current Status**, and when it changes to *Initial cycle completed* verify that the SuperOffice Identity Manager has received the expected users and groups.
 
-    ![scim aad initial cycle not run][img4]
+    ![scim aad initial cycle not run -screenshot][img4]
 
 <!-- Referenced images -->
 [img1]: media/imagew9x2g.png

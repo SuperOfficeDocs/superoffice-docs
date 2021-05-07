@@ -54,7 +54,7 @@ When creating the AREA data source, you only need to go through the first page o
 
 On the first page, fill in the name AREA and choose the correct SQL Server.
 
-![x][img1]
+![x -screenshot][img1]
 
 <!-- Referenced links -->
 

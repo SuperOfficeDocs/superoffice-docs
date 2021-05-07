@@ -21,27 +21,27 @@ If the IIS website is not created, first run the installer for Service (SuperOff
 
 If the website is created, then you may create the application first, and just point the path to the default location for Customer Service: *c:superoffice*
 
-![x][img1]
+![x -screenshot][img1]
 
 Run the SuperOffice.CustomerService.exe to install the software on the server, the default location is *c:\superoffice*.
 
-![x][img2]
+![x -screenshot][img2]
 
 If you upgrade an existing site, do not tick the Create IIS website since it will cause the installer to fail. , we will create/update the application manually.
 
-![x][img3]
+![x -screenshot][img3]
 
 Either set up a new application under `socrm.myorganization.com` for Service or edit the one you created earlier. Point the physical path to the *Customer service\www\doc* folder, in this example, it would be *c:\SuperOffice\Customer Service\www\doc* folder
 
-![x][img4]
+![x -screenshot][img4]
 
 Below service, you also need to add 2 applications, one for scripts, which points to the *Customer Service\www\scripts* folder. Make sure it uses the same application pool as the Service application.
 
-![x][img5]
+![x -screenshot][img5]
 
 And one application for csplugins pointing to *\customer service\www\csplugins*
 
-![x][img6]
+![x -screenshot][img6]
 
 ## Make sure NetServer is available first
 
@@ -49,7 +49,7 @@ You need remote web services / NetServer installed on the same domain, in this e
 
 Browse to `http://socrm.myorganization.com/Sales/Remote/Services84/Contact.svc` to verify before the ejTermSetup.exe is run to prime the database for Service.
 
-![x][img8]
+![x -screenshot][img8]
 
 ## Continue with priming the database for Service
 
@@ -57,7 +57,7 @@ ejTermSetup.exe is only run for NEW installations
 
 Now run ejTermSetup found in the Bin folder, when asked for Hostname give the path including the application, s`ocrm.myorganization.com/service` which will correctly set the value for database table registry where `reg_id = 109` to /service/
 
-![x][img9]
+![x -screenshot][img9]
 
 When ejtermsetup later asks for **The full HTTP Path to your server (for URLs)**, then just use the hostname without sub-application, like `http://socrm.myorganization.com`. It will in most cases default to the correct URL.
 
@@ -65,11 +65,11 @@ When asked for the **NetServer URL** you give the URL for NetServer created on t
 
 From SuperOffice 8.1, all authentication for all clients will be done by the web client, and after successfully authenticating a session key is stored in a browser cookie. This is why Sales and Service must be installed on the same domain.
 
-![x][img10]
+![x -screenshot][img10]
 
 After completing the ejTermSetup you may start `https://socrm.myorganization.com/service/scripts/rms.fcgi` (or.exe) - note that if your screen is completely missing pictures, then it's the `reg_id=109` that has a wrong value.
 
-![x][img11]
+![x -screenshot][img11]
 
 ## Verify the database registry and config table values
 
@@ -79,11 +79,11 @@ If Service is installed in a sub-folder of the domain named *service*, then
 
 should have value */service/*
 
-![x][img12]
+![x -screenshot][img12]
 
 `select cgi_bin, cgi_url, cgi_url_internal from crm7.config`
 
-![x][img13]
+![x -screenshot][img13]
 
 <!-- Referenced links -->
 [1]: ../../onsite/install/netserver/index.md

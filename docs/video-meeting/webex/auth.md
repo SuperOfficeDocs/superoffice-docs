@@ -24,21 +24,21 @@ This is step 5 in [connecting your provider][1]. It is provider-specific.
 
     The SuperOffice app for Cisco Webex integration ID will be added to your Cisco Webex admin page at [https://admin.webex.com][2]:
 
-    ![imageb11q.png][img1]
+    ![imageb11q.png -screenshot][img1]
 
 2. You will be forwarded to the providers' authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
 
-    ![imaget1zxp.png][img2]
+    ![imaget1zxp.png -screenshot][img2]
 
-    ![imageqstfq.png][img3]
+    ![imageqstfq.png -screenshot][img3]
 
-    ![imageb9iy.png][img4]
+    ![imageb9iy.png -screenshot][img4]
 
-    ![image1jawz.png][img5]
+    ![image1jawz.png -screenshot][img5]
 
 3. Webex Meetings has some additional configurations, only a password is required: set your random password and click **Save**.
 
-    ![imageezby.png][img6]
+    ![imageezby.png -screenshot][img6]
 
 If it says "Connected to Webex. Logged in as xxx, connected to custxxxx", and password filled under **Set Configurations**, you may close this browser window - to go back to SuperOffice Settings and maintenance to confirm the setup.
 

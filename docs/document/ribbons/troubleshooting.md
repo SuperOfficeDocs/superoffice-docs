@@ -17,15 +17,15 @@ SuperOffice Ribbons is build upon Microsoft Office VSTO, and you can turn on tro
 
 1. Add a new environment variable: Control Panel > System and Security > System > Advanced System Settings, under System Variables. `VSTO_SUPPRESSDISPLAYALERTS = 0`
 
-    ![x][img1]
+    ![x -screenshot][img1]
 
 2. Make sure "LoadBehavior in the window registry is set to "3". This will make sure the Office application will try to start the add-in.
 
-    ![x][img2]
+    ![x -screenshot][img2]
 
 3. Start the Microsoft Office application, read the error message that pops up.
 
-    ![x][img3]
+    ![x -screenshot][img3]
 
 This example shows it was Office 2007 missing SO Ribbons. The solution is to install Microsoft Visual Studio 2010 Tools for Office Runtime.
 

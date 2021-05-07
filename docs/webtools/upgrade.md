@@ -17,7 +17,7 @@ When the user logs in to an updated Web installation, Web Tools will detect ther
 
 The prompt to upgrade can be disabled in scenarios where you don’t want to push a new version of Web Tools. The configuration setting `SuperOffice\Downloads\WebToolVersion` in the *web.config* file can be set to a previous version. The user will still be able to upgrade to the latest version by pressing Download in the web client.
 
-![Logging in to Sales and Marketing (upgrade)][img4]
+![Logging in to Sales and Marketing (upgrade) -screenshot][img4]
 
 ## Hide Web Tools download dialog
 
@@ -40,7 +40,7 @@ Open *web.config* on the server where Sales & Marketing web is installed and a
 ...
 ```
 
-![x][img1]
+![x -screenshot][img1]
 
 Now below `</Documents>` add the following new
 
@@ -50,7 +50,7 @@ Now below `</Documents>` add the following new
 </Downloads>
 ```
 
-![x][img2]
+![x -screenshot][img2]
 
 the value must be the same version as the DLL files in the MSI.
 
@@ -62,7 +62,7 @@ This should never be the default solution. We release new versions of WebTools b
 
 If you are unsure which Web Tools version you have, right-click on any DLL starting with SuperOffice in the SuperOffice Mail Link folder and check the Details tab. The version number you are looking for is the Product version.
 
-![x][img3]
+![x -screenshot][img3]
 
 <!-- Referenced links -->
 [img1]: media/2018-06-11.png

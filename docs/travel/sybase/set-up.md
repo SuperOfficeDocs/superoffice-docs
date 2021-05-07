@@ -39,9 +39,9 @@ If you want to change the location of the local document archive or the travel d
 
 ### Change the local datasource
 
-![1][img1]
+![1 -screenshot][img1]
 
-![2][img2]
+![2 -screenshot][img2]
 
 Make sure the local *SuperOffice.ini* now says `Local_Datapath=ODBC:MYTravelDB`
 

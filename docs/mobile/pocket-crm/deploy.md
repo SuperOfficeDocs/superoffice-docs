@@ -45,7 +45,7 @@ Pocket CRM uses SuperOffice NetServer so we need to verify that the Pocket CRM c
 
 Open a browser and enter the domain name address to the remote NetServer installation. Example: `http://servername.youcompany.com/NetServer/sale.svc` Result should look like this:
 
-![x][img1]
+![x -screenshot][img1]
 
 Clients installed on mobile phones uses this address to communicate. This server address (URL) must be reachable from the mobile phones (from the internet).
 
@@ -56,7 +56,7 @@ Clients installed on mobile phones uses this address to communicate. This server
 
 All Pocket CRM users need a Pocket CRM license. Admin needs to set this in the Admin client > users:
 
-![x][img2]
+![x -screenshot][img2]
 
 ## Steps 3-4: get the app on the mobile device
 
@@ -70,7 +70,7 @@ To make it easier to configure the URL for Pocket CRM, it is recommended that th
 
 You can send a predefined email with this URL by clicking **Pocket CRM settings** from the SuperOffice Web client:
 
-![x][img5]
+![x -screenshot][img5]
 
 > [!NOTE]
 > To change the URL that is sent out in this email, changes have to be done in *web.config* for NetServer under:

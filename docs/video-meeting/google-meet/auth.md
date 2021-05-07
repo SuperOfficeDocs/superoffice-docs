@@ -15,15 +15,15 @@ This is step 5 in [connecting your provider][1]. It is provider-specific.
 
 1. You will be forwarded to the providers' authentication portal to authenticate and validate your user and to confirm you allow to connect it to SuperOffice.
 
-    ![imageaq45c.png][img1]
+    ![imageaq45c.png -screenshot][img1]
 
-    ![imagevja1.png][img2]
+    ![imagevja1.png -screenshot][img2]
 
-    ![imagenw4gm.png][img3]
+    ![imagenw4gm.png -screenshot][img3]
 
 2. After authentication and confirmation is completed, you'll be redirected back to SuperOffice Video Meetings settings
 
-    ![imagemzlj8.png][img4]
+    ![imagemzlj8.png -screenshot][img4]
 
 If it says "Logged in as xxx and connected to Google" under **Configure settings**, you may close this browser window - to go back to SuperOffice "Settings and maintenance" to confirm the setup.
 

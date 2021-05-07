@@ -34,27 +34,27 @@ There are also other 4 places where you will need to make a change to the new SO
 
 1. In the *SuperOffice.ini* file (Archivepath line) found in SuperOffice Server installation’s folder.
 
-    ![imageoa6c9.png][img4]
+    ![imageoa6c9.png -screenshot][img4]
 
-    ![imagei4ebl.png][img5]
+    ![imagei4ebl.png -screenshot][img5]
 
 2. In *SuperOffice.ini* file (Archivepath line) on all computers that have SuperOffice Windows application installed.
 
-    ![image7byzr.png][img6]
+    ![image7byzr.png -screenshot][img6]
 
-    ![imageitfv.png][img7]
+    ![imageitfv.png -screenshot][img7]
 
 3. In SuperOffice Web application's Product configuration, Document archive section, Archive path location.
 
-    ![image3bdb8.png][img8]
+    ![image3bdb8.png -screenshot][img8]
 
-    ![imageitk5g.png][img9]
+    ![imageitk5g.png -screenshot][img9]
 
 4. Finally you want to create a new .mst file and remove the old one so that all the new SuperOffice Windows application installations will automatically have the correct SO Arc reference.
 
-    ![imagep6lxc.png][img10]
+    ![imagep6lxc.png -screenshot][img10]
 
-    ![image3omzh.png][img1]
+    ![image3omzh.png -screenshot][img1]
 
 ## SuperOffice database on Microsoft SQL Server or Oracle
 
@@ -78,9 +78,9 @@ All clients must be uninstalled, then run SuperOffice8.exe from the *server\clie
 
 Run SuperOffice Product configuration and update the information either for the Database settings or Document Archive.
 
-![Make sure you update the database settings correct][img2]
+![Make sure you update the database settings correct -screenshot][img2]
 
-![Make sure you update the document archive settings correct][img3]
+![Make sure you update the document archive settings correct -screenshot][img3]
 
 ## Service
 

@@ -37,9 +37,9 @@ The `IMirrorClientService` interface has 5 self-contained methods:
 
 The NuGet implementation is for Microsoft SQL Server only!
 
-![x][img1]
+![x -screenshot][img1]
 
-![x][img2]
+![x -screenshot][img2]
 
 No state is carried over from a call to the next. However, multiple calls may be active at the same time, for multiple customers, tables, or both. The only guarantee is that:
 
@@ -111,7 +111,7 @@ The SuperOffice NuGet implementation performs a truncate table command that remo
 
 You can choose to override any of the methods of the base class. For example, to inspect the parameters in detail, call the base implementation, and perform other related functions. This is useful if the existing `IMirrorAdmin` interface events are insufficient.
 
-![x][img3]
+![x -screenshot][img3]
 
 Partner code can use this call when it needs to adjust its data, remove indexes, or perform other preparatory functions.
 

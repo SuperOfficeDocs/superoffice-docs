@@ -29,7 +29,7 @@ so.client: online            # online, web, win, pocket, or mobile
 
 Versions earlier than 2001 of the Outlook desktop app do not work in Send and Archive, because they miss APIs.
 
-![imagecaqul.png][img1]
+![imagecaqul.png -screenshot][img1]
 
 The current released add-on version (via the MS App Source) do not support Mobile phones (the mobile device API).
 

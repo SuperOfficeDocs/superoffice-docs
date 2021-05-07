@@ -17,7 +17,7 @@ However, there are companies where users are not allowed to install software on 
 
 If Web Tools are already installed, or if you for other reasons wish to configure it, it is possible to use **SoConfig** files for the initial setup:
 
-![Example of a SoConfig file][img1]
+![Example of a SoConfig file -screenshot][img1]
 
 When deploying through GPO or other alternatives, executing the *SoConfig* file during the log-on process will set up Web Tools for the user. The site will not be added again if it has already been added.
 
