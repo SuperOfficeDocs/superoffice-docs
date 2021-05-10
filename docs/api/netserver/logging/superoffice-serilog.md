@@ -1,5 +1,5 @@
 ---
-uid: logging      
+uid: logging-serilog      
 title: SuperOffice.Serilog
 author: xt1
 so.date: 2021-05-07

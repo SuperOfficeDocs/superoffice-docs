@@ -33,6 +33,30 @@ In other words, if your config file says
 
 then your logger plugin will not see any warnings, no matter what you specify in the logger's configuration.
 
+## Log Levels
+
+The NetServer config supports the following log levels, in descending order
+
+* Error
+* Warning
+* Information
+* Debug
+* Trace
+
+These can be turned on or off individually:
+
+```xml
+   <Diagnostics>
+     <add key="LogError" value="true">
+     <add key="LogWarning" value="false">
+     <add key="LogInformation" value="false">
+     <add key="LogDebug" value="true">
+     <add key="LogTrace" value="false">
+   </Diagnostics>
+```
+
+This will log **Error** and **Debug** messages, but not warnings, information, or trace messages.
+
 ## Filtering the logs
 
 The NetServer config file supports filtering logging to specific namespaces or classes.
@@ -46,7 +70,7 @@ The NetServer config file supports filtering logging to specific namespaces or c
 
 tells the logger to only log warnings from the *SuperOffice.Data* namespace.
 
-The log...from supports class names and namespaces.
+The **Log...From** supports both class names and namespaces.
 
 To log from a specific class:
 
