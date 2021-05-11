@@ -160,6 +160,19 @@ items:
         href: ../netserver/bulk-operations/mass-operations/upsert.md
       - name: Protected Tables
         href: ../netserver/bulk-operations/mass-operations/protected-tables.md
+- name: Logging
+  href: ../netserver/logging/index.md
+  items:
+  - name: Filter logs
+    href: ../netserver/logging/filter-logs.md
+  - name: The standard NetServer logger
+    href: ../netserver/logging/standard-netserver-log.md
+  - name: About Serilog
+    href: ../netserver/logging/serilog.md
+  - name: Configure Serilog
+    href: ../netserver/logging/configure-serilog.md
+  - name: Create a custom logger
+    href: ../netserver/logging/create-custom-logger.md
 - name: Search APIs
   items:
   - name: Find Selection API
