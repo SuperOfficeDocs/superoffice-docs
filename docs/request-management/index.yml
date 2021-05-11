@@ -23,6 +23,18 @@ highlightedContent:
     - title: User-help pages
       itemType: reference
       url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/Service/topics/ticket.html
+    # Card
+    - title: Template variables
+      itemType: reference
+      url: ../document/templates/variables/for-service.md
+    # Card
+    - title: Reply templates
+      itemType: concept
+      url: ../reply-templates/index.md
+    # Card
+    - title: Ticket database table
+      itemType: reference
+      url: ../../../database/docs/tables/ticket.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -152,6 +164,9 @@ conceptualContent:
       - text: Webhooks - ticket events
         itemType: reference
         url: ../../../data-access/docs/netserver/webhooks/reference/ticket-events.md
+      - text: Zapier
+        itemType: reference
+        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
     - title: API options

@@ -23,6 +23,18 @@ highlightedContent:
     - title: User-help pages
       itemType: reference
       url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap03/Companies.htm
+    # Card
+    - title: Template variables
+      itemType: reference
+      url: ../document/templates/variables/from-company-card.md
+    # Card
+    - title: Address formats
+      itemType: reference
+      url: https://community.superoffice.com/documentation/help/EN/CRM/9.2/UserHelp/index.htm#t=StandardCRM%2Fchap03%2FAddress_formats_for_different_countries.htm
+    # Card
+    - title: Contact database table
+      itemType: reference
+      url: ../../../database/docs/tables/contact.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -104,6 +116,12 @@ conceptualContent:
       - text: Webhooks
         itemType: reference
         url: ../../../data-access/docs/netserver/webhooks/reference/contact-events.md
+      - text: Zapier
+        itemType: reference
+        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
+      - text: SCIM - sync company
+        itemType: how-to-guide
+        url: ../identity-management/scim/provisioning/sync-company.md
 
     # Card
     - title: API options

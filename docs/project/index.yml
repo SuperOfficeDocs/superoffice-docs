@@ -23,6 +23,10 @@ highlightedContent:
     - title: User-help pages
       itemType: reference
       url: https://community.superoffice.com/documentation/help/en/crm/9.2/userhelp/StandardCRM/chap05/Project.htm
+    # Card
+    - title: Template variables
+      itemType: reference
+      url: ../document/templates/variables/from-project-card.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -107,6 +111,9 @@ conceptualContent:
       - text: Webhooks - project member events
         itemType: reference
         url: ../../../data-access/docs/netserver/webhooks/reference/project-member-events.md
+      - text: Zapier
+        itemType: reference
+        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
     - title: API options

@@ -38,7 +38,7 @@ highlightedContent:
     # Card
     - title: "Template variable reference"
       itemType: reference
-      url: templates/variables/from-company-card.md
+      url: templates/variables/from-doc-dialog-or-system.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -114,6 +114,9 @@ conceptualContent:
       - text: Triggers
         itemType: concept
         url: ../automation/trigger/index.md
+      - text: Zapier
+        itemType: reference
+        url: https://community.superoffice.com/documentation/help/EN/Zapier/1.0/ZapierHelp/topics/What_SuperOffice_triggers_and_actions_are_supported.htm
 
     # Card
     - title: API options
