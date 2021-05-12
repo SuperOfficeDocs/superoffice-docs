@@ -39,7 +39,12 @@ Configuration of diagnostic logging tools.
 |---|---|
 | LogError | Determines whether error messages are logged.<br>Default: true |
 | LogWarning | Determines whether warning messages are logged.<br>Default: false |
-| LogInformation | Log general information. This includes successful SQLs passed to the database. Only permit this option while debugging a bug. This will be a severe performance hit!<br>Default: false |
+| LogInformation | Log general information. Only use this option while debugging. This will be a performance hit!<br>Default: false |
+| LogInformationFrom | Comma separated list of classes, namespaces to log from. Filters the information logging. |
+| LogDebug | Log debug information. This includes successful SQLs passed to the database. Only use this option while debugging. This will be a severe performance hit!<br>Default: false |
+| LogDebugFrom | Comma separated list of classes, namespaces to log from. Filters the debug logging. |
+| LogTrace | Log trace information. This includes a lot of information. Only use  this option while debugging. This will be a severe performance hit!<br>Default: false |
+| LogTraceFrom | Comma separated list of classes, namespaces to log from. Filters the trace logging. |
 | LogFailureAudit | Log failed authentications.<br>Default: true |
 | LogSuccessAudit | Log successful authentications.<br>Default: false |
 | LogToEventLog | Log to the OS event log.<br>Default: true |
@@ -63,3 +68,7 @@ Configuration of diagnostic logging tools.
 | EnableResourceTracer | Enable tracing of resource usage per operation to trace. |
 | UsageStatUrl | URL for reporting Usage Statistics. |
 | UserSyncUrl | URL for synchronizing user information. |
+
+Logging is now done through [Logging plugins][1] - so there may be additional configuration needed, depending on your logging plug-in.
+
+[1]: ../logging/index.md
