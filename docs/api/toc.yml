@@ -108,6 +108,19 @@ items:
     href: netserver/config/webhooks.md
   - name: WebServices
     href: netserver/config/webservices.md
+- name: Logging
+  href: netserver/logging/index.md
+  items:
+  - name: Filter Namespaces and Classes
+    href: netserver/logging/filter-logs.md
+  - name: Standard NetServer Logging
+    href: netserver/logging/standard-netserver-log.md
+  - name: Using SerilLog
+    href: netserver/logging/serilog.md
+  - name: Configure SerilLog
+    href: netserver/logging/configure-serilog.md
+  - name: Custom logger
+    href: netserver/logging/create-custom-logger.md
 - name: Web Services
   href: netserver/services/index.md
   items:

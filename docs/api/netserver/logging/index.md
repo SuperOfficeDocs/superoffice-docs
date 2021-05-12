@@ -59,7 +59,7 @@ This will log **Error** and **Debug** messages, but not Warning, Information, or
 > [!TIP]
 > You can also [filter the logs][3].
 
-## ILoger options
+## ILogger options
 
 * [Use the standard NetServer logger][4]
 * [Use Serilog][5]
