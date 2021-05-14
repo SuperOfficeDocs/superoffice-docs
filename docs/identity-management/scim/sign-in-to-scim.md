@@ -20,6 +20,7 @@ You need to sign in to our Identity Manager to set up and to update the mapping 
 **Environments:**
 
 | Environment | URL |
+| ------------- | ------------- |
 | Development (SOD) | [https://cloudintegration-sod.superoffice.com/app/scim-config][1] |
 | Stage | [https://cloudintegration-stage.superoffice.com/app/scim-config][2] |
 | Production | [https://cloudintegration.superoffice.com/app/scim-config][3] |
