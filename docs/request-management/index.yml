@@ -207,3 +207,18 @@ conceptualContent:
       - text: Message table
         itemType: reference
         url: ../../../database/docs/tables/message.md
+      - text: Contact table
+        itemType: reference
+        url: ../../../database/docs/tables/contact.md
+      - text: Person table
+        itemType: reference
+        url: ../../../database/docs/tables/person.md
+      - text: EjUser table
+        itemType: reference
+        url: ../../../database/docs/tables/ejuser.md
+      - text: EjCategory table
+        itemType: reference
+        url: ../../../database/docs/tables/ej-category.md
+      - text: Form submission table
+        itemType: reference
+        url: ../../../database/docs/tables/form-submission.md

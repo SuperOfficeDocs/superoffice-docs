@@ -39,6 +39,10 @@ highlightedContent:
     - title: "Template variable reference"
       itemType: reference
       url: templates/variables/from-doc-dialog-or-system.md
+    # Card
+    - title: "Document table"
+      itemType: reference
+      url: ../../../database/docs/tables/document.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -103,6 +107,12 @@ conceptualContent:
       - text: Custom fields
         itemType: overview
         url: ../../../data-access/docs/custom-fields/overview.md
+      - text: UddocSmall table
+        itemType: reference
+        url: ../../../database/docs/tables/uddocsmall.md
+      - text: UddocLarge table
+        itemType: reference
+        url: ../../../database/docs/tables/uddoclarge.md
 
     # Card
     - title: Actions options
@@ -145,9 +155,27 @@ conceptualContent:
       - text: Document table
         itemType: reference
         url: ../../../database/docs/tables/document.md
+      - text: SuggestedDocument table
+        itemType: reference
+        url: ../../../database/docs/tables/suggesteddocument.md
       - text: DocTmpl table
         itemType: reference
         url: ../../../database/docs/tables/doctmpl.md
+      - text: Associate table
+        itemType: reference
+        url: ../../../database/docs/tables/associate.md
+      - text: Quote table
+        itemType: reference
+        url: ../../../database/docs/tables/quote.md
+      - text: Appointment table
+        itemType: reference
+        url: ../../../database/docs/tables/appointment.md
+      - text: UddocSmall table
+        itemType: reference
+        url: ../../../database/docs/tables/uddocsmall.md
+      - text: UddocLarge table
+        itemType: reference
+        url: ../../../database/docs/tables/uddoclarge.md
 
 # Card with summary style
 additionalContent:

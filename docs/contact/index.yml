@@ -108,6 +108,12 @@ conceptualContent:
       - text: How to add user-defined fields
         itemType: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+      - text: UdpersonSmall table
+        itemType: reference
+        url: ../../../database/docs/tables/udpersonsmall.md
+      - text: UdpersonLarge table
+        itemType: reference
+        url: ../../../database/docs/tables/udpersonlarge.md
 
     # Card
     - title: Actions options
@@ -168,3 +174,15 @@ conceptualContent:
       - text: Address table
         itemType: reference
         url: ../../../database/docs/tables/address.md
+      - text: Country table
+        itemType: reference
+        url: ../../../database/docs/tables/country.md
+      - text: Business table
+        itemType: reference
+        url: ../../../database/docs/tables/business.md
+      - text: UdpersonSmall table
+        itemType: reference
+        url: ../../../database/docs/tables/udpersonsmall.md
+      - text: UdpersonLarge table
+        itemType: reference
+        url: ../../../database/docs/tables/udpersonlarge.md

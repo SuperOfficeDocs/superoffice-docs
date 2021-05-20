@@ -31,6 +31,10 @@ highlightedContent:
     - title: Template variables
       itemType: reference
       url: ../document/templates/variables/for-appointments.md
+        # Card
+    - title: Appointment database table
+      itemType: reference
+      url: ../../../database/docs/tables/appointment.md
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -101,6 +105,12 @@ conceptualContent:
       - text: Custom fields
         itemType: overview
         url: ../../../data-access/docs/custom-fields/overview.md
+      - text: UdappntSmall table
+        itemType: reference
+        url: ../../../database/docs/tables/udappntsmall.md
+      - text: UdappntLarge table
+        itemType: reference
+        url: ../../../database/docs/tables/udappntlarge.md
 
     # Card
     - title: Actions options
@@ -149,6 +159,36 @@ conceptualContent:
       - text: Appointment table
         itemType: reference
         url: ../../../database/docs/tables/appointment.md
+      - text: Invitation table
+        itemType: reference
+        url: ../../../database/docs/tables/invitation.md
+      - text: RecurrenceRule table
+        itemType: reference
+        url: ../../../database/docs/tables/recurrencerule.md
+      - text: Priority table
+        itemType: reference
+        url: ../../../database/docs/tables/priority.md
       - text: DiaryView table
         itemType: reference
         url: ../../../database/docs/tables/diaryview.md
+      - text: Task table
+        itemType: reference
+        url: ../../../database/docs/tables/task.md
+      - text: Project table
+        itemType: reference
+        url: ../../../database/docs/tables/project.md
+      - text: SuggestedAppointment table
+        itemType: reference
+        url: ../../../database/docs/tables/suggestedappointment.md
+      - text: Associate table
+        itemType: reference
+        url: ../../../database/docs/tables/associate.md
+      - text: UserGroup table
+        itemType: reference
+        url: ../../../database/docs/tables/usergroup.md
+      - text: UdappntSmall table
+        itemType: reference
+        url: ../../../database/docs/tables/udappntsmall.md
+      - text: UdappntLarge table
+        itemType: reference
+        url: ../../../database/docs/tables/udappntlarge.md

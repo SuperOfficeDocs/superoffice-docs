@@ -102,6 +102,12 @@ conceptualContent:
       - text: Custom fields
         itemType: overview
         url: ../../../data-access/docs/custom-fields/overview.md
+      - text: UdcontactSmall table
+        itemType: reference
+        url: ../../../database/docs/tables/udcontactsmall.md
+      - text: UdcontactLarge table
+        itemType: reference
+        url: ../../../database/docs/tables/udcontactlarge.md
 
     # Card
     - title: Actions options
@@ -159,6 +165,24 @@ conceptualContent:
       - text: Associate table
         itemType: reference
         url: ../../../database/docs/tables/associate.md
+      - text: UserGroup table
+        itemType: reference
+        url: ../../../database/docs/tables/usergroup.md
       - text: Address table
         itemType: reference
         url: ../../../database/docs/tables/address.md
+      - text: Country table
+        itemType: reference
+        url: ../../../database/docs/tables/country.md
+      - text: Category table
+        itemType: reference
+        url: ../../../database/docs/tables/category.md
+      - text: Business table
+        itemType: reference
+        url: ../../../database/docs/tables/business.md
+      - text: UdcontactSmall table
+        itemType: reference
+        url: ../../../database/docs/tables/udcontactsmall.md
+      - text: UdcontactLarge table
+        itemType: reference
+        url: ../../../database/docs/tables/udcontactlarge.md
