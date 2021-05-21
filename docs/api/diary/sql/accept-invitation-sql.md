@@ -1,5 +1,6 @@
 ---
-title: accept_invitation_sql
+title: Accept invitation
+uid: accept_invitation_sql
 description: Accept an appointment invitation
 author:
 so.date:

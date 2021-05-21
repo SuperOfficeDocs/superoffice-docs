@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_appointment_row       # (Required) Very important for SEO.
-description: Create an appointment row  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Create an appointment row
+uid: create_appointment_row
+description: Create an appointment row
+author: {github-id}
 so.date: 05.11.2016
-keywords: diary,row
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+keywords: diary, row
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Create an appointment row

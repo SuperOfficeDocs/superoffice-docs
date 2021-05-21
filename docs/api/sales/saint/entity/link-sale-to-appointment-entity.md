@@ -1,14 +1,13 @@
 ---
-title: link_salerow_to_appointment
+title: How to link a sale to an appointment (data layer)
+uid: link_salerow_to_appointment
 description: How to link a sale to an appointment using entities
 author: {github-id}
 so.date: 05.11.2016
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to link a sale to an appointment (data layer)

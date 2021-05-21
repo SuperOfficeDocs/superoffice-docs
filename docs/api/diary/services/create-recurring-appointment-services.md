@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_recurring_appointment_ws       # (Required) Very important for SEO.
-description: How to create a recurring appointment using services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to create a recurring appointment (services)
+uid: create_recurring_appointment_ws
+description: How to create a recurring appointment using services
+author: {github-id}
 so.date: 06.24.2016
-keywords: diary,api-services
-so.topic: howto           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+keywords: diary, api-services
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to create a recurring appointment (services)

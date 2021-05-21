@@ -1,6 +1,6 @@
 ---
 title: Create a new company
-uid: create_company
+uid: create_company_webapi_agents
 description: Create a new Company
 author: {github-id}
 keywords: webapi, agents

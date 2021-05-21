@@ -1,5 +1,6 @@
 ---
-title: itunes_like_activities
+title: iTunes-like client for activities
+uid: itunes_like_activities
 description: iTunes like client over all activities
 author: {github-id}
 so.date: 

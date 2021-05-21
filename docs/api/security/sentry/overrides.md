@@ -1,14 +1,13 @@
 ---
-title: sentry_overrides
+title: Sentry overrides
+uid: sentry_overrides
 description: Sentry overrides
 author: {github-id}
 so.date: 02.06.2007
 keywords:
-so.topic: concept         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: onsite
+# so.client:
 ---
 
 # Sentry overrides

@@ -1,5 +1,6 @@
 ---
-title: create_sentry_plugin
+title: Create your own Sentry plugin
+uid: create_sentry_plugin
 description: Create a Sentry plugin
 author: {github-id}
 so.date: 11.05.2016

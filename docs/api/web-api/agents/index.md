@@ -1,11 +1,14 @@
 ---
-title: agents_api
+title: Agents Web API
+uid: agents_api
 description: Agents Web API
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: concept
 ---
+
+# Agents Web API
 
 The Agents API contains everything in the normal service API but does not attempt to model entities. All operations are accessed using HTTP POST.
 

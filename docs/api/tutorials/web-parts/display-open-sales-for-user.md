@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: display_open_sales_for_user       # (Required) Very important for SEO.
-description: Display the open sales of this user in web parts # (Required) Important for SEO.including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Display the open sales of this user in web parts
+uid: display_open_sales_for_user
+description: Display the open sales of this user in web parts
+author: {github-id}
 so.date: 06.24.2016
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Display the open sales of this user in web parts

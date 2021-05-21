@@ -1,6 +1,7 @@
 ---
-title: update_document_services
-description: How to update a document in SO\_ARC
+title: How to update a document in SO_ARC
+uid: update_document_services
+description: How to update a document in SO_ARC
 author: Tony Yates
 so.date: 06.11.2008
 so.topic: howto
@@ -9,7 +10,7 @@ so.area: api-services
 keywords:
 ---
 
-# How to update a document in SO\_ARC
+# How to update a document in SO_ARC
 
 To modify a document, we will first have to [download the document to a temporary folder][1] so that it is available locally for the user to make modifications. Once modified, the temporary file is uploaded to the document archive folder.
 

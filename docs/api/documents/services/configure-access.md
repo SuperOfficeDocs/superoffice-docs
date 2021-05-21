@@ -1,5 +1,6 @@
 ---
-title: config_document_services
+title: Configuring document access
+uid: config_document_services
 description: How to configure document access
 author: Tony Yates
 so.date: 06.11.2008

@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_appointment_osql       # (Required) Very important for SEO.
-description: Create an appointment through OSQL  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Create an appointment through OSQL
+uid: create_appointment_osql
+description: Create an appointment through OSQL
+author: {github-id}
 so.date: 05.11.2016
-keywords: diary,osql
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+keywords: diary, osql
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Create an appointment through OSQL

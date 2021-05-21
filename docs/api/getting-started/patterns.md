@@ -1,5 +1,6 @@
 ---
-title: netserver_patterns
+title: Common patterns
+uid: netserver_patterns
 description: SuperOffice NetServer patterns
 author: {github-id}
 so.date: 11.05.2016

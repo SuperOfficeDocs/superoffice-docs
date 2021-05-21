@@ -1,13 +1,12 @@
 ---
-title: minimal_csharp_app_overview       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Minimal C# application # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Minimal C# application
+uid: minimal_csharp_app_overview
+description: Minimal C# application
+author: {github-id}
 keywords:
-so.topic: guide            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: tutorial
+so.envir: cloud
+so.client: online
 ---
 
 # Minimal C# application

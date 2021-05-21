@@ -1,7 +1,8 @@
 ---
-title: rest_api_reference
+title: REST Web API
+uid: rest_api_reference
 description: REST Web API
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: reference

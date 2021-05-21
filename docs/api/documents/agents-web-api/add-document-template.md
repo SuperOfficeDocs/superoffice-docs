@@ -1,12 +1,12 @@
 ---
 title: Add template
-uid:  add_document_template
+uid:  add_document_template_webapi_agents
 description: Add a document template
 author: {github-id}
 keywords: document,webapi,agents
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Add a document template

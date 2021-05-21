@@ -1,12 +1,12 @@
 ---
 title: Generate document
-uid: generate_document
+uid: generate_document_webapi
 description: Generate a document
 author: {github-id}
 keywords: document,webapi,agents
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Generate a document

@@ -1,5 +1,6 @@
 ---
-title: com_interop_dotnet
+title: COM interop and .Net
+uid: com_interop_dotnet
 description: COM interop and .net
 author: Tony Yates
 so.date: 06.24.2016

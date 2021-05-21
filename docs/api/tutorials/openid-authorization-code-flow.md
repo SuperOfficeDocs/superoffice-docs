@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: oidc_auth_code_flow       # (Required) Very important for SEO.
-description: OpenId Authorization Code Flow # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: OpenID Authorization Code Flow
+uid: oidc_auth_code_flow
+description: OpenId Authorization Code Flow
+author: {github-id}
 keywords:
-so.topic: guide             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud                # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: guide
+so.envir: cloud
+# so.client:
 ---
 
 # OpenID Authorization Code Flow
@@ -18,7 +16,7 @@ We will make a simple app that displays some information about recently added co
 We will use the **Authorization Code** flow with 3 URLs:
 
 * `/` Check if logged in: if not logged in, start login process with SuperID
-* `/callback` Receive call from SuperID login; call SuperID to get access token.
+* `/callback` Receive a call from SuperID login; call SuperID to get access token.
 * `/app` Use the access token to get a list of contacts from SuperOffice.
 
 The user will access the `/` URL or the `/app` URL and is redirected to SuperID because the app is not logged in.

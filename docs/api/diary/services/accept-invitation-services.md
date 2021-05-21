@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: accept_invitation_services       # (Required) Very important for SEO.
-description: How to accept an invitation using NetServer services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to accept an invitation (services)
+uid: accept_invitation_services
+description: How to accept an invitation using NetServer services
+author: {github-id}
 so.date: 06.24.2016
 keywords: diary
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to accept an invitation (services)
@@ -20,7 +18,7 @@ We use NetServer providers (plugins created with a Factory class) to retrieve in
 
 `IArchiveProvider` is the external standard interface of archive providers exposed to the service layer and the world in general. The interface aggregates the extensible and provider properties of classes such as `ActivityArchiveProvider`, `ProjectMemberProvide`, and `InvitationProvider`. This acts as an intermediate stage between the pure property interface and the actual provider class that has queries.
 
-After getting an overview by [listing invitations for an associate][1], we plan to accept the invitation with `appointmentId = 150`. This is done using the `AppointmentAgent` from the `SuperOffice.CRM.Services` namespace. All call to the agent corresponds to a web service services call.
+After getting an overview by [listing invitations for an associate][1], we plan to accept the invitation with `appointmentId = 150`. This is done using the `AppointmentAgent` from the `SuperOffice.CRM.Services` namespace. All calls to the agent correspond to a web service services call.
 
 ## Code
 

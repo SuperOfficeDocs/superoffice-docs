@@ -1,5 +1,6 @@
 ---
-title: download_document_services
+title: How to download a new document
+uid: download_document_services
 description: How to download a document
 author: Tony Yates
 so.date: 06.11.2008

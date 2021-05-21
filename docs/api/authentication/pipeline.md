@@ -5,7 +5,7 @@ description: Authentication pipeline
 author: {github-id}
 so.date: 05.08.2018
 keywords: security, identity
-so.topic: concept \
+so.topic: concept
 so.envir: onsite
 # so.client:
 ---

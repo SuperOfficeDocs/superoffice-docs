@@ -1,14 +1,13 @@
 ---
-title: so_nuget_crm_web
+title: CRM Web
+uid: so_nuget_crm_web
 description: SuperOffice NuGet CRM Web
 author: Tony Yates
 so.date: 02.29.2016
 keywords:
 so.topic: reference
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite # cloud or onsite
-so.client: web # online, web, win, pocket, or mobile
+so.envir: onsite
+so.client: web
 ---
 
 # CRM Web

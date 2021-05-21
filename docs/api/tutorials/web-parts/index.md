@@ -1,7 +1,8 @@
 ---
-title: web_parts       
+title: Web parts in ASP.net 2.0
+uid: web_parts
 description: SuperOffice NetServer services and web parts in ASP.Net 2.0
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic: concept

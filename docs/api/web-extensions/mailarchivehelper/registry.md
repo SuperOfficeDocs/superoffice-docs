@@ -1,5 +1,6 @@
 ---
-title: mah_registry
+title: Registry
+uid: mah_registry
 description: MailArchiveHelper registry
 author: Tony Yates
 so.date: 06.24.2016
@@ -42,7 +43,7 @@ These are stored in the **SO5OUTL** registry key.
 | EnableDebugInfo | 0 |
 | ForceDelivery | 1 |
 | ForceDeliveryCount | 50 |
-| OptionDialogFilename | installpath\\PreferenceDlg.exe |
+| OptionDialogFilename | installpath\PreferenceDlg.exe |
 | RemoveAfterStore | 0 |
 | ShowConfirmationDialog | 0 |
 | StoreAppointments | 0 |

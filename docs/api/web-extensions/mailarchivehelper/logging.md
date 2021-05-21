@@ -1,5 +1,6 @@
 ---
-title: mah_logging
+title: Logging
+uid: mah_logging
 description: MailArchiveHelper logging
 author: Tony Yates
 so.date: 06.24.2016

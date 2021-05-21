@@ -1,5 +1,6 @@
 ---
-title: mah_preference_dialog
+title: Preference dialog
+uid: mah_preference_dialog
 description: Preference dialog
 author: Tony Yates
 so.date: 06.24.2016

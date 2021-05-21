@@ -1,5 +1,6 @@
 ---
-title: use_sentry_plugin
+title: Using the basic Sentry plugin
+uid: use_sentry_plugin
 description: Use a Sentry plugin
 author: {github-id}
 so.date: 11.05.2016
@@ -23,7 +24,7 @@ Below is the section that we have to modify in the config file.
 </Factory>
 ```
 
-This tells NetServer that there is Plugin and where the DLL is located. When NetServer loads its DLLs, our Plugin DLL will also be loaded.
+This tells NetServer that there is a plugin and where the DLL is located. When NetServer loads its DLLs, our Plugin DLL will also be loaded.
 
 The sentry rules will automatically be applied to NetServer and passed along to the client. SuperOffice will respond to the changed table-rights by disabling the **Edit** button.
 

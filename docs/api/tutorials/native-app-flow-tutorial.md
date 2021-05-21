@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: native_app_flow_tutorial       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to build your OAuth native app flow # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: How to build your OAuth native app flow
+uid: native_app_flow_tutorial
+description: How to build your OAuth native app flow
+author: {github-id}
 keywords: oidc
-so.topic: tutorial            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: tutorial
+so.envir: cloud
+so.client: online
 ---
 
 # How to build your OAuth native app flow

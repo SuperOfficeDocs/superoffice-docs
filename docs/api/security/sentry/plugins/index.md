@@ -1,5 +1,6 @@
 ---
-title: sentry_plugins
+title: Sentry plugins
+uid: sentry_plugins
 description: Sentry plugins
 author: {github-id}
 so.date: 11.05.2016

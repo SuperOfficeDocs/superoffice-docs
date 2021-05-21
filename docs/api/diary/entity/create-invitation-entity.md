@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_invitation_entity       # (Required) Very important for SEO.
-description: How to create an invitation using entities # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to create an invitation (data layer)
+uid: create_invitation_entity
+description: How to create an invitation using entities
+author: {github-id}
 so.date: 05.11.2016
 keywords: diary
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to create an invitation (data layer)

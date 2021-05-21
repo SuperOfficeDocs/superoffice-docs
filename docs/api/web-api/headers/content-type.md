@@ -1,5 +1,6 @@
 ---
-title: web_api_headers_content_type
+title: Content types
+uid: web_api_headers_content_type
 description: Web API headers content types
 author: {github-id}
 so.date: 

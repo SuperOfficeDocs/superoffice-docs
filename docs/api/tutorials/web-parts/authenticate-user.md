@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: authenticate_web_part       # (Required) Very important for SEO.
-description: Authenticate a user in web parts # (Required) Important for SEO.including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Authenticate the user
+uid: authenticate_web_part
+description: Authenticate a user in web parts
+author: {github-id}
 so.date: 06.24.2016
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Authenticate the user
@@ -18,7 +16,7 @@ In the following example, we provide a simple log-in screen. The code correspond
 
 ## Log-in page
 
-The log-in page has 2 text-boxes for entering the username and the password, and a submit button.
+The log-in page has 2 text boxes for entering the username and the password, and a submit button.
 
 ![02][img1]
 

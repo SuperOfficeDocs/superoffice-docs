@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: partner_db_library       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description:                    # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Customer data source
+uid: partner_db_library
+description: Customer data source
+author: {github-id}
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: tutorial
+so.envir: cloud
+so.client: online
 ---
 
 # Customer data source
@@ -27,7 +23,7 @@ The customer model CustomerInfo contains 6 properties that represent a single cu
 
 ## CustomerDataSource class
 
-The `CustomerDataSource` class could not be more simple. Its sole responsibility is to read CustomerInfo data from, and save new CustomerInfo data to, an XML file. This project and data source classes are used by both the MVC website and the console application.
+The `CustomerDataSource` class could not be more simple. Its sole responsibility is to read CustomerInfo data from and save new CustomerInfo data to, an XML file. This project and data source classes are used by both the MVC website and the console application.
 
 [!include[ALT](./includes/customer-data-source.md)]
 

@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_appointment_services       # (Required) Very important for SEO.
-description: Create an appointment using NetServer services  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Create an appointment using services
+uid: create_appointment_services
+description: Create an appointment using NetServer services
+author: {github-id}
 so.date: 06.24.2016
-keywords: diary,api-services
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+keywords: diary, api-services
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Create an appointment using services

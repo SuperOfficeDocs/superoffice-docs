@@ -1,5 +1,6 @@
 ---
-title: currency_updater_service
+title: Currency updater service
+uid: currency_updater_service
 description: Currency updater service
 author: {github-id}
 so.date: 
@@ -21,7 +22,7 @@ For example, we can use 2 currencies as parameters first one is the From currenc
 
 `ConversionRate("USD", "NOK")` gives value as 5.5352. This means it takes 5.5352 Norwegian Kroner to make one US Dollar.
 
-Once the service starts to run, the `OnStart` method is invoked and starts the timer for a 24-hour time-interval. After 24 hours, timer `ElapsedEventHandler` is fired and then it runs the `OnElapsedTime` method. This method includes all the basic concepts to update the currency rates.
+Once the service starts to run, the `OnStart` method is invoked and starts the timer for a 24-hour time-interval. After 24 hours, the timer `ElapsedEventHandler` is fired and then it runs the `OnElapsedTime` method. This method includes all the basic concepts to update the currency rates.
 
 The service continues to run until the `OnStop` event is triggered by the service manager.
 

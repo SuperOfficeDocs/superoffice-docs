@@ -1,13 +1,14 @@
 ---
-title: create_tooltip_plugin      
-description: How to extending the Tooltip service using plugins
-author: {github-id}             # Your GitHub alias.
+title: How to extend the Tooltip service using plugins
+uid: create_tooltip_plugin
+description: How to extend the Tooltip service using plugins
+author: {github-id}
 so.date:
 keywords:
 so.topic: howto
 ---
 
-# How to extending the Tooltip service using plugins
+# How to extend the Tooltip service using plugins
 
 The tooltip service can be extended using a plugin to include data that we want in our own application apart from the ones that have been provided by NetServer.
 
@@ -57,7 +58,7 @@ public class DemoTotalPersonSaleTooltipPlugin : TooltipPluginBase
 
 ![01][img1]
 
-This example shows how a tooltip provider plugin is used to calculate total sales for a person. The tooltip hint for person is "person\_id". We don't have to know the tooltip hint, because the `PersonTooltipProvider` declares a string constant named `PersonKey`, for this purpose. We simply refer to it in our attribute, thereby saying, "Whatever the key for person tooltips is, I represent the same thing". If you want to return tooltips for your own tables, you can use your own key string here.
+This example shows how a tooltip provider plugin is used to calculate total sales for a person. The tooltip hint for person is "person_id". We don't have to know the tooltip hint, because the `PersonTooltipProvider` declares a string constant named `PersonKey`, for this purpose. We simply refer to it in our attribute, thereby saying, "Whatever the key for person tooltips is, I represent the same thing". If you want to return tooltips for your own tables, you can use your own key string here.
 
 The class inherits from `TooltipPluginBase`, which is mostly concerned with parsing incoming keys. The `TryGetIntHint` method will return, as an int, the value part of a tooltip hint for the given key. This is a simple way to get the person id as an int.
 

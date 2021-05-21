@@ -1,20 +1,19 @@
 ---
-title: visiblefor_flag
+title: VisibleFor flag
+uid: visiblefor_flag
 description: VisibleFor flag
 author: {github-id}
 keywords: sentry
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # VisibleFor flag
 
 In SuperOffice, you can restrict access to a data item using the `VisibleFor` flag in addition to the user group’s rights to data.
 
-The `VisibleFor` flag and role-base security go hand in hand. When the flag is set it is a combination of role-base access rights and access rights that was activated due to setting the flag.
+The `VisibleFor` flag and role-based security go hand in hand. When the flag is set it is a combination of role-based access rights and access rights that was activated due to setting the flag.
 
 ## Visibility levels
 

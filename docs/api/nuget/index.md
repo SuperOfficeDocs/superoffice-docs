@@ -1,14 +1,13 @@
 ---
-title: so_nuget
+title: Overview
+uid: so_nuget
 description: SuperOffice on NuGet
 author: Tony Yates
 so.date: 02.29.2016
 keywords:
-so.topic: article # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: # cloud or onsite
-so.client: # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir:
+so.client:
 ---
 
 # Overview

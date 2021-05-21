@@ -1,7 +1,8 @@
 ---
-title: sentry_in_services
+title: Sentry in services
+uid: sentry_in_services
 description: Sentry in services
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: sentry
 so.topic: concept

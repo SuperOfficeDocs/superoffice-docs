@@ -1,24 +1,20 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: import_to_excel       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to import data into Excel # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: Tony Yates             # Your GitHub alias.
+title: How to import data into Excel
+uid: import_to_excel
+description: How to import data into Excel
+author: Tony Yates
 so-date: 15 Oct 2020
 keywords:
-so.topic: article              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: tutorial
+so.envir: cloud
+so.client: online
 ---
 
 # How to import data into Excel
 
 A common question is "how do I import SuperOffice data into Microsoft Excel?", and the answer is using web API OData queries.
 
-Below is a walk-though how to perform this task. The presented example is kept simple and only imports a list of company names and departments. You can of course make much more complex queries, but should first know more about [OData in general][1], and how SuperOffice exposes [OData with Archive providers][2].
+Below is a walk-though of how to perform this task. The presented example is kept simple and only imports a list of company names and departments. You can of course make much more complex queries, but should first know more about [OData in general][1], and how SuperOffice exposes [OData with Archive providers][2].
 
 Excel version used in this example:
 

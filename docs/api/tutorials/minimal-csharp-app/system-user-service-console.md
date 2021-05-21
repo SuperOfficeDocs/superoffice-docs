@@ -1,23 +1,19 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: system_user_service_console       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: System user service console # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: System user service console
+uid: system_user_service_console
+description: System user service console
+author: {github-id}
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: tutorial
+so.envir: cloud
+so.client: online
 ---
 
 # System user service console
 
 A console application that simulates a service that periodically polls the database, demonstrates how to exchange the system user token for a system user ticket and call the tenant web services.
 
-The primary objective of the example Service Console is to demonstrate how to use a certificate to sign a [system user token][1], and use the signed system token, context identifier, and client secret to get a [SystemIdToken][2] – which contains the system user ticket.
+The primary objective of the example Service Console is to demonstrate how to use a certificate to sign a [system user token][1] and use the signed system token, context identifier, and client secret to get a [SystemIdToken][2] – which contains the system user ticket.
 
 The example also shows how to use the shared data source.
 

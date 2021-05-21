@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: invitation_archive       # (Required) Very important for SEO.
-description: Invitation Archive # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Invitation Archive
+uid: invitation_archive
+description: Invitation Archive
+author: {github-id}
 so.date: 06.24.2016
 keywords: diary, search, archiveagent
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Invitation Archive

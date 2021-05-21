@@ -1,5 +1,6 @@
 ---
-title: web_api_headers_accept_language
+title: Multiple languages
+uid: web_api_headers_accept_language
 description: Web API headers
 author: {github-id}
 so.date: 

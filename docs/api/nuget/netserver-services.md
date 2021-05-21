@@ -1,14 +1,13 @@
 ---
-title: so_nuget_services
+title: NetServer Services
+uid: so_nuget_services
 description: SuperOffice NuGet NetServer Services
 author: Tony Yates
 so.date: 02.29.2016
 keywords:
 so.topic: reference
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: # cloud or onsite
-so.client: # online, web, win, pocket, or mobile
+so.envir:
+so.client:
 ---
 
 # NetServer Services

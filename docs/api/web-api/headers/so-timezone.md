@@ -1,5 +1,6 @@
 ---
-title: web_api_headers_content_type
+title: SOTimezone
+uid: web_api_headers_content_type
 description: Web API headers
 author: {github-id}
 so.date: 

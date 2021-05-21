@@ -1,5 +1,6 @@
 ---
-title: recurring_appointment
+title: Recurring appointments
+uid: recurring_appointment
 description: Recurring appointment
 author:
 so.date:

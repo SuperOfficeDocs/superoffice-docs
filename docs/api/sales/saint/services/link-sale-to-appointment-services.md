@@ -1,14 +1,13 @@
 ---
-title: link_sale_to_appointment_ws
+title: How to link a sale to an appointment (services)
+uid: link_sale_to_appointment_ws
 description: How to link a sale to an appointment using services
 author: {github-id}
 so.date: 06.24.2016
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to link a sale to an appointment (services)

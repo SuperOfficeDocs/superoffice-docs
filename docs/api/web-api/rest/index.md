@@ -1,7 +1,8 @@
 ---
-title: rest_api
+title: REST WebAPI
+uid: rest_api
 description: REST Web API
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: concept

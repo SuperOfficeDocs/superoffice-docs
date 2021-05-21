@@ -1,14 +1,13 @@
 ---
-title: search_saint_contactrow_customsearch
+title: Search for contacts with a given SAINT counter
+uid: search_saint_contactrow_customsearch
 description: Search for contacts with a given SAINT counter ContactRow.CustomSearch
 author: {github-id}
 so.date: 05.11.2016
 keywords: customsearch
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Search for contacts with a given SAINT counter using ContactRow.CustomSearch

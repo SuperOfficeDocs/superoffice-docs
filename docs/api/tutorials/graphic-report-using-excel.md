@@ -1,5 +1,6 @@
 ---
-title: graphic_report_excel
+title: Graphic report using Excel
+uid: graphic_report_excel
 description: Graphic report using Excel
 author: {github-id}
 so.date: 

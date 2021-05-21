@@ -1,14 +1,13 @@
 ---
-title: custom_data_exchange_agent
+title: Creating a custom Data Exchange agent
+uid: custom_data_exchange_agent
 description: How to create a custom Data Exchange agent
 author: 
 so-date: 06.24.2016
-keywords: ede,dbi
+keywords: ede, dbi
 so.topic: tutorial
-
-# Optional fields. Don't forget to remove # if you need a field.
-#so.envir:            # cloud or onsite
-#so.client:                # online, web, win, pocket, or mobile
+#so.envir:
+#so.client:
 ---
 
 

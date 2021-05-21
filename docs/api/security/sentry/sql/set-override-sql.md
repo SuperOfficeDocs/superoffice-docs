@@ -1,14 +1,13 @@
 ---
-title: override_sentry_sql
+title: Setting data-rights with sentry and user-preferences - SQL
+uid: override_sentry_sql
 description: Setting data-rights with sentry and userpreferences SQL
 author: {github-id}
 so.date: 02.06.2007
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite            # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+# so.client:
 ---
 
 # Setting data-rights with sentry and user-preferences - SQL

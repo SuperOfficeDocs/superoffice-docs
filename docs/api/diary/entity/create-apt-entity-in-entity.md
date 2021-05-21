@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_appointment_entity_in_entity       # (Required) Very important for SEO.
-description: Create an Appointment entity through an entity  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Create an Appointment entity through an entity
+uid: create_appointment_entity_in_entity
+description: Create an Appointment entity through an entity
+author: {github-id}
 so.date: 05.11.2016
 keywords: diary,entity
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Create an Appointment entity through an entity

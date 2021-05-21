@@ -1,5 +1,6 @@
 ---
-title: sentry_distinct
+title: Sentry and distinct
+uid: sentry_distinct
 description: Sentry and distinct
 author: {github-id}
 so.date: 11.05.2016

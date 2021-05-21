@@ -1,7 +1,8 @@
 ---
-title: call_tooltip_service       
+title: How to call the ToolTip service
+uid: call_tooltip_service
 description: Calling the ToolTip Service
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic: howto

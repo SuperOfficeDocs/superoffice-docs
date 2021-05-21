@@ -1,13 +1,12 @@
 ---
-title: update_nuget
+title: Upgrade version of SuperOffice NuGet
+uid: update_nuget
 description: Upgrade version of SuperOffice NuGet
 author: Tony Yates
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir:            # cloud or onsite
-so.client:           # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir:
+so.client:
 ---
 
 # Upgrade version of SuperOffice NuGet

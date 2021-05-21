@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_invitation_ws       # (Required) Very important for SEO.
-description: How to create an invitation using services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to create an invitation (services)
+uid: create_invitation_ws
+description: How to create an invitation using services
+author: {github-id}
 so.date: 06.24.2016
 keywords: diary
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to create an invitation (services)

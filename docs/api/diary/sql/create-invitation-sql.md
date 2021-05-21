@@ -1,5 +1,6 @@
 ---
-title: create_invitation_sql
+title: Create invitation
+uid: create_invitation_sql
 description: Create an appointment invitation
 author:
 so.date:

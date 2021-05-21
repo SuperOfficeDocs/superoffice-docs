@@ -1,5 +1,6 @@
 ---
-title: create_sentry_plugin
+title: Sentry plugin with external table
+uid: create_sentry_plugin_ext_table
 description: Sentry plugin with external (user-defined) table
 author: Tony Yates
 so.date: 05.16.2008

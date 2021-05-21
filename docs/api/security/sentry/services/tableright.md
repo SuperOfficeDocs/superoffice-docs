@@ -1,7 +1,8 @@
 ---
-title: sentry_tableright
+title: TableRight (services)
+uid: sentry_tableright
 description: Sentry in services - TableRight property
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: sentry
 so.topic: concept

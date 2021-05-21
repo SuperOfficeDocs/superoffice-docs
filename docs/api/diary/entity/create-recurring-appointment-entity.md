@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_recurring_appointment_entity       # (Required) Very important for SEO.
-description: How to create a recurring appointment using entities # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to create a recurring appointment (data layer)
+uid: create_recurring_appointment_entity
+description: How to create a recurring appointment using entities
+author: {github-id}
 so.date: 05.11.2016
-keywords: diary,entity
-so.topic: howto           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+keywords: diary, entity
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to create a recurring appointment (data layer)

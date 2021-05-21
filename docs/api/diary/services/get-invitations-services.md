@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: get_invitation_services       # (Required) Very important for SEO.
-description: How to get a list of invitations using NetServer services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to get a list of invitations (services)
+uid: get_invitation_services
+description: How to get a list of invitations using NetServer services
+author: {github-id}
 so.date: 06.24.2016
 keywords: diary
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to get a list of invitations (services)

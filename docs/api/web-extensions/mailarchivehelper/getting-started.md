@@ -1,5 +1,6 @@
 ---
-title: mailarchivehelper_init
+title: Initializing
+uid: mailarchivehelper_init
 description: Initializing the MailArchiveHelper
 author: Tony Yates
 so.date: 06.24.2016

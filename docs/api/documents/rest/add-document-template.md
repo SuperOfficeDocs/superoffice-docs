@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: add_document_template       # (Required) Very important for SEO.
-description: Add a document template # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
-keywords: rest,document
-so.topic: howto                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+title: Add a document template
+uid: add_document_template_rest
+description: Add a document template
+author: {github-id}
+keywords: rest, document
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Add a document template

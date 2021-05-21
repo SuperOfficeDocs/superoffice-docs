@@ -1,5 +1,6 @@
 ---
-title: web_api
+title: WebAPI
+uid: web_api
 description: Web API overview
 author: {github-id}
 so.date: 

@@ -1,7 +1,8 @@
 ---
-title: rest_api_headers
+title: HTTP request headers
+uid: rest_api_headers
 description: REST Web API HTTP request headers
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date:
 so.topic: concept

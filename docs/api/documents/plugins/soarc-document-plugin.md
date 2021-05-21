@@ -1,5 +1,6 @@
 ---
-title: SO_Arc document plugin
+title: How to create a managed document plugin
+uid: SO_Arc document plugin
 uid: soarc_document_plugin
 description: How to create a managed document plugin
 author: Tony Yates
@@ -7,7 +8,7 @@ so.date: 06.03.2006
 keywords:
 so.topic: howto
 so.envir: onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.client:
 ---
 
 # How to create a managed document plugin

@@ -1,5 +1,6 @@
 ---
-title: rss_feed_vb
+title: Generate RSS feed in VB.Net
+uid: rss_feed_vb
 description: Generate RSS feed in VB.Net
 author: {github-id}
 so.date: 

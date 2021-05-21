@@ -1,5 +1,6 @@
 ---
-title: expander_data_exchange
+title: Expander Data Exchange
+uid: expander_data_exchange
 description: What is SuperOffice Expander Data Exchange
 author: {github-id}
 so.date: 

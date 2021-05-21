@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: accept_invitation_entity       # (Required) Very important for SEO.
-description: How to accept an invitation using entities # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to accept an invitation (data layer)
+uid: accept_invitation_entity
+description: How to accept an invitation using entities
+author: {github-id}
 so.date: 05.11.2016
 keywords: diary
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to accept an invitation (data layer)
@@ -30,7 +28,7 @@ We will build an example that uses the providers to retrieve an invitation. Then
 > [!NOTE]
 > The provider concept is a very powerful tool that exists in the NetServer. There are many types of providers, and the main purpose of the providers is to retrieve some specific data using some restrictions we want.
 
-In the above example, we have used the `InvitationProvider` to get the invitations that we want (for given restriction criteria). In a provider, we can set the columns that we want to retrieve, in this case `appointmentId`. Also, we have set how we want the data to be sorted using the `setOrderBy` method of the provider.
+In the above example, we have used the `InvitationProvider` to get the invitations that we want (for the given restriction criteria). In a provider, we can set the columns that we want to retrieve, in this case, `appointmentId`. Also, we have set how we want the data to be sorted using the `setOrderBy` method of the provider.
 
 In the `InvitationProvider`, a restriction for the `associateId` is a must since we are trying to pull out invitations of an associate. If you don’t specify this restriction, the NetServer will throw an exception. After specifying the compulsory restriction you may give any other restrictions, in this case, invitations that are ahead of the current date.
 

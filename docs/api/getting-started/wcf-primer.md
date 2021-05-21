@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: wcf_primer       # (Required) Very important for SEO.
-description: Windows Communication Foundation (WCF) # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Windows Communication Foundation
+uid: wcf_primer
+description: Windows Communication Foundation (WCF)
+author: {github-id}
 so.date:
 keywords:
-so.topic: guide           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: guide
+# so.envir:
+# so.client:
 ---
 
 # Windows Communication Foundation (WCF)

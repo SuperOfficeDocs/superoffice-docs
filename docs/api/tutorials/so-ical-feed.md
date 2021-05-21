@@ -1,5 +1,6 @@
 ---
-title: so_ical_feed
+title: SuperOffice iCal Feed
+uid: so_ical_feed
 description: SuperOffice iCal Feed
 author: {github-id}
 so.date: 

@@ -1,5 +1,6 @@
 ---
-title: mailprotocol_helper
+title: MailProtocol helper
+uid: mailprotocol_helper
 description: MailProtocol helper
 author: Tony Yates
 so.date: 06.24.2016

@@ -1,12 +1,12 @@
 ---
 title: Create a new company
-uid: create_company
+uid: create_company_rest
 description: Create a new company
 author: {github-id}
 keywords: rest,contact
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Create a new company

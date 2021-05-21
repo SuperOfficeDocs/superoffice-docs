@@ -1,7 +1,8 @@
 ---
-title: sentry_fieldproperties
+title: FieldProperties (services)
+uid: sentry_fieldproperties
 description: Sentry in services - FieldProperties property
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: sentry
 so.topic: concept
@@ -16,11 +17,11 @@ A typical use of this property is to check the data rights of the user before ma
 
 ## FieldRight
 
-We can use several properties provided by the `FieldRight` property (of a field) to check for rights. The most commonly used once are listed below.
+We can use several properties provided by the `FieldRight` property (of a field) to check for rights. The most commonly used ones are listed below.
 
 | Property | Description
 |---|---|
-| IsActive | whether this field is active for the logged in user: Does the user have the right to this field? |
+| IsActive | whether this field is active for the logged-in user: Does the user have the right to this field? |
 | HasAll | whether the user has all the rights to the field |
 | HasNone | returns true is the user does have any rights to the field |
 | IsMandatory | if this field is mandatory in the database |
