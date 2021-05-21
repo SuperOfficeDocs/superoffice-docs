@@ -108,7 +108,7 @@ items:
   - name: Google reCaptcha in forms
     href: ../marketing/forms/recaptcha.md
   - name: Expand quick search
-    href: ../search/expand-quick-search.md
+    href: ../search-options/expand-quick-search.md
   - name: Time zones
     href: time-zones.md
   #TBD Knowledge base
