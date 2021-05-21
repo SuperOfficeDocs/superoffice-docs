@@ -1,5 +1,6 @@
 ---
-title: blogic_select_sale
+title: Select sale
+uid: blogic_select_sale
 description: Select sale
 author:
 so.date:

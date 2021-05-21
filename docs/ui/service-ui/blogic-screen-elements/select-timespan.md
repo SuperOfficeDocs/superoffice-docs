@@ -1,5 +1,6 @@
 ---
-title: blogic_select_timespan
+title: Select Time Span
+uid: blogic_select_timespan
 description: Select Time Span
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: add_archive_control
+title: How to add an Archive control
+uid: add_archive_control
 description: How to add an Archive control
 author: Steffan Alte
 so.date: 2007

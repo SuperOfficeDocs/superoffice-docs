@@ -1,5 +1,6 @@
 ---
-title: web_panels_template_var
+title: Link to a web panel
+uid: web_panels_template_var
 description: Link to a web panel
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: sop_open_dialog
+title: How to open a new dialog
+uid: sop_open_dialog
 description: Open a new dialog with SoProtocol
 author: Tony Yates
 so.date: 06.24.2016

@@ -1,5 +1,6 @@
 ---
-title: blogic_header
+title: Header
+uid: blogic_header
 description: Header
 author:
 so.date:

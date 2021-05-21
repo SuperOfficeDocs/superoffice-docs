@@ -1,5 +1,6 @@
 ---
-title: merge_files_and_actions
+title: Merge process
+uid: merge_files_and_actions
 description: Merge process
 author: Tony Yates
 so.date: 04.17.2018

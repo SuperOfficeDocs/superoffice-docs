@@ -1,5 +1,6 @@
 ---
-title: blogic_mdolist
+title: MDO list
+uid: blogic_mdolist
 description: MDO list
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: pb_usercontrol_archive_defaults
+title: How to change the default columns
+uid: pb_usercontrol_archive_defaults
 description: How to change the default columns in the project archive
 author: Tony Yates
 so.date: 06.24.2016

@@ -1,5 +1,6 @@
 ---
-title: pb_usercontrols_archives
+title: SoArchiveControl
+uid: pb_usercontrols_archives
 description: User control - archives
 author: Tony Yates
 so.date: 06.24.2016

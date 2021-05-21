@@ -1,5 +1,6 @@
 ---
-title: custom_ajax_methods
+title: Custom AJAX methods
+uid: custom_ajax_methods
 description: Custom AJAX methods
 author: Steffan Alte
 so.date: 2007

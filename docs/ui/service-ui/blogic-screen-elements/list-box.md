@@ -1,5 +1,6 @@
 ---
-title: blogic_listbox
+title: List box
+uid: blogic_listbox
 description: List box
 author:
 so.date:

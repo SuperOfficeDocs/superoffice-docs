@@ -1,5 +1,6 @@
 ---
-title: blogic_panel
+title: Panel
+uid: blogic_panel
 description: Panel
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: usercontrol_mdo_config
+title: MDO list control
+uid: usercontrol_mdo_config
 description: Config file settings for an MDO control
 author: Tony Yates
 so.date: 06.24.2016

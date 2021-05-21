@@ -1,5 +1,6 @@
 ---
-title: blogic_add_screen_element
+title: Add screen element
+uid: blogic_add_screen_element
 description: Add screen element
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: so_protocol_webpanel_web
+title: SOProtocol and web panels - web
+uid: so_protocol_webpanel_web
 description: SoProtocol and web panels - web
 author:
 so.date:

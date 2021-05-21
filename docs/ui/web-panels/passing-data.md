@@ -1,5 +1,6 @@
 ---
-title: web_panels_template_var
+title: Passing data with template variables
+uid: web_panels_template_var
 description: Passing data to web panels with template variables
 author:
 so.date:

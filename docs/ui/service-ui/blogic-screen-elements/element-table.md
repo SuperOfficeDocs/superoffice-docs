@@ -1,5 +1,6 @@
 ---
-title: blogic_element_table
+title: Element table
+uid: blogic_element_table
 description: Element table
 author:
 so.date:
@@ -25,7 +26,7 @@ This is a **group element**. It defines the beginning of a group of elements and
 
 ### Config for immediate child elements
 
-You can set and position a labels, config vertical space, and config dynamic resizing (v. 4.2.21/4.4.2) for each immediate child of the element table.
+You can set and position a label, config vertical space, and config dynamic resizing (v. 4.2.21/4.4.2) for each immediate child of the element table.
 
 | Setting                       | Description                                       |
 |:------------------------------|:--------------------------------------------------|

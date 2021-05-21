@@ -1,5 +1,6 @@
 ---
-title: web_application
+title: Web GUI .Net API
+uid: web_application
 description: Web GUI .Net API
 author: {github-id}
 so.date:

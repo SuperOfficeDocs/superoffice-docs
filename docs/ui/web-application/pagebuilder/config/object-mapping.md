@@ -1,5 +1,6 @@
 ---
-title: pagebuilder_config_objectmapping
+title: Object mapping files
+uid: pagebuilder_config_objectmapping
 description: Object mapping config files SoObjectMapping.config
 author: Tony Yates
 so.date: 06.24.2016

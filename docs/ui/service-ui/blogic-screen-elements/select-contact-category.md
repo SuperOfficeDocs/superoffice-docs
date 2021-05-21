@@ -1,5 +1,6 @@
 ---
-title: blogic_select_contact_category
+title: Select contact category
+uid: blogic_select_contact_category
 description: Select contact category
 author:
 so.date:

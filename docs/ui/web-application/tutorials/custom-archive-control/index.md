@@ -1,5 +1,6 @@
 ---
-title: create_custom_archive_controls
+title: Create a custom archive control
+uid: create_custom_archive_controls
 description: Create custom archive controls
 author: Steffan Alte
 so.date: 2007

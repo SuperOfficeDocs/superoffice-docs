@@ -1,5 +1,6 @@
 ---
-title: blogic_select_multiple relations
+title: Select multiple relations
+uid: blogic_select_multiple relations
 description: Select multiple relations
 author:
 so.date:

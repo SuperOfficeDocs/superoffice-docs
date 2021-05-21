@@ -1,5 +1,6 @@
 ---
-title: blogic_messages
+title: Messages
+uid: blogic_messages
 description: Messages
 author:
 so.date:

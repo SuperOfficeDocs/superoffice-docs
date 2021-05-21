@@ -1,5 +1,6 @@
 ---
-title: superstate_and_soprotocol
+title: The role of SoProtocol
+uid: superstate_and_soprotocol
 description: The role of SoProtocol in SuperState
 author: Tony Yates
 so.date: 06.24.2016

@@ -1,5 +1,6 @@
 ---
-title: webapp_debug
+title: Debugging the Web application
+uid: webapp_debug
 description: Debugging the Web application
 author: Trond Nilsen
 so.date: 06.24.2016

@@ -1,5 +1,6 @@
 ---
-title: blogic_chart
+title: Chart
+uid: blogic_chart
 description: Chart
 author:
 so.date:

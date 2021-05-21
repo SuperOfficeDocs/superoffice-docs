@@ -1,10 +1,11 @@
 ---
-title: screen_events
+title: Screen events and hook scripts
+uid: screen_events
 description: Screen events and hook scripts
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Screen events and hook scripts

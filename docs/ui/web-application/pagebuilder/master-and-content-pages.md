@@ -1,5 +1,6 @@
 ---
-title: pb_masterpage
+title: Master and content pages
+uid: pb_masterpage
 description: Master and content pages
 author: Tony Yates
 so.date: 06.24.2016

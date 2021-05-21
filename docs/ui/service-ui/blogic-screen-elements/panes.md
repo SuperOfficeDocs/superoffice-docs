@@ -1,5 +1,6 @@
 ---
-title: blogic_panes
+title: Panes
+uid: blogic_panes
 description: Panes
 author:
 so.date:

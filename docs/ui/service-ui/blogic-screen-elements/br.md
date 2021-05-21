@@ -1,5 +1,6 @@
 ---
-title: blogic_br
+title: Horizontal separator (br)
+uid: blogic_br
 description: Horizontal separator (br)
 author:
 so.date:

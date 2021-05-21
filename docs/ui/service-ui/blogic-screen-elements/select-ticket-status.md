@@ -1,5 +1,6 @@
 ---
-title: blogic_select_ticket_status
+title: Select ticket status
+uid: blogic_select_ticket_status
 description: Select ticket status
 author:
 so.date:

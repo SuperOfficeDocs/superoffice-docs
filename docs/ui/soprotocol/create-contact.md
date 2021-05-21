@@ -1,5 +1,6 @@
 ---
-title: sop_create_contact
+title: How to create contact
+uid: sop_create_contact
 description: How to create a contact
 author: Tony Yates
 so.date: 06.24.2016

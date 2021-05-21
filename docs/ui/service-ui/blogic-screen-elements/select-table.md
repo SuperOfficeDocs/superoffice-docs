@@ -1,5 +1,6 @@
 ---
-title: blogic_select_table
+title: Select table
+uid: blogic_select_table
 description: Select table
 author:
 so.date:

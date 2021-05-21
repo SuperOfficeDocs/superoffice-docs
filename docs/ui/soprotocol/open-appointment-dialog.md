@@ -1,5 +1,6 @@
 ---
-title: sop_open_apt_dialog
+title: How to open the Appointment dialog
+uid: sop_open_apt_dialog
 description: How to open the appointment dialog
 author: Tony Yates
 so.date: 06.24.2016

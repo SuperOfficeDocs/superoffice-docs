@@ -1,5 +1,6 @@
 ---
-title: add_row_click_actions
+title: How to add row click actions
+uid: add_row_click_actions
 description: How to add row click actions
 author: Steffan Alte
 so.date: 2007

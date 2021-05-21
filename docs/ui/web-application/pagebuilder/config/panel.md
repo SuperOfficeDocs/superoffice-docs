@@ -1,5 +1,6 @@
 ---
-title: pagebuilder_config_panel
+title: Panel config files
+uid: pagebuilder_config_panel
 description: Panel config files
 author: Tony Yates
 so.date: 06.24.2016

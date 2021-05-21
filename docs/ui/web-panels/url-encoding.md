@@ -1,5 +1,6 @@
 ---
-title: web_panels_url_encoding
+title: Url encoding
+uid: web_panels_url_encoding
 description: URL encoding in web panels
 author:
 so.date:

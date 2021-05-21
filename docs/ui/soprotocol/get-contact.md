@@ -1,6 +1,7 @@
 ---
-title: sop_get_contact
-description: How to
+title: How to get the contact panel
+uid: sop_get_contact
+description: How to get the contact panel
 author: Tony Yates
 so.date: 06.24.2016
 keywords:

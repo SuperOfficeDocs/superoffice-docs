@@ -1,5 +1,6 @@
 ---
-title: blogic_static_grid
+title: Static Grid
+uid: blogic_static_grid
 description: Static Grid
 author:
 so.date:

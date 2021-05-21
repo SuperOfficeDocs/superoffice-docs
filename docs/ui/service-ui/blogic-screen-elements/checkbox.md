@@ -1,5 +1,6 @@
 ---
-title: blogic_checkbox
+title: Checkbox
+uid: blogic_checkbox
 description: Checkbox
 author:
 so.date:

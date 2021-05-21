@@ -1,5 +1,6 @@
 ---
-title: so_protocol_crmscript
+title: Using SOProtocol in CRMScript
+uid: so_protocol_crmscript
 description: SoProtocol Using SOProtocol in CRMScript
 author:
 so.date:

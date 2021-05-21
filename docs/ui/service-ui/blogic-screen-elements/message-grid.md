@@ -1,5 +1,6 @@
 ---
-title: blogic_message_grid
+title: Message grid
+uid: blogic_message_grid
 description: Message grid
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: blogic_select_priority
+title: Select priority
+uid: blogic_select_priority
 description: Select priority
 author:
 so.date:

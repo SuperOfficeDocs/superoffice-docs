@@ -1,5 +1,6 @@
 ---
-title: change_page_config
+title: How to alter page configuration files
+uid: change_page_config
 description: How to alter page configuration files
 author: Tony Yates
 so.date: 06.24.2016

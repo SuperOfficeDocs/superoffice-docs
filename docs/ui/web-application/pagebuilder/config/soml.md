@@ -1,5 +1,6 @@
 ---
-title: webapp_soml
+title: SuperOffice Markup Language (SOML)
+uid: webapp_soml
 description: SuperOffice Markup Language (SOML)
 author: Tony Yates
 so.date: 04.17.2018

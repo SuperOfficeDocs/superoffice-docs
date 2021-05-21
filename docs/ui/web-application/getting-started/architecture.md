@@ -1,5 +1,6 @@
 ---
-title: webapp_architecture
+title: Web client architecture
+uid: webapp_architecture
 description: Web client architecture
 author: Tony Yates
 so.date: 04.17.2018

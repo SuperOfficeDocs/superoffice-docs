@@ -1,5 +1,6 @@
 ---
-title: blogic_select_time
+title: Select Time
+uid: blogic_select_time
 description: Select Time
 author:
 so.date:

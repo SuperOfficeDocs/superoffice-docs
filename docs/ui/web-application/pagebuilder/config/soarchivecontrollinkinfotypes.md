@@ -1,5 +1,6 @@
 ---
-title: pagebuilder_config_soarchivecontrollinkinfotypes
+title: SoArchiveControlLinkInfoTypes
+uid: pagebuilder_config_soarchivecontrollinkinfotypes
 description: SoArchiveControlLinkInfoTypes.config
 so.date: 04.17.2018
 keywords: config

@@ -1,5 +1,6 @@
 ---
-title: blogic_related_dropdowns
+title: Related dropdowns
+uid: blogic_related_dropdowns
 description: Related dropdowns
 author:
 so.date:

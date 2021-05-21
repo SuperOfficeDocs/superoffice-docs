@@ -1,5 +1,6 @@
 ---
-title: pb_tutorial_sale_foreignkeys_3
+title: Create custom MDO controls
+uid: pb_tutorial_sale_foreignkeys_3
 description: Create custom MDO controls
 author: Steffan Alte
 so.date: 07.25.2007

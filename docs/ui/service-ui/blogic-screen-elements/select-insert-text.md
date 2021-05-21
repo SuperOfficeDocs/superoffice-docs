@@ -1,5 +1,6 @@
 ---
-title: blogic_select_insert_text
+title: Select insert text
+uid: blogic_select_insert_text
 description: Select insert text
 author:
 so.date:

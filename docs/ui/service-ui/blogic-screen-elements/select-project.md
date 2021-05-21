@@ -1,5 +1,6 @@
 ---
-title: blogic_select_project
+title: Select project
+uid: blogic_select_project
 description: Select project
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: blogic_button
+title: Button
+uid: blogic_button
 description: Button
 author:
 so.date:

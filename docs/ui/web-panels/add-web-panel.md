@@ -1,5 +1,6 @@
 ---
-title: web_panels_add
+title: Adding a web panel
+uid: web_panels_add
 description: How to add a web panel
 author:
 so.date:

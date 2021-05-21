@@ -1,5 +1,6 @@
 ---
-title: blogic_select_reply_template
+title: Select reply template
+uid: blogic_select_reply_template
 description: Select reply template
 author:
 so.date:

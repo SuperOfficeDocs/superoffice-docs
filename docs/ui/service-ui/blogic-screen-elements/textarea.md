@@ -1,5 +1,6 @@
 ---
-title: blogic_textarea
+title: Textarea
+uid: blogic_textarea
 description: Textarea
 author:
 so.date:

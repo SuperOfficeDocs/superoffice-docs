@@ -1,5 +1,6 @@
 ---
-title: blogic_fck_editor
+title: FCK Editor
+uid: blogic_fck_editor
 description: FCK Editor
 author:
 so.date:

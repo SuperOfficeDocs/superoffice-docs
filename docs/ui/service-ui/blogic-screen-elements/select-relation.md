@@ -1,5 +1,6 @@
 ---
-title: blogic_select_relation
+title: Select relation
+uid: blogic_select_relation
 description: Select relation
 author:
 so.date:

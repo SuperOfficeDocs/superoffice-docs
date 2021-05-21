@@ -1,5 +1,6 @@
 ---
-title: blogic_view_elements
+title: View elements
+uid: blogic_view_elements
 description: View elements
 author:
 so.date:

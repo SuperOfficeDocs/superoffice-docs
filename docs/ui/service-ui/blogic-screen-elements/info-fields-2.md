@@ -1,5 +1,6 @@
 ---
-title: blogic_info_fields_2
+title: nfo Fields v2
+uid: blogic_info_fields_2
 description: Info Fields v2
 author:
 so.date:

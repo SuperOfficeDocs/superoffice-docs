@@ -1,5 +1,6 @@
 ---
-title: blogic_language_menu
+title: Language menu
+uid: blogic_language_menu
 description: Language menu
 author:
 so.date:

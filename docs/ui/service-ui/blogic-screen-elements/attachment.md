@@ -1,5 +1,6 @@
 ---
-title: blogic_attachment
+title: Attachment
+uid: blogic_attachment
 description: Attachment
 author:
 so.date:

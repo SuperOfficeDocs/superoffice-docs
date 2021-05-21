@@ -1,5 +1,6 @@
 ---
-title: blogic_select_extra_field
+title: Select extra field
+uid: blogic_select_extra_field
 description: Select extra field
 author:
 so.date:

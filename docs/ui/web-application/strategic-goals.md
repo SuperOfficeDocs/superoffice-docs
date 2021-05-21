@@ -1,6 +1,6 @@
 ---
-uid: WebClientStrategicGoals
-title: web_strategic_goals
+uid: web_strategic_goals
+title: Strategic goals for CRM.web
 description: Strategic goals for CRM.web
 author: Tony Yates
 so.date: .04.17.2018

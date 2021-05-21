@@ -1,5 +1,6 @@
 ---
-title: pb_remove_card
+title: How to remove an existing card
+uid: pb_remove_card
 description: How to remove an existing card from a page
 author: Tony Yates
 so.date: 06.24.2016

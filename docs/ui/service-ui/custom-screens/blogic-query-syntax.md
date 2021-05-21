@@ -1,5 +1,6 @@
 ---
-title: crmscript_blogic_query_syntax
+title: Query syntax
+uid: crmscript_blogic_query_syntax
 description: Query syntax
 author:
 so.date:

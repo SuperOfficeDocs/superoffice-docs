@@ -1,5 +1,6 @@
 ---
-title: blogic_ck_editor
+title: CK editor
+uid: blogic_ck_editor
 description: CK editor
 author:
 so.date:

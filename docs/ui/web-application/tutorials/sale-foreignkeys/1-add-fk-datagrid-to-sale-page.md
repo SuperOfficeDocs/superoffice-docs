@@ -1,5 +1,6 @@
 ---
-title: pb_tutorial_sale_foreignkeys_1
+title: How to create a user control
+uid: pb_tutorial_sale_foreignkeys_1
 description: How to create a user control
 author: Steffan Alte
 so.date: 07.25.2007

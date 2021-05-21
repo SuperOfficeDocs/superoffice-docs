@@ -1,5 +1,6 @@
 ---
-title: blogic_group_end
+title: Group end
+uid: blogic_group_end
 description: Group end
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: blogic_fieldset
+title: Fieldset
+uid: blogic_fieldset
 description: Fieldset
 author:
 so.date:

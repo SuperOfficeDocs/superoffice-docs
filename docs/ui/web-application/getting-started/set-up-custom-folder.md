@@ -1,5 +1,6 @@
 ---
-title: webapp_custom_config
+title: How to use custom config files (and folder)
+uid: webapp_custom_config
 description: How to use custom config files (and folder)
 author: Tony Yates
 so.date: 06.24.2016

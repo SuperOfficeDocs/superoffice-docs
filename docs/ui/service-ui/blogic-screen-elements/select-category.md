@@ -1,5 +1,6 @@
 ---
-title: blogic_select_category
+title: Select category
+uid: blogic_select_category
 description: Select category
 author:
 so.date:

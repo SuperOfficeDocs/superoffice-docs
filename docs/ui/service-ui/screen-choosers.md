@@ -1,10 +1,11 @@
 ---
-title: screen_choosers
+title: Screen choosers
+uid: screen_choosers
 description: Screen choosers
 author:
 so.date:
 keywords:
-so.topic:
+so.topic:  concept
 ---
 
 # Screen choosers

@@ -1,5 +1,6 @@
 ---
-title: pagebuilder_config_page
+title: Page config files
+uid: pagebuilder_config_page
 description: Page config files
 author: Tony Yates
 so.date: 06.24.2016

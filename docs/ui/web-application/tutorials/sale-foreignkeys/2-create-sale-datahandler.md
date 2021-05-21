@@ -1,5 +1,6 @@
 ---
-title: pb_tutorial_sale_foreignkeys_2
+title: Tutorial
+uid: pb_tutorial_sale_foreignkeys_2
 description: PageBuilder data handlers tutorial
 author: Steffan Alte
 so.date: 07.25.2007

@@ -1,10 +1,11 @@
 ---
-title: button_scripts
+title: Button scripts
+uid: button_scripts
 description: Button scripts
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Button scripts

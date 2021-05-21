@@ -1,5 +1,6 @@
 ---
-title: blogic_form_elements
+title: Form elements
+uid: blogic_form_elements
 description: Form elements
 author:
 so.date:

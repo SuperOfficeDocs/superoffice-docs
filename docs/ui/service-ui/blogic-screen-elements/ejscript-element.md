@@ -1,5 +1,6 @@
 ---
-title: blogic_ejscript_element
+title: Ejscript element
+uid: blogic_ejscript_element
 description: Ejscript element
 author:
 so.date:

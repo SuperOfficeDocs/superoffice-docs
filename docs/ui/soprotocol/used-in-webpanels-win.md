@@ -1,5 +1,6 @@
 ---
-title: so_protocol_webpanel_win
+title: SOProtocol and web panels
+uid: so_protocol_webpanel_win
 description: SoProtocol and web panels - win
 author:
 so.date:

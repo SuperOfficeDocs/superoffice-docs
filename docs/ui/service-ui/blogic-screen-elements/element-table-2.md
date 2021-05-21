@@ -1,5 +1,6 @@
 ---
-title: blogic_element_table_2
+title: Element table v2
+uid: blogic_element_table_2
 description: Element table v2
 author:
 so.date:

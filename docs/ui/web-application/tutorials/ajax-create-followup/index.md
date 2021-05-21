@@ -1,5 +1,6 @@
 ---
-title: ajax_demo
+title: AJAX demo
+uid: ajax_demo
 description: Custom AJAX methods - add functionality for creating a follow-up appointment for a sale
 author: Steffan Alte
 so.date: 2007

@@ -1,5 +1,6 @@
 ---
-title: pb_usercontrols_binding
+title: Data binding
+uid: pb_usercontrols_binding
 description: User controls data binding
 author: Tony Yates
 so.date: 06.24.2016

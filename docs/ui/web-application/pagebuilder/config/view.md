@@ -1,5 +1,6 @@
 ---
-title: pagebuilder_config_view
+title: View config files
+uid: pagebuilder_config_view
 description: View config files
 author: Tony Yates
 so.date: 06.24.2016

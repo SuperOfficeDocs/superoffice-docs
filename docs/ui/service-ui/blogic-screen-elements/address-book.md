@@ -1,5 +1,6 @@
 ---
-title: blogic_address_book
+title: Address book
+uid: blogic_address_book
 description: Address book
 author:
 so.date:

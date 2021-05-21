@@ -1,5 +1,6 @@
 ---
-title: pb_add_tab_contact_card
+title: How to add a new tab
+uid: pb_add_tab_contact_card
 description: How to add a new tab to the contact card
 author: Tony Yates
 so.date: 06.24.2016

@@ -1,5 +1,6 @@
 ---
-title: blogic_select_agent
+title: Select agent (associate)
+uid: blogic_select_agent
 description: Select agent (associate)
 author:
 so.date:

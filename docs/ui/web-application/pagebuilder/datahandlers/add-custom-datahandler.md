@@ -1,5 +1,6 @@
 ---
-title: datahandler_add
+title: How to add a custom data handler
+uid: datahandler_add
 description: How to add a custom data handler
 author: Tony Yates
 so.date: 06.24.2016

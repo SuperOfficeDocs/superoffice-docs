@@ -1,5 +1,6 @@
 ---
-title: blogic_edit_entity_menu
+title: Edit entity menu
+uid: blogic_edit_entity_menu
 description: Edit entity menu
 author:
 so.date:

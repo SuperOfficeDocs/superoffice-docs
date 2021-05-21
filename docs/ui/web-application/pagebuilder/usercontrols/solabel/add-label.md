@@ -1,5 +1,6 @@
 ---
-title: webapp_add_label
+title: Adding a labelwebapp_add_label
+uid: Adding a label
 description: How to add a label 
 author: Tony Yates
 so.date: 06.24.2016

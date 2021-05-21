@@ -1,5 +1,6 @@
 ---
-title: pb_usercontrols_comparison
+title: Webpage using SuperOffice web controls
+uid: pb_usercontrols_comparison
 description: Webpage using SuperOffice web controls
 author: Tony Yates
 so.date: 06.24.2016

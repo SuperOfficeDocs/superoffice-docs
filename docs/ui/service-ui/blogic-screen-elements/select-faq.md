@@ -1,5 +1,6 @@
 ---
-title: blogic_select_faq
+title: Select FAQ
+uid: blogic_select_faq
 description: Select FAQ
 author:
 so.date:

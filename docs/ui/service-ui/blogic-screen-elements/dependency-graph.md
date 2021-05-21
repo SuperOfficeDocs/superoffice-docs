@@ -1,5 +1,6 @@
 ---
-title: blogic_dependency_graph
+title: Dependency graph
+uid: blogic_dependency_graph
 description: Dependency graph
 author:
 so.date:

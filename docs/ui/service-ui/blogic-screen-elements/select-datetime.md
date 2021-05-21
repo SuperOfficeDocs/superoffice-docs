@@ -1,5 +1,6 @@
 ---
-title: blogic_select_datetime
+title: Select DateTime
+uid: blogic_select_datetime
 description: Select DateTime
 author:
 so.date:

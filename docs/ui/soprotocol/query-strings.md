@@ -1,5 +1,6 @@
 ---
-title: so_protocol_query_strings
+title: Query strings (what)
+uid: so_protocol_query_strings
 description: SoProtocol query strings
 author:
 so.date:

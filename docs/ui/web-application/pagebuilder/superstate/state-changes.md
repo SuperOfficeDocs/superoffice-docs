@@ -1,5 +1,6 @@
 ---
-title: superstate_state_changes
+title: What causes SuperState to change?
+uid: superstate_state_changes
 description: What causes SuperState to change?
 author: Tony Yates
 so.date: 06.24.2016

@@ -1,5 +1,6 @@
 ---
-title: blogic_data_table
+title: Data table
+uid: blogic_data_table
 description: Data table
 author:
 so.date:

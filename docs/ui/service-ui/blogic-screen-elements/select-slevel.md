@@ -1,5 +1,6 @@
 ---
-title: blogic_select_slevel
+title: Select Slevel
+uid: blogic_select_slevel
 description: Select Slevel
 author:
 so.date:

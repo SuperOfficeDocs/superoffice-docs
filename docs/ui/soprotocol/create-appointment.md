@@ -1,5 +1,6 @@
 ---
-title: sop_create_appointment
+title: How to create a new appointment with SoProtocol
+uid: sop_create_appointment
 description: How to create a new appointment with SoProtocol
 author: Tony Yates
 so.date: 06.24.2016

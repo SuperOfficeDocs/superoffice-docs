@@ -1,5 +1,6 @@
 ---
-title: pagebuilder_config_card
+title: Card config files
+uid: pagebuilder_config_card
 description: Card config files
 author: Tony Yates
 so.date: 06.24.2016

@@ -1,5 +1,6 @@
 ---
-title: add_archive_row_context_menu
+title: How to add an Archive row context menu
+uid: add_archive_row_context_menu
 description: Add Archive row context menu
 author: Steffan Alte
 so.date: 2007

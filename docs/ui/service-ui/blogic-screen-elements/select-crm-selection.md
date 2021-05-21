@@ -1,5 +1,6 @@
 ---
-title: blogic_select_crm_selection
+title: Select CRM selection
+uid: blogic_select_crm_selection
 description: Select CRM selection
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: web_application_specs
+title: Technical information
+uid: web_application_specs
 description: Web GUI .Net API technical details
 author: {github-id}
 so.date:

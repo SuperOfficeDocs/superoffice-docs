@@ -1,5 +1,6 @@
 ---
-title: blogic_select_contact_business
+title: Select contact business
+uid: blogic_select_contact_business
 description: Select contact business
 author:
 so.date:

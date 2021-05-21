@@ -1,5 +1,6 @@
 ---
-title: pb_cust_page_std_controls
+title: How to build a custom page with standard controls
+uid: pb_cust_page_std_controls
 description: How to build a custom page with standard controls
 author: Tony Yates
 so.date: 06.24.2016

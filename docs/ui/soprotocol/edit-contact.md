@@ -1,5 +1,6 @@
 ---
-title: sop_edit_contact
+title: How to edit a specific contact
+uid: sop_edit_contact
 description: How to edit a contact
 author: Tony Yates
 so.date: 06.24.2016

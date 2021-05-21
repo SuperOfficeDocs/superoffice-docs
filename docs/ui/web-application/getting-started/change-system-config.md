@@ -1,5 +1,6 @@
 ---
-title: change_system_config
+title: How to alter system configuration files
+uid: change_system_config
 description: How to alter system configuration files
 author: Tony Yates
 so.date: 06.24.2016

@@ -1,5 +1,6 @@
 ---
-title: blogic_select_company
+title: Select company
+uid: blogic_select_company
 description: Select company
 author:
 so.date:

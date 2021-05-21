@@ -1,5 +1,6 @@
 ---
-title: so_protocol_nav
+title: Navigation points (where)
+uid: so_protocol_nav
 description: SoProtocol navigation points
 author:
 so.date:

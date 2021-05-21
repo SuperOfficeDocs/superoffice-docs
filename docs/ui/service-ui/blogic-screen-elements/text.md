@@ -1,5 +1,6 @@
 ---
-title: blogic_text
+title: Text
+uid: blogic_text
 description: Text
 author:
 so.date:

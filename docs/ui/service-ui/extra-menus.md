@@ -1,10 +1,11 @@
 ---
-title: extra_menus
+title: Extra menus
+uid: extra_menus
 description: Extra menus
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # Extra menus

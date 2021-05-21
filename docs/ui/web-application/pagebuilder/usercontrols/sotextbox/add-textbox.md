@@ -1,5 +1,6 @@
 ---
-title: webapp_add_textbox
+title: Adding a textbox
+uid: webapp_add_textbox
 description: Adding a textbox that displays data from a data handler
 author: Tony Yates
 so.date: 06.24.2016

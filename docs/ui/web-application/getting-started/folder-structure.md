@@ -1,13 +1,12 @@
 ---
-title: web_client_folders
+title: Folder structure
+uid: web_client_folders
 description: The contents of the web client installation folder
 author: {github-id}
 keywords:
-so.topic: reference         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite                # cloud or onsite
-so.client: web                # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: onsite
+so.client: web
 ---
 
 # Folder structure

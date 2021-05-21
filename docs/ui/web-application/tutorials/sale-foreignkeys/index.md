@@ -1,5 +1,6 @@
 ---
-title: pb_tutorial_sale_foreignkeys
+title: Overview
+uid: b_tutorial_sale_foreignkeys
 description: Sale foreign-keys tutorial
 author: Steffan Alte
 so.date: 07.25.2007

@@ -1,5 +1,6 @@
 ---
-title: blogic_button_row
+title: Button row
+uid: blogic_button_row
 description: Button row
 author:
 so.date:

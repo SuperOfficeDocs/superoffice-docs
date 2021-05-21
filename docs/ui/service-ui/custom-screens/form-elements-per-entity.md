@@ -1,5 +1,6 @@
 ---
-title: blogic_form_elements_per_entity
+title: Form elements - entity-specific
+uid: blogic_form_elements_per_entity
 description: Form elements - entity-specific
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: pb_usercontrols_placeholder
+title: PlaceHolder
+uid: b_usercontrols_placeholder
 description: UserControls - PlaceHolder
 author: Tony Yates
 so.date: 06.24.2016

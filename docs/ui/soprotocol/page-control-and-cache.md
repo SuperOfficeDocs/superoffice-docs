@@ -1,5 +1,6 @@
 ---
-title: so_protocol_page_control
+title: Page control and cache
+uid: so_protocol_page_control
 description: SoProtocol page control and cache
 author:
 so.date:

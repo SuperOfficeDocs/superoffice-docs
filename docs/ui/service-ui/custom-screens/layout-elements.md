@@ -1,5 +1,6 @@
 ---
-title: blogic_layout
+title: Layout elements
+uid: blogic_layout
 description: Layout elements
 author:
 so.date:

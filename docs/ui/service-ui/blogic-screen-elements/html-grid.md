@@ -1,5 +1,6 @@
 ---
-title: blogic_htmlgrid
+title: HtmlGrid
+uid: blogic_htmlgrid
 description: HtmlGrid
 author:
 so.date:

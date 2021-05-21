@@ -1,5 +1,6 @@
 ---
-title: validation_controls_web
+title: Validation controls
+uid: validation_controls_web
 description: Validation controls
 author: Tony Yates
 so.date: 10.07.2011

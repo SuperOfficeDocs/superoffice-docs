@@ -1,5 +1,6 @@
 ---
-title: soapplicationconfiguration_config
+title: SoApplicationConfiguration.config file
+uid: soapplicationconfiguration_config
 description: Application config file SoApplicationConfiguration.config
 author: Tony Yates
 so.date: 06.24.2016

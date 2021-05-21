@@ -1,5 +1,6 @@
 ---
-title: pb_databinding_solabel
+title: Data binding with SoLabel
+uid: pb_databinding_solabel
 description: Databinding with SoLabel
 author: Tony Yates
 so.date: 06.24.2016

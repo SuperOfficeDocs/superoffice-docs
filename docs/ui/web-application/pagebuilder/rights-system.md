@@ -1,5 +1,6 @@
 ---
-title: pb_usercontrols_rights
+title: Rights system
+uid: pb_usercontrols_rights
 description: Rights system and controls ControlBase
 author: Tony Yates
 so.date: 06.24.2016

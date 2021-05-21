@@ -1,5 +1,6 @@
 ---
-title: blogic_invoice
+title: nvoice
+uid: blogic_invoice
 description: Invoice
 author:
 so.date:
@@ -11,7 +12,7 @@ so.topic: reference
 
 This element is used for listing and adding invoice lines.
 
-It has a grid for the lines, and some input fields for adding a new line.
+It has a grid for the lines and some input fields for adding a new line.
 
 ## Configuration
 

@@ -1,5 +1,6 @@
 ---
-title: blogic_planner
+title: Planner
+uid: blogic_planner
 description: Planner
 author:
 so.date:

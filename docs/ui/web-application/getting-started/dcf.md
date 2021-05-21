@@ -1,5 +1,6 @@
 ---
-title: dynamic_client_foundation
+title: Dynamic Client Foundation (DCF) for Web
+uid: dynamic_client_foundation
 description: Dynamic Client Foundation
 author: Tony Yates
 so.date: 06.24.2016

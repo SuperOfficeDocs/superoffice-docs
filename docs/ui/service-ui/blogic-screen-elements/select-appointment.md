@@ -1,5 +1,6 @@
 ---
-title: blogic_select_appointment
+title: Select appointment
+uid: blogic_select_appointment
 description: Select appointment
 author:
 so.date:

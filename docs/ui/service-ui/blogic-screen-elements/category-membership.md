@@ -1,5 +1,6 @@
 ---
-title: blogic_category_membership
+title: Category membership
+uid: blogic_category_membership
 description: Category membership
 author:
 so.date:

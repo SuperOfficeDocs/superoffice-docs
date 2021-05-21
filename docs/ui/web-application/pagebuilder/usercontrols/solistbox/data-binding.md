@@ -1,5 +1,6 @@
 ---
-title: pb_databinding_solistbox
+title: Databinding with SoListBox
+uid: pb_databinding_solistbox
 description: Databinding with SoListBox
 author: Tony Yates
 so.date: 06.24.2016

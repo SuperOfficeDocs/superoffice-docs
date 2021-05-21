@@ -1,5 +1,6 @@
 ---
-title: webapp_add_custom_control
+title: Adding a custom control
+uid: webapp_add_custom_control
 description: How to add a custom control to an existing view
 author: Tony Yates
 so.date: 06.24.2016

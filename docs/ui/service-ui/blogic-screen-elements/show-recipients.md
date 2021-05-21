@@ -1,5 +1,6 @@
 ---
-title: blogic_show_recipients
+title: Show recipients
+uid: blogic_show_recipients
 description: Show recipients
 author:
 so.date:

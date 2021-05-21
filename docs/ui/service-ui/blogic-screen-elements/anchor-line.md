@@ -1,5 +1,6 @@
 ---
-title: blogic_anchor_line
+title: Anchor line (link row)
+uid: blogic_anchor_line
 description: Anchor line (link row)
 author:
 so.date:

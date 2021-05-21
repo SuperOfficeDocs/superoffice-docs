@@ -1,5 +1,6 @@
 ---
-title: blogic_select_message
+title: Select Message
+uid: blogic_select_message
 description: Select Message
 author:
 so.date:

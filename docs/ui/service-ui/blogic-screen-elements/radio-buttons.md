@@ -1,5 +1,6 @@
 ---
-title: blogic_radiobuttons
+title: Radio buttons
+uid: blogic_radiobuttons
 description: Radio buttons
 author:
 so.date:

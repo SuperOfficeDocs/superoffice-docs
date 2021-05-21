@@ -1,10 +1,11 @@
 ---
-title: url_parameters
+title: URL parameters
+uid: url_parameters
 description: URL parameters
 author:
 so.date:
 keywords:
-so.topic:
+so.topic: concept
 ---
 
 # URL parameters

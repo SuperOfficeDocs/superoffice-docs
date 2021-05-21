@@ -1,5 +1,6 @@
 ---
-title: blogic_form_page
+title: Form page
+uid: blogic_form_page
 description: Form page
 author:
 so.date:

@@ -1,5 +1,6 @@
 ---
-title: add_archive_action_button
+title: How to add an Archive action button
+uid: add_archive_action_button
 description: How to add an Archive action button
 author: Steffan Alte
 so.date: 2007

@@ -1,5 +1,6 @@
 ---
-title: blogic_parser_code
+title: Parser code
+uid: blogic_parser_code
 description: Parser code
 author:
 so.date:

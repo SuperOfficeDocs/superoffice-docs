@@ -1,5 +1,6 @@
 ---
-title: client_config_provider
+title: Client configuration provider
+uid: client_config_provider
 description: Client configuration provider
 author: Tony Yates
 so.date: 04.17.2018
