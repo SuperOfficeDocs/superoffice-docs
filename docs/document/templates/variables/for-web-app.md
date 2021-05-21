@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: for_web_app
+title: Variables for integration with web applications
+uid: for_web_app
 description: Variables for integration with web applications
 author: {github-id}
 keywords:

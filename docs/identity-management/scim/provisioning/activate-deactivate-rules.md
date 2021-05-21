@@ -1,12 +1,12 @@
 ---
-title: activate_deactivate_scim_rules
+title: Activate and deactivate SCIM rules
+uid: activate_deactivate_scim_rules
 description: Activate and deactivate SCIM rules
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Activate and deactivate SCIM rules

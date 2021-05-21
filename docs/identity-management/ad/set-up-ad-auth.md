@@ -1,11 +1,12 @@
 ---
-title: set_up_ad_auth
+title: Active Directory authentication
+uid: set_up_ad_auth
 description: How to setup AD authentication
 author: {github-id}
 keywords:
 so.topic: howto
-so.envir: onsite              # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.envir: onsite
+so.client: web
 ---
 
 # Active Directory authentication

@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_for_quote_line
+title: Variables for Quote line
+uid: variables_for_quote_line
 description: Variables for Quote line
 author: {github-id}
 keywords:

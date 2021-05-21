@@ -1,11 +1,12 @@
 ---
-title: deployment_scenarios
+title: Deployment scenarios
+uid: deployment_scenarios
 description: Deployment scenarios SuperOffice onsite
 author: {github-id}
 keywords: security
 so.topic: guide
-so.envir: onsite              # cloud or onsite
-so.client: web                # online, web, win, pocket, or mobile
+so.envir: onsite
+so.client: web
 ---
 
 # Deployment scenarios

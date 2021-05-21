@@ -1,11 +1,12 @@
 ---
-title: deploy_superoffice_for_outlook
+title: Deploy in your own Outlook
+uid: deploy_superoffice_for_outlook
 description: Deploy SuperOffice for Outlook for user
 author: {github-id}
 keywords:
 so.topic: howto
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Deploy in your own Outlook

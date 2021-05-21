@@ -1,5 +1,6 @@
 ---
-title: set_up_built_in_travel
+title: Built-in as Travel database
+uid: set_up_built_in_travel
 description: Built-in as travel database
 author: {github-id}
 keywords: travel

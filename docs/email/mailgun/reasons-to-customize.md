@@ -1,5 +1,6 @@
 ---
-title: reasons_to_customize_mailgun
+title: Reasons to customize Mailgun
+uid: reasons_to_customize_mailgun
 description: Reasons to customize Mailgun
 author: {github-id}
 keywords:

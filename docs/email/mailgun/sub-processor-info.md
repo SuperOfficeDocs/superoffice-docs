@@ -1,5 +1,6 @@
 ---
-title: mailgun_sub_processor_info
+title: Mailgun sub-processor information
+uid: mailgun_sub_processor_info
 description: Mailgun sub-processor information
 author: {github-id}
 keywords: email

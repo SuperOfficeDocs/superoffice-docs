@@ -1,11 +1,12 @@
 ---
-title: create_video_meeting
+title: Create a video meeting
+uid: create_video_meeting
 description: How to create a video meeting
 author: {github-id}
 keywords:
 so.topic: howto
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Create a video meeting

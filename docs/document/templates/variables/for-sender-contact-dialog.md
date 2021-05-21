@@ -1,5 +1,6 @@
 ---
-title: variables_for_sender_contact_dialog
+title: Variables for the sender (Contact dialog)
+uid: variables_for_sender_contact_dialog
 description: Variables for the sender (Contact dialog)
 author: {github-id}
 keywords:

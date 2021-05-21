@@ -1,5 +1,6 @@
 ---
-title: superoffice_ini
+title: SuperOffice.ini
+uid: superoffice_ini
 description: SuperOffice.ini
 author: {github-id}
 keywords:

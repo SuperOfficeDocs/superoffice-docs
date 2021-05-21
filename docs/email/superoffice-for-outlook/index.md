@@ -1,15 +1,15 @@
 ---
-title: superoffice_for_outlook
+title: SuperOffice for Outlook
+uid: superoffice_for_outlook
 description: SuperOffice for Outlook add-in overview
 author: {github-id}
 keywords:
 so.topic: article
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
-# SuperOffice for Outlook Overview
+# SuperOffice for Outlook overview
 
 [View in the SuperOffice App Store][1]
 

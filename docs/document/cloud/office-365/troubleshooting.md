@@ -1,5 +1,6 @@
 ---
-title: troubleshooting_office_365
+title: Troubleshooting Office 365
+uid: troubleshooting_office_365
 description: Troubleshooting Office 365 document integration
 author: {github-id}
 keywords:

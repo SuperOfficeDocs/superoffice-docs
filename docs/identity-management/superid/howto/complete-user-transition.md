@@ -1,5 +1,6 @@
 ---
-title: complete_user_transition
+title: Complete user account transition
+uid: complete_user_transition
 description: Complete user account transition from password to federated login
 author: {github-id}
 keywords:

@@ -1,5 +1,6 @@
 ---
-title: office_365_requirements
+title: Pre-requisites for Office 365 integration
+uid: office_365_requirements
 description: Requirements for Office 365 integration
 author: {github-id}
 keywords:
@@ -8,7 +9,7 @@ so.envir: cloud
 so.client: online
 ---
 
-# Prerequisites for Office 365 integration
+# Pre-requisites for Office 365 integration
 
 ## IDP authentication
 

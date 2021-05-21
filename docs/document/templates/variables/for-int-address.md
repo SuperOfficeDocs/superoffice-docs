@@ -1,7 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-# Mandatory fields.
-title: variables_for_int_address
+title: Variables for international addresses
+uid: variables_for_int_address
 description: Variables for international addresses
 author: {github-id}
 keywords:

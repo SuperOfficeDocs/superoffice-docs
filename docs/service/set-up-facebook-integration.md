@@ -1,5 +1,6 @@
 ---
-title: set_up_facebook_integration_for_service
+title: Facebook integration
+uid: set_up_facebook_integration_for_service
 description: Set up Facebook integration for Service
 author: {github-id}
 keywords:

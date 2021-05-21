@@ -1,5 +1,6 @@
 ---
-title: singel_sign_on
+title: Single sign-on
+uid: singel_sign_on
 description: Single sign-on
 author: {github-id}
 so.date:

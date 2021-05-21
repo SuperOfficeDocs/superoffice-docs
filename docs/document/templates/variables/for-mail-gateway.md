@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_for_mail_gateway
+title: Variables for SuperOffice Mail Gateway
+uid: variables_for_mail_gateway
 description: Variables for SuperOffice Mail Gateway
 author: {github-id}
 keywords:

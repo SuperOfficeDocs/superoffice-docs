@@ -1,5 +1,6 @@
 ---
-title: user_provisioning
+title: User provisioning
+uid: user_provisioning
 description: User provisioning
 author: {github-id}
 keywords: IDP

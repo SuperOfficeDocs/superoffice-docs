@@ -1,5 +1,6 @@
 ---
-title: system_design
+title: System design
+uid: system_design
 description:
 author: {github-id}
 keywords:

@@ -1,6 +1,7 @@
 ---
-title: version_history
-description: SuperOffice Version History overview
+title: Onsite version history
+uid: version_history
+description: SuperOffice version history overview
 author: {github-id}
 keywords:
 so.topic: reference

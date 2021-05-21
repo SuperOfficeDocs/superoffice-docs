@@ -1,5 +1,6 @@
 ---
-title: activate_travel
+title: Activate travel
+uid: activate_travel
 description: How to activate travel function
 author: {github-id}
 keywords:

@@ -1,12 +1,13 @@
 ---
-title: federated_sign_in_guide
+title: Guide to federated sign-in
+uid: federated_sign_in_guide
 description: Guide to federated sign-in
 author: Bergfrid Dias
 so.date:
 keywords:
 so.topic: guide
-so.envir: cloud          # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Guide to federated sign-in

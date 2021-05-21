@@ -1,5 +1,6 @@
 ---
-title: troubleshooting_document_templates
+title: Document templates troubleshooting
+uid: troubleshooting_document_templates
 description: Document templates troubleshooting
 author: {github-id}
 keywords:

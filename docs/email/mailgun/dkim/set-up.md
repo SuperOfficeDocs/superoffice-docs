@@ -1,12 +1,12 @@
 ---
-title: set_up_dkim 
+title: How to set up a DKIM Record
+uid: set_up_dkim 
 description: How to set up a DKIM Record
 author: {github-id} 
 keywords:
-so.topic:
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud              # cloud or onsite
-so.client: online              # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # How to set up a DKIM Record

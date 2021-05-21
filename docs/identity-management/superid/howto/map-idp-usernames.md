@@ -1,12 +1,12 @@
 ---
-title: map_idp_usernames
+title: Update SuperOffice username to match IdP
+uid: map_idp_usernames
 description: Update SuperOffice username to match IdP username
 author: {github-id}
-so.topic:
 keywords:
 so.topic: guide
-so.envir: cloud           # cloud or onsite
-so.client: online              # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Update SuperOffice username to match IdP username

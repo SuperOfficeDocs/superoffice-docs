@@ -1,12 +1,12 @@
 ---
-title: scimsetup_guide
+title: Guide to initial SCIM configuration
+uid: scimsetup_guide
 description: Guide to initial SCIM configuration
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud             # cloud or onsite
-so.client: online             # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Guide to initial SCIM configuration

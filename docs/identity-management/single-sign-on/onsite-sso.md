@@ -1,5 +1,6 @@
 ---
-title: configure_sso_in_iis_onsite
+title: Single sign-on
+uid: onfigure_sso_in_iis_onsite
 description: Configure single sign-on in IIS onsite
 author: {github-id}
 so.date:

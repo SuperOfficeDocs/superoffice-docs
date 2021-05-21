@@ -1,12 +1,12 @@
 ---
-title: superoffice_for_outlook_requirements
+title: Requirements
+uid: superoffice_for_outlook_requirements
 description: Requirements and known limitations of SuperOffice for Outlook add-in
 author: {github-id}
 keywords:
 so.topic: reference
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Requirements

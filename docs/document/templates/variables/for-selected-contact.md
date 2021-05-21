@@ -1,5 +1,6 @@
 ---
-title: variables_for_selected_contact
+title: Variables for a selected contact
+uid: variables_for_selected_contact
 description: Variables for a selected contact
 author: {github-id}
 keywords:

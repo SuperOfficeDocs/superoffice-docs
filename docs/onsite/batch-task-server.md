@@ -1,5 +1,6 @@
 ---
-title: batch_task_server
+title: SuperOffice Batch Task Server
+uid: batch_task_server
 description: SuperOffice Batch Task Server
 author: {github-id}
 keywords:

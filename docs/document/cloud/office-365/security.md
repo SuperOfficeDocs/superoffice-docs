@@ -1,5 +1,6 @@
 ---
-title: office_365_security
+title: Considerations / security
+uid: office_365_security
 description: Office 365 document integration security
 author: {github-id}
 keywords:

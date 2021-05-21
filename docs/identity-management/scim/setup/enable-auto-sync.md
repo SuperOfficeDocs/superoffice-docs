@@ -1,12 +1,12 @@
 ---
-title: enable_auto_scim_sync
+title: Enable automatic sync to SuperOffice
+uid: enable_auto_scim_sync
 description: Enable automatic sync to SuperOffice
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud             # cloud or onsite
-so.client: online             # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Enable automatic sync to SuperOffice

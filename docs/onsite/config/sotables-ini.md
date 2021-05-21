@@ -1,5 +1,6 @@
 ---
-title: sotables_ini
+title: SoTables.ini
+uid: sotables_ini
 description: SoTables.ini
 author: {github-id}
 keywords:

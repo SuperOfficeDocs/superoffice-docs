@@ -1,12 +1,12 @@
 ---
-title: sync_user
+title: Sync user to SuperOffice now
+uid: sync_user
 description: Sync user to SuperOffice now
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Sync user to SuperOffice now

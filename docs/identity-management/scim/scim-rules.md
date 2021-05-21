@@ -1,12 +1,13 @@
 ---
-title: scim_rules
+title: SCIM rules
+uid: scim_rules
 description: SCIM rules
 author: {github-id}
 so.date:
 keywords: SCIM
 so.topic: concepts
-so.envir: cloud             # cloud or onsite
-so.client: online             # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 # SCIM rules
 

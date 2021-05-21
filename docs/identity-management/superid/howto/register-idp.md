@@ -1,5 +1,6 @@
 ---
-title: register_idp
+title: Register identity provider (domain name)
+uid: register_idp
 description: Register identity provider (domain name)
 author: {github-id}
 so.date:

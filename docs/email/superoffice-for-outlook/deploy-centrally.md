@@ -1,12 +1,12 @@
 ---
-title: deploy_superoffice_for_outlook_centrally
+title: Centralized deployment
+uid: deploy_superoffice_for_outlook_centrally
 description: Centralized deployment
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud              # cloud or onsite
-so.client: online            # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Centralized deployment

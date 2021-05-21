@@ -1,5 +1,6 @@
 ---
-title: security_enhancements
+title: Security enhancements
+uid: security_enhancements
 description: Security enhancements
 author: {github-id}
 keywords:

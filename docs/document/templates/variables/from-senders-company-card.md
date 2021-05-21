@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_from_senders_company_card
+title: Variables from sender’s company card
+uid: variables_from_senders_company_card
 description: Variables from the sender’s own company card
 author: {github-id}
 keywords:

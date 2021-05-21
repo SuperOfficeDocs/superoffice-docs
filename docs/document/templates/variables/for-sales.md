@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: varibles_for_sales
+title: Variables for sales
+uid: varibles_for_sales
 description: Variables for sales
 author: {github-id}
 keywords:

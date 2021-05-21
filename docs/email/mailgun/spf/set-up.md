@@ -1,12 +1,12 @@
 ---
-title: set_up_spf
+title: How to set up SPF Record
+uid: set_up_spf
 description: How to set up SPF Record
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud              # cloud or onsite
-so.client: online              # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # How to set up SPF Record

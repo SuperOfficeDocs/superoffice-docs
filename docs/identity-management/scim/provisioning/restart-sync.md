@@ -1,12 +1,12 @@
 ---
-title: restart_scim_sync
+title: Restart synchronization
+uid: restart_scim_sync
 description: Restart SCIM synchronization
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Restart synchronization
@@ -14,7 +14,9 @@ so.client: online               # online, web, win, pocket, or mobile
 If you suspect Azure AD and SuperOffice are out of sync, you might need to restart the synchronization.
 
 > [!WARNING]
-> If you need to start synchronization from scratch, it should be **done on both sides!**<br>Restarting only 1 side will lead to inconsistent data. Azure AD has no knowledge of what you do to the synchronized user list.
+> If you need to start synchronization from scratch, it should be **done on both sides!**
+>
+> Restarting only 1 side will lead to inconsistent data. Azure AD has no knowledge of what you do to the synchronized user list.
 
 ## In the SuperOffice Identity Manager
 

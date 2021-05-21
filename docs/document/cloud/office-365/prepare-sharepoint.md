@@ -1,5 +1,6 @@
 ---
-title: prepare_sharepoint_for_set_up
+title: Preparing IDP login for SharePoint
+uid: prepare_sharepoint_for_set_up
 description: Preparing IDP login for SharePoint integration
 author: {github-id}
 keywords:

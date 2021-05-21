@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_from_project_card
+title: Variables from the project card
+uid: variables_from_project_card
 description: Variables from the project card
 author: {github-id}
 keywords:

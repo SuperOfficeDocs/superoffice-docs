@@ -1,12 +1,12 @@
 ---
-title: preview_scim_sync
+title: Preview what will be synced
+uid: preview_scim_sync
 description: Preview what will be synced
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Preview what will be synced

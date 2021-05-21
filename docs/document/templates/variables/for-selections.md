@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_for_selections
+title: Variables for selections
+uid: variables_for_selections
 description: Variables for selections
 author: {github-id}
 keywords:

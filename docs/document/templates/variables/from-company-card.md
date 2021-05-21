@@ -1,5 +1,6 @@
 ---
-title: variables_from_company_card
+title: Variables from the company card
+uid: variables_from_company_card
 description: Variables from the company card
 author: {github-id}
 keywords:

@@ -1,8 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_misc
+# Misc template variables
+title: 
+uid: variables_misc
 description: Misc template variables
 author: {github-id}
 keywords:

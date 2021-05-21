@@ -1,12 +1,12 @@
 ---
-title: order_dkim_key
+title: Request DKIM key for eu.mailgun.org
+uid: order_dkim_key
 description:
 author: {github-id}
 keywords: mailgun
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud              # cloud or onsite
-so.client: online              # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Request DKIM key for eu.mailgun.org

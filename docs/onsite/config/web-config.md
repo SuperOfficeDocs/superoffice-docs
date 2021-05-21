@@ -1,10 +1,11 @@
 ---
-title: web_config
+title: Web.config
+uid: web_config
 description: Web.config
 author: {github-id}
 keywords:
 so.topic: reference
-so.envir: onsite            # cloud or onsite
+so.envir: onsite
 # so.client:
 ---
 

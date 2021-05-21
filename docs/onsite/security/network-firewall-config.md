@@ -1,11 +1,12 @@
 ---
-title: network_and_firewall_config
+title: Network and firewall configuration
+uid: network_and_firewall_config
 description: Network and firewall configuration for SuperOffice onsite
 author: {github-id}
 keywords: security
 so.topic:
 so.envir: onsite
-so.client: web                  # online, web, win, pocket, or mobile
+so.client: web
 ---
 
 # Network and firewall configuration

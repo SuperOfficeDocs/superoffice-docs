@@ -1,11 +1,12 @@
 ---
-title: mapping_so_user_to_ad_v_7_1
+title: Mapping SuperOffice users to AD
+uid: mapping_so_user_to_ad_v_7_1
 description: Mapping SuperOffice users to Active Directory in 7.0 SR3 and 7.1
 author: Jens M. Glattetre
 so.date: 03.30.2012
 keywords:
 so.topic: howto
-so.envir: onsite             # cloud or onsite
+so.envir: onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 

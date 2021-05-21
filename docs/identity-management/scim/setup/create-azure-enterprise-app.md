@@ -1,12 +1,12 @@
 ---
-title: create_azure_enterprise_app
+title: Create an Azure AD enterprise application
+uid: create_azure_enterprise_app
 description: Create an Azure AD enterprise application
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud             # cloud or onsite
-so.client: online             # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Create an Azure AD enterprise application

@@ -1,11 +1,12 @@
 ---
-title: secure_deployment_guide
+title: Deploy SuperOffice securely onsite
+uid: secure_deployment_guide
 description: Guide to secure deployment of SuperOffice onsite
 author: {github-id}
 keywords: security
 so.topic: guide
 so.envir: onsite
-so.client: web                   # online, web, win, pocket, or mobile
+so.client: web
 ---
 
 # Deploy SuperOffice securely onsite

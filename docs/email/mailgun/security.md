@@ -1,6 +1,7 @@
 ---
-title: mailgun_security
-description:
+title: Security and best practices
+uid: mailgun_security
+description: Security and best practices for Mailgun
 author: {github-id}
 keywords: email
 so.topic: reference

@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_for_appointments
+title: Variables for appointments
+uid: variables_for_appointments
 description: Variables for appointments
 author: {github-id}
 keywords:

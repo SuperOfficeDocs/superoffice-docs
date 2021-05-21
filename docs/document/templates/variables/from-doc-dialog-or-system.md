@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_from_doc_dialog_or_system
+title: Variables from Document dialog or system
+uid: variables_from_doc_dialog_or_system
 description: Variables from the Document dialog or from the system
 author: {github-id}
 keywords:

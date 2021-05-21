@@ -1,12 +1,12 @@
 ---
-title: sign_in_to_scim
+title: Sign in to SuperOffice Identity Manager
+uid: sign_in_to_scim
 description: Sign in to SuperOffice Identity Manager
 author: {github-id}
 keywords:
 so.topic: howto
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud               # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # Sign in to SuperOffice Identity Manager

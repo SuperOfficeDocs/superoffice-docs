@@ -1,5 +1,6 @@
 ---
-title: mailgun_amount_speed
+title: Mailgun - amount and speed
+uid: mailgun_amount_speed
 description: Mailgun - amount and speed
 author: {github-id}
 keywords:

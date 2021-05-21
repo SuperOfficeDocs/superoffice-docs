@@ -1,5 +1,6 @@
 ---
-title: onsite_security
+title: Security and deployment
+uid: onsite_security
 description: Security and deployment
 author: {github-id}
 keywords:

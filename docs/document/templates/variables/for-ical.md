@@ -1,8 +1,6 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com
-
-# Mandatory fields.
-title: variables_for_ical
+title: Variables for iCal appointments
+uid: variables_for_ical
 description: Variables for appointments corresponding to the iCal standard
 author: {github-id}
 keywords:

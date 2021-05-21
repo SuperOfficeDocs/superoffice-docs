@@ -1,5 +1,6 @@
 ---
-title: superoffice_config
+title: SuperOffice.config
+uid: superoffice_config
 description: SuperOffice.config
 author: {github-id}
 keywords:
