@@ -1,15 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: create_cdd_tables       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to create tables in the SuperOffice database for version 8.1 and higher # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: How to create tables
+uid: create_cdd_tables
+description: How to create tables in the SuperOffice database for version 8.1 and higher
 author: Tony Yates
 so.date: 06.23.2017, 11.02.2017
 keywords:
-so.topic: guide               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: guide
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

@@ -1,12 +1,11 @@
 ---
-title: changes_70_to_71
+title: Table changes from 7.0 to 7.1
+uid: changes_70_to_71
 description: Changes in SuperOffice from 7.0 to 7.1
 author: {github-id}
 keywords: database
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite           # cloud or onsite
+so.topic: reference
+so.envir: onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 

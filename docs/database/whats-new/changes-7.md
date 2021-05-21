@@ -1,5 +1,6 @@
 ---
-title: changes_in_7       
+title: What's new in v7
+uid: changes_in_7
 description: What's new in the SuperOffice 7 database
 author: {github-id}             # Your GitHub alias.
 keywords:

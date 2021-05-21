@@ -1,14 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: so_view_of_the_world       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: SuperOffice view of the world # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: SuperOffice view of the world
+uid: so_view_of_the_world
+description: SuperOffice view of the world
+author: {github-id}
 keywords:
-so.topic: concept            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: concept
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

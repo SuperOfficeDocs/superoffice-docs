@@ -1,5 +1,6 @@
 ---
-title: ids_in_sequence
+title: Sequence
+uid: ids_in_sequence
 description: Sequence - where do IDs come from
 author:
 so.date:

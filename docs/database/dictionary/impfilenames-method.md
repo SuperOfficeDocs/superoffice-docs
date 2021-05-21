@@ -1,9 +1,7 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: impfilenames_method       # (Required) Very important for SEO.
-description: Continuous database ImpFileNames method # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: ImpFileNames method
+uid: impfilenames_method
+description: Continuous database ImpFileNames method
 author: Tony Yates
 so.date: 06.23.2017
 keywords: database

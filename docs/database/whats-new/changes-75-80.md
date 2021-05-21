@@ -1,12 +1,11 @@
 ---
-title: changes_75_to_80
+title: Table changes from 7.5 to 8.0
+uid: changes_75_to_80
 description: Changes in SuperOffice from 7.5 to 8.0
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: database
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite           # cloud or onsite
+so.topic: reference
+so.envir: onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
