@@ -1,14 +1,13 @@
 ---
-title: get_person_from_contact_sodatareader
+title: Retrieve a list of people using SODataReader
+uid: get_person_from_contact_sodatareader
 description: Retrieve a list of people using SODataReader
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords: sodatareader,person
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Retrieve a list of people using SODataReader

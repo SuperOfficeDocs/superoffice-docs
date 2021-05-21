@@ -1,5 +1,6 @@
 ---
-title: get_contact_details
+title: Get contact details
+uid: get_contact_details
 description: Get contact details from the SuperOffice database
 author:
 so.date:

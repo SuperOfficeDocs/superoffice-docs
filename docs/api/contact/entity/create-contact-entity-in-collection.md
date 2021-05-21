@@ -1,12 +1,11 @@
 ---
-title: create_contact_entity_in_collection
+title: Create a Contact entity through an entity collection
+uid: create_contact_entity_in_collection
 description: Create a Contact entity through an entity collection
 author: {github-id}
 so.date: 05.11.2016
 keywords: entity,collection
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

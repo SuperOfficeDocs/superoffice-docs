@@ -1,12 +1,12 @@
 ---
-title: rest_api_search_contact
+title: Select all companies
+uid: rest_api_search_contact
 description: REST Web API contact
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: search
 so.date:
 so.topic: howto
 ---
-
 
 # Select all companies
 

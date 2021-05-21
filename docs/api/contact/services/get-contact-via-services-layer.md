@@ -1,13 +1,11 @@
 ---
-# Mandatory fields.
-title: get_contact_services_layer       # (Required) Very important for SEO.
-description: Get a Contact through Services layer  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Get a contact through the services layer
+uid: get_contact_services_layer
+description: Get a Contact through Services layer
+author: {github-id}
 so.date: 05.11.2016
 keywords: api-services
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
@@ -20,7 +18,7 @@ The following example shows how it is done.
 
 ```csharp
 using SuperOffice.CRM.Services;
-using SuperOffice ;
+using SuperOffice;
 using(SoSession mySession = SoSession.Authenticate("SAL0", ""))
 {
   //Create a Contact Agent

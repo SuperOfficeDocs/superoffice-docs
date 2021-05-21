@@ -1,17 +1,16 @@
 ---
-title: update_person_osql
+title: Update a person with new name, address, position using OSQL
+uid: update_person_osql
 description: Update a person with new name, address, position using OSQL
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords: osql
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# Update a person with new name, address, position using OSQL
+# Update a person with a new name, address, position using OSQL
 
 [!include[import OSQL namespaces](../../includes/using-osql.md)]
 

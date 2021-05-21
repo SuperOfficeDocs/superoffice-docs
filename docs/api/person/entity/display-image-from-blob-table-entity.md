@@ -1,12 +1,11 @@
 ---
-title: display_image_from_blob_entity
+title: How to display an image from the Blob table
+uid: display_image_from_blob_entity
 description: How to display an image from the Blob table
 author: {github-id}
 so.date: 05.11.2016
 keywords: row
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

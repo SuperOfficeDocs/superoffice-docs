@@ -1,12 +1,10 @@
 ---
-# Mandatory fields.
-title: create_company       # (Required) Very important for SEO.
-description: Create a new company # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Create a new company
+uid: create_company
+description: Create a new company
+author: {github-id}
 keywords: rest,contact
-so.topic: howto        # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

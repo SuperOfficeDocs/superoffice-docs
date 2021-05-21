@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: get_person_ipersonagent       # (Required) Very important for SEO.
-description: Retrieving list of persons with IPersonAgent  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Retrieving list of persons with IPersonAgent
+uid: get_person_ipersonagent
+description: Retrieving list of persons with IPersonAgent
+author: {github-id}
 so.date: 06.24.2016
 keywords: api-serices, ipersonagent
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Retrieving list of persons with IPersonAgent

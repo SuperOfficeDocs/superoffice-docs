@@ -1,12 +1,11 @@
 ---
-title: get_person_from_contact_entity
+title: Retrieve a list of people using entities
+uid: get_person_from_contact_entity
 description: Retrieve a list of people using entities
 author: {github-id}
 so.date: 05.11.2016
 keywords: entity
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

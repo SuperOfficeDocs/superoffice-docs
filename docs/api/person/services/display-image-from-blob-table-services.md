@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: display_image_from_blob_ws       # (Required) Very important for SEO.
-description: How to display an image from the Blob table using services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to display an image from the Blob table (services)
+uid: display_image_from_blob_ws
+description: How to display an image from the Blob table using services
+author: {github-id}
 so.date: 06.24.2016
 keywords: services
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to display an image from the Blob table (services)

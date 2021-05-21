@@ -1,13 +1,11 @@
 ---
-# Mandatory fields.
-title: create_contact_row       # (Required) Very important for SEO.
-description: Create a contact row  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Create a contact row
+uid: create_contact_row
+description: Create a contact row
+author: {github-id}
 so.date: 05.11.2016
 keywords: row
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

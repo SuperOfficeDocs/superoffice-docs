@@ -1,14 +1,13 @@
 ---
-title: update_person_ws
+title: Update a person with a new name, address, position using services
+uid: update_person_ws
 description: Update a person with a new name, address, position using services
 author: {github-id}
 so.date: 05.11.2016
 keywords: api-services
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Update a person with a new name, address, position using services

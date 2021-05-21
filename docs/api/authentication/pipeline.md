@@ -1,11 +1,11 @@
 ---
 title: Authentication pipeline
-auth_pipeline
+uid: auth_pipeline
 description: Authentication pipeline
 author: {github-id}
 so.date: 05.08.2018
-keywords: security,identity
-so.topic: concept
+keywords: security, identity
+so.topic: concept \
 so.envir: onsite
 # so.client:
 ---

@@ -1,9 +1,10 @@
 ---
-title: add_person_picture_blob_sql
+title: How to add a person picture
+uid: add_person_picture_blob_sql
 description: Person picture and blobs
 author:
 so.date:
-keywords: blob,person
+keywords: blob, person
 so.topic: howto
 ---
 

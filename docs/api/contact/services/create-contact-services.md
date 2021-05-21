@@ -1,13 +1,11 @@
 ---
-# Mandatory fields.
-title: create_contact_services       # (Required) Very important for SEO.
-description: Create a contact using services  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Create a Contact using services
+uid: create_contact_services
+description: Create a contact using services
+author: {github-id}
 so.date: 
 keywords: api-services
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

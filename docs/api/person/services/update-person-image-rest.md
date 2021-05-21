@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: update_person_image       # (Required) Very important for SEO.
-description: Update the person's picture # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
-keywords: rest,person
-so.topic: howto           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+title: Update the person's picture
+uid: update_person_image
+description: Update the person's picture
+author: {github-id}
+keywords: rest, person
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Update the person's picture

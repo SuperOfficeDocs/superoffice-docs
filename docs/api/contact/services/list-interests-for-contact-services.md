@@ -1,12 +1,11 @@
 ---
-title: list_contact_interests_ws
+title: How to list all selected interests
+uid: list_contact_interests_ws
 description: How to list all selected interests for a contact using services
 author: {github-id}
 so.date: 06.24.2016
 keywords: interest
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

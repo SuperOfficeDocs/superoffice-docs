@@ -1,11 +1,10 @@
 ---
-title: get_interests_sql
+title: Get interests for contact
+uid: get_interests_sql
 description: Interests
 author: {github-id}
 keywords: interests,contact
 so.topic: howto
-
-# Optional fields. Don't forget to remove # if you need a field.
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

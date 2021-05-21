@@ -1,13 +1,11 @@
 ---
-# Mandatory fields.
-title: create_contact_entity_in_entity       # (Required) Very important for SEO.
-description: Create a Contact entity through an entity  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Create a Contact entity through an entity
+uid: create_contact_entity_in_entity
+description: Create a Contact entity through an entity
+author: {github-id}
 so.date: 05.11.2016
 keywords: diary,entity
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

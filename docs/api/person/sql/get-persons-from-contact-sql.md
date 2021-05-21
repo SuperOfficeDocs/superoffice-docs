@@ -1,5 +1,6 @@
 ---
-title: get_persons_from_contact_sql
+title: Get a list of people for a contact
+uid: get_persons_from_contact_sql
 description: Get a list of people for a contact
 author:
 so.date:

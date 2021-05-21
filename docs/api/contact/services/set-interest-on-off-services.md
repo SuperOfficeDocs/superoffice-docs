@@ -1,12 +1,11 @@
 ---
-title: toggle_contact_interest_ws
+title: How to set an interest on or off
+uid: toggle_contact_interest_ws
 description: How to set an interest on or off for a contact using services
 author: {github-id}
 so.date: 06.24.2016
 keywords: interest
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

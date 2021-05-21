@@ -1,13 +1,11 @@
 ---
-# Mandatory fields.
-title: create_contact_interest       # (Required) Very important for SEO.
-description: How to add a new contact interest  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to add a new contact interest
+uid: create_contact_interest
+description: How to add a new contact interest
+author: {github-id}
 so.date: 05.11.2016
-keywords: interest,rows
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+keywords: interest, rows
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

@@ -1,13 +1,11 @@
 ---
-# Mandatory fields.
-title: display_person_image # (Required) Very important for SEO.
-description: Display person image # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Display person image
+uid: display_person_image
+description: Display person image
+author: {github-id}
 so.date: 06.24.2016
 keywords: services
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

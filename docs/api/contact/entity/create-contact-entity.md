@@ -1,12 +1,11 @@
 ---
-title: create_contact_entity
+title: Create a Contact entity
+uid: create_contact_entity
 description: Create a contact entity
 author: {github-id}
 so.date: 05.11.2016
 keywords: entity
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

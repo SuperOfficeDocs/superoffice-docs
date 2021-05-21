@@ -1,5 +1,6 @@
 ---
-title: update_person_sql
+title: Update a person
+uid: update_person_sql
 description: Update a person in the SuperOffice database
 author:
 so.date:

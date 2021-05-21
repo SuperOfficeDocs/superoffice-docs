@@ -1,12 +1,11 @@
 ---
-title: toggle_contact_interest_entity
+title: How to set an interest on or off
+uid: toggle_contact_interest_entity
 description: How to set an interest on or off for a contact using entities
 author: {github-id}
 so.date: 05.11.2016
-keywords: interest,contactinteresthelper
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+keywords: interest, contactinteresthelper
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

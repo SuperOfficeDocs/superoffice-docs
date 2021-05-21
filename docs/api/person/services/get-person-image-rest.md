@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: get_person_image       # (Required) Very important for SEO.
-description:                    # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
-keywords: rest,person
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+title: Display a person's picture
+uid: get_person_image
+description: Display a person's picture
+author: {github-id}
+keywords: rest, person
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Display a person's picture

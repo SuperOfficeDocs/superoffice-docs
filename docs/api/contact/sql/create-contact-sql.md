@@ -1,5 +1,6 @@
 ---
-title: add_contact
+title: Create a contact
+uid: add_contact
 description: Add a contact to the SuperOffice database using raw SQL
 author:
 so.date:
@@ -23,7 +24,9 @@ The reality is a bit more detailed. Below is a transcript of the database update
 ![x][img1]
 
 > [!NOTE]
-> Sequence ID picking is omitted for clarity.<br>The ID and string values used here are just examples. The actual values on your database will be different.
+> Sequence ID picking is omitted for clarity.
+>
+> The ID and string values used here are just examples. The actual values on your database will be different.
 
 ## Address records
 

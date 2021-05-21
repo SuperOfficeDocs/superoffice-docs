@@ -1,12 +1,11 @@
 ---
-title: list_contact_interests_entity
+title: How to list all selected interests for a contact
+uid: list_contact_interests_entity
 description: How to list all selected interests for a contact using entities
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords: interest
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
