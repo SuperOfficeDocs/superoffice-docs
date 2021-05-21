@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: credentials_table       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Credentials table # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Credentials table
+uid: credentials_table
+description: Credentials table
+author: {github-id}
 keywords:
-so.topic: concept             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Credentials table

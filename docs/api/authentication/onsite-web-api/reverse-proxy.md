@@ -1,10 +1,11 @@
 ---
-title: web_api_reverse_proxy
+title: Reverse proxy
+uid: web_api_reverse_proxy
 description: Web API authentication reverse proxy
 author: {github-id}
 so.date: 
 keywords: 
-so.topic: concept 
+so.topic: concept
 ---
 
 # Reverse proxy

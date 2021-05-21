@@ -1,5 +1,6 @@
 ---
-title: web_api_auth_x-xsrf
+title: Re-use existing session
+uid: web_api_auth_x-xsrf
 description: Web API authentication X-XSRF-token
 author: {github-id}
 so.date: 

@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: anonumous_vs_external_user       # (Required) Very important for SEO.
-description: External vs. anonymous users  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: External vs. anonymous users
+uid: anonumous_vs_external_user
+description: External vs. anonymous users
+author: {github-id}
 so.date:
 keywords:
-so.topic: concept                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # External vs. anonymous users

@@ -1,12 +1,13 @@
 ---
-title: get_system_user_ticket
-description: How to exchange system user token for system user ticketspaces.
-author: {github-id}             # Your GitHub alias.
+title: How to exchange system user token for system user ticket
+uid: get_system_user_ticket
+description: How to exchange a system user token for a system user ticket
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # How to exchange system user token for system user ticket
@@ -14,6 +15,7 @@ so.client: online               # online, web, win, pocket, or mobile
 You need a system user ticket to perform non-interactive REST API calls. To get the ticket, you periodically invoke the web service endpoint and present your system user token.
 
 The [system user token][1] is embedded in the [SuperIdToken][2] that you received when you [validated][3] the JWT security token from the initial authentication.
+
 ## Pre-requisites
 
 * [Client secret][5] (application is registered)

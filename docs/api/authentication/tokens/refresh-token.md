@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: refresh_token       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Refresh tokens # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Refresh tokens
+uid: refresh_token
+description: Refresh tokens
+author: {github-id}
 keywords: authentication
-so.topic: concept          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Refresh tokens
@@ -52,7 +48,7 @@ redirect_url=http://localhost/callback
 | `client_secret` | yes | The client secret (application token) assigned to your app when you registered it with SuperOffice. |
 | `refresh_token` | yes | The refresh token issued as one of the response items in the authorization code flow. |
 | `redirect_uri` | no | The redirect URL of your app, where authentication responses are sent and received by your app.<br>It must exactly match one of the redirect URLs registered with SuperOffice. |
-| `scope` | no | SuperOffice only supports the scope `openid`, and is implicit for each flow. |
+| `scope` | no | SuperOffice only supports the scope `openid` and is implicit for each flow. |
 
 ### Response
 

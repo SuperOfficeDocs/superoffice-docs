@@ -1,5 +1,6 @@
 ---
-title: ns_create_session
+title: How to create a new session
+uid: ns_create_session
 description: How to create a new session
 author: {github-id}
 so.date: 11.05.2016
@@ -37,6 +38,6 @@ You can also write the test like this:
 if (newSession.Equals(null))
 ```
 
-We have retrieved some data about the currently signed in user through the `SoContext`, class which holds information about the currently signed-in user.
+We have retrieved some data about the currently signed-in user through the `SoContext`, class which holds information about the currently signed-in user.
 
 The `Authenticate` method has **3 overloads**. If you don't pass any parameters, it authenticates the user based on the currently signed-in Windows user.

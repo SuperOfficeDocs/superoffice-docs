@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: auth_user_legacy       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: How to authenticate an application user with SuperOffice legacy federated authentication # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: How to authenticate an application - legacy
+uid: auth_user_legacy
+description: How to authenticate an application user with SuperOffice legacy federated authentication
+author: {github-id}
 keywords:
-so.topic:                       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # How to authenticate an application user with SuperOffice legacy federated authentication

@@ -1,5 +1,6 @@
 ---
-title: ns_switch_sessions
+title: Switching between sessions
+uid: ns_switch_sessions
 description: Switching between sessions
 author: {github-id}
 so.date: 11.05.2016

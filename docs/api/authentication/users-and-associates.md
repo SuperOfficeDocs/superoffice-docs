@@ -2,13 +2,11 @@
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 uid: users_and_associates
 # Mandatory fields.
-title: Users and Associates       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Users and associates  # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Users and Associates       
+description: Users and associates 
 author: {github-id}             # Your GitHub alias.
 keywords: database
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: concept              
 # so.envir:                     # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---

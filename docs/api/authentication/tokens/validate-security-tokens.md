@@ -1,15 +1,11 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 
-# Mandatory fields.
-uid: validate_security_tokens       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
+uid: validate_security_tokens       
 title: Validate security tokens
-description: How to validate security tokens # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+description: How to validate security tokens
 author: {github-id}             # Your GitHub alias.
 keywords: certificates,jwt
-so.topic: howto           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: howto           
 so.envir: cloud           # cloud or onsite
 so.client: online               # online, web, win, pocket, or mobile
 ---

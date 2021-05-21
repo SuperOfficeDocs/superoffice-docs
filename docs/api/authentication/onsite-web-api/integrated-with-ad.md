@@ -1,5 +1,6 @@
 ---
-title: web_api_auth_ad
+title: Integrated with Active Directory
+uid: web_api_auth_ad
 description: Web API authentication Active Directory
 author: {github-id}
 so.date: 

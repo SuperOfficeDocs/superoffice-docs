@@ -1,5 +1,6 @@
 ---
-title: auth_in_7
+title: Authentication in SuperOffice 7
+uid: auth_in_7
 description: Authentication in SuperOffice 7
 author: {github-id}
 so.date: 11.05.2016

@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: id_token       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: ID tokens          # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: ID tokens
+uid: id_token
+description: ID tokens
+author: {github-id}
 keywords: authentication
-so.topic: concept                  # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # ID tokens
@@ -23,7 +19,7 @@ The **identity token** is similar to an ID card or a passport. It contains a num
 
 * **Subject:** a unique identifier assigned to a user by the identity provider, for example, a username
 * **Issuing authority:** the identity provider that issued the token
-* **Audience:** identifies the relying party, or partner application, that can use the token
+* **Audience:** identifies the relying party or partner application, that can use the token
 * **Issue date:** the date and time the token was issued
 * **Expiration date:** the date and time the token will expire
 
@@ -38,7 +34,7 @@ The ID token is encoded as a [JSON Web Token (JWT)][1]. It consists of 3 element
 
 ## How is the ID token used?
 
-The ID token is primarily a means to access information about the currently signed in application user. It:
+The ID token is primarily a means to access information about the currently signed-in application user. It:
 
 * is typically used for UI display
 * can be used to personalize and enhance the user experience

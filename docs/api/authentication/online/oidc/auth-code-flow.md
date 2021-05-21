@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: auth_code_flow       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Authorization code flow # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Authorization code flow
+uid: auth_code_flow
+description: Authorization code flow
+author: {github-id}
 keywords: oidc
-so.topic: concept   # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Authorization code flow

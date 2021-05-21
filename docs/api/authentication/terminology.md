@@ -1,5 +1,6 @@
 ---
-title: auth_terminology
+title: Terminology
+uid: auth_terminology
 description: Authentication terminology
 author: {github-id}
 so.date: 11.05.2016
@@ -9,7 +10,7 @@ so.topic: concept
 
 # Terminology
 
-Authentication and authorization are crucial, and separate, concepts.
+Authentication and authorization are crucial and separate, concepts.
 
 **Authentication** is about identity – who you are. We can **delegate** the identification of the user to anyone we trust to do so. How we know who the user is, doesn't matter (unless we had different levels of trust like the Norwegian tax website does).
 

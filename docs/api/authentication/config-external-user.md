@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: config_external_user       # (Required) Very important for SEO.
-description: How to configure the external users in the config file # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to configure the external users
+uid: config_external_user
+description: How to configure the external users in the config file
+author: {github-id}
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to configure the external users in the config file

@@ -1,5 +1,6 @@
 ---
-title: web_api_auth
+title: Authorization
+uid: web_api_auth
 description: Web API authentication
 author: {github-id}
 so.date: 

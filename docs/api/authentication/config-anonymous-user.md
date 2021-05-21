@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: config_anonymous_user       # (Required) Very important for SEO.
-description: How to configure the anonymous users in the config file # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to configure the anonymous users
+uid: config_anonymous_user
+description: How to configure the anonymous users in the config file
+author: {github-id}
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to configure the anonymous users in the config file

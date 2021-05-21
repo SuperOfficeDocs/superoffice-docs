@@ -1,23 +1,19 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: system_user_token       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: System user tokens # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: System user tokens
+uid: system_user_token
+description: System user tokens
+author: {github-id}
 keywords:
-so.topic: concept             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # System user tokens
 
-A _system user token_ is a  contract between an application and a tenant
+A **system user token** is a  contract between an application and a tenant
 
-This component is coupled with the [application][1] in the Operation Centre, and is only included in the JWT or `id_token` when an administrator signs in to SuperID.
+This component is coupled with the [application][1] in the Operation Centre and is only included in the JWT or `id_token` when an administrator signs in to SuperID.
 
 Technically, the system user token is a String formatted as `NAME_OF_APP-<some_random_characters>` that:
 

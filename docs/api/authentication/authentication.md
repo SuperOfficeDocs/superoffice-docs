@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: changes_7_auth       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Changes in SuperOffice 7 - authentication # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Authentication
+uid: changes_7_auth
+description: Changes in SuperOffice 7 - authentication
+author: {github-id}
 keywords: database
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite           # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: onsite
+# so.client:
 ---
 
 # Authentication

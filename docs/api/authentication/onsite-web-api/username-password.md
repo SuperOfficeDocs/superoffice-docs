@@ -1,10 +1,11 @@
 ---
-title: web_api_auth_anon
+title: SuperOffice username and password
+uid: web_api_auth_anon
 description: Web API authentication anon
 author: {github-id}
 so.date: 
 keywords: 
-so.topic: concept 
+so.topic: concept
 ---
 
 # SuperOffice username and password

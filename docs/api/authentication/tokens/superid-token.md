@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: superid_token       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: SuperIdToken data type # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: SuperIdToken data type
+uid: superid_token
+description: SuperIdToken data type
+author: {github-id}
 keywords:
-so.topic: reference                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # SuperIdToken data type
@@ -40,9 +36,9 @@ public class SuperIdToken
 
 **Ticket:** a SuperOffice ticket, representing the current user credential on this particular customer; not included in [OAuth flows][4]
 
-**NetServer\_URL:** the SOAP web service endpoint for the current customer site
+**NetServer_URL:** the SOAP web service endpoint for the current customer site
 
-**WebAPI\_URL:** the RESTful endpoints for the current customer site (replaces `NetServer_URL` in class `SuperIdToken`)
+**WebAPI_URL:** the RESTful endpoints for the current customer site (replaces `NetServer_URL` in class `SuperIdToken`)
 
 **Email:** the current user’s email address
 
