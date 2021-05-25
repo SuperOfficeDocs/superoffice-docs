@@ -33,7 +33,7 @@ The following table contains the list of common date and datetime operators.
 | Date            | after, afterToday, before, beforeToday, between, date, from, equals, to, today |
 | DateTime        | dateTime, beforeTime, afterTime                                                |
 
-The Date and DateTime restriction types have had their relative operators changed. Relative operators are those that refer to the current date, and several existing relative operators are considered legacy. 
+The Date and DateTime restriction types have had their relative operators changed. Relative operators are those that refer to the current date, and several existing relative operators are considered legacy.
 
 ### Legacy relative operators
 
@@ -66,14 +66,11 @@ Instead of having period-specific operators, they are now more generic. Each rel
 In this way we can express thisAndNext 2 weeks or thisAndPrevious 2 years.
 
 > [!NOTE]
-> The old operators still exist within the code and will work; however their use is strongly 
-> discouraged. If saved through the criteria API, they will be converted to the new, equivalent operators > and values.
-
-
+> The old operators still exist within the code and will work; however their use is strongly discouraged. If saved through the criteria API, they will be converted to the new, equivalent operators > and values.
 
 Some archive columns have changed type from DateTime to Date. The archive grid control displayed both of them as just Date, but we actually need to differentiate and now do so.
 
-There are some new `RestrictionTypes` as well:  
+There are some new `RestrictionTypes` as well:
 
 * `ReporterDate` (which adheres to the old operators, only used in Reports)
 * `TimeSpan`, encoded in seconds as a new CultureDataFormatter type with marker [TS:

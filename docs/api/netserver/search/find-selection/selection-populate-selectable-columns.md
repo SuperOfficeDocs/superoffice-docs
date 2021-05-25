@@ -28,7 +28,7 @@ There are three types of interesting archive provider information obtained using
 
 Not all archive provider columns are usable as criteria. Therefore, use this method to obtain just the columns that are used to specify criteria.
 
-# [REST](#tab/get-archive-restriction-columns-1)
+##### [REST](#tab/get-archive-restriction-columns-1)
 
 ```http
 GET /api/v1/MDOList/archiveRestrictionColumns:ContactPersonDynamicSelectionV2 HTTP/1.1
@@ -38,7 +38,7 @@ Accept: application/json
 
 ```
 
-# [Agent](#tab/get-archive-restriction-columns-2)
+##### [Agent](#tab/get-archive-restriction-columns-2)
 
 ```http
 POST /api/v1/Agents/MDO/GetList HTTP/1.1
@@ -55,7 +55,7 @@ Accept: application/json
 
 ```
 
-# [WebApi Client](#tab/get-archive-restriction-columns-3)
+##### [WebApi Client](#tab/get-archive-restriction-columns-3)
 
 ```csharp
 // setup access credentials
@@ -208,14 +208,13 @@ Property definitions are listed later in this section, however, note that the Ex
 ]
 ```
 
-
 #### Get archive entities
 
 Only one Find archive provider returns more than one entity, ContactPersonDynamicSelectionV2 - `contact` and `person`.
 
 While this isn't important to establish the CriteriaGroups, these routines are used in the final step when calling the Archive endpoint to get the results.
 
-# [REST](#tab/get-archive-entities-columns-1)
+##### [REST](#tab/get-archive-entities-columns-1)
 
 ```http
 GET /api/v1/MDOList/archiveEntities:ContactPersonDynamicSelectionV2 HTTP/1.1
@@ -225,7 +224,7 @@ Accept: application/json
 
 ```
 
-# [Agent](#tab/get-archive-entities-columns-2)
+##### [Agent](#tab/get-archive-entities-columns-2)
 
 ```http
 POST /api/v1/Agents/MDO/GetList HTTP/1.1
@@ -242,7 +241,7 @@ Accept: application/json
 
 ```
 
-# [WebApi Client](#tab/get-archive-entities-columns-3)
+##### [WebApi Client](#tab/get-archive-entities-columns-3)
 
 ```csharp
 // setup access credentials
@@ -299,7 +298,7 @@ ___
 
 These columns are useful when specifying the desired columns when calling the Archive endpoint. The ExtraInfo property indicates whether a field can be used in the ORDER BY clause in an [ArchiveOrderByInfo](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo.htm).
 
-# [REST](#tab/get-archive-columns-1)
+#### [REST](#tab/get-archive-columns-1)
 
 ```http
 GET /api/v1/MDOList/archiveColumns:ContactPersonDynamicSelectionV2 HTTP/1.1
@@ -310,7 +309,7 @@ Accept-Language: en
 
 ```
 
-# [Agent](#tab/get-archive-columns-2)
+#### [Agent](#tab/get-archive-columns-2)
 
 ```http
 POST /api/v1/Agents/MDO/GetList HTTP/1.1
@@ -328,7 +327,7 @@ Accept-Language: en
 
 ```
 
-# [WebApi Client](#tab/get-archive-columns-3)
+#### [WebApi Client](#tab/get-archive-columns-3)
 
 ```csharp
 // setup access credentials

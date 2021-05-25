@@ -5,7 +5,7 @@ author: {AnthonyYates}
 keywords: Typical search, Selection, Find
 so.topic: article
 # so.envir:
-so.client: web                   # online, web, or win
+so.client: web
 ---
 
 # Typical Search
@@ -80,12 +80,13 @@ The name field consists of 3 parts: a search provider, the owner type (Selection
 Example: `findproject selection=65`
 
 A high-level description of how the criteria are stored is with:
+
 * One top level anchor/owner (SelectionCriteria)
 * A grouping of a set of criteria (SearchCriteriaGroup) which can be used to create “OR” groups.
 * The desired type of criteria desired to be used for filtering (SearchCriterion).
 * The filtering value of the criteria (SearchCriterionValue) as in “one of...” or “equals...”
 
-A full list of the table fields can be found at the following references: 
+A full list of the table fields can be found at the following references:
 
 * [SearchCriteria](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SearchCriteria.htm)
 
@@ -107,15 +108,16 @@ In version 1, if the input parameter is null, it will search the file system to 
 
 ### Find provider
 
-SuperOffice.Services.MDOListImplementation.GetList( string name, bool forceFlatList, string additionalInfo, bool onlyHistory) 
+SuperOffice.Services.MDOListImplementation.GetList( string name, bool forceFlatList, string additionalInfo, bool onlyHistory)
 
-This service method will be used to retrieve the typical search titles, tooltips and their related ids for in the Find panel for the SCIL MDOComponent. The name parameter for the TypicalSearchProvider is TypicalSearch and additional info correspond to the entity name. 
+This service method will be used to retrieve the typical search titles, tooltips and their related ids for in the Find panel for the SCIL MDOComponent. The name parameter for the TypicalSearchProvider is TypicalSearch and additional info correspond to the entity name.
 
 ### Get Typical Search items
 
 For each _entity_ it’s possible to obtain the list of corresponding typical search items. [Typical Search](./typical-search.md) is covered more in the Typical Search article.
 
-# [REST](#tab/find-typical-1)
+#### [REST](#tab/find-typical-1)
+
 ```http
 
 GET /api/v1/MDOList/typicalSearch/selectable?additional=contact HTTP/1.1
@@ -125,7 +127,8 @@ Accept: application/json
 Accept-Language: en
 ```
 
-# [Agent](#tab/find-typical-2)
+#### [Agent](#tab/find-typical-2)
+
 ```http
 POST /api/v1/Agents/MDO/GetList HTTP/1.1
 Authorization: Bearer {access_token}
@@ -140,7 +143,8 @@ Accept: application/json
 }
 ```
 
-# [WebApi Client](#tab/find-typical-3)
+#### [WebApi Client](#tab/find-typical-3)
+
 ```csharp
 // setup access credentials
 var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
@@ -153,12 +157,12 @@ MDOListItem[] findEntities = await mdoAgent.GetListAsync("typicalSearch", true, 
 
 ___
 
-
 ### Get archive provider for entity by typical search ID
 
 Different typical search routines use different archive providers to perform the search. The following code demonstrates how to get the provider responsible for performing a typical search. There is no pure REST API to obtain this information. Use either the RESTful Agent API or the WebApi client.
 
-# [Agent](#tab/find-archive-provider-1)
+#### [Agent](#tab/find-archive-provider-1)
+
 ```http
 POST /api/v1/Agents/Selection/GetSelectionForFind HTTP/1.1
 Authorization: Bearer {access_token}
@@ -171,7 +175,8 @@ Accept: application/json
 }
 ```
 
-# [WebApi Client](#tab/find-archive-provider-2)
+#### [WebApi Client](#tab/find-archive-provider-2)
+
 ```csharp
 // setup access credentials
 var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
@@ -209,11 +214,11 @@ When storing typical searches to the database it’s would be possible to use a 
 
 The typical search data that will be stored in customer's databases will be created on a SOD site. Each selection will be marked as a typical search by setting a search category to Typical Search.  
 
-The exported typical search criteria data will be exported as ArchiveRestrictionGroups. These ArchiveRestrictionGroups will be mapped to the typicalsearch_id. The various id’s stored in the json file are only meant to show the relations between the tables. The id’s that will be generated in the customer’s database will not copy the id’s in the exported json file.  
+The exported typical search criteria data will be exported as ArchiveRestrictionGroups. These ArchiveRestrictionGroups will be mapped to the typicalsearch_id. The various id’s stored in the json file are only meant to show the relations between the tables. The id’s that will be generated in the customer’s database will not copy the id’s in the exported json file.
 
 ### How are the typical searches numbered
 
-For each new or changed typical searches, the version number is increased to the highest pre-existing version number (out of all typical searches) + 1. Note that changes to the criteria will also update the version number of the related typical search. 
+For each new or changed typical searches, the version number is increased to the highest pre-existing version number (out of all typical searches) + 1. Note that changes to the criteria will also update the version number of the related typical search.
 
 __Example of how version numbers are increased:__
 

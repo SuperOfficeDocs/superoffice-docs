@@ -5,7 +5,7 @@ author: {AnthonyYates}
 keywords: Selection, Find, Search
 so.topic: howto
 so.envir: online, onsite
-so.client: netserver                        # online, web, or win
+so.client: netserver
 ---
 
 # How to Search using Find Selections
@@ -152,9 +152,9 @@ ___
 | CanSaveAsSelection    | Indicates of selection entity can be saved as a selection.                  |
 | FilterScreenHeading   | Heading used on the Find filter page in SuperOffice.                        |
 | MainHeading           | Heading used on the Find front page in SuperOffice.                         |
-| `ProviderName`          | The name of the main archive provider use with this selection entity type.  |
+| `ProviderName`          | The name of the main archive provider use with this selection entity type.|
 | SelectionEntityHeading| The plural form of the entity name, used on the Selection details tab.      |
-| `SelectionId`           | The selections primary key.                                                 |
+| `SelectionId`           | The selections primary key.                                               |
 
 The `ProviderName` property is the name of the archive provider used to search. In this example, when contact is used as the entity name, the results return `ContactPersonDynamicSelectionV2` as the archive provider name.
 
@@ -182,7 +182,7 @@ The `SelectionId` indicates the selection's primary key for this associate/entit
 
 All dynamic Find Selections use an archive provider whose name ends with the “V2” suffix. However, when using the Find API, do not rely on this list, instead use the API as shown to ensure you always get the correct provider.
 
-* [AppointmentDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-AppointmentDynamicSelectionV2ArchiveProvider.htm) 
+* [AppointmentDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-AppointmentDynamicSelectionV2ArchiveProvider.htm)
 * [ContactPersonDynamicSelectionV2](https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/Reference-ArchiveProviders-ContactPersonDynamicSelectionV2ArchiveProvider.htm)
 * [DocumentDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-DocumentDynamicSelectionV2ArchiveProvider.htm)
 * [ProjectDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-ProjectDynamicSelectionV2ArchiveProvider.htm)
@@ -296,6 +296,7 @@ var archiveAgent = new ArchiveAgent(options);
 var providerName = "ContactPersonDynamicSelectionV2";
 ArchiveColumnInfo[] availableColumns = await archiveAgent.GetAvailableColumns(providerName, "");
 ```
+
 ___
 
 #### Get archive provider column results
@@ -404,7 +405,7 @@ ___
 | CanRestrictBy         | Determines whether this column be used as a restriction.                    |
 | Name                  | Unique identity of this column; the name to be used when requesting the column from a provider, setting restrictions or order by criteria. |
 | RestrictionType       | The data type of the restriction; use this to retrieve the legal operators for the restriction.  |
-| RestrictionListName   | If the restriction data type is 'list', this property contains the name of the SoList so that choices can be shown.      |
+| RestrictionListName   | If the restriction data type is 'list', this property contains the name of the SoList so that choices can be shown. |
 | IconHint              | Used to group with corresponding columns.                                   |
 
 ### Get field operators by data type
@@ -1147,7 +1148,7 @@ Accept-Language: en
 }
 ```
 
-### [WebClient API ](#tab/perform-search-3)
+### [WebClient API](#tab/perform-search-3)
 
 ```csharp
 string searchEntity = "person";

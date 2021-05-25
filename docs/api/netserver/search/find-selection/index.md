@@ -5,7 +5,7 @@ author: {AnthonyYates}
 keywords: NewSelection, Selection, Find
 so.topic: article
 # so.envir:
-so.client: web                   # online, web, or win
+so.client: web
 ---
 
 # Find and Selection
@@ -31,9 +31,9 @@ SuperOffice [Find](https://community.superoffice.com/en/customer/news/product/9-
 | Entity                    | Refers to a SuperOffice business object, such as Company, Contact, Document, Project, etc.|
 | MDO List                  | Multi-Department Organization list of related information, such as a list of categories.  |
 | MDO Provider              | Data source that returns a list of items. Some lists contain child list properties.       |
-| Restriction               | Used to specify a condition or filter that affects an archive provider result set.         |
+| Restriction               | Used to specify a condition or filter that affects an archive provider result set.        |
 | Shadow Archive Provider   | Alternative data source related to a parent archive provider.                             |
-| Typical Search            | Predefined search to get started with search and selections more easily.                   |
+| Typical Search            | Predefined search to get started with search and selections more easily.                  |
 | User                      | A person with login rights, more specifically the record in the associate table.          |
 
 ## Getting started
