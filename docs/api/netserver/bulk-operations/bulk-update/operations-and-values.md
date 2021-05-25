@@ -1,17 +1,13 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: operations_and_values       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Operations and values # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Operations and values
+uid: operations_and_values
+description: Operations and values
 author: Tony Yates
 so.date: 06.23.2017
 keywords:
-so.topic: concept          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Operations and values

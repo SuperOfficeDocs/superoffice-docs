@@ -1,5 +1,6 @@
 ---
-title: ns_config_documents
+title: Documents element
+uid: ns_config_documents
 description: NetServer Documents element
 so.date: 06.06.2018
 author: {github-id}
@@ -10,7 +11,7 @@ so.envir: onsite
 
 # NetServer Documents element
 
-This configuration is used to access the SuperOffice documents. It is used by NetServer to identify which document archive and temporary directory are used. To restricted access to the document archive, specify domain credentials with read- and write access to the archive for NetServer to impersonate.
+This configuration is used to access the SuperOffice documents. It is used by NetServer to identify which document archive and temporary directory are used. To restricted access to the document archive, specify domain credentials with read and write access to the archive for NetServer to impersonate.
 
 ```XML
 <Documents>

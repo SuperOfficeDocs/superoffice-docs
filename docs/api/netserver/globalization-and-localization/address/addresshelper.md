@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: globalization_addresshelper       # (Required) Very important for SEO.
-description: AddressHelper class # (Required) Important for SEO. 
+title: AddressHelper class
+uid: globalization_addresshelper
+description: AddressHelper class 
 author: Tony Yates
 so-date: 05.15.2017
 keywords: globalization
-so.topic: reference # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+# so.envir:
+# so.client:
 ---
 
 # AddressHelper class

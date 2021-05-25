@@ -1,7 +1,8 @@
 ---
-title: category_list
+title: CategoryList
+uid: category_list
 description: Category list
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.topic: concept
 ---

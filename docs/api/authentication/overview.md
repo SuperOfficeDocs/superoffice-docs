@@ -2,12 +2,12 @@
 
 uid: superoffice-authentication-overview
 description: Overview of SuperOffice API authentication.
-author: AnthonyYates             # Your GitHub alias.
+author: AnthonyYates
 so.date: 05.08.2018
 keywords: security,identity
 so.topic: concept             
-so.envir: onsite, online                # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.envir: onsite, online
+# so.client:
 ---
 
 # SuperOffice Authentication

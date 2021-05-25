@@ -1,17 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: soundx       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Soundex comes to NetServer # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: Marek Vokáč             # Your GitHub alias.
+title: soundx
+description: Soundex comes to NetServer
+author: Marek Vokáč
 so.date: 05.07.2012
 keywords:
-so.topic: article          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: article
+so.envir: cloud
+so.client: online
 ---
 
 # Soundex comes to NetServer

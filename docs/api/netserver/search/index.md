@@ -1,7 +1,7 @@
 ---
 title: search      
 description: Search
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic:

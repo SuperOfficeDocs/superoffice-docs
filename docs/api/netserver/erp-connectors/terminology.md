@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_terminology       # (Required) Very important for SEO.
-description: ERP connector terminology # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Terminology
+uid: erp_terminology
+description: ERP connector terminology
+author: {github-id}
 so.date: 05.11.2016
 keywords:
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+# so.envir:
+# so.client:
 ---
 
 # Terminology

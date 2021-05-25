@@ -1,7 +1,8 @@
 ---
-title: globalization_and_localization      
+title: SuperOffice Globalization
+uid: globalization_and_localization
 description: Globalization and Localization
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.08.2018
 keywords:
 ---

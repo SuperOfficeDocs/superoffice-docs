@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: run_scripts       # (Required) Very important for SEO.
-description: Three ways to deploy and run scripts # (Required) Important for SEO.
+title: Three ways to deploy and run scripts
+uid: run_scripts
+description: Three ways to deploy and run scripts
 author: Tony Yates
 so.date: 04.15.2009
 keywords:
-so.topic: howto                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: onsite
+so.client: web
 ---
 
 # Three ways to deploy and run scripts

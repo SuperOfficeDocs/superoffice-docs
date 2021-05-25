@@ -1,14 +1,11 @@
 ---
-# Mandatory fields.
-title: architecture       # (Required) Very important for SEO.
-description: Archive providers - architecture # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: architecture
+description: Archive providers - architecture
+author: {github-id}
 keywords:
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Archive providers - architecture

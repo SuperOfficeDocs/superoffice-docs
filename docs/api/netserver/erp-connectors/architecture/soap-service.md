@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_arch_soap       # (Required) Very important for SEO.
-description: ERP connector SOAP Sync Service # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: SOAP Sync Service
+uid: erp_arch_soap
+description: ERP connector SOAP Sync Service
+author: {github-id}
 so.date: 05.11.2016
 keywords: soap
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # SOAP Sync Service

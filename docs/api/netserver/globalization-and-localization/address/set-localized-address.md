@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: set_localized_address       # (Required) Very important for SEO.
-description: Set the LocalizedAddress # (Required)
-author: Tony Yates             # Your GitHub alias.
+title: Set LocalizedAddress
+uid: set_localized_address
+description: Set the LocalizedAddress
+author: Tony Yates
 so-date: 05.15.2017
 keywords: globalization
-so.topic: howto          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 ## Set LocalizedAddress

@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_search       # (Required) Very important for SEO.
-description: ERP connector search # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Search in ERP
+uid: erp_search
+description: ERP connector search
+author: {github-id}
 so.date: 05.11.2016
 keywords: find
-so.topic: concept     # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Search in ERP

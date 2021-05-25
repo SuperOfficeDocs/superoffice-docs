@@ -1,14 +1,13 @@
 ---
-title: 91_r_3_date_time_changes       # (Required) Very important for SEO.
-description: Changes in 9.1R3 - Date, Time, and DateTime in archive providers # (Required) Important for SEO.
-author: Marek Vokáč             # Your GitHub alias.
+title: Changes in 9.1R3
+uid: 91_r_3_date_time_changes
+description: Changes in 9.1R3 - Date, Time, and DateTime in archive providers
+author: Marek Vokáč
 so-date: 10.01.2020
 keywords:
-so.topic: article                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: article
+so.envir: cloud
+so.client: online
 ---
 
 # Changes in 9.1R3: Date, Time, and DateTime in archive providers

@@ -1,5 +1,6 @@
 ---
-title: quote_connector_carrier_productextradatafieldinfo
+title: ProductExtraDataFieldInfo
+uid: quote_connector_carrier_productextradatafieldinfo
 description: ERP Quote Connector Interface data carrier - ProductExtraDataFieldInfo
 author: {github-id}
 so.date:

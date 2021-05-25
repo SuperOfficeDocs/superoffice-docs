@@ -3,14 +3,12 @@ title: ilistagent
 description: IListAgent
 author: {github-id}
 keywords: list,agent
-so.topic: concept                # article, howto, reference, concept, guide
+so.topic: concept
 so.date:
 so.category: list
 so.area: api-services
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # IListAgent

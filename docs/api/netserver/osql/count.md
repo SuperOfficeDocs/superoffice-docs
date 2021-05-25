@@ -1,7 +1,8 @@
 ---
-title: osql_count
+title: COUNT
+uid: osql_count
 description: SuperOffice Objectified SQL - Count
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 11.05.2016
 keywords:
 so.topic: concept

@@ -1,7 +1,8 @@
 ---
-title: quote_connectors_setup      
+title: How to set up a quote connector
+uid: quote_connectors_setup
 description: How to set up a quote connector
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

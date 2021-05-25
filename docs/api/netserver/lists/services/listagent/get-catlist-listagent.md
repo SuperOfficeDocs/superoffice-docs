@@ -1,14 +1,13 @@
 ---
-title: get_category_list_listagent
+title: Get a CategoryList using the ListAgent
+uid: get_category_list_listagent
 description: Get a CategoryList through ListAgent
 author: {github-id}
 so.date: 
 keywords: category,list agent
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Get a CategoryList using the ListAgent

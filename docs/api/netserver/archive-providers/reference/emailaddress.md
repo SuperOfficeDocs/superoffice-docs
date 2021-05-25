@@ -24,7 +24,7 @@ Special purpose archive provider used to search for email addresses.
 This provider combines two subchannels, one for Person and one for Contact related addresses.
 Each channel will match on either the email address itself, or some relevant naming information
 (such as contact name or person name or whatever).
-<para />
+
 The resulting rows will have entity names reflecting the type of match, but the primary key will always be
 the email_id.
 

@@ -1,5 +1,6 @@
 ---
-title: whats_new_70_
+title: CultureDataFormatter
+uid: whats_new_70_Culturedataformatter
 description: NetServer 7.0
 author: {github-id}
 so.date: 11.05.2016
@@ -11,9 +12,9 @@ so.topic: reference
 
 What does "1,000" mean?
 
-* "one point zero zero zero" ?
+* "one point zero zero zero"?
 
-* "one thousand" ?
+* "one thousand"?
 
 Making everything into a string can be practical, but also disastrous. To avoid misunderstandings, we say  "\[I: 1000\]", which may not be the most elegant format, but it is human-readable and unambiguous.
 

@@ -1,5 +1,6 @@
 ---
-title: get_entity_from_entity
+title: Retrieve an Entity property through an Entity
+uid: get_entity_from_entity
 description: Retrieve an Entity property through an Entity
 author: {github-id}
 so.date: 11.05.2016

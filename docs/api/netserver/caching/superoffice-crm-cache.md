@@ -1,7 +1,8 @@
 ---
-title: superoffice_crm_cache
+title: SuperOffice.CRM.Cache
+uid: superoffice_crm_cache
 description: SuperOffice.CRM.Cache
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords: cache
 so.topic: reference

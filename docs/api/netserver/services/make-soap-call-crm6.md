@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: make_soap_call_crm_6       # (Required) Very important for SEO.
-description: How to make SOAP calls with CRM 6 # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to make SOAP calls with CRM 6
+uid: make_soap_call_crm_6
+description: How to make SOAP calls with CRM 6
+author: {github-id}
 so.date:
 keywords: authentication
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to make SOAP calls with CRM 6

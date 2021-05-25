@@ -1,5 +1,6 @@
 ---
-title: osql_join
+title: # Joins
+uid: osql_join
 description: SuperOffice Objectified SQL - JOIN
 author: {github-id}
 so.date: 11.05.2016

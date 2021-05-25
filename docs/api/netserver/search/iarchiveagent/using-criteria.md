@@ -1,16 +1,15 @@
 ---
-title: iarchiveagent_multi_criteria
+title: How to use multiple criteria with the IArchiveAgent
+uid: iarchiveagent_multi_criteria
 description: How to use multiple criteria with the IArchiveAgent
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: 
-so.topic: howto                # article, howto, reference, concept, guide
+so.topic: howto
 so.date:
 so.category: 
 so.area: api-services
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # How to use multiple criteria with the IArchiveAgent

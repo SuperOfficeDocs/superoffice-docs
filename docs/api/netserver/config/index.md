@@ -1,7 +1,7 @@
 ---
 description: nerserver_config      
 description: NetServer configuration
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: web.config
 so.date: 06.06.2018
 author: {github-id}

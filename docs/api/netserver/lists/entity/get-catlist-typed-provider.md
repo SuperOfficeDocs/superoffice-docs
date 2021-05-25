@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: get_category_list_typed_provider       # (Required) Very important for SEO.
-description: Get a CategoryList through typed list providers  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Get a CategoryList through typed list providers
+uid: get_category_list_typed_provider
+description: Get a CategoryList through typed list providers
+author: {github-id}
 so.date: 05.11.2016
 keywords: category,list provider
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Get a CategoryList through typed list providers

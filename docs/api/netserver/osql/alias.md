@@ -1,7 +1,8 @@
 ---
-title: osql_alias
+title: Alias
+uid: osql_alias
 description: SuperOffice Objectified SQL - Alias
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 11.05.2016
 keywords:
 so.topic: concept

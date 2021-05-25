@@ -1,5 +1,6 @@
 ---
-title: delete_row_from_entity
+title: Delete a Row through an Entity
+uid: delete_row_from_entity
 description: Delete a Row through an Entity
 author: {github-id}
 so.date: 11.05.2016

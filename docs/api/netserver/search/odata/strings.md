@@ -1,7 +1,8 @@
 ---
-title: rest_api_search_strings
+title: String
+uid: rest_api_search_strings
 description: REST Web API search strings
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: search,odata
 so.date:
 so.topic: howto

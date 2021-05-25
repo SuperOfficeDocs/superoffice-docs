@@ -1,5 +1,6 @@
 ---
-title: osql_delete
+title: DELETE
+uid: osql_delete
 description: SuperOffice Objectified SQL - DELETE
 author: {github-id}
 so.date: 11.05.2016

@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: create_list_plugin       # (Required) Very important for SEO.
-description: Create a plugin list provider # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Create your own list plugin
+uid: create_list_plugin
+description: Create a plugin list provider
+author: {github-id}
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Create your own list plugin

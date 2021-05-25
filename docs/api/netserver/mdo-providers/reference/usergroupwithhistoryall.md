@@ -18,7 +18,7 @@ so.envir:
 List provider for the UserGroup table. While this table looks like an MDO table,
 it lacks the standardized grouplink and headinglink companion tables (for good reason,
 since it is the group table itself).
-<para />
+
 This provider includes the 'History' and 'All' choices, with id's -1 and -2. The
 <see cref="T:SuperOffice.CRM.ArchiveLists.ParticipantsProvider" /> (actually, the
 <see cref="T:SuperOffice.CRM.ArchiveLists.ExplicitParticipantsAssociateProvider" /> subchannel), used in the Assign To dialog,

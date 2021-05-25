@@ -1,5 +1,6 @@
 ---
-title: activity_links
+title: Activity links sub-object on models
+uid: activity_links
 description: Activity links sub-object on models
 author:
 so.date:

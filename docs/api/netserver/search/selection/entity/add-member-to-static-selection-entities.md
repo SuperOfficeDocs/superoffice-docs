@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: add_members_static_selection_entities      # (Required) Very important for SEO.
-description: How to add members to a static selection using entities # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to add members to a static selection using entities layer
+uid: add_members_static_selection_entities
+description: How to add members to a static selection using entities
+author: {github-id}
 so.date: 05.11.2016
 keywords: search,entities
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to add members to a static selection using entities layer

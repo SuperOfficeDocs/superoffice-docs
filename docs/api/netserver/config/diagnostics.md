@@ -1,5 +1,6 @@
 ---
-title: ns_config_diagnostics
+title: Diagnostics element
+uid: ns_config_diagnostics
 description: NetServer Diagnostics element
 so.date: 06.06.2018
 author: {github-id}
@@ -43,7 +44,7 @@ Configuration of diagnostic logging tools.
 | LogInformationFrom | Comma separated list of classes, namespaces to log from. Filters the information logging. |
 | LogDebug | Log debug information. This includes successful SQLs passed to the database. Only use this option while debugging. This will be a severe performance hit!<br>Default: false |
 | LogDebugFrom | Comma separated list of classes, namespaces to log from. Filters the debug logging. |
-| LogTrace | Log trace information. This includes a lot of information. Only use  this option while debugging. This will be a severe performance hit!<br>Default: false |
+| LogTrace | Log trace information. This includes a lot of information. Only use this option while debugging. This will be a severe performance hit!<br>Default: false |
 | LogTraceFrom | Comma separated list of classes, namespaces to log from. Filters the trace logging. |
 | LogFailureAudit | Log failed authentications.<br>Default: true |
 | LogSuccessAudit | Log successful authentications.<br>Default: false |

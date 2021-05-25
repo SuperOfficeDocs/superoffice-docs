@@ -1,7 +1,8 @@
 ---
-title: quote_connectors      
+title: ERP Quote Connector Interface
+uid: quote_connectors
 description: ERP Quote Connector Interface
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic: concept

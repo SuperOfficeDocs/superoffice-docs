@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_arch_wfc       # (Required) Very important for SEO.
-description: ERP Sync Service WCF host # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: ERP Sync Service WCF host
+uid: erp_arch_wfc
+description: ERP Sync Service WCF host
+author: {github-id}
 so.date: 05.11.2016
 keywords: soap,web.config
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # ERP Sync Service WCF host

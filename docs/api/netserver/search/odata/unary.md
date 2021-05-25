@@ -1,7 +1,8 @@
 ---
-title: rest_api_search_unary
+title: Unary time-periods
+uid: rest_api_search_unary
 description: REST Web API search Unary day,week,month,quarter,year
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: search
 so.date:
 so.topic: howto

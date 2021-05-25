@@ -1,5 +1,6 @@
 ---
-title: ns_config_timezone
+title: Timezone Element
+uid: ns_config_timezone
 description: NetServer Timezone Element
 so.date: 06.06.2018
 author: {github-id}

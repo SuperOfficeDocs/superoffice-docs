@@ -19,11 +19,11 @@ Provides the timezone list.
 If no search value is passed in the list is restricted to 'available' timezones
 
 AdditionalInfo = "[all]" returns all timezones
-<para />
+
 AdditionalInfo = "123" returns all active timezones and the specific location
-<para />
+
 AdditionalInfo = "locationId=123" returns only the given location.
-<para />
+
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.TimeZoneProvider">TimeZoneProvider</see> class.
 The name of the MDO list is 'timezone'.

@@ -1,16 +1,15 @@
 ---
-title: activity_archive_filters 
+title: How to use ActivityArchive filters
+uid: activity_archive_filters 
 description: How to use ActivityArchive filters
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: 
-so.topic: howto                # article, howto, reference, concept, guide
+so.topic: howto
 so.date:
 so.category: 
 so.area: api-services
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # How to use ActivityArchive filters

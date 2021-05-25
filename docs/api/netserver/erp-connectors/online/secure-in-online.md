@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: erp_security       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Securing ERP Connectors for SuperOffice Online # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Securing ERP Connectors for SuperOffice Online
+uid: erp_security
+description: Securing ERP Connectors for SuperOffice Online
+author: {github-id}
 keywords: sync
-so.topic: concept               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: cloud
+so.client: online
 ---
 
 # Securing ERP Connectors for SuperOffice Online

@@ -1,14 +1,13 @@
 ---
-title: objectified_sql
+title: Evolution of NetServer Objectified SQL
+uid: objectified_sql
 description: Evolution of NetServer Objectified SQL
 author: Tony Yates
 so.date: 09.06.2016
 keywords:
-so.topic: concept     # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Evolution of NetServer Objectified SQL

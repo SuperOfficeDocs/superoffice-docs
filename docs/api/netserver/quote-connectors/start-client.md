@@ -1,7 +1,8 @@
 ---
-title: quote_connectors_start      
+title: Start the client
+uid: quote_connectors_start
 description: How to start the quote connector client
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto
@@ -35,7 +36,7 @@ The key in the Dictionary is the `FieldKey`, and must match the key in the `Fiel
 
 **Return value IsOk:**
 
-False means the connection is not available, and quotes based on this connection cannot be edited. `IsOk`is set to false if the connector can’t provide service (no network). Text will explain this to user.
+False means the connection is not available, and quotes based on this connection cannot be edited. `IsOk`is set to false if the connector can’t provide service (no network). Text will explain this to the user.
 
 ## Dictionary < string, PluginResponseInfo > GetCapabilities()
 

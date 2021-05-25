@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: wrapped_or_unwrapped_proxy       # (Required) Very important for SEO.
-description: Wrapped or unwrapped proxy # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Wrapped or unwrapped proxy
+uid: wrapped_or_unwrapped_proxy
+description: Wrapped or unwrapped proxy
+author: {github-id}
 so.date:
 keywords:
-so.topic: concept          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Wrapped or unwrapped proxy

@@ -1,27 +1,23 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: using_bulk_update       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Practical details # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Practical details - how to use BulkUpdate
+uid: using_bulk_update
+description: Practical details
 author: Tony Yates
 so.date: 06.23.2017
 keywords:
-so.topic: howto             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Practical details - how to use BulkUpdate
 
-To use [Bulk Update][1], a user be assigned a role that contains the functional right *Can bulk update*, or *allow-bulk-edit*. By default, only the roles *User level 0* and *User level 1* are assigned this functional right.
+To use [Bulk Update][1], a user must be assigned a role that contains the functional right *Can bulk update*, or *allow-bulk-edit*. By default, only the roles *User level 0* and *User level 1* are assigned this functional right.
 
 > [!CAUTION]
-> This is a powerful tool that can cause a lot of damage if used improperly, and therefore should only be giving to advanced users.
+> This is a powerful tool that can cause a lot of damage if used improperly, and therefore should only be given to advanced users.
 
-When a role is assigned the allow-bulk-update functional right, any member of that role will see the Bulk Update functionality in the SuperOffice client. The same is true to use the API, specifically for adding interests which requires the additional *allow-bulk-interest* functional right. If the principal executing the code is not a member of that role, the field will not be available.
+When a role is assigned the allow-bulk-update functional right, any member of that role will see the Bulk Update functionality in the SuperOffice client. The same is true to use the API, specifically for adding interests, which requires the additional *allow-bulk-interest* functional right. If the principal executing the code is not a member of that role, the field will not be available.
 
 When it comes to using the bulk update API, there are three aspects to its orchestration:
 

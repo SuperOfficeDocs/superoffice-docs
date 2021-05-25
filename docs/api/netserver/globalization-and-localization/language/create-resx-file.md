@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_resx_file       # (Required) Very important for SEO.
-description: Create our own resx file # (Required)
-author: {github-id}             # Your GitHub alias.
+title: Create our own resx file
+uid: create_resx_file
+description: Create our own resx file
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Create our own resx file

@@ -33,7 +33,7 @@ then contacts that have the <see cref="P:SuperOffice.CRM.Rows.ContactRow.Nomaili
 value will not NOT be included. If it is set to 1 or not set at all, such contacts WILL be included.</description></item><item><term>includePersonWithNoDMRestriction</term><description>If this boolean restriction is included and set to 0,
 then persons that have the <see cref="P:SuperOffice.CRM.Rows.PersonRow.Nomailing" /> property set to a nonzero
 value will not NOT be included. If it is set to 1 or not set at all, such persons WILL be included.
-<para />Note that this restriction will by itself NOT trigger a person search; a genuine person-type restriction
+Note that this restriction will by itself NOT trigger a person search; a genuine person-type restriction
 has to be present to do that.</description></item><item><term>includePersonRestriction</term><description>This restriction, if included, can have one of three distinct
 string values. The strings correspond to the values of the
 <see cref="T:SuperOffice.CRM.ArchiveLists.SelectionContactPersonExtender.IncludePersonType" /> enumeration (parsing

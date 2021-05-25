@@ -1,7 +1,8 @@
 ---
-title: i_product_register_cache 
+title: IProductRegisterCache
+uid: i_product_register_cache 
 description: IProductRegisterCache
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

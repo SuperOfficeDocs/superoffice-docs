@@ -1,7 +1,8 @@
 ---
-title: rest_api_search_boolean
+title: Boolean
+uid: rest_api_search_boolean
 description: REST Web API search boolean
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: search,odata
 so.date:
 so.topic: howto

@@ -6,8 +6,8 @@ author: {github-id}
 so.date: 05.11.2016
 keywords: osql
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Update a person with a new name, address, position using OSQL

@@ -1,5 +1,6 @@
 ---
-title: osql_insert
+title: INSERT
+uid: osql_insert
 description: SuperOffice Objectified SQL - INSERT
 author: {github-id}
 so.date: 11.05.2016

@@ -1,5 +1,6 @@
 ---
-title: ns_config_webservices
+title: WebServices element
+uid: ns_config_webservices
 description: NetServer WebServices element
 so.date: 06.06.2018
 author: {github-id}

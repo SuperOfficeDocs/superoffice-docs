@@ -1,5 +1,6 @@
 ---
-title: rows_and_sentry
+title: Sentry
+uid: rows_and_sentry
 description: SuperOffice database Using Sentry with rows
 author: {github-id}
 so.date: 11.05.2016

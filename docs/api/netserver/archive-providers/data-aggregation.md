@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: data_aggregation       # (Required)
-description: Data aggregation # (Required) Important for SEO.
+title: Data aggregation
+uid: data_aggregation
+description: Data aggregation
 author: Tony Yates
 so.date: 11.17.2017.
 keywords:
-so.topic: concept       # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Data aggregation
@@ -42,7 +40,7 @@ Detail Row => \| Column1 \| Column2 \| Column3 \| Column4
 
 However, hidden as an option is the GrandTotal row. GrandTotal is a reserved placeholder for returning aggregate results, such as a total count or total sum.
 
-When specified in a providers GetRows method, i.e. `provider.GetRows("GrandTotal=True")`, the grand total row is output as the very last row. This is useful to display the results of one or more aggregate columns.
+When specified in a provider's GetRows method, i.e. `provider.GetRows("GrandTotal=True")`, the grand total row is output as the very last row. This is useful to display the results of one or more aggregate columns.
 
 ## Default row output with GrandTotal
 

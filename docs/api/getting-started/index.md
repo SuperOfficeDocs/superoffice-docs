@@ -6,8 +6,8 @@ author: Tony Yates
 so.date: 08.12.2015
 keywords: api
 so.topic: getting-started
-so.envir: cloud, onsite           # cloud or onsite
-so.client: win, web               # online, web, win, pocket, or mobile
+so.envir: cloud, onsite
+so.client: win, web
 ---
 
 # Introducing SuperOffice APIs

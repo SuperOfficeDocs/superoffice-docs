@@ -1,16 +1,14 @@
 ---
 title: iarchiveagent 
 description: IArchiveAgent
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: 
-so.topic: concept                # article, howto, reference, concept, guide
+so.topic: concept
 so.date:
 so.category:
 so.area: api-services
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # IArchiveAgent

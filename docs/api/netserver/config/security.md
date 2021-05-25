@@ -1,5 +1,6 @@
 ---
-title: ns_config_security
+title: Security element
+uid: ns_config_security
 description: NetServer Security element
 so.date: 06.06.2018
 author: {github-id}

@@ -1,7 +1,8 @@
 ---
-title: list_providers
+title: SoListProviders
+uid: list_providers
 description: List providers
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: concept

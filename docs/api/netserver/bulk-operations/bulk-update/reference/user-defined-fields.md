@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: bulkupdate_user_defined_fields # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Bulk update user-defined fields # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: User-Defined Tables
+uid: bulkupdate_user_defined_fields
+description: Bulk update user-defined fields
 author: Tony Yates
 so.date: 06.23.2017
 keywords:
-so.topic: reference # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud # cloud or onsite
-so.client: online # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # User-Defined Tables

@@ -1,5 +1,6 @@
 ---
-title: quote_connector_carrier_placeorderresponseinfo
+title: PlaceOrderResponseInfo
+uid: quote_connector_carrier_placeorderresponseinfo
 description: ERP Quote Connector Interface data carrier - PlaceOrderResponseInfo
 author: {github-id}
 so.date:

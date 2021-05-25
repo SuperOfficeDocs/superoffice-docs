@@ -6,8 +6,8 @@ author: {github-id}
 so.date:
 keywords: udefhelper
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # How to update a Udef field

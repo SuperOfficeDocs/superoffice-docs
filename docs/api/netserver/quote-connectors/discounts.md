@@ -1,7 +1,7 @@
 ---
 title: discounts       
 description: About discounts
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: concept

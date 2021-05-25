@@ -1,11 +1,14 @@
 ---
-title: whats_new_70_
+title: NewSelect
+uid: whats_new_70_newselect
 description: NetServer 7.0
 author: {github-id}
 so.date: 11.05.2016
 keywords:
 so.topic: reference
 ---
+
+# NetServer 7.0
 
 The code says
 

@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: get_localized_address       # (Required) Very important for SEO.
-description: Read the LocalizedAddress # (Required)
+title: Read the LocalizedAddress
+uid: get_localized_address
+description: Read the LocalizedAddress
 author: Tony Yates
 so.date: 05.15.2017
 keywords: globalization
-so.topic: howto          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 ## Read the LocalizedAddress

@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: ns_agents_reference       # (Required) Very important for SEO.
-description: List of NetServer agents # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: List of NetServer agents
+uid: ns_agents_reference
+description: List of NetServer agents
+author: {github-id}
 so.date:
 keywords:
-so.topic: reference                  # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+# so.envir:
+# so.client:
 ---
 
 # List of NetServer agents

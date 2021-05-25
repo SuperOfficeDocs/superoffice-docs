@@ -1,7 +1,8 @@
 ---
-title: quote_connectors_save_quote
+title: Saving the quote
+uid: quote_connectors_save_quote
 description: Saving the quote
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

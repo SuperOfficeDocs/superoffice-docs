@@ -1,5 +1,6 @@
 ---
-title: delete_row
+title: Delete a Row
+uid: delete_row
 description: SuperOffice database delete row
 author: {github-id}
 so.date: 11.05.2016

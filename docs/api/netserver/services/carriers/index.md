@@ -2,7 +2,7 @@
 uid: netserver-service-carriers
 title: NetServer Service Carriers       
 description: Carriers
-author: AnthonyYates             # Your GitHub alias.
+author: AnthonyYates
 keywords:
 so.topic: concept
 ---

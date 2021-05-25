@@ -1,5 +1,6 @@
 ---
-title: quote_connector_carrier_quoteinfo
+title: QuoteInfo
+uid: quote_connector_carrier_quoteinfo
 description:  ERP Quote Connector Interface data carrier -  QuoteInfo
 so.date:
 keywords: quote

@@ -1,11 +1,11 @@
 ---
 title: downloads
 description: Online sample and reference downloads
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
-so.topic: reference           # article, howto, reference, concept, guide
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # Online sample and reference downloads

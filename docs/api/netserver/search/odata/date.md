@@ -1,7 +1,8 @@
 ---
-title: rest_api_search_dates
+title: Dates
+uid: rest_api_search_dates
 description: REST Web API search dates
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: search
 so.date:
 so.topic: howto

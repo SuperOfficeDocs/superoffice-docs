@@ -1,5 +1,6 @@
 ---
-title: row_sample_contactaddress
+title: ContactAddress
+uid: row_sample_contactaddress
 description: SuperOffice database ContactAddress
 author: {github-id}
 so.date: 11.05.2016

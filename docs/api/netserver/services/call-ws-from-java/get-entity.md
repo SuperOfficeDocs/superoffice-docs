@@ -1,7 +1,8 @@
 ---
-title: get_entity_java
+title: Call service to get entity (Java)
+uid: get_entity_java
 description: Call service to get entity (Java)
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so-topic: howto

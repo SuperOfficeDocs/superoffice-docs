@@ -6,8 +6,8 @@ author: {github-id}
 so.date: 05.11.2016
 keywords: api-services
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Get a contact through the services layer

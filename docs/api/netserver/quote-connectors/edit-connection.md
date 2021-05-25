@@ -1,7 +1,8 @@
 ---
-title: quote_connectors_update
+title: Editing a connection
+uid: quote_connectors_update
 description: How to update a quote connector
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

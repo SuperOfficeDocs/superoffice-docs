@@ -6,8 +6,8 @@ author: {github-id}
 so.date: 06.24.2016
 keywords: interest
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # How to list all selected interests for a contact (services)

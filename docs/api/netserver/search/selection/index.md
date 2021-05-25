@@ -1,7 +1,7 @@
 ---
 title: selection       
 description: Selection
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: search
 so.topic: concept
 ---

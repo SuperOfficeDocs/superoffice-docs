@@ -1,7 +1,8 @@
 ---
-title: create_ws_client_java
+title: Create a web service client with NetBeans
+uid: reate_ws_client_java
 description: How to create a web service client with NetBeans
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so-topic: howto

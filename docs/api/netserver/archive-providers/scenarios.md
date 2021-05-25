@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: archive_provider_scenarios       # (Required) Very important for SEO.
-description: Archive provider scenarios  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Client usage scenarios
+uid: archive_provider_scenarios
+description: Archive provider scenarios
+author: {github-id}
 keywords: IArchiveProvider
-so.topic: concept             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Client usage scenarios

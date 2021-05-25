@@ -1,13 +1,12 @@
 ---
-title: create_dynamic_selection_sql
+title: Create a dynamic selection
+uid: create_dynamic_selection_sql
 description: Create dynamic selection using raw SQL
 author: {github-id}
 keywords: 
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Create a dynamic selection

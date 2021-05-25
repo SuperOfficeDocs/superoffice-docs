@@ -5,8 +5,8 @@ description: SAINT values
 author: {github-id}
 keywords:
 so.topic: concept
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # SAINT values

@@ -1,5 +1,6 @@
 ---
-title: ns_config_webhooks
+title: Webhooks element
+uid: ns_config_webhooks
 description: NetServer Webhooks element
 so.date: 06.06.2018
 author: {github-id}
@@ -27,5 +28,3 @@ Configure values related to webhooks - events broadcast to remote servers.
 | ValidateHttps | Require valid public HTTPS certificates. Self-signed or expired certs on webhook target URLs are refused. Should only be turned off during development.<br>Default: true |
 | NumThreads | How many background threads to run for dispatching webhooks. Default 0 = scale automatically according to demand |
 | Timeout | Stop background threads after X number of seconds of idle time. Default 30 seconds |
-
-<!-- ## WebServices -->

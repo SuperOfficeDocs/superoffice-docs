@@ -5,8 +5,8 @@ description: Interests
 author: {github-id}
 keywords: interests,contact
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Get interests for contact

@@ -1,7 +1,8 @@
 ---
-title: quote_connectors_create_quote      
+title: Creating a quote
+uid: quote_connectors_create_quote
 description: How to creating a quote
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

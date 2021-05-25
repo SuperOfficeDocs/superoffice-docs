@@ -1,7 +1,8 @@
 ---
-title: osql_add_strings
+title: Adding strings
+uid: osql_add_strings
 description: SuperOffice Objectified SQL - Add strings
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 11.05.2016
 keywords:
 so.topic: howto

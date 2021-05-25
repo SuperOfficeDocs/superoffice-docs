@@ -1,7 +1,8 @@
 ---
-title: soap_reference       
+title: Reference
+uid: soap_reference
 description: SOAP reference
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 so.topic: reference
 keywords:

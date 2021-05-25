@@ -1,7 +1,8 @@
 ---
-title: group_view_providers   
+title: Group view providers
+uid: group_view_providers
 description: Group view providers
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: concept

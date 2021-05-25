@@ -1,7 +1,7 @@
 ---
 title: Mass Operations
 description: How to change large numbers of records in bulk.
-author: AnthonyYates             # Your GitHub alias.
+author: AnthonyYates
 so.date: 29.02.2021
 keywords: data-access, bulk-update
 version: 9.2 R04

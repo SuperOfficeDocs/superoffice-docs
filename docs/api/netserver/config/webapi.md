@@ -1,5 +1,6 @@
 ---
-title: ns_config_webapi
+title: WebApi element
+uid: ns_config_webapi
 description: NetServer WebApi element
 so.date: 06.06.2018
 author: {github-id}

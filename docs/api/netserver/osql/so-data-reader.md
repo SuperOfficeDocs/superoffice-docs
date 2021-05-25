@@ -1,5 +1,6 @@
 ---
-title: osql_sodatareader
+title: SoDataReader class
+uid: osql_sodatareader
 description: SuperOffice Objectified SQL - SoDataReader
 author: {github-id}
 so.date: 11.05.2016

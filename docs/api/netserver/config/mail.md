@@ -1,5 +1,6 @@
 ---
-title: ns_config_Mail
+title: Mail Element
+uid: ns_config_Mail
 description: NetServer Mail element
 so.date: 06.06.2018
 author: {github-id}

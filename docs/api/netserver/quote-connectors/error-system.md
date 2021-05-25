@@ -1,5 +1,6 @@
 ---
-title: quote_connector_error_system
+title: Error system
+uid: quote_connector_error_system
 description: ERP Quote Connector Interface error system
 author: {github-id}
 so.date:

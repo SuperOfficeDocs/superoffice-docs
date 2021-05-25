@@ -1,16 +1,13 @@
 ---
-# Mandatory fields.
 uid: webhook_subscription       
 title: Webhook subscription 
 description: Webhook subscription 
 author: AnthonyYates
 so.date: 04.06.2018
 keywords: automation
-so.topic: howto                # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Webhook subscription

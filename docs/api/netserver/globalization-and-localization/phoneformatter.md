@@ -1,7 +1,8 @@
 ---
-title: globalization_phoneformatter
+title: Phone formatter
+uid: globalization_phoneformatter
 description: Localization, class PhoneFormatter
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.08.2018
 so.topic: reference
 keywords:

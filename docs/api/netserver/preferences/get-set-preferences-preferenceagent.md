@@ -1,7 +1,8 @@
 ---
-title: get_set_preferences_ws
+title: Get and set preferences using services
+uid: get_set_preferences_ws
 description: Get and set preferences using services
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 06.24.2016
 keywords:
 so.topic: howto

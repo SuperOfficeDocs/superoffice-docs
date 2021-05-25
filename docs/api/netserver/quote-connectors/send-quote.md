@@ -1,7 +1,8 @@
 ---
-title: quote_connectors_send_quote
+title: Sending quotes
+uid: quote_connectors_send_quote
 description: Sending the quote
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

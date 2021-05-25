@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: row_events       # (Required) Very important for SEO.
-description: Events in Row objects # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Events in Row objects
+uid: row_events
+description: Events in Row objects
+author: {github-id}
 so.date: 11.05.2016
 keywords: hook
-so.topic: concept          # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Events in Row objects

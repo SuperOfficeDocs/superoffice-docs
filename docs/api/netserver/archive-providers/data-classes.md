@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: archive_provider_classes       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Archive provider data classes # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Data classes
+uid: archive_provider_classes
+description: Archive provider data classes
+author: {github-id}
 keywords:
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Data classes

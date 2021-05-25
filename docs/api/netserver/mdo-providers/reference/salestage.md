@@ -18,7 +18,7 @@ so.envir:
 Provider for selecting a stage. AdditionalInfo is used as criteria to filter stages based on SaleType.
 
 Sold(-2) and Lost(-1) items are appended  at the end of the list.
-<para />
+
 AdditionalInfo "SaleTypeID=123&amp;GetDeletedStages=true&amp;HideOptionalRows=false&amp;GetDeletedStageLinks=true"
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleStageProvider">SaleStageProvider</see> class.

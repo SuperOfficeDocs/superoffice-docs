@@ -1,17 +1,13 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: add_columns       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Add columns to archive providers # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Add columns to archive providers
+uid: add_columns
+description: Add columns to archive providers
 author: Tony Yates
 so.date: 08.03.2017
 keywords:
-so.topic: howto             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: howto
+so.envir: cloud
+so.client: online
 ---
 
 # Add columns to archive providers
@@ -32,7 +28,7 @@ For instance, adding extra columns to a person that should be present in all con
 
 ## Add columns to related archive, wherever!
 
-Enter the new dimension: An ExtenderExtender! This is actually just a small tweak to the `ArchiveProviderFactory`, where it searches for a new attribute during the construction of an archive provider. The attribute is called `ArchiveExtenderExtender`, and takes the type of an existing `ArchiveExtender` as its parameter.
+Enter the new dimension: An ExtenderExtender! This is actually just a small tweak to the `ArchiveProviderFactory`, where it searches for a new attribute during the construction of an archive provider. The attribute is called `ArchiveExtenderExtender` and takes the type of an existing `ArchiveExtender` as its parameter.
 
 During construction, the Factory recursively traverses all extenders that are part of the provider being built. Whenever it finds an extender that `IsAssignable` from the type specified in the attribute, it will instantiate and add the new component.
 

@@ -1,5 +1,6 @@
 ---
-title: ns_config_suspendedsite
+title: SuspendedSite element
+uid: ns_config_suspendedsite
 description: NetServer SuspendedSite element
 so.date: 06.06.2018
 author: {github-id}
@@ -10,7 +11,7 @@ so.envir: onsite
 
 # NetServer SuspendedSite element (SuperOffice only)
 
-Configuration values related to suspended state.
+Configuration values related to the suspended state.
 
 ```XML
 <SuspendedSite>

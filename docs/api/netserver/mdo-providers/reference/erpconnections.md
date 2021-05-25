@@ -18,7 +18,7 @@ so.envir:
 Retrieve the list of all defined Erp Connections (not Connectors, that's another list)
 
 Implementation relies on the <see cref="T:SuperOffice.CRM.ArchiveLists.ErpConnectionProvider" /> archivelist, and simply reformats its data.
-<para />
+
 The items contain the GUID (ErpId) used by the connection, in the ExtraInfo field
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ErpConnections">ErpConnections</see> class.

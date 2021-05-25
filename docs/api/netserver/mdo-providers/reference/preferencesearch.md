@@ -19,7 +19,7 @@ MDO Provider that retrieves a list of preference keys corresponding to a given k
 
 Preferences are described in the prefdesc table. This provider will retrieve descriptions for all keys
 for a given keyword. A search for the keyword, passed in as the additionalInfo to the constructor, is preformed in both name and descriptio fields.
-<para />
+
 Each item contains the programmatic key name in the extraInfo field.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PreferenceSearchProvider">PreferenceSearchProvider</see> class.

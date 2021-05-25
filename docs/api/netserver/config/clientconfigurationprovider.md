@@ -1,5 +1,6 @@
 ---
-title: ns_config_client_configuration
+title: ClientConfigurationProvider
+uid: ns_config_client_configuration
 description: NetServer ClientConfigurationProvider element
 so.date: 06.06.2018
 author: {github-id}

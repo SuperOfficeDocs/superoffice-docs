@@ -1,5 +1,6 @@
 ---
-title: ns_config_subclients
+title: SubClients element
+uid: ns_config_subclients
 description: NetServer SubClients element
 so.date: 06.06.2018
 author: {github-id}

@@ -1,5 +1,6 @@
 ---
-title: foreign_keys_integration
+title: System integration
+uid: foreign_keys_integration
 description: Foreign keys integration
 author:
 so.date:

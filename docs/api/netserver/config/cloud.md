@@ -1,5 +1,6 @@
 ---
-title: ns_config_cloud
+title: Cloud element
+uid: ns_config_cloud
 description: NetServer Cloud element
 so.date: 06.06.2018
 author: {github-id}

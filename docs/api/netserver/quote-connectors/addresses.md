@@ -1,7 +1,8 @@
 ---
-title: address_provider
+title: Address Provider
+uid: address_provider
 description: Address Provider
-author: {github-id}       
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

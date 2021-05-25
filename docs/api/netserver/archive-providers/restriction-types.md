@@ -1,14 +1,11 @@
 ---
-# Mandatory fields.
-title: Restriction Types       # (Required) Very important for SEO.
-description: Describes available archive provider column data types and lists their available operators. # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Restriction Types
+description: Describes available archive provider column data types and lists their available operators.
+author: {github-id}
 keywords: Restriction
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+# so.envir:
+# so.client:
 ---
 
 # Archive Provider Restriction Types

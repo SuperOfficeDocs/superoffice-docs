@@ -1,12 +1,11 @@
 ---
-title: 85_breaking_changes       # (Required) Very important for SEO.
-description: Heads up - Breaking database change in NetServer # (Required) Important for SEO.
-author: Marek Vokáč             # Your GitHub alias.
+title: Breaking database change in NetServer
+uid: 85_breaking_changes
+description: Heads up - Breaking database change in NetServer
+author: Marek Vokáč
 so-date: 04.16.2019
 keywords:
-so.topic: generic            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
+so.topic: generic
 so.envir:
 so.client:
 ---

@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: display_in_current_culture       # (Required) Very important for SEO.
-description: How to display values in current culture # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Display values in current culture
+uid: display_in_current_culture
+description: How to display values in current culture
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Display values in current culture

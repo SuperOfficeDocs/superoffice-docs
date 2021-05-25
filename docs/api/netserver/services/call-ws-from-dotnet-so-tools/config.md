@@ -1,7 +1,8 @@
 ---
-title: config_ns_so_tools
+title: onfigure NetServer
+uid: config_ns_so_tools
 description: Configure NetServer for SuperOffice web services with SuperOffice tools
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic: howto

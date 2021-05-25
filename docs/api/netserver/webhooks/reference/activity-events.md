@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: webhook_activity_event
+title: Activity events
+uid: webhook_activity_event
 description: Activity events
 author:
 so.date:
 keywords: automation
-so.topic: reference         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+# so.envir:
+# so.client:
 ---
 
 # Activity events

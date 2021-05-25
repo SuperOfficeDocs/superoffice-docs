@@ -1,7 +1,8 @@
 ---
-title: osql_and
+title: AND clause
+uid: osql_and
 description: SuperOffice Objectified SQL - AND clause
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 11.05.2016
 keywords:
 so.topic: concept

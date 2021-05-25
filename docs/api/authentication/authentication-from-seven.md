@@ -1,7 +1,7 @@
 ---
 title: authentication      
 description: Authentication overview
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 so.date: 05.08.2018
 so.topic: concept

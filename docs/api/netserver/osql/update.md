@@ -1,5 +1,6 @@
 ---
-title: osql_update
+title: UPDATE
+uid: osql_update
 description: SuperOffice Objectified SQL - UPDATE
 author: {github-id}
 so.date: 11.05.2016

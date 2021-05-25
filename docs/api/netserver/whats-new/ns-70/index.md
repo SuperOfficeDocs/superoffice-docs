@@ -1,5 +1,6 @@
 ---
-title: whats_new_70
+title: NetServer 7 enhancements
+uid: whats_new_70
 description: NetServer 7.0
 author: {github-id}
 so.date: 11.05.2016

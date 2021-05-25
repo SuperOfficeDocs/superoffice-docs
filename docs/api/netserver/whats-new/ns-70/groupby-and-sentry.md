@@ -1,5 +1,6 @@
 ---
-title: whats_new_70_
+title: GroupBy and Sentry
+uid: whats_new_70_groupby_and_sentry
 description: NetServer 7.0
 author: {github-id}
 so.date: 11.05.2016

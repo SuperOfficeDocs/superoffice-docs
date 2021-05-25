@@ -1,16 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: changes_7_datetime       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Changes in SuperOffice 7 - DateTime # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {github-id}             # Your GitHub alias.
+title: DateTime - new from SuperOffice v.7
+uid: changes_7_datetime
+description: Changes in SuperOffice 7 - DateTime
+author: {github-id}
 keywords: database
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite           # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: onsite
+# so.client:
 ---
 
 # DateTime - new from SuperOffice v.7
@@ -25,7 +21,7 @@ The one good thing about the old posix datetime was that there was an obvious "b
 1.1.1760 is a good compromise, and not likely to conflict with a real date, this corresponds to "0" from the date-as-int past
 31.12.9999 is DateTime.MaxValue and means "forever". Anything in between is a real date – but the Windows code still works with posix times internally so this means 1970 -> 2038 still applies.
 
-In the code, we convert from 1.1.1760 to 1.1.1970 (c++) or DateTime.MinValue (C\#) automatically. The code and applications dependent on it see no change from what things were like earlier.
+In the code, we convert from 1.1.1760 to 1.1.1970 (c++) or DateTime.MinValue (C#) automatically. The code and applications dependent on it see no change from what things were like earlier.
 
 Since the C++ still works with posix `date_t` internally, we still have the same limitations. Overcoming these is a big project that relates to all our C++ and Windows GUI code; and it just was not worth the risk and effort in this round.
 

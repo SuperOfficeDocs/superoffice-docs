@@ -1,7 +1,8 @@
 ---
-title: quote_connectors_place order
+title: Placing orders into ERP
+uid: quote_connectors_place order
 description: Placing orders into ERP
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

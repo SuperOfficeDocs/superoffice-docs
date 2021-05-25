@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_setup_connection       # (Required) Very important for SEO.
-description: Setting up ERP Sync connection # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Setting up ERP Sync connection
+uid: erp_setup_connection
+description: Setting up ERP Sync connection
+author: {github-id}
 so.date: 05.11.2016
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Setting up ERP Sync connection

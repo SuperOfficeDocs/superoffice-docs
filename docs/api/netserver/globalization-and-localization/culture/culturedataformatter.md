@@ -1,7 +1,8 @@
 ---
-title: globalization_culturedataformatter
+title: CultureDataFormatter
+uid: globalization_culturedataformatter
 description: Localization, class CultureDataFormatter
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.08.2018
 so.topic: reference
 keywords:

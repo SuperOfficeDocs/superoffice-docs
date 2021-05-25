@@ -15,29 +15,27 @@ so.envir:
 ---
 
 # "person_freetextsearch" MDO List
+
 Provider for selecting a Person - without contact search.
 Does keyword matching and scoring across multiple
 tables using freetext index.
 
 User's own contacts, recently added + modified contacts, contacts modified or created by user.
 Matches on word boundaries or at start of field are scored extra highly.
-<para />
+
 id = person_id,
-<para />
+
 Name = contact.name + department or person first+last name (contact name + department)
-<para />
+
 ExtraInfo = contact_id,
-<para />
+
 IconHint = Personwithcontact or Personwithoutcontact
-<para />
+
 Type = "Person"
 Stopped contacts are marked with stylehint = "stop" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PersonListFreetextSearchProvider">PersonListFreetextSearchProvider</see> class.
 The name of the MDO list is 'person_freetextsearch'.
-
-
-
 
 ## Sample Request
 
@@ -46,10 +44,10 @@ GET /api/v1/MDOList/person_freetextsearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: *
-
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("person_freetextsearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -83,7 +81,6 @@ foreach (var item in listProvider.RootItems) {
 |27|Carl-Oskar Cederström||8|
 |28|Cidrik Culien||8|
 |29|Cecilie Carlsen||7|
-
 
 ## Related MDO Lists
 

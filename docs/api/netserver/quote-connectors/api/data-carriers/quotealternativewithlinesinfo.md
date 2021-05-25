@@ -1,5 +1,6 @@
 ---
-title: quote_connector_carrier_quotealternativewithlinesinfo
+title: QuoteAlternativeWithLinesInfo
+uid: quote_connector_carrier_quotealternativewithlinesinfo
 description: ERP Quote Connector Interface data carrier - QuoteAlternativeWithLinesInfo
 author: {github-id}
 so.date:

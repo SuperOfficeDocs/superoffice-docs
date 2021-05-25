@@ -1,5 +1,6 @@
 ---
-title: ns_config_scripting
+title: Scripting element
+uid: ns_config_scripting
 description: NetServer Scripting element
 so.date: 06.06.2018
 author: {github-id}

@@ -1,5 +1,6 @@
 ---
-title: whats_new_70_
+title: OSQL meets Sentry
+uid: whats_new_70_osql
 description: NetServer 7.0
 author: {github-id}
 so.date: 11.05.2016

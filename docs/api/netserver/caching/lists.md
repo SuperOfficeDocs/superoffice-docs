@@ -1,7 +1,8 @@
 ---
-title: caching_lists
+title: Lists
+uid: caching_lists
 description: Caching lists
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: concept

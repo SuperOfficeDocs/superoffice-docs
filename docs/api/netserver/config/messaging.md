@@ -1,5 +1,6 @@
 ---
-title: ns_config_messaging
+title: Messaging element
+uid: ns_config_messaging
 description: NetServer Messaging element
 so.date: 06.06.2018
 author: {github-id}

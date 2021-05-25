@@ -1,5 +1,6 @@
 ---
-title: ns_config_batch_service
+title: NetServer BatchService element
+uid: ns_config_batch_service
 description: NetServer BatchService element
 so.date: 06.06.2018
 author: {github-id}

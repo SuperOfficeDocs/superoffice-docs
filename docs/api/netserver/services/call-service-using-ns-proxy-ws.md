@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: call_service_using_ns_proxy_ws       # (Required) Very important for SEO.
-description: Calling through a proxy by adding a web services # (Required) Important for SEO.including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Calling through a proxy by adding a web services
+uid: call_service_using_ns_proxy_ws
+description: Calling through a proxy by adding a web servicesincluding spaces.
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Calling through a proxy by adding a web services

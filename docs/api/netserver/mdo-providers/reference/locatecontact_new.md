@@ -15,6 +15,7 @@ so.envir:
 ---
 
 # "locatecontact_new" MDO List
+
 Provider for selecting a Contact, including search on persons that match as well as contacts. this provider will
 return contact records, even for person matches.
 
@@ -22,22 +23,19 @@ This does the same contact + person search as the base class ("contactWithPerson
 but always returns contact info. So you will still get a result for "John Rowling (Liberty Comm)"
 but the id = contact-id, not John Rowling's person id.
 The type is always "Contact".
-<para />
+
 Returns Contact items:
-<para />
+
 id = contact id,
-<para />
+
 Name = contact.name + department or person first+last name (contact name + department)
-<para />
+
 ExtraInfo = contact_id,
-<para />
+
 Type = "Contact"
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.LocateContactProvider">LocateContactProvider</see> class.
 The name of the MDO list is 'locatecontact_new'.
-
-
-
 
 ## Sample Request
 
@@ -50,6 +48,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("locatecontact_new", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -83,7 +82,6 @@ foreach (var item in listProvider.RootItems) {
 |20|Illinoise Market Fare INC, IAvdeling||20|
 |21|Jensen Madrasser, JAvdeling||21|
 |22|Juul & Hansen AS, JAvdeling||22|
-
 
 ## Related MDO Lists
 

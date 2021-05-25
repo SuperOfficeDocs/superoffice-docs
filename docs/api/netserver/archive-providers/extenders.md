@@ -1,14 +1,11 @@
 ---
-# Mandatory fields.
-title: extenders       # (Required) Very important for SEO.
-description: Extenders # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: extenders
+description: Extenders
+author: {github-id}
 keywords: reuse,IArchiveProvider
-so.topic: concept             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Extenders

@@ -2,7 +2,7 @@
 uid: netserver-web-services-overview
 title: NetServer web services       
 description: SuperOffice NetServer web services
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic: concept

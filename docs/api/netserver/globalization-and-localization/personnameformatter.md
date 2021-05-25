@@ -1,7 +1,8 @@
 ---
-title: globalization_personnameformatter
+title: Person name formatter
+uid: globalization_personnameformatter
 description: Localization, class PersonNameFormatter
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.08.2018
 so.topic: reference
 keywords:

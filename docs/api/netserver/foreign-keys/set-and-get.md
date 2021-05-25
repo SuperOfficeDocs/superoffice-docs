@@ -1,5 +1,6 @@
 ---
-title: foreign_key_set_get
+title: How to set and get foreign keys
+uid: foreign_key_set_get
 description: How to set and get foreign keys
 author: {github-id}
 so.date: 

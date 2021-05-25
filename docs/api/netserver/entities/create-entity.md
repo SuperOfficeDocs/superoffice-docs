@@ -1,5 +1,6 @@
 ---
-title: create_entity
+title: How to create an Entity
+uid: create_entity
 description: Create entity with basic properties
 author: {github-id}
 so.date: 11.05.2016

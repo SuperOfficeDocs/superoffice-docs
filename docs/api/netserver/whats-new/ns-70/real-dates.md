@@ -1,5 +1,6 @@
 ---
-title: whats_new_70_real_dates
+title: Real dates
+uid: whats_new_70_real_dates
 description: NetServer 7.0
 author: {github-id}
 so.date: 11.05.2016

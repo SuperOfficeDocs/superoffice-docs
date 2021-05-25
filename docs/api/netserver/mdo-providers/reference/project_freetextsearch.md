@@ -15,22 +15,20 @@ so.envir:
 ---
 
 # "project_freetextsearch" MDO List
+
 Provider for selecting a Project.
 Does keyword matching and scoring across multiple
 string fields. Checks name, description, soundex fields.
 
 User's own projects, recently added + modified projects, projects modified or created by user.
 Matches on word boundaries or at start of field are scored extra highly.
-<para />
+
 Returns project items only: Id = project-id, Name = Project name, Type = "Project", IconHint="deleted_item", ExtraInfo= project-id
-<para />
+
 Completed/Done projects are marked with stylehint = "deleted_item" (but item.deleted = false)
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.ProjectListFreetextSearchProvider">ProjectListFreetextSearchProvider</see> class.
 The name of the MDO list is 'project_freetextsearch'.
-
-
-
 
 ## Sample Request
 
@@ -43,6 +41,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("project_freetextsearch", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -76,7 +75,6 @@ foreach (var item in listProvider.RootItems) {
 |33|Ssosseess||33|
 |34|Ttotteett||34|
 |35|Prusjuukt||35|
-
 
 ## Related MDO Lists
 

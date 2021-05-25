@@ -1,7 +1,8 @@
 ---
-title: auth_ws_java
+title: Connect to the web service using the Java secret
+uid: auth_ws_java
 description: Authenticate web service using Java
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so-topic: howto

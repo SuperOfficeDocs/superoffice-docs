@@ -15,22 +15,23 @@ so.envir:
 ---
 
 # "sale_new" MDO List
+
 List of sales.
 Searches sale + company names + person names.
-<para />
+
 Skips completed sales SkipCompletedSales userpref is set.
-<para />
+
 Skips sales without quotes if AdditionalInfo contains "hasQuoteOnline=1".
-<para />
+
 Skips sales without stakeholders if AdditionalInfo contains "stakeholderOnly=1".
-<para />
+
 Filter sales according to currency if AdditionalInfo contains "hasCurrency=(currency-id)"
 
 Returns sale items only: Id = sale-id, Name = Sale name (company name,dept or project name), Type = "Sale",
 ExtraInfo = sale heading name.
-<para />
+
 Completed/Done sales are marked with stylehint = "deleted_item" (but item.deleted = false)
-<para />
+
 Not complete Lost/Stalled/Sold sales are marked with corresponding style hints.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.SaleListProvider">SaleListProvider</see> class.
@@ -47,9 +48,6 @@ The name of the MDO list is 'sale_new'.
 Separator: ;
 
 
-
-
-
 ## Sample Request
 
 ```http!
@@ -61,6 +59,7 @@ Accept-Language: *
 ```
 
 ## Sample Code
+
 ```cs
 var listProvider = SuperOffice.CRM.Lists.SoListProviderFactory.Create("sale_new", forceFlatList: true);
 foreach (var item in listProvider.RootItems) {
@@ -94,7 +93,6 @@ foreach (var item in listProvider.RootItems) {
 |25|SalgYDDY (Yngve'S Fisk & Vilt, YAvdeling)||SalgYDDY|
 |26|SalgÖDDÖ (Yngve'S Fisk & Vilt, YAvdeling)|lost|SalgÖDDÖ|
 |28|Salg8DD8 (0-Feil Software AS, 0Avdeling)|sold|Salg8DD8|
-
 
 ## Related MDO Lists
 

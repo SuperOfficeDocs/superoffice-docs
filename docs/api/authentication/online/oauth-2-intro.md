@@ -6,7 +6,7 @@ author: {github-id}
 keywords: authorization
 so.topic: concept
 so.envir: cloud
-so.client: online               # online, web, win, pocket, or mobile
+so.client: online
 ---
 
 # Introduction to OAuth 2.0

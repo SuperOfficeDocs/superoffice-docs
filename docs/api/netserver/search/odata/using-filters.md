@@ -1,7 +1,8 @@
 ---
-title: odata_filters
+title: Using filters
+uid: odata_filters
 description: Using ODATA filters
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: search,odata,webapi
 so.date:
 so.topic: howto

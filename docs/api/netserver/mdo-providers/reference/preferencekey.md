@@ -19,9 +19,9 @@ MDO Provider that retrieves a list of preference keys corresponding to a given s
 
 Preferences are described in the prefdesc table. This provider will retrieve descriptions for all keys
 grouped under a given section, passed in as the additionalInfo to the constructor.
-<para />
+
 Use the <see cref="T:SuperOffice.CRM.UserPreferenceStrings" /> class to avoid (mis)coding preference section and key names as strings.
-<para />
+
 Each item contains the programmatic key name in the extraInfo field.
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PreferenceKeyProvider">PreferenceKeyProvider</see> class.

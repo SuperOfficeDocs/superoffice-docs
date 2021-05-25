@@ -1,5 +1,6 @@
 ---
-title: ns_config_services
+title: Services element
+uid: ns_config_services
 description: NetServer Services element
 so.date: 06.06.2018
 author: {github-id}

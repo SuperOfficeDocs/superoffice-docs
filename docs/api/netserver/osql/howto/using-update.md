@@ -1,5 +1,6 @@
 ---
-title: osql_update_howto
+title: How to use UPDATE in OSQL
+uid: osql_update_howto
 description: SuperOffice Objectified SQL - UPDATE
 author: {github-id}
 so.date: 11.05.2016

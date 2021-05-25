@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: how_to_query_with_archive_providers       # (Required)
-description: How to perform an archive provider query # (Required) Important for SEO.
+title: How to perform an archive provider query
+uid: how_to_query_with_archive_providers
+description: How to perform an archive provider query
 author: Tony Yates
 so.date: 11.17.2017
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to perform an archive provider query

@@ -6,8 +6,8 @@ author: {github-id}
 so.date: 05.11.2016
 keywords: row
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Create a contact row

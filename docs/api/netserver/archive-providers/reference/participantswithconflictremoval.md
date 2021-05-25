@@ -23,7 +23,7 @@ Archive provider that wraps the <see cref="T:SuperOffice.CRM.ArchiveLists.Partic
 
 This provider is used by the Assign To dialog, where an associate list with conflict markers is shown. This list has a checkbox
 with the text 'hide conflicts', and its effect is to remove from the list those that do have a conflict.
-<para />
+
 This class implements the functionality by wrapping the existing participants provider, adds an optional entity to get
 the checkbox, and performs filtering if the entity is chosen. It also ensures that the relevant column is ordered from the
 inner participants provider, so that the conflict checking is performed.

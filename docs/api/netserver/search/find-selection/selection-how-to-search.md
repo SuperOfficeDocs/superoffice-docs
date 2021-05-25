@@ -1,15 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
 title: How to Search using Find Selections
 description: Details what new selections are, and how to work with them in code. 
-author: {AnthonyYates}             # Your GitHub alias.
+author: {AnthonyYates}
 keywords: Selection, Find, Search
-so.topic: howto                      # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: online, onsite                    # cloud or onsite
+so.topic: howto
+so.envir: online, onsite
 so.client: netserver                        # online, web, or win
 ---
 

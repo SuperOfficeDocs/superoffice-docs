@@ -22,7 +22,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Contact subchannel for special purpose archive provider used to search for email addresses.
 
 This channel will match on either the email address itself, or contact.name
-<para />
+
 The resulting rows will have entity name 'contact', but the primary key will always be
 the email_id.
 

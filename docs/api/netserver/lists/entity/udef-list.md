@@ -1,7 +1,8 @@
 ---
-title: user_defined_list_providers
+title: User-defined list providers
+uid: user_defined_list_providers
 description: User-defined list providers
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: concept

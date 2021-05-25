@@ -1,7 +1,8 @@
 ---
-title: create_secret_java
+title: Creating the secret using Java
+uid: create_secret_java
 description: Creating the secret using Java
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so-topic: howto

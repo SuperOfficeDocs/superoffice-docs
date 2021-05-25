@@ -1,5 +1,6 @@
 ---
-title: ns_config_Reporter
+title: Reporter element
+uid: ns_config_Reporter
 description: NetServer Reporter element
 so.date: 06.06.2018
 author: {github-id}

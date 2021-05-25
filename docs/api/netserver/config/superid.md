@@ -1,5 +1,6 @@
 ---
-title: ns_config_superid
+title: SuperId element
+uid: ns_config_superid
 description: NetServer SuperId element
 so.date: 06.06.2018
 author: {github-id}

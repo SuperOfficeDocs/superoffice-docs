@@ -1,5 +1,6 @@
 ---
-title: quote_connector_carrier_orderresponseinfo
+title: OrderResponseInfo
+uid: quote_connector_carrier_orderresponseinfo
 description: ERP Quote Connector Interface data carrier - OrderResponseInfo
 author: {github-id}
 so.date:

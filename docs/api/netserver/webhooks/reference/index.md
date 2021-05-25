@@ -1,5 +1,6 @@
 ---
-title: webhook_reference
+title: Reference
+uid: webhook_reference
 uid: webhooks_ref
 description: SuperOffice Webhooks reference
 author:

@@ -1,7 +1,8 @@
 ---
-title: rights_field
+title: Rights field
+uid: quote_connector_rights_field
 description: Quote connector Rights field
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: quote
 so.topic: concept         
 so.date:

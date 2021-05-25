@@ -1,16 +1,15 @@
 ---
-title: listagent_example_1
+title: Show list data in UI combo box
+uid: listagent_example_1
 description: Show list data in UI combo box using a ListAgent
 author: {github-id}
 keywords: 
-so.topic: howto                # article, howto, reference, concept, guide
+so.topic: howto
 so.date:
 so.category: list
 so.area: api-services
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Show list data in UI combo box

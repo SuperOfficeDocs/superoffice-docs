@@ -1,7 +1,8 @@
 ---
-title: call_ws_from_java
+title: How to call SuperOffice web services from Java
+uid: call_ws_from_java
 description: How to call SuperOffice web services from Java
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so-topic: guide

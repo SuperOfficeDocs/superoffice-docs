@@ -1,14 +1,13 @@
 ---
-title: get_selection_members_entity
+title: retrieve members of a specific selection
+uid: get_selection_members_entity
 description: How to retrieve members of a specific selection using entities
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords: search,selectionmembers
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to retrieve members of a specific selection using entities

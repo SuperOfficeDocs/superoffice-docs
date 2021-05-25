@@ -25,7 +25,7 @@ This provider, like the <see cref="T:SuperOffice.CRM.ArchiveLists.LinksProvider"
 the data. For existing appointments, the appointment_id is used as search criterion. This will retrieve
 all participants in this appointment, regardless of whether the given appointment is the mother
 or one of the slaves.
-<para />
+
 For appointments under construction, where the data have not yet been saved to the database, the
 caller must specify all data through the use of restrictions - some of which are then used for
 information, and some as keys to fetch actual person or associate/resource records from the database.
@@ -65,17 +65,17 @@ external persons by a list (use the IN operator) of externalPersonRestrictionId,
 internal associates through a list of associateRestrictionId, and resources through resourceRestrictionId.
 All three restrictions can be given simultaneously, with an implied OR operator. In this case no appointment
 records are required or fetched.
-<para />
+
 Conflict detection is provided if the status column is requested. For non-saved data, this also
 requires the presence of startTimeInformation and endTimeInformation restrictions (dates in InvariantCulture format),
 so that the conflicts may be calculated.
-<para />
+
 Finally, the email status (should emails be sent for invitations and changes) is read from the database
 if the appointmentRestrictionId is used; if explicit person or associate restrictions are used, then email
 status information must be passed in through the associateEmailsInformation and personEmailsInformation
 restrictions. The value of each restriction is a list of associate resp. person id's who have
 the email flag set. If all this sounds complex - well, it is.
-<para />
+
 Being the tolerant sort, the provider will accept both associates and resources in each of associateRestrictionId
 and resourceRestrictionId, and internally sort out which is which. Similarly, if any of the person id's you happen to pass
 in through the externalPersonRestrictionId are actually associates, then that too will be sorted out.

@@ -1,5 +1,6 @@
 ---
-title: mdo_lists
+title: MDO lists
+uid: mdo_lists
 description: Multi-Department Organisation (MDO) lists
 author:
 so.date:

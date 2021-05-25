@@ -1,7 +1,8 @@
 ---
-title: superoffice_globalization 
+title: SuperOffice.Globalization namespace
+uid: superoffice_globalization 
 description: SuperOffice.Globalization namespace
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 04.08.2018
 so.topic: reference
 keywords:

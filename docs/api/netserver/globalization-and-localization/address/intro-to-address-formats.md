@@ -1,5 +1,6 @@
 ---
-title: globalization_addressformatter
+title: Address formats
+uid: globalization_address_formats
 description: Localization, address formats
 author: Tony Yates
 so.date: 05.08.2018

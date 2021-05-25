@@ -1,5 +1,6 @@
 ---
-title: ns_config_featuretoggles
+title: FeatureToggles element
+uid: ns_config_featuretoggles
 description: NetServer FeatureToggles element
 so.date: 06.06.2018
 author: {github-id}

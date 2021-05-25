@@ -22,11 +22,11 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 Archive provider for the list of ListItems
 
 Blah...
-<para />
+
 blah....
-<para />
+
 ...
-<para />
+
 ........
 
 ## Supported Entities

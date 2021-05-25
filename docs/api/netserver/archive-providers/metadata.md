@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: archive_provider_metadata       # (Required) Very important for SEO.
-description: Archive provider metadata  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Metadata
+uid: archive_provider_metadata
+description: Archive provider metadata
+author: {github-id}
 keywords:
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Metadata

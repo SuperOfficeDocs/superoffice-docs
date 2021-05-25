@@ -1,13 +1,12 @@
 ---
-title: dynamic_selection
+title: Dynamic selections
+uid: dynamic_selection
 description: Dynamic selection
 author: {github-id}
 keywords: 
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Dynamic selections

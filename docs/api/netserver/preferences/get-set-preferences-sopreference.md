@@ -1,7 +1,8 @@
 ---
-title: get_set_preferences_datalayer
+title: Get and set preferences
+uid: get_set_preferences_datalayer
 description: Get and set preferences using SoPreferene at the data layer
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: howto

@@ -1,14 +1,13 @@
 ---
 # This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
 uid: users_and_associates
-# Mandatory fields.
 title: Users and Associates       
 description: Users and associates 
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: database
 so.topic: concept              
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Users and associates

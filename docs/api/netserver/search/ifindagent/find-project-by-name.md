@@ -1,14 +1,13 @@
 ---
-title: find_project_by_name
+title: Find a project, returning the name
+uid: find_project_by_name
 description: Find a project, returning the name
 author: {github-id}
 so.date: 06.24.2016
 keywords:
-so.topic:  howto             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic:  howto
+# so.envir:
+# so.client:
 ---
 
 # Find a project, returning the name

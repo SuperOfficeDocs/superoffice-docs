@@ -1,14 +1,13 @@
 ---
-title: get_selection_members_provider
+title: Retrieve members of a specific selection
+uid: get_selection_members_provider
 description: How to retrieve members of a specific selection using archive provider
 author: {github-id}
 so.date: 05.11.2016
 keywords: search,selectionprovider
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to retrieve members of a specific selection using archive provider

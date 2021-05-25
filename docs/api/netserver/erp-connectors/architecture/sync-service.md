@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_arch_sync_service       # (Required) Very important for SEO.
-description: ERP connector Sync Service # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Sync Service
+uid: erp_arch_sync_service
+description: ERP connector Sync Service
+author: {github-id}
 so.date: 05.11.2016
 keywords: .net
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Sync Service

@@ -1,7 +1,8 @@
 ---
-title: quote_connectors_find_product
+title: Product search provider
+uid: quote_connectors_find_product
 description: Product search provider
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote,search
 so.topic: howto

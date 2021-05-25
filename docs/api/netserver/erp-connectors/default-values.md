@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: erp_default_values       # (Required) Very important for SEO.
-description: Default values # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Default values
+uid: erp_default_values
+description: Default values
+author: {github-id}
 keywords:
-so.topic: concept               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Default values

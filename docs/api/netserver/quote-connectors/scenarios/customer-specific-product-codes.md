@@ -1,7 +1,8 @@
 ---
-title: quote_scenario_cust_product_codes
+title: Dealing with customer-specific product codes
+uid: quote_scenario_cust_product_codes
 description: Quote connector scenario - dealing with customer-specific product codes
-author: {github-id}       
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: guide
@@ -15,21 +16,21 @@ There must be an alias database somewhere that knows how to translate the produc
 
 ## Using fast search
 
-When a user uses the fast search (that’s the "google" search in the **QuoteLine** dialog) he enters the proprietary customer alias "BOEING\_111".
+When a user uses the fast search (that’s the "google" search in the **QuoteLine** dialog) he enters the proprietary customer alias "BOEING_111".
 
 1. Your connector sends a search to the Alias database to see if the customer + search word (-s) has a match.
 
-2. That search returns a match on the "BOEING\_111" which is "Pcx\_222"
+2. That search returns a match on the "BOEING_111" which is "Pcx_222"
 
-3. You then add the word "Pcx\_222" to the user input
+3. You then add the word "Pcx_222" to the user input
 
 4. Pass the changed user input to the SuperOffice connector.
 
-5. The SuperOffice connector then returns a match on "Pcx\_222".
+5. The SuperOffice connector then returns a match on "Pcx_222".
 
-6. You then change the product code "Pcx\_222" in the result to the correct customer code "BOEING\_111".
+6. You then change the product code "Pcx_222" in the result to the correct customer code "BOEING_111".
 
-7. The user sees that he found the "BOEING\_111" product and accepts it.
+7. The user sees that he found the "BOEING_111" product and accepts it.
 
 ## Performance gains
 

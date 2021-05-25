@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: call_service_using_ns_proxy       # (Required) Very important for SEO.
-description: Calling through a NetServer proxy # (Required) Important for SEO.including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Calling through a NetServer proxy
+uid: call_service_using_ns_proxy
+description: Calling through a NetServer proxyincluding spaces.
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Calling through a NetServer proxy

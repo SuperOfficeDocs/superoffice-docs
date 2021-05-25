@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: netserver_setdefaults       # (Required) Very important for SEO.
-description: SetDefaults method best practices # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: SetDefaults method
+uid: netserver_setdefaults
+description: SetDefaults method best practices
+author: {github-id}
 so.date: 11.05.2016
 keywords: entity,row
-so.topic: concept         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: onsite
+# so.client:
 ---
 
 # SetDefaults method

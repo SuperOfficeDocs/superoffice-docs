@@ -20,14 +20,14 @@ so.envir:
 This provider name is implemented by the class <see cref="T:SuperOffice.CRM.ArchiveLists.FreetextDocumentResultProvider">SuperOffice.CRM.ArchiveLists.FreetextDocumentResultProvider</see> inside NetServer's SODatabase assembly.
 
 Archive provider for freetext search on the Document entity (any kind of document).
-<para />
+
 Use the 'searchwords' restriction with one or more words to specify what to search for. The operator is ignored,
 the freetext search will apply the 'begins' operator to each word and 'AND' between them.
-<para />
+
 It is possible to combine freetext search words with other restrictions and criteria native to the entity and
 its standard subproviders. Note however that this is not the same search as provided by the 'Find' providers, since
 they apply various special rules not present here.
-<para />
+
 Freetext search will limit the number of hits to the first 1000. This clipping is applied before any other criteria,
 as well as before any ORDER BY, are applied.
 

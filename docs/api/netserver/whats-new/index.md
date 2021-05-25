@@ -1,7 +1,8 @@
 ---
-title: whats_new      
+title: What's new
+uid: netserver_whats_new
 description: What's new
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 so.topic:
 keywords: changelog

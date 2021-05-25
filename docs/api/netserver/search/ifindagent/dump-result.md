@@ -1,14 +1,13 @@
 ---
-title: dump_result
+title: DumpResult helper method
+uid: dump_result
 description: DumpResult helper method
 author: {github-id}
 so.date: 06.24.2016
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # DumpResult helper method

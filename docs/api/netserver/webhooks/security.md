@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: webhook_security    
+title: Webhook secrets
+uid: webhook_security
 description: Webhook secrets
 author: Tony Yates
 so.date: 04.06.2018
 keywords:
-so.topic: howto           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Webhook secrets

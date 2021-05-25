@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: aggregate_groupby       # (Required)
-description: Structured aggregation output with groupby # (Required) Important for SEO.
+title: Structured aggregation output with GroupBy
+uid: aggregate_groupby
+description: Structured aggregation output with groupby
 author: Tony Yates
 so.date: 11.17.2017
 keywords:
-so.topic: howto             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Structured aggregation output with GroupBy

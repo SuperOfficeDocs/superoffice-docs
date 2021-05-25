@@ -1,5 +1,6 @@
 ---
-title: osql_delete_howto
+title: How to use DELETE in OSQL
+uid: osql_delete_howto
 description: SuperOffice Objectified SQL - DELETE
 author: {github-id}
 so.date: 11.05.2016

@@ -1,5 +1,6 @@
 ---
-title: ns_config_sync
+title: Sync element
+uid: ns_config_sync
 description: NetServer Sync Element
 so.date: 06.06.2018
 author: {github-id}

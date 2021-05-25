@@ -5,8 +5,8 @@ description: Create a new Company
 author: {github-id}
 keywords: webapi, agents
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Create a new company

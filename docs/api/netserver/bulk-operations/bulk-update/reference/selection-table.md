@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: bulkupdate_selection_table # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Bulk update Selection table # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Selection Table
+uid: bulkupdate_selection_table
+description: Bulk update Selection table
 author: Tony Yates
 so.date: 06.23.2017
 keywords:
-so.topic: reference # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud # cloud or onsite
-so.client: online # online, web, win, pocket, or mobile
+so.topic: reference
+so.envir: cloud
+so.client: online
 ---
 
 # Selection Table

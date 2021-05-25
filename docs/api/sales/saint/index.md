@@ -6,8 +6,8 @@ author: {github-id}
 keywords: sale
 so.date: 05.11.2016
 so.topic: concept
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # SAINT

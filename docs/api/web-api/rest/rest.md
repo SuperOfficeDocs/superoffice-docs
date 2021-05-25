@@ -1,17 +1,12 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: rest       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: SuperOffice RESTful WebAPI # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: Tony Yates             # Your GitHub alias.
+title: rest
+description: SuperOffice RESTful WebAPI
+author: Tony Yates
 so.date: 11.26.2015
 keywords:
-so.topic: article               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.topic: article
+so.envir: cloud
+so.client: online
 ---
 
 # SuperOffice RESTful WebAPI

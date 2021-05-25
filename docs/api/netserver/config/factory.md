@@ -1,5 +1,6 @@
 ---
-title: ns_config_factory
+title: Factory element
+uid: ns_config_factory
 description: NetServer Factory element
 so.date: 06.06.2018
 author: {github-id}

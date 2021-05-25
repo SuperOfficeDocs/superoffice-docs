@@ -1,5 +1,6 @@
 ---
-title: delete_entity_from_entity
+title: Delete an Entity through an Entity
+uid: delete_entity_from_entity
 description: Delete an Entity through an Entity
 author: {github-id}
 so.date: 11.05.2016

@@ -1,7 +1,8 @@
 ---
-title: osql_orderby
+title: OrderBy
+uid: osql_orderby
 description: SuperOffice Objectified SQL - OrderBy
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 11.05.2016
 keywords:
 so.topic: concept

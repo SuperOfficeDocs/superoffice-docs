@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_tutorial_company       # (Required) Very important for SEO.
-description: ERP sync - tutorial company # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Tutorial (company)
+uid: erp_tutorial_company
+description: ERP sync - tutorial company
+author: {github-id}
 so.date: 05.11.2016
 keywords:
-so.topic: guide              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: guide
+# so.envir:
+# so.client:
 ---
 
 # Tutorial (company)

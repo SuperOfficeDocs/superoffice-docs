@@ -1,14 +1,13 @@
 ---
-title: add_catlist_item_rest
+title: Add a category list item using REST
+uid: add_catlist_item_rest
 description: Add a category list item
 author: {github-id}
 keywords: category,contact,rest
-so.topic: howto           # article, howto, reference, concept, guide
+so.topic: howto
 so.date:
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Add a category list item using REST

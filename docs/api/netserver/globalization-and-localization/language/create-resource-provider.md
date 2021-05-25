@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_resource_provider       # (Required) Very important for SEO.
-description: How to create a resource provider # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: How to create a resource provider
+uid: create_resource_provider
+description: How to create a resource provider
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # How to create a resource provider

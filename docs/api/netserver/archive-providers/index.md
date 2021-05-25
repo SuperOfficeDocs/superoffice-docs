@@ -1,5 +1,6 @@
 ---
-title: archive_providers
+title: NetServer archive providers
+uid: archive_providers
 description: NetServer archive providers
 author: Tony Yates
 so.date: 11.17.2017

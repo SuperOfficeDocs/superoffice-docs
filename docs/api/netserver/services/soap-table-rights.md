@@ -1,5 +1,6 @@
 ---
-title: soap_table_rights
+title: Table rights in SOAP (3.1)
+uid: soap_table_rights
 description: Table rights in SOAP
 author: {github-id}
 so.date: 11.05.2016

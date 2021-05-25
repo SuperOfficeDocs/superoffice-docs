@@ -1,13 +1,10 @@
 ---
-# Mandatory fields.
-title: Typical Search                          # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Details Find Selection Typical Seach feature set.  # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {AnthonyYates}             # Your GitHub alias.
+title: Typical Search
+description: Details Find Selection Typical Seach feature set.
+author: {AnthonyYates}
 keywords: Typical search, Selection, Find
-so.topic: article                      # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
+so.topic: article
+# so.envir:
 so.client: web                   # online, web, or win
 ---
 

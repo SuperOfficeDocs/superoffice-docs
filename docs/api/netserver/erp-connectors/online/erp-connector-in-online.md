@@ -1,7 +1,8 @@
 ---
-title: erp_sync       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: ERP Sync Connectors
+uid: erp_sync
+description: ERP Sync Connectors
+author: {github-id}
 keywords:
 ---
 
@@ -17,7 +18,7 @@ The standard architecture for ERP synchronization includes the ERP Integration S
 
 ![architecture-simplified][img1]
 
-On the right is the remote ERP Connector, a remote web site that exposes the web service that implements the IErpConnector interface. This is where SuperOffice will connect in order to obtain ERP data.
+On the right is the remote ERP Connector, a remote website that exposes the web service that implements the IErpConnector interface. This is where SuperOffice will connect to obtain ERP data.
 
 ## Configure
 
@@ -27,7 +28,7 @@ When administrators configure an ERP Sync Connector inside SuperOffice today, th
 
 The Sync Connector name will be used as a reference for all connections created to this connector, and the Sync Connector URL specifies where SuperOffice EIS will contact to synchronize data.
 
-SuperOffice EIS will periodically invoke the web services to conduct data synchronization. This invocation is a blind call, meaning that no exchange of credentials or security layers exist between SuperOffice and the web site hosting the web services. This configuration works great for onsite customer installations where both SuperOffice CRM and the ERP system reside inside the secure network, but leaves much to be desired in the online environment.
+SuperOffice EIS will periodically invoke the web services to conduct data synchronization. This invocation is a blind call, meaning that no exchange of credentials or security layers exists between SuperOffice and the website hosting the web services. This configuration works great for onsite customer installations where both SuperOffice CRM and the ERP system reside inside the secure network but leaves much to be desired in the online environment.
 
 ## Continue reading
 

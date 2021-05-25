@@ -6,8 +6,8 @@ author: {github-id}
 so.date: 05.11.2016
 keywords: interest, contactinteresthelper
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # How to set an interest on or off for a contact (data layer)

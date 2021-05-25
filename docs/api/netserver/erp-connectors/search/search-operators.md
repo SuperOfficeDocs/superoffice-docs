@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_search_operators       # (Required) Very important for SEO.
-description: ERP sync search-operator reference # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: ERP search operators
+uid: erp_search_operators
+description: ERP sync search-operator reference
+author: {github-id}
 so.date: 05.11.2016
 keywords:
-so.topic: reference     # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+# so.envir:
+# so.client:
 ---
 
 # ERP search operators
@@ -18,7 +16,7 @@ Here are the operators (from `SuperOffice.ErpSync.Contracts`) the connector will
 
 ## String operators
 
-Supported operators in class `StringOperators` for string fields through advanced search. None of these should be case sensitive.
+Supported operators in class `StringOperators` for string fields through advanced search. None of these should be case-sensitive.
 
 | Operator | Constant |
 |---|---|

@@ -1,7 +1,8 @@
 ---
-title: typed_list_providers
+title: Typed list providers
+uid: typed_list_providers
 description: Typed list providers
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: concept

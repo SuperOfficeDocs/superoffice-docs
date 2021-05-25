@@ -1,7 +1,8 @@
 ---
-title: mdo_reference       
+title: MDO providers
+uid: mdo_reference
 description: MDO list providers
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 so.topic: reference
 keywords:

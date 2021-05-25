@@ -1,7 +1,8 @@
 ---
-title: call_ws_from_dotnet_so_tools       
+title: Calling the web service
+uid: call_ws_from_dotnet_so_tools_method
 description: How to call SuperOffice web services from .Net with SuperOffice tools
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic: howto

@@ -1,7 +1,8 @@
 ---
-title: odata_rest_api_search
+title: REST Web API search
+uid: odata_rest_api_search
 description: REST Web API search using ODATA
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: search,odata
 so.date:
 so.topic: concept

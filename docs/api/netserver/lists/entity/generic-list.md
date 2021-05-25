@@ -1,7 +1,8 @@
 ---
-title: generic_list_providers      
+title: Generic list providers
+uid: generic_list_providers
 description: Generic list providers
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: concept

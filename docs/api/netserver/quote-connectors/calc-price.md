@@ -1,7 +1,8 @@
 ---
-title: quote_connectors_calculate_price
+title: Price calculations and field changes
+uid: quote_connectors_calculate_price
 description: How to calculate the price on field-changes
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

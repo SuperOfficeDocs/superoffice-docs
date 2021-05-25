@@ -1,7 +1,8 @@
 ---
-title: quote_connector       
-description:                    
-author: {github-id}             # Your GitHub alias.
+title: Online quote connectors
+uid: quote_connector
+description: Online quote connectors
+author: {github-id}
 keywords:
 ---
 

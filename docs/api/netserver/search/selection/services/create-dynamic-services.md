@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: create_dynamic_selection_services      # (Required) Very important for SEO.
-description: Creating a dynamic selection using NetServer services # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Creating a dynamic selection (services)
+uid: create_dynamic_selection_services
+description: Creating a dynamic selection using NetServer services
+author: {github-id}
 so.date: 06.24.2016
 keywords: search
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Creating a dynamic selection (services)
@@ -33,7 +31,7 @@ The first few lines of the codes initialize and declare the variables that we pl
 
 * **providerName** – we use `ContactDynamicSelection` since we plan to create a dynamic selection
 
-* **storageKey** – we use `selection=61` since this will allow us to create a restriction for that particular selection ID. In the statement, `selection` is the name of the table and 61 is the primary key ID (selection\_id).
+* **storageKey** – we use `selection=61` since this will allow us to create a restriction for that particular selection ID. In the statement, `selection` is the name of the table and 61 is the primary key ID (selection_id).
 
 * **staticColumns** – we use `name` and `contactId`
 
@@ -45,7 +43,7 @@ The first few lines of the codes initialize and declare the variables that we pl
 
 [!code-csharp[CS](includes/create-dynamic-services.cs?range=26)]
 
-With the execution of the above code we have retrieved criteria information from a set of saved criteria, for specific set columns. In the case of the example this would be empty.
+With the execution of the above code we have retrieved criteria information from a set of saved criteria, for specific set columns. In the case of the example, this would be empty.
 
 ### Create variable to store restrictions
 
@@ -61,7 +59,7 @@ Once this is done we may add the necessary restrictions as shown below.
 
 ### Save
 
-Once all the required restrictions have being added the created restriction can be saved by executing the following statement.
+Once all the required restrictions have been added the created restriction can be saved by executing the following statement.
 
 [!code-csharp[CS](includes/create-dynamic-services.cs?range=44)]
 

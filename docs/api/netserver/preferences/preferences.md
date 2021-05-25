@@ -1,7 +1,8 @@
 ---
-title: caching_preferences
+title: Preferences
+uid: caching_preferences
 description: Caching preferences
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: concept
@@ -9,7 +10,7 @@ so.topic: concept
 
 # Preferences
 
-The `PreferenceCache` stores information about what the user prefers. The aim of this is to make the application more user friendly. For example, by adding default values for a document or appointment.
+The `PreferenceCache` stores information about what the user prefers. The aim of this is to make the application more user-friendly. For example, by adding default values for a document or appointment.
 
 Another aspect of this is that it may define how your application looks. For example, whether the calendar starts on Sunday or Monday.
 
@@ -22,7 +23,7 @@ The classes that can be grouped as preference caches include:
 * SentryPreferanceCache
 * UserGroupCahce
 
-However, programmers can create their own preferences to the database that controls their application.
+However, programmers can create their own preferences in the database that controls their application.
 
 To find an overview of the available references, we may use methods such as `GetSections()` and `GetKeys()` exposed in the `SoPreference` class.
 

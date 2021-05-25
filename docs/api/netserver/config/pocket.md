@@ -1,5 +1,6 @@
 ---
-title: ns_config_pocket
+title: Pocket element
+uid: ns_config_pocket
 description: NetServer Pocket element
 so.date: 06.06.2018
 author: {github-id}
@@ -10,7 +11,7 @@ so.envir: onsite
 
 # NetServer Pocket element (SuperOffice only)
 
-Configuration values for Pocket specific features.
+Configuration values for Pocket-specific features.
 
 | Name | Description |
 |---|---|

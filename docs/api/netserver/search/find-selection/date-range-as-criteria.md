@@ -1,15 +1,10 @@
 ---
-# This basic template provides core metadata fields for Markdown articles on docs.superoffice.com.
-
-# Mandatory fields.
-title: Date range as criteria      # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Details date criterion in find selections.  # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
-author: {AnthonyYates}             # Your GitHub alias.
+title: Date range as criteria
+description: Details date criterion in find selections.
+author: {AnthonyYates}
 keywords: NewSelection, Selection, Find, Date
-so.topic: article                      # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
+so.topic: article
+# so.envir:
 so.client: web                   # online, web, or win
 ---
 

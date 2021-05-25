@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: translate_strings       # (Required) Very important for SEO.
-description: How to translate strings # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Translate strings
+uid: translate_strings
+description: How to translate strings
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Translate strings

@@ -3,11 +3,11 @@
 uid: validate_security_tokens       
 title: Validate security tokens
 description: How to validate security tokens
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: certificates,jwt
 so.topic: howto           
-so.envir: cloud           # cloud or onsite
-so.client: online               # online, web, win, pocket, or mobile
+so.envir: cloud
+so.client: online
 ---
 
 # How to validate security tokens

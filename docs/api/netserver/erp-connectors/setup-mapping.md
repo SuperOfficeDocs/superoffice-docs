@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_setup_mapping       # (Required) Very important for SEO.
-description: Setting up ERP Sync field mapping # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Setting up mapping of fields
+uid: erp_setup_mapping
+description: Setting up ERP Sync field mapping
+author: {github-id}
 so.date: 05.11.2016
 keywords:
-so.topic: howto              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Setting up mapping of fields

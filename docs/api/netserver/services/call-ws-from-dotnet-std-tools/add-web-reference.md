@@ -1,7 +1,8 @@
 ---
-title: add_web_reference
+title: How to add a web reference
+uid: add_web_reference
 description: How to add a web reference
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords:
 so.topic: howto

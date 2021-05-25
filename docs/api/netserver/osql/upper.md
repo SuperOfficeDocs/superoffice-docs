@@ -1,7 +1,8 @@
 ---
-title: osql_upper
+title: Upper
+uid: osql_upper
 description: SuperOffice Objectified SQL - Upper
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 11.05.2016
 keywords:
 so.topic: concept

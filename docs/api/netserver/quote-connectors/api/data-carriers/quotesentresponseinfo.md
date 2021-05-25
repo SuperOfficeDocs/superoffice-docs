@@ -1,5 +1,6 @@
 ---
-title: quote_connector_carrier_quotesentresponseinfo
+title: QuoteSentResponseInfo
+uid: quote_connector_carrier_quotesentresponseinfo
 description: ERP Quote Connector Interface data carrier - QuoteSentResponseInfo
 author: {github-id}
 so.date:

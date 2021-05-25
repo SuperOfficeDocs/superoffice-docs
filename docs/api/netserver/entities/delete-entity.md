@@ -1,5 +1,6 @@
 ---
-title: delete_entity
+title: Delete an Entity
+uid: delete_entity
 description: Delete an entity
 author: {github-id}
 so.date: 11.05.2016

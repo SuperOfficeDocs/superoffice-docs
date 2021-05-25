@@ -1,7 +1,8 @@
 ---
-title: associate_list_and_cache
+title: Associate list and cache
+uid: associate_list_and_cache
 description: Associate list and cache
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 so.topic: concept

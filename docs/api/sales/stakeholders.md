@@ -5,8 +5,8 @@ description: Sale stakeholders
 author: {github-id}
 keywords: database
 so.topic: concept
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Sale stakeholders

@@ -20,17 +20,17 @@ Return company name + department, or person name.
 Use AdditionInfo to restrict search to just Person or Contact phone numbers using "P" or "C".
 
 Returns: list item with
-<para />
+
 id = person or contact id
-<para />
+
 Name = company name + phone number or person name + company name + phone number
-<para />
+
 ExtraInfo + Tooltip = GSM formatted phone number (with country prefix)
-<para />
+
 Full Name = person name or company name
-<para />
+
 Type = "Person" or "Contact"
-<para />
+
 IconHint = "Person" or "Contact"
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.PhoneSearchProvider">PhoneSearchProvider</see> class.

@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: basic_scripting       # (Required) Very important for SEO. Intent in a unique string of 43-59 chars including spaces.
-description: Basic NetServer scripting # (Required) Important for SEO. Recommended character length is 115-145 characters including spaces.
+title: Basic NetServer scripting
+uid: basic_scripting
+description: Basic NetServer scripting
 author: Tony Yates
 so.date: 04.15.2009
 keywords:
-so.topic: concept             # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: onsite
+so.client: web
 ---
 
 # Basic NetServer scripting

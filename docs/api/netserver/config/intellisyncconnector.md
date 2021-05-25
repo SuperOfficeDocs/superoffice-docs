@@ -1,5 +1,6 @@
 ---
-title: ns_config_intellisyncconnector
+title: IntellisyncConnector element
+uid: ns_config_intellisyncconnector
 description: NetServer IntellisyncConnector element
 so.date: 06.06.2018
 author: {github-id}

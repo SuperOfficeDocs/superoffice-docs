@@ -1,16 +1,13 @@
 ---
-# Mandatory fields.
 title: CRMScript event handlers
 uid: webhooks_crmscript_event_handlers
 description: CRMScript hooks
 author:
 so.date:
 keywords: automation
-so.topic: reference         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+# so.envir:
+# so.client:
 ---
 
 # CrmScript webhooks event handlers

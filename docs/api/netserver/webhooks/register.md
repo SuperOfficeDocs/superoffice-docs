@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: register_webhook       # (Required) Very important for SEO.
-description: Register a webhook # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Register a webhook
+uid: register_webhook
+description: Register a webhook
+author: {github-id}
 keywords:
-so.topic: howto           # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Register a webhook

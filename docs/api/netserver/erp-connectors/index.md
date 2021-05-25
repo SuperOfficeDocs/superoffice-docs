@@ -1,7 +1,8 @@
 ---
-title: erp_connectors
+title: ERP Sync Connector Interface
+uid: erp_connectors
 description: ERP Sync Connector Interface
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.11.2016
 keywords:
 ---
@@ -12,7 +13,7 @@ keywords:
 
 SuperOffice’s ERP Integration server is designed to allow integration with any external ERP system through exposing a small set of methods and functionality through a web service - a Sync Connector.
 
-A SuperOffice installation can be connected to any number of external ERP systems, either several instances accessed through a single connector, or different systems through different connectors. Partners will be relied on to create and distribute all Sync Connectors, and SuperOffice will not host connectors on its Cloud infrastructure. On-premise customers may host connectors as they please.
+A SuperOffice installation can be connected to any number of external ERP systems, either several instances accessed through a single connector or different systems through different connectors. Partners will be relied on to create and distribute all Sync Connectors, and SuperOffice will not host connectors on its Cloud infrastructure. On-premise customers may host connectors as they please.
 
 ## Quick facts
 
@@ -24,4 +25,4 @@ A SuperOffice installation can be connected to any number of external ERP system
 
 * SuperOffice will not create, distribute, install or host any Sync Connectors. This responsibility falls to partners.
 
-* SuperOffice will provide a "reference host" – a standard IIS Website configured for a WCF Service with the correct Sync Connector interface, and a mechanism for loading connector implementations as plugins. This host site is meant to provide routinely-used methods and make development easier, but is not in any way mandatory.
+* SuperOffice will provide a "reference host" – a standard IIS Website configured for a WCF Service with the correct Sync Connector interface, and a mechanism for loading connector implementations as plugins. This host site is meant to provide routinely-used methods and make development easier but is not in any way mandatory.

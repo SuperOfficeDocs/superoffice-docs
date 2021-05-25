@@ -1,16 +1,15 @@
 ---
-title: get_set_category_mdoagent
+title: How to get the category list and set category on a contact
+uid: get_set_category_mdoagent
 description: How to get the category list and set Contact.Category from combo box
 author: {github-id}
 keywords: 
-so.topic: howto                # article, howto, reference, concept, guide
+so.topic: howto
 so.date:
 so.category: list
 so.area: api-services
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # How to get the category list and set category on a contact

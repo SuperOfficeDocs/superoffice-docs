@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: parse_input_to_ns_format       # (Required) Very important for SEO.
-description: How to parse values to NetServer format # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Parse values to NetServer format
+uid: parse_input_to_ns_format
+description: How to parse values to NetServer format
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto               # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Parse values to NetServer format

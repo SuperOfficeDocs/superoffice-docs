@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: call_service_using_ns_binaries       # (Required) Very important for SEO.
-description: Calling the services directly using the NetServer binaries # (Required) Important for SEO.including spaces.
-author: {github-id}             # Your GitHub alias.
+title: Calling the services directly using the NetServer binaries
+uid: call_service_using_ns_binaries
+description: Calling the services directly using the NetServer binariesincluding spaces.
+author: {github-id}
 so.date:
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Calling the services directly using the NetServer binaries

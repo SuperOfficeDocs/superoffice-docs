@@ -1,5 +1,6 @@
 ---
-title: add_list_item
+title: How to add a list item
+uid: add_list_item
 description: How to add a list item
 author: {github-id}
 so.date: 11.05.2016

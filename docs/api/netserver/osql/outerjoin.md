@@ -1,5 +1,6 @@
 ---
-title: osql_join_outer
+title: RIGHT OUTER JOIN
+uid: osql_join_outer
 description: SuperOffice Objectified SQL - RIGHT OUTER JOIN
 author: {github-id}
 so.date: 11.05.2016

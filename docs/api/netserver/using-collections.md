@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: collections_best_practices       # (Required) Very important for SEO.
-description: Use and misuse of collections # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Use and misuse of collections
+uid: collections_best_practices
+description: Use and misuse of collections
+author: {github-id}
 so.date: 11.05.2016
 keywords:
-so.topic: concept         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-so.envir: onsite              # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+so.envir: onsite
+# so.client:
 ---
 
 # Use and misuse of collections
@@ -27,7 +25,7 @@ Executing statements such as the above instantiates the collection class but not
 
 When you need to retrieve properties of simple data types (such as string, int, or DateTime) or of Row property types, it is a good practice to use Entity Collections. However, if we were to use an Entity Collection type to retrieve Entity properties of the Collection item the code would be inefficient since each Entity property would trigger a new SELECT statement.
 
-Let's look at some examples of bad practice of using the Entity collection, and a better solution.
+Let's look at some examples of bad practices of using the Entity collection, and a better solution.
 
 ### Example 1
 

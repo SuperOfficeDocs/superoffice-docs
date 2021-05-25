@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: encoded_values       # (Required)
-description: Encoded values # (Required) Important for SEO.
+title: Encoded values
+uid: encoded_values
+description: Encoded values
 author: Tony Yates
 so.date: 11.17.2017
 keywords:
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Encoded values

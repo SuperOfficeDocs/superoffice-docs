@@ -5,8 +5,8 @@ description: Search for a contact with a given saint value
 author: {github-id}
 keywords:
 so.topic: howto
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Search for a contact with a given saint value

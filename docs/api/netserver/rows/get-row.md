@@ -1,5 +1,6 @@
 ---
-title: get_row
+title: Retrieve a Row with basic properties
+uid: rows_get_row
 description: SuperOffice database get row with basic properties
 author: {github-id}
 so.date: 11.05.2016

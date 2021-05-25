@@ -1,5 +1,6 @@
 ---
-title: ns_config_Downloads
+title: Downloads element
+uid: ns_config_Downloads
 description: NetServer Downloads element
 so.date: 06.06.2018
 author: {github-id}

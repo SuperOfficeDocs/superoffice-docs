@@ -1,5 +1,6 @@
 ---
-title: whats_new_70_
+title: Aliasing on ArgumentFunctions
+uid: whats_new_70_aliasing
 description: NetServer 7.0
 author: {github-id}
 so.date: 11.05.2016

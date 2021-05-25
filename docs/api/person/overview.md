@@ -1,7 +1,7 @@
 ---
 title: person
 description: Person
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.topic: generic
 keywords:
 ---

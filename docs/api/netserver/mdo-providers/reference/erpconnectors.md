@@ -18,7 +18,7 @@ so.envir:
 Retrieve the list of all defined Erp Connectors (not Connections, that's another list)
 
 Implementation relies on the <see cref="T:SuperOffice.CRM.ArchiveLists.ErpConnectorProvider" /> archivelist, and simply reformats its data.
-<para />
+
 The items contain the Url pointing to the connector, in the ExtraInfo field; note that this does not
 <b>have</b> to be unique for each connector... though it should be...
 

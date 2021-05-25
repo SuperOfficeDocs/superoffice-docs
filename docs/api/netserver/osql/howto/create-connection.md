@@ -1,5 +1,6 @@
 ---
-title: osql_create_connection
+title: How to create a new connection
+uid: osql_create_connection
 description: SuperOffice Objectified SQL - create a connection to the database
 author: {github-id}
 so.date: 11.05.2016
@@ -9,7 +10,7 @@ so.topic: howto
 
 # How to create a new connection
 
-Before you write queries, first you must create a new connection. This is the basic of SuperOffice Objectified SQL.
+Before you write queries, first you must create a new connection. This is the basics of SuperOffice Objectified SQL.
 
 The following example demonstrates how this is done. This is used in all other OSQL examples.
 

@@ -1,7 +1,8 @@
 ---
-title: rest_api_search_associate
+title: Associate
+uid: rest_api_search_associate
 description: REST Web API search associate
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: search,odata
 so.date:
 so.topic: howto

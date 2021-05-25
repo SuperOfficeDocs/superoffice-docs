@@ -1,5 +1,6 @@
 ---
-title: ns_config_data
+title: NetServer Data element
+uid: ns_config_data
 description: NetServer Data Element
 so.date: 06.06.2018
 author: {github-id}
@@ -16,7 +17,7 @@ The data configuration section contains four subsections for managing the databa
 
 ## Database
 
-Configuration values for database connectivity defines the location and database-vendor specific settings.
+Configuration values for database connectivity define the location and database-vendor-specific settings.
 
 | Name | Description |
 |---|---|

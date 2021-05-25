@@ -1,5 +1,6 @@
 ---
-title: update_row
+title: Update basic properties of a Row
+uid: update_row
 description: SuperOffice database update row with basic properties
 author: {github-id}
 so.date: 11.05.2016

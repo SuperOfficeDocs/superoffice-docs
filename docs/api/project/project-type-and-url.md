@@ -5,8 +5,8 @@ description: Project type and URLs
 author: {github-id}
 keywords: database
 so.topic: concept
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # Project type and URLs

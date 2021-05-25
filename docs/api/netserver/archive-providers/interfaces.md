@@ -1,14 +1,12 @@
 ---
-# Mandatory fields.
-title: archive_provider_interface       # (Required) Very important for SEO.
-description: Interface definition and composition # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Interface definition and composition
+uid: archive_provider_interface
+description: Interface definition and composition
+author: {github-id}
 keywords:
-so.topic: concept              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: concept
+# so.envir:
+# so.client:
 ---
 
 # Interface definition and composition
@@ -21,7 +19,7 @@ There are several points to make about this diagram (which, incidentally, is som
 
 * The `IArchiveProvider` interface is the one that the outside world relates to. As the names suggest, it defines an archive provider as something that has rows, columns, and entities.
 
-* Internally, the interface is composed of fragments or aspects, that each define a smaller piece of functionality. The reason for this way of defining interfaces is that different aspects are useful in different contexts. For example, it is meaningful to talk about columns without talking about rows in some cases.
+* Internally, the interface is composed of fragments or aspects, that each defines a smaller piece of functionality. The reason for this way of defining interfaces is that different aspects are useful in different contexts. For example, it is meaningful to talk about columns without talking about rows in some cases.
 
 * In the diagram, the leftmost column consists of the basic aspects, which do not inherit from anything else. Each interface defines one independent kind of functionality that various components of the provider system implement.
 

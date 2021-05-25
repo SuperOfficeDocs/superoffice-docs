@@ -1,7 +1,7 @@
 ---
 title: invitations       
 description: Invitations
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: diary
 so.topic: concept
 ---

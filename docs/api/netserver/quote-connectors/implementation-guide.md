@@ -1,7 +1,8 @@
 ---
-title: quote_connector_create
+title: How to create a SuperOffice Quote Connector
+uid: quote_connector_create
 description: How to create a SuperOffice Quote Connector
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

@@ -1,7 +1,8 @@
 ---
-title: globalization_addressformatter
+title: AddressFormatter class
+uid: globalization_addressformatter
 description: Localization, class AddressFormatter
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 05.08.2018
 so.topic: reference
 keywords: globalization

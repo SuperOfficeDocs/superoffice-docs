@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: get_category_list_sodatareader       # (Required) Very important for SEO.
-description: Get the CategoryList through SODataReader  # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: Get the CategoryList through SODataReader
+uid: get_category_list_sodatareader
+description: Get the CategoryList through SODataReader
+author: {github-id}
 so.date: 05.11.2016
 keywords: category, rows
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Get the CategoryList through SODataReader

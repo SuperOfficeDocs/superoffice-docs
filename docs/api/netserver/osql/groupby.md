@@ -1,7 +1,8 @@
 ---
-title: osql_groupby
+title: GroupBy
+uid: osql_groupby
 description: SuperOffice Objectified SQL - GroupBy
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 11.05.2016
 keywords:
 so.topic: concept

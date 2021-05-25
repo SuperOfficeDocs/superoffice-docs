@@ -1,7 +1,7 @@
 ---
 title: oidc       
 description: OpenID Connect 
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 ---
 

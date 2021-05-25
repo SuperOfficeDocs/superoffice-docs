@@ -1,5 +1,6 @@
 ---
-title: create_entity_in_entity
+title: Create an Entity through an Entity
+uid: create_entity_in_entity
 description: Create an Entity through an Entity
 author: {github-id}
 so.date: 11.05.2016

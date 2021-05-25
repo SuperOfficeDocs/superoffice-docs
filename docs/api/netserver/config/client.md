@@ -1,5 +1,6 @@
 ---
-title: ns_config_client
+title: NetServer Client element
+uid: ns_config_client
 description: NetServer Client Element
 so.date: 06.06.2018
 author: {github-id}

@@ -1,9 +1,10 @@
 ---
-title: reasons_fields
+title: Reason fields
+uid: reasons_fields
 description: Quote connector Reason fields
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: quote
-so.topic: concept         
+so.topic: concept
 so.date:
 ---
 

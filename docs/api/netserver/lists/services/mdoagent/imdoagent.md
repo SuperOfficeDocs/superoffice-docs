@@ -1,16 +1,14 @@
 ---
 title: imdoagent
 description: IMDOAgent
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: list,MDO
-so.topic: concept                # article, howto, reference, concept, guide
+so.topic: concept
 so.date:
 so.category: list
 so.area: api-services
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+# so.envir:
+# so.client:
 ---
 
 # IMDOAgent

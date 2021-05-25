@@ -1,7 +1,8 @@
 ---
-title: i_archive_provider
+title: IArchiveProvider
+uid: i_archive_provider
 description: IArchiveProvider
-author: {github-id}       
+author: {github-id}
 so.date:
 keywords: quote
 so.topic: howto

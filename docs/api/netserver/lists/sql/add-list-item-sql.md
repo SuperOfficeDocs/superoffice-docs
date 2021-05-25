@@ -1,5 +1,6 @@
 ---
-title: add_list_item_sql
+title: Adding a list item
+uid: add_list_item_sql
 description: Adding a list item
 author:
 so.date:

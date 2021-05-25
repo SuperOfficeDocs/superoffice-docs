@@ -1,7 +1,7 @@
 ---
 title: rows      
 description: SuperOffice database Rows layer
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords:
 ---
 

@@ -1,14 +1,13 @@
 ---
-title: get_category_list_categoryrows
+title: Get the CategoryList via CategoryRows object
+uid: get_category_list_categoryrows
 description: Get the CategoryList via CategoryRows object
 author: {github-id}
 so.date: 05.11.2016
 keywords: category, rows
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Get the CategoryList via CategoryRows object

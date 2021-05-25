@@ -21,7 +21,7 @@ or destination (passive).
 To facilitate relation searching, we need to provide a way to choose <b>which</b> relation we
 would like to find. This provider supplies one list (dynamically named) for each table that
 is used as a source or destination (relationdefinition --&gt; relationtarget).
-<para />
+
 Each relation target combination supplied by relationtarget causes the relationdefinition to
 appear in the correct direction, in the list for a table. Each such list is always flat.
 

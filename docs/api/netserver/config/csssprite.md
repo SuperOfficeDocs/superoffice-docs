@@ -1,5 +1,6 @@
 ---
-title: ns_config_csssprite
+title: CssSprite element
+uid: ns_config_csssprite
 description: NetServer CssSprite element
 so.date: 06.06.2018
 author: {github-id}

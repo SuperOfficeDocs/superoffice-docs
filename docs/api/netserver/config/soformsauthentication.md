@@ -1,5 +1,6 @@
 ---
-title: ns_config_soformsauthentication
+title: SoFormsAuthentication element
+uid: ns_config_soformsauthentication
 description: NetServer SoFormsAuthentication element
 so.date: 06.06.2018
 author: {github-id}

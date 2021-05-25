@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: erp_api_erpactor       # (Required) Very important for SEO.
-description: Sync Connector API ErpActor # (Required) Important for SEO.
-author: {github-id}             # Your GitHub alias.
+title: ErpActor
+uid: erp_api_erpactor
+description: Sync Connector API ErpActor
+author: {github-id}
 so.date: 05.11.2016
 keywords: dto
-so.topic: reference              # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+# so.envir:
+# so.client:
 ---
 
 # ErpActor

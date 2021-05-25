@@ -1,15 +1,13 @@
 ---
-# Mandatory fields.
-title: webhook_person_event
+title: Person webhook events
+uid: webhook_person_event
 description: Person events
 author:
 so.date:
 keywords: automation
-so.topic: reference         # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: reference
+# so.envir:
+# so.client:
 ---
 # Person webhook events
 

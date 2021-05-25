@@ -1,14 +1,13 @@
 ---
-title: get_category_list_mdoagent
+title: Get a CategoryList using the MDO Agent
+uid: get_category_list_mdoagent
 description: Get a CategoryList through the MDO Agent
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 so.date: 
 keywords: category, MDO agent
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Get a CategoryList using the MDO Agent

@@ -1,20 +1,18 @@
 ---
-# Mandatory fields.
-title: nested_aggregate_functions       # (Required)
-description:                    # (Required) Important for SEO.
+title: Nested aggregate functions
+uid: nested_aggregate_functions
+description:
 author: Tony Yates
 so.date: 11.17.2017
 keywords:
-so.topic: howto            # article, howto, reference, concept, guide
-
-# Optional fields. Don't forget to remove # if you need a field.
-# so.envir:                     # cloud or onsite
-# so.client:                    # online, web, win, pocket, or mobile
+so.topic: howto
+# so.envir:
+# so.client:
 ---
 
 # Nested aggregate functions
 
-Functions can contain functions, so it’s possible to pass the result of one aggregate function to another aggregate function for compound operations. For example, with regards to a sale amount, first weight the amount and then converted to a specific currency using:
+Functions can contain functions, so it’s possible to pass the result of one aggregate function to another aggregate function for compound operations. For example, with regards to a sale amount, first weigh the amount and then converted to a specific currency using:
 
 `CurrencyConvert(Weighted(amount;probPercent);currencyId))`
 

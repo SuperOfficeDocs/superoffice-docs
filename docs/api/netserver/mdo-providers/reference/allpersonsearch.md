@@ -21,16 +21,16 @@ ID is always in the extraInfo.
 
 Searchs contact and person tables for matches, in addition to the contact
 search of the base class "contact" search.
-<para />
+
 Returns a mix of Persons with Contact and Person without contact items sorted by relevance: own contacts, recently added or updated
 are more relevant.
-<para />
+
 id = person_id,
-<para />
+
 Name = contact.name + department or person first+last name (contact name + department)
-<para />
+
 ExtraInfo = contact_id,
-<para />
+
 Type = "Person"
 
 Implemented by the <see cref="T:SuperOffice.CRM.Lists.AllPersonListSearchProvider">AllPersonListSearchProvider</see> class.

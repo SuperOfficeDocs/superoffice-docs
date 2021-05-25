@@ -1,12 +1,13 @@
 ---
-title: scripting_ns_services       
+title: Scripting in NetServer services
+uid: scripting_ns_services
 description: Scripting in NetServer services
 author: Tony Yates
 so.date: 04.15.2009
 so.topic: concept
 keywords:
-so.envir: onsite              # cloud or onsite
-so.client: web              # online, web, win, pocket, or mobile
+so.envir: onsite
+so.client: web
 ---
 
 # Scripting in NetServer services
