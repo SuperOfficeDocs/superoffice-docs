@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_login
+title: login
+uid: cs_soap_ports_ticket_login
 description: Services SOAP interface ticket reference login
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -17,8 +18,8 @@ Authenticates a user and returns a valid session key if successful.
 
 | Parameter | Description |
 |---|---|
-| userName | A users valid name |
-| password | A users valid password |
+| userName | A user's valid name |
+| password | A user's valid password |
 
 ## Out parameters
 

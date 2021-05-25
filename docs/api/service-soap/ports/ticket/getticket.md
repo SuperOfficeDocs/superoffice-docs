@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_getticket
+title: getTicket
+uid: cs_soap_ports_ticket_getticket
 description: Services SOAP interface ticket reference getTicket
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -17,16 +18,16 @@ Gets data contained in a ticket/request. A set of fields that you wish to retrie
 
 * ticket.id
 * ticket.title
-* ticket.created\_at
+* ticket.created_at
 * ticket.category
 * ticket.status
-* ticket.replied\_at
-* ticket.closed\_at
+* ticket.replied_at
+* ticket.closed_at
 * ticket.priority
-* ticket.read\_by\_customer
-* ticket.has\_attachment
-* ticket.last\_changed
-* ticket.cust\_id
+* ticket.read_by_customer
+* ticket.has_attachment
+* ticket.last_changed
+* ticket.cust_id
 * and any extra field.
 
 ## In parameters

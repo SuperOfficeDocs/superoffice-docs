@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_ newticket
+title: newTicket
+uid: cs_soap_ports_customer_ newticket
 description: Services SOAP interface port reference - customer newTicket
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -11,7 +12,7 @@ so.topic: reference
 
 ## Description
 
-This method will create a new request/ticket with the customer as the author of the request. You can set various information about the request. To set any external extra fields, you use an array of **ValuePairStruct**. The field should contain the name of the extra field, which is `x_<nr>`, where nr = number of the extra field. User **getExtraFields()** to find this name. The value should contain the value of the extra field (and is always sent as a string). See appendix of data types for formatting. The method returns the id of the newly created request. You use this id to add messages with the **addMessage()** method.
+This method will create a new request/ticket with the customer as the author of the request. You can set various information about the request. To set any external extra fields, you use an array of **ValuePairStruct**. The field should contain the name of the extra field, which is `x_<nr>`, where nr = number of the extra field. User calls **getExtraFields()** to find this name. The value should contain the value of the extra field (and is always sent as a string). The method returns the id of the newly created request. You use this id to add messages with the **addMessage()** method.
 
 ## In parameters
 
@@ -29,7 +30,7 @@ This method will create a new request/ticket with the customer as the author of 
 | Parameter | Description |
 |---|---|
 | errorCode | [See list of codes][1] |
-| ticketId | The ID of the newly created reques |
+| ticketId | The ID of the newly created request |
 
 ## Example
 

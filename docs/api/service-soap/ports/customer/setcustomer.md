@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_setcustomer
+title: setCustomer
+uid: cs_soap_ports_customer_setcustomer
 description: Services SOAP interface port reference - customer setCustomer
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -11,7 +12,7 @@ so.topic: reference
 
 ## Description
 
-This method will set/change one or more values on the logged-in customer. The values are sent as an array of **ValuePairStruct**, which contain one field and one value.
+This method will set/change one or more values on the logged-in customer. The values are sent as an array of **ValuePairStruct**, which contains one field and one value.
 
 > [!NOTE]
 > All fields have to be valid, else nothing will be stored.

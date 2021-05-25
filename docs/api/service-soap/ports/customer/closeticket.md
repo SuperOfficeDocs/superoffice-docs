@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_closeticket
+title: closeTicket
+uid: cs_soap_ports_customer_closeticket
 description: Services SOAP interface port reference - customer closeTicket
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -18,7 +19,7 @@ This method will close the given request if the customer has access to this. The
 | Parameter | Description |
 |---|---|
 | sessionKey | A valid session key |
-| ticketId | The ID of the request to clos |
+| ticketId | The ID of the request to close |
 
 ## Out parameters
 

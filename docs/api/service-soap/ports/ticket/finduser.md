@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_finduser
+title: findUser
+uid: cs_soap_ports_ticket_finduser
 description: Services SOAP interface ticket reference findUser
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -18,7 +19,7 @@ Finds the ID of the specified user. If the specified user is not found, an error
 | Parameter | Description |
 |---|---|
 | sessionKey | A valid session key |
-| field | The field to search. Valid fields are: username, loginname, email |
+| field | The field to search. Valid fields: username, loginname, email |
 
 ## Out parameters
 

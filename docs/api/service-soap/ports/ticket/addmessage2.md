@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_addmessage2
+title: addMessage2
+uid: cs_soap_ports_ticket_addmessage2
 description: Services SOAP interface ticket reference  addMessage2
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

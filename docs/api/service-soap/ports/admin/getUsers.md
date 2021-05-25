@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_admin_getusers
+title: getUsers
+uid: cs_soap_ports_admin_getusers
 description: Services SOAP interface port admin getUsers
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -11,7 +12,7 @@ so.topic: reference
 
 ## Description
 
-With this method, you will get theIDs of the users in SuperOffice. You can specify if you want to get only those set to normal in SuperOffice or if you want to get everyone (except deleted and read users). The result is sorted by username.
+With this method, you will get the IDs of the users in SuperOffice. You can specify if you want to get only those set to normal in SuperOffice or if you want to get everyone (except deleted and read users). The result is sorted by username.
 
 ## In parameters
 

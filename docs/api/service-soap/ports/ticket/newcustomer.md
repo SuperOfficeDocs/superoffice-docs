@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_newcustomer
+title: newCustomer
+uid: cs_soap_ports_ticket_newcustomer
 description: Services SOAP interface ticket reference newCustomer
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -10,6 +11,7 @@ so.topic: reference
 # newCustomer
 
 ## Description
+
 Creates a new empty customer.
 
 ## In parameters

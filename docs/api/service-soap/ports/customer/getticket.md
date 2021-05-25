@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_getticket
+title: getTicket
+uid: cs_soap_ports_customer_getticket
 description: Services SOAP interface port reference - customer getTicket
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -29,16 +30,16 @@ A **ResultStruct** consists of a *field* indicating which ticket fields this is,
 
 * ticket.id
 * ticket.title
-* ticket.created\_at
+* ticket.created_at
 * ticket.category
 * ticket.status
-* ticket.replied\_at
-* ticket.closed\_at
+* ticket.replied_at
+* ticket.closed_at
 * ticket.priority
-* ticket.read\_by\_customer
-* ticket.has\_attachment
-* ticket\_last\_changed
-* ticket.x\_\[extra field id\] - Extra fields are also valid on the form
+* ticket.read_by_customer
+* ticket.has_attachment
+* ticket_last_changed
+* ticket.x_[extra field ID] - Extra fields are also valid on the form
 
 ## Out parameters
 

@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_getmessage
+title: getMessage
+uid: cs_soap_ports_ticket_getmessage
 description: Services SOAP interface ticket reference getMessage
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -18,8 +19,8 @@ Valid data field to retrieve:
 * message.id
 * message.body
 * message.header
-* message.md\_body
-* message.created\_at
+* message.md_body
+* message.created_at
 * message.author
 * message.slevel (1=internal, 2=external)
 

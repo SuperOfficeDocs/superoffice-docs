@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_addmessage
+title: addMessage
+uid: cs_soap_ports_customer_addmessage
 description: Services SOAP interface port reference - customer addMessage
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_findtickets
+title: findTickets
+uid: cs_soap_ports_customer_findtickets
 description: Services SOAP interface port reference - customer findTickets
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -11,7 +12,7 @@ so.topic: reference
 
 ## Description
 
-This method is used to find one or more requests (tickets), based on a search criteria  your supply. The search criteria are specified using an array of **CriteriaStruct**, which consist of a field, operator and value. All are entered as strings. The field indicates what field to search for, the operator indicates how to compare this field and value indicates what value to compare. In the array **SearchFields** you specify which fields you want returned for each request. The answer is returned in a double array of **ResultStruct**. The outer array controls which request this is, thus there will be equally many other arrays as request found from your search criteria. The inner array controls the fields returned as specified in **SearchFields**. See **getTicket()** for how this works.
+This method is used to find one or more requests (tickets), based on the search criteria you supply. The search criteria are specified using an array of **CriteriaStruct**, which consists of a field, operator, and value. All are entered as strings. The field indicates what field to search for, the operator indicates how to compare this field, and the value indicates what value to compare. In the array **SearchFields** you specify which fields you want for each request. The answer is returned in a double array of **ResultStruct**. The outer array controls which request this is, thus there will be equally many other arrays as request found from your search criteria. The inner array controls the fields returned as specified in **SearchFields**. See **getTicket()** for how this works.
 
 ## In parameters
 

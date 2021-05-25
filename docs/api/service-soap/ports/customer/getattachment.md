@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_getattachment
+title: getAttachment
+uid: cs_soap_ports_customer_getattachment
 description: Services SOAP interface port reference - customer getAttachment
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -24,7 +25,7 @@ Retrieves an attachment either linked to a message or an FAQ entry. For attachme
 
 | Parameter | Description |
 |---|---|
-| errorCode | [Seelist of codes][1] |
+| errorCode | [See list of codes][1] |
 | attacmentName | The file name of the attachment |
 | contentType | The mime-like content type of the file. |
 

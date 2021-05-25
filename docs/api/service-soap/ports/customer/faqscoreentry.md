@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_faqscoreEntry
+title: faqscoreEntry
+uid: cs_soap_ports_customer_faqscoreEntry
 description: Services SOAP interface port reference - customer faqscoreEntry
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -11,13 +12,13 @@ so.topic: reference
 
 ## Description
 
-Enter a user's score into an FAQ entry. The total score is weighted of all votes.
+Enter a user's score into an FAQ entry. The total score is weighted by all votes.
 
 ## In parameters
 
 | Parameter | Description |
 |---|---|
-| sessionKey | A valid session key. If  the entry is private a valid session key is required, otherwise, the session key can be empty |
+| sessionKey | A valid session key. If the entry is private a valid session key is required, otherwise, the session key can be empty |
 | entryId | The FAQ entry ID. |
 | score | The new score. A value from 0-10 where 10 is the top score. |
 

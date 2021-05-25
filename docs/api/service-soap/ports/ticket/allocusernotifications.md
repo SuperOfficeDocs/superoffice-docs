@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_allocusernotifications
+title: allocUserNotifications
+uid: cs_soap_ports_ticket_allocusernotifications
 description: Services SOAP interface ticket reference 
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -11,7 +12,7 @@ so.topic: reference
 
 ## Description
 
-To avoid that several clients receive user notifications (new request, new chat message, new message on existing request, and so on) a subscription system is introduced. If you supply a valid session key to this method, you will receive a notification key that you need to supply when requesting new notifications. This key will only be valid for 5 minutes and is renewed every time it is used.
+To avoid that several clients receive user notifications (new request, new chat message, new message on an existing request, and so on) a subscription system is introduced. If you supply a valid session key to this method, you will receive a notification key that you need to supply when requesting new notifications. This key will only be valid for 5 minutes and is renewed every time it is used.
 
 ## In parameters
 

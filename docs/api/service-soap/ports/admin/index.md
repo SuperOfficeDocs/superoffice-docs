@@ -1,7 +1,8 @@
 ---
-title: soap_admin_port_reference       
+title: The Admin port
+uid: soap_admin_port_reference
 description: SOAP Admin port reference
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

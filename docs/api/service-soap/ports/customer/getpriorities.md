@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_getpriorities
+title: getPriorities
+uid: cs_soap_ports_customer_getpriorities
 description: Services SOAP interface port reference - customer getPriorities
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

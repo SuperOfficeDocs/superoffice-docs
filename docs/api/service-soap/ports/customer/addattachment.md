@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_addattachment
+title: addAttachment
+uid: cs_soap_ports_customer_addattachment
 description: Services SOAP interface port reference - customer addAttachment
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -19,7 +20,7 @@ Adds an attachment to the system. When creating a new message that contains an a
 |---|---|
 | sessionKey | A valid or empty session key |
 | attachmentName | The file name or other suitable name of the attachment |
-| contentType | The mime like content-type of the file |
+| contentType | The mime-like content type of the file |
 | data | Base64 encoded data |
 
 [!include[ALT](../includes/attachment-content-types.md)]

@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_loginasuser
+title: loginAsUser
+uid: cs_soap_ports_ticket_loginasuser
 description: Services SOAP interface ticket reference loginAsUser
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

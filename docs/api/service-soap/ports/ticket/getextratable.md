@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_getextratable
+title: getExtraTable
+uid: cs_soap_ports_ticket_getextratable
 description: Services SOAP interface ticket reference getExtraTable
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

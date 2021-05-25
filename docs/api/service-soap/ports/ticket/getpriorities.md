@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_getpriorities
+title: getPriorities
+uid: cs_soap_ports_ticket_getpriorities
 description: Services SOAP interface ticket reference getPriorities
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -24,7 +25,7 @@ Gets all the available priorities. The lowest ordered priority will be first in 
 | Parameter | Description |
 |---|---|
 | errorCode | [See list of codes][1] |
-| priorities | A sorted array of `PriorityStruct` with lowest sortOrder first. Elements are: id, name, sortOrder (higher number indicates higher priority) |
+| priorities | A sorted array of `PriorityStruct` with lowest sortOrder first. Elements: id, name, sortOrder (higher number indicates higher priority) |
 
 ## Example
 

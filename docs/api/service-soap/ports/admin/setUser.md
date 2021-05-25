@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_admin_setuser
+title: setUser
+uid: cs_soap_ports_admin_setuser
 description: Services SOAP interface port admin setUser
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -11,7 +12,7 @@ so.topic: reference
 
 ## Description
 
-With this method you can set various information about a user. Just supply the fields you want to retrieve.
+With this method, you can set various information about a user. Just supply the fields you want to retrieve.
 
 **Valid fields:**
 

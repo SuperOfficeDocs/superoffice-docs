@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_faqfindentries2
+title: faqfindEntries2
+uid: cs_soap_ports_customer_faqfindentries2
 description: Services SOAP interface port reference - customer faqfindEntries2
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

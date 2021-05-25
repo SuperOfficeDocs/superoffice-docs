@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_getextrafields
+title: getExtraFields
+uid: cs_soap_ports_customer_getextrafields
 description: Services SOAP interface port reference - customer getExtraFields
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -29,7 +30,7 @@ Finds the extra fields that are connected to customer, company, or ticket. The s
 
 | extraFields field | Description |
 |---|---|
-| fieldName | Internal name of the field. For example, "customer.x\_1" |
+| fieldName | Internal name of the field. For example, "customer.x_1" |
 | displayField | The external name of the extra field. |
 | fieldId | The internal ID. Same as the number in `fieldName` |
 | fieldType | Data type of the field. See appendix for legal types. |

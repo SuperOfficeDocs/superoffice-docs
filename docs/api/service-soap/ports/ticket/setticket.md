@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_setticket
+title: setTicket
+uid: cs_soap_ports_ticket_setticket
 description: Services SOAP interface ticket reference setTicket
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -19,7 +20,7 @@ Sets the value of one or more fields on a ticket.
 * ticket.owner
 * ticket.title
 * ticket.status (open, close, delete)
-* ticket.customerId (-1 will delete all connected customers, any other id will add it)
+* ticket.customerId (-1 will delete all connected customers, any other ID will add it)
 * ticket.filterAddress (replies will use this as From-address)
 * ticket.filterAddress
 * ticket.createdAt

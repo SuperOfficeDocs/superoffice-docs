@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_getattachment
+title: getAttachment
+uid: cs_soap_ports_ticket_getattachment
 description: Services SOAP interface ticket reference getAttachment
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -27,7 +28,7 @@ Retrieves an attachment. Attachment can be linked to various types of eJournal e
 |---|---|
 | errorCode | [See list of codes][1] |
 | attachmentName | The file name of the attachment |
-| contentType | The mime like content type of the file. |
+| contentType | The mime-like content type of the file. |
 | data | The attachment binary data. |
 
 [!include[ALT](../includes/attachment-content-types.md)]

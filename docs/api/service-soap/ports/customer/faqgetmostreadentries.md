@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_faqgetmostreadentries
+title: faqgetMostReadEntries
+uid: cs_soap_ports_customer_faqgetmostreadentries
 description: Services SOAP interface port reference - customer faqgetMostReadEntries
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

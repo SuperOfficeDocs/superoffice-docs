@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_newcompany
+title: newCompany
+uid: s_soap_ports_ticket_newcompany
 description: Services SOAP interface ticket reference newCompany
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference

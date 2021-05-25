@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_findtickets
+title: findTickets
+uid: cs_soap_ports_ticket_findtickets
 description: Services SOAP interface ticket reference findTickets
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -17,18 +18,18 @@ This method will search for tickets/requests and return information about the ti
 
 * ticket.id
 * ticket.title
-* ticket.created\_at
+* ticket.created_at
 * ticket.category
 * ticket.status
-* ticket.replied\_at
-* ticket.closed\_at
+* ticket.replied_at
+* ticket.closed_at
 * ticket.priority
-* ticket.read\_by\_customer
-* ticket.has\_attachment
-* ticket.last\_changed
+* ticket.read_by_customer
+* ticket.has_attachment
+* ticket.last_changed
 * ticket.author
-* ticket.created\_by
-* ticket.owned\_by
+* ticket.created_by
+* ticket.owned_by
 * customer.id (note that this only will match the primary customer)
 * customer.firstname
 * customer.lastname

@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_setcustomer
+title: setCustomer
+uid: cs_soap_ports_ticket_setcustomer
 description: Services SOAP interface ticket reference setCustomer
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -11,7 +12,7 @@ so.topic: reference
 
 ## Description
 
-This method will set/change one or more values on the specified customer. The values are sent as an array of **ValuePairStruct**, which contain one field and one value. Note that all fields have to be valid, else nothing will be stored.
+This method will set/change one or more values on the specified customer. The values are sent as an array of **ValuePairStruct**, which contains one field and one value. Note that all fields have to be valid, else nothing will be stored.
 
 ## In parameters
 
@@ -24,7 +25,7 @@ This method will set/change one or more values on the specified customer. The va
 **Other legal fields:**
 
 * name
-* display\_name
+* display_name
 * firstname
 * lastname
 * phone
@@ -34,7 +35,7 @@ This method will set/change one or more values on the specified customer. The va
 * username
 * email (will add the email address)
 * language
-* company (id of company and -1 to set none)
+* company (ID of company and -1 to set none)
 
 ## Out parameters
 

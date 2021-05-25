@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_ticket_newticket
+title: newTicket
+uid: cs_soap_ports_ticket_newticket
 description: Services SOAP interface  ticket reference newTicket
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -24,7 +25,7 @@ Creates a new ticket. To add messages to this ticket you need to use `addMessage
 | priorityId | The ID of the priority of this ticket. If -1 the priority will be chosen based on the priority of the customer or company |
 | owner | The user who should own this message. -1 will automatically assign an owner based on delegation rules in the cateogry and 1 will make the ticket unassigned. |
 | customers | A list of the ids to customers associated with this ticket/request. The first customer will be the primary customer. |
-| extraFields | A list of field/value structs with values for extra fields. The fields are on the form "ticket.x\_10" where 10 is the extra field ID. |
+| extraFields | A list of field/value structs with values for extra fields. The fields are on the form "ticket.x_10" where 10 is the extra field ID. |
 | sendNotification | If set to true, the user will receive a notification specified by his user settings. False will not send any notifications |
 
 ## Out parameters

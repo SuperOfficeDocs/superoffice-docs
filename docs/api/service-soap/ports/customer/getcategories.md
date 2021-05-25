@@ -1,7 +1,8 @@
 ---
-title: cs_soap_ports_customer_getcategories
+title: getCategories
+uid: cs_soap_ports_customer_getcategories
 description: Services SOAP interface port reference - customer getCategories
-author: {github-id}             # Your GitHub alias.
+author: {github-id}
 keywords: soap
 so.date: 01.25.2021
 so.topic: reference
@@ -28,7 +29,7 @@ If the session key is empty the default customer language is chosen, otherwise, 
 | Parameter | Description |
 |---|---|
 | errorCode | [See list of codes][1] |
-| categoryIds | An array of all external categories. Elements of this structure are as follows:<br>id (The category ID)<br>name (External category name)<br>parentId (The category ID of the parent. -1 if this is a top level category.) |
+| categoryIds | An array of all external categories. Elements of this structure are as follows:<br>id (The category ID)<br>name (External category name)<br>parentId (The category ID of the parent. -1 if this is a top-level category.) |
 
 ## Example
 
