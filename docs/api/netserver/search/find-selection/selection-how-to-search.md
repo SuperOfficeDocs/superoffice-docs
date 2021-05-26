@@ -10,7 +10,7 @@ so.client: netserver
 
 # How to Search using Find Selections
 
-SuperOffice [Find](https://community.superoffice.com/en/customer/news/product/9-2-find-selection/) is a unification of the Find dialog and Selections; two legacy approaches to search for specific information. SuperOffice provides new APIs to perform searches, used by both Find and Selections.
+SuperOffice [Find][1] is a unification of the Find dialog and Selections; two legacy approaches to search for specific information. SuperOffice provides new APIs to perform searches, used by both Find and Selections.
 
 > [!NOTE]
 > The API details provided apply to SuperOffice v.9.2 and higher. Find searches do not yet support `custom entities` or `extra tables`.
@@ -33,7 +33,7 @@ The steps used to perform a search are:
 
 The Find page dynamically displays all entities that support the new Find system.
 
-![Find Dialog](media/selection-find-panel.png)
+![Find Dialog][img1]
 
 > [!NOTE]
 > Your Find options may not be the same as shown. Available entities depend on the current user's license.
@@ -80,7 +80,7 @@ MDOListItem[] findEntities = await mdoAgent.GetListAsync("selectionmembertypev2"
 
 ___
 
-The results is an array of [MDOListItem](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_Services_MDOListItem.htm) and contain the follow details. Use the name of the ExtraInfo property to define the search entity.
+The results is an array of [MDOListItem][2] and contain the follow details. Use the name of the ExtraInfo property to define the search entity.
 
 ### Results (some properties omitted for brevity)
 
@@ -101,7 +101,7 @@ The results is an array of [MDOListItem](https://community.superoffice.com/docum
 
 ## Get the entity data source
 
-You need two key pieces of information to get the data source, the archive provider and selection ID. These are both available in a [SelectionForFind](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_Services_SelectionForFind.htm) instance. Use the ExtraInfo value from the previous results to get a SelectionForFind instance.
+You need two key pieces of information to get the data source, the archive provider and selection ID. These are both available in a [SelectionForFind][3] instance. Use the ExtraInfo value from the previous results to get a SelectionForFind instance.
 
 Use the `SelectionAgent.GetSelectionForFind(entityName, typicalSearchId)` method to obtain the SelectionForFind type for a particular entity.
 
@@ -203,7 +203,7 @@ Just like a SQL SELECT statement, where there are any number of select fields an
 
 One `CriteriaGroup` is an __ArchiveRestrictionGroup__ and contains an array of __ArchiveRestrictionInfo__, and each `ArchiveRestrictionInfo` is implicitly joined by an AND operator.
 
-![CriteriaGroup](media/selection-criteria-group-conceptual.png)
+![CriteriaGroup][img2]
 
 Take the following SQL, for example:
 
@@ -265,7 +265,7 @@ As seen in the example above, the Name and Rank share the same numerical value, 
 
 ### Archive Columns
 
-To specify a field restriction you first need to get an [ArchiveColumnInfo](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo.htm) instance. While it's possible to lookup archive provider columns using the NetServer [documentation reference](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-ContactPersonDynamicSelectionV2ArchiveProvider.htm), it's recommended to get **and cache** the columns using the API. This is required to set the required information in an ArchiveRestrictionInfo.
+To specify a field restriction you first need to get an [ArchiveColumnInfo][4] instance. While it's possible to lookup archive provider columns using the NetServer [documentation reference][5], it's recommended to get **and cache** the columns using the API. This is required to set the required information in an ArchiveRestrictionInfo.
 
 #### Get archive provider columns
 
@@ -615,7 +615,7 @@ private async void ColumnInfoArchiveRestrictionInfoAsync(Tenant tenant)
 
 The new search routines introduce the concept of __criteria groups__, where all criteria in a group are connected by AND operators, and all groups in the array of CriteriaGroups are connected by OR operators.
 
-![Selection CriteriaGroups](media/selection-criteria-groups-conceptual.png)
+![Selection CriteriaGroups][img3]
 
 The main points to understand are:
 
@@ -626,7 +626,7 @@ The grouping and use of the AND and OR operators as such means it’s simple to 
 
 The database layout to support this has been in place for a long time and was used in an equivalent fashion for Saint Status definitions. There, each criteria group was in a separate tab in the user interface; in the new Find screen, criteria groups are instead stacked vertically.
 
-![Selection CriteriaGroups](media/selection-criteria-groups-actual.png)
+![Selection CriteriaGroups][img4]
 
 Selection criteria are fetched and stored using the `GetDynamicSelectionCriteriaGroups` and `SetDynamicSelectionCriteriaGroups` methods on the Selection agent. Using them will retrieve and save all groups, and avoid having to make assumptions about the StorageKey concept used in the Find agent methods.
 
@@ -1195,3 +1195,16 @@ ___
 ## Summary
 
 This article has demonstrated how to search SuperOffice using the same routines used by SuperOffice Find. This way guarantees your applications receive the same results observed both in Selections and using the Find dialog.
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/en/customer/news/product/9-2-find-selection/
+[2]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_Services_MDOListItem.htm
+[3]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_Services_SelectionForFind.htm
+[4]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo.htm
+[5]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-ContactPersonDynamicSelectionV2ArchiveProvider.htm
+
+<!-- Referenced images -->
+[img1]: media/selection-find-panel.png
+[img2]: media/selection-criteria-group-conceptual.png
+[img3]: media/selection-criteria-groups-conceptual.png
+[img4]: media/selection-criteria-groups-actual.png

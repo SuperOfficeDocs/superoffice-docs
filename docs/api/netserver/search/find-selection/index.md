@@ -10,7 +10,7 @@ so.client: web
 
 # Find and Selection
 
-SuperOffice [Find](https://community.superoffice.com/en/customer/news/product/9-2-find-selection/) is a unification of two legacy approaches to search for specific information, the Find dialog and Selections. SuperOffice Find provides new APIs to easily implement the same search capability for integrations. This topic covers the terms and concepts needed to understand how to programmatically work with Find just like in SuperOffice.
+SuperOffice [Find][1] is a unification of two legacy approaches to search for specific information, the Find dialog and Selections. SuperOffice Find provides new APIs to easily implement the same search capability for integrations. This topic covers the terms and concepts needed to understand how to programmatically work with Find just like in SuperOffice.
 
 > [!NOTE]
 > The API details provided apply to SuperOffice v.9.2 and higher.
@@ -40,19 +40,19 @@ SuperOffice [Find](https://community.superoffice.com/en/customer/news/product/9-
 
 The way a search begins today is by clicking the Find option.
 
-![Header Find](media/client-header-find.png)
+![Header Find][img1]
 
 When clicked, the **Find** panel appears and all of the primary business entities are listed on the page. By default, one dynamic selection is created and maintained per user, per entity. When a user selects one of the Find _Entity_ links, SuperOffice retrieves the previously-saved dynamic selection criteria for the selected entity, or loads the default criteria for that entity, and populates the Selection search find panel.
 
 ### Find Panel
 
-![Find Panel](media/selection-find-panel.png)
+![Find Panel][img2]
 
 Alternatively, a pre-defined typical search option is chosen from an entity *Typical searches* drop-down menu. When selected, the pre-defined typical search criteria populates the Selection search find panel.
 
 ### Selection search panel
 
-![Find Panel](media/selection-search-panel.png)
+![Find Panel][img3]
 
 Each search is functionality equivalent to a Dynamic Selection. Once the search criteria have been set and saved, the Find becomes a Selection and is available for future reference.
 
@@ -207,7 +207,7 @@ The `ProviderName` property is the main archive provider name used for this sele
 
 #### Provider names
 
-All Find Selections use an archive provider whose name ends with the “V2” suffix, i.e. [AppointmentDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-AppointmentDynamicSelectionV2ArchiveProvider.htm) and [ContactPersonDynamicSelectionV2](https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/Reference-ArchiveProviders-ContactPersonDynamicSelectionV2ArchiveProvider.htm). 
+All Find Selections use an archive provider whose name ends with the “V2” suffix, i.e. [AppointmentDynamicSelectionV2[2] and [ContactPersonDynamicSelectionV2][3].
 
 These providers are exclusively used together with the new CriteriaGroups for specifying restrictions.
 
@@ -429,7 +429,7 @@ Archive provider columns are the core of selection. Just like a SQL SELECT state
 
 `CriteriaGroups` are an array of `ArchiveRestrictionGroup`, and each group is implicitly joined by an OR operator.
 
-![CriteriaGroup](media/selection-criteria-group-conceptual.png)
+![CriteriaGroup][img4]
 
 Take the following SQL, for example:
 
@@ -489,7 +489,7 @@ An array of `ArchiveRestrictionGroup` is referred to as `CriteriaGroups`, and as
 
 As seen in the C# example above, the Name and Rank share the same numerical value, represent the order they appear in SuperOffice. The Name and Rank for the next `ArchiveRestrictionGroup` in the array is 1, and any subsequent group would increment one more than the one before it.
 
-![Selection CriteriaGroups](media/selection-criteria-groups-conceptual.png)
+![Selection CriteriaGroups][img5]
 
 The main points to understand are:
 
@@ -754,3 +754,15 @@ New Selection introduces the concept of __criteria groups__, where the criteria 
 APIs that only work with a simple `ArchiveRestrictionInfo[]` do not support the concept of multiple groups. Such methods will only return the first group, and on writing will delete any other groups. Examples are `GetDynamicSelectionCriteria` and `SetDynamicSelectionCriteria`; and similar methods in the Find agent. All these methods should be considered obsolete when applied to Selection and Find.
 
 Selection criteria should be fetched and stored using the `GetDynamicSelectionCriteriaGroups` and `SetDynamicSelectionCriteriaGroups` methods on the Selection agent. Using them will retrieve and save all groups, and avoid having to make assumptions about the StorageKey concept used in the Find agent methods. Contrast the differences in the two calls (the ts.Key is a selection id):
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/en/customer/news/product/9-2-find-selection/
+[2]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-AppointmentDynamicSelectionV2ArchiveProvider.htm
+[3]: https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/Reference-ArchiveProviders-ContactPersonDynamicSelectionV2ArchiveProvider.htm
+
+<!-- Referenced images -->
+[img1]: media/client-header-find.png
+[img2]: media/selection-find-panel.png
+[img3]: media/selection-search-panel.png
+[img4]: media/selection-criteria-group-conceptual.png
+[img5]: media/selection-criteria-groups-conceptual.png

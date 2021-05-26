@@ -12,7 +12,7 @@ so.client: web
 
 ### Column Names
 
-While it's possible to lookup archive provider columns using the NetServer [documentation reference](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-ContactPersonDynamicSelectionV2ArchiveProvider.htm), it's recommended to get **and cache** the columns using the API.
+While it's possible to lookup archive provider columns using the NetServer [documentation reference][1], it's recommended to get **and cache** the columns using the API.
 
 There are three types of interesting archive provider information obtained using the following format:
 
@@ -75,7 +75,7 @@ Returned columns represent each primary entity and all of their available column
 
 Property definitions are listed later in this section, however, note that the ExtraInfo property when selecting RestrictionColumns specified the field datatype. This is important because not all data types support the same operators. and ExtraInfo is used to obtain what operators are supported for the field.
 
-![Selection Criteria](../media/selection-search-criteria.png)
+![Selection Criteria][img1]
 
 #### JSON query results
 
@@ -296,7 +296,7 @@ ___
 
 ### Get archive columns
 
-These columns are useful when specifying the desired columns when calling the Archive endpoint. The ExtraInfo property indicates whether a field can be used in the ORDER BY clause in an [ArchiveOrderByInfo](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo.htm).
+These columns are useful when specifying the desired columns when calling the Archive endpoint. The ExtraInfo property indicates whether a field can be used in the ORDER BY clause in an [ArchiveOrderByInfo][3].
 
 #### [REST](#tab/get-archive-columns-1)
 
@@ -503,3 +503,10 @@ Whether getting columns or entities, the result is an array of **`MDOListItem`**
 |StyleHint           | blank if entity is optional, “mandatory” if the entity isn’t optional |
 |ExtraInfo           | blank                                                |
 |Selected            | true if the entity is selected for display, i.e. there is a row in the superlistcolumnsize table  with an e: prefix in the listOwner field |
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-ContactPersonDynamicSelectionV2ArchiveProvider.htm
+[2]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo.htm
+
+<!-- Referenced images -->
+[img1]: ../media/selection-search-criteria.png

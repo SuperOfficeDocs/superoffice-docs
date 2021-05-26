@@ -33,7 +33,7 @@ The following related problems will not be addressed in this design:
 
 The source of the Typical Searches is the “ACME AS” installation in SOD, Cust21128. In this installation there is a Search Category called “Typical Search”, which is used to mark Dynamic Selections that are to be considered Typical Searches.
 
-![Selection Typical Search](../media/selection-typical-search.png)
+![Selection Typical Search][img1]
 
 The intention is that Product Owners will be responsible for adding or changing these Selections in the ACME AS installation. Towards the end of a sprint someone (initially a developer) will then run the TypicalSearchExporter, a command-line utility that creates a file with all the searches. This file becomes part of the distributed fileset. Finally, an import/update function in the fileset updates the individual customer database.
 
@@ -88,15 +88,11 @@ A high-level description of how the criteria are stored is with:
 
 A full list of the table fields can be found at the following references:
 
-* [SearchCriteria](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SearchCriteria.htm)
-
-* [SearchCriteriaGroup](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SearchCriteriaGroup.htm)
-
-* [SearchCriterion](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SearchCriterion.htm)
-
-* [SearchCriterionValue](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SearchCriterionValue.htm)
-
-* [TypicalSearch](https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-TypicalSearch.htm)
+* [SearchCriteria][1]
+* [SearchCriteriaGroup][2]
+* [SearchCriterion][3]
+* [SearchCriterionValue][4]
+* [TypicalSearch][5]
 
 ## Interface/API Definitions
 
@@ -114,7 +110,7 @@ This service method will be used to retrieve the typical search titles, tooltips
 
 ### Get Typical Search items
 
-For each _entity_ it’s possible to obtain the list of corresponding typical search items. [Typical Search](./typical-search.md) is covered more in the Typical Search article.
+For each _entity_ it’s possible to obtain the list of corresponding typical search items. [Typical Search][6] is covered more in the Typical Search article.
 
 #### [REST](#tab/find-typical-1)
 
@@ -261,7 +257,7 @@ The MasterVersion number in the TypicalSearches carrier is incremented once per 
 
 ### TypicalSearchExporter
 
-This is a .NET Framework, command-line utility. It uses the OIDC authentication flow documented in https://community.superoffice.com/en/developer/create-apps/quickstart/create-native-app/ and allows anyone who has access to the site, to run it.
+This is a .NET Framework, command-line utility. It uses the [OIDC authentication flow][7] and allows anyone who has access to the site, to run it.
 
 The utility uses ordinary NetServer API calls to list and retrieve all selections that are dynamic and marked with the Typical Search category, for the standard entities. Such selections should only refer to standard fields as criteria, never user-defined or extra-fields as those will not be present in the customer installation.
 
@@ -335,3 +331,15 @@ public void UpdateToLatestTypicalSearches()
     Database.Update(toBeUpdated);
 }
 ```
+
+<!-- Referenced links -->
+[1]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SearchCriteria.htm
+[2]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SearchCriteriaGroup.htm
+[3]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SearchCriterion.htm
+[4]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-SearchCriterionValue.htm
+[5]: https://community.superoffice.com/documentation/SDK/SO.Database/html/Tables-TypicalSearch.htm
+[6]: ./typical-search.md
+[7]: https://community.superoffice.com/en/developer/create-apps/quickstart/create-native-app/
+
+<!-- Referenced images -->
+[img1]: ../media/selection-typical-search.png
