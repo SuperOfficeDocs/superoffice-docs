@@ -1,52 +1,57 @@
 ---
-title: Criteria Operators 
-description: Defined what operators are used with which data types and describes how they are used.
+title: Criteria operators
+description: Defines what operators are used with which data types and describes how they are used.
 author: {AnthonyYates}
 keywords: NewSelection, Selection, Find
 so.topic: article
 so.envir: cloud, onsite
-so.client: we
+so.client: web
 ---
 
-## Operators and data types
+# Operators and data types
 
-Difference data types can have different operators.
+Different data types can have different operators.
 
-| Data type       | Description                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| All types       | equals, isNull, isNotNull                                                   |
-| Bool            | set                                                                         |
-| Int, Decimal    | equals, = , unequals, !=, less, <, greater, >, between                      |
-| String          | begins, contains, is, notBegins, notContains, isNot                         |
-| Date            | See `Working with dates` section                                            |
-| DateTime        | See `Working with dates` section                                            |
-| Associate       | associateIsOneOf, associateIsNotOneOf, currentAssociate                     |
-| Lists           | equals, oneOf, notOneOf                                                     |
-| intArray / Tags | intArrayAllOf, intArrayNotAllOf, intArrayOneOf, intArrayNotAnyOf            |
+| Data type       | Operator |
+|-----------------|----------|
+| All types       | equals, isNull, isNotNull |
+| Bool            | set |
+| Int, Decimal    | equals, = , unequals, !=, less, <, greater, >, between |
+| String          | begins, contains, is, notBegins, notContains, isNot |
+| Date            | See below |
+| DateTime        | See below |
+| Associate       | associateIsOneOf, associateIsNotOneOf, currentAssociate |
+| Lists           | equals, oneOf, notOneOf |
+| intArray, Tags  | intArrayAllOf, intArrayNotAllOf, intArrayOneOf, intArrayNotAnyOf |
 
-### Working with dates
+## Date and DateTime
 
-The following table contains the list of common date and datetime operators.
+**Relative operators** refer to the current date. For the `Date` and `DateTime` restriction types, these operators have changed and some are now considered legacy.
 
-| Data type       | Description                                                                    |
-|-----------------|--------------------------------------------------------------------------------|
-| Date            | after, afterToday, before, beforeToday, between, date, from, equals, to, today |
-| DateTime        | dateTime, beforeTime, afterTime                                                |
+**Common Date and DateTime operators:**
 
-The Date and DateTime restriction types have had their relative operators changed. Relative operators are those that refer to the current date, and several existing relative operators are considered legacy.
+| Data type | Operator |
+|-----------|----------|
+| Date      | after, afterToday, before, beforeToday, between, date, from, equals, to, today |
+| DateTime  | dateTime, beforeTime, afterTime |
 
-### Legacy relative operators
+### Legacy operators
 
-| Data type | Description                                                                 |
-|-----------|-----------------------------------------------------------------------------|
-| Weeks     | lastWeek, thisWeek, nextWeek                                            |
-| Months    | lastMonth, thisMonth, nextMonth                                        |
-| Quarter   | lastQuarter, thisQuarter, nextQuarter                                 |
-| Year      | thisHalf, thisYear                                                       |
+| Data type | Operator |
+|-----------|----------|
+| Weeks     | lastWeek, thisWeek, nextWeek |
+| Months    | lastMonth, thisMonth, nextMonth |
+| Quarter   | lastQuarter, thisQuarter, nextQuarter |
+| Year      | thisHalf, thisYear |
 
-### New relative operators
+> [!NOTE]
+> The old operators still exist within the code and will work. However, their use is **strongly discouraged**.
+>
+> If saved through the criteria API, they will be converted to the new, equivalent operators and values.
 
-Instead of having period-specific operators, they are now more generic. Each relative operator takes two arguments; the number of periods and the period type.
+### New operators
+
+Instead of having period-specific operators, they are now more generic. Each relative operator takes 2 arguments; the number of periods and the period type.
 
 * thisPeriod
 * thisAndNext
@@ -55,7 +60,7 @@ Instead of having period-specific operators, they are now more generic. Each rel
 * previousPeriod
 * thisPreviousAndNext
 
-| Period Types |              |
+| Period Types | |
 |-- |:---------|
 | 1 | days     |
 | 2 | weeks    |
@@ -63,12 +68,13 @@ Instead of having period-specific operators, they are now more generic. Each rel
 | 4 | quarters |
 | 5 | years    |
 
-In this way we can express thisAndNext 2 weeks or thisAndPrevious 2 years.
+In this way, we can express thisAndNext 2 weeks or thisAndPrevious 2 years.
 
-> [!NOTE]
-> The old operators still exist within the code and will work; however their use is strongly discouraged. If saved through the criteria API, they will be converted to the new, equivalent operators > and values.
+### Changed types
 
-Some archive columns have changed type from DateTime to Date. The archive grid control displayed both of them as just Date, but we actually need to differentiate and now do so.
+The type of some archive columns have changed from DateTime to Date. The archive grid control displayed both of them as just Date, but we actually need to differentiate and now do so.
+
+## New restriction types
 
 There are some new `RestrictionTypes` as well:
 

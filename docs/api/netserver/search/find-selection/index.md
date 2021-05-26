@@ -15,27 +15,6 @@ SuperOffice [Find][1] is a unification of two legacy approaches to search for sp
 > [!NOTE]
 > The API details provided apply to SuperOffice v.9.2 and higher.
 
-## Common Terms and Concepts
-
-| Selection                 | Is a Find search kept for subsequent reference and/or analysis.                           |
-|---------------------------|-------------------------------------------------------------------------------------------|
-| ArchiveColumn             | Datatype that represents a single field in an Archive Row. Contains field data and properties about the field.|
-| ArchiveProvider           | Data source used to populate table-based controls.                                        |
-| ArchiveRow                | Datatype that returns a row one or more ArchiveColumn data fields.                        |
-| ArchiveRestrictionInfo    | A filter criterion.                                                                       |
-| ArchiveRestrictionGroup   | A group of filter criterion including an array of ArchiveRestrictionInfo                  |
-| Criteria                  | Is the plural form of Criterion, a standard for evaluating and selecting an item.         |
-| CriteriaGroup             | An array of `ArchiveRestrictionInfo` implicitly joined by AND operator.                   |
-| CriteriaGroups            | An array of `ArchiveRestrictionGroup` implicitly joined by OR operator.                   |
-| Criterion                 | A standard on which a judgement or decision is based.                                     |
-| Entity                    | Refers to a SuperOffice business object, such as Company, Contact, Document, Project, etc.|
-| MDO List                  | Multi-Department Organization list of related information, such as a list of categories.  |
-| MDO Provider              | Data source that returns a list of items. Some lists contain child list properties.       |
-| Restriction               | Used to specify a condition or filter that affects an archive provider result set.        |
-| Shadow Archive Provider   | Alternative data source related to a parent archive provider.                             |
-| Typical Search            | Predefined search to get started with search and selections more easily.                  |
-| User                      | A person with login rights, more specifically the record in the associate table.          |
-
 ## Getting started
 
 The way a search begins today is by clicking the Find option.
@@ -413,7 +392,6 @@ selectionEntity.VisibleFor = new[]
 };
 
 selectionEntity = await selectionAgent.SaveSelectionEntityAsync(selectionEntity);
-
 ```
 
 ___
@@ -674,78 +652,6 @@ Whether getting columns or entities, the results an array of MDOListItem. The st
 |StyleHint           | blank if entity is optional, “mandatory” if the entity isn’t optional |
 |ExtraInfo           | blank                                                |
 |Selected            | true if the entity is selected for display, i.e. there is a row in the superlistcolumnsize table  with an e: prefix in the listOwner field |
-
-## Operators and data types
-
-Difference data types can have different operators.
-
-| Data type       | Description                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| All types       | equals, isNull, isNotNull                                                   |
-| Bool            | set                                                                         |
-| Int, Decimal    | equals, = , unequals, !=, less, <, greater, >, between                      |
-| String          | begins, contains, is, notBegins, notContains, isNot                         |
-| Date            | See `Working with dates` section                                            |
-| DateTime        | See `Working with dates` section                                            |
-| Associate       | associateIsOneOf, associateIsNotOneOf, currentAssociate                     |
-| Lists           | equals, oneOf, notOneOf                                                     |
-| intArray / Tags | intArrayAllOf, intArrayNotAllOf, intArrayOneOf, intArrayNotAnyOf            |
-
-### Working with dates
-
-The following table contains the list of common date and datetime operators.
-
-| Data type       | Description                                                                    |
-|-----------------|--------------------------------------------------------------------------------|
-| Date            | after, afterToday, before, beforeToday, between, date, from, equals, to, today |
-| DateTime        | dateTime, beforeTime, afterTime                                                |
-
-The Date and DateTime restriction types have had their relative operators changed. Relative operators are those that refer to the current date, and several existing relative operators are considered legacy.
-
-### Legacy relative operators
-
-| Data type | Description                                                                 |
-|-----------|-----------------------------------------------------------------------------|
-| Weeks     | lastWeek, thisWeek, nextWeek                                            |
-| Months    | lastMonth, thisMonth, nextMonth                                        |
-| Quarter   | lastQuarter, thisQuarter, nextQuarter                                 |
-| Year      | thisHalf, thisYear                                                       |
-
-### New relative operators
-
-Instead of having period-specific operators, they are now more generic. Each relative operator takes two arguments; the number of periods and the period type.
-
-* thisPeriod
-* thisAndNext
-* thisAndPrevious
-* nextPeriod
-* previousPeriod
-* thisPreviousAndNext
-
-| Period Types |              |
-|-- |:---------|
-| 1 | days     |
-| 2 | weeks    |
-| 3 | months   |
-| 4 | quarters |
-| 5 | years    |
-
-In this way, we can express thisAndNext 2 weeks or thisAndPrevious 2 years.
-
-> [!NOTE]
-> The old operators still exist within the code and will work; however, their use is strongly discouraged. If saved through the criteria API, they will be converted to the new, equivalent operators > and values.
-
-Some archive columns have changed their type from DateTime to Date. The archive grid control displayed both of them as just Date, but we actually need to differentiate and now do so.
-
-There are some new `RestrictionTypes` as well:  
-
-* `ReporterDate` (which adheres to the old operators, only used in Reports)
-* `TimeSpan`, encoded in seconds as a new CultureDataFormatter type with marker [TS:
-* `EjUser`, referring to an `ejuser.id`
-* `UserGroup`, referring to a `usergroup.usergroup_id`
-* `IntArray`, used for Tags
-
-Each of these has operators and value hints in the usual manner, accessible through the appropriate MDO list (`restrictionOperators` with the restriction type passed in through the `ExtraInfo` parameter). They are used for new archive columns and should not cause any compatibility issues.
 
 #### Fetching and saving criteria
 

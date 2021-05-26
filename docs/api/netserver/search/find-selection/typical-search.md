@@ -12,21 +12,12 @@ so.client: web
 
 Typical searches are a set of predefined searches created by SuperOffice to enable the users to get started with search and selections more easily. If the user is unsure of where to start, typical searches can help the user getting started given a set of predefined searches.
 
-## Terminology
-
-|Name           | Description |
-|---------------|------------------------------------------------------|
-|Typical search | These are a set of predefined search templates created by SuperOffice to enable the users to get started with search and selections more easily.|
-|Default criteria| Each entity has a predefined set of criteria that is retrieved when a criteria provider cannot find a user defined set of criteria or when you reset search criteria.|
-|Last find criteria|The last find criteria are the last set of criteria specified by the user on the filter screen. There are separate sets of criteria saved for each entity.|
-|Online Template Library|The online template library is the Azure-online-service that stores the latest typical searches to the clients. Database data will not be updated by priming (but likely on upgrade) as well as by some updating service.|
-
 ## Non-Goals
 
 The following related problems will not be addressed in this design:
 
-* How to create the files stored in the Online Template Library (this will initially be done manually). There will likely be one file with all templates specified in json format
-* How to update Updating Online Template Library files in cloud.
+* How to create the files stored in the Online Template Library (this will initially be done manually). There will likely be one file with all templates specified in Json format
+* How to update Updating Online Template Library files in the cloud.
 * The implementation of AND/OR search criteria.
 
 ## TypicalSearch master installation
@@ -49,7 +40,7 @@ After selecting a typical search, the related criteria will be copied to the use
 
 ## Data Model
 
-In the database, typical searches be stored in a cluster of 5 tables. The tables are:
+In the database, typical searches can be stored in a cluster of 5 tables. The tables are:
 
 * TypicalSearch
 * SearchCriteria
