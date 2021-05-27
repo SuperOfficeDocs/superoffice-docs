@@ -6,11 +6,14 @@ keywords: NewSelection, Selection, Find
 so.topic: article
 # so.envir:
 so.client: web
+so.version: 9.2
 ---
 
 # Find and Selection
 
-SuperOffice [Find][1] is a unification of two legacy approaches to search for specific information, the Find dialog and Selections. SuperOffice Find provides new APIs to easily implement the same search capability for integrations. This topic covers the terms and concepts needed to understand how to programmatically work with Find just like in SuperOffice.
+SuperOffice [Find][1] is a unification of the Find dialog and Selections; two legacy approaches to search for specific information. SuperOffice provides new APIs to perform searches, used by both Find and Selections, and for you to easily implement the same search capability for integrations.
+
+This section covers the terms and concepts needed to understand how to programmatically work with Find just like in SuperOffice.
 
 > [!NOTE]
 > The API details provided apply to SuperOffice v.9.2 and higher.
@@ -50,149 +53,25 @@ The recommended process is:
 
 ## Get the Find entities
 
-The Find page dynamically displays all entities that support the new Find system. It's recommended you determine which entities are available using the SelectionMemberTypeV2 MDOList provider.
+The **Find** page dynamically displays all entities that support the new Find system.
 
 > [!NOTE]
 > Available entities depend on the current user's license.
 
-### [REST](#tab/find-panel-1)
-
-```http
-GET /api/v1/MDOList/SelectionMemberTypeV2 HTTP/1.1
-Authorization: Bearer {access_token}
-Content-Type: application/json
-Accept: application/json
-```
-
-### [Agent](#tab/find-panel-2)
-
-```http
-POST /api/v1/Agents/MDO/GetList HTTP/1.1
-Authorization: Bearer {access_token}
-Accept: application/json; charset=utf-8
-Accept-Language: en
-Content-Type: application/json; charset=utf-8
-
-{
-  "Name": "selectionmembertypev2",
-  "ForceFlatList": true,
-  "AdditionalInfo": "",
-  "OnlyHistory": false
-}
-```
-
-### [WebApi Client](#tab/find-panel-3)
-
-```csharp
-// setup access credentials
-var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
-var options = new WebApiOptions("https://sod.superoffice.com/Cust12345/api", authorization);
-
-// perform the request
-var mdoAgent = new MDOAgent(options);
-MDOListItem[] findEntities = await mdoAgent.GetListAsync("selectionmembertypev2", true, string.Empty, false);
-```
-
-___
-
-### Results
-
-| Id | Name              | Tooltip                   | Deleted | Rank | Type | ChildItems | IconHint | ColorBlock | ExtraInfo | StyleHint | FullName | TableRight | FieldProperties |
-|----|-------------------|---------------------------|---------|------|------|------------|----------|------------|-----------|-----------|----------|------------|-----------------|
-| 5  | [SR_FIND_COMPANY] | [SR_FIND_COMPANY_TOOLTIP] | false   | 0    |      | []         | Contact  | 0          | contact   |           |          | null       | []              |
-| 6  | [SR_FIND_PERSON]  | [SR_FIND_PERSON_TOOLTIP]  | false   | 0    |      | []         | Person   | 0          | person    |           |          | null       | []              |
-| 6  | [SR_FIND_APPOINTMENT]  | [SR_FIND_APPOINTMENT_TOOLTIP]  | false   | 0    |      | []         | Appointment   | 0          | appointment    |           |          | null       | []              |
-| 6  | [SR_FIND_SALE]  | [SR_FIND_SALE_TOOLTIP]  | false   | 0    |      | []         | Sale   | 0          | sale    |           |          | null       | []              |
-| 6  | [SR_FIND_PROJECT]  | [SR_FIND_PROJECT_TOOLTIP]  | false   | 0    |      | []         | Project   | 0          | project    |           |          | null       | []              |
-| 6  | [SR_FIND_SELECTION]  | [SR_FIND_SELECTION_TOOLTIP]  | false   | 0    |      | []         | Selection   | 0          | selection    |           |          | null       | []              |
-| 6  | [SR_FIND_DOCUMENT]  | SR_FIND_DOCUMENT_TOOLTIP]  | false   | 0    |      | []         | Document   | 0          | document    |           |          | null       | []              |
-| 6  | [SR_FIND_QUOTELINE]  | SR_FIND_QUOTELINE_TOOLTIP]  | false   | 0    |      | []         | Products   | 0          | QuoteLine    |           |          | null       | []              |
-| 6  | [SR_FIND_TICKET]  | SR_FIND_TICKET_TOOLTIP]  | false   | 0    |      | []         | Ticket   | 0          | ticket    |           |          | null       | []              |
+[Learn how to do it in code](selection-how-to-search.md#get-sr-find)
 
 ## Get the SelectionForFind type
 
-From the results from the previous code example, use the entity name to get the appropriate SelectionForFind result, which not only specifies the correct archive provider name for this search type, it specifies the default selection id associated with the entity type. This ID can then be used to get the default criteria groups for that selection type.
+After getting the available entities, you can use the entity name to get the appropriate `SelectionForFind` result, which not only specifies the correct archive provider name for this search type, it specifies the default selection ID associated with the entity type. This ID can then be used to get the default criteria groups for that selection type.
 
-Use the `SelectionAgent.GetSelectionForFind(entityName, typicalSearchId)` method to obtain the SelectionForFind type for a particular entity.
+The **selection ID** indicates the associates personalized dynamic selection primary key, containing a default list of criteria used to pre-populate a new selection of this entity type. This is updated each time a user creates a new dynamic selection
 
-The value of typicalSearchId determines some internal logic.
-
-* -1: Gets the default criteria for the current entity, and the selectionId of the working set is returned along with the providerName.
-* 0: Gets the working set and don’t do anything else.
-* \>0: Gets a selection with criterias set from the typical search of the given id.
-
-### [RESTful Agent](#tab/get-archive-provider-1)
-
-```http
-POST https://sod.superoffice.com/Cust26759/api/v1/Agents/Selection/GetSelectionForFind HTTP/1.1
-Authorization: Bearer {{token}}
-Content-Type: application/json
-Accept: application/json
-
-{
-  "EntityName": "contact",
-  "TypicalSearchId": 0
-}
-```
-
-### [WebApi Client](#tab/get-archive-provider-2)
-
-```csharp
-// setup access credentials
-var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
-var options = new WebApiOptions("https://sod.superoffice.com/Cust12345/api", authorization);
-
-// perform the request
-var selectionAgent = new SelectionAgent(options);
-
-var entityName = "contact";
-var typicalSearchId = 0;
-
-SelectionForFind selectionForFind = await selectionAgent.GetSelectionForFind(entityName, typicalSearchId);
-```
-
-___
-
-### SelectionForFind Result
-
-| Property Name       |                                 Description                                 |
-|---------------------|-----------------------------------------------------------------------------|
-| CanSaveAsSelection  |          Indicates of selection entity can be saved as a selection.         |
-| FieldProperties     | Mapping field names to access rights.                                       |
-| FilterScreenHeading | Heading used on the Find filter page in SuperOffice.                        |
-| MainHeading         | Heading used on the Find front page in SuperOffice.                         |
-| ProviderName        | The name of the main archive provider use with this selection entity type.  |
-| SelectionEntityHeading   | The plural form of the entity name, used on the Selection details tab. |
-| SelectionId         | The selections primary key.                                                 |
-| TableRight          | The carrier table rights.                                                   |
-
-The `ProviderName` property is the main archive provider name used for this selection entity type. In this example, using contact as the entity name, the results indicate `ContactPersonDynamicSelectionV2` as the designated archive provider.
-
-```json
-{
-  "ProviderName": "ContactPersonDynamicSelectionV2",
-  "SelectionId": 21,
-  "CanSaveAsSelection": true,
-  "MainHeading": "[SR_FIND_COMPANY]",
-  "FilterScreenHeading": "[SR_FIND_COMPANY]",
-  "SelectionEntityHeading": "[SR_COMPANY_AND_PERSON]",
-  "TableRight": null,
-  "FieldProperties": {}
-}
-```
+[Learn how to do it in code](selection-how-to-search.md#get-data-source)
 
 > [!NOTE]
-> The SelectionId indicates the associates personalized dynamic selection primary key, containing a default list of criteria used to pre-populate a new selection of this entity type. This is updated each time a user creates a new dynamic selection.
+> All Find Selections use an archive provider whose name ends with the "V2" suffix, for example, [AppointmentDynamicSelectionV2][2] and [ContactPersonDynamicSelectionV2][3].
 
-#### Provider names
-
-All Find Selections use an archive provider whose name ends with the “V2” suffix, i.e. [AppointmentDynamicSelectionV2[2] and [ContactPersonDynamicSelectionV2][3].
-
-These providers are exclusively used together with the new CriteriaGroups for specifying restrictions.
-
-Simply retrieve the `SelectionForFind` type and use the provider name when creating a new `SelectionEntity`.
-
-### Get a selection entity
+## Get a selection entity
 
 ### [REST](#tab/get-selection-entity-1)
 
@@ -245,19 +124,19 @@ A SelectionEntity only contains a handful of properties, most of which appear in
 
 Once you have the SelectionForFind, use the MainArchiveProvider to set the Selection property of the same name.
 
-#### Selection Properties
+#### Selection properties
 
-| Name              | Description                                                            |
-|-------------------|------------------------------------------------------------------------|
-| Description       | A short description of the selection list.                             |
-| MainProviderName  | Name of the archive provider responsible for populating the selection. |
-| Name              | Selection name.                                                        |
-| Owner             | The associate responsible for the selection.                           |
-| SelectionCategory | List item that describes the type of selection.                        |
-| SelectionType     | Defines whether this is a dynamic, static or combined selection.       |
-| VisibleFor        | Define the user or groups with access rights to this selection.        |
+| Name | Description |
+|---|---|
+| Description | A short description of the selection list. |
+| MainProviderName | Name of the archive provider responsible for populating the selection. |
+| Name | Selection name. |
+| Owner | The associate responsible for the selection. |
+| SelectionCategory | List item that describes the type of selection. |
+| SelectionType | Defines whether this is a dynamic, static, or combined selection. |
+| VisibleFor | Define the user or groups with access rights to this selection. |
 
-## [REST](#tab/create-selection-entity-1)
+### [REST](#tab/create-selection-entity-1)
 
 ```http
 GET /api/v1/Selection/default HTTP/1.1

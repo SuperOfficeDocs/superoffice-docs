@@ -1,35 +1,35 @@
 ---
 title: How to Search using Find Selections
+uid: selection_how_to_search
 description: Details what new selections are, and how to work with them in code. 
 author: {AnthonyYates}
 keywords: Selection, Find, Search
 so.topic: howto
 so.envir: online, onsite
 so.client: netserver
+so.version: 9.2
 ---
 
 # How to Search using Find Selections
 
-SuperOffice [Find][1] is a unification of the Find dialog and Selections; two legacy approaches to search for specific information. SuperOffice provides new APIs to perform searches, used by both Find and Selections.
-
 > [!NOTE]
 > The API details provided apply to SuperOffice v.9.2 and higher. Find searches do not yet support `custom entities` or `extra tables`.
 
-## Getting started
+The first thing to understand is that search is based on a selection. However, a search doesn’t explicitly require a preexisting selection to perform a search. Using the API the same way the SuperOffice **Find** dialog works, implicitly creates a selection on a per-associate per-entity basis.
 
-The first thing to understand is that search is based on a selection. However, a search doesn’t explicitly require a preexisting selection to perform a search. Using the API the same way the SuperOffice Find dialog works, implicitly creates a selection on a per-associate per-entity basis.
+## Steps
 
 The steps used to perform a search are:
 
 1. Get the list of available search entities.
-1. Determine which entity to base the search, i.e. company, contact, sale, project, etc.
-1. Get the data source used to perform the search, the name of a dynamic selection archive provider.
-1. Get the available data source columns, for specifying return fields and criteria.
-1. Set the search criteria.
-1. Perform the search.
-1. Read the results.
+2. Determine which entity to base the search such as company, contact, sale, project, and so on.
+3. Get the data source used to perform the search, the name of a dynamic selection archive provider.
+4. Get the available data source columns, for specifying return fields and criteria.
+5. Set the search criteria.
+6. Perform the search.
+7. Read the results.
 
-## Get the search entities
+## <a name="get-sr-find"></a>Get the search entities
 
 The Find page dynamically displays all entities that support the new Find system.
 
@@ -57,7 +57,6 @@ Authorization: Bearer {access_token}
 Accept: application/json; charset=utf-8
 Accept-Language: en
 Content-Type: application/json; charset=utf-8
-
 {
   "Name": "selectionmembertypev2",
   "ForceFlatList": true,
@@ -80,7 +79,7 @@ MDOListItem[] findEntities = await mdoAgent.GetListAsync("selectionmembertypev2"
 
 ___
 
-The results is an array of [MDOListItem][2] and contain the follow details. Use the name of the ExtraInfo property to define the search entity.
+The result is an array of [MDOListItem][2] and contains the following details. Use the name of the `ExtraInfo` property to define the search entity.
 
 ### Results (some properties omitted for brevity)
 
@@ -99,19 +98,33 @@ The results is an array of [MDOListItem][2] and contain the follow details. Use 
 > [!NOTE]
 > Use header options to specify an Accept-Language to replace the resource strings with localized labels.
 
-## Get the entity data source
+<!--
+| Id | Name | Tooltip | Deleted | Rank | Type | ChildItems | IconHint | ColorBlock | ExtraInfo | StyleHint | FullName | TableRight | FieldProperties |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 5  | [SR_FIND_COMPANY] | [SR_FIND_COMPANY_TOOLTIP] | false   | 0    |      | []         | Contact  | 0          | contact   |           |          | null       | []              |
+| 6  | [SR_FIND_PERSON]  | [SR_FIND_PERSON_TOOLTIP]  | false   | 0    |      | []         | Person   | 0          | person    |           |          | null       | []              |
+| 6  | [SR_FIND_APPOINTMENT]  | [SR_FIND_APPOINTMENT_TOOLTIP]  | false   | 0    |      | []         | Appointment   | 0          | appointment    |           |          | null       | []              |
+| 6  | [SR_FIND_SALE]  | [SR_FIND_SALE_TOOLTIP]  | false   | 0    |      | []         | Sale   | 0          | sale    |           |          | null       | []              |
+| 6  | [SR_FIND_PROJECT]  | [SR_FIND_PROJECT_TOOLTIP]  | false   | 0    |      | []         | Project   | 0          | project    |           |          | null       | []              |
+| 6  | [SR_FIND_SELECTION]  | [SR_FIND_SELECTION_TOOLTIP]  | false   | 0    |      | []         | Selection   | 0          | selection    |           |          | null       | []              |
+| 6  | [SR_FIND_DOCUMENT]  | SR_FIND_DOCUMENT_TOOLTIP]  | false   | 0    |      | []         | Document   | 0          | document    |           |          | null       | []              |
+| 6  | [SR_FIND_QUOTELINE]  | SR_FIND_QUOTELINE_TOOLTIP]  | false   | 0    |      | []         | Products   | 0          | QuoteLine    |           |          | null       | []              |
+| 6  | [SR_FIND_TICKET]  | SR_FIND_TICKET_TOOLTIP]  | false   | 0    |      | []         | Ticket   | 0          | ticket    |           |          | null       | []              |
+-->
 
-You need two key pieces of information to get the data source, the archive provider and selection ID. These are both available in a [SelectionForFind][3] instance. Use the ExtraInfo value from the previous results to get a SelectionForFind instance.
+## <a name="get-data-source"></a>Get the entity data source
+
+You need 2 key pieces of information to get the data source, the archive provider and the selection ID. These are both available in a [SelectionForFind][3] instance. Use the ExtraInfo value from the previous results to get a SelectionForFind instance.
 
 Use the `SelectionAgent.GetSelectionForFind(entityName, typicalSearchId)` method to obtain the SelectionForFind type for a particular entity.
 
-The value of typicalSearchId determines some internal logic.
+The value of `typicalSearchId` determines some internal logic.
 
-|TypicalSearchID | Description                                   |
-|-----|-----------------------------------------------|
-| -1  | Gets the default criteria for the current entity, and the selectionId of the working set is returned along with the providerName. |
+| TypicalSearchID | Description |
+|:-:|---|
+| -1 | Gets the default criteria for the current entity, and the `selectionId` of the working set is returned along with the `providerName`. |
 | 0 | Gets the working set and doesn’t do anything else.|
-| 1 or higher | Gets a selection with criteria set from the typical search of the given id. |
+| 1 or higher | Gets a selection with criteria set from the typical search of the given ID. |
 
 ### [RESTful Agent](#tab/get-archive-provider-1)
 
@@ -126,6 +139,8 @@ Accept: application/json
   "TypicalSearchId": 0
 }
 ```
+
+<!-- POST https://sod.superoffice.com/Cust26759/api/v1/Agents/Selection/GetSelectionForFind -->
 
 ### [WebApi Client](#tab/get-archive-provider-2)
 
@@ -147,14 +162,16 @@ ___
 
 ### SelectionForFind properties
 
-| Property Name         |                                 Description                                 |
-|-----------------------|-----------------------------------------------------------------------------|
-| CanSaveAsSelection    | Indicates of selection entity can be saved as a selection.                  |
-| FilterScreenHeading   | Heading used on the Find filter page in SuperOffice.                        |
-| MainHeading           | Heading used on the Find front page in SuperOffice.                         |
-| `ProviderName`          | The name of the main archive provider use with this selection entity type.|
-| SelectionEntityHeading| The plural form of the entity name, used on the Selection details tab.      |
-| `SelectionId`           | The selections primary key.                                               |
+| Property | Description |
+|---|---|
+| CanSaveAsSelection     | Indicates of selection entity can be saved as a selection. |
+| FieldProperties        | Mapping field names to access rights. |
+| FilterScreenHeading    | Heading used on the Find filter page in SuperOffice. |
+| MainHeading            | Heading used on the Find front page in SuperOffice. |
+| ProviderName           | The name of the main archive provider use with this selection entity type. |
+| SelectionEntityHeading | The plural form of the entity name, used on the Selection **Details** tab. |
+| SelectionId            | The selections primary key. |
+| TableRight             | The carrier table rights. |
 
 The `ProviderName` property is the name of the archive provider used to search. In this example, when contact is used as the entity name, the results return `ContactPersonDynamicSelectionV2` as the archive provider name.
 
@@ -180,28 +197,31 @@ The `SelectionId` indicates the selection's primary key for this associate/entit
 
 #### Provider names
 
-All dynamic Find Selections use an archive provider whose name ends with the “V2” suffix. However, when using the Find API, do not rely on this list, instead use the API as shown to ensure you always get the correct provider.
+All dynamic Find Selections use an archive provider whose name ends with the **V2** suffix. However, when using the Find API, do not rely on this list, instead use the API as shown to ensure you always get the correct provider.
 
-* [AppointmentDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-AppointmentDynamicSelectionV2ArchiveProvider.htm)
-* [ContactPersonDynamicSelectionV2](https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/Reference-ArchiveProviders-ContactPersonDynamicSelectionV2ArchiveProvider.htm)
-* [DocumentDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-DocumentDynamicSelectionV2ArchiveProvider.htm)
-* [ProjectDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-ProjectDynamicSelectionV2ArchiveProvider.htm)
-* [QuotelineDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-QuoteLineDynamicSelectionV2ArchiveProvider.htm)
-* [SaleDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-SaleDynamicSelectionV2ArchiveProvider.htm)
-* [SelectionDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-SelectionDynamicSelectionV2ArchiveProvider.htm)
-* [TicketDynamicSelectionV2](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-TicketDynamicSelectionV2ArchiveProvider.htm)
+* [AppointmentDynamicSelectionV2][6]
+* [ContactPersonDynamicSelectionV2][5]
+* [DocumentDynamicSelectionV2][8]
+* [ProjectDynamicSelectionV2][9]
+* [QuotelineDynamicSelectionV2][10]
+* [SaleDynamicSelectionV2][11]
+* [SelectionDynamicSelectionV2][12]
+* [TicketDynamicSelectionV2][13]
 
-These providers are exclusively used together with the new CriteriaGroups for specifying restrictions. Retrieve the `SelectionForFind` type, then use the provider name and selectionId to set the desired search criteria.
+These providers are exclusively used together with the new `CriteriaGroups` for specifying restrictions. Retrieve the `SelectionForFind` type, then use the provider name and selection ID to set the desired search criteria.
 
 ## Get the search columns
 
-Search columns are used to define what field to select and specify the criteria for limiting the result set. Because these never change at runtime, make sure to use caching when able.
+Search columns are used to define what field to select and specify the criteria for limiting the result set.
 
-### Selection Criteria
+> [!TIP]
+> Because these never change at runtime, make sure to use caching when able.
+
+### Selection criteria
 
 Just like a SQL SELECT statement, where there are any number of select fields and any number of WHERE clause criteria, selections use archive provider columns to determine select and criteria fields. A selection criterion is set using `CriteriaGroups`.
 
-One `CriteriaGroup` is an __ArchiveRestrictionGroup__ and contains an array of __ArchiveRestrictionInfo__, and each `ArchiveRestrictionInfo` is implicitly joined by an AND operator.
+One `CriteriaGroup` is an **ArchiveRestrictionGroup** and contains an array of **ArchiveRestrictionInfo**, and each `ArchiveRestrictionInfo` is implicitly joined by an AND operator.
 
 ![CriteriaGroup][img2]
 
@@ -214,58 +234,17 @@ WHERE (C.name LIKE 'Super%' AND C.business_idx = 2)
    OR (C.name LIKE 'Duper%' AND C.category_idx = 12)
 ```
 
-The first WHERE criteria `(C.name LIKE 'Super%' AND C.business_idx = 2)` is a criteria group, comprised of two distinct criteria. To build the equivalent into an ArchiveRestrictionGroup, it looks like this:
+The first WHERE criteria `(C.name LIKE 'Super%' AND C.business_idx = 2)` is a criteria group, comprised of 2 distinct criteria. To build the equivalent into an `ArchiveRestrictionGroup`, it looks like this:
 
-```csharp
-var criteriaGroup = new ArchiveRestrictionGroup()
-{
-    Name = "0",
-    Rank = 0,
-    Description = "Hidden Description",
-    Restrictions = new []
-    {
-        new ArchiveRestrictionInfo()
-        {
-            Name = "name",
-            Operator = "begins",
-            Values = new[] { "Super" },
-            IsActive = true,
-            ColumnInfo = new ArchiveColumnInfo()
-            {
-                Name = "name",
-                RestrictionType = "stringorPK",
-                RestrictionListName = "locateContact_new",
-                //... left out for brevity
-            },
-            InterOperator = InterRestrictionOperator.And
-        },
-        new ArchiveRestrictionInfo()
-        {
-            Name = "name",
-            Operator = "begins",
-            Values = new[] { "Duper" },
-            IsActive = true,
-            ColumnInfo = new ArchiveColumnInfo()
-            {
-                Name = "name",
-                RestrictionType = "stringorPK",
-                RestrictionListName = "locateContact_new",
-                //... left out for brevity
-            },
-            InterOperator = InterRestrictionOperator.And
-        }
-    }
-};
-
-```
+[!code-csharp[CS](includes/var-criteriagroup.cs)]
 
 `CriteriaGroups` is an array of `ArchiveRestrictionGroup`, and each group is implicitly joined by an OR operator.
 
-As seen in the example above, the Name and Rank share the same numerical value, represent the order they appear in SuperOffice. The Name and Rank for the next `ArchiveRestrictionGroup` in the array is 1, and any subsequent group would increment accordingly.
+As seen in the example above, the `Name` and `Rank` share the same numerical value, represent the order they appear in SuperOffice. The `Name` and `Rank` for the next `ArchiveRestrictionGroup` in the array is 1, and any subsequent group would increment accordingly.
 
-### Archive Columns
+### Archive columns
 
-To specify a field restriction you first need to get an [ArchiveColumnInfo][4] instance. While it's possible to lookup archive provider columns using the NetServer [documentation reference][5], it's recommended to get **and cache** the columns using the API. This is required to set the required information in an ArchiveRestrictionInfo.
+To specify a field restriction you first need to get an [ArchiveColumnInfo][4] instance. While it's possible to lookup archive provider columns using the NetServer [documentation reference][5], it's recommended to get **and cache** the columns using the API. This is required to set the required information in an `ArchiveRestrictionInfo`.
 
 #### Get archive provider columns
 
@@ -301,134 +280,40 @@ ___
 
 #### Get archive provider column results
 
-```json
-[
-  {
-    "DisplayName": "Selection ID",
-    "DisplayTooltip": "The database ID of the selection",
-    "DisplayType": "int",
-    "CanOrderBy": false,
-    "Name": "selectionId",
-    "CanRestrictBy": true,
-    "RestrictionType": "int",
-    "RestrictionListName": null,
-    "IsVisible": false,
-    "ExtraInfo": "",
-    "Width": "8c",
-    "IconHint": "",
-    "HeadingIconHint": ""
-  },
-  {
-    "DisplayName": "Company ID",
-    "DisplayTooltip": "Database ID of company",
-    "DisplayType": "int",
-    "CanOrderBy": true,
-    "Name": "contactId",
-    "CanRestrictBy": true,
-    "RestrictionType": "int",
-    "RestrictionListName": null,
-    "IsVisible": true,
-    "ExtraInfo": "",
-    "Width": "5c",
-    "IconHint": "Contact",
-    "HeadingIconHint": ""
-  },
-  {
-    "DisplayName": "Company name",
-    "DisplayTooltip": "",
-    "DisplayType": "string",
-    "CanOrderBy": true,
-    "Name": "name",
-    "CanRestrictBy": true,
-    "RestrictionType": "stringorPK",
-    "RestrictionListName": "locateContact_new",
-    "IsVisible": true,
-    "ExtraInfo": "",
-    "Width": "25%",
-    "IconHint": "Contact",
-    "HeadingIconHint": ""
-  },
-  {
-    "DisplayName": "Department",
-    "DisplayTooltip": "",
-    "DisplayType": "string",
-    "CanOrderBy": true,
-    "Name": "department",
-    "CanRestrictBy": true,
-    "RestrictionType": "string",
-    "RestrictionListName": null,
-    "IsVisible": true,
-    "ExtraInfo": "",
-    "Width": "25%",
-    "IconHint": "Contact",
-    "HeadingIconHint": ""
-  },
-  {
-    "DisplayName": "Company",
-    "DisplayTooltip": "Displays the company an activity is linked to",
-    "DisplayType": "string",
-    "CanOrderBy": true,
-    "Name": "nameDepartment",
-    "CanRestrictBy": false,
-    "RestrictionType": null,
-    "RestrictionListName": null,
-    "IsVisible": true,
-    "ExtraInfo": "",
-    "Width": "25%",
-    "IconHint": "Contact",
-    "HeadingIconHint": ""
-  },
-  {
-    "DisplayName": "Has note",
-    "DisplayTooltip": "Displays an icon indicating if there is additional information available about the contact",
-    "DisplayType": "icon",
-    "CanOrderBy": true,
-    "Name": "hasInfoText",
-    "CanRestrictBy": true,
-    "RestrictionType": "bool",
-    "RestrictionListName": null,
-    "IsVisible": true,
-    "ExtraInfo": "",
-    "Width": "2c",
-    "IconHint": "Contact",
-    "HeadingIconHint": "paperclip"
-  },
-  //... removed for brevity
-]
-```
+[!code-json[JSON](includes/get-archive-provider-columns-results.json)]
 
 ### Important ArchiveColumnInfo properties
 
-| Property Name         |                                 Description                                 |
-|-----------------------|-----------------------------------------------------------------------------|
-| CanOrderBy            | Determines whether this column be used for sorting.                         |
-| CanRestrictBy         | Determines whether this column be used as a restriction.                    |
+| Property  | Description |
+|---|---|
+| CanOrderBy            | Determines whether this column be used for sorting. |
+| CanRestrictBy         | Determines whether this column be used as a restriction. |
 | Name                  | Unique identity of this column; the name to be used when requesting the column from a provider, setting restrictions or order by criteria. |
-| RestrictionType       | The data type of the restriction; use this to retrieve the legal operators for the restriction.  |
-| RestrictionListName   | If the restriction data type is 'list', this property contains the name of the SoList so that choices can be shown. |
-| IconHint              | Used to group with corresponding columns.                                   |
+| RestrictionType       | The data type of the restriction; use this to retrieve the legal operators for the restriction. |
+| RestrictionListName   | If the restriction data type is *list*, this property contains the name of the SoList so that choices can be shown. |
+| IconHint              | Used to group with corresponding columns. |
 
 ### Get field operators by data type
 
-A field operator determines what type of operation the criteria performs, i.e. comparison or range. Use the RestrictionType property to get the available operators for a given data type.
+A field operator determines what type of operation the criteria performs, such as comparison or range. Use the `RestrictionType` property to get the available operators for a given data type.
 
-|Restriction type | List Type |
-|-----------------|-----------|
-|bool             | No        |
-|date             | No        |
-|datetime         | No        |
-|decimal          | No        |
-|int              | No        |
-|positiveString   | No        |
-|string           | No        |
-|stringorPK       | No        |
-|associate        | Yes       |
-|ejUser           | Yes       |
-|intArray         | Yes       |
-|listAll          | Yes       |
-|listAny          | Yes       |
-|listInterest     | Yes       |
-|userGroup        | Yes       |
+| Restriction type | Is list type |
+|------------------|-----------|
+| bool           | No  |
+| date           | No  |
+| datetime       | No  |
+| decimal        | No  |
+| int            | No  |
+| positiveString | No  |
+| string         | No  |
+| stringorPK     | No  |
+| associate      | Yes |
+| ejUser         | Yes |
+| intArray       | Yes |
+| listAll        | Yes |
+| listAny        | Yes |
+| listInterest   | Yes |
+| userGroup      | Yes |
 
 ### [REST](#tab/get-operators-1)
 
@@ -476,144 +361,19 @@ ___
 
 #### REST JSON results
 
-```json
-[
-  {
-    "Id": 1,
-    "Name": "Starts with",
-    "ToolTip": "",
-    "Deleted": false,
-    "Rank": 1,
-    "Type": "begins",
-    "ColorBlock": 0,
-    "IconHint": "",
-    "Selected": false,
-    "LastChanged": "0001-01-01T00:00:00",
-    "ChildItems": [],
-    "ExtraInfo": "W",
-    "StyleHint": "",
-    "Hidden": false,
-    "FullName": null,
-    "TableRight": null,
-    "FieldProperties": {}
-  },
-  {
-    "Id": 2,
-    "Name": "Contains",
-    "ToolTip": "",
-    "Deleted": false,
-    "Rank": 2,
-    "Type": "contains",
-    "ColorBlock": 0,
-    "IconHint": "",
-    "Selected": false,
-    "LastChanged": "0001-01-01T00:00:00",
-    "ChildItems": [],
-    "ExtraInfo": "W",
-    "StyleHint": "",
-    "Hidden": false,
-    "FullName": null,
-    "TableRight": null,
-    "FieldProperties": {}
-  },
-  {
-    "Id": 3,
-    "Name": "Ends with",
-    "ToolTip": "",
-    "Deleted": false,
-    "Rank": 3,
-    "Type": "ends",
-    "ColorBlock": 0,
-    "IconHint": "",
-    "Selected": false,
-    "LastChanged": "0001-01-01T00:00:00",
-    "ChildItems": [],
-    "ExtraInfo": "W",
-    "StyleHint": "",
-    "Hidden": false,
-    "FullName": null,
-    "TableRight": null,
-    "FieldProperties": {}
-  },
-  {
-    "Id": 4,
-    "Name": "Equals",
-    "ToolTip": "",
-    "Deleted": false,
-    "Rank": 4,
-    "Type": "is",
-    "ColorBlock": 0,
-    "IconHint": "",
-    "Selected": false,
-    "LastChanged": "0001-01-01T00:00:00",
-    "ChildItems": [],
-    "ExtraInfo": "W",
-    "StyleHint": "",
-    "Hidden": false,
-    "FullName": null,
-    "TableRight": null,
-    "FieldProperties": {}
-  }
-]
-```
+[!code-json[JSON](includes/get-operators-results.json)]
 
 Use the Type property to specify the ArchiveRestrictionInfo Operator property.
 
-#### Working with columns and operators example (WebApi Client)
+#### Example: Working with columns and operators (WebApi client)
 
-```csharp
-private async void ColumnInfoArchiveRestrictionInfoAsync(Tenant tenant)
-{
-  // not important for the sake of this example
-  var config = GetWebApiConfiguration(tenant); 
-
-  var archiveAgent = new ArchiveAgent(config);
-  var mdoAgent = new MDOAgent(config);
-
-  // get available entities and columns (cache these in production!)
-
-  MDOListItem[] entities = await archiveAgent.GetAvailableEntitiesAsync("ContactPersonDynamicSelectionV2", "");
-  ArchiveColumnInfo[] columns = await archiveAgent.GetAvailableColumnsAsync("ContactPersonDynamicSelectionV2", "");
-
-  // get companyId field
-
-  ArchiveColumnInfo companyIdColumn = columns
-      .Where(c => c.Name.Equals("contactId", StringComparison.OrdinalIgnoreCase))
-      .Select(c => c).First(); // throw if not found
-
-  // get all operators for the companyId column data type (cache these in production)
-
-  MDOListItem[] operators = await mdoAgent.GetListAsync(
-      "restrictionOperators", 
-      true, 
-      companyIdColumn.RestrictionType,
-      false);
-
-  // get just the equals operator
-
-  MDOListItem equalsOperator = operators
-      .Where(o => o.Name.Equals("Equals", StringComparison.OrdinalIgnoreCase))
-      .Select(o => o).First(); // throw if not found
-
-  // instantiate an ArchiveRestrictionInfo
-  // set the ColumnInfo, set to active, and specify the criteria "contactId is 5"
-
-  var restriction = new ArchiveRestrictionInfo()
-  {
-      ColumnInfo = companyIdColumn,
-      IsActive = true,
-      Name = companyIdColumn.Name,
-      Operator = equalsOperator.Type, // "is"
-      Values = new[] { "5" }
-  };
-}
-```
+[!code-csharp[cs](includes/columninfoarchiverestrictioninfoasync.cs)]
 
 ## Set search criteria
 
 ### Fetching and saving criteria
 
-The new search routines introduce the concept of __criteria groups__, where all criteria in a group are connected by AND operators, and all groups in the array of CriteriaGroups are connected by OR operators.
+The new search routines introduce the concept of **criteria groups**, where all criteria in a group are connected by AND operators, and all groups in the array of CriteriaGroups are connected by OR operators.
 
 ![Selection CriteriaGroups][img3]
 
@@ -632,7 +392,7 @@ Selection criteria are fetched and stored using the `GetDynamicSelectionCriteria
 
 This example demonstrates how to get existing CriteriaGroups for a given selection.
 
-### [REST](#tab/get-criteriagroups-1)
+#### [REST](#tab/get-criteriagroups-1)
 
 ```http
 GET /api/v1/Selection/28/CriteriaGroups
@@ -640,10 +400,9 @@ Authorization: Bearer {{token}}
 Content-Type: application/json
 Accept: application/json
 Accept-Language: en
-
 ```
 
-### [Agent](#tab/get-criteriagroups-2)
+#### [Agent](#tab/get-criteriagroups-2)
 
 ```http
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
@@ -655,11 +414,9 @@ Accept-Language: en
 {
   "SelectionId": 28
 }
-
-
 ```
 
-### [WebApi Client](#tab/get-criteriagroups-3)
+#### [WebApi Client](#tab/get-criteriagroups-3)
 
 ```csharp
 // setup access credentials
@@ -674,7 +431,7 @@ ArchiveRestrictionGroup[] criteriaGroups = await selectionAgent.GetDynamicSelect
 
 ___
 
-The following example demonstrates how to set the criteria for the personalized person entity. The criteria says to return all persons where the first name starts with B and ends with Y, or the first name starts with R and ends with Y.
+The following example demonstrates how to set the criteria for the personalized person entity. The criteria say to return all persons where the first name starts with B and ends with Y, or the first name starts with R and ends with Y.
 
 The SQL equivalent is:
 
@@ -685,404 +442,19 @@ WHERE (fName LIKE 'B%' AND lName LIKE 'Y%')
    OR (fName LIKE 'R%' AND lName LIKE 'Y%')
 ```
 
-This code sets the criteria for the personalized selection equal the SelectionForFind.SelectionId. The `SetDynamicSelectionCriteriaGroups[Async]` method returns the criteria groups that were passed in.
+This code sets the criteria for the personalized selection equal to the `SelectionForFind.SelectionId`. The `SetDynamicSelectionCriteriaGroups[Async]` method returns the criteria groups that were passed in.
 
 ### [REST](#tab/set-criteria-groups-1)
 
-```http
-PUT /api/v1/Selection/24/CriteriaGroups
-Authorization: Bearer {{token}}
-Content-Type: application/json
-Accept: application/json
-
-[
-  {
-    "Name": "0",
-    "Description": "",
-    "Rank": 0,
-    "Restrictions": [
-      {
-        "Name": "firstName",
-        "Operator": "begins",
-        "Values": [
-          "B"
-        ],
-        "DisplayValues": [
-          "B"
-        ],
-        "ColumnInfo": {
-          "DisplayName": "[SR_PERSONARCHIVE_FIRSTNAME]",
-          "DisplayTooltip": "[SR_PERSONARCHIVE_FIRSTNAME_TOOLTIP]",
-          "DisplayType": "string",
-          "CanOrderBy": true,
-          "Name": "firstName",
-          "CanRestrictBy": true,
-          "RestrictionType": "string",
-          "RestrictionListName": null,
-          "IsVisible": true,
-          "ExtraInfo": "",
-          "Width": "20%",
-          "IconHint": "Person",
-          "HeadingIconHint": ""
-        },
-        "IsActive": true,
-        "SubRestrictions": null,
-        "InterParenthesis": 0,
-        "InterOperator": "And",
-        "UniqueHash": 939057318
-      },
-      {
-        "Name": "lastName",
-        "Operator": "begins",
-        "Values": [
-          "Y"
-        ],
-        "DisplayValues": [
-          "Y"
-        ],
-        "ColumnInfo": {
-          "DisplayName": "[SR_PERSONARCHIVE_LASTNAME]",
-          "DisplayTooltip": "[SR_PERSONARCHIVE_LASTNAME_TOOLTIP]",
-          "DisplayType": "string",
-          "CanOrderBy": true,
-          "Name": "lastName",
-          "CanRestrictBy": true,
-          "RestrictionType": "string",
-          "RestrictionListName": null,
-          "IsVisible": true,
-          "ExtraInfo": "",
-          "Width": "20%",
-          "IconHint": "Person",
-          "HeadingIconHint": ""
-        },
-        "IsActive": true,
-        "SubRestrictions": null,
-        "InterParenthesis": 0,
-        "InterOperator": "And",
-        "UniqueHash": -588059390
-      }
-    ]
-  },
-  {
-    "Name": "1",
-    "Description": "",
-    "Rank": 1,
-    "Restrictions": [
-      {
-        "Name": "firstName",
-        "Operator": "begins",
-        "Values": [
-          "R"
-        ],
-        "DisplayValues": [
-          "R"
-        ],
-        "ColumnInfo": {
-          "DisplayName": "[SR_PERSONARCHIVE_FIRSTNAME]",
-          "DisplayTooltip": "[SR_PERSONARCHIVE_FIRSTNAME_TOOLTIP]",
-          "DisplayType": "string",
-          "CanOrderBy": true,
-          "Name": "firstName",
-          "CanRestrictBy": true,
-          "RestrictionType": "string",
-          "RestrictionListName": null,
-          "IsVisible": true,
-          "ExtraInfo": "",
-          "Width": "20%",
-          "IconHint": "Person",
-          "HeadingIconHint": ""
-        },
-        "IsActive": true,
-        "SubRestrictions": null,
-        "InterParenthesis": 0,
-        "InterOperator": "And",
-        "UniqueHash": 939057318
-      },
-      {
-        "Name": "lastName",
-        "Operator": "begins",
-        "Values": [
-          "Y"
-        ],
-        "DisplayValues": [
-          "Y"
-        ],
-        "ColumnInfo": {
-          "DisplayName": "[SR_PERSONARCHIVE_LASTNAME]",
-          "DisplayTooltip": "[SR_PERSONARCHIVE_LASTNAME_TOOLTIP]",
-          "DisplayType": "string",
-          "CanOrderBy": true,
-          "Name": "lastName",
-          "CanRestrictBy": true,
-          "RestrictionType": "string",
-          "RestrictionListName": null,
-          "IsVisible": true,
-          "ExtraInfo": "",
-          "Width": "20%",
-          "IconHint": "Person",
-          "HeadingIconHint": ""
-        },
-        "IsActive": true,
-        "SubRestrictions": null,
-        "InterParenthesis": 0,
-        "InterOperator": "And",
-        "UniqueHash": -588059390
-      }
-    ]
-  }
-]
-
-```
+[!code-http[HTTP](includes/set-criteria-groups-rest.http)]
 
 ### [Agent](#tab/set-criteria-groups-2)
 
-```http
-POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
-Authorization: Bearer {{token}}
-Accept: application/json; charset=utf-8
-Content-Type: application/json; charset=utf-8
-Accept-Language: en
-
-{
-  "SelectionId": 24,
-  "Criteria": [
-    {
-      "Name": "0",
-      "Description": "",
-      "Rank": 0,
-      "Restrictions": [
-        {
-          "Name": "firstName",
-          "Operator": "begins",
-          "Values": [
-            "B"
-          ],
-          "DisplayValues": [
-            "B"
-          ],
-          "ColumnInfo": {
-            "DisplayName": "[SR_PERSONARCHIVE_FIRSTNAME]",
-            "DisplayTooltip": "[SR_PERSONARCHIVE_FIRSTNAME_TOOLTIP]",
-            "DisplayType": "string",
-            "CanOrderBy": true,
-            "Name": "firstName",
-            "CanRestrictBy": true,
-            "RestrictionType": "string",
-            "RestrictionListName": null,
-            "IsVisible": true,
-            "ExtraInfo": "",
-            "Width": "20%",
-            "IconHint": "Person",
-            "HeadingIconHint": ""
-          },
-          "IsActive": true,
-          "SubRestrictions": null,
-          "InterParenthesis": 0,
-          "InterOperator": "And",
-          "UniqueHash": 939057318
-        },
-        {
-          "Name": "lastName",
-          "Operator": "begins",
-          "Values": [
-            "Y"
-          ],
-          "DisplayValues": [
-            "Y"
-          ],
-          "ColumnInfo": {
-            "DisplayName": "[SR_PERSONARCHIVE_LASTNAME]",
-            "DisplayTooltip": "[SR_PERSONARCHIVE_LASTNAME_TOOLTIP]",
-            "DisplayType": "string",
-            "CanOrderBy": true,
-            "Name": "lastName",
-            "CanRestrictBy": true,
-            "RestrictionType": "string",
-            "RestrictionListName": null,
-            "IsVisible": true,
-            "ExtraInfo": "",
-            "Width": "20%",
-            "IconHint": "Person",
-            "HeadingIconHint": ""
-          },
-          "IsActive": true,
-          "SubRestrictions": null,
-          "InterParenthesis": 0,
-          "InterOperator": "And",
-          "UniqueHash": -588059390
-        }
-      ]
-    },
-    {
-      "Name": "1",
-      "Description": "",
-      "Rank": 1,
-      "Restrictions": [
-        {
-          "Name": "firstName",
-          "Operator": "begins",
-          "Values": [
-            "R"
-          ],
-          "DisplayValues": [
-            "R"
-          ],
-          "ColumnInfo": {
-            "DisplayName": "[SR_PERSONARCHIVE_FIRSTNAME]",
-            "DisplayTooltip": "[SR_PERSONARCHIVE_FIRSTNAME_TOOLTIP]",
-            "DisplayType": "string",
-            "CanOrderBy": true,
-            "Name": "firstName",
-            "CanRestrictBy": true,
-            "RestrictionType": "string",
-            "RestrictionListName": null,
-            "IsVisible": true,
-            "ExtraInfo": "",
-            "Width": "20%",
-            "IconHint": "Person",
-            "HeadingIconHint": ""
-          },
-          "IsActive": true,
-          "SubRestrictions": null,
-          "InterParenthesis": 0,
-          "InterOperator": "And",
-          "UniqueHash": 939057318
-        },
-        {
-          "Name": "lastName",
-          "Operator": "begins",
-          "Values": [
-            "Y"
-          ],
-          "DisplayValues": [
-            "Y"
-          ],
-          "ColumnInfo": {
-            "DisplayName": "[SR_PERSONARCHIVE_LASTNAME]",
-            "DisplayTooltip": "[SR_PERSONARCHIVE_LASTNAME_TOOLTIP]",
-            "DisplayType": "string",
-            "CanOrderBy": true,
-            "Name": "lastName",
-            "CanRestrictBy": true,
-            "RestrictionType": "string",
-            "RestrictionListName": null,
-            "IsVisible": true,
-            "ExtraInfo": "",
-            "Width": "20%",
-            "IconHint": "Person",
-            "HeadingIconHint": ""
-          },
-          "IsActive": true,
-          "SubRestrictions": null,
-          "InterParenthesis": 0,
-          "InterOperator": "And",
-          "UniqueHash": -588059390
-        }
-      ]
-    }
-  ]
-}
-
-```
+[!code-http[HTTP](includes/set-criteria-groups-agent.http)]
 
 ### [WebApi Client](#tab/set-criteria-groups-3)
 
-```csharp
-
-private async Task<ArchiveRestrictionGroup[]> SetPersonSearchCriteria(
-    ArchiveAgent archiveAgent,
-    SelectionAgent selectionAgent,
-    MDOAgent mdoAgent,
-    SelectionForFind selectionForFind)
-{
-    // get archive provider columns
-
-    ArchiveColumnInfo[] columns = await archiveAgent.GetAvailableColumnsAsync(
-        selectionForFind.ProviderName,
-        "");
-
-    // get just the first and last name columns
-
-    var firstNameColumn = columns.Where(c => c.Name == "firstName").Select(c => c).FirstOrDefault();
-    var lastNameColumn = columns.Where(c => c.Name == "lastName").Select(c => c).FirstOrDefault();
-
-    // get operator from the column datatype
-    // both firstName and lastName are the same data type...so only get one.
-
-    MDOListItem[] operators = await mdoAgent.GetListAsync(
-        "restrictionOperators",
-        true,
-        firstNameColumn.RestrictionType,
-        false);
-
-    // get the "begins" operator
-
-    MDOListItem beginsOperator = operators
-        .Where(o => o.Type.Equals("begins", StringComparison.OrdinalIgnoreCase))
-        .Select(o => o).FirstOrDefault(); // throw if not found
-
-    // define the criteria
-
-    var criteriaGroups = new ArchiveRestrictionGroup[]
-    {
-        new ArchiveRestrictionGroup()
-        {
-             Name = "0",
-             Rank = 0,
-             Restrictions = new ArchiveRestrictionInfo[]
-             {
-                new ArchiveRestrictionInfo()
-                {
-                    Name = firstNameColumn.Name,
-                    Operator = beginsOperator.Type,
-                    Values = new[] {"B"},
-                    IsActive = true,
-                    ColumnInfo = firstNameColumn
-                }, // AND
-                new ArchiveRestrictionInfo()
-                {
-                    Name = lastNameColumn.Name,
-                    Operator = beginsOperator.Type,
-                    Values = new[] {"Y"},
-                    IsActive = true,
-                    ColumnInfo = lastNameColumn
-                }
-             }
-        }, // OR
-        new ArchiveRestrictionGroup()
-        {
-            Name = "1",
-             Rank = 1,
-             Restrictions = new ArchiveRestrictionInfo[]
-             {
-                new ArchiveRestrictionInfo()
-                {
-                    Name = firstNameColumn.Name,
-                    Operator = beginsOperator.Type,
-                    Values = new[] {"R"},
-                    IsActive = true,
-                    ColumnInfo = firstNameColumn
-                }, // AND
-                new ArchiveRestrictionInfo()
-                {
-                    Name = lastNameColumn.Name,
-                    Operator = beginsOperator.Type,
-                    Values = new[] {"Y"},
-                    IsActive = true,
-                    ColumnInfo = lastNameColumn
-                }
-             }
-        }
-    };
-
-    // set the criteria
-
-    return await selectionAgent.SetDynamicSelectionCriteriaGroupsAsync(
-        selectionForFind.SelectionId,
-        criteriaGroups);
-}
-
-```
+[!code-csharp[CS](includes/set-criteria-groups-webapi.cs)]
 
 ___
 
@@ -1090,15 +462,15 @@ ___
 
 The search is performed using the Archive endpoint, which facilitates passing common parameters, including:
 
-* Provider Name
+* Provider name
 * Desired columns
-* Sort Order
+* Sort order
 * Restriction
 * Entities
 * Page
-* Page Size
+* Page size
 
-The selectionId is these examples is obtained from the SelectionForFind.SelectionId property in previous snippets.
+The `selectionId` in these examples is obtained from the `SelectionForFind.SelectionId` property in previous snippets.
 
 ### [REST](#tab/perform-search-1)
 
@@ -1107,7 +479,6 @@ GET /api/v1/archive/ContactPersonDynamicSelectionV2?$select=firstName,lastName&$
 Authorization: Bearer {{token}}
 Content-Type: application/json
 Accept: application/json
-
 ```
 
 ### [RESTful Agent](#tab/perform-search-2)
@@ -1174,7 +545,7 @@ ArchiveListItem[] results = await archiveAgent.GetArchiveListByColumnsAsync(
         {
             Name = "selectionId",
             Operator = "=",
-            Values = new [] {  selectionForFind.SelectionId.ToString() }
+            Values = new [] { selectionForFind.SelectionId.ToString() }
         }
     },
     new[] { searchEntity },
@@ -1187,21 +558,26 @@ foreach (var listItem in results)
     string column2 = listItem.ColumnData[columns[1]].DisplayValue;
     Console.WriteLine($"{column1} {column2}");
 }
-
 ```
 
 ___
 
 ## Summary
 
-This article has demonstrated how to search SuperOffice using the same routines used by SuperOffice Find. This way guarantees your applications receive the same results observed both in Selections and using the Find dialog.
+This article has demonstrated how to search SuperOffice using the same routines used by SuperOffice Find. This way guarantees your applications receive the same results observed both in Selections and using the **Find** dialog.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/customer/news/product/9-2-find-selection/
-[2]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_Services_MDOListItem.htm
-[3]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_Services_SelectionForFind.htm
-[4]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/T_SuperOffice_CRM_ArchiveLists_ArchiveColumnInfo.htm
-[5]: https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-ArchiveProviders-ContactPersonDynamicSelectionV2ArchiveProvider.htm
+[2]: ../../../api-reference/netserver/services/SuperOffice.CRM.Services.MDOListItem.yml
+[3]: ../../../api-reference/netserver/services/SuperOffice.CRM.Services.SelectionForFind.yml
+[4]: ../../../api-reference/netserver/core/SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.yml
+[5]: ../../archive-providers/reference/contactpersondynamicselectionv2.md
+[6]: ../../archive-providers/reference/appointmentdynamicselectionv2.md
+[8]: ../../archive-providers/reference/documentdynamicselectionv2.md
+[9]: ../../archive-providers/reference/projectdynamicselectionv2.md
+[10]: ../../archive-providers/reference/quotelinedynamicselectionv2.md
+[11]: ../../archive-providers/reference/saledynamicselectionv2.md
+[12]: ../../archive-providers/reference/selectiondynamicselectionv2.md
+[13]: ../../archive-providers/reference/ticketdynamicselectionv2.md
 
 <!-- Referenced images -->
 [img1]: media/selection-find-panel.png

@@ -1,0 +1,126 @@
+[
+  {
+    "Id": 10000,
+    "Name": "Other",
+    //... removed for brevity
+  },
+  {
+    "Id": 10001,
+    "Name": "Company",
+    "ToolTip": "",
+    "Deleted": false,
+    "Rank": 10001,
+    "Type": "",
+    "ChildItems": [
+      {
+        "Id": 4,
+        "Name": "Company ID",
+        "ToolTip": "Database ID of company",
+        "Deleted": false,
+        "Rank": 4,
+        "Type": "contactId",
+        "ChildItems": [],
+        "IconHint": "Contact",
+        "ColorBlock": 0,
+        "ExtraInfo": "int",
+        "StyleHint": "",
+        "FullName": "",
+        "TableRight": null,
+        "FieldProperties": {}
+      },
+      {
+        "Id": 5,
+        "Name": "Company name",
+        "ToolTip": "",
+        "Deleted": false,
+        "Rank": 5,
+        "Type": "name",
+        "ChildItems": [],
+        "IconHint": "Contact",
+        "ColorBlock": 0,
+        "ExtraInfo": "stringorPK",
+        "StyleHint": "",
+        "FullName": "",
+        "TableRight": null,
+        "FieldProperties": {}
+      },
+      {
+        "Id": 6,
+        "Name": "Department",
+        "ToolTip": "",
+        "Deleted": false,
+        "Rank": 6,
+        "Type": "department",
+        "ChildItems": [],
+        "IconHint": "Contact",
+        "ColorBlock": 0,
+        "ExtraInfo": "string",
+        "StyleHint": "",
+        "FullName": "",
+        "TableRight": null,
+        "FieldProperties": {}
+      },
+      //... cutoff for brevity
+    ]
+  },
+  {
+    "Id": 10002,
+    "Name": "Sale",
+    "ToolTip": "",
+    "Deleted": false,
+    "Rank": 10002,
+    "Type": "",
+    "ChildItems": [
+      {
+        "Id": 131,
+        "Name": "With status",
+        "ToolTip": "",
+        "Deleted": false,
+        "Rank": 131,
+        "Type": "saintSaleStatus",
+        "ChildItems": [],
+        "IconHint": "Sale",
+        "ColorBlock": 0,
+        "ExtraInfo": "listAny",
+        "StyleHint": "",
+        "FullName": "",
+        "TableRight": null,
+        "FieldProperties": {}
+      },
+      {
+        "Id": 132,
+        "Name": "Amount class",
+        "ToolTip": "",
+        "Deleted": false,
+        "Rank": 132,
+        "Type": "saintAmountClass",
+        "ChildItems": [],
+        "IconHint": "Sale",
+        "ColorBlock": 0,
+        "ExtraInfo": "listAny",
+        "StyleHint": "",
+        "FullName": "",
+        "TableRight": null,
+        "FieldProperties": {}
+      },
+      {
+        "Id": 186,
+        "Name": "Completed",
+        "ToolTip": "Displays a checkbox showing if an appointment is completed",
+        "Deleted": false,
+        "Rank": 133,
+        "Type": "sale/completed",
+        "ChildItems": [],
+        "IconHint": "Sale",
+        "ColorBlock": 0,
+        "ExtraInfo": "bool",
+        "StyleHint": "",
+        "FullName": "",
+        "TableRight": null,
+        "FieldProperties": {}
+      },
+       //... cutoff for brevity
+    ]
+  },
+  //... cutoff contact, follow-up, document, project, request, relation
+]
