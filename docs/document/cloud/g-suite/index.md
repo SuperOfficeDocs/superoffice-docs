@@ -11,6 +11,8 @@ so.topic: concept
 
 The G Suite Integration app integrates the G Suite’s document management features so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and G Suite services all in one place.
 
+Here is something new!
+
 Simply sign in to SuperOffice using your G Suite login details and then open, edit, and store documents in G Suite directly from SuperOffice.
 
 ![x][1]
