@@ -7,9 +7,7 @@ keywords:
 so.topic: concept
 ---
 
-# G Suite document integration
-
-Addition to the title....desc.
+# G Suite document integration for the win
 
 The G Suite Integration app integrates the G Suite’s document management features so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and G Suite services all in one place.
 
