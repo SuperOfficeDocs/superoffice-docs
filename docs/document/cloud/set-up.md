@@ -11,15 +11,15 @@ so.topic: howto
 
 # How do I use Cloud Office with document handling?
 
-SuperOffice CRM Online can integrate with Google G Suite and Microsoft Office 365 (SharePoint) document handling.
+SuperOffice CRM Online can integrate with Google Workspace and Microsoft Office 365 (SharePoint) document handling.
 
 1. Sign up for standard applications in our App Store:
     * [Office 365 Integration][1]  application
-    * [G Suite Integration][2] application
+    * [Google Workspace Integration][2] application
 
 2. Set up the application specific to your service provider:
     * [Setup Office365 Integration][3]
-    * [Setup G Suite Integration][4]
+    * [Setup Google Workspace Integration][4]
 
 3. [Configure Cloud Office document handling][5]
 

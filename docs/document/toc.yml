@@ -10,7 +10,7 @@ items:
       href: cloud/configure.md
     - name: Set up cloud document integration
       href: cloud/set-up.md
-    - name: G suite document integration
+    - name: Google Workspace document integration
       href: cloud/g-suite/index.md
       items:
       - name: Requirements

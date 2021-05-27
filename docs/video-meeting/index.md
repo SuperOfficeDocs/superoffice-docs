@@ -26,7 +26,7 @@ so.client: online
 | Zoom | Zoom Pro | SuperOffice admin |
 | Webex Meetings | Webex account | SuperOffice admin |
 | Microsoft Teams | MS365 account | SuperOffice admin, MS365 admin account |
-| Google Meet | Google account (Gmail or G Suite) | SuperOffice admin |
+| Google Meet | Google account (Gmail or Google Workspace) | SuperOffice admin |
 | Jitsi | | SuperOffice admin |
 
 ## Getting started

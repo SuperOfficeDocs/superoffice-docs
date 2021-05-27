@@ -1,7 +1,7 @@
 ---
 title: Getting started
 uid: g_suite_quick_start
-description: G SUITE document integration setup - Self-Service Quick-Guide
+description: Google Workspace document integration setup - Self-Service Quick-Guide
 author: {github-id}
 keywords:
 so.topic: getting-started
@@ -11,7 +11,7 @@ so.client: online
 
 # Getting started (self-service)
 
-This guide explains in short terms how you can get G Suite document integration up and running in no-time, in a step-by-step walk-through. It is an alternative to the [full set-up guide][5].
+This guide explains in short terms how you can get Google Workspace document integration up and running in no-time, in a step-by-step walk-through. It is an alternative to the [full set-up guide][5].
 
 1. **Are users that belong to this tenant successfully using IDP to authenticate?**
 
@@ -36,19 +36,19 @@ This guide explains in short terms how you can get G Suite document integration 
 
       * Is the correct IDP registered? If a custom domain or subdomain is used - register these domain names manually by contacting support.
 
-5. **Do you want to integrate G Suite with a "Google Service Account"?** (recommended)
+5. **Do you want to integrate Google Workspace with a "Google Service Account"?** (recommended)
 
     * If yes, go to step 6. Otherwise, go to step 7.
 
-6. **Create a G Suite with a "Google Service Account"**
+6. **Create a Google Workspace with a "Google Service Account"**
 
-    1. Log in to G Suite admin panel
+    1. Log in to Google Workspace admin panel
     2. Create a normal Google user, ie. "SuperOffice archive user".
 
-7. **Connect G Suite and SuperOffice:**
+7. **Connect Google Workspace and SuperOffice:**
 
     1. Go to [this URL][4]
-    2. Supply a G Suite account to be set as "Google integration username". (Use the "Google Service Account" from steps 5 and 6)
+    2. Supply a Google Workspace account to be set as "Google integration username". (Use the "Google Service Account" from steps 5 and 6)
     3. Make changes to the settings if you want to
     4. Click the connect button.
 

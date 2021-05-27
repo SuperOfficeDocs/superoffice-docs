@@ -1,17 +1,17 @@
 ---
-title: G Suite
+title: Google Workspace
 uid: g_suite_document_integration
-description: G Suite document integration
+description: Google Workspace document integration
 author: {github-id}
 keywords:
 so.topic: concept
 ---
 
-# G Suite document integration
+# Google Workspace document integration
 
-The G Suite Integration app integrates the G Suite’s document management features so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and G Suite services all in one place.
+The Google Workspace Integration app integrates the Google Workspace’s document management features so that you can create, store, and find your documents within SuperOffice, and enjoy the benefits of both SuperOffice and Google Workspace services all in one place.
 
-Simply sign in to SuperOffice using your G Suite login details and then open, edit, and store documents in G Suite directly from SuperOffice.
+Simply sign in to SuperOffice using your Google Workspace login details and then open, edit, and store documents in Google Workspace directly from SuperOffice.
 
 ![x][1]
 
@@ -19,9 +19,9 @@ Simply sign in to SuperOffice using your G Suite login details and then open, ed
 
 ## Overview
 
-Integrating SuperOffice CRM Online against Google G Suite enables the following functionality:
+Integrating SuperOffice CRM Online against Google Workspace enables the following functionality:
 
-* Signing in to SuperOffice CRM Online with a Google G Suite-account.
+* Signing in to SuperOffice CRM Online with a Google Workspace-account.
 * Using Google Drive to store documents and templates in the document archive.
 * Using Google Drive to edit documents in the document-archive (if file-type is supported by Google Drive).
 * This app is available for all SuperOffice CRM Online user plans.
@@ -33,26 +33,26 @@ The integration consists of four main components:
 
 * SuperOffice CRM Online
 * SuperOffice Federation Gateway (`http://superid.superoffice.com/`)
-* Google G Suite subscription
-* Google G Suite "Service account" with Google Drive
+* Google Workspace subscription
+* Google Workspace "Service account" with Google Drive
 
-To ensure the security and integrity of the documents stored in Google Drive, SuperOffice will store all documents on a single Google G Suite Account (the service account and "owner" of the document archive).
+To ensure the security and integrity of the documents stored in Google Drive, SuperOffice will store all documents on a single Google Workspace Account (the service account and "owner" of the document archive).
 
 While not required, SuperOffice recommends that a dedicated Google account is set up and used for this purpose.
 
-For SuperOffice Online to be able to use Google G Suite for storage, SuperOffice must first be authorized to access data stored in the organization’s Google Drive.
+For SuperOffice Online to be able to use Google Workspace for storage, SuperOffice must first be authorized to access data stored in the organization’s Google Drive.
 
-The authorization process will grant rights to an app registered with Google G Suite called "SuperOffice". This is the SuperOffice Federation Gateway that handles secure communication between Google G Suite, SuperOffice Online, and other parties (like SuperOffice Mail Link).
+The authorization process will grant rights to an app registered with Google Workspace called "SuperOffice". This is the SuperOffice Federation Gateway that handles secure communication between Google Workspace, SuperOffice Online, and other parties (like SuperOffice Mail Link).
 
 Read the [technical description][7].
 
-## What's the difference between a Google account and a G Suite account?
+## What's the difference between a Google account and a Google Workspace account?
 
-### What is G Suite?
+### What is Google Workspace?
 
-G Suite is a set of Google applications that brings together essential services to help your business. This is a hosted service that lets businesses, schools, and institutions use a variety of Google products -- including Email, Google Docs, and Google Calendar - on a unique domain (`www.yourcompany.com`).
+Google Workspace is a set of Google applications that brings together essential services to help your business. This is a hosted service that lets businesses, schools, and institutions use a variety of Google products -- including Email, Google Docs, and Google Calendar - on a unique domain (`www.yourcompany.com`).
 
-For instance, if you own the domain example.com and you sign up for G Suite services, everyone at your organization will get:
+For instance, if you own the domain example.com and you sign up for Google Workspace services, everyone at your organization will get:
 
 * A custom email address (user@example.com)
 * Tools for word processing
@@ -62,15 +62,15 @@ For instance, if you own the domain example.com and you sign up for G Suite serv
 * Access to a flexible intranet system
 * And much, much more!
 
-### How is a Google Account different from a G Suite account?
+### How is a Google Account different from a Google Workspace account?
 
-Although G Suite and Google Accounts allow you to access several of the same Google products, they're different types of accounts. A Google Account is a unified sign-in system that provides access to a variety of free Google consumer products - such as Gmail, Google Groups, Google Shopping List, Picasa, Web & App Activity, and Blogger - administered by Google. G Suite provides access to products powered by Google but administered by your organization.
+Although Google Workspace and Google Accounts allow you to access several of the same Google products, they're different types of accounts. A Google Account is a unified sign-in system that provides access to a variety of free Google consumer products - such as Gmail, Google Groups, Google Shopping List, Picasa, Web & App Activity, and Blogger - administered by Google. Google Workspace provides access to products powered by Google but administered by your organization.
 
 ### Not sure what kind of account you have?
 
-If you’re able to [edit your account recovery options][3], then you have a Google Account. If you sign in to your account to the [account recovery options page][4] and receive a message with details to contact your administrator, then you have a G Suite account.
+If you’re able to [edit your account recovery options][3], then you have a Google Account. If you sign in to your account to the [account recovery options page][4] and receive a message with details to contact your administrator, then you have a Google Workspace account.
 
-You may also check the domain name via G Suite Toolbox Dig (Google MX record lookup tool):
+You may also check the domain name via Google Workspace Toolbox Dig (Google MX record lookup tool):
 
 1. [Go to Dig][5].
 2. Type in your domain.

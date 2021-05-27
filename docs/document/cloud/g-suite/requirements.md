@@ -1,7 +1,7 @@
 ---
 title: Requirements
 uid: g_suite_requirements
-description: Requirements for G Suite integration
+description: Requirements for Google Workspace integration
 author: {github-id}
 keywords:
 so.topic: reference
@@ -14,10 +14,10 @@ so.client: online
 ## For all users
 
 * A SuperOffice Online subscription
-* A Google G Suite subscription
+* A Google Workspace subscription
 
 > [!NOTE]
-> All users must have a G Suite user account a private Gmail account is not sufficient.
+> All users must have a Google Workspace user account a private Gmail account is not sufficient.
 
 ## Additional requirements for set-up
 

@@ -12,11 +12,11 @@ so.topic: howto
 Before you start setting up federated sign-in with SuperID, you need to identify the provider and check if your domain name is viable to use as an IdP for SuperOffice CRM Online.
 
 >[!NOTE]
-> You can use either **G Suite Toolbox Dig** or **Microsoft OpenId record lookup tool** to check domain compatibility.
+> You can use either **Google Workspace Toolbox Dig** or **Microsoft OpenId record lookup tool** to check domain compatibility.
 
-## G Suite Toolbox Dig
+## Google Workspace Toolbox Dig
 
-The **G Suite Toolbox** can be used to identify problems with G Suite services. **Dig** supports looking up MX records for both Google and Microsoft domains.
+The **Google Workspace Toolbox** can be used to identify problems with Google Workspace services. **Dig** supports looking up MX records for both Google and Microsoft domains.
 
 1. Go to [https://toolbox.googleapps.com/apps/dig/][1]
 

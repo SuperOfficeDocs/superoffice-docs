@@ -20,7 +20,7 @@ Let's look at how SuperID changes how you use and set up identity providers (IdP
 
 * Other identity providers are not available.
 
-* SharePoint and G suite integration must be set up manually by R&D services.
+* SharePoint and Google Workspace integration must be set up manually by R&D services.
 
 ## With SuperID
 
@@ -28,7 +28,7 @@ Let's look at how SuperID changes how you use and set up identity providers (IdP
 
 * Other identity providers are available on request if they support OpenID Connect.
 
-* [G suite integration][1] is self-service.
+* [Google Workspace integration][1] is self-service.
 
 * [Office 365 integration][2] must be set up manually for the time being, but self-service is planned for upcoming releases.
 
