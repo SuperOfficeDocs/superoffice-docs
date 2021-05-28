@@ -64,7 +64,7 @@ The **Find** page dynamically displays all entities that support the new Find sy
 
 After getting the available entities, you can use the entity name to get the appropriate `SelectionForFind` result, which not only specifies the correct archive provider name for this search type, it specifies the default selection ID associated with the entity type. This ID can then be used to get the default criteria groups for that selection type.
 
-The **selection ID** indicates the associates personalized dynamic selection primary key, containing a default list of criteria used to pre-populate a new selection of this entity type. This is updated each time a user creates a new dynamic selection
+The **selection ID** indicates the associates personalized dynamic selection primary key, containing a default list of criteria used to pre-populate a new selection of this entity type. This is updated each time a user creates a new dynamic selection.
 
 [Learn how to do it in code](selection-how-to-search.md#get-data-source)
 
@@ -355,190 +355,13 @@ The main points to understand are:
 
 The grouping and use of the operator as such means it's simple to define, maintain and comprehend how groups of criteria are applied to selection search routines.
 
-#### Column Names
-
-While it's possible to lookup archive provider columns using the NetServer documentation reference, it's recommended to get **and cache** the columns using the API.
-
-There are three types of interesting archive information:
-
-* Archive columns
-* Archive restriction columns
-* Archive entities
-
-They are obtained using the following format:
-
-`archive{Descriptor}:{archiveProviderName}`
-
-### Get archive columns
-
-### [REST](#tab/get-archive-columns-1)
-
-```http
-GET /api/v1/MDOList/archiveColumns:ContactPersonDynamicSelectionV2 HTTP/1.1
-Authorization: Bearer {{token}}
-Content-Type: application/json
-Accept: application/json
-
-```
-
-### [Agent](#tab/get-archive-columns-2)
-
-```http
-POST /api/v1/Agents/MDO/GetList HTTP/1.1
-Authorization: Bearer {{token}}
-Content-Type: application/json
-Accept: application/json
-
-{
-  "Name": "archiveColumns:ContactPersonDynamicSelectionV2",
-  "ForceFlatList": true,
-  "AdditionalInfo": "",
-  "OnlyHistory": false
-}
-
-```
-
-### [WebApi Client](#tab/get-archive-columns-3)
-
-```csharp
-// setup access credentials
-var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
-var options = new WebApiOptions("https://sod.superoffice.com/Cust12345/api", authorization);
-
-// perform the request
-var mdoAgent = new MDOAgent(options);
-MDOListItem[] listItems = await mdoAgent.GetList("archiveColumns:ContactPersonDynamicSelectionV2","true","",false);
-```
-
-___
-
-### Get archive restriction columns
-
-### [REST](#tab/get-archive-restriction-columns-1)
-
-```http
-GET /api/v1/MDOList/archiveRestrictionColumns:ContactPersonDynamicSelectionV2 HTTP/1.1
-Authorization: Bearer {{token}}
-Content-Type: application/json
-Accept: application/json
-
-```
-
-### [Agent](#tab/get-archive-restriction-columns-2)
-
-```http
-POST /api/v1/Agents/MDO/GetList HTTP/1.1
-Authorization: Bearer {{token}}
-Content-Type: application/json
-Accept: application/json
-
-{
-  "Name": "archiveRestrictionColumns:ContactPersonDynamicSelectionV2",
-  "ForceFlatList": true,
-  "AdditionalInfo": "",
-  "OnlyHistory": false
-}
-
-```
-
-### [WebApi Client](#tab/get-archive-restriction-columns-3)
-
-```csharp
-// setup access credentials
-var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
-var options = new WebApiOptions("https://sod.superoffice.com/Cust12345/api", authorization);
-
-// perform the request
-var mdoAgent = new MDOAgent(options);
-MDOListItem[] listItems = await mdoAgent.GetList("archiveRestrictionColumns:ContactPersonDynamicSelectionV2","true","",false);
-```
-
-___
-
-### Get archive entities
-
-### [REST](#tab/get-archive-entities-columns-1)
-
-```http
-GET /api/v1/MDOList/archiveEntities:ContactPersonDynamicSelectionV2 HTTP/1.1
-Authorization: Bearer {{token}}
-Content-Type: application/json
-Accept: application/json
-
-```
-
-### [Agent](#tab/get-archive-entities-columns-2)
-
-```http
-POST /api/v1/Agents/MDO/GetList HTTP/1.1
-Authorization: Bearer {{token}}
-Content-Type: application/json
-Accept: application/json
-
-{
-  "Name": "archiveEntities:ContactPersonDynamicSelectionV2",
-  "ForceFlatList": true,
-  "AdditionalInfo": "",
-  "OnlyHistory": false
-}
-
-```
-
-### [WebApi Client](#tab/get-archive-entities-columns-3)
-
-```csharp
-// setup access credentials
-var authorization = new AuthorizationAccessToken("{access_token}", OnlineEnvironment.SOD);
-var options = new WebApiOptions("https://sod.superoffice.com/Cust12345/api", authorization);
-
-// perform the request
-var mdoAgent = new MDOAgent(options);
-MDOListItem[] listItems = await mdoAgent.GetList("archiveEntities:ContactPersonDynamicSelectionV2","true","",false);
-```
-
-___
-
-Whether getting columns or entities, the results an array of MDOListItem. The structures do differ slightly between columns and entities.
-
-#### Column Results
-
-| Property           |Description                                           |
-|--------------------|------------------------------------------------------|
-|ID                  | Arbitrary number, starts at 1                        |
-|Name                | DisplayName of column                                |
-|Tooltip             | DisplayTooltip of column                             |
-|Rank                | Same as ID (items are already in rank order)         |
-|Deleted             | always false                                         |
-|Type                | the programmatic name of the column, like person/fullName |
-|Color               | always 0                                             |
-|IconHint            | iconhint from column                                 |
-|StyleHint           | blank                                                |
-|ExtraInfo           | When archiveColumns: list, an “Y” or “N” if OrderBy is supported.<br/>When archiveRestrictionColumns: list, the column RestrictionType |
-|Selected            | true if the column is selected for display, i.e. there is a row in the superlistcolumnsize table |
-
-#### Entity Results
-
-| Property           |Description                                           |
-|--------------------|------------------------------------------------------|
-|ID                  | Arbitrary number, starts at 1                        |
-|Name                | DisplayName of entity                                |
-|Tooltip             | DisplayTooltip of entity                             |
-|Rank                | Same as ID (items are already in rank order)         |
-|Deleted             | always false                                         |
-|Type                | the programmatic name of the entity, like retired    |
-|Color               | always 0                                             |
-|IconHint            | blank                                                |
-|StyleHint           | blank if entity is optional, “mandatory” if the entity isn’t optional |
-|ExtraInfo           | blank                                                |
-|Selected            | true if the entity is selected for display, i.e. there is a row in the superlistcolumnsize table  with an e: prefix in the listOwner field |
-
 #### Fetching and saving criteria
 
 New Selection introduces the concept of __criteria groups__, where the criteria within each group are connected by AND, and groups are connected by OR. The database layout to support this has been in place for a long time and was used in an equivalent fashion for Saint Status definitions. There, each criteria group was in a separate tab in the user interface; in the new Filter screen groups are stacked vertically instead.
 
 APIs that only work with a simple `ArchiveRestrictionInfo[]` do not support the concept of multiple groups. Such methods will only return the first group, and on writing will delete any other groups. Examples are `GetDynamicSelectionCriteria` and `SetDynamicSelectionCriteria`; and similar methods in the Find agent. All these methods should be considered obsolete when applied to Selection and Find.
 
-Selection criteria should be fetched and stored using the `GetDynamicSelectionCriteriaGroups` and `SetDynamicSelectionCriteriaGroups` methods on the Selection agent. Using them will retrieve and save all groups, and avoid having to make assumptions about the StorageKey concept used in the Find agent methods. Contrast the differences in the two calls (the ts.Key is a selection id):
+Selection criteria should be fetched and stored using the `GetDynamicSelectionCriteriaGroups` and `SetDynamicSelectionCriteriaGroups` methods on the Selection agent. Using them will retrieve and save all groups, and avoid having to make assumptions about the StorageKey concept used in the Find agent methods. Contrast the differences in the two calls (the ts.Key is a selection ID):
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/customer/news/product/9-2-find-selection/
